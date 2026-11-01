@@ -1,0 +1,215 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-REUSE-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "task": "Two narrow new Java implementations reusing a mature exchange-add memory capability and an existing nominal consumer callback interface.",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "wire_common": {
+    "actual_top_level_keys": [
+      "chat_template_kwargs",
+      "max_tokens",
+      "messages",
+      "model",
+      "response_format",
+      "stream",
+      "stream_options",
+      "temperature"
+    ],
+    "message_roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true
+  },
+  "requests": [
+    {
+      "phase": "contract",
+      "role": "producer",
+      "semantic_round_within_this_domain": 1,
+      "source_message_UTF8_bytes": 37047,
+      "max_tokens": 4500,
+      "begin_UTC": "2026-11-01T19:02:51.557567+00:00",
+      "end_UTC": "2026-11-01T19:02:58.464344+00:00",
+      "content_TTFT_seconds": 2.6356629000001703,
+      "total_seconds": 6.906817399998545,
+      "reported_usage": {
+        "prompt_tokens": 14688,
+        "completion_tokens": 584,
+        "total_tokens": 15272
+      },
+      "cached_tokens": null
+    },
+    {
+      "phase": "contract",
+      "role": "producer",
+      "semantic_round_within_this_domain": 2,
+      "source_message_UTF8_bytes": 37047,
+      "max_tokens": 4500,
+      "begin_UTC": "2026-11-01T19:06:03.265538+00:00",
+      "end_UTC": "2026-11-01T19:06:11.012432+00:00",
+      "content_TTFT_seconds": 1.4693934000024456,
+      "total_seconds": 7.746769100001984,
+      "reported_usage": {
+        "prompt_tokens": 15075,
+        "completion_tokens": 849,
+        "total_tokens": 15924
+      },
+      "cached_tokens": null
+    },
+    {
+      "phase": "contract",
+      "role": "consumer",
+      "semantic_round_within_this_domain": 1,
+      "source_message_UTF8_bytes": 37047,
+      "max_tokens": 4500,
+      "begin_UTC": "2026-11-01T19:02:51.556903+00:00",
+      "end_UTC": "2026-11-01T19:02:57.878419+00:00",
+      "content_TTFT_seconds": 2.6366959999977553,
+      "total_seconds": 6.321640599999228,
+      "reported_usage": {
+        "prompt_tokens": 14686,
+        "completion_tokens": 447,
+        "total_tokens": 15133
+      },
+      "cached_tokens": null
+    },
+    {
+      "phase": "contract",
+      "role": "consumer",
+      "semantic_round_within_this_domain": 2,
+      "source_message_UTF8_bytes": 37047,
+      "max_tokens": 4500,
+      "begin_UTC": "2026-11-01T19:06:03.265568+00:00",
+      "end_UTC": "2026-11-01T19:06:09.826464+00:00",
+      "content_TTFT_seconds": 1.7392150000014226,
+      "total_seconds": 6.5609317000016745,
+      "reported_usage": {
+        "prompt_tokens": 15073,
+        "completion_tokens": 612,
+        "total_tokens": 15685
+      },
+      "cached_tokens": null
+    },
+    {
+      "phase": "new_implementation",
+      "role": "leaf",
+      "semantic_round_within_this_domain": 1,
+      "source_message_UTF8_bytes": 42040,
+      "max_tokens": 1800,
+      "begin_UTC": "2026-11-01T19:07:53.708224+00:00",
+      "end_UTC": "2026-11-01T19:07:58.478844+00:00",
+      "content_TTFT_seconds": 1.9114522000018042,
+      "total_seconds": 4.77068010000221,
+      "reported_usage": {
+        "prompt_tokens": 15750,
+        "completion_tokens": 384,
+        "total_tokens": 16134
+      },
+      "cached_tokens": null
+    },
+    {
+      "phase": "new_implementation",
+      "role": "binding",
+      "semantic_round_within_this_domain": 1,
+      "source_message_UTF8_bytes": 42040,
+      "max_tokens": 3000,
+      "begin_UTC": "2026-11-01T19:07:53.708551+00:00",
+      "end_UTC": "2026-11-01T19:07:59.317852+00:00",
+      "content_TTFT_seconds": 1.6169177999981912,
+      "total_seconds": 5.609313799999654,
+      "reported_usage": {
+        "prompt_tokens": 15771,
+        "completion_tokens": 564,
+        "total_tokens": 16335
+      },
+      "cached_tokens": null
+    }
+  ],
+  "cohort": {
+    "unique_logical_request_identities": 6,
+    "POSTs": 6,
+    "ENDs": 6,
+    "complete_stop": 6,
+    "transport_retries": 0,
+    "length": 0,
+    "contract_requests": 4,
+    "new_implementation_requests": 2
+  },
+  "stage_ownership": {
+    "contract_whole_legal_declarations_rejected": 3,
+    "consumer_second_round_source_contract_accepted": 1,
+    "earlier_contract_failure_examples": [
+      "Wrong nominal fallback receiver/type despite supplied actual consumer API.",
+      "A producer proposal still used an illegal bodyless class method prototype; this was source rejection, not an observed compiler failure."
+    ],
+    "owner_defined": "Owner froze two target names, public static signatures and precise route/protocol after contract review; no implementation body or expected trace prewritten. The accepted consumer contract was design evidence, not Java implementation or independent new-API design credit.",
+    "existing_API_and_memory_modified": false,
+    "new_API_Java_files": 0,
+    "domain_counting": "Two new first-round implementation domains follow the contract rounds. Their R1 labels are not contract R3 or repeated counts of an earlier task."
+  },
+  "implementation_adoption": [
+    {
+      "role": "leaf",
+      "bytes": 638,
+      "source_sha256": "52cc55df78e56ff6b2acf58e1edec26debfcd5bf460a17522751df8b0462b8ad",
+      "complete_decoded_UTF8_exact": true,
+      "owner_Java_token_EOL_or_EOF_edits": 0,
+      "formal_blob_exact": true
+    },
+    {
+      "role": "binding",
+      "bytes": 1179,
+      "source_sha256": "2fc3d6fdd4d78bce860d474a61d191e97a221d96642131c6a30e67edc38ef0ec",
+      "complete_decoded_UTF8_exact": true,
+      "owner_Java_token_EOL_or_EOF_edits": 0,
+      "formal_blob_exact": true
+    }
+  ],
+  "source_review": {
+    "complete_parent_and_separate_source_reviews_recorded": true,
+    "mature_operation_reused": "Existing exchangeAddInt32 capability with actual returned integer bits; no separate load/store decomposition or replacement memory platform.",
+    "binding": "Owner-selected exact identity and call-site routing with unchanged argument forwarding to existing fallback; selected receiver identity and exception semantics reviewed.",
+    "scope": "Finite normal branch/return/effect projection only; not full CPU/ABI, hardware atomic or concurrency qualification."
+  },
+  "first_software_validation": {
+    "begin_UTC": "2026-11-01T19:12:12.021307+00:00",
+    "end_UTC": "2026-11-01T19:12:12.689621+00:00",
+    "seconds": 0.6683164999994915,
+    "exit_code": 0,
+    "new_TUs": 2,
+    "result_classes": 3,
+    "old_source_recompile": 0,
+    "dynamic_RUN_or_Test": false,
+    "live_access_or_business_actions": false
+  },
+  "later_formal_source_stage": {
+    "observed_UTC": "2026-11-01T19:14:02.272720+00:00",
+    "commit": "dcd93f94dced1a7ef8226e621c70d940458e261f",
+    "normal_push_owner_receipt": true,
+    "owner_observed_remote_exact_and_clean": true,
+    "both_formal_blobs_independently_equal_selected_raw": true
+  },
+  "cost": {
+    "owner_preparation_seconds": null,
+    "owner_contract_selection_seconds": null,
+    "owner_review_seconds": null,
+    "owner_net_saving": null,
+    "unknown_not_zero": true
+  },
+  "limits": [
+    "Whole raw adoption applies to the two bounded implementations, not the earlier contract proposals or from-scratch API/architecture design.",
+    "First strict compile and formal source publication do not prove dynamic tests, real execution, performance targets or owner time savings.",
+    "Independent witness work is a separate cohort and cannot inherit these production grades."
+  ],
+  "record_creation_new_requests_compiles_tests_or_business_actions": 0,
+  "permissions": "OFFLINE_ONLY; no live process, deployment, UI or game access for this record.",
+  "next_real_trigger": "Append independently necessary offline finite-witness results for exact source pins, preserving separate model/owner test grades; do not rerun old successful source or access live business for documentation."
+}
