@@ -1,0 +1,193 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-LIFECYCLE-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "task": "Source-only proposal and independent counterexamples for a private bootstrap-to-live ownership qualification across assembly and host installation.",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "input": {
+    "current_source_files": 9,
+    "physical_file_bytes": 726033,
+    "prefix_file_bytes": 727104,
+    "actual_source_message_UTF8_bytes": 720311,
+    "selected_source_hashes_verified": true,
+    "whole_transitive_closure_independently_proven": null,
+    "future_private_qualification_contract_implemented": false
+  },
+  "wire_common": {
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true
+  },
+  "transport": {
+    "logical_tasks": 2,
+    "POSTs": 4,
+    "ENDs": 4,
+    "configured_transport_retries": 2,
+    "partial_resets_discarded": 2,
+    "complete_stop": 2,
+    "manual_reissues": 0,
+    "partial_splicing": false,
+    "independent_per_attempt_wire_body_capture": false,
+    "business_replay": false
+  },
+  "tasks": [
+    {
+      "role": "proposal",
+      "max_tokens": 8000,
+      "source_message_UTF8_bytes": 720311,
+      "actual_top_level_keys": [
+        "chat_template_kwargs",
+        "max_tokens",
+        "messages",
+        "model",
+        "response_format",
+        "stream",
+        "stream_options",
+        "temperature"
+      ],
+      "POSTs": 2,
+      "configured_transport_retries": 1,
+      "same_task_request_file_used_for_retry": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "begin_UTC": "2026-11-01T18:44:46.637219+00:00",
+          "end_UTC": "2026-11-01T18:45:28.557772+00:00",
+          "http_status": 200,
+          "content_TTFT_seconds": 35.39061759999822,
+          "total_seconds": 41.92053390000001,
+          "finish_reason": null,
+          "SSE_DONE": false,
+          "reported_usage": null,
+          "cached_tokens": null,
+          "failure": "ConnectionResetError10054 after nonempty SSE; partial discarded without semantic reading"
+        },
+        {
+          "attempt": 2,
+          "begin_UTC": "2026-11-01T18:45:40.139497+00:00",
+          "end_UTC": "2026-11-01T18:46:03.899041+00:00",
+          "http_status": 200,
+          "content_TTFT_seconds": 1.665157300001738,
+          "total_seconds": 23.759561300001224,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 139539,
+            "completion_tokens": 2147,
+            "total_tokens": 141686
+          },
+          "cached_tokens": null,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "role": "counterexamples",
+      "max_tokens": 5000,
+      "source_message_UTF8_bytes": 720311,
+      "actual_top_level_keys": [
+        "chat_template_kwargs",
+        "max_tokens",
+        "messages",
+        "model",
+        "response_format",
+        "stream",
+        "stream_options",
+        "temperature"
+      ],
+      "POSTs": 2,
+      "configured_transport_retries": 1,
+      "same_task_request_file_used_for_retry": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "begin_UTC": "2026-11-01T18:44:46.638721+00:00",
+          "end_UTC": "2026-11-01T18:45:28.563920+00:00",
+          "http_status": 200,
+          "content_TTFT_seconds": 36.40881950000039,
+          "total_seconds": 41.92508430000089,
+          "finish_reason": null,
+          "SSE_DONE": false,
+          "reported_usage": null,
+          "cached_tokens": null,
+          "failure": "ConnectionResetError10054 after nonempty SSE; partial discarded without semantic reading"
+        },
+        {
+          "attempt": 2,
+          "begin_UTC": "2026-11-01T18:45:40.546688+00:00",
+          "end_UTC": "2026-11-01T18:45:59.929788+00:00",
+          "http_status": 200,
+          "content_TTFT_seconds": 1.5243933999990986,
+          "total_seconds": 19.38321029999861,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 139514,
+            "completion_tokens": 1658,
+            "total_tokens": 141172
+          },
+          "cached_tokens": null,
+          "failure": null
+        }
+      ]
+    }
+  ],
+  "adoption": {
+    "production_code": 0,
+    "proposal": "Rejected. Only a few existing source call-chain facts retained; no complete lifecycle design adopted.",
+    "counterexamples": "Partial existing source checklist only; incorrect head, milestone and promotion-site arguments rejected."
+  },
+  "rejected_proposal": [
+    "Cross-package call to an actual package-private method; a suggested public boolean does not prove successful assembly.",
+    "Conflated core return or assigned host fields with completion of later installation/continuity setup that can still fail.",
+    "Removed the entire current dynamic guard instead of separating historical proof from retained fresh ownership checks.",
+    "Invented an exact old replacement anchor and described invalidation without implementing it."
+  ],
+  "rejected_counterexamples": [
+    "Equality to the old entry head would reject legitimate later observations and business progression; it is not current ownership.",
+    "An expensive verification site was treated as a qualification-promotion site although no promotion occurs there.",
+    "Assigned completion flags plus captured state were treated as sufficient despite later failure paths."
+  ],
+  "owner_followup_contract": {
+    "stage": "Owner source design only, not implemented or runtime-validated.",
+    "two_distinct_completions": [
+      "All required domains and planning restoration/import have succeeded.",
+      "The exact matching session has completed host installation and subsequent continuity preparation."
+    ],
+    "private_authority": "Completion must bind the actual owner/session/producer and dynamic resources; arbitrary public booleans or caller-created authority do not prove it.",
+    "retain": "Fresh writer, transport, repository, source and received-frame identity/chronology checks remain; historical requalification still uses original strict proof.",
+    "lifetime": "Retirement, close, replacement and restore must invalidate old ownership while legitimate head progression remains legal.",
+    "concurrency": "Lock order and publication visibility remain explicit review obligations before implementation."
+  },
+  "verification_at_cutoff": {
+    "source_changed": false,
+    "compiled": false,
+    "tests_run": false,
+    "runtime_or_business_actions": false,
+    "measured_speedup": null
+  },
+  "cost": {
+    "owner_active_preparation_seconds": null,
+    "owner_active_review_seconds": null,
+    "owner_net_savings": null,
+    "unknown_not_zero": true,
+    "HTTP_elapsed_is_not_owner_labor": true
+  },
+  "inference_limits": [
+    "Two tasks and four POST attempts are not four business tasks.",
+    "Lower retry TTFT with cached tokens null does not prove cache hits, server queue state or throughput benefit.",
+    "Partial source facts and an owner follow-up design do not qualify a working private handoff."
+  ],
+  "record_creation_new_requests_tests_or_business_actions": 0,
+  "next_real_trigger": "After the independently required functional source is closed, repin actual inputs for the genuinely unfinished handoff. Require failed-late-install and retirement/progression evidence; do not repeat these closed proposal/audit requests for documentation."
+}
