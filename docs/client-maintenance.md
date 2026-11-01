@@ -46,6 +46,8 @@ ensure_current(config)
 
 ## 失败处理与验证范围
 
+2026-11-02，`machine_id: 4-8e1c2f1861`发生一次实际退出75：pnpm已装好1.19.5及Windows平台包，但跳过postinstall，命令目标仍是名为`opencode.exe`的479B文本占位。owner核实包版本、实际二进制和`--version`后，按包内copyBinary的硬链接行为修复目标；为遵守消费项目禁PowerShell规则，没有运行postinstall的Windows CPU探测。共享每日入口实际复查0、registry latest与CLI均为1.19.5，随后才开始模型任务。见[维护与业务分列回执](evidence/2026-11-02-http-gui-layout.json)。这是本次安装状态的处理，不是通用自动修复实现，也不授模型源码能力。
+
 缺少pnpm、registry查询失败、更新失败、超时或更新后PATH仍指向旧版本，均生成结构化AI修复请求，记录实际错误和诊断日志位置，不保存当天成功状态。AI按错误检查命令遮蔽、pnpm全局bin、registry/网络/代理、安装脚本或文件占用等原因，执行具体修复，再做真实复查并恢复原任务。更新仍使用pnpm，服务端点和模型不自动切换。
 
 修复使用宿主AI现有能力，允许在OpenCode版本未达标时进行维护诊断，避免“必须先升级才能修复升级”的循环。业务派发等待维护核实，但AI修复本身继续工作；修复不重放先前业务动作。AI客户端应保留已尝试办法，只有确实仍受外部条件限制时才向用户报告阻塞。

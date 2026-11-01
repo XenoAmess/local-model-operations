@@ -1,0 +1,195 @@
+{
+  "case_id": "HTTP-GUI-001",
+  "mode_id": "http-candidate",
+  "observed_date": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "machine_id": "4-8e1c2f1861",
+  "task": "Fix an actual clipped GUI editor tab and add source-layout regression",
+  "shared_caller_commit": "865161d5de1b6b35e63b35a5c3630350844c4842",
+  "shared_config": {
+    "bytes": 1642,
+    "sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40"
+  },
+  "client": {
+    "python": "3.14.7",
+    "opencode_maintenance_version": "1.19.5",
+    "native_opencode_generation_used": false
+  },
+  "model": "qwen38-coder",
+  "weights_quantization_backend": "unknown",
+  "logical_workflows": 3,
+  "post_count": 4,
+  "transport_retry_count": 0,
+  "peak_http_inflight": 3,
+  "peak_duration_seconds": 11.499901,
+  "requests": [
+    {
+      "task": "page-fill",
+      "request": {
+        "bytes": 41361,
+        "sha256": "49dc385d0775e2531978b336a100e03e2e31c5ebbebde421123dd17143add062"
+      },
+      "response": {
+        "bytes": 2018,
+        "sha256": "eb2a0b9f354da37f13fd506b91459266af143ff93b9728b00af14a7f1143cf3e"
+      },
+      "source_message_bytes": 34828,
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 3500,
+      "post_begin_utc": "2026-11-01T19:39:57.447646+00:00",
+      "post_end_utc": "2026-11-01T19:40:08.967458+00:00",
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 3838.8530000229366,
+      "total_ms": 11520.778700010851,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 12295,
+        "completion_tokens": 590,
+        "total_tokens": 12885
+      },
+      "cached_prompt_tokens_if_reported": null
+    },
+    {
+      "task": "layout-regression",
+      "request": {
+        "bytes": 51411,
+        "sha256": "9994bf96ed5b0635bcbf41e2ee648e5b38f6c7291a5fa9e353cd1526dfbaf660"
+      },
+      "response": {
+        "bytes": 18724,
+        "sha256": "f72f0d6f1f587f7b16554a8c30037978702d0d541f9ba56beab6db33f7479749"
+      },
+      "source_message_bytes": 44259,
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 6500,
+      "post_begin_utc": "2026-11-01T19:39:57.447850+00:00",
+      "post_end_utc": "2026-11-01T19:40:35.047541+00:00",
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 4962.216100015212,
+      "total_ms": 37599.138999998104,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 14710,
+        "completion_tokens": 3999,
+        "total_tokens": 18709
+      },
+      "cached_prompt_tokens_if_reported": null
+    },
+    {
+      "task": "adjacent-surfaces",
+      "request": {
+        "bytes": 118295,
+        "sha256": "c749d176aaba9337ddbbd73e509ec9d0dd40225ae447336401d1da8630a487e2"
+      },
+      "response": {
+        "bytes": 2364,
+        "sha256": "e057d55c415f932e407ef07a32ae38cf996254f1f656f17244952dd3a05b38c2"
+      },
+      "source_message_bytes": 97734,
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 3500,
+      "post_begin_utc": "2026-11-01T19:39:57.467557+00:00",
+      "post_end_utc": "2026-11-01T19:40:09.837393+00:00",
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 6068.544599984307,
+      "total_ms": 12369.999299990013,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 30775,
+        "completion_tokens": 665,
+        "total_tokens": 31440
+      },
+      "cached_prompt_tokens_if_reported": null
+    },
+    {
+      "task": "layout-regression-corrected",
+      "request": {
+        "bytes": 77830,
+        "sha256": "affe5057341243527f688646b43cbe00dca8c97acb069aa00fa696b94ff00649"
+      },
+      "response": {
+        "bytes": 19522,
+        "sha256": "d9d1a38685343fefa634e761efe651b71c272f0d5c0340c4139a9437fab8815c"
+      },
+      "source_message_bytes": 69232,
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 6500,
+      "post_begin_utc": "2026-11-01T19:42:22.720586+00:00",
+      "post_end_utc": "2026-11-01T19:43:07.278550+00:00",
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 2925.5336000351235,
+      "total_ms": 44558.11530002393,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 20274,
+        "completion_tokens": 4341,
+        "total_tokens": 24615
+      },
+      "cached_prompt_tokens_if_reported": null
+    }
+  ],
+  "raw_evidence": "Retained on executing machine; original requests/responses and vanilla excerpts are not published",
+  "adoption": {
+    "production": "One identity-page fill hunk adopted; owner supplied the two omitted sibling-page sizes and comments",
+    "analysis": "Identity diagnosis useful; sibling-page exemptions and incorrect ancestor descriptions rejected",
+    "tests": "Both full-stop Java drafts rejected, zero Java source adopted; owner implemented all final tests",
+    "first_test_input_limit": "RRF AST API was supplied, but shared parser GUI blockoverride representation was not explicitly provided until correction",
+    "second_test_failure": "Full shared parser and precise prior failures supplied; still mutated wrong ancestor and confused scrollbox surface with its children",
+    "oracle_exposure": "First test request had original GUI and vanilla source; correction included owner-fixed GUI and exact diagnostics, not independent oracle"
+  },
+  "software_validation": {
+    "exit_code": 0,
+    "elapsed_seconds": 73.64950020000106,
+    "reactor_modules": [
+      "ck3-save-core",
+      "religious-ritual-fusion-tools"
+    ],
+    "concurrency": 1,
+    "tests": 129,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "new_layout_methods": 3,
+    "negative_allocation_controls": 9,
+    "first_full_attempt": "119 tests, 118 pass, 1 error due owner command missing selected shared output root; preserved, not model failure"
+  },
+  "adopted_source_commit": "56f149f1733804f1616a51e5b662a3b8905edf54",
+  "source_url": "https://github.com/XenoAmess/ck3_eternal_recurrence/commit/56f149f1733804f1616a51e5b662a3b8905edf54",
+  "game_rendering_validation": false,
+  "workshop_distribution": false,
+  "cost": {
+    "preparation_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "net_saving_proven": false
+  },
+  "next_real_trigger": "After explicit restoration of CK3 authority, verify all three tabs and long scroll content; use next unfinished AST task to assess narrower method generation rather than replay this closed task",
+  "maintenance": {
+    "initial_exit": 75,
+    "cause": "pnpm skipped postinstall leaving a non-PE opencode.exe placeholder",
+    "owner_repair": "Linked verified installed same-package Windows binary as postinstall copyBinary does, without invoking prohibited PowerShell CPU detection",
+    "daily_recheck_exit": 0,
+    "daily_recheck_version": "1.19.5",
+    "repair_is_model_generation": false
+  }
+}
