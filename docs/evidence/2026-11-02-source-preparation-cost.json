@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "CLIENT-SOURCE-PREP-001",
+  "mode_id": "http-candidate",
+  "record_type": "existing_client_preparation_cost_audit_not_a_new_model_generation",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "question": "Does this real source preparation case need another whole-file request packager?",
+  "existing_caller_SHA256": "ea0979f2f64ea46ee24c696e06f8149bb28e52f2eed6bfc1960c10a50742c2fe",
+  "original_preparation": {
+    "BEGIN_UTC": "2026-11-01T22:40:05+00:00",
+    "END_UTC": "2026-11-01T22:48:20.262745+00:00",
+    "wall_seconds": 495.262745,
+    "selected_full_text_files": 11,
+    "raw_source_bytes": 36686,
+    "roles": 2,
+    "source_message_UTF8_bytes_per_role": 40158,
+    "scope": "Material discovery, impact/declaration closure, overbroad filename output, missing legacy navigation, bounded re-search, freezing files and constructing task/spec.",
+    "active_owner_seconds": null,
+    "subphase_active_seconds": null,
+    "errors": "Missing/old navigation and broad initial inventory are retained owner preparation costs; not HTTP or model semantic failures."
+  },
+  "existing_capabilities": {
+    "selected_whole_file_reading": true,
+    "ordered_system_user_user_assembly": true,
+    "shared_automatic_per_file_SHA_manifest": false,
+    "owner_existing_per_file_byte_SHA_freeze": true,
+    "automatic_direct_declaration_or_transitive_dependency_selection": false,
+    "hand_assembled_large_prefix_in_this_case": false,
+    "actual_specs": "Both roles used source_files, task_path and max_tokens; no stable_source_path. The manifest index was side metadata, not the model source prefix.",
+    "input_precedence": "A supplied stable_source_path takes precedence over source_files; the caller does not merge the two. A metadata index cannot stand in for complete source."
+  },
+  "offline_check": {
+    "at_UTC": "2026-11-01T22:58:14.239226+00:00",
+    "reproductions": 2,
+    "new_HTTP_or_maintenance_subprocesses": 0,
+    "all_eleven_frozen_file_bytes_SHA_match": true,
+    "both_source_messages_equal_original_actual_REQUEST": true,
+    "assembly_seconds_from_already_selected_files": [
+      0.0014933999991626479,
+      0.0011875000054715201
+    ],
+    "conditions": "Offline prepare_request only, already selected frozen files and warm filesystem. Discovery, impact analysis, path repair and closure selection are excluded."
+  },
+  "decision": {
+    "new_wrapper_or_caller_change": false,
+    "reason": "Whole-file loading and source assembly already work. This evidence does not identify assembly or per-role packing as the bottleneck, so a second packager has no demonstrated saving.",
+    "net_owner_saving_seconds": null,
+    "comparison_limit": "Do not subtract millisecond offline assembly from the earlier preparation wall or call the difference saved labor. The original missing/navigation cost remains.",
+    "model_candidate_correctness_adoption_and_business_results": "Outside this client-preparation audit; no new candidate, compile, test or live action."
+  },
+  "next_real_trigger": "On a new real preparation task, measure bounded inventory/impact/closure stages against known owner-selected symbols and paths. Improve an existing tool only for a demonstrated mechanical bottleneck; do not auto-collect a whole repository or replace business impact selection.",
+  "private_evidence_digests": {
+    "offline_assembly_audit": {
+      "bytes": 2341,
+      "sha256": "1502ac37d7744e4683af470f69808498ef4f474aae4b64586bfe788188eced7c"
+    },
+    "selected_input_manifest": {
+      "bytes": 6048,
+      "sha256": "6500cc4aeb994fe65d637c1bacf1d91ddfe2bb78119d0dd5f979bcd77f4608b7"
+    },
+    "original_preparation_cost_log": {
+      "bytes": 685,
+      "sha256": "cfe9d0521bbc7b2ca706609a415244d04a718e022f586ea614048de474ba66bb"
+    },
+    "owner_impact_selection": {
+      "bytes": 1388,
+      "sha256": "3044583eb4ae2283e2c6c0038c9f11af0b5a6ff0e73c66453a79184def2dc532"
+    },
+    "owner_preparation_script": {
+      "bytes": 9486,
+      "sha256": "3a202dcf5976cd669aec9efe8c29e1d2322b1db6347d899ee0516a0ccaf79be6"
+    },
+    "role_one_spec": {
+      "bytes": 2155,
+      "sha256": "433478d44154a1509b8c849fc5327ca40c34ca87f3ef40ddf96c98d247d4d7fa"
+    },
+    "role_two_spec": {
+      "bytes": 2165,
+      "sha256": "0022b6f47c0dbda64f2f2b1127997e8987954e4bad2daaf5fd1d11ea84107fb9"
+    }
+  },
+  "publication_new_HTTP_compile_test_or_live_actions": 0
+}

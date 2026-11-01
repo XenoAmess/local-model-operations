@@ -110,6 +110,8 @@ owner最终源22:35:08.545586Z已选，新的pending双POST22:36:09才开始；�
 
 ## 客户端保障与生成能力分开
 
+[CLIENT-SOURCE-PREP-001](evidence/2026-11-02-source-preparation-cost.json)核对真实材料准备成本：495.262745s发现/闭包墙钟含宽初筛与旧导航missing，主动工时未知。现有caller已经全文装配两角色的11个所选文件，离线重装与各自原REQUEST源码消息完全一致；owner已有逐文件bytes/SHA冻结。毫秒级重装只测已选文件的机械读取，不能证明原准备节省，也不支持另造封包wrapper。声明选择仍由owner负责，下一真实准备案先测阶段成本；本次无新HTTP或模型能力验收。
+
 共享caller已增加本地证据I/O分类：RAW预开失败不调用网络，也不记POST_BEGIN；写入/flush/close及输出失败不当成网络重试，503/不完整SSE仍保留重试。`post_invoked`只表示进入网络调用，不证明服务端收到。
 
 这项改动有4个新增离线方法的分期验证，是[OpenCode案例OC-LOCALIO-001](capability-opencode.md)产物经owner修正后的客户端能力，不能计为普通HTTP模型的代码生成成功。[采用/验证](evidence/2026-11-01-caller-local-evidence-delivery.json)、[发布版本](https://github.com/XenoAmess/local-model-operations/commit/761ef26d8dab26cc08442457040a1025f1448571)。有限Windows离线测试不证明所有本地I/O故障或其它平台。

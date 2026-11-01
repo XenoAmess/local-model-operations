@@ -47,6 +47,10 @@ python scripts/call.py examples/task.json example --output .local-model-evidence
 
 调用器接受由源码列表和任务文件组成的 spec，也接受完整请求对象。spec 可使用有序 `source_files`，或预先拼好的 `stable_source_path`，并给出 `task_path`。文件必须真的存在且包含模型需要的内容；向没有文件工具的模型提供另一份答复的文件路径，不能替代源码正文。
 
+`source_files`已按给定顺序读取每个完整文件并加入文件边界标记，不必再手拼同一份大前缀。`stable_source_path`适用于已有完整前缀；两者同时提供时，当前实现优先读取`stable_source_path`，不会合并`source_files`。只有路径、SHA或文件清单的manifest不能替代实际源码正文。调用器保存实际REQUEST及尝试证据；逐文件冻结/SHA可使用owner已有manifest，当前不会自动生成依赖闭包或替owner选择直接声明者。
+
+准备成本先区分材料发现、影响/声明闭合与机械装配。[一个真实准备案](evidence/2026-11-02-source-preparation-cost.json)的495.262745s包含过宽初筛和旧导航missing；所选11文件用现有调用器离线重装后与原REQUEST完全一致。毫秒级重装已排除发现工作，不能拿它减去原墙钟宣称节省；先在下一真实任务测出机械瓶颈，再决定是否改现有工具，避免重复封包器或自动递归收全仓。
+
 实际请求固定为三消息：
 
 1. `system`：配置中的逐字固定 `system_template`，由调用器归一。
