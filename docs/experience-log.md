@@ -13,6 +13,12 @@
 
 长输入不自动需要长回答。曾有完整整类输出重复正文直到 length，改成真正尚未完成的方法或有限 old/new edits 才能控制产物范围；只能采用完整终态的目标单位，不能续拼截断文本。[输出范围与类型角色](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-worker-guide.md#L164-L182)
 
+## 先核每条审计问题，再统计结论
+
+2026-11-01 的两份完整源码审计暴露了独立误报：一份给9个条目标严重等级，后文却逐项自撤为 None / N/A 或说明行为正确，最终确认的可执行模型发现为0；另一份以缓存 key 缺 maximum 为漏洞，却漏看每次 hit 对当前大小限制的校验，还把源码中明确存在的成对句柄预算 guard 说成未检查。这些不是9个缺陷，也不构成“全部正确”的证明。机械流程观察可部分采用，整体批准、源码采用及软件结果分别记录。
+
+每条发现至少给出具体触发序列、被违反的合同、实际源码依据和后果；严重等级、自相矛盾或自行撤回的条目不能替代这些证据。评估缓存时联查 key 身份、每次 hit 前提和当前值域，不只看字段清单；不同语义 profile 或权限仍可能需要独立验证，本例不授权合并所有缓存。依据为执行者保管的 `PORTABLE-AUDIT-FINDING-RULE224.json` 及精确版本源审，见[来源说明](source-origins.md)；没有新的编译、OS 行为或性能结论。
+
 ## 声明、预算与状态必须闭合到真实消费者
 
 2026-11-01 的继承闭包案例中，实际前缀漏祖接口，owner 又误写“三方法”；模型按这个合同作答后，首编发现第四个方法缺失，独立源审也曾漏掉。应逐角色、逐纠正轮沿 `extends` / `implements` 找到直接声明者，包含所有成员及名义返回类型，不能只看文件数或 fully qualified 名称。后续 owner 补实现的成本归 owner；输入已补齐后的模型 hunk 则独立署名。[公开继承案例](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-worker-guide.md#L262-L266)
