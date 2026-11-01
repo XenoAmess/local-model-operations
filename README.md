@@ -27,6 +27,7 @@ python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstat
 | worker 协作、单主线、及时提交推送 | [AGENTS.md](AGENTS.md) |
 | 调用方式、配置覆盖、机器身份和输出 | [使用指南](docs/usage.md) |
 | 每日OpenCode版本检查、pnpm更新和客户端接入 | [客户端每日检查](docs/client-maintenance.md) |
+| Windows入口占位文本、按包构建许可与CLI实证 | [HOI4迁移经验](docs/hoi4-windows-client-experience.md) |
 | 真实并发、SSE、退避重试和证据 | [并发与重试规范](docs/concurrency-and-retries.md) |
 | 能力范围、失败分类和探索方法 | [能力边界](docs/capability-boundaries.md) |
 | 普通HTTP候选模式的长期能力跟踪 | [HTTP能力记录](docs/capability-http.md) |

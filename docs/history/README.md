@@ -9,3 +9,7 @@
 ## Civ6 历史资料
 
 另有 [2026-11-02 Civ6 指南、配置和经验三份精确快照](civ6-2026-11-02/README.md)，来源固定于已发表76a41d8；同样不改旧链接或正文，现行整理见[迁移经验](../civ6-experience-2026-11-02.md)。
+
+## HOI4补充历史
+
+- [2026-10-25 Windows入口修复原文](hoi4-opencode-windows-repair-2026-10-25.md)：固定公开Git blob的完整字节，版本范围和哈希见[来源记录](../source-origins.md#2026-11-02hoi4-windows客户端经验迁移)。可复用操作经验见[现行提炼](../hoi4-windows-client-experience.md)。原文不是当前安装配置。

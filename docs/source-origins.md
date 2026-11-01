@@ -100,3 +100,13 @@ JFR记录时长及DataLoss0由原执行者的小summary核实；本次整理没�
 ## 2026-11-02：Civ6 经验迁移
 
 新增公开 civ6_dev 提交76a41d8d2c23806a20a4d98aa3ba251d598f054b的三份 Git blob：[精确档案及哈希](history/civ6-2026-11-02/README.md)、[机器可读来源](evidence/2026-11-02-civ6-migration.json)。通过 git show 读取，不复制 CRLF 工作树字节。现行[经验整理](civ6-experience-2026-11-02.md)独立注明 owner 纠错、采用和未知；没有导入游戏权限或原始模型、账号、存档与资产。
+
+## 2026-11-02：HOI4 Windows客户端经验迁移
+
+用户明确要求将既有本地模型经验迁入本仓库。下列历史文档直接取自原项目固定提交的Git blob，未改正文、换行或末尾；未复制原始运行账本或二进制。
+
+| 本仓库归档 | 固定公开来源 | 字节数 | SHA-256 |
+| --- | --- | ---: | --- |
+| [HOI4 Windows入口修复](history/hoi4-opencode-windows-repair-2026-10-25.md) | [原文](https://github.com/XenoAmess/xenoamess_hoi4_dev/blob/b5c95dc9844a3eb907a7a9a4765d899f241236b0/docs/maintenance/opencode-windows-repair-2026-10-25.md) | 2982 | `26feaf6e8281c7aa246208ec4871f53078e011fc5a4a65550db504ac6af5520f` |
+
+[现行提炼](hoi4-windows-client-experience.md)由本地模型候选经owner逐项核对、压缩和补充链接，分级为partial加owner。它保留旧版CLI验证范围，不新增模型或业务成功结论；归档中的机器标识及本机相对回执路径只有历史含义。当前维护继续服从共享每日检查。

@@ -124,3 +124,9 @@ Windows / CPython3.13.2 / pnpm11.7.0实际将OpenCode1.18.31更新到1.19.5，�
 ## 2026-11-02：共享入口的消费者与失败门禁
 
 Civ6已用薄适配委托共享CLI，14项必要边界检查通过；其中用真实prepare_request消费实际请求，并用真实main模拟维护失败，确认dispatch未被调用。后到一次模型审计却忽略该控制流，提出重复preflight；owner拒绝，不因审计标高危或完整stop便改代码。调用链证据、业务system覆盖、原子claim、候选就绪/adopted=null各自验证，旧HTTP/SSE实现与8个内部测试退役。精确采用源及本轮未测范围见[后到回执](evidence/2026-11-02-civ6-adapter-delivery.json)，不能把适配测试当作游戏效果或模型自主交付。
+
+## 2026-11-02：HOI4 Windows入口占位文本
+
+迁入一份已有公开历史：OpenCode入口实际是479字节shell文本，pnpm仅拒绝该包的构建脚本；同版本原生依赖已安装。先检查真实PE/架构、许可及候选程序版本，再修复入口并逐个CLI读回，比只相信安装退出码更有诊断依据。只按包修正许可，不能扩成全局开放。
+
+此例限定Windows10/pnpm12.6/OpenCode1.19.4；help写stderr、同版本硬链接及真实字节哈希分别保留。它没有模型调用，不授予当前模型或OpenCode工具生成能力。[原文与来源](source-origins.md#2026-11-02hoi4-windows客户端经验迁移)、[操作经验](hoi4-windows-client-experience.md)与[当前每日维护](client-maintenance.md)分别维护。
