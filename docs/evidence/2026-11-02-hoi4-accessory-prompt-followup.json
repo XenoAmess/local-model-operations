@@ -1,0 +1,202 @@
+{
+  "schema": "local-model-operations.hoi4-accessory-prompt-followup/v1",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-01T22:50:23.296893+00:00",
+  "prior_cases": [
+    "2026-11-02-hoi4-model-operations.json",
+    "2026-11-02-hoi4-prompt-text-followup.json"
+  ],
+  "new_real_tasks": 4,
+  "actual_http_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "actual_client_intervals": {
+    "window_started_at_utc": "2026-11-01T22:34:24.544361+00:00",
+    "window_ended_at_utc": "2026-11-01T22:34:33.543583+00:00",
+    "window_seconds": 8.999222,
+    "peak": 4,
+    "peak_duration_seconds": 6.952679,
+    "average_inflight": 3.4985512080933217
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261102-b011-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 763,
+        "completion_tokens": 491,
+        "total_tokens": 1254
+      },
+      "failure": null,
+      "content_ttft_ms": 1434.892499994021,
+      "total_ms": 6759.545300010359,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "3ec94aa3439f544840d7f6b8da20a82dca74649c94dfe09e2b790c46c844ea1c",
+      "summary_sha256": "eb56119a0992ace73571b030826cab0f267092ae6d2bb0a2fb81cf8c4a81233a",
+      "http_status": 200,
+      "adoption": {
+        "source_original_sha256": "bc69faaf5bda3d57b6185a25e2bc56150bc72cd0e331803fc894b31d94148ad0",
+        "task_id": "hoi4-20261102-b011-prompt-01",
+        "request_sha256": "3ec94aa3439f544840d7f6b8da20a82dca74649c94dfe09e2b790c46c844ea1c",
+        "summary_sha256": "eb56119a0992ace73571b030826cab0f267092ae6d2bb0a2fb81cf8c4a81233a",
+        "adoption": "partial + owner source and contract checks",
+        "owner_changes": [
+          "Removed protocol and cross-task/non-input references from actual image prompt.",
+          "Restated complete exact source constraints and input identity roles.",
+          "Made no-neck/floating-collar/clipping/bib constraints explicit where omitted.",
+          "Clarified optical spectacles versus output alpha, without adding spectacles to sources that lack them.",
+          "Canonical prepare appended full alpha rules."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2154,
+        772
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b011-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 775,
+        "completion_tokens": 518,
+        "total_tokens": 1293
+      },
+      "failure": null,
+      "content_ttft_ms": 1359.5529999874998,
+      "total_ms": 7252.478599984897,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "d3de4a1362ec5fe3eaa22f397b0e93d36628002af110bfcbfcc8e51e588db49f",
+      "summary_sha256": "cd17bc9ff5f83fcde4746bcb4c820b085158f9c0986e7572eda29046a726621a",
+      "http_status": 200,
+      "adoption": {
+        "source_original_sha256": "418930b2e584e9f3613f7ebc8fbd52f48c04a3dcc9ccab2eddfb9e434b3e3777",
+        "task_id": "hoi4-20261102-b011-prompt-02",
+        "request_sha256": "d3de4a1362ec5fe3eaa22f397b0e93d36628002af110bfcbfcc8e51e588db49f",
+        "summary_sha256": "cd17bc9ff5f83fcde4746bcb4c820b085158f9c0986e7572eda29046a726621a",
+        "adoption": "partial + owner source and contract checks",
+        "owner_changes": [
+          "Removed protocol and cross-task/non-input references from actual image prompt.",
+          "Restated complete exact source constraints and input identity roles.",
+          "Made no-neck/floating-collar/clipping/bib constraints explicit where omitted.",
+          "Clarified optical spectacles versus output alpha, without adding spectacles to sources that lack them.",
+          "Canonical prepare appended full alpha rules."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2223,
+        772
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b011-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 781,
+        "completion_tokens": 761,
+        "total_tokens": 1542
+      },
+      "failure": null,
+      "content_ttft_ms": 1350.3631000057794,
+      "total_ms": 8769.006699993042,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "198c90ce6c2c406581040efa952b6b2ae1e5a97a355a17e32586c93f98bf37ec",
+      "summary_sha256": "fac8e9335a96c7f5ef02dbf3dbbc5a849758fa151ea1a5d9d1fdd097f3a95611",
+      "http_status": 200,
+      "adoption": {
+        "source_original_sha256": "9762a9fc7e712804789553f31b2c154e29335f200c3ced0cc6e23445d965bbe1",
+        "task_id": "hoi4-20261102-b011-prompt-03",
+        "request_sha256": "198c90ce6c2c406581040efa952b6b2ae1e5a97a355a17e32586c93f98bf37ec",
+        "summary_sha256": "fac8e9335a96c7f5ef02dbf3dbbc5a849758fa151ea1a5d9d1fdd097f3a95611",
+        "adoption": "partial + owner source and contract checks",
+        "owner_changes": [
+          "Removed protocol and cross-task/non-input references from actual image prompt.",
+          "Restated complete exact source constraints and input identity roles.",
+          "Made no-neck/floating-collar/clipping/bib constraints explicit where omitted.",
+          "Clarified optical spectacles versus output alpha, without adding spectacles to sources that lack them.",
+          "Canonical prepare appended full alpha rules."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2193,
+        772
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b011-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 837,
+        "completion_tokens": 611,
+        "total_tokens": 1448
+      },
+      "failure": null,
+      "content_ttft_ms": 1513.6380000039935,
+      "total_ms": 8014.497199998004,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "26db34fec89a621ef484fb43af2e3685e9f07ba3fd6c7c331c19d73805865365",
+      "summary_sha256": "07752bca3e81047b9f25047ead038748fd6c92bd987089601e5dee25d0c059d8",
+      "http_status": 200,
+      "adoption": {
+        "source_original_sha256": "61fd39506c16e13bfa14da3c269467f38f22cfe926eee99c89864ab50031acc4",
+        "task_id": "hoi4-20261102-b011-prompt-04",
+        "request_sha256": "26db34fec89a621ef484fb43af2e3685e9f07ba3fd6c7c331c19d73805865365",
+        "summary_sha256": "07752bca3e81047b9f25047ead038748fd6c92bd987089601e5dee25d0c059d8",
+        "adoption": "partial + owner source and contract checks",
+        "owner_changes": [
+          "Removed protocol and cross-task/non-input references from actual image prompt.",
+          "Restated complete exact source constraints and input identity roles.",
+          "Made no-neck/floating-collar/clipping/bib constraints explicit where omitted.",
+          "Clarified optical spectacles versus output alpha, without adding spectacles to sources that lack them.",
+          "Canonical prepare appended full alpha rules."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2511,
+        772
+      ]
+    }
+  ],
+  "stage_at_cutoff": "Four prepared uncalled builtin image jobs; no visual qualification from local text model. Real input images remain outside text model request.",
+  "owner_cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "observed_cross_tool_wording_issue": {
+    "separate_earlier_local_text_task": "hoi4-20261102-rok-compact-badge-repair",
+    "reviewed_builtin_image_fullsize_sha256": "82d42511478108958b11b015c72f18ffb21455368329b160e58c67bb73cdd34b",
+    "original_source_sha256": "913d1fa94d143c6ad5f253218b4997ec04a5aa35be2be38214951842a2f60fe2",
+    "observed_result": "Image tool rendered an unsupported literal golden human foot/toes on the chest badge. Exact source has only a small horizontal gold mark/area. Rejected by actual full-master/source/white/cyan/alpha review.",
+    "input_ambiguity_owner_boundary": "Owner source observation used footprint to mean occupied visual area; local text candidate preserved that term. This does not prove the local text model independently invented a foot, nor that text adoption grants visual approval.",
+    "pending_correction": "Replace ambiguous size wording with visible horizontal gold mark/occupied area; forbid literal feet/toes and unsupported badge border. No new image result claimed."
+  },
+  "next_real_question": "Run prepared source-specific jobs and manually compare exact sources, accessories, hair, expression and full returned PNG/alpha; append actual results only when observed.",
+  "raw_materials": "Exact requests, events/SSE, text candidates and image originals retained with their consuming project owner; this file contains reviewed metrics/digests only."
+}
