@@ -1,0 +1,304 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-GUI-002",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "machine_id": "4-8e1c2f1861",
+  "followup_to": "HTTP-GUI-001; new fixture and copy tasks only, no recount of its four earlier POSTs",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Prepare real long-family-list fixture inputs and complete Chinese/English Workshop description and Notes for a GUI hotfix.",
+  "wire": {
+    "message_roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "temperature": 0,
+    "thinking": false,
+    "format": "JSON object, streamed with usage",
+    "logical_requests": 3,
+    "seed_semantic_generations": 2,
+    "copy_semantic_generations": 1,
+    "actual_POSTs": 4,
+    "transport_retries": 1,
+    "complete_stop_DONE_candidates": 3,
+    "length_outputs": 0
+  },
+  "calls": [
+    {
+      "task": "seed-first",
+      "max_tokens": 10000,
+      "source_message_UTF8_bytes": 191566,
+      "request": {
+        "file": "REQUEST.json",
+        "bytes": 202979,
+        "sha256": "21960764fa0f48783242e185ec5bc685d92b23ef83e98d1bd50ad536f5cd2456"
+      },
+      "event_log": {
+        "file": "EVENTS.jsonl",
+        "bytes": 4544,
+        "sha256": "fbf009fdd225c1d8a7daf291b2eef97d2c5fc9bf2fccc999f43eb52f892d544d"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-01T21:08:37.287552+00:00",
+          "END_UTC": "2026-11-01T21:08:46.166524+00:00",
+          "http_status": 200,
+          "content_TTFT_ms": 6384.141499991529,
+          "reported_total_ms": 8879.106100008357,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "failure": "connection_reset_10054_partial_stream_discarded",
+          "reported_usage": null,
+          "cached_prompt_tokens": null,
+          "raw_response": {
+            "file": "ATTEMPT1-RESPONSE.sse",
+            "bytes": 46181,
+            "sha256": "740cf5d0106e8c39f9950d776cac40e2e47612616238894dfa3fd7316ae4ba65"
+          }
+        },
+        {
+          "attempt": 2,
+          "POST_BEGIN_UTC": "2026-11-01T21:08:54.445260+00:00",
+          "END_UTC": "2026-11-01T21:09:07.257056+00:00",
+          "http_status": 200,
+          "content_TTFT_ms": 829.6427000313997,
+          "reported_total_ms": 12811.71560002258,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "candidate_complete": true,
+          "failure": null,
+          "reported_usage": {
+            "prompt_tokens": 49384,
+            "completion_tokens": 2061,
+            "total_tokens": 51445
+          },
+          "cached_prompt_tokens": null,
+          "raw_response": {
+            "file": "ATTEMPT2-RESPONSE.sse",
+            "bytes": 219671,
+            "sha256": "f7a9191c01cb6f42b9b642c2a6f59a70b849d0237af388eb93a825c5f266465b"
+          }
+        }
+      ]
+    },
+    {
+      "task": "seed-correction",
+      "max_tokens": 10000,
+      "source_message_UTF8_bytes": 192630,
+      "request": {
+        "file": "REQUEST.json",
+        "bytes": 203430,
+        "sha256": "748992fc7cdcfb706950901699c68cb02ca0ac68c40625e6603e2300d95ada9c"
+      },
+      "event_log": {
+        "file": "EVENTS.jsonl",
+        "bytes": 2088,
+        "sha256": "a974b5c9d216ebcd26b8489e20c9ae5677abba505af756e249cfbf4bcb6d193d"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-01T21:11:49.235055+00:00",
+          "END_UTC": "2026-11-01T21:12:14.229469+00:00",
+          "http_status": 200,
+          "content_TTFT_ms": 896.0710999672301,
+          "reported_total_ms": 24994.30699995719,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "candidate_complete": true,
+          "failure": null,
+          "reported_usage": {
+            "prompt_tokens": 49708,
+            "completion_tokens": 4213,
+            "total_tokens": 53921
+          },
+          "cached_prompt_tokens": null,
+          "raw_response": {
+            "file": "ATTEMPT1-RESPONSE.sse",
+            "bytes": 440423,
+            "sha256": "3350bc489bda4272604bd558f096ae75ce82e649079ca1f2a14dc79053b7f7e9"
+          }
+        }
+      ]
+    },
+    {
+      "task": "bilingual-copy",
+      "max_tokens": 7000,
+      "source_message_UTF8_bytes": 35980,
+      "request": {
+        "file": "REQUEST.json",
+        "bytes": 38092,
+        "sha256": "075421228edea50481a5cf40aa83aa9a059f4b773a9874d57331c7a3cbfec233"
+      },
+      "event_log": {
+        "file": "EVENTS.jsonl",
+        "bytes": 2139,
+        "sha256": "cf91d7c8a2b4668e0692c93a0c68aa5ed74a26fdd1370ac716e61bb5781aab74"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-01T21:32:21.629144+00:00",
+          "END_UTC": "2026-11-01T21:33:52.446650+00:00",
+          "http_status": 200,
+          "content_TTFT_ms": 56531.061200017575,
+          "reported_total_ms": 90817.12399999378,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "candidate_complete": true,
+          "failure": null,
+          "reported_usage": {
+            "prompt_tokens": 11356,
+            "completion_tokens": 2405,
+            "total_tokens": 13761
+          },
+          "cached_prompt_tokens": null,
+          "raw_response": {
+            "file": "ATTEMPT1-RESPONSE.sse",
+            "bytes": 270628,
+            "sha256": "08933c3dd8fa2bf88e72d6caafeeaf5a2584e6f962569e1462a069604a150b6c"
+          }
+        }
+      ]
+    }
+  ],
+  "input_boundary": {
+    "seed": "Current producer, readers, tests, resources and production eligibility filters supplied. First task included installed creation/relationship excerpts; explicit macro examples were added in the correction, so that input preparation cost is not erased. Correction also exposed exact owner findings and proposed bounded-call structure; not an independent blind implementation.",
+    "copy": "Full current product description, draft Notes, actual visual/native facts and prior-version publication record supplied. Source itself retained stale generic cache-gap text; explicit facts distinguished prior-version acceptance from pending hotfix distribution. Owner input reconciliation cost and model failure to resolve the supplied conflict are both retained.",
+    "source_commit_at_request": "99462364158fc0165cd2cf2b2d4813bb572920f9",
+    "copy_shared_caller_commit": "b308e6a77c80b37ba4f3924f7baaf8c57ba474a3",
+    "seed_shared_caller_commit": null,
+    "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40"
+  },
+  "seed_adoption": {
+    "model_implementation": "Both complete drafts rejected in source review; zero model Java/script/test implementation adopted. Owner rewrote the four-file candidate.",
+    "first_draft_errors": "Helper leaked into all fresh cases; invalid exact-text edit, unresolved token and invented Faith members; protected conversion flag made new characters ineligible; required JUnit omitted.",
+    "corrected_draft_errors": "Age10 violated adult qualification; list populated on each child but counted on actor; attempted/partial-replay guard absent; unresolved token and unsupported bare return; test counted one numbered call as32 and missed locale/file-count consumers.",
+    "preserved_contract": "Fixture-only inputs create real eligible relationships. Owner keeps preparation state separate from product state, never pre-fills the production conversion list, and leaves the production selector to discover candidates. Requested32 new inputs does not imply exactly32 production rows or observed overflow/scrolling.",
+    "frozen_candidate_cutoff": "Original owner review and closure remain NOT_APPLIED/NOT_COMPILED/NOT_RUN at their original cutoff."
+  },
+  "copy_adoption": {
+    "level": "PARTIAL_WITH_OWNER_FACTUAL_BILINGUAL_REWRITE",
+    "complete_fields_adopted_unchanged": 0,
+    "fields_owner_revised": 2,
+    "errors": "Old Chinese/English cache-incomplete paragraphs contradicted the appended prior-version pass; Chinese hotfix/unverified-long-list coverage was incomplete, English sections duplicated, scrolling was overstated as verified and internal owner language leaked into player copy.",
+    "owner_changes": "Reconciled prior0.2.0 download/cache+menu pass against pending0.2.1 distribution in both complete languages; limited actual three-page/cancel observations, retained long-list and full-matrix gaps, reorganized the full player rules. Supplied original product text is not independent model contribution.",
+    "model_raw_field_UTF8_bytes": [
+      7237,
+      1810
+    ],
+    "owner_final_field_UTF8_bytes": [
+      7931,
+      2167
+    ],
+    "each_field_limit_bytes_exclusive": 8000,
+    "original_Popen": {
+      "pid": 20020,
+      "process_create_time_seconds": "1793568741.3406887",
+      "started_at_UTC": "2026-11-01T21:32:21.339693+00:00",
+      "finished_at_UTC": "2026-11-01T21:33:52.473705+00:00",
+      "original_wait_returncode": 0
+    },
+    "publication_status_at_review": "External owner-reviewed candidate only; not applied or published.",
+    "R61_evidence_boundary": "Three-page visual, cancel/native and passive observations were real; full PUBLIC-VERIFY2 failed because owner pinned a live debug.log that changed on exit. Do not call the full chain green."
+  },
+  "later_owner_software_validation": {
+    "source_commit": "c7e9a16ca14d68391277edf1cfbf44bbbbbf3eeb",
+    "source_url": "https://github.com/XenoAmess/ck3_eternal_recurrence/commit/c7e9a16ca14d68391277edf1cfbf44bbbbbf3eeb",
+    "observed_at_UTC": "2026-11-01T21:39:39.058481+00:00",
+    "original_maven_wait_returncode": 0,
+    "save_tests": 10,
+    "RRF_tests": 120,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "reactor_modules": [
+      "ck3-save-core",
+      "religious-ritual-fusion-tools"
+    ],
+    "recompiled_files": {
+      "save_production_and_tests": 0,
+      "RRF_production": 21,
+      "RRF_tests": 19
+    },
+    "reported_maven_time": "01:26 min",
+    "credit": "Owner implementation with real producer-to-reader test; later software pass does not validate rejected model drafts or overwrite earlier candidate cutoff.",
+    "game_long_list_validation": "NOT_RUN at this record cutoff"
+  },
+  "clock_accounting": {
+    "scope": "Only the four POST_BEGIN-to-ATTEMPT_END intervals in these three original request directories; not all clients or service capacity.",
+    "sample_client_peak": 1,
+    "sample_HTTP_interval_union_seconds": 137.502688,
+    "longest_contiguous_peak_seconds": 90.817506,
+    "observation_window_UTC": [
+      "2026-11-01T21:08:37.287552+00:00",
+      "2026-11-01T21:33:52.446650+00:00"
+    ],
+    "service_running_waiting_KV": null,
+    "target_concurrency_is_observed_concurrency": false,
+    "owner_preparation_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "net_owner_saving_seconds": null
+  },
+  "source_receipts": [
+    {
+      "scope": "seed model review",
+      "file": "MODEL-REVIEW.actual.json",
+      "bytes": 1232,
+      "sha256": "be1602904eb267672ad0a95c3b717b360857cb0fd093f044d8b4d3ed8de94ead"
+    },
+    {
+      "scope": "seed owner review",
+      "file": "OWNER-REVIEW.md",
+      "bytes": 5645,
+      "sha256": "aabe2161729150ca1f0252d871888e7ba2bce89a6646487ed99138bdecf9073f"
+    },
+    {
+      "scope": "seed original candidate closure",
+      "file": "CANDIDATE-CLOSED.actual.json",
+      "bytes": 1544,
+      "sha256": "3d0e0db355ddb653fbd42db6a13585b561e0c75dcf24bd98a25a8b04602fc724"
+    },
+    {
+      "scope": "copy owner review and adoption",
+      "file": "OWNER-REVIEW-AND-ADOPTION.actual.json",
+      "bytes": 8891,
+      "sha256": "377970e31825e588294fd8a60fb488bbb0b88a9fc2ec84e6c712ea60064736c3"
+    },
+    {
+      "scope": "copy original Popen wait",
+      "file": "MODEL-CALL.original-wait.actual.json",
+      "bytes": 1717,
+      "sha256": "2f13b7189174863fddb929cb600f891e95732e76050bb071d1916c8d3bdf5d2e"
+    },
+    {
+      "scope": "later owner producer freeze and software validation",
+      "file": "FIXTURE-PRODUCER-CLEAN-FREEZE.actual.json",
+      "bytes": 20563,
+      "sha256": "b09bde438163a9c1cfcfbb6813fe0217e29f2b92526566967024a2aba4e94f26"
+    }
+  ],
+  "public_evidence_boundary": "Original REQUEST/SSE, owner patch and game excerpts retained on executing machine. Only sanitized facts and byte/SHA identities published; no raw prompts, game source or private ledger.",
+  "not_proven": [
+    "Game long-list scrolling",
+    "Hotfix Workshop publication/download/cache",
+    "Full business matrix",
+    "Model-independent fixture correctness",
+    "Net owner savings or performance benefit",
+    "OpenCode-native generation capability"
+  ],
+  "record_creation": {
+    "new_model_requests": 0,
+    "tests_repeated": 0,
+    "game_or_Steam_actions": 0,
+    "old_receipts_modified": false,
+    "general_policy_modified": false
+  },
+  "next_real_trigger": "Append only independently required long-list runtime or actual hotfix distribution facts when observed. Do not replay closed requests or infer rolling/whole-matrix success from page visibility or Java tests."
+}
