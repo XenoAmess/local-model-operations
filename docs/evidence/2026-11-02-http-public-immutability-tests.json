@@ -1,0 +1,104 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-PUBLIC-TEST-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "task": "Six public immutable-data/codec alias-boundary tests; not a private qualification or lazy-cache synchronization fixture.",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "wire": {
+    "fixed_three_messages": true,
+    "temperature": 0,
+    "thinking": false,
+    "JSON_stream_usage": true,
+    "logical_requests": 2,
+    "POSTs": 2,
+    "ENDs": 2,
+    "stop": 2,
+    "transport_retries": 0
+  },
+  "calls": [
+    {
+      "role": "R1",
+      "max_tokens": 5000,
+      "source_message_UTF8_bytes": 22291,
+      "begin_UTC": "2026-11-01T19:37:35.234706+00:00",
+      "end_UTC": "2026-11-01T19:37:50.629320+00:00",
+      "content_TTFT_seconds": 1.2732595000052243,
+      "total_seconds": 15.394616300000052,
+      "reported_usage": {
+        "prompt_tokens": 5218,
+        "completion_tokens": 2421,
+        "total_tokens": 7639
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "R2",
+      "max_tokens": 6000,
+      "source_message_UTF8_bytes": 33274,
+      "begin_UTC": "2026-11-01T19:40:02.115195+00:00",
+      "end_UTC": "2026-11-01T19:40:14.874945+00:00",
+      "content_TTFT_seconds": 1.459414700002526,
+      "total_seconds": 12.759703099996841,
+      "reported_usage": {
+        "prompt_tokens": 7474,
+        "completion_tokens": 1670,
+        "total_tokens": 9144
+      },
+      "cached_tokens": null
+    }
+  ],
+  "adoption": {
+    "R1": "Whole source rejected before compilation for Java types, fake decode and missing/false coverage.",
+    "R2": "Partial: five real test methods and fixture mechanics retained; owner added sixth constructor-input/history-accessor case. No whole model class claim.",
+    "later_owner_decision": "ACCEPT_SELECTED_TEST_FOR_NORMAL_SOURCE_PUBLICATION",
+    "raw_result_status_fields_preserved": true
+  },
+  "selected_test": {
+    "bytes": 8521,
+    "sha256": "459ea46ef603caba26cf69e33ddd3d5003c5bfbc0057268b811afb4f3efc5cc4",
+    "methods": 6
+  },
+  "verification": {
+    "first_strict_seconds": 0.5964229000019259,
+    "first_strict_exit": 0,
+    "first_RUN_seconds": 0.8017870999974548,
+    "first_RUN_errors": 6,
+    "first_RUN_assertions_reached": 0,
+    "first_failure_owner_cause": "Reduced classpath omitted an existing required exception class; not a model assertion failure.",
+    "correction": "Classpath fallback only; selected source, first compiled test class, fixtures and assertions unchanged; no recompile.",
+    "RUN02_seconds": 0.7172546000001603,
+    "RUN02": {
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "old_tests_repeated": 0
+  },
+  "clock_accounting": {
+    "HTTP_elapsed_sum_seconds": 28.154319399996893,
+    "first_strict_to_final_RUN_wall_seconds": 260.566751,
+    "executed_strict_RUN01_RUN02_sum_seconds": 2.115464599999541,
+    "owner_active_preparation_seconds": null,
+    "owner_active_review_seconds": null,
+    "net_owner_saving": null,
+    "limits": "Different clock scopes, not continuous labor or an end-to-end task total; do not add them as one work interval."
+  },
+  "qualification": "Six passes apply to pinned actual binaries and public value/codec boundaries. Complete original source-to-class receipts are not held, so source equivalence is not claimed.",
+  "not_proven": [
+    "Private qualification positive path",
+    "Lazy-cache concurrent initialization or synchronization runtime behavior",
+    "Runtime business acceptance, net performance or memory benefit"
+  ],
+  "later_formal_test_source": {
+    "commit": "b22354f7eb0b997cd1d52d27a73f3d1fb1eeb300",
+    "owner_observed_remote_exact_clean": true,
+    "formal_blob_independently_matches_selected_bytes": true
+  },
+  "permissions": "OFFLINE_ONLY; no live process/Game/Native query, UI, recording, deployment, recovery or launch.",
+  "record_creation_new_requests_tests_or_business_actions": 0,
+  "next_real_trigger": "Append a genuinely necessary behavior stage with the exact binary/source qualification; never turn these public-data tests into private-issuer or performance evidence."
+}
