@@ -1,0 +1,26 @@
+{
+  "schema": "local-model-operations.caller-local-evidence-late-cost/v1",
+  "delivery_commit": "761ef26d8dab26cc08442457040a1025f1448571",
+  "earlier_delivery_record": "2026-11-01-caller-local-evidence-delivery.json",
+  "frozen_private_cost_receipt_sha256": "aabf29bca7b77e76e076f0db79741d38747fe70303056d1010dde1d6006acd58",
+  "late_cost_scalars": {
+    "total_reported_business_tasks": 1,
+    "total_reported_POSTs": 127,
+    "three_CLI_intervals_seconds": 483.028688,
+    "task_workspace_prepare_begin_utc": "2026-11-01T13:58:33.854321+00:00",
+    "last_required_test_end_utc": "2026-11-01T15:00:19.663305+00:00",
+    "workspace_prepare_to_last_test_wall_seconds_including_coordination_and_repair": 3705.808984,
+    "earlier_owner_source_read_preparation": "not timestamped; unknown, not zero",
+    "owner_integration_after_model_actual_RED_to_first_owner_test_seconds_including_design_preparation_and_coordination": 811.328316,
+    "owner_first_fixture_RED_to_only_failed_unrun_start_wall_seconds": 97.066875,
+    "test_monotonic_seconds_including_failure_setup_and_result_read": 1.77538210000057,
+    "measurement_limits": "Intervals overlap other team work and include notification/resource/coordination waits; they are not CPU/active-human time or pure model compute. No net time-saving claim."
+  },
+  "adoption_qualification": "No complete model production accepted. Partial mechanism/test adoption followed by owner takeover of local-I/O helper, common finalization, POST accounting and failure fixtures.",
+  "publisher_process_correction": "Publisher initially waited for a chat freeze confirmation even though exact owner READY pins and actual successful validation were available. This redundant publication gate was removed; act on the validated pinned version and append later receipts separately.",
+  "publisher_redundant_chat_wait_seconds": null,
+  "unknown_not_zero": true,
+  "new_model_requests_or_tests_for_this_receipt": 0,
+  "source_payload_changed": false,
+  "net_owner_time_saving_proven": false
+}
