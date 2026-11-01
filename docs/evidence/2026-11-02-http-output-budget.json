@@ -1,0 +1,243 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-OUTPUT-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "wire_common": {
+    "message_roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true
+  },
+  "input_closure": {
+    "current_api_and_mechanical_fixture_provided": true,
+    "complete_transitive_closure_independently_proven": null,
+    "new_target_body_and_result_given_to_witness": false
+  },
+  "cohorts": [
+    {
+      "cohort": "A",
+      "POSTs": 4,
+      "ENDs": 4,
+      "transport_retries": 0,
+      "length": 4,
+      "stop": 0,
+      "requests": [
+        {
+          "role": "direct",
+          "semantic_round": 1,
+          "output_structure": "Complete Java method including finite input, expected full trace and final-byte assertions.",
+          "source_message_UTF8_bytes": 41341,
+          "max_tokens": 5500,
+          "begin_UTC": "2026-11-01T17:47:19.153826+00:00",
+          "end_UTC": "2026-11-01T17:48:00.007521+00:00",
+          "content_TTFT_seconds": 2.1453986999986228,
+          "total_seconds": 40.85380609999993,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 15442,
+            "completion_tokens": 5500,
+            "total_tokens": 20942
+          },
+          "cached_tokens": null,
+          "semantic_content_reviewed": false,
+          "whole_adopted": false
+        },
+        {
+          "role": "chain",
+          "semantic_round": 1,
+          "output_structure": "Complete Java method including finite input, expected full trace and final-byte assertions.",
+          "source_message_UTF8_bytes": 41341,
+          "max_tokens": 6000,
+          "begin_UTC": "2026-11-01T17:47:19.161104+00:00",
+          "end_UTC": "2026-11-01T17:48:03.195707+00:00",
+          "content_TTFT_seconds": 2.137795200000255,
+          "total_seconds": 44.034563599998364,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 15450,
+            "completion_tokens": 6000,
+            "total_tokens": 21450
+          },
+          "cached_tokens": null,
+          "semantic_content_reviewed": false,
+          "whole_adopted": false
+        },
+        {
+          "role": "direct",
+          "semantic_round": 2,
+          "output_structure": "Compact DATA with explicit finite seeds, ordered observations/effects and final-state obligations; narrowed from Java output.",
+          "source_message_UTF8_bytes": 41341,
+          "max_tokens": 4500,
+          "begin_UTC": "2026-11-01T17:50:45.351141+00:00",
+          "end_UTC": "2026-11-01T17:51:16.493844+00:00",
+          "content_TTFT_seconds": 1.5199788999998418,
+          "total_seconds": 31.142677799998637,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 15336,
+            "completion_tokens": 4500,
+            "total_tokens": 19836
+          },
+          "cached_tokens": null,
+          "semantic_content_reviewed": false,
+          "whole_adopted": false
+        },
+        {
+          "role": "chain",
+          "semantic_round": 2,
+          "output_structure": "Compact DATA with explicit finite seeds, ordered observations/effects and final-state obligations; narrowed from Java output.",
+          "source_message_UTF8_bytes": 41341,
+          "max_tokens": 4500,
+          "begin_UTC": "2026-11-01T17:50:45.355905+00:00",
+          "end_UTC": "2026-11-01T17:51:16.570096+00:00",
+          "content_TTFT_seconds": 1.7960482999988017,
+          "total_seconds": 31.214014100001805,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 15393,
+            "completion_tokens": 4500,
+            "total_tokens": 19893
+          },
+          "cached_tokens": null,
+          "semantic_content_reviewed": false,
+          "whole_adopted": false
+        }
+      ],
+      "adoption": "No model Java/DATA fragment adopted. Owner supplied the complete finite witness from the independent source-derived oracle frozen after first dispatch and before any answer was read.",
+      "software_at_source_freeze": "Owner source ready; no compile or run credit assigned here."
+    },
+    {
+      "cohort": "B",
+      "POSTs": 4,
+      "ENDs": 4,
+      "transport_retries": 0,
+      "length": 3,
+      "stop": 1,
+      "requests": [
+        {
+          "role": "direct",
+          "semantic_round": 1,
+          "output_structure": "Complete Java method including finite input, expected full trace and final-byte assertions.",
+          "source_message_UTF8_bytes": 41724,
+          "max_tokens": 4500,
+          "begin_UTC": "2026-11-01T18:16:28.103763+00:00",
+          "end_UTC": "2026-11-01T18:16:51.198463+00:00",
+          "content_TTFT_seconds": 1.9147584999991523,
+          "total_seconds": 23.094693799997913,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 14529,
+            "completion_tokens": 2750,
+            "total_tokens": 17279
+          },
+          "cached_tokens": null,
+          "semantic_content_reviewed": true,
+          "whole_adopted": false
+        },
+        {
+          "role": "chain",
+          "semantic_round": 1,
+          "output_structure": "Complete Java method including finite input, expected full trace and final-byte assertions.",
+          "source_message_UTF8_bytes": 41724,
+          "max_tokens": 5000,
+          "begin_UTC": "2026-11-01T18:16:28.106230+00:00",
+          "end_UTC": "2026-11-01T18:17:03.725382+00:00",
+          "content_TTFT_seconds": 1.9125561000000744,
+          "total_seconds": 35.61918460000015,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 14505,
+            "completion_tokens": 5000,
+            "total_tokens": 19505
+          },
+          "cached_tokens": null,
+          "semantic_content_reviewed": false,
+          "whole_adopted": false
+        },
+        {
+          "role": "direct",
+          "semantic_round": 2,
+          "output_structure": "Complete Java method narrowed to two reachable scenes; finite loop, full trace and final-map obligations remain.",
+          "source_message_UTF8_bytes": 41724,
+          "max_tokens": 3500,
+          "begin_UTC": "2026-11-01T18:19:04.962633+00:00",
+          "end_UTC": "2026-11-01T18:19:31.299773+00:00",
+          "content_TTFT_seconds": 1.3596066999998584,
+          "total_seconds": 26.337194299998373,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 14517,
+            "completion_tokens": 3500,
+            "total_tokens": 18017
+          },
+          "cached_tokens": null,
+          "semantic_content_reviewed": false,
+          "whole_adopted": false
+        },
+        {
+          "role": "chain",
+          "semantic_round": 2,
+          "output_structure": "Compact DATA with explicit finite seeds, ordered observations/effects and final-state obligations; narrowed from Java output.",
+          "source_message_UTF8_bytes": 41724,
+          "max_tokens": 3500,
+          "begin_UTC": "2026-11-01T18:19:04.969018+00:00",
+          "end_UTC": "2026-11-01T18:19:29.648771+00:00",
+          "content_TTFT_seconds": 1.6038465000019642,
+          "total_seconds": 24.679856000002474,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 14535,
+            "completion_tokens": 3500,
+            "total_tokens": 18035
+          },
+          "cached_tokens": null,
+          "semantic_content_reviewed": false,
+          "whole_adopted": false
+        }
+      ],
+      "adoption": "No model Java/DATA fragment adopted. Owner supplied the complete finite witness from the independent source-derived oracle frozen after first dispatch and before any answer was read.",
+      "software_at_source_freeze": "Owner source ready; no compile or run credit assigned here."
+    }
+  ],
+  "classification": {
+    "total_POSTs": 8,
+    "total_ENDs": 8,
+    "transport_retries": 0,
+    "length_wholes_discarded_without_semantic_reading": 7,
+    "complete_stop_whole_semantic_rejections": 1,
+    "model_adoption": 0,
+    "third_semantic_rounds": 0,
+    "partial_stream_splicing": false
+  },
+  "complete_stop_rejection": "One complete Java method used a nonexistent nested API, instantiated abstract helpers incorrectly and confused exception types; rejected as a complete semantic/type failure, separate from seven unread length results.",
+  "owner_budget_and_scope_cost": "Second rounds did narrow scope and sometimes replace Java with DATA, while lowering budgets. The remaining finite-loop, callback, full trace and final-state obligations did not complete within those budgets. Neither proportional scope reduction nor sufficiency was established; do not describe scope as wholly unchanged, or assert a larger budget would produce correct output.",
+  "rule_for_new_real_tasks": "Estimate complete output from required structure, scenes, declarations and expected trace/data. Complex full test/method witnesses may need 6000-12000 finite output tokens, or independently scoped methods with reusable fixtures. Reduce the required complete work when reducing budget; DATA/shorter prompts alone do not prove the output is smaller enough.",
+  "limits": [
+    "Length termination establishes an incomplete result under that budget, not a semantic rejection or permanent capability ceiling.",
+    "No controlled budget comparison or cached-token benefit established.",
+    "Closed cohorts remain closed; do not reissue them to validate the rule."
+  ],
+  "owner_preparation_review_correction_seconds": null,
+  "unknown_not_zero": true,
+  "owner_net_saving": null,
+  "record_creation_new_requests_tests_or_business_actions": 0,
+  "next_real_trigger": "Apply a structure-based finite budget or independent method/fixture split to the next genuinely unfinished witness and record actual completion, semantics and owner cost."
+}
