@@ -62,3 +62,9 @@
 初版13项本地 mock 通过后，Root 继续源审发现无LF尾行中的截断 JSON / UTF-8 被当成一般解析失败。后续明确修订为不完整响应，保本次 partial，下一次从完整请求重发；完整LF畸形 JSON 仍不重试。修订03实际15项通过，独立 JSON / UTF-8 断流子场景核下一候选全来自第二次响应，原13项记录未回写。[已发表调用器与测试版本](https://github.com/XenoAmess/local-model-operations/commit/aa12e525d5f6cb842cae71dabe33071a91794933)
 
 验证范围为 Windows Python3.13、标准库本地 HTTP / SSE mock；迁移验证没有访问真实模型服务或业务系统，没有 POSIX 实跑。当前900秒检查只发生在响应行之间，停止文件也不即时打断睡眠或在途 HTTP；未增加 watchdog。保留这些限制比把一次绿写成完整跨平台、实时或服务兼容性结论更有用。
+
+## 2026-11-01：一次真实服务调用的兼容性证据
+
+离线迁移验证后，新调用器在 Windows / Python3.13.2 对当前指定服务和 `qwen38-coder` 完成一次尚未闭合业务的源码审阅请求，没有为验证补发探针。实际为 `system / user / user` 三消息、`max_tokens=5500`、temperature0、thinking false、JSON输出和带usage的SSE；07:10:20.612664→07:10:39.052066 UTC，一次attempt得到HTTP200、stop和完整SSE终态。响应头9.288958秒、首有效内容9.290448秒、总耗时18.438819秒分别保留；reported prompt70,998 / completion1,347 / total72,345，cached为null。
+
+本项只证明当前调用器在这一环境与参数下完成一次真实服务交换，不证明所有平台或server、最大上下文、缓存效果、通用工具闭环或业务答复正确性。源码审阅及采用仍由业务owner独立判断。公开的[2,211字节脱敏摘要](evidence/2026-11-01-windows-service-call.json)已核实际REQUEST参数、角色和终态标量；未上传原始源码、任务、答复、机器身份或私有路径。摘要哈希见[来源说明](source-origins.md)，原15项离线mock记录不回填。

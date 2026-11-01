@@ -1,0 +1,61 @@
+{
+  "schema": "local-model-operations.real-service-compatibility/v1",
+  "case_id": "windows-source-review-2026-11-01-001",
+  "scope": "One genuine read-only Java source contract/race-review task, not a connectivity probe.",
+  "caller": "scripts/call.py",
+  "configuration": "config/executor.json",
+  "client_platform": "Windows",
+  "python_version": "3.13.2",
+  "configured_service": "http://192.168.1.11:8080/v1",
+  "configured_model_alias": "qwen38-coder",
+  "actual_request": {
+    "model": "qwen38-coder",
+    "max_tokens": 5500,
+    "temperature": 0,
+    "response_format": {
+      "type": "json_object"
+    },
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "message_roles": [
+    "system",
+    "user",
+    "user"
+  ],
+  "complete_source_file_markers": 13,
+  "request_message_utf8_bytes": [
+    301,
+    345139,
+    3888
+  ],
+  "attempt_count": 1,
+  "actual_POST_BEGIN_utc": "2026-11-01T07:10:20.612664+00:00",
+  "actual_ATTEMPT_END_utc": "2026-11-01T07:10:39.052066+00:00",
+  "http_status": 200,
+  "headers_ms": 9288.958000019193,
+  "first_nonempty_content_delta_ms": 9290.447800420225,
+  "total_ms": 18438.8190000318,
+  "finish_reason": "stop",
+  "sse_done": true,
+  "reported_usage": {
+    "prompt_tokens": 70998,
+    "completion_tokens": 1347,
+    "total_tokens": 72345
+  },
+  "cached_prompt_tokens_if_reported": null,
+  "transport_failure": null,
+  "validation_scope": [
+    "This records one actual successful SSE exchange on the designated current LAN service, in addition to the separate offline mock checks.",
+    "It does not establish other operating systems, other servers, model weights/hardware, service capacity, cache effectiveness or a general tool loop.",
+    "Transport completion does not establish correctness or adoption of the source-review answer, runtime performance or downstream Game actions.",
+    "Raw source, task text, answer text, private evidence paths, stable machine/owner identifiers and credentials are excluded."
+  ],
+  "business_source_adoption": "Not established by this transport report; separate owner review required.",
+  "downstream_business_actions": 0
+}

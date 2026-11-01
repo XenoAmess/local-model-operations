@@ -40,6 +40,8 @@ python -X utf8 -m unittest discover -s tests -v
 
 当前 15 项离线 HTTP/SSE mock 测试覆盖配置与相对路径、有效内容 TTFT、usage 缺失、截流丢弃与整次重试、末尾 JSON/UTF-8 截断、六次尝试边界、永久错误及输出目录防覆盖。测试不向指定局域网服务发请求，不证明模型能力或真实业务完成。调用器总耗时检查是行间检查，不是硬总截止；详细限制见使用指南。
 
+另有2026-11-01在 Windows / Python3.13.2、当前指定服务上的[一次真实业务 SSE 调用摘要](docs/evidence/2026-11-01-windows-service-call.json)：HTTP200、stop、SSE完成且保留usage。它补充离线 mock，限于这一环境和请求；不证明其它平台或服务、业务答复正确性及源码采用，详见[经验记录](docs/experience-log.md)。
+
 ## 协作方式
 
 唯一长期分支是 `main`。按文件分工并行处理源码、模型请求和审阅；Git 写入由同一时刻唯一写者串行执行。每完成一个可审阅单元并做相称检查，就及时提交、推送 `origin/main`，不积压到整批任务结束。
