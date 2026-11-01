@@ -1,0 +1,1400 @@
+{
+  "schema": "local-model-operations.independent-case-batch/v1",
+  "mode_id": "http-candidate",
+  "scope": "Seven separately frozen real cases; counts, costs and adoption are not pooled into a success rate or benchmark. No new model requests for this publication.",
+  "cases": [
+    {
+      "case_id": "HTTP-ABI-PROJECTION-001",
+      "mode_id": "http-candidate",
+      "observation_date": "2026-11-02",
+      "observation_timezone": "Asia/Shanghai",
+      "metadata_review_cutoff_UTC": "2026-11-01T23:35:17.870711+00:00",
+      "model_alias": "qwen38-coder",
+      "backend_weights_quantization_build": null,
+      "task": "A new narrow entry and exact thunk consumer, plus independent finite witness.",
+      "wire": {
+        "fixed_three_messages": true,
+        "actual_top_level_key_count": 8,
+        "generation_request_units": 3,
+        "POSTs": 5,
+        "ENDs": 5,
+        "complete_stop": 1,
+        "length": 2,
+        "incomplete_transport_attempts": 2,
+        "automatic_transport_retries": 2
+      },
+      "calls": [
+        {
+          "generation_request_unit": 1,
+          "transport_attempt": 1,
+          "max_tokens": 5000,
+          "source_message_UTF8_bytes": 35363,
+          "POST_BEGIN_UTC": "2026-11-01T22:45:33.877032+00:00",
+          "END_UTC": "2026-11-01T22:45:44.575869+00:00",
+          "HTTP_status": 200,
+          "finish_reason": null,
+          "SSE_DONE": false,
+          "content_TTFT_seconds": 2.22552889999497,
+          "reported_HTTP_seconds": 10.698653199993714,
+          "usage": null,
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 1,
+          "transport_attempt": 2,
+          "max_tokens": 5000,
+          "source_message_UTF8_bytes": 35363,
+          "POST_BEGIN_UTC": "2026-11-01T22:45:54.443284+00:00",
+          "END_UTC": "2026-11-01T22:46:18.268642+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 0.780926500003261,
+          "reported_HTTP_seconds": 23.825394800005597,
+          "usage": {
+            "prompt_tokens": 10941,
+            "completion_tokens": 3100,
+            "total_tokens": 14041
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 2,
+          "transport_attempt": 1,
+          "max_tokens": 6500,
+          "source_message_UTF8_bytes": 40220,
+          "POST_BEGIN_UTC": "2026-11-01T22:50:54.264699+00:00",
+          "END_UTC": "2026-11-01T22:53:59.927705+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 8.732326799996372,
+          "reported_HTTP_seconds": 185.66308889999345,
+          "usage": {
+            "prompt_tokens": 12623,
+            "completion_tokens": 6500,
+            "total_tokens": 19123
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 3,
+          "transport_attempt": 1,
+          "max_tokens": 8000,
+          "source_message_UTF8_bytes": 35363,
+          "POST_BEGIN_UTC": "2026-11-01T22:45:33.877005+00:00",
+          "END_UTC": "2026-11-01T22:45:44.575196+00:00",
+          "HTTP_status": 200,
+          "finish_reason": null,
+          "SSE_DONE": false,
+          "content_TTFT_seconds": 2.225713399995584,
+          "reported_HTTP_seconds": 10.698090999998385,
+          "usage": null,
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 3,
+          "transport_attempt": 2,
+          "max_tokens": 8000,
+          "source_message_UTF8_bytes": 35363,
+          "POST_BEGIN_UTC": "2026-11-01T22:45:52.987802+00:00",
+          "END_UTC": "2026-11-01T22:46:45.557565+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 0.7841683000006014,
+          "reported_HTTP_seconds": 52.569710299998405,
+          "usage": {
+            "prompt_tokens": 11089,
+            "completion_tokens": 8000,
+            "total_tokens": 19089
+          },
+          "cached_tokens": null
+        }
+      ],
+      "adoption": {
+        "production": "Partial model structure retained; owner corrected low-byte versus low-word width, original entry forwarding, image guard and actual API syntax. Not whole raw adoption.",
+        "test": "Two complete logical witness requests ended length8000 and length6500, wholly discarded without splicing; neutral memory scaffold did not establish model success. Owner whole support/Test.",
+        "owner_design": "Narrow current entry/consumer contract and mature dependencies supplied; not independent interface design.",
+        "input_closure": "Named complete current source and contract; full recursive platform closure not claimed."
+      },
+      "software": {
+        "checks": [
+          {
+            "stage": "strict-first01",
+            "BEGIN_UTC": "2026-11-01T22:50:39.250248+00:00",
+            "END_UTC": "2026-11-01T22:50:40.475374+00:00",
+            "process_seconds": 1.2246422999960487,
+            "exit_code": 0
+          },
+          {
+            "stage": "test-first-compile01",
+            "BEGIN_UTC": "2026-11-01T22:57:36.592116+00:00",
+            "END_UTC": "2026-11-01T22:57:38.062860+00:00",
+            "process_seconds": 1.4702867999949376,
+            "exit_code": 0
+          },
+          {
+            "stage": "test-first-run01",
+            "BEGIN_UTC": "2026-11-01T22:57:45.327524+00:00",
+            "END_UTC": "2026-11-01T22:57:45.659896+00:00",
+            "process_seconds": 0.33189869999478105,
+            "exit_code": 0
+          }
+        ],
+        "owner_literal_cases": 5,
+        "owner_checks": 51,
+        "old_green_reruns": 0
+      },
+      "clock_accounting": {
+        "client_peak": 2,
+        "peak_spans": [
+          {
+            "BEGIN_UTC": "2026-11-01T22:45:33.877032+00:00",
+            "END_UTC": "2026-11-01T22:45:44.575196+00:00",
+            "seconds": 10.698164
+          },
+          {
+            "BEGIN_UTC": "2026-11-01T22:45:54.443284+00:00",
+            "END_UTC": "2026-11-01T22:46:18.268642+00:00",
+            "seconds": 23.825358
+          }
+        ],
+        "time_at_peak_seconds": 34.523522,
+        "HTTP_interval_union_seconds": 248.931633,
+        "first_POST_to_last_END_envelope_seconds": 506.0507,
+        "reported_HTTP_elapsed_sum_seconds": 283.45493819998956,
+        "active_owner_prepare_review_fix_seconds": null,
+        "net_owner_saving_seconds": null,
+        "limit": "Overlapping requests, bounded windows, phase sums and active labor are different clocks; no net saving or service capacity inferred.",
+        "entire_preparation_wall_seconds": null,
+        "owner_active_seconds": null
+      },
+      "formal_annex": [
+        {
+          "commit": "4866f988faafeec53e3906df445b1e6a9840e051",
+          "observed_at_UTC": "2026-11-01T23:11:10.258242+00:00",
+          "normal_push_remote_exact_clean_at_receipt": true,
+          "new_compile_RUN_for_publication": 0,
+          "receipt_digest": {
+            "bytes": 1545,
+            "sha256": "343dfd2f4b6958cbb39e3f763461052364bd230446b03aa3de0dc3da831c8e41"
+          }
+        }
+      ],
+      "private_evidence_digests": {
+        "cost": {
+          "bytes": 4572,
+          "sha256": "3835691751ac432630332c78eb93a259be9baac8701eed6b1fa1691de4d72cf2"
+        },
+        "review": {
+          "bytes": 2979,
+          "sha256": "4b33650337e1b0a7bfa5a7598220ab61260e6dc003610caeedf034ed7e9384b4"
+        },
+        "delivery": {
+          "bytes": 4298,
+          "sha256": "9e4115101c3a963270c223730907fb6728d71e60b169c4a8a41fe9d6b7866547"
+        },
+        "owner_preparation_erratum": {
+          "bytes": 802,
+          "sha256": "3235934fbaf2a186a829a16a6e11fb60c0dde9fe405241020b54335b24e1d2b6"
+        }
+      },
+      "limits": "Finite represented software/source boundary only; no Root/private permit, natural Native/Game result, complete ABI, runtime speed, saved days or net owner saving. Historical freezes are unchanged; later receipts are separate stages.",
+      "publication_new_HTTP_compile_test_or_live_actions": 0
+    },
+    {
+      "case_id": "HTTP-FULLSTATE-GATE-001",
+      "mode_id": "http-candidate",
+      "observation_date": "2026-11-02",
+      "observation_timezone": "Asia/Shanghai",
+      "metadata_review_cutoff_UTC": "2026-11-01T23:35:17.874054+00:00",
+      "model_alias": "qwen38-coder",
+      "backend_weights_quantization_build": null,
+      "task": "A full-state scalar gate bridge, its caller and finite software witness.",
+      "wire": {
+        "fixed_three_messages": true,
+        "actual_top_level_key_count": 8,
+        "generation_request_units": 6,
+        "POSTs": 6,
+        "ENDs": 6,
+        "complete_stop": 4,
+        "length": 2,
+        "incomplete_transport_attempts": 0,
+        "automatic_transport_retries": 0
+      },
+      "calls": [
+        {
+          "generation_request_unit": 1,
+          "transport_attempt": 1,
+          "max_tokens": 6500,
+          "source_message_UTF8_bytes": 29511,
+          "POST_BEGIN_UTC": "2026-11-01T22:47:10.950484+00:00",
+          "END_UTC": "2026-11-01T22:48:11.696638+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 2.3575551999965683,
+          "reported_HTTP_seconds": 60.74617659999785,
+          "usage": {
+            "prompt_tokens": 9929,
+            "completion_tokens": 6500,
+            "total_tokens": 16429
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 2,
+          "transport_attempt": 1,
+          "max_tokens": 13000,
+          "source_message_UTF8_bytes": 29511,
+          "POST_BEGIN_UTC": "2026-11-01T22:47:10.967096+00:00",
+          "END_UTC": "2026-11-01T22:48:24.405135+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 2.3421129999987897,
+          "reported_HTTP_seconds": 73.43917329999385,
+          "usage": {
+            "prompt_tokens": 10149,
+            "completion_tokens": 8403,
+            "total_tokens": 18552
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 3,
+          "transport_attempt": 1,
+          "max_tokens": 3500,
+          "source_message_UTF8_bytes": 29511,
+          "POST_BEGIN_UTC": "2026-11-01T22:47:10.981611+00:00",
+          "END_UTC": "2026-11-01T22:47:31.494202+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 2.3262095999962185,
+          "reported_HTTP_seconds": 20.512691700001596,
+          "usage": {
+            "prompt_tokens": 9905,
+            "completion_tokens": 1807,
+            "total_tokens": 11712
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 4,
+          "transport_attempt": 1,
+          "max_tokens": 4500,
+          "source_message_UTF8_bytes": 29511,
+          "POST_BEGIN_UTC": "2026-11-01T22:49:33.854659+00:00",
+          "END_UTC": "2026-11-01T22:49:42.466317+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 1.2010240999952657,
+          "reported_HTTP_seconds": 8.611660399998073,
+          "usage": {
+            "prompt_tokens": 10123,
+            "completion_tokens": 902,
+            "total_tokens": 11025
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 5,
+          "transport_attempt": 1,
+          "max_tokens": 2500,
+          "source_message_UTF8_bytes": 29511,
+          "POST_BEGIN_UTC": "2026-11-01T22:49:33.872339+00:00",
+          "END_UTC": "2026-11-01T22:49:39.943493+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 1.3913175999987288,
+          "reported_HTTP_seconds": 6.071270499996899,
+          "usage": {
+            "prompt_tokens": 10162,
+            "completion_tokens": 575,
+            "total_tokens": 10737
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 6,
+          "transport_attempt": 1,
+          "max_tokens": 7000,
+          "source_message_UTF8_bytes": 33868,
+          "POST_BEGIN_UTC": "2026-11-01T22:53:32.165642+00:00",
+          "END_UTC": "2026-11-01T22:54:32.430800+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 0.9266743999978644,
+          "reported_HTTP_seconds": 60.2651751999947,
+          "usage": {
+            "prompt_tokens": 11699,
+            "completion_tokens": 7000,
+            "total_tokens": 18699
+          },
+          "cached_tokens": null
+        }
+      ],
+      "adoption": {
+        "core": "First implementation length6500 discarded. Correcting core response partial scaffold adopted with five grouped owner ABI/stack/entry corrections.",
+        "consumer": "Correcting consumer source accepted, only LF serialization projection.",
+        "audit": "Only some width/stack/call obligations useful; falsely claimed registers declarations absent although they were in actual input. Not whole safety acceptance.",
+        "test": "First complete witness semantically rejected; second length7000 discarded; owner whole finite Book and fixture. Owner had seen production and does not claim target-body blindness.",
+        "input": "Eleven full selected inputs; second witness added neutral mechanical helper. Actual prefix/task equal saved REQUEST."
+      },
+      "software": {
+        "production_first_strict_process_seconds": 1.0208229999989271,
+        "new_validation_first_strict_process_seconds": 1.1563218000010238,
+        "new_JUnit_process_seconds": 0.8158351999954903,
+        "new_JUnit_counts": {
+          "found": 4,
+          "started": 4,
+          "successful": 4,
+          "failed": 0,
+          "skipped": 0
+        },
+        "original_log_manager_ERROR_preserved": true
+      },
+      "clock_accounting": {
+        "client_peak": 3,
+        "peak_spans": [
+          {
+            "BEGIN_UTC": "2026-11-01T22:47:10.981611+00:00",
+            "END_UTC": "2026-11-01T22:47:31.494202+00:00",
+            "seconds": 20.512591
+          }
+        ],
+        "time_at_peak_seconds": 20.512591,
+        "HTTP_interval_union_seconds": 142.331467,
+        "first_POST_to_last_END_envelope_seconds": 441.480316,
+        "reported_HTTP_elapsed_sum_seconds": 229.64614769998298,
+        "active_owner_prepare_review_fix_seconds": null,
+        "net_owner_saving_seconds": null,
+        "limit": "Overlapping requests, bounded windows, phase sums and active labor are different clocks; no net saving or service capacity inferred.",
+        "pre_capture_inventory_or_entire_preparation_seconds": null,
+        "dedicated_core_review_start": null,
+        "owner_Book_elapsed_wall_seconds": 98.739795,
+        "fresh_GO_to_first_compile_coordination_wait_seconds": 71.816837,
+        "wait_is_not_compiler_CPU": true
+      },
+      "formal_annex": [
+        {
+          "commit": "a9f3bda3806ed95767060e54b0956044da4b66c9",
+          "observed_at_UTC": "2026-11-01T23:16:45.906199+00:00",
+          "normal_push_remote_exact_clean_at_receipt": true,
+          "new_compile_RUN_for_publication": 0,
+          "receipt_digest": {
+            "bytes": 1473,
+            "sha256": "101b2ec699af3f3d0e1642a18ad10cb5ef260dc6d52fb22e97700f09fc4442eb"
+          }
+        }
+      ],
+      "private_evidence_digests": {
+        "request_audit": {
+          "bytes": 14011,
+          "sha256": "9e4cef6ba7e051bde4602101b4815d958e04d7272ee6a1c49539cc26a6741cf6"
+        },
+        "review": {
+          "bytes": 6455,
+          "sha256": "cf542cf50a60187a07057d57c4d9667922df75a2fb94f121e7f2b46c79654258"
+        },
+        "software_result": {
+          "bytes": 1497,
+          "sha256": "fe0586d472abeb9ea07571f1be7dcb7cd1a3518ac9a9ed349d045637673c26d4"
+        },
+        "source_byte_erratum": {
+          "bytes": 856,
+          "sha256": "323950735670d681c73c8e222afea96fc2f33160547aeab1ea69429a70cbd6e3"
+        }
+      },
+      "limits": "Finite represented software/source boundary only; no Root/private permit, natural Native/Game result, complete ABI, runtime speed, saved days or net owner saving. Historical freezes are unchanged; later receipts are separate stages.",
+      "publication_new_HTTP_compile_test_or_live_actions": 0
+    },
+    {
+      "case_id": "HTTP-THIN-BINDING-002",
+      "mode_id": "http-candidate",
+      "observation_date": "2026-11-02",
+      "observation_timezone": "Asia/Shanghai",
+      "metadata_review_cutoff_UTC": "2026-11-01T23:35:17.877276+00:00",
+      "model_alias": "qwen38-coder",
+      "backend_weights_quantization_build": null,
+      "task": "One genuinely unwritten thin binding reuses held typed consumers; independent two-method witness has separate provenance.",
+      "wire": {
+        "fixed_three_messages": true,
+        "actual_top_level_key_count": 8,
+        "generation_request_units": 5,
+        "POSTs": 5,
+        "ENDs": 5,
+        "complete_stop": 5,
+        "length": 0,
+        "incomplete_transport_attempts": 0,
+        "automatic_transport_retries": 0
+      },
+      "calls": [
+        {
+          "generation_request_unit": 1,
+          "transport_attempt": 1,
+          "max_tokens": 5000,
+          "source_message_UTF8_bytes": 32648,
+          "POST_BEGIN_UTC": "2026-11-01T22:47:00.918421+00:00",
+          "END_UTC": "2026-11-01T22:47:08.420689+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 1.8735439000010956,
+          "reported_HTTP_seconds": 7.5022475000005215,
+          "usage": {
+            "prompt_tokens": 12376,
+            "completion_tokens": 1021,
+            "total_tokens": 13397
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 2,
+          "transport_attempt": 1,
+          "max_tokens": 12000,
+          "source_message_UTF8_bytes": 38672,
+          "POST_BEGIN_UTC": "2026-11-01T22:50:08.645257+00:00",
+          "END_UTC": "2026-11-01T22:53:27.257532+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 16.25171639999462,
+          "reported_HTTP_seconds": 198.61230629999773,
+          "usage": {
+            "prompt_tokens": 13960,
+            "completion_tokens": 2658,
+            "total_tokens": 16618
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 3,
+          "transport_attempt": 1,
+          "max_tokens": 12000,
+          "source_message_UTF8_bytes": 38672,
+          "POST_BEGIN_UTC": "2026-11-01T22:50:08.641125+00:00",
+          "END_UTC": "2026-11-01T22:53:47.793455+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 12.766570599997067,
+          "reported_HTTP_seconds": 219.15232609999657,
+          "usage": {
+            "prompt_tokens": 13951,
+            "completion_tokens": 4823,
+            "total_tokens": 18774
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 4,
+          "transport_attempt": 1,
+          "max_tokens": 12000,
+          "source_message_UTF8_bytes": 38672,
+          "POST_BEGIN_UTC": "2026-11-01T22:54:28.936614+00:00",
+          "END_UTC": "2026-11-01T22:54:49.611350+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 0.8087008000002243,
+          "reported_HTTP_seconds": 20.674803599998995,
+          "usage": {
+            "prompt_tokens": 13965,
+            "completion_tokens": 3095,
+            "total_tokens": 17060
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 5,
+          "transport_attempt": 1,
+          "max_tokens": 12000,
+          "source_message_UTF8_bytes": 38672,
+          "POST_BEGIN_UTC": "2026-11-01T22:55:21.548716+00:00",
+          "END_UTC": "2026-11-01T22:55:43.796647+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 0.7890784000046551,
+          "reported_HTTP_seconds": 22.248019999999087,
+          "usage": {
+            "prompt_tokens": 14047,
+            "completion_tokens": 3884,
+            "total_tokens": 17931
+          },
+          "cached_tokens": null
+        }
+      ],
+      "adoption": {
+        "production": "One R1 complete decoded Java source3096B adopted byte-exact including EOF, zero owner Java/EOL edits.",
+        "owner_design": "Owner provided public target signatures, exact two-site protocol and complete mature APIs; no claim of independent API/algorithm discovery. Existing algorithms unchanged.",
+        "test": "Two methods times two rounds, all four complete stop at finite12000 without exhaustion; semantic/API/trace whole rejection, zero fragments, no R3. Owner whole Test with independent pre-CONTENT oracle.",
+        "visibility": "Test author blind to new target body/production HTTP/results; parent full review had implementation visibility."
+      },
+      "software": {
+        "production_first_one_TU_strict_seconds": 0.4854094,
+        "production_RUN_at_source_cutoff": false,
+        "new_Test_first_strict_seconds": 0.6619475,
+        "new_Test_first_RUN_seconds": 0.1226278,
+        "new_groups": 5,
+        "ordered_events": 56,
+        "mixed_checks": 116,
+        "old_green_reruns": 0
+      },
+      "clock_accounting": {
+        "client_peak": 2,
+        "peak_spans": [
+          {
+            "BEGIN_UTC": "2026-11-01T22:50:08.645257+00:00",
+            "END_UTC": "2026-11-01T22:53:27.257532+00:00",
+            "seconds": 198.612275
+          }
+        ],
+        "time_at_peak_seconds": 198.612275,
+        "HTTP_interval_union_seconds": 269.577265,
+        "first_POST_to_last_END_envelope_seconds": 522.878226,
+        "reported_HTTP_elapsed_sum_seconds": 468.1897034999929,
+        "active_owner_prepare_review_fix_seconds": null,
+        "net_owner_saving_seconds": null,
+        "limit": "Overlapping requests, bounded windows, phase sums and active labor are different clocks; no net saving or service capacity inferred.",
+        "production_review_elapsed_wall_seconds": 61.476308,
+        "production_prefix_assembly_seconds": 0.011522,
+        "earlier_full_source_read_or_preparation_seconds": null,
+        "witness_review_write_wait_elapsed_wall_seconds": 603.372641,
+        "witness_prefix_assembly_seconds": 0.005501400002685841,
+        "witness_strict_to_RUN_end_wall_seconds": 7.435079,
+        "witness_verification_process_sum_seconds": 0.7845753,
+        "scope_note": "Small assembly clocks exclude earlier impact/source reads;603.372641s review interval includes waiting and writing, not continuous labor."
+      },
+      "formal_annex": [
+        {
+          "commit": "575326df5e07b5c61284fb9e511291f688ad3188",
+          "observed_at_UTC": "2026-11-01T23:01:12.031368+00:00",
+          "normal_push_remote_exact_clean_at_receipt": true,
+          "new_compile_RUN_for_publication": 0,
+          "receipt_digest": {
+            "bytes": 787,
+            "sha256": "59218c1d0999c2f765d0f5ed9e81883098e251eb90174ec2d99b0ad149537433"
+          }
+        },
+        {
+          "commit": "6c2a3c03a4c11067f572135e54e6bf369e032c20",
+          "observed_at_UTC": "2026-11-01T23:21:33.449442+00:00",
+          "normal_push_remote_exact_clean_at_receipt": true,
+          "new_compile_RUN_for_publication": 0,
+          "receipt_digest": {
+            "bytes": 800,
+            "sha256": "9d18ce8cdef42afe2fda2c8773d5a617c8be77e81e8201f52761e4bbb49b0882"
+          }
+        }
+      ],
+      "private_evidence_digests": {
+        "production_cohort": {
+          "bytes": 8856,
+          "sha256": "a861d2cda68cd0355b8893861582ec695c81323231516d19791b44e8e675c3de"
+        },
+        "production_parent_review": {
+          "bytes": 5436,
+          "sha256": "434c286351df4aa55f395f912de9a7d3eea95edf7623a8cf058f5ec1f2822110"
+        },
+        "witness_source_ready": {
+          "bytes": 13864,
+          "sha256": "b0a990df5858629271077296c14aed2258acb9fef7637ab4c297eb05c1df5c59"
+        },
+        "late_closed_index": {
+          "bytes": 12695,
+          "sha256": "d799a8c1a8d2aa3b16a396a0c942d5e66dfadf98bf68ed31903a07c1effae2f5"
+        },
+        "first_Test_delivery": {
+          "bytes": 10271,
+          "sha256": "ce41b9ebfdd30719255631cef660b0608f9cee67444b9d27e72e895b0f5f540f"
+        }
+      },
+      "limits": "Finite represented software/source boundary only; no Root/private permit, natural Native/Game result, complete ABI, runtime speed, saved days or net owner saving. Historical freezes are unchanged; later receipts are separate stages.",
+      "publication_new_HTTP_compile_test_or_live_actions": 0
+    },
+    {
+      "case_id": "HTTP-BOUNDED-DIAGNOSTIC-001",
+      "mode_id": "http-candidate",
+      "observation_date": "2026-11-02",
+      "observation_timezone": "Asia/Shanghai",
+      "metadata_review_cutoff_UTC": "2026-11-01T23:35:17.886691+00:00",
+      "model_alias": "qwen38-coder",
+      "backend_weights_quantization_build": null,
+      "task": "Root-entry source analysis followed by a bounded unavailable-reason helper and four pure DATA checks.",
+      "wire": {
+        "fixed_three_messages": true,
+        "actual_top_level_key_count": 8,
+        "generation_request_units": 7,
+        "POSTs": 7,
+        "ENDs": 7,
+        "complete_stop": 7,
+        "length": 0,
+        "incomplete_transport_attempts": 0,
+        "automatic_transport_retries": 0
+      },
+      "calls": [
+        {
+          "generation_request_unit": 1,
+          "transport_attempt": 1,
+          "max_tokens": 6000,
+          "source_message_UTF8_bytes": 485941,
+          "POST_BEGIN_UTC": "2026-11-01T22:44:05.632569+00:00",
+          "END_UTC": "2026-11-01T22:44:51.874185+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 33.18644150000182,
+          "reported_HTTP_seconds": 46.24155430000246,
+          "usage": {
+            "prompt_tokens": 102860,
+            "completion_tokens": 558,
+            "total_tokens": 103418
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 2,
+          "transport_attempt": 1,
+          "max_tokens": 6000,
+          "source_message_UTF8_bytes": 659856,
+          "POST_BEGIN_UTC": "2026-11-01T22:44:05.634168+00:00",
+          "END_UTC": "2026-11-01T22:44:52.156233+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 39.78010390000418,
+          "reported_HTTP_seconds": 46.52233200000046,
+          "usage": {
+            "prompt_tokens": 133629,
+            "completion_tokens": 613,
+            "total_tokens": 134242
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 3,
+          "transport_attempt": 1,
+          "max_tokens": 6000,
+          "source_message_UTF8_bytes": 385012,
+          "POST_BEGIN_UTC": "2026-11-01T22:44:05.642273+00:00",
+          "END_UTC": "2026-11-01T22:44:52.317719+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 38.70041560000391,
+          "reported_HTTP_seconds": 46.67532300000312,
+          "usage": {
+            "prompt_tokens": 80040,
+            "completion_tokens": 616,
+            "total_tokens": 80656
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 4,
+          "transport_attempt": 1,
+          "max_tokens": 5000,
+          "source_message_UTF8_bytes": 83474,
+          "POST_BEGIN_UTC": "2026-11-01T22:47:34.528933+00:00",
+          "END_UTC": "2026-11-01T22:47:44.805091+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 4.762477900003432,
+          "reported_HTTP_seconds": 10.276169199998549,
+          "usage": {
+            "prompt_tokens": 18652,
+            "completion_tokens": 529,
+            "total_tokens": 19181
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 5,
+          "transport_attempt": 1,
+          "max_tokens": 7000,
+          "source_message_UTF8_bytes": 83474,
+          "POST_BEGIN_UTC": "2026-11-01T22:47:34.534204+00:00",
+          "END_UTC": "2026-11-01T22:47:57.974742+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 5.044039699998393,
+          "reported_HTTP_seconds": 23.440750599998864,
+          "usage": {
+            "prompt_tokens": 18749,
+            "completion_tokens": 2069,
+            "total_tokens": 20818
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 6,
+          "transport_attempt": 1,
+          "max_tokens": 5000,
+          "source_message_UTF8_bytes": 83474,
+          "POST_BEGIN_UTC": "2026-11-01T22:49:26.293753+00:00",
+          "END_UTC": "2026-11-01T22:49:31.768595+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 2.0835934999995516,
+          "reported_HTTP_seconds": 5.474845299999288,
+          "usage": {
+            "prompt_tokens": 19248,
+            "completion_tokens": 468,
+            "total_tokens": 19716
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 7,
+          "transport_attempt": 1,
+          "max_tokens": 7000,
+          "source_message_UTF8_bytes": 83474,
+          "POST_BEGIN_UTC": "2026-11-01T22:49:26.300940+00:00",
+          "END_UTC": "2026-11-01T22:49:43.590639+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 2.328665400003956,
+          "reported_HTTP_seconds": 17.288674600000377,
+          "usage": {
+            "prompt_tokens": 20902,
+            "completion_tokens": 1946,
+            "total_tokens": 22848
+          },
+          "cached_tokens": null
+        }
+      ],
+      "adoption": {
+        "analysis": "Some reason-loss source diagnosis adopted; false claim that retained codec omitted evidence rejected against supplied source.",
+        "production": "R1 invented text API and ineffective cutoff rejected before compiler. R2 three raw expression edits/helper adopted with zero owner semantic edits after owner supplied signature, finite cap rationale and actual code-point offset API.",
+        "test": "R1 rejected; R2 partial plus owner type, supplementary-character/maximum-codepoint, LF/quote and import corrections. Not independent whole Root proof.",
+        "input": "Named current physical declarations, not every transitive Root implementation."
+      },
+      "software": {
+        "first_prod_compile": "RED because owner classpath selected an old ABI class lacking an unchanged constructor method; not model helper regression.",
+        "four_processes": [
+          {
+            "stage": "prod01-ACTUAL.json",
+            "exit_code": 1,
+            "seconds": 2.1180198000001837
+          },
+          {
+            "stage": "prod02-ACTUAL.json",
+            "exit_code": 0,
+            "seconds": 1.9622294000000693
+          },
+          {
+            "stage": "test01-ACTUAL.json",
+            "exit_code": 0,
+            "seconds": 1.707974099997955
+          },
+          {
+            "stage": "run01-ACTUAL.json",
+            "exit_code": 0,
+            "seconds": 2.536205299998983
+          }
+        ],
+        "new_pure_DATA_tests_passed": 4,
+        "owner_missing_Test_import_corrected_before_first_Test_compile": true,
+        "runtime_adoption": false
+      },
+      "clock_accounting": {
+        "client_peak": 3,
+        "peak_spans": [
+          {
+            "BEGIN_UTC": "2026-11-01T22:44:05.642273+00:00",
+            "END_UTC": "2026-11-01T22:44:51.874185+00:00",
+            "seconds": 46.231912
+          }
+        ],
+        "time_at_peak_seconds": 46.231912,
+        "HTTP_interval_union_seconds": 87.427845,
+        "first_POST_to_last_END_envelope_seconds": 337.95807,
+        "reported_HTTP_elapsed_sum_seconds": 195.91964900000312,
+        "active_owner_prepare_review_fix_seconds": null,
+        "net_owner_saving_seconds": null,
+        "limit": "Overlapping requests, bounded windows, phase sums and active labor are different clocks; no net saving or service capacity inferred.",
+        "first_owner_compile_to_last_software_RUN_wall_seconds": 784.498894,
+        "four_process_seconds": 8.32442859999719,
+        "entire_preparation_wall_seconds": null
+      },
+      "formal_annex": [
+        {
+          "commit": "b824175ed839c53536c76f32091a6898dde0deb9",
+          "observed_at_UTC": "2026-11-01T23:19:43.529956+00:00",
+          "normal_push_remote_exact_clean_at_receipt": true,
+          "new_compile_RUN_for_publication": 0,
+          "receipt_digest": {
+            "bytes": 1074,
+            "sha256": "623327c34bf4f8ea5b3612026bfa04151d5fa86032f38c77df0690fc3223dc29"
+          }
+        }
+      ],
+      "private_evidence_digests": {
+        "cohort": {
+          "bytes": 8692,
+          "sha256": "ebdc31bb1230d0b5d9cb2aacccda37b92d00639962d450a90b9d31b9f4263b79"
+        },
+        "qualification": {
+          "bytes": 1635,
+          "sha256": "c4e9428d1e80edc3d9866cf094e4fb8f38c2192cc3b679904924fce2aa7356cb"
+        },
+        "validation": {
+          "bytes": 10001,
+          "sha256": "ae6f02a5520800b906384114eb483ce9e623ce322250703124485d3afb55b547"
+        },
+        "formal_adoption": {
+          "bytes": 4800,
+          "sha256": "60e376930b383c8aa5eb989023433c4fae63f271493e28714619113bf3bdda4a"
+        }
+      },
+      "limits": "Finite represented software/source boundary only; no Root/private permit, natural Native/Game result, complete ABI, runtime speed, saved days or net owner saving. Historical freezes are unchanged; later receipts are separate stages.",
+      "publication_new_HTTP_compile_test_or_live_actions": 0
+    },
+    {
+      "case_id": "HTTP-TYPED-API-002",
+      "mode_id": "http-candidate",
+      "observation_date": "2026-11-02",
+      "observation_timezone": "Asia/Shanghai",
+      "metadata_review_cutoff_UTC": "2026-11-01T23:35:17.891508+00:00",
+      "model_alias": "qwen38-coder",
+      "backend_weights_quantization_build": null,
+      "task": "Typed API/liveness contract, then full-state producer and finite software matrix.",
+      "wire": {
+        "fixed_three_messages": true,
+        "actual_top_level_key_count": 8,
+        "generation_request_units": 8,
+        "POSTs": 8,
+        "ENDs": 8,
+        "complete_stop": 6,
+        "length": 2,
+        "incomplete_transport_attempts": 0,
+        "automatic_transport_retries": 0
+      },
+      "calls": [
+        {
+          "generation_request_unit": 1,
+          "transport_attempt": 1,
+          "max_tokens": 5500,
+          "source_message_UTF8_bytes": 40158,
+          "POST_BEGIN_UTC": "2026-11-01T22:48:37.112211+00:00",
+          "END_UTC": "2026-11-01T22:48:58.219991+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 2.6599580999973114,
+          "reported_HTTP_seconds": 21.107783499996003,
+          "usage": {
+            "prompt_tokens": 14825,
+            "completion_tokens": 2580,
+            "total_tokens": 17405
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 2,
+          "transport_attempt": 1,
+          "max_tokens": 5500,
+          "source_message_UTF8_bytes": 50024,
+          "POST_BEGIN_UTC": "2026-11-01T22:54:11.232021+00:00",
+          "END_UTC": "2026-11-01T22:54:36.998086+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 2.337106399994809,
+          "reported_HTTP_seconds": 25.766147999995155,
+          "usage": {
+            "prompt_tokens": 17583,
+            "completion_tokens": 2934,
+            "total_tokens": 20517
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 3,
+          "transport_attempt": 1,
+          "max_tokens": 5000,
+          "source_message_UTF8_bytes": 40158,
+          "POST_BEGIN_UTC": "2026-11-01T22:48:37.112622+00:00",
+          "END_UTC": "2026-11-01T22:49:03.859700+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 2.659753699997964,
+          "reported_HTTP_seconds": 26.747065699993982,
+          "usage": {
+            "prompt_tokens": 14640,
+            "completion_tokens": 3195,
+            "total_tokens": 17835
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 4,
+          "transport_attempt": 1,
+          "max_tokens": 5000,
+          "source_message_UTF8_bytes": 49608,
+          "POST_BEGIN_UTC": "2026-11-01T22:54:11.232002+00:00",
+          "END_UTC": "2026-11-01T22:54:25.557672+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 2.6055163999990327,
+          "reported_HTTP_seconds": 14.325713300000643,
+          "usage": {
+            "prompt_tokens": 18220,
+            "completion_tokens": 1355,
+            "total_tokens": 19575
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 5,
+          "transport_attempt": 1,
+          "max_tokens": 6000,
+          "source_message_UTF8_bytes": 52270,
+          "POST_BEGIN_UTC": "2026-11-01T22:58:30.589784+00:00",
+          "END_UTC": "2026-11-01T22:59:52.620551+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 9.004255599997123,
+          "reported_HTTP_seconds": 82.03085319999809,
+          "usage": {
+            "prompt_tokens": 18377,
+            "completion_tokens": 6000,
+            "total_tokens": 24377
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 6,
+          "transport_attempt": 1,
+          "max_tokens": 8000,
+          "source_message_UTF8_bytes": 52270,
+          "POST_BEGIN_UTC": "2026-11-01T23:01:00.628158+00:00",
+          "END_UTC": "2026-11-01T23:01:20.836403+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 0.921653299999889,
+          "reported_HTTP_seconds": 20.208552800002508,
+          "usage": {
+            "prompt_tokens": 18371,
+            "completion_tokens": 3472,
+            "total_tokens": 21843
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 7,
+          "transport_attempt": 1,
+          "max_tokens": 14000,
+          "source_message_UTF8_bytes": 66443,
+          "POST_BEGIN_UTC": "2026-11-01T22:58:30.589289+00:00",
+          "END_UTC": "2026-11-01T23:00:41.235302+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 14.533135700003186,
+          "reported_HTTP_seconds": 130.6459685000009,
+          "usage": {
+            "prompt_tokens": 22037,
+            "completion_tokens": 14000,
+            "total_tokens": 36037
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 8,
+          "transport_attempt": 1,
+          "max_tokens": 8000,
+          "source_message_UTF8_bytes": 97727,
+          "POST_BEGIN_UTC": "2026-11-01T23:02:45.913760+00:00",
+          "END_UTC": "2026-11-01T23:03:46.349916+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 16.024056700000074,
+          "reported_HTTP_seconds": 60.43618309999874,
+          "usage": {
+            "prompt_tokens": 36281,
+            "completion_tokens": 4776,
+            "total_tokens": 41057
+          },
+          "cached_tokens": null
+        }
+      ],
+      "adoption": {
+        "API": "R2 complete7141B Java raw adopted; R1 whole rejected. Owner source corrections supplied, not a blind API design claim.",
+        "liveness": "Both whole analyses rejected; owner source contract.",
+        "production": "First length6000 unread discard; complete R2 stack/unsigned/direction/current-state errors whole rejected; owner entire producer.",
+        "test": "First length14000 unread discard; second owner-literal encoding method complete but wrong, rejected; owner whole literal Book and mechanical host. Oracle frozen before production/Book CONTENT, not target-derived.",
+        "owner_cost_and_byte_errors": "Earlier metadata/script/hand-count mistakes preserved. Owner write_text produced CRLF in four files; original SHA/first checks remain, formal LF/blanktail projection separately pinned. API raw remains unchanged."
+      },
+      "software": {
+        "first_process_seconds": {
+          "JAVAC_PROD578": 0.7320012999989558,
+          "JAVAC_HOST578": 0.7461514000024181,
+          "RUN578": 0.17194169999856967
+        },
+        "first_new_scenes": 4,
+        "ordered_events": 114,
+        "RAM_events": 100,
+        "indirect_events": 9,
+        "budget_events": 5,
+        "stdout_scene_count": 4,
+        "old_green_reruns": 0
+      },
+      "clock_accounting": {
+        "client_peak": 2,
+        "peak_spans": [
+          {
+            "BEGIN_UTC": "2026-11-01T22:48:37.112622+00:00",
+            "END_UTC": "2026-11-01T22:48:58.219991+00:00",
+            "seconds": 21.107369
+          },
+          {
+            "BEGIN_UTC": "2026-11-01T22:54:11.232021+00:00",
+            "END_UTC": "2026-11-01T22:54:25.557672+00:00",
+            "seconds": 14.325651
+          },
+          {
+            "BEGIN_UTC": "2026-11-01T22:58:30.589784+00:00",
+            "END_UTC": "2026-11-01T22:59:52.620551+00:00",
+            "seconds": 82.030767
+          }
+        ],
+        "time_at_peak_seconds": 117.463787,
+        "HTTP_interval_union_seconds": 263.803987,
+        "first_POST_to_last_END_envelope_seconds": 909.237705,
+        "reported_HTTP_elapsed_sum_seconds": 381.268268099986,
+        "active_owner_prepare_review_fix_seconds": null,
+        "net_owner_saving_seconds": null,
+        "limit": "Overlapping requests, bounded windows, phase sums and active labor are different clocks; no net saving or service capacity inferred.",
+        "original_discovery_to_input_freeze_wall_seconds": 495.262745,
+        "original_observed_discovery_to_first_RUN_END_wall_seconds": 1632.656348,
+        "early_subphase_active_seconds": null,
+        "related_existing_assembly_audit": "CLIENT-SOURCE-PREP-001 (already frozen separately); millisecond selected-file assembly is not a subtraction from discovery cost."
+      },
+      "formal_annex": [
+        {
+          "commit": "34c755b72c012d78defea66d17a5265929433d3d",
+          "observed_at_UTC": "2026-11-01T23:28:03.612365+00:00",
+          "normal_push_remote_exact_clean_at_receipt": true,
+          "new_compile_RUN_for_publication": 0,
+          "receipt_digest": {
+            "bytes": 2045,
+            "sha256": "8993881584e12afe7e36f2cfd5ca07e7e2ae0d5391c993ed862647200ecf6349"
+          }
+        }
+      ],
+      "private_evidence_digests": {
+        "cohort": {
+          "bytes": 13485,
+          "sha256": "3c5d89c9fe17cbd8dad4ce39e2997915510b26f904bf2423d0cb84972cee7d33"
+        },
+        "API_ready": {
+          "bytes": 2460,
+          "sha256": "0fffbba83432966fbb9337dfb98bf56a4ab8110fb7269ddd97a8f2d3d0b190bf"
+        },
+        "preparation_and_actual_cost": {
+          "bytes": 1651,
+          "sha256": "a471f24607fe1e5780eb6fcbb5f41dbd595ebb24b3118df87e4fe4164e9a0001"
+        },
+        "byte_text_erratum": {
+          "bytes": 3128,
+          "sha256": "48a4451ac76bd94103be057d06feac9f83ab4da99ffc49efc31ed1e6e203fafb"
+        }
+      },
+      "limits": "Finite represented software/source boundary only; no Root/private permit, natural Native/Game result, complete ABI, runtime speed, saved days or net owner saving. Historical freezes are unchanged; later receipts are separate stages.",
+      "publication_new_HTTP_compile_test_or_live_actions": 0
+    },
+    {
+      "case_id": "HTTP-COMPOSITE-TRACE-001",
+      "mode_id": "http-candidate",
+      "observation_date": "2026-11-02",
+      "observation_timezone": "Asia/Shanghai",
+      "metadata_review_cutoff_UTC": "2026-11-01T23:35:17.895421+00:00",
+      "model_alias": "qwen38-coder",
+      "backend_weights_quantization_build": null,
+      "task": "One new finite composite RAM/ABI witness against held mature architecture.",
+      "wire": {
+        "fixed_three_messages": true,
+        "actual_top_level_key_count": 8,
+        "generation_request_units": 2,
+        "POSTs": 2,
+        "ENDs": 2,
+        "complete_stop": 2,
+        "length": 0,
+        "incomplete_transport_attempts": 0,
+        "automatic_transport_retries": 0
+      },
+      "calls": [
+        {
+          "generation_request_unit": 1,
+          "transport_attempt": 1,
+          "max_tokens": 16000,
+          "source_message_UTF8_bytes": 331932,
+          "POST_BEGIN_UTC": "2026-11-01T22:36:24.271333+00:00",
+          "END_UTC": "2026-11-01T22:38:05.593547+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 55.791447399999015,
+          "reported_HTTP_seconds": 101.32225570000446,
+          "usage": {
+            "prompt_tokens": 134865,
+            "completion_tokens": 6644,
+            "total_tokens": 141509
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 2,
+          "transport_attempt": 1,
+          "max_tokens": 16000,
+          "source_message_UTF8_bytes": 331932,
+          "POST_BEGIN_UTC": "2026-11-01T22:39:27.360432+00:00",
+          "END_UTC": "2026-11-01T22:40:07.059260+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 0.9226771999965422,
+          "reported_HTTP_seconds": 39.698747800001,
+          "usage": {
+            "prompt_tokens": 135398,
+            "completion_tokens": 6469,
+            "total_tokens": 141867
+          },
+          "cached_tokens": null
+        }
+      ],
+      "adoption": {
+        "model_code": 0,
+        "complete_candidates": "Both R1/R2 full stop semantically/API/queue rejected; finite16000 output not exhausted. Not length or a compiler RED.",
+        "owner": "Whole new method and neutral host, independent original-source expectations. No R3 or quota success rerun.",
+        "prompting": "Qualified architecture, not blind. Owner pre-POST all-null carryover correction retained; no model blame for old draft.",
+        "input": "Complete held current API/source prefix with neutral byte host; no old Test/expected queue/peer proposal supplied in first task."
+      },
+      "software": {
+        "owner_first_strict_seconds": 0.8414329000006546,
+        "owner_first_JUnit_seconds": 0.613087199999427,
+        "one_new_method_passed": 1,
+        "skipped": 0,
+        "typed_RAM_observations": 265,
+        "unchanged_old_binary_pins": 98,
+        "old_green_reruns": 0
+      },
+      "clock_accounting": {
+        "client_peak": 1,
+        "peak_spans": [
+          {
+            "BEGIN_UTC": "2026-11-01T22:36:24.271333+00:00",
+            "END_UTC": "2026-11-01T22:38:05.593547+00:00",
+            "seconds": 101.322214
+          },
+          {
+            "BEGIN_UTC": "2026-11-01T22:39:27.360432+00:00",
+            "END_UTC": "2026-11-01T22:40:07.059260+00:00",
+            "seconds": 39.698828
+          }
+        ],
+        "time_at_peak_seconds": 141.021042,
+        "HTTP_interval_union_seconds": 141.021042,
+        "first_POST_to_last_END_envelope_seconds": 222.787927,
+        "reported_HTTP_elapsed_sum_seconds": 141.02100350000546,
+        "active_owner_prepare_review_fix_seconds": null,
+        "net_owner_saving_seconds": null,
+        "limit": "Overlapping requests, bounded windows, phase sums and active labor are different clocks; no net saving or service capacity inferred.",
+        "sourceReady_to_firstStrict_BEGIN_wall_seconds": 416.969358,
+        "CodeReady_to_firstStrict_BEGIN_wall_seconds": 362.475015,
+        "complete_ChainReady_to_firstStrict_BEGIN_wall_seconds": 29.258114,
+        "first_HTTP_POST_to_firstJUnit_END_wall_seconds": 866.983939,
+        "full_first_validation_UTC_seconds": 1.473289,
+        "reported_process_sum_seconds": 1.4545201000000816,
+        "CHAIN_UTC_span_seconds": 1.499653,
+        "wait_qualification": "Readiness windows overlap and include preparation/review/coordination; do not sum them or assign their whole duration to model, service or CPU."
+      },
+      "formal_annex": [
+        {
+          "commit": "b211ede118e7f5c5e4cf7f80fa304d9693753faf",
+          "observed_at_UTC": "2026-11-01T22:54:55.426197+00:00",
+          "normal_push_remote_exact_clean_at_receipt": true,
+          "new_compile_RUN_for_publication": 0,
+          "receipt_digest": {
+            "bytes": 838,
+            "sha256": "ad4025a6d7eabae30af10338322220dcbaba67c7c84d9301c793cd805e303338"
+          }
+        }
+      ],
+      "private_evidence_digests": {
+        "source_cohort": {
+          "bytes": 8275,
+          "sha256": "438dea73f83ca0ac6053ee95e787134ac059084ab983b3eb15ecd64e1897d85e"
+        },
+        "owner_delivery": {
+          "bytes": 22546,
+          "sha256": "d490f208c6da5cf578e1251a4bc555a2e7f9ed6f245d6b89b07e9351762d0ec2"
+        },
+        "cost_anchors": {
+          "bytes": 2884,
+          "sha256": "328be3e25f7d4f8791e0f0c9519af46bdc700ea5ebc035f8587fe6d2cea83009"
+        }
+      },
+      "limits": "Finite represented software/source boundary only; no Root/private permit, natural Native/Game result, complete ABI, runtime speed, saved days or net owner saving. Historical freezes are unchanged; later receipts are separate stages.",
+      "publication_new_HTTP_compile_test_or_live_actions": 0
+    },
+    {
+      "case_id": "HTTP-COMPOSITE-TRACE-002",
+      "mode_id": "http-candidate",
+      "observation_date": "2026-11-02",
+      "observation_timezone": "Asia/Shanghai",
+      "metadata_review_cutoff_UTC": "2026-11-01T23:35:17.899824+00:00",
+      "model_alias": "qwen38-coder",
+      "backend_weights_quantization_build": null,
+      "task": "One new finite composite RAM/ABI witness against held mature architecture.",
+      "wire": {
+        "fixed_three_messages": true,
+        "actual_top_level_key_count": 8,
+        "generation_request_units": 2,
+        "POSTs": 2,
+        "ENDs": 2,
+        "complete_stop": 2,
+        "length": 0,
+        "incomplete_transport_attempts": 0,
+        "automatic_transport_retries": 0
+      },
+      "calls": [
+        {
+          "generation_request_unit": 1,
+          "transport_attempt": 1,
+          "max_tokens": 16000,
+          "source_message_UTF8_bytes": 331490,
+          "POST_BEGIN_UTC": "2026-11-01T23:02:16.751458+00:00",
+          "END_UTC": "2026-11-01T23:03:32.058113+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 28.418270900001517,
+          "reported_HTTP_seconds": 75.30678310000076,
+          "usage": {
+            "prompt_tokens": 134997,
+            "completion_tokens": 2052,
+            "total_tokens": 137049
+          },
+          "cached_tokens": null
+        },
+        {
+          "generation_request_unit": 2,
+          "transport_attempt": 1,
+          "max_tokens": 16000,
+          "source_message_UTF8_bytes": 331490,
+          "POST_BEGIN_UTC": "2026-11-01T23:05:21.072158+00:00",
+          "END_UTC": "2026-11-01T23:05:37.791246+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 0.9247360000008484,
+          "reported_HTTP_seconds": 16.71914900000411,
+          "usage": {
+            "prompt_tokens": 135565,
+            "completion_tokens": 2658,
+            "total_tokens": 138223
+          },
+          "cached_tokens": null
+        }
+      ],
+      "adoption": {
+        "model_code": 0,
+        "complete_candidates": "Both R1/R2 full stop semantically/API/queue rejected; finite16000 output not exhausted. Not length or a compiler RED.",
+        "owner": "Whole new method and neutral host, independent original-source expectations. No R3 or quota success rerun.",
+        "prompting": "Qualified architecture, not blind. Correcting task included approximate300-event size hint and later source-assist notes; no claim of blind count discovery.",
+        "input": "Complete held current API/source prefix with neutral byte host; no old Test/expected queue/peer proposal supplied in first task."
+      },
+      "software": {
+        "owner_first_strict_seconds": 0.8718592000004719,
+        "owner_first_JUnit_seconds": 0.6268886000034399,
+        "one_new_method_passed": 1,
+        "skipped": 0,
+        "typed_RAM_observations": 300,
+        "unchanged_old_binary_pins": 98,
+        "old_green_reruns": 0
+      },
+      "clock_accounting": {
+        "client_peak": 1,
+        "peak_spans": [
+          {
+            "BEGIN_UTC": "2026-11-01T23:02:16.751458+00:00",
+            "END_UTC": "2026-11-01T23:03:32.058113+00:00",
+            "seconds": 75.306655
+          },
+          {
+            "BEGIN_UTC": "2026-11-01T23:05:21.072158+00:00",
+            "END_UTC": "2026-11-01T23:05:37.791246+00:00",
+            "seconds": 16.719088
+          }
+        ],
+        "time_at_peak_seconds": 92.025743,
+        "HTTP_interval_union_seconds": 92.025743,
+        "first_POST_to_last_END_envelope_seconds": 201.039788,
+        "reported_HTTP_elapsed_sum_seconds": 92.02593210000487,
+        "active_owner_prepare_review_fix_seconds": null,
+        "net_owner_saving_seconds": null,
+        "limit": "Overlapping requests, bounded windows, phase sums and active labor are different clocks; no net saving or service capacity inferred.",
+        "sourceReady_to_firstStrict_BEGIN_wall_seconds": 530.189572,
+        "CodeReady_to_firstStrict_BEGIN_wall_seconds": 474.978307,
+        "complete_ChainReady_to_firstStrict_BEGIN_wall_seconds": 321.063111,
+        "first_HTTP_POST_to_firstJUnit_END_wall_seconds": 957.239902,
+        "full_first_validation_UTC_seconds": 1.519511,
+        "reported_process_sum_seconds": 1.4987478000039118,
+        "CHAIN_UTC_span_seconds": 1.547364,
+        "wait_qualification": "Readiness windows overlap and include preparation/review/coordination; do not sum them or assign their whole duration to model, service or CPU."
+      },
+      "formal_annex": [
+        {
+          "status": "PENDING_NO_RECEIPT_HELD_AT_THIS_CUTOFF"
+        }
+      ],
+      "private_evidence_digests": {
+        "source_cohort": {
+          "bytes": 8845,
+          "sha256": "9d9df2543bd317bc309b76838d8f8f1b30b62d1f32ac34453dd037126fe171f7"
+        },
+        "owner_delivery": {
+          "bytes": 21656,
+          "sha256": "3f4707ba63fa127b64479c02da2d396cb5312ddcb8093c68974c7eae767d12df"
+        },
+        "cost_anchors": {
+          "bytes": 2980,
+          "sha256": "a8d5fd8cf2e31bb769cfb0c1a4930da642ca5c7216de4570d2903caf9fc8c551"
+        }
+      },
+      "limits": "Finite represented software/source boundary only; no Root/private permit, natural Native/Game result, complete ABI, runtime speed, saved days or net owner saving. Historical freezes are unchanged; later receipts are separate stages.",
+      "publication_new_HTTP_compile_test_or_live_actions": 0
+    }
+  ],
+  "preparation_rule_annex": {
+    "case_id": "CLIENT-EXISTING-EVIDENCE-001",
+    "new_model_generation": false,
+    "fact": "Owner initially inferred missing CLI failure evidence. Existing dispatch, negative ACK payload, custody and unavailable artifacts plus source order showed the CLI already saves them before throwing. No CLI/source change, HTTP, compile or new read needed for that correction.",
+    "limit": "Only the named existing failure is classified; prior failure and actual world state remain unknown. A separately authorized new functional request is not confused with this redundant diagnostic.",
+    "owner_active_seconds": null,
+    "digest": {
+      "bytes": 3757,
+      "sha256": "7d4a688ba65ee5160255c018f5770edfbdfc9fd0240ab7355d45b23ce0e44605"
+    }
+  },
+  "routing_decision": "Owner independently freezes complex full RAM/ABI expected traces; do not force a new from-scratch large expected Test for every similar task. Prefer genuine typed APIs, thin bindings, precise diagnostics/source counterexamples or small mechanical segments with owner verification. New named boundary exploration remains finite and evidence-led, not a quota or adoption target.",
+  "opencode_scope": "Separate mode and existing failure cutoffs remain; no rerun of closed unlimited-step loop for success quota."
+}

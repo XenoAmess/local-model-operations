@@ -92,6 +92,24 @@ owner最终源22:35:08.545586Z已选，新的pending双POST22:36:09才开始；�
 
 两案客户端峰2分别只持续120.147654s、38.236640s；各案见证两稿顺序执行，峰1，不能把角色并派当成请求重叠。第二案SourceReady到首编1075.369802s、完整Ready到首编849.025240s是重叠的等待窗口，不能相加或抹成模型/CPU耗时。两案首次验证进程和仅1.403494s、1.437893s，仍不等于准备、审阅或任务墙钟。主动owner工时和净节省未知；没有真实Native、Game或性能信用，也不为模式成功重投这些已闭题。
 
+## 后到：按采用单位调整新任务路由
+
+[七个独立冻结案例](evidence/2026-11-02-http-task-routing.json)保留各自REQUEST/END、原样/partial/owner采用、验证与发布截止点，不合算成功率：
+
+| case_id | 实际采用与有限验证 |
+| --- | --- |
+| HTTP-ABI-PROJECTION-001 | 3个生成请求/5 POST，2个reset自动重试；生产partial加owner四类修正，两份见证length整弃。owner5例51checks通过，正式4866f988；不是模型见证通过。 |
+| HTTP-FULLSTATE-GATE-001 | 6 POST，4 stop与2 length。core partial加五组owner ABI修正，consumer纠正稿仅LF投影采用；audit部分事实，owner完整Book/fixture首4P，正式a9f3bda3。 |
+| HTTP-THIN-BINDING-002 | 一个真实新薄binding R1完整3096B原样、0 owner Java修改，首strict0/0.485409s，正式575326df。独立Test四份12000预算完整stop均语义拒绝，ownerwhole后5组56事件116checks，正式6c2a3c03；两者署名分开。 |
+| HTTP-BOUNDED-DIAGNOSTIC-001 | 7 POST完整stop，owner给定签名、上限和真实code-point API后，R2三表达式/helper原样采用；Test仅partial加owner修正，4个纯DATA方法通过，正式b824175e。首编旧CP红与漏Test import归owner；784.498894s软件窗口不等于8.324429s进程和或主动人工。 |
+| HTTP-TYPED-API-002 | 8 POST，6 stop与2 length。API R2完整7141B raw采用；liveness、生产实现与Book未采用，owner完成有限软件链4场114事件。准备495.262745s、观察起点到RUN1632.656348s均保留，正式34c755b7；后到CRLF/LF投影勘误不改原模型/首验等级。 |
+| HTTP-COMPOSITE-TRACE-001 | 两稿各16000预算、均完整stop但整稿语义拒绝，ownerwhole后265项RAM单方法1P，正式b211ede1。首POST到JUnit结束866.983939s，sourceReady到首编416.969358s；不当连续人工。 |
+| HTTP-COMPOSITE-TRACE-002 | 两份16000预算完整stop均整拒，ownerwhole后300项RAM单方法1P。R2含近似规模hint和后到源辅助，qualified非blind；首POST到JUnit结束957.239902s、sourceReady到首编530.189572s，formal仅按本截止已持回执记。 |
+
+这些证据支持改变当前分工：owner独立冻结复杂全RAM/ABI预期，模型优先真实typed API、薄binding、窄诊断、源反证和小机械段；不对每个相似新场景都强制从零生成大expected/Test，也不把完整stop或独立audit当正确。有限新边界探索仍可进行，实际失败成本照保，见[长期操作prompt](../prompts/capability-operations.md#按交付价值选择任务单位)。两份复合见证通过均是owner代码，不能追授模型或自然Native/Game/性能收益。
+
+同一脱敏证据还保留一项owner准备纠错：既有CLI已在throw前保存dispatch、负向ACK、custody与unavailable。查原件即可推翻“缺证”的推断，0新CLI/HTTP/READ；不把这个纠错算作模型发现，也不从负向ACK推有效世界状态。
+
 ## 已知边界与操作方法
 
 2026-11-02本机`4-8e1c2f1861`的[HTTP-GUI-001](evidence/2026-11-02-http-gui-layout.json)处理真实窗口裁切：三个工作流、四次POST全部stop，实际峰3维持约11.50秒。一个有效页尺寸hunk采用，遗漏的两个同父页由owner补齐；相邻检查中的祖层描述与豁免判断不能直接采用。两版完整Java测试均被拒绝，最终测试为owner实现：首版误把size Block当Atom并跳过实际blockoverride；补齐共享parser及精确诊断后的第二版仍在错误祖层替换，且混淆scrollbox本体与孩子。第一轮未显式给共享GUI语法表示的输入成本单列，不把所有失败都归模型。
