@@ -1,0 +1,63 @@
+{
+  "schema": "local-model-operations.mode-case-late-stage/v1",
+  "case_id": "HTTP-LIFECYCLE-001",
+  "mode_id": "http-candidate",
+  "earlier_record": "2026-11-02-http-lifecycle-handoff.json",
+  "earlier_unchanged": true,
+  "phase": "Later offline implementation; prior design calls are not recounted.",
+  "implementation": {
+    "logical_invocations": 5,
+    "POSTs": 5,
+    "stop": 5,
+    "length": 0,
+    "reset_or_retry": 0,
+    "client_peak": 3,
+    "source_message_bytes": [
+      936778,
+      953548
+    ],
+    "fixed_three_messages": true,
+    "temperature": 0,
+    "thinking": false,
+    "JSON_SSE_usage": true,
+    "cached_tokens": null
+  },
+  "adoption": {
+    "core": "Two proposals rejected whole; owner complete implementation. First valid JSON/stop used579 of8000 tokens but contained unfinished Java, not length. Second invented fields and confused host assignment with successful later setup.",
+    "session": "Four exact behavior hunks.",
+    "producer": "Three of four exact hunks; an unused outer-field hunk excluded, not a semantic rejection.",
+    "ordinary_adapter": "One exact hunk.",
+    "raw_behavior_hunks_total": 8,
+    "whole_model_source_claim": false
+  },
+  "separate_final_audit": {
+    "logical_tasks": 1,
+    "POSTs": 2,
+    "first": "Headerless reset10054, discarded; configured same-task retry.",
+    "final": "Complete stop1885 tokens; four issue claims rejected by current-source owner checks.",
+    "why_rejected": "Missed catch revocation/CAS cleanup, proposed weakening revoked-token rejection, and two claims identified no defect.",
+    "implementation_calls_recounted": false
+  },
+  "first_strict": {
+    "begin_UTC": "2026-11-01T19:20:23.932451+00:00",
+    "end_UTC": "2026-11-01T19:20:26.805568+00:00",
+    "seconds": 2.8723995000036666,
+    "exit_code": 0,
+    "new_TUs": 4,
+    "new_classes": 68,
+    "old_binary_pins_unchanged": 132,
+    "compiler_JVM_executed": true,
+    "application_JVM_or_tests": false
+  },
+  "limits": [
+    "No legitimate positive private-authority fixture held or run; no reflection/forged issuer qualifies.",
+    "No runtime handoff, concurrency interleaving, live loading, business action or speedup measured.",
+    "Source audits and compiler success do not prove both successful lifecycle phases."
+  ],
+  "formal_runtime_adoption": null,
+  "owner_active_labor_seconds": null,
+  "net_saving": null,
+  "permissions": "OFFLINE_ONLY: no live process/Game/Native query, UI, video, deployment or launch.",
+  "record_creation_new_requests_tests_or_business_actions": 0,
+  "next_real_trigger": "A legitimately constructible, separately authorized offline two-phase fixture or later source-adoption receipt; preserve model/owner split and current no-live boundary."
+}
