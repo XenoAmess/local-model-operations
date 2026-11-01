@@ -109,3 +109,9 @@ HTTP-REUSE-002单独记录后续窄实现，不改HTTP-AUDIT-002冻结事实。o
 HTTP-CIV6-MIGRATION130/131/132 是三个尚未完成的迁移方案、经验整理、验证边界任务；共享CLI a6f3389、固定三消息、各4200输出预算，3 POST/3 stop/DONE/合法JSON对象、0重试。实际峰3，持续 31.929842秒；缓存tokens与服务并发未知。使用当天维护缓存，无OpenCode-native代码生成。
 
 130薄适配方向、132边界方案部分参考，生产代码原样采用0；131仅分类参考，owner拒绝无证据故事并重写经验。原候选参数、逐项错误、成本null和精确历史来源见[脱敏摘要](evidence/2026-11-02-civ6-migration.json)及[经验整理](civ6-experience-2026-11-02.md)。此截止点适配实现/软件测试未完成，后到验证追加回执，不回写成模型独立交付；下一真实任务是薄适配器及原生42版购买入口复核。
+
+## 后到：Civ6 适配验证与实际入口审计
+
+迁移130/132的方向与边界仅部分分析参考，owner完成薄适配及14项边界测试，0.492秒通过，正式源[b2cf367](https://github.com/XenoAmess/civ6_dev/commit/b2cf36744fa9ed7de89cc220f2d19f89002f3492)已发表。先前待验证阶段不回写。HTTP-CIV6-ADAPTER-REVIEW133通过该新入口审阅实际新实现及canonical CLI、维护源码，1 POST/stop/DONE/JSON对象，预算3000、TTFT2.030852秒、总7.649869秒。它误读真实preflight链、原子claim及明示的业务提示覆盖，三项发现全部拒绝/代码采用0。没有因为stop或最终代码通过追授独立审计能力。
+
+实际来源、14方法与旧8方法退役范围、241链接检查、owner成本null及下一任务见[后到回执](evidence/2026-11-02-civ6-adapter-delivery.json)。OpenCode只用于每日维护，仍非原生工具生成；4次迁移请求不是4项代码交付，没测节时。

@@ -1,0 +1,136 @@
+{
+  "schema": "local-model-operations.civ6-adapter-delivery/v1",
+  "date": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "machine_id": "BF-202609141645",
+  "civ6_source_commit": "b2cf36744fa9ed7de89cc220f2d19f89002f3492",
+  "source_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "1982a9bdd966e05d4294fc018ef301352c5cc49e2d1b26307c8a4abe03e04a07",
+      "bytes": 7612
+    },
+    {
+      "path": "tools/local_model.py",
+      "sha256": "c67c25692aabde7575d85955af8a1c26474423730e379aa28bb3b8ee08b3d2a1",
+      "bytes": 8156
+    },
+    {
+      "path": "tests/test_local_model.py",
+      "sha256": "7031d337d723382dd026c5e21741f0e6440401825a4ee8d78287dba76ec89844",
+      "bytes": 13602
+    },
+    {
+      "path": "docs/local-model-executor-config.json",
+      "sha256": "6569a4532eeab2df51135f3b317068af7c2ef3a01dbe65c71735c9715ac00cea",
+      "bytes": 1456
+    },
+    {
+      "path": "docs/local-model-worker-guide.md",
+      "sha256": "028f548db287ca594f45e5334ae78902c3bb8fa4b8755465724578543e22be24",
+      "bytes": 4597
+    },
+    {
+      "path": "docs/local-model-experience.md",
+      "sha256": "4e48bd3f3bbf8de49f867bd8573de692ae90bdda930d60aabfeed00a24880f26",
+      "bytes": 3679
+    }
+  ],
+  "delivery": {
+    "branch": "main",
+    "pushed": true,
+    "remote_sha_verified": "b2cf36744fa9ed7de89cc220f2d19f89002f3492"
+  },
+  "model_contributions": {
+    "migration130": "partial architectural analysis; no verbatim production code",
+    "migrationlessons131": "classification reference only; owner rewrote facts",
+    "migrationtests132": "partial test-boundary analysis; owner implemented all tests"
+  },
+  "software": {
+    "new_adapter_boundary_methods_passed": 14,
+    "seconds": 0.492,
+    "former_internal_transport_methods_retired": 8,
+    "real_shared_consumers": [
+      "prepare_request",
+      "main with simulated preflight failure and uncalled dispatch"
+    ],
+    "mocked_boundaries": [
+      "canonical subprocess",
+      "HTTP not invoked",
+      "pnpm/OpenCode not invoked",
+      "game actions not invoked"
+    ],
+    "utf8_lf": true,
+    "local_document_links": 241,
+    "requirements": 28,
+    "test_cases": 40,
+    "unrelated_game_tests_repeated": false
+  },
+  "case": {
+    "case_id": "HTTP-CIV6-ADAPTER-REVIEW133",
+    "mode_id": "http-candidate",
+    "task": "Review actual newly written adapter with full canonical CLI and maintenance source; initial architecture did not contain this implementation",
+    "shared_commit": "c652acd43805d6b0df333238278cc9ea870a485d",
+    "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+    "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+    "model_alias": "qwen38-coder",
+    "backend_weight_identity": null,
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "max_tokens": 3000,
+    "source_message_utf8_bytes": 59050,
+    "source_message_sha256": "7e09aeb03cd7502b9b43a135dc9c22eea18d9d9140f1c92bc86fd024e11df7bf",
+    "post_begin_utc": "2026-11-01T21:16:26.800795+00:00",
+    "attempt_end_utc": "2026-11-01T21:16:34.450360+00:00",
+    "result": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "candidate_complete": true,
+      "http_headers_ms": 2029.03810000862,
+      "first_nonempty_content_delta_ms": 2030.8521000260953,
+      "total_ms": 7649.86870001303,
+      "usage": {
+        "prompt_tokens": 13880,
+        "completion_tokens": 826,
+        "total_tokens": 14706
+      },
+      "cached_prompt_tokens_if_reported": null
+    },
+    "review_level": "all three findings rejected; code adoption zero",
+    "owner_corrections": [
+      "F1 ignored actual call.py main client_preflight before dispatch; do not add a duplicate maintenance gate.",
+      "F2 ignored canonical open-x atomic DISPATCH.claim and CLI nonzero handling; retain existing-directory fail-closed precheck.",
+      "F3 rejected documented business-only system override and ended with semantically incomplete text despite syntactically valid stop JSON."
+    ],
+    "generation_permissions": "candidate text only; no tool loop or execution",
+    "native_result": null,
+    "owner_cost_seconds": {
+      "preparation": null,
+      "review": null,
+      "correction": null,
+      "test": null,
+      "publication": null
+    }
+  },
+  "new_migration_totals": {
+    "post_attempts": 4,
+    "complete_json_objects": 4,
+    "transport_retries": 0,
+    "client_peak": 3,
+    "peak_duration_seconds": 31.929842,
+    "current_in_flight": 0,
+    "server_concurrency": null,
+    "cached_prompt_tokens": null
+  },
+  "next_real_task": "Source42 native same-save purchase-control comparison and remaining Civ6 acceptance; future model requests use shared CLI or this adapter, not historical standalone HTTP workers.",
+  "limitations": [
+    "No efficiency A/B or measured owner savings.",
+    "14 adapter methods are not 14 additional game acceptance cases.",
+    "No OpenCode-native generation in these four tasks.",
+    "Prior frozen migration case stages remain unchanged."
+  ]
+}
