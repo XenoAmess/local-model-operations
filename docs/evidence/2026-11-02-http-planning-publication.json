@@ -1,0 +1,333 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-PLANNING-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Investigate stale planning after a completed no-action publication, then implement a narrowly typed pre-selection hook and necessary current-code regression methods.",
+  "input_limits": "The broad diagnostic scope explicitly lacked some concrete downstream roles. The later concrete scope supplied new current callers and a different contract. They are independent real scopes, not repeated retries or an A/B experiment. Complete transitive API coverage is not inferred from source byte counts. Test generation saw current implementations; owner semantic expectations were independently frozen and not supplied as oracle.",
+  "wire": {
+    "fixed_three_messages": true,
+    "actual_top_level_keys": [
+      "chat_template_kwargs",
+      "max_tokens",
+      "messages",
+      "model",
+      "response_format",
+      "stream",
+      "stream_options",
+      "temperature"
+    ],
+    "temperature": 0,
+    "enable_thinking": false,
+    "JSON_stream_usage": true,
+    "logical_tasks": 8,
+    "actual_POSTs": 9,
+    "ENDs": 9,
+    "complete_stop": 6,
+    "length": 2,
+    "partial_SSE_reset": 1,
+    "automatic_transport_retries": 1,
+    "closed_task_reposts_or_business_replays": 0
+  },
+  "calls": [
+    {
+      "cohort": "broad_source",
+      "role": "causal_diagnosis",
+      "max_tokens": 4000,
+      "source_message_UTF8_bytes": 958263,
+      "attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-01T21:31:37.190332+00:00",
+          "END_UTC": "2026-11-01T21:33:42.679722+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 66.07828670000163,
+          "reported_HTTP_seconds": 125.48954480000248,
+          "reported_usage": {
+            "prompt_tokens": 199842,
+            "completion_tokens": 1228,
+            "total_tokens": 201070
+          },
+          "cached_tokens": null,
+          "transport_reset": false
+        }
+      ]
+    },
+    {
+      "cohort": "broad_source",
+      "role": "publication_attribution_candidate",
+      "max_tokens": 4000,
+      "source_message_UTF8_bytes": 958263,
+      "attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-01T21:31:37.191025+00:00",
+          "END_UTC": "2026-11-01T21:33:34.614058+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 60.32842789999995,
+          "reported_HTTP_seconds": 117.42321449999872,
+          "reported_usage": {
+            "prompt_tokens": 199894,
+            "completion_tokens": 680,
+            "total_tokens": 200574
+          },
+          "cached_tokens": null,
+          "transport_reset": false
+        }
+      ]
+    },
+    {
+      "cohort": "broad_source",
+      "role": "independent_source_audit",
+      "max_tokens": 4000,
+      "source_message_UTF8_bytes": 958263,
+      "attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-01T21:31:37.192350+00:00",
+          "END_UTC": "2026-11-01T21:33:49.717625+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 93.71066910000081,
+          "reported_HTTP_seconds": 132.52526260000013,
+          "reported_usage": {
+            "prompt_tokens": 199821,
+            "completion_tokens": 1797,
+            "total_tokens": 201618
+          },
+          "cached_tokens": null,
+          "transport_reset": false
+        }
+      ]
+    },
+    {
+      "cohort": "concrete_no_action_scope",
+      "role": "new_concrete_implementation",
+      "max_tokens": 6000,
+      "source_message_UTF8_bytes": 1204563,
+      "attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-01T21:37:59.915935+00:00",
+          "END_UTC": "2026-11-01T21:40:09.360475+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 92.91939270000148,
+          "reported_HTTP_seconds": 129.44462159999966,
+          "reported_usage": {
+            "prompt_tokens": 259681,
+            "completion_tokens": 2996,
+            "total_tokens": 262677
+          },
+          "cached_tokens": null,
+          "transport_reset": false
+        }
+      ]
+    },
+    {
+      "cohort": "concrete_no_action_scope",
+      "role": "independent_contract_audit",
+      "max_tokens": 4000,
+      "source_message_UTF8_bytes": 1204563,
+      "attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-01T21:37:59.915716+00:00",
+          "END_UTC": "2026-11-01T21:39:52.780831+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 86.21352959999786,
+          "reported_HTTP_seconds": 112.86513569999806,
+          "reported_usage": {
+            "prompt_tokens": 259541,
+            "completion_tokens": 807,
+            "total_tokens": 260348
+          },
+          "cached_tokens": null,
+          "transport_reset": false
+        }
+      ]
+    },
+    {
+      "cohort": "necessary_test",
+      "role": "whole_regression",
+      "max_tokens": 12000,
+      "source_message_UTF8_bytes": 1339798,
+      "attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-01T21:50:06.194496+00:00",
+          "END_UTC": "2026-11-01T21:53:43.025550+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 41.49654720000399,
+          "reported_HTTP_seconds": 216.83111089999875,
+          "reported_usage": {
+            "prompt_tokens": 268100,
+            "completion_tokens": 12000,
+            "total_tokens": 280100
+          },
+          "cached_tokens": null,
+          "transport_reset": false
+        }
+      ]
+    },
+    {
+      "cohort": "necessary_test",
+      "role": "new_actual_round_method",
+      "max_tokens": 8000,
+      "source_message_UTF8_bytes": 1015478,
+      "attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-01T21:55:02.248195+00:00",
+          "END_UTC": "2026-11-01T21:55:44.745765+00:00",
+          "HTTP_status": 200,
+          "finish_reason": null,
+          "SSE_DONE": false,
+          "content_TTFT_seconds": 26.104455699998653,
+          "reported_HTTP_seconds": 42.49759500000073,
+          "reported_usage": null,
+          "cached_tokens": null,
+          "transport_reset": true
+        },
+        {
+          "attempt": 2,
+          "POST_BEGIN_UTC": "2026-11-01T21:55:53.788417+00:00",
+          "END_UTC": "2026-11-01T21:56:39.371696+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 1.3006588999996893,
+          "reported_HTTP_seconds": 45.58325909999985,
+          "reported_usage": {
+            "prompt_tokens": 201402,
+            "completion_tokens": 8000,
+            "total_tokens": 209402
+          },
+          "cached_tokens": null,
+          "transport_reset": false
+        }
+      ]
+    },
+    {
+      "cohort": "necessary_test",
+      "role": "new_deadline_method",
+      "max_tokens": 5000,
+      "source_message_UTF8_bytes": 236222,
+      "attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-01T21:57:17.846169+00:00",
+          "END_UTC": "2026-11-01T21:57:44.179491+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 6.330010700003186,
+          "reported_HTTP_seconds": 26.334447100001853,
+          "reported_usage": {
+            "prompt_tokens": 48314,
+            "completion_tokens": 3525,
+            "total_tokens": 51839
+          },
+          "cached_tokens": null,
+          "transport_reset": false
+        }
+      ]
+    }
+  ],
+  "adoption": {
+    "broad_scope": "All three whole candidates rejected; causal/rejoin order errors and a head-JSON-as-digest attribution that exceeded the actual log budget. Concrete source findings were owner work, not model discovery.",
+    "concrete_scope": "Implementation rejected for reversed READ order, invented blocked API, conflating domain publication with READ rejoin, moving an unrelated callback early and losing typed failure state. Independent audit supplied only limited source facts, not candidate-body approval.",
+    "test_attempts": "Whole-class length and reset-then-length method output entirely discarded unread, with no fragment extraction. The complete deadline method failed source review for invented clock/time-zone APIs, unbound inputs and prohibited controller expansion. No model executable code adopted.",
+    "selected_code": "Owner whole six production leaves and one new eight-method regression test. No model candidate was made correct by the later owner pass."
+  },
+  "software": {
+    "first_six_production_TUs_exit": 0,
+    "first_six_production_seconds": 2.457505200000014,
+    "later_new_deadline_guard_TUs": 1,
+    "later_guard_exit": 0,
+    "later_guard_seconds": 1.3338910000020405,
+    "new_Test_TUs": 1,
+    "first_Test_strict_seconds": 2.3954252999974415,
+    "first_RUN": "Eight setup errors because owner omitted an explicit existing native-library temporary-directory property; no business assertions entered. This is owner execution-envelope cost, not model semantic failure.",
+    "first_RUN_seconds": 1.838880399998743,
+    "envelope_only_RUN02_seconds": 13.520745700006955,
+    "RUN02": {
+      "passed": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "source_and_original_17_Testclasses_unchanged_for_RUN02": true,
+    "repeat_compile_for_RUN02": false,
+    "verified_scope": "Controlled current-code typed Published/Blocked/Unchanged ordering, same-request identity, exception cleanup and deadline boundary. Domain publication does not become READ rejoin or selection permission.",
+    "dynamic_gaps": [
+      "Successful private replay/changed qualification",
+      "Dynamic unrelated wrapper forwarding",
+      "Actual external model/Controller or Native dispatch",
+      "Runtime loading and performance"
+    ]
+  },
+  "clock_accounting": {
+    "client_peak": 3,
+    "actual_HTTP_interval_union_seconds": 593.217277,
+    "longest_peak_span_seconds": 117.421708,
+    "peak_spans": [
+      {
+        "BEGIN_UTC": "2026-11-01T21:31:37.192350+00:00",
+        "END_UTC": "2026-11-01T21:33:34.614058+00:00"
+      }
+    ],
+    "sum_model_HTTP_attempt_seconds": 948.9941913000002,
+    "necessary_test_own_client_peak": 1,
+    "necessary_test_HTTP_attempt_sum_seconds": 331.2464121000012,
+    "test_first_strict_to_final_RUN_END_wall_seconds": 207.865797,
+    "test_executed_phase_sum_seconds": 17.75505140000314,
+    "owner_active_preparation_review_fix_seconds": null,
+    "net_owner_saving_seconds": null,
+    "observed_old_planning_window_seconds": 180.2348856,
+    "old_window_runtime_model_HTTP_seconds": 9.481,
+    "old_window_unattributed_remainder_seconds": 170.7538856,
+    "limit": "Source preparation, owner coding, requests, tests and waiting overlap. The remainder is not assigned to READ, CPU or encoding. Earlier unconsumed process sessions did not prove HTTP concurrency; the three necessary-test tasks are sequential."
+  },
+  "owner_delivery_frozen_cutoff": "Source and software ready; formal publication was pending in the unchanged owner delivery. No fresh external action or speedup was established by eight software methods.",
+  "later_formal_annex": {
+    "commit": "604d6640d8c9a248550c6a857f84ad86cddadcad",
+    "source_leaf_count": 7,
+    "owner_reported_formal_LF_blobs_match_selected": true,
+    "receipt": {
+      "bytes": 1236,
+      "sha256": "972a5f1ca31b01de5f28dbb164dc81848b31eeddb902b0145937ed41de99eb00"
+    },
+    "new_compile_RUN_HTTP_for_publication": 0,
+    "runtime_loading_or_speedup": false
+  },
+  "private_evidence_digests": {
+    "owner_mature_delivery": {
+      "bytes": 22603,
+      "sha256": "b39abf402d20a5ff36435caa921e6a5fa27d2021e35530b126a52682c39cf3cb"
+    },
+    "witness_model_cost_review": {
+      "bytes": 6909,
+      "sha256": "105173639ed83d108b504072c0081eb952df638c18b3ad6d40578c77d3596362"
+    },
+    "witness_delivery": {
+      "bytes": 9022,
+      "sha256": "b63144a4d70ab25e2fffa216fa5b2853459ef4b567fd660f32a0a592a1a1789e"
+    }
+  },
+  "next_real_trigger": "Consume later actual formal/adoption/behavior receipts without rewriting this cutoff. New unfinished regression methods should use bounded reused fixtures rather than repeating the closed truncated whole class.",
+  "publication_new_model_requests_compile_tests_or_live_actions": 0
+}

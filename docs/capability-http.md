@@ -40,6 +40,7 @@ owner把稳定system、完整当前源码/合同、变化的任务/诊断组成�
 | HTTP-SNAPSHOT-001 / 2026-11-02 Asia/Shanghai | 真实只读快照CLI的实现与原源审计两角色，19份完整源、第二消息各614319B；6500/2800输出上限，2 POST完整stop、0重试。HTTP并行墙钟67.751864s，峰2连续49.673498s。 | 两稿whole拒绝、模型代码采用0，owner完整实现。owner首编误用JSON API，2.203043s红；只修一个类型检查/cast块后1TU0/1.654648s。后到Runtime唯一真实READ exit0/2.858430s、归档DATA并关闭通信端点；不追授模型成功、业务资格、保存日或性能。[分阶段实证](evidence/2026-11-02-http-snapshot-cli.json)。 |
 | HTTP-COMPOSITION-001 / 2026-11-02 Asia/Shanghai | 机制诊断、新精确路由实现及独立测试两稿，共4 POST、3 stop、1 length、0重试；四个实际区间均不重叠。owner补齐新路由的前瞻公签并给定单桥组合架构。 | 诊断整拒；新实现首稿4114B decoded Java原样采用、首1TU0/.648069s。测试首稿完整但实际API/帧/调用期待错，第二稿14000输出截断未读、0R3；owner whole测试首strict及1P通过。源码组合成功不追授模型测试或Native能力。[独立采用与成本](evidence/2026-11-02-http-route-composition.json)。 |
 | HTTP-READ-AUDIT-003 / 2026-11-02 Asia/Shanghai | 一个实际下游源码审计域提供19份完整源664923B，1 POST完整stop，103.974192s，reported137837+1154 tokens、cached=null。 | 四个所谓阻塞没有建立本场景合法可达反例，0发现采用，仅有限链路事实供owner核对。并行OpenCode审计使用另一源码域且最终0报告，不能用不同任务比较模式效率；业务问题由owner独立源审收口。[两域分账证据](evidence/2026-11-02-opencode-readonly-audit.json)。 |
+| HTTP-PLANNING-001 / 2026-11-02 Asia/Shanghai | 广域诊断/归因3任务、后继具名完成阶段2任务、必要测试3任务，8 logical/9 POST：6 stop、2 length、1半截reset后自动重试。全case客户端峰3连续117.421708s；三个测试任务实际顺序执行、峰1。 | 全部模型代码拒绝；部分原源分析需owner另核，不算候选审计通过。owner完成六生产叶及8方法Test：首setup漏运行参数造成8红，保源码和17个class不变，只修envelope后8P。后到正式604d6640，尚无运行提速；历史180.234886s规划窗口中170.753886s仍未归因。[源审、重试与owner成本](evidence/2026-11-02-http-planning-publication.json)。 |
 
 HTTP-SESSION-001的实际REQUEST参数与hash已核；owner记录两份请求均包含32份冻结源码的全部非空行，但CRLF组装增加空行，并非逐字节嵌入。这个覆盖检查不等于所有必要依赖闭包已独立证明，后者仍记unknown。验证使用owner已见实现的有限场景；首次测试启动因漏既有JNA目录参数在目标前失败，仅改argv后通过，原失败保留。准备、源审、纠错和协调成本未完整计量，不填0，也没有模式比较或净省时结论。
 
@@ -68,6 +69,8 @@ HTTP-REUSE-002单独记录后续窄实现，不改HTTP-AUDIT-002冻结事实。o
 HTTP-SNAPSHOT-001保留模型与owner两类API错误：模型虚构方法、配置占位、先无界读取再查预算，以及清理前宣告成功等被源审拒绝；审计把已提供的原HELLO/record字段和bounded读取误称不可访问，也没有采用其whole判断。owner接管后自己的首编overload错误单列，源码只修一个解析结果类型检查/cast块，没有再请求模型。正式源36d7184c与选定字节全等，真实READ使用的类pin与第二次编译一致；一次成功只支持该路径的归档数据与清理结果，不证明完整失败/并发覆盖。准备、审阅和修复主动工时仍为null，不把后到现场成功变成模型采用或净节省；本次整理只读已有回执，未操作现场。
 
 HTTP-COMPOSITION-001把owner架构、模型代码和有限见证分开：机制稿把TLS/sentinel getter误当释放，并用未知opaque内部否定明确受控正常场景；随后给定准确组合合同的新实现可以原样采用。正式production仅去除32B空白、EOF状态不变，测试正式blob与owner源码全等。测试包含一个新scene、166条literal typed RAM操作及完整帧/调用检查，受控allocator/free和FP回复不证明自然Native、TLS/FP硬件、任意递归或整个项目完成。R2半稿未读，不凭14000 length推算法失败；1P也不把owner测试变为模型采用。首次测试POST到JUnit结束1237.844026s是有界观察窗口，早期准备不在内，间隙不分摊成模型、服务或CPU。实际strict→JUnit窗口1.575143s、进程耗时和1.556843s；整driver事件跨度1.602434s与reported monotonic1.602174s分别保留，主动owner/父审工时unknown。
+
+HTTP-PLANNING-001保留输入与成本差异：早期广域材料显式缺少部分具体下游角色，后来根据实际事件形成新的具名任务，不能当同题A/B或把后见完整源回填。实现稿即使完整stop仍把READ顺序、领域出版与READ rejoin、typed Blocked传播混淆，owner全实现；测试整类12000及重试后的8000输出均length未读，另一个5000预算的完整方法才按真实类型/作用域错误拒绝。三次测试任务没有HTTP交叠，未消费的进程session不算在途。有限验证首strict至最后RUN墙钟207.865797s，执行阶段和17.755051s，其余包含envelope修复及等待；主动人时仍null。8P不授私有replay成功、实际Controller/Native动作或性能，170.753886s历史余量不分派给READ/编码，也不因源码修复意图就扣掉两次选择耗时。
 
 ## 已知边界与操作方法
 
