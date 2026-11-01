@@ -84,6 +84,14 @@ owner最终源22:35:08.545586Z已选，新的pending双POST22:36:09才开始；�
 
 三源首strict0/2.941664s；默认2项skip，另外两个新qualified软件peer方法各1P，正式73228427。范围是owned软件peer和实际协议API：动态动作链走同一受控endpoint/wire，未通过Root/private permit或真实Game动作。记录的正向26份Native原件只配对25份Java原件，初始snapshot未单独导出，不能冒三方全量等值。首strict到最后RUN墙钟392.013739s，执行和12.434680s，主动owner人时未知；EVENT实算两个峰2窗口35.706427s及12.576313s，未把owner原RESULT时间近似覆盖成一个持续峰或目标已达。
 
+## 后到：迁移见证的两组拒绝与owner成本
+
+[HTTP-MIGRATION-001](evidence/2026-11-02-http-migration-01.json)分别保留机制分析、独立反例与一个有payload迁移的软件见证。前两份完整stop的因果路径均错，最终结论偶然吻合不计采用；见证首稿完整API/队列错误，纠正稿length16000整份未读丢弃。四次POST只有三份完整，模型代码与原始分析字段采用均0。owner接管单方法后，首strict0/0.792446s、JUnit1P/0.611048s，后到正式Test另列；214项typed RAM观察只支持这个受控软件输入。
+
+[HTTP-MIGRATION-002](evidence/2026-11-02-http-migration-02.json)的新碰撞场景四次POST全部完整stop，四稿仍被源审拒绝，不能归因输出截断。owner第二轮诊断省略十六进制前缀造成偏移歧义，相关错误不作为独立模型能力反例；其它接口、调用角色及完整观察缺失另据实际源拒绝。owner完整方法首strict0/0.818401s、JUnit1P/0.619493s，219项typed RAM观察与正式发布均不追授模型代码。
+
+两案客户端峰2分别只持续120.147654s、38.236640s；各案见证两稿顺序执行，峰1，不能把角色并派当成请求重叠。第二案SourceReady到首编1075.369802s、完整Ready到首编849.025240s是重叠的等待窗口，不能相加或抹成模型/CPU耗时。两案首次验证进程和仅1.403494s、1.437893s，仍不等于准备、审阅或任务墙钟。主动owner工时和净节省未知；没有真实Native、Game或性能信用，也不为模式成功重投这些已闭题。
+
 ## 已知边界与操作方法
 
 2026-11-02本机`4-8e1c2f1861`的[HTTP-GUI-001](evidence/2026-11-02-http-gui-layout.json)处理真实窗口裁切：三个工作流、四次POST全部stop，实际峰3维持约11.50秒。一个有效页尺寸hunk采用，遗漏的两个同父页由owner补齐；相邻检查中的祖层描述与豁免判断不能直接采用。两版完整Java测试均被拒绝，最终测试为owner实现：首版误把size Block当Atom并跳过实际blockoverride；补齐共享parser及精确诊断后的第二版仍在错误祖层替换，且混淆scrollbox本体与孩子。第一轮未显式给共享GUI语法表示的输入成本单列，不把所有失败都归模型。

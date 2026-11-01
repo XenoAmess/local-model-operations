@@ -1,0 +1,232 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-MIGRATION-002",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Source feasibility and one finite software witness for migration followed by a collision probe.",
+  "input_qualification": {
+    "analysis_current_items": 66,
+    "analysis_current_Java_files": 45,
+    "witness_current_Java_files": 44,
+    "qualified_mature_architecture_not_blind": true,
+    "old_Test_or_owner_expected_trace_supplied": false,
+    "actual_source_messages_LF_projection_verified_by_owner": true,
+    "witness_declarations": "Held current APIs, real ancestor declarations, original semantics and a neutral mechanical host; no peer analysis answer supplied.",
+    "full_recursive_implementation_closure": null
+  },
+  "wire": {
+    "actual_top_level_keys": [
+      "chat_template_kwargs",
+      "max_tokens",
+      "messages",
+      "model",
+      "response_format",
+      "stream",
+      "stream_options",
+      "temperature"
+    ],
+    "fixed_three_messages": true,
+    "generation_request_units": 4,
+    "business_roles": 3,
+    "witness_semantic_rounds": 2,
+    "POSTs": 4,
+    "ENDs": 4,
+    "complete_stop": 4,
+    "length": 0,
+    "transport_retries": 0,
+    "closed_task_reposts_or_business_replays": 0
+  },
+  "calls": [
+    {
+      "role": "mechanism",
+      "semantic_round": 1,
+      "max_tokens": 5000,
+      "source_message_UTF8_bytes": 320623,
+      "POST_BEGIN_UTC": "2026-11-01T21:58:45.910015+00:00",
+      "END_UTC": "2026-11-01T21:59:24.146655+00:00",
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 33.20105359999434,
+      "reported_HTTP_seconds": 38.2366425999935,
+      "usage": {
+        "prompt_tokens": 129556,
+        "completion_tokens": 591,
+        "total_tokens": 130147
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "counterexample",
+      "semantic_round": 1,
+      "max_tokens": 4500,
+      "source_message_UTF8_bytes": 320623,
+      "POST_BEGIN_UTC": "2026-11-01T21:58:45.903137+00:00",
+      "END_UTC": "2026-11-01T21:59:38.377105+00:00",
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 31.568771300000662,
+      "reported_HTTP_seconds": 52.47404000000097,
+      "usage": {
+        "prompt_tokens": 129569,
+        "completion_tokens": 2619,
+        "total_tokens": 132188
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "software_witness",
+      "semantic_round": 1,
+      "max_tokens": 16000,
+      "source_message_UTF8_bytes": 329600,
+      "POST_BEGIN_UTC": "2026-11-01T22:00:18.013803+00:00",
+      "END_UTC": "2026-11-01T22:01:10.264024+00:00",
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 18.030509000003804,
+      "reported_HTTP_seconds": 52.25025620000088,
+      "usage": {
+        "prompt_tokens": 134573,
+        "completion_tokens": 4902,
+        "total_tokens": 139475
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "software_witness",
+      "semantic_round": 2,
+      "max_tokens": 16000,
+      "source_message_UTF8_bytes": 329600,
+      "POST_BEGIN_UTC": "2026-11-01T22:01:56.811227+00:00",
+      "END_UTC": "2026-11-01T22:02:18.025315+00:00",
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 0.8932386000014958,
+      "reported_HTTP_seconds": 21.214081500002067,
+      "usage": {
+        "prompt_tokens": 135323,
+        "completion_tokens": 3272,
+        "total_tokens": 138595
+      },
+      "cached_tokens": null
+    }
+  ],
+  "adoption": {
+    "model_code_or_raw_analysis_fields": 0,
+    "source_analyses": "Both whole causal analyses rejected. Agreement with an isolated final conclusion is not adoption of the wrong proof.",
+    "analysis_errors": "Confused lookup stopping with insertion rejection, old-row and future-key collision roles, and capacity/exponent/displacement paths.",
+    "witness_complete_errors": "Wrong entry/row/container/port APIs and missing full ordered RAM/register observations; whole complete candidates rejected by source review, not compiler RED.",
+    "length_policy": "Both witness responses are complete stop; neither is length.",
+    "owner_selected": "Whole one-method software Test with a neutral mechanical host; no new producer needed.",
+    "no_R3": true
+  },
+  "owner_errors_and_limits": [
+    "Initial metadata Python syntax error was owner packaging, not a model or Java failure.",
+    "Actual saved REQUEST source projections remain unchanged; all reported errors are tied to each role input.",
+    "Owner second-round diagnostic omitted hexadecimal prefixes on several offsets. Related offset mistakes cannot isolate model capability; other signature, invoke/execute and missing-observation errors still reject the whole candidate. Original request and explicit later erratum preserved."
+  ],
+  "software": {
+    "owner_code_only": true,
+    "checks": [
+      {
+        "stage": "strict",
+        "BEGIN_UTC": "2026-11-01T22:23:10.814859+00:00",
+        "END_UTC": "2026-11-01T22:23:11.633451+00:00",
+        "reported_process_seconds": 0.8184005000002799,
+        "exit_code": 0
+      },
+      {
+        "stage": "one_new_method_JUnit",
+        "BEGIN_UTC": "2026-11-01T22:23:11.652719+00:00",
+        "END_UTC": "2026-11-01T22:23:12.272356+00:00",
+        "reported_process_seconds": 0.6194927999968058,
+        "exit_code": 0
+      }
+    ],
+    "new_JUnit_methods_passed": 1,
+    "skipped": 0,
+    "typed_RAM_observations": 219,
+    "old_binary_pins_unchanged": 98,
+    "old_sources_compiled": 0,
+    "old_Test_methods_run": 0,
+    "new_production_TUs": 0,
+    "scope": "One controlled normal software input against held mature APIs. Full observed queue/explicit callbacks are finite evidence; no natural hardware, allocator, TLS, floating-point implementation, real Game or performance qualification."
+  },
+  "formal_annex": [
+    {
+      "role": "Test",
+      "commit": "b4e323610bb3f3d65e58bc4b361a6a9504e8c9b8",
+      "normal_push_remote_exact_clean_at_receipt": true,
+      "new_compile_RUN_for_publication": 0
+    },
+    {
+      "role": "current_doc",
+      "commit": "affd0bf6cd44982a83d6bac98fda19abb6e10c0f",
+      "normal_push_remote_exact_clean_at_receipt": true,
+      "new_compile_RUN_for_publication": 0
+    }
+  ],
+  "clock_accounting": {
+    "client_peak": 2,
+    "peak_spans_POST_BEGIN_to_END": [
+      {
+        "BEGIN_UTC": "2026-11-01T21:58:45.910015+00:00",
+        "END_UTC": "2026-11-01T21:59:24.146655+00:00",
+        "seconds": 38.23664
+      }
+    ],
+    "HTTP_interval_union_seconds": 125.938277,
+    "reported_HTTP_elapsed_sum_seconds": 164.1750202999974,
+    "witness_first_POST_to_first_JUnit_END_bounded_wall_seconds": 1374.258553,
+    "first_validation_UTC_wall_seconds": 1.457497,
+    "between_verification_phases_UTC_seconds": 0.019268,
+    "verification_process_sum_seconds": 1.4378932999970857,
+    "CHAIN_UTC_wall_seconds": 1.484957,
+    "active_owner_prepare_write_review_seconds": null,
+    "net_owner_saving_seconds": null,
+    "limits": "HTTP union, summed requests, bounded case windows, verification process sums and active labor are distinct clocks. Unattributed gaps are not assigned to service, CPU or continuous human work.",
+    "overlapping_readiness_windows_seconds": {
+      "source_ready_to_first_strict_BEGIN": 1075.369802,
+      "complete_chain_ready_to_first_strict_BEGIN": 849.02524
+    },
+    "readiness_limit": "These are overlapping windows, not additive labor; resource/coordination attribution is incomplete and original wait is retained."
+  },
+  "private_evidence_digests": {
+    "source_analysis_cohort": {
+      "bytes": 9620,
+      "sha256": "b2aeebc4a852a1f9c19ec85332036541d4a3270b0dc5072562b26857c00e7169"
+    },
+    "witness_cohort": {
+      "bytes": 4313,
+      "sha256": "0aaaa1d366af20e1ce53643b843cf3e6bb0e9e924ea5e1edbb53fba5dbd51eb9"
+    },
+    "owner_delivery": {
+      "bytes": 22096,
+      "sha256": "7fc27592a94f926f13594ccc93f2ed0b5677d1dfe3e06f7943de22acc5919ae6"
+    },
+    "cost_anchors": {
+      "bytes": 3005,
+      "sha256": "75d491791613e9f47b4e9c8dc484774d67268b7a98e17b22de4d8f471b9b1ab8"
+    },
+    "publication_navigation": {
+      "bytes": 2853,
+      "sha256": "d7495e76fd8737ecca072b41277a773108a8645d72dcd70c7e3d4f854a55ca24"
+    },
+    "chain_actual": {
+      "bytes": 2115,
+      "sha256": "bbf5c782a0022e311c46fe684ab5a1827edc39d27ea058b3fe9ac92e2265f5d3"
+    },
+    "owner_feedback_erratum": {
+      "bytes": 1035,
+      "sha256": "77e3d4e19af4b4d12801f80ae1e0a530d6dfe43bbc158069738adf50e44aa1ae"
+    }
+  },
+  "next_real_trigger": "Only a genuinely new reachable source branch or separately authorized validation extends this finite case. Closed model proposals and passing owner method are not replayed for quota or mode success.",
+  "publication_new_HTTP_compile_test_or_live_actions": 0
+}
