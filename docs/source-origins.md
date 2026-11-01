@@ -39,6 +39,7 @@
 | 执行者保管记录 | 字节数 | SHA-256 | 本次公开范围 |
 | --- | ---: | --- | --- |
 | `PORTABLE-BUDGET-RULE220.json` | 1,629 | `71135723f79319b9a57ae49a7894faf959a40db0f0bf8890fbbdaa57cbbff46b` | caller64MiB / callee最大8MiB，参数门与实际包体分别验证，模型输入漏callee及多owner审漏成本 |
+| `PORTABLE-FIXTURE-BOUNDARIES220.json` | 2,299 | `bff68b1a127b2694c198ca9bea20e88a44f0ca50625547a9051a6298d802f84e` | 合法值域与总包预算分别构造负例、准确到达点、typed整数与节点存储类型比较；78项纯数据验证及owner夹具成本，不授线上或性能结论 |
 | `ROOT-SHORT219.json` | 8,275 | `f9c9d4c70e4f85c68129a6217235a5918dbf48969048733edc79bf291cf83d19` | GC事件、pause并集与allocation样本聚合的有限摘要 |
 | `GC-ALLOCATION-SUMMARY219.json` | 22,778 | `978616e387d00ba3c189724aa8e20b3cb30239944307e10d9639ae645338de5d` | 同一次60秒JFR的独立GC/allocation过滤摘要 |
 | `WEIGHT-SENSITIVITY219.json` | 52,024 | `32238640a5426efcbd83708a97eee64753d827d08f52552e0a9f878632c51834` | 最大单样本权重、分布及排除最大项的敏感度；不授CPU或精确总分配结论 |

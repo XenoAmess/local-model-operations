@@ -31,6 +31,12 @@
 
 准确数据形状不能替代有符号比较、字节宽度、物理栈位置和分支可达性。先从原始合同冻结 oracle，再读新目标输出；若向模型提供了逐步期待，署名为“owner oracle → 模型编码”。检查 literal 是十六进制值还是十进制值、宽度单位是 bit 还是 byte，核完整调用帧和 effects 在同一 RAM 上消费一次。不要让实现和测试共享同一错误推导后相互证明。
 
+2026-11-01 的预算回归又暴露了 fixture 的前置合同：原本要复现总包超过1MiB，旧实现却先拒绝了非整数 JSON 值；修正后，单个巨大字符串又先被32,768码点的文本限制拒绝。这两次非零退出都没有到达所称的总字节预算错误。应沿实际委托校验核对合法值域，再用合法短值聚合跨越总量边界，检查真实异常及到达位置；更宽的文本或数字域另作场景。保留原 oracle、原失败与修正依据，不能把任意异常当作指定负例通过。
+
+修正后的同一纯数据 Probe 在冻结旧类上准确触发总预算错误，在新类上通过78项断言：小包773字节、合法短串聚合的大包1,101,610字节、中间包200,935字节，另核单个巨大字符串及负零完整保留。五次 Probe 编译和前两次错误值域的 JVM 失败均保留，未重编生产类；这不是一次原样模型产物通过，也不授真实捕获链、线上或性能结论。模型可见候选生产源码，不能署名为盲生产见证。依据为执行者保管的 `PORTABLE-FIXTURE-BOUNDARIES220.json`，见[来源说明](source-origins.md)。
+
+整数值的比较也要服从实际合同：Jackson 的 primitive int / long 节点与 BigInteger 节点可能表达同一数学整数，却不满足节点存储类型的 `equals`。要求 typed JSON 整数值相等时，先将两侧投影为同一值表示；要求原始字节或数字 token 不变时，仍分别检查，不能用正规化抹去负零或 token 差异。
+
 历史负例也限制“看起来通过”的含义：`byte[].equals` 是对象身份；typed JSON 值相等与原始字节不可变是不同合同；109个 checks 可能只含27个数据 fixture及一个结构断言。正链后追加非法 UTF-8 / duplicate-key 负例，曾找到4个公开异常映射回归。通过时写真实 case、checks、旧红与失败项重跑范围，不能把不同 JVM 的结果改成一次全绿。[实际负合同传播](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-capability-boundary-2026-10-28.md#L21-L25)、[比较与独立进程问题](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-worker-guide.md#L193-L206)
 
 ## 运营证据保留时间与字节口径
