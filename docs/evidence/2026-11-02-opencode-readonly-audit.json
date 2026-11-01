@@ -1,0 +1,300 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "OC-READ-AUDIT-002",
+  "mode_id": "opencode-native",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "version": "1.19.5",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "result": {
+    "first_observed_clock_to_final_CLI_END_wall_seconds": 1507.854678,
+    "final_audit_reports": 0,
+    "adopted_findings": 0,
+    "source_edits": 0,
+    "description": "Real unfinished downstream source audit; repeated tool output prevented completion even after one actual technical correction. Owner independent source review closed the business question."
+  },
+  "scope": {
+    "owned_files": [],
+    "permitted_tools": [
+      "read",
+      "glob",
+      "grep",
+      "internal invalid"
+    ],
+    "source_access": "Actual trusted source subtree, read on demand. Empty separate non-Git execution cwd; no whole-source-tree pin or copy.",
+    "business_commands_Git_network_edit_permissions": false,
+    "limits": {
+      "max_tokens_per_response": 16000,
+      "individual_HTTP_seconds": 180,
+      "steps": null,
+      "total_POSTs": null,
+      "whole_wall_seconds": null
+    },
+    "maintenance": "Current local-day successful 1.19.5 cache reused at real entry; no model/service probes for evidence publication."
+  },
+  "wire": {
+    "actual_top_level_keys": [
+      "chat_template_kwargs",
+      "max_tokens",
+      "messages",
+      "model",
+      "stream",
+      "stream_options",
+      "temperature",
+      "tool_choice",
+      "tools"
+    ],
+    "temperature": 0,
+    "enable_thinking": false,
+    "stream": true,
+    "include_usage": true,
+    "response_format_present": false,
+    "SDK_control_fields_forwarded": false,
+    "native_history": true,
+    "fixed_three_messages": false,
+    "first_followup_request_roles": {
+      "system": 1,
+      "user": 3,
+      "assistant": 225,
+      "tool": 232
+    },
+    "actual_POST_BEGINs": 275,
+    "sealed_tool_calls_ENDs": 273,
+    "operator_interrupted_UNKNOWN": 2,
+    "relay_retries": 0,
+    "SDK_retry_policy_generalized_from_this_case": false
+  },
+  "phases": [
+    {
+      "phase": "run01",
+      "CLI_BEGIN_UTC": "2026-11-01T21:44:49.554820+00:00",
+      "CLI_END_UTC": "2026-11-01T21:52:38.844560+00:00",
+      "CLI_seconds": 469.28974,
+      "CLI_exit": 91,
+      "actual_POST_BEGINs": 226,
+      "sealed_END_tool_calls": 225,
+      "tool_events": {
+        "read": 19,
+        "grep": 213
+      },
+      "completed_tools": 232,
+      "tool_errors": 0,
+      "duplicate_identical_read_arguments": 0,
+      "usage_sum_reported_complete_responses_only": {
+        "prompt_tokens": 35820916,
+        "completion_tokens": 21789,
+        "total_tokens": 35842705
+      },
+      "cached_tokens": null,
+      "TTFT_and_response_ms": {
+        "content_ttft_ms": {
+          "reported_count": 3,
+          "minimum": 497.501400001056,
+          "maximum": 4379.543200004264
+        },
+        "first_tool_delta_ms": {
+          "reported_count": 225,
+          "minimum": 665.9624999956577,
+          "maximum": 6987.279799999669
+        },
+        "total_ms": {
+          "reported_count": 225,
+          "minimum": 1338.5183999998844,
+          "maximum": 36162.80220000044
+        }
+      },
+      "debug_seconds": 1.19549,
+      "debug_effective_endpoint_checked": false,
+      "operator_interrupted_UNKNOWN_count": 1
+    },
+    {
+      "phase": "run02",
+      "CLI_BEGIN_UTC": "2026-11-01T21:59:49.864645+00:00",
+      "CLI_END_UTC": "2026-11-01T22:00:58.437025+00:00",
+      "CLI_seconds": 68.57238,
+      "CLI_exit": 1,
+      "actual_POST_BEGINs": 0,
+      "sealed_END_tool_calls": 0,
+      "tool_events": {},
+      "completed_tools": 0,
+      "tool_errors": 0,
+      "duplicate_identical_read_arguments": 0,
+      "usage_sum_reported_complete_responses_only": {},
+      "cached_tokens": null,
+      "TTFT_and_response_ms": {
+        "content_ttft_ms": {
+          "reported_count": 0,
+          "minimum": null,
+          "maximum": null
+        },
+        "first_tool_delta_ms": {
+          "reported_count": 0,
+          "minimum": null,
+          "maximum": null
+        },
+        "total_ms": {
+          "reported_count": 0,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "debug_seconds": 1.072983,
+      "debug_effective_endpoint_checked": false,
+      "operator_interrupted_UNKNOWN_count": 0
+    },
+    {
+      "phase": "run03",
+      "CLI_BEGIN_UTC": "2026-11-01T22:02:19.014040+00:00",
+      "CLI_END_UTC": "2026-11-01T22:04:24.854678+00:00",
+      "CLI_seconds": 125.840638,
+      "CLI_exit": 91,
+      "actual_POST_BEGINs": 49,
+      "sealed_END_tool_calls": 48,
+      "tool_events": {
+        "read": 8,
+        "grep": 41,
+        "glob": 1
+      },
+      "completed_tools": 50,
+      "tool_errors": 0,
+      "duplicate_identical_read_arguments": 0,
+      "usage_sum_reported_complete_responses_only": {
+        "prompt_tokens": 12041091,
+        "completion_tokens": 3788,
+        "total_tokens": 12044879
+      },
+      "cached_tokens": null,
+      "TTFT_and_response_ms": {
+        "content_ttft_ms": {
+          "reported_count": 1,
+          "minimum": 1059.3949000030989,
+          "maximum": 1059.3949000030989
+        },
+        "first_tool_delta_ms": {
+          "reported_count": 48,
+          "minimum": 1040.2893000064068,
+          "maximum": 6879.620200001227
+        },
+        "total_ms": {
+          "reported_count": 48,
+          "minimum": 1361.558700002206,
+          "maximum": 33470.687600005476
+        }
+      },
+      "debug_seconds": 1.036889,
+      "debug_effective_endpoint_checked": true,
+      "operator_interrupted_UNKNOWN_count": 1
+    }
+  ],
+  "repetition": [
+    {
+      "phase": "run01",
+      "observed_consecutive_same_supported_query_output": 186,
+      "output_characters": 1378,
+      "unsupported_arguments": [
+        "output_mode",
+        "-C"
+      ],
+      "declared_grep_arguments": [
+        "pattern",
+        "path",
+        "include"
+      ],
+      "wire_additionalProperties_false": false,
+      "runtime_observation": "Extra fields were accepted without a tool error and did not expand context; execute consumes the declared fields only.",
+      "end": "Authorized exact-owned CLI stop, exit 91; no final answer."
+    },
+    {
+      "phase": "run03",
+      "observed_consecutive_identical_complete_arguments_output": 27,
+      "output_characters": 599,
+      "output_sha256": "d73949f1ffa7d6f3da9c3aacf8f9cbd32a68ff4ba20becfdf6387bb23653cc86",
+      "unsupported_arguments": [],
+      "new_reads_after_technical_diagnosis": 8,
+      "end": "Authorized exact-owned CLI stop, exit 91; no third technical prompt or replay of the closed task."
+    }
+  ],
+  "read_window_audit": {
+    "read_count": 27,
+    "overlapping_read_calls": 1,
+    "byte_capped_read_outputs": 3,
+    "truncated_or_more_lines_reads": 15,
+    "truncated_reads_not_followed_by_later_extension": 8,
+    "limit": "Read windows are tools actually returned. A requested method window can be intentionally partial; remaining-file coverage is not assumed required or complete. This is not a missing-source semantic verdict."
+  },
+  "launcher_failure_and_repair": {
+    "phase": "run02",
+    "actual_upstream_POSTs": 0,
+    "natural_CLI_exit": 1,
+    "cause": "Explicit config loaded before parent project config; frozen old relay address overrode the new address, causing local ECONNREFUSED.",
+    "classification": "Owner preparation/configuration error, not model or service failure.",
+    "repair": "Set actual 1.19.5 OPENCODE_DISABLE_PROJECT_CONFIG; debug then inspect effective baseURL, not only exit status. Resumed actual same session/cwd after ended-DB SQLite backup.",
+    "original_config_DB_WAL_REQUEST_SSE_retained": true,
+    "source_DB_and_WAL_bytes_unchanged_during_backup": true,
+    "whole_cache_or_source_tree_copies": 0
+  },
+  "cost": {
+    "first_observed_clock_UTC": "2026-11-01T21:39:17+00:00",
+    "preparation_to_first_CLI_wall_seconds": 332.55482,
+    "CLI_interval_sum_seconds": 663.702758,
+    "between_CLI_gaps_seconds": [
+      431.020085,
+      80.577015
+    ],
+    "first_clock_to_final_CLI_END_wall_seconds": 1507.854678,
+    "active_owner_preparation_review_fix_seconds": null,
+    "before_first_clock_seconds": null,
+    "public_record_preparation_review_seconds": null,
+    "net_owner_saving_seconds": null,
+    "reported_complete_response_prompt_tokens_sum": 47862007,
+    "reported_complete_response_completion_tokens_sum": 25577,
+    "cached_tokens": null,
+    "limit": "CLI time includes local setup failure. Elapsed gaps and repeated history are not active labor, unique input, service CPU, cache evidence or net savings."
+  },
+  "related_separate_HTTP_domain": {
+    "mode_id": "http-candidate",
+    "case_id": "HTTP-READ-AUDIT-003",
+    "full_source_files": 19,
+    "full_source_bytes": 664923,
+    "actual_POSTs": 1,
+    "complete_stop_ENDs": 1,
+    "reported_elapsed_seconds": 103.9741915,
+    "prompt_tokens": 137837,
+    "completion_tokens": 1154,
+    "cached_tokens": null,
+    "adopted_findings": 0,
+    "reason": "Four alleged blockers lacked a legal reachable counterexample in the actual guarded scenario; limited trace facts required independent owner checking.",
+    "comparison": "Different source domains and prompting; not an A/B benchmark and not included in the 275 native POSTs."
+  },
+  "public_helper_validation": {
+    "new_targeted_offline_tests": 4,
+    "passed": 4,
+    "existing_edit_generator_changed": false,
+    "live_model_retest_for_public_helper": false,
+    "limit": "Public helper is host-written pure configuration/environment code. Actual native evidence used the private recorded adapter, not a new live run of this public generator."
+  },
+  "private_evidence_binding": {
+    "operator_final_case": {
+      "bytes": 7553,
+      "sha256": "de5c867aa3b5ac1c64fbec108dfd3c995abdcad0fd9a4ef95a66734e2a8aa6f4"
+    },
+    "business_owner_delivery": {
+      "bytes": 4788,
+      "sha256": "9962207563a3445306b713ade57b00be53231050f67aa44c1b2c900299271102"
+    },
+    "business_owner_sanitized_summary": {
+      "bytes": 3233,
+      "sha256": "a8cbf4d531c5622a72b69cc1f9ca9b4efdd05b472531eef28bda5cfc19934d25"
+    }
+  },
+  "not_proven": [
+    "Completed native source audit",
+    "Reliable autonomous recovery from a tool loop",
+    "Net owner savings or cross-mode superiority",
+    "Universal filesystem or symlink sandbox",
+    "Runtime recovery, new external actions, saved progress or performance benefit"
+  ],
+  "next_real_trigger": "Only a new authorized source task may test automatic supported-argument/output-SHA repetition detection and one technical diagnostic. Those automatic mechanisms are proposed, not implemented or proven by the manual stops. Do not rerun this closed question for mode success.",
+  "publication_new_model_requests_compile_or_live_actions": 0
+}

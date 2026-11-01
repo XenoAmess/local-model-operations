@@ -19,6 +19,18 @@ OpenCode保存真实assistant/tool历史；模型可在本次获准文件内检�
 
 三源码任务共9个CLI阶段、295 POST/295 END；这是模型往返数，不是295个任务。[阶段元数据](evidence/2026-11-01-opencode-three-task-stage.json)保留当时pending状态，后来验证和发布以上述单独回执为准，不回填旧冻结点。
 
+## 后继只读审计：OC-READ-AUDIT-002
+
+本次首观测到最终CLI停止墙钟1507.854678s，0最终报告、0发现采用，是本次实战价值的主要结果；工具可执行与任务有用分开判断。
+
+新真实源码审计使用1.19.5、零owned文件、独立空非Git cwd和只读原生工具；同一实际session共3个CLI区间、275次模型POST。273次完整终态都是tool_calls，另外2次在精准operator stop时中断、终态UNKNOWN；没有完整最终审计报告、采用或编辑。首段186次连续相同受支持grep参数/输出，工具未拒多余output_mode/-C；一条owner工具诊断后读取新callee，后来又27次重复相同合法query/输出。两次停止都依据具体无信息循环，不是总步数预算，也不叫自然完成。[脱敏证据](evidence/2026-11-02-opencode-readonly-audit.json)。
+
+中间CLI自然exit1、0 upstream POST，原因是父项目配置覆盖显式配置而连接冻结旧relay端口，归owner接入成本。保原件，设置当前版本真实OPENCODE_DISABLE_PROJECT_CONFIG并核effective endpoint后才发出续行请求。初次准备墙钟332.554820s，三个CLI区间合663.702758s；首观测到末CLI共1507.854678s，另有511.597100s段间gap。主动准备/审阅/纠错工时与净节省均未知；不把约1.2s的debug当全部准备。[只读配置和复用步骤](opencode-readonly.md)与原两文件编辑入口分开，新增公共helper的离线检查不冒充新live试验。
+
+工具282次（27read、254grep、1glob），0工具错误也未完成任务。273完整响应reported prompt合47,862,007、completion25,577，重复历史反复计入，cached tokens均null；不把该数当unique上下文或反推KV。平行普通HTTP审计属于另一源码域，1完整stop后4个所谓阻塞均未建立本案合法反例，0发现采用；不能据两种不同任务做A/B效率比较。业务边界由owner独立源码审查收口，不给任一模型发现或运行恢复信用。
+
+下一可施工点是连续相同受支持参数与输出SHA的自动检测，以及至多一次真实工具诊断。本轮只有人工封证和两次获准精准停止，未实现或验证自动恢复；未来仅在另一真实任务触发，不重跑已闭题争取成功。
+
 ## 成本基线
 
 | 案例 | 模型CLI区间合计 | 已知任务墙钟与owner成本 |

@@ -107,3 +107,5 @@ python scripts/opencode_config.py --executor config/executor.json --workspace D:
 38项新离线测试及OpenCode1.19.5实际`--pure debug config`已通过，但只证明纯生成逻辑和配置解析/合并；不证明该生成配置在新会话中的wire或权限执行。Windows主机上的PurePOSIX用例也不代表POSIX CLI实测。词法验证不证明symlink安全，raw非Git`/`上下文与Windows路径坐标`D:/`的边界含义需按当前客户端核对，详见模块docstring和[采用/成本回执](evidence/2026-11-01-opencode-config-delivery.json)。现行普通调用器和活跃业务配置没有自动切换。
 
 配置迁移及历史来源见 [来源与迁移记录](source-origins.md)。
+
+零owned文件的只读审计使用独立的[只读配置生成器](../scripts/opencode_readonly_config.py)与[接入步骤](opencode-readonly.md)，不把原编辑入口放宽为空scope。实测恢复时项目父配置可覆盖显式配置；须隔离环境、禁止项目配置并核实际合并结果。读取工具已执行不等于分析完成，该新案例没有最终审计答案或采用。
