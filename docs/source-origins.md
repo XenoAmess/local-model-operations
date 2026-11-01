@@ -4,14 +4,15 @@
 
 ## 原文快照
 
-迁移基线为原项目已正式发表的提交 [`0958f36720a2cf75d1e3ede84ff3ae7fa730d91d`](https://github.com/XenoAmess/ck3_eternal_recurrence/commit/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d)。下列两份文件直接复制该提交中的 Git blob，未改正文、链接、换行或文件末尾；SHA-256 针对归档文件的实际字节。
+迁移基线为原项目已正式发表的提交 [`0958f36720a2cf75d1e3ede84ff3ae7fa730d91d`](https://github.com/XenoAmess/ck3_eternal_recurrence/commit/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d)。下列三份文件直接复制该提交中的 Git blob，未改正文、链接、换行或文件末尾；SHA-256 针对归档文件的实际字节。
 
 | 本仓库归档 | 原公开路径 | 字节数 | SHA-256 |
 | --- | --- | ---: | --- |
 | [worker 指南原文](history/local-model-worker-guide.md) | [docs/local-model-worker-guide.md](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-worker-guide.md) | 50,663 | `7060ed951b7b765b95babf407ef7ea60ec37729a3c0ff2a366acd44d0da32762` |
 | [执行者可行性原文](history/local-model-executor-feasibility-2026-10-28.md) | [docs/local-model-executor-feasibility-2026-10-28.md](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-executor-feasibility-2026-10-28.md) | 36,796 | `6c51f1d2dfc34218ae15060cd624849cdd394cb5ec6e74b85daeb91bdcf18429` |
+| [能力边界探索原文](history/local-model-capability-boundary-2026-10-28.md) | [docs/local-model-capability-boundary-2026-10-28.md](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-capability-boundary-2026-10-28.md) | 28,980 | `bb0a73af3d2f54eb2476f12db54d2079d17b82b766b991143647dda78a3454a8` |
 
-指南在该基线前最后一次修改的提交是 [`2d37c70751b3d1c28b20254a14afeb824573a489`](https://github.com/XenoAmess/ck3_eternal_recurrence/commit/2d37c70751b3d1c28b20254a14afeb824573a489)，可行性文档为 [`133514d9ce02c08a4900b974690e5ab48afd858b`](https://github.com/XenoAmess/ck3_eternal_recurrence/commit/133514d9ce02c08a4900b974690e5ab48afd858b)。这里采用同一已发表基线，便于复核它们当时共同存在的版本。
+指南在该基线前最后一次修改的提交是 [`2d37c70751b3d1c28b20254a14afeb824573a489`](https://github.com/XenoAmess/ck3_eternal_recurrence/commit/2d37c70751b3d1c28b20254a14afeb824573a489)，可行性文档为 [`133514d9ce02c08a4900b974690e5ab48afd858b`](https://github.com/XenoAmess/ck3_eternal_recurrence/commit/133514d9ce02c08a4900b974690e5ab48afd858b)，能力边界文档为 [`c2b7ad84e9602de22c938d6f42b3729decd79fe1`](https://github.com/XenoAmess/ck3_eternal_recurrence/commit/c2b7ad84e9602de22c938d6f42b3729decd79fe1)。这里采用同一已发表基线，便于复核它们当时共同存在的版本。
 
 原执行机器的指南工作树使用 CRLF，50,935 字节，SHA-256 为 `238f9e176faeb80370527ee5f2aae980e6af99be05e89453b01037513d4dc338`；它规范化为 LF 后与上述公开 Git blob 相等。本仓库归档的是公开 Git blob 的 50,663 字节，未把工作树哈希标成归档哈希。稀疏工作树未展开的文件从同一提交读取，不据文件未落盘推断源缺失。
 
@@ -24,7 +25,8 @@
 | 依据 | 原公开版本 | 迁移用途 |
 | --- | --- | --- |
 | 执行器配置 | [原配置](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-executor-config.json)，7,379 字节，SHA-256 `fa854f62ae217b7012c93e5ba31b5b4f4914def7e2db9e7184feab7a47c0704c` | 提取指定服务、模型、固定 system、默认参数和重试策略；机器目录与执行者身份改为本仓库的可配置接口。 |
-| 能力边界记录 | [原记录](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-capability-boundary-2026-10-28.md)，28,980 字节，SHA-256 `bb0a73af3d2f54eb2476f12db54d2079d17b82b766b991143647dda78a3454a8` | 区分上下文规模、实际改写范围、提示程度、owner 修正及有限验证；只整理有关段落，不复制整个项目进展日志。 |
+
+能力边界档案用于核对上下文规模、实际改写范围、提示程度、owner 修正及有限验证；现行整理不复制整个项目进展日志，也不从旧结果新增通用能力结论。
 
 现行规范从这些资料中归纳可复用步骤，不继承原项目的游戏、原生接口、发布或运行权限。原文中本机证据路径只标识当时的保管位置；新任务使用执行机器自己的目录和身份。精确原请求及大证据仍由原执行环境保管，本仓库只公开已审的规则、必要脱敏事实与公开反链。
 
