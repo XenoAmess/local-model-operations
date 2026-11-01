@@ -31,6 +31,7 @@ python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstat
 | 能力范围、失败分类和探索方法 | [能力边界](docs/capability-boundaries.md) |
 | 已验证经验、反例和适用限制 | [经验记录](docs/experience-log.md) |
 | 调用器优化、OpenCode 实测与框架选型 | [2026-11-01 预研报告](docs/local-model-framework-research-2026-11-01.md) |
+| OpenCode 1.19.5真实源码试点、权限与准备成本 | [试点阶段记录](docs/opencode-pilot-2026-11-01.md) |
 | 迁移来源、精确版本和 SHA-256 | [来源记录](docs/source-origins.md) |
 | 原始 worker 指南及两份探索档案 | [历史快照](docs/history/README.md) |
 

@@ -1,0 +1,199 @@
+{
+  "schema": "local-model-operations.opencode-business-pilot-stage/v1",
+  "stage_cutoff_utc": "2026-11-01T13:07:58+00:00",
+  "base_revision": "7b6f4351818e4817d2d9efc44084a774a780b71c",
+  "environment": {
+    "OS": "Windows",
+    "Python": "3.13.2",
+    "OpenCode": "1.19.5",
+    "model_alias": "qwen38-coder",
+    "weights_and_server_build_verified": false
+  },
+  "task_scope": "One genuine unfinished combined-growth software-test task; three exact test files editable, actual dependencies and source references read-only. No production, command, Git, external-path, network-tool or business-action permission.",
+  "actual_wire": {
+    "native_assistant_tool_history": true,
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format_present": false,
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "initial_max_tokens": 4500,
+    "continuation_max_tokens": 8000,
+    "ordinary_three_message_caller_changed": false,
+    "cached_tokens": null,
+    "extra_wire_field_limit": "maxOutputTokens and maxRetries were also forwarded by the compatible SDK. HTTP acceptance does not establish their server meaning or SDK retry control."
+  },
+  "phases": [
+    {
+      "phase": "initial-discovery",
+      "CLI_BEGIN_utc": "2026-11-01T12:56:22.831831+00:00",
+      "CLI_END_utc": "2026-11-01T12:57:02.394529+00:00",
+      "CLI_elapsed_seconds": 39.562698,
+      "CLI_exit_code": 0,
+      "actual_model_POSTs": 12,
+      "transport_retries": 0,
+      "fallbacks": 0,
+      "finish_reasons": {
+        "tool_calls": 11,
+        "stop": 1
+      },
+      "changed_files": 0,
+      "unauthorized_changes": 0,
+      "first_POST_BEGIN_utc": "2026-11-01T12:56:24.412602+00:00",
+      "last_POST_END_utc": "2026-11-01T12:57:01.086133+00:00",
+      "reported_usage_sum": {
+        "prompt_tokens": 284579,
+        "completion_tokens": 2694,
+        "total_tokens": 287273
+      },
+      "usage_sum_limit": "Reported per-request totals include repeated session context; not unique input size or provider billing proof.",
+      "content_ttft_ms_range": {
+        "min": 517.605499999263,
+        "max": 2736.0731000007945,
+        "null_count": 9
+      },
+      "first_tool_delta_ms_range": {
+        "min": 584.497800000463,
+        "max": 2919.0859999998793,
+        "null_count": 1
+      },
+      "first_request_all_top_level_keys": [
+        "chat_template_kwargs",
+        "maxOutputTokens",
+        "maxRetries",
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "stream_options",
+        "temperature",
+        "tool_choice",
+        "tools"
+      ],
+      "additional_wire_fields": {
+        "maxOutputTokens": 4500,
+        "maxRetries": 0
+      }
+    },
+    {
+      "phase": "semantic-continuation",
+      "CLI_BEGIN_utc": "2026-11-01T13:00:53.154951+00:00",
+      "CLI_END_utc": "2026-11-01T13:01:14.451781+00:00",
+      "CLI_elapsed_seconds": 21.29683,
+      "CLI_exit_code": 0,
+      "actual_model_POSTs": 4,
+      "transport_retries": 0,
+      "fallbacks": 0,
+      "finish_reasons": {
+        "tool_calls": 3,
+        "stop": 1
+      },
+      "changed_files": 0,
+      "unauthorized_changes": 0,
+      "first_POST_BEGIN_utc": "2026-11-01T13:00:54.535511+00:00",
+      "last_POST_END_utc": "2026-11-01T13:01:13.869864+00:00",
+      "reported_usage_sum": {
+        "prompt_tokens": 190603,
+        "completion_tokens": 1583,
+        "total_tokens": 192186
+      },
+      "usage_sum_limit": "Reported per-request totals include repeated session context; not unique input size or provider billing proof.",
+      "content_ttft_ms_range": {
+        "min": 907.6903999994101,
+        "max": 6005.208100001255,
+        "null_count": 0
+      },
+      "first_tool_delta_ms_range": {
+        "min": 1138.9799999997194,
+        "max": 6359.092400000009,
+        "null_count": 1
+      },
+      "first_request_all_top_level_keys": [
+        "chat_template_kwargs",
+        "maxOutputTokens",
+        "maxRetries",
+        "max_tokens",
+        "messages",
+        "model",
+        "stream",
+        "stream_options",
+        "temperature",
+        "tool_choice",
+        "tools"
+      ],
+      "additional_wire_fields": {
+        "maxOutputTokens": 8000,
+        "maxRetries": 0
+      }
+    }
+  ],
+  "tool_accounting": {
+    "initial": {
+      "completed_glob": 6,
+      "completed_read": 9,
+      "completed_edit": 0,
+      "repeated_file_reads": 0
+    },
+    "continuation": {
+      "edit_calls": 3,
+      "successful_edits": 0,
+      "authorized_file_edits_blocked_by_owner_config": 2,
+      "external_path_edit_correctly_blocked": 1
+    },
+    "parent_tool_calls_and_results_preserved": 15,
+    "parent_tool_calls_or_results_missing": 0
+  },
+  "owner_faults_and_review": [
+    "An obsolete generic executable shim failed locally; the actual installed version was selected explicitly. No model request occurred from this setup error.",
+    "The first adapter omitted custom-model temperature metadata. Root review caught it before launch; metadata and explicit usage options were corrected and actual wire values were checked.",
+    "Initial discovery consumed the configured step budget without editing. Its final callback ownership, stack-coordinate and register-domain suggestions were not adopted after source review.",
+    "The continuation correctly retained the actual prior assistant/tool context, but authorized edits were blocked by an owner configuration defect: permissions were evaluated against paths relative to a non-Git worktree root, not against the workspace-relative or absolute forms that had been allowed.",
+    "This was not a slash-normalization failure. The matching utility normalizes separators; actual local permission logs identify the unmatched worktree-relative paths.",
+    "A later attempted external path was correctly denied. No edit candidate was applied, compiled, tested or adopted."
+  ],
+  "cost": {
+    "root_reported_first_preparation_clock_utc": "2026-11-01T12:42:12+00:00",
+    "client_first_observed_preparation_utc": "2026-11-01T12:48:33+00:00",
+    "client_initial_ready_utc": "2026-11-01T12:53:42+00:00",
+    "client_initial_prepare_observed_seconds": 309,
+    "independent_review_and_correction_to_ready_seconds": 121,
+    "source_owner_reported_prepare_seconds": 131.527773,
+    "new_authorization_client_recovery_observed_BEGIN_utc": "2026-11-01T13:05:23+00:00",
+    "new_authorization_client_recovery_ready_utc": "2026-11-01T13:07:19+00:00",
+    "new_authorization_client_recovery_elapsed_seconds": 116,
+    "unmeasured_intervals": "Earlier receipt-to-first-clock work and some review/notification waits have no exact start. They are not assigned zero.",
+    "interpretation": "Observed elapsed intervals are not continuous human labor; preparation and independent review overlap and must not be summed as critical-path wall time. No comparative owner-time or speed saving is established."
+  },
+  "new_user_authorization_at_cutoff": {
+    "status": "client prepared; natural tool-loop outcome pending outside this frozen stage",
+    "steps": null,
+    "total_POST_cap": null,
+    "whole_run_wall_cap_seconds": null,
+    "max_output_tokens_per_response": 8000,
+    "per_HTTP_timeout_seconds": 180,
+    "permission_repair": "Only the three observed exact worktree-relative edit paths added; external and business permissions remain denied.",
+    "automatic_proxy_retries": 0,
+    "fallbacks": 0,
+    "classification": "New explicit user authorization plus client technical recovery; not a transport retry or retroactive success of either earlier phase."
+  },
+  "evidence_grades": {
+    "transport_and_read_tools": "observed",
+    "successful_edit": false,
+    "source_adoption": 0,
+    "software_validation": false,
+    "business_actions": 0,
+    "performance_benefit": "not measured"
+  },
+  "private_provenance": "Actual requests, raw SSE, CLI/tool events, exact paths, session DB, source snapshots, permission logs and owner cost/review receipts remain on the execution machine.",
+  "public_exclusions": [
+    "raw prompts or answers",
+    "source bodies",
+    "absolute paths",
+    "session or machine identity",
+    "credentials",
+    "private ledgers",
+    "business or game data"
+  ]
+}
