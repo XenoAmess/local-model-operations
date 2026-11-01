@@ -33,6 +33,14 @@
 
 同日另一类源审教训是多个不可变 V 快照不会自动共享后续回调更新：必须显式传递实际返回的当前 V / N / DF，不能把入口值当作回调后的已知值。有限投影中的未知字段不填0；没有写入、没有使用返回值，也不能据此删除实际可观察的内存读写。`AND [mem],0` 包含读取和写入，不能任意缩成只写0。[当前状态](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-worker-guide.md#L268-L272)、[可观察的读改写](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-worker-guide.md#L248-L252)
 
+## 沿实际实例和动态调用链审作用域
+
+2026-11-01 的两项真实覆盖审阅中，owner 沿构造、委托与同步回调确认：不同 facade 仍访问同一个 Store 实例及其实例级 ThreadLocal，原指定入口的调用链已经位于有效范围内。不能凭 wrapper、参数或局部变量名称不同就判作用域丢失。逐入口核实际共享实例、当前线程、进入和退出位置，以及消费者是否在这段动态生命周期内执行。
+
+两份模型回答仅部分分析可用；“缓存 hit 仍读完整 payload”、伪造行号及全项目已覆盖的断言被 owner 源审纠正。本例 hit 保留实际身份、权限与边界检查，但不重新读、哈希已保留的完整 payload；metadata 读取、完整读取与缓存 DATA 必须沿实际实现区分，不能由方法名或启动仍慢反推。作用域覆盖也不证明底层 OS 安全或墙钟收益。
+
+原入口已覆盖，不代表新增入口同样覆盖。owner 独立定位另一新增入口的只读遍历在范围外；截至摘要封存，本次交付仅提出最窄文本候选，未采用或编测，不能记成模型发现或性能修复。输入中沿用的旧“待采用”标签另归 owner 版本说明成本；源码相同不证明运行产物已部署。依据为[脱敏摘要](evidence/2026-11-01-scope-callchain-audit.json)及[来源限制](source-origins.md)，不公开业务源码。
+
 ## 先审 fixture，再用它评价候选
 
 准确数据形状不能替代有符号比较、字节宽度、物理栈位置和分支可达性。先从原始合同冻结 oracle，再读新目标输出；若向模型提供了逐步期待，署名为“owner oracle → 模型编码”。检查 literal 是十六进制值还是十进制值、宽度单位是 bit 还是 byte，核完整调用帧和 effects 在同一 RAM 上消费一次。不要让实现和测试共享同一错误推导后相互证明。

@@ -1,0 +1,65 @@
+{
+  "schema": "local-model-scope-audit-experience/v1",
+  "sealed_utc": "2026-11-01T08:44:47.191981+00:00",
+  "purpose": "Two genuine source coverage tasks using the canonical workspace public caller; no extra probe.",
+  "caller": "scripts/call.py (canonical workspace checkout)",
+  "input_accounting": "Raw frozen file bytes differ from actual normalized source-message UTF-8 and reported prompt tokens. A:20 Java+1 version note; B:24 Java.",
+  "tasks": [
+    {
+      "role": "A",
+      "input_files": 21,
+      "physical_file_bytes": 1231473,
+      "source_message_UTF8_bytes": 1222924,
+      "POST_BEGIN_utc": "2026-11-01T08:30:33.935840+00:00",
+      "END_utc": "2026-11-01T08:31:35.903458+00:00",
+      "HTTP": 200,
+      "finish": "stop",
+      "SSE_DONE": true,
+      "usage": {
+        "prompt_tokens": 247292,
+        "completion_tokens": 1283,
+        "total_tokens": 248575
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "B",
+      "input_files": 24,
+      "physical_file_bytes": 1334137,
+      "source_message_UTF8_bytes": 1325283,
+      "POST_BEGIN_utc": "2026-11-01T08:33:47.919950+00:00",
+      "END_utc": "2026-11-01T08:35:08.570700+00:00",
+      "HTTP": 200,
+      "finish": "stop",
+      "SSE_DONE": true,
+      "usage": {
+        "prompt_tokens": 264341,
+        "completion_tokens": 3260,
+        "total_tokens": 267601
+      },
+      "cached_tokens": null
+    }
+  ],
+  "wire": {
+    "logical_tasks": 2,
+    "attempts": 2,
+    "peak": 1,
+    "overlap_seconds": 0.0,
+    "preparation_parallel_is_not_HTTP_overlap": true
+  },
+  "review": "Partial answers: owner corrected every-hit payload-read claim, fake line ranges and universal coverage/safety. Stale input labels were not solely model errors.",
+  "rules": [
+    "Trace scope by actual owner instance, shared state and synchronous callback lifetime. A different facade object can still use the identical store-level ThreadLocal; variable names do not prove a miss.",
+    "Inspect the hit branch: current native identity/permission checks can occur without rereading or hashing the retained payload. Full reads, metadata reads and cached DATA are distinct.",
+    "Coverage belongs to a concrete entry and lifetime. The named historical chain was covered; an owner independently found a separate ordinary-admission pure-walk outside it. Its narrow text proposal is unimplemented and untested.",
+    "Freeze actual source bytes and label provenance separately. Do not infer deployment from directory names, normalized equivalence or complete HTTP transport.",
+    "Continued slow end-to-end startup does not by itself prove an already-covered chain missed the scope or that a cache is invalid. Follow uncovered actual calls and new runtime evidence before changing code."
+  ],
+  "limits": {
+    "code_adopted": 0,
+    "compile_tests": 0,
+    "new_profiling_or_business_actions": 0,
+    "performance_or_native_safety_claim": false
+  },
+  "excluded": "No project names, raw source/prompt/answer, private path, machine identity, credential or runtime ledger."
+}
