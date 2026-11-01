@@ -28,3 +28,9 @@ Civ6 以前的候选流程没有接入共享每日维护，不追认历史合规
 此前“待实现/待验证”冻结点保留。后到版本 [b2cf367](https://github.com/XenoAmess/civ6_dev/commit/b2cf36744fa9ed7de89cc220f2d19f89002f3492)已推送并核对远端：AGENTS强制共享入口，连接策略来自共享实时配置，Civ6只保留业务system覆盖和来源；薄适配直接调用canonical CLI，每日维护在真实HTTP之前。14项适配边界检查0.492秒通过，含真实prepare_request消费与真实CLI模拟维护失败先于dispatch；8项旧内部传输测试退役，未冒充新增游戏测试。241条本地链接及UTF-8/LF、28需求/40用例追溯通过。
 
 实际新入口又完成HTTP-CIV6-ADAPTER-REVIEW133：一POST，7.649869秒、stop/DONE/JSON对象。模型错误地指称未维护、忽略共享原子claim，并否定明确业务提示覆盖；三项意见均拒绝，代码采用0。实际CLI链与测试已否定其论断，没有照候选添加重复维护。新4项请求累计4完整/0重试，峰仍3；不是4个独立代码交付，也没有效率收益证明。[后到脱敏回执](evidence/2026-11-02-civ6-adapter-delivery.json)给出精确源、哈希、结果与未知成本。下一步回到尚未完成的42版游戏入口对照，历史原始HTTP脚本不再直接复用。
+
+## 后到：127正确控件方向的原生回执
+
+2026-11-02，Civ6 [44f7c7c](https://github.com/XenoAmess/civ6_dev/commit/44f7c7c7b5be6cc9548a4b6c62bb9ac855ef5ce8)发表42版冷启动同档对照，精确模组源码76a41d8、63文件逐字相等。127候选的真实控件名方向已由owner核原生XML、实际消费者和旧41失败后采用；新42两个控件均禁用，实际点击各0开页事件，购买面板不出现，资源、人口、生产队列进度及市民焦点不变。原生资格true／受保护界面false，未调用原始背景写入。
+
+这是原窄采用范围的后到游戏证据，不回填迁移时的“42待验”，也不授127整份方案或全40项通过。原观察器在断言前移除，Steam仍离线，当前未测完整快捷键及其他领袖原生对照。[脱敏原生证据](https://github.com/XenoAmess/civ6_dev/blob/44f7c7c7b5be6cc9548a4b6c62bb9ac855ef5ce8/docs/research/baiqi-p6-city-purchase-native42-evidence-2026-11-02.json)。下一真实问题转为剩余城市／军队输入边界与特殊文职覆盖；没有为本次记录额外发模型请求。
