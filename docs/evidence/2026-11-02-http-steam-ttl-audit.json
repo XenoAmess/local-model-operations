@@ -1,0 +1,72 @@
+{
+  "schema" : "local-model-operations.capability-case/v1",
+  "case_id" : "HTTP-STEAM-TTL-001",
+  "mode_id" : "http-candidate",
+  "machine_id" : "desktop-3fevhd2-1c74096080",
+  "observed_at_utc" : "2026-11-01T21:32:18Z",
+  "transport" : {
+    "started_at_utc" : "2026-11-01T21:27:55.346296+00:00",
+    "post_begin_at_utc" : "2026-11-01T21:27:55.346979+00:00",
+    "attempt_end_at_utc" : "2026-11-01T21:29:25.676438+00:00",
+    "post_count" : 1,
+    "http_status" : 200,
+    "finish_reason" : "stop",
+    "sse_done" : true,
+    "first_content_ms" : 76898.81739998236,
+    "total_http_ms" : 90328.86689994484,
+    "prompt_tokens" : 365285,
+    "completion_tokens" : 1291,
+    "cached_tokens" : null,
+    "max_tokens" : 8000
+  },
+  "input" : {
+    "source_message_characters" : 787846,
+    "supplied_closure_characters" : 788612,
+    "frozen_inventory_items" : 1939,
+    "closure_scope" : "Selected current public entry, launcher, Steam gate, writer and actual contexts/receipts; frozen inventory count does not assert every listed file body was independently audited.",
+    "model_alias" : "qwen38-coder",
+    "caller_commit" : null,
+    "weight_backend_identity" : null
+  },
+  "adoption" : "PARTIAL_FACTS_ONLY_CORE_LM_VERDICT_REJECTED",
+  "accepted_analysis" : [ "The prelaunch-input writer runs only at allocation and public run does not rewrite it.", "The absent purpose flag leaves its guarded writer inactive on this route.", "No automatic background probe exists in the supplied production chain.", "Original receipt freshness remains required throughout admission; a late admission can outlive a receipt fresh at public-run start." ],
+  "rejected_findings" : [ "Actual ready and allocated contexts were wrongly reported to lack the managed-profile Pin.", "The selected Steam receipt path was wrongly treated as a frozen allocated-context member, leading to an incorrect mandatory-new-allocation verdict.", "Prepare's never-rewrite guard was applied to a different create-only selected review-context transition.", "A route-specific reviewer was incorrectly generalized to every undelegated reviewer.", "Receipt age at later admission was incorrectly projected back to public-run start." ],
+  "owner_corrected_boundary" : "Owner source review corrected the actual parent-launcher, supervisor and retain-host stages and the selected persisted context route. Same-allocation reentry was only conditionally statically possible before intent with all original keeper/lease/capacity/source/identity guards; the old keeper later ended, so that old run cannot be revived. No reentry, probe or Game action was performed by this diagnostic case, and later runs are not model conclusions.",
+  "owner_costs" : {
+    "preparation_person_seconds" : null,
+    "review_person_seconds" : null,
+    "correction_person_seconds" : null,
+    "coordination_person_seconds" : null,
+    "publishing_person_seconds" : null,
+    "net_saved_seconds" : null
+  },
+  "client_global_peak" : null,
+  "server_running_sample" : null,
+  "original_four_call_peak_changed" : false,
+  "new_model_request_for_this_append" : false,
+  "production_source_adopted" : false,
+  "game_pass_credit" : false,
+  "later_run_outcome" : null,
+  "local_evidence" : [ {
+    "source" : "r45-steam-late-probe-a01/OWNER-REVIEW.actual.json",
+    "bytes" : 7307,
+    "sha256" : "e32d8d2458a5c0113833d1aede6e25989443d8edc00e3dd73418a67ae9b5b135"
+  }, {
+    "source" : "r45-steam-late-probe-a01/REQUEST.json",
+    "bytes" : 856955,
+    "sha256" : "fb94513c2e39fe1a8f46a71792f67c767147b6018612e9237b2f69a1d339970c"
+  }, {
+    "source" : "r45-steam-late-probe-a01/ATTEMPT1-RESULT.json",
+    "bytes" : 852,
+    "sha256" : "5a233beca2a6b96000be6d8db5bf74a5c48be4405002701c6ae12e96a22be1d7"
+  }, {
+    "source" : "r45-steam-late-probe-a01/ATTEMPT1-CONTENT.txt",
+    "bytes" : 5389,
+    "sha256" : "b1faa3b70bafb7cc96f137af693addcc9fa24568d74a1c5b0afdacf184042ac0"
+  }, {
+    "source" : "r45-steam-late-probe-a01/EVENTS.jsonl",
+    "bytes" : 2153,
+    "sha256" : "84ca764f4c75e8bbe959680028d1dbb0a2e0dfa616c0bc3e908fbcadb1f48da4"
+  } ],
+  "next_natural_trigger" : "Append naturally required later guard/caller changes or independently observed business evidence with its own owner and cutoff; do not replay this completed audit or weaken receipt TTL to improve statistics."
+}

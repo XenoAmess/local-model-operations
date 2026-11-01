@@ -131,3 +131,11 @@ HTTP-CIV6-MIGRATION130/131/132 是三个尚未完成的迁移方案、经验整�
 Java审阅发现被拒：日期边界与路径论断有误，原请求又缺原版书签源码，不能把输入缺口和独立编造混为一项。教义诊断仅部分分析可用，拒绝不存在的教义与初始化会创建Rite的说法；GUI计划仅部分清单参考，教义分类不是Faith列表，设计器Finalize也不证明已进入地图并保持信仰。普通场次准备包经owner纠正其他产品的构建路由、Pin/占位及GUI来源后部分采用；两组真实prepare、plan、preflight共六个原退出均0，早期preflight2仍保全。这里没有模型生产源码采用，也不授Game、全产品或性能通过；这是原审阅截止点，不推断后到运行。
 
 这份运营记录另用了两次HTTP：首稿4200 tokens/length整弃且未作语义阅读；收窄正文、提高有限预算到8000后stop，仅用771输出tokens。完整稿仍把峰值持续时间当总墙钟、把四次写成全并行，并把部分分析误记全拒且漏指标；owner仅取摘要结构，重写事实和采用字段并由原回执填数。原件与BEGIN/END留执行机器，起草调用不并入原四次。准备、源审、纠错、测试、协调及发布人工成本均未完整计时，净节省与模式优劣仍未知；后续只在自然发生的必要业务或新任务中追加实际结果。
+
+## HTTP-STEAM-TTL-001：大输入中的字段误读与时序审阅
+
+2026-11-01 UTC，Windows同机的一项真实启动前诊断通过共享三消息caller完成1 POST、200/stop/DONE：prompt365285、输出1291 tokens，TTFT76.898817秒、HTTP总耗时90.328867秒，cached tokens未报告。输入包含实际入口、launcher、Steam gate、writer与所选上下文；接收大输入不证明整图审计正确。[脱敏回执](evidence/2026-11-02-http-steam-ttl-audit.json)保留原件摘要，原始请求和响应留本机。
+
+仅部分事实分析可用：prelaunch材料由allocate独占写、当前路由没有purpose分支写入或自动probe，以及后续多阶段仍受原30秒新鲜度约束。核心“必须重新allocation”裁决被拒：实际ready/allocated上下文并未固定Steam receipt成员，模型还漏读三个上下文已有的profile Pin，把prepare不覆写规则套到另一条create-only审阅上下文路径，并把后续admission的过期反推到run开始。owner沿实际parent launcher、supervisor、retain-host三阶段纠正；同allocation重入仅是所有原守卫仍有效、且未产生intent时的条件静态结论，旧keeper已结束的场次不可据此复活。此诊断没有实机、probe或重入操作，后到R46运行不归模型结论；没有源码采用、业务或性能信用。
+
+本次追加直接消费既有owner review，没有新发模型请求。owner准备、审阅、纠错和发布工时未知；本单不推算全客户端并发，也不改前案四调用峰3的历史截止点。下一自然触发为真实caller/守卫变化或独立发生的后到业务证据，不重投已完成审阅、不修改TTL来改善统计。
