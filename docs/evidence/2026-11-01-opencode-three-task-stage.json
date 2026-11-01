@@ -1,0 +1,284 @@
+{
+  "schema": "local-model-operations.opencode-three-task-stage/v1",
+  "frozen_utc": "2026-11-01T14:33:42.739430+00:00",
+  "environment": {
+    "OpenCode": "1.19.5",
+    "OS": "Windows",
+    "model_alias": "qwen38-coder",
+    "cache_tokens_reported": null
+  },
+  "phases": [
+    {
+      "task": 1,
+      "phase": "run01",
+      "CLI_BEGIN_utc": "2026-11-01T12:56:22.831831+00:00",
+      "CLI_END_utc": "2026-11-01T12:57:02.394529+00:00",
+      "CLI_elapsed_seconds": 39.562698,
+      "actual_POSTs": 12,
+      "actual_ENDs": 12,
+      "finish_reasons": {
+        "tool_calls": 11,
+        "stop": 1
+      },
+      "natural_exit_code": 0,
+      "proxy_retries": 0,
+      "unauthorized_workspace_changes": 0,
+      "reported_usage_sum": {
+        "prompt_tokens": 284579,
+        "completion_tokens": 2694,
+        "total_tokens": 287273
+      }
+    },
+    {
+      "task": 1,
+      "phase": "run02",
+      "CLI_BEGIN_utc": "2026-11-01T13:00:53.154951+00:00",
+      "CLI_END_utc": "2026-11-01T13:01:14.451781+00:00",
+      "CLI_elapsed_seconds": 21.29683,
+      "actual_POSTs": 4,
+      "actual_ENDs": 4,
+      "finish_reasons": {
+        "tool_calls": 3,
+        "stop": 1
+      },
+      "natural_exit_code": 0,
+      "proxy_retries": 0,
+      "unauthorized_workspace_changes": 0,
+      "reported_usage_sum": {
+        "prompt_tokens": 190603,
+        "completion_tokens": 1583,
+        "total_tokens": 192186
+      }
+    },
+    {
+      "task": 1,
+      "phase": "run03",
+      "CLI_BEGIN_utc": "2026-11-01T13:08:07.813829+00:00",
+      "CLI_END_utc": "2026-11-01T13:17:37.519212+00:00",
+      "CLI_elapsed_seconds": 569.705383,
+      "actual_POSTs": 27,
+      "actual_ENDs": 27,
+      "finish_reasons": {
+        "tool_calls": 17,
+        "length": 10
+      },
+      "natural_exit_code": 0,
+      "proxy_retries": 0,
+      "unauthorized_workspace_changes": 0,
+      "reported_usage_sum": {
+        "prompt_tokens": 2123936,
+        "completion_tokens": 84335,
+        "total_tokens": 2208271
+      }
+    },
+    {
+      "task": 1,
+      "phase": "run04",
+      "CLI_BEGIN_utc": "2026-11-01T13:27:16.160712+00:00",
+      "CLI_END_utc": "2026-11-01T13:33:41.543261+00:00",
+      "CLI_elapsed_seconds": 385.382549,
+      "actual_POSTs": 13,
+      "actual_ENDs": 13,
+      "finish_reasons": {
+        "tool_calls": 10,
+        "length": 3
+      },
+      "natural_exit_code": 0,
+      "proxy_retries": 0,
+      "unauthorized_workspace_changes": 0,
+      "reported_usage_sum": {
+        "prompt_tokens": 2119664,
+        "completion_tokens": 50660,
+        "total_tokens": 2170324
+      }
+    },
+    {
+      "task": 2,
+      "phase": "task2-run01",
+      "CLI_BEGIN_utc": "2026-11-01T14:01:42.220636+00:00",
+      "CLI_END_utc": "2026-11-01T14:10:23.763797+00:00",
+      "CLI_elapsed_seconds": 521.543161,
+      "actual_POSTs": 66,
+      "actual_ENDs": 66,
+      "finish_reasons": {
+        "tool_calls": 63,
+        "length": 2,
+        "stop": 1
+      },
+      "natural_exit_code": 0,
+      "proxy_retries": 0,
+      "unauthorized_workspace_changes": 0,
+      "reported_usage_sum": {
+        "prompt_tokens": 3973846,
+        "completion_tokens": 55750,
+        "total_tokens": 4029596
+      }
+    },
+    {
+      "task": 2,
+      "phase": "task2-run02",
+      "CLI_BEGIN_utc": "2026-11-01T14:16:43.806731+00:00",
+      "CLI_END_utc": "2026-11-01T14:19:15.282752+00:00",
+      "CLI_elapsed_seconds": 151.476021,
+      "actual_POSTs": 46,
+      "actual_ENDs": 46,
+      "finish_reasons": {
+        "tool_calls": 45,
+        "stop": 1
+      },
+      "natural_exit_code": 0,
+      "proxy_retries": 0,
+      "unauthorized_workspace_changes": 0,
+      "reported_usage_sum": {
+        "prompt_tokens": 6547472,
+        "completion_tokens": 16385,
+        "total_tokens": 6563857
+      }
+    },
+    {
+      "task": 3,
+      "phase": "task3-run01",
+      "CLI_BEGIN_utc": "2026-11-01T14:01:42.194773+00:00",
+      "CLI_END_utc": "2026-11-01T14:06:48.417157+00:00",
+      "CLI_elapsed_seconds": 306.222384,
+      "actual_POSTs": 80,
+      "actual_ENDs": 80,
+      "finish_reasons": {
+        "tool_calls": 79,
+        "stop": 1
+      },
+      "natural_exit_code": 0,
+      "proxy_retries": 0,
+      "unauthorized_workspace_changes": 0,
+      "reported_usage_sum": {
+        "prompt_tokens": 3943287,
+        "completion_tokens": 23173,
+        "total_tokens": 3966460
+      }
+    },
+    {
+      "task": 3,
+      "phase": "task3-run02",
+      "CLI_BEGIN_utc": "2026-11-01T14:12:51.164562+00:00",
+      "CLI_END_utc": "2026-11-01T14:14:23.646923+00:00",
+      "CLI_elapsed_seconds": 92.482361,
+      "actual_POSTs": 24,
+      "actual_ENDs": 24,
+      "finish_reasons": {
+        "tool_calls": 23,
+        "stop": 1
+      },
+      "natural_exit_code": 0,
+      "proxy_retries": 0,
+      "unauthorized_workspace_changes": 0,
+      "reported_usage_sum": {
+        "prompt_tokens": 2391242,
+        "completion_tokens": 10544,
+        "total_tokens": 2401786
+      }
+    },
+    {
+      "task": 3,
+      "phase": "task3-run03",
+      "CLI_BEGIN_utc": "2026-11-01T14:24:06.931980+00:00",
+      "CLI_END_utc": "2026-11-01T14:25:31.255923+00:00",
+      "CLI_elapsed_seconds": 84.323943,
+      "actual_POSTs": 23,
+      "actual_ENDs": 23,
+      "finish_reasons": {
+        "tool_calls": 22,
+        "stop": 1
+      },
+      "natural_exit_code": 0,
+      "proxy_retries": 0,
+      "unauthorized_workspace_changes": 0,
+      "reported_usage_sum": {
+        "prompt_tokens": 2811453,
+        "completion_tokens": 7469,
+        "total_tokens": 2818922
+      }
+    }
+  ],
+  "totals": {
+    "real_business_tasks": 3,
+    "CLI_phases": 9,
+    "actual_POSTs": 295,
+    "actual_ENDs": 295,
+    "in_flight_at_freeze": 0,
+    "CLI_interval_sum_seconds": 2171.99533,
+    "limit": "CLI intervals overlap and exclude separate preparation/review/wait/repair costs. This sum is neither end-to-end task time nor continuous human labor. Usage repeats session context; POST count is not task completion."
+  },
+  "task_status": {
+    "1": "Software validation and later formal publication completed. Model partial Data/Host edits plus owner complete growth implementation; no whole-model credit or measured net saving.",
+    "2": "Both native phases complete; root-path focused retry passed, first malformed-URL method failed. Repeated source/test semantic errors led to authorized owner minimal takeover. Final owner validation/adoption receipt pending; no third native phase scheduled.",
+    "3": "Three same-task native phases complete. R1/R2 source review found local-I/O failure and fixture contradictions. R3 source review and selected offline validation pending at freeze; no acceptance inferred from stop."
+  },
+  "native_tasks_2_and_3_actual_wire": {
+    "all_top_level_keys": [
+      "chat_template_kwargs",
+      "max_tokens",
+      "messages",
+      "model",
+      "stream",
+      "stream_options",
+      "temperature",
+      "tool_choice",
+      "tools"
+    ],
+    "max_tokens": 16000,
+    "temperature": 0,
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format_present": false,
+    "SDK_control_fields_forwarded": [],
+    "steps": null,
+    "total_POST_cap": null,
+    "whole_session_wall_cap": null,
+    "per_HTTP_timeout_seconds": 180,
+    "proxy_retries": 0,
+    "fallbacks": 0,
+    "ordinary_three_message_interface_changed_by_pilot": false
+  },
+  "diagnostic_fix": {
+    "old_task1_default_deny_defect": "Internal invalid repair tool was filtered and failed as unavailable.",
+    "new_actual_execution": "Task2 internal invalid tool completed twice after explicit allow; it remains intentionally absent from active wire tools.",
+    "partial_fix_only": true,
+    "remaining_feedback_problem": "The original errors included the entire huge failed argument. Generic tool output reduced each to323bytes with a saved-output pointer; the visible output still omitted the JSON parse error.",
+    "original_error_bytes": [
+      54250,
+      59442
+    ],
+    "failed_argument_assertNotIn_counts": [
+      1206,
+      1207
+    ],
+    "interpretation": "This Task2 repetition is concrete degeneration evidence, unlike the earlier Task1 length fragment where exact-line repetition was not observed. Neither proves a permanent capability limit.",
+    "handling": "No truncated arguments repaired, concatenated across responses or applied. No token increase used to mask the repetition."
+  },
+  "cost": {
+    "initial_task1_costs": "Preserved in prior stage and owner-validation artifacts, including unknown early work and overlapping intervals.",
+    "fresh_clients_first_observed_prepare_utc": "2026-11-01T13:57:19+00:00",
+    "fresh_clients_started_utc": [
+      "2026-11-01T14:01:42.220636+00:00",
+      "2026-11-01T14:01:42.194773+00:00"
+    ],
+    "continuation_state_handling": "Only closed SQLite snapshots, approximately2.8/2.9/3.7MB; reusable package cache shared without copying DB trees or package caches.",
+    "owner_costs": "Preparation, source review, targeted first failures, code repair, resource waits and delivery remain separate measured intervals. Unmeasured work is unknown, not zero; no net time saving established.",
+    "new_publication_model_requests": 0
+  },
+  "current_decision": "Continue controlled narrow tasks with independent acceptance; high POST count does not justify broader authority. Run a necessary offline fixture early instead of treating repeated source review as validation.",
+  "later_receipts": "Owner source adoption, final checks and publication are appended separately; prior pending stages remain unchanged.",
+  "public_exclusions": [
+    "raw requests or SSE",
+    "model source bodies or failed arguments",
+    "absolute evidence paths",
+    "session/machine identities",
+    "credentials",
+    "business data"
+  ]
+}
