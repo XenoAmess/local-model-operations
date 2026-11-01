@@ -1,0 +1,82 @@
+{
+  "schema": "local-model-operations.mode-case-late-stage/v1",
+  "case_id": "HTTP-SCOPE-001",
+  "mode_id": "http-candidate",
+  "earlier_frozen_record": "2026-11-02-http-bounded-scope.json",
+  "earlier_record_unchanged": true,
+  "formal_source": {
+    "commit": "60cb7a4b25b96ed87e017f32244641ea8fc958e9",
+    "normalized_source_sha256": "e79b77492f099f29763b44eeff41e867fb73ed44d68d14e41256630b29ac4a28",
+    "matches_selected_candidate": true
+  },
+  "loading": {
+    "selected_producer_compile_receipt_matches_original": true,
+    "selected_class_pin_verified": true,
+    "all_changed_used_output_first_resolutions_recorded": true
+  },
+  "build": {
+    "begin_UTC": "2026-11-01T17:53:47.418706+00:00",
+    "end_UTC": "2026-11-01T17:53:53.271265+00:00",
+    "seconds": 5.852556800000457,
+    "exit_code": 0,
+    "reused_build": true,
+    "source_staleness_compilation": true
+  },
+  "runtime": {
+    "begin_UTC": "2026-11-01T17:54:41.328521+00:00",
+    "loop_UTC": "2026-11-01T17:57:35.723961100Z",
+    "startup_seconds": 174.39544,
+    "end_UTC": "2026-11-01T17:58:24.811644+00:00",
+    "total_seconds": 223.48312429999714,
+    "exit_code": 4,
+    "LOOP_reached": true,
+    "terminal": "Batch opening failed because the opening snapshot was not an object.",
+    "new_confirmed_save_days": 0,
+    "seconds_per_new_saved_day": null,
+    "scope_speedup_attribution": null,
+    "limits": "Same deployment included other capability and source changes. Startup/LOOP and the later failure do not establish a causal speedup or defect attributable to this scope."
+  },
+  "necessary_behavior_validation": {
+    "test_generation_grade": "Existing model whole test rejected; owner supplied the complete test. Two owner draft assertion corrections preceded first compilation, not model adoption.",
+    "test_source_bytes": 10058,
+    "test_source_sha256": "cdb660f28a0b2f7615a5b40b1ac9d8ba889d4ac2b8076c24a79093d3ef38f429",
+    "first_compile": {
+      "begin_utc": "2026-11-01T18:02:01.577452+00:00",
+      "end_utc": "2026-11-01T18:02:02.897292+00:00",
+      "seconds": 1.3198406000010436,
+      "exit_code": 0
+    },
+    "only_new_methods_run": {
+      "begin_utc": "2026-11-01T18:02:05.866604+00:00",
+      "end_utc": "2026-11-01T18:02:08.522814+00:00",
+      "seconds": 2.6562105000011798,
+      "exit_code": 0,
+      "passed": 2,
+      "skipped": 0,
+      "failed": 0
+    },
+    "covered": [
+      "Real readonly old writer/store and mutable outer combined through actual controlled readonly callback and bounded historical archive scope.",
+      "Success and caught forbidden-publication poison paths restore exact outer; closed inner fails, clean subsequent inner remains usable; old files/inventory unchanged."
+    ],
+    "not_established": [
+      "Direct end-to-end invocation of the complete source consumer in this unit test.",
+      "Cache hit ratio, full saved-state transitive coverage, general concurrency safety or performance benefit."
+    ],
+    "stderr": "234 bytes of logmanager initialization warning retained; no rerun to remove it.",
+    "prior_test_candidate_HTTP": {
+      "POSTs": 1,
+      "stop": 1,
+      "transport_retries": 0,
+      "completion_tokens": 2650,
+      "total_seconds": 32.12009680000119,
+      "content_TTFT_seconds": 9.87344959999973,
+      "cached_tokens": null,
+      "whole_adopted": false
+    }
+  },
+  "owner_labor_seconds": null,
+  "unknown_not_zero": true,
+  "record_creation_new_requests_compiles_tests_or_runtime_actions": 0,
+  "next_real_trigger": "Append only independently necessary runtime or fallback/budget behavior evidence. Preserve failed/zero-save windows; do not reissue closed candidates or rerun passing tests for this record."
+}
