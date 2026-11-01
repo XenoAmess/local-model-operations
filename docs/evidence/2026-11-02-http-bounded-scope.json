@@ -1,0 +1,135 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-SCOPE-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "task": "Owner-preselected bounded historical-read scope inside two callbacks, using the actual readonly inner session; no cross-session cache.",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "exact_dispatch_client_version_attestation": null,
+  "input": {
+    "provided_files": 8,
+    "physical_file_bytes": 394561,
+    "prefix_file_bytes": 396500,
+    "actual_message_matches_prefix_text": true,
+    "all_transitive_dependencies_independently_proven": null,
+    "architecture_preselected_by_owner": true,
+    "independent_audit_received_new_implementation": false
+  },
+  "wire_common": {
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true
+  },
+  "attempts": [
+    {
+      "role": "implementation",
+      "request_sha256": "4b604420434afad569cdb4906f1170d8caf70aaeaba3f45da7563d4d6b7b12ac",
+      "actual_top_level_keys": [
+        "chat_template_kwargs",
+        "max_tokens",
+        "messages",
+        "model",
+        "response_format",
+        "stream",
+        "stream_options",
+        "temperature"
+      ],
+      "source_message_UTF8_bytes": 391423,
+      "max_tokens": 3600,
+      "begin_UTC": "2026-11-01T17:33:24.945954+00:00",
+      "end_UTC": "2026-11-01T17:33:57.982983+00:00",
+      "content_TTFT_seconds": 20.192631700003403,
+      "total_seconds": 33.03698560000339,
+      "reported_usage": {
+        "prompt_tokens": 78085,
+        "completion_tokens": 1938,
+        "total_tokens": 80023
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "audit",
+      "request_sha256": "755d28dd345ccdfd1ed9999f5c8272a462adc16fb1259021dfdf0ae8a38b31b1",
+      "actual_top_level_keys": [
+        "chat_template_kwargs",
+        "max_tokens",
+        "messages",
+        "model",
+        "response_format",
+        "stream",
+        "stream_options",
+        "temperature"
+      ],
+      "source_message_UTF8_bytes": 391423,
+      "max_tokens": 2800,
+      "begin_UTC": "2026-11-01T17:33:24.945831+00:00",
+      "end_UTC": "2026-11-01T17:33:55.908762+00:00",
+      "content_TTFT_seconds": 18.481842999997752,
+      "total_seconds": 30.96295370000007,
+      "reported_usage": {
+        "prompt_tokens": 77782,
+        "completion_tokens": 1291,
+        "total_tokens": 79073
+      },
+      "cached_tokens": null
+    }
+  ],
+  "cohort": {
+    "POSTs": 2,
+    "ENDs": 2,
+    "stop": 2,
+    "transport_retries": 0,
+    "length": 0,
+    "client_peak": 2,
+    "continuous_overlap_seconds": 30.962808
+  },
+  "adoption": {
+    "implementation": "Four literal replacement texts retained verbatim, then owner added two missing imports from supplied APIs. Partial plus owner, not whole raw source.",
+    "all_other_source_inverse_exact": true,
+    "zero_argument_current_retained_methods_preserved": true,
+    "audit": "Negative conclusion rejected: confused actual old inner with new mutable outer, proposed a hypothetical unprovided swap and falsely treated full budget as throwing. Only existing nested/readonly/lifetime source facts retained."
+  },
+  "role_and_lifetime_boundary": [
+    "Actual readonly receiver creates the old inner session; mutable outer is suspended.",
+    "Historical scope receives that old inner session and finishes before it closes and the exact outer is restored.",
+    "Shared backing store and its local thread-scoped mechanism remain in use; existing source, head, file and immutable-baseline checks remain.",
+    "Finite cache admission miss falls back to full actual read; no cross-scope result or permission cache."
+  ],
+  "limits": {
+    "maximumPublications": 1024,
+    "maximumRetainedBytes": 67108864,
+    "maximumHandles": 256
+  },
+  "software": {
+    "first_strict_TUs": 1,
+    "begin_UTC": "2026-11-01T17:38:06.213412+00:00",
+    "end_UTC": "2026-11-01T17:38:08.227356+00:00",
+    "seconds": 2.0139085999981035,
+    "exit_code": 0,
+    "behavior_or_concurrency_tests": null
+  },
+  "deployment_runtime_and_speedup": {
+    "accepted_by_main": null,
+    "runtime_execution": null,
+    "measured_speedup": null
+  },
+  "cost": {
+    "preparation_seconds": null,
+    "source_review_seconds": null,
+    "owner_import_correction_seconds": null,
+    "coordination_seconds": null,
+    "unknown_not_zero": true
+  },
+  "qualification": "Source acceptance and first compile only; audit is not a reliable concurrency approval or proof that a legal design is impossible. No owner efficiency or runtime benefit established.",
+  "record_creation_new_requests_compiles_tests_or_runtime_actions": 0,
+  "next_real_trigger": "Append actual natural adoption and independently required behavior/counterexample evidence for these exact session identities and fallback semantics. Do not reissue the closed candidate or extend scope to obtain a pass."
+}

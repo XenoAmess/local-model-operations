@@ -1,0 +1,45 @@
+{
+  "schema": "local-model-operations.mode-case-late-stage/v1",
+  "case_id": "HTTP-IMMUTABLE-001",
+  "mode_id": "http-candidate",
+  "earlier_frozen_record": "2026-11-02-http-immutable-baseline.json",
+  "earlier_record_unchanged": true,
+  "source_adoption": {
+    "begin_UTC": "2026-11-01T17:28:12.796334+00:00",
+    "end_UTC": "2026-11-01T17:28:13.538752+00:00",
+    "runtime_and_repository_copy_LF_equal": true,
+    "selected_candidate_source_sha256": "a0cf9b062f5b827dda81654c988295d26da236198c0bae21f0b59a68d64fec3d",
+    "formal_commit": "0705d67d0aa93d4b02edc761a34dc315ed323f89",
+    "formal_blob_LF_matches_selected_candidate": true
+  },
+  "build": {
+    "begin_UTC": "2026-11-01T17:28:38.688065+00:00",
+    "end_UTC": "2026-11-01T17:28:44.922720+00:00",
+    "seconds": 6.2346518999984255,
+    "exit_code": 0,
+    "reused_build": true,
+    "source_staleness_compilation": true
+  },
+  "runtime": {
+    "begin_UTC": "2026-11-01T17:31:05.983973+00:00",
+    "end_UTC": "2026-11-01T17:33:49.213637+00:00",
+    "seconds": 163.22965960000147,
+    "exit_code": 1,
+    "pinned_producer_compile_receipt_selected": true,
+    "first_resolution_checks_recorded": true,
+    "LOOP_reached": false,
+    "new_confirmed_save_days": 0,
+    "stopped_at": "Fresh-start persistent-planning gate after earlier domain stages.",
+    "seconds_per_new_saved_day": null
+  },
+  "attribution_limits": [
+    "Other source changes were adopted in the same build/run; no controlled performance comparison.",
+    "Pinned class selection and source acceptance do not prove reduced IO, CPU, latency or end-to-end saved-day throughput.",
+    "No causal credit assigned to this optimization for stages crossed or the later gate failure."
+  ],
+  "measured_speedup": null,
+  "owner_labor_seconds": null,
+  "unknown_not_zero": true,
+  "new_requests_builds_tests_or_runtime_actions_for_this_record": 0,
+  "next_real_trigger": "Append an independently required behavior/performance observation for this exact version; preserve zero-save and failed windows without restarting or replaying business actions for evidence."
+}
