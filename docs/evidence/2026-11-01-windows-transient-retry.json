@@ -1,0 +1,66 @@
+{
+  "schema": "local-model-real-service-transient-retry-evidence/v1",
+  "observed_utc": "2026-11-01T07:48:40.479843+00:00",
+  "purpose": "One genuine source-audit task; actual reset then automatic same-request retry. No extra probe.",
+  "platform": "Windows; Python 3.13.2; standard-library public caller",
+  "caller": {
+    "path": "scripts/call.py",
+    "bytes": 15223,
+    "sha256": "487f9f90198eb6f40c6bb1df44b891e5ce1e8af47f1845a675bce33158f88b00",
+    "observed_repo_head": "259a0814645023a09fec87fce8cee96b5506ccd5",
+    "provenance_limit": "Hash observed at evidence sealing; no dispatch-time executable attestation."
+  },
+  "request": {
+    "bytes": 456512,
+    "sha256": "039bfbeca744628c81c9ee01c983d183a39646a320676ecf8c37154281e61823",
+    "model": "qwen38-coder",
+    "max_tokens": 4500,
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ]
+  },
+  "same_payload_evidence": "Both POST_BEGIN events name the same task and REQUEST. Current caller builds one immutable UTF-8 body before its retry loop and sends data=body each attempt. No per-attempt wire-body capture is claimed.",
+  "attempt1": {
+    "POST_BEGIN_utc": "2026-11-01T07:37:39.648003+00:00",
+    "END_utc": "2026-11-01T07:38:10.510465+00:00",
+    "HTTP": 200,
+    "failure": "ConnectionResetError 10054 after partial SSE",
+    "finish_reason": null,
+    "SSE_DONE": false,
+    "usage": null,
+    "total_ms": 30861.883700359613,
+    "effective_content_TTFT_ms": 12057.37780034542,
+    "candidate": "Entire partial candidate rejected; retained privately only as raw evidence."
+  },
+  "automatic_backoff_seconds": 10.875069280711852,
+  "attempt2": {
+    "POST_BEGIN_utc": "2026-11-01T07:38:21.388563+00:00",
+    "END_utc": "2026-11-01T07:38:42.614660+00:00",
+    "HTTP": 200,
+    "finish_reason": "stop",
+    "SSE_DONE": true,
+    "total_ms": 21225.68119969219,
+    "effective_content_TTFT_ms": 983.277800027281,
+    "usage": {
+      "prompt_tokens": 91867,
+      "completion_tokens": 2474,
+      "total_tokens": 94341
+    },
+    "cached_tokens": null
+  },
+  "boundaries": {
+    "logical_tasks": 1,
+    "HTTP_attempts": 2,
+    "manual_redispatch": 0,
+    "fallback": 0,
+    "content_splice": 0,
+    "business_replay_or_Game": 0,
+    "code_adopted": 0,
+    "software_or_performance_claim": false,
+    "review_grade": "PARTIAL_LIMITED_FLOW_TRACE; model findings rejected by owner; not full audit approval",
+    "other_role": "Separate task B is excluded from this retry evidence; its wire request did not overlap A."
+  },
+  "publication_exclusions": "No raw source, task prompt, answer, private file path, machine/owner identity, credential or HTTP header."
+}

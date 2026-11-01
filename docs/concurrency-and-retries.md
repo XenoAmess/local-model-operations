@@ -53,6 +53,12 @@
 
 每次瞬时重试发送完整、未改变的请求。失败 SSE 和已收到的片段只作原件保管，不能与下一次内容拼接，也不能因为开头看似正确就采用截断源码。内容层纠正则使用本轮完整当前源码、准确诊断和一种活动输出合同；“same API”不能替代再次提供声明。
 
+### 2026-11-01：一次真实服务断流后的自动恢复
+
+一次真实源码审阅使用本仓库调用器、Windows / Python3.13.2、`qwen38-coder`、三消息和4,500输出 tokens 上限。首个尝试07:37:39.648003→07:38:10.510465 UTC，HTTP200但部分 SSE 后连接 reset10054，没有 finish、DONE 或usage，整段候选未采用。调用器记录10.875069秒自动退避，第二个尝试07:38:21.388563→07:38:42.614660得到stop、DONE和reported usage91,867 + 2,474，cached为null。它是一项逻辑任务的两次 HTTP 尝试，没有手工另发任务、fallback或内容拼接；另一独立角色的请求未混入这次重试。
+
+同请求证据由两个 POST 事件指向同一 task / REQUEST，以及[已发表调用器控制流](https://github.com/XenoAmess/local-model-operations/blob/aa12e525d5f6cb842cae71dabe33071a91794933/scripts/call.py#L104-L147)中循环外建立的不可变 body、每次 `data=body` 共同支持；这不是逐次 wire-body 抓包或派发时执行体鉴证，也不证明服务端只生成过一次。此例补充离线 mock 与先前的单次 SSE 成功，只支持这一真实连接重置路径，不能扩成所有错误、六次尝试边界或缓存加速结论。后续源审仅部分流程观察可用，源码采用0；传输恢复不授整体审计、软件、性能或业务完成。[脱敏实证](evidence/2026-11-01-windows-transient-retry.json)与[来源限制](source-origins.md)保留实际字段。
+
 ## SSE、时限与停止
 
 当前解析器将每条 `data:` 行视为一个 JSON chunk，不提供多行 SSE event 的重组。TCP 层分割 UTF-8 已有本地 mock 覆盖，不能据此声称任意多行 SSE 格式都已支持。
