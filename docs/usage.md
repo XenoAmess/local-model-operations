@@ -2,6 +2,8 @@
 
 从真实、尚未完成且能独立验收的任务开始。调用器负责发送候选请求、保存传输证据和配置内的重试；读取业务材料、应用源码、执行测试及发布结果仍由拥有相应权限的执行者负责。
 
+能力边界按实际执行流程长期分开维护：[普通HTTP候选模式](capability-http.md)与[OpenCode原生工具模式](capability-opencode.md)。运营owner和接班worker使用[长期运营prompt](../prompts/capability-operations.md)，每个真实任务及环境变化后追加证据、采用和成本，不在三任务试点结束后停止跟踪。模型端点和模型别名仍只取共享配置；运营prompt用于有相应工具和业务权限的owner，不替换普通调用器的固定源码候选system模板。
+
 ## 入口与配置
 
 共享配置为 [config/executor.json](../config/executor.json)，调用器为 [scripts/call.py](../scripts/call.py)。脚本使用 Python 标准库；迁移验证实际运行于 Windows Python 3.13，不能据此声称其它平台已实测。

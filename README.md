@@ -29,6 +29,9 @@ python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstat
 | 每日OpenCode版本检查、pnpm更新和客户端接入 | [客户端每日检查](docs/client-maintenance.md) |
 | 真实并发、SSE、退避重试和证据 | [并发与重试规范](docs/concurrency-and-retries.md) |
 | 能力范围、失败分类和探索方法 | [能力边界](docs/capability-boundaries.md) |
+| 普通HTTP候选模式的长期能力跟踪 | [HTTP能力记录](docs/capability-http.md) |
+| OpenCode原生工具模式的长期能力跟踪 | [OpenCode能力记录](docs/capability-opencode.md) |
+| 运营owner与接班worker的持续执行指令 | [长期运营prompt](prompts/capability-operations.md) |
 | 已验证经验、反例和适用限制 | [经验记录](docs/experience-log.md) |
 | 调用器优化、OpenCode 实测与框架选型 | [2026-11-01 预研报告](docs/local-model-framework-research-2026-11-01.md) |
 | OpenCode 1.19.5真实源码试点、权限与准备成本 | [试点阶段记录](docs/opencode-pilot-2026-11-01.md) |
