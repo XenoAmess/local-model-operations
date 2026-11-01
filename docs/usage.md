@@ -90,4 +90,16 @@ OpenCode1.19.5已进入[真实源码试点](opencode-pilot-2026-11-01.md)，使�
 
 源码生成、运行期决策、外部动作和发布各自服从消费项目的 owner 与权限。模型 HTTP 的重试只重发候选请求，不能重放业务动作。公共日志不提交原始私有材料；执行细节保存在执行机器，公开规则与脱敏证据。
 
+### 生成原生OpenCode配置
+
+[scripts/opencode_config.py](../scripts/opencode_config.py)提供纯函数`build_config(executor, *, workspace, worktree, owned_files, max_output_tokens=16000)`，也可只读取共享executor并把配置输出到stdout：
+
+```text
+python scripts/opencode_config.py --executor config/executor.json --workspace D:/review/task --worktree D:/ --owned-file src/change.py
+```
+
+这里的路径是形状示例。调用者提供本次实际可信的绝对workspace/worktree及精确相对文件名；脚本不发现Git、不启动OpenCode、不发HTTP、不执行每日维护或写生成文件。维护仍由真实模型入口执行。它计算相对worktree的精确编辑模式，拒绝越界、跨盘、遍历和模式扩张，显式保留invalid诊断及默认deny，不转发SDK控制项。
+
+38项新离线测试及OpenCode1.19.5实际`--pure debug config`已通过，但只证明纯生成逻辑和配置解析/合并；不证明该生成配置在新会话中的wire或权限执行。Windows主机上的PurePOSIX用例也不代表POSIX CLI实测。词法验证不证明symlink安全，raw非Git`/`上下文与Windows路径坐标`D:/`的边界含义需按当前客户端核对，详见模块docstring和[采用/成本回执](evidence/2026-11-01-opencode-config-delivery.json)。现行普通调用器和活跃业务配置没有自动切换。
+
 配置迁移及历史来源见 [来源与迁移记录](source-origins.md)。
