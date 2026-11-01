@@ -1,0 +1,192 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-OUTPUT-002",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "related_earlier_case": "HTTP-OUTPUT-001",
+  "earlier_closed_tasks_reissued": false,
+  "task": "A genuinely new independent finite witness with two methods and a reusable mechanical fixture; higher finite output budgets were applied before first dispatch.",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "wire_common": {
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true
+  },
+  "input": {
+    "first_source_message_UTF8_bytes": 56083,
+    "corrected_source_message_UTF8_bytes": 57429,
+    "current_API_and_fixture_provided": true,
+    "owner_added_typed_mechanical_helpers_in_second_round": true,
+    "owner_oracle_or_new_target_body_or_results_given_to_model": false,
+    "complete_transitive_closure_independently_proven": null
+  },
+  "requests": [
+    {
+      "role": "direct",
+      "semantic_round": 1,
+      "max_tokens": 10000,
+      "source_message_UTF8_bytes": 56083,
+      "attempts": [
+        {
+          "attempt": 1,
+          "begin_UTC": "2026-11-01T18:40:31.334994+00:00",
+          "end_UTC": "2026-11-01T18:41:02.141120+00:00",
+          "content_TTFT_seconds": 1.462120700001833,
+          "total_seconds": 30.806251600002724,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 24470,
+            "completion_tokens": 4182,
+            "total_tokens": 28652
+          },
+          "cached_tokens": null,
+          "classification": "Complete stop; whole semantic rejection"
+        }
+      ]
+    },
+    {
+      "role": "chain",
+      "semantic_round": 1,
+      "max_tokens": 10000,
+      "source_message_UTF8_bytes": 56083,
+      "attempts": [
+        {
+          "attempt": 1,
+          "begin_UTC": "2026-11-01T18:40:31.343460+00:00",
+          "end_UTC": "2026-11-01T18:41:08.757695+00:00",
+          "content_TTFT_seconds": 1.720003499998711,
+          "total_seconds": 37.4142045999979,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 24520,
+            "completion_tokens": 4662,
+            "total_tokens": 29182
+          },
+          "cached_tokens": null,
+          "classification": "Complete stop; whole semantic rejection"
+        }
+      ]
+    },
+    {
+      "role": "direct",
+      "semantic_round": 2,
+      "max_tokens": 10000,
+      "source_message_UTF8_bytes": 57429,
+      "attempts": [
+        {
+          "attempt": 1,
+          "begin_UTC": "2026-11-01T18:44:17.869169+00:00",
+          "end_UTC": "2026-11-01T18:45:28.562636+00:00",
+          "content_TTFT_seconds": 1.5288924999986193,
+          "total_seconds": 70.69324179999967,
+          "finish_reason": null,
+          "SSE_DONE": false,
+          "reported_usage": null,
+          "cached_tokens": null,
+          "classification": "Partial SSE reset10054, unread/discarded; automatic retry within same task"
+        },
+        {
+          "attempt": 2,
+          "begin_UTC": "2026-11-01T18:45:37.453867+00:00",
+          "end_UTC": "2026-11-01T18:45:59.737304+00:00",
+          "content_TTFT_seconds": 0.9123268000003009,
+          "total_seconds": 22.283506100000523,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 24948,
+            "completion_tokens": 1984,
+            "total_tokens": 26932
+          },
+          "cached_tokens": null,
+          "classification": "Complete stop; whole semantic rejection"
+        }
+      ]
+    },
+    {
+      "role": "chain",
+      "semantic_round": 2,
+      "max_tokens": 12000,
+      "source_message_UTF8_bytes": 57429,
+      "attempts": [
+        {
+          "attempt": 1,
+          "begin_UTC": "2026-11-01T18:44:17.869191+00:00",
+          "end_UTC": "2026-11-01T18:45:28.556461+00:00",
+          "content_TTFT_seconds": 1.8083612000009452,
+          "total_seconds": 70.68730770000184,
+          "finish_reason": null,
+          "SSE_DONE": false,
+          "reported_usage": null,
+          "cached_tokens": null,
+          "classification": "Partial SSE reset10054, unread/discarded; automatic retry within same task"
+        },
+        {
+          "attempt": 2,
+          "begin_UTC": "2026-11-01T18:45:38.509519+00:00",
+          "end_UTC": "2026-11-01T18:46:01.938002+00:00",
+          "content_TTFT_seconds": 0.9264800999990257,
+          "total_seconds": 23.428522800000792,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "reported_usage": {
+            "prompt_tokens": 25027,
+            "completion_tokens": 2019,
+            "total_tokens": 27046
+          },
+          "cached_tokens": null,
+          "classification": "Complete stop; whole semantic rejection"
+        }
+      ]
+    }
+  ],
+  "classification": {
+    "logical_request_invocations": 4,
+    "POSTs": 6,
+    "ENDs": 6,
+    "complete_stop": 4,
+    "length": 0,
+    "partial_reset10054": 2,
+    "configured_transport_retries": 2,
+    "manual_transport_reissues": 0,
+    "partial_splicing": false,
+    "model_adoption": 0,
+    "third_semantic_rounds": 0
+  },
+  "semantic_rejection": [
+    "First-round complete methods used wrong address/stride/read ordering, invalid types or abstract helper construction and incorrect callback/exception identity behavior.",
+    "Corrected direct method manually invoked a probe instead of executing the target and invented read/atomic observations.",
+    "Corrected actual-caller method omitted required seeded state and used weak trace containment/post-target checks without the required complete expected state."
+  ],
+  "owner_followup": {
+    "grade": "Whole owner source from independent oracle frozen after first dispatch and before any answer reading.",
+    "test_source_bytes": 17778,
+    "test_source_sha256": "c056412bb2e008d926508aa22c1cda26d155f63efe87ea12a81a32f8acb8ad46",
+    "planned_groups": 5,
+    "planned_ordered_events": 90,
+    "compiled_or_run_at_source_freeze": false,
+    "source_freeze_UTC": "2026-11-01T18:49:31.265522+00:00"
+  },
+  "inference_limits": [
+    "All four complete stops ended below their finite budget; these complete candidate failures cannot be classified as length or exhausted-output-budget failures.",
+    "This is a different new task, with different source scope and correction helpers; it is not a controlled A/B showing budget caused the absence of length.",
+    "A 6000-12000 structural budget guideline addresses complete output planning, not semantic correctness or guaranteed model adoption.",
+    "Partial resets remain transport failures; retry TTFT and null cached tokens do not establish service/cache causes."
+  ],
+  "owner_preparation_review_correction_seconds": null,
+  "owner_net_savings": null,
+  "unknown_not_zero": true,
+  "record_creation_new_requests_compiles_tests_or_business_actions": 0,
+  "next_real_trigger": "Append only independently required first validation or formal source adoption as owner evidence, preserving zero model adoption; use the next genuine unfinished witness for further capability observation, not another round here."
+}
