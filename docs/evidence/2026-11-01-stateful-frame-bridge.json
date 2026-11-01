@@ -1,0 +1,41 @@
+{
+  "date_utc": "2026-11-01",
+  "service_alias": "qwen38-coder",
+  "task_kind": "New normal-frame compatibility bridge around an existing once-executed supplied-memory business algorithm; preserve full represented volatile/nonvolatile registers, physical stack effects and callback state",
+  "input_scope": {
+    "actual_API_and_existing_algorithm_provided": true,
+    "correction_also_included_complete_first_candidate": true,
+    "messages_per_request": 3,
+    "max_output_tokens_each_semantic_generation": 9000,
+    "complete_physical_source_prefix_bytes": 53943,
+    "actual_source_message_UTF8_bytes": 52886,
+    "source_message_projection": "The complete physical prefix was normalized from CRLF to LF in both actual requests; source declarations and content were unchanged."
+  },
+  "transport": {
+    "semantic_generations": 2,
+    "actual_POST_attempts": 3,
+    "complete_stop_outputs": 2,
+    "transient_connection_resets": 1,
+    "reset_partial_read_or_used": false,
+    "length_truncated_outputs": 0,
+    "automatic_fallback_to_other_server": false
+  },
+  "source_review": {
+    "first_complete_output": "Rejected: wrong actual record/accessor/frame layout and missing source-event state; algorithm and API were present.",
+    "second_complete_output": "Rejected: remaining register/cookie/cursor/empty-range state and callback-source errors, including placeholders despite a complete stop.",
+    "model_Java_code_adopted": 0,
+    "owner_implementation": "Whole owner implementation after two bounded semantic generations; no third semantic generation and no partial-stream splicing. The transient reset retry is included among the three actual POST attempts."
+  },
+  "verification_limits": {
+    "model_outputs_compiled_or_executed": false,
+    "later_owner_software_validation": "Three direct witness methods (six normal inputs) and one separate parent integration method (one normal input), each first-run passed in two JVMs; no fresh all-four rerun.",
+    "native_execution_gameplay_OS_EH_RFLAGS_claims": false
+  },
+  "operational_lesson": "A complete successful transport and ample output budget do not qualify a complex stateful frame bridge. Review actual read-event roles, callback-carried full values and physical return-slot ownership before compiling. Separate complete semantic rejection from reset/length handling and from input/API gaps. Use bounded corrections, then report owner takeover honestly; this finite case does not define a universal model capability limit.",
+  "anonymization": "No repository identifiers, machine identity, private paths, instruction addresses, source text or game data.",
+  "complete_decoded_Java_bytes": [
+    19647,
+    17373
+  ],
+  "size_field_erratum": "Candidate sizes describe decoded complete Java, not complete response CONTENT. Physical prefix bytes and actual UTF-8 source-message bytes are listed separately; CRLF-to-LF normalization accounts for the difference. These field clarifications do not change adoption or verification."
+}

@@ -69,6 +69,14 @@
 
 来源：[前两项与负合同](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-capability-boundary-2026-10-28.md#L6-L25)、[storage 的输入、采用和验证](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-capability-boundary-2026-10-28.md#L28-L43)。更完整的成功、失败与 owner 纠正保留在 [历史档案](history/README.md)。
 
+### 2026-11-01：完整输入下的复杂状态桥接
+
+一次真实任务要求围绕既有算法建立正常返回帧桥，算法仅执行一次，并保留所表示的寄存器、物理栈副作用和回调后的当前状态。当前 API 与既有算法的物理前缀为53,943字节，两次实际请求的第二消息均为其 LF 投影52,886字节；三消息完整保留源码内容。两次语义生成各限9,000输出 tokens，实际3次 POST 得到2份完整 stop 和1次连接 reset。reset 半流未读取或拼接；两份解码后的 Java 分别19,647和17,373字节，均不是 length 截断。
+
+两稿在编译前源审中均被拒绝，模型 Java 采用0。首稿错用实际成员和帧布局，纠正稿仍缺寄存器参数、混淆读事件与回调状态，部分状态更新仅留占位注释。回答的修正说明不能替代实际赋值和分支核对。此例输入声明已提供，应与缺 API 的失败分开；审阅应核实际读事件的来源、回调携带的当前值及返回槽归属，有限纠正后如实记录 owner 接管。
+
+后来的 owner 整体实现分别在两个 JVM 中通过3个直接见证方法（6个正常输入）及1个组合方法（1个正常输入）；没有把它们重跑或改写成同次4方法通过，也不追授模型源码成功。这是有限 Java 软件验证，不证明 Native、完整硬件状态、线上或性能结果，更不构成模型的永久能力上限。[脱敏案例摘要](evidence/2026-11-01-stateful-frame-bridge.json)与[来源限制](source-origins.md)保留这些口径。
+
 选择下一任务时逐步扩大真实改动、依赖传播或诊断范围，每一步保留必要负例；输出预算应允许一个完整方法或组件，过大范围则按真实职责拆分。不能让已完成任务再次出题来增加请求数，也不能把模型永久限定为机械替换。
 
 接受过大输入只证明那次上下文被服务接收，不证明最大窗口或多文件自主实现。请求 `enable_thinking` 不证明内部模式启用，可见 reasoning 字段缺席也不证明无内部推理。不同输出预算、时间和并发下的两次耗时不能归因模式、缓存或加速；需要固定比较条件、实际 REQUEST 与可观测结果。[大输入及模式观察的原始限制](https://github.com/XenoAmess/ck3_eternal_recurrence/blob/0958f36720a2cf75d1e3ede84ff3ae7fa730d91d/docs/local-model-capability-boundary-2026-10-28.md#L37-L54)
