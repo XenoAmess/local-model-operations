@@ -1,0 +1,149 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-SESSION-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "task": "One real source-only callback entry with a suspended mutable caller and distinct readonly receiver; implementation plus independent baseline audit.",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "caller": {
+    "entry": "shared scripts/call.py",
+    "exact_executed_version_attestation": null,
+    "recording_reference_commit": "c1a32edda148e62e554fa4b695fd1be8629358cc"
+  },
+  "input": {
+    "frozen_files": 32,
+    "provided_source_coverage": "Owner receipt verifies every nonempty line of all 32 frozen files in both actual requests; not byte-identical embedding.",
+    "owner_input_issue": "CRLF prefix composition added blank-line noise; no causal attribution or capacity inference.",
+    "necessary_dependency_closure": "unknown; the coverage audit is not an independent proof of every required dependency",
+    "audit_visibility": "Current source and proposed contract; no new implementation supplied. Later owner tests were implementation-aware."
+  },
+  "wire_common": {
+    "message_roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "system_matches_shared_config": true,
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true
+  },
+  "attempts": [
+    {
+      "role": "implementation",
+      "request_sha256": "3084c218a472a4ecc32f0eaf087dab19e502c24488b727b8ed15274ac38c5d61",
+      "actual_top_level_keys": [
+        "chat_template_kwargs",
+        "max_tokens",
+        "messages",
+        "model",
+        "response_format",
+        "stream",
+        "stream_options",
+        "temperature"
+      ],
+      "source_message_UTF8_bytes": 484893,
+      "max_tokens": 6500,
+      "begin_UTC": "2026-11-01T16:10:43.940931+00:00",
+      "end_UTC": "2026-11-01T16:11:14.767203+00:00",
+      "content_TTFT_seconds": 25.74236440000095,
+      "total_seconds": 30.82626639999944,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_usage": {
+        "prompt_tokens": 100834,
+        "completion_tokens": 755,
+        "total_tokens": 101589
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "audit",
+      "request_sha256": "adf51a0d08677d21e3179b40606f9484b44e6402289ef243d1bdfa90300e563d",
+      "actual_top_level_keys": [
+        "chat_template_kwargs",
+        "max_tokens",
+        "messages",
+        "model",
+        "response_format",
+        "stream",
+        "stream_options",
+        "temperature"
+      ],
+      "source_message_UTF8_bytes": 484893,
+      "max_tokens": 4200,
+      "begin_UTC": "2026-11-01T16:10:43.925841+00:00",
+      "end_UTC": "2026-11-01T16:11:13.147135+00:00",
+      "content_TTFT_seconds": 24.675903200000903,
+      "total_seconds": 29.22137920000023,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_usage": {
+        "prompt_tokens": 100836,
+        "completion_tokens": 415,
+        "total_tokens": 101251
+      },
+      "cached_tokens": null
+    }
+  ],
+  "cohort": {
+    "business_tasks": 1,
+    "generation_roles": 2,
+    "POSTs": 2,
+    "ENDs": 2,
+    "transport_retries": 0,
+    "length": 0,
+    "current_inflight": 0,
+    "client_peak": 2,
+    "continuous_overlap_seconds": 29.206204,
+    "server_running_waiting_KV": null
+  },
+  "adoption": {
+    "implementation": "Only private suspension-field/check shape retained partially; entire new method rejected and rewritten by owner.",
+    "audit": "Rejected: falsely treated a readonly guard as unconditional rejection and denied coexistence of distinct mutable caller and readonly receiver."
+  },
+  "source_errors": [
+    "Rejected every active scope, making the authorized entry unreachable",
+    "Wrong receiver/session validation and callback received outer rather than inner scope",
+    "Missing role/lock checks; restoration could mask the primary callback failure"
+  ],
+  "software": {
+    "first_owner_production_strict": {
+      "begin_UTC": "2026-11-01T16:15:04.814289+00:00",
+      "end_UTC": "2026-11-01T16:15:06.379077+00:00",
+      "seconds": 1.5653276999983063,
+      "exit_code": 0
+    },
+    "later_owner_methods_passed": 4,
+    "later_validation_end_UTC": "2026-11-01T16:22:42.573227+00:00",
+    "later_validation_seconds": 2.2324363000006997,
+    "owner_setup_error": "First test launch omitted an existing JNA temporary-directory argument and failed before subject execution. Argument-only retry passed; source and expected results unchanged.",
+    "tests_are_blind": false,
+    "timing_qualification": "A later owner timing erratum confirms the successful retry began after the unrelated business runtime ended; no cold-runtime overlap credit."
+  },
+  "cost": {
+    "preparation_seconds": null,
+    "source_review_seconds": null,
+    "correction_seconds": null,
+    "coordination_seconds": null,
+    "unknown_not_zero": true,
+    "note": "Request and finite compile/test intervals are separate; overlap is not additive labor and no net saving or mode comparison is established."
+  },
+  "limits": [
+    "Owner software passes do not grant model method success, runtime recovery, business actions or throughput.",
+    "No whole-model adoption, backend capacity, cache effect or permanent capability bound inferred.",
+    "Cross-thread execution and induced OS lock failure were not tested."
+  ],
+  "next_real_trigger": "On the next independently required scoped callback change, trace the actual receiver, thread-local scope identity, callback argument and primary/restoration exception ordering; freeze a legal and rejected case before candidate review. Do not reissue this completed task.",
+  "record_creation": {
+    "new_model_requests": 0,
+    "new_compiles_or_tests": 0,
+    "OpenCode_trial_created": false
+  }
+}
