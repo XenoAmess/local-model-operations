@@ -1,0 +1,280 @@
+{
+  "schema": "local-model-operations.opencode-business-pilot-unlimited/v1",
+  "frozen_utc": "2026-11-01T13:48:32.339312+00:00",
+  "supersedes_first_stage": false,
+  "first_stage_artifact": "2026-11-01-opencode-business-pilot-stage.json",
+  "environment": {
+    "OS": "Windows",
+    "OpenCode": "1.19.5",
+    "model_alias": "qwen38-coder",
+    "weights_and_server_build_verified": false
+  },
+  "scope": "Same genuine unfinished combined-growth test task and actual assistant/tool session, with only three exact test-file write permissions. All business, command, Git and external-path permissions remain denied.",
+  "new_authorization": "User explicitly removed steps, total POST and whole-session wall caps. Finite per-response output and per-HTTP timeout remained. Neither run was killed or stopped by an iteration quota.",
+  "phases": [
+    {
+      "phase": "run03",
+      "CLI_BEGIN_utc": "2026-11-01T13:08:07.813829+00:00",
+      "CLI_END_utc": "2026-11-01T13:17:37.519212+00:00",
+      "CLI_elapsed_seconds": 569.705383,
+      "CLI_exit_code": 0,
+      "CLI_error": null,
+      "natural_exit": true,
+      "killed": false,
+      "actual_model_POSTs": 27,
+      "actual_POST_ENDs": 27,
+      "finish_reasons": {
+        "tool_calls": 17,
+        "length": 10
+      },
+      "first_POST_BEGIN_utc": "2026-11-01T13:08:09.599773+00:00",
+      "last_POST_END_utc": "2026-11-01T13:17:37.006578+00:00",
+      "last_HTTP_finish": "length",
+      "last_HTTP_has_tool_delta": false,
+      "complete_final_stop": false,
+      "transport_errors": 0,
+      "proxy_retries": 0,
+      "fallbacks": 0,
+      "steps": null,
+      "total_POST_cap": null,
+      "whole_run_wall_cap_seconds": null,
+      "max_output_tokens_per_response": 8000,
+      "per_HTTP_timeout_seconds": 180,
+      "actual_tool_execution_status_counts": {
+        "read:completed": 10,
+        "edit:completed": 6,
+        "edit:error": 9,
+        "write:error": 1
+      },
+      "Book_changed": false,
+      "unauthorized_changes": 0,
+      "reported_usage_sum": {
+        "prompt_tokens": 2123936,
+        "completion_tokens": 84335,
+        "total_tokens": 2208271
+      },
+      "usage_sum_limit": "Per-request reported usage includes repeated session history; not unique input size or billing proof.",
+      "content_ttft_ms_range": {
+        "min": 745.4503999997542,
+        "max": 2224.38449999936,
+        "null_count": 5
+      },
+      "first_tool_delta_ms_range": {
+        "min": 783.7340999994922,
+        "max": 3994.486199999301,
+        "null_count": 1
+      },
+      "cached_tokens": null
+    },
+    {
+      "phase": "run04",
+      "CLI_BEGIN_utc": "2026-11-01T13:27:16.160712+00:00",
+      "CLI_END_utc": "2026-11-01T13:33:41.543261+00:00",
+      "CLI_elapsed_seconds": 385.382549,
+      "CLI_exit_code": 0,
+      "CLI_error": null,
+      "natural_exit": true,
+      "killed": false,
+      "actual_model_POSTs": 13,
+      "actual_POST_ENDs": 13,
+      "finish_reasons": {
+        "tool_calls": 10,
+        "length": 3
+      },
+      "first_POST_BEGIN_utc": "2026-11-01T13:27:18.478792+00:00",
+      "last_POST_END_utc": "2026-11-01T13:33:41.199299+00:00",
+      "last_HTTP_finish": "length",
+      "last_HTTP_has_tool_delta": false,
+      "complete_final_stop": false,
+      "transport_errors": 0,
+      "proxy_retries": 0,
+      "fallbacks": 0,
+      "steps": null,
+      "total_POST_cap": null,
+      "whole_run_wall_cap_seconds": null,
+      "max_output_tokens_per_response": 16000,
+      "per_HTTP_timeout_seconds": 180,
+      "actual_tool_execution_status_counts": {
+        "read:completed": 8,
+        "edit:completed": 2,
+        "edit:error": 2
+      },
+      "Book_changed": false,
+      "unauthorized_changes": 0,
+      "reported_usage_sum": {
+        "prompt_tokens": 2119664,
+        "completion_tokens": 50660,
+        "total_tokens": 2170324
+      },
+      "usage_sum_limit": "Per-request reported usage includes repeated session history; not unique input size or billing proof.",
+      "content_ttft_ms_range": {
+        "min": 897.1524000007776,
+        "max": 5682.388400000491,
+        "null_count": 1
+      },
+      "first_tool_delta_ms_range": {
+        "min": 1368.1686999989324,
+        "max": 12362.748600000486,
+        "null_count": 1
+      },
+      "cached_tokens": null
+    }
+  ],
+  "tool_and_adoption_accounting": {
+    "successful_edit_tool_calls_total": 8,
+    "run03_edit_distribution": {
+      "data_fixture": 4,
+      "host_fixture": 2
+    },
+    "run04_edit_distribution": {
+      "data_fixture": 2
+    },
+    "Book_successful_edits": 0,
+    "Book_unchanged": true,
+    "source_owner_review_and_integration": "pending at freeze; owner takeover authorized in a separate integration directory",
+    "model_source_adoption": "not yet established; successful tool edits are unaccepted candidates",
+    "owner_Book_implementation": "not produced by model",
+    "compile_and_test_credit": false,
+    "business_actions": 0,
+    "performance_or_net_owner_time_saving": "not established"
+  },
+  "actual_wire": {
+    "all_top_level_keys": [
+      "chat_template_kwargs",
+      "maxOutputTokens",
+      "maxRetries",
+      "max_tokens",
+      "messages",
+      "model",
+      "stream",
+      "stream_options",
+      "temperature",
+      "tool_choice",
+      "tools"
+    ],
+    "temperature": 0,
+    "enable_thinking": false,
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "response_format_present": false,
+    "tool_choice": "auto",
+    "wire_tools": [
+      "edit",
+      "read",
+      "write"
+    ],
+    "extra_fields": {
+      "maxOutputTokens": [
+        8000,
+        16000
+      ],
+      "maxRetries": 0
+    },
+    "limit": "Extra wire fields were accepted with HTTP200; field presence does not prove service semantics or all SDK retry behavior. Proxy retries/fallbacks were disabled and none occurred. Missing cache reporting remains null."
+  },
+  "truncated_edit_diagnostic": {
+    "last_run04_HTTP": {
+      "finish_reason": "length",
+      "tool_delta_present": false
+    },
+    "preceding_HTTP_with_tool": {
+      "actual_tool": "edit",
+      "target_role": "Book",
+      "finish_reason": "length",
+      "completion_tokens": 16000,
+      "argument_bytes": 24183,
+      "complete_argument_JSON": false,
+      "parse_error_class": "unterminated string",
+      "unfinished_newString_escaped_newlines": 254,
+      "complete_oldString_observed": false,
+      "exact_repeated_long_lines_in_sample": false,
+      "classification": "Large incomplete replacement arguments, not a completed small hunk. No sufficient evidence of exact-line degeneration or of the semantic correctness of the intended replacement."
+    },
+    "handling": "Only fragments within the one original SSE were assembled for diagnosis. No braces/quotes repaired, partial source applied or cross-response fragments concatenated."
+  },
+  "invalid_feedback_attribution": {
+    "observed_error_class": "unavailable invalid tool; actual available-tool list contained only edit/read/write",
+    "owner_config": "Default deny with no explicit allow for the built-in invalid diagnostic tool.",
+    "source_chain": [
+      "The versioned registry initializes and registers invalid.",
+      "Permission.disabled plus request-tool filtering remove invalid under the pilot default-deny configuration.",
+      "LLM repair rewrites invalid arguments to invalid with the original error.",
+      "The activeTools list intentionally hides invalid from the model, while internal prepared.tools must retain it for repaired calls.",
+      "The pure invalid tool would return the supplied diagnostic without file or business side effects."
+    ],
+    "conclusion": "Owner configuration defect supported by actual errors and versioned source. Do not attribute this masking to an intrinsic OpenCode or permanent model limitation.",
+    "source_based_next_configuration": "Explicitly allow only the built-in invalid diagnostic while preserving default deny and exact file permissions.",
+    "fixed_configuration_live_tested": false
+  },
+  "natural_exit_interpretation": {
+    "observed": "Both final responses were length with no tool delta, followed by natural CLI exit0 and no complete final stop.",
+    "source_consistent_explanation": "The tagged session loop may finish a non-tool assistant response whose finish is neither tool-calls nor unknown; length is not excluded.",
+    "actual_exit_branch_instrumented": false,
+    "limits": "No hidden step cap, timeout stop or doom-loop cause is inferred. CLI exit0 does not establish task completion."
+  },
+  "state_reporting_correction": {
+    "incorrect_observation": "A 13:18 UTC error-only observation failed to check the existing CLI terminal receipt first and reported ongoing work.",
+    "actual_run03_END_utc": "2026-11-01T13:17:37.519212+00:00",
+    "corrected_observation_utc": "2026-11-01T13:23:05.940969+00:00",
+    "disposition": "No owned process remained, so the proposed precise stop was a no-op and no kill occurred. Old observation files remain unchanged; time after actual END is not model in-flight time.",
+    "rule": "Check actual terminal receipts before describing activity; directories and stale in-flight messages are not live-state evidence."
+  },
+  "cost": {
+    "earlier_preparation_and_review": "First-stage evidence preserves the measured 309/121/131.527773-second intervals and unknown earlier work.",
+    "run03_client_prepare_observed_BEGIN_utc": "2026-11-01T13:05:23+00:00",
+    "run03_client_ready_utc": "2026-11-01T13:07:19+00:00",
+    "run03_client_prepare_elapsed_seconds": 116,
+    "run04_client_prepare_observed_BEGIN_utc": "2026-11-01T13:24:45+00:00",
+    "run04_client_ready_utc": "2026-11-01T13:26:33+00:00",
+    "run04_client_prepare_elapsed_seconds": 108,
+    "owner_setup_and_review_costs": [
+      "Run03 preparation initially read dependent files before a slow isolated-state copy completed, causing three local missing-file setup failures; completed copy and necessary local checks then succeeded.",
+      "A narrow process-query command initially had invalid local syntax. The corrected query and terminal receipt established that no stop was needed.",
+      "The inaccurate 13:18 live-state report and its correction were owner observation costs, not additional model runtime.",
+      "Default-deny permissions also hid the internal invalid repair diagnostic; source investigation and publication are owner work, not model implementation.",
+      "The 108-second recovery preparation included copying isolated state and package cache; future recovery should preserve closed DB evidence without unnecessarily duplicating reusable package cache."
+    ],
+    "measurement_limit": "All figures are observed elapsed intervals, not continuous human labor. Preparation, review and notification can overlap; do not sum them as critical-path time or claim net saving. Source-owner review/repair/testing remain pending at this freeze."
+  },
+  "official_versioned_sources": [
+    "https://github.com/anomalyco/opencode/blob/v1.19.5/packages/opencode/src/tool/invalid.ts",
+    "https://github.com/anomalyco/opencode/blob/v1.19.5/packages/opencode/src/tool/registry.ts#L198-L237",
+    "https://github.com/anomalyco/opencode/blob/v1.19.5/packages/opencode/src/permission/index.ts#L185-L198",
+    "https://github.com/anomalyco/opencode/blob/v1.19.5/packages/opencode/src/session/llm/request.ts#L194-L200",
+    "https://github.com/anomalyco/opencode/blob/v1.19.5/packages/opencode/src/session/llm.ts#L281-L308",
+    "https://github.com/anomalyco/opencode/blob/v1.19.5/packages/opencode/src/session/prompt.ts#L1047-L1072"
+  ],
+  "next_step": "No fifth generic CLI retry. Source owner integrates and independently validates partial edits and completes missing work, with separate diff and cost accounting. Later evidence is appended, not backfilled.",
+  "public_exclusions": [
+    "raw requests or SSE",
+    "source bodies or partial arguments",
+    "absolute paths",
+    "session and machine identities",
+    "credentials",
+    "business data",
+    "private ledgers"
+  ],
+  "all_four_phase_totals": {
+    "same_business_task": true,
+    "actual_model_POSTs": 56,
+    "actual_POST_ENDs": 56,
+    "in_flight_at_freeze": 0,
+    "finish_reasons": {
+      "tool_calls": 41,
+      "stop": 2,
+      "length": 13
+    },
+    "all_HTTP200_and_SSE_DONE": true,
+    "proxy_retries": 0,
+    "fallbacks": 0,
+    "CLI_elapsed_sum_seconds": 1015.94746,
+    "reported_usage_sum": {
+      "prompt_tokens": 4718782,
+      "completion_tokens": 139272,
+      "total_tokens": 4858054
+    },
+    "limit": "This is the sum of four measured CLI intervals, not end-to-end task time or continuous human effort. POSTs are native assistant/tool turns, not 56 independent tasks; usage counts repeated context. Setup, review, repair, notifications and pending validation are separate."
+  }
+}
