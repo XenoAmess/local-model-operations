@@ -1,0 +1,558 @@
+{
+  "schema": "local-model-operations.hoi4-http-operations/v1",
+  "recorded_at_utc": "2026-11-01T22:11:39.532114+00:00",
+  "mode_id": "http-candidate",
+  "execution_local_day": "2026-11-02 Asia/Shanghai",
+  "initial_tasks": 15,
+  "later_documentation_and_repair_tasks": 2,
+  "actual_http_attempts": 17,
+  "complete_stop_candidates": 16,
+  "length_discarded_without_semantic_use": 1,
+  "http_retries": 0,
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_business_generation": false,
+  "batch_metrics": [
+    {
+      "batch_id": "20261102-integration",
+      "metrics": {
+        "actual_post_attempts": 9,
+        "window_started_at_utc": "2026-11-01T21:05:59.297414+00:00",
+        "window_ended_at_utc": "2026-11-01T21:06:52.515973+00:00",
+        "window_seconds": 53.218559,
+        "client_peak": 9,
+        "peak_duration_seconds": 30.866055,
+        "average_client_inflight": 6.59534056530918,
+        "scope": "Client POST_BEGIN to ATTEMPT_END half-open intervals only; not service capacity or scheduling"
+      }
+    },
+    {
+      "batch_id": "20261102-followup1",
+      "metrics": {
+        "actual_post_attempts": 3,
+        "window_started_at_utc": "2026-11-01T21:17:48.683259+00:00",
+        "window_ended_at_utc": "2026-11-01T21:18:15.084570+00:00",
+        "window_seconds": 26.401311,
+        "client_peak": 3,
+        "peak_duration_seconds": 11.98915,
+        "average_client_inflight": 2.1565814667309513,
+        "scope": "Client POST_BEGIN to ATTEMPT_END half-open intervals only; not service capacity or scheduling"
+      }
+    },
+    {
+      "batch_id": "20261102-adapter-live",
+      "metrics": {
+        "actual_post_attempts": 3,
+        "window_started_at_utc": "2026-11-01T21:39:34.066486+00:00",
+        "window_ended_at_utc": "2026-11-01T21:40:00.034848+00:00",
+        "window_seconds": 25.968362,
+        "client_peak": 3,
+        "peak_duration_seconds": 21.767742,
+        "average_client_inflight": 2.821081052397529,
+        "scope": "Client POST_BEGIN to ATTEMPT_END half-open intervals only; not service capacity or scheduling"
+      }
+    },
+    {
+      "batch_id": "20261102-case-and-rok",
+      "metrics": {
+        "actual_post_attempts": 2,
+        "window_started_at_utc": "2026-11-01T22:07:31.871883+00:00",
+        "window_ended_at_utc": "2026-11-01T22:07:40.068998+00:00",
+        "window_seconds": 8.197115,
+        "client_peak": 2,
+        "peak_duration_seconds": 4.43107,
+        "average_client_inflight": 1.540564576683382,
+        "scope": "Client POST_BEGIN to ATTEMPT_END half-open intervals only; not service capacity or scheduling"
+      }
+    }
+  ],
+  "all_intervals_metrics": {
+    "actual_post_attempts": 17,
+    "window_started_at_utc": "2026-11-01T21:05:59.297414+00:00",
+    "window_ended_at_utc": "2026-11-01T22:07:40.068998+00:00",
+    "window_seconds": 3700.771584,
+    "client_peak": 9,
+    "peak_duration_seconds": 30.866055,
+    "average_client_inflight": 0.1334365352714511,
+    "scope": "Client POST_BEGIN to ATTEMPT_END half-open intervals only; not service capacity or scheduling"
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261102-agents-policy",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "failure": null,
+      "usage": {
+        "prompt_tokens": 15035,
+        "completion_tokens": 1048,
+        "total_tokens": 16083
+      },
+      "content_ttft_ms": 11363.762900000438,
+      "total_ms": 34680.86650001351,
+      "request_sha256": "d01a11ff43cd35e25eed1493fcaabe695338223cba0d7a9ffc58c7ef390c0a46",
+      "summary_sha256": "63cd3a66bd417338d5932f8097451246d0c9b1a218d1d72d64ef3b016df98113",
+      "adoption": "partial",
+      "owner_review": "Owner shortened and removed Java-specific/duplicated configuration; root AGENTS section published.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "actual_message_utf8_bytes": [
+        301,
+        60812,
+        908
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-hoi4-history-migration",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "failure": null,
+      "usage": {
+        "prompt_tokens": 6433,
+        "completion_tokens": 1907,
+        "total_tokens": 8340
+      },
+      "content_ttft_ms": 3568.86110000778,
+      "total_ms": 43117.36609999207,
+      "request_sha256": "b28b4a6eaa0c8fb584c923ab20b1db783ce4e22d40cbbafd8cfb0ff9e285b325",
+      "summary_sha256": "cc1f84dc612d5e8902ee0d0466f07509c0f87df4e87feb82e28506c1ac7738b4",
+      "adoption": "partial",
+      "owner_review": "Owner verified fixed Git blob, preserved exact archive bytes, edited reusable narrative/privacy/current links; published shared history.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "actual_message_utf8_bytes": [
+        301,
+        25258,
+        840
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-civ6-experience-migration",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "failure": null,
+      "usage": {
+        "prompt_tokens": 25621,
+        "completion_tokens": 1755,
+        "total_tokens": 27376
+      },
+      "content_ttft_ms": 11086.655199993402,
+      "total_ms": 44393.69820000138,
+      "request_sha256": "4def6a8f63a59658b67939151e46142ea7e463fb84e0ca3d362bfa066c0104e0",
+      "summary_sha256": "e2da95f76669b49b4f608acff89a171a6921f8633a838b974dc28b172d2a9a80",
+      "adoption": "not_adopted",
+      "owner_review": "Invented examples/headings; canonical Civ6 migration by its owner exists and is reused.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "actual_message_utf8_bytes": [
+        301,
+        96599,
+        911
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-batch-runner",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "failure": null,
+      "usage": {
+        "prompt_tokens": 16321,
+        "completion_tokens": 3366,
+        "total_tokens": 19687
+      },
+      "content_ttft_ms": 8999.377000000095,
+      "total_ms": 53215.85840001353,
+      "request_sha256": "7ba4377e2b3c4fb8d182b25f5202504d763d11e2b257d14c825e62c1a01b2616",
+      "summary_sha256": "ecd7f350a7bf0b96918bfa1c761fda3f1365e48c95ee29b65a83fed38e3e7cd8",
+      "adoption": "rejected",
+      "owner_review": "Missing whole-plan/path guarantees, bad test fixture and fake overlap test. Owner later implemented adapter; no model code/test adoption.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "actual_message_utf8_bytes": [
+        301,
+        66828,
+        2610
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-portrait-contract-01",
+      "success": false,
+      "attempts": 1,
+      "finish_reason": "length",
+      "sse_done": true,
+      "failure": "finish_reason_length",
+      "usage": {
+        "prompt_tokens": 5399,
+        "completion_tokens": 1900,
+        "total_tokens": 7299
+      },
+      "content_ttft_ms": 3563.6186999909114,
+      "total_ms": 41677.627199998824,
+      "request_sha256": "1176d01b91dc667de2ef5040b1f3791cbd308d917ecf5fc7847a567d29fe27cf",
+      "summary_sha256": "bf7298849dfb49949b3098a87f4fd16ab49e845852b8d2f5890f220ea640deb3",
+      "adoption": "discarded_incomplete",
+      "owner_review": "length: entire candidate discarded without semantic reading; no automatic HTTP retry.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "actual_message_utf8_bytes": [
+        301,
+        19693,
+        1040
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-portrait-contract-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "failure": null,
+      "usage": {
+        "prompt_tokens": 5425,
+        "completion_tokens": 1002,
+        "total_tokens": 6427
+      },
+      "content_ttft_ms": 10207.09509999142,
+      "total_ms": 31199.078699981328,
+      "request_sha256": "cdcab44f17284ece17d0d541c8c6c6092915d7b42b0c2ada0911e1ada361c873",
+      "summary_sha256": "dae3b71e2bc028f49d55d6b9519f9b19e1211661a6fdc4c75f9541607ec5d13f",
+      "adoption": "rejected_identity_binding",
+      "owner_review": "Returned converted PNG SHA instead of requested original DDS source SHA; separately verified exact hash-domain confusion.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "actual_message_utf8_bytes": [
+        301,
+        19473,
+        1040
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-portrait-contract-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "failure": null,
+      "usage": {
+        "prompt_tokens": 5385,
+        "completion_tokens": 1019,
+        "total_tokens": 6404
+      },
+      "content_ttft_ms": 3564.3693000019994,
+      "total_ms": 30870.56609999854,
+      "request_sha256": "66ed20b6abc769fa80c20ceb958ca207b37ed028b155bdfe0373dc752f7614c3",
+      "summary_sha256": "f8b6e85d4e632ca9cf98744dd8da163dcecadde93d60d546df725b1d7b67f634",
+      "adoption": "rejected_identity_binding",
+      "owner_review": "Returned converted PNG SHA instead of requested original DDS source SHA; separately verified exact hash-domain confusion.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "actual_message_utf8_bytes": [
+        301,
+        19378,
+        1040
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-portrait-contract-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "failure": null,
+      "usage": {
+        "prompt_tokens": 5477,
+        "completion_tokens": 1030,
+        "total_tokens": 6507
+      },
+      "content_ttft_ms": 8999.321700015571,
+      "total_ms": 31372.220499994,
+      "request_sha256": "9b2c9541de39a756dc78ec63a81b1e60aee8681d5ed8ce8fa57263d9bb677a3f",
+      "summary_sha256": "c586fa01d7ee00ad03df05fa11ec5195c62fa3372f1247c3f65bcdd3c5c59bd5",
+      "adoption": "rejected_identity_binding",
+      "owner_review": "Returned converted PNG SHA instead of requested original DDS source SHA; separately verified exact hash-domain confusion.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "actual_message_utf8_bytes": [
+        301,
+        19687,
+        1040
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-timo-repair-draft",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "failure": null,
+      "usage": {
+        "prompt_tokens": 4936,
+        "completion_tokens": 1637,
+        "total_tokens": 6573
+      },
+      "content_ttft_ms": 7177.445599983912,
+      "total_ms": 40469.20890000183,
+      "request_sha256": "4065738e810f6dd870940943888072c4f85227d6a8d2669b87cdabeedbd16619",
+      "summary_sha256": "635e882585fda946c53d9678a3a3965fcd5d3e32daab4f6b78bbb16dd27f5fab",
+      "adoption": "rejected",
+      "owner_review": "Actual prompt used wrong two-input regeneration roles and omitted required low-left ribbon position; explanation alone insufficient.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "actual_message_utf8_bytes": [
+        301,
+        18730,
+        808
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-batch-runner-r2",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "failure": null,
+      "usage": {
+        "prompt_tokens": 19537,
+        "completion_tokens": 3332,
+        "total_tokens": 22869
+      },
+      "content_ttft_ms": 4348.073900007876,
+      "total_ms": 26397.486100002425,
+      "request_sha256": "43784da09394a194b77b9df51fe2cacc561deecb067835f448f4b0a6b93f4b4a",
+      "summary_sha256": "79c9885230f7e697fcdf18fa47ae38f4cf0dbee0a515dccac658c6ca4ccf6a53",
+      "adoption": "rejected",
+      "owner_review": "Repeated core implementation and test defects. Owner full takeover; code/tests adopted zero.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "actual_message_utf8_bytes": [
+        301,
+        78320,
+        4105
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-portrait-contract-01-r2",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "failure": null,
+      "usage": {
+        "prompt_tokens": 5547,
+        "completion_tokens": 795,
+        "total_tokens": 6342
+      },
+      "content_ttft_ms": 1779.2767999926582,
+      "total_ms": 11991.642800014233,
+      "request_sha256": "6cede2d73d58d587111579c0cea8300b58025fbc57975fdafe7be5de626949e8",
+      "summary_sha256": "7e7e44dabe308c4326514152e2930fda4f15612d7c535054651c73e0cff3bd46",
+      "adoption": "partial",
+      "owner_review": "Correct source DDS SHA. One clarification removing irrelevant larger-image mention adopted with owner narrowing in uncalled draft; two conditional-rule alleged conflicts rejected. Original cancelled draft preserved.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "actual_message_utf8_bytes": [
+        301,
+        19693,
+        1507
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-civ6-migration-r2",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "failure": null,
+      "usage": {
+        "prompt_tokens": 25771,
+        "completion_tokens": 1450,
+        "total_tokens": 27221
+      },
+      "content_ttft_ms": 2593.6026999843307,
+      "total_ms": 18547.786399984034,
+      "request_sha256": "0cdcb9d2e24b04568cd1a65f14e307db61ce6d54359ef8883ca01c6a4e6c942f",
+      "summary_sha256": "a999ade1ae8eeb99d639addc62dc3d08be81c507dbc74e217121b50423ea121f",
+      "adoption": "not_adopted",
+      "owner_review": "Still unsupported examples/claims; canonical Civ6 migration reused, no duplicate public story.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "actual_message_utf8_bytes": [
+        301,
+        96599,
+        1537
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-adapter-source-audit",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 15144,
+        "completion_tokens": 1239,
+        "total_tokens": 16383
+      },
+      "failure": null,
+      "request_sha256": "c816b1ce0339ab99b3f2f30d236f7b8410581c165b743a3f7c1e7127620246f1",
+      "summary_sha256": "f60369012c780b050f13fd68470658ca1f9075a2510ea14a26ae1970bce713d1",
+      "adoption": "partial",
+      "owner_review": "Maintenance log pointer adopted. Symlink claim false because resolved target is checked; other speculative findings rejected. Explicit parent checker --config fix found independently by owner.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "content_ttft_ms": 5323.651100014104,
+      "total_ms": 25529.297900007805,
+      "actual_message_utf8_bytes": [
+        301,
+        63176,
+        626
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-adapter-test-audit",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 15139,
+        "completion_tokens": 928,
+        "total_tokens": 16067
+      },
+      "failure": null,
+      "request_sha256": "f18af88ee9ca596e261cc05d6edfea46418e56c73faab37f98d4b617c372d327",
+      "summary_sha256": "03e8a2f661e039eda9989265b85ba66cc5d43c6b9c3e015b190f13828e010dd7",
+      "adoption": "partial",
+      "owner_review": "Invalid top-level JSON coverage suggestion informed owner test; false serialized-overlap claim and unsupported in-flight cancellation requirement rejected.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "content_ttft_ms": 5090.447900001891,
+      "total_ms": 21799.879999976838,
+      "actual_message_utf8_bytes": [
+        301,
+        63176,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-timo-repair-draft-r2",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 5203,
+        "completion_tokens": 1434,
+        "total_tokens": 6637
+      },
+      "failure": null,
+      "request_sha256": "b869f26440ec08c0f92818e05f3fd40cccbaed27a141aa00741a204b4cc704e0",
+      "summary_sha256": "ad52d04a22d7479d09c8add08d5e7033c4c00a493c0bcc380c7f50826dbbdd36",
+      "adoption": "partial",
+      "owner_review": "Three-input roles and source/local-edit paragraphs adopted into frozen uncalled repair. Owner corrected high-resolution-input claim, trimmed regeneration boilerplate; no image approval.",
+      "cached_prompt_tokens_if_reported": null,
+      "http_status": 200,
+      "content_ttft_ms": 4066.190900019137,
+      "total_ms": 25949.48840001598,
+      "actual_message_utf8_bytes": [
+        301,
+        19676,
+        1017
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-portable-case-draft",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 7838,
+        "completion_tokens": 934,
+        "total_tokens": 8772
+      },
+      "content_ttft_ms": 1598.4008999948855,
+      "total_ms": 8193.65089997882,
+      "request_sha256": "e1f391f690c8ba6f78ab1aa731022d5e500257a1f3e42e5b86e6aea519bcd37e",
+      "summary_sha256": "6731def9c0600cc7ee040d13c188fc07836d5cc501b5422abd612addbb4f8123",
+      "adoption": "partial",
+      "owner_review": "Summary structure only. Owner replaced mixed-language prose, corrected unsupported only-one-later-request claim, distinguished suggestion adoption from zero model code/tests and added all actual per-task evidence.",
+      "cached_prompt_tokens_if_reported": null,
+      "actual_message_utf8_bytes": [
+        301,
+        21349,
+        890
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-rok-compact-badge-repair",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 1976,
+        "completion_tokens": 362,
+        "total_tokens": 2338
+      },
+      "content_ttft_ms": 1583.315500000026,
+      "total_ms": 4424.819200008642,
+      "request_sha256": "b85b1ee3b3c18455c480a1406a57d4865444943449890d909c7df1a114c36f80",
+      "summary_sha256": "48a23233ef470f1b5d3452ec77757226ef140b49c8e77aedc99a5e7fb323a127",
+      "adoption": "unchanged_bounded_prompt",
+      "owner_review": "Finite three-input local edit prompt text adopted unchanged into prepared art repair; canonical alpha tail appended. Owner checked exact original DDS and target master PNG SHA, observation and limits; no image qualification.",
+      "cached_prompt_tokens_if_reported": null,
+      "actual_message_utf8_bytes": [
+        301,
+        6624,
+        907
+      ]
+    }
+  ],
+  "published_source": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "adapter_commit": "55b691d86ab9194648ae1e0b5a9302e60cb2a977",
+    "policy_commit": "84e353c24",
+    "files": {
+      "tools/local_model_batch.py": "0cc8d27245127bbf349bbf0d84164f90a864fe89035efa96e38bbe6b4f44b741",
+      "tests/test_local_model_batch.py": "5f745b366991d3953bcf181727026039417bee6e415a4122aa1f3bbcc10bcfdd",
+      "AGENTS.md": "e105510f4589b1e098b9a1b0e8f0c7fa5addb17ff8fae8c21d85db4d0e72ee60"
+    }
+  },
+  "owner_software_verification": {
+    "tests_passed": 11,
+    "tests_skipped": 0,
+    "seconds": 3.176,
+    "model_code_or_tests_adopted": 0,
+    "limits": "Offline adapter boundary tests; shared HTTP protocol delegated. Three real requests used initial owner adapter; two later real requests used committed final adapter. No game, visual approval or performance result inferred."
+  },
+  "daily_client_check": "1.19.4 -> 1.19.5; actual daily check passed; pnpm registry latest 1.19.5",
+  "history_public_raw_readback": {
+    "commit": "11873c1b1104e7c07ac1e3f71dcb06fff7cd4cde",
+    "path": "docs/history/hoi4-opencode-windows-repair-2026-10-25.md",
+    "bytes": 2982,
+    "sha256": "26feaf6e8281c7aa246208ec4871f53078e011fc5a4a65550db504ac6af5520f",
+    "verified_at_utc": "2026-11-01T22:11:39.558133+00:00"
+  },
+  "costs": {
+    "owner_preparation_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "net_time_saved_seconds": null,
+    "mode_comparison": null
+  },
+  "next_real_questions": [
+    "Use source-domain identifiers and exact input roles for upcoming independently needed text tasks; keep model allegations subject to actual-source checks.",
+    "For naturally needed new code tasks, freeze full caller contracts and measure owner correction cost; do not replay completed counterexamples for a quota.",
+    "Image generation and source-bound visual qualification remain in consuming project with its actual owner."
+  ],
+  "raw_materials": "Exact REQUEST, SSE, attempt events, candidates and local machine ledgers retained privately on execution machine; only reviewed digest/metrics summaries published."
+}
