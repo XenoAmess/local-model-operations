@@ -1,0 +1,187 @@
+{
+  "schema": "local-model-operations.civ6-migration/v1",
+  "date": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "machine_id": "BF-202609141645",
+  "source_repository": "https://github.com/XenoAmess/civ6_dev",
+  "source_commit": "76a41d8d2c23806a20a4d98aa3ba251d598f054b",
+  "shared_caller_commit": "a6f33893e17af623d39a99fb960cdc8c79b42fc8",
+  "archive_manifest": [
+    {
+      "archive": "docs/history/civ6-2026-11-02/local-model-worker-guide.md",
+      "source_path": "docs/local-model-worker-guide.md",
+      "source_url": "https://github.com/XenoAmess/civ6_dev/blob/76a41d8d2c23806a20a4d98aa3ba251d598f054b/docs/local-model-worker-guide.md",
+      "bytes": 5597,
+      "sha256": "d0efcf8fdd23b48b70c0253dc7afb49685d17768147fb20670400cfda6f5180f"
+    },
+    {
+      "archive": "docs/history/civ6-2026-11-02/local-model-executor-config.json",
+      "source_path": "docs/local-model-executor-config.json",
+      "source_url": "https://github.com/XenoAmess/civ6_dev/blob/76a41d8d2c23806a20a4d98aa3ba251d598f054b/docs/local-model-executor-config.json",
+      "bytes": 3980,
+      "sha256": "0f5b8c7f8ac32e0350f3e91b8cd13bb67c649b2efad7a69ef310879680d7a39c"
+    },
+    {
+      "archive": "docs/history/civ6-2026-11-02/local-model-experience.md",
+      "source_path": "docs/local-model-experience.md",
+      "source_url": "https://github.com/XenoAmess/civ6_dev/blob/76a41d8d2c23806a20a4d98aa3ba251d598f054b/docs/local-model-experience.md",
+      "bytes": 73862,
+      "sha256": "40e56281c3eb03e0341c1dfc8f2dbcdefbf56577284db645e3141309e8d1f9ca"
+    }
+  ],
+  "model_alias": "qwen38-coder",
+  "backend_weight_identity": null,
+  "configuration": {
+    "authority": "config/executor.json at shared_caller_commit",
+    "only_override": "prompting.system_template: Civ6 engineering context, not Java",
+    "temperature": 0,
+    "thinking": false,
+    "response_format": "json_object"
+  },
+  "maintenance": {
+    "date": "2026-11-02",
+    "cache_hit": true,
+    "installed_version_in_record": "1.19.5",
+    "update_executed_by_this_check": false,
+    "historical_civ6_daily_gate": false
+  },
+  "new_http_attempts": 3,
+  "complete_json_objects": 3,
+  "transport_retries": 0,
+  "current_in_flight_at_record": 0,
+  "client_peak_in_flight": 3,
+  "peak_interval_utc": [
+    "2026-11-01T21:03:00.487535+00:00",
+    "2026-11-01T21:03:32.417377+00:00"
+  ],
+  "peak_duration_seconds": 31.929842,
+  "server_concurrency": null,
+  "historical_p6_only": {
+    "http": 129,
+    "complete": 124,
+    "length_discarded": 5,
+    "transport_retries": 0,
+    "client_peak": 13,
+    "peak_duration_seconds": null
+  },
+  "cases": [
+    {
+      "case_id": "HTTP-CIV6-MIGRATION130",
+      "mode_id": "http-candidate",
+      "task_id": "migration130",
+      "post_begin_utc": "2026-11-01T21:03:00.487535+00:00",
+      "attempt_end_utc": "2026-11-01T21:03:32.417377+00:00",
+      "max_tokens": 4200,
+      "source_message_utf8_bytes": 179128,
+      "source_message_sha256": "34c250026d32765fe47bbf76732c4ff226836df7a368a8dee725caafaedb0b50",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "candidate_complete": true,
+        "http_headers_ms": 17588.77850000863,
+        "first_nonempty_content_delta_ms": 17590.32049999223,
+        "total_ms": 31927.33400000725,
+        "usage": {
+          "prompt_tokens": 46046,
+          "completion_tokens": 1491,
+          "total_tokens": 47537
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "review_level": "分析部分采用",
+      "owner_review": "薄适配/共享配置/JSON门禁方向采用；拒绝重复维护、错误spec字段及把候选就绪称为adopted。CLI参数由真实消费者核对。",
+      "production_code_verbatim_adopted": false,
+      "software_verification": "pending adapter implementation",
+      "native_business_result": null,
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "test": null,
+        "publication": null
+      }
+    },
+    {
+      "case_id": "HTTP-CIV6-MIGRATIONLESSONS131",
+      "mode_id": "http-candidate",
+      "task_id": "migrationlessons131",
+      "post_begin_utc": "2026-11-01T21:03:00.481812+00:00",
+      "attempt_end_utc": "2026-11-01T21:03:49.722554+00:00",
+      "max_tokens": 4200,
+      "source_message_utf8_bytes": 179128,
+      "source_message_sha256": "34c250026d32765fe47bbf76732c4ff226836df7a368a8dee725caafaedb0b50",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "candidate_complete": true,
+        "http_headers_ms": 12291.460999986157,
+        "first_nonempty_content_delta_ms": 12293.695700005628,
+        "total_ms": 49240.77390000457,
+        "usage": {
+          "prompt_tokens": 46042,
+          "completion_tokens": 3503,
+          "total_tokens": 49545
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "review_level": "分类参考，原文和代码采用0",
+      "owner_review": "负责人重读公开证据重写经验；拒绝无证据重放事故、过强跨上下文断言、全代码owner归因等。",
+      "production_code_verbatim_adopted": false,
+      "software_verification": "pending adapter implementation",
+      "native_business_result": null,
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "test": null,
+        "publication": null
+      }
+    },
+    {
+      "case_id": "HTTP-CIV6-MIGRATIONTESTS132",
+      "mode_id": "http-candidate",
+      "task_id": "migrationtests132",
+      "post_begin_utc": "2026-11-01T21:03:00.484339+00:00",
+      "attempt_end_utc": "2026-11-01T21:04:12.202135+00:00",
+      "max_tokens": 4200,
+      "source_message_utf8_bytes": 179128,
+      "source_message_sha256": "34c250026d32765fe47bbf76732c4ff226836df7a368a8dee725caafaedb0b50",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "candidate_complete": true,
+        "http_headers_ms": 16001.091099984478,
+        "first_nonempty_content_delta_ms": 16002.708099986194,
+        "total_ms": 71717.48839999782,
+        "usage": {
+          "prompt_tokens": 46042,
+          "completion_tokens": 4076,
+          "total_tokens": 50118
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "review_level": "测试边界分析部分采用",
+      "owner_review": "缺仓库/配置权威/空格路径/防覆盖/75/严格JSON/真实prepare_request等边界采用；去掉重复preflight、错误spec字段和候选自动采用表述，测试尚未执行。",
+      "production_code_verbatim_adopted": false,
+      "software_verification": "pending adapter implementation",
+      "native_business_result": null,
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "test": null,
+        "publication": null
+      }
+    }
+  ],
+  "raw_evidence_custody": "Ignored Civ6 .local-model/operations-adoption-20261102 on execution machine; not a shared dependency",
+  "limitations": [
+    "No OpenCode-native generation in this batch.",
+    "No efficiency comparison or owner cost measurement.",
+    "Civ6 source42 native acceptance remains pending.",
+    "Snapshots preserve history; current shared config and maintenance supersede old operational instructions."
+  ]
+}

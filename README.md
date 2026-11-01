@@ -37,6 +37,7 @@ python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstat
 | OpenCode 1.19.5真实源码试点、权限与准备成本 | [试点阶段记录](docs/opencode-pilot-2026-11-01.md) |
 | 迁移来源、精确版本和 SHA-256 | [来源记录](docs/source-origins.md) |
 | 原始 worker 指南及两份探索档案 | [历史快照](docs/history/README.md) |
+| Civ6 本地模型实测、纠错及精确历史来源 | [Civ6 经验迁移](docs/civ6-experience-2026-11-02.md) |
 
 当前规则与冻结历史分别维护。旧地址、机器目录和项目权限仅保留其历史含义，不是新 worker 的启动要求。
 
