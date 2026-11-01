@@ -1,0 +1,138 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-AUDIT-002",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "task": "Three source-analysis roles inspect a real cold-start chain and propose/check narrower work; no production edits requested or adopted in this cohort.",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "wire": {
+    "actual_top_level_keys": [
+      "chat_template_kwargs",
+      "max_tokens",
+      "messages",
+      "model",
+      "response_format",
+      "stream",
+      "stream_options",
+      "temperature"
+    ],
+    "fixed_three_messages": true,
+    "temperature": 0,
+    "thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true,
+    "max_tokens_each": 6000,
+    "logical_tasks": 3,
+    "POSTs": 3,
+    "ENDs": 3,
+    "stop_DONE_complete": 3,
+    "length": 0,
+    "transport_retries": 0,
+    "semantic_correction_calls": 0
+  },
+  "calls": [
+    {
+      "role": "flow",
+      "frozen_complete_source_bodies_LF_verified": 21,
+      "source_message_UTF8_bytes": 1154788,
+      "POST_BEGIN_UTC": "2026-11-01T20:20:33.953586+00:00",
+      "END_UTC": "2026-11-01T20:22:02.760356+00:00",
+      "headers_seconds": 72.20070909999777,
+      "valid_content_TTFT_seconds": 72.20198260000325,
+      "reported_request_elapsed_seconds": 88.80678559999797,
+      "reported_usage": {
+        "prompt_tokens": 229473,
+        "completion_tokens": 1730,
+        "total_tokens": 231203
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "store",
+      "frozen_complete_source_bodies_LF_verified": 26,
+      "source_message_UTF8_bytes": 645948,
+      "POST_BEGIN_UTC": "2026-11-01T20:20:33.952348+00:00",
+      "END_UTC": "2026-11-01T20:22:06.190970+00:00",
+      "headers_seconds": 46.17081140000664,
+      "valid_content_TTFT_seconds": 46.17229230000521,
+      "reported_request_elapsed_seconds": 92.23869350000314,
+      "reported_usage": {
+        "prompt_tokens": 134101,
+        "completion_tokens": 2348,
+        "total_tokens": 136449
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "counter",
+      "frozen_complete_source_bodies_LF_verified": 24,
+      "source_message_UTF8_bytes": 945717,
+      "POST_BEGIN_UTC": "2026-11-01T20:20:33.953254+00:00",
+      "END_UTC": "2026-11-01T20:22:06.497404+00:00",
+      "headers_seconds": 55.32934550000209,
+      "valid_content_TTFT_seconds": 55.330879499997536,
+      "reported_request_elapsed_seconds": 92.54430110000249,
+      "reported_usage": {
+        "prompt_tokens": 191833,
+        "completion_tokens": 2060,
+        "total_tokens": 193893
+      },
+      "cached_tokens": null
+    }
+  ],
+  "input_qualification": {
+    "unique_frozen_source_files_SHA_verified": 39,
+    "each_request_contains_its_declared_complete_bodies_after_LF_normalization": true,
+    "limit": "Roles have different source sets. The flow request omitted concrete archive/writer implementations; its I/O and lock claims cannot be credited as analysis of those bodies. Owner checked them using other roles' same frozen sources. Complete transitive/domain-leaf closure remains unproven."
+  },
+  "owner_review": {
+    "model_code_adopted": 0,
+    "whole_analysis_or_safety_verdicts_accepted": 0,
+    "partial": "Some duplicate-chain/logging gaps and identity/cleanup observations were retained only after independent source checks.",
+    "rejected": [
+      "Sequential/suspended writer scopes described as blanket nested reentrant locks, and whole-process startup time assigned to a narrower unsegmented interval.",
+      "Immutable file identity used to justify skipping actual reads/qualification; an already present commit propagation mechanism proposed as new work.",
+      "Fixed-side lazy encoding confused with current-side encoding; an existing live-token branch misread; global complete-object encoding cache proposed."
+    ],
+    "owner_independent_followup": "Owner found one freshly returned material encoded in both the store and outer consumer during the same call. A prospective private immediate-result handoff must preserve both distinct baseline comparisons and all actual read/hash/pin/head/physical/scope checks. This is not a model discovery or implemented/validated optimization in this case.",
+    "complete_outputs_reviewed_by_source_owner": 3,
+    "raw_NOT_YET_REVIEWED_transport_fields_preserved": true,
+    "source_review_SHA256": "862e87617fdd3db63b5d38fdcfce49216a8fa8c465e75bd5796766133192328e"
+  },
+  "clock_accounting": {
+    "basis": "Actual POST_BEGIN to ATTEMPT_END event intervals; preparation/review are excluded from in-flight counts.",
+    "HTTP_interval_union_seconds": 92.545056,
+    "client_peak": 3,
+    "peak_windows": [
+      {
+        "begin_UTC": "2026-11-01T20:20:33.953586+00:00",
+        "end_UTC": "2026-11-01T20:22:02.760356+00:00",
+        "seconds": 88.80677
+      }
+    ],
+    "reported_request_elapsed_sum_seconds": 273.5897802000036,
+    "first_observed_owner_UTC": "2026-11-01T20:16:57Z",
+    "first_clock_granularity_seconds": 1,
+    "source_preparation_checkpoint_UTC": "2026-11-01T20:20:33.506775+00:00",
+    "first_clock_to_preparation_checkpoint_seconds": 216.506775,
+    "owner_package_UTC": "2026-11-01T20:31:48.064068+00:00",
+    "first_clock_to_package_scheduling_wall_seconds": 891.064068,
+    "pre_first_clock_activity_seconds": null,
+    "active_preparation_seconds": null,
+    "active_review_or_correction_seconds": null,
+    "continuous_human_work_seconds": null,
+    "net_owner_saving_seconds": null,
+    "limit": "HTTP overlapped owner source reading. Request elapsed sum, HTTP union and scheduling wall are separate clock scopes; none is continuous owner labor and they must not be added."
+  },
+  "not_proven": [
+    "CPU/I/O/lock/RPC shares of the historical unsegmented startup window",
+    "Any source edit, compile, test, formal implementation, runtime adoption or speed benefit for the prospective follow-up",
+    "Server queue/running state, KV-cache effects, maximum effective context or OpenCode-mode capability"
+  ],
+  "permissions": "OFFLINE_ONLY; no live process/Game/Native query, UI, recording, deployment, recovery or launch.",
+  "record_creation_new_requests_tests_or_business_actions": 0,
+  "next_real_trigger": "Consume a separately required narrow implementation/verification stage only when its owner freezes the actual contract and artifacts; attribute discovery, code and behavior separately. Never reopen these closed analyses for statistics."
+}
