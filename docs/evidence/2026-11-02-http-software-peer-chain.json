@@ -1,0 +1,273 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-SOFTWARE-CHAIN-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Create a test-only owned-software peer conversation and qualified regressions around an existing authenticated endpoint.",
+  "input_limits": {
+    "named_current_source_files": 29,
+    "qualification": "Current Java declarations and peer glue supplied; recursive native implementation closure was not flattened. Explicit finite source assertions are hints, not an unprompted oracle.",
+    "owner_errors": [
+      "Wrong preliminary source names corrected before POST, not model failures.",
+      "Second-round feedback supplied the wrong generation field name; owner corrected its own contradiction and retained the actual request.",
+      "An observation-read declaration subset was inspected only after the model calls, not retroactively included.",
+      "The direct unsigned timestamp wrapper declaration was omitted from the test prefix and read after first checks; related constructor/accessor qualification is an owner input gap."
+    ]
+  },
+  "wire": {
+    "actual_top_level_keys": [
+      "chat_template_kwargs",
+      "max_tokens",
+      "messages",
+      "model",
+      "response_format",
+      "stream",
+      "stream_options",
+      "temperature"
+    ],
+    "fixed_three_messages": true,
+    "logical_tasks": 4,
+    "POSTs": 5,
+    "ENDs": 5,
+    "complete_stop": 4,
+    "length": 0,
+    "partial_SSE_reset": 1,
+    "automatic_transport_retries": 1,
+    "closed_task_reposts_or_business_replays": 0
+  },
+  "calls": [
+    {
+      "role": "test_consumer",
+      "semantic_round": 1,
+      "max_tokens": 14000,
+      "source_message_UTF8_bytes": 450276,
+      "attempts": [
+        {
+          "POST_BEGIN_UTC": "2026-11-01T22:14:53.808512+00:00",
+          "END_UTC": "2026-11-01T22:15:44.658261+00:00",
+          "HTTP_status": 200,
+          "finish_reason": null,
+          "SSE_DONE": false,
+          "content_TTFT_seconds": 24.822270200005732,
+          "reported_HTTP_seconds": 50.84967040000629,
+          "usage": null,
+          "cached_tokens": null,
+          "partial_reset": true
+        },
+        {
+          "POST_BEGIN_UTC": "2026-11-01T22:15:56.368291+00:00",
+          "END_UTC": "2026-11-01T22:16:27.719419+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 1.0593628999995417,
+          "reported_HTTP_seconds": 31.351224099998944,
+          "usage": {
+            "prompt_tokens": 101793,
+            "completion_tokens": 4710,
+            "total_tokens": 106503
+          },
+          "cached_tokens": null,
+          "partial_reset": false
+        }
+      ]
+    },
+    {
+      "role": "test_witness",
+      "semantic_round": 1,
+      "max_tokens": 8000,
+      "source_message_UTF8_bytes": 450276,
+      "attempts": [
+        {
+          "POST_BEGIN_UTC": "2026-11-01T22:14:53.810569+00:00",
+          "END_UTC": "2026-11-01T22:15:29.516996+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 26.014359000000695,
+          "reported_HTTP_seconds": 35.7065025999982,
+          "usage": {
+            "prompt_tokens": 101778,
+            "completion_tokens": 1292,
+            "total_tokens": 103070
+          },
+          "cached_tokens": null,
+          "partial_reset": false
+        }
+      ]
+    },
+    {
+      "role": "test_witness",
+      "semantic_round": 2,
+      "max_tokens": 9000,
+      "source_message_UTF8_bytes": 450276,
+      "attempts": [
+        {
+          "POST_BEGIN_UTC": "2026-11-01T22:16:15.143106+00:00",
+          "END_UTC": "2026-11-01T22:16:30.483156+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 1.4637719000020297,
+          "reported_HTTP_seconds": 15.340091099998972,
+          "usage": {
+            "prompt_tokens": 103223,
+            "completion_tokens": 2082,
+            "total_tokens": 105305
+          },
+          "cached_tokens": null,
+          "partial_reset": false
+        }
+      ]
+    },
+    {
+      "role": "test_consumer",
+      "semantic_round": 2,
+      "max_tokens": 15000,
+      "source_message_UTF8_bytes": 450276,
+      "attempts": [
+        {
+          "POST_BEGIN_UTC": "2026-11-01T22:17:18.628542+00:00",
+          "END_UTC": "2026-11-01T22:18:08.197952+00:00",
+          "HTTP_status": 200,
+          "finish_reason": "stop",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 6.53720649999741,
+          "reported_HTTP_seconds": 49.56949729999906,
+          "usage": {
+            "prompt_tokens": 107004,
+            "completion_tokens": 5253,
+            "total_tokens": 112257
+          },
+          "cached_tokens": null,
+          "partial_reset": false
+        }
+      ]
+    }
+  ],
+  "adoption": {
+    "model_code": 0,
+    "owner_selected_sources": 3,
+    "implementation_roles": "Both complete rounds rejected: invented path/container APIs, invalid nominal assignments, missing held-process/readonly-handle lifecycle, envelope-versus-result confusion, missing response matching and normal cleanup.",
+    "witness_roles": "Both complete rounds rejected: invalid imports/APIs and byte-wrapper use, ineffective equality checks, missing actual protocol decoding/semantic assertions, and an invented revision progression.",
+    "qualification": "Do not charge the missing direct wrapper/observation declaration or owner wrong-generation feedback as isolated model errors. Complete stop and later passing owner code do not repair candidate provenance.",
+    "selected": "Owner whole three test-only Java files. No third semantic round or executable model fragment adopted."
+  },
+  "software": {
+    "checks": [
+      {
+        "stage": "strict",
+        "begin_utc": "2026-11-01T22:24:39.926385+00:00",
+        "end_utc": "2026-11-01T22:24:42.868049+00:00",
+        "seconds": 2.9416640999988886,
+        "exit_code": 0
+      },
+      {
+        "stage": "default",
+        "begin_utc": "2026-11-01T22:28:38.672839+00:00",
+        "end_utc": "2026-11-01T22:28:40.864076+00:00",
+        "seconds": 2.19124240000383,
+        "exit_code": 0
+      },
+      {
+        "stage": "positive",
+        "begin_utc": "2026-11-01T22:29:39.327290+00:00",
+        "end_utc": "2026-11-01T22:29:43.402831+00:00",
+        "seconds": 4.075537099997746,
+        "exit_code": 0
+      },
+      {
+        "stage": "negative",
+        "begin_utc": "2026-11-01T22:31:08.713874+00:00",
+        "end_utc": "2026-11-01T22:31:11.940124+00:00",
+        "seconds": 3.2262367000002996,
+        "exit_code": 0
+      }
+    ],
+    "default_tests": {
+      "found": 2,
+      "skipped": 2,
+      "started": 0
+    },
+    "separate_new_qualified_methods": {
+      "positive_passed": 1,
+      "negative_passed": 1
+    },
+    "controlled_peer_packets": [
+      {
+        "native_originals": 10,
+        "java_paired_originals": 9,
+        "initial_snapshot_export_limit": "native ordinal2 was consumed by actual transport but not separately exported for Java byte pairing"
+      },
+      {
+        "native_originals": 26,
+        "java_paired_originals": 25,
+        "initial_snapshot_export_limit": "native ordinal2 was consumed by actual transport but not separately exported for Java byte pairing"
+      }
+    ],
+    "scope": "Actual protocol APIs against an owned software peer. HELLO/fresh typed reads are exercised; dynamic action conversation uses the same owned endpoint/wire directly, not Root entry or transport action dispatch.",
+    "not_proven": [
+      "Real Game or hardware execution",
+      "Root/private permit qualification",
+      "Natural terminal cause or material gain",
+      "Natural action dispatch",
+      "Whole current-source/classpath or loaded-runtime equivalence"
+    ]
+  },
+  "formal_annex": {
+    "commit": "732284274140ceb21697a9d258142284739e5a67",
+    "normal_push_remote_exact_clean": true,
+    "new_compile_RUN_for_publication": 0,
+    "runtime_adoption": false
+  },
+  "clock_accounting": {
+    "client_peak": 2,
+    "peak_spans_POST_BEGIN_to_END": [
+      {
+        "BEGIN_UTC": "2026-11-01T22:14:53.810569+00:00",
+        "END_UTC": "2026-11-01T22:15:29.516996+00:00",
+        "seconds": 35.706427
+      },
+      {
+        "BEGIN_UTC": "2026-11-01T22:16:15.143106+00:00",
+        "END_UTC": "2026-11-01T22:16:27.719419+00:00",
+        "seconds": 12.576313
+      }
+    ],
+    "time_at_peak_seconds": 48.28274,
+    "HTTP_interval_union_seconds": 134.534024,
+    "reported_attempt_elapsed_sum_seconds": 182.81698550000146,
+    "first_strict_to_last_qualified_RUN_wall_seconds": 392.013739,
+    "executed_verification_phase_sum_seconds": 12.434680299999,
+    "active_owner_preparation_review_fix_seconds": null,
+    "net_owner_saving_seconds": null,
+    "limit": "EVENT intervals used for the public overlap calculation; earlier owner RESULT-start+duration approximation remains frozen separately. Gaps and process sum are not continuous labor or runtime speed."
+  },
+  "private_evidence_digests": {
+    "cohort": {
+      "bytes": 7519,
+      "sha256": "9fb3a84913225595c9742de5851f3729fd90e09c4b5fb491346b034e9165a4c1"
+    },
+    "qualification": {
+      "bytes": 2032,
+      "sha256": "0ff4082dc86ece4cd490eebb54b545f8f7050ea30486c1fc9b8a77f1ff195025"
+    },
+    "later_qualification": {
+      "bytes": 1043,
+      "sha256": "3f803a0947b778a111f32fa1330df8bc75ddbede7f793d072d4fbca3ccbb30a3"
+    },
+    "software_validation": {
+      "bytes": 28463,
+      "sha256": "1702149f73162f60a39cce6559a35c9cd538ee4463aafa922066957eefc011b5"
+    },
+    "formal_adoption": {
+      "bytes": 2659,
+      "sha256": "e95664581b0345374db9224e8ae351d1a4e9165064794ffaf935c0af8d28433e"
+    }
+  },
+  "next_real_trigger": "Only new Root-entry/capability source or an independently authorized fixture may extend scope; the closed two software methods are not replayed for model success or concurrency.",
+  "publication_new_HTTP_compile_test_or_live_actions": 0
+}

@@ -78,6 +78,12 @@ HTTP-PLANNING-001保留输入与成本差异：早期广域材料显式缺少部
 
 owner最终源22:35:08.545586Z已选，新的pending双POST22:36:09才开始；不能把后到吻合分析算作模型先实现或节省工时。早期owner候选与最终源各有一次实际编译；最终单叶0/2.247734s，没有新Test或应用RUN。未离线读取的原件正文、全量replay与后继业务结果保持未知；编译、历史DATA恢复候选及真实资格/运行分开，主动owner工时null。只消费独立后到回执，不为模式成功重跑已闭题。
 
+## 后到：HTTP-SOFTWARE-CHAIN-001的输入缺口与软件peer边界
+
+两个角色各两轮共4任务/5 POST，4完整stop、1半截reset丢弃后同请求自动重试；模型代码全部未采用，owner完成三份test-only Java。完整答复仍有类型/API发明、held process/句柄清理、响应ID和结果层级错误，测试稿没有真正验证协议语义。与此同时，owner R2给错generation字段名、后读观察声明及漏直接无符号时间戳wrapper声明分别留档，不能把这些输入问题算成齐全前缀下的模型错误。[实际参数与分级](evidence/2026-11-02-http-software-peer-chain.json)。
+
+三源首strict0/2.941664s；默认2项skip，另外两个新qualified软件peer方法各1P，正式73228427。范围是owned软件peer和实际协议API：动态动作链走同一受控endpoint/wire，未通过Root/private permit或真实Game动作。记录的正向26份Native原件只配对25份Java原件，初始snapshot未单独导出，不能冒三方全量等值。首strict到最后RUN墙钟392.013739s，执行和12.434680s，主动owner人时未知；EVENT实算两个峰2窗口35.706427s及12.576313s，未把owner原RESULT时间近似覆盖成一个持续峰或目标已达。
+
 ## 已知边界与操作方法
 
 2026-11-02本机`4-8e1c2f1861`的[HTTP-GUI-001](evidence/2026-11-02-http-gui-layout.json)处理真实窗口裁切：三个工作流、四次POST全部stop，实际峰3维持约11.50秒。一个有效页尺寸hunk采用，遗漏的两个同父页由owner补齐；相邻检查中的祖层描述与豁免判断不能直接采用。两版完整Java测试均被拒绝，最终测试为owner实现：首版误把size Block当Atom并跳过实际blockoverride；补齐共享parser及精确诊断后的第二版仍在错误祖层替换，且混淆scrollbox本体与孩子。第一轮未显式给共享GUI语法表示的输入成本单列，不把所有失败都归模型。
