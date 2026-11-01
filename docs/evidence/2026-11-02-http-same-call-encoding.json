@@ -1,0 +1,161 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-REUSE-002",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Implement a same-call opaque data result so two independent baseline comparisons reuse one freshly revalidated old saved-material encoding.",
+  "relation": {
+    "predecessor": "HTTP-AUDIT-002",
+    "previous_record_unchanged": true,
+    "discovery_and_design": "Owner independently found the duplicate and froze a prospective nominal API, validation order and two-consumer contract before dispatch. New API was explicitly not an existing implemented declaration. This is not autonomous hotspot discovery or from-zero API design.",
+    "comparison_limit": "Different tasks, source sets and contracts; request timing cannot establish an A/B saving against the predecessor."
+  },
+  "input": {
+    "full_current_source_files": 12,
+    "frozen_raw_source_bytes": 214801,
+    "prefix_file_bytes": 219048,
+    "actual_source_message_UTF8_bytes_each": 216343,
+    "complete_LF_source_bodies_exact_each": 11,
+    "complete_source_bodies_nonempty_lines_preserving_indentation_exact_each": 12,
+    "projection_limit": "One supplied serializer body differs only in blank-line projection; do not claim all twelve raw bodies are byte-exact embeddings.",
+    "prospective_contract_in_each_third_task_message_nonempty_exact": true,
+    "all_transitive_dependencies_independently_proven": null,
+    "audit_saw_generated_candidate_bodies": false
+  },
+  "wire": {
+    "actual_top_level_keys": [
+      "chat_template_kwargs",
+      "max_tokens",
+      "messages",
+      "model",
+      "response_format",
+      "stream",
+      "stream_options",
+      "temperature"
+    ],
+    "fixed_three_messages": true,
+    "temperature": 0,
+    "thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true,
+    "logical_tasks": 3,
+    "POSTs": 3,
+    "ENDs": 3,
+    "stop_DONE_complete": 3,
+    "length": 0,
+    "transport_retries": 0
+  },
+  "calls": [
+    {
+      "role": "store",
+      "max_tokens": 6000,
+      "source_message_UTF8_bytes": 216343,
+      "POST_BEGIN_UTC": "2026-11-01T20:33:31.286027+00:00",
+      "END_UTC": "2026-11-01T20:34:02.393674+00:00",
+      "headers_seconds": 15.922727700002724,
+      "valid_content_TTFT_seconds": 15.924327499997162,
+      "reported_request_elapsed_seconds": 31.10771869999735,
+      "reported_usage": {
+        "prompt_tokens": 45507,
+        "completion_tokens": 1718,
+        "total_tokens": 47225
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "root",
+      "max_tokens": 4000,
+      "source_message_UTF8_bytes": 216343,
+      "POST_BEGIN_UTC": "2026-11-01T20:33:31.285384+00:00",
+      "END_UTC": "2026-11-01T20:33:57.612947+00:00",
+      "headers_seconds": 12.25523979999707,
+      "valid_content_TTFT_seconds": 12.256871699995827,
+      "reported_request_elapsed_seconds": 26.327511899995443,
+      "reported_usage": {
+        "prompt_tokens": 45469,
+        "completion_tokens": 1014,
+        "total_tokens": 46483
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "audit",
+      "max_tokens": 4000,
+      "source_message_UTF8_bytes": 216343,
+      "POST_BEGIN_UTC": "2026-11-01T20:33:31.296204+00:00",
+      "END_UTC": "2026-11-01T20:33:57.734687+00:00",
+      "headers_seconds": 17.46533510000154,
+      "valid_content_TTFT_seconds": 17.466551599995,
+      "reported_request_elapsed_seconds": 26.438543199998094,
+      "reported_usage": {
+        "prompt_tokens": 45505,
+        "completion_tokens": 864,
+        "total_tokens": 46369
+      },
+      "cached_tokens": null
+    }
+  ],
+  "adoption": {
+    "store": "Two executable hunks adopted raw; owner corrected one Javadoc from qualification wording to immediate DATA only.",
+    "outer_consumer": "Two executable hunks adopted raw, no owner code changes.",
+    "independent_replay": "Forward and inverse applications verified; selected-source difference is confined to that one Javadoc, no executable owner correction.",
+    "whole_safety_audit": "Rejected: confused independent baselines and fresh/material types, omitted one baseline getter/comparison. Only negative-fixture/API-hygiene observations retained. It reviewed old source plus prospective contract, not generated candidates; no claim of independent candidate approval.",
+    "owner_source_review": "Full diff and evaluation/exception order checked independently, including pure-success guard splitting. No semantic correction wave requested."
+  },
+  "source_effect_and_costs": [
+    "On the successful retained path reaching the outer comparison, the same fresh old-saved driver encoding changes from two encodes to one. Both distinct baseline byte comparisons and original actual reads/hash/pin/head/physical/proof/scope checks remain.",
+    "Private constructor owns the same fresh array, with no byte-array getter or extra clone. Actual consumers keep the result in one scope-local call; it is DATA, not a current/source permission or a new-world driver.",
+    "One immediate result object is added on successful store validation, including old-ABI delegation. The encoded array survives until the outer comparison. Allocation/lifetime/RAM and monitor costs are not measured.",
+    "Original ABI delegates through complete validation. Current-only paths and the prior fixed-side lazy getter remain unchanged; no field/global/cross-call cache."
+  ],
+  "first_joint_strict": {
+    "begin_UTC": "2026-11-01T20:39:27.626802+00:00",
+    "end_UTC": "2026-11-01T20:39:29.725872+00:00",
+    "seconds": 2.0986602999983006,
+    "exit_code": 0,
+    "changed_TUs": 2,
+    "stdout_bytes": 0,
+    "stderr_bytes": 0,
+    "tests_RUN_or_old_suite": 0,
+    "limit": "Checks the new nominal result API and its consumer compile together; does not exercise private authority, lifetime/order or synchronization behavior."
+  },
+  "formal_source_publication": {
+    "commit": "5a4d5bf9c1becd35da54ba67770cf3f788718493",
+    "observed_UTC": "2026-11-01T20:43:40.977382+00:00",
+    "owner_normal_push_remote_exact_clean": true,
+    "both_formal_blobs_independently_match_selected_bytes": true,
+    "atomic_API_and_consumer_unit": true,
+    "new_compile_or_RUN_for_publication": 0,
+    "limit": "Formal source only, no application/runtime loading or live authorization."
+  },
+  "clock_accounting": {
+    "HTTP_interval_union_seconds": 31.10829,
+    "client_peak": 3,
+    "peak_windows": [
+      {
+        "begin_UTC": "2026-11-01T20:33:31.296204+00:00",
+        "end_UTC": "2026-11-01T20:33:57.612947+00:00",
+        "seconds": 26.316743
+      }
+    ],
+    "reported_request_elapsed_sum_seconds": 83.87377379999089,
+    "active_owner_preparation_seconds": null,
+    "active_owner_review_seconds": null,
+    "net_owner_saving_seconds": null,
+    "limit": "Parallel request interval union, per-request elapsed sum and first-compile duration are different clocks, not continuous owner labor or an end-to-end task total."
+  },
+  "not_proven": [
+    "Legal private positive fixture or runtime failure/order/lifetime/interleaving behavior",
+    "New-world driver or any current/source permission",
+    "Application/runtime adoption, startup/day latency, I/O reduction or net CPU/RAM benefit",
+    "Separate public immutability tests do not validate this transfer and are not counted again",
+    "OpenCode-mode capability"
+  ],
+  "permissions": "OFFLINE_ONLY; no live process/Game/Native query, UI, recording, deployment, recovery or launch.",
+  "record_creation_new_requests_tests_or_business_actions": 0,
+  "next_real_trigger": "Only if independently required and authorized, append legitimate private positive/order/lifetime behavior evidence for these exact two formally published leaves. Keep source-level encode counts separate from measured benefit; do not reopen closed model calls."
+}
