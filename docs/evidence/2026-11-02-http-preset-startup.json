@@ -1,0 +1,205 @@
+{
+  "schema" : "local-model-operations.capability-case/v1",
+  "case_id" : "HTTP-PRESET-001",
+  "mode_id" : "http-candidate",
+  "machine_id" : "desktop-3fevhd2-1c74096080",
+  "observation_date_utc" : "2026-11-01",
+  "platform" : "Windows/shared Python caller",
+  "model_alias" : "qwen38-coder",
+  "original_shared_caller_commit" : "865161d5de1b6b35e63b35a5c3630350844c4842",
+  "draft_shared_caller_commit" : "c652acd43805d6b0df333238278cc9ea870a485d",
+  "weight_backend_identity" : null,
+  "calls" : [ {
+    "task" : "doctrine-diagnosis-a01",
+    "started_at_utc" : "2026-11-01T19:47:59.724199+00:00",
+    "first_content_ms" : 8977.704300079495,
+    "total_http_ms" : 35310.14290032908,
+    "prompt_tokens" : 31128,
+    "completion_tokens" : 1265,
+    "cached_tokens" : null,
+    "finish_reason" : "stop",
+    "sse_done" : true,
+    "post_count" : 1,
+    "adoption" : "PARTIAL_ANALYSIS_ONLY",
+    "production_source_adopted" : false
+  }, {
+    "task" : "gui-acceptance-plan-a01",
+    "started_at_utc" : "2026-11-01T19:47:59.730292+00:00",
+    "first_content_ms" : 21361.35679995641,
+    "total_http_ms" : 41809.22480020672,
+    "prompt_tokens" : 79244,
+    "completion_tokens" : 2477,
+    "cached_tokens" : null,
+    "finish_reason" : "stop",
+    "sse_done" : true,
+    "post_count" : 1,
+    "adoption" : "PARTIAL_CHECKLIST_PENDING_SOURCE_REVIEW",
+    "production_source_adopted" : false
+  }, {
+    "task" : "java-review-a01",
+    "started_at_utc" : "2026-11-01T19:47:59.746420+00:00",
+    "first_content_ms" : 16027.78819995001,
+    "total_http_ms" : 35224.878900218755,
+    "prompt_tokens" : 36540,
+    "completion_tokens" : 1260,
+    "cached_tokens" : null,
+    "finish_reason" : "stop",
+    "sse_done" : true,
+    "post_count" : 1,
+    "adoption" : "REJECT_FINDINGS",
+    "production_source_adopted" : false
+  }, {
+    "task" : "ordinary-case-a01",
+    "started_at_utc" : "2026-11-01T19:51:08.691990+00:00",
+    "first_content_ms" : 2832.131499890238,
+    "total_http_ms" : 30365.003500133753,
+    "prompt_tokens" : 21047,
+    "completion_tokens" : 4902,
+    "cached_tokens" : null,
+    "finish_reason" : "stop",
+    "sse_done" : true,
+    "post_count" : 1,
+    "adoption" : "PARTIAL_OWNER_CORRECTED_PUBLIC_PREPARE_PLAN_PREFLIGHT_VERIFIED",
+    "production_source_adopted" : false
+  } ],
+  "concurrency" : {
+    "client_peak" : 3,
+    "peak_duration_seconds" : 35.225413,
+    "layout" : "First three overlap; the fourth starts later. Peak duration is not total task wall-clock or sustained twelve.",
+    "server_running" : null,
+    "server_waiting" : null,
+    "sustained_twelve" : null
+  },
+  "owner_costs" : {
+    "preparation_person_seconds" : null,
+    "review_person_seconds" : null,
+    "correction_person_seconds" : null,
+    "test_person_seconds" : null,
+    "coordination_person_seconds" : null,
+    "publishing_person_seconds" : null,
+    "net_time_saved_seconds" : null
+  },
+  "validation_as_of_utc" : "2026-11-01T20:15:38Z",
+  "software_validation" : "Two ordinary prepare, two final plan and two final preflight originals all exit 0 without timeout after owner correction; earlier preflight exit 2 preserved. These are preparation checks, not Game execution.",
+  "game_pass_from_this_evidence" : false,
+  "whole_product_pass_from_this_evidence" : false,
+  "documentation_drafting" : [ {
+    "task" : "http-preset-four-call-record-20261102-a01",
+    "output_budget" : 4200,
+    "finish_reason" : "length",
+    "first_content_ms" : 4656.0186999849975,
+    "total_http_ms" : 28861.03759985417,
+    "completion_tokens" : 4200,
+    "cached_tokens" : null,
+    "adoption" : "LENGTH_DISCARDED_WITHOUT_SEMANTIC_REVIEW",
+    "begin_at_utc" : "2026-11-01T21:15:28.055809+00:00",
+    "end_at_utc" : "2026-11-01T21:15:56.917388+00:00"
+  }, {
+    "task" : "http-preset-four-call-record-20261102-a02",
+    "output_budget" : 8000,
+    "finish_reason" : "stop",
+    "first_content_ms" : 1012.7278999425471,
+    "total_http_ms" : 6093.669999856502,
+    "completion_tokens" : 771,
+    "cached_tokens" : null,
+    "adoption" : "PARTIAL_STRUCTURE_ONLY_OWNER_REWROTE_FACTS_ADOPTION_AND_METRICS",
+    "begin_at_utc" : "2026-11-01T21:16:25.278843+00:00",
+    "end_at_utc" : "2026-11-01T21:16:31.372955+00:00"
+  } ],
+  "draft_input_boundary" : "Record drafting received actual outputs, transport receipts and existing owner corrections, not a prewritten expected case. It is not an independent discovery of the original bugs.",
+  "draft_owner_corrections" : "Corrected peak-duration/whole-wallclock confusion, four-parallel claim, partial-analysis marked full rejection, omitted per-call metrics; retained only summary organization and rebuilt facts from original receipts.",
+  "local_evidence" : [ {
+    "source" : "doctrine-diagnosis-a01/ATTEMPT1-RESULT.json",
+    "bytes" : 848,
+    "sha256" : "aa01f59ed60c7733bfa11868b0abc9fa72832176b8325372f9ac7ed2e10c8e17"
+  }, {
+    "source" : "doctrine-diagnosis-a01/ATTEMPT1-CONTENT.txt",
+    "bytes" : 5109,
+    "sha256" : "db6c700479a8e884a64ed78b49628299c3f163b4d4647f18a8284f734e78277a"
+  }, {
+    "source" : "doctrine-diagnosis-a01/EVENTS.jsonl",
+    "bytes" : 2087,
+    "sha256" : "ffd6f7b71e46f9d343e1fbfb4543134f9d2bbfe18f9eec8b9f418b246bd8fb8a"
+  }, {
+    "source" : "gui-acceptance-plan-a01/ATTEMPT1-RESULT.json",
+    "bytes" : 850,
+    "sha256" : "4935e17adaae216f13aaddeac2017f274c51afeddbe80262feac56bac88736a8"
+  }, {
+    "source" : "gui-acceptance-plan-a01/ATTEMPT1-CONTENT.txt",
+    "bytes" : 9818,
+    "sha256" : "f0cbbc19ba9bdc60ec2a38e0d1aebc535c9bdacb829ce29d4642741ba113b160"
+  }, {
+    "source" : "gui-acceptance-plan-a01/EVENTS.jsonl",
+    "bytes" : 2095,
+    "sha256" : "152c0d24d0d51222d2c2b83d5b702c0f1b38212ec86d19e41d234a1cc9b1f3e9"
+  }, {
+    "source" : "java-review-a01/ATTEMPT1-RESULT.json",
+    "bytes" : 843,
+    "sha256" : "a78f87890d52dde1ac3a8e40d56dda0eb7580ccc53b4363a5828e2850923001b"
+  }, {
+    "source" : "java-review-a01/ATTEMPT1-CONTENT.txt",
+    "bytes" : 4813,
+    "sha256" : "62a12b6558851761424945a69f9d1568cdde444a3e5a9acaa34f00937b111128"
+  }, {
+    "source" : "java-review-a01/EVENTS.jsonl",
+    "bytes" : 2048,
+    "sha256" : "82197c65c63c3088c8fdd5342f2ebe1108143bd71906283e1b3d8f04686db787"
+  }, {
+    "source" : "ordinary-case-a01/ATTEMPT1-RESULT.json",
+    "bytes" : 845,
+    "sha256" : "9ebf2312158300a5b066ef3859ad09c40585170ecde33f16007e8b3ce5d348f1"
+  }, {
+    "source" : "ordinary-case-a01/ATTEMPT1-CONTENT.txt",
+    "bytes" : 17517,
+    "sha256" : "6b59f5c92266e78f8ad7b1e395e05e81a9de807c6c3ac86a082e4b1168bcab58"
+  }, {
+    "source" : "ordinary-case-a01/EVENTS.jsonl",
+    "bytes" : 2112,
+    "sha256" : "40f4fd731ee842887b0522499e04595234efc8c5961c11cc98707f2a75b4af09"
+  }, {
+    "source" : "LOCAL-MODEL-FOUR-CALLS-a01.actual.json",
+    "bytes" : 1841,
+    "sha256" : "ad0b68003e4688132e08e654cf4348b0a37477d8d27e13114b2c63a1f2bd2d99"
+  }, {
+    "source" : "LOCAL-MODEL-REVIEW-a01.actual.json",
+    "bytes" : 2448,
+    "sha256" : "8980bf31b34ab623c166ed76de668084fdfb6bec308a688de362e1c972a2bcd5"
+  }, {
+    "source" : "ordinary-case-a01/MODEL-REVIEW-a03.actual.json",
+    "bytes" : 13996,
+    "sha256" : "1000ea8ad7d5ca2775c73cf1c1433958654688cdac8fccf6437555c1dc29b120"
+  }, {
+    "source" : "record-draft/call/ATTEMPT1-RESULT.json",
+    "bytes" : 855,
+    "sha256" : "52a98720fe43c170f78852cf433437d3911fce0ceee7e8383113b15b01b07437"
+  }, {
+    "source" : "record-draft/call/ATTEMPT1-CONTENT.txt",
+    "bytes" : 13468,
+    "sha256" : "a1d2a468b034dbc05fed49f49303737f728db072fdbcbf19a5c30ab2a22edc03"
+  }, {
+    "source" : "record-draft/call/EVENTS.jsonl",
+    "bytes" : 2160,
+    "sha256" : "510b04e239225886d3b56ad7927e56b550ea1a72c1da37baa8fb245f77ee8264"
+  }, {
+    "source" : "record-draft/call/REQUEST.json",
+    "bytes" : 120608,
+    "sha256" : "538f63334fb7a2908749cea8ef4c302a2dc5f800dda994000d4d76c85487dc2c"
+  }, {
+    "source" : "record-draft/call-v2/ATTEMPT1-RESULT.json",
+    "bytes" : 838,
+    "sha256" : "ab2d11687b2c8c6ab8a244faa4a707bdf109a750809f481de3379b6703463ed1"
+  }, {
+    "source" : "record-draft/call-v2/ATTEMPT1-CONTENT.txt",
+    "bytes" : 2629,
+    "sha256" : "28b13753dc34581ccff0c2c6a701b69404baf16c7cad143238b76867737a1c20"
+  }, {
+    "source" : "record-draft/call-v2/EVENTS.jsonl",
+    "bytes" : 2148,
+    "sha256" : "840b43cf8d58019e161d08c1250389cc0d3e0cfccf58e3e63ad36bf640b84db9"
+  }, {
+    "source" : "record-draft/call-v2/REQUEST.json",
+    "bytes" : 120506,
+    "sha256" : "e8e1f9c558ae18171cc064b0cde4e2c8c1ef78519449734b04d382038745aa96"
+  } ],
+  "next_natural_trigger" : "Append naturally required later business observations or a new unfinished task; do not replay these four completed requests or rerun green checks to improve statistics."
+}
