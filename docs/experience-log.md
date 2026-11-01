@@ -74,3 +74,9 @@
 离线迁移验证后，新调用器在 Windows / Python3.13.2 对当前指定服务和 `qwen38-coder` 完成一次尚未闭合业务的源码审阅请求，没有为验证补发探针。实际为 `system / user / user` 三消息、`max_tokens=5500`、temperature0、thinking false、JSON输出和带usage的SSE；07:10:20.612664→07:10:39.052066 UTC，一次attempt得到HTTP200、stop和完整SSE终态。响应头9.288958秒、首有效内容9.290448秒、总耗时18.438819秒分别保留；reported prompt70,998 / completion1,347 / total72,345，cached为null。
 
 本项只证明当前调用器在这一环境与参数下完成一次真实服务交换，不证明所有平台或server、最大上下文、缓存效果、通用工具闭环或业务答复正确性。源码审阅及采用仍由业务owner独立判断。公开的[2,211字节脱敏摘要](evidence/2026-11-01-windows-service-call.json)已核实际REQUEST参数、角色和终态标量；未上传原始源码、任务、答复、机器身份或私有路径。摘要哈希见[来源说明](source-origins.md)，原15项离线mock记录不回填。
+
+## 2026-11-01：调用器边界与 OpenCode 接入预研
+
+Windows / Python3.13.2 的补充 mock 表明，本地 SSE 原件写入的 `PermissionError` 会触发最多六次 POST；完整 stop / DONE 后仍等待 HTTP 尾部，也可能使候选因读取超时失败。前者应将本地 IO 与网络错误分离，后者应明确应用层终止合同。JSON 可解析、字段合同合格和语义可用继续分别判断；这些是已观察缺口，本次预研没有修改生产调用器。[报告与优化顺序](local-model-framework-research-2026-11-01.md#调用器边界验证)保留触发条件和来源范围。
+
+当前指定端点在08:33:58 UTC 对一项三消息预研源码审阅的 `tool_choice=auto` 返回HTTP400，明确要求auto tool choice与tool parser，未重试或fallback。OpenCode1.18.31在本地mock完成只读工具循环；该自定义模型需声明 `temperature=true` 才实际发送配置的temperature0。read之后的一次503恢复只重发模型请求，read未再次完成，但不授其它工具动作幂等性。真实模型的原生工具循环和收益仍待验证。[脱敏摘要](evidence/2026-11-01-framework-research.json)区分真实服务、协议mock和前序终端结果，详情见[预研报告](local-model-framework-research-2026-11-01.md)。

@@ -1,0 +1,479 @@
+{
+  "schema": "local-model-operations.framework-research/v1",
+  "sealed_at_utc": "2026-11-01T08:41:19.902306+00:00",
+  "base_revision": "43d297ca930f7f9e4c9a144a46ab5b2d2e12fca8",
+  "scope": "Caller characterization and OpenCode client integration research; no production implementation change.",
+  "environment": {
+    "os": "Windows",
+    "python": "3.13.2",
+    "opencode": "1.18.31"
+  },
+  "sources": {
+    "scripts/call.py": {
+      "git_blob_sha256": "487f9f90198eb6f40c6bb1df44b891e5ce1e8af47f1845a675bce33158f88b00",
+      "git_blob_bytes": 15223,
+      "working_file_sha256": "c9b15e6995a4801a3c9bfaf891f54cc2959e8d81059213bfe867f2c88d2ef8f0",
+      "working_file_bytes": 15514
+    },
+    "config/executor.json": {
+      "git_blob_sha256": "39442415beab35c723894606947548f81a8e189b44d826267b2d786650d657a4",
+      "git_blob_bytes": 1384,
+      "working_file_sha256": "832b2fe5b4e9cb935f5d7f74d4b2a4cad12294e7285919dbafeb9f259697ca76",
+      "working_file_bytes": 1414
+    },
+    "tests/test_call.py": {
+      "git_blob_sha256": "9548c2e996adb0016d8fbc32c8119d818d98bda8ab1c459c570d8b99192a232a",
+      "git_blob_bytes": 15489,
+      "working_file_sha256": "ef2b72d4b56514e4b5c705b17b9004fcd44380038dad487eb44a946599fcd048",
+      "working_file_bytes": 15788
+    }
+  },
+  "baseline_tests": {
+    "source": "Earlier review in the same conversation; unchanged source and tests; not rerun for this document.",
+    "command": "python -X utf8 -m unittest discover -s tests -v",
+    "tests": 15,
+    "passed": 15,
+    "failed": 0
+  },
+  "earlier_characterization": {
+    "provenance": "Same-conversation console results; temporary fixture directories were cleaned, not archived as raw HTTP evidence.",
+    "json_candidates": [
+      {
+        "content": "null",
+        "exit_code": 0,
+        "success": true,
+        "post_count": 1
+      },
+      {
+        "content": "[]",
+        "exit_code": 0,
+        "success": true,
+        "post_count": 1
+      },
+      {
+        "content": "{\"completeJava\":\"completeJava\"}",
+        "exit_code": 0,
+        "success": true,
+        "post_count": 1
+      }
+    ],
+    "local_raw_evidence_permission_error": {
+      "post_count": 6,
+      "attempt_count": 6,
+      "exit_code": 1,
+      "failure_type": "PermissionError",
+      "injection": "Only ATTEMPTn-RESPONSE.sse open failed; other evidence writes succeeded."
+    },
+    "unknown_spec_parameter": {
+      "parameter": "frequency_penalty",
+      "value": 0.3,
+      "forwarded": false,
+      "post_count": 0
+    }
+  },
+  "additional_caller_checks": [
+    {
+      "case": "nonstandard-json-nan",
+      "exit_code": 0,
+      "post_count": 1,
+      "candidate_complete": true,
+      "failure": null
+    },
+    {
+      "case": "explicit-text-format",
+      "exit_code": 1,
+      "post_count": 1,
+      "candidate_complete": false,
+      "failure": "invalid_candidate_json: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "case": "done-before-http-eof",
+      "exit_code": 1,
+      "post_count": 1,
+      "sse_done": true,
+      "finish_reason": "stop",
+      "failure": "TimeoutError('timed out')",
+      "total_ms": 55.60790002346039
+    }
+  ],
+  "opencode_mock": {
+    "scope": "All model POSTs in these cases targeted a loopback mock. Read tool results came from a generated fixture; no real LLM reasoning was tested.",
+    "controls": {
+      "primary_agent_steps": 2,
+      "model_output_limit": 512,
+      "declared_mock_context": 32768,
+      "provider_allowlist": [
+        "research-mock"
+      ],
+      "primary_and_small_model_same": true,
+      "cli_title_explicit": true,
+      "pure": true,
+      "share": "disabled",
+      "snapshot": false,
+      "permissions": {
+        "*": "deny",
+        "read": "allow"
+      }
+    },
+    "missing_temperature_capability": {
+      "exit_code": 0,
+      "wall_seconds": 5.0171745996922255,
+      "get_paths": [],
+      "post_count": 2,
+      "requests": [
+        {
+          "path": "/v1/chat/completions",
+          "roles": [
+            "system",
+            "user"
+          ],
+          "tool_names": [
+            "read"
+          ],
+          "tool_choice": "auto",
+          "body_keys": [
+            "chat_template_kwargs",
+            "max_tokens",
+            "messages",
+            "model",
+            "stream",
+            "stream_options",
+            "tool_choice",
+            "tools"
+          ],
+          "temperature": null,
+          "max_tokens": 512,
+          "max_completion_tokens": null,
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "stream_options": {
+            "include_usage": true
+          }
+        },
+        {
+          "path": "/v1/chat/completions",
+          "roles": [
+            "system",
+            "user",
+            "assistant",
+            "tool",
+            "assistant"
+          ],
+          "tool_names": [
+            "read"
+          ],
+          "tool_choice": "auto",
+          "body_keys": [
+            "chat_template_kwargs",
+            "max_tokens",
+            "messages",
+            "model",
+            "stream",
+            "stream_options",
+            "tool_choice",
+            "tools"
+          ],
+          "temperature": null,
+          "max_tokens": 512,
+          "max_completion_tokens": null,
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "stream_options": {
+            "include_usage": true
+          }
+        }
+      ],
+      "tool_states": [
+        {
+          "tool": "read",
+          "status": "completed"
+        }
+      ]
+    },
+    "explicit_temperature_capability": {
+      "exit_code": 0,
+      "wall_seconds": 5.177337099798024,
+      "get_paths": [],
+      "post_count": 2,
+      "requests": [
+        {
+          "path": "/v1/chat/completions",
+          "roles": [
+            "system",
+            "user"
+          ],
+          "tool_names": [
+            "read"
+          ],
+          "tool_choice": "auto",
+          "body_keys": [
+            "chat_template_kwargs",
+            "max_tokens",
+            "messages",
+            "model",
+            "stream",
+            "stream_options",
+            "temperature",
+            "tool_choice",
+            "tools"
+          ],
+          "temperature": 0,
+          "max_tokens": 512,
+          "max_completion_tokens": null,
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "stream_options": {
+            "include_usage": true
+          }
+        },
+        {
+          "path": "/v1/chat/completions",
+          "roles": [
+            "system",
+            "user",
+            "assistant",
+            "tool",
+            "assistant"
+          ],
+          "tool_names": [
+            "read"
+          ],
+          "tool_choice": "auto",
+          "body_keys": [
+            "chat_template_kwargs",
+            "max_tokens",
+            "messages",
+            "model",
+            "stream",
+            "stream_options",
+            "temperature",
+            "tool_choice",
+            "tools"
+          ],
+          "temperature": 0,
+          "max_tokens": 512,
+          "max_completion_tokens": null,
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "stream_options": {
+            "include_usage": true
+          }
+        }
+      ],
+      "explicit_temperature_capability": true,
+      "tool_states": [
+        {
+          "tool": "read",
+          "status": "completed"
+        }
+      ]
+    },
+    "503_after_read": {
+      "exit_code": 0,
+      "wall_seconds": 5.659412399865687,
+      "get_paths": [],
+      "post_count": 3,
+      "requests": [
+        {
+          "path": "/v1/chat/completions",
+          "roles": [
+            "system",
+            "user"
+          ],
+          "tool_names": [
+            "read"
+          ],
+          "tool_choice": "auto",
+          "body_keys": [
+            "chat_template_kwargs",
+            "max_tokens",
+            "messages",
+            "model",
+            "stream",
+            "stream_options",
+            "temperature",
+            "tool_choice",
+            "tools"
+          ],
+          "temperature": 0,
+          "max_tokens": 512,
+          "max_completion_tokens": null,
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "stream_options": {
+            "include_usage": true
+          }
+        },
+        {
+          "path": "/v1/chat/completions",
+          "roles": [
+            "system",
+            "user",
+            "assistant",
+            "tool",
+            "assistant"
+          ],
+          "tool_names": [
+            "read"
+          ],
+          "tool_choice": "auto",
+          "body_keys": [
+            "chat_template_kwargs",
+            "max_tokens",
+            "messages",
+            "model",
+            "stream",
+            "stream_options",
+            "temperature",
+            "tool_choice",
+            "tools"
+          ],
+          "temperature": 0,
+          "max_tokens": 512,
+          "max_completion_tokens": null,
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "stream_options": {
+            "include_usage": true
+          }
+        },
+        {
+          "path": "/v1/chat/completions",
+          "roles": [
+            "system",
+            "user",
+            "assistant",
+            "tool",
+            "assistant"
+          ],
+          "tool_names": [
+            "read"
+          ],
+          "tool_choice": "auto",
+          "body_keys": [
+            "chat_template_kwargs",
+            "max_tokens",
+            "messages",
+            "model",
+            "stream",
+            "stream_options",
+            "temperature",
+            "tool_choice",
+            "tools"
+          ],
+          "temperature": 0,
+          "max_tokens": 512,
+          "max_completion_tokens": null,
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "stream_options": {
+            "include_usage": true
+          }
+        }
+      ],
+      "injected_503_request_numbers": [
+        2
+      ],
+      "retry_bodies_equal": true,
+      "explicit_temperature_capability": true,
+      "tool_states": [
+        {
+          "tool": "read",
+          "status": "completed"
+        }
+      ]
+    }
+  },
+  "current_service": {
+    "base_url": "http://192.168.1.11:8080/v1",
+    "model": "qwen38-coder",
+    "models_get": {
+      "at_utc": "2026-11-01T08:31:50.035437+00:00",
+      "http_status": 200,
+      "selected_model": {
+        "id": "qwen38-coder",
+        "object": "model",
+        "owned_by": "vllm",
+        "max_model_len": 1048576
+      },
+      "meaning": "Server-declared metadata, not verified weights, capacity, or native tool capability."
+    },
+    "health_get": {
+      "at_utc": "2026-11-01T08:33:58.563339+00:00",
+      "path": "/health",
+      "http_status": 200,
+      "response_bytes": 0
+    },
+    "get_accounting": {
+      "models": 1,
+      "health": 2,
+      "note": "First health GET succeeded but the owner helper incorrectly attempted JSON parsing on the empty body; the health-only correction GET records status and byte count."
+    },
+    "source_review_post": {
+      "purpose": "An unfinished source review for the framework report covering full request n, response_format, and max_tokens handling.",
+      "caller": "scripts/call.py",
+      "logical_tasks": 1,
+      "attempts": 1,
+      "request_bytes": 35552,
+      "request_sha256": "118e3b702beb74cf32e9cfce20a49073fa33919d4d2fc6d544f06434a6191057",
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 1800,
+      "temperature": 0,
+      "response_format": {
+        "type": "json_object"
+      },
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "tool_choice": "auto",
+      "tool_count": 1,
+      "tool_scope": "One optional read-only research-reference function; no function executed.",
+      "POST_BEGIN_utc": "2026-11-01T08:33:58.595248+00:00",
+      "ATTEMPT_END_utc": "2026-11-01T08:33:58.694506+00:00",
+      "client_peak_inflight_for_this_live_post_scope": 1,
+      "client_peak_duration_seconds": 0.099258,
+      "result": {
+        "exit_code": 1,
+        "attempts": [
+          {
+            "attempt": 1,
+            "started_at_utc": "2026-11-01T08:33:58.595208+00:00",
+            "http_status": 400,
+            "total_ms": 98.65189995616674,
+            "finish_reason": null,
+            "sse_done": false,
+            "failure": "<HTTPError 400: 'Bad Request'>",
+            "usage": null,
+            "first_nonempty_content_delta_ms": null,
+            "cached_prompt_tokens_if_reported": null
+          }
+        ],
+        "http_error_body": "{\"is_bifrost_error\":false,\"status_code\":400,\"error\":{\"type\":\"BadRequestError\",\"code\":\"400\",\"message\":\"\\\"auto\\\" tool choice requires --enable-auto-tool-choice and --tool-call-parser to be set\"}}\n"
+      },
+      "adoption": "No generated candidate or model source adoption. HTTP 400 was not retried or sent to a fallback."
+    }
+  },
+  "private_evidence": {
+    "retained": "New experiment helper and summaries; OpenCode mock wire bodies and CLI events; actual service REQUEST, BEGIN/END, HTTP error, and attempt summary.",
+    "helper_sha256": "c8bd9b42bf6727de294718b518d08ab352fb519c6cefb55dab73a9c8eb45ad07",
+    "excluded": "Raw prompts/responses, CLI global state, credentials, private paths, machine identity, and fixture file contents.",
+    "public_scope": "Reviewed scalar and protocol-shape projection only."
+  },
+  "unverified": [
+    "Native OpenCode tool loop against the real service",
+    "Aider executable compatibility and generated patches",
+    "Six-attempt retry parity, partial-stream recovery, and business-action idempotency in OpenCode",
+    "Model quality, end-to-end owner time savings, throughput, cache hit rate, maximum context, and sustained concurrency"
+  ]
+}
