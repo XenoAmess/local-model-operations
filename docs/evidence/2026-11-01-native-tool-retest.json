@@ -1,0 +1,471 @@
+{
+  "schema": "local-model-operations.native-tool-retest/v1",
+  "sealed_at_utc": "2026-11-01T11:29:35.964020+00:00",
+  "base_revision": "5f5acc2b9aba9cd48e213873fe3ceccbb7dae605",
+  "environment": {
+    "os": "Windows",
+    "python": "3.13.2",
+    "opencode": "1.18.31"
+  },
+  "authorization": "User explicitly requested a native-tool retest after service fixes. Assistant/tool follow-ups are confined to this retest; production prompting and configuration were not changed.",
+  "service": {
+    "base_url": "http://192.168.1.11:8080/v1",
+    "model": "qwen38-coder",
+    "models_get": {
+      "at_utc": "2026-11-01T11:20:26.536925+00:00",
+      "http_status": 200,
+      "response_bytes": 1201
+    },
+    "declared_model": {
+      "id": "qwen38-coder",
+      "owned_by": "vllm",
+      "max_model_len": 1048576
+    },
+    "health_get": {
+      "path": "/health",
+      "at_utc": "2026-11-01T11:20:26.582515+00:00",
+      "http_status": 200,
+      "response_bytes": 0
+    },
+    "get_count": 2,
+    "metadata_scope": "Server declaration only; no weights/build verification or capacity test."
+  },
+  "requests": [
+    {
+      "case": "native-json-object",
+      "step": 1,
+      "request_sha256": "fd91e2316826e8d5e36317351caa34b7185d86b0ec16662649de06b7b15ff03d",
+      "request_bytes": 36130,
+      "POST_BEGIN_utc": "2026-11-01T11:22:50.477410+00:00",
+      "ATTEMPT_END_utc": "2026-11-01T11:22:53.763239+00:00",
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "max_tokens": 1600,
+      "temperature": 0,
+      "response_format": {
+        "type": "json_object"
+      },
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "tool_choice": "auto",
+      "stream_options": {
+        "include_usage": true
+      },
+      "http_status": 200,
+      "headers_ms": 1449.7485000001689,
+      "total_ms": 3284.639100000277,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 8315,
+        "completion_tokens": 277,
+        "total_tokens": 8592
+      },
+      "content_ttft_ms": 1450.4336999998486,
+      "first_tool_delta_ms": null,
+      "cached_tokens": null,
+      "tool_call_count": 0,
+      "failure": null
+    },
+    {
+      "case": "native-auto",
+      "step": 1,
+      "request_sha256": "cc4f3be5b9ce0ecdd6fc22b83c485c7bb42dbb64bbfbd4475666e3b3815409ea",
+      "request_bytes": 36358,
+      "POST_BEGIN_utc": "2026-11-01T11:23:31.789782+00:00",
+      "ATTEMPT_END_utc": "2026-11-01T11:23:32.810807+00:00",
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "max_tokens": 1600,
+      "temperature": 0,
+      "response_format": null,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "tool_choice": "auto",
+      "stream_options": {
+        "include_usage": true
+      },
+      "http_status": 200,
+      "headers_ms": 911.1130999999659,
+      "total_ms": 1020.3955999995742,
+      "finish_reason": "tool_calls",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 8365,
+        "completion_tokens": 29,
+        "total_tokens": 8394
+      },
+      "content_ttft_ms": null,
+      "first_tool_delta_ms": 911.7804999996224,
+      "cached_tokens": null,
+      "tool_call_count": 1,
+      "failure": null
+    },
+    {
+      "case": "native-auto",
+      "step": 2,
+      "request_sha256": "ab27fcbda580bc8b93ea1055135e92862a6809b24b26765e38532cdce0724d89",
+      "request_bytes": 38601,
+      "POST_BEGIN_utc": "2026-11-01T11:23:32.812506+00:00",
+      "ATTEMPT_END_utc": "2026-11-01T11:23:33.858050+00:00",
+      "roles": [
+        "system",
+        "user",
+        "user",
+        "assistant",
+        "tool"
+      ],
+      "model": "qwen38-coder",
+      "max_tokens": 1600,
+      "temperature": 0,
+      "response_format": null,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "tool_choice": "auto",
+      "stream_options": {
+        "include_usage": true
+      },
+      "http_status": 200,
+      "headers_ms": 936.0500000002503,
+      "total_ms": 1044.8483999998643,
+      "finish_reason": "tool_calls",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 8957,
+        "completion_tokens": 29,
+        "total_tokens": 8986
+      },
+      "content_ttft_ms": null,
+      "first_tool_delta_ms": 936.8350000004284,
+      "cached_tokens": null,
+      "tool_call_count": 1,
+      "failure": null
+    },
+    {
+      "case": "native-auto",
+      "step": 3,
+      "request_sha256": "4532fad68b92c0751c049cdede5c75f0d040cee1a3efc7654510c96f835a8879",
+      "request_bytes": 57200,
+      "POST_BEGIN_utc": "2026-11-01T11:23:33.859786+00:00",
+      "ATTEMPT_END_utc": "2026-11-01T11:23:35.614015+00:00",
+      "roles": [
+        "system",
+        "user",
+        "user",
+        "assistant",
+        "tool",
+        "assistant",
+        "tool"
+      ],
+      "model": "qwen38-coder",
+      "max_tokens": 1600,
+      "temperature": 0,
+      "response_format": null,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "tool_choice": "auto",
+      "stream_options": {
+        "include_usage": true
+      },
+      "http_status": 200,
+      "headers_ms": 1644.9239000003217,
+      "total_ms": 1753.538099999787,
+      "finish_reason": "tool_calls",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 13085,
+        "completion_tokens": 29,
+        "total_tokens": 13114
+      },
+      "content_ttft_ms": null,
+      "first_tool_delta_ms": 1645.604700000149,
+      "cached_tokens": null,
+      "tool_call_count": 1,
+      "failure": null
+    },
+    {
+      "case": "native-bounded-final",
+      "step": 1,
+      "request_sha256": "e317f3d467ec198963541e00fe204fa79929f0293caa5a3d648fbab16aa2cff5",
+      "request_bytes": 57469,
+      "POST_BEGIN_utc": "2026-11-01T11:26:18.651361+00:00",
+      "ATTEMPT_END_utc": "2026-11-01T11:26:21.427548+00:00",
+      "roles": [
+        "system",
+        "user",
+        "user",
+        "assistant",
+        "tool",
+        "assistant",
+        "tool",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "max_tokens": 1600,
+      "temperature": 0,
+      "response_format": null,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "tool_choice": "none",
+      "stream_options": {
+        "include_usage": true
+      },
+      "http_status": 200,
+      "headers_ms": 695.5525000003036,
+      "total_ms": 2775.3817000002527,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 13132,
+        "completion_tokens": 320,
+        "total_tokens": 13452
+      },
+      "content_ttft_ms": 697.0800999997664,
+      "first_tool_delta_ms": null,
+      "cached_tokens": null,
+      "tool_call_count": 0,
+      "failure": null
+    },
+    {
+      "case": "opencode-live",
+      "step": 1,
+      "request_sha256": "81e713456fc9b36097773e13b602487a823d14de04f638efba8ad1e719373b56",
+      "request_bytes": 8356,
+      "POST_BEGIN_utc": "2026-11-01T11:26:21.495931+00:00",
+      "ATTEMPT_END_utc": "2026-11-01T11:26:22.714490+00:00",
+      "roles": [
+        "system",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "max_tokens": 1800,
+      "temperature": 0,
+      "response_format": null,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "tool_choice": "auto",
+      "stream_options": {
+        "include_usage": true
+      },
+      "http_status": 200,
+      "headers_ms": 514.0995000001567,
+      "total_ms": 1217.7521000003253,
+      "finish_reason": "tool_calls",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 2091,
+        "completion_tokens": 140,
+        "total_tokens": 2231
+      },
+      "content_ttft_ms": null,
+      "first_tool_delta_ms": 514.4847000001391,
+      "cached_tokens": null,
+      "tool_call_count": 2,
+      "failure": null
+    },
+    {
+      "case": "opencode-live",
+      "step": 2,
+      "request_sha256": "6a92cb577e2939d687c0aa2bffc00537ad73c5edacfec38fdfb747d901446888",
+      "request_bytes": 19665,
+      "POST_BEGIN_utc": "2026-11-01T11:26:22.760968+00:00",
+      "ATTEMPT_END_utc": "2026-11-01T11:26:26.119449+00:00",
+      "roles": [
+        "system",
+        "user",
+        "assistant",
+        "tool",
+        "tool"
+      ],
+      "model": "qwen38-coder",
+      "max_tokens": 1800,
+      "temperature": 0,
+      "response_format": null,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "tool_choice": "auto",
+      "stream_options": {
+        "include_usage": true
+      },
+      "http_status": 200,
+      "headers_ms": 787.7650999998878,
+      "total_ms": 3357.8035000000455,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 5037,
+        "completion_tokens": 383,
+        "total_tokens": 5420
+      },
+      "content_ttft_ms": 788.1366000001435,
+      "first_tool_delta_ms": null,
+      "cached_tokens": null,
+      "tool_call_count": 0,
+      "failure": null
+    }
+  ],
+  "outcomes": {
+    "json_object_auto": {
+      "outcome": "complete",
+      "tools_executed": [],
+      "owner_value_checks": {
+        "base_url": true,
+        "model": true,
+        "maximum_attempts": true,
+        "config_sha256": false
+      },
+      "has_native_roundtrip": false,
+      "production_source_modified": false,
+      "grade": "HTTP acceptance only. No native call; final digest rejected. Source-analysis prose is not an adoption or production result."
+    },
+    "auto_without_json_mode": {
+      "outcome": "round_limit",
+      "tools_executed": [
+        {
+          "tool": "read_repository_file",
+          "path": "config/executor.json",
+          "sha256": "832b2fe5b4e9cb935f5d7f74d4b2a4cad12294e7285919dbafeb9f259697ca76"
+        },
+        {
+          "tool": "read_repository_file",
+          "path": "scripts/call.py",
+          "sha256": "c9b15e6995a4801a3c9bfaf891f54cc2959e8d81059213bfe867f2c88d2ef8f0"
+        },
+        {
+          "tool": "read_repository_file",
+          "path": "scripts/call.py",
+          "sha256": "c9b15e6995a4801a3c9bfaf891f54cc2959e8d81059213bfe867f2c88d2ef8f0"
+        }
+      ],
+      "owner_value_checks": {},
+      "has_native_roundtrip": false,
+      "production_source_modified": false,
+      "distinct_paths_read": 2,
+      "repeated_reads": 1,
+      "grade": "Actual native tool deltas, validated arguments and tool result follow-ups. Three-round limit reached without a final answer; not a naturally completed agent run."
+    },
+    "bounded_finalization": {
+      "completed": true,
+      "owner_value_checks": {
+        "base_url": true,
+        "model": true,
+        "maximum_attempts": true,
+        "config_sha256": true
+      },
+      "new_tool_executions": 0,
+      "basis": "Branch from native-auto-step-3 request with the actual config and caller tool results; tool_choice=none plus finalization instruction.",
+      "parent_request_sha256": "4532fad68b92c0751c049cdede5c75f0d040cee1a3efc7654510c96f835a8879",
+      "analysis_review": {
+        "accepted": "Four requested scalar values match actual config and exact-byte tool metadata.",
+        "rejected_claims": [
+          "It says tool_calls-only output first fails candidate JSON parsing; actual non-stop finish branch runs before candidate JSON parsing.",
+          "It says request preparation never sends tools/tool_choice; the spec whitelist omits them, but full request objects pass these fields through."
+        ],
+        "code_adoption": 0
+      }
+    },
+    "opencode_live": {
+      "exit_code": 0,
+      "model_post_count": 2,
+      "tool_events": [
+        {
+          "tool": "read",
+          "status": "completed",
+          "path": "config/executor.json",
+          "error": null
+        },
+        {
+          "tool": "read",
+          "status": "completed",
+          "path": "docs/usage.md",
+          "error": null
+        }
+      ],
+      "text_event_count": 1,
+      "source_snapshots": {
+        "config/executor.json": {
+          "bytes": 1414,
+          "sha256": "832b2fe5b4e9cb935f5d7f74d4b2a4cad12294e7285919dbafeb9f259697ca76"
+        },
+        "docs/usage.md": {
+          "bytes": 8162,
+          "sha256": "4f793750919421ef3b2a6475d4828ff067b3e153a9d20e14b826c41aa1545988"
+        }
+      },
+      "relay_retries": 0,
+      "controls": {
+        "primary_and_small_model_same": true,
+        "steps": 3,
+        "output_tokens_per_request": 1800,
+        "declared_client_context": 32768,
+        "pure": true,
+        "share": "disabled",
+        "snapshot": false,
+        "provider_allowlist": [
+          "local-retest"
+        ],
+        "permissions": {
+          "*": "deny",
+          "read": "allow",
+          "external_directory": "deny"
+        }
+      },
+      "grade": "Actual model-produced native calls for two files, completed client read actions, subsequent tool messages and a stop final answer. Read-only integration passed; prose accepted only as partial reference.",
+      "analysis_review": "The answer needs owner clarification: historical parser rejection is not the current native-tool outcome, model call generation and client tool execution are different roles, and shared defaults are not universal immutable API requirements.",
+      "code_adoption": 0
+    }
+  },
+  "accounting": {
+    "logical_test_cases": 4,
+    "actual_model_posts": 7,
+    "transport_retries": 0,
+    "native_model_requested_tool_executions": 5,
+    "writes_or_commands_executed_by_model_tools": 0,
+    "automatic_fallbacks": 0,
+    "window_start_utc": "2026-11-01T11:22:50.477410+00:00",
+    "window_end_utc": "2026-11-01T11:26:26.119449+00:00",
+    "window_seconds": 215.642039,
+    "current_inflight_at_end": 0,
+    "client_peak_inflight": 1,
+    "peak_total_seconds": 14.459854,
+    "peak_longest_segment_seconds": 3.358481,
+    "window_average_inflight": 0.06705489368888781,
+    "server_running_waiting_kv_sampled": false,
+    "scope": "Only the seven recorded model POST intervals. Owner preparation, CLI startup, GETs and file reads are excluded."
+  },
+  "interpretation": {
+    "verified": [
+      "The previous auto-tool-choice HTTP 400 blocker no longer occurs in these current requests.",
+      "Native tool_calls deltas, valid arguments, actual read actions and tool-result consumption work in the recorded paths.",
+      "OpenCode completed a real two-file read-only tool loop and naturally stopped."
+    ],
+    "limits": [
+      "JSON mode was present in the initial no-tool case and absent in later successful tool cases; the corrective task also changed, so this is not a format-only controlled comparison.",
+      "A direct auto run repeated a read and exhausted its three-round budget; bounded finalization was a separate branch using actual prior results.",
+      "Generated analysis still contained errors and was not adopted wholesale.",
+      "No write/command tools, injected live failures, retry parity, sustained concurrency or production code adoption were validated.",
+      "The unchanged scripts/call.py remains a three-message candidate caller and does not implement native tool-result loops."
+    ]
+  },
+  "private_provenance": {
+    "retained": "Request bodies, raw SSE, BEGIN/END, tool actions, CLI events, file snapshots and final answers remain on the execution machine.",
+    "helper_sha256_at_sealing": "5a2071f67649a185c605ade36b75aba7f8fbaa3e4901349a331253afc1efb164",
+    "helper_hash_limit": "Observed at sealing after adding diagnostic branches, not a dispatch-time executable attestation.",
+    "public_exclusions": "Raw prompts/answers, file contents, absolute paths, server weight paths, machine/owner identity, headers and credentials."
+  }
+}

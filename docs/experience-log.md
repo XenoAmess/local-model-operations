@@ -87,4 +87,10 @@
 
 Windows / Python3.13.2 的补充 mock 表明，本地 SSE 原件写入的 `PermissionError` 会触发最多六次 POST；完整 stop / DONE 后仍等待 HTTP 尾部，也可能使候选因读取超时失败。前者应将本地 IO 与网络错误分离，后者应明确应用层终止合同。JSON 可解析、字段合同合格和语义可用继续分别判断；这些是已观察缺口，本次预研没有修改生产调用器。[报告与优化顺序](local-model-framework-research-2026-11-01.md#调用器边界验证)保留触发条件和来源范围。
 
-当前指定端点在08:33:58 UTC 对一项三消息预研源码审阅的 `tool_choice=auto` 返回HTTP400，明确要求auto tool choice与tool parser，未重试或fallback。OpenCode1.18.31在本地mock完成只读工具循环；该自定义模型需声明 `temperature=true` 才实际发送配置的temperature0。read之后的一次503恢复只重发模型请求，read未再次完成，但不授其它工具动作幂等性。真实模型的原生工具循环和收益仍待验证。[脱敏摘要](evidence/2026-11-01-framework-research.json)区分真实服务、协议mock和前序终端结果，详情见[预研报告](local-model-framework-research-2026-11-01.md)。
+08:33:58 UTC时，指定端点对一项三消息预研源码审阅的 `tool_choice=auto` 返回HTTP400，明确要求auto tool choice与tool parser，未重试或fallback。OpenCode1.18.31在本地mock完成只读工具循环；该自定义模型需声明 `temperature=true` 才实际发送配置的temperature0。read之后的一次503恢复只重发模型请求，read未再次完成，但不授其它工具动作幂等性。[初次脱敏摘要](evidence/2026-11-01-framework-research.json)保留当时结果，后续真实工具闭环见下项，不回填旧证据。
+
+## 2026-11-01：服务修复后的原生工具重测
+
+用户明确要求重测后，OpenCode1.18.31在指定端点实际完成两文件只读工具闭环。首轮生成两条原生read调用并分别执行，下一轮包含两个tool结果且stop；共两次POST，CLI退出0。模型负责生成调用，客户端负责执行，二者都不能由回答文字代填。现有三消息源码调用器不具备该执行循环，本次原生消息仅属受控重测。
+
+另有三个诊断场景：JSON object加auto虽HTTP200却没有工具调用且伪填哈希；取消格式约束并给真实诊断后能调用，但三轮内重复读取；从实际工具结果分支设none并要求收尾，四项标量核对通过。参数和诊断同时改变，不授格式单因素因果；最终分析仍含错误，owner仅采用已核事实。合计7次真实POST、5次只读工具动作、传输重试0、代码采用0；峰值与usage另列[脱敏摘要](evidence/2026-11-01-native-tool-retest.json)。这支持OpenCode进入限定任务试点，收益仍以真实任务完成与owner成本衡量。[更新预研](local-model-framework-research-2026-11-01.md#修复后的原生工具调用重测)保留试点建议。
