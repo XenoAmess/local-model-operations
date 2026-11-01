@@ -1,0 +1,141 @@
+{
+  "schema": "local-model-operations.caller-local-evidence-delivery/v1",
+  "task": "Real task3: local evidence I/O failure must not replay a model request",
+  "validated_sources": [
+    {
+      "path": "scripts/call.py",
+      "validated_bytes": 19814,
+      "validated_sha256": "ea0979f2f64ea46ee24c696e06f8149bb28e52f2eed6bfc1960c10a50742c2fe",
+      "LF_projection_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28"
+    },
+    {
+      "path": "tests/test_call.py",
+      "validated_bytes": 33015,
+      "validated_sha256": "00560118459f521459671e9075834ce4e29cb9690c238cd5c2f09880e6d63753",
+      "LF_projection_sha256": "8887569e99a4a3b4f89ea4addcddfb077c5125ecff33805017fa208c01eba8b7"
+    }
+  ],
+  "adoption": "model partial plus owner common finalization, handle lifetime, failure fixtures and publisher-found double-sink correction; never whole autonomous adoption",
+  "model_parts": [
+    "LocalEvidenceIOError naming and operation separation",
+    "parts of write/flush/close and network-retry fixture structure"
+  ],
+  "owner_parts": [
+    "RAW open before network invocation and guaranteed final close",
+    "strict success persistence and best-effort diagnostics after classified local failure",
+    "failure fixture imports, actual operation injection, evidence assertions and real handle cleanup",
+    "EVENTS plus stdout failure preserves both diagnostics and local classification"
+  ],
+  "behavior": [
+    "Local evidence open/write/flush/close/output failure does not enter transport retry",
+    "A RAW open failure has no network invocation and no POST_BEGIN; other writable destinations can retain failure evidence",
+    "A failed CONTENT or RESULT write never returns success; CLI reports a diagnostic and nonzero status",
+    "HTTP503 and incomplete SSE still retry the unchanged whole request under existing policy",
+    "No three-message, JSON-output, shared executor or active consumer configuration change"
+  ],
+  "software_actuals": {
+    "owner_driver_setup_failure": {
+      "begin": "2026-11-01T14:32:14.457741+00:00",
+      "end": "2026-11-01T14:32:14.702646+00:00",
+      "seconds": 0.2519233000002714,
+      "exit_code": 1,
+      "tests_run": 0,
+      "failures": null,
+      "errors": null,
+      "skipped": null,
+      "unexpected_network_or_process_attempts": 0
+    },
+    "model_R3_fixture_failure": {
+      "begin": "2026-11-01T14:37:33.415552+00:00",
+      "end": "2026-11-01T14:37:33.671315+00:00",
+      "seconds": 0.2614866999992955,
+      "exit_code": 1,
+      "tests_run": 1,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0,
+      "unexpected_network_or_process_attempts": 0
+    },
+    "owner_initial_selected_run": {
+      "begin": "2026-11-01T14:51:04.999631+00:00",
+      "end": "2026-11-01T14:51:05.507587+00:00",
+      "seconds": 0.5139718999998877,
+      "exit_code": 1,
+      "tests_run": 2,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0,
+      "unexpected_network_or_process_attempts": 0
+    },
+    "owner_failed_and_unrun_methods": {
+      "begin": "2026-11-01T14:52:42.574462+00:00",
+      "end": "2026-11-01T14:52:43.000060+00:00",
+      "seconds": 0.43160010000065085,
+      "exit_code": 0,
+      "tests_run": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "unexpected_network_or_process_attempts": 0
+    },
+    "publisher_found_double_sink_branch": {
+      "begin": "2026-11-01T15:00:19.352475+00:00",
+      "end": "2026-11-01T15:00:19.663305+00:00",
+      "seconds": 0.3164001000004646,
+      "exit_code": 0,
+      "tests_run": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "unexpected_network_or_process_attempts": 0
+    }
+  },
+  "unique_new_methods_passed_across_selected_runs": 4,
+  "single_full_suite_run_claimed": false,
+  "old_17_test_method_AST_unchanged": true,
+  "old_suite_reruns": 0,
+  "external_or_child_actions_during_selected_tests": 0,
+  "test_network_scope": "Owned loopback fixture only; four fail-before-I/O guard checks are negative tests, not unexpected external actions.",
+  "native_CLI": [
+    {
+      "round": 1,
+      "begin": "2026-11-01T14:01:42.194773+00:00",
+      "end": "2026-11-01T14:06:48.417157+00:00",
+      "seconds": 306.222384,
+      "POSTs": 80
+    },
+    {
+      "round": 2,
+      "begin": "2026-11-01T14:12:51.164562+00:00",
+      "end": "2026-11-01T14:14:23.646923+00:00",
+      "seconds": 92.482361,
+      "POSTs": 24
+    },
+    {
+      "round": 3,
+      "begin": "2026-11-01T14:24:06.931980+00:00",
+      "end": "2026-11-01T14:25:31.255923+00:00",
+      "seconds": 84.323943,
+      "POSTs": 23
+    }
+  ],
+  "actual_model_POSTs": 127,
+  "new_model_requests_after_owner_takeover": 0,
+  "cost": {
+    "preparation_begin": null,
+    "workspace_created_begin": "2026-11-01T13:58:33.854321+00:00",
+    "workspace_created_end": "2026-11-01T13:58:33.940412+00:00",
+    "owner_source_review_and_correction_total_seconds": null,
+    "unknown_not_zero": true,
+    "note": "CLI intervals, owner review/correction, driver setup error, fixture correction and publication/waiting are separate. Intervals overlap and are not continuous human labor or an end-to-end total."
+  },
+  "ordinary_shared_caller_source_updated": true,
+  "active_consumer_configuration_or_running_processes_changed": false,
+  "new_model_requests_or_test_reruns_for_publication": 0,
+  "net_owner_time_saving_proven": false,
+  "limits": [
+    "Finite offline methods on Windows Python, no blanket platform or all-I/O-failure proof",
+    "Model and owner failures retained separately; later passes do not rewrite prior reviews",
+    "No extra live session, business action, automatic deployment, benchmark or net time-saving claim"
+  ]
+}

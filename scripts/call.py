@@ -5,6 +5,7 @@ Makes one task-local HTTP request, with configured transport retries. It does no
 edit source, run candidates, schedule work, or perform downstream business actions.
 """
 from pathlib import Path
+from contextlib import contextmanager
 import argparse
 import datetime
 import getpass
@@ -36,6 +37,10 @@ def save_json(path, value):
 
 def utc():
     return datetime.datetime.now(datetime.timezone.utc).isoformat()
+
+
+class LocalEvidenceIOError(OSError):
+    """A local evidence operation failed; it is never a network retry reason."""
 
 
 def spec_path(root, value):
@@ -109,20 +114,64 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
         "system_normalized_to_exact_config": original_system != request["messages"][0],
         "original_system": original_system, "source_and_final_task_unchanged": True})
 
+    def local_io(operation, action):
+        try:
+            return action()
+        except LocalEvidenceIOError:
+            raise
+        except OSError as exc:
+            raise LocalEvidenceIOError(operation + ": " + repr(exc)) from exc
+
     def save(name, value):
-        save_json(out / name, value)
+        return local_io("writing " + name, lambda: save_json(out / name, value))
+
+    @contextmanager
+    def raw_evidence(path):
+        raw = local_io("opening " + path.name, lambda: open(path, "wb"))
+        try:
+            yield raw
+        finally:
+            pending = sys.exc_info()[1]
+            try:
+                local_io("closing " + path.name, raw.close)
+            except LocalEvidenceIOError as exc:
+                if pending is not None:
+                    raise LocalEvidenceIOError(str(exc) + "; after " + repr(pending)) from exc
+                raise
 
     def emit(event, **data):
         row = {"event": event, "at_utc": utc(), "machine_id": machine_id,
                "executor": owner, "owner": owner, "task_id": task_id,
                "base_url": config["base_url"], **data}
-        with (out / "EVENTS.jsonl").open("a", encoding="utf-8", newline="\n") as log:
-            log.write(json.dumps(row, ensure_ascii=False) + "\n")
-        print(json.dumps(row, ensure_ascii=False), flush=True)
+        def append_row():
+            with (out / "EVENTS.jsonl").open("a", encoding="utf-8", newline="\n") as log:
+                log.write(json.dumps(row, ensure_ascii=False) + "\n")
+        try:
+            local_io("writing EVENTS.jsonl", append_row)
+        except LocalEvidenceIOError as original:
+            # Neither diagnostic sink may turn local I/O into transport retry.
+            try:
+                local_io("printing " + event, lambda: print(json.dumps(row, ensure_ascii=False), flush=True))
+            except LocalEvidenceIOError as printing:
+                raise LocalEvidenceIOError(str(original) + "; " + str(printing)) from printing
+            raise
+        local_io("printing " + event, lambda: print(json.dumps(row, ensure_ascii=False), flush=True))
+
+    def finish_evidence(name, action):
+        try:
+            local_io("writing " + name, action)
+            return True
+        except LocalEvidenceIOError as exc:
+            if not local_evidence_io:
+                raise
+            # Best effort only after an already classified failed attempt.
+            print("call.py: local evidence I/O failure: " + str(exc), file=sys.stderr, flush=True)
+            return False
 
     policy = config["transient_retries"]
     attempts = []
     success = False
+    local_evidence_io = False
     headers = {"Content-Type": "application/json"}
     key_env = config.get("authentication", {}).get("api_key_env", "LOCAL_MODEL_API_KEY")
     key = os.environ.get(key_env) if key_env else None
@@ -139,67 +188,70 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
         start, started = time.monotonic(), utc()
         status = headers_ms = ttft = reasoning_ttft = finish = usage = None
         done, content, failure, retry = False, [], None, False
+        local_evidence_io = False
+        post_invoked = False
         reasoning = {"reasoning_content": [], "reasoning": []}
-        emit("POST_BEGIN", attempt=attempt, request_path=str(out / "REQUEST.json"),
-             max_tokens=request["max_tokens"])
         try:
             req = urllib.request.Request(config["base_url"].rstrip("/") + "/chat/completions",
                                          data=body, headers=headers)
-            with urllib.request.urlopen(req, timeout=timeouts.get("read_seconds", 180)) as response, \
-                    (out / (prefix + "-RESPONSE.sse")).open("wb") as raw:
-                headers_ms = (time.monotonic() - start) * 1000
-                status = response.status
-                save(prefix + "-HEADERS.json", {"http_status": status,
-                     "http_headers_ms": headers_ms, "headers": dict(response.headers.items())})
-                emit("HEADERS", attempt=attempt, http_status=status, http_headers_ms=headers_ms)
-                for line in response:
-                    raw.write(line)
-                    raw.flush()
-                    if time.monotonic() - start > timeouts.get("total_seconds", 900):
-                        raise TimeoutError("total model HTTP timeout")
-                    if not line.startswith(b"data:"):
-                        continue
-                    data = line[5:].strip()
-                    if data == b"[DONE]":
-                        done = True
-                        continue
-                    try:
-                        chunk = json.loads(data)
-                    except (json.JSONDecodeError, UnicodeDecodeError) as exc:
-                        # readline returns a non-LF tail only at EOF. Keep complete
-                        # malformed events nonretryable; a truncated tail is a
-                        # transport failure, not a candidate to splice or salvage.
-                        if not line.endswith(b"\n"):
-                            raise http.client.IncompleteRead(line) from exc
-                        raise
-                    if chunk.get("usage") is not None:
-                        usage = chunk["usage"]
-                    for choice in chunk.get("choices", []):
-                        if choice.get("finish_reason") is not None:
-                            finish = choice["finish_reason"]
-                        delta = choice.get("delta", {})
-                        for field in reasoning:
-                            value = delta.get(field)
+            with raw_evidence(out / (prefix + '-RESPONSE.sse')) as raw:
+                emit("POST_BEGIN", attempt=attempt, request_path=str(out / "REQUEST.json"),
+                     max_tokens=request["max_tokens"])
+                post_invoked = True
+                with urllib.request.urlopen(req, timeout=timeouts.get('read_seconds', 180)) as response:
+                    headers_ms = (time.monotonic() - start) * 1000
+                    status = response.status
+                    save(prefix + "-HEADERS.json", {"http_status": status,
+                         "http_headers_ms": headers_ms, "headers": dict(response.headers.items())})
+                    emit("HEADERS", attempt=attempt, http_status=status, http_headers_ms=headers_ms)
+                    for line in response:
+                        local_io("writing " + prefix + "-RESPONSE.sse", lambda: raw.write(line))
+                        local_io("flushing " + prefix + "-RESPONSE.sse", raw.flush)
+                        if time.monotonic() - start > timeouts.get("total_seconds", 900):
+                            raise TimeoutError("total model HTTP timeout")
+                        if not line.startswith(b"data:"):
+                            continue
+                        data = line[5:].strip()
+                        if data == b"[DONE]":
+                            done = True
+                            continue
+                        try:
+                            chunk = json.loads(data)
+                        except (json.JSONDecodeError, UnicodeDecodeError) as exc:
+                            # readline returns a non-LF tail only at EOF. Keep complete
+                            # malformed events nonretryable; a truncated tail is a
+                            # transport failure, not a candidate to splice or salvage.
+                            if not line.endswith(b"\n"):
+                                raise http.client.IncompleteRead(line) from exc
+                            raise
+                        if chunk.get("usage") is not None:
+                            usage = chunk["usage"]
+                        for choice in chunk.get("choices", []):
+                            if choice.get("finish_reason") is not None:
+                                finish = choice["finish_reason"]
+                            delta = choice.get("delta", {})
+                            for field in reasoning:
+                                value = delta.get(field)
+                                if isinstance(value, str) and value:
+                                    if reasoning_ttft is None:
+                                        reasoning_ttft = (time.monotonic() - start) * 1000
+                                        save(prefix + "-FIRST-REASONING.json", {
+                                            "first_nonempty_reasoning_delta_ms": reasoning_ttft,
+                                            "delta_field": field, "observed_at_utc": utc()})
+                                        emit("FIRST_REASONING", attempt=attempt,
+                                             first_nonempty_reasoning_delta_ms=reasoning_ttft,
+                                             delta_field=field)
+                                    reasoning[field].append(value)
+                            value = delta.get("content")
                             if isinstance(value, str) and value:
-                                if reasoning_ttft is None:
-                                    reasoning_ttft = (time.monotonic() - start) * 1000
-                                    save(prefix + "-FIRST-REASONING.json", {
-                                        "first_nonempty_reasoning_delta_ms": reasoning_ttft,
-                                        "delta_field": field, "observed_at_utc": utc()})
-                                    emit("FIRST_REASONING", attempt=attempt,
-                                         first_nonempty_reasoning_delta_ms=reasoning_ttft,
-                                         delta_field=field)
-                                reasoning[field].append(value)
-                        value = delta.get("content")
-                        if isinstance(value, str) and value:
-                            if ttft is None:
-                                ttft = (time.monotonic() - start) * 1000
-                                save(prefix + "-FIRST-CONTENT.json", {
-                                    "first_nonempty_content_delta_ms": ttft,
-                                    "observed_at_utc": utc()})
-                                emit("FIRST_CONTENT", attempt=attempt,
-                                     first_nonempty_content_delta_ms=ttft)
-                            content.append(value)
+                                if ttft is None:
+                                    ttft = (time.monotonic() - start) * 1000
+                                    save(prefix + "-FIRST-CONTENT.json", {
+                                        "first_nonempty_content_delta_ms": ttft,
+                                        "observed_at_utc": utc()})
+                                    emit("FIRST_CONTENT", attempt=attempt,
+                                         first_nonempty_content_delta_ms=ttft)
+                                content.append(value)
             if not done or finish is None:
                 raise http.client.IncompleteRead(b"no complete SSE finish")
             if finish != "stop":
@@ -209,6 +261,9 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
                     json.loads("".join(content))
                 except (ValueError, TypeError) as exc:
                     failure = "invalid_candidate_json: " + str(exc)
+        except LocalEvidenceIOError as exc:
+            failure, retry, local_evidence_io = str(exc), False, True
+            print("call.py: local evidence I/O failure: " + failure, file=sys.stderr, flush=True)
         except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError,
                 ConnectionError, http.client.IncompleteRead, OSError) as exc:
             status = exc.code if isinstance(exc, urllib.error.HTTPError) else status
@@ -216,30 +271,41 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
             retry = (status in policy["retry_http_statuses"]
                      if isinstance(exc, urllib.error.HTTPError) else True)
             if isinstance(exc, urllib.error.HTTPError):
-                (out / (prefix + "-HTTP-ERROR.txt")).write_bytes(exc.read())
+                error_body = exc.read()  # Network read, outside the local-write classifier.
+                try:
+                    local_io("writing " + prefix + "-HTTP-ERROR.txt",
+                             lambda: (out / (prefix + "-HTTP-ERROR.txt")).write_bytes(error_body))
+                except LocalEvidenceIOError as local_exc:
+                    failure, retry, local_evidence_io = str(local_exc), False, True
+                    print("call.py: local evidence I/O failure: " + failure, file=sys.stderr, flush=True)
         except Exception as exc:
             failure = repr(exc)
-        (out / (prefix + "-CONTENT.txt")).write_text("".join(content), encoding="utf-8")
+        content_saved = finish_evidence(prefix + "-CONTENT.txt", lambda:
+            (out / (prefix + "-CONTENT.txt")).write_text("".join(content), encoding="utf-8"))
         reasoning_text = {k: "".join(parts) for k, parts in reasoning.items() if parts}
         reasoning_path = None
         if reasoning_text:
-            reasoning_path = str(out / (prefix + "-REASONING.json"))
-            save(prefix + "-REASONING.json", reasoning_text)
+            if finish_evidence(prefix + "-REASONING.json", lambda:
+                    save(prefix + "-REASONING.json", reasoning_text)):
+                reasoning_path = str(out / (prefix + "-REASONING.json"))
         result = {"started_at_utc": started, "attempt": attempt, "http_status": status,
                   "http_headers_ms": headers_ms, "first_nonempty_content_delta_ms": ttft,
                   "total_ms": (time.monotonic() - start) * 1000,
                   "finish_reason": finish, "sse_done": done, "usage": usage,
                   "cached_prompt_tokens_if_reported": ((usage or {}).get(
                       "prompt_tokens_details") or {}).get("cached_tokens"),
-                  "failure": failure, "content_path": str(out / (prefix + "-CONTENT.txt")),
+                  "failure": failure,
+                  "content_path": str(out / (prefix + "-CONTENT.txt")) if content_saved else None,
+                  "local_evidence_io_failure": local_evidence_io,
+                  "post_invoked": post_invoked,
                   "candidate_complete": failure is None,
                   "candidate_review": "NOT_YET_REVIEWED", "adopted": False,
                   "first_nonempty_reasoning_delta_ms": reasoning_ttft,
                   "reasoning_delta_fields_seen": list(reasoning_text),
                   "reasoning_path": reasoning_path}
-        save(prefix + "-RESULT.json", result)
+        finish_evidence(prefix + "-RESULT.json", lambda: save(prefix + "-RESULT.json", result))
         attempts.append(result)
-        emit("ATTEMPT_END", **result)
+        finish_evidence("EVENTS.jsonl", lambda: emit("ATTEMPT_END", **result))
         if failure is None:
             success = True
             break
@@ -252,8 +318,9 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
             1 - policy["jitter_ratio"], 1 + policy["jitter_ratio"])
         emit("RETRY_BACKOFF", attempt=attempt, delay_seconds=delay, scope="model_HTTP_only")
         time.sleep(delay)
-    save("SUMMARY.json", {"task_id": task_id, "machine_id": machine_id, "owner": owner,
-                          "success": success, "attempts": attempts, "adopted": False})
+    finish_evidence("SUMMARY.json", lambda: save("SUMMARY.json", {
+        "task_id": task_id, "machine_id": machine_id, "owner": owner,
+        "success": success, "attempts": attempts, "adopted": False}))
     return 0 if success else 1
 
 

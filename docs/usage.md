@@ -39,6 +39,8 @@ python scripts/call.py examples/task.json example --output .local-model-evidence
 
 旧的 `REQUEST TASK OUTPUT OWNER` 位置参数形式仍兼容。新任务应显式选择本机身份和目录；已有 `EVENTS.jsonl` 或持久 `DISPATCH.claim` 的目录拒绝再次派发，不能通过删除证据文件来覆盖或恢复任务。一次调用器内部的传输重试使用本任务目录，重新启动一个逻辑任务则选择新的目录。
 
+本地证据写入失败会停止调用，不作为网络重试理由。RAW文件成功打开后才记录本次`POST_BEGIN`并调用网络；结果的`post_invoked`只表示已进入网络调用，不证明服务端收到请求。RAW失败而其它目的可写时仍尽力保存失败RESULT/SUMMARY；若这些证据也不能保存，则以诊断和非0结束，不能视为成功或重新派发业务。具体分类见[重试规则](concurrency-and-retries.md#重试分类)。
+
 ## 组织实际输入
 
 调用器接受由源码列表和任务文件组成的 spec，也接受完整请求对象。spec 可使用有序 `source_files`，或预先拼好的 `stable_source_path`，并给出 `task_path`。文件必须真的存在且包含模型需要的内容；向没有文件工具的模型提供另一份答复的文件路径，不能替代源码正文。

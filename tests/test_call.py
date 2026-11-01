@@ -1,5 +1,5 @@
 """Offline contract tests: local HTTP/SSE only, no model service or business data."""
-from contextlib import contextmanager, redirect_stdout
+from contextlib import contextmanager, redirect_stdout, redirect_stderr
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from unittest import mock
@@ -102,6 +102,44 @@ class CallerTests(unittest.TestCase):
         out = self.root / name
         with mock.patch.dict(os.environ, {"LOCAL_MODEL_API_KEY": ""}), redirect_stdout(io.StringIO()):
             code = call.dispatch(self.request, name, out, self.config, "test-machine", "test-owner", stop)
+        return code, out
+
+    def failing_dispatch(self, name, base_url, fail_write=None, fail_flush=None, fail_close=None):
+        self.config["base_url"] = base_url
+        out = self.root / name
+        real_open = open
+        handles, counts = [], {"write": 0, "flush": 0, "close": 0}
+
+        def patched_open(path, *args, **kwargs):
+            handle = real_open(path, *args, **kwargs)
+            if str(path).endswith("-RESPONSE.sse"):
+                originals = (handle.write, handle.flush, handle.close)
+                handles.append((handle, originals))
+                for operation, failure in (("write", fail_write), ("flush", fail_flush), ("close", fail_close)):
+                    if failure is not None:
+                        original = getattr(handle, operation)
+                        def fail(*a, _operation=operation, _failure=failure,
+                                 _handle=handle, _original=original, **k):
+                            counts[_operation] += 1
+                            # One injected fault; close may implicitly flush again.
+                            setattr(_handle, _operation, _original)
+                            return _failure(*a, **k)
+                        setattr(handle, operation, fail)
+            return handle
+
+        try:
+            with mock.patch("builtins.open", side_effect=patched_open), \
+                    mock.patch.dict(os.environ, {"LOCAL_MODEL_API_KEY": ""}), \
+                    redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+                code = call.dispatch(self.request, name, out, self.config, "test-machine", "test-owner", None)
+        finally:
+            for handle, originals in handles:
+                handle.write, handle.flush, handle.close = originals
+                originals[2]()
+                self.assertTrue(handle.closed)
+        for operation, failure in (("write", fail_write), ("flush", fail_flush), ("close", fail_close)):
+            if failure is not None:
+                self.assertEqual(counts[operation], 1, operation + " fault must really execute once")
         return code, out
 
     def cli_environment(self, env):
@@ -283,6 +321,184 @@ class CallerTests(unittest.TestCase):
             code, _ = self.dispatch(url)
         self.assertEqual(code, 1)
         self.assertEqual(len(requests), 1)
+
+    def test_raw_evidence_open_failure_stops_without_second_post(self):
+        # Single-operation evidence faults leave all other destinations usable.
+        for kind in ("RAW", "HEADERS", "FIRST-CONTENT", "EVENTS", "HTTP-ERROR", "CONTENT", "RESULT"):
+            with self.subTest(kind=kind), server([
+                    {"status": 503, "body": b"busy"} if kind == "HTTP-ERROR" else {"body": complete()}
+            ]) as (url, requests):
+                self.config["base_url"] = url
+                out = self.root / ("evidence-failure-" + kind)
+                original_open, original_save, original_path_open = open, call.save_json, Path.open
+                fault = "evidence refuses " + kind
+                hits, event_opens = [], []
+
+                def raw_open(path, *a, **k):
+                    if kind == "RAW" and Path(path).name == "ATTEMPT1-RESPONSE.sse":
+                        hits.append(kind)
+                        raise PermissionError(13, fault)
+                    return original_open(path, *a, **k)
+
+                def save(path, value):
+                    if kind in ("HEADERS", "FIRST-CONTENT", "RESULT") and Path(path).name == "ATTEMPT1-" + kind + ".json":
+                        hits.append(kind)
+                        raise PermissionError(13, fault)
+                    return original_save(path, value)
+
+                def path_open(path, *a, **k):
+                    if Path(path).name == "EVENTS.jsonl":
+                        event_opens.append(True)
+                        if kind == "EVENTS" and len(event_opens) == 2:
+                            hits.append(kind)
+                            raise PermissionError(13, fault)
+                    if kind in ("CONTENT", "HTTP-ERROR") and Path(path).name == "ATTEMPT1-" + kind + ".txt":
+                        hits.append(kind)
+                        raise PermissionError(13, fault)
+                    return original_path_open(path, *a, **k)
+
+                errors = io.StringIO()
+                with mock.patch("builtins.open", side_effect=raw_open), \
+                        mock.patch.object(call, "save_json", side_effect=save), \
+                        mock.patch.object(Path, "open", path_open), \
+                        mock.patch.dict(os.environ, {"LOCAL_MODEL_API_KEY": ""}), \
+                        redirect_stdout(io.StringIO()), redirect_stderr(errors):
+                    if kind in ("CONTENT", "RESULT"):
+                        with self.assertRaises(call.LocalEvidenceIOError) as raised:
+                            call.dispatch(self.request, kind, out, self.config, "test-machine", "test-owner", None)
+                        self.assertIn(fault, str(raised.exception))
+                        self.assertFalse((out / "SUMMARY.json").exists())
+                    else:
+                        code = call.dispatch(self.request, kind, out, self.config, "test-machine", "test-owner", None)
+                        self.assertEqual(code, 1)
+                self.assertEqual(hits, [kind])
+                self.assertEqual(len(requests), 0 if kind == "RAW" else 1)
+                self.assertFalse((out / "ATTEMPT2-RESPONSE.sse").exists())
+                events = [json.loads(line) for line in (out / "EVENTS.jsonl").read_text().splitlines()]
+                self.assertEqual(sum(e["event"] == "POST_BEGIN" for e in events), 0 if kind == "RAW" else 1)
+                self.assertEqual(sum(e["event"] == "RETRY_BACKOFF" for e in events), 0)
+                if kind not in ("CONTENT", "RESULT"):
+                    result = call.read_json(out / "ATTEMPT1-RESULT.json")
+                    self.assertTrue(result["local_evidence_io_failure"])
+                    self.assertEqual(result["post_invoked"], kind != "RAW")
+                    self.assertFalse(result["candidate_complete"])
+                    self.assertIn(fault, result["failure"])
+                    self.assertIn("PermissionError", result["failure"])
+                    self.assertFalse(call.read_json(out / "SUMMARY.json")["success"])
+                    self.assertEqual(sum(e["event"] == "ATTEMPT_END" for e in events), 1)
+                    self.assertIn(fault, errors.getvalue())
+
+    def test_raw_evidence_write_flush_failure_stops_without_second_post(self):
+        # The network stream itself is a genuine loopback response; only the
+        # raw SSE evidence handle's local operations fail with PermissionError.
+        # Distinct subcases exercise write, flush and close independently; each
+        # must classify as local evidence I/O, keep the original diagnostic in
+        # the still-writable RESULT, and never start a second POST.
+        def refuse_write(*args, **kwargs):
+            raise PermissionError(13, "evidence disk refuses write")
+
+        def refuse_flush(*args, **kwargs):
+            raise PermissionError(13, "evidence disk refuses flush")
+
+        def refuse_close(*args, **kwargs):
+            raise PermissionError(13, "evidence disk refuses close")
+
+        for kind, kwargs, expected in (
+                ("write", {"fail_write": refuse_write}, "writing"),
+                ("flush", {"fail_flush": refuse_flush}, "flushing"),
+                ("close", {"fail_close": refuse_close}, "closing")):
+            with self.subTest(kind=kind), server([{"body": complete()}]) as (url, requests):
+                code, out = self.failing_dispatch("flush-failure-" + kind, url, **kwargs)
+            self.assertEqual(code, 1)
+            self.assertEqual(len(requests), 1)
+            self.assertFalse((out / "ATTEMPT2-RESPONSE.sse").exists())
+            result = call.read_json(out / "ATTEMPT1-RESULT.json")
+            self.assertTrue(result["local_evidence_io_failure"])
+            self.assertEqual(result["http_status"], 200)
+            self.assertFalse(result["candidate_complete"])
+            self.assertIn(expected + " ATTEMPT1-RESPONSE.sse", result["failure"])
+            self.assertIn("PermissionError", result["failure"])
+            self.assertIn("evidence disk refuses " + kind, result["failure"])
+            events = [json.loads(line) for line in (out / "EVENTS.jsonl").read_text().splitlines()]
+            self.assertEqual(sum(e["event"] == "POST_BEGIN" for e in events), 1)
+            self.assertEqual(sum(e["event"] == "RETRY_BACKOFF" for e in events), 0)
+
+    def test_503_and_truncated_stream_still_retry_whole_request(self):
+        # Genuine transport failures keep the configured bounded retry/backoff
+        # even though the local evidence path handling changed.
+        partial = delta({"content": '{"discarded":'})
+        with self.subTest(kind="http-503"), server([{"status": 503, "body": b"busy"},
+                                                     {"body": complete()}]) as (url, requests):
+            code, out = self.dispatch(url, name="retry-503")
+        self.assertEqual(code, 0)
+        self.assertEqual(len(requests), 2)
+        self.assertEqual(requests[0]["body"], requests[1]["body"])
+        first = call.read_json(out / "ATTEMPT1-RESULT.json")
+        self.assertEqual(first["http_status"], 503)
+        self.assertFalse(first["local_evidence_io_failure"])
+        self.assertEqual((out / "ATTEMPT1-HTTP-ERROR.txt").read_bytes(), b"busy")
+
+        with self.subTest(kind="truncated-sse"), server(
+                [{"body": partial, "missing": 20}, {"body": complete('{"second":2}')}]
+        ) as (url, requests):
+            code, out = self.dispatch(url, name="retry-truncated")
+        self.assertEqual(code, 0)
+        self.assertEqual(len(requests), 2)
+        self.assertEqual(requests[0]["body"], requests[1]["body"])
+        first = call.read_json(out / "ATTEMPT1-RESULT.json")
+        self.assertFalse(first["local_evidence_io_failure"])
+        self.assertFalse(first["candidate_complete"])
+        self.assertIn("IncompleteRead", first["failure"])
+        self.assertEqual((out / "ATTEMPT1-CONTENT.txt").read_text(), '{"discarded":')
+        self.assertEqual((out / "ATTEMPT2-CONTENT.txt").read_text(), '{"second":2}')
+        self.assertEqual((out / "ATTEMPT1-RESPONSE.sse").read_bytes(), partial)
+
+    def test_event_log_and_stdout_failure_does_not_retry(self):
+        # Both local diagnostic sinks fail at HEADERS, after one real loopback POST.
+        original_open = Path.open
+        state = {"event_opens": 0, "event_faults": 0, "stdout_faults": 0}
+
+        def broken_event(path, *args, **kwargs):
+            if Path(path).name == "EVENTS.jsonl":
+                state["event_opens"] += 1
+                if state["event_opens"] == 2:
+                    state["event_faults"] += 1
+                    raise PermissionError(13, "event sink denied")
+            return original_open(path, *args, **kwargs)
+
+        class BrokenStdout(io.StringIO):
+            def write(self, value):
+                if '\"event\": \"HEADERS\"' in value:
+                    state["stdout_faults"] += 1
+                    raise PermissionError(13, "stdout sink denied")
+                return super().write(value)
+
+        errors = io.StringIO()
+        with server([{"body": complete()}]) as (url, requests):
+            self.config["base_url"] = url
+            out = self.root / "event-and-stdout"
+            with mock.patch.object(Path, "open", broken_event), \
+                    mock.patch.dict(os.environ, {"LOCAL_MODEL_API_KEY": ""}), \
+                    redirect_stdout(BrokenStdout()), redirect_stderr(errors):
+                code = call.dispatch(self.request, "event-and-stdout", out,
+                                     self.config, "test-machine", "test-owner", None)
+        self.assertEqual(code, 1)
+        self.assertEqual(len(requests), 1)
+        self.assertEqual(state["event_faults"], 1)
+        self.assertEqual(state["stdout_faults"], 1)
+        result = call.read_json(out / "ATTEMPT1-RESULT.json")
+        self.assertTrue(result["local_evidence_io_failure"])
+        self.assertTrue(result["post_invoked"])
+        self.assertFalse(result["candidate_complete"])
+        self.assertIn("event sink denied", result["failure"])
+        self.assertIn("stdout sink denied", result["failure"])
+        self.assertFalse(call.read_json(out / "SUMMARY.json")["success"])
+        self.assertIn("event sink denied", errors.getvalue())
+        self.assertIn("stdout sink denied", errors.getvalue())
+        self.assertFalse((out / "ATTEMPT2-RESPONSE.sse").exists())
+        events = [json.loads(line) for line in (out / "EVENTS.jsonl").read_text().splitlines()]
+        self.assertEqual(sum(e["event"] == "POST_BEGIN" for e in events), 1)
+        self.assertEqual(sum(e["event"] == "RETRY_BACKOFF" for e in events), 0)
 
     def test_length_finish_is_failure_without_transport_retry(self):
         with server([{"body": complete('{"ok":true}', finish="length")}]) as (url, requests):
