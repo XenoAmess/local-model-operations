@@ -1,0 +1,194 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-text-followup/v1",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-01T22:31:47.588042+00:00",
+  "prior_case": "2026-11-02-hoi4-model-operations.json",
+  "new_real_tasks": 4,
+  "actual_http_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "actual_client_intervals": {
+    "window_started_at_utc": "2026-11-01T22:23:58.730155+00:00",
+    "window_ended_at_utc": "2026-11-01T22:24:05.040919+00:00",
+    "window_seconds": 6.310764,
+    "peak": 4,
+    "peak_duration_seconds": 6.262628,
+    "average_inflight": 3.9814962182074947
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261102-b010-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 730,
+        "completion_tokens": 514,
+        "total_tokens": 1244
+      },
+      "failure": null,
+      "content_ttft_ms": 743.6726999876555,
+      "total_ms": 6308.69820000953,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "646c96847ee2fc42b7b9c933a3df6081aa679b5b03298172ea4d403fc105e28e",
+      "summary_sha256": "11c354cdc470fea8d99d06856eeca1267590861d8f3d4582297d1aec6103800d",
+      "http_status": 200,
+      "adoption": {
+        "source_original_sha256": "178660173396085911774404c86cbec3c74f4d3073cfac841bb5666aaa1e0ab3",
+        "task_id": "hoi4-20261102-b010-prompt-01",
+        "request_sha256": "646c96847ee2fc42b7b9c933a3df6081aa679b5b03298172ea4d403fc105e28e",
+        "summary_sha256": "11c354cdc470fea8d99d06856eeca1267590861d8f3d4582297d1aec6103800d",
+        "adoption": "partial + owner review",
+        "owner_changes": [
+          "Removed protocol-only Output alpha sentence where present.",
+          "Replaced a non-input larger-portrait reference with unseen decorations where present.",
+          "Restated actual owner-observed source features to restore omitted explicit image-left pose, nearly frontal angles and source stern expression.",
+          "Added reference-identity-only and no label/watermark safeguards; canonical alpha tail appended."
+        ],
+        "both_hash_domains_verified": true,
+        "no_vision_input_or_art_qualification": true,
+        "candidate_prompt_text_changed": true
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2031,
+        672
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b010-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 742,
+        "completion_tokens": 510,
+        "total_tokens": 1252
+      },
+      "failure": null,
+      "content_ttft_ms": 885.5168000154663,
+      "total_ms": 6289.751400006935,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "29b7c8626ada708f19ea1e2dee6d9ff7c8524971a96d6fe255bc175acf34d7c4",
+      "summary_sha256": "809bc5fdd051ed986b971da45ad4774910d6be9972bfe8879f4a9688784b739f",
+      "http_status": 200,
+      "adoption": {
+        "source_original_sha256": "2dbdcdce52e7f176c6b70488880f0c772f53c81249564a3885014beb1901123c",
+        "task_id": "hoi4-20261102-b010-prompt-02",
+        "request_sha256": "29b7c8626ada708f19ea1e2dee6d9ff7c8524971a96d6fe255bc175acf34d7c4",
+        "summary_sha256": "809bc5fdd051ed986b971da45ad4774910d6be9972bfe8879f4a9688784b739f",
+        "adoption": "partial + owner review",
+        "owner_changes": [
+          "Removed protocol-only Output alpha sentence where present.",
+          "Replaced a non-input larger-portrait reference with unseen decorations where present.",
+          "Restated actual owner-observed source features to restore omitted explicit image-left pose, nearly frontal angles and source stern expression.",
+          "Added reference-identity-only and no label/watermark safeguards; canonical alpha tail appended."
+        ],
+        "both_hash_domains_verified": true,
+        "no_vision_input_or_art_qualification": true,
+        "candidate_prompt_text_changed": true
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2061,
+        672
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b010-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 732,
+        "completion_tokens": 505,
+        "total_tokens": 1237
+      },
+      "failure": null,
+      "content_ttft_ms": 884.4680000038352,
+      "total_ms": 6262.867100012954,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "d279b8bab623c9a5ab731774546c61d85af249eb4df11801bafec42cc4e0cca8",
+      "summary_sha256": "975552cad5cc34285cd54361460214b3eefc09406b863d5effc49d7e982a76c2",
+      "http_status": 200,
+      "adoption": {
+        "source_original_sha256": "8a451973a4c452c0b8700843469fbbf0b2ffa068acd5baf12eb1b072216c81c1",
+        "task_id": "hoi4-20261102-b010-prompt-03",
+        "request_sha256": "d279b8bab623c9a5ab731774546c61d85af249eb4df11801bafec42cc4e0cca8",
+        "summary_sha256": "975552cad5cc34285cd54361460214b3eefc09406b863d5effc49d7e982a76c2",
+        "adoption": "partial + owner review",
+        "owner_changes": [
+          "Removed protocol-only Output alpha sentence where present.",
+          "Replaced a non-input larger-portrait reference with unseen decorations where present.",
+          "Restated actual owner-observed source features to restore omitted explicit image-left pose, nearly frontal angles and source stern expression.",
+          "Added reference-identity-only and no label/watermark safeguards; canonical alpha tail appended."
+        ],
+        "both_hash_domains_verified": true,
+        "no_vision_input_or_art_qualification": true,
+        "candidate_prompt_text_changed": true
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2045,
+        672
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b010-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 740,
+        "completion_tokens": 508,
+        "total_tokens": 1248
+      },
+      "failure": null,
+      "content_ttft_ms": 886.7568999994546,
+      "total_ms": 6265.845499990974,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "5cbcbf56f1f58193e312572d6794530de7e0262e38f7ad2bb2533c55e432dde4",
+      "summary_sha256": "22ddec05ab39f8d6d84b51cf21c2b624726cdfe2d6cb5a68c064ccddf913bbd9",
+      "http_status": 200,
+      "adoption": {
+        "source_original_sha256": "55f215a28a3ce6bfc622ec5b99da3e2ee074c9c70461abfd3fb88cb23b67b591",
+        "task_id": "hoi4-20261102-b010-prompt-04",
+        "request_sha256": "5cbcbf56f1f58193e312572d6794530de7e0262e38f7ad2bb2533c55e432dde4",
+        "summary_sha256": "22ddec05ab39f8d6d84b51cf21c2b624726cdfe2d6cb5a68c064ccddf913bbd9",
+        "adoption": "partial + owner review",
+        "owner_changes": [
+          "Removed protocol-only Output alpha sentence where present.",
+          "Replaced a non-input larger-portrait reference with unseen decorations where present.",
+          "Restated actual owner-observed source features to restore omitted explicit image-left pose, nearly frontal angles and source stern expression.",
+          "Added reference-identity-only and no label/watermark safeguards; canonical alpha tail appended."
+        ],
+        "both_hash_domains_verified": true,
+        "no_vision_input_or_art_qualification": true,
+        "candidate_prompt_text_changed": true
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2048,
+        672
+      ]
+    }
+  ],
+  "actual_adoption": "Four partial prompt texts; owner removed protocol/non-input image references and restated omitted source-specific head pose/angle/expression. Exact original asset and converted PNG SHA fields independently checked. Canonical prepare appended alpha rules.",
+  "business_stage_at_cutoff": "Prepared uncalled built-in-image jobs, not generated pictures or visual qualification. Text service received owner observations/contracts only, no game image bytes.",
+  "caller": "Consumer adapter at 55b691d86ab9194648ae1e0b5a9302e60cb2a977 delegates canonical shared caller and daily check; successful daily maintenance cached.",
+  "costs": {
+    "owner_preparation_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "net_time_saved_seconds": null
+  },
+  "service_sampling": null,
+  "cached_prompt_tokens": null,
+  "native_tool_generation": false,
+  "raw_materials": "Frozen requests, content, SSE and events remain privately with execution owner. Only reviewed metadata/digests published.",
+  "next_real_question": "Observe actually generated images against their unchanged source and fullsize SHA at consumer project; do not turn text adoption into automatic art approval or replay completed tasks."
+}
