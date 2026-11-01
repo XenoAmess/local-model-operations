@@ -8,6 +8,16 @@
     "client_required_placeholder": "local"
   },
   "automatic_fallback": false,
+  "client_maintenance": {
+    "opencode": {
+      "package": "opencode-ai",
+      "channel": "latest",
+      "minimum_version": "1.18.31",
+      "command_timeout_seconds": 30,
+      "update_timeout_seconds": 300,
+      "lock_timeout_seconds": 420
+    }
+  },
   "defaults": {
     "temperature": 0,
     "chat_template_kwargs": {"enable_thinking": false},

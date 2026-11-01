@@ -1,0 +1,116 @@
+{
+  "schema": "local-model-operations.opencode-daily-update/v1",
+  "sealed_at_utc": "2026-11-01T12:34:53.854149+00:00",
+  "base_revision": "f9b3dbf2a54cff82056f313e47a17e499b4ee23d",
+  "environment": {
+    "os": "Windows",
+    "python": "3.13.2",
+    "pnpm": "11.7.0"
+  },
+  "actual_daily_update": {
+    "date": "2026-11-01",
+    "installed_before": "1.18.31",
+    "installed_version": "1.19.5",
+    "registry_latest": "1.19.5",
+    "target_version": "1.19.5",
+    "updated": true,
+    "cached": false,
+    "started_at_utc": "2026-11-01T12:16:53.601280+00:00",
+    "ended_at_utc": "2026-11-01T12:17:25.303945+00:00"
+  },
+  "same_day_independent_cli_cache": {
+    "cached": true,
+    "installed_version": "1.19.5",
+    "registry_latest": "1.19.5",
+    "journal_unchanged": true,
+    "command_count_in_successful_cycle": 4,
+    "commands": [
+      [
+        "opencode.CMD",
+        "--version"
+      ],
+      [
+        "pnpm.CMD",
+        "view",
+        "opencode-ai@latest",
+        "version",
+        "--json"
+      ],
+      [
+        "pnpm.CMD",
+        "add",
+        "--global",
+        "opencode-ai@1.19.5"
+      ],
+      [
+        "opencode.CMD",
+        "--version"
+      ]
+    ]
+  },
+  "offline_checks": {
+    "initial_suite": {
+      "tests": 24,
+      "passed": 24,
+      "scope": "Daily update/cache/lock and original HTTP caller with a mocked preflight-failure assertion."
+    },
+    "strengthened_cli_failure_case": {
+      "tests": 1,
+      "passed": 1,
+      "scope": "Actual CLI subprocess with failing fake maintenance command; no local mock model POST."
+    },
+    "final_suite_after_user_recovery_correction": {
+      "tests": 27,
+      "passed": 27,
+      "failed": 0,
+      "scope": "All maintenance tools and AI handlers mocked. Attached AI repair then real recheck; command-driver repair then exactly one mock model POST; claimed repair without actual recovery remains an AI handoff."
+    },
+    "repair_driver_recursion_guard": {
+      "tests": 1,
+      "passed": 1,
+      "scope": "After adding child-driver environment isolation, reran only the affected repair-driver integration case; exactly one model mock POST after recovery."
+    }
+  },
+  "recovery_contract": {
+    "behavior": "Maintenance failure goes to hosting AI diagnosis and repair, then an actual daily recheck, then the original pending task.",
+    "bootstrap": "The hosting AI may use its existing model/tools to repair maintenance without first passing the OpenCode version gate.",
+    "embedding": "ensure_current(config, repair=client_ai_repair_callback)",
+    "command_driver": "LOCAL_MODEL_AI_REPAIR_COMMAND is a JSON argv array; recovery JSON is supplied on stdin.",
+    "unattached_handler": "CLI exit 75 and AI_REPAIR_REQUIRED delegate continued repair to the hosting AI; not a terminal business-task result.",
+    "proof_requirement": "A driver success claim alone never marks the day ready.",
+    "business_replay": false
+  },
+  "source_hashes_at_sealing": {
+    "scripts/check_opencode.py": {
+      "working_file_bytes": 16185,
+      "working_file_sha256": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+    },
+    "scripts/call.py": {
+      "working_file_bytes": 16245,
+      "working_file_sha256": "a88bd328436ffff176be1cbfe621aa1ccba09fd281d00b0eecea4f516d8d95ed"
+    },
+    "config/executor.json": {
+      "working_file_bytes": 1682,
+      "working_file_sha256": "28315bd0353e2a75282a6a2844940c2286259fe17af72193ed8df54442e7ba70"
+    },
+    "tests/test_check_opencode.py": {
+      "working_file_bytes": 8114,
+      "working_file_sha256": "928bdb663aa47094fcb8cedd882bba5ca47387cbc6e09510b67460a87eff3058"
+    },
+    "tests/test_call.py": {
+      "working_file_bytes": 20065,
+      "working_file_sha256": "044a4890dc1e68d461293543b8a9b360430916d5d48816446cdfa700b0cc9282"
+    }
+  },
+  "source_hash_scope": "Hashes bind Windows working-file bytes at sealing after recovery-contract refinements, not normalized Git blobs or dispatch-time attestation of the earlier live-update helper.",
+  "model_http_requests_for_this_maintenance_work": 0,
+  "private_evidence": "User-state daily cache and command journals, original update result, independent CLI cache result, and diagnostic/repair tasks remain on the execution machine.",
+  "public_exclusions": "Absolute paths, machine/user identity, raw package-manager logs, model prompts/responses, credentials and environment contents.",
+  "limits": [
+    "Real update and cache verification are Windows-only.",
+    "Concurrent-client test used two threads with the native file lock; no multi-host test.",
+    "Actual AI diagnosis was not exercised because the real update succeeded; AI repair orchestration used test handlers.",
+    "CLI upgrade does not establish OpenCode 1.19.5 native-tool or business correctness.",
+    "Independent consuming clients must sync the shared policy and bind the check/AI recovery contract; their rollout was not performed here."
+  ]
+}

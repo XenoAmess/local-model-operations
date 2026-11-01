@@ -6,6 +6,8 @@
 
 共享配置为 [config/executor.json](../config/executor.json)，调用器为 [scripts/call.py](../scripts/call.py)。脚本使用 Python 标准库；迁移验证实际运行于 Windows Python 3.13，不能据此声称其它平台已实测。
 
+客户端每天首次使用本地模型前必须完成[OpenCode每日版本检查](client-maintenance.md)：版本低于registry最新稳定版或共享最低版本时，先通过pnpm更新并核实。当前调用器CLI已接入；OpenCode和其它直接HTTP或嵌入式客户端需在自己的任务入口调用共享检查器。同日成功缓存共用；失败由宿主AI自主排障修复，复查通过后继续原任务，维护修复本身不受版本前置限制。
+
 当前指定服务为 `http://192.168.1.11:8080/v1`，模型别名 `qwen38-coder`，使用 `POST /chat/completions` 与流式 SSE。该地址属于指定局域网；各机器自行满足路由与代理条件，不自动回退历史地址或端口。模型别名是服务报告的标识，不是已核实的权重版本、量化方式或硬件配置。
 
 共享服务无需密钥，调用器默认不发送认证头。第三方客户端强制要求 API key 时可用 `local`；若服务后来启用认证，通过配置指定的环境变量提供凭据，当前为 `LOCAL_MODEL_API_KEY`。调用器只将其用于 Authorization 请求头，不把密钥写入 REQUEST。不要把密钥放入源码前缀、示例文件或版本库。

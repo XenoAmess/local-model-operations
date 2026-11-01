@@ -4,13 +4,15 @@
 
 ## 快速使用
 
-脚本仅依赖 Python 标准库，需要 Python 3.10+；当前离线验证环境为 Windows / Python 3.13。
+脚本仅依赖 Python 标准库，需要 Python 3.10+；当前离线验证环境为 Windows / Python 3.13。客户端每日维护还需要pnpm在PATH中，用于检查和按需更新OpenCode。
 
 ```sh
 git clone https://github.com/XenoAmess/local-model-operations.git
 cd local-model-operations
 python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstation-a --owner worker-a
 ```
+
+调用器会先完成当天OpenCode检查，过低时使用pnpm更新，成功后再派发。失败由客户端AI自主排障修复，真实复查后继续原任务。独立OpenCode或其它HTTP客户端在使用前运行 `python -X utf8 scripts/check_opencode.py`；同机同用户共用每日成功缓存。完整要求见[客户端每日检查](docs/client-maintenance.md)。
 
 这条命令会发送真实模型请求。调度实际工作时，将示例的完整源码和任务替换成尚未完成的真实需求。每个任务使用唯一输出目录；默认写入当前目录下已忽略的 `.local-model-evidence/<task-id>/`，不自动执行模型生成的代码或外部业务动作。
 
@@ -24,6 +26,7 @@ python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstat
 | --- | --- |
 | worker 协作、单主线、及时提交推送 | [AGENTS.md](AGENTS.md) |
 | 调用方式、配置覆盖、机器身份和输出 | [使用指南](docs/usage.md) |
+| 每日OpenCode版本检查、pnpm更新和客户端接入 | [客户端每日检查](docs/client-maintenance.md) |
 | 真实并发、SSE、退避重试和证据 | [并发与重试规范](docs/concurrency-and-retries.md) |
 | 能力范围、失败分类和探索方法 | [能力边界](docs/capability-boundaries.md) |
 | 已验证经验、反例和适用限制 | [经验记录](docs/experience-log.md) |
@@ -39,7 +42,7 @@ python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstat
 python -X utf8 -m unittest discover -s tests -v
 ```
 
-当前 15 项离线 HTTP/SSE mock 测试覆盖配置与相对路径、有效内容 TTFT、usage 缺失、截流丢弃与整次重试、末尾 JSON/UTF-8 截断、六次尝试边界、永久错误及输出目录防覆盖。测试不向指定局域网服务发请求，不证明模型能力或真实业务完成。调用器总耗时检查是行间检查，不是硬总截止；详细限制见使用指南。
+当前27项离线测试覆盖HTTP/SSE传输、配置与相对路径、有效内容TTFT、截流及重试边界、输出目录防覆盖，以及每日维护的版本比较、缓存、并发、AI修复交接和复查后单次派发。pnpm、OpenCode维护命令和AI修复处理器被模拟，测试不发真实模型请求，不证明真实AI排障或业务完成。调用器总耗时检查是行间检查，不是硬总截止；详细限制见使用指南。
 
 另有2026-11-01在 Windows / Python3.13.2、当前指定服务上的[一次真实业务 SSE 调用摘要](docs/evidence/2026-11-01-windows-service-call.json)：HTTP200、stop、SSE完成且保留usage。它补充离线 mock，限于这一环境和请求；不证明其它平台或服务、业务答复正确性及源码采用，详见[经验记录](docs/experience-log.md)。
 

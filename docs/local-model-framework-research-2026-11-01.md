@@ -137,6 +137,8 @@ Aider 支持 [OpenAI compatible 端点](https://aider.chat/docs/llms/openai-comp
 
 接入应从共享配置生成版本绑定的适配配置，记录来源 SHA，避免维护另一个手工端点。OpenCode V1 使用 `provider`、`npm`、`options.baseURL`；V2 文档使用 `providers`、`package`、`settings`，不能混用。[V1 provider 文档](https://opencode.ai/docs/providers/#custom-provider)、[V2 model 文档](https://opencode.ai/v2/docs/models#compatible)
 
+后续客户端版本维护按用户新增的[每日检查与AI恢复要求](client-maintenance.md)执行：每日检查latest，过低用pnpm更新；失败由宿主AI自主修复并复查。每轮试点继续记录实际版本和配置，原有1.18.31实测保持其历史范围，不把日常升级当作新版本已通过业务验证。
+
 本次 mock 已验证的配置要点是：自定义模型显式声明 temperature 支持，才能在本组合中转发 temperature 0；通过模型 options 发送 thinking flag；设置有限输出预算；限制 provider，并固定主模型和 small model。small model 会参与标题等辅助工作，配置文件也存在合并规则，因此应审实际生效配置和 wire 请求。当前两次或三次 POST 的观察有显式标题及两步上限，不能用作所有会话的固定请求数。[配置说明](https://opencode.ai/docs/config/)、[agent 步数与参数说明](https://opencode.ai/docs/agents/)
 
 传输适配必须能记录每次实际 REQUEST、BEGIN/END、首有效内容 TTFT、usage、错误和工具动作的独立事件。会话事件可作为补充，是否足以保留所需传输原件需要核验。若使用旁路记录代理，它只负责留证，不另加重试或 fallback；一个模型 HTTP 的重试由一个明确的策略负责。

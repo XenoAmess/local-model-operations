@@ -20,6 +20,9 @@ SCRIPT = ROOT / "scripts" / "call.py"
 spec = importlib.util.spec_from_file_location("portable_call", SCRIPT)
 call = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(call)
+daily_spec = importlib.util.spec_from_file_location("daily_cli_fixture", ROOT / "scripts/check_opencode.py")
+daily = importlib.util.module_from_spec(daily_spec)
+daily_spec.loader.exec_module(daily)
 
 
 def data(value):
@@ -100,6 +103,71 @@ class CallerTests(unittest.TestCase):
         with mock.patch.dict(os.environ, {"LOCAL_MODEL_API_KEY": ""}), redirect_stdout(io.StringIO()):
             code = call.dispatch(self.request, name, out, self.config, "test-machine", "test-owner", stop)
         return code, out
+
+    def cli_environment(self, env):
+        # A real daily-cache fixture makes CLI subprocess tests entirely offline.
+        bin_dir = self.root / "fake-tools"
+        bin_dir.mkdir(exist_ok=True)
+        for name in ("pnpm", "opencode"):
+            path = bin_dir / (name + ".cmd" if os.name == "nt" else name)
+            path.write_text("@exit /b 99\n" if os.name == "nt" else "#!/bin/sh\nexit 99\n")
+            path.chmod(0o755)
+        result = dict(env, PATH=str(bin_dir) + os.pathsep + env.get("PATH", ""),
+                      LOCAL_MODEL_AI_REPAIR_COMMAND="",
+                      LOCAL_MODEL_CLIENT_STATE_DIR=str(self.root / "client-state"))
+        def ready(args, **kwargs):
+            return subprocess.CompletedProcess(args, 0, '"1.99.0"' if args[1] == "view" else "1.99.0\n", "")
+        with mock.patch.dict(os.environ, result):
+            daily.ensure_current(self.config, runner=ready)
+        return result
+
+    def test_failed_daily_check_prevents_model_http(self):
+        with server([{"body": complete()}]) as (url, requests):
+            self.config["base_url"] = url
+            env = self.cli_environment(dict(os.environ, LOCAL_MODEL_API_KEY=""))
+            # Invalidate the seeded cache so the CLI must execute the failing stub.
+            self.config["client_maintenance"]["opencode"]["minimum_version"] = "2.0.0"
+            config = self.root / "blocked-config.json"
+            call.save_json(config, self.config)
+            result = subprocess.run([sys.executable, str(SCRIPT), str(self.request), "blocked",
+                                     "--config", str(config)], cwd=self.root, env=env,
+                                    capture_output=True, timeout=10)
+        self.assertEqual(result.returncode, 75)
+        self.assertIn(b"maintenance command exited 99", result.stderr)
+        handoff = json.loads(result.stderr)
+        self.assertEqual(handoff["event"], "AI_REPAIR_REQUIRED")
+        self.assertTrue(Path(handoff["request_path"]).exists())
+        self.assertEqual(requests, [])
+        self.assertFalse((self.root / ".local-model-evidence" / "blocked").exists())
+
+    def test_ai_repair_driver_resumes_one_business_dispatch_after_recheck(self):
+        with server([{"body": complete()}]) as (url, requests):
+            self.config["base_url"] = url
+            env = self.cli_environment(dict(os.environ, LOCAL_MODEL_API_KEY=""))
+            self.config["client_maintenance"]["opencode"]["minimum_version"] = "2.0.0"
+            config = self.root / "repair-config.json"
+            call.save_json(config, self.config)
+            driver = self.root / "mock_ai_repair.py"
+            driver.write_text(
+                "import json,os,pathlib,sys\n"
+                "task=json.load(sys.stdin)\n"
+                "assert 'exempt' in task['bootstrap']\n"
+                "assert 'LOCAL_MODEL_AI_REPAIR_COMMAND' not in os.environ\n"
+                "folder=pathlib.Path(sys.argv[1])\n"
+                "for name in ('pnpm','opencode'):\n"
+                " p=folder/(name+'.cmd' if os.name=='nt' else name)\n"
+                " value='\\\"2.0.0\\\"' if name=='pnpm' else '2.0.0'\n"
+                " p.write_text(('@echo '+value+'\\n') if os.name=='nt' else ('#!/bin/sh\\necho '+repr(value)+'\\n'))\n"
+                " p.chmod(0o755)\n"
+                "(folder/'repair-called').write_text('once')\n", encoding="utf-8")
+            env["LOCAL_MODEL_AI_REPAIR_COMMAND"] = json.dumps(
+                [sys.executable, str(driver), str(self.root / "fake-tools")])
+            result = subprocess.run([sys.executable, str(SCRIPT), str(self.request), "repaired",
+                                     "--config", str(config)], cwd=self.root, env=env,
+                                    capture_output=True, timeout=10)
+        self.assertEqual(result.returncode, 0, result.stderr.decode())
+        self.assertEqual(len(requests), 1)
+        self.assertTrue((self.root / "fake-tools" / "repair-called").exists())
 
     def test_tcp_split_utf8_nonempty_content_ttft_and_null_usage(self):
         content = '{"answer":"你好"}'
@@ -234,7 +302,7 @@ class CallerTests(unittest.TestCase):
                        LOCAL_MODEL_OWNER="env-owner", LOCAL_MODEL_API_KEY="")
             result = subprocess.run([sys.executable, str(SCRIPT), str(self.request), "cli",
                                      "--config", str(config), "--machine-id", "cli-machine"],
-                                    cwd=self.root, env=env, capture_output=True, timeout=10)
+                                    cwd=self.root, env=self.cli_environment(env), capture_output=True, timeout=10)
         self.assertEqual(result.returncode, 0, result.stderr.decode())
         out = evidence / "cli"
         self.assertEqual(call.read_json(out / "SUMMARY.json")["machine_id"], "cli-machine")
@@ -255,8 +323,8 @@ class CallerTests(unittest.TestCase):
             env = dict(os.environ, LOCAL_MODEL_CONFIG=str(config), LOCAL_MODEL_API_KEY="")
             env.pop("LOCAL_MODEL_OWNER", None)
             result = subprocess.run([sys.executable, str(SCRIPT), str(self.request), "legacy",
-                                     str(out), "positional-worker"], cwd=self.root, env=env,
-                                    capture_output=True, timeout=10)
+                                     str(out), "positional-worker"], cwd=self.root,
+                                    env=self.cli_environment(env), capture_output=True, timeout=10)
         self.assertEqual(result.returncode, 0, result.stderr.decode())
         self.assertEqual(call.read_json(out / "SUMMARY.json")["owner"], "positional-worker")
 

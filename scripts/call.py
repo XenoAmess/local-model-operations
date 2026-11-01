@@ -257,6 +257,19 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
     return 0 if success else 1
 
 
+def client_preflight(config):
+    if __package__:
+        from .check_opencode import ensure_current
+    else:
+        from check_opencode import ensure_current
+    result = ensure_current(config)
+    if not result["cached"]:
+        print(json.dumps({"event": "OPENCODE_DAILY_CHECK", "date": result["date"],
+                          "installed_version": result["installed_version"],
+                          "registry_latest": result["registry_latest"],
+                          "updated": result["updated"]}), flush=True)
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("request_path", help="spec or complete request JSON")
@@ -281,8 +294,12 @@ def main(argv=None):
         machine_id = args.machine_id or socket.gethostname()
         owner = args.owner or args.executor or getpass.getuser()
         stop_file = Path(args.stop_file) if args.stop_file else root / "STOP-NEW-HTTP.json"
+        client_preflight(config)
         return dispatch(args.request_path, args.task_id, out, config, machine_id, owner, stop_file)
     except (ValueError, OSError, KeyError, TypeError) as exc:
+        if hasattr(exc, "repair_request"):
+            print(json.dumps(exc.repair_request, ensure_ascii=False), file=sys.stderr)
+            return 75
         print("call.py: " + str(exc), file=sys.stderr)
         return 2
 
