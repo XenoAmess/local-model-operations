@@ -1,0 +1,73 @@
+{
+  "schema": "local-model-operations.mode-annex/v1",
+  "mode_id": "http-candidate",
+  "case_id": "HTTP-NOMINAL-CAPTURED-MEMORY-CORRECTION-001",
+  "kind": "later-formal-receipt",
+  "operator_review_UTC": "2026-11-02T11:10:07.061342+00:00",
+  "original_case": {
+    "relative": "evidence/2026-11-02-http-nominal-captured-memory-correction.json",
+    "bytes": 15109,
+    "sha256": "98e6999b2a4f99a956936149eca0dabe744c974704a4f6350910acfe473a8934",
+    "software_pending_cutoff_bytes_unchanged": true
+  },
+  "formal": {
+    "commit": "ce0fdaeabc716feda914fdcc208a4db3d341d07f",
+    "observed_UTC": "2026-11-02T11:00:31.900376+00:00",
+    "normal_push_exit": 0,
+    "remote_exact_clean": true,
+    "payloads": [
+      {
+        "role": "owner API",
+        "raw_digest": {
+          "bytes": 653,
+          "sha256": "9057a8d1a24e017fca419b1e33d31eeae1d4a933c44c519805662872e05875ad"
+        },
+        "formal_commit_blob_digest": {
+          "bytes": 653,
+          "sha256": "9057a8d1a24e017fca419b1e33d31eeae1d4a933c44c519805662872e05875ad"
+        },
+        "projection_exact": "LF and trailing whitespace only; no code rewrite",
+        "EOF_preserved": true
+      },
+      {
+        "role": "guided model binding corrected by model R2",
+        "raw_digest": {
+          "bytes": 4337,
+          "sha256": "3af9ff326614212c1d5b0e6d03f3e03be2643ebc6b275426476b3afddaf75304"
+        },
+        "formal_commit_blob_digest": {
+          "bytes": 4329,
+          "sha256": "912df6e3de0b007d2407fd8d167b3933e7ef9f126a263116064ecc03177308c3"
+        },
+        "projection_exact": "LF and trailing whitespace only; no code rewrite",
+        "EOF_preserved": true
+      },
+      {
+        "role": "owner Test",
+        "raw_digest": {
+          "bytes": 12125,
+          "sha256": "d5d89485098768bc99cf6b3d4b26db30779355b75ac8b9ba3c05fc425331e82b"
+        },
+        "formal_commit_blob_digest": {
+          "bytes": 12125,
+          "sha256": "d5d89485098768bc99cf6b3d4b26db30779355b75ac8b9ba3c05fc425331e82b"
+        },
+        "projection_exact": "LF and trailing whitespace only; no code rewrite",
+        "EOF_preserved": true
+      }
+    ],
+    "PUBLISHED_digest": {
+      "bytes": 1283,
+      "sha256": "ec2f0f9b66101aa3b7ee6d30c82c4d8b7c90e69d961271863d1ae49407f90d18"
+    },
+    "owner_later_receipt_digest": {
+      "bytes": 2768,
+      "sha256": "7b3bb7611d8be4026e45a0eaf184cc6f7dd92179791a7afc40553ecd7bc53956"
+    },
+    "new_compile_RUN_for_publication": 0
+  },
+  "adoption_boundary": "Guided R1 whole wrapper plus two exact model R2 captured Memory argument fixes,0 owner Java. First R1 nominal error before compilation and all model witness/frame proof rejections remain. Formal binder4337 to4329 is a separate whitespace projection, not raw byte identity or a model/source semantic repair.",
+  "software_boundary": "Reuses necessary current support closure, two new production sources, one owner Test and first two logical caller cases78checks. No old kernel/Test rerun, dynamic recursive-frame proof, full Native/Game/private authority, feature completion or speed evidence.",
+  "cost_boundary": "Original recorded977.838412s source-to-validation window,3.5620466s process sum, all gaps/earlier unknown/active unknown stay unchanged. Publication does not replace them with Git duration.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}
