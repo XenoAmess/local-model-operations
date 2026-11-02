@@ -1,0 +1,147 @@
+{
+  "schema": "local-model-operations.capability-case/v1",
+  "case_id": "HTTP-COMPLETE-STATIC-WRAPPER-BINDING-223",
+  "mode_id": "http-candidate",
+  "date": "2026-11-02",
+  "environment": {
+    "model_alias": "qwen38-coder",
+    "backend_weight_quantization_build": null,
+    "invocation_caller_Git_version": null,
+    "actual_parameters": "Fixed three messages, temperature0/thinkingfalse/include_usage and bounded outputs verified. Unfrozen invocation version remains unknown."
+  },
+  "input": {
+    "complete_items": 12,
+    "composition": "5Java +5complete assembly inputs +contract +input values; direct Memory ancestor included.",
+    "physical_bytes": 16247,
+    "actual_source_message_UTF8_bytes": 18435,
+    "complete_normal_wrapper_bytes": [
+      18,
+      14
+    ],
+    "hints": "Exact API, field flow and routing strongly specified. No owner oracle or candidate supplied to witness/ABI roles. Source static object/table facts do not establish loaded initialization or transitive child qualification."
+  },
+  "HTTP": {
+    "actual_POST": 3,
+    "stop": 3,
+    "length": 0,
+    "retry": 0,
+    "selected_client_peak": 3,
+    "peak3_seconds": 11.797358,
+    "requests": [
+      {
+        "role": "core",
+        "POST_BEGIN": "2026-11-02T15:43:25.635402+00:00",
+        "END": "2026-11-02T15:43:41.819495+00:00",
+        "budget": 2600,
+        "TTFT_ms": 2087.5475999928312,
+        "total_ms": 16185.020799995982,
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 7046,
+          "completion_tokens": 1018,
+          "total_tokens": 8064
+        },
+        "cached_tokens": null,
+        "message2_UTF8_bytes": 18435
+      },
+      {
+        "role": "witness",
+        "POST_BEGIN": "2026-11-02T15:43:25.635315+00:00",
+        "END": "2026-11-02T15:43:48.037697+00:00",
+        "budget": 2600,
+        "TTFT_ms": 2087.9239000059897,
+        "total_ms": 22403.172600010294,
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 7058,
+          "completion_tokens": 2218,
+          "total_tokens": 9276
+        },
+        "cached_tokens": null,
+        "message2_UTF8_bytes": 18435
+      },
+      {
+        "role": "abi",
+        "POST_BEGIN": "2026-11-02T15:43:25.635375+00:00",
+        "END": "2026-11-02T15:43:37.432760+00:00",
+        "budget": 1200,
+        "TTFT_ms": 2087.8310999978567,
+        "total_ms": 11798.193199996604,
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 7087,
+          "completion_tokens": 400,
+          "total_tokens": 7487
+        },
+        "cached_tokens": null,
+        "message2_UTF8_bytes": 18435
+      }
+    ],
+    "limits": "Exact selected source-task cohort only; not sustained high concurrency or whole-service load."
+  },
+  "adoption": {
+    "production": "Two complete R1 decoded classes selected byte exact, including EOF; owner Java edits zero.",
+    "model_classes": [
+      {
+        "bytes": 1162,
+        "sha256": "a285701b9dc35890071950464b11a4b3a7490ee26a2cc5a1a8d45e0bef4b5f11"
+      },
+      {
+        "bytes": 2056,
+        "sha256": "a309c70fc52cf6b272878d0b43f15cbfd94205633cc246f790340a1bd75b8fe0"
+      }
+    ],
+    "reachability_limit": "Distinct first-slot wrappers omit opposite intercepts that cannot be reached through the exact mature caller routing. This is source-qualified equivalence on those paths, not a generic reentrant dispatcher or whole child implementation.",
+    "witness": "Whole oracle rejected, no Test/oracle adoption and no retry. It omitted the getter field read and invented an extra table read.",
+    "owner_input_ambiguity": "Task requested events without explicitly limiting them to externally visible opaque-port events. Differences in counting internal calls have owner wording contribution; do not assign all event mismatches to model error. Clear wrong RAM reads remain independent errors.",
+    "ABI": "Contract-guided partial boundary analysis only. Candidate not supplied; no independent final code audit or full child ABI approval.",
+    "owner_Test_bytes": 9022,
+    "oracle": "Eight literal owner scenes frozen before POST, not supplied. All Test code and expected values owner; no answer-fed correction."
+  },
+  "software": {
+    "new_production_TU": 2,
+    "new_Test_TU": 1,
+    "first_phases": [
+      {
+        "stage": "prod",
+        "seconds": 0.8593809000012698,
+        "exit_code": 0
+      },
+      {
+        "stage": "test",
+        "seconds": 1.3977720999973826,
+        "exit_code": 0
+      },
+      {
+        "stage": "run",
+        "seconds": 0.16447669999615755,
+        "exit_code": 0
+      }
+    ],
+    "new_logical_scenes": 8,
+    "checks": 19,
+    "old_case_RUN": 0,
+    "limits": "Only represented logical GPR forwarding, current Memory and controlled child return/fault. No physical stack/RSP/RFLAGS/XMM/EH/fullABI, transitive child integration or missing arguments filled by defaults; no original Native/Root/natural business acceptance."
+  },
+  "cost": {
+    "input_freeze_to_RUN_END_seconds": 756.235055,
+    "whole_task_start_known": false,
+    "validation_wall_seconds": 72.110768,
+    "process_sum_seconds": 2.42162969999481,
+    "Ready_to_first_prod_BEGIN_seconds": 549.896009,
+    "prod_to_Test_gap_seconds": 59.284382,
+    "Test_to_RUN_gap_seconds": 10.404754,
+    "owner_active_seconds": null,
+    "earlier_discovery_seconds": null,
+    "net_saving_seconds": null,
+    "owner_errata": "An owner source-line reference correction was preserved separately, as was the witness event visibility ambiguity. Neither changes frozen source or invents a compiler failure.",
+    "limits": "Preparation/notification/resource coordination elapsed windows are not compiler CPU or continuous Runtime HOLD."
+  },
+  "formal": {
+    "status": "PENDING_AT_ORIGINAL_SOFTWARE_CUTOFF",
+    "early_source_cohort_preserved": true,
+    "later_receipt_required_for_formal_claim": true
+  },
+  "runtime_adoption_or_speed_credit": false,
+  "new_operator_HTTP_GET_JVM_Game": 0
+}

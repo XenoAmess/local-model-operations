@@ -802,3 +802,9 @@ Owner在length元数据检查前批读误见反审1..82行，原incident保，�
 [HTTP-ENTRY-PRODUCER-TAIL-BINDING-302](evidence/2026-11-02-http-entry-producer-tail-binding.json)为owner批准6423B原字节正文，属于普通三消息HTTP。两role各11完整源，2000/1600两stop/0retry；模型仅新binder，owner全7197B producer/全ABI编排与13535B九Test。Binder执行语句原样，但两个不存在的185嵌套import须owner改为actual155直接声明，partial非whole raw，编前修/0raw javac红/noR2。
 
 Counter未见ownerbody/Test/oracle；T1/T2/T4是完整ASM及冻结API已显式/直接提示的有限核对，不授独立算法或新反例发现。T3仍反转store operand并错识tail Entry，拒。九Test仅binder candidate盲、owner producer已知，不冒wholeblind；首2prod/Test/JUnit0→9P，3.433800s过程对52.090193s首prod→RUN、228.755887s交错review envelope，0.034124s仅机械装配、更早发现/作者/纠正activeunknown。短峰2仅10.880348s；formal此切点pending，不授整递归域/硬件/Game/实载或速度。
+
+## 完整静态wrapper薄接线：可达范围原样与事件口径歧义
+
+[HTTP-COMPLETE-STATIC-WRAPPER-BINDING-223](evidence/2026-11-02-http-complete-static-wrapper-binding.json)的12完整项16247物理B/18435源码消息B、2600/2600/1200三stop/0retry，峰3仅11.797358s。两个R1完整类1162/2056B decoded raw/EOF精确、owner Java0，强API/fieldflow/route提示保；相反intercept省略只在成熟caller精确可达范围内源证等价，不冒generic dispatcher或full child。
+
+Witness漏getter读/捏table读整拒0oracle；事件是否只含external opaque ports未明示有owner文字歧义，不将所有内部event差异算模型错。ABI只合同提示内partial、未看candidate非独立整审。Owner八oracle POST前私冻及全Test，首2prod/Test/RUN0→8logical scenes/19checks；2.421630s过程对72.110768s验证wall、756.235055s inputfreeze窗口，早发现/activeunknown，Ready/协调gap不冒CPU或持续HOLD。原source早切点与software formalpending保，0全ABI/原Native/默认补参数/自然业务/实际装载或速度。
