@@ -992,3 +992,7 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 ### 明确范围的真实中型 COPY 接线与后见发表（612／611）
 
 [612 软件单元](evidence/2026-11-03-http-known-medium-copy-composition.json)记录强形状提示下4936B整类 R1 原样采用，两个真实 stop 的峰2仅25.54354秒，六组全 owner 期待与首验分层；43 whole 实体包含不可达旧 placeholder，不能称43完整 producer。实际16..32源已齐，更大 COPY 和 allocator/free 仍 opaque。872.959159秒已知墙钟、2.1837647秒进程和与 owner active unknown 分列。[612后到正式](evidence/2026-11-03-http-known-medium-copy-later-formal.json)先只记实际 commit/尺寸，不凭尺寸猜字节投影。[611正式投影](evidence/2026-11-03-http-partial-fp-positive-later-formal.json)单列四叶 raw exact、owner binding 仅60行尾空白；原软件 pending 和五组验收不回写，wrapper 1P 不新增场景。
+
+### 指导性选择循环的真实源码红与 fixture 修正（324）
+
+[批准完整原文](evidence/2026-11-03-http-guided-council-selection-owner-repair.json)保留两个窄 stop、owner 明示设计及两 hunk：原模型重赋局部量后遗留 lambda 捕获，首生产编译真实失败，owner 源审也漏过，后用79B别名修正。counter 只审思路，未看候选。owner CP 错与 Frame 四坐标 fixture 错独立保留；首次八方法运行为5P3F，修夹具后仅原失败3P，共八个不同方法通过，不能称一次8P。1340.877485秒整墙钟、13.9317989秒进程阶段和与 active unknown 分列，不由排序移除推断分配或实速收益，原正式 pending 切点保持。
