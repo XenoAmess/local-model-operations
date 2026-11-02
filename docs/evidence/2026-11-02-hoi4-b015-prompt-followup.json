@@ -1,0 +1,218 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B015-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-02T01:45:27.533477+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-02T01:21:23.419631+00:00",
+    "window_ended_at_utc": "2026-11-02T01:21:32.043970+00:00",
+    "window_seconds": 8.624339,
+    "peak": 4,
+    "peak_duration_seconds": 8.165648,
+    "average_inflight": 3.8541821002166077
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261102-b015-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 800,
+        "completion_tokens": 711,
+        "total_tokens": 1511
+      },
+      "failure": null,
+      "content_ttft_ms": 840.9831000026315,
+      "total_ms": 8225.093299988657,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "d9579147e5463271394f7aa231ac041d48ec5a805d5c124be1c16fc792f91bca",
+      "summary_sha256": "0313fa18fabd0a2b30e5978dee0bd23eeb0e3c3be0ca085e4a3591ecac5e15f7",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "75153b422491277ff4f5cafb2a27517edcc5ed0caf9c4d47664bf6a3e921ab22",
+        "task_id": "hoi4-20261102-b015-prompt-01",
+        "request_sha256": "d9579147e5463271394f7aa231ac041d48ec5a805d5c124be1c16fc792f91bca",
+        "summary_sha256": "0313fa18fabd0a2b30e5978dee0bd23eeb0e3c3be0ca085e4a3591ecac5e15f7",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Removed protocol/forbidden-word instructions and non-input larger-image references from actual prompt.",
+          "Removed other-source red-tie/hair comparison while retaining categorical dark-tie/grey-hair source facts.",
+          "Restated observed exact expression, source features and compact round-head/minimal-neck geometry.",
+          "Canonical prepare appended full alpha rules."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2372,
+        700
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b015-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 805,
+        "completion_tokens": 677,
+        "total_tokens": 1482
+      },
+      "failure": null,
+      "content_ttft_ms": 957.8818999871146,
+      "total_ms": 8165.496100002201,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "3699497c6200f0e9d57332453bf95e3a5cf2b6457cd9cff80fbd1b27c3ceeb0c",
+      "summary_sha256": "6152601c79b11611f6c86c3fe075d25c07d2650e83dd2b276dbbef1d0dd0b945",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "7fe08ac945b02171aa82409138642b206112cc3751449c703629b6978d6ad513",
+        "task_id": "hoi4-20261102-b015-prompt-02",
+        "request_sha256": "3699497c6200f0e9d57332453bf95e3a5cf2b6457cd9cff80fbd1b27c3ceeb0c",
+        "summary_sha256": "6152601c79b11611f6c86c3fe075d25c07d2650e83dd2b276dbbef1d0dd0b945",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Removed protocol/forbidden-word instructions and non-input larger-image references from actual prompt.",
+          "Removed other-source red-tie/hair comparison while retaining categorical dark-tie/grey-hair source facts.",
+          "Restated observed exact expression, source features and compact round-head/minimal-neck geometry.",
+          "Canonical prepare appended full alpha rules."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2398,
+        700
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b015-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 800,
+        "completion_tokens": 716,
+        "total_tokens": 1516
+      },
+      "failure": null,
+      "content_ttft_ms": 960.5124999943655,
+      "total_ms": 8619.918399985181,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "9c273fb0e50b0fc549b2458847b7f9fac94147e67e28632e74badbc61feaca38",
+      "summary_sha256": "3a1a34d1c81c9b3760d0b674126c9c55d58add90b391c3755452c53375e32910",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "ee04a6e4fdb0290ad9617ff229763c5f54fd85799c2a225bb7b433186ded16e8",
+        "task_id": "hoi4-20261102-b015-prompt-03",
+        "request_sha256": "9c273fb0e50b0fc549b2458847b7f9fac94147e67e28632e74badbc61feaca38",
+        "summary_sha256": "3a1a34d1c81c9b3760d0b674126c9c55d58add90b391c3755452c53375e32910",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Removed protocol/forbidden-word instructions and non-input larger-image references from actual prompt.",
+          "Removed other-source red-tie/hair comparison while retaining categorical dark-tie/grey-hair source facts.",
+          "Restated observed exact expression, source features and compact round-head/minimal-neck geometry.",
+          "Canonical prepare appended full alpha rules."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2352,
+        700
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b015-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 815,
+        "completion_tokens": 662,
+        "total_tokens": 1477
+      },
+      "failure": null,
+      "content_ttft_ms": 839.4478999834973,
+      "total_ms": 8228.359700005967,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "a1da66f457497130811a47629905c60590ea73d4360bc1e7f9f2012204715b43",
+      "summary_sha256": "abccb4d2f68478df768a9b0868c4e0bacb9f7fed649a3fc13db14c5edf01c026",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "8fd7e7f8217f253efa2aaf9a5648bb735d2d451a077c3e9049fc904c18a4cc3c",
+        "task_id": "hoi4-20261102-b015-prompt-04",
+        "request_sha256": "a1da66f457497130811a47629905c60590ea73d4360bc1e7f9f2012204715b43",
+        "summary_sha256": "abccb4d2f68478df768a9b0868c4e0bacb9f7fed649a3fc13db14c5edf01c026",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Removed protocol/forbidden-word instructions and non-input larger-image references from actual prompt.",
+          "Removed other-source red-tie/hair comparison while retaining categorical dark-tie/grey-hair source facts.",
+          "Restated observed exact expression, source features and compact round-head/minimal-neck geometry.",
+          "Canonical prepare appended full alpha rules."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2401,
+        700
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261102-b015-sources.json",
+    "sha256": "739b9ba81451d9222ded0781ea1cadae3db80893a6cb5e6ce9d92dc5380dce38",
+    "publication_commit_at_cutoff": null
+  },
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. Two differing-SHA assets share the same path and remain distinct. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Owner removed protocol/forbidden-word instructions and non-input/other-source references, restated exact source expression and rounded-chin/minimal-neck geometry, canonical alpha rules appended. Partial text adoption only.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
