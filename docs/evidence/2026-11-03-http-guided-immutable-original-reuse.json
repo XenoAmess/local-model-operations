@@ -1,0 +1,115 @@
+{
+  "schema": "local-model-operations.capability-case/v1",
+  "case_id": "HTTP-GUIDED-IMMUTABLE-ORIGINAL-REUSE-314",
+  "mode_id": "http-candidate",
+  "date": "2026-11-02",
+  "environment": {
+    "model_alias": "qwen38-coder",
+    "backend_weight_quantization_build": null,
+    "invocation_caller_Git_version": null,
+    "request_audit": "Named owner review and exact event receipts retain actual finite budgets, complete JSON, usage and content TTFT. This Ops summary does not rescan the large private REQUEST prefixes."
+  },
+  "input": {
+    "complete_source_files": 23,
+    "physical_bytes": 309404,
+    "guidance": "Owner identified the precise redundant parse and supplied the concrete replacement proposal before the request. Full baseline/proposal source supplied to independent counter; no selected candidate or owner oracle.",
+    "scope": "Reuse the private immutable original tree already parsed by the actual decoder, replacing one duplicate parse of the same raw bytes. No broad cache or parser removal."
+  },
+  "HTTP": {
+    "actual_POST": 2,
+    "stop": 2,
+    "length": 0,
+    "retry": 0,
+    "corrective_rounds": 0,
+    "selected_client_peak": 2,
+    "overlap_seconds": 20.822189,
+    "requests": [
+      {
+        "role": "implementation",
+        "post_begin": "2026-11-02T16:03:34.709800+00:00",
+        "end": "2026-11-02T16:03:55.531989+00:00",
+        "max_tokens": 1900,
+        "ttft_ms": 17386.945999998716,
+        "total_http_ms": 20822.273300000234,
+        "usage": {
+          "prompt_tokens": 66747,
+          "completion_tokens": 414,
+          "total_tokens": 67161
+        },
+        "finish_reason": "stop",
+        "valid_json": true,
+        "cached_tokens": null
+      },
+      {
+        "role": "counter",
+        "post_begin": "2026-11-02T16:03:34.709620+00:00",
+        "end": "2026-11-02T16:04:01.955874+00:00",
+        "max_tokens": 2800,
+        "ttft_ms": 17098.595699993894,
+        "total_http_ms": 27246.24569999287,
+        "usage": {
+          "prompt_tokens": 66708,
+          "completion_tokens": 1324,
+          "total_tokens": 68032
+        },
+        "finish_reason": "stop",
+        "valid_json": true,
+        "cached_tokens": null
+      }
+    ],
+    "limits": "This one selected pair is not sustained high concurrency or service load."
+  },
+  "adoption": {
+    "implementation": "One exact model old/new expression edit adopted with source EOL preservation. Unique forward and inverse independently checked; owner algorithm changes zero. Guided implementation of the owner proposal, not independent discovery of a hotspot.",
+    "not_adopted": "No universal no-risk or speed claim.",
+    "counter": "Whole findings rejected for comparing different trees, speculating different parsers despite the identical actual private-constructor call, and overlooking supplied deep-equality semantics. Retained only source-backed non-bug observation, not a new finding or final-candidate audit.",
+    "selected_source_bytes": 93113,
+    "selected_source_sha256": "fc45e8ebb5734189a2bc4a4efbd74a32a48a95997b456a418ca63b4c546f0b4c"
+  },
+  "software": {
+    "new_production_TU": 1,
+    "first_production_strict_seconds": 2.578872099998989,
+    "later_affected_validation": {
+      "new_model_HTTP": 0,
+      "new_Test_methods": 0,
+      "necessary_unchanged_Test_support_TUs_firstcompile": 3,
+      "existing_affected_method_RUN_passed": 1,
+      "first_phases": [
+        {
+          "phase": "strict",
+          "seconds": 2.144726600003196,
+          "exit_code": 0
+        },
+        {
+          "phase": "junit",
+          "seconds": 4.269989500011434,
+          "exit_code": 0
+        }
+      ],
+      "source_or_expectation_edits": 0,
+      "other_old_suite_RUN": 0,
+      "cache_boundary": "Exact three classes absent from the actual ordered classpath; mature source-to-cached-class/first receipt remained unknown. Only necessary unchanged Test/support sources compiled before the one real affected method.",
+      "coverage": "Actual initialization -> replay -> refresh with complete auxiliary equality, original failure checks and null/empty/value semantics preserved.",
+      "limits": "Unchanged historical software fixture does not grant filesystem/JNA/private writer/Root/Native/Runtime/Game authority or measured IO/performance."
+    }
+  },
+  "cost": {
+    "first_POST_to_affected_method_END_recorded_wall_seconds": 507.302309,
+    "production_and_validation_process_sum_seconds": 8.993588200013619,
+    "Test_phase_gap_wall_seconds": 6.333931,
+    "affected_validation_wall_seconds": 12.748636,
+    "owner_active_seconds": null,
+    "earlier_discovery_full_task_wall_seconds": null,
+    "net_saving_seconds": null,
+    "owner_preparation_errors": "Two guessed source paths and a quoted search failed read-only, then actual imports and bounded existing Test lookup resolved navigation. No model failure, Java or source/live side effect from those misses.",
+    "limits": "Do not equate a short model reply, compiler elapsed or the recorded window with exclusive active labor or performance gain."
+  },
+  "cutoffs": {
+    "original_source_formal": null,
+    "original_source_Test_status": "Affected method pending in original delivery; later one-method first pass appended here.",
+    "formal_exact_receipt_not_in_this_unit": true,
+    "runtime_adopted": false,
+    "measured_speedup": null
+  },
+  "new_operator_HTTP_GET_JVM_Game": 0
+}

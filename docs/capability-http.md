@@ -826,3 +826,9 @@ Witness漏getter读/捏table读整拒0oracle；事件是否只含external opaque
 Test只机械helpers部分复用，两算法owner重写；旧pretty raw/大材料负例是看错答后owner新增，非盲oracle。首2prod0/2.695692s、唯一新Test0/1.686148s→2P/2.521189s，Testgap13.023933s；首POST→末Test的已录wall与activeunknown独立，0旧suite/FS/IOtrace/装载或速度。生产两HTTP真重叠44.889710s，Test后发不凑三峰。原formal=null保，后见a5c1320b/bab4341e：Reader raw等，Producer/Test仅LF投影，不能称所有叶raw/formal相同。
 
 302独立[获准formal后见](evidence/2026-11-03-http-entry-producer-tail-binding-formal.json)记3d0acbcb：owner producer7197、owner改名义import后的model binder2040、owner Test13535三blob raw/currentformal/commit及EOF全等。原批准6423B pending正文不改；0新增HTTP/编验/运行信用，partial署名与contract-guided counter范围不升级。
+
+## 一处immutable original复用：owner具体提案的精确实现
+
+[HTTP-GUIDED-IMMUTABLE-ORIGINAL-REUSE-314](evidence/2026-11-03-http-guided-immutable-original-reuse.json)给23完整源309404物理B，1900/2800两stop/validJSON/0retry，重叠20.822189s。Owner已定位重复parse并给具体proposal，模型一old/new表达式edit保EOL正逆精确、owner算法0修；授guided实现，不授自主发现/普适无风险或提速。Counter只有baseline/proposal，混比较不同tree/猜不同parser/漏已有deep-equality，整findings拒，不当finalcandidate审。
+
+唯一生产TU首0/2.578872s；后到验收0新HTTP/0新Test，只因实际orderedCP缺3个类型且source→cache谱系未知，必要3个不变Test/support TU首编2.144727s，唯一既有affected method首1P/4.269990s，gap6.333931s。未改源/期待、不复制整Test或重旧suite；固定初始化/replay/refresh与null/empty/value软件语义，不授真实FS/权限/Runtime/速度。原source的formal=null/测试pending保持，后到1P与已录window/activeunknown分账，现不补造完整任务工时。
