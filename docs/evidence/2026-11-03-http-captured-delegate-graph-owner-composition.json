@@ -1,0 +1,78 @@
+{
+  "schema": "local-model-operations.portable-evidence/v1",
+  "mode_id": "ordinary-three-message-http-candidate",
+  "task": "Explicit opt-in composition of existing typed consumer layers without changing legacy behavior.",
+  "source": {
+    "complete_java_files": 14,
+    "complete_assembly_files": 3,
+    "physical_source_bytes": 42017,
+    "actual_source_message_utf8_bytes_each": 47041,
+    "contract_included": true,
+    "hidden_owner_oracle_before_candidate": true,
+    "third_witness_role_received_new_implementation_or_expected_trace": false
+  },
+  "model": {
+    "service": "configured local qwen38-coder",
+    "actual_roles": 3,
+    "actual_POSTs": 3,
+    "attempts_each": 1,
+    "retries": 0,
+    "all_stop_and_SSE_DONE": true,
+    "max_output_tokens": [
+      2200,
+      3000,
+      7500
+    ],
+    "actual_prompt_tokens": [
+      14710,
+      14746,
+      14821
+    ],
+    "actual_completion_tokens": [
+      793,
+      1021,
+      5060
+    ],
+    "cached_tokens_reported": null,
+    "actual_scope_peak": 3,
+    "seconds_at_peak": 9.985156,
+    "HTTP_seconds_sum": 57.996747999990475
+  },
+  "adoption": {
+    "implementation": "New method rejected: outer wrapper cannot enter an inner captured fallback; owner bound the inner residual and delegated existing entry.",
+    "independent_review": "Partial obligations only; falsely assumed outer binding automatically reaches nested closures.",
+    "independent_new_witness": "Whole rejected before compile/RUN: wrong receiver, missing state silently defaulted, wrong inner return expectation and incorrect residual route.",
+    "owner": "Replaced only new method and authored three new strict owned-memory cases using mature generic support; no R2 to wash errors."
+  },
+  "software": {
+    "changed_production_TUs": 1,
+    "new_manual_TUs": 1,
+    "cases": 3,
+    "checks": 51,
+    "first_compile_and_RUN_exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "old_cases_rerun": 0,
+    "JUnit_CI_claim": false,
+    "native_Game_or_runtime_claim": false
+  },
+  "cost": {
+    "phase_begin_utc": "2026-11-02T21:51:17.814905+00:00",
+    "last_RUN_end_utc": "2026-11-02T22:13:43.944782+00:00",
+    "marked_scope_wall_seconds": 1346.129877,
+    "discovery_preceded_marker": true,
+    "full_task_wall_seconds": null,
+    "owner_active_seconds": null,
+    "three_process_seconds_sum": 2.7652211999957217,
+    "first_prod_BEGIN_to_last_RUN_END_wall_seconds": 194.141843,
+    "manual_compile_BEGIN_to_RUN_END_wall_seconds": 20.579416,
+    "manual_compile_END_to_RUN_BEGIN_coordination_wall_seconds": 18.7287,
+    "HTTP_seconds_sum": 57.996747999990475,
+    "cost_not_CPU_or_owner_labor": true
+  },
+  "operational_lesson": "Trace the actual captured delegate graph, not lexical wrapper order. A witness must initialize real receiver/stack/TLS state and reject absent reads; copied scaffolding cannot substitute for source-derived expected boundaries.",
+  "setup": "Owner inverse-assert packaging preparation failed before Java and was mechanically corrected; Native empty-sourcepath preflight failure also ran zero Java. Neither is a model/source compile failure.",
+  "scope": "Formal publication pending at this cutoff. No current runtime adoption, hot-compatibility, native ABI, world action or performance claim. Raw requests/source/answers stay private."
+}

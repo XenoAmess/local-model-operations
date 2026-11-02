@@ -1175,3 +1175,6 @@ Root charbuffer358 [批准5375B正文](evidence/2026-11-03-http-strict-charbuffe
 
 
 M1 G2 resize358 [exact inner分支nested allocator接线](evidence/2026-11-03-http-nested-allocator-inner-branch-integration.json)区别Root charbuffer358，批准6891B正文已含87dfb0d3正式后见。23whole63743/msg69534each，两个STOP/0retry/峰2仅9.374949s，唯一1→2line guided edit原样选/0owner执行修；counter仅bounded source corroboration，safe inner-scope正确而REJECT指旧缺接线，非新阻断/非全错。Owner新2methods实际改binder→成熟parent+allocator，matched两size/fresh间接输入、四outer mismatch保持原Call无memory、五return/saved-state corruption有限；1newprod与Test+必要旧168support首次0/2P，旧methods0RUN/成熟算法0重编。3.5516015进程/37.057584协调gap/1015.780392 POST→JVM子窗/activeNULL与原234B JBoss ERROR措辞保；3helper声明owner后补不追授输入，原NOT_STARTED/交付cutoff不回填，不授wholehigherconsumer/Native/Game/速度。
+
+
+M0 manager-static [captured delegate graph复合边界](evidence/2026-11-03-http-captured-delegate-graph-owner-composition.json)批准3386B原样：14Java+3ASM/42017physical/msg47041each，3真实角色3STOP/0retry/峰3仅9.985156s，2200/3000/7500有限输出。模型新方法不能从outer wrapper进入inner capturedfallback而拒，independentreview仅partial obligations并同样误判自动可达；新witness完整5060token仍wrongreceiver/缺状态默认/返回与residual路由错，编前whole拒0R2，owner接管仅新方法与3newmanualcase51checks。三首0/2.7652212进程、57.996748 HTTPsum、1346.129877标记窗/更早discovery/fulltask-activeNULL分列，非JUnitCI/持续并发/实速；owner逆核packaging和Native空sourcepath预检均0Java另保。formal原pending，不授runtime/fullABI/Game或收益。
