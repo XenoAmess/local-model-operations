@@ -1,0 +1,214 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B034-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-02T22:04:10.778109+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-02T21:58:48.856923+00:00",
+    "window_ended_at_utc": "2026-11-02T21:58:56.049439+00:00",
+    "window_seconds": 7.192516,
+    "peak": 4,
+    "peak_duration_seconds": 6.243795,
+    "average_inflight": 3.813143689913238
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261103-b034-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 737,
+        "completion_tokens": 579,
+        "total_tokens": 1316
+      },
+      "failure": null,
+      "content_ttft_ms": 1375.289999996312,
+      "total_ms": 7127.469900005963,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "df5814c79772142467406c6e3308b9caaf3fd7d95fb60dc7e4571a798fc15088",
+      "summary_sha256": "7970f1430595ed590952f7e3752990e5e7564838ff554bd86970214660aebd36",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "bdd5e677e3fdc359caab12b3bbea2c4f454d59a44c69a08484cfd869d2ac5435",
+        "task_id": "hoi4-20261103-b034-prompt-01",
+        "request_sha256": "df5814c79772142467406c6e3308b9caaf3fd7d95fb60dc7e4571a798fc15088",
+        "summary_sha256": "7970f1430595ed590952f7e3752990e5e7564838ff554bd86970214660aebd36",
+        "adoption": "partial + owner exact-source corrections",
+        "semantic_model_text_adopted": true,
+        "owner_changes": [
+          "Restated exact primary hair, expression, striped dark tie and open suit.",
+          "Canonical alpha rules appended. Text model received no image pixels and grants no art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2125,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b034-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 724,
+        "completion_tokens": 502,
+        "total_tokens": 1226
+      },
+      "failure": null,
+      "content_ttft_ms": 1429.6963000087999,
+      "total_ms": 6943.432300002314,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "45eb1ae313042c8b946a6fc11cbc7df15e6e1af8ed2e0d06d2d27601eee9eb40",
+      "summary_sha256": "877838c6cdc21d8df0f8d35cd8beac067e1201484bae8ebe0f958dbf9a26734f",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "8f3f9350640593fdfc795ac3ff146be582a0b26d2bbd603eccd63bc49d0b7244",
+        "task_id": "hoi4-20261103-b034-prompt-02",
+        "request_sha256": "45eb1ae313042c8b946a6fc11cbc7df15e6e1af8ed2e0d06d2d27601eee9eb40",
+        "summary_sha256": "877838c6cdc21d8df0f8d35cd8beac067e1201484bae8ebe0f958dbf9a26734f",
+        "adoption": "partial + owner exact-source corrections",
+        "semantic_model_text_adopted": true,
+        "owner_changes": [
+          "Candidate omitted real gold/brown wire spectacles and brow hair: restored from owner actual source observation.",
+          "Canonical alpha rules appended. Text model received no image pixels and grants no art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2056,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b034-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 795,
+        "completion_tokens": 543,
+        "total_tokens": 1338
+      },
+      "failure": null,
+      "content_ttft_ms": 1200.6801999523304,
+      "total_ms": 6881.308999960311,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "a231fdbcf9c2efdff3623b7e7c90df15a52b8ae5d357fc4239c8a6bfb9c7c469",
+      "summary_sha256": "0094a98f67c2c2ff1a7644966d8d8fa92ecd21e163278ed2aa737a820d2cc34f",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "428734d9f029cd2d3da0575c1c361506c501980d0b7cbbd4aeea3666048b1d94",
+        "task_id": "hoi4-20261103-b034-prompt-03",
+        "request_sha256": "a231fdbcf9c2efdff3623b7e7c90df15a52b8ae5d357fc4239c8a6bfb9c7c469",
+        "summary_sha256": "0094a98f67c2c2ff1a7644966d8d8fa92ecd21e163278ed2aa737a820d2cc34f",
+        "adoption": "partial + owner exact-source corrections",
+        "semantic_model_text_adopted": true,
+        "owner_changes": [
+          "Candidate omitted cap and exact IMAGE-LEFT profile: restored actual dark/gold cap and primary direction; larger opposing direction/extra cloth are not tool inputs.",
+          "Canonical alpha rules appended. Text model received no image pixels and grants no art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2445,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b034-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 792,
+        "completion_tokens": 504,
+        "total_tokens": 1296
+      },
+      "failure": null,
+      "content_ttft_ms": 1307.3643000097945,
+      "total_ms": 6498.775200045202,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "385ee600d967fb79567738c5fd8dbcbd39b815ed04f2076281cfea35f2ebf82f",
+      "summary_sha256": "cfdd75f56d3ab623d7a7c94ac87eece0af2bef1b59770093e2a4189e02108e15",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "c0471118b58e222a8b4b5957d49ed45b83cce8cd6099cdf583a7134a7dd06647",
+        "task_id": "hoi4-20261103-b034-prompt-04",
+        "request_sha256": "385ee600d967fb79567738c5fd8dbcbd39b815ed04f2076281cfea35f2ebf82f",
+        "summary_sha256": "cfdd75f56d3ab623d7a7c94ac87eece0af2bef1b59770093e2a4189e02108e15",
+        "adoption": "rejected; owner complete source-specific prompt takeover",
+        "semantic_model_text_adopted": false,
+        "owner_changes": [
+          "Rejected generic-only contract copy with no actual cap, direction, hairstyle or source-visible fittings and with protocol/canonical-prepare text. Owner took over full source-specific prompt; zero semantic model adoption for this candidate.",
+          "Canonical alpha rules appended. Text model received no image pixels and grants no art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2414,
+        586
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261103-b034-sources.json",
+    "sha256": "e0798b6a093b85899d986e2373bd4594e7ecc7733658ffc8f739ac1e87a8bb7a",
+    "publication_commit_at_cutoff": null
+  },
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. Four distinct raw originals remain separate; opposing larger-portrait directions are analysis only and exact primary clothes/pose govern. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Three partial text adoptions; candidate2 omitted gold wire spectacles/brow hair and candidate3 omitted cap/primary direction, restored by owner. Candidate4 repeated generic contract/protocol text without source specifics: rejected with full owner takeover, zero semantic adoption for that candidate. Exact primary source direction/clothes/fittings and round short-neck geometry retained; canonical alpha appended. No art outcome at cutoff.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
