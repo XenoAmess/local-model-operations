@@ -770,3 +770,9 @@ Owner entry1413B/6unitTest14770B、复用成熟短块，growth明确unsupported�
 [HTTP-RETAINED-CONTENT-RETIREMENT-312](evidence/2026-11-02-http-retained-content-retirement.json)为owner批准7333B原字节正文：20完整source+合同，6500/5500两真实POST均stop、0retry；caller当时Git版本未冻仍null。只在防御性document构造成功后退役lease内容数组，保handle、sharing、identity/metadata、current资格、thread/failure及close，原256MiB cap不升。逻辑计数不是物理IO/秒数，少一冗余数组不证明heap峰值/GC/实速收益；两个新增方法是API变更，不称body-only。
 
 实施guided partial，owner修两个执行行（防御性getter克隆成本与错误cost receiver）+一comment；counter未见candidate，NO_PATCH整结论拒，只有前瞻约束局部可用。Owner全Test，三生产TU/两TestTU首次strict0和五新方法5P，过程6.144557s对marker→交付1460.652182s；更早发现未计、activeunknown，不用短HTTP代owner净收益。原formal=null/软件成熟切点不改；独立[批准formal annex](evidence/2026-11-02-http-retained-content-retirement-formal.json)记3894529a五leaf字节等、1648.111658s marker→正式观察，0发表复验/运行采用或性能信用。
+
+## 有限容量路由见证：六份完整stop未转成模型Test采用
+
+[HTTP-FINITE-CAPACITY-ROUTING-WITNESS-253](evidence/2026-11-02-http-finite-capacity-routing-witness.json)保四方法各10000、独立counter6000/4500的六POST/六stop/0retry或length；完整当前6Java+2ASM与中立fixture均供，literal oracle未供。方法仍错位扫描字面值/最小reserve/上下文地址和全trace，四整稿及片段0采用，owner全13249B新Test；counter两整结论0、只留有限source事实，不冒独立oracle。
+
+唯一新Test首strict0/.621464s→manual main0/.115369s，2groups/22events/75mixed checks，6直接容量和3异常identity是源分类，不另凑stdout或JUnit数；0production/旧suite重跑。三流峰仅8.534587s，counterR1不重叠methods、counterR2不重叠methodR2。发现/prepare/review主动工时unknown，0.736833s过程不替全wall。后见9c16fb3b单Test raw/formal/EOF等另记，原pending保；不授whole32/growth/Native/ABI/Dev/Game/速度。
