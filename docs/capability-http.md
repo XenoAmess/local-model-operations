@@ -544,3 +544,9 @@ owner57421B单条件guard逆回baseline逐byte等，完整原分支链保；succ
 [HTTP-UPPER-TRANSFER-THIN-BINDING-001](evidence/2026-11-02-http-upper-transfer-thin-binding.json)15whole49264B实际三角色REQUEST全文/顺序核；3POST3stop/0retry、峰3仅9.686531s。强hint typed binding完整2022B R1 decoded→compiled raw逐byte/EOF等、0owner执行/EOL改，成熟下层算法不重复授模型信用。owner API661B/Test8298B及预冻两case期待未入witness；独立witness误parent预清/header/selfalias整拒0oracle，不R2。frame最终hinted delta对但等式漏8字节CALL，仅partial事实，非独立完整证明。
 
 首2prod/Test/manual2newupper同RAM47checks全0，只sameallocator distinct/selfalias，不授递归frame分支动态覆盖/Native全ABI/COPY/reverse/Root权限；旧lower case不跑。473.967577s仅selectedmanifest→RUN对2.596370s三process，早期/activeunknown、metadata brace preJava错误分账。原software pending不改，后到7be66a67三blob/EOF raw=formal且0新编测；0Game/SAVE/实速或模式净收益。
+
+## 后到：有明确形状与成熟参考的完整小类R1
+
+[HTTP-GUIDED-SMALL-CLASS-RAW-001](evidence/2026-11-02-http-guided-small-class-raw.json)19whole58673B实际两REQUEST完整核，2600/3200两logical三POST：2stop+1reset自动整请求重试/0语义R2，峰2仅8.157161s。完整2411B R1 decoded→firstcompiled raw含noEOF逐byte等，0owner执行/EOL改；类/package/signatures/knownroute及成熟两参考均owner强hint，未供新owner架子，不能凭复制Javadoc中的owner-scaffold字样倒改真实来源，也不授自主API设计/wholeABI算法。
+
+audit reset半流未读整弃，第二完整泛事实partial、两个具体反例错/未达合同，无oracle/Test/code采用或R2。owner13484B全五新case/oracle，END后首次CONTENT前冻，非生成前。首prod/Test/manual5全0/1.619016s进程，对1058.433707s记录准备→RUN、209.998113s协调与6.156763s gap，早期/activeunknown，不称净收益。原software pending保，后到b240fa9d两payload raw=formal、新wrapper复用同五case非第六；0Native/Game/SAVE/G2完成或实速。
