@@ -1253,3 +1253,8 @@ M7 next254 [批准最小formal后见](evidence/2026-11-03-http-nested-row-rebuil
 
 
 364 [Finance/checkpoint named-scope finite negative](evidence/2026-11-03-http-finance-checkpoint-finite-negative.json)批准3274B原样：23whole773490/msg775833×2，direct合同/注册齐但transitive runtime实现未全供，不冒全闭包。双STOP合法JSON/0retry，max6000/5000、峰2仅50.677807s/union69.839023s；两个NoCandidate正文都有实错整拒，impl留nullcustody写又自撤/误读switch，counter混历史savedDATA与live权限及祖先有效性，0code/无改源不记model成功。Owner有限阴性只覆盖该stage/checkpoint域，archive/current/Session/构造callback检查保；profile采样非calls/CPU/方法wall、后见coverage属nextbatch动作前且exactsubphaseUNKNOWN。新下游typed seam是另授权scope不倒授本两role；owneractiveNULL，0Java/Game/GET/probe或运行收益。
+
+
+258 [批准838B正式后见](evidence/2026-11-03-http-hash-comparison-binding-later-formal.json)a9fb12c4：2modifiedexisting+1newbinding+1newmanualTest四commitblob/选中raw与EOF全byteexact，无格式投影。原2636pending切点/首3prodTU0+newTest0/2groups89literal39checks复用不重验，不倒补历史firstperclasshash UNKNOWN或授实际FP/fullABI/运行收益。
+
+214 [Initial/probe整caller接成熟allocation wrapper链](evidence/2026-11-03-http-initial-frame-allocation-whole-consumer.json)批准4530B原样：29whole+contract含继承decl逐actual3msg核，双STOP/0retry/峰2仅33.850030s、union43.301930s；producer wholeJava raw0owner仅envelope提取，counter错把tail当多一次CALLpush/编造binder等整拒，无R2。不把无候选prospective审当candidate批准。Owner独立pre-candidate oracle与2newmethods首2P，旧213六class仅helper/旧3methods不RUN；1prod+1Test+RUN3.7694978process vs380.127302markerwall-activeNULL。owner datetime准备错在Ready/CLAIM/JVM前停、新03修而Java未变；actualCALLpush/同Memory和三budget/28success与21prefix orderedwrites有限软件界限保。原formalpending(依赖213)不回填，无NativeOS/heap/GS/硬件或实速信用。
