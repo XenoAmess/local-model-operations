@@ -1,0 +1,88 @@
+{
+  "schema": "local-model-operations.civ6-startup-diagnosis/v1",
+  "date_local": "2026-11-03",
+  "machine_id": "BF-202609141645",
+  "batch": {
+    "requests": 1,
+    "complete": 1,
+    "length": 0,
+    "retries": 0,
+    "actual_client_peak": 1,
+    "server_concurrency": null,
+    "cached_tokens": null
+  },
+  "cases": [
+    {
+      "sequence": 194,
+      "case_id": "HTTP-CIV6-STARTUPDIAG194",
+      "mode_id": "http-candidate",
+      "shared_commit": "b2e5b8cd14aace59ed0ffe20773145eb104b9b70",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 2200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T18:07:21.659847+00:00",
+      "attempt_end_utc": "2026-11-02T18:07:30.077118+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 8417.484400008107,
+        "first_nonempty_content_delta_ms": 1378.6734000022989,
+        "usage": {
+          "prompt_tokens": 6998,
+          "completion_tokens": 1008,
+          "total_tokens": 8006
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-observations-only",
+      "review": "Stage/resource observations partlyuseful and ownerverified fromactualbytes. GPU/overlay/network/filelockhypotheses unproved. NoBaiqiLua notproof frontendSQL/artuninvolved. Reject unverified softwareRenderer/networkdisable flags; no generatedcommands/configchanges. Ownerboundedretryalreadyindependent.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/749d9fd615dad073548e0a3fc0726c94662d0ad6/docs/research/baiqi-p6-startup51-recovery-evidence-2026-11-03.json",
+  "observed": "Actualowned648hung400.089s beforeMainMenu; Lua42bytesonlyDebugcache, foregroundDWMGhost. APP/LSQ timeout andforegroundreject notproductgameplayFAIL. Exactownedstartupclosedafterarchival/WM_CLOSEtimeout/unchangedlogs; noSteam/othergame termination. Native51acceptancepending.",
+  "decision": "Use diagnosticstage distinction only; do not changephysics/render/network/testconfig from unsupportedflags or infercausalrootcause. Keeprawlogsand boundedownerrecovery separatefrommodelsuggestions.",
+  "maintenance": {
+    "date": "2026-11-03",
+    "installed": "1.19.5",
+    "registry_latest": "1.19.5",
+    "preflight": "CanonicalCLI reusedcurrentday same-machine/same-user successfulcache.",
+    "new_opencode_native_generation": 0
+  },
+  "owner_cost": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "validation": null,
+    "exclusive_active_seconds": null,
+    "note": "Interleavedstartuprecovery/publicationwallnotexclusivework; completecostnotmeasured."
+  },
+  "experience": "Even evidence-fed diagnosis invents unsupported render/network isolationflags and ranks generic causes without causalproof. No gameplayLua doesnotruleout static/frontendcontent. ForegroundDWMGhost is not ownedgamePID; guardedinput mustfail ratherthaninputtoGhost. Await eachTunerclientbefore nextnativequery; transporttimeout isnotgameactionACK.",
+  "cumulative_civ6": {
+    "logical_requests": 194,
+    "complete": 184,
+    "length": 10,
+    "retries": 0,
+    "historical_actual_peak": 13,
+    "historical_peak_duration_seconds": null
+  },
+  "limits": [
+    "No native51performancePASS orrootcause.",
+    "Ownerretry notfrommodel andnotcreditedmodelbenefit.",
+    "No cache/hardware/netsavingsclaim.",
+    "No newcodecandidateadoption/OpenCodenativegeneration."
+  ]
+}
