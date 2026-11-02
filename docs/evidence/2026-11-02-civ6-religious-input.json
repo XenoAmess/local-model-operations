@@ -1,0 +1,198 @@
+{
+  "schema": "local-model-operations.civ6-religious-input-followup/v1",
+  "date": "2026-11-02",
+  "machine_id": "BF-202609141645",
+  "batch": {
+    "requests": 4,
+    "complete": 4,
+    "length": 0,
+    "retries": 0,
+    "actual_client_peak": 2,
+    "peak_intervals_seconds": [
+      4.847154,
+      8.157558
+    ],
+    "server_concurrency": null,
+    "cached_tokens": null
+  },
+  "cases": [
+    {
+      "sequence": 156,
+      "case_id": "HTTP-CIV6-PHYSICALINPUT156",
+      "mode_id": "http-candidate",
+      "shared_commit": "4606c572339abb386b378ada59b60ced8af62c26",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 1600,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T09:54:43.841511+00:00",
+      "attempt_end_utc": "2026-11-02T09:54:48.688665+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 4844.297299976461,
+        "first_nonempty_content_delta_ms": 1634.4400999951176,
+        "usage": {
+          "prompt_tokens": 4351,
+          "completion_tokens": 428,
+          "total_tokens": 4779
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected",
+      "review": "Invented intent property; missing early cleanup custody/pcall rollback; dropped callback varargs. Owner wrote forwarding observer, restored before assertions.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 157,
+      "case_id": "HTTP-CIV6-RELIGIOUSBATTLE157",
+      "mode_id": "http-candidate",
+      "shared_commit": "4606c572339abb386b378ada59b60ced8af62c26",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 1400,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T09:54:43.841302+00:00",
+      "attempt_end_utc": "2026-11-02T09:54:51.515604+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 7675.1966000010725,
+        "first_nonempty_content_delta_ms": 1372.589100006735,
+        "usage": {
+          "prompt_tokens": 1845,
+          "completion_tokens": 847,
+          "total_tokens": 2692
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-owner-corrected",
+      "review": "Owner required actual human/SP/Baiqi and full ID/type, missing component guards and failclosed live/major status. Actual readonly met religion scan0; no battle proof.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 158,
+      "case_id": "HTTP-CIV6-RELIGIOUSENEMY158",
+      "mode_id": "http-candidate",
+      "shared_commit": "7a69459199141d2f4ca98282bc05a7dd8d10e87e",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 4200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T10:17:45.967468+00:00",
+      "attempt_end_utc": "2026-11-02T10:17:56.492588+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 10526.037100004032,
+        "first_nonempty_content_delta_ms": 1594.2665000038687,
+        "usage": {
+          "prompt_tokens": 6178,
+          "completion_tokens": 1166,
+          "total_tokens": 7344
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected",
+      "review": "Invented Game.GetMaxPlayers and Player.HasMet; ipairs on GameInfo iterator; Core numeric GetType compared to string; missing exact own ID; checked only own occupancy. Not executed.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 159,
+      "case_id": "HTTP-CIV6-RELIGIOUSOPERATIONS159",
+      "mode_id": "http-candidate",
+      "shared_commit": "7a69459199141d2f4ca98282bc05a7dd8d10e87e",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 3200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T10:17:45.968709+00:00",
+      "attempt_end_utc": "2026-11-02T10:17:54.126267+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 8153.932600020198,
+        "first_nonempty_content_delta_ms": 1842.8155000146944,
+        "usage": {
+          "prompt_tokens": 5077,
+          "completion_tokens": 791,
+          "total_tokens": 5868
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected",
+      "review": "Numeric UI unit type compared to string; undocumented IsAlive/IsCivilian; no phase/fullID; unchecked unit requests CanStart after validation failure. Not executed; no state actions.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "native_followup": {
+    "commit": "968d9043b38c11dd225d8c6846184680b7723127",
+    "evidence": "https://github.com/XenoAmess/civ6_dev/blob/968d9043b38c11dd225d8c6846184680b7723127/docs/research/baiqi-p6-religious-physical-native46-evidence-2026-11-02.json",
+    "result": "Owner diagnostic firstactualWorldInput received7move events0right. Different legal clear plot then actualphysicalright down/up1each and1nativeMoveentry; UI/Core apostle16,6→17,6,3→2. Originalhandlers restored. Reload actualthreepriorunitstates andoldARMEDjournal preserved.",
+    "limits": "Precise city-banner interception cause not independently proven; no actual religion battle/heal/inquisition or missionaryescort. New physical save not yet reloaded."
+  },
+  "owner_preparation_failure": "158/159 native source excerpt overran actual UnitOperations.xml length before HTTP; retained partial file, bounded range, then submitted complete inputs. Not model failure.",
+  "maintenance": "4 actual canonicalCLI preflights; same-machine/user daily policy, no upgrade or OpenCode-native generation credited.",
+  "cumulative_civ6": {
+    "logical_requests": 159,
+    "complete": 151,
+    "length": 8,
+    "retries": 0,
+    "historical_actual_peak": 13,
+    "historical_peak_duration_seconds": null
+  },
+  "limits": [
+    "Candidate code 156/158/159 rejected, 157 partial; transport complete is not semantic correct.",
+    "No paired time savings, backend cache/hardware or OpenCode comparison claim.",
+    "Owner game actions separate from HTTP, no model request executes business actions.",
+    "Raw model/game/save/input evidence ignored."
+  ]
+}
