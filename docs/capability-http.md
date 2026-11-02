@@ -680,3 +680,9 @@ R2 body partial，owner把“另clone再mutation”改为成功调用的同一ca
 [HTTP-REBUILD-MANIFEST-EVIDENCE-REFERENCE-001](evidence/2026-11-02-http-rebuild-manifest-evidence-reference.json)与前述guided两Test分账。实施16完整源250312physical，反审含两actual候选共18源；4200/3200各一次完整stop、0retry、实际无交叠峰1，wire未持不冒physical。实施把facts sourceEvidence误设为manifest内driver ref而非manifest本身exactref，并建议先无界clone再验bound，整拒0代码；counter HIGH与自身末尾no-finding矛盾、误读验证序/最终clone即安全，整审0采用。Owner blueprint先于完整答复阅读，但候选物化晚于实际END，不冒pre-POST选定/仍在途。
 
 两owner叶首2TU0/2.413013s，只同调用有限private snapshot/复制与重建；特定persistent路径manifest检查静态3→2、全部真实archive读/严格public入口/现有校验和authority门保，invalid读/异常优先级变化明确。后见acc0d948 Reader15111 raw等；caller33902→33581仅CRLF→LF/EOF保。既发guided2P独立，不授私有archive I/O trace/全历史一次walk/实载/速度/SAVE。349.400735s记录清单切点→首编END与252.369406s SourceReady→BEGIN为墙钟含审阅/协调，更早/active/netunknown；mixedEOL/双anchor/路径与引用准备错误分账，原件0回写/0新HTTP或编验。
+
+## Passive期限：原拒绝顺序与有限packet见证
+
+[HTTP-PASSIVE-DEADLINE-GUARD-ORDER-001](evidence/2026-11-02-http-passive-deadline-guard-order.json)实施6500/R2 6500、反审6000、Test6500/R2 6500五次完整stop、0retry/R3、实际全无交叠峰1/91.203452s。各角色15/21/10完整材料的physical与actual三消息wire分别保；R1误以direct只经wrapper、真正入口仍no-op整拒；R2两个literal原码→152278B首编0后，owner恢复原pure open guard在try内先于clock/min，保null/closed/expired等原异常分类→152346B最终。两model hunk正逆与另存owner guard diff独核，冻结selected-edits只属原model阶段；模型abstract counter仅partial，具体guard反例属owner，非whole审批准。
+
+两完整Test算法因Clock/读取计数/时间推进和await未核拒，mechanical packet/config/scaffold可复用，owner重写方法/Clock/endpoint，首次1methodP0skip。仅同调用原configured/caller最小期限用于HELLO及全部packet读、cached仅admission；Optional.empty和更短期限保留，fresh RPC独立，非整个maxAge/action/monitor或CPU时限；实际实例timeout NOT_HELD，未真实等60秒。四进程9.759467s对2791.076398s首POST→末JVM，1535.435239/1367.370115s source/runner-ready等待与14.62773s phasegap不冒active/HOLD/HTTP。旧host实际先于Test首编退出，后见时轴不把两者误写重叠。原prod行为pending保，后1P/7e34f0ec生产与7a10ee29 Test formal各raw/blob/EOF等；0实载/Native/Game/SAVE/速度及旧绿重跑。

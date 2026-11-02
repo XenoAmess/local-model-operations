@@ -1,0 +1,410 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-PASSIVE-DEADLINE-GUARD-ORDER-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "operator_review_UTC": "2026-11-02T14:04:13.205473+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Narrow one existing passive observation path to capture its existing configured/caller deadline minimum once and share it across admission and packet reads, while preserving original open/rejection classification. Cached admission is separate from the unchanged explicit stale fresh RPC.",
+  "input_qualification": "Canonical three-message tasks with complete current consumer/declaring source. Per-role physical inventory and actual message UTF8 byte vectors are retained from the named owner audit, not equated. This Ops review checked five small EVENT/CONTENT pins, exact source edits/owner diffs/ACTUAL/XML/formal blobs without rescanning large REQUEST bodies. Exact invocation caller revision was not frozen here; later shared HEAD is not substituted.",
+  "calls": [
+    {
+      "role": "implementation",
+      "round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T12:57:47.084153+00:00",
+      "END_UTC": "2026-11-02T12:58:03.631306+00:00",
+      "max_tokens": 6500,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "POST_to_END_wall_seconds": 16.547153,
+      "caller_attempt_total_seconds": 16.54723450000165,
+      "content_TTFT_seconds": 9.990550300004543,
+      "usage": {
+        "prompt_tokens": 77183,
+        "completion_tokens": 1184,
+        "total_tokens": 78367
+      },
+      "cached_prompt_tokens": null,
+      "complete_materials_owner_inventory": 15,
+      "physical_material_bytes_owner_inventory": 374312,
+      "actual_message_content_UTF8_bytes_owner_derived": [
+        301,
+        378950,
+        2581
+      ],
+      "REQUEST_digest_owner_recorded": {
+        "bytes": 389788,
+        "sha256": "9667e3b8ce68d651fda8578c9d83f74527790a8d7e92bd0375eb43650a6a851f"
+      },
+      "EVENTS_digest": {
+        "bytes": 2267,
+        "sha256": "20f9ec3d5070a78f990810defe870bd5382cd8d7a652d5fc27b1fe9769851d09"
+      },
+      "complete_response_digest": {
+        "bytes": 5826,
+        "sha256": "76870c0434f0358a618d64e79076d0c917ec0656f96554b560828442be287a20"
+      },
+      "owner_grade": "IMPLEMENTATION_R1_WHOLE_REJECTED"
+    },
+    {
+      "role": "implementation",
+      "round": 2,
+      "POST_BEGIN_UTC": "2026-11-02T12:59:40.889845+00:00",
+      "END_UTC": "2026-11-02T12:59:57.662834+00:00",
+      "max_tokens": 6500,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "POST_to_END_wall_seconds": 16.772989,
+      "caller_attempt_total_seconds": 16.772930199993425,
+      "content_TTFT_seconds": 10.402354499994544,
+      "usage": {
+        "prompt_tokens": 78780,
+        "completion_tokens": 1171,
+        "total_tokens": 79951
+      },
+      "cached_prompt_tokens": null,
+      "complete_materials_owner_inventory": 15,
+      "physical_material_bytes_owner_inventory": 374312,
+      "actual_message_content_UTF8_bytes_owner_derived": [
+        301,
+        384987,
+        4323
+      ],
+      "REQUEST_digest_owner_recorded": {
+        "bytes": 397777,
+        "sha256": "fc7e5e894517611f16f993b365aaa365f9d7070076474efd7e12305631aa37be"
+      },
+      "EVENTS_digest": {
+        "bytes": 2312,
+        "sha256": "85e1830a17e30f041c5c331eaa24bd9f4e6b85b78ff9a03047a1178df7d91541"
+      },
+      "complete_response_digest": {
+        "bytes": 5796,
+        "sha256": "16230e00526c6853d75c186d8c71f6e24e42459fffb9e008e558e8cc0c8a0c99"
+      },
+      "owner_grade": "IMPLEMENTATION_R2_SELECTED_THEN_OWNER_GUARD_ORDER_FIX"
+    },
+    {
+      "role": "counter",
+      "round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T13:00:25.940889+00:00",
+      "END_UTC": "2026-11-02T13:00:45.170628+00:00",
+      "max_tokens": 6000,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "POST_to_END_wall_seconds": 19.229739,
+      "caller_attempt_total_seconds": 19.22983879999083,
+      "content_TTFT_seconds": 11.652934999990975,
+      "usage": {
+        "prompt_tokens": 89859,
+        "completion_tokens": 1122,
+        "total_tokens": 90981
+      },
+      "cached_prompt_tokens": null,
+      "complete_materials_owner_inventory": 21,
+      "physical_material_bytes_owner_inventory": 433736,
+      "actual_message_content_UTF8_bytes_owner_derived": [
+        301,
+        440110,
+        3671
+      ],
+      "REQUEST_digest_owner_recorded": {
+        "bytes": 453368,
+        "sha256": "1fba99c763e2d520ff2df9f3c859729a84cf7adbdd5a733e91882ab2821cb41a"
+      },
+      "EVENTS_digest": {
+        "bytes": 2295,
+        "sha256": "16a8dac8068e130d4bc78357901937e4813e1acab7cdcb83b7df57c61e64db5b"
+      },
+      "complete_response_digest": {
+        "bytes": 5117,
+        "sha256": "f91bef9df18296502dc290919d5ab03b732bcbaeca87ca6ae55f552fac78bb47"
+      },
+      "owner_grade": "MODEL_ABSTRACT_PARTIAL_OWNER_SOURCE_COUNTER_FOUND_AND_CLOSED_NULL_GUARD_ORDER"
+    },
+    {
+      "role": "witness",
+      "round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T13:12:52.530549+00:00",
+      "END_UTC": "2026-11-02T13:13:13.846291+00:00",
+      "max_tokens": 6500,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "POST_to_END_wall_seconds": 21.315742,
+      "caller_attempt_total_seconds": 21.315737800003262,
+      "content_TTFT_seconds": 6.428882000007434,
+      "usage": {
+        "prompt_tokens": 49574,
+        "completion_tokens": 2638,
+        "total_tokens": 52212
+      },
+      "cached_prompt_tokens": null,
+      "complete_materials_owner_inventory": 10,
+      "physical_material_bytes_owner_inventory": 233132,
+      "actual_message_content_UTF8_bytes_owner_derived": [
+        301,
+        236330,
+        3929
+      ],
+      "REQUEST_digest_owner_recorded": {
+        "bytes": 245982,
+        "sha256": "b9aaa46cf0421576819215f4f9afec7022c6f9d731ffc386884bddf3144d80ab"
+      },
+      "EVENTS_digest": {
+        "bytes": 2266,
+        "sha256": "237cdcaa6577899481c189bd1fa31fa72a9788e7c303bb16662cfc64a59c75dc"
+      },
+      "complete_response_digest": {
+        "bytes": 10878,
+        "sha256": "9fdb42b031dda12b0d8963d346c8842d84a027c1d3fe0c2ff3b9cdbe70bf3b9c"
+      },
+      "owner_grade": "WHOLE_TEST_ALGORITHM_REJECTED"
+    },
+    {
+      "role": "witness",
+      "round": 2,
+      "POST_BEGIN_UTC": "2026-11-02T13:14:52.721631+00:00",
+      "END_UTC": "2026-11-02T13:15:10.059460+00:00",
+      "max_tokens": 6500,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "POST_to_END_wall_seconds": 17.337829,
+      "caller_attempt_total_seconds": 17.337846499998705,
+      "content_TTFT_seconds": 1.4444454000040423,
+      "usage": {
+        "prompt_tokens": 52794,
+        "completion_tokens": 2806,
+        "total_tokens": 55600
+      },
+      "cached_prompt_tokens": null,
+      "complete_materials_owner_inventory": 10,
+      "physical_material_bytes_owner_inventory": 233132,
+      "actual_message_content_UTF8_bytes_owner_derived": [
+        301,
+        247418,
+        6448
+      ],
+      "REQUEST_digest_owner_recorded": {
+        "bytes": 260153,
+        "sha256": "04f665b313d111dfa0db4822c68e245961d4f217b1277b6b8de852886d593024"
+      },
+      "EVENTS_digest": {
+        "bytes": 2312,
+        "sha256": "37933ac8d697d0fe76a43320edc99fea893b1e4c0d403c4a1cef769593306979"
+      },
+      "complete_response_digest": {
+        "bytes": 11967,
+        "sha256": "b9fcd1278606020762e85f053929bb3692704c74e398dad583960de37975ce40"
+      },
+      "owner_grade": "WHOLE_TEST_ALGORITHM_REJECTED_MECHANICAL_PACKET_CONFIG_REUSED_OWNER_METHOD_CLOCK_ENDPOINT_REPAIR"
+    }
+  ],
+  "transport": {
+    "actual_POSTs": 5,
+    "ENDs": 5,
+    "stop": 5,
+    "length": 0,
+    "automatic_retry": 0,
+    "third_semantic_round": 0,
+    "selected_local_peak": 1,
+    "requests_overlap": false,
+    "POST_to_END_union_seconds": 91.203452,
+    "server_running_queued_KV": null,
+    "cache_congestion_inference": null
+  },
+  "adoption": {
+    "implementation_R1": "Whole candidate rejected before compilation: it assumed the direct single-argument entry was only called by a wrapper and left the actual directly used entry without the requested behavior.",
+    "implementation_R2": "Two complete model literal replacements uniquely reproduce the first selected source byte-for-byte, with exact inverse and no owner execution/EOL edit at that stage. This initially compiled source was then corrected by owner; final production is partial model plus owner guard ordering, not whole raw R2 correctness.",
+    "owner_guard_order": "The existing pure open(callerDeadline) guard must run inside the original IOException handling before clock/min calculation. Owner restores original deferred/terminal/closed/null/expired refusal order and exception classification, preventing a pre-try null dereference. No new endpoint I/O, permission or budget expansion.",
+    "baseline_digest": {
+      "bytes": 152186,
+      "sha256": "f72dcaba791eaaf190094850d02bbb370d679e50016bed4b7432dc734b5932a3"
+    },
+    "first_model_selected_digest": {
+      "bytes": 152278,
+      "sha256": "83a86b8a9d804134e5bec1cdf05e39d6a8a035dbd2352576251662ef995a04e0"
+    },
+    "final_owner_guard_corrected_digest": {
+      "bytes": 152346,
+      "sha256": "0f69cceb214f4f959cc5f50fdadca73bf6baf431dec6b7914454fc303b50b1f7"
+    },
+    "two_model_hunks_forward_inverse_exact": true,
+    "owner_guard_diff_recomputed_exact": true,
+    "frozen_selected_edit_list_qualifies_initial_model_stage_not_final_owner_stage": true,
+    "counter": "Model abstract call-chain/limit observations only partially useful; the concrete null/refusal-order issue and final inverse/source verification belong to owner source review. Not a model complete code audit or oracle.",
+    "Test": "Both complete model Test algorithms rejected before compilation: invalid imports/Clock type or override, wrong read-count assumptions, no effective moving clock and admission deadline not actually checked. Only mechanical packet/config/scaffold material reused. Owner rewrote the actual method, correct Clock subclass and endpoint time progression; no model whole-Test/oracle credit.",
+    "raw_Test_R2_digest": {
+      "bytes": 11579,
+      "sha256": "e0abb50706ef629f2f5125b82bcf956c81c8ed05d46329bff5e9691b4c0ed5a7"
+    },
+    "owner_Test_digest": {
+      "bytes": 10707,
+      "sha256": "281e1d85c521b3a5fc51842bb0684bc108cdc444766d80a712651c9cb7a9a775"
+    },
+    "owner_Test_diff_recomputed_exact": true
+  },
+  "source_scope": {
+    "direct_passive": "One captured existing minimum after the original guard is used by the same call admission and every packet read. No recalculation per packet.",
+    "cached": "Only the existing cached HELLO admission is capped by its existing configured minimum after original guard; snapshot retention and maximumAge/stale fresh fallback unchanged.",
+    "limits": "Optional.empty keeps the original caller deadline, and a smaller caller/configuration remains smaller. Existing fresh RPC is a distinct operation. Not a whole maximumAge call, monitor admission, CPU/archive verification, mutation/ACK/UNKNOWN handling or entire action wall-time bound.",
+    "retained_instance_timeout": null,
+    "qualification": "Source default, accepted explicit positive configuration and actual retained instance are distinct. There is no universal hard sixty-second or actual-instance value proof."
+  },
+  "software": {
+    "original_production_cutoff_UTC": "2026-11-02T13:32:07.863635+00:00",
+    "original_production_status": "PRODUCTION_MATURE_SOURCE_REVIEW_AND_FINAL_FIRST_STRICT_ZERO_BEHAVIOR_WITNESS_PENDING_REAL_RESOURCE_WINDOW",
+    "original_behavior_PASS_claim": false,
+    "later_first_behavior_UTC": "2026-11-02T13:46:58.268978+00:00",
+    "first_stages": [
+      {
+        "group": "production",
+        "phase": "first_model_selected_strict",
+        "BEGIN_UTC": "2026-11-02T13:07:12.932083+00:00",
+        "END_UTC": "2026-11-02T13:07:15.005922+00:00",
+        "seconds": 2.073847100007697,
+        "exit_code": 0,
+        "receipt_digest": {
+          "bytes": 2040,
+          "sha256": "7c44b39e9e1731b4a055fb47dfcb503a6d255318cd7994af558a9ff44c85202f"
+        }
+      },
+      {
+        "group": "production",
+        "phase": "final_owner_strict",
+        "BEGIN_UTC": "2026-11-02T13:10:57.622998+00:00",
+        "END_UTC": "2026-11-02T13:10:59.783008+00:00",
+        "seconds": 2.1600175999919884,
+        "exit_code": 0,
+        "receipt_digest": {
+          "bytes": 2057,
+          "sha256": "d19cc82aeae19265bb666fe70cd56b422c6e42b989c0a4d4aba94d6976c1e9c8"
+        }
+      },
+      {
+        "group": "test",
+        "phase": "strict",
+        "BEGIN_UTC": "2026-11-02T13:43:58.007228+00:00",
+        "END_UTC": "2026-11-02T13:43:59.613209+00:00",
+        "seconds": 1.605985200003488,
+        "exit_code": 0,
+        "receipt_digest": {
+          "bytes": 2296,
+          "sha256": "ef37055427962f59c298f16dfc00967d90c048b6e18ba25330d1d535829a06e2"
+        }
+      },
+      {
+        "group": "test",
+        "phase": "junit",
+        "BEGIN_UTC": "2026-11-02T13:44:14.240939+00:00",
+        "END_UTC": "2026-11-02T13:44:18.160551+00:00",
+        "seconds": 3.9196167000045534,
+        "exit_code": 0,
+        "receipt_digest": {
+          "bytes": 2364,
+          "sha256": "bd6bb8a19ec50a31cb9adaed61a4b9422b7f1e5d7a6e08b40f1de098a33f5acf"
+        }
+      }
+    ],
+    "first_new_Test_method_passed": 1,
+    "failed": 0,
+    "skipped": 0,
+    "first_XML_digest": {
+      "bytes": 41532,
+      "sha256": "c16851f3314f2e1071a6b78bffe6741cfa27d07e3a06eabc9b38185cb4e202ee"
+    },
+    "finite_scenarios": "Controlled packet port and moving clock: configured60 versus caller600, configured10 and caller20 limits, Optional.empty legacy600; same captured deadline for HELLO/heartbeat/snapshot; cached invocation adds no packet read and returns the actual frame; null/expired/closed retain the original I/O-wrapped refusal before packet activity; zero packet writes.",
+    "limits": "No actual sixty-second wait, real pipe/JNA/Windows process/current Root authority, actual Native endpoint/Game/ledger or Runtime behavior. No stale fresh RPC/mutation/UNKNOWN proof or whole-action latency guarantee. Controlled clock values are input DATA, not observed wall-time.",
+    "old_green_Test_methods_rerun": 0,
+    "new_production_or_fixture_compile_for_Test": 0,
+    "stderr_preserved": {
+      "bytes": 234,
+      "sha256": "257854ad0e013045c10781cca1992da1467af623c983187cd89e8b77915759a0"
+    }
+  },
+  "formal_stages": [
+    {
+      "role": "production",
+      "observed_UTC": "2026-11-02T13:43:26.925424+00:00",
+      "commit": "7e34f0ec9a786141ea115aac196e096e96c8b830",
+      "normal_push_exit": 0,
+      "remote_exact_clean": true,
+      "raw_equals_formal_commit_blob_and_EOF": true,
+      "blob_digest": {
+        "bytes": 152346,
+        "sha256": "0f69cceb214f4f959cc5f50fdadca73bf6baf431dec6b7914454fc303b50b1f7"
+      },
+      "PUBLISHED_digest": {
+        "bytes": 804,
+        "sha256": "b711a68fe63c3ce85a5094150b5129576f4da999e1a53541b47792b218089d4e"
+      },
+      "new_compile_RUN_for_publication": 0
+    },
+    {
+      "role": "Test",
+      "observed_UTC": "2026-11-02T13:49:10.183307+00:00",
+      "commit": "7a10ee29bca9b880bfde31c5f48d8b439e47d8cd",
+      "normal_push_exit": 0,
+      "remote_exact_clean": true,
+      "raw_equals_formal_commit_blob_and_EOF": true,
+      "blob_digest": {
+        "bytes": 10707,
+        "sha256": "281e1d85c521b3a5fc51842bb0684bc108cdc444766d80a712651c9cb7a9a775"
+      },
+      "PUBLISHED_digest": {
+        "bytes": 821,
+        "sha256": "e0591edc5975c29b7387132e874e725fd1ad6ea62b33994d9202445bfc96cb15"
+      },
+      "new_compile_RUN_for_publication": 0
+    }
+  ],
+  "owner_cost": {
+    "first_POST_to_final_JVM_wall_seconds": 2791.076398,
+    "process_sum_seconds": 9.759466600007727,
+    "witness_source_ready_UTC": "2026-11-02T13:18:22.571989+00:00",
+    "exact_runner_ready_UTC": "2026-11-02T13:21:10.637113+00:00",
+    "source_ready_to_first_Test_strict_wall_seconds": 1535.435239,
+    "exact_runner_ready_to_first_Test_strict_wall_seconds": 1367.370115,
+    "Test_strict_to_JVM_gap_seconds": 14.62773,
+    "pre_first_POST_preparation_seconds": null,
+    "owner_active_seconds": null,
+    "net_saving_seconds": null,
+    "qualification": "Source/diagnostic preparation, initial and owner-corrected strict phases, guided Test takeover, dependency/resource handoff and coordination are part of full wall. Waiting is not continuous HOLD/CPU or model in-flight time.",
+    "later_runtime_timing_qualification": "The previous Java host had already exited before the actual Test first strict began. A later runtime-owner timestamp clarification prevents describing that Test or all waiting as overlap with that former host cold window. The causal breakdown remains unknown."
+  },
+  "private_evidence_digests": {
+    "cost_and_formal": {
+      "bytes": 10175,
+      "sha256": "122caa758f611dcfc3d604532c73dd56dc57ec2516473c9241519ed235b51434"
+    },
+    "original_production_delivery": {
+      "bytes": 5392,
+      "sha256": "6056f525d895c7811e455f1a5639369d8ccab57c82691021a22621729cc56169"
+    },
+    "later_behavior": {
+      "bytes": 1401,
+      "sha256": "d648a8a09faebf29d6ad95fecd8dcda90346852006af142c34f7f21ac2f63793"
+    },
+    "Test_delivery": {
+      "bytes": 5987,
+      "sha256": "415f82079ccbeaf34ecc4c9f0f1e81c5acdf7ee4ea88408c02ac81743f3b96ae"
+    },
+    "production_source_review": {
+      "bytes": 4752,
+      "sha256": "b8decee19c176e547aca2d6564bf12532b25bc161caff5e7ada9bb0c169d7142"
+    },
+    "counter_owner_review": {
+      "bytes": 10588,
+      "sha256": "8f9e71b0ef4671c9eeaefd405bf5b773e67b5804987ae8049896f699aa8652a7"
+    }
+  },
+  "operator_preparation_cost": "An initial prewrite assertion assumed the frozen selected-edit list contained all final owner changes. It contains the two exact model-stage edits, with the separate owner guard-order diff qualifying the final stage. The assertion stopped before public writes; both stages were then independently reproduced without changing any frozen source/list/receipt. Active correction cost unmeasured; not a model failure.",
+  "preservation": "Original model R1/R2 and first selected source/strict, original production behavior-pending cutoff and later Test/formal stages remain frozen separately. No deployed instance, source load, saved day or speed is inferred from source, finite test or formal publication.",
+  "next_real_trigger": "A distinct authorized current-caller contract or real instance qualification, preserving passive and explicit fresh-operation scope. No repeat of the passed packet recipe, old model task or business action for statistics. Both modes continue independently.",
+  "publication_new_HTTP_JVM_Game_actions_by_operator": 0
+}
