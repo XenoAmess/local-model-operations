@@ -776,3 +776,9 @@ Owner entry1413B/6unitTest14770B、复用成熟短块，growth明确unsupported�
 [HTTP-FINITE-CAPACITY-ROUTING-WITNESS-253](evidence/2026-11-02-http-finite-capacity-routing-witness.json)保四方法各10000、独立counter6000/4500的六POST/六stop/0retry或length；完整当前6Java+2ASM与中立fixture均供，literal oracle未供。方法仍错位扫描字面值/最小reserve/上下文地址和全trace，四整稿及片段0采用，owner全13249B新Test；counter两整结论0、只留有限source事实，不冒独立oracle。
 
 唯一新Test首strict0/.621464s→manual main0/.115369s，2groups/22events/75mixed checks，6直接容量和3异常identity是源分类，不另凑stdout或JUnit数；0production/旧suite重跑。三流峰仅8.534587s，counterR1不重叠methods、counterR2不重叠methodR2。发现/prepare/review主动工时unknown，0.736833s过程不替全wall。后见9c16fb3b单Test raw/formal/EOF等另记，原pending保；不授whole32/growth/Native/ABI/Dev/Game/速度。
+
+## 完整getter与第一调用薄接线：两小类原样，独立矩阵仍拒
+
+[HTTP-COMPLETE-GETTER-FIRST-CALL-BINDING-222](evidence/2026-11-02-http-complete-getter-first-call-binding.json)给全8项当前输入12253物理B/13721实际源码消息B、强API/fieldflow/first-site提示；2400/3000两POST均stop/0retry，短峰2仅6.94328s。R1两完整类322/2081B decoded raw/EOF精确采用，owner Java0；见证矩阵错wrap/fresh回调与self结果，整拒0oracle/noR2，不从原样小类推独立全算法设计。
+
+Owner七scene POST前独冻未供，另两same-target后CALL/TAIL排除项POST后执行前另冻。首2prod/Test/RUN0，9新logical scenes/25checks；2.339812s过程对119.057755s验证wall及329.730558s inputfreeze窗口，更早发现与activeunknown。仅getter/第一call组合、后续仍opaque，原incoming参数不默认；不授physicalABI/Native/Root/自然业务。原软件formalpending保，后见1ed0c5eb三源raw/formal/EOF等/0复验另记，0实载/实速信用。

@@ -1,0 +1,124 @@
+{
+  "schema": "local-model-operations.capability-case/v1",
+  "case_id": "HTTP-COMPLETE-GETTER-FIRST-CALL-BINDING-222",
+  "mode_id": "http-candidate",
+  "date": "2026-11-02",
+  "environment": {
+    "model_alias": "qwen38-coder",
+    "backend_weight_quantization_build": null,
+    "caller_invocation_git_version": null,
+    "actual_requests": "Fixed three messages; temperature0/thinkingfalse/include_usage verified. Invocation Git version not independently frozen."
+  },
+  "input": {
+    "complete_items": 8,
+    "composition": "3Java +3complete assembly inputs +contract +input values; true Memory ancestor included.",
+    "physical_bytes": 12253,
+    "actual_source_message_UTF8_bytes": 13721,
+    "strong_hints": "Explicit nominal API, field flow and routing only at the first actual call. Candidate and owner oracle absent from witness prefix.",
+    "normal_body_bytes": 8,
+    "source_qualification": "The full two-instruction normal extent was held. Source collection and prefix qualification do not establish loaded Native behavior."
+  },
+  "HTTP": {
+    "actual_POST": 2,
+    "stop": 2,
+    "length": 0,
+    "retry": 0,
+    "selected_client_peak": 2,
+    "peak2_seconds": 6.94328,
+    "requests": [
+      {
+        "role": "core",
+        "POST_BEGIN": "2026-11-02T15:17:39.124613+00:00",
+        "END": "2026-11-02T15:17:46.068146+00:00",
+        "max_tokens": 2400,
+        "TTFT_ms": 1421.0886000073515,
+        "total_ms": 6943.571499999962,
+        "usage": {
+          "prompt_tokens": 5298,
+          "completion_tokens": 767,
+          "total_tokens": 6065
+        },
+        "cached_tokens": null,
+        "message2_UTF8_bytes": 13721
+      },
+      {
+        "role": "witness",
+        "POST_BEGIN": "2026-11-02T15:17:39.124866+00:00",
+        "END": "2026-11-02T15:17:51.129665+00:00",
+        "max_tokens": 3000,
+        "TTFT_ms": 1684.12520000129,
+        "total_ms": 12004.857399995672,
+        "usage": {
+          "prompt_tokens": 5312,
+          "completion_tokens": 1757,
+          "total_tokens": 7069
+        },
+        "cached_tokens": null,
+        "message2_UTF8_bytes": 13721
+      }
+    ],
+    "limits": "Only these two client intervals; no sustained high concurrency or server-load conclusion."
+  },
+  "adoption": {
+    "production": "Two complete classes decoded from the first implementation reply were selected byte exact, including EOF; owner Java edits zero. Getter and thin mature first-call dispatch only.",
+    "model_classes": [
+      {
+        "bytes": 322,
+        "sha256": "abbac79a123721160e43726006176e863bd24c48187e4a93b1cdb046f0454c7c"
+      },
+      {
+        "bytes": 2081,
+        "sha256": "eff51219b91ff3c016bad57c2aff5118d1e550bf7fce3908633165e09c44ce43"
+      }
+    ],
+    "witness": "Complete seven-scene matrix rejected for wrong wrap address, stale callback state and self-wrap result. No oracle or Test-code adoption; no retry.",
+    "owner_Test_bytes": 8749,
+    "oracle_chronology": "Seven owner scenes frozen before POST and not supplied to model. Two additional same-target later-CALL/TAIL exclusion cases frozen after POST and before execution, separately recorded; not all nine pre-generation or model-derived."
+  },
+  "software": {
+    "new_production_TU": 2,
+    "new_Test_TU": 1,
+    "first_phases": [
+      {
+        "stage": "prod",
+        "seconds": 0.8387225000042235,
+        "exit_code": 0
+      },
+      {
+        "stage": "test",
+        "seconds": 1.3456101000047056,
+        "exit_code": 0
+      },
+      {
+        "stage": "run",
+        "seconds": 0.1554794999974547,
+        "exit_code": 0
+      }
+    ],
+    "new_logical_scenes": 9,
+    "checks": 25,
+    "old_case_RUN": 0,
+    "coverage": "Getter wrapping/fresh second use, first-site dispatch, fallback and fault; matching target at later CALL and tail stays opaque. Same Memory and required incoming argument preserved.",
+    "limits": "No physical stack/save registers/RSP/RFLAGS/XMM/EH/fullABI, dynamic downstream body, original Native, older three-argument binding by default, Root or natural business acceptance."
+  },
+  "cost": {
+    "input_freeze_to_RUN_END_seconds": 329.730558,
+    "full_task_start_known": false,
+    "validation_wall_seconds": 119.057755,
+    "process_sum_seconds": 2.339812100006384,
+    "prod_to_Test_gap_seconds": 73.720411,
+    "Test_to_RUN_gap_seconds": 42.997529,
+    "owner_active_seconds": null,
+    "owner_preparation_error": "A quoted inline reader command failed before Java/HTTP; corrected with fixed readers/script files. It is not a model regression.",
+    "limits": "Source discovery and qualification preceded the freeze. Wall gaps are not compiler CPU or measured savings."
+  },
+  "formal": {
+    "original_delivery_state": "SOFTWARE_MATURE_FORMAL_PENDING",
+    "original_pending_cutoff_preserved": true,
+    "late_commit": "1ed0c5eb42bd4e403832fdcf972306f759714e75",
+    "three_raw_source_blobs_and_EOF_equal": true,
+    "new_compile_RUN_for_publication": 0
+  },
+  "runtime_adoption_or_speed_credit": false,
+  "new_operator_HTTP_GET_JVM_Game": 0
+}
