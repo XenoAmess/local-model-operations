@@ -1,0 +1,218 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B019-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-02T04:04:34.154805+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-02T03:57:53.313035+00:00",
+    "window_ended_at_utc": "2026-11-02T03:58:00.888954+00:00",
+    "window_seconds": 7.575919,
+    "peak": 4,
+    "peak_duration_seconds": 6.781496,
+    "average_inflight": 3.8364612926827752
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261102-b019-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 756,
+        "completion_tokens": 567,
+        "total_tokens": 1323
+      },
+      "failure": null,
+      "content_ttft_ms": 1304.5379999966826,
+      "total_ms": 7450.5355000146665,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "fd1dace447b5699c9b42e5b9e7053f69a22bfc8b8bfe733761c2fe2bcbd28c96",
+      "summary_sha256": "d6e3c9ba8eee85e9208c390cfcbd6eebd516ee8b0def59990e98a4381f9c0457",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "35b407715b32f890773dae28f00f97c14fb72b3c7ec73a861b497c5583762889",
+        "task_id": "hoi4-20261102-b019-prompt-01",
+        "request_sha256": "fd1dace447b5699c9b42e5b9e7053f69a22bfc8b8bfe733761c2fe2bcbd28c96",
+        "summary_sha256": "d6e3c9ba8eee85e9208c390cfcbd6eebd516ee8b0def59990e98a4381f9c0457",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Restated explicit mascot green-ringed black eyes omitted from candidate2; narrowed its vague conditional-facial-hair wording to exact source upper-lip appearance. Candidate1 correctly retained dark purple/grey backing despite an owner common-contract grey-backing inconsistency; final source-specific description is authoritative, no generic grey override in actual prompt.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2184,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b019-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 713,
+        "completion_tokens": 494,
+        "total_tokens": 1207
+      },
+      "failure": null,
+      "content_ttft_ms": 1439.2309000249952,
+      "total_ms": 6805.132000008598,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "be4b8eb2132067aa43a24a7504d09704852c3dcc28366888a34805baae8faaae",
+      "summary_sha256": "6c086c2d0aeeadb6837c701b91b235bcb88420572c127b4a0fa5029e95ce51d8",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "62c94c23ffba3c5fca75b02c45050c390bc71803816274fddc998e0256fc6b7b",
+        "task_id": "hoi4-20261102-b019-prompt-02",
+        "request_sha256": "be4b8eb2132067aa43a24a7504d09704852c3dcc28366888a34805baae8faaae",
+        "summary_sha256": "6c086c2d0aeeadb6837c701b91b235bcb88420572c127b4a0fa5029e95ce51d8",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Restated explicit mascot green-ringed black eyes omitted from candidate2; narrowed its vague conditional-facial-hair wording to exact source upper-lip appearance. Candidate1 correctly retained dark purple/grey backing despite an owner common-contract grey-backing inconsistency; final source-specific description is authoritative, no generic grey override in actual prompt.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2033,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b019-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 728,
+        "completion_tokens": 570,
+        "total_tokens": 1298
+      },
+      "failure": null,
+      "content_ttft_ms": 1439.1345000185538,
+      "total_ms": 7534.3400000128895,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "a54745d7307e4ba8acf801c804e3b262eb71a25d0346ffe1d8cdf10a03b75744",
+      "summary_sha256": "7ca40fdc68791b46886520e13aca7c204753dcf2a5b05bd3b0bcad8f11cd4c22",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "d9894b7ca781aa1a3a8ae06dbb965b7002450cf5fe670fab176022e4b7e8cce7",
+        "task_id": "hoi4-20261102-b019-prompt-03",
+        "request_sha256": "a54745d7307e4ba8acf801c804e3b262eb71a25d0346ffe1d8cdf10a03b75744",
+        "summary_sha256": "7ca40fdc68791b46886520e13aca7c204753dcf2a5b05bd3b0bcad8f11cd4c22",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Restated explicit mascot green-ringed black eyes omitted from candidate2; narrowed its vague conditional-facial-hair wording to exact source upper-lip appearance. Candidate1 correctly retained dark purple/grey backing despite an owner common-contract grey-backing inconsistency; final source-specific description is authoritative, no generic grey override in actual prompt.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2119,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b019-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 762,
+        "completion_tokens": 543,
+        "total_tokens": 1305
+      },
+      "failure": null,
+      "content_ttft_ms": 1552.696200000355,
+      "total_ms": 7272.931899991818,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "b0b403775802763e0a175f3ec458389453de2e236a91ae120992fb22c08eb2c3",
+      "summary_sha256": "b7ecc9ac1a553d1ff6c0a937342dcedcd9df04149adb3b332d7fd34f4035df1f",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "d7b58476cd358c2d9ff11f73f662507f9576fcc0f181b03939313ebc70675250",
+        "task_id": "hoi4-20261102-b019-prompt-04",
+        "request_sha256": "b0b403775802763e0a175f3ec458389453de2e236a91ae120992fb22c08eb2c3",
+        "summary_sha256": "b7ecc9ac1a553d1ff6c0a937342dcedcd9df04149adb3b332d7fd34f4035df1f",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Restated explicit mascot green-ringed black eyes omitted from candidate2; narrowed its vague conditional-facial-hair wording to exact source upper-lip appearance. Candidate1 correctly retained dark purple/grey backing despite an owner common-contract grey-backing inconsistency; final source-specific description is authoritative, no generic grey override in actual prompt.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2169,
+        586
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261102-b019-sources.json",
+    "sha256": "f465fd4b0c75770ee8639eafa23c08f5cf227660dc5f05bbc3cad86bfb68a8b6",
+    "publication_commit_at_cutoff": null
+  },
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. Four different original assets remain separately SHA-bound. Excluded same-name larger candidates differ in pose or clothes. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Owner restored explicit green-ringed black mascot eyes missing in candidate2, narrowed vague facial-hair wording and restated exact source outfit/pose/short broad collar. Candidate1 correctly retained the observed dark-purple/grey backing despite an owner common-contract grey-backing inconsistency; this is not a model-error claim. Final actual prompt preserves source-specific backing color with canonical alpha rules. Both SHA domains verified, partial text adoption only.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
