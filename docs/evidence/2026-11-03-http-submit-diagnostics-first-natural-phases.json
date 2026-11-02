@@ -1,0 +1,30 @@
+{
+  "schema": "local-model-operations.owner-approved-public-annex/v1",
+  "mode_id": "http-candidate",
+  "case": "submission359-first-natural-diagnostic-phase",
+  "approval_scope": "Only this complete reviewed file is approved for shared public operations publication. Raw business logs, source, action identifiers and machine evidence stay on the execution machine.",
+  "parent": "Existing submission359 source/test/runtime case. This is a later observed execution of the adopted diagnostics, not another model request or test run.",
+  "observed_one_action": {
+    "phase_rows": 9,
+    "SUBMITTING_append_seconds": 47.3255266,
+    "native_submit_inclusive_seconds": 0.093160201,
+    "before_first_write_seconds": 0.0063696,
+    "history_get_seconds": 0.003599501,
+    "binding_writer_seconds": 0.0003498,
+    "binding_hook_seconds": 0.0046641,
+    "append_returned": true,
+    "hook_returned": true,
+    "new_SAVE_credit": 0
+  },
+  "verification": "Separate owner checked the frozen 1541-byte raw log hash against its typed receipt, all nine phase names and order, one thread/action context, monotonic differences and recorded elapsed spans. Adopted source identity and unchanged delegate matched the earlier actual instrumentation acceptance.",
+  "finding": "This observed delay is inside SUBMITTING append. The actual Native submit and its preparation hook are small in this action. Source investigation was redirected to the append implementation; no deletion of durability, fresh originals or Session checks was authorized.",
+  "diagnostic_delivery_issue": "The source writes System.err, but the Quarkus dev console captures these diagnostics in its stdout log. Earlier stderr-only reads missed already emitted rows. Check the actual runtime console routing before reporting that diagnostics were never produced.",
+  "model_credit": "No additional model executable adoption. The parent diagnostics were owner implemented after rejected model candidates. Actual diagnostic utility is established for this one observed action; net owner cost savings remain unknown.",
+  "limits": [
+    "Monotonic coordinates are not UTC timestamps.",
+    "Nested spans overlap and include diagnostic output overhead; do not add them together.",
+    "The two history rows lack action IDs and are associated only by the contiguous same-thread interval.",
+    "No CPU/IO decomposition, cache hit count, performance improvement or later saved day is established.",
+    "These measurements cannot be assigned retroactively to earlier actions."
+  ]
+}
