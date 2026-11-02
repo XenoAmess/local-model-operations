@@ -1,0 +1,241 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-ATOMIC-BLOCK-API-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_software_cutoff_UTC": "2026-11-02T03:36:34.024118+00:00",
+  "operator_review_UTC": "2026-11-02T03:40:35.786887+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Generate an explicitly shaped typed API and a bounded lock-acquisition basicblock; owner retains complete control-flow/state orchestration and executable oracle.",
+  "input": {
+    "complete_items": 12,
+    "physical_UTF8_bytes": 39065,
+    "detail": "Ten whole actual Java declaring owners/current caller/mature scalar reference, complete original assembly and explicit new declarations.",
+    "integrity": "All frozen whole-file digests and full decoded text matched every actual source message. Eight wire keys, system/user/user, temperature0, thinkingfalse, JSON object and SSE usage.",
+    "hint_level": "Mature scalar algorithm was in the prefix. Owner supplied pure API shape and instruction mapping for the lock. This is guided source translation/typed implementation, not blind semantic discovery or autonomous API architecture."
+  },
+  "calls": [
+    {
+      "role": "api",
+      "POST_BEGIN_UTC": "2026-11-02T03:11:10.898530+00:00",
+      "END_UTC": "2026-11-02T03:11:23.066296+00:00",
+      "max_tokens": 2700,
+      "complete_input_items": 12,
+      "physical_input_UTF8_bytes": 39065,
+      "source_message_UTF8_bytes": 42569,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 2.737086499997531,
+      "reported_HTTP_seconds": 12.168155899998965,
+      "usage": {
+        "prompt_tokens": 13306,
+        "completion_tokens": 1215,
+        "total_tokens": 14521
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 45156,
+        "sha256": "bcaed69969913a00de140ce0f6af5e1b3d9df665e01ab6616523d497628f1ff0"
+      },
+      "EVENTS_digest": {
+        "bytes": 2156,
+        "sha256": "fe8943ebf06fb5d25839c7200eec09047c50b5b72309a8d43942cb378b657902"
+      },
+      "CONTENT_digest": {
+        "bytes": 4968,
+        "sha256": "258bc101b841507558f6765bdf58fb0968ca04a20ae0880cf7ae088d62e31155"
+      },
+      "CONTENT_review": "Complete code decoded and byte-matched"
+    },
+    {
+      "role": "block",
+      "POST_BEGIN_UTC": "2026-11-02T03:11:10.897751+00:00",
+      "END_UTC": "2026-11-02T03:11:21.051486+00:00",
+      "max_tokens": 1700,
+      "complete_input_items": 12,
+      "physical_input_UTF8_bytes": 39065,
+      "source_message_UTF8_bytes": 42569,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 2.7382811999996193,
+      "reported_HTTP_seconds": 10.15410300000076,
+      "usage": {
+        "prompt_tokens": 13333,
+        "completion_tokens": 853,
+        "total_tokens": 14186
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 45301,
+        "sha256": "c40ac9fb1660bafc2713611f7fe19f9822329a487a818c0710c85c28e0c14d22"
+      },
+      "EVENTS_digest": {
+        "bytes": 2170,
+        "sha256": "8aec0dcc9c42fae51a5779706ed454a1912cc81d624c0c1ad4536380b376b520"
+      },
+      "CONTENT_digest": {
+        "bytes": 2791,
+        "sha256": "c05aff8e06711797f6db98f3a1f59b108daf8a2157fa5bb4a6732405398004d0"
+      },
+      "CONTENT_review": "Complete code decoded and byte-matched"
+    },
+    {
+      "role": "audit",
+      "POST_BEGIN_UTC": "2026-11-02T03:11:10.903470+00:00",
+      "END_UTC": "2026-11-02T03:11:26.269553+00:00",
+      "max_tokens": 1500,
+      "complete_input_items": 12,
+      "physical_input_UTF8_bytes": 39065,
+      "source_message_UTF8_bytes": 42569,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 2.7318603999956395,
+      "reported_HTTP_seconds": 15.366120699996827,
+      "usage": {
+        "prompt_tokens": 13299,
+        "completion_tokens": 1500,
+        "total_tokens": 14799
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 45152,
+        "sha256": "f1aac53b532e488ae211aef8c5819ea148b94736e2b1db75e67792ec06a220a8"
+      },
+      "EVENTS_digest": {
+        "bytes": 2189,
+        "sha256": "04924a253562d21c9baaaa1d5e7144ff2f2ec2566c07c1d301a60cb780fe5450"
+      },
+      "CONTENT_digest": {
+        "bytes": 4798,
+        "sha256": "7cc5e616662fa064d0e953aed379b5637b00024ccb9b8ede2d35db5a56c252d9"
+      },
+      "CONTENT_review": "Length body not opened; hash only; wholly discarded"
+    }
+  ],
+  "transport": {
+    "actual_POSTs": 3,
+    "ENDs": 3,
+    "complete_stop": 2,
+    "length": 1,
+    "transport_retries": 0,
+    "client_peak": 3,
+    "peak_spans": [
+      {
+        "BEGIN_UTC": "2026-11-02T03:11:10.903470+00:00",
+        "END_UTC": "2026-11-02T03:11:21.051486+00:00",
+        "seconds": 10.148016
+      }
+    ],
+    "peak_cumulative_seconds": 10.148016,
+    "HTTP_union_seconds": 15.371802,
+    "reported_HTTP_seconds_sum": 37.68837959999655,
+    "service_running_waiting_KV": null,
+    "target12_16_claimed_achieved": false
+  },
+  "adoption": {
+    "selected_decoded_sources": [
+      {
+        "role": "api",
+        "decoded_source": {
+          "bytes": 4822,
+          "sha256": "c78b7d43abdd3f6d107f7eac29aa961d93acdb3e9ead16f921265f3dc9494b93"
+        },
+        "owner_Java_EOL_EOF_changes": 0
+      },
+      {
+        "role": "block",
+        "decoded_source": {
+          "bytes": 2711,
+          "sha256": "4daf8fc15dc86f6be2ac2a3869a3937c7ba7840272b6e5d8d8ddda569b9f568e"
+        },
+        "owner_Java_EOL_EOF_changes": 0
+      }
+    ],
+    "API": "Complete first-R1 class4822 bytes adopted exact, zero owner Java/EOL/EOF edits; explicit owner nominal API contract.",
+    "lock_block": "Complete first-R1 class2711 bytes adopted exact, zero owner Java/EOL/EOF edits. Limited to the represented lock-acquisition block and finite software budget. One source-coordinate comment typo retained/qualified; executable branch was correct.",
+    "whole_orchestration": "Entire2831-byte normal control-flow/register/frame orchestration authored by owner. Two lower callbacks remain opaque; model block/API adoption does not confer whole algorithm credit.",
+    "audit": "Length1500 candidate wholly discarded unread. Output-budget loss remains owner prompting cost, not a clean semantic rejection; no fragments, R2 or whole review approval.",
+    "owner_oracle": "All five fixed11415-byte cases frozen before any response was read, using original source and mature-source knowledge. Independent of the new model output, not a source-naive blind task; no model Test generation or old stable-case replay."
+  },
+  "software": {
+    "checks": [
+      {
+        "stage": "JAVAC_PROD591",
+        "BEGIN_UTC": "2026-11-02T03:22:45.828035+00:00",
+        "END_UTC": "2026-11-02T03:22:46.475914+00:00",
+        "reported_process_seconds": 0.6478753999981564,
+        "exit_code": 0
+      },
+      {
+        "stage": "JAVAC_WITNESS591",
+        "BEGIN_UTC": "2026-11-02T03:35:32.858129+00:00",
+        "END_UTC": "2026-11-02T03:35:33.585887+00:00",
+        "reported_process_seconds": 0.7277544000025955,
+        "exit_code": 0
+      },
+      {
+        "stage": "RUN591",
+        "BEGIN_UTC": "2026-11-02T03:35:38.545198+00:00",
+        "END_UTC": "2026-11-02T03:35:38.696079+00:00",
+        "reported_process_seconds": 0.1508828000005451,
+        "exit_code": 0
+      }
+    ],
+    "new_owner_cases_passed": 5,
+    "old_case_execution": 0,
+    "model_Test_POSTs": 0,
+    "coverage": "Owned memory and stack-alias changes before the first flag read; byte comparison preserving higher register bits; compare-exchange busy/race/success paths on one memory bank; callback-updated saved/final state and original budget stop.",
+    "limitations": "Only finite software observations through the supplied memory/atomic port. No hardware concurrency/memory-order, pause timing, exception unwind, full Native ABI, actual Game/SAVE, earlier missing verification or project completion."
+  },
+  "formal_at_this_cutoff": {
+    "state": "PENDING_SOLE_WRITER_PUBLICATION_RECEIPT",
+    "commit": null,
+    "later_new_wrapper_may_require_first_selected_check": true,
+    "scope": "No formal commit or extra test count is inferred. Later publication/wrapper receipt belongs a separate annex; original pending delivery and first actuals remain frozen."
+  },
+  "clock_accounting": {
+    "first_known_preparation_clock_UTC": "2026-11-02T03:03:25Z",
+    "input_freeze_UTC": "2026-11-02T03:10:58.918094+00:00",
+    "final_RUN_END_UTC": "2026-11-02T03:35:38.696079+00:00",
+    "first_known_clock_to_RUN_wall_seconds": 1933.696079,
+    "input_freeze_to_RUN_wall_seconds": 1479.777985,
+    "first_prod_BEGIN_to_RUN_END_UTC_wall_seconds": 772.868044,
+    "prod_END_to_test_START_coordination_wall_seconds": 766.382215,
+    "test_compile_END_to_RUN_BEGIN_UTC_gap_seconds": 4.959311,
+    "reported_process_seconds_sum": 1.526512600001297,
+    "active_owner_labor_seconds": null,
+    "pre_known_clock_work_seconds": null,
+    "net_owner_saving_seconds": null,
+    "scope": "Known elapsed wall includes finite discovery/impact/decode, two incomplete/duplicate candidate qualifications with zero POST, complete HTTP wave, owner whole orchestration/five cases, source review, audit output loss and P0/resource/notification/coordination waits. Gaps are not wholly cold CPU or active labor; no inferred future resource HOLD."
+  },
+  "private_evidence_digests": {
+    "owner_manifest": {
+      "bytes": 16883,
+      "sha256": "a149492336240f5dd58ed04bf8068298196b3334214c4a7f8fa2db7382990bb3"
+    },
+    "model_cohort": {
+      "bytes": 4140,
+      "sha256": "b10c9da35be5a5f82594d0c86c788335c23e1c20ae6ea81f46faa68131288007"
+    },
+    "cost": {
+      "bytes": 1651,
+      "sha256": "d0aa6f9021cacc2a8b34f5aa1156cb68245c930d9bb1ac72521b520a24798385"
+    },
+    "source_manifest": {
+      "bytes": 3949,
+      "sha256": "db8dc59005ad1c7f99be0b2437a8a3568f1260bf073820020b23bac7ce523c85"
+    },
+    "adoption_boundary": {
+      "bytes": 2384,
+      "sha256": "a035e94a94efdff975d78c1a49096b9d4b6da8f35d3edeff051bf069719e8fdd"
+    },
+    "owner_oracle": {
+      "bytes": 1965,
+      "sha256": "56c65d62482b5cfd6b86fea06fc162ae36bd8275d0ddf1d0211dc0b049553c13"
+    }
+  },
+  "comparison_limits": "This guided API/block software adoption under current routing does not prove faster owner work, hardware correctness or mode superiority. HTTP and native OpenCode stay separate; unrelated recovery remains unsettled until real runtime receipts.",
+  "next_real_trigger": "Only an actual later publication receipt or genuinely new bounded API/block/counterexample requirement. Do not rerun this closed case, generate a large model oracle or repeat the closed native-tool loop to improve success counts.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}

@@ -311,3 +311,9 @@ owner在候选编译前发现旧binary缺当前API getter，0candidate/Test STAR
 [HTTP-CURRENT-BASELINE-PORT-001](evidence/2026-11-02-http-current-baseline-port.json)面对实际运行源码与formal主线不同，给37份完整源及独立合同共38items、408829B，复用成熟helper。三实际POST全stop/0重试，预算2500/3000/3500，峰3仅38.366126s。模型两hunk部分采用，owner将新branch移到既有pending分支前以满足合同，不能称全部raw或仅机械修改；两个prospective角色没看到候选，异常类型、size与deadline补偿错断拒绝，未授whole审批准。逐hunk重放与逆回都对上实际baseline，原有generic路径及其它源码完整保留。
 
 只增编一个消费者、既有public DATA/loopback测试方法对新tuple1P；成熟helper未重写/重编、此前四方法未重跑或加数。产物是待运行owner按before pins评估的兼容packet，无新formal源码commit，尚0运行采用，不能把旧baseline整叶覆盖新主线。marker→交付1265.724201s、marker→验证END1047.142726s；首strict→END24.179737s含18.624645s阶段协调，编译/JVM和5.555093s，主动工时/更早发现未知。旧实际大REQUEST未持，不授实缩、质量、恢复或实速。
+
+## 后到：有成熟参考与映射提示的API/锁基本块
+
+[HTTP-ATOMIC-BLOCK-API-001](evidence/2026-11-02-http-atomic-block-api.json)在前缀已有成熟scalar算法、owner API形状及锁逐指令mapping下，API首R1完整4822B、锁基本块首R1完整2711B均decoded字节采用，0owner Java/EOL/EOF改；一个源坐标注释笔误保留并限定，执行分支正确。整体2831B控制流/状态与五个固定Test由owner写，不能称盲源义发现、自主API设计或whole算法模型采用。三请求各12完整材料39065B，实际预算2700/1700/1500，2stop+1length/0重试，峰3仅10.148016s；audit半稿整弃未读，预算损失归owner准备，无R2或语义错误推断。
+
+首次三个生产源/Test严格编译及五新case通过只授单RAM/显式atomic port的软件观察；硬件并发/内存序/PAUSE时长/异常展开/Native/Game未知。首次已记准备→RUN1933.696079s、input freeze→RUN1479.777985s，三个进程和1.526513s；prod→Test766.382215s及Test→RUN4.959311s协调另列，包含P0优先/通知，不能全部标cold CPU。更早工作、主动工时与净节省未知；早期两个不完整/去重候选0POST成本保，软件交付cutoff正式回执pending，后到另附。
