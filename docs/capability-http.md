@@ -984,3 +984,7 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 ### 不可变 Driver 构造复用与独立 guided Test（321）
 
 [生产批准原文](evidence/2026-11-03-http-known-driver-constructor-reuse.md)记录强 owner 设计下两处 literal 原样采用；两份反审均 length 整弃，不能授审稿通过。静态编码次数减少不等于实速。独立 [Test 与后见勘误](evidence/2026-11-03-http-known-driver-guided-witness-later.json)记录四个真实 POST、新两方法首 2P：binding 实际只有一行有效 owner 断言修正，先前 JSON 转义误诊已撤回；encoding 唯一 R2 原方法采用但给了精确 owner 期待。准备/协调墙钟及 active unknown 分列，源码发表和 LOOP 不授该分支执行、SAVE 或收益。
+
+### 同历史 scope 的 command memo 与 legacy Proxy 兼容（320）
+
+[批准正文](evidence/2026-11-03-http-bounded-command-reuse-owner-opt-in.json)保留两份完整 stop、49.079395 秒真实重叠与模型代码全部拒收。owner 重构后发现新增 default 方法不会自动进入既有 JDK Proxy 的默认实现，四个旧适配器未供原模型属于影响分析输入缺口；改为显式 opt-in 保旧入口。首组六方法 5P1F 后仅改错误异常期待并重跑失败项 1P。2424.240196 秒整墙钟与 45.089115 秒进程和分列，active unknown，纯 DATA memo 不授 IO 资格缓存或收益。[后到正式](evidence/2026-11-03-http-bounded-command-reuse-later-formal.json)另附，批准正文 pending 切点不回写。

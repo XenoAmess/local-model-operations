@@ -1,0 +1,73 @@
+{
+  "schema": "local-model-operations.portable-command-reuse/v1",
+  "case": "bounded-pure-command-decode-320",
+  "mode": "ordinary-fixed-three-message-http",
+  "caller": "shared canonical Python caller; no OpenCode tools or service probes",
+  "input": {
+    "complete_java_files": 40,
+    "marked_caller_extract_files": 1,
+    "physical_source_bytes": 613741,
+    "roles": [
+      {
+        "role": "implement",
+        "source_message_bytes": 620646,
+        "task_message_bytes": 4638,
+        "max_tokens": 6000,
+        "reported_prompt_tokens": 130749,
+        "reported_completion_tokens": 4192,
+        "seconds": 61.189707,
+        "ttft_seconds": 31.737065,
+        "cached_tokens": null,
+        "stop_done": true
+      },
+      {
+        "role": "audit",
+        "source_message_bytes": 620646,
+        "task_message_bytes": 3186,
+        "max_tokens": 3800,
+        "reported_prompt_tokens": 130468,
+        "reported_completion_tokens": 1788,
+        "seconds": 49.079634,
+        "ttft_seconds": 33.483637,
+        "cached_tokens": null,
+        "stop_done": true
+      }
+    ]
+  },
+  "actual_http": {
+    "tasks": 2,
+    "attempts": 2,
+    "overlap_seconds": 49.079395,
+    "code_adopted_from_responses": false,
+    "implementation": "rejected: nonexistent Java key API, absent old literals, checked exception errors, failure gate and byte-LRU defects; response itself admitted compile blockers",
+    "audit": "partial only: valid remaining body-hash cost; invented line numbers and per-instance cache assumption contradicted shared thread-local ownership"
+  },
+  "owner": {
+    "reconstructed": true,
+    "later_impact_finding": "New default methods on an interface are not automatically invoked by JDK dynamic Proxy handlers. Four existing adapter contracts rejected the new callback. Owner narrowed reuse to an explicit opt-in codec entry; legacy entry keeps its old callback graph.",
+    "input_boundary": "Those legacy test adapters were discovered after the original prompts; their absence is an owner impact-analysis gap, not an original model finding.",
+    "memory_contract": "Exact full canonical bytes, private cloned backing, nonexposed readonly buffer key; retained decoded values must be transitively immutable. Bound both entries and retained key bytes, use LRU rather than first-N. No raw-byte bound is an RSS claim."
+  },
+  "software": {
+    "selected_prod_strict": true,
+    "first_test_group": "5 pass, 1 owner oracle failure",
+    "correction": "Existing session gate throws an unchecked contract exception. Only the failed method expectation was corrected and rerun: 1 pass; the prior five were not rerun.",
+    "separate_checks": "Real owned temporary writer scope; alias/token/LRU/lifetime/poison checks; each fresh receipt and body hash/state callbacks preserved. Arbitrary callback-caught errors outside the archive wrapper are distinct from recorded helper/store poison.",
+    "scope": "Existing historical-read scope only; ordinary sessions and some preliminary reads remain outside reuse."
+  },
+  "cost": {
+    "full_wall_seconds": 2424.240196,
+    "validation_wall_seconds": 1515.491166,
+    "process_seconds_sum": 45.089115,
+    "http_seconds_sum": 110.269341,
+    "owner_active_seconds": null,
+    "waits_failures_revision_and_resource_priority_included": true
+  },
+  "cutoff": {
+    "formal_publication": "pending at sealed delivery",
+    "business_runtime_adopted": false,
+    "speed_verified": false,
+    "hot_loading_verified": false
+  },
+  "lesson": "Qualify lifecycle and dispatch boundaries separately. Default API additions can change old adapter callbacks; preserve the legacy entry rather than rewriting old tests to accept the optimization."
+}
