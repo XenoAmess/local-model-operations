@@ -538,3 +538,9 @@ owner合同frame+40/448/20未标0x，原ASM虽明确也不能把提示说成无�
 [HTTP-IMMUTABLE-READ-VALIDATION-CFG-001](evidence/2026-11-02-http-immutable-read-validation-cfg.json)实现两轮各16whole/333773B、独立counter24whole/554261B实际三消息，2500/2500/3500三POST三stop/0retry，真实无重叠峰1。R1内联漏setter custody，R2拆if链让Live落Watch强转，均whole拒0执行片段；counter不可变DTO/失败路径IO变化事实局采，generic fail-fast REJECT未建立成功漏验反例，不授wholeaudit。后读嵌套整数声明只闭owner源审，不回填模型输入。
 
 owner57421B单条件guard逆回baseline逐byte等，完整原分支链保；success全校验仍必经，失败首诊断/IO/poison时序可能变，非所有schedule等价。首1TU0/2.590168s+既有affected Test编0/1.971739s，首JVM缺Support setup红3.571623s，仅补两个既有binary后同一方法31.642416s/1P；无新Test编写、重编或旧suite刷绿。完整prep/review/activeunknown、四process与全wall分账，不归44秒整span/健康worker/速度。原software pending保，后见正式5d939194仅owner源字节，0模型代码/新运行/SAVE。
+
+## 后到：新上层薄接线采用与独立oracle拒绝
+
+[HTTP-UPPER-TRANSFER-THIN-BINDING-001](evidence/2026-11-02-http-upper-transfer-thin-binding.json)15whole49264B实际三角色REQUEST全文/顺序核；3POST3stop/0retry、峰3仅9.686531s。强hint typed binding完整2022B R1 decoded→compiled raw逐byte/EOF等、0owner执行/EOL改，成熟下层算法不重复授模型信用。owner API661B/Test8298B及预冻两case期待未入witness；独立witness误parent预清/header/selfalias整拒0oracle，不R2。frame最终hinted delta对但等式漏8字节CALL，仅partial事实，非独立完整证明。
+
+首2prod/Test/manual2newupper同RAM47checks全0，只sameallocator distinct/selfalias，不授递归frame分支动态覆盖/Native全ABI/COPY/reverse/Root权限；旧lower case不跑。473.967577s仅selectedmanifest→RUN对2.596370s三process，早期/activeunknown、metadata brace preJava错误分账。原software pending不改，后到7be66a67三blob/EOF raw=formal且0新编测；0Game/SAVE/实速或模式净收益。
