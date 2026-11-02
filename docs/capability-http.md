@@ -1062,3 +1062,6 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 
 
 614 [后到正常formal](evidence/2026-11-03-http-known-byte-copy-tail-later-formal.json)186ea657另附三source payload发表，原3481B pending/五console组及不完整任务起点保持；本最小tuple不追认raw与formal字节相同或新的验证，不增加第六case，无Runtime/hardware/实速授信。
+
+
+342 [custom输出与初始index的兼容body路线](evidence/2026-11-03-http-custom-output-indexed-body-route.json)只复制owner批准4089B正文。两个新ordinary三消息stop/partial源方向、0modelcode或whole批准，27项341657物理B/actual源码消息348794B；26.286804重叠不作owner工时。唯一新标准Maven组合custom双输出、初始index与C2请求，同loader/delegate/thread保留，原worker及fresh call观察body变更，53.853903进程秒与529.091092已录wall/activeUNKNOWN分列。无新增类型、实际C2tier、当前业务采用或提速证明，不混341视频或重做旧312。
