@@ -658,3 +658,9 @@ Owner原三low地址块case+两API组在HTTP END后CONTENT前冻，未覆盖high
 [HTTP-GUIDED-BULK-WITNESS-FIXTURE-REPAIR-001](evidence/2026-11-02-http-guided-bulk-witness-fixture-repair.json)30完整材料961557physical/967886源码消息wire，两次6500预算均完整stop、无retry/length/R3，实际区间无重叠/峰1，POST→END合54.235173s。生产候选、成熟fixture/reference和owner合同可见，不是盲oracle。R1整拒未编；R2有限body partial，owner修Session不能逃离locked回调、import、固定late-record身份和正负分支Head/Driver/Native计数不变门。原11906B→owner12839B，diff独核，不追whole raw或生产实现信用。
 
 首Test strict0后JVM1F发生在第二软件command的fresh READ准备、bulk断言尚未到，非bulk生产语义红。仅owner换真实software-read/action组合fixture并先装成熟fresh准备→13436B；从held绑定起全部bulk期待/后缀byteexact不改，必要Test重编0→同一新方法首次1P，旧绿和生产/helper/fixture源0重编。四进程53.318656s对首POST→末RUN1598.078477s、失败→retry strict715.538228s与5.934008s phasegap分账，早期准备/active/netunknown；source→cachedfixture字节同一性仍UNKNOWN，实际ABI路径已编跑不能补造byte provenance。后见正式22fb6bfd仅该Test raw/blob/EOF等，原红/阶段cutoff保留；无whole bootstrap/UNKNOWN、Native权限/Game/SAVE/实速信用。
+
+## 新pure-DATA见证：实际caller数组与转义误诊分账
+
+[HTTP-GUIDED-REPLAY-ARRAY-OWNERSHIP-001](evidence/2026-11-02-http-guided-replay-array-ownership.json)是新的重建helper两方法见证，独立于bulk和passive预算任务。22完整源279269physical，源码消息R1 283622/R2 296358wire；两6500完整stop、0retry/length/R3，实际无交叠/峰1、POST→END48.353172s。生产实现/成熟pure-literal框架和owner具体合同可见，旧public路径仅差分基线，不是盲oracle。R1裸assert/非法ref/错误metric与负例未触分支等whole拒未编；owner把合法packet Java转义误诊为双escape的反馈已撤，原REQUEST不改，不记模型错误。
+
+R2 body partial，owner把“另clone再mutation”改为成功调用的同一caller数组返回后变更，并核完整DATA/semantic及精确state/evidence；11627→11688B差分独核。父首次编译前仅补WIRE对象末尾1字节brace→11689B，原像保且无compiler红。首Test strict0/JVM首次2P0skip，0旧Test/生产/helper/JNA依赖增编；6.039997s过程对622.397604s首POST→末RUN墙钟/6.216169s gap，早期/active/netunknown。后见782b9a3d仅Test raw/blob/EOF等，0新编验；不授private archive I/O trace/并发race/当前权限/Native或Game/加载与速度。
