@@ -462,3 +462,9 @@ owner全producer/step/Test，literal场景POST前冻但具体Book在生产审后
 [HTTP-SELECTED-SOURCE-QUALIFICATION-NEGATIVE-001](evidence/2026-11-02-http-selected-source-negative.json)两真实analysis role各2200/2600、41/45完整selected code，physical559605/512132B→actualmessage572094/524872B逐全文核，2stop/0retry、峰2仅36.882333s。request角色未建立具体可达decode错，笼统archive即充分/通用outer匹配不采；其private verifier/frame guard深body未入REQUEST，owner后读不回填完整authorityproof。natural角色安装可用/泛SEND-APPLIED前提与整链就绪说法不授，只有局部源事实，0代码/oracle；analysis角色不纳实现采用率。
 
 owner实际prepare→permit/decode源核未支持新patch，两个先前serializer/unsigned假设按原producer/API撤回；自然cause/material所需实际原件/关系仍缺，不能用source或retained标签造权限、fixture或“有用完成”。本选择0source/Test/编RUN/Java发表，不是全研究SOURCE_STOP。发现/影响闭合早期起点与activeunknown，late输入snapshot不当task起点，37秒HTTP不是全部墙钟/省时；wrongmodule准备成本单列。两模式长期责任保，下一真正新source/原件齐才再验，不刷此负题。
+
+## 后到：typed named factory与实际生产guard六项软件验证
+
+[HTTP-TYPED-FACTORY-ROUTE-REVIEW-001](evidence/2026-11-02-http-typed-factory-route-review.json)是旧重载勘误后的新单元。owner新增明确catalogue+result callback工厂，caller只替调用token；App LF-projection inverse/Root raw inverse各精确。两项真实2400审稿见16完整源426865B及owner新实现，均200stop/0retry，但交换重载类型/叫ambiguity、猜List与错exception，whole审/新finding0采用；局部factory字段支持不冒模型设计/代码采用，重复ownerpatch不采。两个首编App1.709229s/Root2.115429s早于POST。
+
+后继owner独立8929B私有witness反射调用真实production guard方法、非字段窥视/复制谓词，六项manual-main PASS验证返回Complete确被检查、旧5/6构造failclosed、保catalogue分支与null callback拒绝；不是JUnit六方法，也不授真实Root权限/全receipt replay。新Test1.629822s/JVM2.106270s、两者gap50.225851s协调分列。formal27cdbe App42079B rawwhole精确，Root runtime43132B≠formal43327B，仅ownedtoken port保已有classifier；0为Git/运营重编。旧293路由错误和旧295metadata刷新另保，不倒授新模型或旧首绿；本source cutoff实际运行结果/SAVE/提速unknown，两模式继续分轨。
