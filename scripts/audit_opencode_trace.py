@@ -295,6 +295,7 @@ def audit_trace(root: Path) -> dict:
         report["requests"].append(entry)
     groups, counts = {}, {}
     final_text = False
+    events_complete = True
     event_path = root / "CLI-EVENTS.jsonl"
     try:
         if event_path.is_symlink():
@@ -308,13 +309,20 @@ def audit_trace(root: Path) -> dict:
                     if not isinstance(event, dict):
                         raise ValueError
                 except (ValueError, RecursionError):
+                    events_complete = False
                     errors.append({"record": "cli_event", "ordinal": ordinal, "error": "invalid_json_object"})
                     continue
                 part = event.get("part")
                 if not isinstance(part, dict):
+                    if event.get("type") == "text":
+                        events_complete = False
+                        errors.append({"record": "cli_event", "ordinal": ordinal, "error": "invalid_text_part"})
                     continue
                 if event.get("type") == "text":
                     text = part.get("text")
+                    if not isinstance(text, str):
+                        events_complete = False
+                        errors.append({"record": "cli_event", "ordinal": ordinal, "error": "invalid_text_value"})
                     final_text |= isinstance(text, str) and bool(text.strip())
                 if event.get("type") != "tool_use":
                     continue
@@ -342,6 +350,7 @@ def audit_trace(root: Path) -> dict:
                     else:
                         group["grep"][_normalize_grep_multiset(parsed)] += 1
     except (OSError, UnicodeError):
+        events_complete = False
         errors.append({"record": "cli_events", "error": "missing_or_unreadable"})
     repetitions = report["tools"]["repetition_groups"]
     for (tool, name_sha, args_sha), group in sorted(groups.items()):
@@ -368,10 +377,12 @@ def audit_trace(root: Path) -> dict:
         "finish_counts": dict(finishes), "owner_stop_evidence": owner_stop,
         "owner_interrupted_attempts": interrupted, "unknown_attempts": unknown,
         "assistant_text_event_present": final_text,
+        "event_stream_complete": events_complete,
         # This trace format has no response-ID link from CLI text to SUMMARY.
         # Intermediate assistant text cannot establish a final-answer event.
-        "final_text_present": None if final_text else False,
-        "final_text_association": "UNKNOWN_NO_RESPONSE_LINK" if final_text else "NO_TEXT_EVENTS",
+        "final_text_present": None if final_text or not events_complete else False,
+        "final_text_association": ("UNKNOWN_INCOMPLETE_EVENTS" if not events_complete else
+                                   "UNKNOWN_NO_RESPONSE_LINK" if final_text else "NO_TEXT_EVENTS"),
         "exit_code": (actual.get("exit_code") if actual and type(actual.get("exit_code")) is int else None),
     }
     if actual:

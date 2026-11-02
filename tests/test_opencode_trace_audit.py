@@ -146,6 +146,12 @@ class TraceAuditTests(unittest.TestCase):
             self.assertEqual(3, len(report["requests"]))
             self.assertEqual(2, len(report["errors"]))
             self.assertNotIn("private-session-id", json.dumps(report))
+            self.assertIsNone(report["termination"]["final_text_present"])
+            self.assertFalse(report["termination"]["event_stream_complete"])
+            (root / "CLI-EVENTS.jsonl").unlink()
+            report = AUDIT.audit_trace(root)
+            self.assertIsNone(report["termination"]["final_text_present"])
+            self.assertEqual("UNKNOWN_INCOMPLETE_EVENTS", report["termination"]["final_text_association"])
 
     def test_unknown_tool_identity_does_not_merge_and_nonjson_numbers_are_errors(self):
         trace = copy.deepcopy(FIXTURE["cases"][0]["trace"])

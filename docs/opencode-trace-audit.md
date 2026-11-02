@@ -23,6 +23,6 @@ grep 归一化只识别完整 `Found N matches`、绝对文件标题及缩进或
 
 read 的 `truncated=true` 可能仅表示请求区间后还有行。只有结果明确写出 `Output capped at ... KB` 才计字节 cap；`totalLines` 可能只是可见输出范围，不能据此证明已读完整文件。工具不打开 `filePath` 来核内容，`source_parity` 始终为 UNKNOWN。owner-stop 记录与不完整流的关联也不证明网络故障根因；stop 本身不代表出现文本，更不代表业务答案正确。
 
-`assistant_text_event_present` 只表示日志出现了非空文本事件。当前格式没有从 CLI 文本到 HTTP SUMMARY 的 response-ID 关联：有文本时 `final_text_present=null` / `final_text_association=UNKNOWN_NO_RESPONSE_LINK`，不能由另一次 stop 追授最终文本；没有文本事件时为 false。该限制由[首次发布后的 owner 复核](evidence/2026-11-03-http-trace-auditor-text-association-note.json)另行收紧，原证据不回写。
+`assistant_text_event_present` 只表示日志出现了非空文本事件。当前格式没有从 CLI 文本到 HTTP SUMMARY 的 response-ID 关联：有文本时 `final_text_present=null` / `final_text_association=UNKNOWN_NO_RESPONSE_LINK`，不能由另一次 stop 追授最终文本；完整可读事件流中没有文本时为 false。事件流缺失、无法完整解析或文本形状损坏时，`event_stream_complete=false` / `final_text_association=UNKNOWN_INCOMPLETE_EVENTS`，不能把未持记录写成没有文本。该限制由[首次发布后的 owner 复核](evidence/2026-11-03-http-trace-auditor-text-association-note.json)及后继缺记录检查收紧，原证据不回写。
 
 没有固定总步数、POST 或 wall 上限，没有自动 kill、重发或业务动作。7 项针对性 Python 检查涵盖独立合成场景及隐私/异常形状；另对既有两组真实只读日志完成适配核对，见[采用与成本](evidence/2026-11-03-http-readonly-trace-auditor.json)。生成模式是普通三消息 HTTP，产物用于 OpenCode 日志，不能算一轮新的原生模型任务或宣称节省了 owner 工时。
