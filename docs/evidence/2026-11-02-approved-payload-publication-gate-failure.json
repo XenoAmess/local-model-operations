@@ -1,0 +1,28 @@
+{
+  "schema": "local-model-operations.operator-publication-incident/v1",
+  "case_id": "OPS-STAGED-BYTE-GATE-FAILURE-001",
+  "mode_id": "operations-not-model-generation",
+  "date": "2026-11-02",
+  "failed_publication_commit": "b9a1e1d674f366f671a76466c2decf1a577bad79",
+  "additive_correction_commit": "ef8ac5a456b25007f204a97221bf4a3bcf7a643d",
+  "failure": "A required approved/working/staged exact-byte check returned nonzero after Git text normalization. The operator incorrectly continued to commit and push. This was a publication control-flow failure, not a model or business source error.",
+  "approved_payload": {
+    "bytes": 5556,
+    "sha256": "4cc9237f0d9c33b66e7b813cbeace84ea01acef9732a33ccb9f00124ad4b6e23"
+  },
+  "first_published_blob": {
+    "bytes": 5417,
+    "sha256": "9e7206f7003f616fc576084cb70e2372427987fce066ae89f2447d1c07117bf0"
+  },
+  "corrected_blob": {
+    "bytes": 5556,
+    "sha256": "4cc9237f0d9c33b66e7b813cbeace84ea01acef9732a33ccb9f00124ad4b6e23"
+  },
+  "scope": "One approved payload had CRLF normalized in the first commit. The two accompanying approved notes were already byte exact. Original approval and private source evidence were not rewritten.",
+  "repair": "Preserved the failed commit; added exact-path -text attributes, restaged with renormalization, reran all three approved/working/staged byte comparisons successfully, and published an additive correction.",
+  "required_future_gate": "Any required raw/working/staged hash or content check returning nonzero immediately stops this publication unit. No later commit or push may run in a finally block, as an unguarded continuation, or in parallel with the failed check. Repair first, then rerun all required checks before normal publication.",
+  "owner_active_seconds": null,
+  "net_cost_or_saving_seconds": null,
+  "new_model_HTTP_GET_JVM_Game_for_repair": 0,
+  "limits": "The incident does not change model adoption, software results, private raw evidence or runtime qualification. Successful repair does not erase the original process failure."
+}
