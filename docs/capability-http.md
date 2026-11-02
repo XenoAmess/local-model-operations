@@ -782,3 +782,7 @@ Owner entry1413B/6unitTest14770B、复用成熟短块，growth明确unsupported�
 [HTTP-COMPLETE-GETTER-FIRST-CALL-BINDING-222](evidence/2026-11-02-http-complete-getter-first-call-binding.json)给全8项当前输入12253物理B/13721实际源码消息B、强API/fieldflow/first-site提示；2400/3000两POST均stop/0retry，短峰2仅6.94328s。R1两完整类322/2081B decoded raw/EOF精确采用，owner Java0；见证矩阵错wrap/fresh回调与self结果，整拒0oracle/noR2，不从原样小类推独立全算法设计。
 
 Owner七scene POST前独冻未供，另两same-target后CALL/TAIL排除项POST后执行前另冻。首2prod/Test/RUN0，9新logical scenes/25checks；2.339812s过程对119.057755s验证wall及329.730558s inputfreeze窗口，更早发现与activeunknown。仅getter/第一call组合、后续仍opaque，原incoming参数不默认；不授physicalABI/Native/Root/自然业务。原软件formalpending保，后见1ed0c5eb三源raw/formal/EOF等/0复验另记，0实载/实速信用。
+
+## 窄非增长callee组合600：完整class原样与owner新见证
+
+[HTTP-KNOWN-NONGROWTH-COMPOSITION-600](evidence/2026-11-02-http-known-nongrowth-composition-600.json)保17完整项48221物理B/52399源码消息B，2500/2300两stop；4118B R1完整class/EOF原样、owner Java0，强signature/routing/fallback设计提示保。反审具体RVA/SP/POP与非有限输入错误拒，仅一般约束partial。Owner四新wholebinding，104global=96Memory+4opaqueInvoke+4Budget；原首pred仍opaque，growth显式不支持。Oracle均两HTTP END后、首次CONTENT前冻，非生成前盲oracle；无旧case/算法复制。真实峰2仅11.989997s，不冒持续并发；三首次0的1.508044s过程对1041.257522s已录wall，早发现/active/netunknown。原softwarepending保，后见4b45cfe4三个source blob的raw/正式/EOF投影与wrapper同组selected1P分账，不新增场景；0完整FP增长/一般RFLAGS/Native/Game/SAVE/实速信用。

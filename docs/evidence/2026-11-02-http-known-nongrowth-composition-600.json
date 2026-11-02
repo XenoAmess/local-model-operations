@@ -1,0 +1,164 @@
+{
+  "schema": "local-model-operations.capability-case/v1",
+  "case_id": "HTTP-KNOWN-NONGROWTH-COMPOSITION-600",
+  "mode_id": "http-candidate",
+  "date": "2026-11-02",
+  "environment": {
+    "model_alias": "qwen38-coder",
+    "backend_weight_quantization_build": null,
+    "invocation_caller_Git_version": null,
+    "actual_parameters": "Canonical fixed system/user/user, temperature0, thinkingfalse, include_usage and finite budgets checked; current HEAD is not substituted for an unfrozen invocation version."
+  },
+  "input": {
+    "complete_source_items": 17,
+    "physical_bytes": 48221,
+    "full_source_message_UTF8_bytes": 52399,
+    "hints": "Strong exact public shape, signature, nominal Memory, current caller/callee routing, budget/fallback and explicit unsupported-growth architecture supplied. No new owner method body, Test or oracle in model prefix. Mature references were visible; not autonomous API discovery or whole-algorithm design."
+  },
+  "HTTP": {
+    "logical_tasks": 2,
+    "actual_POST": 2,
+    "stop": 2,
+    "length": 0,
+    "retry": 0,
+    "selected_client_peak": 2,
+    "peak2_seconds": 11.989997,
+    "requests": [
+      {
+        "role": "adapter",
+        "POST_BEGIN": "2026-11-02T14:49:09.430229+00:00",
+        "END": "2026-11-02T14:49:21.420361+00:00",
+        "max_tokens": 2500,
+        "finish_reason": "stop",
+        "TTFT_ms": 4080.6646999990335,
+        "total_ms": 11990.191699995194,
+        "usage": {
+          "prompt_tokens": 17728,
+          "completion_tokens": 1040,
+          "total_tokens": 18768
+        },
+        "cached_prompt_tokens_if_reported": null,
+        "source_message_UTF8_bytes": 52399
+      },
+      {
+        "role": "audit",
+        "POST_BEGIN": "2026-11-02T14:49:09.430364+00:00",
+        "END": "2026-11-02T14:49:26.092935+00:00",
+        "max_tokens": 2300,
+        "finish_reason": "stop",
+        "TTFT_ms": 3827.3100999940652,
+        "total_ms": 16662.724299996626,
+        "usage": {
+          "prompt_tokens": 17539,
+          "completion_tokens": 1689,
+          "total_tokens": 19228
+        },
+        "cached_prompt_tokens_if_reported": null,
+        "source_message_UTF8_bytes": 52399
+      }
+    ],
+    "limits": "Exact selected cohort only; not sustained12-16 or service load."
+  },
+  "adoption": {
+    "complete_R1_class_raw_bytes": 4118,
+    "sha256": "e885d70a1b5da1239028030241f391c46055868d4308a494d479079acad27173",
+    "owner_Java_EOF_or_EOL_edits": 0,
+    "corrective_R2": 0,
+    "boundary": "Complete hinted thin class, unused imports retained. Redundant target guard was already implied by the actual frame constructor; no semantic owner fix.",
+    "audit": "Complete concrete counterexamples rejected: code RVA confused with stack address, missing pop width, symbolic values instead of finite inputs. General fresh restore/budget/unsupported-growth facts partial only; zero oracle/Test/code adoption, no corrective retry.",
+    "owner_Test": "All new expected values and Test code are owner. Oracle frozen after both HTTP END and before first CONTENT read, before target execution. Mature mechanical RAM template may be reused; no old case inputs/expected or algorithm copy.",
+    "observation_limit": "Original caller admission and failure retain actual RAM writes/lock state. First predicate remains controlled opaque; known append callee is invoked directly."
+  },
+  "software": {
+    "first_phases": [
+      {
+        "phase": "JAVAC_PROD",
+        "seconds": 0.5735408000036841,
+        "exit_code": 0
+      },
+      {
+        "phase": "JAVAC_WITNESS",
+        "seconds": 0.7404663999914192,
+        "exit_code": 0
+      },
+      {
+        "phase": "RUN",
+        "seconds": 0.19403640000382438,
+        "exit_code": 0
+      }
+    ],
+    "facts": {
+      "class_bytes": 4118,
+      "owner_Test_bytes": 12883,
+      "new_whole_binding_cases": 4,
+      "global_operations": 104,
+      "Memory": {
+        "total": 96,
+        "read": 52,
+        "write": 40,
+        "CAS": 4
+      },
+      "controlled_opaque_primary_invocations": 4,
+      "budget_events": 4,
+      "parent_CALL_pushes": 8
+    },
+    "source_or_expected_repair_after_execution": 0,
+    "old_cases_or_sources_rerun": 0,
+    "limits": "Non-growth binding only. Full floating-point growth/control-status, general RFLAGS, original Native, physical ABI/EH, hardware/Game, SAVE and whole-module completion remain unproved."
+  },
+  "cost": {
+    "known_impact_clock": "2026-11-02T14:45:19+00:00",
+    "known_impact_to_POST_seconds": 230.430229,
+    "known_impact_to_RUN_END_seconds": 1041.257522,
+    "process_sum_seconds": 1.5080435999989277,
+    "prod_to_Test_gap_seconds": 343.370414,
+    "Test_to_RUN_gap_seconds": 8.952173,
+    "owner_active_seconds": null,
+    "net_time_saving": null,
+    "boundary": "Earlier discovery not fully clocked. Includes input closure, parallel HTTP, source audit, owner oracle/Test, cache arguments, coordination and overlapping work; not exclusive labor or CPU.",
+    "owner_preparation_errors": "Before oracle freeze, count summary incorrectly split reads/writes; actual finite inputs/traces/byte consistency were unchanged. Only two summary literals corrected; failed builder retained, not a model or JVM error. An initial AddFile header failed before source write and an earlier guessed source path was corrected."
+  },
+  "formal": {
+    "original_software_pending_cutoff_unchanged": true,
+    "late_commit": "4b45cfe4d171016a94b7e9afc1e18d73638912ca",
+    "source_blob_projections": [
+      {
+        "raw_bytes": 4118,
+        "raw_sha256": "e885d70a1b5da1239028030241f391c46055868d4308a494d479079acad27173",
+        "formal_bytes": 4078,
+        "formal_sha256": "9fda8483d3298288cfdd0ec602cc9f873a5e676759fbad04df0ce6888f125562",
+        "EOF_preserved": true,
+        "raw_equals_formal": false
+      },
+      {
+        "raw_bytes": 12883,
+        "raw_sha256": "62da38abfaa49aae45521023c49b0276cc8ce2fb8a3d993153e2a7c7f60366ec",
+        "formal_bytes": 12883,
+        "formal_sha256": "62da38abfaa49aae45521023c49b0276cc8ce2fb8a3d993153e2a7c7f60366ec",
+        "EOF_preserved": true,
+        "raw_equals_formal": true
+      },
+      {
+        "raw_bytes": 363,
+        "raw_sha256": "e718bee88dd5d4365e8013c695bfabc19c3969b8c3b1505788762dc134ca315f",
+        "formal_bytes": 363,
+        "formal_sha256": "e718bee88dd5d4365e8013c695bfabc19c3969b8c3b1505788762dc134ca315f",
+        "EOF_preserved": true,
+        "raw_equals_formal": true
+      }
+    ],
+    "only_new_wrapper": {
+      "compiled_TU": 1,
+      "selected_JUnit_methods_passed": 1,
+      "same_cases_not_an_extra_case": true,
+      "pins": 92,
+      "process_sum_seconds": 1.2009140999871306,
+      "wall_seconds": 6.033632,
+      "phase_gap_seconds": 4.832717,
+      "old_production_API_manual_recompiled": 0
+    },
+    "scope": "Publication wrapper invokes the same new finite units; it does not add another case or replay the old suite."
+  },
+  "runtime_adoption_or_speed_credit": false,
+  "new_operator_HTTP_GET_JVM_Game": 0
+}
