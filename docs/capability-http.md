@@ -1247,3 +1247,6 @@ M7 254-next [nested row rebuild controlled witness](evidence/2026-11-03-http-nes
 232 [represented error-root四函数同RAM链](evidence/2026-11-03-http-represented-error-root-four-function-chain.json)仅批准metadata：30whole115248/msg119912×2，双STOP/0retry/峰2仅16.021574s；1695R1完整raw0owner强wiringhint，counter五正确frame/guard只是合同核对0独立oracle。5owner212instr数值trace prePOST，JavaTest两END后生成；Native首1prod+1Test+RUN0/5scene84checks(2normal3prefix)，phase2.9039132 vs133.318687验证窗/488.961306 freeze窗/早taskstart-activeUNKNOWN。父报告中断原rawNOT_HELD只保报告与22:52:27两目录无旧POST，不造分类/重发；无fullmachine/Native/natural或静态对象内容信用，formal原pending。
 
 M7 next254 [批准最小formal后见](evidence/2026-11-03-http-nested-row-rebuild-witness-later-formal.json)4d063794，only1newTest/rawbyteexact/同1P不增方法或POST；原6858pending/owner四getter首RED与两个拒稿全保。POST→formal3235.910640/Ready→formal2170.004560/首次JUnit后512.482670都是观察wall，activeNULL/0newvalidation；writer独立regex准备错不归模型或软件，0Nativeallocator/Game/SAVE/实速。
+
+
+359 [同parent两次自然动作后见](evidence/2026-11-03-http-submit-diagnostics-two-natural-actions-later.json)批准2150B原样，保Root首2531B与source9723B所有原cutoff；不增两原HTTP或3P分母。两个append47.3255266/19.342193201秒，相应Native inclusive93.160201/62.1565毫秒；只定位append wrapper，尚无内部callee、CPU/存储或物理write归因。不同action负载不是A/B，nested不可加、同步诊断输出开销未测、没有提速或后SAVE信用。System.err进入Quarkus stdout的观测路由纠正保持，0新HTTP/JVM/Game/GET/probe。
