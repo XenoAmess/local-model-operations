@@ -299,3 +299,9 @@ owner在CONTENT前冻结四个新case，首次生产/Test严格编译及RUN4通�
 [HTTP-TYPED-BRIDGE-001](evidence/2026-11-02-http-typed-bridge.json)按交付单位分别记：薄typed桥完整3394B decoded source采用、owner未改执行token，保存为3463B仅69处LF→CRLF；page基本块length2000整弃未读，owner另写874B、无R2。完整1439B ABI/state定义在POST前已由owner提供，四个新Test方法及literal也由owner独立冻结。三实际REQUEST各含11份完整材料，预算2000/2400/1900，2stop+1length/0重试，峰3仅9.282804s。独审只有局部源事实接受，unsigned分支方向及16bit写高位判断错误，不能作为whole审批准。
 
 首次三生产源/Test严格编译及四方法通过仅授纯软件边界，硬件segment/stack/guard-page/EH/flags仍未知。marker→交付949.929849s、首生产编译→RUN94.462302s与三执行进程和3.006588s分列，主动工时和marker前发现未知，不宣布节省。后到正式cbd71f39对桥做LF/尾白投影3463→3250、EOF保留，三份SHA分列；原owner将3463B称decoded raw exact的字节口径保旧并勘误。无新编验、装载或实际提速信用。
+
+## 后到：明确API提示后的signed/raw owner方法采用
+
+[HTTP-SIGNED-OWNER-JOIN-001](evidence/2026-11-02-http-signed-owner-join.json)只修一个现有方法的两处signed公开身份/raw uint32 owner join。owner已点名位置和typed转换API；R1虽完整stop，仍留signed前门、漏类型限定并误读absent值，整稿在编译前拒绝。必要R2经具体纠正后完整方法采用，0owner执行token改动，仅原newline投影和方法后多一空白分隔行，方法外inverse据此分账。独审仅提示后源事实partial，全部四个新oracle/Test方法由owner写，不能称模型独立发现或整体审可靠。三实际POST均stop，预算2600/3000/1800、每份15完整Java+合同154409B，峰2仅16.607036s。
+
+owner在候选编译前发现旧binary缺当前API getter，0candidate/Test START；补一个必要support源后原候选/Test通过，这不是模型输入缺失或候选编译红。真实baseline新positive断言红1，candidate新四方法4P0skip，原日志保留。完整source→RUN1263.197457s与六执行进程和19.339412s分列，主动工时/更早发现未知；后到正式2821e088两个blob原SHA/EOF一致，未新增编验。只授有限软件join，不授natural cause、Root许可、Native/Game或未完成业务恢复。

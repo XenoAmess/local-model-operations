@@ -1,0 +1,284 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-SIGNED-OWNER-JOIN-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_software_cutoff_UTC": "2026-11-02T02:36:40.957569+00:00",
+  "metadata_review_UTC": "2026-11-02T03:18:28.663203+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "input_integrity": "All frozen declared whole files matched digest and decoded full text in each actual source message. Eight wire keys, fixed current system/user/user, temperature0, thinkingfalse, JSON object, stream with usage. No raw source or request/response body is published.",
+  "calls": [
+    {
+      "role": "production_R1",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T02:17:56.328035+00:00",
+      "END_UTC": "2026-11-02T02:18:16.257794+00:00",
+      "max_tokens": 2600,
+      "full_input_items": 15,
+      "input_physical_UTF8_bytes": 149435,
+      "source_message_UTF8_bytes": 154409,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "content_TTFT_seconds": 9.440492100002302,
+      "reported_HTTP_seconds": 19.92981210000289,
+      "usage": {
+        "prompt_tokens": 35854,
+        "completion_tokens": 1370,
+        "total_tokens": 37224
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 160746,
+        "sha256": "0d531c06cdb118d28c35eb1c83cb1a66eb2368a3ae729f66a4c10d43d650a7c3"
+      },
+      "EVENTS_digest": {
+        "bytes": 2063,
+        "sha256": "59c39540aac1ff60bb8440a5527d21162302f96a4d1bb9ac838d1d1fc387e027"
+      },
+      "CONTENT_digest": {
+        "bytes": 5566,
+        "sha256": "862d9b3305d8d6182d22688f5161ca493ccc987c7570fefcc9bc981d6312663c"
+      },
+      "CONTENT_review": "Complete response reviewed"
+    },
+    {
+      "role": "source_audit_R1",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T02:17:56.328049+00:00",
+      "END_UTC": "2026-11-02T02:18:12.935085+00:00",
+      "max_tokens": 3000,
+      "full_input_items": 15,
+      "input_physical_UTF8_bytes": 149435,
+      "source_message_UTF8_bytes": 154409,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "content_TTFT_seconds": 8.460606599997845,
+      "reported_HTTP_seconds": 16.607189700000163,
+      "usage": {
+        "prompt_tokens": 35878,
+        "completion_tokens": 937,
+        "total_tokens": 36815
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 160928,
+        "sha256": "9b8b67ab55721b8e09dbeff13877eb5757fafff1501316ed9b2760c6f63fbe8d"
+      },
+      "EVENTS_digest": {
+        "bytes": 2071,
+        "sha256": "6d15b1d36eb2ec755054cd3761a63d9f258267af61367a4ce6b372dbe5bf2353"
+      },
+      "CONTENT_digest": {
+        "bytes": 3558,
+        "sha256": "272932fb5fa95e016199fd1ac074ca34229eb97cd88e823c32b69a6689274181"
+      },
+      "CONTENT_review": "Complete response reviewed"
+    },
+    {
+      "role": "production_R2",
+      "semantic_round": 2,
+      "POST_BEGIN_UTC": "2026-11-02T02:21:03.177734+00:00",
+      "END_UTC": "2026-11-02T02:21:05.780180+00:00",
+      "max_tokens": 1800,
+      "full_input_items": 15,
+      "input_physical_UTF8_bytes": 149435,
+      "source_message_UTF8_bytes": 154409,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "content_TTFT_seconds": 0.8024858999997377,
+      "reported_HTTP_seconds": 2.6025594000020646,
+      "usage": {
+        "prompt_tokens": 36141,
+        "completion_tokens": 327,
+        "total_tokens": 36468
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 162051,
+        "sha256": "b61cc52d97e036035c8a4618e608b5274650f1b117054aa677c066024742bcde"
+      },
+      "EVENTS_digest": {
+        "bytes": 2125,
+        "sha256": "8a0db0515f7f6328bf89ee452e26d8e6bda3739941a3b08a92b440ada257bfe9"
+      },
+      "CONTENT_digest": {
+        "bytes": 1352,
+        "sha256": "a56d925248fd663cd54e5a3dba498080cad0bad7389e027353f0fda38640c444"
+      },
+      "CONTENT_review": "Complete response reviewed"
+    }
+  ],
+  "transport": {
+    "logical_tasks": 3,
+    "actual_POSTs": 3,
+    "actual_ENDs": 3,
+    "complete_stop": 3,
+    "length": 0,
+    "transport_retries": 0,
+    "client_peak": 2,
+    "peak_spans": [
+      {
+        "BEGIN_UTC": "2026-11-02T02:17:56.328049+00:00",
+        "END_UTC": "2026-11-02T02:18:12.935085+00:00",
+        "seconds": 16.607036
+      }
+    ],
+    "peak_cumulative_seconds": 16.607036,
+    "HTTP_union_seconds": 22.532205,
+    "reported_HTTP_duration_sum_seconds": 39.13956120000512,
+    "service_running_waiting_KV": null,
+    "target12_16_claimed_achieved": false
+  },
+  "formal_at_software_cutoff": {
+    "state": "PENDING_RECEIPT_AT_THAT_CUTOFF",
+    "commit": null
+  },
+  "later_formal_annex": {
+    "observed_UTC": "2026-11-02T02:43:42.884519+00:00",
+    "commit": "2821e0886d745307215f5496a744813753c35400",
+    "normal_push_remote_exact_clean": true,
+    "new_compile_RUN_HTTP_for_publication": 0,
+    "files": [
+      {
+        "raw_bytes": 11899,
+        "raw_sha256": "58b739cc8e71a30810e27f241bfa8f3792d48cd8c213d8b94c86d19b20da53e9",
+        "formal_bytes": 11899,
+        "formal_sha256": "58b739cc8e71a30810e27f241bfa8f3792d48cd8c213d8b94c86d19b20da53e9",
+        "EOF_preserved": true
+      },
+      {
+        "raw_bytes": 12010,
+        "raw_sha256": "119d393b566044c07226a1be735ffb5f40730d95b39b4825b305b9da99cd22ec",
+        "formal_bytes": 12010,
+        "formal_sha256": "119d393b566044c07226a1be735ffb5f40730d95b39b4825b305b9da99cd22ec",
+        "EOF_preserved": true
+      }
+    ]
+  },
+  "private_evidence_digests": {
+    "owner_delivery": {
+      "bytes": 5084,
+      "sha256": "d67239e2166f596fdf68cd4a0e079baf957c10fcfcc5b8ffd0111903daa15b57"
+    },
+    "formal_staged": {
+      "bytes": 33696,
+      "sha256": "1fe949434aadba1a8889262ee0e9be1451eee9fa4978c8077dc07dab6ef7e6b0"
+    },
+    "formal_publication": {
+      "bytes": 1016,
+      "sha256": "a3c03a2b0a399700c7653437273a8ef6c4b14e28ad8952af39a386c489e15915"
+    },
+    "model_cohort": {
+      "bytes": 4511,
+      "sha256": "a196e8679dfbf7c43a5feda2fcb0d58f9e44fe78a2e7ca804e17a170453f7fa8"
+    },
+    "owner_cost": {
+      "bytes": 1049,
+      "sha256": "a1dd28293917bac527b64fd9ee7702bb5d83e6770a62c3fcf8a9b6e10cc8c6ce"
+    },
+    "owner_validation": {
+      "bytes": 18149,
+      "sha256": "19f7e197f8a3cfef50e4300ef1608bd37bc53b9830ac7e941a8872d405037024"
+    },
+    "owner_oracle": {
+      "bytes": 1569,
+      "sha256": "cf6cfd7948880a7ed11d4146dda9fd0bd9631635dc64b38f48abdc1c25e19c28"
+    },
+    "binary_qualification_addendum": {
+      "bytes": 736,
+      "sha256": "4ec6c879d2a4edc2cc7fa1376d365d6189f562dffc7ffeec6e415bafd61daced"
+    }
+  },
+  "scope_limits": "Finite software source adoption only. No hardware stack/Native/Game, private permission, loaded runtime, actual cause, saved days, performance or completed business recovery credit. This record does not establish a permanent model ceiling or mode superiority.",
+  "next_real_trigger": "A genuine new narrow API/block/binding or source counterexample with complete actual declarations; owner whole orchestration/oracle and meaningful software checks remain separate. Do not replay closed cases or the closed OpenCode loop for a success quota.",
+  "publication_new_HTTP_JVM_Game_actions": 0,
+  "task": "Correct two raw-uint32 versus signed-public-owner joins in one existing terminal-transition method, using the explicitly supplied typed conversion API.",
+  "adoption": {
+    "production_R1": "Whole complete method rejected before compilation: one pre-owner guard remained signed, type qualification was missing, and absent-1 was treated as a valid actor despite provided declarations.",
+    "production_R2": "One complete method string adopted after explicit correction hints, zero owner executable/token edits. Method LF projected to original file newline plus one blank separator line; outside-method inverse matches baseline after removing that one added blank line.",
+    "hint_level": "Owner had already named both joins, target method and typed API. R2 identified the exact R1 guard/type/absent-1 mistakes. This is guided method adoption, not unhinted discovery.",
+    "audit": "Partial hinted source facts retained; eight conceptual cases did not supply the complete malformed-token matrix. No model code/Test/oracle adoption, no whole independent review approval.",
+    "owner_Test": "Entire four-method new executable oracle/Test authored by owner before model output was read; mature helpers reused, no old suite rerun.",
+    "original_flags": "Original transport/source review flags and pending publication cutoff remain frozen. Reviewed decision and later formal receipt are separately traceable."
+  },
+  "decoded_method_identity": {
+    "UTF8_bytes": 1284,
+    "sha256": "8f150b094d1c5c4c5dd28883da99729b2ee5929707f4c08b57591c22d9c93d04",
+    "owner_executable_token_changes": 0,
+    "extra_boundary_blank_lines": 1,
+    "owner_original_projection_claim_preserved": "Frozen cohort said outside-body byte inverse equality; direct operator check identifies the one non-executable blank separator line separately."
+  },
+  "owner_binary_qualification": {
+    "issue": "Current API was included in every request, but the owner-held old binary lacked its conversion getter.",
+    "before_fix_candidate_Test_STARTs": 0,
+    "observed_candidate_compiler_RED": false,
+    "action": "One necessary current support source compiled, then unchanged candidate/Test proceeded.",
+    "attribution": "Owner binary qualification gap; neither missing model source nor model compilation failure. Baseline compiled earlier remains a separate actual."
+  },
+  "software": {
+    "checks": [
+      {
+        "stage": "baseline",
+        "BEGIN_UTC": "2026-11-02T02:26:24.622162+00:00",
+        "END_UTC": "2026-11-02T02:26:28.523160+00:00",
+        "reported_process_seconds": 3.900991200003773,
+        "exit_code": 0
+      },
+      {
+        "stage": "support",
+        "BEGIN_UTC": "2026-11-02T02:31:37.078085+00:00",
+        "END_UTC": "2026-11-02T02:31:39.513223+00:00",
+        "reported_process_seconds": 2.4351279999973485,
+        "exit_code": 0
+      },
+      {
+        "stage": "prod",
+        "BEGIN_UTC": "2026-11-02T02:31:43.054653+00:00",
+        "END_UTC": "2026-11-02T02:31:45.822169+00:00",
+        "reported_process_seconds": 2.767507200005639,
+        "exit_code": 0
+      },
+      {
+        "stage": "test",
+        "BEGIN_UTC": "2026-11-02T02:31:48.924799+00:00",
+        "END_UTC": "2026-11-02T02:31:51.950103+00:00",
+        "reported_process_seconds": 3.0252923000007286,
+        "exit_code": 0
+      },
+      {
+        "stage": "baseline-run",
+        "BEGIN_UTC": "2026-11-02T02:33:50.292374+00:00",
+        "END_UTC": "2026-11-02T02:33:53.553043+00:00",
+        "reported_process_seconds": 3.2606587999980547,
+        "exit_code": 1
+      },
+      {
+        "stage": "run",
+        "BEGIN_UTC": "2026-11-02T02:34:05.247613+00:00",
+        "END_UTC": "2026-11-02T02:34:09.197457+00:00",
+        "reported_process_seconds": 3.9498347000044305,
+        "exit_code": 0
+      }
+    ],
+    "baseline": "One new positive wrapper-owner join returned false against expectedtrue: actual business assertion RED, not setup failure.",
+    "candidate": "Four new owner SOFTWARE methods,4P0skip; includes signed actors, unsigned owner joins, wrappers, malformed values and existing independent guards.",
+    "model_Test_POSTs": 0,
+    "old_tests_RUN": 0,
+    "stderr": "Original unrelated logging-manager errors retained on both JVM executions, no suppression/repeat.",
+    "scope": "A corrected owner join does not establish natural cause, private Root permission, Native original provenance or runtime recovery."
+  },
+  "clock_accounting": {
+    "first_recorded_source_clock_UTC": "2026-11-02T02:13:06Z",
+    "last_new_RUN_END_UTC": "2026-11-02T02:34:09.197457+00:00",
+    "source_to_final_RUN_wall_seconds": 1263.197457,
+    "reported_process_sum_seconds": 19.339412200009974,
+    "active_owner_labor_seconds": null,
+    "pre_marker_discovery_seconds": null,
+    "net_owner_saving_seconds": null,
+    "scope": "Full recorded window includes current-source/impact review, full API closure, two HTTP waves, owner oracle/Test, binary qualification and resource/coordination waits. Request/process sums do not measure active labor or CPU."
+  }
+}
