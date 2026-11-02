@@ -53,6 +53,8 @@ CLI区间总和2171.995330s（约36分12秒），跨任务有并行，不等于�
 
 后两项各响应16000输出tokens、每HTTP180s；无限总步数不取消单响应有限输出和实际文件/业务权限。普通三消息接口保留；这轮没有验证由模型工具执行测试、Git或Game动作，也没有验证原生SDK所有网络故障下的重试策略。
 
+Civ6160—163仍为HTTP候选，4次CLI维护前置与业务实机分开；[采用／软件与原生边界](evidence/2026-11-02-civ6-religious-layers.json)。0新OpenCode原生生成，不能从390软件绿授原生工具或跨模式收益。
+
 Civ6156—159仍为HTTP候选，4次CLI维护前置不算原生工具生成；采用与实机后到见[独立回执](evidence/2026-11-02-civ6-religious-input.json)。本轮0native生成，未做跨模式收益比较。
 
 后继Civ6154／155仍采用HTTP，相关实机后到与采用见[独立回执](evidence/2026-11-02-civ6-religious-control.json)；没有新OpenCode原生生成或跨模式比较。

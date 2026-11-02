@@ -1,0 +1,220 @@
+{
+  "schema": "local-model-operations.civ6-religious-layer-delivery/v1",
+  "date": "2026-11-02",
+  "machine_id": "BF-202609141645",
+  "batch": {
+    "requests": 4,
+    "complete": 4,
+    "length": 0,
+    "retries": 0,
+    "actual_client_peak": 2,
+    "peak_intervals_seconds": [
+      9.872015,
+      41.299724
+    ],
+    "server_concurrency": null,
+    "cached_tokens": null
+  },
+  "cases": [
+    {
+      "sequence": 160,
+      "case_id": "HTTP-CIV6-GURUROUTE160",
+      "mode_id": "http-candidate",
+      "shared_commit": "8ac16cb007fe54bf3eb4a693cff3a07244472362",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 3500,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T10:27:28.374103+00:00",
+      "attempt_end_utc": "2026-11-02T10:27:45.515406+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 17134.38210001914,
+        "first_nonempty_content_delta_ms": 4888.874600001145,
+        "usage": {
+          "prompt_tokens": 26025,
+          "completion_tokens": 1825,
+          "total_tokens": 27850
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected",
+      "review": "Copied unavailable local PlayerContext/CoreIdle/UnitIndex/Revealed; wrong apostle type MISSIONARY; square grid instead of hexadjacency, missing required checks. Not executed.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 161,
+      "case_id": "HTTP-CIV6-INQUISITORELIGIBILITY161",
+      "mode_id": "http-candidate",
+      "shared_commit": "8ac16cb007fe54bf3eb4a693cff3a07244472362",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 3000,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T10:27:28.372614+00:00",
+      "attempt_end_utc": "2026-11-02T10:27:38.246118+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 9865.703800023766,
+        "first_nonempty_content_delta_ms": 1513.2352000218816,
+        "usage": {
+          "prompt_tokens": 4647,
+          "completion_tokens": 616,
+          "total_tokens": 5263
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected",
+      "review": "Units[id] instead of exact fullID lookup; CoreGetType inUI; invented unit.IsHuman; missing human/SP/type/formation/position/readiness and visiblecity boundaries. Not executed.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 162,
+      "case_id": "HTTP-CIV6-RELIGIOUSLAYERS162",
+      "mode_id": "http-candidate",
+      "shared_commit": "467e97e9c66b421921ec215ad6c425177e24f00d",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 4500,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T10:47:10.532224+00:00",
+      "attempt_end_utc": "2026-11-02T10:47:52.497536+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 41967.39899998647,
+        "first_nonempty_content_delta_ms": 16429.549099993892,
+        "usage": {
+          "prompt_tokens": 22668,
+          "completion_tokens": 1312,
+          "total_tokens": 23980
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-owner-corrected",
+      "review": "Four real consumer replacements adopted. Owner rewrote helper visibility, function/MapLayers/numericenum/type guards; removed ID-only dedup; pairs merge and named emptycheck. Candidate claimed missingenum failclosed without guarding MapLayers.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 163,
+      "case_id": "HTTP-CIV6-RELIGIOUSLAYERTESTS163",
+      "mode_id": "http-candidate",
+      "shared_commit": "467e97e9c66b421921ec215ad6c425177e24f00d",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 4200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T10:47:10.500304+00:00",
+      "attempt_end_utc": "2026-11-02T10:47:51.831948+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 41331.92319999216,
+        "first_nonempty_content_delta_ms": 21942.700400017202,
+        "usage": {
+          "prompt_tokens": 27425,
+          "completion_tokens": 1196,
+          "total_tokens": 28621
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected",
+      "review": "Python nil and undefined Lua self.w; zero-based Lua indexing; invalid unitrow; primaryoverlap confounded intended religious-onlycase; wrong business expectations. Not executed; owner wrote10 behavior methods.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "native46": {
+    "commit": "77489d4cb4ab05e9105467bb7ced5eea80d1dcff",
+    "evidence": "https://github.com/XenoAmess/civ6_dev/blob/77489d4cb4ab05e9105467bb7ced5eea80d1dcff/docs/research/baiqi-p6-religious-actions-native46-evidence-2026-11-02.json",
+    "result": "Actual apostle physical religious combat moves2→0, own/enemy damage27/28,no war; guru actual physical nativebuttonheal charges3→2, damage27→0 in UI/Core. Repositionwas explicit native player callbacks, not physicalmovementcredit. Inquisitor action charges3→2,cityfaith0→2 readback, observerfailure retained and no actionreplay.",
+    "background_windows": [
+      {
+        "turn": 78,
+        "callbacks": 13621,
+        "watched": 5,
+        "operations": 0,
+        "commands": 0
+      },
+      {
+        "turn": 79,
+        "callbacks": 3879,
+        "watched": 3,
+        "operations": 0,
+        "commands": 0
+      }
+    ]
+  },
+  "formal_source47": {
+    "commit": "1c63cd5cdcc158e64439e2dd2915762168df4c52",
+    "evidence": "https://github.com/XenoAmess/civ6_dev/blob/1c63cd5cdcc158e64439e2dd2915762168df4c52/docs/research/baiqi-p6-religious-layers-source47-evidence-2026-11-02.json",
+    "software": "10newmethods initially reported9assert failures including subtests, then10PASS;7existingoverlapPASS;full390PASS65.711s. Ownerreview/testintegration, notautomaticmodelcredit.",
+    "native": "PENDING; newprocesscoldlaunchstarted17288 afterfreshreadonlyoffline11:03:19UTC, no savedworld native47claim."
+  },
+  "experience": "Default Units.GetUnitsInPlot onlyprimary; verifiedreligiouslayer3 inCore/UI. Background combinesprimary+religious, notANY/SPY/TRADE. Missing bindings/dataunknown cannot authorize movement. Generic native operations use actual row.Hash when guessed enum absent. GetNumFollowers is Core cityreligion only, UIcallfailed; Core religioncomponent.GetReligiousHealCharges actual while unit-levelgetterUIonly.",
+  "owner_error": "Native C assert receives second native multireturn table asmessage and throws before wrapping; root incorrectly continued queuedphysicalclick, then restorednonexistentobserver. Actionnotreplayed; actualCorecost/effect recordedwithpartialinstrumentation. Capturefirstresultthenassertbool; gate each dependency onexitcode. RegisteredUIcallbacks cancaptureoriginal global (wrapper0) whileactualnative sink1 proves action; do not fabricatecallbackentry.",
+  "maintenance": "4 actual canonicalCLI preflights, same-machine/user dailycache policy; no upgrade or OpenCode-native generation credited.",
+  "cumulative_civ6": {
+    "logical_requests": 163,
+    "complete": 155,
+    "length": 8,
+    "retries": 0,
+    "historical_actual_peak": 13,
+    "historical_peak_duration_seconds": null
+  },
+  "limits": [
+    "No natural faithpurchase/acquisition or actualforeignfaithpurge proof.",
+    "No missionaryescort or full40 conclusion.",
+    "Unknown ownercost/cache/backendhardware and no net timesaving or crossmodecomparison.",
+    "Rawrequest/SSE/game/save data ignored."
+  ]
+}
