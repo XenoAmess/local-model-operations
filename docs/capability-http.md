@@ -956,3 +956,7 @@ Owner whole5824与Test14983均ANYCONTENT前，oracle首POST前，八新FP-aware 
 [608独立formal后见](evidence/2026-11-03-http-fp-aware-represented-queue-whole-formal.json)7dc74101三个已选source813/5824/14983 raw/formal/EOF逐byte等，另340B薄JUnit wrapper不新增第九组；本annex未持wrapper独立actual，不补造验证。原a7f9508软件pending、全部HTTP/采用/owner8组与unknownactive不改，正式源码不代实际装载/速度，0新请求/编验。
 
 [607独立formal后见](evidence/2026-11-03-http-guided-finite-truncation-correction-formal.json)b932667a模型R2 helper编译raw2848→正式2847仅1行尾space；owner whole3777/Test8351 raw/formal/EOF精确，336B薄wrapper不新增第14组。本annex未持wrapper独立actual，不补造验证。原f2e4333软件pending文件逐byte等原commit，三个stop/R1完整语义拒→R2 raw采用/owner13组与920.274909wall/activeunknown不回写；0新模型/编验/装载/速度。
+
+[HTTP-PREINTENT-LIFE-BUDGET-OWNER-IMPLEMENTATION-318](evidence/2026-11-03-http-preintent-budget-owner-implementation.json)21完整已选current源，4200/3000两stop、0retry/R2，reported154775/154795 prompt tokens不冒wireB/缓存；峰2仅50.714891s。实施错成员/monotonic算式/clean门/回调与无限continue整拒0code；独立counter未看candidate，immutabledeadline是已冻旧约束，其余误读拒，0neworacle。Owner七组两leaf与两新Test四有限DATA方法首0/4P，全owner归因。
+
+进程合计7.799501s与sourceReady→4P767.895798s、prodReady558.118840s、TestReady→strict314.821741s、witnesswindow11.623565s/gap6.855995s分列且不相加，主动工时/更早发现unknown。后见ee52f243两生产仅CRLF→LF、两Test raw/EOF逐blob核，原pending不改；未验证实际Controller pre-execute/Root callback集成，Runtime sourceclosure明确未采用，0真实deferral/retry/SAVE/速度。
