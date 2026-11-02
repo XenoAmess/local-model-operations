@@ -367,3 +367,9 @@ owner新Test/model0，首strict后3方法1P2F来自owner与父审漏看既有wra
 [HTTP-CALLBACK-PROOF-REUSE-001](evidence/2026-11-02-http-callback-proof-reuse.json)为同callback内消除重复完整历史遍历的真实需求；12完整源物理226179B，稳定前缀/实际message2为227935B，2文件119处CRLF转双LF空行投影单列，不冒原raw全文相同或缺声明。owner先给具体局部不可变result设计并已独立物化13edit候选；implementation没有ownerpatch，audit有完整候选patch，不称盲发现。实现stop只交文字蓝图、prepared路径计数亦错，0Java采用；audit length2600曾被owner实际阅到前后反转/重复tab正文，再整稿弃，不能记未读或完整审通过。2POST/1stop1length/0retry，峰与全部窗口据BEGIN/END列，不推cache/拥塞或持续目标。
 
 owner13edit正逆精确，私有局部proof仅在同role/session/thread一次callback内复用；每callback完整冷验仍在，写入前核实际Head完整字段与新transition，0跨callback/session缓存。received/known/failed静态2→1、prepared1→1仅源路径，不证明调用次数或旧超时成因。必要首1TU1.770470s和后到正式0d9599ca rawexact独立，0行为Test/装载/恢复/性能信用。主动准备/审阅与全任务起点未知，候选早于POST的录得墙钟另列；完整审稿本身尚未交付，不为凑采用加R2。
+
+## 后到：小swap仍需最后可见状态修正
+
+[HTTP-BOUNDED-SWAP-STATE-001](evidence/2026-11-02-http-bounded-swap-state.json)将全ABI编排留owner，只派具名小memory块/有限反审。实际8/8/9份完整文本按顺核wire；R1 length1800被owner阅过部分诊断后整弃0采用，不称unread或完整语义失败。R2在owner补明实际RCX/RAX坐标并给真实caller后stop463，1214B decoded仅加owner最后XMM0赋值一行41B成1255B；删此行逆回全部decoded bytes/EOF，因此是partial+执行状态修正，不能记whole raw。audit2300预算完整stop2226，仅有限事实采，早返回/寄存器/除数等错误拒。
+
+3POST2stop1length/0retry，峰2仅56.455718s；owner5946B全体与15782B Test分账，literal早于POST但owner后见生产，不授wholeblind oracle。两新prod/一Test首8P有限软件，三进程3.338924s与firstprod→RUN324.390378s、marker→delivery786.899117s分列，主动工时和更早发现未知。原warning保留，原软件cutoff正式pending不改；后到845b638c三源raw/formal精确、0新编测，0Native硬件/整selector/实际游玩与提速信用；无R3或旧绿补验。
