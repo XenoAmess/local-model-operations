@@ -1198,3 +1198,6 @@ M0 manager-static [428B正常formal后见](evidence/2026-11-03-http-captured-del
 
 
 361 [mature producer exact caller薄绑定](evidence/2026-11-03-http-static-footer-exact-binding-reuse.json)批准3187B原样：8wholeJava+2ASM/25707physical/msg28914each，两STOP/0retry/峰2仅9.868001s；thinbinder无owner语义改、复用成熟算法非重造，review部分源资格且nominal accessor/write说法错由owner据完整声明纠，不当whole批准。Owner3newmanualcase63checks三首0/旧0重编重跑，非JUnitCI；3.1681778进程/23.3792573HTTPsum/890.463862标记窗、更早discovery/fulltask-activeNULL保。D-only textserializer重复CR被字节断言拦住、新writebytes补丁正逆LF投影而0额外JVM，原source/首绿不改。另见动态two-read缺口交原producer owner，未抄重复算法；formal原pending、unknown tail/native语义显式ports，不授runtime/fullABI/OS/Game/收益。
+
+
+361 [481B正常formal后见](evidence/2026-11-03-http-static-footer-binding-later-formal.json)a1236f5e两leaf normalpush/remoteexactclean、0postvalidation，raw CRLF与formal LF分SHA记录，不冒raw整叶编过formal字节；原3187B pending/3manualcase63checks/owner pack错误和未知工时保，0currentRuntime或收益。
