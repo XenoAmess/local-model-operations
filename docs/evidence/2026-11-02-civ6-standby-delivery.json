@@ -1,0 +1,208 @@
+{
+  "schema": "local-model-operations.civ6-standby-delivery/v1",
+  "date": "2026-11-02",
+  "machine_id": "BF-202609141645",
+  "batch": {
+    "new_tasks": 4,
+    "http_attempts": 4,
+    "complete_json_objects": 3,
+    "length_whole_discarded": 1,
+    "transport_retries": 0,
+    "client_peak_in_flight": 1,
+    "intervals": "4 disjoint intervals; individual begin/end included. Not sustained concurrent4.",
+    "current_in_flight": 0,
+    "server_concurrency": null,
+    "cached_tokens": null
+  },
+  "maintenance": {
+    "daily_cache_hit": true,
+    "record_version": "1.19.5",
+    "upgraded_by_these_checks": false,
+    "native_opencode_generation": false
+  },
+  "cases": [
+    {
+      "case_id": "HTTP-CIV6-NONBAIQIFIXTURE143",
+      "mode_id": "http-candidate",
+      "shared_commit": "8975e297a6ca884abd6bcc519ea3c32b15453eb9",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "model_alias": "qwen38-coder",
+      "backend_identity": null,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 1800,
+      "source_message_utf8_bytes": 11315,
+      "post_begin_utc": "2026-11-02T04:26:29.547516+00:00",
+      "attempt_end_utc": "2026-11-02T04:26:33.464293+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "candidate_complete": true,
+        "total_ms": 3910.458900005324,
+        "first_nonempty_content_delta_ms": 802.5462999939919,
+        "usage": {
+          "prompt_tokens": 3858,
+          "completion_tokens": 508,
+          "total_tokens": 4366
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-prepared",
+      "owner_review": "Complete setup candidate retained with owner-added pre-mutation player-slot precondition. Exact verified native IDs/order provided. Native setup and other-leader/art outcomes not run; not production code adoption. Initial owner source-path error made0POST then corrected; not HTTP retry.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "case_id": "HTTP-CIV6-TURNORDER144",
+      "mode_id": "http-candidate",
+      "shared_commit": "8975e297a6ca884abd6bcc519ea3c32b15453eb9",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "model_alias": "qwen38-coder",
+      "backend_identity": null,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 2800,
+      "source_message_utf8_bytes": 113273,
+      "post_begin_utc": "2026-11-02T04:33:08.788146+00:00",
+      "attempt_end_utc": "2026-11-02T04:33:22.602389+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "candidate_complete": true,
+        "total_ms": 13824.477999994997,
+        "first_nonempty_content_delta_ms": 4649.817299999995,
+        "usage": {
+          "prompt_tokens": 30619,
+          "completion_tokens": 1475,
+          "total_tokens": 32094
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "analysis-reference-only",
+      "owner_review": "Existing idle-gate idea partly referenced; code0 adopted. Unsupported assertion that Busy flags/race cause was already confirmed rejected. Owner implemented gate at actual native boundaries while retaining receipt reconciliation/elapsed during busy; initial all-Tick gate regressed three old checks before correction.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "case_id": "HTTP-CIV6-HELDSTANDBY145",
+      "mode_id": "http-candidate",
+      "shared_commit": "8975e297a6ca884abd6bcc519ea3c32b15453eb9",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "model_alias": "qwen38-coder",
+      "backend_identity": null,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 2600,
+      "source_message_utf8_bytes": 108612,
+      "post_begin_utc": "2026-11-02T04:37:38.417831+00:00",
+      "attempt_end_utc": "2026-11-02T04:37:49.505455+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "candidate_complete": true,
+        "total_ms": 11088.17299999646,
+        "first_nonempty_content_delta_ms": 4418.53059999994,
+        "usage": {
+          "prompt_tokens": 29490,
+          "completion_tokens": 1015,
+          "total_tokens": 30505
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected",
+      "owner_review": "Complete helper rejected: explicitly forbids pending slots despite required coexistence with unknown persistent pending, lacks final fresh collection fullID/type/formation revalidation. Owner wrote whole helper/integration, no model code adopted.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "case_id": "HTTP-CIV6-STANDBYPOSTCHECK146",
+      "mode_id": "http-candidate",
+      "shared_commit": "c866428ec00dfd903aabf3a2b9ba5dd197bc5746",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "model_alias": "qwen38-coder",
+      "backend_identity": null,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 1600,
+      "source_message_utf8_bytes": 104748,
+      "post_begin_utc": "2026-11-02T04:44:56.229070+00:00",
+      "attempt_end_utc": "2026-11-02T04:45:11.060283+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "length",
+        "sse_done": true,
+        "candidate_complete": false,
+        "total_ms": 14825.176400016062,
+        "first_nonempty_content_delta_ms": 3943.7722000002395,
+        "usage": {
+          "prompt_tokens": 28131,
+          "completion_tokens": 1600,
+          "total_tokens": 29731
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "length-whole-discarded",
+      "owner_review": "length1600, whole candidate discarded, no splice/adoption/semantic classification. Owner inadvertently opened raw text in same tool batch before checking terminal metadata; not an approved candidate. Owner wrote actual inside-native-callback mutation test from independently planned contract.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "owner_delivery": {
+    "commit": "4857b04058ed6690d6b07c70a29652ecd2a79bac",
+    "evidence": "https://github.com/XenoAmess/civ6_dev/blob/4857b04058ed6690d6b07c70a29652ecd2a79bac/docs/research/baiqi-p6-standby-source44-evidence-2026-11-02.json",
+    "native_trigger": "Source43 actual autonomous spread3to2/followers0to2/CoreOBSERVED, followed by same-turn move0then4 and ordinary next-turn BLOCKED on ready entrusted units. No phase-cause/cost PASS inferred.",
+    "software": "9 new actual Controller/Core boundary methods, original tests retained,363PASS60.310s.44 installed65source-equal files;44native stillPENDING at freeze.",
+    "owner_faults": [
+      "Accidental filename collision replaced old standby-project fixtures/test; full run357 instead of363 and5 fixtureerrors. Restored exact untouchedHEAD originals, preserved new cases under unique civilian names.",
+      "Initial broad busy gate prevented existing fact reconciliation/pending elapsed; corrected after3 old checks failed.",
+      "One existing trader test now proves busy0neworders before restoringidle; original capacity/wait behavior retained."
+    ],
+    "not_model_credit": "Final helper, integration and9test methods owner-authored; native43 outcome and44software do not retro-grant rejected/length candidates success."
+  },
+  "limits": [
+    "No measured net owner savings or mode A/B.",
+    "Native44 standby costs/activity/normal-turn recovery pending.",
+    "No new opencode-native generation; maintenance-only record remains separate.",
+    "Private raw evidence remains on execution machine."
+  ],
+  "next": "Actual cold44 restored-native-turn window; other-leader fixture143 may be executed only after review and native identity verification."
+}

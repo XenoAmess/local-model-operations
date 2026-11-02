@@ -46,3 +46,9 @@ owner已发表两个窄原生结果：军队Delete打开原生确认，文职建
 6个真实未完成任务，经共享每日维护缓存后发出6 POST，全部200/stop/DONE/JSON对象、0重试；实际峰2，两个独立峰值区间与持续时间见[逐项回执](evidence/2026-11-02-civ6-missionary-delivery.json)。137目标谓词和139严格journal校验整方法原样采用；138 Core快照加owner必需成员检查后部分采用。140整方法因跨上下文API、调用位置、身份与基线错误整拒，owner全部重写；141测试在Controller前预先Prepare，实际没有触发待验的授权后突变，owner换为内部hook并核调用次数。142只读诊断需修正虚构leader getter及nil guard后部分采用，实机读取通过。
 
 正式source43已[发布](https://github.com/XenoAmess/civ6_dev/commit/437030cfdf93a85e64b1c3955c45dab91b3e00fd)，354项软件检查通过；不授全功能实机或模型自主实现。原生42的真实手动传播暴露强制托管缺口；43当前测试创建的新传教士有4移动力且原生允许传播，但IsReadyToMovefalse，2410次真实回调0后台命令，先保存重载区分Debug初始化。此冻结点自动传播、手动guard、未知意图冷重启仍待验证。原始候选与后到游戏结果分列，准备/纠错/净节省未知；OpenCode本轮只维护，未新增native生成。下一项继续实际43效果，不重跑已绿软件配额。
+
+## 2026-11-02：Civ6待命阻断与窄请求143–146
+
+4个真实任务分别是普通领袖对照准备、传播回合时序诊断、未知能力安全待命helper、资格回调后身份再检测试。4个不相交POST区间，3完整stop/JSON对象、1 length1600整弃、0传输重试，峰1；不是4并发。143仅在owner补早期slot guard后准备，原生尚未运行。144只有既有idle门控思路部分参考，未测Busy flags不能推出已确认竞态；145竟禁止任务要求保留的persistent pending，完整helper拒绝；146截断稿未采用、不拼接。owner曾在确认终态前误打开raw，保留流程错误，不作语义能力定性。
+
+owner实测43自主传播有效但次回合被受托单位需命令阻断；最终44安全SKIP待命、回执保留与busy停发由owner实现，9新边界方法加全套363PASS/60.310s。owner首测夹具重名覆盖老项目待机测试，已按原HEAD恢复，独立命名新夹具；过宽busy门还曾阻止既有事实读回，修正后保留读回和pending计时。拒绝/截断与owner修正成本分别记录，44原生仍待验，不能从软件绿追授模型或行动费用通过。[逐请求与正式采用回执](evidence/2026-11-02-civ6-standby-delivery.json)。OpenCode本轮仅每日维护缓存，0native生成；净收益与模式比较未知。

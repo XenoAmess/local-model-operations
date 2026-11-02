@@ -391,3 +391,9 @@ owner源与首编都早于POST，0模型Java/实际case；正式4b07eeca仅owned
 [HTTP-READ-DOMAIN-ORDER-AUDIT-001](evidence/2026-11-02-http-read-domain-order-audit.json)是另一个真实顺序反审：20完整项680796B含16Java与4实际DATA/log，baseline/candidate及实际调用者全文已供。两个1700预算POST得到audit stop1240局部支持+counter length1700整弃，0retry/0代码。audit虚构same-transaction ancestry白名单、把domain失败说成返回READ Published均拒；未闭具体caller/collector顺序，不能称wholeaudit通过或独立收敛证明。owner撤回“READ-only先返回”的方案发生在candidate/编译前，不造已运行反例。
 
 owner源/首1TU2.182494s在两POST前已完成；原准备文案写两次assert失败由后见勘误纠为仅一次实际mixed-EOL prewrite失败，duplicate计数在执行前修，不算第二红/模型错。正式40c88c19只owned顺序hunks，编译raw77098与formal76902分SHA。全任务起点/主动工时未知，准备、协调与源审墙钟不能冒CPU或提速；0行为Test/运行恢复/SAVE信用，原cutoff不回填。
+
+## 2026-11-02：Civ6待命阻断与窄请求143–146
+
+4个真实任务分别是普通领袖对照准备、传播回合时序诊断、未知能力安全待命helper、资格回调后身份再检测试。4个不相交POST区间，3完整stop/JSON对象、1 length1600整弃、0传输重试，峰1；不是4并发。143仅在owner补早期slot guard后准备，原生尚未运行。144只有既有idle门控思路部分参考，未测Busy flags不能推出已确认竞态；145竟禁止任务要求保留的persistent pending，完整helper拒绝；146截断稿未采用、不拼接。owner曾在确认终态前误打开raw，保留流程错误，不作语义能力定性。
+
+owner实测43自主传播有效但次回合被受托单位需命令阻断；最终44安全SKIP待命、回执保留与busy停发由owner实现，9新边界方法加全套363PASS/60.310s。owner首测夹具重名覆盖老项目待机测试，已按原HEAD恢复，独立命名新夹具；过宽busy门还曾阻止既有事实读回，修正后保留读回和pending计时。拒绝/截断与owner修正成本分别记录，44原生仍待验，不能从软件绿追授模型或行动费用通过。[逐请求与正式采用回执](evidence/2026-11-02-civ6-standby-delivery.json)。OpenCode本轮仅每日维护缓存，0native生成；净收益与模式比较未知。
