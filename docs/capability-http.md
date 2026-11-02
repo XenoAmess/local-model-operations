@@ -520,3 +520,9 @@ prospective反审误报异常优先级/浮点索引，整REJECT不采，不当�
 [HTTP-CALLBACK-ROUTE-SOURCE-REVIEW-001](evidence/2026-11-02-http-callback-route-source-review.json)19whole476744B→480108B三消息，3200/2600两stop/0retry，峰2仅31.181246s。实施误把独立verifier语句移动解释成canonical/primitive action validation一起删、无可用edit全拒；反证只部分支持owner已给假设，虚行号/失败顺序矛盾拒，模型code0。两实际END都早于ownerREADY45–52s，owner当时未消费回复；原pending只是lastknown，不能把审阅延成在途。
 
 owner11905B单叶首1TU0/2.225566s，复用真实生产class的有界normal CFG正例及旧双route/漏mandatory route两个负例；无JVM、实际callback计数、外部IO或issuer验证。仅实际same-Core/context安装图适用；invalid holder首诊断/归档重放次数会变，不称所有失败顺序等同或任意public bind图安全。原64.704047s仅历史event→return整span，非此callback耗时/候选收益；完整prep/review/activeunknown、工具读法及checker命名错误分账，formal pending后到另记，0装载/重启/Game/SAVE/实速。
+
+## 后到：完整拒稿中唯一完整helper采用
+
+[HTTP-COMPLETE-HELPER-FROM-REJECTED-CLASS-001](evidence/2026-11-02-http-complete-helper-from-rejected-class.json)11/7/7/11 wholeactual全文/顺序核，5000/1600/1100/6000四POST=1length3stop/0retry，峰3仅6.210431s。R1 length已被owner阅诊断后整弃，不写unread；R2完整10890B仍POP先增SP后读/缺offered guard整类拒/noR3，只其完整725B helper在decoded R2及5219B owner整体中唯一byteexact、0helper修，严禁写成拼R1或whole model成功。witness栈/分半/参数DATA错全拒；counter一个已提示signedshort事实partial，旧saved值与computed midpoint混淆拒。
+
+owner其余4494B控制/帧/递归/epilogue与全13979B七方法；scenarios prePOST，具体Book post生产审，不冒wholeblind。首1prod/1Test/7P全0，3process3.296798s对716.588344s首prod→RUN，10.221737s gap/原JBoss stderr保；marker→sourceReady以原cost541.140543s为准，旧540.14近似口述差异保。发现前/active/netunknown，formal pending另见；0opaque算法/硬件DF/EH/Native/Game/SAVE/实速或旧subject重跑。
