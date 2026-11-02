@@ -1,0 +1,130 @@
+{
+  "schema": "local-model-operations.mode-case-annex/v1",
+  "case_id": "HTTP-SIGNED-POSTALLOCATION-BLOCK-001-FORMAL",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "operator_review_UTC": "2026-11-02T14:45:36.743323+00:00",
+  "prior_evidence": "2026-11-02-http-signed-postallocation-block.json",
+  "original_public_evidence_git_blob_unchanged": true,
+  "formal": {
+    "commit": "aab723095f5e8554f6f1860aaf4fd6e4bcbc54f0",
+    "normal_push_remote_exact_clean_owner_receipt": true,
+    "payloads": [
+      {
+        "role": "R1 block plus two model R2 hunks",
+        "selected_raw_digest": {
+          "bytes": 2764,
+          "sha256": "c50d3cd4fdfea9cf5df73a42d01038b915147b3caa58b2a66bef4ee560d3391d"
+        },
+        "formal_blob_digest": {
+          "bytes": 2756,
+          "sha256": "30b81924e5061545960bade5db7befe81f34632023d3067b7a152e4d05382070"
+        },
+        "raw_byteexact": false,
+        "newline_trailing_whitespace_projection_exact": true,
+        "EOF_newline_preserved": true
+      },
+      {
+        "role": "owner complete segment",
+        "selected_raw_digest": {
+          "bytes": 3000,
+          "sha256": "afe2b8b433236f07317b0367a092ed49ab7ba421732a7e0d90b9759661a64893"
+        },
+        "formal_blob_digest": {
+          "bytes": 3000,
+          "sha256": "afe2b8b433236f07317b0367a092ed49ab7ba421732a7e0d90b9759661a64893"
+        },
+        "raw_byteexact": true,
+        "newline_trailing_whitespace_projection_exact": true,
+        "EOF_newline_preserved": true
+      },
+      {
+        "role": "owner five-case manual Test",
+        "selected_raw_digest": {
+          "bytes": 22145,
+          "sha256": "157988cb6313957e8beab8efb1dfd0d3a14a97f4b4cb246d2d59be602fa91ccd"
+        },
+        "formal_blob_digest": {
+          "bytes": 22145,
+          "sha256": "157988cb6313957e8beab8efb1dfd0d3a14a97f4b4cb246d2d59be602fa91ccd"
+        },
+        "raw_byteexact": true,
+        "newline_trailing_whitespace_projection_exact": true,
+        "EOF_newline_preserved": true
+      },
+      {
+        "role": "new thin JUnit wrapper",
+        "selected_raw_digest": {
+          "bytes": 342,
+          "sha256": "963c895ec3307090411dfd5f1b8572679005a6305900558cc7e49296869da205"
+        },
+        "formal_blob_digest": {
+          "bytes": 342,
+          "sha256": "963c895ec3307090411dfd5f1b8572679005a6305900558cc7e49296869da205"
+        },
+        "raw_byteexact": true,
+        "newline_trailing_whitespace_projection_exact": true,
+        "EOF_newline_preserved": true
+      }
+    ],
+    "verification": "Ops directly read all four specified commit blobs. Only the model-block file changes2764→2756 through eight trailing whitespace bytes; owner segment/manual Test/wrapper are byte exact, EOF preserved."
+  },
+  "later_wrapper_validation": {
+    "executor": "Sole native software executor; publisher performs no compile/RUN.",
+    "new_wrapper_sources": 1,
+    "compile_exit_code": 0,
+    "compile_seconds": 0.6108592999953544,
+    "selected_JUnit_exit_code": 0,
+    "selected_JUnit_seconds": 0.5364684999949532,
+    "first_selected_wrapper_methods_pass": 1,
+    "skip_fail_abort": 0,
+    "same_existing_segment_cases": 5,
+    "additional_segment_cases": 0,
+    "pins": 91,
+    "UTC_window_seconds": 29.614586,
+    "interphase_coordination_gap_wall_seconds": 28.467246,
+    "process_sum_seconds": 1.1473277999903075,
+    "XML": "Not produced; frozen console1found/1started/1P/0skipF/abort independently checked.",
+    "limits": "Wrapper invokes the original same five segment cases. No old production/API/manual source recompilation or separate standalone rerun, no sixth case."
+  },
+  "original_adoption_and_cost_preserved": "R1 two signed-widening errors caught in source review; exact two model R2 hunks selected with0owner block executable edits. Owner whole segment/oracle/Test and limited audit facts remain separate. Original three HTTPs, oracle timing,2021.474626s known wall,1.5921225s first processes and unknown active/net cost unchanged. The29.614586s later wrapper window/gap is not model time or saving.",
+  "unchanged_qualification": "Only finite postallocation software segment behavior; no whole growth/FP/prologue/epilogue/RFLAGS/upper binding/Native/Game/SAVE/loading/performance credit. Original formal-pending cutoff is not overwritten by this later receipt.",
+  "private_evidence_digests": {
+    "later_formal": {
+      "bytes": 26158,
+      "sha256": "ad0a75c15f7d0a06cd212f80eeb8daff2eae8f205608df26b22fe79a172b94ab"
+    },
+    "continuation": {
+      "bytes": 4017,
+      "sha256": "1df4985fb2c7686ace7c8b71850875095d711f04541c3ec7d3264bdea867ff0f"
+    },
+    "publication": {
+      "bytes": 1564,
+      "sha256": "28aa0adc81036e465a930367abdc0f755799615cae9585137530f55be08a50e4"
+    },
+    "original_public_git_blob": {
+      "bytes": 11664,
+      "sha256": "13249091e236470c4182617b717ab2efb3d4cc1fa8caf31278ef1581c4b7499c"
+    },
+    "wrapper_receipts_and_logs": [
+      {
+        "bytes": 562,
+        "sha256": "75571c9407656c414461a36356fd92f9cfabcf2ff351b5242d2ba86f01c8242c"
+      },
+      {
+        "bytes": 3762,
+        "sha256": "311c97738425c0a54d4504c563af2b1febd11352f5618fff7bfa2bc5b80d44fc"
+      },
+      {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 479,
+        "sha256": "6c466498b96c5feb10753d760bd292ff842e68723a6956dd18cff99549190101"
+      }
+    ]
+  },
+  "next_real_trigger": "An actually new complete source obligation. No repeat HTTP, old green, formal-as-new-case count or service probe to complete this annex.",
+  "publication_new_HTTP_GET_JVM_Game_actions_by_operator": 0
+}
