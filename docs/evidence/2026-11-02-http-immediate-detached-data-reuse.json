@@ -1,0 +1,90 @@
+{
+  "schema": "local-model-operations.portable-http-case/v1",
+  "case": "immediate-detached-data-reuse",
+  "mode_id": "http-candidate",
+  "publication_permission": "Root explicitly authorized this exact sanitized metadata payload for the shared operations repository; original source, requests, responses, machine identifiers and private paths are excluded.",
+  "configuration": {
+    "source": "local-model-operations/config/executor.json",
+    "config_schema": "local-model-operations.executor/v1",
+    "exact_caller_git_revision_at_invocation": null,
+    "revision_limit": "No exact per-invocation caller revision was frozen in this case; do not substitute a later repository HEAD.",
+    "model_alias": "qwen38-coder",
+    "messages": 3,
+    "temperature": 0,
+    "thinking_enabled": false,
+    "output_format": "json_object",
+    "stream_usage_requested": true,
+    "maximum_transient_attempts": 6,
+    "automatic_fallback": false
+  },
+  "model_work": {
+    "logical_tasks": 3,
+    "actual_posts": 3,
+    "automatic_retries": 0,
+    "actual_peak_inflight": 2,
+    "peak_two_overlap_seconds": 33.270375,
+    "implementation": {
+      "max_output_tokens": 7500,
+      "finish": "stop",
+      "total_seconds": 33.2703866,
+      "content_ttft_seconds": 18.8004068,
+      "reported_prompt_tokens": 78589,
+      "reported_completion_tokens": 1761,
+      "cached_prompt_tokens": null,
+      "adoption": "Six unique raw executable edits replayed forward and backward exactly. Owner added two maintenance comments, with zero owner executable production changes. Model rationale was corrected where it generalized leased reads and described unmeasured costs as negligible."
+    },
+    "prospective_counter_review": {
+      "max_output_tokens": 5500,
+      "finish": "stop",
+      "total_seconds": 44.3815884,
+      "content_ttft_seconds": 20.2063682,
+      "reported_prompt_tokens": 78547,
+      "reported_completion_tokens": 3048,
+      "cached_prompt_tokens": null,
+      "adoption": "Whole answer rejected; no corrective repeat. It first misread a final declaration, treated existing per-read checks as newly introduced, and confused a closed concrete-class route with an arbitrary trusted callback. The requirement to preserve the public provider's defensive checks was valid but already specified. The reviewer did not receive the selected candidate body, so this is not a model audit acceptance of that body."
+    },
+    "test_generation": {
+      "max_output_tokens": 9500,
+      "finish": "length",
+      "total_seconds": 67.0450115,
+      "content_ttft_seconds": 12.6769016,
+      "reported_prompt_tokens": 97032,
+      "reported_completion_tokens": 9500,
+      "cached_prompt_tokens": null,
+      "adoption": "Incomplete candidate rejected unread in full, with zero fragments adopted and no continuation or corrective repeat. Owner wrote four complete regression methods using a legitimate small-file software fixture. Tests were implementation-visible, not a blind oracle."
+    }
+  },
+  "software_validation": {
+    "changed_production_units": 2,
+    "joint_first_strict_seconds": 3.0899371,
+    "new_test_units": 1,
+    "new_test_strict_seconds": 1.6257141,
+    "new_test_run_seconds": 3.7057235,
+    "tests_found": 4,
+    "tests_started": 4,
+    "tests_passed": 4,
+    "tests_failed": 0,
+    "tests_skipped": 0,
+    "coverage": "Public-provider bound/length/hash/original-failure rejection; real small-file request roundtrip and detached output; later same-length payload corruption rejected; escaped borrowed reader rejected after its session closed.",
+    "limits": "The shared read route's other call sites were source-reviewed. No private authority, live runtime or game qualification is claimed. The existing fixture helper binary was pinned; its original source-to-class compilation receipt was not held. No old green suite or production unit was recompiled for test publication."
+  },
+  "owner_costs": {
+    "prep_marker_to_first_mature_delivery_wall_seconds": 2841.453539,
+    "prep_marker_to_observed_publication_wall_seconds": 3286.643395,
+    "first_compile_begin_to_behavior_end_wall_seconds": 125.325301,
+    "tool_phase_total_seconds": 8.4213747,
+    "production_end_to_test_begin_gap_seconds": 108.320233,
+    "test_end_to_run_begin_gap_seconds": 8.58368,
+    "active_owner_seconds": null,
+    "limits": "Markers exclude earlier initial handoff/source reasoning and part of the first raw review. Full wall includes source discovery, preparation, review, model requests and coordination waits; tool phases and model intervals overlap that wall and must not be added to it. Later runtime-packet preparation and publication review were appended separately. Active owner time was not measured.",
+    "preparation_errors": "Wrong named module; an incorrect assumption that an actual dependency and its formal version had identical semantics; mixed-newline equality assumptions; two shell search quoting failures; a wrong class package and source-name versus nested binary-name resolution. All stopped before Java execution or business mutation and are owner preparation errors. A test preparer also correctly declined to proceed before the existing production receipt was available."
+  },
+  "publication_and_loading": {
+    "formal_source_publication": "Completed by the sole formal writer; exact remote and clean state recorded separately from software results.",
+    "newline_provenance": "The frozen physical working-tree codec had one CRLF while the actual Git baseline was LF. Their complete LF projections matched. The writer applied the same executable edits and comments to the actual Git baseline, recorded distinct raw/formal hashes and preserved original receipts. The prewrite assertion stopped before mutation; it was not a model or business failure. No verification was repeated for the newline projection.",
+    "dependency_boundary": "Two existing production units must be adopted as coherent whole class families. No new class definition was added, but a new private concrete-type dependency edge was added; no-new-type does not mean no-new-dependency or automatic hot-reload compatibility.",
+    "runtime_adoption": "Not observed in this case",
+    "runtime_behavior": "Not validated in this case",
+    "performance_effect": "Not measured; source-level removal of a second clone/hash is not proof of startup or end-to-end speed improvement."
+  }
+}

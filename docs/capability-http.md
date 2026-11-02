@@ -606,3 +606,9 @@ owner全八Test，先scenarios后production审/具体Book，不冒wholeblind；�
 [HTTP-LEASE-LIFETIME-OWNER-TAKEOVER-001](evidence/2026-11-02-http-lease-lifetime-owner-takeover.json)实现两16000、Test作者两6500、actual source03反证一3000共五stop/0retry/length、五实际区间均不重叠峰1；分别15/15/15/15/22完整材料核入actualREQUEST。Native两整稿因递归/fresh资格/读序/cleanup状态拒，0模型Native；R2 bounded sum本已安全，撤沿用R1 overflow标签。只R2一个wrapper方法执行token保，旧anchor不存在由owner真实anchor+CRLF装配，inverse证明其它capacity/业务字节保，不冒whole raw。Owner整Native自身也需holder分配/ancestor/默认route等修，后source03只删318B早重复比较、完整资格与最终witness匹配保；均不追授模型。
 
 Test两完整稿没真正先触发获取再造第二文件冲突，whole0/ownerwhole，无R3；owner再补真实RW reopen。后actual03反审误把share-read当denyread/把完整fallback当漏洞，whole0不能变安全通过；漏显式machine-id的hostname元数据另记。原joint5TU39/后only1NativeTU1.517569s分tuple、三新class前置/36输出复用；Test仅首编7.516917s与首3P2.495038s，另默认3P不重跑/不算同JVM6P。2687.854912s全链/2677.842963s gap/2207.362405s依赖等待含实际Dev让位与协调，active/早准备unknown，0.014168s仅机械装配。ba003c1d后到Native/Test raw=formal/EOF等、wrapper仅CRLF→LF分SHA；软件/正式不授Game权限、装载或速度，也不为拒稿补OS probe。
+
+## 后到：当前调用内detached DATA复用与公开provider边界
+
+[immediate-detached-data-reuse](evidence/2026-11-02-http-immediate-detached-data-reuse.json)是source owner/Root明确批准的原字节portable。三个真实HTTP无retry，实施/前瞻反审重叠峰2仅33.270375s；六raw执行hunks精确正逆、owner两维护comment，反审未见candidate且whole拒，不能记成实际body审通过。9500 Test length整稿未读拒/0片段/不续轮，owner四新方法首绿；public provider防御检查保留，具体内部detached路径只删一次即时重复clone/hash。
+
+两prod首strict+Test strict/4P过程8.4213747s与125.325301s验证全wall、2841.453539s marker→成熟/3286.643395s→发表分开，早期准备/首读漏测和activeunknown不填0。Git LF与物理单CRLF来源误判/owner包名和嵌套名准备错留证；两既有classfamily需同版本，private具体类型新依赖边不因无新class定义而消失。软件/正式已闭，运行采用和性能未观察；不是启动或整局提速原因。payload精确caller invocation版本null，不借当前HEAD补；原材料仍私有。
