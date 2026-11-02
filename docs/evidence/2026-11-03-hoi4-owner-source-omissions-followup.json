@@ -1,0 +1,77 @@
+{
+  "schema": "local-model-operations.hoi4-owner-source-omissions/v1",
+  "case_id": "HTTP-HOI4-OWNER-SOURCE-OMISSIONS-FOLLOWUP",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-02T22:53:02.556169+00:00",
+  "new_model_posts_in_this_followup": 0,
+  "new_independent_model_tasks": 0,
+  "author": "Owner written post-generation followup to existing text candidate cases",
+  "existing_cases": [
+    "HTTP-HOI4-B029-TEXT",
+    "HTTP-HOI4-B030-TEXT"
+  ],
+  "cases": [
+    {
+      "source_sha256": "fe4771ae6ae56ca57fa363c7b41ae3ed4fac953e605fa0a9c6892ac69fef11d4",
+      "source_original_png_sha256": "a072014e13c6c5a75a0992448cdeedfaf2fc710ac83c3d0590d2b25a20cc5520",
+      "actual_job_snapshot_sha256": "681322afadf53be65d2bc1b252ae4ebeafa4166cc02d028243e3c66b302a8fd2",
+      "actual_sent_prompt_utf8_sha256": "f5ef72a386b333c8d230835232c006929377d021baeb53fd866dd7cf53b5ba54",
+      "output_sha256": "fb0cb93343c52b3ecf7f609f0d9a9201f81e1a5151eb87de8c8db7e0dd7311fc",
+      "local_text_task_id": "hoi4-20261103-b029-prompt-03",
+      "classification": "owner source observation omitted or misdescribed a visible chest-detail region; separate from candidate omissions and builtin art outcome",
+      "input_fact_summary": "Lit royal card: original blue/gold exposed chest patch was absent from owner textual observation and final source restatement.",
+      "observed_output": "Actual corresponding source-visible chest region missing/replaced; owner rejected full raw master after primary/full/pair/white/cyan/alpha inspection.",
+      "permanent_local_review": {
+        "repository": "XenoAmess/xenoamess_hoi4_dev",
+        "commit": "47a6710b32ea646604bac3099687183d7dde901c",
+        "path": "mod_nailong/data/production-resume-20261103-b029-review-03.json",
+        "sha256": "c251abd58dc2103cffc1151a9d994249502d38caa73ec462e2bb67c15227efb3",
+        "public_raw_bytes_readback": true
+      },
+      "source_observation_record": {
+        "path": "mod_nailong/data/production-resume-20261103-b029-sources.json",
+        "sha256": "e4bc4234b1c55cd7763e34fed910e610f4bbfbefc47a1cfac4d12fb773bc5d36"
+      },
+      "image_tool_received_original_pixels": true,
+      "local_text_model_received_image_pixels": false,
+      "review_is_owner_art_judgment": true,
+      "not_a_new_local_model_vision_test": true
+    },
+    {
+      "source_sha256": "70849a4e53cec33f739da82a6224ff1e8a7ce19e97ed627a198b861dc1e66f4e",
+      "source_original_png_sha256": "2f3711e2137e38d5c67526805f47dc3538344ed1d81563b808e2d82fa2ff9ae3",
+      "actual_job_snapshot_sha256": "374f8ef95ac81ec8d8dd3e62445511d8b29ef098eaf6fed1b6eb9d23e2be9197",
+      "actual_sent_prompt_utf8_sha256": "c192e19ff91c81cc4fb3b3e74b3461cd91ee62c5e39a9d46ed608bab42427edf",
+      "output_sha256": "38970970932de17d2fedcf5439cefb65244feab68c44906950236473477cadf6",
+      "local_text_task_id": "hoi4-20261103-b030-prompt-02",
+      "classification": "owner source observation omitted or misdescribed a visible chest-detail region; separate from candidate omissions and builtin art outcome",
+      "input_fact_summary": "Olive uniform card: owner described the original gold/pale vertical chest cluster as front buttons; larger candidate had different collar detail/crop. Actual round-glasses omission in the text candidate was independently corrected before image generation.",
+      "observed_output": "Actual corresponding source-visible chest region missing/replaced; owner rejected full raw master after primary/full/pair/white/cyan/alpha inspection.",
+      "permanent_local_review": {
+        "repository": "XenoAmess/xenoamess_hoi4_dev",
+        "commit": "47a6710b32ea646604bac3099687183d7dde901c",
+        "path": "mod_nailong/data/production-resume-20261103-b030-review-02.json",
+        "sha256": "e4ee5f8447fae5e2e8e478059fc3c3887fe99e08d4cb9e8d033cfadd7ffbf4d4",
+        "public_raw_bytes_readback": true
+      },
+      "source_observation_record": {
+        "path": "mod_nailong/data/production-resume-20261103-b030-sources.json",
+        "sha256": "efef6bec505f45b44ac5dea9460240894eebc70abda6bddc6cf0b660c16fe939"
+      },
+      "image_tool_received_original_pixels": true,
+      "local_text_model_received_image_pixels": false,
+      "review_is_owner_art_judgment": true,
+      "not_a_new_local_model_vision_test": true
+    }
+  ],
+  "causal_limits": "These are observed input omissions/misdescriptions paired with actual builtin output defects. No controlled counterfactual establishes that textual omission was the sole cause; the builtin image tool also received original pixels. The local text model had only owner text and cannot be faulted for not inventing unseen pixel facts. No general model capability ceiling or net-time-saving claim.",
+  "action": "Separate exact-fullsize builtin art repairs queued for the actual defects; original prompts, inputs, outputs and historical prepared-case cutoffs remain unchanged. No repair success is claimed here.",
+  "reusable_rule": "Owner first records source-visible accessory regions separately from generic buttons/fastening; compare actual primary clothes/collar and larger context before asserting a match. Track owner input omissions, text candidate omissions, builtin art results and final visual qualification separately.",
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Game images, full raw model requests/responses, actual prompts, local machine ledgers and comparison panels are not copied to this shared receipt."
+}
