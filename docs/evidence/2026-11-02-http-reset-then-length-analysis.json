@@ -1,0 +1,249 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-RESET-THEN-LENGTH-ANALYSIS-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_source_ready_cutoff_UTC": "2026-11-02T05:03:13.405591+00:00",
+  "original_delivery_cutoff_UTC": "2026-11-02T05:07:39.143590+00:00",
+  "later_model_review_UTC": "2026-11-02T05:08:29.188770+00:00",
+  "operator_review_UTC": "2026-11-02T05:12:50.789420+00:00",
+  "task_category": "source-analysis-and-counterexamples",
+  "implementation_adoption_denominator": false,
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Two bounded source-analysis roles review an owner-preselected same-occurrence consumption predicate. They are not implementation generation or proof of a restored running system.",
+  "input": {
+    "whole_items": 24,
+    "physical_UTF8_bytes": 767682,
+    "Java_sources": 22,
+    "actual_small_JSON_items": 2,
+    "full_frozen_files_digest_and_REQUEST_normalized_text_order_verified": true,
+    "wire": "Eight keys; current fixed system/user/user; temperature0; thinkingfalse; JSON object and SSE usage. Raw file bytes and actual normalized source-message bytes are distinct.",
+    "scope": "Only recorded actual files/body are counted; no recursive transitive closure or actual system behavior is inferred."
+  },
+  "roles": [
+    {
+      "role": "council-consumption-audit",
+      "max_tokens": 1600,
+      "source_message_UTF8_bytes": 767083,
+      "CRLF_pairs_read_as_LF": 5763,
+      "REQUEST_digest": {
+        "bytes": 785900,
+        "sha256": "a32804798b3ae5da1faf3f78980b25c1eb372c50b14d5704e5bfaa29e99537ef"
+      },
+      "EVENTS_digest": {
+        "bytes": 4244,
+        "sha256": "87aa2e36a49a85164e04e149db51b8d5c96d708fe5bb0f17eceefff157865a18"
+      },
+      "same_saved_REQUEST_path_and_budget_for_both_attempts": true,
+      "reported_backoff_seconds": 10.26756048861195,
+      "actual_attempt_END_to_next_POST_BEGIN_wall_seconds": 10.270001,
+      "attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-02T05:05:27.215795+00:00",
+          "END_UTC": "2026-11-02T05:05:44.701570+00:00",
+          "classification": "connection_reset_10054_no_headers_no_content",
+          "http_status": null,
+          "finish_reason": null,
+          "SSE_DONE": false,
+          "content_TTFT_seconds": null,
+          "HTTP_seconds": 17.485578499996336,
+          "usage": null,
+          "cached_prompt_tokens": null,
+          "content_digest": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        },
+        {
+          "attempt": 2,
+          "POST_BEGIN_UTC": "2026-11-02T05:05:54.971571+00:00",
+          "END_UTC": "2026-11-02T05:06:44.237827+00:00",
+          "classification": "length1600_whole_discard",
+          "http_status": 200,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 32.19119579999824,
+          "HTTP_seconds": 49.26583410000603,
+          "usage": {
+            "prompt_tokens": 157859,
+            "completion_tokens": 1600,
+            "total_tokens": 159459
+          },
+          "cached_prompt_tokens": null,
+          "content_digest": {
+            "bytes": 6555,
+            "sha256": "be80e7d6738a8b8574b51b9a25f680bed712b86a5d83719d2feeb801227ecf84"
+          }
+        }
+      ]
+    },
+    {
+      "role": "council-consumption-counter",
+      "max_tokens": 1600,
+      "source_message_UTF8_bytes": 767083,
+      "CRLF_pairs_read_as_LF": 5763,
+      "REQUEST_digest": {
+        "bytes": 785988,
+        "sha256": "bc1f96d3d95dfeff69a4c157707a308973077b56c88fdb0a1f8c28662586ab82"
+      },
+      "EVENTS_digest": {
+        "bytes": 4271,
+        "sha256": "03ea36112dc04407b16c60c154d2624395bf4b42778d9723524ff4da55a01ec3"
+      },
+      "same_saved_REQUEST_path_and_budget_for_both_attempts": true,
+      "reported_backoff_seconds": 11.861889802579082,
+      "actual_attempt_END_to_next_POST_BEGIN_wall_seconds": 11.864404,
+      "attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-02T05:05:27.215816+00:00",
+          "END_UTC": "2026-11-02T05:05:44.700027+00:00",
+          "classification": "connection_reset_10054_no_headers_no_content",
+          "http_status": null,
+          "finish_reason": null,
+          "SSE_DONE": false,
+          "content_TTFT_seconds": null,
+          "HTTP_seconds": 17.48409849999007,
+          "usage": null,
+          "cached_prompt_tokens": null,
+          "content_digest": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        },
+        {
+          "attempt": 2,
+          "POST_BEGIN_UTC": "2026-11-02T05:05:56.564431+00:00",
+          "END_UTC": "2026-11-02T05:06:43.071901+00:00",
+          "classification": "length1600_whole_discard",
+          "http_status": 200,
+          "finish_reason": "length",
+          "SSE_DONE": true,
+          "content_TTFT_seconds": 34.553716099995654,
+          "HTTP_seconds": 46.507385100005195,
+          "usage": {
+            "prompt_tokens": 157872,
+            "completion_tokens": 1600,
+            "total_tokens": 159472
+          },
+          "cached_prompt_tokens": null,
+          "content_digest": {
+            "bytes": 6109,
+            "sha256": "682058488f09aa38a7dc35562ded056dd80fdb095dd4a72045d4fa70785b3097"
+          }
+        }
+      ]
+    }
+  ],
+  "transport": {
+    "logical_tasks": 2,
+    "POSTs": 4,
+    "ENDs": 4,
+    "reset10054_before_headers": 2,
+    "complete_stop": 0,
+    "length1600": 2,
+    "automatic_transport_retries": 2,
+    "semantic_retries": 0,
+    "client_peak": 2,
+    "peak_cumulative_seconds": 63.991681,
+    "POST_BEGIN_to_END_union_seconds": 66.752031,
+    "first_POST_to_last_END_wall_seconds": 77.022032,
+    "reported_HTTP_seconds_sum": 130.74289619999763,
+    "service_running_waiting_KV": null,
+    "overload_or_cache_cause": null,
+    "target12_16_claimed_achieved": false,
+    "retry_scope": "Canonical caller reissues the complete saved model request after backoff. No semantic second prompt and no replay of business actions. Neither POST invocation nor reset identifies server admission/overload."
+  },
+  "adoption": {
+    "complete_model_responses": 0,
+    "model_code": 0,
+    "model_analysis_or_proof_fragments": 0,
+    "classification": "Both reset attempts and both length attempts discarded whole, no fragments or stream stitching. Length output is not graded as a complete semantic candidate; no third request for success quota.",
+    "owner_source_causality": "Owner revision2 selected and its first actual strict completed before either initial POST; no later model discovery/code credit."
+  },
+  "owner_false_alarm_and_revision": {
+    "same_SHA_small_body_mechanically_parsed": true,
+    "actual_field_was_present": true,
+    "scope": "A source reviewer wrongly called the original candidate inevitably invalid after missing a field in a long single-line JSON. Mechanical parsing of the same held bytes proved the field exists; the claim was withdrawn. No missing-field or compiler defect is inferred from that false alarm.",
+    "original_candidate": {
+      "bytes": 79925,
+      "sha256": "05c4829e0a2c7ceb2e467e59038aa5e1a6a85d3a1d9bd13d1468fe79f1e7ece7"
+    },
+    "selected_revision": {
+      "bytes": 79810,
+      "sha256": "7da4846d374438156151b48c2ae0a80cab71c9917108d38808c8913cab3ff146"
+    },
+    "only_revision_difference_bytes": 115,
+    "exact_single_clause_deletion_verified": true,
+    "revision_reason": "Remove a redundant shape equality while retaining real ACK/compatible-receipt field equality and all existing physical/actor/episode/date/true-consumed qualification. The original candidate was not proved invalid by the withdrawn field claim.",
+    "original_candidate_javac_starts": 0,
+    "compiler_failures": 0,
+    "selected_revision_actual_javac_starts": 1,
+    "extra_compiler_reruns": 0,
+    "false_alarm_extra_preparation_seconds": null,
+    "independent_owner_preparation_error": "One mixed-EOL raw-fragment assertion stopped before any candidate mutation, then became EOL-aware with raw inverse check. It is separate from the false alarm and from model/transport errors."
+  },
+  "software": {
+    "source_ready_state_at_its_original_cutoff": "SOURCE_READY_NOT_COMPILED",
+    "only_changed_TUs": 1,
+    "BEGIN_UTC": "2026-11-02T05:04:20.096144+00:00",
+    "END_UTC": "2026-11-02T05:04:22.314483+00:00",
+    "first_actual_strict_seconds": 2.218342699998175,
+    "exit_code": 0,
+    "standalone_predicate_bool_run": null,
+    "behavior_tests": 0,
+    "scope": "Compile only. Source filename/revision2 is not a second actual compiler attempt. No executed bool result, worker load, complete recovery, new following query, dispatch, SAVE or measured saved-day performance is granted."
+  },
+  "formal_at_owner_delivery_cutoff": {
+    "state": "SEPARATE_SOLE_WRITER_RECEIPT_NOT_HELD",
+    "commit": null
+  },
+  "clock_accounting": {
+    "full_preparation_start_UTC": null,
+    "full_task_wall_seconds": null,
+    "owner_active_preparation_review_seconds": null,
+    "net_saving_seconds": null,
+    "source_ready_to_first_strict_BEGIN_wall_seconds": 66.690553,
+    "source_ready_to_first_POST_wall_seconds": 133.810204,
+    "source_ready_to_model_review_wall_seconds": 315.783179,
+    "scope": "Recorded post-ready windows include owner revision/source proof/preparation, compilation, transport and review gaps. They are not full discovery or active labor; unmeasured false-alarm cost stays null, not fabricated from waits."
+  },
+  "private_evidence_digests": {
+    "source_input": {
+      "bytes": 10446,
+      "sha256": "6adaae51e1f864b59e129660985cfa59c02062bca3f4e3efb79e7822c7be02ee"
+    },
+    "model_review": {
+      "bytes": 10521,
+      "sha256": "7059f7117cab8b748d8625fe45b5a4798a206ac3c498db8b423406d70587ba2c"
+    },
+    "source_ready": {
+      "bytes": 3187,
+      "sha256": "68f9bb40e9af995c2e327319660fbe7ab22edff94b04f198675e7bace223c7a4"
+    },
+    "owner_delivery": {
+      "bytes": 8728,
+      "sha256": "09af9f39f9d9edc877e4e7826c50c299a8c209e3f29f75a2226404e0ae22d497"
+    },
+    "first_actual_strict": {
+      "bytes": 69998,
+      "sha256": "ef44163c936298ca14f9553378b16bb2e236c1a21f90386abd40890edc1a9b91"
+    },
+    "field_shape_erratum": {
+      "bytes": 2316,
+      "sha256": "f0f439131911e10095d5428aa5fbf9744a6420a452681d33f4fc160140d1c697"
+    },
+    "actual_small_body": {
+      "bytes": 3696,
+      "sha256": "86ec8b5d32fbf159a6b6e0919a016c679e1a3eff8f8878b5a751a6587be48c0f"
+    },
+    "incremental_owner_revision_patch": {
+      "bytes": 997,
+      "sha256": "f0c40e71318a1b73f3dc0a9c08a866fde563ba0af5263a1b96e6f1e1b2d659b0"
+    }
+  },
+  "next_real_trigger": "Only later actual formal/runtime evidence or a newly qualified task. Parse the exact named small structured original before declaring a field absent or adding another diagnostic; keep source review mistakes, transport retries and output budget failures distinct. No new health requests, closed-task replay or closed OpenCode success quota.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}

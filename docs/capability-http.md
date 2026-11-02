@@ -403,3 +403,9 @@ owner实测43自主传播有效但次回合被受托单位需命令阻断；最�
 [HTTP-CHILD-FRAME-ADAPTER-001](evidence/2026-11-02-http-child-frame-adapter.json)在owner全ABI编排下派一个有真实caller的窄adapter。按角色实核11/10/10完整项；adapter见新owner caller，两个counter角色未见新producer/oracle，不混成同一独立审域。adapter stop410给1476B完整Java，owner只两替换成1484B：补已完整声明API的actual Calls实参、N guard改比已有childEntry不可变offer而非可变registers。双逆回decoded全文/EOL/EOF精确，partial而非whole raw；缺参在javac前纠正，不能虚记编译红。
 
 counter R1 length1700整弃不判完整语义；R2缩到新source三事实仍stop262却答旧helper泛风险，整拒0分析采用/noR3。3POST2stop1length/0retry，峰2仅5.390385s。owner3356B全体/13030B Test及先冻literal分账，Test后见生产不授wholeblind；新组合6P/旧subject0RUN，三进程3.686644s与firstprod→RUN153.007549s、marker→delivery820.922160s/Ready→POST195.597911s墙钟分别保，active与更早发现未知。原软件cutoff正式pending，0Native硬件/完整selector/游玩恢复或提速信用。
+
+## 后到：双reset后双length与字段缺失误判
+
+[HTTP-RESET-THEN-LENGTH-ANALYSIS-001](evidence/2026-11-02-http-reset-then-length-analysis.json)为owner方案/首编后的两个分析角色，24完整项767682B含22Java和2实际小JSON。两首POST均10054 reset、无headers/内容；canonicalcaller各约10.2676/11.8619s退避重发完整同REQUEST，第二attempt都length1600整弃，4POST/2传输retry/0语义retry/0完整稿/0片段采用。不拼流、不把reset解释为过载或把length计完整语义失败；分析任务不混实现采用率分母。
+
+同SHA原小DATA机械解析确有position字段，Root先前视读长单行漏看而称R1必错的说法已撤。owner仍保留删冗余shape门的修正版，仅115B clause删除，其余bytes精确；R1实际0javac/0编译失败，revision2文件对应唯一首次1TU2.218343s，且早于HTTP，不是两次javac或模型修复。另一次mixed-EOL prewrite断言独立记准备错误；误判额外wall/active未知不编。0独立bool/Test/运行/SAVE/性能信用，正式receipt未持按原cutoff保留。
