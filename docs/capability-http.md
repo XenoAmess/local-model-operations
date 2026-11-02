@@ -532,3 +532,9 @@ owner其余4494B控制/帧/递归/epilogue与全13979B七方法；scenarios preP
 [HTTP-MUTUAL-TRANSFER-NUMERIC-CONTRACT-001](evidence/2026-11-02-http-mutual-transfer-numeric-contract.json)三角色两轮共6POST6END/0retry，2length未读整弃+4stop完整多错整拒，0model code/oracle；峰3两段15.254444+14.158455=29.412899s。每REQUEST10完整项：九个API/ASM/literal正文逐份核，实际R1 message24121B、R2加366B提示→24487B。CONTRACT同路径已换R2内容，旧normalized全文在原REQUEST仍持，不假称原物理raw/EOL前像或不变prefix。
 
 owner合同frame+40/448/20未标0x，原ASM虽明确也不能把提示说成无歧义；影响未量化，独立fresh顺序/错写base/虚函数0/回调后缓存/CVTT与witness反读序错另记，不追认已纠数制重试或收益。owner四Java全体，首3prod/1Test/manual九场景136checks全0；七boundmove+equalhelper+controlledhelper，不冒九Native/完整ABI/COPY/reverse/上层caller/自然权限。948.871944s仅已选manifest→RUN对2.959401s进程，早期起点/activeunknown，formal pending另见；0运行/SAVE/实速，不R3洗绿。
+
+## 后到：重复纯校验的成功谓词与分支CFG
+
+[HTTP-IMMUTABLE-READ-VALIDATION-CFG-001](evidence/2026-11-02-http-immutable-read-validation-cfg.json)实现两轮各16whole/333773B、独立counter24whole/554261B实际三消息，2500/2500/3500三POST三stop/0retry，真实无重叠峰1。R1内联漏setter custody，R2拆if链让Live落Watch强转，均whole拒0执行片段；counter不可变DTO/失败路径IO变化事实局采，generic fail-fast REJECT未建立成功漏验反例，不授wholeaudit。后读嵌套整数声明只闭owner源审，不回填模型输入。
+
+owner57421B单条件guard逆回baseline逐byte等，完整原分支链保；success全校验仍必经，失败首诊断/IO/poison时序可能变，非所有schedule等价。首1TU0/2.590168s+既有affected Test编0/1.971739s，首JVM缺Support setup红3.571623s，仅补两个既有binary后同一方法31.642416s/1P；无新Test编写、重编或旧suite刷绿。完整prep/review/activeunknown、四process与全wall分账，不归44秒整span/健康worker/速度。原software pending保，后见正式5d939194仅owner源字节，0模型代码/新运行/SAVE。

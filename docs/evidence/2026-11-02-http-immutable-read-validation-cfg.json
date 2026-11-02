@@ -1,0 +1,301 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-IMMUTABLE-READ-VALIDATION-CFG-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_software_cutoff_UTC": "2026-11-02T07:18:27.698166+00:00",
+  "operator_review_UTC": "2026-11-02T07:38:49.317135+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "A narrow duplicate pure validation hypothesis in one actual setter/read wrapper, with a separate source counterexample role. Owner preserves the original branch chain after both model implementations are rejected.",
+  "calls": [
+    {
+      "role": "implementation_R1",
+      "whole_current_texts": 16,
+      "physical_source_bytes": 329958,
+      "actual_message_UTF8_bytes": 333773,
+      "all_whole_bodies_order_and_actual_parameters_verified": true,
+      "POST_BEGIN_UTC": "2026-11-02T06:59:00.935585+00:00",
+      "attempt_start_UTC": "2026-11-02T06:59:00.935051+00:00",
+      "END_UTC": "2026-11-02T06:59:14.246753+00:00",
+      "max_tokens": 2500,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_seconds": 13.311365000001388,
+      "content_TTFT_seconds": 8.647405099996831,
+      "usage": {
+        "prompt_tokens": 67262,
+        "completion_tokens": 726,
+        "total_tokens": 67988
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 343749,
+        "sha256": "1a5e450f6fea3c1c6f22fd820eec01b072e06ac532e8d8a8a4f3292b7c60bef7"
+      },
+      "EVENTS_digest": {
+        "bytes": 2223,
+        "sha256": "807df21327494b8ccdb0326de6f4c84427bc41ebd0824837055defe1f2dd932a"
+      },
+      "CONTENT_digest": {
+        "bytes": 3510,
+        "sha256": "15e5a73990766bfc24d324cd0cf98033e5095ca5f22499864cc610c002b4b679"
+      }
+    },
+    {
+      "role": "implementation_R2",
+      "whole_current_texts": 16,
+      "physical_source_bytes": 329958,
+      "actual_message_UTF8_bytes": 333773,
+      "all_whole_bodies_order_and_actual_parameters_verified": true,
+      "POST_BEGIN_UTC": "2026-11-02T07:00:40.759491+00:00",
+      "attempt_start_UTC": "2026-11-02T07:00:40.759089+00:00",
+      "END_UTC": "2026-11-02T07:00:44.374088+00:00",
+      "max_tokens": 2500,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_seconds": 3.6146581000066362,
+      "content_TTFT_seconds": 0.8505031000095187,
+      "usage": {
+        "prompt_tokens": 68204,
+        "completion_tokens": 443,
+        "total_tokens": 68647
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 348515,
+        "sha256": "2a3418108614d0516e23b2d7e93dc90199a5e9e65a88b9a342490ccb84e66420"
+      },
+      "EVENTS_digest": {
+        "bytes": 2265,
+        "sha256": "0be2dfb8965a4ba103134a523defba24b7fe1c51eff2324af006e0bdd5703f8c"
+      },
+      "CONTENT_digest": {
+        "bytes": 2138,
+        "sha256": "c929bf7454a7f9a7ecaf54170987752dfd3b5ab6a879cc5c84a949a1f4b00c9b"
+      }
+    },
+    {
+      "role": "independent_counter",
+      "whole_current_texts": 24,
+      "physical_source_bytes": 546488,
+      "actual_message_UTF8_bytes": 554261,
+      "all_whole_bodies_order_and_actual_parameters_verified": true,
+      "POST_BEGIN_UTC": "2026-11-02T07:00:06.974390+00:00",
+      "attempt_start_UTC": "2026-11-02T07:00:06.973909+00:00",
+      "END_UTC": "2026-11-02T07:00:30.168013+00:00",
+      "max_tokens": 3500,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_seconds": 23.193689699997776,
+      "content_TTFT_seconds": 15.782341799989808,
+      "usage": {
+        "prompt_tokens": 112949,
+        "completion_tokens": 889,
+        "total_tokens": 113838
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 570238,
+        "sha256": "832301d0db42569af7285cf4b2b4e66a6090358a32bdd615f1c7322a13adccf7"
+      },
+      "EVENTS_digest": {
+        "bytes": 2281,
+        "sha256": "6522faa0ee050deeef58f9e659b27caa635f719e822089404aaa9a6f10a94c61"
+      },
+      "CONTENT_digest": {
+        "bytes": 4152,
+        "sha256": "44e9268b242cd85940e799afe9d87de38252f85af0c74ad74604892d8bcb5def"
+      }
+    }
+  ],
+  "transport": {
+    "actual_POSTs": 3,
+    "ENDs": 3,
+    "complete_stop": 3,
+    "length": 0,
+    "transport_retry": 0,
+    "implementation_semantic_rounds": 2,
+    "counter_rounds": 1,
+    "R3": 0,
+    "local_peak": 1,
+    "no_actual_overlap": true,
+    "client_interval_seconds_sum": 40.119388,
+    "server_running_waiting_KV": null,
+    "cache_or_congestion_inference": null,
+    "prior_diagnosis_separate": "Earlier broader diagnosis HTTP is not counted in these three narrow implementation/counter calls.",
+    "timestamp_boundary": "Counter owner report used attempt start as begin; actual POST_BEGIN is0.000481s later. Both are retained as distinct fields, with concurrency from POST_BEGIN."
+  },
+  "adoption": {
+    "model_executable_fragments": 0,
+    "R1": "Whole rejected: inlining drops actual setter packet custody/digest verification.",
+    "R2": "Whole rejected: splitting the conditional chain makes the live branch fall through to the watch cast.",
+    "counter": "Only immutable DTO/defensive-copy and changed failure-first/physical IO observations accepted. Generic REJECT based on a fail-fast preference supplies no actual successful-return validation bypass; no whole audit or Test/code adoption.",
+    "owner": "Entire one-condition guard and original branch chain,0 model code fragments. One hunk inverse restores every baseline byte.",
+    "source_digests": {
+      "baseline": {
+        "bytes": 57319,
+        "sha256": "76011cefacf747fec776c399d4b5c77d9a34c10388fb2897feed6d73596c8c87"
+      },
+      "selected": {
+        "bytes": 57421,
+        "sha256": "5dcc2bd0b3bbe877b5683581f0054c0b05cc8e1f39322d186c66cf33e60a7355"
+      }
+    },
+    "success_scope": "The same held immutable read tuple still reaches the surviving full verifier, followed by actual setter custody/session/epoch/request/chronology qualifications. Archive load, byte SHA, original/current authority and fresh reads are retained. No request elimination or cross-callback cache.",
+    "failure_scope": "Invalid read plus invalid/missing setter may first fail in setter IO/qualification and may capture pins or poison scope before read rejection. Successful-return predicates remain mandatory; identical exception order/failing IO schedule is not claimed.",
+    "owner_input_limit": "Counter source collection has24whole inputs, but nested immutable integer wrapper declarations were read by owner only after POST; not retrospectively part of the model prefix or complete transitive proof."
+  },
+  "software": {
+    "phases": [
+      {
+        "stage": "production_first_strict",
+        "BEGIN_UTC": "2026-11-02T07:06:21.566041+00:00",
+        "END_UTC": "2026-11-02T07:06:24.156207+00:00",
+        "process_seconds": 2.590167799993651,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 1925,
+          "sha256": "5c9bd4a83a0d34f37c959220a1311877e06af871d1d83679e35d8a1d9de7affc"
+        },
+        "stdout_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "stage": "existing_affected_test_first_strict",
+        "BEGIN_UTC": "2026-11-02T07:11:16.074825+00:00",
+        "END_UTC": "2026-11-02T07:11:18.046556+00:00",
+        "process_seconds": 1.9717388000135543,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 1972,
+          "sha256": "6cf5423b438d35581557218348c04d2274850134c48f2a83fbdd3d8b7ce345d9"
+        },
+        "stdout_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "stage": "first_fixture_setup_red",
+        "BEGIN_UTC": "2026-11-02T07:11:25.170846+00:00",
+        "END_UTC": "2026-11-02T07:11:28.742473+00:00",
+        "process_seconds": 3.571622600007686,
+        "exit_code": 1,
+        "ACTUAL_digest": {
+          "bytes": 1917,
+          "sha256": "41fe678f4f958e6ac8e37dcedf8c0daf0ecf271f706c0f6d73c62be3e8a2238c"
+        },
+        "stdout_digest": {
+          "bytes": 1931,
+          "sha256": "12392c193d1266ef36c58cdd1833b2f82c30ac02a9de2e34d8c810b22bcf38ea"
+        },
+        "stderr_digest": {
+          "bytes": 234,
+          "sha256": "3065f76f5c458989011ce10c2d000031be61b3ab20cebfba337d2748412de285"
+        }
+      },
+      {
+        "stage": "targeted_existing_method_pass",
+        "BEGIN_UTC": "2026-11-02T07:16:42.649806+00:00",
+        "END_UTC": "2026-11-02T07:17:14.292218+00:00",
+        "process_seconds": 31.642416200003936,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 2005,
+          "sha256": "ed6aa5b875385848ec825388782d6c25d346af5732ce2867a036472ee7af0f01"
+        },
+        "stdout_digest": {
+          "bytes": 482,
+          "sha256": "ddda0d4f5ce921e31c465285f32711d6aedc9251f642bfc7877c46e1b7305293"
+        },
+        "stderr_digest": {
+          "bytes": 234,
+          "sha256": "8ab3763184ce292277a2ffff1fa051a5f98e7fc522e2f1d077c5e7018e134dec"
+        }
+      }
+    ],
+    "targeted_existing_methods_passed": 1,
+    "new_Test_sources": 0,
+    "first_JVM_red": "Existing fixture support class missing from classpath; setup error, not production/model business failure.",
+    "retry": "Only add two already-existing support binaries; reuse same compiled production/Test and rerun only the affected method. No Test recompile or broad old-suite replay.",
+    "XML_case_count_verified": 1,
+    "limits": "Finite real production-wrapper regression only; no loading, Native control, Game query/action, healthy-worker restart, SAVE or measured speedup."
+  },
+  "formal_at_owner_software_cutoff": {
+    "state": "PENDING",
+    "late_receipt_is_separate": true
+  },
+  "later_formal": {
+    "observed_UTC": "2026-11-02T07:23:52.764245+00:00",
+    "commit": "5d939194c585247e1c47b793251978b55f6c53cc",
+    "normal_push_exit": 0,
+    "remote_exact_clean": true,
+    "production_bytes": 57421,
+    "selected_raw_formal_digest_equal": {
+      "bytes": 57421,
+      "sha256": "5dcc2bd0b3bbe877b5683581f0054c0b05cc8e1f39322d186c66cf33e60a7355"
+    },
+    "new_compile_RUN": 0,
+    "PUBLISHED_digest": {
+      "bytes": 804,
+      "sha256": "99108ed6307ef97e7067bdd9670f946760ac72f6bad6fe29409561e435499d29"
+    },
+    "owner_late_index_digest": {
+      "bytes": 924,
+      "sha256": "c0e97d1fda30291e53ab4c2e3afb20a705a14a0f07114c8ac1176ec71236756e"
+    }
+  },
+  "owner_cost": {
+    "first_prod_BEGIN_to_final_targeted_JVM_END_wall_seconds": 652.726177,
+    "four_process_seconds_sum": 39.77594540001883,
+    "setup_red_process_seconds": 3.571622600007686,
+    "complete_discovery_prepare_review_wall_seconds": null,
+    "active_prepare_review_fix_seconds": null,
+    "net_time_saving_seconds": null,
+    "preparation_errors": "Dependency location, source-inverse script setup/indent assumptions and fixture missing support class are owner costs. Earlier preparation start and active intervals not measured; compiler/JVM or full wall cannot reconstruct them.",
+    "benefit": "Historical44.4463714s acknowledgement-to-submission interval and other aggregate spans are not this verifier cost or candidate speedup."
+  },
+  "private_evidence_digests": {
+    "DELIVERY302.json": {
+      "bytes": 9523,
+      "sha256": "8d7671949ab5e1d56d0740d6decfaa688d4028b4ecfbce713eadf2c183abba2d"
+    },
+    "MODEL-SUMMARY302.json": {
+      "bytes": 3841,
+      "sha256": "b96b900434d3f9143f7c761e1d06b5eaf261f6650d6a330cc40bb710c76ab0d5"
+    },
+    "SOURCE-READY302.json": {
+      "bytes": 2027,
+      "sha256": "c4f044986c6eb3c244b3f454fbc08ff9e02099b10506797e27b04c8150f73e21"
+    },
+    "SOURCE-REVIEW302.json": {
+      "bytes": 3252,
+      "sha256": "49703c4adb4644fa9a9107437a9695f4058e6c28a4e4549fa70461e76c99f1af"
+    },
+    "SOURCE-INPUT302.json": {
+      "bytes": 5154,
+      "sha256": "bd68722e64c83a90425046b0702c4d2b5b27e701d4c7c7ff1001aa0c63ed3ab3"
+    },
+    "PARENT-INVERSE-AND-CLASSES302.json": {
+      "bytes": 4835,
+      "sha256": "c85b6d5e90347b8329a86a5e33385675bfc0aef3fb4e1140d2a4d967ff7f12f3"
+    }
+  },
+  "counter_review_digest": {
+    "bytes": 7099,
+    "sha256": "d7ae10de8db10db48a3ec880ad94c66fdf51f769e425aa661e92678cc8d72be7"
+  },
+  "next_real_trigger": "Only a naturally authorized later runtime/loading boundary or different real source task; no third candidate, repeated regression quota or healthy-worker action. Maintain both model modes separately.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}
