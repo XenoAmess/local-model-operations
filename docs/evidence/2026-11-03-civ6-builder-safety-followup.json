@@ -1,0 +1,252 @@
+{
+  "schema": "local-model-operations.civ6-builder-and-safety-followup/v1",
+  "date_local": "2026-11-03",
+  "machine_id": "BF-202609141645",
+  "cases": [
+    {
+      "sequence": 198,
+      "case_id": "HTTP-CIV6-BUILDERPROPOSALS198",
+      "mode_id": "http-candidate",
+      "shared_commit": "561c21d094836e962193e9789066596d143936cb",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 3300,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T19:27:50.558994+00:00",
+      "attempt_end_utc": "2026-11-02T19:27:57.868830+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 7310.502899985295,
+        "first_nonempty_content_delta_ms": 2075.853399990592,
+        "usage": {
+          "prompt_tokens": 8601,
+          "completion_tokens": 834,
+          "total_tokens": 9435
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected-code",
+      "review": "Wrong pcall arity treats native boolean as results table. Actual isolated13-case real-Lua consumer:0FAIL/10ERROR; no production integration. Dense-array/finiteHash contracts also incomplete. Native positive list unknown at request time.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 199,
+      "case_id": "HTTP-CIV6-BUILDERPROPOSALSREPAIR199",
+      "mode_id": "http-candidate",
+      "shared_commit": "561c21d094836e962193e9789066596d143936cb",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 3500,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "attempts": [
+        {
+          "attempt": 1,
+          "post_begin_utc": "2026-11-02T19:35:20.369391+00:00",
+          "attempt_end_utc": "2026-11-02T19:35:36.658484+00:00",
+          "http_status": 200,
+          "finish_reason": null,
+          "sse_done": false,
+          "total_ms": 16297.442700015381,
+          "first_nonempty_content_delta_ms": 2454.052499990212,
+          "usage": null,
+          "cached_prompt_tokens_if_reported": null,
+          "failure_class": "connection-reset10054"
+        },
+        {
+          "attempt": 2,
+          "post_begin_utc": "2026-11-02T19:35:46.772655+00:00",
+          "attempt_end_utc": "2026-11-02T19:35:51.294504+00:00",
+          "http_status": 200,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "total_ms": 4523.956700024428,
+          "first_nonempty_content_delta_ms": 779.1045000194572,
+          "usage": {
+            "prompt_tokens": 7697,
+            "completion_tokens": 667,
+            "total_tokens": 8364
+          },
+          "cached_prompt_tokens_if_reported": null,
+          "failure_class": null
+        }
+      ],
+      "adoption": "rejected-code",
+      "review": "Repair still captures only pcall status and nativeboolean; added typecheck returnsnil for every positive/knownempty list. Same unchanged13-case consumer actual0FAIL/2ERROR,11negative cases pass vacuously. Caller process exit0 is not test PASS. Owner takeover, no third similar repair request. Only complete ATTEMPT2 decoded/executed; first partial retained and not stitched/adopted. One HTTP-only retry with10.1045s backoff, zero replayed game actions.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 200,
+      "case_id": "HTTP-CIV6-TRADERBOUNDARY200",
+      "mode_id": "http-candidate",
+      "shared_commit": "1198322687553b4dd8111d4c9142de14fd09fcde",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 5000,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T19:49:53.996906+00:00",
+      "attempt_end_utc": "2026-11-02T19:50:14.641560+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 20638.4177999862,
+        "first_nonempty_content_delta_ms": 9149.34489998268,
+        "usage": {
+          "prompt_tokens": 35266,
+          "completion_tokens": 1599,
+          "total_tokens": 36865
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected-code",
+      "review": "Adds TradeEndpointCheck duplicating TradeEndpoints immediately before unchanged TradePath calls TradeEndpoints again. No reduction for legal candidates and no avoided original rejection calls. Does not remove the350 neighborhood queries. Source review only; candidate not executed/integrated.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 201,
+      "case_id": "HTTP-CIV6-SAFENEIGHBOR201",
+      "mode_id": "http-candidate",
+      "shared_commit": "1198322687553b4dd8111d4c9142de14fd09fcde",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 4500,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T19:49:54.000684+00:00",
+      "attempt_end_utc": "2026-11-02T19:50:10.571464+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 16570.453099993756,
+        "first_nonempty_content_delta_ms": 7270.895899971947,
+        "usage": {
+          "prompt_tokens": 33187,
+          "completion_tokens": 950,
+          "total_tokens": 34137
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected-code",
+      "review": "Both old/new edit contain type(cache)~=table whereas real supplied source uses ==table, so old text matches0 times. Proposed condition indexes nil ordinary cache and ignores actual table cache. Getter-hoisting idea is narrow plausible owner followup, but no integrated patch or native benefit; native log cannot identify getter cost.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "batch": {
+    "logical_requests": 4,
+    "complete": 4,
+    "length": 0,
+    "http_attempts": 5,
+    "transport_retries": 1,
+    "actual_client_peak": 2,
+    "pair200_201_overlap_seconds": 16.57078,
+    "198_199_serial": true,
+    "server_concurrency": null,
+    "cached_tokens": null
+  },
+  "owner_validation": {
+    "198": {
+      "methods": 13,
+      "failures": 0,
+      "errors": 10,
+      "process_exit": 0,
+      "result": "NOT_PASS"
+    },
+    "199": {
+      "methods": 13,
+      "failures": 0,
+      "errors": 2,
+      "process_exit": 0,
+      "result": "NOT_PASS"
+    },
+    "200": "Source review only, no candidate execution.",
+    "201": "Source review and exact-source comparison only; old replacement text count0.",
+    "production_integration": 0
+  },
+  "native53": {
+    "evidence": "https://github.com/XenoAmess/civ6_dev/blob/85f95d27d07c5555f3edb62823ab5afd1076dccf/docs/research/baiqi-p6-performance-native53-evidence-2026-11-03.json",
+    "result": "B_planFAIL/TC036NOTPASS",
+    "roots": 254,
+    "pure_ten": 235,
+    "controller_samples": 138,
+    "controller_p95_ms": 40.000200271606005,
+    "controller_max_ms": 204.99992370605,
+    "admin_samples": 97,
+    "admin_max_ms": 6.000041961669901,
+    "outcomes": "4newtraderIDs match actualdomesticroutes,9/9routes total,11UI/Corecities/allqueuesnonempty,0Luaerrors,7pointersrestored. Actualsettler5actionroots≤1path/max35ms,builder26≤1path/max55ms.",
+    "limits": "No matchedbehavioroffpairs/globalexclusive/N_req/causalspeedup proof."
+  },
+  "native_contract_followup": "After formal90window/save, separate normal90→91 playerturn read-only event probe observed four builders with4moves/2charges. Generic5arg returns true/table/dense9list of improvement INDEX values, including mine2 whose rowHash1001859687. Only firstbuilder currentplot had specific mine true; threeothers all9false. Originalmodelrequests precededthispositiveproof. Probe made0commands, sameunitidentity/coords/moves/charges unchanged, callbacksremoved. Full59vsproposalcompleteness notyetverified.",
+  "maintenance": {
+    "date": "2026-11-03",
+    "installed": "1.19.5",
+    "registry_latest": "1.19.5",
+    "preflights": "All4canonicalCLI entries reuse same-machine/user current-day successfulcache; transport retry did not rerun game actions.",
+    "new_opencode_native_generation": 0
+  },
+  "owner_cost": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "validation": null,
+    "publication": null,
+    "exclusive_active_seconds": null,
+    "note": "200/201 PREP_BEGIN/END recorded before task draft with native/publication interleaving, assembly script first failed on missing ownerfacts key and was corrected before any output/call. Complete active phase costs unknown. 198/199 cost gaps remainunknown."
+  },
+  "cumulative_civ6": {
+    "logical_requests": 201,
+    "complete": 191,
+    "length": 10,
+    "http_attempts": 202,
+    "transport_retries": 1,
+    "historical_actual_peak": 13,
+    "historical_peak_duration_seconds": null
+  },
+  "experience": "Protected-call status is distinct from all native multiple return values. A guard that returns unknown for every valid candidate can make many negative tests pass; retain positive and knownempty consumers, and inspect unittest results rather than process0. Required exact old/new hunk must match real supplied source before any mutation. A redundant prefilter that repeats the same innercheck is not a measured optimization. Native proposal entries may be metadataIndex rather than operationHash; resolve actualrow then use its actualHash forconsumer. Native generic true proposals do not guarantee individualplotlegality.",
+  "next": "Owner takes over builderproposalhelper with positiveNativeIndex/Hash proof and separatefullscan comparison; continue safety/trader improvement from real unclosed latency, not third repair of same rejectedhelper."
+}
