@@ -1,0 +1,236 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-CORRECT-UNSELECTED-PARALLEL-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "operator_review_UTC": "2026-11-02T05:32:26.196181+00:00",
+  "original_model_source_review_cutoff_UTC": "2026-11-02T05:24:53.838875+00:00",
+  "final_implementation_delivery_UTC": "2026-11-02T05:27:57.341613+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Retain the actual per-call observation pair taken immediately before the selected receipt query and reuse it for final exact projection, removing the second passive sample only on the warm success path. Keep existing early-return, immutable receipt/frame/chronology and archive gates.",
+  "input": {
+    "implementation_items": 46,
+    "implementation_physical_bytes": 614964,
+    "implementation_stable_prefix_physical_bytes": 625154,
+    "implementation_stable_prefix_CRLF_pairs_projected_to_LF": 735,
+    "implementation_source_message_UTF8_bytes": 624419,
+    "independent_audit_items": 25,
+    "independent_audit_physical_bytes": 711151,
+    "independent_audit_source_message_UTF8_bytes": 719213,
+    "all_actual_REQUEST_whole_texts_digest_and_order_verified": true,
+    "role_difference": "The independent role received the complete old baseline, current declaring/caller/callee sources and a proposed source contract; neither new owner implementation nor model implementation answer was provided. These are different role-specific closures, not one identical prefix.",
+    "hinting": "Implementation task explicitly names the per-call retention contract, exact source sites and preservation requirements. Source-correct two edits are guided narrow implementation, not discovery of the problem.",
+    "protocol": "Eight keys, current exact system/user/user, finite4500/5000, temperature0, thinkingfalse, JSON object and SSE usage. Source raw hashes, universal-newline projection and actual wire message bytes remain separate."
+  },
+  "calls": [
+    {
+      "role": "implementation",
+      "POST_BEGIN_UTC": "2026-11-02T05:23:00.215837+00:00",
+      "END_UTC": "2026-11-02T05:23:19.305782+00:00",
+      "max_tokens": 4500,
+      "complete_source_items": 46,
+      "physical_source_bytes": 614964,
+      "source_message_UTF8_bytes": 624419,
+      "CRLF_pairs_read_as_LF": 735,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "headers_seconds": 16.488096500004758,
+      "content_TTFT_seconds": 16.489645499998005,
+      "reported_HTTP_seconds": 19.089999100004206,
+      "usage": {
+        "prompt_tokens": 128442,
+        "completion_tokens": 434,
+        "total_tokens": 128876
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 639845,
+        "sha256": "6d4403123e9aaf1c91ded8e25354d48630e6784091d0ae624bf683cf6949b6be"
+      },
+      "CONTENT_digest": {
+        "bytes": 2019,
+        "sha256": "f310488766d1ccd62d0a10ce5766fc18d77769215bab4c9e5b5017ac0c6ee67e"
+      },
+      "EVENTS_digest": {
+        "bytes": 2231,
+        "sha256": "75f1df234ef4e304366974cf3a567844ddd58c05fee7c6624c478c466bc0683e"
+      }
+    },
+    {
+      "role": "independent_baseline_audit",
+      "POST_BEGIN_UTC": "2026-11-02T05:24:10.508496+00:00",
+      "END_UTC": "2026-11-02T05:24:47.334645+00:00",
+      "max_tokens": 5000,
+      "complete_source_items": 25,
+      "physical_source_bytes": 711151,
+      "source_message_UTF8_bytes": 719213,
+      "CRLF_pairs_read_as_LF": 672,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "headers_seconds": 18.735871199998655,
+      "content_TTFT_seconds": 18.76183959998889,
+      "reported_HTTP_seconds": 36.8261777000007,
+      "usage": {
+        "prompt_tokens": 145934,
+        "completion_tokens": 2674,
+        "total_tokens": 148608
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 736656,
+        "sha256": "60bc05fcb8d76b3fa51166028f76b3b7ea71e639befdf2fd7cc68672846e1741"
+      },
+      "CONTENT_digest": {
+        "bytes": 10729,
+        "sha256": "fd0bde319a6d90f58682bdabf28945d4e0f7f00b7e5a92acda0b3234d9386375"
+      },
+      "EVENTS_digest": {
+        "bytes": 2306,
+        "sha256": "071cd334acd37825dd9148c5e35a87305f46b879b7117e0d3110e2f86419bda3"
+      }
+    }
+  ],
+  "transport": {
+    "logical_roles": 2,
+    "POSTs": 2,
+    "ENDs": 2,
+    "complete_stop": 2,
+    "length": 0,
+    "retry": 0,
+    "client_in_flight_at_review": 0,
+    "client_peak": 1,
+    "client_peak_cumulative_seconds": 55.916094,
+    "actual_HTTP_overlap_seconds": 0,
+    "first_POST_to_last_END_wall_seconds": 107.118808,
+    "HTTP_union_seconds": 55.916094,
+    "zero_HTTP_between_roles_wall_seconds": 51.202714,
+    "reported_HTTP_attempt_seconds_sum": 55.916176800004905,
+    "service_running_waiting_KV": null,
+    "cache_congestion_or_target_concurrency_inference": null
+  },
+  "implementation_adoption": {
+    "grade": "SOURCE_CORRECT_NARROW_CANDIDATE_NOT_SELECTED_OWNER_PARALLEL_IMPLEMENTATION_ALREADY_MATERIALIZED",
+    "decoded_edits": 2,
+    "all_raw_bytes_forward_reverse_exact": true,
+    "owner_edits_inside_model_candidate": 0,
+    "candidate_digest": {
+      "bytes": 60372,
+      "sha256": "b9cb3ab0211383b917d76a69b29b951b6883b2c79b33c238b23eab70f7629252"
+    },
+    "candidate_compiled": false,
+    "model_candidate_formally_adopted": false,
+    "semantic_rejection": false,
+    "original_source_only_review_and_ready_cutoffs_preserved": true,
+    "actual_parallel_owner_source_digest": {
+      "bytes": 60347,
+      "sha256": "783f2dbffaaa22761da09c7973977c8a1a571530516c61ba2fb3b2fc8f467bd9"
+    },
+    "parent_materialized_UTC": "2026-11-02T05:23:06.706619+00:00",
+    "materialization_before_model_END": true,
+    "qualification": "Source-level correctness is supported by bounded full-byte replay and owner review. The independently materialized owner local-pair implementation is different bytes; its later first compile does not compile, adopt or behaviorally validate the unused alternative. Zero adoption is not a model semantic failure."
+  },
+  "independent_audit": {
+    "grade": "WHOLE_REJECTED_SEMANTIC_MISREAD",
+    "model_code_or_whole_audit_oracle_adopted": false,
+    "reasons": "Misplaced the actual conditional sample before the entire continuation loop, introduced later helper calls into that interval, conflated canonical append head with observation state, treated an unchanged exact-projection rejection as unsafe acceptance, and asserted the later sample must be correct. No concrete unguarded acceptance or necessary new durable field shown.",
+    "owner_source_facts_frozen_UTC": "2026-11-02T05:26:33.689521+00:00",
+    "owner_facts_before_CONTENT_read_as_recorded": true,
+    "owner_facts_after_actual_HTTP_END": true,
+    "not_before_model_generation": true,
+    "owner_did_not_read_new_parent_candidate_or_model_implementation": true,
+    "owner_source_only_conclusion": "Policy permits one actual query followed by status polls. Retain only the actual associated pair; rejection/unknown early returns remain, absence on final success fails closed, exact receipt/pair mismatch still rejects, existing preserved frame basis supports archive replay. This is an independent owner source argument, not model audit acceptance or a whole pipeline/runtime proof."
+  },
+  "software": {
+    "validated_source": "Parallel owner implementation only",
+    "first_changed_TU": {
+      "BEGIN_UTC": "2026-11-02T05:24:40.323188+00:00",
+      "END_UTC": "2026-11-02T05:24:42.371152+00:00",
+      "process_seconds": 2.0479669999913312,
+      "exit_code": 0,
+      "source_digest": {
+        "bytes": 60347,
+        "sha256": "783f2dbffaaa22761da09c7973977c8a1a571530516c61ba2fb3b2fc8f467bd9"
+      },
+      "ACTUAL_digest": {
+        "bytes": 1837,
+        "sha256": "391ff2e2aa41760ac758e2ba3afa5df20387bd95bce24a82a51dceafc2fbecd8"
+      }
+    },
+    "new_behavioral_Test_or_JVM": 0,
+    "limitation": "No complete owned warm issuer/scope/mailbox fixture was created; isolated unchanged-predicate reflection would not exercise sole-pair reuse and is not counted as behavior verification. No install, Game query, old RPC replay or SAVE qualification."
+  },
+  "cost_and_observation": {
+    "implementation_input_freeze_UTC": "2026-11-02T05:22:59.995437+00:00",
+    "implementation_freeze_to_final_delivery_wall_seconds": 297.346176,
+    "audit_input_freeze_UTC": "2026-11-02T05:24:10.172779+00:00",
+    "audit_freeze_to_source_report_wall_seconds": 257.874488,
+    "owner_active_labor_seconds": null,
+    "earlier_preparation_start": null,
+    "net_saving_seconds": null,
+    "packaging_error": "Owner delivery reader initially expected an obsolete generic result filename; corrected to actual attempt result. Existing source, HTTP, compilation and prior additive sidecars unchanged; separate unmeasured preparation cost.",
+    "Ops_prewrite_error": "First Ops assertion copied physical prefix length as actual wire message length. It stopped before public mutation, then verified 735 CRLF projections and corrected the wire length; no source declaration missing or model failure. Its separate active cost was not measured.",
+    "last_known_observation_erratum": "Original parent delivery still said independent HTTP in flight, but actual END preceded that delivery. Existing additive annex records the stale notification; original delivery/REQUEST/END remains frozen. Do not count the observation delay as extra model in-flight time.",
+    "whole_windows": "Known metadata windows include source assembly/review, parallel owner code, HTTP, scheduling, later adoption decision and packaging. They are not exclusive CPU, model queue or active labor."
+  },
+  "formal": {
+    "model_alternative": "NOT_ADOPTED",
+    "parent_commit_reported_in_later_owner_annex": "bb8a409a2a95263981a8e3c2abc70b5fb865c10c",
+    "parent_unique_publication_receipt_independently_held": false,
+    "parent_formal_does_not_adopt_model_candidate": true
+  },
+  "limits": [
+    "Only the warm local observation reuse source contract and changed owner TU are qualified.",
+    "Possible remaining guard/frame functional rejection stays rejected; no source change weakens it.",
+    "No actual runtime recovery, dispatch, natural cause/material, saved day or performance gain is inferred.",
+    "This one completed unit changes neither the closed native-tool repeat-loop result nor its separate long-term tracking."
+  ],
+  "private_evidence_digests": {
+    "DELIVERY299.json": {
+      "bytes": 3431,
+      "sha256": "4458a04ef869acb9ea055941742b94143f0b6221e02e7443908991a806fb4c7b"
+    },
+    "SOURCE-INPUT299.json": {
+      "bytes": 36160,
+      "sha256": "2bd00a02139dfc4bc49915e0e5359437a853ec40472105629e28f56108702dd7"
+    },
+    "SOURCE-REVIEW299.json": {
+      "bytes": 3806,
+      "sha256": "9e44261c560f0cc666bb34a12695e1d445c54a79e5396e95767e29939575926f"
+    },
+    "SOURCE-READY299.json": {
+      "bytes": 1192,
+      "sha256": "057a1334e52f1384ec0db35c840a64cc52628f8eb9d04f47be356f3d160c32b3"
+    },
+    "MODEL-COST299.json": {
+      "bytes": 1689,
+      "sha256": "f391a28af2d8a0698586763937c5df8db7b8505f7f3cf70b8269abdea0ba7e65"
+    },
+    "LATER-PARENT-ADOPTION299.json": {
+      "bytes": 2711,
+      "sha256": "640a7c74ef22157fccadb6debc0c777a2b946d3ccef7c52f657d5dd7ff95cd7f"
+    },
+    "parent_delivery": {
+      "bytes": 3113,
+      "sha256": "3af9b66e9969c79eaa16a83256434849c3b4f327ce50984aa92b8dce3683175e"
+    },
+    "audit_input": {
+      "bytes": 16607,
+      "sha256": "63c0138576dddec87e61d15f66dbcf6f55eeb9c97b8ec679aec28c30bb1c75d0"
+    },
+    "audit_report": {
+      "bytes": 7703,
+      "sha256": "acc382379d33ea8d0d127a10388429185597edf4a84e22ba0a3d1a1964c1c934"
+    },
+    "audit_owner_facts": {
+      "bytes": 3041,
+      "sha256": "9d728d1c4edd17d5b7ef86ac264e92bd6cc8d53b5d32bca035347aa2279f6299"
+    },
+    "audit_observation_annex": {
+      "bytes": 1748,
+      "sha256": "932cd8d13d98927af4a3ae4c5ce754d205185f6cd6e68b8bfb83cda65708366a"
+    }
+  },
+  "publication_new_HTTP_JVM_Game_actions": 0,
+  "next_real_trigger": "A new qualified unwritten task or independently held later actual receipt, without retrying the unused correct alternative for adoption credit."
+}

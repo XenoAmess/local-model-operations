@@ -425,3 +425,9 @@ owner四新case oracle响应END后、读CONTENT前冻；随后编译前源核纠
 [HTTP-SIGNED-HISTORY-IMPORT-001](evidence/2026-11-02-http-signed-history-import.json)实核首三角色26完整当前代码/350370B，实际message2为358212B；第四Test角色27项含两candidate和owner三方法/helpers，message2为372470B。预算1800/3500/2800/1500，4POST均stop/0retry，峰3仅79.552040s。owner已点名实际signed角色API与位置，两生产分别3/6个decoded edits正反应用到选中源的归一化全文精确；第四完整3505B Testmethod一次raw选用/内部改0。强提示且candidate-aware，不能算自主发现、整类生成或独立oracle。独审只局部source事实采，date/consumption/build与具体fixture误断不授whole审。
 
 旧binary缺既有API在编译前具名核出，必要current SDK outer+DTO首次闭包支持不入formal payload；实际请求声明本已完整，不造模型缺源或javac红。未改旧import pair的新positive真实1E（integer range），candidate四新方法4P/0skip，旧Tests不重跑；oldbuild保留仅source inverse，不扩大动态覆盖。owner前置unsigned/signed口述纠正、两个0Java CLI误项及writer XML断言误猜均独立保，原stderr不清。1592.724263s录得source→首次验证、2168.457787s至发表观察与六process21.784967s分列，早期发现/active/netunknown。原pending切点不改，后到e05b3483三payload rawformal精确；仅historical软件边界，0自然cause/material/Root/Game/SAVE或实速信用。HTTP/OpenCode长期记录继续分别维护，不补成功配额。
+
+## 后到：源审正确但并行owner实现已先落地
+
+[HTTP-CORRECT-UNSELECTED-PARALLEL-001](evidence/2026-11-02-http-correct-unselected-parallel.json)保留正确候选未采用这一独立等级。实现46完整项physical614964B、stableprefix625154B经735个CRLF投影为实际message624419B，4500预算stop434；两edits正反回全部raw bytes精确，owner改0，源审正确。owner另一个不同bytes的实现已在模型END前12.599163s实体，随后首1TU0/2.047967s；选用已验owner源，Optional候选未编/未采，不记模型语义拒，也不把父编译绿倒授候选采用。
+
+独立baseline审25完整项physical711151B、5000预算stop2674，未见新owner/candidate；把条件query前sample放到整loop前、canonical head混观察帧、将原exact guard拒绝说成不安全，whole拒。owner另冻sourcefacts在实际END后/读CONTENT前，非model-before-generation oracle；原guard仍会拒不同frame，source论证不替完整行为fixture。两HTTP实际不重叠，峰1/union55.916094s，first→last107.118808s，不能沿旧通知称在途。旧delivery错称inflight已有additive勘误，不回写；过时RESULT文件名的封包错独立保，active/更早准备/netunknown。0新行为Test/JVM/Game/恢复或实速；父formal标量与未采用候选、唯一receipt持有状态分别记，HTTP/OpenCode长期分轨继续。
