@@ -1,0 +1,86 @@
+{
+  "schema": "local-model-operations.mode-case-annex/v1",
+  "case_id": "HTTP-NARROW-STEP-OWNER-ORACLE-REPAIR-001",
+  "mode_id": "http-candidate",
+  "annex": "LATER_EXACT_FORMAL_PUBLICATION",
+  "operator_review_UTC": "2026-11-02T05:45:41.760972+00:00",
+  "original_public_case": "2026-11-02-http-narrow-step-owner-oracle-repair.json",
+  "original_public_case_digest": {
+    "bytes": 19244,
+    "sha256": "282442dd9df5c134850c1fc35cbae8dd50b785fd92251e34c540bfab6f9245a0"
+  },
+  "original_public_case_bytes_unchanged": true,
+  "formal": {
+    "observed_UTC": "2026-11-02T05:42:39.048548+00:00",
+    "commit": "31e06889462944b3ad1656f18d4ffe7dce56154a",
+    "normal_push_remote_exact_clean": true,
+    "four_selected_payloads_raw_formal_exact": true,
+    "payloads": [
+      {
+        "role": "owner_full_producer",
+        "raw_selected_formal_digest": {
+          "bytes": 4092,
+          "sha256": "d5aac299234dfd81bba6e84fcf2fedce65af533244bf9ff6af8e95f3e6852ca4"
+        },
+        "EOF_newline_present": true
+      },
+      {
+        "role": "owner_exact_step",
+        "raw_selected_formal_digest": {
+          "bytes": 769,
+          "sha256": "2de410572652db429914dc6ac749c0c3a587d6cb1c167d6f538381877dbc04fc"
+        },
+        "EOF_newline_present": true
+      },
+      {
+        "role": "partial_model_adapter_after_owner_repairs",
+        "raw_selected_formal_digest": {
+          "bytes": 1459,
+          "sha256": "abfcc3aed7c8bb926421bfca6354139d3c5eea7c7760c6b07f2bcf15aea7f733"
+        },
+        "EOF_newline_present": false
+      },
+      {
+        "role": "owner_Test_after_literal_correction",
+        "raw_selected_formal_digest": {
+          "bytes": 15949,
+          "sha256": "2d28b539fe031968c83be2d4387ad3ab05a92385d0e1050f46af289af5f1c307"
+        },
+        "EOF_newline_present": true
+      }
+    ],
+    "new_compile_RUN_HTTP": 0
+  },
+  "adoption_unchanged": {
+    "model_step_R1": "Read partial length1300, whole discarded.",
+    "model_step_R2": "Complete but register prelude/equality wrong, whole rejected.",
+    "model_adapter": "Partial: six executing lines repaired by owner in four logical ways. Formal exactness is to this selected1459B, not decoded1521B; it does not upgrade whole raw adoption.",
+    "counter": "No reliable independent counterexample/proof adopted.",
+    "owner": "Whole ABI/control producer, exact step, oracle and all Test. First6P1F owner expected-register error fixed with two literal replacements; only failed method rerun1P, six initial passing methods not rerun. Not one new final7P run."
+  },
+  "cost_boundary": {
+    "recorded_clock_to_formal_observation_wall_seconds": 1534.048548,
+    "original_clock_to_software_delivery_wall_seconds": 1328.989723,
+    "original_first_prod_to_successful_failed_only_RUN_wall_seconds": 1035.105897,
+    "original_five_process_seconds_sum": 5.290016500002821,
+    "earlier_discovery_and_active_owner_labor_seconds": null,
+    "net_benefit_seconds": null,
+    "interpretation": "Later publication observation extends a recorded window only; earlier discovery was not continuously timed. Source/Book/owner correction/coordination/publication are not all process CPU or model time."
+  },
+  "scope": "Original software/pending cutoff, source review and first failure kept byte exact. Only existing selected-source publication is newly observed. No extra software scenario, hardware/Native/Game/loading/recovery/SAVE/performance credit.",
+  "private_evidence_digests": {
+    "publication": {
+      "bytes": 1478,
+      "sha256": "91b59010fe411c2a8907203f0f6d2903d13fc7a5afab2b653df4469c7777b577"
+    },
+    "formal_staged": {
+      "bytes": 57376,
+      "sha256": "42cc73e8c20f294b28c5baf3a1ef112a805a437d3eeca84cfc0594609a94279a"
+    },
+    "owner_later_annex": {
+      "bytes": 5602,
+      "sha256": "ede70f32a2d28ea9e918ec58db9fc75a2cbfd09f6d184f21fbdb6c0208c68b81"
+    }
+  },
+  "new_HTTP_JVM_Game_actions": 0
+}

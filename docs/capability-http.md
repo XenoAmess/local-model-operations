@@ -447,3 +447,7 @@ owner全producer/step/Test，literal场景POST前冻但具体Book在生产审后
 ### 正确未采用候选的唯一正式receipt后到
 
 [原HTTP-CORRECT-UNSELECTED-PARALLEL-001](evidence/2026-11-02-http-correct-unselected-parallel.json)保持原字节；[新annex](evidence/2026-11-02-http-correct-unselected-parallel-formal.json)实核已发表bb8a409a唯一payload为owner60347B/783f，rawformal/EOF精确，模型60372B/b9cb仍正确未编未采。精确时序是owner落源→实现HTTP END→owner首编→独审END，不把writer“在途answers”概述当“首编早于两个HTTP END”。lookup/JSON误读/actual字段与argv断言错误独立留成本unknown；0新HTTP/编RUN/运行信用，旧原件不回写。
+
+### search-step单元后到正式
+
+[原HTTP-NARROW-STEP-OWNER-ORACLE-REPAIR-001](evidence/2026-11-02-http-narrow-step-owner-oracle-repair.json)旧pending/软件/首F切点字节不变；[后到annex](evidence/2026-11-02-http-narrow-step-owner-oracle-repair-formal.json)实核31e06889四selected payload与formal逐byte/EOF精确，0新增编RUN/HTTP。adapter精确的是owner修后1459B，不升级decoded1521B whole raw；step两稿0采用、owner全编排/oracle和6P1F→onlyfailed1P保持。1534.048548s录得clock→发表观察另列，不回填1328.989723s软件delivery窗口、不称active/净收益或运行成功。
