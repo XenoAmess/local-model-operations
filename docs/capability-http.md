@@ -858,3 +858,9 @@ Owner新六Test在读候选/反审前冻结，但已知成熟算法、非wholebl
 [HTTP-FP-CARRIER-PROPOSAL-603](evidence/2026-11-03-http-fp-carrier-proposal.json)27完整项71611物理B/78917源码消息B，3400/2800两stop、0retry；migration缩窄128bit状态、允许未经来源支持的默认控制字、漏真实传播边且错置source range，counter负例未满足实际增长入口并误读rounding，整稿均拒。Owner独冻acceptance/rounding pair，100%另写最小proposal；0模型代码/新API/Test/编译，不借后续实现补本轮采用率，也不为比例追加R2。
 
 所选峰2仅14.207935s；已录准备→proposal959.890821s、HTTP union18.337150s，早期资格/active/netunknown。路径和搜索准备错误与模型语义错分开，不把来源完整写成所有外部状态已实采；不授FP执行/Native/Game或实速。
+
+## 强形状提示的完整纯FP载体类原样采用
+
+[HTTP-GUIDED-PURE-FP-CARRIER-604](evidence/2026-11-03-http-guided-pure-fp-carrier.json)28完整项83191物理B/90759源码消息B，4200/1700两stop、0retry、峰2仅9.457071s。Owner已给603设计与完整record/签名/guard，模型5270B整类decoded raw唯一字节相等、0owner Java/EOL/EOF修、无R2；授guided完整实现，不授自主架构或FP算术。Counter只保合同已提示的一般核对，unknown表示/priority误读拒，0新oracle；owner六unit acceptance预读答冻结，实际Test代码在读候选后写，非wholeblind。
+
+唯一API/Test首strict及manual六unit全0，1.615108s过程对已录468.345854s墙钟，active/更早资格/净收益unknown。后见6e04bdce三blob字节/EOF等，唯一薄JUnit wrapper的1P仍为同六unit，不计第七；原软件pending保。只验纯载体，不授真实MXCSR输入、浮点执行、全caller/Native/Game或速度。
