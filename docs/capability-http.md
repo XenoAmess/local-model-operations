@@ -1105,3 +1105,8 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 
 
 616 [后到正式与薄JUnit](evidence/2026-11-03-http-parent-reserve-fp-later-formal.json)d5e5c492模型5227 raw/EOF等，ownerTest17386→17219仅167CRLF转LF/无token改；仅新wrapper首selected1P复用原六组，非第七case。1.4024413进程与10.662656协调gap分列，原3306B pending及492.792779仅clock下界不改，无实载/同call16+4/提速信用。
+
+
+352 [lazy可选history与owner顺序修正](evidence/2026-11-03-http-lazy-optional-history-owner-order-repair.json)23完整源513016物理/517411消息B，两stop峰2仅36.689277s；两机械hunk采用，模型把Supplier.get放owner查找之后/旧override迁移遗漏由owner修，counter误读原Java求值顺序整拒。只省当前default未用snapshot，custom入口仍首先fresh materialize、每binding Session门保，非全IO trace等价。三prod首0/owner新2P、234warning、11.5804868进程对569.056479 POST→JVM子窗/activeNULL分列；JVM末1.810273s自然与新SAVE OPEN重叠，不称资源全无重叠或因果。原queued切点保，[后到formal](evidence/2026-11-03-http-lazy-optional-history-later-formal.json)29ae59f4五叶独附，不授运行/39秒归因或实速。
+
+617 [actual SET到FP carrier与R2 normal-return guard](evidence/2026-11-03-http-known-fill-fp-normal-return-guard.json)完整5650R1+唯一模型guardhunk→6151正逆exact/0ownerJava，但强signature/routing/Outcome提示明记；3stop/峰2仅10.311626s。Owner四组full fixture在END后CONTENT前冻，并在同样读取前用固定literal替expected算式；非pre-generation，valid unknown-tail Normal仅源审，实际只测其bad-normal拒。764.701750仅late-clock下界，complete task/activeNULL，4console非4JUnit/后继不增第5组，无hardware/Native172同call16+4/实速信用。
