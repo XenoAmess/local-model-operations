@@ -1,0 +1,301 @@
+{
+  "schema": "local-model-operations.civ6-missionary-delivery/v1",
+  "date": "2026-11-02",
+  "machine_id": "BF-202609141645",
+  "maintenance": {
+    "daily_cache_hit": true,
+    "record_version": "1.19.5",
+    "upgrade_performed_by_this_check": false,
+    "native_opencode_generation": false
+  },
+  "batch": {
+    "http_attempts": 6,
+    "complete_json_objects": 6,
+    "length": 0,
+    "transport_retries": 0,
+    "client_peak_in_flight": 2,
+    "peak_segments": [
+      {
+        "start_utc": "2026-11-02T02:11:19.201611+00:00",
+        "end_utc": "2026-11-02T02:11:23.673170+00:00",
+        "duration_seconds": 4.471559
+      },
+      {
+        "start_utc": "2026-11-02T02:47:19.527871+00:00",
+        "end_utc": "2026-11-02T02:48:25.547471+00:00",
+        "duration_seconds": 66.0196
+      }
+    ],
+    "current_in_flight": 0,
+    "server_concurrency": null,
+    "cached_tokens": null
+  },
+  "cases": [
+    {
+      "case_id": "HTTP-CIV6-MISSIONARYTARGET137",
+      "mode_id": "http-candidate",
+      "shared_commit": "cc26764e15fc2ea26238a2adbcae0bd2007c22bf",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "model_alias": "qwen38-coder",
+      "backend_identity": null,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 1500,
+      "source_message_utf8_bytes": 6274,
+      "post_begin_utc": "2026-11-02T02:11:19.200997+00:00",
+      "attempt_end_utc": "2026-11-02T02:11:23.673170+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "candidate_complete": true,
+        "http_headers_ms": 1066.4993999816943,
+        "first_nonempty_content_delta_ms": 1068.4490999847185,
+        "total_ms": 4472.452699992573,
+        "usage": {
+          "prompt_tokens": 1983,
+          "completion_tokens": 409,
+          "total_tokens": 2392
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "exact-method",
+      "review": "MissionaryTarget entire method adopted unchanged after actual Core/UI target probes and software checks.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "case_id": "HTTP-CIV6-MISSIONARYLIVE138",
+      "mode_id": "http-candidate",
+      "shared_commit": "cc26764e15fc2ea26238a2adbcae0bd2007c22bf",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "model_alias": "qwen38-coder",
+      "backend_identity": null,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 2300,
+      "source_message_utf8_bytes": 18655,
+      "post_begin_utc": "2026-11-02T02:11:19.201611+00:00",
+      "attempt_end_utc": "2026-11-02T02:11:24.716766+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "candidate_complete": true,
+        "http_headers_ms": 1334.8091999941971,
+        "first_nonempty_content_delta_ms": 1336.8903000082355,
+        "total_ms": 5510.834199987585,
+        "usage": {
+          "prompt_tokens": 5559,
+          "completion_tokens": 539,
+          "total_tokens": 6098
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial",
+      "review": "Core snapshot candidate partly adopted; owner added missing required member checks. Actual Core GetType/religion component differs from UI direct getters.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "case_id": "HTTP-CIV6-RELIGIOUSVALIDATOR139",
+      "mode_id": "http-candidate",
+      "shared_commit": "cd4d4eadadbfaf03c4737558a4ccb4e17f6edeed",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "model_alias": "qwen38-coder",
+      "backend_identity": null,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 3000,
+      "source_message_utf8_bytes": 12720,
+      "post_begin_utc": "2026-11-02T02:47:19.525794+00:00",
+      "attempt_end_utc": "2026-11-02T02:48:25.547471+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "candidate_complete": true,
+        "http_headers_ms": 1426.0106000001542,
+        "first_nonempty_content_delta_ms": 1447.6331999758258,
+        "total_ms": 66016.77639997797,
+        "usage": {
+          "prompt_tokens": 4054,
+          "completion_tokens": 552,
+          "total_tokens": 4606
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "exact-method",
+      "review": "Complete J.Validate method adopted unchanged; strict schema, capacity, identity and sequence checks verified in software.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "case_id": "HTTP-CIV6-REQUESTMISSIONARY140",
+      "mode_id": "http-candidate",
+      "shared_commit": "cd4d4eadadbfaf03c4737558a4ccb4e17f6edeed",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "model_alias": "qwen38-coder",
+      "backend_identity": null,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 4500,
+      "source_message_utf8_bytes": 87387,
+      "post_begin_utc": "2026-11-02T02:47:19.527871+00:00",
+      "attempt_end_utc": "2026-11-02T02:48:37.269653+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "candidate_complete": true,
+        "http_headers_ms": 5193.384100013645,
+        "first_nonempty_content_delta_ms": 5217.596400005277,
+        "total_ms": 77737.62339999666,
+        "usage": {
+          "prompt_tokens": 23797,
+          "completion_tokens": 1783,
+          "total_tokens": 25580
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected",
+      "review": "Complete stop candidate rejected: Core-only GetReligion used on UI unit, positive function path held, native call outside intended function with out-of-scope names, missing fullID/baseline checks. Owner rewrote whole RequestMissionary; no code adopted.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "case_id": "HTTP-CIV6-MISSIONARYPOSTGRANT141",
+      "mode_id": "http-candidate",
+      "shared_commit": "af50e4c47b23e9eef7d3c20c23bd3d5e260bd182",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "model_alias": "qwen38-coder",
+      "backend_identity": null,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 2500,
+      "source_message_utf8_bytes": 106228,
+      "post_begin_utc": "2026-11-02T03:08:26.490239+00:00",
+      "attempt_end_utc": "2026-11-02T03:08:33.961476+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "candidate_complete": true,
+        "http_headers_ms": 4232.933599996613,
+        "first_nonempty_content_delta_ms": 4256.537700013723,
+        "total_ms": 7475.6917000049725,
+        "usage": {
+          "prompt_tokens": 28760,
+          "completion_tokens": 513,
+          "total_tokens": 29273
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected",
+      "review": "Test candidate pre-called Prepare before Controller; preexisting ARMED gate bypassed the requested inside-Prepare mutation boundary. Owner replaced whole fixture with actual hook plus hookCalls1 and all3 return values, then four changes/restoration/reload no replay. No model test code adopted.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "case_id": "HTTP-CIV6-RELIGIONREADONLY142",
+      "mode_id": "http-candidate",
+      "shared_commit": "c3a8756f9667ad93b53bb7f718058b20a15e133f",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "model_alias": "qwen38-coder",
+      "backend_identity": null,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 2000,
+      "source_message_utf8_bytes": 13312,
+      "post_begin_utc": "2026-11-02T04:02:29.469112+00:00",
+      "attempt_end_utc": "2026-11-02T04:02:34.407302+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "candidate_complete": true,
+        "http_headers_ms": 845.1134999922942,
+        "first_nonempty_content_delta_ms": 856.3633000012487,
+        "total_ms": 4938.307300006272,
+        "usage": {
+          "prompt_tokens": 4349,
+          "completion_tokens": 634,
+          "total_tokens": 4983
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-diagnostic",
+      "review": "Readonly Core diagnostic partly adopted only after owner replaced invented player GetLeaderName with actual PlayerConfigurations:GetLeaderTypeName and fixed nil-pr guard. Native diagnostic ran successfully; no gameplay action or automation proof credit.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "source43_delivery": {
+    "commit": "437030cfdf93a85e64b1c3955c45dab91b3e00fd",
+    "evidence": "https://github.com/XenoAmess/civ6_dev/blob/437030cfdf93a85e64b1c3955c45dab91b3e00fd/docs/research/baiqi-p6-missionary-source43-evidence-2026-11-02.json",
+    "software": "354 tests pass in73.799s; includes14 new missionary methods and1 new religious combat guard method, plus prior adapter count changes. Not354 native cases.",
+    "native_status": "Source43 full automation and cold unknown-intent native acceptance still pending. Partial142 readonly diagnostic on owned cold source43 T75 confirmed bridge/journal/9city/faith; test-created missionary moves4 but IsReadyToMovefalse and0 background ops after2410 callbacks. Saved/reloading setup to distinguish debug initialization; not automation PASS.",
+    "native42_fact": "Previous native42 manual missionary spread succeeded; this exposed missing mandatory control. Fixed version43 is not yet granted native effect by software green."
+  },
+  "limits": [
+    "Owner supplied architecture, exact APIs and narrow contracts; exact leaves do not imply autonomous end-to-end implementation.",
+    "No measured owner savings or mode efficiency comparison.",
+    "Final charge disappearance remains unknown, not inferred completion.",
+    "Raw prompts/SSE/private saves remain ignored on execution machine."
+  ],
+  "next_real_task": "Actual source43 native automatic movement/spread, manual guard and cold persisted unknown-intent no replay; continue source fixes on real FAIL."
+}

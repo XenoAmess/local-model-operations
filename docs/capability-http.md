@@ -343,3 +343,9 @@ owner在候选编译前发现旧binary缺当前API getter，0candidate/Test STAR
 ## 后到：有序memory块正式附件
 
 [HTTP-ORDERED-MEMORY-BLOCK-001后到正式附件](evidence/2026-11-02-http-ordered-memory-block-formal.json)另记9e4f29bb正常发表，三个文件raw/formal SHA/EOF全部一致，原软件pending cutoff保持。复用首次2prod/Test/四方法回执，未新增HTTP/编测或场景；850B模型row、owner ABI/Test及提示程度分工不变，未授运行/硬件或提速。
+
+## 2026-11-02：Civ6传教士窄方法137–142
+
+6个真实未完成任务，经共享每日维护缓存后发出6 POST，全部200/stop/DONE/JSON对象、0重试；实际峰2，两个独立峰值区间与持续时间见[逐项回执](evidence/2026-11-02-civ6-missionary-delivery.json)。137目标谓词和139严格journal校验整方法原样采用；138 Core快照加owner必需成员检查后部分采用。140整方法因跨上下文API、调用位置、身份与基线错误整拒，owner全部重写；141测试在Controller前预先Prepare，实际没有触发待验的授权后突变，owner换为内部hook并核调用次数。142只读诊断需修正虚构leader getter及nil guard后部分采用，实机读取通过。
+
+正式source43已[发布](https://github.com/XenoAmess/civ6_dev/commit/437030cfdf93a85e64b1c3955c45dab91b3e00fd)，354项软件检查通过；不授全功能实机或模型自主实现。原生42的真实手动传播暴露强制托管缺口；43当前测试创建的新传教士有4移动力且原生允许传播，但IsReadyToMovefalse，2410次真实回调0后台命令，先保存重载区分Debug初始化。此冻结点自动传播、手动guard、未知意图冷重启仍待验证。原始候选与后到游戏结果分列，准备/纠错/净节省未知；OpenCode本轮只维护，未新增native生成。下一项继续实际43效果，不重跑已绿软件配额。
