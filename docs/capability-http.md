@@ -508,3 +508,9 @@ owner在软件后把执行旧索引脚本误当读取，first-save保护断言�
 [HTTP-NORMAL-KERNEL-BUDGET-HANDOFF-001](evidence/2026-11-02-http-normal-kernel-budget-handoff.json)五逻辑请求各9完整项/实际23530B固定三消息，6500/4500/1800/10000/6500有限预算，共7POST7END=2reset自动整请求retry+4length+1stop，峰3仅17.729493s。全部partial只hash/owner未读整弃不拼；R1长度不足属owner whole范围/预算成本，不能当语义错。实际R2将core加至10000、witness加至6500且6–8场缩4–5场，源码/API不变；witness仍length，而core完整691tokens却输出旧caller和虚构API，整拒/noR3。模型代码/oracle采用均0，不能用最终owner绿追授。
 
 owner原源oracle prePOST，独立完整1481B API/7615B kernel/14162B Test。唯一首2prod strict0/1.168953s、Test0/1.463736s、manual九场景135checks0/.164135s，8逻辑RAM返回+1预算prefix，不冒九JUnit、完整ABI/accesswidth/EH或Native差分/自然cause/权限。1425.018680s仅oracle冻→首RUN录得窗口，完整发现起点/activeunknown；2.796823s三进程与准备/弃稿/等待分别留。formal本cutoff pending后见另记，0Game/SAVE/实速；后继只用新具名小方法/反审，不补旧whole R3或框架成功配额。
+
+## 后到：同一局部树的private history重复扫描
+
+[HTTP-LOCAL-HISTORY-REUSE-001](evidence/2026-11-02-http-local-history-reuse.json)实际15/15/30/16完整项三消息，4000/3500/4500/5500预算，4逻辑5POST=3stop/1length/1reset自动整请求retry，峰3仅48.487417s。两个模型执行hunk唯一正反复现整叶13645→13638B，0owner执行修；只将private校验返回已查ArrayNode供同次紧邻anchor读取，原首检查位置/其余bytes均保。owner拒模型跨persist mutation/IO复用的叙述；不删parse、freshFS/hash/Pin/head/权限/保存guard，不称实载或SAVE收益。
+
+prospective反审误报异常优先级/浮点索引，整REJECT不采，不当看过candidate的审通过；Journal length4500未读整弃。Test reset弃后完整稿仍有假negative/缺latefailure全拒，identity声明确未入prefix属owner输入gap；owner全8457B四方法首1prod/1Test/4P，真实XML核齐。28.410802s首strict→END与5.550969s进程分列，16.922ms只机械装配，完整发现/准备/审阅wall及activeunknown；后续才记录真实PREP/REVIEW阶段，不能回填历史。formal本cutoff pending，原实测整phase不是本方法耗时或候选收益。

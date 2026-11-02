@@ -1,0 +1,341 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-LOCAL-HISTORY-REUSE-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_software_cutoff_UTC": "2026-11-02T06:56:25.875407+00:00",
+  "operator_review_UTC": "2026-11-02T07:04:35.060352+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Actual timer investigation yields one source-bounded private validation change: reuse a checked history array immediately inside the same local parsed-tree call. Separate prospective counter audit, broader journal diagnosis and implementation-visible public DATA-port regression generation.",
+  "input": {
+    "whole_text_items_by_role": [
+      15,
+      15,
+      30,
+      16
+    ],
+    "actual_whole_texts_order_and_parameters_verified": true,
+    "initial_inventory_union_items": 30,
+    "initial_inventory_physical_bytes": 1068568,
+    "protocol": "Current exact system/user/user; temperature0; thinkingfalse; JSON object; SSE usage; finite4000/3500/4500/5500.",
+    "limits": "Actual role-selected source, not all transitive authority/physical implementation closure. Initial journal prefix omits deeper shared observation/build hashing implementations, later read only by owner. Test prefix lacks a required filesystem identity record declaration; recorded as owner input gap, not wholly model API failure.",
+    "hinting": "Owner points at concrete same-call private duplicate work. Counter audit is prospective and sees no selected candidate, not whole candidate review. Test receives selected production and actual public DATA contracts; no blind oracle claim."
+  },
+  "tasks": [
+    {
+      "role": "driver-implementation01",
+      "whole_text_items": 15,
+      "physical_item_bytes": 162994,
+      "source_message_UTF8_bytes": 165254,
+      "REQUEST_digest": {
+        "bytes": 170708,
+        "sha256": "df3aa0c3f31567fc78d2abfefbe7b6acf8c0ce09ebecfd3da4b276bbb7bf5e8f"
+      },
+      "EVENTS_digest": {
+        "bytes": 2239,
+        "sha256": "88b4900544feeb9e7bd5bde7809333e5b03e9645be71e8c3d80088fe9ae2028e"
+      }
+    },
+    {
+      "role": "driver-counteraudit01",
+      "whole_text_items": 15,
+      "physical_item_bytes": 162994,
+      "source_message_UTF8_bytes": 165254,
+      "REQUEST_digest": {
+        "bytes": 170700,
+        "sha256": "9edf8c87cbcd94f5bed88a793d0c068f94e46d6b2e96c6ab481a57ee5d510444"
+      },
+      "EVENTS_digest": {
+        "bytes": 2222,
+        "sha256": "a7587b16116a45ef2a62f2bfa26b5771d4dd266c7242e9da423600eec0ec0090"
+      }
+    },
+    {
+      "role": "journal-diagnosis01",
+      "whole_text_items": 30,
+      "physical_item_bytes": 1068568,
+      "source_message_UTF8_bytes": 1073785,
+      "REQUEST_digest": {
+        "bytes": 1096996,
+        "sha256": "844336e755c8f7972c1971590fc19bce5836daaefb9c4d6226984985667a4a84"
+      },
+      "EVENTS_digest": {
+        "bytes": 2236,
+        "sha256": "e78fa389fa0493fb9b0054fcc10e91e289b01ed884e8e62f74d5280a80f275d0"
+      }
+    },
+    {
+      "role": "test-generation02",
+      "whole_text_items": 16,
+      "physical_item_bytes": 179635,
+      "source_message_UTF8_bytes": 182015,
+      "REQUEST_digest": {
+        "bytes": 188577,
+        "sha256": "1b700015cefcf35d985ed405b5821f5caa58cadeb68152c54cea7e7982ddaa43"
+      },
+      "EVENTS_digest": {
+        "bytes": 4786,
+        "sha256": "2da3db88f25a39c190142009c7f706b40adaf9c6b2ad8f7671cfef31eed286ab"
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "role": "driver-implementation01",
+      "attempt": 1,
+      "max_tokens": 4000,
+      "POST_BEGIN_UTC": "2026-11-02T06:40:33.712202+00:00",
+      "END_UTC": "2026-11-02T06:41:26.145196+00:00",
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "failure_category": null,
+      "reported_HTTP_seconds": 52.43302899999253,
+      "content_TTFT_seconds": 12.431502699997509,
+      "usage": {
+        "prompt_tokens": 34645,
+        "completion_tokens": 1415,
+        "total_tokens": 36060
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 6322,
+        "sha256": "1f15e8d7e3fde37dc6dfa7c3693d2e8fbbf64a8b3e977bf0e06c6e3602d5a778"
+      }
+    },
+    {
+      "role": "driver-counteraudit01",
+      "attempt": 1,
+      "max_tokens": 3500,
+      "POST_BEGIN_UTC": "2026-11-02T06:40:33.711968+00:00",
+      "END_UTC": "2026-11-02T06:41:22.307968+00:00",
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "failure_category": null,
+      "reported_HTTP_seconds": 48.59606310000527,
+      "content_TTFT_seconds": 8.811303599999519,
+      "usage": {
+        "prompt_tokens": 34629,
+        "completion_tokens": 749,
+        "total_tokens": 35378
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 3722,
+        "sha256": "9826ba9b6efb4184a261175dd19111f2892d1d2b4d486adfd7c1208adf047e6d"
+      }
+    },
+    {
+      "role": "journal-diagnosis01",
+      "attempt": 1,
+      "max_tokens": 4500,
+      "POST_BEGIN_UTC": "2026-11-02T06:40:33.820551+00:00",
+      "END_UTC": "2026-11-02T06:41:43.298889+00:00",
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "failure_category": "output_length",
+      "reported_HTTP_seconds": 69.47840179999184,
+      "content_TTFT_seconds": 40.93145599999116,
+      "usage": {
+        "prompt_tokens": 218070,
+        "completion_tokens": 4500,
+        "total_tokens": 222570
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 22901,
+        "sha256": "4ad3ae399e59faea91ddb5159e22e2a99991ddf3d74a390aa608a3caab0ef47a"
+      }
+    },
+    {
+      "role": "test-generation02",
+      "attempt": 1,
+      "max_tokens": 5500,
+      "POST_BEGIN_UTC": "2026-11-02T06:45:33.452229+00:00",
+      "END_UTC": "2026-11-02T06:45:44.810000+00:00",
+      "finish_reason": null,
+      "SSE_DONE": false,
+      "HTTP_status": 200,
+      "failure_category": "connection_reset",
+      "reported_HTTP_seconds": 11.357755699995323,
+      "content_TTFT_seconds": 5.212455699991551,
+      "usage": null,
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 3767,
+        "sha256": "2d29758c7abfc26c2556f7fdfb20d6525da8f0c4397cdca6bb656eaea12e44eb"
+      }
+    },
+    {
+      "role": "test-generation02",
+      "attempt": 2,
+      "max_tokens": 5500,
+      "POST_BEGIN_UTC": "2026-11-02T06:45:53.969642+00:00",
+      "END_UTC": "2026-11-02T06:46:11.436094+00:00",
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "failure_category": null,
+      "reported_HTTP_seconds": 17.466518500004895,
+      "content_TTFT_seconds": 1.0055090999958338,
+      "usage": {
+        "prompt_tokens": 38354,
+        "completion_tokens": 2882,
+        "total_tokens": 41236
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 12045,
+        "sha256": "ea0e55b22b2b01cb1d8218ba8cdd1a82c07167a87c85c736e33393c35741a8c0"
+      }
+    }
+  ],
+  "transport": {
+    "logical_roles": 4,
+    "actual_POSTs": 5,
+    "ENDs": 5,
+    "complete_stop": 3,
+    "length": 1,
+    "connection_reset": 1,
+    "automatic_transport_retry": 1,
+    "semantic_R2": 0,
+    "client_in_flight_at_owner_cutoff": 0,
+    "client_peak": 3,
+    "peak_cumulative_seconds": 48.487417,
+    "HTTP_union_seconds": 98.41114400000001,
+    "server_running_waiting_KV": null,
+    "cache_congestion_or_runtime_TTFT_inference": null
+  },
+  "adoption": {
+    "production": {
+      "model_executing_hunks_raw_adopted": 2,
+      "each_unique_forward_and_reverse_all_whole_file_bytes_exact": true,
+      "owner_executing_code_changes": 0,
+      "before_digest": {
+        "bytes": 13645,
+        "sha256": "13ecda46653ba96e7a438a5d817e73ff99f3caba762af0501cb8625375dcd6aa"
+      },
+      "selected_digest": {
+        "bytes": 13638,
+        "sha256": "bc5a58f4810c392b7d85123fe3f45f2e28d65ea718305abd3c731c9cccbae8ab"
+      },
+      "scope": "Only private typed identity validation returns its checked history array; immediate anchor validation uses that returned array. Both raw decoded old/new hunks apply uniquely and reverse to original whole source, preserving all other bytes/EOL/EOF.",
+      "owner_narrative_correction": "Model prose also suggests carrying an earlier validation result across persistence mutations/IO. Owner rejects that narrative; only immediate local pure duplicate is removed. No parse elimination or physical-read saving."
+    },
+    "counter_audit": "Complete REJECT verdict not adopted: exception-order claim contradicts unchanged first-check location; nonintegral indices remain rejected by real parser; no parsing eliminated. Only source-supported observations kept; no whole audit/independent oracle.",
+    "journal_diagnosis": "Length4500 wholly discarded unread, hash only by Ops; no fragments or R2, no source/performance conclusion.",
+    "model_Test": "First transport reset partial discarded, second complete stop whole rejected: missing imports/invalid anchor, duplicate supposed negatives and absent late failure; required identity declaration omission is separately owner input responsibility. No code fragments used.",
+    "owner_Test": "All8457B four implementation-visible public DATA-port methods and fixture, 0 model Test adoption."
+  },
+  "software": {
+    "first_actual_phases": [
+      {
+        "stage": "prod",
+        "BEGIN_UTC": "2026-11-02T06:53:10.996264+00:00",
+        "END_UTC": "2026-11-02T06:53:12.371695+00:00",
+        "process_seconds": 1.3754333000106271,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 492,
+          "sha256": "7f6f0515873923436c930e081218e9f074b6ac3f771daa7bd903b985553cf781"
+        },
+        "args_digest": {
+          "bytes": 72382,
+          "sha256": "09ab83e4581ba165404bef6c1c900a2d1b2650f5da49e2952d55c75f6ea8a975"
+        }
+      },
+      {
+        "stage": "test",
+        "BEGIN_UTC": "2026-11-02T06:53:27.773452+00:00",
+        "END_UTC": "2026-11-02T06:53:29.267345+00:00",
+        "process_seconds": 1.4938947000046028,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 492,
+          "sha256": "34018755470679a9f62b1f3b4cdeb8889d283273bc172257d1de6662061828a0"
+        },
+        "args_digest": {
+          "bytes": 72634,
+          "sha256": "a60a9bce8cf6f63c553978cffd3c568df98cd9f456a42e55084a7e7f7c64ac4c"
+        }
+      },
+      {
+        "stage": "run",
+        "BEGIN_UTC": "2026-11-02T06:53:36.725429+00:00",
+        "END_UTC": "2026-11-02T06:53:39.407066+00:00",
+        "process_seconds": 2.681640900002094,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 433,
+          "sha256": "1bf21c10765b473e422156dcc5b65b30ed81f58b25602ad46bd2fae7fafd2940"
+        },
+        "args_digest": {
+          "bytes": 72620,
+          "sha256": "4d17e8ab7173448fb4cc28f8b847978d0c9aceae572079665918a042b7d99ce1"
+        }
+      }
+    ],
+    "new_JUnit_methods_passed": 4,
+    "failed_errors_skipped": 0,
+    "XML_and_frozen_console_verified": true,
+    "original_environment_stderr_retained": true,
+    "scope": "Pure public validation/readArchived DATA-port behavior: valid anchor opaque history/order, exact index failures, mismatch/late observation failures and managed-restore failure priority. No private issuer, physical filesystem identity proof, Native integration, currently loaded tuple, Game/SAVE or benchmark qualification."
+  },
+  "source_performance_boundary": "Per actual anchor-validation invocation, two full history scans become one at unchanged check position; initial persistence scans across mutation/IO remain separate. All fresh physical observations, hashes, identities, Pin, head, permissions, materialization and errors remain. Whole measured checkpoint/journal phase totals are not per-method cost or a measured reduction from this uninstalled candidate.",
+  "formal_at_owner_software_cutoff": {
+    "state": "PENDING_SOLE_WRITER",
+    "commit": null,
+    "later_receipt_is_separate": true
+  },
+  "owner_cost": {
+    "complete_discovery_prepare_review_wall_seconds": null,
+    "active_prepare_review_fix_seconds": null,
+    "first_recorded_mechanical_freeze_UTC": "2026-11-02T06:40:33.290755+00:00",
+    "mechanical_freeze_seconds": 0.01692229999753181,
+    "mechanical_freeze_excludes_prior_material_discovery_and_impact_work": true,
+    "first_strict_to_final_END_wall_seconds": 28.410802,
+    "three_process_seconds_sum": 5.550968900017324,
+    "net_time_saving_seconds": null,
+    "preparation_errors": "Initial guessed module path absent; actual direct continuity declarations resolved before POST. Test missing identity declaration resolved for owner fixture, without backfilling original model prefix. Ops first read mistakenly resolved relative spec files from process cwd; corrected to spec parent before any public artifact write, no business execution. Unknown discovery/review/repair labor is not zero.",
+    "interpretation": "The16ms mechanical assembly is not complete preparation. Compiler/JVM phase sum is not full owner effort; actual resource/coordination gaps retain wall and are not all model or CPU time."
+  },
+  "private_evidence_digests": {
+    "delivery06/DELIVERY06.json": {
+      "bytes": 3819,
+      "sha256": "9f6bade7fb33bb51fa3c65c0009b736789c2a187fa47603e9a0a28772969810e"
+    },
+    "delivery06/RESULT06.json": {
+      "bytes": 5135,
+      "sha256": "a2bacbb954a2bd10efb945217288e6bc99cf6e381b605268bca31bb4dffbbc20"
+    },
+    "delivery06/COST06.json": {
+      "bytes": 5742,
+      "sha256": "d1edc04b380edc7fd3ad295196e84fa90a1297cf4eded7000facc3ab020858fd"
+    },
+    "SOURCE-INPUT01.json": {
+      "bytes": 13023,
+      "sha256": "4119eea8684f6ce1c6e52fa2cb45489074e4670d8bb7a32db10289af0e5ee99f"
+    },
+    "OWNER-REVIEW02.json": {
+      "bytes": 2065,
+      "sha256": "cad46013fa7edb0de1ee4f5231b92f918dc0d9bda80e161f134a9c94e656c96b"
+    },
+    "SOURCE-FINDINGS05.json": {
+      "bytes": 6434,
+      "sha256": "189721547dea55e680395ec8ecf0480e5847775bf5fb445cf03accedb458edb7"
+    },
+    "TEST-OWNER-REVIEW04.json": {
+      "bytes": 1273,
+      "sha256": "c60c72dd367b4b07c5cdf640944254feb245aad17b2448eef3a599a2a07cbd9a"
+    },
+    "VALIDATION-READY04.json": {
+      "bytes": 3418,
+      "sha256": "4861a36e75bbf31874f2a7a91a248454cab398a8dedb758f013628757cdfeee0"
+    }
+  },
+  "next_real_trigger": "Later exact formal receipt and separately authorized natural runtime loading/measurement, or a genuinely new qualified source requirement. No guard removal, old-green rerun or extra HTTP for counters; continue HTTP/native-tool tracking separately.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}
