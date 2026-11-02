@@ -1,0 +1,291 @@
+{
+  "schema": "local-model-operations.civ6-repair47-followup/v1",
+  "date": "2026-11-02",
+  "machine_id": "BF-202609141645",
+  "batch": {
+    "requests": 6,
+    "complete": 6,
+    "length": 0,
+    "retries": 0,
+    "actual_client_peak": 2,
+    "initial_pair_overlap_seconds": 6.194783,
+    "remaining_requests_serial": true,
+    "server_concurrency": null,
+    "cached_tokens": null
+  },
+  "cases": [
+    {
+      "sequence": 173,
+      "case_id": "HTTP-CIV6-REPAIROBSERVER173",
+      "mode_id": "http-candidate",
+      "shared_commit": "f74c451214ab541ffe65368284fc5998dcd68496",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 4000,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T13:43:25.066054+00:00",
+      "attempt_end_utc": "2026-11-02T13:43:32.625471+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 7555.45639997581,
+        "first_nonempty_content_delta_ms": 553.6809999903198,
+        "usage": {
+          "prompt_tokens": 1263,
+          "completion_tokens": 962,
+          "total_tokens": 2225
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected",
+      "review": "Treats numeric unit:GetUnitType() as object with GetCombat/GetFormationClass; invents city:GetCityHall/GetGranaryProgressCost/GetCampusProgressCost, no requested cleanup. Never executed.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 174,
+      "case_id": "HTTP-CIV6-REPAIRSNAPSHOT174",
+      "mode_id": "http-candidate",
+      "shared_commit": "f74c451214ab541ffe65368284fc5998dcd68496",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 2500,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T13:43:25.065847+00:00",
+      "attempt_end_utc": "2026-11-02T13:43:31.260837+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 6187.0015999884345,
+        "first_nonempty_content_delta_ms": 553.6177000030875,
+        "usage": {
+          "prompt_tokens": 1010,
+          "completion_tokens": 711,
+          "total_tokens": 1721
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected",
+      "review": "Invents GOVERNANCE_HUMAN_LEADER_BAIQI/GetGovernment guard, city:GetHousing/unit:GetFormationCount, indexes PlayersVisibility as plot array; no actual local/human/SP/identity protection. Never executed.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 175,
+      "case_id": "HTTP-CIV6-REPAIRATTRIBUTION175",
+      "mode_id": "http-candidate",
+      "shared_commit": "f74c451214ab541ffe65368284fc5998dcd68496",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 2000,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T13:48:37.778381+00:00",
+      "attempt_end_utc": "2026-11-02T13:48:43.329488+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 5546.289199992316,
+        "first_nonempty_content_delta_ms": 635.066699993331,
+        "usage": {
+          "prompt_tokens": 3091,
+          "completion_tokens": 685,
+          "total_tokens": 3776
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-diagnosis-owner-corrected",
+      "review": "Correct source-attribution diagnosis: initial18 military sinks were explicit test-player SKIP calls in same context. Owner retained rawcounts, independently paired18 exact ledger and added exact turn/id/op marker around one forwarded call, rollback onfailure. No callstack introspection; candidate suggestion of callstack not used.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 176,
+      "case_id": "HTTP-CIV6-REPAIRBLOCKER176",
+      "mode_id": "http-candidate",
+      "shared_commit": "f74c451214ab541ffe65368284fc5998dcd68496",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 1800,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T13:53:40.834051+00:00",
+      "attempt_end_utc": "2026-11-02T13:53:45.180344+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 4340.375500003574,
+        "first_nonempty_content_delta_ms": 967.680300003849,
+        "usage": {
+          "prompt_tokens": 1819,
+          "completion_tokens": 373,
+          "total_tokens": 2192
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-diagnosis-owner-corrected",
+      "review": "Correct premature blocker diagnosis; owner independently read actualtech27 and then added12s bounded no-write settling and3s continuous idle,120s total. Candidate merely whitelisting research not adopted, no manualresearch choice or endturn replay.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 177,
+      "case_id": "HTTP-CIV6-REPAIREVIDENCEREVIEW177",
+      "mode_id": "http-candidate",
+      "shared_commit": "f74c451214ab541ffe65368284fc5998dcd68496",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 1800,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T14:03:00.488443+00:00",
+      "attempt_end_utc": "2026-11-02T14:03:09.324409+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 8837.205899995752,
+        "first_nonempty_content_delta_ms": 3851.7195000022184,
+        "usage": {
+          "prompt_tokens": 24713,
+          "completion_tokens": 740,
+          "total_tokens": 25453
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-review-no-code",
+      "review": "Retains no inferredoverflow or same-absolute-price cautions. Rejects demand for fabricated negative markers and denial of already Core verified3 actualeffects; nativefacts and repairedflags override candidate assertion.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 178,
+      "case_id": "HTTP-CIV6-CIVILIANSCOPEAUDIT178",
+      "mode_id": "http-candidate",
+      "shared_commit": "f74c451214ab541ffe65368284fc5998dcd68496",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 2500,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T14:04:34.296606+00:00",
+      "attempt_end_utc": "2026-11-02T14:04:46.281817+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 11982.317300018622,
+        "first_nonempty_content_delta_ms": 4084.0900000184774,
+        "usage": {
+          "prompt_tokens": 28207,
+          "completion_tokens": 1095,
+          "total_tokens": 29302
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-source-list-no-new-scope",
+      "review": "Managed type list confirmed by actual Policy source. Merchant city founding/trader pillaging/foreign espionage/fisher-farmer claims and related proposedtests unsupported; rejected, no implementation or scope changes.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "native": {
+    "commit": "7a685f6807c4ed57792ac77c0873f604bfe0c525",
+    "evidence": "https://github.com/XenoAmess/civ6_dev/blob/7a685f6807c4ed57792ac77c0873f604bfe0c525/docs/research/baiqi-p6-repair-native47-evidence-2026-11-02.json",
+    "source": "1c63cd5cdcc158e64439e2dd2915762168df4c52",
+    "result": "Actualsource47 ten-city85→90,5normalendturns,0manualdomesticorders. Existingcamprepair86moves2→0/charges3→3/gold0→2; normalpaidsettler completes88thenAIgrainrepair88→89food+1housing+2; campus89→90science0→2thenpaidlighthouse0/60. UI+Core verified, damaged85/final90 actuallywarmreloaded. TC012 samplePASS, full40incomplete.",
+    "costs": "EffectiveONLINE50 distinctfromordinarySTANDARD100. Granary24/32remaining8, actualnativecompletedreader73/32beforecompletedheadreplacement; campus45/61remaining16andcompletionprogress0. No exactoverflow inference.",
+    "observer": {
+      "actual_update_callbacks": 24077,
+      "builder_ops": 6,
+      "builder_cmds": 0,
+      "city_ops": 3,
+      "raw_military_ops": 92,
+      "initial_explicit_sink_pairs": 18,
+      "later_tagged_explicit_pairs": 74,
+      "tagged_background_military_ops": 0,
+      "military_cmds": 0,
+      "restored": true
+    },
+    "scope_correction": "Hardcoded BACKGROUND prefix initially overclassified manualtestarmySKIPs in sameExecutor context. Preserve18rawrecords and pair to actualledger, then exactturn/id/op matchingmarker, not counter reset. New normaltrainedknight physical-map callback unstack1 anddiplomacyfarewellphysical1explicitplayer, not AIarmy/diplomacy.",
+    "later_builder_charge": "Repair retains3 at86. Different normal BUILD_IMPROVEMENT at90 consumes3→2; do not call final2repaircost.",
+    "owner_errors": "Readonly unavailable formationgetter and string-as-table status query failed before gameplayactions; corrected. Driver premature transient research/dedication exits corrected, no replay/manualchoices.",
+    "formal_source_change": false
+  },
+  "experience": "Guard phase, native ready state and initiator are separate. A probe must measure the actual caller scope, not infer it from unit type or hardcodedprefix. Keep rawcounts and positive exact-attribution ledger, restore originals before asserting. A research blocker immediately after turnstart is not automaticfailure: independently read currentstate, allow onlybounded no-action settling, stop manualmodals. Completed progress mayexceed cost or clear to0; do not manufacture expected UI endpoint. Native all-three effect evidence does not require a fabricated negative marker.",
+  "maintenance": "6 canonicalCLI entry preflights under currentdailycache policy; no newOpenCode-native generation/upgrade.",
+  "cumulative_civ6": {
+    "logical_requests": 178,
+    "complete": 170,
+    "length": 8,
+    "retries": 0,
+    "historical_actual_peak": 13,
+    "historical_peak_duration_seconds": null
+  },
+  "limits": [
+    "Rejected173/174code not run or credited with ownernativePASS.",
+    "No new formal softwaretest run required for docs-onlypackage; historical390softwarePASS remains previoussource47 evidence.",
+    "No allvariant/full40/performancePASS.",
+    "Ownercost,cache,hardwareandnetsavingsunknown; rawfiles ignored."
+  ]
+}
