@@ -1,0 +1,170 @@
+{
+  "schema": "approved-portable-experience-v1",
+  "case": "whole-caller-crt-adapter210-and-fresh-guard-observation211",
+  "publication_permission": "Only this exact sanitized payload is approved. No raw source/ASM/prompt/response, private absolute paths, game identifiers, runtime packet or binaries are approved for publication.",
+  "configuration": {
+    "entry": "canonical local-model-operations scripts/call.py",
+    "caller_sha256": "ea0979f2f64ea46ee24c696e06f8149bb28e52f2eed6bfc1960c10a50742c2fe",
+    "executor_config_sha256": "28315bd0353e2a75282a6a2844940c2286259fe17af72193ed8df54442e7ba70",
+    "actual_model": "qwen38-coder",
+    "temperature": 0,
+    "stream": true,
+    "fixed_messages_each": 3,
+    "maintenance": "Canonical CLI same-machine daily check/cache entry; no new manual service probe or caller/config change.",
+    "retry_policy": "maximum_attempts=6 includes the first attempt, hence at most5 retries; all five actual role requests used one attempt and0 retries."
+  },
+  "actual_cohorts": [
+    {
+      "unit": "root-crt-retry210",
+      "roles": [
+        {
+          "role": "implementation",
+          "POST_BEGIN": "2026-11-02T21:57:29.248108+00:00",
+          "END": "2026-11-02T21:57:46.874026+00:00",
+          "max_tokens_actual_REQUEST": 2500,
+          "complete_whole_input_entities_including_contract_verified": 27,
+          "total_seconds": 17.62594290000561,
+          "first_nonempty_content_seconds": 10.63487900000473,
+          "prompt_tokens": 27804,
+          "completion_tokens": 801,
+          "cached_prompt_tokens": null,
+          "finish_reason": "stop",
+          "attempts": 1
+        },
+        {
+          "role": "counterexample",
+          "POST_BEGIN": "2026-11-02T21:57:29.248077+00:00",
+          "END": "2026-11-02T21:58:14.687426+00:00",
+          "max_tokens_actual_REQUEST": 4500,
+          "complete_whole_input_entities_including_contract_verified": 27,
+          "total_seconds": 45.43944199998805,
+          "first_nonempty_content_seconds": 10.364719899996999,
+          "prompt_tokens": 27817,
+          "completion_tokens": 4500,
+          "cached_prompt_tokens": null,
+          "finish_reason": "length",
+          "attempts": 1
+        },
+        {
+          "role": "witness",
+          "POST_BEGIN": "2026-11-02T21:57:29.248049+00:00",
+          "END": "2026-11-02T21:58:23.494644+00:00",
+          "max_tokens_actual_REQUEST": 6500,
+          "complete_whole_input_entities_including_contract_verified": 27,
+          "total_seconds": 54.24654599999485,
+          "first_nonempty_content_seconds": 6.83017000000109,
+          "prompt_tokens": 27920,
+          "completion_tokens": 6500,
+          "cached_prompt_tokens": null,
+          "finish_reason": "length",
+          "attempts": 1
+        }
+      ]
+    },
+    {
+      "unit": "crt-header-read211",
+      "roles": [
+        {
+          "role": "implementation",
+          "POST_BEGIN": "2026-11-02T22:14:20.518005+00:00",
+          "END": "2026-11-02T22:14:27.983451+00:00",
+          "max_tokens_actual_REQUEST": 1500,
+          "complete_whole_input_entities_including_contract_verified": 28,
+          "total_seconds": 7.465465900007985,
+          "first_nonempty_content_seconds": 5.956689300001017,
+          "prompt_tokens": 28132,
+          "completion_tokens": 159,
+          "cached_prompt_tokens": null,
+          "finish_reason": "stop",
+          "attempts": 1
+        },
+        {
+          "role": "counterexample",
+          "POST_BEGIN": "2026-11-02T22:14:20.517805+00:00",
+          "END": "2026-11-02T22:14:31.318194+00:00",
+          "max_tokens_actual_REQUEST": 2500,
+          "complete_whole_input_entities_including_contract_verified": 28,
+          "total_seconds": 10.800143200001912,
+          "first_nonempty_content_seconds": 6.2311278999986826,
+          "prompt_tokens": 28167,
+          "completion_tokens": 678,
+          "cached_prompt_tokens": null,
+          "finish_reason": "stop",
+          "attempts": 1
+        }
+      ]
+    }
+  ],
+  "concurrency": {
+    "actual_POSTs": 5,
+    "complete_stop": 3,
+    "length_whole_rejected": 2,
+    "retries": 0,
+    "union_POST_seconds": 65.046984,
+    "peak_actual_inflight": 3,
+    "seconds_at_exact_inflight": {
+      "1": 12.142189,
+      "2": 35.278877,
+      "3": 17.625918
+    }
+  },
+  "source_and_adoption": {
+    "210": "A real new whole-caller consumer composes an existing boundary adapter and mature child adapter on one underlying RAM. Model execution method body retained, but the class is partial adoption: owner removed2 Java-invalid import-as lines and fully qualified4 parameter-type occurrences. Complete actual inherited declarations were supplied, so this was a model Java-syntax error, repaired before compilation.",
+    "210_audit_and_witness": "Both complete transport streams ended length, whole outputs remained unread/rejected,0fragments adopted; no truncation stitching or repeated whole-task request to obtain green. Owner completed source review and all tests.",
+    "211_new_demand": "An independent source owner found a concrete existing-callee mismatch while qualifying another caller. The original code compares the same memory address twice at distinct instruction sites; Java reused the first observation. This was a different corrective task, not a retry of210's failed roles.",
+    "211": "The model supplied one executable fresh-read predicate edit, adopted raw with0 owner Java edits and unique whole-source forward/inverse byte proof. A second complete source audit confirmed the two-observation requirement. Its zero-branch RMW wording was explicitly limited to preserving the existing RMW read in addition to the first compare.",
+    "audit_boundary": "Audits were prospective source/contract reviews, without the selected candidate for their target unit; they are not candidate-review or runtime pass evidence.",
+    "discovery_credit": "The second-read mismatch belongs to independent source qualification plus owner confirmation, not the truncated210 audit or an autonomous model discovery."
+  },
+  "new_software_witness": {
+    "owner": "All test Java, fixtures and assertions are whole owner. No model-witness adoption.",
+    "oracle_boundary": "Semantic oracle frozen before model/candidate input; owner literal write expectations derived before response consumption, never supplied to model. The literal file lacks a standalone UTC field, so its timing relies on recorded tool chronology rather than a fabricated timestamp.",
+    "unique_methods_found_started_passed": 4,
+    "skipped_aborted_failed": 0,
+    "scenarios": [
+      "Actual whole caller executes boundary header, child allocation chain, full64-result wrapper and footer epoch wrap.31 ordered writes, full byte image, all represented volatile/nonvolatile state and fresh final return checked.",
+      "Actual initialized header updates the selected TLS row, then whole caller exits before allocation/footer. Exact4 writes checked.",
+      "Header wrong return slot, footer wrong nonvolatile state and exact owned budget exception retain conformance rejection/partial effects.",
+      "New changing-read schedules1,-1,0,0 and-1,5 require different wait/initialized choices; observation count, budget ordering, full state and byte image checked. These are explicit software-port observations, not physical hardware/kernel race tests."
+    ],
+    "new_compilation_scope": "One new consumer TU, one corrected existing-callee TU, one new Test TU. All other mature binaries reused, no old suite or old binary rerun to manufacture a red.",
+    "cache_coherence": "Corrected callee family precedes the new consumer and original dependency roots. Consumer was not recompiled for an API-unchanged predicate correction.",
+    "not_granted": "Remaining imported calls/tails and another caller port stay explicit. No complete concrete caller/full ABI, OS/Native/Game execution, runtime adoption, performance benefit or aggregateG2 completion is established."
+  },
+  "owner_preparation_and_cutoffs": [
+    "One guessed historic receipt basename failed read-only beforePOST. A named-class CP preflight later found an absent inherited interface binary; the exact existing root from an actual older compile argv was appended, before any JVM/compiler red.",
+    "Original uncompiled three-method source-only cutoff remains unchanged/0START. After adding the new observation witness, its prior bytes were reconstructed by exact inverse and SHA, explicitly labeled a later reconstruction, not a contemporaneous archive.",
+    "The first consumer compile proves API compilation only; it does not retroactively validate the old callee's changing-read semantics. The new four-method tuple used the corrected family.",
+    "The raw branch algorithm was reused rather than recreated merely because a filename/source was initially unknown. Current public producers and mature binary provenance must still be checked."
+  ],
+  "cost": {
+    "actual_POSTs": 5,
+    "complete_stop": 3,
+    "length_whole_rejected": 2,
+    "retries": 0,
+    "union_POST_seconds": 65.046984,
+    "peak_actual_inflight": 3,
+    "seconds_at_exact_inflight": {
+      "1": 12.142189,
+      "2": 35.278877,
+      "3": 17.625918
+    },
+    "four_phase_process_seconds": 5.037797300028615,
+    "first210_PROD_to_final_RUN_wall_seconds": 821.285936,
+    "pipeline_wall_minus_process_seconds": 816.2481386999714,
+    "PREP210_marker_to_final_RUN_wall_seconds": 1735.652899,
+    "PREP210_marker_to_this_delivery_wall_seconds": 1900.199544,
+    "TEST_end_to_RUN_begin_coordination_seconds": 24.928306,
+    "complete_discovery_PREP_REVIEW_active_seconds": null,
+    "limit": "Discovery before firstmarker not fully timed. Elapsed waits include actualSAVEc37 priority, preparation, second source correction/HTTP and coordination; no complete perreason active allocation is held. Not model/CPU seconds."
+  },
+  "publication_cutoff": "Software mature; business source publication pending at the original delivery cutoff. Later formal receipt will be an independent append-only note.",
+  "reusable_principles": [
+    "Two reads of the same address are two observation points when the API permits dynamic providers. A saved local cannot replace the second read without proving the contract permits it.",
+    "A whole-caller test and a standalone child test grant different behavior. Preserve caller-owned pushes, exact return frame checks, shared memory and distinct callback roles while composing mature components.",
+    "A model-generated Java alias import is still invalid even when the intended APIs are fully supplied; separate owner lexical repairs from raw method adoption.",
+    "Output budgets alone do not bound semantic inventories. A later real narrow audit used an explicit finding/word bound; retained failures remain cost and do not become partial adoption.",
+    "Elapsed preparation/actualSAVE-priority waiting/source correction/coordination remains in wall cost. HTTP union, process time and unknown complete operator active time remain separate measures."
+  ],
+  "runtime_and_performance_credit": "NONE"
+}

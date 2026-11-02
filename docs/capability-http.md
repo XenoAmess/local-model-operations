@@ -1201,3 +1201,6 @@ M0 manager-static [428B正常formal后见](evidence/2026-11-03-http-captured-del
 
 
 361 [481B正常formal后见](evidence/2026-11-03-http-static-footer-binding-later-formal.json)a1236f5e两leaf normalpush/remoteexactclean、0postvalidation，raw CRLF与formal LF分SHA记录，不冒raw整叶编过formal字节；原3187B pending/3manualcase63checks/owner pack错误和未知工时保，0currentRuntime或收益。
+
+
+M5 [210 wholecaller＋211 fresh-read修正](evidence/2026-11-03-http-whole-caller-fresh-observation-correction.json)批准11089B原样：两个真实cohort共5POST=3stop+2length整未读/0片段/0retry，union65.046984s/峰3仅17.625918s非五路持续。210完整执行body保、class两非法import-as+4typealias由owner词法修/partial，完整继承声明输入下的Java语法错非缺源；audit/witness两截断不洗算法成功。211新需求由M0源资格+owner确认原同地址两指令读观察被旧Java local折叠，非210截断角色发现/R3；onepredicate raw0owner且正逆exact，audit仍prospective非candidate审。Owner全4unique methods首次4P/新consumer+correctedcallee+newTest coherent三leaf，31写/fullbank/4写earlyreturn/异常与changing-read schedules是软件观察非硬件race；旧stable/旧source不重跑。5.0377973四phase进程vs821.285936pipelinevs1735.652899 PREP标记窗/activeNULL，不授fulltask或实际收益。继承binaryroot preflight漏项0JVM、三方法旧源码晚inverse重建非原时归档均明记；formal原pending，复用成熟算法不重复造轮。
