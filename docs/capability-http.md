@@ -305,3 +305,9 @@ owner在CONTENT前冻结四个新case，首次生产/Test严格编译及RUN4通�
 [HTTP-SIGNED-OWNER-JOIN-001](evidence/2026-11-02-http-signed-owner-join.json)只修一个现有方法的两处signed公开身份/raw uint32 owner join。owner已点名位置和typed转换API；R1虽完整stop，仍留signed前门、漏类型限定并误读absent值，整稿在编译前拒绝。必要R2经具体纠正后完整方法采用，0owner执行token改动，仅原newline投影和方法后多一空白分隔行，方法外inverse据此分账。独审仅提示后源事实partial，全部四个新oracle/Test方法由owner写，不能称模型独立发现或整体审可靠。三实际POST均stop，预算2600/3000/1800、每份15完整Java+合同154409B，峰2仅16.607036s。
 
 owner在候选编译前发现旧binary缺当前API getter，0candidate/Test START；补一个必要support源后原候选/Test通过，这不是模型输入缺失或候选编译红。真实baseline新positive断言红1，candidate新四方法4P0skip，原日志保留。完整source→RUN1263.197457s与六执行进程和19.339412s分列，主动工时/更早发现未知；后到正式2821e088两个blob原SHA/EOF一致，未新增编验。只授有限软件join，不授natural cause、Root许可、Native/Game或未完成业务恢复。
+
+## 后到：实际基线兼容port与正式主线分账
+
+[HTTP-CURRENT-BASELINE-PORT-001](evidence/2026-11-02-http-current-baseline-port.json)面对实际运行源码与formal主线不同，给37份完整源及独立合同共38items、408829B，复用成熟helper。三实际POST全stop/0重试，预算2500/3000/3500，峰3仅38.366126s。模型两hunk部分采用，owner将新branch移到既有pending分支前以满足合同，不能称全部raw或仅机械修改；两个prospective角色没看到候选，异常类型、size与deadline补偿错断拒绝，未授whole审批准。逐hunk重放与逆回都对上实际baseline，原有generic路径及其它源码完整保留。
+
+只增编一个消费者、既有public DATA/loopback测试方法对新tuple1P；成熟helper未重写/重编、此前四方法未重跑或加数。产物是待运行owner按before pins评估的兼容packet，无新formal源码commit，尚0运行采用，不能把旧baseline整叶覆盖新主线。marker→交付1265.724201s、marker→验证END1047.142726s；首strict→END24.179737s含18.624645s阶段协调，编译/JVM和5.555093s，主动工时/更早发现未知。旧实际大REQUEST未持，不授实缩、质量、恢复或实速。

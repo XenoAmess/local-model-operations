@@ -1,0 +1,224 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-CURRENT-BASELINE-PORT-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_software_cutoff_UTC": "2026-11-02T03:26:48.727942+00:00",
+  "operator_review_UTC": "2026-11-02T03:30:51.242520+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Port one existing projection helper into a consumer whose actual runtime source differs from formal main, preserving every prior path and fixed deadline.",
+  "input": {
+    "actual_complete_items": 38,
+    "inventory_detail": "37 complete source bodies plus the separate explicit contract; actual current consumer and mature helper, no prewritten target candidate.",
+    "physical_UTF8_bytes": 408829,
+    "source_message_UTF8_bytes": 419410,
+    "verified": "Each frozen whole item digest/full decoded text checked in all three actual REQUESTs. Eight wire keys, system/user/user, temperature0, thinkingfalse, JSON object, SSE with usage.",
+    "role_boundary": "Mechanical and counterexample roles reviewed source/contract prospectively; neither received the new candidate body. They are not independent acceptance of the selected code."
+  },
+  "calls": [
+    {
+      "role": "implementation",
+      "POST_BEGIN_UTC": "2026-11-02T03:06:08.400861+00:00",
+      "END_UTC": "2026-11-02T03:06:46.780841+00:00",
+      "max_tokens": 2500,
+      "complete_input_items": 38,
+      "physical_input_UTF8_bytes": 408829,
+      "source_message_UTF8_bytes": 419410,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 26.047205800001393,
+      "reported_HTTP_seconds": 38.38014370000019,
+      "usage": {
+        "prompt_tokens": 89999,
+        "completion_tokens": 506,
+        "total_tokens": 90505
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 430799,
+        "sha256": "cd16d3d3eb522535f25e6790b1d2864ebbabb6cee4acf92d23d08983285bf655"
+      },
+      "EVENTS_digest": {
+        "bytes": 2234,
+        "sha256": "015e03abd002b61fd1aef0891c46da6da913309201151436b3feb2ad20f74093"
+      },
+      "CONTENT_digest": {
+        "bytes": 2361,
+        "sha256": "edc05d7816a568928248fc0054d97b2f2b7186f79911af130468ca5762ba5563"
+      }
+    },
+    {
+      "role": "mechanical-compatibility",
+      "POST_BEGIN_UTC": "2026-11-02T03:06:08.399966+00:00",
+      "END_UTC": "2026-11-02T03:06:51.205117+00:00",
+      "max_tokens": 3000,
+      "complete_input_items": 38,
+      "physical_input_UTF8_bytes": 408829,
+      "source_message_UTF8_bytes": 419410,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 29.82943659999728,
+      "reported_HTTP_seconds": 42.8052161999949,
+      "usage": {
+        "prompt_tokens": 89989,
+        "completion_tokens": 994,
+        "total_tokens": 90983
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 430833,
+        "sha256": "05303463b739a5f23f025b6c2c0e9335c07272814da23effb8ffc5223d985422"
+      },
+      "EVENTS_digest": {
+        "bytes": 2291,
+        "sha256": "081e2aa51cf2cc9e2562091ec4014d78ec1f63ef32fcf0f6549b2084b59e4658"
+      },
+      "CONTENT_digest": {
+        "bytes": 4834,
+        "sha256": "ab088c923a1d72854572432f0d7980977d27c1c881230da1163b34e44f13d272"
+      }
+    },
+    {
+      "role": "counterexample-audit",
+      "POST_BEGIN_UTC": "2026-11-02T03:06:08.414715+00:00",
+      "END_UTC": "2026-11-02T03:06:53.688924+00:00",
+      "max_tokens": 3500,
+      "complete_input_items": 38,
+      "physical_input_UTF8_bytes": 408829,
+      "source_message_UTF8_bytes": 419410,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 34.19669430000067,
+      "reported_HTTP_seconds": 45.274263999999675,
+      "usage": {
+        "prompt_tokens": 90000,
+        "completion_tokens": 1327,
+        "total_tokens": 91327
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 430845,
+        "sha256": "83d1e1f12bab702c1976cd58d856cded813bf845e6315c93358e8c90c59f4193"
+      },
+      "EVENTS_digest": {
+        "bytes": 2268,
+        "sha256": "a27bcaa8f32194abadba01b1f5fdc373541b39513a3530b4a71c49c8a661ddd4"
+      },
+      "CONTENT_digest": {
+        "bytes": 6153,
+        "sha256": "ef8a559e2ff58f639c0efc31fdce824799e8fccee74ce4ce1cacb6531fdc8eef"
+      }
+    }
+  ],
+  "transport": {
+    "logical_tasks": 3,
+    "actual_POSTs": 3,
+    "ENDs": 3,
+    "complete_stop": 3,
+    "length": 0,
+    "transport_retry": 0,
+    "client_peak": 3,
+    "peak_spans": [
+      {
+        "BEGIN_UTC": "2026-11-02T03:06:08.414715+00:00",
+        "END_UTC": "2026-11-02T03:06:46.780841+00:00",
+        "seconds": 38.366126
+      }
+    ],
+    "peak_cumulative_seconds": 38.366126,
+    "HTTP_union_seconds": 45.288958,
+    "reported_HTTP_sum_seconds": 126.45962389999477,
+    "service_running_waiting_KV": null,
+    "target12_16_claimed_achieved": false
+  },
+  "adoption": {
+    "implementation": "Two model old/new hunks partially retained. Owner moved the new branch ahead of the existing pending branch to satisfy explicit first-attempt order; line-ending projection was mechanical. The executable ordering correction is owner work, not raw whole adoption.",
+    "source_integrity": "Direct operator replay of the two model hunks reproduced raw candidate, one owner order correction reproduced selected file, and reversing those changes restored actual baseline exactly.",
+    "mature_helper": "Reused unchanged, zero new implementation/discovery credit. Do not attribute its prior tests or formal publication to this wave.",
+    "mechanical_role": "Some scope/API/private-wrapper/inverse obligations useful, but no candidate supplied and one route-mapping conflation rejected.",
+    "counterexample_role": "Only source obligations retained. Imagined checked exceptions, unsupported size bounds and deadline-compensation claims rejected; no whole approval or R2.",
+    "model_Test_generation": 0,
+    "owner_guidance": "Owner specified actual current baseline, exact port scope and mature helper. Existing generic serialization and unrelated diagnostic absence were explicit preservation obligations."
+  },
+  "software": {
+    "checks": [
+      {
+        "BEGIN_UTC": "2026-11-02T03:22:45.966730+00:00",
+        "END_UTC": "2026-11-02T03:22:47.821673+00:00",
+        "reported_process_seconds": 1.8549401000054786,
+        "exit_code": 0
+      },
+      {
+        "BEGIN_UTC": "2026-11-02T03:23:06.446318+00:00",
+        "END_UTC": "2026-11-02T03:23:10.146467+00:00",
+        "reported_process_seconds": 3.700152400000661,
+        "exit_code": 0
+      }
+    ],
+    "changed_production_TU_compiled": 1,
+    "new_Test_TU_compiled": 0,
+    "helper_TU_compiled": 0,
+    "selected_methods_on_new_tuple": 1,
+    "pass": 1,
+    "skip": 0,
+    "test_boundary": "One existing public DATA/owned loopback mock-SSE method executed once against this new consumer tuple. Three local mock exchanges are not additional real-model POSTs. Previous four helper methods were not rerun or added to the count.",
+    "not_verified": "No dynamic pending/lifecycle private qualification, loaded runtime adoption, real-model input-size/quality, actual game outcome or speed."
+  },
+  "source_publication": {
+    "state": "RUNTIME_COMPATIBILITY_PACKET_ONLY_NO_NEW_FORMAL_SOURCE_COMMIT",
+    "commit": null,
+    "packet_prepared": true,
+    "S_MB_worker_adopted_at_cutoff": false,
+    "formal_main_guard": "Current formal main remains intact; the older runtime-baseline consumer is not a formal rollback or automatic whole-source replacement. Application is owned by the runtime operator and requires exact before pins at a necessary boundary."
+  },
+  "clock_accounting": {
+    "marker_to_delivery_wall_seconds": 1265.724201,
+    "marker_to_last_validation_END_wall_seconds": 1047.142726,
+    "first_strict_BEGIN_to_RUN_END_wall_seconds": 24.179737,
+    "reported_compiler_JVM_sum_seconds": 5.55509250000614,
+    "compiler_END_to_RUN_BEGIN_coordination_gap_seconds": 18.624645,
+    "pre_marker_discovery_seconds": null,
+    "active_owner_preparation_review_seconds": null,
+    "net_owner_saving_seconds": null,
+    "scope": "Full wall includes source discovery/assembly/review, owner executable-order correction, source readiness, recovery priority, scheduling and packaging. Gaps are not wholly CPU, model service or active labor; nested windows are not additive."
+  },
+  "private_evidence_digests": {
+    "delivery": {
+      "bytes": 2633,
+      "sha256": "234d23b810a3c0b62eb72f0266f1c467e491aef88fd955c8eadf7391c6316092"
+    },
+    "cost": {
+      "bytes": 6655,
+      "sha256": "ad4f2e18b5d06aa73d89ea1c1b4bcce60fe355b25b4e18a07078cd59360f6e5d"
+    },
+    "first_result": {
+      "bytes": 3681,
+      "sha256": "1bb8292e963cc5b77eb8db93a0bdb5f95de949e82e8735791e863a6124b1cd48"
+    },
+    "source_input": {
+      "bytes": 32297,
+      "sha256": "92c18dd171358353e795c0d8f4825c70e1bc0808d73044d19d1b9a945bd524dc"
+    },
+    "owner_review": {
+      "bytes": 6083,
+      "sha256": "06e45595db8dcecf3845dcaf600a77a33359e86640ffc7c38775a4982bb1c1f7"
+    },
+    "runtime_packet": {
+      "bytes": 7943,
+      "sha256": "52bbdd94606cbab27af8627295bbaeba083948fdb5dc3f4b5a0accc8657cd40a"
+    },
+    "actual_baseline": {
+      "bytes": 80541,
+      "sha256": "2098722f041498c3861fb9da99e9515aa23810d5185185b8411e9a903cf8dd46"
+    },
+    "selected_consumer": {
+      "bytes": 81279,
+      "sha256": "1569351e0ec253a67234a3f9dabeabfe44bafce1daf449d189d4fed14f69a58c"
+    }
+  },
+  "missing_prior_runtime_request": "The earlier large runtime REQUEST is NOT_HELD; no inferred real input reduction, quality or speed from this local software test.",
+  "comparison_limits": "Guided partial port and a local compatibility check do not prove whole audit reliability, mode superiority, permanent capacity limits or business recovery. HTTP and OpenCode remain separate; closed native-tool loops are not retried for success quotas.",
+  "next_real_trigger": "Only a genuine later authorized runtime adoption/result or a different bounded port with exact current source. Preserve before pins, existing formal changes and owner costs; do not overwrite a divergent runtime source wholesale.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}
