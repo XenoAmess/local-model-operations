@@ -437,3 +437,9 @@ owner四新case oracle响应END后、读CONTENT前冻；随后编译前源核纠
 [HTTP-LATE-FRONTIER-ANALYSIS-001](evidence/2026-11-02-http-late-frontier-analysis.json)实核15完整当前代码、713863B实际prefix与两份明确field-only投影，后者不冒完整事件/authority。1800/2200两个POST在owner候选、首1TU0/2.594745s与实际LOOP之后；impl length1800被owner读过partial再整弃0片段，非unread/完整语义失败；audit stop715的四项指控漏strict-dirty/原batch等式、混pure/live门、未越实际保存证明，whole拒0代码，不R2洗。
 
 原LOOP04:30:21后04:30:46真实END4/94.888429s，发生于两个模型END之前；窄门确已越过，后继consumer缺对象失败，新增SAVE0、秒/保存日未定义。不能把源码/首绿/LOOP授完整恢复，也不能把另一个下游失败归late模型候选。owner五literal从实际兼容base正反精确；formal b95ca5b5保原当前formal其它新代码、whole213182B与已编205741B不同，仅owned edits inverse，不冒raw整叶相等/实际装载。准备断言/误读命令成本、ready→compile/复核墙钟和activeunknown分别保；此前reader0HTTP仅作上下文、不算新角色/补请求。
+
+## 后到：小search step整拒、adapter执行修正与owner期望首红
+
+[HTTP-NARROW-STEP-OWNER-ORACLE-REPAIR-001](evidence/2026-11-02-http-narrow-step-owner-oracle-repair.json)实核7/8/6/7完整项逐wire与1300/1200/750/1200预算，三业务角色四POST，3stop1length/0transportretry，峰3仅4.975096s。step R1 length被owner读过partial后整弃，R2完整stop380仍漏register prelude/比较方向与tie错，whole拒、无R3。adapter1521B decoded→1459B selected有6执行行/4类owner修正：2假nested类型、nonnullrecord equals与3guard exception；正反raw/EOL/noEOF精确，仅partial。counter只原源/合同、未见新ownerbody/oracle，CMP顺序/unsigned与泛风险不授可靠反例。
+
+owner全producer/step/Test，literal场景POST前冻但具体Book在生产审后写，不冒wholeblind。首七方法6P1F的RBX期望是owner错；原源核后2literal精确修，生产不变，只 editedTest增编+原failed方法1P，六个首P不重，不写成单次7P。五process5.290017s与firstprod→retry成功1035.105897s、marker→delivery1328.989723s及resource/Book/协调gap分列，activeunknown；新typed组合只软件。lengthfailure被封包器误判和读命令quoting独立保，0补HTTP/JVM。formal按本cutoff pending后见另记，不授Game/Native/fullselector/实速，双模式责任继续。
