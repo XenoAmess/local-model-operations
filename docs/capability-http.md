@@ -576,3 +576,9 @@ audit reset半流未读整弃，第二完整泛事实partial、两个具体反�
 [HTTP-REGISTER-STATE-PARTIAL-CORE-001](evidence/2026-11-02-http-register-state-partial-core.json)8/8/8 whole实际正文逐顺核，7000/1600/1300三POST三stop/0retry/R2，峰3仅5.084625s。完整core5023tokens有真实control/Memory/CALL骨架贡献，但所有vector临时值未写实际寄存器，outgoing/returned state错；owner23项24occurrence执行修+comment/blank投影复算selected，不能称whole raw。binder两行三逻辑修actualtarget/fallback/声明返回型；counter大多已给合同复述，仅partial事实，0oracle/Test。
 
 owner全八Test，先scenarios后production审/具体Book，不冒wholeblind；三类型歧义在0START前新文件修，validation-retry仅首Test strict容器，无compiler红。首2prod/Test/8P全0、JBoss原警告保；462.920943s首prod→RUN对3.776305s进程，10.661023s gap独立。新PREP/REVIEW markers256.665669/616.616563s包含交错工作，更早发现/预读/active仍unknown；0净收益推断。原pending保，后到25fa79fe三raw/formal/EOF等，0新编/Native/全ABI/Game/SAVE/实速。
+
+## 后到：一个纯classifier方法的软件见证与角色权限分离
+
+[HTTP-PURE-CLASSIFIER-WITNESS-REPAIR-001](evidence/2026-11-02-http-pure-classifier-witness-repair.json)witness两轮13whole326036B、counter21whole1085644B实际完整正文/参数核，5500/5500/3500三stop/0retry；首witness与counter实际重叠，纠正轮后到，不冒持续并发。目标body与失败recipe可见，非盲oracle。R1类型/JSON mutation/非法负例整拒未编，R2主体partial+owner导入/3throwsThrowable、canonical fixture字段及固定时间维护，selected10223B可由原10216B和owner edits精确复算；0R3。
+
+仅首1Test strict0/JVM1P，一正八合法输入变体共九次真实purehelper/parser调用，不是九JUnit/私有SavedRole/SAVE/全冷恢复。counter局部事实有用，但实际旧running基线晚到未入原21源，owner错比新formal已另纠，不能追授wholeintegration/model完整输入结论。1.620725s+4.141355s过程与6.793271s gap/POST→RUN全wall分开，更早准备/activeunknown；原日志警告保、不为quiet重跑。software pending保，后到81ac9773仅新Test/raw=formal/noEOF，0加载/Game/实速。

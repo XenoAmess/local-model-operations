@@ -1,0 +1,252 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-PURE-CLASSIFIER-WITNESS-REPAIR-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_software_cutoff_UTC": "2026-11-02T10:12:52.020229+00:00",
+  "operator_review_UTC": "2026-11-02T10:18:48.784495+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "One implementation-aware portable DATA witness for a new private pure classifier, with an independent source counter role. Membership/performance work is a separate task, not merged into these calls.",
+  "input": {
+    "witness_whole_texts": 13,
+    "witness_physical_bytes": 326036,
+    "counter_whole_texts": 21,
+    "counter_physical_bytes": 1085644,
+    "target_body_and_failure_recipe_visible_to_witness": true,
+    "scope": "Complete selected target/parser and supplied contracts, actual DATA and mature fixture. Not a blind oracle or proof that every transitive external declaration was supplied."
+  },
+  "calls": [
+    {
+      "role": "witness_R1",
+      "whole_texts": 13,
+      "physical_source_bytes": 326036,
+      "actual_source_message_UTF8_bytes": 328626,
+      "actual_whole_texts_order_and_parameters_verified": true,
+      "max_tokens": 5500,
+      "POST_BEGIN_UTC": "2026-11-02T09:57:39.957924+00:00",
+      "END_UTC": "2026-11-02T09:58:42.616889+00:00",
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_seconds": 62.65900230000261,
+      "content_TTFT_seconds": 9.306653199993889,
+      "usage": {
+        "prompt_tokens": 71368,
+        "completion_tokens": 2657,
+        "total_tokens": 74025
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 340810,
+        "sha256": "395b4354fe7bb3945b58f37ebc96c5731e2ad322d8bce423036f131841dc650a"
+      },
+      "EVENTS_digest": {
+        "bytes": 2277,
+        "sha256": "507d887251a80af877b7e8960ec060dc089d17ad62720681be34c87bf1ad68a8"
+      },
+      "CONTENT_digest": {
+        "bytes": 10453,
+        "sha256": "f0bbb54c9e6dfeb4af7b52263c91bfb39a78b46fb0ed9dd74f2c3ef7ac7dba76"
+      }
+    },
+    {
+      "role": "witness_R2",
+      "whole_texts": 13,
+      "physical_source_bytes": 326036,
+      "actual_source_message_UTF8_bytes": 328626,
+      "actual_whole_texts_order_and_parameters_verified": true,
+      "max_tokens": 5500,
+      "POST_BEGIN_UTC": "2026-11-02T10:00:46.788944+00:00",
+      "END_UTC": "2026-11-02T10:01:02.920010+00:00",
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_seconds": 16.1311418999976,
+      "content_TTFT_seconds": 1.3871620999998413,
+      "usage": {
+        "prompt_tokens": 74405,
+        "completion_tokens": 2715,
+        "total_tokens": 77120
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 353986,
+        "sha256": "8cdc837467a53f776f24d51aeca10bf110d7bb809cf7b34acceb0b45ccfa8b33"
+      },
+      "EVENTS_digest": {
+        "bytes": 2324,
+        "sha256": "d9262505e34cf4a46fa35927aba9d189f27fadadff596e312241c28039d53952"
+      },
+      "CONTENT_digest": {
+        "bytes": 10737,
+        "sha256": "a8509d1636a30bf73b61fcd7f15e0feab820dfb8890287d933e6d7b99c6bf597"
+      }
+    },
+    {
+      "role": "functional_counter",
+      "whole_texts": 21,
+      "physical_source_bytes": 1085644,
+      "actual_source_message_UTF8_bytes": 1092647,
+      "actual_whole_texts_order_and_parameters_verified": true,
+      "max_tokens": 3500,
+      "POST_BEGIN_UTC": "2026-11-02T09:57:52.345128+00:00",
+      "END_UTC": "2026-11-02T09:58:34.540620+00:00",
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_seconds": 42.1956124999997,
+      "content_TTFT_seconds": 38.53988209999807,
+      "usage": {
+        "prompt_tokens": 252047,
+        "completion_tokens": 428,
+        "total_tokens": 252475
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 1129220,
+        "sha256": "0b819544e22d80371784d490c47228c40eb2620420dee44b96af01b4f4c36ffd"
+      },
+      "EVENTS_digest": {
+        "bytes": 2313,
+        "sha256": "b80c84fc756e4bcac7356fe79581608aa48ba13ac22dc2783be7933063544e22"
+      },
+      "CONTENT_digest": {
+        "bytes": 2006,
+        "sha256": "84498f0211a5b0a8e499ed4d26ecd8554132f447232b34e984c69952ac8424bb"
+      }
+    }
+  ],
+  "transport": {
+    "logical_roles": 2,
+    "actual_POSTs": 3,
+    "ENDs": 3,
+    "stop": 3,
+    "length": 0,
+    "retry": 0,
+    "witness_semantic_rounds": 2,
+    "counter_rounds": 1,
+    "R3": 0,
+    "client_peak": 2,
+    "peak_seconds": 42.195492,
+    "client_in_flight_at_owner_cutoff": 0,
+    "server_running_waiting_KV": null,
+    "cache_congestion_inference": null,
+    "scope": "Initial witness and functional counter overlap; corrective witness is later. Earlier membership counter is an independent closed scope, not a fourth request in this cohort."
+  },
+  "adoption": {
+    "R1": "Whole rejected before compilation: missing nested import, mutation methods on the wrong JSON node type, Object supplied to boolean assertion, checked Throwable declaration mismatch and an invalid negative fixture basis.",
+    "R2": "Complete method bodies and finite scene inputs partially adopted after owner repairs, not raw whole.",
+    "owner_repairs": [
+      "One nested type import.",
+      "Exactly three throws declarations changed to Throwable; actual reflection target cause escapes unchanged.",
+      "Remove invented extra boundary member so fixture has actual canonical shape.",
+      "Replace copied runtime timestamp with fixed fixture metadata timestamp."
+    ],
+    "raw_R2_digest": {
+      "bytes": 10216,
+      "sha256": "200558bf419ed2bfe50d84c044cadb5b13974a6242d54392000822c117ed2d20"
+    },
+    "selected_digest": {
+      "bytes": 10223,
+      "sha256": "781b08f1ebf32e72ad80d8bdcd7e21647a07ac8ad6cb44e8aca50282555a4f50"
+    },
+    "selected_byte_reconstruction_from_raw_and_owner_edits_verified": true,
+    "counter": "Partial facts distinguish pure predicate from actual private role/current/head/data checks; no concrete new helper bypass. Not whole integration or loaded proof.",
+    "counter_owner_input_limit": "Actual old running baseline arrived after POST and was absent from its21-source prefix. An initial owner five-change comparison against newer formal source was corrected before CONTENT; later old-baseline review is owner evidence only. Claims of unchanged surrounding invariants or compatibility do not become complete model coverage."
+  },
+  "software": {
+    "first_phases": [
+      {
+        "stage": "strict",
+        "BEGIN_UTC": "2026-11-02T10:08:58.558914+00:00",
+        "END_UTC": "2026-11-02T10:09:00.179636+00:00",
+        "process_seconds": 1.6207251000014367,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 2058,
+          "sha256": "55b5da4c8bd890e7042f16c4d565876e5cbde04730d6acc370a8ad682c668362"
+        }
+      },
+      {
+        "stage": "junit",
+        "BEGIN_UTC": "2026-11-02T10:09:06.972907+00:00",
+        "END_UTC": "2026-11-02T10:09:11.114260+00:00",
+        "process_seconds": 4.141355399988242,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 2002,
+          "sha256": "3960711ece8abf765a750c5d657eb56d03dc1ffe43133de0fd3aa5c06ab0cce8"
+        }
+      }
+    ],
+    "new_JUnit_methods": 1,
+    "passed": 1,
+    "skipped_failures_errors": 0,
+    "finite_helper_invocations": 9,
+    "positive": 1,
+    "valid_input_negative_mutations": 8,
+    "actual_target_invocation": "Reflection invokes real private classifier and parser; no predicate duplication or swallowed target exceptions.",
+    "limits": "Pure DATA only. No private saved-history role issuance, actual transition/writer, current admission, physical artifact IO/Pin, full reducer or live/cold recovery, UNKNOWN replay, Native/Game/SAVE/performance credit. Additional source matrix variations not separately executed.",
+    "stderr": "Original logging configuration warning retained, no quiet rerun."
+  },
+  "formal_at_owner_software_cutoff": {
+    "state": "PENDING",
+    "later_receipt_separate": true
+  },
+  "later_formal": {
+    "observed_UTC": "2026-11-02T10:14:45.921511+00:00",
+    "commit": "81ac977325002e82ceee7fc8650cb8abd95935bb",
+    "normal_push_exit": 0,
+    "remote_exact_clean": true,
+    "one_Test_raw_formal_digest": {
+      "bytes": 10223,
+      "sha256": "781b08f1ebf32e72ad80d8bdcd7e21647a07ac8ad6cb44e8aca50282555a4f50"
+    },
+    "EOF_newline": false,
+    "new_compile_RUN_for_publication": 0,
+    "PUBLISHED_digest": {
+      "bytes": 824,
+      "sha256": "c7fd0bdb9c7e19999ffdf17f281dc4f6bc7f9e77a0e1e0b5ad7e5a248369ff85"
+    }
+  },
+  "owner_cost": {
+    "first_witness_POST_to_first_JUnit_END_wall_seconds": 691.156336,
+    "strict_plus_JVM_process_seconds": 5.762080499989679,
+    "strict_END_to_JVM_BEGIN_gap_seconds": 6.793271,
+    "HTTP_seconds_sum": 120.98575669999991,
+    "full_discovery_prepare_review_wall_seconds": null,
+    "active_prepare_review_fix_seconds": null,
+    "net_time_saving_seconds": null,
+    "interpretation": "Recorded POST-to-JUnit span includes HTTP/review/fixture repair/coordination; not complete task wall or exclusive labor. Earlier unrecorded preparation is not filled from compiler or wall. Source baseline correction and fixture maintenance are owner responsibilities."
+  },
+  "private_evidence_digests": {
+    "DELIVERY-FUNCTION308.json": {
+      "bytes": 5806,
+      "sha256": "b586cbf3f4750ad2683e05adcddd68cfa68471dd01816829cbbd0f8c348c9a3d"
+    },
+    "MODEL-SUMMARY-FUNCTION308.json": {
+      "bytes": 3748,
+      "sha256": "df401043b3c95d4c3ff8112c4aaf86d240f8ca9280d33f073c1ce9e850277e58"
+    },
+    "SOURCE-READY-FUNCTION308.json": {
+      "bytes": 2600,
+      "sha256": "5ae048e51be6604deb5179240a92f1d75979b33c7f3ba591eef1df80f32f90c1"
+    },
+    "SOURCE-REVIEW-FUNCTION308.json": {
+      "bytes": 3394,
+      "sha256": "82166e0cf01e531cd352a2e1a6ad8b609b8f6451e088933675fcf9752ef9891e"
+    },
+    "SOURCE-INPUT-FUNCTION308.json": {
+      "bytes": 3901,
+      "sha256": "96ddf30256754deba43a1fc6f3ddb605a68b88d9c0e775aad3d0eeeec4cb009a"
+    },
+    "OWNER-FUNCTION-MAINTENANCE308.patch": {
+      "bytes": 2620,
+      "sha256": "4c38a8ad1dafc5bc8cdc6bb07c4f77772fdf1b7cc1cfd12f5935876e5799c33e"
+    }
+  },
+  "counter_review_digest": {
+    "bytes": 6928,
+    "sha256": "56d7d01cec955cc88aad4fe260927c2552bb6fb3ddf9c545603b73a3938b82bc"
+  },
+  "next_real_trigger": "Only a separate genuine source need or naturally authorized runtime receipt. No third model round, duplicate test quota or inference of recovery/permission from pure DATA acceptance. Both model modes continue separately.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}
