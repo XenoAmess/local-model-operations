@@ -864,3 +864,9 @@ Owner新六Test在读候选/反审前冻结，但已知成熟算法、非wholebl
 [HTTP-GUIDED-PURE-FP-CARRIER-604](evidence/2026-11-03-http-guided-pure-fp-carrier.json)28完整项83191物理B/90759源码消息B，4200/1700两stop、0retry、峰2仅9.457071s。Owner已给603设计与完整record/签名/guard，模型5270B整类decoded raw唯一字节相等、0owner Java/EOL/EOF修、无R2；授guided完整实现，不授自主架构或FP算术。Counter只保合同已提示的一般核对，unknown表示/priority误读拒，0新oracle；owner六unit acceptance预读答冻结，实际Test代码在读候选后写，非wholeblind。
 
 唯一API/Test首strict及manual六unit全0，1.615108s过程对已录468.345854s墙钟，active/更早资格/净收益unknown。后见6e04bdce三blob字节/EOF等，唯一薄JUnit wrapper的1P仍为同六unit，不计第七；原软件pending保。只验纯载体，不授真实MXCSR输入、浮点执行、全caller/Native/Game或速度。
+
+## 单条转换：长度丢弃后完整稿仍拒，owner软件验证独立
+
+[HTTP-CONVERSION-LENGTH-AND-SEMANTIC-REJECT-605](evidence/2026-11-03-http-conversion-reject-owner-software.json)30完整项85970物理B/94034源码消息B。三POST=R1 length4500整未读弃、fresh R2预算6500/完整3924输出仍因类型/Java草稿/负移位/舍入carry和lane检查错整拒，以及独立counter完整但mask/rounding/tie错拒；0retry/无第三轮、0模型执行token/Test/oracle。Owner100%3663B实现与7422B九unit Test，oracle预任何CONTENT冻结；不把owner首绿倒授模型成功。
+
+三首阶段全0/manual stdout9，仅指定upper-lane软件域内单条CVTDQ2PS；1.421215s过程对已录801.342191s墙钟，实际启动让位/准备审阅与activeunknown分账，峰2仅14.004376s。部分rounding知识要求是保守资格合同，缺输入stop不是已实证硬件fault。后见9a5025f9原两payload raw/formal等，薄wrapper 1P仍同九unit；原pending保，不授wholegrowth/实际MXCSR/Native/Game或速度。
