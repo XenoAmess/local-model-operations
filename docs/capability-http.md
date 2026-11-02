@@ -1250,3 +1250,6 @@ M7 next254 [批准最小formal后见](evidence/2026-11-03-http-nested-row-rebuil
 
 
 359 [同parent两次自然动作后见](evidence/2026-11-03-http-submit-diagnostics-two-natural-actions-later.json)批准2150B原样，保Root首2531B与source9723B所有原cutoff；不增两原HTTP或3P分母。两个append47.3255266/19.342193201秒，相应Native inclusive93.160201/62.1565毫秒；只定位append wrapper，尚无内部callee、CPU/存储或物理write归因。不同action负载不是A/B，nested不可加、同步诊断输出开销未测、没有提速或后SAVE信用。System.err进入Quarkus stdout的观测路由纠正保持，0新HTTP/JVM/Game/GET/probe。
+
+
+364 [Finance/checkpoint named-scope finite negative](evidence/2026-11-03-http-finance-checkpoint-finite-negative.json)批准3274B原样：23whole773490/msg775833×2，direct合同/注册齐但transitive runtime实现未全供，不冒全闭包。双STOP合法JSON/0retry，max6000/5000、峰2仅50.677807s/union69.839023s；两个NoCandidate正文都有实错整拒，impl留nullcustody写又自撤/误读switch，counter混历史savedDATA与live权限及祖先有效性，0code/无改源不记model成功。Owner有限阴性只覆盖该stage/checkpoint域，archive/current/Session/构造callback检查保；profile采样非calls/CPU/方法wall、后见coverage属nextbatch动作前且exactsubphaseUNKNOWN。新下游typed seam是另授权scope不倒授本两role；owneractiveNULL，0Java/Game/GET/probe或运行收益。
