@@ -996,3 +996,5 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 ### 指导性选择循环的真实源码红与 fixture 修正（324）
 
 [批准完整原文](evidence/2026-11-03-http-guided-council-selection-owner-repair.json)保留两个窄 stop、owner 明示设计及两 hunk：原模型重赋局部量后遗留 lambda 捕获，首生产编译真实失败，owner 源审也漏过，后用79B别名修正。counter 只审思路，未看候选。owner CP 错与 Frame 四坐标 fixture 错独立保留；首次八方法运行为5P3F，修夹具后仅原失败3P，共八个不同方法通过，不能称一次8P。1340.877485秒整墙钟、13.9317989秒进程阶段和与 active unknown 分列，不由排序移除推断分配或实速收益，原正式 pending 切点保持。
+
+324 [独立批准后到正式](evidence/2026-11-03-http-guided-council-selection-later-formal.json)记录 c7005550 两叶 raw/formal/EOF 全字节相同；无新增 HTTP／编验或运行收益。原批准正文14472B及 pending 切点不改，首源码红、owner 修正和5P3F→仅失败3P仍按原记录。
