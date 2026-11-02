@@ -1181,3 +1181,8 @@ M0 manager-static [captured delegate graph复合边界](evidence/2026-11-03-http
 
 
 M3 257 [same-storage两edge consumer](evidence/2026-11-03-http-same-storage-two-edge-consumer.json)批准2475B：11currentJava含nestedMemory祖声明+3heldASM/合同，双R1完整418/920token、0retry/length/R2，峰2仅5.049017s。完全guided class执行body R1raw，缺mandatoryimport由owner补，partial不冒wholeclass原样；counter仅planned sourceaudit/no具体反例，不是candidate验证。Ownerwhole Test已见source/implementation，先冻oracle不冒targetblind；2newTU三首0/2groups3scenes48events485mixedchecks、旧source/Test零重跑。1.2857441进程vs1487.981626标记wall/更早discovery与activeUNKNOWN，非完整task成本或CPU。[927B正式后见](evidence/2026-11-03-http-same-storage-consumer-later-formal.json)5af90e24原2files正常发，M3 finalizer路径sep dict误比/ownemptydir在0Java停止、修resolvedpath+bytes/SHA，早Nativepreflight分账；原pending与字节不回填，不授fullABI/硬件/Native/运行或提速。
+
+
+M0 manager-static [428B正常formal后见](evidence/2026-11-03-http-captured-delegate-composition-later-formal.json)589bd6c7两leaf正常push/remoteexact/0新编RUN，原3386B pending与模型拒稿/owner manual结果不改，不授currentRuntime或收益。
+
+619 [FP-aware page factory与截断成本](evidence/2026-11-03-http-page-reserve-fp-budget-and-owner-witness.json)批准3582B正文：impl/audit48whole262149physical/msg274673，witness51/302597/msg316111含3个旧fixture、无newcandidate/expectedtrace；继承preflight实际在freeze前补声明，文件数不冒全成员算法闭合。3POST仅1stop+2length，7107R1整class raw0owner但强API/route提示，audit2200/witness8500两whole未读/0片段/无whole重投，是预算成本非完整算法失败。Owner geometry/group oracle pre三POST，完整10282Test在implCONTENT后装配，非blind/pre-generation；三首0/stdout4console非4JUnit，8innerCALL仍全显式FPopaque。2.1068189进程/35.007192协调gap/1529.655297仅lateclock下界、完整taskstart/activeNULL不作净节省；峰3仅26.204530s另峰2段5.408287s，不冒持续目标。formal与selectedJUnit原pending，不授fullupper/Native172同次16+4/当前FP/运行或速度。
