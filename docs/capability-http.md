@@ -490,3 +490,9 @@ owner全2981B编排/13378B七方法Book，scenario prePOST、具体Test post生�
 ### 两个小helper单元后到正式
 
 [原HTTP-TWO-SMALL-HELPERS-PARTIAL-001](evidence/2026-11-02-http-two-small-helpers-partial.json)软件pending和模型/owner分级字节不变；[后到annex](evidence/2026-11-02-http-two-small-helpers-partial-formal.json)独核fb7f0d72四selected/raw/formal/commitblob及EOF全等，0新增HTTP/编RUN。helper精确的是owner各修一执行行后的2008/849B，非decoded1979/886B；owner2981B整体/13378B七方法与有限counter partial不升级。2113.077490s marker→发表观察另列，原973.751489s软件delivery/684.444348s首prod→RUN与3.411559s进程保，早期发现/active/netunknown，0运行或提速信用。
+
+## 后到：真实typed caller的单方法绑定
+
+[HTTP-TYPED-DISPATCH-METHOD-001](evidence/2026-11-02-http-typed-dispatch-method.json)15完整项36604B按actual三消息全文核，1500/2200两POST均stop/0retry，峰2仅3.654793s。owner明确child frame/DF/budget/Memory、same-frame check/result identity与fallback架构；680B完整dispatch在原编译1623B owner架子中唯一byteexact，0方法执行/EOL/EOF修正，不称whole class或自主设计。site-only分支已有真实typed ctor的direct/target/length约束，不捏造owner补guard。反审把full寄存器当boolean/错shift地址、混返回guard和控制分支，两个具体例拒；仅一般site/lowbyte事实partial，无R2。
+
+owner全12659B六新场景，facts prePOST、literal oracle在两END后/读CONTENT前冻。原caller→真实full callee三个whole场景与child DF/budget/foreign identity三反例首RUN0/stdout6，不写六JUnit；47global内42Memory/1opaque enqueue/4Budget，旧standalone/entrycase不重跑。1304.411179s记录准备→RUN对1.489033s三进程，125.250941/6.279304s协调gap与更早发现/active/netunknown分列。软件cutoff formal pending另待真实后见；callee原594/成熟caller不重授新代码，0opaque算法/硬件/Native/Game/SAVE/实速或G2整体完成信用。
