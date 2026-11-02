@@ -742,3 +742,5 @@ R2 body partial，owner把“另clone再mutation”改为成功调用的同一ca
 [HTTP-ISOLATED-MAVEN-ADDED-TYPE-001](evidence/2026-11-02-http-isolated-maven-added-type.json)仅复制Root/owner明确批准的2860B原字节portable。实际生成流程是普通三消息HTTP，非OpenCode原生工具case；owner初始三adapter与后续源审不追授模型whole批准。后两真实实现/独审各1attempt完整stop并重叠，21.523290/21.794414s，TTFT8.481528/9.489362s、cachednull；只一处窄TCCL方法提议经独立实际源码核对后采用，不能据stop授整体运行正确。
 
 前四actual RED保：plugin resolve、错误安排descriptor、缺vendor BOM、真实augmentation provider subtype不合；owner交付artifact/BOM与单body修后第五隔离Maven实际dev增编410B public class并由既有consumer执行，同PID/出生、runtime/dependency新loader restart0→1，正常nonce stop/exit0/port-free。3355.3302s已名软件首BEGIN→第五END含失败等待，五进程284.14933s/四编译8.838766s另计，更早准备/library probes不在wall、activeunknown。不授当前业务采用、所有newtype、delegate保活/instrumentation、唯一根因/Game/SAVE或实速，raw/binding留本机。
+
+[完整方法拒稿单元后到正式](evidence/2026-11-02-http-complete-method-source-semantics-formal.json)：ae585905仅owner Test20220B/raw/blob/EOF独核，原6c063软件pending公开文件未改；四model方法与片段0、两反审whole0/有限facts、owner首3TU/2组53events166checks和unknownactive照保。0新编验/生产/Native/Game/速度。后见index把prepare时next-not-started模板晚发成当前状态，owner独立勘误保原；不据旧模板推当前在途或要求补请求。
