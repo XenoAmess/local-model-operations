@@ -642,3 +642,5 @@ Owner literal先有production可见非wholeblind；编前删恒真assert/修side
 Owner原三low地址块case+两API组在HTTP END后CONTENT前冻，未覆盖high64 bug；R1源审/R2read后、全部Test编验前另附high64源预期，不冒最终wholeblind。首两prod/Test/RUN全0，6单位=四块case28Memory+三合法Frame组+十拒绝组，不是六wholeNative。1.691102s过程与2246.881509s已录准备→RUN/459.64142s协调分开，早期/activeunknown，错0x检索/猜helper missing等owner成本保。后到架构限定：registerbank无RFLAGS，INC标志未表示/未验；growth FP控制/状态合同仍缺，官方文档后核不追填首prefix/模型oracle。原formal pending保持、后见另附，0新PE/HTTP/JVM/Game或速度信用。
 
 [captured Memory单元后到正式](evidence/2026-11-02-http-nominal-captured-memory-correction-formal.json)：ce0fdaea正常发表，owner API653/Test12125 raw=formal；binding4337→4329仅LF/尾白投影、EOF保，已直接读指定commit blob独核，不称全raw字节等。原a051软件pending/模型R1 nominal错→R2两原码修/owneroracle与两case78checks和全部成本不改；0新增HTTP/编测/运行。
+
+[该pure API/短块单元后到正式](evidence/2026-11-02-http-queue-parts-high-address-correction-formal.json)：1667b7a正常发表，API5885/ownerTest10949/新wrapper337 raw=formal；block2560→2559仅一尾白，指定commit blob投影/EOF独核。Native仅新wrapper strict0.578362s/selected1P0.527039s，调用同六parts非第七case，6.741819s wall/5.636409s gap另计；无XML，原console1P已核。原pending、low/high oracle可见性/模型分级、无RFLAGS/缺FP控制及全成本不回写，0新增HTTP/原件重扫/编测或Game/提速信用。

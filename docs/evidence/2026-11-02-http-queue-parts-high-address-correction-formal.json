@@ -1,0 +1,150 @@
+{
+  "schema": "local-model-operations.mode-annex/v1",
+  "mode_id": "http-candidate",
+  "case_id": "HTTP-QUEUE-PARTS-HIGH-ADDRESS-CORRECTION-001",
+  "kind": "later-formal-receipt",
+  "observed_UTC": "2026-11-02T11:05:22.297460+00:00",
+  "operator_review_UTC": "2026-11-02T11:13:31.630950+00:00",
+  "original_case": {
+    "relative": "evidence/2026-11-02-http-queue-parts-high-address-correction.json",
+    "bytes": 14253,
+    "sha256": "25e6fa350c3d57b5392a6fdba957027f36ab7eab1e3e499b87c206fe8c05807d",
+    "source_software_pending_canonical_Git_blob_unchanged": true,
+    "worktree_newline_projection": "Git checkout has CRLF projection; canonical original LF blob verified separately and current worktree bytes preserved."
+  },
+  "formal": {
+    "commit": "1667b7a183d0481bf406c37fa207e3687e06e87e",
+    "normal_push_exit": 0,
+    "remote_exact_clean": true,
+    "payloads": [
+      {
+        "role": "raw model pure API",
+        "raw_digest": {
+          "bytes": 5885,
+          "sha256": "46ad7e14dc88a03bdcbf6e17021de3cdb3835b9e76c9fd63beaf0dbc9882a5c4"
+        },
+        "formal_commit_blob_digest": {
+          "bytes": 5885,
+          "sha256": "46ad7e14dc88a03bdcbf6e17021de3cdb3835b9e76c9fd63beaf0dbc9882a5c4"
+        },
+        "LF_trailing_whitespace_projection_exact": true,
+        "EOF_preserved": true,
+        "raw_byte_equal": true
+      },
+      {
+        "role": "model block corrected by model R2",
+        "raw_digest": {
+          "bytes": 2560,
+          "sha256": "e9ee39383725b7d8754defb713d1e6fe83117dc3c5588e52df05a9703e095a69"
+        },
+        "formal_commit_blob_digest": {
+          "bytes": 2559,
+          "sha256": "8a61be8c5e464639d12b1924415c7117dbcab8bcc40a6f9f4537a884e9979f6a"
+        },
+        "LF_trailing_whitespace_projection_exact": true,
+        "EOF_preserved": true,
+        "raw_byte_equal": false
+      },
+      {
+        "role": "owner Test",
+        "raw_digest": {
+          "bytes": 10949,
+          "sha256": "488701b13eda2835ef7a8e95648ffadcb63e434a85332ad550a336b66d9613f6"
+        },
+        "formal_commit_blob_digest": {
+          "bytes": 10949,
+          "sha256": "488701b13eda2835ef7a8e95648ffadcb63e434a85332ad550a336b66d9613f6"
+        },
+        "LF_trailing_whitespace_projection_exact": true,
+        "EOF_preserved": true,
+        "raw_byte_equal": true
+      },
+      {
+        "role": "new thin JUnit wrapper",
+        "raw_digest": {
+          "bytes": 337,
+          "sha256": "2c2c8c7aa3670f2b2c1f7a8d6884f8c411d790196ffb0b29494c0b8bbb646d6e"
+        },
+        "formal_commit_blob_digest": {
+          "bytes": 337,
+          "sha256": "2c2c8c7aa3670f2b2c1f7a8d6884f8c411d790196ffb0b29494c0b8bbb646d6e"
+        },
+        "LF_trailing_whitespace_projection_exact": true,
+        "EOF_preserved": true,
+        "raw_byte_equal": true
+      }
+    ],
+    "projection_boundary": "API5885,ownerTest10949,newwrapper337 raw byte equal; selected block2560 to2559 removes only one trailing whitespace byte. Original compiled raw/model R1/R2 and EOF remain unchanged; not all raw/formal blobs byte equal.",
+    "PUBLISHED_digest": {
+      "bytes": 1555,
+      "sha256": "0e8163bdd22eecd0378fb73f80b6ee84a55e16cb3f416f8c094c553196c831c9"
+    },
+    "later_owner_annex_digest": {
+      "bytes": 29392,
+      "sha256": "f94f9877fc508688fac3e858f8754488e31a3eb4aeea1a0256227f61fca324c5"
+    },
+    "Java_execution_for_publication": 0
+  },
+  "Native_new_wrapper_stage": {
+    "new_wrapper_source_bytes": 337,
+    "compile_seconds": 0.5783617999986745,
+    "selected_JUnit_seconds": 0.5270389000070281,
+    "reported_process_sum_seconds": 1.1054007000057027,
+    "wrapper_first_chain_wall_seconds": 6.741819,
+    "phase_gap_wall_seconds": 5.636409,
+    "pin_rows": 84,
+    "JUnit_selected_methods": 1,
+    "failures": 0,
+    "skipped": 0,
+    "XML": "Not produced; original pinned console result checked.",
+    "wrapper_JUnit_console_digest": {
+      "bytes": 479,
+      "sha256": "5fe1a5496f531af8b9b6bdca6a4f7d03b5816e009fbd58294204ec502c7d7647"
+    },
+    "scope": "Only the new thin wrapper compiled/selected; it invokes the same six previously qualified parts units, not a seventh new scenario. No old production/API/manual Test recompile or separate standalone replay. Original three first-actual stages remain distinct."
+  },
+  "adoption_boundary": "Pure API whole R1 raw,block R1 corrected by one exact model R2 hunk,owner Test and high-address coverage annex remain separately graded. No whole producer, flags or floating-point state proof from publication.",
+  "oracle_and_source_boundary": "Original low-address oracle and later high-address annex unchanged; the high case was added after R1 diagnosis/R2 read and before Test execution. RFLAGS absent and FP-control/status/whole growth/upper binding remain open. No physical CALL/Native/Game/private authority or performance credit.",
+  "owner_cost_boundary": "Original recorded2246.881509s preparation-to-RUN window,1.691102s process sum and all earlier/active unknown retained. New5.636409s wrapper gap is coordination wall, not CPU or future hold. Metadata executor-string assertion and inline-reader quoting errors stopped before source/compiler mutation; owner preparation, not model/Java failures.",
+  "operator_newline_check": "Initial annex assertion assumed current worktree bytes equal the canonical committed evidence bytes after Git checkout had projected LF to CRLF. It stopped before public writes. Original canonical blob was then verified with the explicit newline projection, without rewriting the old worktree/case. Active correction time unmeasured; not a model/source failure.",
+  "rechecked_small_original_pins": [
+    {
+      "name": "MODEL-COHORT597.json",
+      "digest": {
+        "bytes": 6121,
+        "sha256": "059886651a2554847bb70cf7b3723af4a333f39fc26ce4200c0fd2b3e3024928"
+      }
+    },
+    {
+      "name": "COST597.json",
+      "digest": {
+        "bytes": 1535,
+        "sha256": "3307b68bd6d9838eb442886775579e79d5d2b084c60b9c4e99477224d6aa6d78"
+      }
+    },
+    {
+      "name": "ORACLE-FROZEN597.json",
+      "digest": {
+        "bytes": 6860,
+        "sha256": "31508667a33a24d7e1e5d4e07819644ca3bf31cf7743d4047d35db350d090a6c"
+      }
+    },
+    {
+      "name": "ORACLE-HIGH-ADDRESS-ANNEX597.json",
+      "digest": {
+        "bytes": 1986,
+        "sha256": "e70a78c8e135a9ea7a61986857e8e7997f27d3eac288fdb51853329845a57a68"
+      }
+    },
+    {
+      "name": "SOURCE-REVIEW597-R2.json",
+      "digest": {
+        "bytes": 1106,
+        "sha256": "cfdc13564ab0bb9d506e077443731c993423c47133784e781e9b83740206d3ab"
+      }
+    }
+  ],
+  "owner_reported_all64_original_pins_unchanged": true,
+  "independent_large_REQUEST_rescan_for_this_annex": false,
+  "publication_new_HTTP_JVM_Game_actions_by_operator": 0
+}
