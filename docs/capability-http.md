@@ -988,3 +988,7 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 ### 同历史 scope 的 command memo 与 legacy Proxy 兼容（320）
 
 [批准正文](evidence/2026-11-03-http-bounded-command-reuse-owner-opt-in.json)保留两份完整 stop、49.079395 秒真实重叠与模型代码全部拒收。owner 重构后发现新增 default 方法不会自动进入既有 JDK Proxy 的默认实现，四个旧适配器未供原模型属于影响分析输入缺口；改为显式 opt-in 保旧入口。首组六方法 5P1F 后仅改错误异常期待并重跑失败项 1P。2424.240196 秒整墙钟与 45.089115 秒进程和分列，active unknown，纯 DATA memo 不授 IO 资格缓存或收益。[后到正式](evidence/2026-11-03-http-bounded-command-reuse-later-formal.json)另附，批准正文 pending 切点不回写。
+
+### 明确范围的真实中型 COPY 接线与后见发表（612／611）
+
+[612 软件单元](evidence/2026-11-03-http-known-medium-copy-composition.json)记录强形状提示下4936B整类 R1 原样采用，两个真实 stop 的峰2仅25.54354秒，六组全 owner 期待与首验分层；43 whole 实体包含不可达旧 placeholder，不能称43完整 producer。实际16..32源已齐，更大 COPY 和 allocator/free 仍 opaque。872.959159秒已知墙钟、2.1837647秒进程和与 owner active unknown 分列。[612后到正式](evidence/2026-11-03-http-known-medium-copy-later-formal.json)先只记实际 commit/尺寸，不凭尺寸猜字节投影。[611正式投影](evidence/2026-11-03-http-partial-fp-positive-later-formal.json)单列四叶 raw exact、owner binding 仅60行尾空白；原软件 pending 和五组验收不回写，wrapper 1P 不新增场景。
