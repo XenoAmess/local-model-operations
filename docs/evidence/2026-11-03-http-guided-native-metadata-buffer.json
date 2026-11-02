@@ -1,0 +1,141 @@
+{
+  "schema": "local-model-case/v1",
+  "mode_id": "http-candidate",
+  "case": "identity-local-native-buffer335",
+  "purpose": "One real Windows file metadata reader allocated three native buffers for every full metadata query. A method-local single owned block can preserve all fresh calls and exact immutable values while reducing native allocation bookkeeping.",
+  "input": {
+    "whole_current_files": 4,
+    "source_bytes": 124186,
+    "files": "Actual identity reader and LedgerFiles caller plus official matching-version JNA Memory/Pointer complete source. Exact actual Java21 CP contained JNA5.19.1 jar; this is source/version evidence, not universal loaded provenance.",
+    "fixed_three_message_requests_verified": true
+  },
+  "model": [
+    {
+      "role": "implementation",
+      "max_tokens": 1500,
+      "begins": [
+        "2026-11-02T19:35:34.022899+00:00",
+        "2026-11-02T19:35:56.140944+00:00"
+      ],
+      "ends": [
+        {
+          "utc": "2026-11-02T19:35:44.640845+00:00",
+          "total_ms": 10617.765899994993,
+          "contentTTFT_ms": null,
+          "failure": "ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)",
+          "finish_reason": null,
+          "sse_done": false,
+          "usage": null
+        },
+        {
+          "utc": "2026-11-02T19:36:28.395756+00:00",
+          "total_ms": 32254.8431000032,
+          "contentTTFT_ms": 3374.0116999979364,
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "usage": {
+            "prompt_tokens": 29867,
+            "completion_tokens": 1019,
+            "total_tokens": 30886
+          }
+        }
+      ]
+    },
+    {
+      "role": "counter",
+      "max_tokens": 1500,
+      "begins": [
+        "2026-11-02T19:35:34.029723+00:00",
+        "2026-11-02T19:35:54.495749+00:00"
+      ],
+      "ends": [
+        {
+          "utc": "2026-11-02T19:35:44.637605+00:00",
+          "total_ms": 10607.878299997537,
+          "contentTTFT_ms": null,
+          "failure": "ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)",
+          "finish_reason": null,
+          "sse_done": false,
+          "usage": null
+        },
+        {
+          "utc": "2026-11-02T19:36:27.158519+00:00",
+          "total_ms": 32662.784900006955,
+          "contentTTFT_ms": 5019.13460000651,
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "usage": {
+            "prompt_tokens": 29835,
+            "completion_tokens": 627,
+            "total_tokens": 30462
+          }
+        }
+      ]
+    }
+  ],
+  "concurrency": {
+    "client_peak": 2,
+    "peak_intervals": [
+      {
+        "attempt": 1,
+        "peak2_seconds": 10.607882
+      },
+      {
+        "attempt": 2,
+        "peak2_seconds": 31.017575
+      }
+    ],
+    "current_inflight_at_software_delivery": 0
+  },
+  "wire_settings": {
+    "temperature": 0,
+    "thinking": false,
+    "json_object": true,
+    "stream": true,
+    "include_usage": true,
+    "max_tokens_each": 1500,
+    "logical_requests": 2,
+    "actual_POSTs": 4,
+    "retries": "Both first attempts reset before headers/content; empty partial originals discarded. Each unchanged actual REQUEST automatically retried once under shared transient policy. No business action replay.",
+    "cached_tokens": null
+  },
+  "adoption": {
+    "implementation": "One exact guided method edit selected, zero owner production token changes. Owner supplied whole precise layout/offsets/sequence, so no independent hotspot-discovery or autonomous layout-design claim.",
+    "counter": "Complete source idea counter returned REJECT, not candidate audit. No blocking finding adopted. Full-parent shared bounds and unmeasured gain caveats retained; premature GC and failure-then-continuation assertions refuted by actual Memory strong-parent/TWR and original short-circuit. No further HTTP to obtain agreement.",
+    "owner": "Three independent new owned-temp Win32 metadata witnesses frozen before nonempty candidate read. Original three-buffer system oracle compares all actual immutable fields, directory rejection and subsequent real metadata drift. Not a benchmark or original production tests rerun."
+  },
+  "source_scope": [
+    "Only one private allocation header plus three local Pointer declarations change; complete remainder reverse-exact.",
+    "One scoped88B allocation, disjoint slices offsets0/24/64 and lengths24/40/24. Three original GetFileInformationByHandleEx calls18/0/1 with same handle/lengths/short-circuit, field offsets and flags remain.",
+    "All full uint128 file ID, unsigned64 serial/creation, bytes/time/type values are copied to immutable result before sole owner closes; no Pointer escape, fields/pool/cache/lifetime or source capability added.",
+    "All caller NIO/root/handle/permission/ordinary-parent/identity-before-after/dynamic-space checks retained. Shared slices are not native-write-overrun isolation; no arbitrary corrupt ABI guarantee."
+  ],
+  "software": {
+    "new_prod_TU": 1,
+    "new_Test_TU": 1,
+    "first_new_methods": 3,
+    "first_passes": 3,
+    "failures": 0,
+    "old_tests_rerun": 0,
+    "stage_process_wall_seconds": {
+      "prod": 1.6734681999951135,
+      "validation": 1.6985437000112142,
+      "test": 1.6005619000061415
+    },
+    "sum_stage_process_wall_seconds": 4.972573800012469,
+    "compiler_CPU_seconds": null,
+    "stderr_preserved": true
+  },
+  "cost": {
+    "whole_begin_to_software_delivery_wall_seconds": 762.106056,
+    "active_seconds": null,
+    "phase_markers_independent_before_work": true,
+    "model_native_resource_wait_and_other_work_overlap_not_active": true,
+    "strict_to_JVM_gap_seconds": 39.868448
+  },
+  "benefit_and_limits": "Only native malloc/owning cleaner/registration count3→1 is established by source. Three SharedMemory views plus owner mean Java Memory-derived object count can3→4; no Java-object-total reduction, allocation benchmark, cache-locality gain or actual speed claimed. Unchanged Win32 calls may dominate. No attribution of prior metadata samples to CPU seconds or native action/ACK timing. JVM/native resource/OOM failure timing is outside asserted equivalence.",
+  "formal_publication": "Pending at frozen software cutoff; later formal annex only.",
+  "privacy": "Only this sanitized body approved for public Ops use. Raw source/REQUEST/SSE/private paths/oracle/Game evidence remain local."
+}
