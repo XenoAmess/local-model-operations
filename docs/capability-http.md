@@ -1046,3 +1046,7 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 227 [owner整producer与raw薄binder](evidence/2026-11-03-http-normal-frame-owner-producer-raw-binder.json)保length hash-only弃、完整5000预算R2仍整拒/0R3，binder2283 raw0owner/强hint。8oracle prePOST与Test代码四回复后生成分账，原COST过宽措辞已有独立erratum；首8logicalscene79checks不授Native/自然M6，698.97109已录窗不冒更早完整工作/active。
 
 614 [known字节copy尾factory](evidence/2026-11-03-http-known-byte-copy-tail-adapter.json)3305整类R1原样、0ownerJava但routing强hint；首5console组非5JUnit，outline prePOST与fullTest END后CONTENT前冻结分开。626.602902仅已知clock下界，totalwall/active均null。334 [后到正常正式](evidence/2026-11-03-http-reload-advisory-later-formal.json)c3d8e6f另附，原2969B pending/fixtureRED与五uniqueP保，无新验证或Runtime/SAVE/实速授信。
+
+336 [配置证据资格/无改动](evidence/2026-11-03-http-resource-evidence-no-config-change.json)两个完整NO_CHANGE仍有实质单位/时源/Serial与APC错因全拒；两首reset半流不读不拼、原请求自动retry各stop。Owner独立NoConfigChange，不是配置实验或代码采用；PID/flags来源缺口、先前准备未知和504.966391已知窗/activeNULL保。
+
+338 [actualcandidate独立只读反审](evidence/2026-11-03-http-json-tokenwalk-independent-counter.json)一stop592，外层JSON合法但5findings含3junkstrings/缺limits，具体nestedscalar finding源驳回/0新oracle。Owner显示/两assert/未消费END误作inflight分账；实际audit未与HTTP重叠，五完整Jackson源入wire不授人工全类逐行审或全transitive证明，0新Test/JVM。227 [后到正常formal](evidence/2026-11-03-http-normal-frame-later-formal.json)7b8e8ef9三raw/EOF等，原pending与8oracleprePOST/TestcodepostModel时序勘误保。

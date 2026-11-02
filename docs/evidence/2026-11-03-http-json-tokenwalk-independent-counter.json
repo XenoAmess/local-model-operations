@@ -1,0 +1,123 @@
+{
+  "schema": "local-model-operations.readonly-countercase/v1",
+  "case_id": "HTTP-READONLY-JSON-TOKENWALK-338",
+  "mode_id": "ordinary_http_candidate",
+  "scope": "First independent owner source audit of an actual selected default JSON validator change. No implementation request, source edit, new test, Java execution, runtime gate or business operation.",
+  "independence": {
+    "baseline_oracle_frozen_before_actual_candidate_and_existing_test_read": true,
+    "owner_limited_source_conclusion_frozen_before_POST": true,
+    "owner_or_prior_model_verdict_in_model_input": false,
+    "actual_candidate_and_existing_test_in_input": true,
+    "therefore_not_a_blind_test_generation": true
+  },
+  "input": {
+    "whole_files": 12,
+    "raw_source_bytes": 430942,
+    "includes": "Two original sources, two actual selected production sources, existing selected Test, exception declaration, five complete held official Jackson2.21.7 sources, actual dependency pins. Full transitive Jackson-core/binary equivalence not claimed."
+  },
+  "actual_request": {
+    "logical_requests": 1,
+    "POSTs": 1,
+    "retries": 0,
+    "message_roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "max_tokens": 2100,
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true,
+    "all_twelve_whole_text_bodies_independently_verified_in_actual_REQUEST": true
+  },
+  "actual_transport": {
+    "HTTP_status": 200,
+    "finish_reason": "stop",
+    "SSE_done": true,
+    "prompt_tokens": 101059,
+    "completion_tokens": 592,
+    "cached_prompt_tokens": null,
+    "HTTP_seconds": 16.987023900001077,
+    "valid_content_TTFT_seconds": 12.93751550000161
+  },
+  "model_result": {
+    "grade": "PARTIAL_ANALYSIS_WITH_FALSE_FINDING_AND_SCHEMA_FAULT",
+    "outer_JSON_parseable": true,
+    "findings_elements": 5,
+    "finding_objects": 2,
+    "junk_string_elements": 3,
+    "requested_max_findings": 3,
+    "requested_limits_and_source_gaps_missing": true,
+    "alleged_nested_scalar_root_deserializer_failure": "Refuted using actual supplied context dispatcher and scalar deserializer: no container-depth veto or parser advance in those scalar paths.",
+    "second_observation": "Shared parser/fallback fact only; no concrete old-versus-new DATA counterexample.",
+    "source_or_oracle_adoption": 0,
+    "followup_retry_for_agreement": 0
+  },
+  "owner_result": {
+    "verdict": "SOURCE_PASS_LIMITED_NO_CONCRETE_COUNTEREXAMPLE_FOUND",
+    "basis": "Original parsing outside the new method/imports is byteexact; consumer changes only the discarded first parse call. Failed/incomplete/non-container paths fall back to original read. Successful container path uses same parser configuration and actual original scalar deserializer. Second original-byte continuity parse/canonicalization remains intact.",
+    "limits": [
+      "Fixed private mapper configuration and stable raw input during call.",
+      "Ordinary semantic/error paths reviewed; no OOM/GC/resource timing/stacktrace equivalence or universal proof.",
+      "Five held complete primary sources plus actual dependency pins do not prove full parser transitive closure or loaded binary equivalence.",
+      "No actual counterexample found, therefore no new tests/JVM; existing prior tests and their failure/retry history not rerun or relabeled.",
+      "No runtime adoption or speed measurement."
+    ]
+  },
+  "owner_cost": {
+    "phase_intervals_nonadditive": [
+      {
+        "phase": "ORIGINAL_SEMANTICS",
+        "begin_utc": "2026-11-02T19:52:40.762087+00:00",
+        "end_utc": "2026-11-02T19:55:20.024270+00:00",
+        "wall_seconds": 159.262183,
+        "active_seconds": null
+      },
+      {
+        "phase": "CANDIDATE_SOURCE_REVIEW",
+        "begin_utc": "2026-11-02T19:55:20.153748+00:00",
+        "end_utc": "2026-11-02T20:00:13.135772+00:00",
+        "wall_seconds": 292.982024,
+        "active_seconds": null
+      },
+      {
+        "phase": "COUNTER_REQUEST_PREPARATION",
+        "begin_utc": "2026-11-02T20:00:18.975686+00:00",
+        "end_utc": "2026-11-02T20:00:54.740199+00:00",
+        "wall_seconds": 35.764513,
+        "active_seconds": null
+      },
+      {
+        "phase": "ACTUAL_REQUEST_AUDIT",
+        "begin_utc": "2026-11-02T20:01:24.119984+00:00",
+        "end_utc": "2026-11-02T20:01:41.435571+00:00",
+        "wall_seconds": 17.315587,
+        "active_seconds": null
+      },
+      {
+        "phase": "MODEL_ADJUDICATION_INCLUDING_OWNER_METADATA_CORRECTIONS",
+        "begin_utc": "2026-11-02T20:01:49.069704+00:00",
+        "end_utc": "2026-11-02T20:03:33.277412+00:00",
+        "wall_seconds": 104.207708,
+        "active_seconds": null
+      },
+      {
+        "phase": "DELIVERY_AUTHORING_TO_PACKAGE_SNAPSHOT",
+        "begin_utc": "2026-11-02T20:02:31.015599+00:00",
+        "end_utc": "2026-11-02T20:04:55.457198+00:00",
+        "wall_seconds": 144.441599,
+        "active_seconds": null,
+        "overlaps_adjudication_correction": true
+      }
+    ],
+    "first_marker_to_package_wall_seconds": 734.695111,
+    "active_seconds": null,
+    "model_HTTP_seconds_separate": 16.987023900001077,
+    "audit_did_not_overlap_actual_HTTP": "Original inflight note was based on not-yet-consumed terminal output and is explicitly corrected.",
+    "preparation_errors": "One exact missing local manifest-copy read; two metadata helper assertions before report write; premature END outcome notes separately corrected. No source/JVM/HTTP re-execution.",
+    "initial_JSON_judgement_correction": "Rendered text first looked invalid; actual parser confirms valid outer JSON with two objects plus three junk strings. Final grade distinguishes schema fault from outer JSON validity."
+  },
+  "public_permission": "Approved by source owner for this sanitized JSON body only. No raw source, requests/responses, private paths, machine ledger or business evidence may be published."
+}
