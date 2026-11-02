@@ -624,3 +624,5 @@ Test两完整稿没真正先触发获取再造第二文件冲突，whole0/ownerw
 [HTTP-THREE-SITE-BINDER-FIXTURE-CONTRACT-001](evidence/2026-11-02-http-three-site-binder-fixture-contract.json)每role九完整文本/actual三消息，2500 binder stop、1600 audit length已阅作诊断但整弃/0拼、纠正审实际1600预算/600输出，完整两finding皆错；三POST无retry/峰2仅11.512775s。actual末loop CMP/branch与Java方向一致，审把早期另一CMP当回边；另一finding自行承认匹配，仅opaque scope caveat保，不授独立wholeaudit。Binder decoded4933B raw exact但partial，owner六类九occurrence修nominal/access、this→原fallback和unsupported类型，正逆5094B逐字核；整体3703B算法/成熟row复用与Test归owner，site/guard强hint不冒自主ABI。
 
 Owner literal先有production可见非wholeblind；编前删恒真assert/修side literal，后Test首strict1因三匿名fixture缺abstract invoke，0JUnit。只三method声明修12672→12985正逆、生产/期待/预算0改→onlyTest重编0/首次8P，runner的retry名不是此前跑过JUnit。四过程4.536264s与144.16699s全验证、49.448691s PREP/164.638522s REVIEW marker交错墙钟分开；更早发现/首读/activeunknown，SAVE优先窗不能包揽全部等待。原formal仍owner delivery pending，后见另附，不新HTTP/编测或授完整upper/Native/Game/速度。
+
+[该三site单元后到正式回执](evidence/2026-11-02-http-three-site-binder-fixture-contract-formal.json)：0aae858b正常发表，3703/5094/12985三payload raw/currentformal/blob/EOF精确；原软件pending和binder partial/反审拒绝/owner Test首红→只三声明修→first8P及全部成本不改。0新HTTP/编测/运行/速度信用。
