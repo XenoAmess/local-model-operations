@@ -251,3 +251,9 @@ tag格式链真实缺`pydantic`后，一项有方向提示的诊断给出两行Y
 [HTTP-SIGNED-INTAKE-001](evidence/2026-11-02-http-signed-intake.json)由owner先点名三处signed-ID intake及真实API；两请求均stop，四个窄代码片段按原token采用到两个文件，仅做路径/EOL投影，不能称模型自行发现或whole-class raw。独立审却混淆raw执行、typed identity与instance/generation，整体拒绝。实际输入逐源核为21个完整库存文件、message2为312260B；库存22份/338363B还包含未入请求的旧Test，两个口径不混。
 
 四个新软件方法全部owner编写，冻结旧范围的新positive先实际RED，候选4P；baseline2源+必要support3源及候选/Test首编各留回执。owner首编前修浮点token夹具、继承runner误报编译源计数等均单列，不归模型。source窗口1867.108839s、五个进程和21.336470s与HTTP和87.195348s分别保留，主动人工未知；峰2只34.882427s。原交付截止正式pending，后到正式96e4c5bb作为独立annex，未重编测；未授实际私有Root/Native/Game、完整family验收或提速，后继按真实窄任务继续。
+
+## 后到：复杂ABI producer的完整响应仍整体拒绝
+
+[HTTP-COMPLEX-PRODUCER-001](evidence/2026-11-02-http-complex-producer.json)按实际REQUEST区分：producer R1给6500并length整弃未读；R2增至9500，完整stop6925tokens/18883B，因stack、LEA/读语义、预算/容量、间接调用与宽度错误整拒0片段。两次小alias反审也均完整stop，但原owned-memory写后读值/向量快照仍错，owner在首POST前冻结的literal未变。共同13份原始源/直接声明/typed API及合同逐全文核；auditR2另有自身首答，非owner答案。4POST/3stop+1length/0重试，峰2两段合27.142394s；不能把length算成语义失败，也不能把另一个typed API原样成功倒授producer。
+
+owner接管完整6504B生产体及12950B七有限用例，首次strict .555476s、Test strict .638671s、RUN .148722s通过；输入freeze→RUN却1215.533001s，含HTTP、重写、夹具、实际主线资源等待与协调，主动工时未知。只授受控normal/预算/别名软件范围，六个下游仍opaque，不授硬件ABI/EH、Game或实速。后到正式77baecc7按独立annex保留原payload SHA，不增加模型或场景信用。后续复杂producer同复杂oracle优先真正basicblock/API/窄反例/机械段，owner保全编排；新的具名能力边界仍可有限探索，旧两稿不R3洗绿，不凭调用数或owner最终绿写收益。

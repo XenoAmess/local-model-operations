@@ -26,6 +26,7 @@
 完整输入不意味着适合把全部预期交给模型。多组真实复合RAM/ABI见证在完整stop或高预算下仍因API、调用角色、状态传播和完整queue错误拒绝；owner接管、审阅和等待成本均保留。[分别冻结的采用与成本](../docs/evidence/2026-11-02-http-task-routing.json)同时包含可原样采用的薄binding、提示后的有限API/诊断代码，以及复杂见证失败，不能合算采用率。
 
 - 大而复杂的全RAM、全ABI、多callee trace oracle由owner依据原始输入独立冻结。不要对每个相似的新任务都强制从零让模型再生成约20KB expected/Test；必要机械夹具和真实验收由owner负责，不能让模型研究成为业务前置。
+- 复杂全ABI producer也按交付单位路由：优先一个真实basicblock、typed API、薄binding、有限反例audit或小机械段，owner保留完整控制流/状态编排与独立验收；不要只拆大Test、仍反复索取整段复杂producer。已有整稿length和完整ABI错误分别留证，owner接管后不R3洗绿；新的具名边界仍允许有依据的有限探索。[完整候选与owner成本](../docs/evidence/2026-11-02-http-complex-producer.json)。
 - 模型优先承担仍未完成的typed API、成熟接口薄binding、窄诊断、具体源反证或小机械片段。先明确产物和验收范围，保留owner签名/设计/真实API提示程度；独立审稿也可能错，必须逐源核对，不能仅因角色名是audit就接受结论。
 - 新能力边界仍可做有限、具名的真实探索，说明新分支、未知项和可完整交付的单位。相似任务已有连续反例时，先调整分工或接管，不凭请求数、R2或采用配额继续大稿；已闭题不重投。准备、HTTP、审阅可重叠，把并发用于真实有交付价值的需求。
 - 判断缺少诊断前先核既有dispatch、ACK、custody、unavailable与实际保存/throw次序，再决定是否需要新工具或新观测。已有负向原件纠正owner推断不算模型新能力；缺少有效状态帧仍保持未知，另行授权的新功能需求与冗余诊断分开。

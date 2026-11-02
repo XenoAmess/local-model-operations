@@ -1,0 +1,255 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-COMPLEX-PRODUCER-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_software_delivery_cutoff_UTC": "2026-11-02T00:38:03.562910+00:00",
+  "metadata_review_UTC": "2026-11-02T00:58:55.732757+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "A new full-state ABI producer over complete original source, plus a narrowly bounded one-iteration alias counterexample. Owner provides the whole orchestration and software witness after candidate rejection.",
+  "input": {
+    "full_original_items_present_in_all_four_requests": 13,
+    "physical_original_source_UTF8_bytes": 52371,
+    "alias_R2_extra_item": "The prior complete alias response, bringing that request to14 items/56869 physical bytes. No private owner oracle or new target implementation supplied to the audit.",
+    "integrity": "Frozen digest and complete decoded text checked for every one of the13 manifest items in each actual source message. Actual wire budgets and event endpoints independently checked; complete original assembly, direct declarations, selected typed API and owner contract were supplied.",
+    "protocol": "Each request has eight wire keys and current shared system/user/user, temperature0, thinkingfalse, JSON object, streaming plus usage.",
+    "upstream_API": "A separately generated complete typed API was already supplied and had its own first strict result. Its raw adoption is a different task, not adoption of this producer body or any Test."
+  },
+  "calls": [
+    {
+      "role": "production",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T00:17:49.417022+00:00",
+      "END_UTC": "2026-11-02T00:18:31.657855+00:00",
+      "max_tokens": 6500,
+      "owner_qualified_full_source_items": 13,
+      "physical_source_UTF8_bytes": 52371,
+      "actual_source_message_UTF8_bytes": 56283,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 42.2406714999961,
+      "content_TTFT_seconds": 2.907558799997787,
+      "usage": {
+        "prompt_tokens": 18854,
+        "completion_tokens": 6500,
+        "total_tokens": 25354
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 61520,
+        "sha256": "ad8f2627b5e90080f511e5525aea779af9934d62287d74bff182a40fd49d8517"
+      }
+    },
+    {
+      "role": "production",
+      "semantic_round": 2,
+      "POST_BEGIN_UTC": "2026-11-02T00:19:28.808462+00:00",
+      "END_UTC": "2026-11-02T00:20:13.478218+00:00",
+      "max_tokens": 9500,
+      "owner_qualified_full_source_items": 13,
+      "physical_source_UTF8_bytes": 52371,
+      "actual_source_message_UTF8_bytes": 56283,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 44.67122519999975,
+      "content_TTFT_seconds": 2.059345599998778,
+      "usage": {
+        "prompt_tokens": 18942,
+        "completion_tokens": 6925,
+        "total_tokens": 25867
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 61952,
+        "sha256": "6a7fba8876cc217205b9dc1e4e1d1bcd519fed4fd87a401ac8e1a21086e63a5d"
+      }
+    },
+    {
+      "role": "alias_audit",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T00:17:49.416598+00:00",
+      "END_UTC": "2026-11-02T00:18:06.845382+00:00",
+      "max_tokens": 2800,
+      "owner_qualified_full_source_items": 13,
+      "physical_source_UTF8_bytes": 52371,
+      "actual_source_message_UTF8_bytes": 56283,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 17.428947899999912,
+      "content_TTFT_seconds": 2.9043620000011288,
+      "usage": {
+        "prompt_tokens": 18486,
+        "completion_tokens": 2075,
+        "total_tokens": 20561
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 59972,
+        "sha256": "6f09982bb01aec79936cd6f000975bc5ce49ece1623c248d777cacaa02192a64"
+      }
+    },
+    {
+      "role": "alias_audit",
+      "semantic_round": 2,
+      "POST_BEGIN_UTC": "2026-11-02T00:19:28.808365+00:00",
+      "END_UTC": "2026-11-02T00:19:38.522496+00:00",
+      "max_tokens": 2200,
+      "owner_qualified_full_source_items": 14,
+      "physical_source_UTF8_bytes": 56869,
+      "actual_source_message_UTF8_bytes": 60949,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 9.715468399997917,
+      "content_TTFT_seconds": 2.0589813999977196,
+      "usage": {
+        "prompt_tokens": 20604,
+        "completion_tokens": 962,
+        "total_tokens": 21566
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 64956,
+        "sha256": "127ed3f904ba868c100e9fc52934c47c94c91dcc1934217d327a47e257d9391c"
+      }
+    }
+  ],
+  "transport": {
+    "logical_generation_tasks": 4,
+    "semantic_roles": 2,
+    "POSTs": 4,
+    "ENDs": 4,
+    "complete_stop": 3,
+    "length": 1,
+    "transport_retries": 0,
+    "client_peak": 2,
+    "peak2_spans": [
+      {
+        "BEGIN_UTC": "2026-11-02T00:17:49.417022+00:00",
+        "END_UTC": "2026-11-02T00:18:06.845382+00:00",
+        "seconds": 17.42836
+      },
+      {
+        "BEGIN_UTC": "2026-11-02T00:19:28.808462+00:00",
+        "END_UTC": "2026-11-02T00:19:38.522496+00:00",
+        "seconds": 9.714034
+      }
+    ],
+    "peak2_cumulative_seconds": 27.142394000000003,
+    "longest_continuous_peak2_seconds": 17.42836,
+    "reported_HTTP_sum_seconds": 114.05631299999368,
+    "service_running_waiting_KV": null,
+    "target12_16_claimed_achieved": false
+  },
+  "adoption": {
+    "model_producer_body_or_fragments": 0,
+    "model_alias_trace_or_fragments": 0,
+    "model_Test_methods": 0,
+    "producer_R1": "length6500, whole unread discarded; no semantic-failure attribution or extracted fragment.",
+    "producer_R2": "Complete stop6925 completion tokens under9500 budget,18883-byte candidate; whole rejected before compile for wrong budget API, stack adjustment, treating LEA as a memory read, omitted capacity/budget guards, wrong indirect-call kind/fresh target and width/zero-extension behavior.",
+    "alias_audit": "Both bounded complete responses rejected: write/read values and scalar/vector snapshot contradicted the supplied owned memory and prior writes. The private one-iteration source-derived literal was frozen before the first POST and unchanged; no target-run-derived expected data.",
+    "owner_takeover": "Owner authored the whole6504-byte producer and12950-byte seven-case witness from original source after two finite rounds; noR3 or completed-task replay.",
+    "Test_qualification": "Owner source review and original-source oracle; not a blind whole-producer model witness. Opaque lower ports are explicitly controlled, not replaced with asserted natural implementations."
+  },
+  "software": {
+    "checks": [
+      {
+        "stage": "JAVAC_PROD582",
+        "BEGIN_UTC": "2026-11-02T00:25:03.955297+00:00",
+        "END_UTC": "2026-11-02T00:25:04.510776+00:00",
+        "process_seconds": 0.5554762000028859,
+        "exit_code": 0
+      },
+      {
+        "stage": "JAVAC_WITNESS582",
+        "BEGIN_UTC": "2026-11-02T00:37:52.348570+00:00",
+        "END_UTC": "2026-11-02T00:37:52.987243+00:00",
+        "process_seconds": 0.6386710000006133,
+        "exit_code": 0
+      },
+      {
+        "stage": "RUN582",
+        "BEGIN_UTC": "2026-11-02T00:37:55.498936+00:00",
+        "END_UTC": "2026-11-02T00:37:55.647662+00:00",
+        "process_seconds": 0.14872180000384105,
+        "exit_code": 0
+      }
+    ],
+    "owner_new_cases_passed": 7,
+    "new_producer_sources": 1,
+    "new_witness_sources": 1,
+    "scope": "Three represented normal cases plus four budget-stop cases. Exact owned-byte memory/full opaque-call frames, control/DF/return state and one-iteration alias observations are finite software evidence.",
+    "not_verified": "Concrete implementations of all six lower calls, virtual destruction/callback runtime path, hardware ABI/EH/Native/Game, full-context next binding, SAVE or performance."
+  },
+  "clock_accounting": {
+    "input_frozen_UTC": "2026-11-02T00:17:40.114661+00:00",
+    "new_RUN_END_UTC": "2026-11-02T00:37:55.647662+00:00",
+    "input_freeze_to_new_RUN_END_wall_seconds": 1215.533001,
+    "three_process_sum_seconds": 1.3428690000073402,
+    "active_owner_labor_seconds": null,
+    "earlier_discovery_seconds": null,
+    "net_owner_saving_seconds": null,
+    "owner_preparation_error": "One preparation NameError stopped before the compiler; not a model or Java failure. Original source/expected literals were not changed after the first RUN.",
+    "coordination_wait": "Full wall includes both source rounds, owner rejection/rewrite, seven-case authoring, actual main cold-start resource priority and coordination. It is not continuous labor, CPU or service delay."
+  },
+  "formal_at_owner_delivery": {
+    "state": "PENDING_SOLE_JAVA_PUBLICATION",
+    "commit": null
+  },
+  "private_evidence_digests": {
+    "MODEL-COHORT582.json": {
+      "bytes": 6309,
+      "sha256": "c86dc0c63027054a66479e16c1da3a1da120c84f2ce04f76c094728460c0b829"
+    },
+    "COST582.json": {
+      "bytes": 870,
+      "sha256": "0b187e59536acaaa25b1b35ae04e4500dd19fa54550c1bb86a2b131c4813f2c6"
+    },
+    "formal-delivery582/MANIFEST582.json": {
+      "bytes": 14674,
+      "sha256": "c8127e0a3d2656fcbc1533c2b0f95355b52d2a7d21a904ffe4589b1db9cb4e17"
+    },
+    "INPUT-FROZEN-BODY582.json": {
+      "bytes": 4516,
+      "sha256": "75699d67f30d7a6d89974a1cda70304c059c2966beeaccfdf4b231058a8cde41"
+    },
+    "production-owner582/SOURCE-REVIEW582-R1.json": {
+      "bytes": 255,
+      "sha256": "e61234fd3a486eec00fe4e2b557f40cec861acaf54a7dc9e6573ae53d735a494"
+    },
+    "production-owner582/SOURCE-REVIEW582-R2.json": {
+      "bytes": 1504,
+      "sha256": "66d135befbb7df6b73b376fe451dfdf346d54777d9b1d0c5a12d5a79b593f65b"
+    },
+    "alias-audit-owner582/SOURCE-REVIEW582-R2.json": {
+      "bytes": 772,
+      "sha256": "a5f48e28f164b113c5f04a2a336bfebf83dd0e0db1b4df837e756161b04186b6"
+    },
+    "alias-audit-owner582/PRIVATE-ALIAS-ORACLE582.json": {
+      "bytes": 894,
+      "sha256": "ee49e4ba4a9ecd8c256ea493a4f2e1aaec1f837a6692240e12405e8b7ad14b19"
+    },
+    "OWNER-PREP-ANNEX582.json": {
+      "bytes": 277,
+      "sha256": "f88a3c2a355c242c29b1449c124d0e8323fd94819c389b50f1b1fc6647785175"
+    },
+    "later_publication": {
+      "bytes": 1296,
+      "sha256": "68e4f578b3d99a285f24a248bc133b32c2446636a18458472bc15808f35c0313"
+    }
+  },
+  "routing_lesson": "Complex full-ABI producers, as well as large oracles, should normally be routed as one real basic block, typed API, thin binding, finite source counterexample or mechanical fragment, with owner preserving whole orchestration. This does not forbid justified finite exploration of a genuinely new boundary.",
+  "comparison_limit": "The length response and complete semantic rejection are different evidence. Neither two failures nor seven owner passes establish a permanent model ceiling, arbitrary success rate, cross-mode superiority or net saved labor. The separate typed API success cannot be credited to the rejected body.",
+  "next_real_trigger": "Append an actual later publication or genuinely new bounded source task. Do not retry this closed body a third time or force a giant expected matrix to obtain adoption.",
+  "publication_new_HTTP_compile_Test_or_business_actions": 0,
+  "later_formal_annex": {
+    "observed_UTC": "2026-11-02T00:52:48.439510+00:00",
+    "commit": "77baecc708cdc30dd6f592d4ba7126cbafd6f2a7",
+    "normal_push_remote_exact_clean": true,
+    "owner_producer_and_witness_pins_match_original": true,
+    "formal_additional_thin_JUnit_wrapper_bytes": 321,
+    "scope": "The thin wrapper adds no scenario or model credit; the seven-case evidence above remains the original standalone first RUN.",
+    "new_compile_RUN_for_publication": 0,
+    "runtime_or_Game_credit": false
+  }
+}
