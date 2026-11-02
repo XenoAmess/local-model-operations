@@ -600,3 +600,9 @@ owner全八Test，先scenarios后production审/具体Book，不冒wholeblind；�
 [HTTP-DEFAULT-RESOURCE-DELEGATION-001](evidence/2026-11-02-http-default-resource-delegation.json)两真实角色各一stop/无retry/R2、无实际重叠。实现17完整材料503088B/实际消息504792B，6000预算；新三method见证18完整材料118269B/实际123361B、4200预算，candidate/owner合同和helper/逐项recipe可见，不算独立oracle。模型接口/try-with形状partial，但anonymous三处this递归及consumer嵌套类型名错，由owner四执行限定修+一comment；两完整raw edits和owner修正均独立unique forward/inverse重建selected2578/13790B。
 
 模型三method也partial：owner改同实例断言、List对Throwable[]的错误相等、close-only suppressed义务与default无custody注释；修后方法逐字核入owner13029B Test，全架子/行为预期归owner。共同5TU首0复用，后新Test strict0/3P，明确只public DATA port的转发、原读序/失败实例、primary/suppressed及单次资源lifetime；default仍全量原physical工作且新增小allocation，不能授Native lease/减hash/速度。1.527609s+1.996786s过程与9.613255s链/6.088864s gap/1714.65625s Ready等待分开。极短PREP/REVIEW marker只后段机械装配/应用，早读和activeunknown；封包slash locator dict误比另记。原source/software pending保，ba003c1d后到仅该两源/Test raw=formal/EOF等，不普授同组其它组件/六方法或Game信用。
+
+## 后到：资源生命周期整稿接管、窄wrapper与真实temp见证
+
+[HTTP-LEASE-LIFETIME-OWNER-TAKEOVER-001](evidence/2026-11-02-http-lease-lifetime-owner-takeover.json)实现两16000、Test作者两6500、actual source03反证一3000共五stop/0retry/length、五实际区间均不重叠峰1；分别15/15/15/15/22完整材料核入actualREQUEST。Native两整稿因递归/fresh资格/读序/cleanup状态拒，0模型Native；R2 bounded sum本已安全，撤沿用R1 overflow标签。只R2一个wrapper方法执行token保，旧anchor不存在由owner真实anchor+CRLF装配，inverse证明其它capacity/业务字节保，不冒whole raw。Owner整Native自身也需holder分配/ancestor/默认route等修，后source03只删318B早重复比较、完整资格与最终witness匹配保；均不追授模型。
+
+Test两完整稿没真正先触发获取再造第二文件冲突，whole0/ownerwhole，无R3；owner再补真实RW reopen。后actual03反审误把share-read当denyread/把完整fallback当漏洞，whole0不能变安全通过；漏显式machine-id的hostname元数据另记。原joint5TU39/后only1NativeTU1.517569s分tuple、三新class前置/36输出复用；Test仅首编7.516917s与首3P2.495038s，另默认3P不重跑/不算同JVM6P。2687.854912s全链/2677.842963s gap/2207.362405s依赖等待含实际Dev让位与协调，active/早准备unknown，0.014168s仅机械装配。ba003c1d后到Native/Test raw=formal/EOF等、wrapper仅CRLF→LF分SHA；软件/正式不授Game权限、装载或速度，也不为拒稿补OS probe。
