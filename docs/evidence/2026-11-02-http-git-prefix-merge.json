@@ -1,0 +1,163 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-GIT-MERGE-001",
+  "mode_id": "http-candidate",
+  "observed_date": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "machine_id": "4-8e1c2f1861",
+  "task": "Resolve an actual three-way AGENTS prefix conflict preserving two separately scoped existing authorization sections.",
+  "shared_rules_commit_at_request": "0fe3600c8ab228486edecb107ebbcf0b267fa6ea",
+  "recording_rules_commit": "c4a27aa7236dd9587fa96787b80358f4b2e4d3a9",
+  "shared_caller": {
+    "path": "scripts/call.py",
+    "digest": {
+      "bytes": 19439,
+      "sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28"
+    },
+    "changed_since_request": false
+  },
+  "shared_config": {
+    "bytes": 1642,
+    "sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40"
+  },
+  "model": "qwen38-coder",
+  "weights_quantization_backend": "unknown",
+  "native_opencode_generation_used": false,
+  "input": {
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "system_exact_shared_config": true,
+    "source_message_utf8_bytes": 178792,
+    "max_tokens": 5000,
+    "stream": true,
+    "include_usage": true,
+    "temperature": 0,
+    "response_format": {
+      "type": "json_object"
+    },
+    "shape": "Complete BASE once plus full LOCAL/REMOTE patches, actual conflict prefix and path sets, and relevant code patches. No model tool access.",
+    "owner_support": "Owner identified the real overlap and supplied merge-file output; not independent discovery or new authorization design."
+  },
+  "logical_workflows": 1,
+  "post_count": 2,
+  "transport_retry_count": 1,
+  "attempts": [
+    {
+      "attempt": 1,
+      "started_at_utc": "2026-11-01T23:48:35.748872+00:00",
+      "http_status": 200,
+      "http_headers_ms": 6227.595200005453,
+      "first_nonempty_content_delta_ms": 6229.593500029296,
+      "total_ms": 10711.412700009532,
+      "finish_reason": null,
+      "sse_done": false,
+      "usage": null,
+      "cached_prompt_tokens_if_reported": null,
+      "candidate_complete": false,
+      "failure_kind": "partial_SSE_connection_reset",
+      "socket_error_code": 10054,
+      "adoption": "discarded_whole_attempt_without_stitching"
+    },
+    {
+      "attempt": 2,
+      "started_at_utc": "2026-11-01T23:48:55.657564+00:00",
+      "http_status": 200,
+      "http_headers_ms": 977.7330999495462,
+      "first_nonempty_content_delta_ms": 979.3599999975413,
+      "total_ms": 13680.543399997987,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 47414,
+        "completion_tokens": 2012,
+        "total_tokens": 49426
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "candidate_complete": true,
+      "failure_kind": null,
+      "adoption": "partial_document_wording_and_order_plus_owner_patch_correction"
+    }
+  ],
+  "http_first_begin_to_final_end_seconds": 33.589683,
+  "path_findings": {
+    "snapshot_local_commits": 7,
+    "snapshot_upstream_commits": 50,
+    "overlap_paths": [
+      "AGENTS.md"
+    ],
+    "other_local_paths_unchanged_upstream": 23,
+    "python_java_textual_conflict": false,
+    "basis": "Local Python repair and similarly named upstream Java changes affect disjoint files; no source compatibility edit needed."
+  },
+  "adoption": {
+    "level": "partial_plus_owner",
+    "retained": "Existing authorization wording, coexistence/order strategy and disjoint-path finding. Both authorization texts came from supplied originals.",
+    "rejected": "Model hunk declared +1,18 but actually contained 17 new lines; raw patch never applied.",
+    "owner_correction": "Generated exact from-REMOTE @@ -1,4 +1,9 @@ patch and preserved original blank lines.",
+    "production_code_adopted": false,
+    "new_authorization_invented": false,
+    "final_raw_prefix_byte_equality": null
+  },
+  "later_integration_owner_report": {
+    "source": "Subsequent actual report from integration owner; no consumer-repo operation for this publication.",
+    "rebased_local_commits": 8,
+    "upstream_commit_short": "cbd71f391",
+    "conflicts": "Only AGENTS prefix; corrected candidate wording/order adopted, both sections retained.",
+    "owned_production_code_diff_original_to_rebased": 0,
+    "normal_push": true,
+    "clean": true,
+    "published_commit": "16e51540db979e6a32f72e0f53619ab97e1e5664",
+    "source_url": "https://github.com/XenoAmess/ck3_eternal_recurrence/commit/16e51540db979e6a32f72e0f53619ab97e1e5664"
+  },
+  "validation": {
+    "external_readonly_merge_file_exit": 1,
+    "meaning": "Expected prefix conflict, not compile/test failure.",
+    "source_and_prefix_preservation_reviewed": true,
+    "CI_compile_tests_performed": false,
+    "game_or_business_credit": false
+  },
+  "cost": {
+    "preparation_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "integration_seconds": null,
+    "net_saving_proven": false,
+    "limit": "HTTP timing excludes discovery, preparation, review, correction and integration; no concurrency or saving claim."
+  },
+  "private_evidence_digests": {
+    "request": {
+      "bytes": 182433,
+      "sha256": "c20340b3d7c124587f7d90eac1d0ea5ce648dec9c52276abd69026ba104e7752"
+    },
+    "summary": {
+      "bytes": 2017,
+      "sha256": "07fb39ba7a130ea57a698329f5d598878a4a7ea20919b09fdc2ca97bf1a35834"
+    },
+    "attempt1_raw_SSE": {
+      "bytes": 82490,
+      "sha256": "af28666bfaf1f6933b18c832843ba29aaed4b29129f40a9e75ddca656c9bc27e"
+    },
+    "attempt2_raw_SSE": {
+      "bytes": 232619,
+      "sha256": "48419e05cbf3b0deb3e4395cd44fa8a603f1407362e6e6fbd1f397c3e39a6449"
+    },
+    "complete_response": {
+      "bytes": 8201,
+      "sha256": "24df4f5013abf2eb661036dbff14ede0f8e5b06b6de92ed80473b4db7dd20f35"
+    },
+    "owner_review": {
+      "bytes": 8802,
+      "sha256": "a09309487fec8d0c0443cee039dba86a934d5cd08d6080ba027663b87557e014"
+    },
+    "corrected_candidate_diff": {
+      "bytes": 929,
+      "sha256": "f21216bdd2266057f74e3ddc4b5a7c2b32d39923607a60b80b4832f1047e74b7"
+    }
+  },
+  "raw_evidence": "Retained locally; no prompt body, private paths, game materials or raw responses published.",
+  "next_real_trigger": "For a new real conflict, inspect path/hunk overlap first, supply reconstructable current sources and independently check diff counts/context. Do not rerun this closed task.",
+  "publication_new_HTTP_CI_build_or_live_actions": 0
+}

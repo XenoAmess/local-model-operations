@@ -283,3 +283,13 @@ owner五个有限用例先冻，首strict后RUN实红1来自owner把保存寄存
 [HTTP-KNOWN-CALLEE-BINDING-001](evidence/2026-11-02-http-live-binding.json)复用真实typed caller和成熟whole callee；R1 inline本身正确却缺明确要求的live bind方法，整稿拒绝。必要R2完整3864B decoded Java逐字采用，owner未改Java/EOL/EOF；不授模型重写两个成熟算法。audit仅typed route/fresh-count/frame事实partial，漏当前寄存器、child与具体alias，未再发已知题。三请求全stop/0重试，初14完整源、R2另自身首答，峰2仅9.005254s。
 
 owner在CONTENT前冻结四个新case，首次生产/Test严格编译及RUN4通过，覆盖一次真实cleanup组合和三项身份/frame/budget边界，其余ports仍opaque。input freeze→RUN880.368409s，三验证进程和1.487682s与2.867417s阶段间隔分别保留；更早impact及主动劳动未知，只有NOW无START的等待不算cold CPU。正式ccd82934后到另列：raw3864→formal3824仅LF/尾白投影分SHA、EOF保，新wrapper1P不增加case数。无Native/Game/实际装载或提速信用，不混未完成业务恢复成本。
+
+## HTTP-GIT-MERGE-001：真实首部冲突的部分采用与补丁纠正
+
+[脱敏证据](evidence/2026-11-02-http-git-prefix-merge.json)记录一个真实三方AGENTS首部冲突。owner先核Git对象和路径交集：23条其它本地路径上游未变，同名Driver的本地Python修复与上游Java修改不在同一文件，未制造跨语言兼容补丁。给模型完整BASE一次及可重建双方的完整patch、实际冲突块和路径事实，固定三消息，实际第二消息178792B、输出上限5000；这是有明确scope提示的候选，不是模型独立发现冲突或设计新授权。
+
+实际1逻辑任务/2POST/1传输重试：首HTTP200后reset、半截SSE整弃，usage未知；第二200/stop/DONE，TTFT0.979360秒、HTTP13.680543秒，47414输入/2012输出tokens，cached tokens未报告。首BEGIN至最终END为33.589683秒，含首失败及退避，不含材料发现、准备、owner审阅、修正或最终Git整合；这些工时未知，无并发或节时结论。原REQUEST、两份原SSE及采用记录留执行机器，不发布prompt正文或游戏私有材料。
+
+模型给出保留两个原有授权段的文字与顺序，部分采用；原diff声明新18行但实际17行，错误hunk未应用。owner用原件机械生成正确`@@ -1,4 +1,9 @@`补丁并保留原空行。后到整合owner报告8个本地提交普通rebase，仅该首部冲突、两授权段保留，指定production owned路径在原/重基后gitdiff0，正常推送[16e51540d](https://github.com/XenoAmess/ck3_eternal_recurrence/commit/16e51540db979e6a32f72e0f53619ab97e1e5664)并clean。正式采用的是经owner纠正的文档文字/顺序，不是整份模型patch逐字采用；模型生产代码采用0，也不授Game或业务信用。
+
+可复用的是先按实际路径/hunk闭合任务，再逐项核补丁计数、上下文和原文保留。完整stop仍可能有机械格式错误；既有授权来自输入，不能把重排记成新规则设计。此文档冲突没有新增CI或构建需要，本次归档也无新HTTP。后续仅在新的真实冲突出现时验证这类有界候选，不重投已闭题或把普通Git成功当作模型节省owner成本的证明。
