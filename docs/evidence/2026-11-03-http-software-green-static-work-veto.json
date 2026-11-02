@@ -1,0 +1,43 @@
+{
+  "schema": "local-model-operations.semantic-green-work-growth-veto/v1",
+  "mode_id": "ordinary-http-three-message",
+  "scope": "Two distinct source tasks investigated an existing receipt parser and independently audited numeric-token equivalence. Fifteen complete selected source files,176859physical bytes; no expected implementation was supplied.",
+  "model_results": [
+    {
+      "role": "exact-edit",
+      "reported_prompt_tokens": 39198,
+      "reported_completion_tokens": 1695,
+      "max_tokens": 3200,
+      "total_seconds": 26.84951299999375,
+      "ttft_seconds": 10.693174600004568,
+      "finish_reason": "stop"
+    },
+    {
+      "role": "independent-token-audit",
+      "reported_prompt_tokens": 39210,
+      "reported_completion_tokens": 1339,
+      "max_tokens": 2800,
+      "total_seconds": 25.07903590000933,
+      "ttft_seconds": 9.121055200012052,
+      "finish_reason": "stop"
+    }
+  ],
+  "grade": "Both proposed full-parse replacements rejected: they misidentified the first parser and missed retained projection checks. Independent answer also invented a fixed smaller input cap. Partial numeric-loss direction only; zero model code adopted.",
+  "owner_candidate": "Owner kept the original envelope validation and both full-input parses, but converted only the command subtree to an immutable value instead of converting the whole receipt. The existing conversion API additionally encoded the complete command to enforce its own bound.",
+  "first_validation": {
+    "new_production_TUs": 1,
+    "new_test_TUs": 1,
+    "new_JUnit_methods_passed": 4,
+    "executor_process_seconds_sum": 14.778177399988635,
+    "scope": "Numeric token/body equality, representative callback order and malformed/deep/oversized pre-callback rejection only. Existing logger initialization stderr retained; not empty-stderr or runtime/performance proof."
+  },
+  "static_veto": "For a command with one roughly800KiB string and a fixed small state, the old immutable conversion merely references the existing String. Skipping the small state saves a fixed few nodes, while the new API scans and allocates a complete command encoding of sizeN. Existing later encodings remain. Thus software4P does not justify a performance adoption; the candidate was explicitly NOT_ADOPTED_STATIC_WORK_GROWTH.",
+  "rule": "Inspect hidden work inside reused conversion/validation helpers before calling a partial-copy reduction an optimization. Compare removed and added work against an actual workload shape. A static growth counterexample can veto adoption without a new microbenchmark; do not call it measured slowdown.",
+  "cost": {
+    "whole_scope_wall_seconds": 1157.276782,
+    "HTTP_seconds_sum": 51.92854890000308,
+    "owner_active_time": "UNKNOWN"
+  },
+  "new_formal_or_live_adoption_benchmark_profile_game_access": false,
+  "boundary": "No claim that all single-pass designs are impossible. The existing first normalized numeric tree had lost original float spelling; a genuine single-pass dual representation remains unimplemented and unqualified."
+}

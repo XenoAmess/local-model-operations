@@ -934,3 +934,7 @@ Owner七新DATA方法首7P，三进程5.850993s对1067.828308s已录全wall，�
 独立guided Test两7800/8500请求：R1 whole算法拒，仅机械导航复用；R2 length整弃，但owner漏finish guard误JSON解析并失败0源码，不能称全未读，也不授新增语义失败。原creation_filetime键正确，owner过宽诊断撤回。Owner两方法实际publicdecoder oracle首2P，6.676461s进程/gap8.166705s/首POST→末JVM661.645851s分账；后见53a77069 Test11367raw/EOF精确。早发现/active/netunknown，0完整archiveIO/Root权限/装载/SAVE/速度信用。
 
 [316独立guided Test后见](evidence/2026-11-03-http-guided-identity-encoding-Test-later.json)保持原批准生产316正文原字节。两Test stop，无交叠峰1；7/8完整项99023/104962物理与100203/106356源码消息B分列。R1泛型/staticimport/Throwable/假changed拒；R2 partial加owner两Throwable名义绑定与非空混合数组等修，非模型整Test原样。实际public编码/hash旧表达式作纯DATA oracle、首2P，6.358249s过程/gap4.864454s/374.566404s已录wall，早发现/activeunknown；24c8f1a2 Test7665raw/EOF精确。Oracle早于M1读finalhelper，不冒早于Root起草；不授巨量byte边界、编码调用计数/私有资格/装载/SAVE或提速。
+
+[M0批准317原样正文](evidence/2026-11-03-http-software-green-static-work-veto.json)15完整当前源176859物理B，两真实fixed3任务3200/2800均stop；实施与数值token反审误认首parser/漏保留投影检查，后者又造较小cap，whole模型代码0。Owner改窄copy候选保两次fullparse/原envelope，首1prod+1Test/4P只授有限数值、回调和失败语义。
+
+复用转换API隐含再次完整编码command：约800KiB单string command/固定小state时，省固定几个节点却新增O(N)扫描与编码分配，后继旧编码仍在，故明确NOT_ADOPTED_STATIC_WORK_GROWTH。14.778177s进程对1157.276782s已录fullscope/51.928549s HTTP合计，activeunknown；这是源码工作量反例否决，不冒实测变慢或微基准。无formal/装载/性能采用，0新benchmark或Game；不证明真正单pass双表示不可能。批准3053B原字节保、raw留私有。
