@@ -1,0 +1,217 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B028-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-02T18:52:59.167769+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-02T18:41:25.615605+00:00",
+    "window_ended_at_utc": "2026-11-02T18:41:35.923980+00:00",
+    "window_seconds": 10.308375,
+    "peak": 4,
+    "peak_duration_seconds": 8.383117,
+    "average_inflight": 3.694677095080457
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261103-b028-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 755,
+        "completion_tokens": 504,
+        "total_tokens": 1259
+      },
+      "failure": null,
+      "content_ttft_ms": 1725.1968000200577,
+      "total_ms": 8680.601200001547,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "f3ac8669a8417e44c08f93d2f94d8fa12a7bece3943036c97b317c7c5b250680",
+      "summary_sha256": "dcf04863dafbe7ab6f17bcee4a39e37a41d14a3ab91ee078888fd62abb931ce8",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "6f599c26410d449b0bccc7a011d93340bb2125f3f9a22f17f291515382afecf6",
+        "task_id": "hoi4-20261103-b028-prompt-01",
+        "request_sha256": "f3ac8669a8417e44c08f93d2f94d8fa12a7bece3943036c97b317c7c5b250680",
+        "summary_sha256": "dcf04863dafbe7ab6f17bcee4a39e37a41d14a3ab91ee078888fd62abb931ce8",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Preserved actual OPEN suit/uniform and source neckwear; restated exact source head roll, closed expression, hair and exposed decorations; no hidden larger-body detail transferred.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2233,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b028-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 770,
+        "completion_tokens": 492,
+        "total_tokens": 1262
+      },
+      "failure": null,
+      "content_ttft_ms": 1732.2053000098094,
+      "total_ms": 8269.067799992627,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "7928478e293b9ef4d19fa47dd267a56a62b580c22c48f4f64285f6e6d22c362a",
+      "summary_sha256": "f6b948c661842a80467209a57751828e007efc7c490e732c3b2097052b6974db",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "8e9f94831dea633dc354f1a0c8e1f5a8e05dfafde745936b4bad707a9aaf3b2b",
+        "task_id": "hoi4-20261103-b028-prompt-02",
+        "request_sha256": "7928478e293b9ef4d19fa47dd267a56a62b580c22c48f4f64285f6e6d22c362a",
+        "summary_sha256": "f6b948c661842a80467209a57751828e007efc7c490e732c3b2097052b6974db",
+        "adoption": "rejected candidate; owner complete prompt takeover",
+        "owner_changes": [
+          "Candidate repeated generic contract and omitted all specific cap, hair, uniform and black-cross decoration facts despite complete owner input; also included protocol/canonical-prepare discussion. Rejected as source-specific prompt.",
+          "Owner reconstructed prompt from owner contract and exact manually observed source2 description. No semantic candidate content adopted.",
+          "Both SHA domains transport-verified; raw candidate/request/summary retained. Image and visual qualification remain separate."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2331,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b028-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 750,
+        "completion_tokens": 605,
+        "total_tokens": 1355
+      },
+      "failure": null,
+      "content_ttft_ms": 1742.1372999961022,
+      "total_ms": 10299.811299977591,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "39c4387e9d7ae998c5b9821dcb679c93d0a43dcb829ae67109c6f9aa2c72ece1",
+      "summary_sha256": "065d11d6d84b23b1fe788c7b71146d8fbbdb97f69ba2d3a3656fb41f1e239dfa",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "214b12e762102e82952f4e3ec48c0311c56ac2b36a58e1e8ab7b7856239e977f",
+        "task_id": "hoi4-20261103-b028-prompt-03",
+        "request_sha256": "39c4387e9d7ae998c5b9821dcb679c93d0a43dcb829ae67109c6f9aa2c72ece1",
+        "summary_sha256": "065d11d6d84b23b1fe788c7b71146d8fbbdb97f69ba2d3a3656fb41f1e239dfa",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Preserved actual OPEN suit/uniform and source neckwear; restated exact source head roll, closed expression, hair and exposed decorations; no hidden larger-body detail transferred.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2191,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b028-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 766,
+        "completion_tokens": 582,
+        "total_tokens": 1348
+      },
+      "failure": null,
+      "content_ttft_ms": 1752.6115000073332,
+      "total_ms": 9817.850099992938,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "21217330b8983419261c5f464e6dfc255ef74aa5ad8a7d424cd80bd553b28fe9",
+      "summary_sha256": "4212a3f725128841d35b8ee48d0009869530417d032c62d47f0cef9d37a82816",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "81c29d55b0ae3299fa284f7ec961cec8a79c58a76e932895cf29a8f57c92fbcf",
+        "task_id": "hoi4-20261103-b028-prompt-04",
+        "request_sha256": "21217330b8983419261c5f464e6dfc255ef74aa5ad8a7d424cd80bd553b28fe9",
+        "summary_sha256": "4212a3f725128841d35b8ee48d0009869530417d032c62d47f0cef9d37a82816",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Preserved actual OPEN suit/uniform and source neckwear; restated exact source head roll, closed expression, hair and exposed decorations; no hidden larger-body detail transferred.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2280,
+        586
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261103-b028-sources.json",
+    "sha256": "ee0613162022f30a309d0c38d3f6955480541cf617ba4d63f6ca532abe111d19",
+    "publication_commit_at_cutoff": null
+  },
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. Four distinct raw originals remain independent. Three partial text adoptions and one rejected source-specific candidate with owner complete prompt takeover; no image outcome claimed. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Both SHA domains checked. Candidate2 only repeated the generic contract, omitted all source-specific cap/hair/uniform/cross facts despite full input, and included protocol/canonical-prepare discussion. Rejected; owner reconstructed that prompt from owner contract and actual observation, no semantic model content adopted. Other three candidates partially adopted with exact head roll, closed expression, visible clothes/neckwear/decorations and near-round geometry restated. No hidden larger-body details transferred.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
