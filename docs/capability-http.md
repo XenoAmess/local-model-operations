@@ -752,3 +752,9 @@ R2 body partial，owner把“另clone再mutation”改为成功调用的同一ca
 首2prod/Test/manual RUN全0，五新逻辑scene17checks/13binaryguards，0旧绿。这里只验参数转发、CALL/TAIL、fresh table、wrapped self guard及同异常；物理GPR/SP/flags/XMM/EH/allocator/上层incomingR9未知不默认、不授Native/naturalM6/Game。821.103979s sourcefreeze→首验、173.672404s验证wall对2.494503s三过程，87.705714/83.472183s gap和更早source资格/activeunknown分账。原source cohort RUNpending保、后软件绿另DELIVERY，formal仍原交付pending，0净收益或旧case补跑。
 
 [logical forwarding后到正式](evidence/2026-11-02-http-logical-forwarding-field-flow-formal.json)：9686d5c5三blob2528/993/6779B raw/EOF直接核等，原97225软件pending/sourcecohort/三过程与五逻辑scene17checks未改；强hint后R2 raw、owner API/Test、witness拒/ABIpartial等级保。实际incomingR9仍必需，0默认/自动旧端口binding/物理ABI/Native/Game/运行或实速信用，0新增HTTP/编验或旧绿。
+
+## 中间EAX可观测回归：不能把后加probe称原oracle已覆盖
+
+[HTTP-INTERMEDIATE-ZERO-EXTENSION-REGRESSION-001](evidence/2026-11-02-http-intermediate-zero-extension-regression.json)16完整源49325physical/53039wire，3000/2800首轮+1100/1700纠正四POST3stop1length/0retry；峰2两分离段共18.943218s，最长连续14.838699s。R1最终return/order对、intermediate LEA EAX错signextend；编前源核→一model R2 hunk正逆修，owner只一Javadoc pseudocode，selected3496B非whole R2 raw/owner执行改0。Audit首length未读整弃，窄R2 complete348tokens却零schema/错误地址和SP/RCX，无oracle/代码采用、不猜cache/internal原因。
+
+Owner entry1413B/6unitTest14770B、复用成熟短块，growth明确unsupported。原五oracle在HTTPEND后CONTENT前冻但只finalstate，R1坏中间值会被后来覆盖；第六在读R1后/任何编测前加second-read register observer，诚实post-review回归非盲预冻覆盖。首次三phase0/stdout6=4whole nongrowth+growth排除+epilogue probe、83Memory55R28W/0InvokeBudget，非六whole227/FP/RFLAGS/Native。1.480704s过程对2054.327028s已知prep→RUN，613.289815/467.407869s gap含实际RUN0START让位/后freshRUN-only，activeunknown不全归CPU/HOLD。后见2c9264ec四blob核：epilogue仅八尾白3496→3488、其它raw/EOF等；原pending/期待无回写，reviewer MOVSXD误读撤回无源码修，不授运行/实速。

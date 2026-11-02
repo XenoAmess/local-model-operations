@@ -1,0 +1,349 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-INTERMEDIATE-ZERO-EXTENSION-REGRESSION-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "operator_review_UTC": "2026-11-02T15:29:39.065318+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "One new32-byte epilogue block and a finite source audit. Owner composes only the non-growth entry branch with a mature earlier block; unsupported growth remains explicit.",
+  "input": {
+    "R1_complete_materials": 16,
+    "R1_physical_bytes": 49325,
+    "R1_source_message_UTF8_bytes": 53039,
+    "block_R2_source_message_UTF8_bytes": 56786,
+    "visibility": "Thirteen complete current Java declarations/callers/helpers, two original assembly texts and CFG. Exact class/signature/state/restore/unsigned-signed contract and mature references supplied. Block R2 adds its complete R1. Audit R2 keeps original source and narrows to a finite case; no unread partial R1, new candidate, Test or oracle supplied.",
+    "hint_level": "Owner exact API, interval and architecture hints; not autonomous whole ABI discovery. Owner expected-state knowledge comes from current mature sources, not execution of the new candidate.",
+    "audit_basis": "Owner actual full fixed-three REQUEST audit retained; Ops verifies named event/source/output/actual/selection/formal pins without large REQUEST rescan. Exact invocation caller revision not frozen.",
+    "exact_invocation_caller_revision": null,
+    "later_shared_HEAD_not_backfilled": true
+  },
+  "calls": [
+    {
+      "role": "block",
+      "round": "http-r1",
+      "POST_BEGIN_UTC": "2026-11-02T14:22:36.916509+00:00",
+      "END_UTC": "2026-11-02T14:22:51.755208+00:00",
+      "max_tokens": 3000,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 3.4296842999901855,
+      "caller_attempt_total_seconds": 14.83873049999238,
+      "usage": {
+        "prompt_tokens": 17023,
+        "completion_tokens": 1344,
+        "total_tokens": 18367
+      },
+      "cached_prompt_tokens": null,
+      "complete_materials_owner_audited": 16,
+      "actual_source_message_UTF8_bytes_owner_audited": 53039,
+      "REQUEST_digest": {
+        "bytes": 56945,
+        "sha256": "4d91c85d0058fdea3b38a103c6c5fecf17e229484da84ef0c5068291da4fba1b"
+      },
+      "EVENTS_digest": {
+        "bytes": 2197,
+        "sha256": "8648bb9a1df8f1b7025bd7753bda68aaa51a318277c6e19da17ea07a0b5997fc"
+      },
+      "response_digest": {
+        "bytes": 3539,
+        "sha256": "c2c7001414f71a7af900b87284b7820e8e3b9c30edbb7f1ea4fedae118f3aacc"
+      }
+    },
+    {
+      "role": "audit",
+      "round": "http-r1",
+      "POST_BEGIN_UTC": "2026-11-02T14:22:36.916172+00:00",
+      "END_UTC": "2026-11-02T14:23:01.032600+00:00",
+      "max_tokens": 2800,
+      "HTTP_status": 200,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 3.429684799993993,
+      "caller_attempt_total_seconds": 24.116463099999237,
+      "usage": {
+        "prompt_tokens": 16981,
+        "completion_tokens": 2800,
+        "total_tokens": 19781
+      },
+      "cached_prompt_tokens": null,
+      "complete_materials_owner_audited": 16,
+      "actual_source_message_UTF8_bytes_owner_audited": 53039,
+      "REQUEST_digest": {
+        "bytes": 56761,
+        "sha256": "0ee1ee8d125930aa3c4afea98f08942a40a002dbe8fdabbbe4aa8ca7d1b804e7"
+      },
+      "EVENTS_digest": {
+        "bytes": 2217,
+        "sha256": "b18e5ae39f3c6c68002b10d9369210d910f4d07c22e330ae101b5f732c8c2a11"
+      },
+      "response_digest": {
+        "bytes": 7471,
+        "sha256": "fd47b60fe007685c85406112abefe963eb90caa60185e2cd17e2939087c320cf"
+      }
+    },
+    {
+      "role": "block",
+      "round": "http-r2",
+      "POST_BEGIN_UTC": "2026-11-02T14:29:05.684104+00:00",
+      "END_UTC": "2026-11-02T14:29:10.349266+00:00",
+      "max_tokens": 1100,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 1.3945399999938672,
+      "caller_attempt_total_seconds": 4.6651691000006394,
+      "usage": {
+        "prompt_tokens": 18297,
+        "completion_tokens": 469,
+        "total_tokens": 18766
+      },
+      "cached_prompt_tokens": null,
+      "complete_materials_owner_audited": 17,
+      "actual_source_message_UTF8_bytes_owner_audited": 56786,
+      "REQUEST_digest": {
+        "bytes": 60109,
+        "sha256": "69befa1466bf2e61e330fd23cfe30c015e17c46905add212648e6ce94a1f06aa"
+      },
+      "EVENTS_digest": {
+        "bytes": 2224,
+        "sha256": "138e94441a9c6c5bf7f43918741699a1b1824417fb868a596fbf3069875e0df4"
+      },
+      "response_digest": {
+        "bytes": 1235,
+        "sha256": "aa7e067dc3dcf631030f4cc68ba19427c36b083c3d25c91e40496b859f299fe4"
+      }
+    },
+    {
+      "role": "audit",
+      "round": "http-r2",
+      "POST_BEGIN_UTC": "2026-11-02T14:29:05.688630+00:00",
+      "END_UTC": "2026-11-02T14:29:09.793149+00:00",
+      "max_tokens": 1700,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 1.6074672999966424,
+      "caller_attempt_total_seconds": 4.104518699998152,
+      "usage": {
+        "prompt_tokens": 16895,
+        "completion_tokens": 348,
+        "total_tokens": 17243
+      },
+      "cached_prompt_tokens": null,
+      "complete_materials_owner_audited": 16,
+      "actual_source_message_UTF8_bytes_owner_audited": 53039,
+      "REQUEST_digest": {
+        "bytes": 56335,
+        "sha256": "6b24edfd79013571f75c9b8bbea7616fcc77229bba2e161dfffe7e1618108665"
+      },
+      "EVENTS_digest": {
+        "bytes": 2224,
+        "sha256": "6fcfa9ad0812d18ff77c1920a6b0e2bd53e23c633c8a19d3cc919d6389cf2f7e"
+      },
+      "response_digest": {
+        "bytes": 772,
+        "sha256": "09d2b19e63a89c8c4404225800eb4446ccb64da919386aec4bc7afbac12099b8"
+      }
+    }
+  ],
+  "transport": {
+    "actual_POSTs": 4,
+    "ENDs": 4,
+    "stop": 3,
+    "length_unread_discard": 1,
+    "automatic_retry": 0,
+    "client_peak": 2,
+    "peak_intervals": [
+      {
+        "begin": "2026-11-02T14:22:36.916509+00:00",
+        "end": "2026-11-02T14:22:51.755208+00:00",
+        "seconds": 14.838699
+      },
+      {
+        "begin": "2026-11-02T14:29:05.688630+00:00",
+        "end": "2026-11-02T14:29:09.793149+00:00",
+        "seconds": 4.104519
+      }
+    ],
+    "peak_two_total_seconds": 18.943218,
+    "longest_continuous_peak_two_seconds": 14.838699,
+    "peak_total_is_not_continuous": true,
+    "server_running_queued_KV": null,
+    "third_round": 0
+  },
+  "adoption": {
+    "block": "Complete R1 has correct final return/order but incorrectly sign-extends an intermediate32-bit LEA result. Complete current source/contract was supplied; rejected point caught before compilation, not a JVM red. One exact model R2 hunk corrects zero extension and related comment. Owner additionally corrects one old Javadoc pseudocode line only. Selected3496bytes are R1+model R2+owner comment, not whole R2 raw;0owner executable edits.",
+    "unique_model_hunk_forward_inverse_exact": true,
+    "owner_one_comment_forward_inverse_exact": true,
+    "raw_R1_digest": {
+      "bytes": 3443,
+      "sha256": "767fefeb66abedfcb7ca2e3cb0d8abb12f6c6250db59037e5b5fe9241e4e77a3"
+    },
+    "selected_block_digest": {
+      "bytes": 3496,
+      "sha256": "a020a1bf76023fb3343327d321ab52180a6b50ccd324e6480d781e63effd15de"
+    },
+    "owner": "1413-byte non-growth entry orchestration and14770-byte six-unit Test are owner work; mature earlier block reused unchanged. Equality-to-capacity growth is explicitly unsupported before unrepresented FP, not silently defaulted.",
+    "audit": "R1 budget2800 length is semantically unread and discarded whole. Narrowed R2 budget1700 stops with348tokens but supplies a zero-filled schema, incorrect read addresses and register/stack state even for zero inputs. No oracle/Test/code adopted, no third round, no inference about cache/provider/internal cause."
+  },
+  "oracle_and_coverage": {
+    "original_five": "Original five source-derived cases frozen after R1 HTTP END but before any CONTENT consumption; expected bytes remain unchanged and oracle never supplied to model.",
+    "sixth_after_source_review": "R1 intermediate bad value is overwritten before final return. Original five final-state checks therefore would not detect it. After reading R1, before any compiler or target execution, owner adds one direct epilogue probe observing mutable register state at the second real Memory read. Explicit post-review regression, not blind/pre-generation coverage.",
+    "original_oracle_digest": {
+      "bytes": 21871,
+      "sha256": "69979684e3a7d156cc76581dbb0e3a7a47e7625eed82df2d32fa6d3b70c15cec"
+    },
+    "post_read_regression_digest": {
+      "bytes": 1050,
+      "sha256": "520861191c66f2ee8ef4a95646c118a41fff0e2cbde09d88532c0aff1faedf19"
+    },
+    "six_units": "Four new whole non-growth entry paths, one explicit unsupported-growth-prefix check, one direct intermediate-value epilogue probe.83Memory events55reads/28writes,0Invoke/0Budget. Not six complete whole original algorithms.",
+    "limits": "Fresh saved-home/return values are actual produced DATA, not repaired from entry snapshots. Future callers may reject them. No whole growth/FP-control/status/prologue/upper binding/general RFLAGS/hardware/EH/Native/Game/SAVE/loading or speed qualification."
+  },
+  "software": {
+    "original_delivery_cutoff_UTC": "2026-11-02T14:57:24.950051+00:00",
+    "first_stages": [
+      {
+        "phase": "JAVAC_PROD599",
+        "BEGIN_UTC": "2026-11-02T14:34:39.148642+00:00",
+        "END_UTC": "2026-11-02T14:34:39.728941+00:00",
+        "seconds": 0.5802989999938291,
+        "exit_code": 0,
+        "receipt_digest": {
+          "bytes": 1169,
+          "sha256": "96c9295421987691fcc6f61498bc845b2b9f96ee9467559a7bea0dae610b97e2"
+        }
+      },
+      {
+        "phase": "JAVAC_WITNESS599",
+        "BEGIN_UTC": "2026-11-02T14:44:53.018756+00:00",
+        "END_UTC": "2026-11-02T14:44:53.736091+00:00",
+        "seconds": 0.7173367000068538,
+        "exit_code": 0,
+        "receipt_digest": {
+          "bytes": 866,
+          "sha256": "ff9b93e10377f595e2a52325dbf7b9f56259c763e2ffca54e77641ea2c654292"
+        }
+      },
+      {
+        "phase": "RUN599",
+        "BEGIN_UTC": "2026-11-02T14:52:41.143960+00:00",
+        "END_UTC": "2026-11-02T14:52:41.327028+00:00",
+        "seconds": 0.18306809999921825,
+        "exit_code": 0,
+        "receipt_digest": {
+          "bytes": 3577,
+          "sha256": "f882d828f3e9a2411f453fcb3848adc121fc6eab6757e216e8552542dacbeaff"
+        }
+      }
+    ],
+    "process_sum_seconds": 1.480703799999901,
+    "first_new_units": 6,
+    "stdout": "6",
+    "source_expected_fixture_repair_after_first_validation": false,
+    "old_green_reruns": 0,
+    "original_formal_status": "Pending in original software delivery. Later formal is separately recorded below; original immutable cohort/cost/oracle/actual cutoffs preserved."
+  },
+  "cost": {
+    "first_known_PREP_UTC": "2026-11-02T14:18:27+00:00",
+    "prep_to_first_POST_wall_seconds": 249.916172,
+    "prep_to_first_RUN_END_wall_seconds": 2054.327028,
+    "prod_END_to_Test_START_wall_seconds": 613.289815,
+    "Test_END_to_RUN_START_wall_seconds": 467.407869,
+    "active_owner_seconds": null,
+    "pre_known_clock_seconds": null,
+    "net_saving_seconds": null,
+    "scope": "Wall includes source/task/oracle, two HTTP waves, source review/intermediate coverage addition, owner entry/Test, arguments and cache/resource coordination, overlapping other source/formal work. Test strict completed then RUN returned unstarted for actual runtime priority; later only fresh RUN. Gap is not CPU, future HOLD or continuous exclusive labor."
+  },
+  "later_formal": {
+    "commit": "2c9264ecb510b23e897bff283058c270348c94dd",
+    "normal_push_remote_exact_clean_owner_receipt": true,
+    "payloads": [
+      {
+        "role": "model epilogue plus owner comment correction",
+        "selected_raw_digest": {
+          "bytes": 3496,
+          "sha256": "a020a1bf76023fb3343327d321ab52180a6b50ccd324e6480d781e63effd15de"
+        },
+        "formal_digest": {
+          "bytes": 3488,
+          "sha256": "0973db5e43546d30533a552dd38b903867c4d107695e5570b36f78b41ede96f3"
+        },
+        "raw_byteexact": false,
+        "newline_trailing_whitespace_projection_exact": true,
+        "EOF_newline_preserved": true
+      },
+      {
+        "role": "owner non-growth entry",
+        "selected_raw_digest": {
+          "bytes": 1413,
+          "sha256": "ba39ce32450f990348e19124c758521e35550011217200460c4442b95ab1f7dd"
+        },
+        "formal_digest": {
+          "bytes": 1413,
+          "sha256": "ba39ce32450f990348e19124c758521e35550011217200460c4442b95ab1f7dd"
+        },
+        "raw_byteexact": true,
+        "newline_trailing_whitespace_projection_exact": true,
+        "EOF_newline_preserved": true
+      },
+      {
+        "role": "owner six-unit Test",
+        "selected_raw_digest": {
+          "bytes": 14770,
+          "sha256": "0bb9e82216203d63d827963687ed9e36cff20e20be3f5c3c99f0a4eb3ea1ace9"
+        },
+        "formal_digest": {
+          "bytes": 14770,
+          "sha256": "0bb9e82216203d63d827963687ed9e36cff20e20be3f5c3c99f0a4eb3ea1ace9"
+        },
+        "raw_byteexact": true,
+        "newline_trailing_whitespace_projection_exact": true,
+        "EOF_newline_preserved": true
+      },
+      {
+        "role": "new thin JUnit wrapper",
+        "selected_raw_digest": {
+          "bytes": 343,
+          "sha256": "158f7b5495f2596856198391ae147dea7ecba10d16e94a582d24ea15887bf508"
+        },
+        "formal_digest": {
+          "bytes": 343,
+          "sha256": "158f7b5495f2596856198391ae147dea7ecba10d16e94a582d24ea15887bf508"
+        },
+        "raw_byteexact": true,
+        "newline_trailing_whitespace_projection_exact": true,
+        "EOF_newline_preserved": true
+      }
+    ],
+    "verification": "Ops directly checked four specified commit blobs. Epilogue3496→3488 only eight trailing whitespace bytes; entry/Test/new wrapper raw exact and EOF preserved. No new HTTP for publication.",
+    "wrapper_scope": "Sole software executor compiled only the new wrapper and selected its one method invoking the same six units, not a seventh case; old production/API/manual source not recompiled or standalone-replayed.",
+    "owner_review_erratum": "Formal reviewer briefly misread the prologue MOVSXD as a32-bit move, then checked actual source and withdrew the diagnosis with no source change. Owner review cost, not model/source failure."
+  },
+  "private_evidence_digests": {
+    "MODEL-COHORT599.json": {
+      "bytes": 7567,
+      "sha256": "d72e1de58166430e9e2d109357438ca900537ccb5463b29dbf8ecd5af3c450dc"
+    },
+    "COST599.json": {
+      "bytes": 1212,
+      "sha256": "3059287bb940e547ea08fa44168cfea9714a67f7a84c1c5674afc6ab9759a456"
+    },
+    "formal-delivery599/MANIFEST599.json": {
+      "bytes": 21725,
+      "sha256": "54e05ea0d3a32cb01c16e1dcd8c4c383cbe3334067734609422565133df3ebd7"
+    },
+    "SOURCE-READY599-PROD.json": {
+      "bytes": 2398,
+      "sha256": "773b4a70e7d80574b81d91f235df41207be4a16d815093869b54f740854abf81"
+    },
+    "LATER-FORMAL599.json": {
+      "bytes": 28465,
+      "sha256": "124efaee1ac377e1ddab993fcafd42996ef09c3a7dfecc9300ef992437cc6139"
+    }
+  },
+  "next_real_trigger": "A separate complete consumer or remaining growth/FP contract. Preserve post-review regression visibility; do not repeat this closed cohort, call six finite units a whole producer, or infer model/provider failure cause.",
+  "publication_new_HTTP_GET_JVM_Game_actions_by_operator": 0
+}
