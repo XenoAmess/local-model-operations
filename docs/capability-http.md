@@ -714,3 +714,9 @@ R2 body partial，owner把“另clone再mutation”改为成功调用的同一ca
 [HTTP-ROW-TRANSFER-FALLBACK-CORRECTION-001](evidence/2026-11-02-http-row-transfer-fallback-correction.json)三真实POST各7/13/15完整材料、预算2300/1800/2500均stop，无retry/R2，峰2仅7.258801s。完整4149B row执行代码原样，owner只纠两条寄存器comment；3125B薄binding仍误传this，owner一执行处改原fallback→3129B，逐字正逆核。不把两者合成whole raw采用率。反审未见新whole/Book，一条LEA误作fresh内存读拒，仅saved-home/signed分支有限事实保，不授独立oracle或whole审批准。
 
 7912B全outer和13974B八方法Test归owner，scenarios先冻但成熟lower已知，非wholeblind。仅新3prod/1Test首次strict0→8P，三过程3.432209s对首prod→RUN321.712514s、两gap296.80733/21.47487s；0.09862s PREP仅机械组装、0.025935s REVIEW仅metadata，之前发现/作者/审阅/activeunknown，不拿短marker冒全部成本。normal有限state/trace过不授COPY/全递归、DF/RFLAGS/FP/EH/硬件或实速。后见3c97b326四blob独核：core/Test raw等，row/binder各1/16尾白投影且EOF保，原pending切点不改，0新增HTTP/编验/现场。
+
+## 完整方法仍错角色与副作用：owner两方法接管
+
+[HTTP-COMPLETE-METHOD-SOURCE-SEMANTICS-001](evidence/2026-11-02-http-complete-method-source-semantics.json)两方法各12000预算R1/R2与独立counter6000→4500，两轮共6POST6完整stop/0length/retry；不是截断预算或javac红。完整声明/机械host下四方法仍把active binder当passive、虚构callback/目标写、漏current context/sites，全部方法及片段0采用，owner20220B两方法/期待接管，无R3。独审两whole0，仅full-width/fresh/context/先record再软件stop等有限source事实供后父审，未喂作者，不授完整oracle。原R2三流重叠误报撤回：counter先END，R1峰3只25.421525s、R2仅方法pair29.82744s，实际事件不改。
+
+新manual main首次两组通过，53ordered events=16RAM/34ports/3opaque、166mixedchecks；6guard/3identity/3software-UOE是源断言非独立stdout计数。必要3TU=1newTest+2当前语义cache缺口依赖，复用7族18binary，不冒仅1TU/全旧树重编；0旧Test RUN。0.829298s两过程对13.677327s验证wall、733.9234s Ready→RUN，早准备/审阅activeunknown，修读取命令与导航missing归owner/Ops。finite容量/软件停止投影不授完整增长/FP/Native陷阱/ABI/Game/速度；原formalpending另待后见，不为它重验或加请求。
