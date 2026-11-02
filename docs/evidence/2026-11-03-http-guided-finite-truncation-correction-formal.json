@@ -1,0 +1,80 @@
+{
+  "schema": "local-model-operations.formal-annex/v1",
+  "case_id": "HTTP-GUIDED-FINITE-TRUNCATION-CORRECTION-607",
+  "commit": "b932667a0e92e52e15873354c2a7653f693036dd",
+  "publication_observed_utc": "2026-11-02T17:24:10.747478+00:00",
+  "tuples": [
+    {
+      "role": "model_R2_helper",
+      "raw": {
+        "bytes": 2848,
+        "sha256": "56afa5511ade90d941a28037f8d1bbd356c34e124613e4f9e563a5fcac5a9011"
+      },
+      "formal": {
+        "bytes": 2847,
+        "sha256": "364b65cba2e4122e845b3636a6ce301114fd2c5dca2980c2f9a0db6752796ac5"
+      },
+      "raw_byte_equal": false,
+      "projection": "line-trailing-spaceonly",
+      "removed_bytes": 1,
+      "EOF_equal": true
+    },
+    {
+      "role": "owner_instruction_orchestration",
+      "raw": {
+        "bytes": 3777,
+        "sha256": "ff3cc0bc81768a054d6e603bb9dff41bf31674cccf50b5f4705602f19ee67f45"
+      },
+      "formal": {
+        "bytes": 3777,
+        "sha256": "ff3cc0bc81768a054d6e603bb9dff41bf31674cccf50b5f4705602f19ee67f45"
+      },
+      "raw_byte_equal": true,
+      "projection": "byteexact",
+      "removed_bytes": 0,
+      "EOF_equal": true
+    },
+    {
+      "role": "owner_Test",
+      "raw": {
+        "bytes": 8351,
+        "sha256": "8856f4ee86b70a6149c52b5aa732fbdd22b7241d3eceafb9f0c540525fd92694"
+      },
+      "formal": {
+        "bytes": 8351,
+        "sha256": "8856f4ee86b70a6149c52b5aa732fbdd22b7241d3eceafb9f0c540525fd92694"
+      },
+      "raw_byte_equal": true,
+      "projection": "byteexact",
+      "removed_bytes": 0,
+      "EOF_equal": true
+    }
+  ],
+  "thin_wrapper": {
+    "bytes": 336,
+    "sha256": "8ab6ee481ca4a6ff57d778001aa4b72f2314ec26998a61ad1f68c73a970bd16f",
+    "same_original13groups_not_additional14th": true,
+    "independent_wrapper_actual_NOT_HELD_here": true
+  },
+  "original_software_pending_evidence": {
+    "relative_path": "docs/evidence/2026-11-03-http-guided-finite-truncation-correction.json",
+    "bytes": 6747,
+    "sha256": "5de295cc4f847abefdadfe73996ed7997d221bf7388a31b5257b58526e265e2d",
+    "equal_original_f2e4333_blob": true
+  },
+  "limits": [
+    "Source publication retains R1 whole semantic rejection/R2 finite raw helper and owner orchestration/Test grades.",
+    "No new HTTP/Java/RUN/model oracle or runtime/OS/capturedFP/Native/Game/SAVE/speed credit for this annex.",
+    "Raw sources/requests/answers and private paths remain local; original compiled raw source and software cutoff untouched."
+  ],
+  "private_provenance": {
+    "late_annex": {
+      "bytes": 4445,
+      "sha256": "a901207dc864796a3f9d9ead4f020a7cd9f94f1cf57a275834a3561784c144ca"
+    },
+    "publication_receipt": {
+      "bytes": 1540,
+      "sha256": "f1bfbdba30e5b2103c058a243fa4be51429ac76c5eee2bfa9551430bd53face6"
+    }
+  }
+}
