@@ -644,3 +644,9 @@ Owner原三low地址块case+两API组在HTTP END后CONTENT前冻，未覆盖high
 [captured Memory单元后到正式](evidence/2026-11-02-http-nominal-captured-memory-correction-formal.json)：ce0fdaea正常发表，owner API653/Test12125 raw=formal；binding4337→4329仅LF/尾白投影、EOF保，已直接读指定commit blob独核，不称全raw字节等。原a051软件pending/模型R1 nominal错→R2两原码修/owneroracle与两case78checks和全部成本不改；0新增HTTP/编测/运行。
 
 [该pure API/短块单元后到正式](evidence/2026-11-02-http-queue-parts-high-address-correction-formal.json)：1667b7a正常发表，API5885/ownerTest10949/新wrapper337 raw=formal；block2560→2559仅一尾白，指定commit blob投影/EOF独核。Native仅新wrapper strict0.578362s/selected1P0.527039s，调用同六parts非第七case，6.741819s wall/5.636409s gap另计；无XML，原console1P已核。原pending、low/high oracle可见性/模型分级、无RFLAGS/缺FP控制及全成本不回写，0新增HTTP/原件重扫/编测或Game/提速信用。
+
+## 新guided软件见证：Session作用域与真实fresh准备
+
+[HTTP-GUIDED-BULK-WITNESS-FIXTURE-REPAIR-001](evidence/2026-11-02-http-guided-bulk-witness-fixture-repair.json)30完整材料961557physical/967886源码消息wire，两次6500预算均完整stop、无retry/length/R3，实际区间无重叠/峰1，POST→END合54.235173s。生产候选、成熟fixture/reference和owner合同可见，不是盲oracle。R1整拒未编；R2有限body partial，owner修Session不能逃离locked回调、import、固定late-record身份和正负分支Head/Driver/Native计数不变门。原11906B→owner12839B，diff独核，不追whole raw或生产实现信用。
+
+首Test strict0后JVM1F发生在第二软件command的fresh READ准备、bulk断言尚未到，非bulk生产语义红。仅owner换真实software-read/action组合fixture并先装成熟fresh准备→13436B；从held绑定起全部bulk期待/后缀byteexact不改，必要Test重编0→同一新方法首次1P，旧绿和生产/helper/fixture源0重编。四进程53.318656s对首POST→末RUN1598.078477s、失败→retry strict715.538228s与5.934008s phasegap分账，早期准备/active/netunknown；source→cachedfixture字节同一性仍UNKNOWN，实际ABI路径已编跑不能补造byte provenance。后见正式22fb6bfd仅该Test raw/blob/EOF等，原红/阶段cutoff保留；无whole bootstrap/UNKNOWN、Native权限/Game/SAVE/实速信用。
