@@ -594,3 +594,9 @@ owner全八Test，先scenarios后production审/具体Book，不冒wholeblind；�
 [HTTP-TYPED-ACQUIRE-CLEANUP-CORRECTION-001](evidence/2026-11-02-http-typed-acquire-cleanup-correction.json)完整旧class23867B+owner明确API合同3434B，两actual stop/0retry/length/R3、实际无重叠峰1。R1插入method有贡献但invalid-handle ownership与Optional分配顺序错，R2两个原码hunk纠正；三hunk均从实际完整JSON独立SHA定位/唯一forward-inverse，构成26469B selected，0ownerJava，不追R1 whole正确。APIshape/typed初始error-only empty强owner设计，非模型发现平台安全或随意改freshchecks。
 
 原sourceReady0编/0Test保，后见共同5TU/39class strict0且此class字节不变，再正式ba003c1d该blob raw/formal/EOF等；其它Native03 owner修/Guard newline/两组Test单独计，不把六方法普授每条底层路径或所有component模型采用。记录prep marker后早读unknown、review183.348776s含HTTP/纠正/装配交错，sourceReady→joint等待不当CPU/active；0新增OS primitive重测/Native权限/Game/SAVE/实速或净收益。
+
+## 后到：透明默认资源的递归转发与guided close见证
+
+[HTTP-DEFAULT-RESOURCE-DELEGATION-001](evidence/2026-11-02-http-default-resource-delegation.json)两真实角色各一stop/无retry/R2、无实际重叠。实现17完整材料503088B/实际消息504792B，6000预算；新三method见证18完整材料118269B/实际123361B、4200预算，candidate/owner合同和helper/逐项recipe可见，不算独立oracle。模型接口/try-with形状partial，但anonymous三处this递归及consumer嵌套类型名错，由owner四执行限定修+一comment；两完整raw edits和owner修正均独立unique forward/inverse重建selected2578/13790B。
+
+模型三method也partial：owner改同实例断言、List对Throwable[]的错误相等、close-only suppressed义务与default无custody注释；修后方法逐字核入owner13029B Test，全架子/行为预期归owner。共同5TU首0复用，后新Test strict0/3P，明确只public DATA port的转发、原读序/失败实例、primary/suppressed及单次资源lifetime；default仍全量原physical工作且新增小allocation，不能授Native lease/减hash/速度。1.527609s+1.996786s过程与9.613255s链/6.088864s gap/1714.65625s Ready等待分开。极短PREP/REVIEW marker只后段机械装配/应用，早读和activeunknown；封包slash locator dict误比另记。原source/software pending保，ba003c1d后到仅该两源/Test raw=formal/EOF等，不普授同组其它组件/六方法或Game信用。

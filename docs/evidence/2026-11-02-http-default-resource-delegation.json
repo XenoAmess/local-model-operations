@@ -1,0 +1,268 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-DEFAULT-RESOURCE-DELEGATION-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "operator_review_UTC": "2026-11-02T10:34:28.002020+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "client_context": {
+    "actual_REQUEST_parameters_checked": "Both requests use temperature 0, thinking false, JSON-object response, streaming and include_usage; each has the actual stable system and two user messages.",
+    "caller_revision_at_POST": null,
+    "limits": "These frozen request parameters are verified. A current checkout revision is not substituted for a historical caller-version receipt."
+  },
+  "task": "Owner-designed transparent read-only resource/default adapter and one existing consumer verification scope, followed by three guided regression methods. Separate from low-level typed acquisition, Native implementation and feasibility tasks.",
+  "input": {
+    "implementation_hinting": "Owner frozen three-read/close API and complete current producer/consumer/direct callers, including callers omitted from earlier feasibility input. No claim that the earlier request already had those bodies.",
+    "regression_hinting": "Candidate-aware: complete selected two-source bodies, owner behavior contract, actual helper scaffold and detailed three-method recipe were supplied. This is guided mechanical encoding, not independent oracle discovery.",
+    "physical_vs_wire": "Physical inventory and actual source-message UTF8 bytes are separately checked; complete supplied text is verified with CRLF-to-LF reading projection, not a raw physical-byte equality claim."
+  },
+  "calls": [
+    {
+      "role": "consumer implementation",
+      "max_tokens": 6000,
+      "fixed_three_messages_actual": true,
+      "complete_supplied_materials": 17,
+      "physical_material_bytes": 503088,
+      "actual_source_message_UTF8_bytes": 504792,
+      "all_supplied_complete_texts_checked": true,
+      "POST_BEGIN_UTC": "2026-11-02T08:16:55.711537+00:00",
+      "END_UTC": "2026-11-02T08:17:08.164912+00:00",
+      "HTTP_seconds": 12.453472399996826,
+      "content_TTFT_seconds": 4.909172499988927,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "usage": {
+        "prompt_tokens": 106314,
+        "completion_tokens": 1285,
+        "total_tokens": 107599
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 518376,
+        "sha256": "fab3caf6efd20d72c18e19add03fb6f3ec00ea27862b1f10d5b4f929358cf6e6"
+      },
+      "EVENTS_digest": {
+        "bytes": 2238,
+        "sha256": "50a6bee596239d8658cd7907f7f85a83072e0acf35882736e752187ad313b44e"
+      },
+      "CONTENT_digest": {
+        "bytes": 6205,
+        "sha256": "a39295f2b39867fe1d222f9326ec4a298bad148d461a57ccf61c878f62bee048"
+      }
+    },
+    {
+      "role": "default regression methods",
+      "max_tokens": 4200,
+      "fixed_three_messages_actual": true,
+      "complete_supplied_materials": 18,
+      "physical_material_bytes": 118269,
+      "actual_source_message_UTF8_bytes": 123361,
+      "all_supplied_complete_texts_checked": true,
+      "POST_BEGIN_UTC": "2026-11-02T08:28:09.014440+00:00",
+      "END_UTC": "2026-11-02T08:28:18.792985+00:00",
+      "HTTP_seconds": 9.778631100009079,
+      "content_TTFT_seconds": 3.862637199999881,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "usage": {
+        "prompt_tokens": 28214,
+        "completion_tokens": 1074,
+        "total_tokens": 29288
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 130885,
+        "sha256": "cae4732b40c8dbc677a86cbfa9f4d6a2244f1f8284c9b5815f02fcd0a9931ba7"
+      },
+      "EVENTS_digest": {
+        "bytes": 2144,
+        "sha256": "0adf2ac0c1230498f73653c9e2abd8a90e38894fff66102eb1c31bae87474ddd"
+      },
+      "CONTENT_digest": {
+        "bytes": 4645,
+        "sha256": "0d311308f50b2019c23d5667dd9b6ea0de851401b8efe0433ad73418790a120d"
+      }
+    }
+  ],
+  "transport": {
+    "logical_roles": 2,
+    "actual_POSTs": 2,
+    "ENDs": 2,
+    "stop": 2,
+    "length": 0,
+    "retry": 0,
+    "semantic_R2": 0,
+    "local_peak": 1,
+    "no_actual_overlap": true,
+    "cross_role_or_server_peak_not_inferred": true,
+    "server_running_waiting_KV": null,
+    "cache_congestion_inference": null
+  },
+  "implementation_adoption": {
+    "grade": "Partial model two-file edits plus four executable owner corrections and one boundary comment; not whole raw source adoption.",
+    "source_payloads": [
+      {
+        "role": "transparent default resource",
+        "baseline_digest": {
+          "bytes": 1300,
+          "sha256": "5d3e9610e7b17db00ad22ade36073870568404f148972ccb6ec2769142f4360e"
+        },
+        "raw_model_digest": {
+          "bytes": 2506,
+          "sha256": "b951fe1150f638e1a42255714210adf218292c1cb6047bf6aeb1750578c4d4ba"
+        },
+        "selected_digest": {
+          "bytes": 2578,
+          "sha256": "db9ae68982292b320e609bb0ee62d7e0b78747083f4d46a9b8de241ecf81a189"
+        },
+        "owner_executable_corrections": 3,
+        "owner_documentation_corrections": 1,
+        "independent_unique_model_edit_and_owner_correction_forward_inverse_exact": true
+      },
+      {
+        "role": "existing consumer scoped verification",
+        "baseline_digest": {
+          "bytes": 13638,
+          "sha256": "bc5a58f4810c392b7d85123fe3f45f2e28d65ea718305abd3c731c9cccbae8ab"
+        },
+        "raw_model_digest": {
+          "bytes": 13774,
+          "sha256": "758c3f7a92a47b7f1b11ac1f6d790b5cf9be6336ea507d6d14c29fe57e6e59fe"
+        },
+        "selected_digest": {
+          "bytes": 13790,
+          "sha256": "0565927ba643747644efe9afb95bb0a99430548688dc5d316668797c0531a93d"
+        },
+        "owner_executable_corrections": 1,
+        "owner_documentation_corrections": 0,
+        "independent_unique_model_edit_and_owner_correction_forward_inverse_exact": true
+      }
+    ],
+    "model_errors": [
+      "Anonymous default adapter calls its own observe/read/verify through this, causing recursion instead of forwarding to the outer provider. Model explanation incorrectly claimed correct delegation.",
+      "The existing consumer uses an unimported nested resource type simple name; owner supplies its actual qualified type."
+    ],
+    "owner_review": "Fresh default resource construction and close add no backend I/O or custody. Original provider overrides and failure instances remain visible. Existing consumer retains initial pair verification, independent ACK observation/filtering, read/parse/anchor validation and final verification in order, then Java resource close.",
+    "boundary": "The default alone still performs all original physical work and adds a small resource allocation. No hash/I/O reduction or content immutability follows from this API."
+  },
+  "regression_adoption": {
+    "grade": "Partial three complete model methods, with all fixture/helpers and behavioral oracle owner-supplied; no whole Test or independent oracle credit.",
+    "owner_repairs": [
+      "Replace equality checks by instance checks for returned witness and byte array.",
+      "Replace invalid List-versus-suppressed-Throwable-array equality with an array assertion.",
+      "Add zero-suppressed assertion for close-only failure and clarify that default no-custody close does not qualify Native closed-resource use."
+    ],
+    "corrected_method_strings_independently_present_in_selected_Test": true,
+    "selected_Test_digest": {
+      "bytes": 13029,
+      "sha256": "38c5de6f4ef42947a416a2eaf59947be49f84b19bae47b49bdf67356e99ff947"
+    },
+    "scope": "Three new public in-memory DATA-port methods: transparent override dispatch and original exception identity; one resource/original verification order; body-primary/close-suppressed and close-only failure with independent subsequent resources. Not measured OS identities or Native lease safety."
+  },
+  "original_source_cutoffs": {
+    "consumer_source_ready_UTC": "2026-11-02T08:19:19.260491+00:00",
+    "consumer_compiled_Test_formal_at_cutoff": false,
+    "regression_owner_review_UTC": "2026-11-02T08:31:04.487987+00:00",
+    "regression_compile_run_at_owner_review": "not started",
+    "software_delivery_formal_status": "NOT_YET_PUBLISHED"
+  },
+  "later_software": {
+    "joint_first_compile": {
+      "changed_TUs": 5,
+      "old_TUs": 0,
+      "class_outputs": 39,
+      "exit_code": 0,
+      "process_seconds": 3.8489794000051916,
+      "two_consumer_sources_copy_equal": true,
+      "receipt_digest": {
+        "bytes": 9174,
+        "sha256": "e51b50d8ac7e68e463245a591c7964e3edab94b018098e0f4cc0006da6a89a39"
+      }
+    },
+    "new_Test_first_compile": {
+      "exit_code": 0,
+      "process_seconds": 1.5276085000077728,
+      "receipt_digest": {
+        "bytes": 3317,
+        "sha256": "0bf89d84d3b84a6e6fb36317f957c9b2f2782170e70f0de57bc4692b93958736"
+      }
+    },
+    "first_JUnit": {
+      "exit_code": 0,
+      "process_seconds": 1.9967861000041012,
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "XML_digest": {
+        "bytes": 80217,
+        "sha256": "1cbd9d2d5b58b773f6d511f99dbadef18f64f7c8b2d6e133e82fb8c6bef677e8"
+      },
+      "receipt_digest": {
+        "bytes": 4402,
+        "sha256": "94630d1f34fc985ddd4461b39636cb56d51397cd1f586972dc74dcb97c36f633"
+      }
+    },
+    "Test_chain_wall_seconds": 9.613255,
+    "compile_to_JUnit_gap_wall_seconds": 6.088864,
+    "Test_ready_to_compile_wait_wall_seconds": 1714.65625,
+    "old_suites_or_production_recompiled_by_this_regression": false,
+    "limits": "Default DATA-port qualification only. Later separate Native-only source correction and Windows-temp Test retain their own source/timing/adoption cutoffs; no private authority, loaded worker, Game or speed evidence."
+  },
+  "later_formal": {
+    "commit": "ba003c1d517bfb38365334c7ab76ca80c04ffee0",
+    "observed_UTC": "2026-11-02T10:02:09.855654+00:00",
+    "normal_push_exit": 0,
+    "remote_exact_clean": true,
+    "this_two_source_and_Test_raw_formal_EOF_equal": true,
+    "PUBLISHED_digest": {
+      "bytes": 2334,
+      "sha256": "effdefcc628d60825b897cae507d672b4bc3ada066922336a4aeab54e51bc573"
+    },
+    "new_compile_RUN_for_publication": 0,
+    "other_group_components_not_upgraded_to_model_credit": true
+  },
+  "owner_cost": {
+    "PREP_marker_UTC": "2026-11-02T08:16:48.769998+00:00",
+    "PREP_marker_to_POST_wall_seconds": 6.941539,
+    "PREP_marker_scope": "Mechanical assembly only after earlier API/source impact analysis; not complete preparation.",
+    "REVIEW_marker_UTC": "2026-11-02T08:19:19.234377+00:00",
+    "REVIEW_END_UTC": "2026-11-02T08:19:19.260746+00:00",
+    "REVIEW_marker_to_END_seconds": 0.026369,
+    "REVIEW_marker_scope": "Only recorded application/correction interval; response had already been read without a timed start. Not total source review or exclusive labor.",
+    "earlier_discovery_complete_prepare_review_wall_seconds": null,
+    "active_owner_seconds": null,
+    "net_saving_seconds": null,
+    "software_waits": "Joint source/compile wait, Test readiness wait and compile-to-run gap are wall including dependency/resource/coordination, not compiler CPU or active preparation.",
+    "owner_errors": "Packaging initially compared slash-rendered locator dictionaries, stopped before delivery/Java, then compared original exact bytes/SHA. No source, business equality or frozen evidence was changed.",
+    "packaging_erratum_digest": {
+      "bytes": 509,
+      "sha256": "c81ea9e3ce5d20d7334b838acd8fbb13d2aee65825111494a3d059f56dd97f03"
+    }
+  },
+  "private_evidence_digests": {
+    "consumer_delivery": {
+      "bytes": 10334,
+      "sha256": "326d8a563a77c858403c755e00c276c190e24f18bf3a96760eda1ff6d71be8d2"
+    },
+    "consumer_source_ready": {
+      "bytes": 5775,
+      "sha256": "3421d8c2a8664425cef573649ce3a849aad507290d31d845173845ee5765b199"
+    },
+    "regression_delivery": {
+      "bytes": 7297,
+      "sha256": "8d7aa1e769003a95bed094857881cf0c63793ba9c133b48e3eb301c4e0ccc613"
+    },
+    "regression_owner_review": {
+      "bytes": 4644,
+      "sha256": "09dbce5f713aa83beea3d7bd4aca852d9999960274df386fbc2da0d53b1b6353"
+    },
+    "behavior_contract": {
+      "bytes": 1729,
+      "sha256": "cbdf43bca4035a462ce46ee21b0918f3e16536762917a3bde5eab2fc6432260a"
+    }
+  },
+  "next_real_trigger": "A separate actual default/close/API boundary or naturally authorized Native/runtime receipt. No duplicated old primitive probe, R2 to obtain approval, repeated green or performance inference. Both model modes remain separately tracked.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}
