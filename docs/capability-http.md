@@ -764,3 +764,9 @@ Owner entry1413B/6unitTest14770B、复用成熟短块，growth明确unsupported�
 [HTTP-ISOLATED-BODY-INSTRUMENTATION-001](evidence/2026-11-02-http-isolated-body-instrumentation.json)是Root/owner批准的2905B exactportable，普通三消息HTTP，非原生工具生成。四真实请求分两个source/failure域，3length整弃、1完整index诊断仅方向partial，错newness/行号/POM forward拒，0modelcode或整体审批准；133.032995s HTTP合计与重叠不冒owner收益。
 
 首软件真负例：existing plain dependency oldClassInfo为null，NPE→fullrestart fallback，尽管同JVM看到新值仍未通过same-loader/delegate/thread oracle；owner field初始化还有重复thread token副作用，原件保。仅初始精确artifact index配置与PostConstruct/PreDestroy修后，隔离312实际保PID/出生/应用依赖loader/delegate identity/原thread，24→112推进，worker与新调用都见新body，432→435B，正常stop/close+join/port-free/0force。795.29391s已名首软件BEGIN→followupEND/114.442553s两过程分列，更早准备不在wall/activeunknown。当前业务instrumentation仍false、public path/env投影未重RUN；不授newtype/任意编辑/静态初始化重跑/当前采用/Game/SAVE或速度。
+
+## 同一租约退役冗余内容：部分候选与有限五项验证
+
+[HTTP-RETAINED-CONTENT-RETIREMENT-312](evidence/2026-11-02-http-retained-content-retirement.json)为owner批准7333B原字节正文：20完整source+合同，6500/5500两真实POST均stop、0retry；caller当时Git版本未冻仍null。只在防御性document构造成功后退役lease内容数组，保handle、sharing、identity/metadata、current资格、thread/failure及close，原256MiB cap不升。逻辑计数不是物理IO/秒数，少一冗余数组不证明heap峰值/GC/实速收益；两个新增方法是API变更，不称body-only。
+
+实施guided partial，owner修两个执行行（防御性getter克隆成本与错误cost receiver）+一comment；counter未见candidate，NO_PATCH整结论拒，只有前瞻约束局部可用。Owner全Test，三生产TU/两TestTU首次strict0和五新方法5P，过程6.144557s对marker→交付1460.652182s；更早发现未计、activeunknown，不用短HTTP代owner净收益。原formal=null/软件成熟切点不改；独立[批准formal annex](evidence/2026-11-02-http-retained-content-retirement-formal.json)记3894529a五leaf字节等、1648.111658s marker→正式观察，0发表复验/运行采用或性能信用。
