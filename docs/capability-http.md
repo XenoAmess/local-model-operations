@@ -110,6 +110,20 @@ owner最终源22:35:08.545586Z已选，新的pending双POST22:36:09才开始；�
 
 同一脱敏证据还保留一项owner准备纠错：既有CLI已在throw前保存dispatch、负向ACK、custody与unavailable。查原件即可推翻“缺证”的推断，0新CLI/HTTP/READ；不把这个纠错算作模型发现，也不从负向ACK推有效世界状态。
 
+## 后到：可见选项决策与实际业务分阶段
+
+[HTTP-UI-CHOICE-001](evidence/2026-11-02-http-visible-option-decision.json)是一项运行期可见选项建议，不是源码生成。owner提供三个真实标签文本、完整已安装事件/本地化及相关效果源；模型没有直接看图。一次三消息请求1000有限输出，HTTP200/stop、2.286455s、有效内容TTFT0.904112s，选B；owner接受该标签，并独立向同一Game窗口提交一次按下/释放，SendInput2/2。模型没有生成Native索引或自动执行业务工具，原SUMMARY默认adopted=false保持冻结，后到选择采用据实际action另记。
+
+现有图片可见事件关闭、士兵1260→1760；模型观察合同引用更早12Dec图，本次实际before/before02重核同一组选项时均20Dec、after23Dec，三个时点不混入，也不从画面授新增日。随后独立Native READ归档成功、同Game、paused/map-ready且匹配原8日目标；再后worker恢复真实LOOP，原pending只读结算与SAVE独验确认新增保存8日、累计30日。选择、UI效果、Native DATA和SAVE是不同层级：尚不能证明UI是此前Native拒绝的唯一根因，不能混入源码候选采用率或授模型整体恢复能力。
+
+READ结束到worker START仍有454.779186s准备/协调墙钟；模型答复后到UI提交另229.273770s，主动工时未知。独立大窗口20:50:46Z→23:50:16.8346752Z为10770.834675s/30新增确认保存日，359.027823s/日，未达10s目标；它不是这次UI建议的分母或收益。下一优化先沿既有失败原件和实际阶段定位owner准备开销，不因模型短响应推算节省，也不为此新增查询或重选事件。
+
+## 后到：有限负向guard采用与采样边界
+
+[HTTP-NEGATIVE-GUARD-001](evidence/2026-11-02-http-negative-guard.json)的生产单方法R1完整hunk原样采用、0 owner token修改，4.541178s/432输出；保留matching输入的原parse一次、异常合同与深校验。两轮独立countercase各10000预算完整stop仍整拒，owner完整61例Probe后534checks通过；生产首1TU0/0.578620s，正式71a033fb。owner oracle一条负号形状错误消息的优先级在首次执行前改正，原件保留，不当生产失败。117.611471s生产审阅和411.557698s测试准备窗包含等待/写源，主动人时未知。
+
+后到仅对同一已闭JFR做有限归并，92个相关Throwable分配样本定位原parse第24行/BCI29的首负向prefix门，原源码与旧binary指令一致；早期line/BCI unknown不回写。样本不是总调用，sample weight不是实际GB分配、GC/CPU份额、历史171s或改动收益；当前装载源码身份仍未知，没有为记录新增profile或现场操作。
+
 ## 已知边界与操作方法
 
 2026-11-02本机`4-8e1c2f1861`的[HTTP-GUI-001](evidence/2026-11-02-http-gui-layout.json)处理真实窗口裁切：三个工作流、四次POST全部stop，实际峰3维持约11.50秒。一个有效页尺寸hunk采用，遗漏的两个同父页由owner补齐；相邻检查中的祖层描述与豁免判断不能直接采用。两版完整Java测试均被拒绝，最终测试为owner实现：首版误把size Block当Atom并跳过实际blockoverride；补齐共享parser及精确诊断后的第二版仍在错误祖层替换，且混淆scrollbox本体与孩子。第一轮未显式给共享GUI语法表示的输入成本单列，不把所有失败都归模型。

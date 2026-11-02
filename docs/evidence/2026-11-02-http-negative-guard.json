@@ -1,0 +1,199 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-NEGATIVE-GUARD-001",
+  "mode_id": "http-candidate",
+  "task_class": "source_candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "metadata_review_cutoff_UTC": "2026-11-02T00:00:43.961830+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Replace an expected negative prefix exception path with an exact early rejection while retaining original matching parse and validation.",
+  "input": {
+    "current_full_files": 9,
+    "source_message_UTF8_bytes": 148446,
+    "owner_scope": "Exact narrow supports method hunk with current parser/consumer declarations; no owner target method body or expected implementation prewritten.",
+    "no_runtime_performance_oracle": true
+  },
+  "calls": [
+    {
+      "role": "negative_guard_method",
+      "POST_BEGIN_UTC": "2026-11-01T23:34:34.689383+00:00",
+      "END_UTC": "2026-11-01T23:34:39.230520+00:00",
+      "actual_top_level_keys": [
+        "chat_template_kwargs",
+        "max_tokens",
+        "messages",
+        "model",
+        "response_format",
+        "stream",
+        "stream_options",
+        "temperature"
+      ],
+      "fixed_three_messages": true,
+      "max_tokens": 5000,
+      "source_message_UTF8_bytes": 148446,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 0.9391934999948717,
+      "reported_HTTP_seconds": 4.541177999999491,
+      "usage": {
+        "prompt_tokens": 30829,
+        "completion_tokens": 432,
+        "total_tokens": 31261
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "countercase_round1",
+      "POST_BEGIN_UTC": "2026-11-01T23:34:20.597612+00:00",
+      "END_UTC": "2026-11-01T23:34:45.471405+00:00",
+      "actual_top_level_keys": [
+        "chat_template_kwargs",
+        "max_tokens",
+        "messages",
+        "model",
+        "response_format",
+        "stream",
+        "stream_options",
+        "temperature"
+      ],
+      "fixed_three_messages": true,
+      "max_tokens": 10000,
+      "source_message_UTF8_bytes": 148446,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 4.16163460000098,
+      "reported_HTTP_seconds": 24.87382489999436,
+      "usage": {
+        "prompt_tokens": 30993,
+        "completion_tokens": 3212,
+        "total_tokens": 34205
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "countercase_round2",
+      "POST_BEGIN_UTC": "2026-11-01T23:37:07.485853+00:00",
+      "END_UTC": "2026-11-01T23:37:26.675233+00:00",
+      "actual_top_level_keys": [
+        "chat_template_kwargs",
+        "max_tokens",
+        "messages",
+        "model",
+        "response_format",
+        "stream",
+        "stream_options",
+        "temperature"
+      ],
+      "fixed_three_messages": true,
+      "max_tokens": 10000,
+      "source_message_UTF8_bytes": 148446,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 0.9304644000003464,
+      "reported_HTTP_seconds": 19.18940599999769,
+      "usage": {
+        "prompt_tokens": 30993,
+        "completion_tokens": 2931,
+        "total_tokens": 33924
+      },
+      "cached_tokens": null
+    }
+  ],
+  "transport": {
+    "generation_requests": 3,
+    "POSTs": 3,
+    "ENDs": 3,
+    "complete_stop": 3,
+    "length": 0,
+    "retries": 0,
+    "client_peak": 2,
+    "peak2_overlap_seconds": 4.541137,
+    "limit": "Implementation is wholly inside first countercase interval; second countercase rolls alone. This is not sustained target concurrency."
+  },
+  "adoption": {
+    "production": "One complete R1 method hunk exact/inverse verified, zero owner source token edits. Original matching inputs still call original parser once with original exception handling and deep canonical checks.",
+    "countercases": "Two complete stop requests at10000 each rejected for source/API/semantic errors, not length or actual javac RED. Owner whole finite61-literal Probe with no R3 or adopted fragments.",
+    "owner_error": "One independent oracle negative-message priority corrected from original source before first target execution; original oracle/reviews preserved. Source-line anchor and UTF8 metadata errors were owner packaging, not production/model compile failures."
+  },
+  "software": {
+    "production_first_one_TU_strict_seconds": 0.5786195,
+    "new_Probe_strict_seconds": 0.63083750000078,
+    "new_Probe_RUN_seconds": 0.26740720000088913,
+    "new_Probe_cases": 61,
+    "new_Probe_checks": 534,
+    "old_TUs_recompiled": 0,
+    "old_suite_rerun": 0,
+    "benchmark": false,
+    "Native_Game": false
+  },
+  "cost": {
+    "production_review_elapsed_wall_seconds": 117.611471,
+    "countercase_prepare_to_ready_wall_seconds": 411.557698,
+    "countercase_mechanical_prefix_assembly_seconds": 0.0012223999947309494,
+    "countercase_mechanical_literal_emission_seconds": 0.002617500002088491,
+    "first_production_strict_to_Probe_END_wall_seconds": 513.993162,
+    "Probe_strict_to_RUN_END_wall_seconds": 6.017973,
+    "Probe_verification_process_sum_seconds": 0.8982447000016691,
+    "earlier_discovery_and_active_owner_seconds": null,
+    "net_saving_seconds": null,
+    "limit": "Measured assembly excludes discovery/reasoning; review windows include waiting, writing and metadata. They are not continuous CPU or human work."
+  },
+  "formal_annex": {
+    "commit": "71a033fbb3aae8600429d65b07be25332a90e80f",
+    "normal_push_remote_exact_clean_at_receipt": true,
+    "new_compile_RUN_for_publication": 0
+  },
+  "late_closed_recording_annex": {
+    "recorded_allocation_samples": 92,
+    "original_source_site_line": 24,
+    "original_binary_site_BCI": 29,
+    "sample_weighted_bytes": 1101883576,
+    "source_and_old_binary_guard_match": true,
+    "not_proven": [
+      "Total calls/exceptions",
+      "Actual allocated bytes or a GB allocation claim",
+      "CPU/wall/GC fraction",
+      "Attribution of a historical171-second interval",
+      "Loaded class/source identity",
+      "Benefit of this patch"
+    ],
+    "scope": "Finite later pass of an already closed recording; does not rewrite earlier unknown line/BCI or model input."
+  },
+  "private_evidence_digests": {
+    "producer_cohort": {
+      "bytes": 2834,
+      "sha256": "da718f200899688ffe5abe9c9aa10c9e519a215ecfb467240634f119c038d22e"
+    },
+    "source_ready": {
+      "bytes": 2417,
+      "sha256": "6dcd4db898ce9dcf5dcd929b5c7d998690fbe38124589272b2f93d6f1c1f0ddd"
+    },
+    "parent_source_review": {
+      "bytes": 4956,
+      "sha256": "44929309458f43da7e91b591d62419501c7a0fc0fa2db42371f85cb5bb28fec8"
+    },
+    "countercase_source_ready": {
+      "bytes": 10547,
+      "sha256": "252e62d1ace31ceb846e13d1c8300157774095b4a65436522e5c9edb621a4a99"
+    },
+    "first_Probe_delivery": {
+      "bytes": 6949,
+      "sha256": "17448287a8386cda72387041debcd1ea7b20105771d3ae0c1ee1814e1380e7bf"
+    },
+    "late_profile_site": {
+      "bytes": 4476,
+      "sha256": "38d301c26c7884d3e1209cad8df755ea4912b6039dec86c72d11579dbf384ef4"
+    },
+    "formal_publication": {
+      "bytes": 796,
+      "sha256": "3e6ad8f91a8fc32c150c75f8940d36b7c91d2e849063ea1d9cb9fbdbf8395b31"
+    }
+  },
+  "next_real_trigger": "Only actual loaded-source/behavior or another genuinely incomplete narrow predicate may extend this case. No new JFR, model rerun or old green test for publication.",
+  "publication_new_HTTP_compile_test_profile_or_live_actions": 0
+}
