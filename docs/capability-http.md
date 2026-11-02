@@ -922,3 +922,5 @@ Native sole两prod/ownerTest首strict0、manual14组0，混core与指定MULSS软
 [M0批准的315原样正文](evidence/2026-11-03-http-negative-source-operation-review.json)21完整core文件491221物理B/两源码消息各494401B，2800/2400两个真实不同任务均stop/DONE，实际重叠36.935713s；仅partial分析、0代码/候选/编测。模型将已完整供给的23行static codec说成缺源，独审又捏直接调用边和行号；两份阴性结论都不证明优化不可能，也不因看到重复读就授删当前文件资格点。真实source-owned域callback与普通文件边界区分，完整transitive域输入未供的边界仍明确未知。
 
 准备275.273568s/全scope496.141438s与75.211770s请求合计分列，activeunknown；本例普通三消息而非OpenCode生成。批准2626B正文逐byte复制，raw源码/REQUEST/答复/私路径留本机，不据101k级prompt宣称context实验、永久能力上限或模式净收益。
+
+[HTTP-GUIDED-IDENTITY-ENCODING-316](evidence/2026-11-03-http-guided-identity-encoding.md)为 Root 明确批准的2751B原样正文。7份完整当前源码98683B、2200实施/1500完整候选反审均stop，实际顺序发出、峰1；owner强设计指导下两literal原样采用，保同引用第一次完整编码、不同引用旧编码/hash路径及全部资格门。反审漏看候选已先编码并混另一入口校验，整拒、无R2。首1TU0/3.552678s及d9acba89正式只属源码阶段；必要Test与实际采用后见另记，不授运行/SAVE/提速。PREP标记→Ready245.148407s、→首编END328.474586s包含模型等待、审阅和跨任务协调，更早发现/active/netunknown，不以短HTTP或两处原码认定节省owner工时。
