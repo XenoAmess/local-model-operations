@@ -1065,3 +1065,10 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 
 
 342 [custom输出与初始index的兼容body路线](evidence/2026-11-03-http-custom-output-indexed-body-route.json)只复制owner批准4089B正文。两个新ordinary三消息stop/partial源方向、0modelcode或whole批准，27项341657物理B/actual源码消息348794B；26.286804重叠不作owner工时。唯一新标准Maven组合custom双输出、初始index与C2请求，同loader/delegate/thread保留，原worker及fresh call观察body变更，53.853903进程秒与529.091092已录wall/activeUNKNOWN分列。无新增类型、实际C2tier、当前业务采用或提速证明，不混341视频或重做旧312。
+
+
+342 [已结束delegate的源码生命周期反例](evidence/2026-11-03-http-body-route-ended-delegate-source-boundary.json)另附owner批准1369B原文：该adapter只StartupEvent建worker并调用delegate一次，compatible instrumentation不走restart/startup，因此不能独自复活已completed worker。仅具名source反例，非新失败实测/全框架断言；原4089B软件正例与全部切点不改，0新模型或JVM。
+
+615 [reserve FP carrier及owner locator维护](evidence/2026-11-03-http-reserve-fp-state-owner-locator-repair.json)三stop、R1捕获可变local编前拒；R2正确holder但重复old locator，owner只修定位缩进、保全部模型newString，selected9065 partial而非可直接应用rawR2。六组owner Test END后CONTENT前冻、首console6非六JUnit，1300.127021仅已知clock下界/完整task与activeNULL，不授原Native同call16+4或实速。
+
+228 [cached indexed分支owner整core/partial binder](evidence/2026-11-03-http-cached-indexed-wrapper-owner-core.json)三logical四POST含reset半流hash-only未读整弃自动retry；完整core仍错全拒/owner4391，binder只名义returntype与注释owner修。八oracle prePOST/Test代码全HTTP END后，首8logicalscene30checks是有限软件；2.8209279进程、165.476853验证wall与1008.309428已录窗不冒完整任务/active或持续HOLD。未闭uncached/DFflags/fullhardware/实载/自然业务保持未知，formal原pending。
