@@ -514,3 +514,9 @@ owner原源oracle prePOST，独立完整1481B API/7615B kernel/14162B Test。唯
 [HTTP-LOCAL-HISTORY-REUSE-001](evidence/2026-11-02-http-local-history-reuse.json)实际15/15/30/16完整项三消息，4000/3500/4500/5500预算，4逻辑5POST=3stop/1length/1reset自动整请求retry，峰3仅48.487417s。两个模型执行hunk唯一正反复现整叶13645→13638B，0owner执行修；只将private校验返回已查ArrayNode供同次紧邻anchor读取，原首检查位置/其余bytes均保。owner拒模型跨persist mutation/IO复用的叙述；不删parse、freshFS/hash/Pin/head/权限/保存guard，不称实载或SAVE收益。
 
 prospective反审误报异常优先级/浮点索引，整REJECT不采，不当看过candidate的审通过；Journal length4500未读整弃。Test reset弃后完整稿仍有假negative/缺latefailure全拒，identity声明确未入prefix属owner输入gap；owner全8457B四方法首1prod/1Test/4P，真实XML核齐。28.410802s首strict→END与5.550969s进程分列，16.922ms只机械装配，完整发现/准备/审阅wall及activeunknown；后续才记录真实PREP/REVIEW阶段，不能回填历史。formal本cutoff pending，原实测整phase不是本方法耗时或候选收益。
+
+## 后到：同context callback路由源审与静态CFG证据
+
+[HTTP-CALLBACK-ROUTE-SOURCE-REVIEW-001](evidence/2026-11-02-http-callback-route-source-review.json)19whole476744B→480108B三消息，3200/2600两stop/0retry，峰2仅31.181246s。实施误把独立verifier语句移动解释成canonical/primitive action validation一起删、无可用edit全拒；反证只部分支持owner已给假设，虚行号/失败顺序矛盾拒，模型code0。两实际END都早于ownerREADY45–52s，owner当时未消费回复；原pending只是lastknown，不能把审阅延成在途。
+
+owner11905B单叶首1TU0/2.225566s，复用真实生产class的有界normal CFG正例及旧双route/漏mandatory route两个负例；无JVM、实际callback计数、外部IO或issuer验证。仅实际same-Core/context安装图适用；invalid holder首诊断/归档重放次数会变，不称所有失败顺序等同或任意public bind图安全。原64.704047s仅历史event→return整span，非此callback耗时/候选收益；完整prep/review/activeunknown、工具读法及checker命名错误分账，formal pending后到另记，0装载/重启/Game/SAVE/实速。
