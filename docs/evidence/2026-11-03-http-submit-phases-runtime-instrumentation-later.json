@@ -1,0 +1,30 @@
+{
+  "schema": "local-model-operations.owner-approved-public-annex/v1",
+  "mode_id": "http-candidate",
+  "case": "submission-phase359-runtime-annex",
+  "approval_scope": "Only this reviewed file may be published to the shared operations repository. Raw sources, model material, runtime originals and machine paths remain on the execution machine.",
+  "parent": "The existing submission359 source and independent-test cases; this annex adds runtime evidence, not another model task or another test run.",
+  "actual_runtime": {
+    "source_adopted": true,
+    "one_GET_seconds": 4.8768436,
+    "official_instrumentation_seconds": 2.896,
+    "official_result": "Application restart not required; live reload performed via instrumentation, no restart needed.",
+    "same_host_and_birth": true,
+    "same_delegate": true,
+    "same_runtime_and_business_loader": true,
+    "cooperative_STOP": 0,
+    "new_delegate_START_or_COMPLETE": 0,
+    "subsequent_existing_planning_RETURN": true,
+    "new_diagnostic_phase_executed": "NOT_YET_OBSERVED_AT_THIS_CUTOFF",
+    "new_SAVE_after_this_update": "NOT_YET_CONFIRMED_AT_THIS_CUTOFF"
+  },
+  "verification": "A separate owner checked the bounded frozen receipt, all seven evidence size/SHA pairs, official instrumentation lines, unchanged host/delegate/loaders and original lifecycle, source identity and a later typed planning RETURN. Verification did not access live Game/Native, launch a JVM or trigger another GET.",
+  "credit": "The two local-model requests in the parent did not supply adopted executable diagnostics; the owner implemented and repaired capture order. Actual compatible replacement validates the reviewed runtime path, not model implementation quality or a time saving.",
+  "limits": [
+    "Software class-shape eligibility and actual runtime acceptance remain separate stages.",
+    "The saved frontier immediately before this GET cannot be credited as a post-update SAVE.",
+    "No specific phase attribution, private heap/thread identity, throughput, CPU, GC or owner active-time saving was established.",
+    "Any later phase logs or SAVE require a separate later annex preserving this cutoff."
+  ],
+  "source_commit": "320192609ab2e3b1c0374bc0ce9da56d988f2ac9"
+}
