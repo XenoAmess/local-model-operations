@@ -1,0 +1,195 @@
+{
+  "schema": "local-model-operations.civ6-interval-diagnostics207210/v1",
+  "date_local": "2026-11-03",
+  "machine_id": "BF-202609141645",
+  "cases": [
+    {
+      "sequence": 207,
+      "case_id": "HTTP-CIV6-PROFILEINTERVAL207",
+      "mode_id": "http-candidate",
+      "shared_commit": "4fe16f43c42471c69723d4c13e7a19d0c101e8b4",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 1200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T21:43:10.051699+00:00",
+      "attempt_end_utc": "2026-11-02T21:43:13.202961+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 3148.5245999647304,
+        "first_nonempty_content_delta_ms": 908.0136999837123,
+        "usage": {
+          "prompt_tokens": 4216,
+          "completion_tokens": 362,
+          "total_tokens": 4578
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "one-unchanged-guided-hunk",
+      "review": "Ownerprovidedstarted/endednamesandclockreusecontract; samplemetadata only. Exacthunk adoptedunchanged; existing20tests+actualfactoryconsumer pass. Currentq7 keptfrozenoldfactory; nointervalcollector/nativeperformancepass.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "case_id": "HTTP-CIV6-SLOWROOT208",
+      "budget": 2500,
+      "finish_reason": "length",
+      "sse_done": true,
+      "total_ms": 23047.577399993315,
+      "ttft_ms": 5618.881499976851,
+      "usage": {
+        "prompt_tokens": 34137,
+        "completion_tokens": 2500,
+        "total_tokens": 36637
+      },
+      "candidate_content_read": false,
+      "candidate_decoded": false,
+      "adopted": false,
+      "response_disposition": "Retained original whole truncated stream, no拼接; narrowed to analysis-only210, no repeatbusiness action.",
+      "mode_id": "http-candidate",
+      "shared_commit": "4fe16f43c42471c69723d4c13e7a19d0c101e8b4",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "sequence": 208
+    },
+    {
+      "sequence": 209,
+      "case_id": "HTTP-CIV6-INTERVALUNION209",
+      "mode_id": "http-candidate",
+      "shared_commit": "4fe16f43c42471c69723d4c13e7a19d0c101e8b4",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 1800,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T21:54:11.416191+00:00",
+      "attempt_end_utc": "2026-11-02T21:54:21.305079+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 9885.164499981329,
+        "first_nonempty_content_delta_ms": 1102.7311999932863,
+        "usage": {
+          "prompt_tokens": 739,
+          "completion_tokens": 614,
+          "total_tokens": 1353
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-owner-corrected",
+      "review": "Retain merge/sort algorithm. Candidate accepts UserDict/mappingproxy, sets and generatorpairs despite sequence contract; owner replaced type/finite validation. Owner additional floatoverflow boundary added. Original12tests6subtestfailures1error; corrected12PASS0.482s,3375integer-grid oracle combinations. No native performance or fullmodule coverage claim.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 210,
+      "case_id": "HTTP-CIV6-SLOWDIAG210",
+      "mode_id": "http-candidate",
+      "shared_commit": "4fe16f43c42471c69723d4c13e7a19d0c101e8b4",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 1300,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T21:57:53.538767+00:00",
+      "attempt_end_utc": "2026-11-02T21:57:58.418709+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 4873.984399950132,
+        "first_nonempty_content_delta_ms": 1061.3663999829441,
+        "usage": {
+          "prompt_tokens": 34152,
+          "completion_tokens": 392,
+          "total_tokens": 34544
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected-analysis",
+      "review": "Tick is local, not BaiqiController.Tick; ReadBack does contain Native calls, and CanCivilian does not create UnitSnapshot internally. These factual errors rejected. Generic need finer timing alreadyownerpending; no code adopted or CPU attribution.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "business_evidence": {
+    "207": "https://github.com/XenoAmess/civ6_dev/blob/196a6451a05932c62e544c8237eb2f8a6b6b1282/docs/research/baiqi-p6-profile-interval-source207-evidence-2026-11-03.json",
+    "209_210": "https://github.com/XenoAmess/civ6_dev/blob/5f7aec75e436853246c5da395d9e99e08fa678da/docs/research/baiqi-p6-interval-union-source209-evidence-2026-11-03.json",
+    "native55": "https://github.com/XenoAmess/civ6_dev/blob/7de0229e73233fc6926f564881eb0ab10c21032f/docs/research/baiqi-p6-performance-native55-evidence-2026-11-03.json"
+  },
+  "batch": {
+    "logical_requests": 4,
+    "complete": 3,
+    "length": 1,
+    "http_attempts": 4,
+    "transport_retries": 0,
+    "actual_client_peak": 2,
+    "peak_duration_seconds": 9.884613,
+    "current_in_flight_for_these_cases": 0,
+    "target_concurrency": [
+      12,
+      16
+    ],
+    "target_achieved": false,
+    "cached_tokens": null,
+    "server_concurrency": null
+  },
+  "maintenance": {
+    "date_local": "2026-11-03",
+    "canonicalCLI": "Reused same-machine/user daily successfulcache,1.19.5; no new update performed.",
+    "new_opencode_native_generation": 0
+  },
+  "cumulative_civ6_through210": {
+    "logical_requests": 210,
+    "complete": 199,
+    "length": 11,
+    "http_attempts": 213,
+    "transport_retries": 3,
+    "historical_peak": 13,
+    "historical_peak_duration_seconds": null
+  },
+  "adoption_boundaries": "207guidedmetadatahunk unchanged.209mergealgorithm only, ownerreplaced strictshape/finite validation andadded overflowboundary; original12tests6failures1error, corrected12PASS including3375independentintegercelloracle combinations.208lengthunreadnotdecoded/noadoption.210factuallyincorrectanalysis rejected, code0. No fullmodule collector/calibratedclock/budgetproof fromthese helpers.",
+  "owner_cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "validation": null,
+    "publication": null,
+    "exclusive_active": null
+  },
+  "cost_limits": "ContemporaneousPREP/REVIEW/CORRECTION events retained locally, interleavedNative/publication; no netownerbenefit or exclusiveelapsed claim.207phasefragment doesnotcaptureallpriorplanning.211separate stillunderreview, not in thisfrozenbatch.",
+  "native_followup": "Installed55 exact69files,243callbacks/227pureten; Controller136p95~70ms/max191ms FAIL, Admin91p95~6/max11ms.191ms root noaction, onepath~2ms,0rangeenumeration. No attribution/residualCPUorcrossversioncausalclaim. Actual11citiesqueues,9domesticroutes,8buildsubmissions/7finalpositions; originalerrorlogs0,all7observerpointersrestored.55readonlyclock4096reads7positive/4089zero/0negative,minobserved~1ms; os.clock exists, relation/overheadnotcalibrated.",
+  "experience": "Validation must cover abstract mappings and sequence contract, not onlydict/list; purehelperboundary failures distinctfromowner additionalfloatoverflowchecks. Narrow length-heavy patchrequest toboundedanalysis, retainunreadwhole stream. Audit actualcallee body: localTick isnotexported, ReadBackhasnativecalls, UnitSnapshotiscreatedbycaller notCanCivilian; repeatedplausiblenarrative isnotactualCPU attribution.",
+  "next": "ContinueNative55lightweightwall/CPUdiagnostics andcompletecoverage/matchedcontrols. 211thinbinding isseparaterealremainingtask; no stoppedwork afterFAIL."
+}
