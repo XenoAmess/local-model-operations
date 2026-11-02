@@ -550,3 +550,5 @@ owner57421B单条件guard逆回baseline逐byte等，完整原分支链保；succ
 [HTTP-GUIDED-SMALL-CLASS-RAW-001](evidence/2026-11-02-http-guided-small-class-raw.json)19whole58673B实际两REQUEST完整核，2600/3200两logical三POST：2stop+1reset自动整请求重试/0语义R2，峰2仅8.157161s。完整2411B R1 decoded→firstcompiled raw含noEOF逐byte等，0owner执行/EOL改；类/package/signatures/knownroute及成熟两参考均owner强hint，未供新owner架子，不能凭复制Javadoc中的owner-scaffold字样倒改真实来源，也不授自主API设计/wholeABI算法。
 
 audit reset半流未读整弃，第二完整泛事实partial、两个具体反例错/未达合同，无oracle/Test/code采用或R2。owner13484B全五新case/oracle，END后首次CONTENT前冻，非生成前。首prod/Test/manual5全0/1.619016s进程，对1058.433707s记录准备→RUN、209.998113s协调与6.156763s gap，早期/activeunknown，不称净收益。原software pending保，后到b240fa9d两payload raw=formal、新wrapper复用同五case非第六；0Native/Game/SAVE/G2完成或实速。
+
+后见 [HTTP-NORMAL-KERNEL-BUDGET-HANDOFF-001-FORMAL](evidence/2026-11-02-http-normal-kernel-budget-handoff-formal.json)：正式`b0d187ec`，原冻结source/software pending记录逐byte不改。三owner Java1481/7615/14162B原raw/formal/EOF精等，0模型code/oracle；原5logical7POST、2reset4length1完整错/9manual135checks切点不动。writer regex/runargs两次preformal断言为owner准备成本，不归模型/业务；0新编RUN/HTTP/实机。
