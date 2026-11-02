@@ -355,3 +355,9 @@ owner在候选编译前发现旧binary缺当前API getter，0candidate/Test STAR
 [HTTP-CONSTRUCTOR-AUDIT-RETRY-001](evidence/2026-11-02-http-constructor-audit-retry.json)为owner已实现/首strict后的两项真实ctor审/兼容反证。各11完整源533606B；两首attempt同10054 reset，一份只有1B内容、另一份无headers/content，全部丢弃。canonical调用器按约10s退避各重发原完整REQUEST，2任务/4POST/2传输retry，非语义R2或业务重放。审计retry完整stop864tokens，仅支持已供6arg/callback/context/lifetime/error源码；兼容retry length1600整弃0片段/无第三次。cached均null，短retry TTFT不能反推缓存，reset也不证明过载。
 
 首1TU2.449367s在两任务POST前已通过，源码0模型采用；正式06d5c9ae只应用constructor literal并保留formal已有的disjoint classifier，编译runtime source与formal整叶不冒全字节相同。实际客户端峰2累计33.661735s，波wall48.512376s与attempt和另列；准备过宽glob/不存在文件名及主动审阅未计时，unknown保。旧动作已先结算，不追授本修或后到审稿新LOOP/SAVE/权限/性能，旧pending原件保留。
+
+## 后到：显式view窄hunk与owner reason映射首红
+
+[HTTP-EXPLICIT-PLANNING-VIEW-001](evidence/2026-11-02-http-explicit-planning-view.json)producer R2三条literal模型hunk在原newline投影后精确应用，0owner Java；逆回两文件与baseline逐字一致。R1只因未满足原single/coherentview设计约束未选，不把其两view行为无证判为frame/Session错误。初50完整源572132B漏13实际intent资格callee是owner闭合成本，auditR2补63源，producer只晚审、不R3洗绿。两counteraudit完整稿均整体拒0partial。4POST4stop/0重试，预算6500/4500/4500/4500，峰2仅23.630272s。
+
+owner新Test/model0，首strict后3方法1P2F来自owner与父审漏看既有wrapper的reason映射；首红未打印actualreason，改期待依完整原源，不能倒写成首轮实测值。只两条断言修正、生产不改，再编一个editedTestTU（含原绿method代码）只RUN两失败项2P，原1P未重跑，不冒同JVM3P。首2TU5.132028s与四Test进程20.070927s、首Test到末RUN578.961660s/首生产到末Test747.128195s墙钟、初已记发现到freeze265.338072s分列；机械装配.568623s不是全部准备，更早读源/主动工时和全任务wall未知。后到正式1607f1cd的Collector仅297处CRLF→LF、其余两源byteexact；未授positive quote/物理INTENT、运行恢复/保存或提速。
