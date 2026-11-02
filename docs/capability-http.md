@@ -480,3 +480,9 @@ owner实际prepare→permit/decode源核未支持新patch，两个先前serializ
 [HTTP-TWO-SMALL-HELPERS-PARTIAL-001](evidence/2026-11-02-http-two-small-helpers-partial.json)9/9/7完整项按actualwire核，1500/800/750三POST均stop/0retry/无R2，峰3仅5.474877s。两helper分别1979→2008B（full64误拷改显式uint32零扩展）和886→849B（假nested return type改var），每份只1执行行，正反全部raw/EOL/EOF精确；API/width提示已完整给，不写whole raw或缺依赖。counter freshstack事实正确但合同强hint；MOVSD/跨opaque CALL留score的说法错，不授whole反证。
 
 owner全2981B编排/13378B七方法Book，scenario prePOST、具体Test post生产审，不冒wholeblind。首3prod/新Test/7P全0，无期待修、旧subject/祖夹具重跑；3process3.411559s对684.444348s首prod→RUN/973.751489s marker→delivery与协调gap分别记，active/更早发现/netunknown。缺classpath文件/quoted search/错fixture路径和编前type限定成本保，不造compiler红。formal本cutoff pending后见另记；仅新represented组合，0硬件DF/EH/Native/Game/实速，两模式分轨继续。
+
+## 后到：强提示分类基本块原方法与owner完整叶分账
+
+[HTTP-GUIDED-CLASSIFIER-BLOCK-001](evidence/2026-11-02-http-guided-classifier-block.json)14完整项35586B→实际message39898B，1100/2100两POST均stop/0retry，峰2仅7.205023s。owner明确四指令mapping、fresh signed read/shift/compare与成熟scalar参考；1241B完整方法在原编译1549B owner容器中唯一byteexact，0方法执行/EOL/EOF修正，不冒自主设计、whole producer或blind推导。反审一具体例的负count地址、后态寄存器与highbase条件错误拒；ptr0事实有限采，未追R2。owner全1868B编排及7450B七场景，原facts prePOST、literal oracle在两END后/读CONTENT前冻，不混预生成盲oracle。
+
+首两prod/新Test/七场景全0，6正常+1预算异常、37read/7Budget/0write/0invoke；原runner stdout7，不写七JUnit。1150.329671s已录准备→RUN与1.507461s三进程、447.580507/11.906740s协调gap分列，更早发现/active/netunknown。原软件cutoff pending保，后见正式80d2475e：helper1549→1531仅四尾白18B，normalized方法一次/执行及注释保但不称formal rawmethod byteexact；whole/Test rawexact，唯一新339B wrapper 1P/原pins保。wrapper32.616738s窗口/31.403759s协调另记，0新Ops执行、硬件/Native/Game/SAVE/实速或未来upstream绑定信用。
