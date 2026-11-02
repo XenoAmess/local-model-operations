@@ -55,3 +55,5 @@
 两种模式都有保留价值，这是当前分工判断，不是净收益已证：普通HTTP已有窄方法/hunk采用与复杂语义失败的证据；OpenCode已跑通受控工具编辑，三任务仍需owner修正。持续用真实交付和owner成本修正这个判断，不护航任一模式，也不把当前反例认定为永久能力上限。业务主线修复与实际运行优先，研究、记录和发布不作线上恢复前置。
 
 发布门控的真实反例见[批准正文换行与失败后误推送](../docs/evidence/2026-11-02-approved-payload-publication-gate-failure.json)；这是owner流程失败，不能归模型，也不能把修复记成从未失败。
+
+只读导航试点不应先用 owner 手工全闭包抵消其准备成本目标。先给明确版本和真实授权源码根，让工具检索声明；若范围误窄则分账 owner 输入限制。观察重复时抽取少量已有 REQUEST，核 tool_choice/有限输出、原 task/system 是否仍持有、assistant/tool ID、精确参数和返回 SHA，再区分完整相同内容、仅输出排序变化、有效新 range、权限失败、工具字节cap和范围后还有行的 truncated 标记；直接读已有结果尾部的 cap/continuation 通知，不能只靠结构化标志归类。无新信息循环可按实际证据停止获准 owned 会话，保中断流，不改成隐蔽总帽，也不因检查若干样本就宣布 backend/template 根因或净工时收益。[325实际诊断边界](../docs/evidence/2026-11-03-opencode-readonly-navigation-loop.json)。

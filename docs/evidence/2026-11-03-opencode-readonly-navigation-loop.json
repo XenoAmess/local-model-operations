@@ -1,0 +1,109 @@
+{
+  "schema": "local-model-operations.sanitized-native-loop/v1",
+  "case_id": "read-only-source-navigation-loop325",
+  "mode_id": "opencode-native",
+  "task": "Locate an actual bounded historical-read/cache implementation and explain resource counting, release and fresh qualification from source. Goal was owner preparation/review cost, not code generation or a runtime optimization.",
+  "client": {
+    "OpenCode_actual_executable": "1.19.5",
+    "daily_maintenance": "Actual same-day successful cache reused; no registry or service probe for this task.",
+    "shared_executor_sha256": "28315bd0353e2a75282a6a2844940c2286259fe17af72193ed8df54442e7ba70",
+    "model_alias": "qwen38-coder",
+    "backend_weights_quantization_template": "UNKNOWN",
+    "configuration": "Existing recording relay and shared read-only config generator; new non-Git execution cwd/config/data/state, cleared ambient config overrides, effective merged config checked.",
+    "permission_scope": "Native read/glob/grep plus internal invalid; no model code edits or business operations observed. Tool permissions are not an OS/symlink sandbox proof. No negative write attempt was used to validate denial.",
+    "per_response_tokens": 6000,
+    "per_HTTP_seconds": 180,
+    "overall_steps_POST_or_wall_cap": null,
+    "ordinary_three_message_caller_unchanged": true
+  },
+  "runs": [
+    {
+      "run": 1,
+      "POSTs": 48,
+      "tool_calls_terminated_HTTP": 47,
+      "owner_stop_interrupted_HTTP": 1,
+      "CLI_seconds": 83.40627699998731,
+      "tool_invocations": 47,
+      "tools": {
+        "glob": 2,
+        "grep": 39,
+        "read": 6
+      },
+      "source_scope": "Owner initially froze four whole source files, but omitted the actual declaring file. This is an owner input/navigation scope error, not a complete-input semantic test.",
+      "actual_repetition": "Same search arguments25times. Four raw output orderings, one identical sorted line multiset, no new match information."
+    },
+    {
+      "run": 2,
+      "POSTs": 75,
+      "tool_calls_terminated_HTTP": 74,
+      "owner_stop_interrupted_HTTP": 1,
+      "CLI_seconds": 210.61066789999313,
+      "tool_invocations": 85,
+      "tools": {
+        "glob": 4,
+        "grep": 63,
+        "read": 18
+      },
+      "source_scope": "After the observed failure, native tools independently navigated the existing formal Java root and found actual definitions, lease code and callers. No manually assembled complete closure was a POST gate.",
+      "actual_repetition": "One exact search argument set36times returned byte-identical result SHA; two further searches with an include filter returned the same information."
+    }
+  ],
+  "protocol_review": {
+    "existing_REQUEST_samples": 9,
+    "new_probe_or_POST": 0,
+    "actual_sample_tool_choice": "auto",
+    "sample_max_tokens": 6000,
+    "sample_temperature": 0,
+    "sample_thinking": false,
+    "SSE_include_usage": true,
+    "response_format": "absent",
+    "original_task_and_system_still_present_unchanged": true,
+    "unknown_duplicate_or_pending_tool_result_IDs": 0,
+    "assistant_call_arguments_JSON_objects": true,
+    "read_tool_failure_or_permission_denial": 0,
+    "actual_returned_read_ranges_checked": 24,
+    "range_text_equal_postrun_source": 24,
+    "metadata_truncated_flags": 15,
+    "range_flag_meaning": "Of15 metadata truncated flags, one initial read explicitly hit a50KB output cap and returned lines1–748 with an offset749 continuation notice;14 were ordinary limited ranges with following lines. All24 returned range texts match their declared source ranges, which does not prove a whole file was supplied. No read/permission failure was observed.",
+    "postrun_source_parity": "The10files actually read in run2 matched the explicit formal source after LF projection; nine raw exact and one EOL projection. Working source was not an immutable whole-tree snapshot, and runtime source/binary linkage remains UNKNOWN.",
+    "root_cause": "Repeated model-emitted tool arguments and repeated results are observed. Samples do not show original-task loss, ID linkage failure, read-range parameter failure or denied reads. Backend/template versus model-intrinsic cause is not established.",
+    "actual_read_output_byte_caps": 1,
+    "ordinary_range_continuation_flags": 14
+  },
+  "terminal_and_adoption": {
+    "POSTs": 123,
+    "tool_calls_terminated_HTTP": 121,
+    "owner_stop_connection_interruptions": 2,
+    "HTTP_retry": 0,
+    "length": 0,
+    "final_assistant_text_chars": 0,
+    "final_audit_answer_received": false,
+    "source_navigation": "Partial useful navigation only; not completed analysis.",
+    "model_code_or_oracle_adoption": 0,
+    "owner_action": "Stopped the exact owned CLIs after observed no-information loops, preserved each reset/partial and all prior tools. Did not splice interrupted streams or rerun a third time for a success label. Owner independently checked the retrieved source; business details remain private.",
+    "current_owned_CLI_HTTP_inflight_at_closure": 0,
+    "per_session_HTTP_peak": 1
+  },
+  "cost": {
+    "CLI_seconds_sum": 294.01694489998044,
+    "full_task_start": "UNKNOWN; planning and old-runner navigation preceded the first phase marker.",
+    "owner_active_seconds": null,
+    "independent_phase_events_recorded": true,
+    "interleaved_work": "Model waits overlapped independent approved documentation publication; phase walls are not exclusive work hours.",
+    "owner_errors": [
+      "Overly narrow initial source scope.",
+      "Inline marker command quoting failed before filesystem effects.",
+      "Initial observation helper printed overly broad tool-output metadata; observer was narrowed. Observation gaps let further repeated calls accrue.",
+      "Initial owner classification treated all15 flags as ordinary ranges; existing output suffix later proved one genuine50KB read cap. Corrected before public publication; original private review retained with a separate erratum."
+    ],
+    "net_preparation_or_review_savings": "NOT_ESTABLISHED; owner preparation, correction, observation and source/protocol review must be retained, not replaced by CLI seconds."
+  },
+  "business_actions": {
+    "model_source_edits": 0,
+    "business_compile_or_JVM": 0,
+    "business_Git_or_runtime_or_Game_or_GET": 0,
+    "performance_or_SAVE_credit": false
+  },
+  "history_and_followup": "Prior successful read-only native tasks and ordinary HTTP delivery remain valid at their own scopes. This case is not a permanent model ability limit or a cross-mode cost benchmark. Future real tasks should distinguish missing owner source scope from repeated tool choices and verify actual context/protocol before assigning cause. No quota-driven replay of this closed task.",
+  "privacy": "Operational owner-reviewed boundary only. No raw source, requests, tool output, business counters, machine paths or identities copied."
+}

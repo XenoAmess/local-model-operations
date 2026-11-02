@@ -120,3 +120,7 @@ Civ6本批5个真实源码／诊断任务使用普通三消息HTTP，经共享CL
 两次错名拒读有owner TASK语义简称/launch误称CONTRACT列basename的导航贡献，不能全归model；全部八完整refs+TASK在write前已读。真实write→fullread→importedit→12行read仍漏execute先transfer，owner一执行行+一计数comment→5117→5143B partial，正逆核，不授whole raw/CLI0正确。Owner八Test仅新candidate盲、成熟callee已知，首prod/Test/JUnit0→8P，4.150357s三过程/89.527815s首prod→RUN，0旧绿。1806.774598s discovery→8P、1.1853s仅成功prepare、0.061395s仅机械assembly、37.350756s CLI与187.478225s交错review分账；native+counter短峰2合3.911908s非持续12–16，active/netunknown。原formalpending保；0全函数/ABI/权限沙箱/Native/Game/SAVE/实速信用。
 
 301独立[后到formal annex](evidence/2026-11-02-opencode-internal-tail-formal.json)记录eeb747a7：两leaf5143/9325B raw/formal/EOF逐字节等，0新增HTTP/编验。获准原portable的pending切点不回写，模型partial+owner语义修、owner8P和0运行/实速信用保持。
+
+### 原生只读导航后重复循环：协议核查与 owner 输入成本（325）
+
+[本次实际边界](evidence/2026-11-03-opencode-readonly-navigation-loop.json)：首轮 owner 四文件范围漏定义，修正后工具自行导航到真实实现；随后两会话都在无新信息搜索循环中被 owner 停止。合计123个 POST、121个 tool_calls 终态及2个停机中断，132次工具执行，零最终正文；不是完成量或高并发。九份实际 REQUEST 样本仍保原 task/system、auto tool choice、6000有限输出，ID链完整；24次 read 返回范围逐字核对，无权限/读取失败；其中一次确实触50KB工具输出cap，其余14个truncated为有限range后还有行，不能拿range等源冒全文件已读。第二轮同 args36次结果 SHA 完全相同，但后端/template 根因仍未知。保首轮输入窄错、观察延迟和过宽日志成本，294.0169449秒 CLI 不证明减少 owner 工时。无总步/POST/wall帽、无R3求成功；既有成功历史不回写，业务源码/计数与 raw 留私有。
