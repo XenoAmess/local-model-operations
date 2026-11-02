@@ -74,3 +74,9 @@ Civ6本批5个真实源码／诊断任务使用普通三消息HTTP，经共享CL
 [OC-FOURFILE-AUDIT-305](evidence/2026-11-02-opencode-four-file-dispatch-audit.json)是新的具名四文件问题，不重跑旧宽审。1.19.5复用当日成功维护缓存，exact4 read与内部invalid、独立空nonGit cwd/禁项目配置；glob/grep/edit/commands等禁止。实际4POST（3tool_calls+1stop）、6read覆盖4file、0相同参数重复/工具错/源码变更，自然CLI0/16.723718s。原生assistant/tool历史、每响应4096/单HTTP180s，不设总steps/POST/wall；不强套普通三消息或JSON模式，不把配置许可当OS/symlink隔离证明。
 
 仅default/concrete/wrapper dispatch源证据部分采用：owner拒绝由裸read转发推成authority缺陷的无证结论，并补模型在同文件漏看的声明；0code/Test/Native权限或运行收益。CLI不等完整准备、审阅或主动工时，更早发现/triage未录、fulltask/activeunknown；不同题目不与旧重复搜索案比速。仅公开许可的portable正文，原始源码、请求与工具历史留本机；本问已闭，无需补请求，双模式长期分别继续。
+
+## 新单叶编辑与同会话纠正
+
+[OC-SINGLE-BINDER-EDIT-298](evidence/2026-11-02-opencode-single-binder-edit.json)是真实缺失薄binding，不是旧失败题补成功。1.19.5新原生会话允许workspace glob/grep、exact读与唯一leaf write/edit；与上例305禁止glob/grep的配置不同，4次已许可glob不能算越权。每响应8000/单HTTP180s，总steps/POST/wall无封顶；配置/允许操作不证明负权限或OS隔离。首CLI11POST、9read4glob1write后stop/0，却只有2732B坏稿并虚承诺再写；owner整拒，未编。
+
+同实际session一次纠正6POST，工具顺序read→write→read→edit→read已真实发生，仍自edit成错误限定API型；owner仅一个类型限定修后partialselected，0R3/whole raw信用。独立9份captured before/after pins一致，launcher after自比flag已撤，不用于完整性证明。两CLI45.415948s对首BEGIN→末END317.443300s（gap272.027352）、sourceowner PREP240.297422s分列，fulltask/activeunknown；0净收益或与HTTP比速。此unit只授工具执行/源选择证据；必要软件与formal后到另附，0Native权限/Game/旧green或自主编测信用，仅许可portable正文公开。
