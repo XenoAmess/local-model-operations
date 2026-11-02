@@ -1,0 +1,78 @@
+{
+  "schema": "local-model-capability-evidence/v1",
+  "at_utc": "2026-11-02T23:52:37.230507+00:00",
+  "publication_permission": "Approved for metadata-only sanitized public publication by sole Models writer. Do not copy original source, raw requests/responses, game identifiers, private paths or exact archived bodies.",
+  "task": "Distinguish a clean zero-dispatch planning wall from an explicit bounded Life-budget yield, without weakening real no-progress/UNKNOWN guards.",
+  "input": {
+    "full_source_files": 21,
+    "physical_source_bytes": 771834,
+    "actual_three_message_bytes": [
+      [
+        301,
+        798609,
+        2672
+      ],
+      [
+        301,
+        798609,
+        2415
+      ]
+    ],
+    "evidence_files": 4,
+    "not_whole_transitive_runtime_closure": true
+  },
+  "http": {
+    "posts": 2,
+    "stop": 2,
+    "retry": 0,
+    "budgets": [
+      6000,
+      5000
+    ],
+    "peak": 2,
+    "overlap_seconds": "48.87249",
+    "union_seconds": "59.413043",
+    "roles": [
+      {
+        "role": "design",
+        "post_begin_utc": "2026-11-02T23:37:28.403593+00:00",
+        "end_utc": "2026-11-02T23:38:27.816636+00:00",
+        "first_content_ms": 41261.617400014075,
+        "total_ms": 59413.14119999879,
+        "usage": {
+          "prompt_tokens": 164365,
+          "completion_tokens": 2315,
+          "total_tokens": 166680
+        }
+      },
+      {
+        "role": "counter",
+        "post_begin_utc": "2026-11-02T23:37:28.418928+00:00",
+        "end_utc": "2026-11-02T23:38:17.291418+00:00",
+        "first_content_ms": 42197.39539999864,
+        "total_ms": 48873.69610002497,
+        "usage": {
+          "prompt_tokens": 164309,
+          "completion_tokens": 769,
+          "total_tokens": 165078
+        }
+      }
+    ]
+  },
+  "model_adoption": {
+    "design": "Whole reasoning rejected: trace Draft confused with actual selected result; earlier monotonic checks and typed stop paths missed; phase-total attribution guessed. Outer diagnosis/no-repair label does not validate its reasoning.",
+    "counter": "Whole reasoning rejected: publication count called livelock/finite without domain transition proof; existing bounds and inner-loop location missed; arbitrary threshold not adopted.",
+    "executable_model_code": 0,
+    "owner_no_candidate_is_not_model_code_success": true
+  },
+  "owner_conclusion": "No safe candidate with the held evidence. The generic wall check may occur before the later selected-Life budget gate; a trace can preserve a candidate command even after planning returned a deadline stop. Nine publication callbacks are real but do not certify finite canonical domain change. Current no-progress stopping remains intentional until typed bounded liveness or a new explicit yield contract is proven.",
+  "limitations": [
+    "No game/SAVE progress credit from publication or head changes.",
+    "No new queries, probes, runtime reload, source deployment, Java compilation or tests.",
+    "No CPU/IO/callee-time attribution from total planning wall.",
+    "Named source and scalar publication logs are not per-event canonical before/after proof.",
+    "Owner active time remains unknown; HTTP and preparation/review are separate."
+  ],
+  "review_sha256": "f444aedaa2c459f049b2638269a337920777287148561749321a563af377f1a2",
+  "cost_sha256": "a9bec29c31bbe74e3fadb3a2fd0d76c685c296411d4d8666f5509d130c0b389d"
+}

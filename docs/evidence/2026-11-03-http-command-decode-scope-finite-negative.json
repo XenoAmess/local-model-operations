@@ -1,0 +1,108 @@
+{
+  "schema": "local-model-operations.owner-approved-public-case/v1",
+  "mode_id": "http-candidate",
+  "case": "ordinary-command-decode-scope-analysis368",
+  "approval_scope": "Only this complete reviewed JSON is approved for public publication. Original source, requests, responses and execution evidence remain on the machine.",
+  "configuration": {
+    "source": "local-model-operations/config/executor.json",
+    "sha256": "28315bd0353e2a75282a6a2844940c2286259fe17af72193ed8df54442e7ba70",
+    "base_url": "http://192.168.1.11:8080/v1",
+    "model": "qwen38-coder",
+    "layout": "Fixed three-message ordinary HTTP; current complete source; T0/thinkingfalse/json/streamusage; same-day checked client cache."
+  },
+  "real_task": "Investigate whether an existing historical-only strict decoded Gameplay command DATA cache can safely serve a measured slow ordinary append path. Preserve actual Session qualification, fresh original validation, bounded cloned full-byte keys and strict failure behavior.",
+  "input": {
+    "whole_current_files": 23,
+    "physical_bytes": 459766
+  },
+  "requests": [
+    {
+      "role": "design",
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "max_tokens": 4000,
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "actual_source_prefix_reconstructed_equal": true,
+      "POST_BEGIN": "2026-11-02T23:47:53.443510+00:00",
+      "END": "2026-11-02T23:48:24.516450+00:00",
+      "attempts": 1,
+      "TTFT_seconds": 24.436607899988303,
+      "total_seconds": 31.07304240000667,
+      "usage": {
+        "prompt_tokens": 95727,
+        "completion_tokens": 703,
+        "total_tokens": 96430
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "counter",
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "max_tokens": 3000,
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "actual_source_prefix_reconstructed_equal": true,
+      "POST_BEGIN": "2026-11-02T23:47:53.443674+00:00",
+      "END": "2026-11-02T23:48:32.440851+00:00",
+      "attempts": 1,
+      "TTFT_seconds": 23.210562599997502,
+      "total_seconds": 38.99716400000034,
+      "usage": {
+        "prompt_tokens": 95752,
+        "completion_tokens": 1836,
+        "total_tokens": 97588
+      },
+      "cached_tokens": null
+    }
+  ],
+  "outcome": "Both complete answers returned NoSafeCandidateFound. Zero implementation or algorithm adoption. The owner rejected their unsupported current-session validation and missing-cleanup explanations; this does not prove that the proposed cache is safe or unsafe.",
+  "concrete_errors": [
+    "Mistook pure byte-derived constructor validation for current-head or writer-context validation.",
+    "Treated immutable nested fields as a mutation hazard without a concrete source counterexample.",
+    "Missed the supplied scoped finally cleanup and finite cache bounds."
+  ],
+  "software_formal_runtime_SAVE": {
+    "production_delta": 0,
+    "new_compile_or_test": 0,
+    "formal_adoption": 0,
+    "runtime_change": 0,
+    "saved_day_or_speed_credit": 0
+  },
+  "cost": {
+    "local_task_peak": 2,
+    "peak_duration_seconds": "31.072776",
+    "currently_inflight": 0,
+    "global_inflight_or_server_queue": null,
+    "active_prepare_seconds": null,
+    "active_review_seconds": null,
+    "source_qualification_to_review_marked_wall_seconds": 327.256368,
+    "preparation_issues": [
+      "Navigation initially looked for earlier 363 scripts inside their evidence directory; actual scripts are in RootD. Corrected after FileNotFound before mutation.",
+      "Initial NativeOutcomeArchive path guess used service package; rg located the actual continuity/writer leaf before any source freeze or request."
+    ],
+    "owner_cost_reduction_proven": false
+  },
+  "boundary": "A cautious-looking rejection is not automatically correct. Judge its source-supported reasoning as carefully as an implementation. Narrow further only after actual call coverage and lifecycle qualification; no throughput or owner-labor gain demonstrated."
+}
