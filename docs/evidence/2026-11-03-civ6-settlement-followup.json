@@ -1,0 +1,183 @@
+{
+  "schema": "local-model-operations.civ6-settlement-followup/v1",
+  "date_local": "2026-11-03",
+  "machine_id": "BF-202609141645",
+  "batch": {
+    "requests": 3,
+    "complete": 3,
+    "length": 0,
+    "retries": 0,
+    "actual_client_peak": 2,
+    "first_pair_overlap_seconds": 17.540233,
+    "third_serial": true,
+    "server_concurrency": null,
+    "cached_tokens": null
+  },
+  "cases": [
+    {
+      "sequence": 195,
+      "case_id": "HTTP-CIV6-BOUNDEDSETTLER195",
+      "mode_id": "http-candidate",
+      "shared_commit": "49eea143baff2c083671766ee7768852f2c2f91b",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 5800,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T18:31:30.356010+00:00",
+      "attempt_end_utc": "2026-11-02T18:31:51.424789+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 21078.196599992225,
+        "first_nonempty_content_delta_ms": 3938.9156000106595,
+        "usage": {
+          "prompt_tokens": 17519,
+          "completion_tokens": 2317,
+          "total_tokens": 19836
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected-code",
+      "review": "Narrativecap1 notimplemented: whileloopstill processesallnewpaths; testedtop onresume doesnotadvance. Missingrequiredcontextlifecycle. Sourceinspectiononly,no claimedcandidateexecution. Ownerboundedsettler14newcombinedtests/463fullPASS.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 196,
+      "case_id": "HTTP-CIV6-FRESHGUARDCOST196",
+      "mode_id": "http-candidate",
+      "shared_commit": "49eea143baff2c083671766ee7768852f2c2f91b",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 6200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T18:31:30.366671+00:00",
+      "attempt_end_utc": "2026-11-02T18:31:47.906904+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 17548.979500017595,
+        "first_nonempty_content_delta_ms": 5289.593699999386,
+        "usage": {
+          "prompt_tokens": 16220,
+          "completion_tokens": 1439,
+          "total_tokens": 17659
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected-analysis",
+      "review": "Noexactedits; wronglyclaimsTradeParams localcache crossesinvocations/routeboundaries, misordersSafe/TradeParams andconfusesqualificationquerywithwrite. Wouldincrease reads andassumesdestinationinpathwithoutproof. Nogeneratedchangesadopted; ownerguardworkstillunfinished.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 197,
+      "case_id": "HTTP-CIV6-LAZYSITES197",
+      "mode_id": "http-candidate",
+      "shared_commit": "49eea143baff2c083671766ee7768852f2c2f91b",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 3500,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T18:39:18.872442+00:00",
+      "attempt_end_utc": "2026-11-02T18:39:39.242644+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 20365.19650000264,
+        "first_nonempty_content_delta_ms": 1239.945000008447,
+        "usage": {
+          "prompt_tokens": 3246,
+          "completion_tokens": 1088,
+          "total_tokens": 4334
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-owner-corrected",
+      "review": "Retaincheaprankedproposals andperinvocationknowncityreuse structure. Correctwrongstate.reservations toactualmodule, earlyreturnonhidden/unsafe firsthint, eagerloserplotreads and repeatedcoordinategetters. Originalcorrected4methods2FAIL; first3FAILincludesownermockvisibilityMapcounterfalsepositive. Owner14new/463fullPASS; noNative52effectyet.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "native51": {
+    "evidence": "https://github.com/XenoAmess/civ6_dev/blob/0b5c313f0713458809b9d0737ba41127010cb555/docs/research/baiqi-p6-performance-native51-evidence-2026-11-03.json",
+    "controller_pureten": 123,
+    "controller_p95_ms": 73.000192642212,
+    "controller_max_ms": 356.99987411499,
+    "admin_pureten": 78,
+    "admin_max_ms": 9.999990463256799,
+    "result": "B_planFAIL/TC036NOTPASS;221roots/201pureten,all7pointersrestored,0Luaerrors.",
+    "actual_effects": "4traderrequestIDs matchactualdomesticroutes,9/9totalnotallattributed;11cities/allqueuesnonemptyUI+Core. Settler357msincludes10paths272ms;27builderactionrootsallmax1pathbutmax92ms.",
+    "limits": "Nocausalpercent/fullmatchingpairs/globalmoduleexclusive/N_req proof."
+  },
+  "owner_source52": {
+    "evidence": "https://github.com/XenoAmess/civ6_dev/blob/00617cbbd60fd66e348063105f5bc3d758992978/docs/research/baiqi-p6-settler-slices-source52-evidence-2026-11-03.json",
+    "new_methods": 14,
+    "software": "10settler+4sitePASS,oldpathranking12PASS,settlementquery6PASS,full463PASS88.249s.",
+    "owner_correction": "Initial463run1FAIL: cheapproposalcollectionstilllookedup losingplot. DeferredMap.GetPlotByIndex aftersortedindexmetadata. Earliercommentarymisattributedfailuretofounding; actualrecruitmentexistencegate corrected.",
+    "native52": "Notinstalled/nativeverified; source51lastactualrun."
+  },
+  "owner_cost": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "validation": null,
+    "exclusive_active_seconds": null,
+    "note": "195/196mechanicalassemblycompletionevents only;197completecostnotmeasured; no cost/netbenefit inference."
+  },
+  "maintenance": {
+    "date": "2026-11-03",
+    "installed": "1.19.5",
+    "registry_latest": "1.19.5",
+    "preflights": "All3canonicalCLI calls reusecurrentday same-machine/same-user successfulcache.",
+    "new_opencode_native_generation": 0
+  },
+  "experience": "Repeatedmodelfullflowpatches maykeepunboundedloopdespiteexplicitbudgetandworkingbuilderreference. Owner takesover. Narrowingproducergetsusefulsorting/cachebutcanstillinventstatefield andabortfirstinvalidcandidate. Test actualmodule reservation via realfirstsettler command, then secondsettlerhelperconsumer; do notfakea matchingstate.reservations. NativevisibilitymockinternalMaplookupmustnotinflateproducerMapcallcount; preservefailedrawrunandcorrectfixture beforeclassifyingcandidate. Provisionalmetadata sortingmustalsoavoidloserplotNativequeries, notonlyexpensiveSafety.",
+  "cumulative_civ6": {
+    "logical_requests": 197,
+    "complete": 187,
+    "length": 10,
+    "retries": 0,
+    "historical_actual_peak": 13,
+    "historical_peak_duration_seconds": null
+  },
+  "limits": [
+    "Source52softwareonly; no full TC036/native52PASS.",
+    "196guarddeduplicationstillownerunfinished.",
+    "One ProcessSettler invocationboundnotallplanners/callbackaggregateproof.",
+    "No hardware/cache/netsavingsclaim."
+  ]
+}
