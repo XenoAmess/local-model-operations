@@ -367,7 +367,11 @@ def audit_trace(root: Path) -> dict:
         "total_tool_invocations": sum(sum(value.values()) for value in counts.values()),
         "finish_counts": dict(finishes), "owner_stop_evidence": owner_stop,
         "owner_interrupted_attempts": interrupted, "unknown_attempts": unknown,
-        "final_text_present": final_text,
+        "assistant_text_event_present": final_text,
+        # This trace format has no response-ID link from CLI text to SUMMARY.
+        # Intermediate assistant text cannot establish a final-answer event.
+        "final_text_present": None if final_text else False,
+        "final_text_association": "UNKNOWN_NO_RESPONSE_LINK" if final_text else "NO_TEXT_EVENTS",
         "exit_code": (actual.get("exit_code") if actual and type(actual.get("exit_code")) is int else None),
     }
     if actual:

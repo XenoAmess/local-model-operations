@@ -1,0 +1,12 @@
+{
+  "schema": "local-model-operations.capability-addendum/v1",
+  "case_id": "readonly-trace-auditor332-text-association",
+  "original_publication": "39707c6fd99c24e02b48aa455c336485022b5c86",
+  "owner_postpublication_review": "The first owner implementation treated any nonempty CLI assistant text as final_text_present. Without response-ID linkage to HTTP SUMMARY, an intermediate text event cannot prove a final answer even if another response stopped.",
+  "attribution": "Owner implementation and owner extra Test expectation, not a new model failure. Independent frozen six-case fixtures did not require a positive final-text attribution; their original expected values and prior report bytes remain unchanged.",
+  "correction": "Separate assistant_text_event_present from final_text_present. Any observed text has final association UNKNOWN_NO_RESPONSE_LINK and final_text_present null; no observed text remains false. Finish counts and business completion remain separate.",
+  "validation": "Seven targeted Python methods pass after adding both stop-with-text and tool_calls-with-text unknown-association assertions. No new model POST, native launch, business action or original trace mutation.",
+  "prior_actual_scope": "Both existing native traces contained no assistant text; their prior no-final-text/count/repetition/cap findings are unchanged. This does not retroactively qualify an arbitrary positive final answer.",
+  "owner_active_seconds": null,
+  "performance_or_runtime_claim": false
+}

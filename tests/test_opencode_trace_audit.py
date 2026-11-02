@@ -165,13 +165,18 @@ class TraceAuditTests(unittest.TestCase):
         report = self.audit_case({"trace": trace})
         self.assertFalse(report["termination"]["final_text_present"])
         trace["events"].append({"type": "text", "part": {"text": "SECRET_TOOL_OUTPUT"}})
-        self.assertTrue(self.audit_case({"trace": trace})["termination"]["final_text_present"])
+        termination = self.audit_case({"trace": trace})["termination"]
+        self.assertTrue(termination["assistant_text_event_present"])
+        self.assertIsNone(termination["final_text_present"])
+        self.assertEqual("UNKNOWN_NO_RESPONSE_LINK", termination["final_text_association"])
+        trace["summaries"][-1]["finish_reason"] = "tool_calls"
+        self.assertIsNone(self.audit_case({"trace": trace})["termination"]["final_text_present"])
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             write_trace(root, trace)
             with redirect_stdout(io.StringIO()) as successful_output:
                 self.assertEqual(0, AUDIT.main([str(root)]))
-            self.assertEqual(SCHEMA := "local-model-operations.opencode-trace-audit/v1",
+            self.assertEqual("local-model-operations.opencode-trace-audit/v1",
                              json.loads(successful_output.getvalue())["schema"])
             with redirect_stdout(io.StringIO()) as output:
                 status = AUDIT.main([str(root / "PRIVATE_CANARY_ROOT")])
