@@ -373,3 +373,9 @@ owner13edit正逆精确，私有局部proof仅在同role/session/thread一次cal
 [HTTP-BOUNDED-SWAP-STATE-001](evidence/2026-11-02-http-bounded-swap-state.json)将全ABI编排留owner，只派具名小memory块/有限反审。实际8/8/9份完整文本按顺核wire；R1 length1800被owner阅过部分诊断后整弃0采用，不称unread或完整语义失败。R2在owner补明实际RCX/RAX坐标并给真实caller后stop463，1214B decoded仅加owner最后XMM0赋值一行41B成1255B；删此行逆回全部decoded bytes/EOF，因此是partial+执行状态修正，不能记whole raw。audit2300预算完整stop2226，仅有限事实采，早返回/寄存器/除数等错误拒。
 
 3POST2stop1length/0retry，峰2仅56.455718s；owner5946B全体与15782B Test分账，literal早于POST但owner后见生产，不授wholeblind oracle。两新prod/一Test首8P有限软件，三进程3.338924s与firstprod→RUN324.390378s、marker→delivery786.899117s分列，主动工时和更早发现未知。原warning保留，原软件cutoff正式pending不改；后到845b638c三源raw/formal精确、0新编测，0Native硬件/整selector/实际游玩与提速信用；无R3或旧绿补验。
+
+## 后到：原方法采用不等于owner架子整类采用
+
+[HTTP-DISPATCH-METHOD-IN-SCAFFOLD-001](evidence/2026-11-02-http-dispatch-method-in-scaffold.json)以15完整输入51551B和owner指定真实route/名义类型/未写scaffold派两个角色。R1完整869B dispatch方法逐字存在选定1984B类内一次，0owner method执行/EOL/EOF修；其它execute/bind/nonnull架子与comment为owner，不能授wholeclass/自主API或盲算法发现。audit完整981tokens但错savedRBX槽/发明Frame/缺具体callback反例，仅有限事实可用；一处audit parent名称owner笔误因果未知另保，不称隔离cleanprompt失败，也不R2复述已知事实。2POST2stop/0retry，预算1700/1800，峰2仅4.960639s。
+
+owner原facts先于POST，五新case在响应结束后、owner读CONTENT前冻结，不能把“读前独立”说成生成前冻结。首1prod/1Test/RUN五case无修全0，2.172894s进程与known→RUN887.713197s/inputfreeze→RUN704.609610s、GO/通知间隔分列，active/netunknown。原formal pending截止不改，后到14890196两payload rawexact；新增335B ownerJUnit wrapper只调用这五case，1P不另计第六场景，wrapper25.369929wall/1.128569process/24.241333gap独立。其它ports opaque，0硬件/Native/Game/性能或更大完成信用。
