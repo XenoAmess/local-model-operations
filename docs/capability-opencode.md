@@ -84,3 +84,5 @@ Civ6本批5个真实源码／诊断任务使用普通三消息HTTP，经共享CL
 后到 [OC-SINGLE-BINDER-EDIT-298-SOFTWARE](evidence/2026-11-02-opencode-single-binder-edit-software.json)：R2 raw5669B仅owner限定类型+24B→5693B，partial等级不变；10130B全owner四Test仅新adapter候选盲，成熟lower/contract已知，不冒wholeblind。首prod0；Test首编缺两个既有binary根真红/0JUnit，180→182 CP-only修复已核其它argfile行及原优先序不变，source/期待0改，必要retry编0→首次4P，非重复旧绿。原JBoss警告保。
 
 四process4.644404s对568.988033s首prod→JUnitEND，PREP240.297422/REVIEW418.222083与更早发现/activeunknown分层；Native preflight quoting、owner封包slash字串断言、Ops漏固定reader空命令结果均属准备成本，不归模型/源码。原portable冻结逐byte不改、formal pending另见，0新HTTP/编测或Native/全ABI/Game/SAVE/净提速。
+
+后见 [OC-SINGLE-BINDER-EDIT-298-FORMAL](evidence/2026-11-02-opencode-single-binder-edit-formal.json)：正式`2754ce14`两blob5693/10130B与选定raw/currentformal/EOF逐byte等，0新编RUN；原portable与software pending文件逐byte不改。R1拒、R2+24B owner类型修partial/全owner Test与CP首红→仅CP修首4P等级不变。原17POST/工具顺序/owner准备修正及未知active照保，0模型原稿whole、权限/Native/Game/SAVE或实速收益追授。
