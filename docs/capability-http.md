@@ -400,6 +400,12 @@ owner源/首1TU2.182494s在两POST前已完成；原准备文案写两次assert�
 
 owner实测43自主传播有效但次回合被受托单位需命令阻断；最终44安全SKIP待命、回执保留与busy停发由owner实现，9新边界方法加全套363PASS/60.310s。owner首测夹具重名覆盖老项目待机测试，已按原HEAD恢复，独立命名新夹具；过宽busy门还曾阻止既有事实读回，修正后保留读回和pending计时。拒绝/截断与owner修正成本分别记录，44原生仍待验，不能从软件绿追授模型或行动费用通过。[逐请求与正式采用回执](evidence/2026-11-02-civ6-standby-delivery.json)。OpenCode本轮仅每日维护缓存，0native生成；净收益与模式比较未知。
 
+## 2026-11-02：Civ6原生回合阶段与147／148后到回执
+
+147宗教战斗夹具、148回合门两个实际请求均200/stop/DONE/JSON、0重试，区间不相交峰1。147仅在owner修循环、前提、部分失败收据及T78集成后部分采用，3个Core类型创建和窄输入对照通过；Core赋教1而UI仍−1，不能把setter回执当另一上下文同步证明。148代码整拒：Activate忽略真实事件pid却在prose声称排除foreign，且缺include、saved初始恢复及整数边界；owner完整重写，不追授最终373软件绿为模型成功。[逐项采用、成本与发布反链](evidence/2026-11-02-civ6-phase-native-followup.json)。
+
+后到44真实验收已正常75→78、3次传播／8次待命，旧未知回执不重放。末次UI单位消失，Core仍返回同fullID但0次数／−9999坐标的墓碑，不能把FindID非nil当合法live；仍保留ARMED。另有直接反例：Busyfalse和Processingfalse时，后台动作仍在本地PlayerTurnActivated之前；原生事件先后需按实际消费者取证，不能把idle推成完整回合初始化。45源码改为严格本地事件确认及写边界门，373全套＋17末次日志检查通过；45冷验尚未完成，冻结等级不回写或冒充费用实机通过。OpenCode仍仅每日维护缓存，净owner成本／收益未知。
+
 ## 后到：child adapter的实参和不可变offer修正
 
 [HTTP-CHILD-FRAME-ADAPTER-001](evidence/2026-11-02-http-child-frame-adapter.json)在owner全ABI编排下派一个有真实caller的窄adapter。按角色实核11/10/10完整项；adapter见新owner caller，两个counter角色未见新producer/oracle，不混成同一独立审域。adapter stop410给1476B完整Java，owner只两替换成1484B：补已完整声明API的actual Calls实参、N guard改比已有childEntry不可变offer而非可变registers。双逆回decoded全文/EOL/EOF精确，partial而非whole raw；缺参在javac前纠正，不能虚记编译红。

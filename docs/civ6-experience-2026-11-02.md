@@ -52,3 +52,9 @@ owner已发表两个窄原生结果：军队Delete打开原生确认，文职建
 4个真实任务分别是普通领袖对照准备、传播回合时序诊断、未知能力安全待命helper、资格回调后身份再检测试。4个不相交POST区间，3完整stop/JSON对象、1 length1600整弃、0传输重试，峰1；不是4并发。143仅在owner补早期slot guard后准备，原生尚未运行。144只有既有idle门控思路部分参考，未测Busy flags不能推出已确认竞态；145竟禁止任务要求保留的persistent pending，完整helper拒绝；146截断稿未采用、不拼接。owner曾在确认终态前误打开raw，保留流程错误，不作语义能力定性。
 
 owner实测43自主传播有效但次回合被受托单位需命令阻断；最终44安全SKIP待命、回执保留与busy停发由owner实现，9新边界方法加全套363PASS/60.310s。owner首测夹具重名覆盖老项目待机测试，已按原HEAD恢复，独立命名新夹具；过宽busy门还曾阻止既有事实读回，修正后保留读回和pending计时。拒绝/截断与owner修正成本分别记录，44原生仍待验，不能从软件绿追授模型或行动费用通过。[逐请求与正式采用回执](evidence/2026-11-02-civ6-standby-delivery.json)。OpenCode本轮仅每日维护缓存，0native生成；净收益与模式比较未知。
+
+## 2026-11-02：Civ6原生回合阶段与147／148后到回执
+
+147宗教战斗夹具、148回合门两个实际请求均200/stop/DONE/JSON、0重试，区间不相交峰1。147仅在owner修循环、前提、部分失败收据及T78集成后部分采用，3个Core类型创建和窄输入对照通过；Core赋教1而UI仍−1，不能把setter回执当另一上下文同步证明。148代码整拒：Activate忽略真实事件pid却在prose声称排除foreign，且缺include、saved初始恢复及整数边界；owner完整重写，不追授最终373软件绿为模型成功。[逐项采用、成本与发布反链](evidence/2026-11-02-civ6-phase-native-followup.json)。
+
+后到44真实验收已正常75→78、3次传播／8次待命，旧未知回执不重放。末次UI单位消失，Core仍返回同fullID但0次数／−9999坐标的墓碑，不能把FindID非nil当合法live；仍保留ARMED。另有直接反例：Busyfalse和Processingfalse时，后台动作仍在本地PlayerTurnActivated之前；原生事件先后需按实际消费者取证，不能把idle推成完整回合初始化。45源码改为严格本地事件确认及写边界门，373全套＋17末次日志检查通过；45冷验尚未完成，冻结等级不回写或冒充费用实机通过。OpenCode仍仅每日维护缓存，净owner成本／收益未知。
