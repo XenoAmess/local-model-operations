@@ -1032,3 +1032,5 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 333 [实际实现后继](evidence/2026-11-03-http-nominal-data-reuse-implementation-later.json)独立追加，不回填原资格阴性：35完整Java/901321B actualcandidate反审一logical两POST(reset整弃→原request自动stop)，五条actionable均被逐源驳回/0modelcode；owner nominaldecoder与cleanup、首4TU+onlychanged1TU+新6P分列。878.435409wall/27.7000974Java进程wall与activeUNKNOWN保；raw-key预算非RSS上限，miss仍加clone/key工作，formal/运行采用/实际hit率与净提速未授。
 
 334 [reload范围advisory的owner实现](evidence/2026-11-03-http-reload-scoped-advisory-owner-implementation.json)两个完整ordinaryHTTP设计/反证均拒/0codeoracle，owner REV02双叶首strict0；Test首编owner两实参倒序RED仅fixture调用改正，5unique方法首执行P。SourceReady→最终TestEND1628.848143窗与含红进程11.1847593/协调gap41.87544/activeUNKNOWN分列，不把SourceReady当更早完整任务起点。另报Runtime41.065s与两约147k请求仅同期事实，拥塞/变慢因果未证；formal原pending及旧318真实成功归属保，不冒新loader/恢复值/SAVE或实速授信。
+
+333 [后到正常formal](evidence/2026-11-03-http-nominal-data-reuse-implementation-formal.json)362a4ca6仅另列4existing生产类型+1newTest发表，原3023B软件pending正文保；0新增验证，实际Runtime采用/热重定义兼容/实速分别不授或UNKNOWN。
