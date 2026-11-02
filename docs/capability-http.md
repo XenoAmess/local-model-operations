@@ -612,3 +612,9 @@ Test两完整稿没真正先触发获取再造第二文件冲突，whole0/ownerw
 [immediate-detached-data-reuse](evidence/2026-11-02-http-immediate-detached-data-reuse.json)是source owner/Root明确批准的原字节portable。三个真实HTTP无retry，实施/前瞻反审重叠峰2仅33.270375s；六raw执行hunks精确正逆、owner两维护comment，反审未见candidate且whole拒，不能记成实际body审通过。9500 Test length整稿未读拒/0片段/不续轮，owner四新方法首绿；public provider防御检查保留，具体内部detached路径只删一次即时重复clone/hash。
 
 两prod首strict+Test strict/4P过程8.4213747s与125.325301s验证全wall、2841.453539s marker→成熟/3286.643395s→发表分开，早期准备/首读漏测和activeunknown不填0。Git LF与物理单CRLF来源误判/owner包名和嵌套名准备错留证；两既有classfamily需同版本，private具体类型新依赖边不因无新class定义而消失。软件/正式已闭，运行采用和性能未观察；不是启动或整局提速原因。payload精确caller invocation版本null，不借当前HEAD补；原材料仍私有。
+
+## 后到：captured Memory名义类型修正与独立proof拒绝
+
+[HTTP-NOMINAL-CAPTURED-MEMORY-CORRECTION-001](evidence/2026-11-02-http-nominal-captured-memory-correction.json)23完整材料74800physicalB/actual80256B，current caller5904B与旧8port/no-range缓存分开，directMemory祖/原ASM在请求。五actualPOST/四stop一length/0retry，峰3仅24.082846s；binding R1完整4331但两nominal Memory实参错源审前抓未编，强hint唯一R2两raw编辑换captured Memory→4337，逐字forward/inverse/ownerJava0，不追R1whole正确。owner API653/Test12125和预冻oracle分开；witness整稿漏旧header清理/两ADD、混前后态拒，frame1300 length未读整弃，R2完整仍hex/decimal等式错wholeproof0/noR3。
+
+旧cache资格不足在Java前发现→必要current1support首编，再新2prod/1Test/两case78checks全0；只逻辑RAM上层consumer与controlled深port，动态recursiveframe/完整Native或G2完成未授。四过程3.562047s与验证255.866436s、manifest→首验977.838412s分别保，更早发现/activeunknown；实际SAVE窄窗让位不能包揽全部准备等待。原SOURCE_ONLY/后软件切点保持、formal在owner delivery仍pending，后见receipt另附；0新HTTP/JVM/Game或速度结论。
