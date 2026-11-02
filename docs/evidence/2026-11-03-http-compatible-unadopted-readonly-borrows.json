@@ -1,0 +1,88 @@
+{
+  "schema": "local-model-operations.capability-evidence/v1",
+  "case_id": "private-readonly-parse-borrows330",
+  "mode_id": "http-candidate",
+  "input": {
+    "whole_source_entities": 16,
+    "physical_bytes": 115803,
+    "actual_source_message_utf8_bytes_each": 120276,
+    "guidance": "Owner exact three-private-clone hypothesis, full source; counter had proposal but no candidate. Owner-authored public contract Test, no third HTTP."
+  },
+  "http": {
+    "POSTs": 2,
+    "stop": 2,
+    "retry": 0,
+    "R2": 0,
+    "peak": 2,
+    "overlap_seconds": 47.861045,
+    "union_seconds": 55.693497,
+    "attempts": [
+      {
+        "role": "http-implementation",
+        "POST_BEGIN": "2026-11-02T19:09:48.247484+00:00",
+        "END": "2026-11-02T19:10:43.940981+00:00",
+        "seconds": 55.693497,
+        "TTFT_ms": 7035.6878000020515,
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 26736,
+          "completion_tokens": 1854,
+          "total_tokens": 28590
+        },
+        "cached_tokens": null,
+        "max_tokens": 5000
+      },
+      {
+        "role": "http-counter",
+        "POST_BEGIN": "2026-11-02T19:09:48.264302+00:00",
+        "END": "2026-11-02T19:10:36.125347+00:00",
+        "seconds": 47.861045,
+        "TTFT_ms": 7240.516899997601,
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 26736,
+          "completion_tokens": 963,
+          "total_tokens": 27699
+        },
+        "cached_tokens": null,
+        "max_tokens": 5000
+      }
+    ]
+  },
+  "adoption": {
+    "implementation": "stop1854, two exact edits semantically correct and equivalent to owner first two; no third put edit. Zero algorithm bytes adopted because owner candidate was already authored before reading model content, not because model implementation failed. Inaccurate prose about checked calling getter is not an executable code defect.",
+    "counter": "stop963 whole rejected: argues removing public getter clone/constructor normalization explicitly out of proposed scope; no concrete blocker to the actual three private readonly borrows. Generic test advice not adopted.",
+    "owner": "All three executable production edits and both Test methods owner-authored; correct two model edits not adopted after owner candidate first written and before content was read. No model bad-code compile, no test generation attribution.",
+    "model_algorithm_bytes_adopted": 0,
+    "meaning": "Compatible model code can be unadopted because an independent owner candidate was already written before reply reading; 0adoption does not imply model code failure."
+  },
+  "timing_erratum": "Original readiness/proof said inflight although actual END preceded Ready; last-known/unconsumed reply was not a live HTTP. Original records retained with independent erratum.",
+  "software": {
+    "production_strict_seconds": 1.553882699998212,
+    "Test_strict_seconds": 1.4706128,
+    "first_JVM_seconds": 4.3860058,
+    "new_methods_passed": 2,
+    "process_sum_seconds": 7.410501300008036,
+    "Test_gap_seconds": 6.001508,
+    "qualification": "Public wire/alias contract only, not wall-time speed or filesystem/Root authority."
+  },
+  "cost": {
+    "first_POST_to_last_JVM_wall_seconds": 352.145012,
+    "pre_marker_discovery": "UNKNOWN",
+    "owner_active_seconds": null,
+    "owner_preparation": "Two shell quoting/navigation failures and guessed prior template corrected before Java. Actor fixture originally used uint64 where real Session requires signed32; fixed positive actor before Ready, not a model/API or compiler failure."
+  },
+  "later_formal": {
+    "commit": "8d2e100e8797a4a96f4cc8f567117b0e22022e5d",
+    "source_bytes": [
+      6854,
+      7701
+    ],
+    "two_raw_formal_blobs_equal": true,
+    "EOF_preserved": true,
+    "new_validation": false
+  },
+  "runtime_or_performance_claim": false,
+  "original_cutoffs_preserved": true,
+  "new_HTTP_or_Java_for_publication": 0
+}
