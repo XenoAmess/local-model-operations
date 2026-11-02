@@ -1273,3 +1273,6 @@ Root replay-scope363 [persistent strict Driver DATA decoder接线](evidence/2026
 622 [Page allocator显式FP/postDF接线](evidence/2026-11-03-http-page-allocation-fp-direction-binding.json)批准4524B原样，54全文实体含plannedAPI文本非54producer，4POST全stop/0retry/峰3仅7.627146s；implR1漏Normal DF源审拒未编，soleR2四exacthunk到11058模型部分，owner仅classcomment到10979/0owner执行而非整classraw。Counter未见candidate不授实现审；独立witness6807未length却双publicclass/oldSETtrace/undefinedstate错whole0，无wholeTestR2。Owner11284/4组Test全部CONTENT与prodcompile后编写/私oracleprePOST非blind，三first0 stdout4非JUnit；2.1320835process/608.445840晚clock下界/activeNULL与binaryUTF8准备错保。原formalpending，不授legacy errorCALL/INT3/free/innerOS/currentFP/Native172同次16+4或实速。
 
 [Windows owner读命令构造规则](evidence/2026-11-03-windows-owner-read-command-construction.json)批准2182B原样，属host准备经验不增模型case：每个read exec先定义固定只读read(path,start,end)，路径只作为data；授权helper显式解释器，不裸.py/数据路径执行或未知--help探接口。用resolved identity+sizeSHA核元数据，不把slash差当文件异；association/dispatch/UI未持就UNKNOWN，不从exit0/空stdout证明0副作用。不新增业务/重放/进程扫杀/HTTP权限。
+
+
+[新M7 seam原生独立源审记录](evidence/2026-11-03-opencode-held-frame-source-loop.json)属于opencode-native：173累计串行tool往返/177tools/104同SHA重复后owner停止、0finalstop，不计普通三消息采用率或173个任务。它与普通guided363四literalhunk/有限3P价值分别保留，均未证明净owner省工。Root另授同10freeze/原题的普通HTTP单答仍须sourceowner判定；协议、toolhistory与额外callee范围不同，不凭15秒或367秒作等价A/B，也不抹M7事前取源及owner准备/观察成本。

@@ -146,3 +146,14 @@ Civ6本批5个真实源码／诊断任务使用普通三消息HTTP，经共享CL
 [本次实际边界](evidence/2026-11-03-opencode-readonly-navigation-loop.json)：首轮 owner 四文件范围漏定义，修正后工具自行导航到真实实现；随后两会话都在无新信息搜索循环中被 owner 停止。合计123个 POST、121个 tool_calls 终态及2个停机中断，132次工具执行，零最终正文；不是完成量或高并发。九份实际 REQUEST 样本仍保原 task/system、auto tool choice、6000有限输出，ID链完整；24次 read 返回范围逐字核对，无权限/读取失败；其中一次确实触50KB工具输出cap，其余14个truncated为有限range后还有行，不能拿range等源冒全文件已读。第二轮同 args36次结果 SHA 完全相同，但后端/template 根因仍未知。保首轮输入窄错、观察延迟和过宽日志成本，294.0169449秒 CLI 不证明减少 owner 工时。无总步/POST/wall帽、无R3求成功；既有成功历史不回写，业务源码/计数与 raw 留私有。
 
 325 后续新增[只读 trace 审计器](opencode-trace-audit.md)，可从已有原生日志自动区分同参数/同结果、文件归属不变的 grep 排序变化、读取区间和显式 cap。既有两会话123请求/132工具核对吻合，仍无最终模型文本或业务审计完成。工具由普通HTTP候选加 owner 大量修复交付，其[采用与成本](evidence/2026-11-03-http-readonly-trace-auditor.json)不算一轮新原生模型试验，也没有自动停止或总帽。
+
+
+### 新独立 held-frame producer seam 源审：173次串行请求仍未完成
+
+[本次owner审阅脱敏证据](evidence/2026-11-03-opencode-held-frame-source-loop.json)是新真实未闭source问题，不是325补成功。1.19.5/同日cache真核，owner提供10whole formal快照201638B/同题并允许必要formalcallee导航；新隔离只读会话实际173POST173完整tool_calls END、0finalstop/0length/0retry，HTTP峰1，173是累计往返非并发/任务量。每reply6000/T0/thinkingfalse/usage/tool_choiceauto，0总steps/POST/wall帽；177tools=32read4glob141grep全部completed，8合法range续读/0显式bytecap，10原快照after不变/额外formal全树及loadedparity未知。
+
+后段同args+635B完全同resultSHA重复104次；另一组2次只有grep排序异。332审计先观测77次且owner核末20全同后精准停ownedCLI，最终exit1/最后HTTP也已完整END，不造网络中断或固定总帽。逐读173实际REQUEST：原system/首user逐byte保，ID链无错误；3matches完整结果从REQUEST50→173共124份可见，末份保104份完整同结果。不支持记录wire缺task/toolresult、权限/glob失败或结果压缩的解释，backend/template/模型内部原因UNKNOWN；文本事件存在不代替finalstop/正确源结论，0自动源核或sourcefinding采用。
+
+CLI367.1497915s、首记prepare→CLI161.102732s、reportedHTTPsum299.6922541s及累计prompt28,866,844/completion13,084分列；重复历史和cachedNULL不反推uniquecontext/KV/容量。Owner quote/rg构造错、过宽审计显示、2.8MiB报告触2MiB行reader断言都属准备/观察成本，active/净省工UNKNOWN；不能拿共享审计器亚秒执行抵此前人工劳动。原1.18.31窄只读、305和298/301受控工具成功边界保持；普通ownerguided363四hunk的软件/正式价值独立，不据本失败否定或授模式总优劣。源问题继续由Root/M7推进，不等此记录。
+
+原证据截止时本轮native不再续发。后Root明确另授同一仍OPEN问题的fixed3 HTTP单答，复用同10freeze/原问题而不提供nativehistory/oracle；普通JSON与原生SDK/system/工具历史及额外callee可见域不同，非严格等价A/B。其sourcegrade与owner采用另附，不改本173无finalstop切点；新native只在具体已修原因或另一真实未完任务触发，不做无差别第三轮或强设12步。
