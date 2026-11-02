@@ -1,0 +1,126 @@
+{
+  "schema": "local-model-operations.civ6-query-child212213/v1",
+  "date_local": "2026-11-03",
+  "machine_id": "BF-202609141645",
+  "cases": [
+    {
+      "sequence": 212,
+      "case_id": "HTTP-CIV6-QUERYCALIBRATION212",
+      "mode_id": "http-candidate",
+      "shared_commit": "6db5e9516577763bf3e35b62615fe46bf5d095be",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 1800,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T22:18:22.124856+00:00",
+      "attempt_end_utc": "2026-11-02T22:18:24.989194+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 2864.338699961081,
+        "first_nonempty_content_delta_ms": 504.7107000136748,
+        "usage": {
+          "prompt_tokens": 852,
+          "completion_tokens": 380,
+          "total_tokens": 1232
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected-owner-probe",
+      "review": "Completecandidate fails Lua syntax: reserved local end. Also usescolonforstaticGetPlot, declarationinitializerclosure capturesglobalstats, no separatebucket, extra3proxycalls andnoinvalidclockguard.0candidateLua adopted/executed inNative. Ownerboundedreadonlyprobe passes3softwarechecks, Native6batches1000reads;3000proxycalls/callbackerrors0/bucket3000, actualplotindex632. NotrealcallbackCPUattribution.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 213,
+      "case_id": "HTTP-CIV6-INTERNALPROFILE213",
+      "mode_id": "http-candidate",
+      "shared_commit": "1271a8b8dd8995d715843951f41e99df7a27f0b2",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 2000,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T22:28:11.970414+00:00",
+      "attempt_end_utc": "2026-11-02T22:28:18.559562+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 6588.986399990972,
+        "first_nonempty_content_delta_ms": 957.3374000028707,
+        "usage": {
+          "prompt_tokens": 3971,
+          "completion_tokens": 428,
+          "total_tokens": 4399
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-owner-corrected",
+      "review": "Retain canonicalchildwrapper/Pack/constructor/timedcallstructure; owner adds metadataerroraccounting, capturesrootfieldsbeforefn, annotatesfailedsamplesbeforepropagatingoriginalerror, preventsretagginginner-samename afterinvalidouterclock, simplifiesoutside-rootbypass andremovesunusedFinite. Original10tests4ERROR; corrected10PASS0.013s. No nativechildintegrationyet.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "business_evidence": {
+    "212_and_q8": "https://github.com/XenoAmess/civ6_dev/blob/d36c0936d87c0c57caa558f88a77aabd527158fd/docs/research/baiqi-p6-performance-native55-minimal-evidence-2026-11-03.json",
+    "213": "https://github.com/XenoAmess/civ6_dev/blob/7d8f2acd1891815e56b31d0283667c44adaf595c/docs/research/baiqi-p6-child-profile-source213-evidence-2026-11-03.json",
+    "owner_diagnostic_build": "https://github.com/XenoAmess/civ6_dev/blob/420668d792c523394f9bef3b33f2ae3177ed9696/docs/research/baiqi-p6-internal-diagnostic-build-evidence-2026-11-03.json"
+  },
+  "batch": {
+    "logical_requests": 2,
+    "complete": 2,
+    "length": 0,
+    "http_attempts": 2,
+    "transport_retries": 0,
+    "actual_peak": 1,
+    "peak_duration_seconds": null,
+    "server_concurrency": null,
+    "cached_tokens": null,
+    "current_in_flight_for_cases": 0
+  },
+  "cumulative_civ6_through213": {
+    "logical_requests": 213,
+    "complete": 202,
+    "length": 11,
+    "http_attempts": 216,
+    "transport_retries": 3,
+    "historical_peak": 13,
+    "historical_peak_duration_seconds": null
+  },
+  "maintenance": "BothcanonicalCLIcalls reusedlocalNov3same-machine/user1.19.5cache,0newOpenCode-nativegeneration.",
+  "adoption_and_validation": "212Lua0adopted: reservedlocalend syntaxerror, staticgettercolonwrong, initializerclosurecapturesglobalstats, extra3proxycalls/noseparatebucket/noclockguard. Ownerprobe3softwarechecks+Native3000proxycalls/bucket3000/callbackerrors0; six1000-readloops~0–1msnearclockgranularity, notzerooverheadproof.213partialstructureonly, ownerbeforeworkrootsnapshot/errorannotation/metadataerrorcount/invalid-outer-samename protection. Original10tests4ERROR,corrected10PASS0.013s. Ownerseparateq9assembler4testsPASS0.029s, actualbuiltcontrollercompile+existing60consumerchecksPASS;69files68byteequal+controllerprefixexact. Buildnotmodelwhole-sourceadoption.",
+  "native55q8": "Minimalobserver240roots/219pureten;Controller129p95~39ms,max84msFAIL;Admin90p95~7,max10ms. Actual207endpoints/owner209unionconsumed5samecontextwindows observed~413–510ms, only2entrypoints notB_turn. Root2pointersrestored,error0.11citiesnonemptyqueues/9domesticroutes. Noactionproxy, cannotclaim0backgroundmilitarywrites/N_reqfromthisrun. No causalcomparisonwithq7.",
+  "lifecycle_followup": "Ownerordinary55OnExitGame normalwindowexit thenexactPID16024/exe/birth/windowlesscleanup. Managedq9diagnostic69installedoneLuaappendonly. FreshindependentSteamofflineproof22:51:16UTC,0online/clientrestart, coldlaunch17108. No Nativechildsampling yet; install/coldlaunchnotintegrationPASS.",
+  "owner_cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "validation": null,
+    "publication": null,
+    "exclusive_active": null
+  },
+  "cost_limits": "Contemporaneousownerphaseevents heldlocally, interleavedNativeq8/lifecycle/Git. No nettimebenefitclaim, 0HTTPretry heredoesnotmean0ownerrepair.",
+  "experience": "CheckLuareservedwords andstaticdotcalls beforeNative. Inlocalinitializer closurelocalnotinscopeuntildeclarationcomplete; gettercallbackneedsseparateactualbucket. Timingmetadata mustcapturebeforecallee mutation andattachfailedsamplesbeforeerrorrethrow. Nested samename withinvalidouterclock canmasqueradeasownlastsample; compareinvalidcounteraswellasdrop/count/name. Softwareproducer/rootconsumer binding stillrequiresNativeintegration.",
+  "next": "Continueq9fiveinternalfunctions normalofflinecoldload/warm/reloadoriginal85/formalwindows; currentnormal55performanceFAIL unresolved, fullmoduleN_req/B_delta remain."
+}
