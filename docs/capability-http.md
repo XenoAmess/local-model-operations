@@ -846,3 +846,9 @@ Test只机械helpers部分复用，两算法owner重写；旧pretty raw/大材�
 [HTTP-RECURSIVE-PROVIDER-ROUTING-303](evidence/2026-11-03-http-recursive-provider-routing.json)按owner许可9130B原字节公开；普通三消息、每role16完整源、2400/1400两stop/0retry。模型static helper返回null占位，不能提供actual同一router，整份源审失败/raw未编；owner只替两构造range，4835→3773B partial，invoke/tail/GS suffix原样，正逆核/noR2。强三port/typedfactory合同和成熟producer已供，不授新算法。Counter未看candidate，合同提示内有限分析；误把改offered N/SP或zero本身当必拒，未加默认zero门。
 
 Owner新六Test在读候选/反审前冻结，但已知成熟算法、非wholeblind；首1prod/Test/JUnit0→6P，3.307328s过程对1079.749908s首检索→6P，真实峰2仅5.841875s。独立[批准计时scope note](evidence/2026-11-03-http-recursive-provider-accounting-note.json)保source选择/准备/Test/Review包络及任务切出；.299231s correction与.328207s args若BEGIN同已写脚本批执行，仅机械应用，脚本文字起草发生更早，不当完整owner劳动。ModelWait观察160.878603s也不当HTTP在途。active/CPU/netunknown，完整wall不删。原9130B pending切点不改；[formal后见](evidence/2026-11-03-http-recursive-provider-formal.json)085628a5两raw/formal/EOF等/0新增编验，不授Runtime/Game/硬件或速度。
+
+## FP语义研究：完整拒稿与长度截断分别保留
+
+[HTTP-FP-SEMANTIC-RESEARCH-254](evidence/2026-11-03-http-fp-semantic-research.json)两角色各5000有限预算，14完整材料42720物理B；四POST中三完整stop整结论因数值/异常语义错拒，一R2 length整稿未读弃、0片段，不把截断追加成语义失败。仅保源核局部事实，0模型代码/Test/oracle；owner六条件case与23有限精确算术关系支撑8030B研究文档，不授SSE/MXCSR/CPU执行或Java软件通过。
+
+所选客户端峰2累计仅28.917295s、HTTP union72.405847s；初primary/source工作早于PREP，REVIEW标记也晚于首答初读，完整准备/审阅和active仍unknown。保存PREP→report墙钟与101.323204s请求耗时分列，不推净收益。后见eb19917d文档raw/actual blob/EOF相等，原pending保；晚primary annex不当第五模型任务，0新编验/部署/运行或实速。
