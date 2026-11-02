@@ -221,3 +221,19 @@ Java审阅发现被拒：日期边界与路径论断有误，原请求又缺原�
 [HTTP-PENDING-CLASSIFIER-001](evidence/2026-11-02-http-pending-classifier.json)在owner已定位问题、冻结helper签名和身份/错误传播合同后，实施两轮、软件测试两轮及独立源审共5任务/5 POST，全部完整stop、0length/重试。四个代码候选均在编译前拒绝：实施纠正仍重复非法multi-catch并丢canonical检查；测试先未调用目标，后仍有非法setup/Java和缺失的非修改观察。audit仅保留经owner限定的源事实，词法/范围可用不等于真实family接纳或派发许可。完整直接API与后续owner实现已给，不把这些错误归为缺少相关声明，也不称完整Root闭包或独立模型oracle。
 
 owner完整接管1个生产叶和1个Test，首次两次strict及4个新registry软件方法通过；generic软件family和实际catalog只支持该有限helper合同，未执行真实私有issuer、现场或Game。冻结交付当刻正式发布仍pending，后到另追记。source发现至首RUN结束920.955308s，discovery→sourceReady238.721505s、HTTP耗时和386.871915s、验证进程和11.736793s分别保留；主动owner工时未知。客户端峰3的两段合91.219864s、最长连续64.581702s，不叫持续12–16。0代码采用、4P或短编测链都不替代完整接管成本，也不证明永久能力上限；继续按现行路由选择真实有交付单位的新任务。
+
+## HTTP-PRESET-001：后到工程结果，保留原采用等级
+
+原四调用之后，owner完成Faith创建历史修复及场次装配纠正。R46白绮与R47繁育的Native读回及独立保留Save读回都支持所选actor→Rite、预置Faith关联和宗族化token；Root另核R47同屏繁育8信徒与白绮0信徒的列表。独立reader只选ACTOR/RITE记录，没有另解FAITH记录或执行冷重载；两份SDK driver绑定仍为`unconfirmed/save_binding_mismatch`，不因实际存档及独立解码成功改写。
+
+R46原public2与录制GAP保留。R47的public/独立verify0、普通case acceptance与qualified boundary为true、typed Quit/OS0及正常资源闭场，与仍为false的business/product_release/full matrix分别记录。修复实机使用1770a的0.2.0测试载荷；后续0.2.1发布版本和说明不重标历史manifest。Root另行完成Steam提交、公开全文读回、恢复离线和clean57重建，属于独立发布交付，均不授模型Game或完整矩阵信用。[后到脱敏证据](evidence/2026-11-02-http-preset-startup-late-validation.json)引用最终发布记录。
+
+这次追加没有新模型请求。原分析的部分/拒绝、owner修正后的准备包部分采用及生产源码采用0保持；新场次成功也不验证先前R45“必须新allocation”的错误推断。原始HTTP与当时未执行状态不回填，准备/审阅/纠错/协调的人工成本及净收益仍未知。
+
+## HTTP-CI-DEPS-001：真实发布格式故障的窄补丁
+
+tag格式链真实缺`pydantic`后，一项有方向提示的诊断给出两行YAML，将同平台已成功Static流程的8依赖安装步骤放到Maven bootstrap前。一次POST、0retry、200/stop/DONE；TTFT10.081070秒、HTTP13.797053秒，77910输入/626输出tokens，cached tokens未报告。两行源编辑原样采用，整答复分级仍为partial：owner未执行模型checkout建议，纠正dispatch ref操作并补核Windows/Python与依赖范围。[采用与验证](evidence/2026-11-02-http-release-ci-dependencies.json)绑定a9e62a及完整[format run41364591440](https://github.com/XenoAmess/ck3_eternal_recurrence/actions/runs/41364591440)成功。
+
+原tag10a和57文件载荷不变，初始tag格式RED保留；CI 57项path/size/SHA与tagged正式包匹配，source到staging的18B差异是既有兼容标签生成，非新归一化。初版派生计数误把单次attempt记为1retry，a02明确改为实际1POST/0retry，原件不改。该软件闭环不授Steam、Game或全产品业务通过。
+
+本工作包的具名窗口合计8POST/7stop/1length整弃：四项最初诊断/准备、两次运营记录草稿、一次TTL诊断和本次CI修复。这不是8份生产实现或8次业务通过；原前三并发峰3/35.225413秒仍只属其历史窗口，不宣称持续12并发或服务全局峰值。没有为追加记录补发HTTP；新结果仅在真实后续任务发生时继续追加。

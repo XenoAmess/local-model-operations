@@ -1,0 +1,81 @@
+{
+  "schema" : "local-model-operations.capability-case/v1",
+  "case_id" : "HTTP-CI-DEPS-001",
+  "mode_id" : "http-candidate",
+  "machine_id" : "desktop-3fevhd2-1c74096080",
+  "observed_at_utc" : "2026-11-02T00:07:17.783556+00:00",
+  "transport" : {
+    "begin_at_utc" : "2026-11-01T23:52:35.333970+00:00",
+    "end_at_utc" : "2026-11-01T23:52:49.131320+00:00",
+    "posts" : 1,
+    "retries" : 0,
+    "model_alias" : "qwen38-coder",
+    "actual_source_message_utf8_bytes" : 318298,
+    "output_budget" : 1800,
+    "first_content_ms" : 10081.070400308818,
+    "total_http_ms" : 13797.053399961442,
+    "prompt_tokens" : 77910,
+    "completion_tokens" : 626,
+    "cached_tokens" : null,
+    "finish_reason" : "stop"
+  },
+  "guided_input" : true,
+  "edit_unit" : "Two inserted YAML lines reuse the existing successful Static workflow's Python dependency step before Maven bootstrap",
+  "edit_adopted_verbatim" : true,
+  "overall_adoption" : "PARTIAL_ADOPTION_WITH_OWNER_OPERATIONAL_CORRECTIONS",
+  "owner_operational_corrections" : [ "Suggested checkout of a fix commit was not executed against the protected worktree.", "Owner used the actually supported dispatch branch/ref and bound the resulting run SHA, rather than assuming an arbitrary SHA ref was accepted.", "Owner checked Windows/Python platform and reused the exact eight-dependency command; no broad SDK/GPU dependency installation was introduced." ],
+  "source_commit" : "a9e62a097ba01d34d2927e329e69142c6bc62571",
+  "success_workflow_run" : 41364591440,
+  "validation_scope" : "One actual full existing release-format workflow completed success, including actual nine-language source and two real projections. This validates the software route, not a Game/business matrix.",
+  "original_tag_failure" : "Tag run 41363565235 remains failed and preserved; later success does not rewrite its history.",
+  "product_payload_boundary" : "Original tag10a6549d and 57-file product payload remained unchanged. Exact CI manifest path/size/SHA entries matched the tagged formal package; the measured source-to-staging descriptor delta was the existing generated compatibility-tag line, not input drift or a new normalization.",
+  "retry_counter_correction" : "Derived a01 mistakenly counted its single attempt as one retry. Corrected a02 and actual EVENTS prove one POST, zero retry; both versions remain preserved.",
+  "aggregate" : {
+    "scoped_project_posts" : 8,
+    "stop" : 7,
+    "length_discarded" : 1,
+    "counted_units" : "Four original diagnosis/preparation calls, two documentation drafts, one TTL diagnostic and this one CI repair; not eight production implementations or business passes.",
+    "concurrency_boundary" : "Original first-three overlap peak3/35.225413s remains its historical batch observation. No new sustained-twelve or service-global concurrency claim."
+  },
+  "owner_person_cost_seconds" : null,
+  "net_saved_seconds" : null,
+  "Game_or_Steam_actions_by_model" : false,
+  "whole_product_business_pass" : false,
+  "local_evidence" : [ {
+    "source" : "MODEL-ADOPTION-VALIDATED-a02.actual.json",
+    "bytes" : 2820,
+    "sha256" : "70225156a49369000d046cf6f7ba277354c5206775498f129e63e05f44251f62"
+  }, {
+    "source" : "MODEL-OWNER-REVIEW-a01.actual.json",
+    "bytes" : 1381,
+    "sha256" : "d2f563ed44ccb56fb3841d71fc5b1024678cb0203320174f38a56c5e9c9fcaa5"
+  }, {
+    "source" : "MODEL-CALL.original-wait.actual.json",
+    "bytes" : 1155,
+    "sha256" : "ffd194b533dea916f09314ce7c3e28b6896d7470b78b1edefe306869d0e83978"
+  }, {
+    "source" : "CI-SOURCE-VS-PROJECTION-18B-a01.actual.json",
+    "bytes" : 4717,
+    "sha256" : "b62a71f4ca18dfff523536791db059561f1d84e763820512fa537c3cd1961422"
+  }, {
+    "source" : "ci-dependencies/REQUEST.json",
+    "bytes" : 328446,
+    "sha256" : "7fb7fdf7b4544d3bc545157d8c62c5ea9c895dbf930b6dc1c08245d113bc7637"
+  }, {
+    "source" : "ci-dependencies/ATTEMPT1-RESULT.json",
+    "bytes" : 853,
+    "sha256" : "c158c1368484666f8066e32e73590a8d1d7ab82fd591d7ba63380a508f7bb6bc"
+  }, {
+    "source" : "ci-dependencies/ATTEMPT1-CONTENT.txt",
+    "bytes" : 2220,
+    "sha256" : "3ccfd3871fb9cb6a87cb91249820a49b25f82fad31caef37bc4a2f73c985e20a"
+  }, {
+    "source" : "ci-dependencies/EVENTS.jsonl",
+    "bytes" : 2205,
+    "sha256" : "fe273e373be7c320efd8ef4b0d92a1166b6b0624d366408edcbe11383c431299"
+  }, {
+    "source" : "RELEASE021-CI-CORRECTED-FORMAT-a01.actual.json",
+    "bytes" : 14876,
+    "sha256" : "edf7b7c6b7ce8fc3355c1b0e6f1698cd8141cf0031eacece3e724dd9bba7550b"
+  } ]
+}
