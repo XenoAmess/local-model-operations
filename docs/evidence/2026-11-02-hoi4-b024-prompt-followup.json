@@ -1,0 +1,218 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B024-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-02T17:08:44.758490+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-02T16:04:50.944782+00:00",
+    "window_ended_at_utc": "2026-11-02T16:04:59.676858+00:00",
+    "window_seconds": 8.732076,
+    "peak": 4,
+    "peak_duration_seconds": 5.223837,
+    "average_inflight": 3.21973617728476
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261102-b024-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 750,
+        "completion_tokens": 592,
+        "total_tokens": 1342
+      },
+      "failure": null,
+      "content_ttft_ms": 1339.636699995026,
+      "total_ms": 6566.9605000002775,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "9b46a7d68fd25a0d1e73378ec9528928f723d095905ebe40cb073e17251404d4",
+      "summary_sha256": "60e3a8e918e9ee40b6f0de0b92fd4302ccc586c279f7dc5d0a5a660d8ba2af4f",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "a079f7ebe1b4bc13d9c2536fb06d1ab1f2391529660ebf9954939778c10af550",
+        "task_id": "hoi4-20261102-b024-prompt-01",
+        "request_sha256": "9b46a7d68fd25a0d1e73378ec9528928f723d095905ebe40cb073e17251404d4",
+        "summary_sha256": "60e3a8e918e9ee40b6f0de0b92fd4302ccc586c279f7dc5d0a5a660d8ba2af4f",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Narrowed generic open/closed clauses to CLOSED upright-collar tunic for source2, OPEN outer garments/source neckwear for other sources; preserved genuine neckwear uncertainty for source3.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2190,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b024-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 760,
+        "completion_tokens": 586,
+        "total_tokens": 1346
+      },
+      "failure": null,
+      "content_ttft_ms": 1274.373199994443,
+      "total_ms": 7030.415400018683,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "a7e5ff529102ea7d7b8a75da90bbaf9528476aeb9c6cfd764264dbc7ee7c6468",
+      "summary_sha256": "124e7ee0bce01751be48e21a4198cf93490ec64bd6fdeb36176c5713be92f84f",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "8a996a98b1198a887147b79a50ab07eb171c7056c5d1c65b15fc077dd32c5aa9",
+        "task_id": "hoi4-20261102-b024-prompt-02",
+        "request_sha256": "a7e5ff529102ea7d7b8a75da90bbaf9528476aeb9c6cfd764264dbc7ee7c6468",
+        "summary_sha256": "124e7ee0bce01751be48e21a4198cf93490ec64bd6fdeb36176c5713be92f84f",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Narrowed generic open/closed clauses to CLOSED upright-collar tunic for source2, OPEN outer garments/source neckwear for other sources; preserved genuine neckwear uncertainty for source3.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2255,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b024-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 774,
+        "completion_tokens": 608,
+        "total_tokens": 1382
+      },
+      "failure": null,
+      "content_ttft_ms": 1187.8757999802474,
+      "total_ms": 7395.117099978961,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "3b21e9b8e5eea749844cfaeb9d62e1c78370dbea93f935fc8a028e5972e043b6",
+      "summary_sha256": "3c1174a0622129c6a12634b1f994b4fe0147726bd296d5779d8e196164139bdf",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "234dc2e2d96f7ec303608e9645a01fbb860a76378990c922896a619e3eb4d91b",
+        "task_id": "hoi4-20261102-b024-prompt-03",
+        "request_sha256": "3b21e9b8e5eea749844cfaeb9d62e1c78370dbea93f935fc8a028e5972e043b6",
+        "summary_sha256": "3c1174a0622129c6a12634b1f994b4fe0147726bd296d5779d8e196164139bdf",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Narrowed generic open/closed clauses to CLOSED upright-collar tunic for source2, OPEN outer garments/source neckwear for other sources; preserved genuine neckwear uncertainty for source3.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2308,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b024-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 737,
+        "completion_tokens": 582,
+        "total_tokens": 1319
+      },
+      "failure": null,
+      "content_ttft_ms": 1274.9439000035636,
+      "total_ms": 7138.339299999643,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "1fbc539b79501d38968013d64f72eeb85b64297668a6f3c0274300ebfd461636",
+      "summary_sha256": "533a0319c68cb26de1c38497169b9b5b05b126d6021c34779163a183f1ca1a80",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "98065c7ac7aa9c69b730cbde3fbd67400a993d2d998804a85d52a391795cdc6d",
+        "task_id": "hoi4-20261102-b024-prompt-04",
+        "request_sha256": "1fbc539b79501d38968013d64f72eeb85b64297668a6f3c0274300ebfd461636",
+        "summary_sha256": "533a0319c68cb26de1c38497169b9b5b05b126d6021c34779163a183f1ca1a80",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Narrowed generic open/closed clauses to CLOSED upright-collar tunic for source2, OPEN outer garments/source neckwear for other sources; preserved genuine neckwear uncertainty for source3.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2138,
+        586
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261102-b024-sources.json",
+    "sha256": "0dc3fd589ced457c27330eb8a870fc0a9fee1dd9f2d991e5a7c905e025e04652",
+    "publication_commit_at_cutoff": null
+  },
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. Four distinct raw originals remain separately SHA-bound, with white bow tie/gold chain, closed kepi tunic, near-profile indistinct dark neckwear and brown open suit individually preserved. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Owner narrowed generic open/closed wording to the actual CLOSED upright-collar tunic for source2 and OPEN outer garments/source neckwear for the other sources. Source3 neckwear subtype genuinely indistinct remains unspecified. Restated exact individual observed hair/facial-hair, clothes, pose and compact rounded-chin/short-neck geometry; canonical alpha rules appended. Both SHA domains verified, partial text adoption only.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
