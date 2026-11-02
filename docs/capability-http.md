@@ -750,3 +750,5 @@ R2 body partial，owner把“另clone再mutation”改为成功调用的同一ca
 [HTTP-LOGICAL-FORWARDING-FIELD-FLOW-001](evidence/2026-11-02-http-logical-forwarding-field-flow.json)9完整材料28706physical/30236源码wire，5POST4stop+1length hash-only未读整弃/0retry，峰3仅13.043388s。Core2300首稿slot/第二R9 flow错源审未编拒；三错误/fieldflow强hint后2200R2 complete2528B decoded byteexact/ownerJava0，API993/Test6779/oracle归owner，非自主ABI设计。2700见证漏callbackfresh/错R9whole0；ABI1700length不算语义错，缩wordcap1400R2仍误称RDX/R8自身callee-saved，只接受范围限制，不授独立proof。
 
 首2prod/Test/manual RUN全0，五新逻辑scene17checks/13binaryguards，0旧绿。这里只验参数转发、CALL/TAIL、fresh table、wrapped self guard及同异常；物理GPR/SP/flags/XMM/EH/allocator/上层incomingR9未知不默认、不授Native/naturalM6/Game。821.103979s sourcefreeze→首验、173.672404s验证wall对2.494503s三过程，87.705714/83.472183s gap和更早source资格/activeunknown分账。原source cohort RUNpending保、后软件绿另DELIVERY，formal仍原交付pending，0净收益或旧case补跑。
+
+[logical forwarding后到正式](evidence/2026-11-02-http-logical-forwarding-field-flow-formal.json)：9686d5c5三blob2528/993/6779B raw/EOF直接核等，原97225软件pending/sourcecohort/三过程与五逻辑scene17checks未改；强hint后R2 raw、owner API/Test、witness拒/ABIpartial等级保。实际incomingR9仍必需，0默认/自动旧端口binding/物理ABI/Native/Game/运行或实速信用，0新增HTTP/编验或旧绿。

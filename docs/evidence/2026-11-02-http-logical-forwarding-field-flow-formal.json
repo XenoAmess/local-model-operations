@@ -1,0 +1,63 @@
+{
+  "schema": "local-model-operations.mode-case-annex/v1",
+  "case_id": "HTTP-LOGICAL-FORWARDING-FIELD-FLOW-001-FORMAL",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "operator_review_UTC": "2026-11-02T15:14:37.745238+00:00",
+  "prior_evidence": "2026-11-02-http-logical-forwarding-field-flow.json",
+  "original_public_evidence_git_blob_unchanged": true,
+  "formal": {
+    "commit": "9686d5c5b9781d25220ae814b7581417ac594cfd",
+    "normal_push_remote_exact_clean_owner_receipt": true,
+    "payloads": [
+      {
+        "role": "owner API",
+        "selected_and_formal_digest": {
+          "bytes": 993,
+          "sha256": "e301b2cc15e35f38a5b42d11229bcaaef18c3bae709cc25551bea6f153e8d15f"
+        },
+        "raw_byteexact": true,
+        "EOF_newline_preserved": true
+      },
+      {
+        "role": "model R2 core after precise owner feedback",
+        "selected_and_formal_digest": {
+          "bytes": 2528,
+          "sha256": "eb9ede901406573b3bd68e83d0a774e8da71e5755bcb096590ff693b20f38af0"
+        },
+        "raw_byteexact": true,
+        "EOF_newline_preserved": true
+      },
+      {
+        "role": "owner Test",
+        "selected_and_formal_digest": {
+          "bytes": 6779,
+          "sha256": "ee832d09d27137703e0aa3ebc8973853c8db80cef38512c3da0fef04717a482b"
+        },
+        "raw_byteexact": true,
+        "EOF_newline_preserved": true
+      }
+    ],
+    "new_compile_or_RUN": 0,
+    "verification": "Ops directly read all three specified commit blobs; selected raw bytes and EOF exact."
+  },
+  "grade_unchanged": "Strongly guided R2 core2528-byte raw adoption, owner API993/Test6779/oracle, rejected whole witness and partial ABI analysis remain separate. Formal publication does not change the original source/RUN/formal-pending cutoffs or first5logical-scenes/17checks.",
+  "qualification_unchanged": "Only logical argument/object/vtable projection. Physical stack/SP/savedGPR/RFLAGS/XMM/EH/fullABI and allocator semantics remain unqualified. Actual incoming fifth argument is required; old three-argument port cannot provide it, so no automatic upper binding or zero default. No Native/Game/natural-cause/material/Root/SAVE/loading or performance credit.",
+  "cost_unchanged": "Existing821.103979s input-freeze to first validation,173.672404s validation wall versus2.4945028s processes and unknown early/active/net cost remain intact. No repeat HTTP or old green for this receipt.",
+  "private_evidence_digests": {
+    "formal_sidecar": {
+      "bytes": 1965,
+      "sha256": "e7f14372a41ca2e122e3018984a9564f0ea202c5e3a72f3f12e22321b289bb32"
+    },
+    "formal_receipt": {
+      "bytes": 1273,
+      "sha256": "0ae1ea23d2b0a5dae25749515f798f59ecc3b73ecc3191cff13c4bb073797aad"
+    },
+    "original_public_git_blob": {
+      "bytes": 14311,
+      "sha256": "cf7540e1ced168d8adea0fa415c3cd4a0c3ea82a87d1cc87749caad12be3c3a0"
+    }
+  },
+  "next_real_trigger": "A genuinely new source-qualified caller/body; no further execution implied by formal publication.",
+  "publication_new_HTTP_GET_JVM_Game_actions_by_operator": 0
+}
