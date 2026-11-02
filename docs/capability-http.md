@@ -744,3 +744,9 @@ R2 body partial，owner把“另clone再mutation”改为成功调用的同一ca
 前四actual RED保：plugin resolve、错误安排descriptor、缺vendor BOM、真实augmentation provider subtype不合；owner交付artifact/BOM与单body修后第五隔离Maven实际dev增编410B public class并由既有consumer执行，同PID/出生、runtime/dependency新loader restart0→1，正常nonce stop/exit0/port-free。3355.3302s已名软件首BEGIN→第五END含失败等待，五进程284.14933s/四编译8.838766s另计，更早准备/library probes不在wall、activeunknown。不授当前业务采用、所有newtype、delegate保活/instrumentation、唯一根因/Game/SAVE或实速，raw/binding留本机。
 
 [完整方法拒稿单元后到正式](evidence/2026-11-02-http-complete-method-source-semantics-formal.json)：ae585905仅owner Test20220B/raw/blob/EOF独核，原6c063软件pending公开文件未改；四model方法与片段0、两反审whole0/有限facts、owner首3TU/2组53events166checks和unknownactive照保。0新编验/生产/Native/Game/速度。后见index把prepare时next-not-started模板晚发成当前状态，owner独立勘误保原；不据旧模板推当前在途或要求补请求。
+
+## 短forwarding：强field-flow反馈后的raw与逻辑ABI边界
+
+[HTTP-LOGICAL-FORWARDING-FIELD-FLOW-001](evidence/2026-11-02-http-logical-forwarding-field-flow.json)9完整材料28706physical/30236源码wire，5POST4stop+1length hash-only未读整弃/0retry，峰3仅13.043388s。Core2300首稿slot/第二R9 flow错源审未编拒；三错误/fieldflow强hint后2200R2 complete2528B decoded byteexact/ownerJava0，API993/Test6779/oracle归owner，非自主ABI设计。2700见证漏callbackfresh/错R9whole0；ABI1700length不算语义错，缩wordcap1400R2仍误称RDX/R8自身callee-saved，只接受范围限制，不授独立proof。
+
+首2prod/Test/manual RUN全0，五新逻辑scene17checks/13binaryguards，0旧绿。这里只验参数转发、CALL/TAIL、fresh table、wrapped self guard及同异常；物理GPR/SP/flags/XMM/EH/allocator/上层incomingR9未知不默认、不授Native/naturalM6/Game。821.103979s sourcefreeze→首验、173.672404s验证wall对2.494503s三过程，87.705714/83.472183s gap和更早source资格/activeunknown分账。原source cohort RUNpending保、后软件绿另DELIVERY，formal仍原交付pending，0净收益或旧case补跑。

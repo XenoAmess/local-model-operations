@@ -1,0 +1,337 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-LOGICAL-FORWARDING-FIELD-FLOW-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "operator_review_UTC": "2026-11-02T15:10:21.182594+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Two short logical forwarding bodies: actual call versus tail dispatch, fresh table reads after an opaque callback and an explicit incoming fifth argument. Owner supplies the narrow API, scene inputs and finite expected-state contract.",
+  "input": {
+    "complete_materials": 9,
+    "physical_material_bytes": 28706,
+    "source_message_R1_UTF8_bytes": 30236,
+    "core_R2_source_message_UTF8_bytes": 37215,
+    "ABI_R2_source_message_UTF8_bytes": 30236,
+    "visibility": "Four complete current API/caller Java texts, three complete assembly texts (mature caller plus two target bodies), contract and explicit five-scene input DATA. No new implementation/Test or owner expected rows in first requests. Core R2 includes its own full rejected draft and three precise owner error/field-flow corrections.",
+    "hint_level": "Exact owner API, field flow, input values and call/tail contract. Corrected implementation is strongly guided, not autonomous ABI/API discovery or a blind witness. Owner oracle frozen before first POST and not supplied to models.",
+    "audit_basis": "Source owner actual REQUEST full-body/message-byte audit retained. Ops verifies exact input, event/output/selected/first-actual pins without large REQUEST rescan.",
+    "exact_invocation_caller_revision": null,
+    "later_shared_HEAD_not_backfilled": true
+  },
+  "calls": [
+    {
+      "role": "core",
+      "round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T14:43:01.210369+00:00",
+      "END_UTC": "2026-11-02T14:43:21.113275+00:00",
+      "max_tokens": 2300,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "content_TTFT_seconds": 2.632893400004832,
+      "caller_attempt_total_seconds": 19.902752699999837,
+      "usage": {
+        "prompt_tokens": 12962,
+        "completion_tokens": 2205,
+        "total_tokens": 15167
+      },
+      "cached_prompt_tokens": null,
+      "actual_source_message_UTF8_bytes_owner_audited": 30236,
+      "REQUEST_digest": {
+        "bytes": 32713,
+        "sha256": "8c45fd1ccc7d4fd1df8123ff4cb18b70a00b0dd83cd1c42dcae123bc33fd214c"
+      },
+      "EVENTS_digest": {
+        "bytes": 2074,
+        "sha256": "c3b1e80ba9d0f7155fecd821ee375d01d35b9627b77cf28b3d1c824898487910"
+      },
+      "response_digest": {
+        "bytes": 6988,
+        "sha256": "807b4fddd3c2d95f79bf748fb1cfe598a89b0a3ab9ec2e19d834ead01293b16d"
+      },
+      "review_digest": {
+        "bytes": 242,
+        "sha256": "7916f3b38bbbac80f6ffeaad2fcfd9e73eb3e5da3ccbcf69754f7995a7fbc59a"
+      }
+    },
+    {
+      "role": "witness",
+      "round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T14:43:01.210792+00:00",
+      "END_UTC": "2026-11-02T14:43:14.255299+00:00",
+      "max_tokens": 2700,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "content_TTFT_seconds": 2.6329038999974728,
+      "caller_attempt_total_seconds": 13.044564999989234,
+      "usage": {
+        "prompt_tokens": 13026,
+        "completion_tokens": 1331,
+        "total_tokens": 14357
+      },
+      "cached_prompt_tokens": null,
+      "actual_source_message_UTF8_bytes_owner_audited": 30236,
+      "REQUEST_digest": {
+        "bytes": 32940,
+        "sha256": "67532645d64e930303f6104e8920657822bf9a77d2d93fc982e7fd7d3c49f4ce"
+      },
+      "EVENTS_digest": {
+        "bytes": 2092,
+        "sha256": "a2c048f4ce7d9c69dc00aaa28f5376f7edc42121a295b51345f34cf5980d6f27"
+      },
+      "response_digest": {
+        "bytes": 3101,
+        "sha256": "f21e58946c95cd037659764dff2377b69a0b0497c3fff7fb73c2fc0e94e5c596"
+      },
+      "review_digest": {
+        "bytes": 263,
+        "sha256": "54f046e56e6f155785a1a749503d253bbef3dd5803440787e8457d3a5327e8c5"
+      }
+    },
+    {
+      "role": "ABI-boundary",
+      "round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T14:43:01.211911+00:00",
+      "END_UTC": "2026-11-02T14:43:19.285796+00:00",
+      "max_tokens": 1700,
+      "HTTP_status": 200,
+      "finish_reason": "length",
+      "content_TTFT_seconds": 2.631744799989974,
+      "caller_attempt_total_seconds": 18.07383939999272,
+      "usage": {
+        "prompt_tokens": 13016,
+        "completion_tokens": 1700,
+        "total_tokens": 14716
+      },
+      "cached_prompt_tokens": null,
+      "actual_source_message_UTF8_bytes_owner_audited": 30236,
+      "REQUEST_digest": {
+        "bytes": 32922,
+        "sha256": "8365ecd758d6cb3365a3b8a0b3db42c16e94e81513c93388f6325bf3f267038b"
+      },
+      "EVENTS_digest": {
+        "bytes": 2088,
+        "sha256": "51cc28c06e9c7a230298e8b8545813d609337ee5be0687b6afac1fb1340c28d9"
+      },
+      "response_digest": {
+        "bytes": 5674,
+        "sha256": "0f14f62d79a88733396659d916e376fb54a3edef9ca84de298e0c514b8efb456"
+      },
+      "review_digest": {
+        "bytes": 168,
+        "sha256": "bb5e221cc4fdd3b5ef2446c57528883a57a119fdc4b0f13fd0e9e6976340376b"
+      }
+    },
+    {
+      "role": "core",
+      "round": 2,
+      "POST_BEGIN_UTC": "2026-11-02T14:48:34.431554+00:00",
+      "END_UTC": "2026-11-02T14:48:40.633875+00:00",
+      "max_tokens": 2200,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "content_TTFT_seconds": 1.5557183000055375,
+      "caller_attempt_total_seconds": 6.202305000013439,
+      "usage": {
+        "prompt_tokens": 15315,
+        "completion_tokens": 767,
+        "total_tokens": 16082
+      },
+      "cached_prompt_tokens": null,
+      "actual_source_message_UTF8_bytes_owner_audited": 37215,
+      "REQUEST_digest": {
+        "bytes": 40430,
+        "sha256": "1107f24f83d0cf2249cd50f3704d00c8edb59e0922580c8f29baaeff41d11d26"
+      },
+      "EVENTS_digest": {
+        "bytes": 2134,
+        "sha256": "5d2ed73d2aab9c31746c6c1cdc4fa0784239cc26f66610c47e4210b5e22ed12d"
+      },
+      "response_digest": {
+        "bytes": 2638,
+        "sha256": "1754061771a8865b751a7a69566ce144ce52a4df57e6b833db72814be86fe31f"
+      },
+      "review_digest": {
+        "bytes": 203,
+        "sha256": "3f1762c86943ab4085ad191517036ede01e80f57b7922753229a9929bcc9ee4c"
+      }
+    },
+    {
+      "role": "ABI-boundary",
+      "round": 2,
+      "POST_BEGIN_UTC": "2026-11-02T14:48:34.429509+00:00",
+      "END_UTC": "2026-11-02T14:48:37.875963+00:00",
+      "max_tokens": 1400,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "content_TTFT_seconds": 1.2802557999966666,
+      "caller_attempt_total_seconds": 3.4465052999876207,
+      "usage": {
+        "prompt_tokens": 13053,
+        "completion_tokens": 202,
+        "total_tokens": 13255
+      },
+      "cached_prompt_tokens": null,
+      "actual_source_message_UTF8_bytes_owner_audited": 30236,
+      "REQUEST_digest": {
+        "bytes": 33100,
+        "sha256": "219b6428627c9d10c5a0b24ce9793d7c95d9e62861e9d6a6a0aedea36e1e2b4d"
+      },
+      "EVENTS_digest": {
+        "bytes": 2129,
+        "sha256": "197791bb78b77a1306ab78ccbfad1d92f68c576a0b43f0ab33225136a517729e"
+      },
+      "response_digest": {
+        "bytes": 978,
+        "sha256": "4ffe89ca39db0389ed6a300e90732639b48a36f0d4238df43282eec82fc0865f"
+      },
+      "review_digest": {
+        "bytes": 216,
+        "sha256": "3a146e5770a1e6c5908813a2bf77279e807326bc654c8b1b251c8b07e72640f9"
+      }
+    }
+  ],
+  "transport": {
+    "actual_POSTs": 5,
+    "ENDs": 5,
+    "stop": 4,
+    "length_hash_only_unread_discard": 1,
+    "automatic_retry": 0,
+    "client_peak": 3,
+    "peak_three_seconds": 13.043388,
+    "third_round": 0,
+    "server_running_queued_KV": null
+  },
+  "adoption": {
+    "core_R1": "Complete response used the wrong target slot and wrong second incoming-argument flow; rejected in source review before compilation, not a compiler red or missing declaration.",
+    "core_R2": "Complete2528-byte decoded Java adopted byte exact with0owner Java/EOL/EOF changes after explicit three-error feedback. Narrow owner API993bytes and Test6779bytes remain owner work.",
+    "decoded_R2_equals_selected_bytes": true,
+    "selected_core_digest": {
+      "bytes": 2528,
+      "sha256": "eb9ede901406573b3bd68e83d0a774e8da71e5755bcb096590ff693b20f38af0"
+    },
+    "owner_API_digest": {
+      "bytes": 993,
+      "sha256": "e301b2cc15e35f38a5b42d11229bcaaef18c3bae709cc25551bea6f153e8d15f"
+    },
+    "owner_Test_digest": {
+      "bytes": 6779,
+      "sha256": "ee832d09d27137703e0aa3ebc8973853c8db80cef38512c3da0fef04717a482b"
+    },
+    "owner_oracle_digest": {
+      "bytes": 1521,
+      "sha256": "d4552ef8dacaa798a202d040efb0e0e7523e1531d1789c162f9aa42fd25ce4a6"
+    },
+    "witness": "Complete value matrix misses callback-fresh table effects and confuses the second incoming argument with the target table. Whole oracle rejected, no model expected table adopted; no repeat to obtain approval.",
+    "ABI": "R1 length budget1700 is hash-only/unread and discarded, not semantic failure. A narrower finite1400-budget R2 retains useful exclusions/incoming-argument limits, but wrongly calls RDX/R8 themselves callee-saved; actual preservation uses other saved registers. Only partial boundary analysis, no independent full ABI proof."
+  },
+  "software": {
+    "original_source_cohort_cutoff": "SOURCE_FIRST2STRICT_GREEN_PENDING_NEW5_SCENE_RUN_FORMAL_PENDING",
+    "later_owner_delivery_cutoff_UTC": "2026-11-02T14:58:18.686825+00:00",
+    "original_source_RUN_pending_cohort_not_rewritten": true,
+    "first_stages": [
+      {
+        "phase": "prod",
+        "BEGIN_UTC": "2026-11-02T14:52:41.158985+00:00",
+        "END_UTC": "2026-11-02T14:52:42.191824+00:00",
+        "seconds": 1.0328349999908824,
+        "exit_code": 0,
+        "receipt_digest": {
+          "bytes": 2006,
+          "sha256": "b271af38d675ad4a81f6876e82b1583ededb1d6cf258dcd37e13b955126a3574"
+        },
+        "log_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "phase": "test",
+        "BEGIN_UTC": "2026-11-02T14:54:09.897538+00:00",
+        "END_UTC": "2026-11-02T14:54:11.190653+00:00",
+        "seconds": 1.2931106999894837,
+        "exit_code": 0,
+        "receipt_digest": {
+          "bytes": 3390,
+          "sha256": "2dd18d4413583e436ec67b648294d5ddfa0b2df5c05505f58b34c66807514ac7"
+        },
+        "log_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "phase": "run",
+        "BEGIN_UTC": "2026-11-02T14:55:34.662836+00:00",
+        "END_UTC": "2026-11-02T14:55:34.831389+00:00",
+        "seconds": 0.16855709999799728,
+        "exit_code": 0,
+        "receipt_digest": {
+          "bytes": 5107,
+          "sha256": "ffb87420945a03fc80d714a71c1bda6e4057945abfb53dd90a6fadca0e9aea88"
+        },
+        "log_digest": {
+          "bytes": 210,
+          "sha256": "786026521ad85591aa8e8aaec0cdcfdce75b20851bdc09e4c0a0d3b99166aa57"
+        }
+      }
+    ],
+    "process_sum_seconds": 2.4945027999783633,
+    "new_production_TUs": 2,
+    "new_Test_TUs": 1,
+    "manual_main_logical_scenes": 5,
+    "checks": 17,
+    "binary_guards": 13,
+    "finite_cases": "Fresh returned-object table after callback, call versus tail distinction, real second incoming-argument pointer, wrapped64-bit self guard with no RAM/port effects, and exact first exception identity.",
+    "limits": "Logical argument forwarding only. No physical saved-GPR/RSP/RFLAGS/XMM/return/EH/fullABI or allocator behavior proof, no automatic old-three-argument binding when incoming fifth argument is unknown, no upper integration, natural cause/material, Root authority, Native execution, Game, SAVE or speed. Manual main is not JUnit/CI.",
+    "old_green_reruns": 0
+  },
+  "cost": {
+    "input_source_freeze_UTC": "2026-11-02T14:41:53.727410+00:00",
+    "input_source_freeze_to_first_validation_END_seconds": 821.103979,
+    "recorded_slot_qualification_to_validation_END_seconds": 2277.550707,
+    "recorded_fullbody_qualification_to_validation_END_seconds": 1397.795972,
+    "validation_window_seconds": 173.672404,
+    "phase_gaps_wall_seconds": [
+      87.705714,
+      83.472183
+    ],
+    "earlier_discovery_seconds": null,
+    "owner_active_seconds": null,
+    "net_saving_seconds": null,
+    "limits": "Discovery of the current caller/slots began before these source-clock receipts; elapsed qualification/preparation/coordination is not active labor or model time. Input freeze is not a preselected candidate. Strong API/error feedback and owner oracle/Test costs remain explicit; no preparation/compile/setup error reported for this unit."
+  },
+  "formal_status_at_owner_delivery": "Pending sole normal publication; later formal receipt adds its own stage rather than rewriting this software cutoff.",
+  "private_evidence_digests": {
+    "DELIVERY221.json": {
+      "bytes": 2760,
+      "sha256": "b89a45c4852fc4622dc654aa60f1a1fe4f6bdaaa5298e2fb1649c995b6dcb1c4"
+    },
+    "MODEL-COHORT221.json": {
+      "bytes": 4278,
+      "sha256": "f35c1342b1ebc067a28791bbd6a4edf8b3ed816726c8b00a6bbdf8271d7e4b5b"
+    },
+    "COST221.json": {
+      "bytes": 1040,
+      "sha256": "78d71bb42cebd54d6636583da28915ce0e2fb8189c4fd6808846cc262eb81f91"
+    },
+    "ADOPTION221-SOURCE.json": {
+      "bytes": 1518,
+      "sha256": "b1ca4e02646252037162f81ae82e2a7618142868eab1ca3daf9cb26344c21f64"
+    },
+    "R2-PREPARATION221.json": {
+      "bytes": 578,
+      "sha256": "c4a66ed3e8520deb26816b95022d5e3027adebeb8861fc4b0ebffbf2e2b55fad"
+    },
+    "SOURCE-READY221.json": {
+      "bytes": 3386,
+      "sha256": "a6cd61b183726e643535bd389e044a34c172389c6d3a3cb97c8dd0c9e61e6c57"
+    },
+    "formal-source221/MANIFEST221.json": {
+      "bytes": 3403,
+      "sha256": "3c1c686f46a70dadb9ed364d94138980a0144c66368abeac28f7a76306b13c2e"
+    }
+  },
+  "next_real_trigger": "Natural formal receipt or a newly source-qualified caller providing the real incoming argument. Do not bind unknown values to old APIs, repeat closed scenes, or infer full physical ABI from logical tests. Both HTTP and native-tool modes remain under separate long-term tracking.",
+  "publication_new_HTTP_GET_JVM_Game_actions_by_operator": 0
+}
