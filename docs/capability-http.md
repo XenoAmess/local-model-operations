@@ -674,3 +674,9 @@ Owner原三low地址块case+两API组在HTTP END后CONTENT前冻，未覆盖high
 R2 body partial，owner把“另clone再mutation”改为成功调用的同一caller数组返回后变更，并核完整DATA/semantic及精确state/evidence；11627→11688B差分独核。父首次编译前仅补WIRE对象末尾1字节brace→11689B，原像保且无compiler红。首Test strict0/JVM首次2P0skip，0旧Test/生产/helper/JNA依赖增编；6.039997s过程对622.397604s首POST→末RUN墙钟/6.216169s gap，早期/active/netunknown。后见782b9a3d仅Test raw/blob/EOF等，0新编验；不授private archive I/O trace/并发race/当前权限/Native或Game/加载与速度。
 
 [资源tuple后到目标类型资格检查](evidence/2026-11-02-http-resource-tuple-target-type-gap.json)：原typed acquire/default consumer/Native lifetime三个case与ba003c1d五prod/两Test、分别3P+3P全保。新获准只读current五源/39个具名class：35已存在、四个真正新type，当前Dev引入新type能力未授资格，依明确门0packet/0替代port/0装载；不是实际classload失败、源语义或六软件方法失效。三source rawbaseline等、一EOL投影、一个consumer仅已成熟私有history复用两hunk来源，0新模型信用。只读后见summary不回写旧cutoff，未持准备/审阅active与净收益；0新增POST/GET/JVM/编验/业务操作，未来仅在真实支持已核的新集成需求再验证。
+
+## 重建生产角色：manifest证据引用与同调用边界
+
+[HTTP-REBUILD-MANIFEST-EVIDENCE-REFERENCE-001](evidence/2026-11-02-http-rebuild-manifest-evidence-reference.json)与前述guided两Test分账。实施16完整源250312physical，反审含两actual候选共18源；4200/3200各一次完整stop、0retry、实际无交叠峰1，wire未持不冒physical。实施把facts sourceEvidence误设为manifest内driver ref而非manifest本身exactref，并建议先无界clone再验bound，整拒0代码；counter HIGH与自身末尾no-finding矛盾、误读验证序/最终clone即安全，整审0采用。Owner blueprint先于完整答复阅读，但候选物化晚于实际END，不冒pre-POST选定/仍在途。
+
+两owner叶首2TU0/2.413013s，只同调用有限private snapshot/复制与重建；特定persistent路径manifest检查静态3→2、全部真实archive读/严格public入口/现有校验和authority门保，invalid读/异常优先级变化明确。后见acc0d948 Reader15111 raw等；caller33902→33581仅CRLF→LF/EOF保。既发guided2P独立，不授私有archive I/O trace/全历史一次walk/实载/速度/SAVE。349.400735s记录清单切点→首编END与252.369406s SourceReady→BEGIN为墙钟含审阅/协调，更早/active/netunknown；mixedEOL/双anchor/路径与引用准备错误分账，原件0回写/0新HTTP或编验。

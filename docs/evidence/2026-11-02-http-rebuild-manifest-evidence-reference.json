@@ -1,0 +1,219 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-REBUILD-MANIFEST-EVIDENCE-REFERENCE-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "operator_review_UTC": "2026-11-02T13:51:33.355786+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "A current-source pure DATA reconstruction optimization and a later candidate-aware source counteraudit. The exact manifest evidence reference, bounded caller-array ownership and existing strict public entry points are part of correctness, not interchangeable metadata.",
+  "input": {
+    "implementation_source_owner_inventory": {
+      "complete_files": 16,
+      "physical_bytes": 250312
+    },
+    "counter_source_owner_report": "18 complete files: the same frozen baseline material plus the two actual owner-selected source candidates. Candidate-aware source audit, not a blind oracle.",
+    "actual_source_message_UTF8_bytes": null,
+    "qualification": "Named immutable source inventory, model-review and actual EVENT/CONTENT pins were consumed. This Ops unit does not rescan large REQUEST bodies or turn physical inventory bytes into wire bytes; completeness and fixed-three preparation are source-owner records.",
+    "exact_invocation_caller_revision": null,
+    "later_shared_HEAD_not_backfilled": true
+  },
+  "calls": [
+    {
+      "role": "implementation",
+      "POST_BEGIN_UTC": "2026-11-02T12:42:50.817715+00:00",
+      "END_UTC": "2026-11-02T12:43:15.866158+00:00",
+      "max_tokens": 4200,
+      "finish_reason": "stop",
+      "HTTP_status": 200,
+      "SSE_DONE": true,
+      "POST_to_END_wall_seconds": 25.048443,
+      "caller_attempt_total_seconds": 25.048542999997153,
+      "content_TTFT_seconds": 6.895290100001148,
+      "usage": {
+        "prompt_tokens": 53556,
+        "completion_tokens": 2577,
+        "total_tokens": 56133
+      },
+      "cached_prompt_tokens": null,
+      "EVENTS_digest": {
+        "bytes": 2070,
+        "sha256": "8df9cbe44056ce2a3407bb38780aa13d488f3ea6a086599b912ddb39ef1885b6"
+      },
+      "complete_response_digest": {
+        "bytes": 11676,
+        "sha256": "679713be49c921a8eab1b83bf50b3e2946ce4dd1460434d64c3373dcb2e46030"
+      },
+      "adoption": "whole response rejected; zero model code"
+    },
+    {
+      "role": "counter",
+      "POST_BEGIN_UTC": "2026-11-02T12:45:04.970227+00:00",
+      "END_UTC": "2026-11-02T12:45:24.920391+00:00",
+      "max_tokens": 3200,
+      "finish_reason": "stop",
+      "HTTP_status": 200,
+      "SSE_DONE": true,
+      "POST_to_END_wall_seconds": 19.950164,
+      "caller_attempt_total_seconds": 19.950149400014197,
+      "content_TTFT_seconds": 2.4185387000034098,
+      "usage": {
+        "prompt_tokens": 63698,
+        "completion_tokens": 2858,
+        "total_tokens": 66556
+      },
+      "cached_prompt_tokens": null,
+      "EVENTS_digest": {
+        "bytes": 2032,
+        "sha256": "3efe92862e714622888c73fe02144784b5888e21bfd0061378ec2bc7abe94c9b"
+      },
+      "complete_response_digest": {
+        "bytes": 11908,
+        "sha256": "6bbcbae3f97db39e379d00ef1ffcbf709f35515b8644600cee453cb77a7a85e7"
+      },
+      "adoption": "whole response rejected; zero model code"
+    }
+  ],
+  "transport": {
+    "actual_POSTs": 2,
+    "ENDs": 2,
+    "stop": 2,
+    "length": 0,
+    "automatic_retry": 0,
+    "local_peak_for_these_two_requests": 1,
+    "requests_overlap": false,
+    "selected_POST_to_END_union_seconds": 44.998607,
+    "server_running_queued_KV": null,
+    "cache_congestion_inference": null
+  },
+  "model_adoption": {
+    "implementation_code": 0,
+    "counter_code_or_whole_approval": 0,
+    "implementation": "Complete response rejected. It used the manifest-contained Driver reference as the source-evidence reference of reconstructed facts, while the actual old path and selected owner implementation bind the exact manifest reference. It also proposed copying the caller array before checking the finite size bound, and repeated large helper/body/byte-copy work. No fragment adopted.",
+    "counter": "Whole response rejected. A HIGH label contradicted its own later discovery of the retained exact check and final no-executable-regression conclusion; final cloning alone did not establish a stable original caller array during validation. The old validation order was initially misread before self-correction. No actionable concrete counterexample or model oracle accepted.",
+    "owner_timing": "Owner design/code retained, not model raw adoption. A method blueprint existed before reading the complete answer, but the selected candidate was materialized after the implementation actual END. It was not an independently selected pre-POST candidate, and no claim that it was chosen while HTTP remained in flight is made. Exposure to the reply is not erased."
+  },
+  "owner_change": {
+    "sources": [
+      {
+        "role": "owner pure DATA reader",
+        "baseline_digest": {
+          "bytes": 13136,
+          "sha256": "fb8d2335a355f9264519b69f81c5cca839c854fa6a920d211d46e626c0c0bf4e"
+        },
+        "compiled_raw_digest": {
+          "bytes": 15111,
+          "sha256": "800870c032f32662093336b8ca0ef9b833f7cc4cc9a9d66963ad90e3cf969597"
+        },
+        "formal_blob_digest": {
+          "bytes": 15111,
+          "sha256": "800870c032f32662093336b8ca0ef9b833f7cc4cc9a9d66963ad90e3cf969597"
+        },
+        "raw_byte_equal": true,
+        "LF_projection_equal": true,
+        "EOF_preserved": true,
+        "source_owner_owned_edits_inverse_exact_reported": true
+      },
+      {
+        "role": "owner existing persistent caller",
+        "baseline_digest": {
+          "bytes": 33954,
+          "sha256": "7ad6d1d94b61225e47e01b3f87f7928d1ddf58e73b58d6d49931ccc96ff9557e"
+        },
+        "compiled_raw_digest": {
+          "bytes": 33902,
+          "sha256": "af5af1201b331f83f94f63173fa916140df9757508cb8a55290360e2d1d822e9"
+        },
+        "formal_blob_digest": {
+          "bytes": 33581,
+          "sha256": "1dd1ccf91fbb29828507e4b3bd44388eb2b3d08165ba12be13c9e249456dbc4b"
+        },
+        "raw_byte_equal": false,
+        "LF_projection_equal": true,
+        "EOF_preserved": true,
+        "source_owner_owned_edits_inverse_exact_reported": true
+      }
+    ],
+    "scope": "Only within one reconstruction call: retain checked exact schema/ref/SHA, snapshot immutable private bytes locally, copy bounded native caller input before parsing/hashing, use private checked row data and preserve the exact manifest evidence reference. Existing arbitrary public decode remains strict; existing assembly/full binding and all actual archive reads/proof chain/reducers/current/head/permission checks remain.",
+    "source_level_count": "One particular persistent reconstruction path has three manifest checks reduced to two; duplicate native/state decode inside the new pure helper is removed. This is a static source count, not a total-history single pass, measured syscall count or measured speed.",
+    "exception_order": "Native payload validation occurs after the Driver read in the new caller. Invalid first-error priority and additional read-only work may differ. That ordering change remains explicit, without asserting identical invalid-case precedence.",
+    "state_authority_boundary": "No new source types, cached results across calls/frames/sessions, source/current permission, Native operation or write. A complete DATA result does not confer live authority."
+  },
+  "first_compile": {
+    "BEGIN_UTC": "2026-11-02T12:48:37.484186+00:00",
+    "END_UTC": "2026-11-02T12:48:39.897200+00:00",
+    "seconds": 2.413012599994545,
+    "exit_code": 0,
+    "changed_translation_units": 2,
+    "only_existing_class_families": true,
+    "receipt_digest": {
+      "bytes": 4447,
+      "sha256": "c53e1d2ba36ce649472670853d402ef74335276532467077a730b8b123aa37f4"
+    },
+    "qualification": "First necessary two production units only; zero output/errors. No new JVM behavior test in this source-role unit."
+  },
+  "later_guided_test": {
+    "relative": "evidence/2026-11-02-http-guided-replay-array-ownership.json",
+    "original_case_digest": {
+      "bytes": 10942,
+      "sha256": "d7c11801fb2316df982b2f7d8478b5883ad288012dc317271acf7413260710c4"
+    },
+    "qualification": "A separate already-published two-method guided pure-DATA unit: R1 rejected, R2 partial with owner actual-input-array/evidence repairs and parent precompile one-brace repair, first2P. It is not model production code, an independent full oracle or private persistent archive I/O tracing. No old test or production repeated for this publication."
+  },
+  "later_formal": {
+    "observed_UTC": "2026-11-02T13:07:42.863479+00:00",
+    "commit": "acc0d94821de6702ba9cb2d5c50d99bead7a4b3f",
+    "normal_push_exit": 0,
+    "remote_exact_clean": true,
+    "PUBLISHED_digest": {
+      "bytes": 1066,
+      "sha256": "8c0f77871793c5738ca5a837bd7696f3dc54f4cdf25c7517a8b692275f7d715e"
+    },
+    "projection": "Reader15111 raw byte equal; persistent caller33902 compiled raw to33581 formal is CRLF-to-LF only, EOF preserved. The original raw owned-span edit/inverse source is retained; not an all-raw-byte-equal claim.",
+    "new_compile_RUN_HTTP_for_publication": 0
+  },
+  "owner_cost": {
+    "source_inventory_cutoff_UTC": "2026-11-02T12:42:50.496465+00:00",
+    "source_ready_UTC": "2026-11-02T12:44:25.114780+00:00",
+    "recorded_inventory_cutoff_to_first_compile_END_wall_seconds": 349.400735,
+    "source_ready_to_first_compile_BEGIN_wall_seconds": 252.369406,
+    "first_compile_process_seconds": 2.413012599994545,
+    "earlier_prepare_seconds": null,
+    "review_exclusive_active_seconds": null,
+    "net_saving_seconds": null,
+    "qualification": "These marker-to-event intervals include HTTP, implementation, source review, correction and resource coordination. They do not cover earlier discovery or identify continuous active work/CPU; not a speed gain.",
+    "preparation_errors": "Two guessed module paths were absent before freeze; an ambiguous two-hit edit anchor stopped before Java; an LF-only assertion failed on a mixed-EOL caller while the partial reader file was retained; a quoted inline read failed. A separate normalized review patch was added after the old display patch mixed raw CRLF and LF; original raw edits/candidate/inverse were retained."
+  },
+  "source_software_runtime_cutoffs": {
+    "original_source_ready_digest": {
+      "bytes": 2364,
+      "sha256": "45a6e816cad8a78b3eacb05c4b9fc77a7e03e48abd8ab67cdb1ce2691c66fa1d"
+    },
+    "original_mature_source_delivery_digest": {
+      "bytes": 5779,
+      "sha256": "d9ec101dd1e160787a2b62f5ce4ce356fe5dcb60a493bff5a73316dfb0cd394a"
+    },
+    "runtime_loading_at_owner_cutoff": "Not performed or proven by this source owner; no live writes, GET, Game action, speed or SAVE result granted. Later running state is not inferred from this frozen source/formal unit."
+  },
+  "private_evidence_digests": {
+    "source_inventory": {
+      "bytes": 8962,
+      "sha256": "e1d8cb364defd8808617846a86f623e7ef847fdfcf782163704618debc7e7cf6"
+    },
+    "model_review": {
+      "bytes": 8289,
+      "sha256": "7fc0c1776ba342204eebe2fd4ccc4adf6318a6408e5e0f325a6e899d9584a62d"
+    },
+    "source_delivery": {
+      "bytes": 5779,
+      "sha256": "d9ec101dd1e160787a2b62f5ce4ce356fe5dcb60a493bff5a73316dfb0cd394a"
+    },
+    "first_compile": {
+      "bytes": 4447,
+      "sha256": "c53e1d2ba36ce649472670853d402ef74335276532467077a730b8b123aa37f4"
+    }
+  },
+  "operator_receipt_preparation": "An initial assertion assumed the generic ACTUAL timeout/timestamp/stream-object schema. This producer receipt has explicit error/timestamp fields and stream paths instead. The key lookup stopped before public writes; actual schema was then read as data and verified, with no Java/model/source retry. Active correction time unmeasured.",
+  "next_real_trigger": "A newly needed current-caller contract, bounded private archive I/O verification or separately authorized actual integration. Do not repeat the closed implementation/counter or give a complete DATA/software/formal result runtime authority. Both model modes continue independently.",
+  "publication_new_HTTP_JVM_Game_actions_by_operator": 0
+}
