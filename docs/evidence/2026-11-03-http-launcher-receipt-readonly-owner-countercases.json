@@ -1,0 +1,29 @@
+{
+  "task": 348,
+  "mode": "One source-only HTTP counter plus owner readonly audit; no production implementation by auditor",
+  "problem": "Cold launcher preflight assumed all immutable source-adoption receipts had one scalar schema. Coherent receipts omitted source_root/new_sha and used target/candidate pin or alternate relative alias.",
+  "normal_semantics": "Build original relative->SHA map, verify configured receipt pins and process in order, overlay last accepted normalized relative, then verify final actual source SHA. Do not execute launcher during this audit.",
+  "owner_countercases": [
+    "Windows drive-relative D:leaf and root-relative /leaf are not is_absolute but can escape the specified source root on join. Final owner helper rejects drive/root/parent parts and checks resolved containment.",
+    "An optional new_sha branch must not silently ignore a supplied typed candidate SHA. Final owner helper verifies complete typed candidate bytes/SHA and consistency, deriving missing SHA only from that verified pin.",
+    "Optional means key absent, not present with falsy value. Final owner helper validates declared source_root/target as nonempty strings and limits declared candidate shape; empty/false fields no longer fall through as absence."
+  ],
+  "adoption_grade": "Three counterclasses derived by owner source review, actual helper edits by Runtime owner. Auditor wrote only private snapshots/review; final outside projection function raw bytes equal previous reviewed version.",
+  "model": {
+    "posts": 1,
+    "budget": 7000,
+    "finish": "length",
+    "prompt_tokens": 36752,
+    "completion_tokens": 7000,
+    "effective_ttft_ms": 4784.182800009148,
+    "wall_ms": 47019.12280000397,
+    "CONTENT_read": false,
+    "fragments_adopted": 0,
+    "semantic_grade": "none",
+    "second_request": 0,
+    "candidate_visible": true
+  },
+  "preparation_cost": "Initial unmarked docs/source reads active UNKNOWN; overbroad preparation snapshotted a1.4MB metadata file and seven later refs. Actual HTTP used only consumed original36 rows and one representative later receipt, with whole current/historical launcher and actual receipt examples. Do not hide this discovery cost as mechanical assembly.",
+  "verification": "PureWindowsPath bounded DATA expressions only plus source delta review. No launcher/projection execution, production or receipt writes, Java, Game, GET, process control or runtime acceptance by auditor.",
+  "limits": "Finite source no-counter result after owner corrections, not universal path-race/security proof or actual host acceptance. Existing normal receipt passes and runtime launch are separate Runtime owner evidence."
+}

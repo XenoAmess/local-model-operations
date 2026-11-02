@@ -1087,3 +1087,10 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 229 [单效应exchange与guided业务桥](evidence/2026-11-03-http-single-effect-exchange-guided-business-bridge.json)两个完整R1类610/2106 raw0owner，API/五delegate/execute强hint显式；counter误称freshsuccess必retry，0numericoracle。四oracle prePOST加一postPOST raw64边界，Test代码postEND，五logicalscene48checks是软件非hardwareatomic。339.133864已录窗/197.113453验证wall/2.5081211进程与activeUNKNOWN分列，实际Runtime启动交叉保，不授净收益/完整frame/自然业务。
 
 344 [owner保守两walk及独立Test](evidence/2026-11-03-http-frontier-membership-owner-two-walks.json)35完整源、两stop3655/1389、零模型代码；owner按Root明示方案落源在两END后、读答前，Rootreview非独立oracle。M4独立原source oracle/三新DATA方法首3P另获许可，严格只一visible fixture；V0/多visible步数为source边界非动态覆盖。两formal/compiledraw差异保，619.89669 POST→JUnit子窗、M4首marker→pack931.547445及activeUNKNOWN不相加冒整task/工时，0实载实速。
+
+
+616 [parent到成熟reserve的FP组合](evidence/2026-11-03-http-parent-reserve-fp-guided-composition.json)5227B完整R1原样0owner，但signature/路由/615成熟carrier强hint明确；两个stop与峰2仅11.796777s。六owner父链console组首0，492.792779仅late clock下界，完整task/activeNULL；父两actualCALL与嵌套allocator/free/SET三opaque callback分开，不扩原Native同call16+4或实速，formal原pending。
+
+348 [launcher receipt只读owner反例](evidence/2026-11-03-http-launcher-receipt-readonly-owner-countercases.json)一candidate-visible HTTP7000length先核RESULT、CONTENT整未读弃，0fragment/semanticgrade/noR2。Drive/root-relative、typedSHA与optional key存在但falsy三类来自owner源审，Runtime owner修helper，auditor不写生产。过宽1.4MB+七refs准备成本保，actualHTTP只已消费36行+一代表及完整当前/旧launcher，0launcher/投影执行/Java/Game或通用路径安全证明。
+
+229 [后到正常formal](evidence/2026-11-03-http-single-effect-exchange-later-formal.json)66965238三个payload共13705B raw/formal/EOF全等，两model类原无terminalnewline保；只复用原五scene48checks，原4086B pending与Maven交叉/计时边界保，0新增编验或hardwareatomic/自然业务/速度授信。
