@@ -1,0 +1,218 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B025-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-02T17:30:39.054327+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-02T17:20:15.924591+00:00",
+    "window_ended_at_utc": "2026-11-02T17:20:33.919024+00:00",
+    "window_seconds": 17.994433,
+    "peak": 4,
+    "peak_duration_seconds": 17.027263,
+    "average_inflight": 3.8894539216656616
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261103-b025-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 762,
+        "completion_tokens": 514,
+        "total_tokens": 1276
+      },
+      "failure": null,
+      "content_ttft_ms": 4754.242599999998,
+      "total_ms": 17366.229900013423,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "611303437d1063a1ffb463dfafcbd9fa43de67fd8723840413e6f4726a4271d2",
+      "summary_sha256": "fed5730166c085d23c316b553142903ca115c2e27c90796dd0a64e4072f5f200",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "15d68dde323239b77f7679269698145cb41c1daa77fcc69fc9cd12b9e2125a73",
+        "task_id": "hoi4-20261103-b025-prompt-01",
+        "request_sha256": "611303437d1063a1ffb463dfafcbd9fa43de67fd8723840413e6f4726a4271d2",
+        "summary_sha256": "fed5730166c085d23c316b553142903ca115c2e27c90796dd0a64e4072f5f200",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Removed other-portrait/outfit borrowing clauses and generic open-or-closed language; retained genuine obscured garment uncertainty for source1, explicit OPEN suit for source3 and CLOSED ornate tunic/no-note frame for source4. Restated source2 brow hair omitted in its candidate.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2303,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b025-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 747,
+        "completion_tokens": 501,
+        "total_tokens": 1248
+      },
+      "failure": null,
+      "content_ttft_ms": 4728.865699988091,
+      "total_ms": 17028.721299982863,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "6787d0ca26c7a3becb55c9adb91a39863c04a9ca6ac9a9ca9c4af074a7c2d216",
+      "summary_sha256": "fe2e5d070579b1e7d8eb975f2b0b4583c845d6398b049b7daa172d6f2e8974b0",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "a82478c6782522030454c35dcee0cd4cc21a39bd473363ff0c7819727a03b334",
+        "task_id": "hoi4-20261103-b025-prompt-02",
+        "request_sha256": "6787d0ca26c7a3becb55c9adb91a39863c04a9ca6ac9a9ca9c4af074a7c2d216",
+        "summary_sha256": "fe2e5d070579b1e7d8eb975f2b0b4583c845d6398b049b7daa172d6f2e8974b0",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Removed other-portrait/outfit borrowing clauses and generic open-or-closed language; retained genuine obscured garment uncertainty for source1, explicit OPEN suit for source3 and CLOSED ornate tunic/no-note frame for source4. Restated source2 brow hair omitted in its candidate.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2168,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b025-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 740,
+        "completion_tokens": 582,
+        "total_tokens": 1322
+      },
+      "failure": null,
+      "content_ttft_ms": 4744.939399999566,
+      "total_ms": 17609.77310000453,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "cd4e88e137b2399e3be036d306da96457dad2878e78f4a551c0101923a7e7edb",
+      "summary_sha256": "4c4d3e877c94478a1b3036837d79b891a0bb5e5599d351f1a1a1d3064657c210",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "2c05005a1d50689953b401d196db42f488929efc8913f74488a19530a18cf3ca",
+        "task_id": "hoi4-20261103-b025-prompt-03",
+        "request_sha256": "cd4e88e137b2399e3be036d306da96457dad2878e78f4a551c0101923a7e7edb",
+        "summary_sha256": "4c4d3e877c94478a1b3036837d79b891a0bb5e5599d351f1a1a1d3064657c210",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Removed other-portrait/outfit borrowing clauses and generic open-or-closed language; retained genuine obscured garment uncertainty for source1, explicit OPEN suit for source3 and CLOSED ornate tunic/no-note frame for source4. Restated source2 brow hair omitted in its candidate.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2147,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b025-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 791,
+        "completion_tokens": 568,
+        "total_tokens": 1359
+      },
+      "failure": null,
+      "content_ttft_ms": 4745.030499994755,
+      "total_ms": 17980.79649999272,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "576e3fd36ef488ecb2e3dd984a794e7346206899957433cc6d839a1eabe8016c",
+      "summary_sha256": "a0f0573a2894a1a45a60707c428c03d5f2fd2d50166da5da16557ccce5f98276",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "7384e22fa233f601bcb84d9530974f2dc17e356b3fccbfa8be679f339188fa34",
+        "task_id": "hoi4-20261103-b025-prompt-04",
+        "request_sha256": "576e3fd36ef488ecb2e3dd984a794e7346206899957433cc6d839a1eabe8016c",
+        "summary_sha256": "a0f0573a2894a1a45a60707c428c03d5f2fd2d50166da5da16557ccce5f98276",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Removed other-portrait/outfit borrowing clauses and generic open-or-closed language; retained genuine obscured garment uncertainty for source1, explicit OPEN suit for source3 and CLOSED ornate tunic/no-note frame for source4. Restated source2 brow hair omitted in its candidate.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2374,
+        586
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261103-b025-sources.json",
+    "sha256": "ead8aa0c9a7372f2ebb96b0bcd2379a470dbbcf97fe319fd62467c7a3964b8d4",
+    "publication_commit_at_cutoff": null
+  },
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. All four raw originals remain independent; one compound-name asset actually contains one person, and source4 is a note-free 53x65 framed portrait. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Owner removed other-portrait/outfit borrowing clauses and generic open-or-closed wording, retained genuinely obscured garment uncertainty for source1, restored source2 brow hair, and restated OPEN suit for source3 and CLOSED ornate tunic, light-blue sash and NO paper note for source4. Both SHA domains verified, partial text adoption only.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
