@@ -215,3 +215,9 @@ Java审阅发现被拒：日期边界与路径论断有误，原请求又缺原�
 ## HTTP-HOI4-OPERATIONS-001：接入、历史迁移与文本/代码候选
 
 2026-11-02 本地日，首15次加后到2次真实HTTP，共17 POST、16完整stop/DONE/JSON、1 length整弃、0重试。首批客户端峰9持续30.866055秒，不代表服务容量。文档与提示词部分采用；两轮代码/测试候选拒绝后owner接管，11项软件边界测试通过。独审存在被源码驳回的假正，DDS/PNG哈希域混淆由身份检查拦截。历史原文保持字节并经公开固定commit读回；原生工具业务生成、节时、图片及游戏通过均未授。见[完整案例](hoi4-model-operations-2026-11-02.md)和[逐项脱敏回执](evidence/2026-11-02-hoi4-model-operations.json)，后续随真实新任务追加。
+
+## 后到：完整候选仍需owner接管的有界分类器
+
+[HTTP-PENDING-CLASSIFIER-001](evidence/2026-11-02-http-pending-classifier.json)在owner已定位问题、冻结helper签名和身份/错误传播合同后，实施两轮、软件测试两轮及独立源审共5任务/5 POST，全部完整stop、0length/重试。四个代码候选均在编译前拒绝：实施纠正仍重复非法multi-catch并丢canonical检查；测试先未调用目标，后仍有非法setup/Java和缺失的非修改观察。audit仅保留经owner限定的源事实，词法/范围可用不等于真实family接纳或派发许可。完整直接API与后续owner实现已给，不把这些错误归为缺少相关声明，也不称完整Root闭包或独立模型oracle。
+
+owner完整接管1个生产叶和1个Test，首次两次strict及4个新registry软件方法通过；generic软件family和实际catalog只支持该有限helper合同，未执行真实私有issuer、现场或Game。冻结交付当刻正式发布仍pending，后到另追记。source发现至首RUN结束920.955308s，discovery→sourceReady238.721505s、HTTP耗时和386.871915s、验证进程和11.736793s分别保留；主动owner工时未知。客户端峰3的两段合91.219864s、最长连续64.581702s，不叫持续12–16。0代码采用、4P或短编测链都不替代完整接管成本，也不证明永久能力上限；继续按现行路由选择真实有交付单位的新任务。

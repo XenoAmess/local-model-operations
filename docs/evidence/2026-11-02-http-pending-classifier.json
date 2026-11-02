@@ -1,0 +1,250 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-PENDING-CLASSIFIER-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "owner_delivery_cutoff_UTC": "2026-11-02T00:12:18.292600+00:00",
+  "metadata_review_UTC": "2026-11-02T00:18:39.823270+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Bounded pending-producer classifier and four registry software tests, with a separate source-contract audit.",
+  "input_and_prompting": {
+    "named_full_source_classes": 21,
+    "scope": "Current helper, direct APIs and consumer declarations; not a complete transitive application closure or loaded-binary equality proof.",
+    "actual_protocol": "Five individually saved requests, each eight wire keys and fixed system/user/user; temperature0, thinkingfalse, JSON object, stream plus usage.",
+    "system_matches_current_shared_template": true,
+    "owner_design": "Owner identified the signed identifier/classifier mismatch and froze the helper signature, canonical spelling, existing-family identity, laziness and error-propagation contract before the initial requests.",
+    "correction_feedback": "ImplementationR2 received explicit invalid-catch and catch-scope feedback; TestR2 received the complete owner candidate plus exact API, target-invocation and factory-count requirements.",
+    "TestR2_is_implementation_visible": true,
+    "independent_model_oracle_claimed": false
+  },
+  "calls": [
+    {
+      "role": "implementation",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-01T23:59:31.600346+00:00",
+      "END_UTC": "2026-11-02T00:00:36.219715+00:00",
+      "max_tokens": 3500,
+      "source_message_UTF8_bytes": 379100,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 64.61929329999839,
+      "content_TTFT_seconds": 49.31895280000026,
+      "usage": {
+        "prompt_tokens": 77758,
+        "completion_tokens": 574,
+        "total_tokens": 78332
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 387594,
+        "sha256": "beb71bb1304539b8290867c06762e7fa363c261616ea645c98b7bca969a1b493"
+      }
+    },
+    {
+      "role": "software_test",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-01T23:59:31.638013+00:00",
+      "END_UTC": "2026-11-02T00:01:50.509825+00:00",
+      "max_tokens": 6500,
+      "source_message_UTF8_bytes": 379100,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 138.87200110000413,
+      "content_TTFT_seconds": 50.8657136000038,
+      "usage": {
+        "prompt_tokens": 77811,
+        "completion_tokens": 2969,
+        "total_tokens": 80780
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 387844,
+        "sha256": "d650e7adc2e8b1fc83e85e9651e9c11da4fbc4e2bff293229b47471d5b6f6c5e"
+      }
+    },
+    {
+      "role": "contract_audit",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-01T23:59:31.637966+00:00",
+      "END_UTC": "2026-11-02T00:01:42.540752+00:00",
+      "max_tokens": 4500,
+      "source_message_UTF8_bytes": 379100,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 130.90293519999977,
+      "content_TTFT_seconds": 49.281352699996205,
+      "usage": {
+        "prompt_tokens": 77780,
+        "completion_tokens": 1937,
+        "total_tokens": 79717
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 387721,
+        "sha256": "871d0dadb9781dc61e9dca9a6a35a5447ad6d2f21c8e2860b259428bb6cd5909"
+      }
+    },
+    {
+      "role": "implementation",
+      "semantic_round": 2,
+      "POST_BEGIN_UTC": "2026-11-02T00:01:07.659321+00:00",
+      "END_UTC": "2026-11-02T00:01:34.297483+00:00",
+      "max_tokens": 3500,
+      "source_message_UTF8_bytes": 379100,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 26.638117199996486,
+      "content_TTFT_seconds": 2.9556305000005523,
+      "usage": {
+        "prompt_tokens": 77819,
+        "completion_tokens": 544,
+        "total_tokens": 78363
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 387997,
+        "sha256": "9cf4e248da15727f8ccbe4f25e4eef0cae67d97360afc315f2adcfb8431079a9"
+      }
+    },
+    {
+      "role": "software_test",
+      "semantic_round": 2,
+      "POST_BEGIN_UTC": "2026-11-02T00:04:33.739971+00:00",
+      "END_UTC": "2026-11-02T00:04:59.579536+00:00",
+      "max_tokens": 6500,
+      "source_message_UTF8_bytes": 379707,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 25.839568600000348,
+      "content_TTFT_seconds": 10.091711500004749,
+      "usage": {
+        "prompt_tokens": 78172,
+        "completion_tokens": 2605,
+        "total_tokens": 80777
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 389831,
+        "sha256": "1501628b95ef67a5ea9939d9e6a4f2066b6c63a5b904155adb14d08b3dc757a3"
+      }
+    }
+  ],
+  "transport": {
+    "business_roles": 3,
+    "logical_generation_tasks": 5,
+    "POSTs": 5,
+    "ENDs": 5,
+    "complete_stop": 5,
+    "length": 0,
+    "transport_retries": 0,
+    "partial_streams": 0,
+    "client_peak": 3,
+    "peak3_spans": [
+      {
+        "BEGIN_UTC": "2026-11-01T23:59:31.638013Z",
+        "END_UTC": "2026-11-02T00:00:36.219715Z",
+        "seconds": 64.581702
+      },
+      {
+        "BEGIN_UTC": "2026-11-02T00:01:07.659321Z",
+        "END_UTC": "2026-11-02T00:01:34.297483Z",
+        "seconds": 26.638162
+      }
+    ],
+    "peak3_cumulative_seconds": 91.219864,
+    "longest_continuous_peak3_seconds": 64.581702,
+    "service_running_waiting_KV": null,
+    "target12_16_claimed_achieved": false
+  },
+  "adoption": {
+    "model_production_code_adopted": 0,
+    "model_test_code_adopted": 0,
+    "whole_implementation_and_Test_candidates": "All four complete candidates rejected before compilation; owner authored the final production helper and four software tests after two semantic rounds per code role.",
+    "implementation_rejections": "Illegal superclass/subclass multi-catch and swallowed catalog exceptions; the correction repeated the invalid catch, omitted the required helper/output shape and removed canonical spelling equality while claiming to retain it.",
+    "Test_rejections": "First candidate did not invoke the target helper. The correction still used invalid sentinel positive setup and Java syntax, omitted an import and required nonmutation/factory counts, and returned five tests instead of four.",
+    "audit_partial": "Signed-domain mismatch, direct pending-to-observer dependency and canonical/identity/no-issuance facts retained only with owner qualifiers. Lexical/range eligibility is not actual-family acceptance, dispatch authority or proof a natural zero-valued target exists.",
+    "no_model_discovery_credit": "The actual defect and design predated the model requests.",
+    "no_R3_or_closed_task_replay": true
+  },
+  "software": {
+    "checks": [
+      {
+        "stage": "prod",
+        "BEGIN_UTC": "2026-11-02T00:03:18.645611+00:00",
+        "END_UTC": "2026-11-02T00:03:23.571688+00:00",
+        "process_seconds": 4.926075200004561,
+        "exit_code": 0
+      },
+      {
+        "stage": "test",
+        "BEGIN_UTC": "2026-11-02T00:09:51.438568+00:00",
+        "END_UTC": "2026-11-02T00:09:54.987699+00:00",
+        "process_seconds": 3.549130100000184,
+        "exit_code": 0
+      },
+      {
+        "stage": "run",
+        "BEGIN_UTC": "2026-11-02T00:10:44.693720+00:00",
+        "END_UTC": "2026-11-02T00:10:47.955308+00:00",
+        "process_seconds": 3.261587499997404,
+        "exit_code": 0
+      }
+    ],
+    "new_owner_methods_passed": 4,
+    "skipped": 0,
+    "scope": "Actual catalog custody and the new helper exercised with a generic nominal software family and exact operation grammar. Preparation, observer and replay callbacks throw if called; positive signed-domain cases, short-circuit rejection, issued-family identity and catalog-exception propagation checked.",
+    "old_sources_compiled": 0,
+    "old_green_methods_run": 0,
+    "not_verified": "Actual domain target behavior in the loaded application, private issuer/writer preparation, natural execution, full family acceptance, Native/Game outcome or runtime performance.",
+    "logging_note": "The successful first RUN retained a logging initialization-order diagnostic; no suppression or repeat was performed."
+  },
+  "clock_accounting": {
+    "first_recorded_source_discovery_BEGIN_UTC": "2026-11-01T23:55:27+00:00",
+    "first_new_checks_END_UTC": "2026-11-02T00:10:47.955308+00:00",
+    "discovery_to_first_new_checks_END_wall_seconds": 920.955308,
+    "discovery_to_source_ready_wall_seconds": 238.721505,
+    "reported_model_HTTP_duration_sum_seconds": 386.8719153999991,
+    "three_validation_process_sum_seconds": 11.73679280000215,
+    "first_production_strict_BEGIN_to_new_RUN_END_wall_seconds": 449.309697,
+    "active_owner_seconds": null,
+    "before_first_recorded_clock_seconds": null,
+    "net_owner_saving_seconds": null,
+    "limit": "Discovery, HTTP, review/takeover, classpath work, coordination/resource waits and verification are included in the full wall. HTTP requests overlap; sums and nested windows are not additive labor, CPU or service queue time."
+  },
+  "owner_preparation_errors": [
+    "Two read-only search quote/regex errors and an initially incorrect package navigation were corrected before POST; the required declaration was supplied.",
+    "The final test deliberately uses a generic software family; named ABI metadata checks do not grant actual domain-target or source-to-loaded-body verification."
+  ],
+  "formal_at_frozen_delivery": {
+    "state": "READY_FOR_SOLE_JAVA_REVIEW",
+    "commit": null,
+    "runtime_installation": false
+  },
+  "private_evidence_digests": {
+    "MODEL-COHORT209.json": {
+      "bytes": 6264,
+      "sha256": "354a1355786aee3d0eb3714e65496657704b418d5d0ce0058d80f7582b523dc0"
+    },
+    "OWNER-QUALIFICATION209.json": {
+      "bytes": 3642,
+      "sha256": "7edd0954878b1858ca919a46f369d9eebc93fa52b2c3eae593dbafec6f2543f2"
+    },
+    "VALIDATION209.json": {
+      "bytes": 7146,
+      "sha256": "decd0dec6c10c558dd98fa6c956b92cc10f803ba33481c3f17080ea095b405f9"
+    },
+    "COST209.json": {
+      "bytes": 724,
+      "sha256": "24da49beac93434367de548d3dc9629020611124fc2ec4a59719a31cb1aada22"
+    },
+    "DELIVERY209.json": {
+      "bytes": 5172,
+      "sha256": "de1211294b7d2a07c3a47b351e07415a95d2e23cb85fc25a2d39aea51ae22a84"
+    }
+  },
+  "comparison_limit": "Complete stop and precise owner feedback did not make these candidates adoptable. This is a specific failure and owner takeover, not a permanent model limit, cross-mode comparison or net saving measurement.",
+  "next_real_trigger": "Add an actual later publication or runtime receipt as a separate stage if it exists; route genuinely new typed or bounded tasks without replaying these rejected rounds. Native OpenCode remains a separate long-term record; the closed unlimited-step loop is not retried for a success quota.",
+  "publication_new_HTTP_compile_test_or_business_actions": 0
+}
