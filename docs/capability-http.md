@@ -496,3 +496,9 @@ owner全2981B编排/13378B七方法Book，scenario prePOST、具体Test post生�
 [HTTP-TYPED-DISPATCH-METHOD-001](evidence/2026-11-02-http-typed-dispatch-method.json)15完整项36604B按actual三消息全文核，1500/2200两POST均stop/0retry，峰2仅3.654793s。owner明确child frame/DF/budget/Memory、same-frame check/result identity与fallback架构；680B完整dispatch在原编译1623B owner架子中唯一byteexact，0方法执行/EOL/EOF修正，不称whole class或自主设计。site-only分支已有真实typed ctor的direct/target/length约束，不捏造owner补guard。反审把full寄存器当boolean/错shift地址、混返回guard和控制分支，两个具体例拒；仅一般site/lowbyte事实partial，无R2。
 
 owner全12659B六新场景，facts prePOST、literal oracle在两END后/读CONTENT前冻。原caller→真实full callee三个whole场景与child DF/budget/foreign identity三反例首RUN0/stdout6，不写六JUnit；47global内42Memory/1opaque enqueue/4Budget，旧standalone/entrycase不重跑。1304.411179s记录准备→RUN对1.489033s三进程，125.250941/6.279304s协调gap与更早发现/active/netunknown分列。软件cutoff formal pending另待真实后见；callee原594/成熟caller不重授新代码，0opaque算法/硬件/Native/Game/SAVE/实速或G2整体完成信用。
+
+### dispatch方法单元后到正式及owner准备勘误
+
+[原HTTP-TYPED-DISPATCH-METHOD-001](evidence/2026-11-02-http-typed-dispatch-method.json)软件pending原像不改；[后到annex](evidence/2026-11-02-http-typed-dispatch-method-formal.json)独核7acc5da7两原payload+350B wrapper三commitblob/EOF全rawexact，680B方法仍唯一exact。唯一新wrapper 1P包原六场景，不当第七独立case；原pins保/旧prod API不增编，11.409098s窗口与10.121990s协调gap分记。2126.504565s已录准备→发表观察不回填1304.411179s首RUN成本，也不推净收益。
+
+owner在软件后把执行旧索引脚本误当读取，first-save保护断言在写前拦下；具名旧sidecar/continuation SHA未变，仍属未知时长准备成本，不能推广为旧prepare可安全执行。另chat短SHA错尾仅导航，fullmanifest/actual Test始终正确；原代码/期待/HTTP/firstactual不改，非模型失败，0新Ops HTTP/JVM/Game。沿既有只读模板规则继续，不补形式调用。
