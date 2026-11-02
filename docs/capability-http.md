@@ -1195,3 +1195,6 @@ M0 manager-static [428B正常formal后见](evidence/2026-11-03-http-captured-del
 618 [批准1231B正常formal后见](evidence/2026-11-03-http-upstream-reserve-fp-later-formal.json)14227a08，model8962→8954仅8尾白/Test14376rawexact/EOF保，onlynewwrapper.9794972+.6155287 selected1P/200pins50CP同原4console非第5。原5132B pending/继承gap首RED/CP-only恢复和model归因全部保，0原payload/旧suite重跑、运行或172同次16+4信用。
 
 359 [source-owner正式后见](evidence/2026-11-03-http-passive-submit-phases-later-formal.json)与[M4自有Test正式后见](evidence/2026-11-03-owner-submit-diagnostics-test-later-formal.json)各批准1357B原样，指同一32019260两leaf联合发布，非两次Test发布或第二组3P。M4 Test19916/f0d3 raw/physical/Git/EOF等，0新验证，原9723/6243 pending、V02不兼容/Outcome误诊纠正和未知工时均保；不授实际重定义、正常timing或运行收益。
+
+
+361 [mature producer exact caller薄绑定](evidence/2026-11-03-http-static-footer-exact-binding-reuse.json)批准3187B原样：8wholeJava+2ASM/25707physical/msg28914each，两STOP/0retry/峰2仅9.868001s；thinbinder无owner语义改、复用成熟算法非重造，review部分源资格且nominal accessor/write说法错由owner据完整声明纠，不当whole批准。Owner3newmanualcase63checks三首0/旧0重编重跑，非JUnitCI；3.1681778进程/23.3792573HTTPsum/890.463862标记窗、更早discovery/fulltask-activeNULL保。D-only textserializer重复CR被字节断言拦住、新writebytes补丁正逆LF投影而0额外JVM，原source/首绿不改。另见动态two-read缺口交原producer owner，未抄重复算法；formal原pending、unknown tail/native语义显式ports，不授runtime/fullABI/OS/Game/收益。
