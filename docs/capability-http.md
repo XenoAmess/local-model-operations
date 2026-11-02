@@ -852,3 +852,9 @@ Owner新六Test在读候选/反审前冻结，但已知成熟算法、非wholebl
 [HTTP-FP-SEMANTIC-RESEARCH-254](evidence/2026-11-03-http-fp-semantic-research.json)两角色各5000有限预算，14完整材料42720物理B；四POST中三完整stop整结论因数值/异常语义错拒，一R2 length整稿未读弃、0片段，不把截断追加成语义失败。仅保源核局部事实，0模型代码/Test/oracle；owner六条件case与23有限精确算术关系支撑8030B研究文档，不授SSE/MXCSR/CPU执行或Java软件通过。
 
 所选客户端峰2累计仅28.917295s、HTTP union72.405847s；初primary/source工作早于PREP，REVIEW标记也晚于首答初读，完整准备/审阅和active仍unknown。保存PREP→report墙钟与101.323204s请求耗时分列，不推净收益。后见eb19917d文档raw/actual blob/EOF相等，原pending保；晚primary annex不当第五模型任务，0新编验/部署/运行或实速。
+
+## FP状态载体提案：输入齐全的两份完整稿均未采用
+
+[HTTP-FP-CARRIER-PROPOSAL-603](evidence/2026-11-03-http-fp-carrier-proposal.json)27完整项71611物理B/78917源码消息B，3400/2800两stop、0retry；migration缩窄128bit状态、允许未经来源支持的默认控制字、漏真实传播边且错置source range，counter负例未满足实际增长入口并误读rounding，整稿均拒。Owner独冻acceptance/rounding pair，100%另写最小proposal；0模型代码/新API/Test/编译，不借后续实现补本轮采用率，也不为比例追加R2。
+
+所选峰2仅14.207935s；已录准备→proposal959.890821s、HTTP union18.337150s，早期资格/active/netunknown。路径和搜索准备错误与模型语义错分开，不把来源完整写成所有外部状态已实采；不授FP执行/Native/Game或实速。
