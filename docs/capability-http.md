@@ -1018,3 +1018,5 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 328 [后到正式回执](evidence/2026-11-03-http-guided-local-buffer-reuse-later-formal.json)另附：生产 raw/formal 相等，Test 仅154 CRLF→LF；原 pending 正文不改，不重编测或授运行收益。
 
 329 [实际候选独立反审](evidence/2026-11-03-http-actual-candidate-replay-counter.json)为一逻辑任务两实际POST，reset半流整弃后原请求重试stop；三条拒收意见均被源反驳，0 finding采用，owner仅有限源审通过。333 [名义类型与纯DATA复用资格](evidence/2026-11-03-http-nominal-data-reuse-source-qualification.json)两并行stop，模型混淆同简单名类型的整稿阴性结论拒收；owner仅证明可行接缝，新issuer/wiring未实现。均不授实际提速，完整墙钟与active unknown保留。
+
+成熟后见分别记录：[323生产表达式与受指导见证](evidence/2026-11-03-http-command-validation-and-guided-witness.json)、[322 owner实际adapter两方法](evidence/2026-11-03-http-postcommit-owner-adapter-witness.json)、[226已有状态表示下的wrapper/import修正](evidence/2026-11-03-http-represented-frame-wrapper-owner-repair.json)、[613 actual serialRED后模型transient单修](evidence/2026-11-03-http-fp-copy-tail-serial-correction.json)。生产与Test角色、完整stop和length弃稿、owner方法/机械修正、首次红/参数错误及后到formal分列；各短并发峰不冒持续12–16，active均UNKNOWN，不授Runtime或提速。

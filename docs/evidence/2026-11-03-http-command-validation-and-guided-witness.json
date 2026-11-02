@@ -1,0 +1,98 @@
+{
+  "schema": "local-model-operations.capability-evidence/v1",
+  "case_id": "command-validation323",
+  "mode_id": "http-candidate",
+  "scope": "Separate production expression and guided public-DATA affected Test; no IO/Root authority or runtime proof.",
+  "privacy": "Only sanitized metadata; original requests/responses, source, paths, identities and runtime records stay on execution machine.",
+  "later_receipt_policy": "Original source/software pending cutoffs stay byte-frozen; later publication or software evidence below does not rewrite their timestamps or model grade.",
+  "runtime_or_performance_claim": false,
+  "new_HTTP_compile_or_business_actions_for_this_record": 0,
+  "production": {
+    "calls": [
+      {
+        "role": "http-implementation",
+        "POST_BEGIN": "2026-11-02T18:26:01.923388+00:00",
+        "END": "2026-11-02T18:27:08.388620+00:00",
+        "seconds": 66.465232,
+        "TTFT_ms": 25940.72210000013,
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 101402,
+          "completion_tokens": 6500,
+          "total_tokens": 107902
+        },
+        "cached_tokens": null,
+        "max_tokens": 6500,
+        "source_count": 30,
+        "source_physical_bytes": 482148,
+        "actual_message_UTF8_bytes": [
+          301,
+          487648,
+          2103
+        ],
+        "full_source_prefix_confirmed": true
+      },
+      {
+        "role": "http-counter",
+        "POST_BEGIN": "2026-11-02T18:26:01.925936+00:00",
+        "END": "2026-11-02T18:26:38.329199+00:00",
+        "seconds": 36.403263,
+        "TTFT_ms": 24777.74099999806,
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 101413,
+          "completion_tokens": 1252,
+          "total_tokens": 102665
+        },
+        "cached_tokens": null,
+        "max_tokens": 6500,
+        "source_count": 30,
+        "source_physical_bytes": 482148,
+        "actual_message_UTF8_bytes": [
+          301,
+          487648,
+          2240
+        ],
+        "full_source_prefix_confirmed": true
+      }
+    ],
+    "POSTs": 2,
+    "retry": 0,
+    "peak": 2,
+    "overlap_seconds": 36.403263,
+    "HTTP_union_seconds": 66.465232,
+    "implementation_grade": "length6500 entire discard, body not read or JSON-decoded; 0 source adoption",
+    "counter_grade": "stop1252 whole rejected; falsely says DriverJson.encode calls FullJsonTree and validates UTF8, suggests inappropriate MAX_SAFE_INTEGER/UINT64 restrictions on opaque typed arguments. No independent valid blocker accepted.",
+    "owner_code": "One expression removes unused final typed projection; full parser, original root gate, projection/first encoding and receipt SHA remain. Model code0; counter saw proposal rather than selected candidate.",
+    "first_production_strict_seconds": 1.7359691000019666,
+    "first_POST_to_prod_END_wall": 265.356097,
+    "earlier_start": "UNKNOWN",
+    "active_seconds": null,
+    "owner_preparation": "Named module guess corrected by exact file lookup; overly broad tool output truncation led to separate exact reads before POST. No input gap at actual request.",
+    "later_formal": {
+      "commit": "dfb77eecf25597db3af3e6b013b68a0161370e8d",
+      "raw_bytes": 5863,
+      "formal_bytes": 5861,
+      "projection": "Two CRLF to LF changes only; compiled raw SHA differs from formal blob, not a same-SHA validation claim."
+    }
+  },
+  "affected_Test": {
+    "POSTs": 4,
+    "stop": 2,
+    "length": 2,
+    "retry": 0,
+    "R3": false,
+    "input": "33 whole source entities including actual candidate and mechanical host; owner oracle frozen before reading target, not supplied. Candidate-visible guided Test, not target-blind.",
+    "grade": "JointR1 length10000 and accepted-methodR2 length6000 whole unread discards. GuardR2 stop partial followed by four unique owner executing hunks and one comment. First method owner-whole; counter complete whole rejected. No length-as-semantic-failure claim.",
+    "first_Test_strict_seconds": 1.7990865,
+    "first_RUN_seconds": 2.5201902,
+    "methods_passed": 2,
+    "marked_PREP_to_RUN_wall_seconds": 802.146768,
+    "owner_active_seconds": null,
+    "pre_marker_reading": "UNKNOWN",
+    "later_formal_commit": "fc8a673150176d0e48c63a7360c4c6c62af70440",
+    "raw_bytes": 6659,
+    "formal_bytes": 6635,
+    "projection": "24 trailing whitespace bytes only, EOF retained; original first2P not rerun."
+  }
+}
