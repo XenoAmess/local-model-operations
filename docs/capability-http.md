@@ -888,3 +888,9 @@ Owner新六Test在读候选/反审前冻结，但已知成熟算法、非wholebl
 [HTTP-REPRESENTED-STATE-CALLER-INTEGRATION-224](evidence/2026-11-03-http-represented-state-caller-integration.json)八POST=六stop两length/0retry；wrapper首完整稿partial，R2length整未读弃后owner删唯一eager-null行；thunk首稿+模型R2一accessor edit，old唯一/原位inverse精确、非new全局唯一，ownerJava0；known consumer完整R1 9024B decodedraw等/0ownerJava。见证首length未读弃、R2完整matrix错整拒0oracle；boundary仅合同partial、非candidate审。初冻21项46126物理B不冒wire；existing API资格/强fieldflow提示不是owner新API代码。
 
 Native sole三prod/Test首strict0→manual12scene75checks0，前5oracle预POST、后7owner集成/反例另列，不冒全部盲预期。仅existing API实际表示字段/SP/RET与成熟child链，DF/RFLAGS/XMM7..15/EH/hardware未表示；不授full ABI/自然任务/Root/Game。峰4仅8.374632s，2.944513s过程对sourcefreeze→RUN970.321866s，早taskstart/activeunknown，等待不全归CPU/HOLD。后到bf42649e四blob三rawexact，known9024→8811仅LF/水平尾白/EOF保；原pending不改，0新编验或实速。
+
+## 有限乘积core原样采用，整条浮点编排仍归owner
+
+[HTTP-GUIDED-FINITE-PRODUCT-CORE-606](evidence/2026-11-03-http-guided-finite-product-core.json)32完整源97535物理B/106147源码消息B，1600/1800两stop、0retry/R2，峰2仅7.234027s。Owner已给input range、coefficient/exponent/sign与分解形状，1675B有限乘积整类R1 decodedraw唯一exact/0owner Java/EOL/EOF；授guided core，不授自主FP设计。7658B freshMemory/MXCSR/异常/舍入整编排与12066B Test全owner；counter完整numeric输出因端点/表示/系数指数/十六进制与zero-exponent错拒，0oracle采用。
+
+Native sole两prod/ownerTest首strict0、manual14组0，混core与指定MULSS软件域，不当14wholeNative/JUnit方法。预读答literal oracle与候选后写Test分开；控制知识是明示软件域，非硬件实采/OS fault或全growth。已录876.485594s墙钟对1.899068s三过程、4.625721s gap，active/更早准备与净收益unknown，前序研究/接口成本另计；原formal pending保，不授实际加载/Game或速度。
