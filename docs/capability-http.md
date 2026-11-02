@@ -413,3 +413,9 @@ counter R1 length1700整弃不判完整语义；R2缩到新source三事实仍sto
 ### child adapter后到正式：40个空白行空格
 
 [原HTTP-CHILD-FRAME-ADAPTER-001](evidence/2026-11-02-http-child-frame-adapter.json)的pending软件cutoff原件不改。[后到正式annex](evidence/2026-11-02-http-child-frame-adapter-formal.json)实核c000e712：owner全体3356B/Test13030B rawexact，partial adapter选定1484B→formal1444B仅5个空白行共40spaces清理，EOL/noEOF保，不能写三blob全rawexact；模型两owner执行修正的partial等级不变。0新增编测/HTTP。writer文件数字前缀IndexError发生在publication写入/JVM前，改映射后继续，独立准备成本未知，不归模型编译红或推实速。
+
+## 后到：强提示三factory method与编前oracle修正
+
+[HTTP-GUIDED-LIVE-FACTORY-METHOD-001](evidence/2026-11-02-http-guided-live-factory-method.json)实核25完整项90828B、1300/2200两个POST均stop/0retry，峰2仅13.585500s。完整1714B method在2421B类中一次byteexact，owner方法执行/EOL/EOF改0；owner已给三livefactory架构，另补Objects import和public execute架子，不授wholeclass/自主设计。audit只有泛型事实partial，saved-register坐标/guard反例错拒/noR2。
+
+owner四新case oracle响应END后、读CONTENT前冻；随后编译前源核纠正一个期望frame RAX从count为真实VT，原oracle保，非模型错/实际JVM红，运行后0修。首四case与后350B ownerwrapper1P是同四case，不能算第五；3phase1.479083s与known→RUN1661.055799s/inputfreeze→RUN845.348774s/协调间隔分列，active/netunknown。误读命令/旧prepare断言/早读pending回执独立留证。后到3ae878ee两payload rawformal精确，旧pending切点不改；wrapper15.126520wall/1.203739process/13.922773gap单列，0Native/Game/提速或更大完成信用。
