@@ -1,0 +1,152 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-OWNER-ORACLE-ROUTE-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "metadata_review_cutoff_UTC": "2026-11-02T00:07:54.352812+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Two bounded source mechanism/counterexample analyses for a new equality/no-swap branch; independently authored owner software witness under the updated routing.",
+  "routing": {
+    "source": "Published operation route4201a99",
+    "whole_Test_model_POSTs": 0,
+    "whole_Test_model_candidates": 0,
+    "Test_HTTP_windows": [],
+    "first_Test_HTTP_to_JUnit_wall_seconds": null,
+    "null_reason": "No Test generation request existed; do not invent a Test HTTP clock from the separate source-analysis requests.",
+    "owner_expected_and_method": "Owner independently derives oracle and whole finite method from original source and held mature APIs. Qualified architecture, not an unprompted independent model oracle."
+  },
+  "calls": [
+    {
+      "role": "mechanism",
+      "POST_BEGIN_UTC": "2026-11-01T23:45:53.632160+00:00",
+      "END_UTC": "2026-11-01T23:46:00.405933+00:00",
+      "max_tokens": 4000,
+      "source_message_UTF8_bytes": 321002,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 1.5510222000011709,
+      "reported_HTTP_seconds": 6.773731299996143,
+      "usage": {
+        "prompt_tokens": 129794,
+        "completion_tokens": 552,
+        "total_tokens": 130346
+      },
+      "cached_tokens": null,
+      "raw_analysis_DATA_or_code_adopted": 0
+    },
+    {
+      "role": "counterexample",
+      "POST_BEGIN_UTC": "2026-11-01T23:45:53.645188+00:00",
+      "END_UTC": "2026-11-01T23:46:02.816254+00:00",
+      "max_tokens": 3500,
+      "source_message_UTF8_bytes": 321002,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 1.797545599998557,
+      "reported_HTTP_seconds": 9.17108929999813,
+      "usage": {
+        "prompt_tokens": 129777,
+        "completion_tokens": 919,
+        "total_tokens": 130696
+      },
+      "cached_tokens": null,
+      "raw_analysis_DATA_or_code_adopted": 0
+    }
+  ],
+  "transport": {
+    "logical_source_tasks": 2,
+    "POSTs": 2,
+    "ENDs": 2,
+    "complete_stop": 2,
+    "length": 0,
+    "reset": 0,
+    "retries": 0,
+    "client_peak": 2,
+    "peak2_overlap_seconds": 6.760745,
+    "model_HTTP_envelope_seconds": 9.184094,
+    "reported_HTTP_elapsed_sum_seconds": 15.944820599994273
+  },
+  "adoption": {
+    "model_raw_analysis_fields_DATA_or_code": 0,
+    "analysis": "Both complete stop source analyses whole rejected. One valid JSON response left required fields/status/prose unfinished and used wrong load-factor arithmetic; this is an incomplete semantic artifact, not length. The counterexample response did not derive required marker/equality facts and alleged supplied data missing.",
+    "owner_software": "Whole owner method and oracle; no model expected queue, peer proof or output used to derive expected results.",
+    "new_producer_required": false,
+    "no_R2_R3_for_closed_analysis": true
+  },
+  "software": {
+    "checks": [
+      {
+        "stage": "strict",
+        "BEGIN_UTC": "2026-11-01T23:59:13.006678+00:00",
+        "END_UTC": "2026-11-01T23:59:14.049816+00:00",
+        "process_seconds": 1.04292610000266,
+        "exit_code": 0
+      },
+      {
+        "stage": "one_new_JUnit_method",
+        "BEGIN_UTC": "2026-11-01T23:59:14.067280+00:00",
+        "END_UTC": "2026-11-01T23:59:14.786533+00:00",
+        "process_seconds": 0.7189766000010422,
+        "exit_code": 0
+      }
+    ],
+    "new_methods_passed": 1,
+    "skipped": 0,
+    "typed_RAM_observations": 416,
+    "budget_observations": 37,
+    "floating_point_observations": 28,
+    "old_binary_pins_unchanged": 98,
+    "old_sources_compiled": 0,
+    "old_Test_methods_run": 0,
+    "scope": "One controlled normal input; RAM, floating-point and budget each have their own ordered streams, not a demonstrated single cross-stream ordering.",
+    "width_limit": "An earlier zero extension makes high56 bits zero in this input; a later partial low-byte operation does not independently test preservation of nonzero high56 bits.",
+    "not_granted": "Natural allocator/TLS/CPU/Native/Game, all branch coverage, net saving or runtime performance."
+  },
+  "clock_accounting": {
+    "source_input_frozen_to_firstStrict_BEGIN_wall_seconds": 617.567097,
+    "sourceReady_to_firstStrict_BEGIN_wall_seconds": 247.850734,
+    "CodeReady_to_firstStrict_BEGIN_wall_seconds": 161.785247,
+    "complete_ChainReady_to_firstStrict_BEGIN_wall_seconds": 39.519588,
+    "full_first_validation_UTC_seconds": 1.779855,
+    "between_phase_UTC_seconds": 0.017464,
+    "reported_process_sum_seconds": 1.7619027000037022,
+    "CHAIN_UTC_span_seconds": 1.80261,
+    "first_source_analysis_POST_to_owner_JUnit_END_wall_seconds": 801.154373,
+    "last_source_analysis_END_to_owner_JUnit_END_wall_seconds": 791.970279,
+    "active_owner_prepare_write_review_seconds": null,
+    "net_owner_saving_seconds": null,
+    "limit": "Source/Ready windows overlap, include waiting, and are not additive labor or measured CPU/service delay. Original clocks are retained, not replaced by the1.802610s verification chain."
+  },
+  "formal_annex": {
+    "commit": "a1d755cadceac204ed507dc4e3f1fc679b355dbc",
+    "normal_push_remote_exact_clean_at_receipt": true,
+    "new_compile_RUN_for_publication": 0
+  },
+  "private_evidence_digests": {
+    "routing": {
+      "bytes": 1094,
+      "sha256": "a0f2e23e3b51ee177e62f4f51f65742ad582b03f96d4048890344efb56d53d9c"
+    },
+    "cost_anchors": {
+      "bytes": 2481,
+      "sha256": "436eba54f25345f3a5428cff8df16c78629016b00381c7b404b4f8c34c08dae4"
+    },
+    "owner_delivery": {
+      "bytes": 36862,
+      "sha256": "31e242b76d821f851c76854e3b90312c2574ff8ab80d4d4eb42a1de30ef67ee5"
+    },
+    "late_analysis_metadata": {
+      "bytes": 8243,
+      "sha256": "92f4bf2f094cd53208f0041ba141ec1ec730b4139e762b67d7cfe189cba54e63"
+    },
+    "formal_publication": {
+      "bytes": 830,
+      "sha256": "eb500cf50bf7cf49f29d0b0255e38c5c64b3b601f236c3e0aed8610d899d6a93"
+    }
+  },
+  "comparison_limit": "This is actual routing execution with zero whole-Test POST, not an A/B demonstration, model Test success, or a counterfactual saving versus earlier large-oracle tasks. Inputs, scope, timing and owner work differ; no request was added or old case replayed to improve statistics.",
+  "next_real_trigger": "Only a genuine new typed API/binding, narrowly bounded mechanism/counterexample or mechanical fragment is routed to the model; a new complex oracle remains independently owner-frozen unless a specifically justified finite boundary exploration is authorized.",
+  "publication_new_HTTP_compile_test_or_live_actions": 0
+}

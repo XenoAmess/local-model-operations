@@ -110,6 +110,12 @@ owner最终源22:35:08.545586Z已选，新的pending双POST22:36:09才开始；�
 
 同一脱敏证据还保留一项owner准备纠错：既有CLI已在throw前保存dispatch、负向ACK、custody与unavailable。查原件即可推翻“缺证”的推断，0新CLI/HTTP/READ；不把这个纠错算作模型发现，也不从负向ACK推有效世界状态。
 
+## 后到：新路由实际执行，owner独立oracle
+
+[HTTP-OWNER-ORACLE-ROUTE-001](evidence/2026-11-02-http-owner-oracle-routing.json)记录4201a99路由后的一个真正新等值/no-swap场景：模型仅做两份窄机制/反证，4000/3500有限输出、2 POST完整stop，仍整稿拒绝、0原始字段/代码采用。没有whole-Test模型请求，也没有虚构Test HTTP起点；owner依据原始源独立冻结完整预期和方法，首strict0/1.042926s、JUnit单方法1P/0.718977s，正式a1d755ca。416项RAM、37预算与28浮点各有自己的ordered stream，不冒全局统一时序；该输入的高56位先被零扩展清零，不授非零高位保持的独立验证。
+
+source input冻结到首编617.567097s，首机制POST到owner首1P801.154373s；SourceReady/CodeReady/ChainReady等待247.850734/161.785247/39.519588s是重叠窗口，主动工时未知。验证CHAIN1.802610s不替代整段准备与等待。这证明新分工实际执行，不证明模型见证成功，也不能拿不同旧场景的大稿成本相减宣称省时；源分析仍需owner核对，后续只把有真实交付单位的需求投入并发。
+
 ## 后到：可见选项决策与实际业务分阶段
 
 [HTTP-UI-CHOICE-001](evidence/2026-11-02-http-visible-option-decision.json)是一项运行期可见选项建议，不是源码生成。owner提供三个真实标签文本、完整已安装事件/本地化及相关效果源；模型没有直接看图。一次三消息请求1000有限输出，HTTP200/stop、2.286455s、有效内容TTFT0.904112s，选B；owner接受该标签，并独立向同一Game窗口提交一次按下/释放，SendInput2/2。模型没有生成Native索引或自动执行业务工具，原SUMMARY默认adopted=false保持冻结，后到选择采用据实际action另记。
