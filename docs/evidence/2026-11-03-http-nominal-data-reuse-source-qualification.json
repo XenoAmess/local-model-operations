@@ -1,0 +1,64 @@
+{
+  "schema": "local-model-operations.nominal-type-source-audit/v1",
+  "mode_id": "ordinary-http-three-message",
+  "scope": "Pure immutable DATA decode reuse feasibility in an existing operation-scoped parser cache; source qualification only.",
+  "input": {
+    "complete_Java_files": 32,
+    "physical_Java_bytes": 517889,
+    "actual_source_message_utf8_bytes_each": 525732,
+    "additional_input": "one explicitly labelled assembly field excerpt plus scope/ownership facts",
+    "outside_initial_prefix": "full Writer/native internals and later concrete Root wiring; no retroactive source completeness claim"
+  },
+  "actual_requests": {
+    "count": 2,
+    "parallel": true,
+    "max_output_tokens": [
+      5000,
+      4500
+    ],
+    "reported_prompt_tokens": [
+      107367,
+      107364
+    ],
+    "reported_completion_tokens": [
+      1177,
+      2472
+    ],
+    "elapsed_seconds": [
+      43.0247588,
+      52.1601214
+    ],
+    "overlap_seconds": 43.024717,
+    "finish": [
+      "stop",
+      "stop"
+    ],
+    "SSE_DONE": true,
+    "cached_reported": null,
+    "code_adopted": 0,
+    "R2": false
+  },
+  "review": {
+    "implementation_design": "rejected whole negative conclusion: confused the requested immutable driver-envelope Complete with a different assembled-observation Complete, then incorrectly concluded every reuse must cache the entire observation and skip fresh IO.",
+    "independent_audit": "partial source observations only: invented IO call edges, proposed locator-only keys, misstated current scope fields, and suggested changing legacy mocks rather than preserving old dispatch.",
+    "owner_boundary": "Concrete caller source proves an ordinary operation parser-cache scope; it does not prove an optional historical filesystem lease is always active. Fully decoded immutable driver DATA has a possible seam after fresh reads, but the new issuer/wiring API is not implemented or qualified."
+  },
+  "reusable_rules": [
+    "Resolve the fully qualified nominal result type before reasoning about its fields, immutability or whether it is forbidden to cache; same simple names are not interchangeable.",
+    "A false whole-result-cache negative does not rule out reuse of one pure decode at its original point while every read and contextual validation still occurs.",
+    "An operation ThreadLocal parser cache and a filesystem historical lease can coexist but are different lifetimes and authorities; prove each actual entry instead of inferring one from the other.",
+    "A new interface default method may reach existing dynamic Proxies as an unknown invocation. Preserve legacy call paths and require explicit concrete opt-in; do not fix compatibility by weakening old tests.",
+    "A source-feasible pure-data seam is not an implementation, software pass, deployment or performance result."
+  ],
+  "cost": {
+    "marker_to_source_seal_seconds": 1107.651473,
+    "marker_basis": "original phase-file filesystem mtime; no embedded stopwatch timestamp",
+    "HTTP_elapsed_sum_seconds": 95.18488020001678,
+    "owner_active_seconds": "UNKNOWN"
+  },
+  "limits": [
+    "No new JVM, test, host, application reload or business action.",
+    "No production patch or new API adopted.",
+    "No raw source/request/answer, private path, machine/process identity, filename/FQN or application-specific records are public."
+  ]
+}
