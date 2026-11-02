@@ -1,0 +1,218 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B029-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-02T19:41:29.910152+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-02T19:27:58.565396+00:00",
+    "window_ended_at_utc": "2026-11-02T19:28:06.059038+00:00",
+    "window_seconds": 7.493642,
+    "peak": 4,
+    "peak_duration_seconds": 6.378906,
+    "average_inflight": 3.8449953974315827
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261103-b029-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 760,
+        "completion_tokens": 590,
+        "total_tokens": 1350
+      },
+      "failure": null,
+      "content_ttft_ms": 855.3129000065383,
+      "total_ms": 6765.258300001733,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "5fd1250265e2d748ab39ede7a22bcf0b1634725c7eb3434571c3d7cc10895807",
+      "summary_sha256": "dcadb6d9c201e647e3fc03b5d9b0e354f2e7354a30188176493906f9726181c5",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "54c21cdb69b3b08cd7cd0365363058175f2d9de1b03ea6bb1efd5dd8c85c5511",
+        "task_id": "hoi4-20261103-b029-prompt-01",
+        "request_sha256": "5fd1250265e2d748ab39ede7a22bcf0b1634725c7eb3434571c3d7cc10895807",
+        "summary_sha256": "dcadb6d9c201e647e3fc03b5d9b0e354f2e7354a30188176493906f9726181c5",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Narrowed owner generic OPEN uniform-or-CLOSED royal collar condition to each actual source: OPEN uniforms1/4, CLOSED gold-banded royal collars2/3. Candidate4 omitted explicit cap/headgear and image-left direction: restored actual dark navy gold-band peaked cap and near-profile angle via exact source restatement.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2283,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b029-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 798,
+        "completion_tokens": 593,
+        "total_tokens": 1391
+      },
+      "failure": null,
+      "content_ttft_ms": 854.4248999969568,
+      "total_ms": 7475.53979998338,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "51bb5d7d7025c3dcc3ba6649a3e7ee0ed066d8a5fc8318af6b5d9c3561775dc0",
+      "summary_sha256": "2c6637033528905a0b83f8ed9d0a5ee3489a6e51015c0f928407d40134221873",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "9b18bf09c12c8b6235baaedc5e5a86245a6b7feddd0dca92ea1739e3b44abb3f",
+        "task_id": "hoi4-20261103-b029-prompt-02",
+        "request_sha256": "51bb5d7d7025c3dcc3ba6649a3e7ee0ed066d8a5fc8318af6b5d9c3561775dc0",
+        "summary_sha256": "2c6637033528905a0b83f8ed9d0a5ee3489a6e51015c0f928407d40134221873",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Narrowed owner generic OPEN uniform-or-CLOSED royal collar condition to each actual source: OPEN uniforms1/4, CLOSED gold-banded royal collars2/3. Candidate4 omitted explicit cap/headgear and image-left direction: restored actual dark navy gold-band peaked cap and near-profile angle via exact source restatement.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2463,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b029-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 773,
+        "completion_tokens": 526,
+        "total_tokens": 1299
+      },
+      "failure": null,
+      "content_ttft_ms": 852.8718999878038,
+      "total_ms": 6379.748699982883,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "dbf53ce2d84a9265b1d0cc06e725fec35053388bf2c454b03a8a657d1458986e",
+      "summary_sha256": "16ec30da36988bf81a0496078298e33b4fc97817030fb4c8a22c9ca304be293a",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "fe4771ae6ae56ca57fa363c7b41ae3ed4fac953e605fa0a9c6892ac69fef11d4",
+        "task_id": "hoi4-20261103-b029-prompt-03",
+        "request_sha256": "dbf53ce2d84a9265b1d0cc06e725fec35053388bf2c454b03a8a657d1458986e",
+        "summary_sha256": "16ec30da36988bf81a0496078298e33b4fc97817030fb4c8a22c9ca304be293a",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Narrowed owner generic OPEN uniform-or-CLOSED royal collar condition to each actual source: OPEN uniforms1/4, CLOSED gold-banded royal collars2/3. Candidate4 omitted explicit cap/headgear and image-left direction: restored actual dark navy gold-band peaked cap and near-profile angle via exact source restatement.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2314,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b029-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 770,
+        "completion_tokens": 595,
+        "total_tokens": 1365
+      },
+      "failure": null,
+      "content_ttft_ms": 726.340799999889,
+      "total_ms": 7495.501800003694,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "c4eb1b67fabf89405fa73e39c6beae51ac9990a15c6be46ea56d84e48591100c",
+      "summary_sha256": "b7a5433f99466eb7624aeb9f551bc7dfb297c46994ae5a8ca287191bba99d825",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "8e573eec940d960a34a2a9dc678611d2c8a03e43da62816ad8a470d65a046709",
+        "task_id": "hoi4-20261103-b029-prompt-04",
+        "request_sha256": "c4eb1b67fabf89405fa73e39c6beae51ac9990a15c6be46ea56d84e48591100c",
+        "summary_sha256": "b7a5433f99466eb7624aeb9f551bc7dfb297c46994ae5a8ca287191bba99d825",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Narrowed owner generic OPEN uniform-or-CLOSED royal collar condition to each actual source: OPEN uniforms1/4, CLOSED gold-banded royal collars2/3. Candidate4 omitted explicit cap/headgear and image-left direction: restored actual dark navy gold-band peaked cap and near-profile angle via exact source restatement.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2317,
+        586
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261103-b029-sources.json",
+    "sha256": "e4bc4234b1c55cd7763e34fed910e610f4bbfbefc47a1cfac4d12fb773bc5d36",
+    "publication_commit_at_cutoff": null
+  },
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. A same-path dark/lit pair has distinct raw SHA and remains independent. Actual low-key exposure, laurel wreath/full beard, closed gold-banded royal collar and navy cap/profile are individually source-bound. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Both SHA domains checked. Narrowed owner generic OPEN uniform-or-CLOSED royal collar wording to each actual source: OPEN uniforms1/4, CLOSED royal collars2/3. Candidate4 omitted explicit cap/headgear and image-left direction; restored actual dark navy gold-band peaked cap and near-profile angle through owner exact source restatement. Low-key versus lit variants retained, partial text adoption only.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
