@@ -1,0 +1,218 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B026-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-02T18:17:18.620141+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-02T18:00:39.242813+00:00",
+    "window_ended_at_utc": "2026-11-02T18:00:46.500166+00:00",
+    "window_seconds": 7.257353,
+    "peak": 4,
+    "peak_duration_seconds": 6.59584,
+    "average_inflight": 3.8384317257269966
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261103-b026-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 788,
+        "completion_tokens": 532,
+        "total_tokens": 1320
+      },
+      "failure": null,
+      "content_ttft_ms": 1122.526299994206,
+      "total_ms": 7058.557399985148,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "7456635ff7f36fd41e88b4b84cbb71d11ef9e94c8fede16ef942778a4e93ad95",
+      "summary_sha256": "c51bb58eb7e6887e2082d8c3c3ed98f6a9fc0354b5fa9ec2f497296c34fc64e9",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "325e55dfc31d1577018f0cc5caff399fe03f166360e2a66346fd946d0cb459fd",
+        "task_id": "hoi4-20261103-b026-prompt-01",
+        "request_sha256": "7456635ff7f36fd41e88b4b84cbb71d11ef9e94c8fede16ef942778a4e93ad95",
+        "summary_sha256": "c51bb58eb7e6887e2082d8c3c3ed98f6a9fc0354b5fa9ec2f497296c34fc64e9",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Removed candidate2 protocol sentence and other-variant comparisons. Source4 candidate omitted hat/spectacles: restored actual brown broad-brim fedora/black band and round clear wire spectacles via exact source restatement. Removed scarf from male source4 generic garment clause; owner common contract had unnecessarily included scarf for all sources, actual male source has coat/shirt/tie, no scarf.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2432,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b026-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 765,
+        "completion_tokens": 596,
+        "total_tokens": 1361
+      },
+      "failure": null,
+      "content_ttft_ms": 1107.104700000491,
+      "total_ms": 7236.383999988902,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "d4ecc9d61c7faf70dcff1db9bf3d8fc5a12c13f03963851236742733d956cb63",
+      "summary_sha256": "81231b25d3b25efd598c3914b47be9a10642005a9085992e96d9339cfe571df6",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "bb14d229617a0f952f2847b902db70a053287f82495c41e2c748534b1df319a7",
+        "task_id": "hoi4-20261103-b026-prompt-02",
+        "request_sha256": "d4ecc9d61c7faf70dcff1db9bf3d8fc5a12c13f03963851236742733d956cb63",
+        "summary_sha256": "81231b25d3b25efd598c3914b47be9a10642005a9085992e96d9339cfe571df6",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Removed candidate2 protocol sentence and other-variant comparisons. Source4 candidate omitted hat/spectacles: restored actual brown broad-brim fedora/black band and round clear wire spectacles via exact source restatement. Removed scarf from male source4 generic garment clause; owner common contract had unnecessarily included scarf for all sources, actual male source has coat/shirt/tie, no scarf.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2280,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b026-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 797,
+        "completion_tokens": 505,
+        "total_tokens": 1302
+      },
+      "failure": null,
+      "content_ttft_ms": 1136.3056999980472,
+      "total_ms": 6631.242599978577,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "b284d0bc876ae316e6fd34b15ad7775e8e4272ea5054c26096a0ee99901cada3",
+      "summary_sha256": "88e21dc23233d9cebe23df22652b45fbccd8390c27be234309fb855fafdc8cfb",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "2b5d5f54ae8390796dfd5e69f638ceed1be599aad8251dfd86d3e005c167c98f",
+        "task_id": "hoi4-20261103-b026-prompt-03",
+        "request_sha256": "b284d0bc876ae316e6fd34b15ad7775e8e4272ea5054c26096a0ee99901cada3",
+        "summary_sha256": "88e21dc23233d9cebe23df22652b45fbccd8390c27be234309fb855fafdc8cfb",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Removed candidate2 protocol sentence and other-variant comparisons. Source4 candidate omitted hat/spectacles: restored actual brown broad-brim fedora/black band and round clear wire spectacles via exact source restatement. Removed scarf from male source4 generic garment clause; owner common contract had unnecessarily included scarf for all sources, actual male source has coat/shirt/tie, no scarf.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2461,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b026-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 783,
+        "completion_tokens": 548,
+        "total_tokens": 1331
+      },
+      "failure": null,
+      "content_ttft_ms": 998.3092999900691,
+      "total_ms": 6960.913199989591,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "d56eaf5ecb457855fbf8ae2ad03bbd5cdc9372be67c75679fb137325b7ce604b",
+      "summary_sha256": "12c1770758c8d165661f8a1eb3f6b637b9cd23d1569e3d8af24fb14354a4bb46",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "7805c2811d773f400861f437d4f77d3bbd525127e2ded3a1f64269ede02d4deb",
+        "task_id": "hoi4-20261103-b026-prompt-04",
+        "request_sha256": "d56eaf5ecb457855fbf8ae2ad03bbd5cdc9372be67c75679fb137325b7ce604b",
+        "summary_sha256": "12c1770758c8d165661f8a1eb3f6b637b9cd23d1569e3d8af24fb14354a4bb46",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Removed candidate2 protocol sentence and other-variant comparisons. Source4 candidate omitted hat/spectacles: restored actual brown broad-brim fedora/black band and round clear wire spectacles via exact source restatement. Removed scarf from male source4 generic garment clause; owner common contract had unnecessarily included scarf for all sources, actual male source has coat/shirt/tie, no scarf.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2398,
+        586
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261103-b026-sources.json",
+    "sha256": "871433200003f0a6a1a8c130a6223cca6ff17706af7d35cd165f1074e4d298bc",
+    "publication_commit_at_cutoff": null
+  },
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. Two same-path pairs have distinct raw SHA and remain independent. Extreme low-key originals retain shadows; lit counterparts retain actual exposure. Scarf, round spectacles, fedora and source-visible pipe remain separately bound. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Owner removed candidate2 protocol sentence and other-variant comparisons. Source4 candidate omitted actual fedora and spectacles; owner restored them via exact source restatement. Owner generic contract unnecessarily mentioned scarf for all sources; removed scarf from male source4 garment clause, retaining coat/shirt/tie. Exact low-key versus lit exposure, round chin/short neck and both SHA domains verified. Partial text adoption only.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
