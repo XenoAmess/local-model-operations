@@ -1,0 +1,194 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-LATE-FRONTIER-ANALYSIS-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_review_cutoff_UTC": "2026-11-02T04:36:43.135430+00:00",
+  "operator_review_UTC": "2026-11-02T05:36:57.378624+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "A real cold historical-recovery frontier rejected an already settled dirty branch after the earlier history reader had passed. Owner implemented a narrow live-role and pure-history metadata compatibility predicate; two later source roles explored implementation and counterexamples independently of runtime progress.",
+  "input": {
+    "complete_current_code_files": 15,
+    "physical_code_UTF8_bytes": 702182,
+    "source_message_UTF8_bytes": 713863,
+    "single_CRLF_to_LF_projection_verified": true,
+    "actual_REQUEST_all_complete_code_order_and_prefix_digest_verified": true,
+    "two_actual_event_inputs": "Explicit selected named-field projections only, not complete event originals, canonical proof, action permission or a current authority token. No retrospective full-original input claim.",
+    "roles": "Implementation sees the actual old target and current caller/contracts; audit receives the owner candidate edits as part of its task. This is neither a blind independent implementation test nor a pre-run adopted model candidate.",
+    "protocol": "Eight keys, exact current system/user/user, temperature0, thinkingfalse, JSON object, SSE usage, finite1800/2200 budgets."
+  },
+  "calls": [
+    {
+      "role": "implementation",
+      "POST_BEGIN_UTC": "2026-11-02T04:30:25.597127+00:00",
+      "END_UTC": "2026-11-02T04:31:23.130053+00:00",
+      "max_tokens": 1800,
+      "complete_current_code_items": 15,
+      "source_message_UTF8_bytes": 713863,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 57.533230200002436,
+      "content_TTFT_seconds": 40.869497499996214,
+      "usage": {
+        "prompt_tokens": 149744,
+        "completion_tokens": 1800,
+        "total_tokens": 151544
+      },
+      "cached_prompt_tokens": null,
+      "owner_read_available_body": true,
+      "whole_candidate_adoption": false,
+      "REQUEST_digest": {
+        "bytes": 732892,
+        "sha256": "c074b1302774024edbb98af25bf3290d9c9f5ae536ed964954903dd3c712eede"
+      },
+      "EVENTS_digest": {
+        "bytes": 2175,
+        "sha256": "b449e73152813b43aef44629e2e70a7267797c385b506a6092ec3d8be3b85c32"
+      },
+      "CONTENT_digest": {
+        "bytes": 7671,
+        "sha256": "78862c574cdd3b0263ee7c6b0ec6bd3d80c2394bc70c88830b4861613840cf32"
+      }
+    },
+    {
+      "role": "audit",
+      "POST_BEGIN_UTC": "2026-11-02T04:30:25.600481+00:00",
+      "END_UTC": "2026-11-02T04:31:15.054971+00:00",
+      "max_tokens": 2200,
+      "complete_current_code_items": 15,
+      "source_message_UTF8_bytes": 713863,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 49.45480039999529,
+      "content_TTFT_seconds": 39.861015000002226,
+      "usage": {
+        "prompt_tokens": 150986,
+        "completion_tokens": 715,
+        "total_tokens": 151701
+      },
+      "cached_prompt_tokens": null,
+      "owner_read_available_body": true,
+      "whole_candidate_adoption": false,
+      "REQUEST_digest": {
+        "bytes": 738521,
+        "sha256": "a0ff0f85913edb91d8bd833a7c9c9fcb53057b1f186ca3d8a64f20cc277fa4b9"
+      },
+      "EVENTS_digest": {
+        "bytes": 2096,
+        "sha256": "c548d7a04da385066c22547aa7b98bcd8b221fcd37b33fa7a380e1c17d070b4e"
+      },
+      "CONTENT_digest": {
+        "bytes": 3067,
+        "sha256": "b60654990de1a8f1adde5406ad73fa9de01947f74c3fba0cf0b722fced8a42b5"
+      }
+    }
+  ],
+  "transport": {
+    "logical_roles": 2,
+    "actual_POSTs": 2,
+    "actual_ENDs": 2,
+    "complete_stop": 1,
+    "length": 1,
+    "retry": 0,
+    "client_in_flight_at_owner_review": 0,
+    "client_peak": 2,
+    "peak_overlap_seconds": 49.45449,
+    "HTTP_union_seconds": 57.532926,
+    "reported_attempt_seconds_sum": 106.98803059999773,
+    "server_running_waiting_KV": null,
+    "cache_or_congestion_cause": null
+  },
+  "adoption": {
+    "implementation": "Length incomplete reducer/source, owner actually read the available partial body then discarded the entire candidate. Zero code or fragment adopted, not hash-only unread and not a complete semantic-grade output. NoR2 to wash this closed task.",
+    "audit": "Whole source findings rejected: missed explicit strictly-dirty comparison, conflated pure metadata reducer with live-role admission, missed unchanged exact retained batch/session guard and supplied no concrete counterexample crossing actual saved-history and complete saved-proof requirements. Zero new validated finding/code or whole audit accepted.",
+    "owner_source": "Five exact literal edits on the frozen compatibility baseline; full normalized forward/reverse bytes independently verified. Actual saved role and checked head remain required for live admission, full chain/action/canonical/SAVE checks remain. No fabricated permission or new cycle/save credit.",
+    "source_and_first_compile_before_both_POSTs": true,
+    "model_code_oracle_or_runtime_adoption": 0,
+    "previous_reader_context": "Earlier owner reader fix had zero standalone model requests. It is context, excluded from this two-role cohort; no duplicate replay or request-count credit."
+  },
+  "timing_and_existing_runtime_receipts": {
+    "owner_ready_UTC": "2026-11-02T04:27:27.298466+00:00",
+    "owner_first_compile_BEGIN_UTC": "2026-11-02T04:28:16.596154+00:00",
+    "owner_first_compile_END_UTC": "2026-11-02T04:28:19.190901+00:00",
+    "owner_first_compile_seconds": 2.594745200010948,
+    "owner_first_compile_exit": 0,
+    "actual_LOOP_UTC": "2026-11-02T04:30:21.068866400Z",
+    "actual_worker_END_UTC": "2026-11-02T04:30:46.378114+00:00",
+    "actual_worker_total_wall_seconds": 94.88842859999568,
+    "actual_worker_exit": 4,
+    "new_SAVE_CONFIRMED_days": 0,
+    "seconds_per_new_saved_day": null,
+    "later_failure_scope": "A distinct downstream linked consumer required a continuation object that was absent. Passing this narrow historical/frontier gate and reaching LOOP did not restore the complete business chain.",
+    "causal_limits": "Owner source and first compile and real LOOP all precede the two POSTs. Later worker failure occurs before either model response END. Late candidates caused neither observed progress nor the different later failure; no overall recovery or performance credit."
+  },
+  "software_and_formal": {
+    "first_check": "Only one changed production TU, 2.594745s0. No new behavioral Test/JVM or old suite replay for this source unit.",
+    "compiled_compatibility_source_digest": {
+      "bytes": 205741,
+      "sha256": "8a24aff8a018935d418e4a82913d4e60dc5ea8c8aca40182c4891fe144b1d405"
+    },
+    "formal_commit": "b95ca5b59234ff14c25a3309e689a542d46f2a11",
+    "normal_push_remote_exact_clean": true,
+    "formal_whole_digest": {
+      "bytes": 213182,
+      "sha256": "b868db7147528b6874843c48a2ddf01281abb0f3dfc613da726f2b790c8d19e5"
+    },
+    "raw_whole_equals_formal_whole": false,
+    "why": "Current formal baseline already contained unrelated newer saved-material/source/session-aware code absent from the compiled compatibility baseline. Sole writer applied only the same five owned edits, reviewed the disjoint diff and proved every other current-formal byte inverse exact; EOF preserved. These are different whole source identities, not raw whole-file adoption or proof of actual loading.",
+    "publication_new_compile_RUN_HTTP": 0
+  },
+  "owner_cost": {
+    "owner_active_labor_seconds": null,
+    "full_discovery_preparation_start": null,
+    "continuous_source_review_timing": false,
+    "owner_ready_to_first_compile_BEGIN_wall_seconds": 49.297688,
+    "owner_ready_to_review_wall_seconds": 555.836964,
+    "first_compile_process_seconds": 2.594745200010948,
+    "worker_wall_not_model_time_seconds": 94.88842859999568,
+    "preparation_errors": "Quoted classpath assertion stopped before javac for the earlier reader scope; exploratory reader command treated Java as Python with no source/JVM mutation. Preserve scope and unknown individual active costs, not model/producer errors.",
+    "net_saving_seconds": null,
+    "interpretation": "Known source-readiness, compile, actual worker, HTTP and review windows overlap or include coordination; no resource HOLD, compiler CPU, server queue or exclusive labor inferred."
+  },
+  "private_evidence_digests": {
+    "owner_review": {
+      "bytes": 7837,
+      "sha256": "ba1953e82becaaef64078938b78a9685e77ea8111b721c63d26dad7fabbb9beb"
+    },
+    "source_input": {
+      "bytes": 21366,
+      "sha256": "06bb561720abc13d0aa375bc037995bb6c7fbf2549a3cdcff438bd1d26a329bc"
+    },
+    "owner_edits": {
+      "bytes": 3946,
+      "sha256": "fbe07973f92e05c8b120d1f96d046482aeff50dbb52fa7d29de1b28ec0c06acf"
+    },
+    "first_compile_actual": {
+      "bytes": 1285,
+      "sha256": "649be77033a6851987541c3e9758f24cab5222bf5d2065d179468f9497230cb5"
+    },
+    "actual_LOOP": {
+      "bytes": 1069,
+      "sha256": "6d2a254ad2ffe0196e0acd3468f3b0606c77ff7b7e470e7de000d30dd0d1c5a0"
+    },
+    "actual_worker_END": {
+      "bytes": 265,
+      "sha256": "5f55b70e0a81d837a5d649df02ae11887e2bad55451b03c4c3f190adc70ee472"
+    },
+    "formal_staged": {
+      "bytes": 6544,
+      "sha256": "e874e65240c7db4382d674d41e32ccb8cb1e850b9fbab60dc3754662b90f4f78"
+    },
+    "formal_publication": {
+      "bytes": 808,
+      "sha256": "b11ac5413dd137e555cc8155ae35dc6583cfda6fa2a11388ff074a4e79216f88"
+    }
+  },
+  "limits": [
+    "Finite source review/first compile/formal publication and a real LOOP are separate evidence stages from full business recovery, dispatch and confirmed saved days.",
+    "No new query, worker, Game action, requeued unknown request, ledger reset or current-authority grant by Ops.",
+    "Separate long-term HTTP/native-tool responsibilities continue; no quota request or closed native-tool success rerun."
+  ],
+  "next_real_trigger": "Only a genuine new source requirement or later independent actual receipt; preserve the zero-new-save failed window and all original cutoffs.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}

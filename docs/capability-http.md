@@ -431,3 +431,9 @@ owner四新case oracle响应END后、读CONTENT前冻；随后编译前源核纠
 [HTTP-CORRECT-UNSELECTED-PARALLEL-001](evidence/2026-11-02-http-correct-unselected-parallel.json)保留正确候选未采用这一独立等级。实现46完整项physical614964B、stableprefix625154B经735个CRLF投影为实际message624419B，4500预算stop434；两edits正反回全部raw bytes精确，owner改0，源审正确。owner另一个不同bytes的实现已在模型END前12.599163s实体，随后首1TU0/2.047967s；选用已验owner源，Optional候选未编/未采，不记模型语义拒，也不把父编译绿倒授候选采用。
 
 独立baseline审25完整项physical711151B、5000预算stop2674，未见新owner/candidate；把条件query前sample放到整loop前、canonical head混观察帧、将原exact guard拒绝说成不安全，whole拒。owner另冻sourcefacts在实际END后/读CONTENT前，非model-before-generation oracle；原guard仍会拒不同frame，source论证不替完整行为fixture。两HTTP实际不重叠，峰1/union55.916094s，first→last107.118808s，不能沿旧通知称在途。旧delivery错称inflight已有additive勘误，不回写；过时RESULT文件名的封包错独立保，active/更早准备/netunknown。0新行为Test/JVM/Game/恢复或实速；父formal标量与未采用候选、唯一receipt持有状态分别记，HTTP/OpenCode长期分轨继续。
+
+## 后到：模型请求晚于owner首编与真实LOOP
+
+[HTTP-LATE-FRONTIER-ANALYSIS-001](evidence/2026-11-02-http-late-frontier-analysis.json)实核15完整当前代码、713863B实际prefix与两份明确field-only投影，后者不冒完整事件/authority。1800/2200两个POST在owner候选、首1TU0/2.594745s与实际LOOP之后；impl length1800被owner读过partial再整弃0片段，非unread/完整语义失败；audit stop715的四项指控漏strict-dirty/原batch等式、混pure/live门、未越实际保存证明，whole拒0代码，不R2洗。
+
+原LOOP04:30:21后04:30:46真实END4/94.888429s，发生于两个模型END之前；窄门确已越过，后继consumer缺对象失败，新增SAVE0、秒/保存日未定义。不能把源码/首绿/LOOP授完整恢复，也不能把另一个下游失败归late模型候选。owner五literal从实际兼容base正反精确；formal b95ca5b5保原当前formal其它新代码、whole213182B与已编205741B不同，仅owned edits inverse，不冒raw整叶相等/实际装载。准备断言/误读命令成本、ready→compile/复核墙钟和activeunknown分别保；此前reader0HTTP仅作上下文、不算新角色/补请求。
