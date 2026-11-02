@@ -882,3 +882,9 @@ Owner新六Test在读候选/反审前冻结，但已知成熟算法、非wholebl
 独立Test两7500 stop、实际36/37完整源及源码消息600371/616111B逐file核：R1 whole拒，R2partial+owner imports/ACK/identity/negative修，prePOST oracle未供且实现可见，非盲全模型Test。首strict0后relative-label fixtureF在生产入口前；仅平台absolute标签修、期待不变，再strict0。随后漏建owned tmp在preflight零JVM拒，精确mkdir后RUN-only首1methodP（1正10有限负，不当11Tests）。四Test进程13.174317s对首POST→末JVM965.277536s，准备/等待/activeunknown分账，0旧绿/生产重编；原失败与pending切点保，不以纯DATA见证授实际保存/权限/加载或速度。
 
 后到c79cba99单Test17763B raw/formal/EOF逐byte等独立附录，0新增编验，原delivery/cost的formal pending不改。
+
+## 已表示全状态的caller集成：三种采用等级与12个软件场景
+
+[HTTP-REPRESENTED-STATE-CALLER-INTEGRATION-224](evidence/2026-11-03-http-represented-state-caller-integration.json)八POST=六stop两length/0retry；wrapper首完整稿partial，R2length整未读弃后owner删唯一eager-null行；thunk首稿+模型R2一accessor edit，old唯一/原位inverse精确、非new全局唯一，ownerJava0；known consumer完整R1 9024B decodedraw等/0ownerJava。见证首length未读弃、R2完整matrix错整拒0oracle；boundary仅合同partial、非candidate审。初冻21项46126物理B不冒wire；existing API资格/强fieldflow提示不是owner新API代码。
+
+Native sole三prod/Test首strict0→manual12scene75checks0，前5oracle预POST、后7owner集成/反例另列，不冒全部盲预期。仅existing API实际表示字段/SP/RET与成熟child链，DF/RFLAGS/XMM7..15/EH/hardware未表示；不授full ABI/自然任务/Root/Game。峰4仅8.374632s，2.944513s过程对sourcefreeze→RUN970.321866s，早taskstart/activeunknown，等待不全归CPU/HOLD。后到bf42649e四blob三rawexact，known9024→8811仅LF/水平尾白/EOF保；原pending不改，0新编验或实速。
