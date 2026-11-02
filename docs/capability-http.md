@@ -554,3 +554,5 @@ audit reset半流未读整弃，第二完整泛事实partial、两个具体反�
 后见 [HTTP-NORMAL-KERNEL-BUDGET-HANDOFF-001-FORMAL](evidence/2026-11-02-http-normal-kernel-budget-handoff-formal.json)：正式`b0d187ec`，原冻结source/software pending记录逐byte不改。三owner Java1481/7615/14162B原raw/formal/EOF精等，0模型code/oracle；原5logical7POST、2reset4length1完整错/9manual135checks切点不动。writer regex/runargs两次preformal断言为owner准备成本，不归模型/业务；0新编RUN/HTTP/实机。
 
 后见 [HTTP-MUTUAL-TRANSFER-NUMERIC-CONTRACT-001-FORMAL](evidence/2026-11-02-http-mutual-transfer-numeric-contract-formal.json)：正式`b6108633`，原冻结source/software pending记录逐byte不改。四owner Java1428/4861/3052/15892B raw/formal/EOF精等；原数制歧义/6POST两length整弃与4stop整拒、0code/oracle、9manual136checks范围不变。0新编RUN/HTTP/Native/Root/Game；不据后到formal追授模型采用或COPY/reverse/fullABI。
+
+后见 [HTTP-LOCAL-HISTORY-REUSE-001-FORMAL](evidence/2026-11-02-http-local-history-reuse-formal.json)：正式`f2639744`，原冻结source/software pending记录逐byte不改。13638B原窄生产叶与8457B全owner Test正式raw/EOF等；两model executing hunks原样、审REJECT错误/Journal length弃/必要Test全拒后owner4P等级不变。0新编RUN/HTTP/实载/SAVE或净速度归因，仍保28.410802s墙钟对5.550969s过程及早期activeunknown。
