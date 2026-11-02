@@ -1,0 +1,181 @@
+{
+  "schema": "local-model-operations.http-case/v1",
+  "case_id": "ck3-journal-pure-projection-315",
+  "mode_id": "ordinary_http_candidate",
+  "recorded_utc": "2026-11-02T17:27:31.201786+00:00",
+  "source_privacy": "Only this sanitized public payload is approved. Raw source, requests, output bodies, oracles, private paths, machine ledger and runtime materials remain private.",
+  "task": "One existing Java Journal lookup pure-value projection; all full original-history reads and validation remain. Remove intermediate latest-action map/list when only one id is requested.",
+  "scope_and_negative_decision": [
+    "The owner identified repeated history walks inside composite append, but rejected replacing fresh per-child queries by an older prior list: it could remove original custody/validation callbacks.",
+    "The implemented narrower change eagerly obtains the same fully validated historical list, then selects the first matching receipt; latest-first semantics match old LinkedHashMap.putIfAbsent.",
+    "No new production type/field, no archive/store/writer/authority edit, no cross-call/head cache or early history cutoff. Existing batch historical validator retained.",
+    "Full history traversal, original load/decode count and order are unchanged. No claim of IO reduction, measured bytes allocated, 148-second attribution, real speedup or end-to-end target achieved."
+  ],
+  "inputs": {
+    "complete_files_per_role": 20,
+    "frozen_source_bytes": 363514,
+    "source_boundary": "Initial requests used an older actual workspace mirror. Later current Dev comparison found18 files LF-equal; Journal had an extra existing batch method and Archive had local codec/diagnostics additions. The exact unchanged lookup hunk was mechanically rebased onto current whole target, preserving these additions. No repeated implementation request; source-owner preparation correction is not model autonomous latest-source knowledge.",
+    "oracle": "Owner froze7newin-memory methods before reading candidate or counter contents. Mature constructor patterns/current production were known; not whole-blind."
+  },
+  "requests": [
+    {
+      "role": "implementation",
+      "request_sha256": "13678ebdeeb101a4c68fa09099c793069b3795f57883ec5bcd897e9ee9e22183",
+      "messages": 3,
+      "source_files": 20,
+      "model": "qwen38-coder",
+      "max_tokens": 1800,
+      "temperature": 0,
+      "enable_thinking": false,
+      "stream": true,
+      "include_usage": true,
+      "finish_reason": "stop",
+      "first_valid_content_ms": 18677.324299991596,
+      "total_ms": 23591.99620000436,
+      "usage": {
+        "prompt_tokens": 74491,
+        "completion_tokens": 427,
+        "total_tokens": 74918
+      },
+      "cached_prompt_tokens": null
+    },
+    {
+      "role": "counter",
+      "request_sha256": "e6a6742d7000fe33be046b683dd948f1104743f083ecdc1b9e37197d8bf7b246",
+      "messages": 3,
+      "source_files": 20,
+      "model": "qwen38-coder",
+      "max_tokens": 2200,
+      "temperature": 0,
+      "enable_thinking": false,
+      "stream": true,
+      "include_usage": true,
+      "finish_reason": "length",
+      "first_valid_content_ms": 19551.7872999917,
+      "total_ms": 50799.855799996294,
+      "usage": {
+        "prompt_tokens": 74500,
+        "completion_tokens": 2200,
+        "total_tokens": 76700
+      },
+      "cached_prompt_tokens": null
+    },
+    {
+      "role": "counter-r2",
+      "request_sha256": "8200173d76c862dffbdb109d9b884bc1033692811da3d8cbf19c700858e9c233",
+      "messages": 3,
+      "source_files": 20,
+      "model": "qwen38-coder",
+      "max_tokens": 700,
+      "temperature": 0,
+      "enable_thinking": false,
+      "stream": true,
+      "include_usage": true,
+      "finish_reason": "stop",
+      "first_valid_content_ms": 830.137900004047,
+      "total_ms": 1985.9429000061937,
+      "usage": {
+        "prompt_tokens": 74348,
+        "completion_tokens": 163,
+        "total_tokens": 74511
+      },
+      "cached_prompt_tokens": null
+    }
+  ],
+  "adoption": {
+    "implementation": "Complete stop, owner-guided exact small hunk adopted; JSON fragment LF-to-CRLF projection only, zero executable owner correction. Owner had suggested the exact safe transformation, so no independent hotspot-discovery credit.",
+    "counter_first": "Length2200 whole discarded, no stitching. It also misdescribed append timing and contradicted its own equivalence discussion.",
+    "counter_second": "Complete stop163 tokens, partial audit only. Eager traversal reasoning accepted, false claim that old lookup could lazily bypass history validation rejected; no further POST.",
+    "owner": "Provided source equivalence proof, current-base provenance correction, all7new tests and acceptance decision."
+  },
+  "software": {
+    "new_production_TU": 1,
+    "new_test_TU": 1,
+    "new_methods": 7,
+    "first_prod_exit": 0,
+    "first_test_compile_exit": 0,
+    "first_methods_found_started_passed": 7,
+    "skip_failed_abort": 0,
+    "stage_process_wall_seconds": {
+      "prod": 1.782659100004821,
+      "validation": 1.6554189000016777,
+      "test": 2.4129153000103543
+    },
+    "sum_stage_process_wall_seconds": 5.850993300016853,
+    "compiler_CPU_seconds": null,
+    "retained_stderr": "Existing JBoss LogManager initialization ERROR retained; no silent rerun.",
+    "tests_scope": "DATA newest-duplicate selection, full read order, missing/null id, later cycle/sequence/machine failure, repeated fresh-original failure, and absent-versus-null head. No physical archive/permissions/real Game validation."
+  },
+  "cost": {
+    "whole_begin_to_software_delivery_seconds": 1067.828308,
+    "owner_active_seconds": null,
+    "phase_intervals": [
+      {
+        "phase": "IMPLEMENTATION_SPEC",
+        "begin": "2026-11-02T17:12:18.540784+00:00",
+        "end": "2026-11-02T17:12:54.877578+00:00",
+        "wall_seconds": 36.336794,
+        "active_seconds": null,
+        "exclusive": false
+      },
+      {
+        "phase": "ORACLE_AUTHORING",
+        "begin": "2026-11-02T17:13:18.377583+00:00",
+        "end": "2026-11-02T17:14:25.685467+00:00",
+        "wall_seconds": 67.307884,
+        "active_seconds": null,
+        "exclusive": false
+      },
+      {
+        "phase": "SOURCE_REVIEW",
+        "begin": "2026-11-02T17:14:25.817571+00:00",
+        "end": "2026-11-02T17:16:14.796753+00:00",
+        "wall_seconds": 108.979182,
+        "active_seconds": null,
+        "exclusive": false
+      },
+      {
+        "phase": "VALIDATION_PREPARATION",
+        "begin": "2026-11-02T17:16:14.947981+00:00",
+        "end": "2026-11-02T17:18:46.248346+00:00",
+        "wall_seconds": 151.300365,
+        "active_seconds": null,
+        "exclusive": false
+      },
+      {
+        "phase": "VALIDATION_PREPARATION_REPAIR",
+        "begin": "2026-11-02T17:19:02.821036+00:00",
+        "end": "2026-11-02T17:19:03.139104+00:00",
+        "wall_seconds": 0.318068,
+        "active_seconds": null,
+        "exclusive": false
+      },
+      {
+        "phase": "DELIVERY_PREPARATION",
+        "begin": "2026-11-02T17:20:37.173168+00:00",
+        "end": "2026-11-02T17:22:18.384577+00:00",
+        "wall_seconds": 101.211409,
+        "active_seconds": null,
+        "exclusive": false
+      }
+    ],
+    "model_http_sum_total_ms": 76377.79490000685,
+    "model_http_first_begin_to_last_end_wall_seconds": 144.178144,
+    "peak_inflight": 2,
+    "peak2_seconds": 23.587949,
+    "test_compile_end_to_jvm_begin_gap_seconds": 3.148704,
+    "limits": [
+      "AUDIT_REPAIR_SPEC BEGIN and EVIDENCE_PREPARATION BEGIN were dispatched in same tool batch as already-authored script: their tiny interval covers mechanical application only, earlier authoring active unknown.",
+      "VALIDATION_PREPARATION first END note incorrectly claimed Ready; EOL assertion had failed pre-Ready and pre-Java. Append CORRECTION retained; actual Ready after repair.",
+      "Initial independent315 BEGIN was physically recorded before first source navigation in303 livejournal, then copied exact to315.",
+      "SOURCE_REVIEW overlaps counterR2 and later source rebasing; no exclusive active cost inferred.",
+      "Full source discovery/closure, review and actual-base correction dominate preparation; milliseconds of patch application are not whole owner cost.",
+      "These elapsed intervals overlap model waits and coordination; they are not exclusive active labor or compiler CPU."
+    ]
+  },
+  "publication": {
+    "status_at_cutoff": "formal_pending",
+    "software_candidate": "Current-base unique hunk and owner Test ready; sole Java publisher handles formal projection separately.",
+    "runtime": "Runtime explicitly did not include this candidate in the delegate already started. No installed/running/speed evidence."
+  }
+}

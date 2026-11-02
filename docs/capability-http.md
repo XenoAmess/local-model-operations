@@ -924,3 +924,7 @@ Native sole两prod/ownerTest首strict0、manual14组0，混core与指定MULSS软
 准备275.273568s/全scope496.141438s与75.211770s请求合计分列，activeunknown；本例普通三消息而非OpenCode生成。批准2626B正文逐byte复制，raw源码/REQUEST/答复/私路径留本机，不据101k级prompt宣称context实验、永久能力上限或模式净收益。
 
 [HTTP-GUIDED-IDENTITY-ENCODING-316](evidence/2026-11-03-http-guided-identity-encoding.md)为 Root 明确批准的2751B原样正文。7份完整当前源码98683B、2200实施/1500完整候选反审均stop，实际顺序发出、峰1；owner强设计指导下两literal原样采用，保同引用第一次完整编码、不同引用旧编码/hash路径及全部资格门。反审漏看候选已先编码并混另一入口校验，整拒、无R2。首1TU0/3.552678s及d9acba89正式只属源码阶段；必要Test与实际采用后见另记，不授运行/SAVE/提速。PREP标记→Ready245.148407s、→首编END328.474586s包含模型等待、审阅和跨任务协调，更早发现/active/netunknown，不以短HTTP或两处原码认定节省owner工时。
+
+[M4批准的Journal纯投影315正文](evidence/2026-11-03-http-journal-pure-projection.json)原样8921B保三请求1800 stop/2200 length/700 stop及actual三消息。强owner设计提示下单lookup hunk执行原码、仅EOL投影；完整历史读取、校验、原件加载/解码次数与顺序保持，只免中间map/list。首反审整弃，R2仅eager遍历事实partial、假oldlazy绕校验拒，不授whole审批准或148s/实速。初20源与实际Dev18等/2异源的owner机械rebase保既有batch/codec/诊断，不追认模型自行知道新基线。
+
+Owner七新DATA方法首7P，三进程5.850993s对1067.828308s已录全wall，峰2仅23.587949s；authoring包络/机械应用/等待及activeunknown分开。原正文formalpending和未加载切点不改；[独立批准formal后见](evidence/2026-11-03-http-journal-pure-projection-formal.json)8c297221生产19893→19688只LF投影、Test8103raw等/EOF保，0新增HTTP/编验/运行信用。
