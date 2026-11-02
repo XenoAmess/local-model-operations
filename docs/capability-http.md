@@ -736,3 +736,9 @@ R2 body partial，owner把“另clone再mutation”改为成功调用的同一ca
 生产首编后owner另发现borrowed数组跨archive callback可被改，最小clone前移及同一方法定点alias反例独立后加，不追旧HTTP为最终代码审或模型发现。旧Ready实际0START非红；仅最终新Test首strict0→2JUnit2P、XML独核，6.553592s两过程对1052.946126s首POST→JVM/34.445832s gap，准备/activeunknown、实际优先窗与source更新不冒连续HOLD或CPU。后见9c157247单blob13758B/EOF与compiledraw等，原cutoff不改。三archive proxy调用不是物理IOtrace，0生产/helper/旧绿重编/FS/JNA/Root权限/Game/SAVE/实速信用。
 
 [signed postallocation单元后到正式](evidence/2026-11-02-http-signed-postallocation-block-formal.json)：aab72309四blob直接独核，block2764→2756仅八尾白，owner全段3000/Test22145/新wrapper342 raw等且EOF保。原c2cc软件pending、R1 signed错→R2两model hunk/owner全段和五case及2021.474626s wall/activeunknown逐byte不回写。Native仅新wrapper strict0.610859s/selected1P0.536468s，仍调用原五segmentcases非第六，91pins/29.614586s window/28.467246s协调gap分账，无XML仅实际console。0新增HTTP/旧prod/manual重编或standalone重RUN/实际装载/速度。
+
+## 隔离Maven新类型：窄TCCL候选与owner集成成本
+
+[HTTP-ISOLATED-MAVEN-ADDED-TYPE-001](evidence/2026-11-02-http-isolated-maven-added-type.json)仅复制Root/owner明确批准的2860B原字节portable。实际生成流程是普通三消息HTTP，非OpenCode原生工具case；owner初始三adapter与后续源审不追授模型whole批准。后两真实实现/独审各1attempt完整stop并重叠，21.523290/21.794414s，TTFT8.481528/9.489362s、cachednull；只一处窄TCCL方法提议经独立实际源码核对后采用，不能据stop授整体运行正确。
+
+前四actual RED保：plugin resolve、错误安排descriptor、缺vendor BOM、真实augmentation provider subtype不合；owner交付artifact/BOM与单body修后第五隔离Maven实际dev增编410B public class并由既有consumer执行，同PID/出生、runtime/dependency新loader restart0→1，正常nonce stop/exit0/port-free。3355.3302s已名软件首BEGIN→第五END含失败等待，五进程284.14933s/四编译8.838766s另计，更早准备/library probes不在wall、activeunknown。不授当前业务采用、所有newtype、delegate保活/instrumentation、唯一根因/Game/SAVE或实速，raw/binding留本机。
