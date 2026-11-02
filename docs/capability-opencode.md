@@ -59,6 +59,8 @@ CLI区间总和2171.995330s（约36分12秒），跨任务有并行，不等于�
 
 55负责人后到521项软件通过及54内隔离55组件只读对照，0新增HTTP／OpenCode原生生成；不是55整局／性能通过。[后到记录](evidence/2026-11-03-civ6-qualification-geometry-followup.json)。
 
+Civ6206为HTTP诊断，0新增OpenCode原生生成；入口复用当天维护。分析0代码采用、负责人UIA菜单恢复及文档发布门控纠错分别留证。[记录](evidence/2026-11-03-civ6-steam-uia206.json)。
+
 Civ6202—205为HTTP候选，4次入口复用当天维护，0新增OpenCode原生生成；两次连接重置均仅重试HTTP。203外部探针部分修正采用和54原生诊断不授OpenCode能力；205七绿仍漏204语义缺陷。[记录](evidence/2026-11-03-civ6-qualification-geometry-followup.json)。
 
 Civ6198—201均普通HTTP候选，四次入口复用当天成功维护，0新增OpenCode原生生成；199一次连接重置后HTTP重试，未重放游戏动作。候选全未合入，软件失败与原生53性能FAIL分列。[记录](evidence/2026-11-03-civ6-builder-safety-followup.json)。
