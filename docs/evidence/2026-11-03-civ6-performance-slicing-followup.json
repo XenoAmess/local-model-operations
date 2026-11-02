@@ -1,0 +1,147 @@
+{
+  "schema": "local-model-operations.civ6-performance-slicing-followup/v1",
+  "date_local": "2026-11-03",
+  "machine_id": "BF-202609141645",
+  "batch": {
+    "requests": 2,
+    "complete": 2,
+    "length": 0,
+    "retries": 0,
+    "actual_client_peak": 2,
+    "overlap_seconds": 13.316184,
+    "server_concurrency": null,
+    "cached_tokens": null
+  },
+  "cases": [
+    {
+      "sequence": 192,
+      "case_id": "HTTP-CIV6-LAZYTRADE192",
+      "mode_id": "http-candidate",
+      "shared_commit": "a67f97641f8958c49f3b4868714bca384888f598",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 5500,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T17:33:32.531793+00:00",
+      "attempt_end_utc": "2026-11-02T17:33:45.848582+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 13310.391699982574,
+        "first_nonempty_content_delta_ms": 3119.948799983831,
+        "usage": {
+          "prompt_tokens": 8785,
+          "completion_tokens": 969,
+          "total_tokens": 9754
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected-contract",
+      "review": "No exactold/new edits, only skipSafety plan. Selects shortest unvalidatedroute then stops ifunsafe, explicitlyrefuses longer safedomestic route and misreads noalternativewrites as noalternativeplanning. Changes behavior; code/testexpectation rejected without execution. Ownertradefixstillunfinished.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 193,
+      "case_id": "HTTP-CIV6-BOUNDEDBUILDER193",
+      "mode_id": "http-candidate",
+      "shared_commit": "a67f97641f8958c49f3b4868714bca384888f598",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 6200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T17:33:32.532398+00:00",
+      "attempt_end_utc": "2026-11-02T17:33:54.872900+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 22334.988599992357,
+        "first_nonempty_content_delta_ms": 2860.541900008684,
+        "usage": {
+          "prompt_tokens": 11677,
+          "completion_tokens": 2456,
+          "total_tokens": 14133
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected-code",
+      "review": "Actualcandidate loop still checksallpaths; cursoronlyupdatedonsuccess, TickunitEvaluated blocksresume, resetsnewturn. Missingrequired lifecycle; proposednewturntest returns1wheninitialalready1. Rejectedinspection, no generatedcodeapplied. Ownernew9FAIL beforefix/9PASS after; full440PASS83.851s.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "native48": {
+    "evidence": "https://github.com/XenoAmess/civ6_dev/blob/88f632bcb19a9973c541497f3901d8311e27e96e/docs/research/baiqi-p6-performance-native48-evidence-2026-11-03.json",
+    "pure_ten_controller": {
+      "n": 130,
+      "p95_ms": 88.99998664856,
+      "max_ms": 381.99996948242
+    },
+    "pure_ten_admin": {
+      "n": 82,
+      "max_ms": 9.0000629425049
+    },
+    "observed_windows": 5,
+    "all7pointersrestored": true,
+    "native_lua_errors": 0,
+    "result": "B_planFAIL/TC036NOTPASS,notcausalspeedup/regression/fullglobalcontrol.",
+    "findings": "Builder13paths323ms within382ms. Traderfullroutechecks2187+2187layerqueries within325ms. No manualinterior;5playerendturns92militarySKIPs1unstack andmanualEscdiplomaticfarewell separately."
+  },
+  "owner_source50": {
+    "evidence": "https://github.com/XenoAmess/civ6_dev/blob/c1709cc04ac9b68dc9f556ca9ae3591fab7f82a7/docs/research/baiqi-p6-builder-slices-source50-evidence-2026-11-03.json",
+    "code": "Index-onlyfailedcandidates keyedplayer/turn/fullID-position-moves, onecandidate/pathpercallback, rebuildhints/rank andresume withoutprematureSKIP; exactunit/context invalidation.",
+    "software": "9newPASS;full440PASS83.851s; source50packagednotinstalled/nativeverified.",
+    "owner_error": "InitialTick accepted failure-reasonstringascontinuation, first440run1FAIL3ERROR. Strict continuing==true fixes normalwait; oldunsafe case needssecondcallback. Ownererrorseparatefrommodel."
+  },
+  "owner_cost": {
+    "preparation": "Only actualsource/diagnostic assembly completionevents retained; complete costs unknown.",
+    "review": null,
+    "correction": null,
+    "validation": null,
+    "exclusive_active_seconds": null
+  },
+  "maintenance": {
+    "date": "2026-11-03",
+    "installed": "1.19.5",
+    "registry_latest": "1.19.5",
+    "preflights": "Both sharedCLI calls reusedcurrentday same-machine/same-user successfulcache.",
+    "new_opencode_native_generation": 0
+  },
+  "experience": "Do not count a model narrative as implementedlimiter: inspect loop exit, cursor advance and callercontinuation together. Newturn fixture mustchangeactualturn. Native writes and planning alternatives differ: rejectingunsafecheaprankwinner mustnotdiscard a later safedomesticchoice. Generated patch can passsyntax while entirelymissingperformance/behaviorcontract. Owner takesover actualimplementation instead of repeatedrepairloops.",
+  "cumulative_civ6": {
+    "logical_requests": 193,
+    "complete": 183,
+    "length": 10,
+    "retries": 0,
+    "historical_actual_peak": 13,
+    "historical_peak_duration_seconds": null
+  },
+  "limits": [
+    "Source50software only; Traderstillunfinished.",
+    "No long-running service/KV/hardware/cache/netcosts inference.",
+    "Actualpeak2 not12–16target orserverconcurrency.",
+    "One nativepathmaystill exceed50ms; boundedqueries do not prove threshold."
+  ]
+}
