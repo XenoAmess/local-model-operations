@@ -53,6 +53,8 @@ CLI区间总和2171.995330s（约36分12秒），跨任务有并行，不等于�
 
 后两项各响应16000输出tokens、每HTTP180s；无限总步数不取消单响应有限输出和实际文件/业务权限。普通三消息接口保留；这轮没有验证由模型工具执行测试、Git或Game动作，也没有验证原生SDK所有网络故障下的重试策略。
 
+负责人53请求边界后到470软件／69安装已追加[同份证据](evidence/2026-11-03-civ6-settlement-followup.json)，0新HTTP、0新OpenCode原生生成，196仍拒绝，实际53性能待验。
+
 Civ6195—197为HTTP候选，0新增OpenCode原生生成；三次共享CLI复用同日成功维护缓存，52软件463通过不授原生52或工具生成成功。[记录](evidence/2026-11-03-civ6-settlement-followup.json)。
 
 Civ6194为HTTP日志诊断，0新增OpenCode原生生成；同日正式CLI维护缓存被复用，泛化假说和未证命令均未执行。[记录](evidence/2026-11-03-civ6-startup-diagnosis.json)。
