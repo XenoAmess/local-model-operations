@@ -1,0 +1,183 @@
+{
+  "schema": "local-model-operations.civ6-dual211/v1",
+  "date_local": "2026-11-03",
+  "machine_id": "BF-202609141645",
+  "case": {
+    "sequence": 211,
+    "case_id": "HTTP-CIV6-DUALPROFILE211",
+    "mode_id": "http-candidate",
+    "shared_commit": "f311b51c1ccc2465c402c71d7786a0bd97eb8cdc",
+    "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+    "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+    "max_tokens": 1200,
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "model_alias": "qwen38-coder",
+    "post_begin_utc": "2026-11-02T22:03:36.778555+00:00",
+    "attempt_end_utc": "2026-11-02T22:03:40.837070+00:00",
+    "result": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "total_ms": 4050.1113000209443,
+      "first_nonempty_content_delta_ms": 1501.9892000127584,
+      "usage": {
+        "prompt_tokens": 2339,
+        "completion_tokens": 287,
+        "total_tokens": 2626
+      },
+      "cached_prompt_tokens_if_reported": null
+    },
+    "adoption": "rejected-owner-rewrite",
+    "review": "Colonconsumer dual:Wrap shifts self into name because returned Wrap lacks self. Body w(c(...)) executes fn through cpu and then invokes fn again with its results, rather than wall wrapping cpu. Original8tests7ERROR,1PASS invalidcapacity; no original candidate installed or actualgameactions. Owner rewrote factory,0modelLua adopted.8testsPASS0.066s plusactualNativepureconsumer.",
+    "owner_cost_seconds": {
+      "preparation": null,
+      "review": null,
+      "correction": null,
+      "validation": null,
+      "publication": null
+    }
+  },
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/40c4729c18ee0dc1ee22467a2cb98b05d9daded0/docs/research/baiqi-p6-dual-profile-source211-evidence-2026-11-03.json",
+  "adoption": "ModelLua0; owner rewrote fullthinbinding after exactcoloncontract7ERROR/8tests. Candidatew(c(...)) isnot wrappercomposition andwouldcallfn twice ifdotcontractotherwisevalid; never installed andnoactualgameaction replay. Owner8PASS0.066s, actualNativefourreturns/false/nils/originalonce.",
+  "native_calibration": {
+    "wall_plain_batch_ms": "~1–2",
+    "wall_single_batch_ms": "~36–41",
+    "wall_dual_batch_ms": "~79–86",
+    "cpu_delta_all_batches": 0,
+    "cpu_usability": "UNKNOWN: os.clock hasfunctiontype but all measured increments zero; do not treat zero aszero CPUwork or infer scheduler/GC/renderer causes.",
+    "limits": "Pureloop limitedobservercost sample, no calibrationforNativequery proxies or crosscontextclocks. Do not subtractmeanoverhead fromactual callback times or claimcausal speedup."
+  },
+  "validation": {
+    "candidate_tests": 8,
+    "candidate_errors": 7,
+    "candidate_failures": 0,
+    "owner_tests": 8,
+    "owner_tests_seconds": 0.066,
+    "native_pid": 16024,
+    "native_turn": 85,
+    "native_context": "BaiqiExecutor",
+    "compat": [
+      [
+        "4",
+        "1",
+        "0.0069999694824219",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "noop_batches": [
+      [
+        "plain",
+        "1",
+        "1000",
+        "0.00099992752075195",
+        "0"
+      ],
+      [
+        "single",
+        "1",
+        "1000",
+        "0.041000127792358",
+        "0"
+      ],
+      [
+        "dual",
+        "1",
+        "1000",
+        "0.085999965667725",
+        "0"
+      ],
+      [
+        "plain",
+        "2",
+        "1000",
+        "0.0010001659393311",
+        "0"
+      ],
+      [
+        "single",
+        "2",
+        "1000",
+        "0.03600001335144",
+        "0"
+      ],
+      [
+        "dual",
+        "2",
+        "1000",
+        "0.078999996185303",
+        "0"
+      ],
+      [
+        "plain",
+        "3",
+        "1000",
+        "0.002000093460083",
+        "0"
+      ],
+      [
+        "single",
+        "3",
+        "1000",
+        "0.039999961853027",
+        "0"
+      ],
+      [
+        "dual",
+        "3",
+        "1000",
+        "0.079999923706055",
+        "0"
+      ]
+    ],
+    "profiles": [
+      [
+        "9001",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "gameplay_writes": 0,
+    "scope": "ActualprivateNewProfile/NewDual factories andboundedno-op calls, exactfourreturnsincludingfalse/nilholes/trailingnil, originalonce. 1000noopcalls each plain/single/dual in3trials;9001total,profilesnoinvalid/drop. Not normalgameplay performance samples."
+  },
+  "batch": {
+    "logical_requests": 1,
+    "complete": 1,
+    "length": 0,
+    "transport_retries": 0,
+    "actual_peak": 1,
+    "peak_duration_seconds": null,
+    "cached_tokens": null,
+    "server_concurrency": null
+  },
+  "cumulative_civ6_through211": {
+    "logical_requests": 211,
+    "complete": 200,
+    "length": 11,
+    "http_attempts": 214,
+    "transport_retries": 3,
+    "historical_peak": 13,
+    "historical_peak_duration_seconds": null
+  },
+  "maintenance": "CanonicalCLIreusedcurrentlocalday same-machine/user1.19.5cache;0newOpenCode-nativegeneration.",
+  "owner_cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "validation": null,
+    "publication": null,
+    "exclusive_active": null
+  },
+  "phases": "Contemporaneousphaseevents locallyheld; authoring/tests/warmup/sharedpublishing interleaved. No netownerbenefitclaim.",
+  "experience": "A plausibledescriptor clockorder doesnot prove actualcomposition. Checkmethodself andtypedcallee graph. Functionpresence doesnot establishusableCPUclock: allNativeos.clock incrementszero, cannotclaimzeroCPUor scheduler/GCcausality. Pureloopinstrumentationoverheadcannotbedeductedfromgamecallbacks. Originalcandidate/software/nativecompatibility/usableclock/performanceareseparate.",
+  "next": "Minimalwall-only q8actual85reloadunderway;installed5569filesunchanged, do notuseuncalibratedCPUclockasevidence. ContinueFAIL investigation/fullcoverage/matchedcontrols."
+}
