@@ -910,3 +910,9 @@ Native sole两prod/ownerTest首strict0、manual14组0，混core与指定MULSS软
 [HTTP-GUIDED-FINITE-TRUNCATION-CORRECTION-607](evidence/2026-11-03-http-guided-finite-truncation-correction.json)35完整项109990物理B/119504源码消息B，唯一纠正含完整原稿后36项/123008B；1800/2200/1800三POST均stop、0retry/length。R1误拒合法负数bit且检查范围前long shift溢出，源审整拒未编；R2完整2848B raw唯一exact、0owner Java/EOL/EOF，强类型/语义提示分列。Owner100%3777B状态/异常外围与8351B Test；counter八个源正确例仅确认既有类别，0新oracle或Test采用，不冒finalcandidate审批准。
 
 首两prod/Test/manual13组全0，只有finite core/scalarCVTT软件域；不重605/606旧绿，不授Memory/callback/wholegrowth、实采MXCSR/CPU/OS/Native/Game。峰2仅10.628606s且R2后到非三并发，1.477750s过程对已录920.274909s墙钟，缺路径/准备/审阅/协调与activeunknown分账，前序primary成本非免费；原formal pending保，不推实际加载或速度。
+
+## 普通HTTP阴性源审：缺源和伪调用边仍须逐项驳核
+
+[M0批准的315原样正文](evidence/2026-11-03-http-negative-source-operation-review.json)21完整core文件491221物理B/两源码消息各494401B，2800/2400两个真实不同任务均stop/DONE，实际重叠36.935713s；仅partial分析、0代码/候选/编测。模型将已完整供给的23行static codec说成缺源，独审又捏直接调用边和行号；两份阴性结论都不证明优化不可能，也不因看到重复读就授删当前文件资格点。真实source-owned域callback与普通文件边界区分，完整transitive域输入未供的边界仍明确未知。
+
+准备275.273568s/全scope496.141438s与75.211770s请求合计分列，activeunknown；本例普通三消息而非OpenCode生成。批准2626B正文逐byte复制，raw源码/REQUEST/答复/私路径留本机，不据101k级prompt宣称context实验、永久能力上限或模式净收益。

@@ -1,0 +1,52 @@
+{
+  "schema": "local-model-operations.negative-source-analysis-case/v1",
+  "mode_id": "ordinary-http-three-message",
+  "scope": "Two distinct real source-only tasks: one private-operation IO-reuse candidate and one independent race review. No expected candidate or oracle was prewritten.",
+  "input": {
+    "complete_current_files_in_selected_core_scope": 21,
+    "physical_source_bytes": 491221,
+    "actual_source_message_utf8_bytes": [
+      494401,
+      494401
+    ],
+    "transitive_domain_implementations_all_supplied": false
+  },
+  "requests": [
+    {
+      "role": "private-operation-candidate",
+      "max_tokens": 2800,
+      "total_seconds": 36.935923099998035,
+      "ttft_seconds": 27.572093800001312,
+      "reported_prompt_tokens": 101319,
+      "reported_completion_tokens": 526,
+      "finish_reason": "stop",
+      "sse_done": true
+    },
+    {
+      "role": "independent-operation-race",
+      "max_tokens": 2400,
+      "total_seconds": 38.275846899996395,
+      "ttft_seconds": 29.50723879999714,
+      "reported_prompt_tokens": 101314,
+      "reported_completion_tokens": 657,
+      "finish_reason": "stop",
+      "sse_done": true
+    }
+  ],
+  "actual_HTTP_overlap_seconds": 36.935713,
+  "owner_grade": "partial analysis only; zero code. Both negative answers failed to establish impossibility.",
+  "specific_rejected_claims": [
+    "A fully supplied 23-line static codec was called missing and treated as an arbitrary external callback merely because it was in another class.",
+    "The independent answer invented a direct codec-to-receipt-loader edge and supplied incorrect line references."
+  ],
+  "owner_boundary": "Repeated reads really existed, but a direct local-variable rewrite would remove an existing current-filesystem qualification point. The owner kept it. Actual source-owned domain callbacks were distinguished from static file boundaries; no complete child-evidence readset was inferred from the parent head.",
+  "rule": "A negative model answer needs the same exact source and trigger/consequence review as a positive candidate. Fully supplied files do not prevent false missing-dependency claims; do not publish such an answer as proof that optimization is impossible.",
+  "cost": {
+    "preparation_wall_seconds": 275.273568,
+    "whole_scope_wall_seconds": 496.141438,
+    "owner_active_time": "UNKNOWN",
+    "HTTP_seconds_sum": 75.21176999999443
+  },
+  "new_production_changes_tests_profiles_runtime_access_or_performance_claims": false,
+  "not_a_comparison": "This is one bounded observation, not a permanent model capability ceiling or a controlled context-length experiment."
+}
