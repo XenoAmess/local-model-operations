@@ -1022,3 +1022,5 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 成熟后见分别记录：[323生产表达式与受指导见证](evidence/2026-11-03-http-command-validation-and-guided-witness.json)、[322 owner实际adapter两方法](evidence/2026-11-03-http-postcommit-owner-adapter-witness.json)、[226已有状态表示下的wrapper/import修正](evidence/2026-11-03-http-represented-frame-wrapper-owner-repair.json)、[613 actual serialRED后模型transient单修](evidence/2026-11-03-http-fp-copy-tail-serial-correction.json)。生产与Test角色、完整stop和length弃稿、owner方法/机械修正、首次红/参数错误及后到formal分列；各短并发峰不冒持续12–16，active均UNKNOWN，不授Runtime或提速。
 
 330 [正确但未采用的两个模型edit](evidence/2026-11-03-http-compatible-unadopted-readonly-borrows.json)与 owner 先落三处独立候选分账，0采用不冒模型代码错；原“未消费回复=inflight”已勘误。331 [owner接管与原oracle错误](evidence/2026-11-03-http-json-owner-takeover-oracle-errors.json)保3完整stop拒、1length实际误读前段后丢弃，以及CP/arity/原消息期待和legacy异常形状修正；仅2distinctP，不写成最后一次全类2P。后到formal独列，active未知，无实速信用。
+
+612 [精确投影后见](evidence/2026-11-03-http-known-medium-copy-projection-later.json)补明model4936→4916仅20尾spaces、ownerTest16397→16165仅232CRLF转LF；此前仅commit/size与projection未知切点保留，不冒compiled raw等于formal，不扩不可达REP或第7case。
