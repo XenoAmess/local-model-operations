@@ -1,0 +1,144 @@
+{
+  "schema": "local-model-operations.capability-case/v1",
+  "case_id": "HTTP-INTEGER-PRE-FP-SEAM-602",
+  "mode_id": "http-candidate",
+  "date": "2026-11-02",
+  "environment": {
+    "model_alias": "qwen38-coder",
+    "backend_weight_quantization_build": null,
+    "invocation_caller_Git_version": null,
+    "actual_parameters": "Fixed three messages, temperature0, thinkingfalse and include_usage checked. Unknown invocation version not filled from present HEAD."
+  },
+  "input": {
+    "complete_items": 9,
+    "physical_bytes": 23390,
+    "composition": "Eight complete current Java declarations/callers and one full original assembly input; explicit integer17B seam stops before floating-point work. R2 also includes own complete R1, ten items.",
+    "hints": "Exact public shape, instruction sequence, current state, event order and stop boundary supplied. No new owner body, oracle or Test supplied; copied task metanotes are not independent analysis."
+  },
+  "HTTP": {
+    "actual_POST": 3,
+    "stop": 2,
+    "length": 1,
+    "transport_retry": 0,
+    "round3": 0,
+    "selected_client_peak": 2,
+    "peak2_seconds": 6.778637,
+    "requests": [
+      {
+        "role": "block",
+        "round": "http-r1",
+        "POST_BEGIN": "2026-11-02T15:24:11.178025+00:00",
+        "END": "2026-11-02T15:24:17.956662+00:00",
+        "max_tokens": 2000,
+        "finish_reason": "stop",
+        "TTFT_ms": 2054.096199994092,
+        "total_ms": 6778.645999991568,
+        "usage": {
+          "prompt_tokens": 8989,
+          "completion_tokens": 654,
+          "total_tokens": 9643
+        },
+        "cached_prompt_tokens_if_reported": null,
+        "source_message_UTF8_bytes": 25460,
+        "partial_semantically_observed": false
+      },
+      {
+        "role": "audit",
+        "round": "http-r1",
+        "POST_BEGIN": "2026-11-02T15:24:11.177246+00:00",
+        "END": "2026-11-02T15:24:23.490521+00:00",
+        "max_tokens": 1600,
+        "finish_reason": "length",
+        "TTFT_ms": 2055.2090000128374,
+        "total_ms": 12313.30280000111,
+        "usage": {
+          "prompt_tokens": 8851,
+          "completion_tokens": 1600,
+          "total_tokens": 10451
+        },
+        "cached_prompt_tokens_if_reported": null,
+        "source_message_UTF8_bytes": 25460,
+        "partial_semantically_observed": true
+      },
+      {
+        "role": "block",
+        "round": "http-r2",
+        "POST_BEGIN": "2026-11-02T15:27:26.965201+00:00",
+        "END": "2026-11-02T15:27:29.148726+00:00",
+        "max_tokens": 700,
+        "finish_reason": "stop",
+        "TTFT_ms": 994.2213999893283,
+        "total_ms": 2183.5482999886153,
+        "usage": {
+          "prompt_tokens": 9507,
+          "completion_tokens": 208,
+          "total_tokens": 9715
+        },
+        "cached_prompt_tokens_if_reported": null,
+        "source_message_UTF8_bytes": 27568,
+        "partial_semantically_observed": false
+      }
+    ],
+    "scope": "Selected cohort only, not sustained target concurrency or server metrics."
+  },
+  "adoption": {
+    "production": "R1 complete1804B class plus one exact model R2 cast hunk yielded1809B selected class. Unique forward/inverse independently checked; owner Java/EOL/EOF edits zero. This is not whole R1 raw adoption.",
+    "model_R1_error": "Passed a long register value to an int-only unsigned conversion despite the complete current declaration. Caught in source review before compilation; no R1 compiler red.",
+    "R2": "Uses explicit low32 cast before zero-extending the vector low lane. No third round.",
+    "selected_source": {
+      "bytes": 1809,
+      "sha256": "161ab88c1e10a5efc1d3e85ce798e5a40eedca304f148413ba77f24196048c0e"
+    },
+    "owner_Test_bytes": 7282,
+    "oracle": "Owner three literal bank/order cases frozen before any CONTENT exposure, including the later accidental audit partial read. No target execution, model oracle, fixture or source repair after first validation.",
+    "audit": "Length1600 entire reply discarded, zero fragment/oracle/Test/source adoption. Owner accidentally observed lines1..82 through an unconditional batched content reader. Cannot call it unread or use the incomplete fragment as a complete semantic candidate. No audit retry or answer-fed expectation."
+  },
+  "owner_partial_read_incident": {
+    "observed": true,
+    "original_evidence_preserved": true,
+    "correction": "Read terminal metadata first; only explicitly complete stop/DONE candidates proceed to semantic content reads. Whole length candidate remains discarded; private pre-content oracle unchanged.",
+    "new_model_request_or_validation_for_incident": 0,
+    "other_preparation_error": "A navigation command mistakenly passed JSON data directly to Python; it exited without output/Java or file write, then the safe reader was used. Owner cost, not a model type error."
+  },
+  "software": {
+    "first_phases": [
+      {
+        "phase": "JAVAC_PROD",
+        "seconds": 0.5551177000015741,
+        "exit_code": 0
+      },
+      {
+        "phase": "JAVAC_WITNESS",
+        "seconds": 0.6348192000004929,
+        "exit_code": 0
+      },
+      {
+        "phase": "RUN",
+        "seconds": 0.14719590000458993,
+        "exit_code": 0
+      }
+    ],
+    "new_basicblock_units": 3,
+    "normal_extent_bytes": 17,
+    "Memory_read_attempts": 3,
+    "writes": 0,
+    "calls": 0,
+    "budget_events": 0,
+    "checks": "All represented mutable registers, vector lanes and stack values checked at the sole read callback and exit/throw. Original thrown marker identity and ordering preserved.",
+    "limits": "Integer prefix only; no FP conversion/multiply/rounding/MXCSR/control-status, general RFLAGS, DF capture test, whole growth/binding, original Native, ABI/EH or Game qualification."
+  },
+  "cost": {
+    "known_impact_to_POST_seconds": 107.177246,
+    "known_impact_to_RUN_END_seconds": 755.498357,
+    "process_sum_seconds": 1.337132800006657,
+    "prod_to_Test_gap_seconds": 256.800861,
+    "Test_to_RUN_gap_seconds": 8.390871,
+    "owner_active_seconds": null,
+    "earlier_discovery_seconds": null,
+    "net_saving_seconds": null,
+    "limits": "Includes complete source closure, parallel HTTP, owner oracle/Test, source correction, real P0 compile priority, coordination and overlapping work; not continuous active labor or compiler CPU."
+  },
+  "formal": "PENDING_AT_THIS_SOFTWARE_CUTOFF; no later publication backfilled.",
+  "runtime_adoption_or_speed_credit": false,
+  "new_operator_HTTP_GET_JVM_Game": 0
+}

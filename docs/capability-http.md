@@ -790,3 +790,9 @@ Owner七scene POST前独冻未供，另两same-target后CALL/TAIL排除项POST�
 ## 窄非增长callee组合601：完整class原样与owner新见证
 
 [HTTP-KNOWN-NONGROWTH-COMPOSITION-601](evidence/2026-11-02-http-known-nongrowth-composition-601.json)保22完整项58946物理B/64560源码消息B，1800实施stop与2600反审length整弃未读；2463B R1完整class/EOF原样、owner Java0，但强factory/shape提示保。额外anonymous wrapper源证不递归、原样接受不称最简或提速；无R2。Owner三新both-callee wholebinding，107global=102Memory+5Budget/0opaqueInvoke，私有中间高寄存器未直接runtime采样。Oracle均两HTTP END后、首次CONTENT前冻，非生成前盲oracle；无旧case/算法复制。真实峰2仅9.032617s，不冒持续并发；三首次0的1.554227s过程对930.691253s已录wall，早发现/active/netunknown。原softwarepending保，后见5613b305三个source blob的raw/正式/EOF投影与wrapper同组selected1P分账，不新增场景；0完整FP增长/一般RFLAGS/Native/Game/SAVE/实速信用。
+
+## 整数前缀：模型cast纠正与owner误读length分别留证
+
+[HTTP-INTEGER-PRE-FP-SEAM-602](evidence/2026-11-02-http-integer-pre-fp-seam.json)的9完整项23390物理B，R1 block2000/反审1600、唯一block R2仅700；三POST=两stop+一length/0retry，峰2仅6.778637s。完整R1把long传int API，完整声明已供、编前拒；模型R2单cast hunk正逆精确→1804→1809B，owner Java0，不授R1整raw。任务已强示17B整数序列/状态/顺序/FP前停止，非独立wholegrowth设计。
+
+Owner在length元数据检查前批读误见反审1..82行，原incident保，不能称unread；整弃0片段/0oracle/noR2，也不从未完整稿授语义失败。原三case oracle预任何CONTENT冻，未回喂；仅三新17B bank/order/marker units首0，过程1.337133s对755.498357s已录wall，早发现/active/netunknown。首前准备JSON误当Python、误读partial均owner成本，与R1类型错误分账。formal在此软件切点pending，不授FP/MXCSR/DFcapture/RFLAGS/完整增长/Native/运行或速度。
