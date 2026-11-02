@@ -468,3 +468,9 @@ owner实际prepare→permit/decode源核未支持新patch，两个先前serializ
 [HTTP-TYPED-FACTORY-ROUTE-REVIEW-001](evidence/2026-11-02-http-typed-factory-route-review.json)是旧重载勘误后的新单元。owner新增明确catalogue+result callback工厂，caller只替调用token；App LF-projection inverse/Root raw inverse各精确。两项真实2400审稿见16完整源426865B及owner新实现，均200stop/0retry，但交换重载类型/叫ambiguity、猜List与错exception，whole审/新finding0采用；局部factory字段支持不冒模型设计/代码采用，重复ownerpatch不采。两个首编App1.709229s/Root2.115429s早于POST。
 
 后继owner独立8929B私有witness反射调用真实production guard方法、非字段窥视/复制谓词，六项manual-main PASS验证返回Complete确被检查、旧5/6构造failclosed、保catalogue分支与null callback拒绝；不是JUnit六方法，也不授真实Root权限/全receipt replay。新Test1.629822s/JVM2.106270s、两者gap50.225851s协调分列。formal27cdbe App42079B rawwhole精确，Root runtime43132B≠formal43327B，仅ownedtoken port保已有classifier；0为Git/运营重编。旧293路由错误和旧295metadata刷新另保，不倒授新模型或旧首绿；本source cutoff实际运行结果/SAVE/提速unknown，两模式继续分轨。
+
+## 后到：两个小helper各一行owner执行修正
+
+[HTTP-TWO-SMALL-HELPERS-PARTIAL-001](evidence/2026-11-02-http-two-small-helpers-partial.json)9/9/7完整项按actualwire核，1500/800/750三POST均stop/0retry/无R2，峰3仅5.474877s。两helper分别1979→2008B（full64误拷改显式uint32零扩展）和886→849B（假nested return type改var），每份只1执行行，正反全部raw/EOL/EOF精确；API/width提示已完整给，不写whole raw或缺依赖。counter freshstack事实正确但合同强hint；MOVSD/跨opaque CALL留score的说法错，不授whole反证。
+
+owner全2981B编排/13378B七方法Book，scenario prePOST、具体Test post生产审，不冒wholeblind。首3prod/新Test/7P全0，无期待修、旧subject/祖夹具重跑；3process3.411559s对684.444348s首prod→RUN/973.751489s marker→delivery与协调gap分别记，active/更早发现/netunknown。缺classpath文件/quoted search/错fixture路径和编前type限定成本保，不造compiler红。formal本cutoff pending后见另记；仅新represented组合，0硬件DF/EH/Native/Game/实速，两模式分轨继续。
