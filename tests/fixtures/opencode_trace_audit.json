@@ -1,0 +1,1267 @@
+{
+  "synthetic_only": true,
+  "cases": [
+    {
+      "id": "grep-order",
+      "trace": {
+        "requests": [
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              }
+            ]
+          },
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-1",
+                    "type": "function",
+                    "function": {
+                      "name": "grep",
+                      "arguments": "{\"path\": \"C:/PRIVATE_CANARY_ROOT\", \"pattern\": \"alpha|beta\"}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-1",
+                "content": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n"
+              }
+            ]
+          },
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-1",
+                    "type": "function",
+                    "function": {
+                      "name": "grep",
+                      "arguments": "{\"path\": \"C:/PRIVATE_CANARY_ROOT\", \"pattern\": \"alpha|beta\"}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-1",
+                "content": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-2",
+                    "type": "function",
+                    "function": {
+                      "name": "grep",
+                      "arguments": "{\"path\": \"C:/PRIVATE_CANARY_ROOT\", \"pattern\": \"alpha|beta\"}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-2",
+                "content": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n"
+              }
+            ]
+          }
+        ],
+        "summaries": [
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          },
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          },
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          }
+        ],
+        "events": [
+          {
+            "type": "tool_use",
+            "part": {
+              "type": "tool",
+              "tool": "grep",
+              "state": {
+                "status": "completed",
+                "input": {
+                  "path": "C:/PRIVATE_CANARY_ROOT",
+                  "pattern": "alpha|beta"
+                },
+                "output": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n",
+                "metadata": {}
+              }
+            }
+          },
+          {
+            "type": "tool_use",
+            "part": {
+              "type": "tool",
+              "tool": "grep",
+              "state": {
+                "status": "completed",
+                "input": {
+                  "path": "C:/PRIVATE_CANARY_ROOT",
+                  "pattern": "alpha|beta"
+                },
+                "output": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n",
+                "metadata": {}
+              }
+            }
+          }
+        ],
+        "CLI_ACTUAL": {
+          "exit_code": 0
+        },
+        "OWNER_STOP": null
+      },
+      "expected": {
+        "tools": 2,
+        "repeated_args_groups": 1,
+        "raw_variants": 2,
+        "grep_normalized_variants": 1
+      }
+    },
+    {
+      "id": "grep-relocation-negative",
+      "trace": {
+        "requests": [
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              }
+            ]
+          },
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-1",
+                    "type": "function",
+                    "function": {
+                      "name": "grep",
+                      "arguments": "{\"path\": \"C:/PRIVATE_CANARY_ROOT\", \"pattern\": \"alpha|beta\"}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-1",
+                "content": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n"
+              }
+            ]
+          },
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-1",
+                    "type": "function",
+                    "function": {
+                      "name": "grep",
+                      "arguments": "{\"path\": \"C:/PRIVATE_CANARY_ROOT\", \"pattern\": \"alpha|beta\"}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-1",
+                "content": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-2",
+                    "type": "function",
+                    "function": {
+                      "name": "grep",
+                      "arguments": "{\"path\": \"C:/PRIVATE_CANARY_ROOT\", \"pattern\": \"alpha|beta\"}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-2",
+                "content": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 2: beta\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 1: alpha\n"
+              }
+            ]
+          }
+        ],
+        "summaries": [
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          },
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          },
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          }
+        ],
+        "events": [
+          {
+            "type": "tool_use",
+            "part": {
+              "type": "tool",
+              "tool": "grep",
+              "state": {
+                "status": "completed",
+                "input": {
+                  "path": "C:/PRIVATE_CANARY_ROOT",
+                  "pattern": "alpha|beta"
+                },
+                "output": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n",
+                "metadata": {}
+              }
+            }
+          },
+          {
+            "type": "tool_use",
+            "part": {
+              "type": "tool",
+              "tool": "grep",
+              "state": {
+                "status": "completed",
+                "input": {
+                  "path": "C:/PRIVATE_CANARY_ROOT",
+                  "pattern": "alpha|beta"
+                },
+                "output": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 2: beta\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 1: alpha\n",
+                "metadata": {}
+              }
+            }
+          }
+        ],
+        "CLI_ACTUAL": {
+          "exit_code": 0
+        },
+        "OWNER_STOP": null
+      },
+      "expected": {
+        "tools": 2,
+        "raw_variants": 2,
+        "grep_normalized_variants": 2
+      }
+    },
+    {
+      "id": "exact-repeat-owner-interrupt",
+      "trace": {
+        "requests": [
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              }
+            ]
+          },
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-1",
+                    "type": "function",
+                    "function": {
+                      "name": "grep",
+                      "arguments": "{\"path\": \"C:/PRIVATE_CANARY_ROOT\", \"pattern\": \"alpha|beta\"}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-1",
+                "content": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n"
+              }
+            ]
+          },
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-1",
+                    "type": "function",
+                    "function": {
+                      "name": "grep",
+                      "arguments": "{\"path\": \"C:/PRIVATE_CANARY_ROOT\", \"pattern\": \"alpha|beta\"}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-1",
+                "content": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-2",
+                    "type": "function",
+                    "function": {
+                      "name": "grep",
+                      "arguments": "{\"path\": \"C:/PRIVATE_CANARY_ROOT\", \"pattern\": \"alpha|beta\"}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-2",
+                "content": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n"
+              }
+            ]
+          },
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-1",
+                    "type": "function",
+                    "function": {
+                      "name": "grep",
+                      "arguments": "{\"path\": \"C:/PRIVATE_CANARY_ROOT\", \"pattern\": \"alpha|beta\"}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-1",
+                "content": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-2",
+                    "type": "function",
+                    "function": {
+                      "name": "grep",
+                      "arguments": "{\"path\": \"C:/PRIVATE_CANARY_ROOT\", \"pattern\": \"alpha|beta\"}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-2",
+                "content": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-3",
+                    "type": "function",
+                    "function": {
+                      "name": "grep",
+                      "arguments": "{\"path\": \"C:/PRIVATE_CANARY_ROOT\", \"pattern\": \"alpha|beta\"}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-3",
+                "content": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n"
+              }
+            ]
+          }
+        ],
+        "summaries": [
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          },
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          },
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          },
+          {
+            "http_status": 200,
+            "finish_reason": null,
+            "sse_done": false,
+            "candidate_complete": false,
+            "error": "ConnectionResetError: SECRET_TOOL_OUTPUT C:/PRIVATE_CANARY_ROOT",
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          }
+        ],
+        "events": [
+          {
+            "type": "tool_use",
+            "part": {
+              "type": "tool",
+              "tool": "grep",
+              "state": {
+                "status": "completed",
+                "input": {
+                  "path": "C:/PRIVATE_CANARY_ROOT",
+                  "pattern": "alpha|beta"
+                },
+                "output": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n",
+                "metadata": {}
+              }
+            }
+          },
+          {
+            "type": "tool_use",
+            "part": {
+              "type": "tool",
+              "tool": "grep",
+              "state": {
+                "status": "completed",
+                "input": {
+                  "path": "C:/PRIVATE_CANARY_ROOT",
+                  "pattern": "alpha|beta"
+                },
+                "output": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n",
+                "metadata": {}
+              }
+            }
+          },
+          {
+            "type": "tool_use",
+            "part": {
+              "type": "tool",
+              "tool": "grep",
+              "state": {
+                "status": "completed",
+                "input": {
+                  "path": "C:/PRIVATE_CANARY_ROOT",
+                  "pattern": "alpha|beta"
+                },
+                "output": "Found 2 matches\nC:/PRIVATE_CANARY_ROOT/a.java:\n  Line 1: alpha\n\nC:/PRIVATE_CANARY_ROOT/b.java:\n  Line 2: beta\n",
+                "metadata": {}
+              }
+            }
+          }
+        ],
+        "CLI_ACTUAL": {
+          "exit_code": 1
+        },
+        "OWNER_STOP": {
+          "reason": "observed same input/output no progress"
+        }
+      },
+      "expected": {
+        "tools": 3,
+        "same_args_calls": 3,
+        "raw_variants": 1,
+        "tool_calls_HTTP": 3,
+        "owner_interrupted_HTTP": 1,
+        "final_text": false
+      }
+    },
+    {
+      "id": "distinct-read-ranges",
+      "trace": {
+        "requests": [
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              }
+            ]
+          },
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-1",
+                    "type": "function",
+                    "function": {
+                      "name": "read",
+                      "arguments": "{\"filePath\": \"C:/PRIVATE_CANARY_ROOT/not-readable.java\", \"offset\": 1, \"limit\": 2}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-1",
+                "content": "1: SECRET_TOOL_OUTPUT A\n2: B\nUse offset=3 to continue."
+              }
+            ]
+          },
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-1",
+                    "type": "function",
+                    "function": {
+                      "name": "read",
+                      "arguments": "{\"filePath\": \"C:/PRIVATE_CANARY_ROOT/not-readable.java\", \"offset\": 1, \"limit\": 2}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-1",
+                "content": "1: SECRET_TOOL_OUTPUT A\n2: B\nUse offset=3 to continue."
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-2",
+                    "type": "function",
+                    "function": {
+                      "name": "read",
+                      "arguments": "{\"filePath\": \"C:/PRIVATE_CANARY_ROOT/not-readable.java\", \"offset\": 3, \"limit\": 2}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-2",
+                "content": "3: C\n4: D"
+              }
+            ]
+          }
+        ],
+        "summaries": [
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          },
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          },
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          }
+        ],
+        "events": [
+          {
+            "type": "tool_use",
+            "part": {
+              "type": "tool",
+              "tool": "read",
+              "state": {
+                "status": "completed",
+                "input": {
+                  "filePath": "C:/PRIVATE_CANARY_ROOT/not-readable.java",
+                  "offset": 1,
+                  "limit": 2
+                },
+                "output": "1: SECRET_TOOL_OUTPUT A\n2: B\nUse offset=3 to continue.",
+                "metadata": {
+                  "truncated": true,
+                  "display": {
+                    "text": "A\nB",
+                    "lineStart": 1,
+                    "lineEnd": 2,
+                    "totalLines": 4
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "tool_use",
+            "part": {
+              "type": "tool",
+              "tool": "read",
+              "state": {
+                "status": "completed",
+                "input": {
+                  "filePath": "C:/PRIVATE_CANARY_ROOT/not-readable.java",
+                  "offset": 3,
+                  "limit": 2
+                },
+                "output": "3: C\n4: D",
+                "metadata": {
+                  "truncated": false,
+                  "display": {
+                    "text": "C\nD",
+                    "lineStart": 3,
+                    "lineEnd": 4,
+                    "totalLines": 4
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "CLI_ACTUAL": {
+          "exit_code": 0
+        },
+        "OWNER_STOP": null
+      },
+      "expected": {
+        "reads": 2,
+        "repeated_args_groups": 0,
+        "explicit_byte_caps": 0,
+        "range_continuation_flags": 1
+      }
+    },
+    {
+      "id": "actual-read-byte-cap",
+      "trace": {
+        "requests": [
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              }
+            ]
+          },
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "private-session-id-1",
+                    "type": "function",
+                    "function": {
+                      "name": "read",
+                      "arguments": "{\"filePath\": \"C:/PRIVATE_CANARY_ROOT/capped.java\"}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "private-session-id-1",
+                "content": "1: SECRET_TOOL_OUTPUT\n(Output capped at 50 KB. Showing lines 1-748. Use offset=749 to continue.)"
+              }
+            ]
+          }
+        ],
+        "summaries": [
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          },
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          }
+        ],
+        "events": [
+          {
+            "type": "tool_use",
+            "part": {
+              "type": "tool",
+              "tool": "read",
+              "state": {
+                "status": "completed",
+                "input": {
+                  "filePath": "C:/PRIVATE_CANARY_ROOT/capped.java"
+                },
+                "output": "1: SECRET_TOOL_OUTPUT\n(Output capped at 50 KB. Showing lines 1-748. Use offset=749 to continue.)",
+                "metadata": {
+                  "truncated": true,
+                  "display": {
+                    "text": "synthetic visible range only",
+                    "lineStart": 1,
+                    "lineEnd": 748,
+                    "totalLines": 749
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "CLI_ACTUAL": {
+          "exit_code": 0
+        },
+        "OWNER_STOP": null
+      },
+      "expected": {
+        "explicit_byte_caps": 1,
+        "continuation_offset": 749,
+        "default_offset": 1,
+        "default_limit": 2000
+      }
+    },
+    {
+      "id": "protocol-context-missing-summary",
+      "trace": {
+        "requests": [
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              }
+            ]
+          },
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "changed system"
+              },
+              {
+                "role": "user",
+                "content": "changed initial user"
+              },
+              {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "ok",
+                    "type": "function",
+                    "function": {
+                      "name": "read",
+                      "arguments": "{}"
+                    }
+                  },
+                  {
+                    "id": "pending",
+                    "type": "function",
+                    "function": {
+                      "name": "glob",
+                      "arguments": "{}"
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "ok",
+                "content": "SECRET_TOOL_OUTPUT"
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "ok",
+                "content": "SECRET_TOOL_OUTPUT"
+              },
+              {
+                "role": "tool",
+                "tool_call_id": "unknown",
+                "content": "SECRET_TOOL_OUTPUT"
+              }
+            ]
+          },
+          {
+            "model": "test-model",
+            "temperature": 0,
+            "max_tokens": 6000,
+            "tool_choice": "auto",
+            "stream": true,
+            "stream_options": {
+              "include_usage": true
+            },
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            },
+            "messages": [
+              {
+                "role": "system",
+                "content": "SECRET_BUSINESS_BODY system"
+              },
+              {
+                "role": "user",
+                "content": "SECRET_BUSINESS_BODY task"
+              }
+            ]
+          }
+        ],
+        "summaries": [
+          {
+            "http_status": 200,
+            "finish_reason": "tool_calls",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          },
+          {
+            "http_status": 200,
+            "finish_reason": "stop",
+            "sse_done": true,
+            "candidate_complete": true,
+            "error": null,
+            "content_ttft_ms": null,
+            "first_tool_delta_ms": 4.5,
+            "POST_BEGIN_utc": "2026-01-01T00:00:00Z",
+            "ATTEMPT_END_utc": "2026-01-01T00:00:01Z"
+          },
+          null
+        ],
+        "events": [],
+        "CLI_ACTUAL": null,
+        "OWNER_STOP": null
+      },
+      "expected": {
+        "second_unknown_result_ids": 1,
+        "second_duplicate_result_ids": 1,
+        "second_pending_call_ids": 1,
+        "second_system_unchanged": false,
+        "second_user_unchanged": false,
+        "unknown_summary_HTTP": 1
+      }
+    }
+  ],
+  "privacy_canaries": [
+    "PRIVATE_CANARY_ROOT",
+    "SECRET_BUSINESS_BODY",
+    "SECRET_TOOL_OUTPUT",
+    "private-session-id"
+  ]
+}

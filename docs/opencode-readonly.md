@@ -42,4 +42,6 @@ opencode --pure run --session ACTUAL_SESSION_ID --agent pilot --format json "真
 
 本次Grep声明只有pattern/path/include，wire schema未声明additionalProperties=false。模型传入output_mode/-C后实际工具未报参数错，也未扩大上下文；[工具实现](https://github.com/anomalyco/opencode/blob/v1.19.5/packages/opencode/src/tool/grep.ts)只消费三个声明字段，[通用校验](https://github.com/anomalyco/opencode/blob/v1.19.5/packages/opencode/src/tool/tool.ts)存在，但本轮没有把多余字段拒绝或反馈为错误。先核实际schema和结果，用read的filePath/offset/limit取上下文。
 
+现有日志可先用[纯只读 trace 审计器](opencode-trace-audit.md)提取重复参数/结果 SHA、每份 REQUEST 的角色和 ID 配对、grep 文件归属及读取范围。它不设循环总帽或自动停止，也不从同结果推断模型根因；中断与最终文本仍分别保留，公开结果先经 owner 审阅。
+
 首段有186次连续相同受支持query及输出SHA；owner说明工具参数后确实读取了新callee，随后又27次重复完全相同的合法query和输出。两次均依据具体无进展证据获准精准停止owned CLI，未设置总步数封顶；中断请求保UNKNOWN，不造END，不授模型fatal或自然完成。可在自有适配器中严格检查未知参数或明确反馈忽略字段；本次没有修改OpenCode内置工具。记录重复输入/输出、读取区间、工具错误和人工纠正成本，比累计请求数更能解释结果。

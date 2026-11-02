@@ -57,3 +57,5 @@
 发布门控的真实反例见[批准正文换行与失败后误推送](../docs/evidence/2026-11-02-approved-payload-publication-gate-failure.json)；这是owner流程失败，不能归模型，也不能把修复记成从未失败。
 
 只读导航试点不应先用 owner 手工全闭包抵消其准备成本目标。先给明确版本和真实授权源码根，让工具检索声明；若范围误窄则分账 owner 输入限制。观察重复时抽取少量已有 REQUEST，核 tool_choice/有限输出、原 task/system 是否仍持有、assistant/tool ID、精确参数和返回 SHA，再区分完整相同内容、仅输出排序变化、有效新 range、权限失败、工具字节cap和范围后还有行的 truncated 标记；直接读已有结果尾部的 cap/continuation 通知，不能只靠结构化标志归类。无新信息循环可按实际证据停止获准 owned 会话，保中断流，不改成隐蔽总帽，也不因检查若干样本就宣布 backend/template 根因或净工时收益。[325实际诊断边界](../docs/evidence/2026-11-03-opencode-readonly-navigation-loop.json)。
+
+已有原生日志优先复用 `python scripts/audit_opencode_trace.py TRACE_DIR` 的[脱敏审计结果](../docs/opencode-trace-audit.md)，再核少量必要原件。grep 的顺序比较必须保留文件/行/内容归属并检查每份结果，不能只解析首个结果或简单排序所有行；不同 read offset/limit 与显式 50KB cap 分别计。缺失/不识别保持 UNKNOWN，不能把工具诊断输出当业务审计结论。审计器没有自动 kill/重发或固定总步/POST/wall帽；实际干预仍依本次授权和明确证据。首次采用成本与后续省时对照分开，不用毫秒级重算抵扣此前人工劳动。

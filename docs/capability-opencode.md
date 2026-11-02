@@ -128,3 +128,5 @@ Civ6本批5个真实源码／诊断任务使用普通三消息HTTP，经共享CL
 ### 原生只读导航后重复循环：协议核查与 owner 输入成本（325）
 
 [本次实际边界](evidence/2026-11-03-opencode-readonly-navigation-loop.json)：首轮 owner 四文件范围漏定义，修正后工具自行导航到真实实现；随后两会话都在无新信息搜索循环中被 owner 停止。合计123个 POST、121个 tool_calls 终态及2个停机中断，132次工具执行，零最终正文；不是完成量或高并发。九份实际 REQUEST 样本仍保原 task/system、auto tool choice、6000有限输出，ID链完整；24次 read 返回范围逐字核对，无权限/读取失败；其中一次确实触50KB工具输出cap，其余14个truncated为有限range后还有行，不能拿range等源冒全文件已读。第二轮同 args36次结果 SHA 完全相同，但后端/template 根因仍未知。保首轮输入窄错、观察延迟和过宽日志成本，294.0169449秒 CLI 不证明减少 owner 工时。无总步/POST/wall帽、无R3求成功；既有成功历史不回写，业务源码/计数与 raw 留私有。
+
+325 后续新增[只读 trace 审计器](opencode-trace-audit.md)，可从已有原生日志自动区分同参数/同结果、文件归属不变的 grep 排序变化、读取区间和显式 cap。既有两会话123请求/132工具核对吻合，仍无最终模型文本或业务审计完成。工具由普通HTTP候选加 owner 大量修复交付，其[采用与成本](evidence/2026-11-03-http-readonly-trace-auditor.json)不算一轮新原生模型试验，也没有自动停止或总帽。

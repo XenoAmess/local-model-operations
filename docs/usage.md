@@ -113,3 +113,5 @@ python scripts/opencode_config.py --executor config/executor.json --workspace D:
 配置迁移及历史来源见 [来源与迁移记录](source-origins.md)。
 
 零owned文件的只读审计使用独立的[只读配置生成器](../scripts/opencode_readonly_config.py)与[接入步骤](opencode-readonly.md)，不把原编辑入口放宽为空scope。实测恢复时项目父配置可覆盖显式配置；须隔离环境、禁止项目配置并核实际合并结果。读取工具已执行不等于分析完成，该新案例没有最终审计答案或采用。
+
+已有原生记录可离线运行 `python scripts/audit_opencode_trace.py TRACE_DIR`，自动核 REQUEST 参数、工具 ID 配对、同参数/同结果重复、grep 顺序变化和 read 范围/显式字节 cap。默认不输出正文或业务路径，不重发 HTTP、不停止进程；格式与未知项见[只读日志审计器](opencode-trace-audit.md)。

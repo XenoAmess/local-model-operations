@@ -1012,3 +1012,5 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 [327批准原文](evidence/2026-11-03-http-standard-loader-discovery-asymmetry.json)分开两次并行完整 source-analysis（模型0code、只partial）与 owner 独立标准 Maven/custom-root 软件见证：同进程新loader中 app 新 nested 类方法真实执行，dependency 新类已编仍 NCDFE/resource null。exit0 是观察分类完成，不是修复通过；后补四源不回填模型输入，marker仅mtime/active unknown，不授唯一根因或当前业务支持。
 
 [328批准原文](evidence/2026-11-03-http-guided-local-buffer-reuse.json)记录 owner 指定三局部数组/首次读取顺序后的四 hunk 原样采用，getter clones 静态7→3。counter未见candidate，只审思路；六全 owner 新Test首6P，6.2982837秒进程阶段和对658.249725秒全墙钟/active unknown。全部hash/parse/当前资格点保持，不把静态调用数、无源码修正或软件绿当净工时/运行收益；formal pending原切点后见独附。
+
+332 交付[纯只读 trace 审计器](evidence/2026-11-03-http-readonly-trace-auditor.json)：真实3POST全stop，两完整实现稿均需 owner 修复，保留散列/文件归属归一化 helper 部分；counter 仅合同前瞻。7项针对性合成检查及既有123请求/132工具适配核对通过，1真cap与14范围续读分列。生成模式仍是普通HTTP，未知 active/完整准备成本保留，不授原生任务完成或净省时。入口与限制见[使用说明](opencode-trace-audit.md)。
