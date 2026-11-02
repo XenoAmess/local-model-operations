@@ -588,3 +588,9 @@ owner全八Test，先scenarios后production审/具体Book，不冒wholeblind；�
 [HTTP-PURE-CLASSIFIER-WITNESS-REPAIR-001](evidence/2026-11-02-http-pure-classifier-witness-repair.json)witness两轮13whole326036B、counter21whole1085644B实际完整正文/参数核，5500/5500/3500三stop/0retry；首witness与counter实际重叠，纠正轮后到，不冒持续并发。目标body与失败recipe可见，非盲oracle。R1类型/JSON mutation/非法负例整拒未编，R2主体partial+owner导入/3throwsThrowable、canonical fixture字段及固定时间维护，selected10223B可由原10216B和owner edits精确复算；0R3。
 
 仅首1Test strict0/JVM1P，一正八合法输入变体共九次真实purehelper/parser调用，不是九JUnit/私有SavedRole/SAVE/全冷恢复。counter局部事实有用，但实际旧running基线晚到未入原21源，owner错比新formal已另纠，不能追授wholeintegration/model完整输入结论。1.620725s+4.141355s过程与6.793271s gap/POST→RUN全wall分开，更早准备/activeunknown；原日志警告保、不为quiet重跑。software pending保，后到81ac9773仅新Test/raw=formal/noEOF，0加载/Game/实速。
+
+## 后到：typed acquisition的失败所有权与分配顺序纠正
+
+[HTTP-TYPED-ACQUIRE-CLEANUP-CORRECTION-001](evidence/2026-11-02-http-typed-acquire-cleanup-correction.json)完整旧class23867B+owner明确API合同3434B，两actual stop/0retry/length/R3、实际无重叠峰1。R1插入method有贡献但invalid-handle ownership与Optional分配顺序错，R2两个原码hunk纠正；三hunk均从实际完整JSON独立SHA定位/唯一forward-inverse，构成26469B selected，0ownerJava，不追R1 whole正确。APIshape/typed初始error-only empty强owner设计，非模型发现平台安全或随意改freshchecks。
+
+原sourceReady0编/0Test保，后见共同5TU/39class strict0且此class字节不变，再正式ba003c1d该blob raw/formal/EOF等；其它Native03 owner修/Guard newline/两组Test单独计，不把六方法普授每条底层路径或所有component模型采用。记录prep marker后早读unknown、review183.348776s含HTTP/纠正/装配交错，sourceReady→joint等待不当CPU/active；0新增OS primitive重测/Native权限/Game/SAVE/实速或净收益。

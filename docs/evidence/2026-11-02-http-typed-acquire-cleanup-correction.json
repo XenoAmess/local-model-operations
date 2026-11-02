@@ -1,0 +1,187 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-TYPED-ACQUIRE-CLEANUP-CORRECTION-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_source_cutoff_UTC": "2026-11-02T08:28:31.038236+00:00",
+  "operator_review_UTC": "2026-11-02T10:23:46.293462+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "A new explicitly owner-designed typed acquisition API in one existing complete low-level resource class; initial sharing violation alone may return empty, while all later failures retain existing cleanup and qualification semantics. Separate from prior feasibility tasks.",
+  "input": {
+    "initial_complete_class_bytes": 23867,
+    "frozen_owner_typed_contract_bytes": 3434,
+    "hinting": "Owner supplies exact signature, initial error-code-only empty contract and complete existing class/native declarations. This is guided implementation, not discovery of file-sharing safety or a free design exercise.",
+    "external_dependency": "Existing external native SDK/OS ABI remains a dependency, not newly qualified by this source exercise."
+  },
+  "calls": [
+    {
+      "round": 1,
+      "max_tokens": 9000,
+      "actual_source_message_UTF8_bytes": 27731,
+      "whole_current_class_and_owner_contract_verified": true,
+      "source_input": "Baseline complete class and frozen typed contract",
+      "POST_BEGIN_UTC": "2026-11-02T08:24:29.360026+00:00",
+      "END_UTC": "2026-11-02T08:24:42.926283+00:00",
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_seconds": 13.566157599998405,
+      "content_TTFT_seconds": 1.263579499995103,
+      "usage": {
+        "prompt_tokens": 6788,
+        "completion_tokens": 2108,
+        "total_tokens": 8896
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 32632,
+        "sha256": "0dc429bdd5d7ea38992452c5d57835bb282e687aed2f72421fb1692cd130ce47"
+      },
+      "EVENTS_digest": {
+        "bytes": 2186,
+        "sha256": "568234f2d99f9a4676d0d7f93da4509910b675d5a89b12a67d0c21361a67215b"
+      },
+      "CONTENT_digest": {
+        "bytes": 9437,
+        "sha256": "554cab384f33774890425f38bc19c2050630eee1edb96f6f6eaa10410b4e620e"
+      }
+    },
+    {
+      "round": 2,
+      "max_tokens": 9000,
+      "actual_source_message_UTF8_bytes": 64042,
+      "whole_current_class_and_owner_contract_verified": true,
+      "source_input": "Actual prior-round assembled complete class and unchanged typed contract; explicit source diagnostics, no owner repaired body",
+      "POST_BEGIN_UTC": "2026-11-02T08:26:58.682143+00:00",
+      "END_UTC": "2026-11-02T08:27:03.981665+00:00",
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_seconds": 5.299548099996173,
+      "content_TTFT_seconds": 2.1069033999956446,
+      "usage": {
+        "prompt_tokens": 14632,
+        "completion_tokens": 547,
+        "total_tokens": 15179
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 68764,
+        "sha256": "23ca4f57be4eeb58033d8d4d53234eec38bdbdbc91fbc1c7d90bd8edb7511587"
+      },
+      "EVENTS_digest": {
+        "bytes": 2216,
+        "sha256": "f5289e010b51321c4ecdb577c7821cd42d96ff60a206d040f6e7e54a56aa471c"
+      },
+      "CONTENT_digest": {
+        "bytes": 2419,
+        "sha256": "791ec6082370d9d2f6b85178b1ee7e03f878f327018d0d988c790b812c5f3728"
+      }
+    }
+  ],
+  "transport": {
+    "actual_POSTs": 2,
+    "ENDs": 2,
+    "stop": 2,
+    "length": 0,
+    "retry": 0,
+    "semantic_rounds": 2,
+    "R3": 0,
+    "local_peak": 1,
+    "no_actual_overlap": true,
+    "cross_role_peak_not_inferred": true,
+    "server_running_waiting_KV": null,
+    "cache_congestion_inference": null
+  },
+  "adoption": {
+    "grade": "R1 partial corrected by two exact model R2 hunks;0 owner Java. Do not label R1 whole correct or all surrounding integration model-generated.",
+    "R1_assembled_digest_before_correction": {
+      "bytes": 26404,
+      "sha256": "6beafe5e6a11ec3608cc3e6c1cc2196a191c1e841939d81661d1eb1b9ed3bd89"
+    },
+    "selected_digest": {
+      "bytes": 26469,
+      "sha256": "2bd78fc4b7a9e22a4a3ec978f71c2bf8ee950683e839ca8b85f57ffc6c28b535"
+    },
+    "baseline_digest": {
+      "bytes": 23867,
+      "sha256": "a820920ed30288e9237bb5755650b471bfe9303bf4127dc1e9abe8a914dabf1d"
+    },
+    "source_reconstruction": "All three hunk before/after strings independently matched actual complete model JSON replies by byte length/SHA. Unique forward/reverse application reconstructs selected26469B from baseline; no fragment from an incomplete stream.",
+    "R1_errors": [
+      "Invalid-handle local ownership survives a later last-error linkage failure.",
+      "Optional wrapper allocation occurs after handle ownership transfer, leaving allocation failure outside cleanup ownership."
+    ],
+    "R2": "Clear invalid ownership before last-error call; allocate the optional wrapper while cleanup still owns acquired handle, transfer ownership only after success. Complete original methods/imports/EOF preserved; no owner source correction.",
+    "limits": "Exact initial typed error-code-only absence, not message matching or metadata/content immutability assumption. No deleting fresh physical validation, handle/thread/sticky-failure checks, SDK classifier or other-component authority checks."
+  },
+  "source_only_cutoff": {
+    "compiled": false,
+    "Test_executed": false,
+    "formal": false
+  },
+  "later_joint_compile": {
+    "BEGIN_UTC": "2026-11-02T08:55:59.296660+00:00",
+    "END_UTC": "2026-11-02T08:56:03.145641+00:00",
+    "process_seconds": 3.8489794000051916,
+    "exit_code": 0,
+    "changed_TUs": 5,
+    "old_TUs": 0,
+    "class_outputs": 39,
+    "IBFA_raw_copy_digest_equal": true,
+    "small_receipt_digest": {
+      "bytes": 9174,
+      "sha256": "e51b50d8ac7e68e463245a591c7964e3edab94b018098e0f4cc0006da6a89a39"
+    },
+    "source_ready_to_joint_END_wall_seconds": 1652.107405,
+    "boundary": "Shared first joint compilation with other owners, not isolated runtime behavior or individual speedup. Later other-Native one-leaf correction is separate; this selected resource class remains unchanged."
+  },
+  "later_formal": {
+    "observed_UTC": "2026-11-02T10:02:09.855654+00:00",
+    "commit": "ba003c1d517bfb38365334c7ab76ca80c04ffee0",
+    "normal_push_exit": 0,
+    "remote_exact_clean": true,
+    "this_resource_class_raw_formal_digest": {
+      "bytes": 26469,
+      "sha256": "2bd78fc4b7a9e22a4a3ec978f71c2bf8ee950683e839ca8b85f57ffc6c28b535"
+    },
+    "EOF_newline": true,
+    "PUBLISHED_digest": {
+      "bytes": 2334,
+      "sha256": "effdefcc628d60825b897cae507d672b4bc3ada066922336a4aeab54e51bc573"
+    },
+    "new_compile_RUN_for_publication": 0,
+    "other_payload_boundary": "The combined publication includes other owners and tests. This case does not upgrade their source grades or count their six methods as independent tests of every low-level path. Guard newline projection and Native03 owner changes remain separate."
+  },
+  "owner_cost": {
+    "PREP_recorded_marker_UTC": "2026-11-02T08:23:19.280381+00:00",
+    "PREP_marker_to_first_POST_wall_seconds": 70.079645,
+    "REVIEW_recorded_marker_UTC": "2026-11-02T08:25:27.676515+00:00",
+    "REVIEW_END_UTC": "2026-11-02T08:28:31.025291+00:00",
+    "REVIEW_marker_wall_seconds": 183.348776,
+    "earlier_discovery_or_complete_prepare_wall_seconds": null,
+    "active_prepare_review_fix_seconds": null,
+    "net_time_saving_seconds": null,
+    "interpretation": "Preparation marker follows earlier API/manifest reads. Review includes correction preparation/HTTP/assembly and interleaved work, not exclusive labor or service queue. Joint readiness and source-to-compile waits remain wall, not compiler CPU.",
+    "owner_errors": "Initial inline Python quoting before the preparation marker, and a later joint inspection-script parse failure before execution are owner preparation costs, not model/Java failures."
+  },
+  "private_evidence_digests": {
+    "SOURCE-READY-IBFA305.json": {
+      "bytes": 2383,
+      "sha256": "b725a2a58bd14fc7b522829f02b80484c9f285a73ac14345ee583b4d7facf4c9"
+    },
+    "SOURCE-REVIEW-IBFA305.json": {
+      "bytes": 4718,
+      "sha256": "6742a2d3b6907a2c4dd63f1dddfbf3121ea27e2d21d2ac0a7df51d61f8eafe2c"
+    },
+    "LITERAL-PROOF-IBFA305.json": {
+      "bytes": 2401,
+      "sha256": "3e25ee135176e0571c0f542b16acb12f6caa5d9224550249d163dad12b7f1f6f"
+    },
+    "HTTP-COHORT-IBFA305.json": {
+      "bytes": 3198,
+      "sha256": "87150cbc9c43853c955d190221b854e5bf5d5742ba535f4e65f64a75fe965ff4"
+    }
+  },
+  "next_real_trigger": "A separate actual API/resource boundary or naturally authorized runtime/loading receipt. No R3, duplicated primitive OS probe, repeated old green or authority/speed inference from joint compile/formal publication. Keep both model modes separate.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}
