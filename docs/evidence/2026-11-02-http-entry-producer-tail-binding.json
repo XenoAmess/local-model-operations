@@ -1,0 +1,160 @@
+{
+  "schema": "local-model-operations/ordinary-source-case/v1",
+  "unit": "M4-302 whole normal scratchmerge producer plus one actual tail binding",
+  "mode": "ordinary fixed-three-message HTTP",
+  "scope": "Existing complete776-byte/190instruction normal function and actual caller supplied. New producer is entered at function entry, separate from prior internal block; source ports to unknown COPY remain explicit.",
+  "roles": [
+    {
+      "role": "binder",
+      "max_tokens": 2000,
+      "finish_reason": "stop",
+      "full_current_source_files": 11,
+      "messages": 3,
+      "temperature": 0,
+      "thinking": false,
+      "include_usage": true,
+      "usage": {
+        "prompt_tokens": 17031,
+        "completion_tokens": 590,
+        "total_tokens": 17621
+      },
+      "cached_prompt_tokens": null,
+      "content_TTFT_ms": 4486.1250999965705,
+      "HTTP_elapsed_ms": 10889.978999999585,
+      "retries": 0
+    },
+    {
+      "role": "counter",
+      "max_tokens": 1600,
+      "finish_reason": "stop",
+      "full_current_source_files": 11,
+      "messages": 3,
+      "temperature": 0,
+      "thinking": false,
+      "include_usage": true,
+      "usage": {
+        "prompt_tokens": 17003,
+        "completion_tokens": 810,
+        "total_tokens": 17813
+      },
+      "cached_prompt_tokens": null,
+      "content_TTFT_ms": 4697.0744999998715,
+      "HTTP_elapsed_ms": 13523.114900002838,
+      "retries": 0
+    }
+  ],
+  "model_binder": {
+    "public_API_contract_supplied": true,
+    "newproducer_declaration_clearly_marked_not_yet_implemented": true,
+    "owner_implementation_or_Test_or_oracle_in_prefix": false,
+    "raw": {
+      "bytes": 2040,
+      "sha256": "05bd299df511ed74ff578f49ac1d74a31bee1ffaca767ddd957f6ab7c0a1d95a",
+      "EOF_newline": false
+    },
+    "selected": {
+      "bytes": 2040,
+      "sha256": "d2b591e356166ac324854e5062f6b214e9ec82afdd9aaf9c31b43e292f483840",
+      "EOF_newline": false
+    },
+    "grade": "partial; all execution statements retained; two imports changed from nonexistent185nested names to actual155declaring types before firstcompile",
+    "owner_nominal_type_changes": 2,
+    "raw_javac_failure": false,
+    "second_model_round": false
+  },
+  "counter": {
+    "grade": "partial source analysis only",
+    "accepted": [
+      "signed leftscratch guard",
+      "normalCALL versus tail ownership",
+      "prologue-adjusted stack-read order"
+    ],
+    "rejected": "T3 both reversed the first store operand direction and falsely called the actual tail target Entry a postprologue frame. Full caller, ASM and explicit function-entry contract were present.",
+    "candidate_or_owner_Test_or_oracle_seen": false,
+    "whole_producer_or_independent_expected_matrix_credit": false
+  },
+  "owner": {
+    "whole_newproducer": {
+      "bytes": 7197,
+      "sha256": "31a9cba7013aa0d94d05a0b9b3c4eacb42c042f715671effae5b440e1d61eb97",
+      "EOF_newline": true
+    },
+    "newTest": {
+      "bytes": 13535,
+      "sha256": "465541215fd0239f6a81941dddb699d58fccd06184a8e9bdbd59deba219a9de6",
+      "EOF_newline": true
+    },
+    "all_whole_ABI_controlflow_and_literal_oracle_owner": true,
+    "book_before_wholeproducer": true,
+    "Test_binder_candidate_blind": true,
+    "owner_wholeproducer_known_to_Test_author": true,
+    "no_wholealgorithm_blind_claim": true,
+    "mature_row_and_internalGeneral_tail_reused": true
+  },
+  "software": {
+    "new_prod_TU": 2,
+    "newTest_TU": 1,
+    "first_phase_exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "first_distinct_JUnit_found_started_successful": 9,
+    "failed_skipped_aborted": 0,
+    "old_subject_or_case_recompile_rerun": 0,
+    "existing_logging_warning_retained": true,
+    "new_code_changes_after_firststrict": false,
+    "whole_recursive_domain_or_hardware_or_Game_or_speed_claim": false
+  },
+  "cost": {
+    "at_utc": "2026-11-02T15:58:04.477688+00:00",
+    "mechanical_prep_begin": "2026-11-02T15:43:21.192063+00:00",
+    "mechanical_prep_end": "2026-11-02T15:43:21.226187+00:00",
+    "mechanical_prep_seconds": 0.034124,
+    "mechanical_scope_excludes": "earlier source discovery, completeASM/caller/API reading and contract authoring; active unknown",
+    "model_HTTP_intervals": [
+      {
+        "role": "binder",
+        "begin": "2026-11-02T15:43:28.263523+00:00",
+        "end": "2026-11-02T15:43:39.153384+00:00",
+        "elapsed_seconds": 10.889978999999585
+      },
+      {
+        "role": "counter",
+        "begin": "2026-11-02T15:43:28.273036+00:00",
+        "end": "2026-11-02T15:43:41.796104+00:00",
+        "elapsed_seconds": 13.523114900002838
+      }
+    ],
+    "real_POSTs": 2,
+    "real_HTTP_peak": 2,
+    "peak_begin": "2026-11-02T15:43:28.273036+00:00",
+    "peak_end": "2026-11-02T15:43:39.153384+00:00",
+    "peak_seconds": 10.880348,
+    "model_HTTP_elapsed_sum_seconds": 24.413093900002423,
+    "review_clock_begin": "2026-11-02T15:49:28.794035+00:00",
+    "review_clock_end": "2026-11-02T15:53:17.549922+00:00",
+    "review_envelope_seconds": 228.755887,
+    "review_marker_scope": "modelbinder/counter firstread afterTestfreeze, later source/wire metadata; not exclusive whole source review labor",
+    "first_prod_begin_to_first9P_end_seconds": 52.090193,
+    "process_elapsed_seconds": {
+      "prod": 1.084148499998264,
+      "validation": 1.2136901000048965,
+      "test": 1.1359617999987677
+    },
+    "process_elapsed_sum_seconds": 3.433800400001928,
+    "validation_to_JVM_gap_seconds": 3.428524,
+    "owner_discovery_active_seconds": null,
+    "owner_preparation_active_seconds": null,
+    "owner_wholeproducer_authoring_active_seconds": null,
+    "owner_Test_authoring_active_seconds": null,
+    "owner_review_active_seconds": null,
+    "owner_correction_active_seconds": null,
+    "owner_packaging_active_seconds": null,
+    "actual_CPU_seconds": null,
+    "resource_rule": "Native sole CPU1 firstchecks after actual play/P0 priority; no futureHOLD attribution or elapsed-as-CPU claim"
+  },
+  "permission": "This sanitized portable payload only may be published. Raw source/ASM/REQUEST/session/private paths/oracle/Test remain private.",
+  "formal_status_at_cutoff": "PENDING; later formal may be appended separately without rewriting this software cutoff",
+  "new_HTTP_or_validation_for_publication": 0
+}

@@ -796,3 +796,9 @@ Owner七scene POST前独冻未供，另两same-target后CALL/TAIL排除项POST�
 [HTTP-INTEGER-PRE-FP-SEAM-602](evidence/2026-11-02-http-integer-pre-fp-seam.json)的9完整项23390物理B，R1 block2000/反审1600、唯一block R2仅700；三POST=两stop+一length/0retry，峰2仅6.778637s。完整R1把long传int API，完整声明已供、编前拒；模型R2单cast hunk正逆精确→1804→1809B，owner Java0，不授R1整raw。任务已强示17B整数序列/状态/顺序/FP前停止，非独立wholegrowth设计。
 
 Owner在length元数据检查前批读误见反审1..82行，原incident保，不能称unread；整弃0片段/0oracle/noR2，也不从未完整稿授语义失败。原三case oracle预任何CONTENT冻，未回喂；仅三新17B bank/order/marker units首0，过程1.337133s对755.498357s已录wall，早发现/active/netunknown。首前准备JSON误当Python、误读partial均owner成本，与R1类型错误分账。formal在此软件切点pending，不授FP/MXCSR/DFcapture/RFLAGS/完整增长/Native/运行或速度。
+
+## 新函数入口producer与薄tail接线：执行原样仍有名义类型修正
+
+[HTTP-ENTRY-PRODUCER-TAIL-BINDING-302](evidence/2026-11-02-http-entry-producer-tail-binding.json)为owner批准6423B原字节正文，属于普通三消息HTTP。两role各11完整源，2000/1600两stop/0retry；模型仅新binder，owner全7197B producer/全ABI编排与13535B九Test。Binder执行语句原样，但两个不存在的185嵌套import须owner改为actual155直接声明，partial非whole raw，编前修/0raw javac红/noR2。
+
+Counter未见ownerbody/Test/oracle；T1/T2/T4是完整ASM及冻结API已显式/直接提示的有限核对，不授独立算法或新反例发现。T3仍反转store operand并错识tail Entry，拒。九Test仅binder candidate盲、owner producer已知，不冒wholeblind；首2prod/Test/JUnit0→9P，3.433800s过程对52.090193s首prod→RUN、228.755887s交错review envelope，0.034124s仅机械装配、更早发现/作者/纠正activeunknown。短峰2仅10.880348s；formal此切点pending，不授整递归域/硬件/Game/实载或速度。
