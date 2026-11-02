@@ -1,0 +1,227 @@
+{
+  "schema": "local-model-operations.http-case/v1",
+  "case_id": "HTTP-PARTIAL-FP-EXACT-PRODUCT-UPPER-POSITIVE-COMPOSITION-611",
+  "mode_id": "http-candidate",
+  "input": {
+    "complete_entities": 39,
+    "physical_source_bytes": 120235,
+    "source_message_bytes": 130911,
+    "actual_three_message_full_source_reconstruction_owner_audited": true,
+    "strong_public_shape_exact_normal_zero_domain_hints": true,
+    "new_target_body_or_expected_trace_supplied": false
+  },
+  "requests": [
+    {
+      "round": "http-r1",
+      "post_begin": "2026-11-02T17:49:50.439179+00:00",
+      "end": "2026-11-02T17:49:54.916682+00:00",
+      "max_tokens": 1800,
+      "finish_reason": "stop",
+      "ttft_ms": 1711.4225999976043,
+      "total_ms": 4477.418399997987,
+      "usage": {
+        "prompt_tokens": 42149,
+        "completion_tokens": 385,
+        "total_tokens": 42534
+      },
+      "cached": null,
+      "whole_entities": 39,
+      "wire_source_bytes": 130911,
+      "request_reconstructed_exact": true,
+      "role": "exact-product-predicate",
+      "messages": 3,
+      "events": {
+        "bytes": 2242,
+        "sha256": "6a1b47471b6fb8d7ad35c5f3823c58baf62df95a5f62c3737cddd37610da0e8d"
+      },
+      "request": {
+        "bytes": 137258,
+        "sha256": "0f27cf7c7954253df77c62ef0fc76836b9431985305dffe12bd300b8cca8a098"
+      }
+    },
+    {
+      "round": "http-r1",
+      "post_begin": "2026-11-02T17:49:50.445598+00:00",
+      "end": "2026-11-02T17:49:56.231549+00:00",
+      "max_tokens": 1800,
+      "finish_reason": "stop",
+      "ttft_ms": 1704.9550999945495,
+      "total_ms": 5785.923000003095,
+      "usage": {
+        "prompt_tokens": 42087,
+        "completion_tokens": 502,
+        "total_tokens": 42589
+      },
+      "cached": null,
+      "whole_entities": 39,
+      "wire_source_bytes": 130911,
+      "request_reconstructed_exact": true,
+      "role": "source-counter",
+      "messages": 3,
+      "events": {
+        "bytes": 2236,
+        "sha256": "3009de2a9420db3005afc5da9413c0098d625e0ec2129c50f9f0c30c6acdb607"
+      },
+      "request": {
+        "bytes": 136954,
+        "sha256": "419c9c66783e33e2899e9e9dacdb85f541d847ac0a0619d9981b9c90ee3ccf26"
+      }
+    }
+  ],
+  "accounting": {
+    "POSTs": 2,
+    "ENDs": 2,
+    "stop": 2,
+    "length": 0,
+    "retry": 0,
+    "peak": 2,
+    "peak2_seconds": 4.471084,
+    "R2": false
+  },
+  "adoption": {
+    "implementation": "R1 complete1059B decoded raw exactly equals selected predicate including EOL/EOF, zero owner Java edit. Strong owner shape and sufficient-domain hints, not autonomous API/FP engine/whole producer.",
+    "counter": "Correct confirmation of source sufficient-domain constraints only,0new numeric oracle or code. Generic guard-removal warnings and unqualified underflow wording do not establish general exception proof; no R2.",
+    "owner": "3221B new partial-state instruction orchestration and14557B new strict RAM Test owned. Isolated5981/4410 projections of earlier whole/binding retain previous model provenance, mechanical owner renaming/selector changes are not new model binding credit."
+  },
+  "sources": [
+    {
+      "role": "model_R1_predicate",
+      "bytes": 1059,
+      "sha256": "0ccabf0ba8803dfad0070a100cbf8766867e58442db176e1181f1e4242860d92"
+    },
+    {
+      "role": "owner_partial_instruction",
+      "bytes": 3221,
+      "sha256": "876dc2e5cc57c47fb9b7e5c04a1c43f0f270246e3deb3d6ac45bc0bf2f2be5df"
+    },
+    {
+      "role": "owner_projection_prior_whole",
+      "bytes": 5981,
+      "sha256": "6f5577871120de97f253bd904c1ee999cb5feeb4457797c7c5b1ac3d606c53b9"
+    },
+    {
+      "role": "owner_projection_prior_binding",
+      "bytes": 4410,
+      "sha256": "8a30738069b5a434fe24b1a97a8a98a5e38bafb6e660dace2973c3fc5397579e"
+    },
+    {
+      "role": "owner_new_Test",
+      "bytes": 14557,
+      "sha256": "036bdde2ffb026c6d2f94937aae11bec5b8bf85b8563a0375d6c66fd3726298a"
+    }
+  ],
+  "domain": {
+    "admitted": "Conservative proved exact finite-normal product or signed zero with actual caller operand guards. Partial/unknown control/status objects retained; no host FP used by predicate.",
+    "unsupported": "A software admission stop after a single fresh operand read; preserves destination/status/read prefix. Raised0 means no NEW flags, not cleared incoming sticky state or fabricated architectural FP fault. No fallback second operand read.",
+    "independent_readonly_source_review": "Existing primary-source arithmetic sufficient-domain review only, not implementation/CPU/OS verification; negative zero sign and incoming sticky status boundaries explicitly retained."
+  },
+  "oracle_timing": {
+    "predicate_instruction_oracle_before_POST": true,
+    "owner_invalid_Product_input": "One original overflow row used an exponent outside existing constructor domain. Owner append-only erratum corrected to an equivalent valid representation before first POST, old freeze preserved; not a model error or tested-code feedback.",
+    "erratum": {
+      "bytes": 661,
+      "sha256": "2d57b26bdaa26bc3f3cfa1494d036ddcbae6c4d543dbee3d907e67422978f854"
+    },
+    "whole_fixture_added_after_POST_before_first_owner_CONTENT_read": true,
+    "whole_fixture_not_before_HTTP_content_arrival": true,
+    "whole_fixture_frozen_utc": "2026-11-02T17:55:02.241004+00:00",
+    "model_target_execution_expected_trace": false
+  },
+  "software": {
+    "first_new_production_TUs": 4,
+    "first_new_Test_TUs": 1,
+    "manual_not_JUnit": true,
+    "new_groups": 5,
+    "first_actuals": [
+      {
+        "begin": "2026-11-02T18:03:05.300853+00:00",
+        "end": "2026-11-02T18:03:06.050321+00:00",
+        "process_wall_seconds": 0.7494633000023896,
+        "exit_code": 0,
+        "stdout_count": null,
+        "receipt": {
+          "bytes": 1860,
+          "sha256": "7a5853f70c2c4d7e0b2c8b71a18eb27fe4ebf9c4f1ddfbfd0c88ce4ee0466f0e"
+        }
+      },
+      {
+        "begin": "2026-11-02T18:07:16.955691+00:00",
+        "end": "2026-11-02T18:07:17.928571+00:00",
+        "process_wall_seconds": 0.9728749999922002,
+        "exit_code": 0,
+        "stdout_count": null,
+        "receipt": {
+          "bytes": 872,
+          "sha256": "cbe159efa37211be765f299fcafd9edd2f4baf85dcdfb53c5de6757f557f3dd0"
+        }
+      },
+      {
+        "begin": "2026-11-02T18:07:24.779593+00:00",
+        "end": "2026-11-02T18:07:25.040856+00:00",
+        "process_wall_seconds": 0.2612571000063326,
+        "exit_code": 0,
+        "stdout_count": 5,
+        "receipt": {
+          "bytes": 4584,
+          "sha256": "64ee1822e052204de6fd235101b8218bcfabe8702537af4f44fd8743cf345938"
+        }
+      }
+    ],
+    "process_sum_seconds": 1.9835954000009224,
+    "old_FP_cases_rerun": 0,
+    "new_qualification": "Actual upper producer through known integer branch and partial-FP append positive growth, including all three controlled opaque allocation/COPY/free frames, one shared RAM/Memory/CAS/budget/call cursor, represented volatile/nonvolatile/SP/RIP/DF and explicit postcall partial state objects. Other groups cover literal exact bits, unsupported prefixes and one-read foreign-exception identity.",
+    "not_qualification": "Opaque callee algorithms, Native172 original16+4, actual captured hardware state, CPU/OS/full RFLAGS/EH, complete arithmetic domain, Game/SAVE or measured speed."
+  },
+  "cost": {
+    "first_precise_scope_clock": "2026-11-02T17:45:34+00:00",
+    "preparation_to_first_POST_wall_seconds": 256.439179,
+    "recorded_clock_to_first_RUN_END_wall_seconds": 1311.040856,
+    "strict_to_RUN_gap_wall_seconds": 6.851022,
+    "earlier_specific_planning_start": "UNKNOWN",
+    "owner_active_seconds": null,
+    "net_saving_seconds": null,
+    "compiler_CPU_seconds": null,
+    "reused_primary_research_and610_literal_provenance": "Separate prior cost, not free or a new model case. Existing held literal does not establish current live memory.",
+    "not_continuous_active_or_HOLD": true
+  },
+  "publication": {
+    "status_at_original_software_cutoff": "formal_pending",
+    "original_source_cohort_cost_and_manifest_unchanged": true,
+    "future_thin_wrapper_would_reuse_same_five_groups": true
+  },
+  "limits": [
+    "Only one new model predicate adopted; no independent oracle, autonomous whole integration, or generalized partial-FP capability inferred.",
+    "Owner Test frozen after HTTP END but before body reading: not a pre-generation blind oracle.",
+    "No new model/GET/registry/Java/Game for operations; raw source/requests/answers/oracles/private paths remain local."
+  ],
+  "provenance": {
+    "cohort": {
+      "bytes": 6420,
+      "sha256": "d4ee61b8a29955f5bb9fc12076de257936cde1334f7b98d388619889730829dc"
+    },
+    "cost": {
+      "bytes": 1070,
+      "sha256": "929e9549c842ee5f255d8bb2a06b7e87c38cda213281c0cac132b0ebae4aadad"
+    },
+    "manifest": {
+      "bytes": 9133,
+      "sha256": "acd493e6dedfbd3be241376d605f48729763fe928a65d711b94e5efda763baa5"
+    },
+    "source_review": {
+      "bytes": 2560,
+      "sha256": "2dfc478498a2c37749016d05a11c05e8c2d1d2ca79c644a3a5f330b700112cb0"
+    },
+    "owner_projections": {
+      "bytes": 2037,
+      "sha256": "6f752c7f659bfcb474e3bb4045b7ae496f10b1cc8494bdba0668f57a0e1f102a"
+    },
+    "oracle": {
+      "bytes": 2738,
+      "sha256": "176bbc5bc4332e33d44b8818b35babe0d048726effcd2576ba8adc35bb8d309e"
+    },
+    "before_content_read": {
+      "bytes": 1717,
+      "sha256": "fb660d6ca893e829663c8ec643295db7c3b47acf946d206533fc97af8b27b149"
+    }
+  }
+}
