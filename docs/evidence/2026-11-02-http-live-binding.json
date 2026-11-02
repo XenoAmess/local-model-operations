@@ -1,0 +1,261 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-KNOWN-CALLEE-BINDING-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_software_cutoff_UTC": "2026-11-02T01:53:54.913552+00:00",
+  "metadata_review_UTC": "2026-11-02T02:19:46.038458+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "A thin wrapper connecting a real caller to an existing whole cleanup callee using the actual frame, memory and budget.",
+  "input": {
+    "base_full_items": 14,
+    "base_physical_UTF8_bytes": 48067,
+    "integrity": "Each base file frozen digest and complete decoded text matched against every actual source message. Correction input also includes its own prior complete response, not a peer answer or owner oracle.",
+    "protocol": "Eight actual wire keys, current stable system/user/user, temperature0, thinkingfalse, JSON object, stream with usage.",
+    "role_qualification": "Owner chose exact targets/contract and mature declarations. Generated unit and whole owner orchestration remain separate; no unhinted architecture invention or whole-producer blind witness claimed."
+  },
+  "calls": [
+    {
+      "role": "production",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T01:38:49.471124+00:00",
+      "END_UTC": "2026-11-02T01:38:58.479960+00:00",
+      "max_tokens": 2400,
+      "full_input_items": 14,
+      "physical_input_UTF8_bytes": 48067,
+      "source_message_UTF8_bytes": 52463,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 2.603810500004329,
+      "reported_HTTP_seconds": 9.008893899997929,
+      "usage": {
+        "prompt_tokens": 17553,
+        "completion_tokens": 874,
+        "total_tokens": 18427
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 56500,
+        "sha256": "199f5a813cbbbb545018905612df37e7f909d80811c0f8560b1509b6da37ae7b"
+      },
+      "complete_CONTENT_digest": {
+        "bytes": 3495,
+        "sha256": "e3be27de7c566a11312a8a2df81c722f5ca6f5870ea3ca5b345ec19ecd4f0b8d"
+      }
+    },
+    {
+      "role": "production",
+      "semantic_round": 2,
+      "POST_BEGIN_UTC": "2026-11-02T01:41:53.385841+00:00",
+      "END_UTC": "2026-11-02T01:42:17.162150+00:00",
+      "max_tokens": 2400,
+      "full_input_items": 15,
+      "physical_input_UTF8_bytes": 51562,
+      "source_message_UTF8_bytes": 56274,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 6.526769999996759,
+      "reported_HTTP_seconds": 23.776312200003304,
+      "usage": {
+        "prompt_tokens": 18311,
+        "completion_tokens": 971,
+        "total_tokens": 19282
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 59700,
+        "sha256": "e539882c156436f5500103993e97fa831a6f7dca65c0a8c5df435ed719683b32"
+      },
+      "complete_CONTENT_digest": {
+        "bytes": 3966,
+        "sha256": "f655ffaa662434cca2a08fc7b2f86542f64b34e915e8d1579396d8f233a35651"
+      }
+    },
+    {
+      "role": "audit",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T01:38:49.474706+00:00",
+      "END_UTC": "2026-11-02T01:38:59.840364+00:00",
+      "max_tokens": 1900,
+      "full_input_items": 14,
+      "physical_input_UTF8_bytes": 48067,
+      "source_message_UTF8_bytes": 52463,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 2.600518100000045,
+      "reported_HTTP_seconds": 10.36558839999634,
+      "usage": {
+        "prompt_tokens": 17722,
+        "completion_tokens": 1013,
+        "total_tokens": 18735
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 57150,
+        "sha256": "22454dfe6cf19662b38597afca4d7a58f1af6977999f83496dbe3432b8818d85"
+      },
+      "complete_CONTENT_digest": {
+        "bytes": 3557,
+        "sha256": "5b2cc01e43d8ffb5e61d6d8da54acd8507b04a11d8cc29f37dd60d6e98602058"
+      }
+    }
+  ],
+  "transport": {
+    "logical_tasks": 3,
+    "POSTs": 3,
+    "ENDs": 3,
+    "complete_stop": 3,
+    "length": 0,
+    "transport_retries": 0,
+    "client_peak": 2,
+    "peak_spans": [
+      {
+        "BEGIN_UTC": "2026-11-02T01:38:49.474706+00:00",
+        "END_UTC": "2026-11-02T01:38:58.479960+00:00",
+        "seconds": 9.005254
+      }
+    ],
+    "peak_cumulative_seconds": 9.005254,
+    "longest_continuous_peak_seconds": 9.005254,
+    "reported_HTTP_duration_sum_seconds": 43.15079449999757,
+    "HTTP_union_seconds": 34.145549,
+    "service_running_waiting_KV": null,
+    "target12_16_claimed_achieved": false
+  },
+  "software": {
+    "checks": [
+      {
+        "stage": "JAVAC_PROD588",
+        "BEGIN_UTC": "2026-11-02T01:45:43.879055+00:00",
+        "END_UTC": "2026-11-02T01:45:44.397491+00:00",
+        "process_seconds": 0.5184359999984736,
+        "exit_code": 0
+      },
+      {
+        "stage": "JAVAC_WITNESS588",
+        "BEGIN_UTC": "2026-11-02T01:53:25.781826+00:00",
+        "END_UTC": "2026-11-02T01:53:26.584042+00:00",
+        "process_seconds": 0.8022143000052893,
+        "exit_code": 0
+      },
+      {
+        "stage": "RUN588",
+        "BEGIN_UTC": "2026-11-02T01:53:29.451459+00:00",
+        "END_UTC": "2026-11-02T01:53:29.618495+00:00",
+        "process_seconds": 0.16703209999832325,
+        "exit_code": 0
+      }
+    ],
+    "new_owner_cases_passed": 4,
+    "model_Test_requests": 0,
+    "owner_oracle": "Fixed source-derived cases frozen before any response; expected values do not come from target execution. Mature mechanical helpers reused; no old stable-case execution.",
+    "coverage": "One new nonself source-zero/old-destination-one cleanup path, fresh-count suppression after the whole callee, plus frame/result identity, current child DF and original budget boundaries.",
+    "not_verified": "All counts, concrete opaque virtual/lower callees, hardware ABI/EH/Native/Game, original missing historical verification, saved-day performance or whole-project completion."
+  },
+  "formal_at_software_cutoff": {
+    "state": "PENDING_RECEIPT_AT_THAT_CUTOFF",
+    "commit": null
+  },
+  "later_formal_annex": {
+    "observed_UTC": "2026-11-02T02:09:00.714283+00:00",
+    "commit": "ccd82934f163d4a8057a2b0794b4196984d107a3",
+    "normal_push_remote_exact_clean": true,
+    "source_file_raw_formal_digests": [
+      {
+        "raw_bytes": 3864,
+        "raw_sha256": "c355088cc1edc9425b0382198e3194b916b8a3fb4633d700b4a116b3ae8ce2c4",
+        "formal_bytes": 3824,
+        "formal_sha256": "2507a3e7e2be6743a808422d2ac5e8dbeaecac7b30e64ed0ffce0ceb1b3f11d2",
+        "EOF_preserved": true
+      },
+      {
+        "raw_bytes": 10261,
+        "raw_sha256": "fc5d654b8b4c8c829cae29bbe03318eff4a61c60e98dd212387211640ba30a8f",
+        "formal_bytes": 10261,
+        "formal_sha256": "fc5d654b8b4c8c829cae29bbe03318eff4a61c60e98dd212387211640ba30a8f",
+        "EOF_preserved": true
+      },
+      {
+        "raw_bytes": 352,
+        "raw_sha256": "0ed6c117f3069d628ff347dd7e7cb7b28ec4d3513bbbc8efecf493f526420e59",
+        "formal_bytes": 352,
+        "formal_sha256": "0ed6c117f3069d628ff347dd7e7cb7b28ec4d3513bbbc8efecf493f526420e59",
+        "EOF_preserved": true
+      }
+    ],
+    "publication_projection": "LF/blanktail only, raw/formal SHA separate and originalEOF retained.",
+    "first_new_wrapper_checks": [
+      {
+        "stage": "actual_compile",
+        "BEGIN_UTC": "2026-11-02T02:06:19.453637+00:00",
+        "END_UTC": "2026-11-02T02:06:20.057627+00:00",
+        "process_seconds": 0.6039894999994431,
+        "exit_code": 0
+      },
+      {
+        "stage": "actual_selected_JUnit",
+        "BEGIN_UTC": "2026-11-02T02:06:26.077223+00:00",
+        "END_UTC": "2026-11-02T02:06:26.619082+00:00",
+        "process_seconds": 0.5418538000012632,
+        "exit_code": 0
+      }
+    ],
+    "wrapper_validation_wall_seconds": 7.165445,
+    "wrapper_gap_coordination_wall_seconds": 6.019596,
+    "wrapper_reported_process_sum_seconds": 1.1458433000007062,
+    "wrapper_scope": "One newly compiled JUnit wrapper and one selected method reusing the new owner verify cases; not additional scenarios, an old suite run or a separate standalone replay.",
+    "sole_executor": "Native mechanical executor; Java writer and descendants zero Java execution in this handoff. No additional compilation/RUN at staging or push.",
+    "runtime_installation_or_performance": false
+  },
+  "clock_accounting": {
+    "input_freeze_UTC": "2026-11-02T01:38:49.250086+00:00",
+    "final_owner_RUN_END_UTC": "2026-11-02T01:53:29.618495+00:00",
+    "input_freeze_to_final_RUN_wall_seconds": 880.368409,
+    "all_owner_validation_process_sum_seconds": 1.487682400002086,
+    "active_owner_labor_seconds": null,
+    "pre_marker_discovery_seconds": null,
+    "net_owner_saving_seconds": null,
+    "limit": "Input-to-RUN includes model waiting/review, owner code/oracle work, corrections, real resource priority and coordination. Nested windows and request/process sums are not active labor, CPU, service delay or a counterfactual saving.",
+    "pre_freeze_impact_wall_seconds": null,
+    "compile_to_RUN_gap_seconds": 2.867417,
+    "resource_qualification": "An announced main-run wait with zero actualSTART was coordination only, not cold-run CPU. A separately reported actual main START/END and later fresh test GO are distinct; no inferred future resource HOLD."
+  },
+  "private_evidence_digests": {
+    "owner_manifest": {
+      "bytes": 14157,
+      "sha256": "eca00f8532e266e2a1dc6aa42062b37620b74da104e182c82c3ba0ffe6005f96"
+    },
+    "model_cohort": {
+      "bytes": 5479,
+      "sha256": "9a93961d0240cf82910ff3ddfaa65e5339c6c6c44a462ae6e3cfd39cc2a4bf57"
+    },
+    "owner_cost": {
+      "bytes": 1498,
+      "sha256": "d634ecd8b88538fafe82f07b0488a0583aef936c2e455e9b0dbb3693975ebe64"
+    },
+    "formal_staged": {
+      "bytes": 48123,
+      "sha256": "549bcf4ca92c651064cd7b002346150b8d7d926b8343a3e9f308a235483de49e"
+    },
+    "formal_publication": {
+      "bytes": 1330,
+      "sha256": "d7289edf29f2c5993389bdfc038018cf8676de04341b091545165b474634e0cd"
+    },
+    "continuation": {
+      "bytes": 2975,
+      "sha256": "0f809df7f5182460baa0ed21048a45f4d8107ef3001c2c648678d0081ecc872f"
+    }
+  },
+  "comparison_limit": "A bounded-unit adoption under the current routing is not proof of mode superiority, a general ability ceiling or reduced end-to-end owner time. Independent source analysis and whole owner cases are graded separately; unrelated pending business recovery is not completed by this record.",
+  "next_real_trigger": "Only a genuine new bounded API/block/binding or independently justified finite boundary exploration, or an actual later authorized runtime result. Do not replay these closed cases, add a large model oracle or retry the closed native-tool loop for a success quota.",
+  "publication_new_HTTP_compile_Test_or_business_actions": 0,
+  "adoption": {
+    "production_R1": "Complete inline route correct but omitted an explicitly required live package-private bind method; whole rejected, no fragments promoted as the required deliverable.",
+    "production_R2": "Only necessary R2 complete3864-byte decoded Java adopted exact with zero owner Java/EOL/EOF changes. It reuses mature caller and whole callee without duplicating their algorithms.",
+    "audit": "Typed route, fresh count and frame-layer facts partly retained. Current register, child depth and a concrete alias example were omitted; whole not accepted and no auditR2 for known owner facts.",
+    "owner_Test": "All four fixed new cases authored and frozen before any response. Mature mechanical RAM/frame helpers only; no old self or earlier verify cases rerun and no expected data inferred from target execution.",
+    "formal_projection": "The raw3864-byte producer and formal3824-byte blob differ only by the recorded LF/blank-tail projection, EOF preserved. Raw decoded adoption is not a claim of full raw/formal byte identity.",
+    "original_transport_review_flags": "Original NOT_YET_REVIEWED/adopted=false transport summaries remain frozen; actual source decision and later formal receipt are separate."
+  }
+}

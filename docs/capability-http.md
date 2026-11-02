@@ -277,3 +277,9 @@ HTTP-CIV6-ARMYINPUT134/CITYINPUT135/RELIGIONGAP136分别准备真实快捷键观
 [HTTP-BASICBLOCK-API-001](evidence/2026-11-02-http-basicblock-api.json)实际执行新路由：五指令非正数block首R1完整3120B、pure API必要R2完整3906B均decoded Java逐字采用，owner未改Java/EOL/EOF；整体2967B控制流/状态编排仍由owner写。API R1虽stop但RVA/guard/声明作用域错整拒，独审也因stack/间接target/alias错误整体不采。4POST/4stop/0重试，首8份完整源、API纠正另加自身首答；峰3仅39.527330s，不把窄采用合算成whole算法或整体审可靠。
 
 owner五个有限用例先冻，首strict后RUN实红1来自owner把保存寄存器值误当当前值；仅一条预期literal按原源/独立seed纠正后再严格编译、RUN5通过，生产/API/block全未改，原红保留且无新POST。input freeze→最终RUN714.119838s、首次held读→RUN889.038229s，主动劳动及更早发现未知；机械decode .034651s不是全部准备。后到正式c576fdae另列，新wrapper首1P只包装这五个新case，不增加场景信用。虚callee、其余硬件ABI/EH/Game/性能仍未授；邻近不完整prefix保持未闭，不因本例成功补造能力。
+
+## 后到：小wrapper的必要纠正与原样采用
+
+[HTTP-KNOWN-CALLEE-BINDING-001](evidence/2026-11-02-http-live-binding.json)复用真实typed caller和成熟whole callee；R1 inline本身正确却缺明确要求的live bind方法，整稿拒绝。必要R2完整3864B decoded Java逐字采用，owner未改Java/EOL/EOF；不授模型重写两个成熟算法。audit仅typed route/fresh-count/frame事实partial，漏当前寄存器、child与具体alias，未再发已知题。三请求全stop/0重试，初14完整源、R2另自身首答，峰2仅9.005254s。
+
+owner在CONTENT前冻结四个新case，首次生产/Test严格编译及RUN4通过，覆盖一次真实cleanup组合和三项身份/frame/budget边界，其余ports仍opaque。input freeze→RUN880.368409s，三验证进程和1.487682s与2.867417s阶段间隔分别保留；更早impact及主动劳动未知，只有NOW无START的等待不算cold CPU。正式ccd82934后到另列：raw3864→formal3824仅LF/尾白投影分SHA、EOF保，新wrapper1P不增加case数。无Native/Game/实际装载或提速信用，不混未完成业务恢复成本。
