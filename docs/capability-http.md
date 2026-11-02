@@ -810,3 +810,9 @@ Counter未见ownerbody/Test/oracle；T1/T2/T4是完整ASM及冻结API已显式/�
 Witness漏getter读/捏table读整拒0oracle；事件是否只含external opaque ports未明示有owner文字歧义，不将所有内部event差异算模型错。ABI只合同提示内partial、未看candidate非独立整审。Owner八oracle POST前私冻及全Test，首2prod/Test/RUN0→8logical scenes/19checks；2.421630s过程对72.110768s验证wall、756.235055s inputfreeze窗口，早发现/activeunknown，Ready/协调gap不冒CPU或持续HOLD。原source早切点与software formalpending保，0全ABI/原Native/默认补参数/自然业务/实际装载或速度。
 
 已批准的312[独立正式后见tuple](evidence/2026-11-02-http-isolated-body-instrumentation-formal.json)记source commit2646cc7d及公开README入口；原2905B portable切点保，发表后无新增验证，仍不授current业务采用或速度。
+
+## Guided public-DATA回归：完整算法拒与length未读不混判
+
+[HTTP-GUIDED-PUBLIC-HISTORY-REGRESSION-312](evidence/2026-11-02-http-guided-public-history-regression.json)保8000/8500两真实POST/0retry/noR3、无HTTP重叠。首31完整源525832物理B与R2加自身R1后的32源、实际三message UTF8分列；R1完整Test算法因真实API/类型/历史匹配/边界缺口拒，R2 length8500整弃未读未解码0片段，不能冒第二份语义失败。仅R1机械WIRE/typed command复用，owner全两方法/helpers；原oracle pre-answer未供、实现可见guided非blind，无内部marker镜像。
+
+唯一新pure-DATA Test首strict0/1.894485s→2P/4.460850s，XML两方法核，0生产/helper/旧Test重编；6.355334s过程对1229.986986s首POST→JVMwall、217.530882s阶段gap，早准备/active/netunknown，不全归HOLD/CPU。描述性snapshot误会和读日志路径错误归owner/执行准备，不造API缺口或Test红。后见e5d06cbf单Test13944B raw/formal/EOF等，原切点保；0FS/JNA/会员权限/Runtime/实速信用。
