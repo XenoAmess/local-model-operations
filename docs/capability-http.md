@@ -618,3 +618,9 @@ Test两完整稿没真正先触发获取再造第二文件冲突，whole0/ownerw
 [HTTP-NOMINAL-CAPTURED-MEMORY-CORRECTION-001](evidence/2026-11-02-http-nominal-captured-memory-correction.json)23完整材料74800physicalB/actual80256B，current caller5904B与旧8port/no-range缓存分开，directMemory祖/原ASM在请求。五actualPOST/四stop一length/0retry，峰3仅24.082846s；binding R1完整4331但两nominal Memory实参错源审前抓未编，强hint唯一R2两raw编辑换captured Memory→4337，逐字forward/inverse/ownerJava0，不追R1whole正确。owner API653/Test12125和预冻oracle分开；witness整稿漏旧header清理/两ADD、混前后态拒，frame1300 length未读整弃，R2完整仍hex/decimal等式错wholeproof0/noR3。
 
 旧cache资格不足在Java前发现→必要current1support首编，再新2prod/1Test/两case78checks全0；只逻辑RAM上层consumer与controlled深port，动态recursiveframe/完整Native或G2完成未授。四过程3.562047s与验证255.866436s、manifest→首验977.838412s分别保，更早发现/activeunknown；实际SAVE窄窗让位不能包揽全部准备等待。原SOURCE_ONLY/后软件切点保持、formal在owner delivery仍pending，后见receipt另附；0新HTTP/JVM/Game或速度结论。
+
+## 后到：三site binder的nominal/fallback修正与owner fixture首红
+
+[HTTP-THREE-SITE-BINDER-FIXTURE-CONTRACT-001](evidence/2026-11-02-http-three-site-binder-fixture-contract.json)每role九完整文本/actual三消息，2500 binder stop、1600 audit length已阅作诊断但整弃/0拼、纠正审实际1600预算/600输出，完整两finding皆错；三POST无retry/峰2仅11.512775s。actual末loop CMP/branch与Java方向一致，审把早期另一CMP当回边；另一finding自行承认匹配，仅opaque scope caveat保，不授独立wholeaudit。Binder decoded4933B raw exact但partial，owner六类九occurrence修nominal/access、this→原fallback和unsupported类型，正逆5094B逐字核；整体3703B算法/成熟row复用与Test归owner，site/guard强hint不冒自主ABI。
+
+Owner literal先有production可见非wholeblind；编前删恒真assert/修side literal，后Test首strict1因三匿名fixture缺abstract invoke，0JUnit。只三method声明修12672→12985正逆、生产/期待/预算0改→onlyTest重编0/首次8P，runner的retry名不是此前跑过JUnit。四过程4.536264s与144.16699s全验证、49.448691s PREP/164.638522s REVIEW marker交错墙钟分开；更早发现/首读/activeunknown，SAVE优先窗不能包揽全部等待。原formal仍owner delivery pending，后见另附，不新HTTP/编测或授完整upper/Native/Game/速度。
