@@ -1,0 +1,95 @@
+{
+  "schema": "approved-portable-experience-v1",
+  "case": "whole-caller-adapter-integration-209",
+  "public_scope": "Only this exact sanitized payload is approved. No raw source, disassembly, prompts/responses, private machine paths, game identifiers or runtime packet is approved.",
+  "configuration": {
+    "source": "Canonical shared local-model-operations CLI; current AGENTS/usage/config rules were consulted. Shared operations owner reported unchanged caller ea0979f2 and config28315bd0 prefixes; no business-side caller/config edits.",
+    "model_actual_REQUEST": "qwen38-coder",
+    "temperature_actual_REQUEST": 0,
+    "stream_actual_REQUEST": true,
+    "message_count_each": 3,
+    "finite_output_budgets": [
+      2500,
+      3500
+    ],
+    "retry_policy": "up to6 configured transient-error retries; this cohort used none",
+    "source_prefix": "16 whole listed source entities plus the task contract were verified inside both actual requests. Recursive inherited declaring interfaces were initially missing, then supplied to owner review; the first prefix is not fully closed."
+  },
+  "actual_transport": {
+    "POST_count": 2,
+    "complete_stop": 2,
+    "length": 0,
+    "retry": 0,
+    "roles": [
+      {
+        "role": "implementation",
+        "POST_BEGIN": "2026-11-02T21:25:22.066019+00:00",
+        "END": "2026-11-02T21:25:32.084439+00:00",
+        "total_seconds": 10.018410899996525,
+        "first_nonempty_content_seconds": 5.480003000004217,
+        "prompt_tokens": 18932,
+        "completion_tokens": 488,
+        "cached_prompt_tokens": null
+      },
+      {
+        "role": "counterexample",
+        "POST_BEGIN": "2026-11-02T21:25:22.066673+00:00",
+        "END": "2026-11-02T21:25:35.129159+00:00",
+        "total_seconds": 13.062705400006962,
+        "first_nonempty_content_seconds": 5.7769409000029555,
+        "prompt_tokens": 18973,
+        "completion_tokens": 843,
+        "cached_prompt_tokens": null
+      }
+    ],
+    "union_seconds": 13.06314,
+    "peak": 2,
+    "peak2_seconds": 10.017766
+  },
+  "adoption": {
+    "implementation": "Partial raw35-line adapter. Owner corrected one local variable to the actual nominal return-interface type; the model's structurally similar interface was not assignable in Java. No algorithm was rewritten.",
+    "counterexample": "Prospective source/contract audit, without selected candidate input. Useful original-call push/port separation observations were retained; an unrestricted all-dependencies-present claim was rejected.",
+    "tests": "Three whole owner methods, derived from an independently frozen pre-candidate oracle. No model-test adoption credit.",
+    "owner_preparation_errors": "Inherited declaring interfaces were absent from first requests. A historic capture-size label included metadata while the represented body was shorter; complete actual body was present. Both are retained as owner errors, not retried away and not the cause of the model's nominal type error."
+  },
+  "new_software_validation": {
+    "scope": "One new production TU and one new Test TU, reusing mature original caller/child binaries; no old suite rerun.",
+    "production_firststrict_seconds": 1.0584652999968966,
+    "test_firststrict_seconds": 1.2321680000022752,
+    "first_JUnit_process_seconds": 1.1276870000001509,
+    "methods_found_started_passed": 3,
+    "skipped_aborted_failed": 0,
+    "behaviors": [
+      "Original whole caller drives an existing child-adapter chain on one RAM object; a first-success allocation path checks the ordered22 writes, whole byte image, original call-owned push and fresh return-slot read.",
+      "Whole-caller early return avoids child effects.",
+      "Owned budget/lower exceptions and a corrupted child return slot propagate, preserving partial effects without inventing a normal return."
+    ],
+    "not_granted": "Other outer/lower calls remain explicit ports. No complete concrete caller/full ABI, retry-exhaustion/error-path expansion, Native/Game execution or performance improvement is established."
+  },
+  "cost": {
+    "model_actual_POSTs": 2,
+    "model_stop": 2,
+    "model_retries": 0,
+    "model_union_seconds": 13.06314,
+    "model_peak": 2,
+    "model_peak2_seconds": 10.017766,
+    "phase_process_wall_seconds": 3.4183202999993227,
+    "prod_begin_to_final_RUN_end_wall_seconds": 653.478711,
+    "PROD_end_to_TEST_begin_coordination_and_actual_P0_recording_gap_seconds": 638.382459,
+    "TEST_end_to_RUN_begin_coordination_gap_seconds": 11.677996,
+    "pipeline_wall_minus_phase_process_wall_seconds": 650.0603907000007,
+    "PREP_marker_to_final_RUN_end_wall_seconds": 1141.244104,
+    "PREP_marker_to_this_delivery_wall_seconds": 1230.086017,
+    "operator_complete_discovery_preparation_review_active_seconds": null,
+    "marker_limit": "Prior discovery was not fully timed. Elapsed coordination/P0-recording/analysis overlap is retained; it is not model inference or CPU time."
+  },
+  "reusable_principles": [
+    "A thin consumer can be real unfinished work even when its child producer is already mature. Verify that the new witness actually enters the original whole caller, rather than replaying child-only green tests.",
+    "Java nominal interfaces require the exact factory return type; matching method shapes do not make unrelated interfaces interchangeable.",
+    "Full text inclusion of a listed file set is different from recursive declaring-interface closure. Record omissions and owner supplements without retrospectively upgrading the original model input.",
+    "A prospective audit must not be presented as candidate review. Independent owner oracle, owner implementation review and actual software behavior remain separate evidence.",
+    "Preparation/recording priority/coordination elapsed time remains in the end-to-end cost. Process seconds, HTTP union and elapsed marker windows are different measures; historical active operator time is unknown."
+  ],
+  "publication_cutoff": "Software mature; normal business Git publication pending at this payload cutoff. Later receipt must be a separate append-only note.",
+  "runtime_and_performance_credit": "NONE"
+}

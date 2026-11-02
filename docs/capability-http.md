@@ -1143,3 +1143,6 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 
 
 356 [same-call canonical私helper](evidence/2026-11-03-http-same-call-canonical-private-helper.json)批准4301B正文：23whole/两R1 stop，owner已指定重复点与privatehelper，两literal仅机械EOL后采用/0owner执行修；counter只审source plan非候选盲审，hash gate实际在parser上游。原exactly-once对profile4过宽已另保：仅重复direct/canonical pair，profile3源路径2→1、profile4 3→2后仍保Complete独立reprojection，非运行计数或wall收益。Owner新2method首2P，6.7999828进程/815.448532 source-ready已知墙钟/465.956899队列/11.722242 gap与activeNULL分列；结构helper不冒body-only热改。[后见formal](evidence/2026-11-03-http-same-call-canonical-later-formal.json)7e40ff2a仅1prod+1newTest，原pending/2P不回填，0新验证或实际装载提速信用。
+
+
+209 [whole-caller薄adapter名义绑定](evidence/2026-11-03-http-whole-caller-thin-adapter-nominal-binding.json)仅批准6123B正文：2STOP/0retry/峰2仅10.017766s，35行adapter部分采用、owner一处返回接口名义类型修正，counter只prospective source/contract审非candidate。16个listed实体全文入wire不等递归继承decl闭合，首prefix缺声明及旧capture长度label错误归owner，不追授输入或掩盖模型type错。新1prod+1Test首3methods全P，wholecaller真实22写序/首success与earlyreturn/异常有限场景，非旧child绿重跑；3.4183203进程/653.478711 pipeline/1141.244104标记窗/activeNULL分列，formal原pending不回填。正文retry_policy的six措辞以[共享配置](../config/executor.json)maximum_attempts=6含首次为准，最多5次传输重试；本案实际0retry，无Native/Game/实速信用。
