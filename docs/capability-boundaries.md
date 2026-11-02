@@ -137,3 +137,5 @@ OpenCode本身也经HTTP请求模型；这里的“普通HTTP”特指三消息�
 [获准性能观察正文](evidence/2026-11-02-model-latency-bootstrap-jvm-observation.json)按owner批准5567B原字节保留；这是既有单次离线记录分析，0新source模型POST，不纳两模式生成采用分母。运行owner早先3.252s/63297B HTTP与45.0802832s bootstrap录制不同窗/非A/B，不能相减或把HTTP响应快当端到端业务快。实际JVMInformation含CPU1/TieredStopAtLevel1及启动agent，只证当时配置，不证每方法tier、完整动态agent或C1因果/未来C2收益。
 
 699 Java samples与174 Native samples分列，SHA叶208不是精确调用次数或耗时百分比；70个root GC pauses合.9215011s不叠加GC/嵌套事件，无threshold FileRead也不证明无Native IO。858945207120的allocation sample weights由单条极端权重主导，非858GB实际分配/heap或吞吐；精确线程allocation delta未持，不补造。0.4329606s仅既有解析器过程，663.203482s marker→封口wall含前后工作、早读未计/activeunknown。完整目标未达、C2改善/新采样/业务采用与模型提速因果均未授。
+
+313获准[reference源码后见](evidence/2026-11-02-model-latency-bootstrap-reference-formal.json)为2ef58b82，公开Java utility和usage边界；两leaf均只是原raw CRLF→正式LF逐字节投影（Java13947→13773、usage2661→2631），不称raw等或新编译。原5567B观察正文/原class来源不改，0新增采样/模型/运行收益；不是新通用平台验收。
