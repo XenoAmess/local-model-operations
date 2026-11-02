@@ -526,3 +526,9 @@ owner11905B单叶首1TU0/2.225566s，复用真实生产class的有界normal CFG�
 [HTTP-COMPLETE-HELPER-FROM-REJECTED-CLASS-001](evidence/2026-11-02-http-complete-helper-from-rejected-class.json)11/7/7/11 wholeactual全文/顺序核，5000/1600/1100/6000四POST=1length3stop/0retry，峰3仅6.210431s。R1 length已被owner阅诊断后整弃，不写unread；R2完整10890B仍POP先增SP后读/缺offered guard整类拒/noR3，只其完整725B helper在decoded R2及5219B owner整体中唯一byteexact、0helper修，严禁写成拼R1或whole model成功。witness栈/分半/参数DATA错全拒；counter一个已提示signedshort事实partial，旧saved值与computed midpoint混淆拒。
 
 owner其余4494B控制/帧/递归/epilogue与全13979B七方法；scenarios prePOST，具体Book post生产审，不冒wholeblind。首1prod/1Test/7P全0，3process3.296798s对716.588344s首prod→RUN，10.221737s gap/原JBoss stderr保；marker→sourceReady以原cost541.140543s为准，旧540.14近似口述差异保。发现前/active/netunknown，formal pending另见；0opaque算法/硬件DF/EH/Native/Game/SAVE/实速或旧subject重跑。
+
+## 后到：owner数制歧义与独立候选错误分账
+
+[HTTP-MUTUAL-TRANSFER-NUMERIC-CONTRACT-001](evidence/2026-11-02-http-mutual-transfer-numeric-contract.json)三角色两轮共6POST6END/0retry，2length未读整弃+4stop完整多错整拒，0model code/oracle；峰3两段15.254444+14.158455=29.412899s。每REQUEST10完整项：九个API/ASM/literal正文逐份核，实际R1 message24121B、R2加366B提示→24487B。CONTRACT同路径已换R2内容，旧normalized全文在原REQUEST仍持，不假称原物理raw/EOL前像或不变prefix。
+
+owner合同frame+40/448/20未标0x，原ASM虽明确也不能把提示说成无歧义；影响未量化，独立fresh顺序/错写base/虚函数0/回调后缓存/CVTT与witness反读序错另记，不追认已纠数制重试或收益。owner四Java全体，首3prod/1Test/manual九场景136checks全0；七boundmove+equalhelper+controlledhelper，不冒九Native/完整ABI/COPY/reverse/上层caller/自然权限。948.871944s仅已选manifest→RUN对2.959401s进程，早期起点/activeunknown，formal pending另见；0运行/SAVE/实速，不R3洗绿。

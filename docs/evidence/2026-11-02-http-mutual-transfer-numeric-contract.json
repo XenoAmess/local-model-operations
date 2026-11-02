@@ -1,0 +1,404 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-MUTUAL-TRANSFER-NUMERIC-CONTRACT-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_software_cutoff_UTC": "2026-11-02T07:07:15.853572+00:00",
+  "operator_review_UTC": "2026-11-02T07:27:29.974341+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Two new real normal transfer methods and independent finite plain-RAM witness; owner supplies typed decomposition and takes over API/mutual-call implementation and all tests after two bounded rounds. No adopted fragments from either incomplete or complete model responses.",
+  "input": {
+    "whole_text_items_per_request": 10,
+    "actual_message_UTF8_bytes_R1_R2": [
+      24121,
+      24487
+    ],
+    "nine_held_API_ASM_literal_body_texts_verified_in_each_REQUEST": true,
+    "actual_contract_body_digests": {
+      "R1": {
+        "bytes": 4270,
+        "sha256": "de43478fe25e9ee668d5a2bec9db498c086c69be77fc146a8e7c6937b9d05169"
+      },
+      "R2": {
+        "bytes": 4636,
+        "sha256": "af59d6b05f022f5c3dc867cb8af69886f81530e6112a47761c15b913dfb3a0a4"
+      }
+    },
+    "contract_version_boundary": "R2 adds366 UTF8 bytes of owner header/import/cleanup hints at the same contract path; the R1 normalized complete body remains in its immutable REQUEST. Current physical contract matches R2. Ops does not certify a separately held original R1 raw/EOL file image or pretend the same path means unchanged content.",
+    "hinting": "Three complete ASM texts, five actual Java declaring/caller/Memory sources, actual literal and owner contract. No new candidate or owner expected table in witness. Explicit API/algorithm and R2 feedback, not unhinted discovery.",
+    "protocol": "Exact system/user/user; temperature0; thinkingfalse; JSON object; SSE usage; finite6500/4000/3200/10000/4000/5200."
+  },
+  "tasks": [
+    {
+      "role": "move217",
+      "whole_text_items": 10,
+      "actual_message_UTF8_bytes": 24121,
+      "actual_file_boundary_and_order_verified": true,
+      "nine_API_ASM_literal_bodies_match_current_held_text": true,
+      "contract_body_version": "R1",
+      "REQUEST_digest": {
+        "bytes": 26550,
+        "sha256": "afe40a2e8cf94e656b59fd8bfe47965d617da065b0c4e72f6c4c75dd3e1c1aae"
+      },
+      "EVENTS_digest": {
+        "bytes": 2064,
+        "sha256": "53049ac27f2daa9c00dd12e3ab88380ad437a71f81afec1e6d2b5a68542d80df"
+      },
+      "review_digest": {
+        "bytes": 1361,
+        "sha256": "f65d599cad26ca8ff8c7f9891328c7298e858be090cbeb5d1ab18d807af4ec69"
+      }
+    },
+    {
+      "role": "swap217",
+      "whole_text_items": 10,
+      "actual_message_UTF8_bytes": 24121,
+      "actual_file_boundary_and_order_verified": true,
+      "nine_API_ASM_literal_bodies_match_current_held_text": true,
+      "contract_body_version": "R1",
+      "REQUEST_digest": {
+        "bytes": 26448,
+        "sha256": "6863fd5bd91b4354d38b9fa284b86bc707c1253478ab5943f9e6c84c45cef5b8"
+      },
+      "EVENTS_digest": {
+        "bytes": 2042,
+        "sha256": "ccc655b6e4bba7d778d73d9a5ac03c5f00095c468756c9380f2a85b246979016"
+      },
+      "review_digest": {
+        "bytes": 1411,
+        "sha256": "edd77fd875daecb54ab2438445ade3208de3e7b399b2e03ceb449b56af205560"
+      }
+    },
+    {
+      "role": "witness217",
+      "whole_text_items": 10,
+      "actual_message_UTF8_bytes": 24121,
+      "actual_file_boundary_and_order_verified": true,
+      "nine_API_ASM_literal_bodies_match_current_held_text": true,
+      "contract_body_version": "R1",
+      "REQUEST_digest": {
+        "bytes": 26628,
+        "sha256": "b30c7b08676e90e8e291a895dd5193fabe30a23502414943a88e8e9da85e5004"
+      },
+      "EVENTS_digest": {
+        "bytes": 2080,
+        "sha256": "712ed6c51760e5d9ebd66309783dd908acb9c100e121cae2cd243fdb62edee47"
+      },
+      "review_digest": {
+        "bytes": 1370,
+        "sha256": "a40e3738d95330467e74893c80cfafc42d99cc2561b358840fbd2b87e2aca8be"
+      }
+    },
+    {
+      "role": "move217-correct02",
+      "whole_text_items": 10,
+      "actual_message_UTF8_bytes": 24487,
+      "actual_file_boundary_and_order_verified": true,
+      "nine_API_ASM_literal_bodies_match_current_held_text": true,
+      "contract_body_version": "R2",
+      "REQUEST_digest": {
+        "bytes": 27473,
+        "sha256": "6c36226da65c7d7ed366c4835bfdfd8c84c6e2b70656d776052997f62f849f74"
+      },
+      "EVENTS_digest": {
+        "bytes": 2106,
+        "sha256": "1be6339c4432aa44b1987361f7aca3e3cae6d4cd0a757f1a07cf484e067594e0"
+      },
+      "review_digest": {
+        "bytes": 1460,
+        "sha256": "fb46d08b8e3ee45aad8547e02aac70d9d0a4d6494b09eb3fbd98989d2c6db17a"
+      }
+    },
+    {
+      "role": "swap217-correct02",
+      "whole_text_items": 10,
+      "actual_message_UTF8_bytes": 24487,
+      "actual_file_boundary_and_order_verified": true,
+      "nine_API_ASM_literal_bodies_match_current_held_text": true,
+      "contract_body_version": "R2",
+      "REQUEST_digest": {
+        "bytes": 27767,
+        "sha256": "013f1abe4c499c4f89dd4c56e80d20edb0fbadadb98d6bff7c131e13ee52a2fa"
+      },
+      "EVENTS_digest": {
+        "bytes": 2104,
+        "sha256": "8772d7257c6e9edba224d9357c05130002bc2575201631b3fecf8579f0879820"
+      },
+      "review_digest": {
+        "bytes": 1439,
+        "sha256": "96bdcffd9ce417dc1e250dd63d905a9724354a8a8d3ae22470c2bf0220200abd"
+      }
+    },
+    {
+      "role": "witness217-correct02",
+      "whole_text_items": 10,
+      "actual_message_UTF8_bytes": 24487,
+      "actual_file_boundary_and_order_verified": true,
+      "nine_API_ASM_literal_bodies_match_current_held_text": true,
+      "contract_body_version": "R2",
+      "REQUEST_digest": {
+        "bytes": 27195,
+        "sha256": "8f4d327f241d6efed5100bd59ffa7475b66534225515e46e3048c3d48554096e"
+      },
+      "EVENTS_digest": {
+        "bytes": 2122,
+        "sha256": "70def8c37547e9861cd8220dab009ff0b77fe407324371dfb0e811bf716ef530"
+      },
+      "review_digest": {
+        "bytes": 1470,
+        "sha256": "56f1df60de5fce71bdcf9a9a8e97064dd43691680969d444bdbd560c5c3f578c"
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "role": "move217",
+      "POST_BEGIN_UTC": "2026-11-02T06:49:17.346965+00:00",
+      "END_UTC": "2026-11-02T06:50:07.418764+00:00",
+      "max_tokens": 6500,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 50.07175709999865,
+      "content_TTFT_seconds": 2.551112100001774,
+      "usage": {
+        "prompt_tokens": 10554,
+        "completion_tokens": 6500,
+        "total_tokens": 17054
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 21335,
+        "sha256": "ecea5a0e62f8a78beb9c5a9d446f7f3f01b4a4ec52d7d9d874648361dcafcc95"
+      },
+      "incomplete_handling": "Ops hash only; owner unread whole discard, not semantic grade."
+    },
+    {
+      "role": "swap217",
+      "POST_BEGIN_UTC": "2026-11-02T06:49:17.347320+00:00",
+      "END_UTC": "2026-11-02T06:49:32.621346+00:00",
+      "max_tokens": 4000,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 15.273975399992196,
+      "content_TTFT_seconds": 2.550734399992507,
+      "usage": {
+        "prompt_tokens": 10527,
+        "completion_tokens": 1442,
+        "total_tokens": 11969
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 5179,
+        "sha256": "d1eef751c4f0c72a960c960560b1077af4f3dfde6f7db950d0b1c17aaea914f4"
+      },
+      "incomplete_handling": "Owner reviewed complete response and whole rejected."
+    },
+    {
+      "role": "witness217",
+      "POST_BEGIN_UTC": "2026-11-02T06:49:17.366902+00:00",
+      "END_UTC": "2026-11-02T06:49:44.452672+00:00",
+      "max_tokens": 3200,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 27.08600280000246,
+      "content_TTFT_seconds": 2.531643400012399,
+      "usage": {
+        "prompt_tokens": 10521,
+        "completion_tokens": 3200,
+        "total_tokens": 13721
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 10706,
+        "sha256": "ae72a04bdd1cda3f2a177ca6f4b844b5f3a65c457dfdbf811d3b67cb927a3923"
+      },
+      "incomplete_handling": "Ops hash only; owner unread whole discard, not semantic grade."
+    },
+    {
+      "role": "move217-correct02",
+      "POST_BEGIN_UTC": "2026-11-02T06:52:41.514176+00:00",
+      "END_UTC": "2026-11-02T06:53:25.014321+00:00",
+      "max_tokens": 10000,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 43.50019359998987,
+      "content_TTFT_seconds": 3.4945047999935923,
+      "usage": {
+        "prompt_tokens": 10784,
+        "completion_tokens": 5786,
+        "total_tokens": 16570
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 18408,
+        "sha256": "b4fcdfcff69cd86d5308eaa0e6c74d95d4be263780043691ae6f43c7c9198bb6"
+      },
+      "incomplete_handling": "Owner reviewed complete response and whole rejected."
+    },
+    {
+      "role": "swap217-correct02",
+      "POST_BEGIN_UTC": "2026-11-02T06:52:41.513831+00:00",
+      "END_UTC": "2026-11-02T06:52:57.576091+00:00",
+      "max_tokens": 4000,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 16.062311200003023,
+      "content_TTFT_seconds": 3.4947406999999657,
+      "usage": {
+        "prompt_tokens": 10874,
+        "completion_tokens": 1430,
+        "total_tokens": 12304
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 5171,
+        "sha256": "e15b15a9e88578d422d445dd3d385f6484d8f3fd3f2c01ef18fe5fe13ff8f70f"
+      },
+      "incomplete_handling": "Owner reviewed complete response and whole rejected."
+    },
+    {
+      "role": "witness217-correct02",
+      "POST_BEGIN_UTC": "2026-11-02T06:52:41.525660+00:00",
+      "END_UTC": "2026-11-02T06:52:55.684115+00:00",
+      "max_tokens": 5200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 14.158400499989511,
+      "content_TTFT_seconds": 3.482890299987048,
+      "usage": {
+        "prompt_tokens": 10687,
+        "completion_tokens": 1225,
+        "total_tokens": 11912
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 3419,
+        "sha256": "1f2735873d203d94460a2ef113ea4d03322bcaf52664e3845f9a03a55b969e68"
+      },
+      "incomplete_handling": "Owner reviewed complete response and whole rejected."
+    }
+  ],
+  "transport": {
+    "roles": 3,
+    "logical_requests": 6,
+    "actual_POSTs": 6,
+    "ENDs": 6,
+    "length": 2,
+    "complete_stop": 4,
+    "retry": 0,
+    "third_round": false,
+    "client_in_flight_at_owner_cutoff": 0,
+    "client_peak": 3,
+    "peak_cumulative_seconds": 29.412899,
+    "peak_R1_seconds": 15.254444,
+    "peak_R2_seconds": 14.158455,
+    "HTTP_union_seconds": 93.572289,
+    "server_running_waiting_KV": null,
+    "cache_congestion_inference": null
+  },
+  "grading": {
+    "model_code_adopted": 0,
+    "model_oracle_adopted": 0,
+    "length": "First move and witness responses wholly discarded unread; hash only by Ops, no concatenation/extraction or semantic failure claim.",
+    "four_complete_candidates": "Owner whole rejected: wrong fresh/eager field ordering, incorrect base for width-specific write, zero fabricated virtual function, cached state across actual copy callback, literal/float conversion boundary errors; witness reverses source count/read order and scripts inconsistent callback/expected state. No code or oracle fragments adopted.",
+    "owner_numeric_ambiguity": "Task contract offsets frame+40/448/20 lack explicit hexadecimal base while original ASM has explicit numeric source. This real owner ambiguity can influence interpretation; causal contribution is unmeasured and these are not clean unambiguous prompts. It does not erase independently source-provable field/order/API/callback errors. No corrected-number replay or measured benefit is claimed.",
+    "source_scope": "Logical argument lanes only; unspecified full native GPR/DF/flags are not default zero. Helper has no guaranteed full return-register value.",
+    "owner": "All1428B API,4861B move,3052B helper and15892B finite Test, from original source; 0 model partial adaptation.",
+    "future_rule": "Use explicit hexadecimal offset notation and decimal units, align task/helper bodies with the same ASM; preserve original requests and owner responsibility."
+  },
+  "software": {
+    "first_actual_phases": [
+      {
+        "stage": "prod",
+        "BEGIN_UTC": "2026-11-02T07:01:06.793684+00:00",
+        "END_UTC": "2026-11-02T07:01:08.078440+00:00",
+        "process_seconds": 1.2847554000036325,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 2011,
+          "sha256": "2ef0ff7ea299543f5d8adb1f46954d8c9b1d05a5e8438677d9a1f1df0f78b08c"
+        },
+        "log_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "stage": "test",
+        "BEGIN_UTC": "2026-11-02T07:02:50.846492+00:00",
+        "END_UTC": "2026-11-02T07:02:52.346856+00:00",
+        "process_seconds": 1.5003610999992816,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 2050,
+          "sha256": "d53b9703af5f1cd96593db985f8b4ae4f0827f52fe5a096388587b8c6e7bebe3"
+        },
+        "log_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "stage": "run",
+        "BEGIN_UTC": "2026-11-02T07:04:55.562500+00:00",
+        "END_UTC": "2026-11-02T07:04:55.736789+00:00",
+        "process_seconds": 0.17428459999791812,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 1885,
+          "sha256": "8009d7bf7d7ffe2c57754c203b64c1d47f80fd7cdc48bbaa4a723c2a7161daba"
+        },
+        "log_digest": {
+          "bytes": 402,
+          "sha256": "9c1017b3e1716556853015e0480631d216197c05752393530ec6c19e66433498"
+        }
+      }
+    ],
+    "new_cases_passed": 9,
+    "checks": 136,
+    "scope": "Seven represented bound-move cases including actual mutual calls, one equal-allocator helper and one controlled helper dispatch/cleanup; plain manual main, not nine whole Native cases or JUnit/CI. Copy uses a finite small byte-copy script and reverse is an explicit no-op port, not their full native algorithms.",
+    "no_original_Native_differential": true,
+    "no_complete_ABI_accesswidth_EH_or_upper_caller_binding": true,
+    "no_Root_private_issuer_natural_cause_material_Game_SAVE_performance_credit": true
+  },
+  "formal_at_owner_software_cutoff": {
+    "state": "PENDING_SOLE_WRITER",
+    "commit": null,
+    "late_receipt_is_separate": true
+  },
+  "owner_cost": {
+    "first_recorded_selected_manifest_clock_UTC": "2026-11-02T06:49:06.864845+00:00",
+    "manifest_to_first_RUN_END_wall_seconds": 948.871944,
+    "three_process_seconds_sum": 2.9594011000008322,
+    "earlier_discovery_or_complete_task_wall_seconds": null,
+    "active_prepare_review_fix_seconds": null,
+    "net_time_saving_seconds": null,
+    "preparation": "Source qualification/API decomposition, incomplete numeric notation and full owner kernel/Test takeover retained. No actual compiler/setup red recorded for these three phases.",
+    "interpretation": "The948.871944s selected-input window starts after earlier source/API work; neither it nor2.959401s process sum is complete task wall or active labor. Future PREP/REVIEW markers do not backfill this historical gap."
+  },
+  "private_evidence_digests": {
+    "DELIVERY217.json": {
+      "bytes": 4849,
+      "sha256": "c3becefbfdcdcaee826a77378947b2b27e89342f77e346decca9cc16c88b0d7a"
+    },
+    "MODEL-COHORT217.json": {
+      "bytes": 11490,
+      "sha256": "2c445e6ce752fe224eadc410bc4d4fced6a74f33077b205c57a541f5ab72b89e"
+    },
+    "COST217.json": {
+      "bytes": 1246,
+      "sha256": "b72c3fbfe571dbd2dcef455066835c36f7ce72d32d22ae342979e0e1ee02ac8c"
+    },
+    "R2-PREPARATION217.json": {
+      "bytes": 465,
+      "sha256": "f0de21325363da96c1ca98a9b7638c3b915aa50470bb82cbaf510b204b63e5df"
+    },
+    "formal-source217/MANIFEST217.json": {
+      "bytes": 3929,
+      "sha256": "5c4d9dacfe2d02c89af91a5b72048b6d6ce801904bcd4484e6629df1a7e9f4c7"
+    }
+  },
+  "next_real_trigger": "Later exact publication receipt or a separate genuinely new smaller binding or source question with explicit notation. No same whole-task R3 or old-case replay. Keep HTTP/native-tool tracking separate.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}
