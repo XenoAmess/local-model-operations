@@ -1,0 +1,118 @@
+{
+  "schema": "local-model-operations.capability-evidence/v1",
+  "case_id": "same-call-three-level-represented-frame-chain231",
+  "mode_id": "http-candidate",
+  "permission": "M6 source owner explicitly authorizes sanitized adoption/software/cost metadata; raw sources,requests,responses and machine paths excluded.",
+  "input": {
+    "complete_entities": 25,
+    "physical_bytes": 102479,
+    "each_actual_source_message_bytes": 106177,
+    "strong_wiring_signature_hints": true
+  },
+  "http": {
+    "POST": 2,
+    "END": 2,
+    "stop": 2,
+    "transport_retry": 0,
+    "peak": 2,
+    "peak2_seconds": 14.95828,
+    "attempts": [
+      {
+        "role": "producer",
+        "begin": "2026-11-02T21:34:14.548172+00:00",
+        "end": "2026-11-02T21:34:29.506452+00:00",
+        "max_tokens": 1500,
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 40967,
+          "completion_tokens": 592,
+          "total_tokens": 41559
+        },
+        "effective_content_TTFT_ms": 8971.49549999449,
+        "total_ms": 14958.51589999802,
+        "cached_tokens": null
+      },
+      {
+        "role": "counter",
+        "begin": "2026-11-02T21:34:14.548062+00:00",
+        "end": "2026-11-02T21:34:32.654743+00:00",
+        "max_tokens": 2400,
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 41023,
+          "completion_tokens": 978,
+          "total_tokens": 42001
+        },
+        "effective_content_TTFT_ms": 10716.21139999479,
+        "total_ms": 18106.73620000307,
+        "cached_tokens": null
+      }
+    ]
+  },
+  "adoption": {
+    "producer": "Complete1906B R1 raw class selected, zero owner Java; explicit wiring and signatures supplied.",
+    "counter": "Only limited hinted facts; helper return address and first-guard caller hierarchy wrong. No independent numerical oracle.",
+    "owner_oracle_and_Test": "Four complete numerical traces from203 original instructions frozen prePOST. Java Test generated after both actual HTTP ENDs at21:34:59.274889Z before strict; old generic mayrunning metadata is not actual overlap."
+  },
+  "first_source_owner_verified_software": {
+    "new_production_TUs": 1,
+    "new_Test_TUs": 1,
+    "all_three_phase_exits": 0,
+    "new_logical_scenes": 4,
+    "checks": 61,
+    "finite_normal_scenes": 2,
+    "finite_guarded_prefix_scenes": 2,
+    "opaque_call_records": 9,
+    "scope": "Actual represented226→227→230 same-RAM chain with retained opaque children; no algorithm/prefix copy or old-green rerun."
+  },
+  "cost": {
+    "phase_seconds": [
+      0.8261780999891926,
+      1.7946558999974513,
+      0.3452538999990793
+    ],
+    "actual_process_wall_sum_seconds": 2.966087899985723,
+    "validation_wall_seconds": 172.777867,
+    "recorded_source_freeze_to_RUN_END_seconds": 856.997989,
+    "phase_gaps_wall_seconds": [
+      115.464206,
+      54.347574
+    ],
+    "complete_task_start": "UNKNOWN; earlier qualification/reference preparation",
+    "owner_active_seconds": null,
+    "owner_errors": "Two reference-reader failures and one args Path-parent assertion corrected before Java; generic Test timing prose clarified. Not model or compiler failures.",
+    "net_owner_savings": "UNKNOWN"
+  },
+  "formal_at_cutoff": "PENDING; later receipt additive",
+  "unproved": [
+    "DF/RFLAGS",
+    "XMM7..15",
+    "hardware stackfault/EH/fullmachineABI",
+    "opaque childalgorithms",
+    "loaded image/currentGame",
+    "naturalSway cause/material/privateRoot authority"
+  ],
+  "runtime_Native_Game_or_speed_credit": false,
+  "metadata_bindings": [
+    {
+      "ref": "MODEL-COHORT231.json",
+      "bytes": 3745,
+      "sha256": "82ba505776cc95f48da2a4acf774242d5a028fdc9275b22ef33a1a7f94644d89"
+    },
+    {
+      "ref": "COST231.json",
+      "bytes": 3609,
+      "sha256": "4772ac205ee02e758a176fb4e48ef73aeab55f415cdd7923699a8fa0831d0aeb"
+    },
+    {
+      "ref": "SOFTWARE-REVIEW231.json",
+      "bytes": 1481,
+      "sha256": "95b14428910d3caf01b1245aece62680cb2ee7fba601d445db4e754fa9235311"
+    },
+    {
+      "ref": "TEST-TIMING-ANNEX231.json",
+      "bytes": 657,
+      "sha256": "358f20bf133390eee4a5b91af818434643807bc1edcbae04fa04ab94343674bd"
+    }
+  ]
+}

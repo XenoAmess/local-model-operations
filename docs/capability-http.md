@@ -1146,3 +1146,14 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 
 
 209 [whole-caller薄adapter名义绑定](evidence/2026-11-03-http-whole-caller-thin-adapter-nominal-binding.json)仅批准6123B正文：2STOP/0retry/峰2仅10.017766s，35行adapter部分采用、owner一处返回接口名义类型修正，counter只prospective source/contract审非candidate。16个listed实体全文入wire不等递归继承decl闭合，首prefix缺声明及旧capture长度label错误归owner，不追授输入或掩盖模型type错。新1prod+1Test首3methods全P，wholecaller真实22写序/首success与earlyreturn/异常有限场景，非旧child绿重跑；3.4183203进程/653.478711 pipeline/1141.244104标记窗/activeNULL分列，formal原pending不回填。正文retry_policy的six措辞以[共享配置](../config/executor.json)maximum_attempts=6含首次为准，最多5次传输重试；本案实际0retry，无Native/Game/实速信用。
+
+
+Root charbuffer358 [批准5375B正文](evidence/2026-11-03-http-strict-charbuffer-guided-overload.json)区别M1 G2 resize358：7source/3actual请求、2300/2800/1800预算，原no-new-APIs歧义归owner、counter虚构recycler限制，唯一guidedR2单hunk仅CRLF投影采用/0owner执行修。首次新3P、2existingclassshape有限；625.133172 POST→JUnit/activeNULL不当净节省。[独立Test与正式后见](evidence/2026-11-03-http-strict-charbuffer-owner-validation-formal.json)补M4明确授权的原public String-parser有限reference（同引擎非独立parser）、808.966798 Test-owner标记窗/跨任务等待与4.2010448进程；dc3649cc合组formal，Test10390/8277 raw/EOF等。漏synthetic metadata和未关联writer命令分开保，原正文不回改，不授实际装载或提速。
+
+355 [运行期后见](evidence/2026-11-03-http-view-replay-later-runtime-instrumentation.json)仅Root批准最小tuple：同host/loader/delegate、0STOP/新host，Runtime一次GET触发官方instrumentation3.011s/触发HTTP4.9911858s，Root独核后来具名businessread；Ops未发新GET/JVM。分支调用、heapobject/thread身份、随后SAVE及速度均未证明；新增25ASCII执行token仍全部owner，不能倒授模型Java采用或改原软件切点。
+
+231 [三层represented frame薄接线](evidence/2026-11-03-http-three-level-frame-chain-raw-wiring.json)25whole102479/msg106177，两STOP/峰2仅14.958280s；1906R1整类raw0owner但强wiring/signature提示，counter层级/RET地址错无oracle。Owner203原ins四oracle预POST，Test代码在两END后生成，旧mayrunning不冒并行；Native三首0/4scene61checks同RAM226→227→230，非旧绿重跑。2.9660879进程/172.777867 validation/856.997989已录freeze子窗与更早start/activeUNKNOWN分列，formal原pending，不授hardware/Native/natural业务。
+
+618 [上游FP薄接线与闭包准备](evidence/2026-11-03-http-upstream-reserve-fp-closure-preparation.json)原9562R1+两个modelR2hunk→8962/0ownerJava，修Normal return-guard与carrier identity合同，不说已发生内部状态故障。3POST/2stop+1auditlength整未读/峰2仅20.068936s；42whole不等继承闭包，首CP RED因owner漏祖声明及现binaryroot，same-source CP-only修绿，13节点finite preflight不能追填原prefix。Owner四console组/Test时序独列，formal/selectedJUnit原pending；2.8150591进程含首RED、1350.944748仅已知下界/activeNULL，不授Native172同次16+4、actualmapping或收益。
+
+209 [正式后见与owner用语纠正](evidence/2026-11-03-http-whole-caller-adapter-later-formal.json)批准1018B原样：5b8b397c两blob与validated raw等/0新编RUN，同原3methods非新增。原six retries措辞已在本独立后见明确maximum_attempts=6含首次，实际各1attempt/0retry，原6123B pending和modelpartial/输入gap不改。

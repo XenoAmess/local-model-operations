@@ -1,0 +1,140 @@
+{
+  "task_id": "ck3-root-contracts-charbuffer358",
+  "mode_id": "http-candidate",
+  "publication_approved_by": "/root",
+  "config_source": "local-model-operations/config/executor.json",
+  "config_sha256": "28315bd0353e2a75282a6a2844940c2286259fe17af72193ed8df54442e7ba70",
+  "actual_model": "qwen38-coder",
+  "source_files": 7,
+  "source_physical_bytes": 160076,
+  "scope": "One existing strict JSON parser method: remove intermediate String using an existing char-array overload after unchanged strict UTF8 decoder.",
+  "actual_requests": [
+    {
+      "role": "implementation",
+      "actual_request": {
+        "model": "qwen38-coder",
+        "max_tokens": 2300,
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "attempts": 1,
+      "usage": {
+        "prompt_tokens": 37460,
+        "completion_tokens": 1184,
+        "total_tokens": 38644
+      },
+      "TTFT_ms": 9750.96360000316,
+      "total_ms": 18775.743699996383,
+      "begin": "2026-11-02T21:31:17.849496+00:00",
+      "end": "2026-11-02T21:31:36.624984+00:00",
+      "cached_tokens": null
+    },
+    {
+      "role": "counter",
+      "actual_request": {
+        "model": "qwen38-coder",
+        "max_tokens": 2800,
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "attempts": 1,
+      "usage": {
+        "prompt_tokens": 37510,
+        "completion_tokens": 806,
+        "total_tokens": 38316
+      },
+      "TTFT_ms": 8613.394400003017,
+      "total_ms": 17239.828600009787,
+      "begin": "2026-11-02T21:31:17.850082+00:00",
+      "end": "2026-11-02T21:31:35.089796+00:00",
+      "cached_tokens": null
+    },
+    {
+      "role": "implementation-corrected",
+      "actual_request": {
+        "model": "qwen38-coder",
+        "max_tokens": 1800,
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "attempts": 1,
+      "usage": {
+        "prompt_tokens": 37457,
+        "completion_tokens": 235,
+        "total_tokens": 37692
+      },
+      "TTFT_ms": 947.177299996838,
+      "total_ms": 2353.139300001203,
+      "begin": "2026-11-02T21:32:34.512566+00:00",
+      "end": "2026-11-02T21:32:36.865671+00:00",
+      "cached_tokens": null
+    }
+  ],
+  "adoption": "First implementation whole rejected. Owner wording no new APIs was ambiguous; counter relied on it and also invented recycler-ownership constraints despite supplied overload source. One corrected guided implementation returned one exact hunk, adopted with only original CRLF projection; no owner executable fix. No third implementation.",
+  "preparation": "Read project producer/consumer declarations and official dependency exact-version sources. First jar selector assumed basename lacked Quarkus group prefix; corrected without altering classpath. One inline-shell read command quote failure and one LF/CRLF locator refusal preceded materialization; no JVM or business action was dispatched by those failures.",
+  "validation": {
+    "production_first_TU": "PASS",
+    "independent_new_Test_first_TU": "PASS",
+    "unique_new_methods": 3,
+    "passed": 3,
+    "old_suite_reruns": 0,
+    "process_seconds": [
+      2.3928774000087287,
+      1.838102900001104,
+      2.3629419000062626
+    ],
+    "compiled_existing_family_count": 2,
+    "scope": "Independent original oracle before candidate; finite numeric/Unicode references, malformed UTF8/token failure order, byte/depth/alias checks; same field/method descriptor/flags including existing lambda/enum helpers."
+  },
+  "owner_cost": {
+    "observed_POST_to_last_JUnit_wall_seconds": "625.133172",
+    "owner_active_seconds": null,
+    "net_preparation_or_review_saving": "NOT_ESTABLISHED",
+    "limits": "Wall includes concurrent owner work, coordination and genuine business resource windows; not active labor or CPU. Do not subtract process time from wall as preparation savings."
+  },
+  "runtime": "Not adopted. Actual compatible instrumentation/index and game performance require separate owner evidence. Avoiding copies is not proof of smaller retained heap or faster real play.",
+  "raw_material": "Execution machine only; no raw prompts, responses, game originals or private source authorized for public copy.",
+  "next_real_question": "At a naturally necessary adoption boundary, qualify the dependency index and measure real end-to-end saved-day cost without removing strict checks."
+}
