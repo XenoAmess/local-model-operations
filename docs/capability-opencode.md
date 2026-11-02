@@ -80,3 +80,7 @@ Civ6本批5个真实源码／诊断任务使用普通三消息HTTP，经共享CL
 [OC-SINGLE-BINDER-EDIT-298](evidence/2026-11-02-opencode-single-binder-edit.json)是真实缺失薄binding，不是旧失败题补成功。1.19.5新原生会话允许workspace glob/grep、exact读与唯一leaf write/edit；与上例305禁止glob/grep的配置不同，4次已许可glob不能算越权。每响应8000/单HTTP180s，总steps/POST/wall无封顶；配置/允许操作不证明负权限或OS隔离。首CLI11POST、9read4glob1write后stop/0，却只有2732B坏稿并虚承诺再写；owner整拒，未编。
 
 同实际session一次纠正6POST，工具顺序read→write→read→edit→read已真实发生，仍自edit成错误限定API型；owner仅一个类型限定修后partialselected，0R3/whole raw信用。独立9份captured before/after pins一致，launcher after自比flag已撤，不用于完整性证明。两CLI45.415948s对首BEGIN→末END317.443300s（gap272.027352）、sourceowner PREP240.297422s分列，fulltask/activeunknown；0净收益或与HTTP比速。此unit只授工具执行/源选择证据；必要软件与formal后到另附，0Native权限/Game/旧green或自主编测信用，仅许可portable正文公开。
+
+后到 [OC-SINGLE-BINDER-EDIT-298-SOFTWARE](evidence/2026-11-02-opencode-single-binder-edit-software.json)：R2 raw5669B仅owner限定类型+24B→5693B，partial等级不变；10130B全owner四Test仅新adapter候选盲，成熟lower/contract已知，不冒wholeblind。首prod0；Test首编缺两个既有binary根真红/0JUnit，180→182 CP-only修复已核其它argfile行及原优先序不变，source/期待0改，必要retry编0→首次4P，非重复旧绿。原JBoss警告保。
+
+四process4.644404s对568.988033s首prod→JUnitEND，PREP240.297422/REVIEW418.222083与更早发现/activeunknown分层；Native preflight quoting、owner封包slash字串断言、Ops漏固定reader空命令结果均属准备成本，不归模型/源码。原portable冻结逐byte不改、formal pending另见，0新HTTP/编测或Native/全ABI/Game/SAVE/净提速。
