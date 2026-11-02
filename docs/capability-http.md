@@ -1160,3 +1160,6 @@ Root charbuffer358 [批准5375B正文](evidence/2026-11-03-http-strict-charbuffe
 
 
 231 [正式后见](evidence/2026-11-03-http-three-level-frame-chain-later-formal.json)d6f9771d，source owner独立gitshow prod1906/Test33627共35533B raw/formal/EOF全等。强提示R1 raw接线/ownerTest、原4scene61checks同一软件tuple，不新增case或升级counter/oracle；0新HTTP/编RUN，原4171B source/software pending/时序/成本保，0实际装载、Native/Game或速度信用。
+
+
+M1 G2 resize358 [exact inner分支nested allocator接线](evidence/2026-11-03-http-nested-allocator-inner-branch-integration.json)区别Root charbuffer358，批准6891B正文已含87dfb0d3正式后见。23whole63743/msg69534each，两个STOP/0retry/峰2仅9.374949s，唯一1→2line guided edit原样选/0owner执行修；counter仅bounded source corroboration，safe inner-scope正确而REJECT指旧缺接线，非新阻断/非全错。Owner新2methods实际改binder→成熟parent+allocator，matched两size/fresh间接输入、四outer mismatch保持原Call无memory、五return/saved-state corruption有限；1newprod与Test+必要旧168support首次0/2P，旧methods0RUN/成熟算法0重编。3.5516015进程/37.057584协调gap/1015.780392 POST→JVM子窗/activeNULL与原234B JBoss ERROR措辞保；3helper声明owner后补不追授输入，原NOT_STARTED/交付cutoff不回填，不授wholehigherconsumer/Native/Game/速度。
