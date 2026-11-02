@@ -1,0 +1,223 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-CONSTRUCTOR-AUDIT-RETRY-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "original_owner_delivery_UTC": "2026-11-02T04:10:06.250712+00:00",
+  "later_owner_analysis_review_UTC": "2026-11-02T04:11:33.436057+00:00",
+  "operator_review_UTC": "2026-11-02T04:15:15.799606+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Audit an existing constructor-overload callback and seek bounded compatibility counterexamples after owner implementation and first strict compilation; not independent new architecture/code discovery.",
+  "input": {
+    "complete_declared_items": 11,
+    "physical_UTF8_bytes": 533606,
+    "integrity": "All frozen whole-source digests/full decoded text matched each actual REQUEST. Eight wire keys, current system/user/user, temperature0, thinkingfalse, JSON object, SSE usage.",
+    "scope": "Actual target/context/interface/caller declarations and owner-selected candidate. Bounded static constructor analysis, not a complete dynamic/transitive authority proof."
+  },
+  "roles": [
+    {
+      "role": "constructor-audit",
+      "max_tokens": 1400,
+      "REQUEST_digest": {
+        "bytes": 542975,
+        "sha256": "5612c5b6d7dd66f3b83248c78c56c2fbb7aa16987f0c7ad420ebeab5088d4975"
+      },
+      "EVENTS_digest": {
+        "bytes": 4993,
+        "sha256": "8f600bc247ce181adf212ef774886a254a475cb6096c13aa0cbd037fbd738226"
+      },
+      "complete_input_items": 11,
+      "physical_input_UTF8_bytes": 533606,
+      "source_message_UTF8_bytes": 532148,
+      "actual_transport_attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-02T04:05:19.157583+00:00",
+          "END_UTC": "2026-11-02T04:05:44.632980+00:00",
+          "HTTP_status": 200,
+          "content_TTFT_seconds": 25.014812400004303,
+          "reported_HTTP_seconds": 25.475297100005264,
+          "finish_reason": null,
+          "failure": "connection_reset10054",
+          "usage": null,
+          "cached_tokens": null,
+          "CONTENT_digest": {
+            "bytes": 1,
+            "sha256": "021fb596db81e6d02bf3d2586ee3981fe519f275c0ac9ca76bbcf2ebb4097d96"
+          },
+          "content_review": "Incomplete reset stream wholly discarded, no extraction"
+        },
+        {
+          "attempt": 2,
+          "POST_BEGIN_UTC": "2026-11-02T04:05:54.655973+00:00",
+          "END_UTC": "2026-11-02T04:06:02.912639+00:00",
+          "HTTP_status": 200,
+          "content_TTFT_seconds": 1.3561046000031638,
+          "reported_HTTP_seconds": 8.256654000004346,
+          "finish_reason": "stop",
+          "failure": null,
+          "usage": {
+            "prompt_tokens": 103279,
+            "completion_tokens": 864,
+            "total_tokens": 104143
+          },
+          "cached_tokens": null,
+          "CONTENT_digest": {
+            "bytes": 4083,
+            "sha256": "1e124bac20f07e7eee8047eeb3e72966d4e913c6cdc8950ea54462fc56579c2b"
+          },
+          "content_review": "Complete static observations owner reviewed"
+        }
+      ],
+      "actual_backoff_END1_to_BEGIN2_seconds": 10.022993
+    },
+    {
+      "role": "compatibility-correction",
+      "max_tokens": 1600,
+      "REQUEST_digest": {
+        "bytes": 542957,
+        "sha256": "4bfead0dd0db1a942b5ded171590532834bb2d2d3048e7e0b0d0843e680e9a75"
+      },
+      "EVENTS_digest": {
+        "bytes": 4251,
+        "sha256": "de3bd208c92988669b0d3b27e474df9055864e765db6e5e5c52ae927d0ec4d8c"
+      },
+      "complete_input_items": 11,
+      "physical_input_UTF8_bytes": 533606,
+      "source_message_UTF8_bytes": 532148,
+      "actual_transport_attempts": [
+        {
+          "attempt": 1,
+          "POST_BEGIN_UTC": "2026-11-02T04:05:19.156850+00:00",
+          "END_UTC": "2026-11-02T04:05:44.633345+00:00",
+          "HTTP_status": null,
+          "content_TTFT_seconds": null,
+          "reported_HTTP_seconds": 25.476460300000326,
+          "finish_reason": null,
+          "failure": "connection_reset10054",
+          "usage": null,
+          "cached_tokens": null,
+          "CONTENT_digest": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "content_review": "Incomplete reset stream wholly discarded, no extraction"
+        },
+        {
+          "attempt": 2,
+          "POST_BEGIN_UTC": "2026-11-02T04:05:54.726301+00:00",
+          "END_UTC": "2026-11-02T04:06:07.669226+00:00",
+          "HTTP_status": 200,
+          "content_TTFT_seconds": 1.502167599996028,
+          "reported_HTTP_seconds": 12.942830399995728,
+          "finish_reason": "length",
+          "failure": "finish_reason_length",
+          "usage": {
+            "prompt_tokens": 103283,
+            "completion_tokens": 1600,
+            "total_tokens": 104883
+          },
+          "cached_tokens": null,
+          "CONTENT_digest": {
+            "bytes": 7240,
+            "sha256": "82786347399e6761179203e34ca8e1815108e6d6f8c74692d5c68eb4dae870ac"
+          },
+          "content_review": "Length body not decoded/read; wholly discarded"
+        }
+      ],
+      "actual_backoff_END1_to_BEGIN2_seconds": 10.092956
+    }
+  ],
+  "transport": {
+    "logical_tasks": 2,
+    "semantic_rounds_each": 1,
+    "actual_POSTs": 4,
+    "ENDs": 4,
+    "connection_reset10054_attempts": 2,
+    "automatic_whole_request_retries": 2,
+    "complete_stop": 1,
+    "length": 1,
+    "retry_scope": "Canonical caller retried each saved complete REQUEST once after configured backoff. No semantic R2, concatenated partial, new task quota or downstream business replay.",
+    "client_peak": 2,
+    "peak_spans": [
+      {
+        "BEGIN_UTC": "2026-11-02T04:05:19.157583+00:00",
+        "END_UTC": "2026-11-02T04:05:44.632980+00:00",
+        "seconds": 25.475397
+      },
+      {
+        "BEGIN_UTC": "2026-11-02T04:05:54.726301+00:00",
+        "END_UTC": "2026-11-02T04:06:02.912639+00:00",
+        "seconds": 8.186338
+      }
+    ],
+    "peak_cumulative_seconds": 33.661735,
+    "HTTP_union_seconds": 38.489748,
+    "reported_attempt_HTTP_sum_seconds": 72.15124180000566,
+    "logical_wave_first_POST_to_last_END_wall_seconds": 48.512376,
+    "service_running_waiting_KV": null,
+    "service_or_cache_root_cause": null,
+    "target12_16_claimed_achieved": false
+  },
+  "analysis_adoption": {
+    "constructor_audit": "Retry2 complete stop864 tokens supports the supplied six-argument overload, checked callback signature, bound same-context authority, borrowed writer invocation and error propagation. Static source support only; line/catch prose is not execution or complete closure proof.",
+    "compatibility": "First attempt reset without headers/content; retry2 length1600 wholly discarded without fragment adoption. No third request.",
+    "code_adoption": 0,
+    "owner_causality": "Owner selected/wrote the complete source and first strict succeeded before both initial POSTs. Static audit is not retroactive model implementation credit."
+  },
+  "owner_software": {
+    "first_compile_BEGIN_UTC": "2026-11-02T04:03:45.838313+00:00",
+    "first_compile_END_UTC": "2026-11-02T04:03:48.287671+00:00",
+    "changed_TU": 1,
+    "reported_process_seconds": 2.4493667999995523,
+    "exit_code": 0,
+    "Test_RUN": null,
+    "compiled_runtime_source_digest": {
+      "bytes": 42708,
+      "sha256": "1ef9dbe995c5f45662e6893d9f11d0b6cbf112fe7a598eebb3bddd543bba6d57"
+    },
+    "formal_commit": "06d5c9ae56f28bc4839a524fcf39def66a527b49",
+    "formal_publication_observed_UTC": "2026-11-02T04:07:08.358462+00:00",
+    "formal_whole_blob_equal_to_compiled_runtime_source": false,
+    "formal_projection": "Only the constructor literal ported into formal. An already-published disjoint signed classifier absent from the runtime baseline remains preserved in formal; compiled runtime source and formal whole file remain separately qualified.",
+    "scope": "Source/first strict/formal only. Previously settled durable action predates this fix; no replay or retrospective settlement credit. Later loop/save/performance remains unknown."
+  },
+  "clock_accounting": {
+    "actual_model_attempt_intervals": "Listed per role/attempt above; reported elapsed sums and wave envelope separate",
+    "complete_owner_task_wall_seconds": null,
+    "active_owner_preparation_review_seconds": null,
+    "net_owner_saving_seconds": null,
+    "preparation_errors": "Initial filename glob too broad/truncated and one guessed absent filename; owner then read exact complete source before POST. No whole source audit inferred from truncated lookup, no measured active time or service latency attribution."
+  },
+  "frozen_metadata": "Original delivery pending-model text retained; actual ENDs and later review are separate evidence. Raw first-attempt resets, final length and source/strict cutoffs are not replaced by later success.",
+  "private_evidence_digests": {
+    "owner_model_review": {
+      "bytes": 7210,
+      "sha256": "49b4d4200b6e94eab2de3b07e5d36041defee131af9ae377cf4f22723386f4b2"
+    },
+    "owner_delivery": {
+      "bytes": 8717,
+      "sha256": "d8927dfedd083d4b6c09cf197f18a85f98ebb4e2ca178a27e366bf5ba0030f5f"
+    },
+    "input_manifest": {
+      "bytes": 5526,
+      "sha256": "972b93f442a7b9b0787950eab7b64b4eb06a87fecbeaff4f0ef3b9801be89a42"
+    },
+    "first_compile_actual": {
+      "bytes": 56176,
+      "sha256": "68a81263b0ee6ae7ba3005ca317f60eac8a9034480f0db7586d33fa580d0b93f"
+    },
+    "formal_publication": {
+      "bytes": 801,
+      "sha256": "718da10d834b321b487f45e201de6eccf4644eb6263f7275cf9cb2304e02e6b9"
+    },
+    "formal_staged": {
+      "bytes": 11311,
+      "sha256": "5eab0131099303ae258ec6fabe73e8b8f11a5bec2bde75bc4eb341b9f29c185d"
+    }
+  },
+  "limits": "Simultaneous reset observations do not establish service overload or cache behavior. Retry TTFT, static support, compiler and formal source are distinct from new model code, actual runtime loading, Native/Game/permission, saved days or net owner benefit. HTTP and OpenCode continue separately.",
+  "next_real_trigger": "A genuinely new bounded source issue or later real runtime receipt; preserve correct existing baseline/formal differences. Do not replay closed audits/actions or the closed native-tool loop for a success quota.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}

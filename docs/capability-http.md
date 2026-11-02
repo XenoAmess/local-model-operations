@@ -349,3 +349,9 @@ owner在候选编译前发现旧binary缺当前API getter，0candidate/Test STAR
 6个真实未完成任务，经共享每日维护缓存后发出6 POST，全部200/stop/DONE/JSON对象、0重试；实际峰2，两个独立峰值区间与持续时间见[逐项回执](evidence/2026-11-02-civ6-missionary-delivery.json)。137目标谓词和139严格journal校验整方法原样采用；138 Core快照加owner必需成员检查后部分采用。140整方法因跨上下文API、调用位置、身份与基线错误整拒，owner全部重写；141测试在Controller前预先Prepare，实际没有触发待验的授权后突变，owner换为内部hook并核调用次数。142只读诊断需修正虚构leader getter及nil guard后部分采用，实机读取通过。
 
 正式source43已[发布](https://github.com/XenoAmess/civ6_dev/commit/437030cfdf93a85e64b1c3955c45dab91b3e00fd)，354项软件检查通过；不授全功能实机或模型自主实现。原生42的真实手动传播暴露强制托管缺口；43当前测试创建的新传教士有4移动力且原生允许传播，但IsReadyToMovefalse，2410次真实回调0后台命令，先保存重载区分Debug初始化。此冻结点自动传播、手动guard、未知意图冷重启仍待验证。原始候选与后到游戏结果分列，准备/纠错/净节省未知；OpenCode本轮只维护，未新增native生成。下一项继续实际43效果，不重跑已绿软件配额。
+
+## 后到：同波reset后的完整请求重试与静态审计
+
+[HTTP-CONSTRUCTOR-AUDIT-RETRY-001](evidence/2026-11-02-http-constructor-audit-retry.json)为owner已实现/首strict后的两项真实ctor审/兼容反证。各11完整源533606B；两首attempt同10054 reset，一份只有1B内容、另一份无headers/content，全部丢弃。canonical调用器按约10s退避各重发原完整REQUEST，2任务/4POST/2传输retry，非语义R2或业务重放。审计retry完整stop864tokens，仅支持已供6arg/callback/context/lifetime/error源码；兼容retry length1600整弃0片段/无第三次。cached均null，短retry TTFT不能反推缓存，reset也不证明过载。
+
+首1TU2.449367s在两任务POST前已通过，源码0模型采用；正式06d5c9ae只应用constructor literal并保留formal已有的disjoint classifier，编译runtime source与formal整叶不冒全字节相同。实际客户端峰2累计33.661735s，波wall48.512376s与attempt和另列；准备过宽glob/不存在文件名及主动审阅未计时，unknown保。旧动作已先结算，不追授本修或后到审稿新LOOP/SAVE/权限/性能，旧pending原件保留。
