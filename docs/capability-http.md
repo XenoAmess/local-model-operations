@@ -1135,3 +1135,8 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 353 [独立Test正式后见](evidence/2026-11-03-http-normalization-Test-later-formal.json)d2a74c2e仅newTest16864/1deb raw/formal/EOF等，0新编验/方法/模型，原3481B pending与3P/有限26向量结果/未知成本保。
 
 334 [恢复值及实际pre-Intent使用](evidence/2026-11-03-reload-advisory-restored-value-at-use-later.json)仅追加owner批准Runtime tuple：新controller hint恢复、typed tail与独立reservefloor分列，新batch零attempt/Intent/SAVE且preIntent defer后自动nextbatch。两个私有输入候选行实际typed同值，精确55还是56仍UNKNOWN；无新JVM/HTTP/随后SAVE或速度声明，不倒改原软件/正式切点。
+
+
+357 [正式后见](evidence/2026-11-03-http-normal-state-supplier-later-formal.json)仅原样追加owner批准412B tuple：3bff8fc0正常push/remoteexact，0新编验/运行或速度信用，原3134B正文pending与owner producer重构/薄binding采用边界保。
+
+230 [正式后见](evidence/2026-11-03-http-indexed-frame-later-formal.json)68d8f73d，source owner独立gitshow两prod+1newTest共75505B全部raw/formal/EOF等；owner全core13035、model rawbinder2099、ownerTest60371分列。0新增HTTP/Java/RUN，原5934B pending与core length/whole拒、有限10scene123checks、完整taskstart/activeUNKNOWN不回填；不授运行装载或收益。
