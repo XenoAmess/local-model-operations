@@ -1,0 +1,81 @@
+{
+  "schema": "local-model-operations.mode-case-annex/v1",
+  "case_id": "HTTP-CONSTRUCTOR-AUDIT-RETRY-001",
+  "mode_id": "http-candidate",
+  "annex": "SELECTED_OVERLOAD_AND_CALLBACK_ROUTE_CORRECTION",
+  "operator_review_UTC": "2026-11-02T06:04:41.240340+00:00",
+  "original_public_case": "2026-11-02-http-constructor-audit-retry.json",
+  "original_public_case_digest": {
+    "bytes": 10372,
+    "sha256": "6e30479bfac7093dd8a0b969b23ef3febbc048341ccd3ba8a7bce0b42e140f75"
+  },
+  "original_public_case_bytes_preserved": true,
+  "correction": {
+    "withdrawn_support": "The earlier public record treated the complete constructor-audit response as static support for installing the required reconciliation callback. That critical overload/Optional-population claim was wrong. Owner implementation review, sole publication review and Ops source-grading all missed the fifth argument static type and applicable void callback overload.",
+    "actual_source": "The supplied fifth argument is a live executable-binding catalogue. Its six-argument constructor takes a void terminal callback. The six-argument reconciliation constructor instead takes a list snapshot, so it was not applicable to this call. A method-invocation expression lambda can discard its returned Complete value; successful compilation does not establish the intended result-bearing callback route.",
+    "class_metadata": "Existing frozen first-compile class constructor methodref and lambda interface descriptor identify the catalogue plus void-terminal overload. Reconciliation guard remains empty in that route. Metadata parsed previously by source owner as data, without javap or JVM; Ops verified exact class digest and the quoted descriptor presence/absence, not a new loaded-process probe.",
+    "not_a_historical_input_gap": "Both original actual requests contained all eleven complete inputs, including the complete40907B verifier,29240B context, actual baseline and candidate. Those direct declarations were already supplied; later owner source reads do not retroactively invent a missing-caller excuse.",
+    "not_model_code_adoption": "Original code adoption remains0. Owner source was selected/compiled before model requests; model complete audit incorrectly supported it. This is a substantive analysis/owner/QA failure, not a new implementation adoption or transport failure."
+  },
+  "unchanged_evidence": {
+    "original_POSTs": 4,
+    "original_transport_retries": 2,
+    "original_complete_stop": 1,
+    "original_length": 1,
+    "original_code_adoption": 0,
+    "first_compile_process_seconds": 2.4493667999995523,
+    "formal_commit": "06d5c9ae56f28bc4839a524fcf39def66a527b49",
+    "scope": "Historical REQUEST/reset/stop/length, owner raw source, first strict0, formal publication and all cost cutoffs remain true. Withdraw only their implied intended callback-routing qualification; no historical runtime success or new validation is invented."
+  },
+  "existing_runtime_context": {
+    "failure_artifact_digest": {
+      "bytes": 1326,
+      "sha256": "8154d31baa41bd018fd5aa8c9bef551c1f31bca9c287d47326f7c792e0d6e6ef"
+    },
+    "source_supported_literal": "Existing downstream error is consistent with empty result-bearing reconciliation guards, rather than evidence that the context had no binding at all.",
+    "limits": "The frozen first-compile class and existing stderr are named artifacts, not a new actual process query. Runtime owns first-origin mapping, new correction adoption and real recovery/SAVE results; this annex grants none."
+  },
+  "next_source_boundary": "An explicit typed named factory or genuine fully bound provider must preserve the actual live catalogue and all required guard roles. A list snapshot, broad cast or fabricated fallback callback is not an equivalent repair. New named-factory implementation/first compile/runtime receipts belong to their own later unit and are not claimed here.",
+  "owner_cost": {
+    "active_review_correction_seconds": null,
+    "full_error_to_resolution_wall_seconds": null,
+    "preparation_errors": "Initial source-owner spaced rg literal was misparsed and produced broad/truncated output; bounded regex and exact file navigation corrected it. Guessed package lookup missed. During this Ops correction a guessed parameter spelling assertion stopped before public writes; exact held declarations then confirmed actualCatalogue overload types. No production/JVM/Game action from these source inspections. Preserve owner/sole-writer/Ops missed-overload cost rather than attributing everything to the model.",
+    "net_benefit_seconds": null
+  },
+  "reusable_review_rule": "For overloaded functional-interface constructors/calls, resolve every actual argument static type and exact SAM return role. In particular, method-invocation expression lambdas may silently discard a result when targeting void. Read the applicable constructor body and callback field, and use already held class descriptors when available; source spelling, a returned expression and compile0 alone do not establish intended wiring. Do not launch a new business probe or weaken a live catalogue contract merely to obtain a green check.",
+  "private_evidence_digests": {
+    "source_owner_erratum": {
+      "bytes": 7432,
+      "sha256": "b8ee783937e5cf5b50556aca027008b4bdd91f6a86f400df75517e1e8f3d2dbf"
+    },
+    "writer_erratum": {
+      "bytes": 692,
+      "sha256": "998458ebbddcbaaa06554c6964bf8b21eaf6ace527d700191c4d8191bd6c1d42"
+    },
+    "writer_source_review": {
+      "bytes": 4139,
+      "sha256": "0f5b7c3c81b9f5397b9336953a8d95acf2d624fc5e500b6687e32b576ec6594a"
+    },
+    "existing_first_class": {
+      "bytes": 75336,
+      "sha256": "8e0705ad758d4c8311d17968e38cb3e8a4133bc7ddcdf685320f641cf1d1721e"
+    },
+    "original_input_manifest": {
+      "bytes": 5526,
+      "sha256": "972b93f442a7b9b0787950eab7b64b4eb06a87fecbeaff4f0ef3b9801be89a42"
+    },
+    "original_complete_audit": {
+      "bytes": 4083,
+      "sha256": "1e124bac20f07e7eee8047eeb3e72966d4e913c6cdc8950ea54462fc56579c2b"
+    },
+    "full_verifier_supplied": {
+      "bytes": 40907,
+      "sha256": "4a6efa567382b9cdd3f03a729de95ef14a8258332c2400c63b08d9927ffb118a"
+    },
+    "full_context_supplied": {
+      "bytes": 29240,
+      "sha256": "a274ce6ddcaee756e033aecc545ddfb167ad7ee33135ea5f58e3a0c5f2a54dd2"
+    }
+  },
+  "new_HTTP_JVM_Game_or_replay_actions": 0
+}

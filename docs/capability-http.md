@@ -356,6 +356,8 @@ owner在候选编译前发现旧binary缺当前API getter，0candidate/Test STAR
 
 首1TU2.449367s在两任务POST前已通过，源码0模型采用；正式06d5c9ae只应用constructor literal并保留formal已有的disjoint classifier，编译runtime source与formal整叶不冒全字节相同。实际客户端峰2累计33.661735s，波wall48.512376s与attempt和另列；准备过宽glob/不存在文件名及主动审阅未计时，unknown保。旧动作已先结算，不追授本修或后到审稿新LOOP/SAVE/权限/性能，旧pending原件保留。
 
+后到更正：[重载勘误](evidence/2026-11-02-http-constructor-overload-erratum.json)撤回上段“恢复callback已接入”的静态支持。实际catalogue第五实参选Terminal void重载，lambda的Complete返回被丢弃；所需Reconciliation重载第五实参是List，根本不是此调用。旧class descriptor已实证，不新增JVM；原11完整输入本含Verifier/Context声明，不能补称缺caller。owner、模型审稿、正式审和Ops均漏核此角色；首strict/formal仍真但不证明接线，0代码采用不变。原冻结JSON不改；新typed factory/运行另记，不授已恢复。
+
 ## 后到：显式view窄hunk与owner reason映射首红
 
 [HTTP-EXPLICIT-PLANNING-VIEW-001](evidence/2026-11-02-http-explicit-planning-view.json)producer R2三条literal模型hunk在原newline投影后精确应用，0owner Java；逆回两文件与baseline逐字一致。R1只因未满足原single/coherentview设计约束未选，不把其两view行为无证判为frame/Session错误。初50完整源572132B漏13实际intent资格callee是owner闭合成本，auditR2补63源，producer只晚审、不R3洗绿。两counteraudit完整稿均整体拒0partial。4POST4stop/0重试，预算6500/4500/4500/4500，峰2仅23.630272s。
