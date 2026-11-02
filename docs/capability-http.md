@@ -980,3 +980,7 @@ Owner whole5824与Test14983均ANYCONTENT前，oracle首POST前，八新FP-aware 
 [HTTP-PARTIAL-FP-EXACT-PRODUCT-UPPER-POSITIVE-COMPOSITION-611](evidence/2026-11-03-http-partial-fp-exact-product-positive-composition.json)39完整项120235物理/130911源码消息B，1800/1800两个stop、0retry/R2，峰2仅4.471084s。1059B exact-normal/zero predicate R1decodedraw/EOF精确、owner Java0，强shape/充分域提示保；audit只源正确约束确认/0新oracle，underflow泛词不当一般异常proof。3221B partial指令编排、先前608/609的5981/4410隔离投影及14557B Test属owner工作，原模型血缘不当新binding采用。
 
 Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append修等价合法表示，原freeze保且不归模型；whole五组fixture在POST/END后、首次owner读CONTENT前冻，不能冒生成前盲oracle。四prod/Test/RUN三首0、1.983595s过程对1311.040856s已录wall，准备256.439179s/gap6.851022s分列、更早/activeunknown。新upper正growth真实三opaque CALL组合软件闭，partial状态保留、unsupported为一次fresh读后的软件拒绝/raised0仅无新flags；不是Native/capturedMXCSR/完整算术域/硬件fault/Game或速度。正式在原软件cutoff pending保，0为Ops额外调用/旧绿。
+
+### 不可变 Driver 构造复用与独立 guided Test（321）
+
+[生产批准原文](evidence/2026-11-03-http-known-driver-constructor-reuse.md)记录强 owner 设计下两处 literal 原样采用；两份反审均 length 整弃，不能授审稿通过。静态编码次数减少不等于实速。独立 [Test 与后见勘误](evidence/2026-11-03-http-known-driver-guided-witness-later.json)记录四个真实 POST、新两方法首 2P：binding 实际只有一行有效 owner 断言修正，先前 JSON 转义误诊已撤回；encoding 唯一 R2 原方法采用但给了精确 owner 期待。准备/协调墙钟及 active unknown 分列，源码发表和 LOOP 不授该分支执行、SAVE 或收益。
