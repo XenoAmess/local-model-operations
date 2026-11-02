@@ -1261,3 +1261,6 @@ M7 next254 [批准最小formal后见](evidence/2026-11-03-http-nested-row-rebuil
 
 
 213 [批准948B正式后见](evidence/2026-11-03-http-initial-frame-stack-probe-later-formal.json)af81a6ee两newblob与validatedraw/EOF等，原1prod+1Test/3uniqueP复用，0newcompile/RUN。原4762正文与pending切点逐byte保；writer在stage前未去JUnit名尾括号的readerassert单独保，不算M5/compiler/Test红。无runtime或实速信用，214后到formal仍另回执，不能用本3P扩授其它caller。
+
+
+M0 CRT operand363 [indirect target先读后push修正](evidence/2026-11-03-http-crt-indirect-operand-read-order.json)批准3964B原样，与Root typed-reconstruction363及其M4验证不同scope。16wholeJava+2ASM51713physical/msg58040，两logical4actualPOST/各首reset10054半流弃后自动同REQUEST退避；implretry length6500全弃，reviewretry stop305 JSON坏且无具名反例，0modelcode/0independentapproval，无语义R3。Ownerwhole3existingclass opt-in保持旧callback，privateadapter fresh target读在continuation push前，outer forwarding/terminalresult identity保；原binary2counter37checks+selected4case125checks全首0/非JUnit/无旧绿重跑。4process4.0734848 vs标记611.272091/lastfirst521.511716/HTTPsum54.9966398、峰2仅10.775115s，早discovery/activeNULL；formal原未发表切点，无live/硬件/fullABI/实速信用。

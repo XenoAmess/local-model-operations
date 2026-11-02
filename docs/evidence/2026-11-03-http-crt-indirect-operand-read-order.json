@@ -1,0 +1,100 @@
+{
+  "schema": "local-model-operations/readonly-to-owned-operand-order-case/v1",
+  "scope": "Offline source repair and newly authored software counterexamples; ordinary fixed three-message HTTP. No native tool mode, live application, hardware or operating-system validation.",
+  "source_input": {
+    "whole_Java_files": 16,
+    "whole_assembly_files": 2,
+    "physical_full_source_bytes": 51713,
+    "actual_message_utf8_bytes": [
+      {
+        "role": "implementation",
+        "messages": [
+          {
+            "role": "system",
+            "utf8_bytes": 301
+          },
+          {
+            "role": "user",
+            "utf8_bytes": 58040
+          },
+          {
+            "role": "user",
+            "utf8_bytes": 505
+          }
+        ]
+      },
+      {
+        "role": "counter-review",
+        "messages": [
+          {
+            "role": "system",
+            "utf8_bytes": 301
+          },
+          {
+            "role": "user",
+            "utf8_bytes": 58040
+          },
+          {
+            "role": "user",
+            "utf8_bytes": 734
+          }
+        ]
+      }
+    ],
+    "owner_oracle_frozen_before_authoring_and_not_sent": true,
+    "exact_implementation_edits_requested": true
+  },
+  "transport": {
+    "logical_tasks": 2,
+    "actual_POSTs": 4,
+    "automatic_reset_retries": 2,
+    "first_attempts": "Both reset10054 after first content; no DONE/usage; partial content discarded before configured backoff/retry.",
+    "implementation_retry": {
+      "max_tokens": 6500,
+      "finish": "length",
+      "completion_tokens": 6500,
+      "adoption": "whole partial rejected, no code used"
+    },
+    "review_retry": {
+      "max_tokens": 5000,
+      "finish": "stop",
+      "completion_tokens": 305,
+      "adoption": "malformed incomplete JSON, no concrete named counterexample analysis; rejected"
+    },
+    "reported_cached_tokens": null,
+    "semantic_resubmission": false,
+    "client_peak_inflight": 2,
+    "at_least_two_inflight_seconds": 10.775115,
+    "no_server_concurrency_claim": true
+  },
+  "owner_resolution": "Three existing classes: explicit opt-in paired producer entry points retain old public callback behavior; private adapter freshly reads an indirect target before pushing its continuation. Unknown outer forwarding and terminal-tail result identity are retained. No new interface method or public type.",
+  "new_witness": "New literal test only: original actual binary confirms two counterexamples (37 checks); selected code passes four cases (125 checks), including alias, callback mutation, operand-read failure, legacy callback behavior and unchanged forwarding. Earlier write in the sequence is included in the expected target; the initial seed is not substituted.",
+  "model_code_adopted_bytes": 0,
+  "independent_model_approval": false,
+  "owner_implementation": "whole three-class patch and new witness",
+  "validation": {
+    "production_TUs": 3,
+    "new_manual_TUs": 1,
+    "first_processes_all_exit0": 4,
+    "old_sources_or_tests_recompiled": 0,
+    "JUnit_CI": false,
+    "process_seconds_sum": 4.07348479994107,
+    "heap_MiB_each": 192,
+    "active_processor_count": 1,
+    "self_one_allowed_CPU": true
+  },
+  "cost": {
+    "marked_wall_to_delivery_seconds": 611.272091,
+    "marked_wall_to_last_first_run_seconds": 521.511716,
+    "HTTP_attempt_seconds_sum": 54.99663980002515,
+    "new_witness_process_span_seconds": 39.192281,
+    "new_witness_between_process_gaps_seconds": 36.562471,
+    "owner_active_seconds": null,
+    "discovery_before_marker_seconds": null,
+    "interpretation": "Marked wall, retries, coordination/waiting and process totals are separate; gaps are not CPU time."
+  },
+  "formal_status_at_cutoff": "ready for sole reviewer, not yet published",
+  "runtime_adoption": false,
+  "performance_or_full_ABI_claim": false,
+  "privacy": "No source/assembly text, original request/answer, machine identity, private path, process identity or live state is included."
+}
