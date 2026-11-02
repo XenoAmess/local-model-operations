@@ -329,3 +329,9 @@ owner在候选编译前发现旧binary缺当前API getter，0candidate/Test STAR
 [HTTP-PARTIAL-CROSS-LANE-JOIN-001](evidence/2026-11-02-http-partial-cross-lane-join.json)由owner点名五处raw/signed边界，实际21完整源为15Java+6Native、243632B，加合同后message2为250214B；四REQUEST预算4000/2000/2800/4000，4stop/0重试，峰3仅32.538708s。producer两稿整体均拒，R2只三条正确callsite old/new逐条raw选用；helper、expected转换、execution-only组合和全Test均owner。独审/矩阵只接受局部事实，不授whole oracle或模型自主发现。
 
 首次3prod/Test严格编译通过；旧baseline新positive真实ContractViolation1E。candidate先3negativeP+owner正例JsonNode数字节点类型equals断言F，非模型/生产错误；仅四处Test比较改canonical bytes、期待值/三生产源不变，只重编Test并补跑失败positive五对身份1P，三个绿不重跑。四个不同方法各通过，不写一次4P。录得窗口2422.556048s并非完整起点（更早发现未计时），六进程和21.414992s/主动工时未知；两次业务cold之间空档与GO→START通知等待不冒CPU。软件cutoff正式pending保留；后到正式3af76092四源SHA/EOF一致，录得起点→发表观察2947.590378s仍非完整任务/主动工时，无新编验。未授私有许可、自然cause、运行恢复/保存或提速。
+
+## 后到：预先实现后的DATA反例审计与输入边界
+
+[HTTP-ARCHIVED-DATA-AUDIT-001](evidence/2026-11-02-http-archived-data-audit.json)是owner实现并首strict后才派发的真实manifest反例/档案源审，未要求Java实现。两REQUEST各37完整材料1300982B，预算2800/2200，1length整弃未读+1stop仅partial支持，0重试；峰2仅74.062085s。完整审稿仍误称历史tuple为current、倒置callback顺序并假称已供完整源码缺失，不授whole闭口或模型代码；源码/首1TU2.181166s与正式5c59e557均独立owner成果。
+
+后到owner从已有commit正本找到机器DATA路径字符串拼写不同：bytes/SHA/normalizedPath相同而exact string不同，初prefix未含Store/commitmeta，不能把这个漏因归为全链输入齐全下的模型失败。原strict Store/source保留，只涉及本机DATA核对，不授新QUERY/STATUS/SAVE/恢复或实速。准备路径/命令纠错和主动审阅未连续计时均unknown；HTTP和完整任务墙钟不混，旧pending字段原件保留，后到END/审阅与诊断分列。

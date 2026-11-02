@@ -1,0 +1,178 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-ARCHIVED-DATA-AUDIT-001",
+  "mode_id": "http-candidate",
+  "task_class": "bounded_source_counterexamples_and_archive_audit",
+  "observation_date": "2026-11-02",
+  "original_delivery_cutoff_UTC": "2026-11-02T03:48:35.091258+00:00",
+  "later_owner_analysis_review_UTC": "2026-11-02T03:50:06.972853+00:00",
+  "operator_review_UTC": "2026-11-02T03:59:58.235499+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Counterexample generation for a bounded machine-local DATA manifest and source audit of archive bindings, after owner implementation and first compilation already existed. No Java implementation requested.",
+  "input": {
+    "complete_declared_items": 37,
+    "physical_UTF8_bytes": 1300982,
+    "integrity": "Frozen whole-file digests and full decoded texts matched both actual REQUEST source messages. Eight wire keys, current system/user/user, temperature0, thinkingfalse, JSON object and SSE usage.",
+    "source_scope": "Current reader, supplied coordinator/readiness/archive declarations and actual small DATA. Candidate was owner selected and visible. Item completeness is not a recursive whole-pipeline closure claim.",
+    "later_input_limit": "The immutable artifact-store implementation and original commit metadata were not included initially. A later exact-reference spelling boundary was outside those model inputs; failure to locate that later cause is not scored as a complete-input model miss."
+  },
+  "calls": [
+    {
+      "role": "manifest-counterexamples",
+      "task_class": "source_counterexample_or_audit_not_implementation",
+      "POST_BEGIN_UTC": "2026-11-02T03:47:13.036492+00:00",
+      "END_UTC": "2026-11-02T03:48:37.577259+00:00",
+      "max_tokens": 2800,
+      "complete_input_items": 37,
+      "physical_input_UTF8_bytes": 1300982,
+      "source_message_UTF8_bytes": 1299536,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 67.6682581999994,
+      "reported_HTTP_seconds": 84.54085540000233,
+      "usage": {
+        "prompt_tokens": 260455,
+        "completion_tokens": 2800,
+        "total_tokens": 263255
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 1326977,
+        "sha256": "ff22091da6314ebfc630c90a9ace5e6439aa6908470a1c78dfc5b02ccb3c4e65"
+      },
+      "EVENTS_digest": {
+        "bytes": 2296,
+        "sha256": "d6353e29704c8fd4b021f9fa6b5e36951a82c775966d006a93c16d6345fbf206"
+      },
+      "CONTENT_digest": {
+        "bytes": 12033,
+        "sha256": "5cbe6811201874a2c1a980d1ba53c3e5fd6fb7a7ee7754a0a63143b8df17dc9c"
+      },
+      "content_scope": "Length counterexamples not opened by operator; owner reports whole unread/discarded, no extraction"
+    },
+    {
+      "role": "archive-source-audit",
+      "task_class": "source_counterexample_or_audit_not_implementation",
+      "POST_BEGIN_UTC": "2026-11-02T03:47:13.036473+00:00",
+      "END_UTC": "2026-11-02T03:48:27.098577+00:00",
+      "max_tokens": 2200,
+      "complete_input_items": 37,
+      "physical_input_UTF8_bytes": 1300982,
+      "source_message_UTF8_bytes": 1299536,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 66.57988699999987,
+      "reported_HTTP_seconds": 74.06220010000106,
+      "usage": {
+        "prompt_tokens": 260442,
+        "completion_tokens": 778,
+        "total_tokens": 261220
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 1326982,
+        "sha256": "fe2b2f17287a2163339ef1792133ffcd92f328393631f852e35328b9a1a0327f"
+      },
+      "EVENTS_digest": {
+        "bytes": 2288,
+        "sha256": "0d158d3ffffd33641352e5f3c1958f703647bae9a1250c13980a730f27d18f12"
+      },
+      "CONTENT_digest": {
+        "bytes": 3614,
+        "sha256": "35b38f04ae8a52f80a9131dd699acd86f1c4f35a8940de89ade7af2fcbc1f1cc"
+      },
+      "content_scope": "Owner reviewed complete source analysis; partial support only, not whole approval"
+    }
+  ],
+  "transport": {
+    "actual_POSTs": 2,
+    "ENDs": 2,
+    "complete_stop": 1,
+    "length": 1,
+    "transport_retries": 0,
+    "client_peak": 2,
+    "peak_spans": [
+      {
+        "BEGIN_UTC": "2026-11-02T03:47:13.036492+00:00",
+        "END_UTC": "2026-11-02T03:48:27.098577+00:00",
+        "seconds": 74.062085
+      }
+    ],
+    "peak_cumulative_seconds": 74.062085,
+    "HTTP_union_seconds": 84.540786,
+    "reported_HTTP_sum_seconds": 158.6030555000034,
+    "service_running_waiting_KV": null,
+    "target12_16_claimed_achieved": false
+  },
+  "analysis_adoption": {
+    "manifest_counterexamples": "Length2800 output wholly discarded, no partial cases/code adopted, no concatenation or quota retry. This is output loss, not a complete semantic failure.",
+    "archive_audit": "Partial source support only; visible external locator/installed-contract checks supported, but no new concrete blocker or complete closure proof.",
+    "rejected_claims": "Treated a historical retained tuple as current permission, reversed a deferred callback-preserve/delegate ordering, and claimed supplied coordinator/readiness internals were unavailable. These claims were checked against provided source.",
+    "source_code_adopted": 0,
+    "attribution": "Both roles were analysis/counterexample tasks, not failed Java implementations. Owner complete source and first strict preceded both POSTs; zero retrospective model source credit."
+  },
+  "owner_source_software": {
+    "first_compile_BEGIN_UTC": "2026-11-02T03:44:43.414331+00:00",
+    "first_compile_END_UTC": "2026-11-02T03:44:45.595488+00:00",
+    "changed_TU": 1,
+    "reported_process_seconds": 2.181166400005168,
+    "exit_code": 0,
+    "source_changes_after_model_response": 0,
+    "Test_RUN_credit": null,
+    "formal_commit": "5c59e557759bd209303722c7a5dd7b28cea23413",
+    "formal_publication_observed_UTC": "2026-11-02T03:47:31.805016+00:00",
+    "raw_formal_source_digest_equal": true,
+    "scope": "Source/strict/formal only, independently owner authored/reviewed. No query, status, save or restored-game credit follows from these audit outputs."
+  },
+  "later_existing_evidence_annex": {
+    "observed_UTC": "2026-11-02T03:54:50.583724+00:00",
+    "bytes_equal": true,
+    "sha256_equal": true,
+    "normalized_path_same": true,
+    "exact_path_string_equal": false,
+    "finding": "One already-held canonical commit reference and machine DATA spelled the same normalized path differently. Owner identified the exact-string mismatch from existing originals; this is not a model discovery or missing receipt fabricated from a fresh query.",
+    "response_scope": "Existing strict store contract/source remained unchanged; only machine-local DATA correction owned by runtime was under review. No new Java/profile/Native query or successful recovery is asserted.",
+    "original_initial_input_unchanged": true,
+    "diagnostic_digest": {
+      "bytes": 1510,
+      "sha256": "33bf52bea092bc8622e7469a018c818357e04f5a64affada167d22f18139d475"
+    }
+  },
+  "clock_accounting": {
+    "owner_source_ready_UTC": "2026-11-02T03:42:36.349847+00:00",
+    "first_compile_process_seconds": 2.181166400005168,
+    "model_HTTP_intervals": "Actual POST_BEGIN/END listed separately above",
+    "complete_task_wall_seconds": null,
+    "active_owner_preparation_review_seconds": null,
+    "preparation_error_seconds": null,
+    "net_owner_saving_seconds": null,
+    "owner_preparation_errors": "A guessed source path, multiword command quoting and one wrong module path corrected before POST; no source/data mutation from those failures. Their unmeasured costs are not zero, and request/process sums do not measure active labor or total preparation."
+  },
+  "frozen_metadata": "Original delivery HTTP-pending state remains unchanged; actual ENDs and later analysis decision are separately traceable. No adopted/source fields backfilled into old transport or delivery records.",
+  "private_evidence_digests": {
+    "owner_model_review": {
+      "bytes": 5158,
+      "sha256": "f80715590a712099c018edea9359310427584623af5936b698d7358eb8763832"
+    },
+    "owner_delivery": {
+      "bytes": 7710,
+      "sha256": "3d5e50401f470b1da738ea7a07763869e10680076214055433569b71689908a3"
+    },
+    "input_manifest": {
+      "bytes": 17998,
+      "sha256": "dbedb93069a8b3c335a86567d3164bf1cafa4af39d24bef2c82feaea5a41290b"
+    },
+    "first_compile_actual": {
+      "bytes": 48679,
+      "sha256": "cf0b2b799aa30ccf6131897e421a75d08178ccd1e5a0e9238eb2b935a9028a11"
+    },
+    "formal_publication": {
+      "bytes": 804,
+      "sha256": "92a2a31abc1682a3c60df9ef2f54b722fbaa6da1ad77a7e350025a7ed69c0e67"
+    }
+  },
+  "limits": "Source-counterexample analysis, source adoption, strict compilation, formal publication and actual runtime are distinct. No backend/cache/congestion, permanent capacity, mode superiority, measured owner savings or restored business result is inferred.",
+  "next_real_trigger": "Only genuinely new source counterexamples with the needed actual declarations or an actual later runtime receipt. Inspect existing canonical originals first; no rerun of this closed analysis or the closed OpenCode loop for a success quota.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}
