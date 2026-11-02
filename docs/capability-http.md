@@ -556,3 +556,5 @@ audit reset半流未读整弃，第二完整泛事实partial、两个具体反�
 后见 [HTTP-MUTUAL-TRANSFER-NUMERIC-CONTRACT-001-FORMAL](evidence/2026-11-02-http-mutual-transfer-numeric-contract-formal.json)：正式`b6108633`，原冻结source/software pending记录逐byte不改。四owner Java1428/4861/3052/15892B raw/formal/EOF精等；原数制歧义/6POST两length整弃与4stop整拒、0code/oracle、9manual136checks范围不变。0新编RUN/HTTP/Native/Root/Game；不据后到formal追授模型采用或COPY/reverse/fullABI。
 
 后见 [HTTP-LOCAL-HISTORY-REUSE-001-FORMAL](evidence/2026-11-02-http-local-history-reuse-formal.json)：正式`f2639744`，原冻结source/software pending记录逐byte不改。13638B原窄生产叶与8457B全owner Test正式raw/EOF等；两model executing hunks原样、审REJECT错误/Journal length弃/必要Test全拒后owner4P等级不变。0新编RUN/HTTP/实载/SAVE或净速度归因，仍保28.410802s墙钟对5.550969s过程及早期activeunknown。
+
+后见 [HTTP-COMPLETE-HELPER-FROM-REJECTED-CLASS-001-FORMAL](evidence/2026-11-02-http-complete-helper-from-rejected-class-formal.json)：正式`1e620cce`，原冻结source/software pending记录逐byte不改。5219B整体与13979B Test原raw/formal/EOF精等；只完整R2内725B helper原码采用，wholeclass仍错拒/owner其余4494B与七Test分账。首7P、716.588344s墙钟/3.296798s过程/owner准备错误与activeunknown全保，0新编RUN/HTTP/加载或实速。
