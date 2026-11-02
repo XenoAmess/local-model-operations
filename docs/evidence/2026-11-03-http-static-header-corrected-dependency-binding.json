@@ -1,0 +1,74 @@
+{
+  "schema": "local-model-operations.portable-evidence/v1",
+  "mode_id": "ordinary-three-message-http-candidate",
+  "task": "A second exact caller binding to a corrected mature typed producer, with explicit budget and unknown native effects.",
+  "source": {
+    "complete_java_files": 8,
+    "complete_assembly_files": 2,
+    "physical_source_bytes": 25833,
+    "actual_source_message_utf8_bytes_each": [
+      29226,
+      29226
+    ],
+    "contract_included": true,
+    "hidden_oracle_before_authoring": true,
+    "new_witness_or_expected_trace_sent": false
+  },
+  "model": {
+    "actual_tasks": 2,
+    "actual_POSTs": 2,
+    "retries": 0,
+    "all_stop_and_SSE_DONE": true,
+    "max_tokens": [
+      2800,
+      3500
+    ],
+    "actual_prompt_tokens": [
+      9613,
+      9651
+    ],
+    "actual_completion_tokens": [
+      890,
+      2061
+    ],
+    "cached_tokens_reported": null,
+    "actual_scope_peak": 2,
+    "seconds_at_peak": 8.694433,
+    "HTTP_seconds_sum": 25.408409700001357
+  },
+  "adoption": {
+    "implementation": "Partial. Owner fixed one undeclared stack-slot identifier and passed the explicit opaque fallback instead of an unnecessary wrapper route. Raw never compiled, no R2.",
+    "independent_review": "Source-only partial: it retracted a false missing-budget claim and a target-address arithmetic objection after considering instruction length. These count as zero actionable defects, not security or candidate approval.",
+    "owner": "Used full actual declarations, kept the mature algorithm intact, and authored three new caller/frame/identity/failure cases from a hidden oracle. Generic fixture support reused; old cases not rerun."
+  },
+  "software": {
+    "new_production_TUs": 1,
+    "new_manual_TUs": 1,
+    "cases": 3,
+    "checks": 83,
+    "first_exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "old_source_or_case_recompile": 0,
+    "JUnit_CI_claim": false,
+    "native_or_current_runtime_claim": false
+  },
+  "cost": {
+    "phase_begin_utc": "2026-11-02T22:25:09.822471+00:00",
+    "last_RUN_end_utc": "2026-11-02T22:46:58.023453+00:00",
+    "marked_scope_wall_seconds": 1308.200982,
+    "discovery_preceded_marker": true,
+    "full_task_wall_seconds": null,
+    "owner_active_seconds": null,
+    "three_process_seconds_sum": 3.094033000001218,
+    "first_prod_BEGIN_to_last_RUN_END_wall_seconds": 750.970697,
+    "manual_compile_BEGIN_to_RUN_END_wall_seconds": 25.841594,
+    "manual_compile_END_to_RUN_BEGIN_coordination_wall_seconds": 23.760887,
+    "HTTP_seconds_sum": 25.408409700001357,
+    "cost_not_CPU_or_owner_labor": true
+  },
+  "lesson": "A clean transport result still needs lexical symbol and actual delegate checks. Self-retracted source objections are not actionable findings. Bind a specifically qualified corrected dependency; do not silently substitute an older class cache with the same API.",
+  "scope": "Only finite owned-memory software qualification. Formal publication pending at cutoff. No hardware race, full native ABI/custody, current runtime adoption or performance claim. Raw source, addresses, paths, requests, answers and oracle remain private."
+}
