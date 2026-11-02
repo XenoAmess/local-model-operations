@@ -271,3 +271,9 @@ marker→交付873.974879s、首compile→末Test84.505159s、三进程和4.3619
 HTTP-CIV6-ARMYINPUT134/CITYINPUT135/RELIGIONGAP136分别准备真实快捷键观察、城市控件验证和宗教自动化缺口。实际共享CLI三消息，预算3200/3000/3600；3 POST、135一份stop/JSON对象、134/136两份length整丢弃、0重试，客户端峰3/43.843055秒。两截断稿不归因具体语义错误，owner接管复杂观察及宗教编排；135既有分类参考，模型代码采用0。最终两个owner原生样本通过不追授模型独立验收能力。
 
 首个Delete输入没有native action，不是军队被拦截；实际库键码/扩展键差异属于owner夹具成本。修正后原生action、guard谓词、真实确认框和取消后的对象后态分别取证。实际9城市控件拒绝与可读详情页也有独立后态。[逐项结果及原发布反链](evidence/2026-11-02-civ6-input-acceptance.json)包含输入规模、TTFT/usage和未知owner成本；无OpenCode-native生成或效率结论。下一真实范围缩到已核API的宗教单位窄方法，owner保留跨上下文状态编排，不重投已绿输入样本。
+
+## 后到：窄basicblock/API原样采用与owner整体编排
+
+[HTTP-BASICBLOCK-API-001](evidence/2026-11-02-http-basicblock-api.json)实际执行新路由：五指令非正数block首R1完整3120B、pure API必要R2完整3906B均decoded Java逐字采用，owner未改Java/EOL/EOF；整体2967B控制流/状态编排仍由owner写。API R1虽stop但RVA/guard/声明作用域错整拒，独审也因stack/间接target/alias错误整体不采。4POST/4stop/0重试，首8份完整源、API纠正另加自身首答；峰3仅39.527330s，不把窄采用合算成whole算法或整体审可靠。
+
+owner五个有限用例先冻，首strict后RUN实红1来自owner把保存寄存器值误当当前值；仅一条预期literal按原源/独立seed纠正后再严格编译、RUN5通过，生产/API/block全未改，原红保留且无新POST。input freeze→最终RUN714.119838s、首次held读→RUN889.038229s，主动劳动及更早发现未知；机械decode .034651s不是全部准备。后到正式c576fdae另列，新wrapper首1P只包装这五个新case，不增加场景信用。虚callee、其余硬件ABI/EH/Game/性能仍未授；邻近不完整prefix保持未闭，不因本例成功补造能力。

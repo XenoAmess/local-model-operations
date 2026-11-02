@@ -1,0 +1,325 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-BASICBLOCK-API-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_software_cutoff_UTC": "2026-11-02T01:30:53.125184+00:00",
+  "metadata_review_UTC": "2026-11-02T02:18:41.036268+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "A pure typed API and exactly five-instruction nonpositive block, with owner whole orchestration.",
+  "input": {
+    "base_full_items": 8,
+    "base_physical_UTF8_bytes": 19951,
+    "integrity": "Each base file frozen digest and complete decoded text matched against every actual source message. Correction input also includes its own prior complete response, not a peer answer or owner oracle.",
+    "protocol": "Eight actual wire keys, current stable system/user/user, temperature0, thinkingfalse, JSON object, stream with usage.",
+    "role_qualification": "Owner chose exact targets/contract and mature declarations. Generated unit and whole owner orchestration remain separate; no unhinted architecture invention or whole-producer blind witness claimed."
+  },
+  "calls": [
+    {
+      "role": "api",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T01:18:11.926090+00:00",
+      "END_UTC": "2026-11-02T01:18:58.342637+00:00",
+      "max_tokens": 2200,
+      "full_input_items": 8,
+      "physical_input_UTF8_bytes": 19951,
+      "source_message_UTF8_bytes": 22269,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 22.056420900000376,
+      "reported_HTTP_seconds": 46.416576300005545,
+      "usage": {
+        "prompt_tokens": 7297,
+        "completion_tokens": 1617,
+        "total_tokens": 8914
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 24814,
+        "sha256": "51f9dc263ab68ad299b50e7f8733b495d36d4ebbf0ee0ecb4f0073118c8bedf2"
+      },
+      "complete_CONTENT_digest": {
+        "bytes": 6539,
+        "sha256": "1ddd6b02578c9d6a57dfa13703948620381733ca19ea8fee67f5a000211a036e"
+      }
+    },
+    {
+      "role": "api",
+      "semantic_round": 2,
+      "POST_BEGIN_UTC": "2026-11-02T01:22:13.257336+00:00",
+      "END_UTC": "2026-11-02T01:22:19.360958+00:00",
+      "max_tokens": 2200,
+      "full_input_items": 9,
+      "physical_input_UTF8_bytes": 26490,
+      "source_message_UTF8_bytes": 29084,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 0.9342287000035867,
+      "reported_HTTP_seconds": 6.10375799999747,
+      "usage": {
+        "prompt_tokens": 9011,
+        "completion_tokens": 951,
+        "total_tokens": 9962
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 31761,
+        "sha256": "6fb596bc82bf59a7251425fb5f9bef808f0153c412a609147a4c71d64e280fce"
+      },
+      "complete_CONTENT_digest": {
+        "bytes": 4033,
+        "sha256": "99c28dc11f4e10f66b8eef79043893d6d841ea62f3e16683ad79d60accf2a969"
+      }
+    },
+    {
+      "role": "block",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T01:18:11.930736+00:00",
+      "END_UTC": "2026-11-02T01:18:51.465480+00:00",
+      "max_tokens": 1700,
+      "full_input_items": 8,
+      "physical_input_UTF8_bytes": 19951,
+      "source_message_UTF8_bytes": 22269,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 20.501398000000336,
+      "reported_HTTP_seconds": 39.5347929999989,
+      "usage": {
+        "prompt_tokens": 7380,
+        "completion_tokens": 1033,
+        "total_tokens": 8413
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 25002,
+        "sha256": "9ac16a05ba225658b1199aad814205af8c2fff143c2c10aed308fb7aa9ad5f91"
+      },
+      "complete_CONTENT_digest": {
+        "bytes": 3213,
+        "sha256": "c0aa4353aaa28dbcb7932205422b527e7222363409a83dc7ffac35a816bf2c53"
+      }
+    },
+    {
+      "role": "audit",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T01:18:11.938150+00:00",
+      "END_UTC": "2026-11-02T01:18:57.965256+00:00",
+      "max_tokens": 1700,
+      "full_input_items": 8,
+      "physical_input_UTF8_bytes": 19951,
+      "source_message_UTF8_bytes": 22269,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 23.095556299995224,
+      "reported_HTTP_seconds": 46.02717789999588,
+      "usage": {
+        "prompt_tokens": 7184,
+        "completion_tokens": 1465,
+        "total_tokens": 8649
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 24396,
+        "sha256": "566a2320ff2a4de6d3f80308a971b9da904c59f6b3971c7bbdc0e3bbb350705d"
+      },
+      "complete_CONTENT_digest": {
+        "bytes": 4602,
+        "sha256": "037a8225557401c1cd429de2705a84a14b57157f9f1e3c0d9335a4e4ff603fd1"
+      }
+    }
+  ],
+  "transport": {
+    "logical_tasks": 4,
+    "POSTs": 4,
+    "ENDs": 4,
+    "complete_stop": 4,
+    "length": 0,
+    "transport_retries": 0,
+    "client_peak": 3,
+    "peak_spans": [
+      {
+        "BEGIN_UTC": "2026-11-02T01:18:11.938150+00:00",
+        "END_UTC": "2026-11-02T01:18:51.465480+00:00",
+        "seconds": 39.52733
+      }
+    ],
+    "peak_cumulative_seconds": 39.52733,
+    "longest_continuous_peak_seconds": 39.52733,
+    "reported_HTTP_duration_sum_seconds": 138.0823051999978,
+    "HTTP_union_seconds": 52.520168999999996,
+    "service_running_waiting_KV": null,
+    "target12_16_claimed_achieved": false
+  },
+  "software": {
+    "checks": [
+      {
+        "stage": "JAVAC_PROD587",
+        "BEGIN_UTC": "2026-11-02T01:26:21.148269+00:00",
+        "END_UTC": "2026-11-02T01:26:21.730330+00:00",
+        "process_seconds": 0.5820596999983536,
+        "exit_code": 0
+      },
+      {
+        "stage": "JAVAC_WITNESS587",
+        "BEGIN_UTC": "2026-11-02T01:27:22.222982+00:00",
+        "END_UTC": "2026-11-02T01:27:22.865435+00:00",
+        "process_seconds": 0.6424434000000474,
+        "exit_code": 0
+      },
+      {
+        "stage": "RUN587",
+        "BEGIN_UTC": "2026-11-02T01:27:26.959390+00:00",
+        "END_UTC": "2026-11-02T01:27:27.102481+00:00",
+        "process_seconds": 0.14308959999470972,
+        "exit_code": 1
+      },
+      {
+        "stage": "JAVAC_WITNESS587_FIXTURE02",
+        "BEGIN_UTC": "2026-11-02T01:30:01.718013+00:00",
+        "END_UTC": "2026-11-02T01:30:02.349836+00:00",
+        "process_seconds": 0.6318260000043665,
+        "exit_code": 0
+      },
+      {
+        "stage": "RUN587_FIXTURE02",
+        "BEGIN_UTC": "2026-11-02T01:30:05.710139+00:00",
+        "END_UTC": "2026-11-02T01:30:05.832238+00:00",
+        "process_seconds": 0.12209480000456097,
+        "exit_code": 0
+      }
+    ],
+    "new_owner_cases_passed": 5,
+    "model_Test_requests": 0,
+    "owner_oracle": "Fixed source-derived cases frozen before any response; expected values do not come from target execution. Mature mechanical helpers reused; no old stable-case execution.",
+    "coverage": "Zero/negative restore-before-clear and fresh return alias, one positive opaque-call full frame and owned RAM, original first-loop budget stop.",
+    "not_verified": "All counts, concrete opaque virtual/lower callees, hardware ABI/EH/Native/Game, original missing historical verification, saved-day performance or whole-project completion."
+  },
+  "formal_at_software_cutoff": {
+    "state": "PENDING_RECEIPT_AT_THAT_CUTOFF",
+    "commit": null
+  },
+  "later_formal_annex": {
+    "observed_UTC": "2026-11-02T02:08:43.024841+00:00",
+    "commit": "c576fdaed6886fbd95f8304eae5e1ddbcd838b7e",
+    "normal_push_remote_exact_clean": true,
+    "source_file_raw_formal_digests": [
+      {
+        "raw_bytes": 3906,
+        "raw_sha256": "59e9a3405c6d00045863c6e7ab329d0e68ac828b8460d3f226f15c394c052b1e",
+        "formal_bytes": 3906,
+        "formal_sha256": "59e9a3405c6d00045863c6e7ab329d0e68ac828b8460d3f226f15c394c052b1e",
+        "EOF_preserved": true
+      },
+      {
+        "raw_bytes": 3120,
+        "raw_sha256": "c6178e7f91ac53cf67e7b2c40b972c01b24227fd1abfab086ae3140523f58d46",
+        "formal_bytes": 3120,
+        "formal_sha256": "c6178e7f91ac53cf67e7b2c40b972c01b24227fd1abfab086ae3140523f58d46",
+        "EOF_preserved": true
+      },
+      {
+        "raw_bytes": 2967,
+        "raw_sha256": "03a936d790a497820c49e7d6e0546e89dba882dc13c663c17e1d1943d0b4483c",
+        "formal_bytes": 2967,
+        "formal_sha256": "03a936d790a497820c49e7d6e0546e89dba882dc13c663c17e1d1943d0b4483c",
+        "EOF_preserved": true
+      },
+      {
+        "raw_bytes": 9238,
+        "raw_sha256": "417d8d1a1591fc5e2ebdd7f967c21c3a65634804dd3e88fad129040a364ffa8c",
+        "formal_bytes": 9238,
+        "formal_sha256": "417d8d1a1591fc5e2ebdd7f967c21c3a65634804dd3e88fad129040a364ffa8c",
+        "EOF_preserved": true
+      },
+      {
+        "raw_bytes": 329,
+        "raw_sha256": "310216d9e23ad8ab1d89aa261d70d3f47a4dc2d1a351f4f45bcd3a5f01adf7ba",
+        "formal_bytes": 329,
+        "formal_sha256": "310216d9e23ad8ab1d89aa261d70d3f47a4dc2d1a351f4f45bcd3a5f01adf7ba",
+        "EOF_preserved": true
+      }
+    ],
+    "publication_projection": "LF/blanktail only, raw/formal SHA separate and originalEOF retained.",
+    "first_new_wrapper_checks": [
+      {
+        "stage": "actual_compile",
+        "BEGIN_UTC": "2026-11-02T02:05:53.449852+00:00",
+        "END_UTC": "2026-11-02T02:05:54.088055+00:00",
+        "process_seconds": 0.6382008999935351,
+        "exit_code": 0
+      },
+      {
+        "stage": "actual_selected_JUnit",
+        "BEGIN_UTC": "2026-11-02T02:05:58.873544+00:00",
+        "END_UTC": "2026-11-02T02:05:59.398269+00:00",
+        "process_seconds": 0.5247212000031141,
+        "exit_code": 0
+      }
+    ],
+    "wrapper_validation_wall_seconds": 5.948417,
+    "wrapper_gap_coordination_wall_seconds": 4.785489,
+    "wrapper_reported_process_sum_seconds": 1.1629220999966492,
+    "wrapper_scope": "One newly compiled JUnit wrapper and one selected method reusing the new owner verify cases; not additional scenarios, an old suite run or a separate standalone replay.",
+    "sole_executor": "Native mechanical executor; Java writer and descendants zero Java execution in this handoff. No additional compilation/RUN at staging or push.",
+    "runtime_installation_or_performance": false
+  },
+  "clock_accounting": {
+    "input_freeze_UTC": "2026-11-02T01:18:11.712400+00:00",
+    "final_owner_RUN_END_UTC": "2026-11-02T01:30:05.832238+00:00",
+    "input_freeze_to_final_RUN_wall_seconds": 714.119838,
+    "all_owner_validation_process_sum_seconds": 2.121513500002038,
+    "active_owner_labor_seconds": null,
+    "pre_marker_discovery_seconds": null,
+    "net_owner_saving_seconds": null,
+    "limit": "Input-to-RUN includes model waiting/review, owner code/oracle work, corrections, real resource priority and coordination. Nested windows and request/process sums are not active labor, CPU, service delay or a counterfactual saving.",
+    "first_held_read_UTC": "2026-11-02T01:15:16.794009+00:00",
+    "held_read_to_final_RUN_wall_seconds": 889.038229,
+    "held_decode_process_seconds": 0.034651199996005744,
+    "first_RED_to_corrected_RUN_END_wall_seconds": 158.729757,
+    "owner_metadata_error": "An early instruction-count typo in owner facts was preserved separately; the actual block task explicitly requested five instructions. Not a model failure or HTTP retry.",
+    "scope_gap": "A different neighboring20-byte prefix remained incomplete with zero model POST; it is not treated as a complete callee or erased by this success."
+  },
+  "private_evidence_digests": {
+    "owner_manifest": {
+      "bytes": 21362,
+      "sha256": "c82d408d1f6ff9bc69b744390a25d2a41c52c7a911753d3a8fc7e0892cafdedc"
+    },
+    "model_cohort": {
+      "bytes": 6766,
+      "sha256": "2e62358a9d82f36c610fc07003617b3004c51e5d82d2e5db14bfc19f66a5143a"
+    },
+    "owner_cost": {
+      "bytes": 1710,
+      "sha256": "a67628ce805ec6a430fa1d13ec64289eaafd6410c90651af3065bfa49bc322e0"
+    },
+    "formal_staged": {
+      "bytes": 55287,
+      "sha256": "5606b2d9230073368ce74219c7b72962b75372148da6cdb3676fa8c128a9784a"
+    },
+    "formal_publication": {
+      "bytes": 1796,
+      "sha256": "79be7936d0798404a441d607001a67af6b4c1af3cae2beb6be5d3d3cb0768b91"
+    },
+    "continuation": {
+      "bytes": 7585,
+      "sha256": "3b71b347e90f264d870f71d3608e54f1de03ee33d77b3e3863719a9b522a6062"
+    },
+    "owner_oracle_erratum": {
+      "bytes": 1683,
+      "sha256": "884c94ea78e46a165f1ee38e4ec30674d73e07e0987df73560e941ccc7811c5f"
+    }
+  },
+  "comparison_limit": "A bounded-unit adoption under the current routing is not proof of mode superiority, a general ability ceiling or reduced end-to-end owner time. Independent source analysis and whole owner cases are graded separately; unrelated pending business recovery is not completed by this record.",
+  "next_real_trigger": "Only a genuine new bounded API/block/binding or independently justified finite boundary exploration, or an actual later authorized runtime result. Do not replay these closed cases, add a large model oracle or retry the closed native-tool loop for a success quota.",
+  "publication_new_HTTP_compile_Test_or_business_actions": 0,
+  "adoption": {
+    "pure_API": "Complete R1 rejected for wrong module-relative return/guard location and invalid declaration scope. Necessary R2 complete3906-byte java string adopted exact, zero owner Java/EOL/EOF changes.",
+    "five_instruction_block": "First R1 complete3120-byte java string adopted exact, zero owner Java/EOL/EOF changes. Limited to that nonpositive block, not the whole callee.",
+    "whole_orchestration": "Owner authored the complete2967-byte positive-loop/prologue/epilogue, budget and state orchestration. Model API/block adoption does not grant whole algorithm credit.",
+    "audit": "Whole rejected despite some site/order facts: stack bases, fresh indirect target and concrete alias semantics were wrong or missing. No second audit to restate owner-frozen facts.",
+    "owner_Test": "All five cases authored by owner. The initial pre-response oracle had one saved-versus-current register literal wrong; first strict and actual RUN exit1 retained, not attributed to model or production.",
+    "correction": "Only one expected register literal corrected using original source and a fixed independent memory seed; inverse byte exact. No API/block/orchestration or model input changed, and no new POST.",
+    "original_transport_review_flags": "Original NOT_YET_REVIEWED/adopted=false summaries remain frozen; source adoption is a separate reviewed decision."
+  }
+}
