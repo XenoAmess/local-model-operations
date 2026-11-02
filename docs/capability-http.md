@@ -317,3 +317,9 @@ owner在候选编译前发现旧binary缺当前API getter，0candidate/Test STAR
 [HTTP-ATOMIC-BLOCK-API-001](evidence/2026-11-02-http-atomic-block-api.json)在前缀已有成熟scalar算法、owner API形状及锁逐指令mapping下，API首R1完整4822B、锁基本块首R1完整2711B均decoded字节采用，0owner Java/EOL/EOF改；一个源坐标注释笔误保留并限定，执行分支正确。整体2831B控制流/状态与五个固定Test由owner写，不能称盲源义发现、自主API设计或whole算法模型采用。三请求各12完整材料39065B，实际预算2700/1700/1500，2stop+1length/0重试，峰3仅10.148016s；audit半稿整弃未读，预算损失归owner准备，无R2或语义错误推断。
 
 首次三个生产源/Test严格编译及五新case通过只授单RAM/显式atomic port的软件观察；硬件并发/内存序/PAUSE时长/异常展开/Native/Game未知。首次已记准备→RUN1933.696079s、input freeze→RUN1479.777985s，三个进程和1.526513s；prod→Test766.382215s及Test→RUN4.959311s协调另列，包含P0优先/通知，不能全部标cold CPU。更早工作、主动工时与净节省未知；早期两个不完整/去重候选0POST成本保，软件交付cutoff正式回执pending，后到另附。
+
+## 后到：明确调用顺序的小memory block
+
+[HTTP-ORDERED-MEMORY-BLOCK-001](evidence/2026-11-02-http-ordered-memory-block.json)给定owner的精确signature/Result/六次调用顺序，模型首R1完整850B source decoded→write_bytes逐字采用，0Java/EOL/EOF改；完整1333B ABI/equality loop和四方法8056B Test仍owner编写。独立literal先冻，最终Test已看过生产源码，不称盲推。两实际请求各7完整材料，预算1200/1600，均stop/0重试，峰2仅4.110858s。audit误把独立source/destination寄存器说相等，其余interleaving/fresh-return事实只部分接受，不授whole审批准。
+
+首次2prod/Test严格编译与四新方法通过，覆盖forward overlap必须保留的逐步memory观察及有限边界，未授whole外层caller/flags/EH/硬件/Native/Game。marker→交付1695.991442s、driverReady→首编799.911542s，首prod→RUN143.889840s与三进程和2.932807s分列；等待包含实际P0冷窗及未GO退还/通知/owner协调，不能全算cold CPU。主动工时/更早发现和净收益未知，软件cutoff正式回执pending，后到另附。
