@@ -1,0 +1,218 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B022-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-02T07:01:25.118386+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-02T06:35:12.655831+00:00",
+    "window_ended_at_utc": "2026-11-02T06:35:20.099550+00:00",
+    "window_seconds": 7.443719,
+    "peak": 4,
+    "peak_duration_seconds": 7.18254,
+    "average_inflight": 3.9206099800382046
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261102-b022-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 741,
+        "completion_tokens": 542,
+        "total_tokens": 1283
+      },
+      "failure": null,
+      "content_ttft_ms": 1655.827100010356,
+      "total_ms": 7183.725800015964,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "17228c9606fe5d0713d82b1472877da483dd44f95ceb90b31f29c87625b982db",
+      "summary_sha256": "62585d95cc8e085c9449c520018078ce46d8d35189ada0d78c9386f7e47bef61",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "40e3f5332850023ba77e8079b4ac7f25cf2292b59556f0aa48390791609f6cfc",
+        "task_id": "hoi4-20261102-b022-prompt-01",
+        "request_sha256": "17228c9606fe5d0713d82b1472877da483dd44f95ceb90b31f29c87625b982db",
+        "summary_sha256": "62585d95cc8e085c9449c520018078ce46d8d35189ada0d78c9386f7e47bef61",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Replaced generic open/closed wording with CLOSED white naval tunic versus OPEN outer coats/jackets and their actual shirt/cravat/tie configurations. Removed non-input same-name larger-portrait discussion while retaining exact primary pose and occlusion.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2189,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b022-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 748,
+        "completion_tokens": 591,
+        "total_tokens": 1339
+      },
+      "failure": null,
+      "content_ttft_ms": 1664.04600001988,
+      "total_ms": 7223.293000017293,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "4c469e0e3d98d7ecab6e9274640d5d4d0a6bc312ab9e655d444cb652f4265b6e",
+      "summary_sha256": "5d41ff8b32c3418fdfcd91a0882edc7673ed0b60d57706fb531c8ecb3149706c",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "22a5f41eba0d238ad20ec2db526a28bb57fa708176dbdd67c6c67fe2abc06437",
+        "task_id": "hoi4-20261102-b022-prompt-02",
+        "request_sha256": "4c469e0e3d98d7ecab6e9274640d5d4d0a6bc312ab9e655d444cb652f4265b6e",
+        "summary_sha256": "5d41ff8b32c3418fdfcd91a0882edc7673ed0b60d57706fb531c8ecb3149706c",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Replaced generic open/closed wording with CLOSED white naval tunic versus OPEN outer coats/jackets and their actual shirt/cravat/tie configurations. Removed non-input same-name larger-portrait discussion while retaining exact primary pose and occlusion.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2159,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b022-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 758,
+        "completion_tokens": 583,
+        "total_tokens": 1341
+      },
+      "failure": null,
+      "content_ttft_ms": 1678.5023999982513,
+      "total_ms": 7341.45459998399,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "9ac9c30372fab9f054a0f02a5fd40faafdb71f9eabc7eba94db032476be18e38",
+      "summary_sha256": "55cdfbe0cda061d2e5258e491852b49f072a735fa5f6559ffc949e3551b9bf7f",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "7dffd5ce78a8775be78da7bd53f5234b0ee2c81a3045de6c08e9a7552c46cefd",
+        "task_id": "hoi4-20261102-b022-prompt-03",
+        "request_sha256": "9ac9c30372fab9f054a0f02a5fd40faafdb71f9eabc7eba94db032476be18e38",
+        "summary_sha256": "55cdfbe0cda061d2e5258e491852b49f072a735fa5f6559ffc949e3551b9bf7f",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Replaced generic open/closed wording with CLOSED white naval tunic versus OPEN outer coats/jackets and their actual shirt/cravat/tie configurations. Removed non-input same-name larger-portrait discussion while retaining exact primary pose and occlusion.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2251,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261102-b022-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 743,
+        "completion_tokens": 564,
+        "total_tokens": 1307
+      },
+      "failure": null,
+      "content_ttft_ms": 1703.4712000167929,
+      "total_ms": 7443.888200010406,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "e957327b10517b0d0050f9dd07bd2c21f3214a576b06f3ed1fc2d8b9fca4344d",
+      "summary_sha256": "9a3488c9baee359b43a47e7ec6abd20b95314204b926352eac7318ba90b694f3",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "2eefe8150278c954ba6a7557213d3528371ec7d107199be6403689b09135139f",
+        "task_id": "hoi4-20261102-b022-prompt-04",
+        "request_sha256": "e957327b10517b0d0050f9dd07bd2c21f3214a576b06f3ed1fc2d8b9fca4344d",
+        "summary_sha256": "9a3488c9baee359b43a47e7ec6abd20b95314204b926352eac7318ba90b694f3",
+        "adoption": "partial + owner exact-source checks",
+        "owner_changes": [
+          "Replaced generic open/closed wording with CLOSED white naval tunic versus OPEN outer coats/jackets and their actual shirt/cravat/tie configurations. Removed non-input same-name larger-portrait discussion while retaining exact primary pose and occlusion.",
+          "Restated owner-observed individual hair/expression/outfit and round chin/minimal broad neck geometry.",
+          "Removed identity-of-other-original and excluded-larger comparison from final source restatement.",
+          "Canonical prepare appended detailed alpha rules; no model visual qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2156,
+        586
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261102-b022-sources.json",
+    "sha256": "7e66fd9bb0898f7593bc985e047ca3fa2d42712927bf04352be0dd2ae9b844f3",
+    "publication_commit_at_cutoff": null
+  },
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. Four distinct source SHA remain separate; source white naval tunic and formal wing-collar/cravat are preserved as real cloth. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Owner replaced generic open/closed wording with CLOSED white naval tunic versus OPEN coats/jackets and actual formal cravat or shirt/tie fastening, removed non-input same-name larger discussion, and restated individual source traits and short broad neck geometry. Both SHA domains verified. Partial text adoption only; model HTTP outcomes are separate from image-service outcomes.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
