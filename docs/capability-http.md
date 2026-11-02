@@ -840,3 +840,9 @@ Test只机械helpers部分复用，两算法owner重写；旧pretty raw/大材�
 [HTTP-GUIDED-IMMUTABLE-ORIGINAL-REUSE-314](evidence/2026-11-03-http-guided-immutable-original-reuse.json)给23完整源309404物理B，1900/2800两stop/validJSON/0retry，重叠20.822189s。Owner已定位重复parse并给具体proposal，模型一old/new表达式edit保EOL正逆精确、owner算法0修；授guided实现，不授自主发现/普适无风险或提速。Counter只有baseline/proposal，混比较不同tree/猜不同parser/漏已有deep-equality，整findings拒，不当finalcandidate审。
 
 唯一生产TU首0/2.578872s；后到验收0新HTTP/0新Test，只因实际orderedCP缺3个类型且source→cache谱系未知，必要3个不变Test/support TU首编2.144727s，唯一既有affected method首1P/4.269990s，gap6.333931s。未改源/期待、不复制整Test或重旧suite；固定初始化/replay/refresh与null/empty/value软件语义，不授真实FS/权限/Runtime/速度。原source的formal=null/测试pending保持，后到1P与已录window/activeunknown分账，现不补造完整任务工时。
+
+## 三port递归provider：raw dispatch保留与真实构造接管
+
+[HTTP-RECURSIVE-PROVIDER-ROUTING-303](evidence/2026-11-03-http-recursive-provider-routing.json)按owner许可9130B原字节公开；普通三消息、每role16完整源、2400/1400两stop/0retry。模型static helper返回null占位，不能提供actual同一router，整份源审失败/raw未编；owner只替两构造range，4835→3773B partial，invoke/tail/GS suffix原样，正逆核/noR2。强三port/typedfactory合同和成熟producer已供，不授新算法。Counter未看candidate，合同提示内有限分析；误把改offered N/SP或zero本身当必拒，未加默认zero门。
+
+Owner新六Test在读候选/反审前冻结，但已知成熟算法、非wholeblind；首1prod/Test/JUnit0→6P，3.307328s过程对1079.749908s首检索→6P，真实峰2仅5.841875s。独立[批准计时scope note](evidence/2026-11-03-http-recursive-provider-accounting-note.json)保source选择/准备/Test/Review包络及任务切出；.299231s correction与.328207s args若BEGIN同已写脚本批执行，仅机械应用，脚本文字起草发生更早，不当完整owner劳动。ModelWait观察160.878603s也不当HTTP在途。active/CPU/netunknown，完整wall不删。原9130B pending切点不改；[formal后见](evidence/2026-11-03-http-recursive-provider-formal.json)085628a5两raw/formal/EOF等/0新增编验，不授Runtime/Game/硬件或速度。
