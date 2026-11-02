@@ -419,3 +419,9 @@ counter R1 length1700整弃不判完整语义；R2缩到新source三事实仍sto
 [HTTP-GUIDED-LIVE-FACTORY-METHOD-001](evidence/2026-11-02-http-guided-live-factory-method.json)实核25完整项90828B、1300/2200两个POST均stop/0retry，峰2仅13.585500s。完整1714B method在2421B类中一次byteexact，owner方法执行/EOL/EOF改0；owner已给三livefactory架构，另补Objects import和public execute架子，不授wholeclass/自主设计。audit只有泛型事实partial，saved-register坐标/guard反例错拒/noR2。
 
 owner四新case oracle响应END后、读CONTENT前冻；随后编译前源核纠正一个期望frame RAX从count为真实VT，原oracle保，非模型错/实际JVM红，运行后0修。首四case与后350B ownerwrapper1P是同四case，不能算第五；3phase1.479083s与known→RUN1661.055799s/inputfreeze→RUN845.348774s/协调间隔分列，active/netunknown。误读命令/旧prepare断言/早读pending回执独立留证。后到3ae878ee两payload rawformal精确，旧pending切点不改；wrapper15.126520wall/1.203739process/13.922773gap单列，0Native/Game/提速或更大完成信用。
+
+## 后到：signed历史导入两窄leaf与候选可见Test方法
+
+[HTTP-SIGNED-HISTORY-IMPORT-001](evidence/2026-11-02-http-signed-history-import.json)实核首三角色26完整当前代码/350370B，实际message2为358212B；第四Test角色27项含两candidate和owner三方法/helpers，message2为372470B。预算1800/3500/2800/1500，4POST均stop/0retry，峰3仅79.552040s。owner已点名实际signed角色API与位置，两生产分别3/6个decoded edits正反应用到选中源的归一化全文精确；第四完整3505B Testmethod一次raw选用/内部改0。强提示且candidate-aware，不能算自主发现、整类生成或独立oracle。独审只局部source事实采，date/consumption/build与具体fixture误断不授whole审。
+
+旧binary缺既有API在编译前具名核出，必要current SDK outer+DTO首次闭包支持不入formal payload；实际请求声明本已完整，不造模型缺源或javac红。未改旧import pair的新positive真实1E（integer range），candidate四新方法4P/0skip，旧Tests不重跑；oldbuild保留仅source inverse，不扩大动态覆盖。owner前置unsigned/signed口述纠正、两个0Java CLI误项及writer XML断言误猜均独立保，原stderr不清。1592.724263s录得source→首次验证、2168.457787s至发表观察与六process21.784967s分列，早期发现/active/netunknown。原pending切点不改，后到e05b3483三payload rawformal精确；仅historical软件边界，0自然cause/material/Root/Game/SAVE或实速信用。HTTP/OpenCode长期记录继续分别维护，不补成功配额。

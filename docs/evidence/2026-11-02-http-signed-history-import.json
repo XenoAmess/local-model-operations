@@ -1,0 +1,450 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-SIGNED-HISTORY-IMPORT-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "original_software_cutoff_UTC": "2026-11-02T05:16:41.251812+00:00",
+  "operator_review_UTC": "2026-11-02T05:27:58.223775+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Repair two real historical-import leaves that reject valid signed public role IDs before current matching, while preserving non-role unsigned fields, immutable original bytes and historical-only consumption semantics.",
+  "input": {
+    "initial_roles_complete_current_code_files": 26,
+    "physical_inventory_bytes": 350370,
+    "initial_source_message_UTF8_bytes": 358212,
+    "fourth_Test_role_complete_current_files": 27,
+    "fourth_Test_source_message_UTF8_bytes": 372470,
+    "actual_REQUEST_whole_texts_and_order_independently_verified": true,
+    "Test_role_replacements": "Two current selected production leaves replace their original versions; complete owner three-method/helper draft is additional.",
+    "actual_parameters": "Eight keys; fixed current system/user/user; temperature0; thinkingfalse; JSON object; SSE usage; finite per-role budgets. Raw source digest and newline-normalized actual message digest kept separately.",
+    "discovery_and_hinting": "Owner explicitly named target sites and existing typed APIs for the production roles. Fourth Testmethod sees both candidates, owner helper/draft and exact assertion requirements; strongly hinted mechanical implementation, not independent oracle or autonomous API design.",
+    "owner_prePOST_correction": "Preliminary claim that an older character helper was already signed was corrected from the complete current declaration before any POST. The old unsigned helper remains unchanged; actual requests contain the correct declarations."
+  },
+  "client": {
+    "caller_digest": {
+      "bytes": 19814,
+      "sha256": "ea0979f2f64ea46ee24c696e06f8149bb28e52f2eed6bfc1960c10a50742c2fe"
+    },
+    "executor_config_digest": {
+      "bytes": 1682,
+      "sha256": "28315bd0353e2a75282a6a2844940c2286259fe17af72193ed8df54442e7ba70"
+    },
+    "maintenance": "Same-day shared client entry cache as recorded by source owner; Ops read-only review/publication did not run a new maintenance check or model request.",
+    "active_business_caller_or_configuration_changes_by_Ops": 0
+  },
+  "calls": [
+    {
+      "role": "historical",
+      "POST_BEGIN_UTC": "2026-11-02T04:50:47.473648+00:00",
+      "END_UTC": "2026-11-02T04:52:07.027354+00:00",
+      "max_tokens": 1800,
+      "complete_source_items": 26,
+      "source_message_UTF8_bytes": 358212,
+      "source_read_CRLF_pairs_projected_to_LF": 1136,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 79.55376260000048,
+      "content_TTFT_seconds": 30.721541899998556,
+      "usage": {
+        "prompt_tokens": 81371,
+        "completion_tokens": 1351,
+        "total_tokens": 82722
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 370147,
+        "sha256": "93842b3a36f9ee17763d34ba29a66e2dc427b35c4a04dafee67c00f0870ee439"
+      },
+      "CONTENT_digest": {
+        "bytes": 5546,
+        "sha256": "ca9ef32c746880519965ded59fbede4a9ddcd1b76e6642f3975adcbc6bc9d87a"
+      },
+      "EVENTS_digest": {
+        "bytes": 2021,
+        "sha256": "492cb3f702a5fe3afbdd2de091734bf22e8bf55cb98279ef22c60e5b4d983f36"
+      }
+    },
+    {
+      "role": "adapter",
+      "POST_BEGIN_UTC": "2026-11-02T04:50:47.475314+00:00",
+      "END_UTC": "2026-11-02T04:52:10.440531+00:00",
+      "max_tokens": 3500,
+      "complete_source_items": 26,
+      "source_message_UTF8_bytes": 358212,
+      "source_read_CRLF_pairs_projected_to_LF": 1136,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 82.96518349999678,
+      "content_TTFT_seconds": 24.220494399996824,
+      "usage": {
+        "prompt_tokens": 81412,
+        "completion_tokens": 1692,
+        "total_tokens": 83104
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 370449,
+        "sha256": "b6ffb8b1c48e24d47db312aed9658a17c72d8608d0e448e6cb4d85b7f4a4d6c2"
+      },
+      "CONTENT_digest": {
+        "bytes": 6679,
+        "sha256": "79a2618217a8ab07d45167d44235767d60540d5d79e5103ac2e76dbb29bbecbf"
+      },
+      "EVENTS_digest": {
+        "bytes": 2003,
+        "sha256": "2bf03f6a5ac80a0f9e039c894ce797144a1dc02dc24143ea1b2416ae36dafcb2"
+      }
+    },
+    {
+      "role": "audit",
+      "POST_BEGIN_UTC": "2026-11-02T04:50:47.474285+00:00",
+      "END_UTC": "2026-11-02T04:52:18.610959+00:00",
+      "max_tokens": 2800,
+      "complete_source_items": 26,
+      "source_message_UTF8_bytes": 358212,
+      "source_read_CRLF_pairs_projected_to_LF": 1136,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 91.13673650000419,
+      "content_TTFT_seconds": 26.82147530000657,
+      "usage": {
+        "prompt_tokens": 81378,
+        "completion_tokens": 1996,
+        "total_tokens": 83374
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 370283,
+        "sha256": "5883be6b9eb8fdbc21c2912c62ba777cf0dae9f01d24f67f80db992244e8411f"
+      },
+      "CONTENT_digest": {
+        "bytes": 7951,
+        "sha256": "315fc08b629579665241f175493e0a41a434a4be136ed8b31ac32e69963ccdda"
+      },
+      "EVENTS_digest": {
+        "bytes": 1989,
+        "sha256": "e23abedf4c7b5668d3c40ce24c0440cf8b7e3bfd8c4bf0be48f55fddc532f052"
+      }
+    },
+    {
+      "role": "test",
+      "POST_BEGIN_UTC": "2026-11-02T04:59:58.028431+00:00",
+      "END_UTC": "2026-11-02T05:00:11.434408+00:00",
+      "max_tokens": 1500,
+      "complete_source_items": 27,
+      "source_message_UTF8_bytes": 372470,
+      "source_read_CRLF_pairs_projected_to_LF": 1136,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 13.406053999991855,
+      "content_TTFT_seconds": 8.547511199998553,
+      "usage": {
+        "prompt_tokens": 84935,
+        "completion_tokens": 840,
+        "total_tokens": 85775
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 385434,
+        "sha256": "11cf20caefd94137db081399b479c7b65484f278855119d05f36407656e8a26a"
+      },
+      "CONTENT_digest": {
+        "bytes": 4072,
+        "sha256": "d8157dd3a0e38d27cae7e334066511ffa5bc20d54dfca154dce530a2d4c454cd"
+      },
+      "EVENTS_digest": {
+        "bytes": 1981,
+        "sha256": "19ad777435c06a450bf5c685de10bc5c15457166a1809cbfab36ccc79a5c1d00"
+      }
+    }
+  ],
+  "transport": {
+    "logical_roles": 4,
+    "actual_POSTs": 4,
+    "actual_ENDs": 4,
+    "complete_stop": 4,
+    "length": 0,
+    "transport_retry": 0,
+    "semantic_retry": 0,
+    "client_in_flight_at_original_cutoff": 0,
+    "client_peak": 3,
+    "peak_cumulative_seconds": 79.55204,
+    "HTTP_union_seconds": 104.543288,
+    "reported_HTTP_attempt_seconds_sum": 267.0617365999933,
+    "service_running_waiting_KV": null,
+    "cache_or_congestion_inference": null,
+    "target12_16_claimed_achieved": false
+  },
+  "adoption": {
+    "production": [
+      {
+        "role": "historical",
+        "decoded_model_edits": 3,
+        "owner_Java_edits": 0,
+        "all_normalized_bytes_forward_and_reverse_exact": true,
+        "raw_with_original_EOL_forward_exact": true,
+        "original_CRLF_pairs": 0,
+        "selected_CRLF_pairs": 0,
+        "selected_digest": {
+          "bytes": 13145,
+          "sha256": "51337e6a2c169a8957c37f0282b6846295334fb24392c517fa5acef89b11e987"
+        },
+        "scope": "Bounded owner-named public role-ID reads and import; not model whole-class generation or autonomous site/API discovery."
+      },
+      {
+        "role": "adapter",
+        "decoded_model_edits": 6,
+        "owner_Java_edits": 0,
+        "all_normalized_bytes_forward_and_reverse_exact": true,
+        "raw_with_original_EOL_forward_exact": true,
+        "original_CRLF_pairs": 0,
+        "selected_CRLF_pairs": 0,
+        "selected_digest": {
+          "bytes": 13677,
+          "sha256": "958a75d4c18726e028e7f2cd470c9f333815c55a9029f73dff66e3f7345f7858"
+        },
+        "scope": "Bounded owner-named public role-ID reads and import; not model whole-class generation or autonomous site/API discovery."
+      }
+    ],
+    "fourth_Test_method": {
+      "decoded_digest": {
+        "bytes": 3505,
+        "sha256": "b6ae9137a4da4c6b3a17f1a2d3b19f2534fdd15e056980e68781b125b5d473f7"
+      },
+      "occurs_once_raw_in_selected_Test": true,
+      "owner_inside_method_edits": 0,
+      "owner_other_Test_work": "Three other new methods, complete fixture/helpers, original expected matrix and explicit missing/false distinctions are owner work. Extra method separators are outside the raw method.",
+      "candidate_aware": true,
+      "independent_oracle": false
+    },
+    "audit": "Partial source facts only: typed signed roles versus older helpers, immutable parse/matching, no new authority from retained history. Incorrect signed-date classification, start-versus-plane consumption, overbroad older-build acceptance and inexact proposed fixture prevent whole-audit/oracle acceptance. No audit Java or expected scenario adopted.",
+    "frozen_transport_SUMMARY_adopted_false_preserved": true
+  },
+  "software": {
+    "six_existing_actual_phases": [
+      {
+        "stage": "support",
+        "BEGIN_UTC": "2026-11-02T05:11:10.478466+00:00",
+        "END_UTC": "2026-11-02T05:11:13.994528+00:00",
+        "process_seconds": 3.5160561999946367,
+        "exit_code": 0,
+        "compiled_source_count": 1,
+        "ACTUAL_digest": {
+          "bytes": 2658,
+          "sha256": "ae8e5d3790f1f267d773aeae47143584a4e12d695303d407c0303aced433a06c"
+        },
+        "args_digest": {
+          "bytes": 32530,
+          "sha256": "5e61a57e2e3a757f4019abba8d236eed36e7c9740e5cdad225ecf68ceb4aa711"
+        },
+        "log_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "stage": "baseline",
+        "BEGIN_UTC": "2026-11-02T05:12:17.763724+00:00",
+        "END_UTC": "2026-11-02T05:12:21.225305+00:00",
+        "process_seconds": 3.4615751999954227,
+        "exit_code": 0,
+        "compiled_source_count": 2,
+        "ACTUAL_digest": {
+          "bytes": 2820,
+          "sha256": "b7cf34e07ddd16ef3b4a0a0e87815c3f937f560953960a3d446972035d83e955"
+        },
+        "args_digest": {
+          "bytes": 32767,
+          "sha256": "c3c467b8aea269885c6bdff1f869f0ec4857053fe3e40910cfd1b279d54248b1"
+        },
+        "log_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "stage": "prod",
+        "BEGIN_UTC": "2026-11-02T05:12:43.461049+00:00",
+        "END_UTC": "2026-11-02T05:12:47.023185+00:00",
+        "process_seconds": 3.5621400000090944,
+        "exit_code": 0,
+        "compiled_source_count": 2,
+        "ACTUAL_digest": {
+          "bytes": 2816,
+          "sha256": "06ec52d81346033e9ec80e0d5013c1ca57d90b1fd930447cc63393721c590668"
+        },
+        "args_digest": {
+          "bytes": 32849,
+          "sha256": "2de538fee9185c5bd22ce3b1a7975b1d080058631393222af4140113e1dcf24b"
+        },
+        "log_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "stage": "test",
+        "BEGIN_UTC": "2026-11-02T05:13:20.679692+00:00",
+        "END_UTC": "2026-11-02T05:13:24.486672+00:00",
+        "process_seconds": 3.8069714000012027,
+        "exit_code": 0,
+        "compiled_source_count": 1,
+        "ACTUAL_digest": {
+          "bytes": 2663,
+          "sha256": "2b1162cf238f20eac74c9c3fdbe5ac332c3530dd2c019d3d9a1ba5c1d92af804"
+        },
+        "args_digest": {
+          "bytes": 32780,
+          "sha256": "0afda57754f5ef579679db10e38888e5fab1d2a0351fbef442efe2321d226d21"
+        },
+        "log_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "stage": "baseline-run",
+        "BEGIN_UTC": "2026-11-02T05:14:28.068812+00:00",
+        "END_UTC": "2026-11-02T05:14:31.562963+00:00",
+        "process_seconds": 3.4941479999979492,
+        "exit_code": 1,
+        "compiled_source_count": 0,
+        "ACTUAL_digest": {
+          "bytes": 2423,
+          "sha256": "3010b86782b1040af84696c0648fec943169438978f3e26e61e539859ce5168b"
+        },
+        "args_digest": {
+          "bytes": 32773,
+          "sha256": "b76c593c7031a9330283acfe6eb660c4a3be1ca3f1f4f7b0a5a8644514b2edc9"
+        },
+        "log_digest": {
+          "bytes": 2380,
+          "sha256": "3ccd55952e53a00e65ad120258b8c812e390613b92a1ada2bbf9cd03ba602ed4"
+        }
+      },
+      {
+        "stage": "run",
+        "BEGIN_UTC": "2026-11-02T05:14:42.607556+00:00",
+        "END_UTC": "2026-11-02T05:14:46.551636+00:00",
+        "process_seconds": 3.9440758999990067,
+        "exit_code": 0,
+        "compiled_source_count": 0,
+        "ACTUAL_digest": {
+          "bytes": 2396,
+          "sha256": "2b5893f59c6b73b80370ad372fe61bdbfd81d4bc327ccf6c9a04bdeab36452e2"
+        },
+        "args_digest": {
+          "bytes": 32785,
+          "sha256": "9969335095ca7858c5ec21fa2689bb30e48094f83de345213d419551868d3ffb"
+        },
+        "log_digest": {
+          "bytes": 1260,
+          "sha256": "04b147918d8f6b59099ef6e39370f75aebf1618d7845f5aaf9cc6d98815d8892"
+        }
+      }
+    ],
+    "necessary_support": "Old effective outer/DTO cache lacked the required existing signed-role helper. Named precompiler qualification selected one current complete SDK outer+all nested DTOs for first closure; its source/API was already supplied to every request. No target javac SDK red or model declaration gap is invented; support is not a formal payload.",
+    "baseline": "New positive method executed once on the unchanged old import pair: one real ContractViolationException error, integer outside contract range; it is a business rejection, not a compile or fixture failure.",
+    "candidate": "Only four new methods, 4P/0skip/0F/0E. No old Test replay or post-run source/expected repair. Signed boundary pairs, selected pending/malformed/identity/immutable cases and retained-label non-authority exercised; planned cases not individually exhaustive.",
+    "JUnit_xml_digests": {
+      "baseline": {
+        "bytes": 40095,
+        "sha256": "5cd14668eb3dd5f13eb2d542e995cc9ec723ad35133346bc6ae646c5b13d336b"
+      },
+      "candidate": {
+        "bytes": 40432,
+        "sha256": "786e885620dd979aeb24b87177c21f19c2ab34fd4a4da424252c195df94ed012"
+      }
+    },
+    "cache_qualification": "Selected actual API compatibility only; no whole current-source/formal/MB equivalence. Preserved old positive-build branch inverse is source review, not a separate mixed-build runtime test.",
+    "stderr": "Original LogManager environment error text retained on both existing JVMs; no rerun or suppression."
+  },
+  "formal_at_original_software_cutoff": {
+    "state": "PENDING",
+    "commit": null
+  },
+  "later_formal_annex": {
+    "observed_UTC": "2026-11-02T05:24:22.285160+00:00",
+    "commit": "e05b34835b0584ad3fe8137fa1a567564b5112b1",
+    "normal_push_remote_exact_clean": true,
+    "three_payloads_raw_formal_bytes_SHA_EOF_equal": true,
+    "new_compile_RUN_HTTP_for_publication": 0,
+    "support_in_formal_payload": false,
+    "original_pending_artifacts_preserved": true
+  },
+  "clock_accounting": {
+    "first_recorded_source_UTC": "2026-11-02T04:48:13.827373+00:00",
+    "last_necessary_validation_END_UTC": "2026-11-02T05:14:46.551636+00:00",
+    "recorded_source_to_first_validation_END_wall_seconds": 1592.724263,
+    "recorded_source_to_writer_publication_observation_wall_seconds": 2168.457787,
+    "six_process_seconds_sum": 21.784966699997312,
+    "reported_HTTP_attempt_seconds_sum": 267.0617365999933,
+    "earlier_unrecorded_qualification_seconds": null,
+    "whole_task_start": null,
+    "active_owner_labor_seconds": null,
+    "net_benefit_seconds": null,
+    "owner_preparation_and_publication_errors": "Two separate Native inspection CLI errors before Java/subprocess or source mutation, plus writer initial guessed XML-message assertion before formal mutation/Java. Preserved original actual receipts and corrected readers; unknown individual wall/active costs are not compiler/model/source failures.",
+    "scope": "Recorded wall includes source qualification, HTTP, owner review/oracle/fixture, necessary SDK closure, validation and resource/coordination intervals. It is not exclusive CPU, service queue or active labor."
+  },
+  "qualification_limits": [
+    "Historical imports remain historical facts, not new current proof, natural terminal/cause/material acceptance, dispatch/private authority, Root or Game qualification.",
+    "No installation, live query, endpoint action, PE, Game, S/MB, SAVE or actual performance evidence from this unit.",
+    "Finite guided implementation/Test acceptance does not establish autonomous whole-producer ability or a permanent model capability boundary."
+  ],
+  "private_evidence_digests": {
+    "DELIVERY214.json": {
+      "bytes": 1726,
+      "sha256": "1f742d5a8950bd0a5d6fd2c8f5a06ba9f590a787a6fbe9b6bfdab386dfaa7e32"
+    },
+    "MODEL-COHORT214.json": {
+      "bytes": 6756,
+      "sha256": "7be019955d7959562a3049cc543aac1f2381412460d80fdd22b0f250f26c08e9"
+    },
+    "INPUT-SOURCES214.json": {
+      "bytes": 10363,
+      "sha256": "b5797f4057625ea613675ea1c4051fd6e6f7d7f34664cfb520f20674ea335a12"
+    },
+    "FORMAL-SOURCE-MANIFEST214.json": {
+      "bytes": 2600,
+      "sha256": "2eb2b24384d6b48e34ae76ce63b874ce1aa22e7c9b3a52336ac14e57325b6351"
+    },
+    "COST214.json": {
+      "bytes": 1287,
+      "sha256": "fb6f9fa5a041ebe079a4b8a6a91dd5988144132eadba298c65cd14201fb5ecf7"
+    },
+    "VALIDATION214.json": {
+      "bytes": 7982,
+      "sha256": "9d6710dde7acba179ad6c376f1b7cfa6392de4d3aa3473dd5360b76795a130b7"
+    },
+    "OWNER-ORACLE214.json": {
+      "bytes": 2358,
+      "sha256": "d1bd7ade293a1c117b18155b1d38f4a8c4ce7b3ca8ae05d763cee33ffc54e2e9"
+    },
+    "MODEL-TEST-ADOPTION214.json": {
+      "bytes": 608,
+      "sha256": "40dcddcd75e51b2fe3bf0e9973b35a4d8977e2c5f3a5e0448056b630d732b02f"
+    },
+    "CACHE-QUALIFICATION214.json": {
+      "bytes": 1037,
+      "sha256": "a710fb39cc576ac96bb7cba178e5170073398171e8f7d478f65570aa2da4e001"
+    },
+    "FRAME-BINARY-QUALIFICATION214.json": {
+      "bytes": 588,
+      "sha256": "3aab619f4829c2b77670a5b63d0e8f3f8e179bda0c8b37c4fd996c67fb00becb"
+    },
+    "NATIVE-CLI-COST-ANNEX214.json": {
+      "bytes": 1197,
+      "sha256": "dcef681d406cec1284918f5d9a4fdeaa19f036b762c55b0be76c2d65938f8502"
+    },
+    "FORMAL-ADOPTION214.json": {
+      "bytes": 1018,
+      "sha256": "e5cc66e791de4b0d084e9cca7d43f2820c647a3c59fb4c212c4f5b018c4e1f91"
+    },
+    "formal_publication": {
+      "bytes": 1300,
+      "sha256": "f17f3645669952d4f3ab4f6c9c9051e07b9b558092933ff5c81d8f626d26ce14"
+    }
+  },
+  "next_real_trigger": "Only a genuinely unwritten qualified source task, current-client change or independent later actual receipt. Continue HTTP and native-tool histories separately; no quota rerun of this unit or the closed native-tool loop case.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}
