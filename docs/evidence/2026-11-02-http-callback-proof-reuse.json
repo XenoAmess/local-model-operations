@@ -1,0 +1,208 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-CALLBACK-PROOF-REUSE-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_source_review_cutoff_UTC": "2026-11-02T03:55:23.790539+00:00",
+  "operator_review_UTC": "2026-11-02T04:29:48.360300+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Remove a duplicate complete historical proof traversal within one lifecycle callback while preserving one cold replay per callback, exact current-head guard, new-transition verification and all original authority/archive checks.",
+  "input": {
+    "whole_source_files": 12,
+    "physical_source_UTF8_bytes": 226179,
+    "stable_prefix_and_actual_second_message_UTF8_bytes": 227935,
+    "full_frozen_files_digest_and_projected_REQUEST_text_match": true,
+    "source_newline_projection": "Ten whole source texts match raw. In the other two,116 and3 CRLF pairs became two LF characters each, adding blank lines. Non-newline content is preserved; this preparation projection can change line coordinates and is not missing declarations. Audit patch text is present with its newline projection.",
+    "wire": "Eight keys; fixed system/user/user; temperature0; thinkingfalse; JSON object; SSE with usage.",
+    "hinting": "Owner supplied the desired same-callback immutable-result design and current baseline to both roles. Implementation received no owner patch; audit received the actual complete13-edit patch in its final task, so it is candidate-informed review, not discovery.",
+    "closure_limit": "Twelve supplied whole files do not prove a recursive whole-platform closure. The independent source-owner delta review additionally used two actual type declarations; they are not retrospectively counted in either model request."
+  },
+  "calls": [
+    {
+      "role": "implementation-r1",
+      "POST_BEGIN_UTC": "2026-11-02T03:50:19.411543+00:00",
+      "END_UTC": "2026-11-02T03:50:40.863977+00:00",
+      "max_tokens": 2200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_seconds": 21.452501899999334,
+      "content_TTFT_seconds": 10.502359500002058,
+      "usage": {
+        "prompt_tokens": 46447,
+        "completion_tokens": 1099,
+        "total_tokens": 47546
+      },
+      "cached_prompt_tokens": null,
+      "owner_patch_supplied_in_final_task": false,
+      "REQUEST_digest": {
+        "bytes": 235260,
+        "sha256": "5e14cabf80f924aef7c1812c00b519c1a109bd10df7148d1fbcb7a033bc4a380"
+      },
+      "EVENTS_digest": {
+        "bytes": 2170,
+        "sha256": "a577768e4fdfeb5a5490b7cdf92c53eba0abd52bedff8b5549255ed7df36e05a"
+      },
+      "CONTENT_digest": {
+        "bytes": 4837,
+        "sha256": "fc954ac73693c0e7f73315645390adda8829b578bffd60c1fa0bbffd207faf0c"
+      }
+    },
+    {
+      "role": "audit-r1",
+      "POST_BEGIN_UTC": "2026-11-02T03:50:19.414404+00:00",
+      "END_UTC": "2026-11-02T03:50:50.022557+00:00",
+      "max_tokens": 2600,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "HTTP_seconds": 30.60816209999757,
+      "content_TTFT_seconds": 12.44745469999907,
+      "usage": {
+        "prompt_tokens": 48858,
+        "completion_tokens": 2600,
+        "total_tokens": 51458
+      },
+      "cached_prompt_tokens": null,
+      "owner_patch_supplied_in_final_task": true,
+      "REQUEST_digest": {
+        "bytes": 246679,
+        "sha256": "25d779eb39d58648ed1e555c063098930e50a8649a3012d06b86c292fae4f1ac"
+      },
+      "EVENTS_digest": {
+        "bytes": 2134,
+        "sha256": "11d44a3f0b3b6bea03e9b3f356a6d0b82789b5d359827843b8f93138930fb17e"
+      },
+      "CONTENT_digest": {
+        "bytes": 6487,
+        "sha256": "9a9b0d454188b3efb442ac5e47416ca1f3eb1cb4c2b052fb8c790805ed7c1179"
+      }
+    }
+  ],
+  "transport": {
+    "logical_roles": 2,
+    "POSTs": 2,
+    "ENDs": 2,
+    "stop": 1,
+    "length": 1,
+    "retry": 0,
+    "client_peak": 2,
+    "peak_spans": [
+      {
+        "BEGIN_UTC": "2026-11-02T03:50:19.414404+00:00",
+        "END_UTC": "2026-11-02T03:50:40.863977+00:00",
+        "seconds": 21.449573
+      }
+    ],
+    "peak_cumulative_seconds": 21.449573,
+    "HTTP_union_seconds": 30.611014,
+    "reported_HTTP_seconds_sum": 52.060663999996905,
+    "service_running_waiting_KV": null,
+    "cache_or_congestion_cause": null,
+    "target12_16_claimed_achieved": false
+  },
+  "model_adoption": {
+    "implementation": "Complete stop JSON with verbal proposed edits, no directly applicable Java, and an incorrect duplicate-traversal claim for the prepared path. Whole implementation rejected; zero code adopted.",
+    "audit": "Length output was actually read by the owner, then discarded whole with no code or validated finding adopted. The incomplete narrative reversed its rejection rationale and ended in repeated tab/quote material. It is not an unread artifact or a complete semantic audit.",
+    "semantic_round2_or_success_quota_retry": false,
+    "owner_code_causality": "Independent owner candidate already selected before either POST; no model Java adoption or model discovery credit."
+  },
+  "owner_source": {
+    "selected_UTC": "2026-11-02T03:48:34.001433+00:00",
+    "before": {
+      "bytes": 78583,
+      "sha256": "284501f1f4e1c7db8cf4ee304bc4abc01aac4ed4de809c5d02cf8c91c3c8bcb0"
+    },
+    "selected": {
+      "bytes": 79740,
+      "sha256": "0f6594c6955e071d11871e08173b28a378b6ddeff673f8a98343c9e761489fa1"
+    },
+    "owner_edits": 13,
+    "raw_forward_and_reverse_exact": true,
+    "public_API_changed": false,
+    "static_traversals_per_callback": {
+      "before": {
+        "prepared_full_history_traversals_per_callback": 1,
+        "received": 2,
+        "known": 2,
+        "failed": 2
+      },
+      "after": {
+        "prepared_full_history_traversals_per_callback": 1,
+        "received": 1,
+        "known": 1,
+        "failed": 1
+      },
+      "counts_credit": "static source paths only; a throwing callback may terminate earlier; no measured time or throughput inferred"
+    },
+    "lifetime": "Private local decoded DATA result used only inside this same actual role/session/thread callback. No field/global/thread retention, no cross-callback or post-commit reuse.",
+    "freshness": "At actual checkpoint mutation, retain current-role validation and compare captured digest/documents/absent/index repairs/snapshot recovery state against actual Head before full new transition/commit. No permissions, deadline, tuple or archive checks dropped.",
+    "independent_source_owner_delta_review": "Independent source-owner review of13 actual edits plus current type/lifecycle declarations found no executable new counterexample. This finite source review is not a behavioral test, formal proof of all external corruption, model-audit adoption or actual runtime acceptance."
+  },
+  "software": {
+    "only_new_source_TUs": 1,
+    "BEGIN_UTC": "2026-11-02T03:52:34.684878+00:00",
+    "END_UTC": "2026-11-02T03:52:36.455347+00:00",
+    "process_seconds": 1.7704700999966008,
+    "exit_code": 0,
+    "behavioral_tests": 0,
+    "limit": "Compile only. Static received/known/failed traversals2→1 and prepared1→1 are source-path counts; throwing paths may stop earlier. No invocation count, measured runtime speed, recovery, SAVE or installed/loaded credit."
+  },
+  "formal_at_owner_review_cutoff": {
+    "state": "PENDING_LATER_SOLE_WRITER_RECEIPT",
+    "commit": null
+  },
+  "later_formal_annex": {
+    "observed_UTC": "2026-11-02T03:56:42.468430+00:00",
+    "commit": "0d9599ca40c888c6acec1433c2ec4b55d5515e44",
+    "normal_push_remote_exact_clean": true,
+    "whole_source_raw_formal_bytes_exact": true,
+    "new_compile_RUN_for_publication": 0
+  },
+  "clock_accounting": {
+    "full_preparation_start_UTC": null,
+    "full_owner_task_wall_seconds": null,
+    "active_owner_seconds": null,
+    "review_active_seconds": null,
+    "net_saving_seconds": null,
+    "selected_source_to_first_POST_wall_seconds": 105.41011,
+    "recorded_selected_source_to_strict_END_wall_seconds": 242.453914,
+    "selected_source_to_owner_review_cutoff_wall_seconds": 409.789106,
+    "scope": "These recorded post-selection windows contain HTTP/source review/proof preparation/compile coordination and gaps. They do not capture earlier discovery and are not active labor or CPU. Original business timeout does not establish traversal as its cause; no allocation/profile or speed measurement is granted."
+  },
+  "private_evidence_digests": {
+    "owner_review": {
+      "bytes": 4917,
+      "sha256": "c9e71a352e36afdaec40b018d9a3589251b59e08041d9de310f376f9941a408f"
+    },
+    "source_input": {
+      "bytes": 4839,
+      "sha256": "d7b4b7c46b5e4d95129c0cc04336de82071928cd915dce11b6048d2e2a796108"
+    },
+    "owner_edits": {
+      "bytes": 7074,
+      "sha256": "894dda18af422d7eaeb5fa37ae37ffed54375221d2c6bcc5bcfde074109d8926"
+    },
+    "owner_patch": {
+      "bytes": 11208,
+      "sha256": "119876649d0409be1b1cfb9f8c76df36883743eabb02324affeb0694b0eacf90"
+    },
+    "independent_source_owner_delta_review": {
+      "bytes": 9018,
+      "sha256": "1ce591f595113bad8d224a5b89e12f96a44efdf411ecd42c963e35dfd95c3add"
+    },
+    "first_strict_actual": {
+      "bytes": 1250,
+      "sha256": "953264800c6a2f1b1c8f8d2c22cbff1de6329186439bbaf4a5ca26ba6d96b7e6"
+    },
+    "formal_publication": {
+      "bytes": 817,
+      "sha256": "bfd878abb3d08d56ac0b97ca49a8a90ce76afaa1c54937be35d686c5e0668daa"
+    },
+    "formal_staged": {
+      "bytes": 6405,
+      "sha256": "5daf1698bcf5f2d5bd56781e7d83cd8cc605912465a324a934544ae1ae06e652"
+    }
+  },
+  "next_real_trigger": "A newly authorized current-source requirement or later real runtime result. Do not replay this closed task or business action, extrapolate a cross-scope cache, or rerun closed OpenCode loops for success counts.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}

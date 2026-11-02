@@ -361,3 +361,9 @@ owner在候选编译前发现旧binary缺当前API getter，0candidate/Test STAR
 [HTTP-EXPLICIT-PLANNING-VIEW-001](evidence/2026-11-02-http-explicit-planning-view.json)producer R2三条literal模型hunk在原newline投影后精确应用，0owner Java；逆回两文件与baseline逐字一致。R1只因未满足原single/coherentview设计约束未选，不把其两view行为无证判为frame/Session错误。初50完整源572132B漏13实际intent资格callee是owner闭合成本，auditR2补63源，producer只晚审、不R3洗绿。两counteraudit完整稿均整体拒0partial。4POST4stop/0重试，预算6500/4500/4500/4500，峰2仅23.630272s。
 
 owner新Test/model0，首strict后3方法1P2F来自owner与父审漏看既有wrapper的reason映射；首红未打印actualreason，改期待依完整原源，不能倒写成首轮实测值。只两条断言修正、生产不改，再编一个editedTestTU（含原绿method代码）只RUN两失败项2P，原1P未重跑，不冒同JVM3P。首2TU5.132028s与四Test进程20.070927s、首Test到末RUN578.961660s/首生产到末Test747.128195s墙钟、初已记发现到freeze265.338072s分列；机械装配.568623s不是全部准备，更早读源/主动工时和全任务wall未知。后到正式1607f1cd的Collector仅297处CRLF→LF、其余两源byteexact；未授positive quote/物理INTENT、运行恢复/保存或提速。
+
+## 后到：callback内proof复用与已阅length审稿
+
+[HTTP-CALLBACK-PROOF-REUSE-001](evidence/2026-11-02-http-callback-proof-reuse.json)为同callback内消除重复完整历史遍历的真实需求；12完整源物理226179B，稳定前缀/实际message2为227935B，2文件119处CRLF转双LF空行投影单列，不冒原raw全文相同或缺声明。owner先给具体局部不可变result设计并已独立物化13edit候选；implementation没有ownerpatch，audit有完整候选patch，不称盲发现。实现stop只交文字蓝图、prepared路径计数亦错，0Java采用；audit length2600曾被owner实际阅到前后反转/重复tab正文，再整稿弃，不能记未读或完整审通过。2POST/1stop1length/0retry，峰与全部窗口据BEGIN/END列，不推cache/拥塞或持续目标。
+
+owner13edit正逆精确，私有局部proof仅在同role/session/thread一次callback内复用；每callback完整冷验仍在，写入前核实际Head完整字段与新transition，0跨callback/session缓存。received/known/failed静态2→1、prepared1→1仅源路径，不证明调用次数或旧超时成因。必要首1TU1.770470s和后到正式0d9599ca rawexact独立，0行为Test/装载/恢复/性能信用。主动准备/审阅与全任务起点未知，候选早于POST的录得墙钟另列；完整审稿本身尚未交付，不为凑采用加R2。
