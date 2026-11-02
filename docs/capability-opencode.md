@@ -68,3 +68,9 @@ Civ6本批5个真实源码／诊断任务使用普通三消息HTTP，经共享CL
 | 有可比的真实普通HTTP任务 | 按共同协议比较实际交付及owner成本，记录顺序、参考答案暴露和失败；不为凑数据重做已完成任务。 |
 
 运营owner在每次真实结果和交接后更新本页；阶段报告、模型退出或当前无请求都不等于停止长期跟踪。
+
+## 新窄只读任务：四文件dispatch证据
+
+[OC-FOURFILE-AUDIT-305](evidence/2026-11-02-opencode-four-file-dispatch-audit.json)是新的具名四文件问题，不重跑旧宽审。1.19.5复用当日成功维护缓存，exact4 read与内部invalid、独立空nonGit cwd/禁项目配置；glob/grep/edit/commands等禁止。实际4POST（3tool_calls+1stop）、6read覆盖4file、0相同参数重复/工具错/源码变更，自然CLI0/16.723718s。原生assistant/tool历史、每响应4096/单HTTP180s，不设总steps/POST/wall；不强套普通三消息或JSON模式，不把配置许可当OS/symlink隔离证明。
+
+仅default/concrete/wrapper dispatch源证据部分采用：owner拒绝由裸read转发推成authority缺陷的无证结论，并补模型在同文件漏看的声明；0code/Test/Native权限或运行收益。CLI不等完整准备、审阅或主动工时，更早发现/triage未录、fulltask/activeunknown；不同题目不与旧重复搜索案比速。仅公开许可的portable正文，原始源码、请求与工具历史留本机；本问已闭，无需补请求，双模式长期分别继续。
