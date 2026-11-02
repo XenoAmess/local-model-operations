@@ -1,0 +1,444 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-NORMAL-KERNEL-BUDGET-HANDOFF-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_software_cutoff_UTC": "2026-11-02T06:51:01.837601+00:00",
+  "operator_review_UTC": "2026-11-02T06:57:14.241597+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "New held complete normal kernel with recursive calls, opaque virtual callbacks, destructive ownership transfer, logical RAM aliases and bounded float-conversion behavior. Initially requested a complete kernel, independent finite plain-RAM witness and source/ABI audit; owner retained oracle and later took over all three Java sources.",
+  "input": {
+    "whole_text_items_per_logical_request": 9,
+    "physical_item_bytes": 22139,
+    "actual_source_message_UTF8_bytes": 23530,
+    "all_five_actual_REQUEST_whole_file_contents_order_and_parameters_verified": true,
+    "source_API_same_across_all_roles": true,
+    "scope": "Complete target ASM, actual existing caller and direct old declaration/Memory sources, current owner API, literal and owner contract. This is the normal kernel model, not complete Native ABI, instruction access-width trace, language EH or whole-caller binding.",
+    "hinting": "Owner API, algorithm/decomposition, callback/fresh-read ordering and stack relation explicitly supplied. Witness gets actual source/contract but no new kernel candidate or owner expected table; no independent oracle was adopted.",
+    "protocol": "Current exact system/user/user; temperature0; thinkingfalse; JSON object; SSE usage; finite budgets6500/4500/1800/10000/6500."
+  },
+  "tasks": [
+    {
+      "role": "core_R1",
+      "whole_text_items": 9,
+      "physical_item_bytes": 22139,
+      "source_message_UTF8_bytes": 23530,
+      "REQUEST_digest": {
+        "bytes": 26286,
+        "sha256": "4ca492b0626204de12bafe4a3f74e451bc500baac8d089c8405ed4d80c709ec1"
+      },
+      "EVENTS_digest": {
+        "bytes": 4506,
+        "sha256": "d63edf1af60e275132d64adbc62665eee5e54aa30f80fa44112f0c3aa612594e"
+      },
+      "review_digest": {
+        "bytes": 960,
+        "sha256": "1a11636e5ea489f96eca337f48a45871207d10c1ff8796c0b66c1d7e23fb8075"
+      },
+      "spec_digest": {
+        "bytes": 880,
+        "sha256": "75e8ba743756ef1b28da3f140f01617dde32160c33b8380d57e22d93c4ce9b93"
+      }
+    },
+    {
+      "role": "witness_R1",
+      "whole_text_items": 9,
+      "physical_item_bytes": 22139,
+      "source_message_UTF8_bytes": 23530,
+      "REQUEST_digest": {
+        "bytes": 26783,
+        "sha256": "1bcb7595107946919eaeaa5858175b4f78e02534b0ddfa135213f035aefd9616"
+      },
+      "EVENTS_digest": {
+        "bytes": 4544,
+        "sha256": "2103e6cb9c946f3e0261b4aa6f685a560a2e1f28d7a23b369c3d09680091d9b1"
+      },
+      "review_digest": {
+        "bytes": 972,
+        "sha256": "37bfc05f1c70b5e1a8651f4cd327c17e1528b1fc6b5e84deeb7896a6cc6c1c3b"
+      },
+      "spec_digest": {
+        "bytes": 883,
+        "sha256": "a2e2adf30038a0b888e37a03bd8c5f12f7b57251b167ebaa4560655327d19ec9"
+      }
+    },
+    {
+      "role": "ABI_R1",
+      "whole_text_items": 9,
+      "physical_item_bytes": 22139,
+      "source_message_UTF8_bytes": 23530,
+      "REQUEST_digest": {
+        "bytes": 26123,
+        "sha256": "8ecf73f78852995a52671fbeb851c626255b7db4781bcb138e0d2ebc8b6732af"
+      },
+      "EVENTS_digest": {
+        "bytes": 2073,
+        "sha256": "a52573f82f16403e514d2624c2d3b603da4393d44f442707953a855cf6d1c437"
+      },
+      "review_digest": {
+        "bytes": 930,
+        "sha256": "26b7f9ba717681cd64f017cf3305e265b4a5ed2f3be6eb2c71d1a51260d174ee"
+      },
+      "spec_digest": {
+        "bytes": 879,
+        "sha256": "0a5f2f4a24d5881715ebf566373f3f7dd460c9e8dc9bde347b989b4c88a0788c"
+      }
+    },
+    {
+      "role": "core_budget_R2",
+      "whole_text_items": 9,
+      "physical_item_bytes": 22139,
+      "source_message_UTF8_bytes": 23530,
+      "REQUEST_digest": {
+        "bytes": 26571,
+        "sha256": "97a24cddf63474b54c288436420817d297ec5b77f9de31dec9aa2e0bab2f1590"
+      },
+      "EVENTS_digest": {
+        "bytes": 2116,
+        "sha256": "8b9780a01cf94798d576a701439ed28e81844eae80b3a65ea396a79aebb131cc"
+      },
+      "review_digest": {
+        "bytes": 1003,
+        "sha256": "baeb85c850cc2b91d51f722f098202cfacf3cce93634e911d0f8ffa927846802"
+      },
+      "spec_digest": {
+        "bytes": 891,
+        "sha256": "014e9d7b34572b63292890b157f3725dcb4f45f71ff3d695b2b20a9d1a205f79"
+      }
+    },
+    {
+      "role": "witness_narrower_budget_R2",
+      "whole_text_items": 9,
+      "physical_item_bytes": 22139,
+      "source_message_UTF8_bytes": 23530,
+      "REQUEST_digest": {
+        "bytes": 27127,
+        "sha256": "79f6afc0b585acce841884681037842b6da665c46465b6cb7112039438436942"
+      },
+      "EVENTS_digest": {
+        "bytes": 2155,
+        "sha256": "3ff0995d81fee0f9d8ef9151bf4f30f275f614cdf0f827db38cf231556ba9fbd"
+      },
+      "review_digest": {
+        "bytes": 993,
+        "sha256": "4e85035420920812e3e7f7880fea528b5ab2ae27cecdfc3ca8af6a5de14e7f07"
+      },
+      "spec_digest": {
+        "bytes": 893,
+        "sha256": "cfce884c910713eef173959e13f7c9738eb162ae76b4608defe77726feebd40e"
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "role": "core_R1",
+      "attempt": 1,
+      "max_tokens": 6500,
+      "POST_BEGIN_UTC": "2026-11-02T06:25:07.849324+00:00",
+      "END_UTC": "2026-11-02T06:25:44.815663+00:00",
+      "finish_reason": null,
+      "SSE_DONE": false,
+      "HTTP_status": 200,
+      "failure_category": "connection_reset",
+      "reported_HTTP_seconds": 36.96621379999851,
+      "content_TTFT_seconds": 2.853957699990133,
+      "usage": null,
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 12431,
+        "sha256": "484978a7e02a5724f172f65facce83a37a46308a0772392ddf6bc0f3ed24f5bb"
+      },
+      "incomplete_content_handling": "Hashed only by Ops, owner discarded unread; no extraction/concatenation/semantic grading."
+    },
+    {
+      "role": "core_R1",
+      "attempt": 2,
+      "max_tokens": 6500,
+      "POST_BEGIN_UTC": "2026-11-02T06:25:54.245326+00:00",
+      "END_UTC": "2026-11-02T06:26:40.871980+00:00",
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "failure_category": "output_length",
+      "reported_HTTP_seconds": 46.626657600005274,
+      "content_TTFT_seconds": 1.3677705000009155,
+      "usage": {
+        "prompt_tokens": 11393,
+        "completion_tokens": 6500,
+        "total_tokens": 17893
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 17764,
+        "sha256": "90c6eddb0c2deaaf187cbe8970bd039dcc12edc5dd17ea1f1fab5199429023c6"
+      },
+      "incomplete_content_handling": "Hashed only by Ops, owner discarded unread; no extraction/concatenation/semantic grading."
+    },
+    {
+      "role": "witness_R1",
+      "attempt": 1,
+      "max_tokens": 4500,
+      "POST_BEGIN_UTC": "2026-11-02T06:25:07.849463+00:00",
+      "END_UTC": "2026-11-02T06:25:44.815135+00:00",
+      "finish_reason": null,
+      "SSE_DONE": false,
+      "HTTP_status": 200,
+      "failure_category": "connection_reset",
+      "reported_HTTP_seconds": 36.96571590000531,
+      "content_TTFT_seconds": 2.8538605000067037,
+      "usage": null,
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 14280,
+        "sha256": "74bac8d5d001933e92cb93b70e8f4819ec23df47737a93b86a0fca56b632c747"
+      },
+      "incomplete_content_handling": "Hashed only by Ops, owner discarded unread; no extraction/concatenation/semantic grading."
+    },
+    {
+      "role": "witness_R1",
+      "attempt": 2,
+      "max_tokens": 4500,
+      "POST_BEGIN_UTC": "2026-11-02T06:25:54.531526+00:00",
+      "END_UTC": "2026-11-02T06:26:29.853141+00:00",
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "failure_category": "output_length",
+      "reported_HTTP_seconds": 35.32158979999076,
+      "content_TTFT_seconds": 1.3407809999916935,
+      "usage": {
+        "prompt_tokens": 11477,
+        "completion_tokens": 4500,
+        "total_tokens": 15977
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 13268,
+        "sha256": "a749f398d97ec4e7fa83494bb99a799c09dbb58ae18fb3d00415b1e8bb577e56"
+      },
+      "incomplete_content_handling": "Hashed only by Ops, owner discarded unread; no extraction/concatenation/semantic grading."
+    },
+    {
+      "role": "ABI_R1",
+      "attempt": 1,
+      "max_tokens": 1800,
+      "POST_BEGIN_UTC": "2026-11-02T06:25:07.849203+00:00",
+      "END_UTC": "2026-11-02T06:25:25.578956+00:00",
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "failure_category": "output_length",
+      "reported_HTTP_seconds": 17.729883300009533,
+      "content_TTFT_seconds": 2.8541923000011593,
+      "usage": {
+        "prompt_tokens": 11324,
+        "completion_tokens": 1800,
+        "total_tokens": 13124
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 4073,
+        "sha256": "3cca88c3fdbf7ca49d802ddc9ef84793014b977b4277640ec76466b2e62cc0a0"
+      },
+      "incomplete_content_handling": "Hashed only by Ops, owner discarded unread; no extraction/concatenation/semantic grading."
+    },
+    {
+      "role": "core_budget_R2",
+      "attempt": 1,
+      "max_tokens": 10000,
+      "POST_BEGIN_UTC": "2026-11-02T06:30:01.188962+00:00",
+      "END_UTC": "2026-11-02T06:30:07.821048+00:00",
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "failure_category": null,
+      "reported_HTTP_seconds": 6.6320369000022765,
+      "content_TTFT_seconds": 1.928913299998385,
+      "usage": {
+        "prompt_tokens": 11447,
+        "completion_tokens": 691,
+        "total_tokens": 12138
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 1885,
+        "sha256": "6bfcf249e86b9457f25bfe9269abad427165140c9ab8b3c65da7ae67737d09aa"
+      },
+      "incomplete_content_handling": "Complete content reviewed by source owner; role/API whole rejection, not an output-limit failure."
+    },
+    {
+      "role": "witness_narrower_budget_R2",
+      "attempt": 1,
+      "max_tokens": 6500,
+      "POST_BEGIN_UTC": "2026-11-02T06:30:01.192617+00:00",
+      "END_UTC": "2026-11-02T06:30:40.194905+00:00",
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "failure_category": "output_length",
+      "reported_HTTP_seconds": 39.002321000007214,
+      "content_TTFT_seconds": 1.4144986000028439,
+      "usage": {
+        "prompt_tokens": 11538,
+        "completion_tokens": 6500,
+        "total_tokens": 18038
+      },
+      "cached_prompt_tokens": null,
+      "CONTENT_digest": {
+        "bytes": 19154,
+        "sha256": "5c86eb2a5f2b09c3bfb6fb6345dc4fdbbfdd74c328fc9216a47e6e3372d4f6a9"
+      },
+      "incomplete_content_handling": "Hashed only by Ops, owner discarded unread; no extraction/concatenation/semantic grading."
+    }
+  ],
+  "transport": {
+    "logical_requests": 5,
+    "actual_POSTs": 7,
+    "ENDs": 7,
+    "automatic_transport_retries": 2,
+    "connection_resets": 2,
+    "length": 4,
+    "complete_stop": 1,
+    "budget_scope_followup_requests": 2,
+    "third_round": false,
+    "client_in_flight_at_owner_cutoff": 0,
+    "client_peak": 3,
+    "peak_cumulative_seconds": 17.729493,
+    "HTTP_union_seconds": 122.599057,
+    "reported_HTTP_attempt_seconds_sum": 219.24441830001888,
+    "first_POST_to_last_END_wall_seconds": 332.345702,
+    "server_running_waiting_KV": null,
+    "cache_overload_congestion_inference": null
+  },
+  "grading": {
+    "initial_core_witness_ABI": "Final three length responses discarded wholly and unread by owner; two preceding reset partial streams also discarded unread. Ops only hashes these bodies. They are not semantic failures or complete audit opinions.",
+    "output_plan_followup": "Original whole core and6-8-case witness scopes exceeded initial budgets. Owner raised core6500→10000 and witness4500→6500 while reducing the witness to exactly4-5 complete scenes; source/API unchanged, fresh whole requests, no partial continuation. Scope/budget planning cost belongs to owner. ABI length was not rerun.",
+    "complete_core_followup": "Stop691 tokens with10000 limit, reviewed by owner and whole rejected: generates the older caller role and nonexistent API rather than requested normal kernel. This is a complete role/API failure, distinct from length and reset.",
+    "witness_followup": "Length6500, wholly discarded unread; no fragments, oracle or semantic grade.",
+    "model_code_adopted": 0,
+    "model_oracle_adopted": 0,
+    "owner": "All1481B API,7615B kernel and14162B Test; prePOST original-source bounded oracle, no model candidate/expected fragments."
+  },
+  "software": {
+    "first_actual_phases": [
+      {
+        "stage": "prod",
+        "BEGIN_UTC": "2026-11-02T06:36:37.984898+00:00",
+        "END_UTC": "2026-11-02T06:36:39.153866+00:00",
+        "process_seconds": 1.1689527999988059,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 1856,
+          "sha256": "a61fc3132fb0ab4145b230c4a87577a788da8761819a396969d22cb16dd15234"
+        },
+        "args_sha256": "9951343fe68760286484f2f71ae21216a9362cf12f4918e50c0d4619c6a8a476",
+        "log_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "stage": "test",
+        "BEGIN_UTC": "2026-11-02T06:45:05.021489+00:00",
+        "END_UTC": "2026-11-02T06:45:06.485227+00:00",
+        "process_seconds": 1.4637355000013486,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 1981,
+          "sha256": "b0c1d8881a5f8a5ba65e2e70285c315dc60ece3447998edcdfb4a8fbb6562c6a"
+        },
+        "args_sha256": "add52bc883f96957c64d46bbdceb1f564e9b48be057f7dd94bfa12b25043b4fa",
+        "log_digest": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      {
+        "stage": "run",
+        "BEGIN_UTC": "2026-11-02T06:47:56.793326+00:00",
+        "END_UTC": "2026-11-02T06:47:56.957465+00:00",
+        "process_seconds": 0.16413509999983944,
+        "exit_code": 0,
+        "ACTUAL_digest": {
+          "bytes": 1813,
+          "sha256": "b672b7d7ec40976e456c2f89935e3bf8036d5a01aaa1ff0128f987f6870f55c7"
+        },
+        "args_sha256": "ad17f6d9ab69295be012849a1983fe42f605420204e410b260f54fdd8faaf692",
+        "log_digest": {
+          "bytes": 364,
+          "sha256": "c87d67f02c4b570150e08c3c5ad927fa4ca436b30b5ac44178a05134ff60f631"
+        }
+      }
+    ],
+    "new_cases_passed": 9,
+    "checks": 135,
+    "returning_logical_RAM_cases": 8,
+    "bounded_budget_prefix_case": 1,
+    "runner": "Plain manual main exit0 with nine PASS lines; not JUnit/Surefire/CI or a Native differential.",
+    "scope": "Source-derived normal logical-RAM model with explicit opaque virtual ports. No original Native execution, complete ABI/access-width/EH proof, actual caller binding, Root/private issuer/permit, natural cause/material/Game/SAVE/performance or whole-domain completion qualification.",
+    "new_source_payload_digests": [
+      {
+        "role": "owner_API",
+        "bytes": 1481,
+        "sha256": "d84733ebdb5ccf155ca86f895fce3f64cc2f177ce1696e3cad22bbb2d8af131f"
+      },
+      {
+        "role": "owner_kernel",
+        "bytes": 7615,
+        "sha256": "a3262ac46099939110c187b123c5bed17ae0eb5cc212c681b78aa965fc34cc3a"
+      },
+      {
+        "role": "owner_Test",
+        "bytes": 14162,
+        "sha256": "05b7d4971e8d7e96356ea2f3ebafec73395d04dc398d6ca5c2148596da82fb91"
+      }
+    ],
+    "old_tests_RUN": 0,
+    "sole_executor": "Authorized business mechanical executor; source owner/Ops ran no compiler/JVM."
+  },
+  "formal_at_owner_software_cutoff": {
+    "state": "PENDING_SOLE_WRITER",
+    "commit": null,
+    "late_receipt_is_separate": true
+  },
+  "owner_cost": {
+    "earliest_reliably_recorded_selected_clock_UTC": "2026-11-02T06:24:11.938785+00:00",
+    "clock_role": "Owner oracle freeze, not source discovery or complete task start.",
+    "oracle_freeze_to_first_RUN_END_wall_seconds": 1425.01868,
+    "three_process_seconds_sum": 2.796823399999994,
+    "earlier_discovery_or_complete_task_wall_seconds": null,
+    "owner_active_prepare_review_fix_seconds": null,
+    "net_time_saving_seconds": null,
+    "preparation_errors": "Owner first shell Python quoting failure before business/Java, exact duration unknown. Ops one read-only search quoting error corrected before artifact writes, no HTTP/source execution.",
+    "interpretation": "Manual source closure/API/kernel/Test, discarded budget scopes, HTTP retry/backoff, review and resource coordination remain recorded costs. The1425.018680s oracle-clock window and2.796823s process sum are neither full task wall nor measured owner labor; no speedup or source-mode efficiency assertion."
+  },
+  "private_evidence_digests": {
+    "DELIVERY216.json": {
+      "bytes": 3969,
+      "sha256": "7e93db157567ca6a7d480413602c2224a06c4e8b89d7e85b827ebbbefae9731b"
+    },
+    "MODEL-COHORT216.json": {
+      "bytes": 11096,
+      "sha256": "56b1a863e167376f9bcefe1f200f56bd84a22cce7d1a9fda5157b0199ae6541f"
+    },
+    "COST216.json": {
+      "bytes": 1304,
+      "sha256": "9a30e1e3e37ef2fab10cf25b6e37d2c5d60a65db9422fccb9febc6e4636e2bc7"
+    },
+    "OWNER-ORACLE216.json": {
+      "bytes": 1907,
+      "sha256": "2982e36269ced5146b850ad72f2855258cb4eca782341d0b7bf1052f7b384655"
+    },
+    "R2-PREPARATION216.json": {
+      "bytes": 551,
+      "sha256": "8ef275931e9d5f2adaba34518f24c7143283250f57df258cf1bb0a5bcef5874c"
+    },
+    "formal-source216/MANIFEST216.json": {
+      "bytes": 3249,
+      "sha256": "a4be9c2e3407c571c07844bd22b0ddc4b40e38d3837fb0201e84cf707aaf076f"
+    }
+  },
+  "next_real_trigger": "Later exact publication receipt or separately qualified smaller new transfer method/counterexample with complete current source. No same whole-kernel/witness R3, quota success rerun or old software probe. HTTP/native-tool boundaries remain separate.",
+  "publication_new_HTTP_JVM_Game_actions": 0
+}

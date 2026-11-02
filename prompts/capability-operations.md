@@ -28,6 +28,7 @@
 - 大而复杂的全RAM、全ABI、多callee trace oracle由owner依据原始输入独立冻结。不要对每个相似的新任务都强制从零让模型再生成约20KB expected/Test；必要机械夹具和真实验收由owner负责，不能让模型研究成为业务前置。
 - 复杂全ABI producer也按交付单位路由：优先一个真实basicblock、typed API、薄binding、有限反例audit或小机械段，owner保留完整控制流/状态编排与独立验收；不要只拆大Test、仍反复索取整段复杂producer。已有整稿length和完整ABI错误分别留证，owner接管后不R3洗绿；新的具名边界仍允许有依据的有限探索。[完整候选与owner成本](../docs/evidence/2026-11-02-http-complex-producer.json)。
 - 模型优先承担仍未完成的typed API、成熟接口薄binding、窄诊断、具体源反证或小机械片段。先明确产物和验收范围，保留owner签名/设计/真实API提示程度；独立审稿也可能错，必须逐源核对，不能仅因角色名是audit就接受结论。
+- 汇编偏移、字段地址和栈坐标逐项显式写`0x`，十进制计数/长度注明单位；将任务文字、原ASM与同源actual helper声明/正文对齐，不把名称或注释中的`+40`当无歧义事实。owner原提示的数值歧义与候选中独立可证的fresh读取/API/状态错误分账，订正不回写旧REQUEST，也不据此声称订正后已重试、通过或有收益。
 - 审有多个函数式接口重载的构造器/调用时，逐个核实际实参静态类型、适用重载、SAM返回类型和构造器实际写入的回调字段。方法调用表达式lambda在void目标下可丢弃返回值；看到返回表达式或compile0不证明预期回调已接入。有既存class descriptor可只读复核，不能借此默认新开JVM/业务探针，也不能把live catalogue替为List快照或加宽cast来凑绿。[已纠正的owner/模型/正式审漏项](../docs/evidence/2026-11-02-http-constructor-overload-erratum.json)。
 - 新能力边界仍可做有限、具名的真实探索，说明新分支、未知项和可完整交付的单位。相似任务已有连续反例时，先调整分工或接管，不凭请求数、R2或采用配额继续大稿；已闭题不重投。准备、HTTP、审阅可重叠，把并发用于真实有交付价值的需求。
 - 判断缺少诊断前先核既有dispatch、ACK、custody、unavailable与实际保存/throw次序，再决定是否需要新工具或新观测。已有负向原件纠正owner推断不算模型新能力；缺少有效状态帧仍保持未知，另行授权的新功能需求与冗余诊断分开。

@@ -502,3 +502,9 @@ owner全12659B六新场景，facts prePOST、literal oracle在两END后/读CONTE
 [原HTTP-TYPED-DISPATCH-METHOD-001](evidence/2026-11-02-http-typed-dispatch-method.json)软件pending原像不改；[后到annex](evidence/2026-11-02-http-typed-dispatch-method-formal.json)独核7acc5da7两原payload+350B wrapper三commitblob/EOF全rawexact，680B方法仍唯一exact。唯一新wrapper 1P包原六场景，不当第七独立case；原pins保/旧prod API不增编，11.409098s窗口与10.121990s协调gap分记。2126.504565s已录准备→发表观察不回填1304.411179s首RUN成本，也不推净收益。
 
 owner在软件后把执行旧索引脚本误当读取，first-save保护断言在写前拦下；具名旧sidecar/continuation SHA未变，仍属未知时长准备成本，不能推广为旧prepare可安全执行。另chat短SHA错尾仅导航，fullmanifest/actual Test始终正确；原代码/期待/HTTP/firstactual不改，非模型失败，0新Ops HTTP/JVM/Game。沿既有只读模板规则继续，不补形式调用。
+
+## 后到：normal kernel输出不足与完整角色错误分开
+
+[HTTP-NORMAL-KERNEL-BUDGET-HANDOFF-001](evidence/2026-11-02-http-normal-kernel-budget-handoff.json)五逻辑请求各9完整项/实际23530B固定三消息，6500/4500/1800/10000/6500有限预算，共7POST7END=2reset自动整请求retry+4length+1stop，峰3仅17.729493s。全部partial只hash/owner未读整弃不拼；R1长度不足属owner whole范围/预算成本，不能当语义错。实际R2将core加至10000、witness加至6500且6–8场缩4–5场，源码/API不变；witness仍length，而core完整691tokens却输出旧caller和虚构API，整拒/noR3。模型代码/oracle采用均0，不能用最终owner绿追授。
+
+owner原源oracle prePOST，独立完整1481B API/7615B kernel/14162B Test。唯一首2prod strict0/1.168953s、Test0/1.463736s、manual九场景135checks0/.164135s，8逻辑RAM返回+1预算prefix，不冒九JUnit、完整ABI/accesswidth/EH或Native差分/自然cause/权限。1425.018680s仅oracle冻→首RUN录得窗口，完整发现起点/activeunknown；2.796823s三进程与准备/弃稿/等待分别留。formal本cutoff pending后见另记，0Game/SAVE/实速；后继只用新具名小方法/反审，不补旧whole R3或框架成功配额。
