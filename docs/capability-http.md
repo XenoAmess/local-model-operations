@@ -816,3 +816,5 @@ Witness漏getter读/捏table读整拒0oracle；事件是否只含external opaque
 [HTTP-GUIDED-PUBLIC-HISTORY-REGRESSION-312](evidence/2026-11-02-http-guided-public-history-regression.json)保8000/8500两真实POST/0retry/noR3、无HTTP重叠。首31完整源525832物理B与R2加自身R1后的32源、实际三message UTF8分列；R1完整Test算法因真实API/类型/历史匹配/边界缺口拒，R2 length8500整弃未读未解码0片段，不能冒第二份语义失败。仅R1机械WIRE/typed command复用，owner全两方法/helpers；原oracle pre-answer未供、实现可见guided非blind，无内部marker镜像。
 
 唯一新pure-DATA Test首strict0/1.894485s→2P/4.460850s，XML两方法核，0生产/helper/旧Test重编；6.355334s过程对1229.986986s首POST→JVMwall、217.530882s阶段gap，早准备/active/netunknown，不全归HOLD/CPU。描述性snapshot误会和读日志路径错误归owner/执行准备，不造API缺口或Test红。后见e5d06cbf单Test13944B raw/formal/EOF等，原切点保；0FS/JNA/会员权限/Runtime/实速信用。
+
+223独立[正式后见annex](evidence/2026-11-03-http-complete-static-wrapper-binding-formal.json)记4a86c453：1162/2056模型原类与9022B owner Test三blob raw/formal/EOF逐字节等，0新增HTTP/编验。原source/software的pending不回写，强hint/可达范围与owner事件口径限制不升级为full185/物理状态/自然业务或速度通过。
