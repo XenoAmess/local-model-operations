@@ -1094,3 +1094,6 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 348 [launcher receipt只读owner反例](evidence/2026-11-03-http-launcher-receipt-readonly-owner-countercases.json)一candidate-visible HTTP7000length先核RESULT、CONTENT整未读弃，0fragment/semanticgrade/noR2。Drive/root-relative、typedSHA与optional key存在但falsy三类来自owner源审，Runtime owner修helper，auditor不写生产。过宽1.4MB+七refs准备成本保，actualHTTP只已消费36行+一代表及完整当前/旧launcher，0launcher/投影执行/Java/Game或通用路径安全证明。
 
 229 [后到正常formal](evidence/2026-11-03-http-single-effect-exchange-later-formal.json)66965238三个payload共13705B raw/formal/EOF全等，两model类原无terminalnewline保；只复用原五scene48checks，原4086B pending与Maven交叉/计时边界保，0新增编验或hardwareatomic/自然业务/速度授信。
+
+
+349 [多visible补充owner验证](evidence/2026-11-03-frontier-multiple-visible-owner-validation-later.json)0HTTP/非新modelcase，已知344生产后只加一方法+六imports；首次该1method1P含三个internal DATA scenarios，旧三方法0RUN。两distinct roots通过public软件retain/settle与两cycle records入场，删/错secondcoverage拒0publish，不授private walkcount/权限/FS/live。旧3methods/helpers源逆除byteexact，不称javac重emit后的classbytes不变；4.4689801进程对643.791718标记窗/activeUNKNOWN分列，原344单visible与pending切点不回填。
