@@ -379,3 +379,9 @@ owner13edit正逆精确，私有局部proof仅在同role/session/thread一次cal
 [HTTP-DISPATCH-METHOD-IN-SCAFFOLD-001](evidence/2026-11-02-http-dispatch-method-in-scaffold.json)以15完整输入51551B和owner指定真实route/名义类型/未写scaffold派两个角色。R1完整869B dispatch方法逐字存在选定1984B类内一次，0owner method执行/EOL/EOF修；其它execute/bind/nonnull架子与comment为owner，不能授wholeclass/自主API或盲算法发现。audit完整981tokens但错savedRBX槽/发明Frame/缺具体callback反例，仅有限事实可用；一处audit parent名称owner笔误因果未知另保，不称隔离cleanprompt失败，也不R2复述已知事实。2POST2stop/0retry，预算1700/1800，峰2仅4.960639s。
 
 owner原facts先于POST，五新case在响应结束后、owner读CONTENT前冻结，不能把“读前独立”说成生成前冻结。首1prod/1Test/RUN五case无修全0，2.172894s进程与known→RUN887.713197s/inputfreeze→RUN704.609610s、GO/通知间隔分列，active/netunknown。原formal pending截止不改，后到14890196两payload rawexact；新增335B ownerJUnit wrapper只调用这五case，1P不另计第六场景，wrapper25.369929wall/1.128569process/24.241333gap独立。其它ports opaque，0硬件/Native/Game/性能或更大完成信用。
+
+## 后到：linked schema审稿不是实现采用
+
+[HTTP-LINKED-SCHEMA-SOURCE-AUDIT-001](evidence/2026-11-02-http-linked-schema-source-audit.json)为owner源码/首1TU2.379375s之后的两个真实分析角色，非实现采用率分母。17完整项402036B含15Java和2实际小JSON；actual三消息均核全文。audit1800预算stop788只部分支持真实wrapper/唯一linked内层与frame/helper导航，虚构可直接接受unwrapped schema的else路径拒；已完整给JSON却称snippets是读源限制。counter length1800整弃0片段/不R2凑审通过。2POST1stop1length/0retry，实际END已发生但旧FINAL仍写pending的lastknown原件保留，不能沿未消费状态延长在途。
+
+owner源与首编都早于POST，0模型Java/实际case；正式4b07eeca仅owned block，编译raw75912与formal75727整叶不同，不能冒rawexact。完整准备起点/主动审阅和净收益未知，只列sourceReady后实墙钟/HTTP/首strict。原业务后续另有ancestry失败，源导航和Published不能记完整恢复/SAVE/性能。

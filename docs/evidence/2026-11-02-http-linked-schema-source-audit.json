@@ -1,0 +1,187 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-LINKED-SCHEMA-SOURCE-AUDIT-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_source_cutoff_UTC": "2026-11-02T04:36:19.220467+00:00",
+  "original_delivery_cutoff_UTC": "2026-11-02T04:41:11.357310+00:00",
+  "later_model_review_UTC": "2026-11-02T04:53:16.415344+00:00",
+  "operator_review_UTC": "2026-11-02T04:57:24.887837+00:00",
+  "task_category": "source-analysis-and-counterexamples",
+  "implementation_adoption_denominator": false,
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Audit strict navigation from a generic wrapper to its unique linked typed inner data, preserving original effect/frame/schema qualification.",
+  "input": {
+    "whole_file_items": 17,
+    "physical_UTF8_bytes": 402036,
+    "Java_source_files": 15,
+    "actual_DATA_or_log_items": 2,
+    "actual_REQUEST_complete_frozen_texts_and_order_verified": true,
+    "candidate_and_baseline_supplied": true,
+    "wire": "Eight keys; fixed current system/user/user; temperature0; thinkingfalse; JSON object and SSE usage. Disk raw bytes and actual newline-normalized message bytes are distinct.",
+    "closure_limit": "Only these recorded full files/data/logs are counted. Omitted transitive declarations and the independent owner/M7 review are not retrospectively counted in model coverage. Candidate-informed analysis is not independent oracle discovery."
+  },
+  "calls": [
+    {
+      "role": "schema-source-audit",
+      "POST_BEGIN_UTC": "2026-11-02T04:39:38.567024+00:00",
+      "END_UTC": "2026-11-02T04:40:07.558493+00:00",
+      "max_tokens": 1800,
+      "source_message_UTF8_bytes": 405204,
+      "CRLF_pairs_read_as_LF": 1736,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 22.608345200002077,
+      "reported_HTTP_seconds": 28.991734800001723,
+      "usage": {
+        "prompt_tokens": 88344,
+        "completion_tokens": 788,
+        "total_tokens": 89132
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 417291,
+        "sha256": "5ee61bd17d897f2d2647ff5ec3b5995fd39ebf724b9980062ee38f9bf2789043"
+      },
+      "EVENTS_digest": {
+        "bytes": 2273,
+        "sha256": "4b4453ec1c1e004e5e02d67848e78c4b362ce01b90184fac9e45a64e8c74de36"
+      },
+      "CONTENT_digest": {
+        "bytes": 3515,
+        "sha256": "098fee449e253832bc962782e3e18dd6b206ab9a9007a0491b55b1971804eb06"
+      }
+    },
+    {
+      "role": "schema-counterexamples",
+      "POST_BEGIN_UTC": "2026-11-02T04:39:38.567403+00:00",
+      "END_UTC": "2026-11-02T04:40:13.576077+00:00",
+      "max_tokens": 1800,
+      "source_message_UTF8_bytes": 405204,
+      "CRLF_pairs_read_as_LF": 1736,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 21.4808875000017,
+      "reported_HTTP_seconds": 35.008947500013164,
+      "usage": {
+        "prompt_tokens": 88370,
+        "completion_tokens": 1800,
+        "total_tokens": 90170
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 417393,
+        "sha256": "697e5274c1591e29cf02f84e9722a98c1ef46b32c412fdc0f7182087b4162a87"
+      },
+      "EVENTS_digest": {
+        "bytes": 2297,
+        "sha256": "c26588fda29499df3fab37e33563a9b69916e9afa87c662d8919e5d3001e5514"
+      },
+      "CONTENT_digest": {
+        "bytes": 8402,
+        "sha256": "14d3ddcfc25c7cfacebf97b70d9515718900bb9bd279f45d42c6b7df6291a889"
+      }
+    }
+  ],
+  "transport": {
+    "logical_roles": 2,
+    "POSTs": 2,
+    "ENDs": 2,
+    "stop": 1,
+    "length": 1,
+    "retry": 0,
+    "client_peak": 2,
+    "peak_cumulative_seconds": 28.99109,
+    "HTTP_union_seconds": 35.009053,
+    "reported_HTTP_seconds_sum": 64.00068230001489,
+    "service_running_waiting_KV": null,
+    "cache_or_congestion_cause": null,
+    "target12_16_claimed_achieved": false
+  },
+  "adoption": {
+    "complete_audit": "Partial source comments only; not whole audit acceptance. Only wrapper selection, unique linked chain, matching frames/compatible references and actual helper extraction receive bounded source support. The complete audit does not establish the prior registered-verifier closure or actual business success.",
+    "rejected_complete_claims": "Invented support for an unwrapped current-seat schema and an else branch absent from the supplied candidate. Actual candidate requires the wrapper for that schema, while preserving its legacy direct schema. Complete small actual JSON bodies were supplied; calling them unparsed snippets is a reading limitation, not established missing input.",
+    "counterexamples": "Length response discarded whole, zero partial source adoption, no semantic retry to complete a quota. Whether the owner inspected fragments is not separately claimed here; this is not a complete semantic candidate.",
+    "model_code_adoption": 0,
+    "executed_model_software_cases": 0,
+    "owner_preselected_source_and_first_strict_before_either_POST": true
+  },
+  "owner_source_and_software": {
+    "source_ready_UTC": "2026-11-02T04:36:19.220467+00:00",
+    "source_ready_state_remains": "SOURCE_READY_NOT_COMPILED",
+    "selected_runtime_source": {
+      "bytes": 75912,
+      "sha256": "ac290ed5f33ed58dfc33cc7a78ad745cb9588e83003b27591ec50b26aa62e52c"
+    },
+    "baseline": {
+      "bytes": 73745,
+      "sha256": "534d657cc0044aa84c8389896a3750024f48be0dd8f30a6da3a0f9e5478b7f7a"
+    },
+    "first_strict_BEGIN_UTC": "2026-11-02T04:37:08.895739+00:00",
+    "first_strict_END_UTC": "2026-11-02T04:37:11.275113+00:00",
+    "first_strict_process_seconds": 2.37937470000179,
+    "only_source_TUs": 1,
+    "exit_code": 0,
+    "new_behavior_tests": 0,
+    "limit": "Owner code and first compile predate model requests. No model discovery/code credit, complete runtime recovery, dispatch, new SAVE, saved-day performance or loaded configuration is inferred."
+  },
+  "formal": {
+    "observed_UTC": "2026-11-02T04:39:33.794900+00:00",
+    "commit": "4b07eeca79dfb20542245ec1ffdca4fdfcd757db",
+    "normal_push_remote_exact_clean": true,
+    "compiled_runtime_source_whole": {
+      "bytes": 75912,
+      "sha256": "ac290ed5f33ed58dfc33cc7a78ad745cb9588e83003b27591ec50b26aa62e52c"
+    },
+    "published_formal_whole": {
+      "bytes": 75727,
+      "sha256": "f8eb535b4ed4e37e766b4e5e1f88eac458d1fa90965d133ffffe59692e77d397"
+    },
+    "whole_raw_and_formal_equal": false,
+    "scope": "Only owned narrow hunks applied to the formal baseline; existing formal bytes outside the hunks were preserved by the source writer. Runtime and formal complete blobs differ and are not represented as byte-equal. No new compile/RUN by publication or this operator."
+  },
+  "clock_accounting": {
+    "full_preparation_start_UTC": null,
+    "full_task_wall_seconds": null,
+    "active_owner_preparation_review_seconds": null,
+    "net_saving_seconds": null,
+    "recorded_source_ready_to_first_strict_BEGIN_wall_seconds": 49.675272,
+    "recorded_source_ready_to_first_POST_wall_seconds": 199.346557,
+    "recorded_source_ready_to_model_review_wall_seconds": 1017.194877,
+    "scope": "These are recorded post-ready windows, not complete discovery/active labor/CPU measurements. HTTP durations, compiler duration, review and resource coordination gaps stay distinct; no end-to-end speed gain or overload cause is inferred."
+  },
+  "private_evidence_digests": {
+    "source_ready": {
+      "bytes": 1532,
+      "sha256": "53d3b7ce0eb3f1f8014dfa25bdbb10c2313867df743cca6363dd21adcbdca101"
+    },
+    "source_input": {
+      "bytes": 8252,
+      "sha256": "75891ad6c9f1e1d8aafe8cf667ab015644ead9071265c936b354c8de72f512e9"
+    },
+    "owner_delivery": {
+      "bytes": 8117,
+      "sha256": "66dcab76442e0658a47a00245dc7a509e5b5205ed13174506f75f773b0c83df1"
+    },
+    "later_model_review": {
+      "bytes": 6369,
+      "sha256": "499ef8f84d64f5e7ac4b2dc216c456215bbcc56b4c7574ee7728488c23dc4f91"
+    },
+    "first_strict_actual": {
+      "bytes": 64269,
+      "sha256": "b8a77ae089a088d508772b9c8b7d2ce33662dd4a10088a2fadf873312ebbcbce"
+    },
+    "formal_publication": {
+      "bytes": 799,
+      "sha256": "868c4131ae29a55b0795386d6685edcb5b741b186021c7dd960eb97345378470"
+    },
+    "formal_staged": {
+      "bytes": 71130,
+      "sha256": "50c6480f97a033f49e42e9ae8434ab843cc62e1f5741e78744e58267eb4a90c9"
+    }
+  },
+  "next_real_trigger": "Only a genuinely new current-source task or separately authorized actual runtime receipt. Preserve frozen source/delivery states and complete/incomplete output categories; no old task/model replay or OpenCode success quota.",
+  "publication_new_HTTP_JVM_Game_actions": 0,
+  "stale_status_boundary": "Original FINAL still reports pending after both actual EVENT ENDs had occurred. This is preserved as an unconsumed/last-known status; late review uses actual EVENT intervals and does not extend model inflight time."
+}
