@@ -1,0 +1,164 @@
+{
+  "schema": "local-model-operations.capability-case/v1",
+  "case_id": "HTTP-KNOWN-NONGROWTH-COMPOSITION-601",
+  "mode_id": "http-candidate",
+  "date": "2026-11-02",
+  "environment": {
+    "model_alias": "qwen38-coder",
+    "backend_weight_quantization_build": null,
+    "invocation_caller_Git_version": null,
+    "actual_parameters": "Canonical fixed system/user/user, temperature0, thinkingfalse, include_usage and finite budgets checked; current HEAD is not substituted for an unfrozen invocation version."
+  },
+  "input": {
+    "complete_source_items": 22,
+    "physical_bytes": 58946,
+    "full_source_message_UTF8_bytes": 64560,
+    "hints": "Strong exact public shape, signature, nominal Memory, current caller/callee routing, budget/fallback and explicit unsupported-growth architecture supplied. No new owner method body, Test or oracle in model prefix. Mature references were visible; not autonomous API discovery or whole-algorithm design."
+  },
+  "HTTP": {
+    "logical_tasks": 2,
+    "actual_POST": 2,
+    "stop": 1,
+    "length": 1,
+    "retry": 0,
+    "selected_client_peak": 2,
+    "peak2_seconds": 9.032617,
+    "requests": [
+      {
+        "role": "composition",
+        "POST_BEGIN": "2026-11-02T15:08:35.047660+00:00",
+        "END": "2026-11-02T15:08:44.080556+00:00",
+        "max_tokens": 1800,
+        "finish_reason": "stop",
+        "TTFT_ms": 3343.9474000042537,
+        "total_ms": 9032.918100012466,
+        "usage": {
+          "prompt_tokens": 21572,
+          "completion_tokens": 646,
+          "total_tokens": 22218
+        },
+        "cached_prompt_tokens_if_reported": null,
+        "source_message_UTF8_bytes": 64560
+      },
+      {
+        "role": "audit",
+        "POST_BEGIN": "2026-11-02T15:08:35.047939+00:00",
+        "END": "2026-11-02T15:08:57.900817+00:00",
+        "max_tokens": 2600,
+        "finish_reason": "length",
+        "TTFT_ms": 3344.3948999920394,
+        "total_ms": 22852.816200000234,
+        "usage": {
+          "prompt_tokens": 21524,
+          "completion_tokens": 2600,
+          "total_tokens": 24124
+        },
+        "cached_prompt_tokens_if_reported": null,
+        "source_message_UTF8_bytes": 64560
+      }
+    ],
+    "limits": "Exact selected cohort only; not sustained12-16 or service load."
+  },
+  "adoption": {
+    "complete_R1_class_raw_bytes": 2463,
+    "sha256": "a48117e4fa8d2af4bc800eca8348ed2055c0de941966bef27b1c8730b76eaf0c",
+    "owner_Java_EOF_or_EOL_edits": 0,
+    "corrective_R2": 0,
+    "boundary": "Complete hinted composition class retained an extra anonymous wrapper and constructed the mature factory inside invocation instead of the requested minimal outer composition. Actual routing source proves the extra fallback cannot recurse for these selected sites. Redundant allocation accepted raw, not an efficiency improvement.",
+    "audit": "One budget2600 length reply discarded whole, semantically unread, zero fragment/oracle/Test/source adoption. No semantic conclusion from its partial content and no retry.",
+    "owner_Test": "All new expected values and Test code are owner. Oracle frozen after both HTTP END and before first CONTENT read, before target execution. Mature mechanical RAM template may be reused; no old case inputs/expected or algorithm copy.",
+    "observation_limit": "Both selected actual callees run in the same original caller. Final represented registers/DF, memory and budget are checked; a private intermediate high register is source-proved through routing, not directly sampled by these whole cases."
+  },
+  "software": {
+    "first_phases": [
+      {
+        "phase": "JAVAC_PROD",
+        "seconds": 0.6077018000069074,
+        "exit_code": 0
+      },
+      {
+        "phase": "JAVAC_WITNESS",
+        "seconds": 0.7402310000034049,
+        "exit_code": 0
+      },
+      {
+        "phase": "RUN",
+        "seconds": 0.2062937000009697,
+        "exit_code": 0
+      }
+    ],
+    "facts": {
+      "class_bytes": 2463,
+      "owner_Test_bytes": 11741,
+      "new_whole_binding_cases": 3,
+      "global_operations": 107,
+      "Memory": {
+        "total": 102,
+        "read": 65,
+        "write": 34,
+        "CAS": 3
+      },
+      "controlled_opaque_invocations": 0,
+      "budget_events": 5,
+      "parent_CALL_pushes": 6
+    },
+    "source_or_expected_repair_after_execution": 0,
+    "old_cases_or_sources_rerun": 0,
+    "limits": "Non-growth binding only. Full floating-point growth/control-status, general RFLAGS, original Native, physical ABI/EH, hardware/Game, SAVE and whole-module completion remain unproved."
+  },
+  "cost": {
+    "known_impact_clock": "2026-11-02T15:01:50+00:00",
+    "known_impact_to_POST_seconds": 405.04766,
+    "known_impact_to_RUN_END_seconds": 930.691253,
+    "process_sum_seconds": 1.554226500011282,
+    "prod_to_Test_gap_seconds": 132.506634,
+    "Test_to_RUN_gap_seconds": 8.113888,
+    "owner_active_seconds": null,
+    "net_time_saving": null,
+    "boundary": "Earlier discovery not fully clocked. Includes input closure, parallel HTTP, source audit, owner oracle/Test, cache arguments, coordination and overlapping work; not exclusive labor or CPU.",
+    "owner_preparation_errors": "Preparation included source closure, same-call routing proof and new owner cases. No unknown earlier work or active time is filled with zero."
+  },
+  "formal": {
+    "original_software_pending_cutoff_unchanged": true,
+    "late_commit": "5613b3052d4c9390993dec800530085b8e05b57d",
+    "source_blob_projections": [
+      {
+        "raw_bytes": 2463,
+        "raw_sha256": "a48117e4fa8d2af4bc800eca8348ed2055c0de941966bef27b1c8730b76eaf0c",
+        "formal_bytes": 2463,
+        "formal_sha256": "a48117e4fa8d2af4bc800eca8348ed2055c0de941966bef27b1c8730b76eaf0c",
+        "EOF_preserved": true,
+        "raw_equals_formal": true
+      },
+      {
+        "raw_bytes": 11741,
+        "raw_sha256": "92e4c2f55bc76242a961ca86d390e6abdda595293933cdbd5362dc3a8d800748",
+        "formal_bytes": 11741,
+        "formal_sha256": "92e4c2f55bc76242a961ca86d390e6abdda595293933cdbd5362dc3a8d800748",
+        "EOF_preserved": true,
+        "raw_equals_formal": true
+      },
+      {
+        "raw_bytes": 349,
+        "raw_sha256": "e0ee10a5b7f05e5b4a8a096649d1f5b8f2445bba37c6f8635428b5f8db50d856",
+        "formal_bytes": 349,
+        "formal_sha256": "e0ee10a5b7f05e5b4a8a096649d1f5b8f2445bba37c6f8635428b5f8db50d856",
+        "EOF_preserved": true,
+        "raw_equals_formal": true
+      }
+    ],
+    "only_new_wrapper": {
+      "compiled_TU": 1,
+      "selected_JUnit_methods_passed": 1,
+      "same_cases_not_an_extra_case": true,
+      "pins": 94,
+      "process_sum_seconds": 1.7968357999925502,
+      "wall_seconds": 9.947602,
+      "phase_gap_seconds": 8.150759,
+      "old_production_API_manual_recompiled": 0
+    },
+    "scope": "Publication wrapper invokes the same new finite units; it does not add another case or replay the old suite."
+  },
+  "runtime_adoption_or_speed_credit": false,
+  "new_operator_HTTP_GET_JVM_Game": 0
+}

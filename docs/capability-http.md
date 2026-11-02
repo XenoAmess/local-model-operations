@@ -786,3 +786,7 @@ Owner七scene POST前独冻未供，另两same-target后CALL/TAIL排除项POST�
 ## 窄非增长callee组合600：完整class原样与owner新见证
 
 [HTTP-KNOWN-NONGROWTH-COMPOSITION-600](evidence/2026-11-02-http-known-nongrowth-composition-600.json)保17完整项48221物理B/52399源码消息B，2500/2300两stop；4118B R1完整class/EOF原样、owner Java0，强signature/routing/fallback设计提示保。反审具体RVA/SP/POP与非有限输入错误拒，仅一般约束partial。Owner四新wholebinding，104global=96Memory+4opaqueInvoke+4Budget；原首pred仍opaque，growth显式不支持。Oracle均两HTTP END后、首次CONTENT前冻，非生成前盲oracle；无旧case/算法复制。真实峰2仅11.989997s，不冒持续并发；三首次0的1.508044s过程对1041.257522s已录wall，早发现/active/netunknown。原softwarepending保，后见4b45cfe4三个source blob的raw/正式/EOF投影与wrapper同组selected1P分账，不新增场景；0完整FP增长/一般RFLAGS/Native/Game/SAVE/实速信用。
+
+## 窄非增长callee组合601：完整class原样与owner新见证
+
+[HTTP-KNOWN-NONGROWTH-COMPOSITION-601](evidence/2026-11-02-http-known-nongrowth-composition-601.json)保22完整项58946物理B/64560源码消息B，1800实施stop与2600反审length整弃未读；2463B R1完整class/EOF原样、owner Java0，但强factory/shape提示保。额外anonymous wrapper源证不递归、原样接受不称最简或提速；无R2。Owner三新both-callee wholebinding，107global=102Memory+5Budget/0opaqueInvoke，私有中间高寄存器未直接runtime采样。Oracle均两HTTP END后、首次CONTENT前冻，非生成前盲oracle；无旧case/算法复制。真实峰2仅9.032617s，不冒持续并发；三首次0的1.554227s过程对930.691253s已录wall，早发现/active/netunknown。原softwarepending保，后见5613b305三个source blob的raw/正式/EOF投影与wrapper同组selected1P分账，不新增场景；0完整FP增长/一般RFLAGS/Native/Game/SAVE/实速信用。
