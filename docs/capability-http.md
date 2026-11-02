@@ -397,3 +397,9 @@ owner源/首1TU2.182494s在两POST前已完成；原准备文案写两次assert�
 4个真实任务分别是普通领袖对照准备、传播回合时序诊断、未知能力安全待命helper、资格回调后身份再检测试。4个不相交POST区间，3完整stop/JSON对象、1 length1600整弃、0传输重试，峰1；不是4并发。143仅在owner补早期slot guard后准备，原生尚未运行。144只有既有idle门控思路部分参考，未测Busy flags不能推出已确认竞态；145竟禁止任务要求保留的persistent pending，完整helper拒绝；146截断稿未采用、不拼接。owner曾在确认终态前误打开raw，保留流程错误，不作语义能力定性。
 
 owner实测43自主传播有效但次回合被受托单位需命令阻断；最终44安全SKIP待命、回执保留与busy停发由owner实现，9新边界方法加全套363PASS/60.310s。owner首测夹具重名覆盖老项目待机测试，已按原HEAD恢复，独立命名新夹具；过宽busy门还曾阻止既有事实读回，修正后保留读回和pending计时。拒绝/截断与owner修正成本分别记录，44原生仍待验，不能从软件绿追授模型或行动费用通过。[逐请求与正式采用回执](evidence/2026-11-02-civ6-standby-delivery.json)。OpenCode本轮仅每日维护缓存，0native生成；净收益与模式比较未知。
+
+## 后到：child adapter的实参和不可变offer修正
+
+[HTTP-CHILD-FRAME-ADAPTER-001](evidence/2026-11-02-http-child-frame-adapter.json)在owner全ABI编排下派一个有真实caller的窄adapter。按角色实核11/10/10完整项；adapter见新owner caller，两个counter角色未见新producer/oracle，不混成同一独立审域。adapter stop410给1476B完整Java，owner只两替换成1484B：补已完整声明API的actual Calls实参、N guard改比已有childEntry不可变offer而非可变registers。双逆回decoded全文/EOL/EOF精确，partial而非whole raw；缺参在javac前纠正，不能虚记编译红。
+
+counter R1 length1700整弃不判完整语义；R2缩到新source三事实仍stop262却答旧helper泛风险，整拒0分析采用/noR3。3POST2stop1length/0retry，峰2仅5.390385s。owner3356B全体/13030B Test及先冻literal分账，Test后见生产不授wholeblind；新组合6P/旧subject0RUN，三进程3.686644s与firstprod→RUN153.007549s、marker→delivery820.922160s/Ready→POST195.597911s墙钟分别保，active与更早发现未知。原软件cutoff正式pending，0Native硬件/完整selector/游玩恢复或提速信用。
