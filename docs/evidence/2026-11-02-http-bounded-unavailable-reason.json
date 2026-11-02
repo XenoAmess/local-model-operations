@@ -1,0 +1,193 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-BOUNDED-UNAVAILABLE-REASON-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "operator_review_UTC": "2026-11-02T14:14:16.459122+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "A minimal existing diagnostic path: propagate the real unavailable reason into the existing IOException with a legacy prefix and a finite Unicode-codepoint bound. No new observation, permission, retry, source type or control-flow branch authorization.",
+  "input": {
+    "complete_materials": 8,
+    "physical_bytes": 84784,
+    "actual_source_message_UTF8_bytes_owner_audited": 87224,
+    "qualification": "Changed target, actual caller, unavailable-result constructor, analogous consumers and explicit bounded-text contract. Strong owner hints; not independent discovery of a Root permission or full recursive private authority closure.",
+    "source_freeze_UTC": "2026-11-02T13:53:12.506704+00:00",
+    "exact_invocation_caller_revision": null,
+    "later_HEAD_not_substituted": true,
+    "operator_audit": "Small named source/adoption/cohort/actual pins and raw output strings checked, without a large REQUEST rescan. Fixed-three/full-body wire qualification is the owner actual-request audit."
+  },
+  "calls": [
+    {
+      "role": "implementation",
+      "POST_BEGIN_UTC": "2026-11-02T13:53:42.588993+00:00",
+      "END_UTC": "2026-11-02T13:53:47.868890+00:00",
+      "max_tokens": 1300,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "caller_attempt_total_seconds": 5.279789199994411,
+      "content_TTFT_seconds": 3.170561799997813,
+      "usage": {
+        "prompt_tokens": 18673,
+        "completion_tokens": 222,
+        "total_tokens": 18895
+      },
+      "cached_prompt_tokens": null,
+      "actual_source_message_UTF8_bytes_owner_audited": 87224,
+      "EVENTS_digest": {
+        "bytes": 2126,
+        "sha256": "687b7574a547f70db7bd2ec0383644769a84cd8690104a69625324c6118b1701"
+      },
+      "complete_response_digest": {
+        "bytes": 938,
+        "sha256": "f2d8fd8942d3ef22fa5d64b1d01d5583791053dd3db67a2f4b4e96672774158a"
+      }
+    },
+    {
+      "role": "baseline source audit",
+      "POST_BEGIN_UTC": "2026-11-02T13:53:42.589188+00:00",
+      "END_UTC": "2026-11-02T13:53:54.678702+00:00",
+      "max_tokens": 1700,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "caller_attempt_total_seconds": 12.089588399991044,
+      "content_TTFT_seconds": 3.170407500001602,
+      "usage": {
+        "prompt_tokens": 18661,
+        "completion_tokens": 580,
+        "total_tokens": 19241
+      },
+      "cached_prompt_tokens": null,
+      "actual_source_message_UTF8_bytes_owner_audited": 87224,
+      "EVENTS_digest": {
+        "bytes": 2131,
+        "sha256": "b6cf84a3504d1cc834a7219722a0187db59191cb1755075cd47ecea0f59129a8"
+      },
+      "complete_response_digest": {
+        "bytes": 2693,
+        "sha256": "d4dca146d8e370bde2b0839f975354e37ea626432436502a3b01b788249399a2"
+      }
+    }
+  ],
+  "transport": {
+    "actual_POSTs": 2,
+    "ENDs": 2,
+    "stop": 2,
+    "length": 0,
+    "automatic_retry": 0,
+    "client_peak": 2,
+    "peak_two_seconds": 5.279702,
+    "server_running_queued_KV": null,
+    "cache_congestion_inference": null
+  },
+  "adoption": {
+    "implementation": "One complete R1 raw helper string and one raw callsite replacement retained exactly; zero owner executable-token edits. Final4843-byte existing class is not a model whole-class generation.",
+    "original_source_digest": {
+      "bytes": 4315,
+      "sha256": "c77c1f11deed002572664a64b544c4d484f8e9695c8142727ece8f4a569d1aa7"
+    },
+    "compiled_selected_source_digest": {
+      "bytes": 4843,
+      "sha256": "72b11c4cffc38d1fc37b9476f8ecf4cee265b8e874f352ea932b3d1d9c69d1fe"
+    },
+    "raw_helper_digest": {
+      "bytes": 576,
+      "sha256": "ed8b4a557e16cf9faec783bd98d2dd49cf57649affe238f89748bab76b229dc8"
+    },
+    "raw_callsite_and_helper_unique_exact": true,
+    "outside_inverse": "Remove the exact raw helper plus one assembly separator newline and invert the unique callsite, reproducing all baseline bytes and EOF. The one blank separator line is explicitly qualified, not an all-raw file claim.",
+    "audit": "Only finite source/codepoint boundary facts partially useful. Alleged null/empty unavailable reasons are rejected by the supplied constructor contract. Baseline-only prospective audit saw no selected candidate and is not complete code approval or a model Test/oracle."
+  },
+  "finite_source_behavior": {
+    "existing_exception_prefix_and_type_retained": true,
+    "reason_bound": "At most2048 original Unicode codepoints, with dots only when the original reason is truncated; no surrogate-half cut from UTF16 indexing.",
+    "fallback": "Known/null helper inputs keep legacy fallback text; production nonKnown branch and all existing query/read/archive/frame/session/lifecycle/domain checks remain.",
+    "qualification": "These are source properties, not a new runtime read or behavioral experiment. Existing constructor preconditions are used rather than inventing reachable null/empty results."
+  },
+  "validation": {
+    "source_cohort_cutoff": "SOURCE_READY_PENDING_NECESSARY_FIRSTSTRICT_FORMAL_PENDING",
+    "later_first_strict_UTC": "2026-11-02T14:08:19.373681+00:00",
+    "BEGIN_UTC": "2026-11-02T14:06:53.168688+00:00",
+    "END_UTC": "2026-11-02T14:06:55.345157+00:00",
+    "compiler_seconds": 2.1764570999948774,
+    "exit_code": 0,
+    "changed_production_units": 1,
+    "actual_receipt_digest": {
+      "bytes": 7347,
+      "sha256": "3da48f22963c424c1f4e149d6fe48c717b0b772bb3798c3189f6677e10587c18"
+    },
+    "new_Test_RUN": 0,
+    "reason_for_no_new_Test": "Parent explicitly authorized this reversible low-impact diagnostic-only change without a mirror test. Only the necessary first production strict compile was executed; no old green rerun or behavioral/Root qualification is claimed.",
+    "formal_status_at_delivery": "Pending sole Java publication. Original source-pending cohort remains unchanged; later formal evidence must be appended naturally."
+  },
+  "owner_cost": {
+    "input_source_freeze_to_first_strict_END_wall_seconds": 822.838453,
+    "compiler_process_seconds": 2.1764570999948774,
+    "earlier_discovery_prepare_seconds": null,
+    "owner_active_seconds": null,
+    "net_saving_seconds": null,
+    "marker_qualification": "The cost receipt calls the initial marker a selected-source manifest. The actual referenced manifest is explicitly input-only,0POST/0CPU and predates model BEGIN. This Ops record calls it input source freeze, not a selected candidate before generation or complete task start.",
+    "preparation_error": "A reused historical classpath-count assertion stopped before Java. Owner then used actual42 ordered entries and actual first-origin qualification instead of assuming40; source/model output remained unchanged.",
+    "waiting": "Bootstrap/P0 scheduling and coordination stay in the full recorded wall; no continuous HOLD/CPU attribution or future workload capacity/speed inference."
+  },
+  "functional_boundary": "A separate owner current-caller/source qualification did not establish a new functional missing-permission defect. Natural original inputs and two exact future callee targets remain unknown. The diagnostic is not functional completion, natural cause/material/terminal/Root authority, Native/Game, runtime load or saved-day evidence; not a global source stop.",
+  "private_evidence_digests": {
+    "source_input": {
+      "bytes": 3784,
+      "sha256": "4591fc5a4588d09ad82effad9dff480c8580c164dabcc289387ba76f74325c4c"
+    },
+    "cohort": {
+      "bytes": 2061,
+      "sha256": "b2b4a3af02d1ab6707c498589e925631da4ff6b48527c0fa11a909f26fe1c589"
+    },
+    "adoption": {
+      "bytes": 1373,
+      "sha256": "f28801a1d1622235f327e593938f0eef64c3424448447351a7b13eb570df60fd"
+    },
+    "delivery": {
+      "bytes": 1820,
+      "sha256": "6a41f8650baabbdd43e840622910aa496d14bb14c04ad89ce11487dbcccf9a09"
+    },
+    "firststrict_later": {
+      "bytes": 806,
+      "sha256": "ec5f74f30a3cc4023bdbefe15403227e033a176c025885a50e2dcb5e79aeb522"
+    },
+    "cost": {
+      "bytes": 808,
+      "sha256": "d622d5ffe7283222f96fc5270281f0591ea7da2d394c07726ff583c615937a16"
+    },
+    "preparer_erratum": {
+      "bytes": 476,
+      "sha256": "a0523d5564b2c10031a599a36db866c385b6917f0eb23b04e86347bd15e36f8d"
+    },
+    "functional_qualification": {
+      "bytes": 5733,
+      "sha256": "7df9b5642d6713ddbc6894bfbfe7478c69637dd5a4b9c7527416c16b57f360cd"
+    }
+  },
+  "next_real_trigger": "A natural formal receipt or genuinely qualified new callee/source/actual runtime diagnostic, with separate permissions and no repeat of this closed text task. Ordinary HTTP and native-tool modes retain separate tracking.",
+  "publication_new_HTTP_JVM_Game_actions_by_operator": 0,
+  "later_formal": {
+    "observed_UTC": "2026-11-02T14:13:04.531452+00:00",
+    "commit": "40d223a3069f3ec796ec6e2ed72ed527cce1bd9d",
+    "normal_push_exit": 0,
+    "remote_exact_clean": true,
+    "one_commit_blob_digest": {
+      "bytes": 4843,
+      "sha256": "72b11c4cffc38d1fc37b9476f8ecf4cee265b8e874f352ea932b3d1d9c69d1fe"
+    },
+    "raw_selected_equals_specified_formal_blob_including_EOF": true,
+    "PUBLISHED_digest": {
+      "bytes": 811,
+      "sha256": "7199e546be293b0309473c3c70a77d99530290002e52b09375e62b348cecf93d"
+    },
+    "source_owner_late_annex_digest": {
+      "bytes": 1394,
+      "sha256": "6a16f7ece520f7547345539dff99d9aefdb1c6412fb465ecfa401ff4232b9a06"
+    },
+    "new_compile_RUN_HTTP_for_publication": 0,
+    "qualification": "Reuse only the original necessary first strict. No Test/RUN/current Dev loader or natural functional qualification added; old source-pending cohort and formal-pending delivery hashes retained."
+  }
+}

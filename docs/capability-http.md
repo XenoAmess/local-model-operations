@@ -686,3 +686,11 @@ R2 body partial，owner把“另clone再mutation”改为成功调用的同一ca
 [HTTP-PASSIVE-DEADLINE-GUARD-ORDER-001](evidence/2026-11-02-http-passive-deadline-guard-order.json)实施6500/R2 6500、反审6000、Test6500/R2 6500五次完整stop、0retry/R3、实际全无交叠峰1/91.203452s。各角色15/21/10完整材料的physical与actual三消息wire分别保；R1误以direct只经wrapper、真正入口仍no-op整拒；R2两个literal原码→152278B首编0后，owner恢复原pure open guard在try内先于clock/min，保null/closed/expired等原异常分类→152346B最终。两model hunk正逆与另存owner guard diff独核，冻结selected-edits只属原model阶段；模型abstract counter仅partial，具体guard反例属owner，非whole审批准。
 
 两完整Test算法因Clock/读取计数/时间推进和await未核拒，mechanical packet/config/scaffold可复用，owner重写方法/Clock/endpoint，首次1methodP0skip。仅同调用原configured/caller最小期限用于HELLO及全部packet读、cached仅admission；Optional.empty和更短期限保留，fresh RPC独立，非整个maxAge/action/monitor或CPU时限；实际实例timeout NOT_HELD，未真实等60秒。四进程9.759467s对2791.076398s首POST→末JVM，1535.435239/1367.370115s source/runner-ready等待与14.62773s phasegap不冒active/HOLD/HTTP。旧host实际先于Test首编退出，后见时轴不把两者误写重叠。原prod行为pending保，后1P/7e34f0ec生产与7a10ee29 Test formal各raw/blob/EOF等；0实载/Native/Game/SAVE/速度及旧绿重跑。
+
+## 窄诊断：真实Unavailable reason与Unicode有限输出
+
+[HTTP-BOUNDED-UNAVAILABLE-REASON-001](evidence/2026-11-02-http-bounded-unavailable-reason.json)8完整源84784physical/87224消息wire，1300实施/1700baseline反审各一次完整stop、0retry，峰2仅5.279702s。强hint合同下R1 callsite与576B helper字符串唯一exact、0owner执行token改；移除helper加一装配分隔newline并逆callsite可还原4315B原叶，最终4843B不是模型wholeclass生成。既有IOException/prefix保留，真实reason按2048codepoints有限截断；audit null/empty风险已被所供constructor反证，只partial源事实/0oracle，未见候选不算最终code审批准。
+
+必要first1prod strict0/2.176457s，低影响诊断按parent明限0newTest/RUN、不为镜像测或旧绿重跑。822.838453s始于明确0POST的输入冻结（不是候选先选定），更早discovery/active/netunknown；旧40CP断言preJava停后按actual42/first-origin核，不能当模型红/现Dev谱系。原sourcepending与后firststrict分别保、正式pending；无新增读取/权限/Root/terminal/自然M6或Native/Game/实载与速度信用，后自然新callee资格另做。
+
+该诊断单元后见正式`40d223a3`，唯一4843B leaf已直接读指定commit blob逐byte/EOF核等，0新增编测/HTTP。原source/formal pending原件与低影响0newTest范围保留，不追授currentDev loader/自然功能或运行收益。
