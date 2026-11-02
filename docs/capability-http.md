@@ -1028,3 +1028,5 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 335 [强指导的单调用native缓冲区](evidence/2026-11-03-http-guided-native-metadata-buffer.json)一hunk原样、owner生产0修；两logical/4actualPOST含首轮各一次before-headers reset自动重试，反审是idea review非candidate整审。首3 owned-temp Win32方法通过，762.106056全wall与4.9725738进程wall/activeUNKNOWN分列。只授native malloc/owningcleaner3→1，Java Memory派生对象可3→4；原fresh调用/权限门保留，不授实速、样本因果或通用ABI写越界隔离，formal原pending保。
 
 335 [正式与计时口径后见纠正](evidence/2026-11-03-http-guided-native-metadata-buffer-later-accounting.json)：db5dd957生产仅419CRLF→LF/Test rawexact，原pending正文不改。原phase_markers_independent_before_work=true对READY authoring过宽：BEGIN与已起草脚本patch同toolcall，仅先于机械写；此前authoring仍在前一review wall内，整体762.106056未剔除，首marker前helper准备时刻未知，active仍unknown。其它独立BEGIN不受此勘误扩大或追认，无新编测/运行信用。
+
+333 [实际实现后继](evidence/2026-11-03-http-nominal-data-reuse-implementation-later.json)独立追加，不回填原资格阴性：35完整Java/901321B actualcandidate反审一logical两POST(reset整弃→原request自动stop)，五条actionable均被逐源驳回/0modelcode；owner nominaldecoder与cleanup、首4TU+onlychanged1TU+新6P分列。878.435409wall/27.7000974Java进程wall与activeUNKNOWN保；raw-key预算非RSS上限，miss仍加clone/key工作，formal/运行采用/实际hit率与净提速未授。

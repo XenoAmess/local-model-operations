@@ -1,0 +1,32 @@
+{
+  "schema": "local-model-operations.portable-software-evidence/v1",
+  "date": "2026-11-03",
+  "unit": "nominal immutable-data reuse: actual implementation follow-up",
+  "scope": "Public operational summary only. Application names, source, source paths, prompts, answers, host identities and live data are excluded. Earlier qualification-only evidence remains unchanged.",
+  "mode": "ordinary HTTP, fixed three messages; existing shared caller/model configuration; bounded 5500-token reply",
+  "new_audit": {
+    "input": "35 complete Java files, including four actual candidate bodies and the actual composition host/writer, not an old speculative design",
+    "physical_bytes": 901321,
+    "successful_reported_prompt_tokens": 180066,
+    "reported_completion_tokens": 957,
+    "attempt1": "reset, 23091.6497 ms, no usable completed candidate; discarded",
+    "automatic_backoff_seconds": 8.193263388047223,
+    "attempt2": "same request, stop plus SSE DONE, 36645.8722 ms; no manually recreated task",
+    "adopted_code": false,
+    "owner_review": "All five actionable findings rejected by concrete source checks. They missed explicit ThreadLocal removal/early strict fallback or alleged mutation of a private unexposed key and an impossible once-only publication order. This is not independent whole-safety approval."
+  },
+  "owner_implementation": "Existing final nominal decoder internally creates immutable decoded DATA, with no caller-provided decoded-value factory. Owner/session eligibility is bound once by actual composition, keys own private pre-decode byte clones with complete equality, and an operation-local bounded LRU is cleared on exit. Every original/identity/permission/native/timeline check stays fresh. An owner-found setup/insertion exception-cleanup issue was corrected separately from the rejected model suggestions. Legacy constructors/default/proxy behavior remains strict.",
+  "software": {
+    "first_four_producer_TUs": "pass",
+    "changed_decoder_only_incremental_TU": "pass; other three binary outputs reused",
+    "one_new_test_TU": "pass",
+    "new_cases": "six distinct passed; zero failure, skip or abort",
+    "test_scope": "Owned temporary filesystem/session fixture and pure DATA/projection negatives. No live application/game/host operation. Existing warning/negative diagnostics retained.",
+    "java_process_wall_sum_seconds": 27.70009739998204,
+    "implementation_to_last_required_run_wall_seconds": 878.435409,
+    "test_compile_to_run_gap_seconds": 68.841344,
+    "active_owner_seconds": null,
+    "qualification_phase": "Earlier qualification costs are separate, not erased or added to active CPU."
+  },
+  "boundaries": "Formal publication pending at this cutoff. Runtime adoption, hot redefinition compatibility, actual cache hit rate, net speed and saved-day improvement are unverified. Raw-key budget is not an RSS bound. A cache miss adds clone/key work; no benchmark was added. A limited lead source review found no blocker but is not a fresh independent oracle."
+}
