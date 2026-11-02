@@ -1,0 +1,211 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-SIGNED-INTAKE-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_delivery_cutoff_UTC": "2026-11-02T00:45:35.552150+00:00",
+  "metadata_review_UTC": "2026-11-02T00:56:30.919484+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Owner-directed signed identifier intake repair at three named lifecycle proof/census sites, with an independent source-counterexample role.",
+  "input": {
+    "inventory_files": 22,
+    "inventory_physical_bytes": 338363,
+    "actual_full_inventory_files_in_each_message2": 21,
+    "actual_included_physical_bytes": 306746,
+    "source_message_UTF8_bytes": 312260,
+    "integrity": "All inventory digests checked and complete decoded texts compared to the actual two requests. One older Test file was inventory-only and absent from both source messages; the production and direct API files were included. Do not promote inventory22 to22 supplied files.",
+    "protocol": "Eight actual wire keys, system/user/user with current shared system, temperature0, thinkingfalse, JSON object, stream plus usage.",
+    "owner_hint": "Owner named three intake sites and the exact existing signed-ID API before POST. This is not unhinted discovery or independent architecture invention."
+  },
+  "calls": [
+    {
+      "role": "implementation",
+      "POST_BEGIN_UTC": "2026-11-02T00:21:41.551037+00:00",
+      "END_UTC": "2026-11-02T00:22:16.433464+00:00",
+      "max_tokens": 3500,
+      "source_message_UTF8_bytes": 312260,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 21.24076519999653,
+      "reported_HTTP_seconds": 34.882520099999965,
+      "usage": {
+        "prompt_tokens": 69819,
+        "completion_tokens": 1340,
+        "total_tokens": 71159
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 322005,
+        "sha256": "9cfa2e37d92c98ab296ebb2e597bf75eb296a8ff637bf84c1ce17a7abcd0be9e"
+      }
+    },
+    {
+      "role": "source_counterexample_audit",
+      "POST_BEGIN_UTC": "2026-11-02T00:21:41.550830+00:00",
+      "END_UTC": "2026-11-02T00:22:33.863572+00:00",
+      "max_tokens": 4200,
+      "source_message_UTF8_bytes": 312260,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 22.302447000001848,
+      "reported_HTTP_seconds": 52.312827699999616,
+      "usage": {
+        "prompt_tokens": 69841,
+        "completion_tokens": 3486,
+        "total_tokens": 73327
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 322124,
+        "sha256": "a2a0afb4c2c7adeba856eb56bac22ed5c794351967a641ce4f6238ad277cc62c"
+      }
+    }
+  ],
+  "transport": {
+    "logical_tasks": 2,
+    "POSTs": 2,
+    "ENDs": 2,
+    "complete_stop": 2,
+    "length": 0,
+    "retry": 0,
+    "reset": 0,
+    "client_peak": 2,
+    "continuous_peak2_seconds": 34.882427,
+    "reported_HTTP_sum_seconds": 87.19534779999958,
+    "service_running_waiting_KV": null,
+    "target12_16_claimed_achieved": false
+  },
+  "adoption": {
+    "raw_model_executable_snippets": 4,
+    "production_files": 2,
+    "whole_class_raw_adoption_claimed": false,
+    "owner_application": "Only relative-path prefixing and LF-snippet to original CRLF projection; no executable-token correction and EOF unchanged, per frozen projection proof.",
+    "source_audit": "Whole analysis rejected: confused raw execution with typed identity, instance/generation and signed-domain contracts, and missed the main supplied intake path. A locally correct row observation does not grant whole audit approval.",
+    "model_Test_POSTs": 0,
+    "model_Test_methods_adopted": 0,
+    "owner_Test_methods": 4,
+    "original_SUMMARY_review_adopted_fields": "Retained NOT_YET_REVIEWED/adopted=false; later source decision and software receipts are separate."
+  },
+  "software": {
+    "checks": [
+      {
+        "stage": "baseline",
+        "BEGIN_UTC": "2026-11-02T00:34:27.471427+00:00",
+        "END_UTC": "2026-11-02T00:34:32.996189+00:00",
+        "process_seconds": 5.5247613999963505,
+        "exit_code": 0
+      },
+      {
+        "stage": "prod",
+        "BEGIN_UTC": "2026-11-02T00:42:34.197757+00:00",
+        "END_UTC": "2026-11-02T00:42:38.548057+00:00",
+        "process_seconds": 4.350299599995196,
+        "exit_code": 0
+      },
+      {
+        "stage": "test",
+        "BEGIN_UTC": "2026-11-02T00:43:46.295351+00:00",
+        "END_UTC": "2026-11-02T00:43:49.477740+00:00",
+        "process_seconds": 3.1823909999948228,
+        "exit_code": 0
+      },
+      {
+        "stage": "baseline-run",
+        "BEGIN_UTC": "2026-11-02T00:45:04.613563+00:00",
+        "END_UTC": "2026-11-02T00:45:08.215495+00:00",
+        "process_seconds": 3.601927399999113,
+        "exit_code": 1
+      },
+      {
+        "stage": "run",
+        "BEGIN_UTC": "2026-11-02T00:45:15.431746+00:00",
+        "END_UTC": "2026-11-02T00:45:20.108839+00:00",
+        "process_seconds": 4.677090199998929,
+        "exit_code": 0
+      }
+    ],
+    "baseline_closure_first_compile": {
+      "frozen_baseline_targets": 2,
+      "necessary_current_support_sources": 3
+    },
+    "baseline_new_positive": "Expected RED against the frozen old intake range; not a model candidate failure or a repeat of an old green.",
+    "candidate_new_Test_methods_passed": 4,
+    "skipped": 0,
+    "new_candidate_sources": 2,
+    "new_Test_sources": 1,
+    "scope": "Signed current completion/census and cold proof, malformed exact tokens, raw-owner validation, legacy and query/generation rules within software contracts.",
+    "not_granted": "Actual private issuer/Root preparation/current writer integration, natural terminal/cause/material, Native/Game behavior or runtime performance."
+  },
+  "owner_errors_and_cost": {
+    "first_source_clock_UTC": "2026-11-02T00:14:13Z",
+    "new_Test_END_UTC": "2026-11-02T00:45:20.108839+00:00",
+    "source_window_wall_seconds": 1867.108839,
+    "five_process_sum_seconds": 21.33646959998441,
+    "owner_active_seconds": null,
+    "earlier_source_discovery_seconds": null,
+    "net_owner_saving_seconds": null,
+    "pre_first_compile_Test_correction": "Owner floating-token draft would test the serializer or fail before the intended assertion; corrected before any Test compile or failed test. Not attributed to model.",
+    "baseline_metadata_erratum": "Inherited runner old_sources_compiled=0 and its generic source-map interpretation were inaccurate. A separate sidecar records exactly2 frozen baseline targets plus3 current support sources; original ACTUAL retained, no repeat compile.",
+    "input_inventory_erratum": "Published metadata distinguishes22 held files from21 actually supplied, rather than rewriting old owner qualification or REQUEST.",
+    "limit": "Full wall includes discovery, HTTP, owner oracle/test work, binary qualification and resource/coordination waits. Neither model nor process sums replace that wall or measure active labor."
+  },
+  "formal_at_owner_delivery": {
+    "state": "PENDING_SOLE_JAVA_FORMAL",
+    "commit": null,
+    "runtime_installation": false
+  },
+  "private_evidence_digests": {
+    "DELIVERY210.json": {
+      "bytes": 6257,
+      "sha256": "251c4d345d16d8bd42a69da9c4198f396b8eeff02ee59f8777d885dd11b3465b"
+    },
+    "MODEL-COHORT210.json": {
+      "bytes": 3077,
+      "sha256": "f5976c13c16a9a92ab532274e99eac850fb519698d6443ba807d1c3168b67d4d"
+    },
+    "VALIDATION210.json": {
+      "bytes": 21889,
+      "sha256": "3b1eb26c1a329f39e19fbff8809c4e329d2da9a6462ff1fb487a4490a24b122b"
+    },
+    "COST210.json": {
+      "bytes": 1187,
+      "sha256": "f6ea5a7de3bf917abf898be44640c833f6add66c7afbe16a960800baa533fb32"
+    },
+    "RAW-PROJECTION210.json": {
+      "bytes": 1190,
+      "sha256": "34e96a9a7e5ea00b5b4b10eda48ca07deeb5e5e23ff29950a8e7b60d27e62c23"
+    },
+    "INPUT-SOURCES210.json": {
+      "bytes": 11476,
+      "sha256": "3976ce53435d12f93706ad8f3878923008183a66da794f67ea433fab79a11789"
+    },
+    "OWNER-ORACLE-CORRECTION210.json": {
+      "bytes": 786,
+      "sha256": "cf23601df27876fd509bcef4584796c885acc9caf7e853a98182d1ff8143771e"
+    },
+    "ACTUAL-SCOPE-ERRATUM210.json": {
+      "bytes": 933,
+      "sha256": "ead919a542c8d6c5ec388d8e229282b0a0b12faedcaa55a72849880974c1b385"
+    },
+    "later_prefix_qualification": {
+      "bytes": 5854,
+      "sha256": "d3cbdf3941a920b7ba758cd09e166e110c42a3934a90e71f7003bc15380c7e78"
+    },
+    "later_publication": {
+      "bytes": 1247,
+      "sha256": "bb68807d0d2333b3c23879bda92e1a531402839dff26238c5fc50de54936ee80"
+    }
+  },
+  "comparison_limit": "A hinted four-snippet success and a rejected independent audit coexist; software4P does not grant unhinted discovery, whole audit reliability, net labor savings or a permanent capability ceiling.",
+  "next_real_trigger": "Append only actual later publication or authorized runtime evidence as another stage; continue bounded typed repairs and source counterexamples without recreating closed model Test tasks.",
+  "publication_new_HTTP_compile_Test_or_business_actions": 0,
+  "later_publication_annex": {
+    "observed_UTC": "2026-11-02T00:54:09.807035+00:00",
+    "commit": "96e4c5bb33fbe792f9a5fbf6cec08507a5cae849",
+    "normal_push_remote_exact_clean": true,
+    "raw_and_formal_source_digests": "Candidate CRLF and formal formatting have separate digests; four raw executable snippets are not a claim of whole-file raw/formal identity.",
+    "new_compile_RUN_HTTP_for_publication": 0,
+    "runtime_or_Game_credit": false
+  }
+}

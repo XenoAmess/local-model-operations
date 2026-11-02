@@ -245,3 +245,9 @@ tag格式链真实缺`pydantic`后，一项有方向提示的诊断给出两行Y
 首次2prod+2Test严格编译及4P通过，正常正式36bd1d1b；两个production和公共Test raw/formal一致，另一个ownerTest按既有CRLF/行尾空白投影分SHA且EOF保留，不冒四叶全raw。源码只证明每次非空cache-hit省固定侧getter的一次clone，仍fresh读原件及当前侧比较，Pin/hash/profile/session/耐久等检查全保。runtime-ready仅元数据交付，没有实际装载、分配下降或实速回执，不授历史规划/FileForce原因或10秒目标收益。
 
 准备marker至交付573.830991s，首strict至最终JVM89.014131s、三个验证进程和7.192821s分列；主动准备/审阅及marker前发现工时均未知，缺旧Test缓存查找和owner替换Test成本保留。此case与先前identity/nested-copy优化独立，不合并采用率或跨任务相减声称省时。后续只在真实运行owner授权且有实际回执时追加装载/行为/性能阶段；本次运营无新HTTP、编测、profile或业务动作。
+
+## 后到：有明确提示的四处intake修改
+
+[HTTP-SIGNED-INTAKE-001](evidence/2026-11-02-http-signed-intake.json)由owner先点名三处signed-ID intake及真实API；两请求均stop，四个窄代码片段按原token采用到两个文件，仅做路径/EOL投影，不能称模型自行发现或whole-class raw。独立审却混淆raw执行、typed identity与instance/generation，整体拒绝。实际输入逐源核为21个完整库存文件、message2为312260B；库存22份/338363B还包含未入请求的旧Test，两个口径不混。
+
+四个新软件方法全部owner编写，冻结旧范围的新positive先实际RED，候选4P；baseline2源+必要support3源及候选/Test首编各留回执。owner首编前修浮点token夹具、继承runner误报编译源计数等均单列，不归模型。source窗口1867.108839s、五个进程和21.336470s与HTTP和87.195348s分别保留，主动人工未知；峰2只34.882427s。原交付截止正式pending，后到正式96e4c5bb作为独立annex，未重编测；未授实际私有Root/Native/Game、完整family验收或提速，后继按真实窄任务继续。
