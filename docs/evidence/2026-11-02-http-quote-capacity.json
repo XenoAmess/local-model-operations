@@ -1,0 +1,241 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-SPAN-CAPACITY-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_delivery_cutoff_UTC": "2026-11-02T01:06:28.551497+00:00",
+  "formal_receipt_observed_UTC": "2026-11-02T01:16:30.222410+00:00",
+  "metadata_review_UTC": "2026-11-02T01:25:08.206813+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "One private canonical-string escaping method using validated span copying, with source compatibility analysis and public byte/digest/Unicode regression methods.",
+  "input": {
+    "implementation_and_audit_full_files": 12,
+    "physical_source_UTF8_bytes": 364267,
+    "selection": "Seven current application/contract files and five named full JDK source entries, not a read/hash of the full JDK container.",
+    "integrity": "Frozen digests and complete decoded text independently matched against both actual implementation/audit source messages. The test request has ten complete selected items including candidate and owner goldens.",
+    "protocol": "Three actual requests, each eight wire keys and current shared system/user/user, temperature0, thinkingfalse, JSON object, stream plus usage.",
+    "audit_scope": "Prospective source/contract audit without the candidate body, not an independent candidate approval.",
+    "Test_prompting": "Implementation-visible and owner goldens supplied. Owner goldens were frozen before candidate read; no independent model witness credit."
+  },
+  "calls": [
+    {
+      "role": "implementation",
+      "POST_BEGIN_UTC": "2026-11-02T00:52:06.742163+00:00",
+      "END_UTC": "2026-11-02T00:52:46.905186+00:00",
+      "max_tokens": 4000,
+      "full_source_items": 12,
+      "actual_source_message_UTF8_bytes": 367845,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 29.400768999999855,
+      "reported_HTTP_seconds": 40.16318920000049,
+      "usage": {
+        "prompt_tokens": 92684,
+        "completion_tokens": 1100,
+        "total_tokens": 93784
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 380181,
+        "sha256": "4be4b40ffb88e107e5084efe7bab9482f4096db572210f529fb8d1653f716523"
+      }
+    },
+    {
+      "role": "compatibility-audit",
+      "POST_BEGIN_UTC": "2026-11-02T00:52:06.746333+00:00",
+      "END_UTC": "2026-11-02T00:52:45.090499+00:00",
+      "max_tokens": 3500,
+      "full_source_items": 12,
+      "actual_source_message_UTF8_bytes": 367845,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 28.272141399997054,
+      "reported_HTTP_seconds": 38.344332900000154,
+      "usage": {
+        "prompt_tokens": 92663,
+        "completion_tokens": 738,
+        "total_tokens": 93401
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 380076,
+        "sha256": "e9f3571abaf7328c297e8b0cf535e69edef0f64e062548dc2c6597e4d3b36e6b"
+      }
+    },
+    {
+      "role": "test-implementation",
+      "POST_BEGIN_UTC": "2026-11-02T00:57:53.010667+00:00",
+      "END_UTC": "2026-11-02T00:58:27.409153+00:00",
+      "max_tokens": 6000,
+      "full_source_items": 10,
+      "actual_source_message_UTF8_bytes": 75611,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 2.599845999997342,
+      "reported_HTTP_seconds": 34.39850989999832,
+      "usage": {
+        "prompt_tokens": 19176,
+        "completion_tokens": 6000,
+        "total_tokens": 25176
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 80713,
+        "sha256": "a5fa3a388ba96f361677bcdb6e6f12f30745cab207aaa78132e9022d9c465d90"
+      }
+    }
+  ],
+  "transport": {
+    "logical_tasks": 3,
+    "POSTs": 3,
+    "ENDs": 3,
+    "complete_stop": 2,
+    "length": 1,
+    "retry": 0,
+    "reset": 0,
+    "client_peak": 2,
+    "peak2_spans": [
+      {
+        "BEGIN_UTC": "2026-11-02T00:52:06.746333+00:00",
+        "END_UTC": "2026-11-02T00:52:45.090499+00:00",
+        "seconds": 38.344166
+      }
+    ],
+    "peak2_seconds": 38.344166,
+    "HTTP_union_seconds": 74.561509,
+    "reported_HTTP_duration_sum_seconds": 112.90603199999896,
+    "service_running_waiting_KV": null,
+    "target12_16_claimed_achieved": false
+  },
+  "adoption": {
+    "implementation": "Partial model span algorithm and guards retained. Owner inserted one final-tail plus closing-delimiter capacity reservation; not whole-method raw adoption.",
+    "raw_model_production_candidate": {
+      "bytes": 9985,
+      "sha256": "cdee388ca859cb1f4760ce76bc6165b30c37d918ad883c0068848fc6487b345a",
+      "withdrawn_before_compile_or_RUN": true,
+      "compile_START": 0,
+      "runtime_START": 0,
+      "reason": "A concrete source-level capacity counterexample; not a compiler failure, completed benchmark or executed candidate."
+    },
+    "source_audit": "Whole rejected: conflated the proposed validated hybrid scan/copy with an unvalidated raw bulk copy. No candidate was provided and no audit acceptance is claimed.",
+    "model_Test": "length6000, whole unread and discarded; zero fragments and no semantic-error attribution.",
+    "model_Test_methods_adopted": 0,
+    "owner_Test_methods": 5,
+    "no_retry_R2_or_closed_task_replay": true,
+    "original_transport_review_flags": "Original NOT_YET_REVIEWED/adopted=false fields remain frozen; owner decisions and formal adoption are later receipts."
+  },
+  "capacity_counterexample": {
+    "evidence_kind": "Source arithmetic of frozen JDK21 builder growth rules for Latin1, non-overflow sizes; not instrumented allocation or VM performance.",
+    "fixed_input": "Default-capacity16 empty builder, opening quote,16384 accepted ASCII characters,closing quote.",
+    "old": {
+      "growth_count": 10,
+      "new_growth_backing_bytes": 36808,
+      "final_capacity": 18430
+    },
+    "raw_model": {
+      "growth_count": 2,
+      "new_growth_backing_bytes": 49157,
+      "final_capacity": 32772
+    },
+    "owner_selected": {
+      "growth_count": 1,
+      "new_growth_backing_bytes": 16386,
+      "final_capacity": 16386
+    },
+    "interpretation": "Fewer growth operations alone did not imply fewer derived new backing-array bytes. Owner reserves only the actual final ordinary run plus the unavoidable closing delimiter after the same validation, not a maximum-domain allocation.",
+    "not_granted": "Actual allocation count/bytes, throughput, JIT/GC behavior, UTF16 inflation or every mixed-escape shape. Resource-exhaustion timing may differ."
+  },
+  "preserved_source_contract": "Only the private quote method changes; escape/control hex, surrogate validation and output order retained. Canonical key/numeric/UTF8/budget/digest methods and error contracts outside the method remain byte-exact. No mutable-tree or cross-call cache.",
+  "software": {
+    "checks": [
+      {
+        "stage": "source_only_prod_strict",
+        "BEGIN_UTC": "2026-11-02T01:02:55.422213+00:00",
+        "END_UTC": "2026-11-02T01:02:56.548512+00:00",
+        "process_seconds": 1.1263036000018474,
+        "exit_code": 0
+      },
+      {
+        "stage": "new_test_strict",
+        "BEGIN_UTC": "2026-11-02T01:04:11.859586+00:00",
+        "END_UTC": "2026-11-02T01:04:12.962078+00:00",
+        "process_seconds": 1.1024935000023106,
+        "exit_code": 0
+      },
+      {
+        "stage": "only_new_tests_run",
+        "BEGIN_UTC": "2026-11-02T01:04:17.794209+00:00",
+        "END_UTC": "2026-11-02T01:04:19.927372+00:00",
+        "process_seconds": 2.133166400002665,
+        "exit_code": 0
+      }
+    ],
+    "owner_new_methods_passed": 5,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "coverage": [
+      "Seven fixed valid byte goldens including16KiBASCII,all32controls,escaped spans,BMP/supplementary characters.",
+      "Actual nested canonical bytes,digest and code-point key ordering.",
+      "Seven invalidUTF16 forms and invalid-key messages.",
+      "Exact UTF8 budget/one-less,invalid maximum and null.",
+      "Latest invocation of the same mutable object and detached prior output."
+    ],
+    "no_old_suite_rerun": true,
+    "logging": "Successful first RUN retained a logging-manager warning; no suppress/repeat or expectation change.",
+    "not_verified": "OOM timing, arbitrary custom-node/concurrent-mutation equivalence, private authority/replay/durable commit, loaded runtime/Game or performance."
+  },
+  "clock_accounting": {
+    "preparation_marker_to_delivery_wall_seconds": 873.974879,
+    "first_production_compile_BEGIN_to_final_Test_END_wall_seconds": 84.505159,
+    "three_validation_process_sum_seconds": 4.361963500006823,
+    "Test_compile_to_RUN_gap_seconds": 4.832131,
+    "active_owner_prepare_review_seconds": null,
+    "pre_marker_discovery_seconds": null,
+    "net_owner_saving_seconds": null,
+    "limit": "Full marker wall includes assembly,JDK reasoning,HTTP waiting/review,owner Test writing,rejected raw capacity case,unstarted resource withdrawal,coordination and first verification. Nested windows are not additive labor,CPU or service delay."
+  },
+  "owner_preparation_and_withdrawal": "An initial raw-old match assertion misread escaped display and stopped before candidate write; decoded raw old matched once. The original candidate grant remained queue-only,returned unstarted with zero GO/compileSTART,not a compiler RED.",
+  "formal_annex": {
+    "commit": "aff057941b027b2e85a98dfbb749690279e28af6",
+    "observed_UTC": "2026-11-02T01:16:30.222410+00:00",
+    "normal_push_remote_exact_clean": true,
+    "selected_production_and_owner_Test_raw_formal_SHA_exact": true,
+    "new_compile_RUN_for_publication": 0,
+    "runtime_installation_or_speedup": false
+  },
+  "private_evidence_digests": {
+    "frozen_delivery": {
+      "bytes": 21003,
+      "sha256": "7b2585f9531cc357f920ca4495ae69969e9880eba0c734ddc1a8ff16ebee5b1e"
+    },
+    "cost": {
+      "bytes": 1698,
+      "sha256": "b6de81f24afeafe7065cd2f461729e8903869d0129eb932dfffdda65685d4627"
+    },
+    "owner_capacity_review": {
+      "bytes": 4884,
+      "sha256": "1b1ec70d347a24aaa51b8f7e9168c27756ebfeb846a205fa4feb661301f5596c"
+    },
+    "owner_Test_review": {
+      "bytes": 1651,
+      "sha256": "27421eedf88450ea1eeb03ce2bfeb3152aa4da3abb055cfb89b4c3e06ab662cd"
+    },
+    "after_publication": {
+      "bytes": 1429,
+      "sha256": "2187c19e1584be8ca66b3a64e81c89e806b6eb01cda3aadf72e64c807ebd0232"
+    },
+    "formal_publication": {
+      "bytes": 1037,
+      "sha256": "2b7b21c6a36148004c97185e017c1f4db5767f9f8d01872e869166acf7fe1b7e"
+    },
+    "new_JUnit_XML": {
+      "bytes": 40774,
+      "sha256": "a61c2ebdad5b0e91ebbd18e70eed6a3f3b0dd27d194afd4396f4f42ce6a0b45a"
+    }
+  },
+  "comparison_limit": "This case supports a corrected source candidate and five public software methods. It does not establish end-to-end savings, historical performance attribution,10seconds per saved day or recovery of the independent pending private-original ACK workflow.",
+  "next_real_trigger": "Only separately authorized actual runtime loading/profile evidence or a genuinely new bounded source task; no additional model or test request is needed to restate these completed results. HTTP and native OpenCode continue as separate long-term modes, with no artificial total-step cap or closed-loop success rerun.",
+  "publication_new_HTTP_compile_Test_profile_or_business_actions": 0
+}

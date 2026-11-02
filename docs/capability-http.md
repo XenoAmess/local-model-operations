@@ -257,3 +257,11 @@ tag格式链真实缺`pydantic`后，一项有方向提示的诊断给出两行Y
 [HTTP-COMPLEX-PRODUCER-001](evidence/2026-11-02-http-complex-producer.json)按实际REQUEST区分：producer R1给6500并length整弃未读；R2增至9500，完整stop6925tokens/18883B，因stack、LEA/读语义、预算/容量、间接调用与宽度错误整拒0片段。两次小alias反审也均完整stop，但原owned-memory写后读值/向量快照仍错，owner在首POST前冻结的literal未变。共同13份原始源/直接声明/typed API及合同逐全文核；auditR2另有自身首答，非owner答案。4POST/3stop+1length/0重试，峰2两段合27.142394s；不能把length算成语义失败，也不能把另一个typed API原样成功倒授producer。
 
 owner接管完整6504B生产体及12950B七有限用例，首次strict .555476s、Test strict .638671s、RUN .148722s通过；输入freeze→RUN却1215.533001s，含HTTP、重写、夹具、实际主线资源等待与协调，主动工时未知。只授受控normal/预算/别名软件范围，六个下游仍opaque，不授硬件ABI/EH、Game或实速。后到正式77baecc7按独立annex保留原payload SHA，不增加模型或场景信用。后续复杂producer同复杂oracle优先真正basicblock/API/窄反例/机械段，owner保全编排；新的具名能力边界仍可有限探索，旧两稿不R3洗绿，不凭调用数或owner最终绿写收益。
+
+## 后到：span候选的容量反例与未执行撤回
+
+[HTTP-SPAN-CAPACITY-001](evidence/2026-11-02-http-quote-capacity.json)保留partial模型span算法，而非整方法raw：owner对指定JDK21/Latin1的16KiB ASCII输入做源码算术，原模型方案虽将growth10次减到2次，新增长backing-array字节推导却由36808增至49157。原候选queue-only、0GO/0compile或RUN即撤回，不能叫编译红或实测分配；owner仅为实际末尾普通run加closing1预留，选定方案推导16386字节，不预分配最大域。控制/转义/Unicode验证及方法外canonical、摘要、预算等原合同保留，未授GC/JIT/实机提速或所有mixed/UTF16路径收益。
+
+实际3任务/3POST、2stop+1length、0重试，峰2只38.344166s、HTTP union74.561509s。prospective审未见候选且把有校验hybrid误作无校验rawcopy，整审拒；Test给6000却length整稿未读0片段，owner全部五方法，goldens在读候选前冻，模型已见goldens/实现不冒独立见证。首次1prod strict、1Test strict及5项真实字节/摘要/Unicode/预算/可变输入隔离软件检查通过，正式aff05794两叶SHA exact；不授独立私有ACK恢复或已加载行为。
+
+marker→交付873.974879s、首compile→末Test84.505159s、三进程和4.361964s分别保留，主动准备/审阅与marker前发现均未知；初escaped old-match断言错误在写源前停、未执行候选撤回与资源协调均计owner成本。减少检查/增长次数不等于净分配下降；源码容量算术、软件字节结果、正式采用与实际性能要各自取证。两种模式继续独立长期追踪，当前无新HTTP、重复编测、profile或Game动作。
