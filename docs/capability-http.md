@@ -808,3 +808,5 @@ Counter未见ownerbody/Test/oracle；T1/T2/T4是完整ASM及冻结API已显式/�
 [HTTP-COMPLETE-STATIC-WRAPPER-BINDING-223](evidence/2026-11-02-http-complete-static-wrapper-binding.json)的12完整项16247物理B/18435源码消息B、2600/2600/1200三stop/0retry，峰3仅11.797358s。两个R1完整类1162/2056B decoded raw/EOF精确、owner Java0，强API/fieldflow/route提示保；相反intercept省略只在成熟caller精确可达范围内源证等价，不冒generic dispatcher或full child。
 
 Witness漏getter读/捏table读整拒0oracle；事件是否只含external opaque ports未明示有owner文字歧义，不将所有内部event差异算模型错。ABI只合同提示内partial、未看candidate非独立整审。Owner八oracle POST前私冻及全Test，首2prod/Test/RUN0→8logical scenes/19checks；2.421630s过程对72.110768s验证wall、756.235055s inputfreeze窗口，早发现/activeunknown，Ready/协调gap不冒CPU或持续HOLD。原source早切点与software formalpending保，0全ABI/原Native/默认补参数/自然业务/实际装载或速度。
+
+已批准的312[独立正式后见tuple](evidence/2026-11-02-http-isolated-body-instrumentation-formal.json)记source commit2646cc7d及公开README入口；原2905B portable切点保，发表后无新增验证，仍不授current业务采用或速度。
