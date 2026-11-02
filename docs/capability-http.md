@@ -558,3 +558,9 @@ audit reset半流未读整弃，第二完整泛事实partial、两个具体反�
 后见 [HTTP-LOCAL-HISTORY-REUSE-001-FORMAL](evidence/2026-11-02-http-local-history-reuse-formal.json)：正式`f2639744`，原冻结source/software pending记录逐byte不改。13638B原窄生产叶与8457B全owner Test正式raw/EOF等；两model executing hunks原样、审REJECT错误/Journal length弃/必要Test全拒后owner4P等级不变。0新编RUN/HTTP/实载/SAVE或净速度归因，仍保28.410802s墙钟对5.550969s过程及早期activeunknown。
 
 后见 [HTTP-COMPLETE-HELPER-FROM-REJECTED-CLASS-001-FORMAL](evidence/2026-11-02-http-complete-helper-from-rejected-class-formal.json)：正式`1e620cce`，原冻结source/software pending记录逐byte不改。5219B整体与13979B Test原raw/formal/EOF精等；只完整R2内725B helper原码采用，wholeclass仍错拒/owner其余4494B与七Test分账。首7P、716.588344s墙钟/3.296798s过程/owner准备错误与activeunknown全保，0新编RUN/HTTP/加载或实速。
+
+## 后到：内存字节看似正确仍遗漏实际寄存器状态
+
+[HTTP-REGISTER-STATE-PARTIAL-CORE-001](evidence/2026-11-02-http-register-state-partial-core.json)8/8/8 whole实际正文逐顺核，7000/1600/1300三POST三stop/0retry/R2，峰3仅5.084625s。完整core5023tokens有真实control/Memory/CALL骨架贡献，但所有vector临时值未写实际寄存器，outgoing/returned state错；owner23项24occurrence执行修+comment/blank投影复算selected，不能称whole raw。binder两行三逻辑修actualtarget/fallback/声明返回型；counter大多已给合同复述，仅partial事实，0oracle/Test。
+
+owner全八Test，先scenarios后production审/具体Book，不冒wholeblind；三类型歧义在0START前新文件修，validation-retry仅首Test strict容器，无compiler红。首2prod/Test/8P全0、JBoss原警告保；462.920943s首prod→RUN对3.776305s进程，10.661023s gap独立。新PREP/REVIEW markers256.665669/616.616563s包含交错工作，更早发现/预读/active仍unknown；0净收益推断。原pending保，后到25fa79fe三raw/formal/EOF等，0新编/Native/全ABI/Game/SAVE/实速。
