@@ -708,3 +708,9 @@ R2 body partial，owner把“另clone再mutation”改为成功调用的同一ca
 [HTTP-SIGNED-POSTALLOCATION-BLOCK-001](evidence/2026-11-02-http-signed-postallocation-block.json)15完整源46766physical/50220消息wire，block2300/audit3600首stop，唯一blockR21500stop，三POST0retry/length、峰2仅11.951585s。强hint完整签名/原ASM下R1两MOVSXD仍unsigned widening，源审未编即拒；R2两model hunk含comment正逆→2764B/owner block0token改。75B全段3000B与22145B五新case全owner，模型仅22B块，不授whole growth/FP/Native。Audit两有限反例合同不足/误指令，仅generalpartial/0oracle，无R2逼批准。
 
 五literal在R1HTTPEND后CONTENT前冻、未喂模型，无target执行期待或验后修。首prod/Test/RUN全0/stdout5，只五postallocation segment72global66Memory+6controlledcallbacks；COPY/free opaque、allocator后态作为input，general RFLAGS/FP/prologue/epilogue/上层binding仍开。1.592123s过程对2021.474626s已录prep→RUN/199.805342与21.918396s协调gap，早期/active/netunknown；用户AGENTS替换中断和prePOST 3B→5B文字订正保，0旧绿/PE/现场/速度。原formalpending软件切点保，后见另附。
+
+## Row窄块与原fallback：分开计执行原样和owner修正
+
+[HTTP-ROW-TRANSFER-FALLBACK-CORRECTION-001](evidence/2026-11-02-http-row-transfer-fallback-correction.json)三真实POST各7/13/15完整材料、预算2300/1800/2500均stop，无retry/R2，峰2仅7.258801s。完整4149B row执行代码原样，owner只纠两条寄存器comment；3125B薄binding仍误传this，owner一执行处改原fallback→3129B，逐字正逆核。不把两者合成whole raw采用率。反审未见新whole/Book，一条LEA误作fresh内存读拒，仅saved-home/signed分支有限事实保，不授独立oracle或whole审批准。
+
+7912B全outer和13974B八方法Test归owner，scenarios先冻但成熟lower已知，非wholeblind。仅新3prod/1Test首次strict0→8P，三过程3.432209s对首prod→RUN321.712514s、两gap296.80733/21.47487s；0.09862s PREP仅机械组装、0.025935s REVIEW仅metadata，之前发现/作者/审阅/activeunknown，不拿短marker冒全部成本。normal有限state/trace过不授COPY/全递归、DF/RFLAGS/FP/EH/硬件或实速。后见3c97b326四blob独核：core/Test raw等，row/binder各1/16尾白投影且EOF保，原pending切点不改，0新增HTTP/编验/现场。
