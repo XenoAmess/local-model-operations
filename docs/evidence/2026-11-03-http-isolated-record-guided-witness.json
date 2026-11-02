@@ -1,0 +1,193 @@
+{
+  "schema": "local-model-operations.capability-case/v1",
+  "case_id": "HTTP-ISOLATED-UNRESOLVED-RECORD-AND-GUIDED-WITNESS-990",
+  "mode_id": "http-candidate",
+  "date": "2026-11-03",
+  "environment": {
+    "model_alias": "qwen38-coder",
+    "backend_weights_quantization_build": null,
+    "invocation_caller_Git_version": null,
+    "audit_boundary": "Named owner source inventories/actual wire audit, event receipts and software XML checked; no large private REQUEST-prefix or model-answer rescan by Operations."
+  },
+  "source_roles": {
+    "complete_baseline_files_owner_reported": 20,
+    "physical_inventory_bytes_owner_reported": 506360,
+    "requests": [
+      {
+        "role": "implementation",
+        "POST_BEGIN_UTC": "2026-11-02T16:16:56.792130+00:00",
+        "END_UTC": "2026-11-02T16:17:17.335231+00:00",
+        "budget": 2800,
+        "content_TTFT_ms": 13533.503800004837,
+        "total_ms": 20542.984600004274,
+        "usage": {
+          "prompt_tokens": 105097,
+          "completion_tokens": 1285,
+          "total_tokens": 106382
+        },
+        "finish_reason": "stop",
+        "cached_tokens": null
+      },
+      {
+        "role": "counter",
+        "POST_BEGIN_UTC": "2026-11-02T16:18:50.525550+00:00",
+        "END_UTC": "2026-11-02T16:19:07.636083+00:00",
+        "budget": 3200,
+        "content_TTFT_ms": 9850.341099998332,
+        "total_ms": 17110.53360000369,
+        "usage": {
+          "prompt_tokens": 171163,
+          "completion_tokens": 1112,
+          "total_tokens": 172275
+        },
+        "finish_reason": "stop",
+        "cached_tokens": null
+      }
+    ],
+    "actual_overlap_seconds": 0,
+    "implementation_END_to_counter_POST_gap_seconds": 93.190319,
+    "implementation": "Complete code rejected: patched a pending-action guard instead of the required record-construction admission point, so the intended no-capture case still failed. Owner reused the existing strict private DATA pattern without reading the answer; model production code adoption zero.",
+    "counter": "Complete valid-JSON findings rejected for inferring a filtered action list from its name, overlooking the prior confirmed saved history, and reversing an actual boolean guard. No demonstrated current-candidate bypass or deterministic rejection.",
+    "status_erratum": "Owner source was materialized after the actual implementation END but before reading its body. An earlier message reported last-known inflight; unread is not still running. Counter dispatched after SourceReady/first strict; not parallel implementation review."
+  },
+  "witness_roles": {
+    "requests": [
+      {
+        "role": "guided-witness-r1",
+        "POST_BEGIN_UTC": "2026-11-02T16:27:13.394173+00:00",
+        "END_UTC": "2026-11-02T16:27:53.283031+00:00",
+        "budget": 7500,
+        "content_TTFT_seconds": 16.374196999997366,
+        "caller_total_seconds": 39.88880809998955,
+        "usage": {
+          "prompt_tokens": 125638,
+          "completion_tokens": 4142,
+          "total_tokens": 129780
+        },
+        "finish_reason": "stop",
+        "cached_tokens": null,
+        "complete_current_files_owner_audited": 36,
+        "physical_inventory_bytes": 590812,
+        "actual_three_message_UTF8_bytes_owner_audited": [
+          301,
+          600371,
+          4089
+        ]
+      },
+      {
+        "role": "guided-witness-r2",
+        "POST_BEGIN_UTC": "2026-11-02T16:30:05.157951+00:00",
+        "END_UTC": "2026-11-02T16:30:29.776404+00:00",
+        "budget": 7500,
+        "content_TTFT_seconds": 1.655601899998146,
+        "caller_total_seconds": 24.618470200002776,
+        "usage": {
+          "prompt_tokens": 130183,
+          "completion_tokens": 4147,
+          "total_tokens": 134330
+        },
+        "finish_reason": "stop",
+        "cached_tokens": null,
+        "complete_current_files_owner_audited": 37,
+        "physical_inventory_bytes": 606336,
+        "actual_three_message_UTF8_bytes_owner_audited": [
+          301,
+          616111,
+          6961
+        ]
+      }
+    ],
+    "selected_client_peak": 1,
+    "HTTP_union_seconds": 64.507311,
+    "round3": 0,
+    "retry": 0,
+    "R1": "Whole Test rejected before compile.",
+    "R2": "Partial fixture/case reuse plus owner two imports, ACK shape, same-original identity, distinct action and negative-ACK assertions. Source-visible guided test, not an independent blind oracle or whole-model Test success.",
+    "oracle": "Owner literal oracle frozen before first POST and not fed to the model. One actual public DATA-record constructor, one positive plus ten finite negatives; no mirrored predicate or private role minting.",
+    "source_API_erratum": "Existing request/file-identity/guard constructors were correct. An owner-added nonexistent accessor was corrected before first javac; no compiler red from that owner typo."
+  },
+  "HTTP_cohort": {
+    "actual_POST": 4,
+    "stop": 4,
+    "length": 0,
+    "retry": 0,
+    "selected_client_peak": 1,
+    "all_selected_requests_nonoverlapping": true,
+    "HTTP_union_seconds": 102.160945,
+    "global_service_or_current_inflight_state": null
+  },
+  "software": {
+    "owner_production_first_TU": 1,
+    "production_first_strict_seconds": 2.98060589999659,
+    "new_Test_TU": 1,
+    "new_method": 1,
+    "final_JUnit_pass": 1,
+    "final_skipped_or_failed_cases": 0,
+    "Test_phases": [
+      {
+        "phase": "strict",
+        "started_UTC": "2026-11-02T16:38:35.901941+00:00",
+        "ended_UTC": "2026-11-02T16:38:37.945556+00:00",
+        "seconds": 2.0436190999898827,
+        "exit_code": 0
+      },
+      {
+        "phase": "junit",
+        "started_UTC": "2026-11-02T16:38:52.389486+00:00",
+        "ended_UTC": "2026-11-02T16:38:56.981873+00:00",
+        "seconds": 4.59239270001126,
+        "exit_code": 1
+      },
+      {
+        "phase": "strict",
+        "started_UTC": "2026-11-02T16:40:52.768770+00:00",
+        "ended_UTC": "2026-11-02T16:40:54.664338+00:00",
+        "seconds": 1.8955744999984745,
+        "exit_code": 0
+      },
+      {
+        "phase": "junit",
+        "started_UTC": "2026-11-02T16:43:14.028983+00:00",
+        "ended_UTC": "2026-11-02T16:43:18.671709+00:00",
+        "seconds": 4.642730599996867,
+        "exit_code": 0
+      }
+    ],
+    "first_failure": "Initial Test compiled; relative reference labels introduced in the partial model fixture and missed by owner review failed at evidence construction before the production admission path. Raw source, Ready and failure retained.",
+    "repair": "Only platform-absolute reference labels changed, expectations unchanged and no file opened. Recompiled edited Test once. A missing owned temporary directory then failed preflight with zero JVM/BEGIN/ACTUAL; sole runner created that exact directory and performed only the pending first RUN.",
+    "old_Test_production_or_helper_recompiled_for_Test": 0,
+    "limits": "Immutable synthetic DTO/ACK/reference labels do not provide archived/canonical membership, physical fresh-file qualification, private writer/Root permissions, actual SAVE success or runtime recovery. No JNA/pipe/network/Game/real filesystem behavior asserted."
+  },
+  "cost": {
+    "Test_process_sum_seconds": 13.174316899996484,
+    "first_Test_POST_to_final_JVM_wall_seconds": 965.277536,
+    "first_Test_strict_to_final_JVM_wall_seconds": 282.769768,
+    "Test_phase_gap_wall_seconds": [
+      14.44393,
+      115.786897,
+      139.364645
+    ],
+    "owner_active_seconds": null,
+    "full_task_start_or_preparation_wall_seconds": null,
+    "net_saving_seconds": null,
+    "scope": "Oracle timestamp is only a saved lower-bound preparation marker. Preserve waits, fixture failure and preflight mistake; elapsed compiler/model time or whole wall does not establish exclusive human labor. Original logging-configuration stderr retained."
+  },
+  "cutoffs": {
+    "original_production_delivery_Test_pending_preserved": true,
+    "original_production_runtime_not_adopted_cutoff_preserved": true,
+    "production_formal_commit": "54ef684d35813a873dffb7ba561f3deb51b82521",
+    "production_formal_boundary": "Java sole literal transplant preserves independent formal future changes/EOL; not raw whole-leaf identity.",
+    "Test_formal_commit": null,
+    "later_software_status": "New finite pure-DATA Test now passed; formal receipt not held at this record cutoff.",
+    "actual_runtime_loading_recovery_SAVE_or_speed_credit": false
+  },
+  "new_operator_HTTP_GET_JVM_Game": 0,
+  "later_Test_formal": {
+    "commit": "c79cba99474a4e35a44963dc9e480da663f1a4c4",
+    "raw_formal_bytes_SHA_EOF_equal": true,
+    "bytes": 17763,
+    "sha256": "8487af2c562d45af14b51d0605b042e3ad492f195ea506b50751ddeb55762763",
+    "original_pending_cost_delivery_and_source_unchanged": true,
+    "new_compile_or_RUN_for_publication": 0
+  }
+}

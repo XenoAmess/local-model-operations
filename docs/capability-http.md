@@ -874,3 +874,11 @@ Owner新六Test在读候选/反审前冻结，但已知成熟算法、非wholebl
 ## immutable original复用的后到正式来源
 
 [314后见formal](evidence/2026-11-03-http-guided-immutable-original-reuse-formal.json)实核b1dd4e70：已编raw93113B→actual commitblob92219B仅CRLF→LF/EOF保，不能称整叶rawexact；模型一guided表达式edit等级、既有affected method1P与原formal=null/Testpending切点保留。0新增HTTP/编测，不以源码正式授Runtime装载/保存或速度。
+
+## 具名record修复与受指导DATA见证：首fixture红和零JVM准备错保留
+
+[HTTP-ISOLATED-UNRESOLVED-RECORD-AND-GUIDED-WITNESS-990](evidence/2026-11-03-http-isolated-record-guided-witness.json)生产实施/actualcandidate counter各一stop完整JSON但整拒，0模型生产代码；实施错改另一guard，反审按字段名猜过滤、漏旧确认历史且反读boolean。Owner源物化晚于实际实施END、早于读body，旧lastknown“在途”已纠，两个请求相隔93.190319s不冒并发。生产首1TU0/54ef684d正式，只授源码阶段。
+
+独立Test两7500 stop、实际36/37完整源及源码消息600371/616111B逐file核：R1 whole拒，R2partial+owner imports/ACK/identity/negative修，prePOST oracle未供且实现可见，非盲全模型Test。首strict0后relative-label fixtureF在生产入口前；仅平台absolute标签修、期待不变，再strict0。随后漏建owned tmp在preflight零JVM拒，精确mkdir后RUN-only首1methodP（1正10有限负，不当11Tests）。四Test进程13.174317s对首POST→末JVM965.277536s，准备/等待/activeunknown分账，0旧绿/生产重编；原失败与pending切点保，不以纯DATA见证授实际保存/权限/加载或速度。
+
+后到c79cba99单Test17763B raw/formal/EOF逐byte等独立附录，0新增编验，原delivery/cost的formal pending不改。
