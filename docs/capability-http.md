@@ -237,3 +237,11 @@ tag格式链真实缺`pydantic`后，一项有方向提示的诊断给出两行Y
 原tag10a和57文件载荷不变，初始tag格式RED保留；CI 57项path/size/SHA与tagged正式包匹配，source到staging的18B差异是既有兼容标签生成，非新归一化。初版派生计数误把单次attempt记为1retry，a02明确改为实际1POST/0retry，原件不改。该软件闭环不授Steam、Game或全产品业务通过。
 
 本工作包的具名窗口合计8POST/7stop/1length整弃：四项最初诊断/准备、两次运营记录草稿、一次TTL诊断和本次CI修复。这不是8份生产实现或8次业务通过；原前三并发峰3/35.225413秒仍只属其历史窗口，不宣称持续12并发或服务全局峰值。没有为追加记录补发HTTP；新结果仅在真实后续任务发生时继续追加。
+
+## 后到：缓存比较调用的原文采用与owner方法替换
+
+[HTTP-CACHE-EQUALITY-001](evidence/2026-11-02-http-cache-equality.json)对owner预选的两处cache-hit比较，模型两个调用修改原文采用；新增比较方法只保留signature/Javadoc，手写byte-loop由owner换成既有`Arrays.equals`，不称整方法raw。实际四任务/四POST、3stop+1length、0重试：独立alias审整稿length未读，公共Test虽然stop却仅161tokens半截Java，集成Test还错误接受篡改的hash-bound原件，两个Test均整拒，owner写四个方法接管。固定三消息与首两请求12份完整文件逐源核，输入与各scope分别记录，原SUMMARY采用字段不回写。
+
+首次2prod+2Test严格编译及4P通过，正常正式36bd1d1b；两个production和公共Test raw/formal一致，另一个ownerTest按既有CRLF/行尾空白投影分SHA且EOF保留，不冒四叶全raw。源码只证明每次非空cache-hit省固定侧getter的一次clone，仍fresh读原件及当前侧比较，Pin/hash/profile/session/耐久等检查全保。runtime-ready仅元数据交付，没有实际装载、分配下降或实速回执，不授历史规划/FileForce原因或10秒目标收益。
+
+准备marker至交付573.830991s，首strict至最终JVM89.014131s、三个验证进程和7.192821s分列；主动准备/审阅及marker前发现工时均未知，缺旧Test缓存查找和owner替换Test成本保留。此case与先前identity/nested-copy优化独立，不合并采用率或跨任务相减声称省时。后续只在真实运行owner授权且有实际回执时追加装载/行为/性能阶段；本次运营无新HTTP、编测、profile或业务动作。

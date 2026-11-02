@@ -1,0 +1,278 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-CACHE-EQUALITY-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "observation_timezone": "Asia/Shanghai",
+  "owner_delivery_cutoff_UTC": "2026-11-02T00:03:01.988318+00:00",
+  "formal_receipt_observed_UTC": "2026-11-02T00:18:33.411457+00:00",
+  "metadata_review_UTC": "2026-11-02T00:22:39.344169+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "An owner-selected boolean comparison over immutable stored bytes and two existing cache-hit callsite changes, with separate alias and software-test roles.",
+  "input": {
+    "implementation_and_alias_audit_full_files": 12,
+    "physical_source_UTF8_bytes": 261002,
+    "actual_source_message_UTF8_bytes": 264800,
+    "integrity": "All twelve frozen files were digest-checked and their full decoded text found in both actual source messages; this is the explicitly selected closure, not automatic transitive dependency discovery.",
+    "actual_protocol": "Four saved requests, each eight wire keys and system/user/user with the current shared system; temperature0, thinkingfalse, JSON object, stream plus usage.",
+    "owner_design": "The two cache comparisons, exact-byte contract and requirement to preserve fresh reads and all existing validation were selected by owner before implementation; no model discovery credit.",
+    "test_independence": "Public and archive integration requests are different bounded scopes, with current declarations/target source visible. They are not unprompted independent architecture oracles."
+  },
+  "calls": [
+    {
+      "role": "implementation",
+      "POST_BEGIN_UTC": "2026-11-01T23:53:32.291517+00:00",
+      "END_UTC": "2026-11-01T23:54:27.544078+00:00",
+      "max_tokens": 3000,
+      "source_message_UTF8_bytes": 264800,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 55.25255599999946,
+      "content_TTFT_seconds": 17.75819980000233,
+      "usage": {
+        "prompt_tokens": 54546,
+        "completion_tokens": 1152,
+        "total_tokens": 55698
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 272226,
+        "sha256": "8577ea3cc494fe764535eb642280e5015accd2ed19e43542d9ee2b288e5b63cb"
+      }
+    },
+    {
+      "role": "independent-alias-audit",
+      "POST_BEGIN_UTC": "2026-11-01T23:53:32.290791+00:00",
+      "END_UTC": "2026-11-01T23:54:42.179335+00:00",
+      "max_tokens": 3500,
+      "source_message_UTF8_bytes": 264800,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 69.88863399999536,
+      "content_TTFT_seconds": 15.292190000000119,
+      "usage": {
+        "prompt_tokens": 54550,
+        "completion_tokens": 3500,
+        "total_tokens": 58050
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 272360,
+        "sha256": "d4201e93635c9483e5ebed64afb420a5a5c3748e73a5adf8761fcc63aeb024b4"
+      }
+    },
+    {
+      "role": "public-equality-test",
+      "POST_BEGIN_UTC": "2026-11-01T23:54:37.055463+00:00",
+      "END_UTC": "2026-11-01T23:54:38.906052+00:00",
+      "max_tokens": 2800,
+      "source_message_UTF8_bytes": 8246,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 1.850660300005984,
+      "content_TTFT_seconds": 0.5128420000037295,
+      "usage": {
+        "prompt_tokens": 2141,
+        "completion_tokens": 161,
+        "total_tokens": 2302
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 10546,
+        "sha256": "6a16f4453952935625939919723e468a51eea023c30a4e9900f443bfe11bcce5"
+      }
+    },
+    {
+      "role": "archive-cache-integration-test",
+      "POST_BEGIN_UTC": "2026-11-01T23:59:00.961170+00:00",
+      "END_UTC": "2026-11-01T23:59:15.406374+00:00",
+      "max_tokens": 2200,
+      "source_message_UTF8_bytes": 240206,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_HTTP_seconds": 14.445143899996765,
+      "content_TTFT_seconds": 6.37438480000128,
+      "usage": {
+        "prompt_tokens": 48688,
+        "completion_tokens": 1267,
+        "total_tokens": 49955
+      },
+      "cached_tokens": null,
+      "request_digest": {
+        "bytes": 247224,
+        "sha256": "3f0b9dd21ec97d8df6c82b706e680a39b36149620c6d797ffdd8cca93826556e"
+      }
+    }
+  ],
+  "transport": {
+    "logical_generation_tasks": 4,
+    "POSTs": 4,
+    "ENDs": 4,
+    "complete_stop": 3,
+    "length": 1,
+    "transport_retries": 0,
+    "reset": 0,
+    "client_peak": 2,
+    "peak2_spans": [
+      {
+        "BEGIN_UTC": "2026-11-01T23:53:32.291517+00:00",
+        "END_UTC": "2026-11-01T23:54:27.544078+00:00",
+        "seconds": 55.252561
+      },
+      {
+        "BEGIN_UTC": "2026-11-01T23:54:37.055463+00:00",
+        "END_UTC": "2026-11-01T23:54:38.906052+00:00",
+        "seconds": 1.850589
+      }
+    ],
+    "peak2_cumulative_seconds": 57.10315,
+    "longest_continuous_peak2_seconds": 55.252561,
+    "reported_HTTP_duration_sum_seconds": 141.43699419999757,
+    "service_running_waiting_KV": null,
+    "target12_16_claimed_achieved": false
+  },
+  "adoption": {
+    "raw_model_executable_callsite_edits": 2,
+    "DATA_method": "Model signature/Javadoc retained; its hand-written byte loop was replaced by owner with the existing Arrays.equals intrinsic. Whole-method raw executable adoption is not claimed.",
+    "alias_audit": "length3500, whole unread and discarded; no independent safety-approval or semantic-failure credit.",
+    "public_Test": "stop after161 completion tokens with incomplete malformed Java, whole rejected. This is a complete transport response with an incomplete artifact, not finish_reason=length.",
+    "archive_Test": "Complete stop candidate wrongly accepted a changed hash-bound original and had quoting defects; whole rejected.",
+    "model_Test_methods_adopted": 0,
+    "owner_Test": "Three public methods and one actual self-owned archive method, with explicitly reused mechanical fixture support.",
+    "SUMMARY_adopted_flags": "Original transport summaries retain adopted=false and NOT_YET_REVIEWED; later source adoption is tracked by owner review and formal receipts without rewriting those fields.",
+    "no_R2_wash_or_closed_task_replay": true
+  },
+  "source_proven_scope": {
+    "removed_work": "One fixed cached-side getter array clone per nonnull cache-hit comparison at either changed callsite.",
+    "preserved": "Fresh physical read and current-side clone/byte comparison; source and pin/hash checks, issuer/writer/profile/session, finite bounds and durability validation. Constructor and public getter remain defensive.",
+    "new_retained_arrays_cache_locks_or_authority": false,
+    "no_atomic_snapshot_claim": "Unsynchronized mutation of the caller-provided array has no new atomic snapshot guarantee; ordinary comparison semantics remain."
+  },
+  "software": {
+    "checks": [
+      {
+        "stage": "prod",
+        "BEGIN_UTC": "2026-11-02T00:00:17.359571+00:00",
+        "END_UTC": "2026-11-02T00:00:19.995382+00:00",
+        "process_seconds": 2.6358131999950274,
+        "exit_code": 0
+      },
+      {
+        "stage": "test",
+        "BEGIN_UTC": "2026-11-02T00:01:41.689818+00:00",
+        "END_UTC": "2026-11-02T00:01:43.119045+00:00",
+        "process_seconds": 1.4292272000020603,
+        "exit_code": 0
+      },
+      {
+        "stage": "run",
+        "BEGIN_UTC": "2026-11-02T00:01:43.245924+00:00",
+        "END_UTC": "2026-11-02T00:01:46.373702+00:00",
+        "process_seconds": 3.1277801000032923,
+        "exit_code": 0
+      }
+    ],
+    "new_production_TU": 2,
+    "new_Test_TU": 2,
+    "new_methods_passed": 4,
+    "failures": 0,
+    "skipped": 0,
+    "coverage": "Exact/null/length/lexical comparisons, constructor/getter alias defense, full-material versus protocol bound; actual self-owned archive hits under separate profiles still reopen material and reject a changed hash-bound physical payload without changing the ledger.",
+    "fixture_qualification": "Existing fixture binary behavior was exercised; its source-to-class receipt was NOT_HELD. The missing older Test binary and unstarted draft were not compiled or claimed as prior validation.",
+    "old_source_compiles_or_old_suite_runs": 0,
+    "not_granted": "Private issuer qualification, runtime-loaded behavior, allocation or end-to-end speed, Native/Game outcome, or complete concurrency/exceptional allocation-failure equivalence."
+  },
+  "clock_accounting": {
+    "preparation_marker_UTC": "2026-11-01T23:53:28.157327+00:00",
+    "preparation_marker_to_delivery_wall_seconds": 573.830991,
+    "first_strict_BEGIN_to_final_JVM_END_wall_seconds": 89.014131,
+    "validation_process_sum_seconds": 7.19282050000038,
+    "active_preparation_seconds": null,
+    "active_review_seconds": null,
+    "pre_marker_discovery_seconds": null,
+    "measured_allocation_reduction": null,
+    "measured_speedup": null,
+    "net_owner_saving_seconds": null,
+    "limit": "The marker wall contains HTTP, review, missing-cache lookup, owner replacement tests, coordination and validation. Request sums and nested verification windows are not total labor, CPU or service queue delay."
+  },
+  "formal_annex": {
+    "commit": "36bd1d1bb0020171a04dc1eec7751308257d6c3d",
+    "normal_push_remote_exact_clean_at_receipt": true,
+    "files": [
+      {
+        "role": "DATA_comparison_production",
+        "raw_bytes": 5549,
+        "raw_sha256": "d74d8f8f3658de88764750187acce3fb91fc5723df527e16f372fccbe4227e2e",
+        "formal_bytes": 5549,
+        "formal_sha256": "d74d8f8f3658de88764750187acce3fb91fc5723df527e16f372fccbe4227e2e",
+        "EOF_preserved": true
+      },
+      {
+        "role": "archive_callsite_production",
+        "raw_bytes": 118821,
+        "raw_sha256": "8165201e04a8851cb367680ca484c4837d4401cafd8cbbdecc96627db6c8e1ef",
+        "formal_bytes": 118821,
+        "formal_sha256": "8165201e04a8851cb367680ca484c4837d4401cafd8cbbdecc96627db6c8e1ef",
+        "EOF_preserved": true
+      },
+      {
+        "role": "public_owner_Test",
+        "raw_bytes": 2295,
+        "raw_sha256": "af9a0597387c99c36759bdea5a020fd0d033242f54d7398794f8be572f93b53c",
+        "formal_bytes": 2295,
+        "formal_sha256": "af9a0597387c99c36759bdea5a020fd0d033242f54d7398794f8be572f93b53c",
+        "EOF_preserved": true
+      },
+      {
+        "role": "archive_owner_Test",
+        "raw_bytes": 8398,
+        "raw_sha256": "fc30a64b70c0336528f1bdcdfb69753c0f66abf0a82885b1c88246afc54d1daa",
+        "formal_bytes": 8266,
+        "formal_sha256": "21ac1c6d487028a99cf484bca81ef59de769e6ec4e977367f20e0d83f56a16cb",
+        "EOF_preserved": true
+      }
+    ],
+    "projection": "The archive owner Test uses the existing publication formatter for CRLF-to-LF and trailing whitespace with EOF preserved:8398 raw bytes versus8266 formal bytes. The132-byte difference was not separately apportioned between those projections. Other three files are raw/formal exact.",
+    "source_existing_body_inverse_exact_per_writer_review": true,
+    "new_compile_RUN_HTTP_for_publication": 0
+  },
+  "runtime_ready_annex": {
+    "metadata_at_UTC": "2026-11-02T00:09:21.970519+00:00",
+    "joint_binary_family_required": true,
+    "meaning": "A metadata handoff projects the two production changes into the current runtime source layout and names the complete jointly compiled outer/nested class family. It does not mutate active source or prove loading/execution.",
+    "active_source_mutation": false,
+    "new_compile": false,
+    "runtime_loaded_behavior_or_speed_measured": false
+  },
+  "owner_preparation_errors": "A missing older test-class lookup led to explicit new owner tests. Formal writer metadata invocation and report-schema lookup mistakes stopped before source apply and were corrected; they are not model, Java or Game failures.",
+  "private_evidence_digests": {
+    "frozen_delivery": {
+      "bytes": 25738,
+      "sha256": "9bd382b05f562aca00d9b4c85e511e2bdc2c371e84bd0c846965f29c1b0c2627"
+    },
+    "owner_source_review": {
+      "bytes": 3928,
+      "sha256": "c15c8d90075937407c20ad6c4a3967777d124d1d1e8083306c352efbd7d58945"
+    },
+    "runtime_ready_metadata": {
+      "bytes": 9505,
+      "sha256": "76ebca8445b04fdc8a969335658b9d023b8e027c4c16504c2849f8d1ccef3da8"
+    },
+    "formal_staging": {
+      "bytes": 16942,
+      "sha256": "3fb8a943e1f387d7052996ff3f552de831b91643d571ee1790e86085b522d314"
+    },
+    "formal_publication": {
+      "bytes": 1558,
+      "sha256": "8e860fba08e72b11b9234b13598a4ce03e199ebbb9eadf5d18f778cef8d140f4"
+    },
+    "JUnit_report": {
+      "bytes": 39736,
+      "sha256": "ab80ac87d686a325cce1df4c5ad379de0db83323429cebcc5ee933cab11406cf"
+    }
+  },
+  "comparison_limit": "This is an independent narrow equality-callsite case, separate from the earlier identity-guard and nested-copy changes. It does not establish a cause or saving for historical planning, file force, filesystem calls or seconds-per-saved-day; no new profile was started for this record.",
+  "next_real_trigger": "Only append a separately authorized actual load/runtime/profile result if it arrives; source adoption and four software methods alone do not grant speed. Continue independent HTTP/OpenCode tracking without retrying the closed native-tool loop or creating success-quota requests.",
+  "publication_new_model_compile_test_profile_or_business_actions": 0
+}
