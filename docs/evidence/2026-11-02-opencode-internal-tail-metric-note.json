@@ -1,0 +1,13 @@
+{
+  "unit": "M4-301",
+  "kind": "native tool timing boundary",
+  "public_permission": "This sanitized note may be published with the authorized portable payload; raw source and request history remain private.",
+  "first_native_response": {
+    "content_ttft_ms": null,
+    "first_tool_delta_ms": 540.5138999922201,
+    "finish_reason": "tool_calls"
+  },
+  "interpretation": "The first native response emitted a tool call, not effective assistant text. Its approximately 540 ms tool-argument delta must not be reported as content TTFT. Later actual textual responses may carry separately reported content timings. CLI wall, HTTP elapsed, tool delta, effective content TTFT, owner review envelope and unknown owner active time are separate measurements.",
+  "new_probe_HTTP_or_validation": 0,
+  "original_portable_or_raw_records_modified": false
+}

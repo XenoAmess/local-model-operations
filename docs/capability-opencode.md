@@ -100,3 +100,9 @@ Civ6本批5个真实源码／诊断任务使用普通三消息HTTP，经共享CL
 四process4.644404s对568.988033s首prod→JUnitEND，PREP240.297422/REVIEW418.222083与更早发现/activeunknown分层；Native preflight quoting、owner封包slash字串断言、Ops漏固定reader空命令结果均属准备成本，不归模型/源码。原portable冻结逐byte不改、formal pending另见，0新HTTP/编测或Native/全ABI/Game/SAVE/净提速。
 
 后见 [OC-SINGLE-BINDER-EDIT-298-FORMAL](evidence/2026-11-02-opencode-single-binder-edit-formal.json)：正式`2754ce14`两blob5693/10130B与选定raw/currentformal/EOF逐byte等，0新编RUN；原portable与software pending文件逐byte不改。R1拒、R2+24B owner类型修partial/全owner Test与CP首红→仅CP修首4P等级不变。原17POST/工具顺序/owner准备修正及未知active照保，0模型原稿whole、权限/Native/Game/SAVE或实速收益追授。
+
+## 新内部tail任务：真实13POST编辑后仍需owner语义修正
+
+[OC-INTERNAL-TAIL-EDIT-301](evidence/2026-11-02-opencode-internal-tail-edit.json)按owner许可5556B原字节公开，独立[导航归因note](evidence/2026-11-02-opencode-internal-tail-prompt-note.json)和[首tool指标note](evidence/2026-11-02-opencode-internal-tail-metric-note.json)亦保原。1.19.5新隔离会话、4096/HTTP180s，无steps/总POST/wall帽；13实际POST=12tool_calls+1stop，18真实tools为11read成功/2read拒、3glob、1write、1edit，九只读before/after pin等。首回复text TTFT=null，540.5139ms是first tool delta，不能冒有效文本TTFT。nativehistory不套fixed3；伴随一条1500预算八源普通HTTP counter，未见candidate/Test/oracle，三正确有限source陷阱仅analysis、不当整审或代码信用。
+
+两次错名拒读有owner TASK语义简称/launch误称CONTRACT列basename的导航贡献，不能全归model；全部八完整refs+TASK在write前已读。真实write→fullread→importedit→12行read仍漏execute先transfer，owner一执行行+一计数comment→5117→5143B partial，正逆核，不授whole raw/CLI0正确。Owner八Test仅新candidate盲、成熟callee已知，首prod/Test/JUnit0→8P，4.150357s三过程/89.527815s首prod→RUN，0旧绿。1806.774598s discovery→8P、1.1853s仅成功prepare、0.061395s仅机械assembly、37.350756s CLI与187.478225s交错review分账；native+counter短峰2合3.911908s非持续12–16，active/netunknown。原formalpending保；0全函数/ABI/权限沙箱/Native/Game/SAVE/实速信用。
