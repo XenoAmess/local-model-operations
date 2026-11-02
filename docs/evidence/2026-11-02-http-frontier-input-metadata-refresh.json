@@ -1,0 +1,85 @@
+{
+  "schema": "local-model-operations.mode-case-annex/v1",
+  "case_id": "HTTP-LATE-FRONTIER-ANALYSIS-001",
+  "mode_id": "http-candidate",
+  "annex": "OWNER_OLD_PREPARER_REWROTE_INPUT_METADATA",
+  "operator_review_UTC": "2026-11-02T06:15:32.349113+00:00",
+  "original_public_case": "2026-11-02-http-late-frontier-analysis.json",
+  "original_public_case_digest": {
+    "bytes": 10326,
+    "sha256": "a1b0e196df291be32fad8f4f2d53f0ae3a6290baa4b6ab304aeb58622f13664c"
+  },
+  "original_public_case_bytes_unchanged": true,
+  "event": "While preparing a later real unit, owner executed an older pure preparation script instead of reading its template. It invoked no model HTTP/JVM/Game, but rewrote old preparation files and refreshed the input-manifest timestamp. Zero business execution is not zero evidence mutation.",
+  "input_manifest": {
+    "original_at_cutoff_digest": {
+      "bytes": 21366,
+      "sha256": "06bb561720abc13d0aa375bc037995bb6c7fbf2549a3cdcff438bd1d26a329bc"
+    },
+    "current_refreshed_digest": {
+      "bytes": 21366,
+      "sha256": "6617c476a312f054a2bc392030a9573fb4bdf245d474c118765849ae3042f7e1"
+    },
+    "current_refreshed_timestamp_UTC": "2026-11-02T05:59:30.895585+00:00",
+    "current_file_is_original_creation_snapshot": false,
+    "old_creation_timestamp_must_not_be_inferred_from_current_file": true,
+    "original_byte_image_separately_held_by_Ops": false,
+    "no_reconstruction_or_restore_as_original": true
+  },
+  "unchanged_checked": {
+    "prefix_UTF8_bytes": 713863,
+    "prefix_sha256": "818e9c5543cdbf412ecc9ad27de573f96be7b28d9cbf15456fdb3d48c69f495a",
+    "actual_saved_REQUEST_EVENTS_CONTENT": [
+      {
+        "role": "implementation",
+        "REQUEST_digest": {
+          "bytes": 732892,
+          "sha256": "c074b1302774024edbb98af25bf3290d9c9f5ae536ed964954903dd3c712eede"
+        },
+        "EVENTS_digest": {
+          "bytes": 2175,
+          "sha256": "b449e73152813b43aef44629e2e70a7267797c385b506a6092ec3d8be3b85c32"
+        },
+        "CONTENT_digest": {
+          "bytes": 7671,
+          "sha256": "78862c574cdd3b0263ee7c6b0ec6bd3d80c2394bc70c88830b4861613840cf32"
+        }
+      },
+      {
+        "role": "audit",
+        "REQUEST_digest": {
+          "bytes": 738521,
+          "sha256": "a0ff0f85913edb91d8bd833a7c9c9fcb53057b1f186ca3d8a64f20cc277fa4b9"
+        },
+        "EVENTS_digest": {
+          "bytes": 2096,
+          "sha256": "c548d7a04da385066c22547aa7b98bcd8b221fcd37b33fa7a380e1c17d070b4e"
+        },
+        "CONTENT_digest": {
+          "bytes": 3067,
+          "sha256": "b60654990de1a8f1adde5406ad73fa9de01947f74c3fba0cf0b722fced8a42b5"
+        }
+      }
+    ],
+    "owner_source_and_EDITS_and_first_compile_actual_still_match_old_case": true,
+    "actual_POST_END_and_adoption_credit_unchanged": true
+  },
+  "cost": {
+    "owner_error_active_seconds": null,
+    "metadata_rewrite_wall_seconds": null,
+    "scope": "Separate later owner preparation mistake, not a model transport/semantic error, a new historic POST, a candidate repair or new runtime recovery. Other old preparation-file changes are described by owner erratum; this annex does not falsely certify every old preparation file byte unchanged."
+  },
+  "source_and_timing_qualification": "Original case describes what was captured before this rewrite. Its input-manifest digest remains a historical pin, not the current path contents. Authoritative original actual requests, attempts and first compilation are still independently held and matching. Do not backfill the current refreshed time into original discovery/cutoff calculations.",
+  "reusable_rule": "Read existing evidence/templates as data. Before reusing a preparation helper, inspect its entrypoint and output paths; use a new owned task directory and avoid executing a writer against a frozen root. If a helper rewrites metadata, preserve original and current hashes, name the lost/original snapshot limit and append the incident; do not fabricate or silently restore an original.",
+  "private_evidence_digests": {
+    "later_owner_preparation_erratum": {
+      "bytes": 1253,
+      "sha256": "be07bddef7a27cc548babd0ccca41f32dbfa520a8ba593f3895699c4841fd92d"
+    },
+    "current_refreshed_input_manifest": {
+      "bytes": 21366,
+      "sha256": "6617c476a312f054a2bc392030a9573fb4bdf245d474c118765849ae3042f7e1"
+    }
+  },
+  "new_HTTP_JVM_Game_actions_by_Ops": 0
+}

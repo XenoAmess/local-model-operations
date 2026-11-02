@@ -440,6 +440,9 @@ owner四新case oracle响应END后、读CONTENT前冻；随后编译前源核纠
 
 原LOOP04:30:21后04:30:46真实END4/94.888429s，发生于两个模型END之前；窄门确已越过，后继consumer缺对象失败，新增SAVE0、秒/保存日未定义。不能把源码/首绿/LOOP授完整恢复，也不能把另一个下游失败归late模型候选。owner五literal从实际兼容base正反精确；formal b95ca5b5保原当前formal其它新代码、whole213182B与已编205741B不同，仅owned edits inverse，不冒raw整叶相等/实际装载。准备断言/误读命令成本、ready→compile/复核墙钟和activeunknown分别保；此前reader0HTTP仅作上下文、不算新角色/补请求。
 
+后到[输入metadata刷新勘误](evidence/2026-11-02-http-frontier-input-metadata-refresh.json)：owner在新任务中误运行旧prepare脚本，0HTTP/JVM却重写旧准备文件，SOURCE-INPUT时间刷新且不再是原创建快照。原case JSON/旧SHA保；actual两REQUEST/EVENTS/CONTENT、713863B前缀及owner源/首编仍逐hash相同。旧metadata原始byte像Ops未另封持有，不造还原，不把新时间回填旧成本。只读模板须读文件，复用writer先核入口/输出目录，0业务动作不能当0证据副作用。
+
+
 ## 后到：小search step整拒、adapter执行修正与owner期望首红
 
 [HTTP-NARROW-STEP-OWNER-ORACLE-REPAIR-001](evidence/2026-11-02-http-narrow-step-owner-oracle-repair.json)实核7/8/6/7完整项逐wire与1300/1200/750/1200预算，三业务角色四POST，3stop1length/0transportretry，峰3仅4.975096s。step R1 length被owner读过partial后整弃，R2完整stop380仍漏register prelude/比较方向与tie错，whole拒、无R3。adapter1521B decoded→1459B selected有6执行行/4类owner修正：2假nested类型、nonnullrecord equals与3guard exception；正反raw/EOL/noEOF精确，仅partial。counter只原源/合同、未见新ownerbody/oracle，CMP顺序/unsigned与泛风险不授可靠反例。
