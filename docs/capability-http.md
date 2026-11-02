@@ -1004,3 +1004,9 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 [批准完整原文](evidence/2026-11-03-http-guided-council-selection-owner-repair.json)保留两个窄 stop、owner 明示设计及两 hunk：原模型重赋局部量后遗留 lambda 捕获，首生产编译真实失败，owner 源审也漏过，后用79B别名修正。counter 只审思路，未看候选。owner CP 错与 Frame 四坐标 fixture 错独立保留；首次八方法运行为5P3F，修夹具后仅原失败3P，共八个不同方法通过，不能称一次8P。1340.877485秒整墙钟、13.9317989秒进程阶段和与 active unknown 分列，不由排序移除推断分配或实速收益，原正式 pending 切点保持。
 
 324 [独立批准后到正式](evidence/2026-11-03-http-guided-council-selection-later-formal.json)记录 c7005550 两叶 raw/formal/EOF 全字节相同；无新增 HTTP／编验或运行收益。原批准正文14472B及 pending 切点不改，首源码红、owner 修正和5P3F→仅失败3P仍按原记录。
+
+### 标准 loader 路线的对照阴性与纯数组局部复用（327／328）
+
+[327批准原文](evidence/2026-11-03-http-standard-loader-discovery-asymmetry.json)分开两次并行完整 source-analysis（模型0code、只partial）与 owner 独立标准 Maven/custom-root 软件见证：同进程新loader中 app 新 nested 类方法真实执行，dependency 新类已编仍 NCDFE/resource null。exit0 是观察分类完成，不是修复通过；后补四源不回填模型输入，marker仅mtime/active unknown，不授唯一根因或当前业务支持。
+
+[328批准原文](evidence/2026-11-03-http-guided-local-buffer-reuse.json)记录 owner 指定三局部数组/首次读取顺序后的四 hunk 原样采用，getter clones 静态7→3。counter未见candidate，只审思路；六全 owner 新Test首6P，6.2982837秒进程阶段和对658.249725秒全墙钟/active unknown。全部hash/parse/当前资格点保持，不把静态调用数、无源码修正或软件绿当净工时/运行收益；formal pending原切点后见独附。
