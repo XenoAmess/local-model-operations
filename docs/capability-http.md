@@ -702,3 +702,9 @@ R2 body partial，owner把“另clone再mutation”改为成功调用的同一ca
 必要first1prod strict0/2.176457s，低影响诊断按parent明限0newTest/RUN、不为镜像测或旧绿重跑。822.838453s始于明确0POST的输入冻结（不是候选先选定），更早discovery/active/netunknown；旧40CP断言preJava停后按actual42/first-origin核，不能当模型红/现Dev谱系。原sourcepending与后firststrict分别保、正式pending；无新增读取/权限/Root/terminal/自然M6或Native/Game/实载与速度信用，后自然新callee资格另做。
 
 该诊断单元后见正式`40d223a3`，唯一4843B leaf已直接读指定commit blob逐byte/EOF核等，0新增编测/HTTP。原source/formal pending原件与低影响0newTest范围保留，不追授currentDev loader/自然功能或运行收益。
+
+## Postallocation短块：MOVSXD与owner全段分工
+
+[HTTP-SIGNED-POSTALLOCATION-BLOCK-001](evidence/2026-11-02-http-signed-postallocation-block.json)15完整源46766physical/50220消息wire，block2300/audit3600首stop，唯一blockR21500stop，三POST0retry/length、峰2仅11.951585s。强hint完整签名/原ASM下R1两MOVSXD仍unsigned widening，源审未编即拒；R2两model hunk含comment正逆→2764B/owner block0token改。75B全段3000B与22145B五新case全owner，模型仅22B块，不授whole growth/FP/Native。Audit两有限反例合同不足/误指令，仅generalpartial/0oracle，无R2逼批准。
+
+五literal在R1HTTPEND后CONTENT前冻、未喂模型，无target执行期待或验后修。首prod/Test/RUN全0/stdout5，只五postallocation segment72global66Memory+6controlledcallbacks；COPY/free opaque、allocator后态作为input，general RFLAGS/FP/prologue/epilogue/上层binding仍开。1.592123s过程对2021.474626s已录prep→RUN/199.805342与21.918396s协调gap，早期/active/netunknown；用户AGENTS替换中断和prePOST 3B→5B文字订正保，0旧绿/PE/现场/速度。原formalpending软件切点保，后见另附。

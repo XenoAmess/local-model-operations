@@ -1,0 +1,250 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-SIGNED-POSTALLOCATION-BLOCK-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "operator_review_UTC": "2026-11-02T14:23:04.635491+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "One new22-byte postallocation block from a75-byte growth continuation. Model supplies the block, owner supplies the complete segment orchestration and independent finite expected state. Earlier floating-point/growth entry and the whole producer are outside scope.",
+  "input": {
+    "R1_complete_materials": 15,
+    "R1_physical_material_bytes": 46766,
+    "R1_source_message_UTF8_bytes": 50220,
+    "R2_source_message_UTF8_bytes": 53338,
+    "visibility": "Current direct declaring APIs/caller, mature frame and scalar references, two complete original assembly texts and CFG. Exact class/method/entry/boundary/branch hints supplied by owner. R2 adds its own complete R1; no new continuation body/Test/oracle supplied.",
+    "audit_basis": "Source owner checked every declared full body in actual fixed-three REQUESTs. Ops checked named cohort/source/output/actual pins without a large REQUEST rescan; not autonomous ABI design or blind oracle generation.",
+    "exact_invocation_caller_revision": null,
+    "later_shared_HEAD_not_backfilled": true
+  },
+  "calls": [
+    {
+      "role": "block",
+      "round": "http-r1",
+      "POST_BEGIN_UTC": "2026-11-02T13:50:45.192461+00:00",
+      "END_UTC": "2026-11-02T13:50:57.145223+00:00",
+      "max_tokens": 2300,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "caller_attempt_total_seconds": 11.952844300001743,
+      "content_TTFT_seconds": 3.2868392999953358,
+      "usage": {
+        "prompt_tokens": 16098,
+        "completion_tokens": 936,
+        "total_tokens": 17034
+      },
+      "cached_prompt_tokens": null,
+      "complete_material_count_owner_audited": 15,
+      "actual_source_message_UTF8_bytes_owner_audited": 50220,
+      "REQUEST_digest_owner_recorded": {
+        "bytes": 54135,
+        "sha256": "3d42e361ad5df9665653d1fc9ec1c7d4cf58774b80a4c5c65584a8bf89e2edb0"
+      },
+      "EVENTS_digest": {
+        "bytes": 2193,
+        "sha256": "20c571960f175bbb9de758abfbbf905cbb4123c5d6edef321062589f606fce84"
+      },
+      "complete_response_digest": {
+        "bytes": 2876,
+        "sha256": "c15fe5dce8d9a0b23593261a6d053f92809addeaf7731ffe80ee51d84ea1e789"
+      }
+    },
+    {
+      "role": "audit",
+      "round": "http-r1",
+      "POST_BEGIN_UTC": "2026-11-02T13:50:45.193638+00:00",
+      "END_UTC": "2026-11-02T13:51:01.530631+00:00",
+      "max_tokens": 3600,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "caller_attempt_total_seconds": 16.33707829999912,
+      "content_TTFT_seconds": 4.653978900008951,
+      "usage": {
+        "prompt_tokens": 16144,
+        "completion_tokens": 1663,
+        "total_tokens": 17807
+      },
+      "cached_prompt_tokens": null,
+      "complete_material_count_owner_audited": 15,
+      "actual_source_message_UTF8_bytes_owner_audited": 50220,
+      "REQUEST_digest_owner_recorded": {
+        "bytes": 54419,
+        "sha256": "b961db7950eee85c3cbf235b27d78020007b7765b420fdd1c4d14edc9a403c4b"
+      },
+      "EVENTS_digest": {
+        "bytes": 2191,
+        "sha256": "3cca3513b1529a02326e289541e46fbd2d9df0264adcb78875630b8234bb9fd8"
+      },
+      "complete_response_digest": {
+        "bytes": 4424,
+        "sha256": "5eeeb47f7751a2b355638f3f5d9e09148af95b5a405418621fe6b4906450e95b"
+      }
+    },
+    {
+      "role": "block",
+      "round": "http-r2",
+      "POST_BEGIN_UTC": "2026-11-02T13:59:23.423072+00:00",
+      "END_UTC": "2026-11-02T13:59:27.192760+00:00",
+      "max_tokens": 1500,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "caller_attempt_total_seconds": 3.769652999995742,
+      "content_TTFT_seconds": 1.3194433000026038,
+      "usage": {
+        "prompt_tokens": 16969,
+        "completion_tokens": 456,
+        "total_tokens": 17425
+      },
+      "cached_prompt_tokens": null,
+      "complete_material_count_owner_audited": 16,
+      "actual_source_message_UTF8_bytes_owner_audited": 53338,
+      "REQUEST_digest_owner_recorded": {
+        "bytes": 56758,
+        "sha256": "7c249a17be360df9b714d9238402a02daee5d913899352d6450124a5dc60c597"
+      },
+      "EVENTS_digest": {
+        "bytes": 2222,
+        "sha256": "b3b82e27f8cab1086f3301492f6e0358d998ecc8ee2bfb8e93625f619f540cd2"
+      },
+      "complete_response_digest": {
+        "bytes": 1314,
+        "sha256": "5ce37b3be9448a5d9500d23beb9e21e1cb9f9ef7f8ccc9dd69a6f0a3846b4d8f"
+      }
+    }
+  ],
+  "transport": {
+    "actual_POSTs": 3,
+    "ENDs": 3,
+    "stop": 3,
+    "length": 0,
+    "automatic_retry": 0,
+    "client_peak": 2,
+    "peak_two_seconds": 11.951585,
+    "server_running_queued_KV": null,
+    "cache_congestion_inference": null
+  },
+  "adoption": {
+    "block": "Complete R1 block class had two MOVSXD values incorrectly converted with unsigned widening despite complete signed API/original instruction/task. Source review caught it before compilation; not a Java red. Two exact model R2 hunks fix signed widening and the related comment. Final2764-byte class is raw R1 plus model R2,0owner block executable/EOL/EOF edits.",
+    "raw_R1_digest": {
+      "bytes": 2800,
+      "sha256": "34aeceb6a379509d65d80e5f661c95a8d46591c5e32a20282273f8205ee84ec9"
+    },
+    "two_R2_hunks_unique_forward_inverse_exact": true,
+    "selected_payloads": [
+      {
+        "role": "model block R1 plus model R2 correction",
+        "digest": {
+          "bytes": 2764,
+          "sha256": "c50d3cd4fdfea9cf5df73a42d01038b915147b3caa58b2a66bef4ee560d3391d"
+        },
+        "EOF_newline": false
+      },
+      {
+        "role": "owner whole postallocation segment",
+        "digest": {
+          "bytes": 3000,
+          "sha256": "afe2b8b433236f07317b0367a092ed49ab7ba421732a7e0d90b9759661a64893"
+        },
+        "EOF_newline": true
+      },
+      {
+        "role": "owner new five-case Test",
+        "digest": {
+          "bytes": 22145,
+          "sha256": "157988cb6313957e8beab8efb1dfd0d3a14a97f4b4cb246d2d59be602fa91ccd"
+        },
+        "EOF_newline": true
+      }
+    ],
+    "owner_whole_segment": "3000-byte owner orchestration calls the model block once and preserves ordered current state across the conditional opaque copy/free callbacks, physical software CALL pushes, fresh saved-home reads and failure propagation. No model whole75-byte or whole original growth producer credit.",
+    "audit": "General freshness/home observations partially useful. One proposed case changes an allocator before entry instead of the required append-store alias and misnames MOVSXD; another lacks full current callback/stack/normal-return/final tuple. No complete oracle/Test/code adopted and no repeat to obtain approval."
+  },
+  "oracle": {
+    "new_Test_owner_bytes": 22145,
+    "owner_oracle_digest": {
+      "bytes": 37665,
+      "sha256": "f9b6e247de1358fcbc84112f083100a8a57796d9090f311cc9e97029b4fbeb90"
+    },
+    "timing": "Five new literal segment cases frozen after R1 HTTP END but before reading any candidate CONTENT. Not before generation. Owner reports no target execution-derived expected values and no post-validation source/fixture repair; oracle absent from all model requests.",
+    "mature_knowledge": "Mechanical RAM/bank/byte patterns reused; target owner expectations remain separate. No old case rerun or claim the entire framework is newly independent."
+  },
+  "software": {
+    "owner_delivery_cutoff_UTC": "2026-11-02T14:13:11.839759+00:00",
+    "first_stages": [
+      {
+        "phase": "JAVAC_PROD598",
+        "BEGIN_UTC": "2026-11-02T14:06:53.158763+00:00",
+        "END_UTC": "2026-11-02T14:06:53.783648+00:00",
+        "seconds": 0.6248867999966023,
+        "exit_code": 0,
+        "receipt_digest": {
+          "bytes": 1188,
+          "sha256": "b68f02413f0cb4fe52847848f1dc2a619691aa33c06d88fbd4ed4e4a27322751"
+        }
+      },
+      {
+        "phase": "JAVAC_WITNESS598",
+        "BEGIN_UTC": "2026-11-02T14:10:13.588990+00:00",
+        "END_UTC": "2026-11-02T14:10:14.348339+00:00",
+        "seconds": 0.7593463000084739,
+        "exit_code": 0,
+        "receipt_digest": {
+          "bytes": 871,
+          "sha256": "1eba90cd9c0ece31c882dde0d4ea58cfa9962038d0fd19377daa5ef6f70f0cfa"
+        }
+      },
+      {
+        "phase": "RUN598",
+        "BEGIN_UTC": "2026-11-02T14:10:36.266735+00:00",
+        "END_UTC": "2026-11-02T14:10:36.474626+00:00",
+        "seconds": 0.20788940000056755,
+        "exit_code": 0,
+        "receipt_digest": {
+          "bytes": 3583,
+          "sha256": "3fc96325a8fcc9dee129171b39c8160ca2400fe7380bfcd5789c94ee0c3f5333"
+        }
+      }
+    ],
+    "process_sum_seconds": 1.5921225000056438,
+    "first_new_segment_cases": 5,
+    "stdout": "5",
+    "finite_coverage": "72ordered global events:66Memory36reads/30writes plus6controlled callbacks, with6software CALL pushes. Three normal cases include positive copy/free and fresh-home effects, high-address append-store alias and signed negative count. Two controlled failure cases preserve prior real RAM effects and avoid final repair. Represented GPR/XMM/SP/DF state and owned RAM are checked.",
+    "limits": "Allocator return is an applied input and copy/free remain opaque controlled ports. Not whole original growth producer/prologue/FP-control/status/epilogue/upper binding/general RFLAGS/physical Native/EH/Game/SAVE or performance. Existing unrelated Native qualification gaps remain open."
+  },
+  "owner_cost": {
+    "first_known_PREP_UTC": "2026-11-02T13:36:55+00:00",
+    "prep_to_first_POST_wall_seconds": 830.192461,
+    "prep_to_new_RUN_END_wall_seconds": 2021.474626,
+    "prod_END_to_Test_START_coordination_wall_seconds": 199.805342,
+    "Test_END_to_RUN_START_gap_seconds": 21.918396,
+    "earlier_discovery_seconds": null,
+    "active_owner_seconds": null,
+    "net_saving_seconds": null,
+    "included": "Current-source/FP-scope qualification, user instruction replacement interruption, full source/task assembly, source diagnosis and R2 review, owner whole orchestration/oracle/Test, arguments/cache/resource coordination and first actuals. Wall/gaps are not continuous CPU or active labor.",
+    "prePOST_error": "One audit-task summary said3-byte copy; owner corrected it to5 before any POST while the exact call sentence was already5. Original task retained. This is pre-send owner preparation cost, not a model input failure or oracle disclosure."
+  },
+  "formal_status_at_owner_delivery": "Pending sole Java publication; later exact receipt is a separate stage, not a rewrite of this software cutoff.",
+  "private_evidence_digests": {
+    "manifest": {
+      "bytes": 20246,
+      "sha256": "a6dd9b2c6afb9ea571c97d3106def53889b6a6da6840ef2f0e8971a97d3e6817"
+    },
+    "cohort": {
+      "bytes": 5880,
+      "sha256": "d52fdbfdd60f3a34c070e346ccc62fcb54c5587be6e7aac316f1e6b23455d1a4"
+    },
+    "cost": {
+      "bytes": 1255,
+      "sha256": "5776ac0d069e2e40b70aa630836ff0f54c8bed5c379a9bf728a8adf36c9ae1fc"
+    },
+    "prePOST_erratum": {
+      "bytes": 475,
+      "sha256": "554271168bbf1e4cf1b6eb888b8b661d1532f8ea85860625a5715b2d202ac0ee"
+    }
+  },
+  "next_real_trigger": "A naturally arriving formal receipt or an actually complete remaining growth/FP/current-state contract. No third round, old green, new PE or default hardware state invented to fill a gap. Both modes continue independently.",
+  "publication_new_HTTP_JVM_Game_actions_by_operator": 0
+}
