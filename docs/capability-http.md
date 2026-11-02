@@ -1097,3 +1097,6 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 
 
 349 [多visible补充owner验证](evidence/2026-11-03-frontier-multiple-visible-owner-validation-later.json)0HTTP/非新modelcase，已知344生产后只加一方法+六imports；首次该1method1P含三个internal DATA scenarios，旧三方法0RUN。两distinct roots通过public软件retain/settle与两cycle records入场，删/错secondcoverage拒0publish，不授private walkcount/权限/FS/live。旧3methods/helpers源逆除byteexact，不称javac重emit后的classbytes不变；4.4689801进程对643.791718标记窗/activeUNKNOWN分列，原344单visible与pending切点不回填。
+
+
+349 [正式与worktree EOL后见](evidence/2026-11-03-frontier-multiple-visible-later-formal.json)6bd15d77候选/formal Git19642B/88308c及EOF LF exact；物理19931B有289CRLF，仅LF投影等，不称所有raw相同。Writer物理assert在stage前停→独核LF再正常发表属准备成本，不是源/期待/编测红；原2046B pending、onlynew1P/旧3不RUN不改，0新增模型/Java或实载实速。
