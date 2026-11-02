@@ -486,3 +486,7 @@ owner全2981B编排/13378B七方法Book，scenario prePOST、具体Test post生�
 [HTTP-GUIDED-CLASSIFIER-BLOCK-001](evidence/2026-11-02-http-guided-classifier-block.json)14完整项35586B→实际message39898B，1100/2100两POST均stop/0retry，峰2仅7.205023s。owner明确四指令mapping、fresh signed read/shift/compare与成熟scalar参考；1241B完整方法在原编译1549B owner容器中唯一byteexact，0方法执行/EOL/EOF修正，不冒自主设计、whole producer或blind推导。反审一具体例的负count地址、后态寄存器与highbase条件错误拒；ptr0事实有限采，未追R2。owner全1868B编排及7450B七场景，原facts prePOST、literal oracle在两END后/读CONTENT前冻，不混预生成盲oracle。
 
 首两prod/新Test/七场景全0，6正常+1预算异常、37read/7Budget/0write/0invoke；原runner stdout7，不写七JUnit。1150.329671s已录准备→RUN与1.507461s三进程、447.580507/11.906740s协调gap分列，更早发现/active/netunknown。原软件cutoff pending保，后见正式80d2475e：helper1549→1531仅四尾白18B，normalized方法一次/执行及注释保但不称formal rawmethod byteexact；whole/Test rawexact，唯一新339B wrapper 1P/原pins保。wrapper32.616738s窗口/31.403759s协调另记，0新Ops执行、硬件/Native/Game/SAVE/实速或未来upstream绑定信用。
+
+### 两个小helper单元后到正式
+
+[原HTTP-TWO-SMALL-HELPERS-PARTIAL-001](evidence/2026-11-02-http-two-small-helpers-partial.json)软件pending和模型/owner分级字节不变；[后到annex](evidence/2026-11-02-http-two-small-helpers-partial-formal.json)独核fb7f0d72四selected/raw/formal/commitblob及EOF全等，0新增HTTP/编RUN。helper精确的是owner各修一执行行后的2008/849B，非decoded1979/886B；owner2981B整体/13378B七方法与有限counter partial不升级。2113.077490s marker→发表观察另列，原973.751489s软件delivery/684.444348s首prod→RUN与3.411559s进程保，早期发现/active/netunknown，0运行或提速信用。
