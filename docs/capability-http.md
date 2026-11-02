@@ -634,3 +634,9 @@ Test两完整稿没真正先触发获取再造第二文件冲突，whole0/ownerw
 Owner literal先有production可见非wholeblind；编前删恒真assert/修side literal，后Test首strict1因三匿名fixture缺abstract invoke，0JUnit。只三method声明修12672→12985正逆、生产/期待/预算0改→onlyTest重编0/首次8P，runner的retry名不是此前跑过JUnit。四过程4.536264s与144.16699s全验证、49.448691s PREP/164.638522s REVIEW marker交错墙钟分开；更早发现/首读/activeunknown，SAVE优先窗不能包揽全部等待。原formal仍owner delivery pending，后见另附，不新HTTP/编测或授完整upper/Native/Game/速度。
 
 [该三site单元后到正式回执](evidence/2026-11-02-http-three-site-binder-fixture-contract-formal.json)：0aae858b正常发表，3703/5094/12985三payload raw/currentformal/blob/EOF精确；原软件pending和binder partial/反审拒绝/owner Test首红→只三声明修→first8P及全部成本不改。0新HTTP/编测/运行/速度信用。
+
+## 后到：pure frame API与非增长短块的high64修正
+
+[HTTP-QUEUE-PARTS-HIGH-ADDRESS-CORRECTION-001](evidence/2026-11-02-http-queue-parts-high-address-correction.json)14完整材料40881physical/45019wire，5200API/2200block/3600audit均stop，唯一block1200R2 stop；四POST0retry/length、峰3仅10.78701s。Owner exact类/record/guard/APIshape、七指令mapping及成熟scalar/frame参考可见：API5885B完整R1 raw0owner，block R1有明确64bit地址仍int截断，源审未编即拒该点，模型R2一hunk正逆→2560B/ownerJava0，不追R1全对/自主设计。audit具体反例与指令误读拒，仅通用事实partial无oracle/代码。
+
+Owner原三low地址块case+两API组在HTTP END后CONTENT前冻，未覆盖high64 bug；R1源审/R2read后、全部Test编验前另附high64源预期，不冒最终wholeblind。首两prod/Test/RUN全0，6单位=四块case28Memory+三合法Frame组+十拒绝组，不是六wholeNative。1.691102s过程与2246.881509s已录准备→RUN/459.64142s协调分开，早期/activeunknown，错0x检索/猜helper missing等owner成本保。后到架构限定：registerbank无RFLAGS，INC标志未表示/未验；growth FP控制/状态合同仍缺，官方文档后核不追填首prefix/模型oracle。原formal pending保持、后见另附，0新PE/HTTP/JVM/Game或速度信用。
