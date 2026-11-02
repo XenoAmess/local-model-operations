@@ -339,3 +339,7 @@ owner在候选编译前发现旧binary缺当前API getter，0candidate/Test STAR
 ## 后到：API/锁基本块正式附件
 
 [HTTP-ATOMIC-BLOCK-API-001后到正式附件](evidence/2026-11-02-http-atomic-block-api-formal.json)保留原pending cutoff：实际aa5ac4a5正常发表。锁block raw2711→formal2690只排版与一处注释坐标修正，原模型raw/EOF/首次class不改，其余payload原SHA一致。Native仅新wrapper首次strict/selected1P，包装原五个新case而非增加场景或重跑独立旧入口；wall4.739991s/gap3.540867s和两进程另列。网络前runner缺phase及旧helper路径错误属于owner准备，0Java BEGIN，不转嫁模型。无新模型请求或运行/性能信用。
+
+## 后到：有序memory块正式附件
+
+[HTTP-ORDERED-MEMORY-BLOCK-001后到正式附件](evidence/2026-11-02-http-ordered-memory-block-formal.json)另记9e4f29bb正常发表，三个文件raw/formal SHA/EOF全部一致，原软件pending cutoff保持。复用首次2prod/Test/四方法回执，未新增HTTP/编测或场景；850B模型row、owner ABI/Test及提示程度分工不变，未授运行/硬件或提速。
