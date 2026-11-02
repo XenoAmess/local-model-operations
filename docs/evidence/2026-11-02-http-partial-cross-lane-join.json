@@ -1,0 +1,319 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-PARTIAL-CROSS-LANE-JOIN-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_software_cutoff_UTC": "2026-11-02T03:44:17.438909+00:00",
+  "owner_delivery_seal_UTC": null,
+  "operator_review_UTC": "2026-11-02T03:54:44.502804+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Fix explicitly identified comparison boundaries between raw32 execution identities and signed32 public identities while retaining same-lane and full identity predicates.",
+  "input": {
+    "complete_source_items": 21,
+    "detail": "15 complete current Java sources and six complete current Native producer/header files, plus the separate contract. Inventory243632 bytes; actual source message250214 bytes.",
+    "source_message_UTF8_bytes": 250214,
+    "verified": "Each frozen source digest and full decoded text matched all four actual REQUESTs. Eight wire keys, stable system/user/user, temperature0, thinkingfalse, JSON object and SSE usage.",
+    "hint_level": "Owner identified lanes and five exact sites; necessary R2 followed concrete erroneous-site/API feedback. Independent source roles saw no selected candidate or expected matrix, but lanes were explicitly supplied. No unhinted discovery claim."
+  },
+  "calls": [
+    {
+      "role": "production_R1",
+      "POST_BEGIN_UTC": "2026-11-02T03:12:20.347324+00:00",
+      "END_UTC": "2026-11-02T03:12:54.255675+00:00",
+      "max_tokens": 4000,
+      "complete_source_items": 21,
+      "physical_source_UTF8_bytes": 243632,
+      "source_message_UTF8_bytes": 250214,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 18.568310000002384,
+      "reported_HTTP_seconds": 33.9083735000022,
+      "usage": {
+        "prompt_tokens": 64232,
+        "completion_tokens": 1170,
+        "total_tokens": 65402
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 260406,
+        "sha256": "03d7b75a85e76670fda7f9bd289e87c0386d201d981cc9993ea4d3c0d97dbfc7"
+      },
+      "EVENTS_digest": {
+        "bytes": 1982,
+        "sha256": "ec910fb9147fd4fe7c72a005abd81a20b6a37644c0afddde2b81fae0c75fca2f"
+      },
+      "CONTENT_digest": {
+        "bytes": 5125,
+        "sha256": "ccba9659c7e547acce1c8016a52ed495f3f794e32e9f88ba1afaa8af512d763d"
+      }
+    },
+    {
+      "role": "ABI_source_audit",
+      "POST_BEGIN_UTC": "2026-11-02T03:12:20.347293+00:00",
+      "END_UTC": "2026-11-02T03:12:52.886032+00:00",
+      "max_tokens": 2000,
+      "complete_source_items": 21,
+      "physical_source_UTF8_bytes": 243632,
+      "source_message_UTF8_bytes": 250214,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 24.185099300004367,
+      "reported_HTTP_seconds": 32.53877849999844,
+      "usage": {
+        "prompt_tokens": 64143,
+        "completion_tokens": 866,
+        "total_tokens": 65009
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 259992,
+        "sha256": "ae1987c6c6174fd69eb1c54aa011d2f1be7ef6c299f40283bc1c2e5fb6c37027"
+      },
+      "EVENTS_digest": {
+        "bytes": 2013,
+        "sha256": "70bdfd323c243e4fb9525764023918f9af50071ad80c4822b9439ea397e629d9"
+      },
+      "CONTENT_digest": {
+        "bytes": 3313,
+        "sha256": "120fff2cd4e5ab9056706a6d21418f38ac7e4087d0f950213bfab388161842d3"
+      }
+    },
+    {
+      "role": "counterexample_matrix",
+      "POST_BEGIN_UTC": "2026-11-02T03:12:20.346990+00:00",
+      "END_UTC": "2026-11-02T03:12:59.813251+00:00",
+      "max_tokens": 2800,
+      "complete_source_items": 21,
+      "physical_source_UTF8_bytes": 243632,
+      "source_message_UTF8_bytes": 250214,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 22.311851799997385,
+      "reported_HTTP_seconds": 39.46632889999455,
+      "usage": {
+        "prompt_tokens": 64213,
+        "completion_tokens": 2176,
+        "total_tokens": 66389
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 260332,
+        "sha256": "77b7041927bd5166a2b8332444d122ca59385cbf33c9801f9c54f1c5a7ee37f9"
+      },
+      "EVENTS_digest": {
+        "bytes": 2003,
+        "sha256": "871e4f48c5dbac7f2824e5d8b5a4430d3041396febd4bb8b841b2e65314f228c"
+      },
+      "CONTENT_digest": {
+        "bytes": 6626,
+        "sha256": "8f0f285e9bc75ce05eb354dabbe42b8d9eaa322b82bcec61e66e04d3e537e200"
+      }
+    },
+    {
+      "role": "production_R2",
+      "POST_BEGIN_UTC": "2026-11-02T03:15:00.863770+00:00",
+      "END_UTC": "2026-11-02T03:15:18.668245+00:00",
+      "max_tokens": 4000,
+      "complete_source_items": 21,
+      "physical_source_UTF8_bytes": 243632,
+      "source_message_UTF8_bytes": 250214,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 6.249888399994234,
+      "reported_HTTP_seconds": 17.804618099995423,
+      "usage": {
+        "prompt_tokens": 64396,
+        "completion_tokens": 1964,
+        "total_tokens": 66360
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 261200,
+        "sha256": "ff54412bb64bd9a9b642132d6b6a45f29ffdb9e53874d6caedc57446670de8e3"
+      },
+      "EVENTS_digest": {
+        "bytes": 2042,
+        "sha256": "6945e810e53fef7040c00df3f0064c440178bf1ae93cce0907d9d1c443111613"
+      },
+      "CONTENT_digest": {
+        "bytes": 7465,
+        "sha256": "323ea4b129fabb4c05f95776d2a897fe87524fcfcd4dcbdc08870d9ccab584b2"
+      }
+    }
+  ],
+  "transport": {
+    "actual_request_IDs": 4,
+    "business_roles": 3,
+    "production_semantic_rounds": 2,
+    "actual_POSTs": 4,
+    "ENDs": 4,
+    "complete_stop": 4,
+    "length": 0,
+    "transport_retries": 0,
+    "client_peak": 3,
+    "peak_spans": [
+      {
+        "BEGIN_UTC": "2026-11-02T03:12:20.347324+00:00",
+        "END_UTC": "2026-11-02T03:12:52.886032+00:00",
+        "seconds": 32.538708
+      }
+    ],
+    "peak_cumulative_seconds": 32.538708,
+    "HTTP_union_seconds": 57.270736,
+    "reported_HTTP_sum_seconds": 123.71809899999062,
+    "service_running_waiting_KV": null,
+    "target12_16_claimed_achieved": false
+  },
+  "adoption": {
+    "production_R1": "Complete response whole rejected.",
+    "production_R2": "Complete response also whole rejected; only three individually correct one-line callsite old/new pairs selected raw and verified directly in original CONTENT. Not whole-method or whole-class adoption.",
+    "rejected_R2_parts": "Incorrectly rewrote same-lane checks, omitted another required validation fix, and supplied an unsuitable helper/range treatment.",
+    "owner_code": "Entire explicit typed helper, expected raw conversions and execution-only composition comparison; all executable Test/oracle. Same-lane, dynamic/frame/return predicates retained.",
+    "audits": "Only limited source observations retained; ABI/counterexample matrix was inexact, no whole independent audit or executable oracle accepted.",
+    "new_code_scope": "Three files selected overall, mostly owner implementation; model raw snippet selection does not credit the rest of the patch."
+  },
+  "software": {
+    "checks": [
+      {
+        "stage": "prod01",
+        "BEGIN_UTC": "2026-11-02T03:34:00.123276+00:00",
+        "END_UTC": "2026-11-02T03:34:03.498366+00:00",
+        "reported_process_seconds": 3.375085500003479,
+        "exit_code": 0
+      },
+      {
+        "stage": "test01",
+        "BEGIN_UTC": "2026-11-02T03:35:27.990369+00:00",
+        "END_UTC": "2026-11-02T03:35:31.384377+00:00",
+        "reported_process_seconds": 3.39400310000201,
+        "exit_code": 0
+      },
+      {
+        "stage": "baseline-run01",
+        "BEGIN_UTC": "2026-11-02T03:37:46.391654+00:00",
+        "END_UTC": "2026-11-02T03:37:50.044835+00:00",
+        "reported_process_seconds": 3.6531770000001416,
+        "exit_code": 1
+      },
+      {
+        "stage": "run01",
+        "BEGIN_UTC": "2026-11-02T03:38:00.456348+00:00",
+        "END_UTC": "2026-11-02T03:38:04.305019+00:00",
+        "reported_process_seconds": 3.8486658000038005,
+        "exit_code": 1
+      },
+      {
+        "stage": "test02",
+        "BEGIN_UTC": "2026-11-02T03:43:59.271220+00:00",
+        "END_UTC": "2026-11-02T03:44:02.769747+00:00",
+        "reported_process_seconds": 3.4985213999971165,
+        "exit_code": 0
+      },
+      {
+        "stage": "run02",
+        "BEGIN_UTC": "2026-11-02T03:44:13.793357+00:00",
+        "END_UTC": "2026-11-02T03:44:17.438909+00:00",
+        "reported_process_seconds": 3.645539599994663,
+        "exit_code": 0
+      }
+    ],
+    "reports": [
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0
+      },
+      {
+        "tests": 4,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "baseline": "One new positive produced a real business ContractViolation error against old baseline, not setup/ABI failure. Baseline compiled binaries reused.",
+    "first_candidate": "Three new negative methods passed; positive failed at an owner test numeric-node equality assertion before its cause check.",
+    "owner_correction": "Exactly four Test comparisons replaced node-subclass equality with canonical bytes; inverse matched the preserved first Test hash. Numeric expected values unchanged; all three production-source hashes identical across every phase.",
+    "rerun": "Only Test source recompiled, then only the failed positive method over five identity pairs rerun1P. The three already-green methods were not repeated; four unique methods each passed across two candidate runs, not one all4P run.",
+    "new_unique_owner_methods_passed": 4,
+    "candidate_all4P_single_run": false,
+    "already_green_methods_rerun": 0,
+    "model_Test_POSTs": 0,
+    "old_tests_RUN": 0,
+    "stderr": "Original unrelated logging-manager messages retained; no quiet rerun.",
+    "scope": "Finite software lane/identity and malformed-token cases only; no private issuer/read permit, live Native original, natural terminal/cause, current loaded DLL/runtime, Game/SAVE or whole-project completion."
+  },
+  "formal_at_software_cutoff": {
+    "state": "PENDING_SOLE_WRITER_PUBLICATION_RECEIPT",
+    "commit": null,
+    "later_receipt_is_separate_annex": true
+  },
+  "clock_accounting": {
+    "first_recorded_source_clock_UTC": "2026-11-02T03:03:54.882861+00:00",
+    "last_necessary_RUN_END_UTC": "2026-11-02T03:44:17.438909+00:00",
+    "recorded_window_seconds": 2422.556048,
+    "full_task_wall_seconds": null,
+    "earlier_unrecorded_discovery_exists": true,
+    "source_and_args_ready_UTC": "2026-11-02T03:18:59.666822+00:00",
+    "six_reported_process_seconds_sum": 21.41499240000121,
+    "active_owner_labor_seconds": null,
+    "net_owner_saving_seconds": null,
+    "scope": "Recorded wall includes qualification, full sources, owner-guided two HTTP waves, source/Test work, first failure and correction, and P0/resource/notification/GO-to-START coordination. A period between actual business runs is not continuous business HOLD; coordination gaps are not CPU. The recorded window is not complete task preparation."
+  },
+  "private_evidence_digests": {
+    "owner_delivery": {
+      "bytes": 3440,
+      "sha256": "e4d723502c61455cff5644468d9cb964f7dce71bf14e8c5ee338dd1e790e567e"
+    },
+    "model_cohort": {
+      "bytes": 3926,
+      "sha256": "889094e77768e144718e111ce5237853d99dea33f0bc88d0195a77e8f9cdbbaf"
+    },
+    "model_adoption": {
+      "bytes": 1817,
+      "sha256": "000dc9d21b78b437df96782ece21c60fc839a053bc5125701329ce756783fa51"
+    },
+    "owner_validation": {
+      "bytes": 19111,
+      "sha256": "f470a38b2518adf5b72bb7b4b0ee0204ccfe917a42db2fb3b58de0d14ead479b"
+    },
+    "owner_test_correction": {
+      "bytes": 1927,
+      "sha256": "fe77ebf07b4b7919c2f1b9270f721b2c022fa1eb4a7ca63b36ec326f29939fe1"
+    },
+    "owner_cost": {
+      "bytes": 1139,
+      "sha256": "3c2b09fccd6e57416cd36e0c0faf3086387872715862835416c05edccb3ecdd2"
+    },
+    "owner_oracle": {
+      "bytes": 1834,
+      "sha256": "2d70354a815b14beaa70f25814edadad15be064aca3f0154ab7797325492b6d0"
+    },
+    "source_inventory": {
+      "bytes": 9219,
+      "sha256": "9c3777474c1bf14da2ee0e295c6fd6cfdc3ee49a3cf5deff25481eeb21263e0c"
+    }
+  },
+  "comparison_limits": "A small raw selection amid whole rejected candidates and owner-owned repair is not whole model success, independent oracle reliability, measured net savings, mode superiority or a permanent capability ceiling. Source and runtime outcomes remain separate; the closed OpenCode loop is not rerun for a success quota.",
+  "next_real_trigger": "Actual later publication/runtime evidence or another genuine narrow source boundary. Preserve original whole rejection, three-snippet adoption, owner first Test failure and scoped rerun; do not restate this case as first-pass all-green.",
+  "publication_new_HTTP_JVM_Game_actions": 0,
+  "later_formal_annex": {
+    "observed_UTC": "2026-11-02T03:53:02.473239+00:00",
+    "commit": "3af760925fa4065387098466a18164c9a9232c56",
+    "normal_push_remote_exact_clean": true,
+    "raw_formal_four_source_digests_equal": true,
+    "publication_receipt_digest": {
+      "bytes": 1491,
+      "sha256": "9240b5a46dca153d5efe19d8702b58d0db826e009e51d666aadb2b54cacfb4d3"
+    },
+    "recorded_clock_to_publication_observation_seconds": 2947.590378,
+    "cost_boundary": "This later observation window still excludes earlier unrecorded discovery; not complete task wall or active labor. No new compilation/RUN/HTTP at publication and no runtime installation, natural cause, permission or Game credit."
+  }
+}

@@ -323,3 +323,9 @@ owner在候选编译前发现旧binary缺当前API getter，0candidate/Test STAR
 [HTTP-ORDERED-MEMORY-BLOCK-001](evidence/2026-11-02-http-ordered-memory-block.json)给定owner的精确signature/Result/六次调用顺序，模型首R1完整850B source decoded→write_bytes逐字采用，0Java/EOL/EOF改；完整1333B ABI/equality loop和四方法8056B Test仍owner编写。独立literal先冻，最终Test已看过生产源码，不称盲推。两实际请求各7完整材料，预算1200/1600，均stop/0重试，峰2仅4.110858s。audit误把独立source/destination寄存器说相等，其余interleaving/fresh-return事实只部分接受，不授whole审批准。
 
 首次2prod/Test严格编译与四新方法通过，覆盖forward overlap必须保留的逐步memory观察及有限边界，未授whole外层caller/flags/EH/硬件/Native/Game。marker→交付1695.991442s、driverReady→首编799.911542s，首prod→RUN143.889840s与三进程和2.932807s分列；等待包含实际P0冷窗及未GO退还/通知/owner协调，不能全算cold CPU。主动工时/更早发现和净收益未知，软件cutoff正式回执pending，后到另附。
+
+## 后到：whole拒绝后的三处callsite采纳与owner Test首红
+
+[HTTP-PARTIAL-CROSS-LANE-JOIN-001](evidence/2026-11-02-http-partial-cross-lane-join.json)由owner点名五处raw/signed边界，实际21完整源为15Java+6Native、243632B，加合同后message2为250214B；四REQUEST预算4000/2000/2800/4000，4stop/0重试，峰3仅32.538708s。producer两稿整体均拒，R2只三条正确callsite old/new逐条raw选用；helper、expected转换、execution-only组合和全Test均owner。独审/矩阵只接受局部事实，不授whole oracle或模型自主发现。
+
+首次3prod/Test严格编译通过；旧baseline新positive真实ContractViolation1E。candidate先3negativeP+owner正例JsonNode数字节点类型equals断言F，非模型/生产错误；仅四处Test比较改canonical bytes、期待值/三生产源不变，只重编Test并补跑失败positive五对身份1P，三个绿不重跑。四个不同方法各通过，不写一次4P。录得窗口2422.556048s并非完整起点（更早发现未计时），六进程和21.414992s/主动工时未知；两次业务cold之间空档与GO→START通知等待不冒CPU。软件cutoff正式pending保留；后到正式3af76092四源SHA/EOF一致，录得起点→发表观察2947.590378s仍非完整任务/主动工时，无新编验。未授私有许可、自然cause、运行恢复/保存或提速。
