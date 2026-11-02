@@ -1,0 +1,354 @@
+{
+  "schema": "local-model-operations.civ6-query-diagnostics-followup/v1",
+  "publication_date_local": "2026-11-03",
+  "http_cases_local_date": "2026-11-02",
+  "machine_id": "BF-202609141645",
+  "batch": {
+    "requests": 5,
+    "complete": 4,
+    "length": 1,
+    "retries": 0,
+    "actual_client_peak": 2,
+    "initial_pair_overlap_seconds": 9.636865,
+    "other_cases_serial": true,
+    "server_concurrency": null,
+    "cached_tokens": null
+  },
+  "cases": [
+    {
+      "sequence": 183,
+      "case_id": "HTTP-CIV6-CONTROLMANIFEST183",
+      "mode_id": "http-candidate",
+      "shared_commit": "cce829446ba8d8a5fb79d62ba80ac8021fd05f5b",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 2500,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T14:51:56.265181+00:00",
+      "attempt_end_utc": "2026-11-02T14:52:05.914524+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 9646.191999985604,
+        "first_nonempty_content_delta_ms": 1572.914899996249,
+        "usage": {
+          "prompt_tokens": 5573,
+          "completion_tokens": 450,
+          "total_tokens": 6023
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-owner-corrected",
+      "review": "AdoptXMLtransform/remove-loop/reportstructure, addModroot/exactlyoneInGameActions/globalnestedexecutionvalidation. Original7tests4fail; owner7PASS. Puremanifestonly, nocontrolinstalled/nativevalidityclaim.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 184,
+      "case_id": "HTTP-CIV6-NATIVEWRITESINKS184",
+      "mode_id": "http-candidate",
+      "shared_commit": "cce829446ba8d8a5fb79d62ba80ac8021fd05f5b",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 2500,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T14:51:56.277659+00:00",
+      "attempt_end_utc": "2026-11-02T14:52:07.193759+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 10912.535100011155,
+        "first_nonempty_content_delta_ms": 6436.289700010093,
+        "usage": {
+          "prompt_tokens": 37001,
+          "completion_tokens": 652,
+          "total_tokens": 37653
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-source-audit",
+      "review": "Verified direct culture:RequestChangeGovernment/RequestPolicyChanges, player:AttachModifierByID, UI/Unit/City requests andplayer:SetProperty ledger. Correct qualified names toactual localfunctions; reject claimAdminalreadycappedbyrequestsPerTurn (no suchreferenceinAdmin). Notwholecommandcountproof.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 185,
+      "case_id": "HTTP-CIV6-CONTROLMANIFESTTESTS185",
+      "mode_id": "http-candidate",
+      "shared_commit": "cce829446ba8d8a5fb79d62ba80ac8021fd05f5b",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 3500,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T15:01:25.999486+00:00",
+      "attempt_end_utc": "2026-11-02T15:01:32.683315+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 6677.34379999456,
+        "first_nonempty_content_delta_ms": 927.5934000033885,
+        "usage": {
+          "prompt_tokens": 5627,
+          "completion_tokens": 850,
+          "total_tokens": 6477
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected-tests",
+      "review": "Wrong tuplelistmembership, hardcodedidentity/version and removingwholeInGameActions erasesstaticcontent. Negativefixtureslackotherrequiredtags, cannotisolatewrongroot/duplicate/deepguards. Reviewedonly, nocandidateexecution.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 186,
+      "case_id": "HTTP-CIV6-PERFSPIKE186",
+      "mode_id": "http-candidate",
+      "shared_commit": "cce829446ba8d8a5fb79d62ba80ac8021fd05f5b",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 2200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T15:20:43.247126+00:00",
+      "attempt_end_utc": "2026-11-02T15:21:01.517481+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "length",
+        "sse_done": true,
+        "total_ms": 18268.63860001322,
+        "first_nonempty_content_delta_ms": 4189.147299999604,
+        "usage": {
+          "prompt_tokens": 31072,
+          "completion_tokens": 2200,
+          "total_tokens": 33272
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "rejected-incomplete",
+      "review": "length2200 with DONE and repeated policyinstrumentlist; entirecandidate rejected, no partialadoption/stitching.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 187,
+      "case_id": "HTTP-CIV6-QUERYCOUNTER187",
+      "mode_id": "http-candidate",
+      "shared_commit": "cce829446ba8d8a5fb79d62ba80ac8021fd05f5b",
+      "config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "max_tokens": 2200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-02T15:31:54.748752+00:00",
+      "attempt_end_utc": "2026-11-02T15:31:57.977959+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 3224.29790001479,
+        "first_nonempty_content_delta_ms": 457.09750000969507,
+        "usage": {
+          "prompt_tokens": 1138,
+          "completion_tokens": 454,
+          "total_tokens": 1592
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "partial-owner-corrected",
+      "review": "Retain native-table __index, per-name closure/directforwarding/export. Candidate9basicconsumerstwoERROR forInfinity andbucketmetamethodexceptions. Ownerprotectsentirecounteraccess/finite-exactincrement/precomputedkey; final9PASS includeslater1e308case (notidenticaloldconsumerbytes). NativeUI dummytest5calls/all4returns/objectrefpreserved; no realqueryproxyyet.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "native_failure": {
+    "commit": "aa7d78c002b315dafe9093b1ad85b402c86f267e",
+    "evidence": "https://github.com/XenoAmess/civ6_dev/blob/aa7d78c002b315dafe9093b1ad85b402c86f267e/docs/research/baiqi-p6-performance-first-window47-evidence-2026-11-02.json",
+    "source": "1c63cd5cdcc158e64439e2dd2915762168df4c52",
+    "result": "Actual10city86 first49records Controller31 p50~3/p95~41/max86ms vsfrozen50max; Admin18max5ms, zero invalidclock/drop/metadata, originalsrestored. NOTfullTC036PASS.",
+    "window_defect": "First5falseallowOrderscalls precedeobservedactivation by1.846s; cannotcallthisfull10spostactivation/B_turnwindow. Actual86ms eligibletruecallafteractivationretained. Correctwindowbeforefullrun, no posthocbudgetrelax.",
+    "calibration": "1000dummywrappercallswithactualnativeclock total39ms/max2ms, notgamecontrol ornetcostsubtraction.",
+    "control_manifest": "Model183owner-corrected7PASS,31executablecomponentsremovedinignoredXML; noinstalledcontrol/nativevalidity."
+  },
+  "query_tool": {
+    "commit": "410df86fc1292cc54659de3b2aca304c13365852",
+    "evidence": "https://github.com/XenoAmess/civ6_dev/blob/410df86fc1292cc54659de3b2aca304c13365852/docs/research/baiqi-p6-query-counter-evidence-2026-11-02.json",
+    "native_marker_values": [
+      5,
+      5,
+      2,
+      4
+    ],
+    "native_scope": "Actual47UI Lua dummynamespace/looperbinding/false,nil,objectrefs/counterfaults; actualMap/Units/UnitManager proxy notyetinstalled.",
+    "owner_intervals": {
+      "events": [
+        {
+          "at_utc": "2026-11-02T15:31:50.927321+00:00",
+          "task_id": "HTTP-CIV6-QUERYCOUNTER187",
+          "event": "PREP_FRAGMENT_BEGIN",
+          "machine_id": "BF-202609141645",
+          "scope": "assembly-only-earlier-design-unmeasured",
+          "exclusive_active_seconds": null
+        },
+        {
+          "at_utc": "2026-11-02T15:31:52.189749+00:00",
+          "task_id": "HTTP-CIV6-QUERYCOUNTER187",
+          "event": "PREP_FRAGMENT_END",
+          "machine_id": "BF-202609141645",
+          "scope": "assembly-only-earlier-design-unmeasured",
+          "exclusive_active_seconds": null
+        },
+        {
+          "at_utc": "2026-11-02T15:34:47.564831+00:00",
+          "task_id": "HTTP-CIV6-QUERYCOUNTER187",
+          "event": "REVIEW_BEGIN",
+          "machine_id": "BF-202609141645",
+          "scope": "candidate-source-only",
+          "exclusive_active_seconds": null
+        },
+        {
+          "at_utc": "2026-11-02T15:38:59.851331+00:00",
+          "task_id": "HTTP-CIV6-QUERYCOUNTER187",
+          "event": "REVIEW_END",
+          "machine_id": "BF-202609141645",
+          "scope": "partial-adopt-needs-finite-counter-and-protected-counter-access",
+          "exclusive_active_seconds": null
+        },
+        {
+          "at_utc": "2026-11-02T15:49:48.087663+00:00",
+          "task_id": "HTTP-CIV6-QUERYCOUNTER187",
+          "event": "CORRECTION_FRAGMENT_BEGIN",
+          "machine_id": "BF-202609141645",
+          "scope": "file-edit-only-earlier-design-unmeasured",
+          "exclusive_active_seconds": null
+        },
+        {
+          "at_utc": "2026-11-02T15:49:48.323825+00:00",
+          "task_id": "HTTP-CIV6-QUERYCOUNTER187",
+          "event": "CORRECTION_FRAGMENT_END",
+          "machine_id": "BF-202609141645",
+          "scope": "file-edit-only-earlier-design-unmeasured",
+          "exclusive_active_seconds": null
+        },
+        {
+          "at_utc": "2026-11-02T15:49:48.523979+00:00",
+          "task_id": "HTTP-CIV6-QUERYCOUNTER187",
+          "event": "VALIDATION_BEGIN",
+          "machine_id": "BF-202609141645",
+          "scope": "software-only",
+          "exclusive_active_seconds": null
+        },
+        {
+          "at_utc": "2026-11-02T15:49:53.679551+00:00",
+          "task_id": "HTTP-CIV6-QUERYCOUNTER187",
+          "event": "VALIDATION_END",
+          "machine_id": "BF-202609141645",
+          "scope": "software-only",
+          "exclusive_active_seconds": null
+        },
+        {
+          "at_utc": "2026-11-02T15:53:14.971819+00:00",
+          "task_id": "HTTP-CIV6-QUERYCOUNTER187",
+          "event": "CORRECTION_FRAGMENT_BEGIN",
+          "machine_id": "BF-202609141645",
+          "scope": "exact-increment-check",
+          "exclusive_active_seconds": null
+        },
+        {
+          "at_utc": "2026-11-02T15:53:16.732903+00:00",
+          "task_id": "HTTP-CIV6-QUERYCOUNTER187",
+          "event": "CORRECTION_FRAGMENT_END",
+          "machine_id": "BF-202609141645",
+          "scope": "exact-increment-check",
+          "exclusive_active_seconds": null
+        }
+      ],
+      "review_wall_seconds": 252.2865,
+      "preparation_fragment_seconds": 1.262428,
+      "software_validation_wall_seconds": 5.155572,
+      "complete_preparation_seconds": null,
+      "complete_correction_seconds": null,
+      "exclusive_active_seconds": null,
+      "note": "Assembly/file-edit fragments exclude earlierdesign/discovery. Softwarewallincludesprocess/tooloverhead; nativechecklaterseparate. No netbenefit orcostsavinginference."
+    }
+  },
+  "maintenance": {
+    "case_preflights": "5canonicalCLI preflights occurredNov2 underthatdayscache; no retrospectiveNov3complianceclaim.",
+    "newday_check": {
+      "date": "2026-11-03",
+      "checked_at_local": "2026-11-03T00:03:23.737811+08:00",
+      "installed_version": "1.19.5",
+      "registry_latest": "1.19.5",
+      "cached": false,
+      "updated": false,
+      "success": true
+    },
+    "new_opencode_native_generation_for_these_cases": 0
+  },
+  "experience": "Partialsourceauditcanidentifyactualdirectculturemethodsbutstillfalselyclaimglobalcap; verifyeachsourceassertion. ControlledXMLpreservation needswhole-tree negativecases, notfixturesfailingunrelatedguards. Observationalcallbackincludesbucketmetamethods: protectingonlygetBucketfailsforwardingguarantee; badnonfinite/stalledcounter mustnotfabricateincrement. Eachquerymustforwardoriginaloncewithobjects/returnsunchanged. Preserve rawpreactivationfalsecalls and distinguishwindowdefectfromrealpostactivationlatencybreach. Dummycompatibility/calibrationisnotactualfullmodbenchmark.",
+  "cumulative_civ6": {
+    "logical_requests": 187,
+    "complete": 177,
+    "length": 10,
+    "retries": 0,
+    "historical_actual_peak": 13,
+    "historical_peak_duration_seconds": null
+  },
+  "limits": [
+    "Native86ms notalgorithmiccausalproof/full5pairs/globalbudget/B_deltaPASS.",
+    "Factory9PASS notformal416fullsuite orrealqueryproxyproof.",
+    "Ownerreviewwall252.2865s is recordedwall, notexclusiveactivework; prep1.262428s/fileeditfragments excludeearlierdesign, completecostnull.",
+    "Newdaymaintenanceisclientonly,0newnativegenerationforthe5cases.",
+    "No cache/hardware/netsavingsinference; rawdataignored."
+  ]
+}
