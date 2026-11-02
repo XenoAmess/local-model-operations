@@ -1,0 +1,101 @@
+{
+  "schema": "local-model-operations.capability-evidence/v1",
+  "case_id": "checkpoint-strict-parse-sharing339",
+  "mode_id": "http-candidate",
+  "permission": "Source owner explicitly approves this sanitized metadata case; raw inputs, requests, source and machine records remain private.",
+  "task": "Reuse one strict raw-byte parse inside two checkpoint-store paths through a package-private bridge on an existing immutable result body. Public strict validation, byte ownership, physical reads and identity checks remain required.",
+  "input": {
+    "complete_supplied_source_entities": 28,
+    "physical_bytes": 363906,
+    "actual_source_message_utf8_bytes": 370272,
+    "guided_proposal": true,
+    "actual_REQUEST_prefix_checked_by_source_owner": true,
+    "invocation_caller_commit": null,
+    "backend_or_weights_identity": "UNKNOWN"
+  },
+  "http": {
+    "logical_tasks": 2,
+    "actual_POSTs": 3,
+    "completed_stop_responses": 2,
+    "HTTP_only_retries": 1,
+    "semantic_correction_round": false,
+    "implementation": {
+      "budget": 7000,
+      "attempt1": "Connection reset after partial content; entire incomplete candidate discarded unread and unstitched.",
+      "attempt2": "Automatic retry of the complete unchanged REQUEST; stop with1861completion tokens."
+    },
+    "counter": {
+      "budget": 4500,
+      "finish": "stop",
+      "completion_tokens": 820
+    },
+    "effective_TTFT_or_attempt_times_in_this_public_unit": null,
+    "peak_or_overlap_not_derived_from_unconsumed_status": true,
+    "new_Test_HTTPs": 0
+  },
+  "adoption": {
+    "implementation": "PARTIAL: retained private parsed-result extraction, strict public delegate and both store verifier lambdas. The model put an implicitly public interface overload where a package-private bridge was required. Owner relocated it into the existing immutable result body and repaired name, nonnull handling, exact anchors and formatting.",
+    "counter": "Limited guided constraints only; no concrete counterexample. It is not an independent actual-candidate verification pass.",
+    "owner_Test": "Whole algorithms from a pre-reply owner oracle; mature mechanical fixture fragments reused. No model Test source or oracle adopted.",
+    "owner_preparation_errors": [
+      "One guessed old dispatch filename, corrected by exact filename search.",
+      "Four missing escape bytes in an owner test literal fixed before any Test Java invocation; expectations unchanged and original draft/Ready preserved. No compiler red or Java retry.",
+      "Read-only prefix-check inline Python quoting failed before running the check; an explicit script then verified the same requests. No extra HTTP or Java."
+    ]
+  },
+  "first_software_validation": {
+    "production_TUs": 2,
+    "production_compile_exit": 0,
+    "production_seconds": 1.742955499998061,
+    "new_Test_TUs": 1,
+    "Test_compile_exit": 0,
+    "Test_compile_seconds": 1.6819569000072079,
+    "JUnit_exit": 0,
+    "JUnit_seconds": 4.308989400000428,
+    "distinct_public_methods_passed": 2,
+    "finite_scope": [
+      "Strict DATA shape, numeric tokens, anchor and owned-array comparisons against the public decoder.",
+      "Controlled in-memory file callback order, expected-session precedence and final IOException identity."
+    ],
+    "not_proved": "No actual filesystem/ACL/custody/native or Root authority, full maximum-size allocation, dynamic total parse count, runtime loading or speed."
+  },
+  "cost": {
+    "first_POST_to_last_JUnit_seconds": 659.715636,
+    "window_is_complete_task_start": false,
+    "all_actual_Java_process_seconds_sum": 7.733901800005697,
+    "Test_strict_to_JUnit_gap_wall_seconds": 7.615819,
+    "source_discovery_start": "UNKNOWN before durable source/oracle records",
+    "owner_active_seconds": null,
+    "net_owner_savings": "UNKNOWN"
+  },
+  "later_normal_publication": {
+    "production_commit": "367eb1cfc1e696ec21861ab53151951f50faa0c2",
+    "Test_commit": "c5dcf39352fb8456b7bc1f6c6387a52c74d876ff",
+    "original_FINAL_and_cost_pending_cutoffs_preserved": true,
+    "new_Java_or_HTTP_for_publication": 0,
+    "Test_raw_formal": "Selected13296B source became13109B only by CRLF-to-LF projection; raw and formal SHA remain distinct."
+  },
+  "local_metadata_bindings": [
+    {
+      "ref": "MODEL-REVIEW339.json",
+      "bytes": 1172,
+      "sha256": "a45975c36a12ca511406cda7d290dba69c4c5106ca501b16a288e11ed614ddc8"
+    },
+    {
+      "ref": "COST-SOFTWARE-LATER339.json",
+      "bytes": 2580,
+      "sha256": "e764d57633c50e7161733ddf7846807b1e973c61a6bb14d6b1b909f9884457d1"
+    },
+    {
+      "ref": "DELIVERY-TEST339.json",
+      "bytes": 4813,
+      "sha256": "be3ccd566dbe65c3a9f0161b25049c8672cd5ea9fef619f3e0988069f5564b2d"
+    },
+    {
+      "ref": "TEST-PUBLICATION-LATER339.json",
+      "bytes": 2006,
+      "sha256": "9d7a2db4a69e3a82f97443f7db653e116842b1531da653948cb4c9af46a25bcd"
+    }
+  ],
+  "runtime_saved_day_or_speed_credit": false
+}

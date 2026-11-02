@@ -1,0 +1,82 @@
+{
+  "scope": "Sanitized reusable software case metadata, not private requests/source or runtime acceptance",
+  "task": "337 exact-kind immutable publication metadata Request constructor",
+  "problem": "A shared constructor fully canonicalizes raw JSON then parses its newly owned canonical bytes again to inspect two metadata fields.",
+  "bounded_solution": "Only the action-history kind reuses the first ContinuityJson binary64 object tree. Canonical bytes are still generated; copied evidence, metadata validation, public defensive clones/identity/sourceKey and the original other-kind pipeline stay intact. No new public API or main type.",
+  "critical_preconditions": [
+    "Reuse the returned ContinuityJson binary64 tree, never its separate StrictJson BigDecimal validation tree",
+    "First parse already validates raw UTF8, duplicates, finite/range, root and explicit normalized-output bound before evidence copying",
+    "Canonical float serializer preserves roundtrip binary64 and floating-token classification including negative zero; metadata only performs named field operations, not order-sensitive iteration",
+    "First row is a fresh local parse result and never escapes; stored canonical bytes remain owned immutable output",
+    "Original null and evidence-copy error precedence matters; no skipped first encoding or identity budget"
+  ],
+  "model_accounting": {
+    "logical_tasks": 2,
+    "posts": 3,
+    "local_peak": 2,
+    "peak2_overlap_seconds": 10.129239,
+    "implementation_r1": {
+      "budget": 6000,
+      "finish": "stop",
+      "prompt_tokens": 21104,
+      "completion_tokens": 896,
+      "effective_ttft_ms": 3404.8744999890914,
+      "wall_ms": 10129.410599998664,
+      "adoption": "partial structure only; owner five executing edits plus one comment correction, including explicit null guard and per-route evidence order"
+    },
+    "counter_r1": {
+      "budget": 7000,
+      "finish": "stop",
+      "prompt_tokens": 21142,
+      "completion_tokens": 3347,
+      "effective_ttft_ms": 3409.119700008887,
+      "wall_ms": 27256.128900000476,
+      "adoption": "whole rejected, no fragments; falsely denied a supplied public tree canonicalization overload"
+    },
+    "counter_r2": {
+      "budget": 5000,
+      "finish": "length",
+      "prompt_tokens": 24842,
+      "completion_tokens": 5000,
+      "effective_ttft_ms": 1526.2522999983048,
+      "wall_ms": 30629.743799989228,
+      "adoption": "whole unread/discarded, zero fragments; no semantic grade, no third round"
+    },
+    "new_test": "owner whole source; original-source oracle frozen before candidate, Test written with candidate visible; no model Test source adopted"
+  },
+  "verification": {
+    "new_main_TUs": 1,
+    "main_compile_seconds": 1.5954013000009581,
+    "existing_family_outputs": 14,
+    "new_Test_TUs": 1,
+    "Test_compile_seconds": 1.690257299997029,
+    "new_Test_outputs": 2,
+    "first_two_methods_seconds": 2.474534000008134,
+    "distinct_methods_passed": 2,
+    "old_sources_or_cases_rerun": 0,
+    "finite_domains": [
+      "numeric token/negative-zero roundtrip, Unicode/key order",
+      "input/list/output aliasing and immutable evidence",
+      "first exception class/message/cause and guard order",
+      "65536 inclusive, normalized-output expansion, later identity budget",
+      "unchanged other-kind constructor branch"
+    ]
+  },
+  "dependency_boundary": "First compile/Test used the existing ordered Dev316 classpath. No later331 cache was prepended; do not claim that new dependency combination was executed or loaded.",
+  "cost": {
+    "prep_marker": "2026-11-02T19:51:47.445062+00:00",
+    "review_marker": "2026-11-02T20:02:36.695136+00:00",
+    "first_run_end": "2026-11-02T20:12:02.768301+00:00",
+    "prep_to_first_run_end_seconds": 1215.323239,
+    "review_marker_to_first_run_end_seconds": 566.073165,
+    "necessary_three_process_phase_seconds_sum": 5.760192600006121,
+    "active_time": "UNKNOWN; wall includes source preparation, models, owner review, scheduling and coordination. Unmarked early discovery not invented."
+  },
+  "limits": [
+    "Finite public DATA comparison and source proof, not exhaustive JSON/physical original authority",
+    "No instrumentation of total parse/encode/allocation count",
+    "No runtime load, performance, saved-day or Game credit",
+    "One output length is an output-cap fact, not a semantic failure or general capability conclusion"
+  ],
+  "publication": "Pending sole Java normal publication at this cutoff; later append-only formal receipt can be added."
+}
