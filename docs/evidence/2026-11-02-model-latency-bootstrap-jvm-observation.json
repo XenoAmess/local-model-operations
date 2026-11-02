@@ -1,0 +1,99 @@
+{
+  "schema": "local-model-operations.approved-portable-experience/v1",
+  "case": "Separate model response latency, application bootstrap work and JVM execution configuration",
+  "evidence_mode": "Runtime-owner HTTP observation plus existing single-pass offline JFR analysis; not a new source-generation model trial.",
+  "approval": "Root explicitly requested this sanitized portable summary; no raw recording, complete argv, private paths or machine/game identities are approved.",
+  "new_source_model_POST": 0,
+  "runtime_model_layer": {
+    "owner_reported_single_HTTP_seconds": 3.252,
+    "owner_reported_payload_bytes": 63297,
+    "raw_request_held_by_this_analysis": false,
+    "scope": "An earlier ordinary-planning request, a different phase from the bootstrap recording. Do not subtract3.252from45.0803 or treat these as paired A/B measurements. Transport response timing is not end-to-end business latency."
+  },
+  "JVM_configuration_evidence": {
+    "source": "The one closed recording actualjdk.JVMInformation event, not an outer launch template.",
+    "actual_startup_options": [
+      "-Xmx2g",
+      "-XX:ActiveProcessorCount=1",
+      "-XX:TieredStopAtLevel=1",
+      "Quarkus class-change javaagent3.40.1.1",
+      "-XX:+EnableDynamicAgentLoading"
+    ],
+    "actual_jvmFlags_field": "null string",
+    "actual_GC_configuration": "DefNew/SerialOld;parallelGCThreads0;concurrentGCThreads0",
+    "limits": [
+      "Startup argument evidence does not measure the compilation tier of every method or prove the causal share of C1.",
+      "Startupagent arguments are not a complete dynamic-attach agent inventory.",
+      "A future allow-C2 experiment may change warmup/compilation costs; no improvement has yet been verified."
+    ]
+  },
+  "recording": {
+    "actual_header_seconds": 45.0802832,
+    "phase": "Entirely bootstrap before the later loop; no Action/SAVE coverage.",
+    "new_recordings_in_analysis": 0,
+    "live_queries_in_analysis": 0,
+    "cached_utility_event_passes": 1,
+    "helper_compiles": 0,
+    "analysis_JVM_seconds": 0.4329606,
+    "external_attach_seconds": 0.3102163999865297,
+    "sampling_dump_overhead": null
+  },
+  "observed_samples": {
+    "business_Java_ExecutionSample_count": 699,
+    "Java_SHA2_implCompress0_leaf_count": 208,
+    "other_Java_leaf_examples": {
+      "StringLatin1_inflate": 57,
+      "StringUTF16_compress": 56,
+      "Jackson_findSymbol": 47
+    },
+    "business_NativeMethodSample_count": 174,
+    "Native_leaf_examples": {
+      "JNA_invokeInt": 81,
+      "Windows_GetFileAttributesEx0": 48,
+      "JNA_invokePointer": 33
+    },
+    "limits": "Execution and native samples stay separate. Inclusive stacks overlap. These counts are not exact calls, CPU percentages, elapsed seconds or a proof that the full bootstrap is one leaf."
+  },
+  "GC_and_IO": {
+    "root_GCPhasePause_count": 70,
+    "root_GCPhasePause_sum_seconds": 0.9215011,
+    "root_GCPhasePause_max_seconds": 0.0589319,
+    "GC_reported_sumOfPauses_seconds": 0.9215011,
+    "observed_FileForce_count": 7,
+    "observed_FileForce_sum_seconds": 0.2164058,
+    "limits": [
+      "Do not add root pauses to GC/young/old cycle durations or nested pause events; these overlap and concurrent cycle time need not be a pause.",
+      "Recorded root pauses alone do not account for the45second window.",
+      "No thresholded FileRead event does not mean no IO. Native JNA ReadFile is not guaranteed to emit the JDK FileRead instrumentation event.",
+      "Observed cross-thread/type durations can overlap and the cached aggregates are not clipped to the header."
+    ]
+  },
+  "allocation_boundary": {
+    "sample_weight_sum": 858945207120,
+    "single_sample_weight_max": 818786040928,
+    "interpretation": "One extreme weight dominates. These are recorded statistical weights, not858GBactually allocated, live heap or measured allocation throughput.",
+    "exact_ThreadAllocationStatistics_delta": "Not captured by the existing utility; event count/schema cannot recover the values. No second pass was added to conceal this gap."
+  },
+  "operator_cost": {
+    "PREP_marker_to_sealed_summary_wall_seconds": 663.203482,
+    "active_owner_seconds": null,
+    "cached_utility_JVM_seconds": 0.4329606,
+    "limits": "Initial source/navigation reads preceded the marker. Preparation, owner review, coordination and summary wall are separate from the parser process time; this is not a full game performance window.",
+    "preparation_correction": "Inherited runner used exact path-string formatting; equivalent path representations were normalized before any grant or JVM. No executed analysis failure or consumed event pass."
+  },
+  "reusable_tool_boundary": {
+    "status": "Existing unchanged finite offline reference utility, not a newly verified general platform.",
+    "known_limits": [
+      "Legacy fixed historical window labels must be excluded for other recordings.",
+      "Only the captured JVMInformation fields/50configrows are available; dedicated agent values and precise per-thread allocation deltas are absent.",
+      "Use an explicit small closed-file scope with external time/memory bounds; top-list limits do not prove unbounded-input memory safety."
+    ],
+    "new_sampling_or_compile_for_publication": 0
+  },
+  "business_result": {
+    "end_to_end_target_met": false,
+    "C2_improvement_verified": false,
+    "new_game_or_runtime_action_by_analysis": false,
+    "model_latency_reduction_is_business_speedup": false
+  }
+}

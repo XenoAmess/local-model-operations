@@ -131,3 +131,9 @@ OpenCode本身也经HTTP请求模型；这里的“普通HTTP”特指三消息�
 后到两轮已自然结束，均无steps、总POST或整段wall上限：第三轮569.705383秒/27POST（17tool_calls、10length），第四轮385.382549秒/13POST（10tool_calls、3length）。总共8次编辑工具成功，但Book未变，源码owner另目录集成验收待完成；没有完整收尾stop、编测或净节省时间证明。默认deny还过滤了内置invalid修复诊断，实际反馈丢失原参数错误，这是有版本源码支持的owner配置缺陷，修复尚未live验证，不能归为固有工具或永久模型能力边界。CLI退出0与工具应用都需独立验收，见[追加记录](opencode-pilot-2026-11-01.md#后到记录两轮不限步运行均已自然结束)和[第二阶段证据](evidence/2026-11-01-opencode-business-pilot-unlimited.json)。
 
 再后到的三任务记录补充这些冻结状态：任务一由owner完成growth并正式发表，模型仅部分沿用；配置生成器两轮后实际根路径1P/URL负例1F，owner接管；本地I/O调用器三轮后仍待独立验收。新配置的invalid已实际执行两次，但巨大的失败参数使诊断输出再次被截成指针，只能记部分修复。1,206/1,207次重复断言属于该新案例的退化证据，不与早先不同length片段混判。累计295POST/九CLI阶段不代表295个任务或整体通过，准备和框架错误照实计成本，见[三任务后到阶段](opencode-pilot-2026-11-01.md#扩展三个真实任务后到阶段记录)。
+
+### 不同阶段的HTTP延迟、bootstrap和JVM事实分层
+
+[获准性能观察正文](evidence/2026-11-02-model-latency-bootstrap-jvm-observation.json)按owner批准5567B原字节保留；这是既有单次离线记录分析，0新source模型POST，不纳两模式生成采用分母。运行owner早先3.252s/63297B HTTP与45.0802832s bootstrap录制不同窗/非A/B，不能相减或把HTTP响应快当端到端业务快。实际JVMInformation含CPU1/TieredStopAtLevel1及启动agent，只证当时配置，不证每方法tier、完整动态agent或C1因果/未来C2收益。
+
+699 Java samples与174 Native samples分列，SHA叶208不是精确调用次数或耗时百分比；70个root GC pauses合.9215011s不叠加GC/嵌套事件，无threshold FileRead也不证明无Native IO。858945207120的allocation sample weights由单条极端权重主导，非858GB实际分配/heap或吞吐；精确线程allocation delta未持，不补造。0.4329606s仅既有解析器过程，663.203482s marker→封口wall含前后工作、早读未计/activeunknown。完整目标未达、C2改善/新采样/业务采用与模型提速因果均未授。
