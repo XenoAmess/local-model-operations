@@ -443,3 +443,7 @@ owner四新case oracle响应END后、读CONTENT前冻；随后编译前源核纠
 [HTTP-NARROW-STEP-OWNER-ORACLE-REPAIR-001](evidence/2026-11-02-http-narrow-step-owner-oracle-repair.json)实核7/8/6/7完整项逐wire与1300/1200/750/1200预算，三业务角色四POST，3stop1length/0transportretry，峰3仅4.975096s。step R1 length被owner读过partial后整弃，R2完整stop380仍漏register prelude/比较方向与tie错，whole拒、无R3。adapter1521B decoded→1459B selected有6执行行/4类owner修正：2假nested类型、nonnullrecord equals与3guard exception；正反raw/EOL/noEOF精确，仅partial。counter只原源/合同、未见新ownerbody/oracle，CMP顺序/unsigned与泛风险不授可靠反例。
 
 owner全producer/step/Test，literal场景POST前冻但具体Book在生产审后写，不冒wholeblind。首七方法6P1F的RBX期望是owner错；原源核后2literal精确修，生产不变，只 editedTest增编+原failed方法1P，六个首P不重，不写成单次7P。五process5.290017s与firstprod→retry成功1035.105897s、marker→delivery1328.989723s及resource/Book/协调gap分列，activeunknown；新typed组合只软件。lengthfailure被封包器误判和读命令quoting独立保，0补HTTP/JVM。formal按本cutoff pending后见另记，不授Game/Native/fullselector/实速，双模式责任继续。
+
+### 正确未采用候选的唯一正式receipt后到
+
+[原HTTP-CORRECT-UNSELECTED-PARALLEL-001](evidence/2026-11-02-http-correct-unselected-parallel.json)保持原字节；[新annex](evidence/2026-11-02-http-correct-unselected-parallel-formal.json)实核已发表bb8a409a唯一payload为owner60347B/783f，rawformal/EOF精确，模型60372B/b9cb仍正确未编未采。精确时序是owner落源→实现HTTP END→owner首编→独审END，不把writer“在途answers”概述当“首编早于两个HTTP END”。lookup/JSON误读/actual字段与argv断言错误独立留成本unknown；0新HTTP/编RUN/运行信用，旧原件不回写。
