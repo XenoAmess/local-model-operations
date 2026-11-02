@@ -960,3 +960,7 @@ Owner whole5824与Test14983均ANYCONTENT前，oracle首POST前，八新FP-aware 
 [HTTP-PREINTENT-LIFE-BUDGET-OWNER-IMPLEMENTATION-318](evidence/2026-11-03-http-preintent-budget-owner-implementation.json)21完整已选current源，4200/3000两stop、0retry/R2，reported154775/154795 prompt tokens不冒wireB/缓存；峰2仅50.714891s。实施错成员/monotonic算式/clean门/回调与无限continue整拒0code；独立counter未看candidate，immutabledeadline是已冻旧约束，其余误读拒，0neworacle。Owner七组两leaf与两新Test四有限DATA方法首0/4P，全owner归因。
 
 进程合计7.799501s与sourceReady→4P767.895798s、prodReady558.118840s、TestReady→strict314.821741s、witnesswindow11.623565s/gap6.855995s分列且不相加，主动工时/更早发现unknown。后见ee52f243两生产仅CRLF→LF、两Test raw/EOF逐blob核，原pending不改；未验证实际Controller pre-execute/Root callback集成，Runtime sourceclosure明确未采用，0真实deferral/retry/SAVE/速度。
+
+[609独立formal后见](evidence/2026-11-03-http-known-fp-queue-composition-formal.json)d17773b5模型R1+R2选定binding4385→4325为60行尾spaces投影，owner API301/whole3889/Test11671 raw/formal/EOF等，349B薄wrapper不新增第五组、本annex未持其独立actual。原1a70软件pending文件逐byte保，强hint/正逆guard/upper零growth边界与四组不回写，不授运行或速度。
+
+[225独立formal后见](evidence/2026-11-03-http-existing-error-cell-consumer-formal.json)0c0a290c thin1308→1292为LF/水平尾白投影，Test11003raw/formal/EOF等；原1a70 source lastknownpending与实际六scene60checks/counterwhole拒/unknownactive均保。0新HTTP/编验或Runtime/Native/Game/性能信用。
