@@ -1,0 +1,15 @@
+{
+  "schema": "local-model-operations.owner-approved-public-rule/v1",
+  "scope": "Windows host command preparation by source/review owners; not a model transport behavior.",
+  "approval_scope": "Only this reviewed complete file is approved for shared public operating guidance. No private path, raw tool transcript or process detail is approved.",
+  "observed_failure": "Several owners accidentally submitted a data or Python source path as the whole shell command when intending to read it. Windows may invoke its registered file association. An exit0 and empty stdout did not prove a file read, absence of process/UI effects, or successful verification. A separate mistaken --help probe of an execution helper also performed work because help behavior had not been established.",
+  "structural_rule": [
+    "Construct read commands only through a local read(path,start,end) function that always prefixes the already-reviewed reader/interpreter and passes the file path as data. Define and use that function at the beginning of each read exec cell; do not manually place data paths in raw cmd fields.",
+    "Execute an authorized Python helper only with the explicit trusted Python executable and explicit arguments. Never use a bare .py path to inspect its source or discover its interface.",
+    "Keep reads, actual helper execution and Git mutations in separate command-construction paths. Do not mix a list of raw shell strings with metadata paths.",
+    "Inspect source or documented configuration before probing --help on a helper that can compile, dispatch or mutate business state.",
+    "Validate metadata paths by resolved path identity plus exact byte size/hash; slash spelling alone is not evidence of a different file.",
+    "Retain the original command/result, mark unknown association effects honestly, and correct the constructor. Do not scan or terminate unrelated processes or claim that a zero result proves no side effect."
+  ],
+  "cost_and_authority": "These errors belong to host-owner preparation and review costs, not model/API errors. The fixes do not authorize a new business action, replay, broad process scan, permission request or extra model call."
+}

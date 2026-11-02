@@ -63,3 +63,6 @@
 为原位重定义审阅body-only日志候选时，变量集合未增加也不能保证合成捕获描述符不变：日志访问顺序可能改变lambda捕获参数的first-use顺序。需要资格判断时，只读核实际生成class的fields/method descriptors及LambdaMetafactory捕获和implementation目标；javac0、源码捕获变量数不变及RAM异常路径Test都不代替shape兼容或Runtime实际instrumentation。正常日志schema、nanos值、嵌套inclusive计时和同步输出阻塞另验，不能用注入失败sink的测试授正常日志性能。[被实际classfile发现并修正的案例](../docs/evidence/2026-11-03-http-passive-submit-phases-owner-capture-shape.json)。
 
 识别同调用重复读取时，先核API是否允许动态provider和原指令的观察点；同一地址出现两次不证明可以复用第一次局部值。分别保留原read/RMW顺序、预算和异常前缀，用可变化的显式软件port核第二次观察。软件port测试不授物理race/内核或硬件并发证明；之后独立源资格发现的新缺口应是新任务，不能追授此前截断审稿的finding。[同地址两次观察的真实修正](../docs/evidence/2026-11-03-http-whole-caller-fresh-observation-correction.json)。
+
+
+Windows host读源必须在每个read exec cell开头定义并复用本机已核的`read(path,start,end)`构造：固定只读reader/显式解释器前缀，目标路径只作参数data，验证范围和shell字符；工具不支持的路径/引用形式应明确拒绝或按实接口修正。授权helper执行与Git mutation用各自构造，不把数据path和raw shell字符串混在一列；绝不裸`.py`/JSON路径当读取，也不对未知有副作用helper试`--help`。元数据按resolved identity及精确size/SHA核，不用slash拼写定文件不同。保原命令/结果及association、dispatch或UI未知，不从exit0/空stdout断言0副作用，不据此扫描/杀其它进程或增加业务/模型请求。[经批准的多owner实际读取构造经验](../docs/evidence/2026-11-03-windows-owner-read-command-construction.json)。
