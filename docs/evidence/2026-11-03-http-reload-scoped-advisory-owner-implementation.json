@@ -1,0 +1,40 @@
+{
+  "schema": "local-model-source-case/v1",
+  "case": "reload-scoped-life-budget-hint-334",
+  "publication_permission": "Source owner approves this sanitized body only, excluding private requests, source, paths and machine records.",
+  "problem": "A new controller loses its private learned scheduling estimate. Existing persisted reports contain phase totals, not the original timing intervals.",
+  "http": {
+    "roles": ["design", "counterexample"],
+    "requests": 2,
+    "observed_local_peak": 2,
+    "prompt_tokens": [147907, 147929],
+    "output_tokens": [1021, 895],
+    "max_output_tokens": [3500, 3000],
+    "seconds": [47.9449994, 47.1240878],
+    "content_ttft_seconds": [39.3682456, 39.3673639],
+    "finish": ["stop", "stop"],
+    "retry": 0,
+    "cached_tokens": null
+  },
+  "review": "Both full responses rejected as implementation guidance: design assumed timing intervals existed in the saved report and offered an unscoped setter; counter repeated existing constraints, then required exact old save equality and suggested changing batch/readiness limits. No model code or new independent oracle adopted.",
+  "owner_result": "Revision 2 changes two existing production leaves. It keeps an independent legacy reserve floor, persists future explicit advisory hints, validates full owner plus actor/episode/nonfuture date at use, and reads only a bounded tail of complete report lines. No new public type or authority, deadline, batch wall, readiness or save cadence change.",
+  "verification": {
+    "production": "First joint two-unit strict compile passed; never rerun.",
+    "new_tests": "Two new controlled DATA/tempfile classes, five unique methods passed in their first execution.",
+    "preserved_failure": "First test-only compile failed because the owner reversed two constructor arguments. Only those fixture calls changed; expectations and production stayed fixed.",
+    "limits": "No private Root/Game permissions or live loader integration demonstrated. Legacy real report was mechanically checked for field shape, separately from controlled helper execution."
+  },
+  "cost": {
+    "complete_source_ready_to_final_test_end_seconds": 1628.848143,
+    "all_compiler_and_test_process_seconds_including_failed_compile": 11.1847593,
+    "corrected_compile_end_to_test_begin_coordination_wall_seconds": 41.87544,
+    "owner_active_seconds": null,
+    "rule": "Full wall includes preparation, review, coordination, failure and waits."
+  },
+  "concurrent_runtime": {
+    "reported_window_seconds": 41.065,
+    "source": "Separate Root/Ops-reported Runtime window, not measured here.",
+    "relation": "Overlap with two roughly 147k-token requests proves concurrency; contention or slowdown causation is unproven."
+  },
+  "cutoff": "Software mature; formal publication pending at this body freeze. Runtime adoption, actual restored value, save benefit and speed improvement remain unproven. Earlier runtime success belongs to the earlier change."
+}
