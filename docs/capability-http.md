@@ -335,3 +335,7 @@ owner在候选编译前发现旧binary缺当前API getter，0candidate/Test STAR
 [HTTP-ARCHIVED-DATA-AUDIT-001](evidence/2026-11-02-http-archived-data-audit.json)是owner实现并首strict后才派发的真实manifest反例/档案源审，未要求Java实现。两REQUEST各37完整材料1300982B，预算2800/2200，1length整弃未读+1stop仅partial支持，0重试；峰2仅74.062085s。完整审稿仍误称历史tuple为current、倒置callback顺序并假称已供完整源码缺失，不授whole闭口或模型代码；源码/首1TU2.181166s与正式5c59e557均独立owner成果。
 
 后到owner从已有commit正本找到机器DATA路径字符串拼写不同：bytes/SHA/normalizedPath相同而exact string不同，初prefix未含Store/commitmeta，不能把这个漏因归为全链输入齐全下的模型失败。原strict Store/source保留，只涉及本机DATA核对，不授新QUERY/STATUS/SAVE/恢复或实速。准备路径/命令纠错和主动审阅未连续计时均unknown；HTTP和完整任务墙钟不混，旧pending字段原件保留，后到END/审阅与诊断分列。
+
+## 后到：API/锁基本块正式附件
+
+[HTTP-ATOMIC-BLOCK-API-001后到正式附件](evidence/2026-11-02-http-atomic-block-api-formal.json)保留原pending cutoff：实际aa5ac4a5正常发表。锁block raw2711→formal2690只排版与一处注释坐标修正，原模型raw/EOF/首次class不改，其余payload原SHA一致。Native仅新wrapper首次strict/selected1P，包装原五个新case而非增加场景或重跑独立旧入口；wall4.739991s/gap3.540867s和两进程另列。网络前runner缺phase及旧helper路径错误属于owner准备，0Java BEGIN，不转嫁模型。无新模型请求或运行/性能信用。
