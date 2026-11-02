@@ -1212,3 +1212,6 @@ M5 [210 wholecaller＋211 fresh-read修正](evidence/2026-11-03-http-whole-calle
 
 
 210／211 [批准952B正常formal后见](evidence/2026-11-03-http-whole-caller-fresh-observation-later-formal.json)e6ab3ffb，correctedcallee5146/newconsumer2173/ownerTest21440三blob exact正常发，沿原两prod首验和四unique methods结果，0新编RUN/不增方法数。原11089B formalpending/5POST3stop2length未读/owner词法修与独立新predicate来源、全部墙钟-activeUNKNOWN保，0runtime或实速信用。
+
+
+256 [Hash two-site same-storage binding](evidence/2026-11-03-http-hash-assignment-two-site-source-qualification.json)批准2537B原样：六currentJava/祖声明与实际caller/callee跨4RF完整在POST前闭，原UNKNOWN初始gap保。双R1 finite5000各、complete1038/1162、峰2仅10.150021s/0retry-length-R2；guided3386binding R1raw0owner，counter只planned source/API partial非candidate/oracle且identity/INT3推理不当proof。OwnerwholeTest候选可见，先前仅qualitativeoracle/literals首执行前冻，非盲数值模型见证。首2prodTU含必要unchangedAssign（无exactcache）另1newTest，3Binding+3Assign+6Testoutputs明确；2groups21literal+37observed/113mixed，旧HashSDK/Test零重跑。RequestE当前整body不同oldcache，只used nesteddecl前缀资格，非wholecurrentcompiledAPI。1.5812652进程vs3388.125004标记窗/早discovery与activeUNKNOWN，不冒CPU或整HOLD，formal原pending、0Native/Game/loading/速度信用。
