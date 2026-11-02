@@ -1,0 +1,192 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-READ-DOMAIN-ORDER-AUDIT-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_source_cutoff_UTC": "2026-11-02T04:49:06.281978+00:00",
+  "original_delivery_cutoff_UTC": "2026-11-02T04:52:22.558417+00:00",
+  "later_model_review_UTC": "2026-11-02T04:53:16.465334+00:00",
+  "operator_review_UTC": "2026-11-02T04:58:16.764779+00:00",
+  "task_category": "source-analysis-and-counterexamples",
+  "implementation_adoption_denominator": false,
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "task": "Audit the ordering between queued strong-read publication and domain material commit, preserving actual ancestry, failure behavior and the same read material.",
+  "input": {
+    "whole_file_items": 20,
+    "physical_UTF8_bytes": 680796,
+    "Java_source_files": 16,
+    "actual_DATA_or_log_items": 4,
+    "actual_REQUEST_complete_frozen_texts_and_order_verified": true,
+    "candidate_and_baseline_supplied": true,
+    "wire": "Eight keys; fixed current system/user/user; temperature0; thinkingfalse; JSON object and SSE usage. Disk raw bytes and actual newline-normalized message bytes are distinct.",
+    "closure_limit": "Only these recorded full files/data/logs are counted. Omitted transitive declarations and the independent owner/M7 review are not retrospectively counted in model coverage. Candidate-informed analysis is not independent oracle discovery."
+  },
+  "calls": [
+    {
+      "role": "read-domain-order-audit",
+      "POST_BEGIN_UTC": "2026-11-02T04:51:21.986123+00:00",
+      "END_UTC": "2026-11-02T04:52:16.855330+00:00",
+      "max_tokens": 1700,
+      "source_message_UTF8_bytes": 681104,
+      "CRLF_pairs_read_as_LF": 5422,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 36.307683100007125,
+      "reported_HTTP_seconds": 54.86939859999984,
+      "usage": {
+        "prompt_tokens": 139137,
+        "completion_tokens": 1240,
+        "total_tokens": 140377
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 697146,
+        "sha256": "1e742f8ae0cdc3ab02c78e7bd0e42d30fdb308862797fe4fc4705b1e0e32dc22"
+      },
+      "EVENTS_digest": {
+        "bytes": 2265,
+        "sha256": "51747353031ecd3490c554aa80430628ae9e0219a60758814774c654513063aa"
+      },
+      "CONTENT_digest": {
+        "bytes": 5597,
+        "sha256": "32c8f91f78e679a82098875776aa3f1f8075de33eeeeef3befa3618f0b58a635"
+      }
+    },
+    {
+      "role": "read-domain-order-counter",
+      "POST_BEGIN_UTC": "2026-11-02T04:51:21.986123+00:00",
+      "END_UTC": "2026-11-02T04:52:20.572443+00:00",
+      "max_tokens": 1700,
+      "source_message_UTF8_bytes": 681104,
+      "CRLF_pairs_read_as_LF": 5422,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "content_TTFT_seconds": 35.34195260000706,
+      "reported_HTTP_seconds": 58.58648510000785,
+      "usage": {
+        "prompt_tokens": 139138,
+        "completion_tokens": 1700,
+        "total_tokens": 140838
+      },
+      "cached_prompt_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 697143,
+        "sha256": "e03ff815d3f35d71101f612cccf0817a58fb8d8d256399de8c959c03f784fde9"
+      },
+      "EVENTS_digest": {
+        "bytes": 2294,
+        "sha256": "4fb8f389b863a7cf0a5013076aec874e5a64f2c33e62dbc3d292c1edc12b3a30"
+      },
+      "CONTENT_digest": {
+        "bytes": 7419,
+        "sha256": "636c055b299417881bea034af4ccbff5fc883c0994137a474c9e3d404427db8e"
+      }
+    }
+  ],
+  "transport": {
+    "logical_roles": 2,
+    "POSTs": 2,
+    "ENDs": 2,
+    "stop": 1,
+    "length": 1,
+    "retry": 0,
+    "client_peak": 2,
+    "peak_cumulative_seconds": 54.869207,
+    "HTTP_union_seconds": 58.58632,
+    "reported_HTTP_seconds_sum": 113.45588370000769,
+    "service_running_waiting_KV": null,
+    "cache_or_congestion_cause": null,
+    "target12_16_claimed_achieved": false
+  },
+  "adoption": {
+    "complete_audit": "Partial source comments only; not whole audit acceptance. Only branch-level support for flushing successful queued reads before capturing the domain head, actual READ Published when no domain changes and draining follow-Unavailable paths. It does not close the complete caller/collector lifecycle or independently establish convergence.",
+    "rejected_complete_claims": "Invented an ancestry whitelist for same-transaction domain writes and incorrectly said failed domain publication returns READ Published. Existing catch returns Blocked and prevents dispatch. It overstated convergence from Published reporting and did not close the concrete caller/collector path.",
+    "counterexamples": "Length response discarded whole, zero partial source adoption, no semantic retry to complete a quota. Whether the owner inspected fragments is not separately claimed here; this is not a complete semantic candidate.",
+    "model_code_adoption": 0,
+    "executed_model_software_cases": 0,
+    "owner_preselected_source_and_first_strict_before_either_POST": true
+  },
+  "owner_source_and_software": {
+    "source_ready_UTC": "2026-11-02T04:49:06.281978+00:00",
+    "source_ready_state_remains": "SOURCE_READY_NOT_COMPILED",
+    "selected_runtime_source": {
+      "bytes": 77098,
+      "sha256": "8174d3a5abf6feb0d8d95ef39fa83793ecfe4397b77790d922927fa1c99f35ce"
+    },
+    "baseline": {
+      "bytes": 75914,
+      "sha256": "1d41e9f8995cec1e44b74833d6d6aadcf44d8f4903d148bc586061e00253cb89"
+    },
+    "first_strict_BEGIN_UTC": "2026-11-02T04:49:47.538124+00:00",
+    "first_strict_END_UTC": "2026-11-02T04:49:49.720615+00:00",
+    "first_strict_process_seconds": 2.1824942999955965,
+    "only_source_TUs": 1,
+    "exit_code": 0,
+    "new_behavior_tests": 0,
+    "limit": "Owner code and first compile predate model requests. No model discovery/code credit, complete runtime recovery, dispatch, new SAVE, saved-day performance or loaded configuration is inferred."
+  },
+  "formal": {
+    "observed_UTC": "2026-11-02T04:51:33.041096+00:00",
+    "commit": "40c88c196ae156e84861cc6ac709a51afc6f677a",
+    "normal_push_remote_exact_clean": true,
+    "compiled_runtime_source_whole": {
+      "bytes": 77098,
+      "sha256": "8174d3a5abf6feb0d8d95ef39fa83793ecfe4397b77790d922927fa1c99f35ce"
+    },
+    "published_formal_whole": {
+      "bytes": 76902,
+      "sha256": "a6b5ba497e25939ec552b20bdc4f2427372a1fac16f0c4a243b6df355da8504b"
+    },
+    "whole_raw_and_formal_equal": false,
+    "scope": "Only owned narrow hunks applied to the formal baseline; existing formal bytes outside the hunks were preserved by the source writer. Runtime and formal complete blobs differ and are not represented as byte-equal. No new compile/RUN by publication or this operator."
+  },
+  "clock_accounting": {
+    "full_preparation_start_UTC": null,
+    "full_task_wall_seconds": null,
+    "active_owner_preparation_review_seconds": null,
+    "net_saving_seconds": null,
+    "recorded_source_ready_to_first_strict_BEGIN_wall_seconds": 41.256146,
+    "recorded_source_ready_to_first_POST_wall_seconds": 135.704145,
+    "recorded_source_ready_to_model_review_wall_seconds": 250.183356,
+    "scope": "These are recorded post-ready windows, not complete discovery/active labor/CPU measurements. HTTP durations, compiler duration, review and resource coordination gaps stay distinct; no end-to-end speed gain or overload cause is inferred."
+  },
+  "private_evidence_digests": {
+    "source_ready": {
+      "bytes": 1652,
+      "sha256": "d3e6d1f6b8032cc929ffade4c68a795d719f7853da8d5e9143aa87f8c8ef76c2"
+    },
+    "source_input": {
+      "bytes": 9392,
+      "sha256": "1bd5cefd55812aa321d8d813729d9bef9ff8071eb178aada2d987ba77318742e"
+    },
+    "owner_delivery": {
+      "bytes": 9124,
+      "sha256": "76d0bc4884b98b34212a07d8f67c7f7655e91b465b4b01fc3ff78c8efd7df7cd"
+    },
+    "later_model_review": {
+      "bytes": 6618,
+      "sha256": "0c3b0ce5237c93aebf8ec71f0eee7769039e43253f65a38db729592860f66b0a"
+    },
+    "first_strict_actual": {
+      "bytes": 66867,
+      "sha256": "1c7bc8fd4f78d768a347d57a5a0c92330d5ca47ff5f42fa59e840b1ac1055c76"
+    },
+    "formal_publication": {
+      "bytes": 800,
+      "sha256": "3c821eaa8aa277ffefd41b40ad526c8ce964bb7645100786906daa16aa1e54aa"
+    },
+    "formal_staged": {
+      "bytes": 74775,
+      "sha256": "1e17f2faa2c81b124b5e49a70d7790379fccffd7fede5b7078e3bb172945681d"
+    },
+    "owner_preparation_erratum": {
+      "bytes": 641,
+      "sha256": "f0f74ab5885c7d8a01848d82c43ce1fed0ae7ded08e58d45a310b681234909ac"
+    }
+  },
+  "next_real_trigger": "Only a genuinely new current-source task or separately authorized actual runtime receipt. Preserve frozen source/delivery states and complete/incomplete output categories; no old task/model replay or OpenCode success quota.",
+  "publication_new_HTTP_JVM_Game_actions": 0,
+  "owner_preparation_erratum": "Exactly one actually executed mixed-EOL multiline match assertion failed before any candidate write. Duplicate-match handling was corrected before first execution, not a second failed preparation run. Source inverse proof/first strict unchanged; none is a model error.",
+  "rejected_owner_design": "A READ-only early return without finishing this same domain material was withdrawn before any candidate body or compile; no repeated query experiment or model-code adoption is claimed."
+}

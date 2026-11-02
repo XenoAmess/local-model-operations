@@ -385,3 +385,9 @@ owner原facts先于POST，五新case在响应结束后、owner读CONTENT前冻�
 [HTTP-LINKED-SCHEMA-SOURCE-AUDIT-001](evidence/2026-11-02-http-linked-schema-source-audit.json)为owner源码/首1TU2.379375s之后的两个真实分析角色，非实现采用率分母。17完整项402036B含15Java和2实际小JSON；actual三消息均核全文。audit1800预算stop788只部分支持真实wrapper/唯一linked内层与frame/helper导航，虚构可直接接受unwrapped schema的else路径拒；已完整给JSON却称snippets是读源限制。counter length1800整弃0片段/不R2凑审通过。2POST1stop1length/0retry，实际END已发生但旧FINAL仍写pending的lastknown原件保留，不能沿未消费状态延长在途。
 
 owner源与首编都早于POST，0模型Java/实际case；正式4b07eeca仅owned block，编译raw75912与formal75727整叶不同，不能冒rawexact。完整准备起点/主动审阅和净收益未知，只列sourceReady后实墙钟/HTTP/首strict。原业务后续另有ancestry失败，源导航和Published不能记完整恢复/SAVE/性能。
+
+## 后到：先flush READ仍须完成同一domain material
+
+[HTTP-READ-DOMAIN-ORDER-AUDIT-001](evidence/2026-11-02-http-read-domain-order-audit.json)是另一个真实顺序反审：20完整项680796B含16Java与4实际DATA/log，baseline/candidate及实际调用者全文已供。两个1700预算POST得到audit stop1240局部支持+counter length1700整弃，0retry/0代码。audit虚构same-transaction ancestry白名单、把domain失败说成返回READ Published均拒；未闭具体caller/collector顺序，不能称wholeaudit通过或独立收敛证明。owner撤回“READ-only先返回”的方案发生在candidate/编译前，不造已运行反例。
+
+owner源/首1TU2.182494s在两POST前已完成；原准备文案写两次assert失败由后见勘误纠为仅一次实际mixed-EOL prewrite失败，duplicate计数在执行前修，不算第二红/模型错。正式40c88c19只owned顺序hunks，编译raw77098与formal76902分SHA。全任务起点/主动工时未知，准备、协调与源审墙钟不能冒CPU或提速；0行为Test/运行恢复/SAVE信用，原cutoff不回填。
