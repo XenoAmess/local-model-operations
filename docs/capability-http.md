@@ -818,3 +818,9 @@ Witness漏getter读/捏table读整拒0oracle；事件是否只含external opaque
 唯一新pure-DATA Test首strict0/1.894485s→2P/4.460850s，XML两方法核，0生产/helper/旧Test重编；6.355334s过程对1229.986986s首POST→JVMwall、217.530882s阶段gap，早准备/active/netunknown，不全归HOLD/CPU。描述性snapshot误会和读日志路径错误归owner/执行准备，不造API缺口或Test红。后见e5d06cbf单Test13944B raw/formal/EOF等，原切点保；0FS/JNA/会员权限/Runtime/实速信用。
 
 223独立[正式后见annex](evidence/2026-11-03-http-complete-static-wrapper-binding-formal.json)记4a86c453：1162/2056模型原类与9022B owner Test三blob raw/formal/EOF逐字节等，0新增HTTP/编验。原source/software的pending不回写，强hint/可达范围与owner事件口径限制不升级为full185/物理状态/自然业务或速度通过。
+
+## Typed replay兼容：合法JSON及后验2P不追授模型算法
+
+[HTTP-TYPED-REPLAY-COMPATIBILITY-313](evidence/2026-11-03-http-typed-replay-compatibility.json)的19完整baseline源568409物理B，counter另给两完整owner候选；4800/4400/6500三独立三消息均stop/validJSON，无retry或R2。生产实现错把旧arbitrary raw路径改走typed重新编码，破坏原格式/大材料兼容，整拒0code；counter引用真实校验仍自称绕过且反复自撤，整审拒，非语法/截断错。Owner materializer早于POST，候选物化却晚实际POST97.100ms，如实分列不授模型代码。
+
+Test只机械helpers部分复用，两算法owner重写；旧pretty raw/大材料负例是看错答后owner新增，非盲oracle。首2prod0/2.695692s、唯一新Test0/1.686148s→2P/2.521189s，Testgap13.023933s；首POST→末Test的已录wall与activeunknown独立，0旧suite/FS/IOtrace/装载或速度。生产两HTTP真重叠44.889710s，Test后发不凑三峰。原formal=null保，后见a5c1320b/bab4341e：Reader raw等，Producer/Test仅LF投影，不能称所有叶raw/formal相同。
