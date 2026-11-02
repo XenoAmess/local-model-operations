@@ -720,3 +720,9 @@ R2 body partial，owner把“另clone再mutation”改为成功调用的同一ca
 [HTTP-COMPLETE-METHOD-SOURCE-SEMANTICS-001](evidence/2026-11-02-http-complete-method-source-semantics.json)两方法各12000预算R1/R2与独立counter6000→4500，两轮共6POST6完整stop/0length/retry；不是截断预算或javac红。完整声明/机械host下四方法仍把active binder当passive、虚构callback/目标写、漏current context/sites，全部方法及片段0采用，owner20220B两方法/期待接管，无R3。独审两whole0，仅full-width/fresh/context/先record再软件stop等有限source事实供后父审，未喂作者，不授完整oracle。原R2三流重叠误报撤回：counter先END，R1峰3只25.421525s、R2仅方法pair29.82744s，实际事件不改。
 
 新manual main首次两组通过，53ordered events=16RAM/34ports/3opaque、166mixedchecks；6guard/3identity/3software-UOE是源断言非独立stdout计数。必要3TU=1newTest+2当前语义cache缺口依赖，复用7族18binary，不冒仅1TU/全旧树重编；0旧Test RUN。0.829298s两过程对13.677327s验证wall、733.9234s Ready→RUN，早准备/审阅activeunknown，修读取命令与导航missing归owner/Ops。finite容量/软件停止投影不授完整增长/FP/Native陷阱/ABI/Game/速度；原formalpending另待后见，不为它重验或加请求。
+
+## Guided Test与callback数组所有权：owner后见不回填模型稿
+
+[HTTP-GUIDED-CALLBACK-ARRAY-OWNERSHIP-001](evidence/2026-11-02-http-guided-callback-array-ownership.json)23/24完整材料、actual三消息各UTF8口径分列，7500/8000两完整stop无retry/length、峰1/68.015019s POSTunion。两whole Test算法拒，只复用成熟packet/WIRE机械部分，owner两方法/Archivehandler接管；owner误指transportSession已撤，模型两答transport()实际正确，不归模型API错。实现知情/合同强hint非盲oracle，无R3。
+
+生产首编后owner另发现borrowed数组跨archive callback可被改，最小clone前移及同一方法定点alias反例独立后加，不追旧HTTP为最终代码审或模型发现。旧Ready实际0START非红；仅最终新Test首strict0→2JUnit2P、XML独核，6.553592s两过程对1052.946126s首POST→JVM/34.445832s gap，准备/activeunknown、实际优先窗与source更新不冒连续HOLD或CPU。后见9c157247单blob13758B/EOF与compiledraw等，原cutoff不改。三archive proxy调用不是物理IOtrace，0生产/helper/旧绿重编/FS/JNA/Root权限/Game/SAVE/实速信用。
