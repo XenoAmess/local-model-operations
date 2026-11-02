@@ -1140,3 +1140,6 @@ Owner谓词/指令oracle POST前，一非法Product指数输入在POST前append�
 357 [正式后见](evidence/2026-11-03-http-normal-state-supplier-later-formal.json)仅原样追加owner批准412B tuple：3bff8fc0正常push/remoteexact，0新编验/运行或速度信用，原3134B正文pending与owner producer重构/薄binding采用边界保。
 
 230 [正式后见](evidence/2026-11-03-http-indexed-frame-later-formal.json)68d8f73d，source owner独立gitshow两prod+1newTest共75505B全部raw/formal/EOF等；owner全core13035、model rawbinder2099、ownerTest60371分列。0新增HTTP/Java/RUN，原5934B pending与core length/whole拒、有限10scene123checks、完整taskstart/activeUNKNOWN不回填；不授运行装载或收益。
+
+
+356 [same-call canonical私helper](evidence/2026-11-03-http-same-call-canonical-private-helper.json)批准4301B正文：23whole/两R1 stop，owner已指定重复点与privatehelper，两literal仅机械EOL后采用/0owner执行修；counter只审source plan非候选盲审，hash gate实际在parser上游。原exactly-once对profile4过宽已另保：仅重复direct/canonical pair，profile3源路径2→1、profile4 3→2后仍保Complete独立reprojection，非运行计数或wall收益。Owner新2method首2P，6.7999828进程/815.448532 source-ready已知墙钟/465.956899队列/11.722242 gap与activeNULL分列；结构helper不冒body-only热改。[后见formal](evidence/2026-11-03-http-same-call-canonical-later-formal.json)7e40ff2a仅1prod+1newTest，原pending/2P不回填，0新验证或实际装载提速信用。
