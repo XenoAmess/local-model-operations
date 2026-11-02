@@ -1,0 +1,271 @@
+{
+  "schema": "local-model-operations.mode-case/v1",
+  "case_id": "HTTP-TYPED-BRIDGE-001",
+  "mode_id": "http-candidate",
+  "observation_date": "2026-11-02",
+  "owner_software_cutoff_UTC": "2026-11-02T02:28:29.931527+00:00",
+  "metadata_review_UTC": "2026-11-02T03:16:10.418934+00:00",
+  "model_alias": "qwen38-coder",
+  "backend_weights_quantization_build": null,
+  "input_integrity": "All frozen declared whole files matched digest and decoded full text in each actual source message. Eight wire keys, fixed current system/user/user, temperature0, thinkingfalse, JSON object, stream with usage. No raw source or request/response body is published.",
+  "calls": [
+    {
+      "role": "page_block",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T02:19:12.499253+00:00",
+      "END_UTC": "2026-11-02T02:19:30.311478+00:00",
+      "max_tokens": 2000,
+      "full_input_items": 11,
+      "input_physical_UTF8_bytes": 34832,
+      "source_message_UTF8_bytes": 36973,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "content_TTFT_seconds": 2.6729943999962416,
+      "reported_HTTP_seconds": 17.812321199999133,
+      "usage": {
+        "prompt_tokens": 10992,
+        "completion_tokens": 2000,
+        "total_tokens": 12992
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 38826,
+        "sha256": "e60fe23b54c03ed7255abf31b93b4c2bc9ddf32ad8194be8be5033e390e93594"
+      },
+      "EVENTS_digest": {
+        "bytes": 2107,
+        "sha256": "7656303fac6706bac88a848303b507237becac52df08966e14295809dc04f42d"
+      },
+      "CONTENT_digest": {
+        "bytes": 5733,
+        "sha256": "f4e61ac34d6d808cab5678d841232bdcd616c1572133edfebccb0e89b4c017f0"
+      },
+      "CONTENT_review": "Whole truncated response unread/discarded; digest only, no semantic extraction"
+    },
+    {
+      "role": "typed_bridge",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T02:19:12.520386+00:00",
+      "END_UTC": "2026-11-02T02:19:21.803190+00:00",
+      "max_tokens": 2400,
+      "full_input_items": 11,
+      "input_physical_UTF8_bytes": 34832,
+      "source_message_UTF8_bytes": 36973,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "content_TTFT_seconds": 2.652184300000954,
+      "reported_HTTP_seconds": 9.282822299996042,
+      "usage": {
+        "prompt_tokens": 11001,
+        "completion_tokens": 799,
+        "total_tokens": 11800
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 38825,
+        "sha256": "3ec5dbe70f3dc139d5c718a2492699f89f8a65b0e90771d727cd71259546910a"
+      },
+      "EVENTS_digest": {
+        "bytes": 2090,
+        "sha256": "88a78fd9e5af42840b3a348f179f06937b4bd3914ba8b4e8b68fe2f25dcb46c6"
+      },
+      "CONTENT_digest": {
+        "bytes": 3489,
+        "sha256": "d71425e759386a23fd00394ea481cf8e82a508deb5ca08150b88384e8dc9695b"
+      },
+      "CONTENT_review": "Complete response reviewed"
+    },
+    {
+      "role": "source_audit",
+      "semantic_round": 1,
+      "POST_BEGIN_UTC": "2026-11-02T02:19:12.498645+00:00",
+      "END_UTC": "2026-11-02T02:19:25.187742+00:00",
+      "max_tokens": 1900,
+      "full_input_items": 11,
+      "input_physical_UTF8_bytes": 34832,
+      "source_message_UTF8_bytes": 36973,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "HTTP_status": 200,
+      "content_TTFT_seconds": 2.6767244000002393,
+      "reported_HTTP_seconds": 12.689152400002058,
+      "usage": {
+        "prompt_tokens": 11018,
+        "completion_tokens": 1095,
+        "total_tokens": 12113
+      },
+      "cached_tokens": null,
+      "REQUEST_digest": {
+        "bytes": 38929,
+        "sha256": "60a093b3b4fed4bd964d254be2c0a4347898a95a9b38c1bbbf432c0b65a8b86e"
+      },
+      "EVENTS_digest": {
+        "bytes": 2112,
+        "sha256": "9d7437549a8192af56555e790e9c4d42fb0bcc46d2872e58dee1b42f1e49a86b"
+      },
+      "CONTENT_digest": {
+        "bytes": 3675,
+        "sha256": "b2e78a322f59adda777f8963790c5bd2bf96c371c41878a6c1de7a6a385946db"
+      },
+      "CONTENT_review": "Complete response reviewed"
+    }
+  ],
+  "transport": {
+    "logical_tasks": 3,
+    "actual_POSTs": 3,
+    "actual_ENDs": 3,
+    "complete_stop": 2,
+    "length": 1,
+    "transport_retries": 0,
+    "client_peak": 3,
+    "peak_spans": [
+      {
+        "BEGIN_UTC": "2026-11-02T02:19:12.520386+00:00",
+        "END_UTC": "2026-11-02T02:19:21.803190+00:00",
+        "seconds": 9.282804
+      }
+    ],
+    "peak_cumulative_seconds": 9.282804,
+    "HTTP_union_seconds": 17.812833,
+    "reported_HTTP_duration_sum_seconds": 39.78429589999723,
+    "service_running_waiting_KV": null,
+    "target12_16_claimed_achieved": false
+  },
+  "formal_at_software_cutoff": {
+    "state": "PENDING_RECEIPT_AT_THAT_CUTOFF",
+    "commit": null
+  },
+  "later_formal_annex": {
+    "observed_UTC": "2026-11-02T02:32:07.353653+00:00",
+    "commit": "cbd71f391b9a1eda67a14128d60d879ca1667319",
+    "normal_push_remote_exact_clean": true,
+    "new_compile_RUN_HTTP_for_publication": 0,
+    "files": [
+      {
+        "raw_bytes": 1439,
+        "raw_sha256": "2aed52e7daabef9cd9ed16dcafcbd5392cc85ce86dfab60f69666b31a90cd742",
+        "formal_bytes": 1439,
+        "formal_sha256": "2aed52e7daabef9cd9ed16dcafcbd5392cc85ce86dfab60f69666b31a90cd742",
+        "EOF_preserved": true
+      },
+      {
+        "raw_bytes": 3463,
+        "raw_sha256": "f181fd23c481fd0f08bfde042a9d2ba06ea83019bc6533978b16f59f14ac4b39",
+        "formal_bytes": 3250,
+        "formal_sha256": "52bf98421db5949e7c8f3d806831f3b92757c0219e49f788c211dc165191b371",
+        "EOF_preserved": true
+      },
+      {
+        "raw_bytes": 874,
+        "raw_sha256": "12706751ad5fb8064ede0fa356a69b99c32093edbac998c91a46dcc8dd8f7ef5",
+        "formal_bytes": 874,
+        "formal_sha256": "12706751ad5fb8064ede0fa356a69b99c32093edbac998c91a46dcc8dd8f7ef5",
+        "EOF_preserved": true
+      },
+      {
+        "raw_bytes": 8112,
+        "raw_sha256": "e9f0cb375d76be297411c86c0119e16b937ef7e74cb9deccc004326d6afdcabf",
+        "formal_bytes": 8112,
+        "formal_sha256": "e9f0cb375d76be297411c86c0119e16b937ef7e74cb9deccc004326d6afdcabf",
+        "EOF_preserved": true
+      }
+    ]
+  },
+  "private_evidence_digests": {
+    "owner_delivery": {
+      "bytes": 4457,
+      "sha256": "77afc5dea93e4d9140c888b7bfc53bb5a32f9c79f296fc98d5902fe8ecd4e892"
+    },
+    "formal_staged": {
+      "bytes": 22692,
+      "sha256": "b70de6958951271ef58da1ca10f767c5567952435dbe09f2f6ad624f38394831"
+    },
+    "formal_publication": {
+      "bytes": 1495,
+      "sha256": "f088e498dfc1c364bf889d985ad4c1569450581f28720685d8ab260f8e2d9c67"
+    },
+    "actual_REQUEST_audit": {
+      "bytes": 17054,
+      "sha256": "8992f8407e5d6e10b5a88e26f76abff9295783a065ec56b125dac99729de4daa"
+    },
+    "owner_model_review": {
+      "bytes": 3429,
+      "sha256": "9408a85591f7e31634b8a75fea9d91697c6c915b7b7a1588507be9c87063387a"
+    },
+    "owner_results": {
+      "bytes": 1317,
+      "sha256": "d0027b669edecb2f6166edeffa7dd36e73c3d9a4c0ed30a24d02007ecac849db"
+    }
+  },
+  "scope_limits": "Finite software source adoption only. No hardware stack/Native/Game, private permission, loaded runtime, actual cause, saved days, performance or completed business recovery credit. This record does not establish a permanent model ceiling or mode superiority.",
+  "next_real_trigger": "A genuine new narrow API/block/binding or source counterexample with complete actual declarations; owner whole orchestration/oracle and meaningful software checks remain separate. Do not replay closed cases or the closed OpenCode loop for a success quota.",
+  "publication_new_HTTP_JVM_Game_actions": 0,
+  "task": "A thin typed callback bridge, a page-step block and an independent bounded source audit; complete ABI/state orchestration was owner supplied before POST.",
+  "adoption": {
+    "typed_bridge": "Complete3394-byte decoded source adopted with zero owner executable/token edits. Owner model-original/selected3463-byte file is exactly69 LF-to-CRLF projections, EOF unchanged. Formal3250-byte blob additionally uses recorded LF/blank-tail projection; all three byte identities remain separate.",
+    "page_block": "Only request ended length2000. Whole truncated candidate discarded unread, no fragment extraction or R2. Owner wrote the874-byte block.",
+    "whole_ABI": "Complete1439-byte frame/state definition authored by owner before POST; not model architecture or whole producer adoption.",
+    "audit": "Partial source observations only. Owner retained explicit supplied segment data, saved-alias and caller no-push observations; rejected unsigned branch direction and16-bit zero-extension claims. The role saw no generated body or owner oracle and does not confer whole audit approval.",
+    "owner_Test": "All four new methods and independent literals authored by owner before responses. Owner later reviewed production, so the completed witness is implementation-aware, not blind.",
+    "original_flags": "Transport/source cutoffs remain frozen; reviewed source adoption and later publication are separate decisions."
+  },
+  "software": {
+    "checks": [
+      {
+        "stage": "prod",
+        "begin": "2026-11-02T02:24:37.435128+00:00",
+        "end": "2026-11-02T02:24:38.437368+00:00",
+        "wall_seconds": 1.0028492000055849,
+        "exit_code": 0
+      },
+      {
+        "stage": "validation",
+        "begin": "2026-11-02T02:26:05.750425+00:00",
+        "end": "2026-11-02T02:26:06.844563+00:00",
+        "wall_seconds": 1.0946851999979117,
+        "exit_code": 0
+      },
+      {
+        "stage": "test",
+        "begin": "2026-11-02T02:26:10.989128+00:00",
+        "end": "2026-11-02T02:26:11.897430+00:00",
+        "wall_seconds": 0.9090540000033798,
+        "exit_code": 0
+      }
+    ],
+    "new_owner_methods_passed": 4,
+    "model_Test_POSTs": 0,
+    "old_tests_RUN": 0,
+    "stderr": "Original unrelated logging-manager stderr retained without suppression or rerun.",
+    "coverage": "Pure byte-memory and explicit supplied segment data, unsigned finite page cases, callback frame/owned push and result identity. Negative register guards source-only where stated.",
+    "unknown": "Actual segment hardware values, stack commitment, guard-page exceptions, flags and EH. No synthetic clamp or successful return for an exception."
+  },
+  "clock_accounting": {
+    "planning_marker_UTC": "2026-11-02T02:12:40+00:00",
+    "full_source_ready_UTC": "2026-11-02T02:18:26.131504+00:00",
+    "physical_ready_UTC": "2026-11-02T02:23:31.784847+00:00",
+    "delivery_UTC": "2026-11-02T02:28:29.929849+00:00",
+    "marker_to_delivery_wall_seconds": 949.929849,
+    "first_prod_to_final_RUN_wall_seconds": 94.462302,
+    "validation_to_JVM_gap_seconds": 4.144565,
+    "reported_process_sum_seconds": 3.0065884000068763,
+    "active_owner_labor_seconds": null,
+    "pre_marker_discovery_seconds": null,
+    "net_owner_saving_seconds": null,
+    "scope": "Marker includes inventory, owner API/state source, freezing, page/Test work, source review, resource coordination and packaging. Process sums are elapsed execution, not CPU or whole preparation; nested windows are not additive."
+  },
+  "late_operator_byte_erratum": {
+    "original_owner_review_preserved": true,
+    "decoded_source": {
+      "bytes": 3394,
+      "sha256": "eea8fbebb2b30c0fc14349b61474fcc7eda2719eb760523ed78141e5ce18a3f8"
+    },
+    "owner_saved_source": {
+      "bytes": 3463,
+      "sha256": "f181fd23c481fd0f08bfde042a9d2ba06ea83019bc6533978b16f59f14ac4b39"
+    },
+    "change": "Exactly69 LF-to-CRLF projections; no executable/token/EOF edits. Earlier owner wording called3463 bytes decoded raw exact; operator actual CONTENT check corrects this claim, not the source or adoption scope."
+  }
+}

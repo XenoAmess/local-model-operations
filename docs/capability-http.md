@@ -293,3 +293,9 @@ owner在CONTENT前冻结四个新case，首次生产/Test严格编译及RUN4通�
 模型给出保留两个原有授权段的文字与顺序，部分采用；原diff声明新18行但实际17行，错误hunk未应用。owner用原件机械生成正确`@@ -1,4 +1,9 @@`补丁并保留原空行。后到整合owner报告8个本地提交普通rebase，仅该首部冲突、两授权段保留，指定production owned路径在原/重基后gitdiff0，正常推送[16e51540d](https://github.com/XenoAmess/ck3_eternal_recurrence/commit/16e51540db979e6a32f72e0f53619ab97e1e5664)并clean。正式采用的是经owner纠正的文档文字/顺序，不是整份模型patch逐字采用；模型生产代码采用0，也不授Game或业务信用。
 
 可复用的是先按实际路径/hunk闭合任务，再逐项核补丁计数、上下文和原文保留。完整stop仍可能有机械格式错误；既有授权来自输入，不能把重排记成新规则设计。此文档冲突没有新增CI或构建需要，本次归档也无新HTTP。后续仅在新的真实冲突出现时验证这类有界候选，不重投已闭题或把普通Git成功当作模型节省owner成本的证明。
+
+## 后到：typed桥原样采用、page block截断与owner整体
+
+[HTTP-TYPED-BRIDGE-001](evidence/2026-11-02-http-typed-bridge.json)按交付单位分别记：薄typed桥完整3394B decoded source采用、owner未改执行token，保存为3463B仅69处LF→CRLF；page基本块length2000整弃未读，owner另写874B、无R2。完整1439B ABI/state定义在POST前已由owner提供，四个新Test方法及literal也由owner独立冻结。三实际REQUEST各含11份完整材料，预算2000/2400/1900，2stop+1length/0重试，峰3仅9.282804s。独审只有局部源事实接受，unsigned分支方向及16bit写高位判断错误，不能作为whole审批准。
+
+首次三生产源/Test严格编译及四方法通过仅授纯软件边界，硬件segment/stack/guard-page/EH/flags仍未知。marker→交付949.929849s、首生产编译→RUN94.462302s与三执行进程和3.006588s分列，主动工时和marker前发现未知，不宣布节省。后到正式cbd71f39对桥做LF/尾白投影3463→3250、EOF保留，三份SHA分列；原owner将3463B称decoded raw exact的字节口径保旧并勘误。无新编验、装载或实际提速信用。
