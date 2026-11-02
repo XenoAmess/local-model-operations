@@ -904,3 +904,9 @@ Native sole两prod/ownerTest首strict0、manual14组0，混core与指定MULSS软
 ## 有限乘积core的后到正式来源
 
 [606后见formal](evidence/2026-11-03-http-guided-finite-product-core-formal.json)实核630d631c三原payload/EOF全raw等，第四叶仅owner薄JUnit wrapper，同14软件组的1P不增加第15场景。1675B强hint模型core与owner7658B整编排/12066B Test等级不变，原pending/完整wall/activeunknown保；0新Ops HTTP/编验，不授实际装载或实速。
+
+## 有限truncation纠正原样采用，外围指令仍归owner
+
+[HTTP-GUIDED-FINITE-TRUNCATION-CORRECTION-607](evidence/2026-11-03-http-guided-finite-truncation-correction.json)35完整项109990物理B/119504源码消息B，唯一纠正含完整原稿后36项/123008B；1800/2200/1800三POST均stop、0retry/length。R1误拒合法负数bit且检查范围前long shift溢出，源审整拒未编；R2完整2848B raw唯一exact、0owner Java/EOL/EOF，强类型/语义提示分列。Owner100%3777B状态/异常外围与8351B Test；counter八个源正确例仅确认既有类别，0新oracle或Test采用，不冒finalcandidate审批准。
+
+首两prod/Test/manual13组全0，只有finite core/scalarCVTT软件域；不重605/606旧绿，不授Memory/callback/wholegrowth、实采MXCSR/CPU/OS/Native/Game。峰2仅10.628606s且R2后到非三并发，1.477750s过程对已录920.274909s墙钟，缺路径/准备/审阅/协调与activeunknown分账，前序primary成本非免费；原formal pending保，不推实际加载或速度。

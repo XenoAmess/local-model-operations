@@ -1,0 +1,140 @@
+{
+  "schema": "local-model-operations.capability-case/v1",
+  "case_id": "HTTP-GUIDED-FINITE-TRUNCATION-CORRECTION-607",
+  "mode_id": "http-candidate",
+  "date": "2026-11-03",
+  "environment": {
+    "model_alias": "qwen38-coder",
+    "backend_weights_quantization_build": null,
+    "invocation_caller_Git_version": null,
+    "audit_boundary": "Canonical ordinary fixed-three-message mode; owner independently rebuilt all three actual requests from frozen specifications and verified complete material. Operations checked named event/SUMMARY and source pins without rescan of private REQUEST prefixes."
+  },
+  "input": {
+    "complete_baseline_entities": 35,
+    "physical_baseline_bytes": 109990,
+    "source_message_UTF8_bytes": 119504,
+    "corrective_round_complete_entities": 36,
+    "corrective_source_message_UTF8_bytes": 123008,
+    "guidance": "Explicit existing API shape, finite conversion semantics and current caller declarations, primary-document notes and earlier source-qualified components. Correction includes complete prior model class plus named diagnoses, not owner finished helper or expected output."
+  },
+  "HTTP": {
+    "logical_roles": 2,
+    "actual_POST": 3,
+    "stop": 3,
+    "length": 0,
+    "retry": 0,
+    "round3": 0,
+    "requests": [
+      {
+        "role": "finite-truncation-r1",
+        "POST_BEGIN_UTC": "2026-11-02T17:01:51.229838+00:00",
+        "END_UTC": "2026-11-02T17:02:01.965446+00:00",
+        "budget": 1800,
+        "content_TTFT_ms": 2238.1176999915624,
+        "total_ms": 10735.648299989407,
+        "usage": {
+          "prompt_tokens": 38339,
+          "completion_tokens": 1123,
+          "total_tokens": 39462
+        },
+        "cached_tokens": null,
+        "complete_entities_owner_audited": 35,
+        "source_message_UTF8_bytes_owner_audited": 119504,
+        "finish_reason": "stop"
+      },
+      {
+        "role": "source-counter",
+        "POST_BEGIN_UTC": "2026-11-02T17:01:51.229961+00:00",
+        "END_UTC": "2026-11-02T17:02:01.858567+00:00",
+        "budget": 2200,
+        "content_TTFT_ms": 2238.6071999935666,
+        "total_ms": 10628.649399994174,
+        "usage": {
+          "prompt_tokens": 38231,
+          "completion_tokens": 1093,
+          "total_tokens": 39324
+        },
+        "cached_tokens": null,
+        "complete_entities_owner_audited": 35,
+        "source_message_UTF8_bytes_owner_audited": 119504,
+        "finish_reason": "stop"
+      },
+      {
+        "role": "finite-truncation-r2",
+        "POST_BEGIN_UTC": "2026-11-02T17:03:13.594380+00:00",
+        "END_UTC": "2026-11-02T17:03:21.073091+00:00",
+        "budget": 1800,
+        "content_TTFT_ms": 1357.8357999940636,
+        "total_ms": 7478.749299989431,
+        "usage": {
+          "prompt_tokens": 39545,
+          "completion_tokens": 1017,
+          "total_tokens": 40562
+        },
+        "cached_tokens": null,
+        "complete_entities_owner_audited": 36,
+        "source_message_UTF8_bytes_owner_audited": 123008,
+        "finish_reason": "stop"
+      }
+    ],
+    "selected_client_peak": 2,
+    "peak2_seconds": 10.628606,
+    "HTTP_union_seconds": 18.214319,
+    "scope": "Actual selected first pair only; correction occurs later and is not a third concurrent request or service load observation."
+  },
+  "adoption": {
+    "first_helper": "Complete first class whole rejected before compile: rejected legitimate negative bit patterns and shifted in a long before checking bounds, allowing overflow. No model compiler red or length failure assigned.",
+    "corrected_helper": "Sole corrective complete class 2848 decoded UTF8 bytes is uniquely identical to selected source, EOL/EOF retained and owner Java edits zero. Strongly guided shape/semantics, not autonomous API or whole instruction design.",
+    "corrected_helper_SHA256": "56afa5511ade90d941a28037f8d1bbd356c34e124613e4f9e563a5fcac5a9011",
+    "owner_whole": "3777-byte current-state, control/flag, normal/stop and destination-register orchestration is entirely owner-authored before any model answer reading.",
+    "counter": "Eight source-correct finite cases provide limited confirmation of already frozen categories. No new numerical oracle, Test or code adopted; analysis is not final-candidate approval.",
+    "oracle": "Owner acceptance frozen before any answer reading. Owner 8351-byte Test written after corrective-answer reading from prior oracle and primary sources, not target-generated values; no model Test adopted."
+  },
+  "software": {
+    "new_production_TUs": 2,
+    "new_owner_Test_TU": 1,
+    "first_phases": [
+      {
+        "stage": "JAVAC_PROD607",
+        "begin_UTC": "2026-11-02T17:06:07.616389+00:00",
+        "end_UTC": "2026-11-02T17:06:08.312559+00:00",
+        "seconds": 0.6961646000127075,
+        "exit_code": 0
+      },
+      {
+        "stage": "JAVAC_WITNESS607",
+        "begin_UTC": "2026-11-02T17:07:02.452742+00:00",
+        "end_UTC": "2026-11-02T17:07:03.106218+00:00",
+        "seconds": 0.6534718999901088,
+        "exit_code": 0
+      },
+      {
+        "stage": "RUN607",
+        "begin_UTC": "2026-11-02T17:07:09.146795+00:00",
+        "end_UTC": "2026-11-02T17:07:09.274909+00:00",
+        "seconds": 0.12811320000037085,
+        "exit_code": 0
+      }
+    ],
+    "manual_new_groups_passed": 13,
+    "domain": "Finite helper plus scalar truncating-conversion instruction. Preserve source vector fields and full destination on stop; normal 32-bit result zero extends. Relevant unknown controls produce an unexecuted software missing-input outcome.",
+    "limits": "No memory/callback/return path, prior conversion or multiplication re-run, full growth/caller binding, actual incoming control-state capture, CPU/OS delivery, Native or Game proof. Thirteen groups are not thirteen whole Native cases."
+  },
+  "cost": {
+    "first_saved_planning_clock_UTC": "2026-11-02T16:51:49+00:00",
+    "preparation_to_first_POST_wall_seconds": 602.229838,
+    "saved_clock_to_first_RUN_wall_seconds": 920.274909,
+    "actual_process_elapsed_sum_seconds": 1.4777497000031872,
+    "Test_END_to_RUN_BEGIN_gap_seconds": 6.040577,
+    "owner_active_seconds": null,
+    "earlier_preparation_wall_seconds": null,
+    "net_saving_seconds": null,
+    "boundary": "Source selection, two missing-path navigation costs, oracle preparation, owner code/Test, HTTP and correction review, and Native coordination remain in recorded wall. Earlier independent primary research is separately costed, not free. No request remains inflight during compiler waits."
+  },
+  "formal": {
+    "original_software_cutoff": "Mature, submitted to sole formal writer; commit pending at this record cutoff.",
+    "commit": null
+  },
+  "runtime_adoption_or_speed_credit": false,
+  "new_operator_HTTP_GET_JVM_Game": 0
+}
