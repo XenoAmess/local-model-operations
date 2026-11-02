@@ -1,0 +1,185 @@
+{
+  "schema": "local-model-operations.civ6-input-acceptance/v1",
+  "date": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "machine_id": "BF-202609141645",
+  "batch": {
+    "new_real_tasks": 3,
+    "http_attempts": 3,
+    "complete_json_objects": 1,
+    "length_discarded_whole": 2,
+    "transport_retries": 0,
+    "client_peak_in_flight": 3,
+    "peak_start_utc": "2026-11-02T01:53:22.883274+00:00",
+    "peak_end_utc": "2026-11-02T01:54:06.726329+00:00",
+    "peak_duration_seconds": 43.843055,
+    "current_in_flight": 0,
+    "server_concurrency": null,
+    "cached_tokens": null
+  },
+  "maintenance": {
+    "date": "2026-11-02",
+    "daily_cache_hit": true,
+    "installed_version_in_record": "1.19.5",
+    "upgrade_performed_by_this_check": false,
+    "native_opencode_generation": false
+  },
+  "cases": [
+    {
+      "case_id": "HTTP-CIV6-ARMYINPUT134",
+      "mode_id": "http-candidate",
+      "task": "armyinput134",
+      "source_scope": "Actual current project contracts/producers and installed primary native consumers, task-specific full files included in actual three messages.",
+      "shared_commit": "cc26764e15fc2ea26238a2adbcae0bd2007c22bf",
+      "shared_caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "shared_config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "model_alias": "qwen38-coder",
+      "backend_identity": null,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 3200,
+      "source_message_utf8_bytes": 207289,
+      "post_begin_utc": "2026-11-02T01:53:22.878529+00:00",
+      "attempt_end_utc": "2026-11-02T01:54:15.351578+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "length",
+        "sse_done": true,
+        "candidate_complete": false,
+        "http_headers_ms": 17114.660299994284,
+        "first_nonempty_content_delta_ms": 17116.906200011726,
+        "total_ms": 52473.99279999081,
+        "usage": {
+          "prompt_tokens": 52597,
+          "completion_tokens": 3200,
+          "total_tokens": 55797
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption_review": "length3200 whole discarded; not semantically inspected or spliced. Owner implemented the actual native observer from primary UnitPanel/PopupDialog and verified physical shortcut; no model source adoption.",
+      "model_code_adopted": false,
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "test": null,
+        "publication": null
+      }
+    },
+    {
+      "case_id": "HTTP-CIV6-CITYINPUT135",
+      "mode_id": "http-candidate",
+      "task": "cityinput135",
+      "source_scope": "Actual current project contracts/producers and installed primary native consumers, task-specific full files included in actual three messages.",
+      "shared_commit": "cc26764e15fc2ea26238a2adbcae0bd2007c22bf",
+      "shared_caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "shared_config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "model_alias": "qwen38-coder",
+      "backend_identity": null,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 3000,
+      "source_message_utf8_bytes": 100363,
+      "post_begin_utc": "2026-11-02T01:53:22.823752+00:00",
+      "attempt_end_utc": "2026-11-02T01:54:06.726329+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "candidate_complete": true,
+        "http_headers_ms": 6900.633999990532,
+        "first_nonempty_content_delta_ms": 6928.646100015612,
+        "total_ms": 43903.3427000104,
+        "usage": {
+          "prompt_tokens": 26793,
+          "completion_tokens": 1871,
+          "total_tokens": 28664
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption_review": "stop/JSON complete; familiar control categories only as analysis reference. Owner rejected vague outcomes and incomplete requested instrumentation, reviewed captured callbacks versus global lookup and implemented actual native probes. No model source adoption.",
+      "model_code_adopted": false,
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "test": null,
+        "publication": null
+      }
+    },
+    {
+      "case_id": "HTTP-CIV6-RELIGIONGAP136",
+      "mode_id": "http-candidate",
+      "task": "religiongap136",
+      "source_scope": "Actual current project contracts/producers and installed primary native consumers, task-specific full files included in actual three messages.",
+      "shared_commit": "cc26764e15fc2ea26238a2adbcae0bd2007c22bf",
+      "shared_caller_sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+      "shared_config_sha256": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+      "model_alias": "qwen38-coder",
+      "backend_identity": null,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 3600,
+      "source_message_utf8_bytes": 405176,
+      "post_begin_utc": "2026-11-02T01:53:22.883274+00:00",
+      "attempt_end_utc": "2026-11-02T01:55:14.542741+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "length",
+        "sse_done": true,
+        "candidate_complete": false,
+        "http_headers_ms": 25646.586499991827,
+        "first_nonempty_content_delta_ms": 25648.43549998477,
+        "total_ms": 111657.38950000377,
+        "usage": {
+          "prompt_tokens": 111939,
+          "completion_tokens": 3600,
+          "total_tokens": 115539
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption_review": "length3600 whole discarded; no semantic failure attribution. Owner narrowed next real work to actual Core/UI religion bindings and native missionary behavior before implementation.",
+      "model_code_adopted": false,
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "test": null,
+        "publication": null
+      }
+    }
+  ],
+  "owner_native_delivery": {
+    "source": "Civ6 mod76a41d8/version42, owned cold PID3868, single player Baiqi T38",
+    "delete_boundary": {
+      "commit": "a12176abbd57266539a7c7d1cbeb5fd21261a7d8",
+      "evidence": "https://github.com/XenoAmess/civ6_dev/blob/a12176abbd57266539a7c7d1cbeb5fd21261a7d8/docs/research/baiqi-p6-unit-delete-native42-evidence-2026-11-02.json",
+      "result": "Raw native DELETE eligibility true for warrior and builder; actual physical extended key produced2 native input events/prompt entries, only military opened native confirmation; physical No,0 commands/operations, both objects unchanged.",
+      "fixture_failure": "Initial PyDirectInput delete produced0 native action events; own-library mapping1235/extended-key handling diagnosed, Win32 extended Delete then independently observed. Not a military denial."
+    },
+    "city_input": {
+      "commit": "e1d4f9bbe6fb78e9e3588edbac8136a5b26f6d40",
+      "evidence": "https://github.com/XenoAmess/civ6_dev/blob/e1d4f9bbe6fb78e9e3588edbac8136a5b26f6d40/docs/research/baiqi-p6-city-input-native42-evidence-2026-11-02.json",
+      "result": "9 disabled domestic controls physically clicked,0 production/focus/city-management/write counters; actual city overview physically opens/closes, resources/queue/focus unchanged."
+    },
+    "cleanup": "All native observer references/events restored before assertions.",
+    "software": "Evidence-only changes: UTF8/LF,28BR40TC trace,248 local document links; no unrelated game test reruns.",
+    "limits": [
+      "No full input/other-leader native matrix.",
+      "No actual unit deleted.",
+      "No religious automation implementation claimed.",
+      "No efficiency comparison or measured owner savings."
+    ]
+  },
+  "next_real_task": "Narrow missionary Core religion-component/API and native spread proof; full lifecycle orchestration and independent acceptance stay with owner.",
+  "raw_evidence": "Execution-machine ignored Civ6 .local-model/ only; no raw game/model/private-save material published."
+}

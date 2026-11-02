@@ -130,3 +130,7 @@ Civ6已用薄适配委托共享CLI，14项必要边界检查通过；其中用�
 迁入一份已有公开历史：OpenCode入口实际是479字节shell文本，pnpm仅拒绝该包的构建脚本；同版本原生依赖已安装。先检查真实PE/架构、许可及候选程序版本，再修复入口并逐个CLI读回，比只相信安装退出码更有诊断依据。只按包修正许可，不能扩成全局开放。
 
 此例限定Windows10/pnpm12.6/OpenCode1.19.4；help写stderr、同版本硬链接及真实字节哈希分别保留。它没有模型调用，不授予当前模型或OpenCode工具生成能力。[原文与来源](source-origins.md#2026-11-02hoi4-windows客户端经验迁移)、[操作经验](hoi4-windows-client-experience.md)与[当前每日维护](client-maintenance.md)分别维护。
+
+## 2026-11-02：输入发送ACK不能证明原生动作
+
+Civ6实际军队Delete首试中，前台与单位均正确，按键工具返回后原生InputActionTriggered、提示入口和确认框却均0。检查本机PyDirectInput映射和扩展键处理后，改用实际Windows扩展Delete；此时action15、原生提示、军队原生确认与文职guard拒绝分别可见，手动取消后位置/行动/完整ID不变。首次无反应保留，不能算军队功能故障或成功负例。owner编排与工具修正成本独立于两份模型length失败；三消息完整135也没有满足所需具体观察合同。[实际输入与采用记录](evidence/2026-11-02-civ6-input-acceptance.json)。

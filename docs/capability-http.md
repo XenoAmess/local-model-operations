@@ -265,3 +265,9 @@ owner接管完整6504B生产体及12950B七有限用例，首次strict .555476s�
 实际3任务/3POST、2stop+1length、0重试，峰2只38.344166s、HTTP union74.561509s。prospective审未见候选且把有校验hybrid误作无校验rawcopy，整审拒；Test给6000却length整稿未读0片段，owner全部五方法，goldens在读候选前冻，模型已见goldens/实现不冒独立见证。首次1prod strict、1Test strict及5项真实字节/摘要/Unicode/预算/可变输入隔离软件检查通过，正式aff05794两叶SHA exact；不授独立私有ACK恢复或已加载行为。
 
 marker→交付873.974879s、首compile→末Test84.505159s、三进程和4.361964s分别保留，主动准备/审阅与marker前发现均未知；初escaped old-match断言错误在写源前停、未执行候选撤回与资源协调均计owner成本。减少检查/增长次数不等于净分配下降；源码容量算术、软件字节结果、正式采用与实际性能要各自取证。两种模式继续独立长期追踪，当前无新HTTP、重复编测、profile或Game动作。
+
+## 2026-11-02：Civ6原生输入验收134–136
+
+HTTP-CIV6-ARMYINPUT134/CITYINPUT135/RELIGIONGAP136分别准备真实快捷键观察、城市控件验证和宗教自动化缺口。实际共享CLI三消息，预算3200/3000/3600；3 POST、135一份stop/JSON对象、134/136两份length整丢弃、0重试，客户端峰3/43.843055秒。两截断稿不归因具体语义错误，owner接管复杂观察及宗教编排；135既有分类参考，模型代码采用0。最终两个owner原生样本通过不追授模型独立验收能力。
+
+首个Delete输入没有native action，不是军队被拦截；实际库键码/扩展键差异属于owner夹具成本。修正后原生action、guard谓词、真实确认框和取消后的对象后态分别取证。实际9城市控件拒绝与可读详情页也有独立后态。[逐项结果及原发布反链](evidence/2026-11-02-civ6-input-acceptance.json)包含输入规模、TTFT/usage和未知owner成本；无OpenCode-native生成或效率结论。下一真实范围缩到已核API的宗教单位窄方法，owner保留跨上下文状态编排，不重投已绿输入样本。
