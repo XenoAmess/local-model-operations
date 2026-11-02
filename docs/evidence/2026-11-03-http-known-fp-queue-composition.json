@@ -1,0 +1,251 @@
+{
+  "schema": "local-model-operations.http-case/v1",
+  "case_id": "HTTP-KNOWN-FP-QUEUE-COMPOSITION-609",
+  "mode_id": "http-candidate",
+  "input": {
+    "complete_base_entities": 41,
+    "physical_source_bytes": 127442,
+    "R2_binding_entities_including_own_R1": 42,
+    "actual_full_source_message_reconstruction_owner_audited": true,
+    "owner_complete_producer3889_and_union301_supplied": true,
+    "strong_signature_routing_same_RAM_budget_FP_preservation_hints": true,
+    "new_oracle_Test_supplied": false
+  },
+  "requests": [
+    {
+      "POST_BEGIN": "2026-11-02T17:29:08.700572+00:00",
+      "END": "2026-11-02T17:29:24.018385+00:00",
+      "max_tokens": 2200,
+      "finish_reason": "stop",
+      "first_valid_content_ms": 2893.9818999933777,
+      "caller_total_ms": 15317.891099999542,
+      "usage": {
+        "prompt_tokens": 44457,
+        "completion_tokens": 1285,
+        "total_tokens": 45742
+      },
+      "cached_tokens": null,
+      "http_status": 200,
+      "sse_done": true,
+      "messages": 3,
+      "role": "binding",
+      "round": "http-r1",
+      "full_entities": 41,
+      "source_message_bytes": 139066,
+      "owner_actual_prefix_reconstruction_exact": true,
+      "events": {
+        "bytes": 2220,
+        "sha256": "1e313e57943191c5e27723be4c159ccb89ceb4cb3e146fca0e50b192efd88ada"
+      },
+      "request": {
+        "bytes": 146005,
+        "sha256": "e2188e561564ee01d1ba474210f9c63e7cd6014439964223b7e17f26771fcfb8"
+      }
+    },
+    {
+      "POST_BEGIN": "2026-11-02T17:29:08.700545+00:00",
+      "END": "2026-11-02T17:29:30.672903+00:00",
+      "max_tokens": 2200,
+      "finish_reason": "length",
+      "first_valid_content_ms": 2893.9332000009017,
+      "caller_total_ms": 21972.373500000685,
+      "usage": {
+        "prompt_tokens": 44195,
+        "completion_tokens": 2200,
+        "total_tokens": 46395
+      },
+      "cached_tokens": null,
+      "http_status": 200,
+      "sse_done": true,
+      "messages": 3,
+      "role": "source-counter",
+      "round": "http-r1",
+      "full_entities": 41,
+      "source_message_bytes": 139066,
+      "owner_actual_prefix_reconstruction_exact": true,
+      "events": {
+        "bytes": 2229,
+        "sha256": "8d683fa984f81ee98458dbe3bc1a883e483fa300b5d738a0eca9a1b99a635baf"
+      },
+      "request": {
+        "bytes": 144984,
+        "sha256": "85a2c229b4fc1147c00da16d7cde0eedfd9ed40ba1008ccb881f1dcd6ed2ec8b"
+      }
+    },
+    {
+      "POST_BEGIN": "2026-11-02T17:32:25.330122+00:00",
+      "END": "2026-11-02T17:32:32.157418+00:00",
+      "max_tokens": 2200,
+      "finish_reason": "stop",
+      "first_valid_content_ms": 1004.5357000053627,
+      "caller_total_ms": 6827.3591000033775,
+      "usage": {
+        "prompt_tokens": 44275,
+        "completion_tokens": 762,
+        "total_tokens": 45037
+      },
+      "cached_tokens": null,
+      "http_status": 200,
+      "sse_done": true,
+      "messages": 3,
+      "role": "source-counter",
+      "round": "http-r2",
+      "full_entities": 41,
+      "source_message_bytes": 139066,
+      "owner_actual_prefix_reconstruction_exact": true,
+      "events": {
+        "bytes": 2235,
+        "sha256": "f88f2b5a566e0c8b3936adfae87706a64aecb84cc6e64e391e52c514a0713191"
+      },
+      "request": {
+        "bytes": 145331,
+        "sha256": "0d1a95ba18bf5389831bfa3e22caee4eb45ae7b053a5a284461b01f32efc0588"
+      }
+    },
+    {
+      "POST_BEGIN": "2026-11-02T17:33:40.073594+00:00",
+      "END": "2026-11-02T17:33:45.590619+00:00",
+      "max_tokens": 900,
+      "finish_reason": "stop",
+      "first_valid_content_ms": 1375.4728000058094,
+      "caller_total_ms": 5516.988000003039,
+      "usage": {
+        "prompt_tokens": 45347,
+        "completion_tokens": 517,
+        "total_tokens": 45864
+      },
+      "cached_tokens": null,
+      "http_status": 200,
+      "sse_done": true,
+      "messages": 3,
+      "role": "binding",
+      "round": "http-r2",
+      "full_entities": 42,
+      "source_message_bytes": 143540,
+      "owner_actual_prefix_reconstruction_exact": true,
+      "events": {
+        "bytes": 2243,
+        "sha256": "ec9b49341870fdde2060e26875e4762a2d1f2097760de101badeceb90ff6bd12"
+      },
+      "request": {
+        "bytes": 149609,
+        "sha256": "3f8a0c6e62bbf238701a8be55eb0ae679b80b174a5137f56baad1e3e7572ac94"
+      }
+    }
+  ],
+  "accounting": {
+    "POSTs": 4,
+    "ENDs": 4,
+    "stop": 3,
+    "length": 1,
+    "transport_retry": 0,
+    "peak": 2,
+    "peak2_seconds": 15.317813,
+    "R3": false
+  },
+  "adoption": {
+    "binding": "Complete R1 whole4202B plus sole model R2 unique local normal-return guard hunk =>4385B; forward/inverse exact, zero owner Java/EOL/EOF edits. Not single R1 raw adoption or autonomous whole FP design.",
+    "R1_gap": "Requested local outer guard omitted and explanation incorrectly relied on lower guard; existing owner whole caller already guarded before applying state/next memory, so no observed JVM RED or concrete visible runtime bypass claimed. R2 adds local contractual guard preserving outcome identity.",
+    "audit_R1": "length2200 entire partial unread discarded, zero fragments.",
+    "audit_R2": "Complete stop whole concrete review rejected: invented double push for distinct nested calls, invented fault lock unwind, confused represented snapshot/normal-return and flags. No model oracle/Test or R3.",
+    "owner": "Complete producer3889, unionAPI301, Test11671 all owner. Four-group outline before POST, full Test before ANY model content; no execution-derived target expectations."
+  },
+  "sources": [
+    {
+      "role": "owner_union_API",
+      "bytes": 301,
+      "sha256": "ec08f8f415c7612312d678bbf62ea48438e43ecb1ddb29f98304c85ef6c6ec94"
+    },
+    {
+      "role": "owner_producer",
+      "bytes": 3889,
+      "sha256": "d6733ce8dd7550cb6f04929cf5cac85fce8657b2c751e98a62c742c4d6831fbd"
+    },
+    {
+      "role": "model_R1_plus_R2_binding",
+      "bytes": 4385,
+      "sha256": "68fa56075e571112585e21e6708f5914f7777a70c913dbd206093d36ac9bed15"
+    },
+    {
+      "role": "owner_Test",
+      "bytes": 11671,
+      "sha256": "6fb5bf341505afa86219948ab3436b73f0d7461280c6c27c591d02336e9c8bb6"
+    }
+  ],
+  "software": {
+    "first_new_production_TUs": 3,
+    "first_new_Test_TUs": 1,
+    "first_processes": [
+      {
+        "begin": "2026-11-02T17:35:53.469924+00:00",
+        "end": "2026-11-02T17:35:54.175162+00:00",
+        "process_wall_seconds": 0.7052334000036353,
+        "exit": 0,
+        "receipt": {
+          "bytes": 1477,
+          "sha256": "aff95d5b5c9a7653ae85d4351adedccab5210e49bdaac16a1e034b7881ee889d"
+        }
+      },
+      {
+        "begin": "2026-11-02T17:37:09.802091+00:00",
+        "end": "2026-11-02T17:37:10.589846+00:00",
+        "process_wall_seconds": 0.7877545999945141,
+        "exit": 0,
+        "receipt": {
+          "bytes": 852,
+          "sha256": "622d8b13d0c9ee38de64e4fcc9fe545ceb07da3f75b22ccbe69fc5d5cf0faf46"
+        }
+      },
+      {
+        "begin": "2026-11-02T17:37:34.881978+00:00",
+        "end": "2026-11-02T17:37:35.134377+00:00",
+        "process_wall_seconds": 0.2523899999941932,
+        "exit": 0,
+        "receipt": {
+          "bytes": 4444,
+          "sha256": "63b1831d41d945e62eebd9b951ae5a99f74cd9bdec0e4ea51999c0ba5ae3b805"
+        }
+      }
+    ],
+    "new_composition_groups": 4,
+    "manual_stdout_count": 4,
+    "old_cases_rerun": 0,
+    "process_sum_seconds": 1.7453779999923427,
+    "important_domain": "Upper normal fixture has zero growth and two deep calls, COPY skipped. Lower positive-growth three-call qualification remains separate, not an upper positive COPY or Native16+4 case. Three deep append algorithms remain opaque; software FP stop preserves actual lock-held fault prefix."
+  },
+  "cost": {
+    "first_precise_clock": "2026-11-02T17:25:43+00:00",
+    "preparation_to_first_POST_wall_seconds": 205.700545,
+    "through_first_software_RUN_wall_seconds": 712.134377,
+    "strict_to_RUN_gap_seconds": 24.292132,
+    "owner_active_seconds": null,
+    "earlier_impact_start": "UNKNOWN"
+  },
+  "publication": {
+    "original_software_cutoff": "formal_pending",
+    "no_cutoff_rewrite": true
+  },
+  "limits": [
+    "Represented GPR/XMM/N/SP/DF/MXCSR only, no actual capture/OS/RFLAGS/EH/callee algorithm/Native/Game/SAVE/performance proof.",
+    "Full earlier impact read start/owner active/net saving UNKNOWN;24.292132 gap is coordination/template reading, not JVM CPU or inferred Runtime HOLD.",
+    "Reused primary research cost separate, no old suite or model request for operations. Raw sources/prompts/answers/paths remain private."
+  ],
+  "provenance": {
+    "cohort": {
+      "bytes": 10375,
+      "sha256": "67094e51a2e129dedb96192bb0925ccb26b598bd4fd93b22459266bc57495f20"
+    },
+    "cost": {
+      "bytes": 915,
+      "sha256": "bc1fbd787a15c83e78cd838a655c2ee02c85e73b7c254bac9f38086962fbc5d2"
+    },
+    "manifest": {
+      "bytes": 7100,
+      "sha256": "d4a69985b568fbece2a066e37d3e7207d3045dc3550560be4a22dc308bad7373"
+    },
+    "adoption_inverse": {
+      "bytes": 1279,
+      "sha256": "e057b748b6bea59326868ee94edc9934516122127c6e5670f2409d1922cf7296"
+    }
+  }
+}

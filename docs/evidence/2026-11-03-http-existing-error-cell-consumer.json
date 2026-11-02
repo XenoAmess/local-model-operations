@@ -1,0 +1,213 @@
+{
+  "schema": "local-model-operations.http-case/v1",
+  "case_id": "HTTP-EXISTING-ERROR-CELL-CONSUMER-225",
+  "mode_id": "http-candidate",
+  "task": "One new thin default-object/free failure consumer reusing existing error producer/adapter; no duplicate producer or new API.",
+  "input": {
+    "complete_selected_entities": 30,
+    "physical_source_bytes": 68007,
+    "actual_source_message_bytes": 73598,
+    "actual_request_three_messages_full_body_matches_owner_audited": true,
+    "strong_exact_composition_and_lazy_boundary_hints": true,
+    "new_oracle_supplied": false
+  },
+  "requests": [
+    {
+      "POST_BEGIN": "2026-11-02T17:32:56.658386+00:00",
+      "END": "2026-11-02T17:33:06.209205+00:00",
+      "max_tokens": 900,
+      "finish_reason": "stop",
+      "first_valid_content_ms": 6862.75340001157,
+      "caller_total_ms": 9550.986700007343,
+      "usage": {
+        "prompt_tokens": 25120,
+        "completion_tokens": 370,
+        "total_tokens": 25490
+      },
+      "cached_tokens": null,
+      "http_status": 200,
+      "sse_done": true,
+      "messages": 3,
+      "role": "impl",
+      "complete_entities_owner_audited": 30,
+      "source_message_bytes": 73598,
+      "events": {
+        "bytes": 2037,
+        "sha256": "81a673cd8264966ca35797499cd1949fa6b2b6ed771cff0706d7e9e0d283edc3"
+      },
+      "review": {
+        "bytes": 284,
+        "sha256": "77f39dee1c366068d79fa19aa9669a43872227bba01b91bfe87e84d79bc33dae"
+      }
+    },
+    {
+      "POST_BEGIN": "2026-11-02T17:32:56.657978+00:00",
+      "END": "2026-11-02T17:33:07.443850+00:00",
+      "max_tokens": 1600,
+      "finish_reason": "stop",
+      "first_valid_content_ms": 5228.537399991183,
+      "caller_total_ms": 10785.960599998361,
+      "usage": {
+        "prompt_tokens": 25211,
+        "completion_tokens": 543,
+        "total_tokens": 25754
+      },
+      "cached_tokens": null,
+      "http_status": 200,
+      "sse_done": true,
+      "messages": 3,
+      "role": "counter",
+      "complete_entities_owner_audited": 30,
+      "source_message_bytes": 73598,
+      "events": {
+        "bytes": 2059,
+        "sha256": "5f0b90f2c3bcc30b8f5b6ede4ca37631d723e775ff414bbd085ac66fef426f1e"
+      },
+      "review": {
+        "bytes": 780,
+        "sha256": "a63e389ab3221596875c40c51385e71a2593260fb809490b138d2dbb69e8aebe"
+      }
+    }
+  ],
+  "accounting": {
+    "actual_POSTs": 2,
+    "ENDs": 2,
+    "stop": 2,
+    "length": 0,
+    "transport_retry": 0,
+    "peak": 2,
+    "peak2_seconds": 9.550819,
+    "R2": false
+  },
+  "adoption": {
+    "implementation": "R1 complete1308B decoded raw equals selected candidate/formal-candidate including EOF, zero owner Java edits; strong composition hints, no autonomous producer design.",
+    "counter": "Whole stack/image arithmetic/role audit rejected, limited width/plane facts partial; no oracle or R2.",
+    "owner": "Six complex input/expected scenes frozen before first POST and not supplied; whole11003B manual Test and source qualification/runner owned. Existing algorithms reused unchanged."
+  },
+  "sources": [
+    {
+      "role": "model_consumer",
+      "bytes": 1308,
+      "sha256": "e248dd03f64f26c0d9f7d8140afc6044df57fbb779b0931c48d06e193cd3a886"
+    },
+    {
+      "role": "owner_manual_Test",
+      "bytes": 11003,
+      "sha256": "0dad0b4b8ff75066f5967d16e1aec3b3e638e4d2fa1247299886ef111dc2d13e"
+    }
+  ],
+  "software": {
+    "first_new_prod_TUs": 1,
+    "first_new_Test_TUs": 1,
+    "first_actuals": [
+      {
+        "stage": "prod",
+        "begin": "2026-11-02T17:34:58.261370+00:00",
+        "end": "2026-11-02T17:34:59.035286+00:00",
+        "process_wall_seconds": 0.7739178000047104,
+        "exit": 0,
+        "receipt": {
+          "bytes": 23796,
+          "sha256": "c9116c9ba808768c6700fc470212fe2a2db5abf03fd95ec94b5774bef471e551"
+        }
+      },
+      {
+        "stage": "test",
+        "begin": "2026-11-02T17:37:09.807679+00:00",
+        "end": "2026-11-02T17:37:11.096304+00:00",
+        "process_wall_seconds": 1.288626599998679,
+        "exit": 0,
+        "receipt": {
+          "bytes": 24078,
+          "sha256": "eb8171345821b463d938715c13e788a250e5a5c73f8ae7b2ad13c88a7a8c9a93"
+        }
+      },
+      {
+        "stage": "run",
+        "begin": "2026-11-02T17:38:35.056665+00:00",
+        "end": "2026-11-02T17:38:35.295563+00:00",
+        "process_wall_seconds": 0.23889459999918472,
+        "exit": 0,
+        "receipt": {
+          "bytes": 24888,
+          "sha256": "a1f80d9dda5562929408a08c5a982938ec87e71c46f8a963859c936a347628a8"
+        }
+      }
+    ],
+    "new_scenes": 6,
+    "checks": 60,
+    "scene_partition": {
+      "normal_whole": 4,
+      "guard_prefix": 1,
+      "throw_prefix": 1
+    },
+    "manual_not_JUnit": true,
+    "stdout": {
+      "bytes": 268,
+      "sha256": "dba1dcc1e7ce8ae16af5a66520c0f8bd33c4adb7a4952c6cfd7ba09d14f20b18"
+    },
+    "process_sum_seconds": 2.301439000002574,
+    "observed_scope": "Non-null/fallback/high64 nonzero-low32zero error selection, represented19volatile/10nonvolatile state and same RAM, late import freshness, low32 error zero extension, real child return corruption rejection and deep throw prefix."
+  },
+  "cost": {
+    "recorded_source_freeze": "2026-11-02T17:32:50.843423+00:00",
+    "sourcefreeze_to_RUN_END_wall_seconds": 344.45214,
+    "first_process_BEGIN_to_RUN_END_wall_seconds": 217.034193,
+    "gaps": [
+      {
+        "from": "prod",
+        "to": "test",
+        "seconds": 130.772393
+      },
+      {
+        "from": "test",
+        "to": "run",
+        "seconds": 83.960361
+      }
+    ],
+    "earlier_discovery_start": "UNKNOWN",
+    "owner_active_seconds": null,
+    "compiler_CPU_seconds": null,
+    "net_saving_seconds": null,
+    "gap_boundary": "Test-to-RUN83.960361s not SAVE HOLD; owner source/Ready/review/coordination wall, no continuous exclusive CPU.",
+    "preparation_errors": [
+      "Quoted rg expression missed known file, wrong argument filename, malformed preparation patch before POST, strict old EOF guard rejected only terminal-LF difference. Owner corrections, no new Java/source semantics failure."
+    ]
+  },
+  "cutoffs": {
+    "source_cohort_state_lastknown": "SOURCE_SELECTED_FIRST_PROD0_TEST0_RUN_PENDING",
+    "source_cohort_recorded_utc": "2026-11-02T17:39:28.364818+00:00",
+    "run_actual_end_utc": "2026-11-02T17:38:35.295563+00:00",
+    "pending_was_unconsumed_receipt_not_actual_inflight": true,
+    "first_software_mature_formal_pending": true,
+    "originals_unchanged": true
+  },
+  "limits": [
+    "Deep callee/import/map algorithms and complete incoming carrier remain opaque; no DF/RFLAGS/XMM7..15/EH/hardware fault/full ABI/Native execution/loading or natural terminal/cause/material/private Root qualification.",
+    "Exact32B source qualified by Native45B acquisition;0new PE by source owner. Older source terminalLF projection qualification separate, new1308/11003 EOF preserved.",
+    "Canonical same-day1.19.5 cache reused, not a fresh registry probe or per-POST maintenance.",
+    "No new HTTP/GET/Java/Game for operations and no runtime/SAVE/speed claim. Raw sources/requests/answers/oracles/private paths remain local."
+  ],
+  "provenance": {
+    "cohort": {
+      "bytes": 3216,
+      "sha256": "dcaacbbb7636f8e3b85ea8ae756ae1808fc67f54f7dcfd37b79855f9bd680695"
+    },
+    "cost": {
+      "bytes": 2446,
+      "sha256": "f210a1e8be507db5eb0762a6cbac3377b0a9530c1ba3f8f64b54879d7bc0fb5f"
+    },
+    "software_review": {
+      "bytes": 1357,
+      "sha256": "a6853aa9803c271d8487e3e4059c35a7e69f65afd03a8059603d744cd5319780"
+    },
+    "delivery": {
+      "bytes": 3736,
+      "sha256": "15c5ea851967ead30df142052bc2f7be507beffa581d7fc37b03d0390a36adc1"
+    },
+    "manifest": {
+      "bytes": 14410,
+      "sha256": "1363ac887f2915694e3b10da0eed8325bd45319339f0994ebf56934b9d9d61d7"
+    }
+  }
+}
