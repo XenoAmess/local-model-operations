@@ -1,0 +1,26 @@
+{
+  "publication_permission": "M2 owner approves only this sanitized append-only JSON; raw requests/source/machine paths stay private.",
+  "mode_id": "http-candidate-three-message",
+  "observed_utc": "2026-11-02",
+  "previous_approved_body_invariant": {
+    "bytes": 4524,
+    "sha256": "aee2708517bc6e6053cdd3b68f69f5e273044a937b60615d20753b2adc204157"
+  },
+  "formal_commit": "ade8ffa141d28dbbb681773e487cfcaa57decef6",
+  "publication": "Normal push, remote exact and clean reported by sole Java writer. Exactly two existing payloads and one new thin JUnit wrapper; original software/pending cutoff was not rewritten.",
+  "payload_projection": "Implementation10979 bytes and ownerTest11284 bytes match writer-reported formal commit blobs byte-for-byte, including EOF. Newwrapper320 bytes. ModelR1+fourR2hunks+oneownercomment and rejected modelTest/100%ownerTest remain separate.",
+  "necessary_new_validation": {
+    "executor": "Native sole",
+    "wrapper_compile_seconds": 0.7419738000025973,
+    "selected_JUnit_seconds": 0.5965063000039663,
+    "selected_tests_passed": 1,
+    "same_console_groups": 4,
+    "pins": 233,
+    "classpath_entries": 57,
+    "wrapper_window_seconds": 12.918957,
+    "coordination_gap_seconds": 11.580472,
+    "actual_process_sum_seconds": 1.3384801000065636,
+    "old_payload_or_standalone_replay": 0
+  },
+  "limits": "Selected JUnit invokes the same four new groups, not a fifth. The original608.445840-second clock lower bound is not total task wall or active owner time. No actual OS allocator/currentMXCSR/fullPage/Native172same-callpositive16+positive4/Game/loading/speed claim."
+}

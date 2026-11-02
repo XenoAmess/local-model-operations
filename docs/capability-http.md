@@ -1276,3 +1276,20 @@ Root replay-scope363 [persistent strict Driver DATA decoder接线](evidence/2026
 
 
 [新M7 seam原生独立源审记录](evidence/2026-11-03-opencode-held-frame-source-loop.json)属于opencode-native：173累计串行tool往返/177tools/104同SHA重复后owner停止、0finalstop，不计普通三消息采用率或173个任务。它与普通guided363四literalhunk/有限3P价值分别保留，均未证明净owner省工。Root另授同10freeze/原题的普通HTTP单答仍须sourceowner判定；协议、toolhistory与额外callee范围不同，不凭15秒或367秒作等价A/B，也不抹M7事前取源及owner准备/观察成本。
+
+
+366 [semantic verifier 同调用 Driver 复用](evidence/2026-11-03-http-semantic-driver-owner-profile-safe-reuse.json)批准6713B原样，与364有限negative不同scope。21whole419756physical/msg425142；两STOP/0retry/峰2仅33.911553s。实现忽视较窄RawJson数值预算与callback借数组可变性，反审误把相等bytes要求变成同ref，两个whole算法均拒、0model执行code。Owner四bounded edits保首encode/hash、原archive/ref/fullbytes与callback后检查；窄profile不合回原路径，typed路仍encode/token验证，可能新增纯工作，未测净parse/CPU收益。首1prod+1newTest+RUN9.552959process/2newP、234B原warning与52.774813gap保，首POST→JUnit507.255320子窗/activeUNKNOWN。private helper descriptor变化非body-only instrumentation，map-backed DATA有限验证不授Root/实FS权限或速度。
+
+366 [批准正式后见](evidence/2026-11-03-http-semantic-driver-reuse-later-formal.json)7c3610a9只追加2leaf发表：生产compiledraw19746与formal19718分SHA，Test12620/23671edc raw=formal/EOF同。Writer generic staged措辞“SHA distinct”过宽，按具体逐leaf相等行澄清，原staged不回写、非代码失败。原2P/234warning复用、0新Java/HTTP/Test分母；原pending正文不改，无装载或实速信用。
+
+621 [upper page/fill 正式后见](evidence/2026-11-03-http-upper-page-fill-later-formal.json)批准1868B原样，d62d5494两原payload2996/11789 raw=formal/EOF同+342B thin wrapper。仅新wrapper strict .8451676+JUnit .6734244/1P验证同三console组，不增第四组；220pins/55CP、428.864116协调wall分列。Writer报告SAVE open→close后fresh RUN，不把全gap算SAVE/CPU/HOLD。原3859正文与七pins/pending保，原1377.273934晚clock下界/activeNULL及PC=-1显式fixture合同界限不变。
+
+214 [Initial allocation 正式后见](evidence/2026-11-03-http-initial-frame-allocation-later-formal.json)批准928B原样，1102ac4c在213依赖af81a6ee之后正常发表，两raw1845/7131与formal/EOF精等。复用原1prod+1Test/2uniqueP，0新compile/RUN；旧213六class仅必要binary helper、旧三methods不RUN。原4530正文pending切点保，0runtime/速度授信。
+
+M0 CRT operand363 [批准正式后见](evidence/2026-11-03-http-crt-operand-order-later-formal.json)526B原样，07dd0231四leaf（三existing+一newmanual）raw/formal相等，0postvalidation。原3964正文pending、0模型code与原软件结果不改；该scope与Root replay-scope363分列，无runtime/fullABI/实速信用。
+
+622 [Page allocation direction 正式后见](evidence/2026-11-03-http-page-allocation-direction-later-formal.json)批准1647B原样，ade8ffa1两原payload10979/11284 raw/formal/EOF同+320B wrapper；onlywrapper .7419738+.5965063 selected1P验证同四组，不增第五。233pins/57CP、11.580472gap协调wall保；原4524正文pending、模型Test拒收/ownerTest100%及608.445840仅clock下界不回填，无Pagewhole/OS/Native172或速度信用。
+
+623 [nested heap allocator FP/direction 接线](evidence/2026-11-03-http-heap-allocation-fp-gate-binding.json)批准4611B原样，63全文实体含planned API文本/309443physical/msg325773，sole R2另full R1到64实体。3STOP/0retry/峰2仅12.905065s；R1复制旧Page predicate使合法Retry输入分支不可达，源审拒而未编；R2五hunk采、另有错comment/old定位漏空格/no-op，owner四comment修到11985/0owner执行，不能记whole raw class。无candidate的NONE审不提供实现proof/oracle。Owner13952/四组全Test在两R1 END后任意CONTENT前冻、outline prePOST，非pre-generation；三first0/stdout4非JUnit，2.004500process/10.882885gap/752.423323晚clock下界-activeNULL，原formalpending。不授Pageentry/OS/currentFP或Native172同次16+4。
+
+623 [批准正式后见](evidence/2026-11-03-http-heap-allocation-fp-later-formal.json)1762B原样，c12f357f两原payload11985/13952 raw/formal/EOF同+320B wrapper；onlywrapper .7535578+.6523856 selected1P仍同四组，不增第五。249pins/61CP、6.176194gap协调wall分列。五原pins及4611正文pending保，0旧payload重验、0新HTTP/ownerJVM或当前装载/速度信用。

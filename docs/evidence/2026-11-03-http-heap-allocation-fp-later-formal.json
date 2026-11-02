@@ -1,0 +1,26 @@
+{
+  "publication_permission": "M2 source owner approves only this sanitized append-only JSON. Raw source/requests/machine paths stay private.",
+  "mode_id": "http-candidate-three-message",
+  "observed_utc": "2026-11-02",
+  "previous_approved_body_invariant": {
+    "bytes": 4611,
+    "sha256": "d60f3d196869a6b71b08e0cc76f2b640928535e3442361e4123d8ea0d9bcf94a"
+  },
+  "formal_commit": "c12f357fe16f6589c5d7b13d5d80d7998d531acc",
+  "publication": "Normal push, remote exact and clean from sole Java writer. Exactly two existing payloads and one new thin JUnit wrapper; original pending/source/software cutoff unchanged.",
+  "payload_projection": "Implementation11985 bytes and ownerTest13952 bytes match writer-reported formal commit blobs byte-for-byte, including EOF. Newwrapper320 bytes. R1+fiveR2hunks+fourownercomments/zeroownerexecutableJava and100%ownerTest remain separate; not whole raw model class.",
+  "necessary_new_validation": {
+    "executor": "Native sole",
+    "wrapper_compile_seconds": 0.7535577999951784,
+    "selected_JUnit_seconds": 0.6523856000276282,
+    "selected_tests_passed": 1,
+    "same_console_groups": 4,
+    "pins": 249,
+    "classpath_entries": 61,
+    "wrapper_window_seconds": 7.582148,
+    "coordination_gap_seconds": 6.176194,
+    "actual_process_sum_seconds": 1.4059434000228066,
+    "old_payload_or_standalone_replay": 0
+  },
+  "limits": "Selected JUnit checks the same four groups, not a fifth. Wrong-predicate source rejection was before compiler, no JVMRED. Original752.423323s clock lower bound is not full task wall or active owner time. Starts at a synthetic legal PageDBcallback, not Page381entry/upperwhole, actualOS/currentMXCSR/CPUOS/Native172positive16+positive4/Game/loading/speed."
+}
