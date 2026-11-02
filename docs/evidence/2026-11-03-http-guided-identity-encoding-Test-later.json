@@ -1,0 +1,181 @@
+{
+  "case_id": "HTTP-GUIDED-PURE-HELPER-WITNESS-316",
+  "mode_id": "http-candidate",
+  "source_visible_guided_not_blind_oracle": true,
+  "requests": [
+    {
+      "post_utc": "2026-11-02T17:19:50.020787+00:00",
+      "end_utc": "2026-11-02T17:20:01.975374+00:00",
+      "max_tokens": 5500,
+      "finish_reason": "stop",
+      "http_status": 200,
+      "sse_done": true,
+      "first_valid_content_ms": 3104.832199998782,
+      "caller_total_ms": 11954.592299996875,
+      "usage": {
+        "prompt_tokens": 21357,
+        "completion_tokens": 1536,
+        "total_tokens": 22893
+      },
+      "cached_tokens": null,
+      "events": {
+        "bytes": 2108,
+        "sha256": "b615b931ed69cb1ba3b81d21ba4f478592ac8db5d8001c4626c25c8eed4c9bed"
+      },
+      "messages": 3,
+      "complete_entities": 7,
+      "physical_source_bytes": 99023,
+      "actual_message_utf8_bytes": [
+        301,
+        100203,
+        3676
+      ],
+      "owner_frozen_full_source_substring_audit": true
+    },
+    {
+      "post_utc": "2026-11-02T17:22:04.689272+00:00",
+      "end_utc": "2026-11-02T17:22:16.151637+00:00",
+      "max_tokens": 6500,
+      "finish_reason": "stop",
+      "http_status": 200,
+      "sse_done": true,
+      "first_valid_content_ms": 1341.1533000034979,
+      "caller_total_ms": 11462.290600000415,
+      "usage": {
+        "prompt_tokens": 23424,
+        "completion_tokens": 1829,
+        "total_tokens": 25253
+      },
+      "cached_tokens": null,
+      "events": {
+        "bytes": 2126,
+        "sha256": "ffc24618b5efc9eaf32357da14d086662fd70878529878c148e6b202544d747c"
+      },
+      "messages": 3,
+      "complete_entities": 8,
+      "physical_source_bytes": 104962,
+      "actual_message_utf8_bytes": [
+        301,
+        106356,
+        6279
+      ],
+      "owner_frozen_full_source_substring_audit": true
+    }
+  ],
+  "request_accounting": {
+    "logical_tasks": 2,
+    "actual_POSTs": 2,
+    "ENDs": 2,
+    "network_retries": 0,
+    "peak_inflight": 1,
+    "overlap_seconds": 0,
+    "HTTP_union_seconds": 23.416952000000002,
+    "R3": false
+  },
+  "owner_oracle": {
+    "bytes": 2443,
+    "sha256": "92c7f04981c7f46728ba2b15ef1c0c5524f411048d33bb123f82b6cd73e5bc97"
+  },
+  "owner_diff": {
+    "bytes": 2397,
+    "sha256": "09cfca39bcddddde9ec007dcf74c80ec967bbe69ad30897d1b8e2114051638b2"
+  },
+  "software": {
+    "new_Test_TUs": 1,
+    "first_actual_processes": [
+      {
+        "phase": "strict",
+        "start_utc": "2026-11-02T17:25:53.364491+00:00",
+        "end_utc": "2026-11-02T17:25:55.378498+00:00",
+        "process_wall_seconds": 2.01400919999287,
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "receipt": {
+          "bytes": 2429,
+          "sha256": "06c098ec7284a833fee6a02d2c869dc5e01081190a2ea2b01ef43cbf05cddbd4"
+        }
+      },
+      {
+        "phase": "junit",
+        "start_utc": "2026-11-02T17:26:00.242952+00:00",
+        "end_utc": "2026-11-02T17:26:04.587191+00:00",
+        "process_wall_seconds": 4.3442399999912595,
+        "exit_code": 0,
+        "stderr": {
+          "bytes": 234,
+          "sha256": "4a4049e2fc2433d9ba210966ff66a4f775e0131c3587d0d7c447b62c00136980"
+        },
+        "receipt": {
+          "bytes": 2491,
+          "sha256": "12b4af3fdfec0f9f459860b398fa8303cb2e203a71d8897fa73482a66a16dc96"
+        }
+      }
+    ],
+    "new_methods_passed": 2,
+    "failed_errors_skipped": 0,
+    "process_wall_sum_seconds": 6.3582491999841295,
+    "strict_to_JUnit_gap_wall_seconds": 4.864454,
+    "old_green_or_production_recompiled": false
+  },
+  "cost": {
+    "first_POST_to_last_JVM_wall_seconds": 374.566404,
+    "earlier_discovery_preparation_start": "UNKNOWN",
+    "owner_active_seconds": null,
+    "compiler_CPU_seconds": null,
+    "wall_is_not_exclusive_owner_labor": true,
+    "oracle_frozen_utc": "2026-11-02T17:13:48.765647+00:00"
+  },
+  "publication": {
+    "original_pending_delivery_preserved": true,
+    "later_formal_commit": "24c8f1a245c1c23a9faa5563cb2062101c8ed461",
+    "source_raw": {
+      "bytes": 7665,
+      "sha256": "230a2735a8a2855df70ec1450be3b559419b20c2223bad611cda0fd531162513"
+    },
+    "source_formal": {
+      "bytes": 7665,
+      "sha256": "230a2735a8a2855df70ec1450be3b559419b20c2223bad611cda0fd531162513"
+    },
+    "raw_formal_EOF_byte_exact": true,
+    "new_validation_for_publication": false
+  },
+  "provenance": {
+    "cost": {
+      "bytes": 4813,
+      "sha256": "26f5694d8ae8b2e30c57e3121035742adbbea0c080f2f7612eabd8ae07433de6"
+    },
+    "delivery": {
+      "bytes": 10919,
+      "sha256": "73f5e219febca3459ff1b8ee59994e3fafabe82103f974fade9f14e1c2ef534d"
+    },
+    "XML_reports": [
+      {
+        "bytes": 41922,
+        "sha256": "16d96e5a4b89d10a604644d419d8679a2df16b0a5de4a2d8d28d88e6914e070d"
+      },
+      {
+        "bytes": 41124,
+        "sha256": "5a53ef37d07ee7e44aec512e2428b39de2ec3463f8ecca808eb2f704b8a8facd"
+      },
+      {
+        "bytes": 41103,
+        "sha256": "9394c4a99fc574382a32daddfaf21b113995434aae786264dd5f66a0df5292d9"
+      }
+    ]
+  },
+  "runtime_or_performance_credit": false,
+  "adoption": {
+    "R1": "Whole algorithm rejected before compiler: invariant generic value type, nonstatic assertion imports, unhandled Throwable and false changed-input expectation for identical empty objects.",
+    "R2": "Partial finite body adopted with owner two nominal Exception/Error bindings, nonempty mixed-array fixture and redundant assignment removal; raw remaining checks/error comparisons retained.",
+    "oracle_timing": "Owner oracle frozen before M1 read final helper; not claimed earlier than Root production authoring. Test source-visible, no private-authority or encoder-count mirror."
+  },
+  "scope": [
+    "Pure helper versus original public encoder/hash expression: same reference, distinct equal/changed/ordered objects, exact decimal/signed-zero/mixed nested values, immutable source map and repeated calls.",
+    "Depth65/null child preserves first-encode failure and valid-first/invalid-second exception behavior; no giant byte-limit allocation, encoder-count/timing test, current permissions, filesystem, Runtime/SAVE or speed proof."
+  ],
+  "related_original_portable": "2026-11-03-http-guided-identity-encoding.md",
+  "original_production_portable_bytes_unchanged": true
+}

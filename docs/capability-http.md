@@ -928,3 +928,9 @@ Native sole两prod/ownerTest首strict0、manual14组0，混core与指定MULSS软
 [M4批准的Journal纯投影315正文](evidence/2026-11-03-http-journal-pure-projection.json)原样8921B保三请求1800 stop/2200 length/700 stop及actual三消息。强owner设计提示下单lookup hunk执行原码、仅EOL投影；完整历史读取、校验、原件加载/解码次数与顺序保持，只免中间map/list。首反审整弃，R2仅eager遍历事实partial、假oldlazy绕校验拒，不授whole审批准或148s/实速。初20源与实际Dev18等/2异源的owner机械rebase保既有batch/codec/诊断，不追认模型自行知道新基线。
 
 Owner七新DATA方法首7P，三进程5.850993s对1067.828308s已录全wall，峰2仅23.587949s；authoring包络/机械应用/等待及activeunknown分开。原正文formalpending和未加载切点不改；[独立批准formal后见](evidence/2026-11-03-http-journal-pure-projection-formal.json)8c297221生产19893→19688只LF投影、Test8103raw等/EOF保，0新增HTTP/编验/运行信用。
+
+[HTTP-SAVED-DRIVER-REPLAY-AND-OWNER-WITNESS-315](evidence/2026-11-03-http-saved-driver-replay-owner-witness.json)生产26完整已选源356119物理B，仍缺两member声明，owner后读不回填。两个完整stop重叠31.591324s；实施重复签名/raw泛型/放错digest次序整拒0代码，counter严重度自撤/无真实绕验反例整拒，非最终candidate审。Owner六窄edit仅同call immutable DATA复用，第二fresh archive读与全部资格门保，首1TU0/2.525416s。后见1686d7fa原27973→正式27527为318个CRLF和12空白行128尾spaces投影、EOF保，不冒仅LF或raw整叶等。
+
+独立guided Test两7800/8500请求：R1 whole算法拒，仅机械导航复用；R2 length整弃，但owner漏finish guard误JSON解析并失败0源码，不能称全未读，也不授新增语义失败。原creation_filetime键正确，owner过宽诊断撤回。Owner两方法实际publicdecoder oracle首2P，6.676461s进程/gap8.166705s/首POST→末JVM661.645851s分账；后见53a77069 Test11367raw/EOF精确。早发现/active/netunknown，0完整archiveIO/Root权限/装载/SAVE/速度信用。
+
+[316独立guided Test后见](evidence/2026-11-03-http-guided-identity-encoding-Test-later.json)保持原批准生产316正文原字节。两Test stop，无交叠峰1；7/8完整项99023/104962物理与100203/106356源码消息B分列。R1泛型/staticimport/Throwable/假changed拒；R2 partial加owner两Throwable名义绑定与非空混合数组等修，非模型整Test原样。实际public编码/hash旧表达式作纯DATA oracle、首2P，6.358249s过程/gap4.864454s/374.566404s已录wall，早发现/activeunknown；24c8f1a2 Test7665raw/EOF精确。Oracle早于M1读finalhelper，不冒早于Root起草；不授巨量byte边界、编码调用计数/私有资格/装载/SAVE或提速。

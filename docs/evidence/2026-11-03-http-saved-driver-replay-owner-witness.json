@@ -1,0 +1,325 @@
+{
+  "schema": "local-model-operations.http-case/v1",
+  "case_id": "HTTP-SAVED-DRIVER-REPLAY-AND-OWNER-WITNESS-315",
+  "mode_id": "http-candidate",
+  "task": "Call-local immutable decoded DATA reuse after unchanged validation and a second fresh archived read; equal identity and full bytes only, mismatches use original strict decoder. No physical/session/source/canonical qualification removed or deferred.",
+  "production": {
+    "requests": [
+      {
+        "post_utc": "2026-11-02T17:00:35.350259+00:00",
+        "end_utc": "2026-11-02T17:01:17.967296+00:00",
+        "max_tokens": 5200,
+        "finish_reason": "stop",
+        "http_status": 200,
+        "sse_done": true,
+        "first_valid_content_ms": 18081.48199999414,
+        "caller_total_ms": 42617.13099999179,
+        "usage": {
+          "prompt_tokens": 73998,
+          "completion_tokens": 3727,
+          "total_tokens": 77725
+        },
+        "cached_tokens": null,
+        "events": {
+          "bytes": 2079,
+          "sha256": "944ba5eedaea627d2fd6984207a8630f99dbdc0f7632f97b7e0c859280c2d993"
+        },
+        "role": "implementation",
+        "messages": 3,
+        "complete_entities_supplied": 26,
+        "physical_source_bytes": 356119,
+        "wire_source_message_bytes": null,
+        "owner_recorded_full_source_substring_audit": true,
+        "request": {
+          "bytes": 371339,
+          "sha256": "bb91fff4ecaece7542ee1bcda6e442d05166030a1031dfa5f715807a9afc9596"
+        },
+        "valid_JSON": true,
+        "final_candidate_body_supplied": false
+      },
+      {
+        "post_utc": "2026-11-02T17:00:35.350234+00:00",
+        "end_utc": "2026-11-02T17:01:06.941583+00:00",
+        "max_tokens": 3600,
+        "finish_reason": "stop",
+        "http_status": 200,
+        "sse_done": true,
+        "first_valid_content_ms": 19045.461000001524,
+        "caller_total_ms": 31591.42990001419,
+        "usage": {
+          "prompt_tokens": 74067,
+          "completion_tokens": 1454,
+          "total_tokens": 75521
+        },
+        "cached_tokens": null,
+        "events": {
+          "bytes": 2039,
+          "sha256": "a9c436252a2af485db21fda81f0f9c953e0017dd1516a1ae0f7b5ca86a0cfdf9"
+        },
+        "role": "counter",
+        "messages": 3,
+        "complete_entities_supplied": 26,
+        "physical_source_bytes": 356119,
+        "wire_source_message_bytes": null,
+        "owner_recorded_full_source_substring_audit": true,
+        "request": {
+          "bytes": 371805,
+          "sha256": "8670046d8be67db2fd60958f3a1398962d0bb9659d3357daffd83c1ef7e25ca8"
+        },
+        "valid_JSON": true,
+        "final_candidate_body_supplied": false
+      }
+    ],
+    "input_boundary": "26 complete selected files supplied and owner-audited; two nested/member declarations omitted, later owner-read frozen separately. Not a complete transitive closure; do not retrofit those declarations into old requests.",
+    "request_accounting": {
+      "logical_tasks": 2,
+      "actual_POSTs": 2,
+      "ENDs": 2,
+      "network_retries": 0,
+      "peak_inflight": 2,
+      "peak2_seconds": 31.591324,
+      "R2": false
+    },
+    "adoption": {
+      "implementation": "Whole patch rejected, 0 model production code: duplicates original private signature, raw generic output incompatible with actual strict flags, collection inserted before unchanged digest guard. Source review rejection, not executed model javac RED.",
+      "counter": "Whole actionable findings rejected: severe labels internally conclude proposal safe, no concrete new executable bypass. Baseline/proposal task, not actual final-candidate audit; limited immutable-data/decoder facts retained.",
+      "owner": "Owner six bounded literal edits and semantic proof. Candidate materialized at source Ready after both HTTP ENDs; do not claim pre-POST independent final implementation or runtime benefit."
+    },
+    "software": {
+      "first_new_production_TUs": 1,
+      "exit_code": 0,
+      "process_wall_seconds": 2.525416000004043,
+      "receipt": {
+        "bytes": 3119,
+        "sha256": "a91f2eaa08c4259e55fd917d221b756ecc0c2485b91d2ba5003668b43f8733fa"
+      },
+      "new_types_or_fields": false
+    },
+    "cost": {
+      "source_frozen_utc": "2026-11-02T17:00:25.158192+00:00",
+      "source_ready_utc": "2026-11-02T17:09:43.073785+00:00",
+      "source_freeze_to_ready_wall_seconds": 557.915593,
+      "ready_to_Native_first_begin_wall_seconds": 46.716933,
+      "source_freeze_to_first_END_wall_seconds": 607.15793,
+      "owner_active_seconds": null,
+      "earlier_discovery_start": "UNKNOWN"
+    },
+    "original_delivery_cutoff": {
+      "formal_pending": true,
+      "Test_in_progress": true,
+      "Runtime_adoption": false
+    },
+    "later_formal": {
+      "commit": "1686d7fa195182ecc6d9e4ff7ce94f1a788b0b83",
+      "compiled_raw": {
+        "bytes": 27973,
+        "sha256": "89d076624aa0e564d404628fc14002da4eabcd873ec26db632da79e0228e9181"
+      },
+      "formal": {
+        "bytes": 27527,
+        "sha256": "1e8973a832bb92a85eef48de9a763cc51fc2709ac3575f9fd970fe964ac2b693"
+      },
+      "raw_byte_equal": false,
+      "CRLF_to_LF_alone_equal": false,
+      "CRLF_count_projected": 318,
+      "blank_line_tail_spaces_removed": 128,
+      "affected_blank_lines": 12,
+      "LF_plus_horizontal_tail_projection_exact": true,
+      "EOF_newline_equal": true,
+      "new_validation": false
+    }
+  },
+  "independent_guided_Test": {
+    "case_id": "HTTP-GUIDED-PURE-HELPER-WITNESS-315",
+    "mode_id": "http-candidate",
+    "source_visible_guided_not_blind_oracle": true,
+    "requests": [
+      {
+        "post_utc": "2026-11-02T17:10:17.360534+00:00",
+        "end_utc": "2026-11-02T17:10:40.904037+00:00",
+        "max_tokens": 7800,
+        "finish_reason": "stop",
+        "http_status": 200,
+        "sse_done": true,
+        "first_valid_content_ms": 8032.192900005612,
+        "caller_total_ms": 23543.438900000183,
+        "usage": {
+          "prompt_tokens": 80809,
+          "completion_tokens": 2664,
+          "total_tokens": 83473
+        },
+        "cached_tokens": null,
+        "events": {
+          "bytes": 2144,
+          "sha256": "b9859f660f9372e5d5a2c571624e31e3bee9d0ef9975f34414cc55a829268470"
+        },
+        "messages": 3,
+        "complete_entities": 30,
+        "physical_source_bytes": 383656,
+        "actual_message_utf8_bytes": [
+          301,
+          388944,
+          5095
+        ],
+        "owner_frozen_full_source_substring_audit": true
+      },
+      {
+        "post_utc": "2026-11-02T17:12:19.989770+00:00",
+        "end_utc": "2026-11-02T17:13:35.582177+00:00",
+        "max_tokens": 8500,
+        "finish_reason": "length",
+        "http_status": 200,
+        "sse_done": true,
+        "first_valid_content_ms": 3083.7998000060907,
+        "caller_total_ms": 75592.3868999962,
+        "usage": {
+          "prompt_tokens": 84243,
+          "completion_tokens": 8500,
+          "total_tokens": 92743
+        },
+        "cached_tokens": null,
+        "events": {
+          "bytes": 2181,
+          "sha256": "3dbf930890a635e335af72c4434edad0364a0b473f8aeb1c0ee48d11fd51c63f"
+        },
+        "messages": 3,
+        "complete_entities": 31,
+        "physical_source_bytes": 394233,
+        "actual_message_utf8_bytes": [
+          301,
+          399747,
+          9462
+        ],
+        "owner_frozen_full_source_substring_audit": true
+      }
+    ],
+    "request_accounting": {
+      "logical_tasks": 2,
+      "actual_POSTs": 2,
+      "ENDs": 2,
+      "network_retries": 0,
+      "peak_inflight": 1,
+      "overlap_seconds": 0,
+      "HTTP_union_seconds": 99.13591,
+      "R3": false
+    },
+    "owner_oracle": {
+      "bytes": 2482,
+      "sha256": "a8f62419f521b365d53de8744733656d64025469f016b63073c8102352afeeb0"
+    },
+    "owner_diff": {
+      "bytes": 21380,
+      "sha256": "0f867158e9b455474838e080a014f53f298c41ac70e8fe3c50c903311efdfd74"
+    },
+    "software": {
+      "new_Test_TUs": 1,
+      "first_actual_processes": [
+        {
+          "phase": "strict",
+          "start_utc": "2026-11-02T17:21:04.163229+00:00",
+          "end_utc": "2026-11-02T17:21:06.400867+00:00",
+          "process_wall_seconds": 2.2376437000057194,
+          "exit_code": 0,
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "receipt": {
+            "bytes": 2535,
+            "sha256": "78b39bdac7cb8046a322b087913466b8b5142c08c887cfb4c2dff82c5650c4b1"
+          }
+        },
+        {
+          "phase": "junit",
+          "start_utc": "2026-11-02T17:21:14.567572+00:00",
+          "end_utc": "2026-11-02T17:21:19.006385+00:00",
+          "process_wall_seconds": 4.438817000002018,
+          "exit_code": 0,
+          "stderr": {
+            "bytes": 234,
+            "sha256": "bb7fd78ffe74c7c481eef3e5df5ffcfa76a7a9bd9989cb08ea908006b2b43cd8"
+          },
+          "receipt": {
+            "bytes": 2600,
+            "sha256": "af4736fcaaa20f22202cdafdc238ed14ed946bf91ca93a80f59c1655090b2dbe"
+          }
+        }
+      ],
+      "new_methods_passed": 2,
+      "failed_errors_skipped": 0,
+      "process_wall_sum_seconds": 6.676460700007738,
+      "strict_to_JUnit_gap_wall_seconds": 8.166705,
+      "old_green_or_production_recompiled": false
+    },
+    "cost": {
+      "first_POST_to_last_JVM_wall_seconds": 661.645851,
+      "earlier_discovery_preparation_start": "UNKNOWN",
+      "owner_active_seconds": null,
+      "compiler_CPU_seconds": null,
+      "wall_is_not_exclusive_owner_labor": true,
+      "pre_POST_oracle_to_POST_wall_seconds": 249.050288
+    },
+    "publication": {
+      "original_pending_delivery_preserved": true,
+      "later_formal_commit": "53a77069bf38d4978537b0ed4bb0ead7c196ea90",
+      "source_raw": {
+        "bytes": 11367,
+        "sha256": "8396bdf8ef7bad06b499c24f0c3ddded813912e1dbadba0e2c68964c9dc7f6ab"
+      },
+      "source_formal": {
+        "bytes": 11367,
+        "sha256": "8396bdf8ef7bad06b499c24f0c3ddded813912e1dbadba0e2c68964c9dc7f6ab"
+      },
+      "raw_formal_EOF_byte_exact": true,
+      "new_validation_for_publication": false
+    },
+    "provenance": {
+      "cost": {
+        "bytes": 5088,
+        "sha256": "b6fc2c82890ca3f3f261bd7927621cd0858b24d8f92519827743640f9834d192"
+      },
+      "delivery": {
+        "bytes": 11573,
+        "sha256": "b08c85817ef34cda9a8d194a901de04292d448a2b6bdb77e31b0fc558e073ba6"
+      },
+      "XML_reports": [
+        {
+          "bytes": 42102,
+          "sha256": "7fd3f06e6974ed9fb86784e4334b4b2dbbaf15bf6404965a536c3c3d307b6769"
+        },
+        {
+          "bytes": 41172,
+          "sha256": "534aae9f737d7f6bb4ec56a753e218f6b6bada8d809c70cac30a8133da39478f"
+        },
+        {
+          "bytes": 41151,
+          "sha256": "1bd0ef7d709466aa04afbbf843d88e165c305964c60db4142fb391d6b4227045"
+        }
+      ]
+    },
+    "runtime_or_performance_credit": false,
+    "adoption": {
+      "R1": "Complete stop rejected as whole Test algorithm; inconsistent digest fixture, missing nullable lifecycle field, checked hash exception and weak oracle. Mechanical reflection/failing ports/constants navigation reused only.",
+      "R2": "length8500 entirely discarded, no algorithm adopted. Owner batch wrongly attempted JSON decode despite length, failed with unterminated string, emitted no source; not completely unread, and not a further model semantic failure.",
+      "owner": "All new fixture and two oracle method algorithms owned; public decoder used as comparison, no mirror of private helper implementation.",
+      "owner_false_diagnosis_withdrawn": "Raw creation_filetime key and constructor/erased reflection APIs were valid; misleading correction prompt is owner cost, not model API error."
+    },
+    "scope": [
+      "Private pure DATA helper versus real public decoder: legitimate changed data fallback, malformed/incomplete/source/anchor rejection, identity variation and isolation/fresh maps.",
+      "No noncanonical raw/decimal-token positive fixture, second archive IO/late IOException/whole verifier, source/current qualification, private issuer, filesystem/JNA/network/Game/loading or speed proof."
+    ]
+  },
+  "configuration": {
+    "shared_config": "config/executor.json",
+    "schema_version": 1,
+    "model_alias": "qwen38-coder",
+    "exact_invocation_caller_commit_NOT_HELD": true,
+    "weights_backend_quantization": "UNKNOWN"
+  },
+  "limits": [
+    "Source/formal/finite DATA first2P are separate stages; original pending records unchanged.",
+    "Active preparation/review/correction/CPU/net saving UNKNOWN; no exclusive labor inferred from full wall or compiler duration.",
+    "No real archive IO trace, current Root authority, actual loading/SAVE, speed or end-to-end target claim.",
+    "No new model/registry/service GET/Java/Game for operations. Raw sources/requests/answers/private paths remain local."
+  ]
+}
