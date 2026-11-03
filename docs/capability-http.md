@@ -2200,3 +2200,10 @@ M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-co
 [whole-exercise664后到源码记录](evidence/2026-11-04-http-m2-whole-exercise664-rejection.json)：两角色各1STOP/DONE/JSON完整、72实际完整实体/345932字节前缀与Task/7参数审计精等，finite10000/4000。实现8864tokens的644行完整Java含method内method、类型/游标错误、全部foreign throw等硬错，编译前整拒0partial/0compilerRED/不R2，owner全接管；另一空finding只planned-source，未见候选，不能作候选审/数值oracle或PASS。
 
 先前3072字节adapter仍独立raw全采用切点，不因whole失败倒改。HTTP76.511206/26.403921秒与TTFT23.079832/24.360374分列，task起点/active未知；实际prepared SPEC别名与原路径身份误的audit后见仅准备修正、0请求重投。新whole owner源/软件/formal均pending，不加执行case、Runtime、Native172或速度信用。
+
+
+## 2026-11-04：roster最终公开5绑定首次软件后见
+
+[Native843公开绑定独立first](evidence/2026-11-04-roster-public-binding-first843.json)：final公开生产10049/9cc362、Test14823/dba52e、API4746/901368与两原依赖均匹配actual，五个exact synthetic/mockedCLI方法首次全PASS，child0.4069864秒/unittest0.008秒，11pins前后等、retainedHANDLE出生同、raw→durable terminal→ACTUAL顺序核实。Models全文消费actual/terminal/stderr/config/scope/BEGIN/source-review并机械fresh核11inputs/refs，0重RUN/HTTP/lease查询。
+
+原fc73869f source-publication和private8235P切点不回填，不重private823/796/历史CLI，不把这些不同绑定相加成业务case。原模型仍1角色partial+3owner修，843无新model/code改变。已过的是纯DATA五方法；完整returned65及completed正文仍须人工保存，SHA只是serialization，globalUNKNOWN，0自动capture/collab/clock/network/DB/Game/Java授权，30–60秒采样或省工未实测。
