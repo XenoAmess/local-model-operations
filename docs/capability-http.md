@@ -1504,3 +1504,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 [Protocol immutable DATA reuse] [批准主文](evidence/2026-11-03-http-protocol-identity-immutable-data-reuse.json)与[独立oracle/Test同parent附页](evidence/2026-11-03-http-protocol-identity-independent-witness-annex.json)合计仅两POST/峰1不重叠；两outerJSON机器VALID且各CONTENT原样等SSE（M5 counter为3373B），模型whole语义拒/0算法码。owner一body literal+公有DATA3P保初-J argv准备RED、同3P只计一次；M5肉眼误判和M1未核转述独归owner，原件不改。[正式后见](evidence/2026-11-03-http-protocol-identity-later-formal.json)只追加23f012fd/两blob rawcompiledformal/EOF相等，0新验证/实际装载/实速。
 
 [业务疑点有限负闭] [批准最小抽象附页](evidence/2026-11-03-declaration-publication-idempotence-negative.json)确认本窗先Published、同日后次Unchanged，计划reason不等于publisher身份；前body未读，不能称首次消费或false→true。此附页0HTTP/Test/JVM/patch，不新增模型能力case或分母，source/loaded一致性与性能仍未知。
+
+
+[普通 Root Sway 接线有限 NO_PATCH236] [owner批准原文](evidence/2026-11-03-http-ordinary-root-assembly-finite-no-patch.json)：22whole/465390物理B，两POST/两STOP/两有效JSON、峰2仅27.27497s。owner确证当前formal plain factory三Java布尔true且同一路径Prepared→install→catalog.freeze→ORDINARY_SWAY；两NO_PATCH仅partialtrace，模型错要求Native HELLO广告Java STEP/错把配置布尔当capability名，0code/独立oracle。actual loaded/Core/permission/ordinary nomination/自然原件仍NOT_HELD，source true不等实机通过；无可证源码补丁则0新生产/Test/Java/业务formalpayload，不重235。freeze→END45.210338s只录得子窗，fulltask/active未知，G2仍6/8，不门真实运行。
