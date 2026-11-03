@@ -1,0 +1,508 @@
+{
+  "schema": "local-model-operations.hoi4-timeout-takeover/v1",
+  "case_id": "HTTP-HOI4-B049-TIMEOUT-OWNER",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T08:25:26.510376+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 24,
+  "http_retries": 20,
+  "complete_stop_json_candidates": 0,
+  "model_candidate_adopted": false,
+  "owner_authored_image_prompts": 4,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T07:20:00.419531+00:00",
+    "window_ended_at_utc": "2026-11-03T07:41:12.001869+00:00",
+    "window_seconds": 1271.582338,
+    "peak": 4,
+    "peak_duration_seconds": 1017.240764,
+    "average_inflight": 3.400288022087957
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261103-b049-prompt-01",
+      "success": false,
+      "attempts": 6,
+      "finish_reason": null,
+      "sse_done": false,
+      "usage": null,
+      "failure": "TimeoutError('timed out')",
+      "content_ttft_ms": null,
+      "total_ms": 180044.6678000153,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "4bb16333e98decda78f60f5392defcfee82b83df74dce543a5d2bb8273612a55",
+      "summary_sha256": "2068ecc9b4a921b6be67f6609fadf2fa074e224335ba6801cc68ce9042a9313f",
+      "actual_message_utf8_bytes": [
+        301,
+        2107,
+        661
+      ],
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "owner_adoption": {
+        "source_original_sha256": "2f10a31c0ce11e0052d68b840b4139eab125e0805d0a8fe8d7a8369da3073022",
+        "task_id": "hoi4-20261103-b049-prompt-01",
+        "request_sha256": "4bb16333e98decda78f60f5392defcfee82b83df74dce543a5d2bb8273612a55",
+        "summary_sha256": "2068ecc9b4a921b6be67f6609fadf2fa074e224335ba6801cc68ce9042a9313f",
+        "adoption": "none; owner authored prompt after all six allowed HTTP attempts timed out",
+        "actual_http_attempts": 6,
+        "http_retries": 5,
+        "usable_model_candidate": false,
+        "complete_input_both_hash_domains_verified": true,
+        "owner_takeover": true,
+        "failure_class": "transport timeout with no usable candidate; server state not inferred",
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "attempt_metrics": [
+        {
+          "attempt": 1,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180751.97759998264,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 2,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180037.8205999732,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 3,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180004.64379996993,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 4,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180047.65670001507,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 5,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180021.44669997506,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 6,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180044.6678000153,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        }
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b049-prompt-02",
+      "success": false,
+      "attempts": 6,
+      "finish_reason": null,
+      "sse_done": false,
+      "usage": null,
+      "failure": "TimeoutError('timed out')",
+      "content_ttft_ms": null,
+      "total_ms": 180015.6552999979,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "dcb2a942f8a836e3824a920ac4c6982241178e96e8abdffed101cbcdb31b1817",
+      "summary_sha256": "6aa054c0c2f1ef8b7fc9a44f83314583fb07b13b7f475c4f7ead82bb903d2ae6",
+      "actual_message_utf8_bytes": [
+        301,
+        2253,
+        661
+      ],
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "owner_adoption": {
+        "source_original_sha256": "54d0fd39819f13dbfdc53c2264190a93da7ffac425049d8a2aa69df4d72bc1eb",
+        "task_id": "hoi4-20261103-b049-prompt-02",
+        "request_sha256": "dcb2a942f8a836e3824a920ac4c6982241178e96e8abdffed101cbcdb31b1817",
+        "summary_sha256": "6aa054c0c2f1ef8b7fc9a44f83314583fb07b13b7f475c4f7ead82bb903d2ae6",
+        "adoption": "none; owner authored prompt after all six allowed HTTP attempts timed out",
+        "actual_http_attempts": 6,
+        "http_retries": 5,
+        "usable_model_candidate": false,
+        "complete_input_both_hash_domains_verified": true,
+        "owner_takeover": true,
+        "failure_class": "transport timeout with no usable candidate; server state not inferred",
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "attempt_metrics": [
+        {
+          "attempt": 1,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180768.4748999891,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 2,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180035.51969997352,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 3,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180035.8705999679,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 4,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180071.12350000534,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 5,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180041.82580002816,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 6,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180015.6552999979,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        }
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b049-prompt-03",
+      "success": false,
+      "attempts": 6,
+      "finish_reason": null,
+      "sse_done": false,
+      "usage": null,
+      "failure": "TimeoutError('timed out')",
+      "content_ttft_ms": null,
+      "total_ms": 180028.18000002299,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "1f10b1959783cf38835c80b1b29ca398bc799ed539e303c2303b7e8d1eaab31f",
+      "summary_sha256": "25d0d226fe39cf25aa889d96a6e72a27ab60eaf1a4965b737f35dec2bde8f839",
+      "actual_message_utf8_bytes": [
+        301,
+        2117,
+        661
+      ],
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "owner_adoption": {
+        "source_original_sha256": "1602d4d898a5207379cf89eb3e9352c59627af5edd9ad0ab80aeda121a1b2d2b",
+        "task_id": "hoi4-20261103-b049-prompt-03",
+        "request_sha256": "1f10b1959783cf38835c80b1b29ca398bc799ed539e303c2303b7e8d1eaab31f",
+        "summary_sha256": "25d0d226fe39cf25aa889d96a6e72a27ab60eaf1a4965b737f35dec2bde8f839",
+        "adoption": "none; owner authored prompt after all six allowed HTTP attempts timed out",
+        "actual_http_attempts": 6,
+        "http_retries": 5,
+        "usable_model_candidate": false,
+        "complete_input_both_hash_domains_verified": true,
+        "owner_takeover": true,
+        "failure_class": "transport timeout with no usable candidate; server state not inferred",
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "attempt_metrics": [
+        {
+          "attempt": 1,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180758.10519995866,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 2,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180048.56999998447,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 3,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180033.41229999205,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 4,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180023.39319995372,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 5,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180051.1822999688,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 6,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180028.18000002299,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        }
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b049-prompt-04",
+      "success": false,
+      "attempts": 6,
+      "finish_reason": null,
+      "sse_done": false,
+      "usage": null,
+      "failure": "TimeoutError('timed out')",
+      "content_ttft_ms": null,
+      "total_ms": 180058.5776999942,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "d56f6bf4b1cbb2b2bf8ce2da7c44c7f2925866e71c0459d81054d35a05bc584b",
+      "summary_sha256": "0ce6575e776de8a7b757ecbaba74fd212c0f1a1e46001842ae0a1bf7e789b48e",
+      "actual_message_utf8_bytes": [
+        301,
+        2260,
+        661
+      ],
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "owner_adoption": {
+        "source_original_sha256": "c07ac9cd4b6e95ea357e3dc2a6c4234822a7d7fd8e61fa7b6eb96770e13716fe",
+        "task_id": "hoi4-20261103-b049-prompt-04",
+        "request_sha256": "d56f6bf4b1cbb2b2bf8ce2da7c44c7f2925866e71c0459d81054d35a05bc584b",
+        "summary_sha256": "0ce6575e776de8a7b757ecbaba74fd212c0f1a1e46001842ae0a1bf7e789b48e",
+        "adoption": "none; owner authored prompt after all six allowed HTTP attempts timed out",
+        "actual_http_attempts": 6,
+        "http_retries": 5,
+        "usable_model_candidate": false,
+        "complete_input_both_hash_domains_verified": true,
+        "owner_takeover": true,
+        "failure_class": "transport timeout with no usable candidate; server state not inferred",
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "attempt_metrics": [
+        {
+          "attempt": 1,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180721.86539997347,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 2,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180049.1936999606,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 3,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180033.4709000308,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 4,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180039.42250000546,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 5,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180038.3681000094,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        },
+        {
+          "attempt": 6,
+          "http_status": null,
+          "finish_reason": null,
+          "sse_done": false,
+          "candidate_complete": false,
+          "first_nonempty_content_delta_ms": null,
+          "total_ms": 180058.5776999942,
+          "usage": null,
+          "failure": "TimeoutError('timed out')"
+        }
+      ]
+    }
+  ],
+  "prepared_cutoff_at_utc": "2026-11-03T08:15:35.262386+00:00",
+  "frozen_prepared_receipt": "mod_nailong/data/production-batches/resume-20261103-b049-prepared.json",
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261103-b049-sources.json",
+    "sha256": "d27fc6d071ba15e19f452640bfbe96af0b9c7514e53694ebdf62aba4a6c029ff",
+    "publication_commit_at_cutoff": null
+  },
+  "read_only_later_diagnostic": {
+    "machine_id": "bf-202609141645-5434332d4d",
+    "observed_at_utc": "2026-11-03T08:09:09.592928+00:00",
+    "config_path": "../local-model-operations/config/executor.json",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "actual_base_url": "http://192.168.1.11:8080/v1",
+    "results": [
+      {
+        "probe": "tcp",
+        "connected": true,
+        "elapsed_seconds": 0.06704990001162514
+      },
+      {
+        "probe": "read_only_http_get",
+        "url": "http://192.168.1.11:8080/health",
+        "http_status": 200,
+        "body_prefix_bytes": 0,
+        "body_prefix_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "elapsed_seconds": 0.0710321000078693
+      },
+      {
+        "probe": "read_only_http_get",
+        "url": "http://192.168.1.11:8080/v1/models",
+        "http_status": 200,
+        "body_prefix_bytes": 1201,
+        "body_prefix_sha256": "404ba880e41074e041bb8ff082e38350e3530a4b5832806cc59e76e0a65e1ede",
+        "elapsed_seconds": 0.0698835999937728
+      }
+    ],
+    "scope": "One bounded read-only diagnostic set. No model POST, replay, account/service modification, alternate endpoint or fallback."
+  },
+  "failure_boundary": "All24 actual canonical-caller attempts timed out without a complete usable candidate; this is transport/inference availability evidence, not model semantic failure. Later TCP and GET health/models200 do not prove inference recovered or explain the earlier timeouts. Canonical caller source bypasses endpoint proxies and the thin adapter extends NO_PROXY for the configured host. No endpoint fallback, service modification or manual replay.",
+  "stage_at_cutoff": "Four owner-authored source-specific image prompts frozen at a real uncalled cutoff after bounded shared-caller failures. Later image dispatch/import is separate; publication does not gate it.",
+  "cumulative_observation": {
+    "actual_model_http_attempts": 137,
+    "complete_candidates": 112,
+    "discarded_length_attempts": 1,
+    "failed_timeout_attempts": 24,
+    "http_retries": 20
+  },
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain private to execution owner. Public receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Use a later genuinely unfinished task to verify successful inference after the read-only endpoint checks. Do not replay these completed owner-authored jobs just to test recovery; downstream image jobs are not HTTP retries."
+}
