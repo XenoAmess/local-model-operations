@@ -1481,3 +1481,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 [上游 allocator 两轮 FP 链633] [批准正文](evidence/2026-11-03-http-upstream-allocator-two-round-fp-chain.json)：92实体/427403B、两STOP/峰2仅5.029247s；3126B factory完整R1 raw/0owner Java，强9参union/工厂序提示。audit PASS仅计划结构核对，无candidate/新oracle。owner14934B Test两END后CONTENT前冻结，三首次0/stdout两console组；whole94+60+PageCALLport新两轮路径不授wholePage381/upperWORD/OS/Native172。825.080283s仅录得下界，active/净节省未知，正式原pending。
 
 [Writer stage 正式后见] [批准附页](evidence/2026-11-03-http-writer-stage-diagnostics-later-formal.json)追加19065cbc：normaloff Writer113827→112425仅1402CRLF转LF、Test20995 rawexact/EOF保。原15693B正文pending与三P记录保；temporarytrue未正式。writer CPcount预检0stage/0Java独归准备成本，无新HTTP/验证/运行或速度信用。
+
+
+[369B 首次 warm 入口后见] [批准附页](evidence/2026-11-03-http-bounded-warm-planning-first-entry-later.json)只记录旧batch74经1207.765835s/0Intent/dirtyfalse后 qualified capture1512进入next75；0GET/STOP/游戏日/SAVE信用。source owner仅核Runtime已冻小summary，非完整canonical前后独证；不授75结果、派发或提速，原parent请求/测试/正式切点及计数全保。
