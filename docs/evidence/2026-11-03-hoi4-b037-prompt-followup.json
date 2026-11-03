@@ -1,0 +1,212 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B037-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T02:22:58.634276+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T01:32:07.705605+00:00",
+    "window_ended_at_utc": "2026-11-03T01:32:15.617869+00:00",
+    "window_seconds": 7.912264,
+    "peak": 4,
+    "peak_duration_seconds": 6.957158,
+    "average_inflight": 3.8261290320949857
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261103-b037-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 755,
+        "completion_tokens": 538,
+        "total_tokens": 1293
+      },
+      "failure": null,
+      "content_ttft_ms": 1168.4908000170253,
+      "total_ms": 6962.498300010338,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "f206d9e49a97332a4e4f480a510badc3b0ebaaf652e1f4a869bcc549fa45b91c",
+      "summary_sha256": "b0f4867d96720daba4b587a14a8c21eccc44b7570dfa5abaad36581d4dac890b",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "022624dc002ae2041823b734f0a6e7ae3dd183f6b8f0384683833af4d5b89716",
+        "task_id": "hoi4-20261103-b037-prompt-01",
+        "request_sha256": "f206d9e49a97332a4e4f480a510badc3b0ebaaf652e1f4a869bcc549fa45b91c",
+        "summary_sha256": "b0f4867d96720daba4b587a14a8c21eccc44b7570dfa5abaad36581d4dac890b",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Restated explicit primary IMAGE-LEFT direction; opposite-facing larger portrait is appearance context only.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2155,
+        623
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b037-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 777,
+        "completion_tokens": 653,
+        "total_tokens": 1430
+      },
+      "failure": null,
+      "content_ttft_ms": 1344.7714999783784,
+      "total_ms": 7920.341500022914,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "d4434cfa057ff6c0a66d069a3084a3f14325c782bded6576a25569b2dd931b2f",
+      "summary_sha256": "03c5b4e2bd147d99b0dd5e0b11be35480b39d4c23c1a5159d14377f60159a480",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "6a68d4c296b1635dca7f2517fa2d37d17c5dcc26ad3d793e704803e30f5c60c1",
+        "task_id": "hoi4-20261103-b037-prompt-02",
+        "request_sha256": "d4434cfa057ff6c0a66d069a3084a3f14325c782bded6576a25569b2dd931b2f",
+        "summary_sha256": "03c5b4e2bd147d99b0dd5e0b11be35480b39d4c23c1a5159d14377f60159a480",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Restated real red collar-tab regions and genuine fine eye/upper-lip uncertainty; no invented prominent eyewear or moustache.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2249,
+        623
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b037-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 766,
+        "completion_tokens": 602,
+        "total_tokens": 1368
+      },
+      "failure": null,
+      "content_ttft_ms": 1344.0671999705955,
+      "total_ms": 7687.685000011697,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "f9726bdf9cc7b2ebbca68c5b226adcf81d3e06c8f5b5dd156f2fd0a51f2a56f3",
+      "summary_sha256": "8b7d5fc894306aa3fa519819d7033f87cf7c6c4bdc43783e7bc136061fbf4ebc",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "6fe413451b608bb5f53e4badebfd3584a70f0b728f0afe0530aab00cc768d15e",
+        "task_id": "hoi4-20261103-b037-prompt-03",
+        "request_sha256": "f9726bdf9cc7b2ebbca68c5b226adcf81d3e06c8f5b5dd156f2fd0a51f2a56f3",
+        "summary_sha256": "8b7d5fc894306aa3fa519819d7033f87cf7c6c4bdc43783e7bc136061fbf4ebc",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Retained actual bare wavy hair, downward head tilt, white OPEN shirt and NO TIE; normalized owner lowward wording to downward.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2245,
+        623
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b037-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 762,
+        "completion_tokens": 621,
+        "total_tokens": 1383
+      },
+      "failure": null,
+      "content_ttft_ms": 1330.8783000102267,
+      "total_ms": 7730.179100006353,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "5bf89980d7d99a141cbc02c7c412cc614c2f23fb0c015fb5dce86ab90069949a",
+      "summary_sha256": "e6e64baaa16510bfefa4f86c673322f250774a63cd88d6a3caeae8eb72b021b4",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "e02100b08bf811615adeab7f7a3432d160f020d79bfd10fcceb1a53ae6380ee1",
+        "task_id": "hoi4-20261103-b037-prompt-04",
+        "request_sha256": "5bf89980d7d99a141cbc02c7c412cc614c2f23fb0c015fb5dce86ab90069949a",
+        "summary_sha256": "e6e64baaa16510bfefa4f86c673322f250774a63cd88d6a3caeae8eb72b021b4",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Restated explicit IMAGE-LEFT profile, thin moustache/wire spectacles and limited source-exposed gold/pale/red fitting region.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2238,
+        623
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261103-b037-sources.json",
+    "sha256": "da8e41e131e1acb9e03d9852667e2ad20e8011aa8ca76e28190337222a38a43a",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T01:49:31.544610+00:00",
+  "frozen_prepared_receipt": "mod_nailong/data/production-batches/resume-20261103-b037-prepared.json",
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. This is the already frozen pre-dispatch cutoff, not the later publication time. Actual later image calls/imports are separate evidence. Primary direction/collar and open-shirt/no-tie details govern. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Four partial text adoptions. Owner reinforced explicit IMAGE-LEFT direction in sources1/4, real red collar areas and primary fine-detail uncertainty in source2, actual bare wavy hair/downward tilt/WHITE OPEN shirt/NO TIE in source3, and only source-exposed fittings in source4. Owner lowward typo normalized to downward. No image pixels supplied to text model or visual qualification; earlier historical inputs retained.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
