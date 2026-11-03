@@ -1734,3 +1734,6 @@ Owner独立SQLite库经8项新无网络测试，包括12进程原子争3个sourc
 
 
 - Approved later records: [m1-reader-packet-counter](evidence/2026-11-03-m1-reader-packet-counter-approved.json), [m1-receipt-formal-later](evidence/2026-11-03-m1-receipt-formal-later-approved.json), [m2-651-fixture-source](evidence/2026-11-03-m2-651-fixture-source-approved.json). Reader analysis is partial, Receipt is a later source/formal cutoff, and fixture source preserves the owner text-output versus caller JSON-envelope mismatch. No old task or green validation was repeated.
+
+
+- [Driver Complete byte-key source/software case](evidence/2026-11-03-m0-driver-bytekey587-approved.json): two real source requests, implementation length wholly discarded and counter partial, zero model code adopted. Owner existing-type change and one new real scoped JUnit passed; old active ByteBuffer map compatibility and net miss/MRU benefit remain limited or unknown. Original formal-pending cutoff and full wall/active-unknown costs are preserved.
