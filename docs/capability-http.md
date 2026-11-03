@@ -1761,3 +1761,14 @@ Owner独立SQLite库经8项新无网络测试，包括12进程原子争3个sourc
 - [Normal139 full-tail source stage](evidence/2026-11-03-normal139-full-tail-source-stage.json) and [normal39 full-return source stage](evidence/2026-11-03-normal39-full-return-source-stage.json): six and five completed HTTP roles, respectively. Selected raw source and narrow correction hunks remain source candidates; software and formal acceptance were pending at these cuts.
 
 These are exact owner-approved metadata bodies. HTTP time sums, compiler/JVM process time, inclusive wall time and unknown owner active time remain separate; none establishes runtime adoption or a measured speed benefit.
+
+
+## 2026-11-03 Additional approved source reviews and later results
+
+- [Composed JSON DATA source](evidence/2026-11-03-composed-json-data-source-and-software.txt): two source requests adopted no model code; the owner candidate existed before POST. Nine distinct owner Test methods and exact formal publication are later observations of the same unit.
+- [Public-number Test](evidence/2026-11-03-public-number-test-length-and-owner-firsts.txt): one wholly unread length response, followed by two new owner methods with first PASS results. The preserved 4176.459794-second coordination gap is not model or author coding time.
+- [Private JSON quote source and Test](evidence/2026-11-03-private-json-quote-source-and-owner-test.json): both complete source replies remained unadopted. The approved review supports ordinary DATA equivalence of the implementation text while rejecting its cost/resource claims; it does not invent a compiler failure. The preexisting owner candidate and three new owner Test methods are recorded separately.
+- [Private lifecycle decoder review](evidence/2026-11-03-private-lifecycle-decode-source-review.txt): two complete source replies, zero whole/code adoption; an order-contract violation is distinguished from a demonstrated runtime exception. New software receipts were not held at this cut.
+- [Exact205 formal result](evidence/2026-11-03-exact205-protocol-formal-later.json): four exact raw/formal leaves, reusing the previously recorded first software results without publication reruns.
+
+Original pending and draft cuts remain in their approved bodies. Parent cases, separate source/Test HTTP requests and old software results are not counted again; no runtime or speed claim follows.
