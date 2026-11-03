@@ -1,0 +1,66 @@
+{
+  "case_id": "opencode-frozen-registry-snapshot-cli-source-round-01",
+  "relation": "Later software qualification and exact-source publication; original source-round pending cutoff unchanged",
+  "code_source": "OpenCode raw partial implementation plus three owner input-boundary corrections; ordinary candidate-counter code adopted0",
+  "CLI_bytes": 6587,
+  "CLI_sha256": "8973c86ed8d00054080433801569b51b0403acadf671d45fb3e2b3f4251f59b0",
+  "first_attempt": {
+    "methods_ran": 4,
+    "ok": 2,
+    "errors": 2,
+    "exit_code": 1,
+    "process_seconds": 2.7499866999860387,
+    "failure": "Owner fixture left SQLite connections open; TemporaryDirectory cleanup failed with Windows file locks. Connection ResourceWarnings were also present.",
+    "candidate_changed": false,
+    "original_receipt_logs_Test_and_source_ready_retained": true
+  },
+  "Test_revision": {
+    "original_bytes": 6247,
+    "revised_bytes": 6289,
+    "revised_sha256": "08434090474f715e22e00e82de0ef5a061390b89ed7736816fdfce6e4db046c8",
+    "delta": "Add contextlib import and explicit closing around the unchanged SQLite transaction context",
+    "all_four_test_bodies_and_assertions_unchanged": true,
+    "inverse_to_original_exact": true,
+    "model_or_candidate_implementation_failure": false
+  },
+  "affected_verification": {
+    "methods": [
+      "test_extra_meta_and_oversized_report_are_rejected_without_partial_stdout",
+      "test_frozen_projection_counts_uri_and_no_write",
+      "test_invalid_limits_companions_and_missing_input_are_quiet"
+    ],
+    "passed": 3,
+    "exit_code": 0,
+    "process_seconds": 2.4075536000018474,
+    "no_connection_ResourceWarning": true,
+    "input_prepost_pins_equal": 9,
+    "scope_reason": "Two original cleanup errors plus the third DB-fixture method that had passed with connection warnings",
+    "unaffected_pure_path_method_rerun": false,
+    "old_registry_tests_or_HTTP_repeated": 0
+  },
+  "final_distinct_qualified_methods": 4,
+  "composition": {
+    "retained_unaffected_original_method": "test_utf8_bound_and_surrogate_path_reject_before_filesystem",
+    "new_affected_methods": [
+      "test_extra_meta_and_oversized_report_are_rejected_without_partial_stdout",
+      "test_frozen_projection_counts_uri_and_no_write",
+      "test_invalid_limits_companions_and_missing_input_are_quiet"
+    ],
+    "complete_revised_four_method_suite_ran": false,
+    "original_first_reclassified_as_green": false
+  },
+  "software_process_seconds_sum_including_failed_first": 5.157540299987886,
+  "software_process_sum_is_not_full_task_wall_or_exclusive_labor": true,
+  "full_task_start": null,
+  "full_task_wall_seconds": null,
+  "active_exclusive_seconds": null,
+  "publication": {
+    "CLI_and_manual_Test_source_bytes_preserved": true,
+    "destination_copies_executed_again": false,
+    "shared_script": "scripts/snapshot_request_registry.py",
+    "manual_witness": "tests/fixtures/registry_snapshot_cli_witness.py"
+  },
+  "new_model_requests_or_business_cases_from_this_appendix": 0,
+  "active_registry_operator_use_Runtime_Game_or_performance_claim": false,
+  "private_raw_requests_logs_DB_and_absolute_machine_paths_included": false
+}

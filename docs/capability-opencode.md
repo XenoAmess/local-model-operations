@@ -261,3 +261,10 @@ The 5935.296762-second owner wall, 2680-second peer wall and earlier 1754.368648
 [本次真实原生任务](evidence/2026-11-04-opencode-frozen-registry-cli-source-round.json)从未写 placeholder 实现有限只读 frozen-copy report CLI，非旧 registry 绿题重投。OpenCode1.19.5 原生 assistant/tool 循环实际 11POST／11END、10tool_calls＋1stop；每回复8000有限输出、无总steps／POST／wholewall帽。CLI33.621762秒与11请求合31.1845424秒不冒完整准备或节省工时。
 
 原143行源码部分选用，owner订正UTF-8字节及surrogate、超长limit预拒和完整meta表校验，最终152行；原稿及正逆差分保留。另一个普通三消息candidate counter的1POST21.3916624秒独立计HTTP模式，完整反例答复经逐源拒绝，零模型纠正／独立NoCounter信用。四项新CLI DATA首验已排给唯一软件owner，当前未持START／PASS；不借CLI0、工具trace或旧registry9项授新软件／activeDB／性能。后到实际另附，不重跑模型或旧绿。
+
+
+## 2026-11-04：同 CLI 后到首验、夹具纠正与正式源码
+
+[软件后见](evidence/2026-11-04-opencode-frozen-registry-cli-software-later.json)保首Ran4／2ok／2cleanup ERROR：owner Test未close连接，非模型或CLI候选失败。仅Test增closing import/context，四个Test body／断言与CLI6587字节均保原；三项受影响首验再全通过且无ResourceWarning，不重纯路径旧绿或registry9。最终4distinct来自原纯路径1＋新affected3，不说新完整4suite一次跑绿。两process合约5.1575403秒含原RED，非完整wall／主动工时或净收益。
+
+[冻结副本report工具](request-registry-snapshot.md)现按qualified源字节正常发表：独立CLI与显式env的manual witness，目标副本须先由owner闭合／consolidate／冻结，拒companion不证明无活writer。无activeDB、HTTP、Runtime自动接线或新执行；普通counter仍原案的1角色，旧source-round pending不回写。
