@@ -1,0 +1,12 @@
+{
+  "schema": "local-model-operations.owner-approved-public-case/v1",
+  "mode_id": "http-candidate",
+  "case": "ordinary-command-pure-data-compatibility370-owner-format-erratum",
+  "at_utc": "2026-11-03T01:05:01.601308+00:00",
+  "approval_scope": "Only this complete general summary is approved for public publication; original responses remain private.",
+  "correction": "The STOP counteranswer is a syntactically valid JSON object, established by json.loads on its complete original bytes. Earlier owner prose describing it as malformed was a review error, not a model format failure. Original evidence and cutoffs remain unchanged.",
+  "semantic_grade": "Limited source corroboration only: the latter part correctly identifies the new ordinary-session validation gate as a compatibility regression; the earlier part contradicts that observation by claiming ordinary decode already validates the session. No complete answer, algorithm or code was adopted. The owner had already raised the compatibility issue before the source oracle, so this is not blind discovery.",
+  "implementation_answer": "The separate length-limited implementation answer is actually unterminated JSON; it remains rejected whole and is not repaired or concatenated.",
+  "boundary": "Keep wire completion, JSON syntax, source-supported semantics and adoption as separate recorded facts. Do not diagnose JSON syntax by visual impression or infer semantic correctness from STOP.",
+  "cost": "This owner correction and review time are part of task cost; active duration and net owner labor saving are UNKNOWN."
+}

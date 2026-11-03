@@ -1,0 +1,22 @@
+{
+  "scope": "Source-owner-approved reusable facts only; no original incident, packet, identifier, timing, digest, source, model answer, provenance package or machine path is published.",
+  "facts": [
+    {
+      "lesson": "An internal diagnostics structure is not a serialized wire contract.",
+      "application": "Check actual serialization and the receiver before claiming that a diagnostic field is available on the wire."
+    },
+    {
+      "lesson": "Default DTO fields on an early return are not measured state.",
+      "application": "Follow assignment and return paths. An unassigned false or empty value does not prove that the corresponding observation took place."
+    },
+    {
+      "lesson": "Mailbox lifetime follows actual object construction and destruction scope.",
+      "application": "Read the ownership and construction path instead of inferring a per-connection reset from the connection name."
+    },
+    {
+      "lesson": "A generic error does not prove successful submission or an observed owner.",
+      "application": "Enumerate aggregate early-return paths. Elapsed time cannot select a failing branch or establish that execution began."
+    }
+  ],
+  "limits": "These are bounded source-review rules, not an original cause, a fix, loaded-binary provenance, native-tool completion, or permission to query, reset, replay, build, deploy or run a business action."
+}

@@ -171,3 +171,6 @@ CLI367.1497915s、首记prepare→CLI161.102732s、reportedHTTPsum299.6922541s�
 
 
 [普通HTTP源码分析的通用故障归因规则](evidence/http-generic-negative-ack-source-analysis-boundaries.json)不授OpenCode原生工具或现场执行能力：generic负ACK/短延迟不能选失败分支，TLS要求同次读取和原owner线程，executor-running timeout须核same-ticket实际循环，模型行号必须回完整冻结原文验证。工具只读成功也不能替代原失败cause或source-to-loaded映射。
+
+
+[diagnostics/default/lifetime通用源码边界](evidence/http-default-diagnostics-lifetime-boundaries.json)同样约束原生工具分析：内部diagnostics不等于wire，默认值不等于已测量，生命周期按构造scope，generic错误/耗时不证明提交或观察。它不增加原生自动源核完成、现场诊断或执行能力。普通HTTP的[外层JSON格式勘误](evidence/2026-11-03-http-ordinary-command-format-erratum.json)也不能反向授OpenCode收益；两mode继续分别跟踪。

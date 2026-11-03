@@ -71,3 +71,6 @@ Windows host读源必须在每个read exec cell开头定义并复用本机已核
 
 
 源码故障分析遇到generic负ACK时，先枚举其折叠的pre-submit、wait、reclaim与业务读拒路径，不按短延迟择支或推rawread执行。核TLS的实际writer、owner线程和同次read-sequence；后读别线程或独立atomic值不能恢复旧cause。将executor-running timeout放回same-ticket真实循环核终态，empty optional不证明executor入口。模型给的line/function/branch anchor必须逐项回同份完整冻结原文独核。[经owner核准的通用事实](../docs/evidence/http-generic-negative-ack-source-analysis-boundaries.json)只增加审阅规则，不增加live查询、重试、编测或部署权限。
+
+
+诊断source question要沿真实serialization核wire字段，early-return默认DTO值不能当测量态；mailbox生命期须核对象构造/销毁scope，不按连接名推reset。generic错误或短耗时不能推出submit成功、owner已观察或选失败支。[仅四条经owner批准的通用教训](../docs/evidence/http-default-diagnostics-lifetime-boundaries.json)不增加运行权限。

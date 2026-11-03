@@ -1369,3 +1369,10 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [普通 HTTP 只读证据审计器](evidence/2026-11-03-http-offline-evidence-auditor.json)交付：2真实STOP/外层JSON均有效，但实施whole拒0代码，owner接管；counter仅有限合同核对。15项独立合成检查通过，并只读核4份既有回复，原件SHA保。工具将finish/DONE、外层JSON、CONTENT/SSE原样与LF投影、记录指标来源和语义审阅分开；实际STOP反审外层有效纠正了人工格式误判，length仍整弃。初symlink权限跳过/后合成reparse检查与owner过宽raw相等断言保留，active/净省工未知。见[入口与读取界限](http-evidence-audit.md)，不新增模型重发或业务权限。
+
+
+[内部diagnostics/default/lifetime通用边界](evidence/http-default-diagnostics-lifetime-boundaries.json)只含owner核准四条：内部结构不等于wire、early return默认值不等于测量态、mailbox寿命按实际构造scope而非连接名、generic error/耗时不证明submit或owner观察。没有公开原incident或授新执行权限。
+
+[ordinary command兼容性有限negative](evidence/2026-11-03-http-ordinary-command-compatibility-negative.json)与[格式勘误](evidence/2026-11-03-http-ordinary-command-format-erratum.json)同发：length实施稿外层无效；STOP反审外层JSON有效，末句/推理问题不能叫JSON坏。后半现有pure byte API兼容风险仅有限sourcecorroboration、非blind新发现，前半自反，算法/code0；问题不据此宣unsafe或最优。后继实际新合同另案。
+
+[allocation failure-cell正式后见](evidence/2026-11-03-http-allocation-failure-cell-later-formal.json)只追加f65c7ef4、两payload raw/EOF精等与onlywrapper同四console组1P；不加第五组，不回写原pending，writer stage模板错误独立、0新HTTP/旧绿重跑或运行信用。

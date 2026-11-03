@@ -1,0 +1,128 @@
+{
+  "schema": "local-model-operations.owner-approved-public-case/v1",
+  "mode_id": "http-candidate",
+  "case": "ordinary-command-pure-data-compatibility370",
+  "at_utc": "2026-11-03T01:04:20.994156+00:00",
+  "approval_scope": "Only this complete reviewed summary is approved for public publication; raw sources, requests, content and machine evidence stay private.",
+  "real_task": "Investigate a narrow decoded-command DATA cache in a measured slow ordinary append path while retaining public compatibility and all physical-read authority checks.",
+  "configuration": {
+    "source": "local-model-operations/config/executor.json",
+    "sha256": "28315bd0353e2a75282a6a2844940c2286259fe17af72193ed8df54442e7ba70",
+    "base_url": "http://192.168.1.11:8080/v1",
+    "model": "qwen38-coder",
+    "layout": "Fixed three-message ordinary HTTP"
+  },
+  "input": {
+    "whole_current_files": 23,
+    "physical_bytes": 459766
+  },
+  "requests": [
+    {
+      "role": "implementation",
+      "actual_source_prefix_reconstructed_equal": true,
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "max_tokens": 4000,
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "POST_BEGIN": "2026-11-02T23:58:16.777345+00:00",
+      "END": "2026-11-02T23:58:46.012351+00:00",
+      "attempts": 1,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "outer_JSON_syntax": {
+        "valid": false,
+        "outer_type": null,
+        "error": {
+          "message": "Unterminated string starting at",
+          "line": 3,
+          "column": 13
+        }
+      },
+      "TTFT_seconds": 1.785492199996952,
+      "total_seconds": 29.235106100008124,
+      "usage": {
+        "prompt_tokens": 95889,
+        "completion_tokens": 4000,
+        "total_tokens": 99889
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "counter",
+      "actual_source_prefix_reconstructed_equal": true,
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "max_tokens": 3500,
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "POST_BEGIN": "2026-11-02T23:58:16.778199+00:00",
+      "END": "2026-11-02T23:58:27.174934+00:00",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "outer_JSON_syntax": {
+        "valid": true,
+        "outer_type": "dict",
+        "error": null
+      },
+      "TTFT_seconds": 2.085462599992752,
+      "total_seconds": 10.3967043000157,
+      "usage": {
+        "prompt_tokens": 95926,
+        "completion_tokens": 912,
+        "total_tokens": 96838
+      },
+      "cached_tokens": null
+    }
+  ],
+  "owner_finding": "A new activeSession requirement would break the existing public pure byte-derived decode API: ordinary decoding with an escaped or stale borrowed Session previously succeeds. The source oracle rejected this owner-proposed gate before any production patch. An in-memory cache-use qualification with the original strict fallback is a separate later task (374), not adoption of 370.",
+  "oracle_independence_limit": "This is source-based before-candidate semantic oracle, not blind discovery from zero contextual requirements; Root summarized the compatibility concern but no rawcandidate/trace supplied.",
+  "adoption": {
+    "whole_answer": 0,
+    "algorithm_or_code": 0
+  },
+  "source_software_formal_runtime_SAVE": {
+    "production_delta": 0,
+    "new_Test": 0,
+    "Java": 0,
+    "formal": 0,
+    "loaded": 0,
+    "SAVE_or_speed": 0
+  },
+  "cost": {
+    "source_oracle_marked_wall_seconds": 529.655153,
+    "full_task_start": null,
+    "owner_prepare_active_seconds": null,
+    "owner_review_active_seconds": null,
+    "current_inflight": 0,
+    "global_concurrency": null,
+    "net_owner_cost_reduction_proven": false
+  },
+  "boundary": [
+    "STOP and SSE DONE do not establish valid JSON or semantic correctness.",
+    "The length answer is rejected whole; inspection for syntax classification does not make its partial algorithm adoptable.",
+    "The oracle was frozen before candidate source, but the owner had already summarized the compatibility concern; it is not design blind.",
+    "No task-family concurrency target, backend cached-token benefit or saved-day throughput gain is established."
+  ]
+}
