@@ -1740,3 +1740,6 @@ Owner独立SQLite库经8项新无网络测试，包括12进程原子争3个sourc
 
 
 - Owner-approved followups: [PublicNumbers two-source-role outcomes](evidence/2026-11-03-m5-publicnumbers76-approved.txt), [Reader two DATA methods software cutoff](evidence/2026-11-03-m4-reader-data-software-approved.json), and [byte-key later formal tuple](evidence/2026-11-03-m0-driver-bytekey587-formal-approved.json). Original pending and draft cutoffs stay intact; later publication does not add POST, unique methods or validation. No Runtime or speed credit.
+
+
+- Additional approved cutoffs: [Reader later formal](evidence/2026-11-03-m4-reader-data-formal-approved.json), [container new model-witness and owner-Test source](evidence/2026-11-03-m5-container-owner-test82-approved.txt), and [B374270 source cohort](evidence/2026-11-03-m3-b374270-source-approved.json). Later formal data does not add validation; owner-Test source retains its zero-P cutoff; 17 complete source responses and short peak7 remain distinct from software and actual deployment. Original pending/draft bodies remain exact.
