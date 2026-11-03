@@ -156,21 +156,21 @@ class NoModelRedirect(urllib.request.HTTPRedirectHandler):
 def network_transport(config):
     """Choose a per-dispatch opener; never change environment/global urllib state.
 
-    Omitted routing retains historical environment-proxy behavior. Direct routing
-    must explicitly name the exact endpoint host, and refuses all redirects.
+    Omitted routing defaults to direct access to the trusted configured host.
+    Only explicit environment mode inherits proxies. Direct mode refuses redirects.
     This records selected client policy, not measured remote socket peer.
     """
     network = config.get("network", {})
     if not isinstance(network, dict):
         raise ValueError("network must be an object")
-    mode = network.get("proxy_mode", "environment")
+    mode = network.get("proxy_mode", "direct")
     if mode == "environment":
         return urllib.request.urlopen, {
             "proxy_mode": "environment", "actual_peer": "UNKNOWN"}
     if mode != "direct":
         raise ValueError("Unsupported network proxy_mode")
     url = urllib.parse.urlsplit(config["base_url"])
-    host = network.get("direct_host")
+    host = network.get("direct_host", url.hostname)
     if (not isinstance(host, str) or not host or host != host.strip()
             or host.lower() != url.hostname or url.scheme not in ("http", "https")
             or url.username is not None or url.password is not None

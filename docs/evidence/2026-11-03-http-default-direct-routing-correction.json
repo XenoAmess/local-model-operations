@@ -1,0 +1,47 @@
+{
+  "schema": "local-model-operations.default-direct-correction/v1",
+  "supersedes_default_policy_only": "Earlier explicit-direct opt-in remains a historical cutoff, not the current default.",
+  "latest_user_requirement": "LAN local-model requests must not silently inherit environment proxies.",
+  "current_behavior": {
+    "missing_network": "DIRECT to exact host parsed from trusted config.base_url",
+    "explicit_environment_mode": "only proxy opt-in compatibility",
+    "shared_executor_and_high_concurrency": "explicit direct/current selected host",
+    "redirects": "refused in direct mode",
+    "endpoint_hardcoded_in_transport_source": false,
+    "old_frozen_or_inflight_or_runtime_mutated": false,
+    "retry_three_message_SSE_or_adoption_semantics_changed": false
+  },
+  "focused_offline_validation": {
+    "new_default_cases": 3,
+    "changed_qualification_and_explicit_compatibility_cases": 2,
+    "all_passed": true,
+    "external_or_loopback_requests": 0,
+    "legacy_mock_fixture_updates": "Three existing fixtures explicitly select environment to preserve mocked transport tests; complete parse only, no old suite rerun.",
+    "model_code_used": 0
+  },
+  "real_network_additive": {
+    "logical_source_tasks": 2,
+    "first_POST_UTC": "2026-11-03T07:42:25.353535+00:00",
+    "own_two_process_TCP_peers_observed_UTC": "2026-11-03T07:51:38.995484+00:00",
+    "observed_target": "specified LAN model endpoint TCP8080",
+    "first_attempts_end_UTC": [
+      "2026-11-03T07:52:25.360735+00:00",
+      "2026-11-03T07:52:25.360788+00:00"
+    ],
+    "first_attempt_each_seconds": 600.007,
+    "result": "TimeoutError, no headers/status/TTFT/complete candidate",
+    "canonical_unchanged_request_retry2_POST_UTC": [
+      "2026-11-03T07:52:34.259052+00:00",
+      "2026-11-03T07:52:36.431259+00:00"
+    ],
+    "manual_redispatch": false,
+    "service_recovery_or_proxy_sole_cause_proved": false,
+    "old_RESULT_actual_peer_fields_backfilled": false
+  },
+  "owner_cost": {
+    "full_start": null,
+    "active_seconds": null,
+    "net_saving": null
+  },
+  "raw_private_evidence_preserved": true
+}

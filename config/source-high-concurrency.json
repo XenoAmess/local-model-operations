@@ -60,5 +60,9 @@
     ],
     "scope": "model HTTP requests only; never replay downstream business actions",
     "on_partial_stream": "retain failed attempt, discard candidate, retry the complete unchanged request"
+  },
+  "network": {
+    "proxy_mode": "direct",
+    "direct_host": "192.168.1.11"
   }
 }

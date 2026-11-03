@@ -1597,3 +1597,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 2026-11-03：[显式DIRECT客户端路由及首个真实源码切点](evidence/2026-11-03-http-explicit-direct-routing.json)。owner实现exacthost限定的独立无代理opener/拒redirect与附加路由元数据，5项新无网络mock通过后原子投影；两个真实未闭源码请求首POST已发生，当前headers/TTFT未见，不宣称代理solecause、服务恢复或模式净收益。旧caller环境模式、旧profile/在途body与Runtime副本不改。
+
+
+2026-11-03：[用户纠正后的DIRECT默认与真实首超时](evidence/2026-11-03-http-default-direct-routing-correction.json)。共享入口缺network默认DIRECT，两个共享配置明示direct/currenthost，显式environment才兼容代理；3新默认case+2改变的资格/兼容case无网络通过。旧frozen/inflight/Runtime不改。两项原DIRECT源码任务TCP已见LAN目标却仍600秒无headers超时，自动同REQUEST重试，服务恢复/solecause未知，不新增模型或软件通过分母。

@@ -47,6 +47,7 @@ class ContentBytesTests(unittest.TestCase):
         self.addCleanup(temp.cleanup)
         self.root = Path(temp.name)
         self.config = copy.deepcopy(CALL.read_json(CALL.DEFAULT_CONFIG))
+        self.config["network"] = {"proxy_mode": "environment"}  # Mocked urlopen fixture.
         self.config["base_url"] = "http://offline.invalid/v1"
         self.config["transient_retries"].update(maximum_attempts=2, backoff_seconds=[0], jitter_ratio=0)
         self.spec = self.root / "spec.json"

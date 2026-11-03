@@ -28,6 +28,7 @@ class JsonSyntaxTests(unittest.TestCase):
     def setUp(self):
         t=tempfile.TemporaryDirectory();self.addCleanup(t.cleanup);self.root=Path(t.name)
         self.config=copy.deepcopy(json.loads(CONFIG.read_bytes()))
+        self.config["network"]={"proxy_mode":"environment"}  # Mocked urlopen fixture.
         self.config['base_url']='http://offline.invalid/v1'
         self.config['transient_retries'].update(maximum_attempts=1,backoff_seconds=[],jitter_ratio=0)
         self.request=self.root/'spec.json'

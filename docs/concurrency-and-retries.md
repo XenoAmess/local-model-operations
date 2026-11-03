@@ -100,3 +100,8 @@ usage 可能在无有效 content 的 chunk 中出现，即使 `choices` 非空�
 Python默认urllib可从当前环境代理表选择路由；局域网地址未进入bypass时，不能先验认定请求直达模型服务。新[direct源码profile](../config/source-high-concurrency-direct.json)仅为显式后继请求禁用该独立opener的代理并拒绝redirect，不更换endpoint，不修改全局环境/urllib opener或旧任务。历史environment模式保留；request/RESULT附加字段兼容原消费者，fixed3/SSE/finish/语法/采用/重试条件不变。
 
 代理选择、真实TCPpeer、服务可达与应用响应是分别的证据。默认代理存在加上无响应仅是具体可核线索；新直连无headers时同样保UNKNOWN，不从异时请求做严谨AB或归唯一根因。服务/Runtime实际caller仍由各owner控制，不为源码路由修复重发旧业务。
+
+
+### 后续用户纠正：共享默认必须DIRECT
+
+上段历史opt-in切点已被用户新指令覆盖。当前无network配置也默认独立DIRECT opener到可信base_url的exacthost，拒绝所有redirect；`executor.json`和`source-high-concurrency.json`明示DIRECT/currenthost，独立direct profile保留。只有显式`proxy_mode=environment`才继承环境代理。不硬编码路由目的地、不改endpoint、不修改全局环境；旧frozen原件/在途进程与Runtime副本不回写或自动迁移。首次DIRECT实际TCP peer已见指定LAN端点，但两请求仍600秒无headers超时，因此默认接入修复和服务响应问题继续分别记录。

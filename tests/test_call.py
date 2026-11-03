@@ -87,6 +87,7 @@ class CallerTests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
         self.config = copy.deepcopy(call.read_json(call.DEFAULT_CONFIG))
+        self.config["network"] = {"proxy_mode": "environment"}  # Historical transport fixture.
         self.config["transient_retries"]["backoff_seconds"] = [0] * 5
         self.config["transient_retries"]["jitter_ratio"] = 0
         self.config["timeouts"] = {"read_seconds": 2, "total_seconds": 5}

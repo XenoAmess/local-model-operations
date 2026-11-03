@@ -64,7 +64,7 @@ class DirectRoutingTests(unittest.TestCase):
         self.assertEqual('VALID',result['json_syntax']['status']);self.assertFalse(result['adopted'])
 
     def test_wrong_or_unqualified_direct_endpoint_rejected_before_claim(self):
-        variants=[{'proxy_mode':'unsupported'}, {'proxy_mode':'direct'},
+        variants=[{'proxy_mode':'unsupported'}, {'proxy_mode':'direct','direct_host':''},
                   {'proxy_mode':'direct','direct_host':'different.example'},
                   {'proxy_mode':'direct','direct_host':'192.168.1.11 '},None]
         with mock.patch.object(CALL.urllib.request,'build_opener') as factory:
@@ -82,8 +82,8 @@ class DirectRoutingTests(unittest.TestCase):
         self.assertIsNone(handler.redirect_request(None,None,302,'',{},'http://different.example/'))
         self.assertIsNone(handler.redirect_request(None,None,307,'',{},'http://192.168.1.11/other'))
 
-    def test_missing_network_retains_environment_transport(self):
-        config=copy.deepcopy(self.config);del config['network']
+    def test_explicit_environment_retains_environment_transport(self):
+        config=copy.deepcopy(self.config);config['network']={'proxy_mode':'environment'}
         with mock.patch.object(CALL.urllib.request,'urlopen') as existing, \
              mock.patch.object(CALL.urllib.request,'build_opener') as factory:
             transport,meta=CALL.network_transport(config)
