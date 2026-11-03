@@ -1,0 +1,37 @@
+{
+  "approved_at_utc": "2026-11-03T09:13:55.823697+00:00",
+  "approval": "M5 author approves exactly these portable payload bytes for Models publication; no private raw/code paths or prompts included.",
+  "scope": "New immutable text-bound predicate; independent of prior JSON parser trials and software passes.",
+  "original_only_oracle": "String is final. For nonempty UTF16 length<=32768, codePointCount<=32768 follows even before surrogate qualification. Keep the entire original surrogate walk and keep original code-point counting for all longer strings.",
+  "real_rejected_alternatives": [
+    "Replacing the bound with only UTF16 length rejects32768 supplementary characters that were accepted before.",
+    "Fusing an early surrogate failure into counting changes the first error for an early unpaired surrogate followed by too many code points.",
+    "Latin1 code-point counting already returns a length difference in the pinned JDK source, so a blanket linear-scan speedup claim is false."
+  ],
+  "implementation": "One executable literal proposed by an offline source agent, reviewed by parent; no local model HTTP or local model code contribution. No new methods, fields, imports, dependency types or class-family names.",
+  "source_before": {
+    "bytes": 14844,
+    "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2"
+  },
+  "source_after_raw_equals_formal": {
+    "bytes": 14890,
+    "sha256": "5c5d41b6322d55ed64080b5dc601a578e797722496695e2b23c7227735568631"
+  },
+  "formal_commit": "3f9b0aeeee25d330d554a09f9d920f26ff772250",
+  "source_proof": "75392 bounded Python source-model cases showed no difference; they are not Java test passes or OS/VM observations.",
+  "software": "First one-TU compile0.732010s, two pre-existing family names, empty stdout/stderr, pins unchanged.0newTest/0RUN; a mirror test was deliberately not added for a pure predicate with no new behavioral boundary.",
+  "cost": {
+    "source_agent_first_PREP_to_source_review_wall_seconds": 420.756112,
+    "marked_PREP_to_first_strict_end_wall_seconds": 2221.961403,
+    "source_ready_to_first_strict_end_wall_seconds": 1949.885517,
+    "compiler_process_elapsed_seconds": 0.73201,
+    "owner_active_seconds": null,
+    "earlier_unmarked_preparation_seconds": null
+  },
+  "cost_limit": "Overlapping windows are not added; compiler elapsed is not owner labour or OS CPU. Source discovery, review, preparation, scheduling and waiting stay in marked wall.",
+  "preparation_failure": "The source agent initially assumed CRLF; its pre-mutation anchor assertion failed. Actual LF source was then used, and the failed assertion remains separately retained. No software compile or source mutation occurred in that failed preparation.",
+  "local_model_requests_for_this_literal": 0,
+  "support_boundary": "The exception support class was used only as an existing binary API; whole source-to-class and live loader mapping remain unknown.",
+  "runtime_adopted_at_payload_cutoff": false,
+  "no_performance_credit": "Only structural UTF16 scan avoidance is established. Actual coder distribution, allocations, CPU, heap, GC, end-to-end wall and saved-day benefit are unmeasured; this is not a measured resolution of the larger planning delay."
+}

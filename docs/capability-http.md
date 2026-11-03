@@ -1638,3 +1638,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 2026-11-03：[待派任务容量与owner轮转](evidence/2026-11-03-http-pool-admission-owner-capacity-fairness.json)是同Ops源码parent的独立组件。原完整JSON/Python候选因三项实际纯函数反例拒收，owner重写通过7个新离线测试；无新增HTTP、跨进程lease或server优先slot授信。
+
+
+2026-11-03：[Authority同组后见采用](evidence/2026-11-03-http-authority-receipts-later-group-adoption.json)保源码/首软件/Maven/live类四层，0新SAVE或单叶提速；[immutable text predicate](evidence/2026-11-03-offline-immutable-text-bound-predicate.json)是0本地HTTP的离线source-agent字面候选，75392 Python源模型例不作JavaP，只有首1TU0/0RUN。另 [首60工作岗状态样本](evidence/2026-11-03-offline-workforce-first60-status-sample.json)来自真实orchestrator 65注册/60running/5完成的单截面，后续回落另记，不宣持续60、CPU利用或HTTP在途，也不加模型/Test分母。
