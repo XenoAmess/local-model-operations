@@ -1,0 +1,28 @@
+{
+  "schema": "portable-source-production-first-later/v1",
+  "unit": "source-specific COPY call-frame adapter",
+  "stage": "first production compile only; tests and formal publication pending at this cutoff",
+  "change": "A narrow adapter retains the actual caller and child stack relationship, complete represented volatile/nonvolatile state, explicit DF and partial MXCSR for two source-proven COPY sites, then invokes the existing COPY producer once. It does not manufacture an additional CALL push or assume FP preservation.",
+  "source": {"bytes": 3694, "sha256": "42c64052315639fb9e844a6148b68ee714bde4abac0256e29cb5ece610af66a1"},
+  "preparation": "An existing healthy peer prepared only the single source's CONFIG, structured args and mature runner in its exclusive D output. The peer did not run Java, claim a slot or alter source. The Native owner independently checked and executed the prepared material. Two pre-output trailing-blank checks are retained as preparation costs.",
+  "actual_first_compile": {
+    "begin_utc": "2026-11-03T19:32:23.090501+00:00",
+    "end_utc": "2026-11-03T19:32:24.734862+00:00",
+    "process_seconds": 1.6437610000139102,
+    "new_production_TUs": 1,
+    "actual_new_outputs": 2,
+    "exit_code": 0,
+    "timeout": false,
+    "input_pins_unchanged": true,
+    "prepared_input_pins": 87,
+    "ordered_CP_entries": 55,
+    "stdout_bytes": 0,
+    "stderr_bytes": 0,
+    "CPU": 1,
+    "heap_MiB": 192,
+    "timeout_seconds": 20
+  },
+  "accounting": "This is one production phase, with no Test, no old ancestor source recompilation and no old case rerun. Process duration is not task-active time or the total preparation/review/wait wall clock. Active time remains UNKNOWN.",
+  "later_owner_read_error": "A parent DATA-read cell had a copied-variable ReferenceError before dispatching any shell read. The next cell used the complete fixed reader and read the preparation receipt and runner. This orchestration error is separate from source/model/preparer/compiler outcomes; no originals were rewritten.",
+  "limits": "Needed existing binary pins/source projections do not create missing historical first class hashes. Production compilation does not establish software behavior of the new manual, higher whole callers, current loaded state, Native hardware semantics or speedup. Earlier source/PreparedOnly cuts remain unchanged."
+}

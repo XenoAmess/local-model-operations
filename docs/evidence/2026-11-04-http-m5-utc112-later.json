@@ -1,0 +1,118 @@
+{
+  "kind": "APPROVED_PORTABLE_SOURCE_SOFTWARE_FORMAL_UTC112",
+  "parent": "m5-decision-metrics-time112-public-test115",
+  "permission": "Models may publish this exact payload. No raw prompt/response/source body, private absolute paths, machine/Game identifiers, full launch argv or recording is approved.",
+  "source_problem": "An Instant consumer first validated UTC through an OffsetDateTime-based String boundary, then parsed the original returned String again as Instant. These are different parser languages and exception layers.",
+  "selected_owner_change": "For only a bounded canonical ASCII UTC shape and a successful Instant parse, return that Instant. All negative shape cases, rejected instants and special forms still execute the exact original two-stage expression. Do not normalize a String differently or broaden the fast path to every form accepted by only one parser.",
+  "configuration_provenance": {
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "fixed_messages_each": 3,
+    "thinking": false,
+    "stream": true,
+    "response_format": "json_object",
+    "caller_version": "NOT_RECONSTRUCTED_IN_THIS_NOTE; actual request hashes below identify the frozen inputs, not latest shared caller"
+  },
+  "model_accounting": {
+    "actual_POST": 3,
+    "retry_POST": 0,
+    "implementation_and_counter_complete_STOP": 2,
+    "public_Test_length_whole_rejected": 1,
+    "R2": 0,
+    "model_source_and_Test_code_adopted": 0,
+    "owner_implementation_and_Test": "Whole owner-authored; not partial-stream repair",
+    "semantic_limits": "The implementation answer supplied no edits or concrete counter for the restricted successful canonical subset. The counter reviewed the String-returning validator rather than the actual outer Instant consumer and overstated wrapped exceptions. Its useful parser-language distinction was independently preserved. The length-limited Test body was not patched into a candidate.",
+    "roles": [
+      {
+        "role": "implementation",
+        "request_sha256": "07225292eb4b15dd0001f94a279846016c623a6de7e40c5309ee758cb7efec7b",
+        "source_message_sha256": "d541903bd2252d197625c46f7b80c9d36c439e8bf48b84e2d9884ff74df8e11d",
+        "source_UTF8_bytes": 1809775,
+        "max_tokens": 3500,
+        "finish_reason": "stop",
+        "SSE_DONE": true,
+        "strict_syntax_record": "VALID",
+        "whole_disposition": "WHOLE_NOT_ADOPTED_NO_EDITS",
+        "TTFT_seconds": 144.8264538999938,
+        "total_seconds": 247.92130359998555,
+        "usage": {
+          "prompt_tokens": 453829,
+          "completion_tokens": 494,
+          "cached_tokens": null
+        },
+        "source_or_Test_lines_adopted": 0
+      },
+      {
+        "role": "counter",
+        "request_sha256": "4cbf5c3b8633dee1a8746e87e1009a890b337f80129e58841f5d9e38abe3a2ea",
+        "source_message_sha256": "d541903bd2252d197625c46f7b80c9d36c439e8bf48b84e2d9884ff74df8e11d",
+        "source_UTF8_bytes": 1809775,
+        "max_tokens": 3500,
+        "finish_reason": "stop",
+        "SSE_DONE": true,
+        "strict_syntax_record": "VALID",
+        "whole_disposition": "WHOLE_NOT_ADOPTED_WRONG_TARGET_PIPELINE",
+        "TTFT_seconds": 218.56069109999225,
+        "total_seconds": 392.1370494000148,
+        "usage": {
+          "prompt_tokens": 453763,
+          "completion_tokens": 1349,
+          "cached_tokens": null
+        },
+        "source_or_Test_lines_adopted": 0
+      },
+      {
+        "role": "public-test",
+        "request_sha256": "05f563f8e3866bfe77856c26f6fba7f2f776b21c45078fd4381173308c761c62",
+        "source_message_sha256": "d541903bd2252d197625c46f7b80c9d36c439e8bf48b84e2d9884ff74df8e11d",
+        "source_UTF8_bytes": 1809775,
+        "max_tokens": 5000,
+        "finish_reason": "length",
+        "SSE_DONE": true,
+        "strict_syntax_record": "INVALID",
+        "whole_disposition": "LENGTH_WHOLE_DISCARD",
+        "TTFT_seconds": 148.7084312000079,
+        "total_seconds": 426.02901189998374,
+        "usage": {
+          "prompt_tokens": 453838,
+          "completion_tokens": 5000,
+          "cached_tokens": null
+        },
+        "source_or_Test_lines_adopted": 0
+      }
+    ]
+  },
+  "software": {
+    "production_TUs_first": 1,
+    "new_Test_TUs_first": 1,
+    "first_distinct_Jupiter_methods_PASS": 3,
+    "production_outputs": 11,
+    "Test_outputs": 1,
+    "dynamic_coverage": "Public producer and two public decoder paths, fractions and wide years, field failure priority, calendar causes, and two-stage special-form failures. A source fixture count is not another JUnit denominator.",
+    "first_process_seconds": [
+      3.22108930000104,
+      3.0137996000121348,
+      3.0652622999914456
+    ],
+    "process_sum_seconds": 9.30015120000462,
+    "runtime_or_newloader_or_speed_qualification": false
+  },
+  "cost": {
+    "source_cut_to_first_JUnit_END_marked_wall_seconds": 8575.912667,
+    "production_END_to_Test_BEGIN_seconds": 42.962546,
+    "Test_END_to_JUnit_BEGIN_seconds": 12.815602,
+    "owner_active_seconds": null,
+    "whole_discovery_wall_seconds": null,
+    "limits": "All recorded preparation/resource/coordination waits remain in marked wall. Parallel HTTP durations are not added as elapsed wall; process wall is not CPU or owner active time."
+  },
+  "formal": {
+    "commit": "6a411c0058189d4398d742c3698e992724076c21",
+    "leaves": 2,
+    "production_and_Test_raw_equal_formal": true,
+    "new_compile_or_RUN_for_publication": 0,
+    "original_source_ready_and_pending_cuts_unchanged": true,
+    "structural_change": "Private helper descriptor added; not claimed compatible with body-only redefinition."
+  },
+  "lesson": "Freeze the real outer consumer expression and first-failure layers. A generic language mismatch is not a counterexample to a restricted successful subset, and complete valid JSON is not a qualified implementation. Keep operator rescue, model output, software PASS, formal publication and runtime outcomes separate.",
+  "runtime_loaded_or_performance_credit": false
+}

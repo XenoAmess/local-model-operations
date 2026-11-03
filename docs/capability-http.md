@@ -2061,3 +2061,10 @@ The [explicit opt-in caller](request-registry.md) adds durable BEGIN/END recordi
 ## 2026-11-04：私有writer资格、whole见证与投递类型边界
 
 [M0私有snapshot759](evidence/2026-11-04-http-m0-private-snapshot759-source.json)保两个完整答复整拒及仍未选择实现的owned设计；[M2 whole660](evidence/2026-11-04-http-m2-660-source.json)保91实体、length整弃与owner三源码单元，不授软件。[M6 IDIV267／WORD265](evidence/2026-11-04-http-m6-idiv267-word265-source.json)保错误signed128构造、RIP反审错误与截断整弃；[M6 later-call266](evidence/2026-11-04-http-m6-later-call266-source.json)分开四次真实请求、完整候选拒收、direct-drop字段类型错误与约421秒准备窗。qualified publisher原有类型检查没有放行该dict，后继修同一逻辑任务的入口形状不算HTTP重试。各小峰与完整wall／未知主动成本分列。[Known04正式后见小附页](evidence/2026-11-04-http-m0-known-conservative04-formal-later.json)只追加正式tuple，不回写原pending正文或授Runtime／速度。
+
+
+## 2026-11-04：必要首验后见、负向源资格与当前物理基线
+
+[M3 278软件后见](evidence/2026-11-04-http-m3-278-software-later.json)保首次classpath缺失失败及只修classpath后的两case成功，[正式附页](evidence/2026-11-04-http-m3-278-formal-later.json)不改原pending；[289生产首编](evidence/2026-11-04-http-m3-289-production-first-later.json)只授一个production TU，[310 whole源码](evidence/2026-11-04-http-m3-310-source.json)分开raw grow、部分方法和owner完整替换，不授编测。
+
+[M5 normalization113](evidence/2026-11-04-http-m5-normalization113-later.json)因现formal已inline复用，最终只发新Test；[strict114负向附页](evidence/2026-11-04-http-m5-strict114-negative-later.json)保默认三绿却拒public decorator可见差异；[UTC112](evidence/2026-11-04-http-m5-utc112-later.json)只在成功canonical子域用快路，保两层原fallback、三个模型角色零代码及owner三项首验／正式。旧length语法记录保原，不授完整候选语义。[M6当前Dynamic对照](evidence/2026-11-04-m6-current-dynamic270.json)只证当前物理before相同、既有三insert可复用，零新HTTP／Test／采用，不计新模型case。各原切点、失败和全wall／未知主动成本均保，不授Runtime或速度。
