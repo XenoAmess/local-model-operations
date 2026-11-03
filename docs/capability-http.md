@@ -1787,3 +1787,12 @@ These later software facts do not change the original source-stage pending cuts 
 [Exact owner-approved source-stage metadata](evidence/2026-11-03-guided-allocation-and-tail-entry-source-stage.json) records four real POST/END requests, all complete stop/DONE, with a four-request peak lasting41.710653 seconds. Three strongly guided decoded classes totaling7133 bytes were selected unchanged; the planned-source counter did not inspect the actual candidate and supplies no independent literal oracle. The earlier rejected requirements answer stays a separate preparation role. Compilation, new software witnesses and formal publication were pending at this cut.
 
 The frozen body's compact routing wording refers to the unchanged configuration of six total attempts including the first, at most five transient retries. It does not add six retries after the first. Source selection, finite software qualification, natural scenarios, runtime loading and measured speed remain distinct.
+
+
+## 2026-11-03 Current Snapshot local reuse and limited prefix tests
+
+[Owner-approved source and software metadata](evidence/2026-11-03-persistent-current-snapshot-local-reuse.json) records two complete stop replies with no model code or whole safety approval adopted. The owner kept the first successful projection and its original callbacks before local reuse, with fallback and ending-frame observations separate. A later correction names the real OpportunityJson helper and withdraws the earlier encoding-budget saving claim.
+
+One production compile, one new manual compile and its two new public prefix cases first completed successfully; neither case is a LIFE memo-hit positive. The 10.6416292-second process sum, 29.6257094-second HTTP sum and4091.938691-second inclusive marker wall are different measures, with active labor unknown. Formal publication was pending at this frozen cut; no reducer/authority/runtime, instrumentation or speed acceptance follows.
+
+Separate later formal annotations for the [private quote](evidence/2026-11-03-private-json-quote-formal-later.json) and [public numeric message](evidence/2026-11-03-public-number-formal-later.json) preserve independent existing source regions. Their combined formal wholes differ from the first compiled producers and were not recompiled by publication; the same three and two owner Test methods are reused without new HTTP, methods or RUNs. These annotations do not change the Snapshot case or any original pending body.

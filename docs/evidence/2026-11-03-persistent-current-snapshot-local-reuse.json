@@ -1,0 +1,113 @@
+{
+  "schema": "portable-local-model-source-case/v1",
+  "case": "persistent-observe-current-snapshot-local-reuse",
+  "cutoff": "Software first compilation and two genuinely new public prefix cases complete; formal publication pending at this frozen cutoff.",
+  "problem": "Within one observe call, each completed LIFE receipt and the final view repeatedly derive the current-frame cooldown Snapshot. Ending frames are distinct and are never reused by this candidate.",
+  "actual_input": {
+    "complete_project_sources_per_request": 9,
+    "physical_complete_source_bytes": 146324,
+    "messages": [
+      "stable system",
+      "actual complete current source prefix",
+      "new role task"
+    ],
+    "owner_only_later_callees_not_claimed_sent": true,
+    "original_oracle_or_witness_sent": false
+  },
+  "model_mode": "Ordinary shared local HTTP; finite output, SSE, temperature0, thinking disabled, JSON object, direct routing and configured retries. No native OpenCode tool authority.",
+  "real_requests": [
+    {
+      "role": "implementation",
+      "POST_BEGIN_utc": "2026-11-03T12:26:11.672751+00:00",
+      "END_utc": "2026-11-03T12:26:26.953472+00:00",
+      "finite_output_tokens": 6500,
+      "TTFT_seconds": 7.051153900014469,
+      "HTTP_seconds": 15.280736400018213,
+      "usage": {
+        "prompt_tokens": 31490,
+        "completion_tokens": 984,
+        "total_tokens": 32474
+      },
+      "finish_reason": "stop",
+      "adoption": "WHOLE_CODE_AND_INDEPENDENT_SAFETY_APPROVAL_REJECTED"
+    },
+    {
+      "role": "counter",
+      "POST_BEGIN_utc": "2026-11-03T12:26:11.675637+00:00",
+      "END_utc": "2026-11-03T12:26:26.020614+00:00",
+      "finite_output_tokens": 4500,
+      "TTFT_seconds": 8.237559899978805,
+      "HTTP_seconds": 14.3449729999993,
+      "usage": {
+        "prompt_tokens": 31507,
+        "completion_tokens": 699,
+        "total_tokens": 32206
+      },
+      "finish_reason": "stop",
+      "adoption": "WHOLE_CODE_AND_INDEPENDENT_SAFETY_APPROVAL_REJECTED"
+    }
+  ],
+  "model_outcome": "Both whole-code/safety answers were rejected. They hoisted projection ahead of original callbacks/first-error ordering, assumed record graphs are transitively immutable, and memoized fallback unconditionally; the implementation also introduced an unrequested IOException contract. No second round or model code adoption.",
+  "owner_implementation": "Exactly three physical lines in the existing DriverPersistentPlanningState.observe body. The first original projection, Frame construction and view succeed before once-only graph qualification. Only that successful immutable Snapshot is retained in local variables. Uncertain public typed graphs execute the original full conversion each time; current and ending snapshots stay separate.",
+  "preserved": "All fresh archive, receipt, processed, canonical, state, Frame, evidence, source, reducer, persistence and encoding work remains at original positions. No fields, methods, public API or types added, no global or cross-call cache.",
+  "static_work": {
+    "K": "Number of successful new LIFE iterations reaching the original current-frame projection within this observe invocation.",
+    "qualified_K_at_least_1": "Current Snapshot projections K+1 become1; guard walks K+1 become2. Selected typed-node construction and Snapshot/War/list wrappers are reused. No parser, encoder or byte-budget check is removed.",
+    "K_zero": "Original one final projection and guard remain; only scalar local checks are added.",
+    "fallback_or_early_failure": "Original conversions remain; one extra pure guard can be paid with no realized savings. Snapshot retention lifetime is longer; GC peak and net benefit are unknown."
+  },
+  "owner_correction": "The first owner proof incorrectly called the helper DriverJson.encode/node and implied an encode-budget saving. An additive erratum corrects it to OpportunityJson.toNode; source bytes and frozen original evidence did not change.",
+  "independent_source_layers": "Original counter, immutable Snapshot producer closure, actual-candidate immutable review and cost/order review are finite source evidence. They are not an independent full oracle or measured speed proof.",
+  "new_software_witness": {
+    "cases": 2,
+    "kind": "Standalone public DATA main, not JUnit",
+    "actual_stdout": "PASS cases=2 observe_prefix_only=true memo_positive=false authority=false",
+    "covered": [
+      "Absent cooldown state returns empty without archive access.",
+      "Present state invokes actual loadMaterial; its exact failure precedes an invalid frame failure."
+    ],
+    "not_covered": [
+      "No completed LIFE memo-hit positive fixture.",
+      "No reducer equivalence, canonical/native authority or actual runtime adoption."
+    ],
+    "fake_private_issuer_noop_verifier_or_old_test_credit": false
+  },
+  "actual_first_processes": [
+    {
+      "kind": "only1prod",
+      "seconds": 4.913180200004717,
+      "exit_code": 0
+    },
+    {
+      "kind": "only1newTest",
+      "seconds": 3.421047700016061,
+      "exit_code": 0
+    },
+    {
+      "kind": "new2prefixcases",
+      "seconds": 2.3074013000004925,
+      "exit_code": 0
+    }
+  ],
+  "cost": {
+    "first_process_seconds_sum": 10.64162920002127,
+    "HTTP_seconds_sum_not_wall": 29.625709400017513,
+    "PREP_BEGIN_utc": "2026-11-03T12:22:33.751537+00:00",
+    "first_RUN_END_utc": "2026-11-03T13:30:45.690228+00:00",
+    "full_marker_wall_seconds": 4091.938691,
+    "wall_includes": "Preparation, analysis, other work, queue/coordination and all elapsed gaps; this is not active work or CPU.",
+    "owner_preparation_and_review_active_seconds": null,
+    "net_saving_seconds": null
+  },
+  "adoption_boundary": {
+    "model_implementation_code": 0,
+    "owner_existing_body_candidate": true,
+    "software": "Strict production and two limited prefix cases only",
+    "formal": "PENDING_AT_THIS_CUTOFF",
+    "combined_formal_whole_compilation": "NOT_CLAIMED",
+    "current_runtime": false,
+    "actual_instrumentation_or_index_qualification": false,
+    "measured_speed": false
+  },
+  "privacy": "This sanitized factual payload alone is approved for public operations evidence. Raw source, prompts, requests, local paths, bindings and private runtime evidence remain local."
+}
