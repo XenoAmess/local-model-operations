@@ -270,3 +270,15 @@ The 5935.296762-second owner wall, 2680-second peer wall and earlier 1754.368648
 [软件后见](evidence/2026-11-04-opencode-frozen-registry-cli-software-later.json)保首Ran4／2ok／2cleanup ERROR：owner Test未close连接，非模型或CLI候选失败。仅Test增closing import/context，四个Test body／断言与CLI6587字节均保原；三项受影响首验再全通过且无ResourceWarning，不重纯路径旧绿或registry9。最终4distinct来自原纯路径1＋新affected3，不说新完整4suite一次跑绿。两process合约5.1575403秒含原RED，非完整wall／主动工时或净收益。
 
 [冻结副本report工具](request-registry-snapshot.md)现按qualified源字节正常发表：独立CLI与显式env的manual witness，目标副本须先由owner闭合／consolidate／冻结，拒companion不证明无活writer。无activeDB、HTTP、Runtime自动接线或新执行；普通counter仍原案的1角色，旧source-round pending不回写。
+
+
+## 2026-11-04：实际新候选的精确读写域反审
+
+[原生工具与成本记录](evidence/2026-11-04-opencode-scoped-candidate-counter.json)：一个首次actual-candidate source counter角色，完整7份原源/合同/候选先后读取，9POST9END（8tool_calls+1STOP），HTTP合28.256587秒、CLI30.551718秒，reported110633+2828/cache未知。每reply6000、0relayretry，未设steps/总POST/整会话wall帽；真实assistant/tool历史不强套三消息。
+
+9次成功文件read、1次workspace目录read被精确白名单拒、1次独占report write；模型按已许可TASK/REVIEW路径续行，0放宽权限/命令/外部业务执行、0重复读取组。只证明这次已观察的文件/目录边界，parse成功不授全局sandbox或alias/symlink安全。source副本与原件前后全等。
+
+报告3个所谓blocker经运营owner完整源核均拒：API前提矛盾、持久化顺序误读/虚设consumer、自己承认无回归的诊断建议；0码/0Test改变，不R2，不把CLI0/报告产出当分析正确或softwarePASS。fulltask起点/active/净节省未知，准备与独立owner后审不由28秒HTTP反推；一个原生角色的9请求不计作9业务case，也不与一条普通候选响应直接比效率。
+
+
+同案后到的原source owner独立有限审阅也逐条拒收3finding，未把运营owner先判定当oracle。23:24:01→23:26:49的168秒审阅墙钟与30.551718秒CLI/28.256587秒HTTP分别保留，active仍未知；0新请求/源改/重验/软件信用，private raw不搬。原4431字节case metadata保持原cut，不倒写。

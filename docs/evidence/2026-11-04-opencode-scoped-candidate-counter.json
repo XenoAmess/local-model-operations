@@ -1,0 +1,94 @@
+{
+  "case_id": "native-scoped-candidate-counter-20261104",
+  "mode_id": "opencode-native-tools",
+  "task": "A first third-party source counter of a new two-leaf owner candidate, using complete original source/schema and an explicit public API contract before reading the candidate and its visible DATA Test. No previous model response or owner adjudication was supplied.",
+  "source_scope": {
+    "complete_readonly_files": 7,
+    "candidate_visible_not_blind_oracle": true,
+    "only_writable_artifact": "One isolated review report",
+    "business_source_modified_or_executed": false
+  },
+  "client": {
+    "installed_OpenCode": "1.19.5",
+    "daily_maintenance_cached": true,
+    "fresh_session": true,
+    "actual_effective_config_checked_before_launch": true,
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "thinking": false,
+    "per_response_max_tokens": 6000,
+    "per_HTTP_seconds": 180,
+    "relay_retry": 0,
+    "automatic_fallback": false,
+    "steps_cap": null,
+    "total_POST_cap": null,
+    "whole_session_wall_cap": null,
+    "history": "Actual assistant/tool messages; no response_format or fixed-three-message candidate layout"
+  },
+  "actual": {
+    "POST": 9,
+    "END": 9,
+    "open_at_closed_cut": 0,
+    "HTTP_status": "All200",
+    "finish_counts": {
+      "tool_calls": 8,
+      "stop": 1
+    },
+    "all_DONE_and_complete": true,
+    "first_POST_UTC": "2026-11-03T23:19:20.089037+00:00",
+    "last_END_UTC": "2026-11-03T23:19:48.507907+00:00",
+    "native_CLI_exit": 0,
+    "native_CLI_wall_seconds": 30.551718,
+    "HTTP_sum_seconds": 28.256587200099602,
+    "prompt_tokens_reported_sum": 110633,
+    "completion_tokens_reported_sum": 2828,
+    "cached_prompt_tokens": null,
+    "scope_peak": 1,
+    "global_Runtime_cloud_or_backend_state": "UNKNOWN_OR_SEPARATE"
+  },
+  "TTFT": {
+    "first_effective_tool_delta_ms": [
+      505.7430999877397,
+      903.5450000083074,
+      1413.4723000170197,
+      1452.326600003289,
+      1424.392800021451,
+      983.7195000145584,
+      1272.4961999920197,
+      740.0649000192061
+    ],
+    "first_content_ms_in_final_response": 855.1490000099875,
+    "content_TTFT_for_tool_only_responses": null,
+    "content_and_tool_delta_are_recorded_separately": true
+  },
+  "tools": {
+    "successful_file_reads": 9,
+    "rejected_directory_read": 1,
+    "successful_report_write": 1,
+    "exact_repetition_groups": 0,
+    "recovery": "After all seven source reads, a workspace-directory read was denied by the exact read whitelist. The model then read the permitted task/report files and finished without permission changes or replaying HTTP.",
+    "shell_external_network_delegation_or_business_tools_executed": 0,
+    "observed_permission_boundary": "Exact known-file read and report write grants plus one actual directory denial. This does not prove a global filesystem sandbox or untested alias/symlink security.",
+    "source_copies_and_original_bytes_before_after_equal": true,
+    "generic_auditor_source_parity": "UNKNOWN; actual completed bounded reads and frozen original/copy pins are separate evidence"
+  },
+  "source_adjudication_by_operations_owner": {
+    "purported_blockers": 3,
+    "qualified_blockers": 0,
+    "grade": "Rejected: contradictory API premise, source ordering misread plus an unsupported consumer, and a diagnostic refinement explicitly acknowledged as not a regression.",
+    "limited_existing_facts_retained": true,
+    "code_or_Test_adopted_or_changed": 0,
+    "whole_candidate_PASS_or_software_proof": false,
+    "guided_R2": 0
+  },
+  "cost_boundary": {
+    "full_task_start_UTC": null,
+    "full_task_wall_seconds": null,
+    "active_exclusive_seconds": null,
+    "preparation_and_source_owner_review_not_inferred_from_HTTP": true,
+    "measured_net_saving": null,
+    "comparison": "One native source-counter role includes nine transport requests. It is not nine business cases and is not directly comparable to a single ordinary candidate response."
+  },
+  "privacy": "Only abstract client/tool/capability metadata. No private source, request, response, trace body, task values or machine path is published.",
+  "limits": "Source review only. No candidate import, software test, OS call, deployment, current authorization, Runtime, actual external action or speed result. Configuration parsing and observed tool permissions do not make model findings correct. Ordinary candidate attempts remain separate immutable records."
+}
