@@ -1,0 +1,83 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B092-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T23:20:54.551051+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T23:11:21.364701+00:00",
+    "window_ended_at_utc": "2026-11-03T23:11:25.457450+00:00",
+    "window_seconds": 4.092749,
+    "peak": 1,
+    "peak_duration_seconds": 4.092749,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b092-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 926,
+        "completion_tokens": 635,
+        "total_tokens": 1561
+      },
+      "failure": null,
+      "content_ttft_ms": 402.8002000413835,
+      "total_ms": 4091.9719000230543,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "2ec36695ea9a2b2f270ba78e67d6cf81f1eedc8c497297a2c5d47f350f4a9ac3",
+      "summary_sha256": "2e42fda51d93808bb1f62c75aaa6f19173e2d331b98bdcbfb86c8b4d6edc9d91",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "fc963184061c4db06663472c973a70b748e9b540017ef934a09969f35a87018d",
+        "task_id": "hoi4-20261104-b092-prompt-01",
+        "request_sha256": "2ec36695ea9a2b2f270ba78e67d6cf81f1eedc8c497297a2c5d47f350f4a9ac3",
+        "summary_sha256": "2e42fda51d93808bb1f62c75aaa6f19173e2d331b98bdcbfb86c8b4d6edc9d91",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Complete candidate mainly repeated common image contract and echoed task/protocol/preparer instructions; source-specific hair/outfit appeared as an Explicitly name drafting command, despite full owner observations supplied.",
+          "Removed generic conditional-facial-hair sentence and all protocol/preparer/task echoes. Restored full exact-source silver hair/brows/small moustache/clean chin/closed mouth, OPEN dark olive coat/limited shoulder detail/PALE shirt/DARK LONG TIE and actual pose/crop/light before preparation. No old task replay or text-model vision claim.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2661,
+        875
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b092-sources.json",
+    "sha256": "f539e27d38fb77dd5f7d1a82bb8e1fcdac718544d7844c577f8970f1163f2e14",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T23:15:38.646428+00:00",
+  "stage_at_cutoff": "One frozen prepared uncalled fresh LOW prompt in one image window. Owner supplied actual small-card/native-pixel/matched-larger observations: bare silver hair/brows/small SILVER moustache/clean chin, OPEN dark OLIVE-GREEN coat/limited exposed shoulder detail/PALE shirt/DARK LONG TIE and exact primary pose/crop/light. Complete input was supplied before this new task; no old task replay.",
+  "owner_review": "Both source SHA domains checked. Complete stop/DONE/JSON candidate mainly repeated common contract, task wording and protocol/preparer discussion; source-specific hair/outfit appeared as an Explicitly name drafting command. Owner removed all task/protocol/preparer echoes and generic conditional-facial-hair sentence, restored full exact-source hair/moustache/clean chin/closed mouth/outfit/neckwear/pose/crop limits, then appended canonical LOW hair/alpha rules before any builtin dispatch. Partial text adoption only. No pixels/visual qualification, controlled improvement, permanent ability bound or measured-savings claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
