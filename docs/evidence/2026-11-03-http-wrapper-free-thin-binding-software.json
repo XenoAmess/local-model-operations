@@ -1,0 +1,54 @@
+{
+  "case": "Reuse an existing stateful callee through two exact call-site adapters",
+  "modes": "ordinary three-message HTTP; one implementation and one independent source counter task, actual POSTs2/no retry",
+  "inputs": {
+    "whole_Java": 22,
+    "assembly_bodies": 5,
+    "physical_Java_ASM_bytes": 55502,
+    "source_items_with_contract_and_front_metadata": 29,
+    "note": "physical files differ from wire source-message bytes; exact wire metadata retained privately"
+  },
+  "model_results": {
+    "implementation": "STOP/complete JSON but not compile-ready; owner corrected declared scalar type/import, undefined local, tail import and explicit opt-in composition; only partial code adopted",
+    "counter": "STOP but severity-labeled findings retract or have no concrete consequence; zero actionable final defects, not independent approval",
+    "TTFT_seconds": [
+      5.4108282,
+      5.1078154
+    ],
+    "total_seconds": [
+      16.1134707,
+      31.826081
+    ]
+  },
+  "owner_boundary": "reuse mature callee without new push/RET; exact sites/kind/raw target, original return-slot check, full represented return/SP/nonvolatile value guards; unmatched Call/Tail/result identity and GS bits retained",
+  "compatibility": "only a new explicit composition entry point; old entries preserved byte-for-byte by inverse check",
+  "software": {
+    "first_production_TUs": 2,
+    "new_manual_Test_TUs": 1,
+    "new_cases": 5,
+    "checks": 86,
+    "production_compile_seconds": 1.0871129000151996,
+    "test_compile_seconds": 1.5873326000000816,
+    "manual_run_seconds": 0.40072169998893514,
+    "all_three_exit0": true,
+    "old_green_reexecuted": false,
+    "test_scope": "owned byte memory and represented register/data ports, not OS allocation or hardware"
+  },
+  "cost": {
+    "marked_full_wall_seconds": 2396.808309,
+    "process_seconds_sum": 3.0751672000042163,
+    "owner_active_seconds": null,
+    "earlier_discovery_seconds": null,
+    "includes_queue_and_parallel_unrelated_P0_source_work": true,
+    "netSaving": null
+  },
+  "operational_errata": "runner preflight initially rejected legal empty sourcepath without starting JVM; only operator preflight fixed, source/args/assertions unchanged",
+  "cutoff": {
+    "formal_publication": "pending at this payload freeze",
+    "runtime_adoption": false,
+    "game_or_native_authority": false,
+    "speed": false,
+    "limits": "no DF/RFLAGS/high SIMD/EH/native heap or loaded-module proof; front raw evidence acquired later than an older unrelated request is not retro-credited"
+  },
+  "publication_permission": "M0 explicitly approves this entire sanitized JSON payload for shared operations repository; private source, requests, exact addresses, paths and machine identities excluded"
+}

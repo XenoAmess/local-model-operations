@@ -1600,3 +1600,8 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 2026-11-03：[用户纠正后的DIRECT默认与真实首超时](evidence/2026-11-03-http-default-direct-routing-correction.json)。共享入口缺network默认DIRECT，两个共享配置明示direct/currenthost，显式environment才兼容代理；3新默认case+2改变的资格/兼容case无网络通过。旧frozen/inflight/Runtime不改。两项原DIRECT源码任务TCP已见LAN目标却仍600秒无headers超时，自动同REQUEST重试，服务恢复/solecause未知，不新增模型或软件通过分母。
+
+
+2026-11-03：新可审单位按各自冻结切点追加：[M3薄COPY软件及后见](evidence/2026-11-03-http-copy-binding-new-software-witness.json)、[range源码transport耗尽/owner接管](evidence/2026-11-03-http-range-frame-transport-exhaustion-owner-software.json)、[完整静态frame软件](evidence/2026-11-03-http-full-frame-static-forwarding-software.json)、[transfer原8任务transport-only与owner软件](evidence/2026-11-03-http-transfer-frame-transport-exhaustion-owner-software.json)、[两lower完整caller软件](evidence/2026-11-03-http-two-lower-ports-whole-caller-software.json)、[reverse blocks部分模型码/transport耗尽与owner软件](evidence/2026-11-03-http-reverse-blocks-transport-exhaustion-owner-software.json)、[wrapper-free薄binding](evidence/2026-11-03-http-wrapper-free-thin-binding-software.json)、[Persistent投影机械partial与owner软件](evidence/2026-11-03-http-persistent-semantic-projection-owner-software.json)。各newTest/console/JUnit、模型/owner改动、原首红及activeUNKNOWN保，pending后见单独附不回填；formal不增旧软件分母。
+
+既有638/639与上述259/237/wrapper-free的later-formal独立JSON保留格式/EOF分SHA和同group wrapper所选1P，不增加新组。[profile签名cap归属有限元数据](evidence/2026-11-03-profile-signature-cap-source-attribution-limited.json)不增加模型/软件分母；[八cadence研究的48POST全transport失败](evidence/2026-11-03-http-cadence-eight-transport-only-owner-research.json)不授语义失败或模型贡献；[迟登记重建峰63及owner首POST区间纠正](evidence/2026-11-03-http-rolling60-later-registration-and-owner-range-correction.json)保留原114streams快照。没有新HTTP/JVM/原始私有材料发表。
