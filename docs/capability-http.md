@@ -1463,3 +1463,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [Sway235正式tuple后见](evidence/2026-11-03-http-installed-sway-later-formal.json)追加62a1b91d，owner独立gitshow2blob57931B（source43230/Test14701）raw/EOF精等；原2424 pending切点、twoR1edits+ownerimport与同9newscene29checks/旧成本不改。软件路径准确为metadata→constructed RootExecutableBindings实现→existingpolicy，不升级真实RuntimeRoot/privateonce、wholeproject或natural。0新HTTP/JVM/复验；writer prestage CP目录猜测与reader成本只属writer，原私原件不搬。
+
+
+[Windows CONTENT UTF8逐字节窄修](evidence/2026-11-03-http-content-utf8-byte-preservation.json)是owner客户端维护、0模型POST：共享call.py只有CONTENT表达式改wb，修newline=None将LF→CRLF/已有CRLF→CRCRLF。先冻独立LF/CRLF/Unicode byteshex oracle，Windows原版四测试五字节子断言RED→同四PASS，全程内存SSE/mock传输且禁socket；length/半流独立attempt/同REQUEST retry与本地写失败不retry保。初owner括号漏写约28s导入错误、原失败保留；最终候选parse/必要witness后原子投影规则进usage/prompt。auditor未放宽/旧15绿不重跑、历史原件严格raw不等与LF投影不改；新caller Git-LF SHA89748ad9与旧physicalCRLF ea097/oldGitLF分pin。活跃业务caller/配置不自动同步，不授模型语义成功或净省工。

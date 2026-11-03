@@ -1,0 +1,26 @@
+{
+  "scope": "Independent synthetic output-byte oracle frozen before caller repair; no real source/request/answer.",
+  "cases": [
+    {
+      "id": "lf",
+      "content": "{\n  \"text\": \"雪🙂é\"\n}\n",
+      "expected_utf8_hex": "7b0a20202274657874223a2022e99baaf09f998265cc81220a7d0a",
+      "bytes": 27,
+      "sha256": "21b717dc230f1df318ffa5bda55d1fa82524b024735b34411702dec9d70da01b"
+    },
+    {
+      "id": "crlf",
+      "content": "{\r\n  \"text\": \"雪🙂é\"\r\n}\r\n",
+      "expected_utf8_hex": "7b0d0a20202274657874223a2022e99baaf09f998265cc81220d0a7d0d0a",
+      "bytes": 30,
+      "sha256": "ba39cf88d52e1980ad5114612f51e6489880039f85ef7ca5f5801f6f60efb5d7"
+    },
+    {
+      "id": "mixed-unicode",
+      "content": "{\r\n \"a\": \"é雪🙂\",\n \"b\": \"é\"\r}\r\n",
+      "expected_utf8_hex": "7b0d0a202261223a2022c3a9e99baaf09f9982222c0a202262223a202265cc81220d7d0d0a",
+      "bytes": 37,
+      "sha256": "42223dddf46455ff88271e19cab7133603cae244b343d5b4f53645c1f45189b0"
+    }
+  ]
+}

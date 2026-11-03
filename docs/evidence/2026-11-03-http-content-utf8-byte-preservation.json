@@ -1,0 +1,54 @@
+{
+  "kind": "Owner-authored ordinary-HTTP client maintenance; no new model generation task",
+  "problem": "The shared caller saved joined SSE content with write_text(encoding=UTF8) and default newline=None. On Windows, LF became CRLF and existing CRLF became CRCRLF. Historical CONTENT/SSE raw mismatch required repeated owner projection review despite complete valid replies. This is caller artifact serialization, not model JSON/semantic failure.",
+  "change": "Only the CONTENT write expression now uses write_bytes(joined_content.encode(UTF8)). REQUEST and raw SSE were already binary. Strict UTF8, string concatenation order, fixed three messages, request defaults, retry classification, partial discard and local-evidence error handling are unchanged.",
+  "source_pins": {
+    "old_physical_CRLF_source": {
+      "bytes": 19814,
+      "sha256": "ea0979f2f64ea46ee24c696e06f8149bb28e52f2eed6bfc1960c10a50742c2fe"
+    },
+    "old_Git_LF_source": {
+      "bytes": 19439,
+      "sha256": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28"
+    },
+    "new_Git_and_current_LF_source": {
+      "bytes": 19438,
+      "sha256": "89748ad936124f0c5ae8095ea417156836f6b4cb442b596843cca6df1f2f6bb1"
+    },
+    "outside_single_changed_span_inverse_to_old_Git_exact": true,
+    "note": "Physical checkout line endings may differ from canonical Git. Both old forms were frozen privately. The repaired CRLF candidate that passed tests and final LF source have identical AST; no execution-token change outside the one writer expression."
+  },
+  "independent_witness": {
+    "frozen_before_repair": true,
+    "synthetic_cases": [
+      "LF with CJK/astral Unicode/combining character",
+      "CRLF with the same Unicode",
+      "mixed CRLF/LF/bare CR and Unicode"
+    ],
+    "golden_bytes": "Frozen explicit UTF8 hex/length/SHA, never universal-newline read_text comparison. One character per SSE delta also splits CR/LF across deltas.",
+    "Windows": "Python3.13.2, os.name=nt; not a claim of other-platform integration",
+    "BEFORE": "Four test methods, five failing byte assertions across three valid fixtures and length/incomplete-attempt artifacts. Local CONTENT error handling already passed. Original failed output retained.",
+    "AFTER": "Same four test methods pass. Three valid streams preserve exact CONTENT bytes and strict auditor REVIEW_ELIGIBLE, still OWNER_REVIEW_REQUIRED. Length remains discarded/no retry; incomplete retry uses the identical REQUEST and separate unjoined byte-exact attempt contents; local CONTENT write failure raises the existing local-evidence error without transport retry.",
+    "network": "In-memory SSE/mock urlopen; socket creation forbidden. Zero real service or loopback HTTP, zero model POST, no JVM or business action.",
+    "fixture_bytes": 1016,
+    "fixture_sha256": "7994b9e5fc687c2ef6cf7c712993ef213ab9f4765a79f817f06bf171bd4dc241"
+  },
+  "owner_error_and_correction": "First owner replacement missed the outer finish_evidence closing parenthesis, producing an approximately28-second syntax-error window in the mutable checkout. First AFTER failed import before test bodies or mock transport. One parenthesis fixed, unchanged expectations and same four tests passed. Original failed patch/result retained. No whole-machine impact claim or sweep; other consumers starting in that interval UNKNOWN. Final canonical candidate was parsed and AST-compared before an explicit same-directory atomic projection.",
+  "future_preparation_rule": "Prepare the complete shared-caller candidate, parse and run necessary narrow witnesses before atomic projection to the live shared checkout. This is not a new approval, per-POST ACK or full-old-test gate.",
+  "boundaries": {
+    "history": "No prior REQUEST/SSE/CONTENT rewritten. Existing raw inequalities and strict NOT_REVIEW_ELIGIBLE stay as frozen; LF projection never becomes raw equality.",
+    "auditor": "No auditor code or eligibility relaxation; previous15 tests not rerun.",
+    "configuration_and_consumers": "No shared executor config or active consumption-project caller/Runtime changed. Consumer copies require explicit source/owner and actual safe synchronization window, not automatic Git adoption.",
+    "modes": "OpenCode native history/transport unaffected; no native task, performance or net owner-labor saving claimed."
+  },
+  "cost": {
+    "known_marked_begin_utc": "2026-11-03T03:51:53.890895+00:00",
+    "prepared_fixture_utc": "2026-11-03T03:54:30.472233+00:00",
+    "same_four_PASS_observed_utc": "2026-11-03T03:56:30.701650+00:00",
+    "full_task_start": null,
+    "owner_active_seconds": null,
+    "model_POSTs": 0,
+    "new_JVM_or_Game_GET": 0,
+    "net_time_saved_proven": false
+  }
+}

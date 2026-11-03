@@ -10,7 +10,7 @@
 - 每个 attempt 独立的原始 artifact 字节数/SHA、SSE finish reason、`[DONE]`、解析异常和完整性；不拼接重试片段。
 - 完整文本的严格 `json.loads` 结果 `VALID` / `INVALID` / `UNKNOWN`，以及顶层类型。拒绝非 JSON 的 NaN/Infinity；解析器资源限制保持 UNKNOWN。语法错误只输出位置和异常类别，不输出包含正文的错误消息。
 - RESULT、ATTEMPT_END、FIRST_CONTENT、HEADERS 的数值分别保留来源，缺失为 UNKNOWN、冲突显式列出。TTFT 只取已记录的首有效内容字段，不用响应头、SSE 次序或 UTC 相减估算。未报告 cached tokens 保持 null。
-- CONTENT 与 SSE 重建文本的原样比较，以及单独的 LF 投影比较。Windows caller 的文本写入可能改变物理行尾；投影相等不冒充原字节相同，原件不被改写。
+- CONTENT 与 SSE 重建文本的原样比较，以及单独的 LF 投影比较。历史 Windows caller 的文本写入可能改变物理行尾；当前共享 caller 对新 CONTENT 使用 UTF-8 二进制保存。历史原件不被改写，投影相等不冒充原字节相同，也不放宽原样不等时的严格 eligibility。消费项目的旧 caller 副本须由其 owner 另行明确同步，不随共享 Git 自动切换。
 
 `VALID` 只说明外层 JSON 语法合法。`REVIEW_ELIGIBLE` 只说明完整 STOP 流、合法语法且未发现所核对的冲突；所有候选始终标记 `OWNER_REVIEW_REQUIRED`，不判断字段合同、论证、代码或业务正确性。length 一律 `DISCARD_LENGTH`，即使其 JSON 合法。缺 finish/DONE、坏 SSE 或原样内容冲突不获 review eligibility。只有 CONTENT 时仍可判语法，但流完整性与 eligibility 保持 UNKNOWN。顶层数组或标量的语法合法也不证明请求的对象合同通过。
 

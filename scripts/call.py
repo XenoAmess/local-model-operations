@@ -281,7 +281,7 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
         except Exception as exc:
             failure = repr(exc)
         content_saved = finish_evidence(prefix + "-CONTENT.txt", lambda:
-            (out / (prefix + "-CONTENT.txt")).write_text("".join(content), encoding="utf-8"))
+            (out / (prefix + "-CONTENT.txt")).write_bytes("".join(content).encode("utf-8")))
         reasoning_text = {k: "".join(parts) for k, parts in reasoning.items() if parts}
         reasoning_path = None
         if reasoning_text:

@@ -8,6 +8,10 @@
 
 共享配置为 [config/executor.json](../config/executor.json)，调用器为 [scripts/call.py](../scripts/call.py)。脚本使用 Python 标准库；迁移验证实际运行于 Windows Python 3.13，不能据此声称其它平台已实测。
 
+新 `ATTEMPTn-CONTENT.txt` 按最终 SSE `delta.content` 拼接文本的 UTF-8 字节用二进制模式保存，保留 LF、CRLF 和 Unicode，不经过平台文本换行转换。原始 SSE、固定三消息、瞬时重试和半截流弃置规则照旧；历史 CONTENT 不重写，旧 Windows 行尾差异继续由[离线审计器](http-evidence-audit.md)严格分开报告原样与 LF 投影。修复及 witness 见[客户端字节保存记录](evidence/2026-11-03-http-content-utf8-byte-preservation.json)。
+
+修改共享 caller 时，先在 owner 的候选中完成完整语法解析和与改动相称的必要 witness，通过后再显式原子投影至共享 checkout，避免并发启动的消费者读到半编辑或语法错误。这不要求新审批、逐 POST ACK 或重跑全量旧测试。消费项目的运行 caller/配置由其唯一 owner 在实际空窗按明确来源同步；更新共享仓库不自动修改活跃业务副本。Git 源码行尾与物理 checkout 也可能不同，消费前记录本次实际字节版本，不把规范化后的 Git SHA 当作每份副本 raw SHA。
+
 客户端每天首次使用本地模型前必须完成[OpenCode每日版本检查](client-maintenance.md)：版本低于registry最新稳定版或共享最低版本时，先通过pnpm更新并核实。当前调用器CLI已接入；OpenCode和其它直接HTTP或嵌入式客户端需在自己的任务入口调用共享检查器。同日成功缓存共用；失败由宿主AI自主排障修复，复查通过后继续原任务，维护修复本身不受版本前置限制。
 
 当前指定服务为 `http://192.168.1.11:8080/v1`，模型别名 `qwen38-coder`，使用 `POST /chat/completions` 与流式 SSE。该地址属于指定局域网；各机器自行满足路由与代理条件，不自动回退历史地址或端口。模型别名是服务报告的标识，不是已核实的权重版本、量化方式或硬件配置。
