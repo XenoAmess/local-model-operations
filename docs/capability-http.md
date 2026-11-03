@@ -1512,3 +1512,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 [633 正式后见] [批准附页](evidence/2026-11-03-http-upstream-allocator-chain-later-formal.json)追加b9073a46/两原payload raw SHA与EOF相等+316薄wrapper，selected1P同两console组非第三；.788791+.6708927s与6.700179gapwall分列，328pins/98有序CP含重复。原4183软件pending不回填，不授wholePage381/Native172或运行收益。
 
 [historical scope 只读影响附页] [批准最小metadata](evidence/2026-11-03-historical-scope-retention-limited-followup.json)保11whole可用/仅关键闭包审，4096/256MiB/8192配置的现有算术实际容4095 retained pairs；两既有scope分别288319attempts/4095retained/107680handlefallback与6729/2942/0fallback，各finish1/validationfailed0。caller、unique refs、reuse distance和收益UNKNOWN；未将邻近Writer日志当caller证据。计划Thread被guard取消、0START，0新HTTP/patch/Test/JVM，不加模型case分母；730.188109s仅已知freeze子窗。
+
+
+[同次双 positive-growth 软件组合634] [批准正文](evidence/2026-11-03-http-dual-positive-growth-software-composition.json)：三POST/三STOP/峰2仅9.372718s，R1齐输入却名义Calls类型/路由错，源审整拒0编；唯一R2完整2248B raw/0owner Java，强signature/成熟upper路由提示明确。三个自动syntax VALID/object只是语法，audit未看candidate/0oracle。owner10913B Test三新whole组在R1END后CONTENT前冻；三首0/stdout3、1.2266728s process与560.909974s已知下界分开/activeNULL，正式原pending。实际Native同instance positive16+4仍GAP；COPY/allocator/free为有限controlled ports，不授OS/DF-MXCSR/fullframe/运行或速度。
