@@ -1,0 +1,99 @@
+{
+  "case": "Finite source-model round for a full-semantic cooldown projection in historical replay",
+  "cutoff_utc": "2026-11-03T21:19:19.768539+00:00",
+  "scope": "An observed business stack traversed a recursive projection-safety guard over an entire semantic tree before extracting five cooldown fields. A single sampled stack is not a time share, call count or unique cause.",
+  "actual_requests": [
+    {
+      "role": "implementation",
+      "attempts": 1,
+      "max_tokens": 6000,
+      "project_complete_Java_files": 15,
+      "project_raw_source_bytes": 202205,
+      "project_LF_source_body_bytes": 201494,
+      "additional_library_Code_raw_bytes": 0,
+      "actual_middle_UTF8_bytes": 207090,
+      "TTFT_effective_content_seconds": 1.0083671000029426,
+      "HTTP_client_total_seconds": 84.64281940000365,
+      "finish_reason": "length",
+      "SSE_DONE_client_reported": true,
+      "completion_tokens_server_reported": 6000
+    },
+    {
+      "role": "original_counter",
+      "attempts": 1,
+      "max_tokens": 4500,
+      "project_complete_Java_files": 15,
+      "project_raw_source_bytes": 202205,
+      "project_LF_source_body_bytes": 201494,
+      "additional_library_Code_raw_bytes": 0,
+      "actual_middle_UTF8_bytes": 207090,
+      "TTFT_effective_content_seconds": 6.6188812000036705,
+      "HTTP_client_total_seconds": 33.702605099999346,
+      "finish_reason": "length",
+      "SSE_DONE_client_reported": true,
+      "completion_tokens_server_reported": 4500
+    },
+    {
+      "role": "public_witness",
+      "attempts": 1,
+      "max_tokens": 6000,
+      "project_complete_Java_files": 9,
+      "project_raw_source_bytes": 121017,
+      "project_LF_source_body_bytes": 120405,
+      "additional_library_Code_raw_bytes": 14237,
+      "actual_middle_UTF8_bytes": 138256,
+      "TTFT_effective_content_seconds": 4.127067499997793,
+      "HTTP_client_total_seconds": 16.289625099976547,
+      "finish_reason": "stop",
+      "SSE_DONE_client_reported": true,
+      "completion_tokens_server_reported": 2027
+    }
+  ],
+  "request_audit": "Actual REQUEST contained system/current-source/task messages in that order; every ordered complete input source and task matched the actual messages. The two source roles shared the first two messages exactly. The witness had a different source-plus-library prefix; this was not a controlled context experiment.",
+  "actual_parameters": {
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true
+  },
+  "owner_decisions": [
+    {
+      "role": "implementation",
+      "decision": "Whole discarded after length termination. No partial code adopted and no retry to finish the answer."
+    },
+    {
+      "role": "original_counter",
+      "decision": "Whole discarded after length termination. No independent semantic approval inferred."
+    },
+    {
+      "role": "public_witness",
+      "decision": "STOP/DONE/VALID was only transport/syntax success. Whole answer rejected: missing List import, a decimal integer literal outside Java long range, an expected availability result reversed for an empty war set, and no actual foreign-number identity/callback probe. No model Test code was compiled or adopted."
+    }
+  ],
+  "owner_work": "The owner independently froze an oracle and a manual witness before reading the witness answer. The source candidate was authored by the owner: only three existing replay body lines project the five fields from the result of the fixed original-material rebuild. Public manually constructed typed inputs retain the prior full guard/fallback; selected field validation and all archive/source/identity/timeline checks stay at their original positions.",
+  "finite_counter_lessons": [
+    "Do not cache semantic records in an ordinary structural hash map without checking whether foreign numeric callbacks can execute during hashing.",
+    "Do not infer a closed immutable producer from record or field names. Follow the actual byte decoder, assembler and normalizer chain.",
+    "INITIAL, VIEW and the non-VIEW final view branch are mutually exclusive for a proof; they are not same-iteration duplicate calls. LIFE ending semantics are a separate value.",
+    "An unchanged helper Test cannot grant behavioral coverage to modified private-producer replay sites. Necessary validation is being built from existing real original-material replay fixtures."
+  ],
+  "status_at_this_source_round_cutoff": {
+    "source_candidate_only": true,
+    "new_candidate_software_PASS_claim": false,
+    "formal_publication_claim": false,
+    "current_runtime_adoption_claim": false,
+    "actual_speed_or_net_saving_claim": false
+  },
+  "cost": {
+    "HTTP_client_seconds_sum": 134.63504959997954,
+    "own_three_request_peak": 1,
+    "retry_POSTs": 0,
+    "global_or_server_concurrency": "NOT_HELD",
+    "cached_prompt_tokens": "NOT_REPORTED",
+    "preparation_and_review_active_seconds": null,
+    "active_status": "UNKNOWN"
+  },
+  "limits": "No source-model answer contributed adopted code. Source qualification is finite and version-bound; it is not loaded-bytecode, loader/index membership, redefinition, world authority or measured performance evidence."
+}

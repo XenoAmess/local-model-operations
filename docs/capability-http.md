@@ -2077,3 +2077,10 @@ The [explicit opt-in caller](request-registry.md) adds durable BEGIN/END recordi
 [M5 array116](evidence/2026-11-04-http-m5-array116-later.md)保三原角色零生产／Test代码、length 整弃、owner完整实现及四个局部 unchecked 注解修正。首次旧 Test 严格编译失败、修后首次三个方法通过与 15.3626852 秒 process 总时分别记；10981.467747 秒墙钟含等待及失败，主动工时未知。[正式附页](evidence/2026-11-04-http-m5-array116-formal-later.json)仅同两 leaf 的后见，不授与 sorted 单元联合软件通过或 Runtime 性能。
 
 [M0 composed positive 正式附页](evidence/2026-11-04-http-m0-composed-positive-formal-later.json)仅一新 composed manual、两 LIFE 与一次 pending close 的实际 domain replay；不扩为完整 Root authority、复杂战争或性能，原研究 pending 切点不回写。五份正文按作者批准原字节保留，零新增 HTTP／编验。
+
+
+## 2026-11-04：投递交接、外部工具合同与新的 source round
+
+[唯一 intake 与容量后见](evidence/2026-11-04-source-intake-capacity-handoff.json)分开一次原源 counter 拒稿、owner 三文件、四项 DATA 首验、98 行独立换代和后到仅停 intake 的实际接任。保同 DB 历史、未知行 carry、容量 defer 与有限 crash 边界；新 START／lock 不授新 POST。四份非法 direct metadata 绕过已有正确 publisher，原归因已撤回，不造生产修复。[准备与投递教训](evidence/2026-11-04-source-intake-and-preparation-lessons.md)还要求把模型不可见的确切外部工具合同放入输入，分开 owner 合同遗漏、模型源错、真实 START 与完整成本。
+
+[M0 persistent guard783 source round](evidence/2026-11-04-http-m0-persistent-guard783-source.json)保两个 length 整弃、一个 stop Test 源拒与零模型代码；15 whole 共前缀和另一个 9 whole 加 library 的不同前缀非受控对照。owner 新 candidate 与必要软件资格仍是原切点的独立 pending，单 stack 不授唯一性能根因或提速。

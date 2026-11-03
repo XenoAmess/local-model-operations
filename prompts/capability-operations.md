@@ -25,6 +25,8 @@
 
 完整输入一齐就直接执行下一真实任务。优先沿已有caller的有序`source_files`自动封包，不再人工手拼同一前缀；已明确转移执行权的owner将唯一冻结记录发布给现有sole intake，由它串行注册并交滚动dispatcher，作者不再双发。不把准备-only交付、个人回执、整波源审、软件窗口或Git发布设为POST终点或前置。原实现、独立原源反审和新的公共Test可在有不同未闭目标时并行；已闭绿或已接管写完的实现不追投凑数。
 
+普通三消息HTTP模型看不到cloud owner当前所见的工具定义。为宿主或外部工具写consumer时，把相关确切声明、版本和能力边界显式放入源码前缀：哪些操作真正启动turn、目标类型、返回shape和失败语义都要闭合，不能靠owner自己知道。本宿主send_message不启动idle、followup仅non-root等约束须按实际接口提供；owner遗漏或误写合同的订正与成本归owner，模型另有可证源错则另计，保原wire，不用一次source-compatible意见授未供API闭包。[投递与准备的实际教训](../docs/evidence/2026-11-04-source-intake-and-preparation-lessons.md)同时保metadata-only自助、solewriter交接、容量defer、实际START与完整成本边界。
+
 入队写者和来源owner须明确。多owner各写唯一不可变记录，只有sole intake写共享READY；compare-before-replace不等于并发锁，manual registrar不能与它并跑。缺claim/存在旧Ready都不是重放许可，崩溃及重复冲突须保历史并核实际REQUEST/EVENTS。每个截面分别列出源齐未入队、已见INTAKE及拒绝／未登记记录、READY未POST、具名POST未END和覆盖未知项；Runtime预留1仅客户端准入，不冒充服务推理slot。准备到BEGIN的人工等待与HTTP总时、TTFT、主动工时分开，自动化不能回填抹去原协调成本。
 
 宿主若区分“发送消息”和“启动任务”，给 completed worker 的普通消息只算通知，不能报告已在并行工作。先核实际状态；对 completed worker 使用能触发新 turn 的续派 API（本次宿主为 `followup_task`），再消费实际 START/状态或新源码出生回执。`send_message`、排队消息、旧 Ready 和准备目录均不是启动证明；running worker 也不等于 HTTP 在途。一次误用普通消息造成约39分钟协调延误，[实际起点及撤回记录](../docs/evidence/2026-11-03-completed-worker-notification-without-start.json)保留原通知精确UTC未知，不能补造精确工时或归模型/HTTP/CPU。状态核实不增加每 POST 中央 ACK；输入齐全的真实任务继续由唯一 owner 直接执行。
