@@ -19,6 +19,8 @@
 7. 一个可审阅单元必要检查通过后，唯一Git写者精确stage/commit并正常push main，核远端SHA。任何已要求的raw/working/staged内容或hash核对返回非0，立即停止该发布单元；不得用try/finally、未检查退出码的后续步骤或并行Git继续commit/push。修复后重新完成全部必要核对才发布，原失败及additive修复分别留证。成熟pin/实际回执足够时不再等重复聊天ACK或独立长报告；成本后到可另追加。原始REQUEST/SSE、私有源码、机器账本与大证据留执行机器，公共仓库只放获准脱敏材料。
 8. 每个阶段结束交接两模式的最新case、适用版本、已证与未知、owner成本、残余故障和下一真实触发条件。没有未完成真实需求时保持待验证，不造任务或刷并发。恢复工作时从这些记录续行；阶段报告或当前0在途不是停止长期运营的依据。
 
+宿主若区分“发送消息”和“启动任务”，给 completed worker 的普通消息只算通知，不能报告已在并行工作。先核实际状态；对 completed worker 使用能触发新 turn 的续派 API（本次宿主为 `followup_task`），再消费实际 START/状态或新源码出生回执。`send_message`、排队消息、旧 Ready 和准备目录均不是启动证明；running worker 也不等于 HTTP 在途。一次误用普通消息造成约39分钟协调延误，[实际起点及撤回记录](../docs/evidence/2026-11-03-completed-worker-notification-without-start.json)保留原通知精确UTC未知，不能补造精确工时或归模型/HTTP/CPU。状态核实不增加每 POST 中央 ACK；输入齐全的真实任务继续由唯一 owner 直接执行。
+
 原生工具出现重复时核实际受支持参数、输出SHA和读取区间：未知字段可能未报错却被忽略，合法参数也可能形成同输入/同输出循环。以具体无新信息证据决定获准的精准owner干预，保留中断请求UNKNOWN；不设隐蔽总步封顶，也不靠连续提示喂业务答案。先分清模型循环与配置合并、旧relay地址等launcher故障；debug exit0必须再核effective配置。[实际案例及只读接入](../docs/opencode-readonly.md)。
 
 ## 按交付价值选择任务单位

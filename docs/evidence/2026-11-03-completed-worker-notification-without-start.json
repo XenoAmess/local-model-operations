@@ -1,0 +1,40 @@
+{
+  "case": "A notification to a completed worker did not start its next turn",
+  "publication_permission": "The task owner explicitly approved this sanitized metadata on 2026-11-03. Private source, oracle and local evidence locators are excluded.",
+  "scope": "Host collaboration and owner coordination; not a local-model HTTP or backend incident",
+  "observed_host_semantics": {
+    "send_message": "Delivered information to a completed worker without triggering a new turn",
+    "followup_task": "Assigned the real follow-up task and triggered the worker turn",
+    "portability": "Check the actual host API contract; these names describe this observed host and are not universal scheduler semantics"
+  },
+  "timeline": {
+    "original_notification_exact_utc": null,
+    "original_notification_approximate_utc": "2026-11-03 around 12:14 UTC",
+    "independent_model_POST_reference_utc": "2026-11-03T12:14:13.018401Z",
+    "model_POST_is_not_worker_start_evidence": true,
+    "actual_followup_author_START_utc": "2026-11-03T12:53:51.850081Z",
+    "target_Java_source_existed_at_actual_START": false,
+    "coordination_gap_approximate_minutes": 39,
+    "exact_gap_seconds": null,
+    "owner_active_seconds": null
+  },
+  "correction": {
+    "earlier_parallel_fallback_writing_claim": "Withdrawn; the notification had not started the completed worker",
+    "implemented_process": [
+      "Inspect the worker's actual current status before assigning follow-up work",
+      "For a completed worker, use the host API that starts a new task turn",
+      "Consume actual START or source-birth evidence before reporting that work has begun",
+      "Use ordinary messages to transfer information without treating delivery as execution"
+    ]
+  },
+  "preserved_boundaries": {
+    "private_oracle_was_frozen_before_model_content": true,
+    "original_model_response": "length; complete content unread, unhashed and undecoded; discarded without a second round",
+    "new_model_HTTP_for_this_correction": 0,
+    "new_JVM_or_business_execution_for_this_correction": 0,
+    "waiting_or_completed_workers_counted_as_active": false,
+    "new_central_ACK_before_each_POST": false
+  },
+  "cost_attribution": "Approximately 39 minutes of owner coordination delay. This is not model latency, HTTP failure, CPU time, P0/SAVE time or cold-start cost. The original notification timestamp and active labor remain unknown.",
+  "claim": "A queued notification, old ready artifact or CLI handle cannot establish that a worker or HTTP request has started. Worker activity and actual POST_BEGIN/ATTEMPT_END intervals remain separate."
+}
