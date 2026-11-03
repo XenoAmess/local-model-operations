@@ -213,3 +213,6 @@ CLI367.1497915s、首记prepare→CLI161.102732s、reportedHTTPsum299.6922541s�
 
 
 宿主协作model capacity/turn中断与本地HTTP/OpenCode原生工具轨迹分账；不能把owner编排故障计作本地服务失败，也不能为恢复宿主turn重发原业务。先核既存请求/工具/编测/动作终态，只对明确0START的必要工作另记接管成本。此规则不新增native task成功、自动源核或省工信用；新native试用仍需具体已修原因与真实OPEN任务，逐reply有限输出，不为旧题补第三轮或固定总steps/POST/wall帽。
+
+
+- [Ready dispatcher native editing and owner recovery](evidence/2026-11-03-ready-dispatcher-native-and-first-source-canary.json): 38 real tool-mode POSTs, no generated Test; original SQL failure and repeated-edit refusal preserved. Owner corrected the module and wrote the Test; final selected source has four independent offline passes and one genuine source HTTP canary. Unlimited steps/session wall remain; no 60-HTTP or net labor saving claim.

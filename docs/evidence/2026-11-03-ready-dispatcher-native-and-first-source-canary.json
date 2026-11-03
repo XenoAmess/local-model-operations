@@ -1,0 +1,168 @@
+{
+  "schema": "local-model-operations.ready-dispatcher-delivery/v1",
+  "cutoff_utc": "2026-11-03T11:54:56.253015+00:00",
+  "scope": "Explicit ready queue and client reservations; no active Runtime integration or service slot guarantee",
+  "sources": [
+    {
+      "target": "scripts/pool_dispatcher.py",
+      "bytes": 38132,
+      "sha256": "e1f593fb771c7957e03a87a99bdea6c5672697310e3f71bd59ca66a21ebb8833"
+    },
+    {
+      "target": "tests/test_pool_dispatcher.py",
+      "bytes": 20549,
+      "sha256": "a722f7a7bf95e935fe800bf85755e156e8b2dfbd55edeb9d470860be6761eaa4",
+      "software_witness_source_sha256": "764babd540e9bff5fd639fd71acf38ae42d449aa3979ee6d0b7c103bb5d93fd7",
+      "software_witness_source_bytes": 20550,
+      "publication_projection": "Remove one empty trailing line for git diff --check; executable source unchanged; no Test rerun"
+    },
+    {
+      "target": "scripts/call.py",
+      "bytes": 23968,
+      "sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf"
+    },
+    {
+      "target": "scripts/witness_http_error_read.py",
+      "bytes": 12257,
+      "sha256": "209187d76eceb50d2bdbbfe7dc15a7737e0f8a7839f8985ea4126b706a041881"
+    }
+  ],
+  "dependencies": {
+    "scripts/pool_leases.py": "7e7a50cd495ea137911091936581b05c45a077b68bd63624ef56ebc8debb696c",
+    "scripts/pool_admission.py": "b3c8d3b5a32d7b30cec1d929b32c02436febdc818081a54e01c3270039da0748",
+    "scripts/pool_observer.py": "bec757c283b91960fee157c19e86a513639325f1a563f70635a7c6a27f111a9e",
+    "config/source-high-concurrency-direct.json": "97fb38b997dde3522f2310d06a229ab660db35f8bdc1a5d40eaa5c9e07e57e9a"
+  },
+  "native_generation": {
+    "mode_id": "opencode_native_tools",
+    "version": "1.19.5",
+    "fresh_session": true,
+    "cli_start_utc": "2026-11-03T11:05:40.097859+00:00",
+    "cli_end_utc": "2026-11-03T11:09:44.087535+00:00",
+    "cli_seconds": 243.989676,
+    "actual_POST_BEGIN": 38,
+    "actual_ATTEMPT_END": 38,
+    "http_status_200": 38,
+    "tool_calls_finishes": 37,
+    "length_finishes": 1,
+    "stop_finishes": 0,
+    "prePOST_refusals": 1,
+    "refusal_reason": "Three identical edit arguments and identical missing-oldString result; not a total steps/POST/wall cap",
+    "prompt_tokens_reported_sum": 2014099,
+    "completion_tokens_reported_sum": 34463,
+    "total_tokens_reported_sum": 2048562,
+    "HTTP_seconds_sum": 238.2505726,
+    "cached_tokens": null,
+    "permissions": "Exact task read files and two target edit/write files; no bash/Git/task/network tools",
+    "limits": "Unlimited session steps and wall; finite per-response output and per-HTTP timeouts",
+    "model_result": "AST-valid module, no Test; whole candidate not adopted. Original first SQL13-column/14-placeholder ERROR preserved.",
+    "adoption": "Module scaffolding and portions retained with 31 owner change blocks (66 old/85 new lines); complete Test owner-authored",
+    "owner_corrections": [
+      "SQL insertion",
+      "capacity-deferred PENDING reselection",
+      "existing-row history-limit update",
+      "fairness cursor",
+      "stop drains owned handles",
+      "UNKNOWN observer result shapes",
+      "leading option identity rejection",
+      "rolling file refresh"
+    ],
+    "thinking_or_backend_capability": "UNKNOWN"
+  },
+  "offline_validation": {
+    "primary_distinct_methods": 19,
+    "whole_final19_one_run": false,
+    "incremental_qualifications": [
+      {
+        "version": "owner R1",
+        "methods": 4,
+        "PASS": 4,
+        "seconds": 8.2839575
+      },
+      {
+        "version": "owner R2",
+        "new_methods": 12,
+        "PASS": 11,
+        "ERROR": 1,
+        "seconds": 20.582864
+      },
+      {
+        "version": "selected owner R3",
+        "failed_only_methods": 1,
+        "new_methods": 3,
+        "PASS": 4,
+        "seconds": 5.5756611
+      }
+    ],
+    "preserved_failures": [
+      "Raw SQL first ERROR",
+      "Owner Windows CRT marker fixture first4F; O_BINARY-only correction",
+      "R2 missing UNKNOWN last_state ERROR"
+    ],
+    "primary_five_phases_seconds_sum": 43.8242611,
+    "primary_method_executions": 25,
+    "independent_selected_final_methods": 4,
+    "independent_PASS": 4,
+    "independent_seconds": 6.782808900024975,
+    "independent_scope": "Real Python fixture processes and isolated SQLite/fake Popen; no model HTTP or business actions",
+    "owner_marked_preparation_through_last_primary_seconds": 2361.25839,
+    "owner_active_labor_seconds": null
+  },
+  "real_new_source_canary": {
+    "mode_id": "http_candidate",
+    "purpose": "Independent counter of newly written HTTPError-read caller repair",
+    "POST_BEGIN_utc": "2026-11-03T11:51:05.738609+00:00",
+    "ATTEMPT_END_utc": "2026-11-03T11:51:15.239059+00:00",
+    "POSTs": 1,
+    "ENDs": 1,
+    "retries": 0,
+    "max_tokens": 4000,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "TTFT_seconds": 2.424723300006008,
+    "total_seconds": 9.5004299999855,
+    "prompt_tokens": 15349,
+    "completion_tokens": 797,
+    "cached_tokens": null,
+    "actual_fixed_three_messages_equal_prepared": true,
+    "route": "DIRECT exact configured host, environment proxy disabled, redirects refused, actual_peer UNKNOWN",
+    "caller_used_sha256": "ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6",
+    "one_canonical_CLI": true,
+    "dispatcher_terminal": "COMPLETED after PAIRED_END",
+    "lease_released": 1,
+    "occupied_after": 0,
+    "unknown_after": 0,
+    "model_grade": "PARTIAL_SOURCE_OBSERVATIONS_NO_QUALIFIED_NEW_COUNTER",
+    "review_limit": "Model incorrectly said the baseline sibling handler can catch an exception raised inside HTTPError handling; no model code adopted"
+  },
+  "caller_repair": {
+    "owner_authored": true,
+    "bounded_change": "Catch only HTTPError body OSError/IncompleteRead while preserving status retry decision; local evidence failure remains nonretryable",
+    "baseline_new_fault": "One synthetic ERROR: body-read OSError escaped dispatch after POST_BEGIN without END/SUMMARY",
+    "candidate_first_new_methods": 5,
+    "PASS": 5,
+    "old_green_suite_repeated": false,
+    "cases": [
+      "503 read OSError: six attempts and five backoffs",
+      "400 read OSError: one attempt",
+      "reader LocalEvidenceIOError: local/nonretryable",
+      "diagnostic file write OSError: local/nonretryable",
+      "incomplete error body then fresh complete SSE: no partial candidate reuse"
+    ],
+    "prepare_costs": "Host python alias failed before interpreter startup; exact installed executable resolved without PATH or installation changes",
+    "qualification": "Synthetic no-network witnesses, not actual transport fault injection; receipts require writable final sinks"
+  },
+  "handoff_limit": "Persistent immutable path descriptors and trusted owner-frozen spec/config/transitive inputs; no atomic child byte snapshot",
+  "persistent_once_limit": "All dispatchers must share the same dedicated dispatch and lease databases; UNKNOWN and RELEASED tombstones are never automatically replayed",
+  "bounded_history_limit": "Runtime reserve is capacity only; max_records fullness can refuse future Runtime admission",
+  "claims_not_made": [
+    "60 actual concurrent HTTP sustained",
+    "60 running cloud workers",
+    "backend slot or preemption",
+    "Game or Runtime integration",
+    "business speedup",
+    "net owner time saved"
+  ]
+}

@@ -177,3 +177,20 @@ python scripts/opencode_config.py --executor config/executor.json --workspace D:
 
 
 `snapshot()`另给`occupied_source`与`occupied_runtime`：同一事务中到期转换后，各lane的ACTIVE+UNKNOWN计数，二者和等于occupied，RELEASED排除。它们仍是client admission数据；预留Runtime容量不预留有限history条目，max_records满时仍会拒绝新Runtime。见[新增1项必要离线验证](evidence/2026-11-03-http-client-lane-snapshot.json)，不重跑原8项，不授服务slot或持续60。
+
+
+## 显式 ready 队列的一次派发与滚动回补
+
+[scripts/pool_dispatcher.py](../scripts/pool_dispatcher.py) 将既有 admission、lease 和 EVENTS observer 接成显式队列。每行恰有 `id/owner/spec_path/task_id/output_path/config_path/machine_id/lane`，绝对路径由可信 owner 提供并冻结；队列最多256行/64 KiB。`id` 是准入 token，`task_id` 是 caller 任务身份，两者分别唯一；输出目录也永久唯一。每个逻辑任务只创建一个 canonical caller CLI，其内部保留全部六次模型 HTTP 尝试。dispatcher 不预建 caller 的 `DISPATCH.claim`，不自行重启失败或 UNKNOWN CLI。
+
+使用独立的 dispatch SQLite 与 lease SQLite 文件，并让全部参与者共享这同一对数据库。`--once` 排空本次 ready 快照，`--queue` 默认循环重新读取显式文件并回补；stop file 同时传给 caller，停止新启动/下一次 POST并收尾本实例已持有的子进程。它不搜索或终止其它进程。空队列循环由 owner 明确 stop 结束。示例 argv 形状：
+
+```text
+python scripts/pool_dispatcher.py --queue READY.json --db /absolute/dispatch.db --lease-db /absolute/leases.db --python /absolute/python --caller /absolute/call.py --stop-file /absolute/STOP --capacity 60 --reserve-runtime 1
+```
+
+这些路径只是形状示例；Windows 使用本机实际绝对路径。`tick(ready)` 是一次选择/回收，`run_once(ready)` 排空当前快照，`run_file(path)` 持续刷新。仅本实例持有的 Popen handle 与实际 KNOWN、身份匹配、无未配对 POST 的终态可释放准入；退出码本身不是零 POST 证明。进程丢失、缺 EVENTS、半行或不确定派发保守记 UNKNOWN并保留容量，人工核实不能删除墓碑重发。不同进程必须共用持久库，有限历史满与容量不足分别报告。
+
+源任务保留一个未来 Runtime 客户端准入位置，但未接入活跃 Runtime caller，也不保证后端 slot、抢占或延迟。spec/config/源码内容由可信 owner 冻结；校验路径至子进程读取之间不是原子字节交接。实际源码 canary 已一次完整返回并释放准入，19个主见证是分版本增量通过，另4项在最终选定源码首验通过；不称最终19项一次全绿或持续60已达。原生38次工具请求、模型首失败、owner修正、完整成本和普通HTTP canary分别见[交付记录](evidence/2026-11-03-ready-dispatcher-native-and-first-source-canary.json)。
+
+HTTPError 的响应体读取若发生 OSError/IncompleteRead，现继续写本 attempt 的 RESULT/END/SUMMARY并保留原HTTP状态的重试判断；本地写失败仍不重试。5项新增无网见证与原基线故障分别保留。可按显式入口运行 `python -B scripts/witness_http_error_read.py --source scripts/call.py --result-dir .local-model-evidence/new-http-error-read-witness`；结果目录须为仓库内尚不存在的新目录。已通过的见证不为运营统计重跑。

@@ -1719,3 +1719,6 @@ Owner独立SQLite库经8项新无网络测试，包括12进程原子争3个sourc
 [Nominal后到2P](evidence/2026-11-03-http-nominal-later-test.json)、[正式](evidence/2026-11-03-http-nominal-later-formal.json)、[read guard后见](evidence/2026-11-03-http-nominal-read-guard-later.json)不抹去初次误读partial，也不新增HTTP分母。[known retry源切点](evidence/2026-11-03-http-known-retry-source-cutoff.json)、[新子协议](evidence/2026-11-03-http-protocol-child-source-267.json)、[known children Test源](evidence/2026-11-03-http-known-children-test-source-266.json)、[error poststate源](evidence/2026-11-03-http-error-poststate-source-256.json)按实际采用与未编测切点分别记录。
 
 [Reference decode owner软件](evidence/2026-11-03-http-reference-decode-owner-software.json)与[actor组合软件／正式后见](evidence/2026-11-03-http-composition-actor-software-later-formal.json)保0本地模型whole代码采用及有限新场景，均不授Runtime／速度／SAVE。
+
+
+- [First actual ready-dispatcher source canary](evidence/2026-11-03-ready-dispatcher-native-and-first-source-canary.json): one new caller-candidate counter, 200/stop/DONE, 2.425s effective-content TTFT and 9.500s total; request exactly matched the prepared three messages. Partial source observations only, no qualified new counter or model code adoption. Paired terminal evidence released one client reservation; this is not sustained HTTP concurrency proof.

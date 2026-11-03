@@ -365,10 +365,16 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
             retry = (status in policy["retry_http_statuses"]
                      if isinstance(exc, urllib.error.HTTPError) else True)
             if isinstance(exc, urllib.error.HTTPError):
-                error_body = exc.read()  # Network read, outside the local-write classifier.
                 try:
-                    local_io("writing " + prefix + "-HTTP-ERROR.txt",
-                             lambda: (out / (prefix + "-HTTP-ERROR.txt")).write_bytes(error_body))
+                    try:
+                        error_body = exc.read()  # Network read, outside the local-write classifier.
+                    except LocalEvidenceIOError:
+                        raise
+                    except (OSError, http.client.IncompleteRead) as read_exc:
+                        failure += "; HTTP error body read failed: " + repr(read_exc)
+                    else:
+                        local_io("writing " + prefix + "-HTTP-ERROR.txt",
+                                 lambda: (out / (prefix + "-HTTP-ERROR.txt")).write_bytes(error_body))
                 except LocalEvidenceIOError as local_exc:
                     failure, retry, local_evidence_io = str(local_exc), False, True
                     print("call.py: local evidence I/O failure: " + failure, file=sys.stderr, flush=True)
