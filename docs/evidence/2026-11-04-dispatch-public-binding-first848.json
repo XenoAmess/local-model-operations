@@ -1,0 +1,81 @@
+{
+  "case_id": "authorized-dispatch-planner03",
+  "mode_id": "http-candidate",
+  "stage": "FINAL_PUBLIC_BINDING_FIRST_LATER848",
+  "source_publication_commit": "0469e484e94169f3f53bf5cc09876f6f4516df0a",
+  "qualification": [
+    {
+      "phase": "test",
+      "child_seconds": 0.2934342999942601,
+      "exit_code": 0,
+      "actual_bytes": 5954,
+      "actual_sha256": "bdfd2d0ee8ed6473cd3c677a575bdca435bcd7846bc9338dd47395dacc4de2db",
+      "input_pins_equal": 12,
+      "durable_terminal_and_recorded_PID_birth_equal": true
+    },
+    {
+      "phase": "synthetic_cli",
+      "child_seconds": 0.22625440001138486,
+      "exit_code": 0,
+      "actual_bytes": 6394,
+      "actual_sha256": "65f387aa1ae701019fab499f151c5a9c1371198130cf791199b84e1871ff86b9",
+      "input_pins_equal": 12,
+      "durable_terminal_and_recorded_PID_birth_equal": true
+    }
+  ],
+  "public_source_bytes_unchanged": true,
+  "current_public_pin_order": [
+    "file00",
+    "file01",
+    "file02",
+    "file03",
+    "file04",
+    "file05",
+    "file06"
+  ],
+  "current_public_pins": [
+    {
+      "bytes": 8229,
+      "sha256": "13edbf077e9fe6a7bedaf493f39b245ce86cc935f3fe325533c9e59c625bb026"
+    },
+    {
+      "bytes": 7486,
+      "sha256": "abfe743d09ef1d1fab4abc73a8beb1f67af8501ea61dccfe2c60dbbca726c3c6"
+    },
+    {
+      "bytes": 8637,
+      "sha256": "1c6cdd81aa672f4e0d8b4874ed612ff64570b64d6314bc5581134c7b84a41202"
+    },
+    {
+      "bytes": 16681,
+      "sha256": "e58d9cbf21ce0ba0e0167f7cecd48b3e1ff24c7c291429b60041e7dbb44f1ffa"
+    },
+    {
+      "bytes": 8959,
+      "sha256": "d04cfd68596a0c17f149d39c4d7b6f1f05a0b7f89616f3866e115bc5cb5bdb2d"
+    },
+    {
+      "bytes": 1280,
+      "sha256": "ecac8e58c996e72c16c089c316f4d63fbdc3deb18e2e3ec2dbcd881d9096cb5f"
+    },
+    {
+      "bytes": 2261,
+      "sha256": "e58caa2ce144f9e9cb5b67d003a7d9a7d202df41b0904c10eae01dfa731ca8e9"
+    }
+  ],
+  "retained_cases": "Only the two changed public methods executed; the original eight AST-identical796 methods and old historicalCLI were not rerun.",
+  "synthetic_authority": "Planner new CLI generated one SEND DATA item with actual_start=false and plans_executed0; no tool was dispatched.",
+  "identity_scope": "The PID/birth value came from the retained original Popen HANDLE and agrees across terminal/ACTUAL. This is cross-record equality, not an independent pair of before/after birth observations.",
+  "read_only_consumption": "Whole ACTUALs, terminals, raw test summaries and synthetic plan consumed; current public sources and all12or14 inputs plus referenced Ready/Before/results independently rehashed. No target import, software run, current resource query or HTTP.",
+  "costs": {
+    "Native_source_preparation_wall_seconds": 324,
+    "metadata_helper_seconds": 0.1164022,
+    "shared_source_owner_consume_to_crosscheck_wall_seconds": 89,
+    "consume_window_is_shared_between_these_two_units_not_additive": true,
+    "active_exclusive_seconds": null,
+    "full_task_wall_seconds": null,
+    "child_seconds_are_not_owner_labor_or_savings": true
+  },
+  "model_attribution_unchanged": "Original partial decide with explicit owner tool-contract corrections remains unchanged; no model request for this public binding first.",
+  "limits": "DATA software qualification only. No live roster, grant truth, collaboration, network, DB, Game, Java, runtime, automatic sampling or measured saving. Earlier source/pending artifacts remain unchanged; this adds no model role or executed business case."
+}

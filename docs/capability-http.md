@@ -2215,3 +2215,10 @@ M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-co
 [Native843公开绑定独立first](evidence/2026-11-04-roster-public-binding-first843.json)：final公开生产10049/9cc362、Test14823/dba52e、API4746/901368与两原依赖均匹配actual，五个exact synthetic/mockedCLI方法首次全PASS，child0.4069864秒/unittest0.008秒，11pins前后等、retainedHANDLE出生同、raw→durable terminal→ACTUAL顺序核实。Models全文消费actual/terminal/stderr/config/scope/BEGIN/source-review并机械fresh核11inputs/refs，0重RUN/HTTP/lease查询。
 
 原fc73869f source-publication和private8235P切点不回填，不重private823/796/历史CLI，不把这些不同绑定相加成业务case。原模型仍1角色partial+3owner修，843无新model/code改变。已过的是纯DATA五方法；完整returned65及completed正文仍须人工保存，SHA只是serialization，globalUNKNOWN，0自动capture/collab/clock/network/DB/Game/Java授权，30–60秒采样或省工未实测。
+
+
+## 2026-11-04：planner与builder公开改变绑定首次后见
+
+[planner848](evidence/2026-11-04-dispatch-public-binding-first848.json)仅2affected方法0/0.2934343秒、12pins，另唯一新synthetic CLI0/0.2262544秒，产1个SEND DATA且actual_start=false/plansexecuted0；原796八个sameAST方法和历史CLI不重。[builder849](evidence/2026-11-04-pending-public-binding-first849.json)仅2changed方法0/0.3014663秒、14pins，原824三sameAST/整5及旧796/历史CLI均未重。三ACTUAL/Before/terminal/raw与当前public pins机械核等，recorded retainedHANDLE PID/birth跨记录一致，不伪称独立前后birth两观察。
+
+原source-publication/pending及原model attribution逐byte保留，不新增模型role或业务执行case。324/455秒源准备、.1164022/.003195秒metadata helper、共享89秒原owner消费窗口与三child耗时分开，不相加作active/CPU/节省。仅公开DATA软件资格，0当前授权真实性/actualdispatch/collab/DB/Game/Java/自动采样或速度。
