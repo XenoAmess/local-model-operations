@@ -1,0 +1,88 @@
+function createSafeReadCaller(execCommand, readerPrefix) {
+  function fail(code) {
+    const error = new Error("Read command rejected.");
+    error.code = code;
+    throw error;
+  }
+  function validPath(value) {
+    if (typeof value !== "string") return false;
+    const match = /^[A-Za-z]:[\\/](?:[A-Za-z0-9_.-]+[\\/])*[A-Za-z0-9_.-]+$/.exec(value);
+    if (match === null || match[0] !== value) return false;
+    return value.slice(3).split(/[\\/]/).every(segment => {
+      if (segment === "." || segment === ".." || segment.endsWith(".")) return false;
+      const stem = segment.split(".", 1)[0].toUpperCase();
+      return !/^(?:CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])$/.test(stem);
+    });
+  }
+  function validRange(start, end) {
+    return Number.isSafeInteger(start) && Number.isSafeInteger(end)
+      && start >= 1 && start <= end && end <= 2147483647
+      && end - start + 1 <= 300;
+  }
+  function validOutput(value) {
+    return Number.isSafeInteger(value) && value >= 1 && value <= 20000;
+  }
+  if (typeof execCommand !== "function") fail("INVALID_EXEC_COMMAND");
+  if (!Array.isArray(readerPrefix)) fail("INVALID_PREFIX");
+  let capturedReader;
+  try {
+    if (readerPrefix.length !== 1) fail("INVALID_PREFIX");
+    capturedReader = readerPrefix[0];
+  } catch (_) {
+    fail("INVALID_PREFIX");
+  }
+  // A single-token snapshot never dispatches input slice/iterator/species hooks.
+  const prefix = Object.freeze([capturedReader]);
+  if (!validPath(prefix[0]) || !prefix[0].toLowerCase().endsWith(".cmd")) {
+    fail("INVALID_PREFIX");
+  }
+  const issued = new WeakSet();
+
+  function prepareRead(dataPath, start, end, maxOutputTokens = 4500) {
+    if (!validPath(dataPath)) fail("INVALID_PATH");
+    if (!validRange(start, end)) fail("INVALID_RANGE");
+    if (!validOutput(maxOutputTokens)) fail("INVALID_OUTPUT");
+    const argv = Object.freeze([prefix[0], dataPath, String(start), String(end)]);
+    const command = argv.join(" ");
+    if (command.length > 4096) fail("COMMAND_TOO_LONG");
+    const request = Object.freeze({
+      cmd: command, shell: "cmd.exe", login: false,
+      max_output_tokens: maxOutputTokens
+    });
+    const plan = Object.freeze({
+      readerPrefix: prefix, argv, command, dataPath, start, end,
+      maxOutputTokens, request
+    });
+    issued.add(plan);
+    return plan;
+  }
+
+  function validatePlan(plan) {
+    // Provenance check first: unknown cyclic/getter-bearing values are not walked.
+    if (typeof plan !== "object" || plan === null || !issued.has(plan)) {
+      fail("UNRECOGNIZED_PLAN");
+    }
+    if (!validPath(plan.dataPath) || !validRange(plan.start, plan.end)
+        || !validOutput(plan.maxOutputTokens)) fail("INVALID_PLAN");
+    const expected = [prefix[0], plan.dataPath, String(plan.start), String(plan.end)];
+    const command = expected.join(" ");
+    if (!Object.isFrozen(plan) || plan.readerPrefix !== prefix
+        || !Object.isFrozen(plan.argv) || plan.argv.length !== expected.length
+        || !expected.every((token, index) => typeof plan.argv[index] === "string"
+          && plan.argv[index] === token)
+        || plan.command !== command || command.length > 4096) fail("INVALID_PLAN");
+    const request = plan.request;
+    if (!Object.isFrozen(request)
+        || Object.keys(request).sort().join(",") !== "cmd,login,max_output_tokens,shell"
+        || request.cmd !== command || request.shell !== "cmd.exe"
+        || request.login !== false
+        || request.max_output_tokens !== plan.maxOutputTokens) fail("INVALID_PLAN");
+    return request;
+  }
+
+  function read(dataPath, start, end, maxOutputTokens = 4500) {
+    const request = validatePlan(prepareRead(dataPath, start, end, maxOutputTokens));
+    return execCommand(request);
+  }
+  return Object.freeze({prepareRead, validatePlan, read});
+}

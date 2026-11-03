@@ -1,0 +1,94 @@
+async function runReadCallerFixtures(createSafeReadCaller) {
+  const passed = [];
+  let stubCalls = 0;
+  function check(value, message) {
+    if (!value) throw new Error(message);
+  }
+  function rejects(call, code) {
+    let caught = null;
+    try { call(); } catch (error) { caught = error; }
+    check(caught !== null && caught.code === code, "expected rejection: " + code);
+  }
+  {
+    const captured = [];
+    const sentinel = Object.freeze({stub: "entry-result"});
+    const caller = createSafeReadCaller(request => {
+      captured.push(request); stubCalls += 1; return sentinel;
+    }, ["D:/synthetic/read-lines.cmd"]);
+    const plan = caller.prepareRead("D:/synthetic/report.py", 11, 20, 7200);
+    check(captured.length === 0, "prepare must not invoke callback");
+    check(caller.validatePlan(plan) === plan.request, "validate returns exact request");
+    check(captured.length === 0, "validate must not invoke callback");
+    check(await caller.read("D:/synthetic/report.py", 11, 20, 7200) === sentinel,
+      "read must preserve callback result");
+    check(captured.length === 1, "read entry must invoke callback once");
+    const request = captured[0];
+    check(Object.keys(request).sort().join(",") === "cmd,login,max_output_tokens,shell",
+      "only exact exec fields may reach callback");
+    check(request.cmd === "D:/synthetic/read-lines.cmd D:/synthetic/report.py 11 20"
+      && request.shell === "cmd.exe" && request.login === false
+      && request.max_output_tokens === 7200 && Object.isFrozen(request),
+      "actual callback args differ from literal expectation");
+    passed.push("entry-to-final-exec-args");
+  }
+  {
+    const prefix = ["D:/synthetic/read-lines.cmd"];
+    const caller = createSafeReadCaller(() => { stubCalls += 1; }, prefix);
+    prefix[0] = "D:/synthetic/changed.cmd";
+    const plan = caller.prepareRead("D:/synthetic/data.json", 1, 300);
+    check(plan.argv[0] === "D:/synthetic/read-lines.cmd", "prefix input mutation leaked");
+    check(Object.isFrozen(caller) && Object.isFrozen(plan) && Object.isFrozen(plan.argv)
+      && Object.isFrozen(plan.readerPrefix) && Object.isFrozen(plan.request), "mutable plan field");
+    check(caller.validatePlan(plan).cmd ===
+      "D:/synthetic/read-lines.cmd D:/synthetic/data.json 1 300", "prefix/range drift");
+    for (const bad of [[], ["D:/synthetic/read.py"], ["D:/synthetic/read.exe"],
+      ["D:/synthetic/read-lines.cmd", "extra"], ["D:/../read.cmd"], ["D:/a&b/read.cmd"]]) {
+      rejects(() => createSafeReadCaller(() => {}, bad), "INVALID_PREFIX");
+    }
+    passed.push("captured-prefix-and-immutable-plan");
+  }
+  {
+    let calls = 0;
+    const callback = () => { calls += 1; stubCalls += 1; return "recovered"; };
+    const caller = createSafeReadCaller(callback, ["D:/synthetic/read-lines.cmd"]);
+    const other = createSafeReadCaller(callback, ["D:/synthetic/read-lines.cmd"]);
+    const cycle = {}; cycle.plan = cycle;
+    const getter = {};
+    Object.defineProperty(getter, "request", {get() { throw new Error("getter must not run"); }});
+    for (const value of [cycle, getter, null, other.prepareRead("D:/synthetic/data.md", 1, 1)]) {
+      rejects(() => caller.validatePlan(value), "UNRECOGNIZED_PLAN");
+    }
+    check(calls === 0, "rejected plan invoked callback");
+    check(await caller.read("D:/synthetic/data.md", 1, 1) === "recovered" && calls === 1,
+      "cyclic/foreign rejection poisoned later valid state");
+    passed.push("cyclic-foreign-rejection-then-valid-entry");
+  }
+  {
+    const captured = [];
+    const caller = createSafeReadCaller(request => {
+      captured.push(request); stubCalls += 1;
+    }, ["D:/synthetic/read-lines.cmd"]);
+    for (const extension of ["py", "java", "json", "md"]) {
+      await caller.read("D:/synthetic/data." + extension, 1, 1);
+      check(captured[captured.length - 1].cmd ===
+        "D:/synthetic/read-lines.cmd D:/synthetic/data." + extension + " 1 1",
+        "data extension changed executable slot");
+    }
+    const count = captured.length;
+    const cycle = {}; cycle.self = cycle;
+    const noCoercion = {valueOf() { throw new Error("must not coerce range"); }};
+    rejects(() => caller.read(cycle, 1, 1), "INVALID_PATH");
+    rejects(() => caller.read("D:/synthetic/data.md", noCoercion, 1), "INVALID_RANGE");
+    rejects(() => caller.read("D:/synthetic/data.md", 1, 301), "INVALID_RANGE");
+    rejects(() => caller.read("D:/synthetic/data.md", 1, 1, true), "INVALID_OUTPUT");
+    for (const path of ["D:/synthetic/NUL.json", "1:/synthetic/data.json",
+      "D:/synthetic//data.json", "D:/synthetic/data.json/", "D:/synthetic/data.json:stream",
+      "D:/synthetic/data.json\n"]) {
+      rejects(() => caller.read(path, 1, 1), "INVALID_PATH");
+    }
+    check(captured.length === count, "rejected entry reached callback");
+    passed.push("data-slot-and-invalid-entry-no-exec");
+  }
+  return {newCases: passed.length, passed, capturingStubCalls: stubCalls,
+    actualToolCalls: 0, networkCalls: 0, oldPythonTestsRun: 0};
+}

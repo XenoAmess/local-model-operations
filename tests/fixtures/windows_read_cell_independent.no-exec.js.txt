@@ -1,0 +1,102 @@
+// Source-only independent witnesses, v3. Do not run in this review task.
+// No top-level invocation. Three groups retained; default invocation runs only the two changed groups.
+function runReadPreludeIndependentWitnessesV3(createSafeReadCaller, includeUnchangedBoundary = false) {
+  const reader = "D:/synthetic/read-lines.cmd";
+  const data = "D:/synthetic/oracle-data.json";
+  const passed = [];
+
+  function assert(condition, label) {
+    if (!condition) throw new Error(label);
+  }
+  function rejected(operation, label) {
+    let failure;
+    try { operation(); } catch (error) { failure = error; }
+    assert(failure instanceof Error, label + ": expected Error");
+    assert(typeof failure.code === "string" && /^[A-Z][A-Z0-9_]*$/.test(failure.code), label + ": uppercase code");
+    assert(typeof failure.message === "string", label + ": fixed message type");
+    return failure;
+  }
+
+  function numericAndExactRequestBoundary() {
+    const captures = [];
+    const api = createSafeReadCaller(request => { captures.push(request); }, [reader]);
+    api.read(data, 2147483348, 2147483647, 20000);
+    assert(captures.length === 1, "boundary: one accepted request");
+    const request = captures[0];
+    const keys = Reflect.ownKeys(request);
+    assert(keys.length === 4 && ["cmd", "shell", "login", "max_output_tokens"].every(key => keys.includes(key)), "boundary: exact own request keys");
+    assert(request.cmd === reader + " " + data + " 2147483348 2147483647", "boundary: exact command");
+    assert(request.shell === "cmd.exe" && request.login === false && request.max_output_tokens === 20000, "boundary: exact fixed execution arguments");
+    assert(Object.isFrozen(request), "boundary: frozen request");
+    rejected(() => api.read(data, 2147483347, 2147483647, 20000), "301 inclusive lines");
+    rejected(() => api.read(data, 2147483348, 2147483648, 20000), "end above signed-int ceiling");
+    rejected(() => api.read(data, 2147483348, 2147483647, 20001), "output above ceiling");
+    assert(captures.length === 1, "boundary: rejected inputs did not invoke callback");
+    passed.push("numeric-and-exact-request-boundary");
+  }
+
+  function unknownPlanAccessOrder() {
+    let callbacks = 0;
+    let accessorHits = 0;
+    const api = createSafeReadCaller(() => { callbacks += 1; }, [reader]);
+    const foreign = Object.create(null);
+    for (const key of ["readerPrefix", "argv", "command", "dataPath", "start", "end", "maxOutputTokens", "request", "prefix", "toString", "toJSON", Symbol.toPrimitive]) {
+      Object.defineProperty(foreign, key, {
+        get() { accessorHits += 1; throw new Error("ACCESSOR_MUST_NOT_RUN"); }
+      });
+    }
+    const first = rejected(() => api.validatePlan(foreign), "unknown accessor plan first");
+    const second = rejected(() => api.validatePlan(foreign), "unknown accessor plan second");
+    assert(first.code === second.code && first.message === second.message, "unknown plan: stable code and fixed message");
+    assert(accessorHits === 0 && callbacks === 0, "unknown plan: reject before inspection or execution");
+    passed.push("unknown-plan-access-order");
+  }
+
+  function copyPrefixBeforeValidation() {
+    let getterHits = 0;
+    let sliceCalls = 0;
+    let callbacks = 0;
+    const original = [];
+    Object.defineProperty(original, "0", {
+      configurable: true,
+      enumerable: true,
+      get() {
+        getterHits += 1;
+        Object.defineProperty(original, "0", { configurable: true, enumerable: true, writable: true, value: "C:\\bad prefix.cmd" });
+        return reader;
+      }
+    });
+    original.slice = function () {
+      sliceCalls += 1;
+      return ["C:\\other-reader.cmd"];
+    };
+    const api = createSafeReadCaller(() => { callbacks += 1; }, original);
+    assert(sliceCalls === 0, "prefix: input slice method not dispatched");
+    assert(getterHits === 1, "prefix: source element copied once");
+    assert(original[0] === "C:\\bad prefix.cmd", "prefix: witness changed original during copying");
+    const plan = api.prepareRead(data, 1, 1);
+    const request = api.validatePlan(plan);
+    assert(request.cmd === reader + " " + data + " 1 1", "prefix: copied token retained");
+    assert(callbacks === 0, "prefix: metadata path never invokes callback");
+
+    const throwing = [];
+    Object.defineProperty(throwing, "0", {
+      get() { throw new Error("INPUT_PREFIX_GETTER_SENTINEL"); }
+    });
+    const failure = rejected(() => createSafeReadCaller(() => { callbacks += 1; }, throwing), "prefix getter exception");
+    assert(failure.message !== "INPUT_PREFIX_GETTER_SENTINEL", "prefix: input exception normalized");
+    const alternateThrowing = [];
+    Object.defineProperty(alternateThrowing, "0", {
+      get() { throw new Error("SECOND_DISTINCT_PREFIX_SENTINEL"); }
+    });
+    const alternateFailure = rejected(() => createSafeReadCaller(() => { callbacks += 1; }, alternateThrowing), "second prefix getter exception");
+    assert(failure.code === alternateFailure.code && failure.message === alternateFailure.message, "prefix: fixed rejection independent of thrown input message");
+    assert(callbacks === 0, "prefix: throwing capture never invokes callback");
+    passed.push("copy-prefix-before-validation");
+  }
+
+  if (includeUnchangedBoundary === true) numericAndExactRequestBoundary();
+  unknownPlanAccessOrder();
+  copyPrefixBeforeValidation();
+  return Object.freeze(passed);
+}

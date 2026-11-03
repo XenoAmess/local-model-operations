@@ -2000,3 +2000,8 @@ Both software receipts observed Windows CRLF from platform println. Earlier logi
 - 同案例正式附页：[M0 parsed-ending](evidence/2026-11-04-http-m0-parsed-ending-formal-later.json)、[M5 decimal108](evidence/2026-11-04-http-m5-decimal108-formal-later.json)，未重验或追授combined formal编译。
 - M3源切点：[278](evidence/2026-11-04-http-m3-278-source.json)、[279](evidence/2026-11-04-http-m3-279-source.json)、[280](evidence/2026-11-04-http-m3-280-source.json)、[281](evidence/2026-11-04-http-m3-281-source.json)、[281 direct](evidence/2026-11-04-http-m3-281-direct-source.json)、[282](evidence/2026-11-04-http-m3-282-source.json)、[283](evidence/2026-11-04-http-m3-283-source.json)。保方法raw与owner整Test、oracle可见等级、输入冲突、length整弃及并发观察勘误。
 - 另两源单元：[M6 generic childthrow259](evidence/2026-11-04-http-m6-generic-childthrow259-source.json)、[M2 657](evidence/2026-11-04-http-m2-657-source.json)。source-only切点不授后续Test、实机或性能。
+
+
+## 2026-11-04：V8只读命令实际接线
+
+[可移植factory及使用指南](windows-read-command-guard.md)保留完整定义正文与主4组原字节；独立3组只替换两条合成路径，并机械正逆核对，未为发布重跑。原741解析失败、745七组首次通过与两个实际cell读取分列；模型实现整拒、最终owner源码不冒充模型产物。只授具名cell接线，直接工具仍可绕过，不授全team或OS沙箱。[实际范围、采用与未知成本](evidence/2026-11-04-windows-v8-read-cell-delivery.json)。

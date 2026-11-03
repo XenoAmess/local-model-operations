@@ -194,3 +194,6 @@ python scripts/pool_dispatcher.py --queue READY.json --db /absolute/dispatch.db 
 源任务保留一个未来 Runtime 客户端准入位置，但未接入活跃 Runtime caller，也不保证后端 slot、抢占或延迟。spec/config/源码内容由可信 owner 冻结；校验路径至子进程读取之间不是原子字节交接。实际源码 canary 已一次完整返回并释放准入，19个主见证是分版本增量通过，另4项在最终选定源码首验通过；不称最终19项一次全绿或持续60已达。原生38次工具请求、模型首失败、owner修正、完整成本和普通HTTP canary分别见[交付记录](evidence/2026-11-03-ready-dispatcher-native-and-first-source-canary.json)。
 
 HTTPError 的响应体读取若发生 OSError/IncompleteRead，现继续写本 attempt 的 RESULT/END/SUMMARY并保留原HTTP状态的重试判断；本地写失败仍不重试。5项新增无网见证与原基线故障分别保留。可按显式入口运行 `python -B scripts/witness_http_error_read.py --source scripts/call.py --result-dir .local-model-evidence/new-http-error-read-witness`；结果目录须为仓库内尚不存在的新目录。已通过的见证不为运营统计重跑。
+
+
+Windows宿主逐cell只读命令可复用[已验证的V8 factory与显式本机binding](windows-read-command-guard.md)。目标路径只作数据；该片段不自动接入其它worker，也不替代reader源码、文件身份或OS权限核实。
