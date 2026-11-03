@@ -1,0 +1,82 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B082-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T21:44:35.419074+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T21:35:21.498125+00:00",
+    "window_ended_at_utc": "2026-11-03T21:35:27.467998+00:00",
+    "window_seconds": 5.969873,
+    "peak": 1,
+    "peak_duration_seconds": 5.969873,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b082-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 940,
+        "completion_tokens": 657,
+        "total_tokens": 1597
+      },
+      "failure": null,
+      "content_ttft_ms": 415.45239998959005,
+      "total_ms": 5969.8769999668,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "e839d9deda639692bf08dff658f6e78601ec2d1020d979a50c120184f354cb86",
+      "summary_sha256": "ba9050c3448be0d838b71411a108b52cdf705be43bc631f6b8f97bf72f82359e",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "bbac44527090e7736087fbfcecb8921d231801509644b618de3ecdbc9917f4c0",
+        "task_id": "hoi4-20261104-b082-prompt-01",
+        "request_sha256": "e839d9deda639692bf08dff658f6e78601ec2d1020d979a50c120184f354cb86",
+        "summary_sha256": "ba9050c3448be0d838b71411a108b52cdf705be43bc631f6b8f97bf72f82359e",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Main supplied real wavy updo/eyebrow hair, clean face, dark olive/brown wrapped garment/crossing gold V edging and exact pose/backing retained.",
+          "Restated raised broad wrapped collar and short round chin separately from the genuine garment V; canonical LOW hair/alpha rules appended. No text-model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2731,
+        953
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b082-sources.json",
+    "sha256": "78ab3d6dc4f40f43501a8b43dc5f2a86ae7449a01a71cb65af9dd49daf412e3d",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T21:39:25.461776+00:00",
+  "stage_at_cutoff": "One prepared uncalled fresh LOW prompt at saved cutoff. One image per window with HIGH recheck. Source has real voluminous wavy updo and olive/brown wrapped garment with crossing gold-edged OPEN V, rather than Western suit/shirt/tie. Small primary and matching larger analysis context were actually viewed. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Candidate prompt retained supplied real updo/eyebrow HAIR, clean closed face, olive/brown wrapped garment/gold crossing OPEN V and primary direction/crop/blue-grey backing. No drafting/protocol echo or generic suit substitution observed in this one complete prompt. Owner partially adopted with exact-source restatement distinguishing genuine garment V from forbidden long yellow V neck, plus canonical LOW hair/alpha constraints. No pixels, visual approval, controlled improvement or measured savings.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
