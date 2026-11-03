@@ -1409,3 +1409,8 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [owned focus独立软件witness附页](evidence/2026-11-03-http-owned-focus-software-witness-annex.json)只计M0一个真实未写Test角色，不把其1POST/7P重复加到M7来源角色或旧371。16物理输入是14wholeJava+2API文本，113547B/actualsource116145B；未给candidate/owneroracle，但原prefix漏一直接helper声明，后补owner不倒授输入齐全。1STOP/TTFT3.5040916s/total22.3775189s，whole Test拒收，仅sharedmethod delegate机械片段部分采，owner重构。三次Teststrict(2/1/1TU)与两次grant/START前撤RUN不伪JUnit红，最终7首次P/0oldRUN；poll/ACK、geometry/IAE与lazy lambda元数据owner纠正保。marked1415.598998wall/process21.7137788/active-netSaving NULL分列，仅public protocol DATA/Win32 transcript与shared production branches软件资格，不授真实Managed/windowfocus、硬件因果、Runtime或实速。正式后见另附，不门业务。
+
+
+[owned focus生产source与共享witness](evidence/2026-11-03-http-owned-focus-source-and-shared-witness.json)是M7批准正文，不另造M0的1POST/7P：前43whole导航两STOP（初缺mandatory/discovery直体后补）与新18whole实施/反审各reset→retry STOP分role/cost；4逻辑6实际，whole实现0prodcode/反审0新finding，owner两叶及REV02 pre-focus deadline保护。正式3a52b4a7和[M0极小后见](evidence/2026-11-03-http-owned-focus-witness-later-formal.json)关联同7methods，仅软件shared branches/publicDATA，不授真实Managed/focus/Core恢复/装载/实速；1871.581028 markedwall/六process27.1270211与activeNULL分开，JBoss235Bstderr保留非空，59B独立baseline谓词差异不冒whole compiledRoot=formal，旧Test2447切点不改。
+
+[同次70→470 FP carrier薄组合](evidence/2026-11-03-http-same-call-fp-carrier-composition.json)新2STOP/峰2仅13.000572s；强signature/factory/order/sharedRAM-budget提示下1393R1整raw0owner，成熟算法仅复用。Audit未见candidate/0oracle且StopSignal措辞限同StoppedOutcome。Owner13611四新whole组，outline prePOST/full END后CONTENT前非生成前；实际三first0/4console非JUnit、1824.826824仅晚clock下界/activeNULL/formalpending保。早口头成熟时ACTUAL不存在未授绿，到真实receipt才闭，不重编造证；不授七deepCALL原生算法、Native172或实机。
