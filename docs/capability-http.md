@@ -1345,3 +1345,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 234 [批准正式后见](evidence/2026-11-03-http-canonical-assessment-later-formal.json)c694f4e7三leaf正常发表，M6独立只读blob核：ownercore33648→33191仅LF/尾白投影，consumer5198与Test20479 raw精等/三者EOF保，formal总58868B不冒raw总数。原2263正文/source/softwarepending切点保持；三first/10scene40checks只复用，0新增HTTP/JVM/RUN。coreowner、consumerR2+2owner修/counterpartial0oracle归因不变，成功privateSession export/ordinaryorigin/natural/loaded/速度仍OPEN。Native独立metadata类型预检错0JVM归准备，不改source或模型grade。
+
+
+626 [eleven-site FP/direction carrier与构造顺序修正](evidence/2026-11-03-http-eleven-site-fp-carrier-constructor-repair.json)批准4222B原样：API/audit18实体60332physical/msg64135，binder59实体307975/msg321851，APIrepair19实体加完整R1；4POST3STOP+1length/0transportretry/峰3仅23.114776s。7370 binder完整R1 raw0ownerJava；9681 API compact-record ctor在隐式field赋值前读instance accessor，源审预编拒，owner一canonicalctor/字段赋值hunk修至10048，partial非whole raw API。唯一API R2length中，owner同exec wait后误读截断CONTENT，0片段采用但不能记unread；原流保，0R3。NONE审未见candidate/0oracle。Owner11439完整Test在三个R1 END后、任意CONTENT前冻，非pre-generation；首RUN在第二Memoryevent RED因owner nonvolatile snapshot ctor参数次序错，唯一helper重排恢复原outline，生产/期待trace不变。保首RED→Test02四组P，五actualprocess3.1990906含RED，1071.325823仅晚clock下界/fullstart-activeNULL/两coordinationgap不当CPU。原formalpending，后JUnit只同四组，不授lowerOS/TLS/fullPage/currentMXCSR/XMM7..15/Native172或速度。
