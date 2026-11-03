@@ -2176,3 +2176,10 @@ M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-co
 [API](../scripts/authorized_dispatch/PENDING-API.v1.txt)、[使用说明](../scripts/authorized_dispatch/PENDING-README.txt)、[原案资格与公开绑定边界](../scripts/authorized_dispatch/PENDING-QUALIFICATION.txt)及[模型/成本记录](evidence/2026-11-04-http-pending-data-builder824.json)。模型1STOP6.646463秒整拒0码，owner生产4500字节原样发表；原824五方法0/.3441912秒、15pins，0重796。公开Test前3方法AST不变，另2个D scratch/合成fixture绑定未run，后继仅必要对应first，不借旧5P。
 
 工具只把显式curation构造为原planner的pending DATA；保留负向决定、独立roots及原UTF8/CRLF正文hash，0自动授权/派发/clock。三专名SYNTHETIC-BUILDER824夹具与03夹具并存，不是当前授权；727秒源码审阅、379秒metadata、165秒portable及51秒命名delta分别记录，active未知、未证成本节省。
+
+
+## 2026-11-04：单新case审阅与名义adapter源码
+
+[单一zero-divisor新case323](evidence/2026-11-04-http-m3-zero-divisor323-source.json)：11既有case去重后只写1新manual，owner全Test，唯一oracle-visible候选反审1STOP5.256920秒/106tokens无具体finding；仅source，未持编RUN，不重既有绿、不授独立oracle或硬件异常。
+
+[同RAM十七口adapter664](evidence/2026-11-04-http-m2-memory-adapter664-source.json)：69完整实体与强forwarding合同下，1STOP850tokens的3072字节实现rawexact采用/ownerJava0；另一1STOP197tokens仅planned-source九predicate，无candidate、数值oracle或软件信用。两请求30.621213/26.556141秒、TTFT24.641719/25.251218分别列；父两次回执/REQUEST导航误单记准备成本，非服务故障。新whole仍未完成，source-selected不授编译、ABI、Runtime、自然或提速；原cutoffs不回填。
