@@ -1,0 +1,27 @@
+Lifecycle60: parent full-text review complete; Models is explicitly authorized to publish this entire sanitized payload. Only this payload is public; private indices, raw source, prompts and responses remain private.
+
+Original historical body, retained below. Its draft-authorization and pending statements apply only to that earlier cutoff.
+
+Lifecycle60 将三项私有 DATA 源码改动合成一个交付单元，当前为待父级全文审阅的 portable 正文草稿，正式采用仍待处理。联合源为8491字节，SHA-256 为321f932916f01bc6f3e46275922e37025c3ad9e948c18b1075440c07b3bb16ff。三项改动共四处联合 literal；三个独立版本各自的原始 delta 均已重建，并能从联合版逐字节投影还原。完整逆变换恢复全部8278字节原源，未夹带格式化或其它源码改动。
+
+第一项改动让 encode 在原有验证后直接使用本次解析产生的私有 ObjectNode，省去该处重复的容器 deepCopy。资格来自已冻结的完整项目与精确库源：入口是持有私有克隆字节的 RawJson，私有 mapper 的默认具体 factory 新建对象、数组及其子容器，没有外部可变容器别名、调用方自定义节点或工厂回调进入这棵树。原副本复制对具体标量叶本已保留同一身份。变换后的树不作为公开对象逸出；原 RawJson 字节继续独立承担 decimal 词法保留及 roundtrip 原件比较，嵌套 decode 再解析出新树。这个结论仅覆盖该私有来源链，不能扩成任意公开 JsonNode 或自定义数值输入的通用许可。
+
+第二项改动共享固定规范十进制格式的不可变 Pattern，每次真正到达原第三个短路操作数时仍新建 Matcher。原 isTextual、长度检查和 textValue 读取顺序保留；Matcher 的输入、分组、游标等状态不跨调用共享。第三项改动共享私有不可变 DEATH Role/List，其 required 为 false，路径仍是不可变的 revision 元数据。原 required=true 的其它角色和遍历顺序保留；每次遍历仍取得独立迭代器。两种静态元数据都不保存 JsonNode、RawJson、Matcher 或本次输入。
+
+全部原静态 metadata 仍先初始化，再初始化 DEATH 元数据和 Pattern。新增对象会随类加载器常驻；其它入口也会承担初始化成本。首次使用、常驻内存、资源耗尽及类初始化失败时机可能变化。原逻辑中的部分分配也可能早已被 JIT 消除。这里报告的是源码结构变化，没有实际分配量、CPU、延迟或实际提速结论。
+
+模型采用记录只有 Pattern 的两次真实 HTTP 请求，分别承担 implementation 与 counter 角色，两次均终结。implementation 的完整 usage span 把 getter 提前，因违反既有求值顺序而整体拒收，原 span 执行次数为0；仅设计部分采用，再由 owner 完成两处最终 Pattern literal 修正。counter 审的是设计，未审最终 owner 代码。JSON 有效不产生语义或软件信用。deepCopy 和 DEATH 元数据两项均为离线 owner 源码工作，Qwen 请求为0。联合版没有新增模型请求；这两次 Pattern POST 只在原账本计一次，后续引用或 portable 整理不重新计数。
+
+联合最终源只做了一次必要的单生产 TU strict 编译，退出0，用时3.6491028秒。实际输出为三个 class：LifecyclePublicResultCodec、LifecyclePublicResultCodec$Role 和 LifecyclePublicResultCodec$1。历史 SourceReady 曾预测两个输出，该预测保留为历史，当前以三个实际输出为准。独立 Pattern46 版本仍为0 START，不借用其软件结果，也不改写各份历史 SourceReady。
+
+唯一新增、由 owner 独立编写的 Test 做了一次 strict 编译，退出0，用时1.8947765秒；随后仅运行三个具名新方法，JUnit 退出0，用时2.5293772秒。三个不同 XML 身份均通过，跳过、失败和错误均为0。源码中的29个 tiny cases 按4、19、6分组：optional revision 与保留 DATA 的连续调用检查；规范十进制、长度、Unicode 和错误类型检查；极端 decimal scale、原 token 及错误先后检查。29是源码小情形数，JUnit 通过方法数为3。这些动态结果只覆盖公开 DEATH DATA 包装入口；CONTINUE_SUCCESSOR 和 reconciliation 仅有源码资格，没有据此获得动态覆盖。没有私有分配身份、并发或性能断言。
+
+完整六份 stdout/stderr 与三份 XML 均按原字节保留，未过滤 ERROR/INFO。选定三阶段的 stderr 均为空，历史失败记录仍保留。75个配置 pins 有执行 owner 的两阶段 unchanged 回执；其中29个文本、源码及证据 pins 经独立重算，46个二进制 pins 引用执行回执，未被本 portable 作者读取或反汇编。测试 classpath 前缀指向本次联合生产输出；具体软件结果与精确联合源关联，整个依赖/JDK 源到二进制的可复现性及实际运行 loader 映射仍为 UNKNOWN。
+
+成本按窗口分账。2026-11-03 08:15:40.506837 UTC 的首次源码 PREP 到10:29:20.468147 UTC 的软件证据完整性封口，实际 marked wall 为8019.961310秒。这个窗口包括源码与 JDK 取源、原库源缺口及等待、首次 Python 检查失败及修正、模型等待和 owner 修正、联合审阅、独立 Test 准备、编译运行及收口间隙。原库源缺口从首候选到精确来源资格闭合耗时1698.322845秒，未被剔除。生产编译开始到 JUnit 结束的窗口为207.228578秒；三阶段进程耗时分别为3.6491028、1.8947765、2.5293772秒，合计8.0732565秒，不能代替端到端窗口。Pattern 两个 HTTP 的并行墙钟为179.500974秒，两角色耗时之和为355.1763599秒，不能当成墙钟；各阶段窗口重叠，不能相加。active_seconds 与 CPU 时间均为 null，首次 PREP 前未标记时间也未知。本次 portable 起草另记准备和封口时刻，不把两任务之间的其它工作记成模型执行或性能收益。
+
+本单元尚未授予正式发表、运行采用或实机效果。没有 runtime、Game/SAVE 或性能信用，初始化与资源代价仍按上述边界保留。此正文和私用证据索引只交父级全文审阅；父级另行许可之前不发送 Models，也不在本岗直接公开或发表。
+
+
+Additive parent review and current-status note:
+The historical pending status above is superseded only by this additive formal receipt: commit 0dbc61f7c89cb9a3c2fb42fcb93a06861ab355a2, both source blobs equal the selected raw tuple; no new compilation or execution. Original SourceReady and final-delivery cutoffs remain unchanged. The two existing Pattern roles had HTTP200/stop/DONE, strict JSON VALID, one attempt each and zero retries. Implementation budget4000, TTFT90.5453761s, total175.6753901s, prompt172152/completion602. Counter budget3500, TTFT56.4238205s, total179.5009698s, prompt172111/completion803. Cached tokens were null. Historical raw prefix706005B became705678B under newline normalization; actual request SHA-256 values are48ca5879aecc7e652c0e2cb5b49afc3c5c23eb701f49b4b899102dd9e717c5ac and9c8c952d7572cc66cf912d964c7a5f2cd979d4b2a6e489f5458befc382e88a9a. Unextracted caller/configuration version fields remain UNKNOWN here. These are the same two requests and three DEATH methods, counted once. No runtime or performance credit.

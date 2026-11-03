@@ -1700,3 +1700,10 @@ Owner独立SQLite库经8项新无网络测试，包括12进程原子争3个sourc
 
 
 持久lease新增[同事务lane占用投影](evidence/2026-11-03-http-client-lane-snapshot.json)：1项新隔离SQLite用例覆盖ACTIVE／UNKNOWN／RELEASED，仍仅客户端准入DATA，实际一次派发／HTTP与Runtime接线单独验收。
+
+
+后到批准的独立source parent：[Object tree](evidence/2026-11-03-http-object-tree-source-software.txt)、[Snapshot](evidence/2026-11-03-http-snapshot-source-software.json)、[Lifecycle](evidence/2026-11-03-http-lifecycle-source-software.txt)、[Decimal两source角色](evidence/2026-11-03-http-decimal-source-stage.md)及[同parent唯一Test角色](evidence/2026-11-03-http-decimal-test-source-stage.md)、[FullTree同2方法final tuple](evidence/2026-11-03-http-full-tree-final-tuple-behavior-later.txt)。各旧HTTP／新P只按所属原分母计一次；原draft/pending为历史切点，当前许可和正式后见另列。六次attempt含首次至多五次重试；文档非ASCII准备错不归模型或Java。
+
+[Nominal后到2P](evidence/2026-11-03-http-nominal-later-test.json)、[正式](evidence/2026-11-03-http-nominal-later-formal.json)、[read guard后见](evidence/2026-11-03-http-nominal-read-guard-later.json)不抹去初次误读partial，也不新增HTTP分母。[known retry源切点](evidence/2026-11-03-http-known-retry-source-cutoff.json)、[新子协议](evidence/2026-11-03-http-protocol-child-source-267.json)、[known children Test源](evidence/2026-11-03-http-known-children-test-source-266.json)、[error poststate源](evidence/2026-11-03-http-error-poststate-source-256.json)按实际采用与未编测切点分别记录。
+
+[Reference decode owner软件](evidence/2026-11-03-http-reference-decode-owner-software.json)与[actor组合软件／正式后见](evidence/2026-11-03-http-composition-actor-software-later-formal.json)保0本地模型whole代码采用及有限新场景，均不授Runtime／速度／SAVE。

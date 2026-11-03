@@ -1,0 +1,69 @@
+Object57 portable experience, approved after parent full-text review. The original software/source cutoff recorded formal adoption as pending; an additive later receipt confirms formal commit 21df7724ecd81afdfbf273dc8353230b962410f8, with the two raw source blobs retained exactly and no new execution. Original cutoffs remain unchanged. Runtime adoption and performance credit are zero.
+
+The original path performs one complete JSON parse, then builds an immutable semantic representation and rebuilds a mutable node tree. The narrow change removes those two representation conversions. It retains the same complete parser and transfers its freshly created object tree. Qualification depends on the actual final byte-wrapper entry, input/accessor cloning, standard factory declarations and complete callees. It does not narrow arbitrary public JsonNode, subclass or mutable-number contracts. BigInteger is not final: the actual parser producer, rather than its type name, closes that obligation.
+
+Root qualification and subsequent validation remain. Every returned root and nested container stays independently mutable; sharing cached containers would violate the contract. Integer categories, exact decimal tokens, signed floating zero and exponent spelling retain their original obligations. Ordinary string escape spelling and integer negative-zero spelling are not incorrectly promised as preserved lexical tokens.
+
+The four actual model roles have separate adoption records:
+
+| Role | Reviewed outcome and adoption |
+| --- | --- |
+| Implementation45 | Whole patch and proof rejected: import, return typing and patch structure were defective. Two exact executable statements were selected after review; the owner supplied four changed lines. The design and exception contract were already frozen before dispatch, so no model design-discovery credit is assigned. |
+| Counter45 | Natural stop and valid JSON, but requested fields and the final finding were incomplete, with a wrong root-exception inference. Whole counter review rejected. This is semantic/task incompleteness, not a transport-truncation claim. |
+| NewTest47 | Whole model Test adoption is zero. It expected the wrong concrete exception, omitted checked-charset exception handling, and lacked meaningful Unicode and nested-container isolation coverage. Correct partial concepts are not executable adoption. The owner authored the entire unique new Test from an independent earlier oracle and newly closed BOM sources, after seeing the answer: design-aware, not blind. |
+| AdmissionCounter47 | Its proposed root-exception correction was false, and it missed the fixture-content error. This shorter source prefix omitted two direct callee declarations that determine the exception. Owner source closure cannot be retroactively credited to the model's input or answer. |
+
+The actual root exception is decided before the final object cast: complete parsing and semantic-root qualification run first. Legitimate non-object inputs retain the concrete IllegalArgumentException, its message and absent cause. ClassCastException and a particular IllegalArgumentException subclass are not interchangeable substitutes. The fuller implementation/new-Test prefixes already supplied the relevant declarations and still required correction; only the shorter fixture-counter prefix had that specific declaration gap.
+
+Byte and character entry points are distinct. The byte wrapper first checks strict UTF-8 decodability, then invokes a byte parser that detects encodings. The complete parser first decodes original bytes as UTF-8 into String, then uses character parsing. UTF-8 BOM handling differs between byte bootstrap and String parsing. ASCII UTF-16/32 byte streams can pass UTF-8 decodability yet fail complete String parsing because of NULs. Retaining the same complete parser preserves this existing admission/failure boundary.
+
+Name-length units also require actual call-chain evidence: this byte-name insertion path measures UTF-8 name bytes, while the character-name table measures UTF-16 units. A cache hit need not repeat the insertion check; this unit preserves the original parser/cache paths instead of inventing an unconditional per-hit validation argument.
+
+Initial admission51 mislabeled two actual ASCII-question-mark files as U+00E9 data. Matching hashes proved unchanged originals, not correct descriptions. Later correction63 preserved those originals, corrected one admission result and both content/coverage descriptions. Correction64 created two distinct real U+00E9 files using code-point construction and one UTF-8 encoding. The names have25000/25001 code points,50000/50002 UTF-8 bytes and25000/25001 UTF-16 units; file sizes are50006/50008 bytes. Source prediction: the first is admitted through both wrapper constructors and object projection; the second fails both wrapper constructors at the name gate, although the complete character parser alone admits it. The latter cannot be fabricated as a legitimate public wrapper input. All admission data and these corrections remain source-only, with zero P. The model did not discover the owner's data-production error.
+
+Existing software receipts record one production source TU compiling exit0 in3.628452s, one owner Test source TU compiling exit0 in1.706401s, and JUnit exit0 in2.214117s. XML identity deduplication yields three new passing methods. Coverage is public values/categories and Unicode, source-byte and nested-container isolation, exact non-object exceptions, and BOM parsing failure before root qualification. Model executable Test adoption is0; owner whole-Test authorship is one class/three methods. Assertions, input variants, source fixtures and old passes are not additional P. The U+00E9 name boundary and large-size/depth edges do not acquire dynamic coverage from these three methods.
+
+The software window used JDK21,192MiB maximum heap, active-processor parameter1 and30s stage timeouts. Its configuration and class family are limited to the recorded software tuple. Product-process loading, complete dependency binary reproducibility and measured speed were not accepted in this unit. Formal status remains pending at the original frozen cut; there is no later formal-status inference.
+
+Actual request metrics follow. TTFT means first nonempty valid content, not headers or reasoning. Seconds are rounded to six decimals here; the private index retains original precision.
+
+| Role | output budget | valid-content TTFT, s | total, s | prompt / completion / total tokens |
+| --- | ---: | ---: | ---: | --- |
+| Implementation45 | 4000 | 48.480448 | 69.011850 | 185973 / 2406 / 188379 |
+| Counter45 | 4000 | 48.276727 | 57.811824 | 185994 / 843 / 186837 |
+| NewTest47 | 5000 | 39.634708 | 48.298298 | 186298 / 1143 / 187441 |
+| AdmissionCounter47 | 4500 | 26.392108 | 58.012783 | 108485 / 2776 / 111261 |
+
+All four requests had one POST attempt each, HTTP200, natural complete stop, SSE done and syntactically valid JSON; retries were0. Syntax completeness grants no semantic or executable qualification. Totals are666750 prompt,7168 completion and673918 overall tokens. Cached-token reporting was NULL for every role; reused prefixes do not prove cache hits. Summed individual request latency is233.134755s and includes parallel overlap. The two batches' first-BEGIN to last-END marked walls are69.015856s and58.012707s; neither is human active time or a sustained-concurrency claim.
+
+All requests used qwen38-coder, temperature0, thinking disabled, JSON-object output, streaming and usage enabled, with three messages: stable system, current original-source prefix, final task. Output budgets are from actual REQUEST objects. Both dispatch records pin caller SHA-256 ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6 and configuration-origin SHA-256 97fb38b997dde3522f2310d06a229ab660db35f8bdc1a5d40eaa5c9e07e57e9a. These are historical dispatch pins; current source/configuration files were not reread. The actual system-message SHA-256 is a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5.
+
+The first three roles' actual source-message SHA-256 is 8be96c03f4e30307dd1c90ef8c2676a64e9457d6287c792454b722f3dfead3f2; the admission counter's is e8f46a5893f4d2f0fd8eb0fe97a4ba4a009f60d6d7d43f5a673f3bbbc11137c3. Prepared-file versus actual-message hash differences were closed by newline normalization, not treated as changed source or a candidate being supplied. Raw prompts, responses and source fragments remain in private audit references and are absent from this body.
+
+| Role | actual REQUEST SHA-256 |
+| --- | --- |
+| Implementation45 | 065b036a9ee8164bafe5180c3afb80f680c7d38e793c2e553d9248c439c7e649 |
+| Counter45 | 4721b4688d3c4090e459ab8f3405d39126b12ab352bb7c06dc65cd900b8bb135 |
+| NewTest47 | f060424ecf36dd2fbb084f6fce1c00966d792f69540b14351647f909b8768541 |
+| AdmissionCounter47 | 0b57a9da3e32be1235f2901293d69a41b5c308dea962fed7426e2ab9750a7bc0 |
+
+Software runner configuration SHA-256 is 7ec5a98a89ca7f4bdc21fe01d5bb8767484094592a888619b73276f01f9c9042. Production compiler-argument SHA-256 is bfef9dd5aa4acc351a85f54034cdf31431f7a362b9bf18255031321f5079160d. Main JUnit XML SHA-256 is 670ce879812839f928691dc7e6d40533f54b598b2ca482c0e9980b629acaff7e. These connect existing receipts and grant this draft no new execution.
+
+The following walls are computed from their printed UTC markers. They include waiting, review, coordination and interleaved work. Overlapping/subset windows must not be added. Human active_seconds is NULL throughout; earlier discovery/shared preparation cost is unknown, not zero, and HTTP latency is not a substitute.
+
+| Marked window | UTC start | UTC end | wall seconds |
+| --- | --- | --- | ---: |
+| main preparation to source-ready57 | 2026-11-03T08:49:53.220666+00:00 | 2026-11-03T09:40:44.530354+00:00 | 3051.309688 |
+| main response review to source-ready57 (subset) | 2026-11-03T09:32:52.992373+00:00 | 2026-11-03T09:40:44.530354+00:00 | 471.537981 |
+| new test task preparation to source-ready | 2026-11-03T09:25:22.207869+00:00 | 2026-11-03T10:01:57.365012+00:00 | 2195.157143 |
+| test owner original review to source-ready (subset) | 2026-11-03T09:51:33.750124+00:00 | 2026-11-03T10:01:57.365012+00:00 | 623.614888 |
+| test owner oracle to source-ready (subset) | 2026-11-03T09:58:41.273782+00:00 | 2026-11-03T10:01:57.365012+00:00 | 196.091230 |
+| fixture review to corrected admission63 | 2026-11-03T09:54:53.167466+00:00 | 2026-11-03T10:04:10.668864+00:00 | 557.501398 |
+| correct data64 preparation to review | 2026-11-03T10:06:28.972128+00:00 | 2026-11-03T10:16:45.142073+00:00 | 616.169945 |
+| whole marked unit preparation to JUnit END | 2026-11-03T08:49:53.220666+00:00 | 2026-11-03T10:21:11.420841+00:00 | 5478.200175 |
+
+Portable packaging alone: 2026-11-03T10:38:26.188784+00:00 -> 2026-11-03T10:51:33.477514+00:00, wall=787.288730s; active_seconds=NULL. This later packaging window does not rewrite the original unit window.
+
+The portable practice is to freeze original sources and exception oracles before proposing a narrow optimization; close actual callees and aliases; review the complete stopped answer before selecting statements; test public values, exceptions and mutability; verify fixture bytes and code points; and keep source qualification, executable adoption, software passes, formal adoption and runtime evidence separate.
+
+This is the same parent unit's four requests and three software P, counted once. This approved portable note adds zero HTTP and zero P. The parent authorizes Models to publish exactly this sanitized payload; private evidence indices remain private.

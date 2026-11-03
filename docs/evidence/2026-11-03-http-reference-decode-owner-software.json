@@ -1,0 +1,100 @@
+{
+  "schema": "portable-source-http-reference-decode-case/v1",
+  "status": "OWNER_APPROVED_PUBLIC_PAYLOAD",
+  "task": "Remove a redundant encode and typed JSON-node construction when decoding an immutable reference inside one closed strict-parser lane.",
+  "mode": "Ordinary canonical three-message HTTP; direct local coder endpoint; finite per-response output; no native assistant tools.",
+  "input": {
+    "whole_project_files": 9,
+    "source_bytes": 84354,
+    "limitation": "A348-byte exception declaration was held by the owner but absent from actual model input. Listed algorithm and witness failures concern fully supplied contracts; the input gap is retained separately."
+  },
+  "actual": {
+    "logical": 3,
+    "POST": 3,
+    "END": 3,
+    "retries": 0,
+    "roles": [
+      {
+        "role": "implementation",
+        "max_output_tokens": 3600,
+        "TTFT_seconds": 3.863756900012959,
+        "wall_seconds": 84.41766880001524,
+        "finish": "STOP_DONE_JSON_VALID",
+        "usage": {
+          "prompt_tokens": 18892,
+          "completion_tokens": 1774,
+          "total_tokens": 20666
+        }
+      },
+      {
+        "role": "counter",
+        "max_output_tokens": 3600,
+        "TTFT_seconds": 3.858126800012542,
+        "wall_seconds": 78.017402700003,
+        "finish": "STOP_DONE_JSON_VALID",
+        "usage": {
+          "prompt_tokens": 18911,
+          "completion_tokens": 1054,
+          "total_tokens": 19965
+        }
+      },
+      {
+        "role": "witness",
+        "max_output_tokens": 6000,
+        "TTFT_seconds": 4.831764100003056,
+        "wall_seconds": 96.1760454000032,
+        "finish": "STOP_DONE_JSON_VALID",
+        "usage": {
+          "prompt_tokens": 18973,
+          "completion_tokens": 4130,
+          "total_tokens": 23103
+        }
+      }
+    ],
+    "complete_transport_is_not_semantic_approval": true
+  },
+  "model_result": {
+    "code_adopted": 0,
+    "second_round": false,
+    "implementation": "Whole rejected: changed contract exception behavior, narrowed a huge integer before its original safe-range rejection, and hard-coded unspecified set display order.",
+    "counter": "Partial guard obligations only; hypothetical bad coercions did not prove a correctly qualified typed projection impossible. No safety approval.",
+    "witness": "Whole rejected before compilation: wrong real nested types/constructor arguments, malformed inputs rejected before reaching the target, unchanged all-zero uppercase digest, and an incorrect positive for a later nonempty gate."
+  },
+  "owner_work": {
+    "production": "Owner wrote the complete existing private decoder body. No new production method/type/field/API.",
+    "qualification": "Closed actual callers reach this helper only through the original complete strict RawJson parse. Duplicate/UTF8/paired-surrogate handling, exact field/text/integral-token/safe-range/SHA checks and their original failure order remain.",
+    "bounds": "The complete wire budget is256KiB. A conservative subtree reencode bound6N is below the old encode/node budgets; a separate forward-encoder64KiB gate must not be introduced into this decoder.",
+    "late_checks": "Zero-byte references remain legal at the decoder; original material/source nonempty and all later consumer checks remain in place.",
+    "witness": "Original source oracle froze before the candidate. Author knew design/API hints but did not see model bodies or the production candidate before source freeze. One logical reference-prefix literal was later projected without changing cases or expectations."
+  },
+  "software": {
+    "first_production_TUs": 1,
+    "first_Test_TUs": 1,
+    "standalone_manual_groups": 10,
+    "positive_groups": 2,
+    "negative_groups": 8,
+    "actual_process_seconds": [
+      4.11100809997879,
+      3.298476700001629,
+      2.1564522000262514
+    ],
+    "process_seconds_sum": 9.56593700000667,
+    "result": "All first software phases succeeded; ten new public-wire DATA groups passed. No JUnit/JNA/file/Native/Game/authority validation.",
+    "set_error_coverage": "The set-field error uses its exact original prefix only, not an invented deterministic set iteration order."
+  },
+  "benefit": "Source-level elimination of one temporary per-reference encode and typed Jackson-node construction. Zero parser calls removed; actual workload frequency, allocation after JIT and speed remain unmeasured.",
+  "costs": {
+    "fullscope_wall_seconds": 3602.031349,
+    "process_seconds_sum": 9.56593700000667,
+    "model_HTTP_sum_seconds": 258.61111690002144,
+    "owner_active_seconds": null,
+    "accounting": "Full wall includes preparation, independent source review and Native queue coordination. HTTP and Java sums overlap wall and are not CPU time or net saving. A local Python quoting failure occurred before reading source or starting a JVM and was kept as owner preparation cost."
+  },
+  "adoption": {
+    "formal": "PENDING_AT_THIS_FROZEN_CUTOFF",
+    "runtime": false,
+    "speed": false,
+    "composition": "Only the decoder body may be projected into formal source; a separately published encoder change outside the compiled raw baseline must be preserved. Composed formal whole is not this compiled raw whole."
+  },
+  "privacy": "No private source, paths, raw request/response, endpoint/machine identity or runtime receipt is approved for publication."
+}
