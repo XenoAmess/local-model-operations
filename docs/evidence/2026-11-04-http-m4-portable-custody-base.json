@@ -1,0 +1,139 @@
+{
+  "status": "SOURCE_OWNER_APPROVED_SANITIZED_BASE_CASE_ONLY",
+  "title": "可迁移的离线 custody trace CLI：已发表 base 交付记录",
+  "scope": "软件结果和正式payload仅本次成熟base5及唯一首次六场景；模型分母为下列4个已闭源码任务。第四项含尚未发表的补充Test上下文，不授该Test软件或正式信用。后继新单场景的请求与结果均不进入本记录。",
+  "publication": {
+    "commit": "20a4ec83be427f9193d3581cff7fc9c0cffef92c",
+    "normal_push_reported": true,
+    "files": [
+      "custody_trace_analysis.py",
+      "custody_trace.py",
+      "portable_cli_witness.py",
+      "README.md（v02）",
+      ".gitattributes"
+    ],
+    "raw_integrity": "正式writer报告三份Python在working/index/blob的原字节SHA一致；本稿未另做Git操作。",
+    "dependency": "5461字节producer算法保持不变，本次首次作为明确的正式依赖发表；这不新增算法改进或重跑旧验证的信用。",
+    "eol": "局部*.py -text禁用Git文本换行转换，运行时仍严格检查producer原字节SHA。"
+  },
+  "delivered": "分析器支持随自身位置选择相邻producer、显式选择producer和create-only文件输出，保留有界DATA输入及原有计数语义。它继续组合现有simulate，不是独立策略oracle。",
+  "model_work": {
+    "model": "qwen38-coder",
+    "actual_posts": 4,
+    "terminal_replies": 4,
+    "requests": [
+      {
+        "role": "CLI实现",
+        "output_token_budget": 3500,
+        "prompt_tokens": 8282,
+        "completion_tokens": 1299,
+        "first_content_ms": 1889.2858,
+        "total_ms": 10094.6188,
+        "disposition": "5处文字替换原样采用，并做唯一匹配和逆向还原；仅这些分析器改动没有owner可执行源码修正。"
+      },
+      {
+        "role": "合同设计审阅",
+        "output_token_budget": 1300,
+        "prompt_tokens": 8282,
+        "completion_tokens": 561,
+        "first_content_ms": 1883.0096,
+        "total_ms": 6462.3293,
+        "disposition": "只用于梳理设计边界，不能作为候选缺陷证据或批准。"
+      },
+      {
+        "role": "当前候选源码审阅",
+        "output_token_budget": 1500,
+        "prompt_tokens": 8439,
+        "completion_tokens": 16,
+        "first_content_ms": 1389.3513,
+        "total_ms": 1479.9872,
+        "disposition": "返回空发现；只是一轮有限源码审阅，不能当软件或普遍正确性证明。"
+      },
+      {
+        "role": "相对路径数据流审阅",
+        "output_token_budget": 1300,
+        "prompt_tokens": 10627,
+        "completion_tokens": 335,
+        "first_content_ms": 2296.4477,
+        "total_ms": 7938.5378,
+        "disposition": "关于compile/exec会把所选相对producer路径强制绝对化的判断与实际参数数据流不符，整份语义拒收；源码和预期均未据此更改。",
+        "input_qualification": "当时完整分析器、producer、补充候选boundary Test与合同；补充Test此切点未在本次base正式payload中。"
+      }
+    ],
+    "review_rule": "四份响应均完整stop/DONE后再做语义分级；完整JSON不代表内容正确。",
+    "concurrency": {
+      "scope_peak": 2,
+      "peak_overlap_seconds": 6.462458,
+      "global_or_sustained_concurrency": "UNKNOWN"
+    },
+    "cached_tokens": "未报告，不能按0或缓存命中推断。",
+    "actual_request_parameters": {
+      "temperature": 0,
+      "enable_thinking": false,
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "retry_attempts": 0,
+      "basis": "原始REQUEST与EVENTS逐项核对，不从配置文档推断"
+    }
+  },
+  "owner_work": [
+    "owner定义合同和提示、提供完整当前源码、核对替换与数据流、编写文档并准备正式交付；模型没有代替这些工作。",
+    "13591字节六场景driver由owner独立编写，作者熟知候选。任何执行前，stderr断言已改为按逻辑行比较，以适应文本换行；这是owner源码准备修正，不是模型修复，也不是一次软件红。",
+    "只将分析器的5处模型文字替换记为原样采用、0owner可执行修正；不把它扩大成所有owner产物零准备错或零劳动。"
+  ],
+  "software_check": {
+    "environment": "Windows / Python 3.13，安装同目录的公共driver入口。",
+    "earlier_recorder_failure": "记录器在启动目标前失败，目标启动0；不算一次产品失败或已执行的六场景。",
+    "sole_first": {
+      "elapsed_process_wall_seconds": 0.8716851,
+      "outer_stderr_bytes": 0,
+      "cli_started": 6,
+      "cli_completed": 6,
+      "exit_zero": 2,
+      "expected_exit_two": 4,
+      "scenarios_asserted": 6,
+      "junit_methods": 0,
+      "older_cases_replayed": 0
+    },
+    "boundaries": [
+      "异cwd的默认相邻producer",
+      "显式producer及新文件输出",
+      "缺输入先于producer/输出创建",
+      "已有输出保留sentinel",
+      "缺父目录不创建",
+      "错误SHA的显式producer不回退"
+    ],
+    "interpretation": "6次CLI分别达到预期退出码与字段断言；不是6个exit0，也不是6个JUnit方法。",
+    "earlier_recorder_failure_elapsed_seconds": 0.0023384
+  },
+  "cost": {
+    "portable_source_phase_wall_seconds": 832,
+    "active_seconds": "UNKNOWN",
+    "meaning": "该墙钟包含准备、读取、元数据、审阅和等待，不是owner活跃劳动、CPU或模型排队时间。并行阶段和各请求墙钟不相加成端到端成本。",
+    "software_timing": "0.8716851秒是这次进程检查的墙钟，不是性能基准或真实工作负载收益。",
+    "source_ready_to_actual_record_window": {
+      "from_utc": "2026-11-03T17:31:50.296700+00:00",
+      "to_utc": "2026-11-03T18:34:00.415687+00:00",
+      "wall_seconds": 3730.118987,
+      "qualification": "该窗口从同一CLI源码及命令Ready到solefirst实际记录，包含后续源码审阅、协调、其它P0优先项和Native机械准备。不是独占劳动、模型排队、CPU或全部等待的单项归因。"
+    },
+    "public_note_preparation_phase": {
+      "begin_utc": "2026-11-03 18:42:45 UTC",
+      "end_utc": "2026-11-03 18:51:22 UTC",
+      "wall_seconds": 517,
+      "active_seconds": "UNKNOWN",
+      "qualification": "单列这份脱敏记录的准备成本；不混入832秒原源码阶段，也不把并行阶段相加。"
+    },
+    "full_owner_labor_or_net_saving": "UNKNOWN；上述仅为已持阶段墙钟，不能以模型约10秒或solefirst不到1秒代替端到端准备/审阅成本。"
+  },
+  "limits": [
+    "已具备的是源码、有限软件检查和正式发表三类证据；没有据此授予真实文件custody、权限、身份或close失败处理的正确性。",
+    "未据此证明真实工作负载I/O或速度收益、任意平台/符号链接/故障行为、Runtime采用或游戏运行。",
+    "本次未重跑旧3个DATA示例或producer旧16向量；合同和预期来自已知源码，不称盲测。"
+  ],
+  "source_owner_approval_utc": "2026-11-03T18:53:37.407490+00:00",
+  "public_permission": "仅本脱敏正文可由Models按原字节发表并加入同一CLI产品来源案例；原始源码、请求、私有路径、argv和独立oracle不随本许可公开。"
+}

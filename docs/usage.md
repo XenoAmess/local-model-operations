@@ -197,3 +197,8 @@ HTTPError 的响应体读取若发生 OSError/IncompleteRead，现继续写本 a
 
 
 Windows宿主逐cell只读命令可复用[已验证的V8 factory与显式本机binding](windows-read-command-guard.md)。目标路径只作数据；该片段不自动接入其它worker，也不替代reader源码、文件身份或OS权限核实。
+
+
+任务spec优先只保留有序`source_files`（或`stable_source_path`）、`task_path`和有限`max_tokens`。文件数、消息条数、SHA清单等业务元数据另放manifest；`messages`是实际消息数组的保留字段，不能写成`messages: 3`计数。前端schema错误发生在POST前时，保原spec和失败记录，修正canonical投影后仍按原唯一逻辑任务首次派发，不把准备失败算模型尝试。
+
+终态读取使用实际`EVENTS.jsonl`中的`ATTEMPT_END`、`ATTEMPTn-RESULT.json`与`SUMMARY.json`；不要因为没有根目录`RESULT.json`就把已结束请求报告为仍在途。先核stop／DONE／完整性再读正文；length整份弃置，不续接或据未读半稿作语义评分。

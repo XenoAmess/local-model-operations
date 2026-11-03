@@ -2005,3 +2005,8 @@ Both software receipts observed Windows CRLF from platform println. Earlier logi
 ## 2026-11-04：V8只读命令实际接线
 
 [可移植factory及使用指南](windows-read-command-guard.md)保留完整定义正文与主4组原字节；独立3组只替换两条合成路径，并机械正逆核对，未为发布重跑。原741解析失败、745七组首次通过与两个实际cell读取分列；模型实现整拒、最终owner源码不冒充模型产物。只授具名cell接线，直接工具仍可绕过，不授全team或OS沙箱。[实际范围、采用与未知成本](evidence/2026-11-04-windows-v8-read-cell-delivery.json)。
+
+
+## 2026-11-04：可迁移CLI与新Memory／whole-parent源切点
+
+[M4可迁移CLI base](evidence/2026-11-04-http-m4-portable-custody-base.json)分开5处原样模型文字替换、owner六场景（2个exit0／4个预期exit2）、记录器启动前失败与正式5leaf；后继main或boundary任务不混入该4POST分母。[M6 Memory262](evidence/2026-11-04-http-m6-generic-memory262-source.json)保两stop整稿拒收与owner先于POST的原Test，未持首次软件；[M2 whole-parent658](evidence/2026-11-04-http-m2-658-source.json)保length整弃、closure反审错误及owner四whole场景的源资格，派生oracle和live／log-only边界分列。各原pending切点、完整准备／协调墙钟和未知主动成本不回填，不授Runtime、Native硬件或速度。
