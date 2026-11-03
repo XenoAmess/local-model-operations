@@ -1,0 +1,71 @@
+{
+  "schema": "portable-local-model-source-case/v1",
+  "date": "2026-11-04",
+  "case": "Conservative restoration of public DATA constructor encoding compatibility",
+  "approved_public_payload": true,
+  "scope": "DriverSnapshotFacts.Known only. Existing receipt/archive checks, original field validation and original observation metadata gates remain. This is a compatibility repair with zero performance credit.",
+  "problem": [
+    "A prior optimization encoded the supplied Driver once for a SHA check, skipped the later comparison for the same Complete identity, and otherwise reused the first encoded byte array on the comparison RHS.",
+    "Public Session retains a BigInteger subtype. Its inherited numeric value can remain73 while virtual stringification yields73,74,73: the original first/late-left/late-right encodes reject the mismatch, while the optimized same-identity path returned after one stringify.",
+    "The first encoded array is passed to a pluggable SHA provider. A provider can return an authentic delegated SHA and then mutate that consumed input array. For two distinct equal standard-actor Complete values, the cached RHS then caused a false mismatch; the original two late fresh encodes returned."
+  ],
+  "repair": "Restore the original unconditional late comparison in its original position: encode observation Driver, then encode supplied Driver, then compare the full bytes. Keep the first encode local for the SHA check only. No same-identity or exact-class fast branch remains. No public API/type/field/constructor signature change.",
+  "attempt_history": "An intermediate owner guard retained a same-Complete/exact-BigInteger fast path and compiled successfully. A subsequent finite source counter identified a public Jackson thread-local recycler callback seam that retained-data immutability alone did not close. The guarded source and its compile receipt are preserved, while all test packages bound to it were withdrawn before execution. No recycler JVM witness or exhaustive JVM proof was run.",
+  "local_model": {
+    "mode": "Ordinary canonical three-message HTTP; stable system plus ordered complete-source message plus task. No OpenCode editing credit.",
+    "roles": 2,
+    "logical_tasks": 2,
+    "actual_POST": 2,
+    "source_files": 37,
+    "physical_source_bytes": 866310,
+    "assembled_source_message_bytes": 879604,
+    "REQUEST_audit": "Both actual REQUEST byte sequences reconstructed exactly from prepared specs, ordered physical source pins and canonical decoding/newline wrappers. This proves this pair only.",
+    "implementation": {
+      "max_tokens": 3500,
+      "prompt_tokens": 216610,
+      "completion_tokens": 1344,
+      "seconds": 80.76492810001946,
+      "content_TTFT_seconds": 56.13083960002405,
+      "finish": "STOP/DONE",
+      "grade": "Whole rejected; repeated the defective identity/cache comparison and inferred determinism from record naming. Zero production code adopted."
+    },
+    "counter": {
+      "max_tokens": 4500,
+      "prompt_tokens": 216537,
+      "completion_tokens": 701,
+      "seconds": 75.37554529999034,
+      "content_TTFT_seconds": 57.35167570001795,
+      "finish": "STOP/DONE",
+      "grade": "Whole rejected; declared the two versions equivalent, missed public numeric subtype and SHA input escape, and counted two rather than three original encodes. Zero approval credit."
+    },
+    "HTTP_sum_seconds": 156.1404734000098,
+    "POST_marker_union_seconds": 80.76501,
+    "overlap_seconds": 75.375523,
+    "pair_peak": 2,
+    "routing": "Direct routing recorded; actual network peer not captured. Profile600-second read/2400-second total/six attempts has named config provenance, but this dispatch ENV/config snapshot was not captured. One actual attempt per task, no R3 or terminal-task replay."
+  },
+  "software": {
+    "new_conservative_production_TUs": 1,
+    "conservative_production_compile_seconds": 4.0240532999741845,
+    "new_test_TUs": 2,
+    "selected_cases": 5,
+    "separate_new_baseline_counters": 2,
+    "actor": "Four selected public-constructor DATA cases:73/74/73 mismatch after three stringify callbacks, second and third distinct sentinel failures in original call order, and standard exact-actor/same-Complete success. A separate fresh JVM reproduced old one-call acceptance.",
+    "JCA": "One selected public-constructor DATA case with two distinct equal standard-actor drivers. A separate fresh JVM reproduced the old exact semantic rejection. Each private JVM asserts an authentic digest before mutation and restores the original Provider identities/order in finally.",
+    "actual_all": "New production compile and six new test compile/run phases all exited0. All test stderr files were empty. Existing production and old successful cases were not recompiled or rerun.",
+    "conservative_process_seconds": 19.9372805999883,
+    "earlier_guarded_compile_seconds_also_incurred": 3.813004799972987,
+    "scope_limits": "Public DATA/codec behavior only. No private issuer, ManagedSession, Native permission, Game, SAVE, runtime adoption, hot compatibility, speed, or all-path claim."
+  },
+  "owner_and_tool_cost": "Owner implemented both guarded and conservative source revisions. Independent cloud authors produced the public witnesses with pre-authoring original oracles; additive baseline/positive modes were design-aware, not blind. One owner formatting-assert preparation error stopped before candidate writing or Java. Native path-normalization preparation errors were recorded separately with zero Java before correction. No failed Java/test phase is hidden.",
+  "formal_cutoff": "Minimal three-leaf publication requested; no formal receipt consumed at this payload cutoff. Formal Known projection preserves previously published fieldset changes outside the owned span and differs from the compiled raw whole; combined formal whole has not been compiled.",
+  "cost_cutoff": {
+    "begin_utc": "2026-11-03T18:24:52.356736+00:00",
+    "cutoff_utc": "2026-11-03T19:37:17.269162+00:00",
+    "scope_wall_seconds": 4344.912426,
+    "active_seconds": "UNKNOWN",
+    "netSaving": "NOT_CLAIMED",
+    "performance_credit": 0
+  },
+  "operational_lesson": "Identity reuse needs a closed observable domain, not a record or immutable label. An input array ceases to be private once passed to an open provider. A successful compile and syntactically complete model response do not establish behavioral equivalence. When the safe fast-path domain is not closed, restore original calls and report the lost optimization honestly."
+}

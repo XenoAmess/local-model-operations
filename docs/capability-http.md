@@ -2025,3 +2025,8 @@ Both software receipts observed Windows CRLF from platform println. Earlier logi
 ## 2026-11-04：同parent附页、原子投递与真实registry边界
 
 [M4后继附页](evidence/2026-11-04-http-m4-portable-custody-followup.json)在原base正文之外追加原样main贡献、length整弃和两项新增软件scope，不重复原4POST或六CLI。[运营边界](evidence/2026-11-04-rolling-intake-registry-boundaries.json)分开publisher七项首次软件、真实metadata CLI与后续HTTP，给出登记pool的84POST／78END／6实际未配END切点；全局source、Runtime及云智能体分别追踪。Registry九项首次软件与一次新源反审的两个真实POST另记：首owner启动器stdio失败完整保留，修后精确BEGIN／END配对且完整模型反例被拒。没有热切共享或Runtime caller，没有因发表新增请求或复跑。
+
+
+## 2026-11-04：开放回调兼容边界与新whole／smallmethod源码切点
+
+[M0 Known保守恢复](evidence/2026-11-04-http-m0-known-conservative04.json)保两完整模型答复整拒、撤回guard快路及真实actor／JCA新见证；恢复原三次encode顺序，速度信用为零。[M2 whole659](evidence/2026-11-04-http-m2-659-source.json)的5124字节原样单类采用与两类counter资格分列，新四场景仍为owner源码；软件和正式pending切点不回填。[M5 typed117](evidence/2026-11-04-http-m5-typed117-source.json)区分72whole物理、封包及wire大小、reserved messages误用的两次0POST准备错、真实STOP泛NoSafe拒收与length整弃；新parser回调只是协作接口。[M6小方法263／协议264／word265](evidence/2026-11-04-http-m6-smallmethods263264265-source.json)五次实际请求中四stop一length，有限源兼容不等于选择或新软件；峰5仅35.306265秒。各项主动成本、全局占用、Runtime及自然G2保持实际未知／未通过边界。

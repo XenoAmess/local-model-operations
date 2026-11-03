@@ -1,0 +1,123 @@
+{
+  "schema": "approved-portable-source-capability-note.v1",
+  "date_utc": "2026-11-03",
+  "unit": "typed raw JSON construction through an existing parser boundary, original source roles117",
+  "mode": "ordinary HTTP fixed three-message complete-source candidate; not runtime decision or game action",
+  "publication_permission": "This exact payload may be published by the sole Models shared-main owner under the existing Root authorization. Raw source/prompts/responses, machine or Game identifiers and private absolute paths are excluded.",
+  "configuration": {
+    "actual_model": "qwen38-coder",
+    "temperature": 0,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format": "json_object",
+    "source_messages": 3,
+    "transport": "explicit direct routing; redirects refused; actual peer UNKNOWN",
+    "retry_policy": "at most six total attempts including the first; these two roles each used one attempt",
+    "exact_caller_and_config_revision": "NOT_HELD in this approved portable cut; current checkout versions are not substituted for execution provenance",
+    "artifact_auditor_sha256": "feab141c5d2d0b8ee8ebc234581c7f0925127055b9f767bc4eaa5295c94295d8"
+  },
+  "source_scope": {
+    "original_whole_files": 72,
+    "physical_original_bytes": 1781246,
+    "frozen_prefix_artifact_bytes": 1791483,
+    "actual_source_message_is_separate": "The actual request source-message bytes include the canonical wrapper and are listed per role below. The frozen prefix size is not called wire size.",
+    "goal": "Avoid building an intermediate Jackson container graph before constructing the final typed object from the same call. Existing strict whole UTF8, parser factory, number lexemes, duplicate/depth/budget checks, full consumption and close must be retained.",
+    "not_changed": "Physical authority checks, source freshness and unrelated encoder paths were outside this source unit."
+  },
+  "actual_roles": [
+    {
+      "role": "implementation",
+      "actual_attempts": 1,
+      "retries": 0,
+      "request_bytes": 1860008,
+      "request_sha256": "96984db2999580649182b99e6c72a02ee150a0e4bbe46cadcede0512e4f261b7",
+      "source_message_utf8_bytes": 1800239,
+      "source_message_sha256": "b9a0473af4994c6b18e40c5cf95fa369fd49ff05b9e6f51c0cc7159ab8fa4f1f",
+      "actual_request_parameters": {
+        "model": "qwen38-coder",
+        "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+        "temperature": 0,
+        "max_tokens": 8000,
+        "stream": true,
+        "include_usage": true,
+        "thinking": false,
+        "response_format_type": "json_object"
+      },
+      "HTTP_status": 200,
+      "effective_content_TTFT_seconds": 127.91839289999916,
+      "total_HTTP_seconds": 137.31578979999176,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "reported_prompt_tokens": 446540,
+      "reported_completion_tokens": 629,
+      "reported_cached_tokens": null,
+      "candidate_eligibility": "REVIEW_ELIGIBLE",
+      "model_code_adopted": 0
+    },
+    {
+      "role": "counter",
+      "actual_attempts": 1,
+      "retries": 0,
+      "request_bytes": 1860099,
+      "request_sha256": "4cfefc5794983542a252189235da0a6c96ae8be7a5b191bba5d0f457acef4b17",
+      "source_message_utf8_bytes": 1800239,
+      "source_message_sha256": "b9a0473af4994c6b18e40c5cf95fa369fd49ff05b9e6f51c0cc7159ab8fa4f1f",
+      "actual_request_parameters": {
+        "model": "qwen38-coder",
+        "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+        "temperature": 0,
+        "max_tokens": 4000,
+        "stream": true,
+        "include_usage": true,
+        "thinking": false,
+        "response_format_type": "json_object"
+      },
+      "HTTP_status": 200,
+      "effective_content_TTFT_seconds": 127.44542110001203,
+      "total_HTTP_seconds": 165.52781940001296,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "reported_prompt_tokens": 446549,
+      "reported_completion_tokens": 4000,
+      "reported_cached_tokens": null,
+      "candidate_eligibility": "DISCARD_LENGTH",
+      "model_code_adopted": 0
+    }
+  ],
+  "owner_adoption": {
+    "implementation": "Complete STOP with strict JSON VALID and no edits. Owner fully reviewed and rejected its generic NoSafe reasoning: it treated the existing module boundary as prohibiting the explicitly allowed additive generic entry and did not establish a concrete ordinary-input counterexample. No model executable code was adopted.",
+    "counter": "Length termination with SSE DONE is not a complete candidate. The caller syntax status was UNKNOWN under NON_STOP_FINISH. The whole answer was discarded without semantic reading, patch repair, continuation or R2. A separate offline auditor can report the truncated text as syntactically invalid; that does not turn it into a complete reviewed response.",
+    "operator": "An independently authored two-source prototype followed the actual POSTs and reported first-content interval. Owner code adoption was zero from these responses; it is not a pre-model blind implementation.",
+    "independent_source_review": "An independently frozen original-source oracle and a later nonblind actual-delta review found no concrete ordinary raw-input blocker for the private consumer. Source qualification is not an executed software pass.",
+    "new_API_boundary": "The proposed additive callback receives the real mutable parser. It is explicitly a cooperative low-level reader, not an arbitrary-reader validation, detachment or authority certificate. Its private fixed consumer has a narrower proof.",
+    "compatibility": "The original complete-tree parse and encoder methods remain unchanged. New nested interface/method-reference linkage are structural changes; same-loader support is UNKNOWN."
+  },
+  "preparation_errors": {
+    "original_reserved_key_error": "Both original specifications accidentally used messages:3 as metadata. Canonical preparation interpreted the reserved key as a message list and failed before queue admission and HTTP. Owner specification and parent preflight omission are recorded; this was not a model or backend failure.",
+    "repair": "Two new immutable REV02 specification files used exactly source_files/task_path/max_tokens. Original IDs/output ownership remained unchanged, producing the first actual request of each logical role. These two zero-POST preparation failures are not HTTP retries.",
+    "reader_metadata_errors": "Subsequent parent read-factory transcription and Test-spec path errors belong to separate preparation cuts, not these two model responses; no software failure or model call is inferred."
+  },
+  "cost_and_limits": {
+    "owner_design_to_source_ready_marked_wall_seconds": 1005.591063,
+    "owner_active_seconds": null,
+    "parent_review_active_seconds": null,
+    "HTTP_sum_is_not_elapsed_wall": "The two HTTP requests overlapped. Their individual durations must not be added and called end-to-end wall or CPU.",
+    "TTFT_attribution": "The recorded approximately127-second first-content delay does not identify queue, prefill, network or execution CPU as the cause.",
+    "source_inferred_effect": "The proposed private path removes intermediate container-node construction; parser, scalar objects, defensive typed container copies and validation work remain.",
+    "not_measured": [
+      "Actual allocations or heap peak",
+      "All-Throwable, resource-exhaustion, stack or VM/class-init timing equivalence",
+      "Current-runtime loadability or execution of the candidate",
+      "Per-day speed, end-to-end improvement or attribution to the old profile"
+    ]
+  },
+  "cutoff": {
+    "production_first_compile": "NOT_HELD",
+    "new_public_Test_execution": "NOT_HELD",
+    "formal_commit": "NOT_HELD",
+    "Runtime_adoption": false,
+    "speed_credit": false,
+    "later_actual_candidate_counter": "A separately authorized new nonblind actual-code review role is outside this two-role denominator; it is not a retry or continuation of the length answer."
+  }
+}
