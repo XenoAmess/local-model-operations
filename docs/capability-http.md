@@ -2113,3 +2113,14 @@ The [explicit opt-in caller](request-registry.md) adds durable BEGIN/END recordi
 [M2 661 R2](evidence/2026-11-04-http-m2-661-r2-source-later.json)在94完整输入下仍原样重复拒稿body，仅imports不同，整拒后owner接管；[663 R2](evidence/2026-11-04-http-m2-663-r2-source-later.json)在26完整输入下仍有具体Java源错，raw整拒后owner保166行并作六组修正，208行仅sourceReady。两者均是已有case的post-error guided correction阶段，不作新独立oracle或transport retry，零R3；未实际编译不称compilerRED，原R1切点及未知全工时保留。
 
 [M7三个独立最小tuple](evidence/2026-11-04-m7-later-approved-tuples.json)分别记Status guard一个production TU正式后见、safe-stop recipe的2prod＋1newTest／一方法首验，以及instrumentation离线六角色源码round。前两附页不新增模型case／POST；六角色的partial harness、23 owner corrections与candidate-visible意见不授实际SDK／agent／JVM instrumentation或Game能力。三个scope成本不合算，source、软件、正式与Runtime分别保原切点。
+
+
+## 2026-11-04：M0/M1/M2 后见与 M6 新算术源码阶段
+
+M0 同一783案例的[单叶正式后见](evidence/2026-11-04-http-m0-persistent-guard783-formal-later.json)复用两个既有受影响case；[新manual软件后见](evidence/2026-11-04-http-m0-persistent-guard783-software-followup808.json)另有两新case通过，原source/formal pending切点均不倒写。四子进程合15.2960702秒不是完整wall或速度收益，未授Runtime装载。
+
+M1[解析器callback源码反审](evidence/2026-11-04-http-m1-parser-callback-source-counter-later.json)撤回两份未采用integer-tree复用提案的等价资格：遗漏原共享factory可观察回调；0新POST/Test/采用，旧getter-copy软件结果保持原范围，已停题不借此重开。
+
+M6[272三角色](evidence/2026-11-04-http-m6-scalar272-source.json)生产执行码采用、owner只修10B注释，模型Test全拒；峰3仅29.996957秒，独立35输入与作者9literal冻结、LF/CRLF准备错误各自记账。[273/274/275七请求](evidence/2026-11-04-http-m6-source-ops273274275.json)五STOP两length整未读弃；274完整3086B源采用，275仅note未交diff、owner最小helper接管，273独立oracle与后到owner期待冻结分列。puremetadata81classes/59members不授Java或自然验收，重叠墙窗不加和，软件/正式仍按各cutoff记录。
+
+M2[661/663后继owner源码](evidence/2026-11-04-http-m2-661663-owner-source-later.json)分别为445L完整接管与208L有限部分采用，原R1/R2拒收和未编切点保留；source peer与条件GO不是软件通过。[650/651正式小tuple](evidence/2026-11-04-http-m2-650651-formal-later.json)只消费sole publisher历史回执，未新跑薄包装器，也不推未持raw→formal投影；两原组分母不增加。
