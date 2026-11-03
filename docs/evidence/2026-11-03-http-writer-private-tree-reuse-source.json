@@ -1,0 +1,204 @@
+{
+  "schema": "local-model-operations.owner-approved-source-strict-case/v1",
+  "mode_id": "http-candidate-three-message",
+  "case": "writer-private-reduced-tree-reuse365-followup",
+  "authorization": "Source owner permits only own metadata/capability/cost into this sanitized case. Original source, requests, model answers, paths and business logs stay local. M4 Test and Runtime-owner evidence are not imported.",
+  "task": "Investigate repeated strict ledger-state JSON parsing inside one commit method while retaining physical qualification, permission checks, callbacks, order and failure behavior.",
+  "inputs": {
+    "original_clone_wave": {
+      "whole_Java_files": 38,
+      "physical_Java_bytes_as_owner_reported": 897194,
+      "additional_phase_JSON": 2,
+      "actual_source_message_UTF8_bytes": 905391
+    },
+    "new_actual_tree_delta_wave": {
+      "whole_Java_files": 18,
+      "physical_source_bytes_as_owner_reported": 491099,
+      "additional_phase_JSON": 0,
+      "actual_source_message_UTF8_bytes": 491585
+    },
+    "both_waves_actual_fixed_three_message_sources_full_verified_by_source_owner": true,
+    "current_named_sources_not_loaded_cohort_proof": true
+  },
+  "HTTP": {
+    "logical_source_requests": 4,
+    "complete_STOP_answers": 4,
+    "two_separate_waves_not_four_simultaneously": true,
+    "waves": [
+      {
+        "wave": "original-clone-proposal",
+        "roles": [
+          {
+            "role": "implementation",
+            "POST_BEGIN_utc": "2026-11-02T23:56:55.087803+00:00",
+            "END_utc": "2026-11-02T23:57:52.407453+00:00",
+            "max_tokens": 6000,
+            "effective_content_TTFT_seconds": 47.036987400002545,
+            "HTTP_elapsed_seconds": 57.31967710002209,
+            "usage": {
+              "prompt_tokens": 181059,
+              "completion_tokens": 1039,
+              "total_tokens": 182098
+            },
+            "cached_prompt_tokens": null,
+            "finish_reason": "stop",
+            "sse_DONE": true,
+            "outer_JSON_valid": true
+          },
+          {
+            "role": "counter",
+            "POST_BEGIN_utc": "2026-11-02T23:56:55.087906+00:00",
+            "END_utc": "2026-11-02T23:57:52.790748+00:00",
+            "max_tokens": 5000,
+            "effective_content_TTFT_seconds": 47.30135980001069,
+            "HTTP_elapsed_seconds": 57.7028448000201,
+            "usage": {
+              "prompt_tokens": 181078,
+              "completion_tokens": 1030,
+              "total_tokens": 182108
+            },
+            "cached_prompt_tokens": null,
+            "finish_reason": "stop",
+            "sse_DONE": true,
+            "outer_JSON_valid": true
+          }
+        ],
+        "actual_wave_peak": 2,
+        "peak2_seconds": 57.319547,
+        "HTTP_union_seconds": 57.702945
+      },
+      {
+        "wave": "actual-reduced-tree-delta",
+        "roles": [
+          {
+            "role": "implementation",
+            "POST_BEGIN_utc": "2026-11-03T00:01:38.354471+00:00",
+            "END_utc": "2026-11-03T00:02:04.669129+00:00",
+            "max_tokens": 3500,
+            "effective_content_TTFT_seconds": 22.47485639998922,
+            "HTTP_elapsed_seconds": 26.314706300006947,
+            "usage": {
+              "prompt_tokens": 97014,
+              "completion_tokens": 496,
+              "total_tokens": 97510
+            },
+            "cached_prompt_tokens": null,
+            "finish_reason": "stop",
+            "sse_DONE": true,
+            "outer_JSON_valid": true
+          },
+          {
+            "role": "counter",
+            "POST_BEGIN_utc": "2026-11-03T00:01:38.356079+00:00",
+            "END_utc": "2026-11-03T00:02:10.111932+00:00",
+            "max_tokens": 3500,
+            "effective_content_TTFT_seconds": 21.466959499986842,
+            "HTTP_elapsed_seconds": 31.755991599988192,
+            "usage": {
+              "prompt_tokens": 97087,
+              "completion_tokens": 1263,
+              "total_tokens": 98350
+            },
+            "cached_prompt_tokens": null,
+            "finish_reason": "stop",
+            "sse_DONE": true,
+            "outer_JSON_valid": true
+          }
+        ],
+        "actual_wave_peak": 2,
+        "peak2_seconds": 26.31305,
+        "HTTP_union_seconds": 31.757461
+      }
+    ],
+    "current_owned_inflight_at_receipt": 0,
+    "transport_retry_count_not_independently_recaptured_by_this_metadata_case": null
+  },
+  "old_wave": {
+    "owner_prompt_error": "Owner incorrectly called a defensive canonicalBytes clone getter an encode operation although full state source was supplied. Corrected independently before reading old model answers; original task/oracle retained.",
+    "implementation": "Whole code rejected: clone moved before clock/event validation, getter still misdescribed, and no actual repeated parsing eliminated. Zero code adopted.",
+    "counter": "Whole algorithm rejected; limited getter-clone fact is not a complete safe design or candidate PASS."
+  },
+  "new_wave": {
+    "Root_owner_guidance": "Owner and Root supplied precise method-local immutable-tree algorithm and expected bounds. Not independent performance discovery.",
+    "implementation": "Three exact mechanical edits selected after reading the complete STOP response; forward/inverse raw check passed. No owner executable correction to these edits.",
+    "counter": "Whole response rejected for source-unsupported/speculative repetitive reasoning and self-reversal, with no concrete escaping mutable tree or changed callback. No complete candidate PASS.",
+    "format_erratum": "All four outer JSON answers parse successfully. Earlier owner chat/review prose calling counters malformed JSON is withdrawn; it described a semantically unfinished/self-refuting tail, not a transport or outer-JSON error. Original metadata/prose retained; independent owner review cost."
+  },
+  "source_contract": {
+    "selected_bytes": 104876,
+    "selected_sha256": "73e4390dda383eaf6264ed15cfafa3a3b9e8c9be05ce352a4b4e747999b2d796",
+    "literal_edits": 3,
+    "forward_inverse_exact": true,
+    "change": "Retain the original first strict toJson parse and first comparison at its original point. Reuse its method-local private parser-owned tree for the final equality check, and deep-copy it before sequence/last-event mutations. Three parses in this commit body become one parse plus one deepCopy.",
+    "ownership": "Tree never escapes into Request, Head, Prepared, event, callback or field. Immutable canonical state bytes and public defensive clone accessors remain. Generic external mutable/custom nodes are not newly trusted.",
+    "preserved": "Original authority revalidate/reduce, validateReduction parsing, prepared/digest checks, dynamic source/evidence/absence/identity/capacity qualification, lock/recovery, event/snapshot/index faults, readback and uncertain-commit behavior remain. No cache across preview/commit/session.",
+    "limits": "Allocation/exhaustion order is changed; not arbitrary memory-corruption trace equivalence. Larger full-history walks remain unresolved. No evidence this local parse repetition explains an observed long commit/preview interval."
+  },
+  "first_source_strict": {
+    "production_TUs": 1,
+    "exit": 0,
+    "process_elapsed_seconds_not_CPU": 1.7319926999916788,
+    "stderr_bytes": 0,
+    "existing_output_families": 8,
+    "member_name_descriptor_flags_equal": true,
+    "actual_existing_lambda_capture_sites_compared": 48,
+    "existing_synthetic_bodies_compared": 35,
+    "constructors_normalized_compared": true,
+    "class_metadata_check_new_JVM": 0,
+    "no_loaded_class_hash_or_Quarkus_instrumentation_claim": true,
+    "behavior_Test": "PENDING separate sole owner at original cutoff; no old diagnostic tests rerun",
+    "formal": null,
+    "runtime_adopted": false,
+    "runtime_speed_measured": false,
+    "Native_preflight": "Initially overrequired an implicit compiler flag before Java; accepted original empty-sourcepath/Werror Ready unchanged, then one actual first strict0. Not source/compiler RED."
+  },
+  "cost": {
+    "full_task_start_utc": null,
+    "owner_active_seconds": null,
+    "earliest_recorded_original_freeze_utc": "2026-11-02T23:56:48.900136+00:00",
+    "new_delta_oracle_utc": "2026-11-03T00:01:33.032379+00:00",
+    "selected_candidate_utc": "2026-11-03T00:03:12.500148+00:00",
+    "HTTP_waves_not_owner_active_or_CPU": true,
+    "source_and_analysis_cost_not_erased_by_mechanical_exact_selection": true,
+    "owner_errors": [
+      "Old encode-versus-clone source inference and task wording, corrected before reading old answers.",
+      "Old malformed-JSON narrative format misdiagnosis withdrawn; outer JSON was valid."
+    ],
+    "safe_read_followup": "Fixed read constructor and explicit interpreter constructor used; no bare-path association incident in this followup.",
+    "net_owner_or_runtime_time_saved": null
+  },
+  "original_cutoff_preserved": true,
+  "new_HTTP_JVM_or_Test_for_this_publication": 0,
+  "source_owner_private_metadata_relative_refs": [
+    {
+      "ref": "FINAL-DELIVERY.json",
+      "bytes": 7121,
+      "sha256": "c3a82afde34e828976487f1c4d4313806354a7d95780cd3f02e4d0971f718a72"
+    },
+    {
+      "ref": "SOURCE-PROOF.json",
+      "bytes": 4506,
+      "sha256": "6e01226120b354228e9f8e24b03f8808b6d1afdb2ab41502dc96387a899932a0"
+    },
+    {
+      "ref": "MODEL-REVIEW.json",
+      "bytes": 6154,
+      "sha256": "b31ff3a38cce4f4ec8af5e96424ef381e53d01ec66154949657184ea404d754c"
+    },
+    {
+      "ref": "COST-SOURCE.json",
+      "bytes": 5279,
+      "sha256": "cde20f952d84ddfd6452fb6afa1e656fd935157f504b8e5e81169da0356b4673"
+    },
+    {
+      "ref": "ACTUAL-PREFIX.json",
+      "bytes": 1504,
+      "sha256": "23bbec5b161e394d03a3220130dcf87657ee8696d103b2e71511fcadda6f5ce3"
+    },
+    {
+      "ref": "FORMAT-ERRATUM.json",
+      "bytes": 1895,
+      "sha256": "721c65b5594e0409261bce1eea20e5c087661b94dece430eb6753d4716b64fda"
+    }
+  ]
+}

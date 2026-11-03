@@ -1321,3 +1321,6 @@ Root replay-scope363 [批准formal/runtime后见](evidence/2026-11-03-http-repla
 
 
 624 [allocation→gate正式后见](evidence/2026-11-03-http-allocation-gate-fp-later-formal.json)批准1860B原样：ca6884d6两原payload10838/14902 raw/formal/EOF精等+320B thin wrapper；onlywrapper .8568714+.6191403 selected1P验证同四console组，不增第五。256pins/63CP、7.359250gap协调wall与1.4760117process分列。原4038正文/四oldpins及pending全保；636.750489仍clock下界非完整wall/active，synthetic PageDBcallback非Page381entry/upperwhole。Writer独立准备collision仅报告且exactincident未持，不补造、不归模型/source/JVM；0新HTTP/旧payload重验/当前装载或实速信用。
+
+
+[Writer365后继private reduced-tree局部复用](evidence/2026-11-03-http-writer-private-tree-reuse-source.json)只sourceowner自有metadata，不夹M4 Test/Runtime材料。旧38whole897194+2phase双STOP，owner把clone误称encode在读答前已纠，旧两稿0code；新18whole491099/msg491585双STOP，Root/owner强指导三exacthunk在读完整答后机械原样采，非独立性能发现。全部四outerJSON实际可解，owner旧“malformed”评语撤回为语义尾段未完成/自反，非传输/JSON红；新counter whole算法拒/0candidatePASS。原首parse顺序保，只private methodlocal树+mutation前deepCopy，commit内三parse→一parse+一copy，原validateReduction及physical/authority/callback不删；resource-exhaustion顺序不冒等价。首1WriterTU1.7319927/0、8family/48capture/35synthetic+ctor规范比；仅sourceStrict，Test/formal/装载仍原pending，0JVM元数据检查不授instrumentation。两波HTTP峰各2非四并发，fullstart/activeUNKNOWN，不能授长preview/commit归因或净收益。
