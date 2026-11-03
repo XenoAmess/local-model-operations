@@ -1,0 +1,72 @@
+{
+  "schema": "local-model-operations.rolling60-first-window/v1",
+  "mode_id": "http-candidate",
+  "user_target_actual_inflight": 60,
+  "target_sustained_achieved": false,
+  "coverage": "Explicitly registered owner EVENTS only; late registration reconstructs prior UTC intervals. Client POST invocation does not prove server receipt.",
+  "first_at_least60_begin_UTC": "2026-11-03T07:25:07.673543+00:00",
+  "first_at_least60_end_UTC": "2026-11-03T07:25:44.792274+00:00",
+  "closed_at_least60_segments": [
+    {
+      "begin_UTC": "2026-11-03T07:25:07.673543+00:00",
+      "end_UTC": "2026-11-03T07:25:07.673573+00:00",
+      "actual": 60,
+      "seconds": 3e-05
+    },
+    {
+      "begin_UTC": "2026-11-03T07:25:07.673573+00:00",
+      "end_UTC": "2026-11-03T07:25:44.790517+00:00",
+      "actual": 61,
+      "seconds": 37.116944
+    },
+    {
+      "begin_UTC": "2026-11-03T07:25:44.790517+00:00",
+      "end_UTC": "2026-11-03T07:25:44.792274+00:00",
+      "actual": 60,
+      "seconds": 0.001757
+    }
+  ],
+  "closed_at_least60_seconds": 37.118731,
+  "known_client_peak": 61,
+  "registry_streams_at_reconstruction": 114,
+  "new_ops_tasks": {
+    "distinct_logical_tasks": 8,
+    "whole_current_files": 11,
+    "physical_source_bytes": 153875,
+    "roles": [
+      "persistent-dispatcher",
+      "bounded-event-observer",
+      "cross-process-admission-leases",
+      "manifest-to-spec",
+      "pending-runtime-admission",
+      "future-timeout-profile",
+      "numeric-metrics-parser",
+      "offline-concurrency-tests"
+    ],
+    "first_actual_POST_UTC_range": [
+      "2026-11-03T07:25:07.672524+00:00",
+      "2026-11-03T07:25:07.673573+00:00"
+    ],
+    "transport_cutoff": "All first attempts reset without headers near07:25:44; canonical same-request transport retries continue. No complete candidate or semantic grade at this cutoff.",
+    "root_design_guided": true,
+    "owner_oracle_withheld": true,
+    "model_code_adopted_at_cutoff": 0,
+    "tool_implemented_at_cutoff": false
+  },
+  "future_profile": {
+    "read_seconds": 600,
+    "total_seconds": 2400,
+    "default_config_changed": false,
+    "old_requests_changed": false,
+    "runtime_caller_changed": false,
+    "retry_policy_changed": false
+  },
+  "service_evidence_boundary": "Backend running/waiting samples and client unended intervals are independently timed; absent headers cannot identify a queue, restart or root cause.",
+  "owner_cost": {
+    "full_preparation_start": null,
+    "active_owner_seconds": null,
+    "net_time_saved": null
+  },
+  "new_business_actions_or_validation_for_publication": 0,
+  "original_cutoffs_preserved": true
+}

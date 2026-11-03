@@ -128,3 +128,6 @@ python scripts/opencode_config.py --executor config/executor.json --workspace D:
 
 
 宿主只有shell本地读入口时，每个read exec cell先定义本机已核的固定reader/显式解释器argv前缀，数据路径只作参数。构造后执行前强核首token、完整前缀、总长度、data槽和有限range完全相等，拒绝shell字符及工具尚不支持的引用形式；不得再用raw命令或覆写cmd绕过检查。授权helper/Git另构造，不把JSON/MD/PY数据路径当执行入口。这个[本机构造及负例记录](evidence/2026-11-03-owner-read-command-prefix-guard.json)只说明19个不合法构造未启动进程及一次JSON正确打印，不是跨机shell安全框架/业务审批。
+
+
+新源码任务需要高并发有界等待时，可显式选择`--config config/source-high-concurrency.json`（read600/total2400），保留实际REQUEST、配置SHA与每次BEGIN/END。该完整投影只用于后继新任务，不更新已冻结/在途请求、耗尽同题或活跃业务caller；共享默认仍不变。具体时限并非独立总墙钟watchdog，见[并发和时限](concurrency-and-retries.md#新任务的显式高并发时限配置)。当前用户目标为60真实在途rolling，CLI启动、退避与已排队任务分别计；新工具源码候选尚须owner审阅及必要离线验收。

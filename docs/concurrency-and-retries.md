@@ -6,7 +6,7 @@
 
 每个任务只有一个源码写者、一个唯一输出目录。运营协调记录任务与服务状态，不替代实际 owner。执行者完成或 idle 标签不是 HTTP 在途；对已结束岗位的消息投递，也不能当作请求已经启动。
 
-按本次服务余量、真实积压、错误、TTFT、总延迟和共享资源调整并发。历史 12–16 是一次初始运营目标，更高目标也只是调度意图；当前调用器没有自动调度器、全服务配额或硬预留推理槽。多个机器不能分别把自己的目标报告为已达到的全局并发。
+用户当前明确要求维持 **60个真实未结束HTTP请求的rolling pool**，覆盖历史12–16及24–32目标。owner以完整输入的不同未闭实现、反审或新Test切片持续补位，完成即补；不重投已闭题或绕过配置六次尝试。目标与实际分别报告，不擅自降低目标、切换端点或无限重试。当前共享caller本身仍不提供自动补位、全服务配额或硬预留推理slot；Ops调度模块正在真实源码任务中开发，不能把已发任务写成工具已可用。多个机器不得各自把本机目标当全局成果。
 
 源码 HTTP 与下游编译、重 IO、发布和线上运行的资源约束分开。已点名的小材料读取不应仅因无关编译暂停而被冻结；确有冲突或高优先级任务时，暂停相应未开始阶段，记录具体范围。依据真实开始、结束和释放调整，不沿用过期暂停，也不按预计结束时刻自行开始受限工作。
 
@@ -84,3 +84,12 @@ usage 可能在无有效 content 的 chunk 中出现，即使 `choices` 非空�
 多个角色接近同一UTC报10054时，先按各自EVENTS核实际POST、headers/content、END、finish/DONE和retry.scope，区分传输异常与宿主协作模型capacity/turn中断。客户端END时间不是上游包时间；少量近似固定间隔只是相关线索，不能命名服务timer、模型故障、重启或OOM根因。
 
 只读现有配置和已知维护来源，明确覆盖范围。当前每日检查是任务入口缓存，不是周期唤醒器；这不排除别处的OS、代理或远端服务任务。已有明确只读health/metrics路由才作有界、带时间的采样；health200不证明历史健康/uptime，未报告的running/waiting/uptime保持UNKNOWN。不猜路由、不发示例chat、不重放业务、不因猜测调大超时或重启服务。根因未证时保UNKNOWN，源owner继续真实工作。见[三对同步reset有限记录](evidence/2026-11-03-http-synchronized-resets-limited-attribution.json)。
+
+
+## 新任务的显式高并发时限配置
+
+[config/source-high-concurrency.json](../config/source-high-concurrency.json)是当前共享executor的独立完整投影，仅将新源码任务的`read_seconds`设为600、`total_seconds`设为2400。新任务显式`--config`选择并记录实际配置SHA；后续executor改变时另行审阅投影，不动态继承。旧frozen/在途请求及活跃Runtime副本不改，不为耗尽重试的同题改参数重开。它不添加priority/id_slot、端点fallback或新重试。
+
+600秒仍是socket读取超时；2400秒仍在收到SSE行后检查，并非严格独立watchdog，也不是整个六attempt任务总墙钟。较长有界等待不证明服务有容量或能满足业务deadline。业务优先pending准入、服务priority scheduling与硬保留执行slot是不同能力，未核实际部署policy时不盲传priority。
+
+[首个60窗口及源码工具任务](evidence/2026-11-03-http-rolling60-first-window.json)仅证明迟登记重建的短窗口；后见metrics与客户端未闭合数分别标时，不将无headers直接判为后端排队。
