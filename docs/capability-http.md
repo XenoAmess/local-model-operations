@@ -2162,3 +2162,10 @@ M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-co
 [M6 whole consumer276](evidence/2026-11-04-http-m6-native-divisor276-source.json)两真实请求：5500-token length整未读弃、原sourcecounter STOP整拒0proof/0数值oracle；owner在原23hunk接管，新同Memory组合仅source-ready。两期待prePOST冻结、common-domain0diff不是Java行为；准备/审阅/HTTP重叠不加和，CPU/active/fulltask未知。五生产actual在该owner切点未持，软件/正式pending/naturalOPEN原样保。
 
 [同intake案例补充CLI资格](evidence/2026-11-04-source-publisher-cli-schema-followup.json)仅1newmethod/2CLI lanes首验0/.9670771秒，原publisher和newpair既有str门，0生产修复；早期4dict错误来自directdrop绕过publisher，不能据此伪造helper bug或复现。原7方法/rollover4方法不重，4844.488414秒Ready到实际回执窗含准备/等待，不当HTTP或省工；无新modelcase/请求。
+
+
+## 2026-11-04：roster DATA归一工具源码
+
+[可复用API与capture边界](../scripts/authorized_dispatch/COLLABORATION-ROSTER-API.md)和[原案模型/软件记录](evidence/2026-11-04-http-collaboration-roster823.json)：1STOP17.300223秒部分代码采用+3owner修正，原私有5方法首验0/.5535002秒/11pins；public生产10049字节保原。新synthetic5方法和mocked CLI仅source候选，未借原823授绿，不重796。
+
+工具只把operator保存的完整returned view序列化bytes归一为snapshot/counts/evidence；functions V8不能自动取collab返回，65row及completed正文仍需人工保存，SHA非rawtransport。globalUNKNOWN、operator错误分类与授权分层，0自动采样/派发；643.509秒准备含INVALID_ID、470.190秒后审、388秒portable准备与HTTP分列，active未知、30–60s节省未测。
