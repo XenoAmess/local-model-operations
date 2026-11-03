@@ -1,0 +1,83 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B089-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T22:51:58.153936+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T22:30:34.264220+00:00",
+    "window_ended_at_utc": "2026-11-03T22:30:38.213857+00:00",
+    "window_seconds": 3.949637,
+    "peak": 1,
+    "peak_duration_seconds": 3.949637,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b089-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 923,
+        "completion_tokens": 554,
+        "total_tokens": 1477
+      },
+      "failure": null,
+      "content_ttft_ms": 408.3618000149727,
+      "total_ms": 3949.907100002747,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "b99ed9ae290e434d424fbb67a32236b1be8fa4568d0b52422079cb4aad754a4c",
+      "summary_sha256": "f5b883fc40cee15cf6517b77ae863742c23a577b8d4fe7d955e193948126cad9",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "463f6a9d47a6b36facab2efc349a7026f2a6589f9e6b775cd44758b880652e85",
+        "task_id": "hoi4-20261104-b089-prompt-01",
+        "request_sha256": "b99ed9ae290e434d424fbb67a32236b1be8fa4568d0b52422079cb4aad754a4c",
+        "summary_sha256": "f5b883fc40cee15cf6517b77ae863742c23a577b8d4fe7d955e193948126cad9",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Candidate retained actual bare silver/grey swept hair/brows, small SILVER moustache/clean chin, OPEN dark civilian suit/PALE shirt/RED tie and source crop/backing.",
+          "Removed other military/younger-cap variant comparison from actual candidate instructions; replaced matching source-description comparison with direct visual limits. These nonmatching analysis variants were excluded before POST. Hidden lapel pin remains excluded.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2649,
+        879
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b089-sources.json",
+    "sha256": "8846ab738780d10a59f52d600d3643b61914716cf0839e857e45aea6bfafb8d3",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T22:36:56.257505+00:00",
+  "stage_at_cutoff": "One frozen prepared uncalled fresh LOW prompt in one image window. Exact older silver-haired/silver-moustache small card and three larger candidates actually viewed. Civilian dark suit/pale shirt/RED tie matches; same-face military red-tab/light-tie and younger red-banded-cap variants excluded. Larger-only lapel pin hidden behind primary note is not added.",
+  "owner_review": "Both SHA domains separately verified. Complete finite prompt retained bare silver hair/brows, actual small SILVER moustache/clean chin, OPEN DARK CIVILIAN suit/pale shirt/RED tie and primary pose/crop/backing. Owner removed other military/younger-cap comparison from actual candidate instructions, normalized source-description negative comparison to direct visual constraints, restated collar/anatomy and hidden-pin limits, then appended canonical LOW hair/alpha rules. No text-model pixels, art qualification, capacity or savings claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
