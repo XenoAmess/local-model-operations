@@ -1383,3 +1383,15 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 [同局恢复source helper有限经验](evidence/2026-11-03-http-recovery-source-helper-boundary.json)：9whole/2STOP/0retry，helper/guard机械partial加owner同步与Main恢复逻辑；counter错控制流拒。独立oracle有限审与Managed fixture缺口明确，不造测试。仅2TU首0与正式a39c10a6的3literal层，wholefamily不冒compiledraw；实际越旧stale门后Native不可用695.6166268s、0LOOP/0SAVE，后BOOT仅新切点，不能授恢复成功/省工。
 
 [warm planning A→B合同收窄](evidence/2026-11-03-http-warm-planning-route-source-boundaries.json)保5实际POST（A两STOP、B两sourceSTOP、candidate反审length4000整未读弃）/峰2仅97.728856s、0modelcode。B owner4prod+1Test/3P与A两个0START分开；初16whole+6Core成员与后17whole完整Core不倒授输入，owner“no query”措辞歧义不误归模型。[正式后见](evidence/2026-11-03-http-warm-planning-route-later-formal.json)565d05a5：四叶rawformal等，但RootSession比已编raw多既有SavedLiveToken819B，非EOL-only，combined formal whole未编；0新RUN/装载/速度，原pending保。
+
+
+[command DATA scope实际instrumentation后见](evidence/2026-11-03-http-command-memory-later-instrumentation.json)只追加owner独核冻结时刻：official3.473s、必要1GET5.3096842s，同host/delegate/loader，0STOP/0newdelegate，前后LOOP；Writer候选未装。以官方重定义结果及coherent source/family receipts判实际采用，不将离线hash等式冒充loadedbyte证明；自然cachehit、更新后SAVE和提速尚未证实，旧source/formal切点保，0新模型/旧绿重跑。审计器的LF投影/REVIEW_ELIGIBLE仅机械标签，不授权限或采纳。
+
+[eleven-site FP carrier正式后见](evidence/2026-11-03-http-eleven-site-fp-carrier-later-formal.json)追加e25e486c，API10048/binder7370/Test11439 raw/EOF均等；only311B wrapper选同四组1P非第五，原API owner修/length部分误读/Test顺序首RED及pending全保，0新HTTP或旧算法重跑。
+
+[double-tail纯API与owner binding](evidence/2026-11-03-http-double-tail-api-owner-binding.json)：4STOP/0retry/峰3仅7.881099s，API7891R1完整raw0owner，但两个whole binder在齐全指定输入下均拒0片段，owner3826接管；prospective audit错误prestate保留说法拒/0oracle。Owner11419四组在三R1END后CONTENT前冻结、非生成前；四first0与2448.528659仅已知clock下界/activeNULL分列，formal该截面pending，未授upper/native/实速。
+
+[七site纯API收窄](evidence/2026-11-03-http-seven-site-api-owner-state-binding.json)是新真实scope：25whole94738B、2STOP/峰2仅15.151615s，强明确shape/site/target/currentN提示，8113API R1raw0owner，whole3711 state binder与12716Test全owner。四console组/三first0不冒四JUnit或全部7CALL路径，fullTest END后CONTENT前非生成前；1544.360981仅下界/activeNULL/formalpending，physical atomicity/upper组合/七下层行为未授。
+
+
+[double-tail纯API正式后见](evidence/2026-11-03-http-double-tail-api-later-formal.json)追加e1a680fc，三payload raw/EOF精等与only308B wrapper同四组1P；不加第五组，不混API原样采用与两个whole binder拒收。原3582 pending与四first保，0新HTTP/旧production/Test重跑或运行信用。
