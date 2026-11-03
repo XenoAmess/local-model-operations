@@ -223,3 +223,10 @@ CLI367.1497915s、首记prepare→CLI161.102732s、reportedHTTPsum299.6922541s�
 
 
 - [Isolated Dev harness native source stage](evidence/2026-11-03-opencode-isolated-dev-harness-source-stage.json): one session produced14 files over80 actual requests, but final source integration/lifecycle grade rejected the raw whole. No fixture was run. Client guard recovery, later input closure, owner repair, reported usage and1754.369s inclusive wall remain separate; net preparation saving and sustained60 are unproved.
+
+
+## 2026-11-03 Isolated Dev harness: owner repair and first command failure
+
+[Later owner, finite peer and actual-first metadata](evidence/2026-11-03-opencode-isolated-dev-harness-owner-and-first-stop.json) extends the original eighty-request native source stage without changing that cut. Owner revision06 and a finite independent execution-boundary review did not establish runnable software: the first actual positive command stopped with a command-syntax failure before Dev startup. Missing offline dependencies are not proved. The first failure, owned-job closure and free-port observation are preserved; there was no automatic retry or negative-mode run.
+
+The 5935.296762-second owner wall, 2680-second peer wall and earlier 1754.368648-second native source-delivery wall overlap and cannot be added as elapsed time or active labor. New command-assembly repair/review are separate follow-ups to the actual failure. No raw-model execution acceptance, current Runtime change, speed or saved-day credit follows.
