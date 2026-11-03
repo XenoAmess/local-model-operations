@@ -1,0 +1,83 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B090-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T23:19:44.951959+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T22:58:14.467472+00:00",
+    "window_ended_at_utc": "2026-11-03T22:58:18.857712+00:00",
+    "window_seconds": 4.39024,
+    "peak": 1,
+    "peak_duration_seconds": 4.39024,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b090-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 938,
+        "completion_tokens": 648,
+        "total_tokens": 1586
+      },
+      "failure": null,
+      "content_ttft_ms": 418.2631999719888,
+      "total_ms": 4391.2700999644585,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "e0ae9390ce7a5976b6dba5701520e60b9beae1d295758565fe883edbd6634147",
+      "summary_sha256": "492263d9773bf0cd33da4a41eb6ecea58f924f347a77294ae39b4fa2f5cf3e19",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "aa7c1c3da15cad8654887789be7da832023337956cb1c672c8e6cb196e72f11a",
+        "task_id": "hoi4-20261104-b090-prompt-01",
+        "request_sha256": "e0ae9390ce7a5976b6dba5701520e60b9beae1d295758565fe883edbd6634147",
+        "summary_sha256": "492263d9773bf0cd33da4a41eb6ecea58f924f347a77294ae39b4fa2f5cf3e19",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Candidate retained actual bare silver swept hair/grey eyebrow HAIR, small SILVER moustache/clean chin, OPEN dark suit/PALE SHIRT FRONT and BLUE/NAVY SHORT BOW with lateral wings.",
+          "Explicit pale vertical area is shirt front, not a long tie; no RED necktie substitution. Restated exact primary crop/pose, subtle bow pattern, short broad collar contact and no hidden accessories.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2683,
+        892
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b090-sources.json",
+    "sha256": "c348de733bcd27c87f2ffc71b6c45149dbc30074a0f23316a05f4a0f77cf8942",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T23:02:58.313882+00:00",
+  "stage_at_cutoff": "One frozen prepared uncalled fresh LOW source prompt in one image window. Owner viewed exact small card, native nearest pixels and matching larger analysis portrait: real BLUE/NAVY short BOW TIE with lateral wings and PALE vertical SHIRT FRONT below, not pale long tie or red necktie. Distinct raw source remains independently generated despite same face as other outfit variants.",
+  "owner_review": "Both source SHA domains separately checked. One complete finite prompt retained bare silver hair/brows, small SILVER moustache/clean chin, OPEN dark suit/PALE shirt front and BLUE/NAVY SHORT BOW with lateral wings, exact pose/crop/backing. Owner partially adopted by reaffirming bow versus shirt-front boundary, source detail limits and very short broad collar transition, plus canonical LOW real-hair/alpha constraints. No text-model image pixels, visual qualification, capacity or savings claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
