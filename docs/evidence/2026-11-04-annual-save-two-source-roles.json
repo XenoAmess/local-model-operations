@@ -1,0 +1,90 @@
+{
+  "schema": "local-model-operations.annual-save-source-review/v1",
+  "mode_id": "http-candidate",
+  "case_id": "annual-save-two-source-roles-20261104",
+  "scope": "Two finite source-analysis roles; no implementation generation or release/runtime gate.",
+  "policy": "User explicitly authorized ordinary annual saving: fixed365 days times24 raw ticks=8760 since the actual confirmed saved date. Historical frequency restrictions do not override this new requirement.",
+  "roles": [
+    {
+      "role": "original_multilife_compatibility",
+      "whole_java_files": 7,
+      "whole_configuration_artifacts": 2,
+      "physical_input_bytes": 224690,
+      "source_message_bytes": 226706,
+      "source_message_sha256": "9efa65a7425dc5d1225900a7dd031882518767b230c46536145f8043c0ce9bd7",
+      "max_tokens": 4500,
+      "post_begin_utc": "2026-11-03T17:10:56.554146Z",
+      "attempt_end_utc": "2026-11-03T17:11:07.283919Z",
+      "ttft_seconds": 6.175710200011963,
+      "attempt_seconds": 10.729669799999101,
+      "reported_prompt_tokens": 47447,
+      "reported_completion_tokens": 700,
+      "grade": "PARTIAL_GUIDED_BASELINE_OBSERVATIONS_NO_INDEPENDENT_COMPATIBILITY_PROOF",
+      "accepted": "Limited original planning-count and dirty-tail SAVE observations were explicitly requested before the answer.",
+      "rejected": "Budget reserve and dirty-loop stopping assertions lacked concrete reachable source traces; planning-count preconditions and SAFE tail eligibility needed qualification.",
+      "outside_policy_callees": "NOT_SUPPLIED_NOT_CLAIMED_CLOSED"
+    },
+    {
+      "role": "actual_controller01_policy02_counter",
+      "whole_java_files_including_original_and_candidate_versions": 10,
+      "whole_configuration_artifacts": 2,
+      "physical_input_bytes": 395650,
+      "source_message_bytes": 398296,
+      "source_message_sha256": "a55232f4f8f3373b31cc209bb49823fc03c52ab3853a8c02d26c301e82541bef",
+      "max_tokens": 4500,
+      "post_begin_utc": "2026-11-03T17:12:44.412532Z",
+      "attempt_end_utc": "2026-11-03T17:13:07.339684Z",
+      "ttft_seconds": 10.502947000000859,
+      "attempt_seconds": 22.92711740001687,
+      "reported_prompt_tokens": 82149,
+      "reported_completion_tokens": 1851,
+      "grade": "WHOLE_REJECT_NO_VALID_ACTUAL_CANDIDATE_COUNTER",
+      "rejected": "Two duplicate counter-residue claims did not establish a violated requirement and misdescribed the original tail gate. A third finding confused the complete original Policy with the supplied candidate and claimed three removed autonomous SAVE branches still existed.",
+      "limited_facts": "Candidate Controller uses the BigInteger date delta in both supplied gates. Retained count/config fields alone are not defects; source still reports/restores/guards and resets the counter on confirmed SAVE."
+    }
+  ],
+  "transport": {
+    "actual_POST": 2,
+    "actual_ATTEMPT_END": 2,
+    "retries": 0,
+    "each_HTTP_status": 200,
+    "each_finish": "stop",
+    "each_SSE_DONE": true,
+    "each_JSON_syntax": "VALID",
+    "actual_requests_equal_prepared_three_messages": true,
+    "source_and_task_full_text_verified": true,
+    "thinking": false,
+    "proxy": "direct_disabled_environment_proxy",
+    "redirects": "refused",
+    "read_seconds": 600,
+    "total_seconds": 2400,
+    "maximum_total_attempts": 6,
+    "remote_socket_peer": "UNKNOWN",
+    "cached_tokens": null
+  },
+  "concurrency": {
+    "role_intervals_overlap": false,
+    "scoped_peak": 1,
+    "current_scoped_unpaired": 0,
+    "global_inflight": "UNKNOWN"
+  },
+  "provenance": {
+    "three_autonomous_policy_SAVE_routes_found_by": "Root and Java owner before actual-candidate request; not model discovery.",
+    "private_Test_oracle_or_role1_answer_in_role2": false,
+    "valid_new_model_counter": 0,
+    "model_code_adoption": 0,
+    "candidate_edits_due_to_model": 0,
+    "no_followup_request_for_same_subject": true
+  },
+  "cost": {
+    "HTTP_attempt_seconds_sum": 33.65678720001597,
+    "reported_prompt_tokens_sum": 129596,
+    "reported_completion_tokens_sum": 2551,
+    "full_task_start_or_wall": null,
+    "owner_active_labor_seconds": null,
+    "net_saved_seconds": null,
+    "preparation_coordination_and_review_not_CPU": true
+  },
+  "limits": "Complete supplied files are not all transitive SAVE routes. Source analysis does not grant compilation, loading, actual SAVE frequency, gameplay, hardware, performance or backend capability. Java/Native/Runtime progress did not wait for model approval.",
+  "private_materials": "Raw requests, complete replies, source, tool records and evidence bindings remain private."
+}
