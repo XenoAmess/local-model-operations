@@ -1,0 +1,212 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B045-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T05:44:25.296255+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T05:21:21.148026+00:00",
+    "window_ended_at_utc": "2026-11-03T05:21:28.170880+00:00",
+    "window_seconds": 7.022854,
+    "peak": 4,
+    "peak_duration_seconds": 6.289066,
+    "average_inflight": 3.7573203145046166
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261103-b045-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 792,
+        "completion_tokens": 513,
+        "total_tokens": 1305
+      },
+      "failure": null,
+      "content_ttft_ms": 1004.9857999547385,
+      "total_ms": 6569.673599966336,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "31740b5a8362a9198099792dde6c71f585f1f4af0af8fdb7211486dc4abe8150",
+      "summary_sha256": "eef68b4a941dcc174d6a7ebdcd75b20f57e010a4ed9fa956a5da7307c4c8a930",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "7c6388118fe8ca33fd1266ebbc8fc69092986621a7688c36ea13885a1b43942a",
+        "task_id": "hoi4-20261103-b045-prompt-01",
+        "request_sha256": "31740b5a8362a9198099792dde6c71f585f1f4af0af8fdb7211486dc4abe8150",
+        "summary_sha256": "eef68b4a941dcc174d6a7ebdcd75b20f57e010a4ed9fa956a5da7307c4c8a930",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Candidate omitted explicit green-ringed black eyes; owner restored mascot-eye instruction and exact source hair/garment state, keeping genuine fine eye-rim uncertainty.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2276,
+        656
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b045-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 824,
+        "completion_tokens": 600,
+        "total_tokens": 1424
+      },
+      "failure": null,
+      "content_ttft_ms": 1012.2587999794632,
+      "total_ms": 7018.54799996363,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "fa8ff21f925c4e3c19cdce72121b499d3118a0be95e55959d03140e35fc5bac1",
+      "summary_sha256": "b4c7921822299e579085c177492e7559731990531e42926dfbe36f77fdd12345",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "ff71ab9afb6d93b4e29ee584c6ebe09bc38c8a9a97b87041d97bd3b9e43f06cf",
+        "task_id": "hoi4-20261103-b045-prompt-02",
+        "request_sha256": "fa8ff21f925c4e3c19cdce72121b499d3118a0be95e55959d03140e35fc5bac1",
+        "summary_sha256": "b4c7921822299e579085c177492e7559731990531e42926dfbe36f77fdd12345",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Retained exact GREEN sash and explicit NO NOTE/NO ATTACHMENT contract for this independent 53x65 original. Owner restated actual primary formal uniform/round anatomy; no reference to other-source clothing.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2460,
+        656
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b045-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 800,
+        "completion_tokens": 515,
+        "total_tokens": 1315
+      },
+      "failure": null,
+      "content_ttft_ms": 855.60660000192,
+      "total_ms": 6503.524900006596,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "5a6f988121bfdde4b579cee9dabde8dda53bbe4461e4a334ce21ac7642d69633",
+      "summary_sha256": "f9467cd7adb0195b12ad811227f780823ccbedcd872be38e6c5503eb9eb851d2",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "e6476a657b073ab9a1311318786a393860f29f44e86bf5a640c3e60a37fd0b3e",
+        "task_id": "hoi4-20261103-b045-prompt-03",
+        "request_sha256": "5a6f988121bfdde4b579cee9dabde8dda53bbe4461e4a334ce21ac7642d69633",
+        "summary_sha256": "f9467cd7adb0195b12ad811227f780823ccbedcd872be38e6c5503eb9eb851d2",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Candidate omitted explicit strong IMAGE-LEFT profile and source no-spectacles condition; restored both. Fine pale upper-lip shading remains understated; mismatched larger hair/pose is analysis only.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2346,
+        656
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b045-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 778,
+        "completion_tokens": 490,
+        "total_tokens": 1268
+      },
+      "failure": null,
+      "content_ttft_ms": 1010.1030000369065,
+      "total_ms": 6294.29320001509,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "d3049753a417ff7702a883aee50f37fa0ee173c97288287d02b4586660635d8b",
+      "summary_sha256": "d6bde4a94712475796be1bb7ebc74418988908e1ee6f303d8c5b6027224ad563",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "eae7768e65e282e398dcb462ac83d711c7094aea98db3c4704aca9886443e04c",
+        "task_id": "hoi4-20261103-b045-prompt-04",
+        "request_sha256": "d3049753a417ff7702a883aee50f37fa0ee173c97288287d02b4586660635d8b",
+        "summary_sha256": "d6bde4a94712475796be1bb7ebc74418988908e1ee6f303d8c5b6027224ad563",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Candidate omitted explicit strong IMAGE-LEFT angle and only said natural brows; owner restored exact primary direction and actual eyebrow HAIR with civilian suit/patterned tie.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2247,
+        656
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261103-b045-sources.json",
+    "sha256": "9ef4eef692c09ed9f62895a29a99bb37da5fec3731ee72693ee1bd30e535479b",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T05:31:48.072392+00:00",
+  "frozen_prepared_receipt": "mod_nailong/data/production-batches/resume-20261103-b045-prepared.json",
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. The pre-dispatch cutoff was frozen before later actual calls, independently of publication time. Four different source SHA portraits remain independent. One source is53x65 with NO NOTE and a GREEN sash. Other cards have foreground notes. Five larger candidates were compared; mismatched hair, pose or uniform versions were excluded as primary authority. Original source dimensions remain independent. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Four complete candidates were partially adopted. Source2 candidate correctly retained GREEN sash and explicit NO NOTE/NO ATTACHMENT contract. Owner restored green-ringed black mascot eyes omitted from source1, explicit strong IMAGE-LEFT profile/no spectacles in source3, and source direction/eyebrow HAIR in source4. Fine upper-lip/eye-rim uncertainty retained. Original53x65 context is not requested output size. No image pixels, visual approval or measured net time savings.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
