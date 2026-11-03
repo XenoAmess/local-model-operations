@@ -1,0 +1,82 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B083-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T21:52:48.913109+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T21:47:51.000325+00:00",
+    "window_ended_at_utc": "2026-11-03T21:47:55.516865+00:00",
+    "window_seconds": 4.51654,
+    "peak": 1,
+    "peak_duration_seconds": 4.51654,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b083-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 957,
+        "completion_tokens": 663,
+        "total_tokens": 1620
+      },
+      "failure": null,
+      "content_ttft_ms": 480.88909999933094,
+      "total_ms": 4522.165400034282,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "a4e2f1abfaff0fa19fc883f82e7fe2863a631a24fcc4434eed7bba6d475d13c3",
+      "summary_sha256": "c59486b7925ff3e1bdd91f6873a435e0ee0ed1147e342661f4f2a2ea1f9253e3",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "a4d72365af48dd318e2560d30dee887822a0d440c5f5b0a54e2c1e986c7435ff",
+        "task_id": "hoi4-20261104-b083-prompt-01",
+        "request_sha256": "a4e2f1abfaff0fa19fc883f82e7fe2863a631a24fcc4434eed7bba6d475d13c3",
+        "summary_sha256": "c59486b7925ff3e1bdd91f6873a435e0ee0ed1147e342661f4f2a2ea1f9253e3",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Main supplied sparse side hair/real brows, actual dark moustache and chin goatee, CLOSED olive collar/green-gold patches/brown strap and exact pose/backing retained. Reaffirmed bare near-bald crown.",
+          "Restated real pointed beard HAIR separately from rounded yellow anatomy, raised broad CLOSED collar and limited decoration extent; canonical LOW hair/alpha rules appended. Removed non-input medal discussion from actual instructions. No text-model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2837,
+        932
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b083-sources.json",
+    "sha256": "8387f11c6c118c129e01a811a706abd77de653dcd6b18456cdc0dc2ab74cfa50",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T21:49:45.493787+00:00",
+  "stage_at_cutoff": "One frozen prepared uncalled LOW source prompt in one image window. Owner viewed exact small card, nearest original pixels and matching larger analysis portrait. Actual sparse dark side hair/high receding crown, real dark moustache/chin goatee, closed olive military collar/green-gold patches and limited brown strap remain source-bound; hidden ribbons excluded.",
+  "owner_review": "Both source SHA domains independently verified. One finite stop/DONE/JSON candidate retained sparse temple hair, real moustache/chin goatee, closed olive collar/patches/strap and primary pose/crop/backing. Owner explicitly restated near-bald high receding crown, distinguished pointed real beard hair from compact rounded yellow anatomy, and removed non-input larger-ribbon discussion from actual instructions. Partial text adoption plus canonical LOW hair/alpha rules, no pixels/visual approval/capacity/savings claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
