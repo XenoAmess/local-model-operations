@@ -1624,3 +1624,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 2026-11-03：[纯离线具名事件 observer](evidence/2026-11-03-http-pool-observer-length-owner-implementation.json)独立交付。原observer模型length整弃，owner实现/11个新测试及4份旧日志18对原样只读；不把缺END、backoff或已退出CLI补成实际HTTP，不授自动补位/持续60/语义采用。
+
+
+2026-11-03：新获准原字节材料：[Manager CRT owner组合](evidence/2026-11-03-http-manager-crt-owner-composition.json)保三模型0代码/owner先落源与3scene84check；[range完整frame后见formal](evidence/2026-11-03-http-range-fullframe-transport-owner-later-formal.json)与 [Store stamp后见formal](evidence/2026-11-03-http-store-local-stamp-later-formal.json)不回写原pending。另 [full150返回状态软件](evidence/2026-11-03-offline-full150-returned-state-owner-software.json)和 [transfer新边界见证](evidence/2026-11-03-offline-transfer-boundary-owner-witnesses.json)是0本地HTTP的owner离线工作，不加模型分母；六组与六scene分开，当前typed poststate草稿未编/未采用，不倒授其绿。所有active/净省工UNKNOWN、0Runtime/Native/速度界限保留。
