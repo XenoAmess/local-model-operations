@@ -1796,3 +1796,10 @@ The frozen body's compact routing wording refers to the unchanged configuration 
 One production compile, one new manual compile and its two new public prefix cases first completed successfully; neither case is a LIFE memo-hit positive. The 10.6416292-second process sum, 29.6257094-second HTTP sum and4091.938691-second inclusive marker wall are different measures, with active labor unknown. Formal publication was pending at this frozen cut; no reducer/authority/runtime, instrumentation or speed acceptance follows.
 
 Separate later formal annotations for the [private quote](evidence/2026-11-03-private-json-quote-formal-later.json) and [public numeric message](evidence/2026-11-03-public-number-formal-later.json) preserve independent existing source regions. Their combined formal wholes differ from the first compiled producers and were not recompiled by publication; the same three and two owner Test methods are reused without new HTTP, methods or RUNs. These annotations do not change the Snapshot case or any original pending body.
+
+
+## 2026-11-03 Bare free-entry source stage with a nominal-source gap
+
+[The sole corrected owner-approved body](evidence/2026-11-03-free61-entry-source-stage-corrected.json) records five actual POST/END requests: one core correction selected unchanged, one unread length response, one rejected corrected binding replaced by the owner, and an original-protocol counter that cannot validate the later selected candidate. There was no third correction round.
+
+All twenty-one transmitted Java entities were complete, but an existing nominal memory ancestor was absent from those original model prefixes. The owner later supplied it for qualification and withdrew the earlier empty-gap overstatement. File count is not transitive-closure proof; the original requests were not rewritten or reposted. This corrected body was selected before public release, and software/formal acceptance remains pending at its cut.
