@@ -1476,3 +1476,8 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 [Writer bounded stage 诊断] [批准正文](evidence/2026-11-03-http-writer-bounded-stage-diagnostics.json)：13完整Java+1原aggregate样本/479471B，两角色11000/2400、两STOP无retry，峰2仅34.135675s。guided partial 由owner修 completion sentinel/return truth、duplicate计时与原lambda/accessor顺序，反审不作candidate proof；owner新3methods首次3P、0TestHTTP。V01 Outlet在0START前源审修正，不造RED；normal形状相容与临时两literal enabled profile分别记账，后者未直接RUN。8.2536458s normal processwall、2.2365036s临时编译及1650.892379s已标墙钟不当CPU/省工；正式仍原pending，0实际装载或25s归因。后到sharedcaller修复不回写原流。
 
 [632 正式后见] [批准附页](evidence/2026-11-03-http-complete-error-cell-fp-chain-later-formal.json)追加818c32da及onlywrapper .9273494+.6764103s/same两组selected1P，不加第三组；保原4011B正文pending和首actual。323pins/97有序CP为软件输入，whole32/204的cached路径不授whole94/Page381/Native172或实速。
+
+
+[上游 allocator 两轮 FP 链633] [批准正文](evidence/2026-11-03-http-upstream-allocator-two-round-fp-chain.json)：92实体/427403B、两STOP/峰2仅5.029247s；3126B factory完整R1 raw/0owner Java，强9参union/工厂序提示。audit PASS仅计划结构核对，无candidate/新oracle。owner14934B Test两END后CONTENT前冻结，三首次0/stdout两console组；whole94+60+PageCALLport新两轮路径不授wholePage381/upperWORD/OS/Native172。825.080283s仅录得下界，active/净节省未知，正式原pending。
+
+[Writer stage 正式后见] [批准附页](evidence/2026-11-03-http-writer-stage-diagnostics-later-formal.json)追加19065cbc：normaloff Writer113827→112425仅1402CRLF转LF、Test20995 rawexact/EOF保。原15693B正文pending与三P记录保；temporarytrue未正式。writer CPcount预检0stage/0Java独归准备成本，无新HTTP/验证/运行或速度信用。
