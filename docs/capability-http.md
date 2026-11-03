@@ -2056,3 +2056,8 @@ Both software receipts observed Windows CRLF from platform println. Earlier logi
 ## 2026-11-04: Optional durable request boundaries
 
 The [explicit opt-in caller](request-registry.md) adds durable BEGIN/END recording without switching the canonical caller or active consumers. Nine raw-source methods passed isolated first validation; four portable public methods retain their assertions but have unexecuted default-path projections. One real source-review canary required an owner launch repair, then proved exact recorded boundary pairing; its model counter was rejected for a source misread. Registry coverage and live HTTP remain separate unknowns. [Exact pins and costs](evidence/2026-11-04-opt-in-request-registry.json).
+
+
+## 2026-11-04：私有writer资格、whole见证与投递类型边界
+
+[M0私有snapshot759](evidence/2026-11-04-http-m0-private-snapshot759-source.json)保两个完整答复整拒及仍未选择实现的owned设计；[M2 whole660](evidence/2026-11-04-http-m2-660-source.json)保91实体、length整弃与owner三源码单元，不授软件。[M6 IDIV267／WORD265](evidence/2026-11-04-http-m6-idiv267-word265-source.json)保错误signed128构造、RIP反审错误与截断整弃；[M6 later-call266](evidence/2026-11-04-http-m6-later-call266-source.json)分开四次真实请求、完整候选拒收、direct-drop字段类型错误与约421秒准备窗。qualified publisher原有类型检查没有放行该dict，后继修同一逻辑任务的入口形状不算HTTP重试。各小峰与完整wall／未知主动成本分列。[Known04正式后见小附页](evidence/2026-11-04-http-m0-known-conservative04-formal-later.json)只追加正式tuple，不回写原pending正文或授Runtime／速度。

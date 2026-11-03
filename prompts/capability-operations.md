@@ -21,11 +21,15 @@
 
 同时落实用户的两项并发要求：60个实际RUNNING云端智能体与60个实际POST未结束的本地模型请求分开报告、同时推进。云端capacity/turn错误不归本地HTTP；保留用户选定云端型号续行，不为此探测或重启本地服务。source-ready、排队、CLI与旧峰均不补算两种实数。
 
+用户明确保持当前云端型号继续重试时，容量恢复只沿同一未闭任务、执行机器当次用户选定的型号续行；不得擅自换型号、另开替代角色或把某台机器的具体型号写成跨机器默认。只有已确认的capacity错误才按容量恢复；岗位完成、源阶段结束、首验材料未齐和缺少START证据分别记录，不能把人数缺口或等待一概归capacity。
+
 完整输入一齐就直接执行下一真实任务。优先沿已有caller的有序`source_files`自动封包，不再人工手拼同一前缀；已明确转移执行权的owner将唯一冻结记录发布给现有sole intake，由它串行注册并交滚动dispatcher，作者不再双发。不把准备-only交付、个人回执、整波源审、软件窗口或Git发布设为POST终点或前置。原实现、独立原源反审和新的公共Test可在有不同未闭目标时并行；已闭绿或已接管写完的实现不追投凑数。
 
-入队写者和来源owner须明确。多owner各写唯一不可变记录，只有sole intake写共享READY；compare-before-replace不等于并发锁，manual registrar不能与它并跑。缺claim/存在旧Ready都不是重放许可，崩溃及重复冲突须保历史并核实际REQUEST/EVENTS。每个截面分别列出源齐未入队、READY未POST、具名POST未END和覆盖未知项；Runtime预留1仅客户端准入，不冒充服务推理slot。准备到BEGIN的人工等待与HTTP总时、TTFT、主动工时分开，自动化不能回填抹去原协调成本。
+入队写者和来源owner须明确。多owner各写唯一不可变记录，只有sole intake写共享READY；compare-before-replace不等于并发锁，manual registrar不能与它并跑。缺claim/存在旧Ready都不是重放许可，崩溃及重复冲突须保历史并核实际REQUEST/EVENTS。每个截面分别列出源齐未入队、已见INTAKE及拒绝／未登记记录、READY未POST、具名POST未END和覆盖未知项；Runtime预留1仅客户端准入，不冒充服务推理slot。准备到BEGIN的人工等待与HTTP总时、TTFT、主动工时分开，自动化不能回填抹去原协调成本。
 
 宿主若区分“发送消息”和“启动任务”，给 completed worker 的普通消息只算通知，不能报告已在并行工作。先核实际状态；对 completed worker 使用能触发新 turn 的续派 API（本次宿主为 `followup_task`），再消费实际 START/状态或新源码出生回执。`send_message`、排队消息、旧 Ready 和准备目录均不是启动证明；running worker 也不等于 HTTP 在途。一次误用普通消息造成约39分钟协调延误，[实际起点及撤回记录](../docs/evidence/2026-11-03-completed-worker-notification-without-start.json)保留原通知精确UTC未知，不能补造精确工时或归模型/HTTP/CPU。状态核实不增加每 POST 中央 ACK；输入齐全的真实任务继续由唯一 owner 直接执行。
+
+对idle／errored等未运行岗位，同样使用宿主真正能启动新turn的恢复API；本宿主为followup_task，send_message仅通知，sent不等于running。容量恢复保留原任务与型号，并核实际START后再计运行。GUARD拒绝须与capacity分开：保原拒绝和权限边界，不换述同一题、不转岗或新id重投绕过；授权范围真正改变时另按新范围审阅，不能将工具拒绝洗成瞬时容量错误。
 
 原生工具出现重复时核实际受支持参数、输出SHA和读取区间：未知字段可能未报错却被忽略，合法参数也可能形成同输入/同输出循环。以具体无新信息证据决定获准的精准owner干预，保留中断请求UNKNOWN；不设隐蔽总步封顶，也不靠连续提示喂业务答案。先分清模型循环与配置合并、旧relay地址等launcher故障；debug exit0必须再核effective配置。[实际案例及只读接入](../docs/opencode-readonly.md)。
 

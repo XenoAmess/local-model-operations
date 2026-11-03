@@ -1,0 +1,87 @@
+{
+  "case": "Private snapshot decoding: source qualification for an owned JSON writer seam",
+  "date": "2026-11-04",
+  "status": "SOURCE_AND_MODEL_ROUND_CLOSED_WITHOUT_A_SELECTED_IMPLEMENTATION",
+  "question": "A strict whole-document parser produces a private snapshot tree, but each retained row is then validated and serialized again to preserve its public bytes. Can an owned path remove the redundant validation traversal while preserving the original per-row writer and every failure boundary?",
+  "evidence_boundary": {
+    "trigger": "One frozen application-thread stack contained whole-tree validation during snapshot decoding. One stack is not duration, call-count, dominant-cost or speed evidence.",
+    "input": "Nine complete project source files, 88202 physical bytes, were supplied in the same ordered current-source prefix to both roles. External SDK source was explicitly not supplied in those requests.",
+    "roles": [
+      "minimum contract-preserving design",
+      "reachable counterexamples in the supplied current source"
+    ],
+    "no_owner_answers_supplied": "Neither role received the owner design, original oracle, the other role answer or a future JSON-reader candidate.",
+    "public_manual_inputs": "The existing public byte and foreign-tree routes keep their complete original checks. A caller-provided provenance boolean is not an ownership certificate."
+  },
+  "actual_HTTP": {
+    "model": "qwen38-coder",
+    "logical_roles": 2,
+    "POSTs": 2,
+    "attempts_per_role": [
+      1,
+      1
+    ],
+    "finite_max_tokens": [
+      5500,
+      5000
+    ],
+    "reported_seconds": [
+      25.54925519999233,
+      25.91734970000107
+    ],
+    "effective_content_TTFT_seconds": [
+      3.3062123999989126,
+      2.454488399991533
+    ],
+    "reported_input_output_tokens": [
+      [
+        20904,
+        1925
+      ],
+      [
+        20938,
+        2117
+      ]
+    ],
+    "cached_prompt_tokens": [
+      null,
+      null
+    ],
+    "HTTP_sum_seconds": 51.4666048999934,
+    "pair_union_from_event_markers_seconds": 26.769199,
+    "pair_overlap_from_event_markers_seconds": 24.697491,
+    "pair_peak": 2,
+    "termination": "Both returned HTTP200, stop, SSE DONE and valid outer JSON. These are transport and syntax facts, not semantic approval.",
+    "parameter_audit": "Both actual REQUEST objects have three messages; their actual middle source messages are identical and contain all nine complete normalized source texts. Actual task texts and finite output budgets match their specs. Physical source hashes and newline-normalized message text are recorded separately.",
+    "routing": "The requests recorded direct routing with redirect refusal. Actual peer is UNKNOWN. Profile provenance declares 600/2400-second read/total limits and six transient attempts; no independent per-child OS environment capture is claimed."
+  },
+  "model_review": {
+    "implementation_role": "Whole response rejected; zero adopted code. It treated absence of an existing checked factory as an architectural impossibility without evaluating the permitted existing-type owned design, and its proposed cost formula removed required row serializations.",
+    "counter_role": "Whole response rejected; zero independent approval. It invented text-surrogate checks in the supplied tree validator, reversed the original serialize-before-stability/fallback order, and mapped the entry to a different persistence path.",
+    "retained_requirement_not_new_credit": "Exact decimal tokens, original row serialization, explicit material budget, constructor cleanup and public fallback must all remain.",
+    "no_repeat_for_agreement": true
+  },
+  "owner_source_findings": [
+    "The present public foreign-tree encoder is not a checked-owned certificate. Skipping validation requires a real closed producer and storage boundary.",
+    "A conditional design using the existing utility type as a private owned cursor could avoid U validation visits while adding O(H+S) cursor or descriptor work. It deletes no required parse, writer, lease check or fallback. It can lose when U is close to H+S, so there is no demonstrated net benefit.",
+    "A separate finite primary-source review found that a future token-reader candidate exposed its parser codec and thereby the original mapper/factory. Private field names did not establish non-escape. This was a future-composition qualification issue, not a claim of an observed live fault.",
+    "The other source owner subsequently reported a separate narrow candidate clearing only that newly exposed parser codec. That report is not a software or global non-escape proof in this case; existing encoder escape remains a separately bounded question.",
+    "A first-row serializer retaining an owned private node was not proved by this finite packet and remains UNKNOWN. No exhaustive Jackson or JVM extension audit was attempted."
+  ],
+  "owner_corrections_and_limits": [
+    "The first conditional ownership sketch was narrowed after identifying the future codec capability. It was never adopted as production code.",
+    "Two source-reader preparation cells did not match the mandated reader factory text exactly. They were disclosed separately, excluded from exact-reader adoption claims, and the relevant finite members were re-read using the required factory. This is not a Test or production failure.",
+    "No production patch, new Test, javac, JVM, runtime deployment, game operation or speed result belongs to this round."
+  ],
+  "cost": {
+    "model_role_preparation_started_utc": "2026-11-03T20:04:45.008007+00:00",
+    "source_round_closeout_utc": "2026-11-03T20:24:05.631089+00:00",
+    "elapsed_role_preparation_review_and_coordination_wall_seconds": 1160.623082,
+    "wall_is_not_active_work": true,
+    "active_seconds": null,
+    "new_Java_process_seconds": 0,
+    "netSaving": "NOT_CLAIMED"
+  },
+  "followup": "The owned serialization idea remains an unimplemented structural design question. It is not a gate for the independently owned operation that avoids loading an entire history for a small metadata read. No runtime action is authorized by this document.",
+  "publication_scope": "Approved for exact publication as a sanitized source-research case. No raw source, REQUEST payload, private evidence path, process identity or current game state is included."
+}
