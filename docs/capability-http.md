@@ -1690,3 +1690,13 @@ Owner独立SQLite库经8项新无网络测试，包括12进程原子争3个sourc
 [相邻两项反审](evidence/2026-11-03-http-adjacent-source-counters.json)、[原index角色正式后见](evidence/2026-11-03-http-source-index-later-formal.json)、[nominal实现源阶段](evidence/2026-11-03-http-nominal-source-stage.json)分别记采用与错误，不把length的后见软件改写为模型成功；nominal单元保留owner误开partial的原错误记录。
 
 [范围641正式后见](evidence/2026-11-03-http-range-641-later-formal.json)、[范围642正式后见](evidence/2026-11-03-http-range-642-later-formal.json)、[范围643正式后见](evidence/2026-11-03-offline-range-643-later-formal.json)仅同组附页，不增加Test/HTTP分母。[Public snapshot](evidence/2026-11-03-http-public-snapshot-source-software.json)与[restore DATA](evidence/2026-11-03-offline-restore-data-reuse.json)按owner后到明确许可发表原字节；正文draft/pending标记保为历史切点，许可由本次后到记录说明。
+
+
+修复恢复后的两项真实源码任务：[组合独立反例／pending-headers见证](evidence/2026-11-03-http-independent-counter-and-pending-witness.json)，两份完整JSON均源审拒收、0原样代码采用，actual三消息与参数audit不等于语义绿。另一个真未写实现角色显式[enable_thinking=true](evidence/2026-11-03-http-single-thinking-source-case.json)：实参保留、无reasoning字段、whole源码/API拒收；后端启用UNKNOWN，没有与false作因果比较或改共享默认。
+
+后到同案：[snapshot正式](evidence/2026-11-03-http-public-snapshot-later-formal.json)、[restore正式](evidence/2026-11-03-offline-restore-data-later-formal.json)；新独立[三lazy Sets](evidence/2026-11-03-offline-driver-facts-lazy-sets.json)及[正式](evidence/2026-11-03-offline-driver-facts-later-formal.json)。原draft/pending字节保留，后到许可明确，不增加软件／HTTP分母。
+
+[新生产装配源阶段](evidence/2026-11-03-http-default-free-chain-source.json)、[私有首metadata复用](evidence/2026-11-03-http-private-first-metadata-reuse.json)、[相邻反审owner准备勘误](evidence/2026-11-03-http-adjacent-owner-preparation-erratum.json)、[signed decoder软件／正式](evidence/2026-11-03-offline-signed-decoder-formal-boundary.json)、[contracts条件热载源路线](evidence/2026-11-03-http-contracts-route-source-review.json)分别记录源／软件／正式切点；均不授实际装载、全服务状态或提速。
+
+
+持久lease新增[同事务lane占用投影](evidence/2026-11-03-http-client-lane-snapshot.json)：1项新隔离SQLite用例覆盖ACTIVE／UNKNOWN／RELEASED，仍仅客户端准入DATA，实际一次派发／HTTP与Runtime接线单独验收。

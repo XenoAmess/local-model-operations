@@ -1,0 +1,75 @@
+{
+  "schema": "local-model-operations.single-thinking-case/v1",
+  "mode_id": "http-three-message-candidate",
+  "authorization": "One genuine unwritten two-file constructor-scope implementation; no duplicate A/B, probe or flag-retry task.",
+  "inputs": {
+    "complete_source_files": 8,
+    "source_message_bytes": 222529,
+    "task_message_bytes": 3458,
+    "owner_oracle_supplied": false,
+    "raw_source_message_exact": true
+  },
+  "parameters": {
+    "actual_request_sha256": "7bd64fd244e59d05f4291204f141ce6c8091f1580393017550014ed4c4b6ed79",
+    "fixed_three_message_reconstruction_exact": true,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": true
+    },
+    "max_tokens": 10000,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true,
+    "read_seconds": 600,
+    "total_seconds": 2400,
+    "maximum_attempts_configured": 6,
+    "shared_default_false_unchanged": true,
+    "Runtime_configuration_unchanged": true,
+    "routing": {
+      "proxy_mode": "direct",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    }
+  },
+  "actual": {
+    "POST_BEGIN": "2026-11-03T10:35:57.845883Z",
+    "ATTEMPT_END": "2026-11-03T10:36:35.225653+00:00",
+    "posts": 1,
+    "ends": 1,
+    "retries": 0,
+    "status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "content_TTFT_ms": 6032.662499987055,
+    "total_ms": 37379.78329998441,
+    "prompt_tokens": 46156,
+    "completion_tokens": 3525,
+    "cached_prompt_tokens": null
+  },
+  "thinking_observation": {
+    "reasoning_delta_fields_seen": [],
+    "first_reasoning_ms": null,
+    "backend_activation": "UNKNOWN",
+    "parameter_true_does_not_prove_backend_activation": true,
+    "causal_comparison_with_false": "NOT_PERFORMED"
+  },
+  "source_review": {
+    "grade": "WHOLE_REJECT_SOURCE_API_AND_SEMANTICS_NO_ADOPTABLE_IMPLEMENTATION",
+    "adopted_edits": 0,
+    "actual_compile_or_RUN": 0,
+    "findings": [
+      "A before anchor invents an import and has zero exact occurrences; its proposed replacement implements no reuse.",
+      "The unique second edit references a nonexistent value and incompatible callback signature, and omits an enclosing-type import.",
+      "The introduced map is unused and an extra dummy construction precedes the original scope/gate, changing error order."
+    ],
+    "later_owner_replacement_is_separate": true
+  },
+  "owner_cost": {
+    "preparation_active_seconds": null,
+    "review_active_seconds": null,
+    "interpretation_correction": "Initial owner proposal to reduce this one case to one attempt was withdrawn before config or POST; original six transient attempts retained."
+  },
+  "limits": "One source/API rejection, no backend or thinking-capability causal bound, no Runtime/performance credit; no extra request follows this flag case."
+}

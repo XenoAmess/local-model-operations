@@ -172,9 +172,15 @@ class LeaseStore:
             counts = {'ACTIVE': 0, 'UNKNOWN': 0, 'RELEASED': 0}
             for row in db.execute('SELECT state,COUNT(*) AS n FROM pool_leases GROUP BY state'):
                 counts[row['state']] = row['n']
+            lane_counts = {'source': 0, 'runtime': 0}
+            for row in db.execute("SELECT lane,COUNT(*) AS n FROM pool_leases "
+                                  "WHERE state IN ('ACTIVE','UNKNOWN') GROUP BY lane"):
+                lane_counts[row['lane']] = row['n']
             occupied = counts['ACTIVE'] + counts['UNKNOWN']
             return {'capacity': self.capacity, 'reserve_runtime': self.reserve_runtime,
                     'max_records': self.max_records, 'records': sum(counts.values()),
                     'active': counts['ACTIVE'], 'unknown': counts['UNKNOWN'],
                     'released': counts['RELEASED'], 'occupied': occupied,
+                    'occupied_source': lane_counts['source'],
+                    'occupied_runtime': lane_counts['runtime'],
                     'scope': 'CLIENT_ADMISSION_ONLY_NOT_ACTUAL_HTTP_OR_SERVER_SLOT'}

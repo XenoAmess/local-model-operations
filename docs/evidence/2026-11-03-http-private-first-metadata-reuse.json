@@ -1,0 +1,148 @@
+{
+  "schema": "local-model-operations.source-case/v1",
+  "case": "Same-call private first-metadata snapshot reuse with independent finite software witnesses",
+  "mode": "ordinary HTTP source/test counteranalysis plus owner/subagent implementation",
+  "source_problem": "The first metadata record was copied, strictly UTF-8/object/trailing-token validated, then that already private snapshot was copied/decoded/parsed again in the same synchronous call.",
+  "final_change": "A new private overload permits only the same first-call private validated snapshot to reuse its result. Existing typed and package entry points always retain full validation; no state or cross-call cache was introduced.",
+  "boundaries": [
+    "All original native identity, path, budgets, writes, force, poison and close checks remain in their original order.",
+    "Private-overload addition is structural. No actual HotSwap, active-loader adoption, capture, Game or performance result is claimed.",
+    "One duplicate first-event copy/decode/mapper-copy/parse is removed in source; physical IO count is not reduced."
+  ],
+  "model_inputs_and_actual_requests": [
+    {
+      "role": "02-first-private-snapshot",
+      "model": "qwen38-coder",
+      "max_tokens": 2400,
+      "temperature": 0,
+      "enable_thinking": false,
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "complete_source_projection_exact": true,
+      "post_begin_UTC": "2026-11-03T09:18:17.019051+00:00",
+      "attempt_end_UTC": "2026-11-03T09:19:11.241808+00:00",
+      "status": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "prompt_tokens": 60353,
+      "completion_tokens": 1088,
+      "cached_prompt_tokens": null,
+      "content_TTFT_seconds": 22.479732800013153,
+      "HTTP_attempt_seconds": 54.22282160000759,
+      "grade": "PARTIAL_SOURCE_ANALYSIS_NO_CODE_ADOPTED",
+      "model_code_adopted": false
+    },
+    {
+      "role": "07-raw-window-new-test-counter",
+      "model": "qwen38-coder",
+      "max_tokens": 2600,
+      "temperature": 0,
+      "enable_thinking": false,
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "complete_source_projection_exact": true,
+      "post_begin_UTC": "2026-11-03T09:41:41.442863+00:00",
+      "attempt_end_UTC": "2026-11-03T09:42:32.903589+00:00",
+      "status": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "prompt_tokens": 70334,
+      "completion_tokens": 1385,
+      "cached_prompt_tokens": null,
+      "content_TTFT_seconds": 24.417172999994364,
+      "HTTP_attempt_seconds": 51.460771700018086,
+      "grade": "PARTIAL_TEST_COVERAGE_ANALYSIS_NO_CODE_ADOPTED",
+      "model_code_adopted": false
+    }
+  ],
+  "model_selection": {
+    "implementation": "No local-model implementation was adopted; owner/subagent authored the production and new test source.",
+    "production_counter": "Partial. Correct private snapshot/cap observations, but baseline already called metadataLine and the answer did not independently close all intervening escape routes.",
+    "test_counter": "Partial. Correct finite post-return alias/poison/newline behavior; one corrupted-array retry cannot prove universal absence of reference caches or in-call alias escape.",
+    "request_retries": 0,
+    "logical_HTTP_requests_in_this_case": 2,
+    "counting": "Both requests are subsets of separately recorded five-role and three-role concurrent waves. Other roles are not added to this case; no global60 or sustained-concurrency claim.",
+    "owner_oracles_not_supplied_to_model": true
+  },
+  "owner_oracle_and_software": {
+    "original_source_oracle_before_new_Test": true,
+    "new_files_for_validation": 1,
+    "new_JUnit_methods": 2,
+    "first_passes": 2,
+    "selectors": [
+      "forcedSnapshotsDetachAliasesAndAChangedFirstAliasIsRevalidated",
+      "initialAndExternalValidationFailuresPoisonAndNewlinesCountAgainstTheCap"
+    ],
+    "coverage": "Actual owned Windows software files: exact first/later output after post-return mutation, changed accepted-array revalidation on a later public call, malformed initial and six external invalid forms, poison and 4095+LF=4096 accounting.",
+    "dynamic_limits": "Post-return mutation is not an in-call race/non-escape proof. No whole collector, Admission/Root issuer, forced write/force/close failure, stable-custody, PE or Game coverage.",
+    "source_nonescape_proof": "Only the private validated copy enters the sole true call; intervening supported callees do not receive it. This is source reasoning, distinct from dynamic race coverage.",
+    "old_tests_recompiled_or_RUN": 0,
+    "all_actual_stderr_empty": true,
+    "process_walls_seconds_not_CPU": {
+      "only_prod_TU": 4.1328842,
+      "only_new_Test_TU": 6.5226069,
+      "first_two_methods": 4.1683048,
+      "sum": 14.8237959
+    }
+  },
+  "owner_cost": {
+    "source_phase_UTC": [
+      "2026-11-03T08:34:53Z",
+      "2026-11-03T08:44:43.714372Z"
+    ],
+    "source_phase_wall_seconds": 590.714372,
+    "test_phase_UTC": [
+      "2026-11-03T08:48:04Z",
+      "2026-11-03T09:00:16Z"
+    ],
+    "test_phase_wall_seconds": 732,
+    "dependency_qualification_wall_seconds": 936.65659,
+    "independent_production_review_wall_seconds": 571,
+    "independent_Test_review_wall_seconds": 430,
+    "owner_review_recorded_BEGIN_UTC": "2026-11-03T09:03:41Z",
+    "active_seconds": null,
+    "interpretation": "Recorded phases interleave source work, model/resource waiting and other tasks. They are not exclusive labor and must not be summed. HTTP wall is not total owner cost; net benefit remains unmeasured."
+  },
+  "operator_failures_separate_from_model": {
+    "child_metadata_packet": "Two bare data-path commands were issued instead of the fixed reader. One returned empty exit0; one own command session was interrupted. Association/interpreter/UI/possible execution effects remain UNKNOWN. Child exec permission was withdrawn; no inspection or unknown-window termination was used.",
+    "source_pins": "Selected source remained exact at Native compilation and final M4/Java readback. This proves source identity at those points, not zero associated external effects.",
+    "shared_request_preparation": "A five-tuple unpacked as four failed before this wave materialization/POST; only tuple unpack was corrected. It is shared wave preparation cost, not a new HTTP or source/compiler failure.",
+    "formal_writer": "A heterogeneous metadata-row assumption caused KeyError before formal write/Java; writer corrected only metadata traversal and kept the original evidence."
+  },
+  "publication_later": {
+    "commit": "0bf56287a8630f8384c4cf7e695478ed3e21dc43",
+    "observed_UTC": "2026-11-03T10:41:32.191741+00:00",
+    "normal_push_exit": 0,
+    "observed_remote_exact": true,
+    "observed_clean": true,
+    "tuples": [
+      {
+        "public_path": "java/ck3-control/build-tools/src/main/java/org/xar/ck3/control/build/RawWindowNativeIo.java",
+        "raw_bytes": 13863,
+        "raw_sha256": "cd68234ddfaee79c3f7c3daf4541bd3433a5626e98ed8018da842db832ecc68b",
+        "formal_bytes": 13863,
+        "formal_sha256": "cd68234ddfaee79c3f7c3daf4541bd3433a5626e98ed8018da842db832ecc68b",
+        "EOF_preserved_per_writer": true,
+        "raw_EOF_newline": true
+      },
+      {
+        "public_path": "java/ck3-control/build-tools/src/test/java/org/xar/ck3/control/build/RawWindowNativeIoFirstSnapshotTest.java",
+        "raw_bytes": 5614,
+        "raw_sha256": "1925ff497c52088d1759cc32bab410224eb9b51c1993b3d7e0dfd8cab103b950",
+        "formal_bytes": 5614,
+        "formal_sha256": "1925ff497c52088d1759cc32bab410224eb9b51c1993b3d7e0dfd8cab103b950",
+        "EOF_preserved_per_writer": true,
+        "raw_EOF_newline": true
+      }
+    ],
+    "new_compile_RUN_for_publication": 0
+  },
+  "permission": "Only this sanitized JSON body is approved for shared operations publication. Raw source, prompts, requests, evidence paths, sessions and oracles stay private. No Runtime or performance credit.",
+  "private_original_cutoffs": "Original source/software deliveries remain byte-for-byte unchanged; publication is an additive observation."
+}

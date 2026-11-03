@@ -1,0 +1,52 @@
+{
+  "schema": "local-model-operations.owner-approved-abstract-source-review/v1",
+  "scope": "Conditional Dev-mode contracts route, static source only; actual loader/index/instrumentation adoption remains UNKNOWN.",
+  "inputs": {
+    "complete_files": 29,
+    "physical_bytes": 417051,
+    "same_initial_source_prefix": true,
+    "later_business_candidate_not_included": true
+  },
+  "actual_parameters": {
+    "fixed_three_messages": true,
+    "direct": true,
+    "actual_peer": "UNKNOWN",
+    "read_seconds": 600,
+    "total_seconds": 2400,
+    "maximum_attempts_configured": 6,
+    "max_tokens": 2400
+  },
+  "roles": [
+    {
+      "role": "design",
+      "POST_BEGIN": "2026-11-03T10:16:16.171915Z",
+      "attempt_seconds": 39.0010624,
+      "content_TTFT_seconds": 23.4791952,
+      "completion_tokens": 2150
+    },
+    {
+      "role": "counter",
+      "POST_BEGIN": "2026-11-03T10:16:16.168043Z",
+      "attempt_seconds": 33.7414831,
+      "content_TTFT_seconds": 21.7861499,
+      "completion_tokens": 1291
+    }
+  ],
+  "transport": {
+    "logical_tasks": 2,
+    "actual_posts": 2,
+    "actual_ends": 2,
+    "attempts_each": 1,
+    "stop_DONE_JSON_VALID": true,
+    "union_seconds": 39.005023
+  },
+  "grade": "Both whole analyses rejected: line/module/index/loader confusion and unsupported likely-restart assertions. No code or new finding adopted.",
+  "owner_route": "Static source supports a conditional route after module registration, followed by scan and possible redefine or Dev restart. Missing a selector does not prove unindexable or unloadable.",
+  "cost": {
+    "owner_full_task_start": null,
+    "owner_active_seconds": null,
+    "model_union_is_not_full_task_or_active_work": true
+  },
+  "GET_JVM_Game_Git_for_this_source_unit": 0,
+  "Runtime_or_performance_credit": false
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "xar.m6.approved-portable-source255/v1",
+  "atUtc": "2026-11-03T10:42:03.633485+00:00",
+  "publishPermission": "Explicit permission to publish this sanitized metadata only; raw source/requests/response remain private. Later formal tuple may be a separate annex.",
+  "unit": "Per-invocation continuation-origin production factory",
+  "sourceInputs": {
+    "completeFiles": 20,
+    "physicalBytes": 78069,
+    "actualMessage2Bytes": 83569,
+    "ownerOracleOrTestIncluded": false
+  },
+  "actualHTTP": {
+    "tasks": 2,
+    "POST": 2,
+    "END": 2,
+    "currentInFlight": 0,
+    "peak": 2,
+    "peakDurationSeconds": 9.320092,
+    "clientEvidenceOnly": true,
+    "rows": [
+      {
+        "role": "implementation",
+        "eventsPath": "m6-default-freechain-implementation255/EVENTS.jsonl",
+        "POST": 1,
+        "END": 1,
+        "beginEndUtc": [
+          "2026-11-03T10:37:50.570116+00:00",
+          "2026-11-03T10:37:59.892362+00:00"
+        ],
+        "maxTokens": 2600,
+        "messages": 3,
+        "message2Bytes": 83569,
+        "systemSha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5",
+        "requestSha256": "49981826fc3d5993ef7f308e229a16608e1d9bcd8152ae8e7c7fcb4a1053776c",
+        "finish": "stop",
+        "TTFTms": 3524.034100002609,
+        "totalms": 9322.228000004543
+      },
+      {
+        "role": "origin-counter",
+        "eventsPath": "m6-default-freechain-origin-counter255/EVENTS.jsonl",
+        "POST": 1,
+        "END": 1,
+        "beginEndUtc": [
+          "2026-11-03T10:37:50.572270+00:00",
+          "2026-11-03T10:38:00.306620+00:00"
+        ],
+        "maxTokens": 2400,
+        "messages": 3,
+        "message2Bytes": 83569,
+        "systemSha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5",
+        "requestSha256": "b5c8d1acde74aaa4f89b11cbaed520e974c063d40b94afd0b583d76163ac166f",
+        "finish": "stop",
+        "TTFTms": 3521.8906000081915,
+        "totalms": 9734.257900010562
+      }
+    ]
+  },
+  "modelAdoption": {
+    "implementationR1DecodedRawBytes": 2607,
+    "sha256": "51002081748d0d339aa58d97b8237ea9cb8bce6093306268e8973a554e7a77a4",
+    "ownerJavaEdits": 0,
+    "strongHints": "Exact API and dependencies, per-frame accessor mapping and no-extra-effect constraints supplied.",
+    "counter": "Partial source mapping only; full counter rejected because it confused allocation CALL with release tail. No independent complete oracle adopted."
+  },
+  "ownerOracle": "New independent precontract/literal frozen outside model input; runtime Normal does not expose continuation origin, so source mapping and dynamically visible fields stay separate.",
+  "qualification": {
+    "sourceOnly": true,
+    "firstCompile": "NOT_HELD",
+    "software": "NOT_RUN",
+    "formal": "NOT_PUBLISHED",
+    "naturalM6": "OPEN; G2 remains6/8",
+    "RootAuthorityNativeGameHardware": "No credit"
+  },
+  "cost": {
+    "fullTaskStartUtc": "UNKNOWN",
+    "activeOwnerCpuSeconds": "UNKNOWN",
+    "sourceFreezeUtc": "2026-11-03T10:37:44.421214+00:00",
+    "inputFreezeIsNotTaskStart": true,
+    "mechanicalPreparationErrors": "One pre-POST guessed nested247 source path assert; after complete streams, inspector relative-task-path/metadata-key assumptions corrected. No request/raw/source changed, no new HTTP, not model failures."
+  },
+  "next": "Dependency-qualified first compile/test of genuinely new factory and actual deep chain; no repeat of closed237-240 or existing software tests."
+}

@@ -174,3 +174,6 @@ python scripts/opencode_config.py --executor config/executor.json --workspace D:
 `acquire(token, owner, lane="source", now=..., ttl=...)`返回`LeaseDecision`；只有`newly_acquired is True`代表新准入。相同owner/lane的ACTIVE token只返回EXISTING且不续TTL；bool(decision)会拒绝，避免把幂等结果当第二次派发。到期转UNKNOWN仍占容量，不能重取；`mark_unknown`记录不确定启动。`release(..., verified_no_live_post=True)`仅接受owner对已无实际POST的明确断言，模块本身不能验证此事实。RELEASED token永久留在有限历史中，不再新准入；满历史显式报`LeaseStoreFull`，不清墓碑绕过once。
 
 所有source准入都保留未来Runtime位置，不需先排一个Runtime任务。`get(token)`返回单条有限metadata；`snapshot(now=...)`只给聚合数量并标记CLIENT_ADMISSION_ONLY。时间是integrator输入，不是网络观测；容量不等同实际POST区间、后端slot、服务priority或抢占。持久logical-task claim、准确事件观察及一次派发仍需后续dispatcher显式组合。[本次源码、模型反例与8项新离线验证](evidence/2026-11-03-http-pool-leases-owner-transaction-boundaries.json)不授持续60或实际业务收益。
+
+
+`snapshot()`另给`occupied_source`与`occupied_runtime`：同一事务中到期转换后，各lane的ACTIVE+UNKNOWN计数，二者和等于occupied，RELEASED排除。它们仍是client admission数据；预留Runtime容量不预留有限history条目，max_records满时仍会拒绝新Runtime。见[新增1项必要离线验证](evidence/2026-11-03-http-client-lane-snapshot.json)，不重跑原8项，不授服务slot或持续60。

@@ -1,0 +1,88 @@
+{
+  "schema": "local-model-operations.approved-source-review/v1",
+  "mode_id": "http-three-message-candidate",
+  "scope": "Two genuine new source tasks after repair; whole raw answers remain private.",
+  "actual_parameters": {
+    "caller_sha256": "ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6",
+    "config_sha256": "97fb38b997dde3522f2310d06a229ab660db35f8bdc1a5d40eaa5c9e07e57e9a",
+    "routing": {
+      "policy": "DIRECT",
+      "actual_peer": "UNKNOWN"
+    },
+    "fixed_three_messages": true,
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true,
+    "read_seconds": 600,
+    "total_seconds": 2400,
+    "maximum_attempts_configured": 6
+  },
+  "cases": [
+    {
+      "id": "selector-combined-independent-counter",
+      "events": "selector-combined-independent-counter/http/EVENTS.jsonl",
+      "post_begin": "2026-11-03T09:42:00.042814Z",
+      "attempt_end": "2026-11-03T09:42:39.018202Z",
+      "http_status": 200,
+      "attempts": 1,
+      "ttft_ms": 14953.76859998214,
+      "total_ms": 38975.32569998293,
+      "max_tokens": 3500,
+      "prompt_tokens": 34611,
+      "completion_tokens": 2028,
+      "cached_prompt_tokens": null,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "source_message_bytes": 160797,
+      "grade": "REJECT_UNSUPPORTED_COUNTER",
+      "adopted_code_methods": 0,
+      "static_review_only_no_raw_compile_or_RUN": true,
+      "summary": "Conditional decoder/metadata hypotheses did not establish a concrete legal trace; open-number alias counterexamples came from independent owner review, not this model."
+    },
+    {
+      "id": "sse-pending-headers-new-witness",
+      "events": "sse-pending-headers-new-witness/http/EVENTS.jsonl",
+      "post_begin": "2026-11-03T09:42:00.091708Z",
+      "attempt_end": "2026-11-03T09:42:44.034203Z",
+      "http_status": 200,
+      "attempts": 1,
+      "ttft_ms": 16583.23930000188,
+      "total_ms": 43942.488700005924,
+      "max_tokens": 6500,
+      "prompt_tokens": 28240,
+      "completion_tokens": 2810,
+      "cached_prompt_tokens": null,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "source_message_bytes": 118819,
+      "grade": "REJECT_SEMANTIC_AND_COMPILE",
+      "adopted_code_methods": 0,
+      "static_review_only_no_raw_compile_or_RUN": true,
+      "summary": "Generated witness has source import/static-reference defects and disconnected cancellation/body/late-completion assertions. Owner replacement and later software are separately attributed."
+    }
+  ],
+  "actual_request_audit": {
+    "discrepancies": [],
+    "fixed_three_and_actual_parameters_verified": true,
+    "audit_is_not_semantic_acceptance": true,
+    "new_network": 0
+  },
+  "cost": {
+    "model_total_seconds_sum": 82.91781439998886,
+    "parallel_envelope_seconds": 43.991389,
+    "owner_preparation_active_seconds": null,
+    "owner_review_active_seconds": null,
+    "review_interleaved_other_work": true
+  },
+  "limits": {
+    "new_model_code_adopted": 0,
+    "raw_candidate_RUN": 0,
+    "Runtime_or_speed_credit": false,
+    "service_health_or_sustained60_claim": false
+  },
+  "approved_metadata_source": "Root explicit sanitized-tuple permission; owner full review and exact actual-request audit retained privately."
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "local-model-operations.client-lane-snapshot/v1",
+  "scope": "Two additive client-admission lane counts needed by once dispatcher selection; not actual HTTP or service slots.",
+  "baseline": {
+    "bytes": 8314,
+    "sha256": "b05a45a28a36a119462f26fbe9b9b2319f427046c9e3ce8dd50c7889c84e7a89"
+  },
+  "candidate": {
+    "bytes": 8714,
+    "sha256": "7e7a50cd495ea137911091936581b05c45a077b68bd63624ef56ebc8debb696c"
+  },
+  "test": {
+    "bytes": 2557,
+    "sha256": "75422def117f76968ee1c0b808926354146b6865b5166837401934a16c7cec5f"
+  },
+  "change": "snapshot() counts ACTIVE plus UNKNOWN separately for source/runtime under the existing transaction after expiry. Their sum equals occupied; RELEASED does not occupy.",
+  "unchanged": [
+    "Capacity/reserve/history limits and persistent version",
+    "Lease acquire/release/UNKNOWN/tombstone contract",
+    "No network, caller, Runtime or Game adoption"
+  ],
+  "verification": {
+    "new_targeted_methods": 1,
+    "exit": 0,
+    "unittest_seconds": 0.038,
+    "process_wall_seconds": 0.0492736,
+    "tool_chunk": "24b99f",
+    "real_isolated_SQLite": true,
+    "coverage": "Source/runtime ACTIVE, expiry to UNKNOWN still counted, released records excluded; aggregate and lane sum agree.",
+    "old_test_methods_rerun": 0
+  },
+  "model_calls_or_model_code": 0,
+  "full_owner_active_seconds": null,
+  "future_dispatcher": "Separate persistent once claim and canonical CLI execution still required; no sustained60 or server priority proof."
+}

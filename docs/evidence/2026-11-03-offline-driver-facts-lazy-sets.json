@@ -1,0 +1,56 @@
+{
+  "schema": "portable-software-case-draft/v1",
+  "publication": {
+    "status": "DRAFT_PENDING_EXPLICIT_PARENT_APPROVAL",
+    "approved": false,
+    "externally_sent": false
+  },
+  "case": "Reuse three lazy local field-name sets during data decoding",
+  "problem": "A decoder repeatedly invoked immutable set construction for the same row fields and two coverage variants while checking a sequence of entries.",
+  "change": "Keep three method-local set references, initialized lazily at their first original use. The common row set is created only when the first row is reached; each variant set is created only when its branch is first selected. Later entries reuse those fixed field names, while every original row and variant check still executes.",
+  "preserved_contract": [
+    "Empty input and unvisited variants do not trigger eager set construction.",
+    "Only immutable constant field names are reused within one decoder call. Decoded data, numeric objects, references and validation results are not cached.",
+    "All parser and encoder invocations remain. No parse or encoding step is removed.",
+    "Closed field shapes, variant selection, number-before-reference order, row order and original data constructors remain.",
+    "Non-null provenance still requires its actual original-manifest replay. Public caller-supplied numeric data still reaches the original first state encoder.",
+    "No new public API, method, type or field is introduced."
+  ],
+  "software_evidence": {
+    "origin": "Owner implementation with independent source review and five new public DATA tests; test review was nonblind to the candidate.",
+    "actual_phases": [
+      {"phase": "production_compile", "exit_code": 0, "process_seconds": 4.263748800003668},
+      {"phase": "test_compile", "exit_code": 0, "process_seconds": 3.8012903000053484},
+      {"phase": "test_run", "exit_code": 0, "process_seconds": 6.0109243000042625}
+    ],
+    "actual_process_seconds_sum": 14.0759634,
+    "timing_scope": "Sum of three recorded process durations; not active effort, end-to-end workflow time or a speed measurement.",
+    "distinct_tests": 5,
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "xml_reports": 3,
+    "xml_test_counts": [5, 0, 0],
+    "coverage": [
+      "Repeated mixed coverage preserves literal order and roles.",
+      "Public foreign numeric data still reaches the first state encode boundary.",
+      "Unknown fields and unknown coverage variants preserve the original first failure.",
+      "Non-null provenance requires actual manifest replay.",
+      "Empty history and coverage decode as complete public data."
+    ],
+    "stderr": {"bytes": 234, "meaning": "Logging-manager initialization diagnostic retained despite exit0 and five passing tests."}
+  },
+  "source_publication": {
+    "completed": true,
+    "normal_push_succeeded": true,
+    "publication_added_compile_or_test_runs": 0,
+    "test_editorial_adjustment": "A comment-only publication edit preserved executable test tokens."
+  },
+  "proof_boundary": "These tests establish public DATA behavior. The foreign numeric case targets the first encoder boundary; malformed cases target the first row, not later reused-set failures. Successful non-null manifest replay and live-system authorization are not established. Fewer set-construction expressions do not measure heap allocation, JIT behavior or runtime speed.",
+  "model_calls": 0,
+  "model_code_adopted": 0,
+  "active_seconds": "UNKNOWN",
+  "runtime_adopted": false,
+  "speed_measurement": null,
+  "startup_or_instrumentation_compatibility": "NOT_PROVED"
+}
