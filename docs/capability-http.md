@@ -1507,3 +1507,8 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [普通 Root Sway 接线有限 NO_PATCH236] [owner批准原文](evidence/2026-11-03-http-ordinary-root-assembly-finite-no-patch.json)：22whole/465390物理B，两POST/两STOP/两有效JSON、峰2仅27.27497s。owner确证当前formal plain factory三Java布尔true且同一路径Prepared→install→catalog.freeze→ORDINARY_SWAY；两NO_PATCH仅partialtrace，模型错要求Native HELLO广告Java STEP/错把配置布尔当capability名，0code/独立oracle。actual loaded/Core/permission/ordinary nomination/自然原件仍NOT_HELD，source true不等实机通过；无可证源码补丁则0新生产/Test/Java/业务formalpayload，不重235。freeze→END45.210338s只录得子窗，fulltask/active未知，G2仍6/8，不门真实运行。
+
+
+[633 正式后见] [批准附页](evidence/2026-11-03-http-upstream-allocator-chain-later-formal.json)追加b9073a46/两原payload raw SHA与EOF相等+316薄wrapper，selected1P同两console组非第三；.788791+.6708927s与6.700179gapwall分列，328pins/98有序CP含重复。原4183软件pending不回填，不授wholePage381/Native172或运行收益。
+
+[historical scope 只读影响附页] [批准最小metadata](evidence/2026-11-03-historical-scope-retention-limited-followup.json)保11whole可用/仅关键闭包审，4096/256MiB/8192配置的现有算术实际容4095 retained pairs；两既有scope分别288319attempts/4095retained/107680handlefallback与6729/2942/0fallback，各finish1/validationfailed0。caller、unique refs、reuse distance和收益UNKNOWN；未将邻近Writer日志当caller证据。计划Thread被guard取消、0START，0新HTTP/patch/Test/JVM，不加模型case分母；730.188109s仅已知freeze子窗。
