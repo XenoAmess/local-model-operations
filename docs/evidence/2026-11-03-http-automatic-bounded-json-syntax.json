@@ -1,0 +1,139 @@
+{
+  "schema": "local-model-operations.owner-reviewed-code/v1",
+  "case": "Automatic bounded strict JSON syntax metadata in new HTTP RESULTs",
+  "problem": "Repeated owners called valid outer JSON malformed from display tails. Existing full-file offline audit corrected the mistake but was manual; caller now emits syntax metadata automatically.",
+  "input": {
+    "full_current_files": 6,
+    "physical_bytes": 83376,
+    "actual_REQUEST_prefix_reconstruction_exact": true,
+    "owner_oracle_supplied_to_model": false
+  },
+  "HTTP": {
+    "roles": [
+      {
+        "role": "implementation",
+        "max_tokens": 3200,
+        "fixed_three_messages": true,
+        "source_utf8_bytes": 83783,
+        "source_sha256": "a98435f5005df55ff8b84ac5fff1d166f4a68b80582c29b9ddc2c3b8a35c1285",
+        "TTFT_ms": 3233.58780000126,
+        "total_ms": 10524.975000007544,
+        "usage": {
+          "prompt_tokens": 20466,
+          "completion_tokens": 1064,
+          "total_tokens": 21530
+        },
+        "cached_tokens": null,
+        "POST": 1,
+        "stop": 1,
+        "retry": 0,
+        "outer_JSON": "VALID",
+        "raw_response_private": true
+      },
+      {
+        "role": "counter",
+        "max_tokens": 1800,
+        "fixed_three_messages": true,
+        "source_utf8_bytes": 83783,
+        "source_sha256": "a98435f5005df55ff8b84ac5fff1d166f4a68b80582c29b9ddc2c3b8a35c1285",
+        "TTFT_ms": 3235.8870999887586,
+        "total_ms": 10004.11469998653,
+        "usage": {
+          "prompt_tokens": 20484,
+          "completion_tokens": 784,
+          "total_tokens": 21268
+        },
+        "cached_tokens": null,
+        "POST": 1,
+        "stop": 1,
+        "retry": 0,
+        "outer_JSON": "VALID",
+        "raw_response_private": true
+      }
+    ],
+    "POST": 2,
+    "stop": 2,
+    "retry": 0,
+    "local_peak": 2,
+    "peak2_seconds": 10.001802,
+    "current_inflight_at_seal": 0
+  },
+  "adoption": {
+    "model_code": 0,
+    "owner_complete_implementation": true,
+    "implementation_grade": "WHOLE_REJECTED/0code: failure-is-None gate hides genuine invalid complete JSON as UNKNOWN; NaN thrown ValueError becomes UNKNOWN, UTF8 replacement fabricates representability and temporary encoding precedes byte cap.",
+    "counter_grade": "H2 only corroborates explicit legacy-failure compatibility; H1 contradicts H2 by requiring failure None, H3 confuses str contents with already-failed SSE byte decoding; cited line numbers inaccurate. No independent new finding/code adopted.",
+    "new_Test_methods_owner": 6
+  },
+  "behavior": {
+    "new_field": "json_syntax",
+    "statuses": [
+      "VALID",
+      "INVALID",
+      "UNKNOWN"
+    ],
+    "complete_stop_DONE_only": true,
+    "length_or_partial": "UNKNOWN without salvage or extra parsing",
+    "strict_constants": "NaN, Infinity and -Infinity INVALID",
+    "maximum_additional_syntax_UTF8_bytes": 1048576,
+    "over_limit_or_parser_resource_limit": "UNKNOWN with fixed reason",
+    "top_level_types": [
+      "object",
+      "array",
+      "string",
+      "number",
+      "boolean",
+      "null"
+    ],
+    "error_metadata": "Fixed class plus numeric line/column/zero-based character offset only; no source text or exception message",
+    "offset_units": "Unicode code points",
+    "semantic_review": "OWNER_REVIEW_REQUIRED",
+    "legacy_fields_and_exit_retry_unchanged": true,
+    "legacy_NaN_note": "Old json.loads can accept NaN and candidate_complete can remain true while new json_syntax is INVALID. This additive patch does not change that preexisting outcome or give adoption permission.",
+    "old_RESULT_without_field": "UNKNOWN; existing offline audit remains available",
+    "auditor_and_config_and_history_and_private_callers_unchanged": true
+  },
+  "verification": {
+    "six_new_mock_methods_first_PASS": true,
+    "final_portable_test_PASS": true,
+    "new_unique_methods": 6,
+    "test_process_wall_seconds": [
+      0.7590831999841612,
+      0.6861055999761447
+    ],
+    "old_four_or_fifteen_tests_run": false,
+    "fixture_scope": [
+      "Long valid but semantically wrong JSON and all top-level classes",
+      "Invalid Unicode/CRLF exact numeric location and metadata redaction",
+      "Length even syntactically valid and incomplete valid prefix UNKNOWN",
+      "Nonfinite constants INVALID while legacy status unchanged",
+      "Exact byte cap, one byte over and multibyte overflow",
+      "Parser resource limit and unencodable text UNKNOWN"
+    ],
+    "network": "In-memory mocked SSE; socket creation forbidden; no service or loopback test request"
+  },
+  "publication_method": "Complete owned candidate parsed and new necessary witnesses passed before atomic shared projection; outside additions inverse exact against prior source",
+  "owner_costs": [
+    "Initial clean-main branch text was behind1, fail-closed status condition stopped before fetch; then porcelain clean checked and normal FF retained other machine changes",
+    "Combined read output truncated; exact relevant caller and classifier ranges reread before conclusions",
+    "Frozen synthetic error offset22 was owner arithmetic mistake; literal enumeration corrected20 in additive erratum before candidate selection/tests, line3/column8 unchanged",
+    "First new tests passed; portable fixture path defaults then corrected and same new tests rerun; no old4/15"
+  ],
+  "cost": {
+    "source_freeze_to_final_new_mock_END_seconds": 221.461483,
+    "total_task_wall_seconds": null,
+    "owner_active_seconds": null,
+    "net_owner_saving": "UNPROVEN"
+  },
+  "limits": [
+    "Grammar only, not semantic correctness, expected object schema, source safety, review eligibility or adoption",
+    "The additional classifier is bounded; old transport/validation behavior is intentionally preserved",
+    "No fresh real HTTP for demonstration; the two real source roles above supplied current code for this unfinished repair",
+    "No Game/JVM/deployment/private runtime or caller changes"
+  ],
+  "source_pins": {
+    "before_call_py": "89748ad936124f0c5ae8095ea417156836f6b4cb442b596843cca6df1f2f6bb1",
+    "after_call_py": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369",
+    "new_tests": "7dd62c389bfee3af0c4983ce475038fe02bd0d99615bb99cebd3841732ac4c35"
+  }
+}

@@ -26,6 +26,59 @@ SPEC_KEYS = ("model", "temperature", "chat_template_kwargs", "response_format",
              "max_tokens", "stream", "stream_options")
 
 
+JSON_SYNTAX_MAX_BYTES = 1048576
+
+
+class NonJsonCandidateConstant(ValueError):
+    pass
+
+
+def _reject_candidate_constant(_value):
+    raise NonJsonCandidateConstant
+
+
+def candidate_json_syntax(text, *, complete_stream, finish):
+    """Bounded syntax metadata only; never changes dispatch or adoption decisions."""
+    result = {"status": "UNKNOWN", "top_level_type": "UNKNOWN",
+              "reason": "INCOMPLETE_STREAM", "error": None,
+              "offset_units": "Unicode code points",
+              "max_utf8_bytes": JSON_SYNTAX_MAX_BYTES,
+              "semantic_review": "OWNER_REVIEW_REQUIRED"}
+    if not complete_stream:
+        return result
+    if finish != "stop":
+        result["reason"] = "NON_STOP_FINISH"
+        return result
+    # Check characters first, bounding the temporary UTF8 allocation to 4*cap.
+    if len(text) > JSON_SYNTAX_MAX_BYTES:
+        result["reason"] = "BYTE_LIMIT"
+        return result
+    try:
+        raw = text.encode("utf-8")
+    except UnicodeError:
+        result["reason"] = "UTF8_UNENCODABLE"
+        return result
+    if len(raw) > JSON_SYNTAX_MAX_BYTES:
+        result["reason"] = "BYTE_LIMIT"
+        return result
+    try:
+        value = json.loads(text, parse_constant=_reject_candidate_constant)
+        result.update(status="VALID", reason="COMPLETE_STOP_JSON",
+                      top_level_type={dict: "object", list: "array", str: "string",
+                                      int: "number", float: "number", bool: "boolean",
+                                      type(None): "null"}[type(value)])
+    except json.JSONDecodeError as exc:
+        result.update(status="INVALID", reason="JSON_SYNTAX",
+                      error={"class": "JSONDecodeError", "line": exc.lineno,
+                             "column": exc.colno, "offset": exc.pos})
+    except NonJsonCandidateConstant:
+        result.update(status="INVALID", reason="NON_JSON_CONSTANT",
+                      error={"class": "NonJsonConstant"})
+    except (ValueError, RecursionError, MemoryError):
+        result["reason"] = "PARSER_LIMIT"
+    return result
+
+
 def read_json(path):
     return json.loads(Path(path).read_text(encoding="utf-8-sig"))
 
@@ -188,6 +241,7 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
         start, started = time.monotonic(), utc()
         status = headers_ms = ttft = reasoning_ttft = finish = usage = None
         done, content, failure, retry = False, [], None, False
+        complete_stream = False
         local_evidence_io = False
         post_invoked = False
         reasoning = {"reasoning_content": [], "reasoning": []}
@@ -254,6 +308,7 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
                                 content.append(value)
             if not done or finish is None:
                 raise http.client.IncompleteRead(b"no complete SSE finish")
+            complete_stream = True
             if finish != "stop":
                 failure = "finish_reason_" + str(finish)
             else:
@@ -298,6 +353,8 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
                   "content_path": str(out / (prefix + "-CONTENT.txt")) if content_saved else None,
                   "local_evidence_io_failure": local_evidence_io,
                   "post_invoked": post_invoked,
+                  "json_syntax": candidate_json_syntax(
+                      "".join(content), complete_stream=complete_stream, finish=finish),
                   "candidate_complete": failure is None,
                   "candidate_review": "NOT_YET_REVIEWED", "adopted": False,
                   "first_nonempty_reasoning_delta_ms": reasoning_ttft,

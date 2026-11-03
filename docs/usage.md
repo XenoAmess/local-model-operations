@@ -84,6 +84,10 @@ spec 只转发调用器明确列出的参数。额外 API 参数需使用完整�
 
 ## 消费候选
 
+每个新 RESULT（及 SUMMARY/ATTEMPT_END 同份结果）含 `json_syntax`：只有完整收取的 `stop`/DONE 才给严格 `VALID`/`INVALID`，length 或部分流为 `UNKNOWN`。附加分类最多读取1MiB UTF8；字节超限、解析资源上限或不可编码文本为 UNKNOWN。拒绝 NaN/Infinity；错误仅固定 class、line/column 与零基 Unicode 字符 offset，不含正文或异常消息。top-level 类型只描述语法，不检查任务所需 schema，`semantic_review` 始终为 `OWNER_REVIEW_REQUIRED`。
+
+旧 failure/success/candidate_complete、adopted 和重试条件保持原行为；例如旧解析器接受 NaN 时 candidate_complete 可为 true，而新严格元数据为 INVALID。任何字段都不授语义或采用许可。旧 RESULT 缺该字段时记 UNKNOWN，需要时对原件运行现有离线审计，禁止因元数据缺失重发已闭请求。先读机械字段/完整文件机器解析，再作语义审阅；显示尾段或自然语言未完不能作为 JSON 语法错误证据。
+
 先核完整 SSE 终止、`finish_reason=stop`、可解析输出以及真实代码内容。只有路径、蓝图、占位值、被截断的源码或不符合目标角色的类，都不能按完成实现采用。HTTP 200 和调用器退出 0 仅证明本次传输及候选格式条件，不证明源码正确。
 
 随后按实际改动复核 API、分支、状态传播、副作用及验证代码本身。拒绝恒真比较、未调用目标的模拟、吞异常后成功、假读值与跳过必要分支。应用有界补丁时核唯一匹配、声明作用域、名义类型和最终字节；编译通过也不能替代语义检查。

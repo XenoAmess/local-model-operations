@@ -1490,3 +1490,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [369B 首次 warm 入口后见] [批准附页](evidence/2026-11-03-http-bounded-warm-planning-first-entry-later.json)只记录旧batch74经1207.765835s/0Intent/dirtyfalse后 qualified capture1512进入next75；0GET/STOP/游戏日/SAVE信用。source owner仅核Runtime已冻小summary，非完整canonical前后独证；不授75结果、派发或提速，原parent请求/测试/正式切点及计数全保。
+
+
+[自动严格 JSON syntax 元数据] [代码与成本记录](evidence/2026-11-03-http-automatic-bounded-json-syntax.json)：新RESULT自动给语法VALID/INVALID/UNKNOWN、类型和固定数字错误位置，完整stop/DONE才判，length/partial/1MiB超限保UNKNOWN；NaN/Infinity严格INVALID，语义仍owner审。旧退出/failure/retry/candidate_complete不改，不以其true覆盖新strict字段。两真实源码角色均STOP但whole实现拒/0modelcode，owner完成helper，6个新增mock方法首PASS并在修正portable测试路径后再PASS；旧4/15不跑。原始历史/auditor/config/私D caller不改，先候选验证再原子投影；active/净省工未知。

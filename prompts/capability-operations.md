@@ -79,3 +79,5 @@ Windows host读源必须在每个read exec cell开头定义并复用本机已核
 宿主协作model报capacity/turn中断时，按owner工具链与编排故障记录，不能嫁接为本地模型HTTP错误。续行先读已存在的REQUEST/POST终态、工具结果、ACTUAL与业务回执；原POST已发或动作状态UNKNOWN不能因宿主turn重试就重执行业务。仅在明确0START且确需首次验证时，接管原已准备工作并独立记owner成本；临时口述结果等待该owner完整批准case后再公开。两mode继续分开跟踪，无新原生缺陷修正/真实OPEN任务不扩旧native演示，不制造空请求；每reply有限输出不变成整体steps/POST/wall帽。模型被要求完整新Test却只回计划/0Java，按Test产物0采用记录，STOP/合法外层JSON不补出缺失实现。
 
 共享 caller 的改动先在 owner 候选完成完整 parse 与必要窄 witness，再显式原子投影至共享 checkout，避免正在并发启动的消费者读到半编辑版本；这不增加逐 POST 审批或全量旧测试门。新 CONTENT 按拼接后 SSE 文本的 UTF-8 原字节保存，不经 Windows newline=None；历史原件/严格 auditor 不改，原样与 LF 投影不混。消费项目 caller/Runtime 配置由其唯一 owner 在实际空窗另行明确同步，共享 Git 不自动热切。准备语法错误、源码行尾投影和实际影响未知项都归 owner 工具链成本，不计作本地模型 HTTP 失败或语义错误。
+
+消费普通HTTP结果时先读取新 RESULT.json_syntax 或对完整原件运行离线机器审计，再命名语法错误。外层VALID而语义自反、自然语言未完或错误源码事实应记语义问题，禁止靠肉眼尾部把它重标malformed。json_syntax只在完整stop/DONE并有限字节内报告，length/partial/超限为UNKNOWN；旧RESULT缺字段不重POST。legacy candidate_complete或退出0不覆盖严格syntax/owner审阅，尤其原有NaN接受行为未随元数据补丁改动。按独占候选parse+必要窄witness通过后原子投影共享caller；不自动切私有业务副本。

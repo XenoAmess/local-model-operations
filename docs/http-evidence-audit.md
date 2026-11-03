@@ -19,3 +19,5 @@
 默认不输出 raw 正文、业务路径、task ID、未知模型名、未知枚举或原始 failure 文本。只允许已知参数枚举、数值和摘要；报告中的 SHA 仍可能属于私有证据，是否公开须由 source owner 决定。CLI 发现缺失、不可读、无效或超限 artifact 时返回 1；语法错误、length、内容不等和冲突也要读取对应分类字段，不能只看进程退出码。
 
 验证命令：`python -m unittest discover -s tests -p test_http_evidence_audit.py -v`。独立合成测试覆盖语法合法但内容错误、length 残片与合法 length、有效最终 JSON、缺事件、CONTENT-only、无 DONE、坏流、冲突、重试隔离、隐私和有限读取。真实 symlink 创建在首次执行机受权限限制，拒读分支以合成 Windows reparse 属性验证，不冒充跨平台链接集成验收。真实机器材料只在执行机核对，不作为公开 fixture。
+
+新 caller 的 `json_syntax` 是自动语法元数据，完整stop/DONE才分类，length/partial及超过1MiB的附加分析为UNKNOWN；不改变本审计器独立读取、严格字节一致性和 eligibility。旧 RESULT 可以没有该字段。VALID、STOP、DONE、REVIEW_ELIGIBLE 和 owner 语义/采用始终分开；新元数据不含原文或解析异常消息。
