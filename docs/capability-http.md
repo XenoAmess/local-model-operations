@@ -1545,3 +1545,10 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [Owner 只读命令强prefix构造](evidence/2026-11-03-owner-read-command-prefix-guard.json)是宿主工具改进，不新增HTTP/native模型或软件Test分母：本岗一次JSON误交Python的NameError原保，后继每read cell从固定reader前缀+data/range构造并在exec前逐token EXACT核首token/完整prefix/长度/data槽；未知引用/shell字符拒绝，helper/Git另构造。12路径+4range+3prefix坏构造均0进程拒，合法JSON true按data打印exit0；只本机无空格形式有限实核，跨机不硬编码盘符/解释器。没有新共享可执行框架、caller/config/业务改动，不猜历史association/UI影响，不扫描/杀进程或补动作；owner active/净省工未知。
+
+
+[Whole represented-entry 新软件witness635] [owner批准正文](evidence/2026-11-03-http-whole-represented-entry-software-witness.json)：Test-only/0生产改，97实体含83wholeJava、R2另owner typed host无期待方法体。四actual为whole12000length、counter7000STOP有限计划、normal6000STOP整拒、stop6000length；两length完整正文未读整弃/0片段，不给syntax或语义错误grade，0model Java/noR3，2+2两波各峰2非峰4。owner整host+两方法首only1Test strict1.1213801s+manualRUN.3283396s，两组3scene97checks/5outputs；313是metadata pins非class。1635.907257s已标PREP窗与1.4497197s process分列/priorDiscovery-activeUNKNOWN，usage变更prePOST停与Native slash字典0JVM误分成本。只软件公开DATA/normalASM合同，不授原BIN/build、Game/硬件FP或实速；formal原pending。
+
+[Nested whole caller FP状态637] [owner批准正文](evidence/2026-11-03-http-nested-whole-caller-fp-state.json)：三R1后唯一implR2，4POST=3STOP+1length/0retry，峰3仅21.446698s。R1 invent Input/foreignnull源拒0JVM RED，R2三有效code hunks正逆exact/0owner生产Java，两个identity noop和错误comment定位未用；formal注释另投影。witness8500 length全未读0片段/无TestR2，owner13408B三newwhole组，prePOST oracle/fullTest三R1 END后CONTENT前，不称生成盲。Native三first0/stdout3、1.3890121s process/835.371664s仅late资格clock下界/activeNULL；只represented GPR/XMM0..6+explicit DF/MXCSR，lower ports仍opaque，Native172同instance16+4/194200/COPY等GAP保。formal仍原pending。
+
+[Finance owned-byte 同parent正式后见](evidence/2026-11-03-http-finance-owned-byte-consumption-later-formal.json)只附fdf2f658，两raw/formal source/Test精等，复用原同2P/0新编RUN；原6673B批准正文及pending切点不动，Runtime采用/性能仍false，不增模型/软件分母。
