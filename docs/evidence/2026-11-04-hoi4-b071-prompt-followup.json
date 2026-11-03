@@ -1,0 +1,212 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B071-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T18:03:02.298906+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T17:39:22.609721+00:00",
+    "window_ended_at_utc": "2026-11-03T17:39:30.094567+00:00",
+    "window_seconds": 7.484846,
+    "peak": 4,
+    "peak_duration_seconds": 6.384773,
+    "average_inflight": 3.7680797975001754
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b071-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 770,
+        "completion_tokens": 615,
+        "total_tokens": 1385
+      },
+      "failure": null,
+      "content_ttft_ms": 568.0133000132628,
+      "total_ms": 7484.994300000835,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "8fc857cc24f5c01c4c3b4aabc802437acf5a316c23501384be4ded83f5ede92e",
+      "summary_sha256": "4837521faab0633f0fd3a345d0047a38799801597c2a64e8e758f2b2cf49a17a",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "403337c87351c9c49a085431b5add1415d338b02cfe73269d8b17e9865f16237",
+        "task_id": "hoi4-20261104-b071-prompt-01",
+        "request_sha256": "8fc857cc24f5c01c4c3b4aabc802437acf5a316c23501384be4ded83f5ede92e",
+        "summary_sha256": "4837521faab0633f0fd3a345d0047a38799801597c2a64e8e758f2b2cf49a17a",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Retained actual nearly bald sparse grey hair, mild CLOSED-MOUTH smile/no teeth and open green coat/pale shirt/dark tie.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "dba47aed1673e9e840cb7a9936a504fc7503f0df51c8ffd3e834b7c2c35b4229",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2246,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261104-b071-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 760,
+        "completion_tokens": 539,
+        "total_tokens": 1299
+      },
+      "failure": null,
+      "content_ttft_ms": 567.5917000044137,
+      "total_ms": 7090.485799999442,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "f2df3cae484f080ff253fb43c95162b33d189aaca8e09dc1328d6ce22f28ce20",
+      "summary_sha256": "8c7895f27a3dac22402a1e5bf5140c5725843685b83277f9e72202b8e779c4d4",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "03eab650ecaa838feaf61ea8c787684abd2588bf37afaf23c245a58e2d24da6c",
+        "task_id": "hoi4-20261104-b071-prompt-02",
+        "request_sha256": "f2df3cae484f080ff253fb43c95162b33d189aaca8e09dc1328d6ce22f28ce20",
+        "summary_sha256": "8c7895f27a3dac22402a1e5bf5140c5725843685b83277f9e72202b8e779c4d4",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Restated actual brown peaked cap/gold badge/black visor and only note-limited gold collar/shoulder areas.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "dba47aed1673e9e840cb7a9936a504fc7503f0df51c8ffd3e834b7c2c35b4229",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2228,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261104-b071-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 774,
+        "completion_tokens": 589,
+        "total_tokens": 1363
+      },
+      "failure": null,
+      "content_ttft_ms": 566.4790999726392,
+      "total_ms": 7233.392299967818,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "2bc36719cae74881b30d7463590fa5d6d8bd6a23bc83644e726683119c1969c5",
+      "summary_sha256": "2ae915cd259417b61611b06989cc1df2b60d279af0f2a41ef5e7e7f32f055c0d",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "be5605a3c6342637fd1e30ba3699c0c25ae5acbfc56c45141ce9f1629924f2c8",
+        "task_id": "hoi4-20261104-b071-prompt-03",
+        "request_sha256": "2bc36719cae74881b30d7463590fa5d6d8bd6a23bc83644e726683119c1969c5",
+        "summary_sha256": "2ae915cd259417b61611b06989cc1df2b60d279af0f2a41ef5e7e7f32f055c0d",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Retained actual sparse grey-brown hair/clean face, LIGHT KHAKI open military coat/pale shirt/LIGHT KHAKI-GREY tie.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "dba47aed1673e9e840cb7a9936a504fc7503f0df51c8ffd3e834b7c2c35b4229",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2269,
+        586
+      ]
+    },
+    {
+      "task_id": "hoi4-20261104-b071-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 788,
+        "completion_tokens": 509,
+        "total_tokens": 1297
+      },
+      "failure": null,
+      "content_ttft_ms": 567.0409000013024,
+      "total_ms": 6385.348099982366,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "f5829ca4170a578ca1586aa7f1f9c5c525c4f2eb6167ec4d6d85b9cdbe2fd349",
+      "summary_sha256": "0a1f418c2dff6c974706a8d6d1c7cd0eebee3381e03a1a0b190d7b131dde9897",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "69a4cc7bb47d901ee7b66f27421a147dbf2a259dc50aed433fbc273a0506ac51",
+        "task_id": "hoi4-20261104-b071-prompt-04",
+        "request_sha256": "f5829ca4170a578ca1586aa7f1f9c5c525c4f2eb6167ec4d6d85b9cdbe2fd349",
+        "summary_sha256": "0a1f418c2dff6c974706a8d6d1c7cd0eebee3381e03a1a0b190d7b131dde9897",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Candidate repeated generic contract, omitted all supplied olive cap/gold band/pale badge, actual visor eye shadow, clean face and open olive coat/pale khaki shirt/dark tie, and echoed protocol/preparer discussion. Owner restored exact features and source lighting before image preparation.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "dba47aed1673e9e840cb7a9936a504fc7503f0df51c8ffd3e834b7c2c35b4229",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2356,
+        586
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b071-sources.json",
+    "sha256": "d29200f364e64a1539fe7ad23d3e3e315585da822a4c2efc0b78eb2a6825dc4d",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T17:50:06.757073+00:00",
+  "frozen_prepared_receipt": "mod_nailong/data/production-batches/resume-20261104-b071-prepared.json",
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. The pre-dispatch cutoff was frozen before later actual calls, independently of publication time. Four different source SHA portraits remain independent. Four exact primary cards and four compatible larger analysis candidates actually viewed. Nearly bald clean mild closed-mouth smile/open green coat, brown peaked cap/open brown military outfit, clean receding hair/LIGHT KHAKI open coat and LIGHT KHAKI-GREY tie, olive peaked cap with primary visor-shadowed eyes/open olive outfit remain separate. Note-limited decorations and primary crop/light govern. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Four partial adoptions. Candidates1-3 retained supplied mild closed-mouth smile/no teeth, actual brown cap/open coat and light khaki outfit/tie. Candidate4 echoed generic anatomy/alpha contract and omitted all supplied olive cap/gold band/pale badge, visor eye shadow, clean face and open olive coat/pale khaki shirt/dark tie, while leaking text protocol/canonical-preparer discussion. Owner restored actual primary features/light and removed echo before any image preparation/call. Original request contained these details; candidates unchanged. No model pixels, art approval or measured time-savings claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
