@@ -1327,3 +1327,6 @@ Root replay-scope363 [批准formal/runtime后见](evidence/2026-11-03-http-repla
 
 
 366 [批准实际采用后见](evidence/2026-11-03-http-semantic-driver-runtime-later.json)1310B原样，仅同parent附页：与既有Root363后见同一次必要六叶coherent结构恢复，同JVM新delegate实际LOOP、START→LOOP485.051716300s/newSaved0，未为366单独增加GET。它不增加case/HTTP/Test/运行事件分母，不把两份模型算法整稿拒收改成模型code采用；没有每method bytehash或单leaf/A/B速度证据。原6713/source/software/formal及未装载历史切点保持。后到worker UNKNOWN独立记录，初LOOP不是持续健康、SAVE或369策略资格；owneractiveUNKNOWN、M1新增运行操作0。
+
+
+[Owner核准的generic负ACK源码分析边界](evidence/http-generic-negative-ack-source-analysis-boundaries.json)仅公开四条通用事实，不公开原包、标识、原始时间、digest、源码或模型正文：统一错误可折叠pre-submit/wait/reclaim/业务读拒，短响应不能选支或授rawread已执行；TLS须同次read-sequence并在原owner线程捕获，别线程后读与独立atomic组不能补原cause；executor-running timeout可能是same-ticket等待中间态，须核真实loop/最终返回，empty optional不证明executor已进入；模型line/function/branch anchor逐项回完整冻结原文独核。合法格式和流畅分支图均非源码证明，也不新增live诊断、重试、编验或部署权限。

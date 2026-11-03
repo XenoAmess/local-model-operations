@@ -66,3 +66,6 @@
 
 
 Windows host读源必须在每个read exec cell开头定义并复用本机已核的`read(path,start,end)`构造：固定只读reader/显式解释器前缀，目标路径只作参数data，验证范围和shell字符；工具不支持的路径/引用形式应明确拒绝或按实接口修正。授权helper执行与Git mutation用各自构造，不把数据path和raw shell字符串混在一列；绝不裸`.py`/JSON路径当读取，也不对未知有副作用helper试`--help`。元数据按resolved identity及精确size/SHA核，不用slash拼写定文件不同。保原命令/结果及association、dispatch或UI未知，不从exit0/空stdout断言0副作用，不据此扫描/杀其它进程或增加业务/模型请求。[经批准的多owner实际读取构造经验](../docs/evidence/2026-11-03-windows-owner-read-command-construction.json)。
+
+
+源码故障分析遇到generic负ACK时，先枚举其折叠的pre-submit、wait、reclaim与业务读拒路径，不按短延迟择支或推rawread执行。核TLS的实际writer、owner线程和同次read-sequence；后读别线程或独立atomic值不能恢复旧cause。将executor-running timeout放回same-ticket真实循环核终态，empty optional不证明executor入口。模型给的line/function/branch anchor必须逐项回同份完整冻结原文独核。[经owner核准的通用事实](../docs/evidence/http-generic-negative-ack-source-analysis-boundaries.json)只增加审阅规则，不增加live查询、重试、编测或部署权限。

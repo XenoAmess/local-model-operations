@@ -1,0 +1,23 @@
+{
+  "scope": "Owner-approved reusable source-analysis facts only. This public note contains no private packet, identifier, timing, digest, source, model-answer body or machine path.",
+  "generation_mode": "ordinary fixed-three-message HTTP source analysis; not native tool execution or live validation",
+  "facts": [
+    {
+      "lesson": "A generic negative acknowledgement does not identify a failing branch.",
+      "application": "One generic failure may aggregate pre-submit rejection, waiting or reclaim failure, and a business-read rejection. Short response latency does not select among them and does not prove that the raw read ran."
+    },
+    {
+      "lesson": "Thread-local failure diagnostics require original-thread and same-read ownership.",
+      "application": "Bind diagnostics to the same read sequence and capture them on the original owning thread. Reading another thread later cannot recover the original cause. Independently sampled atomic fields do not establish one coherent failure frame and may have been overwritten."
+    },
+    {
+      "lesson": "An executor-running timeout can be an intermediate wait state.",
+      "application": "Inspect the real same-ticket wait loop and final return condition before classifying failure. A timeout while execution is already running can lead to further waits on that same ticket; an empty optional result alone does not prove executor entry."
+    },
+    {
+      "lesson": "Model line anchors are claims requiring independent source verification.",
+      "application": "Return to the exact complete frozen file and validate each cited line, function and branch. Plausible numeric anchors or a well-formed response do not authenticate the proposed control flow."
+    }
+  ],
+  "limits": "These facts guide bounded source review. They do not select the original failure cause, authenticate source-to-loaded-binary provenance, provide a fix or authorize a new query, retry, replay, compile, deployment or business action."
+}

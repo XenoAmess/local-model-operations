@@ -162,3 +162,6 @@ CLI367.1497915s、首记prepare→CLI161.102732s、reportedHTTPsum299.6922541s�
 
 
 后到[普通HTTP同题owner审阅](evidence/2026-11-03-http-held-frame-source-comparison.json)已闭：1POST STOP有效JSON只获partial navigation corroboration，0wholeanswer/code，三事实均owner原已持；未证RawJson→Context接线与合法empty分支遗漏由源审纠正。192.691128审阅lowerbound/566.708288 END→审闭wall/activeUNKNOWN与原公共取源成本完整保。它是仍OPEN源问题的另mode授权，不是173原生续投或严格AB；不同协议/工具可见域不能把较短HTTP转成正确性、效率或自动源核成功。原native初始读工具成功、后104同SHA重复/0finalstop及1.18.31历史小闭环均不改。
+
+
+[普通HTTP源码分析的通用故障归因规则](evidence/http-generic-negative-ack-source-analysis-boundaries.json)不授OpenCode原生工具或现场执行能力：generic负ACK/短延迟不能选失败分支，TLS要求同次读取和原owner线程，executor-running timeout须核same-ticket实际循环，模型行号必须回完整冻结原文验证。工具只读成功也不能替代原失败cause或source-to-loaded映射。
