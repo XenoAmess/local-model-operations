@@ -74,3 +74,6 @@ Windows host读源必须在每个read exec cell开头定义并复用本机已核
 
 
 诊断source question要沿真实serialization核wire字段，early-return默认DTO值不能当测量态；mailbox生命期须核对象构造/销毁scope，不按连接名推reset。generic错误或短耗时不能推出submit成功、owner已观察或选失败支。[仅四条经owner批准的通用教训](../docs/evidence/http-default-diagnostics-lifetime-boundaries.json)不增加运行权限。
+
+
+宿主协作model报capacity/turn中断时，按owner工具链与编排故障记录，不能嫁接为本地模型HTTP错误。续行先读已存在的REQUEST/POST终态、工具结果、ACTUAL与业务回执；原POST已发或动作状态UNKNOWN不能因宿主turn重试就重执行业务。仅在明确0START且确需首次验证时，接管原已准备工作并独立记owner成本；临时口述结果等待该owner完整批准case后再公开。两mode继续分开跟踪，无新原生缺陷修正/真实OPEN任务不扩旧native演示，不制造空请求；每reply有限输出不变成整体steps/POST/wall帽。模型被要求完整新Test却只回计划/0Java，按Test产物0采用记录，STOP/合法外层JSON不补出缺失实现。

@@ -178,3 +178,6 @@ CLI367.1497915s、首记prepare→CLI161.102732s、reportedHTTPsum299.6922541s�
 
 
 [diagnostics/default/lifetime通用源码边界](evidence/http-default-diagnostics-lifetime-boundaries.json)同样约束原生工具分析：内部diagnostics不等于wire，默认值不等于已测量，生命周期按构造scope，generic错误/耗时不证明提交或观察。它不增加原生自动源核完成、现场诊断或执行能力。普通HTTP的[外层JSON格式勘误](evidence/2026-11-03-http-ordinary-command-format-erratum.json)也不能反向授OpenCode收益；两mode继续分别跟踪。
+
+
+宿主协作model capacity/turn中断与本地HTTP/OpenCode原生工具轨迹分账；不能把owner编排故障计作本地服务失败，也不能为恢复宿主turn重发原业务。先核既存请求/工具/编测/动作终态，只对明确0START的必要工作另记接管成本。此规则不新增native task成功、自动源核或省工信用；新native试用仍需具体已修原因与真实OPEN任务，逐reply有限输出，不为旧题补第三轮或固定总steps/POST/wall帽。

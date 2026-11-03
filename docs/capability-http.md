@@ -1423,3 +1423,8 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [Publisher replacement独立Test附页](evidence/2026-11-03-http-publisher-replacement-witness-annex.json)接[原source parent](evidence/2026-11-03-http-publisher-method-local-replacement-reuse-source.json)，不重计源码两logical/四actual请求及首production compile。M5一个新witness STOP24.003750s/TTFT17.441099s、28whole实wire核/直接声明gap、candidate blind而design guided，whole答复0执行片段，owner三methods/四controlled cases。原owner四getter compilerRED、retry tmp未建3setup errors/0body与RUN-only47.350308保；最终3uniqueP不加为六P，4510B真实stderr含24submission+4append而非空。四Test进程53.8717841s/marker1941.122573wall/active与早PREP未知，净省工未证。正式Test-only dc655d66/raw19528/05256645/EOF精等在批准正文内，0出版重验；private PUBLICATION-AFTER15仅导航不另公原文，不授Runtime/性能。上游协作模型capacity/turn中断归owner工具链，不能冒成本地HTTP服务失败；续行先读已有POST/编测/动作终态，不能为恢复LLM turn重执行业务。
+
+
+[normal integer callee的partial-FP薄adapter](evidence/2026-11-03-http-integer-callee-partial-fp-adapter.json)：4STOP/0retry（3R1+唯一R2）/峰3仅14.140767s。R13043缺显式foreignnull在源审拦、R2单hunk→3170正逆exact/0ownerJava；独立candidate-blind新Test角色5000预算仅254token计划/0Java整拒，owner9044Test读CONTENT后写，outline prePOST不能冒fullTest盲。三first0/4console与767.33403仅晚clock下界、activeNULL/formalpending保。完整44B normal CFG/正no-containing-RF只闭normal、0CALL/0write，不借上一个函数RF/UW/EH或授硬件FP/upper路径。
+
+宿主协作模型的capacity或turn中断属于owner工具链/编排证据，不是本地模型服务的HTTP失败；原服务是否失败只按对应实际REQUEST/事件/错误记录判断。恢复先核已有POST/编测/业务动作真实终态，不能为重试宿主LLM turn重执行下游动作。可确认0START的必要首验接管另记owner成本，实际失败仍按fixture/args/代码分层；待source owner批准完整case后再公开，不将临时口述当正式通过。
