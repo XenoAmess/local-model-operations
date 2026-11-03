@@ -1,0 +1,158 @@
+{
+  "schema": "local-model-operations.civ6-paired318319/v1",
+  "date_local": "2026-11-04",
+  "recorded_at_utc": "2026-11-03T23:30:54.181258+00:00",
+  "machine_id": "BF-202609141645",
+  "records": [
+    {
+      "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/ef880365977a518001ef82b45c18b034c26fcf9b/docs/research/baiqi-p6-paired-build-analyzer318-evidence-2026-11-04.json",
+      "evidence_sha256": "c81a185ab6276ffe7b57a254fb3e4235627a34f35e68b8d37c0f5287c0bd14b3",
+      "cases": [
+        {
+          "sequence": 318,
+          "case_id": "civ6-pairedanalyzer318",
+          "mode_id": "http-candidate",
+          "shared_commit": "26bf4d43bf59c64123ee06a24907dd3c2f342682",
+          "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+          "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+          "max_tokens": 2400,
+          "roles": [
+            "system",
+            "user",
+            "user"
+          ],
+          "model_alias": "qwen38-coder",
+          "post_begin_utc": "2026-11-03T22:40:06.722668+00:00",
+          "attempt_end_utc": "2026-11-03T22:40:17.741879+00:00",
+          "result": {
+            "http_status": 200,
+            "finish_reason": "stop",
+            "sse_done": true,
+            "total_ms": 11010.405600012746,
+            "first_nonempty_content_delta_ms": 515.2071000193246,
+            "usage": {
+              "prompt_tokens": 2696,
+              "completion_tokens": 1883,
+              "total_tokens": 4579
+            },
+            "cached_prompt_tokens_if_reported": null
+          },
+          "success": true,
+          "attempt_count": 1,
+          "retry_count": 0,
+          "attempt_windows": [
+            {
+              "attempt": 1,
+              "begin_utc": "2026-11-03T22:40:06.722668+00:00",
+              "end_utc": "2026-11-03T22:40:17.741879+00:00",
+              "failure": null,
+              "finish_reason": "stop",
+              "sse_done": true,
+              "http_status": 200,
+              "total_ms": 11010.405600012746
+            }
+          ],
+          "adoption": "partial",
+          "review": "Valid full Python body partly adopted. Raw accepts pairTrue/67.0version/Falseerrors/0.0refused, labels turns0..4, computes partial median excluding zero-control ratios despite ratio_knownfalse, hugeint raisesOverflowError. Owner exacttypes/actual86..90/unknownratios/finiteinput+derivedoverflow/outputkeys/limits corrected.",
+          "owner_cost_seconds": {
+            "preparation": null,
+            "review": null,
+            "correction": null,
+            "validation": null,
+            "publication": null
+          }
+        }
+      ]
+    },
+    {
+      "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/2faeb63f86ffb5f3717d5d9cef96d6b80cc66e50/docs/research/baiqi-p6-paired-driver-owner-evidence-2026-11-04.json",
+      "evidence_sha256": "f5d20fd88b014c7188781077a52a4fc8d3e73ca460036c06d2eb06e4ce5f32e5",
+      "cases": []
+    },
+    {
+      "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/53016ee85b1d856802dacaa2e04b86d0e92c3f0d/docs/research/baiqi-p6-pair1-transport-abort-evidence-2026-11-04.json",
+      "evidence_sha256": "3c5a853b1a5ce06cf691bc4cb10a8429c89969e7d0cbe0e2e8c25da253fbf6a0",
+      "cases": []
+    },
+    {
+      "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/25c04e25b25ed4b4c0aaa24f85f81cd074b831db/docs/research/baiqi-p6-pair1-enabled-controlcompat319-evidence-2026-11-04.json",
+      "evidence_sha256": "237b1ab9b8b815904439dc7ba00c36317ac45f01c6e9c28b9c6d4a43f28ca8af",
+      "cases": [
+        {
+          "sequence": 319,
+          "case_id": "civ6-controlcompat319",
+          "mode_id": "http-candidate",
+          "shared_commit": "34f229e26502bce77317b9a86619fa0cf86824d0",
+          "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+          "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+          "max_tokens": 1100,
+          "roles": [
+            "system",
+            "user",
+            "user"
+          ],
+          "model_alias": "qwen38-coder",
+          "post_begin_utc": "2026-11-03T23:06:19.966091+00:00",
+          "attempt_end_utc": "2026-11-03T23:06:27.199161+00:00",
+          "result": {
+            "http_status": 200,
+            "finish_reason": "stop",
+            "sse_done": true,
+            "total_ms": 7236.918400041759,
+            "first_nonempty_content_delta_ms": 2417.987200024072,
+            "usage": {
+              "prompt_tokens": 17242,
+              "completion_tokens": 732,
+              "total_tokens": 17974
+            },
+            "cached_prompt_tokens_if_reported": null
+          },
+          "success": true,
+          "attempt_count": 1,
+          "retry_count": 0,
+          "attempt_windows": [
+            {
+              "attempt": 1,
+              "begin_utc": "2026-11-03T23:06:19.966091+00:00",
+              "end_utc": "2026-11-03T23:06:27.199161+00:00",
+              "failure": null,
+              "finish_reason": "stop",
+              "sse_done": true,
+              "http_status": 200,
+              "total_ms": 7236.918400041759
+            }
+          ],
+          "adoption": "rejected",
+          "review": "Outer JSON VALID/rawLua compiles. Wrong records=N(table) printsunknown, S(fn) prints functionaddress rather than type, Snapshot/field errors escape/no pcall, wrong-turn/pid doesnotreturn before scope/Playersindex. Allcode rejected. Owner readonly dump emits actual arraycount/types, handlesfield/Snapshot errors/earlywrongcontext;5tests pass.",
+          "owner_cost_seconds": {
+            "preparation": null,
+            "review": null,
+            "correction": null,
+            "validation": null,
+            "publication": null
+          }
+        }
+      ]
+    }
+  ],
+  "model_reviews": "318 partial arithmetic/validation adoption: exact ints, zero-denominator unknown (no filtered ratio median), actual86..90 labels, finite input/derived values and output keys corrected.319 code rejected: tablecount unknown, function address vs type, uncaught getter/Snapshot errors and wrong-context scope. Owner rewrote metadata-only dump; no bridge method invoked.",
+  "software": "3189analyzer+3newpairedassembler/1affecteddefaultbuilder; ownerporteddriver8then1newreadonlytransport check;319owner5actual-source metadata tests. Different runs/scopes not collapsed into one green batch.0new OpenCode-native generation.",
+  "native": "First enabled attempt aborted after acknowledgedends85..87 and actual3clockrecords; readonly response header assertion, original failed header not logged so size/tag/cause UNKNOWN. Ownclockretired, noend88..90, later observed88/hidden diplomacy. Frame validation bound unchanged; OSError subtype/logging lets existing readonly-only reconnect retry, action paths remain no replay. Next official original85reload/newledger completed fiveenabled records3.996/3.355/6.711/7.273/4.660seconds withvalid headers only; prior fault didnot recur, notproof live malformed-frame recovery.19originalarmy positions unchanged, UI/Core11cities/UIempty0, actual90save518959/hash in pin, unreloaded.1of10sides/0of5pairs at pin; no B_delta/fullTC036 PASS. QA OnClose/Esc role remains TEST_PLAYER, no BACKGROUND diplomacy/human click requests.",
+  "scope": "Business pins distinguish software/preparation/partial Native/full side. No complete-control Native result in these frozen pins. Later control observations must be additive, no retrospective model capability promotion.",
+  "cumulative_through319": {
+    "logical": 319,
+    "complete": 298,
+    "length": 18,
+    "final_transport_failed": 3,
+    "http_attempts": 349,
+    "additional_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "concurrency": "318/319 eachseparatesinglePOST; Native driver not HTTP and no inventedtarget60 occupancy.",
+  "unknown_costs": {
+    "exclusive_owner_seconds": null,
+    "cache_hit_tokens": null,
+    "server_queue": null,
+    "net_owner_savings": null
+  }
+}
