@@ -1428,3 +1428,8 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 [normal integer callee的partial-FP薄adapter](evidence/2026-11-03-http-integer-callee-partial-fp-adapter.json)：4STOP/0retry（3R1+唯一R2）/峰3仅14.140767s。R13043缺显式foreignnull在源审拦、R2单hunk→3170正逆exact/0ownerJava；独立candidate-blind新Test角色5000预算仅254token计划/0Java整拒，owner9044Test读CONTENT后写，outline prePOST不能冒fullTest盲。三first0/4console与767.33403仅晚clock下界、activeNULL/formalpending保。完整44B normal CFG/正no-containing-RF只闭normal、0CALL/0write，不借上一个函数RF/UW/EH或授硬件FP/upper路径。
 
 宿主协作模型的capacity或turn中断属于owner工具链/编排证据，不是本地模型服务的HTTP失败；原服务是否失败只按对应实际REQUEST/事件/错误记录判断。恢复先核已有POST/编测/业务动作真实终态，不能为重试宿主LLM turn重执行下游动作。可确认0START的必要首验接管另记owner成本，实际失败仍按fixture/args/代码分层；待source owner批准完整case后再公开，不将临时口述当正式通过。
+
+
+[七site纯API正式后见](evidence/2026-11-03-http-seven-site-api-later-formal.json)追加9dcd10b8，8113/3711/12716三payload raw/EOF精等；only317B wrapper同四组1P非第五，原3521 pending不改。首次Git push连接reset后writer核remote仍旧HEAD再同commit正常push，0改源/recommit/JVM；这是Git传输，不是模型HTTP retry。
+
+[Council1466独立observation oracle有限negative](evidence/2026-11-03-http-planning-observation-oracle-finite-negative.json)只计M5本角色1STOP2200/13.995761s/TTFT4.995329s，不并入M1生产两角色请求/成本。9whole+两3722B小payload共11wire块实核，oracle候选前冻、knownproblem非designblind；实际六clock字段跨日期变化不是byte重复，同日期positive consumed reuse仍合法。模型未算6diff、混旧新字段/缺席null/忽略positiveConsumed等whole拒/0算法/Testplan，owner未证高成本删块NoQualifiedCandidate，不泛优化不可能。0patch/Test/JVM/运行，228.978153 PREPmarker子窗/早start与active未知，模块导航错保；不造私issuer/fixture或提速。
