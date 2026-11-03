@@ -1,0 +1,83 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B086-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T22:20:16.975040+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T22:10:48.050720+00:00",
+    "window_ended_at_utc": "2026-11-03T22:10:51.949276+00:00",
+    "window_seconds": 3.898556,
+    "peak": 1,
+    "peak_duration_seconds": 3.898556,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b086-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 970,
+        "completion_tokens": 566,
+        "total_tokens": 1536
+      },
+      "failure": null,
+      "content_ttft_ms": 390.9163000062108,
+      "total_ms": 3897.8305000346154,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "9eb7297daa6e3110b59d093055941275b53ad925f941eae93cd98271f1895b85",
+      "summary_sha256": "611ee491606e2c790f0195f30abd05d13fd46d1d2c682f15f43a9e63a706e305",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "c329d64406d17a3cd1ad6fa5272db0a58c4d4cb43d6fa5be26056d8f2430c596",
+        "task_id": "hoi4-20261104-b086-prompt-01",
+        "request_sha256": "9eb7297daa6e3110b59d093055941275b53ad925f941eae93cd98271f1895b85",
+        "summary_sha256": "611ee491606e2c790f0195f30abd05d13fd46d1d2c682f15f43a9e63a706e305",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Candidate retained actual WHITE peaked naval cap/dark visor/GOLD fittings and real brim shadow, real brows/moustache/FULL JAW beard and OPEN NAVY coat/PALE shirt/DARK tie.",
+          "Restated exact older dense-beard primary variant, covered/scalp-hair boundary, short broad collar contact and only source-exposed fittings; younger SYR-named larger variant was excluded before POST.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2790,
+        873
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b086-sources.json",
+    "sha256": "b4eadcc0d655b4a3aef322daec321f64815e05a0bbdb161a6b2c8e9fe2c53af8",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T22:12:12.452076+00:00",
+  "stage_at_cutoff": "One frozen prepared uncalled LOW source prompt, one image window with HIGH recheck. Owner viewed exact card, nearest pixels and two larger naval variants. Younger thinner-beard SYR-named variant excluded despite filename; older full-beard white naval cap/gold trim/dark visor-shadow/open navy coat/pale shirt/dark tie variant matched, primary pose/crop/fittings remain authoritative.",
+  "owner_review": "Both source SHA domains separately verified. Complete finite prompt retained supplied white peaked NAVAL cap/dark visor/GOLD fittings and original brim shadow, real brows/exposed hair/moustache/FULL jaw beard, OPEN NAVY coat/pale shirt/DARK tie and exact pose/crop/backing. Owner partially adopted with exact primary variant, hair boundary, short broad collar contact and source-visible decoration limits, plus canonical LOW hair/alpha constraints. Tiny crest engraving not claimed exact; no pixels/visual qualification/capacity/savings claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
