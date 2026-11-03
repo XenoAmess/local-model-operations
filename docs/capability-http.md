@@ -1493,3 +1493,8 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [自动严格 JSON syntax 元数据] [代码与成本记录](evidence/2026-11-03-http-automatic-bounded-json-syntax.json)：新RESULT自动给语法VALID/INVALID/UNKNOWN、类型和固定数字错误位置，完整stop/DONE才判，length/partial/1MiB超限保UNKNOWN；NaN/Infinity严格INVALID，语义仍owner审。旧退出/failure/retry/candidate_complete不改，不以其true覆盖新strict字段。两真实源码角色均STOP但whole实现拒/0modelcode，owner完成helper，6个新增mock方法首PASS并在修正portable测试路径后再PASS；旧4/15不跑。原始历史/auditor/config/私D caller不改，先候选验证再原子投影；active/净省工未知。
+
+
+[Protocol immutable DATA reuse] [批准主文](evidence/2026-11-03-http-protocol-identity-immutable-data-reuse.json)与[独立oracle/Test同parent附页](evidence/2026-11-03-http-protocol-identity-independent-witness-annex.json)合计仅两POST/峰1不重叠；两outerJSON机器VALID且各CONTENT原样等SSE（M5 counter为3373B），模型whole语义拒/0算法码。owner一body literal+公有DATA3P保初-J argv准备RED、同3P只计一次；M5肉眼误判和M1未核转述独归owner，原件不改。[正式后见](evidence/2026-11-03-http-protocol-identity-later-formal.json)只追加23f012fd/两blob rawcompiledformal/EOF相等，0新验证/实际装载/实速。
+
+[业务疑点有限负闭] [批准最小抽象附页](evidence/2026-11-03-declaration-publication-idempotence-negative.json)确认本窗先Published、同日后次Unchanged，计划reason不等于publisher身份；前body未读，不能称首次消费或false→true。此附页0HTTP/Test/JVM/patch，不新增模型能力case或分母，source/loaded一致性与性能仍未知。

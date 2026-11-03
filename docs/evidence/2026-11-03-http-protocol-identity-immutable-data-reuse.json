@@ -1,0 +1,127 @@
+{
+  "schema": "ck3.http-capability-case/v1",
+  "owner_approved_for_public_metadata": true,
+  "case": "Pure canonical request-ID preparation, conservative immutable DATA reuse",
+  "problem": "A real writer callback rebuilds and checks the complete canonical receipt chain. The admission loop then re-encodes each same-machine/same-Game historical command to derive its protocol request ID, even though each receipt constructor already validated its canonical body digest. Existing preview/commit spans did not isolate this callee, so no latency attribution is claimed.",
+  "source_and_scope": {
+    "target": "ProtocolIdentityAdmission.requireUnique",
+    "change": "One literal in the existing method body, no new fields/methods/types/lambda sites or public trusted API.",
+    "candidate_bytes": 4662,
+    "candidate_sha256": "81b38534c2f275919b93d8a3d914f9afe24880df23f9d912c188feaf1a03d757",
+    "immutable_opt_in": "Only body-derived Gameplay with Gameplay expectation and exact standard BigInteger class at every encoded numeric leaf: both observation graphs including Game birth/player/native/date/public revision, all numeric claim sets, expected integers, and the sealed argument tree.",
+    "fallback": "Every uncovered origin/expectation/protocol variant, numerical subclass or nullable numerical value retains the original full RequestIds.forCommand route. Explicit protocol IDs retain their original branch.",
+    "preserved": "Proposed command computation order, command constructors and byte/depth/token/UTF8 budgets, exact action/body/full-byte collision qualification, and all fresh canonical/source/head/physical/pin/permission/callback checks remain unchanged.",
+    "allocation_limit": "The extra local deque traversal allocates and can grow with argument width. No measured allocation, resource benefit or universal speed claim."
+  },
+  "known_public_counterexample": "A legal public BigInteger subclass can change its serialized text after command and receipt construction. Reusing the old receipt digest blindly can miss a current-ID collision and falsely admit a mutated command. Exact immutable-shape opt-in is required; record/final reference names alone do not prove deep immutability.",
+  "models": {
+    "roles": [
+      {
+        "role": "implementation",
+        "owner": "M1",
+        "actual_POSTs": 1,
+        "retries": 0,
+        "started_utc": "2026-11-03T04:12:27.450055+00:00",
+        "ended_utc": "2026-11-03T04:12:35.341103+00:00",
+        "TTFT_seconds": 6.385550200007856,
+        "http_seconds": 7.8908414999896195,
+        "max_tokens": 6500,
+        "prompt_tokens": 49285,
+        "completion_tokens": 197,
+        "cached_tokens": null,
+        "whole_sources": 31,
+        "physical_source_bytes": 217977,
+        "actual_source_message_utf8_bytes": 226543,
+        "message2_sha256": "c9250983e874179ab6188957720355887c7714551f8ffa076a694ea184939b0b",
+        "outer_JSON": "VALID by complete file machine parse",
+        "SSE_CONTENT_exact": true,
+        "finish": "STOP/DONE",
+        "algorithm_code_adopted": 0
+      },
+      {
+        "role": "independent original-source counter",
+        "owner": "M5",
+        "actual_POSTs": 1,
+        "retries": 0,
+        "started_utc": "2026-11-03T04:16:10.922563+00:00",
+        "ended_utc": "2026-11-03T04:16:23.970670+00:00",
+        "TTFT_seconds": 7.827245099993888,
+        "http_seconds": 13.04819229998975,
+        "max_tokens": 3000,
+        "prompt_tokens": 59768,
+        "completion_tokens": 778,
+        "cached_tokens": null,
+        "whole_sources": 39,
+        "physical_source_bytes": 262631,
+        "actual_source_message_utf8_bytes": 273874,
+        "message2_sha256": "4d312caa8892dbb3cd2f9b1297c8f57a7b88e9bc93d507b4bd2b8d618772a6a5",
+        "outer_JSON": "VALID by complete file machine parse",
+        "SSE_CONTENT_exact": true,
+        "finish": "STOP/DONE",
+        "algorithm_code_adopted": 0
+      }
+    ],
+    "actual_POSTs": 2,
+    "retries": 0,
+    "actual_peak": 1,
+    "overlap_seconds": 0,
+    "parallelism": "Owners prepared independently; the 7.89-second implementation call finished before the independent counter call began. No sustained or peak2 HTTP claim.",
+    "implementation_grade": "STOP197 tokens and valid outer JSON, but only incomplete rationale and no executable edit. Suggested early action-ID filtering would miss cross-action protocol-ID conflicts. Whole rejected, no R2 or algorithm adoption.",
+    "counter_grade": "Original-source, candidate-blind but known-subclass-risk-guided task. STOP778 tokens and valid outer JSON; false BigInteger-final/record-deep-immutability premises and confused retained full-byte collision checks. Whole rejected, no R2/code/Test adoption.",
+    "owner_code": "Owner authored the one existing-body literal. Root suggested body-only shape and local deque preference; no claim of blind design. M5 froze its original oracle before seeing the candidate and authored the public DATA tests after candidate review.",
+    "caller": "Explicit current shared canonical caller after its UTF8 binary CONTENT-save repair; this task records both CONTENT files exactly equal to reconstructed SSE bytes. No active business caller, configuration or runtime change."
+  },
+  "validation": {
+    "initial_owner_argv_failure": {
+      "exit": 2,
+      "seconds": 0.14859789999900386,
+      "reason": "VM -J tokens were incorrectly put in a javac argfile; rejected before source compilation. Both original failure and owner/Native preflight omissions preserved."
+    },
+    "new_necessary_source_compile": {
+      "source_TUs": 1,
+      "seconds": 1.4266135999932885,
+      "exit": 0,
+      "stderr_bytes": 0
+    },
+    "actual_software_class_shape": {
+      "fields": 0,
+      "methods": 2,
+      "lambda_methods": 0,
+      "flags_and_descriptors_match_input_cache": true,
+      "actual_loaded_class_lineage": "UNKNOWN"
+    },
+    "new_Test": {
+      "source_TUs": 1,
+      "production_or_helper_recompile": 0,
+      "selected_methods": 3,
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "aborted": 0,
+      "strict_seconds": 1.5560790000017732,
+      "JVM_seconds": 2.5629196999943815,
+      "strict_to_JVM_gap_seconds": 5.711755,
+      "stderr_bytes": 0,
+      "behavior": "Public requireUnique cases for stable/default/explicit-role collisions, mutable arguments and ExpectedInteger stale-hash rejection, nullable number fallback, foreign filter/encoder-failure order and full1MiB command-envelope budget.",
+      "source_only": "Other numeric subtype positions (birth, claims, distinct equal expected.before) and non-Gameplay origin variants remain source-only coverage.",
+      "authority": "Synthetic public DATA, no writer Session/private issuer/filesystem/Native/Game authority."
+    },
+    "old_methods_RUN": 0,
+    "Runtime_adoption": false,
+    "measured_hit_rate": false,
+    "measured_speed": false,
+    "additional_SAVE_credit": 0
+  },
+  "owner_readout_and_cost": {
+    "active_seconds": null,
+    "earlier_source_discovery_start": "UNKNOWN",
+    "M5_Test_marker_to_pass_wall_seconds": 547.223199,
+    "M5_Test_process_seconds": 4.118998699996155,
+    "cost_limits": "Process durations are wall times, not CPU time. Source discovery before explicit markers is unknown; preparation, coordination, review and resource grants remain included where recorded.",
+    "metadata_failures": "Two owner sealing assertions stopped0Java: path separator string equality and guessed reports option form. Exact resolved paths/bytes/SHA and existing XML refs replaced those guesses; source/Ready/argv/Test/expectations unchanged.",
+    "format_correction": "Independent owner initially reported malformed outer JSON from a visible tail; M1 relayed that unverified label. Complete shared machine audit proved both original JSON objects valid. Original cutoffs preserved by erratum; semantics remain rejected. Enforce full-file machine parse before future syntax labels."
+  },
+  "publication": {
+    "status": "Concrete two-leaf source plus M5 Test delivered to sole Java writer for normal publication; not yet recorded here. SourceReady/TestReady pending cutoffs remain immutable."
+  }
+}
