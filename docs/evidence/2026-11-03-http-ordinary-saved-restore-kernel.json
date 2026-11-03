@@ -1,0 +1,77 @@
+{
+  "case_id": "M7-RESTORE-400",
+  "approved_at_utc": "2026-11-03T05:19:18.511383+00:00",
+  "owner_approved_public_scope": "Only this sanitized portable JSON, not original source, prompts, response bodies, paths or private evidence.",
+  "task": "Wire the existing ordinary saved-material branch into the actual restore-kernel comparison consumer, preserving the first-checkpoint branch and legacy kind-specific accessor.",
+  "task_shape": {
+    "production_leaves": 1,
+    "existing_method_bodies": 2,
+    "new_public_API_fields_types": 0,
+    "whole_source_inputs_initial": 22,
+    "initial_whole_source_bytes": 841111,
+    "original_runtime_and_formal_whole_baselines_independent": true
+  },
+  "HTTP": [
+    {
+      "role": "implementation",
+      "max_tokens": 6000,
+      "prompt_tokens_reported": 168142,
+      "output_tokens_reported": 1911,
+      "total_seconds": 56.7616163000057,
+      "effective_content_TTFT_seconds": 41.63907190001919,
+      "finish": "STOP/DONE/200",
+      "JSON": "VALID",
+      "whole_adopted": false,
+      "code_adopted": 0
+    },
+    {
+      "role": "source_plan_counter",
+      "max_tokens": 4000,
+      "prompt_tokens_reported": 168160,
+      "output_tokens_reported": 1581,
+      "total_seconds": 56.67091570000048,
+      "effective_content_TTFT_seconds": 43.31805530001293,
+      "finish": "STOP/DONE/200",
+      "JSON": "VALID",
+      "whole_adopted": false,
+      "new_source_finding_adopted": 0
+    }
+  ],
+  "input_boundary": "Initial complete field declarations were supplied, but two concrete inheritance bodies were omitted and later separately qualified. This is an owner input gap, not hidden by rejection. It does not explain the invented member on a fully supplied Optional-returning accessor, or the explicit reserved-field contract violation. Original requests were not rewritten and no reroll was sent.",
+  "grades": {
+    "implementation": "Whole rejected. Invented direct member on Optional, wrong reader-vs-journal carrier, ordinary result written into the reserved FIRST slot, and unnecessary change of original history/metadata qualification order. Final candidate is owner whole; no model code adopted.",
+    "counter": "Whole source-plan rejected. Its proposed failure path bypassed an actual early return and was unreachable; other points restated supplied requirements. No new executable source finding adopted.",
+    "repair": "Owner used actual canonical journal and original material kind, preserved both original store/witness roles, and added the kind guard to the legacy FIRST accessor."
+  },
+  "verification": {
+    "one_changed_TU_first_compile_exit": 0,
+    "compile_reported_seconds": 3.3909788000164554,
+    "compile_UTC_wall_seconds": 3.390972,
+    "named_class_outputs": 30,
+    "input_pins_unchanged": true,
+    "compile_stdout_bytes": 0,
+    "compile_stderr_bytes": 0,
+    "pre_output_route_oracle": true,
+    "pure_Python_actual_bytecode_route_check": "Both historical readers reach the common comparison; only actual FIRST kind can reach the FIRST field write, and the legacy accessor reads actual binding material kind. Historical/restore calls are outside monitor-cleanup handlers; checked exceptions propagate.",
+    "new_JUnit_methods_RUN": 0,
+    "old_methods_reexecuted": 0,
+    "dynamic_private_restore_test": false
+  },
+  "cost": {
+    "marked_PREP_to_source_ready_wall_seconds": 419.801346,
+    "source_ready_to_compile_BEGIN_wall_seconds": 708.809783,
+    "marked_PREP_to_compile_END_wall_seconds": 1132.002101,
+    "marked_PREP_to_mature_delivery_wall_seconds": 1329.113855,
+    "compile_END_to_mature_delivery_wall_seconds": 197.111754,
+    "active_owner_seconds": null,
+    "earlier_source_discovery_and_failed_path_reads": "Precede marked preparation and remain unmeasured owner cost; not erased.",
+    "wall_notes": "HTTP requests overlap; source, owner repair, review, parser/oracle preparation, coordination and P0 resource waiting are counted as wall, not exclusive CPU."
+  },
+  "qualification_limits": [
+    "No fabricated private restore binding, issuer, Game permission or trivial factory fixture was used to claim a dynamic PASS.",
+    "The new ordinary route reaches an existing service-controlled independent readonly qualification window, with real IO/time cost. This is not zero-READ work in future runtime.",
+    "No actual Managed/Game restore, natural inheritance/multiscenario acceptance, saved outcome, loader acceptance or measured speed claimed.",
+    "Overall G2 remains OPEN at the last confirmed 6/8.",
+    "Formal publication and runtime adoption are pending at this immutable cutoff; later receipts must be separate annexes."
+  ]
+}

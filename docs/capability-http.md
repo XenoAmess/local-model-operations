@@ -1521,3 +1521,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [Publication 中间 payload copy 复用] [owner批准正文](evidence/2026-11-03-http-publication-intermediate-copy-reuse.json)：14whole/169512物理B，2logical/4actual，首对10054半流全弃后同请求自动retry，两完整STOP/VALID；与[有限reset调查](evidence/2026-11-03-http-synchronized-resets-limited-attribution.json)是同一批attempt，不重复模型分母。模型guided skeleton仅partial，owner修SHA qualifier、实际path、首错与finalref；counter只见原源/方案，错误不可能论自纠，不是candidate证明。两Document payload clones变一，fresh物理read/digest/cap/close/所有验证保留，未测净收益。owner新2methods首2P、6.7241916s processwall及1428.147959s已标子窗不当CPU/active，0Test HTTP/旧方法RUN。主文原formalpending保留；[独立后见正式](evidence/2026-11-03-http-publication-intermediate-copy-later-formal.json)记录58a9b900两叶，生产仅675CRLF→LF投影、Test rawexact/EOF保，0新验证/装载/速度。
+
+
+[Ordinary saved restore 接线400] [owner批准正文](evidence/2026-11-03-http-ordinary-saved-restore-kernel.json)：22whole/841111物理B，两STOP/JSON VALID、0retry，峰2仅56.671003s；两whole语义拒/0modelcode或新finding，owner接管两existing method。两concrete继承body输入gap后到分列，不掩盖齐全Optional声明上发明member及ordinary误写FIRST槽。首1TU0/30named outputs、3.3909788s及purePython实际route核对不是JUnit/privateManaged restore通过；新ordinary路径仍有既有独立只读资格窗成本。1329.113855s已标窗口/更早取源成本/activeUNKNOWN保留，G2仍6/8。主文pending不改；[后见正式tuple](evidence/2026-11-03-http-ordinary-saved-restore-later-formal.json)记录634fd6ee，组合formal whole独立/0新验证，不授实际restore、SAVED或速度。
