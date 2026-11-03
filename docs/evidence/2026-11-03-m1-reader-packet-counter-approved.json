@@ -1,0 +1,80 @@
+{
+  "schema": "local-model-capability.owner-approved-portable/v1",
+  "mode_id": "http_candidate",
+  "case": "reader-packet-copy-formal-base-counter",
+  "publication_permission": "Approve this sanitized metadata as a distinct new source-counter case. Raw code, requests, responses and private oracles remain local.",
+  "task": "Find a legal public DATA or MessageDigest-provider counterexample to reusing one privately cloned packet for its SHA and the immediately following length read, while preserving the current formal Reader's existing decoder APIs.",
+  "source": {
+    "whole_project_source_blocks": 21,
+    "additional_jdk_declarations": 4,
+    "per_source_metadata_records": 27,
+    "metadata_records_are_not_whole_source_or_class_count": true,
+    "source_message_utf8_bytes": 262036,
+    "actual_request_bytes": 276987,
+    "actual_request_exact_prepared_rev02": true,
+    "comparison_base": "Current formal source, with the previously published nominal overload preserved",
+    "actual_C_lineage": "Separately pinned older source; not silently treated as the comparison base",
+    "owner_proof_or_oracle_or_expected_matrix_supplied": false,
+    "candidate_supplied": true,
+    "design_blind": false
+  },
+  "parameters": {
+    "model_alias": "qwen38-coder",
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "max_tokens": 1800,
+    "read_timeout_seconds": 600,
+    "total_timeout_seconds": 2400,
+    "network": "explicit DIRECT, no proxy or redirect",
+    "caller_raw_sha256": "ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6",
+    "profile_raw_sha256": "97fb38b997dde3522f2310d06a229ab660db35f8bdc1a5d40eaa5c9e07e57e9a"
+  },
+  "transport": {
+    "logical_roles": 1,
+    "actual_posts": 1,
+    "retries": 0,
+    "post_begin_utc": "2026-11-03T11:54:56.408001+00:00",
+    "end_utc": "2026-11-03T11:55:05.702275+00:00",
+    "effective_content_ttft_seconds": 7.52193369998713,
+    "attempt_wall_seconds": 9.294392100011464,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "strict_outer_json": "VALID",
+    "reported_prompt_tokens": 57542,
+    "reported_completion_tokens": 273,
+    "cached_tokens": null,
+    "owner_active_seconds": null
+  },
+  "owner_review": {
+    "grade": "PARTIAL_SOURCE_OBSERVATION_NO_NEW_COUNTER_OR_CODE",
+    "partial_observation": "The packet getter returns a detached clone and the later read uses only its fixed array length.",
+    "rejected_generalization": "The response assumes a standard deterministic digest provider and says no callback or mutation is observed. The supplied JDK provider mechanism permits callbacks; that assumption does not close the requested public-provider boundary.",
+    "separate_owner_basis": "Both versions pass the first clone to SHA at the same point. Even a provider retaining or mutating that array cannot change its length; no content of it is read afterwards. Source-order and whole-file coupling checks are separate owner evidence, not a model finding.",
+    "new_model_algorithm_or_test_adoption": 0,
+    "candidate_origin": "Pre-existing offline owner hunk, mechanically applied to the new formal base; no model implementation used"
+  },
+  "preparation": {
+    "first_invalid_pack_dispatched": false,
+    "failure": "A PowerShell tuple/path construction attempted to read a directory; nonterminating error handling polluted the unsent source records.",
+    "repair": "Original invalid files isolated; a fresh rev02 package was rebuilt from actual files with terminating errors and explicit file assertions. Actual REQUEST exactly equals that rebuilt package.",
+    "business_or_java_failure": false
+  },
+  "candidate_at_cut": {
+    "status": "D_ONLY_UNCOMPILED_UNADOPTED",
+    "scope": "One body hunk; formal-base forward/inverse and all outside bytes preserved",
+    "selected_for_runtime_or_extra_reload": false,
+    "new_test_payload_or_pass": 0,
+    "actual_root_or_cache_hit_or_speed_credit": 0,
+    "hotspot_or_net_benefit": "UNKNOWN"
+  },
+  "read_discipline": "Completed STOP/DONE gate ran before CONTENT access; complete JSON parsed and the actual three-message REQUEST compared with prepared rev02.",
+  "limits": [
+    "Finite no-counterexample output is not a complete proof or PASS.",
+    "Allocation, GC and resource-exhaustion behavior need not be identical.",
+    "This is separate from the already published nominal overload and its tests; those passes are not repeated or credited here.",
+    "The other new private-token guard counter ended earlier. These two POST intervals did not overlap; no peak-two or sustained-pool claim is made.",
+    "No Java, test, Game, new query, deployment, source adoption or benchmark was performed for this candidate."
+  ]
+}
