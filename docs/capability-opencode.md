@@ -220,3 +220,6 @@ CLI367.1497915s、首记prepare→CLI161.102732s、reportedHTTPsum299.6922541s�
 
 
 - [Ready dispatcher native editing and owner recovery](evidence/2026-11-03-ready-dispatcher-native-and-first-source-canary.json): 38 real tool-mode POSTs, no generated Test; original SQL failure and repeated-edit refusal preserved. Owner corrected the module and wrote the Test; final selected source has four independent offline passes and one genuine source HTTP canary. Unlimited steps/session wall remain; no 60-HTTP or net labor saving claim.
+
+
+- [Isolated Dev harness native source stage](evidence/2026-11-03-opencode-isolated-dev-harness-source-stage.json): one session produced14 files over80 actual requests, but final source integration/lifecycle grade rejected the raw whole. No fixture was run. Client guard recovery, later input closure, owner repair, reported usage and1754.369s inclusive wall remain separate; net preparation saving and sustained60 are unproved.
