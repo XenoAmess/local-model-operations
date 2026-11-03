@@ -1,0 +1,62 @@
+{
+  "mode_id": "ordinary-three-message-http",
+  "unit": "Ops rolling-pool source parent; bounded observer component only",
+  "model_input": {
+    "whole_files": 11,
+    "physical_source_bytes": 153875,
+    "source_message_bytes": 158114,
+    "owner_contract_guided": true,
+    "owner_oracle_withheld": true,
+    "output_budget": 6000
+  },
+  "observer_role_actual": {
+    "POST": 6,
+    "END": 6,
+    "final_finish_reason": "length",
+    "final_SSE_DONE": true,
+    "final_effective_TTFT_ms": 231991.6596999974,
+    "final_attempt_total_ms": 512644.59359998,
+    "first_POST_UTC": "2026-11-03T07:25:07.672983Z",
+    "last_END_UTC": "2026-11-03T08:15:17.828504Z",
+    "grade": "Final length body entirely unread and discarded; no semantic grade, no model code adopted. Earlier transport attempts are not model semantic failures."
+  },
+  "owner_implementation": {
+    "module": "scripts/pool_observer.py",
+    "model_code_adopted": 0,
+    "scope": "Bounded pure reads of explicitly registered existing EVENTS.jsonl; never imports caller or reads REQUEST/SSE/CONTENT.",
+    "evidence_semantics": "Separate POST intervals, paired END, unpaired evidence, backoff, before-POST cancellation, headers, effective content TTFT, finish/DONE and syntax. No process/server liveness or semantic adoption claim.",
+    "ambiguous_or_missing_evidence": "UNKNOWN; duplicates/conflicts/out-of-order/partial final lines never manufacture active or peak totals.",
+    "global_cutoff": "Earliest individual read observation; reads non-atomic, client clock synchronization not verified. Half-open intervals aggregate equal END/BEGIN times without double count."
+  },
+  "verification": {
+    "new_independent_offline_tests_passed": 11,
+    "old_caller_test_suites_rerun": 0,
+    "existing_named_consumer_streams": 4,
+    "existing_POST": 18,
+    "existing_END": 18,
+    "existing_unpaired": 0,
+    "existing_selected_peak": 4,
+    "original_raw_unchanged": true,
+    "real_or_mock_network_requests_for_tests": 0,
+    "business_actions": 0
+  },
+  "cost": {
+    "owner_begin_marker_UTC": "2026-11-03T08:03:53.087965Z",
+    "owner_verification_observed_UTC": "2026-11-03T08:57:41.339925+00:00",
+    "intervening_work": "P0 routing and user maintenance readiness, actual terminal receipts, coordination and approved publication; marker-to-now is not active coding.",
+    "earlier_task_begin": null,
+    "owner_active_seconds": null,
+    "net_saving": null
+  },
+  "limits": "Observer only. No persistent dispatcher, lease manager, priority server slot, automatic refill, model acceptance or achieved sustained60 claim. No native OpenCode capability credited. Other Ops components remain separately reviewed/unimplemented.",
+  "source_pins": {
+    "scripts/pool_observer.py": {
+      "bytes": 14048,
+      "sha256": "bec757c283b91960fee157c19e86a513639325f1a563f70635a7c6a27f111a9e"
+    },
+    "tests/test_pool_observer.py": {
+      "bytes": 9283,
+      "sha256": "2595ff6932d586f23f78fefdb93bb0e649f7d35e1865c4920265215ce68b2e38"
+    }
+  }
+}

@@ -139,3 +139,20 @@ python scripts/opencode_config.py --executor config/executor.json --workspace D:
 
 
 用户后续明确指出局域网模型不应默认经过代理，因此DIRECT现已是共享入口和配置默认。消费项目更新caller/配置时显式记录来源；旧进程、旧frozen REQUEST/profile和Runtime副本不自动热切。仅旧HTTP测试的mock/loopback夹具显式选择environment以保留原验证范围，不代表业务默认仍走代理。默认修正新增3项无网络case与2项改变的配置/兼容case通过，未重旧全量绿；实际DIRECT首两请求仍600秒无headers超时，未证明应用服务恢复或代理唯一根因。[默认修正后见](evidence/2026-11-03-http-default-direct-routing-correction.json)。
+
+
+## 只读具名 HTTP 事件观察器
+
+[scripts/pool_observer.py](../scripts/pool_observer.py) 是纯离线观察器，只读明确给出的 EVENTS.jsonl，不导入 caller，也不读取 REQUEST、SSE 或候选正文。它不派发请求、不补位、不取消请求；目前不能作为持久 rolling dispatcher 使用。
+
+准备一个不超过64 KiB的 JSON 数组，每项明确给出唯一 `id` 与 `events_path`，例如：
+
+```json
+[{"id":"source-a","events_path":".local-model-evidence/source-a/EVENTS.jsonl"}]
+```
+
+然后运行 `python scripts/pool_observer.py registry.json`。相对事件路径按当前工作目录解释。每个文件默认最多读取1 MiB、5000行；最多256个具名流，不扫描目录。退出0表示事件证据完整可配对，退出2表示缺失、截断或冲突使汇总未知，均不授模型语义或采用许可。API为 `observe_stream(path)` 与 `observe_registry(records)`。
+
+报告按实际 POST_BEGIN／ATTEMPT_END 构造半开区间，单列退避、开始前取消、headers、有效内容TTFT、finish/DONE及语法元数据。同一时刻END与新BEGIN不双计。缺END只记未配对证据，进程是否仍存活、服务是否收到请求均UNKNOWN；不能据进程结束补造END。缺文件、重复、冲突、无时区、乱序或未完整换行的最后一行会令当前与峰值汇总UNKNOWN。全局区间截止于最早的逐文件观察时刻；读取非原子且未证明各机器时钟同步，不能用它宣称整个服务或未登记请求的状态。
+
+[本次来源与验证](evidence/2026-11-03-http-pool-observer-length-owner-implementation.json)：模型observer输出length整弃未读，owner独立实现；11个新无网络测试，另4份现成具名日志18POST/18END原件不改。其他dispatcher组件尚未交付，不把观察器发布当作持续60已实现。

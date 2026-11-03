@@ -1621,3 +1621,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 2026-11-03：[parent elements owner 全软件组](evidence/2026-11-03-http-parent-elements-known-lowers-owner-software.json)追加批准原字节正文；24POST/24END、六组为软件 console 组，全部 owner 代码，迟到完整模型只作后见 shadow，未读和 length 不授语义分级。M6 [transfer full 后见 formal](evidence/2026-11-03-http-transfer-full-later-formal.json)与 [move/swap 后见 formal 及有限源审](evidence/2026-11-03-http-transfer-move-swap-later-formal.json)保持原 pending/0decode 切点；同组测试和请求不重复计数，0新增验证/Runtime/速度。用户维修后的 source POST pause 继续，纯 Git 发表不解除业务优先窗。
+
+
+2026-11-03：[纯离线具名事件 observer](evidence/2026-11-03-http-pool-observer-length-owner-implementation.json)独立交付。原observer模型length整弃，owner实现/11个新测试及4份旧日志18对原样只读；不把缺END、backoff或已退出CLI补成实际HTTP，不授自动补位/持续60/语义采用。
