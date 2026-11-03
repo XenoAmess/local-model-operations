@@ -2020,3 +2020,8 @@ Both software receipts observed Windows CRLF from platform println. Earlier logi
 ## 2026-11-04：可迁移CLI与新Memory／whole-parent源切点
 
 [M4可迁移CLI base](evidence/2026-11-04-http-m4-portable-custody-base.json)分开5处原样模型文字替换、owner六场景（2个exit0／4个预期exit2）、记录器启动前失败与正式5leaf；后继main或boundary任务不混入该4POST分母。[M6 Memory262](evidence/2026-11-04-http-m6-generic-memory262-source.json)保两stop整稿拒收与owner先于POST的原Test，未持首次软件；[M2 whole-parent658](evidence/2026-11-04-http-m2-658-source.json)保length整弃、closure反审错误及owner四whole场景的源资格，派生oracle和live／log-only边界分列。各原pending切点、完整准备／协调墙钟和未知主动成本不回填，不授Runtime、Native硬件或速度。
+
+
+## 2026-11-04：同parent附页、原子投递与真实registry边界
+
+[M4后继附页](evidence/2026-11-04-http-m4-portable-custody-followup.json)在原base正文之外追加原样main贡献、length整弃和两项新增软件scope，不重复原4POST或六CLI。[运营边界](evidence/2026-11-04-rolling-intake-registry-boundaries.json)分开publisher七项首次软件、真实metadata CLI与后续HTTP，给出登记pool的84POST／78END／6实际未配END切点；全局source、Runtime及云智能体分别追踪。Registry九项首次软件与一次新源反审的两个真实POST另记：首owner启动器stdio失败完整保留，修后精确BEGIN／END配对且完整模型反例被拒。没有热切共享或Runtime caller，没有因发表新增请求或复跑。

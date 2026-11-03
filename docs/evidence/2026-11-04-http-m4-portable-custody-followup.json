@@ -1,0 +1,154 @@
+{
+  "schema": "custody-trace-portable-same-parent-followup-v1",
+  "approval": "M4 source owner approves this exact sanitized metadata document for public publication as a followup to the existing portable custody-trace case",
+  "parent": {
+    "base_product_commit": "20a4ec83be427f9193d3581cff7fc9c0cffef92c",
+    "base_public_evidence_commit": "e2ddaf61055bd7384f6f8a91cf8bc4847facbaa1",
+    "base_body_unchanged": true,
+    "accounting": "This annex adds two later model roles and two distinct later software scopes to the same case. It does not repeat the base four roles or the base six CLI cases, and does not create another model case from the same product."
+  },
+  "formal": {
+    "commit": "0a225d48801039edf935ba63a70cc0a855a45ea6",
+    "observed_utc": "2026-11-03T19:17:40.638280Z",
+    "normal_push_exit": 0,
+    "remote_head_equal": true,
+    "worktree_clean_at_receipt": true,
+    "payload": [
+      {
+        "file": "tools/custody-trace/test_custody_trace_portable_boundaries.py",
+        "bytes": 8843,
+        "sha256": "0a7fe3b38e0d8b8867245f7f78f39aa7a86738d8842e2bac58a6a866a895d403"
+      },
+      {
+        "file": "tools/custody-trace/default_producer_search_witness.py",
+        "bytes": 9382,
+        "sha256": "6d5c604640581adf69d41e1838e20e2553e88806b87c5d4bed1f87bf24924a65"
+      },
+      {
+        "file": "tools/custody-trace/README.md",
+        "bytes": 7184,
+        "sha256": "114b781f01afb1bc1ad3b51418829f1c52f3b9f4e6142aa4f9de61d426049544"
+      }
+    ],
+    "raw_python_contract": "Both new Python files were checked byte for byte through working tree, index and commit blobs with text conversion disabled. The base three Python files were unchanged. The README preserves the base text and appends the two later public entries.",
+    "publication_added_execution": 0
+  },
+  "new_model_roles": [
+    {
+      "role": "05_new_public_default_producer_search_witness_main",
+      "actual_post_begin_utc": "2026-11-03T18:15:37.486323Z",
+      "actual_end_utc": "2026-11-03T18:15:54.138120Z",
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "max_tokens": 2500,
+        "temperature": 0,
+        "enable_thinking": false,
+        "message_roles": ["system", "user", "user"]
+      },
+      "input_qualification": "Actual request contained all three complete current analyzer, pinned producer and original owner helper sources, followed by the exact task. Original oracle was not supplied.",
+      "attempts": 1,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "retry_count": 0,
+      "effective_content_ttft_ms": 5556.249700020999,
+      "request_total_ms": 16651.92990002106,
+      "prompt_tokens": 10181,
+      "completion_tokens": 703,
+      "cached_prompt_tokens_if_reported": null,
+      "adoption": "One decoded 57-line main function, 2495 Unicode characters, was adopted unchanged after complete source review. The original owner helpers and two attribution comment lines are separate owner work. No executable repair was made to the model main or the frozen helper behavior. This is a partial contribution to the 9382-byte witness, not model authorship of the complete artifact."
+    },
+    {
+      "role": "06_current_complete_default_witness_counter",
+      "actual_post_begin_utc": "2026-11-03T18:25:08.184264Z",
+      "actual_end_utc": "2026-11-03T18:25:26.340790Z",
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "max_tokens": 1500,
+        "temperature": 0,
+        "enable_thinking": false,
+        "message_roles": ["system", "user", "user"]
+      },
+      "input_qualification": "Actual request contained the complete current analyzer, pinned producer and complete new witness plus the exact counter task.",
+      "attempts": 1,
+      "http_status": 200,
+      "finish_reason": "length",
+      "sse_done": true,
+      "json_syntax": "UNKNOWN_NON_STOP_FINISH",
+      "retry_count": 0,
+      "effective_content_ttft_ms": 2270.782799983863,
+      "request_total_ms": 18156.302199990023,
+      "prompt_tokens": 10251,
+      "completion_tokens": 1500,
+      "cached_prompt_tokens_if_reported": null,
+      "adoption": "Whole output discarded. Partial content was not opened, continued, stitched or used for findings or a semantic PASS. The owner-selected output budget did not obtain a complete counter. This does not establish an API or model-semantic defect. Independent source review and actual first software results remain separate evidence."
+    }
+  ],
+  "software_firsts": {
+    "boundary": {
+      "outer_actual_utc": "2026-11-03T19:09:01.030314Z",
+      "outer_exit": 0,
+      "outer_process_wall_seconds": 0.9207098000042606,
+      "pid_birth_terminal_recorded": true,
+      "inputs_unchanged": 8,
+      "stdout_bytes": 0,
+      "stderr_bytes": 855,
+      "stderr_meaning": "Five distinct named Python unittest methods reported ok; Ran 5 tests and OK. Nonempty stderr is the expected unittest report, not silently omitted.",
+      "methods": [
+        "test_duplicate_json_precedes_bad_producer",
+        "test_extra_envelope_member_precedes_bad_producer",
+        "test_ninth_window_precedes_missing_input_and_producer",
+        "test_producer_sha_precedes_caps_and_control_reaches_caps",
+        "test_relative_paths_use_cwd_and_keep_selected_producer_spelling"
+      ],
+      "limit": "Six inner CLI calls are mapped from source. They do not have six independent start telemetry records and are not six additional outer firsts or JUnit results."
+    },
+    "default_search": {
+      "outer_actual_utc": "2026-11-03T19:09:07.937119Z",
+      "outer_exit": 0,
+      "outer_process_wall_seconds": 0.23812100000213832,
+      "pid_birth_terminal_recorded": true,
+      "inputs_unchanged": 4,
+      "stdout_bytes": 1594,
+      "stderr_bytes": 0,
+      "parsed_stdout_equal_recorded_observation": true,
+      "status": "DEFAULT_PRODUCER_MISSING_WITHOUT_CWD_FALLBACK_ASSERTED",
+      "inner_cli_started_completed": 1,
+      "inner_expected_exit": 2,
+      "inner_stdout_bytes": 0,
+      "inner_stderr_bytes": 244,
+      "behavior": "The public analyzer was invoked without an explicit producer, with its adjacent producer absent and a valid exact producer available only in a separate current directory. It rejected the missing adjacent producer, preserved the absent output, and did not use the current-directory producer.",
+      "limit": "The witness driver's own source-directory argument was explicit in this first execution. Its own omitted-source-directory branch is source-qualified only. This is distinct from the exercised analyzer default-producer behavior."
+    },
+    "additional_outer_process_wall_seconds_sum": 1.158830800006399,
+    "accounting": "Only these two new outer software scopes are added. The earlier installed-first six CLI cases, old three DATA cases and old sixteen vectors were not rerun. These are Python software checks, not JUnit, physical custody, Root authority or Runtime adoption."
+  },
+  "owner_cost_and_corrections": {
+    "default_witness_phase": {
+      "begin_utc": "2026-11-03T17:58:25Z",
+      "end_utc": "2026-11-03T18:23:32Z",
+      "wall_seconds": 1507,
+      "active_seconds": null,
+      "includes": "Helper qualification, schema correction, source review, integration, coordination and waiting. It is not exclusive labor or model time."
+    },
+    "actual_request_audit_wall_seconds": 85,
+    "documentation_v04_wall_seconds": 205,
+    "documentation_v05_wall_seconds": 105,
+    "all_exclusive_active_seconds": null,
+    "corrections": [
+      "A business manifest initially used object source entries and an old task key. It was corrected to the canonical string-array and task-path schema under the same execute token before the sole actual request; no second POST occurred.",
+      "An optional owner JavaScript metadata comparison hit its own stale-value guard. It launched no subprocess and changed no source; later independent request and source checks completed.",
+      "One owner metadata read initially guessed a missing result basename; the fixed reader failed without source execution or mutation. The exact recorded attempt result was then audited.",
+      "The README v04 overstated unconditional raw-log retention on bounded-capture failure. The owner v05 literal correction limits that guarantee to successful cleanup and log creation; cleanup or log-write failure can leave incomplete evidence. No witness behavior or expectation changed.",
+      "The formal writer's whitespace check rejected an existing blank line at EOF after staging. It preserved the explicitly required Python bytes and excluded only that EOF check for the invocation; no source edit, expectation edit, repository configuration change or rerun occurred. This is writer preparation cost."
+    ],
+    "timing_limit": "Preparation, review and documentation windows can overlap other work or waiting. Outer process wall is not compiler CPU, exclusive owner labor or net effort saved. No net gain estimate is established."
+  },
+  "limits": [
+    "No new HTTP or software execution was performed for this annex or publication.",
+    "No runtime configuration, Game action, live query, custody policy or physical validation was changed by this utility product.",
+    "No cache hit rate, reduced physical IO, actual native close behavior, other-platform result or performance improvement is established.",
+    "Private source, raw HTTP requests, endpoint, local evidence paths, execution tokens, raw logs and independent oracle materials remain private."
+  ]
+}
