@@ -1990,3 +1990,13 @@ Both software receipts observed Windows CRLF from platform println. Earlier logi
 [The277 source-stage record](evidence/2026-11-04-bare-error277-source-stage.json) separates one guided1809-byte assertion method from the owner host and rejects three invented rollback/resume findings. [The revised656 source cutoff](evidence/2026-11-04-dbdb80656-source-cutoff-rev02.json) preserves a wholly unread length implementation and a planned counter with no new oracle; only production first compile is observed there, with Test/RUN/formal pending. Both original cutoffs remain unchanged.
 
 [The655 software annex](evidence/2026-11-04-whole-transfer655-software-later.json) adds only three owner Test TUs and two whole-parent scenes, with coordination wall time separate from process time. [The650/651 minimal formal tuples](evidence/2026-11-04-protocol650-651-formal-later.json) reuse their original groups and preserve unknown raw projections and console-only evidence. These annexes add no HTTP or validation denominator.
+
+
+## 2026-11-04：新源任务与同案例后到回执
+
+以下仅追加各owner逐份批准的脱敏正文，保留原source/software/formal截止和UNKNOWN；后见不回写原pending，不新增旧测试或模型请求分母。源码采用、首次软件、正式发布与Runtime资格继续分层，准备和协调墙钟不归CPU或HTTP。
+
+- M3 277：[首次软件](evidence/2026-11-04-http-m3-277-software-later.json)、[后到正式](evidence/2026-11-04-http-m3-277-formal-later.json)。
+- 同案例正式附页：[M0 parsed-ending](evidence/2026-11-04-http-m0-parsed-ending-formal-later.json)、[M5 decimal108](evidence/2026-11-04-http-m5-decimal108-formal-later.json)，未重验或追授combined formal编译。
+- M3源切点：[278](evidence/2026-11-04-http-m3-278-source.json)、[279](evidence/2026-11-04-http-m3-279-source.json)、[280](evidence/2026-11-04-http-m3-280-source.json)、[281](evidence/2026-11-04-http-m3-281-source.json)、[281 direct](evidence/2026-11-04-http-m3-281-direct-source.json)、[282](evidence/2026-11-04-http-m3-282-source.json)、[283](evidence/2026-11-04-http-m3-283-source.json)。保方法raw与owner整Test、oracle可见等级、输入冲突、length整弃及并发观察勘误。
+- 另两源单元：[M6 generic childthrow259](evidence/2026-11-04-http-m6-generic-childthrow259-source.json)、[M2 657](evidence/2026-11-04-http-m2-657-source.json)。source-only切点不授后续Test、实机或性能。
