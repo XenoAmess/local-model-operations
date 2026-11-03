@@ -1,0 +1,66 @@
+{
+  "schema": "local-model-operations.explicit-direct-routing/v1",
+  "mode_id": "http-candidate",
+  "problem": "Default urllib routing may use an environment proxy for the specified LAN model endpoint. Current local proxy metadata did not bypass that target; live peer and historical root cause remain unproved.",
+  "owner_change": {
+    "network_transport": "optional explicit direct mode with exact host qualification, independent ProxyHandler({}) and redirect refusal",
+    "default_environment_compatibility": true,
+    "routing_metadata": [
+      "REQUEST-PREPARATION",
+      "POST_BEGIN",
+      "RESULT"
+    ],
+    "actual_peer": "UNKNOWN",
+    "request_or_retry_semantics_changed": false,
+    "global_environment_or_opener_changed": false,
+    "old_requests_profiles_or_runtime_changed": false,
+    "model_code_adopted": 0
+  },
+  "verification": {
+    "complete_owned_python_parse": 2,
+    "new_network_mock_tests_passed": 5,
+    "external_or_loopback_network_in_tests": 0,
+    "covers": [
+      "explicit proxy-disabled opener despite proxy environment",
+      "host or mode rejection before claim",
+      "redirect refusal",
+      "legacy environment opener unchanged",
+      "same immutable body across transport retry"
+    ],
+    "old_test_suites_rerun": false,
+    "projection": "after parse and focused witness, atomic source projection"
+  },
+  "first_network_consumer_cutoff": {
+    "distinct_real_unfinished_source_tasks": 2,
+    "roles": [
+      "candidate source counter",
+      "new offline witness source"
+    ],
+    "POST_begin_UTC": [
+      "2026-11-03T07:42:25.353535+00:00",
+      "2026-11-03T07:42:25.353576+00:00"
+    ],
+    "three_messages": true,
+    "source_message_bytes": 50862,
+    "max_tokens": [
+      2200,
+      3500
+    ],
+    "temperature": 0,
+    "thinking": false,
+    "json_object": true,
+    "include_usage": true,
+    "socket_read_seconds": 600,
+    "line_checked_total_seconds": 2400,
+    "observed_at_UTC": "2026-11-03T07:43:20.067667+00:00",
+    "headers_TTFT_finish_DONE_and_semantic_result": "NOT_YET_OBSERVED",
+    "strict_AB_claim": false,
+    "service_recovery_or_proxy_sole_cause_claim": false
+  },
+  "owner_cost": {
+    "full_preparation_start": null,
+    "active_owner_seconds": null,
+    "net_time_saved": null
+  },
+  "original_cutoffs_and_raw_evidence_preserved": true
+}

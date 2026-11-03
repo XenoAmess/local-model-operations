@@ -131,3 +131,8 @@ python scripts/opencode_config.py --executor config/executor.json --workspace D:
 
 
 新源码任务需要高并发有界等待时，可显式选择`--config config/source-high-concurrency.json`（read600/total2400），保留实际REQUEST、配置SHA与每次BEGIN/END。该完整投影只用于后继新任务，不更新已冻结/在途请求、耗尽同题或活跃业务caller；共享默认仍不变。具体时限并非独立总墙钟watchdog，见[并发和时限](concurrency-and-retries.md#新任务的显式高并发时限配置)。当前用户目标为60真实在途rolling，CLI启动、退避与已排队任务分别计；新工具源码候选尚须owner审阅及必要离线验收。
+
+
+后继新源码任务可显式选择`--config config/source-high-concurrency-direct.json`：同一endpoint/model/三消息与六次重试，read600/total2400，并使用独立`ProxyHandler({})`禁用该opener的环境代理。`network.proxy_mode=direct`必须提供与base_url hostname相等的`direct_host`，不带URL凭据/query/fragment；该模式拒绝所有redirect。未配置network或显式environment保留历史urllib环境路由，默认executor与旧profile不自动改变。REQUEST-PREPARATION、POST_BEGIN和RESULT记录所选network_routing，actual_peer仍UNKNOWN；选定直连策略不证明socket peer、服务健康或旧失败根因。
+
+直连选择在dispatch创建证据目录前校验，按owner候选完整parse和5项新无网络mock后原子投影。旧在途进程/REQUEST/重试body、Runtime与消费项目副本不改；只有未来新任务显式选新profile。真实两项未闭源码任务用于首网络验证，响应/语义另审，不能把离线mock当服务恢复。[源码、验证与当时切点](evidence/2026-11-03-http-explicit-direct-routing.json)。

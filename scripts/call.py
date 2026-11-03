@@ -18,6 +18,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
+import urllib.parse
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -145,8 +146,45 @@ def prepare_request(path, config):
     return request, original_system
 
 
+class NoModelRedirect(urllib.request.HTTPRedirectHandler):
+    """Explicit direct transport never follows an unqualified redirected target."""
+
+    def redirect_request(self, req, fp, code, msg, hdrs, newurl):
+        return None
+
+
+def network_transport(config):
+    """Choose a per-dispatch opener; never change environment/global urllib state.
+
+    Omitted routing retains historical environment-proxy behavior. Direct routing
+    must explicitly name the exact endpoint host, and refuses all redirects.
+    This records selected client policy, not measured remote socket peer.
+    """
+    network = config.get("network", {})
+    if not isinstance(network, dict):
+        raise ValueError("network must be an object")
+    mode = network.get("proxy_mode", "environment")
+    if mode == "environment":
+        return urllib.request.urlopen, {
+            "proxy_mode": "environment", "actual_peer": "UNKNOWN"}
+    if mode != "direct":
+        raise ValueError("Unsupported network proxy_mode")
+    url = urllib.parse.urlsplit(config["base_url"])
+    host = network.get("direct_host")
+    if (not isinstance(host, str) or not host or host != host.strip()
+            or host.lower() != url.hostname or url.scheme not in ("http", "https")
+            or url.username is not None or url.password is not None
+            or url.query or url.fragment):
+        raise ValueError("Direct routing requires exact qualified endpoint host")
+    opener = urllib.request.build_opener(urllib.request.ProxyHandler({}), NoModelRedirect())
+    return opener.open, {"proxy_mode": "direct", "target_host": url.hostname,
+                         "proxy_handler": "disabled", "redirects": "refused",
+                         "actual_peer": "UNKNOWN"}
+
+
 def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
     request, original_system = prepare_request(request_path, config)
+    open_response, routing = network_transport(config)
     out = Path(out).resolve()
     if out in (REPO_ROOT.resolve(), Path(__file__).resolve().parent):
         raise ValueError("Use a unique per-task evidence directory, not the repo/script root")
@@ -165,7 +203,8 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
         "input_path": str(Path(request_path).resolve()), "owner": owner,
         "machine_id": machine_id, "base_url": config["base_url"],
         "system_normalized_to_exact_config": original_system != request["messages"][0],
-        "original_system": original_system, "source_and_final_task_unchanged": True})
+        "original_system": original_system, "source_and_final_task_unchanged": True,
+        "network_routing": routing})
 
     def local_io(operation, action):
         try:
@@ -250,9 +289,9 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
                                          data=body, headers=headers)
             with raw_evidence(out / (prefix + '-RESPONSE.sse')) as raw:
                 emit("POST_BEGIN", attempt=attempt, request_path=str(out / "REQUEST.json"),
-                     max_tokens=request["max_tokens"])
+                     max_tokens=request["max_tokens"], network_routing=routing)
                 post_invoked = True
-                with urllib.request.urlopen(req, timeout=timeouts.get('read_seconds', 180)) as response:
+                with open_response(req, timeout=timeouts.get('read_seconds', 180)) as response:
                     headers_ms = (time.monotonic() - start) * 1000
                     status = response.status
                     save(prefix + "-HEADERS.json", {"http_status": status,
@@ -353,6 +392,7 @@ def dispatch(request_path, task_id, out, config, machine_id, owner, stop_file):
                   "content_path": str(out / (prefix + "-CONTENT.txt")) if content_saved else None,
                   "local_evidence_io_failure": local_evidence_io,
                   "post_invoked": post_invoked,
+                  "network_routing": routing,
                   "json_syntax": candidate_json_syntax(
                       "".join(content), complete_stream=complete_stream, finish=finish),
                   "candidate_complete": failure is None,

@@ -93,3 +93,10 @@ usage 可能在无有效 content 的 chunk 中出现，即使 `choices` 非空�
 600秒仍是socket读取超时；2400秒仍在收到SSE行后检查，并非严格独立watchdog，也不是整个六attempt任务总墙钟。较长有界等待不证明服务有容量或能满足业务deadline。业务优先pending准入、服务priority scheduling与硬保留执行slot是不同能力，未核实际部署policy时不盲传priority。
 
 [首个60窗口及源码工具任务](evidence/2026-11-03-http-rolling60-first-window.json)仅证明迟登记重建的短窗口；后见metrics与客户端未闭合数分别标时，不将无headers直接判为后端排队。
+
+
+## 显式客户端路由
+
+Python默认urllib可从当前环境代理表选择路由；局域网地址未进入bypass时，不能先验认定请求直达模型服务。新[direct源码profile](../config/source-high-concurrency-direct.json)仅为显式后继请求禁用该独立opener的代理并拒绝redirect，不更换endpoint，不修改全局环境/urllib opener或旧任务。历史environment模式保留；request/RESULT附加字段兼容原消费者，fixed3/SSE/finish/语法/采用/重试条件不变。
+
+代理选择、真实TCPpeer、服务可达与应用响应是分别的证据。默认代理存在加上无响应仅是具体可核线索；新直连无headers时同样保UNKNOWN，不从异时请求做严谨AB或归唯一根因。服务/Runtime实际caller仍由各owner控制，不为源码路由修复重发旧业务。

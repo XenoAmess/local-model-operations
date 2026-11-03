@@ -1594,3 +1594,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 2026-11-03：[rolling60首个短窗口及八个新工具源码任务](evidence/2026-11-03-http-rolling60-first-window.json)。用户目标已明确为60实际未结束请求；已重建37秒短窗峰61，持续维持尚未达到。八任务使用显式600/2400新profile，首同步reset后按原六attempt重试，尚无源码采用，不将客户端等待当后端queue。
+
+
+2026-11-03：[显式DIRECT客户端路由及首个真实源码切点](evidence/2026-11-03-http-explicit-direct-routing.json)。owner实现exacthost限定的独立无代理opener/拒redirect与附加路由元数据，5项新无网络mock通过后原子投影；两个真实未闭源码请求首POST已发生，当前headers/TTFT未见，不宣称代理solecause、服务恢复或模式净收益。旧caller环境模式、旧profile/在途body与Runtime副本不改。
