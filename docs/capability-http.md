@@ -2140,3 +2140,8 @@ M2[661/663后继owner源码](evidence/2026-11-04-http-m2-661663-owner-source-lat
 M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-counter783-later.json)27whole与实际三消息全文核等，1STOP30.0341264秒；模型混淆两个独立key族而推出不可达额外读取，整答拒、0源码/期待改、不R2求绿。[808新manual正式小附页](evidence/2026-11-04-http-m0-new-witness808-formal-later.json)只复用两newcase，0postvalidation；原三个请求source round与971/1623 cutoffs不回填。
 
 [Word265正式小tuple](evidence/2026-11-04-http-m6-word265-formal-later.json)只消费sole publisher历史8e372149两叶回执与原三个软件first，不新HTTP/编RUN或case；raw到formal投影在此最小tuple未持，finite三scene不授whole266/natural/Runtime/速度。
+
+
+## 2026-11-04：M3五阶段生产首次编译后见
+
+[六个new production TU首编](evidence/2026-11-04-http-m3-production-first-later323.json)：291/292、305、295、309、310REV02五阶段均strict0，实际32class输出；没有目标方法/FP操作/Test执行。约8.1649095秒只是五子进程之和，不是准备/等待/完整墙钟或提速。所有原source Ready/model请求/pendingcutoffs保原，310precompile transient维护不编造历史compilerRED；新manual各按必要first另验，不新增HTTP/模型case。
