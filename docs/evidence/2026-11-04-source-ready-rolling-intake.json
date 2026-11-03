@@ -1,0 +1,69 @@
+{
+  "schema": "local-model-operations/source-ready-rolling-intake/v1",
+  "mode_id": "http-candidate",
+  "scope": "Client-owned registered source tasks; direct callers, Runtime and other machines are outside this snapshot",
+  "operational_change": {
+    "intake_started_at_utc": "2026-11-03T18:15:35.679558Z",
+    "intake_source_bytes": 3821,
+    "intake_source_sha256": "6d5603c70aa814fc944f1b3941ab2e1939307babb37ced68b056ccb32b8e2625",
+    "sole_queue_writer": true,
+    "manual_registrars_retired_as_concurrent_writers": true,
+    "source_owner_publishes_unique_immutable_metadata": true,
+    "existing_canonical_prepare_request_frames_complete_ordered_files": true,
+    "existing_rolling_dispatcher_executes_registered_tasks": true,
+    "no_per_POST_ACK_required": true,
+    "queue_compare_before_replace_is_not_a_multiwriter_lock": true
+  },
+  "client_admission": {
+    "total_capacity": 60,
+    "runtime_reserve": 1,
+    "source_ceiling": 59,
+    "global_backend_capacity_or_hard_priority_proven": false,
+    "direct_callers_outside_registered_pool_covered": false
+  },
+  "actual_snapshot": {
+    "cut_utc": "2026-11-03T18:16:02.487958Z",
+    "registered_records": 32,
+    "actual_POST_BEGIN": 32,
+    "actual_ATTEMPT_END": 30,
+    "unpaired_POST_attempts": 2,
+    "both_unpaired_have_headers_and_first_content": true,
+    "registered_READY_without_POST": 0,
+    "registered_historical_interval_peak": 9,
+    "historical_peak_is_current_inflight": false,
+    "global_source_or_Runtime_inflight": null,
+    "server_running_waiting_and_socket_peer": null,
+    "cloud_running_agents": null,
+    "cloud_count_is_independent_metric": true
+  },
+  "first_automatic_intake_batch": {
+    "different_new_tasks": 4,
+    "actual_POSTs": 4,
+    "complete_stop_ENDs_by_snapshot": 2,
+    "unpaired_POSTs_by_snapshot": 2,
+    "preparation_or_CLI_counted_as_POST": false,
+    "model_code_or_software_acceptance_inferred": false
+  },
+  "owner_preparation_erratum": {
+    "failure": "An initial metadata frontend guessed sourceFiles where the frozen owner ledger uses sourcePrefix",
+    "result": "KeyError before the first intake file was written",
+    "model_HTTP_from_failed_frontend": 0,
+    "correction": "A new frontend validates the actual ledger keys and original pins; the failed frontend and owner inputs remain unchanged",
+    "coordination_delay_is_model_HTTP_or_CPU_time": false,
+    "exact_source_ready_to_BEGIN_delay_for_every_task": null,
+    "active_owner_labor_seconds": null,
+    "automation_retroactively_removes_prior_waiting": false
+  },
+  "environment_boundary": {
+    "older_persistent_dispatcher_child_environment_captured_per_task": false,
+    "source_descriptor_alone_proves_child_D_cache_environment": false,
+    "future_clean_starts_require_explicit_environment_evidence": true
+  },
+  "limits": [
+    "This cut does not establish sustained 60 HTTP requests or 60 running cloud workers",
+    "Client reservation does not establish a backend inference slot",
+    "Only original POST and matching attempt END establish request intervals; later cuts are separate records",
+    "Source review, software validation, formal publication and actual Runtime adoption remain separate",
+    "Runtime and annual-save work do not wait for model review, reporting or this publication"
+  ]
+}
