@@ -125,3 +125,6 @@ python scripts/opencode_config.py --executor config/executor.json --workspace D:
 已有原生记录可离线运行 `python scripts/audit_opencode_trace.py TRACE_DIR`，自动核 REQUEST 参数、工具 ID 配对、同参数/同结果重复、grep 顺序变化和 read 范围/显式字节 cap。默认不输出正文或业务路径，不重发 HTTP、不停止进程；格式与未知项见[只读日志审计器](opencode-trace-audit.md)。
 
 已有普通三消息 HTTP 证据使用 `python scripts/audit_http_evidence.py EVIDENCE_DIR` 的[离线审计入口](http-evidence-audit.md)。它按固定文件名和显式读取界限核实际参数/消息 SHA、逐 attempt 的 finish/DONE、外层 JSON 语法及记录的 TTFT/总耗时；缺失为 UNKNOWN，冲突与原始行尾差异单列。外层 JSON 有效、STOP、语义完整和 owner 采纳分别记录；不再按肉眼看到的末句判断 JSON 格式，也不把有效 JSON 当分析正确。默认无 raw 正文/业务路径，不重发或执行任何请求。
+
+
+宿主只有shell本地读入口时，每个read exec cell先定义本机已核的固定reader/显式解释器argv前缀，数据路径只作参数。构造后执行前强核首token、完整前缀、总长度、data槽和有限range完全相等，拒绝shell字符及工具尚不支持的引用形式；不得再用raw命令或覆写cmd绕过检查。授权helper/Git另构造，不把JSON/MD/PY数据路径当执行入口。这个[本机构造及负例记录](evidence/2026-11-03-owner-read-command-prefix-guard.json)只说明19个不合法构造未启动进程及一次JSON正确打印，不是跨机shell安全框架/业务审批。

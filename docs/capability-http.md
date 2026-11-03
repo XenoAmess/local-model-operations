@@ -1542,3 +1542,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [Full represented entry / observable epilogue636] [owner批准正文](evidence/2026-11-03-http-full-represented-entry-epilogue.json)：14实体52810物理B，三R1+API/epilogue各唯一R2共5STOP/0retry，峰3仅14.399333s、后峰2仅14.034998s。API漏明示Memory源审拒0compile后补一hunk，5658B正逆exact；小32B epilogue补四hunk使Memory观察时public Registers EAX即时更新，2625B正逆exact/0ownerexec。R1whole最终RAX可正确，不造实际whole RED；owner3854B全编排/11204B四组Test分开归属。baseline outline prePOST/full baseline afterEND-prefirstCONTENT，额外RAX observer在R1 CONTENT后sidecar，不称生成盲。原43条owner计数勘误为完整46条，不改source/请求或补POST。Native三first0/stdout4，1.3799788s processwall/1403.951204s仅lateclock下界/activeUNKNOWN，正式原pending；不授真实Native172同instance16+4、完整194200/COPY或322whole。
+
+
+[Owner 只读命令强prefix构造](evidence/2026-11-03-owner-read-command-prefix-guard.json)是宿主工具改进，不新增HTTP/native模型或软件Test分母：本岗一次JSON误交Python的NameError原保，后继每read cell从固定reader前缀+data/range构造并在exec前逐token EXACT核首token/完整prefix/长度/data槽；未知引用/shell字符拒绝，helper/Git另构造。12路径+4range+3prefix坏构造均0进程拒，合法JSON true按data打印exit0；只本机无空格形式有限实核，跨机不硬编码盘符/解释器。没有新共享可执行框架、caller/config/业务改动，不猜历史association/UI影响，不扫描/杀进程或补动作；owner active/净省工未知。

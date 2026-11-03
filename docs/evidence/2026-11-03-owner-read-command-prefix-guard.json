@@ -1,0 +1,43 @@
+{
+  "schema": "local-model-operations.owner-command-improvement/v1",
+  "permission": "Root requested an actual per-cell mechanical improvement. Only Models own command error and construction witness are summarized; other owner raw incidents and all machine paths remain private.",
+  "mode": "Host owner read-command construction, no new model capability or software-Test case",
+  "problem": "Own data-reading command accidentally supplied a JSON file as the explicit Python script. NameError at the JSON true literal was an owner command error, not a JSON syntax/model-service/source/Test failure. Original evidence remains unchanged.",
+  "mechanism": [
+    "Define a trusted interpreter/readonly-reader argv prefix at the start of every read exec cell; data cannot choose that prefix.",
+    "Construct only from that fixed prefix, a separately validated absolute data path and finite integer range. Do not accept arbitrary raw shell text.",
+    "Before exec, require the final first token, every prefix token, total token count, data slot and range to equal the expected construction exactly; do not override cmd after this check.",
+    "Reject shell metacharacters and unsupported quoting/path forms before launching any process. This exact local no-space form rejects spaces and traversal rather than guessing shell escaping.",
+    "Authorized helper execution and Git use separate explicit constructions; file extensions never route a read into execution."
+  ],
+  "actual_new_witness": {
+    "valid_JSON_data_read_processes": 1,
+    "valid_read_exit": 0,
+    "JSON_true_printed_as_data": true,
+    "path_constructor_rejections": 12,
+    "range_constructor_rejections": 4,
+    "first_token_full_prefix_or_suffix_rejections": 3,
+    "negative_process_launches": 0,
+    "range_max_lines_in_this_constructor": 300,
+    "location": "Host JavaScript construction cell; no new repository executable or test framework"
+  },
+  "qualification_limits": [
+    "Only this locally exercised constructor and its known readonly helper; not universal shell quoting, a sandbox or proof against a caller bypassing the construction.",
+    "Cross-machine instructions specify the invariant, not a fixed drive, interpreter or helper path; each machine validates its own prefix and supported quoting.",
+    "Historical unknown association/dispatch/UI effects remain unknown. No scan, kill, rollback, authority change or business replay is justified by this guard.",
+    "The original owner error is retained. A later correctly printed file does not retrospectively make the earlier command correct."
+  ],
+  "operations": {
+    "new_chat_POSTs": 0,
+    "JVM_or_Game_actions": 0,
+    "old_tests_rerun": 0,
+    "caller_config_or_Runtime_changes": 0,
+    "shared_executable_files_added": 0
+  },
+  "cost": {
+    "owner_active_seconds": null,
+    "full_task_start": null,
+    "net_saving": "UNPROVEN",
+    "work": "Actual per-cell constructor used for reading, malformed constructions rejected before exec, and a local copyable prelude supplied to collaborating owners. Not a new approval gate."
+  }
+}
