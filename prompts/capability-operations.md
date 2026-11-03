@@ -81,3 +81,5 @@ Windows host读源必须在每个read exec cell开头定义并复用本机已核
 共享 caller 的改动先在 owner 候选完成完整 parse 与必要窄 witness，再显式原子投影至共享 checkout，避免正在并发启动的消费者读到半编辑版本；这不增加逐 POST 审批或全量旧测试门。新 CONTENT 按拼接后 SSE 文本的 UTF-8 原字节保存，不经 Windows newline=None；历史原件/严格 auditor 不改，原样与 LF 投影不混。消费项目 caller/Runtime 配置由其唯一 owner 在实际空窗另行明确同步，共享 Git 不自动热切。准备语法错误、源码行尾投影和实际影响未知项都归 owner 工具链成本，不计作本地模型 HTTP 失败或语义错误。
 
 消费普通HTTP结果时先读取新 RESULT.json_syntax 或对完整原件运行离线机器审计，再命名语法错误。外层VALID而语义自反、自然语言未完或错误源码事实应记语义问题，禁止靠肉眼尾部把它重标malformed。json_syntax只在完整stop/DONE并有限字节内报告，length/partial/超限为UNKNOWN；旧RESULT缺字段不重POST。legacy candidate_complete或退出0不覆盖严格syntax/owner审阅，尤其原有NaN接受行为未随元数据补丁改动。按独占候选parse+必要窄witness通过后原子投影共享caller；不自动切私有业务副本。
+
+同步10054或近似十分钟相位只能触发有界只读调查：先按已具名EVENTS配对每次POST/END与模型-only retry，失败半流原件保管不拼接；宿主capacity turn错误与真实HTTP异常分列。读当前配置/已知维护缓存来源，不泛扫其它进程、timer或业务原件；已知只读health一次样本与服务running/waiting/uptime另标时，缺失仍UNKNOWN。少数相位/后见health200不授timer、restart、OOM或模型根因，不自动改配置/服务/重发chat，不把Ops调查设源/P0前置。既有角色attempt只交叉索引，不重复模型case/调用/Test分母。

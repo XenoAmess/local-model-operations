@@ -1,0 +1,161 @@
+{
+  "schema": "local-model-operations.transport-observation-annex/v1",
+  "permission": "Root authorized a bounded readonly investigation and sanitized long-term summary. Only abstract transport/config/maintenance metadata; raw source, request, response, business identities and machine paths remain local.",
+  "mode": "Ordinary HTTP transport followup across existing source cohorts; no new model capability case or source/Test denominator",
+  "observed_at_utc": "2026-11-03T05:17:24.800021+00:00",
+  "coverage": "Exactly six previously named local event streams, three selected pairs; not a global failure census",
+  "observed_counts": {
+    "existing_logical_source_roles": 6,
+    "existing_actual_POSTs": 12,
+    "first_attempt_connection_reset_10054": 6,
+    "automatic_model_only_retries": 6,
+    "final_stop_DONE": 6,
+    "new_chat_POSTs_by_this_audit": 0,
+    "new_known_health_GETs": 1,
+    "new_metrics_GETs": 0,
+    "new_Game_JVM_Test_or_service_change": 0
+  },
+  "attempts": [
+    {
+      "group": 1,
+      "role": 1,
+      "max_tokens": 3000,
+      "first_POST_UTC": "2026-11-03T03:45:18.864634+00:00",
+      "reset_ATTEMPT_END_UTC": "2026-11-03T03:45:44.729475+00:00",
+      "first_attempt_ms": 25864.752199995564,
+      "HTTP_before_reset": 200,
+      "content_TTFT_before_reset_ms": 24241.56729999231,
+      "automatic_backoff_seconds": 10.286233389425213,
+      "retry_POST_UTC": "2026-11-03T03:45:55.017520+00:00",
+      "retry_STOP_END_UTC": "2026-11-03T03:46:02.303111+00:00"
+    },
+    {
+      "group": 1,
+      "role": 2,
+      "max_tokens": 1800,
+      "first_POST_UTC": "2026-11-03T03:45:29.034100+00:00",
+      "reset_ATTEMPT_END_UTC": "2026-11-03T03:45:44.728354+00:00",
+      "first_attempt_ms": 15694.070100027602,
+      "HTTP_before_reset": "UNKNOWN",
+      "content_TTFT_before_reset_ms": "UNKNOWN",
+      "automatic_backoff_seconds": 9.858445272884225,
+      "retry_POST_UTC": "2026-11-03T03:45:54.588591+00:00",
+      "retry_STOP_END_UTC": "2026-11-03T03:46:01.695255+00:00"
+    },
+    {
+      "group": 2,
+      "role": 1,
+      "max_tokens": 2500,
+      "first_POST_UTC": "2026-11-03T04:55:34.387259+00:00",
+      "reset_ATTEMPT_END_UTC": "2026-11-03T04:55:44.748650+00:00",
+      "first_attempt_ms": 10361.330699990503,
+      "HTTP_before_reset": 200,
+      "content_TTFT_before_reset_ms": 8635.329899989301,
+      "automatic_backoff_seconds": 10.887838700140575,
+      "retry_POST_UTC": "2026-11-03T04:55:55.637942+00:00",
+      "retry_STOP_END_UTC": "2026-11-03T04:56:03.611261+00:00"
+    },
+    {
+      "group": 2,
+      "role": 2,
+      "max_tokens": 2100,
+      "first_POST_UTC": "2026-11-03T04:55:34.395769+00:00",
+      "reset_ATTEMPT_END_UTC": "2026-11-03T04:55:44.747869+00:00",
+      "first_attempt_ms": 10351.921399997082,
+      "HTTP_before_reset": 200,
+      "content_TTFT_before_reset_ms": 9792.141199985053,
+      "automatic_backoff_seconds": 11.92629426626758,
+      "retry_POST_UTC": "2026-11-03T04:55:56.675918+00:00",
+      "retry_STOP_END_UTC": "2026-11-03T04:56:10.861804+00:00"
+    },
+    {
+      "group": 3,
+      "role": 1,
+      "max_tokens": 7000,
+      "first_POST_UTC": "2026-11-03T05:05:23.590411+00:00",
+      "reset_ATTEMPT_END_UTC": "2026-11-03T05:05:44.745009+00:00",
+      "first_attempt_ms": 21154.255200002808,
+      "HTTP_before_reset": 200,
+      "content_TTFT_before_reset_ms": 17058.497099991655,
+      "automatic_backoff_seconds": 9.098480672284921,
+      "retry_POST_UTC": "2026-11-03T05:05:53.845702+00:00",
+      "retry_STOP_END_UTC": "2026-11-03T05:06:14.859025+00:00"
+    },
+    {
+      "group": 3,
+      "role": 2,
+      "max_tokens": 5000,
+      "first_POST_UTC": "2026-11-03T05:05:23.590127+00:00",
+      "reset_ATTEMPT_END_UTC": "2026-11-03T05:05:44.745355+00:00",
+      "first_attempt_ms": 21154.962200002046,
+      "HTTP_before_reset": 200,
+      "content_TTFT_before_reset_ms": 18811.14959999104,
+      "automatic_backoff_seconds": 10.195200255532287,
+      "retry_POST_UTC": "2026-11-03T05:05:54.942399+00:00",
+      "retry_STOP_END_UTC": "2026-11-03T05:06:11.021846+00:00"
+    }
+  ],
+  "pair_client_END_spread_ms": [
+    1.121,
+    0.781,
+    0.346
+  ],
+  "last_two_groups_same_role_END_separation_seconds": [
+    599.996359,
+    599.997486
+  ],
+  "earlier_to_middle_groups_same_role_END_separation_seconds": [
+    4200.019175,
+    4200.019515
+  ],
+  "interpretation": {
+    "root_cause": "UNKNOWN",
+    "timing": "Selected client END records fall close to the same ten-minute phase. Records are client observation times, not upstream packet capture; three selected groups do not establish a universal period or identify a timer.",
+    "retry_scope": "Each role retains the same task REQUEST path and canonical caller creates immutable body before its retry loop. Events explicitly label model_HTTP_only; this is not per-attempt wire-body capture or evidence the server generated only once.",
+    "partial_policy": "Failed attempts remain separate and are not concatenated or adopted. In the two newer groups automatic syntax is UNKNOWN/INCOMPLETE_STREAM then VALID after complete retry; older RESULT without the field is not backfilled.",
+    "syntax_vs_semantics": "Final STOP/DONE or VALID does not grant semantic correctness, source adoption or business success. Source owners continue independently."
+  },
+  "current_local_configuration": {
+    "timeouts": {
+      "read_seconds": 180,
+      "total_seconds": 900
+    },
+    "maximum_attempts_including_first": 6,
+    "review_scope": "Current shared caller/config only, not a proof of every external client or proxy effective timeout. No 600-second background timer exists in these reviewed paths; durations differ from the configured 180/900-second limits."
+  },
+  "known_local_client_maintenance": {
+    "mechanism": "Synchronous task-entry local-date cache, not a scheduled periodic wakeup; no checker executed by this audit",
+    "stored_check_UTC": "2026-11-02T16:02:20.176650+00:00",
+    "stored_version": "1.19.5",
+    "updated_in_stored_check": false,
+    "known_check_command_records_during_reset_window": 0,
+    "limits": "Only this known cache/log/source; other local schedulers and remote service/gateway/OS maintenance UNKNOWN, not enumerated."
+  },
+  "single_later_health_sample": {
+    "UTC": "2026-11-03T05:12:05.994309+00:00",
+    "path": "/health",
+    "source": "Existing same-service documented endpoint; no route discovery or redirects",
+    "HTTP_status": 200,
+    "response_bytes": 0,
+    "read_cap_bytes": 4096,
+    "elapsed_ms": 12.1596000099089,
+    "running": "UNKNOWN",
+    "waiting": "UNKNOWN",
+    "uptime": "UNKNOWN",
+    "limit": "Later health200 with empty body proves only that sample. No previous uptime, restart absence, server queue or OOM diagnosis is inferred; no /metrics route guessed."
+  },
+  "disposition": "LIMITED_UNATTRIBUTED. Preserve exact attempts and continue real source work; no caller/config/service modification or artificial chat was justified.",
+  "owner_cost": {
+    "total_task_wall_seconds": null,
+    "active_seconds": null,
+    "review": "Bounded existing logs/config/cache/docs and one authorized health sample only; no tests or process/task scans",
+    "net_saving": "UNPROVEN"
+  },
+  "evidence": [
+    {
+      "name": "PRIVATE-CORRELATION.json",
+      "bytes": 11209,
+      "sha256": "e0eec42eec5287abf4de15297f3e3e7c3ff53b5be24fbd5a8e3b231243e1acee"
+    }
+  ]
+}

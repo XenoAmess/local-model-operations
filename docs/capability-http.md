@@ -1515,3 +1515,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [同次双 positive-growth 软件组合634] [批准正文](evidence/2026-11-03-http-dual-positive-growth-software-composition.json)：三POST/三STOP/峰2仅9.372718s，R1齐输入却名义Calls类型/路由错，源审整拒0编；唯一R2完整2248B raw/0owner Java，强signature/成熟upper路由提示明确。三个自动syntax VALID/object只是语法，audit未看candidate/0oracle。owner10913B Test三新whole组在R1END后CONTENT前冻；三首0/stdout3、1.2266728s process与560.909974s已知下界分开/activeNULL，正式原pending。实际Native同instance positive16+4仍GAP；COPY/allocator/free为有限controlled ports，不授OS/DF-MXCSR/fullframe/运行或速度。
+
+
+[同步 reset 只读归因附页] [批准脱敏摘要](evidence/2026-11-03-http-synchronized-resets-limited-attribution.json)核六个既有角色/12actual attempts：三对10054 END近同十分钟相位，最近两组同role间隔599.996359/599.997486s；只是客户端时间相关，根因UNKNOWN，不授服务timer/重启/模型/OOM。各原模型REQUEST自动retry后STOP，半流不拼/旧元数据不补；不增加sourcecase/POST/Test分母。当前180/900配置和任务入口daily-cache未见对应timer，一次已知/health GET200/0B只属后见，running/waiting/uptime UNKNOWN。0新chat或配置/服务修改，不门源码与P0。

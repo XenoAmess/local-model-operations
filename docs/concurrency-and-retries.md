@@ -77,3 +77,10 @@
 usage 可能在无有效 content 的 chunk 中出现，即使 `choices` 非空也应保存。cached 字段缺失或为 null 时保持未知；明确报告0与未报告不同。不从耗时、输入字节数、context宣告或相邻请求推算缓存命中、内部 thinking 模式或吞吐收益。
 
 每次保留实际 REQUEST、BEGIN/END、headers、原始SSE、候选正文、usage与错误，再由 owner 另记源审、编译、行为和采用。机器证据默认留在执行环境；公开仓库发布规则、脱敏摘要与固定版本反链，不上传原始私有请求或业务账本。
+
+
+## 同步连接 reset 的有限调查
+
+多个角色接近同一UTC报10054时，先按各自EVENTS核实际POST、headers/content、END、finish/DONE和retry.scope，区分传输异常与宿主协作模型capacity/turn中断。客户端END时间不是上游包时间；少量近似固定间隔只是相关线索，不能命名服务timer、模型故障、重启或OOM根因。
+
+只读现有配置和已知维护来源，明确覆盖范围。当前每日检查是任务入口缓存，不是周期唤醒器；这不排除别处的OS、代理或远端服务任务。已有明确只读health/metrics路由才作有界、带时间的采样；health200不证明历史健康/uptime，未报告的running/waiting/uptime保持UNKNOWN。不猜路由、不发示例chat、不重放业务、不因猜测调大超时或重启服务。根因未证时保UNKNOWN，源owner继续真实工作。见[三对同步reset有限记录](evidence/2026-11-03-http-synchronized-resets-limited-attribution.json)。
