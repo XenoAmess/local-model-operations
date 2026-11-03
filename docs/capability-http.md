@@ -1668,3 +1668,10 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 [八个新反审角色](evidence/2026-11-03-http-local-data-reuse-first-eight-counters.json)各一次真实 POST，7 个 STOP 的外层 JSON 机器有效并完成语义审，1 个 length 整弃未读；峰8仅159.240884秒，union184.170504秒。所有候选先于模型答复，有限正确观察不追认模型算法或代码采用；开放数值子类、树所有权、真实 scope 与历史数字预算仍逐源判定。实际参数与准备误差分列，不从排队或 STOP 授语义通过。
 
 [既有边界见证的正式后见](evidence/2026-11-03-offline-transfer-boundary-later-formal.json)只追加三 blob 独核及两处 Javadoc 投影，复用原6场景448检查，原2553B正文 pending 保留，不新增API或测试分母。[两条 archived callback 源反审后见](evidence/2026-11-03-http-archived-callback-source-review-later.json)仅有限已持导航；按实际9次 POST/7次传输 reset 计，0 whole/code/new finding，环境代理旧 profile 不冒 DIRECT 或网络根因。
+
+
+## 后到：lease事务与不确定状态的实际反例
+
+[两项真实源码后继与owner lease实现](evidence/2026-11-03-http-pool-leases-owner-transaction-boundaries.json)：同6份完整当前代码/配置加合同，实际message2每份67979B；2POST/2STOP/DONE/strictVALID、0retry，预算6500/3000。模型5edit修订AST有效但四个独立临时数据库反例实际成立：source吃满未来Runtime位、确认无POST仍占UNKNOWN、同DB不同capacity可增发、bool时间被接纳；whole拒/0code。dispatcher反审只有限源码观察，六次顺序retry不代表六同时HTTP，旧已知claim问题不冒新发现。
+
+Owner独立SQLite库经8项新无网络测试，包括12进程原子争3个source位再授1个Runtime位；配置与tombstone持久、UNKNOWN不自动释放、既有token不授newly_acquired。0旧绿重跑/0caller或Runtime改动；测试0.6539948s是窄processwall，完整准备与active工时UNKNOWN。该库不是完整rolling dispatcher，也不保证后端推理slot、持续60或净省工。

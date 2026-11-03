@@ -165,3 +165,12 @@ python scripts/opencode_config.py --executor config/executor.json --workspace D:
 先选择待派runtime，再按source owner轮转，保各owner内部顺序；last_owner之后的owner先取。两lane共用一个剩余容量预算，默认source最多59个客户端准入保留，即使runtime当前未排队也留一个未来位置。已有runtime占用此位置，不再重复扣除。现有超容量只报告并停止新增，不取消已POST请求或改原deadline。
 
 这些占用数是集成方提供的客户端准入保留，不是事件观察器的实际HTTP数。纯函数也不是跨进程锁；真正派发仍需独立原子lease/claim与Runtime owner显式接线。它不保证服务执行slot、抢占或业务延迟。[独立验证记录](evidence/2026-11-03-http-pool-admission-owner-capacity-fairness.json)保模型三项反例与owner7个新离线测试/384种有限容量组合，不重跑旧caller测试。
+
+
+## 持久客户端准入 lease
+
+[scripts/pool_leases.py](../scripts/pool_leases.py)提供`LeaseStore(absolute_db_path, capacity=60, reserve_runtime=1, max_records=10000)`。使用专用本机 SQLite 数据库与已存在父目录；共享同一数据库的进程由`BEGIN IMMEDIATE`串行核容量，持久配置不一致即拒绝。模块不发HTTP、不启动或停止进程，不自动接入caller或Runtime。
+
+`acquire(token, owner, lane="source", now=..., ttl=...)`返回`LeaseDecision`；只有`newly_acquired is True`代表新准入。相同owner/lane的ACTIVE token只返回EXISTING且不续TTL；bool(decision)会拒绝，避免把幂等结果当第二次派发。到期转UNKNOWN仍占容量，不能重取；`mark_unknown`记录不确定启动。`release(..., verified_no_live_post=True)`仅接受owner对已无实际POST的明确断言，模块本身不能验证此事实。RELEASED token永久留在有限历史中，不再新准入；满历史显式报`LeaseStoreFull`，不清墓碑绕过once。
+
+所有source准入都保留未来Runtime位置，不需先排一个Runtime任务。`get(token)`返回单条有限metadata；`snapshot(now=...)`只给聚合数量并标记CLIENT_ADMISSION_ONLY。时间是integrator输入，不是网络观测；容量不等同实际POST区间、后端slot、服务priority或抢占。持久logical-task claim、准确事件观察及一次派发仍需后续dispatcher显式组合。[本次源码、模型反例与8项新离线验证](evidence/2026-11-03-http-pool-leases-owner-transaction-boundaries.json)不授持续60或实际业务收益。

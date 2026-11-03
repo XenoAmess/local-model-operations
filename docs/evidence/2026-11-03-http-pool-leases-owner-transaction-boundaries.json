@@ -1,0 +1,134 @@
+{
+  "schema": "http-capability-client-admission-leases-owner-implementation/v1",
+  "mode_id": "ordinary-http-candidate",
+  "model": "qwen38-coder",
+  "relation": "Two new finite correction/candidate-review roles after the original eight-component cohort. Original history remains separate; no old terminal role was reopened.",
+  "input": {
+    "whole_source_or_config_files": 6,
+    "physical_file_bytes": 65311,
+    "additional_input": "one explicit current contract",
+    "source_message_utf8_bytes_each": 67979,
+    "independent_counter_had_actual_dispatcher_candidate": true
+  },
+  "attempts": [
+    {
+      "total_ms": 42718.14270000323,
+      "first_nonempty_content_delta_ms": 4088.5343000118155,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 15682,
+        "completion_tokens": 4628,
+        "total_tokens": 20310
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "role": "lease-correction-r2",
+      "max_tokens": 6500,
+      "request_sha256": "fb21e03c6c9e1e581ce836ece10156976a502730295d4556f7e9f65be130c453",
+      "three_message_request_reconstruction_exact": true,
+      "actual_POST_BEGIN": "2026-11-03T09:29:13.064460+00:00",
+      "actual_END": "2026-11-03T09:29:55.782753+00:00",
+      "source_message_utf8_bytes": 67979,
+      "source_message_sha256": "356f67a84d35c95840fce63013f1d5f537e2100b1876fe665eb27d6da726a079",
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "syntax": "VALID",
+      "model_code_adopted": 0
+    },
+    {
+      "total_ms": 25185.458899999503,
+      "first_nonempty_content_delta_ms": 4359.958799992455,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 15691,
+        "completion_tokens": 1780,
+        "total_tokens": 17471
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "role": "dispatcher-actual-candidate-counter",
+      "max_tokens": 3000,
+      "request_sha256": "b3da60bf542383b135560d75a1bbb2ccd4b75cb57497765558d3b18cd2726921",
+      "three_message_request_reconstruction_exact": true,
+      "actual_POST_BEGIN": "2026-11-03T09:29:13.084075+00:00",
+      "actual_END": "2026-11-03T09:29:38.269591+00:00",
+      "source_message_utf8_bytes": 67979,
+      "source_message_sha256": "356f67a84d35c95840fce63013f1d5f537e2100b1876fe665eb27d6da726a079",
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "syntax": "VALID",
+      "model_code_adopted": 0
+    }
+  ],
+  "actual_POSTs": 2,
+  "actual_ENDs": 2,
+  "transport_retries": 0,
+  "model_grades": {
+    "lease_correction": "Whole five-edit reconstructed candidate rejected; AST valid is not protocol validity.",
+    "dispatcher_counter": "Partial source observation only. Deleted claims are a real already-owner-known issue; no new whole-answer acceptance.",
+    "rejected_counter_assertions": [
+      "Six sequential caller attempts do not make six simultaneous HTTP requests per process.",
+      "A sleeping loop is not proved to be a busy-spin, and a surviving persistent claim prevents the alleged unconditional restart trace."
+    ],
+    "all_model_code_adoptions": 0
+  },
+  "isolated_reviewed_model_R2_counterexamples": {
+    "ordinary_source_takes_both_places_before_runtime_exists": [
+      true,
+      true
+    ],
+    "confirmed_no_live_post_still_occupied": 2,
+    "same_database_different_capacity_admits_another_source": true,
+    "bool_now_ttl_accepted": true
+  },
+  "owner_implementation": {
+    "files": {
+      "scripts/pool_leases.py": {
+        "bytes": 8314,
+        "sha256": "b05a45a28a36a119462f26fbe9b9b2319f427046c9e3ce8dd50c7889c84e7a89"
+      },
+      "tests/test_pool_leases.py": {
+        "bytes": 6935,
+        "sha256": "1e5d975b8ea62518974e17cac57b2be40f7d951512d003ff9695a71b58989612"
+      }
+    },
+    "provenance": "Independent owner implementation, no model code copied.",
+    "transactions": "SQLite BEGIN IMMEDIATE for cross-process local admission; persistent immutable limits and bounded tombstone history.",
+    "expiry": "ACTIVE becomes UNKNOWN and keeps consuming capacity; only explicit exact True owner attestation may release.",
+    "once_boundary": "Existing/expired/released tokens do not yield newly_acquired; bool(decision) is rejected. Separate persistent dispatch claim remains required.",
+    "runtime_boundary": "A future client-admission place is reserved before runtime is queued. No service priority, preemption or inference slot is promised."
+  },
+  "validation": {
+    "new_offline_tests": 8,
+    "passed": 8,
+    "exit_code": 0,
+    "runner_wall_seconds": 0.6539948,
+    "unittest_reported_seconds": 0.52,
+    "concurrency_witness": "Twelve spawned Python test processes race for three source places; exactly three acquire, then a fourth runtime admission succeeds.",
+    "reviewed_R2_scratch_witness_wall_seconds": 0.0509758,
+    "scope": "Finite private temporary SQLite files only; reviewed R2 imported solely for four isolated negative witnesses.",
+    "old_caller_observer_admission_suites_rerun": 0
+  },
+  "cost": {
+    "owner_task_start": null,
+    "owner_active_seconds": null,
+    "CPU_seconds": null,
+    "note": "Implementation, source review, orchestration and P0 coordination interleaved; test wall is not full owner cost or CPU."
+  },
+  "limits": [
+    "No persistent rolling dispatcher has been delivered by this library alone.",
+    "No live caller, config, in-flight request, service, Runtime or business process was changed.",
+    "A local database coordinates only clients explicitly sharing it. Integrator no-live-POST evidence and persistent once claims are separate duties.",
+    "No measured sustained HTTP60, server-slot reservation, business speedup or net owner-time saving is claimed."
+  ]
+}
