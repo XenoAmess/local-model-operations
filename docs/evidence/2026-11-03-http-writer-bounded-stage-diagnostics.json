@@ -1,0 +1,297 @@
+{
+  "schema": "local-model-operations.approved-source-case/v1",
+  "case": "Writer preview/commit bounded stage diagnostics",
+  "approved_utc": "2026-11-03T04:13:57.549718+00:00",
+  "permission": "M4 source/Test owner approves only this complete sanitized payload for shared publication. Raw source, tasks, request/response streams, absolute paths, session/process IDs, oracle and actual runtime bodies remain private. Same case, no extra model/Test denominator.",
+  "mode": "ordinary fixed-three-message HTTP; not OpenCode/native assistant",
+  "problem": "An already-adopted reduced-tree Writer still had roughly25.5s preview/23.4s commit in one real append. Existing aggregate evidence could not identify CPU, IO, authority or parser cause. This task adds optional finer wall stages, not a claimed optimization or causal diagnosis.",
+  "source_qualification": {
+    "whole_current_Java_files": 13,
+    "one_existing_aggregate_sample_JSON": 1,
+    "whole_entities": 14,
+    "frozen_physical_bytes": 479471,
+    "prefix": "Both actual requests have complete current text of all14entities, exact against source_files-built prefix after normal text newline decoding; physical source SHA/EOL pinned separately, not a claim physicalCRLF bytes were directly in JSON strings.",
+    "actual_authority_boundary": "Head-aware revalidate and State reduce remain separate callbacks with their own full receipt checks; no custody proof was invented to merge them.",
+    "owner_scope": "Only two existing Writer method bodies; no fields, methods, types, imports or new lambda sites. Existing storageGuard.write lambda substring and original business checks/callback/IO order retained."
+  },
+  "requests": [
+    {
+      "role": "implementation",
+      "actual_keys": [
+        "max_tokens",
+        "messages",
+        "model",
+        "temperature",
+        "chat_template_kwargs",
+        "response_format",
+        "stream",
+        "stream_options"
+      ],
+      "messages": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 11000,
+      "temperature": 0,
+      "thinking": {
+        "enable_thinking": false
+      },
+      "model": "qwen38-coder",
+      "stream_options": {
+        "include_usage": true
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "POST_BEGIN": "2026-11-03T03:49:31.996350+00:00",
+      "ATTEMPT_END": "2026-11-03T03:50:19.132081+00:00",
+      "first_nonempty_content_ms": 23241.941199987195,
+      "total_ms": 47135.75960000162,
+      "usage": {
+        "prompt_tokens": 95846,
+        "completion_tokens": 3689,
+        "total_tokens": 99535
+      },
+      "cached_if_reported": null,
+      "actual_POSTs": 1,
+      "retries": 0,
+      "finish": "stop",
+      "DONE": true,
+      "private_request_bytes_SHA": {
+        "bytes": 492879,
+        "sha256": "0b348c5624048a82221aab71dbdcd7e22fef54e74b3880efc5961cd896dfe86c"
+      }
+    },
+    {
+      "role": "counter",
+      "actual_keys": [
+        "max_tokens",
+        "messages",
+        "model",
+        "temperature",
+        "chat_template_kwargs",
+        "response_format",
+        "stream",
+        "stream_options"
+      ],
+      "messages": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 2400,
+      "temperature": 0,
+      "thinking": {
+        "enable_thinking": false
+      },
+      "model": "qwen38-coder",
+      "stream_options": {
+        "include_usage": true
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "POST_BEGIN": "2026-11-03T03:49:31.994729+00:00",
+      "ATTEMPT_END": "2026-11-03T03:50:06.132025+00:00",
+      "first_nonempty_content_ms": 24485.768399987137,
+      "total_ms": 34137.31469999766,
+      "usage": {
+        "prompt_tokens": 95892,
+        "completion_tokens": 1177,
+        "total_tokens": 97069
+      },
+      "cached_if_reported": null,
+      "actual_POSTs": 1,
+      "retries": 0,
+      "finish": "stop",
+      "DONE": true,
+      "private_request_bytes_SHA": {
+        "bytes": 493072,
+        "sha256": "2cdb1cf9558511d4f635763bed134ed64719a2b5f9fa43e8dc3b0634f3cd634a"
+      }
+    }
+  ],
+  "concurrency": {
+    "logical_requests": 2,
+    "actual_POSTs": 2,
+    "actual_retries": 0,
+    "peak": 2,
+    "actual_peak2_overlap_seconds": 34.135675,
+    "current_inflight_at_cutoff": 0
+  },
+  "adoption": {
+    "grade": "guided partial, not whole raw code or autonomous full producer",
+    "implementation": "Complete two-method model candidate returned STOP. Owner did not compile raw candidate, corrected business-outcome metadata and restored original lambda exactly before first compile.",
+    "owner_changes": [
+      "Track completion explicitly instead of assuming absolute nanoTime timestamps are nonnegative.",
+      "Set returned only after actual Prepared/Receipt construction or duplicate recovery succeeds; normalreturn does not imply businesssuccess.",
+      "Complete duplicate lookup timing before branch, keep duplicate preview revalidation separate from skipped authority callbacks, add duplicate recovery duration.",
+      "Retain original prepared.request accessor order and byte-exact storage write lambda, including original indentation."
+    ],
+    "counter": "Limited correct duplicate/no-reduce observations mainly restated complete input/guidance. No new independent counterexample established; proposed physicalIO/old25s attribution rejected. Model assertions are not safety proof.",
+    "Test_HTTP": 0,
+    "temporary_enabled_profile_HTTP": 0
+  },
+  "behavior": {
+    "normal_gate": "New ck3.dev.writerPhaseDiagnostics exacttrue opt-in, defaultoff. Storage Writer cannot observe application Submitting state, so this is a separate gate, not falsely inherited.",
+    "output": "One bounded fixed primitive summary per invoked instrumented method while enabled; no paths, bodies, JSON, digests, request labels or exception text. No global log-count cap; Runtime finite sampling required independently.",
+    "failure": "Propertyread/output Throwable contained, optional output skipped if alreadyinterrupted, flag never cleared by production code. Returned denotes only normalmethodreturn. Unfinished/unentered stage durations=-1.",
+    "timing_limits": "Inclusive stage wall, not CPU. write_ns aggregates guard/recovery/publication/readback, not just physicalwrite. elapsed_ns stops before formatting/output; original enclosing Journal timing includes that tail. Output still runs under original held lock; arbitraryblockedoutlet timing equivalence not proved."
+  },
+  "owner_witness": {
+    "oracle": "Original behavior oracle frozen before reading model CONTENT; design/guidance known. Test written after selected candidate source, not candidateblind.",
+    "only_new_Test_TU": 1,
+    "first_selected_methods": 3,
+    "first_found_started_successful": 3,
+    "failed_skipped_aborted": 0,
+    "cases": [
+      "Defaultoff quiet and explicittrue changed/duplicate/nochange preserve literal state, source indices, once callback trace and fixed metadata schema.",
+      "Original callback errors and freshsource changes still reject/no publication despite diagnostic RuntimeException/Error; successful commit also survives Error outlet.",
+      "Interruption introduced at final callback failure remains set, suppresses diagnostic output, preserves original exception; after test clears its own flag, later public operation remains strict."
+    ],
+    "fixture": "Finite owned temporary Windows storage/public software guard; no Root/private issuer/reflection/Game/current ledger.",
+    "preSTART_owner_fix": "First proposed Test Outlet used nullOutputStream for inherited nonString output, potentially silencing unrelated stderr. Owner corrected originalstderr forwarding and close-onlyflush in V02 before any Test START. V01 remained0grant/0START, not a compilerRED/retry.",
+    "source": {
+      "bytes": 20995,
+      "sha256": "ec634a17812e8a08bbaa45eaba3ebb11ae315a59cf0af7214fcbaa2c86770a62"
+    },
+    "reuse": "Existing support2named outputs and production8named outputs onlybinary, no old source/Test methods compiled or RUN.",
+    "stderr_bytes": [
+      0,
+      0,
+      0
+    ],
+    "unproved": [
+      "Current Root authority25s cause, Runtime behavior orspeed",
+      "Propertysecurityfault and arbitraryblocking/OOM diagnostic outlet",
+      "Readonly/closed/nonnull early guards dynamically",
+      "Independentdefaulttrueprofile TestRUN"
+    ]
+  },
+  "software": {
+    "normal_prod_first_seconds": 1.9394443000201136,
+    "onlynewTest_strict_seconds": 1.8890066999883857,
+    "first3method_JUnit_actual_wall_seconds": 4.425194799987366,
+    "JUnit_reported_ms": 3742,
+    "normal3process_wall_sum_seconds": 8.253645799995866,
+    "strictEND_to_JVMBEGIN_wall_seconds": 5.411498,
+    "shape": "Pure classfile metadata: actual eight named outputs,52fields/157methods including12constructors/48lambda callsites and captured bootstrap contracts equal original adopted baseline. Not loaded JVM redefine acceptance or SAVE/speed.",
+    "temporary_profile": "Independent source differs by exactly2gate literals settrue; full inverse returns normal source. Only1TUfirstcompile2.2365036s0; shape equal normal/original. Shared enabled body covered by normalexplicittrue Test; no directdefaulttrue TestRUN. Not formal payload.",
+    "temporary_prod_seconds": 2.236503599997377,
+    "all4process_wall_sum_seconds": 10.490149399993243
+  },
+  "cost": {
+    "phase_spans": [
+      {
+        "phase": "ORIGINAL_ORACLE_AND_INPUT_AUTHORING",
+        "begin": "2026-11-03T03:45:40.227386+00:00",
+        "end": "2026-11-03T03:47:40.206158+00:00",
+        "wall_seconds": 119.978772,
+        "active_seconds": null,
+        "qualification": "Wall between independent markers includes tool/thinking/messages/interleaving; not exclusive labor or CPU."
+      },
+      {
+        "phase": "MODEL_TASK_AUTHORING",
+        "begin": "2026-11-03T03:47:40.337091+00:00",
+        "end": "2026-11-03T03:49:27.571011+00:00",
+        "wall_seconds": 107.23392,
+        "active_seconds": null,
+        "qualification": "Wall between independent markers includes tool/thinking/messages/interleaving; not exclusive labor or CPU."
+      },
+      {
+        "phase": "WITNESS_ORACLE_AUTHORING",
+        "begin": "2026-11-03T03:49:40.134714+00:00",
+        "end": "2026-11-03T03:51:09.253959+00:00",
+        "wall_seconds": 89.119245,
+        "active_seconds": null,
+        "qualification": "Wall between independent markers includes tool/thinking/messages/interleaving; not exclusive labor or CPU."
+      },
+      {
+        "phase": "MODEL_SOURCE_REVIEW",
+        "begin": "2026-11-03T03:51:09.385690+00:00",
+        "end": "2026-11-03T03:53:18.511097+00:00",
+        "wall_seconds": 129.125407,
+        "active_seconds": null,
+        "qualification": "Wall between independent markers includes tool/thinking/messages/interleaving; not exclusive labor or CPU."
+      },
+      {
+        "phase": "OWNER_SOURCE_CORRECTION",
+        "begin": "2026-11-03T03:53:18.643696+00:00",
+        "end": "2026-11-03T03:56:28.750864+00:00",
+        "wall_seconds": 190.107168,
+        "active_seconds": null,
+        "qualification": "Wall between independent markers includes tool/thinking/messages/interleaving; not exclusive labor or CPU."
+      },
+      {
+        "phase": "SOURCE_READY_AUTHORING",
+        "begin": "2026-11-03T03:56:28.890861+00:00",
+        "end": "2026-11-03T03:57:44.149304+00:00",
+        "wall_seconds": 75.258443,
+        "active_seconds": null,
+        "qualification": "Wall between independent markers includes tool/thinking/messages/interleaving; not exclusive labor or CPU."
+      },
+      {
+        "phase": "NEW_TEST_AUTHORING",
+        "begin": "2026-11-03T04:02:42.170546+00:00",
+        "end": "2026-11-03T04:04:37.461859+00:00",
+        "wall_seconds": 115.291313,
+        "active_seconds": null,
+        "qualification": "Wall between independent markers includes tool/thinking/messages/interleaving; not exclusive labor or CPU."
+      },
+      {
+        "phase": "TEMP_ENABLED_PROFILE_AUTHORING",
+        "begin": "2026-11-03T04:04:37.600815+00:00",
+        "end": "2026-11-03T04:05:55.622993+00:00",
+        "wall_seconds": 78.022178,
+        "active_seconds": null,
+        "qualification": "Wall between independent markers includes tool/thinking/messages/interleaving; not exclusive labor or CPU."
+      },
+      {
+        "phase": "TEST_OUTLET_REVIEW_AND_REPAIR",
+        "begin": "2026-11-03T04:06:27.090294+00:00",
+        "end": "2026-11-03T04:06:40.504453+00:00",
+        "wall_seconds": 13.414159,
+        "active_seconds": null,
+        "qualification": "Wall between independent markers includes tool/thinking/messages/interleaving; not exclusive labor or CPU."
+      },
+      {
+        "phase": "REQUEST_AUDIT_AUTHORING",
+        "begin": "2026-11-03T04:07:10.513660+00:00",
+        "end": "2026-11-03T04:07:30.045214+00:00",
+        "wall_seconds": 19.531554,
+        "active_seconds": null,
+        "qualification": "Wall between independent markers includes tool/thinking/messages/interleaving; not exclusive labor or CPU."
+      },
+      {
+        "phase": "ACTUAL_RESULT_REVIEW",
+        "begin": "2026-11-03T04:09:27.921061+00:00",
+        "end": "2026-11-03T04:10:29.829958+00:00",
+        "wall_seconds": 61.908897,
+        "active_seconds": null,
+        "qualification": "Wall between independent markers includes tool/thinking/messages/interleaving; not exclusive labor or CPU."
+      }
+    ],
+    "source_qualification_BEGIN_to_firstJUnitEND_wall_seconds": 1650.892379,
+    "source_ready_to_prodBEGIN_wall_seconds": 207.233928,
+    "owner_active_seconds": null,
+    "CPU_seconds": null,
+    "qualification": "Independent BEGIN/END records give marked wall spans only; they include messages/tools/thinking/interleaving, not exclusive active labor. Original sourcequalification and delivery markers were still open at cost snapshot; not assigned fabricated end/active seconds. Witness oracle preparation overlapped live model streams. Model TTFT/total and software processwall kept separate.",
+    "owner_costs": [
+      "Guided wholemodelmethods not accepted raw: completion sentinel, constructor/recovery return truth, duplicate duration, exact lambda whitespace restoration and Request accessor order were corrected by owner.",
+      "New Test authored entirely by owner after candidate source read, original behavioral oracle preceded CONTENT; no TestHTTP and no candidate-blind attribution.",
+      "V01 Test Outlet swallowed nonString stderr via nullOutputStream. Owner source review corrected forwarding/close before any Test START; original source/Ready retained, no false compilerRED or retry.",
+      "Root corrected one abbreviated sample path missing quarkus-dev307-runtime root; source/sample SHA independently frozen, no new sample.",
+      "Native historicalarg implicit/proc metadata assumption rejected at0mkdir/0grant/0JVM; independent newscope actual flags materialized, not a production compiler failure. Native owns exact erratum.",
+      "Late sharedcaller CONTENT write_text->write_bytes fix occurred after these two completed requests/audit. This case retains original CONTENT/REQUEST evidence; no replay or silent update."
+    ]
+  },
+  "cutoff": {
+    "normal_formal": "PENDING, later receipt only separate annex",
+    "temporary_profile_Runtime_adoption": false,
+    "new_JVM_by_M4": 0,
+    "Game_GET_currentC_writes": 0,
+    "speed_or_target_credit": false,
+    "Runtime": "Healthy world not cold/reloaded for this candidate. Runtime owns a later actual safe same-loader finite instrumentation sample and exact normaloff restore; if newloader/STOP required, do not adopt."
+  }
+}
