@@ -1,0 +1,212 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B073-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T18:52:27.490484+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T18:37:39.568932+00:00",
+    "window_ended_at_utc": "2026-11-03T18:37:46.776077+00:00",
+    "window_seconds": 7.207145,
+    "peak": 4,
+    "peak_duration_seconds": 6.724539,
+    "average_inflight": 3.863360456879944
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b073-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 815,
+        "completion_tokens": 584,
+        "total_tokens": 1399
+      },
+      "failure": null,
+      "content_ttft_ms": 698.6929000122473,
+      "total_ms": 7203.604600043036,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "b3c8f88e64b181d5138d1f5eb925a7f96cedf5fb87f8ac1dc1b9c88cf4ea9a53",
+      "summary_sha256": "f464737a2908419ab85cace439e6284371ce98c700dca796ff2ed8697c7cdcae",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "e1d7dfea8d8eead9fad297cda40ba4f3494a8710cf492ac24ae1a6c647e62207",
+        "task_id": "hoi4-20261104-b073-prompt-01",
+        "request_sha256": "b3c8f88e64b181d5138d1f5eb925a7f96cedf5fb87f8ac1dc1b9c88cf4ea9a53",
+        "summary_sha256": "f464737a2908419ab85cace439e6284371ce98c700dca796ff2ed8697c7cdcae",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Retained actual silver waved hair/thin gold spectacles, open brown coat/pale shirt/light khaki tie.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2201,
+        876
+      ]
+    },
+    {
+      "task_id": "hoi4-20261104-b073-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 842,
+        "completion_tokens": 617,
+        "total_tokens": 1459
+      },
+      "failure": null,
+      "content_ttft_ms": 841.5348999551497,
+      "total_ms": 6999.194099975284,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "131c2b77ce7903a9bd3b70de05e5631bb64371c9029f7497edbb89dd4ac59c67",
+      "summary_sha256": "9410aedc0f7d8e0d9e7909e081cd434b504ab9e83e8e731d6d79266edc80cc56",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "4b06ed4d4d8d8345f95f2750e16c28018745c392baebe468100279b755847bbc",
+        "task_id": "hoi4-20261104-b073-prompt-02",
+        "request_sha256": "131c2b77ce7903a9bd3b70de05e5631bb64371c9029f7497edbb89dd4ac59c67",
+        "summary_sha256": "9410aedc0f7d8e0d9e7909e081cd434b504ab9e83e8e731d6d79266edc80cc56",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Despite new explicit feature-naming task, candidate2 remained generic and omitted supplied khaki GARRISON SIDE CAP/no visor, hair/clean face/open khaki outfit/light tie; owner restored all actual features and stripped echoed task/protocol instructions.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2269,
+        876
+      ]
+    },
+    {
+      "task_id": "hoi4-20261104-b073-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 830,
+        "completion_tokens": 584,
+        "total_tokens": 1414
+      },
+      "failure": null,
+      "content_ttft_ms": 837.9545999923721,
+      "total_ms": 6914.865400001872,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "f38bf17f158b7142d83bd0f48cc7f6e1cf1cb0b082aec939dc6f1073c79088b1",
+      "summary_sha256": "0836d9cc7ae0396117f8757ad591845f4ba631821b914ab26ee8d7984655f8d6",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "817a862ff4388417891bad2eb59ef61d4af802ded3be30cb1d1f37fad4b60a52",
+        "task_id": "hoi4-20261104-b073-prompt-03",
+        "request_sha256": "f38bf17f158b7142d83bd0f48cc7f6e1cf1cb0b082aec939dc6f1073c79088b1",
+        "summary_sha256": "0836d9cc7ae0396117f8757ad591845f4ba631821b914ab26ee8d7984655f8d6",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Candidate retained actual BLUE cap/SILVER badge and visor decoration, IMAGE-LEFT pose and open blue uniform; owner removed echoed protocol/preparer discussion.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2290,
+        876
+      ]
+    },
+    {
+      "task_id": "hoi4-20261104-b073-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 795,
+        "completion_tokens": 536,
+        "total_tokens": 1331
+      },
+      "failure": null,
+      "content_ttft_ms": 700.5482999957167,
+      "total_ms": 6726.337000029162,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "48a4d828f425dfbfd5dbc510bd364e7df5879d0420b525124f89e44283f7b81f",
+      "summary_sha256": "2825fb36b342f9643cb22dcc3c102fd2bface02bcc8593634ec320a409c9409d",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "fc2317a8d5d20db318adc85a9f464aa2c8bb16f7fb8e2eafcb7d899d7d2345b0",
+        "task_id": "hoi4-20261104-b073-prompt-04",
+        "request_sha256": "48a4d828f425dfbfd5dbc510bd364e7df5879d0420b525124f89e44283f7b81f",
+        "summary_sha256": "2825fb36b342f9643cb22dcc3c102fd2bface02bcc8593634ec320a409c9409d",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Retained actual narrow dark moustache/clean chin, slicked side-parted hair and open dark civilian suit/pale shirt/green-grey tie.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2164,
+        876
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b073-sources.json",
+    "sha256": "44caacba49480f826358b4f552eafb84d5d5bdfb28607dbbe44a185de93dd424",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T18:43:10.353443+00:00",
+  "frozen_prepared_receipt": "mod_nailong/data/production-batches/resume-20261104-b073-prepared.json",
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. The pre-dispatch cutoff was frozen before later actual calls, independently of publication time. Four different source SHA portraits remain independent. Four exact primary cards and four matching larger analysis candidates actually viewed. Silver hair/actual gold wire glasses/open brown uniform/light khaki tie, soft folded khaki GARRISON SIDE CAP/no visor/open khaki uniform, BLUE peaked cap with SILVER badge/visor decoration/open blue uniform and narrow dark moustache/open dark civilian suit remain independent. Primary note-limited detail/crop governs. These four new tasks additionally required explicit source feature naming after earlier omissions; no completed task replay. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Four partial adoptions. New explicit feature-naming task did not prevent candidate2 from echoing generic contract/task prose while omitting supplied khaki GARRISON CAP/no visor, actual hair/clean face and open khaki outfit/light tie. Owner restored those exact features and stripped echoed task/protocol/preparer discussion before image preparation/call. Candidate3 retained actual BLUE cap/SILVER decorations and pose/outfit but also echoed protocol/preparer prose, removed by owner. Candidates1/4 principal actual features retained. Original complete request/candidates unchanged. No controlled comparison, general improvement, model vision, art approval or time-savings claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
