@@ -1,0 +1,42 @@
+{
+  "schema": "portable-stage-E-software-formal-later-v1",
+  "permission": "Minimal sanitized metadata explicitly approved by the source owner; private source, requests, paths and oracles excluded.",
+  "pipeline": {
+    "scope": "Three production leaves totaling 5662 bytes and one new Test leaf of 21977 bytes; 27639 bytes combined.",
+    "first_compile_seconds": {
+      "three_production_TU": 0.6042135,
+      "one_Test_TU": 0.7762842
+    },
+    "new_finite_selectors": [
+      {"route": "positive-growth", "checks": 44, "process_seconds": 0.8968501},
+      {"route": "Stopped-prefix", "checks": 32, "process_seconds": 0.7042348}
+    ],
+    "wrapper_wall_seconds": 2.9141765,
+    "later_formal_commit": "61a66ea631a01f8c00c24528e04005596850792b",
+    "four_raw_leaves_and_EOF_match_formal": true
+  },
+  "free": {
+    "scope": "Four Test/Data leaves totaling 46443 bytes. Existing production leaves are not counted again.",
+    "first_four_TU_compile_seconds": 0.9142913,
+    "new_finite_selectors": [
+      {"route": "literal-four", "scenes": 4, "process_seconds": 0.7529189, "stdout_bytes": 0},
+      {"route": "third-Stopped", "scenes": 1, "process_seconds": 0.8070924},
+      {"route": "ordinary-child-error", "scenes": 1, "process_seconds": 1.0549569}
+    ],
+    "all_selectors_exit_zero": true,
+    "all_selector_stderr_empty": true,
+    "wrapper_wall_seconds": 4.4153673,
+    "later_formal_commit": "418f8fd1a914fa3d2d52e09dfff83ca86d033e8f",
+    "formal_projection": "ChildError has only CRLF-to-LF projection. LiteralTest changes one old comment's time wording. Compiled raw, formal projection, inverse and EOF qualifications remain separately recorded; executable tokens are preserved."
+  },
+  "evidence_boundary": "The original case schema lacked child PID/birth and terminal fields; later field requirements are not backfilled. Exit status, source arguments/class/logs, individual cases and final qualification remain limited to their original evidence. The source owner read original case records and reports independently checked typed current source/class/arguments/logs; this does not assert an independent whole-REQUEST or Git-object review by that owner.",
+  "cost_boundary": "Per-process and enclosing wrapper wall values overlap and are not added together. Full task and active owner time are UNKNOWN; none is CPU or measured software speed.",
+  "adoption_boundary": "Earlier producer HTTP and adoption retain their original source grades. This annex creates no HTTP request; it does not claim the original producers made no requests.",
+  "owner_preparation_errors": "A sealer's Ready NOT_RUN versus actual PASSED interpretation and Java EOL reader assumptions remain owner preparation costs, not model failures.",
+  "new_finite_scenes_in_original_software": 8,
+  "new_HTTP_for_this_annex": 0,
+  "new_compile_or_RUN_for_publication": 0,
+  "other_H_F_alias_or_old_240_scenes_counted_again": false,
+  "original_compiled_raw_pending_cutoffs_preserved": true,
+  "Runtime_natural_Game_or_speed_credit": false
+}

@@ -1834,3 +1834,10 @@ All twenty-one transmitted Java entities were complete, but an existing nominal 
 [The free-entry finite witness source](evidence/2026-11-03-free61-finite-witness-source-later.json) contains five planned cases and no new model Test request or software pass. Its independent numerical freeze preceded the author's first target-body read, after generation; it is not a pregeneration claim.
 
 [Two earlier components' first-software annex](evidence/2026-11-03-two-poststate-components-software-later.json) records each unit's three new production TUs, one new manual TU and two finite manual cases. Whole validation windows retain queue and preparation gaps; the small process sums are not CPU or speed. Two owner CONFIG-shape assumptions stopped before Java, and outer-binding or upper-whole acceptance is not inferred. Their formal and runtime stages remain separate.
+
+
+## 2026-11-03 Stage E finite software and later publication facts
+
+[The minimal approved software/formal annex](evidence/2026-11-03-stage-E-software-formal-later.json) records two pipeline selectors and six free-route scenes from their original necessary first validation. The pipeline publication is exact to its four raw leaves; the free-route publication retains separately qualified EOL and comment projections. Per-process times and enclosing wrapper walls overlap, and full task and active owner time remain unknown.
+
+Original cases lack newer PID/birth and terminal fields, so those fields are not backfilled. Source/class/arguments/log qualification and the source owner's original-record review do not become independent whole-request or Git-object verification. This annex adds no request or rerun; earlier producer HTTP and adoption grades remain in their existing parents, and the eight finite scenes are not counted again as other components or runtime acceptance.
