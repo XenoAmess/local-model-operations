@@ -1812,3 +1812,12 @@ All twenty-one transmitted Java entities were complete, but an existing nominal 
 [The later free-entry selected-source review](evidence/2026-11-03-free61-selected-source-counter-later.json) is one additional request with the selected two bodies and the subsequently supplied nominal ancestor. It adds two narrow source observations and no concrete counter, complete equivalence proof, code change or software validation. The earlier corrected five-request source stage remains unchanged.
 
 [Three minimal formal tuples](evidence/2026-11-03-poststate-three-formal-tuples-later.json) append publication facts to their existing parents. Earlier missing production-output pins and later current pins remain separate observations. The source owner's receipt and staged-hash review is attributed precisely; sole-writer publication reports are not recast as independent current-remote verification. No new HTTP, compiler, JVM, natural-runtime or performance result is claimed.
+
+
+## 2026-11-03 Private parsed-ending qualification and scoped later publication
+
+[The private parsed-ending source and firsts](evidence/2026-11-03-persistent-private-parsed-ending-source-and-firsts.json) distinguish two later counter requests from the already existing owner implementation. The thirteen locally held SDK/JDK originals were not counted as model input. Both answers provide partial conditional observations and no implementation code or complete independent approval. One production TU and two limited new public replay cases passed; the full preparation-to-first-RUN window includes source work, requests, queues and gaps, with active labor and net saving unknown. The software parser version does not establish current loaded definitions.
+
+[The earlier local memo's formal tuple](evidence/2026-11-03-persistent-current-local-memo-formal-later.json) preserves its pending historical cutoff and existing gap in positive memo-hit coverage. Publication added no validation, runtime or speed result.
+
+[The free/error composition's minimal software and formal facts](evidence/2026-11-03-free-error-composition-software-formal-later.json) record four owner-authored leaves, two new finite manual scenes and their incremental first processes. This unit made no new direct model request. The defined validation window is separate from process sums; earlier missing execution fields are not backfilled, and later EOL/EOF publication projections do not imply a newly compiled combined whole or hardware/runtime acceptance.
