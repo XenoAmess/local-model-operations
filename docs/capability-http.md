@@ -2169,3 +2169,10 @@ M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-co
 [可复用API与capture边界](../scripts/authorized_dispatch/COLLABORATION-ROSTER-API.md)和[原案模型/软件记录](evidence/2026-11-04-http-collaboration-roster823.json)：1STOP17.300223秒部分代码采用+3owner修正，原私有5方法首验0/.5535002秒/11pins；public生产10049字节保原。新synthetic5方法和mocked CLI仅source候选，未借原823授绿，不重796。
 
 工具只把operator保存的完整returned view序列化bytes归一为snapshot/counts/evidence；functions V8不能自动取collab返回，65row及completed正文仍需人工保存，SHA非rawtransport。globalUNKNOWN、operator错误分类与授权分层，0自动采样/派发；643.509秒准备含INVALID_ID、470.190秒后审、388秒portable准备与HTTP分列，active未知、30–60s节省未测。
+
+
+## 2026-11-04：显式pending DATA构造工具
+
+[API](../scripts/authorized_dispatch/PENDING-API.v1.txt)、[使用说明](../scripts/authorized_dispatch/PENDING-README.txt)、[原案资格与公开绑定边界](../scripts/authorized_dispatch/PENDING-QUALIFICATION.txt)及[模型/成本记录](evidence/2026-11-04-http-pending-data-builder824.json)。模型1STOP6.646463秒整拒0码，owner生产4500字节原样发表；原824五方法0/.3441912秒、15pins，0重796。公开Test前3方法AST不变，另2个D scratch/合成fixture绑定未run，后继仅必要对应first，不借旧5P。
+
+工具只把显式curation构造为原planner的pending DATA；保留负向决定、独立roots及原UTF8/CRLF正文hash，0自动授权/派发/clock。三专名SYNTHETIC-BUILDER824夹具与03夹具并存，不是当前授权；727秒源码审阅、379秒metadata、165秒portable及51秒命名delta分别记录，active未知、未证成本节省。

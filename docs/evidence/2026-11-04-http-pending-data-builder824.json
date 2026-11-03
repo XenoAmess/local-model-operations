@@ -1,0 +1,50 @@
+{
+  "case_id": "pending-data-builder824",
+  "mode_id": "http-candidate",
+  "model_author": {
+    "POST": 1,
+    "END": 1,
+    "retry": 0,
+    "finish": "stop",
+    "TTFT_seconds": 1.3852939000062179,
+    "total_seconds": 6.646463400014909,
+    "completion_tokens": 949,
+    "code_adopted": 0,
+    "grade": "Whole candidate rejected: invented helper return values, missing import, shared root lists and an unjustified empty-input rejection."
+  },
+  "selected_production": "Owner implementation, 4500 bytes; exact original qualified source and API copies. No new model call for publication.",
+  "production_sha256": "1b714021399ad1c2312f81403a5ae141e42feab4826a9937336de127ef940899",
+  "exact_API_sha256": "74618c1f42ea84bc068f0ecf8f019d2021ad5cf6008703bf5b8973b9d488528d",
+  "original_first": {
+    "methods": 5,
+    "exit_code": 0,
+    "child_seconds": 0.344191200012574,
+    "unittest_seconds": 0.046,
+    "input_pins_equal": 15,
+    "old796_or_historical_CLI_repeated": false
+  },
+  "public_binding": {
+    "status": "SOURCE_PUBLISHED_NOT_RUN",
+    "all_five_case_names_preserved": true,
+    "AST_changed_functions": [
+      "test_cli_exclusive_output_and_validation_before_creation",
+      "test_original_historical_pending_fixture_is_object_exact"
+    ],
+    "AST_unchanged_test_methods": 3,
+    "remaining_necessary_first": "Only the changed CLI scratch binding and synthetic fixture method; the original three unchanged method results remain historical.",
+    "synthetic_example_authority": false
+  },
+  "costs": {
+    "source_preparation_and_review_wall_seconds": 727,
+    "metadata_preparation_wall_seconds": 379,
+    "first_portable_preparation_wall_seconds": 165,
+    "fixture_basename_delta_wall_seconds": 51,
+    "active_exclusive_seconds": null,
+    "cost_windows_are_not_summed_or_model_CPU": true,
+    "measured_saving": null
+  },
+  "scope": "Explicit curation to bounded pending DATA with exact UTF8 digest and independent root lists; validate through unchanged planner; preserve valid negative decisions.",
+  "documentation": "PENDING-API.v1.txt and PENDING-QUALIFICATION.txt retain the exact historical source wording and later original qualification. PENDING-README.txt names the synthetic inputs. Their logical source basenames are historical aliases.",
+  "limits": "No grant truth, tool capture, current roster, implicit clock, actual dispatch, collaboration, network, Game, Java, Runtime or speed. Three named synthetic fixtures never confer authorization. No private snapshots, task bodies, oracle or machine paths included.",
+  "new_HTTP_or_business_case_from_publication": 0
+}
