@@ -2068,3 +2068,12 @@ The [explicit opt-in caller](request-registry.md) adds durable BEGIN/END recordi
 [M3 278软件后见](evidence/2026-11-04-http-m3-278-software-later.json)保首次classpath缺失失败及只修classpath后的两case成功，[正式附页](evidence/2026-11-04-http-m3-278-formal-later.json)不改原pending；[289生产首编](evidence/2026-11-04-http-m3-289-production-first-later.json)只授一个production TU，[310 whole源码](evidence/2026-11-04-http-m3-310-source.json)分开raw grow、部分方法和owner完整替换，不授编测。
 
 [M5 normalization113](evidence/2026-11-04-http-m5-normalization113-later.json)因现formal已inline复用，最终只发新Test；[strict114负向附页](evidence/2026-11-04-http-m5-strict114-negative-later.json)保默认三绿却拒public decorator可见差异；[UTC112](evidence/2026-11-04-http-m5-utc112-later.json)只在成功canonical子域用快路，保两层原fallback、三个模型角色零代码及owner三项首验／正式。旧length语法记录保原，不授完整候选语义。[M6当前Dynamic对照](evidence/2026-11-04-m6-current-dynamic270.json)只证当前物理before相同、既有三insert可复用，零新HTTP／Test／采用，不计新模型case。各原切点、失败和全wall／未知主动成本均保，不授Runtime或速度。
+
+
+## 2026-11-04：完整 R1 源拒与同 parent 后见
+
+[M2 661](evidence/2026-11-04-http-m2-661-r1-rejection.json)与[663](evidence/2026-11-04-http-m2-663-r1-rejection.json)各保两份完整 stop、实际完整输入核对及实现源拒。复杂方法在原 POST 前确未写，私有数值 oracle 未喂给模型；源审错误不称实际 compiler RED。原批准切点的 R2 仍是准备阶段，后继另列，不回填原稿，不将 planned-source counter 当候选或数值 oracle 验证。
+
+[M5 array116](evidence/2026-11-04-http-m5-array116-later.md)保三原角色零生产／Test代码、length 整弃、owner完整实现及四个局部 unchecked 注解修正。首次旧 Test 严格编译失败、修后首次三个方法通过与 15.3626852 秒 process 总时分别记；10981.467747 秒墙钟含等待及失败，主动工时未知。[正式附页](evidence/2026-11-04-http-m5-array116-formal-later.json)仅同两 leaf 的后见，不授与 sorted 单元联合软件通过或 Runtime 性能。
+
+[M0 composed positive 正式附页](evidence/2026-11-04-http-m0-composed-positive-formal-later.json)仅一新 composed manual、两 LIFE 与一次 pending close 的实际 domain replay；不扩为完整 Root authority、复杂战争或性能，原研究 pending 切点不回写。五份正文按作者批准原字节保留，零新增 HTTP／编验。
