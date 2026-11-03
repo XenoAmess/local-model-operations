@@ -1,0 +1,73 @@
+{
+  "schema": "local-model-capability.owner-approved-portable/v1",
+  "mode_id": "http_candidate",
+  "case": "private-default-token-provenance-guard-counter",
+  "publication_permission": "Approved for one new sanitized source-counter case; raw code, requests, responses and private oracles remain local.",
+  "real_unfinished_task": "Review a newly written private archive-decoder fast path. Reuse is restricted to an exact matching token created by that same decoder through the ordinary strict JSON constructor. Public archive encoding still uses its original verifier, including full-material inputs.",
+  "source": {
+    "whole_files": 12,
+    "composition": "11 actual baseline/callee/caller files and one proposed complete target",
+    "source_message_utf8_bytes": 268965,
+    "actual_request_bytes": 277719,
+    "three_messages_exact_prepared_request": true,
+    "owner_oracle_or_expected_verdict_supplied": false,
+    "candidate_supplied": true,
+    "design_blind": false
+  },
+  "actual_parameters": {
+    "model_alias": "qwen38-coder",
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "max_tokens": 2200,
+    "read_timeout_seconds": 600,
+    "total_timeout_seconds": 2400,
+    "network": "explicit DIRECT; no proxy, redirect or endpoint fallback",
+    "caller_raw_sha256": "ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6",
+    "profile_raw_sha256": "97fb38b997dde3522f2310d06a229ab660db35f8bdc1a5d40eaa5c9e07e57e9a"
+  },
+  "transport": {
+    "logical_roles": 1,
+    "actual_posts": 1,
+    "retries": 0,
+    "post_begin_utc": "2026-11-03T11:44:03.258944+00:00",
+    "end_utc": "2026-11-03T11:44:13.727130+00:00",
+    "effective_content_ttft_seconds": 7.256801600015024,
+    "attempt_wall_seconds": 10.46830880001653,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "strict_outer_json": "VALID",
+    "reported_prompt_tokens": 55124,
+    "reported_completion_tokens": 487,
+    "cached_tokens": null,
+    "owner_active_seconds": null
+  },
+  "review": {
+    "grade": "PARTIAL_SOURCE_OBSERVATION_NO_NEW_COUNTER_OR_CODE",
+    "partial_observation": "Identifies the local equality guard and duplicated verification code. It supplies no executable counterexample.",
+    "rejected_reasoning": [
+      "Byte equality by itself does not justify deleting strict validation: the private ordinary-constructor provenance is essential and was not closed by the response.",
+      "It incorrectly describes an absent retained token as returning an empty result; a present frame token instead takes the original constructor fallback before the mismatch.",
+      "It lists a missing token accessor implementation although the complete record declaration is present in the supplied source.",
+      "It calls the lambda-local byte array a captured variable; only the ACK is captured."
+    ],
+    "new_model_algorithm_or_test_adoption": 0,
+    "independent_owner_source_review": "Separate pre-candidate source contract and later candidate review found no concrete legal DATA counterexample within the audited path. This is finite source evidence, not software PASS."
+  },
+  "owner_decision_at_cut": {
+    "status": "PROPOSED_UNVALIDATED_NOT_SELECTED_FOR_COMPILE_OR_ADOPTION",
+    "reason": "The new helper duplicates 23 lines and adds 1646 target bytes, introduces an ACK-capturing lambda and adds a comparison on misses. Net workload benefit is unmeasured; no compile or Test is scheduled for this candidate.",
+    "code_origin": "Offline owner implementation preceded this counter; no model code was used.",
+    "resource_or_game_operations": 0,
+    "test_pass_credit": 0,
+    "loaded_hit_or_speed_credit": 0
+  },
+  "read_discipline": "The completed-response guard checked STOP, DONE, HTTP status and evidence containment before reading CONTENT, then parsed the whole JSON object. Actual REQUEST was compared in full with the prepared three-message request.",
+  "limits": [
+    "A valid JSON response and finite absence of a counterexample do not establish complete semantic review.",
+    "The old unconditional token-elision proposal and its SDK-source gap remain unchanged and are not retried or requalified by this new guard case.",
+    "Receipt compilation, earlier nominal tests and other owners' requests are separate cases and are not counted here.",
+    "No CPU, service capacity, active-owner-time, actual runtime authority, memory allocation or speed measurement was performed."
+  ]
+}
