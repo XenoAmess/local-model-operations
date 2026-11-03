@@ -1,0 +1,331 @@
+{
+  "schema": "local-model-operations.civ6-purchase257261/v1",
+  "date_local": "2026-11-03",
+  "machine_id": "BF-202609141645",
+  "cases": [
+    {
+      "sequence": 257,
+      "case_id": "CIV6-purchaseintent257",
+      "mode_id": "http-candidate",
+      "shared_commit": "8efbd3d21b2b37240250ec7c57fb8d5487bf8b7d",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6",
+      "max_tokens": 6000,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-03T10:27:48.687780+00:00",
+      "attempt_end_utc": "2026-11-03T10:28:29.588694+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 40897.320899995975,
+        "first_nonempty_content_delta_ms": 18899.93830001913,
+        "usage": {
+          "prompt_tokens": 41841,
+          "completion_tokens": 1945,
+          "total_tokens": 43786
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-03T10:27:48.687780+00:00",
+          "end_utc": "2026-11-03T10:28:29.588694+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 40897.320899995975
+        }
+      ],
+      "adoption": "rejected",
+      "review": "Raw10 Core tests:15 failing assertions/subcases and1 error. Calls nonexistent J.Number, J.Integer(hash,4294967295) always rejects the actual helper maximum, receipt requires unchanged balance then positive debit (impossible); lacks same-turn/hash gates, exact token and protected bridge calls; owner rewrites Core module.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 258,
+      "case_id": "CIV6-purchaserequest258",
+      "mode_id": "http-candidate",
+      "shared_commit": "8efbd3d21b2b37240250ec7c57fb8d5487bf8b7d",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6",
+      "max_tokens": 5000,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-03T10:27:48.672679+00:00",
+      "attempt_end_utc": "2026-11-03T10:28:28.478530+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 39808.490599971265,
+        "first_nonempty_content_delta_ms": 12760.030499950517,
+        "usage": {
+          "prompt_tokens": 41842,
+          "completion_tokens": 1800,
+          "total_tokens": 43642
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-03T10:27:48.672679+00:00",
+          "end_utc": "2026-11-03T10:28:28.478530+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 39808.490599971265
+        }
+      ],
+      "adoption": "not_adopted_static_review",
+      "review": "No native signature/parameter-key capture or fresh final demand/cost/faith guard, early getters can escape and stop controller. Separate OWNER input conflict: demanded OPEN before and after Prepare even though Prepare creates ARMED; candidate following that conflict cannot dispatch. No raw UI behavior test claimed yet; owner fixes contract and implements UI.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 259,
+      "case_id": "CIV6-purchasedemand259",
+      "mode_id": "http-candidate",
+      "shared_commit": "8efbd3d21b2b37240250ec7c57fb8d5487bf8b7d",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6",
+      "max_tokens": 3000,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-03T10:27:48.681839+00:00",
+      "attempt_end_utc": "2026-11-03T10:28:18.276236+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 29467.430900025647,
+        "first_nonempty_content_delta_ms": 16495.994099997915,
+        "usage": {
+          "prompt_tokens": 41840,
+          "completion_tokens": 824,
+          "total_tokens": 42664
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-03T10:27:48.681839+00:00",
+          "end_utc": "2026-11-03T10:28:18.276236+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 29467.430900025647
+        }
+      ],
+      "adoption": "rejected_static_review",
+      "review": "Invents undeclared Controller Method/Object/Integer helpers and uses Core GetType in UI instead of actual GetUnitType; delayed-death ghost blocks demand, omits Safe and current fresh context/fully protected read. No raw UI behavior test claimed yet; owner replacement pending.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 260,
+      "case_id": "CIV6-receiptevent260",
+      "mode_id": "http-candidate",
+      "shared_commit": "418fccb9934a0339eb2ba949a6728b8decd44ce4",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6",
+      "max_tokens": 2600,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-03T11:09:18.442965+00:00",
+      "attempt_end_utc": "2026-11-03T11:09:28.111818+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 9660.030500032008,
+        "first_nonempty_content_delta_ms": 977.7800000156276,
+        "usage": {
+          "prompt_tokens": 5643,
+          "completion_tokens": 839,
+          "total_tokens": 6482
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-03T11:09:18.442965+00:00",
+          "end_utc": "2026-11-03T11:09:28.111818+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 9660.030500032008
+        }
+      ],
+      "adoption": "rejected_owner_implemented",
+      "review": "Candidate used self argument for static Event.Add/Remove, subscribed through foreign bridge, did not retain original removers, and failed malformed namespace/lifetime cases. Raw seven methods: five failures and two errors, 0.1103656 seconds. Owner implemented protected lifetime-owned subscriptions; seven methods pass in 0.310 seconds.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 261,
+      "case_id": "CIV6-citycommand261",
+      "mode_id": "http-candidate",
+      "shared_commit": "862a8f44ad95ee14d899bbf4e277558b9a405221",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6",
+      "max_tokens": 2500,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-03T11:00:30.910429+00:00",
+      "attempt_end_utc": "2026-11-03T11:00:35.377047+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 4466.371199989226,
+        "first_nonempty_content_delta_ms": 675.1211999799125,
+        "usage": {
+          "prompt_tokens": 3308,
+          "completion_tokens": 630,
+          "total_tokens": 3938
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-03T11:00:30.910429+00:00",
+          "end_utc": "2026-11-03T11:00:35.377047+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 4466.371199989226
+        }
+      ],
+      "adoption": "partial_code_and_test_adopted",
+      "review": "Installer family and two fixture edits adopted exactly; new forwarding test retained with owner original-binding restore addition. Raw12 tests had1 error because existing four-call test iterated the new fifth counter. Owner updates five-family assertion, missing-member atomic case and shared native mock. Affected12+4 profile tests pass; no game diagnostic installed.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "business_evidence": [
+    "https://github.com/XenoAmess/civ6_dev/blob/c44ce023c609872165081c1c842cfeb2c49e74f4/docs/research/baiqi-p6-purchase-intent257-evidence-2026-11-03.json",
+    "https://github.com/XenoAmess/civ6_dev/blob/c44ce023c609872165081c1c842cfeb2c49e74f4/docs/research/baiqi-p6-purchase-receipt-event260-evidence-2026-11-03.json",
+    "https://github.com/XenoAmess/civ6_dev/blob/c44ce023c609872165081c1c842cfeb2c49e74f4/docs/research/baiqi-p6-city-write-command261-evidence-2026-11-03.json"
+  ],
+  "cumulative_through261": {
+    "logical": 261,
+    "complete": 247,
+    "length": 11,
+    "final_transport_failed": 3,
+    "http_attempts": 291,
+    "additional_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "actual_concurrency": {
+    "257259_peak": 3,
+    "257259_seconds_at_peak": 29.588456,
+    "260261_peak": 1,
+    "scope": "261 dispatched before260, no overlap; IDs not chronological; actual intervals in individual cases. Historical client peak13 duration unknown; latest shared rolling target60 was not reached."
+  },
+  "software": {
+    "core_owner_methods": 10,
+    "core_owner_seconds": 1.048,
+    "raw257": "10 methods; 15 failing assertions/subcases and one error",
+    "event_owner_methods": 7,
+    "event_owner_seconds": 0.31,
+    "raw260": "7 methods, 5 failures, 2 errors, 0.1103656 seconds",
+    "diagnostic_owner_methods": 12,
+    "diagnostic_owner_seconds": 0.028,
+    "diagnostic_consumers_methods": 4,
+    "diagnostic_consumers_seconds": 0.022,
+    "raw261": "12 methods, one error, 0.055 seconds",
+    "ui258259": "Static rejection only at this freeze; owner working integration not published here."
+  },
+  "owner_input_fault": "258 input simultaneously required OPEN before/after Prepare while Prepare persists ARMED. Owner corrected contract: demand OPEN before grant, after grant only exact freshly granted token may match ARMED. This conflict is not a model defect.",
+  "lessons": [
+    "Existing Core number helper/signature must be read; invented J.Number and wrong Integer maximum made257 unusable. Requiring unchanged faith and positive debit simultaneously makes receipt impossible.",
+    "Live snapshot numeric GetType and UI GetUnitType are distinct; delayed-death ghosts must not count as live stock.",
+    "Static Events.Add(callback)/Remove(callback) need no self argument. Keep exact callback and original remover, clean only owned subscriptions, isolate malformed provider and preserve foreign bridges.",
+    "Adding a fifth counter requires updating actual old four-call assertions, not only iterating all counter keys. Exact nil/false/trailing nil forwarding and original restore still matter.",
+    "Five static UI SDK methods are not whole-mod Native N_req; actual effect and global performance remain separate."
+  ],
+  "cost_seconds": {
+    "exclusive_preparation": null,
+    "exclusive_review": null,
+    "exclusive_correction": null,
+    "publication": null
+  },
+  "cache_and_server_queue": null,
+  "limits": [
+    "No new actual purchase/faith debit/new-unit or Native event delivery claim. Source62 actual park proof remains separate.",
+    "No newly generated OpenCode-native task; successful daily maintenance is not native generation capability."
+  ],
+  "next": "Normal source63 registration, whole package checks and offline cold-load real purchase. New262263 genuine untested software boundaries have completed HTTP, review underway; not counted in this frozen through261 total."
+}
