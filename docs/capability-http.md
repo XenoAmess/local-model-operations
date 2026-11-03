@@ -1447,3 +1447,10 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [Archive diagnostics正式后见](evidence/2026-11-03-http-archive-diagnostics-later-formal.json)追加8cf4c611：production129136/d2d96与Test14987/9f069在raw/currentphysical/commitblob及LF EOF精等；原7836软件pending逐字保持。源partial+owner安全修、首2P1F→onlyfailed1P=3distinct/旧2不RUN/235stderr不改，不新增case/HTTP/Test分母；cap仅每loaded Archive代际64+1UNKNOWN而非全JVM。Writer三prestage metadata adapter断言0Java归writer，不归模型/source/Test红；0新编验/装载/实速。
+
+
+[同次FP组合正式后见](evidence/2026-11-03-http-same-call-fp-composition-later-formal.json)781b6c6f追加1393factory/13611Test raw/formal等+317wrapper，同四groups1selectedP非第五；早NOT_OBSERVED/source/pending不回填，.8883287+.6151663进程与6.106893wall gap分开。[integer partial-FP正式后见](evidence/2026-11-03-http-integer-partial-fp-later-formal.json)3b9e0988只列实际formal blobs与onlywrapper同四组1P/313pins94CP，不凭格式归一化反推raw相等；R1foreignnull源审拒/R2一hunk和ownerTest CONTENT后/原pending保。两附页0新HTTP/旧算法重验/运行信用。
+
+[known WORD的Memory能力union](evidence/2026-11-03-http-known-word-memory-capability-union.json)新40whole144436B/两STOP/峰2仅41.828684s，2333完整R1raw0owner但强signature/union/factory次序指导；audit错deep IAT归属拒/0oracle。Owner13654两组新路径fullTest两END后CONTENT前而非生成前，三first0/stdout2不冒2JUnit；569.565367仅clock下界/activeNULL/2.2595579process和formalpending保。入口是FC74 CALLsite frame，不是wholeFC74/32B，opaque handlers/无硬件Native172信用。
+
+[installed Sway Java composite候选](evidence/2026-11-03-http-installed-sway-composite-candidate.json)M6新2STOP/两REQUEST23full424387physical→432116wire、峰2仅37.151825s。两完整R1edit采+owner一import修，counter beforestaging/ambiguous-empty错/0独立oracle；6owner grouped oracle prePOST、9Testcode两END后，1prod/1Test首strict和9新scene29checks0只闭actualregistry metadata→policy conditional Keep/Replace。既有全部purpose/capability/source/authority门保，未改registry/issuer；实际HELLO/config/instance、私Root prepare/once及natural nomination/wholeM6仍OPEN，不泛全局never-path或授运行/速度。9.6079256process/215.947988验证窗/647.835855冻结子窗与全task-active未知分列，owner路径/类型与Nativegrant jartext误述分账，formal原pending。
