@@ -1,0 +1,131 @@
+{
+  "schema": "local-model-operations.owner-approved-public-case/v1",
+  "mode_id": "http-candidate",
+  "case": "ordinary-scoped-command-data374",
+  "at_utc": "2026-11-03T01:08:00.837376+00:00",
+  "approval_scope": "Only this complete general summary is approved for public publication. Original source, requests, responses and evidence stay on the execution machine.",
+  "real_delivery": "A one-method change enables an existing bounded immutable command-DATA cache inside the ordinary archive scope, retaining the original strict fallback and failure-recording wrapper. One independent new Test TU passed four methods on its first execution.",
+  "configuration": {
+    "source": "local-model-operations/config/executor.json",
+    "sha256": "28315bd0353e2a75282a6a2844940c2286259fe17af72193ed8df54442e7ba70",
+    "base_url": "http://192.168.1.11:8080/v1",
+    "model": "qwen38-coder"
+  },
+  "input": {
+    "whole_current_files": 23,
+    "physical_bytes": 459766
+  },
+  "requests": [
+    {
+      "role": "implementation",
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "max_tokens": 1800,
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "full_request_reconstructed_equal": true,
+      "POST_BEGIN": "2026-11-03T00:27:19.056349+00:00",
+      "END": "2026-11-03T00:27:24.480518+00:00",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "outer_JSON_valid": true,
+      "SSE_DONE": true,
+      "TTFT_seconds": 2.060766699985834,
+      "total_seconds": 5.42414629997802,
+      "usage": {
+        "prompt_tokens": 95776,
+        "completion_tokens": 454,
+        "total_tokens": 96230
+      },
+      "cached_tokens": null
+    },
+    {
+      "role": "counter",
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "max_tokens": 2200,
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "full_request_reconstructed_equal": true,
+      "POST_BEGIN": "2026-11-03T00:27:19.056255+00:00",
+      "END": "2026-11-03T00:27:26.409721+00:00",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "outer_JSON_valid": true,
+      "SSE_DONE": true,
+      "TTFT_seconds": 1.7640074999944773,
+      "total_seconds": 7.353507299994817,
+      "usage": {
+        "prompt_tokens": 95805,
+        "completion_tokens": 670,
+        "total_tokens": 96475
+      },
+      "cached_tokens": null
+    }
+  ],
+  "adoption": {
+    "implementation_role": "Whole rejected: moved ordinary logic outside the existing unchecked wrapper, losing original failure recording and changing lambda capture shape.",
+    "counter_role": "Partial executable adoption: selected the complete existing-method body with zero owner executable correction; physical EOL projection only. The owner separately corrected one obsolete historical-only comment.",
+    "reasoning_limit": "Memory identity qualifies only use of immutable byte-derived DATA. It is not evidence that a Session is live/current or that physical reads are allowed. The supplied consumers support value semantics, not an exhaustive proof that every possible consumer ignores object identity."
+  },
+  "software": {
+    "production_TUs": 1,
+    "new_Test_TUs": 1,
+    "first_new_methods_passed": 4,
+    "old_green_RERUN": 0,
+    "process_seconds_not_CPU": 7.741237799986266,
+    "stderr_INFO_preserved_bytes": 998
+  },
+  "cost": {
+    "HTTP_only_roles": 2,
+    "task_local_peak": 2,
+    "current_inflight": 0,
+    "process_seconds_not_CPU": 7.741237799986266,
+    "marked_source_manifest_to_first_new_RUN_END_seconds": 1614.92889,
+    "source_manifest_to_closeout_seconds": 2441.943408,
+    "full_task_start": null,
+    "owner_prepare_active_seconds": null,
+    "owner_review_active_seconds": null,
+    "independent_Test_cost_and_length_answer": {
+      "source_pins_to_oracle": 222.336364,
+      "source_pins_to_test_source_ready": 777.488435,
+      "source_pins_to_first_RUN_END": 1667.135195,
+      "test_source_ready_to_strict_BEGIN": 873.603515,
+      "strict_END_to_RUN_BEGIN": 11.03991,
+      "prod_plus_Test_plus_RUN_process": 7.741237799986266,
+      "Test_plus_RUN_process": 5.003338499984238,
+      "owner_active": null,
+      "meaning": "Marked end-to-end windows include source/oracle/review/fixture, model wait overlapped with owner work, local path preparation error, Native prepare/coordinating wait and tools. Not process CPU or exact operator active time; prior370 separate."
+    },
+    "net_owner_cost_reduction_proven": false
+  },
+  "boundary": [
+    "Existing exact cloned-byte keys and 16-entry/8MiB bounds are preserved; the retained-byte bound is source proof, not a new whole-heap test.",
+    "Fresh physical loads, hashes, provenance, Session guards, dispatch and the historical requireActive/activeSession order are unchanged.",
+    "Actual class-family/member/lambda shape qualification is separate. Do not trigger body instrumentation based on source intention alone.",
+    "Software pass and formal publication are separate from actual loading, natural cache hits, saved days and speed."
+  ],
+  "formal_at_cutoff": "PENDING",
+  "actual_adoption": false,
+  "speed_or_saved_day_credit": 0
+}

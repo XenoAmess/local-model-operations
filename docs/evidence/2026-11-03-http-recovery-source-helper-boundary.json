@@ -1,0 +1,88 @@
+{
+  "schema": "local-model-operations/existing-authority-recovery-route-case/v1",
+  "mode": "Two ordinary fixed-three-message HTTP tasks; no native assistant/tool flow. Bounded output, no new request for publication.",
+  "input": {
+    "whole_current_Java_files": 9,
+    "physical_file_bytes": 861800,
+    "actual_source_message_utf8_bytes": 858664,
+    "prefix_identical_between_roles": true,
+    "whole_files_once_in_declared_order_verified": true,
+    "file_newlines_normalized_to_LF_in_prompt": true
+  },
+  "requests": [
+    {
+      "role": "implementation",
+      "max_tokens": 4000,
+      "temperature": 0,
+      "stream": true,
+      "TTFT_first_nonempty_content_seconds": 49.722340100008296,
+      "attempt_seconds": 106.21126750000985,
+      "finish": "stop",
+      "DONE": true,
+      "reported_usage": {
+        "prompt_tokens": 170497,
+        "completion_tokens": 1768,
+        "total_tokens": 172265
+      },
+      "reported_cached_tokens": null
+    },
+    {
+      "role": "counter",
+      "max_tokens": 3000,
+      "temperature": 0,
+      "stream": true,
+      "TTFT_first_nonempty_content_seconds": 53.39264179999009,
+      "attempt_seconds": 91.62772579997545,
+      "finish": "stop",
+      "DONE": true,
+      "reported_usage": {
+        "prompt_tokens": 170518,
+        "completion_tokens": 393,
+        "total_tokens": 170911
+      },
+      "reported_cached_tokens": null
+    }
+  ],
+  "concurrency": {
+    "tasks": 2,
+    "POSTs": 2,
+    "retries": 0,
+    "client_peak": 2,
+    "overlap_seconds": 91.627693,
+    "server_execution_concurrency_not_claimed": true
+  },
+  "adoption": "Implementation partial: owner selected helper/delegation and no-new-initialization guard structure. Whole model hunk invented synchronized/indentation; owner preserved original modifiers/body and rewrote startup routing to cover every resume case, using an independent candidate-blind oracle. No exact whole model adoption.",
+  "counter_review": "Limited corroboration, no candidate approval. Its canonical-before-unresolved control-flow claim contradicted actual source and was rejected.",
+  "safety_boundary": "A stale optional clean hint can route to existing authoritative history; actual clean admission remains exact. Resume never creates a fresh observed initial state. No generic exception swallowing, fabricated authority or original mutation replay.",
+  "verification": "Two changed existing production units passed first strict compilation,2.7929528s; no tests run. Direct legal no-Game managed-attachment fixture remained unqualified; no mirrored Boolean or private-issuer fake test was invented. Independent source review remained finite.",
+  "formal": {
+    "commit": "a39c10a6c30df71cf0143436ec1bade29d27e48e",
+    "existing_files": 2,
+    "literal_groups": 3,
+    "whole_formal_equals_compiled_raw": false,
+    "owned_literal_forward_inverse_exact": true,
+    "new_compile_for_publication": 0
+  },
+  "runtime": "Two sources actually adopted and full reload started. The repaired stale-hint gate was passed: the actual stack reached unresolved-history adoption. A later independent native full-state read was unavailable. Failed run695.6166268s,0LOOP/0newSAVE; this is not whole recovery success. Later new bootstrap is a separate cutoff.",
+  "cost": {
+    "source_freeze_marker_utc": "2026-11-03T00:08:54.381236+00:00",
+    "pre_marker_preparation_seconds": null,
+    "owner_preparation_active_seconds": null,
+    "owner_review_active_seconds": null,
+    "source_freeze_to_SourceReady_seconds": 384.586393,
+    "source_freeze_to_first_strict_END_seconds": 618.953954,
+    "source_freeze_to_formal_receipt_seconds": 850.371165,
+    "source_freeze_to_actual_failed_delegate_seconds": 1377.468967,
+    "HTTP_total_attempt_seconds": 197.8389932999853,
+    "HTTP_client_peak": 2,
+    "HTTP_overlap_seconds": 91.627693,
+    "first_compile_process_seconds": 2.792952799994964,
+    "failed_runtime_START_to_FAILED_seconds": 695.6166268,
+    "new_saved_days_in_failed_run": 0,
+    "seconds_per_new_saved_day": null,
+    "netSaving": null,
+    "interpretation": "All intervals retain their actual labels; source-freeze is not task-start or active work. HTTP overlap, wait/coordination, compiler duration and failed runtime wall are distinct. No speed/net-saving or context-size experiment."
+  },
+  "no_performance_or_all_paths_claim": true,
+  "no_raw_payload_or_private_paths_or_identity": true
+}

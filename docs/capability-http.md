@@ -1376,3 +1376,10 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 [ordinary command兼容性有限negative](evidence/2026-11-03-http-ordinary-command-compatibility-negative.json)与[格式勘误](evidence/2026-11-03-http-ordinary-command-format-erratum.json)同发：length实施稿外层无效；STOP反审外层JSON有效，末句/推理问题不能叫JSON坏。后半现有pure byte API兼容风险仅有限sourcecorroboration、非blind新发现，前半自反，算法/code0；问题不据此宣unsafe或最优。后继实际新合同另案。
 
 [allocation failure-cell正式后见](evidence/2026-11-03-http-allocation-failure-cell-later-formal.json)只追加f65c7ef4、两payload raw/EOF精等与onlywrapper同四console组1P；不加第五组，不回写原pending，writer stage模板错误独立、0新HTTP/旧绿重跑或运行信用。
+
+
+[command内存scope源单元](evidence/2026-11-03-http-command-memory-scope.json)与[formal封包状态纠正](evidence/2026-11-03-http-command-memory-formal-cutoff-correction.json)同发：Root两HTTP 5.424/7.353s，counter完整方法partial原样0执行修，implementation移出unchecked整拒；4TU+新4P仅一次。正文PENDING是owner封包未刷新，formal d72d早38秒已到，纠正保原字节，不冒当时未发表。[M5必要witness子角色](evidence/2026-11-03-http-command-memory-witness-annex.json)另记1POST6500length整未读弃/0采用与owner whole4P/7.741s三首工具；30full selectedbody不冒传递闭包，INFO998预期failure与JUnit4P分层，不能将该子角色费用/4P当全cohort再累计。[Test正式后见](evidence/2026-11-03-http-command-memory-witness-later-formal.json)同d72d、两raw/EOF精等、0新RUN，原pending和准备错误保持。
+
+[同局恢复source helper有限经验](evidence/2026-11-03-http-recovery-source-helper-boundary.json)：9whole/2STOP/0retry，helper/guard机械partial加owner同步与Main恢复逻辑；counter错控制流拒。独立oracle有限审与Managed fixture缺口明确，不造测试。仅2TU首0与正式a39c10a6的3literal层，wholefamily不冒compiledraw；实际越旧stale门后Native不可用695.6166268s、0LOOP/0SAVE，后BOOT仅新切点，不能授恢复成功/省工。
+
+[warm planning A→B合同收窄](evidence/2026-11-03-http-warm-planning-route-source-boundaries.json)保5实际POST（A两STOP、B两sourceSTOP、candidate反审length4000整未读弃）/峰2仅97.728856s、0modelcode。B owner4prod+1Test/3P与A两个0START分开；初16whole+6Core成员与后17whole完整Core不倒授输入，owner“no query”措辞歧义不误归模型。[正式后见](evidence/2026-11-03-http-warm-planning-route-later-formal.json)565d05a5：四叶rawformal等，但RootSession比已编raw多既有SavedLiveToken819B，非EOL-only，combined formal whole未编；0新RUN/装载/速度，原pending保。
