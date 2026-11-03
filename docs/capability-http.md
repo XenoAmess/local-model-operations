@@ -1466,3 +1466,8 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [Windows CONTENT UTF8逐字节窄修](evidence/2026-11-03-http-content-utf8-byte-preservation.json)是owner客户端维护、0模型POST：共享call.py只有CONTENT表达式改wb，修newline=None将LF→CRLF/已有CRLF→CRCRLF。先冻独立LF/CRLF/Unicode byteshex oracle，Windows原版四测试五字节子断言RED→同四PASS，全程内存SSE/mock传输且禁socket；length/半流独立attempt/同REQUEST retry与本地写失败不retry保。初owner括号漏写约28s导入错误、原失败保留；最终候选parse/必要witness后原子投影规则进usage/prompt。auditor未放宽/旧15绿不重跑、历史原件严格raw不等与LF投影不改；新caller Git-LF SHA89748ad9与旧physicalCRLF ea097/oldGitLF分pin。活跃业务caller/配置不自动同步，不授模型语义成功或净省工。
+
+
+[Bootstrap399 显式 bounded CAS source case] [批准主文](evidence/2026-11-03-http-bootstrap-history-bounded-scope.json)保留实现一 POST 外层 JSON 有效但语义错、0模型代码；owner 五处改动/两叶首次 strict0。独立反审一 POST 与实现不重叠，[同 parent 审阅附页](evidence/2026-11-03-http-bootstrap-history-independent-review-annex.json)保留 whole 拒、proposal-informed 原 oracle 与有限 source pass 的区别；没有新 Test。历史 CONTENT997B/SSE995B 的 LF 投影相等仍是严格 NOT_REVIEW_ELIGIBLE，不因新 caller 修复改写。[后见正式](evidence/2026-11-03-http-bootstrap-history-later-formal.json)另记 Driver rawexact、Core formal 额外既有差异且组合 whole 未编测；0运行/提速信用。
+
+[完整 error-cell FP 链632] [批准原文](evidence/2026-11-03-http-complete-error-cell-fp-chain.json)：两任务四 POST/两 reset 后原请求 retry，峰2分两段；2798B factory raw/0owner Java 伴强 signature/order hints。owner Test 两 END 后 CONTENT 前冻结，三首次0/stdout两 console 组；574.595925s仅已知下界，active/net省工未知，正式仍原 pending，未授 whole allocator/Native172。[631 正式后见](evidence/2026-11-03-http-known-word-union-later-formal.json)只追加同两组 wrapper selected1P，不加第三组、不回填旧切点。

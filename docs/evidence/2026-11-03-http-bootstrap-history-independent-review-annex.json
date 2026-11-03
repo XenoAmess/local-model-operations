@@ -1,0 +1,96 @@
+{
+  "schema": "local-model-capability.owner-approved-metadata/v1",
+  "parent": "bootstrap-first-history399-explicit-bounded-cas-optin",
+  "role": "Independent original-source oracle, proposal-informed counter and finite selected-source review",
+  "permission": "Only owner-approved sanitized metadata; private source, REQUEST, response and machine paths remain local. Same parent, not a second production or Test case.",
+  "input": {
+    "whole_sources": 30,
+    "physical_whole_source_bytes": 1332883,
+    "source_message_utf8_bytes": 1345951,
+    "source_message_sha256": "559339f3f746d11e59f101809008e3c3ad6ccb54ce3828fcbe6b8285c756c52f",
+    "all_whole_bodies_verified": true,
+    "fixed_three_messages": true,
+    "additional_complete_projection": 1,
+    "candidate_supplied": false,
+    "owner_oracle_supplied": false,
+    "design_blind": false
+  },
+  "HTTP": {
+    "actual_POSTs": 1,
+    "retry": 0,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "TTFT_ms": 35185.82850001985,
+    "total_ms": 49654.68560002046,
+    "reported_usage": {
+      "prompt_tokens": 270516,
+      "completion_tokens": 2193,
+      "total_tokens": 272709
+    },
+    "cached_tokens": null,
+    "outer_JSON": "VALID",
+    "parameters_not_reproduced_here": "UNKNOWN; no raw REQUEST reread for this metadata publication",
+    "overlap_with_parent_implementation": false
+  },
+  "model_grade": {
+    "whole_review": "REJECTED",
+    "code_adopted": 0,
+    "new_concrete_finding_adopted": 0,
+    "candidate_PASS": false,
+    "reason": "Confused snapshot invocations with full-history traversals, old and opt-in nesting, exception/cleanup control flow and unmeasured cache retention. Correct bounded-scope distinctions only repeated the owner oracle."
+  },
+  "owner_selected_review": {
+    "verdict": "LIMITED_SOURCE_PASS_NO_NEW_BLOCKER",
+    "proposal_informed": true,
+    "source_oracle_before_candidate_and_model": true,
+    "scope_oracle_later_separate": true,
+    "five_edit_forward_inverse": "Exact in LF projection; original CRLF versus candidate LF are distinct raw pins",
+    "manual_scope": "Relevant complete methods and contracts, not every line of the 1.33 MB input",
+    "production_writes": 0,
+    "new_Test_or_Java": 0,
+    "mirror_draft": "Unstarted, no Test credit"
+  },
+  "cost": {
+    "known_first_source_freeze_to_HTTP_end_seconds": 444.153261,
+    "full_task_start": null,
+    "active_seconds": null,
+    "owner_preparation_errors": [
+      "Combined read display truncated and relevant prefix reread before conclusions",
+      "Requested line range exceeded the actual file; exact scope declarations then read; no absence inference"
+    ]
+  },
+  "limits": [
+    "First canonical full-history traversal remains",
+    "Lease reuse, retained hits, OS calls and net wall savings unmeasured",
+    "No actual Root/CAS cleanup-failure-to-Native dynamic proof",
+    "No runtime adoption, loading or speed claim"
+  ],
+  "evidence": [
+    {
+      "name": "DELIVERY-REVIEW399.json",
+      "bytes": 1476,
+      "sha256": "7c412318704665c28863b8bb0fa5406b71199be896dbccd950069257a38ea5d4"
+    },
+    {
+      "name": "SOURCE-REVIEW399.json",
+      "bytes": 8157,
+      "sha256": "3456c5711aae6cb4c49ea11cf57422fd09879eccf317cd50b339b32f7e7f21ef"
+    },
+    {
+      "name": "MODEL-REVIEW399.json",
+      "bytes": 4662,
+      "sha256": "cfaed8d119bad64e59f1227bb0656cba1950034bb818000658a3f70751399cbf"
+    },
+    {
+      "name": "ACTUAL-PREFIX399.json",
+      "bytes": 873,
+      "sha256": "e3e269aaf41d106bd9e8f78240d63ddb566e9b0d0ddad8c59628fb17ac16b4a9"
+    },
+    {
+      "name": "COST-REVIEW399.json",
+      "bytes": 1049,
+      "sha256": "5ad0bd092e95060386dfa8c519b7f8195f9c94c3b4928ed4499fb7bbe2a3733b"
+    }
+  ],
+  "new_model_HTTP_Java_or_validation_for_publication": 0
+}
