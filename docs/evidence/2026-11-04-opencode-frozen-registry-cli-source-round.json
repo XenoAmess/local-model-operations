@@ -1,0 +1,131 @@
+{
+  "case_id": "opencode-frozen-registry-snapshot-cli-source-round-01",
+  "mode": "opencode-native",
+  "stage": "SOURCE_PARTIALLY_SELECTED_FIRST_SOFTWARE_NOT_YET_OBSERVED",
+  "publication_metadata_utc": "2026-11-03T21:32:16.168915+00:00",
+  "new_unfinished_work": "Implement one bounded report CLI from a placeholder for a dedicated frozen registry copy; not a repeat of the existing registry implementation or its completed tests.",
+  "contract": [
+    "Use only a trusted closed/consolidated immutable dedicated schema-v1 SQLite copy; reject WAL, SHM and journal companions. No active DB, migration or RequestRegistry constructor.",
+    "Validate an absolute path with a finite UTF-8 byte bound and a canonical bounded decimal limit; report whitelisted snapshot fields and consistent counts in one read transaction.",
+    "Emit one bounded UTF-8 JSON line with no partial success output; compact JSON errors on stderr. Do not expose BEGIN tokens.",
+    "The path and URI validation is not a filesystem isolation or live-database consistency guarantee."
+  ],
+  "client": {
+    "OpenCode_version": "1.19.5",
+    "daily_maintenance": "Existing current-day installed/latest cache actually reused",
+    "fresh_owned_workspace_and_effective_config_checked": true,
+    "inherited_old_business_session_or_old_runner_main_used": false,
+    "tracked_task_and_reference_unchanged": true,
+    "tracked_changed_source_files": 1,
+    "filesystem_or_global_tool_isolation_claim": false
+  },
+  "native_actual": {
+    "business_tasks": 1,
+    "POSTs": 11,
+    "ENDs": 11,
+    "HTTP_finish_counts": {
+      "tool_calls": 10,
+      "stop": 1
+    },
+    "actual_tool_invocations": 10,
+    "trace_audit_errors": [],
+    "CLI_BEGIN_utc": "2026-11-03T20:26:34.062724+00:00",
+    "CLI_END_utc": "2026-11-03T20:27:07.684486+00:00",
+    "CLI_exit_code": 0,
+    "CLI_wall_seconds": 33.621762,
+    "HTTP_seconds_sum": 31.184542399976635,
+    "reported_prompt_tokens_sum": 92409,
+    "reported_completion_tokens_sum": 3687,
+    "reported_context_is_not_unique_input_or_cache_credit": true,
+    "owner_stop_evidence": false,
+    "owner_interrupted_attempts": 0,
+    "final_text_response_association": "UNKNOWN_NO_RESPONSE_LINK",
+    "timing_erratum": "Generic trace fields BEGIN_UTC/END_UTC were null because this adapter uses BEGIN_utc/END_utc; the actual CLI receipt supplies the times above. Do not infer final-response association from the last stop."
+  },
+  "native_request_contract": {
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "enable_thinking": false,
+    "stream": true,
+    "include_usage": true,
+    "max_output_tokens_per_response": 8000,
+    "per_HTTP_seconds": 180,
+    "fixed_three_message_protocol": false,
+    "JSON_object_response_format": false,
+    "total_steps_POST_or_whole_session_wall_cap": null,
+    "relay_retries": 0,
+    "fallbacks": 0,
+    "scope": "Actual assistant/tool loop and recorded tool schemas; no permission change to ordinary HTTP or Runtime"
+  },
+  "source_selection": {
+    "raw_model_source": {
+      "bytes": 6148,
+      "sha256": "4b4dbcc16c0b2de01d4846dd6bdb94abdf1c5f61cd1e560f759a94a07c1fe2b7",
+      "lines": 143
+    },
+    "grade": "PARTIAL_ADOPTION_WITH_OWNER_INPUT_BOUNDARY_CORRECTIONS",
+    "owner_corrections": [
+      "UTF-8 byte bound and invalid-surrogate rejection instead of character count",
+      "Reject oversized/noncanonical limit text before int conversion can raise uncaught ValueError",
+      "Validate the entire singleton meta table and integer version rather than filtering away extra rows"
+    ],
+    "selected_source": {
+      "bytes": 6587,
+      "sha256": "8973c86ed8d00054080433801569b51b0403acadf671d45fb3e2b3f4251f59b0",
+      "lines": 152
+    },
+    "forward_inverse_exact": true,
+    "original_raw_preserved": true,
+    "candidate_execution_by_source_owner": 0
+  },
+  "separate_actual_candidate_counter": {
+    "mode": "http-candidate",
+    "business_roles": 1,
+    "actual_POSTs": 1,
+    "attempts": 1,
+    "complete_ordered_sources": 3,
+    "messages": "system/current-source/task",
+    "max_tokens": 3000,
+    "HTTP_status": 200,
+    "finish": "stop",
+    "DONE": true,
+    "JSON_syntax": "VALID",
+    "content_TTFT_seconds": 3.2237308000039775,
+    "HTTP_seconds": 21.391662399983034,
+    "reported_usage": {
+      "prompt_tokens": 5173,
+      "completion_tokens": 1286,
+      "total_tokens": 6459
+    },
+    "cached_tokens": null,
+    "raw_verdict": "CONCRETE_COUNTER_FOUND",
+    "owner_grade": "REJECTED_AS_CONCRETE_COUNTER_AUTHORITY",
+    "owner_review": [
+      "Primary PathLike AttributeError allegation crosses the CLI contract: sys.argv supplies strings; a filesystem Path object is not a reachable command-line argument. The example string containing backslashes does not cause that alleged type error.",
+      "Second finding explicitly retracts itself and traces the supplied rejected-option cases to ReportError as required.",
+      "Third item speculates about URI spelling, partially drops the actual leading-slash branch and provides no demonstrated input/result mismatch; URI behavior is reserved for the already prepared new Windows frozen-copy test. It is not accepted as a concrete source counter."
+    ],
+    "model_analysis_or_code_adopted": 0,
+    "selected_source_changed": false,
+    "independent_NoCounter_credit": false,
+    "R2_or_continuation": 0,
+    "not_added_to_native_POST_or_native_business_task_count": true
+  },
+  "validation_cutoff": {
+    "four_new_CLI_DATA_methods": "SOURCE_READY_QUEUED_NATIVE_FIRST_ZERO_START_LAST_REPORTED",
+    "software_PASS": false,
+    "formal_shared_code_publication": false,
+    "active_operator_use": false,
+    "old_registry_methods_repeated_for_this_task": 0,
+    "Runtime_or_business_action_or_speed_credit": false
+  },
+  "cost": {
+    "full_task_preparation_start": null,
+    "full_task_wall_seconds": null,
+    "active_exclusive_seconds": null,
+    "source_correction_and_publication_time_not_in_CLI_or_HTTP_totals": true,
+    "net_owner_time_saved": "UNKNOWN_NOT_CLAIMED",
+    "mode_superiority_or_permanent_capability_limit_claim": false
+  },
+  "next_real_step": "Consume the already requested four new Native first methods; append the actual result without rewriting this source-round cutoff. Do not replay the completed model round or existing registry tests."
+}

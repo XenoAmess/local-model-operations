@@ -252,3 +252,10 @@ CLI367.1497915s、首记prepare→CLI161.102732s、reportedHTTPsum299.6922541s�
 [Later owner, finite peer and actual-first metadata](evidence/2026-11-03-opencode-isolated-dev-harness-owner-and-first-stop.json) extends the original eighty-request native source stage without changing that cut. Owner revision06 and a finite independent execution-boundary review did not establish runnable software: the first actual positive command stopped with a command-syntax failure before Dev startup. Missing offline dependencies are not proved. The first failure, owned-job closure and free-port observation are preserved; there was no automatic retry or negative-mode run.
 
 The 5935.296762-second owner wall, 2680-second peer wall and earlier 1754.368648-second native source-delivery wall overlap and cannot be added as elapsed time or active labor. New command-assembly repair/review are separate follow-ups to the actual failure. No raw-model execution acceptance, current Runtime change, speed or saved-day credit follows.
+
+
+## 2026-11-04：新 frozen-registry CLI 原生源码阶段
+
+[本次真实原生任务](evidence/2026-11-04-opencode-frozen-registry-cli-source-round.json)从未写 placeholder 实现有限只读 frozen-copy report CLI，非旧 registry 绿题重投。OpenCode1.19.5 原生 assistant/tool 循环实际 11POST／11END、10tool_calls＋1stop；每回复8000有限输出、无总steps／POST／wholewall帽。CLI33.621762秒与11请求合31.1845424秒不冒完整准备或节省工时。
+
+原143行源码部分选用，owner订正UTF-8字节及surrogate、超长limit预拒和完整meta表校验，最终152行；原稿及正逆差分保留。另一个普通三消息candidate counter的1POST21.3916624秒独立计HTTP模式，完整反例答复经逐源拒绝，零模型纠正／独立NoCounter信用。四项新CLI DATA首验已排给唯一软件owner，当前未持START／PASS；不借CLI0、工具trace或旧registry9项授新软件／activeDB／性能。后到实际另附，不重跑模型或旧绿。
