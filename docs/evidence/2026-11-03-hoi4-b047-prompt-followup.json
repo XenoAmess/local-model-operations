@@ -1,0 +1,212 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B047-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T06:22:23.889140+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T06:14:10.128385+00:00",
+    "window_ended_at_utc": "2026-11-03T06:14:19.281261+00:00",
+    "window_seconds": 9.152876,
+    "peak": 4,
+    "peak_duration_seconds": 6.751146,
+    "average_inflight": 3.3450018333035434
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261103-b047-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 821,
+        "completion_tokens": 627,
+        "total_tokens": 1448
+      },
+      "failure": null,
+      "content_ttft_ms": 1031.9694000063464,
+      "total_ms": 7286.775700049475,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "406035a92bfe932bcfd2e58212290f93ef14255b49c14954568cc9d40eec509c",
+      "summary_sha256": "acce89fc2b419165a972934cb79849a960fb31dd855570c4b73f05c34c7d3bb6",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "269a7635eebc0b83b4f2bf10069f7fe2f83d995ef4b70d4272ff98d512595763",
+        "task_id": "hoi4-20261103-b047-prompt-01",
+        "request_sha256": "406035a92bfe932bcfd2e58212290f93ef14255b49c14954568cc9d40eec509c",
+        "summary_sha256": "acce89fc2b419165a972934cb79849a960fb31dd855570c4b73f05c34c7d3bb6",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Restated actual low-key black rounded hair/head contour, genuine hair/cover uncertainty, closed dark collar and purple/charcoal backing; preserve original asymmetric light without uniformly brightening.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2515,
+        691
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b047-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 794,
+        "completion_tokens": 881,
+        "total_tokens": 1675
+      },
+      "failure": null,
+      "content_ttft_ms": 1147.4048000527546,
+      "total_ms": 9139.615400054026,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "af1ad2fd14eea47ae6bb9439dc347116f64742a9324a5d5d998e4981c4c39a37",
+      "summary_sha256": "92e82907137c0077da3e85c1fe17837498dc45350c8f4418eb8dab049f2f2ca0",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "2231fc2055ce664dc411255a611971c8a83252c4e906f128ec266cff077a28f7",
+        "task_id": "hoi4-20261103-b047-prompt-02",
+        "request_sha256": "af1ad2fd14eea47ae6bb9439dc347116f64742a9324a5d5d998e4981c4c39a37",
+        "summary_sha256": "92e82907137c0077da3e85c1fe17837498dc45350c8f4418eb8dab049f2f2ca0",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Removed non-input larger-version sentence from candidate and final description. That wording came from owner HTTP input and is retained historically; no claim that the candidate invented the comparison. Restated exact pale-grey uniform folds and original shadow without hidden badge.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2338,
+        691
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b047-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 770,
+        "completion_tokens": 611,
+        "total_tokens": 1381
+      },
+      "failure": null,
+      "content_ttft_ms": 1149.3348000221886,
+      "total_ms": 7433.515300042927,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "52159f67918639e5d8b64aa9e8f9fd5a0fe062f3174e685c0d6c3864aea6b4ba",
+      "summary_sha256": "f8c6d3288702cc10dfe6ebe7961ee3e4645114e5610983154e1008469f55f102",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "d68ebaae82cd30ec923b11b8452250c512dfc88ba747924fb15c9cce593468f3",
+        "task_id": "hoi4-20261103-b047-prompt-03",
+        "request_sha256": "52159f67918639e5d8b64aa9e8f9fd5a0fe062f3174e685c0d6c3864aea6b4ba",
+        "summary_sha256": "f8c6d3288702cc10dfe6ebe7961ee3e4645114e5610983154e1008469f55f102",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Retained real round wire spectacles and older grey/brown hair/red-brown patterned tie; owner restated bare head and actual primary source contract.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2177,
+        691
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b047-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 753,
+        "completion_tokens": 502,
+        "total_tokens": 1255
+      },
+      "failure": null,
+      "content_ttft_ms": 1034.0255000046454,
+      "total_ms": 6779.325500014238,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "7962a90a5ac74f32d33a9448a7f53c4c62e400bb308307fdcbad2971c7119125",
+      "summary_sha256": "2b710850ac6141811f427baa8991c5d883fa4e48856710cddadbc7447da9fbc8",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "da5772186a1c3e3f3ebe8a614cb4f98dc7a43fe9747b0b1eb54b89c95def2f63",
+        "task_id": "hoi4-20261103-b047-prompt-04",
+        "request_sha256": "7962a90a5ac74f32d33a9448a7f53c4c62e400bb308307fdcbad2971c7119125",
+        "summary_sha256": "2b710850ac6141811f427baa8991c5d883fa4e48856710cddadbc7447da9fbc8",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Changed Explicitly confirm absence of spectacles to direct image instruction No spectacles, avoiding confirmation text. Replaced generic low-key lighting with actual primary lighting rather than importing source1 darkness.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2108,
+        691
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261103-b047-sources.json",
+    "sha256": "8d067a136a2d8bc417537d0bff87683926c05394ce33ce3b6b87f27bc7fe2ed5",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T06:22:13.244062+00:00",
+  "frozen_prepared_receipt": "mod_nailong/data/production-batches/resume-20261103-b047-prepared.json",
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. The pre-dispatch cutoff was frozen before later actual calls, independently of publication time. Four different source SHA portraits remain independent. Source1 has no larger candidate and retains genuinely ambiguous black hair/head-cover contour with asymmetric low-key light and purple/charcoal backing. Eight larger candidates for the other three cards were compared, with clothing/hair/pose variants excluded as needed. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Four complete candidates were partially adopted. Owner restated actual dark contour/uncertainty, uniform folds and spectacles. Source2 candidate repeated a non-input larger-version comparison already supplied by owner; removed from final prompt without blaming invented model facts. Source4 confirmation wording normalized to No spectacles, and unsupported generic low-key wording changed to actual primary lighting. Canonical geometry/alpha appended. No model image pixels, art approval or measured net time savings.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
