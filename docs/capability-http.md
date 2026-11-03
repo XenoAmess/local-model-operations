@@ -1803,3 +1803,12 @@ Separate later formal annotations for the [private quote](evidence/2026-11-03-pr
 [The sole corrected owner-approved body](evidence/2026-11-03-free61-entry-source-stage-corrected.json) records five actual POST/END requests: one core correction selected unchanged, one unread length response, one rejected corrected binding replaced by the owner, and an original-protocol counter that cannot validate the later selected candidate. There was no third correction round.
 
 All twenty-one transmitted Java entities were complete, but an existing nominal memory ancestor was absent from those original model prefixes. The owner later supplied it for qualification and withdrew the earlier empty-gap overstatement. File count is not transitive-closure proof; the original requests were not rewritten or reposted. This corrected body was selected before public release, and software/formal acceptance remains pending at its cut.
+
+
+## 2026-11-03 Composition source, a later selected-source counter, and formal tuples
+
+[The deep-release composition source stage](evidence/2026-11-03-deep-release-composition-source-stage.json) records two completed requests. A private composition method was embedded unchanged with three owner-supplied context imports; the whole manual fixture and expectations are owner work. Its numerical seal followed model generation and preceded the author's first selected-method read. Two finite scenarios remain source expectations at this cutoff, with software and publication pending.
+
+[The later free-entry selected-source review](evidence/2026-11-03-free61-selected-source-counter-later.json) is one additional request with the selected two bodies and the subsequently supplied nominal ancestor. It adds two narrow source observations and no concrete counter, complete equivalence proof, code change or software validation. The earlier corrected five-request source stage remains unchanged.
+
+[Three minimal formal tuples](evidence/2026-11-03-poststate-three-formal-tuples-later.json) append publication facts to their existing parents. Earlier missing production-output pins and later current pins remain separate observations. The source owner's receipt and staged-hash review is attributed precisely; sole-writer publication reports are not recast as independent current-remote verification. No new HTTP, compiler, JVM, natural-runtime or performance result is claimed.
