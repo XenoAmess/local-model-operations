@@ -60,6 +60,8 @@
 
 已有原生日志优先复用 `python scripts/audit_opencode_trace.py TRACE_DIR` 的[脱敏审计结果](../docs/opencode-trace-audit.md)，再核少量必要原件。grep 的顺序比较必须保留文件/行/内容归属并检查每份结果，不能只解析首个结果或简单排序所有行；不同 read offset/limit 与显式 50KB cap 分别计。缺失/不识别保持 UNKNOWN，不能把工具诊断输出当业务审计结论。审计器没有自动 kill/重发或固定总步/POST/wall帽；实际干预仍依本次授权和明确证据。首次采用成本与后续省时对照分开，不用毫秒级重算抵扣此前人工劳动。
 
+普通 HTTP 的格式结论先用 `python scripts/audit_http_evidence.py EVIDENCE_DIR` [离线核既有证据](../docs/http-evidence-audit.md)：严格分开 finish/DONE、外层 json.loads、正文语义与采用等级。自然语言末句未完或自相矛盾不等于 JSON 语法无效；STOP 也不证明语义正确。缺失/超限/冲突保 UNKNOWN 或具体异常，不补猜，不拼半截；CONTENT/SSE 原样差异与 LF 投影分别保。原件仍私留，报告 digest 的公开权限另审。新审计器本身的准备、模型拒收/owner 接管、验证和后续是否省工分别计；不能用一次离线重算抹去此前人工成本。
+
 为原位重定义审阅body-only日志候选时，变量集合未增加也不能保证合成捕获描述符不变：日志访问顺序可能改变lambda捕获参数的first-use顺序。需要资格判断时，只读核实际生成class的fields/method descriptors及LambdaMetafactory捕获和implementation目标；javac0、源码捕获变量数不变及RAM异常路径Test都不代替shape兼容或Runtime实际instrumentation。正常日志schema、nanos值、嵌套inclusive计时和同步输出阻塞另验，不能用注入失败sink的测试授正常日志性能。[被实际classfile发现并修正的案例](../docs/evidence/2026-11-03-http-passive-submit-phases-owner-capture-shape.json)。
 
 识别同调用重复读取时，先核API是否允许动态provider和原指令的观察点；同一地址出现两次不证明可以复用第一次局部值。分别保留原read/RMW顺序、预算和异常前缀，用可变化的显式软件port核第二次观察。软件port测试不授物理race/内核或硬件并发证明；之后独立源资格发现的新缺口应是新任务，不能追授此前截断审稿的finding。[同地址两次观察的真实修正](../docs/evidence/2026-11-03-http-whole-caller-fresh-observation-correction.json)。

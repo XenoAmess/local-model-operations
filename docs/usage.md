@@ -115,3 +115,5 @@ python scripts/opencode_config.py --executor config/executor.json --workspace D:
 零owned文件的只读审计使用独立的[只读配置生成器](../scripts/opencode_readonly_config.py)与[接入步骤](opencode-readonly.md)，不把原编辑入口放宽为空scope。实测恢复时项目父配置可覆盖显式配置；须隔离环境、禁止项目配置并核实际合并结果。读取工具已执行不等于分析完成，该新案例没有最终审计答案或采用。
 
 已有原生记录可离线运行 `python scripts/audit_opencode_trace.py TRACE_DIR`，自动核 REQUEST 参数、工具 ID 配对、同参数/同结果重复、grep 顺序变化和 read 范围/显式字节 cap。默认不输出正文或业务路径，不重发 HTTP、不停止进程；格式与未知项见[只读日志审计器](opencode-trace-audit.md)。
+
+已有普通三消息 HTTP 证据使用 `python scripts/audit_http_evidence.py EVIDENCE_DIR` 的[离线审计入口](http-evidence-audit.md)。它按固定文件名和显式读取界限核实际参数/消息 SHA、逐 attempt 的 finish/DONE、外层 JSON 语法及记录的 TTFT/总耗时；缺失为 UNKNOWN，冲突与原始行尾差异单列。外层 JSON 有效、STOP、语义完整和 owner 采纳分别记录；不再按肉眼看到的末句判断 JSON 格式，也不把有效 JSON 当分析正确。默认无 raw 正文/业务路径，不重发或执行任何请求。

@@ -1,0 +1,77 @@
+{
+  "scope": "A new pure offline evidence reader for ordinary fixed-three-message HTTP; OpenCode trace auditing remains separate.",
+  "deliverable": "scripts/audit_http_evidence.py with independent synthetic tests and usage/prompt integration. Caller and runtime configuration unchanged; no import of caller, network request, subprocess, business execution or automatic retry in the delivered reader.",
+  "model_roles": [
+    {
+      "role": "implementation",
+      "max_tokens": 10000,
+      "temperature": 0,
+      "thinking": false,
+      "json_object": true,
+      "stream_include_usage": true,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "TTFT_ms": 5403.606399981072,
+      "total_ms": 37889.2539999797,
+      "usage": {
+        "prompt_tokens": 19318,
+        "completion_tokens": 4966,
+        "total_tokens": 24284
+      },
+      "cached_tokens": null,
+      "outer_JSON_valid": true
+    },
+    {
+      "role": "counter",
+      "max_tokens": 3500,
+      "temperature": 0,
+      "thinking": false,
+      "json_object": true,
+      "stream_include_usage": true,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "TTFT_ms": 3956.3008999975864,
+      "total_ms": 27319.754800002556,
+      "usage": {
+        "prompt_tokens": 19413,
+        "completion_tokens": 2717,
+        "total_tokens": 22130
+      },
+      "cached_tokens": null,
+      "outer_JSON_valid": true
+    }
+  ],
+  "concurrency": {
+    "actual_POSTs": 2,
+    "actual_ENDs": 2,
+    "transport_retries": 0,
+    "local_peak": 2,
+    "peak_overlap_seconds": 27.319141,
+    "not_a_sustained_global_concurrency_claim": true
+  },
+  "input_boundary": "Four complete current caller/trace-adapter/caller-test/config artifacts, 72992 physical bytes, plus a complete owner-authored narrow contract in the source prefix. Strong explicit output/API/privacy/provenance guidance. The independently frozen synthetic oracle was withheld; tests were owner-authored after replies.",
+  "adoption": {
+    "implementation": "Whole candidate rejected; zero generated implementation code adopted. It copied raw event dictionaries into output, ignored the total byte budget, tied syntax checking to RESULT existence, discovered attempts only from SSE files, omitted eligibility, and ended main without printing or a module entry point. Owner wrote the delivered module.",
+    "counter": "Limited source/contract corroboration only, no novel accepted oracle or code. Most items repeated explicit owner obligations; requiring a space after data: and claiming the supplied configuration was absent were rejected. No R2."
+  },
+  "validation": {
+    "synthetic_tests": 15,
+    "passed": 15,
+    "skipped": 0,
+    "network_or_JVM_in_tests": 0,
+    "real_symlink_integration": "Not established: creation permission denied on first host. Windows reparse rejection branch tested with synthetic stat metadata, no cross-platform symlink claim.",
+    "real_existing_consumers": 4,
+    "consumer_scope": "Two tool-development replies and two separately approved existing business-source replies were read offline. Original artifact SHA pins unchanged. No raw consumer copied into public fixtures.",
+    "mechanical_results": "Both development replies were syntactically valid STOP; existing length reply was invalid outer JSON, existing STOP counter was valid outer JSON. All remain OWNER_REVIEW_REQUIRED. Semantic owner grades are separate."
+  },
+  "owner_cost_and_incidents": {
+    "known_marked_begin_to_verified_seconds": 877.45211,
+    "full_task_start": null,
+    "active_owner_seconds": null,
+    "net_owner_time_saving_proven": false,
+    "first_test_run": "12 passed, one real-symlink fixture skipped for host permission. Later meaningful reparse and CLI checks plus newline projection made 15 pass/no skips.",
+    "verification01": "Owner overstrong exact CONTENT/SSE assertion overlooked Windows newline translation. Preserved failed verifier, then explicitly reported raw inequality and separate LF projection. No original rewrite or model/consumer software failure.",
+    "preparation": "One Windows search construction failed before writes; corrected bounded search. Pure offline preparation and verification costs are not model HTTP duration."
+  },
+  "limits": "Outer JSON validity is syntax only. STOP/DONE/REVIEW_ELIGIBLE never prove semantic correctness or adoption. Missing events/metrics, unsupported data and parser limits stay UNKNOWN; bounded reads never salvage a truncated stream. No runtime, Game, save, throughput or native-tool task-completion credit."
+}

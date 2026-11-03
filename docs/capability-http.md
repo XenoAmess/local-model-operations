@@ -1366,3 +1366,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 626 [eleven-site FP/direction carrier与构造顺序修正](evidence/2026-11-03-http-eleven-site-fp-carrier-constructor-repair.json)批准4222B原样：API/audit18实体60332physical/msg64135，binder59实体307975/msg321851，APIrepair19实体加完整R1；4POST3STOP+1length/0transportretry/峰3仅23.114776s。7370 binder完整R1 raw0ownerJava；9681 API compact-record ctor在隐式field赋值前读instance accessor，源审预编拒，owner一canonicalctor/字段赋值hunk修至10048，partial非whole raw API。唯一API R2length中，owner同exec wait后误读截断CONTENT，0片段采用但不能记unread；原流保，0R3。NONE审未见candidate/0oracle。Owner11439完整Test在三个R1 END后、任意CONTENT前冻，非pre-generation；首RUN在第二Memoryevent RED因owner nonvolatile snapshot ctor参数次序错，唯一helper重排恢复原outline，生产/期待trace不变。保首RED→Test02四组P，五actualprocess3.1990906含RED，1071.325823仅晚clock下界/fullstart-activeNULL/两coordinationgap不当CPU。原formalpending，后JUnit只同四组，不授lowerOS/TLS/fullPage/currentMXCSR/XMM7..15/Native172或速度。
+
+
+[普通 HTTP 只读证据审计器](evidence/2026-11-03-http-offline-evidence-auditor.json)交付：2真实STOP/外层JSON均有效，但实施whole拒0代码，owner接管；counter仅有限合同核对。15项独立合成检查通过，并只读核4份既有回复，原件SHA保。工具将finish/DONE、外层JSON、CONTENT/SSE原样与LF投影、记录指标来源和语义审阅分开；实际STOP反审外层有效纠正了人工格式误判，length仍整弃。初symlink权限跳过/后合成reparse检查与owner过宽raw相等断言保留，active/净省工未知。见[入口与读取界限](http-evidence-audit.md)，不新增模型重发或业务权限。
