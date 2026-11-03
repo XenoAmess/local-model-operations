@@ -1821,3 +1821,16 @@ All twenty-one transmitted Java entities were complete, but an existing nominal 
 [The earlier local memo's formal tuple](evidence/2026-11-03-persistent-current-local-memo-formal-later.json) preserves its pending historical cutoff and existing gap in positive memo-hit coverage. Publication added no validation, runtime or speed result.
 
 [The free/error composition's minimal software and formal facts](evidence/2026-11-03-free-error-composition-software-formal-later.json) record four owner-authored leaves, two new finite manual scenes and their incremental first processes. This unit made no new direct model request. The defined validation window is separate from process sums; earlier missing execution fields are not backfilled, and later EOL/EOF publication projections do not imply a newly compiled combined whole or hardware/runtime acceptance.
+
+
+## 2026-11-03 UTC necessary-condition guards and later software observations
+
+[The UTC source review](evidence/2026-11-03-utc-false-filter-source-review.txt) records two complete stop responses with zero code adopted. The implementation's guard changed accepted compact timestamps and an observable rejected-input cause; the independent counter also misread indices and a newline example. A different valid necessary condition was not treated as an error. The owner candidate already existed before both requests. Separate source and semantic-review wall segments are not total labor or software speed.
+
+[The later UTC software annex](evidence/2026-11-03-utc-false-filter-software-later.json) adds the first production/Test compilations and three distinct methods covering twenty-three small fixtures. It leaves the original body's NOT_HELD cutoff intact and adds no model request or adoption credit.
+
+[The private lifecycle decoder's later software and publication tuple](evidence/2026-11-03-lifecycle-private-decode-software-formal-later.json) belongs to its earlier two-request parent. Three affected existing methods ran on the new production tuple; they are not newly authored methods. Its exact production publication adds no runtime, Continue/Reconciliation dynamic coverage or performance result. These annexes do not count the separate episode98 requests again.
+
+[The free-entry finite witness source](evidence/2026-11-03-free61-finite-witness-source-later.json) contains five planned cases and no new model Test request or software pass. Its independent numerical freeze preceded the author's first target-body read, after generation; it is not a pregeneration claim.
+
+[Two earlier components' first-software annex](evidence/2026-11-03-two-poststate-components-software-later.json) records each unit's three new production TUs, one new manual TU and two finite manual cases. Whole validation windows retain queue and preparation gaps; the small process sums are not CPU or speed. Two owner CONFIG-shape assumptions stopped before Java, and outer-binding or upper-whole acceptance is not inferred. Their formal and runtime stages remain separate.
