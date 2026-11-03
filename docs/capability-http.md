@@ -1780,3 +1780,10 @@ Original pending and draft cuts remain in their approved bodies. Parent cases, s
 - [Later C/A post-state executions](evidence/2026-11-03-poststate-C-A-software-later.json): seven fresh JVMs, no compilation in this later batch. Five new C manuals cover ten scenes/884 checks; two new A manuals cover five scenes/135 checks. Earlier production/Test first checks and preparation failures stay separate; the older six-scene/448-check unit is not rerun or recounted.
 
 These later software facts do not change the original source-stage pending cuts or model request denominators. Process and batch wall times remain distinct from CPU/owner labor; runtime, natural scenario and speed acceptance remain unproved.
+
+
+## 2026-11-03 Guided allocation and tail-entry source stage
+
+[Exact owner-approved source-stage metadata](evidence/2026-11-03-guided-allocation-and-tail-entry-source-stage.json) records four real POST/END requests, all complete stop/DONE, with a four-request peak lasting41.710653 seconds. Three strongly guided decoded classes totaling7133 bytes were selected unchanged; the planned-source counter did not inspect the actual candidate and supplies no independent literal oracle. The earlier rejected requirements answer stays a separate preparation role. Compilation, new software witnesses and formal publication were pending at this cut.
+
+The frozen body's compact routing wording refers to the unchanged configuration of six total attempts including the first, at most five transient retries. It does not add six retries after the first. Source selection, finite software qualification, natural scenarios, runtime loading and measured speed remain distinct.
