@@ -2193,3 +2193,10 @@ M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-co
 [单一zero-divisor新case323](evidence/2026-11-04-http-m3-zero-divisor323-source.json)：11既有case去重后只写1新manual，owner全Test，唯一oracle-visible候选反审1STOP5.256920秒/106tokens无具体finding；仅source，未持编RUN，不重既有绿、不授独立oracle或硬件异常。
 
 [同RAM十七口adapter664](evidence/2026-11-04-http-m2-memory-adapter664-source.json)：69完整实体与强forwarding合同下，1STOP850tokens的3072字节实现rawexact采用/ownerJava0；另一1STOP197tokens仅planned-source九predicate，无candidate、数值oracle或软件信用。两请求30.621213/26.556141秒、TTFT24.641719/25.251218分别列；父两次回执/REQUEST导航误单记准备成本，非服务故障。新whole仍未完成，source-selected不授编译、ABI、Runtime、自然或提速；原cutoffs不回填。
+
+
+## 2026-11-04：664较大whole方法R1完整但源码拒收
+
+[whole-exercise664后到源码记录](evidence/2026-11-04-http-m2-whole-exercise664-rejection.json)：两角色各1STOP/DONE/JSON完整、72实际完整实体/345932字节前缀与Task/7参数审计精等，finite10000/4000。实现8864tokens的644行完整Java含method内method、类型/游标错误、全部foreign throw等硬错，编译前整拒0partial/0compilerRED/不R2，owner全接管；另一空finding只planned-source，未见候选，不能作候选审/数值oracle或PASS。
+
+先前3072字节adapter仍独立raw全采用切点，不因whole失败倒改。HTTP76.511206/26.403921秒与TTFT23.079832/24.360374分列，task起点/active未知；实际prepared SPEC别名与原路径身份误的audit后见仅准备修正、0请求重投。新whole owner源/软件/formal均pending，不加执行case、Runtime、Native172或速度信用。
