@@ -1,0 +1,82 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B080-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T21:27:02.798054+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T21:17:59.913941+00:00",
+    "window_ended_at_utc": "2026-11-03T21:18:04.500813+00:00",
+    "window_seconds": 4.586872,
+    "peak": 1,
+    "peak_duration_seconds": 4.586872,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b080-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 886,
+        "completion_tokens": 655,
+        "total_tokens": 1541
+      },
+      "failure": null,
+      "content_ttft_ms": 503.744599991478,
+      "total_ms": 4633.664200024214,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "45bf237e0e157d4ab5dda0fc871381a40b0993a2a6c59ae1d6b87d55a371d9e1",
+      "summary_sha256": "6a14d95e896a1c7e58b6a7ba77e655bfdc6d688eb3b605d0dbff5b1d2f07c9ae",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "d96245e4d9cebc01a8c1073658bc4454e7d7ced6348a14ee1c18cf7c5a7d8f7d",
+        "task_id": "hoi4-20261104-b080-prompt-01",
+        "request_sha256": "45bf237e0e157d4ab5dda0fc871381a40b0993a2a6c59ae1d6b87d55a371d9e1",
+        "summary_sha256": "6a14d95e896a1c7e58b6a7ba77e655bfdc6d688eb3b605d0dbff5b1d2f07c9ae",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Principal actual source dark hair/real eyebrow HAIR, clean face, open dark suit/pale shirt/RED tie, blue-grey backing and pose/crop retained. Removed larger-only lapel-symbol discussion and final visual-approval drafting sentence from actual image prompt; hidden decorations remain excluded.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2562,
+        864
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b080-sources.json",
+    "sha256": "f4e23308c8da551146610fc74782d29d523834c694506af992229be758e85250",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T21:22:47.206570+00:00",
+  "stage_at_cutoff": "One prepared uncalled LOW original-source prompt at saved cutoff; one image per dispatch window with HIGH rechecked separately. Actual primary and matched larger context were viewed; larger-only gold lapel symbol is hidden behind the primary note and excluded. Text model received owner observations, not image pixels. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Complete prompt retained supplied dark receding hair/real eyebrow HAIR, clean closed face, open dark suit/pale shirt/RED tie, blue-grey backing, crop and round-anatomy contract. Owner removed final visual-approval drafting sentence and larger-only-symbol discussion from actual image instructions, restated exact source and appended canonical alpha/hair rules. No text-model visual approval or measured savings.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
