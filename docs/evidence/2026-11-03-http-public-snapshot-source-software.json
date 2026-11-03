@@ -1,0 +1,111 @@
+{
+ "schema": "portable-parser-reuse-case/v1",
+ "publication": "draft_pending_explicit_approval",
+ "topic": "Reuse one parse while preserving two entry orders",
+ "problem": "One entry parsed immutable raw JSON to select a lane, then parsed the same bytes again.",
+ "owner_change": "Use one private helper with this invocation's parser-owned tree. Other entries still parse their own bytes. No caller-typed tree, cache, trust flag or public API was added.",
+ "contracts": [
+  "Selecting entry: parse, choose lane, then apply its optional smaller size limit.",
+  "Direct limited entry: smaller size limit before parse. Full entry gains no smaller limit.",
+  "Keep original raw bytes for terminal decimal category/value/removal checks, strict reparse and serialization roundtrip.",
+  "Preserve UTF-8, tokens, missing/null distinctions, identity roles and first-failure order."
+ ],
+ "http": {
+  "logical_calls": 3,
+  "posts": 3,
+  "ends": 3,
+  "in_flight_at_audit": 0,
+  "attempts_per_call": 1,
+  "stops_per_call": 1,
+  "sse_done_per_call": true,
+  "message_roles": [
+   "system",
+   "user",
+   "user"
+  ],
+  "byte_basis": "Actual message content UTF-8 bytes; staged file totals are different.",
+  "ttft_basis": "First nonempty content delta",
+  "calls": [
+   {
+    "role": "implementation",
+    "message_utf8_bytes": [
+     301,
+     112134,
+     1840
+    ],
+    "output_token_limit": 4800,
+    "ttft_ms": 5068.892899987986,
+    "total_ms": 15737.32819998986,
+    "review": "whole rejected; zero code adopted",
+    "reason": "Removed the lane size check, duplicated the decoder, changed terminal raw material through an added encoding, and supplied unreliable patch context."
+   },
+   {
+    "role": "counter",
+    "message_utf8_bytes": [
+     301,
+     112134,
+     2007
+    ],
+    "output_token_limit": 3800,
+    "ttft_ms": 6562.558100005845,
+    "total_ms": 17388.96020001266,
+    "review": "partial source obligations only; not approval",
+    "reason": "Useful obligations, but imprecise typed-tree wording and no actual candidate review or complete first-failure proof."
+   },
+   {
+    "role": "witness",
+    "message_utf8_bytes": [
+     301,
+     112134,
+     2028
+    ],
+    "output_token_limit": 6000,
+    "ttft_ms": 829.4311999925412,
+    "total_ms": 16901.688799989643,
+    "review": "whole rejected before compilation; zero code adopted",
+    "reason": "Wrong return-domain assumptions, overflowing integer literals, an invented assertion API, incorrect first-failure expectations, and missing decimal/signed-zero witnesses."
+   }
+  ],
+  "model_code_adopted": 0
+ },
+ "owner_result": {
+  "implementation": "whole owner-authored change",
+  "tests": "whole independently owner-authored nonblind tests",
+  "coverage": "Full/absent material, null presence, exact decimals, numeric/identity/marker gates, and a real oversized/deep document proving entry-order differences."
+ },
+ "software_validation": {
+  "implementation_units_compiled": 1,
+  "new_test_units_compiled": 1,
+  "phases": [
+   {
+    "phase": "implementation_compile",
+    "exit_code": 0,
+    "process_seconds": 5.73514870001236
+   },
+   {
+    "phase": "test_compile",
+    "exit_code": 0,
+    "process_seconds": 3.701686000014888
+   },
+   {
+    "phase": "test_run",
+    "exit_code": 0,
+    "process_seconds": 6.445948200009298
+   }
+  ],
+  "xml_reports": 3,
+  "distinct_xml_test_cases": 6,
+  "passed": 6,
+  "failed": 0,
+  "skipped": 0,
+  "process_seconds_sum": 15.8827829,
+  "timing_scope": "Sum of three actual process durations, not end-to-end elapsed time or a benchmark.",
+  "active_seconds": "UNKNOWN"
+ },
+ "limits": {
+  "runtime_adopted": false,
+  "runtime_active_state": "UNKNOWN",
+  "performance_measurement": null,
+  "speedup_claim": false
+ }
+}

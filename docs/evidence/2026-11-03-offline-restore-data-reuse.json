@@ -1,0 +1,54 @@
+{
+  "schema": "portable-software-case-draft/v1",
+  "publication": {
+    "status": "DRAFT_PENDING_EXPLICIT_PARENT_APPROVAL",
+    "approved": false,
+    "externally_sent": false
+  },
+  "case": "Reduce redundant defensive byte copies in a restore validation prefix",
+  "problem": "A restore path copied an immutable byte holder for an equality comparison and separately copied each freshly loaded material twice for adjacent length and digest checks.",
+  "change": [
+    "Compare the holder's private bytes through its existing read-only content comparison, avoiding an accessor clone. The caller-supplied saved-state encoder still executes at its original point on every replay.",
+    "After every fresh archive load, take one local defensive copy and use it for both length and digest checks. Keep the original length-first short circuit, so a length mismatch never invokes the digest."
+  ],
+  "preserved_contract": [
+    "Every replay invokes the original saved-state encoder and freshly loads archive material; no encoded-state or material-qualification cache is introduced.",
+    "Exact byte comparison, material bounds, digest validation and original failure order remain in place.",
+    "Original manifest, state, session and canonical-entry gates, plus all later replay callbacks, retain their positions and checks.",
+    "Private byte ownership and defensive accessor behavior remain intact; no new public API, field, method or type is added."
+  ],
+  "software_evidence": {
+    "implementation": "Two edits within existing method bodies; owner-authored, independently source-reviewed.",
+    "test_origin": "Six new public-prefix tests using a real read-only writer fixture and its issued session. Test review was nonblind to the candidate.",
+    "source_revision_history": "Two earlier test revisions were corrected during source review before any test compilation. They were not compiler failures. The final revision was the first actually compiled and executed.",
+    "actual_phases": [
+      {"phase": "production_compile", "exit_code": 0, "process_seconds": 3.526710300007835},
+      {"phase": "test_compile", "exit_code": 0, "process_seconds": 5.113199400017038},
+      {"phase": "test_run", "exit_code": 0, "process_seconds": 7.051124000019627}
+    ],
+    "actual_process_seconds_sum": 15.6910337,
+    "timing_scope": "Sum of three recorded process durations; not an end-to-end benchmark or speed measurement.",
+    "distinct_tests": 6,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "xml_reports": 3,
+    "xml_test_counts": [6, 0, 0],
+    "coverage": [
+      "Each replay reopens materials and checks the actual session before the external replay callback.",
+      "A second replay cannot reuse the first material qualification.",
+      "A mismatching saved state fails before the external callback.",
+      "A caller-supplied numeric subclass still observes saved-state encoding on every replay.",
+      "Wrong length performs no digest and stops before later material.",
+      "Matching length still hashes and rejects a wrong digest."
+    ],
+    "diagnostic": "The successful test run also emitted a logging-manager initialization diagnostic; stderr was not empty."
+  },
+  "proof_boundary": "The tests exercise the public software validation prefix through the saved-state comparison and a sentinel immediately before the external replay callback. They do not establish a successful complete recovery, later manifest join or reducer behavior, a native frame, or live-system authority.",
+  "model_calls": 0,
+  "model_code_adopted": 0,
+  "active_seconds": "UNKNOWN",
+  "runtime_adopted": false,
+  "speed_measurement": null,
+  "startup_or_reload_compatibility": "NOT_PROVED"
+}

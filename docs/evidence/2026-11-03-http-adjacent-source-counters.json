@@ -1,0 +1,66 @@
+{
+  "schema": "http-local-data-adjacent-two-counters/v1",
+  "approved_for_publication": true,
+  "relation": "Two genuinely new source counter roles adjacent to the already-published first eight; do not recount those eight or their case denominator.",
+  "parameters": {
+    "fixed_messages": 3,
+    "max_tokens": 2400,
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "DIRECT_read_seconds": 600,
+    "DIRECT_total_seconds": 2400,
+    "maximum_attempts": 6
+  },
+  "observed": {
+    "roles": 2,
+    "POSTs": 2,
+    "retries": 0,
+    "STOP_full_JSON_VALID": 2,
+    "peak_real_http": 2,
+    "peak_seconds": 24.23938,
+    "attempt_wall_sum_seconds": 51.233396199997514,
+    "model_code_adopted": 0,
+    "owner_active_seconds": null,
+    "CPU_seconds": null
+  },
+  "roles": [
+    {
+      "id": "transport-replay-result-counter",
+      "whole_source_files": 18,
+      "request_bytes": 463649,
+      "request_sha256": "260361458b7bdb39a5ddda54c4c4634c58e3d9655612094f9465b44b8cabbb45",
+      "completion_tokens": 961,
+      "TTFT_ms": 20182.13120001019,
+      "total_ms": 26994.063399994047,
+      "grade": "WHOLE_APPROVAL_REJECTED_NO_CODE",
+      "notes": [
+        "Whole compatibility approval not accepted: public ActionCommand arguments can retain BigInteger subtypes; successful decode does not generally prove transitive deep immutability.",
+        "Private accepted Result projection may ignore subject IDs, but original argument-to-family provenance is not closed by this response; current unguarded proposal remains unqualified.",
+        "A separate owner refinement can compare the two already-parsed immutable family strings and preserve original final decode when they differ. That later proposal is not this submitted candidate and is not retroactively credited."
+      ]
+    },
+    {
+      "id": "dispatch-ack-content-equality-counter",
+      "whole_source_files": 13,
+      "request_bytes": 302337,
+      "request_sha256": "266b33a85162565f2896146d667f6d42cc4371dedd76122d15f845df770686b1",
+      "completion_tokens": 483,
+      "TTFT_ms": 13791.782799991779,
+      "total_ms": 24239.332800003467,
+      "grade": "PARTIAL_SOURCE_OBSERVATION_NO_CODE",
+      "notes": [
+        "Partially correct source observation: contentEquals performs the same full comparison and retains the left payload defensive getter; known constructors establish nonnull Ack original frame.",
+        "No new implementation or reached counterexample; independent source peer supplies exact receiver/argument order and input confinement proof, not this short answer.",
+        "Candidate remains D-only uncompiled/unadopted; original custody/session/reference validation is independent and retained."
+      ]
+    }
+  ],
+  "source_scope": "Complete actual producer/callee source and physical D-only proposals; proposal-informed counters with no owner oracle supplied. No completed HTTP role reopened.",
+  "limits": [
+    "No source execution/compiler/Test/Game query/deployment or measured hotspot/speed credit.",
+    "No candidate promoted merely because response JSON is valid or an answer claims safe.",
+    "Arguments and records are not assumed deeply immutable; private parsed result projection and immutable guarded fields require exact proof."
+  ],
+  "private_review_sha256": "1d2682b4ae814e068e0b76b417e5972f4d0ef159d5ca1fac6085ab381a630f71"
+}

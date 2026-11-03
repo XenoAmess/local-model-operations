@@ -1,0 +1,240 @@
+{
+  "status": "TWO_UNCOMPILED_SOURCE_COMPONENTS_SELECTED",
+  "tasks": "M3 F78063-byte and F80069-byte full represented protocol children of an existing205-byte caller",
+  "distinct_work": "For each child, three different new classes (API, whole protocol, binding) and one original-protocol feasibility review were requested concurrently. Later actual unresolved classes received only finite corrections.",
+  "input": "Each initial request contains23 complete current Java files, exact original ASM/receipt and explicit new API proposal. New API was identified as a proposal before implementation, not falsely described as existing compiled source. Private oracle/Test absent.",
+  "actual_HTTP": {
+    "POST": 15,
+    "END": 15,
+    "attempts": 15,
+    "peak": 8,
+    "peak8_seconds": 32.589923,
+    "current_inflight": 0,
+    "complete_stop": 14,
+    "length_unread": 1,
+    "attempt_duration_sum_seconds": 478.39186929998687
+  },
+  "flows": [
+    {
+      "component": 264,
+      "role": "api-method",
+      "round": "http-r1",
+      "budget": 4500,
+      "ttft_seconds": 7.063745899999049,
+      "attempt_seconds": 38.11046920000808,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 28527,
+        "completion_tokens": 1567,
+        "total_tokens": 30094
+      }
+    },
+    {
+      "component": 264,
+      "role": "whole-method",
+      "round": "http-r1",
+      "budget": 12000,
+      "ttft_seconds": 12.776021700003184,
+      "attempt_seconds": 59.88815740001155,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 28641,
+        "completion_tokens": 4415,
+        "total_tokens": 33056
+      }
+    },
+    {
+      "component": 264,
+      "role": "binding-method",
+      "round": "http-r1",
+      "budget": 3000,
+      "ttft_seconds": 16.507952899992233,
+      "attempt_seconds": 33.46680589998141,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 28608,
+        "completion_tokens": 1086,
+        "total_tokens": 29694
+      }
+    },
+    {
+      "component": 264,
+      "role": "original-protocol-counter",
+      "round": "http-r1",
+      "budget": 6500,
+      "ttft_seconds": 13.998380200006068,
+      "attempt_seconds": 35.28194610000355,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 28571,
+        "completion_tokens": 1084,
+        "total_tokens": 29655
+      }
+    },
+    {
+      "component": 264,
+      "role": "whole-method",
+      "round": "http-r2",
+      "budget": 8500,
+      "ttft_seconds": 3.25623440000345,
+      "attempt_seconds": 27.84553250001045,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 35129,
+        "completion_tokens": 3559,
+        "total_tokens": 38688
+      }
+    },
+    {
+      "component": 264,
+      "role": "binding-method",
+      "round": "http-r2",
+      "budget": 1500,
+      "ttft_seconds": 4.253406700008782,
+      "attempt_seconds": 6.9892108000058215,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 29319,
+        "completion_tokens": 135,
+        "total_tokens": 29454
+      }
+    },
+    {
+      "component": 264,
+      "role": "api-method",
+      "round": "http-r2",
+      "budget": 2000,
+      "ttft_seconds": 3.1963338000059593,
+      "attempt_seconds": 7.899796800018521,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 29747,
+        "completion_tokens": 245,
+        "total_tokens": 29992
+      }
+    },
+    {
+      "component": 265,
+      "role": "api-method",
+      "round": "http-r1",
+      "budget": 4500,
+      "ttft_seconds": 13.998257500003092,
+      "attempt_seconds": 39.717160900007,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 28979,
+        "completion_tokens": 1781,
+        "total_tokens": 30760
+      }
+    },
+    {
+      "component": 265,
+      "role": "whole-method",
+      "round": "http-r1",
+      "budget": 12000,
+      "ttft_seconds": 16.507884999999078,
+      "attempt_seconds": 92.70794200000819,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 29093,
+        "completion_tokens": 9987,
+        "total_tokens": 39080
+      }
+    },
+    {
+      "component": 265,
+      "role": "binding-method",
+      "round": "http-r1",
+      "budget": 3000,
+      "ttft_seconds": 16.50796459999401,
+      "attempt_seconds": 32.60676689998945,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 29059,
+        "completion_tokens": 1004,
+        "total_tokens": 30063
+      }
+    },
+    {
+      "component": 265,
+      "role": "original-protocol-counter",
+      "round": "http-r1",
+      "budget": 6500,
+      "ttft_seconds": 16.581843100022525,
+      "attempt_seconds": 37.21097919999738,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 29023,
+        "completion_tokens": 1252,
+        "total_tokens": 30275
+      }
+    },
+    {
+      "component": 265,
+      "role": "whole-method",
+      "round": "http-r2",
+      "budget": 8500,
+      "ttft_seconds": 4.440156600001501,
+      "attempt_seconds": 23.189302299986593,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 41299,
+        "completion_tokens": 2695,
+        "total_tokens": 43994
+      }
+    },
+    {
+      "component": 265,
+      "role": "binding-method",
+      "round": "http-r2",
+      "budget": 1800,
+      "ttft_seconds": 5.749480500002392,
+      "attempt_seconds": 7.717361999995774,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 29758,
+        "completion_tokens": 204,
+        "total_tokens": 29962
+      }
+    },
+    {
+      "component": 265,
+      "role": "candidate-api-counter",
+      "round": "http-r1",
+      "budget": 4500,
+      "ttft_seconds": 5.748797699983697,
+      "attempt_seconds": 31.82713709998643,
+      "finish": "length",
+      "reported_tokens": {
+        "prompt_tokens": 30368,
+        "completion_tokens": 4500,
+        "total_tokens": 34868
+      }
+    },
+    {
+      "component": 265,
+      "role": "candidate-api-counter",
+      "round": "http-r2",
+      "budget": 7000,
+      "ttft_seconds": 0.8307006999966688,
+      "attempt_seconds": 3.9333001999766566,
+      "finish": "stop",
+      "reported_tokens": {
+        "prompt_tokens": 30438,
+        "completion_tokens": 328,
+        "total_tokens": 30766
+      }
+    }
+  ],
+  "adoption": {
+    "264": "API R1+two exact R2 hunks, binding R1+one exact R2 hunk, no owner executable edit to either. Whole R1 rejected; whole R2 partial +owner3semantic changes/2comment changes.",
+    "265": "API exactrawR1; binding R1+R2 one executable type hunk; R2 comment wrongold anchor0match excluded, owner comment1. WholeR1 rejected; wholeR2 partial +owner1executable RSP correction.",
+    "counter": "Original264 limited local facts only, not whole audit acceptance. Original265 supposed sourceordering contradiction false/whole rejected. API265R1length unread; R2 only reports required invalid-input rejection as supposed counters/whole rejected. No new counter-driven source edit."
+  },
+  "length_boundary": "The4500-token actual-API review was entirely unread/discarded. Its only correction used7000 plus compact output/item limits, so it is not a budget-only experiment or semantic failure. That complete correction still supplied no real counter.",
+  "independence": "Two offline finite original-source oracles were frozen before their authors read new candidate bodies; whole RAM test bodies are not yet validated. Original-protocol model reviewers had proposed contracts but no candidate bodies. Later API review was explicitly candidate-visible.",
+  "cost": "Owner preparation/review/repair is real; all full-task active time UNKNOWN. Markers are stage cutoffs with earlier discovery separately unknown. HTTP duration sum is neither CPU nor owner wall time.",
+  "software_and_formal": "PENDING_AT_THIS_CUTOFF; no target JVM/old-source rerun or real-machine result.",
+  "limits": "Represented low-register/stack/DF/partial-MXCSR software only; child algorithms stay explicit foreign outcomes. No full hardware ABI/RFLAGS/EH/upperYMM, actual Game, loaded-runtime or speed claim.",
+  "publication_permission": "Models may publish this exact sanitized JSON only, not raw source/REQUEST/private oracle or machine paths."
+}

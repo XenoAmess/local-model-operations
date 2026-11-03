@@ -1,0 +1,48 @@
+{
+  "status": "SOFTWARE_FIRSTS_COMPLETE_FORMAL_PENDING",
+  "task": "M3 ADD219 same-storage range/reverse binding262",
+  "new_files": {
+    "production": 1,
+    "manual_tests": 3
+  },
+  "producer_origin": "Owner offline implementation; no model Java in this unit.",
+  "oracles": "Three independent offline source authors froze finite oracles before candidate reading; later peer reviews were candidate-visible source reviews.",
+  "firsts": {
+    "production_strict_seconds": 0.7477089000167325,
+    "manuals": [
+      {
+        "label": "whole",
+        "source_case_count": 2,
+        "strict_seconds": 0.9877931000082754,
+        "run_seconds": 0.20473590001347475,
+        "manual_exit0": true
+      },
+      {
+        "label": "failure",
+        "source_case_count": 2,
+        "strict_seconds": 0.9090907000063453,
+        "run_seconds": 0.21205229999031872,
+        "manual_exit0": true
+      },
+      {
+        "label": "foreign",
+        "source_case_count": 99,
+        "strict_seconds": 0.9206057999981567,
+        "run_seconds": 0.17744820000370964,
+        "manual_exit0": true
+      }
+    ]
+  },
+  "cost": {
+    "phase_seconds_sum": 4.159434900037013,
+    "first_prod_strict_begin_to_last_manual_END_seconds": 3966.918768,
+    "wall_includes": "Preparation, actual SAVE/P0 resource wait, source and peer reviews, coordination. It is not continuous CPU or a speed result.",
+    "owner_active_seconds": "UNKNOWN",
+    "whole_task_start": "NOT_CAPTURED"
+  },
+  "old_compile_or_RUN": 0,
+  "HTTP": 0,
+  "formal": "PENDING_AT_THIS_CUTOFF",
+  "limits": "Finite software protocol and same-RAM effects only; no hardware/native/loaded/runtime performance claim. Empty stdout manuals are not assigned invented counters.",
+  "publication_permission": "Models may publish this exact sanitized JSON; raw source, requests, machine paths and private oracle material are not approved for copying."
+}

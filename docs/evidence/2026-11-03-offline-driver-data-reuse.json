@@ -1,0 +1,74 @@
+{
+  "schema": "portable-capability.driver-json-first-wire.v1",
+  "approved_for_publication": true,
+  "approved_utc": "2026-11-03T09:57:07.277326+00:00",
+  "privacy": "Only this exact payload is approved. No raw prompt/response, source bodies, absolute private paths, Game identifiers or machine argv are included.",
+  "parent_unit": "offline-json / Driver JSON node-to-wire conversion",
+  "current_status": "source reviewed, first compilation and three new public DATA methods passed; formal pending at this cutoff, runtime not adopted",
+  "problem": "The original conversion built a private typed tree, encoded it for a finite byte bound, then encoded that same tree again for the returned bytes.",
+  "compatibility_counterexample": "A public BigInteger subclass can override toString. A value returning1 then2 must still return the second wire; a sentinel thrown on the second conversion must still escape as the identical exception. Declaring a containing record final does not freeze its component behavior.",
+  "selected_mechanism": "Keep the original conversion, first encoding and native-byte bound in order. Reuse the detached first byte array only when every typed leaf has repeatable behavior: null or exact BigInteger for integer payloads, and the other final primitive/String/enum forms. All BigInteger subclasses retain the original second encoding, without calling their methods during qualification.",
+  "proof_scope": [
+    "The converted graph owns copied containers; the predicate does not revisit public JsonNode getters or callbacks.",
+    "Exhaustively handle all current sealed variants; no default-true branch silently admits future types.",
+    "Eligibility is after the original first encode and its bounds. Failing eligibility follows the original second encoding rather than reparsing the source.",
+    "A private helper was added. Public signatures and project type count are unchanged, but this is a structural method change; body-only live redefinition is not automatically qualified."
+  ],
+  "authorship_and_model_accounting": {
+    "offline_source_agent": "one sole source role",
+    "independent_oracle_and_Test_agent": "another sole role, source oracle frozen before reading the candidate",
+    "parent": "review, pin/XML consumption and delivery",
+    "local_model_HTTP_for_this_unit": 0,
+    "local_model_executable_lines": 0,
+    "model_test_code": 0,
+    "source_and_test": "offline agents authored, with parent review; do not count offline-agent code as local-Qwen adoption"
+  },
+  "rejected_history": [
+    "A superseded source-only version had an unqualified default branch; only the exhaustive final version was compiled.",
+    "A CRLF anchor expectation failed against the LF baseline before creating a candidate. The preparation failure was retained.",
+    "Native preparation corrected guessed package navigation before JVM startup. An actual SAVE-open admission yielded with zero JVM/BEGIN; it was not a compiler failure."
+  ],
+  "software_observation": {
+    "new_production_TUs": 1,
+    "new_Test_TUs": 1,
+    "new_unique_Test_methods": 3,
+    "methods": [
+      "changing subclass returns literal second token2",
+      "second subclass encoding propagates the same RuntimeException sentinel",
+      "null integer and all stable variants keep exact bytes, including wide integer, -0.0,1e999,Unicode and lone-surrogate escaping"
+    ],
+    "first_production_process_wall_seconds": 4.138893900002586,
+    "first_Test_compile_process_wall_seconds": 3.5746071999892592,
+    "first_JUnit_process_wall_seconds": 5.308239100006176,
+    "unique_XML_results": "3PASS/0skip/0failure/0error",
+    "old_source_recompilation": 0,
+    "old_Test_methods_RUN": 0,
+    "actual_RUN_stderr": "234 bytes: JBoss LogManager accessed before its logging-manager property was set. Kept as a real ERROR line despite exit0/three passing methods. Never report stderr0."
+  },
+  "cost": {
+    "first_source_read_utc": "2026-11-03T08:14:50.797184+00:00",
+    "last_run_end_utc": "2026-11-03T09:45:29.310720+00:00",
+    "marked_wall_seconds": 5438.513536,
+    "process_wall_sum_seconds": 13.021740199998021,
+    "prod_to_test_gap_seconds": 101.334653,
+    "test_to_run_gap_seconds": 0.864874,
+    "active_owner_seconds": null,
+    "OS_CPU_seconds": null,
+    "wall_includes": "source discovery/qualification/review, Native preparation, actual SAVEOPEN yield0JVM, resource and coordination waiting, first compilation and RUN; process wall is not CPU"
+  },
+  "limits": [
+    "The predicate adds a graph traversal; avoided encoding does not prove net CPU/heap/wall improvement.",
+    "64MiB/256MiB extremes, all possible custom JsonNode behaviors and heap peak/OOM remain source-limited or unmeasured.",
+    "Exact source-to-loaded-library provenance is not inferred from an official source jar or used binary API.",
+    "Only one new production class was produced; whole-class/caller coherence is for the runtime owner at a necessary adoption boundary.",
+    "No runtime adoption, Game action, SAVE, end-to-end speed or10-second target credit."
+  ],
+  "frozen_raw": {
+    "production_bytes": 12323,
+    "production_sha256": "a5dc1397b765e314f391797a732ef4daaa6fd2ae816195576f98083b246b3c83",
+    "Test_bytes": 3160,
+    "Test_sha256": "fb24808a51bae3ff87dda2db360d289fb172e1fb75bda364a8ae5a4ed0dd3ef4",
+    "final_delivery_sha256": "3682ced3594ed6f18841dffa3c7fc6b9cb8f151b22f12df5aa02cc1eb69f77a7"
+  },
+  "configuration": "No local source HTTP was invoked for this unit; no endpoint/caller configuration or live runtime configuration was changed."
+}

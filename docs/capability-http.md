@@ -1681,3 +1681,12 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 [两项真实源码后继与owner lease实现](evidence/2026-11-03-http-pool-leases-owner-transaction-boundaries.json)：同6份完整当前代码/配置加合同，实际message2每份67979B；2POST/2STOP/DONE/strictVALID、0retry，预算6500/3000。模型5edit修订AST有效但四个独立临时数据库反例实际成立：source吃满未来Runtime位、确认无POST仍占UNKNOWN、同DB不同capacity可增发、bool时间被接纳；whole拒/0code。dispatcher反审只有限源码观察，六次顺序retry不代表六同时HTTP，旧已知claim问题不冒新发现。
 
 Owner独立SQLite库经8项新无网络测试，包括12进程原子争3个source位再授1个Runtime位；配置与tombstone持久、UNKNOWN不自动释放、既有token不授newly_acquired。0旧绿重跑/0caller或Runtime改动；测试0.6539948s是窄processwall，完整准备与active工时UNKNOWN。该库不是完整rolling dispatcher，也不保证后端推理slot、持续60或净省工。
+
+
+2026-11-03 后到批准单元（只追加，原 pending／source cutoffs 保留）：[手工范围与正式后见](evidence/2026-11-03-offline-range-262.json)、[同案正式](evidence/2026-11-03-offline-range-262-later-formal.json)；[完整入口源阶段](evidence/2026-11-03-http-full-entry-source-263.json)；[两个子组件15流源阶段](evidence/2026-11-03-http-two-child-source-264-265.json)、[准备墙钟](evidence/2026-11-03-http-two-child-source-cost-264-265.json)、[独立后到反审](evidence/2026-11-03-http-two-child-source-reviews-264-265.json)。有限软件、正式及 Runtime 仍按各原件切点，候选格式有效不授语义通过。
+
+[Driver DATA 单元](evidence/2026-11-03-offline-driver-data-reuse.json)及[同案正式后见](evidence/2026-11-03-offline-driver-data-reuse-later-formal.json)记录0本地HTTP的owner实现；[poststate四波](evidence/2026-11-03-http-poststate-source-four-waves.json)保留32流0代码采用，不外推运行收益。
+
+[相邻两项反审](evidence/2026-11-03-http-adjacent-source-counters.json)、[原index角色正式后见](evidence/2026-11-03-http-source-index-later-formal.json)、[nominal实现源阶段](evidence/2026-11-03-http-nominal-source-stage.json)分别记采用与错误，不把length的后见软件改写为模型成功；nominal单元保留owner误开partial的原错误记录。
+
+[范围641正式后见](evidence/2026-11-03-http-range-641-later-formal.json)、[范围642正式后见](evidence/2026-11-03-http-range-642-later-formal.json)、[范围643正式后见](evidence/2026-11-03-offline-range-643-later-formal.json)仅同组附页，不增加Test/HTTP分母。[Public snapshot](evidence/2026-11-03-http-public-snapshot-source-software.json)与[restore DATA](evidence/2026-11-03-offline-restore-data-reuse.json)按owner后到明确许可发表原字节；正文draft/pending标记保为历史切点，许可由本次后到记录说明。
