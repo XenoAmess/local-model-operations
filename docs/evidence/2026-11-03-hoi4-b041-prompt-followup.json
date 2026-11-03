@@ -1,0 +1,212 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B041-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T04:03:58.454168+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T03:57:42.583041+00:00",
+    "window_ended_at_utc": "2026-11-03T03:57:49.708576+00:00",
+    "window_seconds": 7.125535,
+    "peak": 4,
+    "peak_duration_seconds": 6.475515,
+    "average_inflight": 3.9068469946467177
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261103-b041-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 741,
+        "completion_tokens": 497,
+        "total_tokens": 1238
+      },
+      "failure": null,
+      "content_ttft_ms": 1105.0586000201292,
+      "total_ms": 6488.027099985629,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "e2a6415849f032e2e4b12da8ab2d8697089ac2ae46d48cbcba5549326ec88ecb",
+      "summary_sha256": "4f47385a0a1ac39eec40769085614085e2ad4ffdf71d841acfc004702e13ce3c",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "4475da94c66cc97ff6b7afe7feda1fce06cc3d63be211f2b3a4de7b8abb5b19d",
+        "task_id": "hoi4-20261103-b041-prompt-01",
+        "request_sha256": "e2a6415849f032e2e4b12da8ab2d8697089ac2ae46d48cbcba5549326ec88ecb",
+        "summary_sha256": "4f47385a0a1ac39eec40769085614085e2ad4ffdf71d841acfc004702e13ce3c",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Candidate preserved clean bare head, short close-cut hair, CLOSED collar/pale inner edge and red/gold tabs; owner restated exact source features and compact geometry.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2117,
+        634
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b041-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 778,
+        "completion_tokens": 547,
+        "total_tokens": 1325
+      },
+      "failure": null,
+      "content_ttft_ms": 1227.0275999908336,
+      "total_ms": 7122.103100002278,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "85955cd0a8b3e90d2f91c0ee6462f52095c2708ed72fdafd4114d33f6c121d9c",
+      "summary_sha256": "659e7cf9e6432b71e2fc52f621b506ce6a900127272450b296cb284091e10c23",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "18f4b01111c47a515d73bff18cd3c7d175ccd59eaef6c6210acf949a27fafa43",
+        "task_id": "hoi4-20261103-b041-prompt-02",
+        "request_sha256": "85955cd0a8b3e90d2f91c0ee6462f52095c2708ed72fdafd4114d33f6c121d9c",
+        "summary_sha256": "659e7cf9e6432b71e2fc52f621b506ce6a900127272450b296cb284091e10c23",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Removed candidate wording do-not-omit-if-unresolved eye-rim sentence: the primary fine eye-rim detail remains unknown, no prominent new glasses. Restated actual source-exposed gold/pale star, blue/gold cord and muted ribbon region beside note.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2323,
+        634
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b041-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 760,
+        "completion_tokens": 555,
+        "total_tokens": 1315
+      },
+      "failure": null,
+      "content_ttft_ms": 1216.1539000226185,
+      "total_ms": 7109.75350002991,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "cbe6a407cc6c59e73ddea3a59b0998e61d5e9c8e2bf5cac679c5416364dcede5",
+      "summary_sha256": "448690dc8b482e349f84d76be6d967a5432d6c02d0b8881a12934ecef12ac8c3",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "d578b58e64613dc344d829692e98af7d9f9a723162c9512bf30a4b6fc765f660",
+        "task_id": "hoi4-20261103-b041-prompt-03",
+        "request_sha256": "cbe6a407cc6c59e73ddea3a59b0998e61d5e9c8e2bf5cac679c5416364dcede5",
+        "summary_sha256": "448690dc8b482e349f84d76be6d967a5432d6c02d0b8881a12934ecef12ac8c3",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Retained actual bald crown, sparse grey hair and pale moustache with CLOSED olive collar/pale inner edge/small gold button; owner restated exact primary features and compact geometry.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2163,
+        634
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b041-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 775,
+        "completion_tokens": 548,
+        "total_tokens": 1323
+      },
+      "failure": null,
+      "content_ttft_ms": 1111.8160999612883,
+      "total_ms": 7127.694899972994,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "6d9d338d1574ce151ba28e09a5bbfba712661abf7873bd4645d015c9ae4808e5",
+      "summary_sha256": "c88f1acb5ab34a790e82c51ba77d0a6792a4bb20541c5999b223be6e7603426d",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "5f112ed2a9a22a6fe9e002dca086602bebfb75e34f09c6cc984be2bf621b94ac",
+        "task_id": "hoi4-20261103-b041-prompt-04",
+        "request_sha256": "6d9d338d1574ce151ba28e09a5bbfba712661abf7873bd4645d015c9ae4808e5",
+        "summary_sha256": "c88f1acb5ab34a790e82c51ba77d0a6792a4bb20541c5999b223be6e7603426d",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Retained receding short dark hair, narrow moustache, CLOSED olive collar/pale inner edge and red/gold tabs. Fine eye-rim detail remains explicitly uncertain, no invented prominent glasses.",
+          "Canonical alpha rules appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "bc18c31413157877bdbbb6e85bfc3da32e1cf6e2e51691cb34c0c8d9f79a7b18",
+        "config/executor.json": "226c71f4b200de192461968da123e633ad74865b9d72c061a4e88a9856472f40",
+        "scripts/call.py": "ff66e0415c7768c59417f4c2a5bb0e1096f975754e076d50d033e34c0fe5ad28",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2274,
+        634
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261103-b041-sources.json",
+    "sha256": "232fb40041a65eb2950aa36252906aae543f33cd9138e8915465596d53925d07",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T04:01:35.572917+00:00",
+  "frozen_prepared_receipt": "mod_nailong/data/production-batches/resume-20261103-b041-prepared.json",
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. The pre-dispatch cutoff was frozen before later actual calls, independently of publication time. Four different source SHA portraits remain independent. Four bareheaded small cards have different hair/facial-hair states and CLOSED collars; primary source-exposed chest fittings remain bounded by the note. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Four complete candidates retained the observed bare head, hair/facial hair and CLOSED collar. Owner partially adopted them with exact-source geometry/alpha restatement. Source2 candidate wording about not omitting unresolved eye-rim shading was clarified: that fine detail is unknown and no prominent new glasses may be invented. Actual visible chest-star/cord/ribbon region remains explicit. No image pixels, visual approval or independently measured time savings.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
