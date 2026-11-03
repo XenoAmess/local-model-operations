@@ -1539,3 +1539,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 [Read-history 同parent正式后见](evidence/2026-11-03-http-read-history-adjacent-encode-later-formal.json)另记9ea45fae，生产formal122733B与原compiled123683B连LF/tail投影仍不等，旧formal outside唯一literal逆exact，组合formal whole未编测；Test12406B rawformal/EOF exact，复用原2P不增加分母。source-stage与Testpending原文均保。
 
 [双positive growth634 后见正式](evidence/2026-11-03-http-dual-positive-growth-later-formal.json)记录de8532e1，两payload raw/EOF exact+336B新thinwrapper；onlywrapper0/selected1P仍同三console组非第四，.472382+.5802298s process与8.155287s gapwall分列，38pins/6CP不授CPU/SAVE。原4036软件pending和真实Native同instance16+4缺口保留，0新模型/旧绿重跑。
+
+
+[Full represented entry / observable epilogue636] [owner批准正文](evidence/2026-11-03-http-full-represented-entry-epilogue.json)：14实体52810物理B，三R1+API/epilogue各唯一R2共5STOP/0retry，峰3仅14.399333s、后峰2仅14.034998s。API漏明示Memory源审拒0compile后补一hunk，5658B正逆exact；小32B epilogue补四hunk使Memory观察时public Registers EAX即时更新，2625B正逆exact/0ownerexec。R1whole最终RAX可正确，不造实际whole RED；owner3854B全编排/11204B四组Test分开归属。baseline outline prePOST/full baseline afterEND-prefirstCONTENT，额外RAX observer在R1 CONTENT后sidecar，不称生成盲。原43条owner计数勘误为完整46条，不改source/请求或补POST。Native三first0/stdout4，1.3799788s processwall/1403.951204s仅lateclock下界/activeUNKNOWN，正式原pending；不授真实Native172同instance16+4、完整194200/COPY或322whole。
