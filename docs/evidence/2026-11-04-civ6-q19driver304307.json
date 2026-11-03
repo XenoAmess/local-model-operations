@@ -1,0 +1,325 @@
+{
+  "schema": "local-model-operations.civ6-q19driver304307/v1",
+  "date_local": "2026-11-04",
+  "recorded_at_utc": "2026-11-03T21:25:33.702874+00:00",
+  "machine_id": "BF-202609141645",
+  "records": [
+    {
+      "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/0e81d0bdd7e8071533bd51f398c32dba298d2a77/docs/research/baiqi-p6-native67-q19-first-window304305-evidence-2026-11-04.json",
+      "evidence_sha256": "00eddd85f3c3d71c97b64e6dcbc9d6080fbcc51e0621c4ec165112871466ae07",
+      "cases": [
+        {
+          "sequence": 304,
+          "case_id": "civ6-p6-assembler-prewindow-review-304",
+          "mode_id": "http-candidate",
+          "shared_commit": "a68ca4f62c11dd31fe95b3bb8522f3fb04a22a35",
+          "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+          "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+          "max_tokens": 1600,
+          "roles": [
+            "system",
+            "user",
+            "user"
+          ],
+          "model_alias": "qwen38-coder",
+          "post_begin_utc": "2026-11-03T20:28:39.172397+00:00",
+          "attempt_end_utc": "2026-11-03T20:28:52.016583+00:00",
+          "result": {
+            "http_status": 200,
+            "finish_reason": "length",
+            "sse_done": true,
+            "total_ms": 12844.218800019007,
+            "first_nonempty_content_delta_ms": 1910.5956999701448,
+            "usage": {
+              "prompt_tokens": 12527,
+              "completion_tokens": 1600,
+              "total_tokens": 14127
+            },
+            "cached_prompt_tokens_if_reported": null
+          },
+          "success": false,
+          "attempt_count": 1,
+          "retry_count": 0,
+          "attempt_windows": [
+            {
+              "attempt": 1,
+              "begin_utc": "2026-11-03T20:28:39.172397+00:00",
+              "end_utc": "2026-11-03T20:28:52.016583+00:00",
+              "failure": "finish_reason_length",
+              "finish_reason": "length",
+              "sse_done": true,
+              "http_status": 200,
+              "total_ms": 12844.218800019007
+            }
+          ],
+          "adoption": "rejected-truncated",
+          "review": "1600token length; incomplete body not read/spliced/adopted. Did not block independent actual whole-package acceptance.",
+          "owner_cost_seconds": {
+            "preparation": null,
+            "review": null,
+            "correction": null,
+            "validation": null,
+            "publication": null
+          }
+        },
+        {
+          "sequence": 305,
+          "case_id": "civ6-p6-native-snapshot-export-305",
+          "mode_id": "http-candidate",
+          "shared_commit": "a68ca4f62c11dd31fe95b3bb8522f3fb04a22a35",
+          "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+          "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+          "max_tokens": 2500,
+          "roles": [
+            "system",
+            "user",
+            "user"
+          ],
+          "model_alias": "qwen38-coder",
+          "post_begin_utc": "2026-11-03T20:34:35.030398+00:00",
+          "attempt_end_utc": "2026-11-03T20:34:54.313775+00:00",
+          "result": {
+            "http_status": 200,
+            "finish_reason": "stop",
+            "sse_done": true,
+            "total_ms": 19283.36549998494,
+            "first_nonempty_content_delta_ms": 792.7345000207424,
+            "usage": {
+              "prompt_tokens": 4478,
+              "completion_tokens": 1088,
+              "total_tokens": 5566
+            },
+            "cached_prompt_tokens_if_reported": null
+          },
+          "success": true,
+          "attempt_count": 1,
+          "retry_count": 0,
+          "attempt_windows": [
+            {
+              "attempt": 1,
+              "begin_utc": "2026-11-03T20:34:35.030398+00:00",
+              "end_utc": "2026-11-03T20:34:54.313775+00:00",
+              "failure": null,
+              "finish_reason": "stop",
+              "sse_done": true,
+              "http_status": 200,
+              "total_ms": 19283.36549998494
+            }
+          ],
+          "adoption": "rejected",
+          "review": "Raw Lua continue syntax fails actualLua53 compile. Reviewalsofinds integer-onlyfractionalclock validation, wrong leaves.stats.counters path defaulting0, missingrequiredmetadata hidden byipairs nilstop. All code rejected; owner readonlybounded exporter,7 meaningfulcanonicalconsumer tests, actualNative32contextdump0exporterrors.",
+          "owner_cost_seconds": {
+            "preparation": null,
+            "review": null,
+            "correction": null,
+            "validation": null,
+            "publication": null
+          }
+        }
+      ],
+      "software_exporter": {
+        "tests": 7,
+        "seconds_reported": 0.048,
+        "actual_consumer": "CompleteNewContext snapshot withcanonicalNewProfile/NewQueryCounter, fractionalclocks, realcounter3calls1bucketrow, no caller mutation, invalid/missingmetadata, sparse/overflowbounds, firstemitfailurestop, snapshoterrorcontinue, order."
+      },
+      "native_pilot": {
+        "raw_status": {
+          "contexts": 32,
+          "samples": 5654,
+          "anchors": 128,
+          "write_rows": 4,
+          "export_errors": 0
+        },
+        "window": {
+          "ui_anchor86": 1793738622.64,
+          "captured_ui_age_seconds": 11.080999851226807,
+          "turn": 86,
+          "cities": 10
+        },
+        "observed_b_turn_union_ms": 158.00142288208008,
+        "sum_of_clipped_inclusive_ms_not_total_cpu": 158.00142288208008,
+        "rows_intersecting_10sec": 2013,
+        "observed_write_calls_partial_turns": 11,
+        "failed_profile_rows": 0,
+        "scope": "Onepilotwindow only. Both85and86partialNativewritecoverage; nofullN_reqturnpass, nofivewindow/B_delta result. Allcalibrationassumesconstantoffset andactualclockgranularityunknown. Counter/timer disabledafter11.081secanchor86; AIgameplaycontinuednormally."
+      },
+      "native_final": {
+        "UI_turn": 86,
+        "Core_turn": 86,
+        "UI_cities": 10,
+        "Core_cities": 10,
+        "UI_empty_queues": 0,
+        "Core_city_iteration": 10,
+        "baseline_player_controlled_units": 19,
+        "same_positions_after": 19,
+        "moved": 0,
+        "missing": 0,
+        "recording_still_enabled_contexts": 0,
+        "scope": "TEST_PLAYERoneEnd85only, noarmy/skip/war/diplomacycommand. Movesregeneratewithturn, noartificialsame-movesassertion. CorequeueAPI probeunavailable, queueclaimUIonly."
+      },
+      "owner_diagnostic_corrections": [
+        "DuringContinue4318notlistening;4319ownedprocessbinding mistakenascommandservice, LSQtimedout/noCMDsent. AfterTEST_PLAYEREscactual4318returnedandLSQworked; ownershipdoesnotproveprotocol.",
+        "Addedendpointownershipverification initiallyusedpreconnectLISTENsnapshot andracedlistenerstate betweencommands. Firstend85 refusedbeforeTCP/CMD; NativeARMED/end85Requestedfalse/turn85proofthenrecordingstopped. Discardedarming4230samplesnotmixedwithpilot. CorrectedtoserverPID/birth/sockettupleverificationAFTERconnectbeforeLSQ/CMD; atomicsetup/end85pilot2used. No gameactionretry.",
+        "Firstread-onlycollectorPythonliteralcookedCR/LFintounfinishedLuastring; rawliteralfixpreservesescapes. Rawcompilefailurekept,helperunchanged,no SDKactionreplayed.",
+        "CorecityqueueprobeassumedUI:GetSizeparity andfailedinGameCore_Tuner. CorrectedtoactualCorecitycount/iteration10, queueproofUIonly; ownprobeerrornotmodruntimefailure."
+      ],
+      "limits": [
+        "Onepilot86window, notfullfivewindowTC036. Observedunion158.001ms within1000ms numericbudget, Native/vanillachildtimeincluded; notexclusiveCPU or causalversiongain.",
+        "Before/after192clockbrackets withconstantoffsetassumptiongiveallobservedbounds0; actualtickprecision/crosssampleuncertaintyunknown, noexactzerofutureoffsetclaim.",
+        "11Nativewritecalls4APIrowsare86partialturnonly; allturnN_req64capnotpassed. First85alsoincomplete. NoB_delta fivepairs.",
+        "5654rowsactualcaptureincludespre86/after10secs,2013intersectfrozen10secs; clippedinclusiveandunionboth158.001ms, notsumofwholecapture.",
+        "All32observationflagsdisabledafter11.081sec; AIgameplaycontinuesnormally, privateanchorlifetimesuntilretire/reload. No publictakeover/pause."
+      ]
+    },
+    {
+      "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/3368bc4a9edb5e385c7dcce6d3d74d857ba623c2/docs/research/baiqi-p6-continuous-driver306307-evidence-2026-11-04.json",
+      "evidence_sha256": "1d39063b7e4f7aef96ec117a7859f4b35cf22ecab51feb36645b5f787b5b2d96",
+      "cases": [
+        {
+          "sequence": 306,
+          "case_id": "civ6-p6-continuous-five-window-driver-306",
+          "mode_id": "http-candidate",
+          "shared_commit": "e2c7e4135aadb116661d004d26ad35696c1fd455",
+          "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+          "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+          "max_tokens": 4200,
+          "roles": [
+            "system",
+            "user",
+            "user"
+          ],
+          "model_alias": "qwen38-coder",
+          "post_begin_utc": "2026-11-03T20:58:15.939501+00:00",
+          "attempt_end_utc": "2026-11-03T20:58:33.125553+00:00",
+          "result": {
+            "http_status": 200,
+            "finish_reason": "stop",
+            "sse_done": true,
+            "total_ms": 17186.27479998395,
+            "first_nonempty_content_delta_ms": 1802.5578000233509,
+            "usage": {
+              "prompt_tokens": 11822,
+              "completion_tokens": 2568,
+              "total_tokens": 14390
+            },
+            "cached_prompt_tokens_if_reported": null
+          },
+          "success": true,
+          "attempt_count": 1,
+          "retry_count": 0,
+          "attempt_windows": [
+            {
+              "attempt": 1,
+              "begin_utc": "2026-11-03T20:58:15.939501+00:00",
+              "end_utc": "2026-11-03T20:58:33.125553+00:00",
+              "failure": null,
+              "finish_reason": "stop",
+              "sse_done": true,
+              "http_status": 200,
+              "total_ms": 17186.27479998395
+            }
+          ],
+          "adoption": "rejected",
+          "review": "Raw passesPythonsetupfunction notLuasource toquery, actualsoftstub exits1/noGameactions. Reviewalsofinds ignoredDiplomacybool, first86windowstop, wrongturnwait/prefixparse, nonatomicsetup/end85, SystemExitcleanupgap. All code rejected; owner continuous32context driver ending85..90once andstoppingactual91anchor.",
+          "owner_cost_seconds": {
+            "preparation": null,
+            "review": null,
+            "correction": null,
+            "validation": null,
+            "publication": null
+          }
+        },
+        {
+          "sequence": 307,
+          "case_id": "civ6-p6-continuous-driver-safety-tests-307",
+          "mode_id": "http-candidate",
+          "shared_commit": "8efa652311980127b57e1849f8649c0c55e04701",
+          "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+          "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+          "max_tokens": 2600,
+          "roles": [
+            "system",
+            "user",
+            "user"
+          ],
+          "model_alias": "qwen38-coder",
+          "post_begin_utc": "2026-11-03T21:10:46.657329+00:00",
+          "attempt_end_utc": "2026-11-03T21:10:52.373281+00:00",
+          "result": {
+            "http_status": 200,
+            "finish_reason": "stop",
+            "sse_done": true,
+            "total_ms": 5715.330699982587,
+            "first_nonempty_content_delta_ms": 785.9307000180706,
+            "usage": {
+              "prompt_tokens": 4571,
+              "completion_tokens": 861,
+              "total_tokens": 5432
+            },
+            "cached_prompt_tokens_if_reported": null
+          },
+          "success": true,
+          "attempt_count": 1,
+          "retry_count": 0,
+          "attempt_windows": [
+            {
+              "attempt": 1,
+              "begin_utc": "2026-11-03T21:10:46.657329+00:00",
+              "end_utc": "2026-11-03T21:10:52.373281+00:00",
+              "failure": null,
+              "finish_reason": "stop",
+              "sse_done": true,
+              "http_status": 200,
+              "total_ms": 5715.330699982587
+            }
+          ],
+          "adoption": "partial",
+          "review": "Raw discovers7 ratherthan8methods, executes5pass/1fail/1error. Diplomacytestcontradictscompleteflowbyexpecting87neverended evenafterviewclosed; ledgerparentmissing, timeoutmethodnotdiscovered. Importworkedasraw (normalizationnotclaimedfix). Ownercorrects, addsactualrecording/anchor/actiontime witnesses, injectscoverageerrorat86 insteadprebootstrap,8meaningfultests pass.",
+          "owner_cost_seconds": {
+            "preparation": null,
+            "review": null,
+            "correction": null,
+            "validation": null,
+            "publication": null
+          }
+        }
+      ],
+      "software": {
+        "tests": 8,
+        "seconds_reported": 0.439,
+        "actual_Lua53_execution": true,
+        "no_live_game_client": true,
+        "cases": [
+          "continuousflags32trueat85/32falseat91, sixuniqueendledgers85..90, noend91",
+          "visible87visitwaitsthenactualend87afterclose",
+          "delaylocalanchor2sec, >=10secafteractualanchorbeforeend",
+          "readonlysocketretrydoesnotreplaygameactions",
+          "unknownend86ackafteractualexecution causescleanup/noend87/noend86replay",
+          "existingend85ledger blocksbeforeNativeaction",
+          "coverageerrorat86 abortsobservation/noend86",
+          "Nonevisibilityrejects andneveradvance timeout cleansup"
+        ]
+      },
+      "owner_improvements": [
+        "AfterReset validate actualprofile/anchors/counterstats andirreversibleleafcacheerrors BEFOREend85.",
+        "CaptureNativeendintentwithtokeninnewwriteonceledger, bootstrap+end85oneCMD, Nativeends[turn] setbeforeRequestAction. No gameactionretry.",
+        "Callbackdiplomacyvisibility mustactualbool, anyerror/unavailable aborts ratherthanbeingclear. RootQAactsTEST_PLAYERonvisit without humanuserclickrequests.",
+        "Stayrecordingenabledthroughallfive86..90windowsandallfiveturnbuckets, end90thenstoponactual91localanchor. RecordDrop/errorinvalidatesbudget.",
+        "Onanyexception includingtimeout best-effortstopONLYownedmetadata bytoken; norestorepublicAIcontrolorNativegamewrite."
+      ],
+      "scope": "Softwaredriververified only; actualcontinuousNativeexperimentpending. Currentgame2296sameprivateq19package, exactoriginal85alreadyreloadedandcontinued byTEST_PLAYER,32contextsdisabled/valid. Native306neverexecuted."
+    }
+  ],
+  "cumulative_through307": {
+    "logical": 307,
+    "complete": 289,
+    "length": 15,
+    "final_transport_failed": 3,
+    "http_attempts": 337,
+    "additional_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "scope": "304lengthdiscardedunread,305/306coderejected,307testspartiallyadopted. OwnerrealNativepilot/newdriver/SDKfixturecorrections distinct. ExactCivpins contain fullreview; sharedrecordomitsrawmachine testtracepaths. Latercontinuousq20Nativeexecution separate from priorsoftware/pilotpins.",
+  "concurrency": "304,305,306,307 each actualsinglePOST in separatewindows, no sharedpeak4/target60claim.",
+  "cost_limits": "0new OpenCode-native generation; maintenancecachedsameNov4. Exclusiveowner/serverqueue/cache/netsaving unknown."
+}
