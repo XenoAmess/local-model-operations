@@ -59,6 +59,8 @@ CLI区间总和2171.995330s（约36分12秒），跨任务有并行，不等于�
 
 55负责人后到521项软件通过及54内隔离55组件只读对照，0新增HTTP／OpenCode原生生成；不是55整局／性能通过。[后到记录](evidence/2026-11-03-civ6-qualification-geometry-followup.json)。
 
+Civ6289普通HTTP观察器更正参数个数及恢复后部分采用，真实右键输入与拦截另计；维护缓存复用，0新OpenCode原生生成。[证据](evidence/2026-11-04-civ6-arc-map289.json)。
+
 Civ6285—288普通HTTP三份只读候选部分采用、287length整弃，物理Delete保护和真实沉船／登船／存读档实效另计；每日维护缓存复用，0新OpenCode原生生成。[证据](evidence/2026-11-04-civ6-guard-shipwreck285288.json)。
 
 Civ6282—284普通HTTP两份只读脚本部分采用、一份过时摘要拒绝，实际三件及Native延迟消耗／重载另计；维护缓存复用，0新OpenCode原生生成。[证据](evidence/2026-11-04-civ6-three-artifacts282284.json)。
