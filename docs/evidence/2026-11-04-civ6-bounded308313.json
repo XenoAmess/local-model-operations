@@ -1,0 +1,392 @@
+{
+  "schema": "local-model-operations.civ6-bounded308313/v1",
+  "date_local": "2026-11-04",
+  "recorded_at_utc": "2026-11-03T22:14:28.260686+00:00",
+  "machine_id": "BF-202609141645",
+  "records": [
+    {
+      "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/8b38837c3fc89e4920a35804911be0147c61c33b/docs/research/baiqi-p6-native67-q20-continuous308309-evidence-2026-11-04.json",
+      "evidence_sha256": "73bd68647603d00f353d8dee7141b146776f1033444ef8def032d962aa5b7819",
+      "cases": [
+        {
+          "sequence": 308,
+          "case_id": "civ6-p6-continuous-capture-analyzer-308",
+          "mode_id": "http-candidate",
+          "shared_commit": "7b4d39f6c6efe37f4505ba6317b330d6f76f33e4",
+          "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+          "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+          "max_tokens": 4600,
+          "roles": [
+            "system",
+            "user",
+            "user"
+          ],
+          "model_alias": "qwen38-coder",
+          "post_begin_utc": "2026-11-03T21:29:09.918898+00:00",
+          "attempt_end_utc": "2026-11-03T21:29:32.924930+00:00",
+          "result": {
+            "http_status": 200,
+            "finish_reason": "stop",
+            "sse_done": true,
+            "total_ms": 23010.91529999394,
+            "first_nonempty_content_delta_ms": 7940.3258000384085,
+            "usage": {
+              "prompt_tokens": 60294,
+              "completion_tokens": 2635,
+              "total_tokens": 62929
+            },
+            "cached_prompt_tokens_if_reported": null
+          },
+          "success": true,
+          "attempt_count": 1,
+          "retry_count": 0,
+          "attempt_windows": [
+            {
+              "attempt": 1,
+              "begin_utc": "2026-11-03T21:29:09.918898+00:00",
+              "end_utc": "2026-11-03T21:29:32.924930+00:00",
+              "failure": null,
+              "finish_reason": "stop",
+              "sse_done": true,
+              "http_status": 200,
+              "total_ms": 23010.91529999394
+            }
+          ],
+          "adoption": "rejected",
+          "review": "Actualfullstringproducer fails META integer invalid. Isolatedtype-onlyport reports1windownot5, hardcodedN_reqTrue evencounter-consistentover64, acceptsabsent91anchors andinvalidClock1. Allcode rejected. Ownerfailclosedgenericanalyzer reuses canonicalclock/union helpers, no metricwitnessfrommodel representativeinputs.",
+          "owner_cost_seconds": {
+            "preparation": null,
+            "review": null,
+            "correction": null,
+            "validation": null,
+            "publication": null
+          }
+        },
+        {
+          "sequence": 309,
+          "case_id": "civ6-p6-complete-capture-boundary-tests-309",
+          "mode_id": "http-candidate",
+          "shared_commit": "7b4d39f6c6efe37f4505ba6317b330d6f76f33e4",
+          "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+          "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+          "max_tokens": 2400,
+          "roles": [
+            "system",
+            "user",
+            "user"
+          ],
+          "model_alias": "qwen38-coder",
+          "post_begin_utc": "2026-11-03T21:35:22.511378+00:00",
+          "attempt_end_utc": "2026-11-03T21:35:31.783124+00:00",
+          "result": {
+            "http_status": 200,
+            "finish_reason": "stop",
+            "sse_done": true,
+            "total_ms": 9269.629999995232,
+            "first_nonempty_content_delta_ms": 803.9514999836683,
+            "usage": {
+              "prompt_tokens": 4243,
+              "completion_tokens": 1334,
+              "total_tokens": 5577
+            },
+            "cached_prompt_tokens_if_reported": null
+          },
+          "success": true,
+          "attempt_count": 1,
+          "retry_count": 0,
+          "attempt_windows": [
+            {
+              "attempt": 1,
+              "begin_utc": "2026-11-03T21:35:22.511378+00:00",
+              "end_utc": "2026-11-03T21:35:31.783124+00:00",
+              "failure": null,
+              "finish_reason": "stop",
+              "sse_done": true,
+              "http_status": 200,
+              "total_ms": 9269.629999995232
+            }
+          ],
+          "adoption": "partial",
+          "review": "Raw8methods run7pass1error; severalnegativegreens wrongfield row14, failedsample row6(seconds), Coreanchor15 maps-85, validcrosscontextcase duplicatesexistingUIid1. Ownercorrectsindices/scopedids/offsets andaddsactual3msunion4mssum/3before3afterproof;8tests pass. Input/owner/modellevels separate.",
+          "owner_cost_seconds": {
+            "preparation": null,
+            "review": null,
+            "correction": null,
+            "validation": null,
+            "publication": null
+          }
+        }
+      ]
+    },
+    {
+      "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/d9822a2e176c451f666b1ea7a94ae64afaad2089/docs/research/baiqi-p6-zero-profile311-evidence-2026-11-04.json",
+      "evidence_sha256": "05ff2eb599f25a688a782d3f8f52963a1396a67712d48e8854d7900f0e21226e",
+      "cases": [
+        {
+          "sequence": 310,
+          "case_id": "civ6-p6-source67-private-control-boundaries-310",
+          "mode_id": "http-candidate",
+          "shared_commit": "7b4d39f6c6efe37f4505ba6317b330d6f76f33e4",
+          "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+          "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+          "max_tokens": 3300,
+          "roles": [
+            "system",
+            "user",
+            "user"
+          ],
+          "model_alias": "qwen38-coder",
+          "post_begin_utc": "2026-11-03T21:41:08.511472+00:00",
+          "attempt_end_utc": "2026-11-03T21:41:36.882177+00:00",
+          "result": {
+            "http_status": 200,
+            "finish_reason": "length",
+            "sse_done": true,
+            "total_ms": 28364.279699977487,
+            "first_nonempty_content_delta_ms": 8316.591199953109,
+            "usage": {
+              "prompt_tokens": 64359,
+              "completion_tokens": 3300,
+              "total_tokens": 67659
+            },
+            "cached_prompt_tokens_if_reported": null
+          },
+          "success": false,
+          "attempt_count": 1,
+          "retry_count": 0,
+          "attempt_windows": [
+            {
+              "attempt": 1,
+              "begin_utc": "2026-11-03T21:41:08.511472+00:00",
+              "end_utc": "2026-11-03T21:41:36.882177+00:00",
+              "failure": "finish_reason_length",
+              "finish_reason": "length",
+              "sse_done": true,
+              "http_status": 200,
+              "total_ms": 28364.279699977487
+            }
+          ],
+          "adoption": "rejected-truncated",
+          "review": "3300token length, incomplete inventory not read/spliced/adopted. Privatecontroltask remains unimplemented; ownercontinuesindependently.",
+          "owner_cost_seconds": {
+            "preparation": null,
+            "review": null,
+            "correction": null,
+            "validation": null,
+            "publication": null
+          }
+        },
+        {
+          "sequence": 311,
+          "case_id": "civ6-p6-global-budget-zero-profile-311",
+          "mode_id": "http-candidate",
+          "shared_commit": "90511a28096e8b00391581049c2007ddf0ab9356",
+          "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+          "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+          "max_tokens": 1800,
+          "roles": [
+            "system",
+            "user",
+            "user"
+          ],
+          "model_alias": "qwen38-coder",
+          "post_begin_utc": "2026-11-03T21:48:21.156174+00:00",
+          "attempt_end_utc": "2026-11-03T21:48:24.776872+00:00",
+          "result": {
+            "http_status": 200,
+            "finish_reason": "stop",
+            "sse_done": true,
+            "total_ms": 3620.308900019154,
+            "first_nonempty_content_delta_ms": 722.7969000232406,
+            "usage": {
+              "prompt_tokens": 3617,
+              "completion_tokens": 532,
+              "total_tokens": 4149
+            },
+            "cached_prompt_tokens_if_reported": null
+          },
+          "success": true,
+          "attempt_count": 1,
+          "retry_count": 0,
+          "attempt_windows": [
+            {
+              "attempt": 1,
+              "begin_utc": "2026-11-03T21:48:21.156174+00:00",
+              "end_utc": "2026-11-03T21:48:24.776872+00:00",
+              "failure": null,
+              "finish_reason": "stop",
+              "sse_done": true,
+              "http_status": 200,
+              "total_ms": 3620.308900019154
+            }
+          ],
+          "adoption": "partial",
+          "review": "Aggregation/default/capacity/forwarding body adopted. RawusesillegalLua !=; isolatedsyntaxfixalsoacceptsoptionsfalse contrarycontract. Owner fixes~= and options~=nil,6newaggregationtests +10existingcanonicaltests pass. No candidate codeNativeexecuted.",
+          "owner_cost_seconds": {
+            "preparation": null,
+            "review": null,
+            "correction": null,
+            "validation": null,
+            "publication": null
+          }
+        }
+      ]
+    },
+    {
+      "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/cf7e76a3465b275ecafc31e6165ce5bd65ba5807/docs/research/baiqi-p6-bounded-observation312313-evidence-2026-11-04.json",
+      "evidence_sha256": "8923e0fa7fcb3c02638b2e1ecfa6b8fa31cf4323b3b7f6d1aaa3045828459492",
+      "cases": [
+        {
+          "sequence": 312,
+          "case_id": "civ6-p6-global4096-context-quotas-312",
+          "mode_id": "http-candidate",
+          "shared_commit": "7579bfbcc538a24ff30542b18c8df421fbe28c4b",
+          "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+          "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+          "max_tokens": 1000,
+          "roles": [
+            "system",
+            "user",
+            "user"
+          ],
+          "model_alias": "qwen38-coder",
+          "post_begin_utc": "2026-11-03T21:55:07.020278+00:00",
+          "attempt_end_utc": "2026-11-03T21:55:10.357273+00:00",
+          "result": {
+            "http_status": 200,
+            "finish_reason": "stop",
+            "sse_done": true,
+            "total_ms": 3336.841900018044,
+            "first_nonempty_content_delta_ms": 585.7345000258647,
+            "usage": {
+              "prompt_tokens": 2932,
+              "completion_tokens": 470,
+              "total_tokens": 3402
+            },
+            "cached_prompt_tokens_if_reported": null
+          },
+          "success": true,
+          "attempt_count": 1,
+          "retry_count": 0,
+          "attempt_windows": [
+            {
+              "attempt": 1,
+              "begin_utc": "2026-11-03T21:55:07.020278+00:00",
+              "end_utc": "2026-11-03T21:55:10.357273+00:00",
+              "failure": null,
+              "finish_reason": "stop",
+              "sse_done": true,
+              "http_status": 200,
+              "total_ms": 3336.841900018044
+            }
+          ],
+          "adoption": "partial",
+          "review": "Actual quota map and allocation body adopted. Owner rejects generator/generic Mapping/bytearray, validates element types before hashing and positive integer capacities.",
+          "owner_cost_seconds": {
+            "preparation": null,
+            "review": null,
+            "correction": null,
+            "validation": null,
+            "publication": null
+          }
+        },
+        {
+          "sequence": 313,
+          "case_id": "civ6-p6-global-budget-integration-tests-313",
+          "mode_id": "http-candidate",
+          "shared_commit": "7579bfbcc538a24ff30542b18c8df421fbe28c4b",
+          "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+          "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+          "max_tokens": 2400,
+          "roles": [
+            "system",
+            "user",
+            "user"
+          ],
+          "model_alias": "qwen38-coder",
+          "post_begin_utc": "2026-11-03T21:58:36.058004+00:00",
+          "attempt_end_utc": "2026-11-03T21:58:43.809361+00:00",
+          "result": {
+            "http_status": 200,
+            "finish_reason": "stop",
+            "sse_done": true,
+            "total_ms": 7755.59739995515,
+            "first_nonempty_content_delta_ms": 1624.0851999609731,
+            "usage": {
+              "prompt_tokens": 8516,
+              "completion_tokens": 1087,
+              "total_tokens": 9603
+            },
+            "cached_prompt_tokens_if_reported": null
+          },
+          "success": true,
+          "attempt_count": 1,
+          "retry_count": 0,
+          "attempt_windows": [
+            {
+              "attempt": 1,
+              "begin_utc": "2026-11-03T21:58:36.058004+00:00",
+              "end_utc": "2026-11-03T21:58:43.809361+00:00",
+              "failure": null,
+              "finish_reason": "stop",
+              "sse_done": true,
+              "http_status": 200,
+              "total_ms": 7755.59739995515
+            }
+          ],
+          "adoption": "partial",
+          "review": "Raw8tests:7pass/1fail. Entire-window equality incorrectly compares raw retained-sample counts. Owner compares duration metrics, fixes overcap fixture to reach quota failure, strengthens all-disabled cleanup and adds valid4096driver, manifest order/no mutation/generator/Mapping/missingoverride and explicit accounting mismatch.",
+          "owner_cost_seconds": {
+            "preparation": null,
+            "review": null,
+            "correction": null,
+            "validation": null,
+            "publication": null
+          }
+        }
+      ]
+    }
+  ],
+  "owner_protocol_deviation": "q20 retained36380 function samples across32contexts because owner set30000 per context, violating frozen global4096. All drops0 does not satisfy global storage contract. q20 stays diagnostic; no retrospective PASS or raised budget.",
+  "native_q20_diagnostic_only": {
+    "five_window_observed_union_ms": [
+      482.9995632171631,
+      567.000150680542,
+      717.998743057251,
+      505.9988498687744,
+      559.0016841888428
+    ],
+    "complete86_to90_native_write_attempts": [
+      11,
+      10,
+      21,
+      12,
+      31
+    ],
+    "retained_samples": 36380,
+    "zero_normal_audit": 33970,
+    "positive_or_failed_audit": 2410,
+    "contexts": 32,
+    "clock_brackets": 192,
+    "diplomacy": "Agent TEST_PLAYER physically closed farewell after end87; no human-input request or background mod diplomacy. Full87to88 interval includes operatorhold/AI/window, not mod overhead.",
+    "scope": "Numeric budget comparison only, storage nonconforming. B_delta absent, fullTC036 not passed."
+  },
+  "prospective_repair": "Optional measured-zero-success aggregation only; raw positive/failed intervals retained or flag drop. Explicit32 immutable quotas sum4096, unknown context recording denied; ZERO count/capacity exact accounting and strict analyzer/driver before first endturn. No runtime/player AI switch. Build compiled63Lua and85sameinventory, release67 unchanged; build pin has no Native rerun claim.",
+  "software": "311sixnew+10affectedcanonical;312313118affecteddiagnostic+20existingobserved+8newbounded; actualassembled12sources458executions83checks. Rawcounterexamples/owner corrections separately in exact pins.",
+  "cumulative_through313": {
+    "logical": 313,
+    "complete": 294,
+    "length": 16,
+    "final_transport_failed": 3,
+    "http_attempts": 343,
+    "additional_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "concurrency": "308..313 separate single-post windows, no manufactured concurrency. Target60 is not actualpeak.",
+  "unknown_costs": {
+    "exclusive_owner_seconds": null,
+    "cache_hit_tokens": null,
+    "server_queue": null,
+    "net_owner_savings": null
+  }
+}
