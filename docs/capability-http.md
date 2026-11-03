@@ -2131,3 +2131,12 @@ M2[661/663后继owner源码](evidence/2026-11-04-http-m2-661663-owner-source-lat
 [planner03与用法](authorized-dispatch-data-plan.md)只产DATA，绝不调用collaboration；状态、授权和错误分类仍由operator实证提供。两个生产模块保Native796原字节：10个finite DATA方法＋1历史CLI均0，两子进程合0.5658078秒；任务至首实际CLI3466.99424秒、两HTTP合10.5703371秒与owner517秒portable准备窗口分别保，不声称省工。模型部分_decide采用；容量恢复须followup、Root不支持followup两处由owner原工具合同补闭，原wire不改。
 
 [证据与投影边界](evidence/2026-11-04-http-authorized-dispatch-planner03.json)：public7文件不含私snapshot/grant/raw；新synthetic65条只有1任务，DATA不是authorization或actualSTART。Test保10方法，8方法/3support AST原同，另2个scratch/syntheticfixture入口和新syntheticCLI尚待必要首次，未重原796或提前授portable全绿。新source publication不新增模型task/HTTP/case；builder04独立不夹入。
+
+
+## 2026-11-04：Rite新API适配资格与同case后见
+
+[Rite单leaf适配](evidence/2026-11-04-http-rite-facts-inspection-source-qualification.json)13whole当前材料完整：1POST/STOP16.3178471秒、NO_PATCH理由整拒，不能因同结论授模型正确。Owner先冻反例是原presentation verifier/actionlease/facts-monitor合同，非模型所称必删outer frame；0candidate/Test/旧771重跑。Task1280.458811秒和准备/协调错误均不冒HTTP时间或净省工。
+
+M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-counter783-later.json)27whole与实际三消息全文核等，1STOP30.0341264秒；模型混淆两个独立key族而推出不可达额外读取，整答拒、0源码/期待改、不R2求绿。[808新manual正式小附页](evidence/2026-11-04-http-m0-new-witness808-formal-later.json)只复用两newcase，0postvalidation；原三个请求source round与971/1623 cutoffs不回填。
+
+[Word265正式小tuple](evidence/2026-11-04-http-m6-word265-formal-later.json)只消费sole publisher历史8e372149两叶回执与原三个软件first，不新HTTP/编RUN或case；raw到formal投影在此最小tuple未持，finite三scene不授whole266/natural/Runtime/速度。

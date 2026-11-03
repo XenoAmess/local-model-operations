@@ -1,0 +1,103 @@
+{
+  "schema": "rite-scope-new-facts-api-source-qualification/v1",
+  "permission": "M4 owner explicitly approves this exact sanitized metadata only for public publication as one new source-qualification case",
+  "status": "NO_PATCH_SOURCE_QUALIFICATION",
+  "new_work": "The new mature inspectFactsData API was evaluated against the original real RootRiteCreationScopeAuthority consumer. This is separate from the earlier caller inventory and the producer API software tests; those old tests were not rerun.",
+  "original_target": {
+    "name": "RootRiteCreationScopeAuthority.java",
+    "bytes": 3440,
+    "sha256": "764e102995c8c1faff4d419fe7c9667a00e8e4fe95ad006caa50b6abad948213",
+    "complete_lines": 42
+  },
+  "API_maturity": {
+    "formal_commit": "263b47830744ca208ed6b17b266005cafc7c73c3",
+    "mature_source_bytes": 155850,
+    "mature_source_sha256": "60021a214d71c2adf0eaea1aaaf2f06563f31a2ddc8802375f35a80f9fd22340",
+    "formal_bytes": 154191,
+    "formal_sha256": "0b19bba0c1b740355b481886ff209644deaee6e700b9ee0d89c51cef5852817b",
+    "old_withFrozenFacts_preserved_by_existing_publication": true,
+    "current_loaded_parity": "NOT_HELD"
+  },
+  "source_inputs": {
+    "whole_files": 13,
+    "raw_bytes": 520420,
+    "raw_pre_post_equal": true,
+    "actual_message2_contains_all_complete_decoded_sources": true,
+    "task_message3_exact": true,
+    "raw_EOL_and_decoded_wire_equivalence_kept_separate": true
+  },
+  "owner_oracle": {
+    "original_source_contract_frozen_before_candidate_or_model": true,
+    "old_author_oracle_read": false,
+    "private_oracle_supplied_to_model": false,
+    "source_first_result": "No safe useful adaptation was identified in the permitted single consumer leaf."
+  },
+  "concrete_source_reason": [
+    "The original consumer invokes same-session withFrozenFacts, whose action lease and frozenWork enter the bound presentationSource.verified before the Rite callback.",
+    "The actual Root application session binds that physical registry. An applicable optional producer may reject its original evidence independently of otherwise matching Known Game/PID/actor/episode DATA.",
+    "The outer borrowed collector preserves physical source/pin/head/deadline checks but does not invoke this action/presentation verification. Replacing only the inner call therefore lacks equivalent qualification.",
+    "inspectFactsData captures immutable DATA and restores read-freeze depth but does not provide the original action lease/presentation callback; its inspection also follows the facts monitor capture. Keeping the full original wrapper and adding inspection would retain the costly work and add another capture."
+  ],
+  "counterexample_limit": "This is a finite source-contract counterexample: matching Rite DATA and frame do not license success if the original optional presentation verifier fails at that invocation. It is not an executed Root/physical fault test or an observed live incident.",
+  "model_role": {
+    "task": "new single-leaf mature-API adaptation proposal",
+    "actual_parameters": {
+      "model": "qwen38-coder",
+      "max_tokens": 4000,
+      "temperature": 0,
+      "enable_thinking": false,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ]
+    },
+    "POST_BEGIN_utc": "2026-11-03T22:14:31.105359+00:00",
+    "END_utc": "2026-11-03T22:14:47.423191+00:00",
+    "POST_count": 1,
+    "END_count": 1,
+    "retry_count": 0,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "effective_content_TTFT_ms": 13350.129200000083,
+    "total_ms": 16317.847099999199,
+    "prompt_tokens": 103366,
+    "completion_tokens": 446,
+    "cached_prompt_tokens_if_reported": null,
+    "complete_answer_read_only_after_terminal": true,
+    "model_verdict": "NO_PATCH",
+    "patch": [],
+    "adoption": "No code adopted. The analysis rationale was rejected despite the same verdict: it incorrectly claimed replacing the inner call necessarily removes the outer collector frame check and the captured Session/head checks. Those caller checks can remain unchanged. The actual missing action/presentation qualification is established by the prior independent owner source proof, not by this answer.",
+    "new_counterexample_discovery_or_software_PASS_credit": false
+  },
+  "cost": {
+    "task_begin_utc": "2026-11-03T22:00:39+00:00",
+    "closure_observed_utc": "2026-11-03T22:21:59.458811+00:00",
+    "task_wall_seconds": 1280.458811,
+    "source_preparation_and_review_mixed_wall_seconds": 704,
+    "final_metadata_phase_begin_utc": "2026-11-03T22:20:11+00:00",
+    "final_metadata_phase_wall_seconds": 108.458811,
+    "exclusive_active_seconds": null,
+    "compiler_CPU_seconds": null,
+    "net_effort_saved": null,
+    "operator_preparation": [
+      "A large normalized-line capture manifest and an overly large caller read truncated their displayed output; only directly read relevant complete bodies and later exact whole raw input snapshots were used for qualification.",
+      "One cmd rg pattern containing a quoted space/alternation produced an extra-filename error and a partial match list; a guessed collector application-module path was missing. Both were read/search preparation errors, not source, model or software failures. The exact collector module was then resolved to native-transport.",
+      "Models retracted an unverified protocol navigation and corrected two oral field aliases. The existing qualified publisher and fresh exact seven-field correction were used for the sole metadata intake; no incorrect ticket or duplicate POST was sent."
+    ],
+    "timing_limit": "Task and phase walls include source preparation, review, coordination, waiting, actual model service and metadata work. They are not exclusive labor, compiler CPU or net savings. The model total is a subwindow and is not added again."
+  },
+  "execution_and_scope": {
+    "production_candidate_written": 0,
+    "new_Test_written_or_RUN": 0,
+    "old_green_rerun": 0,
+    "Java_Native_PE_Git_Game_GET_lease_action": 0,
+    "owner_direct_HTTP": 0,
+    "model_network_executor": "sole Models loop",
+    "formal_patch_to_publish": 0,
+    "runtime_adoption_or_speed_credit": 0
+  },
+  "privacy": "Only this metadata is approved. Raw source, requests, oracle, logs, local paths, endpoint, execution token and private proof artifacts remain private."
+}
