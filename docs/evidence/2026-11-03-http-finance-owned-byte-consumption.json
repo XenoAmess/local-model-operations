@@ -1,0 +1,130 @@
+{
+  "schema": "portable-capability-note/v1",
+  "mode_id": "http-candidate",
+  "parent": "finance-owned-byte-consumption",
+  "approved_public_exact_payload": true,
+  "at_utc": "2026-11-03T05:30:37.304837+00:00",
+  "configuration": {
+    "source": "Shared local-model-operations executor and canonical CLI, frozen for this request; no caller/config edits.",
+    "layout_version": "stable-prefix-v1",
+    "caller": {
+      "bytes": 21741,
+      "sha256": "be78cdc02276efe3ccc6e24a9d0c9c875ced3df07340d91003c1990610df2369"
+    },
+    "executor_config": {
+      "bytes": 1682,
+      "sha256": "28315bd0353e2a75282a6a2844940c2286259fe17af72193ed8df54442e7ba70"
+    },
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "maximum_attempts_including_first": 6,
+    "actual_attempts_per_role": 1,
+    "actual_retries": 0
+  },
+  "problem_and_boundary": "A private consumer asked a nested final record for its public defensive array clone and immediately parsed it. The constructor already owns a private copy; its public accessor continues to copy. Complete supplied parser source reads that private array into an independent UTF8 String before parsing; no current callback receives the backing array.",
+  "source_scope": {
+    "complete_named_files": 13,
+    "physical_source_bytes": 147817,
+    "whole_LF_wire_blocks_exact": true,
+    "scope_limit": "Complete named callers/consumer/parser path and validation helpers, not every import/transitive runtime implementation. Original oracle frozen before candidate; implementation was deliberately narrow/guided. Counter received the idea but not candidate code."
+  },
+  "model_roles": [
+    {
+      "role": "implementation",
+      "budget": 2200,
+      "usage": {
+        "prompt_tokens": 32650,
+        "completion_tokens": 287,
+        "total_tokens": 32937
+      },
+      "TTFT_ms": 8744.77159997332,
+      "HTTP_total_ms": 11021.781899995403,
+      "finish": "stop",
+      "outer_JSON": "VALID",
+      "grade": "ONE_LITERAL_RAW_ADOPTED"
+    },
+    {
+      "role": "counter",
+      "budget": 3500,
+      "usage": {
+        "prompt_tokens": 32707,
+        "completion_tokens": 866,
+        "total_tokens": 33573
+      },
+      "TTFT_ms": 7199.536500003887,
+      "HTTP_total_ms": 15048.965400026646,
+      "finish": "stop",
+      "outer_JSON": "VALID",
+      "grade": "WHOLE_BLOCK_PROOF_REJECTED_NO_CURRENT_COUNTEREXAMPLE"
+    }
+  ],
+  "actual_adoption": {
+    "production_model_raw_executable_literals": 1,
+    "owner_production_executable_changes": 0,
+    "old": "Obj row = decodeDocument(body.bytes());",
+    "new": "Obj row = decodeDocument(body.bytes);",
+    "public_API_fields_types_methods_added": 0,
+    "counter_code": 0,
+    "counter_reason_rejected": "It explicitly admits the current parser does not mutate, yet blocks on hypothetical future mutation or a callback receiving an array that current public APIs never expose. These are maintenance constraints, not a supported current counterexample. No repeat request.",
+    "owner_new_Test_methods": 2,
+    "model_Test_code": 0
+  },
+  "software_evidence": {
+    "first_production_TUs": 1,
+    "new_Test_TUs": 1,
+    "new_selected_methods": 2,
+    "found": 2,
+    "started": 2,
+    "successful": 2,
+    "skipped": 0,
+    "failed": 0,
+    "errors": 0,
+    "aborted": 0,
+    "old_source_compiles": 0,
+    "old_Test_methods_RUN": 0,
+    "production_family_output_count": 16,
+    "family_name_set_unchanged": true,
+    "changed_binary_hashes": 14,
+    "binary_hash_difference_explanation": "Not attributed; do not infer only the outer class bytes changed from the one-line source diff.",
+    "all_phase_stderr_bytes": 0,
+    "scope": "Public synthetic DATA alias/failure behavior only: caller/accessor/decoder copies can be mutated without changing retained document, parsed ledger or a subsequent read; BOM/opaque tokens/Unicode preserved. Invalid pending is rejected before callback; a failing decoder only rejects that domain and later evidence survives."
+  },
+  "cost": {
+    "PREP_marker_utc": "2026-11-03T05:18:07.305334+00:00",
+    "first_strict_begin": "2026-11-03T05:24:14.076558+00:00",
+    "new_tests_end": "2026-11-03T05:27:15.036458+00:00",
+    "marker_to_test_success_wall_seconds": 547.731124,
+    "first_strict_to_test_end_wall_seconds": 180.9599,
+    "process_seconds": 5.7848969000333454,
+    "prod_to_test_coordination_wall_seconds": 166.591922,
+    "test_to_run_coordination_wall_seconds": 8.583099,
+    "earlier_discovery_seconds": null,
+    "owner_active_seconds": null,
+    "owner_active_status": "UNKNOWN",
+    "marker_is_not_full_task_epoch": true
+  },
+  "phase_process_seconds": [
+    1.7266624000039883,
+    1.63073240002268,
+    2.427502100006677
+  ],
+  "preparation_failures_preserved": [
+    "Two exact path guesses were absent during read preparation, before new Java.",
+    "Initial compiler preparation inherited unrelated historical class pins; legitimate newer class bytes caused a pre-Ready assertion, zero Java. New preparation retains ordered actual CP but pins only relevant named complete families.",
+    "Native once treated Ready JSON as Python; literal-data AST confirmed no executable call and zero JVM/output. Separate operator erratum, not source/model failure."
+  ],
+  "not_claimed": [
+    "No live runtime adoption or measured CPU, wall, heap peak or allocation-rate improvement. Source arithmetic predicts one less input-sized clone per reached installed-domain parse.",
+    "No claim this fixes old finance JFR samples or a multi-second planning delay. Fresh source/session/pin/checkpoint checks and every parser/BodyReader call remain.",
+    "No new OS/storage/ACL/Native authority or reflection/Unsafe/resource-exhaustion-equivalence qualification.",
+    "Earlier discovery wall and owner active work are UNKNOWN; marked wall includes source/model/coordination/preparation and is not process CPU.",
+    "No repeated old finance364, Publisher, Protocol or original boundary method green checks."
+  ],
+  "separate_scope_finding": "Do not wrap an entire finance callback in a read-only archive scope merely because its final output is DATA. The actual frame callback can preserve a received native original; caught missing-body read errors also differ from poisoned-scope exit. This source-only question remains separate from the one-line change.",
+  "formal_commit_at_payload_cutoff": null,
+  "runtime_adopted_at_payload_cutoff": false,
+  "publication_privacy": "Approved only this exact portable JSON. No original prompt/response, complete private sources/paths, machine process/game IDs, raw runtime evidence or binary artifacts."
+}

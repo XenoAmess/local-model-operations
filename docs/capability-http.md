@@ -1530,3 +1530,12 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [Planning selector77 有限源反审] [owner许可抽象元数据](evidence/2026-11-03-http-planning-selector-source-counter.json)：31whole/390299B，1POST/stop1660/0retry/0R2，TTFT11.3138556s/总22.2691204s；outer JSON机器VALID但两重用提案whole拒/0code或新counterexample。typed Obj检查不是JSON字节parse，public可变数值子类破深不可变假设，提前转换/filtered与full fallback树差异及首错序未闭。单payload在同call retry前构造是owner原已知事实；callback后同packet不等同current Driver/权限，不跨新观察复用命令或刷新deadline。此只读角色与M0 OBS候选/软件分开计，0Test/Java/GET；路径/类名导航与截断搜索准备成本保，fullstart/active/净收益UNKNOWN。规划含pre-model与finalize，HTTP3.246s和PLAN91.998s不授差额根因或CPU。
+
+
+[OBS 内部 history typed-DATA 复用] [owner批准正文](evidence/2026-11-03-http-observation-owned-history-reuse.json)：15whole/363049物理B，两logical四actual，首两10054半流弃后自动sameREQUEST retry两STOP/VALID；与同步reset调查相同attempt不重复计。两model whole0code，owner两叶+四newTest；首fixture/typed-error期待错误4F，production不改、仅changedTest后四distinctP，旧红完整保。只同private scope内exact Session/immutable input的内部strict-parsed DATA复用，miss fresh parse/首校验/finally与legacy ports不动，不授任意Framework缓存安全。24.59028s processwall、1241.104354s窄marker与2362.066566s较早marker全列/active净省工UNKNOWN；formal/runtime原pending。
+
+[Finance 私有 owned bytes 消费] [owner批准正文](evidence/2026-11-03-http-finance-owned-byte-consumption.json)：13whole/147817物理B，2POST2STOP/0retry；guided一literal raw采用/0owner生产exec修，counter未来假设不构成当前可达block反例，whole拒。owner新两public DATA methods首2P，public defensive accessor及每个parser/BodyReader/freshpin检查保留；16family名相同但14份binary hash不同原因未授。547.731124s仅marker窗/5.7848969s三process/activeUNKNOWN，准备pin/路径和Native数据误执行另计，不授旧JFR延迟根因、Runtime或实速。Ops本次亦有一次JSON误交Python NameError、0文件改/HTTP/JVM，已用固定reader更正，单归Ops准备成本。
+
+[Read-history 同parent正式后见](evidence/2026-11-03-http-read-history-adjacent-encode-later-formal.json)另记9ea45fae，生产formal122733B与原compiled123683B连LF/tail投影仍不等，旧formal outside唯一literal逆exact，组合formal whole未编测；Test12406B rawformal/EOF exact，复用原2P不增加分母。source-stage与Testpending原文均保。
+
+[双positive growth634 后见正式](evidence/2026-11-03-http-dual-positive-growth-later-formal.json)记录de8532e1，两payload raw/EOF exact+336B新thinwrapper；onlywrapper0/selected1P仍同三console组非第四，.472382+.5802298s process与8.155287s gapwall分列，38pins/6CP不授CPU/SAVE。原4036软件pending和真实Native同instance16+4缺口保留，0新模型/旧绿重跑。
