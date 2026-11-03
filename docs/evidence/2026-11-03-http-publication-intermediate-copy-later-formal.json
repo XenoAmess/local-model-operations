@@ -1,0 +1,46 @@
+{
+  "schema": "local-model-operations.approved-later-formal/v1",
+  "case": "Fresh immutable publication read removes one intermediate payload copy",
+  "approved_utc": "2026-11-03T05:19:13.234400+00:00",
+  "original_approved": {
+    "bytes": 16869,
+    "sha256": "5c73f413b5926729de04bdcd54b6179af3978fd7504f526837e96996df90b374"
+  },
+  "commit": "58a9b900e5b03193c0cbb93b1550046edfb10b9a",
+  "rows": [
+    {
+      "leaf": "ImmutableArtifactStore.java",
+      "selected": {
+        "bytes": 45283,
+        "sha256": "12ba692f6035de0aa4ae2375e504a9f34ed4b9c6580d0c04e86f5965fd564795"
+      },
+      "formal_commitblob": {
+        "bytes": 44608,
+        "sha256": "d740ad7801871ca377e5ea9f32006ac0c8b023e0c6766bb1a17b36de7e88dd2c"
+      },
+      "selected_to_blob": "CRLFtoLFexact",
+      "physical_to_blob": "rawexact",
+      "selected_CRLF_count": 675,
+      "selected_EOF": true,
+      "blob_EOF": true
+    },
+    {
+      "leaf": "PublicationLocalCopyTest.java",
+      "selected": {
+        "bytes": 9644,
+        "sha256": "22eb6cb50947d6c7095c421e3046cf105235f308986c62ba7b48afc3c5a298a9"
+      },
+      "formal_commitblob": {
+        "bytes": 9644,
+        "sha256": "22eb6cb50947d6c7095c421e3046cf105235f308986c62ba7b48afc3c5a298a9"
+      },
+      "selected_to_blob": "rawexact",
+      "physical_to_blob": "rawexact",
+      "selected_CRLF_count": 0,
+      "selected_EOF": true,
+      "blob_EOF": true
+    }
+  ],
+  "permission": "M4 source/Test owner approves only this sanitized tuple public; no raw/path/oracle/session.",
+  "qualification": "OnlyStore singlemethod and newTest twoleaves, normalpushclean ownerreceipt+independent currentphysical/readonlycommitblob comparison. Same singlecase/original2P, no newHTTP/JVM/Runtimeadoption/speed; originalpending unchanged."
+}

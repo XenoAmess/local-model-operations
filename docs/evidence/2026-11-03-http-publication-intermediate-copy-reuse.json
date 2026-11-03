@@ -1,0 +1,352 @@
+{
+  "schema": "local-model-operations.approved-source-case/v1",
+  "case": "Fresh immutable publication read removes one intermediate payload copy",
+  "approved_utc": "2026-11-03T05:17:49.005547+00:00",
+  "permission": "M4 sole source/Test owner approves only this sanitized complete JSON for shared publication. Raw source, prompts, streams, private oracle, absolute evidence/fixture paths and runtime bodies remain private. Same single source case, no added model/Test denominator.",
+  "mode": "ordinary fixed-three-message HTTP, no nativeassistant or OpenCode task",
+  "source": {
+    "whole_current_entities": 14,
+    "frozen_physical_bytes": 169512,
+    "scope": "ImmutableArtifactStore existing verifyRaw method only; complete current LedgerFiles/identity/custody/typed contracts supplied. No new field/method/type/import/lambda/cache/resource cap/eviction.",
+    "actual_issue": "One completed real scope had many handle-bound fallbacks while a later smaller scope had zero. Actualcaller, reuse distance and speed attribution remained unknown. Those distinct scopes are not an AB performance result.",
+    "finding": "Fallback and publication preparation use verifyRaw->LedgerFiles.exact->read. Original read constructs Document cloning payload, then exact reconstructs Document cloning again. This narrow candidate replaces only the intermediate clone, keeping same fresh IO and all validations.",
+    "prefix_qualification": "All14files complete text matched actual request source prefix after normal textnewline decoding. Frozen physicalbytes and textprefix separate; not a claim WindowsCRLF bytes embedded unchanged."
+  },
+  "requests": [
+    {
+      "role": "implementation",
+      "actual_keys": [
+        "max_tokens",
+        "messages",
+        "model",
+        "temperature",
+        "chat_template_kwargs",
+        "response_format",
+        "stream",
+        "stream_options"
+      ],
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 2500,
+      "temperature": 0,
+      "thinking": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "whole14_current_text_prefix_exact": true,
+      "message_utf8_bytes": [
+        301,
+        172359,
+        2229
+      ],
+      "message_sha256": [
+        "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5",
+        "72e5a1a7d45da4a83affdc87922d6b82b4b7a9a9ef15d6cdb6bdd044cd6c1236",
+        "5a7485c9d7108946478cd16a291ad5117c168c07e8907c4120bbd1f1ef57aac0"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at_utc": "2026-11-03T04:55:34.386815+00:00",
+          "at_utc": "2026-11-03T04:55:44.748650+00:00",
+          "http_status": 200,
+          "first_nonempty_content_delta_ms": 8635.329899989301,
+          "total_ms": 10361.330699990503,
+          "finish_reason": null,
+          "sse_done": false,
+          "usage": null,
+          "cached_prompt_tokens_if_reported": null,
+          "json_syntax": {
+            "status": "UNKNOWN",
+            "top_level_type": "UNKNOWN",
+            "reason": "INCOMPLETE_STREAM",
+            "error": null,
+            "offset_units": "Unicode code points",
+            "max_utf8_bytes": 1048576,
+            "semantic_review": "OWNER_REVIEW_REQUIRED"
+          },
+          "transport_class": "ConnectionResetError10054"
+        },
+        {
+          "attempt": 2,
+          "started_at_utc": "2026-11-03T04:55:55.637520+00:00",
+          "at_utc": "2026-11-03T04:56:03.611261+00:00",
+          "http_status": 200,
+          "first_nonempty_content_delta_ms": 938.027800002601,
+          "total_ms": 7973.259799997322,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "usage": {
+            "prompt_tokens": 37729,
+            "completion_tokens": 775,
+            "total_tokens": 38504
+          },
+          "cached_prompt_tokens_if_reported": null,
+          "json_syntax": {
+            "status": "VALID",
+            "top_level_type": "object",
+            "reason": "COMPLETE_STOP_JSON",
+            "error": null,
+            "offset_units": "Unicode code points",
+            "max_utf8_bytes": 1048576,
+            "semantic_review": "OWNER_REVIEW_REQUIRED"
+          },
+          "transport_class": null
+        }
+      ]
+    },
+    {
+      "role": "counter",
+      "actual_keys": [
+        "max_tokens",
+        "messages",
+        "model",
+        "temperature",
+        "chat_template_kwargs",
+        "response_format",
+        "stream",
+        "stream_options"
+      ],
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "max_tokens": 2100,
+      "temperature": 0,
+      "thinking": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "whole14_current_text_prefix_exact": true,
+      "message_utf8_bytes": [
+        301,
+        172359,
+        1882
+      ],
+      "message_sha256": [
+        "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5",
+        "72e5a1a7d45da4a83affdc87922d6b82b4b7a9a9ef15d6cdb6bdd044cd6c1236",
+        "ebf57cf239709b2bbd9422a5d8136b63798b1b95a70fc7635950930ab4b385b3"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "started_at_utc": "2026-11-03T04:55:34.395362+00:00",
+          "at_utc": "2026-11-03T04:55:44.747869+00:00",
+          "http_status": 200,
+          "first_nonempty_content_delta_ms": 9792.141199985053,
+          "total_ms": 10351.921399997082,
+          "finish_reason": null,
+          "sse_done": false,
+          "usage": null,
+          "cached_prompt_tokens_if_reported": null,
+          "json_syntax": {
+            "status": "UNKNOWN",
+            "top_level_type": "UNKNOWN",
+            "reason": "INCOMPLETE_STREAM",
+            "error": null,
+            "offset_units": "Unicode code points",
+            "max_utf8_bytes": 1048576,
+            "semantic_review": "OWNER_REVIEW_REQUIRED"
+          },
+          "transport_class": "ConnectionResetError10054"
+        },
+        {
+          "attempt": 2,
+          "started_at_utc": "2026-11-03T04:55:56.675538+00:00",
+          "at_utc": "2026-11-03T04:56:10.861804+00:00",
+          "http_status": 200,
+          "first_nonempty_content_delta_ms": 951.8760000064503,
+          "total_ms": 14185.765200003516,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "usage": {
+            "prompt_tokens": 37672,
+            "completion_tokens": 1712,
+            "total_tokens": 39384
+          },
+          "cached_prompt_tokens_if_reported": null,
+          "json_syntax": {
+            "status": "VALID",
+            "top_level_type": "object",
+            "reason": "COMPLETE_STOP_JSON",
+            "error": null,
+            "offset_units": "Unicode code points",
+            "max_utf8_bytes": 1048576,
+            "semantic_review": "OWNER_REVIEW_REQUIRED"
+          },
+          "transport_class": null
+        }
+      ]
+    }
+  ],
+  "concurrency": {
+    "logical": 2,
+    "actual_POSTs": 4,
+    "transient_retries": 2,
+    "peak": 2,
+    "actual_peak2_total_overlap_seconds": 17.287443,
+    "inflight_at_cutoff": 0
+  },
+  "transport": "Both firststreams received200 and content, then reset at the same instant; finishnull/DONEfalse/usageUNKNOWN/strictjsonUNKNOWN. Partial outputs entirelydiscarded, preserved and not concatenated. Configured automaticbackoff resubmitted same completeREQUEST and both finalSTOP/DONE/VALID. CauseUNKNOWN, no model/service/OOM claim and no downstreambusiness replay.",
+  "adoption": {
+    "grade": "Guided partial skeleton; owner repaired all safety-critical reference/error details. Whole rawmethod refused source-only beforejavac, not a compilerRED or semanticR2 retry.",
+    "hint": "Owner found clone-only plan, preserved fullFileIdentity/actualExactRef/Pin constructors and supplied complete input. Model was tasked with one method, not independent discovery or whole ABI.",
+    "raw_errors": [
+      "sha(raw) notdeclared in targetclass; real helper LedgerFiles.sha required.",
+      "Used expectedtextualpath instead of observedcanonicalpath, changing alias/path validation.",
+      "Replaced original named-source bytes/SHA/path mismatch error with unrelatedmessage despite proof claiming exact.",
+      "FinalDocument constructed with actualref at wrong position instead of retaining expectedref after exactcomparison; fullreturn/failure contract not preserved.",
+      "Proof falsely claimed avoiding a secondphysicalread, though originalexact reads physically onlyonce."
+    ],
+    "owner_correction": "Exact FileIdentity constructorblock and referencecondition/completeerrortext transplanted from current LedgerFiles with localname mapping, normalizedactualpath and SHA order restored, finalexpectedref/freshidentityDocument clone followed by originalrequirePin. Only one existingmethod splice and entireoutside inversebyteexact.",
+    "counter": "Original-source/proposal audit, no finalcandidate supplied. Duplication/maintainability concern retained. Claimed structuralimpossibility/no-clone theory rejected: counter itself recognized two constructors copy twice and correct completeinlining can omit one. No concrete ordinarysemantic counterexample for final code; not safety proof.",
+    "Test_HTTP": 0
+  },
+  "behavior_and_tradeoff": {
+    "preserved": "Same IBFA fresh bounded read with before/after nativeidentity/currentpermission/root/handle/close contract, fullFileIdentity/actualExactRef/Pin validation, actualSHA/bytes/path error order/message and finalfullPin check. All readPublication held/acquire/fallback limits/counters/scopepoison/cleanup and publicationcaller positions untouched.",
+    "no_identity_shortcut": "Initial possible validationreuse idea not adopted: full actual FileIdentity still constructed/validated everycall.",
+    "source_work": "Exactly2Document constructor payloadclones become1, plus unchanged defensive publicaccessor copy. Samephysicalread and digest remain; actual totalcopiedbytes, CPU/IOtime and improvement unmeasured.",
+    "maintainability": "Small read/exact validation sequence is intentionally duplicated in ownedStore leaf to avoid structural API changes. Future LedgerFiles semantic changes must also review this method.",
+    "limits": "OOM/allocationobjectidentity/stacktrace/blocking/timing equivalence not claimed. No resource expansion, cache/LRU/custody policy or dynamicperf claim."
+  },
+  "owner_witness": {
+    "oracle": "Originalbehavior frozen before POST; witness oracle before CONTENT consumption with ownerplan known. NewTest authored after candidate read, not candidateblind.",
+    "new_Test_source": {
+      "bytes": 9644,
+      "sha256": "22eb6cb50947d6c7095c421e3046cf105235f308986c62ba7b48afc3c5a298a9"
+    },
+    "new_Test_TUs": 1,
+    "new_methods_firstfound_started_P": 2,
+    "failed_skipped_aborted": 0,
+    "cases": [
+      "Legitimate software Writer lock/public Store publication and read/ref variants, literal bytes/equalPins/no-scope detachment. Actualfinite historicalscope with maxhandles4 retains firstpair so a distinctsecondref follows existingfallback; repeatedread remains exact and detached.",
+      "Tamper only unheldsecond payload, freshbytes/SHA error precedes fullnativePin mismatch and caughtfailure poisons scopeclose. Independent malformedcommit fails before missingpayload. No canonicalwrite or unknownstorage flag."
+    ],
+    "qualification": "Tiny real owned temporary Windows originals and mature softwareStorageGuard support, no privateRootissuer/reflection/testhook/Game/currentledger. No allocationcount assertions or privatecache implementation mirror.",
+    "onlybinary_reuse": "New Store15named outputs/1outerTU, normalcachedWriter8, support2 and ordered316existingCP. OnlynewTest3namedoutputs/1outerTU compiled.321ordered CPentries are not classes; no oldmethod RUN.",
+    "not_dynamic": [
+      "ComprehensiveACL/provider/replacement/closefaultmatrix",
+      "Readonlyclosedrole/largebytebound/extremeallocation",
+      "Actualcaller/loadedJVM identity/resourcepolicy/speed"
+    ]
+  },
+  "software": {
+    "firstprod1TU_seconds": 1.5989660999912303,
+    "onlynewTeststrict_seconds": 1.5618980000144802,
+    "first2method_JUnit_actual_wall_seconds": 3.563327499985462,
+    "JUnit_reported_ms": 2946,
+    "three_process_wall_sum_seconds": 6.7241915999911726,
+    "strictEND_to_JVMBEGIN_wall_seconds": 9.52268,
+    "stderr_bytes": [
+      0,
+      0,
+      0
+    ],
+    "unchangedpins": true
+  },
+  "cost": {
+    "phase_spans": [
+      {
+        "phase": "ORIGINAL_ORACLE_AND_INPUT_AUTHORING",
+        "begin": "2026-11-03T04:52:13.832473+00:00",
+        "end": "2026-11-03T04:54:09.286728+00:00",
+        "wall_seconds": 115.454255,
+        "active_seconds": null
+      },
+      {
+        "phase": "MODEL_TASK_AUTHORING",
+        "begin": "2026-11-03T04:54:09.414663+00:00",
+        "end": "2026-11-03T04:55:34.174279+00:00",
+        "wall_seconds": 84.759616,
+        "active_seconds": null
+      },
+      {
+        "phase": "WITNESS_ORACLE_AUTHORING",
+        "begin": "2026-11-03T04:57:25.848921+00:00",
+        "end": "2026-11-03T04:57:26.158898+00:00",
+        "wall_seconds": 0.309977,
+        "active_seconds": null
+      },
+      {
+        "phase": "MODEL_SOURCE_REVIEW",
+        "begin": "2026-11-03T04:57:35.699161+00:00",
+        "end": "2026-11-03T04:58:46.441205+00:00",
+        "wall_seconds": 70.742044,
+        "active_seconds": null
+      },
+      {
+        "phase": "OWNER_CANDIDATE_AUTHORING",
+        "begin": "2026-11-03T04:58:46.564070+00:00",
+        "end": "2026-11-03T04:59:24.598430+00:00",
+        "wall_seconds": 38.03436,
+        "active_seconds": null
+      },
+      {
+        "phase": "NEW_TEST_AUTHORING",
+        "begin": "2026-11-03T05:01:24.615378+00:00",
+        "end": "2026-11-03T05:01:52.970572+00:00",
+        "wall_seconds": 28.355194,
+        "active_seconds": null
+      },
+      {
+        "phase": "TEST_READY_AND_REQUEST_AUDIT",
+        "begin": "2026-11-03T05:03:32.507197+00:00",
+        "end": "2026-11-03T05:03:32.826364+00:00",
+        "wall_seconds": 0.319167,
+        "active_seconds": null
+      },
+      {
+        "phase": "SOURCE_PROOF_AUTHORING",
+        "begin": "2026-11-03T05:05:26.172292+00:00",
+        "end": "2026-11-03T05:05:26.446867+00:00",
+        "wall_seconds": 0.274575,
+        "active_seconds": null
+      },
+      {
+        "phase": "ACTUAL_RESULT_REVIEW",
+        "begin": "2026-11-03T05:12:15.162272+00:00",
+        "end": "2026-11-03T05:13:04.795053+00:00",
+        "wall_seconds": 49.632781,
+        "active_seconds": null
+      }
+    ],
+    "marked_qualificationBEGIN_to_firstJUnitEND_wall_seconds": 1428.147959,
+    "sourceReady_to_prodBEGIN_wall_seconds": 233.49925,
+    "TestReady_to_strictBEGIN_wall_seconds": 467.909007,
+    "owner_active_seconds": null,
+    "CPU_seconds": null,
+    "interpretation": "Independent markers measure wall only, including messages/tools/thinking/otherwork and model/compilerwait, not exclusive labor. SOURCE_QUALIFICATION and currentDELIVERY marker incomplete at snapshot; do not infer missingend/active. Witness oracle overlapped actualrequests/retry. Native actualsoftware processwall is not CPU.",
+    "owner_work": [
+      "Owner discovered twoDocument constructorclone path, froze originalfirsterror/alias/freshscope contract, supplied clone-only inlining plan/full14source to model; not autonomousmodel algorithm.",
+      "Whole rawmodel completeSTOP code rejected beforejavac: sha qualifier absent, observedpath replaced byexpectedpath, wrongerror message, wrongfinalreference/timing. Owner rebuilt exactsequence from actualLedgerFile declarations; guidedpartial only.",
+      "Counter proposal audit argued duplication/maintainability and initially denied clone then selfcorrected, not a concrete finalcandidate counterexample. Duplication tradeoff retained, falseimpossibility rejected.",
+      "Allnew9644B Test ownerauthored after candidate source, originalbehaviororacle predatesCONTENT; two actualpublic methods, no TestHTTP/privateissuer/reflection.",
+      "One rg spaced alternation cmdquote mistake exited2 before mutations/Java; corrected exactdeclared read-lines. No broadscan or compilerRED.",
+      "Each firstHTTP reset after200/content at sameinstant; partial streams retained entirelydiscarded, exactsameREQUEST automaticbackoff retry only. No businessreplay; transportcauseUNKNOWN."
+    ]
+  },
+  "cutoff": {
+    "formal": "PENDING; laterreceipt append only, originalpending not rewritten",
+    "Runtimeadoption_or_performance": false,
+    "newJVM_by_M4": 0,
+    "Game_GET_currentC_writes": 0,
+    "speed_target_credit": false
+  }
+}

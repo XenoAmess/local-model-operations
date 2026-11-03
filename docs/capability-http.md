@@ -1518,3 +1518,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [同步 reset 只读归因附页] [批准脱敏摘要](evidence/2026-11-03-http-synchronized-resets-limited-attribution.json)核六个既有角色/12actual attempts：三对10054 END近同十分钟相位，最近两组同role间隔599.996359/599.997486s；只是客户端时间相关，根因UNKNOWN，不授服务timer/重启/模型/OOM。各原模型REQUEST自动retry后STOP，半流不拼/旧元数据不补；不增加sourcecase/POST/Test分母。当前180/900配置和任务入口daily-cache未见对应timer，一次已知/health GET200/0B只属后见，running/waiting/uptime UNKNOWN。0新chat或配置/服务修改，不门源码与P0。
+
+
+[Publication 中间 payload copy 复用] [owner批准正文](evidence/2026-11-03-http-publication-intermediate-copy-reuse.json)：14whole/169512物理B，2logical/4actual，首对10054半流全弃后同请求自动retry，两完整STOP/VALID；与[有限reset调查](evidence/2026-11-03-http-synchronized-resets-limited-attribution.json)是同一批attempt，不重复模型分母。模型guided skeleton仅partial，owner修SHA qualifier、实际path、首错与finalref；counter只见原源/方案，错误不可能论自纠，不是candidate证明。两Document payload clones变一，fresh物理read/digest/cap/close/所有验证保留，未测净收益。owner新2methods首2P、6.7241916s processwall及1428.147959s已标子窗不当CPU/active，0Test HTTP/旧方法RUN。主文原formalpending保留；[独立后见正式](evidence/2026-11-03-http-publication-intermediate-copy-later-formal.json)记录58a9b900两叶，生产仅675CRLF→LF投影、Test rawexact/EOF保，0新验证/装载/速度。
