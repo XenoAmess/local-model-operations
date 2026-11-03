@@ -1,0 +1,24 @@
+{
+  "case": "Later publication and precise source-input byte accounting for whole-entry witness635",
+  "formal_commit": "6e699cafc698053e80009f16d25007a008ebedd4",
+  "only_one_new_manual_Test": true,
+  "source_raw_formal": "18111 bytes, SHA-256 aa0e2d5abf914c4c515ba5f7055d91963a24a297760f0506d218bade10fefc8b, byte/EOF exact.",
+  "software": "Original first one Test TU and 2groups/3scenarios/97checks reused, no repeat execution.",
+  "byte_accounting": {
+    "entity_count": 97,
+    "complete_current_Java": 83,
+    "entity_physical_sum_bytes": 445926,
+    "R1_prefix_physical_bytes": 459872,
+    "R2_prefix_physical_bytes": 470486,
+    "actual_second_message_utf8_bytes": {
+      "implementation-r1": 459872,
+      "counter-r1": 459872,
+      "method-normal-r2": 470486,
+      "method-stop-r2": 470486
+    }
+  },
+  "erratum": "459872 was the complete R1 prefix byte length, not the physical sum of its 97 entities. Prefix/wire wrapper overhead and source physical sums are distinct. This is a later interpretation correction, no rewrite of frozen requests or the original pending case.",
+  "writer_cost": "Two publication-preflight metadata assumptions failed before source/Git/Java writes; they belong to the writer, not the model or compiler.",
+  "publication_permission": "This exact sanitized JSON may be published to shared Ops; private raw sources, requests and evidence paths are not included.",
+  "new_HTTP_Java_Game": 0
+}

@@ -1564,3 +1564,10 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [Signed local block / full lower entry638] [owner批准正文](evidence/2026-11-03-http-signed-local-block-full-entry-software.json)：4STOP/0retry、峰3仅18.957253s。23实体为18 required current Java+两legacy参考+ASM/meta/合同，旧参考Memory ancestor漏供是owner打包gap，不称23完整producer/fulllegacy闭包；新target直接声明齐。API5980B完整R1 raw/0owner，78B block两MOVSXD误zeroextend源审拒0compile→唯一R2两hunk2398B正逆exact/0owner。whole7737B/Test15452B全owner，oracle prePOST；六组完整baseline在POST后CONTENT前，第七signed DWORD directblock负probe在R1 CONTENT后另annex，不称生成盲。Native三first0/stdout7=六whole场景+一个publicblockprobe，非七Native/JUnit；1.531503s processwall/1587.120126s仅clock下界、activeUNKNOWN，等待按实际prepare/queue墙钟而非未来BOOT/SAVE。原formalpending与Native172同instance16+4/实际172→638接线、growth复制正例等缺口保，0硬件/Game/装载/速度信用。
+
+
+[OBS history-reuse 最小正式后见](evidence/2026-11-03-http-observation-owned-history-reuse-later-formal.json)仅owner准许的090f445e/三leaf/0postvalidation tuple：Factory formal whole非原raw编译组合，0实速信用。原4175B批准body及formalpending保留，不增case/HTTP/Test分母。
+
+[Whole-entry witness635 正式及字节口径后见](evidence/2026-11-03-http-whole-represented-entry-witness-later-formal.json)记录6e699caf、onlynewmanualTest18111B rawformal/EOF exact，复用原两组3scene97checks/0重执行。97实体物理sum为445926B；459872B是带包装R1完整prefix/实际第二消息，R2prefix/第二消息470486B，不能把prefix当物理sum。旧4380正文/请求/pending不改，仅追加解释澄清；writer两次preflight metadata假设在写前停，归writer而非model/compiler，0新HTTP/Java/Game。
+
+[Public commit-state / full lower entry639] [owner批准正文](evidence/2026-11-03-http-public-commit-state-full-entry-software.json)：27实体为24currentJava+完整351ASM/provenance/合同，当前Memory声明齐；4STOP/0retry，峰3仅23.146593s。API9457B完整R1 raw/0owner，47B commit R1返回Normal callerSP可正确但public Registers.rsp未随RET前进，源审拒0compile→唯一R2单hunk4887B正逆exact/0owner，不造R1whole JVM RED。whole7800B/Test15803B全owner，六whole outline prePOST/fullTest在R1/R2 CONTENT后，另第七public RET/RSP/EAX probe在源拒后，不称blind。Native三first0/stdout7=六whole+一个publichelper probe非七JUnit/Native，1.7514378s process/1301.091417s仅lateclock下界/activeUNKNOWN，准备import/cache-root误在CPUReady前修、无JVM RED。原formalpending、全部lower opaque、true CMOV capacity arm未正例、四COPY新binding属他岗scope与Native172同instance16+4缺口保。
