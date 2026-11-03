@@ -1,0 +1,114 @@
+{
+  "mode_id": "ordinary-three-message-http",
+  "source_parent": "Same original Ops rolling-pool eight-role parent; admission component only, no new HTTP role.",
+  "model_actual": {
+    "source_files": 11,
+    "physical_source_bytes": 153875,
+    "source_message_bytes": 158114,
+    "budget": 4500,
+    "owner_contract_guided": true,
+    "POST": 6,
+    "END": 6,
+    "final_finish": "stop",
+    "final_SSE_DONE": true,
+    "final_json_syntax": "VALID",
+    "final_effective_TTFT_ms": 153823.29170001321,
+    "final_attempt_total_ms": 360538.66390002077,
+    "grade": "Complete valid outer JSON and complete Python module, rejected for intended admission unit; no model implementation adopted."
+  },
+  "model_review": {
+    "full_source_review_before_isolated_pure_execution": true,
+    "concrete_baseline_counterexamples": [
+      {
+        "case": "shared_capacity",
+        "expected": [
+          "r1",
+          "r2",
+          "a1"
+        ],
+        "model_observed": [
+          "r1",
+          "r2",
+          "a1",
+          "a2"
+        ],
+        "owner_observed": [
+          "r1",
+          "r2",
+          "a1"
+        ]
+      },
+      {
+        "case": "future_runtime_place",
+        "expected": [
+          "a1",
+          "a2"
+        ],
+        "model_observed": [
+          "a1",
+          "a2",
+          "a3"
+        ],
+        "owner_observed": [
+          "a1",
+          "a2"
+        ]
+      },
+      {
+        "case": "owner_rotation",
+        "expected": [
+          "a1",
+          "b1",
+          "a2"
+        ],
+        "model_observed": [
+          "a1",
+          "a2",
+          "b1"
+        ],
+        "owner_observed": [
+          "a1",
+          "b1",
+          "a2"
+        ]
+      }
+    ],
+    "scope": "Independent lane budgets over-admit total capacity; no-pending-Runtime branch consumes future reserved place; source owner cursor does not advance after successful selection."
+  },
+  "owner_implementation": {
+    "model_code_adopted": 0,
+    "authored_after_reading_model_candidate": true,
+    "source": "scripts/pool_admission.py",
+    "total_capacity_single_budget": true,
+    "future_Runtime_client_admission_reserved": true,
+    "default_source_admission_limit": 59,
+    "runtime_then_source_owner_round_robin": true,
+    "already_sent_requests_cancelled_or_changed": false,
+    "contract": "Pure pending selection only; no HTTP, subprocess, caller/config change, service priority parameter, atomic lease or Runtime permission."
+  },
+  "verification": {
+    "new_offline_test_methods": 7,
+    "finite_capacity_oracle_combinations": 384,
+    "baseline_counterexample_histories": 3,
+    "new_real_or_mock_network_requests": 0,
+    "old_green_test_suites_rerun": 0
+  },
+  "cost": {
+    "verified_at_UTC": "2026-11-03T09:07:40.225578+00:00",
+    "full_task_start": null,
+    "owner_active_seconds": null,
+    "net_saving": null,
+    "note": "Parallel P0 work, source-owner coordination and publication interrupt authoring; no continuous active coding or saved labor claimed."
+  },
+  "limits": "Client reservation is not an actual HTTP interval or server execution slot. No preemption, latency guarantee, Runtime adoption, persistent dispatcher, global60 or speed claim.",
+  "source_pins": {
+    "scripts/pool_admission.py": {
+      "bytes": 4396,
+      "sha256": "b3c8d3b5a32d7b30cec1d929b32c02436febdc818081a54e01c3270039da0748"
+    },
+    "tests/test_pool_admission.py": {
+      "bytes": 5291,
+      "sha256": "22a8a49861ed33cfa13b47c474dd43d09a5a1e2f07f0759d33161213cc8cc911"
+    }
+  }
+}

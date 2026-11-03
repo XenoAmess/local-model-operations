@@ -1627,3 +1627,6 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 2026-11-03：新获准原字节材料：[Manager CRT owner组合](evidence/2026-11-03-http-manager-crt-owner-composition.json)保三模型0代码/owner先落源与3scene84check；[range完整frame后见formal](evidence/2026-11-03-http-range-fullframe-transport-owner-later-formal.json)与 [Store stamp后见formal](evidence/2026-11-03-http-store-local-stamp-later-formal.json)不回写原pending。另 [full150返回状态软件](evidence/2026-11-03-offline-full150-returned-state-owner-software.json)和 [transfer新边界见证](evidence/2026-11-03-offline-transfer-boundary-owner-witnesses.json)是0本地HTTP的owner离线工作，不加模型分母；六组与六scene分开，当前typed poststate草稿未编/未采用，不倒授其绿。所有active/净省工UNKNOWN、0Runtime/Native/速度界限保留。
+
+
+2026-11-03：[待派任务容量与owner轮转](evidence/2026-11-03-http-pool-admission-owner-capacity-fairness.json)是同Ops源码parent的独立组件。原完整JSON/Python候选因三项实际纯函数反例拒收，owner重写通过7个新离线测试；无新增HTTP、跨进程lease或server优先slot授信。

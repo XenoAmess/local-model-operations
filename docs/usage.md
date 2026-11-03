@@ -156,3 +156,12 @@ python scripts/opencode_config.py --executor config/executor.json --workspace D:
 报告按实际 POST_BEGIN／ATTEMPT_END 构造半开区间，单列退避、开始前取消、headers、有效内容TTFT、finish/DONE及语法元数据。同一时刻END与新BEGIN不双计。缺END只记未配对证据，进程是否仍存活、服务是否收到请求均UNKNOWN；不能据进程结束补造END。缺文件、重复、冲突、无时区、乱序或未完整换行的最后一行会令当前与峰值汇总UNKNOWN。全局区间截止于最早的逐文件观察时刻；读取非原子且未证明各机器时钟同步，不能用它宣称整个服务或未登记请求的状态。
 
 [本次来源与验证](evidence/2026-11-03-http-pool-observer-length-owner-implementation.json)：模型observer输出length整弃未读，owner独立实现；11个新无网络测试，另4份现成具名日志18POST/18END原件不改。其他dispatcher组件尚未交付，不把观察器发布当作持续60已实现。
+
+
+## 纯待派任务准入选择
+
+[scripts/pool_admission.py](../scripts/pool_admission.py) 提供 `select_pending(pending, occupied_source=..., occupied_runtime=..., capacity=60, reserve_runtime=1, last_owner=None)`。它不执行任务，也不读写文件、发HTTP或传服务priority。输入是至多256条明确任务记录，每条恰含 `id/owner/spec_path/task_id/output_path/config_path/machine_id/lane`；lane仅source或runtime，id须唯一，计数不接受bool或负数。返回selected、保原输入顺序的remaining和limits；输入不修改。
+
+先选择待派runtime，再按source owner轮转，保各owner内部顺序；last_owner之后的owner先取。两lane共用一个剩余容量预算，默认source最多59个客户端准入保留，即使runtime当前未排队也留一个未来位置。已有runtime占用此位置，不再重复扣除。现有超容量只报告并停止新增，不取消已POST请求或改原deadline。
+
+这些占用数是集成方提供的客户端准入保留，不是事件观察器的实际HTTP数。纯函数也不是跨进程锁；真正派发仍需独立原子lease/claim与Runtime owner显式接线。它不保证服务执行slot、抢占或业务延迟。[独立验证记录](evidence/2026-11-03-http-pool-admission-owner-capacity-fairness.json)保模型三项反例与owner7个新离线测试/384种有限容量组合，不重跑旧caller测试。
