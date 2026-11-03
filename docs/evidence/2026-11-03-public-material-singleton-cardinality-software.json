@@ -1,0 +1,90 @@
+{
+  "case": "Public material singleton cardinality predicates",
+  "mode": "ordinary HTTP fixed three messages; DIRECT source profile, finite per-reply output, configured transient retry policy",
+  "actual_model": "qwen38-coder; service alias only",
+  "logical_roles": 3,
+  "actual_roles": [
+    {
+      "role": "implementation",
+      "finish_reason": "stop",
+      "TTFT_seconds": 3.941731400002027,
+      "HTTP_seconds": 9.917541800008621,
+      "reported_usage": {
+        "prompt_tokens": 19165,
+        "completion_tokens": 644,
+        "total_tokens": 19809
+      },
+      "cached_tokens_if_reported": null,
+      "model_code_adopted": 0
+    },
+    {
+      "role": "counter",
+      "finish_reason": "stop",
+      "TTFT_seconds": 3.9390906000044197,
+      "HTTP_seconds": 24.694468899979256,
+      "reported_usage": {
+        "prompt_tokens": 19173,
+        "completion_tokens": 2770,
+        "total_tokens": 21943
+      },
+      "cached_tokens_if_reported": null,
+      "model_code_adopted": 0
+    },
+    {
+      "role": "witness",
+      "finish_reason": "stop",
+      "TTFT_seconds": 4.1205922000226565,
+      "HTTP_seconds": 18.10825780002051,
+      "reported_usage": {
+        "prompt_tokens": 19223,
+        "completion_tokens": 1698,
+        "total_tokens": 20921
+      },
+      "cached_tokens_if_reported": null,
+      "model_code_adopted": 0
+    }
+  ],
+  "model_adoption": "No model algorithm or code adopted; no correction round. Owner implemented the actual source and new manual witness after reviewing the original results.",
+  "owner_active_seconds": null,
+  "costs": {
+    "fullscope_wall_seconds": 6432.902224,
+    "process_seconds_sum": 10.078774800000247,
+    "model_HTTP_sum_seconds": 52.72026850000839,
+    "owner_active_seconds": null,
+    "wall_is_not_CPU_or_saving": true
+  },
+  "first_software_processes": [
+    {
+      "phase": "strict-first01",
+      "seconds": 4.583966900012456,
+      "exit_code": 0
+    },
+    {
+      "phase": "test-first-compile01",
+      "seconds": 3.5319536000024527,
+      "exit_code": 0
+    },
+    {
+      "phase": "test-first-run01",
+      "seconds": 1.962854299985338,
+      "exit_code": 0
+    }
+  ],
+  "formal_commit": "4221e431046cab9bf1614779f5f15b13f7963248",
+  "formal_owned_leaves": 2,
+  "formal_publication_new_compile_or_RUN": 0,
+  "formal_projection": "Only the owned production span was transplanted. Existing formal reference encoder/decoder and every outside byte were preserved. Formal whole differs from the compiled raw candidate; their combined whole was not compiled by these first checks. Manual source path was projected to src/test/manual. One stale comment changed for publication; executable tokens, inverse and EOF were preserved.",
+  "runtime_adopted": false,
+  "body_hot_redefinition_proved": false,
+  "measured_speed_benefit": null,
+  "authority_boundary": "Software DATA only. No Native, Game, source deployment, canonical writer permission or live runtime acceptance is inferred.",
+  "scope": "Only checkedEvidence and checkedSources duplicate-check predicates in existing DriverActionHistoryCodec.",
+  "actual_source_input": "Ten complete source files, 85705 physical bytes. Five named JDK delegates were separate owner-only evidence, not retroactively included in the original model prefix.",
+  "source_change": "A singleton containing the actual final Evidence or ExactRef type can skip the duplicate-check HashSet allocation. A List<?> element read and runtime instanceof guard retain the original path for foreign erased elements.",
+  "counterexample": "A public erased List can contain an object with observable hashCode behavior. A size-only shortcut would skip that behavior or alter which exception comes first. The original HashSet fallback is retained for that case.",
+  "unchanged_contract": "List.copyOf and cardinality order, wrong-runtime-element hash callbacks and error order, Evidence role validation, later nonempty-source checks and returned copied-list identity remain.",
+  "not_removed": "No parse, encode, stream or authority/freshness validation was removed.",
+  "model_failures": "Implementation omitted required grouping and erased-element protection; source counter did not close erasure; proposed witness used invalid iterator/type/serial/callback assumptions. These outputs were rejected before compiler use.",
+  "new_witness": "One standalone main, eighteen new public constructor DATA groups: fourteen ordinary typed groups and four explicit publicLookup MethodHandle calls at erased public constructor ABI. No private lookup, Unsafe, unchecked cast, JNA or files. This is not a blanket no-reflection claim.",
+  "software_result": "All eighteen new groups passed on the first software chain; old reference-decoder cases and old production source were not recompiled or rerun."
+}

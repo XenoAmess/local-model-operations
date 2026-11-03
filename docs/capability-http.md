@@ -1751,3 +1751,13 @@ Owner独立SQLite库经8项新无网络测试，包括12进程原子争3个sourc
 
 
 - Additional approved cutoffs: [Reader later formal](evidence/2026-11-03-m4-reader-data-formal-approved.json), [container new model-witness and owner-Test source](evidence/2026-11-03-m5-container-owner-test82-approved.txt), and [B374270 source cohort](evidence/2026-11-03-m3-b374270-source-approved.json). Later formal data does not add validation; owner-Test source retains its zero-P cutoff; 17 complete source responses and short peak7 remain distinct from software and actual deployment. Original pending/draft bodies remain exact.
+
+
+## 2026-11-03 Additional source and finite software results
+
+- [Receipt clone affected-method result](evidence/2026-11-03-receipt-canonical-clone-affected-method-later.json): one unchanged existing method passed; adds no model request or new Test method to the original case.
+- [Public material singleton cardinality](evidence/2026-11-03-public-material-singleton-cardinality-software.json) and [closed action-history field sets](evidence/2026-11-03-action-history-fieldset-software.json): each had three actual HTTP roles, zero model code adoption, then owner source and respectively eighteen and thirteen new manual DATA groups. Formal combined source differs from the first compiled candidate; runtime and speed remain unproved.
+- [Exact205 later software firsts](evidence/2026-11-03-exact205-protocol-software-firsts-later.json): three production units and one new two-case manual passed after the preserved classpath preparation failure. The original source-stage pending cut remains unchanged.
+- [Normal139 full-tail source stage](evidence/2026-11-03-normal139-full-tail-source-stage.json) and [normal39 full-return source stage](evidence/2026-11-03-normal39-full-return-source-stage.json): six and five completed HTTP roles, respectively. Selected raw source and narrow correction hunks remain source candidates; software and formal acceptance were pending at these cuts.
+
+These are exact owner-approved metadata bodies. HTTP time sums, compiler/JVM process time, inclusive wall time and unknown owner active time remain separate; none establishes runtime adoption or a measured speed benefit.

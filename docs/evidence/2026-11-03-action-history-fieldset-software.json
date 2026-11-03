@@ -1,0 +1,90 @@
+{
+  "case": "Closed action-history outer field-set construction",
+  "mode": "ordinary HTTP fixed three messages; DIRECT source profile, finite per-reply output, configured transient retry policy",
+  "actual_model": "qwen38-coder; service alias only",
+  "logical_roles": 3,
+  "actual_roles": [
+    {
+      "role": "implementation",
+      "finish_reason": "stop",
+      "TTFT_seconds": 6.7026426999946125,
+      "HTTP_seconds": 24.01020619997871,
+      "reported_usage": {
+        "prompt_tokens": 41028,
+        "completion_tokens": 1266,
+        "total_tokens": 42294
+      },
+      "cached_tokens_if_reported": null,
+      "model_code_adopted": 0
+    },
+    {
+      "role": "counter",
+      "finish_reason": "length",
+      "TTFT_seconds": 9.863107100012712,
+      "HTTP_seconds": 31.67909300001338,
+      "reported_usage": {
+        "prompt_tokens": 41047,
+        "completion_tokens": 2400,
+        "total_tokens": 43447
+      },
+      "cached_tokens_if_reported": null,
+      "model_code_adopted": 0
+    },
+    {
+      "role": "witness",
+      "finish_reason": "length",
+      "TTFT_seconds": 10.122688500006916,
+      "HTTP_seconds": 41.142882200016174,
+      "reported_usage": {
+        "prompt_tokens": 41105,
+        "completion_tokens": 4500,
+        "total_tokens": 45605
+      },
+      "cached_tokens_if_reported": null,
+      "model_code_adopted": 0
+    }
+  ],
+  "model_adoption": "No model algorithm or code adopted; no correction round. Owner implemented the actual source and new manual witness after reviewing the original results.",
+  "owner_active_seconds": null,
+  "costs": {
+    "fullscope_wall_seconds": 4986.644834,
+    "process_seconds_sum": 9.654970999981742,
+    "model_HTTP_sum_seconds": 96.83218140000827,
+    "owner_active_seconds": null,
+    "wall_is_not_CPU_or_saving": true
+  },
+  "first_software_processes": [
+    {
+      "phase": "strict-first01",
+      "seconds": 4.169561899994733,
+      "exit_code": 0
+    },
+    {
+      "phase": "test-first-compile01",
+      "seconds": 3.2473704000003636,
+      "exit_code": 0
+    },
+    {
+      "phase": "test-first-run01",
+      "seconds": 2.238038699986646,
+      "exit_code": 0
+    }
+  ],
+  "formal_commit": "f6480fb1bbd0c1d110d97fbb08e49b057502e448",
+  "formal_owned_leaves": 2,
+  "formal_publication_new_compile_or_RUN": 0,
+  "formal_projection": "Only the owned production span was transplanted. Existing formal reference encoder/decoder and every outside byte were preserved. Formal whole differs from the compiled raw candidate; their combined whole was not compiled by these first checks. Manual source path was projected to src/test/manual. One stale comment changed for publication; executable tokens, inverse and EOF were preserved.",
+  "runtime_adopted": false,
+  "body_hot_redefinition_proved": false,
+  "measured_speed_benefit": null,
+  "authority_boundary": "Software DATA only. No Native, Game, source deployment, canonical writer permission or live runtime acceptance is inferred.",
+  "scope": "Only decode lines 104 through 106 constant closed-field-set construction in existing DriverActionHistoryCodec.",
+  "actual_source_input": "Thirteen complete supplied source files, 174999 physical bytes, including three named JDK set declarations. Later owner-only collection delegates were not retroactively part of the request.",
+  "source_change": "Replace temporary mutable HashSet construction with two exact Set.of branches for fourteen legacy or eighteen Gift fields.",
+  "unchanged_contract": "Strict parse, Gift marker evaluation, left keySet.equals direction, exact field membership, fixed error text, schema/array/material/constructor order and original physical source diagnostic lines remain.",
+  "not_removed": "No parse, encode, validation, authority or freshness call was removed.",
+  "model_failures": "Implementation invented a blocker by confusing constant Set.of arguments with untrusted input keys. Independent counter and witness responses ended with length and were discarded whole, without stitching or a correction round.",
+  "line_projection": "The initial five-line draft was never compiled. Selected revision kept the same execution tokens on the original three physical lines; original drafts and response cutoffs were preserved.",
+  "new_witness": "One standalone main, thirteen new groups: one valid legacy fourteen-field input, one Gift eighteen-field later-rejection sentinel, and eleven outer-field/schema negative groups. The sentinel is not full Gift success.",
+  "software_result": "All thirteen new groups passed on the first software chain. No old material or reference-decoder groups were rerun."
+}
