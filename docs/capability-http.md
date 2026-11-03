@@ -1737,3 +1737,6 @@ Owner独立SQLite库经8项新无网络测试，包括12进程原子争3个sourc
 
 
 - [Driver Complete byte-key source/software case](evidence/2026-11-03-m0-driver-bytekey587-approved.json): two real source requests, implementation length wholly discarded and counter partial, zero model code adopted. Owner existing-type change and one new real scoped JUnit passed; old active ByteBuffer map compatibility and net miss/MRU benefit remain limited or unknown. Original formal-pending cutoff and full wall/active-unknown costs are preserved.
+
+
+- Owner-approved followups: [PublicNumbers two-source-role outcomes](evidence/2026-11-03-m5-publicnumbers76-approved.txt), [Reader two DATA methods software cutoff](evidence/2026-11-03-m4-reader-data-software-approved.json), and [byte-key later formal tuple](evidence/2026-11-03-m0-driver-bytekey587-formal-approved.json). Original pending and draft cutoffs stay intact; later publication does not add POST, unique methods or validation. No Runtime or speed credit.

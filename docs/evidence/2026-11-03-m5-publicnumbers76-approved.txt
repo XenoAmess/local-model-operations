@@ -1,0 +1,19 @@
+APPROVED PORTABLE PAYLOAD. The draft-status and unobserved-result statements below are preserved as the historical draft evidence cut, not a current permission request. Parent has read the complete body and authorizes its publication. No original private draft or HTTP evidence was modified.
+
+这是 publicNumbers76 两个 source 角色的脱敏复盘草稿，仅供父级全文审阅，尚未许可发送 Models 或公开。样本为 implementation 与 counter 各一次真实 POST；不能用这两个样本概括模型的全部能力。
+
+规范与实际版本分开记录。派发时依据 local-model-operations 的 AGENTS、usage、executor，捕获的 SHA-256 前缀分别为 dba47aed1673、bbde3fdb9e52、75b5a9234919。实际 caller 为23658B的 call.py，SHA-256为ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6；实际配置为1863B的 source-high-concurrency-direct.json，SHA-256为97fb38b997dde3522f2310d06a229ab660db35f8bdc1a5d40eaa5c9e07e57e9a。规范 executor.json 不能替代本次实际配置。当前 caller、usage 已变更，不能拿现文件反授历史调用；旧 caller whole 在本稿证据切点为 NOT_HELD，不补填未查询的 commit。实际 direct 配置仍匹配派发 pin，其 stable-prefix-v1 system 模板与两份 REQUEST 的301B system 完全相符。
+
+两次均为固定三消息：system、完整原源、最终任务。共享前缀含18份 whole、868371B，逐文件及实际消息均做了字节核对；没有候选73、owner oracle、独立期待或模型旧答。实际模型为 qwen38-coder，temperature为0、thinking关闭、JSON对象输出、stream及usage开启，各限定3500输出token。规范最多6次瞬时错误尝试，本样本各仅1次，未重试。两次均200、stop、DONE、JSON语法有效；原始SSE重组逐字节等于保存的全文。prompt分别227525／227421 token，completion分别1819／1010；cached tokens均未报告，不能猜测缓存收益。
+
+implementation 顶层 decision 是 PROPOSE_PATCH，changes却为空，reason最终选择 NoSafe，未交付可采用代码。两份答复都误把“必须传String参数”当成“成功时必须构造原诊断字符串”，漏掉实际 callee 在成功分支忽略 message，因此可保留原调用、传入 null，并保持原数值谓词只求值一次。counter还混淆了递归path与numeric message，且未证明公开BigInteger子类不能产生回调，也没有依据保证动态path阻止JIT消除分配。两份whole结论均拒收；eager参数、原失败消息和递归路径需保留等正确观点仅作源码事实摘记，不构成whole采用或代码采用。
+
+此反证仅针对精确callee、String path及受限改动，不能泛推所有ignored message表达式都可删除。涉及公开Set或非String对象的消息表达式，其toString、迭代、其它回调及异常须另审；数值谓词中的公开JsonNode／BigInteger回调也必须原序、单次执行。成功require调用、递归path和属性读取不能省去。初始化、concat支持、资源耗尽与JIT边界仍需单列，不能据源码结构声称实际减少了多少分配或取得提速。
+
+owner73于11:04:06.052616 UTC物化，11:09:05.933074 UTC就绪；首POST为11:22:11.666985 UTC。其源先于请求785.733911秒就绪，hash未改，也未送入模型。模型不能追溯获得该实现的发现或作者信用。本样本whole采用0，模型代码采用0；原回包及历史SourceReady均未改写。
+
+TTFT按首有效内容计：implementation为61.159987秒，counter为65.108580秒；各HTTP总时长为101.612210／93.056763秒。两请求从最早started到最后END的墙钟为101.612742秒，角色耗时之和194.668973秒不能当墙钟。完整marked窗口从2026-11-03 10:49:58.476844 UTC源码PREP到11:52:34.638904 UTC审阅封口，共3756.162060秒，包含取源、callee／公开回调资格、owner准备、等待、18 whole前缀与任务准备、HTTP和全文审阅，不剔除准备或间隙。active与CPU时间均UNKNOWN/null；各重叠窗口不能相加。
+
+第三Test77的length提示仅为外部通知，whole未读；其费用、tokens、时长与采用分母均不混本次两个source样本。新增Test源码及Native软件回执在本稿证据切点为NOT_HELD，不填通过，也不等待未来测试或正式结果。这里没有runtime、实机、SAVE或速度信用。本次仅制作正文和分离私用引用，未新增HTTP、JVM、source／Test修改或公开发布；父级全文批准前不发送Models。
+
+Parent timing correction: the original draft called ATTEMPT_END.started_at_utc the first POST. This publication uses the actual POST_BEGIN event instead (0.000437s later), and adjusts the ready-to-POST gap accordingly. The paired HTTP wall still starts at the recorded started_at_utc and is explicitly described that way. This is metadata wording correction, not a new model or software result.

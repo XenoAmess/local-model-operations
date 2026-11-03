@@ -1,0 +1,116 @@
+{
+  "schema": "approved-sanitized-source-and-software-case/v1",
+  "case": "Private normalized witness-index lookup avoids repeating the same pure String normalization",
+  "mode": "Owner implementation/public DATA witnesses plus ordinary canonical three-message actual-candidate source counter; no OpenCode editing",
+  "source": {
+    "original_bytes": 11405,
+    "original_sha256": "1d95ce509d79ab71992c07a3f8a9c427afc46fabf5bafc89cddc1253d14838f9",
+    "selected_sources": [
+      {
+        "file": "RootArchivedNativeSourceReader.java",
+        "bytes": 11474,
+        "sha256": "2077f23412d6b8501e28d4aecb98ae0318b53428b5173b98402bf8b4bbf35e7b",
+        "CRLF": 184,
+        "EOF_newline": true
+      },
+      {
+        "file": "RootArchivedNativeSourceReaderIndexTest.java",
+        "bytes": 6327,
+        "sha256": "e6ace6a02e418858e87c6b78e15137c6ff4eaf1b2a9d0b42acd4196496ff8602",
+        "CRLF": 0,
+        "EOF_newline": true
+      }
+    ],
+    "selected_code_from_local_model": 0,
+    "change": "The private immutable witness index is constructed using exactly pathKey(witness.source); duplicates are rejected before Map.copyOf. Lookup by pathKey(source) therefore already establishes that key equality. The one-hunk body retains direct bytes/SHA checks and avoids rebuilding the two identical normalized path strings.",
+    "preserved": "pathKey is pure String slash/case normalization, with no filesystem/provider resolution. Private index/value construction excludes external map injection and mutable ref state. Every physical original/proof/epoch/permission/native gate and final pin check remains in order; no physical read is reduced.",
+    "proof": "Selected literal forward and inverse reproduce the complete original raw bytes exactly, preserving all outside content. No runtime source-identity or speed claim follows."
+  },
+  "local_model": {
+    "actual_REQUEST_parameters_rechecked": true,
+    "model": "qwen38-coder",
+    "max_tokens": 2300,
+    "temperature": 0,
+    "enable_thinking": false,
+    "messages": [
+      "system",
+      "user",
+      "user"
+    ],
+    "complete_source_files": 11,
+    "source_prefix_utf8_bytes": 78127,
+    "logical_roles": 1,
+    "actual_POSTs": 1,
+    "retries": 0,
+    "HTTP200": true,
+    "finish_reason": "stop",
+    "DONE": true,
+    "JSON_syntax": "VALID",
+    "content_TTFT_ms": 2461.2480999785475,
+    "elapsed_HTTP_ms": 6903.256499994313,
+    "reported_usage": {
+      "prompt_tokens": 18153,
+      "completion_tokens": 660,
+      "total_tokens": 18813
+    },
+    "grade": "Partial source concurrence only, no model code or approval adopted. The response misdescribes the helper as constructing proof from changed epoch inputs; actual proof uses fixed INPUTS while epoch rows change. It does not establish every asserted first-error branch. Its tests-confirm wording is static, not a supplied pass.",
+    "independence": "Actual original/candidate/Test and complete needed DATA declarations were supplied, not owner oracles or prior model output. Owner already knew candidate; not candidate-blind. This single source role is not global concurrency or a new game decision."
+  },
+  "witness": {
+    "new_Test_files": 1,
+    "new_methods": 2,
+    "distinct_first_PASS": 2,
+    "Test_HTTP": 0,
+    "method_1": "Public DATA accepts equivalent case/slash spellings with complete original proof closure.",
+    "method_2": "Public DATA checks bytes/SHA, missing and nonproducer path, input-order/duplicate and duplicate-proof cases at their actual first public checks. Duplicate witness fails in the proof constructor, not a forged private map branch.",
+    "limits": "No physical original reads, Root issuer, actual native permission/custody, current loaded identity, callback revocation or runtime performance proof. Original source oracle and public Test oracle predate their respective bodies; known design/source exposure is acknowledged and no whole-case blind claim is made."
+  },
+  "software": {
+    "original_first_phases": [
+      {
+        "phase": "prod",
+        "begin_utc": "2026-11-03T12:06:06.134623+00:00",
+        "end_utc": "2026-11-03T12:06:08.385717+00:00",
+        "elapsed_seconds": 2.2503596999740694,
+        "exit_code": 0,
+        "stderr_bytes": 0
+      },
+      {
+        "phase": "test",
+        "begin_utc": "2026-11-03T12:07:38.898011+00:00",
+        "end_utc": "2026-11-03T12:07:41.012008+00:00",
+        "elapsed_seconds": 2.1134175000188407,
+        "exit_code": 0,
+        "stderr_bytes": 0
+      },
+      {
+        "phase": "junit",
+        "begin_utc": "2026-11-03T12:07:42.050720+00:00",
+        "end_utc": "2026-11-03T12:07:44.403444+00:00",
+        "elapsed_seconds": 2.3520192000141833,
+        "exit_code": 0,
+        "stderr_bytes": 0
+      }
+    ],
+    "new_production_TUs": 1,
+    "new_Test_TUs": 1,
+    "production_class_outputs": 4,
+    "Test_class_outputs": 1,
+    "three_XML_independently_parsed": true,
+    "new_distinct_PASS": 2,
+    "all_input_result_pins_unchanged": true,
+    "old_dependency_support_or_Test_source_compile_RUN": 0,
+    "elapsed_process_sum_seconds": 6.715796400007093,
+    "elapsed_process_is_CPU": false,
+    "strict_END_to_JUnit_BEGIN_wall_seconds": 1.038712,
+    "dependency_scope": "Ordered original316CP reused. Actual first-match current FullJsonTree family was compared only for called method bindings, not whole old public fields/API/implementation, loaded source equality or all dependencies. Native mapping and overstrict field metadata assumptions stopped before Java and were retained as preparation costs; no old sources were compiled to force closure."
+  },
+  "owner_cost": {
+    "active_seconds": null,
+    "accounting": "Source freezing/oracles, Test authoring, finite source-to-binary navigation, independent reviews, later model counter, mechanical queue and final packing interleave. Model/process elapsed is not CPU; short metadata runs are not the source/owner labor and overlapping phase walls are not summed as exclusive work.",
+    "preparation_errors": "An old Test-oracle path reference was withdrawn as NOT_HELD and replaced with the exact75-line public-data oracle. Parent first finalizer assumed LF for an actual CRLF literal and asserted before RESULT/DELIVERY write; the original script was retained, only metadata matching was corrected, and raw whole inverse remained exact. No source/expectation/Test/compiler RED or rerun was manufactured."
+  },
+  "publication": "PENDING sole Java at original DELIVERY software cutoff; later publication belongs in a separate annex without changing this cutoff.",
+  "runtime_or_measured_speed": "NOT_GRANTED",
+  "privacy": "Only this sanitized approved JSON body may be public. Raw source, requests/responses, oracle, exact local paths and process/session identifiers stay local. One source case/two new-method PASS set only; no double counting."
+}
