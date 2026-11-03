@@ -1,0 +1,148 @@
+{
+  "schema": "local-model-operations.opt-in-request-registry-delivery/v1",
+  "status": "RAW_CORE_QUALIFIED_PORTABLE_DEFAULT_TEST_BINDINGS_NOT_RUN",
+  "files": [
+    {
+      "public": "scripts/request_registry.py",
+      "bytes": 9881,
+      "sha256": "d293c9389cb68d1d24acdf991228caf3a2d218b9af1d3fe00b26d1ad274d808a",
+      "raw_qualified_bytes": 9881,
+      "raw_qualified_sha256": "d293c9389cb68d1d24acdf991228caf3a2d218b9af1d3fe00b26d1ad274d808a",
+      "handoff_projection_sha256": "d293c9389cb68d1d24acdf991228caf3a2d218b9af1d3fe00b26d1ad274d808a",
+      "extra_literal_projection": [],
+      "raw_exact": true,
+      "forward_and_inverse_projection_verified": true,
+      "portable_default_binding_test_run": false
+    },
+    {
+      "public": "scripts/call_with_registry.py",
+      "bytes": 25529,
+      "sha256": "943909eb87307b8b36bb9fd316d44b17711a3d2c27522b862c3579a3a057fb6b",
+      "raw_qualified_bytes": 25529,
+      "raw_qualified_sha256": "943909eb87307b8b36bb9fd316d44b17711a3d2c27522b862c3579a3a057fb6b",
+      "handoff_projection_sha256": "943909eb87307b8b36bb9fd316d44b17711a3d2c27522b862c3579a3a057fb6b",
+      "extra_literal_projection": [],
+      "raw_exact": true,
+      "forward_and_inverse_projection_verified": true,
+      "portable_default_binding_test_run": false
+    },
+    {
+      "public": "tests/test_caller_registry_boundaries.py",
+      "bytes": 11854,
+      "sha256": "be72a79d016e083774917dc8f26989ae12487924f302daebf5084f410626380d",
+      "raw_qualified_bytes": 11743,
+      "raw_qualified_sha256": "115c1a33e07524e8304b81bf0370575374a15ed893fe5ad89c8f2ecf00ab0d32",
+      "handoff_projection_sha256": "18dc68d666bcd714851881b5db99536bc264654425c54627f6c5fa7c463200b6",
+      "extra_literal_projection": [
+        {
+          "old": "'scripts/call.py'",
+          "new": "'scripts/call_with_registry.py'"
+        }
+      ],
+      "raw_exact": false,
+      "forward_and_inverse_projection_verified": true,
+      "portable_default_binding_test_run": false
+    },
+    {
+      "public": "tests/test_registry_terminal_boundaries.py",
+      "bytes": 3697,
+      "sha256": "e9405248c2b32edbc222eee4edb8ada709f36711f366d15f68b90a909c50ff90",
+      "raw_qualified_bytes": 3582,
+      "raw_qualified_sha256": "366dae00310dd7d915d0a7db673344d93254fd39939d8671bc21180335c819f9",
+      "handoff_projection_sha256": "e9405248c2b32edbc222eee4edb8ada709f36711f366d15f68b90a909c50ff90",
+      "extra_literal_projection": [],
+      "raw_exact": false,
+      "forward_and_inverse_projection_verified": true,
+      "portable_default_binding_test_run": false
+    }
+  ],
+  "activation": {
+    "entry": "scripts/call_with_registry.py",
+    "canonical_call_py_changed": false,
+    "active_dispatcher_or_Runtime_migrated": false,
+    "default_registry_disabled": true,
+    "flag": "--request-registry",
+    "environment": "LOCAL_MODEL_REQUEST_REGISTRY"
+  },
+  "scope": {
+    "coverage": "THIS_REGISTRY_RECORDED_BOUNDARIES_ONLY",
+    "global_coverage": "UNKNOWN",
+    "live_http": "UNKNOWN",
+    "unpaired_begin": "OPEN_UNKNOWN, not proof of a live socket",
+    "physical_locality": "trusted local-owner configuration premise, not OS sandbox"
+  },
+  "raw_first_validation": {
+    "distinct_methods": 9,
+    "exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "groups": [
+      {
+        "kind": "caller memory transport",
+        "methods": 3,
+        "seconds": 0.5796906000177842
+      },
+      {
+        "kind": "historical canonical compatibility",
+        "methods": 1,
+        "seconds": 1.9621905999956653
+      },
+      {
+        "kind": "independent data witnesses",
+        "methods": 4,
+        "seconds": 2.156175500014797
+      },
+      {
+        "kind": "terminal history",
+        "methods": 1,
+        "seconds": 0.7985718999989331
+      }
+    ],
+    "sum_child_process_seconds": 5.496628600027179,
+    "receipt_sha256": "b4176fe64406fbec33d34a627b31e454bacf8a04acbb4217847ece00933c6518",
+    "public_test_methods_included": 4,
+    "historical_private_test_included": false,
+    "independent_four_tests_included": false,
+    "terminal_last_negative": "combined invalid time and cross-attempt identity; not isolated token proof",
+    "new_publication_Test_run": false
+  },
+  "actual_opt_in_canary": {
+    "logical_source_review_tasks": 1,
+    "actual_POST": 2,
+    "automatic_transport_retries": 0,
+    "first_owner_launch_failure": {
+      "http_status": 200,
+      "seconds": 0.9916204999899492,
+      "complete": false,
+      "cause": "stdout OSError after os.execve wrapper returned early",
+      "registry_BEGIN": 1,
+      "registry_END": 1,
+      "registry_unpaired": 0
+    },
+    "explicit_owner_launch_repair": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "JSON_valid": true,
+      "caller_exit": 0,
+      "TTFT_seconds": 0.8915420999983326,
+      "HTTP_seconds": 2.6522628999955487,
+      "prompt_tokens": 5010,
+      "completion_tokens": 274,
+      "cached_tokens": null,
+      "registry_BEGIN": 1,
+      "registry_END": 1,
+      "registry_unpaired": 0,
+      "exact_identity_time_EVENTS_and_request_audit": true,
+      "model_grade": "REJECTED_SOURCE_MISREAD_IDENTITY_CHECK_ORDER",
+      "model_code_adopted": 0
+    },
+    "HTTP_seconds_including_owner_failure": 3.643883399985498,
+    "full_task_active_time": null,
+    "global_or_backend_coverage": "UNKNOWN"
+  },
+  "publication_validation": "Pinned byte copy, exact literal forward/inverse projection, staged blob checks; no repeated old tests or HTTP."
+}
