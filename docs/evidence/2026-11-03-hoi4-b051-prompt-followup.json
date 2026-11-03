@@ -1,0 +1,212 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B051-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-03T09:42:29.933490+00:00",
+  "new_real_tasks": 4,
+  "actual_post_attempts": 4,
+  "complete_stop_json_candidates": 4,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T09:03:48.267130+00:00",
+    "window_ended_at_utc": "2026-11-03T09:04:44.612675+00:00",
+    "window_seconds": 56.345545,
+    "peak": 4,
+    "peak_duration_seconds": 54.85015,
+    "average_inflight": 3.942465140766674
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261103-b051-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 760,
+        "completion_tokens": 602,
+        "total_tokens": 1362
+      },
+      "failure": null,
+      "content_ttft_ms": 845.0749000185169,
+      "total_ms": 55924.77390001295,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "87fced7485f3c8868066029e80015c38b8d32d1384b2857ebd87ccf4e74c4417",
+      "summary_sha256": "fccfd09f899dedf97e49749af3ecd721c96afa6329ff53d183d6a341a97a8b22",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "ae3acda4c7a993536db63d9c11ec2fbeab4be94c063c24dcdd62160be209a696",
+        "task_id": "hoi4-20261103-b051-prompt-01",
+        "request_sha256": "87fced7485f3c8868066029e80015c38b8d32d1384b2857ebd87ccf4e74c4417",
+        "summary_sha256": "fccfd09f899dedf97e49749af3ecd721c96afa6329ff53d183d6a341a97a8b22",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Restated explicit primary image-left direction/actual head roll and removed analysis-only no-larger-candidate sentence.",
+          "Canonical source alpha rules appended; no local model pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "dba47aed1673e9e840cb7a9936a504fc7503f0df51c8ffd3e834b7c2c35b4229",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2161,
+        667
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b051-prompt-02",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 796,
+        "completion_tokens": 528,
+        "total_tokens": 1324
+      },
+      "failure": null,
+      "content_ttft_ms": 846.377499983646,
+      "total_ms": 55012.83520000288,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "74c2bef21d01ee7f32f58d9bc0372939355a31377f5da4f45f028db561f22ad0",
+      "summary_sha256": "c6718b78db1eacb03f710932ae043aa34199172deee1155f56caad2db9b1f7a7",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "2c215638939da12c4c3b5e8303b8263d5d2097d866b2038fc4ef7272aca5ae0b",
+        "task_id": "hoi4-20261103-b051-prompt-02",
+        "request_sha256": "74c2bef21d01ee7f32f58d9bc0372939355a31377f5da4f45f028db561f22ad0",
+        "summary_sha256": "c6718b78db1eacb03f710932ae043aa34199172deee1155f56caad2db9b1f7a7",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Removed candidate final protocol/hash/non-input discussion sentence before image dispatch; restated image-right upturned bear pose/open mouth and actual red shoulder-neck cloth. Natural bear fur tuft is not a cap; no invented human hair/clothes/collar. Original bear anatomy alone changes to smooth mascot identity.",
+          "Canonical source alpha rules appended; no local model pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "dba47aed1673e9e840cb7a9936a504fc7503f0df51c8ffd3e834b7c2c35b4229",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2124,
+        700
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b051-prompt-03",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 767,
+        "completion_tokens": 505,
+        "total_tokens": 1272
+      },
+      "failure": null,
+      "content_ttft_ms": 700.8390999981202,
+      "total_ms": 54851.23760002898,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "99da0ad2d92a313a06a8d871701e53b522fe5497290c49871a75d8fd588bfb52",
+      "summary_sha256": "7c4f38a5c8e3481fa67568698af99a3abd0e9a23e3adec3e58e4966f724eb43e",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "4435af6bd7ad86c114bffcfb16584325dcdbbd1c72a4a02eb5e884de143a4a7d",
+        "task_id": "hoi4-20261103-b051-prompt-03",
+        "request_sha256": "99da0ad2d92a313a06a8d871701e53b522fe5497290c49871a75d8fd588bfb52",
+        "summary_sha256": "7c4f38a5c8e3481fa67568698af99a3abd0e9a23e3adec3e58e4966f724eb43e",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Restated actual bare head, bald/sparse-hair version, fine upper-lip uncertainty and original garment state.",
+          "Canonical source alpha rules appended; no local model pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "dba47aed1673e9e840cb7a9936a504fc7503f0df51c8ffd3e834b7c2c35b4229",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2188,
+        667
+      ]
+    },
+    {
+      "task_id": "hoi4-20261103-b051-prompt-04",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 782,
+        "completion_tokens": 641,
+        "total_tokens": 1423
+      },
+      "failure": null,
+      "content_ttft_ms": 840.6273999717087,
+      "total_ms": 56333.85549997911,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "05f594bdfa65c99963fd2b2cdd4ba80460a3d827c25047d345ab0c21a7bd73e3",
+      "summary_sha256": "358a2dd8b2d1263a225f32fe513a9eff4f9c5daf1089c5b4b533114bd665b61e",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "f1c55e32c77e36d814a58825b6a3c61c1726557e2e912686dca93fcb694c7b66",
+        "task_id": "hoi4-20261103-b051-prompt-04",
+        "request_sha256": "05f594bdfa65c99963fd2b2cdd4ba80460a3d827c25047d345ab0c21a7bd73e3",
+        "summary_sha256": "358a2dd8b2d1263a225f32fe513a9eff4f9c5daf1089c5b4b533114bd665b61e",
+        "adoption": "partial + owner exact-source corrections",
+        "owner_changes": [
+          "Retained actual image-left primary direction, khaki cap/shirt/dark tie and tiny eye-rim uncertainty; removed description of non-input opposite-facing larger image.",
+          "Canonical source alpha rules appended; no local model pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "dba47aed1673e9e840cb7a9936a504fc7503f0df51c8ffd3e834b7c2c35b4229",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "ad5d74b5f2552b7120cd13ac8b6b770ad696eb13cfffd299183febb6368e5ec6",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2248,
+        667
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261103-b051-sources.json",
+    "sha256": "c7d0676989f3ecbc25be4e64e8e1f76e837f86651c7197486676d967bca38af5",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T09:19:42.519998+00:00",
+  "frozen_prepared_receipt": "mod_nailong/data/production-batches/resume-20261103-b051-prepared.json",
+  "stage_at_cutoff": "Four prepared uncalled independent original-source prompts. The pre-dispatch cutoff was frozen before later actual calls, independently of publication time. Four different source SHA portraits remain independent. Source2 is an actual bear character with natural fur tuft, upturned open mouth and red neck-shoulder cloth, no human cap/hair/clothes/collar. An unrelated human same-filename candidate was excluded. Source1 has no matching larger candidate; source4 larger is opposite-facing appearance context only. Scope/denominator unchanged. Local text model received owner observations/contracts only, no image pixels or visual qualification.",
+  "owner_review": "Both SHA domains checked. Four new unfinished real tasks completed one POST each, stop/DONE/JSON, after the separate B049 timeout episode. B049 owner-authored tasks were not replayed. Source2 pre-POST contract explicitly replaced the generic human-collar contract with bear-to-mascot natural-body/pose/no-clothes constraints; candidate retained that distinction. Owner removed its final protocol/hash discussion sentence and restated actual source pose/direction. Other candidates partially adopted with primary direction, bare head and actual clothing restored. No image pixels, art qualification or permanent recovery/capacity claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
