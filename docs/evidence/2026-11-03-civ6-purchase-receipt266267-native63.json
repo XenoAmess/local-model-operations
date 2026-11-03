@@ -1,0 +1,215 @@
+{
+  "date_local": "2026-11-03",
+  "machine_id": "BF-202609141645",
+  "cases": [
+    {
+      "sequence": 266,
+      "case_id": "civ6-purchase-park-coupling266",
+      "mode_id": "http-candidate",
+      "shared_commit": "53a10edce27cd27b08c12dd36b2d8d8d4bc81424",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2800,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-03T12:18:17.921743+00:00",
+      "attempt_end_utc": "2026-11-03T12:19:04.712120+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 46789.88699999172,
+        "first_nonempty_content_delta_ms": 8196.94980001077,
+        "usage": {
+          "prompt_tokens": 53540,
+          "completion_tokens": 1941,
+          "total_tokens": 55481
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-03T12:18:17.921743+00:00",
+          "end_utc": "2026-11-03T12:19:04.712120+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 46789.88699999172
+        }
+      ],
+      "adoption": "rejected_owner_witness",
+      "review": "Candidate loaded Core modules into UI instead of supplied separate environment, omitted actual partial-debit/moves4 setup and did not verify both bridges. Static rejection; raw test not executed. Owner real two-bridge witness on63:two methods,one failure; fully observed positive control moved, incomplete debit leftARMED but moved unit900.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 267,
+      "case_id": "civ6-purchase-park-receiptfix267",
+      "mode_id": "http-candidate",
+      "shared_commit": "53a10edce27cd27b08c12dd36b2d8d8d4bc81424",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2300,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-03T12:28:22.272416+00:00",
+      "attempt_end_utc": "2026-11-03T12:28:41.235397+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "length",
+        "sse_done": true,
+        "total_ms": 18971.386799996253,
+        "first_nonempty_content_delta_ms": 5697.686500032432,
+        "usage": {
+          "prompt_tokens": 42291,
+          "completion_tokens": 2300,
+          "total_tokens": 44591
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": false,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-03T12:28:22.272416+00:00",
+          "end_utc": "2026-11-03T12:28:41.235397+00:00",
+          "failure": "finish_reason_length",
+          "finish_reason": "length",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 18971.386799996253
+        }
+      ],
+      "adoption": "length_discarded",
+      "review": "SSE terminated with length at2300 output tokens, candidate incomplete, strict JSONsyntaxUNKNOWN. Entire output discarded, not inspected/adopted or concatenated; owner implemented bounded guard.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "batch": {
+    "actual_peak": 1,
+    "seconds_at_peak": 65.75335799999999,
+    "longest_seconds_at_peak": 46.790377,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "cumulative_through267": {
+    "logical": 267,
+    "complete": 252,
+    "length": 12,
+    "final_transport_failed": 3,
+    "http_attempts": 297,
+    "additional_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "software": {
+    "owner_old63_methods": 2,
+    "owner_old63_failures": 1,
+    "owner_old63_seconds": 1.862472,
+    "owner_corrected_methods": 3,
+    "owner_corrected_seconds": 0.067,
+    "full_methods": 742,
+    "full_unittest_seconds": 86.586,
+    "full_record": {
+      "started_utc": "2026-11-03T12:37:27.430610+00:00",
+      "returncode": 0,
+      "elapsed_seconds": 89.86728250002488,
+      "tail": [
+        "test_all_lua_keywords_and_duplicates (test_profile_selection.ProfileSelectionTests.test_all_lua_keywords_and_duplicates) ... ok",
+        "test_children_container_and_count (test_profile_selection.ProfileSelectionTests.test_children_container_and_count) ... ok",
+        "test_default_matches_explicit_selection (test_profile_selection.ProfileSelectionTests.test_default_matches_explicit_selection) ... ok",
+        "test_invalid_elements_rejected_before_hashing (test_profile_selection.ProfileSelectionTests.test_invalid_elements_rejected_before_hashing) ... ok",
+        "test_q11_selection_preserves_calls_root_gate_and_restore (test_profile_selection.ProfileSelectionTests.test_q11_selection_preserves_calls_root_gate_and_restore) ... ok",
+        "test_stage_type_and_boundary (test_profile_selection.ProfileSelectionTests.test_stage_type_and_boundary) ... ok",
+        "test_all_five_lexical_functions_have_actual_root_identity (test_profiled_build.DiagnosticBuildTests.test_all_five_lexical_functions_have_actual_root_identity) ... ok",
+        "test_outside_q9_does_not_profile_or_change_returns (test_profiled_build.DiagnosticBuildTests.test_outside_q9_does_not_profile_or_change_returns) ... ok",
+        "test_restore_preserves_foreign_replacement (test_profiled_build.DiagnosticBuildTests.test_restore_preserves_foreign_replacement) ... ok",
+        "test_restore_returns_original_functions (test_profiled_build.DiagnosticBuildTests.test_restore_returns_original_functions) ... ok",
+        "",
+        "----------------------------------------------------------------------",
+        "Ran 742 tests in 86.586s",
+        "",
+        "OK"
+      ],
+      "log_sha256": "6beb7550005a5be39a77e6f099cb696f46a3cc4e0d9007d6b2e62948855d3deb",
+      "version": 64,
+      "files": 78,
+      "zip_sha256": "9c89fff5f77d48a107b7e845421c07bcc2dcd6f152bd5946aff958eb5dd6b66b"
+    },
+    "unregistered_museum_literal_later_corrected_separately": {
+      "affected_methods": 10,
+      "seconds": 0.032,
+      "source64_packaged_files_unchanged": true
+    }
+  },
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "publication": null
+  },
+  "cost_limits": "Interleaved Native63 actual purchase/park/save/reload and museum binding correction; exclusive owner time/cache unknown.",
+  "limits": [
+    "64 not installed or cold-loaded; no native incomplete-debit/moves4 scenario reproduced. Normal63 actual purchased naturalist startsmoves0 and succeeds separately.",
+    "Archaeology helper remains unregistered; Native museum binding correction is separate owner input error, not a new model request.",
+    "No64 performance/global ledger/matched controls or full40 pass.",
+    "Native63 normal purchase/park success does not validate model266 test or incomplete267 length output. Source64 guard only software/parse/package at freeze."
+  ],
+  "next": "Publish source64 after required checks, normal exit63 with verified paidpark100 save, fresh Steam offline proof and normal64 cold-load. Verify park/purchase persistence and known unresolved receipt hold, continue archaeology/full acceptance.",
+  "schema": "local-model-operations.civ6-purchase-receipt266267-native63/v1",
+  "business_evidence": {
+    "baiqi-p6-purchase-receipt-preservation-source64-evidence-2026-11-03.json": "https://github.com/XenoAmess/civ6_dev/blob/075a4606339b519fb0579c6e2e3ca94f8ca71db4/docs/research/baiqi-p6-purchase-receipt-preservation-source64-evidence-2026-11-03.json",
+    "baiqi-p6-native63-actual-purchase-evidence-2026-11-03.json": "https://github.com/XenoAmess/civ6_dev/blob/075a4606339b519fb0579c6e2e3ca94f8ca71db4/docs/research/baiqi-p6-native63-actual-purchase-evidence-2026-11-03.json",
+    "baiqi-p6-native63-paid-park-evidence-2026-11-03.json": "https://github.com/XenoAmess/civ6_dev/blob/075a4606339b519fb0579c6e2e3ca94f8ca71db4/docs/research/baiqi-p6-native63-paid-park-evidence-2026-11-03.json",
+    "baiqi-p6-archaeology-museum-row-correction-evidence-2026-11-03.json": "https://github.com/XenoAmess/civ6_dev/blob/075a4606339b519fb0579c6e2e3ca94f8ca71db4/docs/research/baiqi-p6-archaeology-museum-row-correction-evidence-2026-11-03.json"
+  },
+  "owner_input_followup_264265": "Owner supplied incorrect BUILDING_ARCHAEOLOGICAL_MUSEUM enum. Actual Native catalogue is BUILDING_MUSEUM_ARTIFACT/Index24/Hash1182236625. Corrected unregistered reader+fixture10PASS0.032; ten265 DATA cases unchanged. This is owner input failure, separate from264 chained-equality/scope/duplicate-ID defects; frozen original case not rewritten.",
+  "native_boundaries": "Actual UI slot readers exist, all four Core slot readers absent; Core GreatWorkCreated event shape only. Temporary diagnostic restored namespace, actual Debug arch home=-1 unavailable;11cities no museum. No archaeology positive effect.",
+  "actual_native63_followup": {
+    "automatic_purchase_turn": 99,
+    "cost": 300,
+    "faithBefore": 433.55859375,
+    "faithAfter": 133.55859375,
+    "newUnitID": 5767181,
+    "native_birth_moves": 0,
+    "next_quote": 350,
+    "purchase_receipt": "OBSERVED purchase:0:1 serial1",
+    "purchase99_save_reload_passed": true,
+    "new_logged_purchase_after_reload": 0,
+    "actual_park_turn": 100,
+    "park_tiles": [
+      628,
+      671,
+      672,
+      716
+    ],
+    "ui_and_core_true": true,
+    "park_receipt": "OBSERVED park:0:2 serial2",
+    "park100_save_verified_not_reloaded_at_freeze": true,
+    "setup": "Isolated prior Conservation/terrain/Debug setup + twice716mine removal labelled; faith accumulated ordinarily, paid naturalist created by real purchase. No direct faith/unit/park effect setter for this normal purchase."
+  }
+}
