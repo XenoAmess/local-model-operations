@@ -2155,3 +2155,10 @@ M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-co
 ## 2026-11-04：M3五阶段生产首次编译后见
 
 [六个new production TU首编](evidence/2026-11-04-http-m3-production-first-later323.json)：291/292、305、295、309、310REV02五阶段均strict0，实际32class输出；没有目标方法/FP操作/Test执行。约8.1649095秒只是五子进程之和，不是准备/等待/完整墙钟或提速。所有原source Ready/model请求/pendingcutoffs保原，310precompile transient维护不编造历史compilerRED；新manual各按必要first另验，不新增HTTP/模型case。
+
+
+## 2026-11-04：M6新divisor整体源码与publisher CLI后见
+
+[M6 whole consumer276](evidence/2026-11-04-http-m6-native-divisor276-source.json)两真实请求：5500-token length整未读弃、原sourcecounter STOP整拒0proof/0数值oracle；owner在原23hunk接管，新同Memory组合仅source-ready。两期待prePOST冻结、common-domain0diff不是Java行为；准备/审阅/HTTP重叠不加和，CPU/active/fulltask未知。五生产actual在该owner切点未持，软件/正式pending/naturalOPEN原样保。
+
+[同intake案例补充CLI资格](evidence/2026-11-04-source-publisher-cli-schema-followup.json)仅1newmethod/2CLI lanes首验0/.9670771秒，原publisher和newpair既有str门，0生产修复；早期4dict错误来自directdrop绕过publisher，不能据此伪造helper bug或复现。原7方法/rollover4方法不重，4844.488414秒Ready到实际回执窗含准备/等待，不当HTTP或省工；无新modelcase/请求。
