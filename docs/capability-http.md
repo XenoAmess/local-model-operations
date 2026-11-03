@@ -1401,3 +1401,8 @@ Writer reduced-tree [onlyTest正式后见](evidence/2026-11-03-owner-writer-tree
 
 
 [double-tail纯API正式后见](evidence/2026-11-03-http-double-tail-api-later-formal.json)追加e1a680fc，三payload raw/EOF精等与only308B wrapper同四组1P；不加第五组，不混API原样采用与两个whole binder拒收。原3582 pending与四first保，0新HTTP/旧production/Test重跑或运行信用。
+
+
+[1423 Life reserve有限negative](evidence/2026-11-03-http-life-reserve-budget-finite-negative.json)是不同于369B的新真实预算任务：34whole894782B+实际scalarfacts、2STOP/0retry/峰2仅55.633339s。设计稿部分公式/顺序正确但错误因果拒，counter整推理/降reserve等捷径拒；0代码/编测/参数变更，匹配NoSafe标签不算模型成功/策略最优。332.51708仅sourcefreeze→seal，active/fulltask未知；owner两module miss及立即算术纠正保，CPU4恢复独立不门。
+
+[Publisher单方法replacement复用source单元](evidence/2026-11-03-http-publisher-method-local-replacement-reuse-source.json)：Root方向与M5子类风险在先，26whole617510B+finding JSON，2logical4actual（各reset→同REQUEST retry）。两外层JSON有效；实施强指导code原样，仅edit metadata1→3拆，counter自反whole拒非candidatePASS。仅精确不可变类型支局部三encode→一，子类三次和fresh readback/head/later requireCurrent照旧；1TU首0/3.1240572s与7family/12captures/7lambda纯shape，不授loaded/index/runtime/速度。[正式后见](evidence/2026-11-03-http-publisher-replacement-reuse-later-formal.json)023e81f2是三owned literal移植，raw28021/54c3与formal27735/b58c分pin，不冒raw相等；Test仍另owner材料不夹通过或成本。
