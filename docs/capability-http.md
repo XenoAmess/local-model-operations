@@ -2124,3 +2124,10 @@ M1[解析器callback源码反审](evidence/2026-11-04-http-m1-parser-callback-so
 M6[272三角色](evidence/2026-11-04-http-m6-scalar272-source.json)生产执行码采用、owner只修10B注释，模型Test全拒；峰3仅29.996957秒，独立35输入与作者9literal冻结、LF/CRLF准备错误各自记账。[273/274/275七请求](evidence/2026-11-04-http-m6-source-ops273274275.json)五STOP两length整未读弃；274完整3086B源采用，275仅note未交diff、owner最小helper接管，273独立oracle与后到owner期待冻结分列。puremetadata81classes/59members不授Java或自然验收，重叠墙窗不加和，软件/正式仍按各cutoff记录。
 
 M2[661/663后继owner源码](evidence/2026-11-04-http-m2-661663-owner-source-later.json)分别为445L完整接管与208L有限部分采用，原R1/R2拒收和未编切点保留；source peer与条件GO不是软件通过。[650/651正式小tuple](evidence/2026-11-04-http-m2-650651-formal-later.json)只消费sole publisher历史回执，未新跑薄包装器，也不推未持raw→formal投影；两原组分母不增加。
+
+
+## 2026-11-04：有界协作派发 DATA planner 正式源码
+
+[planner03与用法](authorized-dispatch-data-plan.md)只产DATA，绝不调用collaboration；状态、授权和错误分类仍由operator实证提供。两个生产模块保Native796原字节：10个finite DATA方法＋1历史CLI均0，两子进程合0.5658078秒；任务至首实际CLI3466.99424秒、两HTTP合10.5703371秒与owner517秒portable准备窗口分别保，不声称省工。模型部分_decide采用；容量恢复须followup、Root不支持followup两处由owner原工具合同补闭，原wire不改。
+
+[证据与投影边界](evidence/2026-11-04-http-authorized-dispatch-planner03.json)：public7文件不含私snapshot/grant/raw；新synthetic65条只有1任务，DATA不是authorization或actualSTART。Test保10方法，8方法/3support AST原同，另2个scratch/syntheticfixture入口和新syntheticCLI尚待必要首次，未重原796或提前授portable全绿。新source publication不新增模型task/HTTP/case；builder04独立不夹入。

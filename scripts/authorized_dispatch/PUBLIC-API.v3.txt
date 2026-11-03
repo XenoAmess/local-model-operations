@@ -1,0 +1,86 @@
+AUTHORIZED DISPATCH PLANNER — PUBLIC API / DATA SCHEMA v3
+
+Python stdlib only. Module authorized_dispatch_plan.py.
+Public API:
+  class PlanError(ValueError): .code is a fixed uppercase string; fixed safe message.
+  plan_dispatch(snapshot_bytes, pending_bytes, *, now_utc, max_age_seconds, max_plan_items) -> new dict
+  main(argv=None) -> integer
+Only exact bytes inputs, strict UTF-8 JSON objects, and explicit supplied UTC now are supported. No input mutation, evidence-ref reads, implicit clock, collaboration, network, subprocess, exec/eval, plan execution or model/reasoning settings. Data assertion validity is not proof of authority, truthful status, error classification, or real liveness.
+
+Bounds:
+Each JSON input <=1048576 bytes; depth <=12; total nodes <=20000; each object <=32 keys; keys <=64 UTF-8 bytes; each string <=32768 UTF-8 bytes. Arrays <=65 except write_roots <=8 and allowed_actions / confirmed_kinds <=3. Integers only (no JSON floats/nonfinite), integer token <=9 decimal digits. Duplicate JSON object keys reject. Agent/task/grant collections <=65 and nonempty snapshot agents. max_age_seconds exact int 1..3600; max_plan_items exact int 1..65. If tasks exceed max_plan_items reject the whole plan; never silently drop tail tasks. Serialized output <=2097152 bytes.
+All object schemas below have EXACT keys; no extras or missing keys. Counts / bools use exact types. Generic bounds run before schema processing. Errors reject without any partial plan. Times are primitive canonical UTC strings YYYY-MM-DDTHH:MM:SS[.1..6 digits]Z with real valid dates. Snapshot and pending must not be future or older than explicit max-age relative to now. No implicit system clock/cutoff.
+
+Snapshot object exact fields:
+  schema: "xar.authorized-dispatch-snapshot/v1"
+  snapshot_id: nonempty ID
+  observed_at_utc: UTC time
+  complete: true (all entries of THIS returned view were retained, not global-tree completeness)
+  agent_count: exact int equal to len(agents), 1..65
+  agents: array of Agent
+Agent exact fields:
+  agent_id: canonical /root or /root/lowercase_digits_underscore[/...], max256 bytes
+  status: RUNNING | COMPLETED | INTERRUPTED | ERROR | UNKNOWN
+  error: null unless status=ERROR, then Error
+  same_task: null unless status=ERROR, then null or SameTask
+Error exact fields:
+  confirmed_kinds: nonempty unique array of GUARD | CAPACITY | UNKNOWN
+  raw: nonempty primitive string, <=8192 bytes
+  evidence: nonempty primitive string, <=2048 bytes
+confirmed_kinds is an explicit operator-curated assertion, not inferred from raw substrings. A bare raw string does not satisfy Error. Unknown strings must be curated UNKNOWN. GUARD anywhere in the kinds refuses retry; CAPACITY mixed with UNKNOWN does not permit retry. No evidence path is followed.
+SameTask exact fields: the five Identity fields below plus operation: SEND | FOLLOWUP.
+This is the snapshot's explicit identity of the actual failed same task, not a suggested new task. No spawn or override operation exists. Returned membership may change between captures even when each contains65 entries. Missing owner always remains HOLD; complete=true never proves that the owner completed or may be dispatched.
+
+Pending object exact fields:
+  schema: "xar.authorized-dispatch-pending/v1"
+  bundle_id: nonempty ID
+  prepared_at_utc: UTC time
+  grants: array of Grant
+  tasks: array of Task
+Identity exact field definitions shared below:
+  task_id: ID matching [A-Za-z0-9][A-Za-z0-9_.-]{0,127}
+  owner: canonical agent ID
+  body_sha256: exactly 64 lowercase hexadecimal chars, SHA-256 of exact UTF-8 task body (no normalization)
+  scope: nonempty primitive string, <=2048 bytes
+  write_roots: nonempty unique array, <=8 canonical absolute D:/ paths, each <=512 bytes
+Canonical write roots use forward slash only, at least one nonempty ASCII [A-Za-z0-9_.-]+ segment after D:/, no trailing slash, '.'/'..', trailing-dot segment or Windows reserved device stem. Drive letter must be uppercase D. This is lexical checking, not junction / symlink / filesystem containment proof. No other drive / UNC / relative root. Case-insensitive duplicate roots reject; matching identities require exact ordered roots (no path equivalence guessing).
+Grant exact fields: Identity plus
+  grant_id: ID
+  state: ACTIVE | REVOKED
+  evidence: nonempty primitive string <=2048 bytes (DATA only)
+  not_before_utc: UTC time
+  expires_at_utc: UTC time, after not_before and at most86400 seconds later
+  allowed_actions: nonempty unique array of SEND | FOLLOWUP | SAME_TASK_RETRY
+Task exact fields: Identity plus
+  grant_id: ID
+  body: primitive nonempty/non-whitespace UTF-8 text <=16384 bytes; its SHA must match body_sha256
+Narrow supported bundle: grant_ids and grant task_ids/owners each unique; pending task_ids and owners each unique. At most one current grant and pending task per owner; select historical grants outside this input. An unknown grant_id is a per-task REJECT, never implicit authority. A Task/Grant Identity mismatch is REJECT. All snapshot agent IDs unique. Unknown status words, duplicate identities, unsupported fields and type mismatch reject the entire document; no last-wins behavior.
+
+Decision priority after full structural/hash/time validation:
+1. Known agent INTERRUPTED -> NEVER (even if its grant is missing).
+2. A referenced grant with mismatching Identity -> REJECT.
+3. Matching explicit grant REVOKED -> NEVER (before unknown agent/time/error dispatch conditions).
+4. ERROR with confirmed GUARD anywhere -> NOT_RETRY (including mixed GUARD/CAPACITY).
+5. Missing grant -> REJECT; inactive-in-time grant -> HOLD.
+6. Missing agent -> HOLD. UNKNOWN -> HOLD.
+7. ERROR CAPACITY-only: require same_task Identity exactly equal to Task, explicit original operation SEND/FOLLOWUP as evidence, and grant allowed_actions containing SAME_TASK_RETRY; then SAME_TASK_RETRY, otherwise HOLD or REJECT. CAPACITY+UNKNOWN and unconfirmed/UNKNOWN errors -> HOLD.
+8. RUNNING -> SEND; COMPLETED -> FOLLOWUP, each only if its exact action is explicitly in grant.allowed_actions; otherwise REJECT.
+9. Final method capability: followup_task supports existing NON-ROOT agents only. If an otherwise actionable final method would be followup_task and owner=/root, emit REJECT / ROOT_FOLLOWUP_UNSUPPORTED / dispatch=null. This includes COMPLETED Root and exact same-task CAPACITY Root for either original operation. Never fall back to SEND or change target. RUNNING Root may still produce SEND/send_message.
+No action fallback, agent-status inference, implicit new task or model/reasoning override. Grant matching and time are necessary, not evidence of external authorization truth.
+
+Output:
+  schema: "xar.authorized-dispatch-plan/v1"
+  snapshot_id, bundle_id, observed_at_utc, now_utc, max_age_seconds
+  mode: "DATA_ONLY_REVIEW_REQUIRED"
+  actual_start: false
+  items: one ordered item per pending task, never generated tasks
+Each item: task_id, owner, grant_id, action, reason, dispatch.
+action is SEND | FOLLOWUP | SAME_TASK_RETRY | NEVER | NOT_RETRY | HOLD | REJECT; reason fixed uppercase code.
+dispatch=null for non-actionable items. Actionable dispatch exact fields: method (send_message/followup_task), target, task_id, message (exact body), scope, write_roots. SAME_TASK_RETRY always uses followup_task to restore execution; same_task.operation retains the failed request's original operation only as identity/evidence. Reusing send_message for an ERROR owner would only enqueue without starting it. The recovery method is distinct from the failed request's original operation. No plan execution, sent/queued/actualSTART claim; coordinator must review then separately dispatch with its own actual receipts.
+
+CLI:
+  --snapshot D:/absolute/input.json --pending D:/absolute/input.json
+  --now UTC --max-age-seconds N --max-plans N --output D:/absolute/new-plan.json
+Every option is required. Input / output paths must pass the same D-only canonical lexical rule. Read only the two explicit inputs as bounded bytes; compute and validate the entire plan before opening output. Exclusive binary create (xb), no overwrite. No clock or evidence-ref reads. Success stdout is only a fixed DATA-output summary, actual_start=false; exit0. Fixed JSON stderr error summary, exit2 validation/arguments, exit3 existing-output, exit4 IO. A failed partial output is not rewritten or executed.
+
+Source qualification is distinct from software validation. Modified portable tests/fixture entry points require their own future first execution at the actual destination. Retain all decision/boundary/exclusive-output cases; no real collaboration or network operation belongs in those tests.

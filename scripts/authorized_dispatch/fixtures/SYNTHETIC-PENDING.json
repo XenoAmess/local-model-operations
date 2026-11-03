@@ -1,0 +1,37 @@
+{
+  "schema": "xar.authorized-dispatch-pending/v1",
+  "bundle_id": "SYNTHETIC-NOT-AUTHORIZATION-bundle",
+  "prepared_at_utc": "2026-01-01T00:00:17Z",
+  "grants": [
+    {
+      "task_id": "SYNTHETIC-demo-task",
+      "owner": "/root/synthetic_owner_0",
+      "body_sha256": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+      "scope": "SYNTHETIC / NOT_AUTHORIZATION. Deterministic fixture only; grants no real permission.",
+      "write_roots": [
+        "D:/SYNTHETIC-NOT-AUTHORIZATION/demo"
+      ],
+      "grant_id": "SYNTHETIC-demo-grant",
+      "state": "ACTIVE",
+      "evidence": "SYNTHETIC / NOT_AUTHORIZATION. No operator authority is asserted.",
+      "not_before_utc": "2026-01-01T00:00:00Z",
+      "expires_at_utc": "2026-01-01T00:10:00Z",
+      "allowed_actions": [
+        "SEND"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "SYNTHETIC-demo-task",
+      "owner": "/root/synthetic_owner_0",
+      "body_sha256": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+      "scope": "SYNTHETIC / NOT_AUTHORIZATION. Deterministic fixture only; grants no real permission.",
+      "write_roots": [
+        "D:/SYNTHETIC-NOT-AUTHORIZATION/demo"
+      ],
+      "grant_id": "SYNTHETIC-demo-grant",
+      "body": "abc"
+    }
+  ]
+}
