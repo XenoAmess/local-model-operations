@@ -2096,3 +2096,10 @@ The [explicit opt-in caller](request-registry.md) adds durable BEGIN/END recordi
 [唯一 intake 与容量后见](evidence/2026-11-04-source-intake-capacity-handoff.json)分开一次原源 counter 拒稿、owner 三文件、四项 DATA 首验、98 行独立换代和后到仅停 intake 的实际接任。保同 DB 历史、未知行 carry、容量 defer 与有限 crash 边界；新 START／lock 不授新 POST。四份非法 direct metadata 绕过已有正确 publisher，原归因已撤回，不造生产修复。[准备与投递教训](evidence/2026-11-04-source-intake-and-preparation-lessons.md)还要求把模型不可见的确切外部工具合同放入输入，分开 owner 合同遗漏、模型源错、真实 START 与完整成本。
 
 [M0 persistent guard783 source round](evidence/2026-11-04-http-m0-persistent-guard783-source.json)保两个 length 整弃、一个 stop Test 源拒与零模型代码；15 whole 共前缀和另一个 9 whole 加 library 的不同前缀非受控对照。owner 新 candidate 与必要软件资格仍是原切点的独立 pending，单 stack 不授唯一性能根因或提速。
+
+
+## 2026-11-04：同 case R2 后见与 M7 最小批准 tuple
+
+[M2 661 R2](evidence/2026-11-04-http-m2-661-r2-source-later.json)在94完整输入下仍原样重复拒稿body，仅imports不同，整拒后owner接管；[663 R2](evidence/2026-11-04-http-m2-663-r2-source-later.json)在26完整输入下仍有具体Java源错，raw整拒后owner保166行并作六组修正，208行仅sourceReady。两者均是已有case的post-error guided correction阶段，不作新独立oracle或transport retry，零R3；未实际编译不称compilerRED，原R1切点及未知全工时保留。
+
+[M7三个独立最小tuple](evidence/2026-11-04-m7-later-approved-tuples.json)分别记Status guard一个production TU正式后见、safe-stop recipe的2prod＋1newTest／一方法首验，以及instrumentation离线六角色源码round。前两附页不新增模型case／POST；六角色的partial harness、23 owner corrections与candidate-visible意见不授实际SDK／agent／JVM instrumentation或Game能力。三个scope成本不合算，source、软件、正式与Runtime分别保原切点。
