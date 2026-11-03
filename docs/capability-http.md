@@ -1869,3 +1869,10 @@ Original cases lack newer PID/birth and terminal fields, so those fields are not
 [The UTC formal tuple](evidence/2026-11-03-utc-false-filter-formal-later.json) preserves its existing source/software cutoffs, same three distinct passes and earlier independent text/quote work. Exact publication adds no HTTP, compiler, RUN, runtime or speed result.
 
 [The minimal collaboration guard event](evidence/2026-11-03-source-qualification-collaboration-guard.json) is an operational note, not a model HTTP case. One source-qualification turn errored before POST or Test, with exact error time and cause unknown; a dependent oracle was interrupted. The owner did not retry, rewrite or substitute a worker to bypass the guard. Errored/interrupted turns cannot be counted as active work or model in-flight requests, and a collaboration failure cannot be attributed to the local-model endpoint or a Java result.
+
+
+## 2026-11-03 One guided assertion method inside an owner Test host
+
+[The approved source-stage case](evidence/2026-11-03-guided-deep-composition-assertion-source.json) records two completed requests and a 23.921104-second peak of two. A complete 2843-byte first-response method was embedded unchanged into an owner-written expected host. The owner supplies 36064 bytes outside that method, including its separately identified mechanical reuse. This is source selection of a guided method, with no claim that the model generated the whole Test or independently chose its expectations.
+
+The original-composition counter saw source and public scope, without the Test host or private oracle; its partial routing observations are not selected-Test approval. Two finite cases, event/atomic counts and internal frame/PC facts remain source expectations. Compilation, RUN, formal publication and runtime/performance acceptance are not held at this cutoff, and preparation/active owner cost is not inferred from the short requests.
