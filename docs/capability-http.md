@@ -1324,3 +1324,6 @@ Root replay-scope363 [批准formal/runtime后见](evidence/2026-11-03-http-repla
 
 
 [Writer365后继private reduced-tree局部复用](evidence/2026-11-03-http-writer-private-tree-reuse-source.json)只sourceowner自有metadata，不夹M4 Test/Runtime材料。旧38whole897194+2phase双STOP，owner把clone误称encode在读答前已纠，旧两稿0code；新18whole491099/msg491585双STOP，Root/owner强指导三exacthunk在读完整答后机械原样采，非独立性能发现。全部四outerJSON实际可解，owner旧“malformed”评语撤回为语义尾段未完成/自反，非传输/JSON红；新counter whole算法拒/0candidatePASS。原首parse顺序保，只private methodlocal树+mutation前deepCopy，commit内三parse→一parse+一copy，原validateReduction及physical/authority/callback不删；resource-exhaustion顺序不冒等价。首1WriterTU1.7319927/0、8family/48capture/35synthetic+ctor规范比；仅sourceStrict，Test/formal/装载仍原pending，0JVM元数据检查不授instrumentation。两波HTTP峰各2非四并发，fullstart/activeUNKNOWN，不能授长preview/commit归因或净收益。
+
+
+366 [批准实际采用后见](evidence/2026-11-03-http-semantic-driver-runtime-later.json)1310B原样，仅同parent附页：与既有Root363后见同一次必要六叶coherent结构恢复，同JVM新delegate实际LOOP、START→LOOP485.051716300s/newSaved0，未为366单独增加GET。它不增加case/HTTP/Test/运行事件分母，不把两份模型算法整稿拒收改成模型code采用；没有每method bytehash或单leaf/A/B速度证据。原6713/source/software/formal及未装载历史切点保持。后到worker UNKNOWN独立记录，初LOOP不是持续健康、SAVE或369策略资格；owneractiveUNKNOWN、M1新增运行操作0。
