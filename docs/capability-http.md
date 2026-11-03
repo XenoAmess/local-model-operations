@@ -1772,3 +1772,11 @@ These are exact owner-approved metadata bodies. HTTP time sums, compiler/JVM pro
 - [Exact205 formal result](evidence/2026-11-03-exact205-protocol-formal-later.json): four exact raw/formal leaves, reusing the previously recorded first software results without publication reruns.
 
 Original pending and draft cuts remain in their approved bodies. Parent cases, separate source/Test HTTP requests and old software results are not counted again; no runtime or speed claim follows.
+
+
+## 2026-11-03 Finite software results and an explicit placement gap
+
+- [Custody trace DATA utility](evidence/2026-11-03-finite-custody-trace-cli-first-witness.json): two length-ended model roles contributed no code or oracle. The owner utility's first witness made three actual CLI calls over thirteen supplied rows and asserted their fields; these are not three JUnit passes or real custody/trace measurements. The [later formal review](evidence/2026-11-03-finite-custody-trace-formal-placement-gap.json) found no selected relocatable dependency/destination contract, so the unit remains local-only with zero formal stage/commit.
+- [Later C/A post-state executions](evidence/2026-11-03-poststate-C-A-software-later.json): seven fresh JVMs, no compilation in this later batch. Five new C manuals cover ten scenes/884 checks; two new A manuals cover five scenes/135 checks. Earlier production/Test first checks and preparation failures stay separate; the older six-scene/448-check unit is not rerun or recounted.
+
+These later software facts do not change the original source-stage pending cuts or model request denominators. Process and batch wall times remain distinct from CPU/owner labor; runtime, natural scenario and speed acceptance remain unproved.

@@ -1,0 +1,182 @@
+{
+  "schema": "approved-portable-offline-custody-trace-analysis/v1",
+  "recorded_utc": "2026-11-03T13:14:11.675093+00:00",
+  "permission": "M4 source-owner authorizes only this sanitized JSON body for the existing public operations case; no private source, paths, raw requests/responses, oracle tables, session or raw logs may be published",
+  "case_kind": "Owner-authored bounded DATA analysis CLI with two rejected model source counters and one necessary first software witness",
+  "source": {
+    "analysis": {
+      "bytes": 23134,
+      "sha256": "3182cd4e1c74381b2404541727a4f1b967832ec7e65b863052446b406c6094c1",
+      "authorship": "owner/agent authored; no model code adopted"
+    },
+    "existing_policy_producer": {
+      "bytes": 5461,
+      "sha256": "2d2d54a77a3527c7aa37c04e6c1670fc0eff1536aa38fe89be793020aa432544",
+      "status": "unchanged exact pinned dependency; old16vectors not rerun or recounted"
+    },
+    "new_witness": {
+      "bytes": 17390,
+      "sha256": "5dcea83091e6dc4fbcd758e9c024269c5a2104955f0b88b4de55ae8cbc54ad0b"
+    },
+    "local_only": "Tested tool and witness use explicit fixed local paths and source hashes. Formal destination/relocation is pending; this is not a portable runnable package or Runtime integration claim"
+  },
+  "useful_scope": [
+    "Finite supplied DATA compares unchanged first-N and FIFO producer counters, distinguishes acquisition from true same-trace reacquisition, retirement from fallback, and current/cumulative/peak occupancy",
+    "Reports distinct OTHER-id reuse distance and immutable-charge windows only for supplied finite input; these do not establish FIFO miss laws or actual cold-start reuse",
+    "Default detail0 leaves omitted full-trace reacquisition UNKNOWN; explicit detail is capped128, windows8/size8192, input/output1MiB and rows100000. These are source bounds, not OS heap/CPU sandbox evidence"
+  ],
+  "model_HTTP": {
+    "mode": "ordinary canonical direct HTTP; two roles; not OpenCode",
+    "full_current_source_files_per_request": 2,
+    "source_prefix_UTF8_bytes": 28975,
+    "model": "qwen38-coder",
+    "message_roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "temperature": 0,
+    "enable_thinking": false,
+    "max_output_tokens_each": 2300,
+    "actual_POSTs": 2,
+    "actual_ENDs": 2,
+    "current_inflight_at_audit": 0,
+    "attempts_each": 1,
+    "retry_or_R2": 0,
+    "own_subset_peak": 2,
+    "own_subset_peak_seconds": 18.117497,
+    "global_concurrency": "UNKNOWN; not a claim of sustained60",
+    "requests": [
+      {
+        "role": "01-metric-semantics-counter",
+        "POST_UTC": "2026-11-03T11:49:37.791396+00:00",
+        "END_UTC": "2026-11-03T11:49:56.396866+00:00",
+        "first_effective_content_delta_ms": 1761.2093000207096,
+        "total_ms": 18605.46420002356,
+        "usage": {
+          "prompt_tokens": 7690,
+          "completion_tokens": 2300,
+          "total_tokens": 9990
+        },
+        "HTTP_status": 200,
+        "SSE_DONE": true,
+        "finish_reason": "length",
+        "whole_JSON_syntax": "UNKNOWN_NON_STOP_FINISH",
+        "adoption": "whole rejected"
+      },
+      {
+        "role": "02-input-boundary-counter",
+        "POST_UTC": "2026-11-03T11:49:37.785819+00:00",
+        "END_UTC": "2026-11-03T11:49:55.908893+00:00",
+        "first_effective_content_delta_ms": 1766.87099999981,
+        "total_ms": 18123.117400013143,
+        "usage": {
+          "prompt_tokens": 7703,
+          "completion_tokens": 2300,
+          "total_tokens": 10003
+        },
+        "HTTP_status": 200,
+        "SSE_DONE": true,
+        "finish_reason": "length",
+        "whole_JSON_syntax": "UNKNOWN_NON_STOP_FINISH",
+        "adoption": "whole rejected"
+      }
+    ],
+    "diagnostic_findings_not_adopted": [
+      "One fragment miscounted A-B-C-A distinct OTHER reuse as1 rather than2 and supplied nonconserving first-N acquisition/held totals; it also miscounted window samples",
+      "The other assigned prefix calls to default detail0, duplicated a set-deduplicated window, and overstated declared byte caps as a whole-memory guarantee"
+    ],
+    "owner_prompt_limit": "Both tasks invited an expected-result schema large enough to exhaust2300. Prompt scope/output planning is owner preparation cost as well. No partial fragment, complete-model approval or green retry was adopted",
+    "code_or_oracle_from_models": 0
+  },
+  "independent_owner_review": {
+    "grade": "Limited source review found no concrete normal-input blocker; not based on rejected model approval",
+    "independence": "Small hand literals preceded analysis implementation after the original producer/oracle was read. Full manual case oracle preceded the new witness. Authors knew candidate/embedded literals, so not candidate-blind and not an independent admission-policy engine",
+    "coverage": "Complete analysis475L plus producer127L reviewed; witness235L and3finite inputs reviewed; no default-detail/suffix/malformed/budget-extreme dynamic coverage claimed"
+  },
+  "first_software_witness": {
+    "actual_BEGIN_UTC": "2026-11-03T13:03:34.089914+00:00",
+    "actual_END_UTC": "2026-11-03T13:03:34.550686+00:00",
+    "monotonic_process_wall_seconds": 0.4600266999914311,
+    "UTC_wall_seconds": 0.460772,
+    "counts": {
+      "DATA_scenarios_planned": 3,
+      "CLI_invocations_started": 3,
+      "CLI_exit0_observed": 3,
+      "DATA_scenarios_fields_asserted": 3
+    },
+    "finite_input_rows": 13,
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "source_evidence_pins_before_after": 10,
+    "pins_rechecked_equal": true,
+    "qualification": "Three DATA scenarios/three actual public CLI calls/assertions, not three JUnit methods or independent native custody tests",
+    "cases": [
+      "Capacity+one: FIFO6acquisitions/4retirements/3true reacquisitions versus first-N2; current/cumulative/peak and finite reuse/windows asserted",
+      "Retire then unretained: retirement and acquired-unretained remain separate from fallback",
+      "Fallback then first acquisition: previous request/fallback alone is not an earlier acquisition; true reacquisition0"
+    ],
+    "old_producer16vectors_or_Store_tests_RUN": 0,
+    "JVM": 0,
+    "new_JUnit_PASS": 0,
+    "owner_revalidation": 0
+  },
+  "cost": {
+    "known_phase_windows": [
+      {
+        "phase": "Original source preparation",
+        "BEGIN_UTC": "2026-11-03T08:17:38+00:00",
+        "END_UTC": "2026-11-03T08:30:58+00:00",
+        "wall_seconds": 800,
+        "active_seconds": null
+      },
+      {
+        "phase": "Independent limited source counter",
+        "BEGIN_UTC": "2026-11-03T11:48:18+00:00",
+        "END_UTC": "2026-11-03T12:01:31+00:00",
+        "wall_seconds": 793,
+        "active_seconds": null
+      },
+      {
+        "phase": "New witness preparation known subwindow",
+        "BEGIN_UTC": "2026-11-03T11:46:46+00:00",
+        "last_record_UTC": "2026-11-03T12:04:02+00:00",
+        "wall_seconds": 1036,
+        "active_seconds": null,
+        "limit": "Last child clock, not final authoring END; parent metadata completion followed"
+      },
+      {
+        "phase": "Native first witness",
+        "BEGIN_UTC": "2026-11-03T13:03:34.089914+00:00",
+        "END_UTC": "2026-11-03T13:03:34.550686+00:00",
+        "monotonic_process_wall_seconds": 0.4600266999914311,
+        "UTC_wall_seconds": 0.460772,
+        "CPU_seconds": null
+      },
+      {
+        "phase": "Final metadata seal observed subwindow",
+        "BEGIN_UTC": "2026-11-03T13:10:26.131312+00:00",
+        "END_UTC": "2026-11-03T13:12:17.702893+00:00",
+        "wall_seconds": 111.571581,
+        "active_seconds": null,
+        "limit": "Earlier final review/authoring began before this separately captured marker and remains unmeasured"
+      }
+    ],
+    "source_BEGIN_to_native_END_wall_seconds": 17156.550686,
+    "ready_to_native_START_wall_seconds": 3327.525795,
+    "active_seconds": null,
+    "CPU_seconds": null,
+    "qualifier": "Source/review/witness/HTTP/queue windows overlap and are not additive active labor; .460s is driver process wall, not a performance saving",
+    "owner_incidents": [
+      "Original source child omitted fixed read wrapper once and invoked a Java data path; association effects UNKNOWN, no desktop/process scan or kill; not attributed to model",
+      "Witness child's legal-prefix metadata command failed with system-path-not-found text; numeric exit and cause not retained. Parent ran only a new metadata read/hash check successfully, source/oracle unchanged",
+      "A newly created Native terminal cutoff metadata file briefly had a misleading REVIEW-BEGIN filename. Renamed before sealing; earlier owner active work remains unknown, no retrospective clock invented"
+    ]
+  },
+  "formal_status_at_cutoff": "PENDING_SOLE_FORMAL_REVIEW_AND_LOCAL_ONLY_DESTINATION_QUALIFICATION",
+  "limits": [
+    "No actual history trace, cold-start reuse, file identity/permissions, native close fault or Store lifecycle behavior validated",
+    "No Game/live/query/GET/current source/deploy/load/Runtime adoption, no extra reload and no performance or reduced physical I/O claim",
+    "Old source-ready/software-pending cutoffs remain untouched. Any formal result must be a separate later annex, not a new model case or additional3PASS denominator"
+  ]
+}
