@@ -2536,3 +2536,9 @@ owner继续门像素校验失败后未立即停止编排，四次查询在LSQ超
 owner接管只读UI自有城市资产工具和四项行为检查：完整建筑与空槽、未知整份失败、读取中身份／回合变化、异常上限／重复目录；四测0.045秒通过，未把原1017全套追写为完整1021通过。实际73／114自有城196610读8栋建筑、博物馆槽0文物15／类型172及两个空槽，0游戏动作／绑定改变；外国前态、区域／驻军／忠诚度和真实转移仍未授通过。Core作品槽getter不可用时使用已验证UI消费者，未知不猜空。
 
 三完整HTTP，374／375实际峰2持续13.419584秒，376独立后发；冻结376逻辑／351完整／22length整弃／3最终传输失败、406HTTP尝试／30额外重试，0新OpenCode原生生成。维护复用Nov4成功缓存1.19.5，owner独占成本／未报告缓存／净收益null；后续继续真实城邦目标准备，不重投已闭同题凑数。
+
+## 2026-11-04：clean-restart owner修复后的有限软件后见
+
+[后到有限软件回执](evidence/2026-11-04-http-clean-restart-software-later.json)确认owner生产3TU严格0/55class，Test05仅新1TU0/10class，再以原3methods真实3P、0skip/abort/fail、stderr0；ACTUAL43.239616秒与XML41.341秒分列，Fixture37/Support2/production55只复用。合法canonical capture/admit→Bootstrap→实际software transport链通过不授物理Managed/Core/Prepared整链、装载、LOOP、日数/SAVE或速度。缓存握手open-check的期限未由packet边独立暴露，源码路由审阅与可观察HELLO/fresh endpoint实测分别记。
+
+原生产整diff0代码采用，延迟路由方向由owner先给；Test新增methods全为owner重写，3P不追授模型raw。两轮owner harness3F（reader预算、external basis误投CAS）与Test04遗漏checked IOException编译1仍保留成本。最终typed reader只对真实320B fixture external basis作bounded read/len/SHA，未放松生产/CAS合同；原source-only切点不回写，完整owner工时和净收益未知。本次后见0新HTTP/编测/Runtime动作，不设为运行采用前置。
