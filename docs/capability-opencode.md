@@ -383,3 +383,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-05：Civ6389—392普通HTTP与诊断接入
 
 0新增OpenCode原生生成；同机Nov5维护1.19.5成功缓存复用。四完整HTTP原稿均0代码，owner10软件与Native四绑定安装分列，财政及网络隔离未通过。不授OpenCode源码能力或净节省。[证据及业务pin](evidence/2026-11-05-civ6-finance389392.json)。
+
+
+### 2026-11-05：Civ6393源审及原生库存对照
+
+0新增OpenCode原生生成，Nov5同机1.19.5成功维护缓存复用。393普通HTTP完整、部分分析参考／0代码，owner游戏原生对照另列；不把Native游戏操作混成OpenCode工具模式，不授owner净收益。[证据](evidence/2026-11-05-civ6-finance393-native-pair.json)。

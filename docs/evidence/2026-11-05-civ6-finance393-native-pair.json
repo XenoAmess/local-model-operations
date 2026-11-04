@@ -1,0 +1,70 @@
+{
+  "schema": "local-model-operations.civ6-finance393/v1",
+  "date_local": "2026-11-05",
+  "published_at_utc": "2026-11-04T17:51:13.061625+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/169440a/docs/research/baiqi-p6-finance74-native-pair393-evidence-2026-11-05.json",
+  "business_sha256": "05f1d7e1650a327c0eef43fa6b01cc22a5e1473082a589f7eec58d246a73520a",
+  "case": {
+    "mode": "http-candidate",
+    "requests": 1,
+    "attempts": 1,
+    "complete_stop_json": true,
+    "max_tokens": 3200,
+    "code_adopted": 0,
+    "analysis_adoption": "Partial source facts only; not gameplay plan.",
+    "rejected_claims": [
+      "Primary settler rejection is cap despite earlier gold guard.",
+      "Existing queued builders subject to new recruitment gate.",
+      "Two role calls identify same city (observer has no city argument).",
+      "Builder maintenance-heavy (actual candidate maintenance0)."
+    ],
+    "owner_input_error": "First adapter preparation named nonexistent BaiqiEconomy.lua; failed before HTTP; corrected source closure includes actual Controller and Policy. No logical request or POST added for preparation failure.",
+    "owner_cost_seconds": null,
+    "net_savings": null
+  },
+  "actual_post_begin": "2026-11-04T17:35:37.301237+00:00",
+  "actual_end": "2026-11-04T17:36:03.017078+00:00",
+  "max_tokens": 3200,
+  "roles": [
+    "system",
+    "user",
+    "user"
+  ],
+  "mode_id": "http-candidate",
+  "transport": {
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "total_ms": 25718.880399945192,
+    "first_nonempty_content_delta_ms": 6204.102099989541,
+    "usage": {
+      "prompt_tokens": 46594,
+      "completion_tokens": 2922,
+      "total_tokens": 49516
+    },
+    "json_syntax": {
+      "status": "VALID",
+      "top_level_type": "object",
+      "reason": "COMPLETE_STOP_JSON",
+      "error": null,
+      "offset_units": "Unicode code points",
+      "max_utf8_bytes": 1048576,
+      "semantic_review": "OWNER_REVIEW_REQUIRED"
+    },
+    "cached_prompt_tokens_if_reported": null
+  },
+  "cumulative_frozen_through393": {
+    "logical_requests": 393,
+    "complete_stop_json": 366,
+    "length_discarded": 24,
+    "final_transport_failed": 3,
+    "http_attempts": 423,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "new_opencode_native_generation": 0,
+  "owner_cost_seconds": null,
+  "net_savings": null,
+  "maintenance": "Nov5 1.19.5 successful same-machine same-user cache reused; not native code generation."
+}
