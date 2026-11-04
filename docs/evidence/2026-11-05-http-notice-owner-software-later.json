@@ -1,0 +1,143 @@
+{
+  "schema": "local-model-operations.notice-owner-software-later/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "first-negative-read-owner-notice-independent-test-20261105-01",
+  "prior_model_source_cut_commit": "3155898410fafe18d89e133b3d2faa107f3695f0",
+  "prior_owner_source_cut_commit": "c944793d19f9944d2264d05772807bef4582cae1",
+  "prior_cuts_preserved": true,
+  "qualified_UTC": "2026-11-04T23:22:30.457334+00:00",
+  "qualified_pin": {
+    "bytes": 19816,
+    "sha256": "c95fe6532a85f57bdc48c6736f3656b5473a90b48b351da5e41ad2226e4bb86f"
+  },
+  "new_model_whole_class_methods_and_partial_adopted": 0,
+  "model_JVM_runs": 0,
+  "automatic_R2": false,
+  "owner_implemented_all_new_notice_logic": "Existing qualified HELLO/STATE/receiver scaffold mechanical reuse is not new model work.",
+  "source_Test_pin": {
+    "bytes": 24209,
+    "sha256": "1a33beda19805bcd3dddb119299d9c5cc9887f8fb6aed07567aed4df4ad9d515"
+  },
+  "phases": {
+    "prod": {
+      "ACTUAL_pin": {
+        "bytes": 1725,
+        "sha256": "357ff2350393b558311681848ea74c8dbcdc6cf83bc818d85f58ebd4c92f3a1b"
+      },
+      "JVM_seconds": 6.223080400028266,
+      "close_result": 0,
+      "fence_durable": true,
+      "reservation_held": false,
+      "stderr_bytes": 0,
+      "output_manifest_pin": {
+        "bytes": 48489,
+        "sha256": "e53138b3d286abde4f9791e089f9f4abec7f25082d02eed3f3db10fdc1189819"
+      },
+      "classes": 9,
+      "all_class_pins_and_SourceFile_metadata_verified": true
+    },
+    "test": {
+      "ACTUAL_pin": {
+        "bytes": 1685,
+        "sha256": "aec31f884292b8d484ba2583bfde242830ca0d7be2132b0a7f3ccbc11a75390a"
+      },
+      "JVM_seconds": 5.488867099978961,
+      "close_result": 0,
+      "fence_durable": true,
+      "reservation_held": false,
+      "stderr_bytes": 0,
+      "output_manifest_pin": {
+        "bytes": 28839,
+        "sha256": "cb9c819856bd113067725bd83f7339a5586d24e6c6741c39fc258ee473922b83"
+      },
+      "classes": 8,
+      "all_class_pins_and_SourceFile_metadata_verified": true
+    },
+    "junit": {
+      "ACTUAL_pin": {
+        "bytes": 1455,
+        "sha256": "5dda42ee4d09689ff7ac1884ece61146584c5f5683410b38c5bcd503778d8403"
+      },
+      "JVM_seconds": 4.142023799999151,
+      "close_result": 0,
+      "fence_durable": true,
+      "reservation_held": false,
+      "stderr_bytes": 0,
+      "XML_pin": {
+        "bytes": 42334,
+        "sha256": "3318b609096d5f9986dd55f8398c6a148c011f39d5e3bceca37ec6dda122d06b"
+      },
+      "XML_suite_seconds": "2.243",
+      "exact_methods_passed": 2,
+      "XML_failures_errors_skipped": 0
+    },
+    "affected": {
+      "ACTUAL_pin": {
+        "bytes": 1477,
+        "sha256": "e6007eee364fe7a5c1d726e7ea60acf736a2f46903cfd08f70b6ba10ad6db127"
+      },
+      "JVM_seconds": 4.491755799972452,
+      "close_result": 0,
+      "fence_durable": true,
+      "reservation_held": false,
+      "stderr_bytes": 0,
+      "XML_pin": {
+        "bytes": 43083,
+        "sha256": "f58bdc7b64019236f8fe2014a55449e664c1fe91beb4a5ebed94d5090e14beab"
+      },
+      "XML_suite_seconds": "2.455",
+      "exact_methods_passed": 3,
+      "XML_failures_errors_skipped": 0
+    }
+  },
+  "qualification": {
+    "production02_new_TUs": 1,
+    "production02_classes": 9,
+    "production02_all9_structures_equal": true,
+    "new_Test_TUs": 1,
+    "new_Test_classes": 8,
+    "new_noarg_methods": 2,
+    "new_methods_passed": 2,
+    "old_postACK_affected_binary_methods_RUN_only": 3,
+    "old_affected_passed": 3,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "aborted": 0,
+    "production02_recompiled_for_Test": 0,
+    "old_Test_or_Support_recompiled": 0
+  },
+  "bounds": {
+    "CPU": 1,
+    "compile_Xmx_MiB": 192,
+    "RUN_Xmx_MiB": 64,
+    "child_seconds_each": 30,
+    "TOTAL_seconds_each_independent_phase": 120
+  },
+  "production02_and_existing_support1_and_prior_Test4_binary_reused": true,
+  "independent_exact_pin_verifications": 80,
+  "XML_actual_method_sets_independently_matched": true,
+  "coverage_DATA": [
+    "SOFTWARE_READ_OWNER_NOTICE_DATA unknown_same_id=true archive_before_notice_before_next=true negatives=2 notice_attempts=1 received=true",
+    "SOFTWARE_READ_OWNER_NOTICE_DATA archive_dispatch_and_frame_primary=true failed_sink_no_retry=true unknown_positive_no_notice=true long_error_bounded=true"
+  ],
+  "limits": [
+    "Real NativeGameTransport software receiver/custody/ACK/read-only STEP pipeline; files and System.out sink are actual component DATA contract.",
+    "Unknown is collected only under its original ID/deadline; dispatch/frame archives precede notice and next read. Primary archives fail outward; diagnostic stdout failure does not change observation result.",
+    "New tests do not depend on optional original_ack_packet, which production02 removed. Original01 first0/InnerClasses difference remains preserved, no VM rejection inferred.",
+    "Existing postACK3 ran once as affected regression on changed helper; oldTest4family and Support1binary reused, no old recompilation.",
+    "No actual UI/modal/native cause, live negative injection/Runtime notice delivery, private Root issuer/lease, Game control, SAVE/days/performance/G2 qualification.",
+    "Shape equality is necessary structural evidence, not actual redefine/loader/Runtime adoption. Native did not write C or issue GET."
+  ],
+  "source_production_model_length_body_still_unread_unhashed_zero_adoption": true,
+  "no_new_HTTP_JVM_UI_Runtime_Game_by_this_posthoc": true,
+  "actual_notice_delivered_UI_cause_NativeFullRead_Runtime_adoption_days_SAVE_G2_speed_granted": false,
+  "Models_posthoc_preparation_error": {
+    "stage": "before public writes",
+    "first_attempt": "Mistakenly expanded the supplied SHA prefix into a false expected full digest; assertion rejected it",
+    "repair": "Read exact full SHA256 from original artifact and bind that literal; original evidence unchanged",
+    "business_or_model_failure": false
+  },
+  "full_owner_active_preparation_review_rewrite_time_and_net_savings": null
+}

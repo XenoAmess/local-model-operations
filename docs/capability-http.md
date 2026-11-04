@@ -2841,3 +2841,10 @@ M6全文源审拒绝完整类及两个新增方法，0partial/0modelJVM：缺真
 [新的 DRIVER_READ_HISTORY 消费者候选](evidence/2026-11-05-http-read-publication-validation-scope-candidate.json)给6完整426116B当前源/6400B合同，目标只RootReadHistoryAuthority及Core构造一行；owner另机械复用成熟Archive OrBorrow helper为第三TU，不让模型重造旧实现。要求installed archive opt-in、captured publisher/完整Head/同liveSession在原work前后及scope结束核对，work恰一次，旧opt-out/无关kind默认行为与4096/256MiB/8192原界限不变；不cacheverdict、不跨写/previewcommit持scope。JFR inclusive栈只导航，不证明self成本、重复次数或提速。
 
 固定三消息/DIRECT/max4500，1POST1END、HTTP200/stop/DONE/有效JSON，20.2000513秒、有效TTFT10.6152558秒、83035+1639tokens、cachednull；7860B完整原件即交Java，CONTENT=SSE UTF8、审计0discrepancy。此切点仅待owner源审，未授代码采用/编测/正式/装载/实速；新增field/constructor/helper不能凭候选授body redefine。454终态/454租约释放、0源在途，0JVM/GET/UI/Runtime/Game、无参数改动、不R2；健康24不等候选，旧ACTION length不复投，完整主动成本与净收益未知。
+
+
+## 2026-11-05：Notice owner 两新方法与三项受影响回归实际通过
+
+[c95fe653与具名ACTUAL/XML的后到独核](evidence/2026-11-05-http-notice-owner-software-later.json)确认owner新Test1a33仅1TU8class首次0、5.4888671秒；新2方法真2P、JUnit进程4.1420238秒，XML suite时长另列。Root另授权受影响原PostACK三方法仅binary RUN一次，真3P/4.4917558秒；旧Test/Support/生产不因本轮再编，原桥单binary复用。全部0错误/失败/跳过/中止、stderr0、close0/durablefence/heldfalse；ACTUAL→config/BEGIN/post/terminal、实际8class pin/SourceFile和XML精确方法集合逐项核对。
+
+最终生产02c130原1TU9class资格另保，9结构相等仅结构证据，不授实际redefine/loader采用。原生产length未读整弃0code，Test完整模型稿0whole/0新方法/0partial/0modelJVM，owner新逻辑及既有scaffold不回授模型。软件DATA只证明真实软件receiver/custody、先归档再通知再READ、sameIDcollect、归档primary与输出失败隔离/长error有界；stdout不是现场noticeDelivered、UI/modal或Native cause、私Root权限或FullRead恢复，也不授Runtime/日SAVE/G2/速度。本附页0新HTTP/JVM/UI/Runtime/Game，原source切点保留，完整主动成本与净收益未知。
