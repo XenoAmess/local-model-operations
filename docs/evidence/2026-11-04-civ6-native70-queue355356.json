@@ -1,0 +1,159 @@
+{
+  "schema": "local-model-operations.civ6-native70-queue355356/v1",
+  "date_local": "2026-11-04",
+  "published_at_utc": "2026-11-04T09:20:45.684279+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/c22fcefef395477852c05cee6ee503c451832242/docs/research/baiqi-p6-native70-queue-trash355356-evidence-2026-11-04.json",
+  "business_evidence_sha256": "7768a0a35c6e277f9c57d6cc5969ca9a24d7507da5c1012233041650d382fb95",
+  "cases": [
+    {
+      "sequence": 355,
+      "case_id": "civ6-queue355-trash-route",
+      "mode_id": "http-candidate",
+      "shared_commit": "067c3da74c28aae8678853182b4da50f7252dbf6",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 4200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T09:05:22.090373+00:00",
+      "attempt_end_utc": "2026-11-04T09:05:47.478404+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 25396.0787000251,
+        "first_nonempty_content_delta_ms": 15346.79820004385,
+        "usage": {
+          "prompt_tokens": 65512,
+          "completion_tokens": 1162,
+          "total_tokens": 66674
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T09:05:22.090373+00:00",
+          "end_utc": "2026-11-04T09:05:47.478404+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 25396.0787000251
+        }
+      ],
+      "adoption": "partial install; cleanup byte-for-byte unchanged",
+      "review": "Rawinstall actualLua5.3 compilefails nested nonvariadic Senseclosure usesoutervararg. Owner capturesparams beforeclosure and preservesremovevararg forwarding. Six meaningful softwarechecks then actualNativeTrashpair, no modelGameactions. Limits copiedoldsourcecontext are not currentNativefacts.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 356,
+      "case_id": "civ6-queue356-trash-route",
+      "mode_id": "http-candidate",
+      "shared_commit": "067c3da74c28aae8678853182b4da50f7252dbf6",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2800,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T09:05:22.067172+00:00",
+      "attempt_end_utc": "2026-11-04T09:05:51.000880+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 28943.09610000346,
+        "first_nonempty_content_delta_ms": 16996.224000002258,
+        "usage": {
+          "prompt_tokens": 65534,
+          "completion_tokens": 1506,
+          "total_tokens": 67040
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T09:05:22.067172+00:00",
+          "end_utc": "2026-11-04T09:05:51.000880+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 28943.09610000346
+        }
+      ],
+      "adoption": "partial verified route facts; no complete audit/text adoption",
+      "review": "Correct Trash/Remove/PARAM_QUEUE_LOCATION andclickswap facts. Incorrectly calls globalOnTrashClicked/OnItemClicked local despite complete source; calls alreadyclosedcurrentrightclick/swap unfinished. Owner exhaustiveBase+Expansion1+Expansion2UI search and fullXML independentlyfound noleftbuttonbinding/noassignment beyondnil for selectedQueueInstance; notphysicalleftpass orallDLCclosed.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "actual_client_inflight": {
+    "actual_peak": 2,
+    "seconds_at_peak": 25.388031,
+    "longest_seconds_at_peak": 25.388031,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "cumulative_frozen_through356": {
+    "logical_requests": 356,
+    "complete_stop_json": 332,
+    "length_whole_discarded": 21,
+    "final_transport_failed": 3,
+    "http_attempts": 386,
+    "extra_retries": 30,
+    "current_http_inflight": 0,
+    "new_opencode_native_generation": 0
+  },
+  "native_outcome": "OrdinaryleaderTrash index1 removesMonumentleavesScout; Baiqi complete2rows/meta/cost/resourceunchanged; oneRemove+protectedrouteentry/zero sensorerrors each, originalbindings/restored original110 SHAverified. Notglobal/all40pass.",
+  "source_route_review": {
+    "scope": "InstalledBase+Expansion1+Expansion2UIallLua/XML plusactualProductionPanelXML; sourceonly, notallDLCproof.",
+    "left": "Only definitionofOnMoveItemLeftButtonClicked andnilreadsof m_selectedQueueInstance, noassignedselection/binding/controlreferencefound. Not activeplayerroute in searchedclosure, nofakephysicalPASS.",
+    "move": "MoveQueueItem definitiononly in searchedclosure, notphysicalroute.",
+    "keyboard": "ProductionPanelKeyHandler onlyEsc forselectioncancel/close; no independentkeyboardqueueoperationfound.",
+    "globals_correction": "OnTrashClicked andOnItemClicked definedglobal. Trashregistrationcapturesfunction;queueclickclosurelooks upglobalOnItemClicked. Candidate assertionlocaliswrong.",
+    "remaining_actual_entry": "Queued-itemrightclick index1; current-productionrightclick andclickswap previouslynarrowclosed."
+  },
+  "owner_notes": [
+    "Initial welcomeEsc gate rejected beforeinput due noselectedcity; selectedcity thenonephysicalEsc. No unknownaction replay.",
+    "AfterloadUI.SelectCity immediateCityPanelcheckboxstillfalse beforeRefresh. Thisisnotnaturalentrydisableproof; laterfinalexplicitRefresh thenreadbacktwo disabledtrue. Independent protectedProductionPanelCanStartOperation false andactualTrash blocked.",
+    "OwnerunexecutedfirstdraftUI.SelectCityID correctedtoactualUI.SelectCity beforedispatch.",
+    "Ownedgameforegroundactivation immediateassertfailed once; nextindependentmetadata found ownedforeground, no blindretry orSteamactivation.",
+    "Preparedmodelsource reused fulloldAPIbundle with stale historicaltaskpreamble: candidate copiedsomeoldstage statements. Thoseare notcurrentfact; futureclosures stripobsoletecontract.",
+    "Phaseeventsrecorded atreal entry; prep overlaps sharedpublication andpriorinitialinspectionunknown, notexclusivecostmeasurement."
+  ],
+  "maintenance": "Same localNov4 successfulOpenCode1.19.5cache; canonicalcurrentDIRECT config/currentcaller.",
+  "unknown_costs": {
+    "exclusive_owner_phase_seconds": null,
+    "cached_tokens_if_unreported": null,
+    "server_queue_wait": null,
+    "net_savings": null
+  },
+  "next_real_trigger": "Actualqueued-itemrightclick and remainingunit/diplomacy/pressure boundaries; no repeatclosedTrash/swap requests."
+}
