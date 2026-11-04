@@ -1,0 +1,105 @@
+{
+  "schema": "local-model-operations.civ6-alpha394395/v1",
+  "date_local": "2026-11-05",
+  "at_utc": "2026-11-04T18:47:39.465235+00:00",
+  "machine": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/1bc680bb3e593cbfa7783868f6debd84331a292d/docs/releases/v0.1.0-alpha.1/preparation-evidence.json",
+  "publication_evidence": "https://github.com/XenoAmess/civ6_dev/blob/b82c980/docs/releases/v0.1.0-alpha.1/publication.json",
+  "cases": [
+    {
+      "sequence": 394,
+      "case_id": "civ6-release394-alpha-next-acceptance",
+      "mode_id": "http-candidate",
+      "post_begin": "2026-11-04T18:37:47.368795+00:00",
+      "attempt_end": "2026-11-04T18:38:09.118651+00:00",
+      "max_tokens": 2800,
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 21743.386299989652,
+        "first_nonempty_content_delta_ms": 8821.372499980498,
+        "usage": {
+          "prompt_tokens": 45451,
+          "completion_tokens": 1597,
+          "total_tokens": 47048
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "Partial outline only; owner rewrote all public prose.",
+      "review": "Reject invented manual escape entry, stale71/72 open-bug claims, mixed developer commands and unmeasured claims. Owner release docs explicitly say no takeover and distinguish versioned history/QA.",
+      "owner_cost_seconds": null,
+      "net_savings": null,
+      "provenance": {
+        "shared_commit": "af819fa50b1ca54755eb0a600d205ef4bcad9253",
+        "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "project_manifest_sha256": "6569a4532eeab2df51135f3b317068af7c2ef3a01dbe65c71735c9715ac00cea"
+      },
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ]
+    },
+    {
+      "sequence": 395,
+      "case_id": "civ6-capture395-alpha-next-acceptance",
+      "mode_id": "http-candidate",
+      "post_begin": "2026-11-04T18:37:47.368404+00:00",
+      "attempt_end": "2026-11-04T18:38:10.858306+00:00",
+      "max_tokens": 3200,
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 23485.59400002705,
+        "first_nonempty_content_delta_ms": 3518.2029000134207,
+        "usage": {
+          "prompt_tokens": 15661,
+          "completion_tokens": 1793,
+          "total_tokens": 17454
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "adoption": "0 code; third-party ownership test direction only.",
+      "review": "Reject double-charge claim: CHARGING is persisted before debit and excluded from recovery. Reject unit invalidation leaves no debit: unit validation follows charge in supplied Settle. Third-party freeze is intended unknown handling, not itself a defect. Helper declarations Policy/Planner/Config omitted from owner prefix; all rejected order claims directly contradicted supplied Capture source.",
+      "owner_cost_seconds": null,
+      "net_savings": null,
+      "provenance": {
+        "shared_commit": "af819fa50b1ca54755eb0a600d205ef4bcad9253",
+        "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "project_manifest_sha256": "6569a4532eeab2df51135f3b317068af7c2ef3a01dbe65c71735c9715ac00cea"
+      },
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ]
+    }
+  ],
+  "actual_client_inflight": {
+    "peak": 2,
+    "seconds_at_peak": 21.749856,
+    "service_running_or_queue": null
+  },
+  "cumulative_frozen_through395": {
+    "logical_requests": 395,
+    "complete_stop_json": 368,
+    "length_discarded": 24,
+    "final_transport_failed": 3,
+    "http_attempts": 425,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "maintenance": "Same-machine same-user Nov5 1.19.5 successful cache reused. No OpenCode native generation.",
+  "software": "Owner release preparation full1039 passed208.698s, artifact87core+6docs/screens/source/license verified; no production code changes. Not model code success or all40 Native pass.",
+  "release": "https://github.com/XenoAmess/civ6_dev/releases/tag/v0.1.0-alpha.1",
+  "unknown_costs": {
+    "owner_cost_seconds": null,
+    "cached_tokens": null,
+    "net_savings": null
+  },
+  "next_real": "Owner third-party transfer Native fault injection, must remain separate from normal gameplay and from model conclusions."
+}
