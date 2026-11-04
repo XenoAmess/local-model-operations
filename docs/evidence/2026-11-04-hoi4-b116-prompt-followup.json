@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B116-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T04:08:30.032144+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T03:55:27.715041+00:00",
+    "window_ended_at_utc": "2026-11-04T03:55:31.238968+00:00",
+    "window_seconds": 3.523927,
+    "peak": 1,
+    "peak_duration_seconds": 3.523927,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b116-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 933,
+        "completion_tokens": 486,
+        "total_tokens": 1419
+      },
+      "failure": null,
+      "content_ttft_ms": 390.792699996382,
+      "total_ms": 3524.078600050416,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "675bc5c229a4f4f227360113d6b4d5276d9424d9ca10bd76522d3c7573f6566c",
+      "summary_sha256": "a2d4b4f9f41217e372ef80bc6b6ab36841cc4b79077d92789a29f023215e43a6",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "a6fb47dd8164574174a6a46ba71b088f033da3eb527b67c7568cdc3d2d0c385e",
+        "task_id": "hoi4-20261104-b116-prompt-01",
+        "request_sha256": "675bc5c229a4f4f227360113d6b4d5276d9424d9ca10bd76522d3c7573f6566c",
+        "summary_sha256": "a2d4b4f9f41217e372ef80bc6b6ab36841cc4b79077d92789a29f023215e43a6",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Both SHA domains verified. Concise actually observed source features plus the unchanged shared visual contract replaced repeated per-source anatomy paragraphs for this new task; no measured speed/quality improvement claim.",
+          "Candidate retained actual SILVER/GREY combed side-part hair/real dark-grey brows/SILVER-WHITE moustache/CLEAN chin, OPEN OLIVE/BLACK suit/WHITE pointed shirt/BLACK LONG TIE, exact primary mild IMAGE-LEFT pose/BLUE-GREY backing and literal green-ringed black mascot eyes/grey mouth.",
+          "Owner independently restated broad shallow short U lower head and raised/broadened actual collar contact. Fine details understated, short limits met in this candidate, no model pixels or art approval.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2429,
+        1184
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b116-sources.json",
+    "sha256": "b7ce84beddbe1558fe6550f555198ef76801ec6138969adfa255909a24c57ef8",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T04:01:05.758686+00:00",
+  "stage_at_cutoff": "One genuinely unfinished LOW original prompt was frozen uncalled at the recorded prepared cutoff; subsequent builtin generation and art qualification remain separate consumer evidence.",
+  "owner_review": "Both SHA domains verified. This new task supplied concise actual source features with the same complete shared visual contract rather than repeated per-source anatomy paragraphs; no controlled performance or quality improvement claim. Candidate retained source SILVER/GREY combed side-part hair/real brows/SILVER-WHITE moustache/CLEAN chin, OPEN OLIVE/BLACK suit/WHITE pointed shirt/BLACK LONG TIE, primary mild image-left pose/BLUE-GREY backing and literal creature eyes/grey mouth. Owner restated shallow broad short U base/raised broad actual collar contact. Short limits complied in this candidate; no larger authority/model pixels/vision/cache or net-time claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
