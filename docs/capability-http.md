@@ -2675,3 +2675,12 @@ Alpha正式预发布与真实截图／远端下载核验均完成，owner全1039
 ### Civ6395后到：受控第三方归属与UNKNOWN持久化
 
 0新POST。owner独立QA故障在一次已确认征城的原生转城后再原生转给第三方，产品实际UNKNOWN／TRANSFERRING，原库存／行动／冷却保持、0付款／退款／结束行动，冲突冻结及正式同进程存读档保持。4项故障工具边界检查不授产品全矩阵；最终故障／输入绑定恢复并恢复正常114。前两次物理右键0事件且原因未知，后续实际产品地图函数＋物理确认不冒充新物理右键通过；不是自然AI战斗、跨回合或冷进程。395原错误收费／校验顺序结论仍拒绝、只方向参考／0代码，不凭owner通过追认模型正确或净收益。[精确回执与发布后业务pin](evidence/2026-11-05-civ6-alpha-thirdparty74-later.json)。
+
+
+## 2026-11-05：heap 环境断言一行采用，另三真实任务分账
+
+[四个新源码任务的精确回执](evidence/2026-11-05-http-heap-portability-and-three-source-outcomes.json)均沿固定三消息、DIRECT、有限输出且各一次首派。CI portability 15944B完整Test/max1200，stop2.2830733秒、有效TTFT0.7133335秒、4093+265tokens；仅删除owner已指定的heap环境断言这一行语义采用，raw的JSON键与hunk由owner机械修正，outside逆还原精确。保112KiB×128、全部物理负例及max_heap诊断；旧精确4cf源码固定64MiB真实2P保持，普通JUnit变体只有源码资格，未声称实际CI失败或新的64MiB证明。
+
+另三份真实新需求实际峰3持续37.198582秒、全窗口111.736252秒，3POST/3END且无重试。紧急capture给2完整源538690B及完整metadata/max4000，stop37.1986912秒、TTFT31.362645秒、113177+105tokens，但只回reasoning、没有任何diff，0实现采用。Bootstrap给5完整源179586B及真实Java求值frontier/max6000，stop62.8658504秒、TTFT8.9057563秒、38427+3330tokens；私有carrier跨类、未定义member、占位异常与错误rebuild返回形状由M6全文源审全拒、0partial，owner接管。两者完整JSON均不等于履行实现合同，未执行raw，不能写成javac红。
+
+Normal独立Test给22完整actual源741980B及9126B三行为合同/max12000，HTTP200/DONE但length，110.3457343秒、TTFT37.6887135秒、150421+12000tokens。CONTENT/raw SSE未打开、解析、提取或哈希，整份0采用、不续半稿/不R2；原e84冻结输入保持，后到仅LF支持源由Native另绑，不借此重投。三份均cached=null；实际大输入被接受不证明永久容量或缓存，单次失败不设能力上限。当前队列442终态/442租约释放、0在途；未发JVM/Runtime/Game，也不以共享后见阻塞恢复。owner新实现、后续软件与业务资格另记，准备/纠错/审阅主动时间及净收益仍未知。

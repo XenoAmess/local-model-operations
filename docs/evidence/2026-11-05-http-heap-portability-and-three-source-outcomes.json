@@ -1,0 +1,325 @@
+{
+  "schema": "local-model-operations.heap-portability-and-three-new-source-tasks/v1",
+  "date": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network": "DIRECT configured host; redirects refused; actual socket peer UNKNOWN",
+  "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+  "profile_sha256": "97fb38b997dde3522f2310d06a229ab660db35f8bdc1a5d40eaa5c9e07e57e9a",
+  "same_local_day_maintenance": "Existing actual daily1.19.5 success reused; no extra service/version probe",
+  "new_source_HTTP_POST": 4,
+  "paired_END": 4,
+  "rePOST_old_task": 0,
+  "retry": 0,
+  "cases": [
+    {
+      "task_id": "oom-test-generic-heap-portability-20261105-01",
+      "mode_id": "ordinary_http_fixed3_candidate",
+      "complete_source_files": 1,
+      "source_bytes": 15944,
+      "fixed_three_messages": true,
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "max_tokens": 1200,
+        "stream": true,
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "enable_thinking": false,
+      "include_usage": true,
+      "POST_BEGIN_UTC": "2026-11-04T19:18:01.399752+00:00",
+      "ATTEMPT_END_UTC": "2026-11-04T19:18:03.682881+00:00",
+      "headers_ms": 712.1994000044651,
+      "effective_content_TTFT_ms": 713.3335000253282,
+      "HTTP_total_ms": 2283.0733000300825,
+      "usage": {
+        "prompt_tokens": 4093,
+        "completion_tokens": 265,
+        "total_tokens": 4358
+      },
+      "cached_tokens": null,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "REQUEST_pin": {
+        "bytes": 19354,
+        "sha256": "4bf5f739177bd3c6c0e6c83e7a0ae18dcea836bb347acddf5c37f3429fb21c51"
+      },
+      "RESULT_pin": {
+        "bytes": 1272,
+        "sha256": "97d9cb80bf6f10de4642e394f9e7014942e25bfc778415a7d48ecdeff9bb86c3"
+      },
+      "EVENTS_pin": {
+        "bytes": 2768,
+        "sha256": "3cad34c31506e893d5887461c3b716c29a6c73655b3185e2ef60da4ec81e8fee"
+      },
+      "attempts": 1,
+      "automatic_R2": false,
+      "source_review": {
+        "classification": "one-line semantic deletion adopted; owner mechanical schema/hunk repair only",
+        "whole_raw_diff_applied": false,
+        "observed_format_errors": [
+          "diff key instead of unified_diff",
+          "hunk location/counts require mechanical repair"
+        ],
+        "candidate_pin": {
+          "bytes": 15816,
+          "sha256": "3bfda6585684a0d3c8ea6eea2d31bbb0f385f50ff6a4f83622f15ae662147cdf"
+        },
+        "owner_review_pin": {
+          "bytes": 1743,
+          "sha256": "f30d7760528f4003f47b4cfa9172cd6ba1ac27264a1953d960e7a3f1a13f9825"
+        },
+        "outside_inverse_exact": true,
+        "owner_already_precisely_diagnosed_and_prescribed_change": true,
+        "generic_CI_failure_observed_before_request": false,
+        "fixed64_qualification": "Unchanged old exact4cf source and actual fixed64 two-pass proof remain immutable; new generic variant removes only environment precondition. No new JVM/CI/memory proof."
+      },
+      "model_JVM_SDK_Runtime_Game": 0,
+      "new_software_or_speed_credit": false,
+      "full_owner_active_time_and_net_savings": null,
+      "outer_JSON": "VALID",
+      "CONTENT_pin": {
+        "status": "present",
+        "bytes": 993,
+        "sha256": "fc11d8225b3911a7528e150036b19064009ca3ab3a580ac8bd7cd71b4b4226c9"
+      },
+      "saved_CONTENT_equals_raw_SSE_UTF8": true,
+      "offline_audit_discrepancies": []
+    },
+    {
+      "task_id": "restart-capture-completed-life-frontier-20261105-01",
+      "mode_id": "ordinary_http_fixed3_candidate",
+      "complete_source_files": 2,
+      "source_bytes": 538690,
+      "fixed_three_messages": true,
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "max_tokens": 4000,
+        "stream": true,
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "enable_thinking": false,
+      "include_usage": true,
+      "POST_BEGIN_UTC": "2026-11-04T19:27:12.123558+00:00",
+      "ATTEMPT_END_UTC": "2026-11-04T19:27:49.322140+00:00",
+      "headers_ms": 31361.488299968187,
+      "effective_content_TTFT_ms": 31362.644999986514,
+      "HTTP_total_ms": 37198.6911999993,
+      "usage": {
+        "prompt_tokens": 113177,
+        "completion_tokens": 105,
+        "total_tokens": 113282
+      },
+      "cached_tokens": null,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "REQUEST_pin": {
+        "bytes": 562290,
+        "sha256": "16eed5ae4ac4ce8ed574ec970083a56351a2fd495b1ae2abc4002ceaff6d63c7"
+      },
+      "RESULT_pin": {
+        "bytes": 1305,
+        "sha256": "f713294cf732c11e5b83b28ee3f12b6276b019324bd8c434f9caf94b8c9a9996"
+      },
+      "EVENTS_pin": {
+        "bytes": 2856,
+        "sha256": "38e21a4455bdd7bd1f3f023db2fe10d59e6515bb0113a4ab01e496f298e2879b"
+      },
+      "attempts": 1,
+      "automatic_R2": false,
+      "source_review": {
+        "classification": "missing requested implementation",
+        "response_contains_only_reasoning_no_diff": true,
+        "requested_target_files": 1,
+        "complete_metadata_documents": 2,
+        "metadata_bytes": 5340,
+        "complete_contract_bytes": 5149,
+        "adopted_code": 0,
+        "owner_already_diagnosed_specific_completed-Life_frontier_and_full_narrow_predicate": true,
+        "not_a_transport_failure_or_length_or_observed_context_rejection": true,
+        "no_automatic_semantic_retry": true
+      },
+      "model_JVM_SDK_Runtime_Game": 0,
+      "new_software_or_speed_credit": false,
+      "full_owner_active_time_and_net_savings": null,
+      "outer_JSON": "VALID",
+      "CONTENT_pin": {
+        "status": "present",
+        "bytes": 519,
+        "sha256": "8df8a985ddf2ebd7be0708073c948d4a82175a0c5b58c040e655fab029e2f559"
+      },
+      "saved_CONTENT_equals_raw_SSE_UTF8": true,
+      "offline_audit_discrepancies": []
+    },
+    {
+      "task_id": "bootstrap-rebuild-manifest-once-20261105-01",
+      "mode_id": "ordinary_http_fixed3_candidate",
+      "complete_source_files": 5,
+      "source_bytes": 179586,
+      "fixed_three_messages": true,
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "max_tokens": 6000,
+        "stream": true,
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "enable_thinking": false,
+      "include_usage": true,
+      "POST_BEGIN_UTC": "2026-11-04T19:27:09.184495+00:00",
+      "ATTEMPT_END_UTC": "2026-11-04T19:28:12.050453+00:00",
+      "headers_ms": 8904.687100031879,
+      "effective_content_TTFT_ms": 8905.756300024223,
+      "HTTP_total_ms": 62865.850400005,
+      "usage": {
+        "prompt_tokens": 38427,
+        "completion_tokens": 3330,
+        "total_tokens": 41757
+      },
+      "cached_tokens": null,
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "REQUEST_pin": {
+        "bytes": 190206,
+        "sha256": "5c5051f2eaad2b8459c26ab370264b6cd63176bc8444aa5de62bf2b1c5166e63"
+      },
+      "RESULT_pin": {
+        "bytes": 1300,
+        "sha256": "1a493408587a54dbea7d52541ec3dc5aac532736202c33266b9e0384dde73779"
+      },
+      "EVENTS_pin": {
+        "bytes": 2800,
+        "sha256": "ca56867cf5c06e4683f6d9b8ce8988f807c296eb253849664f74e2b27fe3caea"
+      },
+      "attempts": 1,
+      "automatic_R2": false,
+      "source_review": {
+        "classification": "source semantic rejection; owner takeover",
+        "adopted_code": 0,
+        "partial_adoption": false,
+        "owner_independently_read_complete_stop_and_rejected_all": true,
+        "requested_targets": 2,
+        "actual_Java_evaluation_frontier_supplement_present_before_POST": true,
+        "observed_errors": [
+          "private carrier referenced by another top-level class",
+          "undefined reference accessor and missing currentDriverReference overload",
+          "UnsupportedOperationException placeholder",
+          "wrong actual rebuild context and FullSnapshot return shape",
+          "reasoning still proposes a future corrected diff"
+        ],
+        "not_a_measured_javac_failure": true,
+        "owner_new_implementation_and_later_independent_Test_are_separate": true
+      },
+      "model_JVM_SDK_Runtime_Game": 0,
+      "new_software_or_speed_credit": false,
+      "full_owner_active_time_and_net_savings": null,
+      "outer_JSON": "VALID",
+      "CONTENT_pin": {
+        "status": "present",
+        "bytes": 15303,
+        "sha256": "ae72ce9d7fffdcf1e3b2d009722c8cc360296fd816f457bf614ab930e4773926"
+      },
+      "saved_CONTENT_equals_raw_SSE_UTF8": true,
+      "offline_audit_discrepancies": []
+    },
+    {
+      "task_id": "normal-append-live-read-scope-independent-test-20261105-01",
+      "mode_id": "ordinary_http_fixed3_candidate",
+      "complete_source_files": 22,
+      "source_bytes": 741980,
+      "fixed_three_messages": true,
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "max_tokens": 12000,
+        "stream": true,
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "enable_thinking": false,
+      "include_usage": true,
+      "POST_BEGIN_UTC": "2026-11-04T19:27:10.573822+00:00",
+      "ATTEMPT_END_UTC": "2026-11-04T19:29:00.920747+00:00",
+      "headers_ms": 37687.71910003852,
+      "effective_content_TTFT_ms": 37688.71350004338,
+      "HTTP_total_ms": 110345.73430003366,
+      "usage": {
+        "prompt_tokens": 150421,
+        "completion_tokens": 12000,
+        "total_tokens": 162421
+      },
+      "cached_tokens": null,
+      "HTTP_status": 200,
+      "finish_reason": "length",
+      "DONE": true,
+      "REQUEST_pin": {
+        "bytes": 766424,
+        "sha256": "44b2289f68b6886da2530bcc9c408abeba096ffb1366bff934f21c0ec882da8f"
+      },
+      "RESULT_pin": {
+        "bytes": 1313,
+        "sha256": "69e23e8ff9c0b6041ed2f69d2a2c0827802dc401991b24def390b85b0cd7638b"
+      },
+      "EVENTS_pin": {
+        "bytes": 2940,
+        "sha256": "4367619870124b580fba0c17a01e9ca2bd03ade8fd3e55dffef5a3d3d74b47d7"
+      },
+      "attempts": 1,
+      "automatic_R2": false,
+      "source_review": {
+        "classification": "length whole discard before candidate inspection",
+        "adopted_code": 0,
+        "complete_task_bytes": 9126,
+        "original_frozen_e84_fixture_prefix_preserved": true,
+        "later_LF_only_fixture_support02_not_rebound_into_REQUEST": true,
+        "public_Router_seven_arg_actual_authority_fixture_not_old_six_arg_binary": true,
+        "owner_explicit_three_real_behavior_cases_and_callees_supplied": true,
+        "no_Test_candidate_semantics_or_compiler_outcome_inferred": true
+      },
+      "model_JVM_SDK_Runtime_Game": 0,
+      "new_software_or_speed_credit": false,
+      "full_owner_active_time_and_net_savings": null,
+      "outer_JSON": "NOT_INSPECTED_NON_STOP",
+      "CONTENT_raw_SSE_opened_parsed_extracted_or_hashed": false,
+      "whole_length_discarded": true,
+      "adopted_code": 0,
+      "length_offline_full_body_audit": "NOT_RUN"
+    }
+  ],
+  "three_latest_real_tasks": {
+    "client_peak": 3,
+    "peak_seconds": 37.198582,
+    "POST_first_to_END_last_seconds": 111.736252,
+    "source_inflight_after_last_END": 0,
+    "service_queue_metrics": "NOT_SAMPLED"
+  },
+  "persistent_queue_readonly_cut": {
+    "at_utc": "2026-11-04T19:29:58.104638+00:00",
+    "COMPLETED": 442,
+    "RELEASED": 442,
+    "READY_records": 28,
+    "dispatcher_returned_normally": true,
+    "deferred_conflict_unknown_errors": 0
+  },
+  "limits": [
+    "stop and valid outer JSON do not establish requested keys, actual API legality or a complete implementation",
+    "full source large request was accepted but does not prove service context capacity or cache hit",
+    "owner takeover/software/formal/Runtime/Game results must never back-credit rejected or unread raw",
+    "fixed64 memory qualification and ordinary generic-heap CI behavior are separate",
+    "no permanent model ceiling, CPU attribution, speedup or net owner savings inferred"
+  ],
+  "next_real_trigger": "Owner current-source new unmet unit only; bootstrap independent Test waits actual chosen API. No automatic R2 or invented demand."
+}
