@@ -1,0 +1,23 @@
+{
+  "stage": "READ_ONLY_CONSUMER_GUIDANCE_NOT_ACTIVE_INTEGRATION_OR_LIVE_EVIDENCE",
+  "public_function": "project_liveness(expected_json, heartbeat_json, observation_json, *, now_utc, ttl_seconds)",
+  "input_owner": "/root/models_continue",
+  "rules": [
+    "Supply expected identity from a separately trusted original owned-process launch/handle record, including full PID+birth and exact argv. Never reconstruct missing birth, nonce or command from a PID or stale LOCK_HELD file.",
+    "Heartbeat and independent process observation are separate supplied JSON DATA. An old launch record is neither. If permission or evidence for an observation is absent, pass None; do not probe or synthesize it in the projector.",
+    "The caller must supply its current trustworthy UTC time. Reusing an old launch clock as now would only ask about that old instant; the pure projector cannot authenticate a clock or an observer.",
+    "Read status explicitly: report['status'] == 'VERIFIED_ACTIVE'. Do not use bool(report), bool(report['identity']), exit-code0, a nonempty JSON, LOCK_HELD or LAUNCH as an active count. All valid JSON report dicts are truthy, including UNKNOWN.",
+    "OBSERVED_EXIT is distinct from NOT_OBSERVED and STALE. None of these statuses authorizes clearing a lock, releasing/expiring a lease, killing/restarting a process or repeating a POST or business action.",
+    "VERIFIED_ACTIVE concerns the supplied process/heartbeat identity only. It does not prove task progress, a live model HTTP request, backend slot, service health, actual60 agents, source adoption or gameplay success.",
+    "Continue to use pool_observer for POST/END event intervals and Dispatcher/LeaseStore for their existing owned lifecycle and admission rules. This module does not replace either or change their histories.",
+    "Integration must preserve the exact reviewed module bytes and public v1 schemas. Do not silently normalize argv, clamp future times, replace foreign identities or auto-convert legacy metadata into a valid heartbeat.",
+    "Native alone runs the new independent public DATA witness; Models alone publishes shared source and chooses actual pipeline integration. Do not run old green suites or restart a worker for this source packet."
+  ],
+  "status_at_this_cut": "Source+AST candidate; new Native witness pending. No actual liveness dataset, live probe, consumer adoption or operational action was performed by the source owner.",
+  "unsafe_consumer_shortcuts_explicitly_excluded": [
+    "if projection: count_running += 1",
+    "missing_process_observation -> OBSERVED_EXIT",
+    "stale_heartbeat -> clear_lock_or_repost",
+    "old_launch_pid_exists -> VERIFIED_ACTIVE"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "local-model-source-case/journal-lookup-source-cut/v1",
+  "publication_permission": "The M0 source owner explicitly approves this complete file for normal portable publication by the Models owner. No private source, request, oracle, machine path or runtime binding is approved for publication with it.",
+  "problem": "A historical journal lookup materialized every record into a temporary list before returning its first matching receipt. The proposed consumer keeps one selected receipt while continuing every original tail read and validation. It must retain newest-match identity, cycle and sequence checks, and failures after an earlier match.",
+  "source_status": "A human-owned narrow consumer candidate and a separately authored public DATA witness are frozen. First compilation/execution of this tuple remains pending at this source cutoff. No software, formal, loaded or performance result is inferred from source review.",
+  "roles": [
+    {
+      "role": "New public DATA witness implementation proposal",
+      "input": {"whole_source_files": 17, "physical_source_bytes": 150961, "message_roles": ["system","user","user"], "message_utf8_bytes": [301,157263,5319], "source_normalization": "Complete LF-normalized bodies in frozen order; physical file bytes are tracked separately."},
+      "actual_parameters": {"model": "qwen38-coder", "max_tokens": 8500, "temperature": 0, "chat_template_kwargs": {"enable_thinking": false}, "response_format": {"type": "json_object"}, "stream": true, "stream_options": {"include_usage": true}},
+      "actual": {"POST": 1, "attempt_END": 1, "http_status": 200, "finish_reason": "stop", "sse_done": true, "total_seconds": 249.5721324000042, "first_nonempty_content_seconds": 5.286189000005834, "prompt_tokens": 34279, "completion_tokens": 5748, "cached_prompt_tokens_if_reported": null, "content_bytes": 25150},
+      "review": "Complete output was read and the whole proposed TU was rejected. It used a nonexistent nested frame type, omitted imports for five actual types, and weakened all twenty public interface overrides to package access. Its empty-history case did not exercise the requested null-archive input. A questionable deprecated JSON overload was left UNKNOWN and was not counted as a compiler finding. No compiler was run on the model proposal.",
+      "source_gap_claim": "The model claimed supplied declarations were missing. Actual request auditing found all seventeen complete source bodies in the original order. This is a source-reading error in the output, not evidence of a truncated request or stream.",
+      "adoption": {"model_code": 0, "model_repair_TU": 0, "human_witness_frozen_before_first_model_output_read": true, "claim_human_code_precedes_output_existence": false, "model_generation_credit_for_human_witness": 0}
+    },
+    {
+      "role": "Independent review of the actual new consumer candidate",
+      "input": {"whole_source_files": 11, "message_roles": ["system","user","user"], "message_utf8_bytes": [301,126107,2701], "private_original_oracle_or_human_review_in_prompt": false},
+      "known_actual_parameters": {"model": "qwen38-coder", "max_tokens": 5000, "stream_include_usage": true},
+      "actual": {"POST": 1, "attempt_END": 1, "http_status": 200, "finish_reason": "stop", "sse_done": true, "total_seconds": 7.409444899996743, "first_nonempty_content_seconds": 4.156917400017846, "prompt_tokens": 26412, "completion_tokens": 382, "cached_prompt_tokens_if_reported": null, "content_bytes": 1715},
+      "wire": "The actual request object, complete source framing and exact task match the frozen prepared specification. The request file and specification container do not have identical raw bytes; container-byte equality is not claimed.",
+      "review": "Partial corroboration of five finite obligations only. The short reply did not supply a complete null-input, tail-failure, returned-object identity, getter-receiver or limit-boundary argument. Its universal all-valid-inputs wording is not accepted as a proof or approval.",
+      "adoption": {"grade": "PARTIAL_OBLIGATION_CORROBORATION", "code": 0, "full_independent_approval": false, "R2": false}
+    }
+  ],
+  "cost": {"logical_roles": 2, "actual_POST": 2, "actual_END": 2, "summed_client_seconds": 256.9815773, "summed_prompt_tokens": 60691, "summed_completion_tokens": 6130, "these_two_actual_intervals_overlap": false, "these_two_peak_inflight": 1, "global_inflight": "UNKNOWN", "human_prepare_review_active_seconds": "UNKNOWN", "net_saving": "UNKNOWN"},
+  "earlier_invalid_tasks": "Two earlier producer/design requests had an owner-side task-encoding error and each reached a real STOP. Their original requests, costs and zero valid-intended-role credit remain separate; neither was silently erased, reopened or counted as these two roles.",
+  "limits": ["No new request or retry was made to obtain a favorable review.","No Game, UI, Native-live, JVM, test execution, runtime adoption, saved-day or measured speed credit is granted at this cutoff.","Eliminating temporary list retention is a source cost argument, not a measured memory or wall-clock result.","All original callback, validation and historical-read authority boundaries remain requirements for actual validation."]
+}

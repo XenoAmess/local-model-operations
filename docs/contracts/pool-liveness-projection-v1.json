@@ -1,0 +1,81 @@
+{
+  "schema": "local-model-operations.pool-liveness-public-contract/v1",
+  "owner": "/root/history_perf",
+  "target": "candidate01/pool_liveness_projection.py",
+  "public_API": "project_liveness(expected_json: bytes, heartbeat_json: bytes | None, observation_json: bytes | None, *, now_utc: str, ttl_seconds: int) -> dict",
+  "purpose": "Read-only projection of explicitly supplied immutable JSON DATA. No files, clock, OS/process query, process control, network, database, lock, lease or dispatcher action is performed by the projector.",
+  "trust_boundary": "The caller independently obtains and freezes observations. VERIFIED_ACTIVE means supplied records satisfy this contract, not that this pure module itself probed an OS or authenticated an observer. Expected identity must come from the caller's separately trusted owned-process record, not be invented from an arbitrary heartbeat.",
+  "input_limits": {
+    "packet_bytes": "Exact built-in bytes only; each present JSON packet1..65536 bytes, strict UTF8 without BOM, JSON depth at most8, duplicate keys/nonfinite numbers/floats rejected, object schemas exact.",
+    "now_utc": "UTC RFC3339 string: YYYY-MM-DDTHH:MM:SS with optional1..9 fractional digits, ending Z or +00:00. Validate real calendar/time, reject leap seconds and timezone-free values; compare integer nanoseconds without float rounding.",
+    "ttl_seconds": "Exact int, not bool,1..3600. Fresh includes equality:0 <= now-timestamp <= ttl. Any provided future timestamp is UNKNOWN, with no tolerance or deadline extension.",
+    "machine_role": "machine_id and role are exact ASCII strings1..128 matching [A-Za-z0-9_.-]+.",
+    "owner_nonce": "Exact ASCII string16..128 matching [A-Za-z0-9_-]+. Caller supplies it; projector never mints authority or a nonce.",
+    "pid": "Exact int, not bool,1..4294967295.",
+    "birth_filetime": "Canonical decimal string without leading zeros, positive uint64,1..18446744073709551615. No float coercion or PID-only matching.",
+    "argv": "Exact JSON array1..64 strings; argv[0] nonempty, other empty arguments allowed, no NUL or unpaired surrogate; each token at most4096 UTF8 bytes and total at most32768. Compare original token strings in order without path/case/quote normalization. Never execute or echo this argv in output."
+  },
+  "identity": {
+    "exact_keys": ["machine_id", "role", "owner_nonce", "pid", "birth_filetime", "argv"],
+    "subject_core_keys": ["machine_id", "role", "owner_nonce", "pid", "birth_filetime"],
+    "process_keys": ["pid", "birth_filetime", "argv"]
+  },
+  "packet_schemas": {
+    "expected": {
+      "exact_keys": ["schema", "identity"],
+      "schema_value": "local-model-operations.pool-liveness-expected/v1",
+      "identity": "Complete identity object using exact identity keys above; expected packet is required."
+    },
+    "heartbeat": {
+      "exact_keys": ["schema", "identity", "at_utc"],
+      "schema_value": "local-model-operations.pool-heartbeat/v1",
+      "identity": "Complete identity equal to expected, including exact argv.",
+      "optional_packet": "None means absent; legacy LOCK_HELD/launch metadata is not this schema."
+    },
+    "observation": {
+      "exact_keys": ["schema", "subject", "observed_at_utc", "state", "process", "exit_code"],
+      "schema_value": "local-model-operations.pool-process-observation/v1",
+      "subject": "Exact subject core bound to expected machine/role/owner_nonce/PID/birth.",
+      "state_values": ["ALIVE", "EXITED", "NOT_OBSERVED", "UNKNOWN"],
+      "state_shapes": {
+        "ALIVE": "process is a complete process object equal to expected PID/birth/argv; exit_code is null.",
+        "EXITED": "process is a complete bound process object equal to expected; exit_code is an exact int, not bool, in -2147483648..4294967295. This represents an independently observed terminal process, not absence.",
+        "NOT_OBSERVED": "process and exit_code are null. Only lack of an observation is established, never exit.",
+        "UNKNOWN": "process and exit_code are null. No positive process state is established."
+      },
+      "optional_packet": "None means no independent process-observation packet was supplied."
+    }
+  },
+  "decision_order": [
+    "Validate now and TTL, then required expected packet, then every provided heartbeat/observation packet. Invalid input returns UNKNOWN with a fixed category reason; errors never expose raw exception or supplied command text.",
+    "Match any provided heartbeat identity and observation subject/process to separately trusted expected. Any mismatch returns UNKNOWN before a positive status; matching only PID is insufficient.",
+    "Reject any provided future heartbeat or process-observation timestamp as UNKNOWN. Do not clamp, repair or advance a caller deadline.",
+    "If observation is absent, return NOT_OBSERVED/OBSERVATION_MISSING, regardless of old launch or heartbeat age.",
+    "If observation age exceeds TTL, return STALE/OBSERVATION_STALE, including old EXITED records. Equality with TTL is still fresh.",
+    "For a fresh matched EXITED observation, return OBSERVED_EXIT/EXIT_OBSERVED. A missing or old heartbeat does not override independent exit evidence; a malformed, mismatched or future provided heartbeat was already rejected above.",
+    "Fresh NOT_OBSERVED returns NOT_OBSERVED/PROCESS_NOT_OBSERVED. Fresh UNKNOWN returns UNKNOWN/OBSERVATION_UNKNOWN.",
+    "For fresh matched ALIVE, missing heartbeat returns NOT_OBSERVED/HEARTBEAT_MISSING; heartbeat older than TTL returns STALE/HEARTBEAT_STALE; only both fresh matched records return VERIFIED_ACTIVE/HEARTBEAT_AND_PROCESS_MATCH."
+  ],
+  "fixed_reason_values": [
+    "INVALID_NOW", "INVALID_TTL", "INVALID_EXPECTED", "INVALID_HEARTBEAT", "INVALID_OBSERVATION",
+    "HEARTBEAT_IDENTITY_MISMATCH", "OBSERVATION_SUBJECT_MISMATCH", "PROCESS_IDENTITY_MISMATCH",
+    "FUTURE_HEARTBEAT", "FUTURE_OBSERVATION", "OBSERVATION_MISSING", "OBSERVATION_STALE", "EXIT_OBSERVED",
+    "PROCESS_NOT_OBSERVED", "OBSERVATION_UNKNOWN", "HEARTBEAT_MISSING", "HEARTBEAT_STALE", "HEARTBEAT_AND_PROCESS_MATCH"
+  ],
+  "output": {
+    "schema_value": "local-model-operations.pool-liveness-projection/v1",
+    "exact_keys": ["schema", "status", "reason", "basis", "identity", "heartbeat_age_ns", "observation_age_ns", "ttl_seconds"],
+    "status_values": ["VERIFIED_ACTIVE", "OBSERVED_EXIT", "NOT_OBSERVED", "STALE", "UNKNOWN"],
+    "basis": "CALLER_PROVIDED_JSON_ONLY_NOT_LIVE_PROBE_OR_AUTHORITY",
+    "identity": "Null until valid expected identity; otherwise subject core plus argv_sha256. Digest is SHA256 of UTF8 json.dumps(argv,ensure_ascii=False,separators=(',',':'),allow_nan=False). No raw argv, shell, command or executable payload is output.",
+    "ages": "Null if not parsed/available or future; otherwise canonical nonnegative decimal nanosecond strings. They are observation ages, not lease expiration permission.",
+    "ttl_seconds": "Valid TTL int, otherwise null. Output is a fresh plain JSON-serializable dict with no executable shell."
+  },
+  "consumer_rules": [
+    "Only explicit VERIFIED_ACTIVE may count as verified current activity, and it retains the caller-observation trust limit. Any other status cannot be counted as running.",
+    "Old LOCK_HELD, launch, PID text, missing END or a still-existing claim file alone do not establish activity or exit.",
+    "Never release/clear a lock or lease, kill/restart a process, change DB state, repeat POST, or replay business based on this projection. TTL only labels DATA freshness.",
+    "Integration/adoption belongs to Models, software first to Native, and shared Git to Models. This D candidate performs none of those operations."
+  ],
+  "independent_witness_boundary": "This is the public contract only, not an author oracle, expected case matrix, candidate body or model response."
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "local-model-operations.pool-liveness-software-first/v1",
+  "subject": "Read-only caller-supplied heartbeat and process-observation JSON projection",
+  "qualification": "SOURCE_PLUS_FIRST_INDEPENDENT_PUBLIC_DATA_3P",
+  "source_sha256": "d539cb6390f351bbdee5ab520fbc6d16e813245741c61bb6150af404b88d5f10",
+  "public_contract_sha256": "4cc8faca0a0e30a28b311f128db43edf774ae98ec86dfbea8a3e9251d296f08b",
+  "Test_source_sha256": "8dc253a794188f64ffaed6032c915ec307e3c638cb71ab4959dde05fabee87da",
+  "public_entry": "project_liveness(expected_json, heartbeat_json, observation_json, *, now_utc, ttl_seconds)",
+  "result": {
+    "unique_methods": 3,
+    "public_API_calls": 25,
+    "unittest_subtests": 22,
+    "skipped": 0,
+    "failures": 0,
+    "errors": 0,
+    "direct_public_binding": true,
+    "fallback": false,
+    "source_repairs": 0,
+    "old_tests_repeated": 0
+  },
+  "cost": {
+    "Native_child_wall_seconds": 0.3805708999861963,
+    "CPU_seconds": null,
+    "active_seconds": null,
+    "full_task_start": null
+  },
+  "source_model_code_adopted": 0,
+  "limitations": [
+    "Synthetic immutable DATA only; not an OS observation or observer/clock authentication",
+    "No claim of real process liveness, HTTP activity, sixty running agents, pipeline integration or adoption",
+    "No lock cleanup, process control, POST, replay, DB or lease operation",
+    "Only explicit VERIFIED_ACTIVE is the positive DATA status; a nonempty report is not an active predicate"
+  ],
+  "source_cut_notes": "Original integration notes retain their pre-first pending statement as historical source-cut evidence. This additive receipt supplies the later finite software result."
+}
