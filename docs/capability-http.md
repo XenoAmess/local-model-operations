@@ -2862,3 +2862,10 @@ M6全文源审拒绝完整类及两个新增方法，0partial/0modelJVM：缺真
 [新的五完整源实现单位](evidence/2026-11-05-http-composite-settled-read-scope-candidate.json)给216348B当前源/4181B合同，只要求ACA既有withReadValidation predicate增加Gameplay-origin CompositeSettled，最多相邻注释；原Intent/Submitting、Operator/physical排除、完整Head/session/TL/poison/finally、全部原traversal/proof及scope界限逐字留。owner已先诊断并指定该分支，不算模型自主发现。实际小样本native3/291、allocation163/148只导航，不授主因/调用次数/提速；这是不同真实消费者，不复投旧READscope。
 
 固定三消息/DIRECT/max1800，一次HTTP200/stop/DONE/有效JSON，11.0250148秒、有效TTFT5.7311216秒、43244+396tokens、cachednull，1963B原件即交Java。CONTENT=SSE UTF8、审计0discrepancy，此切点仅待源审，未授采用/编测/正式/装载/收益；即使0新方法/字段，新增Gameplay引用可能改变外部InnerClasses，不能凭源码预授redefine。455终态/455租约释放、0源在途，0JVM/UI/Runtime/Game/GET/期限修改，无参数改动、不R2；健康运行不为此停机，完整主动成本与净收益未知。
+
+
+## 2026-11-05：Composite predicate 初次采用与后到 Life Applied 收窄
+
+[具名review、OWNER02及实际闭包](evidence/2026-11-05-http-composite-owner-narrowing-later.json)补原pending切点：01采纳原CompositeSettled/Gameplay predicate语义，owner仅修raw hunk计数与不准确的terminal注释；原diff未直接应用。后继实际callback闭包审阅后，owner02进一步要求LifeAdvanceComposite.accepts、Applied并显式排除public-pause常量，14154B/a5f47bce一span外逐字逆还原。最终只记原分支partial，不能说最终predicate原样模型采用；后到更严格要求不倒算原请求违约，不R2。
+
+初版01仅1TU2class首编0/4.2198009秒、0行为RUN，真实fields/methods相同、类名两项相同，但外部Gameplay新增InnerClasses行令完整structure不等；这不是观察到VM拒绝，也不授redefine/loader/Runtime。该01type结果不资格化最终02，最终源切点编测仍未持。Applied实际归档replay闭包的四份具名manifest及Context已核，所有原proof/Head/TL/poison/limits保留；不以源码论证代替真实两方法/受影响回归，更不授主因或提速。本附页0新HTTP/JVM/Game，旧切点与完整owner成本保，净收益未知。

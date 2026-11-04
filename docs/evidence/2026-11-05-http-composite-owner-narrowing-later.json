@@ -1,0 +1,89 @@
+{
+  "schema": "local-model-operations.composite-owner-narrowing-later/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-composite-settled-read-scope-20261105-01",
+  "prior_HTTP_pending_cut_commit": "c08f9f73ac7451e0b5b6733b404478ff4db0a439",
+  "prior_cut_preserved": true,
+  "review_pin": {
+    "bytes": 911,
+    "sha256": "4129efe2798820c54c89fd9bee074350ba996531d668625e8daccd70e73d08e7"
+  },
+  "initial_source_review": "exact new predicate semantic branch adopted; raw hunk header counts corrected mechanically; adjacent owner comment corrected because one completed-composite terminal now opts in",
+  "initial_predicate_semantic_owner_changes": 0,
+  "raw_hunk_not_applied_as_written": true,
+  "hunk_and_comment_owner_correction": true,
+  "later_OWNER02_ready_pin": {
+    "bytes": 4047,
+    "sha256": "d8e6b61285c426c4c60ec58f5a2ee7c4e5994cfa3dbd329ebc6d8c3663c7cc46"
+  },
+  "later_closure_review_pin": {
+    "bytes": 3927,
+    "sha256": "f8e1dfdc4c6bd9b9e4d4ce6281dfe9e7618814417ebab73438b360158fc61299"
+  },
+  "final_source_candidate_pin": {
+    "bytes": 14154,
+    "sha256": "a5f47bce9e23a6815513cf53c3ef5cb2a2380c1a498b1635a6a28e39a3854a92"
+  },
+  "owned_spans": 1,
+  "outside_inverse_exact_independently_verified": true,
+  "later_owner_semantic_narrowing": "Gameplay CompositeSettled + LifeAdvanceComposite.accepts + Applied + explicit GenericPublicPauseRecovery.OPERATION exclusion; original Intent/Submitting and exclusions unchanged.",
+  "later_stricter_branch_not_in_original_POST_contract_not_model_contract_violation": true,
+  "final_model_contribution": "Partial original CompositeSettled/Gameplay branch; final narrowed predicate is owner-modified, not unmodified model implementation.",
+  "actual_replay_closure_source_findings": [
+    "Actual RootLifeRuntimeFactory107/112 constructs LifeAdvanceRootReplay(freshFrameLoader(context.frameLoader())) and installs this same verifier for both exact Life operations. Live cancellation callback is held by the live composite, not by the archive replay object; Applied branch cannot call it.",
+    "NativeRecordedEvidenceVerifier performs all original roundtrip/source/guard/effect/child/domain callbacks. Applied Life domain replay is the exact installed LifeAdvanceRootReplay/AdvanceClockArchivedReplay DATA path. No proof is dropped.",
+    "Actual RootPhysicalStatusReadAuthority.verifyArchived119 delegates original DATA verifyArchivedData; live withObserved and requireOutside are distinct methods and are not invoked by this retained replay.",
+    "Actual RootDerivedChildAuthority.verifyArchived121 uses same borrowed Session/head, original/history membership, frames and source/previous-child replays. It opens no historical scope and calls no live query. Its public-pause extra callback is guarded by isPublicPauseParent(parent.command).",
+    "Actual RootExecutableBindings150 routes public-pause iff operation equals GenericPublicPauseRecovery.OPERATION, then validates. The new branch explicitly excludes that public constant by equality, without invoking validation or inspecting frozen parent337 implementation. This syntactically rules out that external callback; no constant-value assumption or permission change.",
+    "RootRuntimeContext source18 SHA equals actual current pin; borrowedSession delegates existing writer, frameLoader delegates existing Core. No new archive scope is created by those getters."
+  ],
+  "initial_OWNER01_typed_first_only": {
+    "qualified_pin": {
+      "bytes": 41645,
+      "sha256": "715171031e50883598f8c131725d520869a5e8ed281a8a7c1af4fbd8c4d16f4d"
+    },
+    "TUs": 1,
+    "classes": 2,
+    "compiler_seconds": 4.219800899969414,
+    "ACTUAL_pin": {
+      "bytes": 1754,
+      "sha256": "5dec122366882c7de097dff8cf6a59d92535afca4a9421da0061d1b213ae256e"
+    },
+    "close0_fence_released": true,
+    "actual_shapes": [
+      {
+        "name": "org/xar/ck3/control/application/action/ActionContinuityAuthority",
+        "fields_and_methods_equal": true,
+        "structure_equal": false,
+        "attribute_delta": {
+          "InnerClasses": {
+            "removed": [],
+            "added": [
+              [
+                "org/xar/ck3/control/application/action/CommandOrigin$Gameplay",
+                "org/xar/ck3/control/application/action/CommandOrigin",
+                "Gameplay",
+                25
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "name": "org/xar/ck3/control/application/action/ActionContinuityAuthority$1",
+        "fields_and_methods_equal": true,
+        "structure_equal": true,
+        "attribute_delta": {}
+      }
+    ],
+    "behavior_tests_RUN": 0,
+    "VM_rejection_or_redefine_loader_Runtime_adoption_granted": false
+  },
+  "initial_owner01_typed_result_does_not_qualify_later_OWNER02": true,
+  "OWNER02_compile_or_behavior_at_source_cut": false,
+  "new_HTTP_R2_JVM_Game_by_this_posthoc": 0,
+  "performance_benefit_proven": false,
+  "source_contract_guard_and_archive_proofs_preserved": "Existing complete Head/session/TL/poison/finish/capacity/identity/source/canonical traversal/effect/domain/child proof and4096/256MiB/8192 limits literally unchanged. No cached verdict/list; no crossing preview/commit or writes.",
+  "full_owner_active_preparation_closure_review_rewrite_cost_and_net_savings": null
+}
