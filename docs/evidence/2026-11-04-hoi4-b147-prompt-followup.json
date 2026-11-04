@@ -1,0 +1,82 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B147-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T11:23:59.858360+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T11:02:10.531108+00:00",
+    "window_ended_at_utc": "2026-11-04T11:02:14.140343+00:00",
+    "window_seconds": 3.609235,
+    "peak": 1,
+    "peak_duration_seconds": 3.609235,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b147-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 1007,
+        "completion_tokens": 499,
+        "total_tokens": 1506
+      },
+      "failure": null,
+      "content_ttft_ms": 413.27999997884035,
+      "total_ms": 3609.2258999706246,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "61a906e21e885a3005f45873c3c741c7842908cd180d6fcd25178f208a5a31b9",
+      "summary_sha256": "11dbe7f1dc2cfc0c70c0727e1c9ae9464941579d954450099c327964161d17e4",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "7858adc37d766f3f387361cd2be5c0ddc9679131049eaeda2b525edac11d94f5",
+        "task_id": "hoi4-20261104-b147-prompt-01",
+        "request_sha256": "61a906e21e885a3005f45873c3c741c7842908cd180d6fcd25178f208a5a31b9",
+        "summary_sha256": "11dbe7f1dc2cfc0c70c0727e1c9ae9464941579d954450099c327964161d17e4",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Both SHA domains verified. Candidate retains actual dark side-parted raised hair/thick moustache/CLEAN chin, dark brown-black suit/cream shirt/dark long tie and beige-khaki backing, but omits explicit real DARK eyebrow hair and concrete near-frontal pose/roll. Owner restores these before prepare plus short broad rounded source collar contact. No model pixels/art approval.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "64ac042ddaf4dd0ae427f12c9a7643fec4c0f218c6fbb77327c78611df1d06a5",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2723,
+        1184
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b147-sources.json",
+    "sha256": "885eeccad8ac934ef1eafadc495711ebab3787246b1636a66ec197b030d6805c",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T11:22:57.229997+00:00",
+  "stage_at_cutoff": "One independent thick-moustache dark-long-tie source",
+  "owner_review": "Candidate retained hair/moustache/clean chin and dark long tie/cream shirt/dark coat, but omitted explicit dark eyebrow hair and concrete near-frontal pose/roll. Owner restored these with literal input authority/short broad collar contact before prepare. No model image input/art approval.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
