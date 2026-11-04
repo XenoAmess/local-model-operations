@@ -358,3 +358,7 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-04：Civ6369—370验收驱动分账
 
 两次普通HTTP，0新OpenCode原生生成；Nov4成功维护缓存1.19.5复用。369代码拒绝，370部分源码事实；owner12项软件和实际73排队／到达／农场／次数扣除不追认模型或原生工具能力。强制结束标签纠正、未知API与游戏动作重试分开，[精确pin及反例](evidence/2026-11-04-civ6-turn369370-native73.json)。
+
+### 2026-11-04：Civ6371—373分账
+
+三次普通HTTP：371部分源码路线事实、372整弃length、373错误回合／压力合同0方案；0新增OpenCode原生生成，复用Nov4成功维护缓存1.19.5。owner观察器复用与实际73两领袖输入对照不是新模型或原生工具能力。[精确pin与owner合同／编排纠正](evidence/2026-11-04-civ6-queue371373-native73.json)。

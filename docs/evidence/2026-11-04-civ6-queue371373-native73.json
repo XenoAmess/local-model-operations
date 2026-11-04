@@ -1,0 +1,285 @@
+{
+  "schema": "local-model-operations.civ6-queue371373-native73/v1",
+  "date_local": "2026-11-04",
+  "published_at_utc": "2026-11-04T13:18:44.405544+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/5405a61c3548de20719b649e82ab45305287e643/docs/research/baiqi-p6-native73-queue-right371-evidence-2026-11-04.json",
+  "business_evidence_sha256": "c4e651a951f08228730e23c815d961a5de1bbf7eb2507d2e08e1cdd99335c147",
+  "cases": [
+    {
+      "sequence": 371,
+      "case_id": "civ6-queue371-new-acceptance",
+      "mode_id": "http-candidate",
+      "shared_commit": "b18cd1d116419ddc97eded740b1e24441bf711dd",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2900,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T12:43:55.185221+00:00",
+      "attempt_end_utc": "2026-11-04T12:44:16.168837+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 20983.540099987295,
+        "first_nonempty_content_delta_ms": 15435.086100012995,
+        "usage": {
+          "prompt_tokens": 61500,
+          "completion_tokens": 651,
+          "total_tokens": 62151
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T12:43:55.185221+00:00",
+          "end_utc": "2026-11-04T12:44:16.168837+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 20983.540099987295
+        }
+      ],
+      "adoption": "Partialsourcefacts only;0code",
+      "review": "CorrectToprightclick->RemoveQueueItem(i),nativeparamsandnopriorleftselection. Unsupportedfinal7closurehypothesisrejected:actualindex1bothleaders. Existingowner355observerreusednamesonly, notnewmodelgeneration.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 372,
+      "case_id": "civ6-pressure372-new-acceptance",
+      "mode_id": "http-candidate",
+      "shared_commit": "b18cd1d116419ddc97eded740b1e24441bf711dd",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2900,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T12:43:55.184906+00:00",
+      "attempt_end_utc": "2026-11-04T12:44:28.654589+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "length",
+        "sse_done": true,
+        "total_ms": 33462.30419998756,
+        "first_nonempty_content_delta_ms": 13518.140500003938,
+        "usage": {
+          "prompt_tokens": 57536,
+          "completion_tokens": 2900,
+          "total_tokens": 60436
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": false,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T12:43:55.184906+00:00",
+          "end_utc": "2026-11-04T12:44:28.654589+00:00",
+          "failure": "finish_reason_length",
+          "finish_reason": "length",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 33462.30419998756
+        }
+      ],
+      "adoption": "0wholelengthdiscard",
+      "review": "finish_reasonlength/max2900; neverparseoradoptpartial. OwnercontractmisassignedfinancepressuretoTC036ratherthanTC038; correctedsourceTC036isno-city-site/many-candidatespressure.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 373,
+      "case_id": "civ6-pressure373-bounded-case",
+      "mode_id": "http-candidate",
+      "shared_commit": "b18cd1d116419ddc97eded740b1e24441bf711dd",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2300,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T12:47:54.225532+00:00",
+      "attempt_end_utc": "2026-11-04T12:47:58.357276+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 4131.735600007232,
+        "first_nonempty_content_delta_ms": 1218.8798999995925,
+        "usage": {
+          "prompt_tokens": 57611,
+          "completion_tokens": 405,
+          "total_tokens": 58016
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T12:47:54.225532+00:00",
+          "end_utc": "2026-11-04T12:47:58.357276+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 4131.735600007232
+        }
+      ],
+      "adoption": "0plan adopted",
+      "review": "CompleteboundedJSONbutconflatesversion73/1017softwaretestswithturncounts,proposes73turnswithoutpressuretriggerandpercitywriterinsteadofsoleNativewriter. OwnercontractscopealsoincorrectTC036finance; ownerwillseparateTC036fromTC038andtakeoverplan.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "actual_client_inflight": {
+    "actual_peak": 2,
+    "seconds_at_peak": 20.983616,
+    "longest_seconds_at_peak": 20.983616,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "cumulative_frozen_through373": {
+    "logical_requests": 373,
+    "complete_stop_json": 348,
+    "length_whole_discarded": 22,
+    "final_transport_failed": 3,
+    "http_attempts": 403,
+    "extra_retries": 30,
+    "current_http_inflight": 0,
+    "new_opencode_native_generation": 0
+  },
+  "verification": "PASSnarrowqueuedseconditemrightclickpair",
+  "observation": {
+    "each_remove_calls": 1,
+    "each_protected_request_entry_calls": 1,
+    "each_sensor_errors": 0,
+    "each_actual_index": 1,
+    "not_independent_lower_native_sink_count": true,
+    "both_original_bindings_restored_each": true,
+    "baiqi_forced_presentation_closed": true,
+    "observer_reuse": "Exactowner355codeexceptnamespace;0newcodegenerationcredit."
+  },
+  "restoration": {
+    "checkpoint": {
+      "name": "Baiqi_P6_20261104_V73_BuilderFarm114.Civ6Save",
+      "bytes": 569035,
+      "sha256": "2560bbc24b4ee3a27ea8a8301e24ca9952603f947d66524b80667276f868b6f6"
+    },
+    "turn": 114,
+    "builder5832733": [
+      11,
+      12
+    ],
+    "builder_moves": 0,
+    "builder_charges": 1,
+    "plot539_improvement": "IMPROVEMENT_FARM",
+    "city196610_queue_size": 1,
+    "city196610_current_hash": 101426179,
+    "gold": 4524.2734375,
+    "faith": 397.94140625,
+    "old_museum_work": 15,
+    "warrior131073": [
+      15,
+      13
+    ],
+    "admiral3604507": [
+      7,
+      9
+    ],
+    "archaeology_serial": 1,
+    "archaeology_stage": "OBSERVED",
+    "archaeology_token": "archaeology:0:1",
+    "prophet_serial": 1,
+    "prophet_stage": "LEGACY_UNKNOWN",
+    "prophet_token": "prophet:0:1",
+    "prophet_eventSeen": false,
+    "panel_hidden": true,
+    "production_and_citizen_controls_disabled": true,
+    "selection_mode": true,
+    "namespace_cleared": true
+  },
+  "owner_errors": [
+    {
+      "continued_after_failed_continue_pixel_gate": true,
+      "queries": [
+        {
+          "name": "20261104T125716182883Z.json",
+          "context": "CityPanel",
+          "sha256": "c253794e7bafb585763a2d2eb0e3de5c7ff77bbd6149b20f11842a6217ebf945"
+        },
+        {
+          "name": "20261104T125726377344Z.json",
+          "context": "CityPanel",
+          "sha256": "053c30062f39e3ff678b8cf74edccb06c61db8eafa7e4ee1f0dc5e8db3f59cd0"
+        },
+        {
+          "name": "20261104T125736549851Z.json",
+          "context": "ProductionPanel",
+          "sha256": "ece6e2607497fcd7a3e43fd1d9fc3afd200570fd8ae4f94bbf7ba7d17c849c94"
+        },
+        {
+          "name": "20261104T125746786535Z.json",
+          "context": "ProductionPanel",
+          "sha256": "a31f0ebb7a8c80630c07ab9ffc39ccf7993b1ed4c1000ad0c1e06ab45435943c"
+        }
+      ],
+      "all_failed_at_LSQ_before_Lua_command": true,
+      "all_terminal_before_recovery": true,
+      "correction": "Ownerstopsorchestrationonanysession/nonzero; actualContinuegatepassedbeforefreshdistinctrecoveryledgers. NoGameactionreplayed."
+    },
+    "Twoearlyportraitcoordinateclicksdidnotopenproduction; queues/countersunchanged. OwnerusedactualGetScreenOffsetsource/44x53controlandpropercheckboxbeforetestingrightclick.",
+    "ReadonlyprobeusednonexistentCitizenManagementCheckandGetScreenOffsetVal; nil/errorpreserved. CorrectactualManageCitizensCheckandGetScreenOffsetused; no productguardchange.",
+    "OwnerpressuretaskcontractmappedfinancewronglytoTC036. CorrectTC036manycandidates/no-city-siteversusTC038finance/model-independence, no pressureNativepass."
+  ],
+  "maintenance": "SameNov4successfulOpenCode1.19.5cache/currentcanonicalDIRECTcallerandconfig;fixed3messages.",
+  "unknown_costs": {
+    "owner_cost_seconds": null,
+    "cached_tokens_if_unreported": null,
+    "server_queue_wait": null,
+    "net_savings": null
+  },
+  "limits": [
+    "Thisclosesseconditemrightclickrouteonly, noallTC002/004/035/all40/shortcutmatrixPASS.",
+    "NoNativeperformanceorfinancepressurePASS; currentSource73software1017not373turns orrequestsadoption.",
+    "Initialfail-fastorchestrationerrorfourLSQtimeoutsallterminalandnoLuaCMDbeforefreshrecovery; notsuccessfulobserverinstallorGameaction."
+  ],
+  "next_real_trigger": "Auditunfinishedspecialcity/assetseligibilityandremaininginputs; designTC036andTC038independentpressurecasesfromactualcontracts. Continuewithoutclosedroute/modelquota reruns.",
+  "phase_scope": "Actual73queuedsecondrightclicknarrowpairPASS;pressureplansnotadopted,notall40/performance."
+}
