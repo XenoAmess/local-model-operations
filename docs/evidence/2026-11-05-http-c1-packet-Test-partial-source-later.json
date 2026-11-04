@@ -1,0 +1,112 @@
+{
+  "schema": "local-model-operations.c1-packet-Test-partial-source-later/v1",
+  "date": "2026-11-05",
+  "case_id": "c1-native-packet-frontier-data-test-20261105-01",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "prior_pending_source_cut_commit": "ad6f5497bb104c3ba02e36a8f476d2f44a8b91b1",
+  "earlier_cut_not_rewritten": true,
+  "owner_review_UTC": "2026-11-04T21:35:21.708256+00:00",
+  "owner_review_pin": {
+    "bytes": 3023,
+    "sha256": "9ecabc2288a12d57090d8193d059cd401c4f5db0506ebba68986b50962a02b28"
+  },
+  "original_RESULT_pin": {
+    "bytes": 1299,
+    "sha256": "df45e1bd568700ed7b1b171c03e747d0f7e8ce9d1a415fe5a2741f8fd74844cc"
+  },
+  "original_CONTENT_pin": {
+    "bytes": 27780,
+    "sha256": "8d06af72c2af81beb7ab6a06ef21673328b1e01a2ead5bee74e485e86943b7c5"
+  },
+  "original_HTTP_cost": {
+    "totalMs": 39533.99009996792,
+    "TTFTms": 3468.396899988875,
+    "usage": {
+      "prompt_tokens": 25185,
+      "completion_tokens": 6450,
+      "total_tokens": 31635
+    },
+    "cached": null
+  },
+  "whole_class_adopted": false,
+  "complete_method_adopted": false,
+  "classification": "WHOLE_CLASS_REJECTED_ONE_LEXICAL_METHOD_PARTIALLY_ADOPTED_WITH_OWNER_FIXES_METADATA_METHOD_OWNER_IMPLEMENTED",
+  "partial_lexical_method": {
+    "before_pin": {
+      "bytes": 8770,
+      "sha256": "1ef4b40efd50c5350307b9b5f5287cf7eeb6deab57a9b578683f47aa45fc5a9e"
+    },
+    "after_pin": {
+      "bytes": 10389,
+      "sha256": "6fe55df6bf212973c0b9d1bb3051bb96f1474619aab35a021b32e25598d0e671"
+    },
+    "owner_diff_pin": {
+      "bytes": 8836,
+      "sha256": "5ce37fb0ced924f14d9dced6add24aa79db83bf407b2dff34dece444db37f8de"
+    },
+    "before_method_exact_in_original_complete_java": true,
+    "after_method_exact_in_owner_Test": true,
+    "before_lines": 155,
+    "after_lines": 167,
+    "verbatim_matching_lines": 131,
+    "metric_limit": "Exact matching text lines inside one partially adopted method, including comments/blank lines; not131independent edits, effective LOC, a whole-method adoption or saved owner time."
+  },
+  "whole_source_rejection_reasons": [
+    "WIRE source fixture missing final JSON brace",
+    "Java integer literal18446744073709551617L exceeds signed long",
+    "packet mutations not rebound to manifest byte count/SHA, so negative tests hit framing rather than metadata/token frontier",
+    "state-hash negative explicitly skipped and manifest helper no-op",
+    "already corrupted packet toggled back during callback but expected Incomplete instead of original framing exception",
+    "old callback sequence/counts and new null-input strict fallback not covered"
+  ],
+  "owner_fixes": [
+    "fixture from separately pinned complete original309 input",
+    "complete metadata/state token/hash tests with rebound manifest and exact old/new callback oracle",
+    "BigInteger string constructor instead of invalid long",
+    "instrument both callback sequences and compare encoded semantics",
+    "actual null-input strict assembler fallback",
+    "fresh before-capture mutation scenario and post-return source/semantic retention"
+  ],
+  "ordinary_real_APIs_not_rejected_by_name": [
+    "Complete accessors",
+    "Reader.reference",
+    "Obj.with"
+  ],
+  "owner_Test_source_ready_UTC": "2026-11-04T21:35:21.708256+00:00",
+  "owner_Test_source_ready_pin": {
+    "bytes": 3605,
+    "sha256": "cc7e806e3c4a8291b9b88cb073b878dab41e4d55e66331b3919d1101db701efa"
+  },
+  "final_Test_pin": {
+    "bytes": 20795,
+    "sha256": "019fe1d5e2a64a92dda7bbe2f83264f16a9ee82d0f9bcc10a509e9f66f0bc380"
+  },
+  "final_Test_lines": 336,
+  "new_Test_methods": 2,
+  "metadata_method_entirely_owner_rewritten": true,
+  "fixture_origin": "Separately pinned full formal309 fixture, not model newly invented material",
+  "production_C1_owner_source_ready_pin": {
+    "bytes": 7291,
+    "sha256": "0d7015468a540daf5b0d082ccc6b470847d4fdb54a0c7b37dfe9a86850a1f3a3"
+  },
+  "production_C1_owner_implementation_model_code_adoption": 0,
+  "old_implementation_length_CONTENT_raw_SSE_opened_or_hashed_for_candidate_review": false,
+  "source_cut_qualification": {
+    "productionFirst": "NOT_RUN",
+    "testFirstAndTwoMethods": "NOT_RUN",
+    "affectedAThreeMethodsOnC1": "NOT_RUN",
+    "Runtime": "NOT_RUN",
+    "measuredSpeed": "NOT_HELD"
+  },
+  "source_fixture_scope": "Version1 pure DATA; no private Root/Session/cache/issuer; no new profile4 scenario. Public profile4 Complete constructor remains original body in production.",
+  "later_required_affected_A_methods": [
+    "acceptedOriginalsAndCallbackCountsStayExact",
+    "originalFailuresKeepTheirCallbackFrontier",
+    "changedOriginalsAndTheClonePointMatchTheOldReplay"
+  ],
+  "reason_affected_A_regression_is_required": "C1 changes same internal replay code; later reuse existing A Test binary against changed C1 outputs, not old309 rerun for a green count.",
+  "new_HTTP_JVM_SDK_C_Runtime_Game_by_this_posthoc": 0,
+  "automatic_R2": false,
+  "no_raw_software_or_Runtime_credit": true,
+  "full_owner_active_time_and_net_savings": null
+}

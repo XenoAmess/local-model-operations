@@ -2744,3 +2744,10 @@ owner独立完成5219字节BBCode、真实图解读、AI宣传图及87文件对�
 只对已知同服务/v1/models做一次有界GET，200/1201B；服务声明别名qwen38-coder、max_model_len1048576和IQ1_M的GGUF文件名，未独验实权重/后端/可用容量。未返回模板展开、默认生成/stop配置，未猜/props或发生成探针。现json_object不强制edit字段/上下文行数，未知length正文究竟含什么，不能归因为回显或推永久能力上限；另一个真实Test在相同协议下stop也不是严格A/B。
 
 下一真正新单位的可审建议：完整源和三消息不变，由owner选择唯一短before+完整after的有界JSON edits、reasoning至多一句，禁止回显未变方法/大片diff上下文；按完整新增span估算8000或较大coherent单位12000有限预算。当前caller仅验证1..16000，不是服务上限；不能借此给旧length换ID/加预算重发、续半函数或改活跃参数，也不盲加未转发/未证支持的reasoning_effort、max_completion_tokens、json_schema或stop。建议尚未实测改善，完整主动成本和净收益未知；新READ修复不等待此诊断。
+
+
+## 2026-11-05：C1 Test 后到部分源码采用
+
+[owner正式源审及独立逐字核对](evidence/2026-11-05-http-c1-packet-Test-partial-source-later.json)在原pending切点之外追加：27780B完整原类不能采用，只部分采用lexical接受方法主体。before155行、修后167行内有131逐字匹配行，已核before确在原complete_java、after确在最终Test；这包括注释/空行，不是131项独立贡献、完整方法采用或省工证明。
+
+owner修越界long为BigInteger字符串、旧回调oracle/counts/rawencode、新Assembler null-input strictfallback和新同步mutation；完整fixture另取原309，metadata方法全部owner重写并重绑packetSHA/len及8paired前沿。原稿漏JSON尾、no-op/skip负例和恢复坏数组后的错误预期均保，真实Complete/accessor/Obj.with不列假API错。最终20795B/019fe1d5、336行/2方法仍只SOURCE_READY，当时C1生产/新Test/受影响A3方法均未RUN；生产C1仍100%owner接管、原length未读整弃0采用。后继编测、装载、实速另记，不追授原wholeclass；本附页0新HTTP/JVM/Runtime/Game、不R2，P0继续优先。
