@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B106-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T01:44:23.216393+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T01:34:56.295552+00:00",
+    "window_ended_at_utc": "2026-11-04T01:35:03.128577+00:00",
+    "window_seconds": 6.833025,
+    "peak": 1,
+    "peak_duration_seconds": 6.833025,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b106-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 958,
+        "completion_tokens": 483,
+        "total_tokens": 1441
+      },
+      "failure": null,
+      "content_ttft_ms": 467.4782999791205,
+      "total_ms": 6835.370299988426,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "b10f22321a13eedec1752bfccf9d429ef6afefebda23f27cba887f48512b637c",
+      "summary_sha256": "95c600ba7cef08d854bfaa32fce85f41459a00292913601370c42defa58d29eb",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "a76e64556482e200ccb1d682ee39f41e757eecad4d575a27477bdfcbfcda102a",
+        "task_id": "hoi4-20261104-b106-prompt-01",
+        "request_sha256": "b10f22321a13eedec1752bfccf9d429ef6afefebda23f27cba887f48512b637c",
+        "summary_sha256": "95c600ba7cef08d854bfaa32fce85f41459a00292913601370c42defa58d29eb",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Verified both SHA domains. New genuinely unfinished source task explicitly capped limits at20words; this single actual candidate complied with a short visual limits field and completed stop/DONE JSON. No controlled improvement or cause claim for prior truncation.",
+          "Candidate retained own short combed-back dark hair/visible grey sides/real eyebrows, thick dark moustache/CLEAN chin, OPEN navy suit/pale pointed shirt/RED long tie/tiny left gold lapel mark and primary IMAGE-LEFT pose/BLUE-GREY backing. Larger bald opposite-facing variant excluded before POST.",
+          "Owner restated compact short round U lower yellow head and broad raised shirt-collar contact; no local-model pixels, art approval or saved-time claim.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2574,
+        1184
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b106-sources.json",
+    "sha256": "8be608b363be7d560680345fbf092bf8b91c2a9ece74061b5b8a153cc3eef2ed",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T01:41:28.747156+00:00",
+  "stage_at_cutoff": "One genuinely unfinished LOW original prompt was frozen uncalled at its recorded prepared cutoff; later builtin image generation and manual art qualification remain separate evidence.",
+  "owner_review": "Both SHA domains verified. For this new task only, input explicitly capped limits at20words after prior task echo/independent length failure. This candidate supplied short limits and completed stop/DONE JSON; not a controlled improvement or explanation of previous truncation. Actual prompt retained own swept dark hair/grey temple hints/real brows, thick dark moustache/CLEAN chin, OPEN navy suit/pale pointed shirt/RED long tie/tiny gold left lapel mark, PRIMARY IMAGE-LEFT pose and BLUE-GREY backing. Bald/opposite-facing larger variant excluded before POST. Owner restated compact short rounded U lower head/raised broad shirt-collar contact. No image pixels, vision, capacity or saved-time claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
