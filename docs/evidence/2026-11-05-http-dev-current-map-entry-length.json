@@ -1,0 +1,101 @@
+{
+  "schema": "local-model-operations.dev-current-map-source-length/v1",
+  "date": "2026-11-05",
+  "case_id": "dev-entry-explicit-fresh-mode-20261105-01",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network": "DIRECT;redirects refused;actual socket peer UNKNOWN",
+  "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+  "profile_sha256": "97fb38b997dde3522f2310d06a229ab660db35f8bdc1a5d40eaa5c9e07e57e9a",
+  "source_ready_UTC": "2026-11-04T20:53:51.676345+00:00",
+  "source_ready_pin": {
+    "bytes": 2035,
+    "sha256": "c6cae5128e89ff046bda9e0813052f87d8264c6040a6a2710a75e381045c55a3"
+  },
+  "complete_current_sources": 3,
+  "source_bytes": 103131,
+  "complete_contract_bytes": 2144,
+  "targets": 2,
+  "contract": "Dev2arg defaults resume;Dev3arg only resume|current-map rejects fresh/unknown before configuration. Main retains legacy fresh/resume and adds current-map actual mapReady guard before old opening paths. Assembly is unchanged context.",
+  "owner_prior_diagnosis_and_exact_fix_contract": true,
+  "preliminary_fresh_proposal_POST": false,
+  "POST_BEGIN_UTC": "2026-11-04T20:54:54.797264+00:00",
+  "ATTEMPT_END_UTC": "2026-11-04T20:55:11.117993+00:00",
+  "source_ready_to_POST_coordination_wall_seconds": 63.120919,
+  "coordination_wall_not_CPU_or_TTFT": true,
+  "fixed_three_messages": true,
+  "message_pins": [
+    {
+      "role": "system",
+      "utf8_bytes": 301,
+      "sha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5"
+    },
+    {
+      "role": "user",
+      "utf8_bytes": 103041,
+      "sha256": "4ce8f6781bf4f64f793246244d887e8bd4a20aecfc81b04f4d4847553dca62ee"
+    },
+    {
+      "role": "user",
+      "utf8_bytes": 2140,
+      "sha256": "d7fa060613c8d770fe8194b198c10fc4c5ec2e4136f4c6433e80394f410149a9"
+    }
+  ],
+  "actual_parameters": {
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "max_tokens": 2400,
+    "stream": true,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "thinking": false,
+  "include_usage": true,
+  "HTTP_status": 200,
+  "finish_reason": "length",
+  "DONE": true,
+  "headers_ms": 2856.8096999661066,
+  "effective_content_TTFT_ms": 2858.8108999538235,
+  "HTTP_total_ms": 16320.854599995073,
+  "usage": {
+    "prompt_tokens": 21519,
+    "completion_tokens": 2400,
+    "total_tokens": 23919
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 107921,
+    "sha256": "d366c2e53f2fdfc4d4f3952d79f7f4dc595d4d34d2f583e66a6c3c10337d1b26"
+  },
+  "RESULT_pin": {
+    "bytes": 1305,
+    "sha256": "30dd23afb58b43bd5ba97ecbc86f41a0a3f497104c4b443a3f58ca5c29fc14e8"
+  },
+  "EVENTS_pin": {
+    "bytes": 2794,
+    "sha256": "e2891b3f3f546a0d6c7d03bb3ad3b8b6839980ac14a3357035f01d1df10eb04d"
+  },
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "CONTENT_raw_SSE_opened_parsed_extracted_or_hashed": false,
+  "whole_length_discarded": true,
+  "outer_JSON_or_code_semantics": "NOT_INSPECTED_NON_STOP",
+  "new_code_adopted": 0,
+  "automatic_R2_or_stitching": false,
+  "owner_takeover_requested": true,
+  "owner_candidate_software_formal_Runtime": "Separate later evidence; not inferred",
+  "posthoc_new_HTTP_JVM_SDK_Runtime_Game": 0,
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 444
+    },
+    "leases.db": {
+      "RELEASED": 444
+    }
+  },
+  "source_inflight_after_END": 0,
+  "full_owner_active_time_and_net_savings": null,
+  "limit": "Output budget failure, not an observed syntax/semantic/compiler failure or service-context rejection. Do not inspect partial output to infer why it used the budget, claim a permanent ability ceiling, or resend this completed ID."
+}
