@@ -1,0 +1,165 @@
+{
+  "schema": "local-model-operations.oom-producer-and-independent-test/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "model": "qwen38-coder",
+  "routing": "DIRECT configured host, redirects refused; socket peer and backend occupancy UNKNOWN",
+  "maintenance": "Same Nov5 successful daily policy/command-path cache; no extra version/model/service probes for these outcomes.",
+  "cases": [
+    {
+      "role": "bounded-history-producer-API",
+      "complete_source_files": 5,
+      "physical_source_bytes": 157867,
+      "POST_BEGIN_UTC": "2026-11-04T17:42:24.434065+00:00",
+      "ATTEMPT_END_UTC": "2026-11-04T17:43:13.276690+00:00",
+      "http_status": 200,
+      "headers_ms": 4367.285999993328,
+      "valid_content_TTFT_ms": 4368.228400009684,
+      "HTTP_total_ms": 48842.60209999047,
+      "usage": {
+        "prompt_tokens": 33409,
+        "completion_tokens": 8000,
+        "total_tokens": 41409
+      },
+      "cached_tokens": null,
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "max_tokens": 8000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "fixed_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "finish_reason": "length",
+      "DONE": true,
+      "REQUEST_pin": {
+        "bytes": 166791,
+        "sha256": "6aa0d48669c6687d12bd0be61851bf9e449161d553fb3b417cec26815c803b7f"
+      },
+      "RESULT_pin": {
+        "bytes": 1296,
+        "sha256": "4c0288f8a035ce527cff984f6d748567dc273dfad02669bc13f24f4cf7f82993"
+      },
+      "EVENTS_pin": {
+        "bytes": 2773,
+        "sha256": "cd5eb76117efad934ebc00b293a9f997b0d6ade36d320e71e6a0835f678299de"
+      },
+      "code_adoption": 0,
+      "new_JVM_Test_Runtime_Game_actions": 0,
+      "no_automatic_R2_or_stitching": true,
+      "owner_diagnosis_API_fixture_and_failure_matrix_supplied": true,
+      "independently_new_task_not_normal_length_retry": true,
+      "complete_input_contract_bytes": 5024,
+      "contract_SHA256": "6c66631846d2a4f4996b9707e67f9340ed0dad03075663e24342680b45d5431b",
+      "CONTENT_and_raw_SSE_open_parse_extract_hash_by_owner": false,
+      "whole_output_discarded": true,
+      "model_semantic_API_or_type_assessment": "None for unread length output.",
+      "bounded_API_contract": "Only Port plus Writer: callback-scoped exact-head random-access view, documents<=4/states<=4 plus one anchor, no N retained result graph, sticky read failure, all requested edges and captured document/absence fence before result; no callback replay.",
+      "owner_takeover": "Java takes over this complete producer/API unit. A later owner implementation is not adopted model raw.",
+      "owner_manifest_ready_to_POST_wall_seconds": 319.791648,
+      "coordination_wall_limit": "Includes owner handoff, source/task preparation and admission before POST, not model TTFT, exclusive active CPU or full authoring cost. Exact message-delivery time is not held."
+    },
+    {
+      "role": "independent-real-writer-Test",
+      "complete_source_files": 12,
+      "physical_source_bytes": 560298,
+      "POST_BEGIN_UTC": "2026-11-04T17:45:04.140935+00:00",
+      "ATTEMPT_END_UTC": "2026-11-04T17:45:25.604364+00:00",
+      "http_status": 200,
+      "headers_ms": 14929.833400005009,
+      "valid_content_TTFT_ms": 14931.062899995595,
+      "HTTP_total_ms": 21463.402800029144,
+      "usage": {
+        "prompt_tokens": 117021,
+        "completion_tokens": 1072,
+        "total_tokens": 118093
+      },
+      "cached_tokens": null,
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "max_tokens": 8000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        }
+      },
+      "fixed_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "finish_reason": "stop",
+      "DONE": true,
+      "REQUEST_pin": {
+        "bytes": 585154,
+        "sha256": "a3022b352a709f27af42a1469d62a8c73b3da3451e602fa62e5d5d912edb3550"
+      },
+      "RESULT_pin": {
+        "bytes": 1284,
+        "sha256": "e9d13cf94321a5b5c1b8d61008785f6a934b2aec880675e71d3e6d2e496f81e7"
+      },
+      "EVENTS_pin": {
+        "bytes": 2867,
+        "sha256": "7cbbc413605d0dd51ead156b0916ef14c5fcc3632e29c8a5729e6b8d9f8662af"
+      },
+      "code_adoption": 0,
+      "new_JVM_Test_Runtime_Game_actions": 0,
+      "no_automatic_R2_or_stitching": true,
+      "owner_diagnosis_API_fixture_and_failure_matrix_supplied": true,
+      "independently_new_task_not_normal_length_retry": true,
+      "original_Task02_bytes": 11959,
+      "original_Task02_SHA256": "77705384f8576d6fc1fede5acf654e5bb54ce7af53cbafcf16f4eaf09658af92",
+      "actual_task_message_bytes": 12313,
+      "pre_POST_contract_update": "Original Task01/SPEC/PREP retained unpublished. Owner Task02 supplied the exact proposed producer API before first Test POST; original complete Task02 remains the caller-task prefix, followed only by final active Test output/role clarification because its API appendix describes producer diff output.",
+      "CONTENT_pin": {
+        "bytes": 4366,
+        "sha256": "b4012bc819590cb66123cc41d8977fae8b5efc627e0639ae6b0b2035c7b85ee5"
+      },
+      "outer_JSON": "VALID",
+      "saved_CONTENT_equals_raw_SSE_UTF8": true,
+      "source_owner_review": "Both new Test methods rejected after full source review; zero code/method adoption and zero compiler or behavior run. Owner takes over; no R2.",
+      "review_provenance": "Independent Test owner directly attested full raw source review to Models; no software qualification is inferred.",
+      "concrete_review_failures": [
+        "Positive has no large retained payload and checks first/last rather than complete edge summary.",
+        "Filtering Head.documents by .json admits anchor/snapshot/source-index documents as event pins.",
+        "Negative corrupts before the projection, then makes an unguarded reader call before assertThrows.",
+        "No late callback closure, escaped-view or sticky caught-read-failure witness.",
+        "Restoring bytes does not restore old Pin modification-time identity."
+      ],
+      "future_ABI_and_scope_limit": "Exact proposed withHistoricalTransitions signature was supplied as a contract, not an existing before-image declaration. No candidate was compiled before actual approved producer ABI, and no full private recovery/captured-manifest or OOME repair credit is held.",
+      "owner_manifest_ready_to_POST_wall_seconds": 175.926526,
+      "coordination_wall_limit": "Includes owner handoff, source/task preparation and admission before POST, not model TTFT, exclusive active CPU or full authoring cost. Exact message-delivery time is not held."
+    }
+  ],
+  "observed_new_POSTs": 2,
+  "observed_ENDs": 2,
+  "retries": 0,
+  "covered_client_peak": 1,
+  "concurrency_limit": "Actual intervals did not overlap. Producer started before final Test02 input arrived and was not held for the Test. No service or Runtime decision HTTP coverage.",
+  "all_new_methods_or_producer_code_adoption": 0,
+  "software_runtime_or_performance_credit": false,
+  "earlier_normal_length_or_source_only_cutoffs_rewritten": false,
+  "full_owner_preparation_correction_CPU_cost_and_net_savings": null,
+  "scope_limit": "Truncation and source-semantic rejection are different failures. A complete short JSON response is not a correct Test, and neither case proves a permanent model capacity limit or cached-prompt benefit."
+}

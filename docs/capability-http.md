@@ -2611,6 +2611,16 @@ Test候选按owner先给的精确合同在原fail前引用resource，未新增�
 
 原source-only切点不回写；首编不授Runtime装载、实际error详情、自然场景、完整G2或提速。原编译绑定ad7e源交接，f871只是下次复核/保护期限字段的后到说明，不是替换输入；该首编在后到OOME前已闭，不能反授其根因或失败。本次后见仅核原件元数据，0新HTTP/编测/Game/现host操作，完整owner成本与净收益未知。
 
+## 2026-11-05：有界history producer截断与独立Test源审拒收
+
+[两个新的OOM源码单位](evidence/2026-11-05-http-oom-producer-length-and-test-rejection.json)分别给5完整actual源157867B/精确5024B producer合同，以及12完整源560298B/真实fixture和最终Test02合同，均max8000。Producer一次HTTP200/DONE、48.8426021秒/有效TTFT4.3682284秒、33409+8000tokens，finish=length；CONTENT/raw SSE未打开、解析、提取或哈希，整份弃置0采用、不R2或拼接。它是新producer/API任务，未重投normal length。
+
+Test02在首次POST前绑定明确拟议的withHistoricalTransitions合同，原01全保；完整stop/JSON、21.4634028秒/有效TTFT14.9310629秒、117021+1072tokens，仍被独立owner全文源审拒收两个新增methods。正例无大payload、只first/last，按.json筛Head混入非event；负例在callback前破坏且先无assertThrows调用，缺late closure/escaped/sticky证明，恢复bytes也未恢复old Pin身份。0方法采用/0JVM，owner接管两单位；完整JSON不授有效测试。两请求实际未重叠，不报假并发；manifest-ready至POST的协调墙钟另列，非TTFT或独占CPU。后继owner API/consumer/软件/Runtime均分账，不追授这些raw，净收益未知。
+
+## 2026-11-05：resource引用一行的后到源码采用
+
+[CI leaf源审回执](evidence/2026-11-05-http-ci-resource-reference-owner-source-later.json)确认4509B/c212c2e1候选只采用原fail前的assertNotNull(owner)一行语义，owner机械修raw hunk和路径，outside逆还原精确。所有意外成功启动仍失败，新增断言不抛IOException，不改IO/deadline/close或Werror。精确断言由owner在POST前许可，不称模型自主发现；仍只源码采用、0编测/正式/CI绿，P0 OOM恢复不为此新增JVM，原pending source切点不回写。
+
 ## 2026-11-05：Civ6389—392，被动观察与候选源审
 
 四个普通HTTP均stop／DONE／合法JSON，峰2累计17.307495秒、0额外重试。389回环实际连接返回错误-1，390真实SDK编译C2039，391复制无关WorldInput接口和64上限，392静态合同／清理／阻断判据错误，原稿0代码采用；不能把完整传输当组件正确。负责人被动四绑定观察器10项新软件通过、原生目录userdata类型修正后安装；只保存调用前标量，原函数一次且异常／末尾nil返回保持，外来绑定先核全部再清理。QA损坏资产、改初始库存和移除一个文职只属于财政场景准备，尚非财政效果；未执行WFP。[精确原稿分级与业务pin](evidence/2026-11-05-civ6-finance389392.json)。两类成本、缓存及净节省未知。
