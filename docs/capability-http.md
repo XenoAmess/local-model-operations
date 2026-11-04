@@ -2584,3 +2584,11 @@ owner接管只读UI自有城市资产工具和四项行为检查：完整建筑�
 [后到软件回执](evidence/2026-11-05-http-clean-coverage-mixed-software-later.json)确认owner Bootstrap1678单TU0/18class、旧IO3方法仅binary RUN-only3P；owner Test04fea4新1TU0/10class后，正向1P/ACTUAL50.40033秒和反向1P/50.154996秒分别通过，XML48.394/48.186秒另记。source/support/真实DomainImport头漂移都实际触发并在supplier/fresh前拒绝；各90秒child与每phase TOTAL120分守，不合称跨phase120。两JUnit stderr各2051B日志原留，compiler stderr0；软件通过不授实际loader或提速。
 
 生产10000/Test14000两个模型length全文仍未读整弃、0代码采用，全部实现由owner接管，旧成熟helpers不计模型贡献。原命名compiler1、两个缺import的0JVM源修、实际2E、60/90限时与排序1F均保成本；完整记录按真实journal顺序核验，未把源复杂度推理当链遍历计数。Root报告的前六源恢复新增8日/C68、总493eligible/saved365与next128属于另一路运行切点，新batch候选尚未运行采用，不能记成此候选或模型收益。原source-only切点不回写，本次只读文档发表不触模型HTTP/JVM/Game/现host。
+
+## 2026-11-05：Civ6387—388，维护跨日、编号类型与隔离前提
+
+Nov5本机首次真正模型任务前，共享CLI实际记录OPENCODE_DAILY_CHECK：installed/latest1.19.5、updated=false，随后另一并行任务复用成功缓存；不追认Nov4旧缓存为新日合规。两个HTTP，387预算6400仍length整弃，无半截C++提取、编译或采用；388完整JSON却把城市／区域ID当建筑索引，错误指定所属城市与宫殿编号，动作列表全拒绝、未执行。数字相同不代表对象域或调用者可互换；需用实际生产者的cityID/districtID/buildingIndex元组及具体API消费者逐项核验。[精确维护、原稿与业务pin](evidence/2026-11-05-civ6-native74cold387388.json)。
+
+业务pin为普通74／87文件真实离线冷启，0.972989秒前独立后台读取当前Steam实例“上线...”，正式菜单导航与查询分账，0在线切换。正常Farm114的五上下文状态、资产和只读保护保持；不是Native财政冲击通过。在该冻结阶段未损坏资产／设金币或创建网络策略。MpsSvc/BFE运行但普通Firewall profiles全关，加规则ACK不能证明连接被阻断；不得为了QA开启全机配置或停共享模型服务。先做自有诊断程序的精确端点隔离前／阻断／恢复自检；未知先保留，不能用缺HTTP调用替代服务不可访问实测。
+
+该对实际客户端峰2持续16.196267秒；冻结388逻辑／361完整／24length整弃／3最终传输失败、418HTTP尝试／30额外重试。0新OpenCode原生生成，普通候选／维护／owner冷启动实效分账；独占成本、未报告缓存、服务器等待／净节省null。

@@ -1,0 +1,206 @@
+{
+  "schema": "local-model-operations.civ6-native74cold387388/v1",
+  "date_local": "2026-11-05",
+  "published_at_utc": "2026-11-04T16:52:43.938039+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/cfdd086afa1c6a741061daef20ccd5f3e45c6de8/docs/research/baiqi-p6-native74-cold387388-evidence-2026-11-05.json",
+  "business_evidence_sha256": "6732044b9f2c807b80c6c45575c409bf985d8b238555ff23794af17a177784c0",
+  "cases": [
+    {
+      "sequence": 387,
+      "case_id": "civ6-isolation387-native74-financial-isolation",
+      "mode_id": "http-candidate",
+      "shared_commit": "e0f394c55eb83aaeb5e7fa2390d33368f1c689a5",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 6400,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T16:18:42.557300+00:00",
+      "attempt_end_utc": "2026-11-04T16:19:24.452902+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "length",
+        "sse_done": true,
+        "total_ms": 42047.74670000188,
+        "first_nonempty_content_delta_ms": 4722.0238000154495,
+        "usage": {
+          "prompt_tokens": 20555,
+          "completion_tokens": 6400,
+          "total_tokens": 26955
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": false,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T16:18:42.557300+00:00",
+          "end_utc": "2026-11-04T16:19:24.452902+00:00",
+          "failure": "finish_reason_length",
+          "finish_reason": "length",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 42047.74670000188
+        }
+      ],
+      "adoption": "0wholelengthdiscard",
+      "review": "6400tokenslength; nohalfCPPextraction/compilation/adoption. CurrentFirewallprofilesOFF, no policychanges; scopedselftestnotyetimplemented.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 388,
+      "case_id": "civ6-finance388-native74-financial-isolation",
+      "mode_id": "http-candidate",
+      "shared_commit": "e0f394c55eb83aaeb5e7fa2390d33368f1c689a5",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2600,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T16:18:42.823964+00:00",
+      "attempt_end_utc": "2026-11-04T16:18:59.020231+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 16198.183999978937,
+        "first_nonempty_content_delta_ms": 5721.522799984086,
+        "usage": {
+          "prompt_tokens": 20587,
+          "completion_tokens": 1426,
+          "total_tokens": 22013
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T16:18:42.823964+00:00",
+          "end_utc": "2026-11-04T16:18:59.020231+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 16198.183999978937
+        }
+      ],
+      "adoption": "0plan",
+      "review": "Confusesdistrict/cityIDswithbuildingindicesandwrongcityowners throughout; allCity65536incorrect, PalaceIDalsofake. Rejectwholeactionlist. No damageperformed.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "actual_client_inflight": {
+    "actual_peak": 2,
+    "seconds_at_peak": 16.196267,
+    "longest_seconds_at_peak": 16.196267,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "cumulative_frozen_through388": {
+    "logical_requests": 388,
+    "complete_stop_json": 361,
+    "length_whole_discarded": 24,
+    "final_transport_failed": 3,
+    "http_attempts": 418,
+    "extra_retries": 30,
+    "current_http_inflight": 0,
+    "new_opencode_native_generation": 0
+  },
+  "maintenance": {
+    "date_local": "2026-11-05",
+    "machine_id": "BF-202609141645",
+    "installed_version": "1.19.5",
+    "registry_latest": "1.19.5",
+    "updated": false,
+    "actual_check_event_before_HTTP": true,
+    "388_reused_success_cache": true,
+    "new_opencode_native_generation": 0
+  },
+  "startup": {
+    "proof_age_seconds": 0.972989,
+    "steam_mode_changes": 0,
+    "proof": {
+      "timestamp_utc": "2026-11-04T16:00:11.669454+00:00",
+      "client_pid": 13620,
+      "client_started_utc": "2026-10-31T14:01:46.127500+00:00",
+      "status": "offline",
+      "input_sent": false,
+      "focus_changed": false,
+      "screenshot_used": false
+    },
+    "visible_mode_action": "上线...",
+    "same_steam_instance": true,
+    "scope": "IndependentbackgroundreadonlyUIAconfirmation afterofficialheadernavigation; menuInvokeitselfnotmodeproof. Someinitialunavailablequeriespreserved."
+  },
+  "initial114": {
+    "five_context_verification": "PASS",
+    "city": 196610,
+    "gold": "4524.2734375",
+    "faith": "397.94140625",
+    "queue_size": 1,
+    "queue_hash": 101426179,
+    "farm_plot": 539,
+    "builder": 5832733,
+    "builder_charges": 1,
+    "builder_moves": 0,
+    "artifact_work": 15,
+    "archaeology_serial": 1,
+    "archaeology_stage": "OBSERVED",
+    "prophet_stage": "LEGACY_UNKNOWN",
+    "requisition_journal": null,
+    "horse_moves": 4,
+    "horse_cooldown": null,
+    "production_and_citizen_controls_disabled": true,
+    "observers_absent": true
+  },
+  "isolation_preflight": {
+    "MpsSvc_running": true,
+    "BFE_running": true,
+    "ordinary_firewall_profiles_all_off": true,
+    "network_policy_changes": 0,
+    "wholemachine_profiles_not_changed": true,
+    "SDK": "10.0.26100.0",
+    "compiler": "VisualStudio18Community",
+    "no_implemented_isolation_or_selftest_yet": true
+  },
+  "unknown_costs": {
+    "owner_cost_seconds": null,
+    "cached_tokens_if_unreported": null,
+    "server_queue_wait": null,
+    "net_savings": null
+  },
+  "limits": [
+    "Cold74ordinaryFarm114restoreonly, notNativepaid-buildingincome-race/financialshockPASS.",
+    "NoGameeconomicshock/noGameisolationleaseyet; originalFarm114fileuntouched.",
+    "CurrentprofilesOFFcannotaddordinaryruleandclaimmodelaccessblocked; no machineprofiles/Steam/sharedmodelsservicechanges.",
+    "Software1029fromsource74earlierfullsuite, notrerunforcolddocumentation.",
+    "TC036pressureandremainingTC031/TC038matrixstillopen."
+  ],
+  "next_real_trigger": "OwnercorrecttypedassetfixtureandbuildnarrowWFPselftestagainstOWNQAexeonlybeforeanyGameisolation; keepactualnetGold/effectsseparateandrestoreFarm114.",
+  "phase_scope": "Ordinary74offlinecoldstart/normal114restoreonly atbusinesspin, notfinancialshock/service-unavailabilityPASS."
+}
