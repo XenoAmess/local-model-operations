@@ -2578,3 +2578,9 @@ owner接管只读UI自有城市资产工具和四项行为检查：完整建筑�
 负责人发现单位有提交前财政重验，收费维护建筑只有规划时检查。385却误称Economy计入所有自有建筑和候选费用，删除候选维护费，未补新鲜重验，0代码。对实际Controller的8回归，73五失败、原385六失败；额外失败为漏算候选自身维护费。386虽返回完整Python，六测全失败：测军队而非建筑、冲击发生在规划前、虚构夹具字段、损坏检查用Hash替Index；0测试采用。负责人实现当前维护／其他队列承诺重算、实际损坏例外、未知定义拒绝及同回合新预算重试；8测和全1029通过。87文件包74完成，发布时安装／运行73，软件不追认为实机财政冲击／服务不可用通过。
 
 四HTTP实际峰2，峰区间总62.148556秒、最长41.835008秒；冻结386逻辑／360完整／23length整弃／3最终传输失败、416尝试／30额外重试。维护复用Nov4同机1.19.5成功缓存，0新OpenCode原生生成。负责人独占成本、未报告缓存／队列等待／净节省null；继续真实未闭分支，既有固定性能配对不重复凑数。
+
+## 2026-11-05：clean coverage owner实现的有限mixed软件后见
+
+[后到软件回执](evidence/2026-11-05-http-clean-coverage-mixed-software-later.json)确认owner Bootstrap1678单TU0/18class、旧IO3方法仅binary RUN-only3P；owner Test04fea4新1TU0/10class后，正向1P/ACTUAL50.40033秒和反向1P/50.154996秒分别通过，XML48.394/48.186秒另记。source/support/真实DomainImport头漂移都实际触发并在supplier/fresh前拒绝；各90秒child与每phase TOTAL120分守，不合称跨phase120。两JUnit stderr各2051B日志原留，compiler stderr0；软件通过不授实际loader或提速。
+
+生产10000/Test14000两个模型length全文仍未读整弃、0代码采用，全部实现由owner接管，旧成熟helpers不计模型贡献。原命名compiler1、两个缺import的0JVM源修、实际2E、60/90限时与排序1F均保成本；完整记录按真实journal顺序核验，未把源复杂度推理当链遍历计数。Root报告的前六源恢复新增8日/C68、总493eligible/saved365与next128属于另一路运行切点，新batch候选尚未运行采用，不能记成此候选或模型收益。原source-only切点不回写，本次只读文档发表不触模型HTTP/JVM/Game/现host。
