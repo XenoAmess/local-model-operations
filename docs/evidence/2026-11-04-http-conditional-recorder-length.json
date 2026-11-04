@@ -1,0 +1,101 @@
+{
+  "schema": "local-model-operations.http-conditional-recorder-length/v1",
+  "case_id": "ck3-whole263-conditional-recorder-source-20261104-01",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T13:24:23.153188+00:00",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "scope": "One missing source-only conditional adaptation of an existing compile recorder: constants, two complete qualification methods and exact outside literal edits. No candidate execution or new process grant.",
+  "input": {
+    "complete_current_source_files": 7,
+    "physical_source_bytes": 151090,
+    "source_message_utf8_bytes": 153210,
+    "messages": [
+      "system",
+      "user",
+      "user"
+    ],
+    "owner_guidance": "Detailed existing lifecycle and binding contracts; future unobserved Ready and guard must remain explicit sentinels and reject before any grant or process. This is strongly guided adaptation, not autonomous discovery."
+  },
+  "actual_request": {
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "max_tokens": 10000,
+    "stream": true,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream_options": {
+      "include_usage": true
+    },
+    "routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    }
+  },
+  "actual_result": {
+    "POSTs": 1,
+    "ENDs": 1,
+    "attempt": 1,
+    "started_at_utc": "2026-11-04T13:21:34.535170+00:00",
+    "HTTP_status": 200,
+    "valid_content_TTFT_seconds": 6.133613399986643,
+    "HTTP_total_seconds": 61.722266700002365,
+    "finish_reason": "length",
+    "sse_done": true,
+    "usage": {
+      "prompt_tokens": 47070,
+      "completion_tokens": 10000,
+      "total_tokens": 57070
+    },
+    "cached_prompt_tokens": null,
+    "failure": "finish_reason_length",
+    "caller_exit": 1
+  },
+  "adoption": {
+    "model_code": 0,
+    "candidate_content_read": false,
+    "candidate_JSON_parsed_or_source_extracted": false,
+    "whole_truncated_output_discarded": true,
+    "automatic_semantic_retry": false,
+    "compile_Test_RUN_or_Game": 0,
+    "classification": "Output budget/obligation mismatch; no semantic score, permanent capability limit or implementation qualification is inferred."
+  },
+  "queue_recovery": {
+    "preserved_old_completed_ids": 423,
+    "one_new_logical_id": true,
+    "old_launch08_rerun": false,
+    "vacation_stop_controls_archived_exactly": true,
+    "fresh_immutable_launcher": "Finite reuse of existing intake and dispatcher; one intake pass and one batch, no idle loop.",
+    "old_completed_ids_rePOSTed": 0,
+    "current_DB_counts": {
+      "dispatch.db": {
+        "COMPLETED": 424
+      },
+      "leases.db": {
+        "RELEASED": 424
+      }
+    },
+    "dispatcher_terminal": "RETURNED_NORMALLY"
+  },
+  "cost": {
+    "preparation_begin_utc": "2026-11-04T13:17:02.0355356+00:00",
+    "preparation_end_utc": "2026-11-04T13:20:08.024670+00:00",
+    "owner_active_seconds": null,
+    "source_review_active_seconds": null,
+    "CPU_seconds": null,
+    "net_savings": null,
+    "boundary": "Source discovery/framing, exact queue reconciliation, controlled restore and coordination are additional owner work; HTTP time is not full delivery cost. Preparation and other work interleave."
+  },
+  "next": "Source owner decides owner implementation or a genuinely independent narrower complete unit. No half-output splice or blind R2.",
+  "publication": {
+    "raw_source_or_CONTENT_or_REQUEST_or_private_paths_in_public_record": false,
+    "new_OpenCode_native_sessions": 0,
+    "backend_weight_hardware_and_global_service_state": "UNKNOWN"
+  }
+}
