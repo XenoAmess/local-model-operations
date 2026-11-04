@@ -1,0 +1,82 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B105-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T01:29:43.124331+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 0,
+  "length_truncated_wholly_discarded": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T01:17:01.539853+00:00",
+    "window_ended_at_utc": "2026-11-04T01:17:11.642005+00:00",
+    "peak": 1,
+    "scope": "One actual POST_BEGIN to ATTEMPT_END; no sustained60 HTTP or cloud-agent claim."
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b105-prompt-01",
+      "success": false,
+      "attempts": 1,
+      "finish_reason": "length",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 950,
+        "completion_tokens": 1700,
+        "total_tokens": 2650
+      },
+      "failure": "finish_reason_length",
+      "content_ttft_ms": 417.91010001907125,
+      "total_ms": 10102.200200024527,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "e17b6ff6ff4d72e0a683a7b273e3c1f8e7a3b9359278a0c4c240be514cc2600f",
+      "summary_sha256": "6353d83114edec9fb07eb2f54a988fce8aee2562aba8d3cd5a6218ac37ee7eff",
+      "http_status": 200,
+      "actual_message_utf8_bytes": [
+        301,
+        2666,
+        1070
+      ],
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "owner_adoption": {
+        "source_original_sha256": "12ba6cbd69dfbe1bccd79b9954f05df32fb411888ba8f65ffc4dcf5a94f67c4c",
+        "task_id": "hoi4-20261104-b105-prompt-01",
+        "request_sha256": "e17b6ff6ff4d72e0a683a7b273e3c1f8e7a3b9359278a0c4c240be514cc2600f",
+        "summary_sha256": "6353d83114edec9fb07eb2f54a988fce8aee2562aba8d3cd5a6218ac37ee7eff",
+        "adoption": "NONE: finish_reason_length output entirely discarded; owner independently prepared from original visual source contract and observations",
+        "owner_changes": [
+          "No truncated content read, parsed, spliced or adopted. No new text POST/retry.",
+          "Only original owner-authored visual contract and unchanged exact source observation used for final image prompt. Canonical LOW real-hair and alpha constraints appended."
+        ],
+        "both_hash_domains_verified_for_original_source_contract_only": true,
+        "model_candidate_complete": false,
+        "no_local_model_vision_or_art_qualification": true
+      }
+    }
+  ],
+  "prepared_cutoff_at_utc": "2026-11-04T01:25:14.200767+00:00",
+  "stage_at_cutoff": "One new LOW original image prompt prepared uncalled by owner after complete discard of non-stop truncated text output. Original model task and complete HTTP evidence preserved. No text replay or candidate adoption. Later builtin image generation and qualification separate.",
+  "owner_review": "1700-token output ended length although HTTP200/SSE_DONE. Partial content never read, parsed, spliced or adopted. Owner independently authored image prompt from unchanged pre-existing owner source observations and visual contract; thin gold rectangular spectacles, PRIMARY IMAGE-LEFT turn/RED long tie/BLUE-GREY backing retained. Opposite-facing larger candidate excluded. Both hash domains verified for source input contract only, not a complete model candidate.",
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b105-sources.json",
+    "sha256": "10f0c7bc616a12a48dc9e6f01ecf6988f003b0091e064848d06d4c7d1e08a98d",
+    "publication_commit_at_cutoff": null
+  },
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw HTTP/SSE/content and game originals remain local; this receipt publishes reviewed digests and metrics only.",
+  "next_real_question": "Continue genuinely unfinished sources through shared caller with finite output and separate semantic review; do not replay this finished failed attempt to inflate work or treat whole discard as a candidate."
+}
