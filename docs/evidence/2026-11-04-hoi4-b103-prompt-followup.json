@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B103-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T01:05:07.951594+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T01:01:29.275864+00:00",
+    "window_ended_at_utc": "2026-11-04T01:01:33.195779+00:00",
+    "window_seconds": 3.919915,
+    "peak": 1,
+    "peak_duration_seconds": 3.919915,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b103-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 931,
+        "completion_tokens": 553,
+        "total_tokens": 1484
+      },
+      "failure": null,
+      "content_ttft_ms": 397.19799999147654,
+      "total_ms": 3915.0011999881826,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "1190a1f726657576b8506fcea0a6bcb8f18be311a955114a5cce575a4d9f763a",
+      "summary_sha256": "0ea9dd7931cb1b6235bac151998544b327fcd46d3df8d08781943dc5835f3f44",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "6bec414f08a9b19cdddcf31fc3dc67c2a48af313262a1cedcd2701c6d1cbb45d",
+        "task_id": "hoi4-20261104-b103-prompt-01",
+        "request_sha256": "1190a1f726657576b8506fcea0a6bcb8f18be311a955114a5cce575a4d9f763a",
+        "summary_sha256": "0ea9dd7931cb1b6235bac151998544b327fcd46d3df8d08781943dc5835f3f44",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Verified both SHA domains. Actual prompt retained very short receding tightly curled dark hair/real brows/clean serious face, OPEN navy suit/pale pointed shirt/RED long tie, only tiny source-visible gold lapel mark and primary near-frontal pose/BLUE-GREY backing.",
+          "Larger candidate agrees in basic hair/outfit/tie but its beige backing and fine emblem detail are not inherited. Owner restated tiny-mark limits and compact short round U head with minimal broad shirt-collar contact.",
+          "Only visual prompt adopted; limits task echo not sent to image tool. Raw HTTP/full JSON preserved; no model pixels or visual qualification.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2572,
+        1070
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b103-sources.json",
+    "sha256": "3e99a7633ff75854b910602597e08422ea8ff61b21a003a13e46e23bf1abfc22",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T01:03:05.053405+00:00",
+  "stage_at_cutoff": "One new source-bound LOW original prompt was frozen uncalled at its recorded prepared cutoff; subsequent actual builtin generation/manual art qualification are separate evidence.",
+  "owner_review": "Both SHA domains verified. Candidate actual prompt retained very short receding tightly curled dark hair/real eyebrows/clean serious closed face, OPEN dark navy suit/pale pointed shirt/RED long tie and only tiny source-visible gold image-left lapel mark, PRIMARY near-frontal angle and BLUE-GREY backing. Larger candidate matches basic hair/outfit/tie but light beige backing and larger fine emblem detail not inherited. Owner restated tiny primary-mark limits and compact short round U anatomy/raised broad shirt-collar contact. Limits task echo not adopted/sent to image tool, full original JSON retained. No pixel/vision/capacity or saved-time claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
