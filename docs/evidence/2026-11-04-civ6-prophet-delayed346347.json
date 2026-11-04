@@ -1,0 +1,197 @@
+{
+  "schema": "local-model-operations.civ6-prophet-delayed346347/v1",
+  "date_local": "2026-11-04",
+  "published_at_utc": "2026-11-04T06:36:41.968110+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/915d7db971e9eca6aa6644894388858106810870/docs/research/baiqi-p6-prophet-delayed-source69-evidence-2026-11-04.json",
+  "business_evidence_sha256": "98277e54c4e00b328dbde54face977fdd3cad79fb2cd85f1d2bda5700c8d1a8d",
+  "cases": [
+    {
+      "sequence": 346,
+      "case_id": "civ6-prophet346-delayed-core-consumption",
+      "mode_id": "http-candidate",
+      "shared_commit": "546755aa5bcc5dd4a6dca36d4301a34c04ac181c",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2300,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T06:24:10.683510+00:00",
+      "attempt_end_utc": "2026-11-04T06:24:22.746912+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 12068.288700014818,
+        "first_nonempty_content_delta_ms": 5098.964700009674,
+        "usage": {
+          "prompt_tokens": 13170,
+          "completion_tokens": 681,
+          "total_tokens": 13851
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T06:24:10.683510+00:00",
+          "end_utc": "2026-11-04T06:24:22.746912+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 12068.288700014818
+        }
+      ],
+      "adoption": "zero; raw generated method rejected",
+      "review": "Actual raw method GREEN on unfixed68: never overrides off-map coordinates, alias only after terminal OBSERVED. Not regression. Owner four actual boundary methods reproduced expected RED then GREEN69.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 347,
+      "case_id": "civ6-prophet347-delayed-core-consumption",
+      "mode_id": "http-candidate",
+      "shared_commit": "546755aa5bcc5dd4a6dca36d4301a34c04ac181c",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2300,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T06:24:10.682666+00:00",
+      "attempt_end_utc": "2026-11-04T06:24:34.926333+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "length",
+        "sse_done": true,
+        "total_ms": 24247.80410004314,
+        "first_nonempty_content_delta_ms": 5094.10069999285,
+        "usage": {
+          "prompt_tokens": 13092,
+          "completion_tokens": 2300,
+          "total_tokens": 15392
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": false,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T06:24:10.682666+00:00",
+          "end_utc": "2026-11-04T06:24:34.926333+00:00",
+          "failure": "finish_reason_length",
+          "finish_reason": "length",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 24247.80410004314
+        }
+      ],
+      "adoption": "zero; whole length discarded unread",
+      "review": "2300-token length. No CONTENT display, parse, splice or adoption. Owner minimal producer fix plus explicit69 control tooling support. All full source closures supplied; no invented API or Native order. ",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "actual_client_inflight_for_cases": {
+    "actual_peak": 2,
+    "seconds_at_peak": 12.063402,
+    "longest_seconds_at_peak": 12.063402,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "cumulative_frozen_through347": {
+    "logical_requests": 347,
+    "complete_stop_json": 323,
+    "length_whole_discarded": 21,
+    "final_transport_failed": 3,
+    "http_attempts": 377,
+    "extra_retries": 30,
+    "current_http_inflight": 0,
+    "new_opencode_native_generation": 0
+  },
+  "native68_result": "Actual new Debug person autonomously moved/founded religion1/two realbeliefs27,44. Observer1move1found1event0errors restored. SameCoreunit retained exactID/type/owner/class/individual at-9999,-9999 so durable receipt ARMED/eventSeentrue insteadOBSERVED: NativeFAIL, saved actual checkpoint, no action replay.",
+  "software69": {
+    "owner_regression_red68": {
+      "source_version": 68,
+      "new_methods": 4,
+      "result": "EXPECTED_RED_OFFMAP_REPRODUCED",
+      "exit_code": 1,
+      "failure": "Exact retained full identity plus actualcreated/matchingevent staysARMED due positionvalidation; mirrors Native68 failure, not API/fixtureexception."
+    },
+    "model346_raw_green68": {
+      "source_version": 68,
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "result": "GREEN_ON_UNFIXED68_NOT_REGRESSION",
+      "adoption": "0; never sets invalid coordinates, alias only after terminal OBSERVED so not a negative proof. Owner writes actual retained-offmap regression; full-source closure given."
+    },
+    "targeted_prophet_passed": 31,
+    "owner_new_methods": 4,
+    "negative_cases": "No event / alias fullID / wrong owner / wrong class / wrong individual remain ARMED; invalid position never enters Map for Prepare; offmap untracked legacy remains unavailable with zero writes.",
+    "full": {
+      "at_utc": "2026-11-04T06:30:33.231943+00:00",
+      "begin_utc": "2026-11-04T06:28:34.845493+00:00",
+      "tests": 995,
+      "suite_seconds": 113.71,
+      "wall_seconds": 118.38652699999511,
+      "exit_code": 0,
+      "argv": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "frozen67_and68_transform_maps_exact": true,
+      "paired_clock_prefix_unchanged": true,
+      "scope": "Source69 software only; installed/running68 Native receipt FAIL recorded, no fix via gameplay replay."
+    }
+  },
+  "package69": {
+    "files": 87,
+    "bytes": 8742680,
+    "sha256": "62a2738e6533818c15a8854caa620c8a6835e8b49e34f9029c751cbfb4eefe57",
+    "all_source_bytes_equal": true,
+    "installed": false
+  },
+  "native69": "NOT_STARTED at pinned snapshot",
+  "owner_notes": [
+    "Native68 demonstrated a missed engine lifecycle state despite991software green. Keep Native FAIL and earlier67/68 narrow passes separately.",
+    "Observer actual Lua chunk verified forward exact args/returns and sensorerror does not swallow/double; Native cleanup1move1found1event0errors.",
+    "Owner shared344345 publisher shadowed function out with file handle: push succeeded then verification raised TypeError. Independent readonly revparse/lsremote proved identical b9f665cee48d182e279b2c899f0fed68aebb7c6d; no duplicate writer rerun.",
+    "Owner first progress read still pointed at frozen68 log, corrected to69 before reporting995 final. No tests replayed for that diagnostic mistake."
+  ],
+  "maintenance": "Same local Nov4 successful OpenCode1.19.5 cache; canonical caller/current DIRECT configuration; ordinary HTTP only.",
+  "unknown_costs": {
+    "exclusive_owner_phases": null,
+    "cache_tokens_if_unreported": null,
+    "server_queue_wait": null,
+    "net_savings": null
+  },
+  "next_real_trigger": "Commit/push69, normal exit saved owned68, fresh actualSteam offline proof, install69/cold launch. Fresh pre-acquisition fixture validates actual retained offmap receipt; saved real68 completed-effect/ARMED checkpoint tests recovery with no second founding request. Legacy110 remains separate."
+}
