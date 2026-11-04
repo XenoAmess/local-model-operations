@@ -2691,3 +2691,10 @@ Normal独立Test给22完整actual源741980B及9126B三行为合同/max12000，HT
 [独立新Test首派](evidence/2026-11-05-http-bootstrap-frontier-test-source-cut.json)基于owner完全接管后的实际两TU/API，原实现模型仍0代码采用；6完整源192740B含旧309合法literal fixture，4225B合同明确三行为及旧公共序列oracle。固定三消息/max7000，一次stop/DONE/有效JSON，40.1462854秒、有效TTFT5.4955587秒、41291+4639tokens、cachednull，原样CONTENT与SSE UTF8一致。
 
 完整返回仍有源筛选问题：把Function/Supplier接口当构造器、旧6arg replay传7arg、nullDriver错误期望Incomplete、先破坏native再复用求fallback成功，完整旧回调/异常同一实例差分未履行。现未采用，owner最终源审与接管另记；没有执行raw或以源码错误冒充javac/Test红。初筛曾对Complete accessor/Reader.reference作过宽API指控，回actual声明后已撤回，这些现有public成员不计错误。443终态/443租约释放、0在途、不R2；未重旧A/旧Test，候选也不门恢复。Owner源码、后续软件和真实Runtime保持分层，完整主动工时与净收益未知。
+
+
+## 2026-11-05：Civ6396—397，工坊正文与账号占用诊断
+
+396的3000预算length整份丢弃，不读／提取半截正文；397完整stop／DONE／合法JSON，重复所供XML／registry方法，另有错误GetPlayerSummaries路径、把Busy人格当游戏占用及自相矛盾停止条件，0代码／0上传方案。只保留“没有状态不等于无人游戏”的谨慎原则，不授可用探测。两实际POST峰2约11.45秒，0重试，准确区间／用量／共享pin见[证据](evidence/2026-11-05-civ6-workshop396397.json)，owner成本／净收益未知。
+
+owner独立完成5219字节BBCode、真实图解读、AI宣传图及87文件对照，PNG原图超过1MB后制作仅JPEG压缩的上传副本，原PNG公开保留；不是模型代码成功或Steam发布。HTTP429／UIA无权威远端状态即暂停；用户先报告有人游戏，随后明确无人并要求继续才上线，人工确认不冒充API结果。

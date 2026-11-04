@@ -403,3 +403,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### Civ6395后到：Alpha后第三方故障实机
 
 0新增OpenCode原生生成／0HTTP。owner游戏内受控第三方转城、未知冻结与同进程重载通过，故障软件4项及原正常档恢复分列；没有执行模型代码，不授OpenCode工具或模型净收益。[具名后见](evidence/2026-11-05-civ6-alpha-thirdparty74-later.json)。
+
+
+### 2026-11-05：Civ6396—397工坊准备
+
+0新OpenCode原生生成，Nov5同机同用户1.19.5维护成功缓存复用。396length整丢弃、397完整但无可用诊断方案，owner材料与87文件核验另列，不授原生工具／上传或净收益。[证据与业务pin](evidence/2026-11-05-civ6-workshop396397.json)。
