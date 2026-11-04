@@ -1,0 +1,83 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B100-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T00:50:12.487650+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T00:46:42.336112+00:00",
+    "window_ended_at_utc": "2026-11-04T00:46:46.535031+00:00",
+    "window_seconds": 4.198919,
+    "peak": 1,
+    "peak_duration_seconds": 4.198919,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b100-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 943,
+        "completion_tokens": 602,
+        "total_tokens": 1545
+      },
+      "failure": null,
+      "content_ttft_ms": 429.94880001060665,
+      "total_ms": 4199.65530000627,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "7fb92e3e63d889a44e9d516c4f68f2b6126fdf180934dca6ede305046778d248",
+      "summary_sha256": "cb7a4971ae954400435fd489e9c835d0ea286569a4cf6ad874189cef25277b74",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "ed99d8d27406a51e348617d7ac46c32b9a83a3f1bde45f6ea8db75bf488bef0c",
+        "task_id": "hoi4-20261104-b100-prompt-01",
+        "request_sha256": "7fb92e3e63d889a44e9d516c4f68f2b6126fdf180934dca6ede305046778d248",
+        "summary_sha256": "cb7a4971ae954400435fd489e9c835d0ea286569a4cf6ad874189cef25277b74",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Verified both SHA domains. Actual prompt retained dark olive peaked cap/low visor/small visible gold-brown badge, short brown fringe/real eyebrows/clean serious closed face, OPEN dark olive coat/KHAKI pointed shirt/DARK LONG TIE, PRIMARY image-left three-quarter pose and dark-grey backing.",
+          "Unadopted limits field repeats task wording; only actual visual prompt adopted, original JSON retained. Owner restated compact short U base close below mouth and raised broad shirt-collar contact, no pixel or art qualification claim.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2598,
+        1070
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b100-sources.json",
+    "sha256": "5b0dc0077be7e2846726ba08d60bde8f25058966a54e847d7abefcc4b8df5f80",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T00:48:53.239052+00:00",
+  "stage_at_cutoff": "One source-bound new LOW original prompt was frozen uncalled at the recorded prepared cutoff. Text completion does not qualify subsequent generated art.",
+  "owner_review": "Both SHA domains verified. Candidate actual prompt retained primary dark olive peaked cap/low visor/small visible gold-brown badge, short brown fringe and real brows, clean serious closed mouth, OPEN dark olive coat/KHAKI pointed shirt/DARK LONG TIE, IMAGE-LEFT three-quarter pose and dark-grey backing. Unadopted limits field echoed task requirements; only actual visual prompt adopted, original JSON retained. Owner restated short rounded U lower head close below mouth and raised broad shirt-collar contact. No larger candidate or local-model pixels/vision/capacity/time-saving claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
