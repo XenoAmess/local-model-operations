@@ -2827,3 +2827,10 @@ owner引用本机官方SDK实际接口／结构、修正WindowsANSI读回UTF8和
 M6全文源审拒绝完整类及两个新增方法，0partial/0modelJVM：缺真实 Unknown 同IDcollect、ACK-only却断言frame存在、两份events分离却要求跨IO时序；sink转发真实stdout，未实现字节缓冲/发出时归档检查/failedsink。第二方法仅抛IllegalStateException，未交付两处UncheckedIO、长error、persistentUnknown、正ACK缺state及声称的中断场景。既有HELLO/STATE/receiver夹具不算模型新贡献；后到生产删除optionalACK字段是独立演化，不能解释原来缺项。owner接管、不R2，source拒收不冒compiler/软件红。
 
 453终态/453租约释放、0源在途，旧生产length整弃切点不改，未重跑旧3P或触JVM/UI/Runtime/Game；本例完整stop也不是输出预算建议的A/B收益证明。后继owner源/编测/正式/实际通知投递另记，不追授raw软件绿、Root/Native恢复、日/SAVE/G2/实速；完整主动成本与净收益未知。
+
+
+## 2026-11-05：Notice owner 接管源码与正式拒收回执
+
+[后到具名源审与 SourceReady 原件](evidence/2026-11-05-http-notice-owner-source-later.json)补齐3c1c2747/b839225b：原完整模型类、两个新增方法及partial仍全0，owner独立写24209B/1a33beda、298行/2无参方法；旧qualified HELLO/STATE/receiver及既有桥仅机械复用，不计模型新工作。该源切点新Test编译/RUN均NOT_RUN，不因完整候选或Native计划授绿。
+
+原HTTP生产ca767与最终c130差异明确：后者只删四行optionalACKmetadata，ownerTest不依赖该字段有无，实际ACK/custody及归档字节仍独验；原REQUEST/TASK不改、不新HTTP、不R2。Native后继计划仅1新Test TU/2方法，复用原桥；Root另授权受影响旧3方法binary RUN-only，与原任务不重跑旧绿的切点分别记，不能把计划当实际结果。旧source拒收切点保留，本附页0新HTTP/JVM/UI/Runtime/Game，不授私Root/实际通知/Native恢复/日SAVE/G2/实速，完整主动成本与净收益未知。
