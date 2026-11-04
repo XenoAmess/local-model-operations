@@ -2684,3 +2684,10 @@ Alpha正式预发布与真实截图／远端下载核验均完成，owner全1039
 另三份真实新需求实际峰3持续37.198582秒、全窗口111.736252秒，3POST/3END且无重试。紧急capture给2完整源538690B及完整metadata/max4000，stop37.1986912秒、TTFT31.362645秒、113177+105tokens，但只回reasoning、没有任何diff，0实现采用。Bootstrap给5完整源179586B及真实Java求值frontier/max6000，stop62.8658504秒、TTFT8.9057563秒、38427+3330tokens；私有carrier跨类、未定义member、占位异常与错误rebuild返回形状由M6全文源审全拒、0partial，owner接管。两者完整JSON均不等于履行实现合同，未执行raw，不能写成javac红。
 
 Normal独立Test给22完整actual源741980B及9126B三行为合同/max12000，HTTP200/DONE但length，110.3457343秒、TTFT37.6887135秒、150421+12000tokens。CONTENT/raw SSE未打开、解析、提取或哈希，整份0采用、不续半稿/不R2；原e84冻结输入保持，后到仅LF支持源由Native另绑，不借此重投。三份均cached=null；实际大输入被接受不证明永久容量或缓存，单次失败不设能力上限。当前队列442终态/442租约释放、0在途；未发JVM/Runtime/Game，也不以共享后见阻塞恢复。owner新实现、后续软件与业务资格另记，准备/纠错/审阅主动时间及净收益仍未知。
+
+
+## 2026-11-05：bootstrap 新 API 的独立三方法 Test 源码切点
+
+[独立新Test首派](evidence/2026-11-05-http-bootstrap-frontier-test-source-cut.json)基于owner完全接管后的实际两TU/API，原实现模型仍0代码采用；6完整源192740B含旧309合法literal fixture，4225B合同明确三行为及旧公共序列oracle。固定三消息/max7000，一次stop/DONE/有效JSON，40.1462854秒、有效TTFT5.4955587秒、41291+4639tokens、cachednull，原样CONTENT与SSE UTF8一致。
+
+完整返回仍有源筛选问题：把Function/Supplier接口当构造器、旧6arg replay传7arg、nullDriver错误期望Incomplete、先破坏native再复用求fallback成功，完整旧回调/异常同一实例差分未履行。现未采用，owner最终源审与接管另记；没有执行raw或以源码错误冒充javac/Test红。初筛曾对Complete accessor/Reader.reference作过宽API指控，回actual声明后已撤回，这些现有public成员不计错误。443终态/443租约释放、0在途、不R2；未重旧A/旧Test，候选也不门恢复。Owner源码、后续软件和真实Runtime保持分层，完整主动工时与净收益未知。

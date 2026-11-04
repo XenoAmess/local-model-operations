@@ -1,0 +1,98 @@
+{
+  "schema": "local-model-operations.bootstrap-manifest-frontier-test-source-cut/v1",
+  "date": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "case_id": "bootstrap-manifest-once-frontier-data-test-20261105-01",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network": "DIRECT configured host;redirect refused;actual socket peer UNKNOWN",
+  "input": {
+    "complete_sources": 6,
+    "source_bytes": 192740,
+    "full_contract_bytes": 4225,
+    "owner_independently_implemented_two_TU_API_before_Test": true,
+    "owner_source_ready_pin": {
+      "bytes": 6433,
+      "sha256": "764b1a294f490db510567d7d63977256a613685d101e138c4d09c387b1b8181f"
+    },
+    "owner_source_time_UTC": "2026-11-04T19:31:06.458029+00:00",
+    "production_model_code_adoption": 0,
+    "old_public_method_bytes_preserved": true,
+    "old309_full_literal_fixture_source_only": true,
+    "precise_owner_frontier_and_three_case_oracle_supplied": true
+  },
+  "actual_parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 7000,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "fixed_three_messages": true,
+  "POST_BEGIN_UTC": "2026-11-04T19:34:25.959971+00:00",
+  "ATTEMPT_END_UTC": "2026-11-04T19:35:06.106239+00:00",
+  "headers_ms": 5494.353499962017,
+  "effective_content_TTFT_ms": 5495.558700000402,
+  "HTTP_total_ms": 40146.2853999692,
+  "usage": {
+    "prompt_tokens": 41291,
+    "completion_tokens": 4639,
+    "total_tokens": 45930
+  },
+  "cached_tokens": null,
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "outer_JSON": "VALID",
+  "REQUEST_pin": {
+    "status": "present",
+    "bytes": 202916,
+    "sha256": "5cf22768ab0dd9b27452b7bb7a541d5a1864556d324d1d9da99f34aec1f2aa40"
+  },
+  "CONTENT_pin": {
+    "status": "present",
+    "bytes": 20753,
+    "sha256": "b6c9e687afe9fa5f646503db2d5656bb34e3257d5b375982196fc72a2a50805c"
+  },
+  "RESULT_pin": {
+    "status": "present",
+    "bytes": 1302,
+    "sha256": "db7a5270bad0183d0d9e32a5aeb5da7701fe43ac3e9ce906f8628dd0420f587c"
+  },
+  "saved_CONTENT_equals_raw_SSE_UTF8": true,
+  "offline_audit_discrepancies": [],
+  "POST": 1,
+  "paired_END": 1,
+  "extra_retry": 0,
+  "old_A_rePOST": false,
+  "new_Test_methods_emitted": 3,
+  "adoption_at_source_cut": "NOT_ADOPTED_OWNER_FINAL_REVIEW_PENDING",
+  "actual_source_triage": [
+    "new Function<...>(lambda) and new Supplier<...>(lambda) use interface constructors instead of functional assignment",
+    "legacy public six-argument replay is called with seven arguments",
+    "null Driver plus successful getter incorrectly expects Incomplete instead of the required nonnull failure",
+    "fallback success is attempted using the same native array already corrupted after the earlier accepted result",
+    "legacy full callback sequence and exception-identity/class/message differential obligations are not completed"
+  ],
+  "triage_correction": "Initial broad message about Complete accessors/Reader.reference was withdrawn after exact source read: these are existing public members and are not counted as API errors.",
+  "raw_compiled_or_executed": false,
+  "not_a_measured_javac_Test_failure": true,
+  "owner_final_adoption_and_takeover": "Separate later receipt required; not inferred from caller0 or this triage",
+  "new_JVM_SDK_Runtime_Game_by_Models": 0,
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 443
+    },
+    "leases.db": {
+      "RELEASED": 443
+    }
+  },
+  "source_inflight_after_END": 0,
+  "service_queue_probe": false,
+  "automatic_R2": false,
+  "full_owner_preparation_review_correction_active_time_and_net_savings": null,
+  "limits": "Source-only DATA/failure-frontier test. No physical archive/current-head/owner/poison/Runtime/performance/natural-M6 qualification. This stop is not a valid compiled Test."
+}
