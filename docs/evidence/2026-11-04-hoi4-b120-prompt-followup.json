@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B120-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T05:44:48.347395+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T05:31:14.687834+00:00",
+    "window_ended_at_utc": "2026-11-04T05:31:18.613748+00:00",
+    "window_seconds": 3.925914,
+    "peak": 1,
+    "peak_duration_seconds": 3.925914,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b120-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 961,
+        "completion_tokens": 543,
+        "total_tokens": 1504
+      },
+      "failure": null,
+      "content_ttft_ms": 431.14499998046085,
+      "total_ms": 3924.4855999713764,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "6313102dc0c74c315ec68a94d152b0ee4738d67d53f08c2fa074f4afb277b286",
+      "summary_sha256": "33da07350f026a727e3f6fe6fb534d85c2327ab6b2b68977a0a4aac72aeb6640",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "7a92fb6de758d7f96a719463cb267f9f7aef99a095a3f63646a9d8a667f00b11",
+        "task_id": "hoi4-20261104-b120-prompt-01",
+        "request_sha256": "6313102dc0c74c315ec68a94d152b0ee4738d67d53f08c2fa074f4afb277b286",
+        "summary_sha256": "33da07350f026a727e3f6fe6fb534d85c2327ab6b2b68977a0a4aac72aeb6640",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Both SHA domains verified. Candidate retained actual DARK NAVY upturned-side-brim hat/PALE BLUE-GREY folds/central GOLD badge, BLACK chin-length bob/real brows/CLEAN face, OPEN BLUE-GREY jacket/pale pointed shirt/DARK LONG TIE and literal creature eyes/grey mouth/DARK GREY backing; no ordinary white peaked-cap or extra braid substitution.",
+          "Four actually viewed larger beret/peaked-cap/back-facing variants were excluded before POST. Owner independently restated exact PRIMARY near-frontal angle/roll/crop/light and compact broad short U lower head/raised actual collar contact.",
+          "Fine badge engraving unspecified, no larger-uniform reuse/model pixels/visual approval or causal/general performance claim. Complete stop/DONE JSON and short limits observed for this candidate.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2587,
+        1184
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b120-sources.json",
+    "sha256": "ac8e0ec4256341c78ade0819facd1edfaa14b7648e92e03d9a1ac77daa3d2078",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T05:39:11.078470+00:00",
+  "stage_at_cutoff": "One new source-bound LOW original prompt was frozen uncalled at the recorded prepared cutoff. Later builtin image production/manual art qualification remain separate evidence.",
+  "owner_review": "Both SHA domains verified. Candidate retained actual DARK NAVY upturned-side-brim hat/PALE BLUE-GREY folded sides/central GOLD badge, BLACK chin-length bob/real brows/CLEAN face, OPEN BLUE-GREY jacket/pale pointed shirt/DARK LONG TIE, DARK GREY backing and literal creature eyes/grey mouth. Four actually viewed larger beret, gold-band peaked-cap and back/side-facing variants were excluded before POST. Owner independently restated exact PRIMARY near-frontal angle/roll/crop/light and shallow broad short U lower head/actual collar contact. No ordinary white peaked-cap, extra braid or different uniform substitution; tiny badge engraving unspecified. No model pixels/vision, wording-only causal, general improvement or net-time claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
