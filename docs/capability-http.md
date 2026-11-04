@@ -2869,3 +2869,10 @@ M6全文源审拒绝完整类及两个新增方法，0partial/0modelJVM：缺真
 [具名review、OWNER02及实际闭包](evidence/2026-11-05-http-composite-owner-narrowing-later.json)补原pending切点：01采纳原CompositeSettled/Gameplay predicate语义，owner仅修raw hunk计数与不准确的terminal注释；原diff未直接应用。后继实际callback闭包审阅后，owner02进一步要求LifeAdvanceComposite.accepts、Applied并显式排除public-pause常量，14154B/a5f47bce一span外逐字逆还原。最终只记原分支partial，不能说最终predicate原样模型采用；后到更严格要求不倒算原请求违约，不R2。
 
 初版01仅1TU2class首编0/4.2198009秒、0行为RUN，真实fields/methods相同、类名两项相同，但外部Gameplay新增InnerClasses行令完整structure不等；这不是观察到VM拒绝，也不授redefine/loader/Runtime。该01type结果不资格化最终02，最终源切点编测仍未持。Applied实际归档replay闭包的四份具名manifest及Context已核，所有原proof/Head/TL/poison/limits保留；不以源码论证代替真实两方法/受影响回归，更不授主因或提速。本附页0新HTTP/JVM/Game，旧切点与完整owner成本保，净收益未知。
+
+
+## 2026-11-05：Life Applied 独立两方法 Test 完整返回后源审不采用
+
+[新的独立Test单位](evidence/2026-11-05-http-life-applied-scope-independent-test-source.json)给18完整771899B源码/7765B合同，以稳定OWNER02 Life+Gameplay+Applied为准；只给97454B既有LifeAdvanceLifecycleTest新增两无参方法/imports的diff，原privateFixture/37support/生产不改，成熟scaffold不计模型新贡献。固定三消息/DIRECT/max6000，一次HTTP200/stop/DONE/有效JSON，31.276267秒、有效TTFT19.9837582秒、154907+1962tokens、cachednull，9542B完整原件即交owner；CONTENT=SSE UTF8、审计0discrepancy。
+
+owner全文源审0新增完整方法采用、0model编测、不R2并接管：bare@@不可应用、SessionWork缺return、journal Function内checkedIO无边界适配、漏两import；preserveMaterial未入borrowed journal/Session，positive计数在被测read之后取值而自比较、缺完整child断言。partial代码采用尚未明确，保NOT_HELD，不把旧scaffold算贡献。以上不是实际javac/JUnit红，完整stop不授源码或软件绿。456终态/456租约释放、0源在途，0JVM/UI/Runtime/Game/GET；与原生产HTTP及后到owner收窄分账，健康运行不等候选，完整主动成本与净收益未知。
