@@ -2834,3 +2834,10 @@ M6全文源审拒绝完整类及两个新增方法，0partial/0modelJVM：缺真
 [后到具名源审与 SourceReady 原件](evidence/2026-11-05-http-notice-owner-source-later.json)补齐3c1c2747/b839225b：原完整模型类、两个新增方法及partial仍全0，owner独立写24209B/1a33beda、298行/2无参方法；旧qualified HELLO/STATE/receiver及既有桥仅机械复用，不计模型新工作。该源切点新Test编译/RUN均NOT_RUN，不因完整候选或Native计划授绿。
 
 原HTTP生产ca767与最终c130差异明确：后者只删四行optionalACKmetadata，ownerTest不依赖该字段有无，实际ACK/custody及归档字节仍独验；原REQUEST/TASK不改、不新HTTP、不R2。Native后继计划仅1新Test TU/2方法，复用原桥；Root另授权受影响旧3方法binary RUN-only，与原任务不重跑旧绿的切点分别记，不能把计划当实际结果。旧source拒收切点保留，本附页0新HTTP/JVM/UI/Runtime/Game，不授私Root/实际通知/Native恢复/日SAVE/G2/实速，完整主动成本与净收益未知。
+
+
+## 2026-11-05：普通 READ 发布校验独立消费者首派
+
+[新的 DRIVER_READ_HISTORY 消费者候选](evidence/2026-11-05-http-read-publication-validation-scope-candidate.json)给6完整426116B当前源/6400B合同，目标只RootReadHistoryAuthority及Core构造一行；owner另机械复用成熟Archive OrBorrow helper为第三TU，不让模型重造旧实现。要求installed archive opt-in、captured publisher/完整Head/同liveSession在原work前后及scope结束核对，work恰一次，旧opt-out/无关kind默认行为与4096/256MiB/8192原界限不变；不cacheverdict、不跨写/previewcommit持scope。JFR inclusive栈只导航，不证明self成本、重复次数或提速。
+
+固定三消息/DIRECT/max4500，1POST1END、HTTP200/stop/DONE/有效JSON，20.2000513秒、有效TTFT10.6152558秒、83035+1639tokens、cachednull；7860B完整原件即交Java，CONTENT=SSE UTF8、审计0discrepancy。此切点仅待owner源审，未授代码采用/编测/正式/装载/实速；新增field/constructor/helper不能凭候选授body redefine。454终态/454租约释放、0源在途，0JVM/GET/UI/Runtime/Game、无参数改动、不R2；健康24不等候选，旧ACTION length不复投，完整主动成本与净收益未知。
