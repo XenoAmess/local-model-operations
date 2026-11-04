@@ -2288,3 +2288,8 @@ M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-co
 ## 2026-11-04：既有whole正式投影与recorder源准备修正
 
 [批准的formal/resource后见](evidence/2026-11-04-whole-formal-resource278-later.json)补既有whole266三叶正式记录，归属sole Java receipt：CRLF、四个未被Test消费的诊断label与空白投影分别列明，旧compiledraw/Ready/三场景首次软件仍保；source-owner薄receipt消费不冒新Git/remote或全SDK独核。另一个400L recorder源在helper/JDK/START前因externalgrant+directPopen被拒，439L源订正仍待Nativefirst，743.919s归owner准备而非模型/JDK或节省。原pending切点、无新增HTTP/编测/场景与G2=6/8边界全保。
+
+
+## 2026-11-04：必要typed声明的有限正式闭合
+
+[同源依赖正式附页](evidence/2026-11-04-typed-dependency291-formal-later.json)保291协议、309/310和成熟311四叶的正常sole-publication；291只末空白格式投影，其余rawexact，292实现未夹入。291的8个API class仅从原联合803输出划分，不是新编译或constructor矩阵；旧866仅两个duplicate finitecase，不移授insert/grow/allcallee。原source/model/pending切点、source准备错误和310 precompile revision均保，0新HTTP/编RUN/Runtime或速度信用。
