@@ -6,6 +6,8 @@
 
 能力边界按实际执行流程长期分开维护：[普通HTTP候选模式](capability-http.md)与[OpenCode原生工具模式](capability-opencode.md)。运营owner和接班worker使用[长期运营prompt](../prompts/capability-operations.md)，每个真实任务及环境变化后追加证据、采用和成本，不在三任务试点结束后停止跟踪。模型端点和模型别名仍只取共享配置；运营prompt用于有相应工具和业务权限的owner，不替换普通调用器的固定源码候选system模板。
 
+需要交接显式READY代际与具名投递记录时，可使用[有界只读源码状态快照](owned-source-snapshot.md)。它复用现有observer，区分登记、receipt与实际POST/END，不查询进程或数据库，也不自动发现任务或派发；现有8方法DATA首验和新共享路径绑定的待验证边界分别记录，不为固定人数安排周期监控。
+
 ## 入口与配置
 
 共享配置为 [config/executor.json](../config/executor.json)，调用器为 [scripts/call.py](../scripts/call.py)。脚本使用 Python 标准库；迁移验证实际运行于 Windows Python 3.13，不能据此声称其它平台已实测。
