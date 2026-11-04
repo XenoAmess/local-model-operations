@@ -2728,3 +2728,10 @@ owner独立完成5219字节BBCode、真实图解读、AI宣传图及87文件对�
 [C1 owner实现后的新独立Test](evidence/2026-11-05-http-c1-native-packet-test-source-cut.json)给5完整current源113497B及4863B合同，固定稳定Reader入口、旧6arg公共序列和Assembler(null input)严格fallback；禁止构造privateInput/伪造权限，旧309仅literal fixture。该请求不重试旧C1 length，原length正文/SSE仍未打开或哈希，owner实现不算模型采用。
 
 固定三消息/DIRECT/max7000，一次完整stop/DONE/有效JSON，39.5339901秒、有效TTFT3.4683969秒、25185+6450tokens、cachednull；27780B正文与原SSE UTF8一致，审计0discrepancy。原件立即交M6，当前未采用/待owner正式源审、0JVM，完整返回不授语义/测试绿；后到采用、owner纠正或软件另记。446终态/446租约释放、0在途，无R2；新READ可用性P0的源码准备与此审阅并行，不以Git/文档门阻下一真实首派。完整主动成本与净收益未知。
+
+
+## 2026-11-05：ACK 后只读 READ 可用性真实 P0 首派 length
+
+[精确分类后的新Factory任务](evidence/2026-11-05-http-life-postack-read-availability-length.json)给12完整actual源423013B及5415B最终合同，新增真实调用的包内只读operation；原deadline/maxAttempts、100ms clipped pacing、每Unavailable先归档、Unknown仅同IDcollect一次。只有原NativeWire完成negative ACK的精确JSON文本错误、request/payload/originalFrame及outbound fixed STEP完整绑定才可再READ，禁止控制重放、宽异常重试或刷新旧deadline。源准备期间未POST，最终合同到后首派，与C1源审/文档并行。
+
+固定三消息/DIRECT/max8000，一次HTTP200/DONE但length，55.6047636秒、有效TTFT10.9592573秒、86056+8000tokens、cachednull。CONTENT/raw SSE未打开、解析、提取或哈希，整份0采用、不R2/不拼接，即刻交Java接管实际Factory helper及调用窄块。未读半稿不算语义或javac失败，也不推测其输出为何用满或永久能力上限。447终态/447租约释放、0在途，0新增JVM/Runtime/Game；owner后续源码/软件/实际恢复分别记，不能把原运行结果追授该length。完整主动成本与净收益未知。

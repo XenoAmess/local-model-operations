@@ -1,0 +1,109 @@
+{
+  "schema": "local-model-operations.life-postack-read-availability-length/v1",
+  "date": "2026-11-05",
+  "case_id": "life-post-ack-read-availability-20261105-01",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network": "DIRECT;redirects refused;actual socket peer UNKNOWN",
+  "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+  "profile_sha256": "97fb38b997dde3522f2310d06a229ab660db35f8bdc1a5d40eaa5c9e07e57e9a",
+  "complete_actual_sources": 12,
+  "source_bytes": 423013,
+  "complete_final_contract_bytes": 5415,
+  "complete_final_contract_pin": {
+    "bytes": 5415,
+    "sha256": "e3ebf4540e87c96677f8cd7357c4bc2653a8669915f39cd79af253c3f8dde52d"
+  },
+  "target_files": 1,
+  "owner_precisely_diagnosed_failure_and_supplied_final_classification_contract": true,
+  "source_preparation_before_final_contract_POST": 0,
+  "requested_unit": "Actual package-private Factory read-only operation used by freshObservation; unchanged deadline, maxAttempts1..65536, clipped100ms pacing, preserve everyUnavailable before classification, Unknown sameIDcollect once only.",
+  "only_retry_predicate": "Completed negative AckReceived, exact immutable NativeWire CommandResult requestId/payload/originalFrame, textual VALUE error fresh_full_state_native_read_unavailable, retained outbound matching requestId and fixed query-fresh-full-state-v1 STEP. No broader retry.",
+  "preservation_contract": [
+    "original control never replayed",
+    "no old deadline renewal",
+    "all Received provenance/projection/final deadline blocks unchanged",
+    "no broad IOException/RuntimeException retry",
+    "pending Unknown cannot cause new READ",
+    "all negative originals archived before classification"
+  ],
+  "POST_BEGIN_UTC": "2026-11-04T21:34:42.595607+00:00",
+  "ATTEMPT_END_UTC": "2026-11-04T21:35:38.200476+00:00",
+  "final_contract_frozen_to_POST_seconds": 2.252338,
+  "preparation_and_contract_wait_not_TTFT_or_CPU": true,
+  "fixed_three_messages": true,
+  "message_pins": [
+    {
+      "role": "system",
+      "utf8_bytes": 301,
+      "sha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5"
+    },
+    {
+      "role": "user",
+      "utf8_bytes": 426991,
+      "sha256": "a53a5eee7b790334cf36a14d11b82a0c9caec01dc3e7c4d35b41aacbc83e9192"
+    },
+    {
+      "role": "user",
+      "utf8_bytes": 5415,
+      "sha256": "e3ebf4540e87c96677f8cd7357c4bc2653a8669915f39cd79af253c3f8dde52d"
+    }
+  ],
+  "actual_parameters": {
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "max_tokens": 8000,
+    "stream": true,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "thinking": false,
+  "include_usage": true,
+  "HTTP_status": 200,
+  "finish_reason": "length",
+  "DONE": true,
+  "headers_ms": 10958.265500026755,
+  "effective_content_TTFT_ms": 10959.257300011814,
+  "HTTP_total_ms": 55604.763599985745,
+  "usage": {
+    "prompt_tokens": 86056,
+    "completion_tokens": 8000,
+    "total_tokens": 94056
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 440945,
+    "sha256": "956f12bec9edf56dfd00117aa973e85092825a5dac3bc02c6fc6144693fa6cb1"
+  },
+  "RESULT_pin": {
+    "bytes": 1307,
+    "sha256": "72dc4442ba25d6a99a13f4ef9fad20fd320a2a7ca5870d70b1ed7b128f8596f4"
+  },
+  "EVENTS_pin": {
+    "bytes": 2806,
+    "sha256": "e1f00292566fcad9b5b5ac39c39edcdad0a193439bbc05592f70fbbeceabffaf"
+  },
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "CONTENT_raw_SSE_opened_parsed_extracted_or_hashed": false,
+  "whole_length_discarded": true,
+  "outer_JSON_or_code_semantics": "NOT_INSPECTED_NON_STOP",
+  "new_model_code_adopted": 0,
+  "automatic_R2_or_stitching": false,
+  "owner_takeover_requested_immediately": true,
+  "owner_candidate_software_formal_Runtime": "Separate later evidence; not inferred",
+  "new_HTTP_JVM_SDK_Runtime_Game_by_posthoc": 0,
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 447
+    },
+    "leases.db": {
+      "RELEASED": 447
+    }
+  },
+  "source_inflight_after_END": 0,
+  "full_owner_active_time_and_net_savings": null,
+  "limit": "Finite output length, not observed syntax/semantic/compiler failure. No partial-body inspection, completed task replay, service cache/context inference, permanent ability ceiling, or claimed actual action recovery/performance."
+}
