@@ -2278,3 +2278,8 @@ M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-co
 [token及既有软件后见](evidence/2026-11-04-token-and-existing-mature278-later.json)只附一次纯metadata helper和独立旧first/formal tuple，保Ready/inventory basename与fullfilename排序域的实际纠错；prepare0不授JDK/运行，原source cut和分母不改。
 
 [owner首失败660/663](evidence/2026-11-04-owner-first-failures660-663.json)保first frame AssertionError与预存UTF8 BOM导致的首strict RED；前者未到后续child，后者0class/0RUN，均不归模型或HTTP。后续[窄source订正660/661/663](evidence/2026-11-04-owner-narrow-corrections660-661-663.json)分别只改两literal字段或去3B BOM，661是在未START前源核，不冒实际红；所有corrected编测仍UNKNOWN于该cut，不因byte reconstruction授numeric oracle或软件绿。各次墙窗、metadata、编测与active未知分列，不新增请求、场景或速度信用。
+
+
+## 2026-11-04：既有305—308四叶正式后见
+
+[同一成熟单元的正式附页](evidence/2026-11-04-fp-gate305-308-formal-later.json)补齐305/306 pair、307和308的既有sole-publication记录：307 rawexact，308仅末尾空行投影，原11direct有限case和首次软件复用，0新增编RUN。原mature body的307/308 pending切点保持；publisher路径separator比较在正式写前停出的准备错误独立记，不归模型或编译。四叶正式发表仍不授wholeHash、硬件/OS、实际加载或速度，也不新增模型case/请求分母。
