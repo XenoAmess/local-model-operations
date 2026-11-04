@@ -2283,3 +2283,8 @@ M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-co
 ## 2026-11-04：既有305—308四叶正式后见
 
 [同一成熟单元的正式附页](evidence/2026-11-04-fp-gate305-308-formal-later.json)补齐305/306 pair、307和308的既有sole-publication记录：307 rawexact，308仅末尾空行投影，原11direct有限case和首次软件复用，0新增编RUN。原mature body的307/308 pending切点保持；publisher路径separator比较在正式写前停出的准备错误独立记，不归模型或编译。四叶正式发表仍不授wholeHash、硬件/OS、实际加载或速度，也不新增模型case/请求分母。
+
+
+## 2026-11-04：既有whole正式投影与recorder源准备修正
+
+[批准的formal/resource后见](evidence/2026-11-04-whole-formal-resource278-later.json)补既有whole266三叶正式记录，归属sole Java receipt：CRLF、四个未被Test消费的诊断label与空白投影分别列明，旧compiledraw/Ready/三场景首次软件仍保；source-owner薄receipt消费不冒新Git/remote或全SDK独核。另一个400L recorder源在helper/JDK/START前因externalgrant+directPopen被拒，439L源订正仍待Nativefirst，743.919s归owner准备而非模型/JDK或节省。原pending切点、无新增HTTP/编测/场景与G2=6/8边界全保。
