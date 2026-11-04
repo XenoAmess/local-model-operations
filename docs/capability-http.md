@@ -48,6 +48,12 @@ owner把稳定system、完整当前源码/合同、变化的任务/诊断组成�
 
 独立Test另一次完整HTTP8.869910s、TTFT3.723843s，owner补两项import并将6个方法合为5个，保留10条断言；没有读取生产新候选或模型答案。其源码阶段411.594374s含准备、HTTP与审阅重叠，active未知，纯Instant用例不授collector整链通过。两票均200/stop/DONE/JSON有效、cached未报告，本案OpenCode无新session；后到软件结果另追加，不回填原切点。
 
+## 2026-11-04：readiness必要软件后见与recorder失败分层
+
+[原readiness案例的软件附页](evidence/2026-11-04-readiness-deadline-software-later975-977.json)补975单生产TU真实compiler0/38class、976仅一个新Test TU编译0，以及977五个指定DATA方法全P。975后续产物清单排序载体错误造成原actor1/END1，原失败保留；独立后验核同38个现有产物的路径、大小与SHA及原SDK释放，不重编，也不归模型源码红。原source-only记录不回填。
+
+JUnit进程5.510758s、tool6.024693s、console1949ms与XMLsuite1.601s属于不同层；234B LogManager提示原样保留，零skip/abort/fail由实际终态及stdout/XML另证。独立Test从开始至软件附页的2828.617441s含准备、HTTP、审阅、资源与交接等待，active未知；排序记录器和给completed作者发消息未唤醒的空档也计入交付成本。此后见只授有限时间谓词软件，不授Collector整链、正式发布、Dev装载、恢复或提速；无新HTTP/OpenCode、无重测试。
+
 ## 基线案例
 
 | case_id / 观察 | 输入与实际结果 | 采用、验证及边界 |

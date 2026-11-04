@@ -1,0 +1,89 @@
+{
+  "schema": "local-model-operations.readiness-deadline-software-later/v1",
+  "mode_id": "http-candidate",
+  "source_record": "2026-11-04-readiness-deadline-source-adoption.json",
+  "source_publication_commit": "4ab3a66498ddd82266db8dfdfd18e52598c4e899",
+  "software_owner_append_cutoff_utc": "2026-11-04T11:31:15.617441Z",
+  "evidence_basis": "Native production qualification and operator receipts, actual Test compile and JUnit terminal/fence/END records, plus the independent Test owner's software follow-up. Root and the Test owner consumed stdout/XML; Ops also checked saved stdout, stderr, XML counts and selected receipt metadata. This publication starts no validation process.",
+  "production975": {
+    "source_TUs": 1,
+    "real_compiler_exit_code": 0,
+    "current_output_class_files": 38,
+    "original_actor_exit_code": 1,
+    "original_END_result": 1,
+    "original_failure_preserved": true,
+    "failure_classification": "After successful compilation, the recorder compared inventories ordered through WindowsPath and string carriers differently. This is an output-inventory ordering failure, not a model-source or compiler failure.",
+    "later_DATA_qualification": {
+      "at_utc": "2026-11-04T11:12:25.709842Z",
+      "exit_code": 0,
+      "exact_current_path_size_SHA256_maps_equal": true,
+      "duplicate_paths_rejected": true,
+      "all_38_current_raw_output_pins_equal": true,
+      "typed_binary_qualified": true,
+      "original_normal_SDK_release_and_END_held": true,
+      "new_compiler_starts": 0,
+      "new_test_runs": 0,
+      "timing": "Qualification occurred after the original END; the original actor1/END1 remain unchanged. No original pre-fence class fsync is newly claimed."
+    }
+  },
+  "test_compile976": {
+    "recorded_at_utc": "2026-11-04T11:14:53.738501Z",
+    "new_Test_TUs": 1,
+    "producer_or_old_sources_recompiled": 0,
+    "compiler_exit_code": 0,
+    "actor_exit_code": 0,
+    "actual_output_class_files": 1,
+    "actual_process_wall_seconds": 3.315188000036869,
+    "normal_terminal_fence_and_END": true,
+    "test_RUN_in_this_compile_phase": false
+  },
+  "junit977": {
+    "actual_recorded_at_utc": "2026-11-04T11:25:35.913903Z",
+    "actor_exit_code": 0,
+    "child_exit_code": 0,
+    "tests_found": 5,
+    "tests_started": 5,
+    "tests_succeeded": 5,
+    "skipped": 0,
+    "aborted": 0,
+    "failed": 0,
+    "XML_errors": 0,
+    "distinct_selected_methods": 5,
+    "behavior_assertions_in_the_selected_source": 10,
+    "old_Test_methods_run": 0,
+    "new_Java_TUs_compiled_in_this_phase": 0,
+    "actual_process_wall_seconds": 5.510758200020064,
+    "reported_tool_wall_seconds": 6.0246933,
+    "console_reported_test_milliseconds": 1949,
+    "XML_suite_time_seconds": "1.601",
+    "timing_layers": "Process, actor/tool, console and XML timings describe different nested scopes; they are not interchangeable or additive task wall time.",
+    "stderr_bytes": 234,
+    "stderr_interpretation": "The JBoss LogManager property diagnostic is preserved as nonempty stderr. Child exit0, console counts and five successful XML cases are recorded independently.",
+    "normal_same_child_terminal_fence_and_END": true,
+    "own_reservation_released": true
+  },
+  "scope_and_provenance": {
+    "qualification": "Necessary production compilation and five finite DATA methods on the pure package-static time predicate, using the new Test output before the actually qualified production output.",
+    "source_and_model_grades": "Unchanged: the strongly guided production method/helper executable code was selected with only existing EOL projection; the independent model Test required two owner imports and six-to-five method consolidation.",
+    "old_source_only_cutoffs": "Preserved without rewriting. This later software result does not backdate compilation or test success into the earlier source-ready records.",
+    "whole_collector_join_lifecycle_source_permission_integration": "NOT_GRANTED",
+    "formal_Git_Dev_loader_Runtime_recovery_Game_SAVE_or_speed": "NOT_GRANTED_AT_THIS_CUT"
+  },
+  "cost": {
+    "Test_owner_reported_begin_to_software_append_wall_seconds": 2828.617441,
+    "Test_owner_reported_receipt_consumption_begin_utc": "2026-11-04T11:27:23Z",
+    "owner_active_seconds": null,
+    "whole_production_repair_wall_seconds": null,
+    "CPU_seconds": null,
+    "net_savings": null,
+    "included_work": "Source preparation, HTTP, review, resource waiting, tuple preparation, the inventory-order recorder failure and the completed-author notification gap remain part of elapsed delivery cost. The Test owner's measured envelope includes overlap and other work; active labor was not instrumented.",
+    "HTTP_boundary": "The original23.351091-second production HTTP duration is not total delivery time or measured cost saved. Nested process timings are not added to the owner wall envelope."
+  },
+  "publication": {
+    "new_model_requests": 0,
+    "new_OpenCode_sessions": 0,
+    "new_compiler_Test_or_OS_runs": 0,
+    "new_business_case_or_method_credit": 0,
+    "private_material": "No raw source, oracle, REQUEST, classpath, machine path or runtime evidence is published. Actual runtime adoption remains with its sole owner and proceeds independently."
+  }
+}
