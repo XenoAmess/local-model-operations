@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B119-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T05:15:27.333161+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T05:02:47.546167+00:00",
+    "window_ended_at_utc": "2026-11-04T05:02:51.319208+00:00",
+    "window_seconds": 3.773041,
+    "peak": 1,
+    "peak_duration_seconds": 3.773041,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b119-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 952,
+        "completion_tokens": 514,
+        "total_tokens": 1466
+      },
+      "failure": null,
+      "content_ttft_ms": 456.5295000211336,
+      "total_ms": 3773.0278000235558,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "76f8c07bf42eef3fdd0f0b0133af5a5d6cef6e8ad70af2c14eb595d1aa9378a8",
+      "summary_sha256": "c366f5de3843278ec0cec282d4158987cebd0554f8f0c4ead989864ba3b8c0a3",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "6adfd23161b2f57ddca11e5dc12227d01825f828c052ea10f252569711050489",
+        "task_id": "hoi4-20261104-b119-prompt-01",
+        "request_sha256": "76f8c07bf42eef3fdd0f0b0133af5a5d6cef6e8ad70af2c14eb595d1aa9378a8",
+        "summary_sha256": "c366f5de3843278ec0cec282d4158987cebd0554f8f0c4ead989864ba3b8c0a3",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Both SHA domains verified. Candidate retained actual WHITE/SILVER naval-cap crown/BLACK band-visor/GOLD central badge and limited front braid, source-exposed dark hair/real brows/CLEAN face, OPEN NAVY jacket/WHITE pointed shirt/BLACK LONG TIE, primary near-frontal pose/DARK GREY backing and literal creature eyes/grey mouth.",
+          "Candidate omitted explicit Image1/Image2 authority sentence despite complete source contract. Owner inserted exact original-vs-mascot input roles BEFORE image preparation, retained original full HTTP/candidate and independently restated literal identity/compact lower head/collar contact. Partial text adoption only.",
+          "Fine badge engraving/braid extent understated, no invented epaulettes/medals or larger-uniform substitution. No model pixels/visual approval, general improvement or net-time claim.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2544,
+        1184
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b119-sources.json",
+    "sha256": "c3f690bf18c191a2cc3d5be8b0104f68f381559acdfac859e8ca472b13b3a195",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T05:05:06.514094+00:00",
+  "stage_at_cutoff": "One new source-bound LOW original prompt was frozen uncalled at the recorded prepared cutoff; later image generation/manual qualification remain separate evidence.",
+  "owner_review": "Both SHA domains verified. Candidate retained source WHITE/SILVER naval crown/BLACK band-visor/GOLD central badge and limited front braid, exposed dark hair/real brows/CLEAN face, OPEN NAVY jacket/WHITE shirt/BLACK LONG TIE, primary near-frontal pose/DARK GREY backing and literal creature eyes/grey mouth. Candidate omitted explicit Image1-original/Image2-mascot authority sentence despite complete source contract. Owner inserted exact two-input roles before image preparation and independently restated identity/compact U anatomy/collar contact; original complete HTTP/candidate unchanged. Fine cap engraving/trim understated; no invented medals/epaulettes, larger-uniform substitution, model pixels/vision or net-time claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
