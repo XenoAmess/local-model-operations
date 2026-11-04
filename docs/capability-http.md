@@ -2735,3 +2735,12 @@ owner独立完成5219字节BBCode、真实图解读、AI宣传图及87文件对�
 [精确分类后的新Factory任务](evidence/2026-11-05-http-life-postack-read-availability-length.json)给12完整actual源423013B及5415B最终合同，新增真实调用的包内只读operation；原deadline/maxAttempts、100ms clipped pacing、每Unavailable先归档、Unknown仅同IDcollect一次。只有原NativeWire完成negative ACK的精确JSON文本错误、request/payload/originalFrame及outbound fixed STEP完整绑定才可再READ，禁止控制重放、宽异常重试或刷新旧deadline。源准备期间未POST，最终合同到后首派，与C1源审/文档并行。
 
 固定三消息/DIRECT/max8000，一次HTTP200/DONE但length，55.6047636秒、有效TTFT10.9592573秒、86056+8000tokens、cachednull。CONTENT/raw SSE未打开、解析、提取或哈希，整份0采用、不R2/不拼接，即刻交Java接管实际Factory helper及调用窄块。未读半稿不算语义或javac失败，也不推测其输出为何用满或永久能力上限。447终态/447租约释放、0在途，0新增JVM/Runtime/Game；owner后续源码/软件/实际恢复分别记，不能把原运行结果追授该length。完整主动成本与净收益未知。
+
+
+## 2026-11-05：三次 length 的现有元数据诊断
+
+[经Root授权的只读诊断](evidence/2026-11-05-http-length-budget-metadata-diagnostic.json)仅审Dev/C1impl/READ的REQUEST/RESULT/SUMMARY及现caller/config，length正文/SSE从未打开、解析、提取或哈希；只os.stat大小分别11262/36887/34560B。三请求明确T0/thinkingfalse/json_object及2400/8000/8000预算，reported completion恰好用满、DONE/length，非600/2400秒超时或caller漏参。usage没有reasoning细分，结果未见caller认识的两个reasoning delta字段；这不能证明没有内部推理或该参数实际被服务采纳。
+
+只对已知同服务/v1/models做一次有界GET，200/1201B；服务声明别名qwen38-coder、max_model_len1048576和IQ1_M的GGUF文件名，未独验实权重/后端/可用容量。未返回模板展开、默认生成/stop配置，未猜/props或发生成探针。现json_object不强制edit字段/上下文行数，未知length正文究竟含什么，不能归因为回显或推永久能力上限；另一个真实Test在相同协议下stop也不是严格A/B。
+
+下一真正新单位的可审建议：完整源和三消息不变，由owner选择唯一短before+完整after的有界JSON edits、reasoning至多一句，禁止回显未变方法/大片diff上下文；按完整新增span估算8000或较大coherent单位12000有限预算。当前caller仅验证1..16000，不是服务上限；不能借此给旧length换ID/加预算重发、续半函数或改活跃参数，也不盲加未转发/未证支持的reasoning_effort、max_completion_tokens、json_schema或stop。建议尚未实测改善，完整主动成本和净收益未知；新READ修复不等待此诊断。

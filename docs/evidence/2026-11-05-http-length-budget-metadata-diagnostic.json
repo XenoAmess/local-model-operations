@@ -1,0 +1,316 @@
+{
+  "schema": "local-model-operations.length-budget-format-metadata-diagnostic/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "authority": "Root explicitly authorized existing-metadata diagnosis and documented read-only service metadata GET",
+  "protected_length_CONTENT_and_raw_SSE_never_opened_read_parsed_extracted_or_hashed": true,
+  "permitted_size_observation": "os.stat st_size only; no candidate-body reader or evidence auditor used on length directories",
+  "cases": [
+    {
+      "case": "Dev",
+      "task_id": "dev-entry-explicit-fresh-mode-20261105-01",
+      "REQUEST_pin": {
+        "bytes": 107921,
+        "sha256": "d366c2e53f2fdfc4d4f3952d79f7f4dc595d4d34d2f583e66a6c3c10337d1b26"
+      },
+      "RESULT_pin": {
+        "bytes": 1305,
+        "sha256": "30dd23afb58b43bd5ba97ecbc86f41a0a3f497104c4b443a3f58ca5c29fc14e8"
+      },
+      "SUMMARY_pin": {
+        "bytes": 1680,
+        "sha256": "7f3b79d3ac1e09770e86a4c35163a8b0deef9a7071ed8a44422c1222a83baf9e"
+      },
+      "parameters": {
+        "max_tokens": 2400,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_metadata": [
+        {
+          "role": "system",
+          "utf8_bytes": 301,
+          "sha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5"
+        },
+        {
+          "role": "user",
+          "utf8_bytes": 103041,
+          "sha256": "4ce8f6781bf4f64f793246244d887e8bd4a20aecfc81b04f4d4847553dca62ee"
+        },
+        {
+          "role": "user",
+          "utf8_bytes": 2140,
+          "sha256": "d7fa060613c8d770fe8194b198c10fc4c5ec2e4136f4c6433e80394f410149a9"
+        }
+      ],
+      "http_status": 200,
+      "finish_reason": "length",
+      "DONE": true,
+      "usage_all_reported_fields": {
+        "prompt_tokens": 21519,
+        "completion_tokens": 2400,
+        "total_tokens": 23919
+      },
+      "cached_tokens": null,
+      "first_reasoning_ms": null,
+      "reasoning_delta_fields_seen": [],
+      "reasoning_path_present": false,
+      "CONTENT_and_SSE_only_os_stat_bytes_NOT_body_read_or_hash": {
+        "ATTEMPT1-CONTENT.txt": 11262,
+        "ATTEMPT1-RESPONSE.sse": 249621
+      },
+      "effective_content_TTFT_ms": 2858.8108999538235,
+      "total_ms": 16320.854599995073,
+      "result_json_syntax_reason": "NON_STOP_FINISH",
+      "candidate_complete": false
+    },
+    {
+      "case": "C1 implementation",
+      "task_id": "replay-native-packet-input-once-20261105-01",
+      "REQUEST_pin": {
+        "bytes": 98420,
+        "sha256": "362a066b48b894f0c01677aa7df1be86b551e12d7259bc4eecd9687357420a52"
+      },
+      "RESULT_pin": {
+        "bytes": 1320,
+        "sha256": "bef0adbd521911f90bf9727843003bcdb7b996e33f79ae4b5a77a21d0066127f"
+      },
+      "SUMMARY_pin": {
+        "bytes": 1695,
+        "sha256": "c5713da76333f999db1e61902b3c49c99c17df16ec524cd3140705b0f3906924"
+      },
+      "parameters": {
+        "max_tokens": 8000,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_metadata": [
+        {
+          "role": "system",
+          "utf8_bytes": 301,
+          "sha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5"
+        },
+        {
+          "role": "user",
+          "utf8_bytes": 89027,
+          "sha256": "cb6807488f473e95b4aa95c0f4e06d11e19f58d0d6a06d94cbc4bbdda6172676"
+        },
+        {
+          "role": "user",
+          "utf8_bytes": 6763,
+          "sha256": "128d9a9620e0d8d572d44f4ca5d3b0f8a664d840103ea6401fdb84fd8361b5f9"
+        }
+      ],
+      "http_status": 200,
+      "finish_reason": "length",
+      "DONE": true,
+      "usage_all_reported_fields": {
+        "prompt_tokens": 19944,
+        "completion_tokens": 8000,
+        "total_tokens": 27944
+      },
+      "cached_tokens": null,
+      "first_reasoning_ms": null,
+      "reasoning_delta_fields_seen": [],
+      "reasoning_path_present": false,
+      "CONTENT_and_SSE_only_os_stat_bytes_NOT_body_read_or_hash": {
+        "ATTEMPT1-CONTENT.txt": 36887,
+        "ATTEMPT1-RESPONSE.sse": 825860
+      },
+      "effective_content_TTFT_ms": 2696.504499996081,
+      "total_ms": 47352.835900033824,
+      "result_json_syntax_reason": "NON_STOP_FINISH",
+      "candidate_complete": false
+    },
+    {
+      "case": "READ availability",
+      "task_id": "life-post-ack-read-availability-20261105-01",
+      "REQUEST_pin": {
+        "bytes": 440945,
+        "sha256": "956f12bec9edf56dfd00117aa973e85092825a5dac3bc02c6fc6144693fa6cb1"
+      },
+      "RESULT_pin": {
+        "bytes": 1307,
+        "sha256": "72dc4442ba25d6a99a13f4ef9fad20fd320a2a7ca5870d70b1ed7b128f8596f4"
+      },
+      "SUMMARY_pin": {
+        "bytes": 1684,
+        "sha256": "3e7b0775407f6a89af30f54207b7e5f30ed60bf8afc345570d382fffacc1f3c5"
+      },
+      "parameters": {
+        "max_tokens": 8000,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_metadata": [
+        {
+          "role": "system",
+          "utf8_bytes": 301,
+          "sha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5"
+        },
+        {
+          "role": "user",
+          "utf8_bytes": 426991,
+          "sha256": "a53a5eee7b790334cf36a14d11b82a0c9caec01dc3e7c4d35b41aacbc83e9192"
+        },
+        {
+          "role": "user",
+          "utf8_bytes": 5415,
+          "sha256": "e3ebf4540e87c96677f8cd7357c4bc2653a8669915f39cd79af253c3f8dde52d"
+        }
+      ],
+      "http_status": 200,
+      "finish_reason": "length",
+      "DONE": true,
+      "usage_all_reported_fields": {
+        "prompt_tokens": 86056,
+        "completion_tokens": 8000,
+        "total_tokens": 94056
+      },
+      "cached_tokens": null,
+      "first_reasoning_ms": null,
+      "reasoning_delta_fields_seen": [],
+      "reasoning_path_present": false,
+      "CONTENT_and_SSE_only_os_stat_bytes_NOT_body_read_or_hash": {
+        "ATTEMPT1-CONTENT.txt": 34560,
+        "ATTEMPT1-RESPONSE.sse": 818617
+      },
+      "effective_content_TTFT_ms": 10959.257300011814,
+      "total_ms": 55604.763599985745,
+      "result_json_syntax_reason": "NON_STOP_FINISH",
+      "candidate_complete": false
+    }
+  ],
+  "current_caller_pin": {
+    "bytes": 23968,
+    "sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf"
+  },
+  "current_profile_pin": {
+    "bytes": 1863,
+    "sha256": "97fb38b997dde3522f2310d06a229ab660db35f8bdc1a5d40eaa5c9e07e57e9a"
+  },
+  "current_executor_pin": {
+    "bytes": 1862,
+    "sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9"
+  },
+  "profile_defaults": {
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "proven": [
+    "Actual max_tokens2400/8000/8000 explicitly present, not a missing default or caller rewrite; completions exactly hit each limit.",
+    "All three got HTTP200, explicit length and DONE, at16.3208546/47.3528359/55.6047636seconds; not600second read or2400second total timeout.",
+    "All actual requests specify temperature0, chat_template_kwargs.enable_thinking=false, json_object, streaming and include_usage.",
+    "Usage retained unmodified but reports only prompt/completion/total, no completion/hidden reasoning breakdown.",
+    "Caller records only recognized reasoning_content/reasoning deltas; none were seen in these recorded RESULTs.",
+    "json_object is the requested outer protocol; no output-key, code-span, hunk-context or reasoning-length schema is enforced by current caller.",
+    "Current source-spec forwarding keys include max_tokens and response_format but not max_completion_tokens/reasoning_effort/stop.",
+    "Caller finite max_tokens validation1..16000 is a client limit, not a measured backend ceiling."
+  ],
+  "NOT_HELD": [
+    "actual expanded server chat template and whether thinkingfalse was applied internally",
+    "hidden reasoning tokens or unrecognized delta fields",
+    "server default generation/EOS/stop settings",
+    "whether partial bodies contain code, prose, repeated context, whitespace or completed JSON",
+    "a causal explanation or permanent capability limit",
+    "benefit from changing output schema or budget"
+  ],
+  "documented_readonly_server_sample": {
+    "sample_UTC": "2026-11-04T21:39:38.138807+00:00",
+    "GET_route": "/v1/models",
+    "route_previously_documented_for_same_service": true,
+    "HTTP_status": 200,
+    "response_bytes": 1201,
+    "response_sha256": "deec42cedf2fd44d6db87ba70f5701e7304401eaffed1faa097596b2d1dd1838",
+    "elapsed_ms": 9.7548000048846,
+    "models": [
+      {
+        "id": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
+        "owned_by": "vllm",
+        "max_model_len": 1048576,
+        "declared_root_basename": "Qwen3.8-Flash-Next-GSQ-RCO-IQ1_M-00001-of-00002.gguf"
+      },
+      {
+        "id": "qwen38-coder",
+        "owned_by": "vllm",
+        "max_model_len": 1048576,
+        "declared_root_basename": "Qwen3.8-Flash-Next-GSQ-RCO-IQ1_M-00001-of-00002.gguf"
+      }
+    ],
+    "limits": "Service declarations only. Actual weight/quantization/hash/build, underlying backend implementation and available context capacity not independently verified. No generation defaults or expanded chat template returned."
+  },
+  "props_or_generation_config_GET": "NOT_REQUESTED_UNDOCUMENTED_ROUTE_NOT_GUESSED",
+  "existing_complete_transport_comparison": {
+    "task_id": "c1-native-packet-frontier-data-test-20261105-01",
+    "existing_REQUEST_pin": {
+      "bytes": 123260,
+      "sha256": "11feca4ac79452f275cb4497eb821cf3d63acfba0064d11def6c233b5656151e"
+    },
+    "parameters": {
+      "max_tokens": 7000,
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      }
+    },
+    "finish_reason": "stop",
+    "completion_tokens": 6450,
+    "limit": "Different real task with same T0/thinkingfalse/json_object completed below7000; not a controlled A/B or semantic success."
+  },
+  "recommendations_for_next_genuinely_new_unit_only": [
+    "Keep full current source, fixed3, T0, thinkingfalse, json_object and existing DIRECT caller. Change only the new task output contract if owner chooses.",
+    "Request JSON edits[{file,before,after}] with unique short before anchors, complete replacement after spans, no unchanged-method echo or large diff context; reasoning at most one short sentence.",
+    "Owner estimates complete output unit before POST: use bounded8000 for a finite helper/call unit, or12000 for a larger coherent new unit only if justified. These are planning options, not proven cures or automatic config changes.",
+    "Do not rename a closed length task or send a half-function continuation. If a new unmet requirement is independently scoped, provide full current source and a new concrete contract.",
+    "Do not blindly add unsupported max_completion_tokens/reasoning_effort/strict json_schema or stop markers; current source-spec path does not forward arbitrary new fields, server support unknown.",
+    "Review actual stop/DONE and output/adoption/correction cost on the next real unit; no synthetic generation probe or old-task A/B replay."
+  ],
+  "new_generation_POST": 0,
+  "documented_metadata_GET": 1,
+  "active_caller_config_Runtime_or_service_modified": false,
+  "source_P0_owner_work_blocked": false,
+  "full_owner_diagnostic_active_time_and_net_savings": null
+}
