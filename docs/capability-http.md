@@ -2358,3 +2358,8 @@ The source applicability is installed_tree with loaded parity UNKNOWN. No game s
 - [Poststate formal follow-up](evidence/2026-11-04-http-poststate659-formal-later.json), [binding source selection](evidence/2026-11-04-http-finalization-binding666-source.json) and [budget-throw witness rejection](evidence/2026-11-04-http-budget-throw-witness667-source.json) preserve their earlier cutoffs and individual adoption grades.
 - [Intake software follow-up](evidence/2026-11-04-http-intake-observability-software-later.json): five new DATA methods passed after a driver import failure that reached zero methods; the complete model response remains rejected.
 - [Controlled rollover and intake adoption](evidence/2026-11-04-ready-rollover-intake-followup.json): the long registration pause includes 796.251451 seconds of operator coordination/review after the final old stream ended. Current-generation peak12 and startup receipts do not establish sustained60 or global backend state.
+
+
+## 2026-11-04: public intake source component
+
+[The explicit trusted-registrar intake component](source-intake.md) and [opt-in synthetic witness](../tests/fixtures/source_intake_observability_witness.py) are now available as source. The script requires operator-provided root, repository and reviewed executable registrar; it does not bundle a publisher or supply machine defaults. It preserves early immutable rejection observations, capacity defer and reconciliation as different stages. All six public bindings are pending necessary destination first; the earlier private five-method result is not transferred to this projection. The active machine intake and its existing caller/DB are unchanged by publication.
