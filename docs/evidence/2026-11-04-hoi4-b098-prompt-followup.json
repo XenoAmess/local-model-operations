@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B098-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T00:39:27.808100+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T00:34:39.898911+00:00",
+    "window_ended_at_utc": "2026-11-04T00:34:44.740262+00:00",
+    "window_seconds": 4.841351,
+    "peak": 1,
+    "peak_duration_seconds": 4.841351,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b098-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 946,
+        "completion_tokens": 710,
+        "total_tokens": 1656
+      },
+      "failure": null,
+      "content_ttft_ms": 431.76409997977316,
+      "total_ms": 4842.702499998268,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "94ba50ace602b823e2ea5acb13dca7ca9bf23621f230b7d5c9dfdd8d39b400d7",
+      "summary_sha256": "4882a51f94834a282cd1d4eec4092ac11f4023b32a150b3a37cfd1d3629dfa57",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "4fe29cd5f10c423f99851f2b7f3563874e422dc016084d312b6274b1b24aeca3",
+        "task_id": "hoi4-20261104-b098-prompt-01",
+        "request_sha256": "94ba50ace602b823e2ea5acb13dca7ca9bf23621f230b7d5c9dfdd8d39b400d7",
+        "summary_sha256": "4882a51f94834a282cd1d4eec4092ac11f4023b32a150b3a37cfd1d3629dfa57",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Verified both SHA domains. Complete candidate prompt retained actual dark olive peaked cap/visor, limited braid/badge, dark chin-length bob/real brows/clean face, OPEN olive jacket/pale blue-grey shirt/DARK LONG TIE and exact primary angle.",
+          "Model limits field copied task instructions; limits is not adopted or sent to image tool. Actual prompt contains completed visual instructions; full original candidate retained locally.",
+          "Owner restated compact round short U head, minimal broad raised shirt-collar contact and primary tiny badge limits; no larger candidate or vision qualification.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2659,
+        1070
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b098-sources.json",
+    "sha256": "b319fef50ea4bd69cd8fad174638d6c7fcec7d53eb6bf03a8177af5f85b93273",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T00:36:09.282611+00:00",
+  "stage_at_cutoff": "One new source-bound LOW original prompt was frozen uncalled at the recorded prepared cutoff; subsequent image generation and art qualification remain independent consumer evidence.",
+  "owner_review": "Both SHA domains verified. Actual candidate prompt preserved source dark olive peaked cap/low visor/limited gold-brown braid and small badge, short black chin-length bob and real eyebrows, clean mild closed face, OPEN olive military jacket/pale blue-grey pointed shirt/DARK LONG TIE and exact primary near-frontal angle. Candidate limits field echoed task wording; limits was not adopted or sent to image tool, and original complete JSON remains local. Actual prompt was completed visual instructions. Owner restated compact round lower head/collar contact and fine badge limits; no larger source or model vision claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
