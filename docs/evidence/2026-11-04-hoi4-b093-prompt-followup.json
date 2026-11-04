@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B093-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T00:30:48.445694+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T23:28:14.233076+00:00",
+    "window_ended_at_utc": "2026-11-03T23:28:19.017943+00:00",
+    "window_seconds": 4.784867,
+    "peak": 1,
+    "peak_duration_seconds": 4.784867,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b093-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 904,
+        "completion_tokens": 712,
+        "total_tokens": 1616
+      },
+      "failure": null,
+      "content_ttft_ms": 393.51179997902364,
+      "total_ms": 4784.851400007028,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "4e9fa35d650f32cb6cf7a00840bba1bd7ef27081c241593de9cecb2c1fb50c8c",
+      "summary_sha256": "e8d447704ddd82bbf537d47923b3ee4322783f94fd3c902d9efc2b302120e1e7",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "e15665ae1758d9a303f553e10825b4071ea21094c6dc7a84a0cf8f0ec2edcc70",
+        "task_id": "hoi4-20261104-b093-prompt-01",
+        "request_sha256": "4e9fa35d650f32cb6cf7a00840bba1bd7ef27081c241593de9cecb2c1fb50c8c",
+        "summary_sha256": "e8d447704ddd82bbf537d47923b3ee4322783f94fd3c902d9efc2b302120e1e7",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "For this different new real task, source visual contract omitted nonvisual drafting/preparer sentences and task requested completed imperative source instructions; no old task was replayed.",
+          "Candidate retained real BROWN wavy hair/brows/narrow DARK moustache/clean chin, OPEN NAVY suit/PALE shirt/BLUE SHORT BOW and PRIMARY IMAGE-LEFT direction. No task/protocol echo observed in this one prompt; not a controlled improvement claim.",
+          "Normalized generic common grey-backing shorthand to actual source BLUE/GREY photographic backing before image preparation; actual original HTTP wording preserved. Restated fine detail limits and short broad collar contact.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2388,
+        1007
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b093-sources.json",
+    "sha256": "37f0e7055cf759ab1721617906282117ad5a0908223be96c9e75bed52bd9aca2",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T23:32:52.215462+00:00",
+  "stage_at_cutoff": "One genuinely unfinished LOW original prompt was frozen uncalled at the recorded prepared cutoff. Later original image call 240 returned and was manually rejected for an elongated pointed lower yellow face, independently of successful text transport; a SHA-bound art repair was prepared separately. No qualification is claimed from this text case.",
+  "owner_review": "Both SHA domains verified. This actual new task used a purely visual source contract without preparer/protocol sentences and requested completed imperative instructions. Its one complete candidate retained source brown wavy hair, real moustache, clean chin, OPEN navy suit, pale shirt, BLUE SHORT BOW and PRIMARY image-left pose without echoing protocol in prompt. Generic grey backing shorthand was normalized by owner to actual blue-grey before image preparation; original HTTP/candidate retained. One observation is not a controlled improvement or vision result.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
