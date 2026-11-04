@@ -1,0 +1,251 @@
+{
+  "schema": "local-model-operations.civ6-turn369370-native73/v1",
+  "date_local": "2026-11-04",
+  "published_at_utc": "2026-11-04T12:40:02.144445+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/8c7cf5ebf0d0f37578666ccf3da708216ed9c2dc/docs/research/baiqi-p6-native73-builder-queue-progress-evidence-2026-11-04.json",
+  "business_evidence_sha256": "c9a4960e2d381eb9b1fb0522b3bb80644997b4e2e65529a49c6e468c3cb54c82",
+  "cases": [
+    {
+      "sequence": 369,
+      "case_id": "civ6-turn369-normal-endturn",
+      "mode_id": "http-candidate",
+      "shared_commit": "871a60949f64eef13684cdc566ed1c039c47abdc",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 3000,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T12:21:28.451113+00:00",
+      "attempt_end_utc": "2026-11-04T12:21:51.776594+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 23324.686900014058,
+        "first_nonempty_content_delta_ms": 16673.349099990446,
+        "usage": {
+          "prompt_tokens": 64480,
+          "completion_tokens": 759,
+          "total_tokens": 65239
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T12:21:28.451113+00:00",
+          "end_utc": "2026-11-04T12:21:51.776594+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 23324.686900014058
+        }
+      ],
+      "adoption": "0code",
+      "review": "InventsFORMATION_CLASS_MILITARYratherthanactualLAND_COMBAT, wrongqualificationparamsboolean, omitsplayer0/turn112/busy/fullID/freshguards. Raw12cases7pass; ownerreplacement12pass, actual10QAsteps/6uniquemilitarySKIP+4DoEndTurn, neverdomesticorders.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 370,
+      "case_id": "civ6-turn370-normal-endturn",
+      "mode_id": "http-candidate",
+      "shared_commit": "871a60949f64eef13684cdc566ed1c039c47abdc",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T12:21:28.452745+00:00",
+      "attempt_end_utc": "2026-11-04T12:21:51.198829+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 22739.411899994593,
+        "first_nonempty_content_delta_ms": 15152.199500007555,
+        "usage": {
+          "prompt_tokens": 64444,
+          "completion_tokens": 639,
+          "total_tokens": 65083
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T12:21:28.452745+00:00",
+          "end_utc": "2026-11-04T12:21:51.198829+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 22739.411899994593
+        }
+      ],
+      "adoption": "Sourcefactsonly;partialplanreference",
+      "review": "VerifiednormalDoEndTurnselectionandUserForcedunsupportedfact. IncorrectnoqueuedreaderclaimdespiteactualGetQueuedDestinationandassumesselectBuilderisnecessary. NoNativeexecutionorcodeadoption; ownerusesactualqueuedreader/Coreandnormalno-ReasonACTION_ENDTURN.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "actual_client_inflight": {
+    "actual_peak": 2,
+    "seconds_at_peak": 22.746084,
+    "longest_seconds_at_peak": 22.746084,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "cumulative_frozen_through370": {
+    "logical_requests": 370,
+    "complete_stop_json": 346,
+    "length_whole_discarded": 21,
+    "final_transport_failed": 3,
+    "http_attempts": 400,
+    "extra_retries": 30,
+    "current_http_inflight": 0,
+    "new_opencode_native_generation": 0
+  },
+  "actual_chain": [
+    {
+      "turn": 111,
+      "plot": 407,
+      "x": 11,
+      "y": 9,
+      "moves": 1,
+      "charges": 2,
+      "queued": 452
+    },
+    {
+      "turn": 112,
+      "phase": "afterUserForcedpreparation",
+      "plot": 407,
+      "moves": 2,
+      "charges": 2,
+      "queued": 452,
+      "new_sensor_calls_since111": 0
+    },
+    {
+      "turn": 112,
+      "phase": "afterformalnoReasonACTION_ENDTURN",
+      "plot": 452,
+      "x": 12,
+      "y": 10,
+      "moves": 0.5,
+      "charges": 2,
+      "next_queued": 495
+    },
+    {
+      "turn": 113,
+      "phase": "afterformalend112",
+      "plot": 452,
+      "moves": 2,
+      "charges": 2,
+      "queued": 495
+    },
+    {
+      "turn": 113,
+      "phase": "afterformalnoReasonqueuedexecution",
+      "plot": 539,
+      "x": 11,
+      "y": 12,
+      "moves": 0,
+      "charges": 2,
+      "queued": null
+    },
+    {
+      "turn": 114,
+      "phase": "afterformalend113andBACKGROUNDbuild",
+      "plot": 539,
+      "moves": 0,
+      "charges": 1,
+      "improvement_index": 1,
+      "improvement_type": "IMPROVEMENT_FARM",
+      "UI_Core_agree": true
+    }
+  ],
+  "verification": {
+    "queue_preserved_across_refresh": "PASSnarrow",
+    "queued_execution_then_actual_farm": "PASSnarrow",
+    "all40": "NOT_COMPLETE",
+    "new_performance": "NOT_MEASURED"
+  },
+  "protocol_correction": {
+    "prior71_73_checked_helpers": "UserForcedmapsunsupportedShiftEnterinshippedBase/Assets/UI/ActionPanel.lua:1099. Previousordinarywordingincorrect,retainrawfactsbutnotnormalqueueexecutionPASS.",
+    "current73_preparation": "110to112twocheckedUserForcedactions; labelledpreparation, notnormalendturnevidence.",
+    "supported_actions": "FourUI.RequestAction(ActionTypes.ACTION_ENDTURN)NOreasonafterfreshCanEndTurn/idleandnewobservedposition/turn/routeintent; firstexecutesqueuedmovementwithoutswitchingturn, lastadvances113to114.",
+    "normal_UI_selection_steps": 10,
+    "testplayer_unique_military_SKIP": [
+      {
+        "id": 1048576,
+        "type": "UNIT_SCOUT"
+      },
+      {
+        "id": 1441803,
+        "type": "UNIT_SCOUT"
+      },
+      {
+        "id": 1245193,
+        "type": "UNIT_SCOUT"
+      },
+      {
+        "id": 1835013,
+        "type": "UNIT_HORSEMAN"
+      },
+      {
+        "id": 786438,
+        "type": "UNIT_SCOUT"
+      },
+      {
+        "id": 2162700,
+        "type": "UNIT_HORSEMAN"
+      }
+    ],
+    "official_DoEndTurn_selection_steps": 4,
+    "limits": "Remainingmilitaryselectionremindersnotallconsumed; APIactiondoesnotprovecompletephysicalbuttonmatrix. QAselectedmilitaryskipisTEST_PLAYER, notBACKGROUNDarmyaction. NoQAmanualdomesticUnitManagerorder/cancel/replay/grant."
+  },
+  "owner_diagnostic_errors": [
+    "ReadonlyCoremuseumGetGreatWorkInSlotwasnil; previousserial/tokenprintsactuallysucceededandrawerrorpreserved. CorrectUIconsumerreadwork15, noGameorderreplayed.",
+    "WindowsAppActivateACKwasnotfocusproof; ownedgameonlytemporarilyraised, hit-testedneutralgame-titleclick, topmostrestored. Steamnotactivated/moved/screenshotted.",
+    "UnsupportedUserForcedpreviousordinarylabelcorrected; normalnoReasonactionsnowseparatelyrecorded."
+  ],
+  "maintenance": "SameNov4OpenCode1.19.5successfulcache; canonicalDIRECTcurrentcaller/config;fixed3messages.",
+  "unknown_costs": {
+    "owner_cost_seconds": null,
+    "cached_tokens_if_unreported": null,
+    "server_queue_wait": null,
+    "net_savings": null
+  },
+  "limits": [
+    "Narrowcurrentfixtureonly; noallterrain/pathblocking/longterm/all40PASS.",
+    "Native71/72FAILsandsource73preparationforcedturnskept; source73pluscorrectedQAprotocoljointobservation, notsinglefactorNativecausalityproof.",
+    "NoallmoduleN_reqorNative73performancebudgetclaim."
+  ],
+  "next_real_trigger": "Continueunfinishedproductionqueued-itemright-click/shortcutmatrix andotheracceptancegaps; preserveFarm114checkpointandusecorrectnormalturnprotocol.",
+  "phase_scope": "Actualordinary73coldNativequeue/arrival/Farm/chargechainnarrowPASS, notall40/performance ormodelcodePASS."
+}
