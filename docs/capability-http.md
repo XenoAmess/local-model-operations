@@ -2520,3 +2520,9 @@ owner继续门像素校验失败后未立即停止编排，四次查询在LSQ超
 [后继独立单函数任务](evidence/2026-11-04-http-protected-ready-function-source.json)保持同7完整源，改为仅交一个完整函数、max6000；一次HTTP200/stop/DONE，19.0431168秒、TTFT0.9776006秒、输出3141tokens，提取10079B/160L。原length正文仍未读或拼接。完整函数却混淆原legacy路径与ownedSDK投影、用直接parent检查错拒包目录，并漏完整inventory和Ready.guardPin绑定；owner接管映射块，不第三轮。whole采用0，早拒/固定合同等局部沿用范围待owner最终回执，0编测/执行。缩窄输出可完整返回不等于语义通过，也未测净节省。
 
 [后到owner源码回执](evidence/2026-11-04-http-protected-ready-owner-source-later.json)确认有限partial沿用，整actor复用成熟模板并由owner修正路径投影/完整map/精确joins，不能称模型整稿原样。三项未来Ready/guard绑定仍为None，静态早拒未执行，0编测/SDK/JDK/Game。一次owner文本针缩进错误在输出目录创建前退出，订正及两次HTTP合80.7653835秒分别保留；完整工时与净收益仍未知，未改变早先pending切点。
+
+## 2026-11-04：clean-restart 只读IO阶段的完整diff源审
+
+[实际P0恢复任务](evidence/2026-11-04-http-clean-restart-io-phase-source.json)使用5份完整当前源602251B、原owner诊断与phase合同，max10000；一次HTTP200/stop/DONE，56.936264秒、TTFT15.1122941秒，reported118240+7400tokens，cachednull。完整33231B三源diff仍删除旧overload、重复Core的try、越界改初始恢复、post-local握手沿用旧deadline，整体0采用/0raw编测；只参考owner先已给出的延迟路由方向，owner接管不第二POST。POST后才定版的具体Supplier签名不当作模型已收到的要求；原合同中保旧语义/仅clean/后段共用期限的要求分别保留。完整输入被接收不证明最大context，HTTP时间不等于交付成本或实机提速。
+
+后到Java具名候选以3源13span逐字inverse保outside，source-only回执/e2f7750c确认owner完成稳定overload/Core/后段共享deadline接线；原模型diff仍0代码采用，未编测/装载。短PREP区间与已起草脚本在同一host执行批中，仅记机械应用，前置起草工时未知，不把它称完整准备节省。

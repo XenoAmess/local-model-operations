@@ -1,0 +1,123 @@
+{
+  "schema": "local-model-operations.http-clean-restart-io-phase-source/v1",
+  "case_id": "ck3-clean-restart-readonly-io-phase-20261104-01",
+  "mode_id": "http-candidate",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "recorded_at_utc": "2026-11-04T13:40:35.917318+00:00",
+  "scope": "A real clean-restart failure had an expired read-only IO deadline after local preparation. The owner supplied the diagnosis and a narrow deferred-phase implementation contract; no autonomous discovery is claimed.",
+  "input": {
+    "complete_current_source_files": 5,
+    "production_targets": 3,
+    "read_only_callees": 2,
+    "physical_source_bytes": 602251,
+    "source_message_utf8_bytes": 603035,
+    "messages": [
+      "system",
+      "user",
+      "user"
+    ],
+    "actual_Request_UTF8_bytes": 620092,
+    "framing": "Canonical caller read complete ordered immutable source_files; no extracted source fragments or raw prior answer.",
+    "owner_guidance": "Preserve fixed Instant paths and exact admission/lock/identity checks. Resolve an explicit read-only post-local Supplier deadline once and share it across subsequent IO, without new lower-layer timeout or old command refresh.",
+    "later_owner_API_signature": "The source owner sent its exact overload signature after POST; the actual request was preserved and not silently changed or repeated."
+  },
+  "actual_request": {
+    "model": "qwen38-coder",
+    "max_tokens": 10000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    },
+    "requested_output": "One JSON object containing a finite unified diff restricted to the three declared targets and brief reasoning; no full-file dump or fabricated verification."
+  },
+  "actual_result": {
+    "POSTs": 1,
+    "ENDs": 1,
+    "started_at_utc": "2026-11-04T13:37:14.140253+00:00",
+    "HTTP_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "HTTP_total_seconds": 56.93626400001813,
+    "valid_content_TTFT_seconds": 15.112294099992141,
+    "usage": {
+      "prompt_tokens": 118240,
+      "completion_tokens": 7400,
+      "total_tokens": 125640
+    },
+    "cached_prompt_tokens": null,
+    "CONTENT_UTF8_bytes": 35003,
+    "CONTENT_SHA256": "f873cb36567afa15d88b9cf21c1e0f62e7277fec28475fc12ffec8364a36cecb",
+    "diff_UTF8_bytes": 33231,
+    "diff_SHA256": "09ff74787d621e2b9c25914cc9ebe25d7a5de012fe499b1101089a6124ad314c",
+    "caller_exit": 0,
+    "dispatcher_terminal": "RETURNED_NORMALLY_PAIRED_END"
+  },
+  "adoption": {
+    "grade": "COMPLETE_DIFF_REJECTED_OWNER_IMPLEMENTATION_PENDING",
+    "semantic_or_API_qualification": "SOURCE_OWNER_REJECTED_BEFORE_COMPILATION",
+    "raw_model_diff_adoption": 0,
+    "limited_reference": "Only deferred-supplier and one post-local Instant routing direction; both were already supplied by the diagnosing owner. No autonomous design credit.",
+    "Models_applied_diff_compiled_Test_or_Game_actions": 0,
+    "software_Runtime_SAVE_or_speed_credit": false,
+    "old_logical_task_rePOSTs": 0,
+    "automatic_semantic_retries": 0
+  },
+  "source_owner_review": {
+    "reported_findings": [
+      "The complete diff removes an existing fixed-Instant overload despite the supplied preservation requirement.",
+      "The Core patch contains a duplicated try construct.",
+      "It changes the unrelated initial-recovery path despite clean-restart-only scope.",
+      "The post-local handshake still uses the old deadline instead of the shared new phase Instant.",
+      "The diff also repeats substantial unrelated trailing source text."
+    ],
+    "contract_timing": "Legacy-overload preservation, clean-only opt-in and shared post-local IO deadline were explicit in the original pre-POST contract. The exact later owner-selected Supplier overload signature was not supplied until after POST and is not treated as a received requirement or a model violation.",
+    "owner_action": "Owner takes over the narrow three-source implementation; no second model request.",
+    "named_final_source_receipt": {
+      "bytes": 5930,
+      "SHA256": "e2f7750c62959c50624403183e2ff3053f6520866d0af28e9fbc579cb18f48e2",
+      "owner_receipt_at_utc": "2026-11-04T13:41:37.548912+00:00",
+      "grade": "PARTIAL_IDEA_OWNER_CORRECTED_NOT_RAW_PATCH",
+      "production_TUs": 3,
+      "owner_spans": 13,
+      "whole_byte_inverse_exact_for_all_three": true,
+      "candidate_sources": [
+        {"role": "DriverBootstrap", "bytes": 136740, "SHA256": "98c2ad8f15bdaeba11d9d6395123ab1ebad8a4b9355d3e70e0f74870857b529b"},
+        {"role": "RootApplicationAssembly", "bytes": 247927, "SHA256": "638bd2e269bf6ac80e533291b27a752ecd0be077fcb10e7601ea112df5219e55"},
+        {"role": "RootOrdinaryRuntimeAssembly", "bytes": 65338, "SHA256": "f49d4938d0824706d2e277fc6a6d9f0948bb70e3e8c1a295fcef174716bdbabc"}
+      ],
+      "owner_changes": "Stable old/new overloads and Core forwarding; one shared post-local deadline including handshake; undo unrelated initial-recovery/tail changes. This is owner implementation, not raw model patch adoption.",
+      "qualification": "SOURCE_ONLY_NOT_COMPILED; no formal publication, Runtime adoption, game progress or speed claim."
+    },
+    "raw_model_compiler_or_Test_starts": 0
+  },
+  "cost": {
+    "mechanical_preparation_begin_utc": "2026-11-04T13:37:00.6995630+00:00",
+    "mechanical_preparation_end_utc": "2026-11-04T13:37:01.101532+00:00",
+    "earlier_preparation_authoring_seconds": null,
+    "owner_active_seconds": null,
+    "source_review_or_correction_seconds": null,
+    "CPU_seconds": null,
+    "net_savings": null,
+    "boundary": "The PREP marker and already-authored preparer were in the same host execution batch, so that short interval measures mechanical application only. Earlier authoring/discovery, exact source freezing, phase diagnosis, admission and source review remain additional unknown work. HTTP timing is neither whole task time nor measured saving."
+  },
+  "limits": [
+    "Input acceptance does not establish maximum context, cached token use, backend weight identity or a permanent capability limit.",
+    "The candidate and raw response were delivered directly to the source owner after complete stop; public documentation and Git were not a source-review, compiler or Runtime precondition.",
+    "No raw source, request, answer, machine-local path, oracle or game material is published."
+  ],
+  "new_OpenCode_native_sessions": 0
+}
