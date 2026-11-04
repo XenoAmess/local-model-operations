@@ -1,0 +1,174 @@
+{
+  "schema": "local-model-operations.civ6-native70-recovery350351/v1",
+  "date_local": "2026-11-04",
+  "published_at_utc": "2026-11-04T07:15:39.199137+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/0eac136dc9b3084d2e4e6ebeba7287a4ac6a9d59/docs/research/baiqi-p6-native70-recovery350351-evidence-2026-11-04.json",
+  "business_evidence_sha256": "5e53f43bfd64674cc9982f6761fdfdea1e9bc39aa9b260f994218fba06d23cb6",
+  "cases": [
+    {
+      "sequence": 350,
+      "case_id": "civ6-queue350-actual-twoitem-queue",
+      "mode_id": "http-candidate",
+      "shared_commit": "9e7f44e05e04295a4f77fe17dd73e8bcfcd988cf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2400,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T07:02:22.835649+00:00",
+      "attempt_end_utc": "2026-11-04T07:02:42.693818+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 19858.20870002499,
+        "first_nonempty_content_delta_ms": 12925.887700053863,
+        "usage": {
+          "prompt_tokens": 50297,
+          "completion_tokens": 931,
+          "total_tokens": 51228
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T07:02:22.835649+00:00",
+          "end_utc": "2026-11-04T07:02:42.693818+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 19858.20870002499
+        }
+      ],
+      "adoption": "zero code",
+      "review": "Actual raw Lua software shows sensorerror swallows original0calls and restore leaves wrapper; ordinaryleader PlayerIDnil means observerneverinstalled. Restore mostly prose/comments, no savedoriginal/table/wrapper identity. Whole source closure given; not transported failure.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 351,
+      "case_id": "civ6-queueroutes351-actual-twoitem-queue",
+      "mode_id": "http-candidate",
+      "shared_commit": "9e7f44e05e04295a4f77fe17dd73e8bcfcd988cf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 1800,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T07:02:22.835442+00:00",
+      "attempt_end_utc": "2026-11-04T07:02:38.472763+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 15637.314599996898,
+        "first_nonempty_content_delta_ms": 11781.858899979852,
+        "usage": {
+          "prompt_tokens": 50247,
+          "completion_tokens": 363,
+          "total_tokens": 50610
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T07:02:22.835442+00:00",
+          "end_utc": "2026-11-04T07:02:38.472763+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 15637.314599996898
+        }
+      ],
+      "adoption": "partial source facts only; zero code",
+      "review": "Confirmed VALUE_SWAP/source/destination queueindices and click-select/clicktarget route. Reject claim OnItemClicked is inaccessible local: actual global definition. swap_route is string not requiredarray, so owner does not consume schema wholesale. Full physical pair not yet run.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "actual_client_inflight_for_cases": {
+    "actual_peak": 2,
+    "seconds_at_peak": 15.637114,
+    "longest_seconds_at_peak": 15.637114,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "cumulative_frozen_through351": {
+    "logical_requests": 351,
+    "complete_stop_json": 327,
+    "length_whole_discarded": 21,
+    "final_transport_failed": 3,
+    "http_attempts": 381,
+    "extra_retries": 30,
+    "current_http_inflight": 0,
+    "new_opencode_native_generation": 0
+  },
+  "raw350_software": {
+    "raw350": "ZERO_ADOPTION",
+    "software": [
+      {
+        "protected": true,
+        "wrapper_installed": true,
+        "sensor_call_ok": false,
+        "calls_to_original": 0,
+        "pointer_restored": false
+      },
+      {
+        "protected": false,
+        "wrapper_installed": false,
+        "sensor_call_ok": true,
+        "calls_to_original": 1,
+        "pointer_restored": true
+      }
+    ],
+    "failures": [
+      "Sensor getter exception prevents actual original forwarding, no pcall despite contract.",
+      "Restore is comment/prose and retains wrapper; no original/table/wrapper identity retained.",
+      "Guard.PlayerID nil ordinary leader never installs observer, so positive comparison invisible."
+    ],
+    "native_executed": false,
+    "351": "swap_route wrong schema type; source facts only under owner review; OnItemClicked is GLOBAL actual definition, not inaccessible local as claimed."
+  },
+  "additive348349_native": "Actual normal70 coldloaded same68 real faultcheckpoint; rawproperty OBSERVED/eventSeentrue/sameserial/token and realreligion/beliefs, no diagnosticInspect/event/order replay; receipt automatic recovery narrow PASS. Partial adoption grades unchanged. Fresh new70prophet chain not in this frozen snapshot.",
+  "maintenance": "Same localNov4 OpenCode1.19.5 successcache/currentDIRECT sharedcaller; ordinaryHTTP not nativegeneration.",
+  "unknown_costs": {
+    "exclusive_owner_phase_seconds": null,
+    "cached_tokens_if_unreported": null,
+    "server_queue_wait": null,
+    "net_savings": null
+  },
+  "owner_notes": [
+    "First70Continue guard rejected staleimage beforeledger/input. Fresh actualcapture and ownedforeground metadata then one physical Esc; no game/ability replay.",
+    "350 code not run Native; owner will reuse previously verified329 forwarding/restore pattern for actualtwoitemroute.",
+    "351 actual globalcallback and structuredtype errors rejected, so not wholedata adoption."
+  ],
+  "next_real_trigger": "Fresh pre-acquisition75 Debugperson automatic fullchain, then persisted complete reload/legacy as needed; actualtwoitemqueue ordinaryleader/protectedBaiqi pair after owner observer verification."
+}

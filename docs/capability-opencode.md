@@ -61,6 +61,8 @@ CLI区间总和2171.995330s（约36分12秒），跨任务有并行，不等于�
 
 55负责人后到521项软件通过及54内隔离55组件只读对照，0新增HTTP／OpenCode原生生成；不是55整局／性能通过。[后到记录](evidence/2026-11-03-civ6-qualification-geometry-followup.json)。
 
+Civ6350／351普通HTTP：诊断350实际Lua反例后0采用，351部分路线事实；后到348／349真实70冷恢复窄通过不改部分采用。0新增OpenCode原生生成。[精确pin与分开证据](evidence/2026-11-04-civ6-native70-recovery350351.json)。
+
 Civ6348／349普通HTTP测试与Bootstrap块部分采用；owner修夹具容器／负例与失败停止，999软件通过，Native70待冷载。维护成功缓存不授OpenCode原生生成。[精确pin与实际Native69失败](evidence/2026-11-04-civ6-prophet-bootstrap348349.json)。
 
 Civ6346／347普通HTTP：346无效回归在旧68已绿、0采用；347length整丢弃未读，owner69修复软件通过，原生仍待测。Nov4缓存维护不等于OpenCode原生生成。[Native68失败与精确业务pin](evidence/2026-11-04-civ6-prophet-delayed346347.json)。
