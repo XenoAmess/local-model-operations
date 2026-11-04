@@ -378,3 +378,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-05：Civ6387—388首日维护与候选分账
 
 本机BF-202609141645 Nov5首模型使用前实际dailycheckinstalled/latest1.19.5、updated=false，同用户388复用成功缓存。两个普通HTTP，387length整弃、388编号域错误全拒绝；0新OpenCode原生生成，owner74冷启动不是原生生成能力。[维护及业务证据](evidence/2026-11-05-civ6-native74cold387388.json)。
+
+
+### 2026-11-05：Civ6389—392普通HTTP与诊断接入
+
+0新增OpenCode原生生成；同机Nov5维护1.19.5成功缓存复用。四完整HTTP原稿均0代码，owner10软件与Native四绑定安装分列，财政及网络隔离未通过。不授OpenCode源码能力或净节省。[证据及业务pin](evidence/2026-11-05-civ6-finance389392.json)。

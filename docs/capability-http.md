@@ -2610,3 +2610,7 @@ Test候选按owner先给的精确合同在原fail前引用resource，未新增�
 [后到Native首编回执](evidence/2026-11-05-http-sway-diagnostic-first-compile-later.json)核对同一14086B/70c06137候选，仅1新TU严格0/4class，ACTUAL6.2610228秒、operator7.5103055秒，stdout/stderr0、terminal/post/fence/managedClose闭合且reservation已释放。模型完整方法仍为原样source采用、owner语义修改0，但原诊断和分支合同是owner先给；此次未编Service、不重旧绿或加镜像Test，RUN0。
 
 原source-only切点不回写；首编不授Runtime装载、实际error详情、自然场景、完整G2或提速。原编译绑定ad7e源交接，f871只是下次复核/保护期限字段的后到说明，不是替换输入；该首编在后到OOME前已闭，不能反授其根因或失败。本次后见仅核原件元数据，0新HTTP/编测/Game/现host操作，完整owner成本与净收益未知。
+
+## 2026-11-05：Civ6389—392，被动观察与候选源审
+
+四个普通HTTP均stop／DONE／合法JSON，峰2累计17.307495秒、0额外重试。389回环实际连接返回错误-1，390真实SDK编译C2039，391复制无关WorldInput接口和64上限，392静态合同／清理／阻断判据错误，原稿0代码采用；不能把完整传输当组件正确。负责人被动四绑定观察器10项新软件通过、原生目录userdata类型修正后安装；只保存调用前标量，原函数一次且异常／末尾nil返回保持，外来绑定先核全部再清理。QA损坏资产、改初始库存和移除一个文职只属于财政场景准备，尚非财政效果；未执行WFP。[精确原稿分级与业务pin](evidence/2026-11-05-civ6-finance389392.json)。两类成本、缓存及净节省未知。
