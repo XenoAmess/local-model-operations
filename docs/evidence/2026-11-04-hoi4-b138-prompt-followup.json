@@ -1,0 +1,83 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B138-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T08:27:38.443666+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T08:14:12.514522+00:00",
+    "window_ended_at_utc": "2026-11-04T08:14:16.295346+00:00",
+    "window_seconds": 3.780824,
+    "peak": 1,
+    "peak_duration_seconds": 3.780824,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b138-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 1008,
+        "completion_tokens": 514,
+        "total_tokens": 1522
+      },
+      "failure": null,
+      "content_ttft_ms": 415.2889999677427,
+      "total_ms": 3781.918799970299,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "4ce3f1609bf43f55d507d9504a832777a0c0d057332f54efdd7cd1a4e651760e",
+      "summary_sha256": "fd350794a7588be021769b40b61dd4b108ea0d2be8f0e3cc181c1a560d787858",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "904b15f23aeb4ba22988a0b1185119c8d77984463f6f9d455984496a907b153d",
+        "task_id": "hoi4-20261104-b138-prompt-01",
+        "request_sha256": "4ce3f1609bf43f55d507d9504a832777a0c0d057332f54efdd7cd1a4e651760e",
+        "summary_sha256": "fd350794a7588be021769b40b61dd4b108ea0d2be8f0e3cc181c1a560d787858",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Verified both SHA domains. Complete candidate retains actual receding brown-grey hair/temples/brows, tiny original upper-lip extent/CLEAN chin, strong source left angle/roll/smaller placement, dark suit/pale shirt/BLACK-DARK GREY long tie and beige-khaki backing.",
+          "Owner independently restates shallow short broad U close beneath mouth/raised broad source collar contact, no low tip/long yellow throat and no previous generated uniform reuse. Exact two-input authority/literal creature eyes/grey mouth independently checked; no model pixels/art approval.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "64ac042ddaf4dd0ae427f12c9a7643fec4c0f218c6fbb77327c78611df1d06a5",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2718,
+        1184
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b138-sources.json",
+    "sha256": "15a7ac93b61ffdc398b382e7fd35ceb852b7b0e0f5ce1d5ab45b4e3eb0ad092b",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T08:22:27.354482+00:00",
+  "stage_at_cutoff": "One independent receding-hair black-tie source",
+  "owner_review": "Kept actual receding brown-grey hair/temples/brows/subtle upper-lip extent/clean chin, primary strong left pose/roll/smaller placement, black-dark grey long tie and beige-khaki backing. Independently restated short broad rounded lower head/source collar contact and no previous generated uniform reuse.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
