@@ -16,6 +16,12 @@ owner把稳定system、完整当前源码/合同、变化的任务/诊断组成�
 
 [换代CLI后到首验934](evidence/2026-11-04-rollover-cli-software-first934.json)仅新增1个合成DATA方法：实际prepare、apply和故意改变READY后的拒绝，3次helper返回0/0/2，方法通过、进程2.448621s。原模型完整代码拒收、0采用保持不变，owner175行Test与31个输入pin对应；旧4方法及publisher旧绿未重跑。SourceReady至实际记录6961.565627s包含准备、协调和资源等待，不把嵌套进程耗时当节省，也不授活跃队列迁移或热切换能力。
 
+## 2026-11-04：小工厂原样选择与完整Test拒收并存
+
+[原作者批准的typed-state源码后续](evidence/2026-11-04-typed-state-source-followthrough.json)保留两个30行/18行小装配工厂原样选择、0owner代码改动；这仍是源码采用。两个Test仅提高输出预算后完整返回8949/5001tokens，仍因具体Java/合同错误整拒，由owner完成；另一个Test两次length均整未读弃、没有第三次请求。完整counter的NoBlocker也不能批准未见候选，原作者只保留逐源核实的有限事实。
+
+三次预算修订的actual payload仅max_tokens不同，是原作者离线机械比较结果，本条不冒Ops独立原件审计。generation、准备、纠错、验证与含重叠的墙钟分列，主动工时/CPU未知；软件、实际装载和自然业务资格仍各待原owner回执，不为并发数字增加任务。
+
 ## 基线案例
 
 | case_id / 观察 | 输入与实际结果 | 采用、验证及边界 |
