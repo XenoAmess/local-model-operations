@@ -370,3 +370,7 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-04：Civ6377—382继续区分HTTP与OpenCode
 
 六HTTP任务五完整、一length整弃；0新增OpenCode原生生成，Nov4同机1.19.5成功维护缓存复用。377／378／381部分参考，380／382代码0，379不提取。owner观察器及Native自然征城通过不能追认为模型原生工具能力。[精确候选、owner修正和游戏边界](evidence/2026-11-04-civ6-minor377382-native73.json)。
+
+### 2026-11-04：Civ6383—386四普通HTTP候选
+
+四完整HTTP，0新增OpenCode原生生成；Nov4同机1.19.5成功维护缓存复用。383／384部分事实，385补丁0、386原六测全失败0采用。owner8回归／全1029及74包不是模型代码、OpenCode工具或Native财政压力通过。[来源与精确业务pin](evidence/2026-11-04-civ6-budget383386-source74.json)。
