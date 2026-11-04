@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B109-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T02:20:36.828080+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T02:03:58.524275+00:00",
+    "window_ended_at_utc": "2026-11-04T02:04:03.614568+00:00",
+    "window_seconds": 5.090293,
+    "peak": 1,
+    "peak_duration_seconds": 5.090293,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b109-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 1052,
+        "completion_tokens": 496,
+        "total_tokens": 1548
+      },
+      "failure": null,
+      "content_ttft_ms": 473.9388999878429,
+      "total_ms": 5083.045699982904,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "6bddad487ad4f096d16f3875a02baa7c632e88f366d009006e60b5aab5670c49",
+      "summary_sha256": "f376008ff2a8d42e404a6b9db115fd3b5e14c9733d4e38d110202eb1f24d4aca",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "23db544ac45cffdc8f6f64bf12f5de659aaf7898e07560bd87716c6cc6ecba69",
+        "task_id": "hoi4-20261104-b109-prompt-01",
+        "request_sha256": "6bddad487ad4f096d16f3875a02baa7c632e88f366d009006e60b5aab5670c49",
+        "summary_sha256": "f376008ff2a8d42e404a6b9db115fd3b5e14c9733d4e38d110202eb1f24d4aca",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Verified both SHA domains. Primary source sheet observed before text POST; direct native/nearest crosscheck completed after that POST and before actual image preparation, confirming receding dark side hair/full dark beard, OPEN navy suit/pale shirt/BLUE SHORT BOW, near-frontal mild image-left pose and BLUE-GREY backing.",
+          "Re-read actual user mascot reference after independent B107 image failed true creature fusion. For this NEW uncalled source, SOURCE contract and final owner preparation explicitly restate LARGE GREEN-RINGED BLACK eyes, simple GREY mascot mouth and smooth creature anatomy without human eyes/nose/lips/wrinkles recolored yellow. No rewrite of old actual prompt or controlled cause/improvement claim.",
+          "Preserve actual source scalp/brow/beard HAIR separately from creature anatomy; tiny bow details understated. No image pixels/visual qualification from local text model.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        3012,
+        1184
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b109-sources.json",
+    "sha256": "5d20e6c18142fa940c558d82b147933eb8cdae57d47e636b2b8c70b6326af49f",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T02:08:07.404039+00:00",
+  "stage_at_cutoff": "One new source-bound LOW original prompt was frozen uncalled at its recorded prepared cutoff. Literal mascot identity constraints added only to this new task and final uncalled preparation; original prior called prompts remain unchanged.",
+  "owner_review": "Both SHA domains verified. Primary sheet was observed before POST; direct unchanged native/nearest crosscheck occurred after text POST and before image preparation, confirming source features. Candidate explicitly retained LARGE GREEN-RINGED BLACK creature eyes/simple GREY mascot mouth/smooth creature anatomy, receding dark side hair/real brows/full dark moustache-beard, OPEN navy suit/pale pointed shirt/BLUE SHORT BOW, PRIMARY mild image-left angle and BLUE-GREY backing. Owner final preparation independently restated mandatory creature identity after separate B107 failed image/adoption omission audit. No old source/candidate/prompt bytes rewritten or wording-only cause/improvement proof; model received owner text, not image pixels.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
