@@ -1,0 +1,74 @@
+{
+  "schema": "local-model-operations.CI-lobby-component-software-later/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ci-lobby-software-lane-selection-20261105-01",
+  "prior_source_cut_commit": "f6e33ab2f7084ad3ada056d5997fbab5d3276909",
+  "prior_cut_preserved": true,
+  "business_commit": "cbd7919a5480cbbdcbc542dd695557d78965ef77",
+  "official_run": 41920385302,
+  "qualified_tools": {
+    "observed_UTC": "2026-11-04T23:00:30.199897400Z",
+    "status": "PASS",
+    "source_postcheck": "MATCH",
+    "compiled_source_postcheck": "MATCH",
+    "Maven_exit": 0,
+    "Maven_seconds": 555.301976,
+    "total_tests": 1199,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "new_ControlBuildLobbySoftwareLaneTest": {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "reported_seconds": 0.129
+    },
+    "source_pins": {
+      "ControlBuild.java": {
+        "bytes": 230377,
+        "sha256": "ab467e049cbc5f5700e07179811b1db9011af9e63c476c32952f367b72b70845"
+      },
+      "ControlBuildLobbySoftwareLaneTest.java": {
+        "bytes": 6712,
+        "sha256": "43d6217e63e689bc43cca67e1d45a27400554cca000bff164bebcfca93732054"
+      }
+    },
+    "receipt_pin": {
+      "bytes": 202267,
+      "sha256": "3a1da2ab067b5e8e14b36be5e51999dc3c580facfeec8683c674ccd4d5440d82"
+    },
+    "stdout_pin": {
+      "bytes": 66260,
+      "sha256": "ced996c6c2bcee818296f7ce06b2a48344c178b47eaf073b1ae6ddf470221c9e"
+    }
+  },
+  "subsequent_qualified_child": {
+    "exit": 1,
+    "seconds": 1.6307527,
+    "cause": "NoSuchFileException: tools-postqualification/actual.json at ControlCi.runQualified1947",
+    "stderr_pin": {
+      "bytes": 1432,
+      "sha256": "159e2b82aebe6064d48c54d248afd002db471f5fd26a1a7e8ccf311e58c09416"
+    },
+    "pipeline_log_pin": {
+      "bytes": 1001,
+      "sha256": "cadb179a3840b892fa08d3f5e81a7cc397625da47186abb9276dfa39632bf7b0"
+    }
+  },
+  "whole_official_run": "failure",
+  "full_reactor_actual_HTTP_pipeline_or_whole_CI_pass_granted": false,
+  "model_adoption_unchanged": "Only exact external-three-key predicate and Test structure partial; owner corrected API, null lookup, pin/blank/tamper assertions and malformed raw hunk. No unmodified model Test methods adopted.",
+  "source_review_prior_to_software_not_rewritten": true,
+  "new_generation_HTTP_JVM_CI_query_Runtime_Game_by_this_posthoc": 0,
+  "no_missing_receipt_fabricated_or_guard_skipped": true,
+  "component_pass_does_not_qualify_Native_or_Game": true,
+  "Models_posthoc_preparation_error": {
+    "stage": "before public writes",
+    "first_attempt": "UTF-8 strict decode of mixed-encoding Maven stdout failed",
+    "repair": "Match exact ASCII verdict bytes without modifying original log",
+    "business_or_model_failure": false
+  },
+  "owner_full_active_preparation_review_correction_time_and_net_savings": null
+}

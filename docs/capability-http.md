@@ -2811,3 +2811,10 @@ owner引用本机官方SDK实际接口／结构、修正WindowsANSI读回UTF8和
 ## 2026-11-05：Civ6401，奇观布景API资格
 
 401为真实未闭TC-031提供实际WorldBuilder调用者与现用快照／消费者；3000预算完整stop／DONE／合法JSON，3838+504tokens、4929.0058ms、TTFT2085.8903ms，1POST／0重试。拒绝全部候选Lua：把GameCore_Tuner上下文标签当env表，且if row.IsWonder把数值0也视真。谨慎结论仅复述给定合同，0代码／0新方案采用；未由候选造资产、转城或授奇观保留通过。owner改用真实上下文全局与既有严格flag规则，实际局内资格另核。[精确业务pin、参数、审阅与成本](evidence/2026-11-05-civ6-assets401.json)。
+
+
+## 2026-11-05：CI lobby 参数 lane 的组件通过与后置失败
+
+[已有正式 CI 原件的后到独核](evidence/2026-11-05-http-ci-lobby-component-software-later.json)确认 cbd7919a / Official41920385302 的 build-qualified-tools 为 PASS，源码及编译源码 postcheck 均 MATCH；Maven exit0、555.301976秒，1199项测试0错误/失败/跳过。新增 ControlBuildLobbySoftwareLaneTest 明确4P、0.129秒，绑定原 owner 修后 ab467e04/43d6217e；旧源码切点保留，后到软件资格不回授原模型整份 diff 或未经修改的方法。
+
+随后 qualified child exit1、1.6307527秒，因 tools-postqualification/actual.json 缺失在 ControlCi.runQualified1947 失败；整条 Official 仍 failure，不授完整 reactor、实际 HTTP 链或 wholeCI 通过，也不撤销前段组件4P。不能伪造缺失文件或跳过后置合同。模型采用仍仅三键谓词与 Test 结构 partial，API/边界断言由 owner 修正；本附页0新生成HTTP/JVM/CI查询/Runtime/Game，不把1199项旧组件测试全算模型收益，完整主动成本与净收益未知。
