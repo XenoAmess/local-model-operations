@@ -2261,3 +2261,12 @@ M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-co
 [实际upper候选反审](evidence/2026-11-04-http-upper-borrow-counter04.json)的10whole源与实际wire一致，完整340token答复仍把已供lookup、lambda与清理体说成缺失；0finding/代码/批准、0R2，也不能由错误回答反推server截断。单TU首次typecheck0仅是类型层，未授Root合法行为夹具或Runtime。
 
 [独立lower helper的软件后见](evidence/2026-11-04-checked-scope-helper-software-later.json)保owner整method与独立Test、1新prod/1新Test首次严格编译和3指定方法通过。软件tuple来自source owner，Models本附页未新跑或冒独立raw消费；ordinary impl整拒、既有native13轮0finding只引用不再计数。18.2667605s只是3进程和，4465.095806s全任务墙窗与active未知分列；只授zero-CAS有限软件，不授physical retention、整upper回调或部署速度，formal仍是本cut pending。
+
+
+## 2026-11-04：既有FP门有限成熟、metadata顺序与owner首失败保留
+
+[305—308有限成熟后见](evidence/2026-11-04-fp-gate305-308-mature-later.json)保4原叶、11direct有限case、7成功phase与8.5695737s进程和；原cmd transport RED与错误formal口述撤回分别记录，只305/306的正式pair已证，307/308在本cut仍pending。它不改旧模型采用分级、不授硬件FP或wholeHash。
+
+[token及既有软件后见](evidence/2026-11-04-token-and-existing-mature278-later.json)只附一次纯metadata helper和独立旧first/formal tuple，保Ready/inventory basename与fullfilename排序域的实际纠错；prepare0不授JDK/运行，原source cut和分母不改。
+
+[owner首失败660/663](evidence/2026-11-04-owner-first-failures660-663.json)保first frame AssertionError与预存UTF8 BOM导致的首strict RED；前者未到后续child，后者0class/0RUN，均不归模型或HTTP。后续[窄source订正660/661/663](evidence/2026-11-04-owner-narrow-corrections660-661-663.json)分别只改两literal字段或去3B BOM，661是在未START前源核，不冒实际红；所有corrected编测仍UNKNOWN于该cut，不因byte reconstruction授numeric oracle或软件绿。各次墙窗、metadata、编测与active未知分列，不新增请求、场景或速度信用。
