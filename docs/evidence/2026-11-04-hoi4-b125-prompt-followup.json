@@ -1,0 +1,83 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B125-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T06:37:39.086896+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T06:35:09.048477+00:00",
+    "window_ended_at_utc": "2026-11-04T06:35:13.059913+00:00",
+    "window_seconds": 4.011436,
+    "peak": 1,
+    "peak_duration_seconds": 4.011436,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b125-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 966,
+        "completion_tokens": 511,
+        "total_tokens": 1477
+      },
+      "failure": null,
+      "content_ttft_ms": 417.8960000281222,
+      "total_ms": 4011.5147000178695,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "be3a3637cfa670bb343c6c99050b6d59204b6cd14deaf2a11288e3fa068ae798",
+      "summary_sha256": "b450f9d454fefc95217ef16c81167486e00358f54f72b24b84c473b3cbb3f013",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "cad2ed7f4f93c09aa8eb7f41d9f20cb4ba05981d70838c69fde58e038231f771",
+        "task_id": "hoi4-20261104-b125-prompt-01",
+        "request_sha256": "be3a3637cfa670bb343c6c99050b6d59204b6cd14deaf2a11288e3fa068ae798",
+        "summary_sha256": "b450f9d454fefc95217ef16c81167486e00358f54f72b24b84c473b3cbb3f013",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Both source SHA domains verified. Candidate accurately retains actual voluminous brushed-back dark hair/real brows/CLEAN face, subtle parted expression, strong primary leftward near-profile view, open dark jacket/pale collar and only a tiny muted olive-gold exposed neckwear fragment, blue-grey backing and literal creature identity.",
+          "Owner restates black/brown hair and jacket as actually observed, no expanded uncertain tie/bow/pin and no rotation toward frontal. Independent shallow short rounded lower-head/raised source collar contact and exact Image1 source/Image2 anatomy roles retained; no model pixels or art qualification.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2676,
+        1184
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b125-sources.json",
+    "sha256": "e572a79abb5185a5a64cff61a3f175a1b737f78b46515b42f36d07a6a40172a0",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T06:37:34.455862+00:00",
+  "stage_at_cutoff": "One strongly left-facing political-advisor source with limited visible neckwear",
+  "owner_review": "Kept tall brushed-back dark hair, clean face, subtle parted mouth and strong primary leftward view; retained only the tiny visible muted neckwear footprint instead of inventing a complete tie. Independently checked source authority, mascot identity and short rounded collar contact.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
