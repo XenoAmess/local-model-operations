@@ -2855,3 +2855,10 @@ M6全文源审拒绝完整类及两个新增方法，0partial/0modelJVM：缺真
 [Java全文源审与已有compact计数](evidence/2026-11-05-http-read-validation-source-review-later.json)在原pending切点外追加：实施代码0采用。原稿把required返回类型改成错误publisher，缺ActionPorts import、匿名read参数不覆真实OutcomeArchive接口，Head用state.equals而非canonicalBytes，遗漏inside-before及outer-after闭包；匿名新type违反合同、默认路由漏原nonnull检查，hunk/header也不对应实际源。保完整stop原件及20.200秒/TTFT10.615秒成本，不R2，0编测不冒软件红。
 
 后到a88f458f表明此单closed窗口Reader/flushActualReads等目标无捕获presence，不能推出0调用或cache不活跃；inclusive planning wrapper不足证明本消费者热点。owner据此不为已POST制造接管实现/编测或采用，优先已有样本中的ACA.reduce/canonical链；真实后续需求另定，不是复投本失败单元。原候选切点保留，本附页只读既有小数据，0新HTTP/JVM/JFR采样/Runtime/Game，无提速、收益或永久模型边界证明。
+
+
+## 2026-11-05：实际 CompositeSettled 消费者的窄 predicate 首派
+
+[新的五完整源实现单位](evidence/2026-11-05-http-composite-settled-read-scope-candidate.json)给216348B当前源/4181B合同，只要求ACA既有withReadValidation predicate增加Gameplay-origin CompositeSettled，最多相邻注释；原Intent/Submitting、Operator/physical排除、完整Head/session/TL/poison/finally、全部原traversal/proof及scope界限逐字留。owner已先诊断并指定该分支，不算模型自主发现。实际小样本native3/291、allocation163/148只导航，不授主因/调用次数/提速；这是不同真实消费者，不复投旧READscope。
+
+固定三消息/DIRECT/max1800，一次HTTP200/stop/DONE/有效JSON，11.0250148秒、有效TTFT5.7311216秒、43244+396tokens、cachednull，1963B原件即交Java。CONTENT=SSE UTF8、审计0discrepancy，此切点仅待源审，未授采用/编测/正式/装载/收益；即使0新方法/字段，新增Gameplay引用可能改变外部InnerClasses，不能凭源码预授redefine。455终态/455租约释放、0源在途，0JVM/UI/Runtime/Game/GET/期限修改，无参数改动、不R2；健康运行不为此停机，完整主动成本与净收益未知。
