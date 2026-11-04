@@ -2555,6 +2555,12 @@ owner接管只读UI自有城市资产工具和四项行为检查：完整建筑�
 
 请求保原row/source/legacy/operator/head/bytes与身份检查，不新增type/cache/依赖，不改其它caller或单次IO期限；这只是owner给出的源合同，没有候选或执行证明。单个实际stack只证调用路径，不是R×H次数、CPU比例或提速验收。编测/Runtime/C/GET/Game均0，原同局恢复不等待此源任务，完整owner成本与净收益未知。
 
+## 2026-11-04：mixed coverage独立完整Test在14000输出内仍未闭
+
+[独立新Test任务](evidence/2026-11-04-http-clean-coverage-mixed-test-length.json)提供13份完整源/scaffold633162B和成熟20743B helpers，要求一个完整类的2methods，覆盖真实canonical/legacy拒绝链与source/support/实际DomainImport头漂移；max14000。一次HTTP200/DONE，99.6400906秒/有效TTFT19.5016221秒，reported128151+14000tokens，finish=length。整份CONTENT未打开/解析/提取或拼接，0采用、不自动R2或拆半Test；已有helpers不计模型新贡献，未读半稿不作语义评分。
+
+此任务独立于已闭生产length ID，未重投旧题；输入被完整接收不证明最大context或缓存。无Test源码提取/编测、无健康LOOP/Game动作，owner接管完整单位，验收不作为当前游玩前置。源合同、准备、协调及后继owner工作均另有成本，没有完整工时或净收益证明。
+
 ## 2026-11-04：Civ6377—382，观察器发布、真实分派与输入落点
 
 六真实普通HTTP，五完整stop／JSON、379length整弃不提取。377部分布景／付费前态清单；378部分包装及清理主体，原局部命名空间不可清理且实际无重入守卫。owner首版_G发布在Native失败且已改绑定，先存准备档并重载销毁上下文，没有重放能力。380仍把发布放pcall外，真实拒绝发布试验留下两包装，名为拒绝发布的测试未制造拒绝，0代码／测试采用。owner把直接全局发布及保留检查纳入同一个pcall，失败只回滚自己的绑定，真实拒绝及外来替换检查通过。[逐例、精确业务提交与边界](evidence/2026-11-04-civ6-minor377382-native73.json)。
