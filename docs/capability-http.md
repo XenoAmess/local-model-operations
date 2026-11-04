@@ -2526,3 +2526,5 @@ owner继续门像素校验失败后未立即停止编排，四次查询在LSQ超
 [实际P0恢复任务](evidence/2026-11-04-http-clean-restart-io-phase-source.json)使用5份完整当前源602251B、原owner诊断与phase合同，max10000；一次HTTP200/stop/DONE，56.936264秒、TTFT15.1122941秒，reported118240+7400tokens，cachednull。完整33231B三源diff仍删除旧overload、重复Core的try、越界改初始恢复、post-local握手沿用旧deadline，整体0采用/0raw编测；只参考owner先已给出的延迟路由方向，owner接管不第二POST。POST后才定版的具体Supplier签名不当作模型已收到的要求；原合同中保旧语义/仅clean/后段共用期限的要求分别保留。完整输入被接收不证明最大context，HTTP时间不等于交付成本或实机提速。
 
 后到Java具名候选以3源13span逐字inverse保outside，source-only回执/e2f7750c确认owner完成稳定overload/Core/后段共享deadline接线；原模型diff仍0代码采用，未编测/装载。短PREP区间与已起草脚本在同一host执行批中，仅记机械应用，前置起草工时未知，不把它称完整准备节省。
+
+[独立Test真实任务](evidence/2026-11-04-http-clean-restart-independent-test-source.json)另给8完整源455569B、成熟canonical scaffold与已明确的新overload合同，max12000；一次HTTP200/stop/DONE，31.4318714秒/TTFT12.025129秒，reported93294+3341tokens。完整15553B类仍发明API、直接new私有admission、违反checked异常合同，缺packet/deadline消费者及新generation记录，并用head自身等式冒验证；全部新增methods源审拒收，0JVM/非编测红。原scaffold是owner既有源，owner接管真实capture→admit/endpoint，不R2；完整JSON和caller0不等于可用Test或净收益。

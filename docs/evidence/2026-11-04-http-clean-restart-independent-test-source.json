@@ -1,0 +1,96 @@
+{
+  "schema": "local-model-operations.http-clean-restart-independent-test-source/v1",
+  "case_id": "ck3-clean-restart-readonly-io-independent-test-20261104-01",
+  "mode_id": "http-candidate",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "recorded_at_utc": "2026-11-04T13:47:17.533606+00:00",
+  "scope": "One real new JUnit class covering the deferred read-only IO deadline through actual canonical admission and transport consumers, independent of the production implementation task.",
+  "input": {
+    "complete_source_files": 8,
+    "physical_source_bytes": 455569,
+    "source_message_utf8_bytes": 458188,
+    "messages": [
+      "system",
+      "user",
+      "user"
+    ],
+    "owner_supplied_scaffold_bytes": 7761,
+    "provided_contract": "Actual existing canonical writer fixture and transport/protocol source, mechanical scaffold, explicitly fixed new production overload contract, three meaningful tests and finite software packet/deadline requirements. Private admission must be obtained through the real capture/admit chain, never constructed.",
+    "future_API_boundary": "The complete production source was pre-fix; the forthcoming opt-in overload contract was explicitly supplied in the Test task. No unseen production model answer was supplied."
+  },
+  "actual_request": {
+    "model": "qwen38-coder",
+    "max_tokens": 12000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    },
+    "output": "One complete_java JSON string containing one complete new Java21/JUnit class."
+  },
+  "actual_result": {
+    "POSTs": 1,
+    "ENDs": 1,
+    "started_at_utc": "2026-11-04T13:43:02.158542+00:00",
+    "HTTP_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "HTTP_total_seconds": 31.4318713999819,
+    "valid_content_TTFT_seconds": 12.025129000016022,
+    "usage": {
+      "prompt_tokens": 93294,
+      "completion_tokens": 3341,
+      "total_tokens": 96635
+    },
+    "cached_prompt_tokens": null,
+    "source_UTF8_bytes": 15553,
+    "source_SHA256": "890319cfdd104b6f78cb197b68240c4ede94918eb70d6af5e2abad342d3c3307",
+    "caller_exit": 0,
+    "dispatcher_terminal": "RETURNED_NORMALLY_PAIRED_END"
+  },
+  "source_owner_review": {
+    "grade": "ALL_NEW_TEST_METHODS_REJECTED_BEFORE_COMPILATION",
+    "findings": [
+      "Invented admitCleanRestart, borrowed-session and original-evidence reader calls do not match the supplied actual API.",
+      "Direct private-admission construction violates the explicit actual capture-to-admit contract.",
+      "The Supplier body throws a checked IOException; the sleep reader fails to handle InterruptedException.",
+      "The promised software packet helper, newer HELLO generation and actual deadline-consumer recording are missing.",
+      "A head compared to itself is a tautology, not the required unchanged-head observation."
+    ],
+    "model_new_methods_adoption": 0,
+    "mechanical_scaffold_credit": "Existing owner source, not newly generated model contribution.",
+    "owner_takeover": "The independent owner implements the real capture/admit and software endpoint chain; no semantic R2.",
+    "named_owner_source_review_receipt": "NOT_HELD_AT_THIS_CUT"
+  },
+  "execution": {
+    "raw_model_JVM_starts": 0,
+    "tests_run": 0,
+    "compiler_or_software_failure_claim": false,
+    "new_Game_Runtime_or_performance_credit": false,
+    "old_task_rePOSTs": 0,
+    "new_OpenCode_native_sessions": 0
+  },
+  "cost": {
+    "preparation_begin_utc": "2026-11-04T13:42:01.1374068+00:00",
+    "preparation_end_utc": "2026-11-04T13:42:55.444192+00:00",
+    "owner_active_seconds": null,
+    "review_or_correction_seconds": null,
+    "CPU_seconds": null,
+    "net_savings": null,
+    "boundary": "Source/scaffold preparation, test-contract design, admission, result handling, source review and owner takeover are additional task work. HTTP duration is not full delivery time or a measured saving."
+  },
+  "privacy": "No raw fixture, private source/answer/request, machine-local paths, oracle or game material is published."
+}
