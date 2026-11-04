@@ -2222,3 +2222,10 @@ M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-co
 [planner848](evidence/2026-11-04-dispatch-public-binding-first848.json)仅2affected方法0/0.2934343秒、12pins，另唯一新synthetic CLI0/0.2262544秒，产1个SEND DATA且actual_start=false/plansexecuted0；原796八个sameAST方法和历史CLI不重。[builder849](evidence/2026-11-04-pending-public-binding-first849.json)仅2changed方法0/0.3014663秒、14pins，原824三sameAST/整5及旧796/历史CLI均未重。三ACTUAL/Before/terminal/raw与当前public pins机械核等，recorded retainedHANDLE PID/birth跨记录一致，不伪称独立前后birth两观察。
 
 原source-publication/pending及原model attribution逐byte保留，不新增模型role或业务执行case。324/455秒源准备、.1164022/.003195秒metadata helper、共享89秒原owner消费窗口与三child耗时分开，不相加作active/CPU/节省。仅公开DATA软件资格，0当前授权真实性/actualdispatch/collab/DB/Game/Java/自动采样或速度。
+
+
+## 2026-11-04：完整源输入下的有限拒收与既有 guard 正式后见
+
+[公共分支278的冻结切点](evidence/2026-11-04-http-public-branch278-cutoff.json)保留两次完整 stop、错误继承判断和 frame/字节序反审拒收；raw-Java Task 与实际 JSON mode 的 owner 张力独立记账，原请求不回写。[历史调用者初轮](evidence/2026-11-04-http-historical-caller-initial-round.json)的两份完整源意见均无代码采用，阴性设计和假设反例不授全局不可能性或后来 helper 资格。两案都保源字节、实际 HTTP 和未知主动工时。
+
+[既有 call protocol guard 正式后见](evidence/2026-11-04-call-protocol-guard264-formal-later.json)只附薄 publication receipt 与 owner 报告的旧首次复用；Models 未新核 Native raw、Git/remote 或 compiled/formal EOF 等式。没有新 HTTP、编测、case 分母或 Runtime/natural 信用，原 pending 切点不改。
