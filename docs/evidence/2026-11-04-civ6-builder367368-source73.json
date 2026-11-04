@@ -1,0 +1,182 @@
+{
+  "schema": "local-model-operations.civ6-builder367368-source73/v1",
+  "date_local": "2026-11-04",
+  "published_at_utc": "2026-11-04T12:13:43.395483+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/756b71e328ce3cf0d62d8681abf4736f782f85e1/docs/research/baiqi-p6-source73-queued-move-evidence-2026-11-04.json",
+  "business_evidence_sha256": "855a84854919ad961ebcf696e9ed378264965c7f8bd8d9bcb7cf8a5309c9afed",
+  "cases": [
+    {
+      "sequence": 367,
+      "case_id": "civ6-builder367-queued-move-refresh",
+      "mode_id": "http-candidate",
+      "shared_commit": "638197d1689dc49b77ba448bd0e352bc4bcc3b56",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2100,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T12:04:30.157206+00:00",
+      "attempt_end_utc": "2026-11-04T12:04:50.376583+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 20219.097800028976,
+        "first_nonempty_content_delta_ms": 17021.100500016473,
+        "usage": {
+          "prompt_tokens": 66246,
+          "completion_tokens": 458,
+          "total_tokens": 66704
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T12:04:30.157206+00:00",
+          "end_utc": "2026-11-04T12:04:50.376583+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 20219.097800028976
+        }
+      ],
+      "adoption": "0rawpatch; diagnosisdirectiononly",
+      "review": "RemovesmovescriterionforALLgenericoperationsbutclaimsMOVE_TOonly. Actualnonmovecontrolfailsraw367. OwnernarrowsmovesexceptiontokindMOVE_TO; retainlegacyotheroperations.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 368,
+      "case_id": "civ6-builder368-queued-move-refresh",
+      "mode_id": "http-candidate",
+      "shared_commit": "638197d1689dc49b77ba448bd0e352bc4bcc3b56",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 3600,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T12:04:30.145036+00:00",
+      "attempt_end_utc": "2026-11-04T12:04:47.853796+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 17708.770799974445,
+        "first_nonempty_content_delta_ms": 15326.157199975569,
+        "usage": {
+          "prompt_tokens": 66226,
+          "completion_tokens": 95,
+          "total_tokens": 66321
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T12:04:30.145036+00:00",
+          "end_utc": "2026-11-04T12:04:47.853796+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 17708.770799974445
+        }
+      ],
+      "adoption": "0code",
+      "review": "test_moduleholdsfilenameonlyagain, noTestCase/methods. OwnerfouractualControllerreceiptbehavioraltests.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "actual_client_inflight": {
+    "actual_peak": 2,
+    "seconds_at_peak": 17.69659,
+    "longest_seconds_at_peak": 17.69659,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "cumulative_frozen_through368": {
+    "logical_requests": 368,
+    "complete_stop_json": 344,
+    "length_whole_discarded": 21,
+    "final_transport_failed": 3,
+    "http_attempts": 398,
+    "extra_retries": 30,
+    "current_http_inflight": 0,
+    "new_opencode_native_generation": 0
+  },
+  "verification": {
+    "private_before72": {
+      "tests": 4,
+      "failures": 3,
+      "errors": 0,
+      "failed_names": [
+        "test_same_turn_move_cost_change_does_not_complete_queued_route",
+        "test_turn_refresh_preserves_queued_move_until_coordinate_arrival",
+        "test_unknown_coordinates_and_changed_moves_do_not_complete_move"
+      ]
+    },
+    "raw367": {
+      "tests": 4,
+      "failures": 1,
+      "errors": 0,
+      "failed_names": [
+        "test_non_move_build_still_observes_consumed_movement"
+      ]
+    },
+    "owner73": {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "failed_names": []
+    },
+    "full": {
+      "tests": 1017,
+      "failures": 0,
+      "errors": 0,
+      "test_seconds": 73.13,
+      "subprocess_elapsed_seconds": 76.04847849998623
+    },
+    "frozen67_72_editmaps_and_clock_unchanged": true
+  },
+  "maintenance": "Nov4successfulOpenCode1.19.5cache; canonicalDIRECTsharedcaller/currentconfig; fixed3messages.",
+  "unknown_costs": {
+    "owner_cost_seconds": null,
+    "cached_tokens_if_unreported": null,
+    "server_queue_wait": null,
+    "net_savings": null
+  },
+  "limits": [
+    "Source/software/packageonly; Native73NOT_RUN.",
+    "Native72taskprogressFAILpreserved; noall40/performancePASS."
+  ],
+  "next_real_trigger": "Finishowned72officialexit,installnormal73,freshcurrentSteamofflineproof,coldloadsameoriginal110orpreciselylabelledsaved112,observequeuedmovementturnrefreshwithoutreplayandactualprogress.",
+  "native72_followup": "https://github.com/XenoAmess/civ6_dev/blob/5fd3600a0ae30b142c9b0c8389d80fcb4bb38fa8/docs/research/baiqi-p6-native72-queued-refresh-evidence-2026-11-04.json",
+  "phase_scope": "Source/software/package73. Laterinstall/startnotNativeeffectPASS."
+}

@@ -350,3 +350,7 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-04：Civ6361—366分账补充
 
 六次均普通HTTP候选；0新增OpenCode原生生成，复用本机Nov4成功维护缓存1.19.5。源码72全1013软件通过和owner真实Native71观察器12样本不能算OpenCode原生工具能力。361／362／364代码0，363两小片段、366一个纠正测试部分采用，365建议拒绝；[证据与精确业务pin](evidence/2026-11-04-civ6-builder361366-source72.json)。
+
+### 2026-11-04：Civ6367—368移动观察分账
+
+两次普通HTTP；0新OpenCode原生生成，复用本机Nov4维护成功1.19.5缓存。367跨类型补丁拒绝、368文件名非代码，owner四测／全1017软件通过，Native72失败另留，73实机待验；不把HTTP完整、owner测试或维护成功追认原生工具能力。[精确证据](evidence/2026-11-04-civ6-builder367368-source73.json)。
