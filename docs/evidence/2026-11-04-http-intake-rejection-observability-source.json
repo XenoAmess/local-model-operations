@@ -1,0 +1,76 @@
+{
+  "schema": "local-model-operations.source-case/v1",
+  "case_id": "HTTP-INTAKE-REJECTION-OBSERVABILITY-001",
+  "status": "APPROVED_SOURCE_ONLY_METADATA",
+  "permission": "The source owner authorizes this exact sanitized JSON body for normal shared main publication. No raw source, prompts, responses, private evidence paths or oracle content are authorized.",
+  "problem": "Metadata rejected before registration was silently skipped by the existing intake. A direct-drop owner could wait without an observable rejection record. The existing qualified publisher already rejected non-string transfer evidence before publication; no duplicate publisher validation was needed.",
+  "mode": "ordinary fixed three-message HTTP candidate",
+  "roles": 1,
+  "actual_POSTs": 1,
+  "actual_ENDs": 1,
+  "retries": 0,
+  "input": {
+    "whole_source_and_contract_files": 3,
+    "physical_source_and_contract_bytes": 32735,
+    "middle_message_utf8_bytes": 33397,
+    "task_utf8_bytes": 960,
+    "system_utf8_bytes": 301,
+    "actual_request_equals_frozen_and_original": true,
+    "private_oracle_candidate_and_Test_not_in_prefix": true,
+    "hint_level": "Complete public design and current implementation; not a blind oracle task"
+  },
+  "transport": {
+    "http_status": 200,
+    "finish_reason": "stop",
+    "SSE_DONE": true,
+    "strict_outer_JSON": "VALID",
+    "max_tokens": 6500,
+    "prompt_tokens": 8253,
+    "completion_tokens": 3551,
+    "cached_prompt_tokens": null,
+    "TTFT_seconds": 2.0042053000070155,
+    "total_seconds": 43.64305189999868,
+    "scope_peak": 1,
+    "global_inflight": "UNKNOWN"
+  },
+  "source_review": {
+    "whole_response_read_only_after_complete_result": true,
+    "complete_generated_python_bytes": 14132,
+    "whole_code_adopted": false,
+    "partial_code_adopted": false,
+    "selected_model_bytes": 0,
+    "R2": false,
+    "compiler_or_execution_failure_claim": false,
+    "concrete_rejections": [
+      "The complete proposal omitted the subprocess import while using it on every valid registration path.",
+      "The receiptless counter remained zero and existing closed tickets were omitted from the closed count.",
+      "A deferred pending item could incorrectly mark processing complete, and the required unclassified count was absent.",
+      "Observation enumeration was unbounded and its capacity check preceded idempotence; existing contents were not checked for immutable agreement.",
+      "Unsafe candidate entries could still disappear from accounting and filename identity used lossy transformation."
+    ]
+  },
+  "owner_source": {
+    "implementation": "Independent owner intake revision; original registrar bytes preserved",
+    "new_DATA_methods_prepared": 5,
+    "software_first": "PENDING_NOT_RUN_BY_OWNER",
+    "live_deployment": "NOT_ADOPTED",
+    "model_POST_began_before_owner_candidate_completion": true,
+    "owner_candidate_completed_before_model_END_and_before_first_CONTENT_read": true,
+    "new_sourceReady_before_model_semantic_review": true
+  },
+  "cost": {
+    "source_start_to_SourceReady_seconds_approx": 578,
+    "HTTP_overlaps_owner_work": true,
+    "do_not_add_overlapping_windows": true,
+    "active_exclusive_seconds": null,
+    "CPU_seconds": null,
+    "net_saving_seconds": null
+  },
+  "limits": [
+    "Transmission and strict JSON validity did not establish correct intake behavior.",
+    "Rejection observations are not final per-ticket failure receipts; later complete metadata may proceed while the observation remains.",
+    "Receipt existence and per-pass metadata counts do not prove actual registration, HTTP occupancy, global capacity or safe replay.",
+    "Five new DATA methods were prepared for the sole software executor; no old publisher or rollover green was rerun.",
+    "Original SourceReady and review cutoffs are preserved; later wire metadata does not backfill them."
+  ]
+}
