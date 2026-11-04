@@ -1,0 +1,271 @@
+{
+  "schema": "local-model-operations.bootstrap-owner-software-later/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "related_prior_case_commits": [
+    "4d406366e3378636fb770358e2c431a596b1ed26",
+    "731cde227202bb07fad14fb692cbdad182bca4d7"
+  ],
+  "earlier_source_only_and_review_pending_cuts_preserved": true,
+  "model_reviews": {
+    "production": {
+      "review_UTC": "2026-11-04T19:31:06.458029+00:00",
+      "review_pin": {
+        "bytes": 1580,
+        "sha256": "f326503edbdce91c20fc251f77d9478f1af11d35407732e22778d7528ba2b919"
+      },
+      "model_CONTENT_pin": {
+        "bytes": 15303,
+        "sha256": "ae72ce9d7fffdcf1e3b2d009722c8cc360296fd816f457bf614ab930e4773926"
+      },
+      "outcome": "COMPLETE_STOP_JSON_WHOLE_CANDIDATE_REJECTED_ZERO_ADOPTION_OWNER_TAKEOVER",
+      "model_code_adopted_bytes": 0,
+      "partial_adoption": false,
+      "HTTP_cost": {
+        "totalMs": 62865.850400005,
+        "TTFTms": 8905.756300024223,
+        "usage": {
+          "prompt_tokens": 38427,
+          "completion_tokens": 3330,
+          "total_tokens": 41757
+        },
+        "cached": null
+      },
+      "rejection_reasons": [
+        "private carrier constructed outside enclosing class",
+        "carrier.reference and currentDriverReference(carrier) not defined",
+        "explicit UnsupportedOperationException placeholder",
+        "actual Complete rebuild replaced by nonexistent scopedDriverDecode/assembler/FullSnapshot branch",
+        "reasoning ends with intent to generate/refine diff instead of a finished usable implementation"
+      ]
+    },
+    "independent_Test": {
+      "review_UTC": "2026-11-04T19:40:13.496998+00:00",
+      "review_pin": {
+        "bytes": 2306,
+        "sha256": "5381256d754f44dea05fc86f7447bb49307b403fea1dcd640c334bc4b9a4b2f2"
+      },
+      "model_CONTENT_pin": {
+        "bytes": 20753,
+        "sha256": "b6c9e687afe9fa5f646503db2d5656bb34e3257d5b375982196fc72a2a50805c"
+      },
+      "outcome": "COMPLETE_STOP_JSON_WHOLE_TEST_REJECTED_ZERO_ADOPTION_OWNER_TAKEOVER",
+      "model_code_adopted_bytes": 0,
+      "partial_adoption": false,
+      "HTTP_cost": {
+        "totalMs": 40146.2853999692,
+        "TTFTms": 5495.558700000402,
+        "usage": {
+          "prompt_tokens": 41291,
+          "completion_tokens": 4639,
+          "total_tokens": 45930
+        },
+        "cached": null
+      },
+      "rejection_reasons": [
+        "Function/Supplier interfaces illegally constructed with new Interface(lambda)",
+        "actual six-argument public replay called with seven arguments",
+        "null Driver expected Incomplete instead of original nonnull exception",
+        "mutated native packet reused for expected successful strict fallback",
+        "claimed malformed driver_ref actually changes transport pid then incorrectly expects zero callbacks",
+        "supplied sentinels not tested for same exception identity; several cases not compared to original sequence"
+      ]
+    }
+  },
+  "owner_production": {
+    "source_ready_UTC": "2026-11-04T19:31:06.458029+00:00",
+    "source_ready_pin": {
+      "bytes": 6433,
+      "sha256": "764b1a294f490db510567d7d63977256a613685d101e138c4d09c387b1b8181f"
+    },
+    "source_pins": [
+      {
+        "bytes": 20499,
+        "sha256": "ca8f768897f04a8c8f4a6513e11e9c22be5c78b209910f8ef446c7171c5a6707"
+      },
+      {
+        "bytes": 38156,
+        "sha256": "2429ef49cb1fc4a2ecbbb10a515439c1d6c597c2d6883b280ccf9abda54e74f8"
+      }
+    ],
+    "new_TUs": 2,
+    "outside_inverse_exact": true,
+    "all_original_public_paths_retained": true,
+    "model_new_code": 0
+  },
+  "owner_Test": {
+    "source_ready_UTC": "2026-11-04T19:40:13.496998+00:00",
+    "source_ready_pin": {
+      "bytes": 3793,
+      "sha256": "99af8ca32a04b51ff5427a8aae8b2ca2d22bea60260189c851b5cbaaf9aa9907"
+    },
+    "source_pin": {
+      "bytes": 14883,
+      "sha256": "462c6521d122ac16d91c60b73a176e8494059eb367e037e905a583a5a68e292a"
+    },
+    "new_TUs": 1,
+    "new_methods": 3,
+    "owner_entire_new_Test_and_probe_logic": true,
+    "formal309_literal_prelude_reused_only": true,
+    "source_case_counts_not_independent_Test_count": {
+      "acceptedDecoderModes": 2,
+      "pairedFailureCases": 11,
+      "newJUnitMethods": 3
+    },
+    "model_new_code": 0
+  },
+  "actual_compile_flags": {
+    "release": 21,
+    "lint": "all,-try",
+    "Werror": true,
+    "proc": "none",
+    "implicit": "none",
+    "sourcepath": "owned empty sourcepath"
+  },
+  "actual_phases": {
+    "production": {
+      "ACTUAL_pin": {
+        "bytes": 1839,
+        "sha256": "9f35c1734ff1eb182d65a3df58121bf946696a7a39744ff297af1bf14cb7e2e4"
+      },
+      "actual_UTC": "2026-11-04T20:30:30.123917+00:00",
+      "seconds": 9.072268799995072,
+      "exit_code": 0,
+      "timeout": false,
+      "stdout_bytes": 0,
+      "stderr_bytes": 0,
+      "post_inputs_unchanged": true,
+      "POST_pin": {
+        "bytes": 426,
+        "sha256": "f7a0ebd9470627d11d1a5a98ec78b60570e4b58086864d92c98ff640a17476d5"
+      },
+      "managed_close_pin": {
+        "bytes": 237,
+        "sha256": "4273968658caeb01f28fff59d7a1af12b983066a547f19687e4cc2ff4068765a"
+      },
+      "managed_close_result": 0,
+      "durable_fence": true,
+      "reservation_still_held": false,
+      "execution_counts": {
+        "new_production_TUs": 2,
+        "new_Test_TUs": 0,
+        "old309_or_support_recompile": 0,
+        "Game_GET": 0
+      },
+      "Runtime_adoption_at_actual_cut": false,
+      "Game_GET_SAVE_credit": false,
+      "class_count": 3,
+      "OUTPUTS_pin": {
+        "bytes": 29454,
+        "sha256": "084f15823ca4b4c002b794c7d38afe07973f5f0b500a7025a252ba93d681aa3c"
+      }
+    },
+    "Test_compile": {
+      "ACTUAL_pin": {
+        "bytes": 1771,
+        "sha256": "49ce178f5976bfdccdc12436519d5c04e1b6519efcaa33f88a8653e69ce900f1"
+      },
+      "actual_UTC": "2026-11-04T20:35:44.768968+00:00",
+      "seconds": 5.071755699987989,
+      "exit_code": 0,
+      "timeout": false,
+      "stdout_bytes": 0,
+      "stderr_bytes": 0,
+      "post_inputs_unchanged": true,
+      "POST_pin": {
+        "bytes": 416,
+        "sha256": "54643f2dbbc2a68fae175aa0f68ada9011aeb8473527daf35ce7ac48fb03502b"
+      },
+      "managed_close_pin": {
+        "bytes": 237,
+        "sha256": "1c8beaa2801a549900ad36ebe75147b06812ef32f4a98da1506521e9cd463339"
+      },
+      "managed_close_result": 0,
+      "durable_fence": true,
+      "reservation_still_held": false,
+      "execution_counts": {
+        "new_Test_TUs": 1,
+        "new_production_support_TUs": 0,
+        "old309_RUN": 0,
+        "Game_GET": 0
+      },
+      "Runtime_adoption_at_actual_cut": false,
+      "Game_GET_SAVE_credit": false,
+      "class_count": 3,
+      "OUTPUTS_pin": {
+        "bytes": 14471,
+        "sha256": "a666b0c13532352b2057b36f0fd6392a3ebfb558f34bdc8fc0fe0f4a90470c9f"
+      }
+    },
+    "JUnit": {
+      "ACTUAL_pin": {
+        "bytes": 1523,
+        "sha256": "726bca18c674606ceb6410e2be12b657764756c5fd7852a21f108618244609ea"
+      },
+      "actual_UTC": "2026-11-04T20:35:50.407858+00:00",
+      "seconds": 4.422044200007804,
+      "exit_code": 0,
+      "timeout": false,
+      "stdout_bytes": 3215,
+      "stderr_bytes": 0,
+      "post_inputs_unchanged": true,
+      "POST_pin": {
+        "bytes": 1516,
+        "sha256": "7187b1469ad692e4a8294f386020f6094eb20bf2b9f921196c33aa6a2655be14"
+      },
+      "managed_close_pin": {
+        "bytes": 238,
+        "sha256": "8609e74d41f63c6b9acca9b4012f98ce2ab6e02d74c86c885fccf4f03c5f25cb"
+      },
+      "managed_close_result": 0,
+      "durable_fence": true,
+      "reservation_still_held": false,
+      "execution_counts": {
+        "new_compile_TUs": 0,
+        "new_unique_DATA_methods_RUN": 3,
+        "old309_RUN": 0,
+        "Game_GET": 0
+      },
+      "Runtime_adoption_at_actual_cut": false,
+      "Game_GET_SAVE_credit": false
+    }
+  },
+  "JUnit": {
+    "tests": 3,
+    "successful": 3,
+    "skipped": 0,
+    "failures": 0,
+    "errors": 0,
+    "XML_suite_seconds": 2.206,
+    "ACTUAL_process_seconds": 4.422044200007804,
+    "XML_pin": {
+      "bytes": 42777,
+      "sha256": "01d1f1f18c5f891d7bd29b50a9a05453f878b0e65de2cdf3b15975f68e2bfb2c"
+    },
+    "methods": [
+      {
+        "name": "changedOriginalsAndTheClonePointMatchTheOldReplay()",
+        "seconds": 0.14
+      },
+      {
+        "name": "originalFailuresKeepTheirCallbackFrontier()",
+        "seconds": 0.17
+      },
+      {
+        "name": "acceptedOriginalsAndCallbackCountsStayExact()",
+        "seconds": 1.847
+      }
+    ]
+  },
+  "evidence_scope": "DATA-only version1 accepted differential, two inactive/null strict fallback modes, original callback/compound failure order, native-array clone timing and original retention. No new profile4 scenario or active physical owner is claimed.",
+  "not_qualified": [
+    "physical archive/current head/epoch/finish poison integration",
+    "Runtime loading or live recovery",
+    "Game_GET_LOOP_SAVE",
+    "measured CPU or speedup",
+    "natural M6 or full G2"
+  ],
+  "new_HTTP_JVM_SDK_Runtime_Game_actions_by_this_posthoc": 0,
+  "automatic_R2": false,
+  "full_owner_preparation_review_rewrite_CPU_and_net_savings": null
+}

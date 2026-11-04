@@ -2698,3 +2698,12 @@ Normal独立Test给22完整actual源741980B及9126B三行为合同/max12000，HT
 396的3000预算length整份丢弃，不读／提取半截正文；397完整stop／DONE／合法JSON，重复所供XML／registry方法，另有错误GetPlayerSummaries路径、把Busy人格当游戏占用及自相矛盾停止条件，0代码／0上传方案。只保留“没有状态不等于无人游戏”的谨慎原则，不授可用探测。两实际POST峰2约11.45秒，0重试，准确区间／用量／共享pin见[证据](evidence/2026-11-05-civ6-workshop396397.json)，owner成本／净收益未知。
 
 owner独立完成5219字节BBCode、真实图解读、AI宣传图及87文件对照，PNG原图超过1MB后制作仅JPEG压缩的上传副本，原PNG公开保留；不是模型代码成功或Steam发布。HTTP429／UIA无权威远端状态即暂停；用户先报告有人游戏，随后明确无人并要求继续才上线，人工确认不冒充API结果。
+
+
+## 2026-11-05：bootstrap owner 接管后的软件后见
+
+[两份正式源审及实际软件回执](evidence/2026-11-05-http-bootstrap-owner-software-later.json)确认，原生产stop62.8658504秒与独立Test stop40.1462854秒均整份语义全拒，0代码/0partial、不R2；后到Test源审撤回Complete/reference/Obj.with过宽初筛，并明确错误transport修改冒作driver_ref负例及缺sentinel同一实例差分。此前“待owner源审”切点保留，最终全拒在此追加。
+
+全部新产码和Test由owner接管：实际Reader+Persistent两TU首次strict0/3class、9.0722688秒；新Test仅1TU首次0/3class、5.0717557秒。只运行新3个DATA方法，真实3P/0skip/fail/error，JUnit进程4.4220442秒、XML suite2.206秒分别记；各stderr0、POST输入未变、fence/managedClose0且heldfalse。旧309仅复用既有完整literal前导源码，未重编重跑旧Test。新Test在3方法内覆盖11 pairedfailurecases与2fallbackmode，这不是11个独立JUnit方法。
+
+这些软件结果属于owner实现，不能回授两份模型raw。范围为version1纯DATA及原/新回调顺序、复合异常前沿、native在callback期变动后才clone、原件留存等；未授新profile4场景、物理owner/archive/head/poison整链、Runtime装载、Game/LOOP/SAVE、性能或自然M6。此次只读取既有回执和追加文档，0新HTTP/JVM/Runtime/Game，源/软件/后继采用仍分账；完整owner主动成本与净收益未知。
