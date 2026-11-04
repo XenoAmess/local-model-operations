@@ -2528,3 +2528,11 @@ owner继续门像素校验失败后未立即停止编排，四次查询在LSQ超
 后到Java具名候选以3源13span逐字inverse保outside，source-only回执/e2f7750c确认owner完成稳定overload/Core/后段共享deadline接线；原模型diff仍0代码采用，未编测/装载。短PREP区间与已起草脚本在同一host执行批中，仅记机械应用，前置起草工时未知，不把它称完整准备节省。
 
 [独立Test真实任务](evidence/2026-11-04-http-clean-restart-independent-test-source.json)另给8完整源455569B、成熟canonical scaffold与已明确的新overload合同，max12000；一次HTTP200/stop/DONE，31.4318714秒/TTFT12.025129秒，reported93294+3341tokens。完整15553B类仍发明API、直接new私有admission、违反checked异常合同，缺packet/deadline消费者及新generation记录，并用head自身等式冒验证；全部新增methods源审拒收，0JVM/非编测红。原scaffold是owner既有源，owner接管真实capture→admit/endpoint，不R2；完整JSON和caller0不等于可用Test或净收益。
+
+## 2026-11-04：Civ6374—376，字段名能返回正文也不能代替消费者核验
+
+374部分采用资本／城邦未专门排除、资产效果不能从TransferCity推定的事实；普通资格简写漏通用守卫，owner补全。375尽管给定完整Read接口及消费者仍只返回模块文件名，0代码。376改python_source后返回正文，实际SyntaxError（is not not），还忽略模块局部返回值、误用Lua数组0下标、Python布尔写入Lua、忽略夹具参数和缺end，0代码／0原测试运行。不能把字段改名或较短响应追认为通用修复或能力提升。[精确pin、候选及采用](evidence/2026-11-04-civ6-assets374376-reader73.json)。
+
+owner接管只读UI自有城市资产工具和四项行为检查：完整建筑与空槽、未知整份失败、读取中身份／回合变化、异常上限／重复目录；四测0.045秒通过，未把原1017全套追写为完整1021通过。实际73／114自有城196610读8栋建筑、博物馆槽0文物15／类型172及两个空槽，0游戏动作／绑定改变；外国前态、区域／驻军／忠诚度和真实转移仍未授通过。Core作品槽getter不可用时使用已验证UI消费者，未知不猜空。
+
+三完整HTTP，374／375实际峰2持续13.419584秒，376独立后发；冻结376逻辑／351完整／22length整弃／3最终传输失败、406HTTP尝试／30额外重试，0新OpenCode原生生成。维护复用Nov4成功缓存1.19.5，owner独占成本／未报告缓存／净收益null；后续继续真实城邦目标准备，不重投已闭同题凑数。
