@@ -1,0 +1,82 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B144-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T10:13:29.061390+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T10:05:16.588451+00:00",
+    "window_ended_at_utc": "2026-11-04T10:05:20.569241+00:00",
+    "window_seconds": 3.98079,
+    "peak": 1,
+    "peak_duration_seconds": 3.98079,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b144-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 1011,
+        "completion_tokens": 533,
+        "total_tokens": 1544
+      },
+      "failure": null,
+      "content_ttft_ms": 392.1447999891825,
+      "total_ms": 3971.5840999851935,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "f74b0d004674987a0964f980f6e9e7fb17b3e3e5042440ad7deb611da5428882",
+      "summary_sha256": "3c4e15703fb20d1f5b668159409ded67139885068fd186584968343bfffc8e70",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "08acfde4e06fbaa7856cf03d5eac70840696a1406628218c8a1daf817b4b2ba3",
+        "task_id": "hoi4-20261104-b144-prompt-01",
+        "request_sha256": "f74b0d004674987a0964f980f6e9e7fb17b3e3e5042440ad7deb611da5428882",
+        "summary_sha256": "3c4e15703fb20d1f5b668159409ded67139885068fd186584968343bfffc8e70",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Both SHA domains verified. Candidate retained pale headwrap/brown-black-gold multirow band, dark brows/short full moustache-beard, black long tie/no pin and beige-khaki backing. It phrased image-left as lighting/cropping instead of explicit head turn; owner corrected exact sentence before prepare and independently restored two-input authority. Actual source description appended in full; no model pixels/art approval.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "64ac042ddaf4dd0ae427f12c9a7643fec4c0f218c6fbb77327c78611df1d06a5",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2776,
+        1184
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b144-sources.json",
+    "sha256": "e4a71b2050d57035678d6c839abea1a077312f580d2469af00f469613ef8503d",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T10:13:24.219078+00:00",
+  "stage_at_cutoff": "One independent headwrapped black-tie source with an owner-corrected pose sentence",
+  "owner_review": "Candidate retained headwrap/band/short full facial hair and this source's black long tie/no pin, but described image-left as lighting/cropping rather than head direction. Corrected that exact sentence before prepare and restored explicit input authority; complete HTTP draft retained unchanged. No model vision/art approval.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
