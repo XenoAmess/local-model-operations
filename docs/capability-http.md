@@ -30,6 +30,12 @@ owner把稳定system、完整当前源码/合同、变化的任务/诊断组成�
 
 [940有限取源缺口与675新proposal](evidence/2026-11-04-source-gap940-and-proposal675.json)仅是另行批准的运营来源记录，明确不是HTTP模型case。有限已持表的NoRF不证明全image没有函数，不补猜body；新有界proposal尚未获实际执行或软件信用。源码、HTTP、资源进程、包含协调的墙钟与未知主动工时继续分列。
 
+## 2026-11-04：完整载体错误与后到软件阶段
+
+[分阶段索引](evidence/2026-11-04-typed-source-and-software-stages.md)保留原作者批准的源码切点及各自后见。676完整4919token稿在已供API下仍九处把scalar RAX传给完整载体，另有错符号/不可达尾句；owner保留算法并实质修复，后仅1TU编译0，不把它写成raw整体采用或行为通过。677薄装配原样选择披露强合同提示，planned counter自行撤回的四疑问不算四反例。321后到两manual/三Normal场景通过、328仅生产编译、665同case修后RUN分别记录，原length整弃、owner夹具红及source-only切点不回填；编译、有限软件、正式、装载和自然业务不互授。
+
+[真实READY文件容量恢复](evidence/2026-11-04-owned-ready-recovery-g0004.json)逐106行核COMPLETED/RELEASED并保原执行库、租约库各414条历史，用原受测停writer流程恢复两张原票各一次POST。两稿均完整200/STOP/DONE/有效JSON，method仍因boxed值引用比较被sole owner拒收、0代码采用；空counter不验证私数值。确认pending至首POST的下界689.578229s属于准备/协调等待，非模型TTFT或服务capacity；这不是为固定并发补位，也未新增OpenCode原生会话。
+
 ## 基线案例
 
 | case_id / 观察 | 输入与实际结果 | 采用、验证及边界 |

@@ -1,0 +1,89 @@
+{
+  "schema": "local-model-operations.owned-generation-recovery/v1",
+  "stage": "ORIGINAL_TWO_PENDING_TASKS_RECOVERED_ONCE_WITH_EXISTING_QUALIFIED_PROTOCOL",
+  "not_a_new_model_case": true,
+  "trigger": "A real source task was deferred before READY append because only493 bytes remained under the existing65536-byte file bound. This was queue-file capacity, not evidence of model-service capacity or a concurrency target failure.",
+  "before": {
+    "READY_bytes": 65043,
+    "READY_records": 106,
+    "scoped_POSTs": 106,
+    "scoped_ENDs": 106,
+    "scoped_unpaired_attempts": 0,
+    "scope": "Explicit one-generation EVENTS; not global or atomic process health."
+  },
+  "handoff": {
+    "protocol": "Existing qualified stopped-intake/drained-owned-dispatcher generation rollover",
+    "actual_intake_terminal_utc": "2026-11-04T09:51:58.723010Z",
+    "actual_dispatcher_terminal_utc": "2026-11-04T09:52:07.085339Z",
+    "individually_classified_terminal_rows": 106,
+    "COMPLETED_rows": 106,
+    "RELEASED_leases": 106,
+    "carried_rows": 0,
+    "dispatch_history_records_retained": 414,
+    "lease_history_records_retained": 414,
+    "helper_database_mutations": 0,
+    "claims_receipts_outputs_tombstones_deleted": 0,
+    "next_READY_bytes_before_normal_refill": 3,
+    "stop_controls_preserved_in_owned_archive": true,
+    "new_dispatcher_START_utc": "2026-11-04T09:52:40.981110Z",
+    "new_intake_START_utc": "2026-11-04T09:52:55.323451Z",
+    "caller_profile_endpoint_and_admission_configuration_unchanged": true,
+    "configuration_capacity_is_not_fill_target": true
+  },
+  "after": {
+    "original_queued_roles": 2,
+    "POSTs_each": 1,
+    "ENDs_each": 1,
+    "attempts_each": 1,
+    "both": "HTTP200 / stop / DONE / strictJSON VALID",
+    "requests": [
+      {
+        "role": "existing method implementation",
+        "POST_utc": "2026-11-04T09:52:57.820493Z",
+        "END_utc": "2026-11-04T09:53:09.212881Z",
+        "max_tokens": 2500,
+        "prompt_tokens": 26744,
+        "completion_tokens": 845,
+        "TTFT_seconds": 6.51502160000382,
+        "HTTP_seconds": 11.392381300014677
+      },
+      {
+        "role": "existing candidate-visible source counter",
+        "POST_utc": "2026-11-04T09:52:57.046301Z",
+        "END_utc": "2026-11-04T09:53:04.861737Z",
+        "max_tokens": 3500,
+        "prompt_tokens": 27279,
+        "completion_tokens": 57,
+        "TTFT_seconds": 5.696661699999822,
+        "HTTP_seconds": 7.8154074999911245
+      }
+    ],
+    "cached_tokens": null,
+    "actual_peer": "UNKNOWN",
+    "duplicate_old_POSTs": 0,
+    "extra_HTTP_for_publication": 0,
+    "semantic_outcome": "Sole source owner rejected the complete method for boxed-value reference comparison;0 model code adopted. Empty source-counter findings do not validate private numerical fixtures. The owner's already-frozen sourceReady remained unchanged."
+  },
+  "audit": {
+    "Ops": "Actual EVENT/SUMMARY integrity and actual REQUEST three roles/model/finite budget checked. Full source-prefix byte equality and private oracle correctness not rebuilt by this sealer.",
+    "source_semantic_grade": "Sole source owner report, independent of transfer completeness."
+  },
+  "cost": {
+    "qualified_snapshot_process_seconds": 0.9331520000123419,
+    "confirmed_capacity_pending_utc": "2026-11-04T09:41:27.468072Z",
+    "confirmed_pending_to_first_POST_lower_bound_seconds": 689.578229,
+    "intake_actual_exit_to_new_START_seconds": 56.600441,
+    "note": "Preparation, read/review/coordination and process handoff intervals are operator wall, not model TTFT, service latency, CPU or savings. Earlier publication/wait start not reconstructed; HTTP windows overlap.",
+    "active_CPU_seconds": null,
+    "net_savings": null
+  },
+  "limits": {
+    "global_HTTP_and_other_machines": "UNKNOWN",
+    "process_alive_proof": "NOT_INFERRED_FROM_LAUNCH_OR_LOCK",
+    "service_probe_or_parameter_change": 0,
+    "new_software_Test_or_Game_actions": 0,
+    "hot_active_carry_qualification": "NOT_GRANTED_BY_STOPPED_ONLY_RECOVERY",
+    "new_OpenCode_native_session": 0,
+    "private_material": "No raw request/content, source, oracle, machine path, PID or lease token published."
+  }
+}
