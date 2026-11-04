@@ -1,0 +1,73 @@
+{
+  "schema": "portable.source-ready-generation-and-intake-followup/v1",
+  "permission": "Models-owned abstract operational metadata approved for normal shared main publication; no private source, SQL rows, raw requests, machine paths or resource identities.",
+  "additive_cutoff": true,
+  "generation_rollover": {
+    "old_READY_rows": 106,
+    "old_READY_bytes": 65294,
+    "row_proof": "Each old row matched the same dispatch DB and a RELEASED lease; all106 were COMPLETED at the final controlled cut.",
+    "carried_rows": 0,
+    "retained_history_rows": 308,
+    "DB_mutations": 0,
+    "full_old_READY_archived": true,
+    "receipts_outputs_tombstones_preserved": true,
+    "finished_tasks_rePOSTed": 0,
+    "original_protocol": "Stopped intake and drained dispatcher were explicit preconditions. The fact that nonterminal rows can be derived as carry did not authorize a live switch.",
+    "intake_exit_utc": "2026-11-04T05:09:22.966263Z",
+    "last_of_old_eight_END_utc": "2026-11-04T05:10:07.102918Z",
+    "restart_intake_START_utc": "2026-11-04T05:23:23.354369Z",
+    "intake_pause_seconds": 840.388106,
+    "remaining_old_stream_tail_seconds": 44.136655,
+    "operator_coordination_and_review_delay_after_tail_seconds": 796.251451,
+    "accountability": "The remaining pause was Models operator coordination/review delay. It must not be reported as service capacity or entirely as waiting for the slowest stream.",
+    "last_content_delta_utc": "NOT_RECORDED; FIRST_CONTENT was not relabeled as last content"
+  },
+  "owned_cut": {
+    "cutoff_utc": "2026-11-04T05:46:16.735505Z",
+    "scope": "CURRENT_GENERATION_ONLY",
+    "registered": 18,
+    "POSTs": 18,
+    "ENDs": 18,
+    "unpaired": 0,
+    "evidence_status": "KNOWN",
+    "peak": 12,
+    "peak_seconds": 64.079194,
+    "READY_bytes": 10953,
+    "headroom_bytes": 54583,
+    "INTAKE_ticket_files": 304,
+    "without_receipt": 0,
+    "unclassified": 0,
+    "earlier_308_terminal_rows": "Historical read-only proof retained; not a new complete EVENT reread.",
+    "global_Runtime_cloud_backend": "UNKNOWN_OR_SEPARATE",
+    "sustained60": false
+  },
+  "intake_only_adoption": {
+    "qualification": "Five new DATA methods passed in the corrected Native driver; the original failed driver reached zero original methods.",
+    "selected_intake_sha256": "5078ccd8a2f19720e5ee57b969da3488eaeec10fbab6999421f792fa3c6da2d0",
+    "unchanged_registrar_sha256": "ab079e64cc9e6378d86dc1dcf31d760e304064011f57969a5006467e9b99632d",
+    "old_intake_normal_exit_utc": "2026-11-04T05:47:57.966549Z",
+    "successor_START_utc": "2026-11-04T05:48:21.110072Z",
+    "exit_to_START_seconds": 23.143523,
+    "same_dispatcher_retained": true,
+    "same_DB_READY_caller_profile": true,
+    "old_intake_and_registration_OS_locks_observed_available": true,
+    "control_archived": true,
+    "new_legacy_claim_removed": false,
+    "behavior": "Immutable content-hash rejection observations and bounded scan counters distinguish metadata rejection, capacity defer and reconciliation. They do not grant POST credit or liveness.",
+    "scope": "Actual controlled intake adoption; the software fixtures themselves mocked registrar children.",
+    "new_source_roles_from_adoption": 0,
+    "new_model_code_credit": 0,
+    "subsequent_registration_and_POST": "Separate actual receipts and EVENTS required; startup alone is not success."
+  },
+  "cost": {
+    "active_exclusive_seconds": null,
+    "CPU_seconds": null,
+    "net_saving_seconds": null,
+    "overlapping_windows_must_not_be_added": true
+  },
+  "limits": [
+    "No service probe, model/endpoint switch, process kill, Game action or measured performance improvement.",
+    "A new active-carry source candidate was being developed and independently tested separately; no live capability was borrowed from this drained operation.",
+    "Earlier source-only, software and formal cutoffs remain unchanged."
+  ]
+}
