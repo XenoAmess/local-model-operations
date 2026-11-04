@@ -1,0 +1,172 @@
+{
+  "schema": "local-model-operations.civ6-native70-admiral357358/v1",
+  "date_local": "2026-11-04",
+  "published_at_utc": "2026-11-04T09:44:02.062061+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/886b9e7bf491f25d13827913ee80280eda2d916a/docs/research/baiqi-p6-native70-admiral357358-evidence-2026-11-04.json",
+  "business_evidence_sha256": "29713544f12b7c43e603baea16df8c99816e5da89edfb140bb89bd5c3a8b5407",
+  "cases": [
+    {
+      "sequence": 357,
+      "case_id": "civ6-unit357-military-panel-audit",
+      "mode_id": "http-candidate",
+      "shared_commit": "4c073d4548408586c982f06686db24d8ebd3bbbe",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 3000,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T09:23:36.973974+00:00",
+      "attempt_end_utc": "2026-11-04T09:23:54.430672+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 17456.778899999335,
+        "first_nonempty_content_delta_ms": 11500.285999965854,
+        "usage": {
+          "prompt_tokens": 88753,
+          "completion_tokens": 858,
+          "total_tokens": 89611
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T09:23:36.973974+00:00",
+          "end_utc": "2026-11-04T09:23:54.430672+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 17456.778899999335
+        }
+      ],
+      "adoption": "verified source finding only; no code/text adoption",
+      "review": "FullcurrentBase/derivedUnitPanelLua/XML showed noIsReadOnly call; actualNativeUnitPanel IsReadOnly nil confirmed scope. No patchnecessary. Candidate wrongownerBaiqiUIGuard.ReadOnly,inventedUNIT_ARMY/NAVY/AIRnames and ambiguousmilitaryAI wording corrected, no completeauditadoption.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 358,
+      "case_id": "civ6-admiral358-natural-observer",
+      "mode_id": "http-candidate",
+      "shared_commit": "4c073d4548408586c982f06686db24d8ebd3bbbe",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 4200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T09:27:04.728293+00:00",
+      "attempt_end_utc": "2026-11-04T09:27:12.889953+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 8159.41689995816,
+        "first_nonempty_content_delta_ms": 882.7643999829888,
+        "usage": {
+          "prompt_tokens": 5402,
+          "completion_tokens": 1195,
+          "total_tokens": 6597
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T09:27:04.728293+00:00",
+          "end_utc": "2026-11-04T09:27:12.889953+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 8159.41689995816
+        }
+      ],
+      "adoption": "partial observer scaffold/Update; cleanup unchanged",
+      "review": "RawLua compiles but counts onlyPlayerOperations.MOVE_TO/SKIP_TURN andformationcommands, missing realunitoperation andothercommands; rawsoftwaremock MOVE_TO=101 forwardedoncebutcount0. This101 is fixtureconstant notNativehash1477390184. Owner rewritesallsensors/knownGetX/Y,lastID,ownedrollback;8checks thenNativeplayer1/back0. No modelGameaction.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "actual_client_inflight": {
+    "actual_peak": 1,
+    "seconds_at_peak": 25.618358,
+    "longest_seconds_at_peak": 17.456698,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "cumulative_frozen_through358": {
+    "logical_requests": 358,
+    "complete_stop_json": 334,
+    "length_whole_discarded": 21,
+    "final_transport_failed": 3,
+    "http_attempts": 388,
+    "extra_retries": 30,
+    "current_http_inflight": 0,
+    "new_opencode_native_generation": 0
+  },
+  "native_outcome": "PASS_SCOPED_EXISTING_ADMIRAL_NATURAL_BACKGROUND_HOLD_AND_PHYSICAL_PLAYER_MOVE",
+  "background_final": {
+    "all_operations": 0,
+    "all_commands": 0,
+    "sensor_errors": 0,
+    "target_operations": 0,
+    "target_commands": 0,
+    "natural_update_calls": 4560,
+    "native_delta_sum_seconds": 121.22986297077,
+    "bindings_owned_before_restore": true
+  },
+  "observer": {
+    "owner_corrected_software_checks": 8,
+    "contexts": [
+      "BaiqiExecutor",
+      "WorldInput"
+    ],
+    "natural_Update_observed_not_forced": true,
+    "original_bindings_restored": true,
+    "diagnostic_namespaces_cleared": true,
+    "no_SetUpdate_or_event_rebind": true,
+    "limits": "ExecutorUnitManageroperation/command methods anddynamicController.Update only; noteverypossibleGameAPI/globalmilitarytracing."
+  },
+  "publication_note": "Civ6firstpush GitHub500 retainedlocalcommit; normalfetch/push retry then independentlyverifiedremote886b9e7, no force/newcommit/replayGameactions.",
+  "maintenance": "Same localNov4successfulOpenCode1.19.5cache,currentcanonicalDIRECTconfig;no nativegeneration.",
+  "unknown_costs": {
+    "exclusive_owner_phase_seconds": null,
+    "cached_tokens_if_unreported": null,
+    "server_queue_wait": null,
+    "net_savings": null
+  },
+  "next_real_trigger": "Continuegeneral/missionaryescort andremainingactualqueue/diplomacy/pressure acceptance; no rerunclosedadmiralrightmove.",
+  "limits": [
+    "Oneexistingadmiral same110turn; notallgenerals/admirals/nativeabilities/allTC019/020/40.",
+    "NaturalUpdatecount/nativeDelta areobserveddiagnosticvalues, notperformancebudgetorwallclockequivalence.",
+    "No productsourcechanges/full999rerun for observer/docs.",
+    "Candidatecodeverification issoftwaremock, notNativeorder; realplayerorderseparate."
+  ]
+}
