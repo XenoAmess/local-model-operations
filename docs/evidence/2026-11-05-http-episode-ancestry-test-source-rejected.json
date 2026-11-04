@@ -1,0 +1,89 @@
+{
+  "schema": "local-model-operations.episode-ancestry-test-source-rejection/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "input": {
+    "complete_source_files": 14,
+    "source_bytes": 137943,
+    "complete_task_bytes": 6689,
+    "actual_new_History_and_full_public_callees_and_two_mature_fixture_sources": true,
+    "owner_explicit_fixture_and_three_case_matrix_supplied": true
+  },
+  "POST_BEGIN_UTC": "2026-11-04T18:24:12.471097+00:00",
+  "ATTEMPT_END_UTC": "2026-11-04T18:24:38.271917+00:00",
+  "actual_parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 8000,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "fixed_three_messages": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network": "DIRECT configured host;redirects refused;socket peer UNKNOWN",
+  "headers_ms": 4310.080100025516,
+  "effective_content_TTFT_ms": 4311.055300000589,
+  "HTTP_total_ms": 25800.81040004734,
+  "usage": {
+    "prompt_tokens": 32800,
+    "completion_tokens": 3787,
+    "total_tokens": 36587
+  },
+  "cached_tokens": null,
+  "finish_reason": "stop",
+  "DONE": true,
+  "outer_JSON": "VALID",
+  "saved_CONTENT_equals_raw_SSE_UTF8": true,
+  "REQUEST_pin": {
+    "status": "present",
+    "bytes": 151914,
+    "sha256": "bc7c881e27b8e1da4a370551530ec40e607a35a364effff0fb7b397878aecf6f"
+  },
+  "RESULT_pin": {
+    "status": "present",
+    "bytes": 1283,
+    "sha256": "40c141818c399935a3fb39e86fa62033d958ae7e21672a6095772a09afbf9d94"
+  },
+  "CONTENT_pin": {
+    "status": "present",
+    "bytes": 15457,
+    "sha256": "36245ff25b0e8b319236b2702f27edb8dab74dfc97c4a96b0562c6a00288bc11"
+  },
+  "EVENTS_pin": {
+    "status": "present",
+    "bytes": 2916,
+    "sha256": "c8c705b62489f6127c92378475e06b932779c77dd2eaea491a25c48fc900f046"
+  },
+  "owner_source_review_pin": {
+    "bytes": 3082,
+    "sha256": "42a56e35dc1a0e3f37883a2d37598fb88caa6d745c8b98dca40270f2f0478960"
+  },
+  "owner_review_UTC": "2026-11-04T18:30:08.422810+00:00",
+  "new_model_methods_rejected": 3,
+  "new_model_methods_adopted": 0,
+  "model_compile_or_RUN": 0,
+  "observed_source_errors": [
+    "sha256 helper calls checked MessageDigest.getInstance without declaration/catch.",
+    "buildEvent ignores actual reduceBegin/reduceBaseline results and always clones previous state; real Event validation rejects BEGIN/BASELINE before the tested History branch.",
+    "Lifecycle source ref uses placeholder SHA; committed BEGIN uses placeholder one-byte ref instead of actual original event bytes/SHA.",
+    "Positive uses bare Java assert and ContinuityState record.equals with byte[] fields; only anchor snapshot is tested and exact baseline Pin/full input immutability is not checked.",
+    "The wrong-head case never changes the correct headDigest.",
+    "Lazy case has no first accepted control/independent altered-event validation and lacks the replacement-ref/first-original distinguishing case."
+  ],
+  "owner_takeover_source_pin": {
+    "bytes": 14978,
+    "sha256": "ce42d9b46ef09075b49d72037fc6b10219ba8ed766fc3d68c9e93f60c9dbf8fd"
+  },
+  "owner_takeover_source_is_uncompiled_and_not_model_new_methods": true,
+  "existing_fixture_and_new_owner_unit_not_model_autonomous_design": true,
+  "new_JVM_SDK_Game_Runtime_Guard_actions_by_Models": 0,
+  "automatic_R2_or_old_task_rePOST": false,
+  "not_a_host14_or_Runtime_recovery_gate": true,
+  "software_OOM_performance_natural_G2_credit": false,
+  "full_owner_preparation_correction_CPU_and_net_savings": null,
+  "limit": "Complete JSON and full source closure do not prove a valid input fixture or meaningful assertions; this is source rejection, not a measured JVM compiler/Test failure."
+}

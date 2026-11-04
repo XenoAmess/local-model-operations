@@ -2633,6 +2633,16 @@ Cold仅部分采用owner先给的API、rolling/source/snapshot结构；raw整met
 
 Normalizer raw未执行并被拒，mapping/path只作参考；owner补sources无target、多组withdraw+retain、actual.path/root/bytes与properties资源revision后，实际只读通过90最终entry/114原adoption及4malformed反例。zero-business不能漏掉显式资源revision；旧actor原样，新副本仅projection函数改变、外部guards字节逆还原精确。该preflight是owner适配结果，0Java/GET/Game/C写，不授模型raw执行、BOOT/LOOP/SAVE或未来任意格式通过。源码与软件、owner成本和后续Runtime继续分账，净收益未知。
 
+## 2026-11-05：Episode独立三方法完整返回后仍全拒收
+
+[新的纯Episode祖先Test](evidence/2026-11-05-http-episode-ancestry-test-source-rejected.json)提供14份完整源137943B及6689B明确fixture/三场景合同，max8000。一次stop/DONE/有效JSON，25.8008104秒/有效TTFT4.3110553秒、32800+3787tokens，cachednull；三个新增methods源审全拒、0采用/0JVM、不R2。实际问题包括未处理checked SHA异常、忽略已算reduced after、祖先ref占位SHA/size、裸assert及byte[]record equals、遗漏快照/精确Pin、wrong-head并未改digest、lazy输入缺合法对照。成熟fixture与owner矩阵不计模型自主设计；owner14978B/ce42重写单位仅source待窗，不成host14门，完整JSON不授有效测试。
+
+## 2026-11-05：owner固定64MiB warm/cold两方法后见及正式源发表
+
+[独验03与owner软件/发表回执](evidence/2026-11-05-http-owner-fixed64-warm-cold-software-later.json)确认修正Test仅1TU0/4class、4.7053198秒，先前production3TU33和cold2TU7及Support2复用；实际正向1P69.3246474秒/XML67.098、反向1P29.1521秒/XML23.021，各0skip/abort/fail/error/stderr。真实128edge、每state112KiB，warm和新Writer/Store cold均同head/无read写；七物理/sticky/head/absence/primary故障全部触发，callback各一次且结果拒交、escaped view拒收。两个90秒child与每phase TOTAL120分守，不合称跨phase120；head故障故意推进软件head，不概称所有负例head未变。
+
+原pre-JVM recorderKey拒绝、首256KiB Test编译绿及fixture prebuild失败均保留；先前泛称fixture1F，实际原XML为errors1/failures0，256KiB+574byte封套越v1 LEDGER262144。仅payload改112KiB，DOCUMENT65536/LEDGER262144与64MiB heap不放宽。模型producer length和被拒OOM Test仍0代码采用，cold仅经owner语义修正的partial结构；2P不追授raw，且不覆盖新Episode分支/私有全Batch/Managed或真实恢复、RSS/提速。Java已按正常流程发表623c9ac，正式outside投影、CI/实际装载另记；Sway完整model方法正式仅窄投影error分支。原source/失败/compile-only切点不回写，本次0新HTTP/JVM/Game/现host操作，完整owner成本与净收益未知。
+
 ## 2026-11-05：Civ6389—392，被动观察与候选源审
 
 四个普通HTTP均stop／DONE／合法JSON，峰2累计17.307495秒、0额外重试。389回环实际连接返回错误-1，390真实SDK编译C2039，391复制无关WorldInput接口和64上限，392静态合同／清理／阻断判据错误，原稿0代码采用；不能把完整传输当组件正确。负责人被动四绑定观察器10项新软件通过、原生目录userdata类型修正后安装；只保存调用前标量，原函数一次且异常／末尾nil返回保持，外来绑定先核全部再清理。QA损坏资产、改初始库存和移除一个文职只属于财政场景准备，尚非财政效果；未执行WFP。[精确原稿分级与业务pin](evidence/2026-11-05-civ6-finance389392.json)。两类成本、缓存及净节省未知。

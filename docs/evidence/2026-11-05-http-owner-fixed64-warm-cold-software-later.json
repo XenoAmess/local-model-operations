@@ -1,0 +1,153 @@
+{
+  "schema": "local-model-operations.owner-warm-cold-fixed64-software-later/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "independent_result": {
+    "bytes": 16104,
+    "sha256": "2171ccfe1b6e7cdf7a20ffff739af2d66dc8114b88d5a9002b92a0017842ef57"
+  },
+  "independent_result_UTC": "2026-11-04T18:17:39.662831+00:00",
+  "coherent_owner_software_ready": {
+    "bytes": 19086,
+    "sha256": "a33776a8a06a81e5938a7aa4547d2ba2f51975c164fd992b993b14c52679445a"
+  },
+  "coherent_owner_software_qualified_UTC": "2026-11-04T18:21:00.785767+00:00",
+  "model_producer_length_code_adoption": 0,
+  "model_OOM_Test_new_method_adoption": 0,
+  "cold_History_model_source": "Partial API/rolling structure only after owner semantic corrections; full raw method not adopted.",
+  "model_Episode_Test_new_methods": "Separately rejected3methods/0adopt0JVM; not part of these two writer methods.",
+  "owner_source": {
+    "bytes": 15944,
+    "sha256": "4cf7fd956c9c0d6fb51832800d4bfb9f9b081af33789e1e5a91f973c713036a0"
+  },
+  "actual_compiler_phases": {
+    "warm_production3_TUs": 33,
+    "cold_production2_TUs": 7,
+    "corrected_Test1_TU": 4,
+    "support_binary_reused": 2,
+    "corrected_Test_compiler_seconds": 4.705319800006691,
+    "corrected_Test_compiler_exit": 0,
+    "source_change_since_original_Test_compile": "Single PAYLOAD_BYTES constant256*1024 ->112*1024; original128commits,2methods,7physical negative modes and all assertions remain."
+  },
+  "actual_RUN_phases": [
+    {
+      "phase": "positive",
+      "ACTUAL_pin": {
+        "bytes": 1470,
+        "sha256": "98daab6b5fa29d057709c913c89f26d38eacefd55aaf604a0b6bc22060e314e9"
+      },
+      "XML_pin": {
+        "bytes": 42099,
+        "sha256": "1e3bc103f601c3fb57ae40e823ade7629cae2639b8e1ccdcf2fafb8f3c8e5686"
+      },
+      "actual_seconds": 69.32464740000432,
+      "XML_suite_seconds": "67.098",
+      "passed": 1,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "aborted": 0,
+      "stderr_bytes": 0,
+      "post_fence_close_released": true,
+      "selected_method_RUN": 1,
+      "production_Test_support_recompile": 0,
+      "separate_child_budget_seconds": 90,
+      "separate_TOTAL_budget_seconds": 120
+    },
+    {
+      "phase": "negative",
+      "ACTUAL_pin": {
+        "bytes": 1471,
+        "sha256": "35665e8e21c9269b7fff88e84af03651159c6666509c9a4fe449be1202ce63b0"
+      },
+      "XML_pin": {
+        "bytes": 42098,
+        "sha256": "342c8cf59689c96585641ac4f651c7e82de6edb0ba948e0c877d0813423f183a"
+      },
+      "actual_seconds": 29.152099999948405,
+      "XML_suite_seconds": "23.021",
+      "passed": 1,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "aborted": 0,
+      "stderr_bytes": 0,
+      "post_fence_close_released": true,
+      "selected_method_RUN": 1,
+      "production_Test_support_recompile": 0,
+      "separate_child_budget_seconds": 90,
+      "separate_TOTAL_budget_seconds": 120
+    }
+  ],
+  "nominal_Xmx_MiB": 64,
+  "observed_Runtime_max_heap_bytes": 64880640,
+  "positive_fixture": {
+    "edges": 128,
+    "persistent_payload_bytes_per_state": 114688,
+    "aggregate_requested_payload_bytes": 14680064,
+    "max_heap_bytes": 64880640,
+    "warm_callbacks": 1,
+    "cold_callbacks": 1,
+    "no_read_writes": true
+  },
+  "negative_fired_modes": [
+    "requested",
+    "unrequested",
+    "caught-restored",
+    "identity",
+    "head",
+    "absence",
+    "primary"
+  ],
+  "all_negative_callbacks_once_and_no_result_delivered": true,
+  "head_fault_scope": "The head mode deliberately advances a real canonical software head and then rejects stale result. It does not prove every negative mode leaves the head unchanged.",
+  "read_only_result_positive_did_not_write": true,
+  "original_owner_costs_preserved": [
+    "Missing recorderKey metadata rejection before JVM, not a javac failure.",
+    "Original256KiB Test first compilation passed and remains recorded.",
+    "First fixed64 positive stopped before build/projection: payload262144 plus574-byte envelope exceeds actual v1 LEDGER262144."
+  ],
+  "first_fixture_XML": {
+    "pin": {
+      "bytes": 42765,
+      "sha256": "043b2d91510838becb684fab9f035a2bdc83a6efb7f3fd626d7f6682c031a8f3"
+    },
+    "tests": 1,
+    "errors": 1,
+    "failures": 0,
+    "skipped": 0,
+    "generic_first_failure_label_not_JUnit_failure_counter": true,
+    "negative_phase_not_RUN_on_that_attempt": true
+  },
+  "actual_typed_budgets": {
+    "DOCUMENT_MAX_BYTES": 65536,
+    "LEDGER_MAX_BYTES": 262144,
+    "v1_profile": "LEDGER",
+    "repaired_payload_bytes": 114688,
+    "seed_bytes": 115262,
+    "production_heap_bounds_or_validators_weakened": false
+  },
+  "business_owner_formal_publication": {
+    "receipt": {
+      "bytes": 2585,
+      "sha256": "ac84f29087d353487eb74c225899fbb28d8107b17f20f71d637044efbad24012"
+    },
+    "commit": "623c9accc2a32ca30419200fc5f09759621ed923",
+    "owner_reported_remote_match": true,
+    "remote_requeried_by_Models": false,
+    "whole_formal_outside_compilation_not_inferred": true,
+    "Sway_only_error_branch_projected_despite_complete_model_method_source_adoption": true,
+    "CI_one_line_formal_commit_reported_separately": "04c209; no CI green inferred"
+  },
+  "limitations": [
+    "No execution of the old unbounded variant and no assertion it must OOM on this exact112KiB fixture; no RSS/retention/latency speedup measurement.",
+    "v1 canonical history and DATA fixture only. No software coverage of Episode BEGIN/BASELINE ancestry special cases, private full Batch replay/captured-manifest role delivery, ManagedGameSession or full Root authority.",
+    "Foreign-thread scope rejection is source-reviewed, not exercised by these two methods.",
+    "Actual fresh-host recovery, loaded-method behavior, natural Game/SAVE/inheritance/multiple-scenario G2 qualification are separate Runtime evidence; these methods do not grant them."
+  ],
+  "not_one_combined_TOTAL120_across_positive_and_negative": true,
+  "no_earlier_model_source_failure_or_compile_only_cutoff_rewritten": true,
+  "new_HTTP_JVM_Test_Game_C_GET_or_live_host_actions_for_this_publication": 0,
+  "full_owner_cost_CPU_exclusive_cost_and_net_savings": null
+}
