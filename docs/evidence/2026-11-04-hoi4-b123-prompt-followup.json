@@ -1,0 +1,83 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B123-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T06:33:22.711440+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T06:30:07.297318+00:00",
+    "window_ended_at_utc": "2026-11-04T06:30:10.954239+00:00",
+    "window_seconds": 3.656921,
+    "peak": 1,
+    "peak_duration_seconds": 3.656921,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b123-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 963,
+        "completion_tokens": 509,
+        "total_tokens": 1472
+      },
+      "failure": null,
+      "content_ttft_ms": 391.3328999769874,
+      "total_ms": 3650.4880000138655,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "c7bdca7b948699febb653710f0dd430564bf00fb24ab2129973bf7cedb58bfe6",
+      "summary_sha256": "e2358513c4bdbb591d1b3c92271eae909d123b2b208f589e8ed29b0d52ff6a5e",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "e7e2c2e33d2bf8310b6da417c438aa6fdf121c2c78cac291b762b242a387c4f6",
+        "task_id": "hoi4-20261104-b123-prompt-01",
+        "request_sha256": "c7bdca7b948699febb653710f0dd430564bf00fb24ab2129973bf7cedb58bfe6",
+        "summary_sha256": "e2358513c4bdbb591d1b3c92271eae909d123b2b208f589e8ed29b0d52ff6a5e",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Both SHA domains verified. Complete stop/DONE candidate retained dark upturned naval hat/pale side folds/central gold badge, short exposed dark hair/real brows/CLEAN face, slightly parted mild smile, open blue-grey jacket/pale shirt/black long tie, exact near-frontal pose/dark grey backing and literal creature identity.",
+          "Owner adds independent shallow broad short U lower head close beneath mouth and source collar raised/widened to meet rounded head; no earlier uniform image, extra visor/crown or braid used. No model pixels, visual approval or time-saving inference.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2601,
+        1184
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b123-sources.json",
+    "sha256": "4a4caf2119ba06ac74f097196c2346450d1242755efbfd3251ca14981bc5d63e",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T06:32:02.623253+00:00",
+  "stage_at_cutoff": "One source-specific naval portrait draft with a slightly parted smile",
+  "owner_review": "Retained actual upturned naval hat/pale folds/gold badge, short dark hair, open uniform/long tie and subtly parted expression. Independently checked literal creature identity, source authority and short rounded collar transition. No visual model input or art approval.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
