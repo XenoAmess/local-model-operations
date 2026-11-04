@@ -1,0 +1,160 @@
+{
+  "schema": "local-model-operations.civ6-native68-legacy344345/v1",
+  "date_local": "2026-11-04",
+  "published_at_utc": "2026-11-04T06:29:39.221571+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/ed1f1f74f8a0137449a8e424a63505bd383f09cb/docs/research/baiqi-p6-native68-legacy344345-evidence-2026-11-04.json",
+  "business_evidence_sha256": "040918d337aed0f20d9e9f8f8fad36691be9c047382f98e5f3fcb0ada17f6ab3",
+  "cases": [
+    {
+      "sequence": 344,
+      "case_id": "civ6-prophet344-native-readonly-probe",
+      "mode_id": "http-candidate",
+      "shared_commit": "546755aa5bcc5dd4a6dca36d4301a34c04ac181c",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T06:15:23.204725+00:00",
+      "attempt_end_utc": "2026-11-04T06:15:31.194311+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 7989.804599958006,
+        "first_nonempty_content_delta_ms": 2149.023499980103,
+        "usage": {
+          "prompt_tokens": 4670,
+          "completion_tokens": 83,
+          "total_tokens": 4753
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T06:15:23.204725+00:00",
+          "end_utc": "2026-11-04T06:15:31.194311+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 7989.804599958006
+        }
+      ],
+      "adoption": "zero; identifier only not executable probe",
+      "review": "Complete strict JSON but probe contains label only. Actual Lua53 load rejects identifier statement; owner wrote bounded actual read-only Core/UI probes and consumed them independently. No bridge method, world mutation or model code executed.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 345,
+      "case_id": "civ6-prophet345-native-readonly-probe",
+      "mode_id": "http-candidate",
+      "shared_commit": "546755aa5bcc5dd4a6dca36d4301a34c04ac181c",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T06:15:23.210466+00:00",
+      "attempt_end_utc": "2026-11-04T06:15:31.447586+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 8232.047400029842,
+        "first_nonempty_content_delta_ms": 7420.0520000304095,
+        "usage": {
+          "prompt_tokens": 45027,
+          "completion_tokens": 89,
+          "total_tokens": 45116
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T06:15:23.210466+00:00",
+          "end_utc": "2026-11-04T06:15:31.447586+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 8232.047400029842
+        }
+      ],
+      "adoption": "zero; identifier only not executable probe",
+      "review": "Complete strict JSON but probe contains label only. Actual Lua53 load rejects identifier statement; owner wrote bounded actual read-only Core/UI probes and consumed them independently. No bridge method, world mutation or model code executed.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "actual_client_inflight_for_cases": {
+    "actual_peak": 2,
+    "seconds_at_peak": 7.983845,
+    "longest_seconds_at_peak": 7.983845,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "cumulative_frozen_through345": {
+    "logical_requests": 345,
+    "complete_stop_json": 322,
+    "length_whole_discarded": 20,
+    "final_transport_failed": 3,
+    "http_attempts": 375,
+    "extra_retries": 30,
+    "current_http_inflight": 0,
+    "new_opencode_native_generation": 0
+  },
+  "candidate_compile": [
+    {
+      "sequence": 344,
+      "characters": 32,
+      "lua53_load_ok": false,
+      "error": "[string \"P6_PROPHET68_CORE_TUNER_READONLY\"]:1: syntax error near <eof>",
+      "native_executed": false
+    },
+    {
+      "sequence": 345,
+      "characters": 30,
+      "lua53_load_ok": false,
+      "error": "[string \"BAIQI_PROPHET68_UI_READONLY_V1\"]:1: syntax error near <eof>",
+      "native_executed": false
+    }
+  ],
+  "owner_native_result": "Both labels rejected; owner readonly Core/UI probes consumed. Actual normal68 coldload old prophet persistedLEGACY_UNKNOWN; other builder automation active. Narrow old-unit isolation sample, not new prophet founding pass; exact businesspin freezes before later Native branch.",
+  "steam": "Actual current-instance independent readonly live menu proof recovered before68 launch; officialheader navigation while Steam naturally alreadyforeground, noSteamactivation/move/screenshot/online switch.",
+  "maintenance": "Same Nov4 successful OpenCode1.19.5 cache, canonical shared caller/config and DIRECT host routing; ordinaryHTTP only.",
+  "unknown_costs": {
+    "exclusive_owner_phase_seconds": null,
+    "cached_tokens_if_unreported": null,
+    "server_queue_wait": null,
+    "net_savings": null
+  },
+  "next_real_trigger": "Native new prophet actual receipt/invalid-coordinate consumption branch later346347 and own69 fix, separately recorded. Do not repeat closed label probes or count this as native OpenCode generation."
+}
