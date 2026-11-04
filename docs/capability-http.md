@@ -2241,3 +2241,10 @@ M0同783案例的[新actual-Test counter](evidence/2026-11-04-http-m0-newtest-co
 [公共分支278的冻结切点](evidence/2026-11-04-http-public-branch278-cutoff.json)保留两次完整 stop、错误继承判断和 frame/字节序反审拒收；raw-Java Task 与实际 JSON mode 的 owner 张力独立记账，原请求不回写。[历史调用者初轮](evidence/2026-11-04-http-historical-caller-initial-round.json)的两份完整源意见均无代码采用，阴性设计和假设反例不授全局不可能性或后来 helper 资格。两案都保源字节、实际 HTTP 和未知主动工时。
 
 [既有 call protocol guard 正式后见](evidence/2026-11-04-call-protocol-guard264-formal-later.json)只附薄 publication receipt 与 owner 报告的旧首次复用；Models 未新核 Native raw、Git/remote 或 compiled/formal EOF 等式。没有新 HTTP、编测、case 分母或 Runtime/natural 信用，原 pending 切点不改。
+
+
+## 2026-11-04：完整 whole 见证拒收、既有 carrier 软件后见与 scope 源审
+
+[新 whole Stop 见证665](evidence/2026-11-04-http-whole-stop665-source-rejection.json)的70完整实体与实际三消息已独审无输入硬缺口；完整669行候选仍整拒、无部分采用或compiler RED，planned counter不等于候选批准，owner接管而不R2求绿。[既有 carrier659的软件后见](evidence/2026-11-04-http-carrier659-software-later.json)只复用首次1生产/4Test编译与3独立RUN所证4组4场景；7.1015761s是进程和，formal、下层真实组合和速度保持未授，原source切点不改。
+
+[公开scope退出任务的抽象经验](evidence/2026-11-04-http-scope-exit-source-lesson.txt)只保批准正文：完整STOP和有效JSON不替代异常位置、scope退出、同一Session续用及副作用断言。原Task格式张力与源码缺陷分账，不据此重发已闭请求；新任务预检见[输出合同](usage.md#输出与实际参数)。
