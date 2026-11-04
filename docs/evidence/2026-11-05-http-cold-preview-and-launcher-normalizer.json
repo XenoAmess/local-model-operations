@@ -1,0 +1,273 @@
+{
+  "schema": "local-model-operations.cold-preview-and-launcher-normalizer/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "model": "qwen38-coder",
+  "network": "DIRECT configured host; redirects refused; actual socket peer UNKNOWN",
+  "actual_cases": [
+    {
+      "task_id": "oom-cold-history-metadata-preview-20261105-01",
+      "POST_BEGIN_UTC": "2026-11-04T18:00:26.647391+00:00",
+      "ATTEMPT_END_UTC": "2026-11-04T18:00:56.462676+00:00",
+      "REQUEST_pin": {
+        "status": "present",
+        "bytes": 98205,
+        "sha256": "2a48be470cd1e8329cef79d1b709d3dc5b9e3889e4accb172177015ac9163517"
+      },
+      "CONTENT_pin": {
+        "status": "present",
+        "bytes": 9920,
+        "sha256": "f2542a4c309ce91a55bd3aa25c35195a8905c4f34257bfa1fefb8c1dda5e8ba1"
+      },
+      "RESULT_pin": {
+        "status": "present",
+        "bytes": 1281,
+        "sha256": "8d8db454e7ec0dfe3627da23b5e9f324c2ddf4e885e932fdae368948e6ebfffe"
+      },
+      "EVENTS_pin": {
+        "status": "present",
+        "bytes": 2783,
+        "sha256": "426f84c60be43107e497f97f284761f01d06e954dc16ba24f5180ff89685fb8e"
+      },
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+        "temperature": 0,
+        "max_tokens": 6000,
+        "stream": true,
+        "include_usage": true,
+        "thinking": false,
+        "response_format_type": "json_object"
+      },
+      "actual_messages": [
+        {
+          "ordinal": 1,
+          "role": "system",
+          "utf8_bytes": 301,
+          "sha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5"
+        },
+        {
+          "ordinal": 2,
+          "role": "user",
+          "utf8_bytes": 89992,
+          "sha256": "a1e689bd5050ed27a2212440a63924eb51c387f24eb7f8c3d88db6c3abdc1db7"
+        },
+        {
+          "ordinal": 3,
+          "role": "user",
+          "utf8_bytes": 5058,
+          "sha256": "48f2f571f730deaabf87f6a869ecad3817a3d10ac02bca07a870eeeec187447f"
+        }
+      ],
+      "headers_ms": 4077.5065000052564,
+      "effective_content_TTFT_ms": 4078.463899961207,
+      "HTTP_total_ms": 29815.309299970977,
+      "usage": {
+        "prompt_tokens": 20958,
+        "completion_tokens": 2192,
+        "total_tokens": 23150
+      },
+      "cached_tokens": null,
+      "input": {
+        "complete_actual_Java_sources": 7,
+        "physical_source_bytes": 88600,
+        "complete_contract_bytes": 5058
+      },
+      "source_owner_precise_diagnosis_and_contract_already_supplied": true,
+      "final_source_adoption": "PARTIAL_SOURCE_WITH_OWNER_SEMANTIC_CORRECTIONS_NO_SOFTWARE_CREDIT",
+      "raw_complete_method_adopted": false,
+      "partial_scope": [
+        "EventSummary/BoundedPreview API",
+        "rolling head/source uniqueness/snapshot loop and metadata-only result structure"
+      ],
+      "owner_semantic_corrections": [
+        "typed OriginalMetadata replaces heterogeneous Map and int/Object equality or Integer/long mismatch",
+        "catch impossible NoSuchAlgorithmException using identical old SHA-256 mechanism",
+        "BASELINE reconstructs earlier exact after state; never uses current head as earlier event predecessor",
+        "compare reloaded ancestor bytes to first-read length/SHA, strict earlier-only map, original details DOCUMENT_MAX bound",
+        "fixed finite count, immutable summary nullable fields, remove speculative task comments",
+        "mechanical source labels/hunk numbers repaired by inserting only new block; legacy file bytes restored exactly on inverse"
+      ],
+      "precise_API_and_rolling_direction_already_in_owner_contract_not_model_discovery": true,
+      "owner_source_review_UTC": "2026-11-04T18:03:27.938427+00:00",
+      "owner_cohort_ready_UTC": "2026-11-04T18:03:27.948046+00:00",
+      "owner_review_pin": {
+        "bytes": 1989,
+        "sha256": "6b45c2d41085330bbc210082053108196ceac9f33d0dc8b24f17608a80e765c9"
+      },
+      "coherent_two_TU_ready_pin": {
+        "bytes": 3439,
+        "sha256": "b41976b6d3b3ebd693f34fe4deaab756500061b96aedae6767c5335b2c5c9fb9"
+      },
+      "corrected_History_source_pin": {
+        "bytes": 11719,
+        "sha256": "3e7e093e6fbeff5f65cdf9ff9c3b21f0e4b7a4a6fdd39a0a124db085f2b66e3f"
+      },
+      "legacy_preview_and_helpers_original_bytes_preserved": true,
+      "later_corrected_cohort_first_compile": {
+        "qualified_receipt_UTC": "2026-11-04T18:07:44.068542+00:00",
+        "qualified_receipt": {
+          "bytes": 3486,
+          "sha256": "9f93440755b769725f9187c6367960732eec1835dc24f0675d835dd959de211a"
+        },
+        "actual_result": {
+          "bytes": 1829,
+          "sha256": "dae8f3b8eb878716b33bca6e200009a43b34ca2f0ddba9663f92d1754369f74d"
+        },
+        "new_TUs": 2,
+        "History_classes": 5,
+        "Store_classes": 2,
+        "compiler_exit_code": 0,
+        "compiler_seconds": 3.8658990999683738,
+        "stdout_bytes": 0,
+        "stderr_bytes": 0,
+        "prior_warm_33_classes_reused_not_recompiled": true,
+        "Native_actual_class_pins_checked": true,
+        "post_inputs_unchanged": true,
+        "fence_and_managed_close_closed": true,
+        "reservation_still_held": false,
+        "raw_model_method_compile_credit": false,
+        "behavior_or_Runtime_adoption": false
+      },
+      "owner_fixture_first_failure_preserved": {
+        "reported_failures": 1,
+        "reason": "256KiB payload plus envelope exceeds actual262144-byte LEDGER bound for the v1 fixture profile.",
+        "frozen_Json_SHA256": "7b5e31679b8be7d7ebfe212cf26180323cb10a9614a8ee8d7e07dc2a662d748d",
+        "DOCUMENT_MAX_BYTES": 65536,
+        "LEDGER_MAX_BYTES": 262144,
+        "v1_fixture_profile": "LEDGER",
+        "replacement_payload_KiB": 112,
+        "replacement_edges": 128,
+        "heap_MiB": 64,
+        "production_bounds_or_heap_increased": false,
+        "model_or_production_result_reclassified": false,
+        "scope": "Owner/Native correction of the earlier oral budget number; first failure remains. No new probe or compiler/Test run by Models."
+      }
+    },
+    {
+      "task_id": "runtime-launch14-source-projection-normalizer-20261105-01",
+      "POST_BEGIN_UTC": "2026-11-04T18:00:27.106114+00:00",
+      "ATTEMPT_END_UTC": "2026-11-04T18:00:57.006154+00:00",
+      "REQUEST_pin": {
+        "status": "present",
+        "bytes": 189076,
+        "sha256": "d02ff1ce62452fd7f6b26e4db3a02195f7441feba96e7a5df1dfc601e03fb9e9"
+      },
+      "CONTENT_pin": {
+        "status": "present",
+        "bytes": 9918,
+        "sha256": "af499ad01fe609c7d0ff100f59f5b789979fd67dfe9c3a9081bed0dd8aa71fc0"
+      },
+      "RESULT_pin": {
+        "status": "present",
+        "bytes": 1296,
+        "sha256": "ea51ef76755ac82104bf54abdfa4506c74c0d9dde58290a8dc5bcebd393855e5"
+      },
+      "EVENTS_pin": {
+        "status": "present",
+        "bytes": 2885,
+        "sha256": "b3d837ef54905884b2ad84b455f916f4612c9d3af2f4c63c771a2f31a34bd797"
+      },
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+        "temperature": 0,
+        "max_tokens": 4500,
+        "stream": true,
+        "include_usage": true,
+        "thinking": false,
+        "response_format_type": "json_object"
+      },
+      "actual_messages": [
+        {
+          "ordinal": 1,
+          "role": "system",
+          "utf8_bytes": 301,
+          "sha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5"
+        },
+        {
+          "ordinal": 2,
+          "role": "user",
+          "utf8_bytes": 169075,
+          "sha256": "1590ad14f2bd5c6ab4eb2d1e9979bb9e1ba3457be24a270d47e4e3d4f3d84f47"
+        },
+        {
+          "ordinal": 3,
+          "role": "user",
+          "utf8_bytes": 3291,
+          "sha256": "704fba50b3027bfe9e49e7de4ff3e69ae43f9d3ca88fac69a9ba6635fd733b7e"
+        }
+      ],
+      "headers_ms": 13363.33249998279,
+      "effective_content_TTFT_ms": 13364.377899968531,
+      "HTTP_total_ms": 29900.236000015866,
+      "usage": {
+        "prompt_tokens": 76456,
+        "completion_tokens": 2401,
+        "total_tokens": 78857
+      },
+      "cached_tokens": null,
+      "input": {
+        "complete_launcher_MODE_and12_documents": 14,
+        "physical_source_and_data_bytes": 157292,
+        "complete_required_function_manifest_bytes": 9057,
+        "actual_framed_files": 15
+      },
+      "source_owner_precise_diagnosis_and_contract_already_supplied": true,
+      "raw_function_adopted_or_executed": false,
+      "partial_reference": "Mapping/path ideas only; owner corrected full shape handling and pin/root/byte/resource binding. Code adoption extent was not itemized as a model block.",
+      "owner_source_review_failures": [
+        "Actual sources110 has no target required by raw branch.",
+        "withdraw return omits retain in the same actual document.",
+        "actual.path/root/bytes binding not complete and early historical C verification can precede final fold.",
+        "Zero business sources does not allow dropping the final properties resource revision."
+      ],
+      "owner_readonly_projection_receipt": {
+        "bytes": 16585,
+        "sha256": "fea3447267e634ebb55c62d5bd208514e75171c8a8a301a8671a3225e763c1d1"
+      },
+      "owner_corrected_normalizer_pin": {
+        "bytes": 6830,
+        "sha256": "7be78dd5377a8335d1e2300795905991bc67b84d7a281246b6eec327e6493208"
+      },
+      "new_launcher_pin": {
+        "bytes": 16053,
+        "sha256": "438bd1cf1bfc4eb30818c0c46ba171cfce01c2c6a59ae7175247c5f70a69934a"
+      },
+      "original_launcher_pin_unchanged": {
+        "bytes": 15308,
+        "sha256": "fb8b2671482034bd2a99a7c11d87d166260da1fc3fd95fe41f8ad2fbf35ba12f"
+      },
+      "outside_projection_function_bytes_inverse_exact": true,
+      "actual_readonly_projection_scope": {
+        "qualified_UTC": "2026-11-04T18:09:17.579371+00:00",
+        "final_entries": 90,
+        "original_immutable_adoption_documents": 114,
+        "malformed_path_count_resource_claims_rejected": 4,
+        "zero_business_records_still_fold_explicit_resource_revisions": true,
+        "Java_launches": 0,
+        "GET": 0,
+        "Game_queries": 0,
+        "C_writes": 0
+      },
+      "not_model_raw_preflight_or_Java_BOOT_LOOP_SAVE_credit": true,
+      "known_input_projection_only_not_all_future_document_formats": true
+    }
+  ],
+  "audits": "Both fixed3 requests, finite parameters, complete stop/DONE/outer JSON and saved UTF8 CONTENT vs raw SSE matched with zero discrepancies. Candidates were not executed by Models.",
+  "new_POSTs": 2,
+  "ENDs": 2,
+  "retries": 0,
+  "covered_client_peak": 2,
+  "covered_peak2_seconds": 29.356562,
+  "covered_current_inflight": 0,
+  "service_Runtime_other_machine_occupancy": "UNKNOWN_NOT_PROBED",
+  "same_day_Nov5_maintenance_cache_reused": true,
+  "new_OpenCode_native_generation_sessions": 0,
+  "old_length_or_completed_tasks_rePOSTed": false,
+  "earlier_source_only_or_failure_cutoffs_rewritten": false,
+  "new_HTTP_JVM_Test_C_GET_Game_or_live_host_actions_for_publication": 0,
+  "full_owner_preparation_correction_CPU_exclusive_cost_and_net_savings": null
+}

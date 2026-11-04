@@ -2621,6 +2621,18 @@ Test02在首次POST前绑定明确拟议的withHistoricalTransitions合同，原
 
 [CI leaf源审回执](evidence/2026-11-05-http-ci-resource-reference-owner-source-later.json)确认4509B/c212c2e1候选只采用原fail前的assertNotNull(owner)一行语义，owner机械修raw hunk和路径，outside逆还原精确。所有意外成功启动仍失败，新增断言不抛IOException，不改IO/deadline/close或Werror。精确断言由owner在POST前许可，不称模型自主发现；仍只源码采用、0编测/正式/CI绿，P0 OOM恢复不为此新增JVM，原pending source切点不回写。
 
+## 2026-11-05：owner warm修复首次编译，不追授模型失败原稿
+
+[后到owner生产首编](evidence/2026-11-05-http-owner-warm-history-first-compile-later.json)为Java producer/API与M6 consumer三个实际owner源，strict0/33class（Batch20/Port4/Writer9）、11.0887058秒，stdout/stderr0、post/fence/managedClose闭合且释放。实际泛型API/descriptor与class pins由Native核验，未重support/Test或RUN；这仍不是小heap行为、cold Store/History资格、Runtime恢复或提速。原producer模型length整弃/被拒Test新增方法都0采用，软件首编不追授这些raw，原失败切点保留。
+
+## 2026-11-05：cold preview部分采用与launcher normalizer由owner修正
+
+[两个完整stop后到分层记录](evidence/2026-11-05-http-cold-preview-and-launcher-normalizer.json)：cold7actual源88600B/max6000，29.8153093秒/有效TTFT4.0784639秒、20958+2192tokens；normalizer完整launcher/MODE/12docs157292B另9057B合同/max4500，29.900236秒/有效TTFT13.3643779秒、76456+2401tokens，cached均null。fixed3、完整JSON和raw UTF8一致均已核；两客户端真实峰2持续29.356562秒，不授全服务峰或缓存结论。
+
+Cold仅部分采用owner先给的API、rolling/source/snapshot结构；raw整method未采用。owner修typed metadata、checked SHA、Integer/long比较、首次指纹和BASELINE祖先前态/typed after/details，再固定finite count，旧Preview/helpers原字节保；修后History+Store另2TU首0/7class、3.8658991秒，前warm33不重。行为尚待64MiB测试：原256KiB payload加封套超过v1实际LEDGER262144形成owner fixture1F；冻结Json的DOCUMENT65536与LEDGER262144分列，修112KiB/128edges，不放宽生产/heap、不把fixture失败归模型或生产。
+
+Normalizer raw未执行并被拒，mapping/path只作参考；owner补sources无target、多组withdraw+retain、actual.path/root/bytes与properties资源revision后，实际只读通过90最终entry/114原adoption及4malformed反例。zero-business不能漏掉显式资源revision；旧actor原样，新副本仅projection函数改变、外部guards字节逆还原精确。该preflight是owner适配结果，0Java/GET/Game/C写，不授模型raw执行、BOOT/LOOP/SAVE或未来任意格式通过。源码与软件、owner成本和后续Runtime继续分账，净收益未知。
+
 ## 2026-11-05：Civ6389—392，被动观察与候选源审
 
 四个普通HTTP均stop／DONE／合法JSON，峰2累计17.307495秒、0额外重试。389回环实际连接返回错误-1，390真实SDK编译C2039，391复制无关WorldInput接口和64上限，392静态合同／清理／阻断判据错误，原稿0代码采用；不能把完整传输当组件正确。负责人被动四绑定观察器10项新软件通过、原生目录userdata类型修正后安装；只保存调用前标量，原函数一次且异常／末尾nil返回保持，外来绑定先核全部再清理。QA损坏资产、改初始库存和移除一个文职只属于财政场景准备，尚非财政效果；未执行WFP。[精确原稿分级与业务pin](evidence/2026-11-05-civ6-finance389392.json)。两类成本、缓存及净节省未知。
