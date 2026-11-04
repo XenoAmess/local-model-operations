@@ -1,0 +1,76 @@
+{
+  "schema": "opencode-native-scoped-source-counter-abstract/v1",
+  "mode_id": "opencode-native-tools",
+  "case": "First counter of an actual unfinished source candidate after its original public contract became complete",
+  "generation_role": "Source counter, distinct from an earlier ordinary implementation and separate integration consumer review; not a controlled A/B.",
+  "source_setup": {
+    "inert_whitelisted_sources_and_contracts": 8,
+    "original_contract_before_original_source_before_candidate": true,
+    "owner_oracle_Test_prior_model_answer_or_owner_grade_supplied": false,
+    "source_copies_and_originals_equal_at_end": true,
+    "generic_auditor_source_parity": "UNKNOWN"
+  },
+  "effective_client": {
+    "installed_version": "1.19.5",
+    "daily_success_cache_reused": true,
+    "effective_config_verified": true,
+    "each_response_max_tokens": 6000,
+    "each_HTTP_timeout_seconds": 180,
+    "automatic_relay_retries": 0,
+    "fixed_steps_total_POST_or_whole_session_wall_cap": null,
+    "read_permission": "Exact source, task and report whitelist; directory listing denied",
+    "write_permission": "One report only",
+    "other_commands_network_glob_grep_or_collaboration_tools": "DENIED",
+    "explicit_child_D_client_state_and_UTF8_environment_recorded": true
+  },
+  "actual_transport": {
+    "POST": 13,
+    "END": 13,
+    "inflight_at_end": 0,
+    "finish_counts": {
+      "tool_calls": 12,
+      "stop": 1
+    },
+    "all_HTTP_200_DONE_complete": true,
+    "first_POST_utc": "2026-11-04T00:25:24.690196+00:00",
+    "last_END_utc": "2026-11-04T00:26:07.866388+00:00",
+    "native_CLI_wall_seconds": 45.59575,
+    "HTTP_sum_seconds": 42.858323599997675,
+    "reported_prompt_tokens": 669147,
+    "reported_completion_tokens": 3086,
+    "cached_tokens": null,
+    "cache_not_inferred_from_latency": true
+  },
+  "actual_tools": {
+    "read_success": 14,
+    "read_denied": 1,
+    "report_write_success": 1,
+    "failure_recovery": "Directory read was refused; subsequent allowed exact files succeeded without widening permission.",
+    "large_original_and_candidate_range_continuations": 4,
+    "repetition_groups": [],
+    "selected_source_changes_or_target_execution": 0,
+    "only_report_changed": true,
+    "generic_final_text_to_HTTP_response_association": "UNKNOWN"
+  },
+  "semantic_value": {
+    "claimed_blockers": 3,
+    "independently_qualified_new_findings": 0,
+    "Models_and_original_owner_source_reviews": "All three promoted blockers rejected against actual supplied statements and contract.",
+    "report_whole_accepted_as_blocker_or_code": false,
+    "source_or_Test_changes": 0,
+    "new_guided_reassessment_or_repost": 0,
+    "software_Runtime_or_safety_PASS": false
+  },
+  "owner_cost": {
+    "held_source_clock_marker_to_CLI_begin_seconds": 160.991297,
+    "marker_is_not_full_task_or_exclusive_labor_start": true,
+    "captured_source_owner_review_lower_bound_seconds": 44.589,
+    "initial_report_read_and_analysis_predate_review_marker": true,
+    "HTTP_CLI_and_preparation_windows_not_added_as_exclusive_costs": true,
+    "full_task_wall_seconds": null,
+    "active_seconds": null,
+    "CPU_seconds": null,
+    "net_time_saving": null
+  },
+  "publication_boundary": "Only Models-owned abstract tool statistics and bounded adoption grade. Private source, task, report, oracle, paths and business details remain local. No new HTTP, software execution, deployment or original evidence rewrite for publication."
+}

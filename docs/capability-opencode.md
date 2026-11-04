@@ -290,3 +290,10 @@ The 5935.296762-second owner wall, 2680-second peer wall and earlier 1754.368648
 
 
 同案后到的原source owner独立有限审阅也逐条拒收3finding，未把运营owner先判定当oracle。23:24:01→23:26:49的168秒审阅墙钟与30.551718秒CLI/28.256587秒HTTP分别保留，active仍未知；0新请求/源改/重验/软件信用，private raw不搬。原4431字节case metadata保持原cut，不倒写。
+
+
+## 2026-11-04：新实际候选的受限原生反审，13轮与零有效finding
+
+[本次抽象工具记录](evidence/2026-11-04-opencode-source-counter-second.json)是一个新的真实source-counter：先原public合同和原source，再actualcandidate，不给作者Test/oracle或旧答案。13POST/13END（12tool_calls、1stop）中14次read成功、1次目录read被拒后按原白名单恢复、1次只写报告；四次大文件续读不是重复循环。原件与8份DATA副本未改，effective config/6000有限单回复及原生history均留证，没有固定总步帽或relayretry。
+
+报告自称的3个blocker经Models与原owner分别逐源全部拒收，0有效新finding/0源码或Test采用；完整工具闭环与CLI0不授语义通过。45.59575s CLI与42.8583236s HTTP和不是完整owner工时；审阅44.589s仅捕获下界，前置准备、初读与分析仍保，active/净节省未知。普通实现与该counter题目和可见协议不同，不作受控A/B或永久能力结论；私有报告/业务源留本机，下一验证只由新的未完真实任务触发。
