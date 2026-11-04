@@ -2714,3 +2714,10 @@ owner独立完成5219字节BBCode、真实图解读、AI宣传图及87文件对�
 [新运行P0源码任务](evidence/2026-11-05-http-dev-current-map-entry-length.json)提供3完整current源103131B及2144B最终合同，目标只有Dev/Main既有方法，Assembly只读。最终Dev两参保resume、三参只resume|current-map，Main保旧fresh/resume并增加实际mapReady拒绝；初稿fresh方案从未POST。诊断与精确改法已由owner提供，候选不具运行权限。
 
 固定三消息/DIRECT/max2400，一次HTTP200/DONE但length：16.3208546秒、有效TTFT2.8588109秒、21519+2400tokens、cachednull。CONTENT/raw SSE未打开、解析、提取或哈希，整份0采用、不续半稿/不R2，立即交Java接管；未以新预算重发。canonical-ready至POST63.120919秒为协调墙钟，不是TTFT或CPU。444终态/444租约释放，0在途；未新增JVM/Runtime/Game，也不等Git阻恢复。原件未读，不能臆测输出为何用满、授语义/编译红或永久容量上限；owner后继源码/编测/正式/实机另记，完整主动成本和净收益未知。
+
+
+## 2026-11-05：同调用 packet envelope 输入复用首派 length
+
+[独立C1真实实现任务](evidence/2026-11-05-http-native-packet-input-length.json)给4完整current源87938B及6763B合同，A后镜像由Root/Runtime确认当前源，目标仅Reader/ObservationAssembler。要求由Reader原strict parser合法生成私有bytes/envelope，在同call首次assembler projection以byteexact匹配复用，不匹配走完整旧strict fallback；state解析/相等、全部原guards/hash与公开Complete严格重放保留。这是新纯输入单位，不是旧A/Test重试或shared-verdict缓存，Dev P0首派已优先收尾。
+
+固定三消息/DIRECT/max8000，一次HTTP200/DONE但length，47.3528359秒、有效TTFT2.6965045秒、19944+8000tokens、cachednull。CONTENT/raw SSE未打开、解析、提取或哈希，整份0采用、不R2/不拼接，立即交owner接管；未读半稿不计API/类型/编译红，也不能据此认定永久能力上限。source-ready至POST80.034624秒只属协调墙钟。445终态/445租约释放、0在途，0新JVM/Runtime/Game；owner后继源码、软件与真实装载分别记，不以模型请求或文档门阻实际运行。完整主动成本、服务缓存和净收益未知。

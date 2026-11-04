@@ -1,0 +1,111 @@
+{
+  "schema": "local-model-operations.replay-native-packet-input-length/v1",
+  "date": "2026-11-05",
+  "case_id": "replay-native-packet-input-once-20261105-01",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network": "DIRECT;redirects refused;actual socket peer UNKNOWN",
+  "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+  "profile_sha256": "97fb38b997dde3522f2310d06a229ab660db35f8bdc1a5d40eaa5c9e07e57e9a",
+  "source_ready_UTC": "2026-11-04T21:03:18.100047+00:00",
+  "source_ready_pin": {
+    "bytes": 4488,
+    "sha256": "26b919804ea2f54a6965fc55a47e23c6cccf0b4dd9271b41bdb6ad413bc663b2"
+  },
+  "complete_current_sources": 4,
+  "source_bytes": 87938,
+  "complete_contract_bytes": 6763,
+  "targets": 2,
+  "input_authority": "Root/Runtime confirmed A Reader/Persistent postimages as current source; full four Reader/ObservationAssembler/Persistent/Loader bodies supplied. Independently audited unchanged Archive/StateAssembler are outside this implementation.",
+  "owner_precisely_proved_repetition_and_prescribed_invariants": true,
+  "requested_unit": "Reader strict-parser-produced private packet snapshot/envelope, first same-call internal assembler projection only; exact producer/consumer bytes match or full legacy strict fallback. No global/verdict/state cache or public authority marker.",
+  "preservation_contract": [
+    "all old public bodies and strict fallback",
+    "state parsing/equality and original envelope metadata order",
+    "full binding/source/Game/session/identity checks",
+    "profile4 public Complete constructor strict re-projection",
+    "A callback/getter/nonnull/native bounds and clone timing",
+    "no parser/hash/oldencode/B/C2 changes"
+  ],
+  "earlier_A_or_Test_rePOST": false,
+  "Dev_P0_first_dispatch_was_completed_before_C1": true,
+  "POST_BEGIN_UTC": "2026-11-04T21:04:38.134671+00:00",
+  "ATTEMPT_END_UTC": "2026-11-04T21:05:25.487448+00:00",
+  "source_ready_to_POST_coordination_wall_seconds": 80.034624,
+  "coordination_wall_not_CPU_or_TTFT": true,
+  "fixed_three_messages": true,
+  "message_pins": [
+    {
+      "role": "system",
+      "utf8_bytes": 301,
+      "sha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5"
+    },
+    {
+      "role": "user",
+      "utf8_bytes": 89027,
+      "sha256": "cb6807488f473e95b4aa95c0f4e06d11e19f58d0d6a06d94cbc4bbdda6172676"
+    },
+    {
+      "role": "user",
+      "utf8_bytes": 6763,
+      "sha256": "128d9a9620e0d8d572d44f4ca5d3b0f8a664d840103ea6401fdb84fd8361b5f9"
+    }
+  ],
+  "actual_parameters": {
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "max_tokens": 8000,
+    "stream": true,
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "thinking": false,
+  "include_usage": true,
+  "HTTP_status": 200,
+  "finish_reason": "length",
+  "DONE": true,
+  "headers_ms": 2695.5553000443615,
+  "effective_content_TTFT_ms": 2696.504499996081,
+  "HTTP_total_ms": 47352.835900033824,
+  "usage": {
+    "prompt_tokens": 19944,
+    "completion_tokens": 8000,
+    "total_tokens": 27944
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 98420,
+    "sha256": "362a066b48b894f0c01677aa7df1be86b551e12d7259bc4eecd9687357420a52"
+  },
+  "RESULT_pin": {
+    "bytes": 1320,
+    "sha256": "bef0adbd521911f90bf9727843003bcdb7b996e33f79ae4b5a77a21d0066127f"
+  },
+  "EVENTS_pin": {
+    "bytes": 2816,
+    "sha256": "e3c40a5fdd60efa86b1a88cfdc35fb85795377a949585ae2ce4f8b3980aadeea"
+  },
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "CONTENT_raw_SSE_opened_parsed_extracted_or_hashed": false,
+  "whole_length_discarded": true,
+  "outer_JSON_or_code_semantics": "NOT_INSPECTED_NON_STOP",
+  "new_model_code_adopted": 0,
+  "automatic_R2_or_stitching": false,
+  "owner_takeover_requested": true,
+  "owner_candidate_software_formal_Runtime": "Separate later evidence; not inferred",
+  "new_HTTP_JVM_SDK_Runtime_Game_by_posthoc": 0,
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 445
+    },
+    "leases.db": {
+      "RELEASED": 445
+    }
+  },
+  "source_inflight_after_END": 0,
+  "full_owner_active_time_and_net_savings": null,
+  "limit": "Budget exhaustion on this finite real task, not an observed model API/type/compiler failure. No partial-body inspection, same-task larger-budget retry, permanent ability ceiling, measured speedup or service-cache claim."
+}
