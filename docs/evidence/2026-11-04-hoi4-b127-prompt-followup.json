@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B127-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T07:00:17.047358+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T06:55:53.134546+00:00",
+    "window_ended_at_utc": "2026-11-04T06:55:57.008005+00:00",
+    "window_seconds": 3.873459,
+    "peak": 1,
+    "peak_duration_seconds": 3.873459,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b127-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 966,
+        "completion_tokens": 527,
+        "total_tokens": 1493
+      },
+      "failure": null,
+      "content_ttft_ms": 419.9374000309035,
+      "total_ms": 3868.3743000146933,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "65634e855738c16414e4cb63bd14685586143bacee762dc5b54287192a869ea8",
+      "summary_sha256": "65ffac2455f1cd228c7c166716fc23d6c5d4cdc2ff0146915219bbfc097e1075",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "4a5769ba5fd779b8899349217642f3db7bfcb6cbf15c9b81166223e90d0e2e32",
+        "task_id": "hoi4-20261104-b127-prompt-01",
+        "request_sha256": "65634e855738c16414e4cb63bd14685586143bacee762dc5b54287192a869ea8",
+        "summary_sha256": "65ffac2455f1cd228c7c166716fc23d6c5d4cdc2ff0146915219bbfc097e1075",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Verified both SHA domains. Candidate changed source BROWN coat to BLUE-GREY; owner corrected that exact phrase before image preparation, retaining complete original model output unchanged in HTTP evidence.",
+          "Candidate omitted actual noticeable left head roll/mild left turn; owner independently restated exact source pose and tilt before call. Retained short dark wavy bob/real brows/CLEAN face, restrained closed mouth, thin muted gold chain footprint, near-black low neckline and literal creature identity.",
+          "Owner enforces minimal VERY SHORT BROAD exposed neck and source neckline raised/widened immediately under compact short rounded head, no long yellow triangle; no invented pendant/full tie. No model pixels or visual approval.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2640,
+        1184
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b127-sources.json",
+    "sha256": "57756d14aea810a3bb82fee509e4dea5c3ee9876cd048acc2536bcd30093a762",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T06:57:52.401925+00:00",
+  "stage_at_cutoff": "One tilted political-advisor portrait draft with an owner-corrected coat color",
+  "owner_review": "The complete candidate changed the observed BROWN coat into BLUE-GREY and omitted the noticeable source head roll. Corrected the exact coat phrase and independently restated source tilt/turn before image preparation; original HTTP output remains unchanged. Retained short dark bob, clean face, thin gold necklace footprint and literal creature identity.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
