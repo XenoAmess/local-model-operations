@@ -2592,3 +2592,9 @@ Nov5本机首次真正模型任务前，共享CLI实际记录OPENCODE_DAILY_CHEC
 业务pin为普通74／87文件真实离线冷启，0.972989秒前独立后台读取当前Steam实例“上线...”，正式菜单导航与查询分账，0在线切换。正常Farm114的五上下文状态、资产和只读保护保持；不是Native财政冲击通过。在该冻结阶段未损坏资产／设金币或创建网络策略。MpsSvc/BFE运行但普通Firewall profiles全关，加规则ACK不能证明连接被阻断；不得为了QA开启全机配置或停共享模型服务。先做自有诊断程序的精确端点隔离前／阻断／恢复自检；未知先保留，不能用缺HTTP调用替代服务不可访问实测。
 
 该对实际客户端峰2持续16.196267秒；冻结388逻辑／361完整／24length整弃／3最终传输失败、418HTTP尝试／30额外重试。0新OpenCode原生生成，普通候选／维护／owner冷启动实效分账；独占成本、未报告缓存、服务器等待／净节省null。
+
+## 2026-11-05：两个精确引导的小源码单元完整返回
+
+[两个新源码任务](evidence/2026-11-05-http-small-ci-and-sway-source-leaves.json)分别给完整当前Test4475B及Policy/Service27617B，有限max1600/4000，均一次stop/DONE/有效JSON；实际3.2433465/5.5062508秒，有效TTFT0.4541721/1.2460765秒，reported1547+303及6698+779tokens，cached均null。Nov5首次模型入口已实际核registry/CLI1.19.5，无更新；不是沿用Nov4成功记录。两个具名请求未重叠，客户端峰1合计8.749577秒，不代表全服务占用。
+
+Test候选按owner先给的精确合同在原fail前引用resource，未新增可能抛IOException的owner调用；raw diff的hunk行数及绝对文件标签需owner规范化，不能直接当可应用补丁。另一完整evaluate仅在empty-stage原Keep原因后追加既有optional error，owner源审原样采用，语义修改0；逆换唯一block后method与class outside原字节恢复，只机械补原LF。诊断方向均由owner先明确，未授模型自主发现；source采用不授编测、Runtime装载、自然场景或提速，另一个活动collector lease故障仍分账。完整准备、审阅和净收益未知，旧length切点不回写。
