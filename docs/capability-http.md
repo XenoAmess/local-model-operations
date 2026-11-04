@@ -2818,3 +2818,12 @@ owner引用本机官方SDK实际接口／结构、修正WindowsANSI读回UTF8和
 [已有正式 CI 原件的后到独核](evidence/2026-11-05-http-ci-lobby-component-software-later.json)确认 cbd7919a / Official41920385302 的 build-qualified-tools 为 PASS，源码及编译源码 postcheck 均 MATCH；Maven exit0、555.301976秒，1199项测试0错误/失败/跳过。新增 ControlBuildLobbySoftwareLaneTest 明确4P、0.129秒，绑定原 owner 修后 ab467e04/43d6217e；旧源码切点保留，后到软件资格不回授原模型整份 diff 或未经修改的方法。
 
 随后 qualified child exit1、1.6307527秒，因 tools-postqualification/actual.json 缺失在 ControlCi.runQualified1947 失败；整条 Official 仍 failure，不授完整 reactor、实际 HTTP 链或 wholeCI 通过，也不撤销前段组件4P。不能伪造缺失文件或跳过后置合同。模型采用仍仅三键谓词与 Test 结构 partial，API/边界断言由 owner 修正；本附页0新生成HTTP/JVM/CI查询/Runtime/Game，不把1199项旧组件测试全算模型收益，完整主动成本与净收益未知。
+
+
+## 2026-11-05：首负 READ 通知独立 Test 完整返回但两方法全拒
+
+[真实新独立 Test 首派](evidence/2026-11-05-http-first-negative-owner-notice-independent-test-source.json)给10完整311946B源/8754B合同，明确实际 ca767 是旧五参 readAvailableFreshSnapshot 内 attempt0 stdout，已弃 callback factory 不带入；后继转 M6 审阅未改请求/ID/参数。max8000、T0/thinkingfalse/json_object/DIRECT，一次 HTTP200/stop/DONE/有效JSON，31.5884209秒、有效TTFT8.3543705秒、64987+4197tokens、cachednull，18714B完整原件即交owner，CONTENT=SSE UTF8、审计0discrepancy。
+
+M6全文源审拒绝完整类及两个新增方法，0partial/0modelJVM：缺真实 Unknown 同IDcollect、ACK-only却断言frame存在、两份events分离却要求跨IO时序；sink转发真实stdout，未实现字节缓冲/发出时归档检查/failedsink。第二方法仅抛IllegalStateException，未交付两处UncheckedIO、长error、persistentUnknown、正ACK缺state及声称的中断场景。既有HELLO/STATE/receiver夹具不算模型新贡献；后到生产删除optionalACK字段是独立演化，不能解释原来缺项。owner接管、不R2，source拒收不冒compiler/软件红。
+
+453终态/453租约释放、0源在途，旧生产length整弃切点不改，未重跑旧3P或触JVM/UI/Runtime/Game；本例完整stop也不是输出预算建议的A/B收益证明。后继owner源/编测/正式/实际通知投递另记，不追授raw软件绿、Root/Native恢复、日/SAVE/G2/实速；完整主动成本与净收益未知。
