@@ -2806,3 +2806,8 @@ owner引用本机官方SDK实际接口／结构、修正WindowsANSI读回UTF8和
 [独立真实通知窄叶](evidence/2026-11-05-http-first-negative-owner-notice-length.json)给10完整current源386194B/5819B合同，唯一Factory目标。要求真实archive callback先preserve dispatch和presentframe，再对每次观察首completednegative尝试一次有界结构化stdout；archive失败原样逃逸，只有诊断解码/输出失败隔离。readAvailable全体、原重试/两个期限/100ms/Guard及Received成功体原字节保留，不造parent/eventID、不认定modal、更不授UI输入。健康24不等该候选，也不为它重跑旧3P。
 
 固定三消息/DIRECT/max8000，一次HTTP200/DONE但length，59.0409578秒、有效TTFT10.1953431秒、79321+8000tokens、cachednull。CONTENT/raw SSE整份未打开、解析、提取或哈希，0采用、不R2/不拼接，原结果即交Java接管；未知半稿不作语义/编译评分或永久能力上限。452终态/452租约释放、0源在途，0新增JVM/UI/Runtime/Game、无活跃参数改动；后到owner代码、软件、正式及实际通知投递分层，不推断因果/恢复/SAVE/性能，完整主动成本与净收益未知。
+
+
+## 2026-11-05：Civ6401，奇观布景API资格
+
+401为真实未闭TC-031提供实际WorldBuilder调用者与现用快照／消费者；3000预算完整stop／DONE／合法JSON，3838+504tokens、4929.0058ms、TTFT2085.8903ms，1POST／0重试。拒绝全部候选Lua：把GameCore_Tuner上下文标签当env表，且if row.IsWonder把数值0也视真。谨慎结论仅复述给定合同，0代码／0新方案采用；未由候选造资产、转城或授奇观保留通过。owner改用真实上下文全局与既有严格flag规则，实际局内资格另核。[精确业务pin、参数、审阅与成本](evidence/2026-11-05-civ6-assets401.json)。
