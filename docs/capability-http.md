@@ -2542,3 +2542,9 @@ owner接管只读UI自有城市资产工具和四项行为检查：完整建筑�
 [后到有限软件回执](evidence/2026-11-04-http-clean-restart-software-later.json)确认owner生产3TU严格0/55class，Test05仅新1TU0/10class，再以原3methods真实3P、0skip/abort/fail、stderr0；ACTUAL43.239616秒与XML41.341秒分列，Fixture37/Support2/production55只复用。合法canonical capture/admit→Bootstrap→实际software transport链通过不授物理Managed/Core/Prepared整链、装载、LOOP、日数/SAVE或速度。缓存握手open-check的期限未由packet边独立暴露，源码路由审阅与可观察HELLO/fresh endpoint实测分别记。
 
 原生产整diff0代码采用，延迟路由方向由owner先给；Test新增methods全为owner重写，3P不追授模型raw。两轮owner harness3F（reader预算、external basis误投CAS）与Test04遗漏checked IOException编译1仍保留成本。最终typed reader只对真实320B fixture external basis作bounded read/len/SHA，未放松生产/CAS合同；原source-only切点不回写，完整owner工时和净收益未知。本次后见0新HTTP/编测/Runtime动作，不设为运行采用前置。
+
+## 2026-11-04：冻结模型只读helper的有限输出截断
+
+[真实未完成的离线模型检查helper](evidence/2026-11-04-http-loader-model-inspector-length.json)给完整新Java skeleton/合同、3份POM及manifest共6文本39777B，约120行完整helper/短reasoning、max6000；一次HTTP200/DONE，34.4464866秒/有效TTFT2.0251467秒，但finish=length且输出用满6000tokens。整份CONTENT未打开/解析/提取或拼接，采用0、不自动R2，不作Java语义评分或永久能力上限。
+
+本次未把二进制dat/jar当文本，未反序列化、编译/执行helper或attach运行宿主；磁盘模型声明不授真实loader可见性、根因或修复信用。Runtime同局恢复独立继续，不将此helper设为前置。冻结材料导航、输出合同设计、准备和后继owner工作另有成本，HTTP时长不等于完整交付或净节省。
