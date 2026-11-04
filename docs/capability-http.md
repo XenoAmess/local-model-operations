@@ -22,6 +22,14 @@ owner把稳定system、完整当前源码/合同、变化的任务/诊断组成�
 
 三次预算修订的actual payload仅max_tokens不同，是原作者离线机械比较结果，本条不冒Ops独立原件审计。generation、准备、纠错、验证与含重叠的墙钟分列，主动工时/CPU未知；软件、实际装载和自然业务资格仍各待原owner回执，不为并发数字增加任务。
 
+## 2026-11-04：薄装配采用、输入补充与真实夹具失败
+
+原作者批准的[668](evidence/2026-11-04-http-finalization-binding668-source.json)与[670—674](evidence/2026-11-04-http-whole-composition670-source.json)分别保留2800B、1981B完整薄工厂原样采用，0owner Java改动。完整API、路线和装配形状是强提示，不能授独立算法发现；668期待在POST后、首次正文消费前冻结，不称generation-blind。planned-source counter只给有限义务；两个host实现length整未读弃，owner另写完整host，668初始生命周期/mixed/capture输入漏件单列，不追责后加义务。新Test源与有限case仍未取得软件或正式通过，旧cutoff不回写。
+
+[665真实首RUN930失败](evidence/2026-11-04-owner-fixture-route-correction665.json)发生在夹具构造、目标尚未进入、接受组0：六条合法路线共用五个预期selector，两个嵌套路可合法选择同一Stopped对象。owner改按独立route标签登记并保selector关系，四hunk仅修失败夹具；原编译0和RUN红保留，新修订尚未执行。这是owner夹具域错误，不能记成模型、生产者或物理语义失败。
+
+[940有限取源缺口与675新proposal](evidence/2026-11-04-source-gap940-and-proposal675.json)仅是另行批准的运营来源记录，明确不是HTTP模型case。有限已持表的NoRF不证明全image没有函数，不补猜body；新有界proposal尚未获实际执行或软件信用。源码、HTTP、资源进程、包含协调的墙钟与未知主动工时继续分列。
+
 ## 基线案例
 
 | case_id / 观察 | 输入与实际结果 | 采用、验证及边界 |
