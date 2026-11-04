@@ -1,0 +1,159 @@
+{
+  "schema": "local-model-operations.civ6-city332-gaps331332/v1",
+  "date_local": "2026-11-04",
+  "published_at_utc": "2026-11-04T05:00:25.730925+00:00",
+  "business_snapshot_at_utc": "2026-11-04T04:49:39.727282+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/432eb191f778d37d0240b49c52eb0663f5178784/docs/research/baiqi-p6-city332-gaps331332-evidence-2026-11-04.json",
+  "business_evidence_sha256": "73963db2c16fb9db48d045bfe66563badf5663c3040b36fc5c7484af43386578",
+  "cases": [
+    {
+      "sequence": 331,
+      "case_id": "civ6-religion331",
+      "mode_id": "http-candidate",
+      "shared_commit": "8fe9338191fa27329702e138bb90e5757f775816",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T04:29:32.707288+00:00",
+      "attempt_end_utc": "2026-11-04T04:30:14.489654+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 41782.760399975814,
+        "first_nonempty_content_delta_ms": 26839.928599947598,
+        "usage": {
+          "prompt_tokens": 85856,
+          "completion_tokens": 940,
+          "total_tokens": 86796
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T04:29:32.707288+00:00",
+          "end_utc": "2026-11-04T04:30:14.489654+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 41782.760399975814
+        }
+      ],
+      "adoption": "PARTIAL_SOURCE_FACTS_GAP_CLAIMS_REJECTED",
+      "review": {
+        "adopted": "Only founding/earned belief and existing route-function facts independently source checked; no code.",
+        "rejected": "Persistent prophet intent claim false: current RequestProphet only local pendingUnits. Alleged missing priority HolySite/GP district does not prove required reachable bug and misuses test IDs. Missionary persistence unknown is evidence gap, not concrete implementation failure; exact Religious bridge implementation was omitted by owner source pack so this uncertainty is not model ignoring supplied callee. Existing real Native religion evidence was supplied in status, cannot relabel all native unverified.",
+        "owner_next": "Independently identified actual BR013 prophet unknown-reload risk from local pendingUnits with no persistent Prepare; reproduce before proposed fix, not a finding adopted from this candidate."
+      },
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 332,
+      "case_id": "civ6-settlement332",
+      "mode_id": "http-candidate",
+      "shared_commit": "8fe9338191fa27329702e138bb90e5757f775816",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T04:29:32.702059+00:00",
+      "attempt_end_utc": "2026-11-04T04:30:17.402430+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 44700.63440001104,
+        "first_nonempty_content_delta_ms": 21352.873700030614,
+        "usage": {
+          "prompt_tokens": 80992,
+          "completion_tokens": 1285,
+          "total_tokens": 82277
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T04:29:32.702059+00:00",
+          "end_utc": "2026-11-04T04:30:17.402430+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 44700.63440001104
+        }
+      ],
+      "adoption": "PARTIAL_SOURCE_FACTS_GAP_CLAIMS_REJECTED",
+      "review": {
+        "adopted": "Per-turn reset, native recommendations and formation-gate source facts only, independently checked.",
+        "rejected": "Cross-turn stale reservations contradict actual reset; same-site two-city scenario ignores recruitment budget and per-unit reservation checks. Missing arrival recheck claim contradicted ProcessSettler Safe+native FOUND_CITY checks. Missing full-chain Native proof is evidence gap, not absent linking logic; source input includes prior natural long-window evidence. Test/BR IDs incorrect.",
+        "owner_next": "Do actual invalid-site/pressure cases as remaining evidence; no new expiry API or arbitrary siteban from candidate."
+      },
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "actual_client_inflight_for_cases": {
+    "actual_peak": 2,
+    "seconds_at_peak": 41.782366,
+    "longest_seconds_at_peak": 41.782366,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "cumulative_frozen_through332": {
+    "logical": 332,
+    "complete": 311,
+    "length": 18,
+    "final_transport_failed": 3,
+    "http_attempts": 362,
+    "additional_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "snapshot_current_model_inflight": 0,
+  "publication_live_inflight": "NOT_MEASURED_HERE; later333/334/335 tasks excluded from frozen ledger",
+  "additive329330": "Owner replacement observers now actually consumed. Gorgo natural current-production rightclick changed queue1to0 and citizen plot707 work0to1/locked1. Baiqi natural checkboxes disabled; explicit QA presentation reached same protected routes once each, queue/gold/faith and full15plot citizen vector unchanged. Scoped guarded-route counts, not independently measured underlying Native submission. All observer/presentation states cleared, original flags restored. Model code remains0.",
+  "owner_errors": [
+    "Initial two Baiqi physical calls rejected before input/attempt ledger because game not foreground. Original attempted image view after CAPTURE_SKIPPED also failed; no stale image used.",
+    "Initial activation helper immediate assertion failed, later independent OS metadata+fresh capture confirmed owned game in foreground; only then actual inputs sent.",
+    "Forced presentation during initial rejected-input sequence was reset; natural test was actually redone from hidden panel with unique physical ledgers, no Game order replay.",
+    "Model-supplied source packs omitted direct religious journal callee even though complete Controller/Gameplay includes were present; owner input closure incomplete for persistence audit. Raw model gap claims separately wrong as above."
+  ],
+  "unknown_costs": {
+    "exclusive_owner_seconds": null,
+    "cache_tokens": null,
+    "server_queue": null,
+    "net_owner_savings": null
+  },
+  "maintenance": "Same-clientlocalNov4 cached OpenCode1.19.5; ordinaryHTTP,0 new native generation.",
+  "next_real_trigger": "Actual prophet unknown-reload regression and fix, plus remaining two-item queue/pressure/asset Native branches. No fabricated missing-feature patches from unproven audit gaps."
+}
