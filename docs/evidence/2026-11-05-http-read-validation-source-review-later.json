@@ -1,0 +1,66 @@
+{
+  "schema": "local-model-operations.read-validation-source-review-later/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "read-publication-validation-live-scope-20261105-01",
+  "prior_candidate_cut_commit": "cf77c9b4d723a204bdf1dc54c95b0cffb23aabce",
+  "prior_cut_preserved": true,
+  "review_pin": {
+    "bytes": 2673,
+    "sha256": "b1f2e16928f61f9622a5b549a67b1af3a5da9c934e0e4ae911ef33cee759c9cd"
+  },
+  "original_CONTENT_pin": {
+    "bytes": 7860,
+    "sha256": "ad510e928717b0d9050670565e1e013632685c5c0ed8d347c5ccd59693a26a6c"
+  },
+  "source_review": "REJECT_IMPLEMENTATION_NO_CODE_ADOPTED",
+  "new_model_code_adopted": 0,
+  "findings": [
+    "The proposed patch rewrites required() from the actual DriverReadHistoryPublisher return type to nonexistent/unbound DriverActionHistoryPublisher, corrupting an unrelated original method.",
+    "ActionPorts is referenced without its actual import; CheckedArchiveRead<T>.read expects ActionPorts.OutcomeArchive, but the proposed anonymous class narrows its parameter to NativeOutcomeArchive and cannot override that API.",
+    "Head checks use state.equals rather than the requested canonicalBytes comparison and omit complete checks inside before-work and after outer scope exit.",
+    "The added anonymous implementation creates a new type contrary to the finite no-new-type contract. The legacy/unrelated default route bypasses original default nonnull validation rather than delegating to it.",
+    "Unified hunk headers/counts and Core line location do not describe the actual supplied source. The raw patch must not be applied as written."
+  ],
+  "production_source_written": 0,
+  "candidate_compiler_or_JUnit_runs": 0,
+  "automatic_R2": false,
+  "later_frozen_compact_presence_pin": {
+    "bytes": 10132,
+    "sha256": "a88f458f13b56abaaaa32a65d7f0a666812b7ad1addf2b9af36897ef59665bbd"
+  },
+  "later_presence_meaning": "Publisher.flushActualReads/prepare, RootReadHistoryAuthority and unresolved-history target methods have zero captured presence in this one closed window. Zero presence does not prove zero calls. The inclusive planning wrapper alone does not demonstrate this new consumer as an observed hotspot.",
+  "recorded_populations": {
+    "jdk.ExecutionSample:ordinary-worker-dev-business#140": {
+      "samples": 345,
+      "nonzero_target_presence": {}
+    },
+    "jdk.NativeMethodSample:ordinary-worker-dev-business#140": {
+      "samples": 291,
+      "nonzero_target_presence": {
+        "org.xar.ck3.control.application.action.ActionContinuityAuthority.reduce": 3,
+        "org.xar.ck3.control.application.action.ActionContinuityAuthority.canonicalReceipts": 3
+      }
+    },
+    "jdk.ObjectAllocationSample:ordinary-worker-dev-business#140": {
+      "samples": 10613,
+      "nonzero_target_presence": {
+        "org.xar.ck3.control.application.action.ActionContinuityAuthority.reduce": 163,
+        "org.xar.ck3.control.application.action.ActionContinuityAuthority.canonicalReceipts": 148
+      }
+    }
+  },
+  "sample_limits": [
+    "Exactrecordedmethodstring presenceSet pertype/thread only; overload/loader identities not distinguished.0presence is not0calls or proofcacheinactive. Counts cannotbeadded acrossmethods/populations.",
+    "Windowphase mainlypostappend/readpublication/cycle/newobservation, not prior182s planning. Fullrepresentativestacks are boundedstreamsubset and saturateddictionary may hide somecallerpaths.",
+    "This is supplementaryPythoninspection of existing frozencompact, not newrawJFR parse/attach/JDK/export or sources changed. No oldcachecandidate adopted/benefit implied."
+  ],
+  "source_owner_decision": "Keep the complete actual-source contract, HTTP cost and rejected raw. No owner implementation, JDK/Test request, Runtime adoption or automatic R2 for this hypothesis. Continue actual sampled ActionContinuityAuthority reduction/canonical-receipt closure first; a later real demand may reactivate this separate reader route.",
+  "no_owner_implementation_created_just_to_follow_POST": true,
+  "operational_cost_retained": "20.2000513s HTTP /10.6152558s effective TTFT /83035prompt+1639completion; source preparation and review active time unknown.",
+  "new_HTTP_JVM_sampling_Runtime_Game_by_this_posthoc": 0,
+  "this_unit_does_not_end_broader_business_task": true,
+  "later_real_demand_requires_actual_owner_scope_not_automatic_retry": true,
+  "performance_benefit_proven": false,
+  "owner_full_active_cost_and_net_savings": null
+}

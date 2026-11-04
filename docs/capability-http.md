@@ -2848,3 +2848,10 @@ M6全文源审拒绝完整类及两个新增方法，0partial/0modelJVM：缺真
 [c95fe653与具名ACTUAL/XML的后到独核](evidence/2026-11-05-http-notice-owner-software-later.json)确认owner新Test1a33仅1TU8class首次0、5.4888671秒；新2方法真2P、JUnit进程4.1420238秒，XML suite时长另列。Root另授权受影响原PostACK三方法仅binary RUN一次，真3P/4.4917558秒；旧Test/Support/生产不因本轮再编，原桥单binary复用。全部0错误/失败/跳过/中止、stderr0、close0/durablefence/heldfalse；ACTUAL→config/BEGIN/post/terminal、实际8class pin/SourceFile和XML精确方法集合逐项核对。
 
 最终生产02c130原1TU9class资格另保，9结构相等仅结构证据，不授实际redefine/loader采用。原生产length未读整弃0code，Test完整模型稿0whole/0新方法/0partial/0modelJVM，owner新逻辑及既有scaffold不回授模型。软件DATA只证明真实软件receiver/custody、先归档再通知再READ、sameIDcollect、归档primary与输出失败隔离/长error有界；stdout不是现场noticeDelivered、UI/modal或Native cause、私Root权限或FullRead恢复，也不授Runtime/日SAVE/G2/速度。本附页0新HTTP/JVM/UI/Runtime/Game，原source切点保留，完整主动成本与净收益未知。
+
+
+## 2026-11-05：READ scope 源审拒收与后到采样优先级修正
+
+[Java全文源审与已有compact计数](evidence/2026-11-05-http-read-validation-source-review-later.json)在原pending切点外追加：实施代码0采用。原稿把required返回类型改成错误publisher，缺ActionPorts import、匿名read参数不覆真实OutcomeArchive接口，Head用state.equals而非canonicalBytes，遗漏inside-before及outer-after闭包；匿名新type违反合同、默认路由漏原nonnull检查，hunk/header也不对应实际源。保完整stop原件及20.200秒/TTFT10.615秒成本，不R2，0编测不冒软件红。
+
+后到a88f458f表明此单closed窗口Reader/flushActualReads等目标无捕获presence，不能推出0调用或cache不活跃；inclusive planning wrapper不足证明本消费者热点。owner据此不为已POST制造接管实现/编测或采用，优先已有样本中的ACA.reduce/canonical链；真实后续需求另定，不是复投本失败单元。原候选切点保留，本附页只读既有小数据，0新HTTP/JVM/JFR采样/Runtime/Game，无提速、收益或永久模型边界证明。
