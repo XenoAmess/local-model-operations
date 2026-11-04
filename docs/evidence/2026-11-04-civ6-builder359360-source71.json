@@ -1,0 +1,217 @@
+{
+  "schema": "local-model-operations.civ6-builder359360-source71/v1",
+  "date_local": "2026-11-04",
+  "published_at_utc": "2026-11-04T10:45:16.571443+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/ea5ac89cdd8121b856664aca254b494298f18f96/docs/research/baiqi-p6-builder-stack359360-source71-evidence-2026-11-04.json",
+  "business_evidence_sha256": "b0b4a1aeee8d3a386096ae17657e922f9de79a30799ad5ef168cbf0f465560d2",
+  "cases": [
+    {
+      "sequence": 359,
+      "case_id": "civ6-builder359-primary-civilian-stack",
+      "mode_id": "http-candidate",
+      "shared_commit": "e93c9c74620c797f98d24b757a0788fc04ffc193",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 4400,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T10:09:10.534011+00:00",
+      "attempt_end_utc": "2026-11-04T10:09:35.105144+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 24563.597200030927,
+        "first_nonempty_content_delta_ms": 15271.45770000061,
+        "usage": {
+          "prompt_tokens": 58929,
+          "completion_tokens": 1125,
+          "total_tokens": 60054
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T10:09:10.534011+00:00",
+          "end_utc": "2026-11-04T10:09:35.105144+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 24563.597200030927
+        }
+      ],
+      "adoption": "verified diagnosis direction only;0patch adopted",
+      "review": "Fullsource/mocks supplied. Onefunctionpatch mergedprimary/religious CIVILIANclasses, actualcorrected360crosslayerregressionfails; omitsearlyPathStep/phasedvalidation checks andoverstatesNativecause. Ownerrejectsfullpatch, separatelyimplementsprimarylayerclassification+Builder-onlyearlyfilter.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 360,
+      "case_id": "civ6-builder360-primary-civilian-stack",
+      "mode_id": "http-candidate",
+      "shared_commit": "e93c9c74620c797f98d24b757a0788fc04ffc193",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 3100,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T10:09:10.534081+00:00",
+      "attempt_end_utc": "2026-11-04T10:09:36.758222+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 26224.52869999688,
+        "first_nonempty_content_delta_ms": 13672.915900009684,
+        "usage": {
+          "prompt_tokens": 58894,
+          "completion_tokens": 1524,
+          "total_tokens": 60418
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T10:09:10.534081+00:00",
+          "end_utc": "2026-11-04T10:09:36.758222+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 26224.52869999688
+        }
+      ],
+      "adoption": "two control methods unchanged AST;partial module",
+      "review": "Raw3tests allAttributeError:w/caliases missing despitefrozenactualworld/controllerAPI. Owneraliases/fixturecuration/distinctmocksunitType77vsfullID4194337 andallowonelegitimateBuilderstandby inblockedcase. Baseline70 corrected3tests:1actualfailure; candidate359:crosslayerfailure. Owneradds3early/phase/latewrite tests;6currentgreen. NoNativeexecutedbymodels.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "actual_client_inflight": {
+    "actual_peak": 2,
+    "seconds_at_peak": 24.571063,
+    "longest_seconds_at_peak": 24.571063,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "cumulative_frozen_through360": {
+    "logical_requests": 360,
+    "complete_stop_json": 336,
+    "length_whole_discarded": 21,
+    "final_transport_failed": 3,
+    "http_attempts": 390,
+    "extra_retries": 30,
+    "current_http_inflight": 0,
+    "new_opencode_native_generation": 0
+  },
+  "verification": {
+    "initial_raw360_three_errors": {
+      "tests": 3,
+      "failures": 0,
+      "errors": 3,
+      "failed_names": [],
+      "error_names": [
+        "test_primary_army_stack_allows_move",
+        "test_primary_civilian_stack_blocks_move",
+        "test_religious_civilian_does_not_block_primary_move"
+      ]
+    },
+    "corrected360_against70": {
+      "tests": 3,
+      "failures": 1,
+      "errors": 0,
+      "failed_names": [
+        "test_primary_civilian_stack_blocks_move"
+      ],
+      "error_names": []
+    },
+    "rejected359": {
+      "tests": 3,
+      "failures": 1,
+      "errors": 0,
+      "failed_names": [
+        "test_religious_civilian_does_not_block_primary_move"
+      ],
+      "error_names": []
+    },
+    "private_owner_six_before70": {
+      "tests": 6,
+      "failures": 4,
+      "errors": 0,
+      "failed_names": [
+        "test_primary_civilian_stack_blocks_move",
+        "test_new_primary_occupant_after_validation_is_blocked_at_final_write",
+        "test_phased_blocked_step_falls_back_without_submitting_or_requerying_it",
+        "test_blocked_first_step_checks_next_native_hint_before_write"
+      ]
+    },
+    "current_six_targeted": "PASS; finalcuratedfixture, original2controlmethodsASTunchanged,3ownerphase/earlytests.",
+    "first_full": {
+      "tests": 1005,
+      "failures": 3,
+      "seconds": 92.156,
+      "classification": "OwnerearlyfilterbrokeNaturalistdetour;twofixed70versionassertionsstale. Rawlogpreserved."
+    },
+    "owner_correction": "RestrictearlyPathStep collisionprefiltertoBuilder, preserveNaturalistconsumerdetour;updateactual71assemblyexpectations/receiptversionnaming.",
+    "second_full": {
+      "tests": 1005,
+      "failures": 0,
+      "errors": 0,
+      "test_seconds": 119.349,
+      "subprocess_elapsed_seconds": 122.44538729998749
+    },
+    "static_editmaps67_70_unchanged": true,
+    "new_static71_edits_equal70": true,
+    "paired_clock_prefix_unchanged": true,
+    "native71": "NOT_RUN"
+  },
+  "owner_notes": [
+    "Raw360APIaliases/incorrectno-standbyassertion aremodel errors; ownerfixturecurationafterreviewispartialmoduleadoption, no false3originalmethodsclaim.",
+    "Ownerinitial71all-PathStep prefilterregressedNaturalistdetour; firstfullFAIL preserved, correctedBuilder-onlyscopepassednewandold6detourchecks thenfull1005. Notmodel359codefailure.",
+    "Two source70assemblyexpectedversionassertions updated71; frozen67—70editmapsandactualclockprefixunchanged, no performanceclaim.",
+    "Nativegetter/typeprobe foundGetLayerID/GetMapLayernil; exploratoryUnitLayerTypes/UnitLayersnamesalsonil. ActualsourceusesMapLayers.RELIGIOUS; no inventedgetter adopted.",
+    "Same70originalreloadlogs repeatlocalrequest0:110:1 acrosscontexts; retainedboundedwait not treatedasreplayloop.",
+    "CurrentSteamreadonlyquery atUTC10:30:28 unavailable; clientnotactivated/moved/screenshotted.71launchrequiresnewactualofflineconfirmation, notinferredfromold4368history."
+  ],
+  "maintenance": "Same localNov4successfulOpenCode1.19.5cache;canonicalcurrentDIRECTconfig/currentcaller;no nativegeneration.",
+  "unknown_costs": {
+    "exclusive_owner_phase_seconds": null,
+    "cached_tokens_if_unreported": null,
+    "server_queue_wait": null,
+    "net_savings": null
+  },
+  "limits": [
+    "Sourceandsoftware/installonly;71notyetloadedorNativeeffectvalidated.",
+    "Native70stackisnotuniqueprovenreasonforignoredmove;HOLDstateandnativeflags remainpossiblefactors untilcontrolled71test.",
+    "NofullBR009/013/all40ornewNativeperformancepass."
+  ],
+  "next_real_trigger": "FreshcurrentSteamofflineproof -> launchordinary71 -> loadoriginalQueueResume110 -> inspectactualBuilder5832733autonomouschosenpath/progress/otherunitsandjournals, withoutmanualdomestic/armyactionorunknownmove replay.",
+  "phase_scope": "Source/software/normalinstall only atbusinesspin. Later71coldprocessstartup notNativeeffectPASS; lateroutcomesadditive."
+}

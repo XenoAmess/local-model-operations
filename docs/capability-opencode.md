@@ -67,6 +67,8 @@ CLI区间总和2171.995330s（约36分12秒），跨任务有并行，不等于�
 
 55负责人后到521项软件通过及54内隔离55组件只读对照，0新增HTTP／OpenCode原生生成；不是55整局／性能通过。[后到记录](evidence/2026-11-03-civ6-qualification-geometry-followup.json)。
 
+Civ6359／360普通HTTP：混层补丁0采用、测试别名修正及两个对照方法原样／模块部分采用；owner自然学家回归已修，全1005及普通安装通过，71Native效果未授通过。0新OpenCode原生生成，维护复用缓存。[精确pin与失败分账](evidence/2026-11-04-civ6-builder359360-source71.json)。
+
 Civ6358后到将军实机：经纠正观察器精确常量替换复用，0新请求／生成；将军玩家物理移动、后台零请求及原档恢复窄通过，不改358部分等级。0新OpenCode原生生成。[精确pin及恢复诊断](evidence/2026-11-04-civ6-native70-general-followup358.json)。
 
 Civ6357／358普通HTTP：面板审查窄事实参考、观察器错枚举漏计经软件反例纠正后部分采用／清理原样；统帅玩家物理移动与后台零请求样本通过。0新OpenCode原生生成，维护复用缓存。[精确pin与范围](evidence/2026-11-04-civ6-native70-admiral357358.json)。
