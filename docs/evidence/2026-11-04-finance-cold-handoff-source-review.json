@@ -1,0 +1,88 @@
+{
+  "schema": "local-model-operations.finance-cold-handoff-source-review/v1",
+  "mode_id": "http-candidate",
+  "source_cutoff_utc": "2026-11-04T10:27:27.789868Z",
+  "evidence_basis": "Source owner audited actual REQUEST parameters, complete replies and selected two-source inverse; Ops consumed that review metadata. No raw requests, source, game materials or machine paths published.",
+  "scope": "A real cold-handoff metadata source analysis followed by a distinct guided two-method patch task. The second task is not a transport retry, a blind counter or a budget-only revision.",
+  "actual_common_parameters": {
+    "model": "qwen38-coder",
+    "message_roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "temperature": 0,
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "include_usage": true,
+    "enable_thinking": false,
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "actual_peer": "UNKNOWN"
+  },
+  "requests": [
+    {
+      "role": "current-source analysis",
+      "started_at_utc": "2026-11-04T10:16:33.094669Z",
+      "max_tokens": 6000,
+      "attempts": 1,
+      "HTTP_status": 200,
+      "finish": "stop",
+      "DONE": true,
+      "strict_JSON": "VALID",
+      "prompt_tokens": 46444,
+      "completion_tokens": 1333,
+      "cached_prompt_tokens": null,
+      "HTTP_seconds": 15.31941250001546,
+      "TTFT_seconds": 6.060656000016024,
+      "adoption": "NO_CODE. Repeated part of the mapping attribution but did not assess the already supplied qualification helper; no new route or useful patch."
+    },
+    {
+      "role": "guided narrow metadata source patch",
+      "started_at_utc": "2026-11-04T10:22:31.406212Z",
+      "max_tokens": 4000,
+      "attempts": 1,
+      "HTTP_status": 200,
+      "finish": "stop",
+      "DONE": true,
+      "strict_JSON": "VALID",
+      "prompt_tokens": 51773,
+      "completion_tokens": 1239,
+      "cached_prompt_tokens": null,
+      "HTTP_seconds": 13.904266600002302,
+      "TTFT_seconds": 6.676631000009365,
+      "adoption": "PARTIAL_OWNER_CORRECTED_SOURCE. Two method changes selected after substantive context-machine identity guard correction and missing type-name qualification."
+    }
+  ],
+  "owner_corrections": [
+    "Restore the explicitly required pair/frame machine-identity equality omitted by the candidate.",
+    "Fully qualify a referenced class absent from the existing imports.",
+    "Shorten documentation; all source bytes outside the selected edit spans reverse exactly."
+  ],
+  "cost": {
+    "two_reported_HTTP_seconds_sum": 29.223679100017762,
+    "first_recorded_preparation_clock_cut_utc": "2026-11-04T10:08:32Z",
+    "active_owner_seconds": null,
+    "CPU_seconds": null,
+    "net_savings": null,
+    "boundary": "Preparation/review envelopes include source investigation, interpretation and coordination. No active-owner timer was measured;29.223679s is request cost, not total task wall or measured time saved. These distinct source/task contexts are not a controlled performance A/B."
+  },
+  "qualification_at_this_cut": {
+    "selected_source": "READY",
+    "compiler": "NOT_YET_HELD",
+    "public_behavior_tests": "NOT_YET_HELD",
+    "formal": "NOT_ADOPTED",
+    "runtime": "NOT_ADOPTED",
+    "Game_or_SAVE_or_speed": "NOT_GRANTED"
+  },
+  "opencode": {
+    "new_native_tool_sessions": 0,
+    "daily_maintenance": "Existing same-day success cache reused; no new version command for this task."
+  },
+  "publication": {
+    "new_HTTP_or_software_runs": 0,
+    "private_material": "Raw REQUEST/SSE, changed business source, game records and private evidence remain at their owners; later actual receipts append separately."
+  }
+}

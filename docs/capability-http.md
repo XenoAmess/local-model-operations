@@ -36,6 +36,12 @@ owner把稳定system、完整当前源码/合同、变化的任务/诊断组成�
 
 [真实READY文件容量恢复](evidence/2026-11-04-owned-ready-recovery-g0004.json)逐106行核COMPLETED/RELEASED并保原执行库、租约库各414条历史，用原受测停writer流程恢复两张原票各一次POST。两稿均完整200/STOP/DONE/有效JSON，method仍因boxed值引用比较被sole owner拒收、0代码采用；空counter不验证私数值。确认pending至首POST的下界689.578229s属于准备/协调等待，非模型TTFT或服务capacity；这不是为固定并发补位，也未新增OpenCode原生会话。
 
+## 2026-11-04：冷handoff源修正与编译证据时序
+
+[Finance真实冷handoff两任务](evidence/2026-11-04-finance-cold-handoff-source-review.json)均1attempt完整200/STOP/DONE/JSON有效：首稿重复归属、未评估已提供资格helper，0代码；第二份窄两方法补丁部分采用，owner补遗漏machine身份比较并修类名引用。HTTP15.319413/13.904267s、TTFT6.060656/6.676631s、cached未报告；29.223679s之和不是含研究/协调/审阅的总墙钟或主动工时。此切点仅SourceReady，无编测/正式/Runtime信用，OpenCode本例0新session。
+
+另[662后到编译](evidence/2026-11-04-m2-finalizer662-compile-later966.json)与[668后到编译](evidence/2026-11-04-m2-binding668-compile-later971.json)各只生产源；668的3个ClassFile是1个source family。current family/fsync证据实际在原END后才补齐，不补造原fence已有完整元数据；两者都无Test/RUN或新模型case，原source/pending分级保留。
+
 ## 基线案例
 
 | case_id / 观察 | 输入与实际结果 | 采用、验证及边界 |
