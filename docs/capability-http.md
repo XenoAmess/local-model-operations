@@ -2792,3 +2792,10 @@ owner引用本机官方SDK实际接口／结构、修正WindowsANSI读回UTF8和
 独立Test9完整68573B/8647B合同/max8000，HTTP200/DONE但length：45.4760342秒、TTFT2.3827869秒、17497+8000tokens，正文/SSE整份未读未哈希、0采用/不R2。owner另写11569B/1682160a三无参方法和软件IO transcript，原scaffold不计新模型工作；source-cut生产与Test均未编测/装载，不猜未来class pins。实际两HTTP区间没有重叠，不报峰2；Test稳定API源齐后不等producer私helper审阅。
 
 451终态/451租约释放、0源在途，本附页0JVM/窗口/桌面/Game。只修独立ownedUI恢复顺序，不能授修复Native CoreUnavailable/parent140或实际postsetter、LOOP/保存/G2/性能；后继最小编验、真实桌面和Runtime由各owner另记，原控制和deadline不重放/刷新。完整主动成本与净收益未知。
+
+
+## 2026-11-05：owned iconic owner 新软件三方法后见
+
+[独验01与原ACTUAL/XML](evidence/2026-11-05-http-owned-iconic-owner-software-later.json)在原source-only切点后追加：owner生产6f9d仅1TU9class首次0/4.8839697秒，ownerTest1682160a仅1TU4class首次0/4.5112216秒；新3方法真实3P/0skip/fail/error/abort，JUnit进程3.9824168秒、XML suite1.571秒分列，stderr0、各close0/durablefence/heldfalse。只测实际focus操作及既有software Windows IO，不重旧fixture/support/tests。
+
+软件覆盖同一巨大HWND的iconic0x0→restore→原strict2560/foreground、双enum/身份/birth/deadline故障前0写、错误恢复size/替换HWND拒绝、readOnly不自动restore/focus及原noniconic路径。生产贡献仍仅原两行flow/name partial，新helper全部owner；Test原length8000全文未读未哈希、0方法/0modelJVM，不因owner3P回授raw/scaffold。旧source-only切点保留，软件不授实际窗口/ManagedRoot、NativeFullRead、当前Runtime24采用、原140恢复、日/SAVE/G2/实速。本附页0新HTTP/JVM/桌面/Game，完整主动成本与净收益未知。
