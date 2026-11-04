@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B094-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T00:32:56.629306+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-03T23:44:10.594519+00:00",
+    "window_ended_at_utc": "2026-11-03T23:44:14.499677+00:00",
+    "window_seconds": 3.905158,
+    "peak": 1,
+    "peak_duration_seconds": 3.905158,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b094-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 909,
+        "completion_tokens": 556,
+        "total_tokens": 1465
+      },
+      "failure": null,
+      "content_ttft_ms": 431.73219996970147,
+      "total_ms": 3905.8387000113726,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "44d83dbb65771930d57e149a5b342096ce402328aa32847cf21c7e6ad5a5debd",
+      "summary_sha256": "24af8b3d60c57290f1f955f0d00121f6f4add431dc431becff86addac1e09352",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "e03bd00e6a1e446a20b772d048f903ab0481aae06ac03c30877aa31a6c59082d",
+        "task_id": "hoi4-20261104-b094-prompt-01",
+        "request_sha256": "44d83dbb65771930d57e149a5b342096ce402328aa32847cf21c7e6ad5a5debd",
+        "summary_sha256": "24af8b3d60c57290f1f955f0d00121f6f4add431dc431becff86addac1e09352",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "New real task retained pure visual source contract and completed-imperative task wording. Candidate retained real BROWN WAVY hair/brows/narrow DARK moustache/clean chin, OPEN DARK suit/PALE shirt/DARK LONG TIE and PRIMARY IMAGE-LEFT direction.",
+          "Owner setup inherited a stale fine-bow-pattern phrase from earlier bow source despite correct LONG TIE clothing; candidate repeated that input. Removed it from actual instructions and normalized source fine-detail wording before any image preparation/call; original actual HTTP input/candidate retained. Not a model vision error.",
+          "Strengthened compact near-round lower-face/short U and raised broad collar instruction for this independent uncalled source; no text-model image pixels or universal-improvement claim.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2416,
+        1006
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b094-sources.json",
+    "sha256": "5fc508003f2cbf52cf335bf37b0a0e49802888bb861667190d9d7646193e86e2",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-03T23:52:11.719298+00:00",
+  "stage_at_cutoff": "One new source-bound LOW original prompt was frozen uncalled at the recorded prepared cutoff. Later image generation and manual qualification are separate consumer evidence; this case records finite text drafting only.",
+  "owner_review": "Both SHA domains verified. Actual source has brown wavy hair, dark moustache, clean chin, OPEN navy suit/pale pointed shirt/DARK LONG TIE and PRIMARY image-left pose. A stale fine-bow-pattern phrase had been inherited by the owner task template despite the correct long-tie observation, and the candidate copied it. Owner removed that contradictory phrase before image preparation and restated the actual long tie. Original source input/HTTP/candidate retained; this was owner input contamination, not model visual recognition failure. Opposite-facing larger version was excluded before dispatch.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
