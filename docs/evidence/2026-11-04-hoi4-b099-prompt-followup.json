@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B099-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T00:42:30.028617+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T00:38:32.251136+00:00",
+    "window_ended_at_utc": "2026-11-04T00:38:36.446699+00:00",
+    "window_seconds": 4.195563,
+    "peak": 1,
+    "peak_duration_seconds": 4.195563,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b099-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 949,
+        "completion_tokens": 592,
+        "total_tokens": 1541
+      },
+      "failure": null,
+      "content_ttft_ms": 393.7817999976687,
+      "total_ms": 4195.632399991155,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "a76d6ea86186e3d86241e844639446e18660dd2bbb7935dcb635b66ed3b8adf0",
+      "summary_sha256": "bb71ebced293c8fbf7ff78c5eeefb0e9ff3e9f208685f25616ef09cf9c5bc1cb",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "9d473fb2cf36688c26403a7145677a94f94d79c922889a3a9f82a6173bf47cb6",
+        "task_id": "hoi4-20261104-b099-prompt-01",
+        "request_sha256": "a76d6ea86186e3d86241e844639446e18660dd2bbb7935dcb635b66ed3b8adf0",
+        "summary_sha256": "bb71ebced293c8fbf7ff78c5eeefb0e9ff3e9f208685f25616ef09cf9c5bc1cb",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Verified both SHA domains. Despite full source explicitly forbidding gold badge/braid on soft field cap, complete candidate inverted that negation and added gold badge/braid. Owner corrected the exact candidate phrase BEFORE image preparation; original complete HTTP/candidate preserved. This is model semantic negation failure with source supplied, not vision or an owner missing-source error.",
+          "Candidate retained source khaki field cap/short black hair/real brows/clean serious closed face, olive folded OPEN field collar/tiny dark underlayer, primary IMAGE-LEFT three-quarter pose and dark-grey backing. Larger bareheaded updo/traditional garment excluded.",
+          "Owner restated NO badge/braid/peaked cap, shallow open collar and compact rounded U lower head/minimal broad transition; no text retry, image pixels or visual approval from model.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2677,
+        1070
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b099-sources.json",
+    "sha256": "8198f549c9e4cd0dc921dca05049f30c099bb06df48c33c6523846cdedc88bea",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T00:40:34.570142+00:00",
+  "stage_at_cutoff": "One new source-bound LOW original prompt was frozen uncalled at the recorded prepared cutoff. Complete finite text transport was not accepted as semantic or visual qualification.",
+  "owner_review": "Both SHA domains verified. Owner supplied actual plain soft khaki field cap with explicit NO peaked cap, gold badge/braid, plus short black hair, OPEN folded olive field collar/tiny dark underlayer and primary image-left three-quarter pose. Candidate inverted the supplied negation and wrote featuring a gold badge/braid. Owner corrected that exact clause before image preparation and restated no badge/braid, retaining original HTTP/candidate. This is model semantic negation failure with source present, not absent source, vision or a fresh model retry. Mismatching bareheaded brown updo/traditional larger variant excluded. Compact short rounded U anatomy and shallow collar contact restated.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
