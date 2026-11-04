@@ -388,3 +388,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-05：Civ6393源审及原生库存对照
 
 0新增OpenCode原生生成，Nov5同机1.19.5成功维护缓存复用。393普通HTTP完整、部分分析参考／0代码，owner游戏原生对照另列；不把Native游戏操作混成OpenCode工具模式，不授owner净收益。[证据](evidence/2026-11-05-civ6-finance393-native-pair.json)。
+
+
+### Civ6393后到：合成维护压力游戏结果
+
+0新OpenCode原生生成／0新HTTP请求。owner游戏Native压力、叠放夹具错误修正、恢复119及原正常114核验分列，不是OpenCode工具执行能力，也不追授393候选方案。[后到证据](evidence/2026-11-05-civ6-finance74-pressure-later.json)。
