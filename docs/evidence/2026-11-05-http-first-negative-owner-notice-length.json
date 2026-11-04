@@ -1,0 +1,95 @@
+{
+  "schema": "local-model-operations.first-negative-owner-notice-length/v1",
+  "date": "2026-11-05",
+  "case_id": "first-negative-read-owner-triage-notice-20261105-01",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network": "DIRECT;redirects refused;actual socket peer UNKNOWN",
+  "complete_sources": 10,
+  "source_bytes": 386194,
+  "full_contract_bytes": 5819,
+  "manifest_sha256": "59f31674b38ec9e059a0caaeb063073d513489832f15decd3cbfd3512fc6a663",
+  "contract_sha256": "b628f0fab6d294efa61f3ccb7b580f7b31517961d265dcf23b2a787240abe5af",
+  "owner_diagnosed_and_prescribed_real_production_callback_before_POST": true,
+  "target_files": 1,
+  "requested_change": "After dispatch and optionalframe archive succeed, first completed negative AckReceived attempts one bounded structured stdout owner triage line per real freshObservation invocation. Archive failures escape; only diagnostic parse/output failure is isolated.",
+  "retained_byte_exact_contract": [
+    "readAvailableFreshSnapshot entire operation",
+    "existing retry count/deadlines/pacing/error classification/Unknown sameIDcollect",
+    "Received success/proof/Guard body"
+  ],
+  "notice_boundaries": [
+    "actual action and readrequest id only",
+    "separate original command and observation deadlines",
+    "no invented composite parent/event id",
+    "bounded originalerror data with explicit omission flags",
+    "modal/cause UNCONFIRMED, no UI input authority"
+  ],
+  "POST_BEGIN_UTC": "2026-11-04T22:51:40.804432+00:00",
+  "ATTEMPT_END_UTC": "2026-11-04T22:52:39.845474+00:00",
+  "fixed_three_messages": true,
+  "actual_parameters": {
+    "max_tokens": 8000,
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "length",
+  "DONE": true,
+  "headers_ms": 10194.501299993135,
+  "effective_content_TTFT_ms": 10195.343100000173,
+  "HTTP_total_ms": 59040.95779999625,
+  "usage": {
+    "prompt_tokens": 79321,
+    "completion_tokens": 8000,
+    "total_tokens": 87321
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 403731,
+    "sha256": "3fa755148b0a1ca375663d79570021811a2c38efc46cb44ca77b94a375a02fad"
+  },
+  "RESULT_pin": {
+    "bytes": 1302,
+    "sha256": "c0bff1162a6d2bcdb9b801bd7529293f5d3910473f6d3a29140074b7f670fc7e"
+  },
+  "EVENTS_pin": {
+    "bytes": 2829,
+    "sha256": "0e801a7db3223de157135dcde7c6b14cc71877c2adcc54f1163d854b27871af6"
+  },
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "CONTENT_raw_SSE_opened_read_parsed_extracted_or_hashed": false,
+  "whole_length_discarded": true,
+  "new_model_code_adopted": 0,
+  "candidate_JSON_or_code_semantic_rating": "NOT_PERFORMED_NON_STOP",
+  "automatic_R2_or_stitching": false,
+  "owner_takeover_requested_immediately": true,
+  "owner_source_software_formal_Runtime_notice_delivery": "Separate later evidence, not inferred",
+  "healthy_Runtime24_not_waiting_or_restarted_for_this_candidate": true,
+  "new_HTTP_JVM_SDK_UI_Runtime_Game_by_posthoc": 0,
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 452
+    },
+    "leases.db": {
+      "RELEASED": 452
+    }
+  },
+  "source_HTTP_inflight_after_END": 0,
+  "old_three_software_methods_rerun_by_Models": 0,
+  "active_caller_or_model_parameters_changed": false,
+  "full_owner_preparation_correction_active_time_and_net_savings": null,
+  "limits": "Length is budget exhaustion for this real finite request, not observed API/compiler failure or evidence of cause/modal/Native recovery. Do not inspect partial output or resend a completed task under larger budget/new id."
+}

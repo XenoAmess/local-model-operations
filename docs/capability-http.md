@@ -2799,3 +2799,10 @@ owner引用本机官方SDK实际接口／结构、修正WindowsANSI读回UTF8和
 [独验01与原ACTUAL/XML](evidence/2026-11-05-http-owned-iconic-owner-software-later.json)在原source-only切点后追加：owner生产6f9d仅1TU9class首次0/4.8839697秒，ownerTest1682160a仅1TU4class首次0/4.5112216秒；新3方法真实3P/0skip/fail/error/abort，JUnit进程3.9824168秒、XML suite1.571秒分列，stderr0、各close0/durablefence/heldfalse。只测实际focus操作及既有software Windows IO，不重旧fixture/support/tests。
 
 软件覆盖同一巨大HWND的iconic0x0→restore→原strict2560/foreground、双enum/身份/birth/deadline故障前0写、错误恢复size/替换HWND拒绝、readOnly不自动restore/focus及原noniconic路径。生产贡献仍仅原两行flow/name partial，新helper全部owner；Test原length8000全文未读未哈希、0方法/0modelJVM，不因owner3P回授raw/scaffold。旧source-only切点保留，软件不授实际窗口/ManagedRoot、NativeFullRead、当前Runtime24采用、原140恢复、日/SAVE/G2/实速。本附页0新HTTP/JVM/桌面/Game，完整主动成本与净收益未知。
+
+
+## 2026-11-05：首个已归档负 READ 的 owner 通知首派 length
+
+[独立真实通知窄叶](evidence/2026-11-05-http-first-negative-owner-notice-length.json)给10完整current源386194B/5819B合同，唯一Factory目标。要求真实archive callback先preserve dispatch和presentframe，再对每次观察首completednegative尝试一次有界结构化stdout；archive失败原样逃逸，只有诊断解码/输出失败隔离。readAvailable全体、原重试/两个期限/100ms/Guard及Received成功体原字节保留，不造parent/eventID、不认定modal、更不授UI输入。健康24不等该候选，也不为它重跑旧3P。
+
+固定三消息/DIRECT/max8000，一次HTTP200/DONE但length，59.0409578秒、有效TTFT10.1953431秒、79321+8000tokens、cachednull。CONTENT/raw SSE整份未打开、解析、提取或哈希，0采用、不R2/不拼接，原结果即交Java接管；未知半稿不作语义/编译评分或永久能力上限。452终态/452租约释放、0源在途，0新增JVM/UI/Runtime/Game、无活跃参数改动；后到owner代码、软件、正式及实际通知投递分层，不推断因果/恢复/SAVE/性能，完整主动成本与净收益未知。
