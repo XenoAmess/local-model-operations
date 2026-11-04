@@ -42,6 +42,12 @@ owner把稳定system、完整当前源码/合同、变化的任务/诊断组成�
 
 另[662后到编译](evidence/2026-11-04-m2-finalizer662-compile-later966.json)与[668后到编译](evidence/2026-11-04-m2-binding668-compile-later971.json)各只生产源；668的3个ClassFile是1个source family。current family/fsync证据实际在原END后才补齐，不补造原fence已有完整元数据；两者都无Test/RUN或新模型case，原source/pending分级保留。
 
+## 2026-11-04：强合同窄实现原样采用与独立Test修正
+
+[Readiness双预算源码任务](evidence/2026-11-04-readiness-deadline-source-adoption.json)提供4份完整当前源；owner已诊断原I/O与scope预算、四处调用并给定精确合同。完整单方法替换及纯Instant helper的可执行代码原样采用，只有既有EOL投影、0owner代码修正；这是强引导窄实现，不是自主发现故障或整个组件100%采用。生产HTTP23.351091s、TTFT7.297192s只是请求成本，主动工时与总修复墙钟未知；该source切点尚无编测、正式、装载或恢复信用。
+
+独立Test另一次完整HTTP8.869910s、TTFT3.723843s，owner补两项import并将6个方法合为5个，保留10条断言；没有读取生产新候选或模型答案。其源码阶段411.594374s含准备、HTTP与审阅重叠，active未知，纯Instant用例不授collector整链通过。两票均200/stop/DONE/JSON有效、cached未报告，本案OpenCode无新session；后到软件结果另追加，不回填原切点。
+
 ## 基线案例
 
 | case_id / 观察 | 输入与实际结果 | 采用、验证及边界 |
