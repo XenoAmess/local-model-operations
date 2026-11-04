@@ -4,7 +4,9 @@
 
 ## 任务与持续责任
 
-你负责长期跟踪、长期运营本地模型的两种执行模式：`http-candidate`（普通HTTP三消息候选）和`opencode-native`（OpenCode原生assistant/tool循环）。这不是一次性预研或三任务试点：阶段任务交付后继续保留跟踪责任，带着未验证项与可复用经验交接给下一owner。用户后续的业务优先级和授权优先。
+你负责长期跟踪、长期运营本地模型的两种执行模式：`http-candidate`（普通HTTP三消息候选）和`opencode-native`（OpenCode原生assistant/tool循环）。这不是一次性预研或三任务试点：保留可续行记录与未验证项，阶段交付后正常END，后续有具体业务触发再恢复；长期责任不要求空挂岗位。用户后续的业务优先级和授权优先。
+
+2026-11-04 用户最新明确：“不用强行维持60并发了，以项目推进为准。”这同时覆盖HTTP、OpenCode原生任务和云端岗位的历史固定60要求。按真实业务积压、owner准备/审阅成本、服务负载与Runtime资源窗选择并发；不为数字派单、占位、周期点数或补位，不因不足60诊断故障。必要源码和首次验证继续，规范、统计和模型探索不阻塞Runtime或JFR。
 
 开始时先安全同步干净main，阅读[AGENTS](../AGENTS.md)、[使用指南](../docs/usage.md)、[共享配置](../config/executor.json)、[共同证据规则](../docs/capability-boundaries.md)及两个独立记录：[HTTP](../docs/capability-http.md)、[OpenCode](../docs/capability-opencode.md)。保留本地改动/分叉，按唯一Git写者协作，不reset/force覆盖。每台客户端当天实际接入模型前完成现行每日维护；纯文档整理不伪造模型调用或维护通过。
 
@@ -19,7 +21,7 @@
 7. 一个可审阅单元必要检查通过后，唯一Git写者精确stage/commit并正常push main，核远端SHA。任何已要求的raw/working/staged内容或hash核对返回非0，立即停止该发布单元；不得用try/finally、未检查退出码的后续步骤或并行Git继续commit/push。修复后重新完成全部必要核对才发布，原失败及additive修复分别留证。成熟pin/实际回执足够时不再等重复聊天ACK或独立长报告；成本后到可另追加。原始REQUEST/SSE、私有源码、机器账本与大证据留执行机器，公共仓库只放获准脱敏材料。
 8. 每个阶段结束交接两模式的最新case、适用版本、已证与未知、owner成本、残余故障和下一真实触发条件。没有未完成真实需求时保持待验证，不造任务或刷并发。恢复工作时从这些记录续行；阶段报告或当前0在途不是停止长期运营的依据。
 
-同时落实用户的两项并发要求：60个实际RUNNING云端智能体与60个实际POST未结束的本地模型请求分开报告、同时推进。云端capacity/turn错误不归本地HTTP；保留用户选定云端型号续行，不为此探测或重启本地服务。source-ready、排队、CLI与旧峰均不补算两种实数。
+按业务需要分别记录实际RUNNING云端岗位和实际POST未结束的本地模型请求，没有固定60或其它数量下限。云端capacity/turn错误不归本地HTTP；保留用户选定云端型号续行，不为人数缺口探测或重启本地服务。source-ready、排队、CLI与旧峰均不补算两种实数，也不为统计唤醒已结束岗位。
 
 用户明确保持当前云端型号继续重试时，容量恢复只沿同一未闭任务、执行机器当次用户选定的型号续行；不得擅自换型号、另开替代角色或把某台机器的具体型号写成跨机器默认。只有已确认的capacity错误才按容量恢复；岗位完成、源阶段结束、首验材料未齐和缺少START证据分别记录，不能把人数缺口或等待一概归capacity。
 
@@ -101,7 +103,7 @@ Windows host读源必须在每个read exec cell开头定义并复用本机已核
 同步10054或近似十分钟相位只能触发有界只读调查：先按已具名EVENTS配对每次POST/END与模型-only retry，失败半流原件保管不拼接；宿主capacity turn错误与真实HTTP异常分列。读当前配置/已知维护缓存来源，不泛扫其它进程、timer或业务原件；已知只读health一次样本与服务running/waiting/uptime另标时，缺失仍UNKNOWN。少数相位/后见health200不授timer、restart、OOM或模型根因，不自动改配置/服务/重发chat，不把Ops调查设源/P0前置。既有角色attempt只交叉索引，不重复模型case/调用/Test分母。
 
 
-当前用户明确目标为维持60实际POST未结束请求的rolling pool，覆盖旧并发目标。完整真实任务由owner直接并行，不等中央封包或发布；按实际END补不同未闭任务，不能重投旧绿或绕六attempt耗尽。逐来源登记EVENTS、配对区间、backoff和CLI活性分列，迟登记重建另存不回写旧快照；短峰达到60不等于持续维持。新任务显式高并发profile可用read600/total2400，旧frozen/inflight及Runtime副本不改。服务running/waiting/cache单独采样，client无headers不证明后端队列；priority能力需实际服务policy证据，不能把本机准入、公平轮转或空出一个客户端名额宣称硬推理保留slot。无新原生工具修正不重跑旧无限循环，HTTP与OpenCode仍分轨。
+当前按项目推进和真实积压使用滚动入口，不强行维持固定并发。已有完整输入且有交付价值的任务继续由唯一owner并行执行，不等中央封包或发布；没有下一真实任务就结束该阶段，不为补位重投旧绿或绕六attempt耗尽。只有业务或排障需要时读取具名EVENTS、配对区间、backoff和CLI状态，迟登记重建另存不回写旧快照；历史60目标和峰值保持历史含义。现有read600/total2400、capacity及Runtime客户端准入配置不因本条隐式切换，旧frozen/inflight及Runtime副本不改。服务running/waiting/cache只在有必要且获准时单独采样，client无headers不证明后端队列；本机准入不授服务slot。无新原生工具修正不重跑旧无限循环，HTTP与OpenCode仍分轨。
 
 
 用户已明确局域网本地模型不应经环境代理。共享HTTP入口默认DIRECT：无network时从可信config.base_url取exacthost，独立ProxyHandler({})并拒redirect；executor与source高并发配置明示DIRECT/currenthost。只有明确选择environment才兼容用户刻意使用的代理。迁移时核真实caller/config来源与本次选路，不把旧opt-in文档当当前默认；不改旧frozen/inflight或自动切Runtime副本。默认修正不证明服务恢复，TCP已连接与headers/TTFT/完整SSE分别取证，不从异时proxy/direct请求授严谨AB或solecause。

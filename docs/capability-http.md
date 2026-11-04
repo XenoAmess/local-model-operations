@@ -1,5 +1,7 @@
 # 普通HTTP候选模式：长期能力记录
 
+2026-11-04 当前优先级：以项目推进为准，不再强行维持60并发。按真实积压、owner准备/审阅成本、服务负载和Runtime资源窗安排，阶段完成正常END，不为人数或请求数补位。此条覆盖本页历史固定目标；历史case/原始统计不回填，现有caller/config不因此隐式切换。规则见[并发与重试](concurrency-and-retries.md)。
+
 mode_id：`http-candidate`。2026-11-02（Asia/Shanghai）建档，初始证据来自已发布历史及2026-11-01摘要；建档没有新模型请求或测试。此页持续追加，阶段结束不停止运营。共同记录字段、比较约束见[能力证据总入口](capability-boundaries.md)，执行者先读[长期运营prompt](../prompts/capability-operations.md)。
 
 ## 范围与当前判断

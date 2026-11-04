@@ -2,6 +2,8 @@
 
 从真实、尚未完成且能独立验收的任务开始。调用器负责发送候选请求、保存传输证据和配置内的重试；读取业务材料、应用源码、执行测试及发布结果仍由拥有相应权限的执行者负责。
 
+2026-11-04 当前优先级：用户要求“不用强行维持60并发了，以项目推进为准”。HTTP、OpenCode和云端岗位按真实积压、owner成本、服务负载与Runtime资源窗动态并行；不为数字补位，阶段完成正常END。历史60记录不改，现有capacity/profile/活跃caller不自动切换，详见[并发规则](concurrency-and-retries.md)。
+
 能力边界按实际执行流程长期分开维护：[普通HTTP候选模式](capability-http.md)与[OpenCode原生工具模式](capability-opencode.md)。运营owner和接班worker使用[长期运营prompt](../prompts/capability-operations.md)，每个真实任务及环境变化后追加证据、采用和成本，不在三任务试点结束后停止跟踪。模型端点和模型别名仍只取共享配置；运营prompt用于有相应工具和业务权限的owner，不替换普通调用器的固定源码候选system模板。
 
 ## 入口与配置
@@ -194,6 +196,8 @@ python scripts/pool_dispatcher.py --queue READY.json --db /absolute/dispatch.db 
 ```
 
 这些路径只是形状示例；Windows 使用本机实际绝对路径。`tick(ready)` 是一次选择/回收，`run_once(ready)` 排空当前快照，`run_file(path)` 持续刷新。仅本实例持有的 Popen handle 与实际 KNOWN、身份匹配、无未配对 POST 的终态可释放准入；退出码本身不是零 POST 证明。进程丢失、缺 EVENTS、半行或不确定派发保守记 UNKNOWN并保留容量，人工核实不能删除墓碑重发。不同进程必须共用持久库，有限历史满与容量不足分别报告。
+
+示例`--capacity 60`和`--reserve-runtime 1`是客户端上限/准入配置，不是固定60目标或必须占满的名额。本次调度优先级更新不修改既有持久库配置、在途参数或Runtime副本；需要调整时由owner另行审阅并明确采用，不为规则文档暂停Runtime/JFR。
 
 源任务保留一个未来 Runtime 客户端准入位置，但未接入活跃 Runtime caller，也不保证后端 slot、抢占或延迟。spec/config/源码内容由可信 owner 冻结；校验路径至子进程读取之间不是原子字节交接。实际源码 canary 已一次完整返回并释放准入，19个主见证是分版本增量通过，另4项在最终选定源码首验通过；不称最终19项一次全绿或持续60已达。原生38次工具请求、模型首失败、owner修正、完整成本和普通HTTP canary分别见[交付记录](evidence/2026-11-03-ready-dispatcher-native-and-first-source-canary.json)。
 

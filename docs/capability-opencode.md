@@ -1,5 +1,7 @@
 # OpenCode原生工具模式：长期能力记录
 
+2026-11-04 当前优先级：以项目推进为准，不再强行维持60并发。原生工具任务与云端岗位按真实积压、owner准备/审阅成本、服务负载和Runtime资源窗安排，阶段完成正常END，不为人数或POST数补位。此条覆盖本页历史固定目标；历史trace/统计不回填，当前型号、工具权限和活跃配置不因此隐式切换。规则见[并发与重试](concurrency-and-retries.md)。
+
 mode_id：`opencode-native`。2026-11-02（Asia/Shanghai）建档，初始证据截至2026-11-01已发布三任务及后到成本；没有为建档新开会话或重跑测试。长期更新规则见[能力证据总入口](capability-boundaries.md)和[运营prompt](../prompts/capability-operations.md)。
 
 ## 范围与当前判断
