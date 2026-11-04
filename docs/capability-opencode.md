@@ -59,6 +59,8 @@ CLI区间总和2171.995330s（约36分12秒），跨任务有并行，不等于�
 
 55负责人后到521项软件通过及54内隔离55组件只读对照，0新增HTTP／OpenCode原生生成；不是55整局／性能通过。[后到记录](evidence/2026-11-03-civ6-qualification-geometry-followup.json)。
 
+Civ6327／328仍为普通HTTP：327临时M观察代码经owner修正后部分采用、8项有限检查和Native样本分账；328交接提纲部分方向采用，语义错误拒绝。正确原版资格后到读取、诊断恢复及文档检查不授OpenCode原生生成；当日维护缓存复用，新增原生生成0。[参数、采用、owner错误和后续触发](evidence/2026-11-04-civ6-mkey327-handoff328.json)。
+
 Civ6326普通HTTP临时输入观察器部分代码采用，5项有限Lua检查及文职阻止／军队M移动Native单列，输入槽ownership未知，0新OpenCode原生生成。[证据](evidence/2026-11-04-civ6-leftmove326.json)。
 
 Civ6323—325普通HTTP输入分析仅方向部分采用，实际呈现／投票与正常200训练首件另记，0代码／0新OpenCode原生生成；源声明遗漏归owner。[证据](evidence/2026-11-04-civ6-inputs323325.json)。

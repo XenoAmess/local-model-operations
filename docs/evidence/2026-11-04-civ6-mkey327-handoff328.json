@@ -1,0 +1,200 @@
+{
+  "schema": "local-model-operations.civ6-mkey327-handoff328/v1",
+  "date_local": "2026-11-04",
+  "at_utc": "2026-11-04T03:21:20.176863+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/9a97a81fd5e9da832e75f958634d14f9f6e7997b/docs/research/baiqi-p6-mkey327-handoff328-evidence-2026-11-04.json",
+  "business_evidence_sha256": "bc455315b4ae6c504d47d041e4e556e0ce918f8f2b04e3494118cd2b68fa1220",
+  "handoff": "https://github.com/XenoAmess/civ6_dev/blob/9a97a81fd5e9da832e75f958634d14f9f6e7997b/docs/handoff/2026-11-04.md",
+  "native_followup": "https://github.com/XenoAmess/civ6_dev/blob/9a97a81fd5e9da832e75f958634d14f9f6e7997b/docs/testing/baiqi-readonly-input-followup-67.md",
+  "cases": [
+    {
+      "sequence": 327,
+      "case_id": "civ6-mkey327",
+      "mode_id": "http-candidate",
+      "shared_commit": "9aca0cc408e5bda6eb2abeff7d4468e5f2c40be7",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2400,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T02:21:23.169290+00:00",
+      "attempt_end_utc": "2026-11-04T02:21:37.806004+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 14638.42910004314,
+        "first_nonempty_content_delta_ms": 6539.266200037673,
+        "usage": {
+          "prompt_tokens": 50378,
+          "completion_tokens": 1347,
+          "total_tokens": 51725
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T02:21:23.169290+00:00",
+          "end_utc": "2026-11-04T02:21:37.806004+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 14638.42910004314
+        }
+      ],
+      "adoption": "PARTIAL_DIAGNOSTIC_CODE_OWNER_CORRECTED",
+      "review": {
+        "adopted": "Partial diagnostic code only, owner-corrected beforeNative. No productcode.",
+        "raw_reproduced": [
+          "Worldsensor exception stopsoriginalinputforwarding",
+          "StaticRemove getsincorrectextrareceiver, leaveslistener/state"
+        ],
+        "owner_changes": [
+          "Protectonlyownsensorreads, incrementownerrors; alwaysforwardoriginalexactlyonce/allargs/returns; originalerrorpropagates.",
+          "StaticRemove(fn), passiveownlisteneronly; Addstoredthenerrorcleanup; Removefailurekeepsownedstate.",
+          "Allowactualindexableproviderswithoutrequiringtable; inputslotownershipremainsunobservable."
+        ],
+        "owner_failures": [
+          "Firstmetadata usedwrongSystemInputActionTriggered name; source/actualcorrecteventisInputActionTriggered. No binding/Gameactionbeforefailure.",
+          "Firstsoftwarecompilerinvocation calledloadwithnovalue; correctedbeforeNativebindings, originalrawbytespreserved.",
+          "OptionalWindows77filterwasownerhint, butNativeKeys.M=13; actualrawkey13 andaction35reported, noassumption Mdidnotarrive.",
+          "Extra3argCanStartOperationprobes werewrongshape; bothARCandWarriorfailed. CorrectexactUIshape laterworked."
+        ]
+      },
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 328,
+      "case_id": "civ6-handoff328",
+      "mode_id": "http-candidate",
+      "shared_commit": "de5a295b442def45abb030ca17ac5a6f77403623",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 1000,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T02:53:31.989647+00:00",
+      "attempt_end_utc": "2026-11-04T02:53:43.881859+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 11899.563200015109,
+        "first_nonempty_content_delta_ms": 6275.581499969121,
+        "usage": {
+          "prompt_tokens": 47707,
+          "completion_tokens": 768,
+          "total_tokens": 48475
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T02:53:31.989647+00:00",
+          "end_utc": "2026-11-04T02:53:43.881859+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 11899.563200015109
+        }
+      ],
+      "adoption": "PARTIAL_HANDOFF_OUTLINE_OWNER_CORRECTED",
+      "review": {
+        "adopted": "Partial outline direction only: source/save/live-state distinction, inputslotgetterlimit, narrowacceptance scope. Ownerwritesfullhandoff.",
+        "rejected": [
+          "CallsNativekey13 VK13, contrarytoexplicitNativeenumwarning.",
+          "ClaimsqualificationfailedARCbutpassedWarrior; suppliedbad3argprobesfailboth, targetedshape succeedsboth.",
+          "Suggests laterprobeerror causedearlierMoutcome andunit-specificcriticalstatebug; temporal/sourcefacts do notsupportit.",
+          "Avalidsubsequentinputdoesnotprove exactinputslotpointer identity.",
+          "Returns5nextactions/5traps whereatmost4eachrequested."
+        ],
+        "owner_update": "LatestcorrectsourceCanStartOperation(u,MOVE_TO,nil,false,false): Native trueforARCandWarriorat0moves, UnitPanelGuardfalseARC/trueWarrior. Handoffusesactualadditivefacts, notcandidateerror."
+      },
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "actual_client_inflight": {
+    "actual_peak": 1,
+    "seconds_at_peak": 26.528926,
+    "longest_seconds_at_peak": 14.636714,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "current_model_inflight": 0,
+  "shared_target_model_inflight": 60,
+  "target_reached": false,
+  "cumulative_frozen_through328": {
+    "logical": 328,
+    "complete": 307,
+    "length": 18,
+    "final_transport_failed": 3,
+    "http_attempts": 358,
+    "additional_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "software327": {
+    "passed": 8,
+    "checks": [
+      "worldforward allargs/nilreturns exactlyonce; ownbaseline restore",
+      "ownsensorfailure stillforwards originalinput",
+      "originalinputfailure propagates",
+      "passivelistener doesnotinvokeoriginal, staticRemoveonlyownfn",
+      "panelsensorfailure contained, originaleventhandler preserved",
+      "Addstoredthenerror removesownfnexactlyonce",
+      "Removefailure preservesownedstate instead offakeclean",
+      "inputsetterpoststoreerror rollbackknownsourcebaseline"
+    ],
+    "raw_failures": [
+      "ownsensor exception preventsoriginalforward",
+      "staticRemoveincorrectself leaveslistener/state"
+    ],
+    "scope": "Actualraw/reviewedLua5.3 withsyntheticproviders, notNativekey/action proof; inputslotownershipunobservable."
+  },
+  "native327": "Physical M reached WorldInput down/up once each (Native Keys.M=13, not Windows77 or Enter); UnitPanel MoveTo action35 once, protected ARC stays SELECTION. Correct exact original UI signature CanStartOperation(u,MOVE_TO,nil,false,false) returns true for both existing zero-moves units in unprotected context, guard false only ARC. Bad earlier three-argument probes failed both units: not a unit-loss finding or cause of earlier input. Own readable fields/states and passive listener restored/cleared; Native input-slot getter absent, source-known baseline restore only. Narrow sample, ordinary-leader/full matrix still pending.",
+  "adoption328": "Partial outline direction only, owner rewrote factual handoff; no generated product code. Reject Native13-as-VK13, asymmetric probe failure, reversed temporal causality and pointer ownership inference. Exact later qualification is additive owner evidence, not model finding.",
+  "owner_publication_notes": [
+    "First handoff patch host JavaScript parse failed before nested tools; no file application from that attempt. Corrected patch applied.",
+    "Shell-quoted multiword git commit failed as pathspec parsing; no commit from that command. Python subprocess argv publication helper then completed checks, commit and push.",
+    "Public projection independently checked exact private diagnostic fields and retained receipt hashes; raw Native context enumerations, machine messages and installed exe paths stay private.",
+    "Existing owner phase walls interleave Native, status, docs, Git and handoff; no exclusive active-time or net-savings estimate."
+  ],
+  "maintenance": "Same-client local Nov4 OpenCode1.19.5 success cache reused. Ordinary HTTP cases, zero new OpenCode-native generation. No retrospective pre-migration compliance credit.",
+  "unknown_costs": {
+    "exclusive_owner_seconds": null,
+    "cache_tokens": null,
+    "server_queue": null,
+    "net_owner_savings": null
+  },
+  "next_real_trigger": "Continue remaining Civ6 ordinary-leader/input controls and other open acceptance branches with actual source and owned one-action ledgers. No new OpenCode-native task without an independently open need; no rerun of completed performance/cost samples for counters.",
+  "scope": "328 logical tasks and 358 HTTP attempts are not concurrent requests, adoption rate or game pass rate. Current0, recent327/328 peak1 without overlap. Steam remained unchanged; HTTP retry never replays Game actions. Public doc validation622 local links/28requirements/40traces is not full40 game acceptance."
+}
