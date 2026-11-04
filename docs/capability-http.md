@@ -2598,3 +2598,15 @@ Nov5本机首次真正模型任务前，共享CLI实际记录OPENCODE_DAILY_CHEC
 [两个新源码任务](evidence/2026-11-05-http-small-ci-and-sway-source-leaves.json)分别给完整当前Test4475B及Policy/Service27617B，有限max1600/4000，均一次stop/DONE/有效JSON；实际3.2433465/5.5062508秒，有效TTFT0.4541721/1.2460765秒，reported1547+303及6698+779tokens，cached均null。Nov5首次模型入口已实际核registry/CLI1.19.5，无更新；不是沿用Nov4成功记录。两个具名请求未重叠，客户端峰1合计8.749577秒，不代表全服务占用。
 
 Test候选按owner先给的精确合同在原fail前引用resource，未新增可能抛IOException的owner调用；raw diff的hunk行数及绝对文件标签需owner规范化，不能直接当可应用补丁。另一完整evaluate仅在empty-stage原Keep原因后追加既有optional error，owner源审原样采用，语义修改0；逆换唯一block后method与class outside原字节恢复，只机械补原LF。诊断方向均由owner先明确，未授模型自主发现；source采用不授编测、Runtime装载、自然场景或提速，另一个活动collector lease故障仍分账。完整准备、审阅和净收益未知，旧length切点不回写。
+
+## 2026-11-05：ordinary append完整live-scope候选仍因length整弃
+
+[新的实际normal消费者任务](evidence/2026-11-05-http-normal-append-live-scope-length.json)提供10份完整当前源389906B与6693B精确合同，允许必要API和接线，要求一个有限coherent窄diff、max12000。实际HTTP200/DONE，76.6330145秒/有效TTFT10.2259058秒，reported80062+12000tokens，finish=length；CONTENT与raw SSE均未打开/解析/提取或哈希，整份弃置、0代码采用、不自动R2或续接，未对半稿作API/类型/语义评分。
+
+合同只准每个实际preview或commit的revalidate/reduce纯validation pair共享合法live scope，scope完成及失败fence必须先于qualified result或mutation，禁止包whole append、closed proof cache、扩大保留预算或改DATA校验。实际单stack及有限counts不授CPU比例或唯一根因；后到OOME根因仍未知，未采用旧cache及scope字节观察不证明其原因。Java接管完整单位，后继源码、软件、装载与速度分别记账，不追授此raw；全准备/纠错/独占CPU/净收益仍未知，Runtime恢复不等模型后见。
+
+## 2026-11-05：诊断单方法source采用后的首次严格编译
+
+[后到Native首编回执](evidence/2026-11-05-http-sway-diagnostic-first-compile-later.json)核对同一14086B/70c06137候选，仅1新TU严格0/4class，ACTUAL6.2610228秒、operator7.5103055秒，stdout/stderr0、terminal/post/fence/managedClose闭合且reservation已释放。模型完整方法仍为原样source采用、owner语义修改0，但原诊断和分支合同是owner先给；此次未编Service、不重旧绿或加镜像Test，RUN0。
+
+原source-only切点不回写；首编不授Runtime装载、实际error详情、自然场景、完整G2或提速。原编译绑定ad7e源交接，f871只是下次复核/保护期限字段的后到说明，不是替换输入；该首编在后到OOME前已闭，不能反授其根因或失败。本次后见仅核原件元数据，0新HTTP/编测/Game/现host操作，完整owner成本与净收益未知。

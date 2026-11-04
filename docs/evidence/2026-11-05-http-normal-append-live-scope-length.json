@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.normal-append-live-scope-length/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "model": "qwen38-coder",
+  "input": {
+    "complete_actual_source_files": 10,
+    "physical_source_bytes": 389906,
+    "complete_contract_bytes": 6693,
+    "source_message_bytes": 390733,
+    "source_message_SHA256": "1e3be10636e95ef66c8dce24baf719f4c58bbec4c33441df34b1257fedada383",
+    "exact_current_declarers_producers_and_consumers": true,
+    "owner_implementation_contract_SHA256": "18a53cf4a252e74af96e052113585bc7412dc607e8d40ee751e781f30947a811"
+  },
+  "output_contract": "One coherent finite minimal unified_diff plus short reasoning for ordinary append validation-scope pairs. No whole-file echo, Tests or commands.",
+  "precise_owner_guidance": "Actual preview and commit each call revalidate/reduce; only each read-only validation pair may share a live scope. Result qualification and final mutation must occur after close/failure fencing. No whole append scope, closed proof cache, raised retention bounds or invented current APIs.",
+  "parameters": {
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "max_tokens": 12000,
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "timeouts": {
+    "read_seconds": 600,
+    "total_seconds": 2400
+  },
+  "network": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "POST_BEGIN_UTC": "2026-11-04T17:31:52.016084+00:00",
+  "ATTEMPT_END_UTC": "2026-11-04T17:33:08.649174+00:00",
+  "http_status": 200,
+  "headers_ms": 10224.538000009488,
+  "valid_content_TTFT_ms": 10225.905800005421,
+  "HTTP_total_ms": 76633.01449996652,
+  "usage": {
+    "prompt_tokens": 80062,
+    "completion_tokens": 12000,
+    "total_tokens": 92062
+  },
+  "cached_tokens": null,
+  "finish_reason": "length",
+  "DONE": true,
+  "outer_JSON_syntax": "UNKNOWN_NON_STOP_NOT_REVIEWED",
+  "raw_REQUEST_pin": {
+    "bytes": 405540,
+    "sha256": "3f4308766d99aed469034e4dbc23955682ca486277318ef5e8177990ace80f51"
+  },
+  "raw_RESULT_pin": {
+    "bytes": 1295,
+    "sha256": "335f742d0a81bf1d146fca46fd69a5fec44f0f69270e80e968dca2edd7db6069"
+  },
+  "raw_EVENTS_pin": {
+    "bytes": 2755,
+    "sha256": "0b6e6df8b8f8b284f151e5b23a712b5ee19192969838b83e61f7aa63564d4cc9"
+  },
+  "raw_CONTENT_or_SSE_read_parse_extract_hash_by_owner": false,
+  "whole_output_discarded": true,
+  "candidate_code_adoption": 0,
+  "automatic_R2_continuation_or_stitching": false,
+  "model_specific_API_type_semantic_assessment": "None; unread length output is not a semantic candidate.",
+  "software_Runtime_Game_or_performance_credit": false,
+  "OOME_and_scope_observation_limit": "A later OOME is real but has no established cause. Earlier unadopted cache code and a retained-scope byte observation are not proven causes. This source request neither changes retention limits nor proves a memory/performance fix.",
+  "independent_review_and_owner_takeover": "Actual declarers and live/head/failure constraints were supplied by owners. Java takes over the complete implementation unit; any later source/software/runtime result is separate from this rejected raw output.",
+  "full_preparation_review_CPU_exclusive_cost_net_savings": null,
+  "further_scope_limit": "One finite output failure does not establish a permanent model capacity limit. The ten-source prompt being accepted does not prove maximal context capacity or cache use.",
+  "maintenance": "Actual Nov5 daily version check succeeded before this phase; this request reused that same-day policy/command-path success. No extra maintenance or service probe for the length outcome.",
+  "no_prior_task_rePOST_or_frozen_Guard_revival": true
+}
