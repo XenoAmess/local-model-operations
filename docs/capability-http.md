@@ -2783,3 +2783,12 @@ owner引用本机官方SDK实际接口／结构、修正WindowsANSI读回UTF8和
 最终仅新3方法真3P/0skip/fail/error/abort，JUnit进程4.2186175秒、XML suite2.338秒分别记，stderr0；成功phase close0，原发现期close结果1与child失败同列，全部durablefence/heldfalse。真实软件Transport receiver覆盖负ACK先归档/再READ、Unknown同IDcollect/不重送、原deadline/attempt边界/primary与中断；精确100ms clipped时长仍只源审，不能以callback耗尽deadline测试当性能证明。旧未使用native模块桥首绿成本另保。
 
 原生产模型length未读整弃0code，Test模型完整稿所有新增方法0采用/0modelJVM，owner3P不回授raw/scaffold。Java正常发表010cec并独核remote，正式此leaf前后字节相同；新helper/合成lambda成员变化，不授原位body redefine。后到Runtime20采用/LOOP由Runtime独记，软件不授全privateRoot/实际postsetter/新日SAVE/G2/实速；旧source-only与拒收切点不改。本次0新HTTP/JVM/Runtime/Game，完整主动成本与净收益未知。
+
+
+## 2026-11-05：owned iconic 恢复顺序生产与独立 Test 源码后见
+
+[真实两任务原件与owner回执](evidence/2026-11-05-http-owned-iconic-focus-source-later.json)分开记录：生产5完整50700B/4530B合同/max4500，stop10.5131025秒、有效TTFT1.8928083秒、12602+1382tokens、5809B正文，JSON/SSE原字节审计一致。只部分采用两行focus flow/name，raw新helper因缺二次enum、livePID/root、prewritebirth/deadline及改变非iconicambiguity全拒；owner独立写两privatehelper，25788B/6f9d、2span外逆还原精确，原unique/capture/input/permit体全保，0完整helper采用，不授body redefine。错误由owner已先诊断，非模型自主发现。
+
+独立Test9完整68573B/8647B合同/max8000，HTTP200/DONE但length：45.4760342秒、TTFT2.3827869秒、17497+8000tokens，正文/SSE整份未读未哈希、0采用/不R2。owner另写11569B/1682160a三无参方法和软件IO transcript，原scaffold不计新模型工作；source-cut生产与Test均未编测/装载，不猜未来class pins。实际两HTTP区间没有重叠，不报峰2；Test稳定API源齐后不等producer私helper审阅。
+
+451终态/451租约释放、0源在途，本附页0JVM/窗口/桌面/Game。只修独立ownedUI恢复顺序，不能授修复Native CoreUnavailable/parent140或实际postsetter、LOOP/保存/G2/性能；后继最小编验、真实桌面和Runtime由各owner另记，原控制和deadline不重放/刷新。完整主动成本与净收益未知。
