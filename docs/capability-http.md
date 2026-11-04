@@ -2774,3 +2774,12 @@ CI原稿62808191仅精确external三键谓词与Test结构partial，未原样采
 398完整stop／DONE／合法JSON、6142.0311ms、3330+779tokens，主要重复所供风险清单，虚构GetItems等效API未采用，0代码／0新上传方案。399的2400预算、400的1800预算均length，整份保留但不读／提取／拼接半截CONTENT，0文案／代码采用；owner接管实际玩法文案与img标签校验。三次实际峰1／0重试，不能把Steam SDK原生调用算OpenCode原生生成。[原始分级、参数、精确业务pin](evidence/2026-11-05-civ6-workshop398400.json)。
 
 owner引用本机官方SDK实际接口／结构、修正WindowsANSI读回UTF8和creator／consumer上下文，真实发布后下载87文件核对。第二版正文4032UTF8字节、7个真实正文img、7张远端图片哈希对应仓库；旧版／QA截图明确标注，不授新游戏验收。批图Timeout／Busy、断线同窗FileNotFound及逐图读回修复另列；没有删除Cloud配置或重建条目。新parser四项0.416秒通过；首fixtureCRLF期待错误及HTML选择器id／class错误归owner，不归模型或Steam正文失败。公开新改动日志不可见保持事实，不拿提交ACK追授。准备／审阅全成本、服务等待、缓存和净收益未知。
+
+
+## 2026-11-05：READ owner 生产与独立端点三方法软件后见
+
+[独验02、原ACTUAL/POST/close及XML](evidence/2026-11-05-http-life-read-owner-software-later.json)确认，全部产码/Test由owner接管：Factory1TU9class首次0/6.1804063秒；ownerTest+本模块桥最初2TU5class0/5.0398355秒，随后的JUnit发现期exit1/1.8472175秒保留。原XML有tests2/errors2的发现错误节点，实际0选定方法/0断言；ACTUAL名义RUN3只是请求selector数，不能算3方法运行或2个业务断言失败。owner仅把TempDir参数移为field，一span修正，增编Test1TU4class0/5.6026444秒，桥1class原字节投影复用。
+
+最终仅新3方法真3P/0skip/fail/error/abort，JUnit进程4.2186175秒、XML suite2.338秒分别记，stderr0；成功phase close0，原发现期close结果1与child失败同列，全部durablefence/heldfalse。真实软件Transport receiver覆盖负ACK先归档/再READ、Unknown同IDcollect/不重送、原deadline/attempt边界/primary与中断；精确100ms clipped时长仍只源审，不能以callback耗尽deadline测试当性能证明。旧未使用native模块桥首绿成本另保。
+
+原生产模型length未读整弃0code，Test模型完整稿所有新增方法0采用/0modelJVM，owner3P不回授raw/scaffold。Java正常发表010cec并独核remote，正式此leaf前后字节相同；新helper/合成lambda成员变化，不授原位body redefine。后到Runtime20采用/LOOP由Runtime独记，软件不授全privateRoot/实际postsetter/新日SAVE/G2/实速；旧source-only与拒收切点不改。本次0新HTTP/JVM/Runtime/Game，完整主动成本与净收益未知。
