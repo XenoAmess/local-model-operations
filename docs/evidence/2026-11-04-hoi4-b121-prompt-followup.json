@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B121-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T06:13:11.231421+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T06:00:28.502175+00:00",
+    "window_ended_at_utc": "2026-11-04T06:00:42.967921+00:00",
+    "window_seconds": 14.465746,
+    "peak": 1,
+    "peak_duration_seconds": 14.465746,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b121-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 972,
+        "completion_tokens": 509,
+        "total_tokens": 1481
+      },
+      "failure": null,
+      "content_ttft_ms": 3679.063399962615,
+      "total_ms": 14465.655199950561,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "a6a138bb2546060b767132fe375dc992084109b873a431079517fcb8f1375e22",
+      "summary_sha256": "5acdae1cf5f65b935c891665d445d09bad6d696f27331861a9df0143e5e9dcb5",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "7263bc25e2d499ea318e80147cc02ec48fd4315ca7a7c2a6ac2f8b6be82b01ee",
+        "task_id": "hoi4-20261104-b121-prompt-01",
+        "request_sha256": "a6a138bb2546060b767132fe375dc992084109b873a431079517fcb8f1375e22",
+        "summary_sha256": "5acdae1cf5f65b935c891665d445d09bad6d696f27331861a9df0143e5e9dcb5",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Both SHA domains verified. Candidate retained actual dark upturned-side-brim cap/pale blue-grey folds/central gold badge, only source-exposed SHORT tucked dark side-temple hair/real brows/CLEAN face, OPEN blue-grey jacket/pale pointed shirt/BLACK LONG TIE, near-frontal source pose/DARK GREY backing and literal creature eyes/grey mouth.",
+          "Owner independently restated no expanded bob beyond actual visible hair, no ordinary white officer peaked-cap/extra braid substitution and shallow broad short U lower head/raised broad collar contact. No larger authority or prior generated uniform fusion reused.",
+          "Actual longer TTFT/total recorded independently without cache/concurrency/capacity inference; complete stop/DONE candidate and short limits only, no model pixels/visual or net-time claim.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2614,
+        1184
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b121-sources.json",
+    "sha256": "e2205675bd579d9aaf39b7d15a834ac5e1c78347478120cd4e4ba7782d508ce2",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T06:09:42.932190+00:00",
+  "stage_at_cutoff": "One new source-bound LOW original prompt was frozen uncalled at the recorded prepared cutoff. Later image production/manual art qualification remain separate evidence.",
+  "owner_review": "Both SHA domains verified. Candidate retained actual dark upturned-side-brim cap/pale blue-grey folds/central gold badge, source-exposed SHORT tucked dark side hair/real brows/CLEAN face, OPEN blue-grey jacket/pale shirt/BLACK LONG TIE, near-frontal pose/DARK GREY backing and literal creature eyes/grey mouth. Owner restated no expanded bob beyond source hair, no white peaked-cap/extra braid substitution, shallow broad short U lower head/actual collar contact. Actual TTFT and total latency recorded separately with no cache/concurrency/capacity inference; no larger or earlier generated uniform reuse/model pixels/vision/net-time claim.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
