@@ -2721,3 +2721,10 @@ owner独立完成5219字节BBCode、真实图解读、AI宣传图及87文件对�
 [独立C1真实实现任务](evidence/2026-11-05-http-native-packet-input-length.json)给4完整current源87938B及6763B合同，A后镜像由Root/Runtime确认当前源，目标仅Reader/ObservationAssembler。要求由Reader原strict parser合法生成私有bytes/envelope，在同call首次assembler projection以byteexact匹配复用，不匹配走完整旧strict fallback；state解析/相等、全部原guards/hash与公开Complete严格重放保留。这是新纯输入单位，不是旧A/Test重试或shared-verdict缓存，Dev P0首派已优先收尾。
 
 固定三消息/DIRECT/max8000，一次HTTP200/DONE但length，47.3528359秒、有效TTFT2.6965045秒、19944+8000tokens、cachednull。CONTENT/raw SSE未打开、解析、提取或哈希，整份0采用、不R2/不拼接，立即交owner接管；未读半稿不计API/类型/编译红，也不能据此认定永久能力上限。source-ready至POST80.034624秒只属协调墙钟。445终态/445租约释放、0在途，0新JVM/Runtime/Game；owner后继源码、软件与真实装载分别记，不以模型请求或文档门阻实际运行。完整主动成本、服务缓存和净收益未知。
+
+
+## 2026-11-05：C1 真实两方法独立 Test 完整返回切点
+
+[C1 owner实现后的新独立Test](evidence/2026-11-05-http-c1-native-packet-test-source-cut.json)给5完整current源113497B及4863B合同，固定稳定Reader入口、旧6arg公共序列和Assembler(null input)严格fallback；禁止构造privateInput/伪造权限，旧309仅literal fixture。该请求不重试旧C1 length，原length正文/SSE仍未打开或哈希，owner实现不算模型采用。
+
+固定三消息/DIRECT/max7000，一次完整stop/DONE/有效JSON，39.5339901秒、有效TTFT3.4683969秒、25185+6450tokens、cachednull；27780B正文与原SSE UTF8一致，审计0discrepancy。原件立即交M6，当前未采用/待owner正式源审、0JVM，完整返回不授语义/测试绿；后到采用、owner纠正或软件另记。446终态/446租约释放、0在途，无R2；新READ可用性P0的源码准备与此审阅并行，不以Git/文档门阻下一真实首派。完整主动成本与净收益未知。
