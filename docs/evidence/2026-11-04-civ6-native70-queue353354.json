@@ -1,0 +1,468 @@
+{
+  "schema": "local-model-operations.civ6-native70-queue353354/v1",
+  "date_local": "2026-11-04",
+  "published_at_utc": "2026-11-04T09:04:01.900563+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/d864da4208158987bc424d2795c49d36525ff100/docs/research/baiqi-p6-native70-queue-pair353354-evidence-2026-11-04.json",
+  "business_evidence_sha256": "e4e6c53441a7cbafbbcea9aaa02005d9109170852c9815a4e9289978c04f70bd",
+  "cases": [
+    {
+      "sequence": 353,
+      "case_id": "civ6-queue353-native-fullqueue-evidence",
+      "mode_id": "http-candidate",
+      "shared_commit": "d2f2dbe70b32499d8f610d3c7fadf8cc959f0b80",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2600,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T08:29:52.477548+00:00",
+      "attempt_end_utc": "2026-11-04T08:30:01.859091+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 9381.526299985126,
+        "first_nonempty_content_delta_ms": 1396.6983000282198,
+        "usage": {
+          "prompt_tokens": 5268,
+          "completion_tokens": 1073,
+          "total_tokens": 6341
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T08:29:52.477548+00:00",
+          "end_utc": "2026-11-04T08:30:01.859091+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 9381.526299985126
+        }
+      ],
+      "adoption": "partial parser body; owner pointer-value guard",
+      "review": "Raw Native wire escapes are correct; actual raw4tests green. Owner initially misread JSON escaping and incorrectly asserted failure. Independent corrected value-only pointer negative proved rawparser accepts forbidden table:pointer. Owner guard added; no wire literal changes. Parser used only offline frozen actual snapshots, not game.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    },
+    {
+      "sequence": 354,
+      "case_id": "civ6-queue354-native-fullqueue-evidence",
+      "mode_id": "http-candidate",
+      "shared_commit": "d2f2dbe70b32499d8f610d3c7fadf8cc959f0b80",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2200,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T08:29:52.477599+00:00",
+      "attempt_end_utc": "2026-11-04T08:30:02.964943+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 10487.161899975035,
+        "first_nonempty_content_delta_ms": 1657.758399960585,
+        "usage": {
+          "prompt_tokens": 5340,
+          "completion_tokens": 1254,
+          "total_tokens": 6594
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T08:29:52.477599+00:00",
+          "end_utc": "2026-11-04T08:30:02.964943+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 10487.161899975035
+        }
+      ],
+      "adoption": "firsttwo actual comparison methods unchanged AST; partial module",
+      "review": "Raw4tests green; last pointer negative mutates itemindex tohex instead of fieldvalue, falsepositive rejection. Owner replaces last negative preserving index, duplicates actual snapshot message, adds fullcanonicalrow assertion third test. Corrected4tests reproduce1failure againstraw353 then4green afterowner guard. Expected Native outcomes supplied, not blind witness.",
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "actual_client_inflight": {
+    "actual_peak": 2,
+    "seconds_at_peak": 9.381492,
+    "longest_seconds_at_peak": 9.381492,
+    "scope": "Client POST_BEGIN to ATTEMPT_END only, retries separate, backoff excluded; no server running/waiting inference."
+  },
+  "cumulative_frozen_through354": {
+    "logical_requests": 354,
+    "complete_stop_json": 330,
+    "length_whole_discarded": 21,
+    "final_transport_failed": 3,
+    "http_attempts": 384,
+    "extra_retries": 30,
+    "current_http_inflight": 0,
+    "new_opencode_native_generation": 0
+  },
+  "additive350351": "Ownerreplacement observer now consumedNative as above; model350code remains0,351onlypartial routefacts.",
+  "actual_shared_route": "Global OnItemClicked click-select then clicktarget -> SwapQueueItem0,1 -> CityManager.RequestOperation(BUILD,VALUE_SWAP,source0,dest1). No independently established drag event or low-level Native sink count.",
+  "canonical_validation": {
+    "raw_generated_tests": {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    "corrected_negative_against_raw353": {
+      "tests": 4,
+      "failures": 1,
+      "errors": 0
+    },
+    "owner_corrected": {
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    "all_data": {
+      "gorgo_before": {
+        "meta": {
+          "turn": "1",
+          "city_id": "65536",
+          "size": "2",
+          "current_hash": "-2025065568",
+          "gold": "10",
+          "faith": "0"
+        },
+        "items": {
+          "0": {
+            "BuildingType": "0",
+            "Directive": "1",
+            "Modifiers": "0",
+            "Location": {
+              "x": "-9999",
+              "y": "-9999"
+            }
+          },
+          "1": {
+            "MilitaryFormationType": "0",
+            "UnitType": "20",
+            "Directive": "0",
+            "Modifiers": "0",
+            "Location": {
+              "x": "-9999",
+              "y": "-9999"
+            }
+          }
+        },
+        "costs": {
+          "BUILDING_MONUMENT": [
+            "0",
+            "60"
+          ],
+          "BUILDING_CASTLE": [
+            "0",
+            "220"
+          ],
+          "UNIT_SCOUT": [
+            "0",
+            "30"
+          ],
+          "UNIT_BUILDER": [
+            "0",
+            "50"
+          ]
+        },
+        "observation": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "nil",
+          "nil",
+          "nil"
+        ],
+        "parameters": {}
+      },
+      "gorgo_after": {
+        "meta": {
+          "turn": "1",
+          "city_id": "65536",
+          "size": "2",
+          "current_hash": "1872107673",
+          "gold": "10",
+          "faith": "0"
+        },
+        "items": {
+          "0": {
+            "MilitaryFormationType": "0",
+            "UnitType": "20",
+            "Directive": "0",
+            "Modifiers": "0",
+            "Location": {
+              "x": "-9999",
+              "y": "-9999"
+            }
+          },
+          "1": {
+            "BuildingType": "0",
+            "Directive": "1",
+            "Modifiers": "0",
+            "Location": {
+              "x": "-9999",
+              "y": "-9999"
+            }
+          }
+        },
+        "costs": {
+          "BUILDING_MONUMENT": [
+            "0",
+            "60"
+          ],
+          "BUILDING_CASTLE": [
+            "0",
+            "220"
+          ],
+          "UNIT_SCOUT": [
+            "0",
+            "30"
+          ],
+          "UNIT_BUILDER": [
+            "0",
+            "50"
+          ]
+        },
+        "observation": [
+          "2",
+          "1",
+          "1",
+          "0",
+          "65536",
+          "0",
+          "1"
+        ],
+        "parameters": {
+          "-1406149623": "-1176693892",
+          "-1606574950": "1",
+          "-698843635": "0"
+        }
+      },
+      "baiqi_before": {
+        "meta": {
+          "turn": "110",
+          "city_id": "196610",
+          "size": "2",
+          "current_hash": "101426179",
+          "gold": "4354.41796875",
+          "faith": "322.11328125"
+        },
+        "items": {
+          "0": {
+            "BuildingType": "15",
+            "Directive": "1",
+            "Location": {
+              "x": "-9999",
+              "y": "-9999"
+            },
+            "Modifiers": "0"
+          },
+          "1": {
+            "Location": {
+              "x": "-9999",
+              "y": "-9999"
+            },
+            "UnitType": "1",
+            "Directive": "0",
+            "MilitaryFormationType": "0",
+            "Modifiers": "0"
+          }
+        },
+        "costs": {
+          "BUILDING_MONUMENT": [
+            "0",
+            "30"
+          ],
+          "BUILDING_CASTLE": [
+            "0",
+            "110"
+          ],
+          "UNIT_SCOUT": [
+            "0",
+            "15"
+          ],
+          "UNIT_BUILDER": [
+            "0",
+            "91"
+          ]
+        },
+        "observation": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "nil",
+          "nil",
+          "nil"
+        ],
+        "parameters": {}
+      },
+      "baiqi_after": {
+        "meta": {
+          "turn": "110",
+          "city_id": "196610",
+          "size": "2",
+          "current_hash": "101426179",
+          "gold": "4354.41796875",
+          "faith": "322.11328125"
+        },
+        "items": {
+          "0": {
+            "BuildingType": "15",
+            "Directive": "1",
+            "Location": {
+              "x": "-9999",
+              "y": "-9999"
+            },
+            "Modifiers": "0"
+          },
+          "1": {
+            "Location": {
+              "x": "-9999",
+              "y": "-9999"
+            },
+            "UnitType": "1",
+            "Directive": "0",
+            "MilitaryFormationType": "0",
+            "Modifiers": "0"
+          }
+        },
+        "costs": {
+          "BUILDING_MONUMENT": [
+            "0",
+            "30"
+          ],
+          "BUILDING_CASTLE": [
+            "0",
+            "110"
+          ],
+          "UNIT_SCOUT": [
+            "0",
+            "15"
+          ],
+          "UNIT_BUILDER": [
+            "0",
+            "91"
+          ]
+        },
+        "observation": [
+          "2",
+          "1",
+          "1",
+          "0",
+          "196610",
+          "0",
+          "1"
+        ],
+        "parameters": {
+          "-1406149623": "-1176693892",
+          "-1606574950": "1",
+          "-698843635": "0"
+        }
+      },
+      "baiqi_restored": {
+        "meta": {
+          "turn": "110",
+          "city_id": "196610",
+          "size": "1",
+          "current_hash": "101426179",
+          "gold": "4354.41796875",
+          "faith": "322.11328125"
+        },
+        "items": {
+          "0": {
+            "BuildingType": "15",
+            "Directive": "1",
+            "Location": {
+              "x": "-9999",
+              "y": "-9999"
+            },
+            "Modifiers": "0"
+          }
+        },
+        "costs": {
+          "BUILDING_MONUMENT": [
+            "0",
+            "30"
+          ],
+          "BUILDING_CASTLE": [
+            "0",
+            "110"
+          ],
+          "UNIT_SCOUT": [
+            "0",
+            "15"
+          ],
+          "UNIT_BUILDER": [
+            "0",
+            "91"
+          ]
+        },
+        "observation": [
+          "nil",
+          "nil",
+          "nil",
+          "nil",
+          "nil",
+          "nil",
+          "nil"
+        ],
+        "parameters": {}
+      }
+    },
+    "first_two_methods_ast_unchanged": true,
+    "nested_location_values_included": true,
+    "pointer_text_not_used_as_object_data": true,
+    "model_input_contained_expected_outcomes": true
+  },
+  "owner_notes": [
+    "Multiple Continue attempts rejected staleimage beforeactionledger/input. Window/PIDcorrect; scheduling gap made imagesold. Fixed by fresh ownedforeground recapture and exact staticContinue-label pixel match to lastroot-inspected scene, no bypass/focus/Steam action.",
+    "One old orchestration branch continued afterContinue-gate failure and issued two LSQreadiness queries before ensuringprior helper ended. Both actualstacks timeout inLSQbeforeCMDdispatch, so authoredCitySelect not sent. Waited both terminal then subsequentNativecalls strictly gated/serialized; do not claim zero overlap for failedtoolbranch.",
+    "Initial queueafter-add snapshot printed Location tablepointer; not usedforfullcomparison/publicdata. Refined actualnestedx/y snapshots capturedbefore swap and after.",
+    "Owner raw353/354 escaping diagnosis waswrong: all4rawtests green. Corrected review usesactual extractedcode and truevalue-only negative; no invented wirefailure or wirepatch.",
+    "Beforeoriginal-load presentationClose animation briefly reportedhiddenfalse; final freshcontext independentlyverifiedhidden true/allstatecleared."
+  ],
+  "native_result": "Actual ordinaryleader two complete rows reversed; Baiqi rows/meta/resources/costs unchanged despite same two physical clicks, one swap and one protected-route entry each. Owner observer restored and original one-item110 loaded/hash verified. Outsideguard counters are not lowerNative sink counts; not Trash/left/shortcut/all40.",
+  "maintenance": "Same localNov4 successful OpenCode1.19.5 cache, canonicalcurrentDIRECT shared HTTP; no nativegeneration.",
+  "unknown_costs": {
+    "exclusive_owner_phase_seconds": null,
+    "cached_tokens_if_unreported": null,
+    "server_queue_wait": null,
+    "net_savings": null
+  },
+  "next_real_trigger": "Continue remaining actualcityqueueTrash/move-left/shortcut and military/diplomacy/pressure matrices, preserve original110. No repeatclosed queue-swap/model tasks."
+}
