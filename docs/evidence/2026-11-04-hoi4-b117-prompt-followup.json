@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B117-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T04:18:02.555044+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T04:12:59.779171+00:00",
+    "window_ended_at_utc": "2026-11-04T04:13:03.738115+00:00",
+    "window_seconds": 3.958944,
+    "peak": 1,
+    "peak_duration_seconds": 3.958944,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b117-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 964,
+        "completion_tokens": 545,
+        "total_tokens": 1509
+      },
+      "failure": null,
+      "content_ttft_ms": 388.1387000437826,
+      "total_ms": 3958.8452000170946,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "7908298b1ff58338a42f965d904c8c9cfe9018360c607aaa025f27d77003c809",
+      "summary_sha256": "3328f2fd1b2d22aec67d51b379097f35cc2fbb223a4f43abda6f4518a9938fd8",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "758e155a0e5e403d062ad8e41abf820e14cee5e5c19026b209f495f4853c0728",
+        "task_id": "hoi4-20261104-b117-prompt-01",
+        "request_sha256": "7908298b1ff58338a42f965d904c8c9cfe9018360c607aaa025f27d77003c809",
+        "summary_sha256": "3328f2fd1b2d22aec67d51b379097f35cc2fbb223a4f43abda6f4518a9938fd8",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Both SHA domains verified. Candidate retained actual short GREY/SILVER receding combed-back hair/real dark-grey brows/CLEAN face, OPEN OLIVE/BLACK suit/pale pointed shirt/BLACK-GREY LONG TIE with only tiny source pale pattern hints, exact primary IMAGE-LEFT pose/BLUE-GREY backing and literal green-ringed black creature eyes/grey mouth.",
+          "Owner independently restated short broad rounded lower head/raised broad shirt-collar contact and source tiny-pattern restraint, no precise invented tie pattern. No larger authority or local-model image pixels/art qualification.",
+          "Complete stop/DONE JSON and short limits observed for this candidate only; no controlled improvement/cache/capacity/net-time claim.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2521,
+        1184
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b117-sources.json",
+    "sha256": "0d170053dc64780f948e8cc9dd1169271a510522ca1a65e1468e7ba8b5cba7cc",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T04:14:23.021363+00:00",
+  "stage_at_cutoff": "One genuinely unfinished LOW original prompt was frozen uncalled at the recorded prepared cutoff. Later builtin image production and manual art qualification remain separate evidence.",
+  "owner_review": "Both SHA domains verified. Candidate retained actual GREY/SILVER receding combed-back hair/real dark-grey brows/CLEAN face, OPEN OLIVE/BLACK suit/pale pointed shirt/BLACK-GREY LONG TIE with only source-visible tiny pale hints, primary IMAGE-LEFT pose/BLUE-GREY backing and literal creature green-ringed black eyes/grey mouth. Owner restated shallow broad short U base/raised broad shirt-collar contact and no precise invented tie pattern. Complete stop/DONE JSON and short limits observed for this candidate, not causal/general improvement/cache/capacity/net-time proof. No larger authority or model pixels/vision.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
