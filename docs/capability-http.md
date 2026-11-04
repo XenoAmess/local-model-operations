@@ -2480,3 +2480,11 @@ The source applicability is installed_tree with loaded parity UNKNOWN. No game s
 [The pure liveness projector](../scripts/pool_liveness_projection.py), [public contract](contracts/pool-liveness-projection-v1.json) and [independent opt-in suite factory](../tests/fixtures/pool_liveness_public_witness.py) preserve the qualified raw source bytes. [The finite software result](evidence/pool-liveness-software-first929.json) covers three methods,25 public calls and22 subtests on synthetic records; it does not collect or authenticate actual OS/process observations or integrate an operating consumer. Bind the suite through `make_suite(actual.project_liveness)`; no discover/loader adapter is added here. The contract's `candidate01` target and [integration notes](evidence/pool-liveness-integration-notes-source-cut.json) retain their historical source-cut references. Only explicit `VERIFIED_ACTIVE` is a positive DATA status; a truthy JSON dict, old launch/LOCK file or missing END is insufficient. Actual acquisition and operating-consumer adapters are separate unfinished work and receive no credit from this publication.
 
 [Two Journal source roles](evidence/2026-11-04-http-journal-two-role-source-cut.json) retain a complete rejected Test proposal and partial finite-obligation corroboration with zero model code adoption. Full source framing and request-object equality are distinguished from raw container-byte equality; earlier owner-encoding failures remain separate.
+
+## 2026-11-04：Civ6361—366，完整候选仍须核真实消费者与目标生命周期
+
+71实机建造者往返而未改良。361把路径第一步当目标且修改仍随移动丢弃的tested，0代码；362观察器丢多返回值、保路径别名、错用上下文／计数和清理身份，0代码。owner重写观察器，8项软件与真实12样本／0错误／0丢弃，并恢复两绑定；该实测不追认模型代码。真实目标493→95→重查493仅由查询和首步关联，精确拒绝原因未知，451为空且未拥有，不虚构友方占格。[精确候选、实测与采用](evidence/2026-11-04-civ6-builder361366-source72.json)。
+
+363把activeTarget先清nil再用为表键、漏同步消费者及unitID初始化，7项中3失败；仅映射声明／换回合清空两小片段原样采用，owner实现新鲜权限及完整ID核验、跨移动记忆、成功目标接续和清理。364字段只含文件名，JSON合法仍无测试代码；owner7行为检查对71两失败、对72通过。365静态建议忽略已有freshguard并建议超时清未知请求，0建议采用；366原两测漏恢复护送及首查询记账、2失败，owner纠正后一个行为测试部分采用，不称AST原样。反复语义失败后owner完成真实修复，不重复同题凑数。
+
+72首次全1012中两失败：旧行动变化期望与新合同冲突、护送切换须清失败记忆；修正后57项建造者及全1013（37.122秒）通过。源码／软件／87文件包72与后续安装启动分账，未授Native72／全40项通过。六完整stop JSON／六HTTP尝试，客户端峰2、峰区间总70.622552秒，最长27.006706秒；冻结366逻辑／342完整／21整弃length／3最终传输失败、396HTTP尝试／30额外重试／0新OpenCode原生生成。独占owner成本／未报告缓存／净收益仍null。

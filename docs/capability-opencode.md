@@ -346,3 +346,7 @@ The 5935.296762-second owner wall, 2680-second peer wall and earlier 1754.368648
 [The new bounded registry snapshot CLI](evidence/2026-11-04-opencode-owned-source-snapshot-source.json) completed a genuine native assistant/tool implementation session: 13 POST/13 END, 12 tool-call terminals and one stop, 56.994694s summed HTTP and 59.555542s CLI. A denied directory read recovered through an exact file; a candidate read before and after editing returned different bytes, with no identical-result loop.
 
 The complete raw implementation was rejected for empty-queue, duplicate identity, current-generation membership and metadata accounting errors. The selected source retains partial model code plus owner repairs; bounded total 1024, batches of at most 256 and one shared cutoff were a later owner scope with no model R2. Eight new DATA methods were prepared for the sole software executor. Source preparation/review wall time and unknown active work remain separate, and source/response association gaps in the generic trace audit stay UNKNOWN. No software, actual queue or Runtime adoption is granted by this source cutoff.
+
+### 2026-11-04：Civ6361—366分账补充
+
+六次均普通HTTP候选；0新增OpenCode原生生成，复用本机Nov4成功维护缓存1.19.5。源码72全1013软件通过和owner真实Native71观察器12样本不能算OpenCode原生工具能力。361／362／364代码0，363两小片段、366一个纠正测试部分采用，365建议拒绝；[证据与精确业务pin](evidence/2026-11-04-civ6-builder361366-source72.json)。
