@@ -1,0 +1,100 @@
+{
+  "schema": "local-model-operations.civ6-leftmove326/v1",
+  "date_local": "2026-11-04",
+  "at_utc": "2026-11-04T02:24:18.450663+00:00",
+  "machine_id": "BF-202609141645",
+  "records": [
+    {
+      "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/000c10c84e57a5d1a549b951a36af834ac7a8d0c/docs/research/baiqi-p6-native67-leftmove326-evidence-2026-11-04.json",
+      "sha256": "29dea329d8f3766e32e70f5e5a0356d346585990352b109c6db930cf117a1367"
+    },
+    {
+      "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/1ff0bd36c1036e7dab426db79258a05f9907106c/docs/research/baiqi-p6-native67-military-leftmove-positive-evidence-2026-11-04.json",
+      "sha256": "3723e7dbea0d0166a212c9f186a87dec003a531fb3f6a14463d37d12c41466ae"
+    }
+  ],
+  "cases": [
+    {
+      "sequence": 326,
+      "case_id": "civ6-leftmove326",
+      "mode_id": "http-candidate",
+      "shared_commit": "d743a117d3ac9a7091dcab1b2738d6941e988a81",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "max_tokens": 2600,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model_alias": "qwen38-coder",
+      "post_begin_utc": "2026-11-04T01:40:50.986210+00:00",
+      "attempt_end_utc": "2026-11-04T01:41:05.840657+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 14854.748000041582,
+        "first_nonempty_content_delta_ms": 6785.921300004702,
+        "usage": {
+          "prompt_tokens": 52643,
+          "completion_tokens": 1368,
+          "total_tokens": 54011
+        },
+        "cached_prompt_tokens_if_reported": null
+      },
+      "success": true,
+      "attempt_count": 1,
+      "retry_count": 0,
+      "attempt_windows": [
+        {
+          "attempt": 1,
+          "begin_utc": "2026-11-04T01:40:50.986210+00:00",
+          "end_utc": "2026-11-04T01:41:05.840657+00:00",
+          "failure": null,
+          "finish_reason": "stop",
+          "sse_done": true,
+          "http_status": 200,
+          "total_ms": 14854.748000041582
+        }
+      ],
+      "adoption": "PARTIAL_DIAGNOSTIC_CODE_OWNER_CORRECTED",
+      "review": {
+        "adopted": "Partial diagnostic observer code after owner correction; not product/mod code. Fullactualold289 baseline andofficialWorldInput supplied.",
+        "raw_reproduced_failure": "Normalrestore checks OnInputHandler==wrapper, but ContextPtr:SetInputHandler doesnotchangeglobalOnInputHandler. ActualrawLua5.3fixture reproduces falseconflict onnormalrestore.",
+        "owner_corrections": [
+          "Inputslotownership explicitUNOBSERVABLE_NO_NATIVE_GETTER; controllednormalcontext restores sourceknownOnInputHandler baseline, no foreigninputsetter guarantee.",
+          "ActualMOVE_TO slotcallback countedunconditionally with freshselected/cursor; no relianceonstalegenericinputmode.",
+          "Rollback restoresonlyownedfields, normalrestore preservesforeignfield replacements andcleansothers beforeconflict; extraobserverLaststateclearedaftercollection.",
+          "Bound moveentrylogging; genericinputcounts not falselylabelledtarget-only."
+        ]
+      },
+      "owner_cost_seconds": {
+        "preparation": null,
+        "review": null,
+        "correction": null,
+        "validation": null,
+        "publication": null
+      }
+    }
+  ],
+  "adoption": "326partialdiagnosticcode afterownerfix,0productcode. Actualraw normalrestorefails becauseSetInputHandler doesnotreplaceOnInputHandlerglobal; falseownershipclaimreproduced. Ownerinputslotownershipexplicitunknown, countactualcallbacknotstalelastmode, ownedfieldcleanup/foreignreplacementpreservation, boundedlogging, Laststateclear.",
+  "software": "FiveactualLua5.3syntheticproviderchecks afterrawfailure; notNativegetterorforeignsetterproof.",
+  "native": "ProtectedARC actualNativeMOVEqualificationtrue at0moves, Guardfalse. RealLDown/Up,actualMOVE_TOcallback andguardedmoveentry each1,scopedrequest0. Accessiblepointersrestored/statescleared, sourceknowninputbaselineonly. Separateownerreusedobserver forarmypositive: physicalM thenoneleft,actualoperation1 andWarrior131073 15,14moves2→15,13moves0, independentlyCoreverified.0newHTTP/generationcreditforthemechanicalreuse. PhysicalMprotected/ordinaryleadercomparisons remainpending here.",
+  "cumulative_frozen_through326": {
+    "logical": 326,
+    "complete": 305,
+    "length": 18,
+    "final_transport_failed": 3,
+    "http_attempts": 356,
+    "additional_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "scope": "326onePOST14.854748s,actualpeak1; no target60claim. Same-clientlocalNov4OpenCode1.19.5maintenancecache reused, notnativegeneration. Raw327taskseparatelypendingreview, notsilentlyincludedin326denominator.",
+  "unknown_costs": {
+    "exclusive_owner_seconds": null,
+    "cache_tokens": null,
+    "server_queue": null,
+    "net_owner_savings": null
+  }
+}
