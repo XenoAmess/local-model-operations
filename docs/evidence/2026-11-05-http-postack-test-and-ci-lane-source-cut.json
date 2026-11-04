@@ -1,0 +1,162 @@
+{
+  "schema": "local-model-operations.postack-test-and-CI-lane-source-cut/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network": "DIRECT;redirects refused;actual socket peer UNKNOWN",
+  "cases": [
+    {
+      "task_id": "post-ack-read-availability-independent-test-20261105-01",
+      "complete_source_files": 12,
+      "source_bytes": 304945,
+      "complete_contract_bytes": 9647,
+      "source_manifest_pin": {
+        "bytes": 11205,
+        "sha256": "6aa868d670a52cc15e07c70c95f0c0ac6865acc16668533909b6af199589a235"
+      },
+      "contract_pin": {
+        "bytes": 9647,
+        "sha256": "a294e4627bfd541af9d132614b8806d97457703c1685bc73366775456b2ad28c"
+      },
+      "fixed_three_messages": true,
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+        "temperature": 0,
+        "max_tokens": 10000,
+        "stream": true,
+        "include_usage": true,
+        "thinking": false,
+        "response_format_type": "json_object"
+      },
+      "POST_BEGIN_UTC": "2026-11-04T21:47:13.998362+00:00",
+      "ATTEMPT_END_UTC": "2026-11-04T21:48:03.131068+00:00",
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "headers_ms": 15092.302199976984,
+      "effective_content_TTFT_ms": 15093.215700006112,
+      "HTTP_total_ms": 49132.67879997147,
+      "usage": {
+        "prompt_tokens": 63888,
+        "completion_tokens": 4245,
+        "total_tokens": 68133
+      },
+      "cached_tokens": null,
+      "REQUEST_pin": {
+        "status": "present",
+        "bytes": 324068,
+        "sha256": "661076d849f9e5977172d418da3bdc12b20056216fb4888573737980523fa118"
+      },
+      "CONTENT_pin": {
+        "status": "present",
+        "bytes": 18636,
+        "sha256": "fcd1665a70436d20e719647a51c8c017f8fd73adebbc6a57c35928c6b62fcc76"
+      },
+      "RESULT_pin": {
+        "status": "present",
+        "bytes": 1280,
+        "sha256": "849271a55b06b384b351eb9db891fd7df9383250d2f83c5c277a754c90755563"
+      },
+      "outer_JSON": "VALID",
+      "saved_CONTENT_equals_raw_SSE_UTF8": true,
+      "offline_audit_discrepancies": [],
+      "POST": 1,
+      "paired_END": 1,
+      "retry": 0,
+      "adoption_at_cut": "NOT_ADOPTED_OWNER_SOURCE_REVIEW_PENDING",
+      "raw_compiled_or_executed": false,
+      "automatic_R2": false
+    },
+    {
+      "task_id": "ci-lobby-software-lane-selection-20261105-01",
+      "complete_source_files": 4,
+      "source_bytes": 427041,
+      "complete_contract_bytes": 4422,
+      "source_manifest_pin": {
+        "bytes": 2579,
+        "sha256": "1e7d474207e6a462da42f62c0727648e4b69864a32c3b5be5c2c67baf154f690"
+      },
+      "contract_pin": {
+        "bytes": 4422,
+        "sha256": "c82e7523046d98e6c27d67492a86d07b68a2136a9921536babf93ac8e985306a"
+      },
+      "fixed_three_messages": true,
+      "actual_parameters": {
+        "model": "qwen38-coder",
+        "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+        "temperature": 0,
+        "max_tokens": 6000,
+        "stream": true,
+        "include_usage": true,
+        "thinking": false,
+        "response_format_type": "json_object"
+      },
+      "POST_BEGIN_UTC": "2026-11-04T21:47:14.465318+00:00",
+      "ATTEMPT_END_UTC": "2026-11-04T21:47:50.599452+00:00",
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "headers_ms": 21291.897399991285,
+      "effective_content_TTFT_ms": 21292.845499992836,
+      "HTTP_total_ms": 36134.218199993484,
+      "usage": {
+        "prompt_tokens": 99428,
+        "completion_tokens": 2083,
+        "total_tokens": 101511
+      },
+      "cached_tokens": null,
+      "REQUEST_pin": {
+        "status": "present",
+        "bytes": 443883,
+        "sha256": "319cb11374bb6502a37ab44b25c142e4b86c970ed214f40f91c68bd161b887d7"
+      },
+      "CONTENT_pin": {
+        "status": "present",
+        "bytes": 8795,
+        "sha256": "62808191fbcfdaccf52628c63d6766eb4025e887370b9715d57c68301df4228a"
+      },
+      "RESULT_pin": {
+        "status": "present",
+        "bytes": 1293,
+        "sha256": "f3bc7f59ddd5b515a0af9ef15d81cb2be0773ef7a92de3830fb0cb28d2443baf"
+      },
+      "outer_JSON": "VALID",
+      "saved_CONTENT_equals_raw_SSE_UTF8": true,
+      "offline_audit_discrepancies": [],
+      "POST": 1,
+      "paired_END": 1,
+      "retry": 0,
+      "adoption_at_cut": "NOT_ADOPTED_OWNER_SOURCE_REVIEW_PENDING",
+      "raw_compiled_or_executed": false,
+      "automatic_R2": false
+    }
+  ],
+  "P0_first_POST": "2026-11-04T21:47:13.998362+00:00",
+  "CI_POST_after_P0_seconds": 0.466956,
+  "client_peak": 2,
+  "peak_seconds": 36.134134,
+  "first_POST_to_last_END_seconds": 49.132706,
+  "source_inflight_after_END": 0,
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 449
+    },
+    "leases.db": {
+      "RELEASED": 449
+    }
+  },
+  "finite_dispatcher_returned_normally": true,
+  "P0_scope": "One complete new3method endpoint Test, actual package-private production helper/actual NativeGameTransport heldreceiver via existing11line public constructor bridge. Existing219 scaffold and compiled owner production not model-new contribution. No private Root or synthetic Received permission.",
+  "CI_scope": "Existing real ControlBuild argument-builder predicate plus one new finite argsbuilder Test; nonblank software lane only with no explicit external key. Any explicit blank/partial/stale external selection must still fail strict, never fallback. No workflow/strict consumer change.",
+  "strong_owner_diagnosis_oracle_and_existing_scaffold_exposure": true,
+  "diagnostic_proposed_output_schema_applied": false,
+  "same_existing_T0_thinkingfalse_json_object_profile_not_controlled_A_B": true,
+  "old_length_CONTENT_or_SSE_opened_read_parsed_extracted_or_hashed": false,
+  "new_POST_were_real_source_complete_units_not_old_length_retries": true,
+  "new_JVM_SDK_Runtime_Game_by_Models": 0,
+  "model_quality_or_software_green_inferred": false,
+  "source_owner_work_not_waiting_for_Git_or_report": true,
+  "owner_review_correction_active_time_and_net_savings": null,
+  "limits": "Full stop/JSON only supports source review. Owner adoption/rejection, necessary compile/Test, formal CI and Runtime results must be separate later evidence. No live Root/Game/settlement/SAVE or measured availability/speed credit."
+}

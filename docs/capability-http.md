@@ -2751,3 +2751,12 @@ owner独立完成5219字节BBCode、真实图解读、AI宣传图及87文件对�
 [owner正式源审及独立逐字核对](evidence/2026-11-05-http-c1-packet-Test-partial-source-later.json)在原pending切点之外追加：27780B完整原类不能采用，只部分采用lexical接受方法主体。before155行、修后167行内有131逐字匹配行，已核before确在原complete_java、after确在最终Test；这包括注释/空行，不是131项独立贡献、完整方法采用或省工证明。
 
 owner修越界long为BigInteger字符串、旧回调oracle/counts/rawencode、新Assembler null-input strictfallback和新同步mutation；完整fixture另取原309，metadata方法全部owner重写并重绑packetSHA/len及8paired前沿。原稿漏JSON尾、no-op/skip负例和恢复坏数组后的错误预期均保，真实Complete/accessor/Obj.with不列假API错。最终20795B/019fe1d5、336行/2方法仍只SOURCE_READY，当时C1生产/新Test/受影响A3方法均未RUN；生产C1仍100%owner接管、原length未读整弃0采用。后继编测、装载、实速另记，不追授原wholeclass；本附页0新HTTP/JVM/Runtime/Game、不R2，P0继续优先。
+
+
+## 2026-11-05：新 READ 端点 Test 与 CI 参数 lane 同窗首派
+
+[两个源齐真实新单位](evidence/2026-11-05-http-postack-test-and-ci-lane-source-cut.json)由现有限dispatcher并行派发，P0先POST、CI后0.466956秒；实际客户端峰2持续36.134134秒，全窗口49.132706秒。P0给12完整304945B/9647B合同/max10000，完整stop49.1326788秒、有效TTFT15.0932157秒、63888+4245tokens，18636B正文；真实Transport/heldreceiver和既有11行桥/219scaffold已供，成熟夹具与owner生产不计模型新贡献。
+
+CI给4完整427041B/4422B合同/max6000，完整stop36.1342182秒、TTFT21.2928455秒、99428+2083tokens、8795B正文；目标是现argv predicate及新有限Test，任何显式external键含blank/partial仍须严格拒绝，已有软件原件lane不能变成跳guard。两份均HTTP200/DONE/有效JSON、CONTENT=SSE UTF8/审计0discrepancy、cachednull；原件即交owner，当前未采用/待源审、0JVM，不因caller0授正确或CI/软件绿。
+
+449终态/449租约释放、0在途、无R2，旧length正文/SSE仍未读未哈希。两个新单位继续用原T0/thinkingfalse/json_object，未应用诊断建议的新输出schema，所以不是该建议有效的A/B证据。后到采用、拒绝、owner修正、编测和实机分账；未授私Root/动作结算/SAVE、可用性或速度收益，完整主动成本与净收益未知。
