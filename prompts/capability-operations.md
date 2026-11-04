@@ -58,6 +58,8 @@
 
 ## 新任务的输出规划
 
+- 冻结 SPEC 和发布 metadata 前，核任务输出要求与实际 response_format 一致。普通 HTTP 默认 JSON 对象下，完整 Java 任务明确只交一个 JSON 对象，以 complete_java 字符串承载所需 package/imports 和完整类、方法体；其它语言或多文件任务同样明确源码字段及文件边界，不同时要求 raw-only/不要 JSON，不放可回显的实现占位示例。这是 owner 准备检查，不能声称现有 publisher 已自动检查任务文字冲突。
+- 实际 POST 后才发现格式张力时保留原 Task/REQUEST/尝试，不回写原票或为格式重投已闭题。完整 stop/DONE JSON 中可提取的完整源码另作源审，owner 输入冲突与代码缺陷分账；length 整弃、不提取半稿。原生 OpenCode assistant/tool 模式不受普通 HTTP 源码字段合同替代。
 - 请求前列出要完整交付的目标单位、场景、声明/夹具及trace或DATA义务。完整测试和复杂见证按预计结构给6k–12k有限输出，或首轮拆成真正可独立验收的方法并复用机械夹具；小补丁按实际体量给窄预算，不一律重吐整类。
 - 降低预算时同时核对完整输出义务是否相应减少。缩提示、少注释、换JSON DATA或减少场景可能有帮助，仍需核剩余循环、回调和全量观察是否能完整交付；不要把压预算本身当优化成功。
 - 以实际REQUEST预算与END分类。length半稿整弃不拼接；未读半稿不能计为语义错误或永久能力上限，完整stop仍另审API/类型/语义。记录owner预算设计、范围调整和接管成本，未知写null；已闭题不为验证新规则重投。[已发生案例](../docs/evidence/2026-11-02-http-output-budget.json)。

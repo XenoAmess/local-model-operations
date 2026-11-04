@@ -82,6 +82,10 @@ spec 只转发调用器明确列出的参数。额外 API 参数需使用完整�
 
 输出合同只保留一种活动要求。JSON 外壳与任务中“不要 JSON”相互冲突时，先修 owner 的请求。用文字描述字段必须包含的真实实现，不放可被原样回显的 `completeJava`、`completecpp` 或文件名占位示例。完整类的声明也不能带无方法体的 private 构造器原型。
 
+在冻结 SPEC、发布 metadata 或 POST 前，把任务文字与本次实际 `response_format` 对齐。普通 HTTP 使用默认 JSON 对象时，新的完整 Java 任务须明确要求一个 JSON 对象，其中 `complete_java` 字符串包含完整源码及所需 package、imports、类和方法体；其它语言指定相应的源码字段。多文件任务明确每个文件的路径和完整源码字段，或采用有界 old/new edits。此时不能同时要求 raw-only 或“不要 JSON”。这是 owner 的准备检查；现有 metadata publisher 的字段校验不等于已实现任务文字的语义检查。
+
+若冲突在实际 POST 后才发现，保留原 Task、REQUEST 和尝试，不为格式订正回写原件或重发已闭请求。完整 stop/DONE 的 JSON 中若有完整源码字段，可按实际字段提取后另作源码审阅；格式张力与独立可证的代码错误分别记录。length 仍整份丢弃，不提取半稿或续接。OpenCode 原生 assistant/tool 模式按其实际接口交付，不套用普通 HTTP 的 JSON 源码字段要求。
+
 ## 消费候选
 
 每个新 RESULT（及 SUMMARY/ATTEMPT_END 同份结果）含 `json_syntax`：只有完整收取的 `stop`/DONE 才给严格 `VALID`/`INVALID`，length 或部分流为 `UNKNOWN`。附加分类最多读取1MiB UTF8；字节超限、解析资源上限或不可编码文本为 UNKNOWN。拒绝 NaN/Infinity；错误仅固定 class、line/column 与零基 Unicode 字符 offset，不含正文或异常消息。top-level 类型只描述语法，不检查任务所需 schema，`semantic_review` 始终为 `OWNER_REVIEW_REQUIRED`。
