@@ -1,0 +1,101 @@
+{
+  "schema": "local-model-operations.http-protected-ready-function-source/v1",
+  "case_id": "ck3-whole263-protected-ready-function-20261104-01",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T13:31:33.566930+00:00",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "relationship": "A new independently complete single-function task after the larger output unit was length-discarded. No earlier response was read, continued or supplied to this request.",
+  "prior_cutoff": "2026-11-04-http-conditional-recorder-length.json",
+  "input": {
+    "source_files": 7,
+    "physical_source_bytes": 151090,
+    "same_complete_current_source_message": true,
+    "source_message_utf8_bytes": 153210,
+    "messages": [
+      "system",
+      "user",
+      "user"
+    ],
+    "output_unit": "One complete protected_ready function in the sole complete_python JSON field.",
+    "owner_guidance": "Detailed global contract, schema/role/mapping requirements and explicit unbound sentinels. This is strongly guided source adaptation, not autonomous discovery."
+  },
+  "actual_request": {
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "max_tokens": 6000,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    }
+  },
+  "actual_result": {
+    "POSTs": 1,
+    "ENDs": 1,
+    "started_at_utc": "2026-11-04T13:27:14.864969+00:00",
+    "HTTP_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "candidate_complete": true,
+    "HTTP_total_seconds": 19.04311680002138,
+    "valid_content_TTFT_seconds": 0.9776005999883637,
+    "usage": {
+      "prompt_tokens": 47602,
+      "completion_tokens": 3141,
+      "total_tokens": 50743
+    },
+    "cached_prompt_tokens": null,
+    "source_UTF8_bytes": 10079,
+    "source_SHA256": "e640a3472e74005f58622ff6bdf5acb8ee3dde5b1ee7259ec5bf197abdffaae6",
+    "source_lines": 160,
+    "caller_exit": 0,
+    "dispatcher_terminal": "RETURNED_NORMALLY_PAIRED_END"
+  },
+  "source_review": {
+    "reviewers": [
+      "source owner M6",
+      "Models source readback"
+    ],
+    "whole_function_adoption": 0,
+    "findings": [
+      "The proof selectedLegacyClassPins carry original legacy-root paths. Direct equality with the owned projected SDK segment rejects the real host projection.",
+      "Comparing each class path.parent directly to API_ROOT or SDK rejects package-nested class files.",
+      "Comparing path.stem to the full slash-separated internal family name does not establish the intended family predicate.",
+      "The complete physical inventory and Ready.guardPin binding obligations are omitted."
+    ],
+    "limited_reuse": "Source owner may retain early unbound refusal, source-contract/fixed-pin and some argfile clauses. Final selected span and integrated source pin are not held at this cutoff.",
+    "model_selected_code_adoption_at_this_cut": "PENDING_OWNER_FINAL_SPAN_RECEIPT",
+    "owner_takes_over_mapping_block": true,
+    "further_HTTP_for_this_function": false,
+    "classification": "Complete-source mapping/qualification errors found before execution; not a compiler, software or Runtime failure."
+  },
+  "execution": {
+    "candidate_AST_import_or_execution": 0,
+    "compile_Test_RUN_or_Game": 0,
+    "Whole_software_Runtime_or_natural_M6_credit": false,
+    "old_logical_ID_rePOSTs": 0,
+    "new_Opencode_native_sessions": 0
+  },
+  "cost": {
+    "preparation_begin_utc": "2026-11-04T13:25:13.0636882+00:00",
+    "preparation_end_utc": "2026-11-04T13:27:07.497112+00:00",
+    "owner_exclusive_active_seconds": null,
+    "review_or_correction_seconds": null,
+    "net_savings": null,
+    "CPU_seconds": null,
+    "boundary": "Scope reduction, prompt preparation, controlled one-pass admission, review and owner takeover remain extra delivery work. The shorter HTTP response is not measured net saving or a controlled performance comparison."
+  },
+  "privacy": "No raw source, answer, request, machine-local path, oracle or game material is published."
+}

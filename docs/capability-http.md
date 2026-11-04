@@ -2516,3 +2516,5 @@ owner继续门像素校验失败后未立即停止编排，四次查询在LSQ超
 [一次真实未完成的条件 recorder 适配](evidence/2026-11-04-http-conditional-recorder-length.json)提供7份完整当前源、物理151090B，强引导输出常量、两个完整方法和其余精确literal替换。单POST为HTTP200/DONE，TTFT6.1336134秒、总61.7222667秒，输出用满10000 tokens且finish_reason=length；整份CONTENT未读、未解析、未提取或拼接，采用0，不据此作语义评分或永久能力上限。
 
 原423个终态ID及lease历史保留，自己的休假STOP逐字归档，新入口只一次intake和一次dispatcher，新增1个真实ID且正常PAIRED_END；没有空循环、旧题重POST、candidate执行或编测。准备、源审、恢复与协调另有owner成本，未计独占工时或净收益。后继由owner接管机械部分，或另定真正可独立完整交付的窄单位，不能把半稿续接称为纠错成功。
+
+[后继独立单函数任务](evidence/2026-11-04-http-protected-ready-function-source.json)保持同7完整源，改为仅交一个完整函数、max6000；一次HTTP200/stop/DONE，19.0431168秒、TTFT0.9776006秒、输出3141tokens，提取10079B/160L。原length正文仍未读或拼接。完整函数却混淆原legacy路径与ownedSDK投影、用直接parent检查错拒包目录，并漏完整inventory和Ready.guardPin绑定；owner接管映射块，不第三轮。whole采用0，早拒/固定合同等局部沿用范围待owner最终回执，0编测/执行。缩窄输出可完整返回不等于语义通过，也未测净节省。
