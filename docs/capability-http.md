@@ -2518,3 +2518,5 @@ owner继续门像素校验失败后未立即停止编排，四次查询在LSQ超
 原423个终态ID及lease历史保留，自己的休假STOP逐字归档，新入口只一次intake和一次dispatcher，新增1个真实ID且正常PAIRED_END；没有空循环、旧题重POST、candidate执行或编测。准备、源审、恢复与协调另有owner成本，未计独占工时或净收益。后继由owner接管机械部分，或另定真正可独立完整交付的窄单位，不能把半稿续接称为纠错成功。
 
 [后继独立单函数任务](evidence/2026-11-04-http-protected-ready-function-source.json)保持同7完整源，改为仅交一个完整函数、max6000；一次HTTP200/stop/DONE，19.0431168秒、TTFT0.9776006秒、输出3141tokens，提取10079B/160L。原length正文仍未读或拼接。完整函数却混淆原legacy路径与ownedSDK投影、用直接parent检查错拒包目录，并漏完整inventory和Ready.guardPin绑定；owner接管映射块，不第三轮。whole采用0，早拒/固定合同等局部沿用范围待owner最终回执，0编测/执行。缩窄输出可完整返回不等于语义通过，也未测净节省。
+
+[后到owner源码回执](evidence/2026-11-04-http-protected-ready-owner-source-later.json)确认有限partial沿用，整actor复用成熟模板并由owner修正路径投影/完整map/精确joins，不能称模型整稿原样。三项未来Ready/guard绑定仍为None，静态早拒未执行，0编测/SDK/JDK/Game。一次owner文本针缩进错误在输出目录创建前退出，订正及两次HTTP合80.7653835秒分别保留；完整工时与净收益仍未知，未改变早先pending切点。
