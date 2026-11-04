@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.hoi4-prompt-followup/v1",
+  "case_id": "HTTP-HOI4-B097-TEXT",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-04T00:37:53.355572+00:00",
+  "new_real_tasks": 1,
+  "actual_post_attempts": 1,
+  "complete_stop_json_candidates": 1,
+  "http_retries": 0,
+  "client_intervals": {
+    "window_started_at_utc": "2026-11-04T00:27:47.567062+00:00",
+    "window_ended_at_utc": "2026-11-04T00:27:51.585108+00:00",
+    "window_seconds": 4.018046,
+    "peak": 1,
+    "peak_duration_seconds": 4.018046,
+    "average_inflight": 1.0
+  },
+  "tasks": [
+    {
+      "task_id": "hoi4-20261104-b097-prompt-01",
+      "success": true,
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 950,
+        "completion_tokens": 542,
+        "total_tokens": 1492
+      },
+      "failure": null,
+      "content_ttft_ms": 463.2600999902934,
+      "total_ms": 4018.3412000187673,
+      "cached_prompt_tokens_if_reported": null,
+      "request_sha256": "4bd582cb51e638b1602ca0c3a919b13d3cd95dafa2239f6b769412f095bc0bb5",
+      "summary_sha256": "a1924873afef27e7a1b100257cf162462c0fcf10ead4a39ff04da78464057ab0",
+      "http_status": 200,
+      "owner_adoption": {
+        "source_original_sha256": "b9596dbf9f1cabe3475f421582ad832d9b6e200f03daf15138258c3d3c65818d",
+        "task_id": "hoi4-20261104-b097-prompt-01",
+        "request_sha256": "4bd582cb51e638b1602ca0c3a919b13d3cd95dafa2239f6b769412f095bc0bb5",
+        "summary_sha256": "a1924873afef27e7a1b100257cf162462c0fcf10ead4a39ff04da78464057ab0",
+        "adoption": "partial + owner exact-source restatement",
+        "owner_changes": [
+          "Candidate retained source compact DARK headwear with low band, limited brown/gold upper hints, real exposed hair/brows and clean face; no proposed larger variant was used as authority.",
+          "Retained CLOSED near-black upright garment with only source-visible pale/tan patterned collar areas, serious subtle parted mouth, PRIMARY almost-frontal mild IMAGE-LEFT pose and dark-grey card backing.",
+          "Owner restated source-specific tiny-detail limits, compact near-round short U lower head and very short broad collar contact; complete text transport is separate from visual qualification.",
+          "Canonical LOW real-hair and source-alpha constraints appended. No model image pixels or art qualification."
+        ],
+        "both_hash_domains_verified": true,
+        "no_local_model_vision_or_art_qualification": true
+      },
+      "shared_file_sha256": {
+        "AGENTS.md": "8f9bd1ed2e1bd9d2a2aebacf8ff76f8e53a8492a23107533fabce4eed1550cfd",
+        "config/executor.json": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "scripts/call.py": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "scripts/check_opencode.py": "9e0b032b5caebc5cc2511f692a76ead1ce2ad9ae545b818fad23afeddb2bbc23"
+      },
+      "actual_message_utf8_bytes": [
+        301,
+        2711,
+        1070
+      ]
+    }
+  ],
+  "consumer_observation_record": {
+    "repository": "XenoAmess/xenoamess_hoi4_dev",
+    "path": "mod_nailong/data/production-resume-20261104-b097-sources.json",
+    "sha256": "5bad0cb218cf574c37d4191d5b38eeb69257f2735dee008e55454697dcdd9bf4",
+    "publication_commit_at_cutoff": null
+  },
+  "prepared_cutoff_at_utc": "2026-11-04T00:28:32.898148+00:00",
+  "stage_at_cutoff": "One new source-bound LOW prompt was frozen uncalled at the recorded cutoff, with actual native source observation and nearest-pixel analysis. Text candidate completion is separate from subsequent builtin image generation/manual art qualification.",
+  "owner_review": "Both SHA domains verified. Owner actually examined 22 larger operative/ETH/Africa land/navy candidates but none reproduced primary compact dark patterned headwear/closed pale-tan patterned collar, so all excluded as feature/pose authorities. Candidate retained exact source dark headwear band/limited brown-gold hints, real exposed hair/brows, clean serious subtly parted face, CLOSED dark upright garment with limited pale-tan collar areas, primary mild image-left almost-frontal crop and dark-grey backing. Tiny engraving stays understated; owner restated compact rounded short U anatomy. No pixels supplied to text model or claim of larger-source match.",
+  "cached_tokens_or_service_sampling": null,
+  "native_tool_generation": false,
+  "cost_seconds": {
+    "preparation": null,
+    "review": null,
+    "correction": null,
+    "net_saved": null
+  },
+  "private_materials": "Raw requests, SSE, events, candidates, game originals and machine ledgers remain with execution owner; this receipt contains reviewed digests/metrics only.",
+  "next_real_question": "Generate each source independently and inspect actual returned original PNG against exact primary, expression, hair, clothes, collar and white/cyan/alpha. No image or game outcome claimed."
+}
