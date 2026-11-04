@@ -2760,3 +2760,10 @@ owner修越界long为BigInteger字符串、旧回调oracle/counts/rawencode、�
 CI给4完整427041B/4422B合同/max6000，完整stop36.1342182秒、TTFT21.2928455秒、99428+2083tokens、8795B正文；目标是现argv predicate及新有限Test，任何显式external键含blank/partial仍须严格拒绝，已有软件原件lane不能变成跳guard。两份均HTTP200/DONE/有效JSON、CONTENT=SSE UTF8/审计0discrepancy、cachednull；原件即交owner，当前未采用/待源审、0JVM，不因caller0授正确或CI/软件绿。
 
 449终态/449租约释放、0在途、无R2，旧length正文/SSE仍未读未哈希。两个新单位继续用原T0/thinkingfalse/json_object，未应用诊断建议的新输出schema，所以不是该建议有效的A/B证据。后到采用、拒绝、owner修正、编测和实机分账；未授私Root/动作结算/SAVE、可用性或速度收益，完整主动成本与净收益未知。
+
+
+## 2026-11-05：READ Test 全拒与 CI lane 部分采用的后见
+
+[两owner正式源回执](evidence/2026-11-05-http-postack-CI-owner-source-later.json)在原pending切点之外追加。READ Test完整原稿fcd1665a的3新增方法全拒、0model编测：import/TempDir/Event类型错误，同IDcollect场景靠错误secondwrite、persistent帧不足；归档在循环后才写、ordering仅注释，缺deadline/id/primary/真实pause中断边界。owner重写19481B/77db及526B本local-service唯一构造桥，2新TU在该source-cut未编测。原native-transport桥曾1TU/1class0、2.4780143秒，却因正式Test模块不含testjar而未使用；这项owner模块适配成本另保，不归模型语义或抹作0成本，既有219scaffold不授新贡献。
+
+CI原稿62808191仅精确external三键谓词与Test结构partial，未原样采用方法；owner修rawdiff/context、private7arg误调用为真实包内5arg、null-safe软件值、verify/no-skip及blank/tamper断言。prodab467e04一spanoutside逆还原精确，新4方法43d6217e只是源码，未本地编测。Java正常发表cbd7919a并独核remote，出版回执仅pending正式CI terminal；不授CI或Native/SDK/实机通过，5份测试小文件只验argv/pin。两原源码/传输切点保，后续必要first、软件、正式CI、Runtime另记；本附页0新HTTP/JVM/Game、不R2，完整owner主动成本及净收益未知。
