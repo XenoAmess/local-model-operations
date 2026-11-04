@@ -2548,3 +2548,9 @@ owner接管只读UI自有城市资产工具和四项行为检查：完整建筑�
 [真实未完成的离线模型检查helper](evidence/2026-11-04-http-loader-model-inspector-length.json)给完整新Java skeleton/合同、3份POM及manifest共6文本39777B，约120行完整helper/短reasoning、max6000；一次HTTP200/DONE，34.4464866秒/有效TTFT2.0251467秒，但finish=length且输出用满6000tokens。整份CONTENT未打开/解析/提取或拼接，采用0、不自动R2，不作Java语义评分或永久能力上限。
 
 本次未把二进制dat/jar当文本，未反序列化、编译/执行helper或attach运行宿主；磁盘模型声明不授真实loader可见性、根因或修复信用。Runtime同局恢复独立继续，不将此helper设为前置。冻结材料导航、输出合同设计、准备和后继owner工作另有成本，HTTP时长不等于完整交付或净节省。
+
+## 2026-11-04：现有batch API的clean coverage消费者输出未闭
+
+[新的真实消费者任务](evidence/2026-11-04-http-clean-coverage-existing-batch-length.json)给6份完整当前源386519B、owner已定位的重复链路/现有public batch API与保等价义务，仅请求DriverBootstrap clean分支窄diff、max10000；一次HTTP200/DONE，65.1545966秒/有效TTFT10.1475993秒，reported78830+10000tokens，finish=length。整份CONTENT未打开/解析/提取，0采用、不拼接或自动R2；不能由未读半稿判定具体API错误或永久能力上限。
+
+请求保原row/source/legacy/operator/head/bytes与身份检查，不新增type/cache/依赖，不改其它caller或单次IO期限；这只是owner给出的源合同，没有候选或执行证明。单个实际stack只证调用路径，不是R×H次数、CPU比例或提速验收。编测/Runtime/C/GET/Game均0，原同局恢复不等待此源任务，完整owner成本与净收益未知。

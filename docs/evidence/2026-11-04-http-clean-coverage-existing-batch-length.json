@@ -1,0 +1,96 @@
+{
+  "schema": "local-model-operations.http-clean-coverage-existing-batch-length/v1",
+  "case_id": "ck3-clean-coverage-existing-batch-20261104-01",
+  "mode_id": "http-candidate",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "recorded_at_utc": "2026-11-04T15:10:15.471330+00:00",
+  "scope": "A new unfinished clean-restart coverage consumer patch using an already-present public canonical-membership batch API. This is a new logical task, not a retry or continuation of an earlier inspector or P0 source request.",
+  "input": {
+    "complete_current_source_files": 6,
+    "physical_source_bytes": 386519,
+    "source_message_UTF8_bytes": 387756,
+    "messages": [
+      "system",
+      "user",
+      "user"
+    ],
+    "owner_guidance": "The owner supplied the actual consumer-to-codec-to-journal repeated-chain path, the existing public batch API and equivalence obligations. No autonomous discovery is claimed.",
+    "requested_output": "One finite unified_diff limited to DriverBootstrap clean-restart coverage plus short reasoning; no whole file, Test or other source edits.",
+    "required_preservation": "Row receipt/source/material checks, legacy/operator ordering, original borrowed writer and pre-loop/per-entry head authority remain. Non-clean paths, other callers and the single deferred IO deadline stay unchanged.",
+    "design_boundary": "Use existing types and batch API; no new type, dependency, cache, field, cross-call proof or borrowed-history helper."
+  },
+  "actual_request": {
+    "model": "qwen38-coder",
+    "max_tokens": 10000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    }
+  },
+  "actual_result": {
+    "POSTs": 1,
+    "ENDs": 1,
+    "attempt": 1,
+    "started_at_utc": "2026-11-04T15:07:11.163722+00:00",
+    "HTTP_status": 200,
+    "finish_reason": "length",
+    "sse_done": true,
+    "HTTP_total_seconds": 65.15459659998305,
+    "valid_content_TTFT_seconds": 10.147599299962167,
+    "usage": {
+      "prompt_tokens": 78830,
+      "completion_tokens": 10000,
+      "total_tokens": 88830
+    },
+    "cached_prompt_tokens": null,
+    "caller_exit": 1,
+    "dispatcher_terminal": "RETURNED_NORMALLY_PAIRED_END"
+  },
+  "adoption": {
+    "model_code": 0,
+    "candidate_CONTENT_opened": false,
+    "candidate_JSON_parsed_or_source_extracted": false,
+    "whole_truncated_output_discarded": true,
+    "half_output_spliced": false,
+    "automatic_R2": false,
+    "semantic_score": "NOT_ASSESSED; incomplete candidate was not read",
+    "classification": "The requested finite patch did not complete within10000 output tokens. No particular code defect, permanent capability limit or failed software result is inferred."
+  },
+  "performance_boundary": "The supplied single actual stack establishes a caller path. It is not a measured row-by-history traversal count, CPU share, end-to-end speed result or proof that this unimplemented candidate reduces work.",
+  "execution": {
+    "diff_applied_or_compiler_Test_starts": 0,
+    "Runtime_host_C_GET_Game_actions": 0,
+    "old_task_rePOSTs": 0,
+    "new_OpenCode_native_sessions": 0,
+    "software_live_loader_LOOP_days_SAVE_or_speed_credit": false
+  },
+  "cost": {
+    "preparation_begin_utc": "2026-11-04T15:05:06.8188786+00:00",
+    "preparation_end_utc": "2026-11-04T15:06:58.879355+00:00",
+    "owner_active_seconds": null,
+    "review_correction_or_full_delivery_seconds": null,
+    "CPU_seconds": null,
+    "net_savings": null,
+    "boundary": "Owner diagnosis, frozen-source preparation, contract design, admission, result handling and any later implementation remain additional work. HTTP time is not full delivery or measured saving."
+  },
+  "next": "The source owner may take over the finite consumer or define a genuinely independent complete smaller unit. Do not splice the partial stream, relaunch the completed ID or block ongoing same-game recovery on this source task.",
+  "publication": {
+    "new_model_requests": 0,
+    "new_compiler_Test_or_business_actions": 0,
+    "raw_source_REQUEST_answer_or_machine_local_paths_published": false
+  }
+}
