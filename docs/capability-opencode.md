@@ -408,3 +408,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-05：Civ6396—397工坊准备
 
 0新OpenCode原生生成，Nov5同机同用户1.19.5维护成功缓存复用。396length整丢弃、397完整但无可用诊断方案，owner材料与87文件核验另列，不授原生工具／上传或净收益。[证据与业务pin](evidence/2026-11-05-civ6-workshop396397.json)。
+
+
+### 2026-11-05：Civ6398—400工坊发布／内嵌实机图
+
+0新增OpenCode原生生成；Nov5同机同用户1.19.5维护成功缓存复用。398普通HTTP完整但仅复述，399／400length整弃，owner承担SDK与UTF8修复、7图正文、四项parser及实际下载校验。Steam／游戏原生API执行不是OpenCode工具模式；软件／发布结果不追授模型代码、游戏全验或净收益。[分账与业务pin](evidence/2026-11-05-civ6-workshop398400.json)。

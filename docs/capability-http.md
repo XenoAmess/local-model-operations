@@ -2767,3 +2767,10 @@ CI给4完整427041B/4422B合同/max6000，完整stop36.1342182秒、TTFT21.29284
 [两owner正式源回执](evidence/2026-11-05-http-postack-CI-owner-source-later.json)在原pending切点之外追加。READ Test完整原稿fcd1665a的3新增方法全拒、0model编测：import/TempDir/Event类型错误，同IDcollect场景靠错误secondwrite、persistent帧不足；归档在循环后才写、ordering仅注释，缺deadline/id/primary/真实pause中断边界。owner重写19481B/77db及526B本local-service唯一构造桥，2新TU在该source-cut未编测。原native-transport桥曾1TU/1class0、2.4780143秒，却因正式Test模块不含testjar而未使用；这项owner模块适配成本另保，不归模型语义或抹作0成本，既有219scaffold不授新贡献。
 
 CI原稿62808191仅精确external三键谓词与Test结构partial，未原样采用方法；owner修rawdiff/context、private7arg误调用为真实包内5arg、null-safe软件值、verify/no-skip及blank/tamper断言。prodab467e04一spanoutside逆还原精确，新4方法43d6217e只是源码，未本地编测。Java正常发表cbd7919a并独核remote，出版回执仅pending正式CI terminal；不授CI或Native/SDK/实机通过，5份测试小文件只验argv/pin。两原源码/传输切点保，后续必要first、软件、正式CI、Runtime另记；本附页0新HTTP/JVM/Game、不R2，完整owner主动成本及净收益未知。
+
+
+## 2026-11-05：Civ6398—400，官方SDK发布与7图正文
+
+398完整stop／DONE／合法JSON、6142.0311ms、3330+779tokens，主要重复所供风险清单，虚构GetItems等效API未采用，0代码／0新上传方案。399的2400预算、400的1800预算均length，整份保留但不读／提取／拼接半截CONTENT，0文案／代码采用；owner接管实际玩法文案与img标签校验。三次实际峰1／0重试，不能把Steam SDK原生调用算OpenCode原生生成。[原始分级、参数、精确业务pin](evidence/2026-11-05-civ6-workshop398400.json)。
+
+owner引用本机官方SDK实际接口／结构、修正WindowsANSI读回UTF8和creator／consumer上下文，真实发布后下载87文件核对。第二版正文4032UTF8字节、7个真实正文img、7张远端图片哈希对应仓库；旧版／QA截图明确标注，不授新游戏验收。批图Timeout／Busy、断线同窗FileNotFound及逐图读回修复另列；没有删除Cloud配置或重建条目。新parser四项0.416秒通过；首fixtureCRLF期待错误及HTML选择器id／class错误归owner，不归模型或Steam正文失败。公开新改动日志不可见保持事实，不拿提交ACK追授。准备／审阅全成本、服务等待、缓存和净收益未知。
