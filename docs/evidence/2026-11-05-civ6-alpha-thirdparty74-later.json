@@ -1,0 +1,83 @@
+{
+  "schema": "local-model-operations.civ6-alpha-thirdparty74-later/v1",
+  "date_local": "2026-11-05",
+  "at_utc": "2026-11-04T19:03:51.401056+00:00",
+  "machine": "BF-202609141645",
+  "business_evidence": "https://github.com/XenoAmess/civ6_dev/blob/b472b31cbbaf6acf6838d6484e06aefcf27a78b6/docs/research/baiqi-p6-third-party-unknown74-evidence-2026-11-05.json",
+  "business_sha256": "aeaffae028df427ba12251cec9a87b8377fa805dc83582e9cbeadff9e9b14f59",
+  "new_model_posts": 0,
+  "new_opencode_native_generation": 0,
+  "model395_adoption_unchanged": "0code, only already-specified third-party test direction reference; false double-debit and unpaid-validation-order claims rejected. Owner fault implementation/4checks/Native orchestration independent.",
+  "actual_input": {
+    "physical_right_attempts": 2,
+    "physical_right_pass": false,
+    "observed_down_up": 0,
+    "no_request_or_debit_from_failed_inputs": true,
+    "fallback": "TEST_PLAYER invokes actual product MoveUnitToPlot wrapper, then physically clicks actual1100 confirmation popup. Not direct Capture.Request or automatic background initiation.",
+    "semantic_map_wrapper_calls": 1,
+    "semantic_interact_calls": 1,
+    "sensor_errors": 0,
+    "sensor_drops": 0,
+    "unknown_physical_failure_cause": true
+  },
+  "QA_fault": {
+    "first_product_transfer_calls": 1,
+    "first_actual_owner": 0,
+    "first_actual_city_id": 851970,
+    "separate_QA_third_party_transfer_calls": 1,
+    "third_party_owner": 1,
+    "third_actual_city_id": 589832,
+    "third_party_leader": "LEADER_ALEXANDER",
+    "not_natural_military_capture": true,
+    "software_boundary_checks": 4,
+    "finish_moves_calls": 0
+  },
+  "actual_result": {
+    "request_id": "city:0:114:2162700:62:131073:10:13",
+    "stage": "UNKNOWN",
+    "phase": "TRANSFERRING",
+    "reason": "transfer_unresolved",
+    "transferObserved": null,
+    "newCityID": null,
+    "chargeObserved": null,
+    "cost": 1100,
+    "gold": 4524.2734375,
+    "moves": 4,
+    "cooldown": null,
+    "conflict_guard": true
+  },
+  "recovery": {
+    "explicit_actual_Recover_keeps_unknown_no_debit_or_move": true,
+    "unknown_checkpoint": {
+      "name": "Baiqi_P6_20261105_V74_ThirdPartyUnknown114.Civ6Save",
+      "bytes": 568988,
+      "sha256": "f76e0f0d72e46f4223cfb2a63fc39716c5533e7378063300baea044e60e257ec"
+    },
+    "same_process_official_save_reload": true,
+    "fresh_record_and_owner_gold_moves_verified": true,
+    "fault_namespace_absent_after_reload": true,
+    "no_Request_reissue": true
+  },
+  "cleanup": {
+    "input_four_bindings_restored": true,
+    "fault_two_bindings_restored_before_save": true,
+    "normal_checkpoint_final_verification": {
+      "utc": "2026-11-04T19:02:27.370239+00:00",
+      "cities": 11,
+      "traders": 11,
+      "gold": 4524.2734375,
+      "faith": 397.94140625,
+      "income": 95.7109375,
+      "maintenance": 54,
+      "farm539": true,
+      "builder5832733_charges": 1,
+      "horse2162700_moves": 4,
+      "requisition_journal": null,
+      "input_and_fault_namespaces_empty": true,
+      "normal_save_sha256_unchanged": "2560bbc24b4ee3a27ea8a8301e24ca9952603f947d66524b80667276f868b6f6"
+    }
+  },
+  "scope": "PASS narrow controlled third-party ownership change before product transfer post-read, unknown freeze and same-process reload. Not physical map route PASS, real third-party combat, full phase matrix, later-turn or cold-process recovery.",
+  "owner_cost_seconds": null,
+  "net_savings": null
+}

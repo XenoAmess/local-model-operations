@@ -398,3 +398,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-05：Civ6394—395与首个Alpha
 
 0新增OpenCode原生生成，Nov5同机1.19.5成功缓存复用。两普通HTTP完整；394文案结构部分参考、395方向参考／0代码。owner1039软件及Alpha87核心文件、真实截图和远端附件读回另列，不当作OpenCode工具能力或净收益。[具名证据](evidence/2026-11-05-civ6-alpha394395.json)。
+
+
+### Civ6395后到：Alpha后第三方故障实机
+
+0新增OpenCode原生生成／0HTTP。owner游戏内受控第三方转城、未知冻结与同进程重载通过，故障软件4项及原正常档恢复分列；没有执行模型代码，不授OpenCode工具或模型净收益。[具名后见](evidence/2026-11-05-civ6-alpha-thirdparty74-later.json)。
