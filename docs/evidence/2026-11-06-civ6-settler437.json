@@ -1,0 +1,119 @@
+{
+  "schema": "local-model-operations.civ6-settler437/v1",
+  "utc": "2026-11-05T19:32:32.467355+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/a5162e4365a985e6f64259d043aa766b7e9db0ff/docs/research/baiqi-p6-settler436437-occupied-route-source77-evidence-2026-11-06.json",
+    "sha256": "cdde35aa52f9d4007d18fc18a4011653a48d535324c7e30021f35ee18b6cecc9"
+  },
+  "model": {
+    "models": {
+      "436": {
+        "shared_commit": "496a7445ce53b710789d3b60a0a0c791957daebc",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 19876,
+          "completion_tokens": 835,
+          "total_tokens": 20711
+        },
+        "total_ms": 8158.186899963766,
+        "ttft_ms": 3367.754199949559,
+        "unreviewed_native_execution": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "daily_maintenance": "Canonical CLI reuses successful Nov6OpenCode1.19.5 first-check429 cache.0new OpenCode native generation.",
+        "review": {
+          "raw_application": 0,
+          "rejected": "Only defines local Diagnose without invoking; inaccessible lexical PlayerContext/UnitPlot/Safe/visibility, omits path/distance evidence. Owner public-port bounded partial reader followed by two-path visible-threat and occupancy reader;0gamecommands."
+        }
+      },
+      "437": {
+        "shared_commit": "496a7445ce53b710789d3b60a0a0c791957daebc",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 52164,
+          "completion_tokens": 696,
+          "total_tokens": 52860
+        },
+        "total_ms": 11189.428100013174,
+        "ttft_ms": 6766.833800007589,
+        "unreviewed_native_execution": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "daily_maintenance": "Canonical CLI reuses successful Nov6OpenCode1.19.5 first-check429 cache.0new OpenCode native generation.",
+        "review": {
+          "utc": "2026-11-05T19:22:06.817468+00:00",
+          "adopted": "One reviewed PathStep condition expands existing first-step civilian slot gate from builder to builder-or-settler. Owner line-wrap only.",
+          "raw_test_syntax_error": "invalid syntax (<unknown>, line 15)",
+          "raw_test_semantic_rejections": [
+            "withCityfalse would found current plot instead of testing another destination",
+            "Python lists and invalid Python/Lua mixture do not implement native fixture ports",
+            "Expected FOUND_CITY with remote target contradicts one adjacent MOVE_TO behavior"
+          ],
+          "raw_test_application": 0,
+          "raw_native_execution": 0,
+          "owner_six_regressions_before_fix": {
+            "tests": 6,
+            "failures": 2,
+            "failures_scope": "First blocked site incorrectly waits, all-blocked case never reaches second candidate."
+          },
+          "owner_six_after_fix": {
+            "tests": 6,
+            "failures": 0,
+            "seconds": 0.081
+          },
+          "existing_path_safety_after_fix": {
+            "tests": 10,
+            "failures": 0,
+            "seconds": 0.119
+          }
+        }
+      }
+    },
+    "unreviewed_native_execution": 0,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical": 437,
+    "complete_stop_valid": 406,
+    "length_discarded": 28,
+    "final_transport_failed": 3,
+    "http_attempts": 467,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "failure76": "Normal produced actor7274546 waits127although first eligible site776has fully safe path and nativeMOVEtrue, but firststep718blocked by ownbuilder6291501. Independent846has fully safe5nodepath/freefirststep760/nativeMOVEtrue. No manual unit rescue, official failure127save verified.",
+    "fix77": "One reviewed PathStep firststep CivilianMoveTarget guard expanded from builder to builder-or-settler; existing tested/more continuation now rejects blocked first site during planning, fresh dispatch gates unchanged.",
+    "software": "Owner6actual scheduler regressions, old76twoFAIL/77sixpass; prior10path tests pass, full1064pass141.997s/outer147.492s. Raw modeltest syntax and semantic errors rejected.",
+    "cutoff": "Source77software only, installed76and new cold retest pending. Owned76formal exit leaves windowless/listenerless/CPU0residue252s at evidencecutoff; no cleanexit granted. Later cleanup/coldinstall facts separate."
+  },
+  "generic_lessons": [
+    "A native path can exist and CanStartOperation be true while an application civilian-slot rule rejects dispatch. Diagnose both layers.",
+    "Early candidate rejection must feed the existing alternative-search continuation; rejecting too late can incorrectly terminate search despite a safe option.",
+    "Preserve fresh write-boundary checks after adding early filtering; a correct planning snapshot does not authorize later movement.",
+    "Private lexical helpers cannot be called by an external Lua snippet; a snippet that only defines an uncalled function has produced no diagnostic evidence.",
+    "A plausible one-condition model patch can accompany a syntactically invalid test with wrong-world setup and remote-found assumptions; review code and tests separately.",
+    "Software pass does not close actual Native failure before cold installed same-save verification; observed process residue cannot be called clean exit."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Actual Source76route failure plus reviewed Source77software fix only. Installation/runtime77, same-save new actor auto founding/consumption/reload and fullTC015/40pending. Alpha74unchanged, Steamoffline; no clean-exit pass. Later owned cleanup not retroactive acceptance."
+}

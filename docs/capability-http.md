@@ -3754,3 +3754,10 @@ fixed3/DIRECT/max4000/thinkingfalse，19:17:07.327144→19:17:16.655570Z真实1P
 随后95正式全读源审：v3/binding/episode/progress成员方向同意，但未闭合fieldset、counter仅integral而缺0..256及<=captured、original_refs缺<=1026限；完整patch/方法/partial/literal/rawJVM/R2全0，源审合同/bounds拒收非实际compiler红。owner第三叶在完整raw审前已独立实现/型验，报告14CF0和另两叶11CF另层；实际三源GET由Runtime独立，不据此授旧8/clean/P052，原交付pending切点保。
 
 94后到owner正式回执只读RESULT/SUMMARY元数据，1184B/5984cb8e，确认length全文/SSE从未开/hash、无parse/extract/拼接、whole/method/partial/literal/rawJVM/R2全0。独立owner Worker02/真实M6v3/第三callback新源及型验另层，不回授半稿；旧94budget cut不改。只读515COMPLETED/515RELEASED、101READY非并发、source0，Nov06成功1.19.5缓存复用、0额外维护probe/本岗JVM/Game/GET/JFR/活跃参数改；无真实新源不造96。
+
+
+## 2026-11-06：Civ6settler437
+
+436／437canonical普通HTTP完整stop/DONE/VALID，Nov6成功OpenCode1.19.5维护缓存，0新原生生成。436引用不可见locals/只定义不调用拒用，owner实际只读定位同一新移民首路被ownbuilder堵而安全空闲替代漏试。437条件经审阅采用，原测试PythonLua混杂和错误FOUND语义0采用；owner6回归旧76有2FAIL、77全过，全1064软件141.997s通过。此业务pin仅源码77，coldNative未授验；累计截至437为437逻辑/406完整/28length/3finaltransport，HTTP467/extra30，未知缓存和人工节时null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settler437.json)。
