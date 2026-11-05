@@ -1,0 +1,181 @@
+{
+  "schema": "local-model-operations.event-history-family-materialization-order-candidate/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-event-history-family-materialization-order-20261105-01",
+  "new_real_P039_lazy_family_order_not_prior_R2": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_actual_sources": 5,
+  "input_bytes": 252883,
+  "manifest_pin": {
+    "bytes": 2601,
+    "sha256": "e14d5efecc869e3ba352d4acde19f3b798d98d15a4486f09491c6a2d455a869a"
+  },
+  "contract_pin": {
+    "bytes": 2537,
+    "sha256": "28752a3613a3d6ce391a5e1b2fdfba3f4b2f861895d66f95901ab8b8cf0d5f4d"
+  },
+  "actual_prefix": {
+    "REQUEST_pin": {
+      "bytes": 260890,
+      "sha256": "7173bcdac722bf1b73bde3f77b63b9c3f4a5115ad197919acc5a48d2bc8cc0f7"
+    },
+    "source_message_pin": {
+      "bytes": 253525,
+      "sha256": "df616ad5bf352d18167e52c6f93c04c685a3b07bf309b89675cc1806022af859"
+    },
+    "complete_input_files": [
+      {
+        "role": "target_actual_history_factory",
+        "bytes": 68876,
+        "sha256": "e45f2b8b720e94632e49f8da2d93f46935956897f4e33e005b396987fa01fce2",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_lazy_family_API",
+        "bytes": 68706,
+        "sha256": "a4177fd677296bf548ddb862adea722df74e8ebe3a76fb4b872721abb576ebe9",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_registered_event_family",
+        "bytes": 75334,
+        "sha256": "ea82ab7567aaaa5d1bff779cf23f8a3e39c76138f4156f83981d3f8fa24c5e21",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_strict_event_option_parser",
+        "bytes": 17997,
+        "sha256": "94902b87a42aac08bda7e756fca4b4d8c9c93b5fdd5a4b036bb14072e901bacf",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_EVENT_schema",
+        "bytes": 21970,
+        "sha256": "9260e53eeb2468b52bd28289b433c04e25d035cdc1e74762d05b5a63cf7d6b11",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ],
+    "all5_full_text_in_actual_REQUEST": true
+  },
+  "requested_target_only": "RootActionHistoryMaterialSourceFactory.captureActual before original replay peek",
+  "owner_exact_prePOST_diagnosis_contract": "Existing actualArchivedVerifier peek precedes existing actualActionBinding lazy typedfamily issue. Only expectedEVENT_SCHEMA plus exact select-event-option-[1-9][0-9]{0,8} grammar materializes existing catalog.bindings().actualActionBinding(op) first; originalpeek/lateractionlookup remain. Sources already includes installed family implementation/decoder/verifier beforeissue; materialization itself grants no Native or source authority.",
+  "preserved": "All nonEVENT ordering/defaultMissing, actual installer/parser/factory/context/effects/replay/sourceinventory/Root ownerGame/source/session/domain archivedproducer/result/XOR/freshFrameLoader and original command/body/ACK/deadline/cycle/SAVE remain; no newdecl/helper/import/test/mirrorfixture or broad swapping of generic lines.",
+  "owner_supplied_scene_not_HTTP": "Original527SETTLED/APPLIED, recovery38passedBatch and reachedPublisher/captureActual UNINSTALLED_OPERATION before effectsidecar; no controlreplay or actualhistory success from this candidate.",
+  "owner_strong_guidance_not_model_autonomous_discovery": true,
+  "POST_BEGIN_UTC": "2026-11-05T07:46:28.178782+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T07:46:38.314632+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "actual_parameters": {
+    "model": "qwen38-coder",
+    "max_tokens": 2400,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "JSON_syntax": "VALID",
+  "headers_ms": 6580.578699999023,
+  "effective_content_TTFT_ms": 6581.970100000035,
+  "total_ms": 10136.055000009947,
+  "usage": {
+    "prompt_tokens": 51029,
+    "completion_tokens": 589,
+    "total_tokens": 51618
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 260890,
+    "sha256": "7173bcdac722bf1b73bde3f77b63b9c3f4a5115ad197919acc5a48d2bc8cc0f7"
+  },
+  "RESULT_pin": {
+    "bytes": 1303,
+    "sha256": "1b6a91a3d3e2db4b8342bab2622656e1595a50d0eb8a502cfaedd5e64ac239d7"
+  },
+  "EVENTS_pin": {
+    "bytes": 2900,
+    "sha256": "c6ba0f9bdbdffe26554c5e4e69400d67f928769df8f01c5bf05887931663553f"
+  },
+  "CONTENT_pin": {
+    "bytes": 2336,
+    "sha256": "fa82a987b7a250fe6b44faef1d821a189347d7b50cc21b634d1f627df82c69ae"
+  },
+  "audit": {
+    "errors": 0,
+    "discrepancies": 0,
+    "CONTENT_equals_SSE_UTF8": true,
+    "pin": {
+      "bytes": 4464,
+      "sha256": "a95278c79e33664a909ad5048071d62ea14b59b0ce6bd66394042df598260d2c"
+    }
+  },
+  "complete_raw_delivered_before_audit_Git": true,
+  "source_semantic_adoption": "PENDING_AT_DELIVERY_CUT",
+  "candidate_JVM": 0,
+  "R2": 0,
+  "no_actual_type_Root_historypublish_settlement_LOOP_SAVE_G2_performance_credit": true,
+  "output_budget": "New small guardedlookup max2400 stop589; this only proves transport completion, not correctness or sufficient budget for other units. Prior61/62length12k and62ownerinputAPIgap remain independent.",
+  "PREP_events": [
+    {
+      "at_utc": "2026-11-05T07:45:41.8647252+00:00",
+      "task_id": "ordinary-event-history-family-materialization-order-20261105-01",
+      "Models_JVM_C_GET_Game": 0,
+      "POST": 0,
+      "event": "PREP_BEGIN"
+    },
+    {
+      "event": "PREP_END",
+      "at_utc": "2026-11-05T07:46:25.246070+00:00",
+      "task_id": "ordinary-event-history-family-materialization-order-20261105-01",
+      "all5fullinputs_and_contractpins_verified": true,
+      "POST": 0,
+      "Models_JVM_C_GET_Game": 0
+    }
+  ],
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 483
+    },
+    "leases.db": {
+      "RELEASED": 483
+    }
+  },
+  "READY_records_not_concurrency": 69,
+  "source_HTTP_inflight_after_END": 0,
+  "finite_wrapper_returned_normally": true,
+  "caller_exit": 0,
+  "Models_JVM_SDK_C_UI_GET_Game": 0,
+  "no_active_caller_config_service_Runtime_parameter_changes": true,
+  "other_project_remote_doc_append_clean_FF_preserved": "3b5cd1b Civ6 recovery408, capability-opencode/evidence untouched, caller/config unchanged",
+  "owner_active_time_and_net_savings": null,
+  "service_global_load": "NOT_HELD"
+}

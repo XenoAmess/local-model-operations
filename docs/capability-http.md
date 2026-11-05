@@ -3261,3 +3261,12 @@ fixed3/DIRECT/max12000/thinkingfalse，07:15:08.918290→07:16:33.323046Z真实1
 普通HTTP1POST200／stop／DONE／VALID，16459+1631tokens、13.1253591秒、TTFT2.2971819秒、峰1、0重试、cached=null。50行Lua编译，但手写Conflict排除当前记录，真实源见证错报falsefalse；另声称完整ID比较却未比较。负责人部分参考字段结构与Recover分析，0原稿游戏执行；改用Core真实Conflict、完整ID拒绝、UI不可用显式unknown，7项隔离诊断检查，不是产品测试。
 
 实际11军队SKIP／6DoEndTurn后一次无REASON正常END，独立active115；UNKNOWN／CHARGING原turn114保持、军队新回合4行动，跨回合及2Recover转城／Finish计数0。金币净+41.7109375不当直接扣款计数。首轮owner在UI调用不存在模块只读失败单列，后续新标签资格；没有游戏操作重放。最后次建造者unit_unavailable另交409核地块，不直接授成功／卡死。[精确业务pin、原件及范围](evidence/2026-11-05-civ6-recovery408.json)。
+
+
+## 2026-11-05：EVENT history typed-family materialization 顺序新候选
+
+[新task63](evidence/2026-11-05-http-event-history-family-materialization-candidate.json)使用完整5actual源码252883B与2537B合同，实际REQUEST全文核验。只HistoryFactory.captureActual原replay peek前，对expectedEVENT_SCHEMA且原严格select-event-option-[1-9][0-9]{0,8} grammar预调用既有actualActionBinding(op) materialize typedfamily；原peek/后续actionlookup、所有非EVENT顺序/defaultMissing、sourceinventory/实际factory/parser/context/replay/Root权限与37freshFrameLoader原字节须保，不新family/type/helper/test或宽交换泛型lookup顺序。原527已APPLIED且38在Publisher遇未materialize是owner已诊断上下文，不称模型自主发现。
+
+fixed3/DIRECT/max2400/thinkingfalse，07:46:28.178782→07:46:38.314632Z真实1POST1stop，10.136055秒/有效TTFT6.5819701秒、51029+589tokens/cachednull。完整rawfa82先交Java，后CONTENT=SSE/审计0差异；交付cut源码采用pending、0candidateJVM/noR2，HTTP完整不授顺序修正/类型或实际history发布/Root/结算/LOOP/SAVE/G2/性能资格。483终态/483释放/69READY累计登记、源码在途0，finite63正常closed/caller0，0JVM/C/UI/GET/Game/活跃参数变更，完整主动成本与净收益未知。
+
+新小guardedlookup2400产完整589与前61/62复杂12k截断分案例保，不能从stop泛推语义通过/容量，62后到owner合同API归属错误仍独立分账。共享干净FF保留远端Civ6408附页3b5cd1b及其opencode/evidence，无caller/config修改，不以Git挡owner候选承接。
