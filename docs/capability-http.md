@@ -2973,3 +2973,10 @@ owner独立执行1300付费转城、奇观／5作品及校园缺失读回，不�
 [owner对491946ba完整源审](evidence/2026-11-05-http-registry-integration-source-review-later.json)补原pending切点：0完整新增方法/0modelJVM、partial未声明仍NOT_HELD，owner接管、不R2。原稿把CoreProducer当OrdinaryPolicy放map、把非函数式Policy写lambda、List.of(values)产生Collection列表，Optional expectation返回裸对象、未绑定Replace即调draft；正例没有真实assemble Core，domain/stage/unchanged/既有command义务缺，回显旧20k代码不算新贡献。以上是源审，不冒实际javac/Test红，原52.8338秒/TTFT12.315秒及完整raw保。
 
 另单列owner输入合同错：TASK把成功外部capture回调写成1，实际既有fallback只在command.args保完整capture，incidentCapture为0。owner按retainedWindow+0callback修新Test，生产不改；这项不能归模型违约，也不回写原TASK/REQUEST或触发重POST。后继owner源码/软件/正式/实际恢复另记；本附页0新HTTP/JVM/Runtime/Game，旧源码切点保，完整主动成本与净收益未知。
+
+
+## 2026-11-05：RegistryIntegration owner 替代源码封包
+
+[正式review1e753976与SourceReady f7b32d3a](evidence/2026-11-05-http-registry-integration-owner-source-later.json)保原4919完整方法0采用/0modelJVM/noR2，partial仍未声明；owner新Test36578B/02122408只加三方法/三小helper，删16486B对应块后逐字还原旧20092B，旧fixture/context/资源不算模型新贡献。成功路径retainedWindow+incident0、disabled首次display仍incident1，已由owner正式纠正原TASK错误，原REQUEST不改、生产不为测试改动。
+
+该source-only切点尚未编/RUN，Native仅计划必要8267helper首次1TU+changedTest1TU→三selectors；已持精确classpath未找到匹配helper不等于全球不存在，也不记重编旧绿。D gzip216013/446b及两份原Python源码pin已核，未解压成前缀、未执行；C匹配资源由Native独记，Models不新查C。真实Core/Registry/Codec/EventPolicies链仍须实际软件资格，不授私Root、真实事件/装载/SAVE/G2/提速。本附页0新HTTP/JVM/UI/Runtime/Game，原切点保，完整owner主动成本与净收益未知。
