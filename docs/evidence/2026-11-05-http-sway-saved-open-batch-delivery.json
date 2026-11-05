@@ -1,0 +1,197 @@
+{
+  "schema": "local-model-operations.http-sway-saved-open-batch-delivery/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T14:11:36.308691+00:00",
+  "task_id": "ordinary-sway-saved-open-batch-recovery-context-20261105-01",
+  "project": "CK3",
+  "input": {
+    "manifest_pin": {
+      "bytes": 4524,
+      "sha256": "28248046e7ab4f19e460c960d14fff59011e014cfbbbd0486ea89ad040b50796"
+    },
+    "contract_pin": {
+      "bytes": 2882,
+      "sha256": "0475b76b816083aa70bfe096b6a31c97c231ac5b8b4be39e263a1f1162182c18"
+    },
+    "full_files": 11,
+    "full_bytes": 848716,
+    "actual_Java": 8,
+    "whole_private_actual_JSON": 3,
+    "all11_full_text_in_actual_REQUEST": true,
+    "REQUEST_pin": {
+      "bytes": 891932,
+      "sha256": "8ecb712a67a78a71e4c9f25670e308cc0dea1b56796c65dd2bc8b69d36a96b13"
+    },
+    "source_message_pin": {
+      "bytes": 851568,
+      "sha256": "9f64b7141392379ef283a15cc1a0c324f6e961d7dfdc95d1ec2c7248f8d30181"
+    },
+    "ordered_file_roles_and_pins": [
+      {
+        "role": "target_actual_Transitions",
+        "bytes": 209902,
+        "sha256": "c624fe719605eb43d1a0ea4b630c0f5c29d12b17164c17dd69662610f83fc532",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_Batch_privateSavedRole",
+        "bytes": 365561,
+        "sha256": "9b5e0e08f8f955b800c9b2d497281ee87147c44c9a57ccb86ac4105b2f18cdf0",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_Sway_NoGameplay_DATA_contract",
+        "bytes": 9241,
+        "sha256": "8b35a7c42beee9766bede8f484268c65b8fd12567f84db78287bb9b34eb9de87",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_ActionState",
+        "bytes": 13788,
+        "sha256": "5d047957db87d214eb3a81af6f94b6f01d952519028b5b7b5f0951e5bc1e935a",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_ActionCodec",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_ActionJournal",
+        "bytes": 24223,
+        "sha256": "5bb79f5481b064fea11c636a11e6a61e045ca008c9211d2a50e5cf98dcca2040",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_WriterContract",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_CurrentState",
+        "bytes": 7614,
+        "sha256": "a506aec4e6ea48d199bce0c7037e1d32b1864b14f2af82c7807e243ff3f8d6a7",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_HEAD566",
+        "bytes": 89467,
+        "sha256": "09a33d085e5398addf588977791790a8215e74fab8ecb5ff01e68f07d03001f4",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_NoGame566",
+        "bytes": 7283,
+        "sha256": "b7fc5b91c36d6eb52af7c6819b91a590abf963a776968c92125bef1c54def690",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_B14_START558",
+        "bytes": 90127,
+        "sha256": "d6bbc65d8dbf8fd29ffbc925e80ed9fc2b4ba9c5d8ea574c1cadd37c425bc522",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ]
+  },
+  "owner_precise_contract": {
+    "target": "Only actual OrdinaryCycleTransitions; add strict private Saved+open context branch at existing isOpenReadOnlyBatch dispatch. Old withoutsavedcontext branch489-500 and reducer503-544 wholebyte preserved.",
+    "new_anchor": "Existing real private SavedSettledContext producer/current DATA exactseq+digest/fullcanonical/confirmedSave refs, sameSession+role.requireCurrent. ActualBATCH_STARTED source/owner/evidence/controller proof; START is not a settled anchor. Never stale retained ThreadLocal/HistoricalTransition/old action set.",
+    "strongproof": "Latest complete sourceowned installed SwayNoGameplay with actual command/body/execution/observation/historicalmembership/currentActor/source/Game/session and same exact canonical action set, allsettled+solelatest==current head. Preserve generic frontier/cycle/saved/native/wholehistory/mandatory recordedNoGameplay/reducer proof.",
+    "no_credit": "Administrative samegame readonly recovery only; preserve closedcycle/pendingnull/fullSaved bytes. No fakecycle/repair/issuer/type/Root/privatefixture/Testmirror, rewrite originals/execute/query/stage/deadline refresh."
+  },
+  "guidance": "Owner diagnosed missing context combination in actual guard beforePOST and specified exact privateproducer/currentanchor/source/canonical checks. New82 not81R2; no autonomous model discovery claim.",
+  "POST_BEGIN_UTC": "2026-11-05T14:09:24.063373+00:00",
+  "END_UTC": "2026-11-05T14:10:03.009984+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 8000,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "candidate_complete": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 29219.286400009878,
+  "effective_content_TTFT_ms": 29220.491599990055,
+  "total_ms": 38946.5681000147,
+  "reported_usage": {
+    "prompt_tokens": 226831,
+    "completion_tokens": 1737,
+    "total_tokens": 228568
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1275,
+    "sha256": "30f30c94770046dd795b6d5f852062a5dc9c70f40fa200288f7ab87a37db68fe"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 8148,
+    "sha256": "29cb752445a8af8be912ad69a27428e085909859ee22fbfbcbb6a41313ff0800"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_before_audit_Git": true,
+  "source_adoption_at_delivery_cut": {
+    "status": "PENDING_OWNER_REVIEW",
+    "complete_methods_spans_literal_partial": "PENDING",
+    "raw_JVM_compile_or_RUN": 0,
+    "R2": 0
+  },
+  "operations": {
+    "readonly_queue_at_document_cut": {
+      "dispatch.db": {
+        "COMPLETED": 502
+      },
+      "leases.db": {
+        "RELEASED": 502
+      }
+    },
+    "READY_records_not_concurrency": 88,
+    "source_HTTP_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "daily_OpenCode": "2026-11-05 successful1.19.5cache reused",
+    "global_service_load": "NOT_HELD",
+    "Models_JVM_SDK_C_GET_Game": 0,
+    "active_caller_config_service_Runtime_changed": false,
+    "net_owner_active_time_savings": null
+  },
+  "limits": [
+    "Stop/validJSON/UTF8/fullprefix do not prove private capability, guard preservation, source/type/behavior/actual recovery.",
+    "No old START settled anchor, fakeHistoricalTransition, privateRoot/Native/Writer/currentRole authority, Runtime/LOOP/SAVE/G2/performance credit.",
+    "No input/output token/bytes timing inference to cache/context/capacity/permanent capability boundary; cachednull/peerUNKNOWN preserved.",
+    "All older length CONTENT/rawSSE stay wholeunread/unparsed/unextracted/unhashed0adopt/noR2."
+  ]
+}
