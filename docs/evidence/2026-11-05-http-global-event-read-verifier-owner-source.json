@@ -1,0 +1,80 @@
+{
+  "schema": "local-model-operations.global-event-read-verifier-owner-source/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-global-event-read-verifier-wiring-20261105-01",
+  "additive_after_pending_delivery_cut": true,
+  "MODEL_REVIEW_pin": {
+    "bytes": 611,
+    "sha256": "66824957d0bb344b07c61245677dedd2eb2510518521ba0aa7e04fe2836ed593"
+  },
+  "SOURCE_READY_pin": {
+    "bytes": 2876,
+    "sha256": "9a3b00cbed94a94f7f0ac25af755d718df3d48a9c24d74ecb215f951f52ab193"
+  },
+  "OWNER_SPANS_pin": {
+    "bytes": 2595,
+    "sha256": "e09c8c7d58b9e54321d8086f82e20d7080be8ed4d6041ff7bef3c9c27f0f6014"
+  },
+  "raw_pin": {
+    "bytes": 2959,
+    "sha256": "78de8d15ff046abba9547e0708b7d8d0041a2436452fe0f70199383870d0ed34"
+  },
+  "raw_noop_independently_checked": {
+    "actual_removed_lines": 2,
+    "actual_added_lines": 2,
+    "removed_exactly_equal_added": true,
+    "verifier_frame_args_changed": 0
+  },
+  "raw_wholepatch_code_partial_adopted": 0,
+  "model_compiler_or_JVM": 0,
+  "R2": 0,
+  "source_failure_not_actual_compile_RED": true,
+  "owner_two_expression_source_implementation": [
+    {
+      "relative": "local-service/src/main/java/org/xar/ck3/control/service/root/RootRuntimeDispatcherFactory.java",
+      "before_pin": {
+        "bytes": 17562,
+        "sha256": "897efafc93e6f4c655aa0e5037fd10d02588131cd68fc3b1285d6de3bfb9e6ea"
+      },
+      "candidate_pin": {
+        "bytes": 17613,
+        "sha256": "1fa2e8dcc216197b27748e146ae70ab4372c1cfe5c8c85b3f7264aca93697ff0"
+      },
+      "one_existing_argument_change": true,
+      "whole_outside_inverse_raw_exact": true
+    },
+    {
+      "relative": "local-service/src/main/java/org/xar/ck3/control/service/root/RootApplicationAssembly.java",
+      "before_pin": {
+        "bytes": 248273,
+        "sha256": "c3ddf03cd185e5ef866d98d693e1ac8f5229fca6e1d1f87cf69d68a24c5aa15b"
+      },
+      "candidate_pin": {
+        "bytes": 248324,
+        "sha256": "dd56e858d7e6a627a732c645192dff3ec3ce4814da5273899aa5edc6374715dd"
+      },
+      "one_existing_argument_change": true,
+      "whole_outside_inverse_raw_exact": true
+    }
+  ],
+  "owner_source": "100percent owner two actual argument changes to verified freshFrameLoader; no model implementation contribution",
+  "preserved": "Every other callback/argument/guard/defaultthrow/source/objectownership is byteexact via full inverse; no new import/method/field/type/API.",
+  "independent_p0_source_review": "Java reports accepted6414/8c0ab353; exact standalone path/pin not independently held here.",
+  "software_at_this_immutable_owner_sourcecut": "NOT_RUN",
+  "later_Native2TU_or_actual_Runtime": "Separate actual receipts required, do not infer Rootappend/settlement or fixed originalIO from this source.",
+  "transport_cost": {
+    "seconds": 13.8618558,
+    "TTFT_seconds": 9.8503148,
+    "prompt_completion": [
+      75840,
+      710
+    ],
+    "max_tokens": 1800,
+    "finish": "stop"
+  },
+  "shared_sync_cost": "Initial normal push rejected because remote Civ6 append already advanced; own unpublished commit rebased, same-file append conflict resolved retaining both complete sections, noforce. This is Models Git overhead, not model source failure.",
+  "owner_active_time_and_net_savings": null,
+  "new_HTTP_JVM_C_UI_GET_Game": 0,
+  "old_length_CONTENT_rawSSE_unread_unhashed": true
+}
