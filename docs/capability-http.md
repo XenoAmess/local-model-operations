@@ -3003,3 +3003,10 @@ max5000、固定三消息/DIRECT，1POST1END、HTTP200/stop/DONE/有效JSON，12
 [正式 review4062、独验6ce9与 Native1981](evidence/2026-11-05-http-event-material-owner-software-later.json)补录后到资格：模型生产仅 material 接线语义 partial，Registry 新 block 与 available02 均 owner 完成；Hosted 模型新增完整方法和 partial代码均0，原33.4788秒/TTFT6.9539秒成本保，不把 concept/scaffold 或 owner3P 回授 raw。owner 新 Test20043B/6d639，必要1TU4class首0/4.7859127秒，exact3P/JVM4.4226491秒/XML2.478，10fault与3DATA逐核、stderr0/close0/fence/released；旧 Registry/Planner/Support/生产不重跑。原两 TU13class首0/6.5149458秒，02仅 Policies1TU7class0/4.7372031秒，Registry原 family复用；实际13class pin及两软件 phase 原件独立核验，正常 loader shape 边界保。
 
 业务正式35df仅两 production owned spans，formal7cfb/e09a保自身outside，与实际编译 f703/431a不是同份whole源码。Hosted源码与actual witness仍只在D，不入公共Git/通用Maven；测试是公开消费者对冻结DATA的软件回放，非private Core.collect/issuer/实际READ或动作验收。28 START/BOOT仅导航，不授LOOP/action/SAVE/G2/提速。两个 Native准备期零JVM断言/路径比较修正成本另保；本附页0新HTTP/JVM/Game，旧切点不回写，完整owner主动成本/净节省未知。
+
+
+## 2026-11-05：Incident 表示一致性新单元 length 整弃
+
+[新的 Journal-only 首派](evidence/2026-11-05-http-incident-command-codec-length.json)使用 canonical owner 完整6Java153642B+4privateDATA37396B/6159B合同，实际 REQUEST 逐文件核全文；未来capture/lookup复用既有 ActionCodec 表示，精确保raw/direct legacy与selected原index/receipt闭包，两路径冲突或不匹配严格拒，不扫描actionId/省SHA/改算法，也不据此授旧521恢复。后到receipt caller提示由owner审，不改已冻结请求或等额外leaf。
+
+固定三消息/DIRECT/max6500/thinkingfalse，1POST1END，HTTP200/DONE但length，43.5117672秒/有效TTFT6.1381764秒、47076+6500tokens/cachednull；CONTENT/rawSSE未开、未解析、未提取、未哈希，整候选弃置0代码采用，不跑body auditor/不拼接/不R2。owner立即接管；JSON与语义质量未知，不能把截断归成编测红或永久能力上限。finite45正常收尾、caller1/pairedEND，465终态/465租约释放/0源码在途；原PREP前置阶段与依赖暂停记录保，全owner成本和净收益仍未知。0JVM/C/UI/GET/Game/活跃参数变更，actual DATA不公开。
