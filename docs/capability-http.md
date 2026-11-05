@@ -3334,3 +3334,10 @@ fixed3/DIRECT/max10000/thinkingfalse，08:12:44.976874→08:14:09.718508Z真实1
 原 producer65 的10000 length正文与SSE继续整份未读未hash、0采用，不回改旧切点。owner独立实现的生产1TU首编0/20class/12.3841786秒；20名称一致、19结构相等，Batch新增2个实际方法并有synthetic方法键变化，不能报全shape相等或可热重定义。owner新增 Test 的1方法+2helpers独立首编0/3class/5.4442541秒，新1P/11直接拒绝，JUnit进程8.7659287秒、XML6.371秒；旧2方法及生产/Support未重跑重编，所有phase close0/fence/释放。原旧15736B类外部逆还原精确。
 
 软件结果只属于 owner 的静态 DATA 前置校验：UNISSUED Pin不授Win32/Writer/Root权限，真实reducer/full-history/运行恢复仍由Runtime另证。12k的这次完整输出与此前12k截断并列，不能推出预算改善因果或永久能力上限。只读队列486COMPLETED/486RELEASED，72READY不是并发；当前源码在途0。未新增模型调用、JVM或Game动作。完整脱敏成本、采用分层和原件pin见[证据](evidence/2026-11-05-http-event-cycle-data-rejected-owner-software.json)。
+
+
+## 2026-11-05：Sway 借用会话接线的真实单表达式候选
+
+新的未完成任务完整提供5份当前Java源码229506B及2486B合同，只请求把真实borrowedSession传入已有三参observe。fixed3/DIRECT/max3000/thinkingfalse，08:53:14.529432→08:53:23.307071Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，8.7777026秒、有效内容TTFT6.0936855秒、reported46520+456、cached=null。完整UTF8字节审计errors/差异均空，原件已在审计与Git前交owner。
+
+模型表达式与owner于08:52:24预先独立物化的单表达式候选一致，后者整源outside逆还原精确；本切点仅交付和匹配事实，formal源审采用待证，未运行raw或编测。不把owner先诊断的精确合同称模型自主发现，也不由stop直接授代码采用。原537 UNKNOWN、不可变期限、原件及只接受实际SchedulerSaved的观察规则不改，未来接线修正不授权重跑537。只读487COMPLETED/487RELEASED，73READY不是并发，源码在途0；无新JVM/Game、服务探测或活跃参数变化。[脱敏证据与采用待证切点](evidence/2026-11-05-http-sway-borrowed-observation-delivery.json)。

@@ -1,0 +1,170 @@
+{
+  "schema": "local-model-operations.http-sway-borrowed-session-delivery/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T08:55:23.315339+00:00",
+  "task_id": "ordinary-sway-borrowed-observation-session-20261105-01",
+  "project": "CK3",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "input": {
+    "complete_current_Java_files": 5,
+    "full_bytes": 229506,
+    "manifest_pin": {
+      "bytes": 2816,
+      "sha256": "7787dc61b8cf903f8a80af9555aecb792b130155671cde975c09523e05092ceb"
+    },
+    "task_pin": {
+      "bytes": 2486,
+      "sha256": "20874153d5ba8b773e55089aa8adaf458ed8e6b5129dc9e1be40475b635e92c4"
+    },
+    "actual_REQUEST_pin": {
+      "bytes": 236519,
+      "sha256": "f6ee567ebc63871f0c5cf086ac603b07b3e0f12a63f8ecb569e7c518dc43d132"
+    },
+    "source_message_pin": {
+      "bytes": 229686,
+      "sha256": "06d9745f6bcdc9fc1b4e63969fa5223d42aeca4e184cce2571085a32779c0994"
+    },
+    "all5_full_in_actual_REQUEST": true,
+    "files": [
+      {
+        "role": "target_actual_installer",
+        "bytes": 43300,
+        "sha256": "ddee6ddfce756df040cf3c049d6c6c53fa2e3a1ec51d732c5fb1b883f82a0459",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_context",
+        "bytes": 29240,
+        "sha256": "a274ce6ddcaee756e033aecc545ddfb167ad7ee33135ea5f58e3a0c5f2a54dd2",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_collector",
+        "bytes": 119955,
+        "sha256": "5d34ff02c9694bb0e34d3f07eb4bad9054bdbf7bf61deb5e34b82c82e7a872a3",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_executor",
+        "bytes": 31848,
+        "sha256": "98e3f23c54bb61588123a89f93abb00829a4647df2104162da526bffd9124e50",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_composite",
+        "bytes": 5163,
+        "sha256": "e37af905dae5b8b1fadd54f792e1625a484e5a36646f38e6a15e1b3e6de0db81",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ],
+    "owner_exact_prePOST_contract_strong_guidance": true,
+    "requested_scope": "one existing captureFresh observe expression: pass actual context.borrowedSession() to existing three-argument overload. No new lock, helper, field, method, type, API or test."
+  },
+  "transport": {
+    "POST_BEGIN_UTC": "2026-11-05T08:53:14.529432+00:00",
+    "END_UTC": "2026-11-05T08:53:23.307071+00:00",
+    "POST": 1,
+    "paired_END": 1,
+    "retry": 0,
+    "HTTP_status": 200,
+    "finish_reason": "stop",
+    "DONE": true,
+    "candidate_complete": true,
+    "headers_ms": 6092.418100044597,
+    "effective_content_TTFT_ms": 6093.685500032734,
+    "total_ms": 8777.7025999967,
+    "reported_usage": {
+      "prompt_tokens": 46520,
+      "completion_tokens": 456,
+      "total_tokens": 46976
+    },
+    "cached_tokens": null,
+    "actual_peer": "UNKNOWN",
+    "parameters": {
+      "model": "qwen38-coder",
+      "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+      "temperature": 0,
+      "max_tokens": 3000,
+      "stream": true,
+      "include_usage": true,
+      "thinking": false,
+      "response_format_type": "json_object"
+    },
+    "RESULT_pin": {
+      "bytes": 1291,
+      "sha256": "875c8c2f8e75b33c611b525ae1df97c311dfd8b24c83d9308efc076b48ed6fa9"
+    },
+    "complete_CONTENT_pin": {
+      "bytes": 2237,
+      "sha256": "bfee53dd54287a574f0ee42384b7c7575d018571293c7348a2a498a8758061c4"
+    },
+    "audit_errors": [],
+    "audit_discrepancies": [],
+    "CONTENT_equals_SSE_UTF8": true,
+    "raw_delivered_before_audit_Git": true
+  },
+  "source_delivery_cut": {
+    "one_expression_matches_owner_candidate": true,
+    "whole_raw_patch_applied": false,
+    "raw_JVM": 0,
+    "model_literal_code_adoption": "PENDING_FORMAL_OWNER_REVIEW",
+    "R2": 0,
+    "owner_ready_at_utc": "2026-11-05T08:52:24.504022+00:00",
+    "owner_ready_precedes_POST": true,
+    "owner_ready_pin": {
+      "bytes": 2460,
+      "sha256": "27969475f6df99e201628080d4d450dce308ebea5af54c5415dc96961d64e03b"
+    },
+    "owner_candidate_pin": {
+      "bytes": 43327,
+      "sha256": "432cf2de9c2237bed6b668a01f68d7889710df4b629a2ec64b3fd64173f7e3a1"
+    },
+    "owner_one_expression_inverse_exact": true,
+    "source_ready_software_status": "NOT_RUN",
+    "new_or_old_Test_RUN": false,
+    "adoption_or_software_not_inferred_from_stop_or_matching_expression": true
+  },
+  "preserved_contract": [
+    "current identity and original immutable deadline",
+    "Ready-only gate and request Game/source/session checks",
+    "whole SEM evidence lookup, frame rebuild/equality",
+    "previous fresh READ verifier and cold callbacks",
+    "all failure, interrupt, lifecycle and authority guards",
+    "original UNKNOWN and actual stored SchedulerSaved observation rule; no permission to rerun original537"
+  ],
+  "operations": {
+    "queue_states_readonly": {
+      "dispatch.db": {
+        "COMPLETED": 487
+      },
+      "leases.db": {
+        "RELEASED": 487
+      }
+    },
+    "READY_records_not_concurrency": 73,
+    "source_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "same_day_OpenCode": "1.19.5 successful cache reused",
+    "service_global_load": "NOT_HELD",
+    "Models_JVM_SDK_C_GET_Game": 0,
+    "active_caller_config_service_Runtime_parameter_changes": false,
+    "owner_active_time_and_net_savings": null
+  },
+  "limitations": [
+    "HTTP stop/JSONvalid and byte audit prove delivery only, not legal hunk application or source compilation",
+    "This owner already diagnosed and precisely contracted the single call; no autonomous discovery claim",
+    "No actual537 recovery, control retry, old receipt/deadline replacement, private Root/Writer qualification, LOOP, new day, SAVE, G2 or performance credit",
+    "No permanent output-budget/capacity/cache claim from this finite3000 response456tokens",
+    "No raw private REQUEST, CONTENT, sources or actual Game payload published; old length bodies remain unread/unhashed"
+  ]
+}
