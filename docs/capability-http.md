@@ -3389,3 +3389,10 @@ fixed3/DIRECT/max10000/thinkingfalse，09:41:30.933238→09:42:04.798236Z真实1
 owner源审认可anchored/current与laterfresh、旧构造兼容及earlyBaseline方向，但新增captureCurrent用one-arg lease lambda，实际完整输入PlanningWork为(request,lease)两参；整方法拒收，0完整方法/0literalcopy/0partial splice/0rawJVM/noR2，非实际javac红。owner两PART于10:58:27/10:59:03分别先于POST独立完成，合并Ready10:59:41不冒称早于POST；8spans两源码outside逆还原精确。保83/262/captureFresh/cold规则，新增field/ctor/method仍需独立软件与实际装载证明，本切点不授软件绿或热重定义。
 
 只读491COMPLETED/491RELEASED，77READY不是并发，源码在途0。不能从完整2299输出授语义通过或预算改善、缓存/容量结论；cold545不execute、不借warm，不授Root/Native/Runtime/LOOP/SAVE/G2/性能。[脱敏原件pin、源码审拒与owner分层](evidence/2026-11-05-http-sway-anchored-planning-rejected-source.json)。
+
+
+## 2026-11-05：Civ6capture413
+
+413完整stop/DONE/VALID；93行候选编译但未实际设置其声称的死亡标志、吞阶段断言，原稿0软件／游戏执行。owner四例实际源码对照证明74恢复资格缺口；尚未授Native军队FAIL。共享只记通用候选经验，业务证据固定pin。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture413.json)。
