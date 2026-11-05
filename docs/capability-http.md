@@ -2936,3 +2936,10 @@ Sway另由Java正式发表2f59b092并独核remote/clean，formal只映射一guar
 [具名独验9fd99939及实际ACTUAL/XML](evidence/2026-11-05-http-planner-and-life-owner-software-later.json)确认调度owner f616必要support1TU+changedTest1TU首编0/6.1196627秒，SourceFile1+12=13class；exact3新方法真3P、JUnit进程3.5799079秒/XML1.744秒，3DATA且stderr0/close0/fence释放。实际输出pins/SourceFile、config/BEGIN/post/terminal与XML精确三case独核；原38k及helper非模型新工作。模型原完整方法0采用/0modelJVM，producer也只有predicate partial加owner关键控制流修正，不能回授raw。只证明公用Planner/Core/pipeline/RealmLifecycle受控DATA，不授真实offender、私Root/Native、Runtime恢复/日SAVE/G2/实速。
 
 另保Life owner前两次历史成本：01首编0/8.8139656秒、positive一方法1F/21.9661971秒；diagnostic02再首编0/8.2855584秒、同positive1F/22.4612031秒。两份XML均实际CompositeUnknown、各1F/0error/skip，尚未到新scope探针/negative；失败phase close结果按实际另列，均durablefence/heldfalse，不能抹成本或报2P/新scope根因。原模型两完整方法0采用/0rawJVM/noR2；这是前两版历史切点，不外推后来diagnostic状态。本附页0新HTTP/JVM/UI/Runtime/Game，旧source切点保，完整owner主动成本与净收益未知。
+
+
+## 2026-11-05：registry 空占位到既有 continuation 的真实新 P0
+
+[新的双hunk实现单位](evidence/2026-11-05-http-registry-placeholder-continuation-candidate.json)给9完整当前137417B/4869B合同，before为实际采用3311，另给RegisteredEventCore2170全文及source-adoption pin，不用旧bd5冒当前。已源闭的Core FOREGROUND/empty/READ_ONLY占位本为后续continuation保留，当前提前finish造成ReadOnlyWait；只准紧邻原continuation一次，再走原finish，并仅对该stage同domain的emptyFore→presentFore允许原validateCommand后的窄guard例外。其余exclusive/完整finish/source/frame/deadline/proof全保，无新type/method/预算或Native权限；这是新真实消费者缺口，不是旧请求R2，旧三方法不覆盖此链。
+
+固定三消息/DIRECT/max4000，一次HTTP200/stop/DONE/有效JSON，10.3782684秒、有效TTFT4.0316521秒、29981+1058tokens、cachednull，4878B原件即交Java；CONTENT=SSE UTF8、审计0discrepancy。即时交接切点仅待源审，未授采用/编测/正式/实际恢复/提速，不等仍在冻的progress小原件/ACK/Git。461终态/461租约释放、0源在途，0JVM/UI/Runtime/Game/GET/controls或期限变更，无活跃参数改动、不R2，完整主动成本与净收益未知。
