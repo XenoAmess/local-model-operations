@@ -3524,3 +3524,12 @@ fixed3/DIRECT/max4000/thinkingfalse，13:26:42.902868→13:27:07.572937Z实际1P
 420完整stop/DONE/VALID，但两读者把配置身份方法误调Player，实际端口替身均失败，0原稿Native。ownerCore／UI各6诊断后读原73保存点，确认自由城市并纠正文档和城邦验收标签，真实1100／资产数据及原证据原件保留。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture420.json)。
+
+
+## 2026-11-05：Sway Saved 只读 NoGameplay 双目标完整交付
+
+新81完整提供22份751329B（13actualJava+9完整实际JSON），只Domain+Composite两个目标。owner源审接受有限替代NoGameplay合同：真实只读/submitfalse/无child且immutable Run LocalUNAVAILABLE、reads空/child空，必须两历史Stage/SchedulerSaved import完整source、publication(false)、RootStageREAD/custody/sharedservice/reducer证明；不比较旧saved与未来currentdomain。允许证明无gameplay write，不等于全部Native READ为零。原dedicated SchedulerCompleted/finalRoot/fullPlan、普通Ready、旧nil/stage/Life及material/recorded同authority保持；不得借primitiveScope、catchfallback、重query或丢Saved。
+
+fixed3/DIRECT/max10000/thinkingfalse，13:46:52.174450→13:47:34.553561Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，42.3792188秒、有效内容TTFT38.4316708秒，reported295199+593、cached=null。实际REQUEST22全文和合同逐一核符，CONTENT=SSE审计errors/差异为空，原件先交Java后audit/Git。交付切点采用待owner源审，0rawJVM/noR2；后到正式源审另追加，完整传输不授source/软件/终态。
+
+只读501COMPLETED/501RELEASED、87READY不是并发，source0；初始自有PREP label漏observation后缀以additive纠正保原件，canonical manifest/spec/intake/REQUEST始终同ID，0模型输入错误/重POST。sharedmain先安全FF吸收另一项目420纯文档，未改caller/profile/服务/Runtime。本文0新HTTP/JVM/Game/GET，原parent终态/私Root权限/Runtime/LOOP/SAVE/G2/性能另证，旧length正文/SSE整份未读未hash；无下一真实完整输入不造任务。[全输入、精确参数/成本、采用切点与元数据更正](evidence/2026-11-05-http-sway-saved-readonly-no-gameplay-delivery.json)。
