@@ -3428,3 +3428,10 @@ owner源审认可anchored/current与laterfresh、旧构造兼容及earlyBaseline
 fixed3/DIRECT/max12000/thinkingfalse，11:35:00.587467→11:36:30.232978Z真实1POST/1END，HTTP200/DONE/length，89.6457685秒、有效内容TTFT25.0406826秒，reported195075+12000、cached=null。实际REQUEST20份全文逐一核实；CONTENT与rawSSE整份未开/读/解析/提取/hash，未运行length目录审计，0代码/方法/partial采用、0rawJVM/noR2。END先裸交owner，不读半稿猜失败原因或自动提高上限重投。73首次POST和END都早于72私有索引封口，后见不作新需求派发门。
 
 只读493COMPLETED/493RELEASED，79READY不是并发，源码在途0；文档后见没有新模型/JVM/Game或参数变更。复杂单目标12k仍截断，与此前12k/10k截断及72完整2669并列，不推出预算因果、永久模型能力或缓存/容量界限。owner Domain+Batch独立接管和必要验证继续，源码/软件/私Root/实际恢复、LOOP/SAVE/G2/性能各另证。[脱敏元数据、完整输入pin与弃置边界](evidence/2026-11-05-http-sway-recorded-stage-no-gameplay-length.json)。
+
+
+## 2026-11-05：Civ6capture416
+
+416完整stop/DONE/VALID，12行候选阶段／正回执／城市军队及独立Conflict方向采用；owner补唯一完整身份、地图／死亡资格及受保护读取，6诊断软件例，0原稿Native。75实际正常跨回合与同进程重载通过窄窗口，未授所有阶段或冷进程过期恢复。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture416.json)。

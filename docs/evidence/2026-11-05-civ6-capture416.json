@@ -1,0 +1,64 @@
+{
+  "schema": "local-model-operations.civ6-capture416/v1",
+  "utc": "2026-11-05T11:52:37.133723+00:00",
+  "date_local": "2026-11-05",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/4cf6939ff3ab1072011bbf66a505fa6870974b21/docs/research/baiqi-p6-capture416-expired-finishing75-evidence-2026-11-05.json",
+    "sha256": "d43011529a9e9be54d6045366fb87793e49e0653b4d47afc75ef0caa57af5c63"
+  },
+  "model": {
+    "shared_commit": "93d2470abbddcb84bbdd7deb685744997d7509b1",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "attempts": 1,
+    "extra_retries": 0,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 7519,
+      "completion_tokens": 632,
+      "total_tokens": 8151
+    },
+    "total_ms": 5195.689500018489,
+    "ttft_ms": 1321.3183000334539,
+    "cached_prompt_tokens": null,
+    "candidate_lua_lines": 12,
+    "diagnostic_software_cases": 6,
+    "raw_candidate_native_execution": 0,
+    "adoption": "Correct phase/positive receipts/city/unit and independent conflict assertion direction; owner added unique/full record identity, native grid/death/read protection and correct416prefix.",
+    "rejected": [
+      "Missing record uniqueness and full record identity",
+      "No grid/death checks",
+      "Read exceptions propagate instead of available=false",
+      "Old408 prefix"
+    ],
+    "maintenance": "Canonical Nov5 successful1.19.5 cache;0new OpenCode native generation",
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical": 416,
+    "complete_stop_valid": 385,
+    "length_discarded": 28,
+    "final_transport_failed": 3,
+    "http_attempts": 446,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "native75": "Real positive FINISHING114 crossed one normal turn to115; after fault cleanup, fresh2Recover0Transfer/Finish and4new moves. Same-process115save/reload2Recover0/0, old114record frozen. Normal114restored.",
+    "owner_error": "Core reader initially used in Executor where Requisition helper absent; unavailable receipt retained, separate UI reader qualified.0game action from failed read."
+  },
+  "generic_lessons": [
+    "Keep operation turn and actual current turn distinct; old positive receipt must not spend refreshed movement.",
+    "Separate cumulative counters including initial request from fresh recovery windows.",
+    "A correct phase/receipt oracle still needs full identity, uniqueness, native availability and protected reads.",
+    "Core helpers are not automatically available in UI context; qualify actual consumer ports."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Product75 unchanged since full1048 source1961f911. HTTP candidate, owner diagnostics and Native verification separate. Native retained-ID delayed military and full matrix pending; unknown cache/savings null."
+}
