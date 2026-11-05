@@ -1,0 +1,95 @@
+{
+  "schema": "local-model-operations.civ6-military449/v1",
+  "utc": "2026-11-05T23:26:53.039376+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/03e63bba1b15e489ffd9fd02c5ee270f938564a0/docs/research/baiqi-p6-military449-native77-resource-shortage-evidence-2026-11-06.json",
+    "sha256": "e4d833aa9f06c36d6b07880f530e80eaf8327048271358634c2e190de4b6a3f6"
+  },
+  "model": {
+    "models": {
+      "449": {
+        "shared_commit": "049faad9c3bf148d58b6c378f258e72070abbb71",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 46572,
+          "completion_tokens": 1286,
+          "total_tokens": 47858
+        },
+        "total_ms": 14420.993999927305,
+        "ttft_ms": 6081.184200011194,
+        "review": {
+          "utc": "2026-11-05T22:57:31.681425+00:00",
+          "fourteen_city_audit_cases_passed": [
+            "install-zero",
+            "nil-args-tail-returns",
+            "military-lowgold",
+            "project-sample",
+            "foreign-no-asset-read",
+            "unknown-unit",
+            "bad-params",
+            "metadata-error-forwarded",
+            "overflow-forwarded",
+            "original-error-preserved",
+            "foreign-cleanup",
+            "actual-resource-indices-and-line-gates",
+            "resource-read-error-unknown-forwarded",
+            "queue-metadata-failure-forwarded"
+          ],
+          "prior_event_eight_cases_reused": true,
+          "event_new_credit": 0,
+          "raw_native_execution": 0,
+          "raw_product_application": 0,
+          "review": [
+            "Raw hardcoded horse25/iron27 are amounts not indices; actual GameInfo indices42/43 used.",
+            "Raw uncalled declarations omit native call attachment and cost quote; owner attaches guarded beforecall metadata to qualified 448 wrapper.",
+            "Visible true/full false alone not assigned resource causality; actual stock/cost/control sample required.",
+            "Unknown queue remains unknown; resource read failure has separate counter and forwards original once.",
+            "Source/native observer covers BaiqiExecutor CityManager only; not other contexts."
+          ]
+        },
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "maintenance": "Nov6canonical successful OpenCode1.19.5cache reused;0newnativegeneration."
+      }
+    }
+  },
+  "cumulative": {
+    "logical": 449,
+    "complete_stop_valid": 418,
+    "length_discarded": 28,
+    "final_transport_failed": 3,
+    "http_attempts": 479,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "native_shortage": "Independent77resourcecopy138onlyCoreNiterIndex44 qualified-1then distinct-27 to0. All54resourcesaudited, othergold/faith/countsintact. UIstock0/3/6/9/12 in138..142;141beforecallNiter9<Line10/nativevisibletrue/fullfalse, actualCuirassierresource10/cost165 queuedonce, noLine;142fulltrue, originalCui51/165preserved.",
+    "sdk": "ContinuousExecutorCityManager8BUILD,4unit(2builders/cannon/cuirassier),2military,0Line/foreign/unknown/metadataerror/resourceerror/overflow. Internalcommitmentsunknown. 3events restricted138..141,9records,0drop/error;duplicateNeighborhoodnotificationsnotduplicateassetcredit. Exactrestore/3handlersremoved.",
+    "persistence": "Negative138/141andclean142savedprivately;originalmain148hashverifiedofficialloadonceandactualCoreUI14city/gold7107.87109375/unitmaintenance54/twoarmypositions2moves/originalqueue0/165 match. 449Core/UI/ActionPanelQA bindingsabsent. Notrefund.",
+    "candidate": "Raw449incorrectresourceindices25/27, uncalledhelpers/noquote/fullfalsecausality/false32citybound rejected0rawNative/product;owner14auditortransparencyandresourceunknowncases pass. Prior8eventcases reused0newuniquecredit. 450TC009candidate separatelynexttask not449credit."
+  },
+  "generic_lessons": [
+    "Use a minimal controlled signed change to qualify an uncertain native mutator, then a distinct exact remaining precondition change; preserve both results and never replay an unknown mutation.",
+    "Resource-shortage evidence needs current stock, actual native cost and separate visible/full eligibility at the write boundary, plus actual alternative production.",
+    "A resource-free candidate remains legal during a shortage of a different resource. Do not interpret shortage as every production path stopping.",
+    "After ordinary accumulation restores eligibility, verify that existing legal production retains progress instead of being canceled or replaced.",
+    "Repeated native completion notifications do not prove two assets or two requests. Cross-check dispatch records and actual object identity.",
+    "Keep higher Core/UI stock discrepancies explicit. Do not invent a conversion or infer an exact debit from incompatible snapshots.",
+    "A normal end ACK can leave the same turn or enter a diplomacy modal. Read back the real state and handle ordinary player UI before claiming turn advancement."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Only qualified independent resource-shortage choice and nextturn queue-preservation; Cuirassier queuednotborn, exact resource boundary/netGoldMin2/exact100/fullTC007or40 not granted. 0product changes; prior1064notrerun. 0Steamonline/upload,Alpha74unchanged. Main148restored; SDKbootstrapunknown."
+}

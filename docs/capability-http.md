@@ -3867,3 +3867,10 @@ fixed3/DIRECT/max10000/thinkingfalse，22:42:37.709791→22:42:57.802288Z真实1
 随后正式全文审全拒：9oldspan LF归一8×1、logger0；Root新增PlanningStage未import/FQN，Planner把returned置于requireNonNull后，rawnull正常返回被误计失败，违明确合同。numericdefaultcallback/每stage计数/outside-lock方向相关，但whole/method/partial/literal/rawJVM/R2全0，属于源码应用/名称解析/计数语义拒，非实际rawcompiler红。owner独立Ready6ef232在raw读前已存，p0 sourcePASS/必要strict3TU0/20CF5.6688秒由Java另报，本岗未重复编验或回授raw。原delivery pending切点保，不授actualstage时长、速度、P067动作/权限或SAVE。
 
 只读522COMPLETED/522RELEASED、g0005当前6READY非并发、source0；Nov06成功1.19.5缓存复用、0维护probe/本岗JVM/Game/GET/JFR/stockIO/活跃参数改，无真实新源不造103。旧length含94/99/101正文/SSE始终未读未hash0/noR2；owner源审/型验/actualstage行/运行采用/性能/SAVE分层另证，不回填交付pending切点。
+
+
+## 2026-11-06：Civ6military449
+
+449canonical stop/DONE/VALID，一次无retry；raw错误indices/漏成本与接入/错误fullfalse因果拒用，owner14审计例，0rawNative/product。独立138..142硝石0/3/6/9/12，141beforecall9<10且linefullfalse，实际Cui入队一次；142linefulltrue而Cui51/165保持。8BUILD/4unit/2mil/0Line/0unknown/error，events9records限138..141重复通知不重计资产，清理后restoremain148双CoreUI一致。累计through449449/418/28/3 HTTP479/extra30，450另记，未知缓存/人工节时null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-military449.json)。
