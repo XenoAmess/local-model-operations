@@ -1,0 +1,130 @@
+{
+  "schema": "local-model-operations.civ6-military446/v1",
+  "utc": "2026-11-05T22:05:23.448446+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/5708119dc04562a5bbae7b725ef8098ec31b4aed/docs/research/baiqi-p6-military445446-native77-born-control-policy-reload-evidence-2026-11-06.json",
+    "sha256": "826ec6deff8f24495ae7f61e23178a092000130049dabd238ac388b004b97aa1"
+  },
+  "model": {
+    "models": {
+      "445": {
+        "shared_commit": "41f05d833cf9d0b52efdb3fff78d0b8aac458698",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 18966,
+          "completion_tokens": 955,
+          "total_tokens": 19921
+        },
+        "total_ms": 9028.828499955125,
+        "ttft_ms": 2561.0071999253705,
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "daily_maintenance": "Nov6canonical successful OpenCode1.19.5cache reused,0new native generation.",
+        "review": {
+          "utc": "2026-11-05T21:26:14.548005+00:00",
+          "six_dynamic_fullid_classes_passed": [
+            "healthy",
+            "absent",
+            "alias",
+            "wrong-type",
+            "delayed",
+            "missing-port"
+          ],
+          "event_reader_empty_and_absent_object_no_false_death": true,
+          "raw_event_id_error": "[string \"<python>\"]:1: missing_event_id\nstack traceback:\n\t[string \"<python>\"]:12: in main chunk\n\t[string \"<python>\"]:1: in method 'FindID'\n\t[C]: in function 'assert'",
+          "raw_native_execution": 0,
+          "raw_product_application": 0,
+          "review": [
+            "Raw uses select(2,...) and select(4,...) in a later chunk instead of persisted r.args/r.unit, loses actual eventarguments.",
+            "Raw claims pcall guards but implementsnone, lacks256bound/healthy/offworld/error classification.",
+            "Owner lists actualbirth/completion chronologies separately, no same-turn alone join or fieldsourceBACKGROUND invention.",
+            "Reader currentUIhealthy and later independentCorefullID must agree; absence alone not proof of death.",
+            "Treasury total-versus-components residual remains unknown, not hidden to grant fullmaintenance acceptance."
+          ]
+        }
+      },
+      "446": {
+        "shared_commit": "41f05d833cf9d0b52efdb3fff78d0b8aac458698",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 74294,
+          "completion_tokens": 1378,
+          "total_tokens": 75672
+        },
+        "total_ms": 19010.050000040792,
+        "ttft_ms": 9687.045000027865,
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "daily_maintenance": "Nov6canonical successful OpenCode1.19.5cache reused,0new native generation.",
+        "review": {
+          "utc": "2026-11-05T21:35:25.299822+00:00",
+          "raw_native_execution": 0,
+          "raw_product_application": 0,
+          "rejected": [
+            "Raw invents player:GetPolicies():Members() without actualnative consumer.",
+            "Raw nilrow booleanprecedence unsafe, unitloop lacks256bound and returns tablepointer.",
+            "Core treasury methods unguarded despite claimed API safety; onlyWMDprotected.",
+            "Implied SiphonFunds arithmetic is not proof of hostile spy action, especially negativevalues."
+          ],
+          "owner": "Protectedselfports + scalaractualtooltip + exact GetNumPolicySlots/GetSlotPolicy/IsPolicyObsolete from live productAdmin, allbounded. Sum-minus-one remains hypothesis, not directdiscountproof."
+        }
+      }
+    },
+    "raw_native_execution": 0,
+    "product_application": 0,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical": 446,
+    "complete_stop_valid": 415,
+    "length_discarded": 28,
+    "final_transport_failed": 3,
+    "http_attempts": 476,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "native77completed": "139FIELD_CANNON165 normalprogress161at145→146fullID8192051@8,10,city327684Completedrow58/canceledfalse.141LINE_INFANTRY180 progress158at146→147fullID8257581@15,5,city393221Completedrow94/canceledfalse. CoreUIexacthealthy/newarmycount24to25to26.",
+    "control": "OriginalUnitPanelCivilianfalse/actions4and3. TEST_PLAYER147onefreshlegalMOVE81920518,10→9,10actualsettled/moves1/queuednil. Restored148exactsamepositions/2moves, originalactions7. ContinuousExecutor138to148177calls military0/noncivilian0/unknown0/errors0, thenexactcleanup/3handlersremoved.",
+    "dynamiccap": "13city141to146live+queue26held.147early26live/0queue thennatural长沙98305326,20makes14cities/demand28;14826live+1queue≤28, notfixed26cap. Jiujiangoriginalgranaryactuallybuilt146notpillaged,pop2,148monument16/30.",
+    "policycost": "Official146save load showsConscriptionactive/unobsolete,25army nominal49/paid17/actual32.147andrestored148Conscriptionobsolete/removed,26army nominal54/actual54. Nativepolicytext1discountperunit confirms49−17=32;17old discounts lost plusnew5 explains22jump,notoneunit22.",
+    "citycostlimit": "Original native totaltooltip148unit54+city56=110;rawbuilding46+district16=62, residual6cityaggregationmodifierunknown/WMD0,notspy/newarmycharge inference.",
+    "persistence": "Normal148save618266 SHA3fa6582e3a676bc07aec886a666a5f5e507c6998b5d89c98b9f905e012bdb280. Formal146policyloadthenrestore148onceeachwithhash/actualCoreUIreadbacks city14/gold7107.87109375/armypositions. LoadingContinueglyph2rejections0input thenoneContinueeach;bootstrapcallsunknown.",
+    "review": "445rawuseschunkselect(...)insteadpersistedr.args/missingeventID,owner6dynamicfullIDplus empty/absentfixtures;446rawinventedGetPoliciesMembers/nilrow/unbounded/tablepointer.0rawNative/product; actualAdminpolicyslotportsused."
+  },
+  "generic_lessons": [
+    "Persist event arguments in the observer and consume that persisted record later. A later Lua chunk has no original event varargs.",
+    "Join unit birth and production completion with full-ID identity, type row, city coordinates and chronology; same-turn coincidence alone is insufficient.",
+    "A new unit can retain original player controls while waiting, and an actual TEST_PLAYER move can prove that control without any background army authority.",
+    "Demand changes when a naturally founded city is added. Evaluate live plus queued against the contemporaneous cap, not a fixed number from an earlier screenshot.",
+    "Global military maintenance can change when a policy becomes obsolete. Re-read a saved earlier state and reconcile all affected existing units, not just the new unit.",
+    "Native total-cost tooltips can group adjusted city expense differently from raw building and district components. Preserve the unexplained aggregation modifier; do not infer hostile spies from a negative remainder.",
+    "Restore diagnostic wrappers by exact identity, remove only owned handlers, then save and reload. Unknown bootstrap calls are not part of the earlier continuous observer window.",
+    "A readiness success is not an atomic snapshot of all background work. Retain a later busy observation and use settled readbacks rather than claiming false consistency."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Two normalmilitary productions/control/policymaintenance/save-reload plus queued-inclusive dynamicdemand window only. TC007 lowreserve/resource-insufficient independentbranches andwhole40matrix pending. Cityaggregation6modifiercauseunknown. Alpha74unchanged/Steamoffline0upload; all ownQAobserverscleaned, laterbootstrapSDKtotalunknown."
+}
