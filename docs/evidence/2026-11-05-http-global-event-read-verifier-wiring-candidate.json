@@ -1,0 +1,181 @@
+{
+  "schema": "local-model-operations.global-event-read-verifier-wiring-candidate/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-global-event-read-verifier-wiring-20261105-01",
+  "new_real_P0_two_argument_wiring_not_R2": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_actual_sources": 5,
+  "input_bytes": 397238,
+  "manifest_pin": {
+    "bytes": 2553,
+    "sha256": "9154539702528959858f4c6f57c0344e2fd0d7d978d62f326fd8ac93054eae9d"
+  },
+  "contract_pin": {
+    "bytes": 2002,
+    "sha256": "c81b8a33c94d8cc9474d8264e26e65ecde04b1fe8878686aaf17dd0dd56e3344"
+  },
+  "actual_prefix": {
+    "REQUEST_pin": {
+      "bytes": 407649,
+      "sha256": "56411780f135a6b5acd9289d5d9c894966f62366a571ac837d35f92fe33f720d"
+    },
+    "source_message_pin": {
+      "bytes": 398872,
+      "sha256": "516ceee3fe8549451a4ff08afd246f6a114a26296262d3b988d73dcb6cb5518e"
+    },
+    "complete_input_files": [
+      {
+        "role": "target_dispatcher",
+        "bytes": 17562,
+        "sha256": "897efafc93e6f4c655aa0e5037fd10d02588131cd68fc3b1285d6de3bfb9e6ea",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "target_initial_menu_core",
+        "bytes": 248273,
+        "sha256": "c3ddf03cd185e5ef866d98d693e1ac8f5229fca6e1d1f87cf69d68a24c5aa15b",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_real_wrapper",
+        "bytes": 64172,
+        "sha256": "3866d7949b2166f72dbe7a217260e9548a6181f2b1d6048848feb0dc7081776e",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_v4_basis_API",
+        "bytes": 25152,
+        "sha256": "fbdc19c9d5b34a1f990d2a75cefbf0570cbf4490a67356b7b284917a98a37a15",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_mandatory_global_consumer",
+        "bytes": 42079,
+        "sha256": "57a86cdec62e56ec1dba854c3f065fe14d0ed98acaaf253a0002acdf53b94cca",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ],
+    "all5_full_text_in_actual_REQUEST": true
+  },
+  "requested_targets_only": [
+    "RootRuntimeDispatcherFactory",
+    "RootApplicationAssembly.Core.initialMenu"
+  ],
+  "owner_exact_prePOST_diagnosis_API_contract": "Two existing NativeRecordedEvidenceVerifier constructor frame args wrap existing RootAdvanceInfrastructureFactory.freshFrameLoader(core.frameLoader()/frames). Original loader behavior delegated, mandatory real READ/ACK/custody verifier; initialMenu View may be reused. Preserve all other args/guards/defaultthrow/source/object ownership, no new declarations/imports.",
+  "source_owner_strong_guidance_not_model_autonomous_discovery": true,
+  "actual_scene_scope": "Owner reports finalappend preview reached bare-loader mandatory check; no sole-cause assertion about original IO and no actual settled receipt from candidate.",
+  "POST_BEGIN_UTC": "2026-11-05T06:10:08.645996+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T06:10:22.507823+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "actual_parameters": {
+    "model": "qwen38-coder",
+    "max_tokens": 1800,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "JSON_syntax": "VALID",
+  "headers_ms": 9849.259000038728,
+  "effective_content_TTFT_ms": 9850.314799987245,
+  "total_ms": 13861.855800030753,
+  "usage": {
+    "prompt_tokens": 75840,
+    "completion_tokens": 710,
+    "total_tokens": 76550
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 407649,
+    "sha256": "56411780f135a6b5acd9289d5d9c894966f62366a571ac837d35f92fe33f720d"
+  },
+  "RESULT_pin": {
+    "bytes": 1294,
+    "sha256": "3d8192b45f1b78a07c2adf50f807fb153a7e50cb7d9768eaebbb2ddd955868a2"
+  },
+  "EVENTS_pin": {
+    "bytes": 2846,
+    "sha256": "6766a2455347ed110f137a1cb9a67e824bcede841c64baa04d09ddf4075429b2"
+  },
+  "CONTENT_pin": {
+    "bytes": 2959,
+    "sha256": "78de8d15ff046abba9547e0708b7d8d0041a2436452fe0f70199383870d0ed34"
+  },
+  "audit": {
+    "errors": 0,
+    "discrepancies": 0,
+    "CONTENT_equals_SSE_UTF8": true,
+    "pin": {
+      "bytes": 4464,
+      "sha256": "d7aeeb732f235e6da50d320dabe83fe0d04859a0563319fc5d39040540d2cf71"
+    }
+  },
+  "raw_delivered_before_audit_Git": true,
+  "semantic_adoption": "PENDING_AT_DELIVERY_CUT",
+  "candidate_JVM": 0,
+  "R2": 0,
+  "output_budget": "Small exactly-two-argument edit uses1800 and returned710; future genuinelycomplex implementation/fixture12k review remains, this does not prove1800 general sufficiency or avoided cost.",
+  "PREP_events": [
+    {
+      "at_utc": "2026-11-05T06:09:28.9780368+00:00",
+      "task_id": "ordinary-global-event-read-verifier-wiring-20261105-01",
+      "Models_JVM_C_GET_Game": 0,
+      "POST": 0,
+      "event": "PREP_BEGIN"
+    },
+    {
+      "event": "PREP_END",
+      "at_utc": "2026-11-05T06:10:06.352696+00:00",
+      "task_id": "ordinary-global-event-read-verifier-wiring-20261105-01",
+      "all5fullinputs_and_contractpins_verified": true,
+      "POST": 0,
+      "Models_JVM_C_GET_Game": 0
+    }
+  ],
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 479
+    },
+    "leases.db": {
+      "RELEASED": 479
+    }
+  },
+  "READY_records_not_concurrency": 65,
+  "source_HTTP_inflight_after_END": 0,
+  "finite_wrapper_returned_normally": true,
+  "caller_exit": 0,
+  "Models_JVM_SDK_C_UI_GET_Game": 0,
+  "no_active_caller_config_service_Runtime_parameter_changes": true,
+  "owner_active_time_and_net_savings": null,
+  "service_global_load": "NOT_HELD"
+}
