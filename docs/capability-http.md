@@ -3396,3 +3396,10 @@ owner源审认可anchored/current与laterfresh、旧构造兼容及earlyBaseline
 413完整stop/DONE/VALID；93行候选编译但未实际设置其声称的死亡标志、吞阶段断言，原稿0软件／游戏执行。owner四例实际源码对照证明74恢复资格缺口；尚未授Native军队FAIL。共享只记通用候选经验，业务证据固定pin。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture413.json)。
+
+
+## 2026-11-05：Civ6capture414
+
+414完整stop/DONE/VALID，但173行补丁不可应用且语义有缺陷；0原稿产品安装／游戏执行。owner接管75，实际多阶段回归旧版失败、新版17方法通过，完整1048项通过；只读74军队接口资格不授75实机通过。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture414.json)。

@@ -1,0 +1,102 @@
+{
+  "schema": "local-model-operations.civ6-capture414/v1",
+  "utc": "2026-11-05T11:18:32.896525+00:00",
+  "date_local": "2026-11-05",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/1961f9117028b7e0c4e67125e9d72b122ccd2040/docs/research/baiqi-p6-capture414-actor-guard-source75-evidence-2026-11-05.json",
+    "sha256": "2f4ed6dca3a6cea8a15c675a8c249e33c4dac0e3dc6eee6c9ec2dabde2f68143"
+  },
+  "model": {
+    "shared_commit": "422f034da4315680a8172779bbc43dd18eec6ef8",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "attempts": 1,
+    "extra_retries": 0,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 26142,
+      "completion_tokens": 3163,
+      "total_tokens": 29305
+    },
+    "total_ms": 21908.794999995735,
+    "ttft_ms": 3655.4804000188597,
+    "cached_prompt_tokens": null,
+    "qualification": {
+      "utc": "2026-11-05T10:54:19.172878+00:00",
+      "candidate_rejected": true,
+      "patch_lines": 173,
+      "requested_max90": true,
+      "git_apply_check_exit": 128,
+      "git_apply_check_error": "error: No valid patches in input (allow with \"--allow-empty\")\n",
+      "raw_helper_isolated_observed": {
+        "valid": {
+          "result": true,
+          "uncaught": false
+        },
+        "map_unavailable": {
+          "result": true,
+          "uncaught": false
+        },
+        "death_info_unavailable": {
+          "result": true,
+          "uncaught": false
+        },
+        "death_read_error": {
+          "result": null,
+          "uncaught": true,
+          "error": "[string \"<python>\"]:1: read unavailable\nstack traceback:\n\t[string \"<python>\"]:3: in function <[string \"<python>\"]:1>\n\t[string \"<python>\"]:1: in method 'IsDead'\n\t[C]: in function 'error'"
+        },
+        "valid_tall_map": {
+          "result": false,
+          "uncaught": false
+        }
+      },
+      "raw_fixture_early_Map_error": "[string \"<python>\"]:13: attempt to index a nil value (global 'Map')\nstack traceback:\n\t[string \"<python>\"]:13: in main chunk",
+      "raw_patch_product_application": 0,
+      "raw_game_execution": 0,
+      "adoption": "Only separate actor availability helper and valid fixture-port direction. Owner takes over implementation after semantic/malformed patch rejection.",
+      "additional_issues": [
+        "Settle unguarded; target only Recoverable",
+        "Drops original cityXY and FinishMovesavailability gates in proposed return rewrite",
+        "GridSize incorrectly one scalar and square map",
+        "Uncaught read errors, missing information allowed alive",
+        "Mock reads Map and Plot before actual definitions, laterMapreset loses early addition"
+      ],
+      "source_sha256_before": "d4eea324d7f6bb9790a9d6e9126b72bcc2be3fa57bb53ab3f5fecb6c17e4ac67",
+      "source_and_live_install_same_file": false,
+      "live_install_sha256": "d4eea324d7f6bb9790a9d6e9126b72bcc2be3fa57bb53ab3f5fecb6c17e4ac67"
+    },
+    "raw_product_application": 0,
+    "raw_game_execution": 0,
+    "adoption": "Only separate availability helper/healthy fixture port direction; owner implemented guarded readers and both consumers after rejecting malformed semantic patch.",
+    "maintenance": "Nov5 successful1.19.5 same-user/machine canonical maintenance cache;0new OpenCode native generation",
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical": 414,
+    "complete_stop_valid": 383,
+    "length_discarded": 28,
+    "final_transport_failed": 3,
+    "http_attempts": 444,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "source75": "Owner guard in actual recovery and settlement;17 targeted methods and1048 full-suite tests passed after fixing private benchmark version registry. Installed/runtime74 at businesspin.",
+    "native": "Read-only healthy74 military API ports qualified; no75 Native actions yet."
+  },
+  "generic_lessons": [
+    "Lua multiple-return width/height must both be read; square-map assumption rejects valid tall-map coordinates.",
+    "New helper must protect both eligibility and post-debit consumer; missing required info cannot imply alive.",
+    "Mock initialization must follow actual dependency definitions; syntactically malformed diff is not a patch.",
+    "Internal version bump also affects private validation tools; preserve first failed suite and verify corrected consumers."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "HTTP candidate rejected; owner source75 software pass separately recorded. Installed/runtime74 at fixed businesspin; Native75 verification still pending. Unknown caches and net savings remain null."
+}
