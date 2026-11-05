@@ -3685,3 +3685,17 @@ fixed3/DIRECT/max9000/thinkingfalse，17:38:58.925612→17:39:34.222335Z真实1P
 430与431经canonical普通HTTP均完整stop/DONE/VALID，同日复用Nov6成功OpenCode1.19.5维护，0新原生生成。430原字典#计数错与类型缺口由owner重写Core/Flag各8资格后用于实际城旗UNKNOWN提示及窄恢复验收；旧observer/fault资格复用不重计。431只采用缺操作前快照事实，拒绝Index/Hash混淆及缺失演员+目标效果即可肯定消耗，逻辑反例非Native故障，原农场效果通过保持。截至431逻辑431/完整400/length28/finaltransport3，HTTP461/extra30。432另发候选不含该快照；未知缓存tokens、人工成本和节时null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-capture430.json)。
+
+
+
+## 2026-11-06：Source90 正式拒收与91有界离线回收诊断交付
+
+90原完整stop交付的待审切点不改，后到具名源审全读原JSON：纯Writer线程scope事实和无继承入口/正常Core返回方向同意，但完整patch/方法/partial/literal/rawJVM/R2全0。稿修改要求字节不动的静态finishPlanningReads并从静态引用实例round；replan=null改无限loop，timedWork未接线，绝对nano误作delta且缺逐调用计数与sum；logger未保Error优先级，flush未绑同borrowed。完整API/scopeproof已供，属于源审语义/类型拒收，非实际javac/JUnit红；owner两叶独立实现及后到型验/实际日志另账，不回授raw计时或速度。[正式源审pin与独立owner边界](evidence/2026-11-06-http-planning-own-scope-method-timing-formal-review.json)。
+
+新91 canonical02首次（01草件未派），完整15份322773B=4actualJava+11wholeJSON，只SessionController目标。实际failed8与缺terminal不证明8future皆exceptional；原catch还含join/batch-ID/inventory/list/id失败，旧丢失原因不可恢复。只reap的phase0..4及原failed.add之后best-effort诊断：真实cause/suppressed带parent索引、identity防环，最多4节点各4真实frame，type96/batch128/message128/frame64，截断/null明示；按最坏6字节JSON escape保单行stderr<=16KiB。所有四AND、join/guard/容量/失败处理/删除顺序/重试/close不变，不清queue、不授clean ticket、不猜M6或storage根因。
+
+fixed3/DIRECT/max6000/thinkingfalse，18:29:33.587623→18:29:51.097604Z真实1POST/1END（本地Nov06），HTTP200/DONE/stop/JSONvalid，17.5097337秒、有效内容TTFT10.975136秒，reported86148+1135/cached=null。15全文实际REQUEST核符、CONTENT=SSE/audit差异空，原件先交Java后audit/Git。交付采用仍待owner源审、rawJVM0/noR2；完整传输不授真实helper/Java合法/预算完备或业务不变，更不是旧原因恢复/cleanpass/实机采用。[输入pin、精确参数与诊断强合同](evidence/2026-11-06-http-offline-analysis-reap-diagnostic-delivery.json)。
+
+91随后正式全读源审：方向同意，但println(StrictJson.canonical(...))把byte[]当Object输出数组identity而非JSON，缺type/batch/message/frame及graph/edge显式截断flags，phase/index/时间写成string；完整patch/方法/partial/literal/rawJVM/R2全0。owner final03在完整回包之前独立实现，owner报告19CF首0/p0PASS另层，本岗未据此重跑或授raw型验。此条追加保原交付待审切点，不授旧8成功、clean capture、P052采用或根因；实际retained消费者闭合独立继续，不等运营发表。
+
+只读511COMPLETED/511RELEASED、97READY非并发、source0；Nov06成功1.19.5缓存复用，0额外维护probe/本岗JVM/Game/GET/JFR/业务decisionHTTP或活跃参数改变。无下一完整真实需求不造92，旧length全文/SSE持续未读未hash0采用/noR2；后到owner源/型/软件/现场指标另加，不改历史切点。

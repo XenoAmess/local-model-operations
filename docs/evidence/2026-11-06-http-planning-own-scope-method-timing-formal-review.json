@@ -1,0 +1,43 @@
+{
+  "schema": "local-model-operations.http-planning-own-scope-method-timing-formal-review/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T18:32:36.339492+00:00",
+  "project": "CK3",
+  "task_id": "ordinary-planning-own-scope-numeric-method-timing-20261106-01",
+  "previous_delivery": "2026-11-06-http-planning-own-scope-method-timing-delivery.json",
+  "immutable_delivery_pending_cut_preserved": true,
+  "review_pin": {
+    "bytes": 1946,
+    "sha256": "79396e6413401e490897c6e7bb24af563b67dfaa5afc65f34b808ba6f6790720"
+  },
+  "review_at_utc": "2026-11-05T17:43:58.602866+00:00",
+  "complete_raw_pin": {
+    "bytes": 17433,
+    "sha256": "5081dd368e67920636c5fcbe51c51260b1081444fb75d8a8be93daa5c8f9afd2"
+  },
+  "owner_read_complete_JSON": true,
+  "adoption": {
+    "complete_patch": false,
+    "complete_method": 0,
+    "literal_copy_bytes": 0,
+    "partial_code": 0,
+    "raw_JVM": 0,
+    "R2": 0,
+    "semantic_agreement": "Pure Writer current-thread scope fact and no-scope-entry/normal-Core-return suppression direction only; owner independent implementation, no model code adopted."
+  },
+  "owner_source_review_rejections": [
+    "Explicitly modifies static finishPlanningReads despite task requiring both static failure-control methods byteexact; new static method references nonstatic round.get(), a compile error with supplied complete current source.",
+    "Changed replan==null path from original required callback invocation to looping forever; adds unrequested semantic flow rather than timing only.",
+    "timedWork helper is never called: original finishOriginalWork(work,...) remains, so work metrics stay zero.",
+    "No enter/return invocation counters or sum-per-pass timing. Absolute nanoTime stored as outer_scope_ns/pre_callback_ns instead of deltas; flush/beforeModel only last timestamps, wrong14slot contract, no bounded per-call aggregate.",
+    "Logger catches Exception but not Error; an instrumentation Error could replace the already computed deferred read-failure/result before actual.released.",
+    "Flush metrics associates current.metrics without requiring current.session==borrowed, contrary exact actual-session timing scope."
+  ],
+  "classification": "Complete-stop source semantic/type review rejection; not an actual javac/JUnit failure and not missing-API input.",
+  "owner_successor_at_review_cut": "Two independent owner leaves sealed and p0 source PASS; necessary Native first/type/behavior/actual metrics/adoption remain separate. No source90 raw compile or timing/speedup credit.",
+  "limits": [
+    "No old frozen delivery/index rewritten from pending to rejection. This additive review records later actual owner review.",
+    "Input supplied full scope proof and API. Diagnostic instrumentation must preserve the business flow, static failure-control bodies and deferred Error/exception priority.",
+    "Transport cost remains35.2966276s/TTFT13.6754984s/reported105835+3813; source0. No new HTTP/JVM/Game/GET/probe for this review."
+  ]
+}
