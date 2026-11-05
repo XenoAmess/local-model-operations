@@ -3199,3 +3199,9 @@ fixed3/DIRECT/max1800/thinkingfalse，06:10:08.645996→06:10:22.507823Z真实1P
 owner自行完成Dispatcher17613/1fa2、Core248324/dd56两条实际freshFrameLoader包裹表达式，两个owned单块逆换全还原17562/897e和248273/c3dd，所有其它参数/callback/guard/defaultthrow/source/ownership原字节保，无新声明/API。此owner sourcecut软件NOT_RUN，后到必要2TU及实际Rootappend/结算另证，不能回授raw或称原IO唯一根因已修。原13.8619秒/TTFT9.8503秒与75840+710成本保，完整主动成本/净收益未知；0新HTTP/JVM/Game。
 
 共享推送因并发Civ6追加c5c8b86被正常拒收，Models仅rebase自己的未发提交，保双方完整附页后正常推送；这是运营Git成本，不归模型。原source/transport/length切点均保，活跃caller/服务/Runtime参数不动。
+
+## 2026-11-05：HOI4 发布稿的类别算术与授权边界
+
+[两项真实任务](evidence/2026-11-05-hoi4-release-category-arithmetic.json)完整200/stop/DONE/有效JSON，无传输重试；实际峰2持续8.3376秒。文案只部分采用结构/措辞：owner修正5481人物+4非人物+3未制=5488的类别混算，删除旧版已有封面/图库被说成新增的内容，并补缺失英文。独立反审却把3未制源当已计入5579输出、把7个差额全说成非人物、将重复路径绑定数与独立SHA混同，相关发现拒收；0代码/游戏资格。公开1.0身份与真实内部preview字段的并存已有明确用户授权，文本模型不授权限。
+
+首次材料预检因.bbcode扩展不在adapter白名单而在POST前失败，改用字节相同.txt投影后两票各首次派发，不记成网络重试。原输入只引旧1.19.3 QA；POST后owner另找到旧订阅包1.19.4.1选国证据，后到信息缺失归owner输入边界，不归模型错误或新包实机成果。完整usage/TTFT及未报告缓存见回执，准备/纠错主动工时与净节省未知。
