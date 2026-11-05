@@ -3472,3 +3472,12 @@ fixed3/DIRECT/max12000/thinkingfalse，11:35:00.587467→11:36:30.232978Z真实1
 418完整stop/DONE/VALID、38行；owner修透传／对象端口，7软件资格，6行cleanup采用，0原稿Native。实际CHARGED尚未写冷却保存点同进程恢复，余额保持、行动结清；新冷进程及启动原生计数未授。419另账，保持bounded统计。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture418.json)。
+
+
+## 2026-11-05：Sway qualified-fresh planning 生命周期双目标候选完整交付
+
+新76功能单位完整提供14份461347B（12Java+2私有actualJSON）；target是owner当前0e49/ffa3 stagedDATA+diag候选，明确非C/未typed，既有PART保留，不把前缀代码算模型新产出。现CurrentPlanning保SAM/defaultgeneric兼容，actualInstaller override借sameborrowed的真实collector.currentPlanning(noParent)完整资格，在scope存续期以同Fresh/request/frame/basis做finalKnownRoot read+fullPlanner；不能drop5keys、换DPE、混IndependentFinal frame或新造issuer/type，strictSaved与历史Domain路由由owner另写。
+
+fixed3/DIRECT/max10000/thinkingfalse，12:46:41.610690→12:47:06.702164Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，25.0915419秒、有效内容TTFT12.9818687秒，reported101734+2219、cached=null。实际REQUEST中14全文逐一核实，CONTENT=SSE审计errors/差异为空；完整原件先交owner后audit/Git。交付切点采用待审、0rawJVM/noR2，不由完整输出授scope、类型或functional通过；与75仅诊断组件是独立新任务，不是重试。
+
+只读496COMPLETED/496RELEASED、82READY不是并发，源码在途0。新default/generic/implements等成员仍需cohort与正常loader实际资格，不授hot redefine；不授权盲GET、重stage/query/service/parent或scheduler改写。旧length全文SSE未读未hash保；软件、私Root/Native/Writer、coldSaved、实际运行、LOOP/SAVE/G2/性能分账。[完整输入pin与交付边界](evidence/2026-11-05-http-sway-qualified-fresh-planning-delivery.json)。
