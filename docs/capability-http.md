@@ -3098,3 +3098,21 @@ formal与actual whole源码同6255，业务5c71de88已发且owner remoteexact/Dc
 
 [新的RA admission pair首派](evidence/2026-11-05-http-event-freshread-role-candidate.json)使用Runtime再核actual c40、已部署Batch dbd6与actualProvenance60ec三份完整源码共416381B，实际REQUEST核全文；仅withObserved freshRead与freshAfterAckProvenance roleOR增加strictEVENT(original)，所有outer正ACK/nativeOk/!settled/custody/READ chronology/Push read_request_id拒绝与cold代码须原样保，无新API/helper/schema/控制或期限改动。
 fixed3/DIRECT/max2400/thinkingfalse，1POST1stop，15.5497666秒/有效TTFT10.7734463秒、84396+821tokens/cachednull；3601B完整raw先交Java，随后CONTENT=SSE/0discrepancy。即时交付切点待源审，不授代码、编测、私lease/v1callback或实际恢复；472终态/472租约释放/0源码在途，finite52正常closed/caller0，0JVM/C/UI/GET/Game/参数改动，完整owner主动成本与净收益未知。
+
+
+## 2026-11-05：Fresh READ 两处 roleOR采用与typed11后见
+
+[正式review743d/owner候选aaf8与Native首验](evidence/2026-11-05-http-event-freshread-role-owner-typed-later.json)补原pending：两处roleOR新增调用行与原diff完整LF文本独核，语义采用，整patch不采用，hunk行号机械修、diagnostic由owner更新；原reasoning把require异常叫RawUnavailable，实际ContractViolationException，解释错误单列。三owned块逆换全还原74229/c40，outer正ACK/nativeOk/!settled、READcustody/chronology/Push拒绝及cold代码不变。
+必要1TU11class首0/6.5886012秒，11份前后pins与Native结构shapeequal、ACTUAL/close0/fence/released独核；结构相同不是class二进制相同，无新声明。该软件回执不授新行为JUnit、私lease/v1callback/archivedprovenance或事件结算，Runtime后继另证；原15.5498秒成本保，0新HTTP/JVM/Game、不R2，完整主动成本/净收益未知。
+
+## 2026-11-05：已安装 options Family 的 recovery decoder 新候选
+
+[新的单constructor首派](evidence/2026-11-05-http-event-family-decoder-candidate.json)使用完整4actualJava184698B与2673B合同，实际REQUEST逐份核全文。目标Family已安装，缺的是兼容构造器的decoder，而非重新规划/安装/选择；仅接既有OperationDecoder overload，复用EventActionPreparation.option严格parser，成功Optional.of、只catch IllegalArgumentException为空；同source/preparer/factory/effects/archivedVerifier/context、Registry默认和显式issue路径须保。不查询currentevent/Native、不发动作或新权威，新增lambda shape/normalLoader资格另测。
+fixed3/DIRECT/max2400/thinkingfalse，1POST1stop，8.3810458秒/有效TTFT4.8266825秒、37087+593tokens/cachednull；2827B完整raw先交Java，随后CONTENT=SSE/0discrepancy。即时交接切点待源审，不授源码采用、编测、decoder行为/Runtime或原524结算；473终态/473租约释放/0源码在途，finite53正常closed/caller0，0JVM/C/UI/GET/Game/参数改动，完整owner主动成本/净收益未知。
+
+
+## 2026-11-05：Family decoder 语义采用与 owner 语法修正
+
+[正式review e180/SourceReadyf30e](evidence/2026-11-05-http-event-family-decoder-owner-source.json)补pending：OperationDecoder接同一严格option parser与Optional语义采用；raw `catch(IllegalArgumentException)`缺必填变量，owner补`unrelated`并机械修hunk count，整rawpatch不直接应用。语法缺陷由源码审发现，不冒实际javac红，也不能将owner可编译候选回授原稿。关键parser/Optional调用和仅catch指定异常独核。
+
+owner Installer75232/308aa以单owned块逆换完整还原75016/9463，既有source/factory/preparer/observer/archivedVerifier/RootContext与其它原字节保；无新namedtype/field/helper/publicAPI或查询/控制/新issuer。sourcecut新lambda synthetic shape、typed与实际coldbinding均pending，Native后到资格另记，不预授bodyredefine/恢复或524结算。原8.3810秒/TTFT4.8267秒成本保，owner已给精确parser与overload设计，不称模型自主发现；0新HTTP/JVM/Game、不R2，完整主动成本/净收益未知。

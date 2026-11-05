@@ -1,0 +1,147 @@
+{
+  "schema": "local-model-operations.event-family-decoder-candidate/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-event-family-recovery-decoder-20261105-01",
+  "new_installedFamily_cold_decoder_gap_not_prior_roleTask_R2": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_actual_Java_sources": 4,
+  "input_bytes": 184698,
+  "manifest_pin": {
+    "bytes": 2567,
+    "sha256": "ccc31de01ba4713fe918279fb67683e91606ebe28157a666c14546580d440d12"
+  },
+  "contract_pin": {
+    "bytes": 2673,
+    "sha256": "398b6cc5f1e1ba8696e19eb29afb1898eeaa816eb241732d56c1f900fdc815b8"
+  },
+  "actual_prefix_full_text_verification": [
+    {
+      "role": "target",
+      "bytes": 75016,
+      "sha256": "94631954aeb17d00159a5acff9bd7d25a2ac5d307e890bc09ce9da6537b40f60",
+      "full_raw_text_occurrences": 0,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    },
+    {
+      "role": "existing_actual_family_API",
+      "bytes": 68706,
+      "sha256": "a4177fd677296bf548ddb862adea722df74e8ebe3a76fb4b872721abb576ebe9",
+      "full_raw_text_occurrences": 1,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    },
+    {
+      "role": "existing_exact_operation_parser",
+      "bytes": 17997,
+      "sha256": "94902b87a42aac08bda7e756fca4b4d8c9c93b5fdd5a4b036bb14072e901bacf",
+      "full_raw_text_occurrences": 1,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    },
+    {
+      "role": "existing_same_real_observer_unchanged",
+      "bytes": 22979,
+      "sha256": "510dd40ee0b08d0f6b00e2ab47c80a07309b4b4f55e2f6a18b45dad9d1ec7c04",
+      "full_raw_text_occurrences": 1,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    }
+  ],
+  "requested_scope": "Only existing options Family constructor uses existing OperationDecoder overload: exact EventActionPreparation.option parser -> Optional.of, catch only IllegalArgumentException -> Optional.empty. Same family/source/capability/mode/preparer/factory/effects/archived verifier/currentRootContext and all explicit issue paths unchanged.",
+  "authority_and_shape_boundary": "Pure operation-to-existing typed DATA, no current event query/selection/Native call/issue/context initialization/Registry default change. New lambda synthetic shape and normal loader must be measured independently; no body-redefine or settlement grant.",
+  "owner_root_Runtime_prePOST_cause_exact_contract_not_model_autonomous_discovery": true,
+  "POST_BEGIN_UTC": "2026-11-05T04:12:38.282949+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T04:12:46.664035+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "actual_parameters": {
+    "max_tokens": 2400,
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "JSON_syntax": "VALID",
+  "headers_ms": 4825.519600010011,
+  "effective_content_TTFT_ms": 4826.682500017341,
+  "total_ms": 8381.045799993444,
+  "usage": {
+    "prompt_tokens": 37087,
+    "completion_tokens": 593,
+    "total_tokens": 37680
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 192113,
+    "sha256": "d88497a0b850e19bae092ba989f813b08c6aa2fe64b35a0817a0a26a2e9d8220"
+  },
+  "RESULT_pin": {
+    "bytes": 1289,
+    "sha256": "59af7b2bc97688dbe56af4c436bf8033e726acacaec439cd70d7beb21015c2ca"
+  },
+  "CONTENT_pin": {
+    "bytes": 2827,
+    "sha256": "221f8c1625f53a1164e1df0916b2ce6b5b7e83d244031399efb65bc8f16a57ef"
+  },
+  "EVENTS_pin": {
+    "bytes": 2821,
+    "sha256": "fbdaebf02f56526c5a648ef1ad1d42d213f010010ed59bd8810ca02ebc53f49c"
+  },
+  "audit": {
+    "errors": 0,
+    "discrepancies": 0,
+    "CONTENT_equals_SSE_UTF8": true,
+    "pin": {
+      "bytes": 4462,
+      "sha256": "dcc6e185f87218d5b4cfae68096e3f8b23cfa3c07938c91d33511b55212baaf6"
+    }
+  },
+  "raw_delivered_before_audit_Git": true,
+  "source_review_at_immediate_handoff_cut": "PENDING_OWNER_REVIEW",
+  "HTTP_not_adoption_compile_decoderbehavior_Runtime_or_actual524settlement": true,
+  "PREP_before_authoring_events": [
+    {
+      "event": "PREP_BEGIN",
+      "at_utc": "2026-11-05T04:11:55.1782127+00:00"
+    },
+    {
+      "event": "PREP_END",
+      "at_utc": "2026-11-05T04:12:30.457847+00:00"
+    }
+  ],
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 473
+    },
+    "leases.db": {
+      "RELEASED": 473
+    }
+  },
+  "source_HTTP_inflight_after_END": 0,
+  "finite_wrapper_returned_normally": true,
+  "caller_exit": 0,
+  "no_R2_or_active_caller_service_Runtime_parameters_changed": true,
+  "Models_JVM_SDK_C_UI_GET_Game": 0,
+  "full_owner_active_cost_and_net_savings": null
+}
