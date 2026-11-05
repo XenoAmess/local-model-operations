@@ -3412,3 +3412,10 @@ owner源审认可anchored/current与laterfresh、旧构造兼容及earlyBaseline
 前71 raw整方法拒0literalcopy仍保。owner独立01先真实2TU compiler1/13.0569992秒，非法新增InterruptedException catch，Executor9部分产物不授绿/未借用；只删该新catch的02完整2TU再编0/19class/8.0632373秒。首close1与最终close0分别保留，两轮fence/terminal/释放均真闭；没有新Test或旧绿重跑。19名称一致但15结构相等、4差异，保新增field/ctor/captureCurrent及InnerClasses变化，正常loader必需，不授原地body重定义。业务3ac58b0c正式发表为owner具名回执，actual与formal outside各自保；不回授raw软件绿/Root/Runtime。[RED、修正、typed与正式分账](evidence/2026-11-05-http-sway-anchored-owner-typed.json)。
 
 只读492COMPLETED/492RELEASED，78READY不是并发，源码在途0。文档后见未另发模型请求、运行JVM/Game或改活跃参数；private历史/实时恢复、LOOP/SAVE/G2/性能仍另证。
+
+
+## 2026-11-05：Civ6capture415
+
+415完整stop/DONE/VALID，6诊断软件例发现漏延迟销毁、false被改unknown、ID读取异常外漏与未断言凭证。0原稿Native；owner重写读取与资格。实际75复测及3张原图固定业务pin，缺失对象与保留ID边界分开，未授全用例通过。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture415.json)。
