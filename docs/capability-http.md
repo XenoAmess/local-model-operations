@@ -3699,3 +3699,17 @@ fixed3/DIRECT/max6000/thinkingfalse，18:29:33.587623→18:29:51.097604Z真实1P
 91随后正式全读源审：方向同意，但println(StrictJson.canonical(...))把byte[]当Object输出数组identity而非JSON，缺type/batch/message/frame及graph/edge显式截断flags，phase/index/时间写成string；完整patch/方法/partial/literal/rawJVM/R2全0。owner final03在完整回包之前独立实现，owner报告19CF首0/p0PASS另层，本岗未据此重跑或授raw型验。此条追加保原交付待审切点，不授旧8成功、clean capture、P052采用或根因；实际retained消费者闭合独立继续，不等运营发表。
 
 只读511COMPLETED/511RELEASED、97READY非并发、source0；Nov06成功1.19.5缓存复用，0额外维护probe/本岗JVM/Game/GET/JFR/业务decisionHTTP或活跃参数改变。无下一完整真实需求不造92，旧length全文/SSE持续未读未hash0采用/noR2；后到owner源/型/软件/现场指标另加，不改历史切点。
+
+
+
+## 2026-11-06：Source92 durable originals 到真实Controller的独立消费者交付
+
+新92 canonical02首次，01未派且shell丢非ASCII任务文字在POST前换完整English02，非91纠错/R2。16全文373326B=6Java+10wholeJSON实际REQUEST全核；四目标是owner03已typed但未C采用的Controller及actualPorts/Worker/RootWorker，其余RootIncidentRuntime/EpisodeJournal和JSON只上下文。Worker原bind恢复的same-binding jobs未自动进入新Controller pending，当前episode扫描不能代八历史original；旧8内因/private库存仍NH，不推8future全异常。
+
+合同保持SAM/enqueue，仅legacy default retainedOriginals空、实际Root必须override/delegate。Worker限fixedroot/suffix、<=4096排序ExactRef/readExact/decode/path/fullbinding/同key exactWork，保原Job/future，只枚举不submit/reset/delete/terminalretry。Root复用existing Installed implements/exposedthis和真实Binding/retiredguard，不新anonymous/namedtype/authority。Controller原pending await/reap后取immutable有限原件，冲突拒/精确重复可skip，保32backlog和真ticketID，逐个enqueue→同callerdeadline await→reap，不bulk溢executorqueue4；原四AND含lastReport.failed逐字保，不清failed/库存、不新期限/取消/重试/业务/ledger/P052改写。
+
+fixed3/DIRECT/max10000/thinkingfalse，18:37:42.754793→18:38:09.699968Z真实1POST/1END（本地Nov06），HTTP200/DONE/stop/JSONvalid，26.9451363秒、有效内容TTFT11.3519724秒，reported87988+2774/cached=null。原件先交Java后audit/Git，CONTENT=SSE审计差异空；交付采用待owner源审，0rawJVM/noR2。完整传输不授所有四目标实现、API/票据/Binding/terminal闭包、预算与中断保持，更不是旧8完成/clean ticket/P052/Runtime/速度。[完整输入pin、参数成本与强合同](evidence/2026-11-06-http-offline-durable-controller-drain-delivery.json)。
+
+随后具名正式全读源审：固定binding枚举及顺序原deadline join/reap方向同意，但Installed漏implements端口且BatchRequest未import/限定，Controller重复ID只Set而未比完整work，retained putIfAbsent绕过原merge冲突等式；完整patch/方法/partial/literal/rawJVM/R2全0。此为源码类型/语义拒收非实际compiler红。owner05独立SourceReady已交Native/p0，后到Windows Path.equals/raw-binding-key差异由owner收紧exact encoded-key等式，不把未供明确新要求倒算模型违约；型验/actual/旧8完成另证，不回授raw，交付pending切点保。
+
+只读512COMPLETED/512RELEASED、98READY非并发、source0，Nov06成功1.19.5缓存复用，无额外维护probe或本岗JVM/Game/GET/JFR/活跃参数改变。无下一完整sole需求不造93；旧length全文/SSE持续未读未hash0采用/noR2，后到owner源审/型/软件和实际旧original消费另证，不回填原待审切点。
