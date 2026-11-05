@@ -2890,3 +2890,12 @@ owner全文源审0新增完整方法采用、0model编测、不R2并接管：bar
 [四完整实际源的独立构造器单位](evidence/2026-11-05-http-sway-supported-build-provenance-source.json)给83017B源/3274B合同，只改已有Request admission，复用受支持enum的version/SHA pair，原null顺序、source对象/缓存identity和message全留；owner已诊断真实指纹输入被旧label-only拒绝，不算模型发现。固定三消息/DIRECT/max1800，一次HTTP200/stop/DONE/有效JSON，3.0815秒、有效TTFT2.4568636秒、18092+114tokens、cachednull，501B原件即交M6；CONTENT=SSE UTF8、审计0discrepancy。
 
 完整constructor却把同一个source.exactBuild同时传成version与SHA，known SHA仍拒；M6全文源审whole/newlogic/partial全0，旧nullchecks和label机械重复0新贡献。owner接管正确pair，不R2/0modelJVM；短输出且未满预算不是预算耗尽，更不是源码成功或永久能力上限。457终态/457租约释放、0源在途，0JVM/UI/Runtime/Game/GET和活跃参数变更。build enum仅输入准入，不授实机build/权限、自然M6、恢复/日SAVE/G2/实速；后继owner源/编测/采用分账，完整主动成本与净收益未知。
+
+
+## 2026-11-05：最高调度 P0 与独立 Sway DATA Test 同窗首派
+
+[两份源齐真实新单位](evidence/2026-11-05-http-exclusive-dispatch-and-sway-test-candidate.json)入队前均已完整，P0先POST1.335856秒，不等另一源/ACK/Git或凑目标。P0给8当前完整103026B/3587B合同/max2400，只修ordinary loop每stage后的既有finish派发，State.run304/finish/typed guard及优先级全留；实际失败policy/stage未知，不归FEAST。当前Runtime manifest重新冻结并绑定，源码SHA碰巧同旧快照也不等于使用未核旧源。完整stop9.3304208秒、有效TTFT4.1174357秒、22660+664tokens、2899B即交Java。
+
+独立Sway Test给5完整33082B/4348B合同/max4000，其中ExactRef明确仅formal API参考，其余actual/candidate；只测修后owner13ff与真实Service.stage的两DATA方法，不是构造器R2。完整stop13.9791223秒、有效TTFT3.0595332秒、8973+1780tokens、6702B即交M6。两份HTTP200/DONE/有效JSON、CONTENT=SSE UTF8、审计0discrepancy、cachednull；即时交接切点均待源审，未授采用/编测/恢复或自然M6。
+
+实际客户端峰2只持续7.994537秒，完整窗口15.314912秒，不混服务全局或Runtime决策HTTP。459终态/459租约释放、0源在途，0JVM/UI/Runtime/Game/GET/controls或期限修改、无活跃参数变更、不R2；原控制与候选资格分开，完整主动成本与净收益未知。

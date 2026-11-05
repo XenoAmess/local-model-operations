@@ -1,0 +1,185 @@
+{
+  "schema": "local-model-operations.exclusive-dispatch-and-sway-test-candidate/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network": "DIRECT;redirects refused;actual peer UNKNOWN",
+  "cases": [
+    {
+      "task_id": "ordinary-exclusive-stage-dispatch-20261105-01",
+      "source_count": 8,
+      "source_bytes": 103026,
+      "manifest_pin": {
+        "bytes": 5413,
+        "sha256": "a68b0c6cb1748296eb9a1a93cbd97cfa3a3803526801ad986df6b44306738d41"
+      },
+      "task_pin": {
+        "bytes": 3587,
+        "sha256": "5c86adce0bb7cc6105f039561fbe317670a2c0ed48aa61a3181b5900a809091f"
+      },
+      "POST_BEGIN_UTC": "2026-11-05T00:13:25.446344+00:00",
+      "ATTEMPT_END_UTC": "2026-11-05T00:13:34.776737+00:00",
+      "POST": 1,
+      "END": 1,
+      "retry": 0,
+      "fixed_three_messages": true,
+      "actual_parameters": {
+        "max_tokens": 2400,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "JSON_syntax": "VALID",
+      "headers_ms": 4116.588100034278,
+      "effective_content_TTFT_ms": 4117.435700027272,
+      "HTTP_total_ms": 9330.420800019056,
+      "usage": {
+        "prompt_tokens": 22660,
+        "completion_tokens": 664,
+        "total_tokens": 23324
+      },
+      "cached_tokens": null,
+      "REQUEST_pin": {
+        "bytes": 112332,
+        "sha256": "9d0a01b4445caec0397b9dfbf198aeddbf09884f5b1745c882e5ca3a0a6e52f3"
+      },
+      "RESULT_pin": {
+        "bytes": 1304,
+        "sha256": "56d8e1246fcd082c653a30297724facdf26fbce2fa598d9e143cd5241dd049e8"
+      },
+      "CONTENT_pin": {
+        "bytes": 2899,
+        "sha256": "3f58aaea4045a68a968d7f21233e52561087736667f0c99146a91ee76e6e93f0"
+      },
+      "EVENTS_pin": {
+        "bytes": 2831,
+        "sha256": "a68e3c315af01119f9aa02382594776863a06cfbd062746d4c299e2e6ec21ae9"
+      },
+      "audit": {
+        "errors": 0,
+        "discrepancies": 0,
+        "CONTENT_equals_SSE_UTF8": true,
+        "pin": {
+          "bytes": 4462,
+          "sha256": "b6630706817390a4e89f2bdca2ef50a72359d6300769ca8f96519eca8c6dc4a1"
+        }
+      },
+      "complete_raw_delivered_immediately_to_source_owner": true,
+      "source_review_at_immediate_handoff_cut": "PENDING_OWNER_REVIEW",
+      "source_adoption_or_candidate_JVM_software_Runtime_success_not_inferred": true
+    },
+    {
+      "task_id": "sway-build-admission-independent-data-test-20261105-01",
+      "source_count": 5,
+      "source_bytes": 33082,
+      "manifest_pin": {
+        "bytes": 6297,
+        "sha256": "30ad8e8a855be262beef803f90f7ebac69a253acdeb1ff135ecc5b25cf2e742d"
+      },
+      "task_pin": {
+        "bytes": 4348,
+        "sha256": "a38508bcb895a15fcc895175045239fa0a6085a8cef38badefbe52ea1a6e6bd8"
+      },
+      "POST_BEGIN_UTC": "2026-11-05T00:13:26.782200+00:00",
+      "ATTEMPT_END_UTC": "2026-11-05T00:13:40.761256+00:00",
+      "POST": 1,
+      "END": 1,
+      "retry": 0,
+      "fixed_three_messages": true,
+      "actual_parameters": {
+        "max_tokens": 4000,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "HTTP_status": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "JSON_syntax": "VALID",
+      "headers_ms": 3058.731000055559,
+      "effective_content_TTFT_ms": 3059.533200052101,
+      "HTTP_total_ms": 13979.122300050221,
+      "usage": {
+        "prompt_tokens": 8973,
+        "completion_tokens": 1780,
+        "total_tokens": 10753
+      },
+      "cached_tokens": null,
+      "REQUEST_pin": {
+        "bytes": 40643,
+        "sha256": "205d939c366bc9d5edbc979bc04eaa9e3dfb072f9a240f2bdd9b370960686d4e"
+      },
+      "RESULT_pin": {
+        "bytes": 1301,
+        "sha256": "732d78c427f6a6c5feee1f94e4a878234e71fafaff0a63138afce10181b9851f"
+      },
+      "CONTENT_pin": {
+        "bytes": 6702,
+        "sha256": "b980efb3a5df4343753c0a084e8516624c71a84ff22e15c6e95509ec50da12f1"
+      },
+      "EVENTS_pin": {
+        "bytes": 2844,
+        "sha256": "27847e8fa5726bdc251ea17f3ee14817b86f034c4924856feecbe3b62a51bfb1"
+      },
+      "audit": {
+        "errors": 0,
+        "discrepancies": 0,
+        "CONTENT_equals_SSE_UTF8": true,
+        "pin": {
+          "bytes": 4463,
+          "sha256": "ba5df844f5f9459ca96cdb2666697885254c895764bdd8478431ac323e3e8b76"
+        }
+      },
+      "complete_raw_delivered_immediately_to_source_owner": true,
+      "source_review_at_immediate_handoff_cut": "PENDING_OWNER_REVIEW",
+      "source_adoption_or_candidate_JVM_software_Runtime_success_not_inferred": true
+    }
+  ],
+  "both_manifests_complete_before_this_finite_intake_no_wait_for_another_source_ACK_or_Git": true,
+  "P0_first_POST_lead_seconds": 1.335856,
+  "actual_client_source_peak": 2,
+  "peak2_duration_seconds": 7.994537,
+  "complete_window_seconds": 15.314912,
+  "Runtime_decision_HTTP_or_server_running_not_counted": true,
+  "P0_scope": "Only actual current Planner ordinary loop after each stage dispatches existing result or protected exclusive draft to original finish. Keep exact State.run304/finish/earlier routes/typed checks and original priorities. Actual failing policy/stage NOT_HELD.",
+  "P0_current_Runtime_manifest_bound_even_though_source_SHA_matches_earlier_snapshot": true,
+  "Sway_Test_scope": "New standalone2noarg tests against owner13ff constructor and real Service.stage; known label/upper/lower fingerprint source retention and unsupported guard errors.",
+  "Sway_source_roles": "Four actual/candidate producer/callee sources plus one complete formal ExactRef API reference, not new Runtime adoption.",
+  "prior_constructor_generation_rejected_zero_adoption_no_R2": true,
+  "old_scaffold_or_goldens_not_new_model_contribution": true,
+  "active_caller_or_parameters_changed": false,
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 459
+    },
+    "leases.db": {
+      "RELEASED": 459
+    }
+  },
+  "source_HTTP_inflight_after_END": 0,
+  "automatic_R2": false,
+  "Models_JVM_UI_Runtime_Game_GET_controls_or_deadline_changes": 0,
+  "later_source_review_compile_Test_formal_actual_recovery_or_natural_M6_separate": true,
+  "full_owner_active_preparation_review_correction_cost_and_net_savings": null
+}
