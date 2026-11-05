@@ -1,0 +1,206 @@
+{
+  "schema": "local-model-operations.event-applied-pending-history-recovery-length/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-event-applied-pending-history-recovery-20261105-01",
+  "new_real_complex3target_P038_not_prior_task_R2": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_actual_sources": 7,
+  "input_bytes": 794266,
+  "manifest_pin": {
+    "bytes": 3440,
+    "sha256": "da227ef4c2ff28df2f763b287eaa4c9db3ed207ef9da5c625fb58b2f85f480f7"
+  },
+  "contract_pin": {
+    "bytes": 5273,
+    "sha256": "a329ba5897e27e372c352a11ff6c0963f1ba2dab1c7961fa57f363abe45ac9a6"
+  },
+  "original527_context_pin_only": {
+    "bytes": 19519,
+    "sha256": "63c95323d2b046e4e428cfde094c6ce1623fe78458643bda726218361a4bbbf7"
+  },
+  "actual527_raw_not_in_prefix": true,
+  "actual_prefix": {
+    "REQUEST_pin": {
+      "bytes": 814838,
+      "sha256": "7eec97a6e10139acc4ff12e2c5d0bc11800162b084cf250476df1f1b9b41d431"
+    },
+    "source_message_pin": {
+      "bytes": 796235,
+      "sha256": "3bedae35edcb8a0fe17a74c062bfa924fad3c8f76afe8690664009dc83939bbe"
+    },
+    "complete_input_files": [
+      {
+        "role": "target_batch",
+        "bytes": 337557,
+        "sha256": "dbd6d7804fa342a52f0c9f3e450d957d29092c428ef44705472b12e518c74d9b",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "target_core",
+        "bytes": 248324,
+        "sha256": "dd56e858d7e6a627a732c645192dff3ec3ce4814da5273899aa5edc6374715dd",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "target_driver",
+        "bytes": 139893,
+        "sha256": "62550b99f2d94da0349c0ecacb9c045c15e223232401af24b158f833002d782a",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "current_effect_validation",
+        "bytes": 43738,
+        "sha256": "03432d732d42971c593fdd267f2c893511b0e675d1c00d09f00740644a57cb00",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "current_state_DATA",
+        "bytes": 13788,
+        "sha256": "5d047957db87d214eb3a81af6f94b6f01d952519028b5b7b5f0951e5bc1e935a",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "current_receipt",
+        "bytes": 5103,
+        "sha256": "1b355b55582402df6c17de7f1bdffbea391a00a9eb6f8a55d8d6e88052456fed",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "current_command",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ],
+    "all7_full_text_in_actual_REQUEST": true
+  },
+  "requested_targets_only": [
+    "ContinuityBatchJournal",
+    "RootApplicationAssembly.Core",
+    "DriverBootstrap"
+  ],
+  "owner_exact_prePOST_design_contract": "Strict alreadySETTLED/Applied zero-dayEVENT missinghistory/cycle readonlyDATA completion role. Complete canonical set/latesthead/full command/owner/source/Attempt/positiveACK/custody and independent ActionEffects required; exact historical original+ColdAfterACK realREADproof, sameactor/date/session/game, authenticated cycle frontier earlierthanlatest. Only selected latest action cycle exception; all other missingcycles fail. No fakeUNKNOWN/pending/cycle or issuedSettledDATA. Root/Driver exactrole routing retains outercompletecanonicalAND and all mandatory history/Root/Scope/source/frozen/FOCUS guards.",
+  "original_command_expected19_and_actual26_unchanged": true,
+  "original527_SETTLED_from_owner_context_not_HTTP": true,
+  "no_control_replay_newGamequery_SAVE_or_issuer": true,
+  "owner_strong_guidance_not_model_autonomous_discovery": true,
+  "POST_BEGIN_UTC": "2026-11-05T06:45:43.809119+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T06:47:10.064724+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "actual_parameters": {
+    "model": "qwen38-coder",
+    "max_tokens": 12000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "length",
+  "DONE": true,
+  "candidate_complete": false,
+  "JSON_syntax": {
+    "status": "UNKNOWN",
+    "top_level_type": "UNKNOWN",
+    "reason": "NON_STOP_FINISH",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 20190.71499997517,
+  "effective_content_TTFT_ms": 20191.71980000101,
+  "total_ms": 86255.10219996795,
+  "usage": {
+    "prompt_tokens": 156485,
+    "completion_tokens": 12000,
+    "total_tokens": 168485
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 814838,
+    "sha256": "7eec97a6e10139acc4ff12e2c5d0bc11800162b084cf250476df1f1b9b41d431"
+  },
+  "RESULT_pin": {
+    "bytes": 1323,
+    "sha256": "6964c6fc42af75d59ac84241c75b117ccfc321777cbc5b98dc54ddc8e9a3c728"
+  },
+  "EVENTS_pin": {
+    "bytes": 2901,
+    "sha256": "e346f4b6508228f84b62eabe4861524b441c86d79cfc87f52f72f46059a2d1b3"
+  },
+  "CONTENT_rawSSE": "NOT_OPENED_READ_PARSED_EXTRACTED_OR_HASHED; whole discarded",
+  "CONTENT_rawSSE_pin": "NOT_READ_OR_HASHED",
+  "auditor": "NOT_RUN_ON_LENGTH_DIRECTORY",
+  "adopted_code_methods_partial": 0,
+  "model_candidate_JVM": 0,
+  "R2": 0,
+  "actual_END_immediately_delivered_before_Git": true,
+  "owner_replacement_source_software_actual": "PENDING; not backcredited to unread output",
+  "budget_result": "Explicit12000 for this genuinelynew complex unit still reached cap with incomplete candidate. Higher finite budget did not obtain completeness here; no 16k automaticR2, no body-based cause inference or permanent capability/capacity claim.",
+  "PREP_events": [
+    {
+      "at_utc": "2026-11-05T06:44:58.6229711+00:00",
+      "task_id": "ordinary-event-applied-pending-history-recovery-20261105-01",
+      "Models_JVM_C_GET_Game": 0,
+      "POST": 0,
+      "event": "PREP_BEGIN"
+    },
+    {
+      "event": "PREP_END",
+      "at_utc": "2026-11-05T06:45:41.753171+00:00",
+      "task_id": "ordinary-event-applied-pending-history-recovery-20261105-01",
+      "all7fullinputs_contract_and527pin_verified": true,
+      "POST": 0,
+      "Models_JVM_C_GET_Game": 0
+    }
+  ],
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 481
+    },
+    "leases.db": {
+      "RELEASED": 481
+    }
+  },
+  "READY_records_not_concurrency": 67,
+  "source_HTTP_inflight_after_END": 0,
+  "finite_wrapper_returned_normally": true,
+  "caller_exit": 1,
+  "Models_JVM_SDK_C_UI_GET_Game": 0,
+  "no_active_caller_config_service_Runtime_parameter_changes": true,
+  "no_history_cycle_completion_Root_settlement_LOOP_SAVE_G2_performance_credit_from_HTTP": true,
+  "owner_active_time_and_net_savings": null,
+  "service_global_load": "NOT_HELD"
+}

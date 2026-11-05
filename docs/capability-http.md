@@ -3214,3 +3214,18 @@ owner自行完成Dispatcher17613/1fa2、Core248324/dd56两条实际freshFrameLoa
 fixed3/DIRECT/max1200/thinkingfalse，06:27:37.301767→06:27:48.415109Z真实1POST1END，HTTP200/DONE但length，11.1132801秒/有效TTFT4.2243837秒、32097+1200tokens/cachednull。CONTENT/rawSSE整份未开、未解析、未提取、未哈希，不跑正文审计器；0代码/方法/partial采用、0modelJVM/noR2，实际END立即交Java接管，不等Git。480终态/480释放/66READY累计登记、源码在途0，finite60正常closed/caller1为length，不冒软件编测红，无本HTTP带来的新history发布/Root结算/LOOP/SAVE/G2/性能信用，0JVM/C/UI/GET/Game/参数变更。
 
 单表达式1200也未取得完整稿，不能仅凭语义改动小推断输出必短；相邻59在1800内stop710却是语义no-op，完整和正确须分验。下一真正新任务继续按实际输出审定有限预算，复杂单位12k等指导保，不重投60、不读半稿、不改活跃参数，正文与具体截断原因NOT_HELD。共享干净FF保远端HOI4类别算术附页d228b94，完整主动成本和净收益未知。
+
+
+## 2026-11-05：已 Applied 零日 EVENT 只读 completion 新三叶任务，12k仍length
+
+[新task61](evidence/2026-11-05-http-event-applied-pending-history-recovery-length.json)使用完整7actual源码794266B与5273B锁定合同，实际REQUEST全文核验，原527仅pin上下文且全文未加前缀。只Batch/Core/Driver新增严格已SETTLED/Applied零日EVENT缺history/cycle的只读DATA角色；完整canonical/latest/原command/Attempt/正ACK/真实custody/独立ActionEffects/历史原件ColdAfterACK/更早合法cyclefrontier与sameactor/date/source/session均必需。只豁免精确选中latest的cycle要求，所有其它缺cycle仍拒；不造UNKNOWN/pending/cycle/issuer，不动旧3129/FOCUSGuard及完整Root/Driver frozen/outercanonical集合检查，不重控。
+
+fixed3/DIRECT/max12000/thinkingfalse，06:45:43.809119→06:47:10.064724Z真实1POST1END，HTTP200/DONE但length，86.2551022秒/有效TTFT20.1917198秒、156485+12000tokens/cachednull。CONTENT/rawSSE整份未开、未解析、未提取、未哈希，不跑正文审计器，0代码/方法/partial采用、0modelJVM/noR2，END立即交Java接管再后见/Git。481终态/481释放/67READY累计登记、源码在途0，finite61正常closed/caller1为length；原527已结算为owner现场上下文，不授本模型新的history/cycle结算/Root/LOOP/SAVE/G2/性能。
+
+这是按新复杂单位显式采用12k的实际失败结果，提高预算在本次仍未取得完整候选，不能写成已改善或保证完成；不自动加16k重发、不读半稿猜具体原因、不宣称永久能力或context容量上限。完整主动成本/净收益未知，活跃caller/服务/Runtime参数不动，0JVM/C/UI/GET/Game。
+
+## 2026-11-05：History 单表达式 owner 首编与108→10 metadata纠正
+
+[owner e45f/Nativec165与additive纠正](evidence/2026-11-05-http-history-event-read-verifier-owner-typed-later.json)补60length切点：owner单expr源码68876/e45f在06:27:05已独立完成，早于该HTTP终态；owned一块逆换全还原68825/7363。原length1200全文/SSE未读未哈希、0采用/0rawJVM/noR2继续保，不能把owner后继源码/型验回授模型。
+
+必要1TU实际10个SourceFile class首0/9.1595614秒，全10结构shapeequal，前后binary pins、ACTUAL/config/begin/post/terminal/close/fence具名核验，close0/released；结构相同不等于class字节相同。原QUAL顶层108是模板文本替换误写，原件保留；OUTPUTS数组10、family10、additive CLASS-COUNT-CORRECTION均独核，未新JVM/RUN。无新Test/旧58RUN，正式bb9a8e58按owner回执remote同clean，actual37 history发布另证，不授Root/custody正例/LOOP/SAVE/性能。后到预算建议仅针对全新小任务明确1800–2400等有限值，不复投60/改旧请求，0新HTTP/JVM/Game。
