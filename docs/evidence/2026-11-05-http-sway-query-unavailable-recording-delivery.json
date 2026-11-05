@@ -1,0 +1,156 @@
+{
+  "schema": "local-model-operations.http-sway-query-unavailable-recording-delivery/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T15:35:10.987481+00:00",
+  "project": "CK3",
+  "task_id": "ordinary-sway-query-unavailable-result-recording-20261105-01",
+  "input": {
+    "manifest_pin": {
+      "bytes": 2631,
+      "sha256": "9c7bffb24e54ec03939feb1cee8febb2e9b0504da6f25609e3746dc93a06749e"
+    },
+    "contract_pin": {
+      "bytes": 2636,
+      "sha256": "e472326a9a07685742027d78954cfb36767a4e47b4f10c6ed6d726ba8f682e99"
+    },
+    "full_files": 5,
+    "full_bytes": 98743,
+    "actual_Java": 3,
+    "whole_private_actual_JSON": 2,
+    "all5_full_text_in_actual_REQUEST": true,
+    "REQUEST_pin": {
+      "bytes": 107634,
+      "sha256": "f7f7e5ed952d221c03a83937d27ac23c5f487f4f0fe1e3b56c345447f9da2ca5"
+    },
+    "source_message_pin": {
+      "bytes": 99924,
+      "sha256": "e6ca542873b2e7b46c99cc1c85314abfca545f6a8f6a5e141617251974e14ba3"
+    },
+    "ordered_file_roles_and_pins": [
+      {
+        "role": "target_actual_SwayExecutor",
+        "bytes": 34789,
+        "sha256": "f78209ac3d3ac979b6e719642d2757ec0c94d8b549fcf469cc9ff433bd78e211",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_Service_Unavailable_API",
+        "bytes": 13714,
+        "sha256": "9c9c697db456829c67f7ecd4ece444f2ce9a28514a0e5293c21a67eac48f62f1",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_full_replay",
+        "bytes": 19725,
+        "sha256": "94af38166ce4e8d9567e3788e185783e88819685b6c6480d41a553cd0555dd9f",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "whole_actual_Failure53",
+        "bytes": 27185,
+        "sha256": "3edd363026a014c0d1da29f9ef8a683e72b21b64c624b02d4b4e85909b9b99a0",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "whole_actual_Stage662",
+        "bytes": 3330,
+        "sha256": "b419e01f4ccdb8c450420d96dffaf31caef65416694907f14cc5d40f284d3fbf",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ]
+  },
+  "owner_precise_contract": {
+    "target": "Only actual SwayOrdinaryExecutor existing queryAndConsume recording catch, add existing OrdinarySwayService.Unavailable to actual unavailable(failure) recording. No newtype/interface/callback/testseam.",
+    "source_causal_observation": "Port.target may throw actual Unavailable; Service catches it to LocalUNAVAILABLE while Port.result remainsnull, so saveScheduler chooses different knownempty frontier. ActualReplay may convert its typecheck exception into unavailable before fullresult equality. This source defect is diagnosed by owner, not autonomous model discovery.",
+    "preserve": "First ReadPublicationRequiredException catch byteexact, remain publication/replanning controlflow. observeLifecycle/saveScheduler/service/replay fullAND108/READframes/source/child/canonical/parent/budgets/deadline checks unchanged; no broader catch/replay/check relaxation.",
+    "unknown_actuals": "Original parent stillUNKNOWN, only Stage iscommitted; predecessor is oldSaved. NewRun ExactRef NOT_HELD; no scan/substitution/synthesized result/exactpredicatevalue or inferred terminal. Strong original read-only recovery profile separate.",
+    "forbid": "No retry/query/execute/deadline refresh/Guard expansion/privateRoot/mirrorcatchTest/JVM/GET/Game, no oldsource83R2."
+  },
+  "POST_BEGIN_UTC": "2026-11-05T15:33:25.219091+00:00",
+  "END_UTC": "2026-11-05T15:33:33.122694+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 2500,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "candidate_complete": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 3996.3856999529526,
+  "effective_content_TTFT_ms": 3997.3923999932595,
+  "total_ms": 7903.419799986295,
+  "reported_usage": {
+    "prompt_tokens": 29916,
+    "completion_tokens": 576,
+    "total_tokens": 30492
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1272,
+    "sha256": "ea1fd06a43c714f11bf275e4c74f7517fb846dd6ecfb966eb80a3a9ef01bc8fe"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 2599,
+    "sha256": "84fbae394d3d0a2fd12c4fe2ee73ac115a8497e2840e5b6689757117560c79a4"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_before_audit_Git": true,
+  "source_adoption_at_delivery_cut": {
+    "status": "PENDING_OWNER_REVIEW",
+    "whole_method_span_literal_partial": "PENDING",
+    "raw_JVM_compile_or_RUN": 0,
+    "R2": 0
+  },
+  "operations": {
+    "readonly_queue": {
+      "dispatch.db": {
+        "COMPLETED": 505
+      },
+      "leases.db": {
+        "RELEASED": 505
+      }
+    },
+    "READY_records_not_concurrency": 91,
+    "source_HTTP_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "daily_OpenCode": "2026-11-05 successful1.19.5cache reused",
+    "global_service_load": "NOT_HELD",
+    "Models_JVM_SDK_C_GET_Game": 0,
+    "business_model_decision_HTTP": 0,
+    "active_caller_config_service_Runtime_changed": false,
+    "net_owner_active_time_savings": null
+  },
+  "limits": [
+    "Stop/JSONvalid/fullprefix/UTF8 are transport facts, not correct exception type/flow/source/type/behavior.",
+    "Concrete futureproducer bug does not reveal original NewRun or oldparent terminal; privateRoot/custody/coldprofile/actualRuntime separate.",
+    "No actual netperformance/SAVE/G2 or budget/cache/context/permanent capability inference; cachednull/peerUNKNOWN unchanged.",
+    "All older length CONTENT/rawSSE wholeunread/unparsed/unextracted/unhashed0adopt/noR2."
+  ]
+}

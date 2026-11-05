@@ -3584,3 +3584,12 @@ fixed3/DIRECT/max8000/thinkingfalse，15:09:18.106341→15:09:39.453593Z实际1P
 
 
 84 后到正式源审：完整Test method/literal/rawJVM/R2均0。actualhelper+orderedinverse方向接受，但不存在的MessageDigest.createInstance、多处ArrayNode直接接JsonNode、缺JsonNodeFactory import属于source错误；自造source_frame缺完整身份使所谓阳性先拒，10个null边界/精确decimaltokens/hugeint/unknownnested覆盖不全，输入不变性也未核全bytes。百万逐byte断言含failure字符串的额外成本未实测、不采用该写法，不报实际JVM耗时或红绿。owner完整新Test独立先行，后续producer03型验与新1TU/1method首验另证，不能回填HTTP输入或授raw软件通过。[正式拒收、原件pin与owner边界](evidence/2026-11-05-http-item-dictionary-data-test-formal-review.json)。
+
+
+## 2026-11-05：Sway query Unavailable 真实记录窄修85 完整交付
+
+独立85完整提供5份98743B（actualExecutor/Service/Replay三Java+完整Failure/Stage两JSON），只要求queryAndConsume现recording catch纳入既有Unavailable，沿原unavailable(failure)保实际结果与error。首ReadPublicationRequired catch逐字保留，publication/replan控制流不能混成普通unavailable；observeLifecycle/saveScheduler/service/replay AND108/READ/child/canonical/source/旧期限全部不动。owner已明确source-causal defect，但原parent仍UNKNOWN、只有Stage、newRun ref未持，不能猜原result或授旧终态；强coldprofile另证，不借本任务query/execute/宽guard或镜像catch Test。
+
+fixed3/DIRECT/max2500/thinkingfalse，15:33:25.219091→15:33:33.122694Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，7.9034198秒、有效内容TTFT3.9973924秒，reported29916+576、cached=null。首工具回执已完整END，原件即交Java；实际5全文与合同核符、CONTENT=SSE审计errors/差异为空。交付切点采用待审，0rawJVM/noR2，不把完整传输当合法catch/source/编测/原parent恢复。
+
+只读505COMPLETED/505RELEASED、91READY非并发、source0；无新sole需求不造86。0本岗JVM/Game/GET/运行期decisionHTTP/活跃参数变更，后端负载未采样，owner净工时收益未知；旧length正文/SSE整份未读未hash，实际Root/custody/强coldprofile/LOOP/SAVE/G2/性能分层另证。[全输入、精确参数/成本与未持边界](evidence/2026-11-05-http-sway-query-unavailable-recording-delivery.json)。
