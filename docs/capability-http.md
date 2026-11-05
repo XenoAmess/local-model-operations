@@ -3066,3 +3066,24 @@ fixed3/DIRECT/max8000/thinkingfalse，1POST1stop，54.0940034秒/有效TTFT18.48
 [独立公开DATA selector新测试](evidence/2026-11-05-http-event-isolated-selector-Test-length.json)使用22完整505677B，实际REQUEST逐份核全文：17Java、3个.json、dispatch1968/prepared395两份UTF8 JSON-in-.bin；另四个wirepayload只requiredpins。此前消息“六bin全只metadata”措辞不准，已告两owner并只读核原REQUEST澄清；封包始终符合原manifest，两个JSON-in-bin本已全文进入，没有过滤、输入修复、改REQUEST或重POST。原件与准备metadata不回写，公开只pin/格式。
 
 fixed3/DIRECT/max6000/thinkingfalse，1POST1END，HTTP200/DONE但length，47.0520052秒/有效TTFT14.2454099秒、110924+6000tokens/cachednull；CONTENT/rawSSE整份未开未解析未提取未哈希，0代码采用/0candidateJVM，不跑bodyauditor、不拼接、不R2，完整JSON与候选语义未知。生产49两个新helper采用是另一源码单元，不能回授本Test。470终态/470租约释放/0源码在途，finite50正常closed/caller1，owner接管；无fullhistory/私Root/实际521恢复/编测/Game资格，0新JVM/C/UI/GET/Game/参数变更。完整owner主动成本与净收益未知。
+
+
+## 2026-11-05：Offline v3 全拒与 owner source-only 后见
+
+[正式review6764/SourceReady0d81](evidence/2026-11-05-http-offline-v3-owner-source.json)补原pending：dea834完整diff/newhelpers/methods/partial逻辑均0采用，owner44970/7a807全实现；独立逆换两owned块还原原27596/2073，原v1/v2/库存/边界/parser/hash按source合同保。原稿错original_index与scan文件、v3接受非null policy、缺canonical/refs闭包及checked SHA/import错误均保；第14字段observation_supporting_refs是POST后owner义务，不能倒灌原合同或当模型漏供字段。该切点compile/behavior/Runtime全NOT_RUN，不授Root/old521。原成本17.1018542秒/TTFT2.8616265秒，47是wrapper编号，不是47秒；0新HTTP/JVM/Game。
+
+## 2026-11-05：Selector owner 2P与生产 typed20 后见
+
+[独验e2c557与Native cohort02 d2f1](evidence/2026-11-05-http-event-selector-owner-software.json)补length切点：owner新16231/c43d必要1TU2class首0/4.3897485秒，新2P/JVM4.3576775秒/XML2.441、8有意故障，原件/pins/方法/DATA和close0/fence/released独核。owner01 compoundvar仅source-only修、0JVM，非compiler红；模型length6000原文/SSE仍未读未hash、0采用/noR2，owner绿不回授半稿。生产dbd6真1TU/20family/9.9391552秒首0，模型两个方法源码partial与owner classifier/routing分账；两DATA只验公开selector/classifier，不授savedIsolatedEventData、全history或私Root行为。
+业务e7825e86正式只owned投影，formal07a691/6d54与actual whole不同，不whole授绿；Hosted源码/原payload不入Git。既有owner2P也不证明实际521结算、Game/SAVE/G2或提速，0新HTTP/JVM/Game，完整owner主动成本/净收益未知。
+
+## 2026-11-05：Driver 历史角色下游新 P0 首派
+
+[新Driverrole候选](evidence/2026-11-05-http-event-driver-history-role-candidate.json)使用actualDriver139691/1678与已部署Batch337557/dbd6两完整源码共477248B，实际REQUEST核全文；仅guardOR加入strictEVENT root(完整lease.snapshot.actions)，所有outerHashSet AND/oldroles/else/lease/history/Driver/noSubmit/期限与预算须保。fixed3/DIRECT/max2400/thinkingfalse，1POST1stop，15.3526583秒/有效TTFT12.2954339秒、95871+508tokens/cachednull；2351B raw即时交Java，随后CONTENT=SSE/0discrepancy。即时交付切点待源审，不授代码、编测或实际恢复；471终态/471租约释放/0源码在途，finite51正常closed/caller0，0JVM/C/UI/GET/Game/参数改动，完整owner主动成本未知。
+
+
+## 2026-11-05：Driver 两行 OR 语义采用
+
+[正式review cdec/owner SourceReady c82c](evidence/2026-11-05-http-event-driver-role-owner-source.json)补pending：原两条新增OR行完整LF文本在candidate6255中逐字匹配，语义采用；整patch不采用，原hunk上下文/顺序虚构、old7/new8与+2行计数不符，owner按真实唯一anchor机械修。原JSON用applicable_unified_diff而非请求key，按实际key读取，无R2；可选diagnostic的Life/SAVE→isolated是owner更新。
+
+候选139893/6255逆换两个owned块完整还原actual139691/1678，outer完整canonical HashSet AND、所有旧roles/else/fences/status/Native调用及完整snapshot参数均保，无新method/field/type/import/API。sourcecut仍source_only，旧selector2P是参考而非新Driver/私Root行为资格；Java报告formal前后whole源码与actual相同，也不授formalcohort/type/runtime或实际521恢复。原15.3527秒/TTFT12.2954秒成本保，owner原已精确诊断强引导，不称模型自主发现；0新HTTP/JVM/Game、不R2，完整主动成本/净收益未知。
