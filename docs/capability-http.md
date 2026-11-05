@@ -3346,3 +3346,12 @@ fixed3/DIRECT/max10000/thinkingfalse，08:12:44.976874→08:14:09.718508Z真实1
 ### 后到源审：单调用语义接受，owner 独立实施，literal copy 0
 
 08:54:58 的正式owner审查接受借用原会话的单调用语义；raw hunk 的106行位置与实际方法不符，未直接apply。owner432c在消费完整raw前已独立冻结，0literalcopy/0rawJVM/noR2，不能把表达式一致称为代码导入。此附记不新增软件或实际537恢复资格，前一交付待审切点保留。[源审pin与分层](evidence/2026-11-05-http-sway-borrowed-observation-owner-review.json)。
+
+
+## 2026-11-05：原 Sway 零写观察两目标候选达到 10000 上限
+
+新独立单位完整提供18份输入400280B（14actualJava+4完整私有JSON），437786B历史清单按合同只pin、不内联；实际REQUEST中18份全文逐一核实。仅Composite+Domain，使用既有NoGameplay终态/DTO/ZeroGameplay opt-in，要求原UNKNOWN全链、不可变历史writerpoint与installed/cold证明；另三Bootstrap DATA叶由owner独立实现，不扩大目标或授权重跑原537。
+
+fixed3/DIRECT/max10000/thinkingfalse，09:12:33.226972→09:13:42.761384Z真实1POST/1END，HTTP200/DONE/length，69.5344126秒、有效内容TTFT14.2206秒，reported111079+10000、cached=null。CONTENT及rawSSE整份未开/读/解析/提取/hash，未运行目录审计，0代码/方法/partial采用、0rawJVM/noR2。END已在文档/Git前即时交owner接管，不读半稿推断语义、输入质量或截断成因。
+
+487→488COMPLETED及RELEASED只代表实际任务闭合，74READY不是并发；源码在途0。新复杂两叶的10k截断与此前12k截断、67单表达式3000预算下完整456输出并列，不能推出预算永久边界、缓存或修复收益，也不自动改参数或重派。原件成本与约束见[脱敏证据](evidence/2026-11-05-http-sway-original-zero-gameplay-length.json)。本切点无软件、私有Root、原537终态或Runtime/LOOP/SAVE/G2/性能资格；owner源码和必要验证独立继续。
