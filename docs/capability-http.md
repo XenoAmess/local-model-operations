@@ -3742,3 +3742,15 @@ fixed3/DIRECT/max6000/thinkingfalse，18:56:36.536538→18:57:12.526321Z真实1P
 fixed3/DIRECT/max10000/thinkingfalse，19:05:12.018246→19:06:11.170170Z真实1POST/1END（本地Nov06），HTTP200/DONE/length10000/candidateCompletefalse，59.1519775秒、有效内容TTFT4.224648秒，reported31852+10000/cached=null。CONTENT/rawSSE整份未开/未解析/未提取/未hash，不运行正文auditor、不拼接/续稿/R2，0任何代码采用/0rawJVM；caller1明确length，非瞬错。元数据终态先告Java/Root，owner接管不等后见。[完整输入pin、预算成本与严格弃置](evidence/2026-11-06-http-preserved-failure-versioned-reanalysis-length.json)。
 
 本次不足10万输入字节仍10k截断，不能按小输入/窄target预认输出够用，也不能从未读正文猜原因或永久能力边界；后继真正新复杂版本状态机/fixture任务应与owner审足有限预算，保窄span/完整stream，不改94或active参数。只读514COMPLETED/514RELEASED、100READY非并发、source0，无下一真实源不造95；Nov06成功1.19.5缓存复用、0额外维护probe/本岗JVM/Game/GET/JFR/活跃配置变更。旧8成功/clean ticket/P052/实际Runtime/速度均未授，旧length正文/SSE继续完整未读未hash0采用/noR2。
+
+
+
+## 2026-11-06：Source95 actualJournal scan/v3 callback独立交付；94正式整弃后见
+
+95是新P057第三叶，非94重投；4全文176091B（2Java+2actualJSON）实际REQUEST全核，仅EpisodeIncidentJournal668d acknowledge目标，RootIncident9bfb只同真Session委托上下文。前导航误称Root目标已在任何错误实现前纠正。合同v3独立closedfieldset/fullhistoricalBinding/episodeRef/有限inventory/counters/正boundedprogressref完整original_refs成员+路径唯一/总量，复用现requireProgress真immutable SHA/origin/source/session；历史binding非未来frame。整个v2/reportvalidation/真reviewindexwriter与producer保持，坏recognizedv3拒不fallback，不只ORschema，不新类型/API/import/authority/currentReady/Game。
+
+fixed3/DIRECT/max4000/thinkingfalse，19:17:07.327144→19:17:16.655570Z真实1POST/1END（本地Nov06），HTTP200/DONE/stop/JSONvalid，9.3284092秒、有效内容TTFT5.2379163秒，reported38850+708/cached=null。原件先交Java后audit/Git，CONTENT=SSE差异空；交付采用待源审、0rawJVM/noR2，完整传输不授v3/progress/oldv2或callback实际通过。三叶资格/一致装载及旧8完成/clean/P052仍由Runtime独立实证，不等运营。[输入pin、参数成本与强合同](evidence/2026-11-06-http-offline-review-scan-v3-delivery.json)。
+
+随后95正式全读源审：v3/binding/episode/progress成员方向同意，但未闭合fieldset、counter仅integral而缺0..256及<=captured、original_refs缺<=1026限；完整patch/方法/partial/literal/rawJVM/R2全0，源审合同/bounds拒收非实际compiler红。owner第三叶在完整raw审前已独立实现/型验，报告14CF0和另两叶11CF另层；实际三源GET由Runtime独立，不据此授旧8/clean/P052，原交付pending切点保。
+
+94后到owner正式回执只读RESULT/SUMMARY元数据，1184B/5984cb8e，确认length全文/SSE从未开/hash、无parse/extract/拼接、whole/method/partial/literal/rawJVM/R2全0。独立owner Worker02/真实M6v3/第三callback新源及型验另层，不回授半稿；旧94budget cut不改。只读515COMPLETED/515RELEASED、101READY非并发、source0，Nov06成功1.19.5缓存复用、0额外维护probe/本岗JVM/Game/GET/JFR/活跃参数改；无真实新源不造96。
