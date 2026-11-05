@@ -1,0 +1,145 @@
+{
+  "schema": "local-model-operations.reconciliation-io-cause-diagnostic-candidate/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-reconciliation-io-cause-diagnostic-20261105-01",
+  "new_real_P0_diagnostic_not_prior_task_R2": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_actual_sources": 1,
+  "input_bytes": 58485,
+  "manifest_pin": {
+    "bytes": 1017,
+    "sha256": "4cc6887fd53f481083f0b5a752e3566d228ec03bfe33bec180ff934d54f9af15"
+  },
+  "contract_pin": {
+    "bytes": 2280,
+    "sha256": "5550e8ea083c000ff578d828a5e4e6a55bac37e697b92138e711df6ae1701d55"
+  },
+  "actual_prefix": {
+    "REQUEST_pin": {
+      "bytes": 62788,
+      "sha256": "1943ce89233fbca3c1d1e3ec169dc07044fdeacd64947be59add9628b9dfa73d"
+    },
+    "source_message_pin": {
+      "bytes": 58879,
+      "sha256": "56647b66a89bcb5c950d17658ce7c46cbdb75938f38c8879a1a127e33d18c237"
+    },
+    "complete_input_files": [
+      {
+        "role": "sole_actual_target",
+        "bytes": 58485,
+        "sha256": "bc3246f0da919ac2e31a0a884497948ca39803ef44241ce7d8c4780bfbe0a219",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ],
+    "all1_full_text_in_actual_REQUEST": true
+  },
+  "requested_target": "ActionCoordinator IOException catch only, immediately before original Unknown append",
+  "contract": "Bounded best-effort actual exception/cause/frames stdout JSON. At most3 cause levels, class96/message192/4 frames last160chars each, canonical explicit16384bytes. Diagnostic RuntimeException ignored; original Unknown return/body/evidence/deadline/guards and original append failures unchanged. No helper/field/type/import/thread/file API or inferred cause.",
+  "owner_exact_prePOST_diagnosis_contract_not_model_autonomous_discovery": true,
+  "POST_BEGIN_UTC": "2026-11-05T05:16:45.590903+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T05:16:51.436129+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "actual_parameters": {
+    "model": "qwen38-coder",
+    "max_tokens": 2400,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "JSON_syntax": "VALID",
+  "headers_ms": 1805.6471000309102,
+  "effective_content_TTFT_ms": 1806.6733999876305,
+  "total_ms": 5845.209599996451,
+  "usage": {
+    "prompt_tokens": 11903,
+    "completion_tokens": 702,
+    "total_tokens": 12605
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 62788,
+    "sha256": "1943ce89233fbca3c1d1e3ec169dc07044fdeacd64947be59add9628b9dfa73d"
+  },
+  "RESULT_pin": {
+    "bytes": 1296,
+    "sha256": "3b0c9d8c5068cc1af87317174eb4c685fcc5579ebb1d6ecc0a9fcb1dd2b650bb"
+  },
+  "EVENTS_pin": {
+    "bytes": 2855,
+    "sha256": "0cf345aa0cba02447c7a3445e95735bde164f12ee289b1e7634a42bd21b31c5d"
+  },
+  "CONTENT_pin": {
+    "bytes": 2957,
+    "sha256": "fbc5ed96d41b84ee87e6b28431137ce03f0922971b1e1318078b9c29747dddd8"
+  },
+  "audit": {
+    "errors": 0,
+    "discrepancies": 0,
+    "CONTENT_equals_SSE_UTF8": true,
+    "pin": {
+      "bytes": 4466,
+      "sha256": "ad210332212b3319564d8a089405b92d62d9bccdc80ed8892cd926d0cff0d537"
+    }
+  },
+  "complete_raw_delivered_before_audit_Git": true,
+  "source_review": "PENDING_AT_DELIVERY_CUT",
+  "candidate_JVM": 0,
+  "R2": 0,
+  "root_cause_or_recovery_fix_from_candidate": "NOT_HELD",
+  "PREP_events": [
+    {
+      "at_utc": "2026-11-05T05:15:59.3458803+00:00",
+      "task_id": "ordinary-reconciliation-io-cause-diagnostic-20261105-01",
+      "Models_JVM_C_GET_Game": 0,
+      "POST": 0,
+      "event": "PREP_BEGIN"
+    },
+    {
+      "event": "PREP_END",
+      "at_utc": "2026-11-05T05:16:33.733924+00:00",
+      "task_id": "ordinary-reconciliation-io-cause-diagnostic-20261105-01",
+      "complete_current_source_and_contract_pins_verified": true,
+      "POST": 0,
+      "Models_JVM_C_GET_Game": 0
+    }
+  ],
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 476
+    },
+    "leases.db": {
+      "RELEASED": 476
+    }
+  },
+  "READY_records_not_concurrency": 62,
+  "source_HTTP_inflight_after_END": 0,
+  "finite_wrapper_returned_normally": true,
+  "caller_exit": 0,
+  "Models_JVM_SDK_C_UI_GET_Game": 0,
+  "no_active_caller_config_service_Runtime_parameter_changes": true,
+  "owner_active_time_and_net_savings": null,
+  "service_global_load": "NOT_HELD"
+}

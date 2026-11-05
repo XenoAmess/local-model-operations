@@ -3134,3 +3134,16 @@ fixed3/DIRECT/max6500/thinkingfalse，1POST1stop，29.4264123秒/有效TTFT3.790
 fixed3/DIRECT/max8000/thinkingfalse，04:51:40.144341→04:52:43.069942Z真实1POST1END，HTTP200/DONE但length，62.9255541秒/有效TTFT18.9818611秒、148320+8000tokens/cachednull。CONTENT与rawSSE整份未开、未解析、未提取、未哈希，不运行读取正文的审计器，0代码/方法/partial采用、0modelJVM/noR2；owner接管原三案例。状态回传晚于真实END，Root先独核元数据并通知owner，此延迟不扩为HTTP时长或继续冒报在途。
 
 475终态/475租约释放/61READY登记不是61并发，源码在途0，finite55正常closed/caller1为length而非软件编测红。后到Journal03只由owner绑定最终CP，不改原37inputs或重POST；0新JVM/C/UI/GET/Game/参数变更，无READ/Root发行/Runtime/事件结算/SAVE/G2/性能资格。完整owner主动成本与净收益未知，旧source/rejection切点保留，不以单次length推断永久能力上限。
+
+
+## 2026-11-05：Reconciliation IOException 原因诊断新候选
+
+[新task56单catch候选](evidence/2026-11-05-http-reconciliation-io-cause-diagnostic-candidate.json)使用当前完整Coordinator58485/bc324与2280B合同，实际REQUEST全文核验。只在原IOException Unknown append前best-effort输出实际class/message/cause/frames有界JSON；不改Unknown原因/evidence/body/deadline、任何Guard或原append失败传播，不猜IOException根因、不新增helper/类型/线程/文件或查询API。
+
+fixed3/DIRECT/max2400/thinkingfalse，05:16:45.590903→05:16:51.436129Z真实1POST1stop，5.8452096秒/有效TTFT1.8066734秒、11903+702tokens/cachednull。2957B完整raw先交Java，随后CONTENT=SSE/审计0差异，交付切点源审pending；JSON有效不授代码、编测、原因诊断已取得或恢复通过，0R2/0ModelsJVM/C/UI/GET/Game/参数变更。476终态/476释放/源码在途0，finite56正常closed/caller0，完整owner主动成本与净收益未知。
+
+## 2026-11-05：独立 Reconciled READ DATA owner 三案例后到3P
+
+[ownerTest02与独立回执](evidence/2026-11-05-http-reconciled-event-read-data-owner-software.json)补原task55 length切点：owner完全接管三个新方法，最终20380B/995391c7必要新1TU3class首0/4.8652138秒，exact3P/JVM4.2689929秒/XML2.42，具名ACTUAL/config/post/terminal/close/fence/输出classpins与XML核验、close0/released。首Test01 fixture canonical输出预算setup3E保，owner只两helper行的三budget标识符从64MiB改合法1MiB，case/assert/DATA/heap/deadline不动；该3E不是生产语义红，不删成本。
+
+通过范围是UNISSUED结构old19/current25、12actualconsumer拒例、strictv4与实际Factory拒非READ ACK/缺原件，真旧READ ACK仍NOT_HELD、私Root/archive/custody正例未授；未重编production/support或旧v3affected1P。原模型62.9256秒length正文/SSE仍未开未哈希、0代码/方法/partial采用、0modelJVM/noR2，owner最终3P不回授模型。业务bf671e9f按owner回执remote同clean，production54两完整方法/wholepatch0模型采用、八叶owner03与独立56type/旧v3causal1P分账；Hosted源码和payload不公开，Runtime34 START/BOOT不授Root effect/结算/SAVE/G2/性能。后见0新HTTP/JVM/Game，旧切点完整保留。
