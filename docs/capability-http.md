@@ -3294,3 +3294,12 @@ Runtime有限冻结codecclosure由原621扩为1029rows，manifest790854B/1e347�
 原模型12k length全文/SSE持续未读未哈希、0代码/方法/partial采用/0modelJVM/noR2；原合同误写ActionCodec.decodeReceipt与后到codec/input closure缺口均owner责任，不能据未读稿归模型违约或推截断因果。通过范围只public selector UNISSUED DATA阳性与明确10拒，不授新wrongdate/state矩阵、私Root/Writer/custody/Native权威或history/cycle/结算/LOOP/SAVE/性能。正式68098685按owner回执exactclean、3TU68typed另账，不授整formalreactor；Hostedpayload/源码仍D-only，0新HTTP/JVM/Game/旧TestRUN，完整主动成本/净收益未知。
 
 后到正式d9bedab1及PUBLISHED027f由owner报告actual39在07:52:35 head528 ACTION/history.action_sequence527、07:53:05 head529 RETAIN原527；Models只读该具名发表回执，未新查Game/worker/账本或独验事件payload。该实际history身份/源/cold/replay越门归owner Runtime，非模型raw编译/代码复制/控制收益；freshSEM/cycleSETTLE/LOOP/SAVE仍未授，0重控。
+
+
+## 2026-11-05：Sway following fresh READ 两叶接线新候选
+
+[新task64](evidence/2026-11-05-http-sway-following-fresh-read-wiring-candidate.json)使用完整5actual源码179744B与2856B合同，实际REQUEST全文核验；只既有Factory purefreshFrameLoader方法改publicstatic（class已public），及actualSwayInstaller.consumeFollowing两frame参数包现有真实wrapper。整个wrapper/verifyFreshSnapshotQuery体不改，actual withReconciliationGuard与末verifyArchived lambda必须逐字保，不用旧formal/plainconstructor替换，不新增type/issuer/module依赖/test。Root/session/Game/source/完整canonical命令/ACK/deadline/后domainload/独立读/output顺序/Blocked/Controller门/frozenM3全保；方法visibility的类型/shape与装载另验。
+
+原527 ACTION528/RETAIN529/zero-daySETTLE530/C23为owner现场上下文；following mandatoryverifier先于domain.load，即使无Swayepisode也不能跳过，更不能借此宣称自然Sway已读或重放527/530。fixed3/DIRECT/max3000/thinkingfalse，08:00:36.898837→08:00:47.409035Z真实1POST1stop，10.509896秒/有效TTFT4.7112361秒、36170+1004tokens/cachednull。完整raw先交Java再audit，CONTENT=SSE/0差异，交付cut采用pending、0candidateJVM/noR2，不授actual40/Controller完成/Root/LOOP/SAVE/G2/性能。
+
+484终态/484释放/70READY累计登记、源码在途0，finite64正常closed/caller0；0JVM/C/UI/GET/Game/活跃参数更改，完整主动成本/净收益未知。3000产完整1004只属本案传输，不泛化预算或语义通过，原12klength与输入质量缺口分层保，不以Git挡owner接管。
