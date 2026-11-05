@@ -3038,3 +3038,10 @@ max5000、固定三消息/DIRECT，1POST1END、HTTP200/stop/DONE/有效JSON，12
 真实未闭TC-031，输入含实际UI城市／单位提供者、普通及宗教地块层消费者与可见性合同。1POST，200／stop／DONE／VALID，6433+1007tokens，7.7311677秒、有效TTFT1.5461987秒，峰1、0重试、cached=null。候选Lua53在`type(visibility:IsVisible)`编译失败；分类外层CIVILIAN／MILITIA／NAVAL、内层LAND互斥，漏实际owner相等、用未资格字段，缺128单位界限和逐城身份／未知接收者核验。0代码采用、0候选游戏执行。
 
 负责人另写只读Lua53并实际UI盘点9可见外国城市／1既有军队候选，60不可用城市接收者保留UNKNOWN。盘点不授征城／守军保持通过，Native结果不算模型生成实效。准备、审阅、修正的实际UTC区间留证；先期选题／读源、完整主动成本和净收益未知，不从HTTP耗时推省工。[逐项、成本与固定业务反链](evidence/2026-11-05-civ6-garrison404.json)。
+
+
+## 2026-11-05：V1 intrinsic DATA 新 Hosted Test 完整稿源审拒收
+
+[新的独立DATA测试首派](evidence/2026-11-05-http-legacy-incident-v1-data-test-candidate.json)使用完整31Java与3actualJSON共645042B，34份全文实际REQUEST逐项核实；required_DATA12项另核pin，stock5共692725B只作属性/manifest输入，不填raw前缀。final04、公开未发行DATA工厂与成熟owner scaffold已完整提供；请求只验真实continuation/intrinsic proof正负与noScope/cold missingVerifier拒，不伪Rootissuer或授实际521结算。
+
+fixed3/DIRECT/max8000/thinkingfalse，1POST1stop，54.0940034秒/有效TTFT18.4816696秒、144222+6125tokens/cachednull；25298B完整raw先交owner，随后核CONTENT=SSE/0discrepancy。owner全文源审报告0完整新增方法采用/0candidateJVM、接管且不R2；partial未明确仍NOT_HELD。缺imports/错JSON API、虚构DTO构造、undefined/static IO错误，真实packet/注解与SHA表示混淆，mutation无acceptedbaseline、缺完整guardproof无法到missingVerifier边界；这是源审拒收，不冒javac/JUnit红。正式review回执后到另附，oldscaffold不算模型新增贡献。468终态/468租约释放/0源码在途，finite48正常closed/caller0，0JVM/C/UI/GET/Game/参数改动，实际payload不公开。远端Civ6文档cefc76c已审后clean ff，caller/config不变；完整owner主动成本与净收益未知。

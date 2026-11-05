@@ -1,0 +1,426 @@
+{
+  "schema": "local-model-operations.legacy-incident-v1-data-test-candidate/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "legacy-incident-v1-data-independent-test-20261105-01",
+  "new_independent_v1_pureDATA_Test_not_old_future_or_producer_R2": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_input_files": 34,
+  "complete_Java_sources": 31,
+  "complete_private_actual_JSON": 3,
+  "total_input_file_bytes": 645042,
+  "manifest_pin": {
+    "bytes": 30115,
+    "sha256": "e6b6c8bea724795c927cc52f4222e85e43641f54cf99ff5ea4a2707245022d90"
+  },
+  "contract_pin": {
+    "bytes": 10511,
+    "sha256": "8ee56cc00594f76aac9acf90af4c49450c23bc55dd2ad01a801581c09af7d6ec"
+  },
+  "actual_prefix_verification": {
+    "REQUEST_pin": {
+      "bytes": 679026,
+      "sha256": "e34bcbf57d8703dadf8ac01bc21a453e9ebecdc94e5bb5d66577de159ae89842"
+    },
+    "source_message_pin": {
+      "bytes": 648658,
+      "sha256": "a3dea445542b95508a4b87a9ab47834999b936cf389e1bf9a966953c4d92ebae"
+    },
+    "all34_full_text_present": true,
+    "input_files": [
+      {
+        "role": "Journal",
+        "bytes": 92649,
+        "sha256": "89a095e9f99c83112c18d2dd5f9a7e4982d599cfa844ff733c3a4d8ed1be542d",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "Root",
+        "bytes": 63384,
+        "sha256": "e195b5397be6973184332c43b438d8b803531af54b96aeebd6dee411cbf28343",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_existing_producer_pure_DATA_wrapper",
+        "bytes": 50479,
+        "sha256": "eb9dc4512b7e43b2524ee8365c55285ac3cb0bd6a547f053a20640fabc4e9ab4",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "existing owner scaffold, no old Test RUN",
+        "bytes": 11229,
+        "sha256": "15b8f4f8ea0c5ae7c1db5a62c681076d9b6aef9e98cca55b311af0110be93eb7",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete actual public producer API",
+        "bytes": 35969,
+        "sha256": "f70340e61e214e0bbf13fd0ab79caa131dd1ffaf3745c0b1203ecb618e25f920",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete actual public producer API",
+        "bytes": 10985,
+        "sha256": "2462b8fc80d28fecbb68a2517a28440e00f5855c3e08ffc67cc5aa5cd30e4442",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete actual public producer API",
+        "bytes": 18555,
+        "sha256": "544d9f130ce810f8dce38e41c7bd1d601473923325ac0f207c41ecc500d7d740",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete actual public producer API",
+        "bytes": 8549,
+        "sha256": "9e08a527cd8be5ac1f462af0f15c1cd13e57267bdfe1f38d6ac9b4a31949378e",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete actual public producer API",
+        "bytes": 3328,
+        "sha256": "a3a08bf35a207ea8fe8314695bc80cd5a84057ad6978c6d0c5e8a7f812db233b",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete actual public producer API",
+        "bytes": 3931,
+        "sha256": "6d76bce8ff7e186f9e32d5a5a8559b23953de75c9301369621602863321ab57b",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete actual public producer API",
+        "bytes": 3729,
+        "sha256": "6d6140a07103c712059a067fbccff9f889b52719a80963605ddcb34828c78b0f",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete current frozen callee",
+        "bytes": 11237,
+        "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete current frozen callee",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete current frozen callee",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete current frozen callee",
+        "bytes": 8999,
+        "sha256": "60c4de5abab56b01919ec2fedbd7e4c338a845e1abd5b71bb5f83a0d57647f0c",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete current frozen callee",
+        "bytes": 7208,
+        "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete current frozen callee",
+        "bytes": 29764,
+        "sha256": "e566b1e3f7d92c9004369d8781b1df408efd50a55600cb5b43ef76830cc0160f",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete current frozen callee",
+        "bytes": 16343,
+        "sha256": "c0fbfa9ef0c4fb6d0ab02545d8c733445ac2d9cd5029d4d2a2a97628343f85e1",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete current frozen callee",
+        "bytes": 24676,
+        "sha256": "c79a6dc17183764d79ba8b479f1b58541f5b82d58fc42a5018b92576c0f5c016",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete current frozen callee",
+        "bytes": 13838,
+        "sha256": "a782e28234bc7108bb385493a3e95a1cc07debeb34f9f038c7f1be4a34f890f0",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete current frozen callee",
+        "bytes": 13416,
+        "sha256": "fa9d5ad06870ad2034ca8a37a0328a6a93fec1684a33877abcace554d0876aec",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete current frozen callee",
+        "bytes": 6572,
+        "sha256": "46efe40695b1a1a4afba15dc70bb51bc8655f633d66856405760b6e43a2bdfbe",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete current frozen callee",
+        "bytes": 32500,
+        "sha256": "7b1a59de79f11b82eed08ceda9485d9edec86a26cc5879dd0acb755b69631c44",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete current frozen callee",
+        "bytes": 9492,
+        "sha256": "45c51683e09b255858a68b9746c0a90543ca5a5d41bb02823e16ed0b0618355a",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "formal public DATA API/example, not actual Root authority",
+        "bytes": 6176,
+        "sha256": "a26fcda93c132568c925090f4717fe1023be4534ce94c74afa7303b4d2a47247",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "formal public DATA API/example, not actual Root authority",
+        "bytes": 5057,
+        "sha256": "3036eb8836c7c4cd76e188d44e1ae664896833a650577d2b0c5aecd6f367ce82",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "formal public DATA API/example, not actual Root authority",
+        "bytes": 5806,
+        "sha256": "4b80f8ff4c407cd860f3011a246e085df716f117b2ab5cd1ba5f4fd3b51b866b",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "formal public DATA API/example, not actual Root authority",
+        "bytes": 13788,
+        "sha256": "5d047957db87d214eb3a81af6f94b6f01d952519028b5b7b5f0951e5bc1e935a",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "formal public DATA API/example, not actual Root authority",
+        "bytes": 33034,
+        "sha256": "c3d3bb0ed3910411579ae0873aede89916419c46a9a07521ed448aac67cd84bf",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "formal public DATA API/example, not actual Root authority",
+        "bytes": 54010,
+        "sha256": "2001330aa578f9f00f99bf9e5cbf1e217e7e8adfe633bba7a494cfbe29740928",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "formal public DATA API/example, not actual Root authority",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "full existing actual DATA; Hosted only never public Git",
+        "bytes": 17340,
+        "sha256": "df97056152775b70fd913c3150f0e90eaea7de281e51964c0a9ec5b262a6dcb4",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "full existing actual DATA; Hosted only never public Git",
+        "bytes": 1427,
+        "sha256": "5141a383092d9ec66bc53bcd75670e65ae31780a927e5ccce69af91e0446f96a",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "full existing actual DATA; Hosted only never public Git",
+        "bytes": 10865,
+        "sha256": "9a4bd053ea3fca7242c66cea8e3739bfc5e0e64a6f7f6b9ff440200865dce3f5",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ]
+  },
+  "required_DATA_metadata": {
+    "count": 12,
+    "all_named_D_pins_verified": true,
+    "stock_files": 5,
+    "stock_bytes": 692725,
+    "stock5_raw_not_in_text_prefix": true,
+    "no_Python_fixture_or_stock_execution": true
+  },
+  "current_final04_and_public_DATA_factories_full_sources_in_prefix": true,
+  "requested_scope": "One complete new Hosted class3noarg methods: genuine full continuation and intrinsic legacy binding DATA proof, meaningful mutations after accepted baseline, absent actual scope and cold missing-verifier denial. Public unissued DTO factories only; actual Root positive reserved separately.",
+  "requested_authority_boundary": "UNISSUED synthetic/temp DATA is not a Root scope/issuer or actual Complete qualification. Recorded legacy commitment and canonical SHA distinct; no old strict test replay or original521 settlement credit. Raw actual DATA stays private.",
+  "owner_explicit_diagnosis_contract_and_scaffold_before_POST_not_model_autonomous_discovery": true,
+  "POST_BEGIN_UTC": "2026-11-05T02:39:24.067465+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T02:40:18.161566+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "actual_parameters": {
+    "max_tokens": 8000,
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "JSON_syntax": "VALID",
+  "headers_ms": 18480.882699950598,
+  "effective_content_TTFT_ms": 18481.66960000526,
+  "total_ms": 54094.00339995045,
+  "usage": {
+    "prompt_tokens": 144222,
+    "completion_tokens": 6125,
+    "total_tokens": 150347
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 679026,
+    "sha256": "e34bcbf57d8703dadf8ac01bc21a453e9ebecdc94e5bb5d66577de159ae89842"
+  },
+  "RESULT_pin": {
+    "bytes": 1285,
+    "sha256": "049d47e2d1452363c1aea68da790802cbf8c71cad976c876d213b680f9646cfc"
+  },
+  "CONTENT_pin": {
+    "bytes": 25298,
+    "sha256": "8ed7bd7076b4e5ee72385d5234d3370f8d6e54b01e8a04da1ad75d871ac01eb3"
+  },
+  "EVENTS_pin": {
+    "bytes": 2882,
+    "sha256": "0fee5f463d8c4ea2051468c8d4bc254ea51ff4d3a49ce3ccdfe9c209e75242a3"
+  },
+  "audit": {
+    "errors": 0,
+    "discrepancies": 0,
+    "CONTENT_equals_SSE_UTF8": true,
+    "pin": {
+      "bytes": 4476,
+      "sha256": "db25947342ed4b1f86407b42c0c20d548b132557ad706c2c8b8bb897ad33472c"
+    }
+  },
+  "complete_raw_delivered_before_audit_Git": true,
+  "source_review_after_immediate_delivery": {
+    "basis": "Explicit source-owner full review message; formal standalone MODEL-REVIEW pin not yet held at this cut.",
+    "whole_class_adopted": false,
+    "new_complete_methods_adopted": 0,
+    "partial_implementation_adoption": "NOT_HELD",
+    "candidate_JVM": 0,
+    "owner_takeover": true,
+    "R2": 0,
+    "reported_findings": [
+      "Missing Arrays/Map/Binding imports; ObjectNode.set(boolean)/put(JsonNode) misuse; undefined constants/proof; static helper accesses instance TempDir and unchecked IO.",
+      "Invented receipt/Attempt/NativeRequest/ObservationIdentity constructors and private schema.",
+      "Actual packet root does not select state or strip6 annotations; producer insertion-order SHA incorrectly asserted equal canonical commitment.",
+      "Mutation fixtures use empty stock/empty index and no accepted baseline; cold missing-verifier fixture reinitializes existing root and omits complete guard proof, so required real boundaries are not reached."
+    ],
+    "not_actual_javac_JUnit_RED": true
+  },
+  "PREP_before_authoring_events": [
+    {
+      "event": "PREP_BEGIN",
+      "at_utc": "2026-11-05T02:38:28.2141080+00:00"
+    },
+    {
+      "event": "PREP_END",
+      "at_utc": "2026-11-05T02:39:13.807178+00:00"
+    }
+  ],
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 468
+    },
+    "leases.db": {
+      "RELEASED": 468
+    }
+  },
+  "source_HTTP_inflight_after_END": 0,
+  "finite_wrapper_returned_normally": true,
+  "caller_exit": 0,
+  "no_R2_or_active_parameter_change": true,
+  "Models_JVM_SDK_C_UI_GET_Game": 0,
+  "no_source_adoption_Root_Game_SAVE_G2_performance_credit_from_HTTP": true,
+  "private_actual_DATA_payload_not_published": true,
+  "full_owner_active_cost_and_net_savings": null,
+  "shared_sync": "Clean main safely fast-forwarded inspected remote Civ6 docs-only cefc76c; no caller/config change and no active request rewrite."
+}
