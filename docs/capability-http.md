@@ -3806,3 +3806,15 @@ fixed3/DIRECT/max8000/thinkingfalse，20:24:33.900247→20:25:22.904069Z真实1P
 438/439canonical stop/DONE/VALID，复用Nov6成功维护缓存，0新OpenCode原生生成。438rawUI缺locals和exactID消耗分类拒用，owner6每context后实际Native同actorFOUND/延迟死亡/新city/重载/正常138粮仓3/32；439仅nextgap建议，重复整链优先/无primary军事既有通过拒用。source/install/runtime77，具体76routeFAIL闭合，训练76与后续77版本分开，完整矩阵partial。累计截至439逻辑439/完整408/length28/finaltransport3 HTTP469/extra30，未知缓存/人工节时null；后续440未混入。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settler438.json)。
+
+
+
+## 2026-11-06：Source100历史recorded-unknown firstdisplay三叶完整候选
+
+100是新P064首次，非99重投；7全文207364B（3actualJava目标Root9bfb/EventPolicieseb9d/SourceReviewede566+3wholeDATA+完整DRAFT）实际REQUEST全核，manifest target_sources/context_full原序转现spec，无裁片段。Owner据Root完整args拒和currentknowledge重开提出source-level历史非确定性候选；当次callback/producedvector/唯一根因NH，不把已pin canonical事实或源码推理说成现场diff。只专用historical publicDATA recordedunknown overload，强typedflags/audit/wholefallback识别，坏recognized拒不fallback，其他profile原path；share真实annotate(Knowledge)投影而live仍读当前knowledge，不globalemptytrusted、不复制任意sourceknown/canonical字段。
+
+历史支必须现trustedroots/build APIs+真实ExistingFactionEventPolicies.choose，并wholefallback重建等recorded，ReviewedPlan只DATA不授authority。EventPolicies只专用调用带capture，ordinary continuation/nativeEventArguments/原expectedcallback不动；Root从已pin before副本仅去4transport字段，保真实native/core/context/validator/expected与head/archive/custody/frame/source/session/ACK。最终完整args等式、onlyoriginalaction_id替换后的wholeencodedcommand等式双门都保，不能回传/补写canonicalcommand，不新provider/Session/IO/格式/期限/动作/权限。
+
+fixed3/DIRECT/max10000/thinkingfalse，21:09:59.789113→21:10:43.955219Z真实1POST/1END（本地Nov06），HTTP200/DONE/stop/JSONvalid，44.1657462秒/有效TTFT7.7302994秒/reported59253+6529/cached=null。原件先交Java后audit/Git，CONTENT=SSE差异空；交付采用待源审、0rawJVM/noR2，传输不授patchschema/actualAPI/checkedIO/三叶完整语义/Root双门或现场通过。[全输入pin、精确成本与强权限边界](evidence/2026-11-06-http-historical-first-display-unknown100-delivery.json)。
+
+只读520COMPLETED/520RELEASED、g0005当前4READY非并发、source0，旧归档/DB历史保持；Nov06成功1.19.5缓存复用，0维护probe/本岗JVM/Game/GET/JFR/活跃参数改，无真实新源不造101。旧length含94/99正文/SSE持续未读未hash0/noR2，实际producedvector/Rootpermission/旧动作/恢复/SAVE/G2/性能各自另证，不回填交付pending切点。
