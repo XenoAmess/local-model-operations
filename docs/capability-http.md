@@ -3205,3 +3205,12 @@ owner自行完成Dispatcher17613/1fa2、Core248324/dd56两条实际freshFrameLoa
 [两项真实任务](evidence/2026-11-05-hoi4-release-category-arithmetic.json)完整200/stop/DONE/有效JSON，无传输重试；实际峰2持续8.3376秒。文案只部分采用结构/措辞：owner修正5481人物+4非人物+3未制=5488的类别混算，删除旧版已有封面/图库被说成新增的内容，并补缺失英文。独立反审却把3未制源当已计入5579输出、把7个差额全说成非人物、将重复路径绑定数与独立SHA混同，相关发现拒收；0代码/游戏资格。公开1.0身份与真实内部preview字段的并存已有明确用户授权，文本模型不授权限。
 
 首次材料预检因.bbcode扩展不在adapter白名单而在POST前失败，改用字节相同.txt投影后两票各首次派发，不记成网络重试。原输入只引旧1.19.3 QA；POST后owner另找到旧订阅包1.19.4.1选国证据，后到信息缺失归owner输入边界，不归模型错误或新包实机成果。完整usage/TTFT及未报告缓存见回执，准备/纠错主动工时与净节省未知。
+
+
+## 2026-11-05：历史发布 generic frame loader 新单参数任务 length
+
+[新task60](evidence/2026-11-05-http-history-event-read-verifier-wiring-length.json)使用完整3actual源码158149B与1870B合同，实际REQUEST全文核验。只HistoryMaterialFactory.captureActual一个generic loadIfPresent的context.frameLoader实参接现有真实freshFrameLoader；capture/requireOriginal同一路径、其余全部callback/order/guards/owner/session/Game/source/canonical result/archived verifier/defaultthrow保，无新声明/Test或global/Gift/physical路径改动。原527在actual36已SETTLED而后history发布defaultthrow是owner提供现场上下文，不由本HTTP推断、不重控或改原件。
+
+fixed3/DIRECT/max1200/thinkingfalse，06:27:37.301767→06:27:48.415109Z真实1POST1END，HTTP200/DONE但length，11.1132801秒/有效TTFT4.2243837秒、32097+1200tokens/cachednull。CONTENT/rawSSE整份未开、未解析、未提取、未哈希，不跑正文审计器；0代码/方法/partial采用、0modelJVM/noR2，实际END立即交Java接管，不等Git。480终态/480释放/66READY累计登记、源码在途0，finite60正常closed/caller1为length，不冒软件编测红，无本HTTP带来的新history发布/Root结算/LOOP/SAVE/G2/性能信用，0JVM/C/UI/GET/Game/参数变更。
+
+单表达式1200也未取得完整稿，不能仅凭语义改动小推断输出必短；相邻59在1800内stop710却是语义no-op，完整和正确须分验。下一真正新任务继续按实际输出审定有限预算，复杂单位12k等指导保，不重投60、不读半稿、不改活跃参数，正文与具体截断原因NOT_HELD。共享干净FF保远端HOI4类别算术附页d228b94，完整主动成本和净收益未知。
