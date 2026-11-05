@@ -3254,3 +3254,10 @@ fixed3/DIRECT/max12000/thinkingfalse，07:15:08.918290→07:16:33.323046Z真实1
 新61复杂实现与新62独立fixture Test都以明确有限12k触顶，不能把提高预算写为已取得完整候选或保证修复。actualREQUEST thinkingfalse、未报reasoning分项、cachednull；正文未读，不能从TTFT/字节数推reasoning、输出内容或context容量。后续仅业务确实可独立验收的完整小单位按真实新合同选择，不将废弃61/62续稿伪装新任务、不自动16k重投或为调用造单位。完整主动成本/净收益未知，原切点和原件保留。
 
 后到Root/Java源审纠正：原Task/FIXTUREAPI误写`ActionCodec.decodeReceipt`，完整实际ActionCodec1c61没有该成员，真实入口为`ActionReceiptCodec.decodeReceiptUsingCanonicalCommand`。原15文件全文送齐不等于API合同正确，这项owner输入/声明闭合错误不归模型违约；后到52389B/67d64084真ReceiptCodec供owner实现，不追认模型已见。原length事实及0采用不改，正文未读，不能断言该缺口造成截断、把12k触顶单独当模型能力上限或授compiler红；不改原件/参数、不R2。
+
+
+## 2026-11-05：Civ6408，实际Conflict语义与正常跨回合
+
+普通HTTP1POST200／stop／DONE／VALID，16459+1631tokens、13.1253591秒、TTFT2.2971819秒、峰1、0重试、cached=null。50行Lua编译，但手写Conflict排除当前记录，真实源见证错报falsefalse；另声称完整ID比较却未比较。负责人部分参考字段结构与Recover分析，0原稿游戏执行；改用Core真实Conflict、完整ID拒绝、UI不可用显式unknown，7项隔离诊断检查，不是产品测试。
+
+实际11军队SKIP／6DoEndTurn后一次无REASON正常END，独立active115；UNKNOWN／CHARGING原turn114保持、军队新回合4行动，跨回合及2Recover转城／Finish计数0。金币净+41.7109375不当直接扣款计数。首轮owner在UI调用不存在模块只读失败单列，后续新标签资格；没有游戏操作重放。最后次建造者unit_unavailable另交409核地块，不直接授成功／卡死。[精确业务pin、原件及范围](evidence/2026-11-05-civ6-recovery408.json)。

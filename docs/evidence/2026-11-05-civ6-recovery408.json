@@ -1,0 +1,112 @@
+{
+  "schema": "local-model-operations.civ6-recovery408/v1",
+  "utc": "2026-11-05T07:35:27.292295+00:00",
+  "date_local": "2026-11-05",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/246f8ae1c2547f7bf0832f48d05bc456ae826e80/docs/research/baiqi-p6-debit408-normal-turn-evidence-2026-11-05.json",
+    "sha256": "66a233f9a14f281f97c70fe194cf88df735c8a50dd3d528c32b368fd3d9b3958"
+  },
+  "model": {
+    "shared_commit": "6febe5c66c1c89f6712319972a161903a11260c1",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "attempts": 1,
+    "extra_retries": 0,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 16459,
+      "completion_tokens": 1631,
+      "total_tokens": 18090
+    },
+    "total_ms": 13125.359099998605,
+    "ttft_ms": 2297.1819000085816,
+    "cached_prompt_tokens": null,
+    "snapshot_lines": 50,
+    "compile_lua53": true,
+    "raw_candidate_game_execution": 0,
+    "adoption": "Partial field-reading structure and recoverability analysis; owner corrected actual Conflict semantics, complete unit identity and contextual API availability, added explicit receipt/record rows.",
+    "raw_candidate_conflict_error": "Loop excludes current record, incorrectly falsefalse despite actual Conflict including it; isolated actual-source counterexample.",
+    "raw_candidate_limit_error": "Claims fullID/owner comparison but only reads values; owner rejects aliases explicitly.",
+    "owner_snapshot_diagnostic_checks": 7,
+    "not_product_tests": true,
+    "owner_error": "First owner snapshot tried actual Conflict in Executor where BaiqiRequisition is unavailable. Core read and earlier UI fields succeeded, then readonly UI error; preserved Native originals. Corrected API availability explicitly unknown in UI and new qualified labels; no game action replay.",
+    "maintenance": "canonical CLI Nov5 successful1.19.5cache before POST;0new OpenCode native generation",
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative_civ6_through408": {
+    "logical": 408,
+    "complete_stop_valid": 378,
+    "length_discarded": 27,
+    "final_transport_failed": 3,
+    "http_attempts": 438,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "before": {
+      "turn": 114,
+      "gold": 4224.2734375
+    },
+    "after": {
+      "turn": 115,
+      "gold": 4265.984375
+    },
+    "gold_net_change": 41.7109375,
+    "gold_change_limit": "Turn income/expenses can change balance. This net delta alone does not prove absence of another debit/refund; no direct treasury native counter installed.",
+    "receipts_before_after": [
+      "UNKNOWN",
+      "CHARGING",
+      "4524.2734375",
+      "nil",
+      "true",
+      "nil",
+      "851979",
+      "execution_interrupted"
+    ],
+    "operation_count": 1,
+    "record_turn": 114,
+    "city_owner_id_population": [
+      0,
+      851979,
+      1
+    ],
+    "actor_id": 2162700,
+    "actor_position": [
+      42,
+      19
+    ],
+    "actor_moves_before_after": [
+      4,
+      4
+    ],
+    "actor_damage_before_after": [
+      0,
+      0
+    ],
+    "actor_cooldown_before_after": [
+      null,
+      null
+    ],
+    "same_actor_and_plot_conflict_before_after": [
+      true,
+      true
+    ],
+    "conflict_core_authoritative_ui_api_unavailable": true
+  },
+  "generic_lessons": [
+    "Raw candidate conflict loop excluded current record, violating actual Conflict semantics. Isolated actual-source counterexample returnedfalsefalse for frozen own request. Use actual consumer API, do not restate a different conflict rule.",
+    "Candidate claimed fullID/owner comparison but only read those values. Owner snapshot explicitly rejects alias; isolated missing/alias/turn/committed cases included.",
+    "Exact module availability differs by Lua context. First owner snapshot Core succeeded then UI Conflict nil; prior UI fields succeeded. Preserve raw failure, mark UI guard unavailable and Core authoritative, no game action replay.",
+    "Normal11militarySKIP+6DoEndTurn selections then one fresh official no-REASON END led independent active115; noUserForced, no claim that all physical military reminders consumed.",
+    "UnknownCHARGING persisted across actual114to115 and2explicitRecover, CoreTransfer/Finish observer0; new-turnarmy4moves retained. Balance net+41.7109375 is not a direct debit/refund counter.",
+    "Do not stop at anomalous logs. Last-charge builder disappeared after actual improvement request; actualReadBack clears pending. Investigate independent plot state rather than fabricate success or persistent deadlock."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "One real normal-turn unknown window;7snapshot diagnostic checks are not new product tests. Product74 unchanged; all-stage recovery remainspartial."
+}
