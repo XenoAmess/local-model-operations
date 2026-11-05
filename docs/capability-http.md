@@ -3303,3 +3303,16 @@ Runtime有限冻结codecclosure由原621扩为1029rows，manifest790854B/1e347�
 原527 ACTION528/RETAIN529/zero-daySETTLE530/C23为owner现场上下文；following mandatoryverifier先于domain.load，即使无Swayepisode也不能跳过，更不能借此宣称自然Sway已读或重放527/530。fixed3/DIRECT/max3000/thinkingfalse，08:00:36.898837→08:00:47.409035Z真实1POST1stop，10.509896秒/有效TTFT4.7112361秒、36170+1004tokens/cachednull。完整raw先交Java再audit，CONTENT=SSE/0差异，交付cut采用pending、0candidateJVM/noR2，不授actual40/Controller完成/Root/LOOP/SAVE/G2/性能。
 
 484终态/484释放/70READY累计登记、源码在途0，finite64正常closed/caller0；0JVM/C/UI/GET/Game/活跃参数更改，完整主动成本/净收益未知。3000产完整1004只属本案传输，不泛化预算或语义通过，原12klength与输入质量缺口分层保，不以Git挡owner接管。
+
+
+## 2026-11-05：EVENT readonly-cycle 历史邻边角色首派 length
+
+[新task65](evidence/2026-11-05-http-event-readonly-cycle-history-length.json)按完整9actual输入728087B（6Java+完整528/529/530事件JSON）与4396B合同首派，实际REQUEST全文核验。只Batch recoveredCycle OR及至多两个严格EVENT DATA/真reducer小helper；RETAIN用真实before，SETTLE须验证edges内实际previousRETAIN/连续sequence/fullafter-before/同receipt与interruptedbatch，历史canonical从realRetain.before求并绑定当前不变receipt。null/pending/count/semantic/recordref/savedstate/frontier全部严核，原transitions.reduce/fullafter、M3/Life/Council/泛型cycle/pending/source/CAS/发布门全保，不清pending或造batch/state/按actionId猜原件。
+
+fixed3/DIRECT/max10000/thinkingfalse，08:12:44.976874→08:14:09.718508Z真实1POST1END，HTTP200/DONE但length，84.7416372秒/有效TTFT29.1773187秒、reported226343+10000tokens/cachednull。CONTENT/rawSSE整份未开、未解析、未提取、未哈希，不跑正文审计器，0代码/方法/partial采用/0modelJVM/noR2，END立即给Java接管不等Git。reportedusage不当独立context容量/缓存证明，正文未读不推截断内容或永久能力，不自动16k重发。485终态/485释放/71READY累计登记、源码在途0，finite65正常closed/caller1为length，不冒compiler/JUnit红；0JVM/C/UI/GET/Game/活跃参数修改，无cycle DATA/reducer/Root/history/LOOP/SAVE/G2/性能资格，完整主动成本/净收益未知。
+
+## 2026-11-05：Sway wrapper 三处提案语义吻合，owner19类含一项visibility差异
+
+[owner64源审与Native](evidence/2026-11-05-http-sway-following-fresh-read-owner-typed.json)补交付pending：rawde5b的现有wrapper public及两真实following参数包裹语义接受，actual withReconciliationGuard/verifyArchived callback保；raw顶层实际为task_id+files[].diff而非请求unified_diff，按实际字段审，JSON有效不代替输出合同/采用。owner605c/ddee在读完整raw前已独立完成，模型复制行0/rawapply与JVM0/noR2；FQN与原实际root wildcard均可合法解析，不称模型自主设计或owner型验回授原稿。两个owned块inverse全还原原3866/1c09，wrapper体、所有其它参数/guardlambda及原序原字节保。
+
+必要2TU19class首0/10.2772078秒，类名19同、16结构同/3异：RootFactory既有freshFrameLoader flags8→9（package static→public static）；Sway$OrdinaryConfiguration与$SharedRootSelection各仅InnerClasses移除FinanceReadContracts$Packet一metadata，字段/方法/Record及其它结构原样。不是删除输出class或已证Source根因，all19equal=false据实保，不报全shapeequal/binaryequal/hotredefine。Models后见helper起初只预期visibility一项而assert失败，未写共享记录，随后只读原JSON精确核三项；该运营核验成本不归模型。ACTUAL/post/terminal/close/fence与前后classpins具名独核，close0/released，0新Test/旧62RUN。原10.509896秒/TTFT4.7112361秒/36170+1004成本保，actual40/自然Sway/Controller完成/Root/G2/LOOP/SAVE/性能仍独立Runtime，不因domain可能empty而绕verifier；0新HTTP/JVM/Game，完整主动成本/净收益未知。

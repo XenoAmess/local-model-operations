@@ -1,0 +1,216 @@
+{
+  "schema": "local-model-operations.event-readonly-cycle-history-replay-length/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-event-readonly-cycle-history-replay-20261105-01",
+  "new_real_P041_strict_cycle_history_role_not_prior_R2": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_actual_inputs": 9,
+  "Java_files": 6,
+  "full_actual_event_JSON_files": 3,
+  "input_bytes": 728087,
+  "manifest_pin": {
+    "bytes": 3751,
+    "sha256": "67e6e8df53979f555b9150d5513a4396abea8c666f83acbed86328f5be22444d"
+  },
+  "contract_pin": {
+    "bytes": 4396,
+    "sha256": "32766beb087477ed65ef4f17d5e335ccfdadc44f6134c2f445eb3efc7bd9fd7d"
+  },
+  "actual_prefix": {
+    "REQUEST_pin": {
+      "bytes": 777779,
+      "sha256": "6fc3957449b1b37728e0b92ed50321a28cca09481e79b9207755bccedf8fe30b"
+    },
+    "source_message_pin": {
+      "bytes": 730070,
+      "sha256": "e92618a846cb9892d65c44bec6a228e138cf897255932b32976c0ca6db0b2533"
+    },
+    "complete_input_files": [
+      {
+        "role": "target_current_Batch",
+        "bytes": 347227,
+        "sha256": "3d4a08a3cd758f0dfe1bfc3595a3e0fb2e5085feb2cdb66cd029b8539090d95d",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_receipt",
+        "bytes": 5103,
+        "sha256": "1b355b55582402df6c17de7f1bdffbea391a00a9eb6f8a55d8d6e88052456fed",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_effect_validation",
+        "bytes": 43738,
+        "sha256": "03432d732d42971c593fdd267f2c893511b0e675d1c00d09f00740644a57cb00",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_action_journal",
+        "bytes": 24223,
+        "sha256": "5bb79f5481b064fea11c636a11e6a61e045ca008c9211d2a50e5cf98dcca2040",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_state_DATA",
+        "bytes": 7614,
+        "sha256": "a506aec4e6ea48d199bce0c7037e1d32b1864b14f2af82c7807e243ff3f8d6a7",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_owner_DATA",
+        "bytes": 23532,
+        "sha256": "32f5816858b20937033232db653875463a8b1e6c31be761ac165b7e8888e395a",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_previous_ACTION528",
+        "bytes": 91733,
+        "sha256": "994318eea481200178d2ceb0b088b0e4e93b9967ff9b7265300ff99f3e0ade63",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_RETAIN529",
+        "bytes": 90622,
+        "sha256": "665576448299fd394829e4263ddff1903c873f185198ad6532a4800c432ab144",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_SETTLE530",
+        "bytes": 94295,
+        "sha256": "f52e48916b729cea7a5d73b2600c02f832c33c25c9baa5e4a90274c7d4e682a7",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ],
+    "all9_full_text_in_actual_REQUEST": true
+  },
+  "requested_target_only": "ContinuityBatchJournal.recoveredCycle OR and atmost2 strictEVENT DATA/realreducer helpers",
+  "owner_exact_prePOST_design_contract": "Use realRETAIN.before to existingstrict readOnlyPendingEventCompletionRoot; SETTLE requires actual immediatelypreviousRETAIN from verifiededges, sequence+1/fullafter-before equality/same exactreceipt andinterruptedbatch/session. Historical canonicalActions fromrealRetain.before, bind unchangedcurrentcanonical receipt identity evenwithfutureactions. Exactnull/pending/count/zero-daysemantic/recordref/frontier/savedstate shape, positiveACK/custody/originals required; mandatory transitions.reduce and fullafter equality. KeepoldLife/Council/M3, activebatch gates andallgenericpending/cycleReceipts/source/owner/CAS/head/publication checks.",
+  "no_fakestate_clearpending_synthesizedbatch_lookupByActionId_or_controlreplay": true,
+  "owner_strong_guidance_not_model_autonomous_discovery": true,
+  "actual528_529_530_payload_Donly": true,
+  "POST_BEGIN_UTC": "2026-11-05T08:12:44.976874+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T08:14:09.718508+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "actual_parameters": {
+    "model": "qwen38-coder",
+    "max_tokens": 10000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "length",
+  "DONE": true,
+  "candidate_complete": false,
+  "JSON_syntax": {
+    "status": "UNKNOWN",
+    "top_level_type": "UNKNOWN",
+    "reason": "NON_STOP_FINISH",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 29176.245199982077,
+  "effective_content_TTFT_ms": 29177.318700007163,
+  "total_ms": 84741.6372000007,
+  "usage": {
+    "prompt_tokens": 226343,
+    "completion_tokens": 10000,
+    "total_tokens": 236343
+  },
+  "cached_tokens": null,
+  "reported_usage_is_not_independently_verified_context_capacity_or_cache": true,
+  "REQUEST_pin": {
+    "bytes": 777779,
+    "sha256": "6fc3957449b1b37728e0b92ed50321a28cca09481e79b9207755bccedf8fe30b"
+  },
+  "RESULT_pin": {
+    "bytes": 1321,
+    "sha256": "01262a557ee6c9bb231e12cb4d891a0aa1242401f67a15b196e936be4e9edfd1"
+  },
+  "EVENTS_pin": {
+    "bytes": 2886,
+    "sha256": "7809c8683f8023c04e22d025727551b69e722e8df489e65ef122522c4b239cd0"
+  },
+  "CONTENT_rawSSE": "NOT_OPENED_READ_PARSED_EXTRACTED_OR_HASHED; whole discarded",
+  "CONTENT_rawSSE_pin": "NOT_READ_OR_HASHED",
+  "auditor": "NOT_RUN_ON_LENGTH_DIRECTORY",
+  "adopted_code_methods_partial": 0,
+  "model_candidate_JVM": 0,
+  "R2": 0,
+  "actual_END_immediately_delivered_before_Git": true,
+  "owner_replacement_source_software_actual": "PENDING; no backcredit to unreadmodel",
+  "budget_result": "New finite10000 stilllength, no content-based cause or automatic16k retry/permanentmodelcapability claim. Earlier12klength and inputqualityfaults independent.",
+  "PREP_events": [
+    {
+      "at_utc": "2026-11-05T08:11:59.4172055+00:00",
+      "task_id": "ordinary-event-readonly-cycle-history-replay-20261105-01",
+      "Models_JVM_C_GET_Game": 0,
+      "POST": 0,
+      "event": "PREP_BEGIN"
+    },
+    {
+      "event": "PREP_END",
+      "at_utc": "2026-11-05T08:12:42.658913+00:00",
+      "task_id": "ordinary-event-readonly-cycle-history-replay-20261105-01",
+      "all9fullactualinputs_and_contractpins_verified": true,
+      "actual528_529_530_JSON_full_not_pinonly": true,
+      "POST": 0,
+      "Models_JVM_C_GET_Game": 0
+    }
+  ],
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 485
+    },
+    "leases.db": {
+      "RELEASED": 485
+    }
+  },
+  "READY_records_not_concurrency": 71,
+  "source_HTTP_inflight_after_END": 0,
+  "finite_wrapper_returned_normally": true,
+  "caller_exit": 1,
+  "Models_JVM_SDK_C_UI_GET_Game": 0,
+  "no_active_caller_config_service_Runtime_parameter_changes": true,
+  "no_historical_cycle_DATArule_realreducer_Root_replay_LOOP_SAVE_G2_performance_credit_from_HTTP": true,
+  "owner_active_time_and_net_savings": null,
+  "service_global_load": "NOT_HELD"
+}
