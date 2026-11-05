@@ -1,0 +1,101 @@
+{
+  "schema": "local-model-operations.civ6-garrison404/v1",
+  "utc": "2026-11-05T02:33:48.290339+00:00",
+  "date_local": "2026-11-05",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/1d343cf1a4e6768c724b5e733ed1325fc816b9b1/docs/research/baiqi-p6-garrison404-preflight-evidence-2026-11-05.json",
+    "sha256": "1e7dccc4062f384121a604102b04f91e44bfd4aa4bfccd4cf3f63e104fbef4a5"
+  },
+  "model": {
+    "logical_number": 404,
+    "task_id": "civ6-garrison404-visible-existing-city-inventory",
+    "mode_id": "http-candidate",
+    "shared_commit": "d8265e5132cafd03a828c302fe6c9ea261abc404",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "attempts": 1,
+    "extra_retries": 0,
+    "max_tokens": 4500,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "prompt_tokens": 6433,
+    "completion_tokens": 1007,
+    "ttft_ms": 1546.1986999725923,
+    "total_ms": 7731.167699967045,
+    "cached_prompt_tokens": null,
+    "client_inflight_peak": 1,
+    "candidate_code_adopted": 0,
+    "candidate_game_execution": 0,
+    "rejected_findings": [
+      "Lua53 compile fails at type(visibility:IsVisible), invalid colon member expression; candidate not executed.",
+      "FormationClass outer condition CIVILIAN/MILITIA/NAVAL and nested LAND cannot both hold, so this count is always0 even before considering supplied actual FormationClass strings.",
+      "Invented or unqualified CombatClass/RangedDamage fields replace the supplied Combat/RangedCombat contract; unit-owner equality is omitted.",
+      "No128unit bound, per-city identity readback, or unknown receiver accounting; candidate visibility receiver is not established."
+    ],
+    "owner_correction": "Separate owner Lua53 compile and actual readonly UI scan; no model code executed. Source qualification and game results are owner work, not generation adoption.",
+    "maintenance": "Canonical CLI preflight before POST; Nov5 same-machine successful1.19.5 cache, not new OpenCode generation.",
+    "owner_phase_events": [
+      {
+        "utc": "2026-11-05T02:24:43.841298+00:00",
+        "task": "garrison404",
+        "event": "PREP_BEGIN",
+        "earlier_task_selection_and_reading_seconds": null
+      },
+      {
+        "utc": "2026-11-05T02:25:30.281678+00:00",
+        "task": "garrison404",
+        "event": "PREP_END",
+        "earlier_task_selection_and_reading_seconds": null
+      },
+      {
+        "utc": "2026-11-05T02:26:13.429953+00:00",
+        "task": "garrison404",
+        "event": "REVIEW_BEGIN",
+        "earlier_task_selection_and_reading_seconds": null
+      },
+      {
+        "utc": "2026-11-05T02:27:03.667855+00:00",
+        "task": "garrison404",
+        "event": "REVIEW_END",
+        "earlier_task_selection_and_reading_seconds": null
+      },
+      {
+        "utc": "2026-11-05T02:27:04.108291+00:00",
+        "task": "garrison404",
+        "event": "CORRECTION_BEGIN",
+        "earlier_task_selection_and_reading_seconds": null
+      },
+      {
+        "utc": "2026-11-05T02:30:06.171036+00:00",
+        "task": "garrison404",
+        "event": "CORRECTION_END",
+        "earlier_task_selection_and_reading_seconds": null
+      }
+    ],
+    "owner_active_seconds": null,
+    "earlier_source_selection_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative_civ6_through404": {
+    "logical": 404,
+    "complete_stop_valid": 374,
+    "length_discarded": 27,
+    "final_transport_failed": 3,
+    "http_attempts": 434,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "new_opencode_native_generation": 0,
+  "generic_lessons": [
+    "Compile a complete candidate before even read-only Native execution: valid outer JSON does not imply valid Lua. Keep the entire rejected candidate private and unchanged.",
+    "Contradictory nested classification can always return0 despite real defenders. Use the supplied runtime definition fields and actual owner equality; do not invent schema labels or fields.",
+    "Missing player/collection receivers and invisible plots are not empty collections. Bound actual iterations, retain UNKNOWN counts, qualify a visible receiver before a query, and recheck complete identity afterward.",
+    "A read-only scan locating an existing unit is preflight only. It does not show what transfer does to that unit; no capture, preservation, conversion or deletion pass follows from discovery."
+  ],
+  "owner_business_boundary": "Owner independent Lua53 compilation and actual UI scan only; no model code run, no war/placement/capture/turn in the referenced cutoff.",
+  "owner_active_seconds": null,
+  "net_savings_seconds": null
+}

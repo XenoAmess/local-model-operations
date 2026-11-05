@@ -3031,3 +3031,10 @@ max5000、固定三消息/DIRECT，1POST1END、HTTP200/stop/DONE/有效JSON，12
 [Native f51fb2完整资格](evidence/2026-11-05-http-incident-canonical-future-test-owner-software.json)补先前source-only切点：owner Test29005/e11c必要changed1TU3class首0/5.9611203秒，新2P/JVM7.8372551秒/XML5.864，affected原4P/JVM7.1167761秒/XML5.052；两组方法与XML d56d/66fd、三个classpin、phase原件独核，stderr0/close0/fence/released。finalprod02 d1f9/73cc/85e6既有14family资格复用，未重编production/support；3352B gzip原件与隔离route字节一致，旧strict521Probe未重跑。
 
 模型仍只原合同指定的两条旧expectation canonical-args表达式机械partial，两个新增方法及其新逻辑0采用；新两Test/authoredLegacyDATA/helpers均owner完成，旧privatefixture/golden不算模型贡献。原38.0309秒/TTFT8.112301秒与完整raw保、不R2，不把owner编测回授模型整方法。软件范围仅futurecapture与strict两表示DATA组件，authoredlegacy不是历史producer或旧521，原v1 strictProbe1F及现场恢复另证；0Root/privateissuer/Runtime装载/Game/SAVE/G2/提速资格。此纯后见0新HTTP/JVM/C/Game，旧切点不改、完整owner主动成本与净收益未知。
+
+
+## 2026-11-05：Civ6404，可见驻军只读盘点候选拒绝
+
+真实未闭TC-031，输入含实际UI城市／单位提供者、普通及宗教地块层消费者与可见性合同。1POST，200／stop／DONE／VALID，6433+1007tokens，7.7311677秒、有效TTFT1.5461987秒，峰1、0重试、cached=null。候选Lua53在`type(visibility:IsVisible)`编译失败；分类外层CIVILIAN／MILITIA／NAVAL、内层LAND互斥，漏实际owner相等、用未资格字段，缺128单位界限和逐城身份／未知接收者核验。0代码采用、0候选游戏执行。
+
+负责人另写只读Lua53并实际UI盘点9可见外国城市／1既有军队候选，60不可用城市接收者保留UNKNOWN。盘点不授征城／守军保持通过，Native结果不算模型生成实效。准备、审阅、修正的实际UTC区间留证；先期选题／读源、完整主动成本和净收益未知，不从HTTP耗时推省工。[逐项、成本与固定业务反链](evidence/2026-11-05-civ6-garrison404.json)。
