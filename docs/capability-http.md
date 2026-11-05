@@ -3732,3 +3732,13 @@ fixed3/DIRECT/max6000/thinkingfalse，18:56:36.536538→18:57:12.526321Z真实1P
 432—435四个真实任务通过canonical普通HTTP均完整stop/DONE/VALID，同日复用Nov6OpenCode1.19.5维护，0新原生生成。432端口/集合错误拒用，owner修正真实Religionport后Core/UI各6例；433原观察器失去namespace且混函数/事件，owner8例和变更标量读出3例后实际Native；434捏造总督状态、误单位/成本和food字段拒用，owner5例及实际晋升/规则读回；435只采用解读阶段结构，负责人重写具体玩法、时间和边界。Native正常新移民生产175/人口10→9→10子项通过，三图与前后正式保存点入业务库，fullTC015未闭。累计截至435逻辑435/完整404/length28/finaltransport3，HTTP465/extra30，未知缓存/人工节时null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-production432435.json)。
+
+
+
+## 2026-11-06：Source94保旧failure的版本恢复触及10k上限
+
+94是独立P057实现，非92/93重投。15全文96818B（3currentJava+12wholeJSON，含3真实failure和8原request）实际REQUEST全核，仅Worker06/0c8b。合同原request/failure不删不覆盖、原key/binding/batch不改，stricteligibleoldFAILED才可新固定versionedcomplete/failure外envelope；全oldrequest/failureExactRef/machine/batch/time及nestedordinaryDONE/真实newfailure闭包，成功必须原host.batch/result/reviews/knowledge和readCompletion全审，不凭错误文本成功。notyetissued同Job/future/有界executor只submitonce，cachedoldfailed保持failed，versionfailed无自动重试；原queue/retention/MAX2MiB/四AND/异常suppressed不变。真实consumer修正独立且必要，此叶不得单独采用或声称修好parser。
+
+fixed3/DIRECT/max10000/thinkingfalse，19:05:12.018246→19:06:11.170170Z真实1POST/1END（本地Nov06），HTTP200/DONE/length10000/candidateCompletefalse，59.1519775秒、有效内容TTFT4.224648秒，reported31852+10000/cached=null。CONTENT/rawSSE整份未开/未解析/未提取/未hash，不运行正文auditor、不拼接/续稿/R2，0任何代码采用/0rawJVM；caller1明确length，非瞬错。元数据终态先告Java/Root，owner接管不等后见。[完整输入pin、预算成本与严格弃置](evidence/2026-11-06-http-preserved-failure-versioned-reanalysis-length.json)。
+
+本次不足10万输入字节仍10k截断，不能按小输入/窄target预认输出够用，也不能从未读正文猜原因或永久能力边界；后继真正新复杂版本状态机/fixture任务应与owner审足有限预算，保窄span/完整stream，不改94或active参数。只读514COMPLETED/514RELEASED、100READY非并发、source0，无下一真实源不造95；Nov06成功1.19.5缓存复用、0额外维护probe/本岗JVM/Game/GET/JFR/活跃配置变更。旧8成功/clean ticket/P052/实际Runtime/速度均未授，旧length正文/SSE继续完整未读未hash0采用/noR2。
