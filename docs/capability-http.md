@@ -3678,3 +3678,10 @@ core.withBorrowed只有正常返才置coreReturned，原round与released点不�
 fixed3/DIRECT/max9000/thinkingfalse，17:38:58.925612→17:39:34.222335Z真实1POST/1END（本地Nov06），HTTP200/DONE/stop/JSONvalid，35.2966276秒、有效内容TTFT13.6754984秒，reported105835+3813、cached=null。实际6全文与TASK核符，CONTENT=SSE审计errors/差异为空，原件先交Java后audit/Git；交付采用切点待源审、0rawJVM/noR2，完整传输不授API/generic/checkedthrows/原业务语义/释放/软件或速度。
 
 只读510COMPLETED/510RELEASED、96READY非并发、source0，无新sole需求不造91。0本岗JVM/Game/GET/JFR/业务decisionHTTP/额外维护probe/活跃参数改变；旧length全文/SSE未读未hash，后到source/type/软件/正常日志/实际phase与SAVE性能分层另证。[来源pin、精确成本与scope/异常强义务](evidence/2026-11-06-http-planning-own-scope-method-timing-delivery.json)。
+
+
+## 2026-11-06：Civ6capture430
+
+430与431经canonical普通HTTP均完整stop/DONE/VALID，同日复用Nov6成功OpenCode1.19.5维护，0新原生生成。430原字典#计数错与类型缺口由owner重写Core/Flag各8资格后用于实际城旗UNKNOWN提示及窄恢复验收；旧observer/fault资格复用不重计。431只采用缺操作前快照事实，拒绝Index/Hash混淆及缺失演员+目标效果即可肯定消耗，逻辑反例非Native故障，原农场效果通过保持。截至431逻辑431/完整400/length28/finaltransport3，HTTP461/extra30。432另发候选不含该快照；未知缓存tokens、人工成本和节时null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-capture430.json)。
