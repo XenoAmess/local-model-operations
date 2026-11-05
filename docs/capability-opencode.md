@@ -428,3 +428,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-05：Civ6404驻军盘点
 
 0新OpenCode原生生成；共享CLI在HTTP前走Nov5同机维护成功缓存。404外层JSON完整，但Lua53与分类合同失败，0代码／候选游戏执行；负责人只读Native盘点另账，不授OpenCode或模型征城实效。[两mode与业务pin](evidence/2026-11-05-civ6-garrison404.json)。
+
+
+### 2026-11-05：Civ6405真实中断保存恢复
+
+0新OpenCode原生生成。共享CLI在POST前接同机Nov5维护成功缓存；405是普通三消息HTTP。候选能编译但不安全，0原稿游戏执行；owner钩子安全检查、正式存读档和真实恢复另账，不算OpenCode工具生成或模型自动验收。[分级与固定业务证据](evidence/2026-11-05-civ6-recovery405.json)。

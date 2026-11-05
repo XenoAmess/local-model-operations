@@ -3170,3 +3170,10 @@ fixed3/DIRECT/max7500/thinkingfalse，05:38:47.813945→05:39:36.490581Z真实1P
 fixed3/DIRECT/max6000/thinkingfalse，05:54:20.617819→05:55:12.728413Z真实1POST1END，HTTP200/DONE但length，52.1107997秒/有效TTFT19.064503秒、148673+6000tokens/cachednull。CONTENT/rawSSE整份未开、未解析、未提取、未哈希，不跑正文审计器，0代码/方法/partial采用、0modelJVM/noR2；真实END立即交p0接管，不等Git。Models自用prefix verifier因无可选role键先KeyError，未写结果，修元数据label后35全文全核，原REQUEST未变；这项运营成本不归模型或输入偏差。478终态/478释放/64READY累计登记，源码在途0，finite58正常closed/caller1为length，不冒软件编测红。
 
 Root据连续57实现7500、58双方法Test6000均实际length，要求下一真正新复杂实现/fixture单位按预计输出审定12k等更高有限预算，仍窄diff/完整当前源码/整流complete。现caller允许1..16000；旧57/58不重投、不读半稿、不改活跃caller/服务/Runtime参数。已证是这两次预算没有取得完整候选；正文未读，不能推断输出内容或保证12k足够，也不宣称永久容量边界。owner接管/必要首验不等共享文档，完整主动成本与净收益未知。
+
+
+## 2026-11-05：Civ6405，真实结算中断钩子与保存恢复
+
+1POST、200／stop／DONE／VALID，21881+834tokens，8.7125443秒、有效TTFT2.9809335秒，峰1、0重试、cached=null。完整输入含实际Capture／Recover、Gameplay即时恢复调用者、Executor、资格及已用Native包装；候选install／cleanup均Lua53编译，但cleanup会覆盖foreign binding，隔离反例已证。静态GameAPI冒用colon、初态／所有权缺口及reason／扣款分支说明均由owner修正；只参考实际phase与持续阻断方向，0原稿游戏执行／代码采用。
+
+负责人另做6项故障钩子安全检查，Native实际1次地图确认、转城1／扣300、Finish0，精确故障命中2（含原处理器立即恢复）。保存真实UNKNOWN／FINISHING并正式加载后自动完成，余额不变、行动4→0；完成后新计数器下Recover两次均0转城／0Finish。启动恢复的原生次数没直接观测，明确unknown；不是全阶段／跨进程通过，也不追授模型游戏实效。[固定业务pin、原件指纹、成本未知](evidence/2026-11-05-civ6-recovery405.json)。

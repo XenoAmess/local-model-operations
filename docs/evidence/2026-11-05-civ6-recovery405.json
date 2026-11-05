@@ -1,0 +1,105 @@
+{
+  "schema": "local-model-operations.civ6-recovery405/v1",
+  "utc": "2026-11-05T06:07:19.035904+00:00",
+  "date_local": "2026-11-05",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/941d09860644d776873b9661127b99d50992da4d/docs/research/baiqi-p6-finish405-recovery-evidence-2026-11-05.json",
+    "sha256": "a4ea0e6cd830c123455081d9a454d65359635e1be1038b4e0aca8fdd23958167"
+  },
+  "model": {
+    "mode_id": "http-candidate",
+    "logical": 405,
+    "shared_commit": "f22a5b5da2e3fb577b590a63b9487bd520002c51",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "attempts": 1,
+    "extra_retries": 0,
+    "max_tokens": 4500,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 21881,
+      "completion_tokens": 834,
+      "total_tokens": 22715
+    },
+    "ttft_ms": 2980.9334999881685,
+    "total_ms": 8712.54430001136,
+    "cached_prompt_tokens": null,
+    "client_inflight_peak": 1,
+    "install_cleanup_lua53_compile": true,
+    "adoption": "Source phase and persistent-blocking direction partial reference;0verbatim code and0candidate game execution. Owner code separately qualified.",
+    "owner_corrections": [
+      "Game.GetCurrentGameTurn is called with dot/no arguments; candidate colon call not source-qualified",
+      "Model cleanup lacks wrapper/manager ownership reference and overwrites foreign slot",
+      "Model analysis incorrectly calls ordinary ok/false outcome handler_error and says phase!=CHARGING proves no debit; actual debit branch is phase==TRANSFERRED",
+      "Passed counter may remain0 in a target-only fixture; no forced unrelated operation to raise it"
+    ],
+    "owner_phase_events": [
+      {
+        "utc": "2026-11-05T05:23:39.152052+00:00",
+        "task": "recovery405",
+        "event": "PREP_BEGIN",
+        "earlier_selection_and_initial_read_seconds": null
+      },
+      {
+        "utc": "2026-11-05T05:25:10.061227+00:00",
+        "task": "recovery405",
+        "event": "PREP_END",
+        "earlier_selection_and_initial_read_seconds": null
+      },
+      {
+        "utc": "2026-11-05T05:26:27.084508+00:00",
+        "task": "recovery405",
+        "event": "REVIEW_BEGIN",
+        "earlier_selection_and_initial_read_seconds": null
+      },
+      {
+        "utc": "2026-11-05T05:28:27.253260+00:00",
+        "task": "recovery405",
+        "event": "REVIEW_END",
+        "earlier_selection_and_initial_read_seconds": null
+      },
+      {
+        "utc": "2026-11-05T05:28:27.431816+00:00",
+        "task": "recovery405",
+        "event": "CORRECTION_BEGIN",
+        "earlier_selection_and_initial_read_seconds": null
+      },
+      {
+        "utc": "2026-11-05T05:31:36.428863+00:00",
+        "task": "recovery405",
+        "event": "CORRECTION_END",
+        "earlier_selection_and_initial_read_seconds": null
+      }
+    ],
+    "earlier_selection_read_seconds": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null,
+    "maintenance": "Canonical CLI preflight before HTTP; Nov5 same-machine/user successful1.19.5cache, no OpenCode native generation."
+  },
+  "cumulative_civ6_through405": {
+    "logical": 405,
+    "complete_stop_valid": 375,
+    "length_discarded": 27,
+    "final_transport_failed": 3,
+    "http_attempts": 435,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Same owned process18760/birth1793831208.9333148, same turn114, official Save/Load and Continue. No process-cold or later-turn pass.",
+  "generic_lessons": [
+    "Source-compile success does not qualify ownership cleanup. In an isolated Lua53 counterexample, candidate cleanup overwrites a foreign replacement and clears state; owner must retain exact manager/wrapper references and refuse replacement cleanup.",
+    "A failure injection must account for every actual consumer. Gameplay handler makes an immediate recovery attempt; one-shot removal would close the intended pre-native window before Save. Persistent exact actor/owner/turn binding yielded2blocked attempts from1confirmed input.",
+    "Name the phase at the true call site. Positive debit receipt is already persisted, but FINISHING is persisted before cooldown and native movement exhaustion; do not label this CHARGED or an ambiguous debit.",
+    "Direct static API declaration and consumer use dot/noargs. Candidate colon call was not source-qualified; this is not a claim that the actual native C++ implementation was experimentally shown to reject extra args.",
+    "Official Save ACK, stable saved bytes, Load ACK, active in-game readback and completed recovery are separate. Do not replay the paid operation to fill a diagnostic gap.",
+    "No wrapper counts survived bootstrap; record native bootstrap call counts as unknown. Fresh counters installed after automatic completed readback proved2explicit Recover calls produced0transfer/0Finish."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Owner six hook safety checks and real native recovery are independent of candidate adoption. Product74 unchanged; only one same-process/same-turn stage, not full recovery acceptance."
+}
