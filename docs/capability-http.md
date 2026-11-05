@@ -3631,3 +3631,10 @@ fixed3/DIRECT/max8000/thinkingfalse，16:06:47.620417→16:07:31.219877Z实际1P
 86 完整patch/method/literal/rawJVM/R2均0。四个oldspan各自都在完整当前源中匹配1次，拒收原因是changes0/2对同旧块给不同替换、prefix替换插入全loop却留下原tail、两版都丢旧gap2 initialnil校验，以及漏READ全state3admin比较/details==afterhistory、Stage只许SWAYslot的完整比较和retained旧canonical metadata证明。不能把本案误写为旧anchor捏造或输入裁剪；proof缺项已足够，其他API表达式未据以判错或运行compiler。ownerhelper是在读完整raw后依据既有强合同写出，未拷/应用rawreplacement或method，不追写成全部ownercode先于原稿。
 
 旧85/86交付待审切点与HTTP原件保留，此处仅additive正式审稿；owner自身source/type40/新publicDATA及Runtime私门继续分账。0新HTTP/JVM/Game/GET或活跃参数改变，不重投任何旧ID；旧length全文/SSE未读未hash。[具名review、原件pin、owner时序与未知成本](evidence/2026-11-06-http-sway-85-86-formal-reviews.json)。
+
+
+## 2026-11-05：Civ6capture428
+
+428为Nov5完整stop/DONE/VALID，源码修复Nov6交付。原稿编译但UI缺Actions include加载失败、继续丢3额外参数→0，0产品/Native，仅采用局部hook方向及用例类别。owner复用Interact，先直接SDK赋值导致完整1058中的1私有分析错误，改上下文proxy并保留仪器拒绝规则后45针对/1058全绿。累计截至428：428逻辑／397完整／28length／3finaltransport、458HTTP／30extra，0新OpenCode原生生成，未知缓存/节时null。此业务pin仍Native76pending，后续冷装/新鲜离线/实机另记。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture428.json)。

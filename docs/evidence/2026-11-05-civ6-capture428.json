@@ -1,0 +1,77 @@
+{
+  "schema": "local-model-operations.civ6-capture428/v1",
+  "utc": "2026-11-05T16:18:38.510437+00:00",
+  "date_local": "2026-11-05",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/96b1797682141d01e8e2916a5386b873c8ec5e0b/docs/research/baiqi-p6-capture428-flag-confirmation-source76-evidence-2026-11-06.json",
+    "sha256": "a8e6ceb09b80d49d67844cfacb13dfc0e0669042c1c1f4927af53aa114de9e21"
+  },
+  "model": {
+    "shared_commit": "607464d98459d5aed8bd0eff685c325726e98765",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "attempts": 1,
+    "extra_retries": 0,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 14962,
+      "completion_tokens": 1509,
+      "total_tokens": 16471
+    },
+    "total_ms": 11769.193799991626,
+    "ttft_ms": 2142.841699998826,
+    "cached_prompt_tokens": null,
+    "candidate_qualification": {
+      "compile": {
+        "actions_lua_addition": true,
+        "unitflag_override_lua": true
+      },
+      "raw_ui_isolated_load_error": "[string \"<python>\"]:16: attempt to index a nil value (global 'BaiqiActions')\nstack traceback:\n\t[string \"<python>\"]:16: in main chunk",
+      "raw_addition_continue_dropped_varargs_actual": 0,
+      "required_varargs": 3,
+      "raw_software_fixture_executions": [
+        "UI isolated context initial load",
+        "Addition appended to original75module, pure native-sink mock continuation with3extraargs"
+      ],
+      "raw_native_execution": 0,
+      "raw_product_application": 0,
+      "adoption": "Scoped UnitFlag operation interception and test categories only. Reject duplicate Interact, missing Actions include, unguarded params, dropped extraargs and unsaved nativeShutdown. Owner reuses Interact via31line wrapper and context-local manager proxy, preserves guard/native consumer behavior.",
+      "owner_correction": "First1058suite had1private instrumentation error on qualified SDK assignment. Replaced direct RequestOperation mutation with context-local proxy and identity restoration, leaving instrumentation fail-closed unchanged; targeted45pass, full rerun pending."
+    },
+    "raw_product_application": 0,
+    "raw_native_execution": 0,
+    "adoption": "Only scoped flag-operation interception direction and regression categories. Owner reuses existing Interact via31-line wrapper and context-local proxy, fixes includes/params/extraargs/shutdown; raw duplicated dialog not adopted.",
+    "maintenance": "Nov5 canonical successful same-user/machine OpenCode1.19.5 cache before this Nov5POST; no Nov6call yet, no new OpenCode native generation.",
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical": 428,
+    "complete_stop_valid": 397,
+    "length_discarded": 28,
+    "final_transport_failed": 3,
+    "http_attempts": 458,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "source76": "Scoped UnitFlagManager proxy intercepts city-target operation and reuses existing Interact; no duplicated payment/dialog; preserves native extraargs/nils, fallback/civilian behavior, contextPoll and shutdown restore.",
+    "software": "Old75bound-handler regression fails with1native-mock command before popup.10newmethods,45targeted and full1058passed95.655s. Firstfull1058had1private-instrumentation error on direct SDK assignment; fixed via context proxy, instrumenter fail-closed unchanged.",
+    "cutoff": "This business pin is source/software-only, installed75windowless formal-exit residue at234s, Native76pending. ModelcallNov5, sourcefixdeliveredNov6. Later coldinstall/retest must be independent evidence, no source acceptance promoted."
+  },
+  "generic_lessons": [
+    "A bound UI callback may resolve a global operation manager at invocation; wrap the actual sink in its own context, not a global function value already captured by UI registration.",
+    "Reuse one quote/dialog/payment flow; duplicating city interaction creates divergent safety and maintenance behavior.",
+    "Context-local proxies preserve unrelated SDK guard functions and allow identity-based shutdown restoration without mutating captured managers.",
+    "Forward explicit vararg length including nils; a compiler pass does not prove a continuation preserved arguments.",
+    "A private diagnostic instrumenter error is a real consumer failure; correct integration without weakening conservative analysis rules.",
+    "Software green does not close the prior physical flag-path Native failure until cold installed retest."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Job428modelcallNov5/cache maintenanceNov5, source softwaredeliveryNov6. Source76not Native passed at business cutoff. Alpha74unchanged, actual garrisonflag75FAIL remains open pending cold retest; exitresidue not clean-exit acceptance."
+}
