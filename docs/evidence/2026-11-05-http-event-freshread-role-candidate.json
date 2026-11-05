@@ -1,0 +1,139 @@
+{
+  "schema": "local-model-operations.event-freshread-role-candidate/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-event-fresh-read-reconciliation-role-20261105-01",
+  "new_actual_reconciliation_admission_pair_not_Driver51_R2": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_actual_Java_sources": 3,
+  "input_bytes": 416381,
+  "manifest_pin": {
+    "bytes": 2117,
+    "sha256": "a3ba623b2fc6cfee6585fcc201cfc918653b58aa8ecc5f89d412ecf2752945d4"
+  },
+  "contract_pin": {
+    "bytes": 2450,
+    "sha256": "c44b46a8b0597cf86b4bf24566e23b17ad0e21f5fba1cf9f82fc160e17bdebff"
+  },
+  "actual_RA_current_Runtime_reconfirmed": true,
+  "actual_prefix_full_text_verification": [
+    {
+      "role": "target",
+      "bytes": 74229,
+      "sha256": "c40be284162a2e101716bd1fb81e28694370b4382155baf7b067aa6d6500c5c8",
+      "full_raw_text_occurrences": 1,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    },
+    {
+      "role": "deployed_strict_EVENT_DATA_selector",
+      "bytes": 337557,
+      "sha256": "dbd6d7804fa342a52f0c9f3e450d957d29092c428ef44705472b12e518c74d9b",
+      "full_raw_text_occurrences": 0,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    },
+    {
+      "role": "actual_provenance_contract_unchanged",
+      "bytes": 4595,
+      "sha256": "60ec4bd243fa7042fd52a1f26191d9f5f3bab0c5070eea3cc5f1623c4f479e60",
+      "full_raw_text_occurrences": 0,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    }
+  ],
+  "requested_scope": "Only RA withObserved freshRead and freshAfterAckProvenance existing role groups add strict isReadOnlyEventRecovery(original). Preserve outer positiveACK/nativeOk/unsettled, all snapshot/READACK/custody/chronology/currentComplete/archivedoriginal checks, Push read_request_id denial and all cold verifier code. No new helper/API/schema or dispatch/deadline.",
+  "owner_exact_prePOST_diagnosis_contract_not_model_autonomous_discovery": true,
+  "POST_BEGIN_UTC": "2026-11-05T03:57:26.251063+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T03:57:41.800858+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "actual_parameters": {
+    "max_tokens": 2400,
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "JSON_syntax": "VALID",
+  "headers_ms": 10772.59419998154,
+  "effective_content_TTFT_ms": 10773.4463000088,
+  "total_ms": 15549.766600015573,
+  "usage": {
+    "prompt_tokens": 84396,
+    "completion_tokens": 821,
+    "total_tokens": 85217
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 427852,
+    "sha256": "4d2c57a6b05936f88490bfc3a3792f22dc269e49f523ee3641c500b2ac78daff"
+  },
+  "RESULT_pin": {
+    "bytes": 1296,
+    "sha256": "490b986a65d1f2865d0a97d388672842ae6bf752e8488c1efba757886f070705"
+  },
+  "CONTENT_pin": {
+    "bytes": 3601,
+    "sha256": "a4cc79523624d8af14add4088e3ec89d8244b637aba948a4ed2a21839273df2f"
+  },
+  "EVENTS_pin": {
+    "bytes": 2862,
+    "sha256": "37ed2249d0528de71471ccd90dad1df2085ba2418a434b3ea90a6b506368d03d"
+  },
+  "audit": {
+    "errors": 0,
+    "discrepancies": 0,
+    "CONTENT_equals_SSE_UTF8": true,
+    "pin": {
+      "bytes": 4461,
+      "sha256": "cfc69cd15e8b48272bf0879604c563a4a0d53e31dd0113ae0db5bd3c2b168771"
+    }
+  },
+  "complete_raw_delivered_before_audit_Git": true,
+  "source_review_at_immediate_handoff_cut": "PENDING_OWNER_REVIEW",
+  "HTTP_not_code_adoption_compile_privatelease_callback_settlement_or_Runtime_credit": true,
+  "PREP_before_authoring_events": [
+    {
+      "event": "PREP_BEGIN",
+      "at_utc": "2026-11-05T03:56:40.8764940+00:00"
+    },
+    {
+      "event": "PREP_END",
+      "at_utc": "2026-11-05T03:57:17.038991+00:00"
+    }
+  ],
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 472
+    },
+    "leases.db": {
+      "RELEASED": 472
+    }
+  },
+  "source_HTTP_inflight_after_END": 0,
+  "finite_wrapper_returned_normally": true,
+  "caller_exit": 0,
+  "no_R2_or_active_caller_service_Runtime_parameters_changed": true,
+  "Models_JVM_SDK_C_UI_GET_Game": 0,
+  "full_owner_active_cost_and_net_savings": null
+}

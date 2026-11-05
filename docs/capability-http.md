@@ -3087,3 +3087,14 @@ fixed3/DIRECT/max6000/thinkingfalse，1POST1END，HTTP200/DONE但length，47.052
 [正式review cdec/owner SourceReady c82c](evidence/2026-11-05-http-event-driver-role-owner-source.json)补pending：原两条新增OR行完整LF文本在candidate6255中逐字匹配，语义采用；整patch不采用，原hunk上下文/顺序虚构、old7/new8与+2行计数不符，owner按真实唯一anchor机械修。原JSON用applicable_unified_diff而非请求key，按实际key读取，无R2；可选diagnostic的Life/SAVE→isolated是owner更新。
 
 候选139893/6255逆换两个owned块完整还原actual139691/1678，outer完整canonical HashSet AND、所有旧roles/else/fences/status/Native调用及完整snapshot参数均保，无新method/field/type/import/API。sourcecut仍source_only，旧selector2P是参考而非新Driver/私Root行为资格；Java报告formal前后whole源码与actual相同，也不授formalcohort/type/runtime或实际521恢复。原15.3527秒/TTFT12.2954秒成本保，owner原已精确诊断强引导，不称模型自主发现；0新HTTP/JVM/Game、不R2，完整主动成本/净收益未知。
+
+
+## 2026-11-05：Driver typed18与正式发布后见
+
+[Native43f2与正式5c71](evidence/2026-11-05-http-event-driver-role-owner-typed-later.json)补源切点：owner候选6255必要1TU18class首0/6.5178033秒，18份前后classpins、ACTUAL/post/terminal/close/fence具名原件核实；Native记录18结构shape equal是flags/field/method/descriptor/generic/nested等相同，不是二进制字节相同。模型两OR行语义采用+owner机械hunk修/diagnostic分账保，不把typed0授rawpatch或owner净节省。
+formal与actual whole源码同6255，业务5c71de88已发且owner remoteexact/Dclean；未重跑旧selector2P、无新JUnit/私Driver或Root行为资格，实际Runtime31角色消费及后继reconciliation门另证，不授521结算/SAVE/G2/提速。此后见0新HTTP/JVM/Game，原15.3527秒成本及旧切点保。
+
+## 2026-11-05：Fresh READ reconciliation 新双门源码候选
+
+[新的RA admission pair首派](evidence/2026-11-05-http-event-freshread-role-candidate.json)使用Runtime再核actual c40、已部署Batch dbd6与actualProvenance60ec三份完整源码共416381B，实际REQUEST核全文；仅withObserved freshRead与freshAfterAckProvenance roleOR增加strictEVENT(original)，所有outer正ACK/nativeOk/!settled/custody/READ chronology/Push read_request_id拒绝与cold代码须原样保，无新API/helper/schema/控制或期限改动。
+fixed3/DIRECT/max2400/thinkingfalse，1POST1stop，15.5497666秒/有效TTFT10.7734463秒、84396+821tokens/cachednull；3601B完整raw先交Java，随后CONTENT=SSE/0discrepancy。即时交付切点待源审，不授代码、编测、私lease/v1callback或实际恢复；472终态/472租约释放/0源码在途，finite52正常closed/caller0，0JVM/C/UI/GET/Game/参数改动，完整owner主动成本与净收益未知。
