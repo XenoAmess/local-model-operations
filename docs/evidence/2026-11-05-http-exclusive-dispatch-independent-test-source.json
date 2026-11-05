@@ -1,0 +1,121 @@
+{
+  "schema": "local-model-operations.exclusive-dispatch-independent-Test-source/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-exclusive-dispatch-independent-test-20261105-01",
+  "distinct_new_Test_not_production_or_Life_R2": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_sources": 16,
+  "source_bytes": 210522,
+  "full_task_bytes": 8162,
+  "manifest_pin": {
+    "bytes": 14074,
+    "sha256": "35f91766a00d651ce90023311536eac08943626ac3f941a07bfee4f0f6805b66"
+  },
+  "task_pin": {
+    "bytes": 8162,
+    "sha256": "4ffc31a8738e22d8361ea59c639945594aa90d1cab80acaa01d49b97f751a996"
+  },
+  "requested_delta": "Only diff adds exact3noarg methods/necessary imports/max2tinyTesthelpers to complete38595B ProductionAssemblyTest, original methods byte unchanged.",
+  "requested_real_boundaries": "Actual public Planner/Core/pipeline/RealmLifecycle with controlled typed policy inputs, per-stage exclusive dispatch, finish hooks, ordinary enrichment and original replacement/UNKNOWN/source/deadline guards.",
+  "actual_live_offending_stage_or_policy": "NOT_HELD; not inferred from common loop or controlled Test policy",
+  "old_scaffold_not_new_model_contribution": true,
+  "POST_BEGIN_UTC": "2026-11-05T00:17:52.276291+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T00:18:17.979732+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "fixed_three_messages": true,
+  "actual_parameters": {
+    "max_tokens": 6500,
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "JSON_syntax": "VALID",
+  "headers_ms": 6084.561900002882,
+  "effective_content_TTFT_ms": 6085.368199972436,
+  "total_ms": 25703.399099991657,
+  "usage": {
+    "prompt_tokens": 46581,
+    "completion_tokens": 3506,
+    "total_tokens": 50087
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 226853,
+    "sha256": "ae32bd133df99a0704049a34dc330205d718c91105bfe0a3e0de208026497cbd"
+  },
+  "RESULT_pin": {
+    "bytes": 1278,
+    "sha256": "a8493a64e93098ba02231ef33d2f1a5521b6379b921b81b2e64f051bab59f281"
+  },
+  "CONTENT_pin": {
+    "bytes": 15934,
+    "sha256": "86f89c750700464ef2375a4800b8a19ecda392395c9c949352fbea646087d99e"
+  },
+  "EVENTS_pin": {
+    "bytes": 2885,
+    "sha256": "6f4f724d2e9c767975fa487ad8ead43576b09d61c4cd489cc2d739746570de56"
+  },
+  "audit": {
+    "errors": 0,
+    "discrepancies": 0,
+    "CONTENT_equals_SSE_UTF8": true,
+    "pin": {
+      "bytes": 4470,
+      "sha256": "8ad3a32adac9d3cb2bc72d1bca745b5cb594c0a8641c8bd0ebe78b510bdc8646"
+    }
+  },
+  "complete_raw_delivered_immediately_to_Test_owner": true,
+  "source_review": {
+    "source": "P0 independent Test owner explicit full-raw review message; formal review pin not supplied at this cut",
+    "new_complete_methods_adopted": 0,
+    "partial_code_adoption": "NOT_HELD_AT_CUT",
+    "model_JVM_runs": 0,
+    "findings": [
+      "var result inferred ActionSelected then reassigned ReadOnlyWait/Stopped, incompatible types.",
+      "Reassigned planner captured by lambda, not effectively final.",
+      "ChosenA/B have identical full bodies, so do not witness replacement.",
+      "Finish illegal Replace reuses identical chosen.command, so original304 does not reject.",
+      "Completion order/count and late-kind/finish trace order not actually asserted.",
+      "Unsupported case changes CORE map while pipeline obtains the actualCore argument, leaving requested frontier untested.",
+      "Unified hunk coordinates/counts do not describe supplied full source."
+    ],
+    "owner_takeover": true,
+    "automatic_R2": false
+  },
+  "source_findings_not_actual_javac_or_JUnit_failures": true,
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 460
+    },
+    "leases.db": {
+      "RELEASED": 460
+    }
+  },
+  "source_HTTP_inflight_after_END": 0,
+  "same_pinned_caller_profile_and_active_parameters": true,
+  "Models_new_JVM_UI_Runtime_Game_GET": 0,
+  "later_owner_source_first_Test_formal_actual_recovery_separate": true,
+  "full_owner_active_preparation_review_rewrite_cost_and_net_savings": null
+}
