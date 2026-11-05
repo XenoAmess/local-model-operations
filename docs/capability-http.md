@@ -3341,3 +3341,8 @@ fixed3/DIRECT/max10000/thinkingfalse，08:12:44.976874→08:14:09.718508Z真实1
 新的未完成任务完整提供5份当前Java源码229506B及2486B合同，只请求把真实borrowedSession传入已有三参observe。fixed3/DIRECT/max3000/thinkingfalse，08:53:14.529432→08:53:23.307071Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，8.7777026秒、有效内容TTFT6.0936855秒、reported46520+456、cached=null。完整UTF8字节审计errors/差异均空，原件已在审计与Git前交owner。
 
 模型表达式与owner于08:52:24预先独立物化的单表达式候选一致，后者整源outside逆还原精确；本切点仅交付和匹配事实，formal源审采用待证，未运行raw或编测。不把owner先诊断的精确合同称模型自主发现，也不由stop直接授代码采用。原537 UNKNOWN、不可变期限、原件及只接受实际SchedulerSaved的观察规则不改，未来接线修正不授权重跑537。只读487COMPLETED/487RELEASED，73READY不是并发，源码在途0；无新JVM/Game、服务探测或活跃参数变化。[脱敏证据与采用待证切点](evidence/2026-11-05-http-sway-borrowed-observation-delivery.json)。
+
+
+### 后到源审：单调用语义接受，owner 独立实施，literal copy 0
+
+08:54:58 的正式owner审查接受借用原会话的单调用语义；raw hunk 的106行位置与实际方法不符，未直接apply。owner432c在消费完整raw前已独立冻结，0literalcopy/0rawJVM/noR2，不能把表达式一致称为代码导入。此附记不新增软件或实际537恢复资格，前一交付待审切点保留。[源审pin与分层](evidence/2026-11-05-http-sway-borrowed-observation-owner-review.json)。
