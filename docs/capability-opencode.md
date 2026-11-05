@@ -438,3 +438,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-05：Civ6406未知扣款冻结
 
 0新OpenCode原生生成；共享CLI在HTTP POST前复用同机同用户Nov5成功1.19.5维护缓存。普通HTTP候选编译、owner字段修正、6行清理采用及Native未知态冻结分账；不把钩子检查追授为产品或OpenCode验收。[固定业务证据与成本未知](evidence/2026-11-05-civ6-recovery406.json)。
+
+
+### 2026-11-05：Civ6407冷进程证据工具
+
+0新OpenCode原生生成；canonical CLI在普通HTTP前复用同用户同机Nov5成功1.19.5维护缓存。截图候选编译不授工具安全或产品Native结果；owner修正和实际离线重启恢复分别记账，未知缓存、人工成本与节时保持null。[固定业务pin](evidence/2026-11-05-civ6-recovery407.json)。

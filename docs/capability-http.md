@@ -3236,3 +3236,10 @@ fixed3/DIRECT/max12000/thinkingfalse，06:45:43.809119→06:47:10.064724Z真实1
 1POST200／stop／DONE／VALID，20608+1441tokens、11.7074691秒、TTFT2.7433593秒、峰1、0重试、cached=null。54行install／6行cleanup可编译；原install把已持久化balanceBefore错判为空，实际Capture／Gameplay软件见证中不命中、正常完成。负责人修正字段、范围及透传，8项隔离检查通过；cleanup6行原样采用但来自提供405参考，不授新颖能力。原install0游戏执行。
 
 真实一次地图确认、原生转城1／扣300／Finish0，故障仅Number精确命中1，形成UNKNOWN／CHARGING；清理全部绑定后存读档、共四次显式Recover保持冻结，未补扣／退款或假装结束行动。负责人niland拼接错误被解析器拒绝、0动作，另行修正并加发送前编译，不归候选。4个探针不是付费Request重投；treasury直接计数及bootstrap调用未知。累计406逻辑／376完整／27length废弃／3最终transport，436HTTP尝试／30extra；0OpenCode原生生成。[固定业务pin及审阅证据](evidence/2026-11-05-civ6-recovery406.json)。
+
+
+## 2026-11-05：Civ6407，新进程证据工具与真实恢复
+
+普通HTTP1POST200／stop／DONE／VALID，5462+1379tokens，9.5685137秒、TTFT0.9426116秒、峰1、0重试、cached=null。68行Python候选可编译，0原稿执行；遗漏最小化／client／截图后复核、manifest拼接双JSON及非独占PNG保存，负责人只参考所有权与意图结构。实际API可用性单独读回，不用编译代替运行。
+
+正式正常退出旧进程后，新鲜后台只读Steam离线证明15.843194秒内启动新进程；两个旧进程真实保存窗口在同一新进程加载：FINISHING自动完成，CHARGING仍未知，分别完成首次读回后再装观察器，2次Recover均0转城／Finish。bootstrap次数未知，TC029／030整体部分。Continue加载门0输入拒绝、负责人未停止依赖只读查询导致LSQ超时，原件及修复单列；不归模型／产品错误。[精确业务pin和原件指纹](evidence/2026-11-05-civ6-recovery407.json)。

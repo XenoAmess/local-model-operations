@@ -1,0 +1,142 @@
+{
+  "schema": "local-model-operations.civ6-recovery407/v1",
+  "utc": "2026-11-05T07:14:06.468791+00:00",
+  "date_local": "2026-11-05",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/0d29a32785da9c49aaae786a1ad8fcd85c4fefa6/docs/research/baiqi-p6-cold407-recovery-evidence-2026-11-05.json",
+    "sha256": "67358942ab17079d058e569ebdaa0c70b73bea6b9ad7288b3f21b0f9656889c2"
+  },
+  "model": {
+    "kind": "Ordinary canonical HTTP, not OpenCode native",
+    "shared_commit": "d228b946cfea6997f9c319ab7fd51433dc21c96d",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "http_attempts": 1,
+    "extra_retries": 0,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 5462,
+      "completion_tokens": 1379,
+      "total_tokens": 6841
+    },
+    "total_ms": 9568.513700040057,
+    "ttft_ms": 942.6116000395268,
+    "cached_prompt_tokens": null,
+    "candidate_lines": 68,
+    "candidate_python_compile": true,
+    "candidate_sha256": "a59f45607424953ee3f3b5a342b485de66a9afe3092c7f7c71701c0cdc21902f",
+    "raw_candidate_execution": 0,
+    "owner_capture_sha256": "8bc484d5f62ca57b39b5e6b3ec9869753299c6b18db15f7640cc9ef7836a6e52",
+    "adoption": "Partial ownership/intent/geometry approach only;0verbatim candidate code execution. Owner corrected API, minimized/client checks, pre/post screenshot requalification, exclusive PNG and separate valid JSON intent/receipt.",
+    "candidate_issues": [
+      "Candidate invokes win32gui.IsHungAppWindow; actual module availability separately reported, owner uses existing qualified ctypes user32 route.",
+      "Missing minimized/client rectangle and post-screenshot ownership/foreground checks.",
+      "Appends two JSON objects to same manifest, invalid as a single JSON document; activated flag always true.",
+      "PNG save is not exclusive despite pre-existence check; owner uses openxb."
+    ],
+    "actual_win32gui_has_IsHungAppWindow": false,
+    "maintenance": "CLI pre-POST same-machine/user Nov5 successful1.19.5cache",
+    "new_opencode_native_generation": 0,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null,
+    "phase_duration_limit": "Review overlaps owner preparation; no reconstructed active timing or savings claim."
+  },
+  "cumulative_civ6_through407": {
+    "logical": 407,
+    "complete_stop_valid": 377,
+    "length_discarded": 27,
+    "final_transport_failed": 3,
+    "http_attempts": 437,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "finish": {
+      "first_core_and_ui_state": [
+        "finish",
+        "4224.2734375",
+        "0",
+        "851979",
+        "1",
+        "2162700",
+        "42",
+        "19",
+        "0",
+        "114"
+      ],
+      "first_operation": [
+        "city:0:114:2162700:1:524295:41:19",
+        "COMMITTED",
+        "DONE",
+        "300",
+        "4524.2734375",
+        "4224.2734375",
+        "true",
+        "true",
+        "851979",
+        "recovered",
+        "1"
+      ],
+      "first_read_before_manual_recover": true,
+      "explicit_recover_probes": 2,
+      "post_bootstrap_transfer_finish_errors": [
+        0,
+        0,
+        0
+      ],
+      "bootstrap_native_call_counts": null,
+      "reason": "First read precedes observers; do not infer native bootstrap counts."
+    },
+    "debit": {
+      "first_core_and_ui_state": [
+        "debit",
+        "4224.2734375",
+        "0",
+        "851979",
+        "1",
+        "2162700",
+        "42",
+        "19",
+        "4",
+        "nil"
+      ],
+      "first_operation": [
+        "city:0:114:2162700:1:524295:41:19",
+        "UNKNOWN",
+        "CHARGING",
+        "300",
+        "4524.2734375",
+        "nil",
+        "true",
+        "nil",
+        "851979",
+        "execution_interrupted",
+        "1"
+      ],
+      "first_read_before_manual_recover": true,
+      "explicit_recover_probes": 2,
+      "post_bootstrap_transfer_finish_errors": [
+        0,
+        0,
+        0
+      ],
+      "bootstrap_native_call_counts": null,
+      "reason": "First read precedes observers; do not infer native bootstrap counts."
+    }
+  },
+  "generic_lessons": [
+    "Read-only ownership must not rely on fixed process IDs or screenshot geometry. Candidate compiled but omitted minimized/client and post-screenshot identity checks. Owner qualified dynamic ownership and kept activation separate from Steam proof.",
+    "Appending JSON intent and receipt into one JSON file yields an invalid single document. Owner used separate exclusive intent, PNG and final JSON files. Candidate raw execution0, approach partial only.",
+    "Main-menu official load ACK, loading screen, ready Continue and fresh qualified endpoint are separate states. A fresh ROI gate refused0input; owner failed to gate two dependent readonly queries, both timed out in LSQ before CMD. Consume terminal sessions and inspect new screen before continuation.",
+    "Fresh official offline proof15.843194seconds before new process, normal owned exit observed gone without terminate. Two old-process interrupted files loaded into one new process, not two cold launches.",
+    "Positive FINISHING automatically completed without extra observed balance change; ambiguous CHARGING persisted. Each after-bootstrap Recover2 counter0Transfer/0Finish, bootstrap callsunknown. Do not award whole recovery acceptance.",
+    "Owner publication typo used nonexistent provenance key; actual shared_commit inspected and corrected. Two pre-copied screenshots hash-verified rather than overwritten; no model/game replay."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Two actual same-game-turn cold samples and helper review, product74 unchanged; no whole software-suite rerun or OpenCode native generation."
+}
