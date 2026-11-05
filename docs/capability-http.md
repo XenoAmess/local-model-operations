@@ -3449,3 +3449,10 @@ fixed3/DIRECT/max12000/thinkingfalse，11:35:00.587467→11:36:30.232978Z真实1
 ### 74 后到源审：整方法拒收，正确 Body/Stage/API 已完整提供
 
 11:57:31正式review确认0完整方法/0literalcopy/0partial/0rawJVM/noR2：候选把HEAD.payload的ExactRef metadata当已加载body来取active_stage/input，使用非法JsonNode/Text .set，并只打印immutability=true而未断言原state/command字节。完整correctBody、Stage与ExactRef API均在输入，非缺声明；这是源审拒收，不是实际javac或生产红。owner独立8489B方法另写真实loadMaterial/ObjectNode.put及state/command/deadline断言，必要新1case软件仍另证，不回授raw。前述交付待审切点保留，73正式discard review亦保整份length未读未hash、不猜原因。
+
+
+## 2026-11-05：Civ6capture417
+
+417完整stop/DONE/VALID，精准TRANSFERRED余额边界及6行cleanup原样方向采用；原稿覆盖旧namespace、发布失败留wrapper、丢参数，owner修正并6软件资格。0原稿Native。实际75同进程／新进程正凭证恢复分支独立核算，退出异常及只清理自有QA限制明确，Steam未终止未上线。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture417.json)。
