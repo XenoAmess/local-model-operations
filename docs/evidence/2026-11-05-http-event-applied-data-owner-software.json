@@ -1,0 +1,146 @@
+{
+  "schema": "local-model-operations.event-applied-data-owner-software/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-event-applied-pending-data-independent-test-20261105-01",
+  "additive_after_length_and_input_gap_cut": true,
+  "independent_final_pin": {
+    "bytes": 15412,
+    "sha256": "798c42363960cc6cb5cca5f4f501f8f7d464f7c84ce303555c4b653990ad5944"
+  },
+  "Native_qualified_pin": {
+    "bytes": 52415,
+    "sha256": "d41d3a59433e3fd8529efd89667eee905f0dd760a7226f89fc4ad8f031f9ad17"
+  },
+  "owner_input_review_pin": {
+    "bytes": 2352,
+    "sha256": "7653b63a37718604c98346d8088f74547a77f3cc6d6c97e3a8795bd053b9b59b"
+  },
+  "owner_final_SOURCE_READY_pin": {
+    "bytes": 4286,
+    "sha256": "3e4bd46261f90d17badf5410d49a7abc78e8af016a99108814d250ad3dc895c3"
+  },
+  "owner_source_pin": {
+    "bytes": 15736,
+    "sha256": "8d0402f042da372cca285b9a035033ad4b4ff6e57882c6dcdaa48e0b5af8551f"
+  },
+  "production_SOURCE_READY_pin": {
+    "bytes": 4425,
+    "sha256": "7cd524fc932d9c546137cccc03196b03c4a4953179cc85e72e86e6b6a5347ef3"
+  },
+  "correct_receipt_codec_postPOST_pin": {
+    "bytes": 52389,
+    "sha256": "67d64084ca09cb209c1381fcd7b43d0f782857fc61168620d952f8e41a69a6b9"
+  },
+  "original_input_API_gap": "WrongActionCodec.decodeReceipt in originalTask/FIXTUREAPI, trueActionReceiptCodec.decodeReceiptUsingCanonicalCommand afterPOST; ownerinputnotmodelfault, no causalinference to unreadlength.",
+  "owner_code": "100percent owner complete newHostedclass, no modelcontent read/copied",
+  "model62": {
+    "finish_reason": "length",
+    "max_tokens": 12000,
+    "total_seconds": 84.405019,
+    "ttft_seconds": 20.3319887,
+    "prompt_tokens": 158113,
+    "completion_tokens": 12000,
+    "content_SSE_opened_parsed_extracted_hashed": false,
+    "code_adoption": 0,
+    "raw_JVM": 0,
+    "retry": 0
+  },
+  "final_qualification": {
+    "same_new_methods_RUN_only": 2,
+    "passes": 2,
+    "errors": 0,
+    "failures": 0,
+    "skips": 0,
+    "JVM_seconds": 8.664044099976309,
+    "XML_seconds": 6.129,
+    "XML_pin": {
+      "bytes": 42437,
+      "sha256": "15e1be027a6f00252e14143783e548efd98b21237a9d47e5d3b0b505e380b361"
+    },
+    "new_compile_TUs": 0,
+    "reused_Test_family_classes": 3,
+    "oldtests_RUN": 0,
+    "production_recompile": 0,
+    "unique_phase_classpins_verified": 28
+  },
+  "all_five_phases_ACTUAL_exit_close_fence_terminal_released_verified": true,
+  "phase_costs": [
+    {
+      "directory": "native-first01",
+      "phase": "test",
+      "exit": 0,
+      "seconds": 5.202349499973934
+    },
+    {
+      "directory": "native-first01",
+      "phase": "junit",
+      "exit": 1,
+      "seconds": 3.7630212000221945
+    },
+    {
+      "directory": "native-first02",
+      "phase": "test",
+      "exit": 0,
+      "seconds": 4.739077000005636
+    },
+    {
+      "directory": "native-first02",
+      "phase": "junit",
+      "exit": 1,
+      "seconds": 5.9708127999911085
+    },
+    {
+      "directory": "codec-closure-runonly03",
+      "phase": "junit",
+      "exit": 0,
+      "seconds": 8.664044099976309
+    }
+  ],
+  "owner_failure_costs_preserved": {
+    "first": "Test01 compile0; two setup errors before any selector/fixture assertion: explicit StrictJson 2MiB input-budget argument. Source review missed the precondition and addendum corrects it.",
+    "second": "Test02 compile0; two setup errors during complete canonical history decode: frozen prepared request4fa7ce67 absent. Selector not reached.",
+    "final": "No source or compiler change after Test02. Runtime froze finite codec closure1029 rows; same Test3class binary RUN-only succeeded.",
+    "model62": "Length output wholly discarded unread/unhashed; 0 model code/method adoption and no second POST. Original caller receipt-codec API mistake remains owner/input error."
+  },
+  "source_budget_fix": {
+    "two_parse_budget_identifiers_only": true,
+    "whole_rest_raw_inverse_true": true,
+    "methods_assertions_original_command_deadline_and_heap_unchanged": true
+  },
+  "postPOST_fixture_closure": {
+    "manifest_pin": {
+      "bytes": 790854,
+      "sha256": "1e347bcf9ec8bb23b224771f6e2b82ff86d6cd1404f6fcb738ad103a3a002577"
+    },
+    "actual_rows": 1029,
+    "original_external_manifest_rows": 621,
+    "declared_total_bytes": 2496934,
+    "fullfrozenlenSHA_audit": "Independent reviewer reports complete1029 audit; Models verified manifest pin/rowcount and phase receipts, didnot repeat all1029blob reads for documentation.",
+    "why_expanded": "Second setup2E: real canonical decoder missing prepared4fa7ce67; finite codecclosure added, same Test3class binary finalRUNonly0compiler. This ownerfixture/input closure gap is not modelcode failure."
+  },
+  "DATA_evidence": [
+    "DATA actual527_complete_chain=true original_settled=true original_command_unchanged=true zero_day=true unissued_no_Root_or_cycle_credit=true",
+    "DATA actual_selector_negative_count=10 no_builder_exception_credit=true restored_positive=true unissued_no_Root=true"
+  ],
+  "limits": [
+    "Uses public genuine DATA codecs, original527/whole canonical set, original ACK/request/cold receipt refs. Adapter creates no Root, Writer, Native, Session, source or cycle authority.",
+    "Ten direct selector-empty checks are owner session/machine, omitted/duplicate/singleton canonical set, missing cold original/dispatch/prepared/current record, and changed prepared bytes under unchanged ExactRef; restored inputs select original again. These are not a repinned-file test or a new wrong-date/state semantic matrix.",
+    "The real settled527 and original command/deadline remain unchanged. Pure DATA selection does not issue a new settlement, control, cycle, day or SAVE.",
+    "All phase terminal/fence/close observed released; failed setup phases retain exit/close1 and final success retains exit/close0.",
+    "No reviewer JDK/JVM/SDK/Game/C/GET/HTTP/control/file-original mutation or extra test RUN occurred."
+  ],
+  "model_full_content_SSE": "NOT_OPENED_READ_PARSED_EXTRACTED_OR_HASHED; entire length12k0code/method/partial/noR2 retained",
+  "formal_production_publication": {
+    "commit": "680986857959b60cbce802701fa27edb12644ad5",
+    "owner_receipt_remote_clean": true,
+    "pin": {
+      "bytes": 1655,
+      "sha256": "b66a7c684dcbcc2c33966b33333adf489d0cf2a45d80ba50347e9985cec92a70"
+    },
+    "production3TU68type": "Owner publication reports separately, not model61or62 credit or wholeformalreactorgreen"
+  },
+  "new_HTTP_JVM_C_GET_Game_for_posthoc": 0,
+  "Hosted_payload_or_source_public": false,
+  "owner_active_time_and_net_savings": null
+}

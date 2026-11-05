@@ -3277,3 +3277,20 @@ fixed3/DIRECT/max2400/thinkingfalse，07:46:28.178782→07:46:38.314632Z真实1P
 1普通HTTP POST200／stop／DONE／VALID，24829+1379tokens、12.4672977秒、TTFT3.4370995秒、峰1、0重试、cached=null。63行Lua编译，原稿0游戏执行；GetCharges／unitGetIndex／Name／returntable不合实际API及CMD消费者，缺上下文门和原地单位owner映射。只参考前后地块与单位缺失诊断方向，owner改用实际API及完整ID／可见性。
 
 精确prepared114与saved115正式加载读回：建造者1次劳动／原538无改良，后538农场、539农场保持、单位缺失；请求539→582→538→BUILD吻合，支持最后次数消耗，未直接计数UnitRemoved原因。Controller缺失分支清pending，不能虚构卡死；自动日志确认缺口保留，未写成功回执／重投。原正常114三上下文恢复。输入摘录遗漏归一化两行由owner后读源码限定，不归模型擅猜为事实。[精确业务pin及原件](evidence/2026-11-05-civ6-builder409.json)。
+
+
+## 2026-11-05：EVENT family 提案语义吻合，owner独立源码10类首验
+
+[正式review5bb4/SourceReady156f/Native4dac](evidence/2026-11-05-http-event-history-family-owner-typed.json)补63pending：rawfa82的EVENT schema+原positive9digit grammar、guardedlazy-beforepeek语义与owner独立候选完全吻合，提案语义接受；rawhunk头缺尾@@/计数闭合，未直接apply/JVM，无关import上下文不算新贡献。owner340de在消费完整raw前已独立完成，复制模型行0、完整modelmethod/type0；不是模型原样产码采用或自主发现。owner用FQN/comment，单块inverse全还原e45f，无新增权限/声明。
+
+owner必要1TU10class首0/9.3197984秒，10shapeequal与ACTUAL/post/terminal/close/fence、前后classpins具名独核，close0/released，结构相同不等于二进制字节相同。0新Test/旧62RUN，actual39history/cycle/Root/LOOP/SAVE/性能仍Runtime另证，不回授raw或重控527。原10.136055秒/TTFT6.5819701秒/51029+589成本与交付cut保，0新HTTP/JVM/Game，完整主动成本/净收益未知。
+
+## 2026-11-05：Applied selector owner Hosted2P，保API缺口和两轮setup2E
+
+[owner最终8d04/独验04与Native03](evidence/2026-11-05-http-event-applied-data-owner-software.json)补62length：完整Hosted类100%owner实现，真ActionReceiptCodec67d64084后到fullpin现已核，不追认原15prefix已见。第一轮compile0/5.20235秒后setup2E3.76302秒，StrictJson2MiB输入预算预条件未到selector；owner仅两budget标识符修后compile0/4.73908秒，第二轮setup2E5.97081秒为真canonical decoder缺prepared4fa7ce67，仍未到selector。两轮失败永久保，不归模型或生产语义红。
+
+Runtime有限冻结codecclosure由原621扩为1029rows，manifest790854B/1e347在既有1MiB内；同一Test3class binary最终0增编、仅2newmethods RUN-only，真2P/JVM8.6640441秒/XML6.129，10个直接selector拒例不以builder异常充数，原527/完整command/deadline/零日不变。五phase ACTUAL/exit/close/fence/terminal/3classpins/XML独核，失败phase各close1与最终close0/released都保；未为文档重读全部1029blobs，完整冻结lenSHA审计由独审回执支持，Models核manifestpin/行数和具名phase。
+
+原模型12k length全文/SSE持续未读未哈希、0代码/方法/partial采用/0modelJVM/noR2；原合同误写ActionCodec.decodeReceipt与后到codec/input closure缺口均owner责任，不能据未读稿归模型违约或推截断因果。通过范围只public selector UNISSUED DATA阳性与明确10拒，不授新wrongdate/state矩阵、私Root/Writer/custody/Native权威或history/cycle/结算/LOOP/SAVE/性能。正式68098685按owner回执exactclean、3TU68typed另账，不授整formalreactor；Hostedpayload/源码仍D-only，0新HTTP/JVM/Game/旧TestRUN，完整主动成本/净收益未知。
+
+后到正式d9bedab1及PUBLISHED027f由owner报告actual39在07:52:35 head528 ACTION/history.action_sequence527、07:53:05 head529 RETAIN原527；Models只读该具名发表回执，未新查Game/worker/账本或独验事件payload。该实际history身份/源/cold/replay越门归owner Runtime，非模型raw编译/代码复制/控制收益；freshSEM/cycleSETTLE/LOOP/SAVE仍未授，0重控。
