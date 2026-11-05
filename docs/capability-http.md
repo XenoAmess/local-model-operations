@@ -3874,3 +3874,10 @@ fixed3/DIRECT/max10000/thinkingfalse，22:42:37.709791→22:42:57.802288Z真实1
 449canonical stop/DONE/VALID，一次无retry；raw错误indices/漏成本与接入/错误fullfalse因果拒用，owner14审计例，0rawNative/product。独立138..142硝石0/3/6/9/12，141beforecall9<10且linefullfalse，实际Cui入队一次；142linefulltrue而Cui51/165保持。8BUILD/4unit/2mil/0Line/0unknown/error，events9records限138..141重复通知不重计资产，清理后restoremain148双CoreUI一致。累计through449449/418/28/3 HTTP479/extra30，450另记，未知缓存/人工节时null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-military449.json)。
+
+
+## 2026-11-06：Civ6capacity450
+
+450canonical stop/DONE/VALID，一次无retry。Raw缺visibility/跨城计数/资格前置归属漏项/错借settlerMinPop/无API断言拒用；owner14城252条Native只读盘点0error/incomplete，实际capacity两方法和Cities关联按第一方消费者核。只授夹具条件不授后台行为或恢复完成。累计through450450/419/28/3 HTTP480/extra30，451观察候选独立下一包；未知人工成本/cache/节省null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-capacity450.json)。

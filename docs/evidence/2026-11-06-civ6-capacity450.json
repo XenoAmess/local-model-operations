@@ -1,0 +1,84 @@
+{
+  "schema": "local-model-operations.civ6-capacity450/v1",
+  "utc": "2026-11-05T23:38:04.893656+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/35a2f81c579842b179c06a98dc4ae4a11b2a5363/docs/research/baiqi-p6-capacity450-native77-district-inventory-evidence-2026-11-06.json",
+    "sha256": "da241644d52eac1ca22e57593529e0a515c13cc2ba8ee9527926ce0868113d51"
+  },
+  "model": {
+    "models": {
+      "450": {
+        "shared_commit": "baa6a77ed542c7af1dc4062ce3db2433180663a6",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 44409,
+          "completion_tokens": 1331,
+          "total_tokens": 45740
+        },
+        "total_ms": 14590.61329998076,
+        "ttft_ms": 5883.080499945208,
+        "owner_review": {
+          "utc": "2026-11-05T23:30:13.883394+00:00",
+          "raw_native_execution": 0,
+          "raw_product_application": 0,
+          "review": [
+            "Raw undefinedvisibility makes eligibilityreadsunknown; ownerbindsPlayersVisibility[0].",
+            "Raw districtRows sharedacrosscities dropslatercities; ownercachesoneboundeddefinitionlist then visitspercity.",
+            "Raw omitsfull/falsecases/existingdistricts/prereqstate/actualcityassociation, ownerrecords all separately.",
+            "Raw uses settlerMinPop asdistrictcapacity test and conflatesCanProducefalse/noPlottocapacity; reject.",
+            "Raw sayscapacityAPIdoesnotexist; firstpartyCitySupport407/408 plusNativeportsconfirmbothzoned/allowed.",
+            "OwneractualCities.GetPlotPurchaseCity(plot)sourcefromfirstpartyWorldViewIconsManager790; scopeownedvisiblepurchasedplots only, associationunknownnotlegal.",
+            "Definitions excludeothercivilizationtrait/internal rows; Chinaownuniqueoptionalcoverage notautomaticallygranted.",
+            "Read-onlyinventorydoesnotproveBACKGROUNDdispatchsuppressionorrestoration; nofullTC009grant."
+          ],
+          "parse_check": "Lua5.3compilepassed",
+          "source_support": [
+            "Expansion2/UI/Replacements/CitySupport.lua407-408",
+            "Base/Assets/UI/Panels/ProductionPanel.lua1909-1930",
+            "Base/Assets/UI/WorldViewIconsManager.lua790"
+          ]
+        },
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "maintenance": "Nov6OpenCode1.19.5successfulcache reused;0newnativegeneration."
+      }
+    }
+  },
+  "cumulative": {
+    "logical": 450,
+    "complete_stop_valid": 419,
+    "length_discarded": 28,
+    "final_transport_failed": 3,
+    "http_attempts": 480,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "native_inventory": "Native77normal148China/Baiqi14cities,36districtdefs narrowed18ordinarynoninternalnontraitnoncenter,252records,0error/incomplete. Handan12pop4/4HolySiteprereqtrue/geometry10/fullfalse;Xian16pop3/7SpaceportRocketryfalse/geometry4;Shanghai8pop2/3Harborgeometry0. Inventoryonly,notBACKGROUNDbehaviorpass.",
+    "ports": "FirstpartyExpansion2CitySupport407/408andNative3citiesconfirmzoned/alloweddistrictcapacitymethods. FirstpartyWorldViewIcons790Cities.GetPlotPurchaseCity(plot)Nativeallownvisiblepurchasedplots0error/samecity. Twoinstanceplotguessedgettersnilnotcalled.",
+    "review": "Rawundefinedvisibility/crosscityshareddefinitioncounter/omittedfullfalseassociationprereqs/settlerMinPopmisuse/noAPIassertion rejected0rawNative/product. OwnerboundedactualAPIreadercompiledthenNativeinventoryonly;capacityformulaandcausalitynotinvented."
+  },
+  "generic_lessons": [
+    "Native false eligibility can arise from distinct prerequisites, capacity or geometry; record independent conditions before attributing a reason.",
+    "Check first-party consumers before accepting a model assertion that a native API does not exist.",
+    "Do not apply a settler population threshold to district capacity. Read current native capacity including modifiers instead of imposing a generic formula.",
+    "Cache bounded definition rows once; a global counter inside each city loop can silently omit later cities.",
+    "Verify ownership, visibility and actual city association before reading candidate placement. An unavailable instance getter is not a reason to fabricate association.",
+    "A qualified fixture inventory does not establish background suppression, later recovery or completed construction. Estimated growth is not observed growth."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Only TC009nativefixtureinventory. No BACKGROUNDsuppression/naturalrestoration/buildcompletion/alltraits/fullTC009or40grant. 0productchanges/prior1064notrerun/0Steamonline/upload/Alpha74unchanged."
+}
