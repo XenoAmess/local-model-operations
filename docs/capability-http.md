@@ -3611,3 +3611,14 @@ fixed3/DIRECT/max2500/thinkingfalse，15:33:25.219091→15:33:33.122694Z真实1P
 fixed3/DIRECT/max12000/thinkingfalse，15:47:08.961006→15:48:22.274605Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，73.3134093秒、有效内容TTFT34.9496509秒，reported268617+6886、cached=null。实际19全文与合同核符，CONTENT=SSE审计errors/差异为空，原件先交Java再audit/Git；交付切点采用待审、0rawJVM/noR2，完整传输不授强proof/source/软件或原parent终态。source85futurecatch/type9独立，不作为原result。
 
 只读506COMPLETED/506RELEASED、92READY非并发、source0；无新sole需求不造87。0本岗JVM/Game/GET/运行期decisionHTTP/活跃参数改变；本次12k完整6886与旧8k/10k/12k length并列，不能推预算因果/缓存/context/永久能力。旧length全文/SSE整份未读未hash，私Root/实际NoGameplay/LOOP/SAVE/G2/净收益另证。[完整来源pin、精确成本与强证明义务](evidence/2026-11-05-http-sway-retained-stage-read-metadata-delivery.json)。
+
+
+## 2026-11-06本地日：retained Stage 公有DATA Test87 完整交付与实际每日维护
+
+本地Nov06首真实任务87到来后，按既有CLI自然维护；实际检查0/4.2534965秒，00:04:52+08 installed/registry/target均1.19.5、updated=false、stderr0，成功缓存合法写Nov06，然后进入此真实source POST。此前00:01只读核对的Nov05旧cache/当时Nov06成功NOT_HELD记录不回写，source86仍归本地Nov05。87的canonicalID业务后缀Nov05保留，实际POST/END为UTC Nov05 16时、即本地Nov06；维护不是模型请求、编测或Runtime门，未为换日造测试HTTP。
+
+87完整提供16份663792B（11Java+4完整实际JSON+完整FixtureAPI），只在成熟8d04Test追加1方法，旧2/imports/Fixture/DataArchive/reader逐字保留。base1068与delta190两外部manifest各<=1MiB分别pin核实、不内联、不扫描1258blob；新方法需沿原lenSHA/NOFOLLOW/path/ref/ambiguity/budget guard合并。真实HEAD664/Unknown663保旧Scheduler metadata阳性、仅inverse activeStage还原完整priorbytes，8个真实consumer拒例每个后恢复阳性，全state/command/head/body不变/archivewrites0，不做私Root/READ/source/child/noDispatch证明，不跑旧Test。
+
+fixed3/DIRECT/max8000/thinkingfalse，16:06:47.620417→16:07:31.219877Z实际1POST/1END，HTTP200/DONE/stop/JSONvalid，43.5994384秒、有效内容TTFT21.2071136秒，reported165842+3824、cached=null。16全文与合同实际REQUEST核符，CONTENT=SSE审计errors/差异为空，原件先交Java后audit/Git；交付切点采用待审、0rawJVM/noR2，不授publicDATA通过或原663终态。Owner typed2TU31/85reuse9只是已给producer状态，不能回授新Test或model。
+
+只读507COMPLETED/507RELEASED、93READY非并发、source0；无新sole需求不造88。0业务JVM/Game/GET/decisionHTTP/活跃参数变化，旧length正文/SSE整份未读未hash；CLI维护成功、source、owner编测、实际NoGameplay/Root/LOOP/SAVE/G2/净收益继续分层。[完整来源、跨日归属、真实维护与HTTP成本](evidence/2026-11-06-http-sway-retained-stage-data-test-delivery.json)。
