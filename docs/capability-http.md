@@ -3243,3 +3243,14 @@ fixed3/DIRECT/max12000/thinkingfalse，06:45:43.809119→06:47:10.064724Z真实1
 普通HTTP1POST200／stop／DONE／VALID，5462+1379tokens，9.5685137秒、TTFT0.9426116秒、峰1、0重试、cached=null。68行Python候选可编译，0原稿执行；遗漏最小化／client／截图后复核、manifest拼接双JSON及非独占PNG保存，负责人只参考所有权与意图结构。实际API可用性单独读回，不用编译代替运行。
 
 正式正常退出旧进程后，新鲜后台只读Steam离线证明15.843194秒内启动新进程；两个旧进程真实保存窗口在同一新进程加载：FINISHING自动完成，CHARGING仍未知，分别完成首次读回后再装观察器，2次Recover均0转城／Finish。bootstrap次数未知，TC029／030整体部分。Continue加载门0输入拒绝、负责人未停止依赖只读查询导致LSQ超时，原件及修复单列；不归模型／产品错误。[精确业务pin和原件指纹](evidence/2026-11-05-civ6-recovery407.json)。
+
+
+## 2026-11-05：Applied pending 独立 Hosted DATA Test，12k再次length
+
+[新task62](evidence/2026-11-05-http-event-applied-pending-data-test-length.json)按完整15输入639016B（12actualJava API、完整HEAD89482/Applied52719519/FIXTUREAPI2597）与2302B合同首派，实际REQUEST全文核验；external621row manifest432236B按Root明确contract仅pin/path/schemaAPI，完整正文确未内联，不是裁剪任何源码/15row。测试将只读frozen.path并校验original/frozen pins/真实publiccodecs，禁止live original/CASfallback、fakeRoot/Session/cycle/ACK/outcome。要求一个Hosted类2noarg，真selector DATA阳性+有限直接拒例，UNISSUED结构不发行权威，actualRoot/history/LOOP/SAVE另证。
+
+fixed3/DIRECT/max12000/thinkingfalse，07:15:08.918290→07:16:33.323046Z真实1POST1END，HTTP200/DONE但length，84.405019秒/有效TTFT20.3319887秒、158113+12000tokens/cachednull。CONTENT/rawSSE整份未开、未解析、未提取、未哈希，不跑正文审计器；0代码/方法/partial采用、0modelJVM/noR2，真实END立即交Java接管后才后见/Git。482终态/482释放/68READY累计登记、源码在途0，finite62正常closed/caller1为length，0JVM/C/UI/GET/Game/活跃参数变更，无任何selector/Root/history/cycle/结算/SAVE/G2/性能资格。
+
+新61复杂实现与新62独立fixture Test都以明确有限12k触顶，不能把提高预算写为已取得完整候选或保证修复。actualREQUEST thinkingfalse、未报reasoning分项、cachednull；正文未读，不能从TTFT/字节数推reasoning、输出内容或context容量。后续仅业务确实可独立验收的完整小单位按真实新合同选择，不将废弃61/62续稿伪装新任务、不自动16k重投或为调用造单位。完整主动成本/净收益未知，原切点和原件保留。
+
+后到Root/Java源审纠正：原Task/FIXTUREAPI误写`ActionCodec.decodeReceipt`，完整实际ActionCodec1c61没有该成员，真实入口为`ActionReceiptCodec.decodeReceiptUsingCanonicalCommand`。原15文件全文送齐不等于API合同正确，这项owner输入/声明闭合错误不归模型违约；后到52389B/67d64084真ReceiptCodec供owner实现，不追认模型已见。原length事实及0采用不改，正文未读，不能断言该缺口造成截断、把12k触顶单独当模型能力上限或授compiler红；不改原件/参数、不R2。
