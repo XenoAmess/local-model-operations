@@ -2980,3 +2980,12 @@ owner独立执行1300付费转城、奇观／5作品及校园缺失读回，不�
 [正式review1e753976与SourceReady f7b32d3a](evidence/2026-11-05-http-registry-integration-owner-source-later.json)保原4919完整方法0采用/0modelJVM/noR2，partial仍未声明；owner新Test36578B/02122408只加三方法/三小helper，删16486B对应块后逐字还原旧20092B，旧fixture/context/资源不算模型新贡献。成功路径retainedWindow+incident0、disabled首次display仍incident1，已由owner正式纠正原TASK错误，原REQUEST不改、生产不为测试改动。
 
 该source-only切点尚未编/RUN，Native仅计划必要8267helper首次1TU+changedTest1TU→三selectors；已持精确classpath未找到匹配helper不等于全球不存在，也不记重编旧绿。D gzip216013/446b及两份原Python源码pin已核，未解压成前缀、未执行；C匹配资源由Native独记，Models不新查C。真实Core/Registry/Codec/EventPolicies链仍须实际软件资格，不授私Root、真实事件/装载/SAVE/G2/提速。本附页0新HTTP/JVM/UI/Runtime/Game，原切点保，完整owner主动成本与净收益未知。
+
+
+## 2026-11-05：Material retained-context 新 P0 与实际前缀核验
+
+[新的两目标实现首派](evidence/2026-11-05-http-event-material-retained-context-candidate.json)供6完整Java123398B+2冻结actualJSON70727B，总194125B与5312B合同；实际REQUEST逐文件核全文，两个JSON原文各1次，三Java依既有caller作完整LF投影，其余Java原文exact。只复用已保留registry decision的完整context/binding/receipt，经原history/direct优先、冲突拒绝/sameFrame/实际validator进入material，下游独立guard全留；不制造history/ref/capture/issuer。必要private material3→4arg允许并需normal loader，不为body-only删语义。actual payload/原件私留，本附页仅pin/元数据。
+
+max5000、固定三消息/DIRECT，1POST1END、HTTP200/stop/DONE/有效JSON，12.3288001秒、有效TTFT6.219109秒、47723+1018tokens、cachednull，4784B完整原件即交Java。CONTENT=SSE UTF8、审计0discrepancy；即时交接切点待源审，不授编测/实际恢复或模型自主发现。463终态/463租约释放、0源在途，0JVM/SDK/UI/Runtime/Game/GET/controls/期限修改，无活跃参数迁移、不R2。
+
+同时澄清前案RegistryTest消息措辞：仅gzip资源未进文本前缀，两份完整Python25034B/c98985与57668B/384208实际在原REQUEST第二消息各出现1次、全文raw exact，均未执行；没有过滤Py、输入偏差、重POST或回写原件。此前public切点本已注明fullPython在prefix，本次只读再核，无新生成；完整主动成本与净收益未知。
