@@ -513,3 +513,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-05：Civ6capture424
 
 0新OpenCode原生生成；canonical CLI普通HTTP前复用同机同用户Nov5成功1.19.5维护缓存。候选审阅／owner诊断／Native结果分账；不把编译或维护成功授予产品验收。未知缓存tokens／人工节时保持null。[固定业务pin](evidence/2026-11-05-civ6-capture424.json)。
+
+
+### 2026-11-05：Civ6capture427
+
+0新OpenCode原生生成；canonical CLI普通HTTP前复用同机同用户Nov5成功1.19.5维护缓存。候选审阅／owner诊断／Native结果分账；不把编译或维护成功授予产品验收。未知缓存tokens／人工节时保持null。[固定业务pin](evidence/2026-11-05-civ6-capture427.json)。

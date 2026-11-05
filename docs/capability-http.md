@@ -3593,3 +3593,10 @@ fixed3/DIRECT/max8000/thinkingfalse，15:09:18.106341→15:09:39.453593Z实际1P
 fixed3/DIRECT/max2500/thinkingfalse，15:33:25.219091→15:33:33.122694Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，7.9034198秒、有效内容TTFT3.9973924秒，reported29916+576、cached=null。首工具回执已完整END，原件即交Java；实际5全文与合同核符、CONTENT=SSE审计errors/差异为空。交付切点采用待审，0rawJVM/noR2，不把完整传输当合法catch/source/编测/原parent恢复。
 
 只读505COMPLETED/505RELEASED、91READY非并发、source0；无新sole需求不造86。0本岗JVM/Game/GET/运行期decisionHTTP/活跃参数变更，后端负载未采样，owner净工时收益未知；旧length正文/SSE整份未读未hash，实际Root/custody/强coldprofile/LOOP/SAVE/G2/性能分层另证。[全输入、精确参数/成本与未持边界](evidence/2026-11-05-http-sway-query-unavailable-recording-delivery.json)。
+
+
+## 2026-11-05：Civ6capture427
+
+425—427各1POST完整stop/DONE/VALID，原稿0Native；425实际端口替身失败，owner8例；426原命令无防重，替身2次请求，owner9命令和5Core/4UI读者；427大部分guard采用、补type/res表和诊断，13命令各6读者。Native实际执行军队升级延迟对象及UNKNOWN冻结Live/读档窄验，同时如实记录旗帜确认FAIL并继续修复。累计截至427为427逻辑／396完整／28length／3finaltransport、457HTTP／30extra，0新OpenCode生成，未知成本/节时null；428另在后续修复包记录，不纳入这个截至427快照。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture427.json)。
