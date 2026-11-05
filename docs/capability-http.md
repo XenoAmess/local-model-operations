@@ -3572,3 +3572,15 @@ fixed3/DIRECT/max6000/thinkingfalse，14:58:09.886834→14:58:32.210672Z真实1P
 424完整stop/DONE/VALID，原UI缺end、建筑进度接收者错误，0原稿软件/Native。owner重写并实际发现Core缺UI专属接口，受保护输出UNAVAILABLE后分组修正，各8端口诊断并换回合前重读。实际后台新城生产正常2→3进度0→1/60，单回合范围明列；累计424逻辑／393完整／28length／3final transport、454HTTP／30extra，0新OpenCode生成，未知缓存/节时null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture424.json)。
+
+
+## 2026-11-05：complete-item 字典独立DATA Test84 完整交付
+
+新84完整提供3份93726B Java（完整新Test draft/currentownerSelector03/actualFullJsonTree），只一个@Test的Hosted纯DATA consumer/inverse与有限反例，原1.72MB fixture只ownerpin/path，Models未读未hash，未来Native注property。03在输入冻结时typepending/notC；02真实WerrorRED0CF保留，02 Ready在首次POST前更新producer03和properties()约定，旧01从未派/非R2。Owner已给精确counts/向量/预期，不能称模型独立发现；只测actual纯helper与逐member slot扩展、原bytes不变/全userbytes还原、decimaltoken/fieldorder/hugeint/重复及真实nullfallback，不测private编码gate/compactpath/model理解/实dispatch/性能。
+
+fixed3/DIRECT/max8000/thinkingfalse，15:09:18.106341→15:09:39.453593Z实际1POST/1END，HTTP200/DONE/stop/JSONvalid，21.3473047秒、有效内容TTFT2.8079817秒，reported21040+3205、cached=null。实际3全文/TASK02核符，CONTENT=SSE审计errors/差异为空，原件先交Java后audit/Git；交付切点采用待审，0rawJVM/noR2，未授source/Test/roundtrip通过。
+
+只读504COMPLETED/504RELEASED、90READY非并发、source0；无新sole需求不造85。0本岗JVM/Game/GET/业务decisionHTTP/活跃参数变更；owner后续source/type/实际DATA与原稿分账，旧length正文/SSE整份未读未hash，外fixture/私Root/实际采用/SAVE/G2/净收益均不授。[输入pin、冻结型验状态、精确成本与边界](evidence/2026-11-05-http-item-dictionary-data-test-delivery.json)。
+
+
+84 后到正式源审：完整Test method/literal/rawJVM/R2均0。actualhelper+orderedinverse方向接受，但不存在的MessageDigest.createInstance、多处ArrayNode直接接JsonNode、缺JsonNodeFactory import属于source错误；自造source_frame缺完整身份使所谓阳性先拒，10个null边界/精确decimaltokens/hugeint/unknownnested覆盖不全，输入不变性也未核全bytes。百万逐byte断言含failure字符串的额外成本未实测、不采用该写法，不报实际JVM耗时或红绿。owner完整新Test独立先行，后续producer03型验与新1TU/1method首验另证，不能回填HTTP输入或授raw软件通过。[正式拒收、原件pin与owner边界](evidence/2026-11-05-http-item-dictionary-data-test-formal-review.json)。
