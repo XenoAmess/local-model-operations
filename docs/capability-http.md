@@ -3622,3 +3622,12 @@ fixed3/DIRECT/max12000/thinkingfalse，15:47:08.961006→15:48:22.274605Z真实1
 fixed3/DIRECT/max8000/thinkingfalse，16:06:47.620417→16:07:31.219877Z实际1POST/1END，HTTP200/DONE/stop/JSONvalid，43.5994384秒、有效内容TTFT21.2071136秒，reported165842+3824、cached=null。16全文与合同实际REQUEST核符，CONTENT=SSE审计errors/差异为空，原件先交Java后audit/Git；交付切点采用待审、0rawJVM/noR2，不授publicDATA通过或原663终态。Owner typed2TU31/85reuse9只是已给producer状态，不能回授新Test或model。
 
 只读507COMPLETED/507RELEASED、93READY非并发、source0；无新sole需求不造88。0业务JVM/Game/GET/decisionHTTP/活跃参数变化，旧length正文/SSE整份未读未hash；CLI维护成功、source、owner编测、实际NoGameplay/Root/LOOP/SAVE/G2/净收益继续分层。[完整来源、跨日归属、真实维护与HTTP成本](evidence/2026-11-06-http-sway-retained-stage-data-test-delivery.json)。
+
+
+## 2026-11-06：85/86 后到正式源审，不回授 owner 型验或原件恢复
+
+85 完整单query catch提案有效，与owner独立已有实现语义一致；wholecomponent/literal/rawJVM/R2仍0。既有fixed nonemptyUnavailable按实际记录的方向成立，但blank-message规范化和底层UnavailableREAD旧边界不变，不能称所有Unavailable变种解决；模型文字还混同recordedCheckResult与schedulerState，原full AND108保留。不能从未来source修复猜缺失newRun或原parent终态。
+
+86 完整patch/method/literal/rawJVM/R2均0。四个oldspan各自都在完整当前源中匹配1次，拒收原因是changes0/2对同旧块给不同替换、prefix替换插入全loop却留下原tail、两版都丢旧gap2 initialnil校验，以及漏READ全state3admin比较/details==afterhistory、Stage只许SWAYslot的完整比较和retained旧canonical metadata证明。不能把本案误写为旧anchor捏造或输入裁剪；proof缺项已足够，其他API表达式未据以判错或运行compiler。ownerhelper是在读完整raw后依据既有强合同写出，未拷/应用rawreplacement或method，不追写成全部ownercode先于原稿。
+
+旧85/86交付待审切点与HTTP原件保留，此处仅additive正式审稿；owner自身source/type40/新publicDATA及Runtime私门继续分账。0新HTTP/JVM/Game/GET或活跃参数改变，不重投任何旧ID；旧length全文/SSE未读未hash。[具名review、原件pin、owner时序与未知成本](evidence/2026-11-06-http-sway-85-86-formal-reviews.json)。
