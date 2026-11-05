@@ -3161,3 +3161,12 @@ fixed3/DIRECT/max2400/thinkingfalse，05:16:45.590903→05:16:51.436129Z真实1P
 fixed3/DIRECT/max7500/thinkingfalse，05:38:47.813945→05:39:36.490581Z真实1POST1END，HTTP200/DONE但length，48.6767203秒/有效TTFT7.3621231秒、55992+7500tokens/cachednull。CONTENT/rawSSE整份未开、未解析、未提取、未哈希，不运行读取正文的审计器；0代码/方法/partial采用、0modelJVM/noR2，实际END立即通知Java/Root后才后见/Git。owner后继源码/软件另证，不把截断当语义红或owner通过回授模型。
 
 477终态/477释放/63READY为累计登记、源码在途0，finite57正常closed/caller1为length，非编译或JUnit红；0新JVM/C/UI/GET/Game/参数改动，无私Root/archive正例、实际结算/SAVE/G2/性能资格，完整owner主动成本与净收益未知。单length不证明永久能力/容量边界。共享正常FF保留远端HOI4独立文本审阅追加cb18731，不改活跃caller/config。
+
+
+## 2026-11-05：既有 after 独立双方法 DATA Test 首派 length 与后继预算
+
+[新task58独立单位](evidence/2026-11-05-http-existing-event-after-data-test-length.json)按完整35文件674184B（32Java+3actualJSON）、5571B合同与stable47dd三叶首派，全部origin/input/required14pins和实际REQUEST全文核验；stock5只pins不作rawprefix。只给既有Hosted类新增2noarg有限diff，保旧4whole且不RUN，验真实Journal before-only empty/两partial拒、完整UNISSUED after到always-refusing mandatoryConsumer与repinnedwholeafter提前拒。无私Scope/Root/custody正例、noop authority或fakeeffect镜像，成熟6a88 scaffold不算模型新贡献。
+
+fixed3/DIRECT/max6000/thinkingfalse，05:54:20.617819→05:55:12.728413Z真实1POST1END，HTTP200/DONE但length，52.1107997秒/有效TTFT19.064503秒、148673+6000tokens/cachednull。CONTENT/rawSSE整份未开、未解析、未提取、未哈希，不跑正文审计器，0代码/方法/partial采用、0modelJVM/noR2；真实END立即交p0接管，不等Git。Models自用prefix verifier因无可选role键先KeyError，未写结果，修元数据label后35全文全核，原REQUEST未变；这项运营成本不归模型或输入偏差。478终态/478释放/64READY累计登记，源码在途0，finite58正常closed/caller1为length，不冒软件编测红。
+
+Root据连续57实现7500、58双方法Test6000均实际length，要求下一真正新复杂实现/fixture单位按预计输出审定12k等更高有限预算，仍窄diff/完整当前源码/整流complete。现caller允许1..16000；旧57/58不重投、不读半稿、不改活跃caller/服务/Runtime参数。已证是这两次预算没有取得完整候选；正文未读，不能推断输出内容或保证12k足够，也不宣称永久容量边界。owner接管/必要首验不等共享文档，完整主动成本与净收益未知。
