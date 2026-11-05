@@ -2966,3 +2966,10 @@ Sway另由Java正式发表2f59b092并独核remote/clean，formal只映射一guar
 403给定实际转前／后清单、双上下文地块读回、产品Capture与原生调用者，38454+708tokens、10.6063206秒、有效TTFT5.9866676秒，同为完整stop／DONE／合法JSON。仅部分接受补齐前态完工状态和已提供GetDistrict(type,index)的取证方向；实例ID查GameInfo、校园格查City、无源Plot:GetCity和未资格CoreMembers均拒绝。已读pillaged=false不能再称未知；0代码采用。两次实际不重叠、峰1／0重试；缓存、完整owner成本和净收益null。[参数、精确业务pin与分级](evidence/2026-11-05-civ6-etemenanki402403.json)。
 
 owner独立执行1300付费转城、奇观／5作品及校园缺失读回，不追授模型游戏实效。FindID返回另一个完整ID的原生alias须明确拒绝；保存ACKtrue后工具等文件到期不等于保存失败，后到同一文件稳定字节核验、0重放。引用切点仍在补校园前态／跨回合，不能把后续结果追认到本候选。
+
+
+## 2026-11-05：RegistryIntegration 源审拒收与输入合同错误分账
+
+[owner对491946ba完整源审](evidence/2026-11-05-http-registry-integration-source-review-later.json)补原pending切点：0完整新增方法/0modelJVM、partial未声明仍NOT_HELD，owner接管、不R2。原稿把CoreProducer当OrdinaryPolicy放map、把非函数式Policy写lambda、List.of(values)产生Collection列表，Optional expectation返回裸对象、未绑定Replace即调draft；正例没有真实assemble Core，domain/stage/unchanged/既有command义务缺，回显旧20k代码不算新贡献。以上是源审，不冒实际javac/Test红，原52.8338秒/TTFT12.315秒及完整raw保。
+
+另单列owner输入合同错：TASK把成功外部capture回调写成1，实际既有fallback只在command.args保完整capture，incidentCapture为0。owner按retainedWindow+0callback修新Test，生产不改；这项不能归模型违约，也不回写原TASK/REQUEST或触发重POST。后继owner源码/软件/正式/实际恢复另记；本附页0新HTTP/JVM/Runtime/Game，旧源码切点保，完整主动成本与净收益未知。

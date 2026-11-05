@@ -1,0 +1,52 @@
+{
+  "schema": "local-model-operations.registry-integration-source-review-later/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "registered-placeholder-event-continuation-independent-test-20261105-01",
+  "prior_pending_cut_commit": "74c1ee343347bb2b59c95d119c8e9748529110bb",
+  "prior_cut_preserved": true,
+  "original_CONTENT_pin": {
+    "bytes": 32099,
+    "sha256": "491946baa4d8cc7e4a8c8bd6043dc0ae269f6324492484499ca029dcbf77937f"
+  },
+  "original_TASK_pin": {
+    "bytes": 10062,
+    "sha256": "60dbfc490a54e791fbbced56c764d414d2e3eecf9e7b54f3a1ac94b6838fac84"
+  },
+  "source_review": "P0 independent Test owner explicit full-source review message; formal review/sourceReady pins not supplied at this cut",
+  "new_complete_methods_adopted": 0,
+  "partial_code_adoption": "NOT_HELD_AT_CUT",
+  "model_compiler_or_JUnit_runs": 0,
+  "automatic_R2": false,
+  "source_findings": [
+    "RegisteredEventCore implements CoreProducer, not OrdinaryPolicy; raw puts it directly in the policy map.",
+    "OrdinaryPolicy is not a functional interface but raw uses lambda.",
+    "List.of(producers.values()) yields a list of Collection instead of policy list.",
+    "NativeExpectationPort requires Optional<ExpectedPostcondition>, raw returns the object.",
+    "Decision-typed value calls draft without first binding a Replace.",
+    "Positive path does not genuinely assemble OrdinaryCorePolicy; domain/stage/unchanged/existing-command obligations missing."
+  ],
+  "large_unchanged_old_Test_hunk_echo_not_new_model_contribution": true,
+  "source_findings_not_actual_javac_or_JUnit_failures": true,
+  "owner_input_contract_error_separate": {
+    "original_TASK": "Success path required one external capture callback.",
+    "actual_existing_source_owner_confirmed": "Successful fallback retains full capture in command.args; incidentCapture callback count0.",
+    "owner_Test_repair": "Verify retainedWindow plus zero blocked/incident callback, without production change.",
+    "not_classified_as_model_failure_or_new_missing_API": true,
+    "original_TASK_and_REQUEST_not_rewritten": true,
+    "no_rePOST_for_correction": true
+  },
+  "owner_takeover_same_complete_unit": true,
+  "old_20k_fixture_and_helpers_not_model_contribution": true,
+  "retained_transport_cost": {
+    "HTTP_seconds": 52.83376519999001,
+    "effective_content_TTFT_seconds": 12.315090299991425,
+    "prompt_tokens": 96178,
+    "completion_tokens": 7313,
+    "max_tokens": 8000,
+    "finish": "stop"
+  },
+  "new_HTTP_JVM_Runtime_Game_by_this_posthoc": 0,
+  "later_owner_source_compile_behavior_formal_Runtime_separate": true,
+  "owner_full_active_preparation_review_correction_cost_and_net_savings": null
+}
