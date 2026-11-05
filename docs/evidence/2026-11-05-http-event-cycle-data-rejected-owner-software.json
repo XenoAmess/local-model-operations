@@ -1,0 +1,289 @@
+{
+  "schema": "local-model-operations.http-event-cycle-owner-posthoc/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T08:37:17.703248+00:00",
+  "task_id": "ordinary-event-readonly-cycle-data-independent-test-20261105-01",
+  "project": "CK3",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "input": {
+    "complete_files": 9,
+    "complete_bytes": 699429,
+    "complete_current_Java": 5,
+    "whole_actual_event_JSON": 3,
+    "complete_API_document": 1,
+    "external_manifest": "pin/path only, as explicitly contracted; 1029 frozen rows, 790854 bytes",
+    "manifest_pin": {
+      "bytes": 4301,
+      "sha256": "2387e042dbd1f01ec9135e0255f60b7ec8e8546b8d860809f9117beebae6107d"
+    },
+    "task_pin": {
+      "bytes": 2559,
+      "sha256": "1d89d9e223eb14ffbfc85c7dc2b3ff23822e9ff1aa6c0eda3cb0b7310bdbe427"
+    },
+    "all9_full_in_actual_REQUEST": true,
+    "request_pin": {
+      "bytes": 747618,
+      "sha256": "b1d95b1dc8dfe688dd694106ef6ec04dab7b2553afc55126dde7621676151a8e"
+    },
+    "source_message_pin": {
+      "bytes": 701699,
+      "sha256": "39577cb6fa3fb6470f19e0d6c52aa9bfdf8f4d051ae51d7d8e8a83cff1bcfafc"
+    }
+  },
+  "guidance": "Owner had already specified the exact real DATA consumer, pair/negative obligations and preservation of old two methods; no model autonomous fault discovery claim.",
+  "transport": {
+    "POST_BEGIN_UTC": "2026-11-05T08:24:37.791207+00:00",
+    "END_UTC": "2026-11-05T08:25:40.982642+00:00",
+    "POST": 1,
+    "paired_END": 1,
+    "retry": 0,
+    "HTTP_status": 200,
+    "finish_reason": "stop",
+    "DONE": true,
+    "candidate_complete": true,
+    "headers_ms": 28635.207100014668,
+    "effective_content_TTFT_ms": 28636.215600010473,
+    "total_ms": 63191.07160001295,
+    "reported_usage": {
+      "prompt_tokens": 221627,
+      "completion_tokens": 6104,
+      "total_tokens": 227731
+    },
+    "cached_tokens": null,
+    "actual_peer": "UNKNOWN",
+    "parameters": {
+      "model": "qwen38-coder",
+      "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+      "temperature": 0,
+      "max_tokens": 12000,
+      "stream": true,
+      "include_usage": true,
+      "thinking": false,
+      "response_format_type": "json_object"
+    },
+    "result_pin": {
+      "bytes": 1297,
+      "sha256": "8d0d42a8254bfc4887a27ffd7e1409e9c87a9e4521b78ad7446cc3347beed170"
+    },
+    "complete_CONTENT_pin": {
+      "bytes": 23682,
+      "sha256": "6d7b604cecc539f8ca19d3ccd09d97b83d3c8c3911eb1feb1083185503a00560"
+    },
+    "audit_errors": [],
+    "audit_discrepancies": [],
+    "CONTENT_equals_SSE_UTF8": true,
+    "raw_delivered_before_audit_Git": true
+  },
+  "source_review": {
+    "review_pin": {
+      "bytes": 2289,
+      "sha256": "5d0b51a989d9770056c05cae9217b23bf8fe7526a859679b2c0eb365b7dbf3eb"
+    },
+    "whole_class_or_complete_new_method_adopted": 0,
+    "literal_code_copied": 0,
+    "partial_code": 0,
+    "raw_candidate_JVM": 0,
+    "R2": 0,
+    "failures": [
+      "State machine_id/action lifecycle refs are read from outer event although actualdata places them underafter; explicit fullData andAPI had been supplied",
+      "HistoricalTransition edge528 incorrectly usesstate528 forbothbefore/after despite requiredseq-1 before; nonadjacentnegative likewiseviolatesconstructor before reachingconsumer",
+      "Pin binds inappropriate actionrecordref withFileIdentity.bytes0 rather thanmatchingreal eventrefbytes, andouter actionheadfield isabsent",
+      "ObjectNode.put receivesObjectNode arguments atseveral mutation sites (requiresset), so source doesnot typecheck aswritten",
+      "Details mutations arepassed withoriginal edge.details, so helperconsistency check wouldrejectbefore intendedinternalshape; saved drift reads nonexistentfield fromdetails; hardcodedbatch doesnot deriveactualboundary"
+    ],
+    "input_quality": "Full real WriterContracts, consumer, actual events and API were supplied. These are source-review failures, not observed javac failures or production failures; do not transfer earlier Test62 owner API/input faults to this task."
+  },
+  "earlier_producer65": {
+    "task_id": "ordinary-event-readonly-cycle-history-replay-20261105-01",
+    "old_length_record": "2026-11-05-http-event-readonly-cycle-history-length.json",
+    "finish_reason": "length",
+    "max_tokens": 10000,
+    "CONTENT_and_rawSSE": "whole unread/unparsed/unextracted/unhashed; never audited",
+    "adopted_code": 0,
+    "R2": 0,
+    "review_pin": {
+      "bytes": 565,
+      "sha256": "07252e5230bf99c1c8ff9fab394fcb830b8b41663f988aa58d344da7dec66151"
+    },
+    "owner_ready_pin": {
+      "bytes": 2525,
+      "sha256": "a5bbc218975ce0b6b1d521b68d632464aff2d4cf8e579170ddfa92728b4cbc54"
+    },
+    "owner_source_pin": {
+      "bytes": 355336,
+      "sha256": "928142c37dbe0cbff61e1cd357acaf181376d17c0946a313ae78d51e1bd76509"
+    },
+    "owner_two_spans_inverse_exact": true,
+    "new_TUs": 1,
+    "classes": 20,
+    "compiler_seconds": 12.384178599982988,
+    "phase": {
+      "ACTUAL": {
+        "bytes": 1759,
+        "sha256": "b183220f5821295013dbf959bce9cd54ee3a9cd1e3e66f2de30266e544078a3f"
+      },
+      "close": {
+        "bytes": 237,
+        "sha256": "b0eac7cf86c3fc1d2175b2941c8230ad107906f130e3f28942a687392da02f88"
+      },
+      "fence": {
+        "bytes": 1146,
+        "sha256": "e0a443b38bf0ccc34c2b36ddf19bf3bebd86592f04a4e51f2155b0cfeeedd970"
+      },
+      "exit_code": 0,
+      "seconds": 12.384178599982988,
+      "close_result": 0,
+      "held": false
+    },
+    "qualification_pin": {
+      "bytes": 558633,
+      "sha256": "6e82082a629af0cdd328d546b5d3abbc77fbb3779a510ebada0ef873c2d551c8"
+    },
+    "shape": {
+      "classes": 20,
+      "same_names": true,
+      "equal_structures": 19,
+      "all_equal": false,
+      "changed_class": "ContinuityBatchJournal",
+      "changed_keys": [
+        "methods"
+      ],
+      "new_non_synthetic_methods": [
+        {
+          "name": "historicalCompletedEventCycle",
+          "descriptor": "(Lorg/xar/ck3/control/continuity/writer/WriterContracts$HistoricalTransition;Lorg/xar/ck3/control/continuity/writer/WriterContracts$HistoricalTransition;Lcom/fasterxml/jackson/databind/node/ObjectNode;Ljava/lang/String;Lorg/xar/ck3/control/application/session/SessionPorts$SessionIdentity;Ljava/util/List;Lorg/xar/ck3/control/application/action/ActionPorts$OutcomeArchive;)Z",
+          "flags": 2,
+          "signature": "(Lorg/xar/ck3/control/continuity/writer/WriterContracts$HistoricalTransition;Lorg/xar/ck3/control/continuity/writer/WriterContracts$HistoricalTransition;Lcom/fasterxml/jackson/databind/node/ObjectNode;Ljava/lang/String;Lorg/xar/ck3/control/application/session/SessionPorts$SessionIdentity;Ljava/util/List<Lorg/xar/ck3/control/application/action/ActionReceipt;>;Lorg/xar/ck3/control/application/action/ActionPorts$OutcomeArchive;)Z"
+        },
+        {
+          "name": "historicalCompletedEventCycleData",
+          "descriptor": "(Lorg/xar/ck3/control/continuity/writer/WriterContracts$HistoricalTransition;Lorg/xar/ck3/control/continuity/writer/WriterContracts$HistoricalTransition;Lcom/fasterxml/jackson/databind/node/ObjectNode;Ljava/lang/String;Lorg/xar/ck3/control/application/session/SessionPorts$SessionIdentity;Ljava/util/List;Lorg/xar/ck3/control/application/action/ActionPorts$OutcomeArchive;)Z",
+          "flags": 8,
+          "signature": "(Lorg/xar/ck3/control/continuity/writer/WriterContracts$HistoricalTransition;Lorg/xar/ck3/control/continuity/writer/WriterContracts$HistoricalTransition;Lcom/fasterxml/jackson/databind/node/ObjectNode;Ljava/lang/String;Lorg/xar/ck3/control/application/session/SessionPorts$SessionIdentity;Ljava/util/List<Lorg/xar/ck3/control/application/action/ActionReceipt;>;Lorg/xar/ck3/control/application/action/ActionPorts$OutcomeArchive;)Z"
+        }
+      ],
+      "preserved_common_method_metadata": true,
+      "removed_non_synthetic_methods": 0,
+      "added_synthetic_method_keys": 83,
+      "removed_synthetic_method_keys": 82,
+      "runtime_redefine_qualified": false
+    },
+    "no_Test_RUN_at_prod_first_cut": true
+  },
+  "later_owner_Test66": {
+    "owner_implemented": "one new method plus two private helpers; original full 15736-byte class outside exactly recovered by removing the 6681-byte addition",
+    "model_code_credit": 0,
+    "ready_pin": {
+      "bytes": 4232,
+      "sha256": "3fdcdb9bdbb5b239026e5a868eae59ffb3cad8c452540fa62f877d84a645d43d"
+    },
+    "source_pin": {
+      "bytes": 22417,
+      "sha256": "ac440bb5dc322314dead4e13c1876f9a2a766b5c5aef11db3e8bd5dd6a4c3bd0"
+    },
+    "review_pin": {
+      "bytes": 6310,
+      "sha256": "1c61c77d7fab1dbd048afac878ea79f5f5ed7a63b2851c6e59349660db3d3239"
+    },
+    "qualified_pin": {
+      "bytes": 13353,
+      "sha256": "99a680c731ce8682bd4453e5f568d9ead53adf6287d266dc76e556fbd5e91bb6"
+    },
+    "independent_result_pin": {
+      "bytes": 11733,
+      "sha256": "d1419ff31eafffced77a2ef19aeab6c600e6e44474da0cd591a802b393eec725"
+    },
+    "new_Test_TUs": 1,
+    "classes": 3,
+    "production_support_recompile": 0,
+    "old_two_methods_RUN": 0,
+    "new_methods_RUN": 1,
+    "passed": 1,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "direct_rejections": 11,
+    "compiler_seconds": 5.444254100031685,
+    "JUnit_process_seconds": 8.765928700042423,
+    "XML_suite_seconds": 6.371,
+    "XML_pin": {
+      "bytes": 42388,
+      "sha256": "fd11c8c0fb14ecabdd3edc74916218596bed5b397bee8e90136faf188f4db2f7"
+    },
+    "phases": {
+      "test": {
+        "ACTUAL": {
+          "bytes": 1674,
+          "sha256": "44a63bdc0adc81a30f83469b93de838eccada91ea1c700c855bc8227f8fe454c"
+        },
+        "close": {
+          "bytes": 237,
+          "sha256": "a0d05771a4c87932dad0d9f4a251c1d958c57b8e664443d754132731e971e821"
+        },
+        "fence": {
+          "bytes": 1074,
+          "sha256": "6eb3cfc1a76c83450ecebd0324fc261293b2c888037de3850cf39e5b92530aff"
+        },
+        "exit_code": 0,
+        "seconds": 5.444254100031685,
+        "close_result": 0,
+        "held": false
+      },
+      "junit": {
+        "ACTUAL": {
+          "bytes": 1424,
+          "sha256": "a6fb94e3f1f671ed8e4fb58d7d9f4c2f080705a181c7b4f31ca5015fc40e83ab"
+        },
+        "close": {
+          "bytes": 238,
+          "sha256": "169ddd416ad5e28e783ac4917fb41926a8b0e1bd9ccd054e9e3f5d63685bb3b4"
+        },
+        "fence": {
+          "bytes": 1081,
+          "sha256": "8a0a5a4f4e6744915762cb68c844e0edb77db5be9c16504973371c9a89c55c7b"
+        },
+        "exit_code": 0,
+        "seconds": 8.765928700042423,
+        "close_result": 0,
+        "held": false
+      }
+    },
+    "all_phase_close_0_fenced_released": true,
+    "scope": "Static actual DATA preconditions with real RETAIN/SETTLE pair; restoration passes again, archive writes zero; constructor errors are not credited as consumer rejections.",
+    "limits": [
+      "All Pin/FileIdentity values used by the new event DTO helper are explicitly UNISSUED structural placeholders; no Win32 file identity, writer pin or private Root authority is qualified.",
+      "No actual private transitions.reduce, whole SEM/native freshness or writer historical Root positive is asserted by this static DATA method. Those remain mandatory in production and actual41.",
+      "Wrong actual528 also has wrong kind; no separate isolated adjacency-only rejection is claimed. Wrong receipt uses a dispatch metadata ref and proves wrong archive-role rejection, not a second valid alternate receipt semantic proof.",
+      "No repinned-file, saved-frontier-drift negative, new action/cycle/day/SAVE or actual LOOP acceptance is claimed from this one method.",
+      "Original Test62 setup2E histories and old two-method2P remain separate; neither was rerun for this new unit.",
+      "Model HTTP candidates/adoption are separate evidence; this record qualifies only owner sourceac440bb5 and actual Native phases. Reviewer performed no HTTP/raw-model access or JVM/Game/C/GET/control operation."
+    ]
+  },
+  "operations": {
+    "queue_states_readonly": {
+      "dispatch.db": {
+        "COMPLETED": 486
+      },
+      "leases.db": {
+        "RELEASED": 486
+      }
+    },
+    "READY_records_not_concurrency": 72,
+    "source_HTTP_inflight_after_END": 0,
+    "daily_OpenCode": "Same-day successful 1.19.5 cache reused; no probe for this posthoc",
+    "global_service_load": "NOT_HELD",
+    "new_HTTP_JVM_SDK_C_GET_Game_for_this_posthoc": 0,
+    "active_caller_config_service_Runtime_changes": false,
+    "owner_active_time_and_net_savings": null
+  },
+  "budget_scope": "This fresh Test used finite12000 and returned6104 completion tokens with stop, but source was rejected. Earlier producer65 length10000 and other real12k length requests remain separate; no causal claim that increasing budget fixes delivery or semantics, no automatic retry or parameter change.",
+  "public_hygiene": "No actual event payload, hosted source, original REQUEST/CONTENT/SSE, fixture blobs, private paths, tokens or machine ledger published.",
+  "no_credit": [
+    "model software green",
+    "private reducer/history Root positive",
+    "Win32/FileIdentity/Writer authority from UNISSUED DTOs",
+    "new adjacency-only or saved-frontier-drift negative",
+    "Runtime41 adoption, LOOP, fresh SEM, new day, SAVE, G2 or performance",
+    "all class structures equal or hot redefine qualification"
+  ]
+}

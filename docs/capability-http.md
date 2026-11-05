@@ -3325,3 +3325,12 @@ fixed3/DIRECT/max10000/thinkingfalse，08:12:44.976874→08:14:09.718508Z真实1
 真实115仅MOVE资格命中1，FOUND0；实际MOVE／FOUND0、SKIP1，其余21请求继续，两个观察点相隔94.660975秒不增。撤故障正常116，3次BACKGROUND移动实际到23,12／0行动；观察器累积39请求、非白名单／未知／错误0并全清。只受控资格拒绝，不算自然城址压力或实际建城。Owner CRLF错误被SHA门挡、0CMD，新标签修正另账。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-site410.json)。
+
+
+## 2026-11-05：EVENT 周期新 Test 完整 stop、源码拒收与 owner 单方法 1P
+
+真实独立 Test 提供9份完整输入699429B，有限12000输出，1POST/1END，HTTP200/DONE/stop；63.1910716秒、有效内容TTFT28.6362156秒，reported221627+6104，cached=null。完整字节审计无差异。新增方法源码全拒、0literalcopy/0rawJVM/noR2：候选误取外层事件字段、构造不合法前后态、Pin长度错配、ObjectNode类型错误，并让反例在目标消费者前失败。实际 WriterContracts、API和全部数据已完整提供，不能归于此前其它任务的输入缺口；完整stop也未形成可用方法。
+
+原 producer65 的10000 length正文与SSE继续整份未读未hash、0采用，不回改旧切点。owner独立实现的生产1TU首编0/20class/12.3841786秒；20名称一致、19结构相等，Batch新增2个实际方法并有synthetic方法键变化，不能报全shape相等或可热重定义。owner新增 Test 的1方法+2helpers独立首编0/3class/5.4442541秒，新1P/11直接拒绝，JUnit进程8.7659287秒、XML6.371秒；旧2方法及生产/Support未重跑重编，所有phase close0/fence/释放。原旧15736B类外部逆还原精确。
+
+软件结果只属于 owner 的静态 DATA 前置校验：UNISSUED Pin不授Win32/Writer/Root权限，真实reducer/full-history/运行恢复仍由Runtime另证。12k的这次完整输出与此前12k截断并列，不能推出预算改善因果或永久能力上限。只读队列486COMPLETED/486RELEASED，72READY不是并发；当前源码在途0。未新增模型调用、JVM或Game动作。完整脱敏成本、采用分层和原件pin见[证据](evidence/2026-11-05-http-event-cycle-data-rejected-owner-software.json)。
