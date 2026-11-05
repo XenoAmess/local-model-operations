@@ -2883,3 +2883,10 @@ owner全文源审0新增完整方法采用、0model编测、不R2并接管：bar
 [a4c39af3具名源审与3812ef09 SourceReady](evidence/2026-11-05-http-life-applied-owner-source-later.json)补齐前页：原模型0完整新增方法/0候选JVM，不R2；正式review没有partial声明，继续NOT_HELD，不将旧97k和qualified normal scaffold算模型贡献。owner完整Test107772B/2f3565a4只增加两import与两新方法，已独立删除对应原字节后逐字还原97454B基线，privateFixture及旧方法不变。
 
 该源切点编译/行为均未RUN，Native仅计划1TestTU→2selectors，Fixture37/support复用；受影响旧normal三方法binary RUN-only另记。建议每RUN child90秒/各phase TOTAL120，不合并成跨阶段120。SourceReady不授通过、私Managed/Core/Root或physical/control资格，更不授Runtime/日SAVE/G2/实速；本附页0新HTTP/JVM/Game、保旧source切点，完整owner主动成本与净收益未知。
+
+
+## 2026-11-05：Sway build admission 构造器完整返回但语义全拒
+
+[四完整实际源的独立构造器单位](evidence/2026-11-05-http-sway-supported-build-provenance-source.json)给83017B源/3274B合同，只改已有Request admission，复用受支持enum的version/SHA pair，原null顺序、source对象/缓存identity和message全留；owner已诊断真实指纹输入被旧label-only拒绝，不算模型发现。固定三消息/DIRECT/max1800，一次HTTP200/stop/DONE/有效JSON，3.0815秒、有效TTFT2.4568636秒、18092+114tokens、cachednull，501B原件即交M6；CONTENT=SSE UTF8、审计0discrepancy。
+
+完整constructor却把同一个source.exactBuild同时传成version与SHA，known SHA仍拒；M6全文源审whole/newlogic/partial全0，旧nullchecks和label机械重复0新贡献。owner接管正确pair，不R2/0modelJVM；短输出且未满预算不是预算耗尽，更不是源码成功或永久能力上限。457终态/457租约释放、0源在途，0JVM/UI/Runtime/Game/GET和活跃参数变更。build enum仅输入准入，不授实机build/权限、自然M6、恢复/日SAVE/G2/实速；后继owner源/编测/采用分账，完整主动成本与净收益未知。

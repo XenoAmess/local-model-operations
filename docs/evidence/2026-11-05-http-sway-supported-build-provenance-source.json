@@ -1,0 +1,108 @@
+{
+  "schema": "local-model-operations.sway-supported-build-provenance-source/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "sway-scheduler-supported-build-provenance-20261105-01",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_actual_sources": 4,
+  "source_bytes": 83017,
+  "full_task_bytes": 3274,
+  "manifest_sha256": "ef39b885c32d6a71708b940ed03996937849968f39925f98e44d92d4efc8ea4e",
+  "task_sha256": "eed639fdd026982cf3d944ac206cfbe6818e9d1fef758a2a8351b3f3f2554072",
+  "requested_unit": "Complete existing public Request compact constructor only; retain null checks order, original source object, cache identity, known label and error message; add only exact supported enum-pair fingerprint admission.",
+  "owner_prior_diagnosis_and_prescribed_API_not_model_autonomous_finding": true,
+  "source_build_guard_is_input_admission_not_live_build_or_permission_proof": true,
+  "POST_BEGIN_UTC": "2026-11-05T00:08:41.433524+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T00:08:44.515100+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "fixed_three_messages": true,
+  "actual_parameters": {
+    "max_tokens": 1800,
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "JSON_syntax": "VALID",
+  "headers_ms": 2456.009700021241,
+  "effective_content_TTFT_ms": 2456.8636000039987,
+  "total_ms": 3081.5000000293367,
+  "usage": {
+    "prompt_tokens": 18092,
+    "completion_tokens": 114,
+    "total_tokens": 18206
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 88981,
+    "sha256": "47c38523593af08075ebc57aca9b1ac22129676027494606e4262b736670e43b"
+  },
+  "RESULT_pin": {
+    "bytes": 1298,
+    "sha256": "110c55bec716b2788f42e9d647ec82fb7dc9d57ec55b058d0226656207b9de1a"
+  },
+  "CONTENT_pin": {
+    "bytes": 501,
+    "sha256": "0c4da5a579f1bb3e9602aff1b6ed2059e47e9999bbc1cbd5dad0a480f81b05d8"
+  },
+  "EVENTS_pin": {
+    "bytes": 2834,
+    "sha256": "0a7a7edfa1cf5cad0cc50c59edc6cc430c7951bc853d73d7aadb1fb6ecca6bc7"
+  },
+  "audit": {
+    "errors": 0,
+    "discrepancies": 0,
+    "saved_CONTENT_equals_SSE_UTF8": true,
+    "pin": {
+      "bytes": 4463,
+      "sha256": "6a6cb18ddc8abe03dafb570bb7ea972807e41a06c51b6bbf092e1a661934250e"
+    }
+  },
+  "complete_raw_delivered_immediately_to_M6": true,
+  "source_review": {
+    "source": "M6 explicit full-constructor source review message; durable receipt not supplied at this cut",
+    "whole_constructor_adopted": 0,
+    "new_logic_adopted": 0,
+    "partial_adopted": 0,
+    "model_JVM_runs": 0,
+    "finding": "matches receives source.exactBuild twice as version and SHA; a known fingerprint still fails the fixed version argument, so required positive admission is not implemented.",
+    "old_null_checks_and_old_label_are_input_mechanical_repetition_not_new_contribution": true,
+    "owner_takeover": "Use known.version equality OR known.matches(known.version, originalBuild), preserving source identity and all original guards.",
+    "automatic_R2": false
+  },
+  "tiny_complete_stop_not_budget_exhaustion_or_proof_of_source_success": true,
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 457
+    },
+    "leases.db": {
+      "RELEASED": 457
+    }
+  },
+  "source_HTTP_inflight_after_END": 0,
+  "actual_case_peak_source_HTTP": 1,
+  "active_caller_or_parameters_changed": false,
+  "Models_JVM_UI_Runtime_Game_GET_actions": 0,
+  "later_source_first_Test_Runtime_natural_M6_performance_credit": "Separate owner evidence, not granted or back-credited",
+  "full_owner_active_preparation_review_takeover_cost_and_net_savings": null
+}
