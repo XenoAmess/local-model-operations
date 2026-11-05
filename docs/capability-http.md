@@ -3600,3 +3600,14 @@ fixed3/DIRECT/max2500/thinkingfalse，15:33:25.219091→15:33:33.122694Z真实1P
 425—427各1POST完整stop/DONE/VALID，原稿0Native；425实际端口替身失败，owner8例；426原命令无防重，替身2次请求，owner9命令和5Core/4UI读者；427大部分guard采用、补type/res表和诊断，13命令各6读者。Native实际执行军队升级延迟对象及UNKNOWN冻结Live/读档窄验，同时如实记录旗帜确认FAIL并继续修复。累计截至427为427逻辑／396完整／28length／3finaltransport、457HTTP／30extra，0新OpenCode生成，未知成本/节时null；428另在后续修复包记录，不纳入这个截至427快照。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture427.json)。
+
+
+## 2026-11-05：retained metadata 强Stage/READ冷恢复86 完整交付
+
+独立86完整提供19份877328B（11actualJava+8实际JSON），仅Domain target，完整Batch只是owner并行DATA上下文。新窄gap3必须真实Running→单ROOTREADpublication→StageRecorded→firstUnknown，无sameparentSaved/newRun，oldmetadata只保已canonicalsettled旧Stage/Scheduler、nil生命周期/previous[]。READ全state仅3个admin字段可变，Stage仅2个admin字段加已强证SWAY单slot bodyref可变；其余domain entries/unknown字段、actor/source/周期/save/batch/readhistory/actionhead与全库存/fences都保。必须actualhistoricalstate/publication(false)/RootREAD/sharedreducer/canonicalcallback全闭合，comparisoncopy只DATA不作假writerstate。
+
+实际Support保留child-before-execute/reserve-before-submit：全canonical同parent执行保持childless，firstUnknown.previous==真实Running且READ/Stage actionhead未变，再配全source/custody/installedproducer/privateFactory与recorded callback，不能仅凭submitfalse/children空推Native0。旧gap1nil/gap2Stage/ownSaved和同共享requireUnstartedScheduler入口保留；不catchfallback、不填newRun、不pin未来currentdomain为旧值，不新issuer/type/field/Controller/Core/AND例外，只允许原NoGameplay，不授Applied/SchedulerCompleted/周期/日/SAVE。
+
+fixed3/DIRECT/max12000/thinkingfalse，15:47:08.961006→15:48:22.274605Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，73.3134093秒、有效内容TTFT34.9496509秒，reported268617+6886、cached=null。实际19全文与合同核符，CONTENT=SSE审计errors/差异为空，原件先交Java再audit/Git；交付切点采用待审、0rawJVM/noR2，完整传输不授强proof/source/软件或原parent终态。source85futurecatch/type9独立，不作为原result。
+
+只读506COMPLETED/506RELEASED、92READY非并发、source0；无新sole需求不造87。0本岗JVM/Game/GET/运行期decisionHTTP/活跃参数改变；本次12k完整6886与旧8k/10k/12k length并列，不能推预算因果/缓存/context/永久能力。旧length全文/SSE整份未读未hash，私Root/实际NoGameplay/LOOP/SAVE/G2/净收益另证。[完整来源pin、精确成本与强证明义务](evidence/2026-11-05-http-sway-retained-stage-read-metadata-delivery.json)。
