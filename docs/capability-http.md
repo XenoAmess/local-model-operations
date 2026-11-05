@@ -2899,3 +2899,10 @@ owner全文源审0新增完整方法采用、0model编测、不R2并接管：bar
 独立Sway Test给5完整33082B/4348B合同/max4000，其中ExactRef明确仅formal API参考，其余actual/candidate；只测修后owner13ff与真实Service.stage的两DATA方法，不是构造器R2。完整stop13.9791223秒、有效TTFT3.0595332秒、8973+1780tokens、6702B即交M6。两份HTTP200/DONE/有效JSON、CONTENT=SSE UTF8、审计0discrepancy、cachednull；即时交接切点均待源审，未授采用/编测/恢复或自然M6。
 
 实际客户端峰2只持续7.994537秒，完整窗口15.314912秒，不混服务全局或Runtime决策HTTP。459终态/459租约释放、0源在途，0JVM/UI/Runtime/Game/GET/controls或期限修改、无活跃参数变更、不R2；原控制与候选资格分开，完整主动成本与净收益未知。
+
+
+## 2026-11-05：调度 P0 与 Sway 后到采用边界及必要首编
+
+[两owner具名回执与逐字独核](evidence/2026-11-05-http-p0-and-sway-owner-source-later.json)补原pending切点：P0只partial采纳result/三kind predicate及原因，完整raw把if放在单行for整个loop之后，无法阻止低阶段替换。owner加braces并移到每stage内是必要语义修正，不能只记机械hunk；3311758f候选单span外逆还原、State.run/finish全字节保。该源切点编测未RUN、formal variant未测，实际offender仍未知，不R2。
+
+Sway生产原新逻辑whole/partial均0，owner13ff只有一guard span外逆还原；后到Native仅1TU14class首次0/6.7035403秒、完整14shape相等、close0/fenced/released，0行为RUN，不授实际redefine/loader/自然M6。独立Test原完整类/未改完整方法均不采，仅helpers/cases/asserts partial；before→owner有97逐字匹配文本行，含imports/空白，已逐block核对，不是有效LOC、整方法或省工证明。owner修两处fresh-object assertSame、negative callback0→1，补pair/SourceRef/machine/time/build/同frame及13拒绝例。最终7636B/7658de88只SourceReady，Test编/RUN该切点NOT_RUN。构造器0采用不能被Test partial或生产首绿覆盖；本附页0新HTTP/JVM/UI/Runtime/Game，旧切点保，主动成本与净收益未知。
