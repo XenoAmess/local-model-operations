@@ -3152,3 +3152,12 @@ fixed3/DIRECT/max2400/thinkingfalse，05:16:45.590903→05:16:51.436129Z真实1P
 ## 2026-11-05：HOI4 素材接收被错误提升为实机门禁
 
 [一项真实接收审阅](evidence/2026-11-05-hoi4-high12-intake-scope-confusion.json)给完整当前scope/审计源码/tests，reported19477+918tokens，一次200/stop/DONE/有效JSON；TTFT2.709973秒、HTTP8.509176秒，实际客户端峰1区间8.508633秒，无重试、缓存未报告。候选把明确分开的图片接收、软件测试与游戏验收混同，凭“本次未实机”制造两个接收阻塞，并把5481/5481库存100%误缩成仅12/12、将既有全库581/24测试误说为仅12图范围；实质意见拒收、0代码/视觉资格，owner按机械证据完成接收。17原件=12合格+5历史拒收已由输入明示，不能当新模型贡献；后到有序输入字节及远端下载核验不追认模型已见，也不重跑旧绿。成本/服务器占用/净节省未知，软件、实机和公开安装包状态继续分账。
+
+
+## 2026-11-05：既有 EVENT archived-after 消费三叶首派 length
+
+[新task57](evidence/2026-11-05-http-existing-event-after-recovery-length.json)使用完整5actual源码269780B和锁定API合同5253B，实际REQUEST逐份全文核验。只Effects默认replayExisting、Journal bounded fullscan纯DATA envelope与真实Root archived producer三target；原sameafter guard、完整Root/Scope entry-exit/原Unknown命令与deadline保，archived pending525/native386/conn26/READ/provenance和current pending526 canonical membership分角色，不以新frame覆盖原after。DATA扫描不能发行权威，仍须真实私有Root/fullproducer/custody/原件/unchangedhead验证。
+
+fixed3/DIRECT/max7500/thinkingfalse，05:38:47.813945→05:39:36.490581Z真实1POST1END，HTTP200/DONE但length，48.6767203秒/有效TTFT7.3621231秒、55992+7500tokens/cachednull。CONTENT/rawSSE整份未开、未解析、未提取、未哈希，不运行读取正文的审计器；0代码/方法/partial采用、0modelJVM/noR2，实际END立即通知Java/Root后才后见/Git。owner后继源码/软件另证，不把截断当语义红或owner通过回授模型。
+
+477终态/477释放/63READY为累计登记、源码在途0，finite57正常closed/caller1为length，非编译或JUnit红；0新JVM/C/UI/GET/Game/参数改动，无私Root/archive正例、实际结算/SAVE/G2/性能资格，完整owner主动成本与净收益未知。单length不证明永久能力/容量边界。共享正常FF保留远端HOI4独立文本审阅追加cb18731，不改活跃caller/config。

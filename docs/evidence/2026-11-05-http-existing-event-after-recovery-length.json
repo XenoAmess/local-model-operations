@@ -1,0 +1,189 @@
+{
+  "schema": "local-model-operations.existing-event-after-recovery-length/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-existing-event-after-recovery-20261105-01",
+  "new_real_P0_archived_consumer_not_prior_task_R2": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_actual_sources": 5,
+  "input_bytes": 269780,
+  "manifest_pin": {
+    "bytes": 2556,
+    "sha256": "03f7203bb74ff34d182af1b28e196c931e7a76d6ea87d32d33b2e1d4212e4ddf"
+  },
+  "contract_pin": {
+    "bytes": 5253,
+    "sha256": "a0b8aa87f9dd3349e1dede1f77bb97c5a3eeed3006e195123766ef9716c1f743"
+  },
+  "actual_prefix": {
+    "REQUEST_pin": {
+      "bytes": 281921,
+      "sha256": "9bcd5cbe8bd2d3dcb5977c1cc906e74bc9ced8ffa79e57dba65f039158b8f56d"
+    },
+    "source_message_pin": {
+      "bytes": 270437,
+      "sha256": "966f1828b4f45cd022c58b4bd98f5036e931a3efcd903ba88e674f751921e1b9"
+    },
+    "complete_input_files": [
+      {
+        "role": "target_observer",
+        "bytes": 24060,
+        "sha256": "948b695459877f548dcdcf9ba479c8f8d62d1c043623d049a1b8249fbfb8afca",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "target_root",
+        "bytes": 66421,
+        "sha256": "e73f47eb86050a8b4c8e34d6333ef0e72bc2ccfc3a677dcab69b62aa4484a0ec",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "target_journal",
+        "bytes": 95662,
+        "sha256": "2c1342f235f675698512722bf33fccae01a03c85e13abc394403d557bb19a49f",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_basis_API",
+        "bytes": 25152,
+        "sha256": "fbdc19c9d5b34a1f990d2a75cefbf0570cbf4490a67356b7b284917a98a37a15",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_coordinator_unchanged",
+        "bytes": 58485,
+        "sha256": "bc3246f0da919ac2e31a0a884497948ca39803ef44241ce7d8c4780bfbe0a219",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ],
+    "all5_full_text_in_actual_REQUEST": true
+  },
+  "requested_targets_only": [
+    "NativeEventEffects",
+    "EpisodeIncidentJournal",
+    "RootIncidentRuntime"
+  ],
+  "locked_API_contract": [
+    "ObservedAfter remains functional with default replayExisting empty; installed callback once after supports and before snapshots.read; present returns exact archived Projected without new pair/record.",
+    "Journal existingLegacyAfter is DATA-only bounded fullscan/owned before/after/v3index/v4basis envelope, exact original command/body/args/refclosure/inventory and postverification; absence only when both after/index absent, partial/conflicts reject.",
+    "Actual Root canonical membership/currentScope/head/borrowedSession and original command/Attempt/positiveACK checked; mandatory private intrinsic/fullproducer/archive v4/READ/custody validation computes exact archived Projected before unchanged head/refclosure return."
+  ],
+  "archived_role": "Original pending525, native386/connection26 and archived real READ/provenance unchanged; current pending526 has separate canonical entry/exit membership and cannot replace old refs or values.",
+  "unchanged_guards": "Original sameafter guard, fullRoot/Scope entry-exit, writer/verifyPolicyReceipt, source/Game/session/custody/chronology/currentcommand and original deadline. No Native query/control/newafter/append in replay callback.",
+  "owner_exact_prePOST_diagnosis_design_API_contract_not_model_autonomous_discovery": true,
+  "POST_BEGIN_UTC": "2026-11-05T05:38:47.813945+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T05:39:36.490581+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "actual_parameters": {
+    "model": "qwen38-coder",
+    "max_tokens": 7500,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "length",
+  "DONE": true,
+  "candidate_complete": false,
+  "JSON_syntax": {
+    "status": "UNKNOWN",
+    "top_level_type": "UNKNOWN",
+    "reason": "NON_STOP_FINISH",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 7361.175200028811,
+  "effective_content_TTFT_ms": 7362.123100028839,
+  "total_ms": 48676.720300049055,
+  "usage": {
+    "prompt_tokens": 55992,
+    "completion_tokens": 7500,
+    "total_tokens": 63492
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 281921,
+    "sha256": "9bcd5cbe8bd2d3dcb5977c1cc906e74bc9ced8ffa79e57dba65f039158b8f56d"
+  },
+  "RESULT_pin": {
+    "bytes": 1312,
+    "sha256": "13dcf894f8f27756d012b53abac96977e95e3c6b1928eac5e965c1ed9661e945"
+  },
+  "EVENTS_pin": {
+    "bytes": 2844,
+    "sha256": "ad3641a5bc1ca851e13190b21d7d78b4dacc16477a4389bf20cfe32bc8df4e01"
+  },
+  "CONTENT_rawSSE": "NOT_OPENED_READ_PARSED_EXTRACTED_OR_HASHED; whole discarded",
+  "CONTENT_rawSSE_pin": "NOT_READ_OR_HASHED",
+  "auditor": "NOT_RUN_ON_LENGTH_DIRECTORY",
+  "adopted_code_methods_partial": 0,
+  "model_candidate_JVM": 0,
+  "R2": 0,
+  "owner_immediately_notified_of_actual_END_before_Git": true,
+  "owner_replacement_source_and_qualification": "PENDING; never backcredit owner result to unread model output",
+  "PREP_events": [
+    {
+      "at_utc": "2026-11-05T05:38:01.7241027+00:00",
+      "task_id": "ordinary-existing-event-after-recovery-20261105-01",
+      "Models_JVM_C_GET_Game": 0,
+      "POST": 0,
+      "event": "PREP_BEGIN"
+    },
+    {
+      "event": "PREP_END",
+      "at_utc": "2026-11-05T05:38:45.425868+00:00",
+      "task_id": "ordinary-existing-event-after-recovery-20261105-01",
+      "all5complete_current_sources_and_contract_pins_verified": true,
+      "POST": 0,
+      "Models_JVM_C_GET_Game": 0
+    }
+  ],
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 477
+    },
+    "leases.db": {
+      "RELEASED": 477
+    }
+  },
+  "READY_records_not_concurrency": 63,
+  "source_HTTP_inflight_after_END": 0,
+  "finite_wrapper_returned_normally": true,
+  "caller_exit": 1,
+  "Models_JVM_SDK_C_UI_GET_Game": 0,
+  "no_active_caller_config_service_Runtime_parameter_changes": true,
+  "no_private_Root_archive_positive_Runtime_settlement_SAVE_G2_performance_credit": true,
+  "other_project_remote_append_preserved_by_clean_FF": "cb18731a62535423c67acec5eb9c86d8c3f2d5e4; docs only, no caller/config change",
+  "owner_active_time_and_net_savings": null,
+  "service_global_load": "NOT_HELD",
+  "single_length_not_permanent_capacity_or_semantic_boundary": true
+}
