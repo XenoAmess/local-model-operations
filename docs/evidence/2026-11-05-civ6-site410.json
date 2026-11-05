@@ -1,0 +1,152 @@
+{
+  "schema": "local-model-operations.civ6-site410/v1",
+  "utc": "2026-11-05T08:18:01.966558+00:00",
+  "date_local": "2026-11-05",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/91cf9a2bac9f861789e93954ac9fd26a0a34bd05/docs/research/baiqi-p6-site410-refusal-recovery-evidence-2026-11-05.json",
+    "sha256": "1ba1fe0e1f54645a866958c154bcd896a71a108f84f305668968bd4b13f45df7"
+  },
+  "model": {
+    "shared_commit": "1b8324bb9454d424782569047716ab454f41b070",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "attempts": 1,
+    "extra_retries": 0,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 13568,
+      "completion_tokens": 1394,
+      "total_tokens": 14962
+    },
+    "total_ms": 11174.324300023727,
+    "ttft_ms": 2065.407400019467,
+    "cached_prompt_tokens": null,
+    "compile_install_cleanup_lua53": true,
+    "raw_install_lines": 38,
+    "raw_cleanup_lines": 6,
+    "raw_install_game_execution": 0,
+    "cleanup_code_string_verbatim_game_execution": 1,
+    "cleanup_derived_from_supplied_owner_reference_no_novelty_credit": true,
+    "adoption": "Partial scoped-turn/actor rejection direction; owner replaced unavailable local helpers/context and queue API.6line cleanup adopted verbatim as decoded UTF8LF string.",
+    "candidate_issues": [
+      "PlayerContext and CoreIdle are private Controller locals, unavailable to injected global code",
+      "Candidate unit:GetQueuedDestination is not supplied actual UnitManager.GetQueuedDestination",
+      "Initial leader/active/context and type guards corrected; fresh fullidentity rechecked",
+      "Plan incorrectly forbids all targetrequests although SKIP may forward; old0movement refreshes on newturn; reservations/targets may change before RequestCivilian qualification"
+    ],
+    "actual_unavailable_global_helpers_and_method_readback": [
+      "PlayerContextnil",
+      "CoreIdlenil",
+      "unitGetQueuedDestinationnil",
+      "UnitManagerGetQueuedDestinationfunction"
+    ],
+    "owner_hook_diagnostic_checks": 7,
+    "forwarding_subcases": 11,
+    "not_product_tests": true,
+    "owner_encoding_error": {
+      "utc": "2026-11-05T08:06:41.612289+00:00",
+      "owner_error": "Witness wrote cleanup with Windows newline translation while hash used decoded LF model string. SHA gate rejected cleanup before Native/attempt allocation;0CMD/action. Exact decoded candidate UTF8LF bytes now restored and verified; originalCRLF preserved.",
+      "before_sha256": "952efa8b85bfe48527e57c645d7de3307f0927a3228ff25a65160b5cb388a95c",
+      "after_sha256": "c32d328295cd700dc6884f33603603ed019f58144a5806d161893f5c98dde9a3",
+      "matches_qualified_cleanup": true,
+      "model_or_product_error": false
+    },
+    "maintenance": "canonical CLI Nov5 successful1.19.5cache beforePOST;0new OpenCode native generation",
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical": 410,
+    "complete_stop_valid": 380,
+    "length_discarded": 27,
+    "final_transport_failed": 3,
+    "http_attempts": 440,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "held": {
+      "position": [
+        21,
+        9
+      ],
+      "moves": 3,
+      "queued": null,
+      "native_qualification_hook_blocked_MOVE_TO": 1,
+      "native_qualification_hook_blocked_FOUND_CITY": 0,
+      "qualification_other_calls_forwarded": 78,
+      "matcher_errors": 0,
+      "actual_request_observer_all": 22,
+      "target_MOVE_TO_FOUND_CITY": [
+        0,
+        0
+      ],
+      "target_other_request": 1,
+      "target_other_operation": "SKIP_TURN",
+      "other_civilian_requests": 21,
+      "nonCivilian_unknownType_errors": [
+        0,
+        0,
+        0
+      ],
+      "observation_points_seconds_apart": 94.660975,
+      "counters_unchanged_between_points": true,
+      "turn_refresh_is_not_old_moves_unchanged": true
+    },
+    "recovered": {
+      "fault_removed_before_normal_end115": true,
+      "position": [
+        23,
+        12
+      ],
+      "plot": 551,
+      "moves": 0,
+      "queued": null,
+      "actual_MOVE_TO_requests": 3,
+      "actual_FOUND_CITY_requests": 0,
+      "request_targets": [
+        [
+          22,
+          10
+        ],
+        [
+          22,
+          11
+        ],
+        [
+          23,
+          12
+        ]
+      ],
+      "source": "BACKGROUND",
+      "observed_move_result_log_entries": 3,
+      "cumulative_request_counts": {
+        "all": 39,
+        "targetMove": 3,
+        "targetFound": 0,
+        "targetOther": 1,
+        "other": 35,
+        "nonCivilian": 0,
+        "unknownType": 0,
+        "errors": 0
+      },
+      "cities": 11,
+      "no_manual_civilian_commands_cache_attempt_reservation_or_receipt_writes": true
+    }
+  },
+  "generic_lessons": [
+    "Global injected chunks cannot call private Lua locals from supplied module source. Actual UI read confirmed PlayerContext/CoreIdle/unitGetQueuedDestinationnil, correct UnitManager methodfunction.",
+    "Candidate all-request-zero and old moves unchanged assumptions are false: fallback SKIP forwarded and nextturn refresh0to3. Reservations/targets may already be changed before RequestCivilian qualification; never handclear to manufacture recovery.",
+    "Owner7hook checks include11forwarding subcases; exact target115MOVE qualification refused1, no realFOUND hit.0raw install game execution;6line cleanup stringverbatim from supplied reference, no novelty credit.",
+    "Owner CRLF translation changed cleanup bytes; SHA gate stopped beforeCMD. Preserve old bytes, restore exact qualified decodedUTF8LF candidate and new label; not model/product fault.",
+    "Actual115two points yielded stable1qualification reject and22requests includingtargetSKIP1/other21. Cleanup then normal116 yielded3actual targetmoves and independent finalposition23,12/moves0, no manual cache clear.",
+    "Observer covers only BaiqiExecutor RequestOperation, not all contexts or native engine actions. All39samples present, noncivilian/unknowntype/errors0; no founding observed or all-pressure acceptance awarded."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "HTTP candidate, owner diagnostic checks, product software checks and actual Native facts remain distinct. Product74 unchanged; unknown tokens/costs remainnull."
+}

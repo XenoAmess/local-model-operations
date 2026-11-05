@@ -3316,3 +3316,12 @@ fixed3/DIRECT/max10000/thinkingfalse，08:12:44.976874→08:14:09.718508Z真实1
 [owner64源审与Native](evidence/2026-11-05-http-sway-following-fresh-read-owner-typed.json)补交付pending：rawde5b的现有wrapper public及两真实following参数包裹语义接受，actual withReconciliationGuard/verifyArchived callback保；raw顶层实际为task_id+files[].diff而非请求unified_diff，按实际字段审，JSON有效不代替输出合同/采用。owner605c/ddee在读完整raw前已独立完成，模型复制行0/rawapply与JVM0/noR2；FQN与原实际root wildcard均可合法解析，不称模型自主设计或owner型验回授原稿。两个owned块inverse全还原原3866/1c09，wrapper体、所有其它参数/guardlambda及原序原字节保。
 
 必要2TU19class首0/10.2772078秒，类名19同、16结构同/3异：RootFactory既有freshFrameLoader flags8→9（package static→public static）；Sway$OrdinaryConfiguration与$SharedRootSelection各仅InnerClasses移除FinanceReadContracts$Packet一metadata，字段/方法/Record及其它结构原样。不是删除输出class或已证Source根因，all19equal=false据实保，不报全shapeequal/binaryequal/hotredefine。Models后见helper起初只预期visibility一项而assert失败，未写共享记录，随后只读原JSON精确核三项；该运营核验成本不归模型。ACTUAL/post/terminal/close/fence与前后classpins具名独核，close0/released，0新Test/旧62RUN。原10.509896秒/TTFT4.7112361秒/36170+1004成本保，actual40/自然Sway/Controller完成/Root/G2/LOOP/SAVE/性能仍独立Runtime，不因domain可能empty而绕verifier；0新HTTP/JVM/Game，完整主动成本/净收益未知。
+
+
+## 2026-11-05：Civ6site410
+
+1普通HTTP POST200／stop／DONE／VALID，13568+1394tokens、11.1743243秒、TTFT2.0654074秒、峰1、0重试、cached=null。38行install／6行cleanup编译；install引用实际不可访问私有函数和错误queue方法，owner重写／7项隔离检查（11透传子例），0原install游戏执行；cleanup字符串原样采用但来自给定参考。
+
+真实115仅MOVE资格命中1，FOUND0；实际MOVE／FOUND0、SKIP1，其余21请求继续，两个观察点相隔94.660975秒不增。撤故障正常116，3次BACKGROUND移动实际到23,12／0行动；观察器累积39请求、非白名单／未知／错误0并全清。只受控资格拒绝，不算自然城址压力或实际建城。Owner CRLF错误被SHA门挡、0CMD，新标签修正另账。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-site410.json)。
