@@ -1,0 +1,113 @@
+{
+  "schema": "local-model-operations.civ6-capture423/v1",
+  "utc": "2026-11-05T14:55:48.825054+00:00",
+  "date_local": "2026-11-05",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/efbf223f1f8f318886af8edb870e40aa0323a2b3/docs/research/baiqi-p6-capture421423-vilnius75-evidence-2026-11-05.json",
+    "sha256": "3f62b52a358e565bc91b60d6087e2831d3cae5d5b965047eeff5e8d702decd62"
+  },
+  "model": [
+    {
+      "logical": 421,
+      "shared_commit": "977c2c2fd420d135218f04661f7b6b1529a8b1ce",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "attempts": 1,
+      "extra_retries": 0,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 12953,
+        "completion_tokens": 1485,
+        "total_tokens": 14438
+      },
+      "total_ms": 11102.962500008289,
+      "ttft_ms": 1926.7428999883123,
+      "cached_prompt_tokens": null,
+      "qualification": "45 candidate Lua lines; both raw readers fail compile. Core/UI owner readers each6 cases, zero raw Native.",
+      "adoption": "Identity and scene inventory direction; owner rewrites colon field syntax, correct diplomacy receiver, protected missing-plot availability and actual defense ports.",
+      "raw_candidate_native_execution": 0,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null,
+      "maintenance": "Canonical same-machine/user Nov5 successful OpenCode1.19.5 cache reused;0new OpenCode native generation."
+    },
+    {
+      "logical": 422,
+      "shared_commit": "977c2c2fd420d135218f04661f7b6b1529a8b1ce",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "attempts": 1,
+      "extra_retries": 0,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 14090,
+        "completion_tokens": 1033,
+        "total_tokens": 15123
+      },
+      "total_ms": 8670.963199983817,
+      "ttft_ms": 2022.0443999860436,
+      "cached_prompt_tokens": null,
+      "qualification": "36 lines compile; raw GetCount-on-array fixture fails; owner6 port cases; zero raw Native.",
+      "adoption": "Most identity/capability inventory; owner counts actual Lua array units, guards missing/nil/malformed collection, reads actual war enum and movement restore port.",
+      "raw_candidate_native_execution": 0,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null,
+      "maintenance": "Canonical same-machine/user Nov5 successful OpenCode1.19.5 cache reused;0new OpenCode native generation."
+    },
+    {
+      "logical": 423,
+      "shared_commit": "977c2c2fd420d135218f04661f7b6b1529a8b1ce",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "attempts": 1,
+      "extra_retries": 0,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 16220,
+        "completion_tokens": 1183,
+        "total_tokens": 17403
+      },
+      "total_ms": 9828.248900012113,
+      "ttft_ms": 2301.218699954916,
+      "cached_prompt_tokens": null,
+      "qualification": "40 lines compile; raw nil-collection fixture makes reader unavailable; owner Core/UI each6 cases; zero raw Native.",
+      "adoption": "Most post-attempt result/journal direction; owner guards absent/dead-player collections, preserves nil/unknown, explicit absent journal/record, adds target identity and UI localized name.",
+      "raw_candidate_native_execution": 0,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null,
+      "maintenance": "Canonical same-machine/user Nov5 successful OpenCode1.19.5 cache reused;0new OpenCode native generation."
+    }
+  ],
+  "cumulative": {
+    "logical": 423,
+    "complete_stop_valid": 392,
+    "length_discarded": 28,
+    "final_transport_failed": 3,
+    "http_attempts": 453,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "true_citystate": "Actual configuration verified Vilnius CITY_STATE, player6 last-city/pop1. Explicit QA war/stock/own-army placement/damage, then physical map right+confirm once300; actual UI request1, transfer1/Finish1, gold500to200, army2to0, DONE, continuous two Recover no added effect, committed official save/reload verified.",
+    "native_units": "Defeated player6 UIunits0/fresh lookupnil, Core2fresh fullID warriors retained at-9999,-9999, IsDeadfalse/Delayedtrue, same afterreload. Distinct owner131073, ownarmy131073 and city131073; not acting-army interruption acceptance.",
+    "assets_limits": "Only Palace and empty slot before; both removed, no asset-preservation blanket pass or vanilla cause attribution. Normal114independently restored, Steamoffline, Alpha74unchanged."
+  },
+  "generic_lessons": [
+    "Numeric player ID or non-major status does not establish City-State; inspect exact checkpoint configuration and civilization level.",
+    "Core and UI may disagree about retained delayed-death objects; fresh owner/fullID/coordinates/death state are required, collectioncount alone is insufficient.",
+    "Object fullIDs are only meaningful with owner and collection; an enemy unit, acting unit and captured city can share one numeric value.",
+    "Read-only post-attempt diagnostics must preserve missing collection/record/port as unknown, not zero or assumed success.",
+    "If a loading/Continue gate fails, stop dependent queries too and wait for terminal state; a failed read is neither product failure nor acceptance.",
+    "City assets must be actually inventoried; a removed Palace and empty slot do not qualify all normal buildings or great works."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Product75 unchanged since full1048. True last-city City-State capture only; not full assets, natural battle/economy, cold reload, long loyalty/production or acting-army delayed-removal settlement.417exit residue unclassified; Alpha74unchanged."
+}

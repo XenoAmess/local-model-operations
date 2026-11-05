@@ -3544,3 +3544,10 @@ fixed3/DIRECT/max10000/thinkingfalse，13:46:52.174450→13:47:34.553561Z真实1
 fixed3/DIRECT/max8000/thinkingfalse，14:09:24.063373→14:10:03.009984Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，38.9465681秒、有效内容TTFT29.2204916秒，reported226831+1737、cached=null。11全文与合同实际REQUEST逐一核符、CONTENT=SSE审计errors/差异为空；原件先交Java再audit/Git。采用切点仍待owner源审，0rawJVM/noR2，完整传输不授source/软件/私有当前恢复通过。[完整输入、参数、成本与边界](evidence/2026-11-05-http-sway-saved-open-batch-delivery.json)。
 
 后见只读502COMPLETED/502RELEASED、88READY非并发、source0；新82不是81重投，不为文档/目标并发制造请求。0本岗JVM/Game/GET或活跃参数变更，后端/Runtime负载未采样；旧length全文/SSE未读未hash，原件终态/私Root/LOOP/SAVE/G2/性能各按独立回执。
+
+
+## 2026-11-05：Civ6capture423
+
+421—423三次完整stop/DONE/VALID、0原稿Native；421冒号field编译错，422数组GetCount不符真实端口，423未防nil集合。owner分别Core/UI各6、6端口、Core/UI各6诊断后实际真城邦付费及存读档窄验，三图入库。累计423逻辑／392完整／28length／3final transport、453HTTP／30extra，0新OpenCode生成，缓存和节时null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture423.json)。
