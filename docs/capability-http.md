@@ -3147,3 +3147,8 @@ fixed3/DIRECT/max2400/thinkingfalse，05:16:45.590903→05:16:51.436129Z真实1P
 [ownerTest02与独立回执](evidence/2026-11-05-http-reconciled-event-read-data-owner-software.json)补原task55 length切点：owner完全接管三个新方法，最终20380B/995391c7必要新1TU3class首0/4.8652138秒，exact3P/JVM4.2689929秒/XML2.42，具名ACTUAL/config/post/terminal/close/fence/输出classpins与XML核验、close0/released。首Test01 fixture canonical输出预算setup3E保，owner只两helper行的三budget标识符从64MiB改合法1MiB，case/assert/DATA/heap/deadline不动；该3E不是生产语义红，不删成本。
 
 通过范围是UNISSUED结构old19/current25、12actualconsumer拒例、strictv4与实际Factory拒非READ ACK/缺原件，真旧READ ACK仍NOT_HELD、私Root/archive/custody正例未授；未重编production/support或旧v3affected1P。原模型62.9256秒length正文/SSE仍未开未哈希、0代码/方法/partial采用、0modelJVM/noR2，owner最终3P不回授模型。业务bf671e9f按owner回执remote同clean，production54两完整方法/wholepatch0模型采用、八叶owner03与独立56type/旧v3causal1P分账；Hosted源码和payload不公开，Runtime34 START/BOOT不授Root effect/结算/SAVE/G2/性能。后见0新HTTP/JVM/Game，旧切点完整保留。
+
+
+## 2026-11-05：HOI4 素材接收被错误提升为实机门禁
+
+[一项真实接收审阅](evidence/2026-11-05-hoi4-high12-intake-scope-confusion.json)给完整当前scope/审计源码/tests，reported19477+918tokens，一次200/stop/DONE/有效JSON；TTFT2.709973秒、HTTP8.509176秒，实际客户端峰1区间8.508633秒，无重试、缓存未报告。候选把明确分开的图片接收、软件测试与游戏验收混同，凭“本次未实机”制造两个接收阻塞，并把5481/5481库存100%误缩成仅12/12、将既有全库581/24测试误说为仅12图范围；实质意见拒收、0代码/视觉资格，owner按机械证据完成接收。17原件=12合格+5历史拒收已由输入明示，不能当新模型贡献；后到有序输入字节及远端下载核验不追认模型已见，也不重跑旧绿。成本/服务器占用/净节省未知，软件、实机和公开安装包状态继续分账。
