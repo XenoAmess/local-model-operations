@@ -3355,3 +3355,12 @@ fixed3/DIRECT/max10000/thinkingfalse，08:12:44.976874→08:14:09.718508Z真实1
 fixed3/DIRECT/max10000/thinkingfalse，09:12:33.226972→09:13:42.761384Z真实1POST/1END，HTTP200/DONE/length，69.5344126秒、有效内容TTFT14.2206秒，reported111079+10000、cached=null。CONTENT及rawSSE整份未开/读/解析/提取/hash，未运行目录审计，0代码/方法/partial采用、0rawJVM/noR2。END已在文档/Git前即时交owner接管，不读半稿推断语义、输入质量或截断成因。
 
 487→488COMPLETED及RELEASED只代表实际任务闭合，74READY不是并发；源码在途0。新复杂两叶的10k截断与此前12k截断、67单表达式3000预算下完整456输出并列，不能推出预算永久边界、缓存或修复收益，也不自动改参数或重派。原件成本与约束见[脱敏证据](evidence/2026-11-05-http-sway-original-zero-gameplay-length.json)。本切点无软件、私有Root、原537终态或Runtime/LOOP/SAVE/G2/性能资格；owner源码和必要验证独立继续。
+
+
+## 2026-11-05：Sway 无写 DATA 新单方法测试候选完整交付
+
+独立新Test提供16份完整输入661345B（13Java+完整HEAD/原UNKNOWN回执/域body），1037行800008B fixture manifest按合同只pin不内联。只给旧8d04 HostedTest新增1noarg方法和最多2tiny DATA helper，旧2方法/Fixture/DataArchive全保，原68两目标length不重投。目标仅真实公开DATA selector与纯Sway DATA门，完整canonical原件和成熟codec scaffold来自owner，不构造fakeRoot或私Domain证明。
+
+fixed3/DIRECT/max10000/thinkingfalse，09:41:30.933238→09:42:04.798236Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，33.8646888秒、有效内容TTFT20.9047134秒，reported163309+2249、cached=null。16份全文在实际REQUEST逐一核实，UTF8审计errors/差异为空且CONTENT=SSE；完整原件先交owner再做审计/Git。此交付切点源码采用待审、0rawJVM/noR2，不由stop授软件通过。
+
+只读489COMPLETED/489RELEASED，75READY不是并发，当前源码在途0。前次10k截断与本次10k内完整输出分账，无预算改善因果或容量结论。无新模型/Native权限、原UNKNOWN清理、canonical终态、Runtime/LOOP/SAVE/G2或性能资格。[完整脱敏证据与采用待审切点](evidence/2026-11-05-http-sway-no-gameplay-data-test-delivery.json)。
