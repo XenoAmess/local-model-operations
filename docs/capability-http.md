@@ -3761,3 +3761,15 @@ fixed3/DIRECT/max4000/thinkingfalse，19:17:07.327144→19:17:16.655570Z真实1P
 436／437canonical普通HTTP完整stop/DONE/VALID，Nov6成功OpenCode1.19.5维护缓存，0新原生生成。436引用不可见locals/只定义不调用拒用，owner实际只读定位同一新移民首路被ownbuilder堵而安全空闲替代漏试。437条件经审阅采用，原测试PythonLua混杂和错误FOUND语义0采用；owner6回归旧76有2FAIL、77全过，全1064软件141.997s通过。此业务pin仅源码77，coldNative未授验；累计截至437为437逻辑/406完整/28length/3finaltransport，HTTP467/extra30，未知缓存和人工节时null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settler437.json)。
+
+
+
+## 2026-11-06：Source96同实例Writer完整物理session串行化候选交付
+
+新96/P058非94/95重投，7全文545393B（5actualJava+wholeFAILURE58+完整scopeproof）实际REQUEST全核，仅Writer1d5目标。实际背景immutable发布和二次failure发布均Win33，原writer.locked内offline.bind可能在主线程释放前启动后台，ThreadLocal不能跨线程串行；具体holder未直接实采，不授锁泄漏或唯一因果。合同只privateperinstanceJDKgate覆盖Windowsacquire→原work/TWR/session/TL/finally→真physicalclose，再outerfinallyunlock；readonly/null/nested三前置原顺序且阻塞前快拒，lock()不清interrupt，原exceptions/suppressed/nativeflags/range/foreign拒全保，不Win33retry/swallow/清锁/globalregistry/新类型/API/import/Sessiontransfer。
+
+StorageGuard单对象和ordinary同boundCore scopeproof不授跨实例/process或旧Core shutdown覆盖；其他实例/进程/readOnlyFrom/staticinit继续原Windowsfailclosed。clean drain原在writer外，不改业务/ledger/Guard/保存/动作/回调校验；P052getter非current，不加、不覆盖本次恢复。fixed3/DIRECT/max4000/thinkingfalse，19:33:30.286751→19:33:46.477357Z真实1POST/1END（本地Nov06），HTTP200/DONE/stop/JSONvalid，16.1903508秒、有效内容TTFT14.291369秒，reported111552+333/cached=null。先交Java后audit/Git，CONTENT=SSE差异空；交付采用待源审/0rawJVM/noR2，传输不授gate存在、precheck/close/error语义或实际恢复/速度。[来源pin、完整scope与成本](evidence/2026-11-06-http-own-writer-session-serialization-delivery.json)。
+
+随后正式全读源审认为提案语义可接受：fair单实例gate、等待前原快拒、原Windows TWR/work/TL/真close/suppressed后finally unlock保持，field在method前合法；oldspan原bytes0匹配、LF normalize1匹配。owner源码及必要9CF型验在完整raw审前已独立存在，whole/method/partial/literal/rawJVM/R2仍全0，不重复raw编译或追授代码采用。语义可接受与实际代码收益分账，原交付pending切点保；不授foreign mutex/具体holder/旧8/clean/P052getter或速度。
+
+只读516COMPLETED/516RELEASED、102READY非并发、source0，Nov06成功1.19.5缓存复用、0额外维护probe/本岗JVM/Game/GET/JFR/活跃参数改；无真实新源不造97，旧length含94全文/SSE保持未读未hash0采用/noR2，后到owner源/型/实际8completion/clean/P052/性能分层另证，不改原pending交付切点。

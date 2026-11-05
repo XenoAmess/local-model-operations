@@ -1,0 +1,198 @@
+{
+  "schema": "local-model-operations.http-own-writer-session-serialization-delivery/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T19:36:30.941840+00:00",
+  "project": "CK3",
+  "task_id": "ordinary-own-writer-session-serialization-20261106-01",
+  "input": {
+    "manifest_pin": {
+      "bytes": 3517,
+      "sha256": "d671207b804c789d46902203294f1b63bc4bef97de833fc1ff7323c7ee54c4b7"
+    },
+    "contract_pin": {
+      "bytes": 2128,
+      "sha256": "d2d6705c88a844fce17422f5591562048e98f701fb444349126a06c46b86d7e5"
+    },
+    "full_files": 7,
+    "full_bytes": 545393,
+    "actual_Java": 5,
+    "whole_actual_FAILURE_JSON": 1,
+    "complete_scope_proof": 1,
+    "all7_full_text_in_actual_REQUEST": true,
+    "REQUEST_pin": {
+      "bytes": 557131,
+      "sha256": "16eabf45a89e026e526bfe298f5c16a4c2a84443b87029a8e5b4e63007e82da8"
+    },
+    "source_message_pin": {
+      "bytes": 544125,
+      "sha256": "df5631493f5c6ab0ad465bb78fb02a3ea5c2ebd50dafce865613d6b168a32911"
+    },
+    "ordered_file_roles_and_pins": [
+      {
+        "role": "target_actual_Writer1d5",
+        "bytes": 126060,
+        "sha256": "1d5c61427dd24e5807c4ca822e694617f08b3e8f8a1338f0eae69371a9806cb1",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "context_WindowsLedgerLock",
+        "bytes": 5304,
+        "sha256": "b7c98f337ce2bdf091b3fab20e311e53e6260365d8242e1fba196835899ac4e1",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "context_actual_StorageGuard",
+        "bytes": 78297,
+        "sha256": "3ef0bbebc9cbb979f1ea999faed6a6d578f3186f3cba55c91f3913e624133d9c",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "context_actual_Core",
+        "bytes": 249157,
+        "sha256": "510d90ad632be9b0ea72573ec1aaa63a03218d71f03117efe0aa37175c419a30",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "context_actual_RuntimeAssembly",
+        "bytes": 65338,
+        "sha256": "f49d4938d0824706d2e277fc6a6d9f0948bb70e3e8c1a295fcef174716bdbabc",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "whole_actual_FAILURE58",
+        "bytes": 19176,
+        "sha256": "d127ba37ef19a251fc81401d9b594556a68a8fd4c76dcbcb8e1f3d5067d8df80",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "complete_scope_proof",
+        "bytes": 2061,
+        "sha256": "7ba626524ee7b3c09b53009f116a2e46f294e5b41f812600ecf67c122c97d77a",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ],
+    "target": "actualContinuityWriter1d5",
+    "other_fourJava_failure_scopeproof_context_only": true
+  },
+  "owner_precise_contract": {
+    "actual_gap": "Actual immutable-background publication and secondary failure publication both Win32=33. Core.finishObserved writer.locked contains offline.install/worker.bind, may start background task before mainthread release. ThreadLocal does not serialize differentthreads, WindowsLedgerLock immediateexclusive; exact actualholder not directlysampled, no lockleak/unique causality claim.",
+    "perinstance_gate": "Only smallest private per-instance JDK lock serializes actual locked(SessionWork) through full physicalWindowsacquire/work/TWRclose. FairReentrantLock lock() suitable, no clearinginterrupt or wrappingInterruptedException; unlock finally outside realphysicalclose. Existing readOnly/nonnull/ACTIVE_SESSIONnestedprechecks exactorder BEFOREblocking, illegalnested fastrejects.",
+    "unchanged": "Original WindowsLedgerLock acquire/TWRbody/sessionopen/TL/finally/actualclose/exception+suppression identities/nativeflags+range/foreignrejection. No newnamedtype/import/publicAPI/globalregistry/Sessiontransfer/foreignfilelock manipulation/Win33retry/swallow. Otherwriterinstances/processes/readOnlyFrom/staticinitialization keep originalnativefailclosed.",
+    "scope_proof": "StorageGuard retains one object and rejects replacement; actual ordinaryaccess resolves sameboundCorewriter. ActualRootcleandrain waits outsidewritersession. Per-instance scheduling not cross-instance/process protection or oldCore-shutdown proof.",
+    "limits": "No callback/result/archive/cache/ledger/Guard/save/Game/action changes. P052getter candidate notcurrent and must be rebasedlater, do not add/overwrite current recovery. Source/type not actual8completion/clean/P052/throughput."
+  },
+  "guidance": "Owner supplied actual stack and explicit object/scope proof; not autonomous model rootcause discovery or holder sampling.",
+  "POST_BEGIN_UTC": "2026-11-05T19:33:30.286751+00:00",
+  "END_UTC": "2026-11-05T19:33:46.477357+00:00",
+  "local_day_POST_END": "2026-11-06",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 4000,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "candidate_complete": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 14289.83139997581,
+  "effective_content_TTFT_ms": 14291.368999984115,
+  "total_ms": 16190.35079999594,
+  "reported_usage": {
+    "prompt_tokens": 111552,
+    "completion_tokens": 333,
+    "total_tokens": 111885
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1276,
+    "sha256": "30ab4bfd69d8d05fa6a089eefd3dd049f188429d84bbeb437b987d6af43b7452"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 1572,
+    "sha256": "8c23c88ab8757c8e905bdbf352b1a0ba56d80b2e99f0c537259f4d6dc3a17668"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_before_audit_Git": true,
+  "source_adoption_at_delivery_cut": {
+    "status": "PENDING_OWNER_REVIEW",
+    "whole_method_span_literal_partial": "PENDING",
+    "raw_JVM_compile_or_RUN": 0,
+    "R2": 0
+  },
+  "operations": {
+    "readonly_queue": {
+      "dispatch.db": {
+        "COMPLETED": 516
+      },
+      "leases.db": {
+        "RELEASED": 516
+      }
+    },
+    "READY_records_not_concurrency": 102,
+    "source_HTTP_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "daily_OpenCode": "Nov06 actualsuccess1.19.5 fromtask87 cache reused/noextraexplicitprobe",
+    "global_service_load": "NOT_HELD",
+    "Models_JVM_SDK_C_GET_Game_JFR": 0,
+    "business_model_decision_HTTP": 0,
+    "active_caller_config_service_Runtime_changed": false,
+    "owner_net_active_time_savings": null
+  },
+  "limits": [
+    "Complete stop/JSON/audit does not prove gate present, prechecks outsideblocking, fullphysicalclose coverage/interrupt/error/suppression preservation, actualsameobject adoption or perinstance scheduling benefit.",
+    "No actual8completion/clean/P052/Runtime/Game/SAVE/G2/performance proof from this HTTP. Allolder length CONTENT/rawSSE including94 wholeunread/unparsed/unextracted/unhashed0adopt/noR2.",
+    "Cachednull/peerUNKNOWN/globalserviceloadNOT_HELD remain unknown, no capacity/cache inference."
+  ],
+  "subsequent_formal_source_review": {
+    "at_utc": "2026-11-05T19:35:37.631612+00:00",
+    "review_pin": {
+      "bytes": 1147,
+      "sha256": "a54888f03e4c2703d0f63269a68aae3ceeea1d675b84e8d5a4ea1f0912da6dba"
+    },
+    "verdict": "SEMANTICALLY_ACCEPTABLE_OWNER_ALREADY_INDEPENDENT",
+    "semantic_admissibility": "ACCEPTABLE_AT_SOURCE_REVIEW",
+    "adoption": {
+      "whole_patch": 0,
+      "methods": 0,
+      "literal_source_spans": 0,
+      "raw_jvm": 0,
+      "retry_rounds": 0
+    },
+    "partial_code": 0,
+    "old_span_raw_occurrences": 0,
+    "old_span_lf_normalized_occurrences": 1,
+    "owner_reason": "Same-instance fair ReentrantLock placement preserves original prechecks before wait, Windows TWR/work/TL/actualclose/suppression and finally unlock. Field placement before the method is legal. The independently written owner source and necessary9CF type already existed;do not duplicate compile or retrofit code credit.",
+    "scope_limit": "No foreign-instance mutex, private holder/leak proof, original8 completion, clean ticket, P052getter/adoption or measured speedup.",
+    "classification": "Semantic proposal accepted after source review, zero code adoption because owner source/type already independently existed; no raw compile or retrofit owner code credit.",
+    "owner_successor": "Owner independent source/necessary9CF type reported byJava, no Models repeatedcompile/re-audit; actualonce/clean/P052/performance separate.",
+    "delivery_pending_cut_preserved": true
+  }
+}
