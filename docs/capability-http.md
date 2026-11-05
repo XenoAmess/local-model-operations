@@ -2920,3 +2920,12 @@ owner全文源审0完整新增方法/0modelJVM并接管：result类型推断后�
 [87526be6及原ACTUAL/XML独核](evidence/2026-11-05-http-sway-owner-software-later.json)在旧source切点之外追加：owner生产13ff仅1TU14class首次0/6.7035403秒、完整14shape相等；新修后Test7658仅1TU2class首次0/3.3605358秒，exact2新方法真2P、JUnit进程3.3828353秒、XML suite时长另列。实际pin→config/BEGIN/post/terminal、全部输出class/SourceFile及XML两精确方法均核，stderr0/allclose0/fenced/released；0旧golden210/309/Support编跑。
 
 构造器模型114token完整稿新逻辑whole/partial仍0，生产owner100；Test仅partial helpers/cases/asserts，经owner修identity/callback与补断言，未原样采用整类/完整方法。最终2P不回授raw，97匹配文本行含imports空白、不算有效LOC或净工时。软件仅caller DATA标签/指纹/source保留与真实Service.stage边界，14shape相等及隔离装载不授实际VM redefine/Runtime、running-source proof、自然M6/G2/SAVE/速度；formal另有actor/target outside差异不冒wholeformal资格。本附页0新HTTP/JVM/UI/Runtime/Game，完整主动成本与净收益未知。
+
+
+## 2026-11-05：调度 owner 测试源码、Sway 正式与另一 CI 后到回执
+
+[具名原件与独核](evidence/2026-11-05-http-owner-source-formal-ci-later.json)补调度Test4d4c3910/cb08ad56：原0完整方法/0modelJVM/noR2，partial未声明仍NOT_HELD。owner53892B/f616只加3方法/2小typed helper/1import，删对应字节后完整38595B逐字还原；旧Core/fixture不算模型贡献。源切点未编/RUN，Native计划changedTest1TU及必要PlanningFixtures3341B首次1TU；后者在已持精确输出中没有匹配binary，不能写成重编旧绿，也不把计划当3P。
+
+另一已存在Official41922443393（010cec）真实failure：Tools Maven0/1040.4439083秒、1199项0E/F/skip，lobby XML四精确case4P独核；随后qualified child3.1196564秒因同postqualification actual.json缺失在1947拒，未到full reactor/HTTP资格，不是现场P0失败。只是既有CI模型任务的后到交叉索引，不新增模型case/调用分母；源/proof可用性NOT_HELD不等于全球不存在，不能伪造或降gate。
+
+Sway另由Java正式发表2f59b092并独核remote/clean，formal只映射一guard且Test7658原样；actual raw13ff与formal actor/target outside差异保留，不授wholeformal编测或Runtime/自然M6。生产模型新逻辑0、Test仅partial，不因正式发表回授wholemethod。旧源码/软件/CI切点保留，本附页0新HTTP/JVM/CI查询/重跑/Runtime/Game，完整主动成本与净收益未知。
