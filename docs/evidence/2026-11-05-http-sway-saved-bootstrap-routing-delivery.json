@@ -1,0 +1,164 @@
+{
+  "schema": "local-model-operations.http-sway-saved-bootstrap-routing/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T13:29:31.817743+00:00",
+  "project": "CK3",
+  "task_id": "ordinary-sway-saved-bootstrap-unresolved-route-20261105-01",
+  "input": {
+    "manifest_pin": {
+      "bytes": 2637,
+      "sha256": "efbee62257b2275e64c11b7745ca68cd99d2e6339f886ea18c81f71cdc199509"
+    },
+    "contract_pin": {
+      "bytes": 2091,
+      "sha256": "fdbc9457d574ce66ab2ea3215611416b792ed5410dbca43283c7a84803e0d81e"
+    },
+    "full_files": 5,
+    "full_bytes": 774303,
+    "Java": 3,
+    "whole_private_actual_JSON": 2,
+    "all5_full_text_in_actual_REQUEST": true,
+    "REQUEST_pin": {
+      "bytes": 800815,
+      "sha256": "4b929ddde5a4753402509f901ec98e9516a6b8e7e95b18828486d003d51a1a88"
+    },
+    "source_message_pin": {
+      "bytes": 775044,
+      "sha256": "5e7ec843c68d31d3d89b9273b67dd2226ed8efffc00933b3047051645bd29a0c"
+    },
+    "ordered_file_roles_and_pins": [
+      {
+        "role": "target_actual_Core",
+        "bytes": 248795,
+        "sha256": "e503df278cd05fb78c5260a52b6a64e66d98876e64b5b7da28439398561144a9",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_Batch47",
+        "bytes": 365561,
+        "sha256": "9b5e0e08f8f955b800c9b2d497281ee87147c44c9a57ccb86ac4105b2f18cdf0",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_Opened_caller",
+        "bytes": 65338,
+        "sha256": "f49d4938d0824706d2e277fc6a6d9f0948bb70e3e8c1a295fcef174716bdbabc",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_HEAD564",
+        "bytes": 89467,
+        "sha256": "538990caaa296255a60372a27076617ce47fa1abffbe0408a8da7e029933a6c4",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_Unknown564",
+        "bytes": 5142,
+        "sha256": "e0e69c263da192968d1f2c5987379adfe07f2d327052c487fb0b2cd10b6bb08b",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ]
+  },
+  "owner_contract": "One actual Core wiring leaf. Retain independent strictSavedSway DATA role in existing PendingRole local record under same original action lease/head/identity/actions/archive; add only that role to RUNNING OR beside unchanged completedLife/saveFinalization. Preserve legacyPending, lease.assertCurrent, full history/Driver canonical/source proofs and strict zero-dispatch guard. No general Unknown admission, repair, query, execute or restart original parent.",
+  "owner_diagnosis": "Actual latest Unknown already makes legacyPending true; missing RUNNING status role returns empty before observer, so initial zero-dispatch guard correctly rejects changed action head. Owner diagnosed exact missing integration before POST; not model autonomous discovery.",
+  "POST_BEGIN_UTC": "2026-11-05T13:26:42.902868+00:00",
+  "END_UTC": "2026-11-05T13:27:07.572937+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 4000,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "candidate_complete": true,
+  "headers_ms": 23056.515500007663,
+  "effective_content_TTFT_ms": 23057.588200026657,
+  "total_ms": 24669.94659998454,
+  "reported_usage": {
+    "prompt_tokens": 179470,
+    "completion_tokens": 298,
+    "total_tokens": 179768
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1301,
+    "sha256": "d59d14f692edc30fe0fc24bf7b60e5a99fd98a76c47451bd2cfda03caab178ef"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 1544,
+    "sha256": "b766cc6d27221db211f1c0e9522382e5eae89802e58494d9575acd22b6d41c8f"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_before_audit_Git": true,
+  "formal_source_review": {
+    "pin": {
+      "bytes": 1699,
+      "sha256": "fe686a9f27309f46d0ee615501d1b95b86a1d1b43327d6cf1854e9a3d51a8370"
+    },
+    "status": "REJECT_WHOLE_PATCH_ZERO_EFFECT_ON_ACTUAL_STATUS_GATE",
+    "findings": [
+      "Only adds strictSway helper into legacyPending, which is already true for actual564Unknown. Does not retain separate role through PendingRole nor add it to RUNNING status OR, so the actual1132 gate still returns empty.",
+      "Old literal indent does not match actual target; no attempt to force/splice it. No change to zero-dispatch guard proposed, but the required integration is absent."
+    ],
+    "accepted_complete_methods": 0,
+    "literal_copied_bytes": 0,
+    "raw_JVM_compile_or_RUN": 0,
+    "R2": 0,
+    "owner_independent_SOURCE_READY_pin": {
+      "bytes": 3233,
+      "sha256": "c9e6af70b221c8ec392e1cfa5c59f5a0de6402c146a94dff07c477b378d9d642"
+    },
+    "owner_type_qualification": "Owner reports own four spans and necessary type green before raw opened; not independently audited in this transport/document unit, not raw validation."
+  },
+  "operations": {
+    "queue_readonly": {
+      "dispatch.db": {
+        "COMPLETED": 500
+      },
+      "leases.db": {
+        "RELEASED": 500
+      }
+    },
+    "READY_records_not_concurrency": 86,
+    "source_HTTP_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "daily_OpenCode": "2026-11-05 successful1.19.5cache reused",
+    "global_service_load": "NOT_HELD",
+    "Models_JVM_SDK_C_GET_Game": 0,
+    "active_caller_config_service_Runtime_changed": false,
+    "net_owner_active_time_savings": null
+  },
+  "limits": [
+    "Complete stop/validJSON298output under4000 is not correct integration; do not infer context/cache/budget causality or permanent ability boundary.",
+    "No complete method/literal raw adoption or model compiler/RUN. Owner independent source/type separate.",
+    "All older length CONTENT/rawSSE remain wholeunread/unparsed/unextracted/unhashed0adopt/noR2.",
+    "No original parent observer/terminal, Root/Native/Writer authority, Game/GET/LOOP/SAVE/G2/performance credit."
+  ]
+}

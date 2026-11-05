@@ -3497,3 +3497,23 @@ fixed3/DIRECT/max8000/thinkingfalse，13:03:07.601573→13:03:56.882853Z真实1P
 419完整stop/DONE/VALID但安装Lua冒号语法错误且前置要求moves0使故障不命中，原稿0软件／Native。owner修正、8软件资格，8行双绑定原子cleanup采用；实机Native动作后异常＋连续LiveRecover无第二次Finish，存读档总数范围另列。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture419.json)。
+
+
+## 2026-11-05：Sway READ 发布边界与 SavedScheduler 新 DATA 方法完整交付，75–79 后到源审
+
+78 提供完整8份413259B（7Java+1实际WRITER_UNKNOWN JSON），只要求 owner D 两目标把同 writer READ 发布放在 qualification scope 外，实际 fresh override、Domain/child/refresh 前及 warm/cold final scope 后的边界都需成立。fixed3/DIRECT/max8000/thinkingfalse，13:10:13.111951→13:10:40.082512Z 真实1POST/1END，stop/HTTP200/DONE/JSONvalid，26.9702301秒、有效内容TTFT11.579391秒，reported89501+2720、cached=null。完整 UTF8 与实际8全文前缀均核对；源审全拒：anchored/default 路由、active scope 内 flush、冷路径遗漏及 child handoff 后才 flush，完整组件0采用/0literal/rawJVM0/noR2。[完整输入与成本](evidence/2026-11-05-http-sway-read-publication-boundaries-delivery.json)。
+
+79 提供完整21份742508B（16Java+5实际JSON），外部1008039B fixture manifest 只pin/path，现8d04旧方法、Fixture/DataArchive和读取预算保持，仅请求1个完整新无参 DATA 方法。max10000，其余协议相同，13:13:33.551926→13:14:04.245414Z 真实1POST/1END，stop/HTTP200/DONE/JSONvalid，30.6934488秒、TTFT23.2811665秒，reported181764+1306、cached=null。源审整方法拒收且不拼接：非法 ObjectNode.put/未限定类型，把 cycle head 当成真实 Stage/inputDomain，错误声称原件已settled，未完成完整不变性与恢复阳性。完整方法0/literal0/rawJVM0/noR2；owner 独立新增方法后到 source/qualification 只另列导航，本文未重新审 ACTUAL/XML，不能回授原稿。[原件pin与源审分账](evidence/2026-11-05-http-sway-saved-scheduler-data-test-delivery.json)。
+
+75–77 交付时采用待审的旧切点完整保留，后到正式源审另加：75 两个 bounded reason block 语义接受，但 owner 早已独立实施，literal/method0；76 anchored/with-parent/void Function/未接 actual override，完整组件拒；77 旧空stage profile回归、StageRecorded不能产Saved body及仍用current-ledger二参重放，双目标拒。77 review02 明确撤回 review01 对 witness.sequence()/previousHeadSha() 的错误质疑：这两项是实际合法 API，不能算模型错误。75–79 全部 literal/rawJVM/R2 为0，owner4TU50及新DATA验证另证；不能以 owner 最后通过给 raw 追认绿。
+
+三个具名77–79区间实际3POST/3END且互不重叠，客户端峰1；后继独立80也END后只读500COMPLETED/500RELEASED，86READY不是并发，当前源码在途0，后端/Runtime负载未采样。自有前缀checker旧TASK文件名误投影在写回执前停止，改两处元数据路径后核实完整现REQUEST，不属于模型输入错误或HTTP重试。本文0新HTTP/JVM/Game/GET及活跃参数改动；旧length整份未读未hash，WRITER_UNKNOWN/旧parent终态、私Root/Native/Writer、Runtime/LOOP/SAVE/G2/性能仍需各自真实证据。[正式review与更正、工具链成本及范围](evidence/2026-11-05-http-sway-formal-reviews75-79.json)。
+
+
+## 2026-11-05：Sway SavedBootstrap RUNNING 缺失接线，完整小输出仍未实现实际状态门
+
+独立80提供完整5份774303B（3actualJava+HEAD/Unknown两完整JSON），只要求在同一原action lease中保留strictSavedSway DATA角色，经既有PendingRole送到RUNNING OR；原legacyPending/旧Life/Save、零派发guard及所有后续history/Driver/canonical/source证明不动。真实故障是observer前RUNNING角色缺失；原zero guard拒changedhead正确，不能删门、宽收所有Unknown或重原parent。
+
+fixed3/DIRECT/max4000/thinkingfalse，13:26:42.902868→13:27:07.572937Z实际1POST/1END，HTTP200/DONE/stop/JSONvalid，24.6699466秒、TTFT23.0575882秒，reported179470+298、cached=null。5份实际全文与CONTENT=SSE核实，原件先交owner后audit/Git；finite80正常回收。源审整patch拒收：只把helper加到本已true的legacyPending，未把独立role穿过PendingRole并加到RUNNING OR，实际gate仍空；旧literal缩进也不匹配。完整method/literal/rawJVM/R2均0；owner在读raw前独立四span及型验另记，不追认原稿有效。
+
+后见只读500COMPLETED/500RELEASED、86READY非并发，当前source0；无下一真实完整源需求不造调用。298token小完整输出并不能说明集成正确，也不从本案推出预算/缓存/容量因果；旧length整份未读未hash。0本岗JVM/Game/GET或活跃参数变更，原parent终态/私Root权限/实际Runtime/LOOP/SAVE/G2/性能另证。[完整输入、原件pin、成本与正式拒收](evidence/2026-11-05-http-sway-saved-bootstrap-routing-delivery.json)。

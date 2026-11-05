@@ -1,0 +1,196 @@
+{
+  "schema": "local-model-operations.http-sway-followup-delivery/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T13:28:26.217350+00:00",
+  "task_id": "ordinary-sway-read-publication-boundaries-20261105-01",
+  "project": "CK3",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "input": {
+    "manifest_pin": {
+      "bytes": 3963,
+      "sha256": "74bec32b465b49f7c661e834846b377bf84583aeff8962003ae0dab8e5f1b6f2"
+    },
+    "contract_pin": {
+      "bytes": 2696,
+      "sha256": "a85e98a115c7bce77b8d64012c520c2e0029fd36c595cdfcac1ad1f0db473c58"
+    },
+    "full_files": 8,
+    "full_bytes": 413259,
+    "Java": 7,
+    "whole_private_actual_JSON": 1,
+    "all_files_full_in_actual_REQUEST": true,
+    "REQUEST_pin": {
+      "bytes": 425715,
+      "sha256": "b2d9b16d3f55c0f059189f2361bc39801b1895d3c79946b9064895f255812448"
+    },
+    "source_message_pin": {
+      "bytes": 412375,
+      "sha256": "8391e3144126e0910734a8355a3bb698a1ac0600b342e3d02c48e6fb8e6c981c"
+    },
+    "ordered_file_roles_and_pins": [
+      {
+        "role": "target_owner_warm_Executor_not_C_not_typed",
+        "bytes": 34410,
+        "sha256": "30f3d5209e2489d2c05f3bbc89b2f6543ad0cacf84b6f19b5c0264bcb69cff96",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "target_owner_warm_Installer_not_C_not_typed",
+        "bytes": 46937,
+        "sha256": "4e3ddfe0dd663ed39c674c657ab42936bb2dc5e04424dac558e3e2d29895ebea",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_NativeReadinessCollector.java",
+        "bytes": 119955,
+        "sha256": "5d34ff02c9694bb0e34d3f07eb4bad9054bdbf7bf61deb5e34b82c82e7a872a3",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_RootRuntimeContext.java",
+        "bytes": 29240,
+        "sha256": "a274ce6ddcaee756e033aecc545ddfb167ad7ee33135ea5f58e3a0c5f2a54dd2",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_DriverReadHistoryPublisher.java",
+        "bytes": 123683,
+        "sha256": "50a52e6c44b97546c6e6899df017617ab14b849a3b7a0a5da8ef3315d02f3c53",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_RootReadPublicationActions.java",
+        "bytes": 8675,
+        "sha256": "3586f90b6e39f4310fb7256ccc3cbc7379694c79c88b2b3525daa80cf87d4135",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_ReadPublicationAncestry.java",
+        "bytes": 6376,
+        "sha256": "f277502aea093794ff8cc251b9e9f299b5755b785d01aa492886d52702995967",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_batch14_WRITER_UNKNOWN",
+        "bytes": 43983,
+        "sha256": "8d4577966a14506814a9625c033383ffc313c869614108daeb16e2576e043e86",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ],
+    "frozen_owner_D_candidates_not_C_not_typed": true,
+    "later_owner_type_results_do_not_backfill_input": true
+  },
+  "precise_owner_guided_contract": "Only owner-D Executor and Installer warm candidates, not C/not typed at freeze. Same actual writer READ publication must be outside qualification scope before own Domain/child handoff/frame refresh and after warm/final work scope; actual fresh callback override and cold independentFinal publication required. Preserve1184, queue, custody, source, thread/session, Ancestry and original unknown parent. No finally fake flush, queue discard, lock clear or replay.",
+  "POST_BEGIN_UTC": "2026-11-05T13:10:13.111951+00:00",
+  "END_UTC": "2026-11-05T13:10:40.082512+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 8000,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "candidate_complete": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 11578.368699993007,
+  "effective_content_TTFT_ms": 11579.391000035685,
+  "total_ms": 26970.230100036133,
+  "reported_usage": {
+    "prompt_tokens": 89501,
+    "completion_tokens": 2720,
+    "total_tokens": 92221
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1296,
+    "sha256": "c2bd5300057fc2088c673eb5ec65c263d5b470f9d9cf63b9fff73ff8c0899c17"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 11532,
+    "sha256": "21f2bf866c82919d68d0d7fcbfd31c479a1e4ed6d1d0c1f361c3520d58c2c6b3"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_to_owner_before_audit_Git": true,
+  "formal_source_review": {
+    "source_review_pin": {
+      "bytes": 2323,
+      "sha256": "c3f111db90e885cb227b7adf0565dee3e34967662c2e6af9f08e99a1756b683d"
+    },
+    "status": "REJECT_WHOLE_BOUNDARY_COMPONENT_ZERO_ADOPTION",
+    "complete_CONTENT_pin_from_owner_review": {
+      "bytes": 11532,
+      "sha256": "21f2bf866c82919d68d0d7fcbfd31c479a1e4ed6d1d0c1f361c3520d58c2c6b3"
+    },
+    "RESULT_pin_from_owner_review": {
+      "bytes": 1296,
+      "sha256": "c2bd5300057fc2088c673eb5ec65c263d5b470f9d9cf63b9fff73ff8c0899c17"
+    },
+    "accepted_complete_methods": 0,
+    "literal_copied_bytes": 0,
+    "raw_JVM_compile_or_RUN": 0,
+    "R2": 0,
+    "meaning": "Whole boundary component rejected: anchored/default rather than real fresh override; flush remains inside active collector scope; cold independent-final outside flush missing; child flush after handoff. Owner independently wrote outside-scope same-writer publication."
+  },
+  "operations": {
+    "queue_states_at_later_readonly_closeout_after80_END": {
+      "dispatch.db": {
+        "COMPLETED": 500
+      },
+      "leases.db": {
+        "RELEASED": 500
+      }
+    },
+    "READY_records_not_concurrency": 86,
+    "source_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "same_day_OpenCode": "2026-11-05 successful1.19.5 cache reused",
+    "global_service_load": "NOT_HELD",
+    "Models_JVM_SDK_C_GET_Game": 0,
+    "active_caller_config_service_Runtime_changes": false,
+    "owner_active_time_net_savings": null
+  },
+  "limits": [
+    "Complete JSON and exact UTF8 evidence are transport facts, not correct source/API/guards or software success.",
+    "Owner input closure and diagnosed role/boundary guidance were explicit; no autonomous discovery claim.",
+    "All older length CONTENT/rawSSE remain whole unread/unparsed/unextracted/unhashed,0adoption/noR2.",
+    "No cache/context/output-capacity causality, permanently fixed ability boundary or net owner savings inferred.",
+    "No Root/Native/Writer issuance, actual parent terminal, readHistory recovery, Game/GET/Runtime/LOOP/SAVE/G2/performance credit."
+  ]
+}
