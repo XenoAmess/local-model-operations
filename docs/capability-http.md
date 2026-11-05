@@ -3773,3 +3773,15 @@ StorageGuard单对象和ordinary同boundCore scopeproof不授跨实例/process�
 随后正式全读源审认为提案语义可接受：fair单实例gate、等待前原快拒、原Windows TWR/work/TL/真close/suppressed后finally unlock保持，field在method前合法；oldspan原bytes0匹配、LF normalize1匹配。owner源码及必要9CF型验在完整raw审前已独立存在，whole/method/partial/literal/rawJVM/R2仍全0，不重复raw编译或追授代码采用。语义可接受与实际代码收益分账，原交付pending切点保；不授foreign mutex/具体holder/旧8/clean/P052getter或速度。
 
 只读516COMPLETED/516RELEASED、102READY非并发、source0，Nov06成功1.19.5缓存复用、0额外维护probe/本岗JVM/Game/GET/JFR/活跃参数改；无真实新源不造97，旧length含94全文/SSE保持未读未hash0采用/noR2，后到owner源/型/实际8completion/clean/P052/性能分层另证，不改原pending交付切点。
+
+
+
+## 2026-11-06：P059独立97/98与受测g0005 READY容量恢复
+
+97固定v2 Worker仅严格originalrequest→knownbasefailure→完整v1failure/精确Immutable理由/null链，v2多previousFailureRef全绑定/时序/路径/完整原件/fullreadCompletion复核；原v1成功/普通流程保持，既有v2failure终态无第三自动重试，不resetcachedfuture/新ID/覆盖原件/降四AND。98仅Episode immutable firstreview语义幂等：不同bytes须两完整原report/manifest/scan/binding/before/episode/incident及同published+canonicalfacts refs+bytes、分类一次不unresolved、footer全repin，保首index；oldafter=null不能强比laterafter，也不授materialeffect，actualAnalyzer/Docs完整上下文不改。两单元源齐真实独立，非互为R2/刷并发；8full63334B与10full159575B实际REQUEST全文核符。
+
+现有READY64896B/102旧历史条目，仅余640B触65536字节上限，原两metadata在READY前拒时0POST。复用原受测stopped-writer rollover：自然intake终态和旧finite dispatcher已drained，全102逐DB身份/detail终态+RELEASED+原receipt/metadata核，carry0，完整READY归档g0005后[]3B；两DB各516历史文件pin在operator步骤不变，claims/receipts/prepared/output未删，cap/caller/profile/端点不变。source专属STOP只在自然owner终态后新建并单件存档，不动Runtime/Game控制。原97/98metadata不改不republish，经同intake首次READY并由唯一existingrun_once并行发，各旧ID不重POST。
+
+98 20:10:09.988688→20:10:41.751401Z，31.7626808秒/有效TTFT8.0795306秒/reported41403+3768；97 20:10:10.304106→20:10:25.183530Z，14.8796993秒/TTFT7.7644017秒/22866+1060。各fixed3/DIRECT/max8000/thinkingfalse、1POST/1END/0retry/200stopDONEstrictJSONVALID，cached=null，CONTENT=SSE审计差异空；原件先交owner后audit/Git，交付采用待审/0rawJVM/noR2，不回授先存owner22CF或实际恢复。[完整合同/输入pin、容量逐条证明与成本](evidence/2026-11-06-http-p059-pair97-98-ready-g0005.json)。
+
+客户端峰2仅重叠14.879424秒，当前source0，非服务全局；intake终态确认capdefer的20:06:11.202612切点→首POST下界238.786076秒为准备/协调墙钟，实际更早defer与完整准备起点未重建，不计HTTP/TTFT/CPU/节时，不挡P059实际恢复。只读518COMPLETED/518RELEASED、g0005当前2READY非并发，旧102READY及全部DB历史完整保留。Nov06成功1.19.5缓存复用、0维护probe/本岗JVM/Game/GET/JFR/活跃参数改，无真实新源不造99；旧length含94正文/SSE持续未读未hash0/noR2，owner源/型/旧8/clean/P052及实机性能各自另证。
