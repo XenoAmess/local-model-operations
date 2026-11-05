@@ -1,0 +1,278 @@
+{
+  "schema": "local-model-operations.http-sway-anchored-owner-typed-posthoc/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T11:32:38.253352+00:00",
+  "task_id": "ordinary-sway-anchored-stage-current-planning-20261105-01",
+  "old_source_record": "2026-11-05-http-sway-anchored-planning-rejected-source.json",
+  "model_adoption": {
+    "whole_newmethod": 0,
+    "literalcopy": 0,
+    "partialmethod": 0,
+    "raw_JVM": 0,
+    "R2": 0,
+    "source_rejection": "onearg lease callback against supplied actual twoarg PlanningWork, separate from later owner compile error"
+  },
+  "owner_first_RED": {
+    "record_pin": {
+      "bytes": 3696,
+      "sha256": "ef3f75686181f79e0ed4b148133c2f51ac000eafc4403baad6540085589f94bc"
+    },
+    "cause": "SwayRuntimeInstaller.java:408 catch InterruptedException invalid: new captureCurrent try body cannot throw InterruptedException; existing captureFresh unchanged",
+    "source_ready01_immutable": true,
+    "partial_Executor9_qualified_or_reused_as_green": false,
+    "phase": {
+      "ACTUAL_pin": {
+        "bytes": 1726,
+        "sha256": "750c8bb850b6e755855e52b42f6e6f7676111e3f32189e8f000dc5daa4c89b8c"
+      },
+      "OUTPUTS_pin": {
+        "bytes": 41549,
+        "sha256": "5e53a41b65addd408960ae4938c0b9f403f217a485eec35878536750c9c4e474"
+      },
+      "close_pin": {
+        "bytes": 237,
+        "sha256": "b18d9bd9d5cd5a4c322be31f8a60cc9ef1d6c75e457af6d400be3591b42bba23"
+      },
+      "fence_pin": {
+        "bytes": 1125,
+        "sha256": "6c5c92bafe4aebc12b5b7e73cdd274313d6d0a0237b669598d1da3351de40c4e"
+      },
+      "exit_code": 1,
+      "compiler_seconds": 13.056999199965503,
+      "classes": 9,
+      "close_result": 1,
+      "fence_durable": true,
+      "held": false
+    },
+    "cost_owner_not_raw_model": true
+  },
+  "owner_fix02": {
+    "record_pin": {
+      "bytes": 1248,
+      "sha256": "61164b8f73c8ce9d825ff8dcde8b59abb975d745997a03701f5c322ba18aab1c"
+    },
+    "scope": "Remove only the new held callback InterruptedException catch. Existing captureFresh InterruptedException handling remains byte exact.",
+    "no_guard_or_original_fresh_callback_change": true,
+    "source_ready02_pin": {
+      "bytes": 4603,
+      "sha256": "ec564d5ed4d211b040a069a41f04739f0a50c28ca49325e2cee2806944cad19b"
+    },
+    "sources": [
+      {
+        "before": {
+          "bytes": 31848,
+          "sha256": "98e3f23c54bb61588123a89f93abb00829a4647df2104162da526bffd9124e50"
+        },
+        "candidate": {
+          "bytes": 32917,
+          "sha256": "6f120b3610e84404282b827c79bd699863b56c5c1e8275462f2558f854c62fbf"
+        },
+        "whole_outside_inverse_exact": true
+      },
+      {
+        "before": {
+          "bytes": 43327,
+          "sha256": "432cf2de9c2237bed6b668a01f68d7889710df4b629a2ec64b3fd64173f7e3a1"
+        },
+        "candidate": {
+          "bytes": 45188,
+          "sha256": "b09ab24064eda49f4a1055f05777068b766fad7047e86aacf80ce20fca8b9a6f"
+        },
+        "whole_outside_inverse_exact": true
+      }
+    ]
+  },
+  "owner_qualified02": {
+    "record_pin": {
+      "bytes": 19808,
+      "sha256": "21eac0f395b8027807afb8b6ab8a9d21b9e87a90b46094af9b6960ac3a900d7c"
+    },
+    "shape_pin": {
+      "bytes": 364378,
+      "sha256": "8300941984a128b60c0c27aeb22b056301d9cd4b6d57b8c54bde6aa4bd006cd1"
+    },
+    "new_TUs": 2,
+    "classes": 19,
+    "compiler_seconds": 8.06323730002623,
+    "phase": {
+      "ACTUAL_pin": {
+        "bytes": 1723,
+        "sha256": "46d2dca0b49f0ef50e6dbb943e5bdc5e139ffc2ddb24722d6a0cde4fa4a4ea70"
+      },
+      "OUTPUTS_pin": {
+        "bytes": 88543,
+        "sha256": "212e57385cc8f787c7c67127aeaad535313aae96554d750f0ab064562a699ee1"
+      },
+      "close_pin": {
+        "bytes": 237,
+        "sha256": "ee6fdd87ba8c256b6897a381d443af65029593538ed67eb244d6777e5ca15085"
+      },
+      "fence_pin": {
+        "bytes": 1126,
+        "sha256": "7d0034ee09c46fc598f47b063c3fa3e25c564fca28095a2ca520b2a6008c8716"
+      },
+      "exit_code": 0,
+      "compiler_seconds": 8.06323730002623,
+      "classes": 19,
+      "close_result": 0,
+      "fence_durable": true,
+      "held": false
+    },
+    "same_class_names": true,
+    "equal_structures": 15,
+    "changed_structures": 4,
+    "all_equal": false,
+    "new_named_classes": 0,
+    "structure_changes": [
+      {
+        "name": "org/xar/ck3/control/application/planning/sway/SwayOrdinaryExecutor",
+        "changed_keys": [
+          "fields",
+          "methods"
+        ],
+        "added_fields": [
+          {
+            "name": "currentPlanning",
+            "descriptor": "Lorg/xar/ck3/control/application/planning/sway/SwayOrdinaryExecutor$CurrentPlanning;",
+            "flags": 18,
+            "signature": null
+          }
+        ],
+        "added_non_synthetic_methods": [
+          {
+            "name": "<init>",
+            "descriptor": "(Lorg/xar/ck3/control/application/planning/sway/SwayCanonicalDomain;Lorg/xar/ck3/control/application/action/ActionPorts$OutcomeArchive;Lorg/xar/ck3/control/application/action/PlanningReadPort;Lorg/xar/ck3/control/application/planning/sway/SwaySharedRoot;Lorg/xar/ck3/control/application/planning/sway/SwayActionLifecycle$RegisteredReads;Lorg/xar/ck3/control/application/planning/sway/SwayRootActions;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Lorg/xar/ck3/control/application/planning/sway/SwayOrdinaryExecutor$CurrentPlanning;Lorg/xar/ck3/control/application/planning/sway/SwayOrdinaryExecutor$CurrentPlanning;Lorg/xar/ck3/control/application/planning/sway/SwayOrdinaryExecutor$IndependentFinal;Lorg/xar/ck3/control/application/planning/sway/SwayOrdinaryExecutor$ActualRestoration;Ljava/util/function/Supplier;)V",
+            "flags": 1,
+            "signature": "(Lorg/xar/ck3/control/application/planning/sway/SwayCanonicalDomain;Lorg/xar/ck3/control/application/action/ActionPorts$OutcomeArchive;Lorg/xar/ck3/control/application/action/PlanningReadPort;Lorg/xar/ck3/control/application/planning/sway/SwaySharedRoot;Lorg/xar/ck3/control/application/planning/sway/SwayActionLifecycle$RegisteredReads;Lorg/xar/ck3/control/application/planning/sway/SwayRootActions;Ljava/util/function/Supplier<Lorg/xar/ck3/control/application/action/RootExecutableBindings;>;Ljava/util/function/Supplier<Lorg/xar/ck3/control/continuity/writer/ContinuityStorePort$Session;>;Lorg/xar/ck3/control/application/planning/sway/SwayOrdinaryExecutor$CurrentPlanning;Lorg/xar/ck3/control/application/planning/sway/SwayOrdinaryExecutor$CurrentPlanning;Lorg/xar/ck3/control/application/planning/sway/SwayOrdinaryExecutor$IndependentFinal;Lorg/xar/ck3/control/application/planning/sway/SwayOrdinaryExecutor$ActualRestoration;Ljava/util/function/Supplier<Lorg/xar/ck3/control/application/planning/OrdinaryPlanner;>;)V"
+          }
+        ],
+        "before_synthetic_methods": 6,
+        "after_synthetic_methods": 6,
+        "all_existing_non_synthetic_methods_retained": true,
+        "attribute_delta": {}
+      },
+      {
+        "name": "org/xar/ck3/control/service/sway/SwayRuntimeInstaller",
+        "changed_keys": [
+          "class_structure",
+          "fields",
+          "methods"
+        ],
+        "added_fields": [
+          {
+            "name": "originalPlanning",
+            "descriptor": "Lorg/xar/ck3/control/application/planning/PlanningRequest;",
+            "flags": 66,
+            "signature": null
+          }
+        ],
+        "added_non_synthetic_methods": [
+          {
+            "name": "captureCurrent",
+            "descriptor": "(Lorg/xar/ck3/control/application/action/ActionCommand;)Lorg/xar/ck3/control/application/planning/sway/SwayOrdinaryExecutor$Fresh;",
+            "flags": 2,
+            "signature": null
+          }
+        ],
+        "before_synthetic_methods": 16,
+        "after_synthetic_methods": 17,
+        "all_existing_non_synthetic_methods_retained": true,
+        "attribute_delta": {
+          "InnerClasses": {
+            "removed": [],
+            "added": [
+              [
+                "org/xar/ck3/control/application/readiness/NativeReadinessCollector$PlanningWork",
+                "org/xar/ck3/control/application/readiness/NativeReadinessCollector",
+                "PlanningWork",
+                1545
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "name": "org/xar/ck3/control/service/sway/SwayRuntimeInstaller$OrdinaryConfiguration",
+        "changed_keys": [
+          "class_structure"
+        ],
+        "added_fields": [],
+        "added_non_synthetic_methods": [],
+        "before_synthetic_methods": 0,
+        "after_synthetic_methods": 0,
+        "all_existing_non_synthetic_methods_retained": true,
+        "attribute_delta": {
+          "InnerClasses": {
+            "removed": [
+              [
+                "org/xar/ck3/control/application/planning/finance/FinanceReadContracts$Packet",
+                "org/xar/ck3/control/application/planning/finance/FinanceReadContracts",
+                "Packet",
+                25
+              ]
+            ],
+            "added": []
+          }
+        }
+      },
+      {
+        "name": "org/xar/ck3/control/service/sway/SwayRuntimeInstaller$SharedRootSelection",
+        "changed_keys": [
+          "class_structure"
+        ],
+        "added_fields": [],
+        "added_non_synthetic_methods": [],
+        "before_synthetic_methods": 0,
+        "after_synthetic_methods": 0,
+        "all_existing_non_synthetic_methods_retained": true,
+        "attribute_delta": {
+          "InnerClasses": {
+            "removed": [
+              [
+                "org/xar/ck3/control/application/planning/finance/FinanceReadContracts$Packet",
+                "org/xar/ck3/control/application/planning/finance/FinanceReadContracts",
+                "Packet",
+                25
+              ]
+            ],
+            "added": []
+          }
+        }
+      }
+    ],
+    "normal_loader_required": true,
+    "body_redefinition_qualified": false,
+    "new_or_old_Test_RUN": false,
+    "production_Test_Support_other_recompile_or_RUN": 0
+  },
+  "owner_business_publication": {
+    "receipt_pin": {
+      "bytes": 2188,
+      "sha256": "0f5a0749d2c98e1529e2c805b9fe81d6a270ec468ba4c3bc64b1f3bb8221b79d"
+    },
+    "commit": "3ac58b0c28441666f7540ddd985ce2c84af893e3",
+    "owner_reports_remote_exact_clean": true,
+    "formal_projection_pin": {
+      "bytes": 8257,
+      "sha256": "ac7e7e668a77a7f72d83c860b44b5fccb1cad828f2181137d3b9783a3550e8db"
+    },
+    "scope": "Owned formal spans preserve their own outside bytes; actual frozen typed cohort is separate, no full formal combination software/Runtime credit. Models read named receipt, not business Git or Game."
+  },
+  "verification": {
+    "named_unique_pins": 85,
+    "both_compile_exit_close_values_preserved": [
+      1,
+      0
+    ],
+    "both_fenced_terminal_released": true,
+    "no_new_JVM_or_source_execution": true
+  },
+  "no_model_software_backcredit": true,
+  "Models_JVM_SDK_C_GET_Game": 0,
+  "limits": [
+    "No new JUnit case or actual private planning/Root positive",
+    "Owner source01 exception catch compiler red retained independently from raw71 rejection; final02 successful coherent2TU recompile only",
+    "Same19 class names do not mean all structures equal; fields/constructor/method and InnerClasses metadata deltas require normal loader, no hot redefine promise",
+    "Runtime44/45/46, original545/current546/future actual execution, LOOP/day/SAVE/G2/performance remain separately owned actual evidence"
+  ]
+}

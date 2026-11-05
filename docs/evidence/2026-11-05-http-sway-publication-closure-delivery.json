@@ -1,0 +1,173 @@
+{
+  "schema": "local-model-operations.http-sway-publication-closure-delivery/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T11:32:38.253352+00:00",
+  "task_id": "ordinary-sway-publication-producer-closure-roles-20261105-01",
+  "project": "CK3",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "input": {
+    "manifest_pin": {
+      "bytes": 2993,
+      "sha256": "03bf3f991115169c2d3cb7c3f8fb49350b203614bed3aa360540328aaa730204"
+    },
+    "task_pin": {
+      "bytes": 3442,
+      "sha256": "5e8e18bcaa3d11a81e7c007645005724b5e9efd19c64bae89461a99be35f96c5"
+    },
+    "full_files": 6,
+    "full_bytes": 292280,
+    "current_actual_Java": 4,
+    "whole_private_event_JSON": 2,
+    "all6_full_in_actual_REQUEST": true,
+    "REQUEST_pin": {
+      "bytes": 325313,
+      "sha256": "2cd99b8095b61564a9a4fed2a669829ea748dd99ede82ff326036f5f8dd6eba0"
+    },
+    "source_message_pin": {
+      "bytes": 294051,
+      "sha256": "90cfca8f29da190a4116c6ffd29895a01d55f1d2840c01987e3dd94d8caef479"
+    },
+    "files": [
+      {
+        "role": "target_actual_Domain",
+        "bytes": 60612,
+        "sha256": "1f44436583cb736ec94f2c3ed13b768c033131d86a783e09e640c65a1f6c73e0",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_BodyRef_roles",
+        "bytes": 9404,
+        "sha256": "d9c9ed76f9e3ed31ed0c436c2452b4e096dc5b311653fc78ae44b6e657ca7f32",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_Writer_DATA",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_ContinuityState",
+        "bytes": 7614,
+        "sha256": "a506aec4e6ea48d199bce0c7037e1d32b1864b14f2af82c7807e243ff3f8d6a7",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_previous_event",
+        "bytes": 90537,
+        "sha256": "b3a60a36204cd1fdc671b23e6df0fea7649d9c39128d498260b216b64ff0a99a",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_committed_publication",
+        "bytes": 105957,
+        "sha256": "70455ebef102846c4292fde404c54eb6f337e46b724876735ffa4f87453b1034",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ],
+    "navigation_difference": {
+      "owner_message_task_bytes": 3436,
+      "owner_message_task_sha_prefix": "1ee4448c",
+      "canonical_manifest_and_actual_task_bytes": 3442,
+      "canonical_manifest_and_actual_task_sha256": "5e8e18bcaa3d11a81e7c007645005724b5e9efd19c64bae89461a99be35f96c5",
+      "resolution": "Exact owner-transferredmanifest03bf andactualtask agree. Usecompletecanonicalcontract, noACKbarrier/sourcechange/R2."
+    },
+    "draft01": "never dispatched, only new first request"
+  },
+  "owner_precise_contract": "Only Domain private verifyPublication boolean currentPublication plus three callers: commitScoped=true; verifySchedulerCompleted/savedScheduler=false. Always input equality and complete original event/result producer closure equality. Live additionally current installed closure. Cold historical full event/result closure with exact full historical predecessor BodyRef bound by original state/sequence/digest equality; not historical/current-code comparison. Preserve all canonical membership, hashes, full after, actual sources/session/native/reducer/endpin verification. No newtype/publicAPI/field, historical-code scan or stage-only recovery.",
+  "guidance": "Owner already diagnosed and specified exact source roles/algorithm; no autonomous model discovery claim.",
+  "POST_BEGIN_UTC": "2026-11-05T11:28:15.542123+00:00",
+  "END_UTC": "2026-11-05T11:28:44.984480+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 5000,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "candidate_complete": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 14883.682399988174,
+  "effective_content_TTFT_ms": 14885.066799994092,
+  "total_ms": 29442.095499951392,
+  "reported_usage": {
+    "prompt_tokens": 116745,
+    "completion_tokens": 2669,
+    "total_tokens": 119414
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1305,
+    "sha256": "2a16892e1ced6ac9d8c8133e0e9768e0108dc7af367e78de7aebfda64be56e5d"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 11120,
+    "sha256": "a8d28522c900fcfb30f7696e9cc0557e2cae16233810e539c00f5137a2eef21a"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_before_audit_Git": true,
+  "adoption_at_delivery_cut": {
+    "complete_owned_patch_or_method": "PENDING_OWNER_REVIEW",
+    "literal_or_partial_code": "PENDING_OWNER_REVIEW",
+    "raw_JVM": 0,
+    "R2": 0
+  },
+  "operations": {
+    "queue_states_readonly": {
+      "dispatch.db": {
+        "COMPLETED": 492
+      },
+      "leases.db": {
+        "RELEASED": 492
+      }
+    },
+    "READY_records_not_concurrency": 78,
+    "source_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "same_day_OpenCode": "1.19.5 successful cache reused",
+    "global_service_load": "NOT_HELD",
+    "Models_JVM_SDK_C_GET_Game": 0,
+    "active_caller_config_service_Runtime_changes": false,
+    "owner_active_time_net_savings": null
+  },
+  "no_credit": [
+    "semantic/source pass from stop or byte audit",
+    "software or actual canonical cold/live positive",
+    "stage-only unknown recovery, reexecute, saved scheduler or cleared active_stage",
+    "private Root/Native authority, GET, Game, LOOP, day, SAVE, G2 or performance"
+  ],
+  "all_old_length_CONTENT_rawSSE": "whole unread/unparsed/unextracted/unhashed/noR2"
+}

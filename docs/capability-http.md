@@ -3403,3 +3403,12 @@ owner源审认可anchored/current与laterfresh、旧构造兼容及earlyBaseline
 414完整stop/DONE/VALID，但173行补丁不可应用且语义有缺陷；0原稿产品安装／游戏执行。owner接管75，实际多阶段回归旧版失败、新版17方法通过，完整1048项通过；只读74军队接口资格不授75实机通过。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture414.json)。
+
+
+## 2026-11-05：Sway live/cold 发布闭包角色候选交付与前单元 owner 型验后见
+
+新72只改Domain private参数+3caller+closure，6份完整292280B（4actualJava+552/553全事件）逐文件核实际REQUEST。live保installed producer闭包，cold保历史event/result同源和完整predecessorRef，不拿当前Domain代码自拒旧提交；不授stage恢复/GET。fixed3/DIRECT/max5000/thinkingfalse，11:28:15.542123→11:28:44.984480Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，29.4420955秒、有效内容TTFT14.8850668秒，reported116745+2669、cached=null，CONTENT=SSE审计无差异。canonicalReady02 03bf与实际TASK02 3442/5e8e一致；消息旧3436/1ee4仅导航笔误，draft01未派，本次唯一首次不等ACK。源码采用待owner，0rawJVM/noR2。[交付切点](evidence/2026-11-05-http-sway-publication-closure-delivery.json)。
+
+前71 raw整方法拒0literalcopy仍保。owner独立01先真实2TU compiler1/13.0569992秒，非法新增InterruptedException catch，Executor9部分产物不授绿/未借用；只删该新catch的02完整2TU再编0/19class/8.0632373秒。首close1与最终close0分别保留，两轮fence/terminal/释放均真闭；没有新Test或旧绿重跑。19名称一致但15结构相等、4差异，保新增field/ctor/captureCurrent及InnerClasses变化，正常loader必需，不授原地body重定义。业务3ac58b0c正式发表为owner具名回执，actual与formal outside各自保；不回授raw软件绿/Root/Runtime。[RED、修正、typed与正式分账](evidence/2026-11-05-http-sway-anchored-owner-typed.json)。
+
+只读492COMPLETED/492RELEASED，78READY不是并发，源码在途0。文档后见未另发模型请求、运行JVM/Game或改活跃参数；private历史/实时恢复、LOOP/SAVE/G2/性能仍另证。
