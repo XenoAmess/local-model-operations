@@ -3024,3 +3024,10 @@ max5000、固定三消息/DIRECT，1POST1END、HTTP200/stop/DONE/有效JSON，12
 [Future正式review e042与owner源码](evidence/2026-11-05-http-incident-canonical-future-test-owner-source.json)补原pending：两个新增完整方法均拒收0，只原合同预指定的两条旧expectation规范args表达式机械partial；完整方法、新方法逻辑及既有fixture/golden不授模型贡献。原稿compound var、JsonNode调用、未定义helper、未authored rawlegacy却期待canonical before产raw、成功后断言无after、异常分类/冲突case与source builder错误均为源审，非实际javac/JUnit红。owner Test29005/e11c新两方法与DATA helpers自行实现；独立移除14417B addition并逆换两expression后还原原14480B/ec2f。该source切点未持Test编/RUN，后到实际资格分记，不回授原38.0309秒完整raw、不R2。
 
 [全新v1 offline consumer首派](evidence/2026-11-05-http-incident-legacy-offline-consumer-candidate.json)输入4完整Java68451B+2privateDATA12292B+完整API6734B，7份全文实际核入REQUEST；仅OfflineScanSource strict after-v3 side-evidence，新binding字段/ref/SHA/identity/空policyreceipt与旧v1/v2/库存边界均须保，Root/Journal主叶及发行权限不在此下层实现。fixed3/DIRECT/max4000/thinkingfalse，1POST1stop，17.1018542秒/有效TTFT2.8616265秒、21630+2492tokens/cachednull；10590B raw先交Java，随后CONTENT=SSE/0discrepancy。即时交付切点待源审，不授采用、软件、Rootauthority或旧521恢复；467终态/467租约释放/0源码在途，finite47正常closed/caller0，0JVM/C/UI/GET/Game/参数变更、无实际payload公开。完整owner主动成本与净节省未知。
+
+
+## 2026-11-05：Future Journal owner 新2P与受影响4P后见
+
+[Native f51fb2完整资格](evidence/2026-11-05-http-incident-canonical-future-test-owner-software.json)补先前source-only切点：owner Test29005/e11c必要changed1TU3class首0/5.9611203秒，新2P/JVM7.8372551秒/XML5.864，affected原4P/JVM7.1167761秒/XML5.052；两组方法与XML d56d/66fd、三个classpin、phase原件独核，stderr0/close0/fence/released。finalprod02 d1f9/73cc/85e6既有14family资格复用，未重编production/support；3352B gzip原件与隔离route字节一致，旧strict521Probe未重跑。
+
+模型仍只原合同指定的两条旧expectation canonical-args表达式机械partial，两个新增方法及其新逻辑0采用；新两Test/authoredLegacyDATA/helpers均owner完成，旧privatefixture/golden不算模型贡献。原38.0309秒/TTFT8.112301秒与完整raw保、不R2，不把owner编测回授模型整方法。软件范围仅futurecapture与strict两表示DATA组件，authoredlegacy不是历史producer或旧521，原v1 strictProbe1F及现场恢复另证；0Root/privateissuer/Runtime装载/Game/SAVE/G2/提速资格。此纯后见0新HTTP/JVM/C/Game，旧切点不改、完整owner主动成本与净收益未知。
