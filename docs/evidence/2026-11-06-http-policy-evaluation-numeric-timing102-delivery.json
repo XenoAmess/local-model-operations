@@ -1,0 +1,206 @@
+{
+  "schema": "local-model-operations.http-policy-evaluation-numeric-timing-delivery/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T22:47:04.400688+00:00",
+  "project": "CK3",
+  "task_id": "ordinary-policy-evaluation-numeric-timing-20261106-01",
+  "input": {
+    "manifest_revision": "Inputs02 final first; no earlier01 POST",
+    "manifest_pin": {
+      "bytes": 5192,
+      "sha256": "0108ceab005d7805485f3042ccd9d65f175f6bdafc64a910af78b7fb14679542"
+    },
+    "full_Java_files": 4,
+    "full_Java_bytes": 48182,
+    "target_Java": 3,
+    "context_Java": 1,
+    "actual_stage_ordinals": 34,
+    "complete_contract_pin": {
+      "bytes": 3797,
+      "sha256": "a2a8a9f2d6c72caae0a060fc317fc44b6d97569499f31761b20e7bd07de71b5f"
+    },
+    "contract_bytes": 3797,
+    "Java_plus_contract_bytes": 51979,
+    "all4_full_Java_in_actual_REQUEST": true,
+    "complete_original_contract_exact_message3": true,
+    "REQUEST_pin": {
+      "bytes": 55095,
+      "sha256": "ea6040f9b32f8192368aa92697308a008dd37a977ef2f0ea47e4237a0c231341"
+    },
+    "source_message_pin": {
+      "bytes": 49551,
+      "sha256": "c62a9c6d01c32c61380d74e06c4219a66e61c40ab7e7d391321c83cf46302a48"
+    },
+    "ordered_roles_and_pins": [
+      {
+        "role": "target_current_Plannerf07fb0",
+        "bytes": 22346,
+        "sha256": "f07fb0fe2622fa1f00b9dd9fbc3f9e9a920ec86f7dc9ad7e45a21b1bfe19d063",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "target_current_PlanCompletion10b45",
+        "bytes": 4866,
+        "sha256": "10b45fc99df5584d3db74ef47013281934b6b9d2c9be0a688f92e66c7e298cc8",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "target_current_RootCompletion9e82",
+        "bytes": 19910,
+        "sha256": "9e82032ebfa8bb359f5b775823331465700c9e8c26fd601271b0ce6645885a81",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "context_actual_PlanningStage34",
+        "bytes": 1060,
+        "sha256": "088a854a250c248bf68f0d08a44c317996880a21d01363e25d908712f4b9130d",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ],
+    "targets": [
+      "currentPlannerf07fb0_notoldbd5",
+      "currentPlanCompletion10b45",
+      "currentRootCompletion9e82"
+    ],
+    "PlanningStage088a8_context_only": true
+  },
+  "owner_precise_contract": {
+    "scope": "P052/P068 nextinclusivepolicy.evaluate wall timing only, not P067Guard/pause/UI/Writer/Controller/Native/action/READ/permission/newnamedtype/record/dependency changes.",
+    "API": "Numeric-only default no-op OrdinaryPlanCompletion.policyEvaluationTiming(int stageOrdinal,long elapsedNanos,boolean returned); all oldcompletion/nesteddeclarations exact. Optionalexistingcompletion threadedplanScoped→planBound→privateState, no newauthority.",
+    "Planner": "Onlypresentcompletion wrapsactualsinglepolicy.evaluate(request,draft) withnanoTime/finallyoncecallback(stage.ordinal), suppressallThrowable fromdiagnosticcallbackonly. Absentcompletion originaldirectcall. Rawreturnnull countsnormalreturned beforeold Objects.requireNonNull; originalRuntimeException/Erroridentity/suppressed/interrupt/realm/cancel/order/earlyexits/legalMaterialization/select unchanged. No evaluate duplication/getters/guards.",
+    "Root": "Existing same-threadPlanningRound numericdata only, long14tail+3cellsperactual34ordinal entered/rawnormalreturned/inclusiveelapsed. Oldwork/flush/premodel/replan cells/methods preserved, no downstreamdiagnosticforward/IO/guard/Sessionexposure.",
+    "summary_gate": "Existing singlelog onlyentrywithoutwriterscope and actualCore normalreturnafterphysicalclose; inheritedscope/Core/closefailure zero summaries. Addvisitedstagesnumeric rows ordinal/enter/return/failed=entered-return/elapsed only; oldschema/methodfields andoneoutside-locksummary preserved. LoggerThrowablebest-effort nointerruptclear/addSuppressed. Fullcurrentenum worstnumericpayload mustfit local8192canonicalcap, no globalbudgetchange.",
+    "measurement_limits": "Inclusive nested wall, notCPU or summableintoownscope/total latency. Workincludesobservation/planning notonepolicy. Separate3.306sobservedHTTPsample is not all modelcost. No speedup/SAVE/Rootrecovery/livebehavior claim."
+  },
+  "guidance": "Root+Java owner supplied actualcurrent3leaf/34stage API/exactnumeric/failure semantics; not autonomous hotspot diagnosis. Owner initialmanifest implementationNOT_YET_WRITTEN preserved; later ownerReady6ef232/11spans/cap6211<8192 reportedbeforefullrawhandoff, necessary3TU/source review independent and not modelcredit.",
+  "POST_BEGIN_UTC": "2026-11-05T22:42:37.709791+00:00",
+  "END_UTC": "2026-11-05T22:42:57.802288+00:00",
+  "local_day_POST_END": "2026-11-06",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 10000,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "candidate_complete": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 1709.6227000001818,
+  "effective_content_TTFT_ms": 1710.4481999995187,
+  "total_ms": 20092.42100000847,
+  "reported_usage": {
+    "prompt_tokens": 11118,
+    "completion_tokens": 3313,
+    "total_tokens": 14431
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1274,
+    "sha256": "326e47bf21a02186a365ddce1df684c5e7740bba41ece4a468e18bbd0e8cb674"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 15406,
+    "sha256": "aa3aebd658fd45e1781a188a6f56664fb89dbd776ef7770bd2f308c48fac99f2"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_before_audit_Git": true,
+  "source_adoption_at_delivery_cut": {
+    "status": "PENDING_OWNER_REVIEW",
+    "whole_method_span_literal_partial": "PENDING",
+    "raw_JVM_compile_or_RUN": 0,
+    "R2": 0
+  },
+  "operations": {
+    "readonly_queue": {
+      "dispatch.db": {
+        "COMPLETED": 522
+      },
+      "leases.db": {
+        "RELEASED": 522
+      }
+    },
+    "READY_g0005_records_not_concurrency": 6,
+    "source_HTTP_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "daily_OpenCode": "Nov06actualsuccess1.19.5from87cache reused/noextraexplicitprobe",
+    "global_service_load": "NOT_HELD",
+    "Models_JVM_SDK_C_GET_Game_JFR_stockIO": 0,
+    "business_model_decision_HTTP": 0,
+    "active_caller_config_service_Runtime_changed": false,
+    "owner_net_active_time_savings": null
+  },
+  "limits": [
+    "Complete transport/JSON/audit does not prove exactcurrentoldspans/API/onlyactualevaluate/finally/nullcount/noCompletiondirectpath/oldfailuresemantics or realownscopephysicalrelease summarygate.",
+    "No rawtype/software/stage timings/inclusivework attribution/CPU/performance/Runtime/Game/SAVE/G2 proof; ownerindependentReady/qualification/actualadoption separate.",
+    "Alllength including94/99/101 CONTENT/rawSSE wholeunread/unparsed/unextracted/unhashed0adopt/noR2; lowTTFT notcache/context/servicecapacity proof, cachednull/peerUNKNOWN remainunknown."
+  ],
+  "subsequent_formal_source_review": {
+    "review_pin": {
+      "bytes": 4174,
+      "sha256": "41a0c02a4c2a948fc0289d6915cc94e66f112228211c557aeea402e623d81ecf"
+    },
+    "review_at_utc": "2026-11-05T22:45:34.707588+00:00",
+    "decision": "REJECT_ALL_NO_CODE_ADOPTION",
+    "parsed_changes": 9,
+    "old_span_LF_normalized_occurrences": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "concrete_reasons": [
+      "Planner sets returned=true after Objects.requireNonNull(policy.evaluate(...)), so raw null normal return is misclassified as a thrown call; this violates the explicit raw-return contract.",
+      "Root adds STAGE_COUNT = PlanningStage.values().length without importing or fully qualifying PlanningStage in the supplied current Root source. This is a source declaration error, not an actual compiler result.",
+      "The Root logger old span joins emitted_at_epoch_ms and scope_elapsed_ns on a line that the actual current source splits. That whole old span is not found even after newline normalization, so the coherent patch cannot apply as emitted."
+    ],
+    "semantics_agreed": "Numeric default callback, per-stage counters and the existing outside-lock summary direction are relevant, but the whole candidate fails exact application, name resolution and raw-return requirements.",
+    "adoption": {
+      "whole_files": 0,
+      "methods": 0,
+      "partial_spans": 0,
+      "literals": 0,
+      "model_raw_JVM": 0,
+      "retry_or_R2": 0
+    },
+    "owner_independent_ready_pin": {
+      "bytes": 5635,
+      "sha256": "6ef2328b575bde422c5a2448793d5888b449868d3ab2d2d981c7371cec796599"
+    },
+    "owner_status_at_review": "Independent owner source existed and had source PASS and a necessary strict three-TU compile exit0/20CF. No model text is copied into that candidate.",
+    "owner_compile_elapsed_seconds_reported_by_Java": 5.6688,
+    "Models_independent_owner_software_reaudit": false,
+    "scope": "No loaded behavior, stage durations, performance improvement, P067 action or permission is granted.",
+    "classification": "Complete-stop source application/name-resolution/raw-return rejection, not an actual rawcompiler/JUnit RED. Allmodelcode/partial/rawJVM/R2 zero; ownerindependent3TU20CF qualification notrawcredit.",
+    "delivery_pending_cut_preserved": true
+  }
+}

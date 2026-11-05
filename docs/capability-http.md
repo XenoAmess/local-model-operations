@@ -3853,3 +3853,17 @@ fixed3/DIRECT/max8000/thinkingfalse，21:26:47.319034→21:27:36.567425Z真实1P
 447/448canonical stop/DONE/VALID，复用Nov6成功维护缓存，0新OpenCode/0rawNative/product。独立低gold139实际69.753<100、缺额且FieldCannonnative合法，连续2SewerBUILD/0unit，项目真实完成，清exactwrapper/3events后恢复main148CoreUI一致。447各类helper/键/计数/窗口错拒，448伪queued0/foreignread/漏替代拒；owner11例、events8复用。累计through448448/417/28/3 HTTP478/extra30，未知缓存/人工节时null；449资源任务另记。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-military448.json)。
+
+
+
+## 2026-11-06：Source102 P052下一层policy.evaluate纯数值timing候选
+
+102是实际未完P052/P068三叶任务，非100/101重投，也不是P067Guard/pause。Inputs02 currentPlannerf07fb0（非旧bd5）/PlanCompletion10b45/RootCompletion9e82三目标+actualPlanningStage088a8全文4Java48182B，完整3797B原合同逐字message3，实际REQUEST全核；34ordinal当前枚举保。只defaultnumericnoop callback+presentOptional下单次原evaluate nanoTime/finally诊断，rawnull仍算normalreturned，原requireNonNull在外、absentcompletion直接旧call。原业务早退/legalMaterialization/realm/cancel/interrupt/RuntimeException/Erroridentity/suppressed/selector全保，不加evaluate/getter/guard/权限/Writer/type/UI。
+
+Root仅既有same-threadround数组14尾加每stage三数，旧work/flush/premodel/replan保持、不forward/IO/Session。沿原无继承scope入口+actualCore正常返/physicalclose后唯一outside-lock摘要，inherited/Core/closefail无摘要；只visited ordinal的enter/return/failed/elapsednumericrows，loggercatchThrowable不清interrupt/不加suppressed，34stage最坏payload须仍<8192本地cap。不授CPU，不把nestedinclusivewall相加或把work等同某policy，3.306s另HTTPsample不代表allmodelcost；owner后到Ready6ef232/11span/cap6211proof及必要3TU独立，并非raw成果。
+
+fixed3/DIRECT/max10000/thinkingfalse，22:42:37.709791→22:42:57.802288Z真实1POST/1END（本地Nov06），HTTP200/DONE/stop/JSONvalid，20.092421秒/有效TTFT1.7104482秒/reported11118+3313/cached=null。原件先交Java后audit/Git，CONTENT=SSE差异空；交付采用待源审、0rawJVM/noR2，完整传输不授计数/finally/null/业务语义/8192预算或ownscope摘要门实际正确。[全来源pin、强合同与精确成本](evidence/2026-11-06-http-policy-evaluation-numeric-timing102-delivery.json)。
+
+随后正式全文审全拒：9oldspan LF归一8×1、logger0；Root新增PlanningStage未import/FQN，Planner把returned置于requireNonNull后，rawnull正常返回被误计失败，违明确合同。numericdefaultcallback/每stage计数/outside-lock方向相关，但whole/method/partial/literal/rawJVM/R2全0，属于源码应用/名称解析/计数语义拒，非实际rawcompiler红。owner独立Ready6ef232在raw读前已存，p0 sourcePASS/必要strict3TU0/20CF5.6688秒由Java另报，本岗未重复编验或回授raw。原delivery pending切点保，不授actualstage时长、速度、P067动作/权限或SAVE。
+
+只读522COMPLETED/522RELEASED、g0005当前6READY非并发、source0；Nov06成功1.19.5缓存复用、0维护probe/本岗JVM/Game/GET/JFR/stockIO/活跃参数改，无真实新源不造103。旧length含94/99/101正文/SSE始终未读未hash0/noR2；owner源审/型验/actualstage行/运行采用/性能/SAVE分层另证，不回填交付pending切点。
