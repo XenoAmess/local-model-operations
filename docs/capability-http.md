@@ -2950,3 +2950,10 @@ Sway另由Java正式发表2f59b092并独核remote/clean，formal只映射一guar
 [91cd64f2及7d718bf4源审独核](evidence/2026-11-05-http-registry-owner-source-later.json)补原pending：只原样采纳second legalMaterialization guardblock，已与完整raw postimage逐字匹配；first routing却仍令Core空占位finish，并删general Foreground gate使完整command落入lower，reason与code相反，全拒该hunk。owner重写result-first/仅Coreempty→紧邻continuation一次/之后原exclusive finish，属必要控制流语义修复，不能记为格式调整。f07fb0fe两span外逆还原精确、完整finish及原validateCommand在guard之前保留；此source切点编测未RUN、不R2，新Registry链需独立Test，不能借旧3P。
 
 另补先前dispatch3311的必要1TU2class首次0/4.0341194秒、完整2shape相等与close0释放，以及Java4115fb8f正式单loop+Testf616发表回执；这是旧单位交叉索引，不新增模型分母。raw3311/formal6cc有独立bytepin，EOL规范文本另核，不能凭发表授wholeformal组合软件。发表回执只导航Runtime26原BOOT/loaderSTART；后到LOOP及新placeholder缺口属于另外实际切点，不回授原raw控制流、实际offender或日SAVE/性能。本附页0新HTTP/JVM/Runtime/Game，旧切点保留，完整主动成本与净收益未知。
+
+
+## 2026-11-05：真实 Registry producer-chain 独立 Test 首派
+
+[新的22完整源Test单位](evidence/2026-11-05-http-registry-continuation-independent-test-candidate.json)给425304B/10062B合同，稳定f07 API不变；只向既有20092B集成类加三无参方法/必要imports/最多三小typed helper，要求真实Knowledge.load→RegisteredCore.classified→EventPolicies continuation→publicPlanner/realCore及完成/disabled/空、source/domain/stage/既有选择保护。两份原Python fixture源码完整在前缀，gzip216013B/446b4ba7另pin不转文本；原fixture/旧3P不算新模型贡献或本链资格，不造fakeForeground/Root权限。
+
+固定三消息/DIRECT/max8000，1POST1END、HTTP200/stop/DONE/有效JSON，52.8337652秒、有效TTFT12.3150903秒、96178+7313tokens、cachednull，32099B完整原件即交p0。CONTENT=SSE UTF8、审计0discrepancy；即时交接切点待源审，不因未截断或完整外JSON授实现义务、编测/恢复/收益。462终态/462租约释放、0源在途，0JVM/SDK/UI/Runtime/Game/GET/controls或期限改动，无参数迁移、不R2；Native资源/support/Pythonprops另准备不设HTTP门，旧切点保，完整主动成本与净收益未知。
