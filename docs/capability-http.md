@@ -3490,3 +3490,10 @@ fixed3/DIRECT/max10000/thinkingfalse，12:46:41.610690→12:47:06.702164Z真实1
 fixed3/DIRECT/max8000/thinkingfalse，13:03:07.601573→13:03:56.882853Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，49.2812226秒、有效内容TTFT20.437435秒，reported159338+5189、cached=null。实际REQUEST14全文逐一核实，CONTENT=SSE审计errors/差异为空，原件先交owner后audit/Git。交付切点采用待审、0rawJVM/noR2；非75/76重投，完整传输不授source/软件/冷恢复通过。
 
 只读497COMPLETED/497RELEASED，83READY不是并发，源码在途0；文档后见不另发模型请求、编测、Game/GET或变更活跃参数。其它finite8k/10k/12k结果与本次5189输出并列，不推出预算因果/永久容量/缓存结论；旧length正文/SSE整份未读未hash保，私Root/Native/Writer、actualRuntime/LOOP/SAVE/G2/性能另证。[完整输入pin、成本与未闭边界](evidence/2026-11-05-http-sway-saved-scheduler-cold-delivery.json)。
+
+
+## 2026-11-05：Civ6capture419
+
+419完整stop/DONE/VALID但安装Lua冒号语法错误且前置要求moves0使故障不命中，原稿0软件／Native。owner修正、8软件资格，8行双绑定原子cleanup采用；实机Native动作后异常＋连续LiveRecover无第二次Finish，存读档总数范围另列。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture419.json)。
