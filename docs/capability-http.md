@@ -3116,3 +3116,12 @@ fixed3/DIRECT/max2400/thinkingfalse，1POST1stop，8.3810458秒/有效TTFT4.8266
 [正式review e180/SourceReadyf30e](evidence/2026-11-05-http-event-family-decoder-owner-source.json)补pending：OperationDecoder接同一严格option parser与Optional语义采用；raw `catch(IllegalArgumentException)`缺必填变量，owner补`unrelated`并机械修hunk count，整rawpatch不直接应用。语法缺陷由源码审发现，不冒实际javac红，也不能将owner可编译候选回授原稿。关键parser/Optional调用和仅catch指定异常独核。
 
 owner Installer75232/308aa以单owned块逆换完整还原75016/9463，既有source/factory/preparer/observer/archivedVerifier/RootContext与其它原字节保；无新namedtype/field/helper/publicAPI或查询/控制/新issuer。sourcecut新lambda synthetic shape、typed与实际coldbinding均pending，Native后到资格另记，不预授bodyredefine/恢复或524结算。原8.3810秒/TTFT4.8267秒成本保，owner已给精确parser与overload设计，不称模型自主发现；0新HTTP/JVM/Game、不R2，完整主动成本/净收益未知。
+
+
+## 2026-11-05：Reconciled READ 双应用叶完整稿源审拒收
+
+[新task54两target首派](evidence/2026-11-05-http-event-qualified-read-postcondition-candidate.json)使用完整7actualJava132144B与5037B精确API合同，实际REQUEST逐份核全文。只NativeEventPostconditionPort/ActionEffects，其他owner叶不扩成模型编辑范围；原expected连接与actual重连值均不改，DATA结构比较和mandatoryRoot coldv4身份/READ/custody验证分层，genericcompare/ordinaryproject/control必须保，不能只比实际字段子集或扩大HISTORY_APPEND。
+
+fixed3/DIRECT/max6500/thinkingfalse，1POST1stop，29.4264123秒/有效TTFT3.7900284秒、27733+4530tokens/cachednull；20448B完整raw先交Java，随后CONTENT=SSE/0discrepancy。owner全文源审拒两个完整新方法与wholepatch，partial未明确仍NOT_HELD，0candidateJVM/noR2，应用两叶接管、其它coherent叶并行。原稿仍调普通project而先被旧finalmatch拒，共用connCount累至2仍要求1；BigInteger/valueOf/Longparse、!x instanceof/import/未限定schema等源错保。这是源审拒收，不冒compiler/JUnit红，正式review pin后到另附，不把owner后继绿回授raw。
+
+474终态/474租约释放/0源码在途，finite54正常closed/caller0；0JVM/C/UI/GET/Game/参数变更，无私Rootcoldv4、连接角色行为、issuedlease、Runtime或事件结算资格，完整owner主动成本/净收益未知。历史STOP通知已撤回，持续续行与新唯一任务授权保；未改STOP文件或caller、不重旧终态、不造请求。

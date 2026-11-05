@@ -1,0 +1,207 @@
+{
+  "schema": "local-model-operations.event-qualified-read-postcondition-candidate/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-event-qualified-read-postcondition-20261105-01",
+  "new_P0_two_application_targets_not_prior_task_R2": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_actual_Java_sources": 7,
+  "input_bytes": 132144,
+  "full_contract_bytes": 5037,
+  "manifest_pin": {
+    "bytes": 3347,
+    "sha256": "b0c5a2cc24b865314620316ac28e7212db99638c5c90f8b5e103082959f285b0"
+  },
+  "contract_pin": {
+    "bytes": 5037,
+    "sha256": "1048739f63ca9bf889cac5d35679010f0a3e1e57ceca22e94a26f451e635d952"
+  },
+  "actual_prefix_verification": {
+    "REQUEST_pin": {
+      "bytes": 142207,
+      "sha256": "9e2336b7992d6c471891c0d5bb13eec6de62790792d07bb4d53c8396b17206d5"
+    },
+    "source_message_pin": {
+      "bytes": 134239,
+      "sha256": "9ecf14d966c4be84ba34316cf0b5cfeb1d742dd3c1ed524ac4c14aedaf7b8b24"
+    },
+    "all7_full_text_present": true,
+    "input_files": [
+      {
+        "role": "target_port",
+        "bytes": 15909,
+        "sha256": "34556303b7be8c5a5fcdf700609436b8fa0c8a9f71486a2494872e50f4a4adb4",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "target_effects",
+        "bytes": 43472,
+        "sha256": "3400818a1a9bb424b035ceb6bef188358102168c62b341194f5baa403d67434e",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_identity",
+        "bytes": 13416,
+        "sha256": "fa9d5ad06870ad2034ca8a37a0328a6a93fec1684a33877abcace554d0876aec",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_provenance",
+        "bytes": 4595,
+        "sha256": "60ec4bd243fa7042fd52a1f26191d9f5f3bab0c5070eea3cc5f1623c4f479e60",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "generic_compare_unchanged",
+        "bytes": 15603,
+        "sha256": "3c154565347db1d227e54ccc336dcadb255be23d6f5a238e4026f95645126603",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_command",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_qualified_pair",
+        "bytes": 33286,
+        "sha256": "f7e5f60e320d0f1d2396c97c40eddcc75dbe1b154ec33606d108c55197b74488",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ]
+  },
+  "requested_targets_only": [
+    "NativeEventPostconditionPort",
+    "ActionEffects"
+  ],
+  "original_other5_owner_targets_not_model_edit_scope": true,
+  "subsequent_owner_coherent_scope_expansion_not_original_model_input": true,
+  "stable_API_contract": "public projectReconciled(command,attempt,identity,BoundSnapshot after); public reconciledFieldsMatch(command,attempt,ObservationIdentity after,G2Source source,observerSchema,actual,provenance). Pure DATA comparison distinct from mandatory Root/effect archive issued identity/READ/custody verification.",
+  "preserved_contract": "Original command/ExpectedPostcondition and actual connection values remain unchanged. Local expected projection excludes only one verified connection-role field, compare every other original field with unchanged generic ProposalLifecycle. Ordinary project/Applied/control branches and all identity/ACK/chronology/currentsemantic checks retain strict behavior.",
+  "authority_profile_contract": "API1 EXACT identity with full pending command/body/Attempt/originalBefore/source/session/currentfactual/native/time/connection/receipt binding; fresh ColdAfterAcknowledgement independent request. Other owner leaves provide mandatory issued Root coldv4 profile; neither application DATA function issues authority or accepts HISTORY_APPEND.",
+  "owner_exact_prePOST_diagnosis_design_contract_not_model_autonomous_discovery": true,
+  "POST_BEGIN_UTC": "2026-11-05T04:39:41.788910+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T04:40:11.215428+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "actual_parameters": {
+    "max_tokens": 6500,
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "JSON_syntax": "VALID",
+  "headers_ms": 3789.0041999635287,
+  "effective_content_TTFT_ms": 3790.028399962466,
+  "total_ms": 29426.41229997389,
+  "usage": {
+    "prompt_tokens": 27733,
+    "completion_tokens": 4530,
+    "total_tokens": 32263
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 142207,
+    "sha256": "9e2336b7992d6c471891c0d5bb13eec6de62790792d07bb4d53c8396b17206d5"
+  },
+  "RESULT_pin": {
+    "bytes": 1296,
+    "sha256": "0043e274ca0d8a08afb6f34b98ce79b77f9ef0bbade1f2624f7d6474ea760cdf"
+  },
+  "CONTENT_pin": {
+    "bytes": 20448,
+    "sha256": "4a1fa5b5e27a763fab5091be9c5a23d3c517062c93a13fc35ec233d649d159e1"
+  },
+  "EVENTS_pin": {
+    "bytes": 2854,
+    "sha256": "ed45a972ef8960c627f300f09e1d16bead9d92129bf3c6b8b14ea9912cc2d9ab"
+  },
+  "audit": {
+    "errors": 0,
+    "discrepancies": 0,
+    "CONTENT_equals_SSE_UTF8": true,
+    "pin": {
+      "bytes": 4471,
+      "sha256": "463480c7ba971e195aebb7587565ebd116a5fc2f461d56f48fe46c8788fb6897"
+    }
+  },
+  "complete_raw_delivered_before_audit_Git": true,
+  "source_review_after_delivery": {
+    "basis": "Explicit full source-owner review message; formal standalone MODEL-REVIEW receipt pin not yet held at this cut.",
+    "whole_patch_adopted": false,
+    "two_new_complete_methods_adopted": 0,
+    "partial_implementation_adoption": "NOT_HELD",
+    "owner_takeover_application2targets": true,
+    "candidate_JVM": 0,
+    "R2": 0,
+    "reported_rejections": [
+      "projectReconciled still calls ordinary project, so original final connection match rejects before intended reconciled handling.",
+      "Shared connCount counts expected then actual from1to2 but still requires1, so valid role pair rejects.",
+      "Guard connectionGeneration already BigInteger but treated with valueOf; Long.parseLong loses canonical/unbounded positive decimal handling.",
+      "Invalid !x instanceof syntax, missing imports and unqualified EVENT_SCHEMA."
+    ],
+    "not_actual_javac_or_JUnit_RED": true,
+    "remaining_owner_targets_continue_independently": true
+  },
+  "PREP_before_authoring_events": [
+    {
+      "event": "PREP_BEGIN",
+      "at_utc": "2026-11-05T04:38:45.4512298+00:00"
+    },
+    {
+      "event": "PREP_END",
+      "at_utc": "2026-11-05T04:39:34.214877+00:00"
+    }
+  ],
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 474
+    },
+    "leases.db": {
+      "RELEASED": 474
+    }
+  },
+  "source_HTTP_inflight_after_END": 0,
+  "finite_wrapper_returned_normally": true,
+  "caller_exit": 0,
+  "no_automatic_R2_or_active_parameters_changed": true,
+  "Models_JVM_SDK_C_UI_GET_Game": 0,
+  "no_Rootcoldv4_connection_role_behavior_issuedlease_Runtime_or_settlement_from_HTTP": true,
+  "historical_STOP_notice_was_retracted_not_actual_newSTOP_no_stopfile_or_caller_mutation": true,
+  "full_owner_active_cost_and_net_savings": null
+}
