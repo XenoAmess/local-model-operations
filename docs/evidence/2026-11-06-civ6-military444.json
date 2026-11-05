@@ -1,0 +1,261 @@
+{
+  "schema": "local-model-operations.civ6-military444/v1",
+  "utc": "2026-11-05T21:21:08.453432+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/66d58c07331558861633497672f568868907f20e/docs/research/baiqi-p6-military440444-native77-queues-cost-evidence-2026-11-06.json",
+    "sha256": "2b628c213c58dbb56a1e0b609d588671294cef4d554072b03c4f73df93adde87"
+  },
+  "model": {
+    "models": {
+      "440": {
+        "shared_commit": "60e7f3f6e405594b2fa174424498ae235698506b",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 54605,
+          "completion_tokens": 1122,
+          "total_tokens": 55727
+        },
+        "total_ms": 14606.782699993346,
+        "ttft_ms": 7220.2536999830045,
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "daily_maintenance": "Canonical Nov6successful OpenCode1.19.5cache;0new native generation.",
+        "review": {
+          "utc": "2026-11-05T20:34:01.950210+00:00",
+          "seven_pure_identity_role_cases_passed": true,
+          "bounded_unit_city_queue_resource_loops": true,
+          "raw_nil_row_error": "[string \"<python>\"]:1: attempt to index a nil value (local 'row')\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk",
+          "raw_native_execution": 0,
+          "raw_product_application": 0,
+          "review": [
+            "Raw nil-row precedence dereferences nil; reject raw Native.",
+            "Raw queue loop not bounded64 despite claim.",
+            "Raw does not implement claimed budget/resource/queued military/role complete inventory.",
+            "Owner uses protected read ports, independent raw/healthy/unknown counts, exact bounds and queue Index/hash distinction.",
+            "Resources ports grounded in local original Expansion2 ReportScreen/CityStates Lua.",
+            "Independent visible queue counts do not reveal private pending/submitted or completed-idle-head adjustments; not dispatch authority."
+          ]
+        }
+      },
+      "441": {
+        "shared_commit": "efc3d48052bb4d1b01ce5ff92cff9364c99bf8a1",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 54731,
+          "completion_tokens": 2873,
+          "total_tokens": 57604
+        },
+        "total_ms": 25017.791800026316,
+        "ttft_ms": 7254.631300049368,
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "daily_maintenance": "Canonical Nov6successful OpenCode1.19.5cache;0new native generation.",
+        "review": {
+          "utc": "2026-11-05T20:36:32.856560+00:00",
+          "raw_native_execution": 0,
+          "raw_product_application": 0,
+          "review": [
+            "Raw copies Identity call without definition, unit loop would only report errors; reject rawNative.",
+            "Raw allmilitary rows loop and output lacked requested256bound and3cityscope.",
+            "Reject automatic claim that available candidate must outrank existing higherpriority building; current busy queues not interrupted.",
+            "Stock25 is not alone evidence of affordability; actual CanProduce dual flags separate."
+          ],
+          "owner": "Standalone bounded256unitdefinitions*3cities*2CanProduceflags=1536maximum queries, actual144definitions/123military=738CanProducequeries; old private prose504max was arithmetic typo, not executable bound.0dispatch."
+        }
+      },
+      "442": {
+        "shared_commit": "efc3d48052bb4d1b01ce5ff92cff9364c99bf8a1",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 5971,
+          "completion_tokens": 707,
+          "total_tokens": 6678
+        },
+        "total_ms": 5401.758900028653,
+        "ttft_ms": 973.5819000052288,
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "daily_maintenance": "Canonical Nov6successful OpenCode1.19.5cache;0new native generation.",
+        "review": {
+          "utc": "2026-11-05T20:40:26.259069+00:00",
+          "orders_nine_isolated_cases": {
+            "install-zero": true,
+            "forward-nils-returns": true,
+            "civilian-classification": true,
+            "military-classification": true,
+            "metadata-error-forwarded": true,
+            "overflow-forwarded": true,
+            "original-error-preserved": true,
+            "foreign-cleanup-preserved": true,
+            "unknown-row": true
+          },
+          "event_observer_reuses_eight433_cases": true,
+          "event_new_unique_case_credit": 0,
+          "events": {
+            "install": {
+              "source_sha256": "15811ddd3c344d5b246c662e837ed32e8249e34f1a08a6a072373b4e5de4d908",
+              "changed_namespace_and_turn_window_only": true
+            },
+            "read": {
+              "source_sha256": "d32e369ef19b58beb3ac41d4dd1f8a35ba3289680c72341f3e4fa5f02b44fc16",
+              "changed_namespace_and_turn_window_only": true
+            },
+            "cleanup": {
+              "source_sha256": "83db1320978b9b00de9a39b9e7733e79133d5df62c2634d8b38f52cb44a48b88",
+              "changed_namespace_and_turn_window_only": true
+            }
+          },
+          "raw_native_execution": 0,
+          "raw_product_application": 0,
+          "review": [
+            "Raw increments noncivilian for recognized CIVILIAN, reverses meaning; raw military not included in noncivilian and missing CivilianType can be hidden in errors.",
+            "Raw claimed138..145window absent implementation; scope is actualinstall/cleanupwindow.",
+            "Owner classification branches independent, fullvarargs/tailreturn/error preserved, exactcleanupconflict refuses overwrite.",
+            "Events reuse433v2/v3 behavior with namespace/range only; no rawgameplay or extra uniquecase credit."
+          ]
+        }
+      },
+      "443": {
+        "shared_commit": "efc3d48052bb4d1b01ce5ff92cff9364c99bf8a1",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 44384,
+          "completion_tokens": 1307,
+          "total_tokens": 45691
+        },
+        "total_ms": 14144.896599987987,
+        "ttft_ms": 5926.001299987547,
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "daily_maintenance": "Canonical Nov6successful OpenCode1.19.5cache;0new native generation.",
+        "review": {
+          "utc": "2026-11-05T20:46:17.795787+00:00",
+          "raw_native_execution": 0,
+          "raw_product_application": 0,
+          "rejected": [
+            "Raw reads primary/religious units before revealed/visible checks: fog access prohibited.",
+            "Raw omits ownterritory and fullID exactmatch gates, only excludes own occupancy, prints table pointer rather than candidate scalars.",
+            "No actualoriginblocker cause proven: overstack correlation only until ordinarymovesandSKIPchange read."
+          ],
+          "owner": "24maxadjacenttargetchecks only, targetownemptyland/noncity, allneighborvisiblebeforeunitread/nootherowner, fullID/alive/noescort, nativeMOVEtrue. Readonly candidate results do not authorize stale later move; future movement must recheck contract."
+        }
+      },
+      "444": {
+        "shared_commit": "efc3d48052bb4d1b01ce5ff92cff9364c99bf8a1",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 62634,
+          "completion_tokens": 1192,
+          "total_tokens": 63826
+        },
+        "total_ms": 15998.783199989703,
+        "ttft_ms": 8105.177199991886,
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "daily_maintenance": "Canonical Nov6successful OpenCode1.19.5cache;0new native generation.",
+        "review": {
+          "utc": "2026-11-05T21:00:26.548555+00:00",
+          "raw_native_execution": 0,
+          "raw_product_application": 0,
+          "raw_self_counterexample": [
+            false,
+            "[string \"<python>\"]:1: self_missing"
+          ],
+          "rejected": [
+            "Raw treasury and buildqueue methods omit receiver self, returningnil plus hiddenerrors; owner colon/self forwarding used.",
+            "CityProductionCompleted event has no sourceBACKGROUND field; correlate independently with actual product requestlog.",
+            "Other simultaneous nonmilitary births need not make militarymaintenance inference impossible, but must enumerateall and handle policy/discount/confounders.",
+            "Original cost query supplies current quote, not retroactive debit proof.",
+            "Do not treat resource-free FIELD_CANNON as resource-insufficient gate pass."
+          ],
+          "retained": [
+            "Birth fullID and actualxy/type, normal per-indexprogress/cost, completionrowIndex+canceledfalse, actual BACKGROUND enqueue source separate, treasurybreakdown and no BACKGROUND armyorders continuouswindow."
+          ],
+          "scope": "Software receiver counterexample only, not claimed Native counterexample. Owner Native protected readings and actual training continue."
+        }
+      }
+    },
+    "raw_native_execution": 0,
+    "product_application": 0,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical": 444,
+    "complete_stop_valid": 413,
+    "length_discarded": 28,
+    "final_transport_failed": 3,
+    "http_attempts": 474,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "actual77": "13cities/24healthyarmy/cap26. Full144unitdefs/123military scan dualnativeeligible11/8/11 in3cities; old7fixedprobesfalse not productFAIL. Actual139BACKGROUNDcity327684FIELD_CANNON165cost and141city393221LINE_INFANTRY180cost;143progress109/165and77/180,24live+2queued26.",
+    "nativecosts": "FIELD_CANNONstrategic0/baseMaintenance5;LINE_INFANTRY10niter/base5. Stock25→18→21→24 with3income matches10debit, notinstanttransaction orinsufficientbranch proof. UnitMaintenance28unchanged,Total80→82building/district changes separately.",
+    "provenance": "SourceBACKGROUND enqueuelog separate from CityProductionCompleted event. ContinuousExecutorUnitManager69calls military0/noncivilian0/unknown0/errors0at142; contextscope only. Event3handlersandordersobserverstillactiveat143cutoff.",
+    "review": "440nilrowprecedence/unboundedqueue;441undefinedIdentity/unboundedfullscan;442noncivilianclassificationreversed;443fogread/missingowner/fullID;444missingmethodself. All0rawNative/product. Owner7identityrole/9wrapperchecks,existing8eventsreused0newcasecredit.",
+    "testplayer": "Normal noUserForced, selectedeligiblearmySKIP. Threeordinary ownsafe militarymoves individuallyactualsettled unlockolderstackSKIP,0civilianorders/0propertypatch. Congress physical originalfree1voteeach,AIoutcomesrecordednotpretendedsame. Syntax/wheelhelpererrors known0gameorder/0wheel before correctednewattempt.",
+    "cutoff": "OfficialQueueSave143600862B SHA7a5b1dff8377db21e09680b72fe2306a0f16d6a2eedd0995d358673add1d5b93. Militarybirth/actualmaintenance/capsustainedcycle/reservelow/resourceinsufficient/fullTC007pending; continuingNative."
+  },
+  "generic_lessons": [
+    "A negative eligibility sample across obsolete unit types does not prove the entire training feature is broken. Scan actual contemporary types with the same native gates used at dispatch.",
+    "Check the meaning of each audit counter. A syntactically valid observer that increments noncivilian for recognized civilians reverses its claim.",
+    "Lua method references lose their receiver when passed without self. A protected call can hide the error behind nil data; retain explicit failure and qualify receiver forwarding.",
+    "SourceBACKGROUND is request provenance, not a field of the vanilla completion event. Correlate distinct sources rather than inventing event metadata.",
+    "Resource stock combines debits and income. A native quote plus a compatible balance equation supports a narrow account, not all affordability or resource-insufficient branches.",
+    "Independent inventory is not an atomic internal budget snapshot. Pending/submitted commitments and completed idle-head adjustments remain explicit limits.",
+    "Ordinary TEST_PLAYER military moves and votes are allowed QA inputs; they must remain separate from BACKGROUND orders and cannot supply missing civilian automation.",
+    "A false readiness gate during diplomacy or queued execution is a stop for dependent calls, not a product failure or turn transition. Preserve unique failed attempts and actual state."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Cutoff143actual native enqueue/progress/cost qualification only. Both newmilitary births andactualmaintenance/playercontrol, sustainedcapcycle andnegativebudget/resourcebranches pending. Alpha74unchanged/Steamoffline0upload; observers activeatcutoff, not claimed cleaned."
+}

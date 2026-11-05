@@ -3818,3 +3818,10 @@ fixed3/DIRECT/max8000/thinkingfalse，20:24:33.900247→20:25:22.904069Z真实1P
 fixed3/DIRECT/max10000/thinkingfalse，21:09:59.789113→21:10:43.955219Z真实1POST/1END（本地Nov06），HTTP200/DONE/stop/JSONvalid，44.1657462秒/有效TTFT7.7302994秒/reported59253+6529/cached=null。原件先交Java后audit/Git，CONTENT=SSE差异空；交付采用待源审、0rawJVM/noR2，传输不授patchschema/actualAPI/checkedIO/三叶完整语义/Root双门或现场通过。[全输入pin、精确成本与强权限边界](evidence/2026-11-06-http-historical-first-display-unknown100-delivery.json)。
 
 只读520COMPLETED/520RELEASED、g0005当前4READY非并发、source0，旧归档/DB历史保持；Nov06成功1.19.5缓存复用，0维护probe/本岗JVM/Game/GET/JFR/活跃参数改，无真实新源不造101。旧length含94/99正文/SSE持续未读未hash0/noR2，实际producedvector/Rootpermission/旧动作/恢复/SAVE/G2/性能各自另证，不回填交付pending切点。
+
+
+## 2026-11-06：Civ6military444
+
+440—444五次canonical stop/DONE/VALID，Nov6成功维护缓存复用，0新OpenCode原生生成，全部0rawNative/product。owner修正nilrow/undefinedIdentity/反向noncivilian/fogread/missingSelf，7pure与9wrapper例、events8复用0新case。实际77只达到两军队BACKGROUND入队、143109/165与77/180、成本与财政快照，出生/军费/上限持续尚未授。累计through444444/413/28/3 HTTP474/extra30，未知缓存/人工节时null。完整1064既有软件不重复跑，实际QA继续。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-military444.json)。
