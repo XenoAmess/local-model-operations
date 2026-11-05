@@ -3371,3 +3371,12 @@ fixed3/DIRECT/max10000/thinkingfalse，09:41:30.933238→09:42:04.798236Z真实1
 新材料消费者任务完整提供7份actualJava263107B，只改Factory的strict installed-Sway分支，保原Life及实际source/handler/tuple/指针身份/mandatory callback与head、documents、inventory全闭包。fixed3/DIRECT/max4000/thinkingfalse，10:11:25.234114→10:11:54.959191Z真实1POST/1END，HTTP200/DONE/length，29.7249118秒、有效内容TTFT6.8572418秒，reported53337+4000、cached=null。CONTENT与rawSSE整份未开/读/解析/提取/hash，未运行length目录审计，0代码/方法/partial采用、0rawJVM/noR2；END已先交owner接管。单目标不保证4k足够，不能读半稿推原因或自动重派。只读490COMPLETED/490RELEASED、76READY不是并发，源码在途0。[截断成本与严格合同](evidence/2026-11-05-http-sway-no-gameplay-material-length.json)。
 
 此前69完整stop的新增方法后到源审全拒：虚构JsonNode setter、非法catch、错找不在latest69中的旧535等，0method/0literalcopy/0rawJVM。owner按真实API另写1method，新增7294B移除后全旧15736B精确恢复。新1TU3class首编0/5.6935958秒，新1P/6routing+6pureDATA直接拒绝，JUnit进程9.1243397秒/XML6.74秒；旧2及其它已绿方法未RUN，生产/Support未重编，close0/fence/释放均闭。缺535反例先清Test解码缓存后走冷原件链，不冒称所有warm递归原件每次重读；tamper不称repin。UNISSUED纯DATA不授Domain/Root/Writer私有历史证明、实际终态或游玩信用；模型原稿不回授owner软件绿。[后到源审、独验与XML pin](evidence/2026-11-05-http-sway-data-owner-software.json)。
+
+
+## 2026-11-05：Civ6site411
+
+411：1POST200／stop／DONE／VALID，11367+1245tokens、9.4664716秒、TTFT1.8012814秒，原31/6/18行编译，install/reader0原稿游戏执行，cleanup6行字符串采用但源给定参考。Owner修正实例ID/类型、原位和采样范围，7项隔离观察器检查非产品测试。实际119建城+自动粮仓，119正式重载保持，原正常114三上下文恢复；60UI请求含4move/1found/其他55，非白名单/未知/错误/溢出0。
+
+412独立广审计1POST200／length／DONE，30806+4500tokens、31.8319134秒、TTFT4.2063264秒，JSONUNKNOWN、完整输出0阅读/0采用/0执行；完整原件保留。输入误供性能fixture另记owner准备不足，413改为实际mock的窄反例。累计至412：412逻辑／381完整／28length／3最终transport，442HTTP尝试／30extra，0新OpenCode原生生成，cached/人工节时null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-site411.json)。

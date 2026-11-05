@@ -1,0 +1,188 @@
+{
+  "schema": "local-model-operations.civ6-site411/v1",
+  "utc": "2026-11-05T10:28:40.264520+00:00",
+  "date_local": "2026-11-05",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/5bd7b5d124d5d8e3f6e0d5bdc3d6ac8de97e16b5/docs/research/baiqi-p6-site411-founded-reload-evidence-2026-11-05.json",
+    "sha256": "c6cbd80d173266e4ee8d3dd6b4f4ab1639a338942aa31214af8a3064f0754ebc"
+  },
+  "model": {
+    "shared_commit": "8585418e9318aa4789068a29a0c2a463d0b1f30f",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "attempts": 1,
+    "extra_retries": 0,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 11367,
+      "completion_tokens": 1245,
+      "total_tokens": 12612
+    },
+    "total_ms": 9466.471599997021,
+    "ttft_ms": 1801.2813999666832,
+    "cached_prompt_tokens": null,
+    "raw_install_cleanup_reader_compile_lua53": true,
+    "raw_lines": [
+      31,
+      6,
+      18
+    ],
+    "raw_install_reader_game_execution": 0,
+    "cleanup_verbatim_decoded_candidate_game_execution": 1,
+    "no_novel_cleanup_credit_derived_reference": true,
+    "adoption": "Partial observer/readback structure; owner fixed instanceIDvsType, request origin, target-only bounded samples and context guards;6line cleanup exact decodedUTF8LF.",
+    "owner_diagnostic_checks": 7,
+    "raw_candidate_counterexample": {
+      "GameInfoUnitInstanceId_gives_unknown_type": true,
+      "missing_origin_for_empty_FOUNDparams": true
+    },
+    "owner_corrections": [
+      "Unit definitions by GetUnitType, exact targettypeSETTLER",
+      "Capture originalXY at calltime, parameterXY separate",
+      "Only target consumes24sample capacity, explicitoverflow",
+      "Initial leader/type/active/idle and410cleanup guards",
+      "Reader contextual gates and currenthead/queued values bound before print"
+    ],
+    "maintenance": "canonical CLI Nov5 successful1.19.5cache beforePOST;0new OpenCode native generation",
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical": 412,
+    "complete_stop_valid": 381,
+    "length_discarded": 28,
+    "final_transport_failed": 3,
+    "http_attempts": 442,
+    "extra_retries": 30
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "actual_found": {
+      "turn": 119,
+      "request_actor_full_id": 6684713,
+      "request_actor_owner": 0,
+      "request_origin": [
+        25,
+        15
+      ],
+      "FOUND_params_xy": [
+        null,
+        null
+      ],
+      "request_count": 1,
+      "new_city_owner_id": [
+        0,
+        851979
+      ],
+      "new_city_xy": [
+        25,
+        15
+      ],
+      "population": 1,
+      "new_city_id_not_in_old11": true,
+      "city_count": 12,
+      "automatic_queue": {
+        "size": 1,
+        "hash": -764771404,
+        "kind": "BUILDING_GRANARY",
+        "index": 3,
+        "base_cost_sql": 65,
+        "actual_completed": false
+      },
+      "change_production_and_citizens_controls_disabled": [
+        true,
+        true
+      ],
+      "paid_capture_journal": null,
+      "identity_limit": "Earlier independent conquest branch also allocated city851979 at41,19; this is separate loaded world, current owner/ID/25,15 pairing verified. Never merge identities across restored branches by number."
+    },
+    "removal": {
+      "ui_FindID_missing_before_after119reload": true,
+      "core_before": {
+        "full_id": 6684713,
+        "owner": 0,
+        "xy": [
+          -9999,
+          -9999
+        ],
+        "moves": 2,
+        "IsDead": false,
+        "IsDelayedDeath": true
+      },
+      "core_after119reload": {
+        "full_id": 6684713,
+        "owner": 0,
+        "xy": [
+          -9999,
+          -9999
+        ],
+        "IsDelayedDeath": true,
+        "moves": null,
+        "IsDead": null
+      },
+      "limit": "Core lookup retains out-of-world delayed-death object across119reload. Not claimednil or finalized deletion in Core; actual found request/new city and no live map position establish this consumed-settler sample."
+    },
+    "normal_restore": {
+      "cities": 11,
+      "gold": 4524.2734375,
+      "faith": 397.94140625,
+      "builder5832733_charges_moves": [
+        1,
+        0
+      ],
+      "farm539": true,
+      "plot538_unimproved": true,
+      "horse2162700_position_moves": [
+        10,
+        12,
+        4
+      ],
+      "original_enemy_city_owner_id": [
+        1,
+        524295
+      ],
+      "capture_journal": null,
+      "checked_fault_observer_input_namespaces_clear": true
+    },
+    "separate_failed412": {
+      "task": "Separate removed-actor recovery audit, not this Native founding result",
+      "http_status": 200,
+      "finish_reason": "length",
+      "sse_done": true,
+      "json_syntax": "UNKNOWN",
+      "usage": {
+        "prompt_tokens": 30806,
+        "completion_tokens": 4500,
+        "total_tokens": 35306
+      },
+      "total_ms": 31831.913400033955,
+      "ttft_ms": 4206.326399988029,
+      "partial_content_read": false,
+      "code_execution": 0,
+      "adoption": 0,
+      "status": "Whole length output retained privately and discarded; narrower actual-fixture followup413, no partial reconstruction",
+      "owner_input_correction": "412included performance observed_capture_fixture rather than actual mock_requisition;413provides actual fixture. No inference from discarded content.",
+      "canonical_authority": {
+        "shared_commit": "8585418e9318aa4789068a29a0c2a463d0b1f30f",
+        "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf"
+      },
+      "raw_provenance_sha256": "b94bcc6c28e38b7a1c3c9147c690fea008ea97838b6f06f67f05b1bb0e25c1c0"
+    }
+  },
+  "generic_lessons": [
+    "Instance ID is not the GameInfo type index. Raw observer GameInfo.Units[id] lost type and would exhaust24samples on other units before late FOUND; target-only bounded trace needs originalXY because FOUNDparams can be empty.",
+    "Actual single FOUND at119origin25,15, new city absent from11baseline, positive Core/UI city0/851979/25,15/pop1 and autoGRANARY queue correlated. Do not infer founding only from unitabsence/citycount.",
+    "Core same-fullID/owner persists at-9999/-9999 with IsDeadfalse/IsDelayedDeathtrue even across119reload; UI lookupmissing. FullID alone is not in-world availability. Do not label Core nil or convert consumedSETTLER result into proved military recovery failure.",
+    "Owner strict Core nil assertion failed readonly; corrected to exact out-of-world delayeddeath/nil predicate and independent city proof, no game action replay.",
+    "Five ordinary noREASONENDs for three transitions: first116/117calls executed queued tasks; only fresh queue/position after readback authorized later unique END. One incoming trade rejected andGoodbye by TEST_PLAYER, no background diplomacy.",
+    "Image-age/ROI guards blocked0input. Fresh owned capture in same operation, known inspectedglyph match and second live ROI test kept actual oneGoodbye/Continue despite review latency.",
+    "411onecomplete HTTP;412broad audit length4500 wholly discarded, partialcontentunread. Actual412sourcepacket included wrong performancefixture; narrow413 uses real mock_requisition. No halfpatch reconstruction or native action retry."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "HTTP candidate, owner diagnostic checks, product software checks and actual Native facts remain distinct. Product74 unchanged; unknown tokens/costs remainnull."
+}
