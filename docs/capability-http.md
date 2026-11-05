@@ -3785,3 +3785,17 @@ StorageGuard单对象和ordinary同boundCore scopeproof不授跨实例/process�
 98 20:10:09.988688→20:10:41.751401Z，31.7626808秒/有效TTFT8.0795306秒/reported41403+3768；97 20:10:10.304106→20:10:25.183530Z，14.8796993秒/TTFT7.7644017秒/22866+1060。各fixed3/DIRECT/max8000/thinkingfalse、1POST/1END/0retry/200stopDONEstrictJSONVALID，cached=null，CONTENT=SSE审计差异空；原件先交owner后audit/Git，交付采用待审/0rawJVM/noR2，不回授先存owner22CF或实际恢复。[完整合同/输入pin、容量逐条证明与成本](evidence/2026-11-06-http-p059-pair97-98-ready-g0005.json)。
 
 客户端峰2仅重叠14.879424秒，当前source0，非服务全局；intake终态确认capdefer的20:06:11.202612切点→首POST下界238.786076秒为准备/协调墙钟，实际更早defer与完整准备起点未重建，不计HTTP/TTFT/CPU/节时，不挡P059实际恢复。只读518COMPLETED/518RELEASED、g0005当前2READY非并发，旧102READY及全部DB历史完整保留。Nov06成功1.19.5缓存复用、0维护probe/本岗JVM/Game/GET/JFR/活跃参数改，无真实新源不造99；旧length含94正文/SSE持续未读未hash0/noR2，owner源/型/旧8/clean/P052及实机性能各自另证。
+
+
+
+## 2026-11-06：97/98正式全拒与99独立direct-base profile的8k截断
+
+97/98原待审交付/index不改，后到正式全读两稿：97给单job合成v2failure envelope而非实现patch，不含eligibility/restore/validation/submit/publish；其outcome/time是模型文本，未写业务状态、不作事实。98不同report分支未绑定oldindex/oldbinding/manifest，缺有限完整inventory/唯一分类/MaterialNoGame/原件footer，canonicalrefs只SHA未path或实bytes，把共享canonical与perbatch路径混淆且加未证API；整实现拒。两者whole/method/partial/literal/rawJVM/R2全0，非actualcompiler红，owner独立2source22CF和实际3v2complete另层。[正式拒收pin与证据等级](evidence/2026-11-06-http-p059-pair97-98-formal-reviews.json)。
+
+99是P060新真实profile非97/98R2。4全文96583B（actualWorker2494+exactdirectrequest/failure+boundedactual57metadata）实际REQUEST全核。新增directbaseImmutable/null失败在原8之外，oldlead实际complete，旧3v2成功/readers不得rerun/reset。仅distinctfixedrole/fullbaseproof/unissuedJob→原actualanalysis pipeline，strictouter+oldfailure/request refs与全fresh/coldreader/footer；mixafterindexv1/v2、冲突/orphan/badproof拒不fallback，原request/failure/base/v1/v2均保，不新ID/type/authority/Writer/Controller/锁/预算/P052。现qualifiedEpisode/sameWriter不改，不再queue/CAS探扫。
+
+fixed3/DIRECT/max8000/thinkingfalse，20:24:33.900247→20:25:22.904069Z真实1POST/1END（本地Nov06），HTTP200/DONE/length8000/candidateCompletefalse，49.0037912秒/有效TTFT5.2459646秒/reported39329+8000/cached=null。CONTENT/rawSSE整份未开/解析/提取/hash，无正文auditor/拼接/续稿/R2，0任何代码/rawJVM；caller1明确length非瞬错。终态先告owner接管，未等97/98后见/Git；小输入/窄target不预认8k足够，不从未读半稿猜缺陷/永久能力，后继真正新复杂readerprofile可审足有限预算，不能为99重发或改active参数。[真实输入pin、成本与严格整弃](evidence/2026-11-06-http-direct-base-review-reanalysis99-length.json)。
+
+只读519COMPLETED/519RELEASED、g0005当前3READY非并发、source0，旧102READY归档和全部DB历史保持。Nov06成功1.19.5缓存复用，0额外维护probe/本岗JVM/Game/GET/JFR/活跃参数改；无真实新源不造100。旧length含94/99全文/SSE始终未读未hash0/noR2；原3v2/原8/fullqueueclean/P052/实际Root或速度均另证，不回授raw。
+
+99后到owner正式metadata-only回执1191B/8e47d3e4只核RESULT/SUMMARY，确认CONTENT/SSE从未开/hash/提取，whole/method/partial/literal/rawJVM/R2全0。owner独立7b2a/必要8CF首0和actualonce另层，不回授半稿，不重已成3v2；原length元数据切点完整保持，未授wholequeueclean/P052/速度。
