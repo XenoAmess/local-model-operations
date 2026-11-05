@@ -1,0 +1,82 @@
+{
+  "schema": "local-model-operations.event-isolated-history-owner-source/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-event-isolated-history-recovery-20261105-01",
+  "additive_preserve_original_pending_cut": true,
+  "formal_review_pin": {
+    "bytes": 847,
+    "sha256": "a5cc5987f626a009862d41016cb6658645e6609bc89129585759da20d6d02411"
+  },
+  "source_ready_pin": {
+    "bytes": 2342,
+    "sha256": "84cd27c126697ba0e21939e3df4ef247f96255df81a15debcfa251ea46ef3961"
+  },
+  "raw_pin": {
+    "bytes": 12940,
+    "sha256": "f9cb463fa56b1f19aa452f7215ef4d71977cd07c3fe3c640ee911eafc5601a2b"
+  },
+  "whole_diff_applied": false,
+  "adoption": "partial",
+  "exact_two_new_methods": [
+    {
+      "name": "readOnlyEventRecoveryRoot",
+      "complete_method_LF_projection_exact_between_raw_plus_lines_and_owner_candidate": true,
+      "LF_method_utf8_bytes": 455,
+      "LF_method_sha256": "fd28f31c01b469c73f022465c0ff47bc76dc437830401207437765c495056c62",
+      "semantic_owner_edits_in_this_method": 0
+    },
+    {
+      "name": "savedIsolatedEventData",
+      "complete_method_LF_projection_exact_between_raw_plus_lines_and_owner_candidate": true,
+      "LF_method_utf8_bytes": 998,
+      "LF_method_sha256": "c8bc3b66892f4199a4319c652f603192578f3b2291a2239b20458110b34251c0",
+      "semantic_owner_edits_in_this_method": 0
+    }
+  ],
+  "adoption_comparison_units": "Complete method LF text projections from original diff plus-lines independently equal candidate. Full candidate physical bytes separately pinned; this does not call all raw hunks applicable or ignore source line endings.",
+  "classifier_owner_rewritten_reasons": [
+    "missing expected before/source equality",
+    "unqualified ActionTransitions and ProtocolRequestIdentity without imports",
+    "invalid catch(RuntimeException) without variable",
+    "malformed hunk counts/positions, wrong final boolean surrounding context, duplicated SAVE chain"
+  ],
+  "routing": "Owner places isolated selection/history gate/final isolated/savedData correctly in minimal existing locations; malformed hunks and duplicated SAVE chain corrected. No whole-patch apply.",
+  "candidate_pin": {
+    "bytes": 337557,
+    "sha256": "dbd6d7804fa342a52f0c9f3e450d957d29092c428ef44705472b12e518c74d9b"
+  },
+  "before_pin": {
+    "bytes": 333244,
+    "sha256": "2ff1417f9f90f2f9e0ed04012ccc2d2a63676b69bad67209f7d7b2bdd23b4272"
+  },
+  "owned_spans_pin": {
+    "bytes": 6684,
+    "sha256": "0d5ace3f0653fdf89edc965d9bc534b8236ab3764436aa2815e22cbb49e08910"
+  },
+  "forward_diff_pin": {
+    "bytes": 9528,
+    "sha256": "83ea32a8f366046166b23840f4d30a6196d1d8cfca38d9d84af19e3802ccaba9"
+  },
+  "whole_outside_inverse_independently_verified": true,
+  "owned_operation_count": 7,
+  "original_FOCUS_and_cycle_replay_other_bytes_preserved": true,
+  "normal_loader_required_new_methods": true,
+  "new_named_types": 0,
+  "new_fields": 0,
+  "software_stage_at_source_ready_cut": "source_only_no_JDK",
+  "actual_recovery_at_source_ready_cut": false,
+  "later_Native_first_inflight_is_separate_not_granted_here": true,
+  "new_Models_HTTP_JVM_C_UI_GET_Game": 0,
+  "R2": 0,
+  "scope": "Strict EVENT ACK selector and saved historical DATA helper have no issued submit/settled recovery authority. Original history/manifest/cycle/head/receipt roles remain; existing FOCUSguard untouched.",
+  "owner_pre_POST_diagnosis_strong_finite_contract_not_model_autonomous_design": true,
+  "original_HTTP_cost_preserved": {
+    "seconds": 26.5336036,
+    "TTFT_seconds": 10.3280988,
+    "prompt_tokens": 80356,
+    "completion_tokens": 2833,
+    "max_tokens": 6000
+  },
+  "full_owner_active_cost_and_net_savings": null
+}

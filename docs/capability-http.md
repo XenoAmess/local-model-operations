@@ -3052,3 +3052,17 @@ fixed3/DIRECT/max8000/thinkingfalse，1POST1stop，54.0940034秒/有效TTFT18.48
 [正式review d8ee/owner SourceReady4413](evidence/2026-11-05-http-legacy-v1-data-Test-owner-source.json)补前案口头源审切点：model8ed7完整新增方法0采用、partial仍NOT_HELD、0candidateJVM/noR2，源码API/fixture问题不是实际编测红。owner新类22357B/2f902，复用已有strict-producer request/stock setup，原scaffold不算模型贡献；三个无参case只在源码封包阶段，Native必要新1TU/3case后到结果另记，不借SourceReady/原strict或future绿授本Test资格。Runtime04/c61e只源码依赖pin，Hosted原件不公开，原54.094秒成本保。
 
 [全新isolated EVENT history生产首派](evidence/2026-11-05-http-event-isolated-history-candidate.json)给完整6actualJava391915B/target333244B，实际REQUEST逐份全文核实；b7bc失败brief只作诊断，不混源码。仅严格正ACK EVENT DATA classifier/唯一unresolved selector，接通picker/history gate/final isolated与savedDATA；原FOCUS1858、历史replay/cycle、manifest/原件/head/lock/authority边界全须保，不发控制或改deadline。fixed3/DIRECT/max6000/thinkingfalse，1POST1stop，26.5336036秒/有效TTFT10.3280988秒、80356+2833tokens/cachednull；12940B完整raw先交Java，随后CONTENT=SSE/0discrepancy。即时交付切点待源审，不授代码、编测、发行角色或实际恢复；469终态/469租约释放/0源码在途，finite49正常closed/caller0。0JVM/C/UI/GET/Game/活跃参数改动，完整owner主动成本与净收益未知。
+
+
+## 2026-11-05：Isolated EVENT 两个新方法部分采用
+
+[正式review a5cc与owner SourceReady84cd](evidence/2026-11-05-http-event-isolated-history-owner-source.json)补即时pending切点：readOnlyEventRecoveryRoot、savedIsolatedEventData两个完整新方法来自原diff的+lines，独立按完整方法LF文本与owner候选逐字匹配，无方法语义改动；这是partial，不是整patch采用。classifier原漏expected.before/source、裸名未import与非法catch，owner重写；错误hunk/count/末isolated上下文及重复SAVE由owner修正，三处routing实放正确位置。
+
+候选337557B/dbd6经七个owned operations逆换后完整还原原333244B/2ff，FOCUS1858和所有outside原字节保；无新namedtype/field，但新增方法需normal loader，source切点0JDK/actualRecoveryfalse，Native在途后见另记。两个方法只选择严格原ACK EVENT与描述saved历史DATA，不发行submit/settled恢复角色，原replay/cycle/manifest/receipt/head边界全留。原26.5336秒/TTFT10.3281秒成本保，owner已先诊断强引导，不称模型自主发现；0新HTTP/JVM/Game、不R2，完整owner主动成本/净收益未知。
+
+
+## 2026-11-05：Isolated selector 独立 Test length 与输入格式澄清
+
+[独立公开DATA selector新测试](evidence/2026-11-05-http-event-isolated-selector-Test-length.json)使用22完整505677B，实际REQUEST逐份核全文：17Java、3个.json、dispatch1968/prepared395两份UTF8 JSON-in-.bin；另四个wirepayload只requiredpins。此前消息“六bin全只metadata”措辞不准，已告两owner并只读核原REQUEST澄清；封包始终符合原manifest，两个JSON-in-bin本已全文进入，没有过滤、输入修复、改REQUEST或重POST。原件与准备metadata不回写，公开只pin/格式。
+
+fixed3/DIRECT/max6000/thinkingfalse，1POST1END，HTTP200/DONE但length，47.0520052秒/有效TTFT14.2454099秒、110924+6000tokens/cachednull；CONTENT/rawSSE整份未开未解析未提取未哈希，0代码采用/0candidateJVM，不跑bodyauditor、不拼接、不R2，完整JSON与候选语义未知。生产49两个新helper采用是另一源码单元，不能回授本Test。470终态/470租约释放/0源码在途，finite50正常closed/caller1，owner接管；无fullhistory/私Root/实际521恢复/编测/Game资格，0新JVM/C/UI/GET/Game/参数变更。完整owner主动成本与净收益未知。
