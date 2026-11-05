@@ -3364,3 +3364,10 @@ fixed3/DIRECT/max10000/thinkingfalse，09:12:33.226972→09:13:42.761384Z真实1
 fixed3/DIRECT/max10000/thinkingfalse，09:41:30.933238→09:42:04.798236Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，33.8646888秒、有效内容TTFT20.9047134秒，reported163309+2249、cached=null。16份全文在实际REQUEST逐一核实，UTF8审计errors/差异为空且CONTENT=SSE；完整原件先交owner再做审计/Git。此交付切点源码采用待审、0rawJVM/noR2，不由stop授软件通过。
 
 只读489COMPLETED/489RELEASED，75READY不是并发，当前源码在途0。前次10k截断与本次10k内完整输出分账，无预算改善因果或容量结论。无新模型/Native权限、原UNKNOWN清理、canonical终态、Runtime/LOOP/SAVE/G2或性能资格。[完整脱敏证据与采用待审切点](evidence/2026-11-05-http-sway-no-gameplay-data-test-delivery.json)。
+
+
+## 2026-11-05：Sway 材料消费者单分支 4000 length，旧 DATA Test 后到 owner 1P
+
+新材料消费者任务完整提供7份actualJava263107B，只改Factory的strict installed-Sway分支，保原Life及实际source/handler/tuple/指针身份/mandatory callback与head、documents、inventory全闭包。fixed3/DIRECT/max4000/thinkingfalse，10:11:25.234114→10:11:54.959191Z真实1POST/1END，HTTP200/DONE/length，29.7249118秒、有效内容TTFT6.8572418秒，reported53337+4000、cached=null。CONTENT与rawSSE整份未开/读/解析/提取/hash，未运行length目录审计，0代码/方法/partial采用、0rawJVM/noR2；END已先交owner接管。单目标不保证4k足够，不能读半稿推原因或自动重派。只读490COMPLETED/490RELEASED、76READY不是并发，源码在途0。[截断成本与严格合同](evidence/2026-11-05-http-sway-no-gameplay-material-length.json)。
+
+此前69完整stop的新增方法后到源审全拒：虚构JsonNode setter、非法catch、错找不在latest69中的旧535等，0method/0literalcopy/0rawJVM。owner按真实API另写1method，新增7294B移除后全旧15736B精确恢复。新1TU3class首编0/5.6935958秒，新1P/6routing+6pureDATA直接拒绝，JUnit进程9.1243397秒/XML6.74秒；旧2及其它已绿方法未RUN，生产/Support未重编，close0/fence/释放均闭。缺535反例先清Test解码缓存后走冷原件链，不冒称所有warm递归原件每次重读；tamper不称repin。UNISSUED纯DATA不授Domain/Root/Writer私有历史证明、实际终态或游玩信用；模型原稿不回授owner软件绿。[后到源审、独验与XML pin](evidence/2026-11-05-http-sway-data-owner-software.json)。
