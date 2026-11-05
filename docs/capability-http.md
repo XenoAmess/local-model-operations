@@ -3846,3 +3846,10 @@ fixed3/DIRECT/max8000/thinkingfalse，21:26:47.319034→21:27:36.567425Z真实1P
 445/446canonical stop/DONE/VALID，同日成功维护缓存复用，0新OpenCode原生生成/0rawNative/product。两军队实际正常born/fullID/Completedrowfalse、真实playerMOVE、连续177BGrequests军事0、正式save/146政策对照/恢复148双CoreUI实际一致。征兵有效49−17=32到过时54解释费用，不归单兵22；city汇总残差6修正源unknown。445chunkvarargs错误拒用，owner6动态ID；446假GetPolicies/无界等拒用，真实Admin槽位端口。累计through446446/415/28/3 HTTP476/extra30，未知缓存/人工节时null；447下一负向计划另记。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-military446.json)。
+
+
+## 2026-11-06：Civ6military448
+
+447/448canonical stop/DONE/VALID，复用Nov6成功维护缓存，0新OpenCode/0rawNative/product。独立低gold139实际69.753<100、缺额且FieldCannonnative合法，连续2SewerBUILD/0unit，项目真实完成，清exactwrapper/3events后恢复main148CoreUI一致。447各类helper/键/计数/窗口错拒，448伪queued0/foreignread/漏替代拒；owner11例、events8复用。累计through448448/417/28/3 HTTP478/extra30，未知缓存/人工节时null；449资源任务另记。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-military448.json)。
