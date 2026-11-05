@@ -1,0 +1,61 @@
+{
+  "schema": "local-model-operations.http-sway-87-88-formal-reviews/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T17:05:27.816617+00:00",
+  "scope": "Additive exactowner sourcegrades for alreadycompleted87/88, no newgeneration orcompiler/Test execution.",
+  "source87": {
+    "task_id": "ordinary-sway-stage-retained-metadata-data-recovery-test-20261105-01",
+    "review_pin": {
+      "bytes": 1355,
+      "sha256": "64937cade6df97c08962c1883ecd348cf2e10a25f800fd2b165e23dde74a8caa"
+    },
+    "complete_CONTENT_pin": {
+      "bytes": 15562,
+      "sha256": "d5766f3eb84843ed5b0d269d878f5089f38e3e31d0853b6d558e81933cb5376b"
+    },
+    "complete_json_read_before_owner_adoption": true,
+    "adopted_complete_method": 0,
+    "literal_copy_bytes": 0,
+    "raw_JVM": 0,
+    "R2": 0,
+    "rejection_reasons": [
+      "Its priorReduced replays StageRecorded(prior active_stage old7f6d) onto prior eb69, then expects new current51e149 body. This reapplies the old stage; it cannot equal current b419 stage. Actual bodies differ only active_stage; correct independent inverse replaces new current active_stage with old prior ref, then restores exact prior bytes.",
+      "Introduces unnecessary Fixture.load() and additional speculative guard/accessor expectations; the owner method uses the existing DataArchive API with exact base+delta and finite current roles.",
+      "Does not preserve the full pre-consumer state/command bytes with the same explicit causal checks as owner method."
+    ],
+    "owner": "actual owner27e4 independentnewmethod/1P8denials;whole8d04inverse;no rawadoption or replay.87 transport alreadypublished;source/model review additive no new task",
+    "Models_independent_owner_ACTUAL_XML_audit_here": false
+  },
+  "source88": {
+    "task_id": "ordinary-sway-original-root-read-cycle-retention-20261106-01",
+    "review_pin": {
+      "bytes": 1735,
+      "sha256": "cc284228ae40e795d2c31fc2abb81abc92d7bacdc253e4dec193fcdc36332b68"
+    },
+    "complete_CONTENT_pin": {
+      "bytes": 9341,
+      "sha256": "c7f138fb6ceaec064e97f662599b2eaad738d1580605a72e70ee29f2652fdd9f"
+    },
+    "complete_json_read": true,
+    "adopted_complete_patch": false,
+    "adopted_complete_method": 0,
+    "literal_copy_bytes": 0,
+    "raw_JVM": 0,
+    "R2": 0,
+    "semantic_agreement_direction_only": "Use exact original Stage ROOT rather than latest final frame for only canonical Sway RETAIN; generic identity guard remains.",
+    "rejection_reasons": [
+      "Unqualified SwaySchedulerCompletion/SwaySchedulerReplay/NativeRecordedEvidenceVerifier/SwaySharedRoot/OrdinarySwayReadSource references without imports; source target does not import those types.",
+      "retained is inferred ObservationIdentity from semantic().frame(), but later calls retained.observedAt(); no such API supplied.",
+      "Omitted mandatory RootGuardEvidence.loadFrame+requireHistory for actual original/final guards despite full API supplied. Pure archived receipt equality/DTO comparison cannot substitute physical/source/history replay.",
+      "Original observed ROOT frame only monotonic relative to parent/terminal; does not require the exact original parent487 and terminal488 identity linkage.",
+      "Recognized malformed child/effect proof returns false; missing initial exact head fence and current latest binding public-revision comparison."
+    ],
+    "owner": "candidate02 eb73c898/2spans independently written from prior bounded contract;0rawcode use;Nativefirst/source review separate;675 alreadysettled not replayed"
+  },
+  "limits": [
+    "Source defects only, not actual modeljavac/JUnit red; owner87independentnewmethod1P8denials and88independent2spans/Nativefirst notbackcreditedraw.",
+    "Completecurrent APIs andFullactualJSON supplied; missingguard calls/types are not inputtrimming excuse.",
+    "No genericidentity guard loosened, actualold675replay/RETAIN/SETTLE/sourceadoption/privateauthority/LOOP/SAVE/G2/performance credit from modelcode.",
+    "All older length CONTENT/rawSSE wholeunread/unparsed/unextracted/unhashed0adopt/noR2."
+  ]
+}
