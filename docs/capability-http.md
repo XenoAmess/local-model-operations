@@ -3010,3 +3010,10 @@ max5000、固定三消息/DIRECT，1POST1END、HTTP200/stop/DONE/有效JSON，12
 [新的 Journal-only 首派](evidence/2026-11-05-http-incident-command-codec-length.json)使用 canonical owner 完整6Java153642B+4privateDATA37396B/6159B合同，实际 REQUEST 逐文件核全文；未来capture/lookup复用既有 ActionCodec 表示，精确保raw/direct legacy与selected原index/receipt闭包，两路径冲突或不匹配严格拒，不扫描actionId/省SHA/改算法，也不据此授旧521恢复。后到receipt caller提示由owner审，不改已冻结请求或等额外leaf。
 
 固定三消息/DIRECT/max6500/thinkingfalse，1POST1END，HTTP200/DONE但length，43.5117672秒/有效TTFT6.1381764秒、47076+6500tokens/cachednull；CONTENT/rawSSE未开、未解析、未提取、未哈希，整候选弃置0代码采用，不跑body auditor/不拼接/不R2。owner立即接管；JSON与语义质量未知，不能把截断归成编测红或永久能力上限。finite45正常收尾、caller1/pairedEND，465终态/465租约释放/0源码在途；原PREP前置阶段与依赖暂停记录保，全owner成本和净收益仍未知。0JVM/C/UI/GET/Game/活跃参数变更，actual DATA不公开。
+
+
+## 2026-11-05：Future incident 独立 Test 完整候选
+
+[新的 canonical Journal 测试首派](evidence/2026-11-05-http-incident-canonical-journal-test-candidate.json)使用完整12Java200723B+既有Python产物 golden JSON63211B，13份全文在实际REQUEST逐一核实；gzip仅pin、不进文本也不执行Python。唯一Java转权，原p0此单位0POST/source。输出范围是既有Test新增两无参方法及两处明确的旧expectation规范表示更新，真实Journal before→codec roundtrip→public observedAfter→cold receipt/scan，兼容fixture authored rawlegacy并拒两精确路径冲突；不借此授原521恢复或Root/Game权威。
+
+固定三消息/DIRECT/max6000/thinkingfalse，1POST1stop，38.0309006秒/有效TTFT8.1123011秒、62627+5263tokens/cachednull；21616B完整raw即时交Java，随后离线核CONTENT=SSE、0discrepancy。即时交接切点源审待定，不授方法采用、编测或行为；与前producer6500length是不同单位，不能据预算差推能力上限、模式收益或节省。466终态/466租约释放/0源码在途，finite46正常收尾/caller0；实际PREP前置事件保，完整owner主动成本未知。旧length正文仍未读未hash，不R2，0JVM/C/UI/GET/Game/活跃参数变更。
