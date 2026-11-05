@@ -2996,3 +2996,10 @@ max5000、固定三消息/DIRECT，1POST1END、HTTP200/stop/DONE/有效JSON，12
 [生产源审与 owner02](evidence/2026-11-05-http-event-material-retained-context-owner-source.json)保留原 pending 切点：模型整 diff、完整方法均未采用，仅 material 的 validator 参数、真实 caller 传递和 strict getter 调用语义部分采用。RegisteredCore 新 block 的 Value/ObjectValue API 与 command carrier、partial-direct、conflict 守卫缺项全由 owner 接管；虚构 no-opPolicy 行拒收。owner02 另保原 status=available 门，两个实际源码的完整 outside inverse 独立核实；必要 private 签名变化需 normal loader，不能授 body redefine。12.3288秒/TTFT6.2191秒原成本和源阶段保留，未借文档授编测、Runtime 或收益。
 
 [新的 hosted Test 首派](evidence/2026-11-05-http-event-material-hosted-test-candidate.json)使用完整13Java与1 actualJSON共230518B，实际 REQUEST 逐文件核全文；原8147B TASK保存，仅在 callerTask 末附 owner 预授权 snapshot_revision 字段澄清。后到生产02不改已冻结首派、不R2。固定三消息/DIRECT/max8000/thinkingfalse，1POST1stop，33.4788043秒、有效TTFT6.9539418秒、54236+4648tokens，cachednull；20938B完整 raw 先交 owner，随后离线核 CONTENT=SSE、0discrepancy。owner 全文源审报告0完整新增方法采用、接管且不R2：API/构造与实际绑定错误，负例未走真实 material，carrier/receipt/conflict等义务缺；这是源审拒收，不冒实际编译或测试红，正式 review pin 后到另附。464终态/464租约释放、0源码在途；无 raw actual DATA 公开、JVM/Game/GET/参数变更。完整主动成本与净节省未计量。
+
+
+## 2026-11-05：Material owner 软件与 Hosted 3P 后见
+
+[正式 review4062、独验6ce9与 Native1981](evidence/2026-11-05-http-event-material-owner-software-later.json)补录后到资格：模型生产仅 material 接线语义 partial，Registry 新 block 与 available02 均 owner 完成；Hosted 模型新增完整方法和 partial代码均0，原33.4788秒/TTFT6.9539秒成本保，不把 concept/scaffold 或 owner3P 回授 raw。owner 新 Test20043B/6d639，必要1TU4class首0/4.7859127秒，exact3P/JVM4.4226491秒/XML2.478，10fault与3DATA逐核、stderr0/close0/fence/released；旧 Registry/Planner/Support/生产不重跑。原两 TU13class首0/6.5149458秒，02仅 Policies1TU7class0/4.7372031秒，Registry原 family复用；实际13class pin及两软件 phase 原件独立核验，正常 loader shape 边界保。
+
+业务正式35df仅两 production owned spans，formal7cfb/e09a保自身outside，与实际编译 f703/431a不是同份whole源码。Hosted源码与actual witness仍只在D，不入公共Git/通用Maven；测试是公开消费者对冻结DATA的软件回放，非private Core.collect/issuer/实际READ或动作验收。28 START/BOOT仅导航，不授LOOP/action/SAVE/G2/提速。两个 Native准备期零JVM断言/路径比较修正成本另保；本附页0新HTTP/JVM/Game，旧切点不回写，完整owner主动成本/净节省未知。
