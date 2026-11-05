@@ -1,0 +1,133 @@
+{
+  "schema": "local-model-operations.civ6-settler438/v1",
+  "utc": "2026-11-05T20:32:06.384009+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/1b090ba88203de55583420465259e5c84f7dc279/docs/research/baiqi-p6-settler438439-native77-founded-reload-evidence-2026-11-06.json",
+    "sha256": "4f009e6bffbec312f217ffc3dc398043a7bebd9b97fdcde7f81b49ee7f097e66"
+  },
+  "model": {
+    "models": {
+      "438": {
+        "shared_commit": "60e7f3f6e405594b2fa174424498ae235698506b",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 21222,
+          "completion_tokens": 1395,
+          "total_tokens": 22617
+        },
+        "total_ms": 11460.425199999008,
+        "ttft_ms": 2908.370199962519,
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "daily_maintenance": "Canonical CLI successful Nov6 OpenCode1.19.5 cache reused;0new native generation.",
+        "review": {
+          "utc": "2026-11-05T20:02:28.954918+00:00",
+          "six_actor_identity_classes_each_context": {
+            "CORE": {
+              "healthy": "EXACT_HEALTHY_ONMAP",
+              "offworld-delayed": "EXACT_OFFWORLD_DELAYED",
+              "nil": "LOOKUP_ABSENT",
+              "alias": "FULL_ID_ALIAS",
+              "offworld-no-delay": "EXACT_UNRESOLVED",
+              "delay-port-unknown": "EXACT_UNRESOLVED"
+            },
+            "UI": {
+              "healthy": "EXACT_HEALTHY_ONMAP",
+              "offworld-delayed": "EXACT_OFFWORLD_DELAYED",
+              "nil": "LOOKUP_ABSENT",
+              "alias": "FULL_ID_ALIAS",
+              "offworld-no-delay": "EXACT_UNRESOLVED",
+              "delay-port-unknown": "EXACT_UNRESOLVED"
+            }
+          },
+          "raw_ui_error": "[string \"<python>\"]:4: attempt to call a nil value (global 'Read')\nstack traceback:\n\t[string \"<python>\"]:4: in main chunk",
+          "raw_native_execution": 0,
+          "raw_rejected": [
+            "UI missing Read/heads/sr definitions",
+            "Inventory alone does not explicitly classify exact fullID lookup absent/alias/offworld delayed",
+            "No binding of actualFOUNDlocation or targetcity identity"
+          ],
+          "source": "Owner keeps actual CoreGetType/UIGetUnitType ports and inventory categories; explicit protected fullID classifier, no consumption/founding conclusion from absence alone. Synthetic city917516/136infixtures is not claimed Native fact."
+        }
+      },
+      "439": {
+        "shared_commit": "60e7f3f6e405594b2fa174424498ae235698506b",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 25935,
+          "completion_tokens": 658,
+          "total_tokens": 26593
+        },
+        "total_ms": 8121.301500010304,
+        "ttft_ms": 3652.5463999714702,
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "daily_maintenance": "Canonical CLI successful Nov6 OpenCode1.19.5 cache reused;0new native generation.",
+        "review": {
+          "accepted": "TC007 actual read-only roster/queue/budget/resource inventory next; TC009 prerequisite/capacity later, unique district conditional on actual civilization replacement.",
+          "rejected": [
+            "Prioritizing another same-build TC015full chain without new failure/code need: source76training and source77sameactor regression remain explicitly split.",
+            "Claimed prior archer/cavalry training/limit evidence without primary references: not credited.",
+            "Blanket rejection of all debug QA fixtures: setup may qualify independent boundaries but cannot supply missing AI functionality."
+          ],
+          "application": "Advisory next-task prioritization only;0rawNative/0product."
+        }
+      }
+    },
+    "raw_native_execution": 0,
+    "product_application": 0,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical": 439,
+    "complete_stop_valid": 408,
+    "length_discarded": 28,
+    "final_transport_failed": 3,
+    "http_attempts": 469,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "native77": "87managedfiles equal producta5162e4, fresh formal Steamoffline UIA proof age0.003494s, cold same76Blocked127fullID7274546. Alternative step12712,17, normal turns to137FOUNDonce, newcity917516九江28,17pop1/cities12to13. No manual domestic, blocker or army orders.",
+    "correlation": "Observer starts after firstcoldmove, targetMOVE20 FOUND1 other0, all205 noncivilian0 errors0 overflow0. Core exactfullID offworldDelayed +UIabsent, correlated nativeFOUNDfromXY/newcity;138bothabsent. Bootstrapcallsunknown.",
+    "persistence": "Officialsave137/reloadonce actual13cities/newcity/pop1/queuegrain0/32 preserved. Normal138 actualgrain3/32,notcompleted. Latest138save600554B SHA8e5b3393a7693c778171aec74df35ed34219dfae9bc502720c1d7a1ab1e0cd02.",
+    "scope": "Specific occupiedfirstroute FAIL closed in installed77; training/cost76 and sameactormove/found/reload77,not77fromscratch. FullTC015/40stillpartial, Alpha74unchanged.",
+    "model438": "Raw UI undefined Read/heads/sr and missing exactID/offworld classification rejected0Native. Owner6identitycases eachcontext; reuse7observercases gives0newcasecredit.",
+    "model439": "Advisory triage only; reject redundant wholetrainingpriority and unsupported prior archer/cavalryclaims. NextTC007actualreadonly roster/queue/budget/resource eligibility; TC009unique conditional onactualcivilization.",
+    "diagnostics": "Owner settleparsercolumn correction and freshread refusals did0gamecommands; nativequeued732preserved across134/135, no forcedclear/replay. Owned76residue624s exactowncleanup,notcleanexit/causeunknown/not77attribution."
+  },
+  "generic_lessons": [
+    "An absent lookup alone is not a consumption proof. Correlate a full-ID native operation, actual target asset, and exact offworld delayed-death identity; aliases and offworld-without-delay remain unresolved.",
+    "A correctly acknowledged queued move may remain pending across a normal turn. Preserve the queue and observe actual arrival rather than clearing and resubmitting.",
+    "Model snippets can retain valid source port patterns while omitting local helper definitions; qualification must execute the complete proposed snippet.",
+    "A diagnostic parser bug can produce false readiness failures without any product failure. Preserve original evidence, correct the parser, and do a new read.",
+    "Do not invent historical acceptance to justify a next test. Require precise primary evidence for claimed existing military training or cap checks.",
+    "A same-actor multi-version regression can close a specific defect without pretending every stage ran in the final build; record stage versions explicitly.",
+    "Observer reuse is useful qualification, not additional unique test credit. Unknown cold/load bootstrap API totals stay unknown."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Specific installed77sameactor route/found/consumption/reload/newcityprogress only. Training76, no77fromscratch rerun; completeTC015/40, armybudget/resource variants remain partial. Alpha74unchanged, Steamoffline0upload. Owned76residue notcleanexit/causeunknown."
+}

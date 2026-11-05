@@ -3799,3 +3799,10 @@ fixed3/DIRECT/max8000/thinkingfalse，20:24:33.900247→20:25:22.904069Z真实1P
 只读519COMPLETED/519RELEASED、g0005当前3READY非并发、source0，旧102READY归档和全部DB历史保持。Nov06成功1.19.5缓存复用，0额外维护probe/本岗JVM/Game/GET/JFR/活跃参数改；无真实新源不造100。旧length含94/99全文/SSE始终未读未hash0/noR2；原3v2/原8/fullqueueclean/P052/实际Root或速度均另证，不回授raw。
 
 99后到owner正式metadata-only回执1191B/8e47d3e4只核RESULT/SUMMARY，确认CONTENT/SSE从未开/hash/提取，whole/method/partial/literal/rawJVM/R2全0。owner独立7b2a/必要8CF首0和actualonce另层，不回授半稿，不重已成3v2；原length元数据切点完整保持，未授wholequeueclean/P052/速度。
+
+
+## 2026-11-06：Civ6settler438
+
+438/439canonical stop/DONE/VALID，复用Nov6成功维护缓存，0新OpenCode原生生成。438rawUI缺locals和exactID消耗分类拒用，owner6每context后实际Native同actorFOUND/延迟死亡/新city/重载/正常138粮仓3/32；439仅nextgap建议，重复整链优先/无primary军事既有通过拒用。source/install/runtime77，具体76routeFAIL闭合，训练76与后续77版本分开，完整矩阵partial。累计截至439逻辑439/完整408/length28/finaltransport3 HTTP469/extra30，未知缓存/人工节时null；后续440未混入。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settler438.json)。
