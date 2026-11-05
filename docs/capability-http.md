@@ -3649,3 +3649,10 @@ fixed3/DIRECT/max6000/thinkingfalse，17:00:36.707812→17:00:59.763322Z实际1P
 正式87/88源审均完整method/literal/rawJVM/R2为0，88整patch也拒。87误把旧Stage重新reduce到prior后期待新Stage body，应做只换current.activeStage的独立inverse；额外Fixture.load/推测guards与全bytes因果检查不足，owner27e4独立1P8拒例另证。88原ROOT方向同意，但缺类型imports、ObservationIdentity误调用observedAt，漏已完整提供的RootGuard物理/历史调用，monotonic取代精确before/terminal身份，recognized坏proof弱fallback且缺head/publicbindingfence。源审错误不是实际compiler红，owner88独立2span及Nativefirst不回授原稿。[具名review、原件pin与owner边界](evidence/2026-11-06-http-sway-87-88-formal-reviews.json)。
 
 只读508COMPLETED/508RELEASED、94READY非并发、source0；无新sole需求不造89。0本岗JVM/Game/GET/业务decisionHTTP/活跃参数改变；旧length正文/SSE整份未读未hash，私Root/实际RETAIN/SETTLE/LOOP/SAVE/G2/净收益分层另证。
+
+
+## 2026-11-06：Civ6capture429
+
+429为Nov6首POST，canonical实际每日检查OpenCode1.19.5=latest/updatedfalse后普通HTTP完整stop/DONE/VALID。原观察器函数当计数表、ns未持久、nil参数与清理错误，隔离替身首调用阻断转发，0原稿Native；owner重写8资格后实际冷76同旗帜取消/确认/独立正常进攻和付费存读档窄验，四图及逐项读回入库。累计截至429为429逻辑/398完整/28length/3finaltransport、459HTTP/30extra、0新OpenCode生成，未知缓存/节时null。430另发候选，不在此截至429快照中。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-capture429.json)。
