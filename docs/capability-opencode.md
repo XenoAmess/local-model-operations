@@ -418,3 +418,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-05：Civ6401奇观资格
 
 0新OpenCode原生生成；Nov5同机同用户1.19.5维护成功缓存复用。普通HTTP401完整但Lua全部拒绝，0代码／0新方案采用，owner实际游戏读回不计作OpenCode任务或模型实效。[分账与业务pin](evidence/2026-11-05-civ6-assets401.json)。
+
+
+### 2026-11-05：Civ6402／403资产与输入诊断
+
+0新OpenCode原生生成；Nov5同机同用户1.19.5维护成功缓存复用。两普通HTTP完整，局部事实／取证方向参考、0代码；owner Native捕获、保存与实机资产读取不算OpenCode工具任务或模型效果。[两mode分账和业务pin](evidence/2026-11-05-civ6-etemenanki402403.json)。

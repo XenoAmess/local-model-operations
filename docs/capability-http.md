@@ -2957,3 +2957,12 @@ Sway另由Java正式发表2f59b092并独核remote/clean，formal只映射一guar
 [新的22完整源Test单位](evidence/2026-11-05-http-registry-continuation-independent-test-candidate.json)给425304B/10062B合同，稳定f07 API不变；只向既有20092B集成类加三无参方法/必要imports/最多三小typed helper，要求真实Knowledge.load→RegisteredCore.classified→EventPolicies continuation→publicPlanner/realCore及完成/disabled/空、source/domain/stage/既有选择保护。两份原Python fixture源码完整在前缀，gzip216013B/446b4ba7另pin不转文本；原fixture/旧3P不算新模型贡献或本链资格，不造fakeForeground/Root权限。
 
 固定三消息/DIRECT/max8000，1POST1END、HTTP200/stop/DONE/有效JSON，52.8337652秒、有效TTFT12.3150903秒、96178+7313tokens、cachednull，32099B完整原件即交p0。CONTENT=SSE UTF8、审计0discrepancy；即时交接切点待源审，不因未截断或完整外JSON授实现义务、编测/恢复/收益。462终态/462租约释放、0源在途，0JVM/SDK/UI/Runtime/Game/GET/controls或期限改动，无参数迁移、不R2；Native资源/support/Pythonprops另准备不设HTTP门，旧切点保，完整主动成本与净收益未知。
+
+
+## 2026-11-05：Civ6402／403，输入诊断与转城资产补证
+
+402给定真实BaseWorldInput、发送库、旧四处输入观察器及消费者，53861+793tokens、13.0410915秒、有效TTFT7.6792561秒，完整stop／DONE／合法JSON。调用链与下游计数不能证明入口收到消息的事实部分接受；focus/DPI/RawInput根因未证，旧工具实际还包down与interact。建议只改OnInputHandler全局名不授已观测注册入口，尚缺实际登记及有效派生脚本资格；0代码、0根因／修复通过。
+
+403给定实际转前／后清单、双上下文地块读回、产品Capture与原生调用者，38454+708tokens、10.6063206秒、有效TTFT5.9866676秒，同为完整stop／DONE／合法JSON。仅部分接受补齐前态完工状态和已提供GetDistrict(type,index)的取证方向；实例ID查GameInfo、校园格查City、无源Plot:GetCity和未资格CoreMembers均拒绝。已读pillaged=false不能再称未知；0代码采用。两次实际不重叠、峰1／0重试；缓存、完整owner成本和净收益null。[参数、精确业务pin与分级](evidence/2026-11-05-civ6-etemenanki402403.json)。
+
+owner独立执行1300付费转城、奇观／5作品及校园缺失读回，不追授模型游戏实效。FindID返回另一个完整ID的原生alias须明确拒绝；保存ACKtrue后工具等文件到期不等于保存失败，后到同一文件稳定字节核验、0重放。引用切点仍在补校园前态／跨回合，不能把后续结果追认到本候选。

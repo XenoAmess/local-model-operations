@@ -1,0 +1,138 @@
+{
+  "schema": "local-model-operations.civ6-etemenanki402403/v1",
+  "date_local": "2026-11-05",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/05ed2f7fc0597fb9423c433072d5ed49d09ccc7b/docs/research/baiqi-p6-etemenanki74-evidence-2026-11-05.json",
+    "sha256": "a0d8aa6d111cd62a6af7e152b182e91d1febc6a15eac6ab9a6fbb8cf749aa1cf"
+  },
+  "models": [
+    {
+      "sequence": 402,
+      "mode_id": "http-candidate",
+      "max_tokens": 3000,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "post_begin": "2026-11-04T23:44:48.150727+00:00",
+      "attempt_end": "2026-11-04T23:45:01.213776+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 13041.091500024777,
+        "first_nonempty_content_delta_ms": 7679.256100032944,
+        "usage": {
+          "prompt_tokens": 53861,
+          "completion_tokens": 793,
+          "total_tokens": 54654
+        },
+        "cached_prompt_tokens_if_reported": null,
+        "json_syntax": {
+          "status": "VALID",
+          "top_level_type": "object",
+          "reason": "COMPLETE_STOP_JSON",
+          "error": null,
+          "offset_units": "Unicode code points",
+          "max_utf8_bytes": 1048576,
+          "semantic_review": "OWNER_REVIEW_REQUIRED"
+        }
+      },
+      "provenance": {
+        "schema": "civ6.local-model-adapter-provenance/v1",
+        "shared_repository": "https://github.com/XenoAmess/local-model-operations",
+        "shared_commit": "d04ed862bb4df930144aee7290d152925f322a4c",
+        "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "project_manifest_sha256": "6569a4532eeab2df51135f3b317068af7c2ef3a01dbe65c71735c9715ac00cea",
+        "overrides": {
+          "prompting.system_template": "You are an engineering collaborator for civ6_dev. Use only the supplied current source and contracts. Return a precise candidate or analysis for the final task. Do not invent APIs, missing facts, successful tests, or game outcomes. Distinguish observations from assumptions. Follow the requested output format."
+        },
+        "timeout_override": null,
+        "maintenance": "Delegated to canonical call.py CLI client_preflight, before HTTP"
+      },
+      "code_adoption": 0,
+      "root_cause_verified": false,
+      "owner_cost_seconds": null,
+      "net_savings": null,
+      "review": "Base selection callback-to-globalMove flow and downstream-observer limitation partly accepted. Generic focus/DPI/RawInput causes not proven; current input382 wraps both down/up plus move/interact. Proposed global OnInputHandler wrapper omits actual ContextPtr registration and effective derived-script qualification; no diagnostic fix/pass credit."
+    },
+    {
+      "sequence": 403,
+      "mode_id": "http-candidate",
+      "max_tokens": 3000,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "post_begin": "2026-11-05T00:09:39.721062+00:00",
+      "attempt_end": "2026-11-05T00:09:50.329756+00:00",
+      "result": {
+        "http_status": 200,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "total_ms": 10606.320600025356,
+        "first_nonempty_content_delta_ms": 5986.667599994689,
+        "usage": {
+          "prompt_tokens": 38454,
+          "completion_tokens": 708,
+          "total_tokens": 39162
+        },
+        "cached_prompt_tokens_if_reported": null,
+        "json_syntax": {
+          "status": "VALID",
+          "top_level_type": "object",
+          "reason": "COMPLETE_STOP_JSON",
+          "error": null,
+          "offset_units": "Unicode code points",
+          "max_utf8_bytes": 1048576,
+          "semantic_review": "OWNER_REVIEW_REQUIRED"
+        }
+      },
+      "provenance": {
+        "schema": "civ6.local-model-adapter-provenance/v1",
+        "shared_repository": "https://github.com/XenoAmess/local-model-operations",
+        "shared_commit": "d04ed862bb4df930144aee7290d152925f322a4c",
+        "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "project_manifest_sha256": "6569a4532eeab2df51135f3b317068af7c2ef3a01dbe65c71735c9715ac00cea",
+        "overrides": {
+          "prompting.system_template": "You are an engineering collaborator for civ6_dev. Use only the supplied current source and contracts. Return a precise candidate or analysis for the final task. Do not invent APIs, missing facts, successful tests, or game outcomes. Distinguish observations from assumptions. Follow the requested output format."
+        },
+        "timeout_override": null,
+        "maintenance": "Delegated to canonical call.py CLI client_preflight, before HTTP"
+      },
+      "code_adoption": 0,
+      "root_cause_verified": false,
+      "owner_cost_seconds": null,
+      "net_savings": null,
+      "review": "Completion-state readback direction partly accepted; GetDistrict(type,index) has supplied shipped source. Rejected runtimeID in GameInfo.Districts, city lookup at Campus plot, unqualified Plot:GetCity and GameCore Members. Before pillaged=false was already present; not all requested fields were missing. No product fix or code adoption."
+    }
+  ],
+  "client_inflight_peak": 1,
+  "new_http_attempts": 2,
+  "extra_retries": 0,
+  "cumulative_civ6_through403": {
+    "logical_requests": 403,
+    "complete_stop_json": 373,
+    "length_discarded": 27,
+    "final_transport_failed": 3,
+    "http_attempts": 433,
+    "extra_retries": 30
+  },
+  "maintenance": "Nov5same-machine/user1.19.5successcache reused through canonical CLI;0newOpenCode native generation.",
+  "opencode_native_generation": 0,
+  "owner_business_boundary": "Product74unchanged. Actual paid capture and retained wonder/works, missing Campus and negative loyalty are independently executed/read by owner; not model-generated game effects. Precompletion/cross-turn still unknown at referenced cutoff. No model root-cause/fix credit.",
+  "generic_lessons": [
+    "A downstream handler counter of0does not distinguish no OS input, UI consumption before context, or rejected dispatch; inspect actual registered callback and derived script. Changing a global name alone does not qualify a native callback registration.",
+    "Runtime object IDs cannot be queried in static definition tables. Native FindID nonnil can return a different complete generation ID; compare actual GetID and owner/coordinates before accepting identity.",
+    "A district collection includes state requiring completion qualification; before/after count difference without prior completion is not enough to select a repair. Previously observed fields must not be reclassified UNKNOWN by candidate prose.",
+    "UI and GameCore collection APIs differ; source in one context does not qualify Members or other methods in another. Use actual shipped indexed GetDistrict caller and qualify the current receiver.",
+    "Save ACKtrue and a bounded filesystem wait are separate. Owner wait expiry was recovered by stable verification of the same later file, without replaying Save or paid action. This was owner observation timing, not model transport failure."
+  ],
+  "owner_cost_seconds": null,
+  "net_savings": null
+}
