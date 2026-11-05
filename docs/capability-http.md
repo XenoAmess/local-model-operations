@@ -3380,3 +3380,12 @@ fixed3/DIRECT/max10000/thinkingfalse，09:41:30.933238→09:42:04.798236Z真实1
 412独立广审计1POST200／length／DONE，30806+4500tokens、31.8319134秒、TTFT4.2063264秒，JSONUNKNOWN、完整输出0阅读/0采用/0执行；完整原件保留。输入误供性能fixture另记owner准备不足，413改为实际mock的窄反例。累计至412：412逻辑／381完整／28length／3最终transport，442HTTP尝试／30extra，0新OpenCode原生生成，cached/人工节时null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-site411.json)。
+
+
+## 2026-11-05：Sway anchored/current 双角色候选完整 stop、齐全 API 下方法拒收
+
+新两目标任务提供9份actualJava265664B，返回JSON literal old/new owned spans。fixed3/DIRECT/max8000/thinkingfalse，10:59:19.912754→10:59:39.817664Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，19.9048527秒、有效内容TTFT7.2428865秒，reported54712+2299、cached=null；全文前缀与CONTENT=SSE字节审计零差异，原件先交owner。转权文字TASK3903/89a旧导航笔误，canonicalReady fc959814始终指向实际3911/63e51233，本次用了这个一致完整合同，不等ACK或改在途；不是模型输入错误。
+
+owner源审认可anchored/current与laterfresh、旧构造兼容及earlyBaseline方向，但新增captureCurrent用one-arg lease lambda，实际完整输入PlanningWork为(request,lease)两参；整方法拒收，0完整方法/0literalcopy/0partial splice/0rawJVM/noR2，非实际javac红。owner两PART于10:58:27/10:59:03分别先于POST独立完成，合并Ready10:59:41不冒称早于POST；8spans两源码outside逆还原精确。保83/262/captureFresh/cold规则，新增field/ctor/method仍需独立软件与实际装载证明，本切点不授软件绿或热重定义。
+
+只读491COMPLETED/491RELEASED，77READY不是并发，源码在途0。不能从完整2299输出授语义通过或预算改善、缓存/容量结论；cold545不execute、不借warm，不授Root/Native/Runtime/LOOP/SAVE/G2/性能。[脱敏原件pin、源码审拒与owner分层](evidence/2026-11-05-http-sway-anchored-planning-rejected-source.json)。

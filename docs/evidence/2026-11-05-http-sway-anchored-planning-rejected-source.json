@@ -1,0 +1,271 @@
+{
+  "schema": "local-model-operations.http-sway-anchored-planning-source-review/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T11:02:44.594336+00:00",
+  "task_id": "ordinary-sway-anchored-stage-current-planning-20261105-01",
+  "project": "CK3",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "input": {
+    "manifest_pin": {
+      "bytes": 4535,
+      "sha256": "fc959814437452170599bf465e0c3803f5154168384a937e4a8aff88b1ffcd06"
+    },
+    "contract_pin": {
+      "bytes": 3911,
+      "sha256": "63e5123356810c6a72ad8426bdd92c7d5757d0e5d6d12b6467ac37684999cba0"
+    },
+    "complete_current_Java_files": 9,
+    "full_bytes": 265664,
+    "all9_full_in_actual_REQUEST": true,
+    "REQUEST_pin": {
+      "bytes": 276324,
+      "sha256": "266c72ef666bc8dec01809df48764e77aa7c459c2ae3ed7059ab57e05c619dab"
+    },
+    "source_message_pin": {
+      "bytes": 267218,
+      "sha256": "c3781bb16786d8bec5562760b8c99507255bb3238d735182206feedbd4165141"
+    },
+    "files": [
+      {
+        "role": "target_actual_executor",
+        "bytes": 31848,
+        "sha256": "98e3f23c54bb61588123a89f93abb00829a4647df2104162da526bffd9124e50",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "target_actual_installer",
+        "bytes": 43327,
+        "sha256": "432cf2de9c2237bed6b668a01f68d7889710df4b629a2ec64b3fd64173f7e3a1",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_RootRuntimeContext",
+        "bytes": 29240,
+        "sha256": "a274ce6ddcaee756e033aecc545ddfb167ad7ee33135ea5f58e3a0c5f2a54dd2",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_NativeReadinessCollector",
+        "bytes": 119955,
+        "sha256": "5d34ff02c9694bb0e34d3f07eb4bad9054bdbf7bf61deb5e34b82c82e7a872a3",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_OrdinarySwayPolicyFactory",
+        "bytes": 1445,
+        "sha256": "922282cbe2fd33a9b96afedfffd176899c835984e95d618ce140d53c985b4041",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_SwaySessionInputs",
+        "bytes": 3835,
+        "sha256": "3922feed6e59b643df767bd8714bd3676d1bfda6c8f270cb8fc6cd89620bf642",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_PlanningRequest",
+        "bytes": 3328,
+        "sha256": "a3a08bf35a207ea8fe8314695bc80cd5a84057ad6978c6d0c5e8a7f812db233b",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_OrdinarySwayReadSource",
+        "bytes": 7534,
+        "sha256": "dd10acd788308a126b85ecce47064fad6a558e48727787ef1a3bad95c18905d9",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_FrameBasis_API",
+        "bytes": 25152,
+        "sha256": "fbdc19c9d5b34a1f990d2a75cefbf0570cbf4490a67356b7b284917a98a37a15",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ],
+    "navigation_difference": {
+      "owner_message_task_bytes": 3903,
+      "owner_message_task_sha_prefix": "89a141ae",
+      "canonical_manifest_and_actual_task_bytes": 3911,
+      "canonical_manifest_and_actual_task_sha256": "63e5123356810c6a72ad8426bdd92c7d5757d0e5d6d12b6467ac37684999cba0",
+      "resolution": "Canonical manifest exact owner-transferredfc959814 and actualcontract agree; use these complete current bytes without ACK barrier. No changed source/parameter/R2."
+    },
+    "exact_two_targets": [
+      "SwayOrdinaryExecutor",
+      "SwayRuntimeInstaller"
+    ],
+    "guidance": "Owner already diagnosed anchored-current versus true-fresh roles and specified API/capability retention/lease+FrameBasis/full rebuild qualification. No autonomous model discovery claim."
+  },
+  "contract": "Preserve execute83/requireFrame262, old public constructor ABI and actual fresh/cold behavior. Add anchored CurrentPlanning callback separate from latertruefresh. Retain only one complete original request DATA via real CapabilitiesPort callback, no Session/lease. captureCurrent must qualify actual currentPlanning(request,lease), basis/rebuild/current identity/source/session/observedAt before returning original. Later earlyBaseline after child must use fresh(parent).request. Cold original545 no execute or warm recovery authority. No new named type or fake fixture.",
+  "POST_BEGIN_UTC": "2026-11-05T10:59:19.912754+00:00",
+  "END_UTC": "2026-11-05T10:59:39.817664+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 8000,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "candidate_complete": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 7241.5894999867305,
+  "effective_content_TTFT_ms": 7242.886500025634,
+  "total_ms": 19904.85270001227,
+  "reported_usage": {
+    "prompt_tokens": 54712,
+    "completion_tokens": 2299,
+    "total_tokens": 57011
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1298,
+    "sha256": "ca8b15176a0a82ab8213d22c9daa25f76ebe174e42a4eaf563385c7238823fdc"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 10905,
+    "sha256": "551ae2dd75477952ca355880579153776082cea2dd080867e49e31c84aa3c148"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_before_audit_Git": true,
+  "source_review": {
+    "pin": {
+      "bytes": 2307,
+      "sha256": "a8f4a51778395ef3413ec70ccf73a68be07f95256ed016731da3b3b346437935"
+    },
+    "owner_review_at_utc": "2026-11-05T11:00:42.659133+00:00",
+    "semantic_direction": "anchored/fresh split, constructor compatibility and laterafterchild truefresh direction agree with supplied contract",
+    "whole_patch_adopted": false,
+    "complete_new_method_adopted": 0,
+    "literal_source_copied": 0,
+    "partial_method_adopted": false,
+    "raw_candidate_JVM": 0,
+    "R2": 0,
+    "failure": "captureCurrent uses a one-argument lease lambda although actual supplied PlanningWork.apply takes original request and lease; whole proposed method rejected, no splice. Source review, not observed javac failure.",
+    "full_actual_two_argument_API_was_supplied": true,
+    "navigation_difference_not_model_input_error": true
+  },
+  "owner_independent_source": {
+    "ready_pin": {
+      "bytes": 3940,
+      "sha256": "5b3b5c0993f5b0d450b10fe066a2e25af23e7f6b4eaaed3c892487c5941b5c9b"
+    },
+    "owned_spans_pin": {
+      "bytes": 7124,
+      "sha256": "115947d1422eb03c8b41f3b40f18e8ea611ccc13741d2936dc9d6daa59bd85a7"
+    },
+    "PART_pins": [
+      {
+        "bytes": 3019,
+        "sha256": "03525dd0901da1839aa415d79dce76148c0aa64a950e3798efb2288ca5737924"
+      },
+      {
+        "bytes": 3794,
+        "sha256": "52262f1bc7bd1ff6c8ecc3d28a1ee92cb9b7640e78881cd57c5d426e45367f7e"
+      }
+    ],
+    "eight_owned_spans_two_sources_inverse_exact": true,
+    "sources": [
+      {
+        "before": {
+          "bytes": 31848,
+          "sha256": "98e3f23c54bb61588123a89f93abb00829a4647df2104162da526bffd9124e50"
+        },
+        "candidate": {
+          "bytes": 32917,
+          "sha256": "6f120b3610e84404282b827c79bd699863b56c5c1e8275462f2558f854c62fbf"
+        },
+        "whole_outside_inverse_exact": true
+      },
+      {
+        "before": {
+          "bytes": 43327,
+          "sha256": "432cf2de9c2237bed6b668a01f68d7889710df4b629a2ec64b3fd64173f7e3a1"
+        },
+        "candidate": {
+          "bytes": 45366,
+          "sha256": "6bd39b4788c660883117bc676fcc50d83191031fd07f479e40a86bb684ca1c70"
+        },
+        "whole_outside_inverse_exact": true
+      }
+    ],
+    "owner_timeline": "Owner reports PART01 at10:58:27 and PART02 at10:59:03 both precede POSTBEGIN10:59:19; combined immutable Ready is10:59:41. Independent actual two-argument callback already written, no literal import after later raw review. Do not claim combined Ready predates POST.",
+    "new_declared_members": "One compatibility-preserving public executor constructor overload and one private Installer.captureCurrent method; existing guard bodies unchanged.",
+    "new_fields": {
+      "SwayOrdinaryExecutor": [
+        "currentPlanning"
+      ],
+      "SwayRuntimeInstaller": [
+        "volatile originalPlanning"
+      ]
+    },
+    "new_named_types": false,
+    "software_at_ready_cut": "NOT_RUN",
+    "captureFresh_body_exact": true,
+    "execute83_and_stagedFrame262_exact": true,
+    "earlyBaseline_after_child_true_fresh": true,
+    "old_cold_observe_exact": true,
+    "Native_result_newly_held_by_Models": "NOT_HELD_AT_THIS_SOURCE_CUT; independent necessary first is separate"
+  },
+  "operations": {
+    "queue_states_readonly": {
+      "dispatch.db": {
+        "COMPLETED": 491
+      },
+      "leases.db": {
+        "RELEASED": 491
+      }
+    },
+    "READY_records_not_concurrency": 77,
+    "source_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "same_day_OpenCode": "1.19.5 successful cache reused",
+    "service_global_load": "NOT_HELD",
+    "Models_JVM_SDK_C_GET_Game": 0,
+    "active_caller_config_service_Runtime_changes": false,
+    "owner_active_time_net_savings": null
+  },
+  "limits": [
+    "Complete stop and smaller reported2299 than finite8000 do not establish source correctness, output budget causality, cache or context capacity",
+    "Owner uses existing functional interface, but added fields/constructor/method require coherent typing/actual reload validation; no hot-redefine qualification from HTTP/source",
+    "No cold original545 execution, replay, deadline refresh or warm request authority",
+    "No private Root/Native planning positive, actual adoption/recovery, LOOP, day, SAVE, G2 or performance credit",
+    "Earlier length bodies/SSE remain whole unread/unhashed/noR2; current complete71 bytes only are audited"
+  ]
+}
