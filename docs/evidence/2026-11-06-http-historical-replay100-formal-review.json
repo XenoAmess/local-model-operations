@@ -1,0 +1,68 @@
+{
+  "schema": "local-model-operations.http-historical-first-display-replay-formal-review/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T21:30:25.900318+00:00",
+  "project": "CK3",
+  "unit": 100,
+  "prior_delivery": "2026-11-06-http-historical-first-display-unknown100-delivery.json",
+  "old_pending_delivery_and_indexes_preserved": true,
+  "review_pin": {
+    "bytes": 3117,
+    "sha256": "174388ddde0192d1d97461d03d063ffa1b4ace1af067c23dbd116a4ab17bcf47"
+  },
+  "review_at_utc": "2026-11-05T21:14:58.449338+00:00",
+  "complete_raw_pin_from_owner_review": {
+    "bytes": 32077,
+    "sha256": "96e6e7512fcab00ea84d73ad96c68bd20810cd1666006e8ee8317c284ac87394"
+  },
+  "owner_read_complete_CONTENT": true,
+  "source_span_occurrences_roles": [
+    {
+      "role": "Root",
+      "spans": [
+        {
+          "raw_old_occurrences": 0,
+          "LF_normalized_old_occurrences": 1
+        }
+      ]
+    },
+    {
+      "role": "EventPolicies",
+      "spans": [
+        {
+          "raw_old_occurrences": 0,
+          "LF_normalized_old_occurrences": 1
+        }
+      ]
+    },
+    {
+      "role": "SourceReviewed",
+      "spans": [
+        {
+          "raw_old_occurrences": 0,
+          "LF_normalized_old_occurrences": 1
+        }
+      ]
+    }
+  ],
+  "decision": "REJECT_ALL_CODE; owner three-source candidate and Ready were written independently before first reading raw content.",
+  "reasons": [
+    "Root misunderstands the recorded input as a plan containing unhandled_event_fallback. Frozen original_before is already the flat capture, so its nested has check is false and the actual unknown profile falls back to the old mutable path.",
+    "EventPolicies duplicates the historical producer instead of using the complete real firstDisplayed path: request.snapshot() is not the provided PlanningRequest API; failureCapture is not a parameter/local in the new helper.",
+    "The copied Option construction drops the actual sixth EventOptionAvailability.observation field and the corresponding full existing selection guard input.",
+    "Consumer repeats annotation instead of sharing the actual live projection body; it lacks full reconstructed fallback equality and closed original unknown audit/flags/native-binding+build checks. Its repeated nested fallback expectation also contradicts the frozen flat capture.",
+    "Generic type-safe/cause/permission claims in prose do not repair these concrete data/API/guard defects."
+  ],
+  "adoption": {
+    "whole_patch": 0,
+    "whole_method": 0,
+    "partial_method": 0,
+    "literal": 0,
+    "raw_candidate_JVM": 0,
+    "R2": 0
+  },
+  "owner_scope": "Owner Consumer3e217/Event5e597/Roota902 and any necessary qualification are independent. No actual produced vector, Root permission, observation success, timing or day/SAVE is granted by this review.",
+  "classification": "Complete-stop sourceDATA/API/guard rejection, not actualcompiler or rawpatchapplication. Eachrawoldspan0/LFnormalized1 does not repair logic. Ownerqualified3sourcewrittenbeforefirstrawread, noretrofitcode/typecredit.",
+  "Models_newHTTP_JVM_stockIO_Game_GET": 0,
+  "allolder_length_CONTENT_SSE_unread_unhashed": true
+}

@@ -3825,3 +3825,17 @@ fixed3/DIRECT/max10000/thinkingfalse，21:09:59.789113→21:10:43.955219Z真实1
 440—444五次canonical stop/DONE/VALID，Nov6成功维护缓存复用，0新OpenCode原生生成，全部0rawNative/product。owner修正nilrow/undefinedIdentity/反向noncivilian/fogread/missingSelf，7pure与9wrapper例、events8复用0新case。实际77只达到两军队BACKGROUND入队、143109/165与77/180、成本与财政快照，出生/军费/上限持续尚未授。累计through444444/413/28/3 HTTP474/extra30，未知缓存/人工节时null。完整1064既有软件不重复跑，实际QA继续。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-military444.json)。
+
+
+
+## 2026-11-06：100正式全拒与101独立publicDATA单case的8k整弃
+
+100原待审交付/index保，后到正式全文审全拒：Root把已flat的recordedfallback误当含nestedunhandled字段的plan，实际unknown永不命中新profile；EventPolicies复制producer漏第6availability、引用不存在request.snapshot/未声明failureCapture；Consumer重复annotation而未share全liveprojection/wholefallback等式/closedflags/nativebinding+build。三oldspan raw0/LF1只说明规范化匹配，不修DATA/API/guard；whole/method/partial/literal/rawJVM/R2全0，非compiler红。owner三源Ready在首次读raw前独立写及资格另层，未授当次vector/Root权限/观察/速度。[正式源审pin与旧切点](evidence/2026-11-06-http-historical-replay100-formal-review.json)。
+
+101是新1@Test publicDATA consumer非100R2：9全文215382B=3qualifiedprodJava+actualTrustedAPI+4wholeJSON+fullTestDraft，实际REQUEST全核。只新完整类，真实TrustedContext/生产lookup/ordinaryknown-vs-original差→historicalwholeargs与14197command仅action_id归一byteexact，ordinarylive仍known；一个extraauditfield拒+恢复正例。fixture只投影entry.source_facts.path，其余entry/facts/before/command不可改、四输入末复核。未来Native独占一case资源窗、实际pinnedstock验证不能假provider/skip；本岗仅已供DATA前缀/HTTP，0stockIO/JVM/Game/GET/停worker，DATA不授Root/Session/Nativeaction/现场vector。
+
+fixed3/DIRECT/max8000/thinkingfalse，21:26:47.319034→21:27:36.567425Z真实1POST/1END（本地Nov06），HTTP200/DONE/length8000/candidateCompletefalse，49.2483489秒/有效TTFT6.4618054秒/reported50067+8000/cached=null。CONTENT/rawSSE整份未开/解析/提取/hash，无正文auditor/拼接/续稿/R2，0class/method/partial/literal/rawJVM；caller1是length非瞬错，终态先告owner接管未等Git。[完整输入pin、真实成本与严格整弃](evidence/2026-11-06-http-historical-unknown-data-test101-length.json)。单@Test仍可耗尽8k，不能按方法数预认预算够或从未读稿猜错误；后继真正新fixture任务可审足有限预算，不为101改active参数/重发。
+
+101后到owner正式1130B/e613e453只读RESULT/SUMMARY并核length/incomplete，确认CONTENT/SSE整份未开/解析/提取/hash、whole/method/partial/literal/rawJVM/R2全0。owner独立接管此单DATA consumer，不续稿或重此HTTP；production正式发表/型验及当前healthyworker另层，不回授100/101raw，原length元数据切点保。
+
+只读521COMPLETED/521RELEASED、g0005当前5READY非并发、source0，旧归档/DB全史保；Nov06成功1.19.5缓存复用，0维护probe/本岗stockIO/JVM/Game/GET/JFR/参数改，无真实新源不造102。旧length含94/99/101全文/SSE持续未读未hash0/noR2，owner源/型/实际Root/恢复/SAVE/G2/性能各自另证，不回授raw。
