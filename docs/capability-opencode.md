@@ -448,3 +448,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-05：Civ6408正常回合读回
 
 0新OpenCode原生生成，canonical CLI普通HTTP前复用同机同用户Nov5成功1.19.5缓存。候选编译／部分字段结构参考、7项owner诊断及实际Native正常跨回合分别记账，缓存tokens和人工节时保持null。[精确业务证据](evidence/2026-11-05-civ6-recovery408.json)。
+
+
+### 2026-11-05：Civ6409最终建造次数诊断
+
+0新OpenCode原生生成，canonical CLI普通HTTP前复用同机同用户Nov5成功1.19.5维护缓存。编译／诊断方向参考、owner独立存档效果与原正常恢复分账，未知缓存tokens／人工节时保持null。[固定业务证据](evidence/2026-11-05-civ6-builder409.json)。

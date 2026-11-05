@@ -3270,3 +3270,10 @@ fixed3/DIRECT/max12000/thinkingfalse，07:15:08.918290→07:16:33.323046Z真实1
 fixed3/DIRECT/max2400/thinkingfalse，07:46:28.178782→07:46:38.314632Z真实1POST1stop，10.136055秒/有效TTFT6.5819701秒、51029+589tokens/cachednull。完整rawfa82先交Java，后CONTENT=SSE/审计0差异；交付cut源码采用pending、0candidateJVM/noR2，HTTP完整不授顺序修正/类型或实际history发布/Root/结算/LOOP/SAVE/G2/性能资格。483终态/483释放/69READY累计登记、源码在途0，finite63正常closed/caller0，0JVM/C/UI/GET/Game/活跃参数变更，完整主动成本与净收益未知。
 
 新小guardedlookup2400产完整589与前61/62复杂12k截断分案例保，不能从stop泛推语义通过/容量，62后到owner合同API归属错误仍独立分账。共享干净FF保留远端Civ6408附页3b5cd1b及其opencode/evidence，无caller/config修改，不以Git挡owner候选承接。
+
+
+## 2026-11-05：Civ6409，最后次建造的独立前后核对
+
+1普通HTTP POST200／stop／DONE／VALID，24829+1379tokens、12.4672977秒、TTFT3.4370995秒、峰1、0重试、cached=null。63行Lua编译，原稿0游戏执行；GetCharges／unitGetIndex／Name／returntable不合实际API及CMD消费者，缺上下文门和原地单位owner映射。只参考前后地块与单位缺失诊断方向，owner改用实际API及完整ID／可见性。
+
+精确prepared114与saved115正式加载读回：建造者1次劳动／原538无改良，后538农场、539农场保持、单位缺失；请求539→582→538→BUILD吻合，支持最后次数消耗，未直接计数UnitRemoved原因。Controller缺失分支清pending，不能虚构卡死；自动日志确认缺口保留，未写成功回执／重投。原正常114三上下文恢复。输入摘录遗漏归一化两行由owner后读源码限定，不归模型擅猜为事实。[精确业务pin及原件](evidence/2026-11-05-civ6-builder409.json)。
