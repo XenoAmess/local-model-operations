@@ -3565,3 +3565,10 @@ fixed3/DIRECT/max6000/thinkingfalse，14:58:09.886834→14:58:32.210672Z真实1P
 
 
 83 后到正式源审：完整patch/完整method/literal/rawJVM/R2均0。完整编码String键、原编码放catch外、candidatepolicy纳净wire gate方向接受，但ArrayNode直接接ObjectNode.get的JsonNode、Map/HashMap缺imports是source错误；混合不合格read被continue而非整体fallback、schema/protocol collision不足，以及remove+append丢原字段slot，使完整协议不能采用。ownerPART01独立在先，02自行保字段位置与policy，无raw literal拷贝；这不是actualcompiler红，不授owner后续type/DATA/实际净节省给原稿。[源审全文结论、原件pin和owner边界](evidence/2026-11-05-http-complete-item-dictionary-formal-review.json)。
+
+
+## 2026-11-05：Civ6capture424
+
+424完整stop/DONE/VALID，原UI缺end、建筑进度接收者错误，0原稿软件/Native。owner重写并实际发现Core缺UI专属接口，受保护输出UNAVAILABLE后分组修正，各8端口诊断并换回合前重读。实际后台新城生产正常2→3进度0→1/60，单回合范围明列；累计424逻辑／393完整／28length／3final transport、454HTTP／30extra，0新OpenCode生成，未知缓存/节时null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture424.json)。
