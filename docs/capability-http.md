@@ -2943,3 +2943,10 @@ Sway另由Java正式发表2f59b092并独核remote/clean，formal只映射一guar
 [新的双hunk实现单位](evidence/2026-11-05-http-registry-placeholder-continuation-candidate.json)给9完整当前137417B/4869B合同，before为实际采用3311，另给RegisteredEventCore2170全文及source-adoption pin，不用旧bd5冒当前。已源闭的Core FOREGROUND/empty/READ_ONLY占位本为后续continuation保留，当前提前finish造成ReadOnlyWait；只准紧邻原continuation一次，再走原finish，并仅对该stage同domain的emptyFore→presentFore允许原validateCommand后的窄guard例外。其余exclusive/完整finish/source/frame/deadline/proof全保，无新type/method/预算或Native权限；这是新真实消费者缺口，不是旧请求R2，旧三方法不覆盖此链。
 
 固定三消息/DIRECT/max4000，一次HTTP200/stop/DONE/有效JSON，10.3782684秒、有效TTFT4.0316521秒、29981+1058tokens、cachednull，4878B原件即交Java；CONTENT=SSE UTF8、审计0discrepancy。即时交接切点仅待源审，未授采用/编测/正式/实际恢复/提速，不等仍在冻的progress小原件/ACK/Git。461终态/461租约释放、0源在途，0JVM/UI/Runtime/Game/GET/controls或期限变更，无活跃参数改动、不R2，完整主动成本与净收益未知。
+
+
+## 2026-11-05：Registry 双hunk部分采用与旧调度正式切点
+
+[91cd64f2及7d718bf4源审独核](evidence/2026-11-05-http-registry-owner-source-later.json)补原pending：只原样采纳second legalMaterialization guardblock，已与完整raw postimage逐字匹配；first routing却仍令Core空占位finish，并删general Foreground gate使完整command落入lower，reason与code相反，全拒该hunk。owner重写result-first/仅Coreempty→紧邻continuation一次/之后原exclusive finish，属必要控制流语义修复，不能记为格式调整。f07fb0fe两span外逆还原精确、完整finish及原validateCommand在guard之前保留；此source切点编测未RUN、不R2，新Registry链需独立Test，不能借旧3P。
+
+另补先前dispatch3311的必要1TU2class首次0/4.0341194秒、完整2shape相等与close0释放，以及Java4115fb8f正式单loop+Testf616发表回执；这是旧单位交叉索引，不新增模型分母。raw3311/formal6cc有独立bytepin，EOL规范文本另核，不能凭发表授wholeformal组合软件。发表回执只导航Runtime26原BOOT/loaderSTART；后到LOOP及新placeholder缺口属于另外实际切点，不回授原raw控制流、实际offender或日SAVE/性能。本附页0新HTTP/JVM/Runtime/Game，旧切点保留，完整主动成本与净收益未知。
