@@ -3125,3 +3125,12 @@ owner Installer75232/308aa以单owned块逆换完整还原75016/9463，既有sou
 fixed3/DIRECT/max6500/thinkingfalse，1POST1stop，29.4264123秒/有效TTFT3.7900284秒、27733+4530tokens/cachednull；20448B完整raw先交Java，随后CONTENT=SSE/0discrepancy。owner全文源审拒两个完整新方法与wholepatch，partial未明确仍NOT_HELD，0candidateJVM/noR2，应用两叶接管、其它coherent叶并行。原稿仍调普通project而先被旧finalmatch拒，共用connCount累至2仍要求1；BigInteger/valueOf/Longparse、!x instanceof/import/未限定schema等源错保。这是源审拒收，不冒compiler/JUnit红，正式review pin后到另附，不把owner后继绿回授raw。
 
 474终态/474租约释放/0源码在途，finite54正常closed/caller0；0JVM/C/UI/GET/Game/参数变更，无私Rootcoldv4、连接角色行为、issuedlease、Runtime或事件结算资格，完整owner主动成本/净收益未知。历史STOP通知已撤回，持续续行与新唯一任务授权保；未改STOP文件或caller、不重旧终态、不造请求。
+
+
+## 2026-11-05：Reconciled READ 独立三案例 DATA Test 首派 length 整弃
+
+[新task55独立测试首派](evidence/2026-11-05-http-reconciled-event-read-data-test-length.json)按Ready02/TASK02发送37完整文件604317B（31Java、4JSON及2个JSON-in-bin），实际REQUEST逐份全文核验；Ready01仅未派准备保留。6个Native原件只具名pin，dispatch1968/prepared395为完整JSON前缀，原actualREAD ACK ref明确NOT_HELD。要求公共结构DTO正例、pending/source/typedfacts负例与strictv4/实际Factory拒非READ ACK；DTO明确unissued/wrong-role，不能冒真READ、Root issuer或custody，原expected19/actual25不改，实际Root/archive正例由Runtime另证。
+
+fixed3/DIRECT/max8000/thinkingfalse，04:51:40.144341→04:52:43.069942Z真实1POST1END，HTTP200/DONE但length，62.9255541秒/有效TTFT18.9818611秒、148320+8000tokens/cachednull。CONTENT与rawSSE整份未开、未解析、未提取、未哈希，不运行读取正文的审计器，0代码/方法/partial采用、0modelJVM/noR2；owner接管原三案例。状态回传晚于真实END，Root先独核元数据并通知owner，此延迟不扩为HTTP时长或继续冒报在途。
+
+475终态/475租约释放/61READY登记不是61并发，源码在途0，finite55正常closed/caller1为length而非软件编测红。后到Journal03只由owner绑定最终CP，不改原37inputs或重POST；0新JVM/C/UI/GET/Game/参数变更，无READ/Root发行/Runtime/事件结算/SAVE/G2/性能资格。完整owner主动成本与净收益未知，旧source/rejection切点保留，不以单次length推断永久能力上限。
