@@ -3456,3 +3456,12 @@ fixed3/DIRECT/max12000/thinkingfalse，11:35:00.587467→11:36:30.232978Z真实1
 417完整stop/DONE/VALID，精准TRANSFERRED余额边界及6行cleanup原样方向采用；原稿覆盖旧namespace、发布失败留wrapper、丢参数，owner修正并6软件资格。0原稿Native。实际75同进程／新进程正凭证恢复分支独立核算，退出异常及只清理自有QA限制明确，Steam未终止未上线。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture417.json)。
+
+
+## 2026-11-05：Sway final-read 真原因窄诊断候选完整交付
+
+新75仅两NonKnown失败消息保留真实typed Unavailable.reason且bounded1024，Known/guard/原frame与FullPlan绑定/期限/失败路径/时序全保。6全文110597B（4actualJava+2完整私有JSON），fixed3/DIRECT/max3000/thinkingfalse，12:32:47.324940→12:32:56.221768Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，8.8968597秒、有效内容TTFT4.0959112秒，reported30637+848、cached=null。输入实际REQUEST全文核实，CONTENT=SSE字节审计无差异，原件先交owner；本交付切点采用待审、0rawJVM/noR2。原Run五key语义错误与最终NonKnown原因分开，不能strip字段/改verifier/换request，更不授诊断-only盲GET、重parent/query/service/清scheduler。[交付与诊断边界](evidence/2026-11-05-http-sway-final-read-diagnostic-delivery.json)。
+
+72/73/74后到owner软件另账：组合Domain+Batch两TU真实0/31class/11.855108秒，31名称一致但28结构同、3变化，normal loader必需；旧模板single-span标签按实际Domain8+Batch1解释，不授body重定义。owner独立新8489B Test方法1TU3class首编0/5.5898699秒，exact新1P/JVM8.2639374秒/XML6.03秒；3routing、3缺原件、2原SHA tamper与1fullyrepinned错StageParent实际消费者拒，原空profile作同方法内control。旧2及其它方法未RUN、生产31/Support未重编；三phase close0/fence/terminal/释放全闭，新增方法移除后全旧15736B逆还原精确。72semantic同但literal0；73length全文SSE未读未hash；74错方法全拒，不回授这些owner软件结果。UNISSUED repin不是实际文件身份/私Root证明；业务a1c0c628为owner具名正式回执，实际Runtime556消息未由Models独核整态，不授live/LOOP/SAVE/G2/性能。[型验、1P与正式分层](evidence/2026-11-05-http-sway-recorded-stage-owner-software.json)。
+
+只读495COMPLETED/495RELEASED、81READY不是并发，源码在途0；后见不另发请求、编测、Game/GET或变更活跃参数。实际functional方案仍由owner+p0按完整证据独立推进，不等运营。

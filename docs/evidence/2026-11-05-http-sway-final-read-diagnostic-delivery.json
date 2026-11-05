@@ -1,0 +1,166 @@
+{
+  "schema": "local-model-operations.http-sway-final-read-diagnostic-delivery/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T12:38:03.590104+00:00",
+  "task_id": "ordinary-sway-final-root-read-cause-diagnostic-20261105-01",
+  "project": "CK3",
+  "machine_id": "xenoamess-full-tower-eb9d2c1186",
+  "input": {
+    "manifest_pin": {
+      "bytes": 2776,
+      "sha256": "aa3750984c27dc74f1439027f2415cab2376799ded0ab5a03e7af2a86d9527c0"
+    },
+    "task_pin": {
+      "bytes": 2644,
+      "sha256": "81696a1d6e112010b0f939d9090142ef226629ddd330727b34c3630a5c90829d"
+    },
+    "full_files": 6,
+    "full_bytes": 110597,
+    "actual_Java": 4,
+    "whole_private_actual_JSON": 2,
+    "typedUnavailable_reason_API_complete": true,
+    "all6_full_in_actual_REQUEST": true,
+    "REQUEST_pin": {
+      "bytes": 118616,
+      "sha256": "ff143f07d42d764297856d36ab87b4ffc0000b0b5e4d6fa7268871218c7abd32"
+    },
+    "source_message_pin": {
+      "bytes": 111629,
+      "sha256": "9d4447c0117bc34a0edd60e49bb2549e7dbbac7fe830f2f9ed5fec7f21987e79"
+    },
+    "files": [
+      {
+        "role": "target_actual_Executor",
+        "bytes": 32917,
+        "sha256": "6f120b3610e84404282b827c79bd699863b56c5c1e8275462f2558f854c62fbf",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "target_actual_Installer",
+        "bytes": 45188,
+        "sha256": "b09ab24064eda49f4a1055f05777068b766fad7047e86aacf80ce20fca8b9a6f",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_typed_Unavailable",
+        "bytes": 2058,
+        "sha256": "d4ec175a46b5dd38b276b76335cf3b6fc3deaba2dde8cf464c8437971ea9d4fc",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_reason_projection",
+        "bytes": 4030,
+        "sha256": "b6475bcee67044ceec51650995e5c92728499bd866b9b70fb7ea415139ed684c",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_failure",
+        "bytes": 25791,
+        "sha256": "df54b545e9111ba84a2a8c219d54715b3aa74f278b443b55751fc635073350a7",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "actual_run_distinct_error",
+        "bytes": 613,
+        "sha256": "a27dd9da6f0db798f68cbac7c74f89195b62378c4413cff4f0f9b645115e863e",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ]
+  },
+  "owner_precise_contract": "Only Executor.captureFinal and Installer.independentFinal NonKnown failure messages retain actual PlanningReadResult.Unavailable.reason, clipped1024, safe subtype fallback/noarbitrarytoString/fullobject dump. Known/frame/fullPlan/source/session/guard/deadline/custody/order/throwpath intact. Actual earlierRun fivekey semantic failure is different from discarded finalNonKnown reason; no stripfivekeys/swapverifier/fakeFreshPlan/clearScheduler/rerun/service/query/diagnostic-onlyblindGET. Functionalper-read/stageddata design separate owner+p0 proof.",
+  "guidance": "Owner diagnosed message loss and prescribed existing API/exact two sites; no autonomous model discovery claim.",
+  "POST_BEGIN_UTC": "2026-11-05T12:32:47.324940+00:00",
+  "END_UTC": "2026-11-05T12:32:56.221768+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 3000,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "candidate_complete": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 4094.842799997423,
+  "effective_content_TTFT_ms": 4095.911199983675,
+  "total_ms": 8896.85969997663,
+  "reported_usage": {
+    "prompt_tokens": 30637,
+    "completion_tokens": 848,
+    "total_tokens": 31485
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1296,
+    "sha256": "61177d6151534ec5172b130e5c1677ad9a0ee84dee12728ce7789cff17fd13fd"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 3652,
+    "sha256": "9c07fd35bf02c16fe44a91723df5215bdd7f3beb334ac01a0d121708c20c43ae"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_before_audit_Git": true,
+  "adoption_at_delivery_cut": {
+    "whole_owned_spans": "PENDING_OWNER_REVIEW",
+    "literal_partial_code": "PENDING_OWNER_REVIEW",
+    "raw_JVM": 0,
+    "R2": 0
+  },
+  "operations": {
+    "queue_states_readonly": {
+      "dispatch.db": {
+        "COMPLETED": 495
+      },
+      "leases.db": {
+        "RELEASED": 495
+      }
+    },
+    "READY_records_not_concurrency": 81,
+    "source_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "same_day_OpenCode": "1.19.5 successful cache reused",
+    "global_service_load": "NOT_HELD",
+    "Models_JVM_SDK_C_GET_Game": 0,
+    "active_caller_config_service_Runtime_changes": false,
+    "owner_active_time_net_savings": null
+  },
+  "no_credit": [
+    "source/semantic/software pass from transport/byteaudit",
+    "actual discarded finalcause discovered or same as earlierRunerror",
+    "scope/guard/root functional correction",
+    "diagnostic-onlyGET, parent/service rerun or immutable scheduler state change",
+    "private Root/Native/Writer authority, Runtime/LOOP/day/SAVE/G2/performance"
+  ]
+}
