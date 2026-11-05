@@ -3667,3 +3667,14 @@ fixed3/DIRECT/max3000/thinkingfalse，17:09:52.626282→17:10:14.857119Z实际1P
 后到正式源审单oldspan经LF归一匹配1次，强coldconsumer语义接受、无issuer/frame替换；但owner03在读raw前已独立封包并交Native，completepatch/method/literal/rawJVM/R2仍0。不能把语义agree改成代码采用，亦不回填owner03后到only1TU24型验或实际675结算为model绿。早交付待审切点与后到审稿分列。
 
 只读509COMPLETED/509RELEASED、95READY非并发、source0，无新sole需求不造90；0本岗JVM/Game/GET/业务decisionHTTP/额外维护探测/活跃参数改变，旧length全文/SSE未读未hash。行政openbatch零新信用、私Root/实际RETAIN/SETTLE/LOOP/SAVE/G2/净收益另证。[完整来源、成本、有效提案与零代码采用](evidence/2026-11-06-http-sway-completed-scheduler-cold-consumer.json)。
+
+
+## 2026-11-06：own-scope 方法数值计时90 双目标完整交付
+
+新90完整提供6份543625B（5actualJava+完整3901B scopeproof），仅Completion/Writer两目标，Core/Journal/Archive上下文不改。Writer只纯ACTIVE_SESSION当前线程bool（含foreign），不授Session/ownership/unlock，旧方法逐字保；Completion仅无继承scope入口分配14个primitive计数/nanos，pre_callback不是lockwait，duration inclusive/overlap不合称exclusiveCPU/整OBS/PLAN。静态finishPlanningReads/finishOriginalWork字节保持、原work/flush/replan/guard调用次数/顺序、异常优先级/suppressed/interrupt全保。
+
+core.withBorrowed只有正常返才置coreReturned，原round与released点不移，ownscope确已物理释放才outerfinally至多1条固定schema纯numeric摘要；core/close失败和inherited/offround无摘要，后续released抛原错误不替换。只允许best-effort不携session/source/frame/request/error/path，不后台线程、不finallyflush、不改SessionClock/旧期限，不把线程scope事实当权限。健康worker继续，不C/GET/Game/JFR/编测或实际模型输入修改。
+
+fixed3/DIRECT/max9000/thinkingfalse，17:38:58.925612→17:39:34.222335Z真实1POST/1END（本地Nov06），HTTP200/DONE/stop/JSONvalid，35.2966276秒、有效内容TTFT13.6754984秒，reported105835+3813、cached=null。实际6全文与TASK核符，CONTENT=SSE审计errors/差异为空，原件先交Java后audit/Git；交付采用切点待源审、0rawJVM/noR2，完整传输不授API/generic/checkedthrows/原业务语义/释放/软件或速度。
+
+只读510COMPLETED/510RELEASED、96READY非并发、source0，无新sole需求不造91。0本岗JVM/Game/GET/JFR/业务decisionHTTP/额外维护probe/活跃参数改变；旧length全文/SSE未读未hash，后到source/type/软件/正常日志/实际phase与SAVE性能分层另证。[来源pin、精确成本与scope/异常强义务](evidence/2026-11-06-http-planning-own-scope-method-timing-delivery.json)。
