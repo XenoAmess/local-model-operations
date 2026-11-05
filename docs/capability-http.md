@@ -3517,3 +3517,10 @@ fixed3/DIRECT/max8000/thinkingfalse，13:03:07.601573→13:03:56.882853Z真实1P
 fixed3/DIRECT/max4000/thinkingfalse，13:26:42.902868→13:27:07.572937Z实际1POST/1END，HTTP200/DONE/stop/JSONvalid，24.6699466秒、TTFT23.0575882秒，reported179470+298、cached=null。5份实际全文与CONTENT=SSE核实，原件先交owner后audit/Git；finite80正常回收。源审整patch拒收：只把helper加到本已true的legacyPending，未把独立role穿过PendingRole并加到RUNNING OR，实际gate仍空；旧literal缩进也不匹配。完整method/literal/rawJVM/R2均0；owner在读raw前独立四span及型验另记，不追认原稿有效。
 
 后见只读500COMPLETED/500RELEASED、86READY非并发，当前source0；无下一真实完整源需求不造调用。298token小完整输出并不能说明集成正确，也不从本案推出预算/缓存/容量因果；旧length整份未读未hash。0本岗JVM/Game/GET或活跃参数变更，原parent终态/私Root权限/实际Runtime/LOOP/SAVE/G2/性能另证。[完整输入、原件pin、成本与正式拒收](evidence/2026-11-05-http-sway-saved-bootstrap-routing-delivery.json)。
+
+
+## 2026-11-05：Civ6capture420
+
+420完整stop/DONE/VALID，但两读者把配置身份方法误调Player，实际端口替身均失败，0原稿Native。ownerCore／UI各6诊断后读原73保存点，确认自由城市并纠正文档和城邦验收标签，真实1100／资产数据及原证据原件保留。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture420.json)。

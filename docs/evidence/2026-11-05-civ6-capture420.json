@@ -1,0 +1,60 @@
+{
+  "schema": "local-model-operations.civ6-capture420/v1",
+  "utc": "2026-11-05T13:45:06.390289+00:00",
+  "date_local": "2026-11-05",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/ea511a4480557b060bab773207ef0f7e7ae0a153/docs/research/baiqi-p6-audit420-free-cities-classification-evidence-2026-11-05.json",
+    "sha256": "bf124eccdbd91d5c53df6f8a6b305e965f0b90ee33194595e769d77d6e19a025"
+  },
+  "model": {
+    "shared_commit": "9b53750f68c25c260c4af612ebe7d4fbfe0e4ab3",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "attempts": 1,
+    "extra_retries": 0,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 52165,
+      "completion_tokens": 728,
+      "total_tokens": 52893
+    },
+    "total_ms": 11576.561099966057,
+    "ttft_ms": 6754.8730999697,
+    "cached_prompt_tokens": null,
+    "raw_reader_lua_compile": true,
+    "diagnostic_cases_per_owner_reader": 6,
+    "owner_readers": 2,
+    "raw_candidate_native_execution": 0,
+    "raw_candidate_actual_port_fixture": "Both readers call Player.GetLeaderTypeName/GetCivilizationTypeName, absent in actual supplied port. Isolated actual-port fixture errors before any Native use.",
+    "adoption": "Historical city/original/actor reader direction and correction boundaries; owner rewrites via PlayerConfigurations, proper Civilization.Name localization, scene/fullID/context and protected availability.",
+    "maintenance": "Nov5 canonical successful1.19.5 same-user/machine cache;0new OpenCode native generation",
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical": 420,
+    "complete_stop_valid": 389,
+    "length_discarded": 28,
+    "final_transport_failed": 3,
+    "http_attempts": 450,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "historical_native_audit": "Exact original73prepared save hash reloaded under75. Core/UI both62=FREE_CITIES, levelFREE_CITIES, localized自由城市,2cities, expected city/actor/gold/journal. Original legacy public JSON bytes/hash preserved; city-state acceptance withdrawn only for this sample, actions/assets retained.",
+    "limits": "No capture replay. Default background mod MOVE logs noted; file unchanged, not entire in-memory snapshot untouched. Other worlds/envoy tests not reclassified. Original normal114restored."
+  },
+  "generic_lessons": [
+    "A player numeric ID and non-major status do not establish City-State classification; read actual configuration and civilization level.",
+    "Use PlayerConfigurations for leader/civilization identity, not Player method guesses.",
+    "Correct a claim without discarding valid observed actions/assets; preserve immutable evidence and add fixed-pin audit links.",
+    "Historical evidence correction must use its exact saved scene; current-world enumeration alone is insufficient."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Classification correction for exact377382QA sample, not generic City-State support failure or other-world diplomacy reclassification. Product75 unchanged since full1048; unknown caches/costs/savings null."
+}
