@@ -2913,3 +2913,10 @@ Sway生产原新逻辑whole/partial均0，owner13ff只有一guard span外逆还�
 [16完整源的独立新Test](evidence/2026-11-05-http-exclusive-dispatch-independent-test-source.json)给210522B/8162B合同，稳定owner Planner API不变，只向既有38595B类加三无参方法/imports/最多两小helper；成熟fixture不计模型新工作。max6500、固定三消息/DIRECT，一次HTTP200/stop/DONE/有效JSON，25.7033991秒、有效TTFT6.0853682秒、46581+3506tokens、cachednull，15934B原件即交p0；CONTENT=SSE UTF8、审计0discrepancy。
 
 owner全文源审0完整新增方法/0modelJVM并接管：result类型推断后重赋不兼容、重赋planner被lambda捕获；A/B同body、finish仍同command不能触304，completion及trace顺序/次数未实断，unsupported输入改map却未接actualCore，hunk位置/计数也错。partial未明确，保NOT_HELD；以上不是实际javac/Test红，不R2。460终态/460租约释放、0源在途，0JVM/UI/Runtime/Game/GET，实际offender仍未知；owner后继源码/软件/正式/实际恢复独立记，不能以stop或旧scaffold授通过，完整主动成本与净收益未知。
+
+
+## 2026-11-05：Sway owner cohort 后到真实两方法通过
+
+[87526be6及原ACTUAL/XML独核](evidence/2026-11-05-http-sway-owner-software-later.json)在旧source切点之外追加：owner生产13ff仅1TU14class首次0/6.7035403秒、完整14shape相等；新修后Test7658仅1TU2class首次0/3.3605358秒，exact2新方法真2P、JUnit进程3.3828353秒、XML suite时长另列。实际pin→config/BEGIN/post/terminal、全部输出class/SourceFile及XML两精确方法均核，stderr0/allclose0/fenced/released；0旧golden210/309/Support编跑。
+
+构造器模型114token完整稿新逻辑whole/partial仍0，生产owner100；Test仅partial helpers/cases/asserts，经owner修identity/callback与补断言，未原样采用整类/完整方法。最终2P不回授raw，97匹配文本行含imports空白、不算有效LOC或净工时。软件仅caller DATA标签/指纹/source保留与真实Service.stage边界，14shape相等及隔离装载不授实际VM redefine/Runtime、running-source proof、自然M6/G2/SAVE/速度；formal另有actor/target outside差异不冒wholeformal资格。本附页0新HTTP/JVM/UI/Runtime/Game，完整主动成本与净收益未知。
