@@ -3725,3 +3725,10 @@ fixed3/DIRECT/max6000/thinkingfalse，18:56:36.536538→18:57:12.526321Z真实1P
 随后正式全读源审：四处routing及区分FinishedDirty方向同意，但首oldspan只有Interrupted helper header，新span却含旧完整helper加新helper，替换后原body仍悬空/重复，完整patch不合法；whole/method/partial/literal/rawJVM/R2全0，属于源审patch结构拒收，非实际compiler红。owner候选在完整raw审前已独立写/型验，Java报告单TU24CF0/10.375秒另层，本岗不重审软件或回授raw。交付pending旧切点保，不授实际bootstrap/旧8/三newfailure/clean/P052/速度。
 
 只读513COMPLETED/513RELEASED、99READY非并发、source0。Nov06成功1.19.5缓存复用，无额外维护probe/本岗JVM/Game/GET/JFR/活跃参数改；无下一真实完整需求不造94，旧length全文/SSE持续未读未hash0采用/noR2，后到owner源/型/实际恢复分层另加，不改原pending交付切点。
+
+
+## 2026-11-06：Civ6production432435
+
+432—435四个真实任务通过canonical普通HTTP均完整stop/DONE/VALID，同日复用Nov6OpenCode1.19.5维护，0新原生生成。432端口/集合错误拒用，owner修正真实Religionport后Core/UI各6例；433原观察器失去namespace且混函数/事件，owner8例和变更标量读出3例后实际Native；434捏造总督状态、误单位/成本和food字段拒用，owner5例及实际晋升/规则读回；435只采用解读阶段结构，负责人重写具体玩法、时间和边界。Native正常新移民生产175/人口10→9→10子项通过，三图与前后正式保存点入业务库，fullTC015未闭。累计截至435逻辑435/完整404/length28/finaltransport3，HTTP465/extra30，未知缓存/人工节时null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-production432435.json)。
