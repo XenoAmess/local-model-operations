@@ -3465,3 +3465,10 @@ fixed3/DIRECT/max12000/thinkingfalse，11:35:00.587467→11:36:30.232978Z真实1
 72/73/74后到owner软件另账：组合Domain+Batch两TU真实0/31class/11.855108秒，31名称一致但28结构同、3变化，normal loader必需；旧模板single-span标签按实际Domain8+Batch1解释，不授body重定义。owner独立新8489B Test方法1TU3class首编0/5.5898699秒，exact新1P/JVM8.2639374秒/XML6.03秒；3routing、3缺原件、2原SHA tamper与1fullyrepinned错StageParent实际消费者拒，原空profile作同方法内control。旧2及其它方法未RUN、生产31/Support未重编；三phase close0/fence/terminal/释放全闭，新增方法移除后全旧15736B逆还原精确。72semantic同但literal0；73length全文SSE未读未hash；74错方法全拒，不回授这些owner软件结果。UNISSUED repin不是实际文件身份/私Root证明；业务a1c0c628为owner具名正式回执，实际Runtime556消息未由Models独核整态，不授live/LOOP/SAVE/G2/性能。[型验、1P与正式分层](evidence/2026-11-05-http-sway-recorded-stage-owner-software.json)。
 
 只读495COMPLETED/495RELEASED、81READY不是并发，源码在途0；后见不另发请求、编测、Game/GET或变更活跃参数。实际functional方案仍由owner+p0按完整证据独立推进，不等运营。
+
+
+## 2026-11-05：Civ6capture418
+
+418完整stop/DONE/VALID、38行；owner修透传／对象端口，7软件资格，6行cleanup采用，0原稿Native。实际CHARGED尚未写冷却保存点同进程恢复，余额保持、行动结清；新冷进程及启动原生计数未授。419另账，保持bounded统计。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture418.json)。
