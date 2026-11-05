@@ -3481,3 +3481,12 @@ fixed3/DIRECT/max12000/thinkingfalse，11:35:00.587467→11:36:30.232978Z真实1
 fixed3/DIRECT/max10000/thinkingfalse，12:46:41.610690→12:47:06.702164Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，25.0915419秒、有效内容TTFT12.9818687秒，reported101734+2219、cached=null。实际REQUEST中14全文逐一核实，CONTENT=SSE审计errors/差异为空；完整原件先交owner后audit/Git。交付切点采用待审、0rawJVM/noR2，不由完整输出授scope、类型或functional通过；与75仅诊断组件是独立新任务，不是重试。
 
 只读496COMPLETED/496RELEASED、82READY不是并发，源码在途0。新default/generic/implements等成员仍需cohort与正常loader实际资格，不授hot redefine；不授权盲GET、重stage/query/service/parent或scheduler改写。旧length全文SSE未读未hash保；软件、私Root/Native/Writer、coldSaved、实际运行、LOOP/SAVE/G2/性能分账。[完整输入pin与交付边界](evidence/2026-11-05-http-sway-qualified-fresh-planning-delivery.json)。
+
+
+## 2026-11-05：Sway SavedScheduler 冷恢复双目标完整交付，WRITER_UNKNOWN 独立未闭
+
+新77完整提供14份640693B（9冻结actualJava+5完整私有actualJSON），仅Batch严格同owner exactBATCH_STARTED的RUNNING真实SavedStage DATA及Domain历史Scheduler角色；保旧nil/stage/Life/guard和publictwoarg currentAPI，不伪repair，不将历史重放再套未来currentledger。真实storedSchedulerSaved/canonical/RunStage/Rootread/service/reducer/independentFinal/children完整证明仍需运行；独立readHistory WRITER_UNKNOWN及后到lockbusyWin33未因本单位闭合，不能授GET或重执行旧parent。
+
+fixed3/DIRECT/max8000/thinkingfalse，13:03:07.601573→13:03:56.882853Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，49.2812226秒、有效内容TTFT20.437435秒，reported159338+5189、cached=null。实际REQUEST14全文逐一核实，CONTENT=SSE审计errors/差异为空，原件先交owner后audit/Git。交付切点采用待审、0rawJVM/noR2；非75/76重投，完整传输不授source/软件/冷恢复通过。
+
+只读497COMPLETED/497RELEASED，83READY不是并发，源码在途0；文档后见不另发模型请求、编测、Game/GET或变更活跃参数。其它finite8k/10k/12k结果与本次5189输出并列，不推出预算因果/永久容量/缓存结论；旧length正文/SSE整份未读未hash保，私Root/Native/Writer、actualRuntime/LOOP/SAVE/G2/性能另证。[完整输入pin、成本与未闭边界](evidence/2026-11-05-http-sway-saved-scheduler-cold-delivery.json)。
