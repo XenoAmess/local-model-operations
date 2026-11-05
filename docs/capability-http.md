@@ -3551,3 +3551,17 @@ fixed3/DIRECT/max8000/thinkingfalse，14:09:24.063373→14:10:03.009984Z真实1P
 421—423三次完整stop/DONE/VALID、0原稿Native；421冒号field编译错，422数组GetCount不符真实端口，423未防nil集合。owner分别Core/UI各6、6端口、Core/UI各6诊断后实际真城邦付费及存读档窄验，三图入库。累计423逻辑／392完整／28length／3final transport、453HTTP／30extra，0新OpenCode生成，缓存和节时null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-05-civ6-capture423.json)。
+
+
+## 2026-11-05：Saved+open82 全拒与合同修正分账，complete-item 字典83 首次完整交付
+
+82 后到正式源审整patch拒，完整methods/literal/rawJVM/R2全0。共享privateentry与旧legacy路径方向同合同，但actualState无digest()、缺类型限定，require(boolean)不把pattern变量带出调用，completed/basis周期与legacy saved进度混同导致真实目标拒收；这些是source发现，不是原稿实际compiler红。原Task要求latest.sequence==current.sequence，模型遵守；owner后来为合法administrative事件放成<=并保真实currenthead/maxset/privateRole/fullhistory，属于输入义务修正，不能算模型违约。原delivery待审切点不改，owner独立源/型/私恢复另证。[正式审稿、owner输入更正及原件pin](evidence/2026-11-05-http-sway-saved-open-batch-formal-review.json)。
+
+独立83只当前Selector一个目标，完整3份92999B（actualSelector、actualFullJsonTree及完整字节分析）；外部1724435B原业务request只ownerpin/path，未读取、未hash、未送prefix。先等真实encoderbudget叶，canonicalReady后首次派发；TASK02在任何POST前把draft结构相等修成完整有序encoder字节相等，数值token与嵌套fieldorder都保，旧draft未派/非R2。可选fullfallback item字典必须保完整73history/逐row身份/全item/unknown/顺序/重复，alias/collision/混合拒或无净节省exact原bytes，candidatepolicy开销纳严格wire比较；不改Guard/命令/原编码预算或实际业务请求，原编码/IO/authority错误不能吞入可选fallback。
+
+fixed3/DIRECT/max6000/thinkingfalse，14:58:09.886834→14:58:32.210672Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，22.3237239秒、有效内容TTFT2.8455557秒，reported21405+3317、cached=null。实际3全文与TASK02核符，CONTENT=SSE审计errors/差异为空；原件先交owner后audit/Git。采用切点待源审，0rawJVM/noR2，完整传输不授协议roundtrip/fallback/软件/实际业务净节省。[精确输入、合同变化、参数与成本](evidence/2026-11-05-http-complete-item-dictionary-delivery.json)。
+
+只读503COMPLETED/503RELEASED、89READY非并发、source0；无新sole需求不凑84。0本岗JVM/Game/GET/运行期decisionHTTP/活跃参数变化，旧length全文/SSE未读未hash；后端cache/context/容量和owner净节时未知，不从小窗tokens或TTFT推出永久能力边界。
+
+
+83 后到正式源审：完整patch/完整method/literal/rawJVM/R2均0。完整编码String键、原编码放catch外、candidatepolicy纳净wire gate方向接受，但ArrayNode直接接ObjectNode.get的JsonNode、Map/HashMap缺imports是source错误；混合不合格read被continue而非整体fallback、schema/protocol collision不足，以及remove+append丢原字段slot，使完整协议不能采用。ownerPART01独立在先，02自行保字段位置与policy，无raw literal拷贝；这不是actualcompiler红，不授owner后续type/DATA/实际净节省给原稿。[源审全文结论、原件pin和owner边界](evidence/2026-11-05-http-complete-item-dictionary-formal-review.json)。

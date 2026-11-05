@@ -1,0 +1,61 @@
+{
+  "schema": "local-model-operations.http-complete-item-dictionary-formal-review/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T15:01:46.127085+00:00",
+  "task_id": "ordinary-declarable-war-complete-item-dictionary-20261105-01",
+  "earlier_delivery_pending_cut_unchanged": "2026-11-05-http-complete-item-dictionary-delivery.json",
+  "formal_source_review_pin": {
+    "bytes": 2682,
+    "sha256": "99f0249f821328c64fce9c77d91a7b3bff25fd6b5861647025ce0e8b9649c7c5"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 15042,
+    "sha256": "884d7ce4e3fce38110b318d3bc8a7f45cadd057856926032cf54f6b6754933a0"
+  },
+  "parse": "Complete JSON, one replacement object; content read in full after complete stop.",
+  "grade": {
+    "complete_patch_accepted": false,
+    "complete_methods_adopted": 0,
+    "literal_source_copied_bytes": 0,
+    "raw_patch_jvm_runs": 0,
+    "R2": 0
+  },
+  "accepted_semantics": [
+    "Only full-fallback optional item dictionary; compact early returns remain.",
+    "Full encoded item String keys instead of JsonNode equality, complete values and ordered per-read refs.",
+    "Ordinary encoding outside optional RuntimeException catch; candidate policy included in strict wire-byte size gate."
+  ],
+  "specific_rejections": [
+    {
+      "type": "uncompilable_declared_type",
+      "evidence": "ArrayNode history = orderedData.get(\"history\"); actual ObjectNode.get returns JsonNode, no cast/pattern."
+    },
+    {
+      "type": "missing_imports",
+      "evidence": "Uses Map and HashMap without imports; complete current target imports neither."
+    },
+    {
+      "type": "unsupported_shape_contract",
+      "evidence": "if (!isQualifyingDeclarableWarsRead(row)) continue allows mixed unavailable/unqualified query rows, whereas canonical Task83-02 requires entire new projection fallback."
+    },
+    {
+      "type": "collision_protocol_contract",
+      "evidence": "Only root declarable_war_facts collision checked; existing schema marker or unrecognized history protocol can be overwritten. Full current contract requires unchanged fallback."
+    },
+    {
+      "type": "ordered_representation",
+      "evidence": "remove(declarable_wars)+set(refs) appends new field, so field-slot inverse cannot restore whole user JSON bytes without extra position data. Policy does not state slot replacement."
+    }
+  ],
+  "owner_independent_source_pin": {
+    "bytes": 8072,
+    "sha256": "f824c6d6b5a38ae83ad99ebcbafa42b9c1005c5d44ca58341076e14b1c989b0d"
+  },
+  "owner_precedence": "Source-PART01 was written independently before raw read. Immutable02 fixes original field slot and policy. No raw literal code applied.",
+  "limits": [
+    "No model runtime behavior/speedup/authority or actual adoption claim.",
+    "Final owner source/type/meaningful DATA boundary verification separate.",
+    "Source findings only; raw did not enter actual compiler or JVM. Owner next source/type/DATA/actualnetwire benefit are separate; no new generation/R2.",
+    "All older length CONTENT/rawSSE remain wholeunread/unparsed/unextracted/unhashed0adopt/noR2."
+  ]
+}

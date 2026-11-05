@@ -1,0 +1,45 @@
+{
+  "schema": "local-model-operations.http-sway-saved-open-batch-formal-review/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-05T15:00:39.124331+00:00",
+  "task_id": "ordinary-sway-saved-open-batch-recovery-context-20261105-01",
+  "earlier_pending_delivery_cut_unchanged": "2026-11-05-http-sway-saved-open-batch-delivery.json",
+  "formal_source_review_pin": {
+    "bytes": 2623,
+    "sha256": "da328893dc4d98ccf344cdf8b591f9dca9a7f02312004a2c6d44bb8f15eb4df0"
+  },
+  "status": "REJECT_WHOLE_SOURCE_PATCH_OWNER_INDEPENDENT",
+  "findings": [
+    "Shared privateentry dispatch and unchanged legacy anchor body agree with contract direction, covering both commit and preview. No raw code applied.",
+    "New helper calls current.digest(), which actual ContinuityState does not declare, and uses unqualified SwayOrdinaryComposite/OrdinarySwayPolicy absent from target imports.",
+    "Pattern variables settled/noGameplay are introduced within a boolean passed to StrictJson.require, then used after the call; Java flow scope does not make them available there. Source defects only, no raw compile run.",
+    "It conflates real completed/basis cycles with legacy saved progress: actualhead566 completed=23,basis=0,last_settled_cycles=1; requiring completed and basis both equal saved count rejects actual target and alters unrelated frontier meaning."
+  ],
+  "owner_input_correction_not_model_violation": "Model latest.sequence==current.sequence followed immutable originalTask82. Owner later loosened only to <= with exact realcurrentActionHead/maxset/privateRoleHead/fullhistory for legitimate later administrative events. This owner input correction is not counted as model violation.",
+  "complete_CONTENT_pin": {
+    "bytes": 8148,
+    "sha256": "29cb752445a8af8be912ad69a27428e085909859ee22fbfbcbb6a41313ff0800"
+  },
+  "RESULT_pin": {
+    "bytes": 1275,
+    "sha256": "30f30c94770046dd795b6d5f852062a5dc9c70f40fa200288f7ab87a37db68fe"
+  },
+  "accepted_complete_methods": 0,
+  "literal_copied_bytes": 0,
+  "raw_JVM_compile_or_RUN": 0,
+  "R2": 0,
+  "owner_independent_SOURCE_READY_pin": {
+    "bytes": 3695,
+    "sha256": "6d4e52e28eb343c465467c3ab6d723ffb5d4d6087a06e20fb076d9f02e317a49"
+  },
+  "owner_independent_source_review_pin": {
+    "bytes": 8241,
+    "sha256": "f31ad15e8ac78295cad7a79b6d7ea85b6a7edfdc7ccb73655070e45a38e7bb9a"
+  },
+  "owner_followup": "Owner implementation/source/type/private recovery separate. Later1TU24class result is not raw compiler pass; Models did not re-audit owner ACTUAL/class output in this unit.",
+  "limits": [
+    "Direction for sharedprivateentry and originallegacybody agrees; fullpatch/newmethods/literal still0, no semantic R2.",
+    "No actualcompilerred from source findings, no fakecycle/Root/custody/runtime/LOOP/SAVE/G2/performance credit.",
+    "All older length CONTENT/rawSSE remain wholeunread/unparsed/unextracted/unhashed0adopt/noR2."
+  ]
+}
