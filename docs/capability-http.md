@@ -3017,3 +3017,10 @@ max5000、固定三消息/DIRECT，1POST1END、HTTP200/stop/DONE/有效JSON，12
 [新的 canonical Journal 测试首派](evidence/2026-11-05-http-incident-canonical-journal-test-candidate.json)使用完整12Java200723B+既有Python产物 golden JSON63211B，13份全文在实际REQUEST逐一核实；gzip仅pin、不进文本也不执行Python。唯一Java转权，原p0此单位0POST/source。输出范围是既有Test新增两无参方法及两处明确的旧expectation规范表示更新，真实Journal before→codec roundtrip→public observedAfter→cold receipt/scan，兼容fixture authored rawlegacy并拒两精确路径冲突；不借此授原521恢复或Root/Game权威。
 
 固定三消息/DIRECT/max6000/thinkingfalse，1POST1stop，38.0309006秒/有效TTFT8.1123011秒、62627+5263tokens/cachednull；21616B完整raw即时交Java，随后离线核CONTENT=SSE、0discrepancy。即时交接切点源审待定，不授方法采用、编测或行为；与前producer6500length是不同单位，不能据预算差推能力上限、模式收益或节省。466终态/466租约释放/0源码在途，finite46正常收尾/caller0；实际PREP前置事件保，完整owner主动成本未知。旧length正文仍未读未hash，不R2，0JVM/C/UI/GET/Game/活跃参数变更。
+
+
+## 2026-11-05：Future Test 部分表达式与 v1 offline 独立候选
+
+[Future正式review e042与owner源码](evidence/2026-11-05-http-incident-canonical-future-test-owner-source.json)补原pending：两个新增完整方法均拒收0，只原合同预指定的两条旧expectation规范args表达式机械partial；完整方法、新方法逻辑及既有fixture/golden不授模型贡献。原稿compound var、JsonNode调用、未定义helper、未authored rawlegacy却期待canonical before产raw、成功后断言无after、异常分类/冲突case与source builder错误均为源审，非实际javac/JUnit红。owner Test29005/e11c新两方法与DATA helpers自行实现；独立移除14417B addition并逆换两expression后还原原14480B/ec2f。该source切点未持Test编/RUN，后到实际资格分记，不回授原38.0309秒完整raw、不R2。
+
+[全新v1 offline consumer首派](evidence/2026-11-05-http-incident-legacy-offline-consumer-candidate.json)输入4完整Java68451B+2privateDATA12292B+完整API6734B，7份全文实际核入REQUEST；仅OfflineScanSource strict after-v3 side-evidence，新binding字段/ref/SHA/identity/空policyreceipt与旧v1/v2/库存边界均须保，Root/Journal主叶及发行权限不在此下层实现。fixed3/DIRECT/max4000/thinkingfalse，1POST1stop，17.1018542秒/有效TTFT2.8616265秒、21630+2492tokens/cachednull；10590B raw先交Java，随后CONTENT=SSE/0discrepancy。即时交付切点待源审，不授采用、软件、Rootauthority或旧521恢复；467终态/467租约释放/0源码在途，finite47正常closed/caller0，0JVM/C/UI/GET/Game/参数变更、无实际payload公开。完整owner主动成本与净节省未知。

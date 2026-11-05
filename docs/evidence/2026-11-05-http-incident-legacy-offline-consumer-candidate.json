@@ -1,0 +1,180 @@
+{
+  "schema": "local-model-operations.incident-legacy-offline-consumer-candidate/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "incident-legacy-v1-offline-consumer-20261105-01",
+  "new_independent_low_level_consumer_not_future_or_producer_R2": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_Java_sources": 4,
+  "Java_bytes": 68451,
+  "complete_private_DATA": 2,
+  "private_DATA_bytes": 12292,
+  "complete_API_context_bytes": 6734,
+  "total_input_file_bytes": 87477,
+  "manifest_pin": {
+    "bytes": 3650,
+    "sha256": "9f3d9b376904e66f80b7242b5fd60123e8f4f90026b524aa258ade359b3ff06d"
+  },
+  "finite_contract_pin": {
+    "bytes": 3731,
+    "sha256": "a9349af121b785ccab8e431b45380dd7b557dfb1b5e7c4513136f0a91c87733f"
+  },
+  "all7_complete_input_texts_in_actual_REQUEST": true,
+  "prefix_verification": [
+    {
+      "kind": "Java",
+      "bytes": 27596,
+      "sha256": "20732d8c222be43d20278425d1608470faacb866c99274dfc2267188e80f0693",
+      "full_raw_text_occurrences": 0,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    },
+    {
+      "kind": "Java",
+      "bytes": 32500,
+      "sha256": "7b1a59de79f11b82eed08ceda9485d9edec86a26cc5879dd0acb755b69631c44",
+      "full_raw_text_occurrences": 1,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    },
+    {
+      "kind": "Java",
+      "bytes": 6865,
+      "sha256": "914b08d99cc2c31ac3ba6da7a7bb311b3d58fac1daa7add4088dc3c644807653",
+      "full_raw_text_occurrences": 0,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    },
+    {
+      "kind": "Java",
+      "bytes": 1490,
+      "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+      "full_raw_text_occurrences": 1,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    },
+    {
+      "kind": "private_actual_DATA",
+      "bytes": 1427,
+      "sha256": "5141a383092d9ec66bc53bcd75670e65ae31780a927e5ccce69af91e0446f96a",
+      "full_raw_text_occurrences": 1,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    },
+    {
+      "kind": "private_actual_DATA",
+      "bytes": 10865,
+      "sha256": "9a4bd053ea3fca7242c66cea8e3739bfc5e0e64a6f7f6b9ff440200865dce3f5",
+      "full_raw_text_occurrences": 1,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    },
+    {
+      "kind": "complete_API_context_not_implementation_permission",
+      "bytes": 6734,
+      "sha256": "d0d23149eab1e7804ccca7ab9c80c5840a5034a33467eefa80aea61dc9e086ec",
+      "full_raw_text_occurrences": 1,
+      "full_LF_text_occurrences": 1,
+      "whole_text_present": true
+    }
+  ],
+  "source_message_pin": {
+    "bytes": 89263,
+    "sha256": "5b88e00fa9b677f73b35c6af8c1c6041b5487663e291bed84cb3fbd1c8c27cf6"
+  },
+  "requested_scope": "Only OfflineScanSource strict after-index/v3 side-evidence branch and exact legacy binding schema/ref/hash/identity linkage. Preserve v1/v2, complete originals, null policy-receipt role, episode/scan/path/identity/bounds/inventory. Root/Journal authority and actual recovery are separately implemented and not granted by generic DATA parsing.",
+  "owner_explicit_contract_not_model_autonomous_design": true,
+  "POST_BEGIN_UTC": "2026-11-05T02:09:25.860934+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T02:09:42.962884+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "actual_parameters": {
+    "max_tokens": 4000,
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "JSON_syntax": "VALID",
+  "headers_ms": 2860.7720999862067,
+  "effective_content_TTFT_ms": 2861.626499972772,
+  "total_ms": 17101.854200009257,
+  "usage": {
+    "prompt_tokens": 21630,
+    "completion_tokens": 2492,
+    "total_tokens": 24122
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 97528,
+    "sha256": "262b1b57ecb6dae9c1a772566a09823d62fe106d29a607c0a55b947f06fa839f"
+  },
+  "RESULT_pin": {
+    "bytes": 1289,
+    "sha256": "a174c92ea4dc059cae4316bc087de7c16a89c2a38be9f3a986bca279a06bdaf7"
+  },
+  "CONTENT_pin": {
+    "bytes": 10590,
+    "sha256": "dea834b6e1f208f2235faf2419819f1d56e0aaa1e64fadd3540df12d461a6376"
+  },
+  "EVENTS_pin": {
+    "bytes": 2807,
+    "sha256": "3b96501946dac91b376a13441fd0eb15ac8ed4831789c6e181d3511603c0d6e7"
+  },
+  "audit": {
+    "errors": 0,
+    "discrepancies": 0,
+    "CONTENT_equals_SSE_UTF8": true,
+    "pin": {
+      "bytes": 4471,
+      "sha256": "dc169433f9f481836bdbfbd8e7613bfea6c65f70d0c87986ddcdf8796a88ff88"
+    }
+  },
+  "raw_immediately_delivered_before_audit_Git": true,
+  "source_review_at_immediate_handoff_cut": "PENDING_OWNER_REVIEW",
+  "HTTP_stop_not_adoption_compile_authority_or_old521_recovery": true,
+  "PREP_before_authoring_events": [
+    {
+      "event": "PREP_BEGIN",
+      "at_utc": "2026-11-05T02:08:39.0237106+00:00"
+    },
+    {
+      "event": "PREP_END",
+      "at_utc": "2026-11-05T02:09:17.606995+00:00"
+    }
+  ],
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 467
+    },
+    "leases.db": {
+      "RELEASED": 467
+    }
+  },
+  "source_HTTP_inflight_after_END": 0,
+  "finite_wrapper_returned_normally": true,
+  "caller_exit": 0,
+  "no_R2_or_active_HTTP_Runtime_parameter_change": true,
+  "Models_JVM_SDK_C_UI_GET_Game": 0,
+  "private_DATA_not_public_payload": true,
+  "full_owner_active_cost_and_net_savings": null
+}
