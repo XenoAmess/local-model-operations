@@ -433,3 +433,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-05：Civ6405真实中断保存恢复
 
 0新OpenCode原生生成。共享CLI在POST前接同机Nov5维护成功缓存；405是普通三消息HTTP。候选能编译但不安全，0原稿游戏执行；owner钩子安全检查、正式存读档和真实恢复另账，不算OpenCode工具生成或模型自动验收。[分级与固定业务证据](evidence/2026-11-05-civ6-recovery405.json)。
+
+
+### 2026-11-05：Civ6406未知扣款冻结
+
+0新OpenCode原生生成；共享CLI在HTTP POST前复用同机同用户Nov5成功1.19.5维护缓存。普通HTTP候选编译、owner字段修正、6行清理采用及Native未知态冻结分账；不把钩子检查追授为产品或OpenCode验收。[固定业务证据与成本未知](evidence/2026-11-05-civ6-recovery406.json)。

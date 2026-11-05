@@ -1,0 +1,113 @@
+{
+  "schema": "local-model-operations.civ6-recovery406/v1",
+  "utc": "2026-11-05T06:55:49.674932+00:00",
+  "date_local": "2026-11-05",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/11bb1682e7baa106e227706eaf31da713f34fdda/docs/research/baiqi-p6-debit406-unknown-evidence-2026-11-05.json",
+    "sha256": "a3e7c931ebe92d257b6c57409fc3815663e0a11f4cecd6ae62b7ec83e08b4394"
+  },
+  "model": {
+    "mode_id": "http-candidate",
+    "logical": 406,
+    "shared_commit": "cb18731a62535423c67acec5eb9c86d8c3f2d5e4",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "attempts": 1,
+    "extra_retries": 0,
+    "max_tokens": 4500,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 20608,
+      "completion_tokens": 1441,
+      "total_tokens": 22049
+    },
+    "ttft_ms": 2743.359300016891,
+    "total_ms": 11707.46910001617,
+    "cached_prompt_tokens": null,
+    "compile_install_cleanup_lua53": true,
+    "raw_install_game_execution": 0,
+    "raw_cleanup_game_execution": 1,
+    "adoption": "Install structure partial with owner field/runtime/scope/varargs corrections; cleanup6lines verbatim (derived from supplied405owner reference), no novel cleanup credit.",
+    "raw_install_missed_in_actual_capture_gameplay_software_witness": true,
+    "raw_install_error": "balanceBefore must already be4524.2734375 in CHARGING, not nil.",
+    "owner_corrections": [
+      "balanceBefore is persisted4524.2734375 before debit, not nil",
+      "Thrown Number error is outside the treasury pcall and is caught by outer Execute as execution_interrupted",
+      "CHARGING is always rejected by Recoverable phase whitelist; chargeObserved cannot make that phase eligible",
+      "Runtime turn/localplayer guard added; actual record and city/actor identity rechecked",
+      "All varargs forwarded; exact value comparison avoids NaN passing a tolerance guard",
+      "One scoped SUBMITTED/CHARGING hit suffices: after UNKNOWN the product itself freezes, so remaining Number calls pass unchanged"
+    ],
+    "diagnostic_safety_checks": 8,
+    "product_tests_added": 0,
+    "owner_phase_events": [
+      {
+        "utc": "2026-11-05T05:44:37.330795+00:00",
+        "task": "recovery406",
+        "event": "PREP_BEGIN",
+        "earlier_selection_seconds": null
+      },
+      {
+        "utc": "2026-11-05T05:45:56.436844+00:00",
+        "task": "recovery406",
+        "event": "PREP_END",
+        "earlier_selection_seconds": null
+      },
+      {
+        "utc": "2026-11-05T06:01:10.911078+00:00",
+        "task": "recovery406",
+        "event": "REVIEW_BEGIN",
+        "earlier_selection_seconds": null
+      },
+      {
+        "utc": "2026-11-05T06:07:15.147525+00:00",
+        "task": "recovery406",
+        "event": "REVIEW_END",
+        "earlier_selection_seconds": null
+      },
+      {
+        "utc": "2026-11-05T06:07:26.312838+00:00",
+        "task": "recovery406",
+        "event": "CORRECTION_BEGIN",
+        "earlier_selection_seconds": null
+      },
+      {
+        "utc": "2026-11-05T06:16:10.037657+00:00",
+        "task": "recovery406",
+        "event": "CORRECTION_END",
+        "earlier_selection_seconds": null
+      }
+    ],
+    "later_owner_driver_repair_active_seconds": null,
+    "earlier_selection_seconds": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null,
+    "maintenance": "Canonical CLI same-machine/user Nov5 successful1.19.5cache before POST;0OpenCode native generation."
+  },
+  "cumulative_civ6_through406": {
+    "logical": 406,
+    "complete_stop_valid": 376,
+    "length_discarded": 27,
+    "final_transport_failed": 3,
+    "http_attempts": 436,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Same owned18760/birth1793831208.9333148, same turn114; separate prepared branch from405. Same textual requestID is expected for independent restored checkpoint branches, not a twice-executed live ledger.",
+  "generic_lessons": [
+    "Actual CHARGING persists balanceBefore before debit; raw candidate required it absent and missed the true breakpoint in actual-source software witness. Compile success alone did not qualify fault injection.",
+    "Cleanup6lines byte-identical adopted, derived from supplied405reference; no novel cleanup capability credit. Install needed exact before/after/native scope/runtime/varargs corrections.",
+    "Post-debit Number exception is outside treasury pcall and reaches outer execution_interrupted, not charge_unresolved. CHARGING is outside positive-receipt recovery whitelist.",
+    "Actual300gold drop with transfer1/Finish0 and absent positive receipt remainedUNKNOWN/CHARGING across official same-process load and4explicit Recover probes. No replay, refund or successful settlement awarded.",
+    "Owner Lua concatenation niland was rejected before execution. Original preserved; fixed separator and added local Lua compile gate before any native context send. No paid operation was replayed, error is not attributed to model/product.",
+    "Unknown phase persistent freeze is a safety result and also a player-facing alpha limitation. Do not inflate to full acceptance, cold-process recovery, direct treasury counter or native bootstrap call counts."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "8isolated hook checks and actual native facts independently recorded. Product74 unchanged; no full suite rerun or OpenCode native generation."
+}

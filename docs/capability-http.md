@@ -3229,3 +3229,10 @@ fixed3/DIRECT/max12000/thinkingfalse，06:45:43.809119→06:47:10.064724Z真实1
 [owner e45f/Nativec165与additive纠正](evidence/2026-11-05-http-history-event-read-verifier-owner-typed-later.json)补60length切点：owner单expr源码68876/e45f在06:27:05已独立完成，早于该HTTP终态；owned一块逆换全还原68825/7363。原length1200全文/SSE未读未哈希、0采用/0rawJVM/noR2继续保，不能把owner后继源码/型验回授模型。
 
 必要1TU实际10个SourceFile class首0/9.1595614秒，全10结构shapeequal，前后binary pins、ACTUAL/config/begin/post/terminal/close/fence具名核验，close0/released；结构相同不等于class字节相同。原QUAL顶层108是模板文本替换误写，原件保留；OUTPUTS数组10、family10、additive CLASS-COUNT-CORRECTION均独核，未新JVM/RUN。无新Test/旧58RUN，正式bb9a8e58按owner回执remote同clean，actual37 history发布另证，不授Root/custody正例/LOOP/SAVE/性能。后到预算建议仅针对全新小任务明确1800–2400等有限值，不复投60/改旧请求，0新HTTP/JVM/Game。
+
+
+## 2026-11-05：Civ6406，真实扣款未收讫的冻结
+
+1POST200／stop／DONE／VALID，20608+1441tokens、11.7074691秒、TTFT2.7433593秒、峰1、0重试、cached=null。54行install／6行cleanup可编译；原install把已持久化balanceBefore错判为空，实际Capture／Gameplay软件见证中不命中、正常完成。负责人修正字段、范围及透传，8项隔离检查通过；cleanup6行原样采用但来自提供405参考，不授新颖能力。原install0游戏执行。
+
+真实一次地图确认、原生转城1／扣300／Finish0，故障仅Number精确命中1，形成UNKNOWN／CHARGING；清理全部绑定后存读档、共四次显式Recover保持冻结，未补扣／退款或假装结束行动。负责人niland拼接错误被解析器拒绝、0动作，另行修正并加发送前编译，不归候选。4个探针不是付费Request重投；treasury直接计数及bootstrap调用未知。累计406逻辑／376完整／27length废弃／3最终transport，436HTTP尝试／30extra；0OpenCode原生生成。[固定业务pin及审阅证据](evidence/2026-11-05-civ6-recovery406.json)。
