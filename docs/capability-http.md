@@ -3045,3 +3045,10 @@ max5000、固定三消息/DIRECT，1POST1END、HTTP200/stop/DONE/有效JSON，12
 [新的独立DATA测试首派](evidence/2026-11-05-http-legacy-incident-v1-data-test-candidate.json)使用完整31Java与3actualJSON共645042B，34份全文实际REQUEST逐项核实；required_DATA12项另核pin，stock5共692725B只作属性/manifest输入，不填raw前缀。final04、公开未发行DATA工厂与成熟owner scaffold已完整提供；请求只验真实continuation/intrinsic proof正负与noScope/cold missingVerifier拒，不伪Rootissuer或授实际521结算。
 
 fixed3/DIRECT/max8000/thinkingfalse，1POST1stop，54.0940034秒/有效TTFT18.4816696秒、144222+6125tokens/cachednull；25298B完整raw先交owner，随后核CONTENT=SSE/0discrepancy。owner全文源审报告0完整新增方法采用/0candidateJVM、接管且不R2；partial未明确仍NOT_HELD。缺imports/错JSON API、虚构DTO构造、undefined/static IO错误，真实packet/注解与SHA表示混淆，mutation无acceptedbaseline、缺完整guardproof无法到missingVerifier边界；这是源审拒收，不冒javac/JUnit红。正式review回执后到另附，oldscaffold不算模型新增贡献。468终态/468租约释放/0源码在途，finite48正常closed/caller0，0JVM/C/UI/GET/Game/参数改动，实际payload不公开。远端Civ6文档cefc76c已审后clean ff，caller/config不变；完整owner主动成本与净收益未知。
+
+
+## 2026-11-05：V1 DATA 正式源审与 isolated EVENT 新 P0
+
+[正式review d8ee/owner SourceReady4413](evidence/2026-11-05-http-legacy-v1-data-Test-owner-source.json)补前案口头源审切点：model8ed7完整新增方法0采用、partial仍NOT_HELD、0candidateJVM/noR2，源码API/fixture问题不是实际编测红。owner新类22357B/2f902，复用已有strict-producer request/stock setup，原scaffold不算模型贡献；三个无参case只在源码封包阶段，Native必要新1TU/3case后到结果另记，不借SourceReady/原strict或future绿授本Test资格。Runtime04/c61e只源码依赖pin，Hosted原件不公开，原54.094秒成本保。
+
+[全新isolated EVENT history生产首派](evidence/2026-11-05-http-event-isolated-history-candidate.json)给完整6actualJava391915B/target333244B，实际REQUEST逐份全文核实；b7bc失败brief只作诊断，不混源码。仅严格正ACK EVENT DATA classifier/唯一unresolved selector，接通picker/history gate/final isolated与savedDATA；原FOCUS1858、历史replay/cycle、manifest/原件/head/lock/authority边界全须保，不发控制或改deadline。fixed3/DIRECT/max6000/thinkingfalse，1POST1stop，26.5336036秒/有效TTFT10.3280988秒、80356+2833tokens/cachednull；12940B完整raw先交Java，随后CONTENT=SSE/0discrepancy。即时交付切点待源审，不授代码、编测、发行角色或实际恢复；469终态/469租约释放/0源码在途，finite49正常closed/caller0。0JVM/C/UI/GET/Game/活跃参数改动，完整owner主动成本与净收益未知。

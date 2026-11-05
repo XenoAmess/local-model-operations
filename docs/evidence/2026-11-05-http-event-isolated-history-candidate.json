@@ -1,0 +1,180 @@
+{
+  "schema": "local-model-operations.event-isolated-history-candidate/v1",
+  "date": "2026-11-05",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "task_id": "ordinary-event-isolated-history-recovery-20261105-01",
+  "genuine_new_highest_P0_not_old_selector_or_length_R2": true,
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "network_routing": {
+    "proxy_mode": "direct",
+    "target_host": "192.168.1.11",
+    "proxy_handler": "disabled",
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN"
+  },
+  "complete_actual_Java_sources": 6,
+  "total_input_file_bytes": 391915,
+  "complete_target_bytes": 333244,
+  "manifest_pin": {
+    "bytes": 3479,
+    "sha256": "60fa519c2ad7e4790bae3ddb4145dd2e7274a05eb8b945523ea9cfb54bfad0e5"
+  },
+  "contract_pin": {
+    "bytes": 4158,
+    "sha256": "b48a31a1d3bc285a7037e748becdea0d4f94a0b20802d072bb44a2a909c05345"
+  },
+  "actual_prefix_verification": {
+    "REQUEST_pin": {
+      "bytes": 406023,
+      "sha256": "b52bc4c723780df43915cfddb1207ebd80353110eb95a9ea42b2f77f7a8fdc0e"
+    },
+    "source_message_pin": {
+      "bytes": 394221,
+      "sha256": "141071cd4a46dcc871b31180fa0789d981481540613a5f3c4fa723741e56808a"
+    },
+    "all6_full_text_present": true,
+    "input_files": [
+      {
+        "role": "target",
+        "bytes": 333244,
+        "sha256": "2ff1417f9f90f2f9e0ed04012ccc2d2a63676b69bad67209f7d7b2bdd23b4272",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "existing-event-contract",
+        "bytes": 15909,
+        "sha256": "34556303b7be8c5a5fcdf700609436b8fa0c8a9f71486a2494872e50f4a4adb4",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "existing-event-effect",
+        "bytes": 22979,
+        "sha256": "510dd40ee0b08d0f6b00e2ab47c80a07309b4b4f55e2f6a18b45dad9d1ec7c04",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "existing-command",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "existing-receipt",
+        "bytes": 5103,
+        "sha256": "1b355b55582402df6c17de7f1bdffbea391a00a9eb6f8a55d8d6e88052456fed",
+        "full_raw_text_occurrences": 0,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "existing-dispatch",
+        "bytes": 8817,
+        "sha256": "57fa4858639ec594dded7dcc3a165fa17ca15bdb614a2b0200dc436bc28b45d4",
+        "full_raw_text_occurrences": 1,
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ]
+  },
+  "failure_brief_diagnostic_only_not_source_prefix": {
+    "bytes": 14876,
+    "sha256": "b7bc254a3a97cca316547df899d6bfd357fa0a70a580f41bde9e67d6f22f4da0"
+  },
+  "requested_scope": "Only BatchJournal strict positive-ACK EVENT DATA classifier/root selector, unresolved/history/final isolated gates and savedIsolatedEventData, not merely first picker. Exactly one unresolved canonical action, other actions settled; original command/body/origin/expectation/protocol/custody checks remain.",
+  "preserved": "Existing FOCUS fallback1858, historical replay/cycle RETAIN/SETTLE, capture/manifest/source/owner/body/Driver/receipt/head/lock checks, DATA-vs-issued recovery boundary and original guarded topics. No controls, submission, command deadline or artifact changes.",
+  "owner_source_diagnosis_and_finite_contract_before_POST_not_model_autonomous_discovery": true,
+  "POST_BEGIN_UTC": "2026-11-05T03:13:14.555419+00:00",
+  "ATTEMPT_END_UTC": "2026-11-05T03:13:41.089055+00:00",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "actual_parameters": {
+    "max_tokens": 6000,
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    }
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "JSON_syntax": "VALID",
+  "headers_ms": 10327.189400035422,
+  "effective_content_TTFT_ms": 10328.098800033331,
+  "total_ms": 26533.603599993512,
+  "usage": {
+    "prompt_tokens": 80356,
+    "completion_tokens": 2833,
+    "total_tokens": 83189
+  },
+  "cached_tokens": null,
+  "REQUEST_pin": {
+    "bytes": 406023,
+    "sha256": "b52bc4c723780df43915cfddb1207ebd80353110eb95a9ea42b2f77f7a8fdc0e"
+  },
+  "RESULT_pin": {
+    "bytes": 1295,
+    "sha256": "6a180866a5b1b49ce06eb7173c246870d458b660ecde599135e7478ffd02e160"
+  },
+  "CONTENT_pin": {
+    "bytes": 12940,
+    "sha256": "f9cb463fa56b1f19aa452f7215ef4d71977cd07c3fe3c640ee911eafc5601a2b"
+  },
+  "EVENTS_pin": {
+    "bytes": 2839,
+    "sha256": "724dc92e8c26bad4f629751e387fd7ff26a4e752496ab327ab9d5cd0ed911f9c"
+  },
+  "audit": {
+    "errors": 0,
+    "discrepancies": 0,
+    "CONTENT_equals_SSE_UTF8": true,
+    "pin": {
+      "bytes": 4476,
+      "sha256": "c0e9ba0b06b0d86647b663b735d3ff01f263132d0a229b1bb78f1eba1adc0d33"
+    }
+  },
+  "raw_immediately_delivered_before_audit_Git": true,
+  "source_review_at_immediate_handoff_cut": "PENDING_OWNER_REVIEW",
+  "HTTP_stop_not_adoption_compile_issued_role_or_actual_recovery": true,
+  "PREP_before_authoring_events": [
+    {
+      "event": "PREP_BEGIN",
+      "at_utc": "2026-11-05T03:12:28.3150491+00:00"
+    },
+    {
+      "event": "PREP_END",
+      "at_utc": "2026-11-05T03:13:05.743875+00:00"
+    }
+  ],
+  "queue_states_readonly": {
+    "dispatch.db": {
+      "COMPLETED": 469
+    },
+    "leases.db": {
+      "RELEASED": 469
+    }
+  },
+  "source_HTTP_inflight_after_END": 0,
+  "finite_wrapper_returned_normally": true,
+  "caller_exit": 0,
+  "no_R2_or_active_caller_Runtime_parameters_changed": true,
+  "Models_JVM_SDK_C_UI_GET_Game": 0,
+  "no_old521_dispatch_recovery_SAVE_G2_or_speed_credit": true,
+  "full_owner_active_cost_and_net_savings": null
+}
