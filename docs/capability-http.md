@@ -2989,3 +2989,10 @@ owner独立执行1300付费转城、奇观／5作品及校园缺失读回，不�
 max5000、固定三消息/DIRECT，1POST1END、HTTP200/stop/DONE/有效JSON，12.3288001秒、有效TTFT6.219109秒、47723+1018tokens、cachednull，4784B完整原件即交Java。CONTENT=SSE UTF8、审计0discrepancy；即时交接切点待源审，不授编测/实际恢复或模型自主发现。463终态/463租约释放、0源在途，0JVM/SDK/UI/Runtime/Game/GET/controls/期限修改，无活跃参数迁移、不R2。
 
 同时澄清前案RegistryTest消息措辞：仅gzip资源未进文本前缀，两份完整Python25034B/c98985与57668B/384208实际在原REQUEST第二消息各出现1次、全文raw exact，均未执行；没有过滤Py、输入偏差、重POST或回写原件。此前public切点本已注明fullPython在prefix，本次只读再核，无新生成；完整主动成本与净收益未知。
+
+
+## 2026-11-05：Material 源审部分采用与 hosted 独立测试首派
+
+[生产源审与 owner02](evidence/2026-11-05-http-event-material-retained-context-owner-source.json)保留原 pending 切点：模型整 diff、完整方法均未采用，仅 material 的 validator 参数、真实 caller 传递和 strict getter 调用语义部分采用。RegisteredCore 新 block 的 Value/ObjectValue API 与 command carrier、partial-direct、conflict 守卫缺项全由 owner 接管；虚构 no-opPolicy 行拒收。owner02 另保原 status=available 门，两个实际源码的完整 outside inverse 独立核实；必要 private 签名变化需 normal loader，不能授 body redefine。12.3288秒/TTFT6.2191秒原成本和源阶段保留，未借文档授编测、Runtime 或收益。
+
+[新的 hosted Test 首派](evidence/2026-11-05-http-event-material-hosted-test-candidate.json)使用完整13Java与1 actualJSON共230518B，实际 REQUEST 逐文件核全文；原8147B TASK保存，仅在 callerTask 末附 owner 预授权 snapshot_revision 字段澄清。后到生产02不改已冻结首派、不R2。固定三消息/DIRECT/max8000/thinkingfalse，1POST1stop，33.4788043秒、有效TTFT6.9539418秒、54236+4648tokens，cachednull；20938B完整 raw 先交 owner，随后离线核 CONTENT=SSE、0discrepancy。owner 全文源审报告0完整新增方法采用、接管且不R2：API/构造与实际绑定错误，负例未走真实 material，carrier/receipt/conflict等义务缺；这是源审拒收，不冒实际编译或测试红，正式 review pin 后到另附。464终态/464租约释放、0源码在途；无 raw actual DATA 公开、JVM/Game/GET/参数变更。完整主动成本与净节省未计量。
