@@ -1,0 +1,229 @@
+{
+  "schema": "local-model-operations.runtime-http-input-context-failure/v1",
+  "mode_id": "ordinary_http_runtime_decision",
+  "mode_family": "ordinary_http",
+  "project": "CK3",
+  "at_utc": "2026-11-06T19:31:30.144789+00:00",
+  "case_role": "Offline audit of an existing runtime decision failure, not a source-generation task or new HTTP request.",
+  "source_task_id": null,
+  "runtime_decision_protocol": "Two messages system+user. Do not impose source-generation fixed3 on this distinct business consumer.",
+  "actual_caller_source_pin": {
+    "bytes": 86068,
+    "sha256": "4fc4c3698e7806b420142c2a3ee048aa5aa9bdc4df7e00ffb0b11025431ad5f7"
+  },
+  "sample": {
+    "POST_BEGIN_utc": "2026-11-06T19:23:40.574968100Z",
+    "attempt_observed_at_utc": "2026-11-06T19:23:41.908424100Z",
+    "receipt_observed_at_utc": "2026-11-06T19:23:42.071182200Z",
+    "sample_is_last_archived_proposal_NOT_earlier_1908_or_1910": true,
+    "earlier_samples": [
+      {
+        "reported_start_utc_minute": "19:08",
+        "reported_payload_bytes": 3982162,
+        "reported_total_ms": 1437,
+        "original_body_read_in_this_audit": false
+      },
+      {
+        "reported_start_utc_minute": "19:10",
+        "reported_payload_bytes": 3983519,
+        "reported_total_ms": 1320,
+        "original_body_read_in_this_audit": false
+      }
+    ]
+  },
+  "original_pins": {
+    "row": {
+      "bytes": 20998,
+      "sha256": "b0a801aa458897d952b8fcb3ea94af10fd91fc375db0ef6cc0d4c776d6ba8bec"
+    },
+    "receipt": {
+      "bytes": 952,
+      "sha256": "b2358822d1129b4971e2d8d374bc641034c38a7e5d814018fd9aa6bb6877f2f5"
+    },
+    "attempt": {
+      "bytes": 935,
+      "sha256": "ea25c621a52949141b05bbff09c052fe51148706b4872082e4cfcecab8867428"
+    },
+    "response": {
+      "bytes": 387,
+      "sha256": "83afc49760019e4e076a37b3eab80853c4c844018c24c7f2caec12f774c45b56"
+    },
+    "request": {
+      "bytes": 3993145,
+      "sha256": "13a004064153b10818c5fc326f53f6a5a7ff7cdc9070bc5815da20eee1f7d05e"
+    },
+    "Runtime_parameter_audit": {
+      "bytes": 1758,
+      "sha256": "d5c10a7d23b90f2790e951696632a15651108c7538ad173a9dcde86f3cc2119a"
+    },
+    "Runtime_closure": {
+      "bytes": 3210,
+      "sha256": "f416d98a9aecac968f5bf90093389b227437b3bffdb0488f8c90f9314221eb04"
+    }
+  },
+  "chain_verification": {
+    "ROW_trace_receipt_ref_matches_original_receipt": true,
+    "receipt_request_and_single_attempt_pins_match": true,
+    "strict_base64_decoded_attempt_wire_equals_original_response": true,
+    "request_parameters_messages_and_same_proposal_binding_verified": true,
+    "same_proposal_begin_end_progress_endpoint_model_payload_verified": true,
+    "requested_endpoint_matches_current_executor_service": true,
+    "independently_observed_socket_peer": "NOT_HELD"
+  },
+  "parameters": {
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "stream": true,
+    "max_tokens": 256,
+    "stream_options": {
+      "include_usage": true
+    },
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    }
+  },
+  "messages": [
+    {
+      "role": "system",
+      "utf8_bytes": 2574,
+      "content_sha256": "5e5a59a04cbbd7b8dafa9a7d2c3d5508660e8d11979da8a23f96ceb37ad555b7"
+    },
+    {
+      "role": "user",
+      "utf8_bytes": 3618207,
+      "content_sha256": "2c5a403a3872b7b851a5fcabca3a318ebf970e4c3a0c194c40ba9cc8da1b4617"
+    }
+  ],
+  "actual_request_bytes": 3993145,
+  "actual_request_structure": {
+    "top_fields": [
+      "history",
+      "root_facts",
+      "history_projection_schema",
+      "capabilities",
+      "routable_operations",
+      "action_facts",
+      "snapshot",
+      "proposal",
+      "proposal_id",
+      "body_sha256",
+      "planning_deadline",
+      "history_declarable_wars_projection_schema"
+    ],
+    "request_is_generic_history_root_dictionary_form": true,
+    "optional_schema_markers": {
+      "history_projection_schema": "xar.model-root-history-dictionary/v1",
+      "history_declarable_wars_projection_schema": "xar.model-history-declarable-wars-alias/v1"
+    },
+    "exact_user_value_spans_NOT_wire_bytes_or_tokens": [
+      {
+        "field": "history",
+        "exact_value_span_utf8_bytes": 2847000,
+        "item_or_key_count": 241
+      },
+      {
+        "field": "root_facts",
+        "exact_value_span_utf8_bytes": 712937,
+        "item_or_key_count": 56
+      },
+      {
+        "field": "history_projection_schema",
+        "exact_value_span_utf8_bytes": 38
+      },
+      {
+        "field": "capabilities",
+        "exact_value_span_utf8_bytes": 5666,
+        "item_or_key_count": 134
+      },
+      {
+        "field": "routable_operations",
+        "exact_value_span_utf8_bytes": 3427,
+        "item_or_key_count": 63
+      },
+      {
+        "field": "action_facts",
+        "exact_value_span_utf8_bytes": 2,
+        "item_or_key_count": 0
+      },
+      {
+        "field": "snapshot",
+        "exact_value_span_utf8_bytes": 45909,
+        "item_or_key_count": 115
+      },
+      {
+        "field": "proposal",
+        "exact_value_span_utf8_bytes": 2800,
+        "item_or_key_count": 10
+      },
+      {
+        "field": "proposal_id",
+        "exact_value_span_utf8_bytes": 56
+      },
+      {
+        "field": "body_sha256",
+        "exact_value_span_utf8_bytes": 66
+      },
+      {
+        "field": "planning_deadline",
+        "exact_value_span_utf8_bytes": 32
+      },
+      {
+        "field": "history_declarable_wars_projection_schema",
+        "exact_value_span_utf8_bytes": 44
+      }
+    ]
+  },
+  "service_error": {
+    "is_bifrost_error": false,
+    "status_code": 400,
+    "error": {
+      "type": "BadRequestError",
+      "code": "400",
+      "message": "This model's maximum context length is 1048576 tokens. However, your prompt contains at least 1048577 input tokens, which exceeds this limit even without any output tokens. Please reduce the length of the input prompt. (parameter=input_tokens, value=1048577)",
+      "param": "input_tokens"
+    }
+  },
+  "reported_context_limit_for_this_request": 1048576,
+  "reported_input_tokens_lower_bound": 1048577,
+  "complete_exact_input_token_count": null,
+  "input_alone_exceeds_limit_without_any_output_tokens": true,
+  "HTTP": {
+    "attempt": 1,
+    "status": 400,
+    "headers_ms": 1333,
+    "ttft_ms": null,
+    "total_ms": 1334,
+    "complete": false,
+    "transient_failure": false,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "total_tokens": null,
+    "cached_prompt_tokens_if_reported": null
+  },
+  "actual_decision": "WAIT; model_http_failure:400:HTTP_400. No candidate content or selected action.",
+  "source_retries_for_this_nontransient_attempt": 0,
+  "diagnosis": "Confirmed input-context rejection from original service error, not inferred from payload bytes. Existing generic Sway input carries complete broad history/root dictionaries; current source has no Sway-specific compact branch.",
+  "scope_of_input_measurement": "Exact original user JSON value-span UTF-8 bytes and array/key counts only, neither outer HTTP escaped bytes nor tokenizer measurements. Original request/source/response unchanged.",
+  "future_fix_owner": "Existing CK3 Sway functional owner; this operations unit does not edit business source or deploy configuration.",
+  "reviewable_fix_recommendation": [
+    "Create an explicit Sway decision-task projection under the existing proposal admission protocol, retaining all current snapshot unknown fields, the full existing proposal representation and proposal_id/body_sha256 binding, plus proved relevant scheme history.",
+    "Keep omitted unrelated history in the Java archive and declare task-domain scope. Do not claim lossless complete-history model visibility, strip arbitrary byte tails, ignore guards or use model input as an authority token.",
+    "Measure the complete encoded new request after source owner implementation and validate positive/negative projection DATA. Java full qualification, original request evidence, once dispatch and effect verification remain independent.",
+    "Do not lower256 output tokens as a supposed cure: input alone is rejected. Do not raise service limits, alter live caller/configuration or retry the same immutable request to manufacture success."
+  ],
+  "future_projection_source_type_DATA_runtime_status": "NOT_GRANTED_BY_THIS_AUDIT",
+  "archive_navigation_boundary": "Original response was already preserved inside attempt wire_base64; receipt ref became navigable from the completed batch ROW. Exact named refs followed, no CAS scan/private reflection. Cooperative Java stop and actual END/ROW belong to Runtime, not Game/keeper stop or a vacation instruction.",
+  "new_generation_HTTP_maintenance_probe_JVM_Game_GET": 0,
+  "old_length_CONTENT_SSE_opened_parsed_extracted_or_hashed": false,
+  "active_caller_config_service_changed": false,
+  "limits": [
+    "The 1048577 report is an input lower bound at rejection, not a full exact prompt token count. Usage/cache/TTFT remain null, no tokenizer or hidden cache inference.",
+    "This is an observed server-reported context boundary for this request/model alias, not a permanent model capability ceiling or an independent service/hardware capacity experiment.",
+    "Last19:23 sample has3993145 request bytes/1334ms. Earlier19:08 and19:10 requests have different bytes/timings; their exact bodies were not consumed here.",
+    "Model runtime HTTP and source-generation HTTP are separate counts. This case adds no model request, source task119, service probe, retry, client maintenance or business action.",
+    "Confirmed cause and a reviewable task-projection direction do not grant fixed source/type/Test/software admission, runtime adoption, world-day/SAVE/M7/G2 or speed credit."
+  ]
+}

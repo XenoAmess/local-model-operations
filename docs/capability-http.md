@@ -4267,3 +4267,12 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 [两项实际 HTTP 任务](evidence/2026-11-07-hoi4-release-sample-and-gh-wrapper.json)各首次200/stop/DONE，无传输重试；实际峰1，持续19.683024秒，并未并发。路径/来源SHA/65×67尺寸复制另验正确，但新增 ideas 小卡不能由普通国家领袖页推断可见，输入也未含角色引用声明；实机位置由owner独立建立。
 
 包装器审阅只部分参考读取中断后保留现场的意见，owner采用每次GET独立UUID目录；0候选代码原样采用。候选误报本地包未核SHA，相关判断拒收；精确notes回读和部分draft显式核对保留，不自动删除重建或重放发布。实际代理故障与后续owner修复另记，文本HTTP重试没有重放Steam/GitHub动作。无图片、实机或发布授权来自模型；完整token/TTFT、未报告缓存和未知净节省见回执。
+
+
+## 2026-11-07：运行期 Sway HTTP400 的原始输入上下文超限
+
+此为既有运行决策原件的离线诊断，不增记源码任务或POST。实际caller4fc4是system+user两消息、qwen38-coder/temp0/max256/thinkingfalse/jsonobject/SSEusage，不能套源码fixed3。最后19:23:40.5749681Z样本REQUEST3993145B/13a00406→HTTP400/1334ms，原response387B/83afc497明确BadRequestError、param=input_tokens：服务max1048576tokens，prompt至少1048577inputtokens，输入本身已超限；1048577是下界，完整token数/usage/cache/有效TTFT均NH。ROW→receipt→request/attempt→strictbase64原body及同proposal进度endpoint/model均独核，0新POST/probe。
+
+实际generic dictionary-form的原user JSON值span UTF8分布：history241行2847000B、root_facts56项712937B、snapshot115keys45909B、完整proposal2800B；这是内容字节而非外层转义wire或tokens。现caller只有Council/婚姻/Life窄域，无Sway专用compact入口。修复方向由M6业务owner独占：显式Sway任务域，保当前snapshot未知字段、完整proposal及identity/bodySHA和相关scheme原件语义，省略的无关历史仍保Java档案且明示scope；不能盲截断、删Guard或称完整历史无损。新投影完整编码/正负DATA/实际服务/同局恢复尚未在本案授信，减输出256、抬服务限或重复原POST都不是已证修复。[原错误、参数、精确链与边界](evidence/2026-11-07-runtime-sway-input-context-http400.json)。
+
+早19:08/3982162B/1437ms与19:10/3983519B/1320ms是另两次报告切点，未在此读取其body，不把最后下界/耗时回填。原response早已CAS归档，receipt直到batch收束ROW才可具名导航；Runtime合作stop/实际END/ROW分别记，不等于Game/keeper停止或新休假。0新模型生成/维护/JVM/Game/GET/服务或活跃配置改动，不制造119或重读旧length，不授提速/新日/SAVE/G2。
