@@ -4167,3 +4167,13 @@ fixed3/DIRECT/max2200/temp0/thinkingfalse/jsonobject/SSEusage，12:19:44.347868�
 后到2732B/27f7dd8f正式review：VALID_COMPLETE_METHOD_NOT_ADOPTED_INDEPENDENT_OWNER_SOURCE，两个matches均版本/SHA顺序正确，label与同Wire pair的knownSHA按合同接纳，原Source/NativeBinding/全部物理custody/token/packet门保。单guard逆换整method仅在明确LF投影下吻合旧方法，不能冒wholeclass rawbyte应用。方法语义有效，不列为语义拒收。
 
 实际owner Ready4320B/65442c8a与candidate9948B/55f240独立封于12:19:06.904353Z，早于caller started12:19:44.346351Z和真实POST_BEGIN12:19:44.347868Z；0whole/partial/code/modelJVM/noR2。交付PENDING保，3.9917585秒/TTFT1.3551421秒/reported7980+491成本仍算该请求，无缓存或节时推断。reviewcut owner必要1TU/type及新Test仍待，actual1376另一个fullplan scope失败不据此授修复／scheme／G2／SAVE。[源审、准确 pre-POST 时序与限界](evidence/2026-11-06-http-m6-sway-build113-valid-source-review.json)。0新HTTP/JVM/Game/probe/旧length读取，不为本有效未采用稿造R2。
+
+
+## 2026-11-06：Source114 独立 Sway build DATA 测试候选
+
+真实新Test114非113实现R2，6完整Java50588B（ownerBindings55f240／currentWire/helper/G2Source＋两formalTest仅DATA配方模板）与原serializer718B/8051完整实送，原TASK4623B固定message3。只新standalone2noarg Test，走实际registered target.prepare/decode，label/knownSHA上下大小写保source对象/unsafeuint64/fixednativepair；unknown/padded/foreign与原custody/source/token/nativeAck/paused门各按真实路径拒。718原classloader资源核SHA/StrictJsonMAX，0旧Test二进制/Support编跑、0私Root/lease/Writer/反射，不把模板算模型新贡献。提示已给完整预期矩阵，属于独立业务单位而非盲独立推导。
+
+fixed3/DIRECT/max4500/temp0/thinkingfalse/jsonobject/SSEusage，12:31:54.451423→12:32:17.120811Z真1POST/1END/0retry、200/stop/DONE/JSONvalid/complete，22.6694478秒/有效TTFT2.0448891秒/reported14211+3519/cachednull/peerUNKNOWN。完整CONTENT13428B/1837e486与SSE UTF8一致/audit差异空，原件先交owner再audit/Git；交付class/method/partial/literal采用PENDING、0modelJVM/noR2，不授case覆盖/2P/实际Sway/G2。[完整来源、配方合同与传输成本](evidence/2026-11-06-http-m6-sway-build-data-test114.json)。只读534COMPLETED/534RELEASED、g0005十八READY非并发、source0，0新JVM/Game/query/probe/活跃配置改；旧length全文/SSE仍整份未读未hash，不造115。
+
+
+后到2802B/22cc2186正式全文源审：class/两newmethods/partial/code全0、0rawJVM/noR2。静态helper调getClass与readAllBytes受检IO／streamclose写法错；更关键正例仅旧label、未测upper/lower knownSHA，negative custody也用label，修语法后仍可能在旧拒SHA生产上过，缺精确拒口与source保留循环。returned full_java非requested complete_java单列为字段合同错，完整source仍已源审，不当transport/length；decoded.target实际存在、DATA配方与nativeWire ctor否例合法，不虚指API。旧scaffold不算模型贡献，owner新完整2methods自接；这些是源码与回归义务拒收，不是实际javac/JUnit红，交付PENDING及真实成本保。
