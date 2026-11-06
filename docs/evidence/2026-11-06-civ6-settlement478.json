@@ -1,0 +1,161 @@
+{
+  "schema": "local-model-operations.civ6-settlement478/v1",
+  "utc": "2026-11-06T15:12:00.622424+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/3a7f23ae89905b1da19739e8ffaf6302c2b86ba1/docs/research/baiqi-p6-settlement478-positive-queue-evidence-2026-11-06.json",
+    "sha256": "5729120d595d557e288ef4275a7126145cbff32dc6580238a204aa909b2764a2"
+  },
+  "model": {
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "attempts": 1,
+    "extra_retries": 0,
+    "usage": {
+      "prompt_tokens": 2311,
+      "completion_tokens": 754,
+      "total_tokens": 3065
+    },
+    "ttft_ms": 499.44859999231994,
+    "total_ms": 5059.261800022796,
+    "shared_commit": "02954aaec02774b9e4914230b777ec3a716ef6dd",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "review": {
+      "utc": "2026-11-06T15:08:37.338550+00:00",
+      "raw_compile": false,
+      "raw_compile_error": "[string \"<python>\"]:13: function arguments expected near 'and'",
+      "raw_defects": [
+        "Colon syntax used for method value checks is invalid Lua.",
+        "UI path unconditionally uses Core GetType instead of UI GetUnitType."
+      ],
+      "raw_adoption": 0,
+      "raw_native_execution": 0,
+      "owner_cases": {
+        "core-no-operation": {
+          "passed": true
+        },
+        "core-pending-builder": {
+          "passed": true
+        },
+        "ui-nil-queue-only-GetUnitType": {
+          "passed": true
+        },
+        "ui-positive-builder": {
+          "passed": true
+        },
+        "unknown-no-default": {
+          "passed": true
+        },
+        "core-getter-error": {
+          "passed": true
+        },
+        "ui-getter-error": {
+          "passed": true
+        },
+        "fractional-operation": {
+          "passed": true
+        },
+        "nan-operation": {
+          "passed": true
+        },
+        "infinite-operation": {
+          "passed": true
+        },
+        "pending-must-boolean": {
+          "passed": true
+        },
+        "large-id-no-native": {
+          "passed": true
+        },
+        "negative-id-no-native": {
+          "passed": true
+        },
+        "alias-no-getters": {
+          "passed": true
+        },
+        "foreign-no-getters": {
+          "passed": true
+        },
+        "wrong-type-no-getters": {
+          "passed": true
+        },
+        "unsupported-expected-type": {
+          "passed": true
+        },
+        "invalid-context-no-native": {
+          "passed": true
+        },
+        "missing-J-protected": {
+          "passed": true
+        },
+        "invalid-object-id": {
+          "passed": true
+        },
+        "fresh-plain-metadata": {
+          "passed": true
+        },
+        "missing-UI-getter": {
+          "passed": true
+        }
+      },
+      "owner_unique_cases": 22,
+      "owner_sha256": "41e4be3cf540b2d6c3bb4062e65c55d3e2c07ccf64bbcbc9469c6be83305473a",
+      "usage": {
+        "prompt_tokens": 2311,
+        "completion_tokens": 754,
+        "total_tokens": 3065
+      },
+      "ttft_ms": 499.44859999231994,
+      "total_ms": 5059.261800022796,
+      "cumulative_through478": {
+        "logical_tasks": 478,
+        "complete_stop_valid": 445,
+        "length": 30,
+        "final_transport_failures": 3,
+        "http_attempts": 508,
+        "extra_retries": 30,
+        "opencode_native_generation": 0,
+        "cached_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null
+      }
+    },
+    "whole_code_adopted": false,
+    "raw_native_execution": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 478,
+    "complete_stop_valid": 445,
+    "length": 30,
+    "final_transport_failures": 3,
+    "http_attempts": 508,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "native": "Source82 unchanged/158. UI bounded58 own units, six settlers/builders read. Natural builder8519734@17,4 UI destination nonnil and subsequent Core pendingtrue/op1477390184; other five UI no destination/Core false/-1. Held8650807 remains ARMED. Separate-context non-atomic reads, zero commands/property writes.",
+    "candidate": "478 stop valid3065tokens5.0592618s0retry. Raw colon-method-value syntax invalid and UI path uses Core GetType, whole0adopt/Native0. Independent owner reader22contracts passed then Native readonly.",
+    "limit": "Positive current-unit operation example only. No proof about network/input pre-dispatch queue or safe retry; operation numeric value not mapped to name.",
+    "accounting": "Through478 logical478/complete445/length30/finaltransport3 HTTP508extra30, OpenCode native generation0, unknown costs/cache/savingsnull. Steam0online-uploadAlpha74unchanged."
+  },
+  "generic_lessons": [
+    "A natural positive queued-operation example can qualify getter behavior without manufacturing a game action.",
+    "Cross-context UI/Core reads are sequential observations, not an atomic world snapshot.",
+    "Lua colon syntax calls a method; inspect a method value with dot syntax. Compile the original candidate before attempting repairs or Native execution.",
+    "Actual UI and Core unit type getter names can differ. Pass a context-specific contract instead of silently substituting receivers.",
+    "Positive current-unit queue behavior still does not establish what happens before a request reaches that queue."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Current-unit operation getter positive/negative comparison for six own civilians, sequential UI/Core. No network queue guarantee, safe recovery fix, newgame/legacy acceptance, or Steam release."
+}
