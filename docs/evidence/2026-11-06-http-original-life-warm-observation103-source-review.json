@@ -1,0 +1,103 @@
+{
+  "schema": "local-model-operations.http-original-life-warm-observation-source-review/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-06T02:10:51.449895+00:00",
+  "project": "CK3",
+  "task_id": "ordinary-original-life-warm-post-ack-observation-20261106-01",
+  "prior_delivery_evidence": "2026-11-06-http-original-life-warm-observation103-delivery.json",
+  "prior_delivery_pin": {
+    "bytes": 8337,
+    "sha256": "80ba152193f84c50ec9941277224096ded6394be2b1bcf0638ce86ae86b323bb"
+  },
+  "prior_delivery_commit": "6f09318ecba1f553edacb76dd874bc6dc5520486",
+  "delivery_pending_cut_preserved": true,
+  "owner_review_pin": {
+    "bytes": 2936,
+    "sha256": "ac386bd7b03acfb1d18d2772db7f468dc1c2ff633a1234b9683a824431c7c17b"
+  },
+  "owner_review_at_utc": "2026-11-06T02:07:30.470645+00:00",
+  "complete_CONTENT_pin_from_prior_complete_stop_audit": {
+    "bytes": 26165,
+    "sha256": "94511e71608fc958dde1a981811f344593791017e7f1d613f06290d56ef6717d"
+  },
+  "RESULT_pin": {
+    "bytes": 1285,
+    "sha256": "6fe8714a7d9b082151df751212ecf9ccf96d98440551d55867993faa99b62e0b"
+  },
+  "source_prefix_and_actual_parameters_unchanged": true,
+  "decision": "REJECT_ALL",
+  "old_span_universal_newline_occurrences": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "concrete_source_failures": [
+    "Both proposed recovery helpers reject if any reported receipt is unsettled, before searching for the intended CompositeUnknown. Thus the actual target Unknown itself makes eligibility false.",
+    "Uses controller.identity().sessionId as a batch prefix; actual batch prefix and session ID are distinct, while existing helpers validate capturedController.batchPrefix.",
+    "Passes only actual.unresolvedActions (the parent alone) to readOnlyLifeRecoveryRoot, which requires the complete canonical child chain. It also invents child action ID parent+:resume-map and compares child body hash to the parent command body hash. Actual child IDs/hashes are independent bound originals.",
+    "Declares Optional<ActionCommand> without importing/qualifying ActionCommand. The lambda also captures finalReceipt after reassigning that local in several loops, violating effective-final Java rules. These are source-level declaration observations, not a compiler run.",
+    "Looks for the primitive postcondition-unavailable text on the parent CompositeUnknown rather than resolving the actual final child. The supplied real old753 demonstrates the child reason; the parent reports a different composite reason.",
+    "Swallows IOException/RuntimeException into false, losing the new genuine failure/cause, and leaves Loop lastReport pointing to the old failure after claimed recovery."
+  ],
+  "adoption": {
+    "whole_file": 0,
+    "methods": 0,
+    "partial_spans": 0,
+    "literals": 0,
+    "raw_candidate_JVM": 0,
+    "R2_or_retry": 0
+  },
+  "classification": "Source-level logic/API/declaration rejection after complete stop. Five unique old spans do not prove eligibility, canonical chain, identifier/hash roles or Java validity. No raw compiler/JUnit ran; not an actual compiler failure.",
+  "independent_owner": {
+    "ready_pin": {
+      "bytes": 4811,
+      "sha256": "fe63231c57a1ffadad0eda2c81cd62b1a3ff12ef736adb78d94ad599b0fba047"
+    },
+    "ready_at_utc": "2026-11-06T02:01:46.168248+00:00",
+    "ready_status_at_its_cut": "SOURCE_READY_NOT_TYPED_NOT_LOADED",
+    "target_after_pin": {
+      "bytes": 50768,
+      "sha256": "7f3692e3964b202e38daa8959a7e5f8b5ba721eeffdfb80e5683e4d3ce72f45a"
+    },
+    "owned_spans": 5,
+    "owner_scope": "Owner source was independently written before reading raw103; source review and necessary qualification are separate and not credited to this rejected candidate. No live warm recovery has run.",
+    "later_source_review_reported_by_Java_and_Root": "PASS; owner independent five spans. No rejected model code adopted.",
+    "later_native_qualification_reported_by_Java_and_Root": {
+      "changed_TU": 1,
+      "classes": 11,
+      "compiler_exit": 0,
+      "compiler_seconds": 10.9701,
+      "raw_candidate_JVM": 0,
+      "Models_independent_binary_or_ACTUAL_reaudit": false
+    },
+    "live_warm_adoption_or_metric": "NOT_HELD at reported review cut; no actual recovery, cold-bootstrap avoidance, speedup or saved-day credit. Separate P068 loader/BOOT facts not this candidate."
+  },
+  "prior_HTTP_cost_unchanged": {
+    "POST": 1,
+    "END": 1,
+    "finish_reason": "stop",
+    "HTTP_status": 200,
+    "DONE": true,
+    "total_ms": 47534.24720000476,
+    "effective_content_TTFT_ms": 18063.35140002193,
+    "reported_usage": {
+      "prompt_tokens": 140230,
+      "completion_tokens": 5182,
+      "total_tokens": 145412
+    },
+    "max_tokens": 12000,
+    "cached_tokens": null
+  },
+  "this_addendum": {
+    "new_generation_POST": 0,
+    "Models_JVM_SDK_C_GET_Game_JFR_stockIO": 0,
+    "raw_candidate_apply_or_run": 0,
+    "R2": 0,
+    "active_caller_config_service_Runtime_changed": false,
+    "previous_length_CONTENT_rawSSE": "whole unread/unparsed/unextracted/unhashed, no retry or semantic inference",
+    "next_business_task": "None held; no104/quota/probe generated",
+    "CK3_main_objective_complete": false
+  }
+}
