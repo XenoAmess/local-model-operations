@@ -4007,3 +4007,10 @@ fixed3/DIRECT/max8000/temp0/thinkingfalse/jsonobject/SSEusage，04:45:02.276803�
 0newHTTP/nativegeneration: owner79followupofalreadyrejected463. Baseline78initial15newcases9FAIL6PASS, final24PASS, full1108PASS76.529s. Exactnewcity/consumedsettlerreceipt+writefreshwitness, unknownnotclearedorreplayed. Productsource79/built87 notinstalledatcut; loyalty78actuallossremainsFAIL, Native79pending. Explicittool79consumersupdatedwithoutwideningoldLua; unchangedcumulative463/431/29/3 HTTP493extra30/0newOpenCode/unknowncostnull/Steam0upload.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-found79.json)。
+
+
+## 2026-11-06：Civ6found79native
+
+464canonical1stop/DONE/VALID0retry/rawpatch0Native/product. OwnerNative79actual173oneFOUNDandprecisenewcityobserved,175normalproductionandformalcompletedworldreloadverified;2inlineimages.214unitwindow/24MOVE/1FOUND/0noncivilian scopedpostbootstrap;bootstrapunknown.464oldgoal+hiddenreadcounterexampleswholepatchreject,actualknownprecity169support12vsforeign4/fivecities nativefixture0actions. Cumulative464/432/29/3 HTTP494extra30/Nov6maintenancecached/0newOpenCode/unknowncostnull,Steam0online/upload/Alpha74unchanged.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-found79native.json)。
