@@ -4000,3 +4000,10 @@ fixed3/DIRECT/max8000/temp0/thinkingfalse/jsonobject/SSEusage，04:45:02.276803�
 463canonical1 stop/DONE/VALID0retry, 3exact/fullLua compile but two isolated safety/async counterexamples fail, wholepatch0adoption/rawNative. Sameowned78ordinary175to178 unrescuednewcity actuallyFreeCities, 2inlineimages andformal178save. LongtermqualityFAILhonest;priorcreation/initialproduction/reloadfactskept. Cumulative463/431/29/3 HTTP493extra30, sameNov6maintenancecache/0newOpenCode-native/unknownnull,0Steamonline/upload/Alpha74change.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-loyalty78.json)。
+
+
+## 2026-11-06：Civ6found79
+
+0newHTTP/nativegeneration: owner79followupofalreadyrejected463. Baseline78initial15newcases9FAIL6PASS, final24PASS, full1108PASS76.529s. Exactnewcity/consumedsettlerreceipt+writefreshwitness, unknownnotclearedorreplayed. Productsource79/built87 notinstalledatcut; loyalty78actuallossremainsFAIL, Native79pending. Explicittool79consumersupdatedwithoutwideningoldLua; unchangedcumulative463/431/29/3 HTTP493extra30/0newOpenCode/unknowncostnull/Steam0upload.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-found79.json)。
