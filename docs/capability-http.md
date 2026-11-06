@@ -3922,3 +3922,15 @@ fixed3/DIRECT/max12000/temp0/thinkingfalse/jsonobject/SSEusage，01:57:03.544185
 455 once200/DONE/length2500整弃，0半稿读取/拼接/采用/重试；owner复用已核reader和observer，0新产品测试或代码。正常160→165WuhanWater3342385完成/接续/正式重载，Chengdu增长后162新Harbor仍在建。CitySDK首次guard错误后owner违规继续导致160161漏窗，公开缺口不补0；实际16116516BUILD/4district均合法，45events。4图内嵌，早Ready与容量延迟、投票/结果及loading拒输入分账。累计455/423/29/3 HTTP485/extra30，0新OpenCode/未知成本null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-district455.json)。
+
+
+
+## 2026-11-06：Source104 新verified-negative READ因果传递候选
+
+104是plainIOException丢失真实negative-READ因果的新缺口，不是103重投。Inputs02前置补actualNativeActionPort57fa完整API，01从未POST；两target为已qualified但未Runtime采用的Loop7f36与actualLifecycleac27，七Java上下文+两冻结原JSON共11全文775305B，原5718B合同逐字message3，实际REQUEST固定三消息/全文各一次已核。Runtime旧Loop737a、103全拒/owner资格等历史切点不变。
+
+合同只允许actualUnavailable/AckReceived/nativeOkfalse/精确native error、fixedquery原outboundidentity/完整custody与heldtransport匹配后产生极窄private-construction serial-safe IOException证据DATA，原ACK/请求须在既有writer保留，不制造Received/lease/role。Loop只捕该真实cause与已知wrapper，任何unrelated/suppressed/Guard/foreign/timeoutUnknown照旧失败；每次负READ或Unknown后重新standalone核真实canonical head/owner/batchprefix/同原commandbody/完整child与正ACK，再刷新下次DATA。成功必须真实APPLIED+原Controller/cycle清quarantine，不设flags/假report/重控制。原4次10/20/40/80退避、STOP、5min仅发起窗+每次原2min可跨窗与完整成本保，不改Guard/Nativeprofile/UI/Root API。
+
+fixed3/DIRECT/max12000/temp0/thinkingfalse/jsonobject/SSEusage，02:41:33.436266→02:42:08.644445Z真实1POST/1END；HTTP200/DONE/stop/JSONvalid，35.2080927秒/有效TTFT20.527396秒/reported159593+2579/cachednull/peerUNKNOWN。完整CONTENT12547B与SSE UTF8一致，审计errors/discrepancies空；先交Java原件再audit/Git，交付源采用待审、0rawJVM/noR2。全文传输不授因果证据/绑定刷新或暖恢复正确。[输入层次、具体合同与成本](evidence/2026-11-06-http-verified-negative-read-cause104-delivery.json)。
+
+只读524COMPLETED/524RELEASED，g0005八READY不是并发，当前source0；Nov06现有1.19.5缓存复用，0新探测/本岗JVM/Game/GET/JFR/stockIO/参数变化。不回授owner103/后继独立源或实际游玩/P068时长为模型收益，旧length正文/SSE持续整份未读未hash0adopt/noR2，无105真实需求不造调用。
