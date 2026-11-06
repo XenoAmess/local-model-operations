@@ -4177,3 +4177,23 @@ fixed3/DIRECT/max4500/temp0/thinkingfalse/jsonobject/SSEusage，12:31:54.451423�
 
 
 后到2802B/22cc2186正式全文源审：class/两newmethods/partial/code全0、0rawJVM/noR2。静态helper调getClass与readAllBytes受检IO／streamclose写法错；更关键正例仅旧label、未测upper/lower knownSHA，negative custody也用label，修语法后仍可能在旧拒SHA生产上过，缺精确拒口与source保留循环。returned full_java非requested complete_java单列为字段合同错，完整source仍已源审，不当transport/length；decoded.target实际存在、DATA配方与nativeWire ctor否例合法，不虚指API。旧scaffold不算模型贡献，owner新完整2methods自接；这些是源码与回归义务拒收，不是实际javac/JUnit红，交付PENDING及真实成本保。
+
+
+## 2026-11-06：Source115 Life 纯规划 observation 新路由候选
+
+真实新method115，仅ActualObservations.currentForPreparation。七完整Java303622B＋原TASK3639B实REQUEST全核；actual Rootbefore605c/Collector6727/Contexta274/Scope1c1b/Commands4ea7五源，与固定新Portdbeb/Life4d43两caller候选明确分开，不冒currentC。owner已诊断未reserve proposedLife在Sway childScope内误走执行current，合同保原执行reserved guard/所有current-next-validate-run/Scope原体，仅新prepare入口actualvalidation后用真实borrowCurrent先包住五arg currentPlanning，并强制original==request且lease==admitted、同identity/source/session，投影原issuedframe/Push/observedAt/evidence。禁止currentPlanning单用freshfallback、造DTO资格/lease/issuer/清scope/newread；原IO翻译与callback/ContractViolation保持。
+
+fixed3/DIRECT/max3000/temp0/thinkingfalse/jsonobject/SSEusage，13:37:48.920186→13:37:58.588512Z真1POST/1END/0retry，200/stop/DONE/JSONvalid/complete，9.6687103秒/有效TTFT7.8637734秒/reported60187+317/cachednull/peerUNKNOWN。完整CONTENT1822B/be9184e2与SSE UTF8一致/audit差异空，原件先交owner再audit/Git；交付method/partial/literal采用PENDING、0modelJVM/noR2，不授borrowed规划权限/typed/真实Life或Sway/G2/SAVE/速度。[完整角色来源、限定合同与传输成本](evidence/2026-11-06-http-m6-life-planning-observation115.json)。只读535COMPLETED/535RELEASED、g0005十九READY非并发、source0，0新JVM/Game/probe/活跃参数改；旧length全文/SSE仍整份未读未hash，不造116。
+
+
+115后到2308B/0fd30c21正式源审为VALID_COMPLETE_METHOD_NOT_ADOPTED_PARALLEL_OWNER_PRESEALED：actualvalidation/IO翻译、真实borrowCurrent先包五arg currentPlanning、original==request且lease==admitted、issuedframe/Push与frame-source-session全合，callback Guard未吞；额外lambda括号/有限error文字不改语义。owner02 Ready7021B/330362于13:24:31.864132Z独立封源，早于13:37:48.920186POST，0whole/partial/newcode/modelJVM/noR2，不能列语义拒收。交付pending切点保，owner三叶source/type/Runtime独立，不把后继编译或实际prepare成功回授模型。
+
+
+## 2026-11-06：Source116 Life preparation／execution 路由 DATA 测试候选
+
+真实独立Test116非115R2；五完整Java136518B＋原TASK4796B全部实送，LifecycleTest556d及两formal API仅完整publicDATA配方／声明，Life4d43/Portdbeb是固定候选，不冒currentRuntime。仅原Test插两newnoarg方法，旧tests/Fixture外全保且不RUN、不wholeclass/新helper。合同要求真Life prepare/rewrite走新preparation、validate/run仍旧current同异常；defaultfallback一次与foreignidentity在Life自身门拒，并核plan/cap/body/对象与callcounts/零新read-submit-child。只public routing DATA，不能用dummyport冒私Root/Scope/lease/manifest/nativeOwned许可。
+
+fixed3/DIRECT/max5500/temp0/thinkingfalse/jsonobject/SSEusage，13:42:44.905100→13:43:02.364588Z真1POST/1END/0retry，200/stop/DONE/JSONvalid/complete，17.4592423秒/有效TTFT3.971195秒/reported29551+2346/cachednull/peerUNKNOWN。完整CONTENT11402B/200b84f5与SSE UTF8一致/audit差异空，原件先交owner再audit/Git；115未发表后见保持原样，没有成为本POST门。交付method/partial/literal采用PENDING、0modelJVM/noR2，不授case覆盖/软件或私Root权限／实际Life/Sway/G2/SAVE/速度。[完整配方合同与传输证据](evidence/2026-11-06-http-m6-life-routing-data-test116.json)。只读536COMPLETED/536RELEASED、g0005二十READY非并发、source0；0新JVM/Game/probe/活跃参数改，旧length全文/SSE仍整份未读未hash，不造117。
+
+
+116后到2938B/74480206正式源审为两newmethod主体PARTIAL，不全拒/不完整method：owner改匿名类捕获int→int[]、Frame到Obj/identity类型、vacuous self-assert及真实request捕获、fullavailable Life集合、原异常identity和plan/cap期望。before11097B/aea2172b精确来自完整模型complete_java，after11731B/54a5780a由owner修，132逐字matching行含空行/comment，不冒有效LOC／采用比例／节时。owner最终Test84533B/cdf42、Ready3637B/5a31，ownedinsert移除后整源raw逆回72705B/556d，旧24methods/Fixture未变且0RUN。0wholeclass/0complete-method/modelJVM/noR2；只public routing DATA，不授私Root/Scope/lease/Nativeowned资格或实际Life/G2。原交付PENDING和成本保，owner生产既有型验引用不追授raw，本cut新2methods的编测／Runtime仍未授。
