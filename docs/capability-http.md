@@ -4123,3 +4123,13 @@ review09:32cut P0finalcontract pending保；随后09:33 FinalReady6004B/e09b记�
 471lengthreject/472compile+2syntaxonlycounterexamplesownerpartial/473literal9+receivercompat3unsafeabsencewhole0adopt/474unsafe2fixes0adopt. Source82wiredCore+UI93files/full1153PASS60.371s butnotNativepassedatdelivery;105fact/protocolsubcases+16UI+2provenancemethodsnotgameTCcredit. Actual471472peak2. Owner80formalexitonce37.506633stuplegone0terminate. Through474474/441/30/3 HTTP504extra30/0OpenCodegen/unknownnull/Steam0online-uploadAlpha74unchanged.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settlement82.json)。
+
+
+## 2026-11-06：Source111 Sway no-job 决策原因单方法候选
+
+真实新diagnostic consumer111，非109/110R2。完整current Policy70c061／Service9c9／Schedule13ff三Java43549B＋原TASK2365B均全pin且实REQUEST各1次、固定message3全文相同。只请求原evaluate空staged且NO_JOB/decision存在时，在旧reason/error后追加scheduler_reason枚举与实际可用next_check_date_raw，整段新增detail≤1024 Java chars，旧reason/error不截；missing保原缺省，不serialize全Decision/State或新增query/job/权限/Guard改。owner已先定位字段丢失并强引导，未知实际scheduler原因不猜，不授权强行启动。
+
+fixed3/DIRECT/max3000/temp0/thinkingfalse/jsonobject/SSEusage，11:49:26.401164→11:49:33.117834Z，1POST/1END/0retry，HTTP200/DONE/stop/JSONvalid/complete，总6.7166146秒、有效TTFT1.6385506秒、reported10152+935/cachednull/peerUNKNOWN。完整CONTENT4429B/bb90a0e2与SSE UTF8一致/audit差异空，已先交M6源审再audit/Git；该交付切点method/partial/literal采用PENDING，0modelJVM/noR2，不授软件、实际新reason/调度根因、scheme/Start/G2/SAVE/速度。[完整输入合同、参数与成本](evidence/2026-11-06-http-m6-sway-no-job-reason111.json)。只读531COMPLETED/531RELEASED、g0005十五READY非并发、source0，日cache复用／无显式probe／caller和活跃Runtime配置不变，旧length全文/SSE仍整份未读未hash，不造112。
+
+
+后到11:51正式源审2805B/459dc808：NOT_ADOPTED_CONTRACT_BOUNDING_ERROR，完整method/partial/code/template贡献均0。唯一具体错是候选在append后对整个reason做substring(0,1024)，会截旧reason/error且把旧字符占入新预算；应只截新detail再append。NO_JOB gate、enum/Optional声明本身正常，不虚指API错或把此当容量/传输失败。独立owner14718B/e94b在实际POST前已封，0raw复制/JVM/noR2；p0源PASS与owner必要1TU软件待证另账，交付PENDING旧切点保留，不借owner后继成果追授模型代码。
