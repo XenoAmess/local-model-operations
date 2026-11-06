@@ -1,0 +1,178 @@
+{
+  "schema": "local-model-operations.http-original-life-warm-observation-delivery/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-06T02:00:44.408068+00:00",
+  "project": "CK3",
+  "task_id": "ordinary-original-life-warm-post-ack-observation-20261106-01",
+  "input": {
+    "manifest_pin": {
+      "bytes": 3118,
+      "sha256": "5713262380f32586a9f9188aa673c64e120faf8968626ab465f03a9d27152612"
+    },
+    "complete_input_files": 7,
+    "full_Java_files": 6,
+    "target_Java": 1,
+    "context_Java": 5,
+    "private_DATA_JSON": 1,
+    "full_input_bytes": 683254,
+    "contract_pin": {
+      "bytes": 7247,
+      "sha256": "5150683d740db9f79b28ebe75fbea61a4e6a0826072678ca786ae3f4b4ec1fdb"
+    },
+    "full_contract_raw_bytes": 7247,
+    "source_plus_contract_raw_bytes": 690501,
+    "all7_full_ordered_inputs_in_actual_REQUEST": true,
+    "full_original_contract_exact_message3": true,
+    "REQUEST_pin": {
+      "bytes": 705300,
+      "sha256": "0e3a2cb4a0cdb49fe289e9c87d1c55d4300e31cbe4028c850b8496e6f8aec9fc"
+    },
+    "source_message_pin": {
+      "bytes": 685302,
+      "sha256": "e19fc67e50735e752d598f9b37fddaeb3ba7d611aead773b0455970c50cd4484"
+    },
+    "ordered_roles_and_pins": [
+      {
+        "role": "target_actual_Loop",
+        "bytes": 37224,
+        "sha256": "737a2d4ff65a5a638d0b79177ae19ba251a5793fe1e18df2b162cc59fa4bc6ef",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "context_RootApplicationSession",
+        "bytes": 88706,
+        "sha256": "1be46e27ce2a431bc156d638620985dbeb24ffef0811a8f249963d2f6ac0c8b2",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "context_Controller",
+        "bytes": 134334,
+        "sha256": "b10d81b7c323b524947a781ce98fc38078de43d20c23373a4021b43baad58103",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "context_BatchJournal",
+        "bytes": 368700,
+        "sha256": "256fb0f437ed287a69869a33fc432eb84ff9290af1c60829f8d03e6f880adcd1",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "context_ObservationWindow",
+        "bytes": 1600,
+        "sha256": "2e79bb6cd24080cf7741613cacdbc75d6211065ff30256b4bbd31686a11cde7a",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "context_LifeComposite",
+        "bytes": 46914,
+        "sha256": "b6cb5a4f94c6a0531ff88c077b0ccde7ea9005191a4040b01b7c22795ac92dcd",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      },
+      {
+        "role": "context_private_old_ACK_receipt",
+        "bytes": 5776,
+        "sha256": "3cd59508cbacfed5ae0d4b91056e265b9ec4625830ae36cb0e3a092d04842144",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true
+      }
+    ]
+  },
+  "owner_precise_contract": {
+    "scope": "Single actual Loop lifecycle compensation only; Root/Controller/ObservationWindow APIs, NativeGuard/parser/hash/oldencoding, issuer/UI/Writer/newnamedtypes and control dispatch unchanged.",
+    "eligibility": "Only actual completed ACTION_UNKNOWN report identity from idle nonretired quarantined Controller, exact owner/batch/next sequence, no other unresolved reported receipt; sole original Life parent and complete canonical child chain retain command bytes/body/source/guard/ACK custody. Narrow actual fresh-negative reason only admission filter, never observation or settlement authority.",
+    "observation": "Authenticate canonical same parent/final resume and mandatory positive native ACK under existing standalone read. Release borrowed reader before real owner-only Root reconciliation. Four admitted same-ID calls with10/20/40/80s waits, interruptible <=1s slices and original STOP checks before/after waits/calls; no background thread/newbatch/control replay.",
+    "budget": "Fixed five-minute wall+monotonic admission/backoff window only. Each admitted attempt uses the existing independent two-minute observation contract, possibly crossing the scheduling window. No public clamp invented; no hard five/seven-minute whole-wall guarantee or refreshed command deadline. Original writer wait/afterExecution/cycle/close contracts and costs retained.",
+    "success": "Revalidate same parent/body/child and narrow negative after unresolved attempt; real same-command APPLIED plus Controller/canonical cycle completion before continuing. Preserve original failed report and onBatchCompleted history; only Loop transient report references may reset after genuine resolution. Exhaustion/STOP/error follows original terminal quarantine path, no invented successful report/clean/saved/advance credit.",
+    "shape": "Existing BatchCall false-default seam with real adapter and minimal private helpers; best-effort lifecycle summaries outside borrowed writer cannot replace original exceptions, interruption or suppression."
+  },
+  "guidance": "Owner diagnosed the lifecycle problem and supplied narrow algorithm, exact APIs, report eligibility and budget limits. Not autonomous diagnosis. Owner source NOT_YET_WRITTEN at immutable input cut; independent implementation and necessary qualification are not model credit or HTTP gates.",
+  "POST_BEGIN_UTC": "2026-11-06T01:57:03.544185+00:00",
+  "END_UTC": "2026-11-06T01:57:51.078484+00:00",
+  "local_day_POST_END": "2026-11-06",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 12000,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "candidate_complete": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 18062.472599965986,
+  "effective_content_TTFT_ms": 18063.35140002193,
+  "total_ms": 47534.24720000476,
+  "reported_usage": {
+    "prompt_tokens": 140230,
+    "completion_tokens": 5182,
+    "total_tokens": 145412
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1285,
+    "sha256": "6fe8714a7d9b082151df751212ecf9ccf96d98440551d55867993faa99b62e0b"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 26165,
+    "sha256": "94511e71608fc958dde1a981811f344593791017e7f1d613f06290d56ef6717d"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_before_audit_Git": true,
+  "source_adoption_at_delivery_cut": {
+    "status": "PENDING_OWNER_REVIEW",
+    "whole_method_span_literal_partial": "PENDING",
+    "raw_JVM_compile_or_RUN": 0,
+    "R2": 0
+  },
+  "operations": {
+    "readonly_queue": {
+      "dispatch.db": {
+        "COMPLETED": 523
+      },
+      "leases.db": {
+        "RELEASED": 523
+      }
+    },
+    "READY_g0005_records_not_concurrency": 7,
+    "source_HTTP_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "daily_OpenCode": "Nov06 successful1.19.5 cache reused; no additional explicit maintenance probe",
+    "Models_JVM_SDK_C_GET_Game_JFR_stockIO": 0,
+    "business_model_decision_HTTP": 0,
+    "active_caller_config_service_Runtime_changed": false,
+    "global_service_load": "NOT_HELD",
+    "net_owner_active_time_savings": null
+  },
+  "limits": [
+    "Complete HTTP/JSON/audit does not prove code application, API correctness, original report authentication, finite scheduling or actual reconciliation/cycle completion.",
+    "No raw compile/test, warm recovery, actual runtime adoption, avoided cold bootstrap, speedup, saved days or G2 credit. Each requires its own owner evidence.",
+    "Latest userfreeCK3 authorization does not transfer Runtime ownership to Models or alter Guard. Older permission/review/length cuts remain historical and unchanged.",
+    "All previous length CONTENT/rawSSE remain whole unread/unparsed/unextracted/unhashed0adopt/noR2. No old request replay or new quota task."
+  ]
+}
