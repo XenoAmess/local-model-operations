@@ -1,0 +1,178 @@
+{
+  "schema": "local-model-operations.http-life116-later-owner-routing-software/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "project": "CK3",
+  "at_utc": "2026-11-06T15:55:27.924511+00:00",
+  "task_ids": [
+    "m6-life-pure-planning-observation-route-20261106-01",
+    "m6-life-preparation-execution-routing-data-20261106-01"
+  ],
+  "original_source_cases": [
+    "2026-11-06-http-m6-life-planning-observation115.json",
+    "2026-11-06-http-m6-life-routing-data-test116.json"
+  ],
+  "kind": "Additive owner corrected mixed Test software; no new model generation",
+  "owner_delivery_pin": {
+    "bytes": 10929,
+    "sha256": "a4a28bf3c2082bf0a5c845de666ae30b271b4a6c80abdcf660bab0a8fe44030a"
+  },
+  "owner_delivery_at_utc": "2026-11-06T13:55:05.370925+00:00",
+  "primary_evidence_status": "Owner delivery plus directly pinned raw Native phase/outputs/XML metadata; final aggregate Native Test package not consumed here.",
+  "owner_reference_entries": 25,
+  "distinct_reference_paths": 18,
+  "reference_count_note": "25 listed entries include duplicate phase refs;18 distinct pinned files. Not25 different tests/classes.",
+  "phases": {
+    "test": {
+      "actual_pin": {
+        "bytes": 1846,
+        "sha256": "f4b483ffcd74c3017437fbb6238bab34210bf393ac9149e8498cbaacc7f6a3da"
+      },
+      "begin_pin": {
+        "bytes": 21182,
+        "sha256": "723d57868d243b87276da0064a72799287c3a40d2878a66684d1becd635eccc2"
+      },
+      "terminal_pin": {
+        "bytes": 763,
+        "sha256": "5c205614386116dc36056bf41a344bac8bf9693a454e8193108e163978e73270"
+      },
+      "post_pin": {
+        "bytes": 424,
+        "sha256": "6e65d029d8d1f455fbdf0133875f67ba734978f2c0cb36fda875a8ef29cd84b7"
+      },
+      "fence_pin": {
+        "bytes": 1180,
+        "sha256": "9880ae9b7c0d280f8837656bedf32906feea9e096e8dc66a1d65b817960a4257"
+      },
+      "close_pin": {
+        "bytes": 237,
+        "sha256": "e426d906949f07c040706568413d9dd0d74af97e5ea381a1cce3f6fac43f1e43"
+      },
+      "exit_code": 0,
+      "seconds": 9.687180600012653,
+      "contract_accepted": true,
+      "inputs_unchanged": true,
+      "execution_counts": {
+        "new_Test_TUs": 1,
+        "new_production_TUs": 0,
+        "new_support_TUs": 0,
+        "oldmethods_RUN": 0,
+        "Game_GET": 0
+      },
+      "stderr_bytes": 0,
+      "closed_terminal_fenced_released": true,
+      "closed_at_utc": "2026-11-06T13:52:13.997967+00:00"
+    },
+    "junit": {
+      "actual_pin": {
+        "bytes": 1573,
+        "sha256": "00bc8abd2dec8566222e4e8cd2971ae65f7052c7513e59109d1e472de275de7c"
+      },
+      "begin_pin": {
+        "bytes": 25725,
+        "sha256": "d3854b7c0d153b69a28713ecc42e1fc244808f141538c8a9d45f6e0c513e4ca9"
+      },
+      "terminal_pin": {
+        "bytes": 767,
+        "sha256": "e38edff8e35f46384036299d528af2eed34234529cedb6d04762ca61bc013fc3"
+      },
+      "post_pin": {
+        "bytes": 1470,
+        "sha256": "554c2a22291531fce5f4637fa6ae59467a80c86b822f5798f06828ce9099d2b2"
+      },
+      "fence_pin": {
+        "bytes": 1184,
+        "sha256": "69b42d20ed8777bc693002d76a25451b06cf24629a79c748ab739a68a64bfb59"
+      },
+      "close_pin": {
+        "bytes": 238,
+        "sha256": "b8579aa94563596389df5edf4eac241545447792f56d75108e97a71d95fecf52"
+      },
+      "exit_code": 0,
+      "seconds": 3.8836190999718383,
+      "contract_accepted": true,
+      "inputs_unchanged": true,
+      "execution_counts": {
+        "new_compile_TUs": 0,
+        "new_unique_DATA_methods_RUN": 2,
+        "oldmethods_RUN": 0,
+        "Game_GET": 0
+      },
+      "stderr_bytes": 0,
+      "closed_terminal_fenced_released": true,
+      "closed_at_utc": "2026-11-06T13:53:19.160830+00:00"
+    }
+  },
+  "test_output_entries": 13,
+  "output_manifest_pin": {
+    "bytes": 73519,
+    "sha256": "b9e4b814572858be72dbcab6e04c1f81af7614fb800532d29af4dd25692a97b3"
+  },
+  "XML_pin": {
+    "bytes": 39732,
+    "sha256": "18df4110c9189b51735a419f672b6502d6aa04f0d7ca0553d82479c79c9ff545"
+  },
+  "XML_attributes": {
+    "name": "JUnit Jupiter",
+    "tests": "2",
+    "skipped": "0",
+    "failures": "0",
+    "errors": "0",
+    "time": "1.656"
+  },
+  "exact_two_cases": [
+    {
+      "name": "preparationRoutesThroughCurrentForPreparationWhileExecutionUsesStrictCurrent()",
+      "classname": "org.xar.ck3.control.application.advance.LifeAdvanceLifecycleTest",
+      "time": "0.685"
+    },
+    {
+      "name": "defaultCurrentForPreparationDelegatesToCurrentAndForeignIdentityIsRejectedBeforeReadiness()",
+      "classname": "org.xar.ck3.control.application.advance.LifeAdvanceLifecycleTest",
+      "time": "0.01"
+    }
+  ],
+  "Test_source_ready_pin": {
+    "bytes": 3637,
+    "sha256": "5a31dae78bebec28d51496cda275148d767ac02be87aa957279de6fa56a881dc"
+  },
+  "Test_source_pin": {
+    "bytes": 84533,
+    "sha256": "cdf42bb21b37601a253cc04c5116cb6c47c5bac1909faa9fbfa3fd7e19ad4c1b"
+  },
+  "model_partial_review_pin": {
+    "bytes": 2938,
+    "sha256": "74480206152eb87cb7e53ac603c8cd78bfbb333bfe28ffb9f9835bc12c75acff"
+  },
+  "source_inverse_pin": {
+    "bytes": 13585,
+    "sha256": "03df039043c0e6400ba36f154cfea162c26648be67d72ef20201fc8106b21297"
+  },
+  "independent_source_review_pin": {
+    "bytes": 3173,
+    "sha256": "1482b64183a2ebf766d2e5e73c8f66b0e7f17b3c01d5767f16d309051d3a60e1"
+  },
+  "production_SourceReady_pin": {
+    "bytes": 7021,
+    "sha256": "330362c71160a59fafa62b24b83b38600a58006309d7e9f2d90db6d3b22d9980"
+  },
+  "production_qualified_reference_pin": {
+    "bytes": 341736,
+    "sha256": "5cba2e87f421ff3b7481e61e5671632771b63a7971937bcd38852691d133479e"
+  },
+  "owner_reported_production_first_and_reuse": "3TU14CF0/13.1508001s, no repeat",
+  "production_support_old24_recompile_or_RUN_for_this_Test": 0,
+  "scope": "New prepare/rewrite routing works while validate/run still reject via original current, default old producer current preserved, Life foreignidentity guard remains before readiness. Public DATA, not privateRoot/writer/lease/nativepermission or actual source/session validity.",
+  "Models_check_scope": "Existing frozen D primary delivery, its25referenceentries/18distinctfiles, source/review/Ready/inverse/productionqualifiedreference pins; raw Test/JUnit phase0/accepted/post unchanged/close/fence/released, output count13 and actual XML two selectors. No classbinary/shape parser re-execution, JVM or live Root/SDK/Game query. Production3TU14 first is owner report with pinned qualification reference, not model raw compile credit.",
+  "adoption_boundary": "115valid complete method notadopted0code;116two method bodies PARTIAL with owner substantive fixes,0complete-method/rawJVM; final mixed owner Test2P, no old24/support/prod rerun, no Root/privateScope/nativeOwned permission or Runtime/G2/speed proof.",
+  "old_source_delivery_pending_SourceReady_and_NO_COMPILE_cuts_preserved": true,
+  "model_whole_or_complete_method_or_raw_JVM_granted": false,
+  "Runtime_Root_permission_privateScope_live_life_Sway_G2_SAVE_speed_granted": false,
+  "new_generation_HTTP_JVM_Game_GET_probe": 0,
+  "limits": [
+    "Final owner Test mixes partial two model method bodies with substantive owner fixes; new2P is not raw complete-method pass. Old24/Fixture untouched and notRUN, production/support not recompiled for this Test.",
+    "115 valid complete method remained notadopted because owner independently presealed; production type evidence cannot backgrant model code.",
+    "Only public Life preparation/rewrite-vs-execution routing/default/foreignidentity DATA. Private Root samewriter/session/source/manifest/nativeOwned scope and actual Runtime/fullplan/benefit remain independently ungranted.",
+    "XML suite1.656s and managedJVM3.8836191s are distinct measures. Models pins metadata/XML only; no Java/SDK/Game re-execution or global resource probe.",
+    "Later final aggregate Native Test package was not consumed for this owner-delivery cut; raw phase and XML evidence is explicit. Old source-only/pending cuts remain."
+  ]
+}

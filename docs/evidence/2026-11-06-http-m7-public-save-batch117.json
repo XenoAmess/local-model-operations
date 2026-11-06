@@ -1,0 +1,243 @@
+{
+  "schema": "local-model-operations.http-m7-public-save-batch-boundary/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "project": "CK3",
+  "at_utc": "2026-11-06T15:55:27.924511+00:00",
+  "task_id": "m7-public-save-batch-boundary-serialization-20261106-01",
+  "source_owner_role": "M6 carrying M7 concurrency boundary",
+  "input": {
+    "manifest_pin": {
+      "bytes": 6364,
+      "sha256": "e5ddcc868533e28a9172009600a994eda0ddce537588c168f6b90d2007f802bc"
+    },
+    "complete_input_files": 6,
+    "complete_Java_files": 6,
+    "actual_current_Java": 5,
+    "fixed_Loop_API_candidate_Java_not_current_Runtime": 1,
+    "target_Java": 1,
+    "context_Java": 5,
+    "full_source_bytes": 292590,
+    "full_contract_raw_pin": {
+      "bytes": 3413,
+      "sha256": "7b82fc9fa7059ec19a23cc5674f972829798146267a367dc4a42f9c78bf53c2a"
+    },
+    "actual_message3_UTF8_pin": {
+      "bytes": 3413,
+      "sha256": "7b82fc9fa7059ec19a23cc5674f972829798146267a367dc4a42f9c78bf53c2a"
+    },
+    "inputs_plus_contract_bytes": 296003,
+    "all6_full_ordered_inputs_once": true,
+    "full_original_TASK_message3": true,
+    "REQUEST_pin": {
+      "bytes": 303445,
+      "sha256": "905e13cabb896c71f969d2bc57afd23b809e02a82a6e1c3a86cc26bb9be63862"
+    },
+    "source_message_pin": {
+      "bytes": 294496,
+      "sha256": "9cfca03b89de94c965da0bc51dd72fd1f9de5a1de4c428459e1d258304e3eff1"
+    },
+    "ordered_roles_and_pins": [
+      {
+        "role": "actual_target_RootApplicationSession1be4",
+        "owner_manifest_source_role": "actual Root target before, full owner/save/batch lifecycle",
+        "bytes": 88706,
+        "sha256": "1be46e27ce2a431bc156d638620985dbeb24ffef0811a8f249963d2f6ac0c8b2",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "fixed_Loop_BatchCall_API_candidate9487_NOT_current_Runtime",
+        "owner_manifest_source_role": "fixed new internal Loop BatchCall hook candidate9487, NOT current runtime; this is the caller ABI to implement",
+        "bytes": 55989,
+        "sha256": "9487b267e171bd6f4194d33dd4c1a0c0718cdee5c6f59db23603d6488a6dc6a3",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "actual_current_Controllerda4d",
+        "owner_manifest_source_role": "actual current Controller da4d, strict idle binding and public checkpoint adoption",
+        "bytes": 134713,
+        "sha256": "da4d6d691fb2504a492bbc52d7af2810887992e2111f00355934cb4032a1ebd8",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "actual_adopted_Host3fd7",
+        "owner_manifest_source_role": "actual adopted Host3fd7, same Root public request binding",
+        "bytes": 6712,
+        "sha256": "3fd73160c9cad7d82becdc328feb50f0ad1b8275f78811561cad8ed9859fcbef",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "actual_Checkpointe241",
+        "owner_manifest_source_role": "actual adapter e241 finite public deadline constructed before calls wait",
+        "bytes": 3767,
+        "sha256": "e241f254e9bde067c31ba6ae872f0113a106465a916342f23ab75f894b59e1f4",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "actual_current_RootAccesse5b4",
+        "owner_manifest_source_role": "actual e5b4 current-session access, no monitor across callback",
+        "bytes": 2703,
+        "sha256": "e5b4e64cc2b9a0240dab6f326125bccafe02429d7bd8f300ae4d2df18069f09a",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      }
+    ],
+    "parallel_owner_Ready_not_model_input_pin": {
+      "bytes": 4258,
+      "sha256": "517ef693b9ab6882b46c44c3becfda09d219bbea9fea560c8bc533724f4ec8fd"
+    }
+  },
+  "owner_precise_contract": {
+    "output": "JSON only complete_java with existing one-arg batch wrapper delegating null plus complete new batch(BatchLimits,BooleanSupplier) overload. No wholeclass/import/field/otherfunction.",
+    "sequence": "Nonnull limits then existing calls.lockInterruptibly; try requireOwner and requireNoPendingCheckpointAdoption BEFORE optional nonnull controller.bindExternalStopSignal(stopSignal), never getAsBoolean; exact olddeadline/prepareTransportBeforeController/controller.runBatch/owner.afterTurn/return; finally calls.unlock on all failures. Null preserves legacy no-bind route.",
+    "owner_only": "Existing fair calls field projection and fixed Loop internal BatchCall plumbing are owner mechanical scope, not model output or installed current Runtime. Preserve reentrancy/lockInterruptibly and Controller !running gate.",
+    "scope": "Same Root calls lock serializes full ordinary batch and existing public SAVE adoption, binding no longer outside lock. Fairness intent is queued SAVE priority, no actual SAVE success/deadline/safety claim. Owner/noPending gates before binder deliberately failclosed.",
+    "unchanged": "No save-body change, reset/retire/pause/stop/force/retry/issue/clearguard/newRoot/lease/threadmarker/permissions/APIendpoint/newlockplatform. No original native command/deadline renewal.",
+    "live_boundary": "At owner task freeze an original publicSAVE request was already in flight; source task may not reload/stop/reissue it. Stop remains Loop exit/Main close, not pause. This request grants no in-flight operation safety or new live action.",
+    "guidance": "Owner identified actual !running bind race vs publicSAVE running adoption and supplied exact serial order, legacy null semantics, fairness field/caller changes independently presealed. Strong guidance, not autonomous concurrency or Root authority discovery."
+  },
+  "POST_BEGIN_UTC": "2026-11-06T15:48:27.451813+00:00",
+  "END_UTC": "2026-11-06T15:48:36.165565+00:00",
+  "local_day_POST_END": "2026-11-06",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 2800,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "candidate_complete": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 7730.967400013469,
+  "effective_content_TTFT_ms": 7731.9652999867685,
+  "total_ms": 8713.841799995862,
+  "reported_usage": {
+    "prompt_tokens": 59170,
+    "completion_tokens": 176,
+    "total_tokens": 59346
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1322,
+    "sha256": "ef3bdd6f71ad07aca03ea33835a259030f0d284cdb760654fbf5bd31e222b1c1"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 862,
+    "sha256": "fba65d067f191a3f1ce36d38938c6baa93b0d460d3856b21c4eb1b7c1def5b59"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_before_audit_Git": true,
+  "source_adoption_at_delivery_cut": {
+    "status": "PENDING_M6_OWNER_REVIEW",
+    "whole_method_partial_literal": "PENDING",
+    "model_JVM_compile_RUN": 0,
+    "R2": 0
+  },
+  "operations": {
+    "readonly_queue": {
+      "dispatch.db": {
+        "COMPLETED": 537
+      },
+      "leases.db": {
+        "RELEASED": 537
+      }
+    },
+    "READY_g0005_records_not_concurrency": 21,
+    "source_HTTP_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "daily_OpenCode": "Nov06 successful1.19.5cache reused;0explicitmaintenance/serviceprobe",
+    "shared_sync": "Clean main normalFFae42f52, fourCiv6 docs units only, caller/profile unchanged.",
+    "Models_JVM_SDK_C_GET_Game_JFR_stockIO": 0,
+    "business_model_decision_HTTP": 0,
+    "original_business_SAVE_POST_retried_or_stopped_by_Models": false,
+    "active_caller_config_service_Runtime_changed": false,
+    "global_service_load": "NOT_HELD",
+    "net_owner_active_time_savings": null
+  },
+  "limits": [
+    "Complete200STOP/JSON/audit0 only transport/syntax, not two-method Java/semantics/adoption/type or actual concurrency/fairness/queued SAVE success/public physicalcanonicalSAVE/M7/G2/speed proof.",
+    "Five actual leaves and fixed Loop candidate remain distinct. Owner presealed source/fairfield/caller changes are independently owned, not raw model code.",
+    "117 genuine new boundary unit, not previous Host/source/Test R2. No118 genuine demand held. All old length CONTENT/rawSSE remain wholly unread/unparsed/unextracted/unhashed zero adopted/noR2. No quota/active config change."
+  ],
+  "subsequent_formal_source_review": {
+    "review_pin": {
+      "bytes": 2223,
+      "sha256": "cae66b5d488725b19183bd44572a837c129882455a841f270dbf8ea7b24bdf33"
+    },
+    "review_at_utc": "2026-11-06T15:51:42.007622+00:00",
+    "verdict": "VALID_TWO_COMPLETE_METHODS_NOT_ADOPTED_OWNER_PRESEALED",
+    "valid_two_complete_methods_not_semantic_rejection": true,
+    "review": [
+      "Complete available1argwrapper+2argoverload; actual Root methods/types unchanged.",
+      "Null legacy delegates no binding; nonnull binder only under same lock, after real owner/noPending, before same deadline/transport/controller/afterTurn.",
+      "Supplier never evaluated atentry, callback/owner errors propagate while finally unlock remains. No rewrite/save/stop/reset/newpermission/newdeadline/issuer.",
+      "Whitespace split statements differ only; fairfield is separately owner projected and not generated by this method task."
+    ],
+    "adoption": {
+      "complete_methods": 0,
+      "partial": 0,
+      "code": 0,
+      "raw_model_JVM": 0,
+      "reason": "Independent parallel owner source517ef sealed before real POST15:48:27; not a semantic rejection."
+    },
+    "cost": {
+      "total_ms": 8713.841799995862,
+      "ttft_ms": 7731.9652999867685,
+      "usage": {
+        "prompt_tokens": 59170,
+        "completion_tokens": 176,
+        "total_tokens": 59346
+      },
+      "retry": 0
+    },
+    "owner_source_ready_pin": {
+      "bytes": 4258,
+      "sha256": "517ef693b9ab6882b46c44c3becfda09d219bbea9fea560c8bc533724f4ec8fd"
+    },
+    "owner_source_sealed_at_utc": "2026-11-06T15:43:53.445939+00:00",
+    "actual_EVENT_POST_BEGIN_utc": "2026-11-06T15:48:27.451813+00:00",
+    "owner_source_sealed_before_POST": true,
+    "owner_source_state_at_seal_cut": {
+      "independent": "PENDING",
+      "compile": "NOT_RUN",
+      "runtime": "NOT_ADOPTED",
+      "SAVE15_32": "IN_FLIGHT_NOT_RETRIED"
+    },
+    "credits": "Source semantic validity only, no Root concurrency/fairness/current SAVE runtime credit.",
+    "delivery_PENDING_cut_preserved": true,
+    "R2": 0,
+    "model_JVM": 0,
+    "current_Runtime_SAVE_outcome_not_inferred_from_source": true
+  }
+}

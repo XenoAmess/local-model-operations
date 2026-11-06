@@ -4225,3 +4225,19 @@ fixed3/DIRECT/max5500/temp0/thinkingfalse/jsonobject/SSEusage，13:42:44.905100�
 0newHTTP/generation; existing478notrecouned. Native old77→82 conservative migrate and later-turn nonemptyrecordpersistencePASS, existing settler expansionstillheld/ARMEDFAILnotfixed.1rawimage+BBCodeGitdraft. Through478445complete30length3transportHTTP508extra30/Steam0Alpha74.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settlement82-legacy.json)。
+
+
+## 2026-11-06：116 后到 owner 最终混合 Test 软件2P
+
+原116sourcepartial/pending切点保，owner13:55 delivery10929B/a4a28bf3另证新changedTest1TU13CF首编0/9.6871806秒，仅两newDATA2P/managedJVM3.8836191秒，XML39732B/18df4110 suite1.656秒，0E/F/skip。25列项含重复、18不同D文件pin及两phase ACTUAL/POST/terminal/fence/close/输出13项/真实XML两selector已轻核，stderr0且本两phase资源释放；0旧24RUN/Support/production重编，3TU14原production型验仅具名引用复用。[阶段原件pin与核对范围](evidence/2026-11-06-http-life116-owner-routing-software.json)。
+
+115模型仍有效未采用0code；116是partial主体＋owner实质修正后的最终Test2P，0完整method/rawJVM回授。只public routing/default/foreignidentity DATA，不是私Root/writer/lease/manifest/nativeOwned scope或actualprepare/fullplan/Runtime/Sway收益/M7/G2/SAVE/速度验收。此页使用owner交付及直接Native阶段/XML，后继aggregate Native Test package未在本cut消费；不等它改写旧切点。0新增HTTP/JVM/Game/query。
+
+## 2026-11-06：Source117 public SAVE 与 batch 同 calls 边界候选
+
+真实新并发缺口117：旧Loop在calls外bindExternalStopSignal的!running可撞publicSAVE adoption；只请求Root旧1arg batch delegate null＋new2arg overload。6完整Java292590B＋原TASK3413B实REQUEST全核，5actual与fixedLoop9487新ABI候选分开。合同lockInterruptibly后先owner/noPending再可选bind supplier（不求值），原deadline/transport/runBatch/afterTurn/return和finallyunlock保，null旧路线不多绑定。fairfield与Loop plumbing全owner机械接，0删Controller !running/RootGuard或新增Root/lease/队列；公平意图不等于SAVE成功，不重原业务POST/stop/reload、不把stop改pause。
+
+fixed3/DIRECT/max2800/temp0/thinkingfalse/jsonobject/SSEusage，15:48:27.451813→15:48:36.165565Z真1POST/1END/0retry、200/stop/DONE/JSONvalid/complete，8.7138418秒/有效TTFT7.7319653秒/reported59170+176/cachednull/peerUNKNOWN。完整CONTENT862B/fba65d06与SSE UTF8一致/audit差异空，原件先交owner再audit/Git；交付method/partial/literal采用PENDING、0modelJVM/noR2，不授编译/并发公平性或实机SAVE/M7。[完整合同、角色与传输成本](evidence/2026-11-06-http-m7-public-save-batch117.json)。只读537COMPLETED/537RELEASED、g0005二十一READY非并发、source0；0新JVM/Game/probe/活跃参数改，旧length全文/SSE仍整份未读未hash，不造118。
+
+
+117后到2223B/cae66b5d正式源审VALID_TWO_COMPLETE_METHODS_NOT_ADOPTED_OWNER_PRESEALED：旧null路线无多余绑定，新binder在同lock内owner/noPending之后、原deadline/transport/controller/afterTurn之前，supplier未求值、失败finally释放，0save/stop/reset/permission变化。owner Ready4258B/517ef于15:43:53.445939Z独立封源，早于15:48:27.451813POST，0complete-method/partial/code/rawJVM/noR2，不列语义拒收。fairfield全owner投影，旧交付pending与封源时compile/runtime未采用、旧SAVE在途切点保留；本方法源审不授当前实际SAVE或公平性收益。
