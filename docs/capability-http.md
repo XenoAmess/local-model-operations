@@ -4063,3 +4063,10 @@ fixed3/DIRECT/max5000/temp0/thinkingfalse/jsonobject/SSEusage，07:54:27.015720�
 0newHTTP/native-generation;prior465contextnotnewcredit. Actual80newsettlertraining/pop14to13/birth7929900andfirstmovement,threeinlineimages. Future20events0errdrop,City8BUILD/unit4/milproduction2allowed;exactcleanup,twoprivatecheckpointsnotreloaded. Congressvotesandactualdifferentresultskeptseparate. Cumulative465unchanged/unknowncostnull/0Steamonline-upload/Alpha74unchanged.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-training80.json)。
+
+
+## 2026-11-06：Civ6route80
+
+New466realunwrittenreportcandidate1POST/stop/DONE/VALID0retry9079+316tokens/3.7033131s/cachednull. 148+17staleandCorequeueagreementrejected,145147outlineonly/allownerrewritten/0verbatimproductNative. Actual80sameactortrain/birth/route/147oneFOUND/148granary3of32+formalcompletedreloadverified,3inlineimages.147Coreghostand1488388652TRADERaliasseparatefrom7929900fullabsence. Cumulative466/434/29/3 HTTP496extra30/Nov6maintenancecache/OpenCode0/unknownnull.0Steamonline-upload/Alpha74unchanged.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-route80.json)。
