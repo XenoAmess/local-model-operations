@@ -4140,3 +4140,10 @@ fixed3/DIRECT/max3000/temp0/thinkingfalse/jsonobject/SSEusage，11:49:26.401164�
 475stop5921tokens/34.3866954s/0retry/raw7counterexampleswhole0Nativeadopt.82cold/reloadJ0+crosscontextfullreadbacks/2rawimages/normal149only;emptybankreinitnotexcluded. OwnerHash-vs-Indexreadonlyprobeaccessviolationretained/same-sourcecorrectedboot2healthy/0force-Steamclose. Through475475/442/30/3 HTTP505extra30/0OpenCodegeneration/unknownnull.0Steamonline/uploadAlpha74unchanged.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settlement82-native-init.json)。
+
+
+## 2026-11-06：Source112 public checkpoint Host 单方法候选
+
+实际新M7入口缺口由owner先诊断：ordinary-dev私Host与Resource注入Host不一；owner另五叶接同CDI实例，模型仅新OrdinarySessionHost.saveCheckpoint typed完整方法。七currentJava209908B＋原TASK3371B全部实送、逐文件1次/message3完整。合同要求nonnull/原selected同session、仅Host monitor内捕获root后释放、actual.requireHost、现RootMcpCheckpoint.save及resolver严核完整identity/session/currentcontroller同对象、actualinstalledCatalog.save；UTC/30min是新操作有界deadline，不刷新旧命令，不造Root/lease/writer/Controller或队列，不把UNKNOWN映射成功/重发，不授权实际SAVE。
+
+fixed3/DIRECT/max2200/temp0/thinkingfalse/jsonobject/SSEusage，11:58:02.764792→11:58:10.024219Z真1POST/1END/0retry，200/DONE/stop/JSONvalid/complete，7.2594539秒/有效TTFT5.6784072秒/reported42748+247/cachednull/peerUNKNOWN。完整CONTENT1214B/68038859与SSE UTF8一致/audit差异空，原件先交owner再audit/Git；交付切点method/partial/literal采用PENDING、0modelJVM/noR2。实际完整消息与强引导不等于方法语义、同Host接线、编译或publicSAVE/physicalcanonical/M7/G2/速度通过。[输入合同与传输证据](evidence/2026-11-06-http-m7-public-checkpoint-host112.json)。只读532COMPLETED/532RELEASED、g0005十六READY非并发、HTTP0，0新JVM/Game/GET/probe/actualSAVE/活跃配置改，旧length全文/SSE持续整份未读未hash，不造113。

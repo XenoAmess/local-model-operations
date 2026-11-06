@@ -1,0 +1,188 @@
+{
+  "schema": "local-model-operations.http-m7-public-checkpoint-host-method/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "project": "CK3",
+  "at_utc": "2026-11-06T12:00:02.452856+00:00",
+  "task_id": "m7-public-checkpoint-host-save-method-20261106-01",
+  "source_owner_role": "M6 carrying M7 functional bridge",
+  "input": {
+    "manifest_pin": {
+      "bytes": 6415,
+      "sha256": "dbbb38ea71af10cbc149c31d4aaffd48f5b1b1703728f58d16054058976ee52a"
+    },
+    "complete_input_files": 7,
+    "target_Java": 1,
+    "context_Java": 6,
+    "full_source_bytes": 209908,
+    "full_contract_raw_pin": {
+      "bytes": 3371,
+      "sha256": "b3b2a775eb0661490d3280e20d01afe5c85b2a19929aeabfd2f4fa556f0f96e8"
+    },
+    "actual_message3_UTF8_pin": {
+      "bytes": 3371,
+      "sha256": "b3b2a775eb0661490d3280e20d01afe5c85b2a19929aeabfd2f4fa556f0f96e8"
+    },
+    "sources_plus_contract_bytes": 213279,
+    "all7_full_ordered_sources_once": true,
+    "full_original_TASK_message3": true,
+    "REQUEST_pin": {
+      "bytes": 219556,
+      "sha256": "4a715ef7eab77543ce9d31cd39b98bbd2fdaa7504f0a314eeb493aed3a00d434"
+    },
+    "source_message_pin": {
+      "bytes": 211954,
+      "sha256": "8650eac9cdc0c5680199e6925f7a76fe54e53e8280702b77974fe730a624856b"
+    },
+    "ordered_roles_and_pins": [
+      {
+        "role": "target_current_OrdinarySessionHost4b51",
+        "bytes": 5539,
+        "sha256": "4b51d30862492d0621e7dcf8b6726e2188496f753df1e4a32685bffdfea997d7",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "context_actual_RootMcpCheckpointe241",
+        "bytes": 3767,
+        "sha256": "e241f254e9bde067c31ba6ae872f0113a106465a916342f23ab75f894b59e1f4",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "context_actual_RootSaveRuntimee651",
+        "bytes": 7311,
+        "sha256": "e651c4a7b3127924fab63b1e929e5e50c3cf1d58cbd112d3ad843380578b36cc",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "context_actual_RootApplicationSession1be4",
+        "bytes": 88706,
+        "sha256": "1be46e27ce2a431bc156d638620985dbeb24ffef0811a8f249963d2f6ac0c8b2",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "context_actual_CheckpointPublicCodec55b6",
+        "bytes": 13251,
+        "sha256": "55b655a0dffd8dfcdbbb0a4e90865f7e26d04ec5c27936b42d85f7ea9f06860a",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "context_actual_RootRuntimePublicCatalogc127",
+        "bytes": 34772,
+        "sha256": "c1278b7e4496c7947de8197cbb58af01ce0ebc7e5ea89f87ef2772c418ea9170",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "context_installed_RootInstalledCatalogc6b0",
+        "bytes": 56562,
+        "sha256": "c6b0408a2176529ff324178dc23ccd2913a154270a092d31fa984a227e30e8f6",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      }
+    ]
+  },
+  "owner_precise_contract": {
+    "output": "Only new complete typed OrdinarySessionHost.saveCheckpoint(String sessionId,RootCheckpointPublicCalls.Request) throws InterruptedException -> SaveCall in JSON complete_java; use FQN when no existing import. No other class/import/field/helper/leaf/test output.",
+    "producer_consumer_gap": "ordinary dev installs a private host while resource receives another host. Owner independently wires same CDI Host through Dev/Main/Prepared/session.install/resource in five other leaves; this model targets only one Host method.",
+    "entry": "Require nonnull request; expected=existing selected(sessionId) installed nonretired controller. Capture existing private root under synchronized(this) only, release monitor before any Core/Root callback to preserve Core->Host lock order. Missing root failclosed. actual.requireHost(this) IOException -> IllegalStateException fixed context with cause.",
+    "resolver": "Construct existing RootMcpCheckpoint with exact actual RootSessionAccess; reject admittedRoot identity unequal to expected full identity, admitted sessionId unequal caller sessionId or current().orElse(null)!=expected. Then return admittedRoot.installedCatalog().save(), not fake catalog/root/controller.",
+    "deadline_result": "Clock.systemUTC plus Duration.ofMinutes(30) is bounded NEW operation deadline, not renewal of any previous native action. Return existing handler.save(request) unchanged, propagate InterruptedException; canonical/physical UNKNOWN and original-only queries remain handler responsibility, no resubmit or claimed success.",
+    "preserve": "No Host monitor across Core invocation, Controller mutation, force stop/pause, idle authorization shortcut, original deadline/due/ledger changes, operation queue/platform/new Root/lease/writer/session/Ready/permission. No liveSAVE/GET/probe/JVM/Game by this source request.",
+    "guidance": "Owner already diagnosed actual private/public host mismatch and supplied exact method signature, lock ordering, full resolver checks, handler/clock/deadline route. Strongly guided, not autonomous architecture/authority discovery."
+  },
+  "POST_BEGIN_UTC": "2026-11-06T11:58:02.764792+00:00",
+  "END_UTC": "2026-11-06T11:58:10.024219+00:00",
+  "local_day_POST_END": "2026-11-06",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 2200,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "candidate_complete": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 5677.493600000162,
+  "effective_content_TTFT_ms": 5678.407200030051,
+  "total_ms": 7259.45390004199,
+  "reported_usage": {
+    "prompt_tokens": 42748,
+    "completion_tokens": 247,
+    "total_tokens": 42995
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1312,
+    "sha256": "10614bc70e10a25cc106ccfc72c380dc1b6a10521294ffd85ea52e127d2f2537"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 1214,
+    "sha256": "6803885919b228d3e80cea0a230a20ef7127544d58971fa7cc9c73d5cbe59fef"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_before_audit_Git": true,
+  "source_adoption_at_delivery_cut": {
+    "status": "PENDING_M6_OWNER_REVIEW",
+    "whole_method_partial_literal": "PENDING",
+    "model_JVM_compile_RUN": 0,
+    "R2": 0
+  },
+  "operations": {
+    "readonly_queue": {
+      "dispatch.db": {
+        "COMPLETED": 532
+      },
+      "leases.db": {
+        "RELEASED": 532
+      }
+    },
+    "READY_g0005_records_not_concurrency": 16,
+    "source_HTTP_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "daily_OpenCode": "Nov06 successful1.19.5cache reused, no explicit maintenance or service probe.",
+    "shared_sync": "Clean main normalFF0439b33; Civ6 settlement82-native-init docs only; caller/config/profile unchanged.",
+    "Models_JVM_SDK_C_GET_Game_JFR_stockIO": 0,
+    "business_model_decision_HTTP": 0,
+    "actual_SAVE": 0,
+    "active_caller_config_service_Runtime_changed": false,
+    "global_service_load": "NOT_HELD",
+    "net_owner_active_time_savings": null
+  },
+  "limits": [
+    "Complete200STOP/JSON/audit0 proves transport/syntax only, not method semantics, same-CDI-host installation, source adoption, compile, external checkpoint registration, physical/canonicalSAVE, restore or M7/G2/speed.",
+    "Source112 is genuine new Host method, not111R2/replay. Other five leaves remain owner scope, not generated or adopted model code. No genuine113 task held.",
+    "All old length CONTENT/rawSSE remain wholly unread/unparsed/unextracted/unhashed zero adopted/noR2. No quota traffic or active Runtime configuration change."
+  ]
+}
