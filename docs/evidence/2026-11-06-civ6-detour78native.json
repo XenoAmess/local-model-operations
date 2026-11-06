@@ -1,0 +1,146 @@
+{
+  "schema": "local-model-operations.civ6-detour78native/v1",
+  "utc": "2026-11-06T04:43:49.463805+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/1a7fd444e099e4d87371b1fdbfb4a68fe11426bb/docs/research/baiqi-p6-detour78-native-founded-and-loyalty-evidence-2026-11-06.json",
+    "sha256": "c6d548b7fbbc3fb481b4710caa0a117cedf8da3202db5f4b011d3476fef30c22"
+  },
+  "model": {
+    "models": {
+      "461": {
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 46147,
+          "completion_tokens": 1369,
+          "total_tokens": 47516
+        },
+        "total_ms": 15116.179300006479,
+        "ttft_ms": 6074.733200017363,
+        "shared_commit": "5443a3adc46235b3f2fd508b1205229ede13024a",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "raw_native_execution": 0,
+        "product_edits_adopted": 0,
+        "adoption": {
+          "candidate_old_exact_matches": 1,
+          "actual_metadata_condition_result": false,
+          "actual_kind": "FOUND_CITY",
+          "actual_operation_type": "number",
+          "raw_patch_adopted": false,
+          "raw_native_execution": 0,
+          "reasons": [
+            "Patch checks kind MOVE_TO and operation string FOUND_CITY; actual stored kind FOUND_CITY and numeric UnitOperationType. Candidate prose correction did not repair submitted edit.",
+            "No request-before native no-city witness; correcting only kind would still permit pre-existing owned city false attribution.",
+            "No fullID/target identity/error boundaries or asynchronous receipt contract. Existing city already auto-produced; broad cityEvaluated reset is not demonstrated necessary."
+          ]
+        },
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null
+      },
+      "462": {
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 47363,
+          "completion_tokens": 478,
+          "total_tokens": 47841
+        },
+        "total_ms": 9705.810199957341,
+        "ttft_ms": 6212.452200008556,
+        "shared_commit": "5443a3adc46235b3f2fd508b1205229ede13024a",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "raw_native_execution": 0,
+        "product_edits_adopted": 0,
+        "adoption": {
+          "raw_native_execution": 0,
+          "raw_probe_adopted": false,
+          "adopted_scope": "Only actualinstalledCityPanelCulture documentedmethods and sourcebreakdown shape as references. Owner bounded fullownedID/coordinates/visible-first finite pcall reader.",
+          "limitations": [
+            "Candidate omitted player/owner/visible guards, finite/error/bounded source checks and assumed Round global in unrelated context.",
+            "Native recommendation scoring is opaque; source proves no explicit mod loyalty filter, not that nativeAI has no loyalty considerations."
+          ],
+          "first_owner_read": "16sources bound, overflow1 honestly recorded; increase32 bounded secondread actual17/0error/0overflow."
+        },
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null
+      }
+    },
+    "maintenance": "SameNov6successfulOpenCode1.19.5maintenancecache reused,0newOpenCode-nativegeneration.",
+    "review": {
+      "utc": "2026-11-06T04:42:18.923958+00:00",
+      "461": {
+        "candidate_old_exact_matches": 1,
+        "actual_metadata_condition_result": false,
+        "actual_kind": "FOUND_CITY",
+        "actual_operation_type": "number",
+        "raw_patch_adopted": false,
+        "raw_native_execution": 0,
+        "reasons": [
+          "Patch checks kind MOVE_TO and operation string FOUND_CITY; actual stored kind FOUND_CITY and numeric UnitOperationType. Candidate prose correction did not repair submitted edit.",
+          "No request-before native no-city witness; correcting only kind would still permit pre-existing owned city false attribution.",
+          "No fullID/target identity/error boundaries or asynchronous receipt contract. Existing city already auto-produced; broad cityEvaluated reset is not demonstrated necessary."
+        ]
+      },
+      "462": {
+        "raw_native_execution": 0,
+        "raw_probe_adopted": false,
+        "adopted_scope": "Only actualinstalledCityPanelCulture documentedmethods and sourcebreakdown shape as references. Owner bounded fullownedID/coordinates/visible-first finite pcall reader.",
+        "limitations": [
+          "Candidate omitted player/owner/visible guards, finite/error/bounded source checks and assumed Round global in unrelated context.",
+          "Native recommendation scoring is opaque; source proves no explicit mod loyalty filter, not that nativeAI has no loyalty considerations."
+        ],
+        "first_owner_read": "16sources bound, overflow1 honestly recorded; increase32 bounded secondread actual17/0error/0overflow."
+      },
+      "owner_core_read_failures": {
+        "attempts": 2,
+        "game_commands": 0,
+        "reason": "Owner new readonly checkpoint reader used UI GetUnitType in Core where actual method is GetType. First correction incorrectly suspected movement fields; second still failed. Corrected from existingqualifiedCoreconsumer; UI/Core completed175+reload175 passed. No dependent commands after failure."
+      }
+    }
+  },
+  "cumulative": {
+    "logical": 462,
+    "complete_stop_valid": 430,
+    "length_discarded": 29,
+    "final_transport_failed": 3,
+    "http_attempts": 492,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "cohort": "77naturallytrained164settler9764928;78coldsame167blockedcheckpoint actualdetour/173oneFOUND/new1114127/175granary1of32andformalreload. Notwhole78trainingchain.",
+    "districts": "Harbor3407922completed172 andIndustry3211311completed174, actualUIcompletion+Coreplotidentity+events/continuation, duplicateeventdeliverynot2districts.",
+    "gaps": "ActualnewcityprovenwhilemodFOUNDrequest0:173:193stillunit_unavailable. NewcityNative175loyalty54/-23perturn/3turnsto conversion, nearbycitizen-20/amenity-3. Longtermqualityunpassed, noGovernor/armyrescue.",
+    "review": "461rawpatchwrongkind/operationactualisolatedconditionfalse, no-beforeempty witness;wholepatchrejected.462actualnativeAPImethodreferencesonly;ownerfullID/owner/visible/finite/bounded read. First16capoverflow1preserved;32capactual17/0err/0overflow.0rawNative/product.",
+    "runtime": "TwoUnitSDKwindows34/6MOVE and180/18MOVE/1FOUND/noncivilian0 scopedExecutor, bootstrapcountunknown. City23BUILD/5unit/2militaryproduction, notmilitaryorders;events43errors0drop0. Exactcleanupallhooksnil+officialsave675586/hashverified175loadonce/Continueonce/actualUI-Coreassetsgoldpersist.",
+    "owner_corrections": "NewCoreprobe2readonlyfailuresUIGetUnitTypeusedinCore, correctedfromexistingqualifiedGetTypeconsumer. LoadingwindowhealthandContinueglyphrejectedbeforeinput; onefreshContinueafterglyphready. Oldsavedown77hung441.68safterofficialexitretiredexactownonce,notcleanexitpass,0Steam/othertermination.",
+    "delivery": "6newuneditedownedgameimagesembedded,knownissuesandBBCodehonest/Steam0online0upload/Alpha74unchanged."
+  },
+  "generic_lessons": [
+    "A consumed unit and an actual new city can prove the gameplay effect independently of a deficient mod completion receipt. Preserve both facts and never manufacture an observed log or repeat the action.",
+    "Compare candidate pending-kind and operation fields to their actual producer, including types. A prose correction does not repair a contradictory submitted patch.",
+    "A city founded successfully can still be a poor autonomous expansion. Check actual loyalty and subsequent ownership instead of granting long-term quality from a creation event.",
+    "Do not claim native recommendation internals ignore a factor merely because the mod has no explicit filter. Native scoring can be opaque.",
+    "When a bounded diagnostic truncates a real source list, preserve its overflow and rerun only the independent read with a justified higher bound; do not silently relabel the first read complete.",
+    "Keep UI and Core method consumers distinct; use an already qualified native consumer rather than guessing which missing method caused a compound expression failure.",
+    "Military production is within domestic automation; it is different from military unit commands. Keep observer counts separated.",
+    "Repeated completion event deliveries need stable object identity before counting game assets.",
+    "A formal exit ACK and window closure do not establish process exit. Report an eventual exact-owned test-process retirement separately from clean shutdown validation."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Actual same-checkpoint occupied-step fix, route/founding, newcityinitialproduction, two district completions and formal same-process reload only. 77training/78route mixed cohort, inheritedQA save; bootstrapSDKunknown. Loyalty loss and mod completion receipt remain open. No all40/fullTC009015017/longtermsettlementquality/globalmilitary/coldwhole78chain/Steam78release."
+}

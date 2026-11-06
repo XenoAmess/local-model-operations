@@ -3976,3 +3976,10 @@ fixed3/DIRECT/max8000/temp0/thinkingfalse/jsonobject/SSEusage，04:20:06.104326�
 正式review2082B/eed231b7全拒：五oldspan归一各命中，但最后Policy old==new纯no-op，Construction scope wrapper根本未安装；collector-wide AtomicReference跨evaluate且每次hit/query后可重新填充，不是单次私临时范围/永久disable。缺exact request/thread/borrowed Session identity与headseqdigest，cache时还解引用absent Session；planningView继续复制旧Known，显式Session/INTENT未分离，finally不清。whole/method/partial/literal/code/rawJVM/R2全0，属源码生命周期/资格审拒，未运行raw compiler/JUnit，不记实际编测红。
 
 原51378ba交付待审JSON/1POST1END及11.8097086秒、TTFT4.7472172秒、36512+1222成本不改。Owner SOURCE-READY01三叶九span早于本HTTP，原cut未型/未装载；正式review和Java后报独立源已型39CF，本岗未重验ACTUAL/binary、也不回授模型。新增DATA测试仅后报sourceReady交Native，本页无测试结果或实际提速/SAVE。[实际operation命中/no-op、完整拒因与独立owner pin](evidence/2026-11-06-http-construction-evaluate-state-reuse105-source-review.json)。本次0新HTTP/JVM/Game/probe/noR2，旧length正文/SSE持续整份未读未hash，无106真实需求不制造调用。
+
+
+## 2026-11-06：Civ6detour78native
+
+461/462 canonical each1 stop/DONE/VALID0retry, Nov6OpenCode1.19.5maintenancecache reused/0newnativegeneration.461wholepatchrejected,462onlyactualAPIreference,0rawNative/productchanges. OwnerNative78same167detourto173newcity/175normalgranaryandformalreload, two completed districts,6embeddedimages. Newcity54/-23/3turnsandmodreceiptunit_unavailablekeptOPEN.累计462/430/29/3 HTTP492extra30/unknowncachecostsnull;0Steamonline/upload/Alpha74unchanged.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-detour78native.json)。
