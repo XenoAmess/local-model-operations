@@ -1,0 +1,149 @@
+{
+  "schema": "local-model-operations.civ6-settlement467468/v1",
+  "utc": "2026-11-06T09:28:22.528060+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/f659fe27e22653fcd3bf84d4af0877e4690fca8e/docs/research/baiqi-p6-settlement467468-recovery-contract-evidence-2026-11-06.json",
+    "sha256": "4c9edfd4ba42dfbec7eb4aeb26027f54cc2b2187f3d7731ecdef6a40f68d8a8f"
+  },
+  "model": [
+    {
+      "task": 467,
+      "shared_commit": "4b2807b1e4d64f5ab1c3515cdfc26e31067ee19b",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "attempts": 1,
+      "extra_retries": 0,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 59027,
+        "completion_tokens": 2030,
+        "total_tokens": 61057
+      },
+      "headers_ms": 7705.0523000070825,
+      "ttft_ms": 7712.421500007622,
+      "total_ms": 21208.663400029764,
+      "owner_review": {
+        "utc": "2026-11-06T09:03:07.425057+00:00",
+        "scope": "Designcandidateonly,noexecutablepatch;fullcontrollerandGP/ProphetCorebridges/actualnewNative80identityfactsprovided.",
+        "adoption": "Wholeprotocolrejectedasimplementationcontract;existingCorepropertyauthority/UIsoleemitterdirectionalreadyestablished,notnewrawcodeadoption.",
+        "findings": [
+          "ReconcileproposescityexistsORsettlerdead/removed→OBSERVED/CONSUMED,inadequateforcurrentwrite-beforeempty+newexactowncityANDconsumptionproof.",
+          "MissingwasEmptywitness/durableconflictingforeigncitylatchandsnapshotvalidation;eventSeenfromunqualifiedCityFoundedorsimilarcannotgrantcausality.",
+          "ObservejustmatchesunitID/plotandmarksOBSERVED,doesnotindependentlyverifycurrentNativeowner/city/fullunitstate.",
+          "Migrationinitializesemptywhenold80noKEYandlooksatUIpendingafterreload,whichisexactlylost;doesnotprotectoldunknownsettlerorfreshfirstsettlerexplicitly.",
+          "Noenumerationbridgecontractforrestoringconsumed/missingpendingactors;InspectonlyunitIDcannotrecoverrecordsfromemptyUI.",
+          "Noexplicitfreshgrantvsreusedtoken/postPreparefinalUIguards/SetPropertyappliedbutreadbackfailed/crossworld/serial-capacityprotocol.",
+          "AliasexampleconfusesdifferentfullIDslotreusewithsamefullID;newfullIDturn/indexnotintrinsicproof.",
+          "Manualfoundingconflicttestcontradictsreadonlyciviliancontrol;foreignconflict/capturemustnotbeacceptedascorrectAIeffect.",
+          "UnqualifiedCoreGetCityAt/VisibilityandCityFoundedassumptionsnotverification. Ownerlaterindependent2tileCorequalifiesgettersonly,noeventsignaturequalification."
+        ],
+        "raw_native_execution": 0,
+        "raw_product_adoption": 0,
+        "owner_preparation_note": "First467wrapperNameError(taskfileinsideelse)occurredbeforetaskfile/intent/outputdir/POST;fixedownerindentationandstarted467once. NotmodelHTTPfailure/retry.",
+        "cumulative_through468": {
+          "logical": 468,
+          "complete_stop_valid": 436,
+          "length_discarded": 29,
+          "final_transport_failed": 3,
+          "http_attempts": 498,
+          "extra_retries": 30,
+          "new_opencode_native_generation": 0
+        },
+        "actual_client_peak_for467468": 1,
+        "actual_post_overlap": "46808:47:58.488..08:48:14.250;46708:50:49.926..08:51:11.134,disjoint. Intendedindependentdispatchnotachieved2actualinflight.",
+        "cache_costs_savings": null
+      },
+      "raw_native_execution": 0,
+      "product_application": 0,
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 468,
+      "shared_commit": "4b2807b1e4d64f5ab1c3515cdfc26e31067ee19b",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "attempts": 1,
+      "extra_retries": 0,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 16302,
+        "completion_tokens": 2142,
+        "total_tokens": 18444
+      },
+      "headers_ms": 2267.9539000382647,
+      "ttft_ms": 2274.489700095728,
+      "total_ms": 15764.559000032023,
+      "owner_review": {
+        "utc": "2026-11-06T08:57:21.220125+00:00",
+        "raw_lua_compile": true,
+        "isolated_cases": {
+          "lua53-unpack-is-nil": {
+            "error": "[string \"<python>\"]:5: attempt to call a nil value (global 'unpack')\nstack traceback:\n\t[string \"<python>\"]:16: in main chunk\n\t[string \"<python>\"]:5: in local 'safe_call'",
+            "owner_isolated_only": true
+          },
+          "missing-visibility-global": {
+            "error": "[string \"<python>\"]:63: attempt to index a nil value (global 'PlayersVisibility')\nstack traceback:\n\t[string \"<python>\"]:63: in main chunk",
+            "owner_isolated_only": true
+          },
+          "wrong-static-receiver": {
+            "error": null,
+            "owner_isolated_only": true
+          }
+        },
+        "adoption": "Wholeprobe rejected;ownerwritesnewboundedguardedmetadatareaderbeforeanyNative.",
+        "source_review": [
+          "StaticMap.GetPlotandCityManager.GetCityAtweregivenasdotcallsbutcandidateaddsreceiver.",
+          "Localnativeuserdataisrefusedalthoughtaskonlyprohibitedexportingobjects.",
+          "UngardedPlayersVisibilityglobalindexcanthrow;noowner/turn/activeguards.",
+          "Methodindexingoutsidepcallandrecursiveunboundedserializecanloseunknowns/scope."
+        ],
+        "raw_candidate_native_execution": 0,
+        "raw_product_adoption": 0,
+        "unknown_costs": null
+      },
+      "raw_native_execution": 0,
+      "product_application": 0,
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical": 468,
+    "complete_stop_valid": 436,
+    "length_discarded": 29,
+    "final_transport_failed": 3,
+    "http_attempts": 498,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "native": "No80productchanges/current14814citiesstable. OwnerindependentreadonlyUIvisibilityfirstthenCoretwo-known-cell18scalar0error/unknown:86125,19owner0IsCityfalse/GetCityAtnil;90626,20owner0IsCitytrue/GetCityAt983053ownxy;CoreVisibilitytrue,tableobjectskeptlocal.0properties/events/foreignroster/gamecommands.",
+    "capability_gap": "Coreunittrader8388652moves0/form1andMapGetPlotByIndex906work. CoreGameConfiguration.IsSavedGameabsent/caughtUNKNOWN;UIcurrentloaded148nativefunctiontrue. FreshgamefalseNOTqualified. CityAddedToMap/CityInitializedpresentNOTeventsignature/reliabilityqualification.",
+    "467": "Wholeprotocolrejected:ORcity-or-missingactorproof,missingemptywitness/foreignconflictlatch/missingactorenumeration/old80no-journalmigration/postPrepareACKboundaries. ExistingGPpatternreferenceonly0rawNative/product.",
+    "468": "RawLua53compilebutisolatedmissingunpack/missingVisibilitythrow/strictdot6misreceiverand0IsCityreads;wholeprobe0Native/product. Dotwrong-argumentactualNativebehaviornotexperimented;ownerindependentdotpositivegetterqualificationonly.",
+    "accounting": "467ownerprepNameErrorbeforePOSTfixed;notmodelHTTPretry. Actual468finishedbefore467POST/pairpeak1,notplanned2. Pair2stop/DONE/VALID/noRetry,through468cumulative468/436/29/3 HTTP498extra30. Subsequent469candidatecompletependingreviewisaseparatecase/current469/437/29/3 HTTP499extra30;notmixedwithpairNativecredit.",
+    "delivery": "Doc/structuredsourceandqualificationinGitonly,0productfullsuite1130notrerun,0Steamonline-upload/Alpha74unchanged."
+  },
+  "generic_lessons": [
+    "A missing method in one native context is not a false result. Qualify the actual context and keep unavailable fresh-game detection separate from a true saved-game sample elsewhere.",
+    "Local native objects may be needed for guarded scalar reads; prohibiting export does not require rejecting all objects before reading them.",
+    "A compilable diagnostic can still fail before reaching its pcall if it uses a missing unpack global or indexes an absent global first. Test these exact failure boundaries in isolation before any native execution.",
+    "Static dot-call declarations must not be silently converted into receiver calls by a generic diagnostic helper. Mock contract failure and actual native wrong-argument behavior remain separate evidence.",
+    "A city at the target or a missing actor alone is not a correlated completion proof. Persist the before-state witness and match both identity and world effect.",
+    "Migrating a missing old journal to an empty journal cannot prove no command was pending before reload; enumerating only current live actors cannot recover missing-actor intents.",
+    "Source preparation failures before POST are owner tool-chain costs, not model transport retries; actual POST intervals determine concurrency."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Metadata/API qualification for one known loaded148world only, not persistent founding implementation or recovery acceptance. No candidate raw Native/product execution, hidden information/event signatures/fresh-game initialization/globalSDK/performance/fullTC/Steamrelease proof."
+}

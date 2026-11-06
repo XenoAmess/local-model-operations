@@ -4083,3 +4083,10 @@ Nativequalified75475B/bb3c39a1后到：唯一既有524B helper必要1TU1CF0/3.00
 109是新的实际单method，非107/108/buildguard旧题重投。两actual全文Executor93d6/Resultd4ec共36861B+2697B原合同完整message3，实REQUEST全核，sealed仅Known/Unavailable；只旧nonKnown抛同Unavailable处追加reason前1024JavaString字符，null/其它对象仍旧fixedmessage，不serialize原件/材料/exceptionstack。原唯一read/args/Guard、Known clear/add/readReferenceOf/同对象返回、policy/submit与error route不变，不发明Malformed或新query，old1007不假定仍当前、latestfreshjobproofNH。
 
 fixed3/DIRECT/max2000/temp0/thinkingfalse/jsonobject/SSEusage，09:02:43.866659→09:02:46.338797Z真1POST/1END；HTTP200/DONE/stop/JSONvalid，2.4721062秒/有效TTFT1.4213439秒/reported8342+187/cachednull/peerUNKNOWN。CONTENT865B与SSE UTF8一致/audit差异空，原件先交M6后audit/Git。交付pending切点保，随后2451B/6746dd20源审判完整method语义PASS：两record.reason纯getter不算二次query；owner09:01:46已按Root明授并行封3f1c/fda0，早于POST，故0whole/method/partial/scaffold/modelJVM，不是语义拒收或模型代码采用。必要owner1TU/shape/正式/运行另记，不授软件或1007业务已修。[当前来源、成本与有效未采用原因](evidence/2026-11-06-http-m6-sway-target-reason109.json)。只读529COMPLETED/529RELEASED、g0005十三READY非并发、source0，0新JVM/Game/GET/probe/active参数改，旧length全文/SSE持续未读未hash/noR2，无110真实需求不造调用。
+
+
+## 2026-11-06：Civ6settlement467468
+
+467/4682canonicalstop/DONE/VALID0retry/whole0Native-product.46759027+2030/21.2086634s;46816302+2142/15.764559s. Owner3isolated468counterexamplesandindependentCore18getters0errunknownonly. CoreIsSavedGameabsentvsUIloadedtrue;freshfirstsettlerinitstillneedscontract. First467prepNameError0POSTfixed/pairactualpeak1. Through468468/436/29/3 HTTP498extra30;later469separatereviewpending.0OpenCodegeneration/unknowncostnull/0Steamonline-upload/Alpha74unchanged.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settlement467468.json)。
