@@ -4197,3 +4197,10 @@ fixed3/DIRECT/max5500/temp0/thinkingfalse/jsonobject/SSEusage，13:42:44.905100�
 
 
 116后到2938B/74480206正式源审为两newmethod主体PARTIAL，不全拒/不完整method：owner改匿名类捕获int→int[]、Frame到Obj/identity类型、vacuous self-assert及真实request捕获、fullavailable Life集合、原异常identity和plan/cap期望。before11097B/aea2172b精确来自完整模型complete_java，after11731B/54a5780a由owner修，132逐字matching行含空行/comment，不冒有效LOC／采用比例／节时。owner最终Test84533B/cdf42、Ready3637B/5a31，ownedinsert移除后整源raw逆回72705B/556d，旧24methods/Fixture未变且0RUN。0wholeclass/0complete-method/modelJVM/noR2；只public routing DATA，不授私Root/Scope/lease/Nativeowned资格或实际Life/G2。原交付PENDING和成本保，owner生产既有型验引用不追授raw，本cut新2methods的编测／Runtime仍未授。
+
+
+## 2026-11-06：Civ6settlement82-lifecycle
+
+82natural156found/157productionPASSnarrow,actualtimedARMEDsavepersistedbut156live14city→ordinary158stilllive14cityARMED/noFouReplay. 3rawimages/healthy+failurehashcheckpoints/allQArestored.476stop8746tokens5.5546311s0retry/whole0protocolNativeadopt,strictproofsretained. NativeCoreemittermissing/queueinternalsunknown. Through476476/443/30/3 HTTP506extra30/0OpenCodegenunknownnull/Steam0online-uploadAlpha74unchanged.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settlement82-lifecycle.json)。
