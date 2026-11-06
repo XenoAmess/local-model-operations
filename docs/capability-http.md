@@ -4218,3 +4218,10 @@ fixed3/DIRECT/max5500/temp0/thinkingfalse/jsonobject/SSEusage，13:42:44.905100�
 478 natural positive builder queue paired UI/Core, heldsettler remains ARMED, no product fix/replay.22ownercontracts/rawcompilefail0Native.Through478445complete30length3transportHTTP508extra30/Steam0Alpha74.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settlement478.json)。
+
+
+## 2026-11-06：Civ6settlement82-legacy
+
+0newHTTP/generation; existing478notrecouned. Native old77→82 conservative migrate and later-turn nonemptyrecordpersistencePASS, existing settler expansionstillheld/ARMEDFAILnotfixed.1rawimage+BBCodeGitdraft. Through478445complete30length3transportHTTP508extra30/Steam0Alpha74.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settlement82-legacy.json)。

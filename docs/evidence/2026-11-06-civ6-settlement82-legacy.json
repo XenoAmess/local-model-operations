@@ -1,0 +1,46 @@
+{
+  "schema": "local-model-operations.civ6-settlement82-legacy/v1",
+  "utc": "2026-11-06T15:28:45.194038+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/c0d7935ef4123568799ef4a2a5e0503fb8d8b56f/docs/research/baiqi-p6-settlement82-legacy-migration-evidence-2026-11-06.json",
+    "sha256": "63c0d8cea94ba9a9ee44c27634f4dbd275afecb73292e5b5e615281ae34b2e43"
+  },
+  "model": {
+    "already_counted": true,
+    "new_http_calls": 0,
+    "new_opencode_generation": 0,
+    "prior_public_evidence": "baiqi-p6-settlement478-positive-queue-evidence-2026-11-06.json",
+    "scope": "Actual Native acceptance continuation, no new candidate generation credit."
+  },
+  "cumulative": {
+    "logical_tasks": 478,
+    "complete_stop_valid": 445,
+    "length": 30,
+    "final_transport_failures": 3,
+    "http_attempts": 508,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "native": "Source82 unchanged. Official old77 turn136 existing natural7274546→automaticLEGACY_UNKNOWN token settle:0:1/recordturn136.20militarySKIP/1ordinaryEND plus TEST_PLAYER Alex trade refusal/goodbye→13712cities/live2moves.593519Bsave/hash230c1a70...loadContinue→UI+Core137 still recordturn136/token/serial1. Narrow migration+persistencePASS, expansion remains held, ARMEd recoveryFAIL unchanged.",
+    "owner": "Double semicolon parse refusal before anyexecution, original intentretained; Lua51 syntaxqualification and originalflagnil then distinctoneLoadACK. Wrong UI.IsSavedGame readonly probe failed after validmetadata; actualsourceconsumer GameConfiguration.IsSavedGame qualifiedtrue, productcorrect. Boundedreadyfailed due diplomacy, no ENDreplay.",
+    "accounting": "No new HTTP/model generation, prior478 not recounted. Cumulative478/445/30/3 HTTP508extra30/OpenCode new0/unknownnull. No productpatch, existing1153notrerun.",
+    "release": "One raw actual137 screenshot embedded, oldsave/compat risk in BBCode Git draft, Steam0online-upload/Alpha74unchanged."
+  },
+  "generic_lessons": [
+    "To distinguish persistence from deterministic reconstruction, save the record in a later world turn and verify that its original creation turn survives reload.",
+    "A conservative migration can succeed while blocking forward progress. Record both results and the practical gameplay limitation.",
+    "Match the actual engine Lua parser when checking generated action wrappers; syntax accepted by a newer isolated runtime may be rejected before any game action.",
+    "Inspect the real source consumer before selecting a similarly named UI API; a context label is not a namespace.",
+    "Ordinary turn ACK and next-turn readiness remain separate during diplomacy. Stop dependent work, handle the actual player interaction, then requalify readiness."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "One legacy saved world and later-turn record serialization, no expansion recovery, new-game first settler, completeTC, stable release or Steam upload. No new candidate credit."
+}
