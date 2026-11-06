@@ -4147,3 +4147,16 @@ fixed3/DIRECT/max3000/temp0/thinkingfalse/jsonobject/SSEusage，11:49:26.401164�
 实际新M7入口缺口由owner先诊断：ordinary-dev私Host与Resource注入Host不一；owner另五叶接同CDI实例，模型仅新OrdinarySessionHost.saveCheckpoint typed完整方法。七currentJava209908B＋原TASK3371B全部实送、逐文件1次/message3完整。合同要求nonnull/原selected同session、仅Host monitor内捕获root后释放、actual.requireHost、现RootMcpCheckpoint.save及resolver严核完整identity/session/currentcontroller同对象、actualinstalledCatalog.save；UTC/30min是新操作有界deadline，不刷新旧命令，不造Root/lease/writer/Controller或队列，不把UNKNOWN映射成功/重发，不授权实际SAVE。
 
 fixed3/DIRECT/max2200/temp0/thinkingfalse/jsonobject/SSEusage，11:58:02.764792→11:58:10.024219Z真1POST/1END/0retry，200/DONE/stop/JSONvalid/complete，7.2594539秒/有效TTFT5.6784072秒/reported42748+247/cachednull/peerUNKNOWN。完整CONTENT1214B/68038859与SSE UTF8一致/audit差异空，原件先交owner再audit/Git；交付切点method/partial/literal采用PENDING、0modelJVM/noR2。实际完整消息与强引导不等于方法语义、同Host接线、编译或publicSAVE/physicalcanonical/M7/G2/速度通过。[输入合同与传输证据](evidence/2026-11-06-http-m7-public-checkpoint-host112.json)。只读532COMPLETED/532RELEASED、g0005十六READY非并发、HTTP0，0新JVM/Game/GET/probe/actualSAVE/活跃配置改，旧length全文/SSE持续整份未读未hash，不造113。
+
+
+## 2026-11-06：112 后到 source partial，先 draft 再 owner SourceReady
+
+112原交付pending不改。draft源审3427B/8e483c55为PARTIAL而非全拒/整method：beforeLF精确来自完整模型方法、afterLF精确在owner Host草稿，单resolver guard逆换全回原。模型只session==expected+同controller；owner依原合同补fullidentity/callerSession/同installedcontroller三项，余method字节保。selected早已拒foreignsession，不能单凭缺额外caller比较指控独立绕过；IOException/Interrupted/Host monitor释放本身正常。
+
+draft线程合同待查切点保留，后到2173B/6fff1b5e ownerreview＋SourceReady12039B/e7287773／actual510d+a274 closure88417f97闭合原真实journal.locked/currentcaller planningSession、Core exactHost/完整current/Game/Writer/Controller门，仍独立p0/type/software未授。Singleton同bean、其他四叶接线/codec/endpoint/Dev/Main/Prepared/install及权限来源核全owner，0wholemethod/0modelJVM/R2/实际SAVE/Runtime/M7/G2。[partial精确证据与两切点](evidence/2026-11-06-http-m7-host112-partial-source-ready.json)。不补改原七源REQUEST，不编造采用比例或节时。
+
+## 2026-11-06：Source113 Sway READ 已知 build 来源消费者
+
+实际1376 knownSHA来源被label-only bind拒，owner精确指单guard；不是旧Schedule重投。三actual完整Java30108B+原TASK2856B实REQUEST全核，既有label保、SHA分支须现CK3_12004同时matches Wire.BUILD/Wire.EXE及Wire.BUILD/source.exactBuild，原Source不重写、Native Binding仍fixedwirepair、payload/SHA/ACK/token/前后source-session-connection-authority等全严保。enum仅DATA识别，不作runningEXE/Rootlease proof、不改parser/hash/oldencode/Guard算法。
+
+fixed3/DIRECT/max2200/temp0/thinkingfalse/jsonobject/SSEusage，12:19:44.347868→12:19:48.338538Z，真1POST/1END/0retry、200/stop/DONE/JSONvalid/complete，3.9917585秒/有效TTFT1.3551421秒/reported7980+491/cachednull/peerUNKNOWN。CONTENT2166B/f2c92310与SSE UTF8一致/audit差异空，原件先交owner再audit/Git；交付method/partial/literal采用PENDING、0modelJVM/noR2，不授actual1376 fullplan/scheme/Start/G2/SAVE/速度。[完整来源合同与参数成本](evidence/2026-11-06-http-m6-sway-read-known-build113.json)。只读533COMPLETED/533RELEASED、g0005十七READY非并发、source0；旧length全文/SSE仍整份未读未hash，0新JVM/Game/probe/活跃参数改，不造114。

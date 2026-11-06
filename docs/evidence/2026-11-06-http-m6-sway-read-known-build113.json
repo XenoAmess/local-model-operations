@@ -1,0 +1,152 @@
+{
+  "schema": "local-model-operations.http-m6-sway-read-known-build-source/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-06T12:24:15.070689+00:00",
+  "project": "CK3",
+  "task_id": "m6-sway-read-known-build-source-20261106-01",
+  "source_owner_role": "M6",
+  "input": {
+    "manifest_pin": {
+      "bytes": 3181,
+      "sha256": "e6290de8630e7a7e89f998fdcb7ae4359f50095d01b6233a026a42e77ead2081"
+    },
+    "complete_input_files": 3,
+    "target_Java": 1,
+    "context_Java": 2,
+    "full_source_bytes": 30108,
+    "full_contract_raw_pin": {
+      "bytes": 2856,
+      "sha256": "9bf23018abb9a8cc47537fcc1d1ce16b311a5dec53d3717e0c3f656f6bd53721"
+    },
+    "actual_message3_UTF8_pin": {
+      "bytes": 2856,
+      "sha256": "9bf23018abb9a8cc47537fcc1d1ce16b311a5dec53d3717e0c3f656f6bd53721"
+    },
+    "sources_plus_contract_bytes": 32964,
+    "all3_full_ordered_sources_once": true,
+    "full_original_TASK_message3": true,
+    "REQUEST_pin": {
+      "bytes": 35339,
+      "sha256": "eeedb6d38e66f742db714a87700dc56cb2857c79e6829a1dfb8ba988608c6e1c"
+    },
+    "source_message_pin": {
+      "bytes": 30928,
+      "sha256": "32099c0838a8f4a3c9b20d70bb92a308b4a81df4a1141770aed3db34a7794454"
+    },
+    "ordered_roles_and_pins": [
+      {
+        "role": "target_actual_SwayNativeBindings85ff",
+        "bytes": 9673,
+        "sha256": "85ffdda36e3da82c779d050e531becce42e2757ec3dbe40309bdc00bd1eb355e",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "context_actual_SwayNativeWired775",
+        "bytes": 19636,
+        "sha256": "d7757830f7bdb782624917c20e738c5f426030f5e53d37f22a5fd12c75a5e8a2",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "context_actual_ExactBuildEnum0ad3",
+        "bytes": 799,
+        "sha256": "0ad3af25f7eaa95f5c055a9abc643e451da4d6a4467872f8af7a3767240f239e",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      }
+    ]
+  },
+  "owner_precise_contract": {
+    "output": "Only complete existing public static SwayNativeWire.Binding bind(PlanningReadReceipt,OperationKey) in JSON complete_java. No wholeclass/import/helper/Test.",
+    "change": "Single original source exact-build require: preserve original Wire.BUILD label accepted OR existing FQN ExactCk3Build.CK3_12004 BOTH matches(Wire.BUILD,Wire.EXE) and matches(Wire.BUILD,source.exactBuild()). Same error text; known fingerprint case behavior uses existing helper. Refuse arbitrary/short/padded unsupported versions or fingerprints.",
+    "preserve": "Original Source object and all source fields/Refs/times. Returned Binding fixed Wire.BUILD+EXE native tuple unchanged. Nativepayload build/SHA and entire ACK/token/beforeafter observed-source-session-operation/paused/map/living/originalBindingSha/connection/authority/packet-separateResult whole equality/return preserved.",
+    "authority": "Enum only DATA known-pair recognition, not proof of running executable or issued Root/read lease. No primitive decode widening/query/dispatch/materialload/retry/state/submit/Guard or parser/hash/oldencode algorithm changes.",
+    "guidance": "Owner diagnosed current r52 Sway1376 original known-SHA Source vs label-only bind consumer and supplied exact pair admission. New consumer task, not earlier Schedule guard R2. No fullplan/scheme/Start or current outcome granted."
+  },
+  "POST_BEGIN_UTC": "2026-11-06T12:19:44.347868+00:00",
+  "END_UTC": "2026-11-06T12:19:48.338538+00:00",
+  "local_day_POST_END": "2026-11-06",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 2200,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "candidate_complete": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 1354.2477000155486,
+  "effective_content_TTFT_ms": 1355.1421000156552,
+  "total_ms": 3991.7584999930114,
+  "reported_usage": {
+    "prompt_tokens": 7980,
+    "completion_tokens": 491,
+    "total_tokens": 8471
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1304,
+    "sha256": "8a9357b4a78d6f63bb16561323d88571c0a7822dcac2a38bc6458d2121c1a136"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 2166,
+    "sha256": "f2c923103c9efb3dd770a6e59980c823437dc34ded429fe885bebffd95e41c1d"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_before_audit_Git": true,
+  "source_adoption_at_delivery_cut": {
+    "status": "PENDING_M6_OWNER_REVIEW",
+    "whole_method_partial_literal": "PENDING",
+    "model_JVM_compile_RUN": 0,
+    "R2": 0
+  },
+  "operations": {
+    "readonly_queue": {
+      "dispatch.db": {
+        "COMPLETED": 533
+      },
+      "leases.db": {
+        "RELEASED": 533
+      }
+    },
+    "READY_g0005_records_not_concurrency": 17,
+    "source_HTTP_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "daily_OpenCode": "Nov06 successful1.19.5cache reused;0explicitmaintenance/serviceprobe",
+    "Models_JVM_SDK_C_GET_Game_JFR_stockIO": 0,
+    "business_model_decision_HTTP": 0,
+    "active_caller_config_service_Runtime_changed": false,
+    "global_service_load": "NOT_HELD",
+    "net_owner_active_time_savings": null
+  },
+  "limits": [
+    "Complete200STOP/JSON/audit0 only transport/syntax, not bind method semantic/adoption/compile or current1376 fullplan/scheme/Start/terminal/G2/SAVE/speed proof.",
+    "113 genuine independent actual bind consumer, not priorSchedule/111/112R2. Owner parallel review/Test not HTTP or Git gate; no114 genuine demand held.",
+    "All old length CONTENT/rawSSE remain wholly unread/unparsed/unextracted/unhashed zero adopted/noR2. No quota or live config change."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "local-model-operations.http-m7-host112-partial-source-followup/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-06T12:24:15.070689+00:00",
+  "project": "CK3",
+  "task_id": "m7-public-checkpoint-host-save-method-20261106-01",
+  "original_delivery_case": "2026-11-06-http-m7-public-checkpoint-host112.json",
+  "original_delivery_PENDING_cut_preserved": true,
+  "first_draft_review": {
+    "review_pin": {
+      "bytes": 3427,
+      "sha256": "8e483c556db2cb7d08bb6137c56fd1b1c82c827591736ec93052dac4761f70e1"
+    },
+    "partial_record_pin": {
+      "bytes": 3620,
+      "sha256": "4e01d99dcbab056d016df013a81cf6c24772f4d28f8fc4b86abac6e73a9ee37b"
+    },
+    "candidate_host_pin": {
+      "bytes": 6712,
+      "sha256": "3fd73160c9cad7d82becdc328feb50f0ad1b8275f78811561cad8ed9859fcbef"
+    },
+    "draft_ready_pin": {
+      "bytes": 10945,
+      "sha256": "1b33dc4f8385c13ea873cdece7897f1caac28c378d94552b2578244af16cc654"
+    },
+    "beforeLF_UTF8_pin": {
+      "bytes": 1171,
+      "sha256": "120da8ce6fbee5c3dbf0f5764f3e3f620483c76aa3572a856463268e7cb2f9c2"
+    },
+    "afterLF_UTF8_pin": {
+      "bytes": 1199,
+      "sha256": "6ce8721d79a6118f75b371fb009a5fc0d06811b5ee8baf18c8a43f1628920864"
+    },
+    "before_complete_model_method_exact": true,
+    "after_exact_in_owner_draft": true,
+    "single_guard_inverse_exact": true,
+    "status": "PARTIAL_METHOD_USED_IN_DRAFT_PENDING_ACTUAL_OWNER_THREAD_CONTRACT",
+    "whole_method_adopted": false,
+    "source_partial_present": true,
+    "specific_owner_correction": "Returned resolver checked only root.sessionId==expected.sessionId plus same installed controller. Original TASK explicitly required full Root.identity==expected.identity AND caller sessionId AND exact installed controller. Owner replaces that one guard with all three. No other raw method code was changed in the source draft.",
+    "not_claimed_errors": [
+      "selected() rejects foreign session itself; do not claim missing explicit caller test independently bypassed it",
+      "IOException and InterruptedException handling matches supplied APIs",
+      "actual.requireHost executed outside Host monitor; public wrapper retains original guards"
+    ],
+    "owner_only_changes_outside_model": [
+      "same existing Host scope ApplicationScoped -> Singleton to avoid CDI proxy != actual bean reference under Core.requirePublicHost",
+      "Resource endpoint/new current codec boundary",
+      "Dev injection/Main runWithHost/Prepared once binding and four original install callsites"
+    ],
+    "permission_status_at_draft_cut": "Core held source withBorrowed legitimately enters journal.locked and current-caller planningSession; actual current equality and RootRuntimeContext.requireCurrent final source pending. No external-thread permission granted by this review.",
+    "software": "NOT_RUN",
+    "Runtime": "NOT_ADOPTED",
+    "model_JVM_R2": 0
+  },
+  "later_ready_followup": {
+    "review_pin": {
+      "bytes": 2173,
+      "sha256": "6fff1b5ed12f2c65d02dc050b5b4e7734fdbf37a59b4421e3d19f8c29477b10a"
+    },
+    "review_at_utc": "2026-11-06T12:21:47.973387+00:00",
+    "owner_SourceReady_pin": {
+      "bytes": 12039,
+      "sha256": "e7287773344881bc1b26afa350cbf9ffe60952a1db755794621c0d64f3bc2d54"
+    },
+    "actual_thread_Host_source_closure_pin": {
+      "bytes": 2309,
+      "sha256": "88417f97a9d8b1d09f5b5135d154b133e8cb52f9a9a20ee483147b26af6c86c1"
+    },
+    "actual_Core_pin": {
+      "bytes": 249157,
+      "sha256": "510d90ad632be9b0ea72573ec1aaa63a03218d71f03117efe0aa37175c419a30"
+    },
+    "actual_Context_pin": {
+      "bytes": 29240,
+      "sha256": "a274ce6ddcaee756e033aecc545ddfb167ad7ee33135ea5f58e3a0c5f2a54dd2"
+    },
+    "adoption_level": "PARTIAL_NEW_METHOD_SOURCE_ADOPTED_WITH_ONE_OWNER_GUARD_CORRECTION",
+    "whole_method_adopted": false,
+    "model_code_in_ready": "returned Host method except explicit resolver guard replacement recorded in PARTIAL beforeLF/afterLF; no invented percentage/LOC/work-saved claim",
+    "owner_only": "all other four leaf integration, same existing Host Singleton scope, extra fullidentity+caller session guard, current510d/a274 source permission proof",
+    "qualification_limits": [
+      "owner SourceReady, independentp0 pending",
+      "all original deeper native/writer/currentOwned/Controller qualifications continue to execute",
+      "0JVM/model execution/software/Root permission/Runtime adoption/actualSAVE/M7/G2"
+    ],
+    "earlier_draft_permission_pending_preserved": true,
+    "original_REQUEST_not_replaced_or_rePOSTed": true
+  },
+  "source_closure_report": {
+    "core_gate": "withBorrowed enters the real journal.locked writer Session for the calling thread; writer.requireSession guards it, existing non-null inherited planningSession must be exactly same; legitimate set/remove in finally stays unchanged. No comparison with original worker Thread in this direct Root gate. currentForAccess requires current admitted live Host; requirePublicHost requires exact installedHost object.",
+    "context_gate": "requireCurrent checks original clock deadline -> requireActiveGame -> actual game.verify and non-retired physical session. No worker-thread identity in this direct gate. All deeper actual Game/Writer/Native checks execute unmodified and may reject; no permission inferred from data fields.",
+    "actual_public_save": "existing actual RootAppSession calls.lockInterruptibly, currentOwned and owner.withBorrowed -> real Session then full Source/Native material/Controller gates, all unchanged; not entering via a fabricated ThreadLocal/Ready/lease/writer",
+    "same_host_CDI": "new existing-class Singleton scope gives same actual bean reference to Dev and Resource. Passing an ApplicationScoped client proxy as installedHost would not equal this inside bindRoot; scope change retains rather than deletes exact Core host equality.",
+    "removed_or_weakened_gates": 0,
+    "qualification": "OWNER_SOURCE_CLOSURE_ONLY_PENDING_INDEPENDENT_P0_AND_TYPE; no actual external SAVE/permission success"
+  },
+  "Models_checks": "Pinned draft/followup/partial/Host/sourceReady/actualCore+Context metadata; mechanically verified complete eligible modelBeforeLF, afterLF exact in owner draft and single guard inverse. Core/context gate explanation comes from pinned owner source closure, not a live authorization or independent SDK execution.",
+  "new_generation_HTTP_JVM_Game_GET_probe": 0,
+  "limits": [
+    "Partial source adoption, not whole method/class or all five integration leaves. Owner replaces one resolver guard with full identity+caller session+exact installed controller; other method bytes retained in LF proof. No invented code percentage/LOC/time saved.",
+    "selected(sessionId) already rejects foreign session. Missing extra explicit caller comparison alone is not claimed to bypass it; no wrong API/IOException/InterruptedException allegation.",
+    "Host singleton scope and other four leaf integration, endpoint/codec/Dev/Main/Prepared/installation and source permission closure belong to owner. Original supplied seven-file REQUEST stays immutable; later Core510d/Contexta274 not backfilled as model inputs.",
+    "Draft pending and later owner SourceReady are separate cuts. Independent p0/type/software/actual external SAVE/Root admission/Runtime/M7/G2 remain ungranted; all deeper native/currentOwned/Writer/Controller guards execute.",
+    "No R2, new generation, JVM or business action for this source followup."
+  ]
+}
