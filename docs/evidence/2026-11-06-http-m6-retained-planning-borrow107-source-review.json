@@ -1,0 +1,52 @@
+{
+  "schema": "local-model-operations.http-retained-planning-borrow-source-review/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-06T07:59:14.332167+00:00",
+  "task_id": "m6-retained-planning-lease-borrow-20261106-01",
+  "prior_delivery_evidence": "2026-11-06-http-m6-retained-planning-borrow107-delivery.json",
+  "prior_delivery_pin": {
+    "bytes": 9791,
+    "sha256": "eca3aa5ff8f905fb4bbb30a4b2ed24d8d89d74e5125d6a4280e203086d62dc1c"
+  },
+  "prior_delivery_commit": "1089487b981d20f6b5e81d7bbb9196100bd8653b",
+  "delivery_pending_cut_preserved": true,
+  "owner_review_pin": {
+    "bytes": 2413,
+    "sha256": "e90f9364c0c969c43676bc7ae3952f19b6719db07f4b0e0c0851b4d24804b09f"
+  },
+  "owner_review_at_utc": "2026-11-06T07:51:46.575252+00:00",
+  "source_review": "VALID_COMPLETE_METHOD_FOR_THE_SUPPLIED_CONTRACT_NOT_ADOPTED",
+  "reasons": "Actual fields/helpers match. Existing null/writer order and active branch retained. Fallback checks actual private round, same Session/captured and nonordinary-mode exclusions, then reuses strict retainedPlanningRead; no new capture/issuer or fabricated carrier. Model has separate explicit mode-refusal message whereas independently authored owner method keeps the original explicit refusal in one compound gate; both satisfy source contract.",
+  "model_adoption": {
+    "wholeMethod": 0,
+    "wholeClass": 0,
+    "partial": 0,
+    "reason": "Root explicitly authorized parallel owner implementation. The owner-authored method was already sealed as3e2f without importing model code; no rewrite is made merely to claim contribution. Model response is a valid independent source suggestion, not rejected for semantics."
+  },
+  "raw_model_JVM": 0,
+  "R2": 0,
+  "classification": "Complete method semantically valid for supplied contract, not a semantic rejection. No model implementation adopted because authorized independent owner implementation was already sealed; no rewrite merely for contribution credit.",
+  "owner_source_pin": {
+    "bytes": 120313,
+    "sha256": "3e2f5d0f6720a6653e79a60895b1ae1dd619c3ce308ec71a9877b99decb55994"
+  },
+  "owner_qualification_reported_by_M6": {
+    "classes": 38,
+    "shape_equal": true,
+    "Models_independent_ACTUAL_binary_reaudit": false,
+    "scope": "Existing first owner source qualification only; no raw JVM or runtime/Feast/naturalM6/G2 credit."
+  },
+  "credit": "No model JVM/runtime/Feast/G2 credit; existing Native first is owner source qualification only.",
+  "HTTP_cost_unchanged": {
+    "totalSeconds": 11.088103399961255,
+    "TTFTSeconds": 9.175815199967474,
+    "usage": {
+      "prompt_tokens": 70416,
+      "completion_tokens": 328,
+      "total_tokens": 70744
+    },
+    "cachedPromptTokens": null
+  },
+  "new_generation_POST_JVM_Game": 0,
+  "source_scope_and_Guard_unchanged": true
+}

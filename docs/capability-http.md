@@ -4040,3 +4040,19 @@ fixed3/DIRECT/max8000/temp0/thinkingfalse/jsonobject/SSEusage，04:45:02.276803�
 fixed3/DIRECT/max2500/temp0/thinkingfalse/jsonobject/SSEusage，07:42:48.667465→07:42:59.755603Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，11.0881034秒/有效TTFT9.1758152秒/reported70416+328/cachednull/peerUNKNOWN。完整CONTENT1645B与SSE UTF8一致、audit差异空，原件直接先交M6指定目录再audit/Git。交付采用待M6源审、0rawJVM/noR2，不据短完整方法授私源/Session/forbidden-scope正确或运行已采用。[输入来源pin、合同与成本](evidence/2026-11-06-http-m6-retained-planning-borrow107-delivery.json)。
 
 只读527COMPLETED/527RELEASED，g0005十一READY不是并发，source0；Nov06已有成功1.19.5cache复用，0新probe/本岗JVM/Game/GET/JFR/stockIO/active参数改变。Owner源码/编测/采用与实际FEAST/自然M6/G2另证，不回授HTTP候选；旧length正文/SSE整份持续未读未hash/noR2，无108真实需求不造调用。
+
+
+
+### Source107 后到源审：完整方法语义有效，独立owner先封未采用
+
+正式review2413B/e90f9364认为整个borrowCurrent方法满足已供合同：原参数/Writer次序和active分支保留，私round/同Session/captured与非ordinary排除再走原stricthelper，无新capture/issuer。模型用单独mode refusal、owner用原compound gate，二者均可；不是语义全拒。Root允许并行owner方法已独立封3e2f，所以wholeMethod/wholeClass/partial0，不为贡献归属重写，0rawJVM/noR2。owner first38shapeequal仅后报独立软件，本岗未重验ACTUAL/binary，原HTTP成本/待审切点不改，不授实际Feast/naturalM6/G2。[源审与零采用原因](evidence/2026-11-06-http-m6-retained-planning-borrow107-source-review.json)。
+
+
+## 2026-11-06：Source108 M6 retained真实Fixture两新测试候选
+
+108是独立新Test，不是107纠错。完整Fixture54ce/ownerCollector3e2f+四完整caller/API六Java254677B，4367B原合同完整message3，实REQUEST全文各一次核。只两新noarg @Test：real round→observe/Ready→短scope已关闭→actualcurrentHeldRead同frame/driver且无额外packets/headchange；真Ready无round/空round、foreignSession、sentinelIO/finally、memoryhead前后变化拒。旧七method/304LFixture保，不造私Round/Lease/Captured/Root，内存DATA不授实际authority；public不可达mode排除仅源审不假测试覆盖。
+
+fixed3/DIRECT/max5000/temp0/thinkingfalse/jsonobject/SSEusage，07:54:27.015720→07:54:38.077994Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，11.0622683秒/有效TTFT6.7063538秒/reported51886+782/cachednull/peerUNKNOWN。CONTENT3648B与SSE UTF8一致、audit差异空，原件先交M6后audit/Git。交付采用待M6源审、0rawJVM/noR2，完整短JSON不授两method有效或真实Fixture义务通过。[输入/强引导/精确成本](evidence/2026-11-06-http-m6-retained-planning-regression108-delivery.json)。只读528COMPLETED/528RELEASED、g0005十二READY非并发、source0，Nov06维护cache复用0新probe/JVM/Game/GET/active配置变更；旧length全文/SSE持续未读未hash，无109真实需求不造调用。
+
+
+随后108正式review3245B/c6552bb3为partial：正例actual currentHeldRead流程部分采用，owner加local counter/回调increment/单次断言三处，精确回退可还原BEFORE；AFTER与最终candidate整段命中，未授unchanged整方法或class。第二方法未用、owner完整重写：Ready本已收packet不能断reads0；无round须真实持writer才测对应frontier；异常要sentinel identity，foreign/head须callback0，另补post-head poison/cleanup。最终Test31374B/881f57与Ready3726B/b69bf、outside旧304L inverse pin保，源审cut仍0TestJVM/0rawJVM/noR2，旧七不请求；后继软件结果独立，既不是全拒也不是两方法原样采用。原交付待审切点与11.0622683秒成本保，不回授fixture/生产38type或真实Root/FEAST/naturalM6/G2。
