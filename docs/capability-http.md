@@ -3956,3 +3956,15 @@ fixed3/DIRECT/max12000/temp0/thinkingfalse/jsonobject/SSEusage，02:41:33.436266
 460canonical once200/stop/DONE/VALID0retry，4exactPythonconsumer替换审后采用；458459之前raw失败仍拒，owner产品/20回归另写。Native77占格counterexample→新软件20PASS；full1084首18errors是工具白名单漏78，纠正后1084PASS140.522s。87文件包完成，source78交付但Native78仍待cold167比较，不把邻接重接几何当futureNative全路资格。累计460/428/29/3 HTTP490extra30，0新OpenCode/未知成本null，0Steamupload。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-detour78.json)。
+
+
+
+## 2026-11-06：Source105 单次Construction evaluate内prequery状态复用候选
+
+105是新的未完P071三叶任务，非104重投。actualFinanceCollectore940/ConstructionCollectorf098/Policy3fb9三目标、三个完整API/provider/installed caller和两份p0合同/实际timing上下文，共八全文154040B，原5151B任务逐字message3、REQUEST全文各一次已核。owner已给真实重复链：初始state完整原producer读→没有material followup的同evaluate→before/spending第二state，尚未Native ROOT query；p0预审和精确实现方向已供，不能称独立推导。ordinal19实际21.3524秒/两returned evaluation是inclusive观察，不把全耗时归重复读或预授提速。
+
+合同只容私临时collector copy/holder，首Known必须真borrowed Session原producer读，公开Known/Head只是DATA。request对象/thread/Session对象/headseqdigest/persistedHead/current-before/canonicalhead全重核，最多一hit后永久disable/clear不可re-prime；任何query/queued read、explicit Session、planningView/copy/mismatch/nested/finally都先失效，不跨evaluate或INTENT。真实ROOT/MERC/CASH/Construction READ及physicalguard/endingSnapshot/funding/quote两阶段、原try/null/error/IllegalArgumentException-deferred与早退顺序全保，不假CLEAR/读资格/权限。
+
+fixed3/DIRECT/max8000/temp0/thinkingfalse/jsonobject/SSEusage，04:20:06.104326→04:20:17.914091Z真实1POST/1END；HTTP200/DONE/stop/JSONvalid，11.8097086秒/有效TTFT4.7472172秒/reported36512+1222/cachednull/peerUNKNOWN。完整CONTENT5237B与SSE UTF8一致、audit差异空，原件先交Java后audit/Git。交付采用待源审、0rawJVM/noR2，不能从短HTTP或完整JSON授单hit/失效/原检查正确。[当前输入、合同与成本](evidence/2026-11-06-http-construction-evaluate-state-reuse105-delivery.json)。
+
+只读525COMPLETED/525RELEASED，g0005九READY不是并发，source0；Nov06已有成功1.19.5cache复用，0新探测/本岗JVM/Game/GET/JFR/stockIO/active配置改变。owner候选在manifest时已独立写但未型验/采用，后源/软件/正式/Runtime独立不回授raw；旧103/104全拒、旧length全文/SSE整份未读未hash/noR2不变，无106真实需求不造调用。
