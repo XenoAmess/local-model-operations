@@ -4056,3 +4056,10 @@ fixed3/DIRECT/max5000/temp0/thinkingfalse/jsonobject/SSEusage，07:54:27.015720�
 
 
 随后108正式review3245B/c6552bb3为partial：正例actual currentHeldRead流程部分采用，owner加local counter/回调increment/单次断言三处，精确回退可还原BEFORE；AFTER与最终candidate整段命中，未授unchanged整方法或class。第二方法未用、owner完整重写：Ready本已收packet不能断reads0；无round须真实持writer才测对应frontier；异常要sentinel identity，foreign/head须callback0，另补post-head poison/cleanup。最终Test31374B/881f57与Ready3726B/b69bf、outside旧304L inverse pin保，源审cut仍0TestJVM/0rawJVM/noR2，旧七不请求；后继软件结果独立，既不是全拒也不是两方法原样采用。原交付待审切点与11.0622683秒成本保，不回授fixture/生产38type或真实Root/FEAST/naturalM6/G2。
+
+
+## 2026-11-06：Civ6training80
+
+0newHTTP/native-generation;prior465contextnotnewcredit. Actual80newsettlertraining/pop14to13/birth7929900andfirstmovement,threeinlineimages. Future20events0errdrop,City8BUILD/unit4/milproduction2allowed;exactcleanup,twoprivatecheckpointsnotreloaded. Congressvotesandactualdifferentresultskeptseparate. Cumulative465unchanged/unknowncostnull/0Steamonline-upload/Alpha74unchanged.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-training80.json)。

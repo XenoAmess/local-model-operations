@@ -1,0 +1,121 @@
+{
+  "schema": "local-model-operations.civ6-training80/v1",
+  "utc": "2026-11-06T08:08:23.145012+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/00ff8a4a525ae022b1a191ccb440367711b79d0c/docs/research/baiqi-p6-training80-native-cost-evidence-2026-11-06.json",
+    "sha256": "ed71f0be419995254978be4d5cfafefd60d9304856e729939f9daaaff0de75cc"
+  },
+  "model": {
+    "new_calls_this_package": 0,
+    "prior465_context": {
+      "new_calls_this_package": 0,
+      "already_accounted_in": "docs/research/baiqi-p6-border80-software-evidence-2026-11-06.json",
+      "prior_result": {
+        "shared_commit": "fb1a2ad1e22e794756e9c8dc5c5d9cbcfa74fae0",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 51598,
+          "completion_tokens": 1378,
+          "total_tokens": 52976
+        },
+        "total_ms": 15781.30290005356,
+        "ttft_ms": 6684.134599985555,
+        "adoption": {
+          "utc": "2026-11-06T06:05:19.313391+00:00",
+          "helper_lua_compile": true,
+          "isolated_counterexamples": {
+            "near_owned_foreign_distance2": {
+              "threw": false,
+              "result": [
+                true,
+                "supported_by_own_city"
+              ]
+            },
+            "visible_city_flag_true_lookup_missing": {
+              "threw": false,
+              "result": [
+                true,
+                "no_visible_foreign_within_9"
+              ]
+            },
+            "unknown_native_city_flag": {
+              "threw": false,
+              "result": [
+                true,
+                "no_visible_foreign_within_9"
+              ]
+            },
+            "positive_count_empty_owned_members": {
+              "threw": false,
+              "result": [
+                true,
+                "no_visible_foreign_within_9"
+              ]
+            },
+            "native_city_lookup_exception": {
+              "threw": true,
+              "error": "[string \"<python>\"]:1: NativeCityLookupUnavailable\nstack traceback:\n\t[string \"<python>\"]:53: in function <[string \"<python>\"]:1>\n\t[string \"<python>\"]:1: in field 'GetCityAt'\n\t[C]: in function 'error'"
+            }
+          },
+          "adoption": "Wholehelperrejected; boundedownednearest/visible-cellscanstrategyreferenceonly. Ownerimplementationandregressionsseparate.",
+          "reasons": [
+            "Ownwithin9earlytruebypassesforeigncity<=3minimumdistance.",
+            "TypedIsCityunknownornativecitylookupsnil/unknownincorrectlyfallsbacktosafe.",
+            "PositiveGetCountwithzeroMembersusesinvented999distanceinsteadunknown.",
+            "Missingownowner/fullID/finiteinteger/collectionconsistency/cellreveal/exactplotcoordinates/fullcityidentityguards.",
+            "Nativeexceptionsnotcontained;selfreferentialMatchesID(city,city:GetID())isnotindependentidentityqualification."
+          ],
+          "raw_native_execution": 0,
+          "product_edits_adopted": 0,
+          "checks_are_not_native_or_product_pass": true
+        },
+        "raw_native_execution": 0,
+        "product_edits_adopted": 0,
+        "owner_implementation": "Rawwholehelperrejected,ownerwrittenimplementation/integration/tests; boundedownednearest/visible-cellstrategyreferenceonly.",
+        "maintenance": "Nov6successfulOpenCode1.19.5cache reused,0newnativegeneration.",
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null
+      },
+      "adoption_unchanged": "Wholehelperrejected5isolatedcounterexamples;owner80independentimplementation. ThisNativepassisnotmodelrawexecution/credit."
+    },
+    "adoption_unchanged": true
+  },
+  "cumulative": {
+    "logical": 465,
+    "complete_stop_valid": 433,
+    "length_discarded": 29,
+    "final_transport_failed": 3,
+    "http_attempts": 495,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "native": "Sameinstalled80/owned25132,138background0:138:29Yiyang458758settlercost190/progress0to76/121/165/pop14;142new7929900at19,6thenactualUI-Core20,7healthy/UI0moves/form1/queuednil. Event14birth/15-16bothpop13/17oneproductioncomplete;onepopulationcost14to13,notdoublefromduplicatenotifications.",
+    "bounds": "Inheritedsavedworld/historicalQAunitsnotfreshcampaign. 209completionprogressdoesnotproveoverflow/debitcount;nextcost205nottrained190. EstablishedMerchant/HasPromotion201364422false;wrongnameinitialnilskeptunknownuntilactualhashlookup.",
+    "observability": "Freshfutureobserver138afterselection20events/0errors/dropped;City8BUILD/unit4/militaryproduction2allowednotarmycommands. Exactcleanup/3handlersgone. NoUnitSDKcounterbeforebirth,movementlogsnotSDKcounts.",
+    "checkpoints": "141601766B/cb848524c3d1def5da30a70cd5c7871d31df5ecf06dfed8bf4e71b1af4c4f2e7and142600691B/c1fab613aa7b8d327983d1d50f48158b2a24f37981cc8c11faa827a43c112db9formalstablebytesbutneitherreloadedhere.",
+    "testplayer": "Ordinaryturns/noUserForced/civilianrescue.139AlexreligionagendaGoodbye;141Congress4freeA1votes,decision+competitionreview0/submitonce/Returnonce. ActualDYES/SABOTAGEDAMresultsdifferfromownSILK/GAINTECHvote;diploactualunknown.",
+    "delivery": "3inlineunedited80screenshots/BBCodependinginGit,0productchanges/0newHTTP/1130priornotrerun/0Steamonline-upload/Alpha74unchanged;newactorroutefoundingcontinues."
+  },
+  "generic_lessons": [
+    "Repeated population notifications must be joined to actual before and after state. Two notifications of the same population do not imply two costs.",
+    "Preserve the actual production cost at completion; a higher cost for a future unit cannot be reassigned to the unit already trained.",
+    "A future observation window cannot recount the already completed initial selection, and text logs do not replace missing native dispatch counters.",
+    "A player vote, proposal acceptance and actual adopted target are different facts. Record the visible result even when it differs from the testing player choice.",
+    "Official stable saved bytes without loading the save do not establish reload correctness.",
+    "A new actor training sample cannot borrow another actor founding success to claim its own full lifecycle."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Only Native80 natural training/population/birth and initial movement in inherited world; new actor route/founding/consumption/reload/fullTC015017/all40 not passed. No model raw execution/newHTTP/globalarmySDK/Steam80release credit."
+}
