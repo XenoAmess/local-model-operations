@@ -3983,3 +3983,13 @@ fixed3/DIRECT/max8000/temp0/thinkingfalse/jsonobject/SSEusage，04:20:06.104326�
 461/462 canonical each1 stop/DONE/VALID0retry, Nov6OpenCode1.19.5maintenancecache reused/0newnativegeneration.461wholepatchrejected,462onlyactualAPIreference,0rawNative/productchanges. OwnerNative78same167detourto173newcity/175normalgranaryandformalreload, two completed districts,6embeddedimages. Newcity54/-23/3turnsandmodreceiptunit_unavailablekeptOPEN.累计462/430/29/3 HTTP492extra30/unknowncachecostsnull;0Steamonline/upload/Alpha74unchanged.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-detour78native.json)。
+
+
+
+## 2026-11-06：Source106 Council已消费NO_CHANGE分支新DATA测试，全稿源审拒
+
+106是独立未完P072测试，非105重投。新Test draft+12完整上下文共13Java167588B；Gov4908是owner已型7CF但未Live候选，其他formal publicAPI/Fixture仅DATA参考，不冒actualRuntime同源。合同要求synthetic publicreceipt先由actualconsume真CONSUMED，再actualCouncil.evaluate完整latestApplied/root/query/role路径；NO_CHANGE同role只一query、REPLACE仍二次fresh、跨evaluate重读/root mismatch/无latest原路，不能镜像choose或授Root/Native/custody。
+
+fixed3/DIRECT/max8000/temp0/thinkingfalse/jsonobject/SSEusage，04:45:02.276803→04:45:23.399475Z真1POST/1END，HTTP200/DONE/stop/JSONvalid，21.1225304秒/有效TTFT6.9097839秒/reported36878+2310/cachednull/peerUNKNOWN。CONTENT9994B与SSE UTF8一致、audit差异空，原件先交owner后audit/Git。原交付采用待审切点保，随后正式review1910B/0d635af5全拒0whole/method/partial/literal/code/rawJVM/R2：一whole-draft旧span虽命中，但CHALPIN/嵌套名/构造API错误、ACK{0}非法framing、复用guard证据REF且effect10晚于current9导致consume必拒，缺真实decoder/positiveconsume/JUnit断言及same-rolefresh/crosscall/mismatch义务。源码审拒非实际rawcompiler/JUnit红；ownerTest11169B/121d5d在其首读raw前独立送Native，无后继结果回授。[全输入/精确成本、失败及零采用](evidence/2026-11-06-http-council-nochange-policy-test106.json)。
+
+更正Models此前措辞：原合同4879B/fb9a9b8，REQUEST message3是其完整LF投影4868B/bfc5668a，差11处CRLF归一，全文一致。先前称“4868导航笔误”无据，不是owner输入错误或漏合同；冻结REQUEST/metadata不重写、不重POST，仅追加澄清。只读526COMPLETED/526RELEASED、g0005十READY非并发、source0；Nov06成功1.19.5cache复用，0新probe/JVM/Game/GET/stockIO/active配置改，无107真实需求不造调用，旧length正文/SSE整份未读未hash不变。
