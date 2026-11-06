@@ -4090,3 +4090,22 @@ fixed3/DIRECT/max2000/temp0/thinkingfalse/jsonobject/SSEusage，09:02:43.866659�
 467/4682canonicalstop/DONE/VALID0retry/whole0Native-product.46759027+2030/21.2086634s;46816302+2142/15.764559s. Owner3isolated468counterexamplesandindependentCore18getters0errunknownonly. CoreIsSavedGameabsentvsUIloadedtrue;freshfirstsettlerinitstillneedscontract. First467prepNameError0POSTfixed/pairactualpeak1. Through468468/436/29/3 HTTP498extra30;later469separatereviewpending.0OpenCodegeneration/unknowncostnull/0Steamonline-upload/Alpha74unchanged.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settlement467468.json)。
+
+
+
+## 2026-11-06：Source110 已strict验证后的peacetime consumer单方法候选
+
+110是实际新consumer，非109/R2；旧01四源与TASK01未POST保留，仅最终03五actual全文226797B+TASK03全文5111B，实REQUEST全核。直接actualNoticeHelper8569/569263已闭，不凭名字推算法：现Collector.currentPlanning→installedCatalog4arg→DPE.heldEquivalent用私capturedNativeOwned set逐次严格验证后才进callback。只去consumer内多余rawsemantic.equals conjunct，original==request/identity/source/session四条件、outerphysical/contextWriter/collectPending/read/collect/order/deadline全保，不改任何producer/helper/parser/hash/oldencode/Guard算法或改用弱overload/cacheflag。
+
+既有held projection只容java_driver_facts_evidence Ref及两非Native-owned Java-injected heartbeat/pong telemetry变化，wrapper type/protocol/pid/connection保持；Native-owned同名含explicitnull、其它未知/业务/goal/history/Driver/stamp/frame/source/executable仍严格。它不同于更保守的archivedoriginalFields projection，二者均不改；旧1117/1007不当最新因果、freshSwayproofNH，不授实际业务修复。Root/M6强引导完整contract，不称自主发现或新权限。
+
+fixed3/DIRECT/max2200/temp0/thinkingfalse/jsonobject/SSEusage，09:31:31.424283→09:31:39.985199Z真1POST/1END，HTTP200/DONE/stop/JSONvalid，8.5608364秒/有效TTFT6.0474136秒/reported46240+454/cachednull/peerUNKNOWN。CONTENT2387B与SSE UTF8一致/audit差异空，原件先交M6后audit/Git，交付pending切点保。随后2398B/b869ea60源审完整method PASS：仅去单conjunct，其余四条件/strictcurrentPlanning/Guard/readcollect全保；owner09:27:50先封15fa/91d7，早于POST，0whole/method/partial/scaffold/modelJVM/noR2，不是语义拒收。[来源/精确合同、成本与有效未采用原因](evidence/2026-11-06-http-peacetime-held-equivalence-consumer110.json)。
+
+review09:32cut P0finalcontract pending保；随后09:33 FinalReady6004B/e09b记录p0 finalBarePASS及实际私Nativeowned来源、仅manifestRef变化的sourceDATA反例，正式p0receipt在该cut仍NH。owner30068B/91d7 rawoutside inverse精确，最小1TU/shape且0镜像Test计划交Native，本岗未重跑DATA反例/编译/授软件或现场。只读530COMPLETED/530RELEASED、g0005十四READY非并发、source0，0新probe/JVM/Game/GET/active参数改；旧length正文/SSE持续整份未读未hash/noR2，无111真实需求不造调用。
+
+
+## 2026-11-06：109／110 后到的 owner 单 TU 型验，模型采用仍为零
+
+109 诊断叶 owner3f1c：strict 1TU／9class 首编0，5.0649194秒，完整9形状相同；110 consumer owner91d7：strict 1TU／5class 首编0，7.4723831秒，完整5形状相同。两项均输入post不变、stdout/stderr0、terminal/fence/close0并释放，0新旧Test编跑、0其他production/support重编。[独立软件层原件pin与核验范围](evidence/2026-11-06-http-m6-owner109110-software.json)。
+
+模型109与110完整方法都语义PASS，但授权并行owner早于POST独立封源，0whole/method/partial/literal/modelJVM/noR2；这些型验属于owner代码。110先前review的P0pending及SourceReady时正式receipt NOT_HELD保留，后到11358B/12879826 actual私Nativeowned合同单列，不回改旧切点。本岗只核既有交付／qualification／source元数据pin和九项阶段回执、shape记录，未重跑二进制结构解析或任何JVM。owner报告formal97975d3e／0ff7b80f未作业务Git独验；qualification与交付时Runtime未采用，无实际reason输出/fullplan/Start/有用scheme终态/G2/SAVE/速度证明。0新HTTP/probe/业务动作，旧length全文/SSE仍整份未读未hash，不为后见造111。
