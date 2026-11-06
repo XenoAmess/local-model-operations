@@ -4109,3 +4109,10 @@ review09:32cut P0finalcontract pending保；随后09:33 FinalReady6004B/e09b记�
 109 诊断叶 owner3f1c：strict 1TU／9class 首编0，5.0649194秒，完整9形状相同；110 consumer owner91d7：strict 1TU／5class 首编0，7.4723831秒，完整5形状相同。两项均输入post不变、stdout/stderr0、terminal/fence/close0并释放，0新旧Test编跑、0其他production/support重编。[独立软件层原件pin与核验范围](evidence/2026-11-06-http-m6-owner109110-software.json)。
 
 模型109与110完整方法都语义PASS，但授权并行owner早于POST独立封源，0whole/method/partial/literal/modelJVM/noR2；这些型验属于owner代码。110先前review的P0pending及SourceReady时正式receipt NOT_HELD保留，后到11358B/12879826 actual私Nativeowned合同单列，不回改旧切点。本岗只核既有交付／qualification／source元数据pin和九项阶段回执、shape记录，未重跑二进制结构解析或任何JVM。owner报告formal97975d3e／0ff7b80f未作业务Git独验；qualification与交付时Runtime未采用，无实际reason输出/fullplan/Start/有用scheme终态/G2/SAVE/速度证明。0新HTTP/probe/业务动作，旧length全文/SSE仍整份未读未hash，不为后见造111。
+
+
+## 2026-11-06：Civ6settlement81
+
+469/4702stop/DONE/VALID0retry;469partialbodycorrected18pass,470rawrejected/ownerCore27pass.2methods45subcases/full1132PASS136.515s/source81unwired89filesnotinstalled;Native80no81grants. OnecachedEOFcheckfailurefixed/repackedwithoriginaltestedhashpreserved. Through470470/438/29/3 HTTP500extra30,0OpenCodegeneration/unknownnull.0Steamonline-upload/Alpha74unchanged.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settlement81.json)。
