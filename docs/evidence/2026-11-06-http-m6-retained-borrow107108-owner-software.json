@@ -1,0 +1,154 @@
+{
+  "schema": "local-model-operations.http-retained-planning-borrow-owner-software-posthoc/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-06T09:16:32.488309+00:00",
+  "task_ids": [
+    "m6-retained-planning-lease-borrow-20261106-01",
+    "m6-retained-planning-lease-regression-20261106-01"
+  ],
+  "prior107_source_review_evidence": "2026-11-06-http-m6-retained-planning-borrow107-source-review.json",
+  "prior108_delivery_source_review_evidence": "2026-11-06-http-m6-retained-planning-regression108-delivery.json",
+  "prior108_evidence_pin": {
+    "bytes": 11230,
+    "sha256": "ead000ce69ce0f9e3e47b131c8327484a840c673dbe7bd54436d230b41eee1a2"
+  },
+  "prior_source_only_pending_and_adoption_cuts_preserved": true,
+  "qualified_primary_record_pin": {
+    "bytes": 75475,
+    "sha256": "bb3c39a19335a976415473a1f5af330c289bbfb4ff393b8bb2f7e5eb3c163347"
+  },
+  "qualified_at_utc": "2026-11-06T08:20:58.304833+00:00",
+  "test_source_ready_pin": {
+    "bytes": 3726,
+    "sha256": "b69bf8765704e65606c7093c7259005115498d2a0ae498179a8e66f2235359fa"
+  },
+  "test_source_pin": {
+    "bytes": 31374,
+    "sha256": "881f57be743b02814fa82b1b3378c8143d9f4e772ea1832bbdc28e8eaa5148ee"
+  },
+  "owner_test_review_pin": {
+    "bytes": 3245,
+    "sha256": "c6552bb3a835788067e2f107867f5313ea3e17840336d58c1085b9439fd3195f"
+  },
+  "source_inverse_pin": {
+    "bytes": 1231,
+    "sha256": "73f887192d90fec82701da22dae910a661f35252a0fb35e79409a4e1badde25b"
+  },
+  "necessary_existing_support_source_pin": {
+    "bytes": 524,
+    "sha256": "ae2c459405e84e04af935e2e30e24fde5b9f00024d305494fbe0e5114eaa6a74"
+  },
+  "new_changed_Test_TUs": 1,
+  "necessary_existing_support_TUs": 1,
+  "support_classes": 1,
+  "Test_classes": 8,
+  "phases": {
+    "support": {
+      "begin_utc": "2026-11-06T08:17:27.732303+00:00",
+      "end_utc": "2026-11-06T08:17:30.741062+00:00",
+      "seconds": 3.008781199983787,
+      "exit_code": 0,
+      "contract_accepted": true
+    },
+    "test": {
+      "begin_utc": "2026-11-06T08:17:37.100615+00:00",
+      "end_utc": "2026-11-06T08:17:43.932404+00:00",
+      "seconds": 6.831813199969474,
+      "exit_code": 0,
+      "contract_accepted": true
+    },
+    "junit": {
+      "begin_utc": "2026-11-06T08:18:00.772139+00:00",
+      "end_utc": "2026-11-06T08:18:06.202890+00:00",
+      "seconds": 5.43077199999243,
+      "exit_code": 0,
+      "contract_accepted": true
+    }
+  },
+  "exact_selectors": [
+    "org.xar.ck3.control.application.driver.NativeReadinessDriverCaptureIdentityTest#retainedReadyRoundAdmitsTypedPreparationWithoutRecapture",
+    "org.xar.ck3.control.application.driver.NativeReadinessDriverCaptureIdentityTest#retainedBorrowRequiresActualRoundAndPreservesFailureCleanup"
+  ],
+  "xml_pin": {
+    "bytes": 39698,
+    "sha256": "203e247ea4131ecc0fee5cb34e01b2b1a96cd75c7de95da78abf47ae94e1b285"
+  },
+  "XML_suite": {
+    "name": "JUnit Jupiter",
+    "tests": "2",
+    "skipped": "0",
+    "failures": "0",
+    "errors": "0",
+    "time": "3.243"
+  },
+  "exact_XML_cases": [
+    {
+      "name": "retainedReadyRoundAdmitsTypedPreparationWithoutRecapture()",
+      "classname": "org.xar.ck3.control.application.driver.NativeReadinessDriverCaptureIdentityTest",
+      "time": "2.058"
+    },
+    {
+      "name": "retainedBorrowRequiresActualRoundAndPreservesFailureCleanup()",
+      "classname": "org.xar.ck3.control.application.driver.NativeReadinessDriverCaptureIdentityTest",
+      "time": "0.139"
+    }
+  ],
+  "junit": {
+    "tests": 2,
+    "passed": 2,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "actualcases": [
+      {
+        "name": "retainedReadyRoundAdmitsTypedPreparationWithoutRecapture()",
+        "classname": "org.xar.ck3.control.application.driver.NativeReadinessDriverCaptureIdentityTest",
+        "time": "2.058"
+      },
+      {
+        "name": "retainedBorrowRequiresActualRoundAndPreservesFailureCleanup()",
+        "classname": "org.xar.ck3.control.application.driver.NativeReadinessDriverCaptureIdentityTest",
+        "time": "0.139"
+      }
+    ]
+  },
+  "old7_methods_RUN": 0,
+  "production_compile": 0,
+  "reused_production_classes": 38,
+  "slots_at_closure": {
+    "LIGHT1": null,
+    "LIGHT2": null,
+    "HEAVY": null
+  },
+  "Native_author_reports_close_fence_released": true,
+  "scope_of_Models_checks": "PinnedprimaryqualifiedJSON, exactreferencedsource/review/inverse/Readypins and realXMLsuite+twoexpectedcases; phase0/contractacceptance/slots fromqualifiedrecord. Didnotreread everyACTUAL/log/classbinary or executeJVM. NoGame/GET/Native/servicescope.",
+  "behavior_scope": [
+    "Actual public Collector.withPlanningRound -> observe -> private production Ready capture -> active read scope ended -> currentHeldRead retained private round, same observed frame and original published Known. One callback succeeds without extra packet receive or dispatch/head change.",
+    "Absent real round, uncaptured round and foreign Session reject before work; original IOException identity survives and callback/read scopes close. Re-borrow works only inside the same real retained round; poisoned current head and post-callback poison still reject, with no fresh packet/control fallback.",
+    "Existing SourceQualification.none/stub Running/memory Store refs and replay packet fixture are software DATA boundaries. No private Captured/Round/Lease constructor or reflection, Root issuer or forged physical pin/Native custody proof.",
+    "Original seven methods/imports/all Fixture bytes preserved by exact5518B insertion inverse. They compile as one changed TU family but do not RUN. The only necessary unchanged524B testfactory support was allowed after concrete D binaryNH; its same-package actual NativeGameTransport replay constructor ABI linked before first JVM."
+  ],
+  "not_qualified": [
+    "Actual filesystem/source/filepin requalification, Win32 Game birth, live transport/Native/Root/writer/physical authority or real Feast preparation/recovery.",
+    "Actual M6 completion/terminal/Scheme/M7/day/SAVE or performance. NormalRuntimeLoader/SourceResourceBirth of business code is separately owned and not inferred from memory producer tests.",
+    "No old975/general matrix/production or other support recompilation, Cread/write/GET/JFR/attach/Game/UI/query/control or healthworkerstop."
+  ],
+  "production_qualification_reference_pin": {
+    "bytes": 533136,
+    "sha256": "0463402b07c5b89bbdf9001592b0cfe0f6fd624e837456935f49f4cd34e88179"
+  },
+  "adoption_boundary": {
+    "107": "Semantic-valid complete method suggestion; no model implementation adopted because owneralreadysealed3e2f. Owner production38 qualification not rawcredit.",
+    "108": "Only positive actualcurrentHeldRead flow PARTIAL with owner3counteredits; unchangedwholemethod/class0, secondmethod entirelyowner. Finalcombinedowner881fTest2P is not rawtwo-methodpass. Old304Lscaffold and existinghelper not modelnewcontribution.",
+    "raw_candidate_JVM": 0,
+    "R2": 0
+  },
+  "qualification_at_its_cut": {
+    "Runtime_adoption": false,
+    "actual_Feast_or_Root_permission": false,
+    "actual_speed": false
+  },
+  "later_Runtime": "Owned/verified separately by Runtime; no newGame/GET or rawmodelcredit inferred from software. NoFeastStart/fullactivity/M6completion/newday/SAVE proof here.",
+  "new_generation_POST_JVM_Game_GET_probe_for_this_posthoc": 0,
+  "net_owner_active_time_savings": null
+}
