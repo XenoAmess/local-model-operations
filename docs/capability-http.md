@@ -4028,3 +4028,15 @@ fixed3/DIRECT/max8000/temp0/thinkingfalse/jsonobject/SSEusage，04:45:02.276803�
 0newHTTP;465candidatealreadyrecordedandrejected,own80implementationnowactualnegativeandpositiveNativeverified. Threeuneditedinlineimages,formalcompleted138worldreloadandcleanup;notexactloyaltyformula/longtermretention/durablependingjournal. Cumulative465/433/29/3 HTTP495extra30/0newOpenCode/unknownnull;Steam0online-upload/Alpha74unchanged.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-border80native.json)。
+
+
+
+## 2026-11-06：Source107 M6私retained planning lease借用单方法候选
+
+107为M6实际新功能leaf，非106重投。八份actual完整源349888B与original逐份raw同SHA，七个具名freeze及已采用planningRound caller的adoption pin已核；完整3360B合同作第三消息，只要borrowCurrent完整annotated generic方法，不回显119955B class。owner已定位FEAST临时before scope退出后active缺省、私同owner round retainedCaptured存在的路由缺口，并给精确branch/helper算法，不称自主发现。
+
+合同保原nonnull/observationSession/actualWriter.require及非空active→borrowedPlanningRead全体；只有active缺省才可检查既有private producer-issued round/captured/同Session，heldRead/publicPlanning/firstCheckpoint仍拒，复用已有retainedPlanningRead全部原件/Driver/stamp/history/row/loop/Complete/source/head/deadline/finally guard。无安装载体/新field/Scalar信任标记或freshcapture/Native query，旧parser/hash/oldencode/frozenGuard不变，源码不是lease/权限或naturalM6验收。
+
+fixed3/DIRECT/max2500/temp0/thinkingfalse/jsonobject/SSEusage，07:42:48.667465→07:42:59.755603Z真实1POST/1END，HTTP200/DONE/stop/JSONvalid，11.0881034秒/有效TTFT9.1758152秒/reported70416+328/cachednull/peerUNKNOWN。完整CONTENT1645B与SSE UTF8一致、audit差异空，原件直接先交M6指定目录再audit/Git。交付采用待M6源审、0rawJVM/noR2，不据短完整方法授私源/Session/forbidden-scope正确或运行已采用。[输入来源pin、合同与成本](evidence/2026-11-06-http-m6-retained-planning-borrow107-delivery.json)。
+
+只读527COMPLETED/527RELEASED，g0005十一READY不是并发，source0；Nov06已有成功1.19.5cache复用，0新probe/本岗JVM/Game/GET/JFR/stockIO/active参数改变。Owner源码/编测/采用与实际FEAST/自然M6/G2另证，不回授HTTP候选；旧length正文/SSE整份持续未读未hash/noR2，无108真实需求不造调用。
