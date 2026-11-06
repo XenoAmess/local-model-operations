@@ -4133,3 +4133,10 @@ fixed3/DIRECT/max3000/temp0/thinkingfalse/jsonobject/SSEusage，11:49:26.401164�
 
 
 后到11:51正式源审2805B/459dc808：NOT_ADOPTED_CONTRACT_BOUNDING_ERROR，完整method/partial/code/template贡献均0。唯一具体错是候选在append后对整个reason做substring(0,1024)，会截旧reason/error且把旧字符占入新预算；应只截新detail再append。NO_JOB gate、enum/Optional声明本身正常，不虚指API错或把此当容量/传输失败。独立owner14718B/e94b在实际POST前已封，0raw复制/JVM/noR2；p0源PASS与owner必要1TU软件待证另账，交付PENDING旧切点保留，不借owner后继成果追授模型代码。
+
+
+## 2026-11-06：Civ6settlement82-native-init
+
+475stop5921tokens/34.3866954s/0retry/raw7counterexampleswhole0Nativeadopt.82cold/reloadJ0+crosscontextfullreadbacks/2rawimages/normal149only;emptybankreinitnotexcluded. OwnerHash-vs-Indexreadonlyprobeaccessviolationretained/same-sourcecorrectedboot2healthy/0force-Steamclose. Through475475/442/30/3 HTTP505extra30/0OpenCodegeneration/unknownnull.0Steamonline/uploadAlpha74unchanged.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settlement82-native-init.json)。
