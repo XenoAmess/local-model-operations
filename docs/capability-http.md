@@ -4160,3 +4160,10 @@ draft线程合同待查切点保留，后到2173B/6fff1b5e ownerreview＋SourceR
 实际1376 knownSHA来源被label-only bind拒，owner精确指单guard；不是旧Schedule重投。三actual完整Java30108B+原TASK2856B实REQUEST全核，既有label保、SHA分支须现CK3_12004同时matches Wire.BUILD/Wire.EXE及Wire.BUILD/source.exactBuild，原Source不重写、Native Binding仍fixedwirepair、payload/SHA/ACK/token/前后source-session-connection-authority等全严保。enum仅DATA识别，不作runningEXE/Rootlease proof、不改parser/hash/oldencode/Guard算法。
 
 fixed3/DIRECT/max2200/temp0/thinkingfalse/jsonobject/SSEusage，12:19:44.347868→12:19:48.338538Z，真1POST/1END/0retry、200/stop/DONE/JSONvalid/complete，3.9917585秒/有效TTFT1.3551421秒/reported7980+491/cachednull/peerUNKNOWN。CONTENT2166B/f2c92310与SSE UTF8一致/audit差异空，原件先交owner再audit/Git；交付method/partial/literal采用PENDING、0modelJVM/noR2，不授actual1376 fullplan/scheme/Start/G2/SAVE/速度。[完整来源合同与参数成本](evidence/2026-11-06-http-m6-sway-read-known-build113.json)。只读533COMPLETED/533RELEASED、g0005十七READY非并发、source0；旧length全文/SSE仍整份未读未hash，0新JVM/Game/probe/活跃参数改，不造114。
+
+
+## 2026-11-06：113 完整方法有效，owner 预 POST 独立封源故未采用
+
+后到2732B/27f7dd8f正式review：VALID_COMPLETE_METHOD_NOT_ADOPTED_INDEPENDENT_OWNER_SOURCE，两个matches均版本/SHA顺序正确，label与同Wire pair的knownSHA按合同接纳，原Source/NativeBinding/全部物理custody/token/packet门保。单guard逆换整method仅在明确LF投影下吻合旧方法，不能冒wholeclass rawbyte应用。方法语义有效，不列为语义拒收。
+
+实际owner Ready4320B/65442c8a与candidate9948B/55f240独立封于12:19:06.904353Z，早于caller started12:19:44.346351Z和真实POST_BEGIN12:19:44.347868Z；0whole/partial/code/modelJVM/noR2。交付PENDING保，3.9917585秒/TTFT1.3551421秒/reported7980+491成本仍算该请求，无缓存或节时推断。reviewcut owner必要1TU/type及新Test仍待，actual1376另一个fullplan scope失败不据此授修复／scheme／G2／SAVE。[源审、准确 pre-POST 时序与限界](evidence/2026-11-06-http-m6-sway-build113-valid-source-review.json)。0新HTTP/JVM/Game/probe/旧length读取，不为本有效未采用稿造R2。
