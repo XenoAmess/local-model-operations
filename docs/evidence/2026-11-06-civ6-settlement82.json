@@ -1,0 +1,142 @@
+{
+  "schema": "local-model-operations.civ6-settlement82/v1",
+  "utc": "2026-11-06T11:02:40.683525+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/8d6b9014681ca11f3f73d4b36862b1d57e4a7d61/docs/research/baiqi-p6-settlement82-persistent-software-evidence-2026-11-06.json",
+    "sha256": "bd5925bb22204e5672d31ece45bc67699a53262b711588e2253a66408da6c108"
+  },
+  "model": [
+    {
+      "task": 471,
+      "shared_commit": "de8d211161852c0ecbc2c18110a5429b5c85cca4",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "attempts": 1,
+      "extra_retries": 0,
+      "finish_reason": "length",
+      "sse_done": true,
+      "json_syntax": "UNKNOWN",
+      "usage": {
+        "prompt_tokens": 3928,
+        "completion_tokens": 3200,
+        "total_tokens": 7128
+      },
+      "ttft_ms": 1390.0006000185385,
+      "total_ms": 24693.873399985023,
+      "adoption": "None:lengthpartialretained,notparsed/stitched/executed.",
+      "candidate_raw_native_execution": 0,
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 472,
+      "shared_commit": "de8d211161852c0ecbc2c18110a5429b5c85cca4",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "attempts": 1,
+      "extra_retries": 0,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 3879,
+        "completion_tokens": 1796,
+        "total_tokens": 5675
+      },
+      "ttft_ms": 1211.7744000861421,
+      "total_ms": 14682.144300080836,
+      "adoption": "Partialbodyafterownermissingend/emptyowner-1/reasonreturn/inputJguards.",
+      "candidate_raw_native_execution": 0,
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 473,
+      "shared_commit": "de8d211161852c0ecbc2c18110a5429b5c85cca4",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "attempts": 1,
+      "extra_retries": 0,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 4010,
+        "completion_tokens": 1407,
+        "total_tokens": 5417
+      },
+      "ttft_ms": 909.4648999162018,
+      "total_ms": 9460.761799942702,
+      "adoption": "Wholerawrejected;independentownerunitreader.",
+      "candidate_raw_native_execution": 0,
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 474,
+      "shared_commit": "de8d211161852c0ecbc2c18110a5429b5c85cca4",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "attempts": 1,
+      "extra_retries": 0,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 20961,
+        "completion_tokens": 1210,
+        "total_tokens": 22171
+      },
+      "ttft_ms": 2804.432899923995,
+      "total_ms": 11071.463200030848,
+      "adoption": "Twofixesrejected:timeoutreleaseandmissingcityconsumptionproofunsafe.",
+      "candidate_raw_native_execution": 0,
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 474,
+    "complete_stop_valid": 441,
+    "length": 30,
+    "final_transport_failures": 3,
+    "http_attempts": 504,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "scope": "82wiredCorePrepare/Commit/InspectandUIrestore/finalguards,notNativepassedatdelivery.93archivebyte-matchednotinstalledyet. Owned80officialexitonceafterverifiedsaved148,tupleabsent37.506633s0terminate.",
+    "471": "length3200/3928+3200/24.6938734sretainedwholepartialnotparsed/stitch/adopt/execute.",
+    "472": "stop3879+1796/14.6821443srawmissingendcompilefail,syntax-only2contractfail(-1owner/reasonreturn),ownerpartialbodycorrected30contracts.",
+    "473": "explicitnewtaskredoafter471length,nottransportretry;stop4010+1407/9.4607618s. Rawliteral9contractfail,additionalreceiver-compatible3missing/throwiteration/lookupunsafeABSENT,whole0adoption. Ownerindependentunit32contractpass. NativewrongreceiverbehaviorNOTexperimented.",
+    "474": "realpostimplementationreviewstop20961+1210/11.0714632s,validJSONbutsecondfixendssemantichalf-sentence. Bothproposedtimeoutreleaseandmissingcityrelaxationrejected0adoption,unknownlivenessriskhonestlyretained.",
+    "software": "World62/Coreprotocol43subcases/UI16/Executor2newmethods6subcases;21newmethodsfull1153PASS60.371s/outer62.0672888s. Initialfull1151/109.486s errors14alloldExecutorstubmissingnewsetter,correctedstub+meaningfulprovenancechecks.",
+    "owner_tools": "Falseandornilfixturedefaultfixedbeforegenuinecounterexamplecounts;TestCasealiasimportduplicated24oldtestsfixedmoduleimportactual16;othercityfixturecorrectroster;indentguardstoppedbeforewrite;Nativeexit_Gnilreadonly0actionsfixedexplicitknownnilbeforeofficialexitonce.",
+    "native": "OwnerindependentCoreGrid44x26/1144getterandonealreadyknownvisibleownplot9060commands/properties,notnewbridgeNative.",
+    "accounting": "471472actualPOSToverlappeak2/473474later,4singleattempts0extraRetry. Through474474/441/30/3 HTTP504extra30,0OpenCodenativegenerationunknowncostnull.0Steamonline/uploadAlpha74unchanged."
+  },
+  "generic_lessons": [
+    "A protected call must preserve every meaningful return value; dropping a reason can make failure diagnosis disappear even when the status remains safe.",
+    "An integer helper restricted to nonnegative values cannot validate a native sentinel such as unowned player -1 without an explicit branch.",
+    "Never convert a failed or absent iterator or lookup into a successful empty collection. Whole-call protection must preserve the distinction between nil and an exception.",
+    "A complete stop JSON response may still contain uncompilable code or a semantically incomplete suggestion; syntax/finish/compile/behavior are separate gates.",
+    "A retry after length is a new explicitly budgeted logical candidate, not a hidden transport retry or a license to stitch partial output.",
+    "Persistent ARMED records represent potentially emitted commands. Elapsed time or partial world effects cannot establish definite failure and permit replay.",
+    "Enumerate durable unresolved intents rather than only live actors when restoring work after reload.",
+    "Mock test discovery can duplicate imported TestCase aliases; count actual new methods after removing the alias rather than inflating coverage.",
+    "Keep original full-suite failure evidence when an interface stub must be updated, and add a direct consumer test for the new provenance boundary."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Software integration and controlled mocks, plus source80 independent read-only API qualification and formal exit only. Source82 actual table bridge/property persistence/newgame first settler/old-save uncertain actor/mid-action save-reload not accepted at delivery. No Workshop upload or broad loyalty/campaign completion proof."
+}
