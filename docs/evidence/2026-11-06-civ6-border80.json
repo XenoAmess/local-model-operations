@@ -1,0 +1,112 @@
+{
+  "schema": "local-model-operations.civ6-border80/v1",
+  "utc": "2026-11-06T06:40:24.590669+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/9a6265bf88fc429f0601e68eddd48b989902ebf7/docs/research/baiqi-p6-border80-software-evidence-2026-11-06.json",
+    "sha256": "265c27139a1a95b01b25857f44ac07e942a994da425c4534fddaa0cce92fa518"
+  },
+  "model": {
+    "shared_commit": "fb1a2ad1e22e794756e9c8dc5c5d9cbcfa74fae0",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "attempts": 1,
+    "extra_retries": 0,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 51598,
+      "completion_tokens": 1378,
+      "total_tokens": 52976
+    },
+    "total_ms": 15781.30290005356,
+    "ttft_ms": 6684.134599985555,
+    "adoption": {
+      "utc": "2026-11-06T06:05:19.313391+00:00",
+      "helper_lua_compile": true,
+      "isolated_counterexamples": {
+        "near_owned_foreign_distance2": {
+          "threw": false,
+          "result": [
+            true,
+            "supported_by_own_city"
+          ]
+        },
+        "visible_city_flag_true_lookup_missing": {
+          "threw": false,
+          "result": [
+            true,
+            "no_visible_foreign_within_9"
+          ]
+        },
+        "unknown_native_city_flag": {
+          "threw": false,
+          "result": [
+            true,
+            "no_visible_foreign_within_9"
+          ]
+        },
+        "positive_count_empty_owned_members": {
+          "threw": false,
+          "result": [
+            true,
+            "no_visible_foreign_within_9"
+          ]
+        },
+        "native_city_lookup_exception": {
+          "threw": true,
+          "error": "[string \"<python>\"]:1: NativeCityLookupUnavailable\nstack traceback:\n\t[string \"<python>\"]:53: in function <[string \"<python>\"]:1>\n\t[string \"<python>\"]:1: in field 'GetCityAt'\n\t[C]: in function 'error'"
+        }
+      },
+      "adoption": "Wholehelperrejected; boundedownednearest/visible-cellscanstrategyreferenceonly. Ownerimplementationandregressionsseparate.",
+      "reasons": [
+        "Ownwithin9earlytruebypassesforeigncity<=3minimumdistance.",
+        "TypedIsCityunknownornativecitylookupsnil/unknownincorrectlyfallsbacktosafe.",
+        "PositiveGetCountwithzeroMembersusesinvented999distanceinsteadunknown.",
+        "Missingownowner/fullID/finiteinteger/collectionconsistency/cellreveal/exactplotcoordinates/fullcityidentityguards.",
+        "Nativeexceptionsnotcontained;selfreferentialMatchesID(city,city:GetID())isnotindependentidentityqualification."
+      ],
+      "raw_native_execution": 0,
+      "product_edits_adopted": 0,
+      "checks_are_not_native_or_product_pass": true
+    },
+    "raw_native_execution": 0,
+    "product_edits_adopted": 0,
+    "owner_implementation": "Rawwholehelperrejected,ownerwrittenimplementation/integration/tests; boundedownednearest/visible-cellstrategyreferenceonly.",
+    "maintenance": "Nov6successfulOpenCode1.19.5cache reused,0newnativegeneration.",
+    "cached_prompt_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical": 465,
+    "complete_stop_valid": 433,
+    "length_discarded": 29,
+    "final_transport_failed": 3,
+    "http_attempts": 495,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "software": "Owner80knownborderheuristic/foreign-rosterreadboundaryrepair;22newrealRunNowregressions/full1130PASS152.753s/outer157.5973207. Built87f692255b24e89d1a2f438bbd0792876681ffe4254582d6e8a9aba2d257f41ea5/notinstalledatcut/runtime79.",
+    "465": "Canonical1stop/DONE/VALID0retry,rawhelper5isolatedcounterexamples:own5foreign2true/missingcitytrue/unknownIsCitytrue/count1members0true/APIexceptionthrows. Wholehelperrejected0rawNative/product,ownerimplementationnotrawadoption.",
+    "implementation": "Bounded128ownfiniteIDownerxyFindIDCount/nativeintdistance;capitalexempt;ownnear<=9 scan3else9/cap37or271topology. Freshreveal/visibilitytypedbeforecityflag/lookup/fullIDownerxyplotownerdistance;unknownnilwait, noforeignroster/cachepermissions. Rejectforeignwithin9withown>9, own/visiblecity<=3decline. Oldgoalreservationonlyownrelease/replan,bothFOUNDfastpaths/write-afterCanStartguards.",
+    "tests": "Original79initial19 18FAIL1PASSmainlyforeignrosterguard,not18Nativebugs. Owner19pass,final22pass. Firstfull1130oneobsoleteMapGetPlotcountfailure(1expected/0actual) preserved;consumerreplacedwithforbiddenforeign-rosterspyandallthreevalidhintassertretained,4pass;finalfull1130pass.",
+    "limits": "Heuristic9notverifiedenginepressureformula. Mayrejectviableborders andcannotseehiddenforeign/predictpopulation/era/amenitiesorlongtermloyalty. Onlysoftware80, negative167andpositive136Nativepending. Nativefinaleligibilityretained,spacingprecheckowned/currentvisibleonly.",
+    "release": "Source80/installed-runtime79/0Steamonline-upload/Alpha74unchanged,prior79completedworldreceiptandreloadremainseparate."
+  },
+  "generic_lessons": [
+    "An owned city nearby must not bypass the minimum distance to a currently visible foreign city. Keep support and physical legality distinct.",
+    "A native city flag with a missing city object, an unknown boolean, or an inconsistent inventory is unknown rather than an empty map.",
+    "A public map-cell scan can avoid retrieving private foreign roster coordinates before checking visibility. Cache immutable topology only, and refresh authority-bearing metadata at the final boundary.",
+    "Changes in the producer can make an exact internal API-call-count test obsolete. Preserve outcome assertions and replace the obsolete metric with a meaningful forbidden-access guard, rather than merely dropping the failing assertion.",
+    "A candidate can have a bounded-looking loop yet invent a safe sentinel when the underlying count and iteration disagree. Check collection consistency explicitly.",
+    "A proximity screen is a conservative policy, not an accurate loyalty simulation. Verify both rejected bad sites and allowed supported sites in the game."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Software-only conservative known-border screening and foreign roster information-boundary repair. No accurate loyalty prediction, long-term retention, Native80 negative/positive result, durable pending journal, fullTC015017/40 or Steam80release."
+}
