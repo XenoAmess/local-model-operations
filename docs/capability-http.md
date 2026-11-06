@@ -3934,3 +3934,10 @@ fixed3/DIRECT/max12000/temp0/thinkingfalse/jsonobject/SSEusage，01:57:03.544185
 fixed3/DIRECT/max12000/temp0/thinkingfalse/jsonobject/SSEusage，02:41:33.436266→02:42:08.644445Z真实1POST/1END；HTTP200/DONE/stop/JSONvalid，35.2080927秒/有效TTFT20.527396秒/reported159593+2579/cachednull/peerUNKNOWN。完整CONTENT12547B与SSE UTF8一致，审计errors/discrepancies空；先交Java原件再audit/Git，交付源采用待审、0rawJVM/noR2。全文传输不授因果证据/绑定刷新或暖恢复正确。[输入层次、具体合同与成本](evidence/2026-11-06-http-verified-negative-read-cause104-delivery.json)。
 
 只读524COMPLETED/524RELEASED，g0005八READY不是并发，当前source0；Nov06现有1.19.5缓存复用，0新探测/本岗JVM/Game/GET/JFR/stockIO/参数变化。不回授owner103/后继独立源或实际游玩/P068时长为模型收益，旧length正文/SSE持续整份未读未hash0adopt/noR2，无105真实需求不造调用。
+
+
+## 2026-11-06：Civ6settler457
+
+456—459四个canonical200/stop/DONE/VALID各1/0retry；456boolpcall/visibility、457privateundefinedhelpers/漏bounded及citydistance、458nilglobalhelper与ctx、459nilglobalo及无断言均拒，458459actualisolatedruntime反例保留。OwneronlypublicNative诊断全77新settler出生后等待：同goalNative27点路径无可见威胁，首步己方先知占格，合法邻居仅构重接线索，未授绕行或建城。51UnitSDK0MOVEFOUND/2SKIP，2CityBUILD其他内政继续，清理保存真实167供修复。累计459/427/29/3 HTTP489/extra30，0rawNative/productchanges/1064rerun/Steamupload，0新OpenCode未知成本null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settler457.json)。
