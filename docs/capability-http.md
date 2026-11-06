@@ -3881,3 +3881,10 @@ fixed3/DIRECT/max10000/thinkingfalse，22:42:37.709791→22:42:57.802288Z真实1
 450canonical stop/DONE/VALID，一次无retry。Raw缺visibility/跨城计数/资格前置归属漏项/错借settlerMinPop/无API断言拒用；owner14城252条Native只读盘点0error/incomplete，实际capacity两方法和Cities关联按第一方消费者核。只授夹具条件不授后台行为或恢复完成。累计through450450/419/28/3 HTTP480/extra30，451观察候选独立下一包；未知人工成本/cache/节省null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-capacity450.json)。
+
+
+## 2026-11-06：Civ6capacity453
+
+451—453canonical stop/DONE/VALID各一次无retry，raw均未执行/应用产品；451owner18观察器例、452拒错任务wrapper后实际成员/ID完成读取、453owner12未知保护例与Native14城三类地块。33BUILD/4district都资格合法，沈阳154→157与邯郸156→160两个港口完整ID实际完成后正式存读档保持。74events重复通知不重计资产，Core枚举只读失败保留/实际CoreplotIDs匹配。累计through453453/422/28/3 HTTP483/extra30，0新OpenCode；454净收入独立下一包不混入，未知cache/owner成本/净节省null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-capacity453.json)。

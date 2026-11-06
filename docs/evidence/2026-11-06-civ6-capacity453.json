@@ -1,0 +1,193 @@
+{
+  "schema": "local-model-operations.civ6-capacity453/v1",
+  "utc": "2026-11-06T00:52:39.474157+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/3c47bcd2f0fb425d3f4d3409ac2542dfafe5d9b4/docs/research/baiqi-p6-capacity451453-native77-growth-harbors-evidence-2026-11-06.json",
+    "sha256": "10f34ece0c4398165c367554b0aa88d7dbb568711072282b553ba33e969fe9f6"
+  },
+  "model": {
+    "models": {
+      "451": {
+        "shared_commit": "7e34f434a8a28d393d17b999baa162ce4185027f",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 44054,
+          "completion_tokens": 993,
+          "total_tokens": 45047
+        },
+        "total_ms": 12483.376499963924,
+        "ttft_ms": 5875.160099938512,
+        "owner_review": {
+          "utc": "2026-11-05T23:36:56.655234+00:00",
+          "eighteen_city_audit_cases_passed": [
+            "install-zero",
+            "nil-args-tail-returns",
+            "military-lowgold",
+            "project-sample",
+            "foreign-no-asset-read",
+            "unknown-unit",
+            "bad-params",
+            "metadata-error-forwarded",
+            "overflow-forwarded",
+            "original-error-preserved",
+            "foreign-cleanup",
+            "full-capacity-district-counted",
+            "nonpopulation-district-exempt",
+            "non-district-exempt",
+            "missing-coordinates-unknown-forwarded",
+            "hidden-plot-no-read",
+            "foreign-related-city-no-asset-read",
+            "capacity-read-error-unknown-forwarded"
+          ],
+          "prior_event_eight_cases_reused": true,
+          "event_new_unique_credit": 0,
+          "raw_native_execution": 0,
+          "raw_product_application": 0,
+          "review": [
+            "Raw undefinedRead, unbounded directappend/nooverflow; ownerqualified448 boundedwrapper retained.",
+            "Raw unconditionalrow.RequiresPopulationreads non-district/nil rows; ownerexplicitnot-district.",
+            "Raw omits actualvisibility/cityassociation/numericXY andfullcapacityrequestcounter; ownerguards beforeassetreads, counts onlypopulationrequiringdistrictrequests.",
+            "All read failures remainunknown/error; original exactcallthrough/returns/errors/foreigncleanup preserved."
+          ]
+        },
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "maintenance": "Nov6successfulOpenCode1.19.5cache reused;0newnativegeneration."
+      },
+      "452": {
+        "shared_commit": "50ff5bfe6788dbf0a003c3fed45010c8dbfa166a",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 43789,
+          "completion_tokens": 1596,
+          "total_tokens": 45385
+        },
+        "total_ms": 15718.769600032829,
+        "ttft_ms": 5826.788700069301,
+        "owner_review": {
+          "utc": "2026-11-06T00:04:51.934697+00:00",
+          "raw_native_execution": 0,
+          "raw_product_application": 0,
+          "review": [
+            "RawassetreaderisactuallycopiedCityManagerwrapperandwouldreplaceactive451binding, violatingreadonlytask. RejectentirerawLua.",
+            "RawjoinruleassumeseventhasdistrictfullID; actualCompletedargsrowindex/65535notnewdistrictfullID. OwnerjoinsNativecity,type,xy,stablefullID,IsCompletetransition andeventcity/order/row/canceled.",
+            "Owneractualguarded2city64memberreaderqualifiedallID/Type/X/Y/Owner/IsComplete/cityassociation0errors, nointerception/writes.",
+            "BeijingtwoNeighborhoodIDs2621478@14,3complete and2818089@14,7incomplete151/152, complete153 distinguishassets. SameNativeID,0error.",
+            "ChengduIndustrialZone1638424@8,1 incomplete153115/121,complete154. NewShenyangHarbor3080237@9,5incomplete1540/177. NeitherfuturecompletionnortruefromHasDistrictalone invented."
+          ],
+          "parse": "OwnerLua5.3compilepassed;runtimequalificationseparate"
+        },
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "maintenance": "Nov6successfulOpenCode1.19.5cache reused;0newnativegeneration."
+      },
+      "453": {
+        "shared_commit": "50ff5bfe6788dbf0a003c3fed45010c8dbfa166a",
+        "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+        "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+        "attempts": 1,
+        "extra_retries": 0,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": "VALID",
+        "usage": {
+          "prompt_tokens": 43110,
+          "completion_tokens": 1485,
+          "total_tokens": 44595
+        },
+        "total_ms": 15144.975899951532,
+        "ttft_ms": 5724.170099943876,
+        "owner_review": {
+          "utc": "2026-11-06T00:04:51.935388+00:00",
+          "raw_native_execution": 0,
+          "raw_product_application": 0,
+          "twelve_guarded_policy_diagnostic_cases_passed": [
+            "clear",
+            "protected-city",
+            "protected-wonder",
+            "protected-park",
+            "protected-resource",
+            "protected-district",
+            "protected-improvement",
+            "protected-feature",
+            "unknown-city",
+            "unknown-district",
+            "unknown-resource",
+            "missing-bool"
+          ],
+          "review": [
+            "RawmultiassignmentlocallegalCount,clearCount,exclCounts,fitIndices={...}assignsoneTableonlyandnilothers; firstarithmetic/counterfails.",
+            "Rawnilreasoncounters+1, errorsneverincremented, unknownfalsecomparisoncanbecomeClearPlottrue, fitIndicesincludesnonclear/duplicatedtypes andgeometrymixedwithfullqualification. Rejectrawcode.",
+            "Ownerinitializesboundedpertypecounters, preservesfullflagsseparatefromgeometry, requiresallfieldtypesqualified, unknownclosed, exclusiveprotectionreasons, sorteduniqueplots, first3actualclearfitindices.",
+            "Ownerinitial3citieshave0policyfitdespitegeometry; expandedreadonly14citysurveyfindsChengduonefit53/youngcities732and907. NoassetremovalorprivatePlannerinvocation/hiddenresourcetypesoutput.",
+            "ChengduCampus153fullcapacity1/1 buttruevisible/geometry/trueClearPlot@9,1 confirmed. CurrentIndustrialZonealreadyqueued, so thisisqualifiednegativeconditionnotanemptyqueuebehaviorisolation."
+          ]
+        },
+        "raw_native_execution": 0,
+        "product_application": 0,
+        "cached_prompt_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null,
+        "maintenance": "Nov6successfulOpenCode1.19.5cache reused;0newnativegeneration."
+      }
+    },
+    "owner_scope_review": {
+      "utc": "2026-11-06T00:04:51.936197+00:00",
+      "capacityBlockedRequests_meaning": "Screening counter only: requestrequirespopulationandzoned>=allowed. Existingplacedcontinuationcanbelegal; do notclassifyallcounterhitsasillegalwithoutbeforecallplacementidentity. Currentobservedwindowcounter0.",
+      "metadata_scope": "OnlyExecutorCityManagercontext; nobootstrapbefore148installationorUnitManagercoverage.",
+      "normal151progress_input": "After30sameturnreads, actualpendingnativeSKIPfalsegreatpeopleandstackedmilitaryretained/noqueuedorders, onefreshnormalend, notUserForcedorreplay."
+    },
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical": 453,
+    "complete_stop_valid": 422,
+    "length_discarded": 28,
+    "final_transport_failed": 3,
+    "http_attempts": 483,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "native": "Normal77main148→160, Beijing/Handanpopulationrestoresnativecapacity. ShenyangHarbor3080237@9,5 actualbeforecall3/4,1540/177→15582→156152→157complete. HandanHarbor3145774@9,16 actual4/5,1560→158117→159166→160complete. BothnextBuilder andofficialsave/reloadretaincompletedassets.",
+    "audit": "ExecutorCityManager33BUILD/10unit/3mil/4district, fourdistrictbeforecallswithfreecapacity/nativeflags/prereq/xyqualificationtrue;0foreign/unknown/errors/capacityReadErrors/overflow.74events0error/drop, duplicatecompletednotificationsnotextraassets. Exactrestore/3handlersremoved.",
+    "scope": "ExistingBeijingnewNeighborhood2818089distinctfromold2621478completed153;ChengduIndustry1638424completed154. JiujiangIndustry/WuhanWaterEntertainmentonlyqueued. FullTC009/40stillpartial. CorecollectionMemberportsunavailable, initialreadonlyfailurepreserved; qualifiedCoreplotIDs/type/ownerjoinUIIsComplete+events,notfakeCoreCompletepass.",
+    "review": "451missingRead/unboundedsample/nonDistrict/visibility/association/coords correctedowner18cases.452entirecopiedwrapperwrongtaskrejected0rawNative.453tablemultiassignment/nilcounter/unknown-open/errors0/duplicatefit rejected0rawNative,owner12guardeddiagnosticcases+actual14city×3typefitread.0productchanges/1064notrerun.",
+    "persistence": "Main160641388B SHA3495cc9c6cc618f01174b34a7d6f6b364853e20c61f6cecd9e4dd6d85b847bb2,15city/gold7708.4609375,formalhashloadonce/Continueonce,completedtargetassets/UIandCoreplotIDsretain,bindingsabsent.0Steamonline/upload/Alpha74unchanged."
+  },
+  "generic_lessons": [
+    "A valid JSON candidate can copy an interceptor instead of implementing the requested read-only task. Review intended behavior before any native execution.",
+    "In Lua, assigning a single table to multiple local variables initializes only the first. Structured transport success is not a runtime qualification.",
+    "Native geometric placement and policy-allowed empty land are different. Existing improvements, features and visible resources can exclude otherwise legal plots.",
+    "Unknown booleans must not pass protection checks through comparisons such as value ~= true. Require qualified field types before counting a clear plot.",
+    "Join a new district request with its real coordinates, stable native ID, production progress, completion property and uncanceled event. Repeated notifications do not count as multiple assets.",
+    "Placed unfinished districts can consume capacity; continuation at a full capacity may remain legal. A capacity screening counter alone is not an illegality verdict.",
+    "Do not copy UI collection methods into Core without qualification. Use available independent native identity reads and state exactly where completion is established.",
+    "A turn-ready snapshot can precede later income, production and administrative work. Preserve early observations and obtain the relevant settled facts before conclusions."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Qualified77twoharborplacement/progress/completion/nextproduction/save-reload andnaturalcapacitywindows only. NotfullTC009/all40/missingtechrecovery/newqueuedotherdistrictcompletion/ChengduCampuscompletion/globalmilitarySDKcoverage/coldrestart. Product77unchanged,Alpha74unchanged,Steamoffline0upload."
+}
