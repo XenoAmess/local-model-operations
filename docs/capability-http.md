@@ -3993,3 +3993,10 @@ fixed3/DIRECT/max8000/temp0/thinkingfalse/jsonobject/SSEusage，04:20:06.104326�
 fixed3/DIRECT/max8000/temp0/thinkingfalse/jsonobject/SSEusage，04:45:02.276803→04:45:23.399475Z真1POST/1END，HTTP200/DONE/stop/JSONvalid，21.1225304秒/有效TTFT6.9097839秒/reported36878+2310/cachednull/peerUNKNOWN。CONTENT9994B与SSE UTF8一致、audit差异空，原件先交owner后audit/Git。原交付采用待审切点保，随后正式review1910B/0d635af5全拒0whole/method/partial/literal/code/rawJVM/R2：一whole-draft旧span虽命中，但CHALPIN/嵌套名/构造API错误、ACK{0}非法framing、复用guard证据REF且effect10晚于current9导致consume必拒，缺真实decoder/positiveconsume/JUnit断言及same-rolefresh/crosscall/mismatch义务。源码审拒非实际rawcompiler/JUnit红；ownerTest11169B/121d5d在其首读raw前独立送Native，无后继结果回授。[全输入/精确成本、失败及零采用](evidence/2026-11-06-http-council-nochange-policy-test106.json)。
 
 更正Models此前措辞：原合同4879B/fb9a9b8，REQUEST message3是其完整LF投影4868B/bfc5668a，差11处CRLF归一，全文一致。先前称“4868导航笔误”无据，不是owner输入错误或漏合同；冻结REQUEST/metadata不重写、不重POST，仅追加澄清。只读526COMPLETED/526RELEASED、g0005十READY非并发、source0；Nov06成功1.19.5cache复用，0新probe/JVM/Game/GET/stockIO/active配置改，无107真实需求不造调用，旧length正文/SSE整份未读未hash不变。
+
+
+## 2026-11-06：Civ6loyalty78
+
+463canonical1 stop/DONE/VALID0retry, 3exact/fullLua compile but two isolated safety/async counterexamples fail, wholepatch0adoption/rawNative. Sameowned78ordinary175to178 unrescuednewcity actuallyFreeCities, 2inlineimages andformal178save. LongtermqualityFAILhonest;priorcreation/initialproduction/reloadfactskept. Cumulative463/431/29/3 HTTP493extra30, sameNov6maintenancecache/0newOpenCode-native/unknownnull,0Steamonline/upload/Alpha74change.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-loyalty78.json)。

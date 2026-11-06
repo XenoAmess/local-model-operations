@@ -1,0 +1,76 @@
+{
+  "schema": "local-model-operations.civ6-loyalty78/v1",
+  "utc": "2026-11-06T04:54:04.458532+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/f3db10fe89217c8e08830fca41b27a29bc5f4889/docs/research/baiqi-p6-loyalty78-actual-loss-evidence-2026-11-06.json",
+    "sha256": "c86d6a2c385530fd52aa406f6b489e3c50429723d08e8572126519369ab58673"
+  },
+  "model": {
+    "shared_commit": "8d6eadcdb4058926b11cd244c153ef5eb3182a42",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "attempts": 1,
+    "extra_retries": 0,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 46865,
+      "completion_tokens": 1307,
+      "total_tokens": 48172
+    },
+    "total_ms": 14565.889300080016,
+    "ttft_ms": 6441.14280003123,
+    "adoption": {
+      "candidate_full_lua_compile": true,
+      "edits_exact_matches": 3,
+      "isolated_missing_unit_late_city": {
+        "pending_retained": false,
+        "log": "unit_request_not_observed",
+        "contract": "mustretainunknown;candidatefails"
+      },
+      "isolated_city_present_unit_still_healthy": {
+        "pending_retained": false,
+        "log": "observed",
+        "contract": "mustnotconfirmsuccesswithoutconsumedactor;candidatefails"
+      },
+      "additional_rejection": "EmptycitycheckbeforeCanStart only, notfreshwriteboundary, witnessnotstored, nooriginalowner/type/coords/fullsitelookup, nofullID/proofscope. Designtextclaimedretainmissingbutactualbranchclears.",
+      "raw_native_execution": 0,
+      "product_edits_adopted": 0
+    },
+    "raw_native_execution": 0,
+    "product_edits_adopted": 0,
+    "maintenance": "Nov6sameusersamemachinesuccessfulOpenCode1.19.5maintenancecache reused.",
+    "cached_prompt_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical": 463,
+    "complete_stop_valid": 431,
+    "length_discarded": 29,
+    "final_transport_failed": 3,
+    "http_attempts": 493,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "native": "Actual78newcityloyalty17554/17631/1778,178UI/Coreowncities16to15. Currentvisible37,24newcity131072owner62, actualconfigurationLEADER_FREE_CITIES/CIVILIZATION_FREE_CITIES;old1114127absentowninventory. NoGovernor/army/citytransfer/manualcivilianrescue.",
+    "scope": "ActuallongtermsettlementqualityFAILdoesnotcanceltrue173creation/175initialproduction/reload. Onlyknownvisibleotherownerlookup,notprivateforeigninventory.",
+    "candidate": "463threeexactreplacements/fullLua compile;isolatedmissingactorlatecityclearsunknownandhealthyactorcitypresentfalseobserved. Wholepatchrejected0rawNative/product;needswritefreshbeforeemptywitnessandconsumedactor/newownedcityoutcome,notprosecorrection.",
+    "owner_correction": "175cycleactual176thenpost-readremovedobserverassertfailed. No175gameactionreplay;removeonlyobsoleteauditandnext176/177ordinaryENDactual177/178.",
+    "delivery": "2newuneditedinlineimages+actualFAILknownissues/BBCode. Saved178685221B SHA0fbb18e834cbcc1b642272635f8c627e0352b55ff7a8f1330f119ff7a412623f, no178reloadpass. Source/install/runtime78unchanged, Steam0online/upload/Alpha74unchanged."
+  },
+  "generic_lessons": [
+    "An initial creation and save/reload result do not establish sustainable ownership. Observe later ownership before calling autonomous settlement quality passed.",
+    "Confirm special player identity from current configuration, not a numeric slot or prior memory. City full IDs can change on transfer; retain the physical site and verify both inventories and visible current ownership.",
+    "A candidate that compiles can still contradict its stated unknown-result policy. Exercise missing actor with delayed effect, and present actor with an unrelated effect, before adopting a consumed-unit receipt.",
+    "After exact observer cleanup, update the verification consumer to stop reading removed hooks. A later diagnostic failure does not justify replaying an earlier known-successful game action."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Actual same inherited 77trained/78route settlement loyalty loss only; not fresh full78campaign, not a verified pre-found prediction API or fixed selection. Product78 unchanged; receipt and selection fixes continue. No all40/fullTC015017/178reload/Steam78release."
+}
