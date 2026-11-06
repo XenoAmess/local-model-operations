@@ -1,0 +1,207 @@
+{
+  "schema": "local-model-operations.http-m7-worker-binder-concurrency-data/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "project": "CK3",
+  "at_utc": "2026-11-06T16:19:07.135958+00:00",
+  "task_id": "m7-public-save-worker-binder-concurrency-data-20261107-01",
+  "source_owner_role": "M6 carrying M7 concurrency regression",
+  "input": {
+    "manifest_pin": {
+      "bytes": 4511,
+      "sha256": "32fa3a896ed3c44928e8d56b00316022cb5897f4bea64146364f62dea1c0c5ab"
+    },
+    "complete_input_files": 4,
+    "complete_Java_files": 4,
+    "target_existing_Test_Java": 1,
+    "context_Java": 3,
+    "actual_Controller_Java": 1,
+    "fixed_Loop_candidate_Java_not_current_Runtime": 1,
+    "formal_Test_and_softwareFixture_reference_Java": 2,
+    "full_source_bytes": 329443,
+    "full_contract_raw_pin": {
+      "bytes": 5528,
+      "sha256": "271b04d9aea7b5e45e4636f4c66e14fff3dee2072b52dc85116a5cf2a0ee710c"
+    },
+    "actual_message3_UTF8_pin": {
+      "bytes": 5528,
+      "sha256": "271b04d9aea7b5e45e4636f4c66e14fff3dee2072b52dc85116a5cf2a0ee710c"
+    },
+    "inputs_plus_contract_bytes": 334971,
+    "all4_full_ordered_inputs_once": true,
+    "full_original_TASK_message3": true,
+    "REQUEST_pin": {
+      "bytes": 342854,
+      "sha256": "9b0881a7e61e429ce2a973fd3f3c443c18f787738d178f335374a21ae3c53761"
+    },
+    "source_message_pin": {
+      "bytes": 330839,
+      "sha256": "a510a97495ea0270f6689a016ccdc8e94e58678375c74c02df1a53cb05ad44a2"
+    },
+    "ordered_roles_and_pins": [
+      {
+        "role": "fixed_Loop9487_new_hook_candidate_NOT_Runtime",
+        "owner_manifest_source_role": "fixed new Loop candidate9487 internalhook ABI, not runtime adopted",
+        "bytes": 55989,
+        "sha256": "9487b267e171bd6f4194d33dd4c1a0c0718cdee5c6f59db23603d6488a6dc6a3",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "actual_Controllerda4d",
+        "owner_manifest_source_role": "actual current Controller da4d, actual running CAS/binder/stop semantics",
+        "bytes": 134713,
+        "sha256": "da4d6d691fb2504a492bbc52d7af2810887992e2111f00355934cb4032a1ebd8",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "target_formal_RootLoopTeste5e8_DATAtemplate_NOT_Runtime",
+        "owner_manifest_source_role": "complete existing formal Test template and private helpers, DATA only not runtime graph",
+        "bytes": 21571,
+        "sha256": "e5e84f4b5f9a887f4ec64af8ed974f69727c3ecc8f0b38f48218134ef9067513",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      },
+      {
+        "role": "formal_ActionWriterFixture7b27_publicsoftwareproducer_NOT_Root_permission",
+        "owner_manifest_source_role": "complete existing software writer/Driver fixture publicproducer, formal template not actualRoot permission",
+        "bytes": 117170,
+        "sha256": "7b271da6a8fca5f0d871a62f361792f1820891bafc6e3067d91813f1c5196899",
+        "full_LF_text_occurrences": 1,
+        "whole_text_present": true,
+        "original_input_rawpins_equal": true
+      }
+    ]
+  },
+  "owner_precise_contract": {
+    "output": "JSON only complete_java with two complete new noarg Test methods in existing RootOrdinaryWorkerLoopTest; no wholeclass/import/helper/oldmethod changes, fully qualify new concurrency types.",
+    "first_case": "Use legitimate public SessionController.runBatch and existing software ActionWriterIntegrationFixture action observer to hold real running=true; actual Loop must enter new BatchCall hook while busy. Explicit bounded latches/futures/recorded order place TEST queuedpublicoperation before hook binder. Only after real batch/queued DATA work ends, hook binds actual controller stop supplier and returns same-identity synthetic OPERATOR_STOP report. Old eager outside binder fails before hookEntered.",
+    "test_gate_limit": "TEST fair ReentrantLock is ordering DATA, not actual Root.calls/Native SAVE or permission proof. No fakeRoot/lease/runningstate/reflection/Unsafe/JDKfairness-as-product argument. No second actual action or SAVE.",
+    "second_case": "Default BatchCall overriding only legacy batch must bind and call it once; counting supplier not evaluated at binding/legacy callback. Actual later controller run uses original stop checks to end OPERATOR_STOP before observer/dispatch/SAVE. No invented counters/accessors.",
+    "cleanup": "Ten-second bounded awaits/futures, explicit synchronization rather than sleeps, release all futures/latches/fixture in finally and preserve original errors. Existing public DATA fixture/record recipe only.",
+    "guidance": "Owner provides current callback/fixture paths, precise old-binder regression condition, new hook/ordering/default/laziness matrix. Genuine independent Test unit, not117R2 or blind independent Root authority discovery; owner source/type/Runtime separately qualifies."
+  },
+  "Nov07_maintenance_before_first_POST": {
+    "entry": "Shared canonical check_opencode.py ensure entry with common state-dir",
+    "started_at_utc": "2026-11-06T16:10:02.906213+00:00",
+    "ended_at_utc": "2026-11-06T16:10:08.080694+00:00",
+    "elapsed_seconds": 5.174477700027637,
+    "exit_code": 0,
+    "cache_before_date": "2026-11-06",
+    "cache_after_date": "2026-11-07",
+    "checked_at_local": "2026-11-07T00:10:08.065300+08:00",
+    "cache_hit": false,
+    "installed_before": "1.19.5",
+    "installed_version": "1.19.5",
+    "registry_latest": "1.19.5",
+    "target_version": "1.19.5",
+    "updated": false,
+    "cache_after_pin": {
+      "bytes": 517,
+      "sha256": "b91057122e2bc689fbfc825e5abd81fc0f261579a596a56a621d8c5f7ec6569e"
+    },
+    "maintenance_result_pin": {
+      "bytes": 2270,
+      "sha256": "86921ca01fcbf197f65c615eebc4b95c31523de3ea560707fdfe6603d0381ea8"
+    },
+    "stdout_pin": {
+      "bytes": 511,
+      "sha256": "90b6f4828305a8281f2e1ab5f05353812422450307c23905fb686e9b5d04f823"
+    },
+    "stderr_pin": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "model_generation_POST": 0,
+    "OpenCode_native_generation": 0,
+    "old_tasks_replayed": 0,
+    "active_Runtime_caller_config_changed": false,
+    "independent_HTTP_child_maintenance_report": "NOT_HELD; pinned canonical CLI guards and successful common cache before POST, parent environment recorded. Do not claim a separately observed child cache-hit report."
+  },
+  "POST_BEGIN_UTC": "2026-11-06T16:11:52.384162+00:00",
+  "END_UTC": "2026-11-06T16:12:21.736442+00:00",
+  "local_day_POST_END": "2026-11-07",
+  "UTC_event_day": "2026-11-06",
+  "POST": 1,
+  "paired_END": 1,
+  "retry": 0,
+  "parameters": {
+    "model": "qwen38-coder",
+    "model_sha256": "a6b944db6e3f1f831a9b54c8100063c4e5b82c955132630b0a7323ceeed1642b",
+    "temperature": 0,
+    "max_tokens": 7000,
+    "stream": true,
+    "include_usage": true,
+    "thinking": false,
+    "response_format_type": "json_object"
+  },
+  "HTTP_status": 200,
+  "finish_reason": "stop",
+  "DONE": true,
+  "candidate_complete": true,
+  "JSON_syntax": {
+    "status": "VALID",
+    "top_level_type": "object",
+    "reason": "COMPLETE_STOP_JSON",
+    "error": null,
+    "offset_units": "Unicode code points",
+    "max_utf8_bytes": 1048576,
+    "semantic_review": "OWNER_REVIEW_REQUIRED"
+  },
+  "headers_ms": 8706.497799954377,
+  "effective_content_TTFT_ms": 8707.361299952026,
+  "total_ms": 29352.284199965652,
+  "reported_usage": {
+    "prompt_tokens": 67801,
+    "completion_tokens": 3599,
+    "total_tokens": 71400
+  },
+  "cached_tokens": null,
+  "actual_peer": "UNKNOWN",
+  "RESULT_pin": {
+    "bytes": 1330,
+    "sha256": "11c2026b7132bcc2beeecaad2f950a25f1f7ab97c450d1b437dd65e47292d24e"
+  },
+  "complete_CONTENT_pin": {
+    "bytes": 17988,
+    "sha256": "c08cf8ef150cc0d0cf836876bc1d6880c82ba44bd535b9e7ad0ba0b55be56cde"
+  },
+  "audit_errors": [],
+  "audit_discrepancies": [],
+  "CONTENT_equals_SSE_UTF8": true,
+  "raw_delivered_before_audit_Git": true,
+  "source_adoption_at_delivery_cut": {
+    "status": "PENDING_M6_OWNER_REVIEW",
+    "whole_method_partial_literal": "PENDING",
+    "model_JVM_compile_RUN": 0,
+    "R2": 0
+  },
+  "operations": {
+    "readonly_queue": {
+      "dispatch.db": {
+        "COMPLETED": 538
+      },
+      "leases.db": {
+        "RELEASED": 538
+      }
+    },
+    "READY_g0005_records_not_concurrency": 22,
+    "source_HTTP_inflight_after_END": 0,
+    "finite_dispatcher_returned_normally": true,
+    "caller_exit": 0,
+    "Models_JVM_SDK_C_GET_Game_JFR_stockIO": 0,
+    "business_model_decision_HTTP": 0,
+    "active_caller_config_service_Runtime_changed": false,
+    "global_service_load": "NOT_HELD",
+    "net_owner_active_time_savings": null
+  },
+  "limits": [
+    "Maintenance5.174s/version check is outside model HTTP/TTFT and does not prove source/Test/Native permission or OpenCode native generation. No extra generation or replay to perform the daily check.",
+    "Complete200STOP/JSON/audit0 only transport/syntax, not two-method semantics/coverage/adoption/compile/2P/concurrency result. TEST gate is not actual Root.calls/queued SAVE authority or product fairness.",
+    "Current actual Controller vs fixed Loop candidate and formal Test/Fixture roles preserved. No actual Game/SAVE/M7/G2/speed credit.",
+    "118 genuine independent meaningful new regression, not117R2. No119 task held; old length CONTENT/rawSSE remain wholly unread/unparsed/unextracted/unhashed zero adopted/noR2. No quota/active configchange."
+  ]
+}

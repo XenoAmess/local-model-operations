@@ -4241,3 +4241,12 @@ fixed3/DIRECT/max2800/temp0/thinkingfalse/jsonobject/SSEusage，15:48:27.451813�
 
 
 117后到2223B/cae66b5d正式源审VALID_TWO_COMPLETE_METHODS_NOT_ADOPTED_OWNER_PRESEALED：旧null路线无多余绑定，新binder在同lock内owner/noPending之后、原deadline/transport/controller/afterTurn之前，supplier未求值、失败finally释放，0save/stop/reset/permission变化。owner Ready4258B/517ef于15:43:53.445939Z独立封源，早于15:48:27.451813POST，0complete-method/partial/code/rawJVM/noR2，不列语义拒收。fairfield全owner投影，旧交付pending与封源时compile/runtime未采用、旧SAVE在途切点保留；本方法源审不授当前实际SAVE或公平性收益。
+
+
+## 2026-11-07：Source118 有实际 Controller 并发的 worker binder 回归候选
+
+新独立Test118非117R2：四完整Java329443B＋原TASK5528B实REQUEST全核。actual Controllerda4d、fixedLoop9487 hook候选、formal RootLoopTest/软件Fixture两完整DATA配方分别标明，不冒Runtime图。仅插两newnoarg方法；合同要求真实public Controller.runBatch在软件observer内保持running时实际Loop先进入newhook，queued DATA operation后才hook binder，旧outsidebinder会在hook前失败；另default旧bind+batch一次与supplier只在原Controller stopchecks求值。TEST fairgate只排序DATA，不当Root.calls/Native SAVE/私Root权限证明；全部bounded futures/latches/finally清理，0fakeRoot/reflection/新Game/SAVE。
+
+Nov7真实任务入口先完成共享每日维护：Nov6cache miss→Nov7成功，installed/registry/target1.19.5、updatedfalse、实际5.1744777秒/exit0/stderr0，00:10:08+08留缓存后才POST。此为客户端维护、0模型generation/原任务重发，不能算模型TTFT或原生OpenCode生成；单独HTTP子进程cache-hit报告NH，不猜隐藏环境结果。
+
+本地Nov7（UTC Nov6）16:11:52.384162→16:12:21.736442Z，fixed3/DIRECT/max7000/temp0/thinkingfalse/jsonobject/SSEusage，真1POST/1END/0retry、200/stop/DONE/JSONvalid/complete，29.3522842秒/有效TTFT8.7073613秒/reported67801+3599/cachednull/peerUNKNOWN。完整CONTENT17988B/c08cf8ef与SSE UTF8一致/audit差异空，原件先交owner再audit/Git；交付method/partial/literal采用PENDING、0modelJVM/noR2，不授并发覆盖/2P或actualRoot公平性/SAVE/M7。[完整来源、任务、维护与生成分账](evidence/2026-11-07-http-m7-worker-binder-concurrency118.json)。只读538COMPLETED/538RELEASED、g0005二十二READY非并发、source0；0新JVM/Game/probe/活跃参数改，旧length全文/SSE仍整份未读未hash，不造119。
