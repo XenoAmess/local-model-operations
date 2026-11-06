@@ -1,0 +1,135 @@
+{
+  "schema": "local-model-operations.http-m7-concurrency118-later-source-partial/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "project": "CK3",
+  "at_utc": "2026-11-06T16:38:21.383546+00:00",
+  "task_id": "m7-public-save-worker-binder-concurrency-data-20261107-01",
+  "original_delivery_case": "2026-11-07-http-m7-worker-binder-concurrency118.json",
+  "original_delivery_PENDING_cut_preserved": true,
+  "review_pin": {
+    "bytes": 2874,
+    "sha256": "9586261be08509301d1929b013868783b217803f5c368ee162fae4be3354a2a9"
+  },
+  "review_at_utc": "2026-11-06T16:22:30.647194+00:00",
+  "verdict": "CASE1_NEW_LOGIC_REJECTED_OWNER_REWRITTEN_CASE2_SMALL_NEW_DEFAULT_LOGIC_PARTIAL",
+  "reasons": [
+    "Case1 testGate declared unused/nonfair; no actual serialization/queue ordering.",
+    "Standalone CompletableFutures only completeExceptionally, never completed on success then unbounded join; real submit Futures discarded.",
+    "queuedCalls asserted1 before queuedRelease, contradicts blocked callback; worker starts before observer/running gate.",
+    "CountDownLatch.await(Duration) not Java21 API, unbounded checked callback await placed outside its exception translation.",
+    "Case2 supplier returnsfalse then asserts actual OPERATOR_STOP; fixedtrue and lazy check inside callback, later Controller evaluation checked.",
+    "nativeActionWrites exists in full supplied fixture; not an API error. Old fixture boilerplate copied from input is not new contribution."
+  ],
+  "adoption": {
+    "complete_methods": 0,
+    "first_case_new_logic": 0,
+    "second_case_partial": 1,
+    "wholeclass": 0,
+    "model_JVM": 0
+  },
+  "first_case_owner_rewrite_new_logic_model0": true,
+  "second_case_partial_scope": "Only new default-call segment, not whole second method or old fixture setup; owner false->true supplier and lazy callback/later Controller checks added.",
+  "partial_before_pin": {
+    "bytes": 1920,
+    "sha256": "9981a8d9ca20985e88ea2162193c0489c1c0cbb8c2b9e9fa8e95ba6ccf1a4648"
+  },
+  "partial_after_pin": {
+    "bytes": 2129,
+    "sha256": "b7a04ff9eadf0fdea1a6d42a0bb8a6b9dfc594082ca930f64f8b0aa5aa01b0e2"
+  },
+  "before_fragment_exact_once_in_complete_model_code_LF": true,
+  "after_fragment_exact_once_in_owner_Test_LF": true,
+  "matching_lines": 21,
+  "matching_units": "matching lines include blanks, not effective LOC/time; copied old fixture setup excluded",
+  "matching_not_effective_LOC_percentage_or_time": true,
+  "owner_SourceReady_pin": {
+    "bytes": 3198,
+    "sha256": "e52a62e8b2f36058c61375ed7d10c49ee1703e210b688da30f3b51bebe96f61c"
+  },
+  "owner_SourceReady_at_utc": "2026-11-06T16:22:30.660657+00:00",
+  "owner_final_Test_pin": {
+    "bytes": 41954,
+    "sha256": "0da3f983ae6ac13ca974d1ecf9954be7eafbc0ca5792e99f277bf0ec90874016"
+  },
+  "original_full_Test_template_pin": {
+    "bytes": 21571,
+    "sha256": "e5e84f4b5f9a887f4ec64af8ed974f69727c3ecc8f0b38f48218134ef9067513"
+  },
+  "owner_raw_inverse_pin": {
+    "bytes": 21561,
+    "sha256": "edd7865756543d24d2bb354b305160c116e2309ae1f7ee0098be3b77da89c950"
+  },
+  "old13_methods_Fixture_imports_whole_raw_unchanged": true,
+  "old13_methods_RUN": 0,
+  "new_selectors": [
+    "org.xar.ck3.control.service.root.RootOrdinaryWorkerLoopTest#workerDelegatesStopBindingToBatchCallHookUnderConcurrentControllerWork",
+    "org.xar.ck3.control.service.root.RootOrdinaryWorkerLoopTest#defaultBatchCallRetainsLegacyBindingAndLazyStopSupplier"
+  ],
+  "owner_software_state_at_SourceReady_cut": {
+    "independent": "PENDING",
+    "compile": "NOT_RUN",
+    "behavior": "NOT_RUN"
+  },
+  "owner_privateRoot_permission_status": "NOT_GRANTED; no reflection/privateissuer/ThreadLocal/running setter/native Game used",
+  "cost": {
+    "total_ms": 29352.284199965652,
+    "ttft_ms": 8707.361299952026,
+    "usage": {
+      "prompt_tokens": 67801,
+      "completion_tokens": 3599,
+      "total_tokens": 71400
+    },
+    "retry": 0
+  },
+  "scope": "Public Controller running and worker routing DATA. Fair test gate is not Root calls; no privateRoot/lease/NativeSAVE/real fairness permission proven.",
+  "new_HTTP_maintenance_JVM_Game_GET_probe": 0,
+  "R2": 0,
+  "raw_model_JVM": 0,
+  "actual_javac_or_JUnit_red_claimed": false,
+  "public_concurrency_or_Root_calls_SAVE_permission_granted": false,
+  "limits": [
+    "Case1 new concurrency logic rejected and fully rewritten by owner; case2 only small new default segment partially retained, whole/complete methods0. This is not all-reject or whole-method adoption.",
+    "Reported defects are source review, not actual compiler/Test red. nativeActionWrites exists in complete fixture and is not an invented API.",
+    "21 matching lines include blanks and exclude old copied fixture setup; no effective LOC/code percentage/time saved claim.",
+    "Owner final source-ready41954 and rawinverse preserve old13/Fixture/imports; independent p0 and compile/behavior NOT_RUN at this cut. No automatic Native request or wait-Git gate.",
+    "TEST fair gate is public ordering DATA, not actual Root.calls/Native SAVE/private authority or real fairness proof; no Runtime/M7/G2/SAVE/speed acceptance.",
+    "Original delivery pending/Nov7 maintenance/complete STOP costs preserved, no R2/maintenance/generation/JVM/Game for this additive review.",
+    "Later independent finite SOURCE PASS and owner posthoc are separately pinned; original SourceReady PENDING preserved. No compiler/Test outcome or private Root.calls fairness/live SAVE permission follows from source review."
+  ],
+  "later_independent_source_review": {
+    "independent_review_pin": {
+      "bytes": 5452,
+      "sha256": "eceda8c41b34f861dae28b4d81385b1a7e2685f908761dd56d53f08f84099bf7"
+    },
+    "owner_posthoc_pin": {
+      "bytes": 1203,
+      "sha256": "c3b0d1eae083fc23cb2025fc1942fe585eb20f4d99e8775e1e63b95e1ce9729a"
+    },
+    "owner_posthoc_at_utc": "2026-11-06T16:39:10.070293+00:00",
+    "independent_artifact_has_no_review_timestamp": true,
+    "result": "FINITE_SOURCE_PASS",
+    "owner_source_verdict": "PASS_PUBLIC_CONTROLLER_ROUTING_DATA_ONLY",
+    "all5_named_input_pins_checked": true,
+    "same_final_owner_Test_pin": {
+      "bytes": 41954,
+      "sha256": "0da3f983ae6ac13ca974d1ecf9954be7eafbc0ca5792e99f277bf0ec90874016"
+    },
+    "original_SourceReady_PENDING_cut_preserved": true,
+    "old13_Fixture_imports_unchanged": true,
+    "public_Controller_running_and_new_hook_source_frontier": "Actual public software Controller.runBatch reaches observer and isRunning assertion. Old eager binder fails before hook; new Loop reaches hook while original Controller remains running.",
+    "bounded_cleanup_source_frontier": "All latch/future/spin/join waits bounded; finally releases latches, cancels incomplete work and preserves interruption/original errors.",
+    "default_laziness_source_frontier": "Production default delegates legacy batch without evaluating supplier; later actual Controller stop checks report OPERATOR_STOP with zero software writes/work.",
+    "default_binder_once_limit": "Exactly one binder call is established by separately reviewed production default source, not an independent binder counter in this Test.",
+    "TEST_gate_not_actual_Root_calls_fairness": true,
+    "compile_at_owner_posthoc_cut": "NOT_STARTED_AT_THIS_OWNER_CUT",
+    "behavior_at_owner_posthoc_cut": "NOT_RUN_AT_THIS_OWNER_CUT",
+    "new_compile_RUN_HTTP_Game_for_this_review": 0,
+    "not_granted": [
+      "actual Root calls fair ordering",
+      "private Root issuer or SAVE permission",
+      "actual Native transport or Game",
+      "current runtime adopted serialization",
+      "M7/G2 completion"
+    ]
+  }
+}

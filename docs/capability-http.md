@@ -4250,3 +4250,13 @@ fixed3/DIRECT/max2800/temp0/thinkingfalse/jsonobject/SSEusage，15:48:27.451813�
 Nov7真实任务入口先完成共享每日维护：Nov6cache miss→Nov7成功，installed/registry/target1.19.5、updatedfalse、实际5.1744777秒/exit0/stderr0，00:10:08+08留缓存后才POST。此为客户端维护、0模型generation/原任务重发，不能算模型TTFT或原生OpenCode生成；单独HTTP子进程cache-hit报告NH，不猜隐藏环境结果。
 
 本地Nov7（UTC Nov6）16:11:52.384162→16:12:21.736442Z，fixed3/DIRECT/max7000/temp0/thinkingfalse/jsonobject/SSEusage，真1POST/1END/0retry、200/stop/DONE/JSONvalid/complete，29.3522842秒/有效TTFT8.7073613秒/reported67801+3599/cachednull/peerUNKNOWN。完整CONTENT17988B/c08cf8ef与SSE UTF8一致/audit差异空，原件先交owner再audit/Git；交付method/partial/literal采用PENDING、0modelJVM/noR2，不授并发覆盖/2P或actualRoot公平性/SAVE/M7。[完整来源、任务、维护与生成分账](evidence/2026-11-07-http-m7-worker-binder-concurrency118.json)。只读538COMPLETED/538RELEASED、g0005二十二READY非并发、source0；0新JVM/Game/probe/活跃参数改，旧length全文/SSE仍整份未读未hash，不造119。
+
+
+## 2026-11-07：118 后到源审，case1 逻辑不采用／case2 局部 partial
+
+正式2874B/9586261b：0whole/complete-method，第一新并发logic0、owner100有界重写；第二方法仅新default-call末段partial，不全拒也不整method采用。case1原gate未实际公平串行、成功Future从未complete却join、queued释放/启动顺序矛盾、CountDownLatch.await(Duration)非Java21接口与callback受检await；case2 false supplier却期望OPERATOR_STOP，owner改true并补lazy与later Controller核。nativeActionWrites在实际完整fixture存在，不虚指API错，旧fixtureboilerplate不算新贡献。
+
+before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确在ownerTest一次；21 matching行含空行，不作LOC／采用比例／节时。owner最终Test41954B/0da3f983、Ready3198B/e52a、inverse21561B/edd78657，ownedinsert移除后raw逆回21571B/e5e8，旧13methods/Fixture/imports全保且0RUN。[源审、精确局部与SourceReady切点](evidence/2026-11-07-http-m7-binder118-source-partial-review.json)。独立p0PENDING/compile-behavior NOT_RUN、rawmodelJVM0/noR2，不授actualRoot.calls公平性/Native SAVE/私权限；原29.352秒完整STOP/维护及交付PENDING不回改，0新HTTP/维护/编测/Game，不门Native后继。
+
+
+118 后到独立源码审阅5452B/eceda8c4与owner后见1203B/c3b0d1ea已核，五个具名输入pin一致，最终Test仍0da3。FINITE_SOURCE_PASS只认public Controller真实running→worker hook、TEST gate有界排序/清理及default lazy stop路线；默认binder一次来自另审production default源码，本Test无独立binder计数。原Ready e52a的PENDING切点保，后见16:39:10Z仍compile NOT_STARTED/behavior NOT_RUN；0实际Root.calls公平性、SAVE权限、Game/Runtime/M7验收，0新增HTTP/维护/JVM。
