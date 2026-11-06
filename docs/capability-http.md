@@ -3915,3 +3915,10 @@ fixed3/DIRECT/max12000/temp0/thinkingfalse/jsonobject/SSEusage，01:57:03.544185
 实际owner review2936B/ac386bd7全拒：五个oldspan换行归一各恰一处，但先排除所有unsettled自拒本目标Unknown；sessionId错作batchPrefix；parent-only冒完整canonical children、猜child ID并错比父子body hash；还缺ActionCommand导入并捕获非effectively-final局部。另把child fresh-negative reason放在parent匹配、吞真实失败和遗留旧Loop report，均不能因完整stop或span命中授正确。whole/method/partial/literal/rawJVM/R2全0，这是源码逻辑/声明审拒，未运行raw编译器/JUnit，不记实际compiler红。
 
 交付待审原页/原JSON不改；owner独立SourceReady4811B/fe632、候选50768B/7f369五span在其首次读raw前已写，Java/Root另报sourcePASS及必要onlyLoop1TU0/11CF/10.9701秒。该owner首编本岗未重编或重验binary，不回授模型代码；尚无warm实机采用/恢复metric、冷启避免/提速或SAVE，另P068 loader/BOOT也不混入。原1POST/1END、47.5342472秒/TTFT18.0633514秒和140230+5182成本保留。[精确review pin、六项失败和零采用分账](evidence/2026-11-06-http-original-life-warm-observation103-source-review.json)。本次只文档后见，0新POST/JVM/Game/探测/noR2，旧length全文持续未读未hash；无104真实需求不制造调用。
+
+
+## 2026-11-06：Civ6district455
+
+455 once200/DONE/length2500整弃，0半稿读取/拼接/采用/重试；owner复用已核reader和observer，0新产品测试或代码。正常160→165WuhanWater3342385完成/接续/正式重载，Chengdu增长后162新Harbor仍在建。CitySDK首次guard错误后owner违规继续导致160161漏窗，公开缺口不补0；实际16116516BUILD/4district均合法，45events。4图内嵌，早Ready与容量延迟、投票/结果及loading拒输入分账。累计455/423/29/3 HTTP485/extra30，0新OpenCode/未知成本null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-district455.json)。
