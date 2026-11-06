@@ -4204,3 +4204,10 @@ fixed3/DIRECT/max5500/temp0/thinkingfalse/jsonobject/SSEusage，13:42:44.905100�
 82natural156found/157productionPASSnarrow,actualtimedARMEDsavepersistedbut156live14city→ordinary158stilllive14cityARMED/noFouReplay. 3rawimages/healthy+failurehashcheckpoints/allQArestored.476stop8746tokens5.5546311s0retry/whole0protocolNativeadopt,strictproofsretained. NativeCoreemittermissing/queueinternalsunknown. Through476476/443/30/3 HTTP506extra30/0OpenCodegenunknownnull/Steam0online-uploadAlpha74unchanged.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settlement82-lifecycle.json)。
+
+
+## 2026-11-06：Civ6settlement477
+
+477 actual Core current-unit operation getters false/-1 at158 while ARMED persists. Typed readonly facts only; no replay grant or recovery patch. Raw candidate0adopt/11of16fail, independent owner16pass. Through477444complete/30length/3transport/HTTP507, no new OpenCode generation, Steam0/Alpha74 unchanged.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settlement477.json)。

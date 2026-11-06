@@ -1,0 +1,198 @@
+{
+  "schema": "local-model-operations.civ6-settlement477/v1",
+  "utc": "2026-11-06T15:05:41.054305+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/7fc84fbe92eb743c5c80b17316dc9d7c8f5c500c/docs/research/baiqi-p6-settlement477-operation-read-evidence-2026-11-06.json",
+    "sha256": "64037124e8563437fc690d171ccdceb8ce9399423bee38ebfb9fe1c68d2688d5"
+  },
+  "model": {
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "attempts": 1,
+    "extra_retries": 0,
+    "usage": {
+      "prompt_tokens": 1896,
+      "completion_tokens": 791,
+      "total_tokens": 2687
+    },
+    "ttft_ms": 530.9019000269473,
+    "total_ms": 5317.309599951841,
+    "shared_commit": "eca6b1aa6b567be3edfd7d4af94cb5c669858bae",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "review": {
+      "utc": "2026-11-06T14:53:39.722611+00:00",
+      "raw_compile": true,
+      "raw_cases": {
+        "typed-no-operation-fact-not-grant": {
+          "passed": false
+        },
+        "typed-pending-operation": {
+          "passed": false
+        },
+        "unknown-never-defaults-false": {
+          "passed": false
+        },
+        "getter-error-protected": {
+          "passed": false
+        },
+        "fractional-operation-rejected": {
+          "passed": false
+        },
+        "nan-operation-rejected": {
+          "passed": false
+        },
+        "infinite-operation-rejected": {
+          "passed": false
+        },
+        "numeric-pending-not-boolean": {
+          "passed": false
+        },
+        "large-id-never-native": {
+          "passed": true
+        },
+        "negative-id-never-native": {
+          "passed": true
+        },
+        "alias-no-op-read": {
+          "passed": true
+        },
+        "foreign-owner-no-op-read": {
+          "passed": true
+        },
+        "wrong-type-no-op-read": {
+          "passed": true
+        },
+        "missing-J-protected": {
+          "passed": false
+        },
+        "invalid-object-id-not-returned": {
+          "passed": false
+        },
+        "metadata-fresh-plain": {
+          "passed": false
+        }
+      },
+      "raw_failed": 11,
+      "owner_cases": {
+        "typed-no-operation-fact-not-grant": {
+          "passed": true
+        },
+        "typed-pending-operation": {
+          "passed": true
+        },
+        "unknown-never-defaults-false": {
+          "passed": true
+        },
+        "getter-error-protected": {
+          "passed": true
+        },
+        "fractional-operation-rejected": {
+          "passed": true
+        },
+        "nan-operation-rejected": {
+          "passed": true
+        },
+        "infinite-operation-rejected": {
+          "passed": true
+        },
+        "numeric-pending-not-boolean": {
+          "passed": true
+        },
+        "large-id-never-native": {
+          "passed": true
+        },
+        "negative-id-never-native": {
+          "passed": true
+        },
+        "alias-no-op-read": {
+          "passed": true
+        },
+        "foreign-owner-no-op-read": {
+          "passed": true
+        },
+        "wrong-type-no-op-read": {
+          "passed": true
+        },
+        "missing-J-protected": {
+          "passed": true
+        },
+        "invalid-object-id-not-returned": {
+          "passed": true
+        },
+        "metadata-fresh-plain": {
+          "passed": true
+        }
+      },
+      "owner_unique_cases": 16,
+      "owner_sha256": "43e5296eef812b327890d32eafa863e4fa61fddcafe8a13d77ef08161d0dc1ba",
+      "whole_raw_adoption": 0,
+      "raw_Native_execution": 0,
+      "owner_scope": "Independentread-onlyoneownsettleroperationgetterprobe;notmodfix,notretrypermission",
+      "raw_defects": [
+        "Unitrowtablecomparedtoliteralstringrejectsvalidsettlerbeforegetters.",
+        "Noerrorprotection;missingJ/getterexceptionsescape.",
+        "UNKNOWNdefaultspendingfalse/op-1andcopiesinvalidinputobjectid.",
+        "Operationnumberlacksintegercheck."
+      ],
+      "usage": {
+        "prompt_tokens": 1896,
+        "completion_tokens": 791,
+        "total_tokens": 2687
+      },
+      "ttft_ms": 530.9019000269473,
+      "total_ms": 5317.309599951841,
+      "cumulative_through477": {
+        "logical_tasks": 477,
+        "complete_stop_valid": 444,
+        "length": 30,
+        "final_transport_failures": 3,
+        "http_attempts": 507,
+        "extra_retries": 30,
+        "opencode_native_generation": 0,
+        "cached_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null
+      }
+    },
+    "whole_code_adopted": false,
+    "raw_native_execution": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 477,
+    "complete_stop_valid": 444,
+    "length": 30,
+    "final_transport_failures": 3,
+    "http_attempts": 507,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "product": "Source82 unchanged; public project receipt 7fc84fbe92eb743c5c80b17316dc9d7c8f5c500c remote verified. No product patch.",
+    "native": "Actual Core own settler8650807 at turn158: HasPendingOperations=false, GetOperationType=-1, persistent stage still ARMED. Pure read, zero commands or property writes. Reflection qualified method existence; no operation parameter or name lookup invoked.",
+    "limits": "No positive pending-operation comparison yet; negative current-unit queue getters do not establish absence from every network/input queue and do not grant replay. Core RequestOperation/CanStartOperation remain absent; event signatures/order/serialization unknown.",
+    "candidate": "477 stop valid 1896+791=2687 tokens, 5.3173096s, 0 retry. Raw compiled but failed11of16 contracts: row-table/string comparison, unprotected exceptions, UNKNOWN defaults, fractional numbers. Whole raw adoption0 and raw Native execution0. Independent owner reader16of16 passed before actual Native read.",
+    "accounting": "Through477 logical477/complete444/length30/finaltransport3/HTTP507/extra30; OpenCode native generation0, unknown costs/cache/savings null.",
+    "release": "Steam online0/upload0, public Alpha74 unchanged; shared write does not constitute release or recovery fix."
+  },
+  "generic_lessons": [
+    "A native getter that returns a typed negative fact only describes its qualified scope; establish positive queued-operation behavior before deriving a wider queue model.",
+    "Do not treat absence from a unit operation queue as proof that a command cannot still be in an input or network queue.",
+    "UNKNOWN metadata must not default to false or a no-operation sentinel, and native numeric operation facts require finite integer validation.",
+    "Compare the actual database row field to a type name, not the row object itself; validate the consumer contract before running a model candidate.",
+    "A method reflection list is not permission to call native mutators or map unqualified operation indices into engine name tables."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Single held own settler current-operation negative facts. Positive pending comparison, input/network queue coverage, safe retry, new-game migration, complete recovery and Steam publication remain unaccepted."
+}
