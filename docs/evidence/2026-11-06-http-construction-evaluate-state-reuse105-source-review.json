@@ -1,0 +1,129 @@
+{
+  "schema": "local-model-operations.http-construction-evaluate-state-reuse-source-review/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-06T04:30:22.787996+00:00",
+  "project": "CK3",
+  "task_id": "construction-one-evaluate-prequery-state-reuse-20261106-01",
+  "prior_delivery_evidence": "2026-11-06-http-construction-evaluate-state-reuse105-delivery.json",
+  "prior_delivery_pin": {
+    "bytes": 8781,
+    "sha256": "02aa61077957ea7db83ac28248306c1e01fb4464e1d957085c80f9945129e85d"
+  },
+  "prior_delivery_commit": "51378ba5302b13c2d609bb5b16dacd26556c40d6",
+  "delivery_pending_cut_preserved": true,
+  "owner_review_pin": {
+    "bytes": 2082,
+    "sha256": "eed231b72c8c1c111d476b9f2f3f7daeba6e9ffb66d0deace277217d55237ad0"
+  },
+  "owner_review_at_utc": null,
+  "owner_review_timestamp_note": "No review at_utc field supplied; addendum timestamp is operational recording time, not invented review time.",
+  "complete_CONTENT_pin_from_prior_complete_stop_audit": {
+    "bytes": 5237,
+    "sha256": "bbb8431f6f41020a1e8dd90b4c28220c726183c6d860b86a2cc0f0d5d8f60803"
+  },
+  "source_prefix_actual_request_and_parameters_unchanged": true,
+  "decision": "REJECT_ALL",
+  "all_operations": [
+    {
+      "operation": 1,
+      "old_count_in_normalized_current": 1,
+      "adoption": "REJECTED",
+      "new_equals_old": false
+    },
+    {
+      "operation": 2,
+      "old_count_in_normalized_current": 1,
+      "adoption": "REJECTED",
+      "new_equals_old": false
+    },
+    {
+      "operation": 3,
+      "old_count_in_normalized_current": 1,
+      "adoption": "REJECTED",
+      "new_equals_old": false
+    },
+    {
+      "operation": 4,
+      "old_count_in_normalized_current": 1,
+      "adoption": "REJECTED",
+      "new_equals_old": false
+    },
+    {
+      "operation": 5,
+      "old_count_in_normalized_current": 1,
+      "adoption": "REJECTED",
+      "new_equals_old": true
+    }
+  ],
+  "source_failures": [
+    "Collector-wide AtomicReference primes across evaluate calls and re-primes after every hit/query; no owned single-evaluate scope/finally or permanent invalidation.",
+    "Eligibility omits exact request identity/thread/borrowed Session identity and actual head sequence+digest. It dereferences absent Session when cached.",
+    "planningView copies cached Known across an ordinary view; no explicit Session/INTENT eligibility separation.",
+    "Policy operation is byte-identical no-op; ConstructionCollector wrapper is absent, so proposed evaluate scope is not installed."
+  ],
+  "adoption": {
+    "whole": 0,
+    "method": 0,
+    "partial": 0,
+    "literal": 0,
+    "code": 0,
+    "raw_JVM": 0,
+    "R2_or_retry": 0
+  },
+  "classification": "Complete-stop source review rejected the collector-wide state scope, re-prime/invalidation, missing identity checks and no-op policy. Five old spans each match, final operation is exact no-op. No raw compiler/JUnit ran; not actual compiler failure.",
+  "independent_owner": {
+    "ready01_pin": {
+      "bytes": 4807,
+      "sha256": "5eba02770911f3db3a6f96da2a97f24b28ff687ae9fb2db95ef96cd9bb8ccb12"
+    },
+    "ready01_at_utc": "2026-11-06T04:14:49.498424+00:00",
+    "ready01_status_at_its_cut": "SOURCE_ONLY_NOT_TYPED_NOT_LOADED",
+    "owned_spans": 9,
+    "producer_source_count": 3,
+    "source_after_pins": [
+      {
+        "bytes": 37682,
+        "sha256": "1842eb3e28338c01a4b894aad9c5c51cfbda453752a4f4a0ba9313735cf3ed4d"
+      },
+      {
+        "bytes": 28239,
+        "sha256": "0c31312c467efa83085f7e91c5a43a6bf8896ec483b3c5296f5243532c3fa323"
+      },
+      {
+        "bytes": 23400,
+        "sha256": "fc922cbb2f6229e29aac3b156cd3340409a11e1892ba665c98b1b1de0390f5dd"
+      }
+    ],
+    "owner_review_report": "SOURCE-READY01 had already been source-reviewed and compiled to39CF before reading this complete response. Model text never used as Java.",
+    "later_qualified_classfiles_reported_by_Java": 39,
+    "Models_independent_ACTUAL_binary_reaudit": false,
+    "new_DATA_test": "Java reports source-ready handed to Native; no actual test result held here. Owner implementation/test not model contribution.",
+    "actual_adoption_performance_or_saved_days": "NOT_HELD. Inclusive21.3524s/two-evaluations timing remains context only, no duplicate-cost attribution, net speedup or SAVE/G2 proof."
+  },
+  "original_HTTP_cost_unchanged": {
+    "POST": 1,
+    "END": 1,
+    "finish_reason": "stop",
+    "HTTP_status": 200,
+    "DONE": true,
+    "total_ms": 11809.7085999907,
+    "effective_content_TTFT_ms": 4747.217199997976,
+    "reported_usage": {
+      "prompt_tokens": 36512,
+      "completion_tokens": 1222,
+      "total_tokens": 37734
+    },
+    "max_tokens": 8000,
+    "cached_tokens": null
+  },
+  "this_addendum": {
+    "new_generation_POST": 0,
+    "Models_JVM_SDK_C_GET_Game_JFR_stockIO": 0,
+    "raw_candidate_apply_or_run": 0,
+    "R2": 0,
+    "active_caller_config_service_Runtime_changed": false,
+    "previous_length_CONTENT_rawSSE": "whole unread/unparsed/unextracted/unhashed; no old retry or semantic inference",
+    "next_business_task": "None held; no106/quota/probe generated",
+    "CK3_main_objective_complete": false
+  }
+}
