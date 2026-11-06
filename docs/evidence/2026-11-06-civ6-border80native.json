@@ -1,0 +1,117 @@
+{
+  "schema": "local-model-operations.civ6-border80native/v1",
+  "utc": "2026-11-06T07:34:09.614094+00:00",
+  "date_local": "2026-11-06",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/e7f41d63f513a7fe299fabc74a84b29d788ef514/docs/research/baiqi-p6-border80-native-pair-evidence-2026-11-06.json",
+    "sha256": "d2369e657ca3eb5623a4523abb34f0523d7b69bf48de03958bc5e0a2bcfeb7e7"
+  },
+  "model": {
+    "new_calls_this_package": 0,
+    "already_accounted_in": "docs/research/baiqi-p6-border80-software-evidence-2026-11-06.json",
+    "prior_result": {
+      "shared_commit": "fb1a2ad1e22e794756e9c8dc5c5d9cbcfa74fae0",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "attempts": 1,
+      "extra_retries": 0,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 51598,
+        "completion_tokens": 1378,
+        "total_tokens": 52976
+      },
+      "total_ms": 15781.30290005356,
+      "ttft_ms": 6684.134599985555,
+      "adoption": {
+        "utc": "2026-11-06T06:05:19.313391+00:00",
+        "helper_lua_compile": true,
+        "isolated_counterexamples": {
+          "near_owned_foreign_distance2": {
+            "threw": false,
+            "result": [
+              true,
+              "supported_by_own_city"
+            ]
+          },
+          "visible_city_flag_true_lookup_missing": {
+            "threw": false,
+            "result": [
+              true,
+              "no_visible_foreign_within_9"
+            ]
+          },
+          "unknown_native_city_flag": {
+            "threw": false,
+            "result": [
+              true,
+              "no_visible_foreign_within_9"
+            ]
+          },
+          "positive_count_empty_owned_members": {
+            "threw": false,
+            "result": [
+              true,
+              "no_visible_foreign_within_9"
+            ]
+          },
+          "native_city_lookup_exception": {
+            "threw": true,
+            "error": "[string \"<python>\"]:1: NativeCityLookupUnavailable\nstack traceback:\n\t[string \"<python>\"]:53: in function <[string \"<python>\"]:1>\n\t[string \"<python>\"]:1: in field 'GetCityAt'\n\t[C]: in function 'error'"
+          }
+        },
+        "adoption": "Wholehelperrejected; boundedownednearest/visible-cellscanstrategyreferenceonly. Ownerimplementationandregressionsseparate.",
+        "reasons": [
+          "Ownwithin9earlytruebypassesforeigncity<=3minimumdistance.",
+          "TypedIsCityunknownornativecitylookupsnil/unknownincorrectlyfallsbacktosafe.",
+          "PositiveGetCountwithzeroMembersusesinvented999distanceinsteadunknown.",
+          "Missingownowner/fullID/finiteinteger/collectionconsistency/cellreveal/exactplotcoordinates/fullcityidentityguards.",
+          "Nativeexceptionsnotcontained;selfreferentialMatchesID(city,city:GetID())isnotindependentidentityqualification."
+        ],
+        "raw_native_execution": 0,
+        "product_edits_adopted": 0,
+        "checks_are_not_native_or_product_pass": true
+      },
+      "raw_native_execution": 0,
+      "product_edits_adopted": 0,
+      "owner_implementation": "Rawwholehelperrejected,ownerwrittenimplementation/integration/tests; boundedownednearest/visible-cellstrategyreferenceonly.",
+      "maintenance": "Nov6successfulOpenCode1.19.5cache reused,0newnativegeneration.",
+      "cached_prompt_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    "adoption_unchanged": "Wholehelperrejected5isolatedcounterexamples;owner80independentimplementation. ThisNativepassisnotmodelrawexecution/credit."
+  },
+  "cumulative": {
+    "logical": 465,
+    "complete_stop_valid": 433,
+    "length_discarded": 29,
+    "final_transport_failed": 3,
+    "http_attempts": 495,
+    "extra_retries": 30,
+    "new_opencode_native_generation": 0
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "native": "Installed/runtime80from9a6265bf87exact/coldowned25132freshbackgroundoffline0.00454s. Original77negative167to168bad1093nearestown12vs5visibleforeignnearest4:9764928stays9,8/moves2,15cities,0MOVE/0FOUND/1SKIP. Positiveoriginal136ownsupport4/hint776rank2,137oneFOUND0:137:14/new917516/13citycorrectobserved;138granary3of32/food0.8515625/loyalty100+1.84375.",
+    "reload": "Oneofficial600429BsaveSHA25f1cfd8e6825cc1dc38041e91d43d66eb5dd3d5991ca5a9b5a7d333b200447d/load/Continue,actualUI-Core13813cities/gold6516.9765625/queue/loyaltysame;6Executorhooksniland3ActionPaneltrackingnil. Completedworldonlynotpendingdurablejournal.",
+    "observability": "Independentpostbootstrapnegative29calls/0MOVE0FOUND1SKIPandpositive39calls/1FOUND0MOVE;unknownnoncivilianerrsoverflow0withinscope. Noall-context/global0. Citynegative3BUILD/noUnit,positive6BUILD/3civilianUnits;events5and11err0drop0/exactcleanup.",
+    "owner_corrections": "Portedroutereadturnguardstale167refused0CMD;Coreprobeold37,24misreportedabsentdespite13city,corrected28,17freshactual917516. EarlyREADYbeforeeffectnotquiescence. Actual136Alextradeplayerrefused+Goodbye,137freshsameactiveidlequeuedbuilderpendingthennewordinaryEND138. NoUserForced.",
+    "environment": "Old79formalExit427snoWindowbutstillprocess,exacthash-savedowned10184retiredonce/actualabsent,Steam/other0terminations;cleanexitnotpassed. Cold80freshoffline,0online/upload/Alpha74unchanged.",
+    "delivery": "3inlineuneditedactual80screenshotsandpendingBBCode/knownissuesuploadedtoGitonly. 0productchanges/0newHTTP,prior1130suitepassednotrerunforprivateQA/docs."
+  },
+  "generic_lessons": [
+    "A negative regression and a positive supported-site regression must both run in the actual installed version; blocking the bad case alone may conceal a policy that blocks every action.",
+    "First active-idle readiness is not full application quiescence. Observe the actual asynchronous world effect and match its receipt before assigning the result.",
+    "When adapting diagnostic readers, qualify both coordinates and explicit turn ranges. A stale probe may report absence while independent native inventory already proves the object exists.",
+    "Ordinary END acknowledgement, queued movement processing and actual next turn are separate observations. Re-read current pending/active/idle state before a new ordinary input; never use a forced input to claim normal progression.",
+    "Short positive loyalty after founding and completed-world reload do not prove long-term retention or durable pending action recovery.",
+    "Retiring an exact saved owned test process after a hung formal exit must retain the hang as an unresolved environment result, not a clean-exit pass."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Only two qualified saved-world Native80 settlement cases and completed-world same-process reload. No model465 raw adoption/Native execution/newHTTP credit; no full80training/newcampaign/allTC015017/all40/long-term loyalty/durablependingjournal/globalarmySDK0/cleanexit orSteam80publication."
+}

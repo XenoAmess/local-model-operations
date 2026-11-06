@@ -623,3 +623,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-06：Civ6border80
 
 0新OpenCode原生生成；canonical CLI普通HTTP前复用同机同用户Nov6成功1.19.5每日维护（429首检，其后同日复用）。候选审阅／owner诊断／Native结果分账；不把编译或维护成功授予产品验收。未知缓存tokens／人工节时保持null。[固定业务pin](evidence/2026-11-06-civ6-border80.json)。
+
+
+### 2026-11-06：Civ6border80native
+
+0新OpenCode原生生成；canonical CLI普通HTTP前复用同机同用户Nov6成功1.19.5每日维护（429首检，其后同日复用）。候选审阅／owner诊断／Native结果分账；不把编译或维护成功授予产品验收。未知缓存tokens／人工节时保持null。[固定业务pin](evidence/2026-11-06-civ6-border80native.json)。

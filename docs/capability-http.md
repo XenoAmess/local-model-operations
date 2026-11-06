@@ -4021,3 +4021,10 @@ fixed3/DIRECT/max8000/temp0/thinkingfalse/jsonobject/SSEusage，04:45:02.276803�
 465canonicaloncecomplete,5isolatedfailureswholehelperreject/0rawNative-product. Owner80finitevisibleborderhelper+oldgoal/writeguards,22newregression/full1130PASS152.753s. FirstfulloneobsoleteexactMapcallcountconsumerfailurepreserved;forbiddenrosterspy+allvalidhintsassertfix4pass. Source80built87f692...notinstalledatcut,79Nativefactsnot80credit. Cumulative465/433/29/3 HTTP495extra30/Nov6maintenancecache0newOpenCode/unknowncostnull/Steam0online-upload/Alpha74unchanged.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-border80.json)。
+
+
+## 2026-11-06：Civ6border80native
+
+0newHTTP;465candidatealreadyrecordedandrejected,own80implementationnowactualnegativeandpositiveNativeverified. Threeuneditedinlineimages,formalcompleted138worldreloadandcleanup;notexactloyaltyformula/longtermretention/durablependingjournal. Cumulative465/433/29/3 HTTP495extra30/0newOpenCode/unknownnull;Steam0online-upload/Alpha74unchanged.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-border80native.json)。
