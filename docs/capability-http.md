@@ -4260,3 +4260,10 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 
 
 118 后到独立源码审阅5452B/eceda8c4与owner后见1203B/c3b0d1ea已核，五个具名输入pin一致，最终Test仍0da3。FINITE_SOURCE_PASS只认public Controller真实running→worker hook、TEST gate有界排序/清理及default lazy stop路线；默认binder一次来自另审production default源码，本Test无独立binder计数。原Ready e52a的PENDING切点保，后见16:39:10Z仍compile NOT_STARTED/behavior NOT_RUN；0实际Root.calls公平性、SAVE权限、Game/Runtime/M7验收，0新增HTTP/维护/JVM。
+
+
+## 2026-11-07：HOI4 新路径抽样与发布包装器审阅
+
+[两项实际 HTTP 任务](evidence/2026-11-07-hoi4-release-sample-and-gh-wrapper.json)各首次200/stop/DONE，无传输重试；实际峰1，持续19.683024秒，并未并发。路径/来源SHA/65×67尺寸复制另验正确，但新增 ideas 小卡不能由普通国家领袖页推断可见，输入也未含角色引用声明；实机位置由owner独立建立。
+
+包装器审阅只部分参考读取中断后保留现场的意见，owner采用每次GET独立UUID目录；0候选代码原样采用。候选误报本地包未核SHA，相关判断拒收；精确notes回读和部分draft显式核对保留，不自动删除重建或重放发布。实际代理故障与后续owner修复另记，文本HTTP重试没有重放Steam/GitHub动作。无图片、实机或发布授权来自模型；完整token/TTFT、未报告缓存和未知净节省见回执。
