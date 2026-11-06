@@ -1,0 +1,103 @@
+{
+  "schema": "local-model-operations.http-verified-negative-read-cause-source-review/v1",
+  "mode_id": "ordinary_http_fixed3_candidate",
+  "at_utc": "2026-11-06T03:21:44.131932+00:00",
+  "project": "CK3",
+  "task_id": "ordinary-original-life-verified-negative-read-warm-20261106-01",
+  "prior_delivery_evidence": "2026-11-06-http-verified-negative-read-cause104-delivery.json",
+  "prior_delivery_pin": {
+    "bytes": 10065,
+    "sha256": "b677a532eedd0b0c1ea425632afd59d40dfc20bd707ef26d9d312f446f11814c"
+  },
+  "prior_delivery_commit": "daff016e0ad96819bcf1704e58deb564d792f389",
+  "delivery_pending_cut_preserved": true,
+  "owner_review_pin": {
+    "bytes": 2582,
+    "sha256": "72d6a08f19cd2cd917fd8c942ec9154c783fbc70c9b9e740a8fdb7d9b72e9cea"
+  },
+  "owner_review_at_utc": "2026-11-06T02:49:04.372887+00:00",
+  "complete_CONTENT_pin_from_prior_complete_stop_audit": {
+    "bytes": 12547,
+    "sha256": "61754b3d049b720549ccb040f08e8aeacb43be7828313bbe3ccf16e61f58882b"
+  },
+  "RESULT_pin": {
+    "bytes": 1288,
+    "sha256": "c3254edbe59702d2b879c98231a02ae41e1cf154f38d49316f141827591159fd"
+  },
+  "source_prefix_actual_request_and_parameters_unchanged": true,
+  "decision": "REJECT_ALL",
+  "old_span_newline_normalized_occurrences": [
+    1,
+    1,
+    1
+  ],
+  "source_failures": [
+    "Examines error on original outbound execute_step request rather than actual negative ACK. Real frozen outbound packet contains no error, so the known-negative branch is unreachable.",
+    "Uses final local actual.session() in the freshRead non-Received branch before actual has been assigned. This is a concrete Java definite-assignment source failure, not a compiler run.",
+    "Calls NativeWire.text(node, empty-string) where shown actual APIs use text(JsonNode); introduced exception omits serialVersionUID and holds nonserializable AckReceived under strict serial lint.",
+    "Broad catch(IOException|RuntimeException) retries everything after mere DATA reopen, swallowing source/Guard/hash failures explicitly excluded by the task.",
+    "Direct subtype catch does not follow actual Controller IOException/UncheckedIOException wrapping.",
+    "Does not invoke full canonical original positive ACK/final-resume/ARM-prefix validation after catch, and requires receipt equality to the old original instead of validating current same-command state."
+  ],
+  "adoption": {
+    "whole": 0,
+    "method": 0,
+    "partial": 0,
+    "literal": 0,
+    "raw_JVM": 0,
+    "retry_or_R2": 0
+  },
+  "classification": "Complete-stop source-level unreachable eligibility, definite assignment, API/serial and exception/identity failure rejection. All three old spans match; no source validity or canonical proof follows. Not an actual raw compiler/JUnit failure; raw JVM0.",
+  "independent_owner": {
+    "part02_pin_before_first_raw_read": {
+      "bytes": 2830,
+      "sha256": "0b051eb4a4a604fea2b2d0342ea41b1f82654b08c3ea9cffbd1a40fcf0e8869b"
+    },
+    "cumulative_ready02_pin_at_review": {
+      "bytes": 3984,
+      "sha256": "0290e0f0f7dd8720e196a0a489a5c2bda1eaf9fe1861ddd48be69753b960379d"
+    },
+    "scope_at_review": "Independent source/type/review separate. Both owner leaves written before reading complete raw104. No v2 type or actual warm behavior granted at this cut.",
+    "original_model_target_count": 2,
+    "original_model_targets": [
+      "qualified_not_Runtime_Loop7f36",
+      "actualLifecycleac27"
+    ],
+    "later_owner_source06_reported_by_Java": {
+      "production_sources": 3,
+      "changed_TU": 3,
+      "compiler_exit": 0,
+      "classes": 31,
+      "exact_ready06_pin": "NOT_HELD in this ops addendum",
+      "Models_independent_ACTUAL_binary_reaudit": false,
+      "scope": "Owner added necessary RootReconciliationAuthority consumer beyond the original two model targets. Original full context and frozen request are not changed; no adoption or omitted-target violation assigned to raw."
+    },
+    "warm_runtime_adoption_recovery_or_metric": "NOT_HELD here; no speedup/avoidedcoldbootstrap/SAVE proof or credit to raw. Full owner qualification history and other source/report/runtime facts remain separate."
+  },
+  "original_HTTP_cost_unchanged": {
+    "POST": 1,
+    "END": 1,
+    "finish_reason": "stop",
+    "HTTP_status": 200,
+    "DONE": true,
+    "total_ms": 35208.09269999154,
+    "effective_content_TTFT_ms": 20527.395999990404,
+    "reported_usage": {
+      "prompt_tokens": 159593,
+      "completion_tokens": 2579,
+      "total_tokens": 162172
+    },
+    "max_tokens": 12000,
+    "cached_tokens": null
+  },
+  "this_addendum": {
+    "new_generation_POST": 0,
+    "Models_JVM_SDK_C_GET_Game_JFR_stockIO": 0,
+    "raw_candidate_apply_or_run": 0,
+    "R2": 0,
+    "active_caller_config_service_Runtime_changed": false,
+    "previous_length_CONTENT_rawSSE": "whole unread/unparsed/unextracted/unhashed; no old retry or semantic inference",
+    "next_business_task": "None held; no105/quota/probe generated",
+    "CK3_main_objective_complete": false
+  }
+}

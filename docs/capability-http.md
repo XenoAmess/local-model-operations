@@ -3941,3 +3941,11 @@ fixed3/DIRECT/max12000/temp0/thinkingfalse/jsonobject/SSEusage，02:41:33.436266
 456—459四个canonical200/stop/DONE/VALID各1/0retry；456boolpcall/visibility、457privateundefinedhelpers/漏bounded及citydistance、458nilglobalhelper与ctx、459nilglobalo及无断言均拒，458459actualisolatedruntime反例保留。OwneronlypublicNative诊断全77新settler出生后等待：同goalNative27点路径无可见威胁，首步己方先知占格，合法邻居仅构重接线索，未授绕行或建城。51UnitSDK0MOVEFOUND/2SKIP，2CityBUILD其他内政继续，清理保存真实167供修复。累计459/427/29/3 HTTP489/extra30，0rawNative/productchanges/1064rerun/Steamupload，0新OpenCode未知成本null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-06-civ6-settler457.json)。
+
+
+
+### Source104 后到正式源审：负READ因果组件全拒
+
+正式review2582B/72d6a08f全拒：三oldspan归一各恰一处，但在outbound请求找只存在实际negative ACK上的error，真实branch永false；未赋值actual即用actual.session；NativeWire.text错参、exception缺serialVersionUID且保存非serializable AckReceived。catch所有IO/Runtime把明确排除的Guard/source错误也重试，direct subtype catch又漏Controller既有包装；catch后未核完整canonical positiveACK/final-resume/ARM链且误要求旧receipt对象不变。whole/method/partial/literal/rawJVM/R2全0，属源码审拒，不是实际raw compiler/JUnit红。
+
+原daff016e交付待审JSON和HTTP成本保留，不回填pending切点。Owner独立PART02/累计Ready02在其首读raw前已落；Java后到另报owner source06三TU0/31CF，其中RA为新增必要consumer，原模型任务仍仅Loop+Lifecycle两目标，不改其冻结REQUEST或把第三目标缺实现归给raw。本岗只核实际review/PART02/Ready02 pins，未重编/重验owner ACTUAL/binary；无warm实机采用/恢复或性能/SAVE资格。[完整六项失败、零采用和owner范围分账](evidence/2026-11-06-http-verified-negative-read-cause104-source-review.json)。本次0新HTTP/JVM/Game/probe/noR2，旧length整份正文/SSE持续未读未hash，无105真实需求不造调用。
