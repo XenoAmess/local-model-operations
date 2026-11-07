@@ -1,0 +1,376 @@
+{
+  "schema": "local-model-operations.civ6-source87-nobarb523/v1",
+  "utc": "2026-11-07T23:27:19.692412+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/9638ed0def66d3cd65c8c5669697764bd24b1223/docs/research/baiqi-p6-nobarb85-model517-523-evidence-2026-11-08.json",
+    "sha256": "d8192494bfd67269f60cf00d3c580faf43b4edbdff374895bc0492e98830300f"
+  },
+  "model": [
+    {
+      "task": 517,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "complete": true,
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 1422,
+        "completion_tokens": 528,
+        "total_tokens": 1950
+      },
+      "ttft_ms": 429.8295999178663,
+      "total_ms": 3611.4865000126883,
+      "review": {
+        "raw_Lua51_compile": true,
+        "whole_raw_adopted": false,
+        "adoption": "MODIFIED_BOOLEAN_VALUE_AND_REFERENCE_DIRECTION",
+        "raw_native_executions": 0,
+        "raw_counterexamples": [
+          "Invalidtrue incorrectlyKNOWN",
+          "metadata exception escapes pcall boundary"
+        ],
+        "owner_cases": 13,
+        "owner_checks": [
+          "false_retained_reference",
+          "true_does_not_mutate",
+          "wrong_key",
+          "wanted_types",
+          "registry_types",
+          "record_types",
+          "wrong_config_pair",
+          "enum_domain_refused",
+          "current_value_not_bool",
+          "clans_on",
+          "invalid_parameter",
+          "invalid_clans_domain",
+          "metadata_exception_contained"
+        ],
+        "owner_sha256": "98510b1ab7ac7dec3d20e2cd7877be74ee41ab77d45cda821e0583e5452a17b2",
+        "scope": "Pure selector only, no setter or game calls, actualsettings remain separate."
+      },
+      "shared_commit": "b641cec18d5f0ff31a64778366122fb6de78ee10",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 518,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "complete": true,
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 6101,
+        "completion_tokens": 740,
+        "total_tokens": 6841
+      },
+      "ttft_ms": 930.4294999456033,
+      "total_ms": 6532.667399966158,
+      "review": {
+        "whole_raw_adopted": false,
+        "adoption": "MODIFIED_FUTURE_REQUEST_BOUNDARY_OBSERVATION_DIRECTION_ONLY",
+        "raw_native_executions": 0,
+        "accepted_direction": [
+          "Need contemporaneous city/civilian recruit request and visible threats rather than inference from74and77",
+          "Keep no hidden reads/no extra orders/unknown capture identity and clean observer removal"
+        ],
+        "rejected": [
+          "Claim specific actors failed SKIP: actual receipts are issued SKIP/pcalltrue/returnCount0; actor disappearance is not nativeSKIPfalse",
+          "Safe/SettlementSites/RecruitAllowed are private locals; do not call them via Native or invent count fields",
+          "Proposed stale-site fix does not identify spawn-city safety gap and rechecks a site already filteredSafe; not adopted without new evidence",
+          "Budget, commercial completion and exact75threat causal stories remainunproved"
+        ],
+        "owner_next_scope": "If returning to saved siege78, wrap only future original owncity RequestOperation civilian training, snapshot currentlyvisible radius2 threats at exact write boundary using actual public APIs; do not reset queue or move armies. Native NoBarb0threat samples cannot close siegecase.",
+        "product_changes": 0,
+        "status": "UNFINISHED_DIAGNOSIS_NOT_A_FEATURE_FIX_OR_ACCEPTANCE_PASS"
+      },
+      "shared_commit": "b641cec18d5f0ff31a64778366122fb6de78ee10",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 519,
+      "http_attempts": 1,
+      "finish_reason": "length",
+      "complete": false,
+      "sse_done": true,
+      "json_syntax": "UNKNOWN",
+      "usage": {
+        "prompt_tokens": 2214,
+        "completion_tokens": 3200,
+        "total_tokens": 5414
+      },
+      "ttft_ms": 491.646199952811,
+      "total_ms": 20480.83040001802,
+      "review": {
+        "raw_finish_reason": "length",
+        "sse_done": true,
+        "raw_candidate_complete": false,
+        "raw_json_syntax": "UNKNOWN_NON_STOP_FINISH",
+        "raw_adoption": "DISCARDED_WHOLE_NO_STITCH_OR_PARSE",
+        "raw_compile_attempts": 0,
+        "raw_native_executions": 0,
+        "owner_cases": 17,
+        "owner_checks": [
+          "snapshot_before_original_mutation",
+          "returns_nil_holes_and_function_untouched",
+          "arguments_preserved_identity_and_tail_nil",
+          "other_request_no_map_read",
+          "repair_no_plot_read",
+          "foreign_city_before_plot_reads",
+          "hidden_never_queries_plot",
+          "foreign_plot_before_improvement_read",
+          "unknown_improvement_never_NONE",
+          "invalid_xy_before_plot_read",
+          "metadata_exception_does_not_block_order",
+          "guard_exception_does_not_block_order",
+          "bounded16",
+          "restore_then_old_alias_forwards_only",
+          "foreign_wrapper_not_overwritten",
+          "false_guard_no_reads",
+          "original_error_propagated_once"
+        ],
+        "owner_sha256": "b567d1c0cc9d9bfc449deb518f3d2c6f89983f398125e8f15f5413a626c055d5",
+        "scope": "Owner independently written passive before-request logger from current APIs/contracts, no extra game command; original forwarding preserved."
+      },
+      "shared_commit": "b641cec18d5f0ff31a64778366122fb6de78ee10",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 520,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "complete": true,
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 6891,
+        "completion_tokens": 858,
+        "total_tokens": 7749
+      },
+      "ttft_ms": 1271.690099965781,
+      "total_ms": 6996.41420005355,
+      "review": {
+        "whole_raw_adopted": false,
+        "raw_native_executions": 0,
+        "game_orders": 0,
+        "product_changes": 0,
+        "adoption": "CORRELATION_AND_ELIGIBILITY_VS_SELECTION_DIRECTION_ONLY",
+        "accepted": [
+          "Actual faith/pantheon simultaneous change does not establish exact cost.",
+          "CanProduce being true does not prove candidate selection.",
+          "No product scoring change warranted solely to manufacture a prophet test."
+        ],
+        "owner_prompt_correction": "First prompt omitted real Controller2662 priority table. It cannot support exact Holy priority; completed source/consumer supplied in521.",
+        "rejected": [
+          "Invents typically1faith pantheon cost, not supported by source or snapshots.",
+          "Invents RequiresTech metadata field; current DB/row contract not provided.",
+          "No selected-candidate logs supplied, cannot claim precise losing reason.",
+          "Claim Holy never produced40..70 is broader than direct holy-completion/placement window evidence."
+        ]
+      },
+      "shared_commit": "b641cec18d5f0ff31a64778366122fb6de78ee10",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 521,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "complete": true,
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 8288,
+        "completion_tokens": 759,
+        "total_tokens": 9047
+      },
+      "ttft_ms": 1433.174500009045,
+      "total_ms": 6217.271200031973,
+      "review": {
+        "whole_raw_adopted": false,
+        "raw_native_executions": 0,
+        "game_orders": 0,
+        "product_changes": 0,
+        "adoption": "VERIFIED_STATIC_SCORES_AND_CORRELATION_DIRECTION_ONLY",
+        "accepted": [
+          "Actual faith/pantheon simultaneous change does not establish exact cost.",
+          "CanProduce being true does not prove candidate selection.",
+          "No product scoring change warranted solely to manufacture a prophet test.",
+          "Owner actual Controller2660..2663 and ProcessCity2814/2820 verified Holy fallback35, Commercial/Harbor70, Campus68, Industrial72, Encampment65, Aqueduct60, Neighborhood55.",
+          "Planner Choose selects score plus repair1000, equal scores use lower index."
+        ],
+        "rejected": [
+          "States incomplete dominance condition against higher districts, omitting other scored buildings/units and candidate scan/placement gates.",
+          "Faith13->12 is wrong transcription; actual55=13/56=1.",
+          "Repair1000 is bonus, not a district base score."
+        ],
+        "owner_correction": {
+          "initial_review_sha256": "da43c06b7f56c6c7cff03add17441b26c552b25c0446f610b0a721c5ffb8521d",
+          "correction": "Initial owner review cast suspicion on fallback35 before reading definitions. Actual definitions independently read immediately afterward confirm this numeric claim; it is accepted and not counted as candidate error.",
+          "remaining": "Missing building/unit scores and actual Native candidate/plot eligibility still prevent causal production diagnosis."
+        }
+      },
+      "shared_commit": "b641cec18d5f0ff31a64778366122fb6de78ee10",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 522,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "complete": true,
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 2365,
+        "completion_tokens": 1081,
+        "total_tokens": 3446
+      },
+      "ttft_ms": 549.8192999511957,
+      "total_ms": 6869.331599911675,
+      "review": {
+        "whole_raw_adopted": false,
+        "adoption": "MODIFIED_FACT_SELECTION_AND_OPEN_LIMITS",
+        "raw_native_executions": 0,
+        "markdown_characters": 1546,
+        "self_claimed_max_chars": 1100,
+        "owner_changes": [
+          "Rewrote dense ID dump as gameplay paragraphs with five inspected embedded screenshots.",
+          "Removed completed acceptance draft phrasing.",
+          "Corrected owner contract: district519/alias522 were capital-only, model repeated supplied overbroad allcity0 premise.",
+          "Prophet0 does not mean allgreatpeople0; scientist76/merchant85 requests exist."
+        ],
+        "scope": "Documentation only; owner prompt scope errors remain owner errors."
+      },
+      "shared_commit": "b641cec18d5f0ff31a64778366122fb6de78ee10",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 523,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "complete": true,
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 1520,
+        "completion_tokens": 1119,
+        "total_tokens": 2639
+      },
+      "ttft_ms": 477.3681000806391,
+      "total_ms": 7215.938100009225,
+      "review": {
+        "whole_raw_adopted": false,
+        "adoption": "MODIFIED_ALL_OWN_CITY_SCOPE_DYNAMIC_ID",
+        "raw_native_executions": 0,
+        "raw_Lua51_compile": true,
+        "raw_counterexamples": [
+          "owner_getter_error_is_counted"
+        ],
+        "owner_cases": 26,
+        "owner_checks": [
+          "snapshot_before_original_mutation",
+          "returns_nil_holes_and_function_untouched",
+          "arguments_preserved_identity_and_tail_nil",
+          "other_request_no_map_read",
+          "repair_no_plot_read",
+          "foreign_city_before_plot_reads",
+          "hidden_never_queries_plot",
+          "foreign_plot_before_improvement_read",
+          "unknown_improvement_never_NONE",
+          "invalid_xy_before_plot_read",
+          "metadata_exception_does_not_block_order",
+          "guard_exception_does_not_block_order",
+          "bounded16",
+          "restore_then_old_alias_forwards_only",
+          "foreign_wrapper_not_overwritten",
+          "false_guard_no_reads",
+          "noncapital_dynamic_city_id",
+          "third_and_fourth_city_ids",
+          "foreign_city_id_never_called",
+          "nil_city_unknown_original_once",
+          "owner_getter_error_is_counted",
+          "id_getter_error_unknown",
+          "invalid_id_bounds_no_plot",
+          "maximum_valid_id_preserved",
+          "missing_city_method_unknown",
+          "original_error_propagated_once"
+        ],
+        "owner_sha256": "afb6b304b448a15508f2b0c452ba3a545b61957d31b4b86e8331c9fff1fbe0c1",
+        "raw_source_sha256": "f4eead97f73ad97f52c83c974acb91c82a133d8afbc11dba518fdb21f160fa30",
+        "owner_correction": "519 and alias522 observe capital65536 only.0record is not all-city/no-future-request proof.523 future rows only, cannot reconstruct earlier harbor source plot.",
+        "scope": "QA passive logger only, no product change or extra game request. Counter now exposes failed owner getter instead of silent lost record. Original exact forwarding/returns/errors and nested own-wrapper restoration tested."
+      },
+      "shared_commit": "b641cec18d5f0ff31a64778366122fb6de78ee10",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 523,
+    "complete_stop_valid": 487,
+    "length": 33,
+    "final_transport_failures": 3,
+    "http_attempts": 553,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "product": 87,
+    "main_window": [
+      40,
+      85
+    ],
+    "normal_END": 45,
+    "army_SKIP": 90,
+    "manual_domestic_inputs": 0,
+    "actual_cities3_J_OBSERVED": true,
+    "private_save85_UI_Core_load_kept": true,
+    "five_embedded_gameplay_images": true,
+    "new_prophet_or_farmplacement_pass": false,
+    "online_uploads": 0
+  },
+  "generic_lessons": [
+    "Boolean configuration false is a valid typed value; preserve original parameter reference and guard the actual domain.",
+    "Read actual producer and consumer definitions before judging a score; owner retracted unmeasured suspicion of correct Holy fallback35 after reading the table.",
+    "Observer0 rows proves only its bound scope. Capital-only logger cannot speak for other cities; a later harbor queue cannot reconstruct its old improvement.",
+    "Counterpart throw must be visible in diagnostic counters while the original request still forwards exactly once, preserving args, nil holes, functions and errors.",
+    "Do not convert requested ballots to outcomes, issued SKIP to native success, or Prophet-only0 events to allgreatpeople0.",
+    "Full SSE length is not a complete candidate.519 discarded whole without parse, stitching, compile or Native.",
+    "Native save ACK, byte stability, exact artifact loading and UI/Core postload equality are separate checks; transient readonly failure does not justify replay.",
+    "Candidate self-reported1546-character draft did not satisfy claimed1100 limit. Owner rewrote dense raw flags into reviewed gameplay prose and embedded inspected original images."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "QA logger and documentation only, Source87 unchanged. Native narrow threecity load persistence is not full40TC, siege survival, farmreplacement or prophet proof. HTTP candidates, isolated observer checks, prior product suite and actual game outcomes remain separate; unknown tokens/costs/net savings null."
+}
