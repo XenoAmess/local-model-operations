@@ -4291,3 +4291,10 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 479 stop valid54747tokens21.758s0retry/3conditional findings0newdefects/0patchNative. Actual82fresh firstcapital/oneordinary production/reload narrowPASS,2rawimages, no startupSDK/globalzero. Through479446complete30length3transportHTTP509extra30/Nov7cache1.19.5/OpenCode new0/unknownnull/Steam0Alpha74.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-newgame82.json)。
+
+
+## 2026-11-07：Civ6settlement480
+
+480rawQAreader14pass/wholecodeNative readonlyadopt, product0. Owner44contracts; originalpredicate true atARMED afterFOUND, timedactualsave/reloadstill14live, twoordinaryroundsnoresume. UIinterleaving/autosave/queueinternalsunknown. Through480447complete30length3transportHTTP510extra30/OpenCode0/Steam0Alpha74.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-settlement480.json)。

@@ -1,0 +1,137 @@
+{
+  "schema": "local-model-operations.civ6-settlement480/v1",
+  "utc": "2026-11-07T09:02:19.981884+00:00",
+  "date_local": "2026-11-07",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/456d6633e763940cbf897ead1bf4d194ecb073eb/docs/research/baiqi-p6-settlement480-allowed-save-window-evidence-2026-11-07.json",
+    "sha256": "75f8e6ff27c58ac1e361b6b29dbb66eabc7dad91143103bcbfb3c509ccdbef47"
+  },
+  "model": {
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "attempts": 1,
+    "extra_retries": 0,
+    "usage": {
+      "prompt_tokens": 7861,
+      "completion_tokens": 164,
+      "total_tokens": 8025
+    },
+    "ttft_ms": 1337.0832999935374,
+    "total_ms": 2373.1420000549406,
+    "shared_commit": "91b7b7c5c41a5606b4b9efa06bdfae69c7d78c3a",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "review": {
+      "utc": "2026-11-07T08:10:58.267927+00:00",
+      "lua51_compile": true,
+      "raw_unique_cases": 14,
+      "raw_cases": {
+        "true-known-once-zeroargs": {
+          "passed": true
+        },
+        "false-known": {
+          "passed": true
+        },
+        "missing-function": {
+          "passed": true
+        },
+        "callable-table-rejected": {
+          "passed": true
+        },
+        "exception-private-value-not-returned": {
+          "passed": true
+        },
+        "nil-result-unknown": {
+          "passed": true
+        },
+        "numeric-result-unknown": {
+          "passed": true
+        },
+        "string-result-unknown": {
+          "passed": true
+        },
+        "table-result-unknown": {
+          "passed": true
+        },
+        "NaN-result-unknown": {
+          "passed": true
+        },
+        "no-cache": {
+          "passed": true
+        },
+        "fresh-plain-metadata": {
+          "passed": true
+        },
+        "extra-original-returns-not-leaked": {
+          "passed": true
+        },
+        "nested-observation-no-cache": {
+          "passed": true
+        }
+      },
+      "raw_module_sha256": "4998ed175d87ab77d951f0e6fe08f6d3c19593e78415a578788452582132e333",
+      "code_adoption": "Whole raw code approved for ignored readonly QA sampler only; no product change.",
+      "text_limitations_correction": "The supplied function is executed and may read engine state. Candidate prose saying no game logic/global access is broader than the actual narrow getter contract.",
+      "usage": {
+        "prompt_tokens": 7861,
+        "completion_tokens": 164,
+        "total_tokens": 8025
+      },
+      "ttft_ms": 1337.0832999935374,
+      "total_ms": 2373.1420000549406,
+      "cumulative_through480": {
+        "logical_tasks": 480,
+        "complete_stop_valid": 447,
+        "length": 30,
+        "final_transport_failures": 3,
+        "http_attempts": 510,
+        "extra_retries": 30,
+        "opencode_native_generation": 0,
+        "cached_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null
+      }
+    },
+    "raw_code_adopted_for_QA": true,
+    "product_patch_adopted": false,
+    "native_code_used_after_review": true,
+    "prose_limitations_corrected": "The supplied original getter is executed and reads engine state; no broad no-game-logic/no-global-access claim.",
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 480,
+    "complete_stop_valid": 447,
+    "length": 30,
+    "final_transport_failures": 3,
+    "http_attempts": 510,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "raw": "480 stop valid8025tokens2.373142s0retry. Whole raw typed Read(CanSave)14Lua51 cases passed, used Native readonly QA only; no product adoption. Prose no-global/no-game-logic narrowed because supplied engine getter executes.",
+    "observer": "Owner modified prior transparent watcher44current cases(35relevant+9new), Lua51compile; after nativeFOUND return0/CoreARMED exact original CanLocalPlayerSaveGame true, timed Save once ACKtrue.85observedcalls/1matched/reentry0/errors0, other84unclassified not global military0.",
+    "native": "Source82 unchanged. Preserved148 replay for new predicate question not oldpass credit. Timed630058B SHA d5a12456...actualreload15614cities/live8650807@10,19/1move/ARMED same1token; normal15814/live2moves/ARMED. CurrentCorependingfalse/op-1 only unit state, not networkqueue or retrygrant. Original156completed15city separatelysaved, failure158 separatelysaved, allSDK/QAgettercleanup exact beforeload.",
+    "limits": "Timed Save is injected after original operation return before controller continuation. Original eligibilitytrue does not prove physical UI input can interleave or autosave timing. Forward recoveryboundedFAIL, not permanentdeadlock/definitivelostqueue.",
+    "owner": "Two preparation whitespace anchors refusedbeforeNative; semantic unique anchors fixed, originalfailsretained. Early8readtransitionbounds thenfreshread; laterownedbound24explicit.151/153/154freshpending→newnormalprogressEND noUserForced.157readonlyqueueassertstoppedchain; independentJ/readyrequalified noENDreplay. Firstcameraanimationimage private, settledrawpublished.",
+    "accounting": "Through480logical480/complete447/length30/finaltransport3 HTTP510extra30. OpenCode generationnew0, unknowncost/cache/savingsnull. Existingproduct1153notrerun/no productpatch/Steam0online-uploadAlpha74unchanged."
+  },
+  "generic_lessons": [
+    "An original save-eligibility predicate can be true while the intended operation effect is not yet serialized. Measure eligibility and reload the actual saved world separately.",
+    "A timed test callback inside a command call stack is not proof that physical UI input or autosave can interleave at the same point. Preserve that scope limit.",
+    "A tiny typed function adapter can be adopted for diagnostic QA after real contracts while the wider recovery protocol remains unresolved.",
+    "Do not mistake a supplied engine getter call for absence of game logic; narrow candidate prose to its actual dependency and side effects.",
+    "Recheck relevant transparency contracts when modifying a call-through observer, and count inherited scenarios separately from new ones.",
+    "A camera navigation call returns before animation settles; inspect the raw final frame before publishing a claimed location."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "One predicate-qualified precisely timed test save and two normal rounds after actual reload. Not physical UI/autosave reachability, engine input-queue guarantee, recovery fix, fullTC or Steam82 release."
+}
