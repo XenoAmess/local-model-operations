@@ -4305,3 +4305,10 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 481raw13of20fail/whole0Nativeadopt, independentowner20pass. Actual82newworld normal2→18 firstmining/code/autonextresearch/cards/monument;991483Bsave reloadretained;2rawimages.Through481448complete30length3transportHTTP511extra30/OpenCode0/unknownnull/Steam0Alpha74.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-domestic481.json)。
+
+
+## 2026-11-07：Civ6production482
+
+482sourceaudit0newdefect0patch/raw0Native, broad guarantees corrected. Native82normal18→33 firstbuilder/slinger after finitefallback,392transparentfuture samples, militarywaiting;1017948Bofficialreloadretained,2images. Builderimprovementstillopen. Through482449complete30length3transportHTTP512extra30/OpenCode0/unknownnull/Steam0Alpha74.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-production482.json)。

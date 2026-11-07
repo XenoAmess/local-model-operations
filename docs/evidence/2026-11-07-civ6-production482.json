@@ -1,0 +1,116 @@
+{
+  "schema": "local-model-operations.civ6-production482/v1",
+  "utc": "2026-11-07T09:49:41.933388+00:00",
+  "date_local": "2026-11-07",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/d261499fd115f35296f100f2dd5cdcb3dd8bb5dd/docs/research/baiqi-p6-production482-standby-and-first-units-evidence-2026-11-07.json",
+    "sha256": "31f38d00baced039e6d14ffa62ac884b0ecabb02555cf37f812ef194910fae67"
+  },
+  "model": {
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "attempts": 1,
+    "extra_retries": 0,
+    "usage": {
+      "prompt_tokens": 52083,
+      "completion_tokens": 1215,
+      "total_tokens": 53298
+    },
+    "ttft_ms": 6806.140000000596,
+    "total_ms": 16290.718999924138,
+    "shared_commit": "3da1f6169831c0d87d6c7e02b1b5f9c3fd9ec518",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "whole_raw_adoption": false,
+    "raw_native_execution": 0,
+    "review": {
+      "utc": "2026-11-07T09:38:35.071874+00:00",
+      "scope": "Review finite standby source audit; not code generation or engine qualification",
+      "candidate_findings": 4,
+      "new_confirmed_product_defects": 0,
+      "product_patches": 0,
+      "whole_candidate_adoption": false,
+      "raw_native_execution": 0,
+      "decisions": [
+        {
+          "finding": 1,
+          "decision": "Only negative project priority and selected pending readback facts retained. Reject universal recovery/deadlock absence and wording excluded from selection.",
+          "source": "Controller2755 still Add(project,-1000); it remains selectable by Choose. ReadBack3015-3020 retains unresolved replacement, not covered in blanket conclusion. Native completed project queue removal not qualified by Lua source."
+        },
+        {
+          "finding": 2,
+          "decision": "QueueReady exact gating retained; no native recovery guarantee adopted.",
+          "source": "Controller2595-2600 requires empty/current0 or qualified completed building/district. CompletedIdleHead2504 explicitly excludes units/projects; an active standby blocks further append until normal native completion. Candidate wording that it only blocks when sole item is not a general guarantee."
+        },
+        {
+          "finding": 3,
+          "decision": "RefreshProduction reset and completion callback retained; event spelling corrected.",
+          "source": "Controller81 resets cityEvaluated only.3235-3245 registers CityProductionCompleted and UnitAddedToMap/UnitRemovedFromMap with handler OnUnitCountChanged; there is no subscribed event named UnitCountChanged here."
+        },
+        {
+          "finding": 4,
+          "decision": "Source attempt/pending/limit facts retained, universal prevention claim restricted.",
+          "source": "Controller2707/2696 and NextRequest avoid repeated same-turn candidate keys; this is not proof every runtime recovery or infinite-loop property."
+        }
+      ],
+      "native_independent_result_so_far": "19 gold100 still standby. Transparent observer installed19. Ordinary19→26; first observed future AllowRecruit evaluation22 gold115/net5, buildertrue and one cityRequest, current26 UNIT_BUILDER38/50. This actual effect is independent of candidate source claims.",
+      "observer_software": "Existing diagnostic_finance 10 tests rerun passed before binding. Adapted installer Lua5.1 compiled. No product source changed.",
+      "usage": {
+        "prompt_tokens": 52083,
+        "completion_tokens": 1215,
+        "total_tokens": 53298
+      },
+      "ttft_ms": 6806.140000000596,
+      "total_ms": 16290.718999924138,
+      "cumulative_through482": {
+        "logical_tasks": 482,
+        "complete_stop_valid": 449,
+        "length": 30,
+        "final_transport_failures": 3,
+        "http_attempts": 512,
+        "extra_retries": 30,
+        "opencode_native_generation": 0,
+        "cached_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null
+      }
+    },
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 482,
+    "complete_stop_valid": 449,
+    "length": 30,
+    "final_transport_failures": 3,
+    "http_attempts": 512,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "candidate": "482stop valid53298tokens16.290719s0retry. Source audit no patch; retain narrow gating facts, reject universal absence of recovery gaps/deadlocks. Negative priority still selectable, projects not qualified by asset flag; handler OnUnitCountChanged is subscribed to UnitAddedToMap/RemovedFromMap, not event UnitCountChanged.",
+    "native": "Same82newworld normal18→33,15END16TESTPLAYERmilitarySKIP/no domesticinputs. Gold100 at19 still finite project;22 builder queued,26 progress38/50,27 progress46/50,28 born and slinger queued,32 military newunit available,33 at capital2moves/noqueuedtarget.",
+    "observer": "Existing transparentfinance10tests pass beforebind;19→33 originalforward383recruit+3city+6builderop=392,0error/drop. Exactrestorebeforeofficialsave; 0militaryrequests only in thisExecutor future window, notglobal.",
+    "persistence": "Official1017948Bsave/hashbe1c1596...reloaded/Continue, same city/pop3/gold170/3units/standby/monument/Jobserved; observernil.2actualimages embedded.",
+    "limits": "Builder stayscapital/3charges/10ownedplots unimproved; visiblebarbarians east, exactsafety/recommendation cause stillunproved. KnownARMED/Legacyfailures remain. No productchanges/prior1153notrerun/Steam0online-uploadAlpha74.",
+    "owner": "ReadonlyCMDregex corrected, ignoredContinuehelper accidental line removal caught/restored beforeexecution. LoadLSQfirstconnectionrefused then timeout duringloading, noCMD/loadreplay, freshownedContinue and126contexts thenactualstate."
+  },
+  "generic_lessons": [
+    "A negative candidate score is a last-resort preference, not an exclusion or proof of native completion.",
+    "Distinguish an event handler name from the actual subscribed engine event names.",
+    "A balance threshold changing does not imply the controller interrupts active finite work immediately.",
+    "SDK return arity is evidence about forwarding, not a successful production outcome; read actual units.",
+    "A builder appearing with charges is not proof an improvement was built.",
+    "Restrict zero military requests to the exact instrumented context and future window."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "One early newgame fallback and first unit production/waiting/completed-state reload; not full production, military, builder or recovery matrix, and not Steam82 release."
+}
