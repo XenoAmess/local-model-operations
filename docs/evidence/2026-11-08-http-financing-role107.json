@@ -1,0 +1,382 @@
+{
+  "schema": "local-model-operations.http-case/v1",
+  "case_id": "HTTP-JAVA-FINANCING-SNAPSHOT-ROLE-107",
+  "mode_id": "http-candidate",
+  "local_observation_date": "2026-11-08",
+  "local_timezone": "Asia/Shanghai",
+  "request_utc_date": "2026-11-07",
+  "generated_at_utc": "2026-11-07T19:28:07.656244+00:00",
+  "scope": "Actual bounded source task and public Java software financing-role validation; no documentation HTTP, JVM or business action.",
+  "shared_repo_base": "98aafe8412f3084fd67e08592bd14b93b5b00bb7",
+  "guidance": "Owner specified actual Gap/Emergency consumer fields and exact presence/type/error-row rules, then added actual Loan/RawCash contract and full declarations after round1. Strongly guided implementation.",
+  "rounds": [
+    {
+      "round": 1,
+      "post_begin_utc": "2026-11-07T18:52:01.297155+00:00",
+      "attempt_end_utc": "2026-11-07T18:52:12.621943+00:00",
+      "post_count": 1,
+      "transport_retries": 0,
+      "source_count": 9,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "message_utf8_bytes": [
+        301,
+        145427,
+        3682
+      ],
+      "model": "qwen38-coder",
+      "max_tokens": 3500,
+      "temperature": 0,
+      "enable_thinking": false,
+      "response_format": "json_object",
+      "stream": true,
+      "include_usage": true,
+      "http_status": 200,
+      "http_headers_ms": 4170.823800028302,
+      "first_nonempty_content_delta_ms": 4172.314600087702,
+      "total_ms": 11324.659900041297,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 31479,
+        "completion_tokens": 1206,
+        "total_tokens": 32685
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "actual_peer": "UNKNOWN",
+      "frozen_client_candidate_review": "NOT_YET_REVIEWED",
+      "frozen_client_adopted": false,
+      "later_owner_decision": "REJECTED_SOURCE",
+      "raw_pins": {
+        "REQUEST.json": {
+          "bytes": 153380,
+          "sha256": "528132e0b58bb99b59b841953e1fed9564ddeceb9e1ec6423fa16ffb6522442c"
+        },
+        "ATTEMPT1-RESULT.json": {
+          "bytes": 1277,
+          "sha256": "3a1f0f959ddf8226a48d5966d1dd7bfa4f71b4bb08ad9480f824c029c01bcd73"
+        },
+        "ATTEMPT1-CONTENT.txt": {
+          "bytes": 5477,
+          "sha256": "cbd1fb16c7d28b7fbd155b7f2a632aa4ea385c0b7a509a32e3dd1326a56509d1"
+        },
+        "EVENTS.jsonl": {
+          "bytes": 2683,
+          "sha256": "43bf0522ed52740d14e5f25bc74b044895cd20cf4d9952b0981e0c0bd1ad5750"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "post_begin_utc": "2026-11-07T18:53:05.191259+00:00",
+      "attempt_end_utc": "2026-11-07T18:53:17.394985+00:00",
+      "post_count": 1,
+      "transport_retries": 0,
+      "source_count": 11,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "message_utf8_bytes": [
+        301,
+        187255,
+        5762
+      ],
+      "model": "qwen38-coder",
+      "max_tokens": 4000,
+      "temperature": 0,
+      "enable_thinking": false,
+      "response_format": "json_object",
+      "stream": true,
+      "include_usage": true,
+      "http_status": 200,
+      "http_headers_ms": 2286.013500066474,
+      "first_nonempty_content_delta_ms": 2287.280400050804,
+      "total_ms": 12203.69120000396,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 41538,
+        "completion_tokens": 1706,
+        "total_tokens": 43244
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "actual_peer": "UNKNOWN",
+      "frozen_client_candidate_review": "NOT_YET_REVIEWED",
+      "frozen_client_adopted": false,
+      "later_owner_decision": "PARTIAL_UNION_WITH_OWNER_COPY_PRESENT_IMPLEMENTATION",
+      "raw_pins": {
+        "REQUEST.json": {
+          "bytes": 198637,
+          "sha256": "12b5b23fa2a3fd8cbb4976409e4c4f0104715d524effd6a7cb9159ff95db73d2"
+        },
+        "ATTEMPT1-RESULT.json": {
+          "bytes": 1276,
+          "sha256": "81d67e12a49440525cebf0a7d58fdc5e2ade8c08313d6987f5463412d45e329c"
+        },
+        "ATTEMPT1-CONTENT.txt": {
+          "bytes": 7791,
+          "sha256": "267c0bf9c0c7cf51582f313c19af549a5eccab9effe75df12b25658103324ccc"
+        },
+        "EVENTS.jsonl": {
+          "bytes": 2682,
+          "sha256": "fec3841a0467dc95ec305bb5a57bae22f84ebc400a6666ec237c3f83e36dc98e"
+        }
+      }
+    }
+  ],
+  "attribution": {
+    "round1_source_rejection": "Missing actual imports and parent-array substitution for an object war row lacking war_id; no raw candidate compile/run.",
+    "later_contract_expansion": "Loan wrapper, alive and four hello build fields supplied only later; not counted as model omissions in original scope.",
+    "round2_partial": "Field union and producer/wrapper direction partially adopted; owner smaller copy-present/original-order private helpers replace implementation, no whole-method verbatim claim.",
+    "owner_fixture_error": "Uppercase machine ID caused two first public cases to error before Collector; only fixture corrected to existing lowercase contract, production Guard unchanged."
+  },
+  "role_semantics": [
+    "Frame, actor/alive, gold, war_id rows, paused/map_ready, PID/generation and four hello build keys copied only when present.",
+    "Missing/null/malformed scalar,array,object and numeric token semantics retained; present expected-null build keys keep priority over fallback.",
+    "Root, priority, construction ledger, full capabilities, cash_resources and whole cash_source_frame unchanged; source extra still rejected by original full-object comparison.",
+    "Original full snapshot/history remain Java-held. This role projection is not a full-state archive or new authority."
+  ],
+  "source_and_Test_pins": {
+    "production": {
+      "bytes": 40839,
+      "sha256": "131f4bb7803127227eb062fba56b1cdab3a4f90d2d1763727d1b1e5b00c3f07c"
+    },
+    "initial_Test": {
+      "bytes": 22264,
+      "sha256": "7b0cb0c3302d256c7154db2cec5dca2b3d8987681615a0ea1ef737f7f5a67a32"
+    },
+    "final_Test": {
+      "bytes": 22264,
+      "sha256": "18ae531169025814762264d6e2b478bf9b19a87ece3abdd68dd494570c329bb7"
+    }
+  },
+  "software": {
+    "qualification_pin": {
+      "bytes": 20494,
+      "sha256": "777b99a580f14261c3b32ea136a554d61ae5702e4e3438497ea99f64a2af4115"
+    },
+    "counts": {
+      "production_TUs": 1,
+      "production_classes": 12,
+      "distinct_new_Test_files": 1,
+      "necessary_Test_variant_compiles": 2,
+      "initial_golden_methods_passed": 1,
+      "final_error_methods_passed": 2,
+      "old_Test_or_codec_or_production_recompile": 0
+    },
+    "phases": [
+      {
+        "phase": "production",
+        "exit_code": 0,
+        "contract_accepted": true,
+        "process_seconds": 6.340765199973248,
+        "closed_at_utc": "2026-11-07T18:58:38.784608+00:00",
+        "reservation_still_held": false,
+        "actual_pin": {
+          "bytes": 1529,
+          "sha256": "b280ac05abf9a0dac6e6ba2d7aa386bf5e2589cf0a7b100e8220b91e45fda7ac"
+        },
+        "close_pin": {
+          "bytes": 237,
+          "sha256": "c798594eb4d858deea99280e879bcbba734c2a41d37032fc906c73c934722c16"
+        },
+        "outer_window_pin": {
+          "bytes": 863,
+          "sha256": "0939bac00641f15a72c43388e0247dcad274884a636895e573b0caf531a5ac7a"
+        },
+        "emitted_classes": 12
+      },
+      {
+        "phase": "initial_Test_compile",
+        "exit_code": 0,
+        "contract_accepted": true,
+        "process_seconds": 7.074814100051299,
+        "closed_at_utc": "2026-11-07T19:14:24.077373+00:00",
+        "reservation_still_held": false,
+        "actual_pin": {
+          "bytes": 1461,
+          "sha256": "e505057d4272c3cd05eb65c6e9352991e20aa2edba528f537cf8463a56d0c2bf"
+        },
+        "close_pin": {
+          "bytes": 237,
+          "sha256": "b57c0874372192e275211e809b3cf2d213ac7c50716c471dae14bc77e1f5de75"
+        },
+        "outer_window_pin": {
+          "bytes": 858,
+          "sha256": "a7b911b48f3d60d4024f09890fcb3410f5cf6673a57006f59e494c1d832ef1b4"
+        },
+        "emitted_classes": 2
+      },
+      {
+        "phase": "initial_three_methods",
+        "exit_code": 1,
+        "contract_accepted": false,
+        "process_seconds": 5.251693299971521,
+        "closed_at_utc": "2026-11-07T19:14:34.455910+00:00",
+        "reservation_still_held": false,
+        "actual_pin": {
+          "bytes": 1295,
+          "sha256": "2d18bc5d9dac15cb901b1fac559bc8f320d1ffc3e46eb671f7f523c15a21cd47"
+        },
+        "close_pin": {
+          "bytes": 238,
+          "sha256": "899aa42830ea52cd8ff74d1ef948328cdad562f5770f2a232b639e1b13bccd22"
+        },
+        "outer_window_pin": {
+          "bytes": 861,
+          "sha256": "6faafcc7101463d2623adbf688fc4f06bee92f00576576a7b9596e3464ce0f3f"
+        },
+        "JUnit": {
+          "tests": 3,
+          "passes": 1,
+          "failures": 0,
+          "errors": 2,
+          "skipped": 0,
+          "xml_pin": {
+            "bytes": 44891,
+            "sha256": "81f381dc3a358def787a7df6e74a9445a7e416af9e418b5cff59714e6a33f2c0"
+          }
+        }
+      },
+      {
+        "phase": "changed_Test_compile",
+        "exit_code": 0,
+        "contract_accepted": true,
+        "process_seconds": 6.524709500023164,
+        "closed_at_utc": "2026-11-07T19:17:30.228598+00:00",
+        "reservation_still_held": false,
+        "actual_pin": {
+          "bytes": 1473,
+          "sha256": "eee86561779fdfdbe20a6274ea936ae189369326b2d53957092ab7bd667121de"
+        },
+        "close_pin": {
+          "bytes": 237,
+          "sha256": "d69200ed83bd58925580fa05a00dbf9b4753e7ff0c411e6abae77040826772ab"
+        },
+        "outer_window_pin": {
+          "bytes": 852,
+          "sha256": "09dbe0608b6294e97d57ce5ecd25737db4f01413a764d34488bc7fedece6e7ff"
+        },
+        "emitted_classes": 2
+      },
+      {
+        "phase": "two_original_error_methods_success",
+        "exit_code": 0,
+        "contract_accepted": true,
+        "process_seconds": 7.147188300034031,
+        "closed_at_utc": "2026-11-07T19:17:46.829631+00:00",
+        "reservation_still_held": false,
+        "actual_pin": {
+          "bytes": 1345,
+          "sha256": "ce259c04d5b91195498d03675054987ccc304ad61082347a501794732125ed38"
+        },
+        "close_pin": {
+          "bytes": 238,
+          "sha256": "629ac620f3f3d73cb7b151b2272c972ab47cd81260dc37825d76a53a62abe2eb"
+        },
+        "outer_window_pin": {
+          "bytes": 854,
+          "sha256": "4732886a3f0945af0cc4bb806ed980acca667c65566bf65df3a0113b8f0c7c1f"
+        },
+        "JUnit": {
+          "tests": 2,
+          "passes": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "xml_pin": {
+            "bytes": 42738,
+            "sha256": "7429a6488431120ae0b6526c60e1ed784cdd2f09b283f5cd1bb8301aae2e8527"
+          }
+        }
+      }
+    ],
+    "retained_initial_successful_method": [
+      "rolePreservesOriginalGoldenTypedInputsAndInvalidMemberSemantics()"
+    ],
+    "pass_accounting": "Three distinct new methods covered across firstgolden1P and finaltwo public2P, not a single-generation3P claim.",
+    "last_close_utc": "2026-11-07T19:17:46.829631+00:00",
+    "all_own_resources_released": true,
+    "old_Test_codec_or_production_recompile": 0,
+    "capacity_bytes": {
+      "Gap": {
+        "full_snapshot_fixture": 3404665,
+        "typed_role": 2662
+      },
+      "Loan_wrapper": {
+        "full_snapshot_fixture": 3406815,
+        "typed_role": 4881
+      }
+    },
+    "capacity_is_not_CPU_or_live_speed": true
+  },
+  "test_provenance": {
+    "unconsumed_history": "First139rows of qualified Driver1475 injected only as unrelated unconsumed fixture extension; not claimed same world as FinanceCurrent.",
+    "positive_Loan": "Original-producer software vector ordinal314 explicitly synthetic episode/cash source; not live permission.",
+    "resources": [
+      {
+        "name": "driver1475.json.gz",
+        "bytes": 328918,
+        "sha256": "0d4181fca4a76f55025ed6080b277877ef6a9da1b62ce6cbc11f9e1e97226184"
+      },
+      {
+        "name": "original-v1.jsonl.gz",
+        "bytes": 20361,
+        "sha256": "4d0b61ac6ce05b16b78b3ff4bf51891b9780ba348edff7d8c8c6da09780c3539"
+      },
+      {
+        "name": "golden.json",
+        "bytes": 68264,
+        "sha256": "36133fdf1f0da339cf31f453c7c162a3e909d63ab5b7152adda1d9d1cee0dee3"
+      }
+    ],
+    "golden_corpus": {
+      "vectors": 31,
+      "typed_results_equal": 28,
+      "original_rejections_preserve_type_message": 3,
+      "JUnit_methods_for_corpus": 1
+    },
+    "public_role_scope": "Public Gap/Emergency/loan wrapper with original software packets, objects and frame/source bytes, not full Construction or received funds."
+  },
+  "formal_publication": {
+    "business_commit": "38e024f468f7c6e67c18a0fe8aecf130ec63d399",
+    "origin_master_at_receipt": "38e024f468f7c6e67c18a0fe8aecf130ec63d399",
+    "remote_master_at_receipt": "38e024f468f7c6e67c18a0fe8aecf130ec63d399",
+    "files": 6,
+    "raw_pin": {
+      "bytes": 819,
+      "sha256": "d65ff4b01235cece75082dda1a12ddf115df70a06e331525e1fc72cabf89c538"
+    },
+    "runtime_adopted": false,
+    "new_verified_saved_days": 0
+  },
+  "runtime_adopted": false,
+  "actual_financing_funds_or_live_performance_credit": false,
+  "backend_weights_quantization_build": null,
+  "cost": {
+    "owner_preparation_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "coordination_seconds": null,
+    "test_active_seconds": null,
+    "publication_active_seconds": null,
+    "net_owner_saving_seconds": null
+  },
+  "new_http_for_documentation": 0,
+  "new_opencode_native_task": 0,
+  "this_case_publication_does_not_complete_continuous_goal": true,
+  "next_trigger": "Next actual source call/adoption/measurement or contract change; no quota-filling or rerun of completed generation.",
+  "hello_build_keys": [
+    "expected_ck3_version",
+    "expected_ck3_sha256",
+    "game_version",
+    "executable_sha256"
+  ]
+}

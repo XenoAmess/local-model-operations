@@ -4436,3 +4436,11 @@ prod始终1TU0/4class。新Test首3方法2P1F、diagnostic只failed1F、最终�
 四独立JVM A0/B0/B1/A1，CPU1/384MiB/45s，8warm+16measured全保、每mode8。相同139行history重建变体计入共同P104比较和失败初次compact，只有Selector二进制前缀变；fullformatter中位数140.26505→47.0638495ms（−66.4465%），主线程allocated中位192894264→61160740B（−68.2931%），完整formatter输出1537575→60559B（−96.0614%）。旧运行2784926B不是A基线；probe01漏掉的负担不冒完整输入，恢复成员原位置unknown，不冒原内部Root。所有预热／样本／process／main／load／setup／outer／OSpeak保留；主线程分配非总进程分配或RSS峰值，不授HTTP／Runtime／保存日收益。
 
 业务7files正常发表`94d85256583ac226f62c5638220c16315bae962a`且remote一致，P107独立dirty保留未混入，不称全树clean。19:07:14.448230Z全部软件资源闭合；本有限case发表不完成持续性能目标，下一真实调用／采用／测量触发后继续记录。
+
+## 2026-11-08：融资snapshot角色闭合P107
+
+`HTTP-JAVA-FINANCING-SNAPSHOT-ROLE-107`两轮真实fixed3/max3500→4000，9源145427B→新增Loan/RawCash后11源187255B；后到合同不算首稿遗漏。均200/stop/DONE/VALID、各1POST/1END/0retry，TTFT4.1723146／2.2872804秒、总11.3246599／12.2036912秒，reported31479/1206与41538/1706，cachednull。首稿缺imports／缺war_id时误保父数组，源审拒收未编；R2字段union部分采用，owner较小copy-present／原顺序helper接线，无完整方法原样。
+
+保presence/null/坏形状及expected:null优先，cash／source原对象完整，角色不是全snapshot无损或新权威。prod1TU0/12class；新Test首1P0F2E为owner大写machineID夹具未到Collector，改fixture后仅两errorcase2P，31-vector方法原绿保留，不写最后同JVM3P，不归模型/生产错误。139history为无关未消费DATA扩展，Loan ordinal314本已synthetic，不授同世界或live许可。31原向量28typed相同／3原拒绝保type+message，不是31新JUnit方法。
+
+同组件输入Gap3404665→2662B、Loan3406815→4881B，容量修复不授CPU／实机速度／完整Construction。最终19:17:46.829631Z资源闭合，6files正常发表`38e024f468f7c6e67c18a0fe8aecf130ec63d399`，remote一致。[真实输入范围、采用与owner错误分账](evidence/2026-11-08-http-financing-role107.md)保所有原阶段／资源pin和未知成本，0Runtime／资金到账／保存日信用；持续性能目标仍进行。
