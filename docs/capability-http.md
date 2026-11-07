@@ -4451,3 +4451,11 @@ prod始终1TU0/4class。新Test首3方法2P1F、diagnostic只failed1F、最终�
 508原稿错领袖字面量/pcall多值当数组/外层未保护，owner提示漏精确LEADER_BAIQI来源也记录，15checkedowner只读Native85自宗教/孔子事实；509两个真实锚点唯一可编译，但post仍用反向ownsflag做回执，另一先知存活时失败，whole拒，仅pretrue方向修改采用。ownerpost确切持久OBSERVED/token+earned增加、旧保护不变。原版ReligionScreen126/384—387 true应useprophet；Nativeold158ownsprophettrue但created-1/earned0/faith934.7421875，当前非圣地且JLEGACY，未激活。修fixturetrue-before/false-consumed、三新methods、Controller消费者和CoreharnessLua51。双先知fixture首次缓存旧FindID，已动态修后重跑17case，旧85fail11/raw509fail1/owner86zero。full1214run1213pass1SDK环境skip99.683s，74Lua51/96zipSHA0201430c891ee31d41f9493295d574e160604fbf62579699fc79abcaa01aa627。85owned24476已private158hash复核/正式Exit一次，终态另核；86未安装Native，Alpha2仍82。累计509474stop32length3transportHTTP539extra30/OpenCode新0/未知null，canonical复用Nov8维护。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source86-prophet509.json)。
+
+## 2026-11-08：cash完整snapshot重复编解码P108
+
+`HTTP-JAVA-CASH-SNAPSHOT-PERFORMANCE-108`一轮1POST/1END/0retry、fixed3/max1000/temp0/thinkingfalse/JSON/SSE，200/stop/DONE/VALID；有效TTFT2.8512367秒、总6.1132815秒、reported21394/456、cachednull。owner给确切第二参替换和P107完整依赖闭合，单行hunk逐字采用；额外说明误列未读取的snapshot.player_armies不采用，未据此扩role。依赖P107私有helper，不授冻结Runtime body-only热替。
+
+实际1prodTU0/12class、1newTest/mainTU0/2class、仅2newmethods2P无本单软件RED，32normalize/7rawContext/两个原拒绝是向量覆盖，不是额外JUnit方法；publiccash原软件packet／frame／source／deadline／输入保持。ABBA四独立JVM CPU1/384m45、8warm+16sample全保：完整publiccash中位26.075399→9.7960495ms（−62.4318%），主线程allocated均53364058→572362B（−98.9274%）。输入snapshot3402368B同hash、role434B；rawcash4134/0d77…和normalized4134/a3ad…是不同字节对象，各自跨四run同，packet757b…也同。
+
+完整outer合计A12.0043524/B11.0969114秒，load/setup/main/process/OSpeak均保，不拿组件差当全程／HTTP／实机日收益。旧wrapper LIFE106标签保raw并按P108实际CONFIG/FQN/source绑定，不误归旧任务或为label重跑。19:30:40.975409Z资源全闭，5files正常发表`e4568300d1d34e5e69b34d891cb5a14cd642cfb9`且remote一致；P109独立dirty未混入。[全部样本、字节角色和采用分账](evidence/2026-11-08-http-cash-snapshot108.md)保未知owner成本，0Runtime／保存日信用，持续目标仍进行。
