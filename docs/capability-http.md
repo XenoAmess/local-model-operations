@@ -4499,6 +4499,14 @@ prod始终1TU0/4class。新Test首3方法2P1F、diagnostic只failed1F、最终�
 
 三个新方法分别Test03 codec1P、Test07 small1P、Test08 onlylarge1P，**非同JVM3P**；末actor42.1415376/outer42.8581214秒，20:59:20.715767Z全闭。完整PlanningWire1060851B/SHA96e5502c…、manifest13737B仅功能资格，manifestSHA未报告；旧final误标签保原件，用02和addendum纠正，无JVM重跑。业务6files `fbc8cafb59977735ee13d3021409c1f14daa9eab`正常发表且remote一致；纯文档`ef9c87a`后到区分console runner/XML时间。[全错误链、稳定source原件、严格全文回读与未知成本](evidence/2026-11-08-http-finance-full-plan111.md)保留，0性能/Runtime/Game/保存日信用，持续目标不结束。
 
+## 2026-11-08：Construction完整原件与三个独立公共软件方法P113
+
+`HTTP-JAVA-CONSTRUCTION-FULL-ORIGINAL-113`为SDK两轮和Material一轮两项强指导源码任务，fixed3/max10000、10000、8000，源码15/175983B、15/175983B、12/145822B，均1POST/0retry、200/stop/DONE/VALID。有效TTFT5.4137913/0.9530756/4.2305978秒，总23.1428428/24.1707966/23.5987942秒；cachednull。SDK01 final/type/mapper/原件/父shape/顺序错拒收；SDK02及Material核心partial，owner补full lane/readback/编码/版本/active槽与imports。Request record为真API，坏稿未编；后继11App接线及canonical/header修正为owner，不授模型整单实现。
+
+全SDK临时角色与完整outer/nested原件、同writer FullMaterial物理读回/strict manifest/owning intent/restore/outcome/material闭合，旧262K/4MiB/Guard/hash/已发行命令不改。最终22prodTU/16源、18TestTU/3新Test、2changed fixtureTU，共42必要TU执行，0未改旧绿重编；SDK首3P2E→current5P但Native actor误归probe的离线纠正、Custody原2P1F与canonical/header后2P+1P及Public05–14全错均保。Public12是真生产header顺序bug；genericACK Rejected15真UNKNOWN/1F不洗，Rejected16由原coordinator真实afterIntent第二Guard产生BEFORE_WRITE/0bytes proof。
+
+Public Applied15/Unknown15/Rejected16三个独立JVM各1P，非同JVM3P；末23:29:47.867285Z释放。Root698pins全吻合与九具名阳性软件原件独审，plan6828384B/material6850180B只功能资格，未作速度对照。业务23files `16a7e1ebda3aee214af908cd7513dc905adce11d`正常发表且remote一致；SDK Codec四空行格式化非空行逐byte同、编译原件保留0重跑。[完整模型采用、48实际阶段、失败/标签/格式谱系与未知成本](evidence/2026-11-08-http-construction-full-original113.md)保留；私有source-index/CAS不公开，0Runtime/P100/Game/TTFT/保存日信用，持续goal与独立P114继续。
+
 
 ## 2026-11-08：Civ6source87-district515
 
