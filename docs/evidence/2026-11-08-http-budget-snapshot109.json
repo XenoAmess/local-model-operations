@@ -1,0 +1,603 @@
+{
+  "schema": "local-model-operations.http-case/v1",
+  "case_id": "HTTP-JAVA-BUDGET-SNAPSHOT-PERFORMANCE-109",
+  "mode_id": "http-candidate",
+  "local_observation_date": "2026-11-08",
+  "local_timezone": "Asia/Shanghai",
+  "request_utc_date": "2026-11-07",
+  "shared_repo_base": "80d6d416bc7fc94d889419006196efdb4194a781",
+  "software": {
+    "qualification_pin": {
+      "bytes": 25772,
+      "sha256": "3e23066e1084a44cd8c5877f5b2c8eef19234ca232dc105ae61e2c4f9f4599c8"
+    },
+    "counts": {
+      "production_TUs": 1,
+      "new_Test_and_manual_main_TUs": 1,
+      "new_JUnit_methods": 3,
+      "old_Test_methods": 0,
+      "unchanged_prod_or_codec_recompile": 0,
+      "benchmark_independent_JVMs": 4,
+      "warmups_total": 8,
+      "measured_total": 16,
+      "HTTP_Game_Native_P100": 0
+    },
+    "phases": [
+      {
+        "phase": "prod",
+        "process_seconds": 5.276533199939877,
+        "outer_seconds": 5.932980900048278,
+        "closed_at_utc": "2026-11-07T19:33:37.754858+00:00",
+        "exit_code": 0,
+        "class_count": 12,
+        "raw_pins": {
+          "ACTUAL.json": {
+            "bytes": 1521,
+            "sha256": "f5504ed359401e5dba9e29ae8e871885e408e35da3fd547f36dbe2f635dd604e"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 237,
+            "sha256": "e903f5a6655228afdd1e38455f90529885ea1f7fdeb050921a3ab32cf0472b31"
+          },
+          "CHILD-OS-RESOURCE-PEAKS.json": {
+            "bytes": 507,
+            "sha256": "f7d01bc57de47df45fd5c84122b527b76ce989ba874aa39b1ccc86bb3e9eddd9"
+          }
+        },
+        "outer_pin": {
+          "bytes": 858,
+          "sha256": "43bf7b2a87701f7186d67bb0c822653795fa0ccedc59c681393b4c39aa013d98"
+        }
+      },
+      {
+        "phase": "test",
+        "process_seconds": 4.557188100065105,
+        "outer_seconds": 5.185623199911788,
+        "closed_at_utc": "2026-11-07T19:34:15.044248+00:00",
+        "exit_code": 0,
+        "class_count": 2,
+        "raw_pins": {
+          "ACTUAL.json": {
+            "bytes": 1467,
+            "sha256": "e25d7a3853b2ad611884c114d0ee2d8aa338836df521eb8558e6e35f35df431f"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 237,
+            "sha256": "a68b287003046cf55e86528a2e3e50a50de09f3d14c6627f4c93395638b6038c"
+          },
+          "CHILD-OS-RESOURCE-PEAKS.json": {
+            "bytes": 507,
+            "sha256": "5ad1d2f91e500f4751c73044ec3d6a30d04e67a737e927e5c8197043d21afcf7"
+          }
+        },
+        "outer_pin": {
+          "bytes": 858,
+          "sha256": "676e32444b3c372a60fa09f20d6f99f4ea209e03be7b1019a8726ad37993c87a"
+        }
+      },
+      {
+        "phase": "junit",
+        "process_seconds": 7.148744100006297,
+        "outer_seconds": 8.108297700062394,
+        "closed_at_utc": "2026-11-07T19:34:30.109026+00:00",
+        "exit_code": 0,
+        "class_count": null,
+        "raw_pins": {
+          "ACTUAL.json": {
+            "bytes": 1280,
+            "sha256": "80b19dcdb2efd4072b4e795a8c809ac1dd0b0a12cd968314ed629a3309f19f03"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 238,
+            "sha256": "b4dda9c20b9c2630e71e80e846cbf6570627341bf298b12deb1cd478ed39aebb"
+          },
+          "CHILD-OS-RESOURCE-PEAKS.json": {
+            "bytes": 506,
+            "sha256": "17589fced3c0801a31175e7eea818589a27c52d08891eb68d947a9ba2afc9200"
+          }
+        },
+        "outer_pin": {
+          "bytes": 861,
+          "sha256": "25a3f458823e6e5e71afb382da7d81edf8d98d3fc271b75badc1cfbee0ed08ee"
+        }
+      },
+      {
+        "phase": "A0",
+        "process_seconds": 3.970540100010112,
+        "outer_seconds": 4.619021799997427,
+        "closed_at_utc": "2026-11-07T19:34:37.987445+00:00",
+        "exit_code": 0,
+        "class_count": null,
+        "raw_pins": {
+          "ACTUAL.json": {
+            "bytes": 1325,
+            "sha256": "6a0bd870dff1d8e8bbe5c2d289c021857dab92e692ff666f7f724a18e1d6ee82"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 235,
+            "sha256": "57119eccd9d2e51c6963cb79626366ec465dd499f13b4651b2b6bcd0405513bb"
+          },
+          "CHILD-OS-RESOURCE-PEAKS.json": {
+            "bytes": 506,
+            "sha256": "6884c63caa365686fcf55c329b418ad56cbad23f5ea2740f67d951dd81e20345"
+          }
+        },
+        "outer_pin": {
+          "bytes": 852,
+          "sha256": "35f14d5cd0ff5713e2a63c91e201014c23844b7a1f63d8a4b9fb988e773714f3"
+        }
+      },
+      {
+        "phase": "B0",
+        "process_seconds": 3.9157932999078184,
+        "outer_seconds": 4.558199700084515,
+        "closed_at_utc": "2026-11-07T19:34:46.985719+00:00",
+        "exit_code": 0,
+        "class_count": null,
+        "raw_pins": {
+          "ACTUAL.json": {
+            "bytes": 1326,
+            "sha256": "ac7a50eadc733e29752a206bc01b412dd03279b3c9efcedd069400c91a6e4036"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 235,
+            "sha256": "c40703281cc78ee97e36b5fe5e479616202a33c61d2ae7be35f27437b3fed820"
+          },
+          "CHILD-OS-RESOURCE-PEAKS.json": {
+            "bytes": 506,
+            "sha256": "b28a6daa3be90f93c9ece000e9465b4fdaecd422a5625786fb889582d988ba12"
+          }
+        },
+        "outer_pin": {
+          "bytes": 852,
+          "sha256": "cb5e91fe2c4ef4f1a8064dfb70a7eb4dd1e579a6941c6b6f776c4f04b36daa40"
+        }
+      },
+      {
+        "phase": "B1",
+        "process_seconds": 4.225558700039983,
+        "outer_seconds": 5.188572800019756,
+        "closed_at_utc": "2026-11-07T19:34:55.594426+00:00",
+        "exit_code": 0,
+        "class_count": null,
+        "raw_pins": {
+          "ACTUAL.json": {
+            "bytes": 1325,
+            "sha256": "13d75cf286d7ea1b1ae610811cd45fdecddadd7f1064fb3491d3e8575d0078a5"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 235,
+            "sha256": "a26763dddd4fa71980db314657f0375145a420fc601d94a69b027a3e389f015b"
+          },
+          "CHILD-OS-RESOURCE-PEAKS.json": {
+            "bytes": 506,
+            "sha256": "69a67eefc4fed09a4bada4e92f8c1b65865bb5ea7882da73892ec5d49886cca3"
+          }
+        },
+        "outer_pin": {
+          "bytes": 852,
+          "sha256": "f47e00be0bd80dcd816a18bfcebb96683f613babb050af9c318d7c026530103b"
+        }
+      },
+      {
+        "phase": "A1",
+        "process_seconds": 3.999110099975951,
+        "outer_seconds": 4.717453600023873,
+        "closed_at_utc": "2026-11-07T19:35:04.792321+00:00",
+        "exit_code": 0,
+        "class_count": null,
+        "raw_pins": {
+          "ACTUAL.json": {
+            "bytes": 1325,
+            "sha256": "a29797015188066b28c98c9a6204c684ad109a0f3dac99636d60daaf5ab2485c"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 235,
+            "sha256": "5de46e6e5845f42c37022d0830ee84f1e4f014b497dd6bc1f3b6e0a377105e06"
+          },
+          "CHILD-OS-RESOURCE-PEAKS.json": {
+            "bytes": 506,
+            "sha256": "488aefe2d3310f8e3bd9202b400212a4d5d451503b067f4fcae16eb7ca47003f"
+          }
+        },
+        "outer_pin": {
+          "bytes": 852,
+          "sha256": "239605bfa4757dabe10fed8ff6c02efe9a760f79f7b1494afd4317eb63b496c1"
+        }
+      }
+    ],
+    "JUnit": {
+      "new_methods": 3,
+      "passes": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xml_pin": {
+        "bytes": 43485,
+        "sha256": "e798e3b8d8691dcb58886003b9db724d4479136b2954958d46ec05a3050c8449"
+      }
+    },
+    "coverage": "30 original budget vectors compare typed requests/results/encoded bytes; invalid war rows, duplicate row count, pending missing/null/value, four full domain documents and state/head preserved. Not30extraJUnitmethods.",
+    "provenance": "Original feastbudget software producer vector plus unconsumed139Driver history extension; no completeRoot/Nativeauthority",
+    "last_close_utc": "2026-11-07T19:35:04.792321+00:00",
+    "all_children_closed": true
+  },
+  "matched_measurement": {
+    "samples_pin": {
+      "bytes": 10882,
+      "sha256": "e6d7c219c7d144eaaf18070793f0648c051f447b8976393460c13bb934bd9269"
+    },
+    "root_independent_review_pin": {
+      "bytes": 9090,
+      "sha256": "71d38289d9232f40adf2ec936cec24e7ca7421fba909ff77a77ee654813b82a4"
+    },
+    "counts": {
+      "JVMs": 4,
+      "warmups": 8,
+      "measured": 16,
+      "per_mode": 8
+    },
+    "budgets": "CPU1/384MiB/45s per JVM",
+    "comparison": {
+      "baseline": "Existing qualified P10812class sourced720; not recompiled",
+      "candidate": "P10912class source09536; budget independentrole wrapper argument only",
+      "classpath": "Same ordered CP except P108vsP109Collector root at identical index; P107 compiled purefixture only,0old@Test",
+      "budgets": "eachJVM CPU1/Xmx384m/45s;compile192m30;A0B0B1A1 fixed order",
+      "timer": "complete publicbudget input assembly/encode/decode/observe; oracle/setup/load/warmups/raw/main/process windows retained separately",
+      "allocation": "main thread allocated bytes only; not total process allocation or heap peak",
+      "OS_peaks": "owned retained child HANDLE process lifetime peaks; not heap or whole machine",
+      "provenance": "Original feastbudget software producer vector plus unconsumed139Driver history extension; no completeRoot/Nativeauthority",
+      "functional": "all30 original typed requests/results/presence+invalidwar/pendingmatrix+fouroriginaldomain documents/statehead and publicresult",
+      "capacity": "FeastBudget original large limit unchanged; not64Kfunctional fix"
+    },
+    "all_runs": [
+      {
+        "tag": "A0",
+        "mode": "baseline",
+        "process_seconds": 3.970540100010112,
+        "close_at": "2026-11-07T19:34:37.987445+00:00",
+        "load_ns": 3095375000,
+        "oracle_setup_ns": 24578099,
+        "main_ns_before_output": 3326596699,
+        "all_samples": [
+          {
+            "index": 0,
+            "warmup": true,
+            "public_budget_ns": 24677500,
+            "main_thread_allocated_bytes": 52036856
+          },
+          {
+            "index": 1,
+            "warmup": true,
+            "public_budget_ns": 32504700,
+            "main_thread_allocated_bytes": 51992952
+          },
+          {
+            "index": 2,
+            "warmup": false,
+            "public_budget_ns": 16862400,
+            "main_thread_allocated_bytes": 51992952
+          },
+          {
+            "index": 3,
+            "warmup": false,
+            "public_budget_ns": 22442100,
+            "main_thread_allocated_bytes": 51992952
+          },
+          {
+            "index": 4,
+            "warmup": false,
+            "public_budget_ns": 22752800,
+            "main_thread_allocated_bytes": 51992952
+          },
+          {
+            "index": 5,
+            "warmup": false,
+            "public_budget_ns": 18513300,
+            "main_thread_allocated_bytes": 51992952
+          }
+        ]
+      },
+      {
+        "tag": "B0",
+        "mode": "candidate",
+        "process_seconds": 3.9157932999078184,
+        "close_at": "2026-11-07T19:34:46.985719+00:00",
+        "load_ns": 3045729700,
+        "oracle_setup_ns": 23903400,
+        "main_ns_before_output": 3144837199,
+        "all_samples": [
+          {
+            "index": 0,
+            "warmup": true,
+            "public_budget_ns": 3638400,
+            "main_thread_allocated_bytes": 110400
+          },
+          {
+            "index": 1,
+            "warmup": true,
+            "public_budget_ns": 503400,
+            "main_thread_allocated_bytes": 28872
+          },
+          {
+            "index": 2,
+            "warmup": false,
+            "public_budget_ns": 280200,
+            "main_thread_allocated_bytes": 28872
+          },
+          {
+            "index": 3,
+            "warmup": false,
+            "public_budget_ns": 259000,
+            "main_thread_allocated_bytes": 28872
+          },
+          {
+            "index": 4,
+            "warmup": false,
+            "public_budget_ns": 120800,
+            "main_thread_allocated_bytes": 28872
+          },
+          {
+            "index": 5,
+            "warmup": false,
+            "public_budget_ns": 2489399,
+            "main_thread_allocated_bytes": 28872
+          }
+        ]
+      },
+      {
+        "tag": "B1",
+        "mode": "candidate",
+        "process_seconds": 4.225558700039983,
+        "close_at": "2026-11-07T19:34:55.594426+00:00",
+        "load_ns": 3046235000,
+        "oracle_setup_ns": 24450999,
+        "main_ns_before_output": 3143870600,
+        "all_samples": [
+          {
+            "index": 0,
+            "warmup": true,
+            "public_budget_ns": 3290500,
+            "main_thread_allocated_bytes": 110400
+          },
+          {
+            "index": 1,
+            "warmup": true,
+            "public_budget_ns": 486301,
+            "main_thread_allocated_bytes": 28872
+          },
+          {
+            "index": 2,
+            "warmup": false,
+            "public_budget_ns": 276599,
+            "main_thread_allocated_bytes": 28872
+          },
+          {
+            "index": 3,
+            "warmup": false,
+            "public_budget_ns": 280500,
+            "main_thread_allocated_bytes": 28872
+          },
+          {
+            "index": 4,
+            "warmup": false,
+            "public_budget_ns": 117200,
+            "main_thread_allocated_bytes": 28872
+          },
+          {
+            "index": 5,
+            "warmup": false,
+            "public_budget_ns": 2059401,
+            "main_thread_allocated_bytes": 28872
+          }
+        ]
+      },
+      {
+        "tag": "A1",
+        "mode": "baseline",
+        "process_seconds": 3.999110099975951,
+        "close_at": "2026-11-07T19:35:04.792321+00:00",
+        "load_ns": 3044259301,
+        "oracle_setup_ns": 25064000,
+        "main_ns_before_output": 3266089201,
+        "all_samples": [
+          {
+            "index": 0,
+            "warmup": true,
+            "public_budget_ns": 23980200,
+            "main_thread_allocated_bytes": 52036856
+          },
+          {
+            "index": 1,
+            "warmup": true,
+            "public_budget_ns": 32552400,
+            "main_thread_allocated_bytes": 51992952
+          },
+          {
+            "index": 2,
+            "warmup": false,
+            "public_budget_ns": 17085700,
+            "main_thread_allocated_bytes": 51992952
+          },
+          {
+            "index": 3,
+            "warmup": false,
+            "public_budget_ns": 21292001,
+            "main_thread_allocated_bytes": 51992952
+          },
+          {
+            "index": 4,
+            "warmup": false,
+            "public_budget_ns": 16898200,
+            "main_thread_allocated_bytes": 51992952
+          },
+          {
+            "index": 5,
+            "warmup": false,
+            "public_budget_ns": 17935600,
+            "main_thread_allocated_bytes": 51992952
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "baseline": {
+        "sample_count": 8,
+        "public_budget_ms_median": 18.22445,
+        "public_budget_ms_min": 16.8624,
+        "public_budget_ms_max": 22.7528,
+        "public_budget_ms_mean": 19.222762625,
+        "main_thread_allocated_bytes_median": 51992952.0,
+        "main_thread_allocated_bytes_mean": 51992952,
+        "main_thread_allocated_bytes_min": 51992952,
+        "main_thread_allocated_bytes_max": 51992952,
+        "combined_process_seconds": 7.969650199986063
+      },
+      "candidate": {
+        "sample_count": 8,
+        "public_budget_ms_median": 0.2783995,
+        "public_budget_ms_min": 0.1172,
+        "public_budget_ms_max": 2.489399,
+        "public_budget_ms_mean": 0.735387375,
+        "main_thread_allocated_bytes_median": 28872.0,
+        "main_thread_allocated_bytes_mean": 28872,
+        "main_thread_allocated_bytes_min": 28872,
+        "main_thread_allocated_bytes_max": 28872,
+        "combined_process_seconds": 8.141351999947801
+      }
+    },
+    "exact_markers": {
+      "snapshot_bytes": 3402157,
+      "snapshot_sha256": "8d5f01c8b963ec69ccf67abab39d94462b009a3b62e772a81213d82c70db246f",
+      "root_sha256": "2317f4e3482713c9dc26576483a39feb4cf8a36d64dd020da2d6a6a36935ac14",
+      "expected_result_bytes": 694,
+      "expected_result_sha256": "f463be75ab7cb0f5e5a5828f5a0fc8b25f2055bb8e645ba7f39fbb973cf45c24"
+    },
+    "median_component_time_reduction_fraction": 0.9847238462614784,
+    "mean_main_thread_allocation_reduction_fraction": 0.9994446939654437,
+    "combined_process_seconds": {
+      "baseline": 7.969650199986063,
+      "candidate": 8.141351999947801
+    },
+    "outer_combined_seconds": {
+      "baseline": 9.3364754000213,
+      "candidate": 9.74677250010427
+    },
+    "whole_process_or_outer_faster": false,
+    "negative_whole_process_result_retained": true
+  },
+  "historical_runner_label": "Production wrapper event/schema retain CASH108 template labels; concrete CONFIG/source/paths and child logs bind P109 actual. Test/main wrapper labels updated before BEGIN; no raw edited.",
+  "source_pin": {
+    "bytes": 41811,
+    "sha256": "09536b5a04146a49440ad949778fe9dfcafa707ca07d7ba8db816e80bb832337"
+  },
+  "formal_publication": {
+    "business_commit": "c11ac8b5a2f30027fe0d397b7150cecd96184d42",
+    "origin_master_at_receipt": "c11ac8b5a2f30027fe0d397b7150cecd96184d42",
+    "remote_master_at_receipt": "c11ac8b5a2f30027fe0d397b7150cecd96184d42",
+    "files": 6,
+    "isolated_status_at_receipt": "clean",
+    "raw_pin": {
+      "bytes": 1051,
+      "sha256": "8effd5c10bd075799733f29bd106f98083dccfada5730143653abee52b39e19a"
+    },
+    "no_publication_time_health_extrapolation": true,
+    "runtime_adopted": false,
+    "new_verified_saved_days": 0
+  },
+  "scope": "Actual budget role optimization; component benefit and slower complete process both retained. No documentation HTTP/JVM/business execution.",
+  "guidance": "Owner gave actual budget field closure, malformed/pending semantics, existing projection helper reuse and exact producer boundary; strongly guided implementation.",
+  "round": {
+    "model": "qwen38-coder",
+    "max_tokens": 1800,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "post_begin_utc": "2026-11-07T19:21:53.500748+00:00",
+    "attempt_end_utc": "2026-11-07T19:22:06.144719+00:00",
+    "post_count": 1,
+    "transport_retries": 0,
+    "source_count": 5,
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "message_utf8_bytes": [
+      301,
+      76120,
+      3178
+    ],
+    "http_status": 200,
+    "http_headers_ms": 2337.4151999596506,
+    "first_nonempty_content_delta_ms": 2368.2684999657795,
+    "total_ms": 12643.783899955451,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "usage": {
+      "prompt_tokens": 17070,
+      "completion_tokens": 1710,
+      "total_tokens": 18780
+    },
+    "cached_prompt_tokens_if_reported": null,
+    "json_syntax": "VALID",
+    "actual_peer": "UNKNOWN",
+    "frozen_client_candidate_review": "NOT_YET_REVIEWED",
+    "frozen_client_adopted": false,
+    "later_owner_decision": "CORE_ROLE_PARTIAL_OWNER_EXISTING_SELECTOR_STREAM_IMPLEMENTATION",
+    "raw_pins": {
+      "REQUEST.json": {
+        "bytes": 81878,
+        "sha256": "31964391962296df0b77aa62308c6514bcd31da9654fdc94ac5470a3206aed53"
+      },
+      "ATTEMPT1-RESULT.json": {
+        "bytes": 1283,
+        "sha256": "10c772860a8c5e3ada9715907517f37b46d27b09454798453a2053d28566b70b"
+      },
+      "ATTEMPT1-CONTENT.txt": {
+        "bytes": 7643,
+        "sha256": "202e81810728a17a4b3d01f69fced94b5a3f380c81dd2cc3975a41a1e50e36a5"
+      },
+      "EVENTS.jsonl": {
+        "bytes": 2711,
+        "sha256": "74753813c69a37c3ed64006a9b5d10f4cf7fc38116466fd2d9452266d2b958ba"
+      }
+    }
+  },
+  "adoption": {
+    "scope": "Core budget role semantics partially adopted; owner reused existing selector/stream, did not take missingMap/ArrayListimports or verbose whole-method output.",
+    "verbatim_complete_methods": 0,
+    "raw_model_candidate_compiled_or_run": false,
+    "private_helper_added_no_frozenRuntime_body_only_adoption": true
+  },
+  "role_semantics": [
+    "Copy-present only paused/map, nestedactorid, native/date/snapshot/publicrevision, eachwar_id and completepending value.",
+    "Malformed war rows rejected, missing/nullID unknown, duplicateIDs counted as rows; pendingfalse/0/emptyarray remain nonnull, not clear.",
+    "Full fourdomainledgers, inputs, campaignroot, state/head checks and original snapshot/request retained.",
+    "Budget codec already supported large input; no64KiBfunctional repair or cap changes claimed. Role is not complete state archive or authority."
+  ],
+  "runtime_adopted": false,
+  "HTTP_TTFT_or_saved_day_gain_proven": false,
+  "backend_weights_quantization_build": null,
+  "cost": {
+    "owner_preparation_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "coordination_seconds": null,
+    "test_active_seconds": null,
+    "publication_active_seconds": null,
+    "net_owner_saving_seconds": null
+  },
+  "new_HTTP_or_JVM_for_documentation": 0,
+  "this_case_publication_does_not_complete_continuous_goal": true,
+  "next_trigger": "Next actual model/adoption/measurement; no quota filling or completion of continuous goal from this case.",
+  "generated_at_utc": "2026-11-07T19:52:00.626815+00:00"
+}

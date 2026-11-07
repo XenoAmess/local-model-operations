@@ -4459,3 +4459,11 @@ prod始终1TU0/4class。新Test首3方法2P1F、diagnostic只failed1F、最终�
 实际1prodTU0/12class、1newTest/mainTU0/2class、仅2newmethods2P无本单软件RED，32normalize/7rawContext/两个原拒绝是向量覆盖，不是额外JUnit方法；publiccash原软件packet／frame／source／deadline／输入保持。ABBA四独立JVM CPU1/384m45、8warm+16sample全保：完整publiccash中位26.075399→9.7960495ms（−62.4318%），主线程allocated均53364058→572362B（−98.9274%）。输入snapshot3402368B同hash、role434B；rawcash4134/0d77…和normalized4134/a3ad…是不同字节对象，各自跨四run同，packet757b…也同。
 
 完整outer合计A12.0043524/B11.0969114秒，load/setup/main/process/OSpeak均保，不拿组件差当全程／HTTP／实机日收益。旧wrapper LIFE106标签保raw并按P108实际CONFIG/FQN/source绑定，不误归旧任务或为label重跑。19:30:40.975409Z资源全闭，5files正常发表`e4568300d1d34e5e69b34d891cb5a14cd642cfb9`且remote一致；P109独立dirty未混入。[全部样本、字节角色和采用分账](evidence/2026-11-08-http-cash-snapshot108.md)保未知owner成本，0Runtime／保存日信用，持续目标仍进行。
+
+## 2026-11-08：budget角色组件改善但完整进程未加速P109
+
+`HTTP-JAVA-BUDGET-SNAPSHOT-PERFORMANCE-109`一次fixed3/max1800、5源76120B，200/stop/DONE/VALID、1POST/1END/0retry；有效TTFT2.3682685秒、总12.6437839秒，reported17070/1710、cachednull。core角色partial，owner复用既有selector/stream，不采缺Map/ArrayListimports与冗长整方法，未编跑模型原稿。独立budget copy-present保坏war行／重复按行／pending false0[]非null，未给融资role加pending；原codec本已支持大input，不称64KiB修复或改cap。
+
+实际1prodTU0/12class、1newTest/mainTU0/2class、仅3newmethods3P，30原向量typed/result/bytes与四domain全文/statehead保，不是30额外JUnit或live准入。固定四JVM ABBA CPU1/384m45、8warm16sample全保；组件median18.22445→0.2783995ms、主线程allocated均51992952→28872B，wrapper3403002→1064B，结果694/f463…四run同。**整ACTUALprocess A7.9696502→B8.1413520秒，outer A9.3364754→B9.7467725秒，没有更快**；原负向全窗与load/setup/main/OSpeak均保，不只报组件、不授HTTP/Runtime/保存日收益。
+
+19:35:04.792321Z资源全闭，6files正常发表`c11ac8b5a2f30027fe0d397b7150cecd96184d42`且remote一致、发布切点clean。旧CASH108生产wrapper标签保raw并绑定P109实际source，Test/main在BEGIN前更名，不为label重跑。[完整结果、部分采用与未知成本](evidence/2026-11-08-http-budget-snapshot109.md)保留，持续性能目标不因该case发表结束。
