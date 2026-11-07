@@ -4482,3 +4482,11 @@ prod始终1TU0/4class。新Test首3方法2P1F、diagnostic只failed1F、最终�
 510占位M.Select、511路径非Lua、512SafeCall约定错/未给玩家API/丢getter值，whole均拒0rawNative；owner15/16/14Lua51checks后用。源86相同96hash，离线freshproof0.003387s后冷起，原版古典Online速度单人局40到66，26normalEND52armySKIP0move/attack/民事输入。48/50外交阻塞，原END各一次，TEST_PLAYER回复后独立读49/51，无重发。914futureExecutor(892recruit7city15unitop/0cmd)和27宗教快照逐项读一次0error/drop，observer均撤。5改良/寡头4卡/8pop155.5gold/新移民及builderqueue，原版save/load/Continue各一次，UI/Core66保持。points0/rate0/holyfalse/0新先知，激活仍未触发，0grant/private初始化。被俘提示ID未知/scout伤52如实4图内嵌，0玩家攻击不等于0barb战斗，不能压风险。旧85原退出后自有残留退役一次非正常退出；0Steamonline/upload，Alpha2仍82。累计512477stop32length3transportHTTP542extra30/OpenCode新0/未知null，canonical复用Nov8维护。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source86-native512.json)。
+
+## 2026-11-08：和平finalizer两轮拒收与binary有限对照P112
+
+`HTTP-JAVA-PEACETIME-FINALIZER-112`两轮各1POST/1END/0retry，fixed3/max5000、9源107724B，均200/stop/DONE/VALID；有效TTFT3.3361592/0.8151125秒，总10.8981936/10.8366777秒，reported23854/1183与24035/1651、cachednull。首Value API/import/顺序错，返工仍丢null/scalar父和擅裁played_character等，均源审拒收、未编坏稿；model代码采用0，owner copy-present接管，强指导不授独立发现。
+
+实际1prodTU0/22class、1newTest/mainTU0/1class、仅3newmethods3P。Test草稿SDK固定emission oracle与main完整计时修正在BEGIN前，未产生额外RED。完整6805700B query大DATA旧拒/new完整742B正确且原件不变，**只作功能反例，不进速度分母**。角色仅暂态SDK13字段/hello4键，保null/错父/顺序/完整native envelope，原cap/持久query/守卫保持，不授完整quote/action/material。
+
+具名旧22class bytecopy仅`existing_binary_only`，不授完整旧源码谱系或Runtime等价。固定四JVM ABBA CPU1/384m45、8warm16sample全保：同198482B输入/689B固定输出，组件median3.7886→2.83575ms、主线程allocated1984696→64936B；**完整main合计3.3759619→3.3797185秒、outer6.0660970→6.1626870秒未更快**，ACTUALprocess4.7575663→4.7378597秒另保。20:46:39.667224Z资源全闭，6files正常发表`f6c2b638c5cf9e729cff378ade663c966b29a080`且remote一致；P111另dirty未混入，不预授其集成绿。[全部样本、拒收、owner接管与未知成本](evidence/2026-11-08-http-peacetime-finalizer112.md)保留，0Runtime/TTFT/保存日信用，持续goal不结束。
