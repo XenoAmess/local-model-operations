@@ -1,0 +1,131 @@
+{
+  "schema": "local-model-operations.civ6-target495497/v1",
+  "utc": "2026-11-07T15:42:10.720419+00:00",
+  "date_local": "2026-11-07",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/06e3d90520fb4b2bd6ed5072597198ffa8cfec40/docs/research/baiqi-p6-target495497-continuity-source83-evidence-2026-11-07.json",
+    "sha256": "2ee265d77d9862f61686e809ab765ede062e28e02fa3edcf0d365ae2261c1733"
+  },
+  "model": [
+    {
+      "task": 495,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 54601,
+        "completion_tokens": 934,
+        "total_tokens": 55535
+      },
+      "ttft_ms": 7182.700900011696,
+      "total_ms": 13241.476799943484,
+      "shared_commit": "c85e9f791998fe35396c5c73ed294276f5151c7a",
+      "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "candidate_adoption": "REJECTED",
+        "raw_native_calls": 0,
+        "findings": [
+          "Invented public BaiqiController.KnownExpansionSupport/Safe; both are private locals and explicitly prohibited.",
+          "Source does not clear old target when path search exhausts; it remains stored but is not offered for movement when hints omit it.",
+          "Current private goal/support decision was not measured; Native cause must not be asserted."
+        ]
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 496,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 47949,
+        "completion_tokens": 717,
+        "total_tokens": 48666
+      },
+      "ttft_ms": 6222.981299972162,
+      "total_ms": 10819.388999952935,
+      "shared_commit": "c85e9f791998fe35396c5c73ed294276f5151c7a",
+      "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "candidate_adoption": "REJECTED_OWNER_REWRITE",
+        "raw_native_calls": 0,
+        "lua51_compile": {
+          "pass": false,
+          "error": "[string \"<python>\"]:1: 'end' expected near '<eof>'"
+        },
+        "findings": [
+          "Missing end; no Native execution.",
+          "Raw omits active/identity/count guards and current-visible gating before target properties; city identity/support inputs incomplete.",
+          "Owner used actual existing source/API consumers to write the bounded read-only probe; no private calls or game actions."
+        ]
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 497,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 48938,
+        "completion_tokens": 816,
+        "total_tokens": 49754
+      },
+      "ttft_ms": 6329.358900082298,
+      "total_ms": 11370.348400087096,
+      "shared_commit": "c85e9f791998fe35396c5c73ed294276f5151c7a",
+      "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "candidate_adoption": "MODIFIED_CONCEPT_AND_CALL",
+        "raw_native_calls": 0,
+        "whole_raw_adopted": false,
+        "findings": [
+          "Candidate signature/call and retained-target proposal used after review.",
+          "Replaced arbitrary preferred score1000 with explicit priority and ordinary score100.",
+          "Dedup retains maximum native score independent of pairs traversal; first-seen-only candidate could change duplicate ranking.",
+          "All original fresh site/path/dispatch and persistent FOUND guards remain; no new property or bridge."
+        ],
+        "raw_lua51_compile": true
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 497,
+    "complete_stop_valid": 462,
+    "length": 32,
+    "final_transport_failures": 3,
+    "http_attempts": 527,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Build82 official cold64 reload, owned full-ID world and known1983 native-hint membership/current-visible3ring inputs only; no actions, private support calls or hidden attributes. Source83 retains selected-site proposals; nine new software tests and final1172pass1environment skip,71Lua51/93files package.83not yetNative.",
+  "generic_lessons": [
+    "A private local helper is not a callable export merely because the namespace exists; source/API qualification precedes any Native probe.",
+    "Cold reload recreates transient planning memory. It cannot reveal the prior process private goal or provide an atomic historical decision snapshot.",
+    "Recommendations are proposals that may change in transit. Retained goals still need current eligibility, reservation, path and final dispatch checks.",
+    "Deduplicating native-ranked proposals must retain the maximum score independent of pairs traversal; preferred status should be explicit, not an arbitrary large score.",
+    "Compile candidates before Native execution. A complete HTTP JSON can still contain unbalanced Lua and missing visibility/identity/bound guards.",
+    "Versioned test/control consumers are part of a product version change; preserve failed full checks and rerun after repairing actual consumers."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "HTTP completion, owner Lua51/source review, software regression and actual build82 read-only Native inputs are separate. Source83 still awaiting cold Native validation; no new Steam publication and no40TC/goal-persistence/recovery PASS."
+}

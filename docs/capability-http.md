@@ -4377,3 +4377,10 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 Alpha2同item3833805495完成：5append+1content一次OK／0Create／0自动重放，8publisher进程（7creator404350+1consumer289070），12正文HTMLimg/全部图与封面hash/93实际下载22657822B逐项pin一致。人工fresh无人报告才上线；物理GoOffline ACK仍online，正常退出Steam19252、普通重启14904，最后Invoke后14:57:54独立可见GoOnline无输入焦点截图证offline，Steam0terminate/0账号配置写。原Civ6save64后0CPU无UI端口残留>180s只terminate自有tuple，非cleanexit。无新HTTP/OpenCode，累计仍494459stop32length3transportHTTP524extra30，unknownnull。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-workshop-alpha2-final.json)。
+
+
+## 2026-11-07：Civ6target495497
+
+495伪导出与源码误述拒；496缺end且漏安全守卫拒，均0原稿Native；owner只读known1983不在raw3hints／21of37visible0city、ownnearest4，不等于私有support返回或原进程因果。497修改采用已选候选方向／call，owner显式优先并保留重复最高评分。新增9方法，82有3fail；83聚焦98pass，首full18error来自owner漏版本白名单／断言，修后1172pass1SDK环境skip，71Lua51/93zip一致，尚未安装Native。冷读goal不持久化、ARMED／legacyFAIL保留；累计497/462stop32length3transportHTTP527extra30，OpenCode新0，未知null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-target495497.json)。
