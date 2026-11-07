@@ -4333,3 +4333,10 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 485rawcompilefail0Native, owner25pass then current38CanProduce2+appendtrue/activequeue1 and actualnativeemptysettlementhinttable.0gameorders/hooks.Through485452complete30length3transportHTTP515extra30/OpenCode0/unknownnull/Steam0Alpha74.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-production485.json)。
+
+
+## 2026-11-07：Civ6release-tools491
+
+487/488length保留0采用；489—491三个真实窄候选stop/JSON，owner选择部分逻辑并修490硬编码回退与491 count==count+1；14方法（含C#5compile/20纯助手case）pass，0Publisher.Main/SteamAPI。实际HTTP2后3在途区间，累计491/456complete/32length/3transport/HTTP521extra30。产品82/93未改，工坊74未更新，维护复用Nov7同机同用户00:36成功1.19.5，OpenCode新原生0；缓存、成本、人工节时null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-release-tools491.json)。
