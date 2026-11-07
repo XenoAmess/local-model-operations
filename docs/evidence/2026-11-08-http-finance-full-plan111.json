@@ -1,0 +1,1151 @@
+{
+  "schema": "local-model-operations.http-case/v1",
+  "case_id": "HTTP-JAVA-FINANCE-FULL-PLANNING-ARCHIVE-111",
+  "mode_id": "http-candidate",
+  "local_observation_date": "2026-11-08",
+  "local_timezone": "Asia/Shanghai",
+  "request_utc_date": "2026-11-07",
+  "shared_repo_base": "6b5445609fd01e2c968af443e9c964c32b6e2a18",
+  "publication_state": "ACTUAL_BUSINESS_PUBLISHED_READY_FOR_SHARED_REVIEW",
+  "scope": "Actual lossless full PlanningWire sidecar beside legacy v2, bounded public writer/archive software integration. No new model/JVM/business work or performance comparison for documentation.",
+  "guidance": "Owner supplied current writer/readers, full-material declarations and example, deterministic 1MiB/64MiB rules and exact contracts. Second prompt explicitly enumerated all omitted version writer/read callsites and helpers; strongly guided implementation, not independent algorithm discovery.",
+  "rounds": [
+    {
+      "model": "qwen38-coder",
+      "max_tokens": 6000,
+      "temperature": 0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "semantic_round": 1,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "message_utf8_bytes": [
+        301,
+        145062,
+        4399
+      ],
+      "source_count": 9,
+      "post_count": 1,
+      "transport_retries": 0,
+      "post_begin_utc": "2026-11-07T20:06:28.937036+00:00",
+      "attempt_end_utc": "2026-11-07T20:06:40.889271+00:00",
+      "http_status": 200,
+      "http_headers_ms": 4188.41760000214,
+      "first_nonempty_content_delta_ms": 4189.712000079453,
+      "total_ms": 11952.203900087625,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 31593,
+        "completion_tokens": 1311,
+        "total_tokens": 32904
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "actual_peer": "UNKNOWN",
+      "frozen_client_candidate_review": "NOT_YET_REVIEWED",
+      "frozen_client_adopted": false,
+      "later_owner_decision": "rejected",
+      "raw_candidate_compiled_or_run": false,
+      "decision_reason": "Writes reference but lacks closed v3 fields/manifest serializer and strict writer/two reader version dispatch; old v2 guards still reject v3 and claimed hybrid rejection not implemented.",
+      "raw_pins": {
+        "REQUEST.json": {
+          "bytes": 153761,
+          "sha256": "cae2d77581f17a1b18eaf491d321e6f9a7768022c1c12f4d66f7947d2bb45426"
+        },
+        "REQUEST-PREPARATION.json": {
+          "bytes": 869,
+          "sha256": "f8bc308b65d9d4778b344f83c1762d63588826db5fc6a17bc6be5682742f730b"
+        },
+        "ATTEMPT1-RESULT.json": {
+          "bytes": 1270,
+          "sha256": "bd7848331f59771c3a9a79516feb1971f450e71a6ed85929a8a1e3938112faab"
+        },
+        "ATTEMPT1-CONTENT.txt": {
+          "bytes": 5275,
+          "sha256": "15dbe8f2a15f0a84155fec0ee3ebabef76449781ab117215b7e367e7e05de30b"
+        },
+        "ATTEMPT1-RESPONSE.sse": {
+          "bytes": 143126,
+          "sha256": "87603243c44e95f71ba3b59f3b193e1e1672f8827067e799f0e896462d3fe86d"
+        },
+        "EVENTS.jsonl": {
+          "bytes": 2645,
+          "sha256": "f548461a46b38eb15c0eb9f1b55f3168fc0480556f9270330dd08cf5c7c2b111"
+        },
+        "SUMMARY.json": {
+          "bytes": 1619,
+          "sha256": "1542e6dc6f5b68ed077aa3d6aaeb5033c0e13e3cfe2bb138d18f8c3e341fbd34"
+        }
+      },
+      "task_and_spec_pins": {
+        "TASK01.txt": {
+          "bytes": 4399,
+          "sha256": "844d6cfe198ac295c4cc2d25a41ff1fadf5c3f8044ddae2dc0945fafc226760d"
+        },
+        "SPEC01.json": {
+          "bytes": 1124,
+          "sha256": "819b2c3c2e87aff9eced8ab207c16345b12d7a0e6bcfd614a04285e831802631"
+        }
+      }
+    },
+    {
+      "model": "qwen38-coder",
+      "max_tokens": 6000,
+      "temperature": 0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "semantic_round": 2,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "message_utf8_bytes": [
+        301,
+        145062,
+        3708
+      ],
+      "source_count": 9,
+      "post_count": 1,
+      "transport_retries": 0,
+      "post_begin_utc": "2026-11-07T20:08:41.104085+00:00",
+      "attempt_end_utc": "2026-11-07T20:08:58.848363+00:00",
+      "http_status": 200,
+      "http_headers_ms": 941.6905000107363,
+      "first_nonempty_content_delta_ms": 963.7759999604896,
+      "total_ms": 17744.302700040862,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 31485,
+        "completion_tokens": 2952,
+        "total_tokens": 34437
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "actual_peer": "UNKNOWN",
+      "frozen_client_candidate_review": "NOT_YET_REVIEWED",
+      "frozen_client_adopted": false,
+      "later_owner_decision": "core partial plus owner correction",
+      "raw_candidate_compiled_or_run": false,
+      "decision_reason": "Strict version dispatch, shared full loader and write/readback core adopted; owner fixed incomplete existing return parentheses, preserved old helpers and minimized source/style assembly.",
+      "raw_pins": {
+        "REQUEST.json": {
+          "bytes": 153068,
+          "sha256": "b4e0a73515dae776d1bfa4a3bf89887b7d9c833b882b7337a456990be8742c36"
+        },
+        "REQUEST-PREPARATION.json": {
+          "bytes": 869,
+          "sha256": "fd227c86f0bef9451a3f615983143a1b63731a4cba8b58500f027a603befab49"
+        },
+        "ATTEMPT1-RESULT.json": {
+          "bytes": 1271,
+          "sha256": "75344e765731084cd833a576634a6eef6af73172d9c567203355ce36e952f891"
+        },
+        "ATTEMPT1-CONTENT.txt": {
+          "bytes": 12922,
+          "sha256": "60a6a1269f5e2b33ff5cb4a7dbdd4cb4e9d15401edd05ac4bd0affd81d962d11"
+        },
+        "ATTEMPT1-RESPONSE.sse": {
+          "bytes": 310007,
+          "sha256": "3e8b6a4997b7c790afe227f558ae9f5d7e79d16aa6d9fe28014101787cc17fcb"
+        },
+        "EVENTS.jsonl": {
+          "bytes": 2647,
+          "sha256": "282eeb2545e5e6df1687324ef185de7a2da027cf982433457cdd283edb348ebf"
+        },
+        "SUMMARY.json": {
+          "bytes": 1620,
+          "sha256": "a566084b3b91b99697c665a2092dae98884f0f119895b4ad25c368ad2e69ac77"
+        }
+      },
+      "task_and_spec_pins": {
+        "TASK02.txt": {
+          "bytes": 3708,
+          "sha256": "99f48287d5ca96d5ce763a62dc1fdddf09a1a68a4cd0e5524373f89ec63404a0"
+        },
+        "SPEC02.json": {
+          "bytes": 1354,
+          "sha256": "571719a3a055dabc55e4ddb72684a93f604dd0c22145803eef2a4f7dd4cf93c1"
+        }
+      }
+    }
+  ],
+  "adoption": {
+    "scope": "first rejected; second core partially adopted plus owner syntax/assembly correction",
+    "verbatim_complete_methods": 0,
+    "raw_model_candidates_compiled_or_run": false,
+    "owner_Test_fixture_environment_and_cache_errors_are_not_model_errors": true,
+    "production_source_pin": {
+      "bytes": 32472,
+      "sha256": "3e626327bb264ac9fde4638b025b20a74e4d512eb1f7d5c03a959c527357f6c2"
+    },
+    "final_Test_source_pin": {
+      "bytes": 33893,
+      "sha256": "92d7cc637c860ddb1f1df8b7ba17f75c00724bc3384f951f3bc0ccff220e4976"
+    },
+    "source_ready_pin": {
+      "bytes": 879,
+      "sha256": "f2e63a795214cefbb2fd26b06103ea061fc55220e23994ffba03be1ae9fe49b2"
+    },
+    "frozen_Runtime_body_only_adoption_qualified": false
+  },
+  "format_and_custody": [
+    "Legacy v2 SCHEMA/FIELDS/quoteObject/quoteBytes preserve original 1MiB closed-shape/decimal/canonical contract. New strict v3 uses planning_request_ref instead of inline; explicit text version and exact fieldsets reject unknown/missing/null/nontext schemas, hybrids and extra fields; no error fallback.",
+    "Representation changes only when complete original PlanningWire encoded bytes exceed1MiB. Small plans use v2 even if another field overflows manifest, without extra CAS. Reject >64MiB before sidecar write; PlanningWire256MiB capacity is not FullMaterial permission.",
+    "Same held writer FullMaterial CAS preserves original full bytes, loadFullMaterial actually reopens and exact len/SHA plus every-byte producer readback checked. verify and originalRequest share strict loader and actually reopen full material on each read, no metadata-only success/cache/ordinary loadMaterial fallback.",
+    "Manifest itself still <=1MiB in original ordinary material lane; v3 is reference representation, not payload truncation/compression. Existing full source/head/Session/SEM/four reads/owning decoders/six document pin/body guards remain; P110 cash role applied only after original checks, no archived crop. New quotes only; existing commands/hashes/receipts/UNKNOWN unchanged."
+  ],
+  "software": {
+    "qualification_original_pin": {
+      "bytes": 17694,
+      "sha256": "19752cf5fddd64e6736f00449ab2b72f32b5677a0b3b076f1e48b24a2e01f80a"
+    },
+    "historical_partial_pin": {
+      "bytes": 30114,
+      "sha256": "717442f12b1c3e24b61199ad3b6938b46e9f4411f6c2ea8070e1e9af9dfc4301"
+    },
+    "historical_partial_full_large_qualified": false,
+    "root_partial_dependency_review_pin": {
+      "bytes": 1608,
+      "sha256": "b9e4dd4ccd0667d0d9ae56f1854351348a6194102d5546b9aeceef25963c614d"
+    },
+    "root_review_referenced_file_pin_checks": 202,
+    "counts": {
+      "changed_business_Archive_TUs": 1,
+      "necessary_existing_current_CandidateCodec_TUs": 1,
+      "first_existing_public_fixture_TUs": 2,
+      "copied_current_source_families": 10,
+      "copied_classes": 77,
+      "unchanged_Collector_TUs": 0,
+      "old_P090_green_TUs_recompiled": 0,
+      "unique_new_Test_TUs": 1,
+      "necessary_changed_Test_compile_attempts": 6,
+      "Test_compile_RED": 1,
+      "Test_compile_green": 5,
+      "unique_new_JUnit_methods_with_retained_passes": 3,
+      "single_JVM_three_pass_claim": false,
+      "current_latest_JUnit_methods": 1,
+      "current_latest_JUnit_passed": 1,
+      "current_latest_JUnit_failed": 0,
+      "current_latest_JUnit_errors": 0,
+      "current_latest_JUnit_skipped": 0,
+      "old_Test_methods": 0,
+      "HTTP_Game_Native_P100": 0
+    },
+    "all_15_actual_phases": [
+      {
+        "unit": "p111-finance-full-plan-prod01",
+        "phase": "prod",
+        "exit": 0,
+        "actual_seconds": 5.3175681999418885,
+        "outer_seconds": 6.008118300000206,
+        "close_utc": "2026-11-07T20:13:15.869740+00:00",
+        "classcount": 4,
+        "case_results": {},
+        "receipts": {
+          "actual": {
+            "bytes": 1569,
+            "sha256": "95ae2b2bc44477cf3f41984d77af710065bb8ccd13f2d59d2c86ecd77cedbc3d"
+          },
+          "close": {
+            "bytes": 237,
+            "sha256": "6cbbf3129a4412baf5463630ff96b40822b5c4a759bf6ed4839fa09ee029b9d9"
+          },
+          "post": {
+            "bytes": 372,
+            "sha256": "bb9da15f32668d3b4d6eea55750e08c972ed23a6ab3d686f8b16b74130f025ac"
+          },
+          "stdout": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "outer": {
+            "bytes": 874,
+            "sha256": "04ca9396f720b3895822a4b1336a7abbc818022e8f64c3792e9deba7b20ae2c7"
+          }
+        },
+        "reservation_held_after_close": false
+      },
+      {
+        "unit": "p111-public-fixtures01",
+        "phase": "fixtures",
+        "exit": 0,
+        "actual_seconds": 11.971454399987124,
+        "outer_seconds": 12.739047199953347,
+        "close_utc": "2026-11-07T20:22:29.485570+00:00",
+        "classcount": 39,
+        "case_results": {},
+        "receipts": {
+          "actual": {
+            "bytes": 1613,
+            "sha256": "00ddb45b2b24682fb2279dfb095bb377997e1dc6fc3678f79e3eba1ec1784137"
+          },
+          "close": {
+            "bytes": 241,
+            "sha256": "df086ab291f1d688687cdee7799e9a3804b521cf9f9722485f90b0474ba3eadb"
+          },
+          "post": {
+            "bytes": 370,
+            "sha256": "7d1437cd33f2d1e1f8b2a4299ac02322288ce6eba24b4f60802b3271d93056b0"
+          },
+          "stdout": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "outer": {
+            "bytes": 879,
+            "sha256": "e844dbef1831ef1429174b754ffbe7ffcd498e5fb34a8eaecdba44f9fbc566fa"
+          }
+        },
+        "reservation_held_after_close": false
+      },
+      {
+        "unit": "p111-finance-full-plan-test02",
+        "phase": "test",
+        "exit": 1,
+        "actual_seconds": 7.166398399975151,
+        "outer_seconds": 7.874886300065555,
+        "close_utc": "2026-11-07T20:29:40.417010+00:00",
+        "classcount": 0,
+        "case_results": {},
+        "receipts": {
+          "actual": {
+            "bytes": 1532,
+            "sha256": "84f057518950e126e0c026d9736d5467774dd5576ba0b7878e893e65adafd289"
+          },
+          "close": {
+            "bytes": 237,
+            "sha256": "7b0d32f9713ff9963d6cae3afa68cf9c7e33dc9932df1d672c20e345d7ae0446"
+          },
+          "post": {
+            "bytes": 371,
+            "sha256": "04103c609f0cdaf6be27677cb115c2d31d6f97922e927f4ad367e56ab1c93848"
+          },
+          "stdout": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stderr": {
+            "bytes": 315,
+            "sha256": "73b891319f82af2a72a801a6ab679a5a123cc0c27b9d8b62e18aa3996c0fe082"
+          },
+          "outer": {
+            "bytes": 873,
+            "sha256": "05e9875d3d4dd896fbe6c00dfdbbae9b1fd62ad5d00dccb79264e73fc6849519"
+          }
+        },
+        "reservation_held_after_close": false
+      },
+      {
+        "unit": "p111-finance-full-plan-test03",
+        "phase": "test",
+        "exit": 0,
+        "actual_seconds": 6.04154689994175,
+        "outer_seconds": 6.733341100043617,
+        "close_utc": "2026-11-07T20:30:45.564873+00:00",
+        "classcount": 3,
+        "case_results": {},
+        "receipts": {
+          "actual": {
+            "bytes": 1532,
+            "sha256": "9a38e6f44d38b77e28c7ef93b7568b31c4a3a1ed3fe431fbb9d745b3b6d2c76a"
+          },
+          "close": {
+            "bytes": 237,
+            "sha256": "4b0b571f8ab359738235ae3365b2927c6f9872507b9d8c513b9f894fb09d8ab2"
+          },
+          "post": {
+            "bytes": 372,
+            "sha256": "03dd0f942034833955b14809833c6271df5ef1d0f5355114c77f521324f5252b"
+          },
+          "stdout": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "outer": {
+            "bytes": 873,
+            "sha256": "e883e05039c3530422e63cab0abf3fe994092ac3ff90e7aa7b8eafcdca4d6957"
+          }
+        },
+        "reservation_held_after_close": false
+      },
+      {
+        "unit": "p111-finance-full-plan-test03",
+        "phase": "junit",
+        "exit": 1,
+        "actual_seconds": 4.3027087999507785,
+        "outer_seconds": 4.94123060000129,
+        "close_utc": "2026-11-07T20:30:53.689276+00:00",
+        "classcount": null,
+        "case_results": {
+          "error": 2,
+          "pass": 1
+        },
+        "receipts": {
+          "actual": {
+            "bytes": 1336,
+            "sha256": "798f979a4247c8b3e8ed35af652e6769bfe320d4898ee4c8aa300c4b91074580"
+          },
+          "close": {
+            "bytes": 238,
+            "sha256": "ecee61884c467653e800fc5b1df5b7e02e2e60d1578e4ddd28d973f4aad68ce7"
+          },
+          "post": {
+            "bytes": 160,
+            "sha256": "279e4d785163234e3375729000d959b00fcd7af9d7c10fefbccfd71e7f670ef2"
+          },
+          "stdout": {
+            "bytes": 3710,
+            "sha256": "e68be3a6d9a5506ba47ecfd4bc8a141b08c9d41b21094e5848695666cd7e917c"
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "outer": {
+            "bytes": 875,
+            "sha256": "ff3d5dece4a6074e6b5aa6d59b7e1b90a992750bf7bfe0cffb771c1623bddc11"
+          }
+        },
+        "reservation_held_after_close": false,
+        "JUnit": {
+          "tests": 3,
+          "failures": 0,
+          "errors": 2,
+          "skipped": 0,
+          "xml_seconds": 2.336,
+          "xml_pin": {
+            "bytes": 46950,
+            "sha256": "bba98ad302d23a935c287d8542321731242f18ecfe6919cac1e7dc17ae85a2b1"
+          }
+        }
+      },
+      {
+        "unit": "p111-finance-full-plan-jna04",
+        "phase": "junit",
+        "exit": 1,
+        "actual_seconds": 5.080541800009087,
+        "outer_seconds": 5.732176200021058,
+        "close_utc": "2026-11-07T20:32:06.774843+00:00",
+        "classcount": null,
+        "case_results": {
+          "error": 2
+        },
+        "receipts": {
+          "actual": {
+            "bytes": 1417,
+            "sha256": "41159c42c7a31c0faeb7a8bc5fd4309dfdf5e7ebabecb227acc1a3d14a5c97f1"
+          },
+          "close": {
+            "bytes": 238,
+            "sha256": "27c09f63fbb9f3c80fd7b3a13b2b98582bfaf911b371d1ca1038a1caa84f52ee"
+          },
+          "post": {
+            "bytes": 160,
+            "sha256": "57b02d366b97f1fbbc54be4c71b493939f1a5c15a585352cff58b7405849f9df"
+          },
+          "stdout": {
+            "bytes": 2485,
+            "sha256": "7c905df0caca6bbe6ba598dd9f6cc1bda7d3af8f435e90b27e0c4d8b67e516af"
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "outer": {
+            "bytes": 874,
+            "sha256": "9cc5b4bf0f184490a860e2f0ae90512638c9f5270e3a7a71bce6dd1d6afc0e4f"
+          }
+        },
+        "reservation_held_after_close": false,
+        "JUnit": {
+          "tests": 2,
+          "failures": 0,
+          "errors": 2,
+          "skipped": 0,
+          "xml_seconds": 3.102,
+          "xml_pin": {
+            "bytes": 44622,
+            "sha256": "7ae40c4c3bb9dc3938fe7d7afea074da67ccd24796ea819d8f29761418322308"
+          }
+        }
+      },
+      {
+        "unit": "p111-finance-full-plan-test05",
+        "phase": "test",
+        "exit": 0,
+        "actual_seconds": 6.372644599992782,
+        "outer_seconds": 7.028555499971844,
+        "close_utc": "2026-11-07T20:34:21.726430+00:00",
+        "classcount": 3,
+        "case_results": {},
+        "receipts": {
+          "actual": {
+            "bytes": 1533,
+            "sha256": "9ea6e9de8885765b6265e24c633bc33944d4485f90b6389c424fad304da3e897"
+          },
+          "close": {
+            "bytes": 237,
+            "sha256": "3b9e6c3548e18ced8d4394f8d03a727b7dcc3a12ef48cab3b2615c3297ffabb2"
+          },
+          "post": {
+            "bytes": 372,
+            "sha256": "cd9ef188ae26709211017da696b675c55ab59282012da743753be205c423f108"
+          },
+          "stdout": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "outer": {
+            "bytes": 873,
+            "sha256": "1da88702c18b04b40b2b3a472b63946703bead6a4c3e9108bbeee5fdd4be2be4"
+          }
+        },
+        "reservation_held_after_close": false
+      },
+      {
+        "unit": "p111-finance-full-plan-test05",
+        "phase": "junit",
+        "exit": 1,
+        "actual_seconds": 38.06799679994583,
+        "outer_seconds": 38.74761259998195,
+        "close_utc": "2026-11-07T20:35:05.556016+00:00",
+        "classcount": null,
+        "case_results": {
+          "failure": 2
+        },
+        "receipts": {
+          "actual": {
+            "bytes": 1399,
+            "sha256": "c5a72fd30e2e248577d360a004944ad658a913a22e3f06b9cbc180e2918215aa"
+          },
+          "close": {
+            "bytes": 238,
+            "sha256": "fe9eacae08bbc2d9f8840c1cde7d0a6d53fbec43c7782a7921da4d3eec1e387e"
+          },
+          "post": {
+            "bytes": 160,
+            "sha256": "814ba259fbf93ae9ebd9abf6a17d308f4d8fc7143a0a9b76857b50a5373317f4"
+          },
+          "stdout": {
+            "bytes": 4289,
+            "sha256": "8067bae40390d74ab1b494f247f9891c56a0498cca1bb25071fbf52f6b9a578f"
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "outer": {
+            "bytes": 876,
+            "sha256": "8f5d2e8c2a8f2f1d1b86bb93d0a570b33154fc656781b1ce2c19a7ddd8672f8a"
+          }
+        },
+        "reservation_held_after_close": false,
+        "JUnit": {
+          "tests": 2,
+          "failures": 2,
+          "errors": 0,
+          "skipped": 0,
+          "xml_seconds": 35.812,
+          "xml_pin": {
+            "bytes": 52186,
+            "sha256": "1c40fad9d48d2778e808bcf44d04b1061da6682a4fd5800b7c669f282d6a8ebf"
+          }
+        }
+      },
+      {
+        "unit": "p111-finance-full-plan-diagnostic06",
+        "phase": "test",
+        "exit": 0,
+        "actual_seconds": 6.264890399994329,
+        "outer_seconds": 6.945038500009105,
+        "close_utc": "2026-11-07T20:38:05.666374+00:00",
+        "classcount": 3,
+        "case_results": {},
+        "receipts": {
+          "actual": {
+            "bytes": 1569,
+            "sha256": "5f1410f17354c4766e1369e33bfb6ee64e0956501ad786a375fb34b642ddc2fa"
+          },
+          "close": {
+            "bytes": 237,
+            "sha256": "cdafd58858eeefe1f725e5c94f16e625829cdd89748bda3411714dc551f9752e"
+          },
+          "post": {
+            "bytes": 378,
+            "sha256": "5c3bac4117f7764110b5397d7d7e479feb9ff55be78deefb93a519de5a3b96ba"
+          },
+          "stdout": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "outer": {
+            "bytes": 885,
+            "sha256": "dc5dddccfcad91d82a58c565dd39728dd0b9104ad0e5d0dfe187bff705252118"
+          }
+        },
+        "reservation_held_after_close": false
+      },
+      {
+        "unit": "p111-finance-full-plan-diagnostic06",
+        "phase": "junit",
+        "exit": 1,
+        "actual_seconds": 22.292165499995463,
+        "outer_seconds": 22.962990800035186,
+        "close_utc": "2026-11-07T20:38:34.429163+00:00",
+        "classcount": null,
+        "case_results": {
+          "failure": 1
+        },
+        "receipts": {
+          "actual": {
+            "bytes": 1428,
+            "sha256": "1e22eecaf32ed3285a8c7914fdfbce7ed6589ee4612bdc6e1d223918ec9e5932"
+          },
+          "close": {
+            "bytes": 238,
+            "sha256": "55a5b649bba146151086d323894a838b6d23b86d1d1d7d5fe8219104ac1f5e34"
+          },
+          "post": {
+            "bytes": 160,
+            "sha256": "282962e3777cdfd42bc32f080d5f872643996a934eb2ce6e3136064afab48f5a"
+          },
+          "stdout": {
+            "bytes": 2798,
+            "sha256": "f101d6300bac23375fa19fd2f7a1835e0287f8c4cb9e182722176abafafbf01d"
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "outer": {
+            "bytes": 889,
+            "sha256": "a5861b7e7d065dcf1e1ae0136523e74b82ea39721828096152b45561b1d6080a"
+          }
+        },
+        "reservation_held_after_close": false,
+        "JUnit": {
+          "tests": 1,
+          "failures": 1,
+          "errors": 0,
+          "skipped": 0,
+          "xml_seconds": 20.302,
+          "xml_pin": {
+            "bytes": 46915,
+            "sha256": "e2ba9d001d76bb9149e831f9be8f955a7a31acd334a78c7a49fc3d7e52f7fb78"
+          }
+        }
+      },
+      {
+        "unit": "p111-current-finance-consumers01",
+        "phase": "consumers",
+        "exit": 0,
+        "actual_seconds": 3.697165900026448,
+        "outer_seconds": 4.432880899985321,
+        "close_utc": "2026-11-07T20:51:25.556277+00:00",
+        "classcount": 1,
+        "case_results": {},
+        "receipts": {
+          "actual": {
+            "bytes": 1671,
+            "sha256": "550cfe71e93c869b3d2428e8cf241be817eb525e9dbdedc2e57dbff8a4144171"
+          },
+          "close": {
+            "bytes": 242,
+            "sha256": "d83295b62c35e3a8411bec364c5722149674d027c3aa9dcd1ab7aec2195c7c69"
+          },
+          "post": {
+            "bytes": 379,
+            "sha256": "b248429b824cdee66e0dceef48da913dbfb5a894df9990f46d1a1c8aa3727e8a"
+          },
+          "stdout": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "outer": {
+            "bytes": 903,
+            "sha256": "c41d40387bb046c19fb0b505b4c929f1a51fa2ca94fd74b120f896f559b5e5d9"
+          }
+        },
+        "reservation_held_after_close": false
+      },
+      {
+        "unit": "p111-finance-full-plan-test07",
+        "phase": "test",
+        "exit": 0,
+        "actual_seconds": 6.486804899992421,
+        "outer_seconds": 7.302671400015242,
+        "close_utc": "2026-11-07T20:53:03.557947+00:00",
+        "classcount": 3,
+        "case_results": {},
+        "receipts": {
+          "actual": {
+            "bytes": 1533,
+            "sha256": "a97722b8e881cb9679ef94fd135422accab43d26abaf95195b762a14dc0ebd1b"
+          },
+          "close": {
+            "bytes": 237,
+            "sha256": "d6e8696ea51051fb0703202dca50cbd9df6f301ebc03be451d1330f827dd6732"
+          },
+          "post": {
+            "bytes": 372,
+            "sha256": "0afabe2f5a200f9d3c826cc31a1ee6ebdbcb5ad61d2305ab2457dec7f4f5d8fa"
+          },
+          "stdout": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "outer": {
+            "bytes": 873,
+            "sha256": "2838e86ea6901d6de94e07708d51fb239695fe2dcdf56f2428062ab7e8b31311"
+          }
+        },
+        "reservation_held_after_close": false
+      },
+      {
+        "unit": "p111-finance-full-plan-test07",
+        "phase": "junit",
+        "exit": 1,
+        "actual_seconds": 63.19651080004405,
+        "outer_seconds": 64.12465250003152,
+        "close_utc": "2026-11-07T20:54:11.127566+00:00",
+        "classcount": null,
+        "case_results": {
+          "error": 1,
+          "pass": 1
+        },
+        "receipts": {
+          "actual": {
+            "bytes": 1400,
+            "sha256": "7aedf4a18913164855ae4c5c2af6900291a75d1c63f6dd1b361f9176f5347f31"
+          },
+          "close": {
+            "bytes": 238,
+            "sha256": "5bdd170206b5f55d018f80d4ae0a61fc24a45406a4ef3fa230f118dda1b57a6a"
+          },
+          "post": {
+            "bytes": 160,
+            "sha256": "a610a5b077dcda13fa619afd00eb986f40221b39ccf31068865b7e70551db249"
+          },
+          "stdout": {
+            "bytes": 2759,
+            "sha256": "f01ddb7ea7d0decf3ab2757245202bac27138cf3cb0f28cdd428a777a9e97f95"
+          },
+          "stderr": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "outer": {
+            "bytes": 876,
+            "sha256": "e959899b1b6a783a7fab5f8fd5bda22a2847e155c3f83eb597829660a0e85a52"
+          }
+        },
+        "reservation_held_after_close": false,
+        "JUnit": {
+          "tests": 2,
+          "failures": 0,
+          "errors": 1,
+          "skipped": 0,
+          "xml_seconds": 61.14,
+          "xml_pin": {
+            "bytes": 47545,
+            "sha256": "b655adebe13fe01050eb674554acc91e03ee611b914c32aa85533a3e1303878b"
+          }
+        }
+      },
+      {
+        "unit": "p111-finance-full-plan-test08",
+        "phase": "test",
+        "exit": 0,
+        "actual_seconds": 6.3734818999655545,
+        "outer_seconds": 7.115971299936064,
+        "classcount": 4,
+        "close_utc": "2026-11-07T20:58:34.482916+00:00",
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 48567,
+            "sha256": "d82db9777353a814bfd2ed0a2d62ddd595b16d0869eeb33fd85f02bbef167315"
+          },
+          "CHILD-START.json": {
+            "bytes": 329,
+            "sha256": "dea125a817eb795a3b422e9e1b706e92ae6f0e02b5704fa7eb43e22746d451d8"
+          },
+          "CHILD-TERMINAL.json": {
+            "bytes": 659,
+            "sha256": "9decb93adf0629911b316fd8d80dd48054a18242a192a58ecb3e6df80cd4b218"
+          },
+          "CHILD-OS-RESOURCE-PEAKS.json": {
+            "bytes": 508,
+            "sha256": "8754bb886bcd06cc3622656f18e8a992900d6ced69d4a46008496d216d1a4d5e"
+          },
+          "stdout.bin": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stderr.bin": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "ACTUAL.json": {
+            "bytes": 1534,
+            "sha256": "114ee89aa476a3badfcd42241e951ea0af2639cf94bc552179272085d0cb9e01"
+          },
+          "POST.json": {
+            "bytes": 372,
+            "sha256": "2254e039ca9a1403aae94208d819c466aa161c2fc0b2a9f75ff49c90ddbaa15b"
+          },
+          "RELEASE-FENCE.json": {
+            "bytes": 1025,
+            "sha256": "1d2fabd841f9ed63d492b8cdb466d4a07767c0e82ea659a75a5973e413e32e88"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 237,
+            "sha256": "191b25307f4b7bb2e4e6aa83e5921737c02f91c48d2dba2561a89f3a0c4b18f1"
+          }
+        },
+        "outer_pin": {
+          "bytes": 873,
+          "sha256": "ee02929cc3ec2633befa54a53fdbcacef59918c25801645b8b1d4677ed78ee89"
+        },
+        "reservation_held_after_close": false
+      },
+      {
+        "unit": "p111-finance-full-plan-test08",
+        "phase": "junit",
+        "exit": 0,
+        "actual_seconds": 42.14153760008048,
+        "outer_seconds": 42.85812140000053,
+        "classcount": null,
+        "close_utc": "2026-11-07T20:59:20.715767+00:00",
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 49851,
+            "sha256": "27560635bd18207bd45fcee156b73330e40e2b510b85d8dfba329b85324992a0"
+          },
+          "CHILD-START.json": {
+            "bytes": 325,
+            "sha256": "d5c03fe502a911cacf183ffd3ed300418dd94d5a89787002222231cce7bae99a"
+          },
+          "CHILD-TERMINAL.json": {
+            "bytes": 663,
+            "sha256": "f24a8f3ba893e724680a411da76923eef3c0412c13c00b0f5064a8894c87aa20"
+          },
+          "CHILD-OS-RESOURCE-PEAKS.json": {
+            "bytes": 510,
+            "sha256": "39594980d29085ecb1bb637dd38e8ab5a092e13021329f038bc7c5fab51493a5"
+          },
+          "stdout.bin": {
+            "bytes": 592,
+            "sha256": "35d6503b70e1736217e0c469c1fcbfa8e55196a7d71c12b773b533959afc7649"
+          },
+          "stderr.bin": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "ACTUAL.json": {
+            "bytes": 1443,
+            "sha256": "e1cc776b15f579488133588c8eca3acd1a7911d64193f91c738c0cf0b126b4e8"
+          },
+          "POST.json": {
+            "bytes": 1155,
+            "sha256": "ff3d11fa855b7b94cdbc8236d7fbc38147878412cc7a52c50890ebfa2b09d4d4"
+          },
+          "RELEASE-FENCE.json": {
+            "bytes": 1030,
+            "sha256": "2066816d7fb4b51b368d0458e83ee417ba6f817c8ec2ff4ab5d626c11a4da533"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 238,
+            "sha256": "ac0d4be564a279a7b36ea517b0d09518c5bf448d0ee82014e4dfd3a27e56bea1"
+          }
+        },
+        "outer_pin": {
+          "bytes": 876,
+          "sha256": "f1648c05828a6c401a0c5a74da5b1e00387149ae3c88e153d6a35fb58758213e"
+        },
+        "reservation_held_after_close": false,
+        "JUnit": {
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "xml_seconds": 40.165,
+          "xml_pin": {
+            "bytes": 42583,
+            "sha256": "c758cf8c70443117f8abd94d24f722f10933f440603b4a355ba78907d8158f54"
+          }
+        },
+        "case_results": {
+          "pass": 1
+        }
+      }
+    ],
+    "error_attribution": {
+      "source02": "owner testcheckedIOException compileerror,0class/0JUnit",
+      "source03_JUnit": "Native runner missing explicit existing jna.tmpdir,1P0F2E",
+      "jna04": "owner fixture StrictJson requested unsupported4MiB budget,0P0F2E",
+      "source05": "oldfirstCP FactionCandidate source/binary mismatch rejects legitimatefaction0,0P2F0E",
+      "diagnostic06": "samecandidatefailure onlysmall1F for precise reason,large/codecnotrun",
+      "source07": "currentconsumerclosure synchronized;small1P,large1E at actualreadinessscopeexpiry;fullstderr preserved"
+    },
+    "retained_passes": [
+      {
+        "phase": "Test03",
+        "scope": "new legacy v2 codec/cap/decimal method",
+        "passes": 1,
+        "not_rerun_after_green": true
+      },
+      {
+        "phase": "Test07",
+        "scope": "new small full public writer v2 integration",
+        "passes": 1,
+        "same_JVM_large_errors": 1,
+        "not_rerun_after_green": true
+      },
+      {
+        "phase": "Test08",
+        "scope": "only previous large failure, full v3 public writer/archive integration",
+        "passes": 1,
+        "same_JVM_other_methods": 0
+      }
+    ],
+    "single_JVM_3P_claim": false,
+    "dependency_reuse": {
+      "proof_pins": {
+        "REUSED-CURRENT-P090-CONSUMERS.json": {
+          "bytes": 64081,
+          "sha256": "e92bc3ef10e7e2143e6173e112276b790154e1f020375a9df9dde3d428e9bb1c"
+        },
+        "ALL-P090-12-CURRENT-SOURCE-COMPARISON.json": {
+          "bytes": 10983,
+          "sha256": "787567e5fb0761e57a0d69c0d2d51570f44849a4b690210cce6e26a908c0290e"
+        },
+        "CURRENT-CANDIDATE-SOURCE-PUBLISHED.json": {
+          "bytes": 588,
+          "sha256": "bbb8bcf75397fa6b51d5945dc62da9468e88670a431f9210ca498702b70e2988"
+        },
+        "ONLY-REQUESTED-FULL-MATERIAL-API-ORIGINS.json": {
+          "bytes": 1785,
+          "sha256": "34c72a00a035ad208c674067dbc5beb595bb8011c1631b21d01380ec003b04da"
+        },
+        "ACTUAL.json": {
+          "bytes": 1671,
+          "sha256": "550cfe71e93c869b3d2428e8cf241be817eb525e9dbdedc2e57dbff8a4144171"
+        },
+        "OUTPUTS.json": {
+          "bytes": 199903,
+          "sha256": "897a4c91b73f0ccd94efde96668fc6614dbed4b2f0be1592ffbc9ec5722b8f8a"
+        },
+        "MANAGED-CLOSE.json": {
+          "bytes": 241,
+          "sha256": "df086ab291f1d688687cdee7799e9a3804b521cf9f9722485f90b0474ba3eadb"
+        },
+        "SOURCE-PUBLISHED-BLOB-EQUALITY.json": {
+          "bytes": 1237,
+          "sha256": "edc9ef49d0f3b91e1523c7bc117186f245263cbaa6797f8c7e4148db1d0b3d9a"
+        }
+      },
+      "P090_sources_compared": 12,
+      "exact_record_current_sources": 11,
+      "one_later_published_changed_CandidateCodec_necessarily_compiled": 1,
+      "copied_classes": 77,
+      "copied_families": 10,
+      "nine_consumed_P090_current_exact_families_plus_one_NativeCharacterId_named_source_method_lineage": true,
+      "copied_classes_new_compilations": 0,
+      "unused_GiftOutcome_families_not_copied": 2,
+      "whole_graph_or_Runtime_equivalence_claim": false
+    },
+    "coverage": {
+      "small_v2": "Test07 complete samewriter publicchain passes; legacyinlinequote and fullreplay retained",
+      "large_v3": "Test08 >1MiB originalPlan exact scoped64MiBFullMaterial CAS/readback/coldverify/originalRequest and strictmanifest/ref/lane negativecases pass, all6docs/4guardedreads original",
+      "lossless": "Large synthetic unknown subtree includes1.00/-0.0 lexicalDATA; every originalPlanningWire byte asserted after fullarchive reload, not just semantic equality",
+      "negative": "Mixedschema/unknownfields/missing sameCASref/wronghash/wrong fullblob/foreign alias/64MiB+1 symbolicref/unsupported ordinary-lane paths refused as covered by actualTest source",
+      "source_input_immutable": "Original request/read/source/command hashes, six domain bodies, head/ledger bytes retained; nativeActionWrites0",
+      "time_scope": "Onlylarge readonlyhistoricalcoldreplay moved after physicalcapture normalreturn under same heldwriter; original25s capture and command/read deadline rules unchanged; no guard/clock/deadline relaxation",
+      "old_v2_codec": "Test03 originalbytecap and decimalrejection case retained unchanged, not rerun",
+      "cache_sync": "P09012source compared,11exactrecord/current,1CandidateCodec laterpublishedFullJsonTree changed and onlythat1TU compiled;9consumed exactfamilies+M1Closure NativeChar77classbytecopied,2unusedGiftOutcome families notadopted",
+      "authority": "Software profile/packet/writer/CAS only,notactualRootstorageorGameworldauthority; SOFTWAREcheckpointnotSAVE"
+    },
+    "deadline_error_and_correction": {
+      "Test07_large_error_retained": true,
+      "freshness_deadline_exceeded_seconds": 1.9739644,
+      "Test08_change": "Move large read-only cold/negative archive replay after normal physical capture return, under identical held writer; fresh collect/gift/bind remains inside original25s capture.",
+      "production_Guard_or_business_deadline_changes": false,
+      "command_and_read_deadline_rules_and_values_unchanged": true,
+      "test_only_ArchiveWork_nested_class": true
+    },
+    "last_close_utc": "2026-11-07T20:59:20.715767+00:00",
+    "all_children_closed": true,
+    "qualification_corrected02_pin": {
+      "bytes": 18384,
+      "sha256": "d622728027ecdc0683e8c32da9ae43e970021de7d41e32fa32d41b89d61324f2"
+    },
+    "root_final_review_pin": {
+      "bytes": 2985,
+      "sha256": "55d60fe7e4a5e312a555b57c531038c85948845e6bbd804c18dcf318c167e2d6"
+    },
+    "root_final_verified_reference_pins": 56,
+    "full_Archive_verify_software_qualified": true,
+    "stable_historical_source_navigation": {
+      "appendix_pin": {
+        "bytes": 4606,
+        "sha256": "5814f716e8ffdf3a70a2c45cd7359c36e705f9dfd3e0c635984a99ffee5aa45d"
+      },
+      "old_formal_source_path_is_historical_compile_time_not_current_bytes": true,
+      "external_original_versions": {
+        "03": {
+          "bytes": 31511,
+          "sha256": "103ad01b9e7ee469e6d0367434d8192d211cfd29d9d07834188f42c24c57c303"
+        },
+        "07": {
+          "bytes": 33199,
+          "sha256": "2d95085683ee60dc39a0232e27fbb21b185d4907df44cf7eb143fab81b2dc2ff"
+        },
+        "08": {
+          "bytes": 33893,
+          "sha256": "92d7cc637c860ddb1f1df8b7ba17f75c00724bc3384f951f3bc0ccff220e4976"
+        }
+      },
+      "source_or_JVM_reruns_for_navigation": 0
+    },
+    "timing_label_clarification": {
+      "actor_seconds": 42.14153760008048,
+      "outer_seconds": 42.85812140000053,
+      "console_runner_seconds": 40.409,
+      "Jupiter_XML_suite_seconds": 40.165,
+      "Jupiter_XML_only_testcase_seconds": 40.134,
+      "prior_business_doc_label_XML40409ms_is_console_runner": true,
+      "metadata_only_correction_no_rerun": true
+    }
+  },
+  "capacity_correctness_only": {
+    "full_planning_bytes": 1060851,
+    "full_planning_sha256": "96e5502c07617103fb4debc7a05169111878d3ce624ecec8ec70c83f4f43009a",
+    "v3_manifest_bytes": 13737,
+    "manifest_sha256": null,
+    "every_original_byte_after_full_reload_asserted": true,
+    "unknown_numeric_lexemes_in_fullmaterial_DATA": [
+      "1.00",
+      "-0.0"
+    ],
+    "performance_comparison_done": false,
+    "reduced_manifest_is_not_reduced_total_archived_material": true,
+    "source_DATA": "Software public-writer fixture with seven imported domains and four guarded reads; archive verifies original six domains including child-default marriage. Explicit software checkpoint is not SAVE, zero native action writes."
+  },
+  "metadata_hash_label_correction": {
+    "original_qualification_pin": {
+      "bytes": 17694,
+      "sha256": "19752cf5fddd64e6736f00449ab2b72f32b5677a0b3b076f1e48b24a2e01f80a"
+    },
+    "original_wrong_field": "last_actual_sizes.v3_manifest_sha256",
+    "actual_meaning": "Source println hashes originalWire; this is full_planning_sha256. No manifest digest inferred.",
+    "correction_receipt_pin": {
+      "bytes": 950,
+      "sha256": "b10202b9215923e9cb9cdb9226ece2b193591b617ce49e37d166996531d9ffe1"
+    },
+    "raw_original_is_preserved": true,
+    "requires_HTTP_or_JVM_rerun": false,
+    "corrected_qualification02_pin": {
+      "bytes": 18384,
+      "sha256": "d622728027ecdc0683e8c32da9ae43e970021de7d41e32fa32d41b89d61324f2"
+    },
+    "applies_to_prior_Test07_stdout_too": true
+  },
+  "formal_publication": {
+    "business_commit": "fbc8cafb59977735ee13d3021409c1f14daa9eab",
+    "HEAD_origin_master_remote_equal_at_receipt": true,
+    "business_tree_clean_at_receipt": true,
+    "files": 6,
+    "raw_pin": {
+      "bytes": 2000,
+      "sha256": "e86a940198de4d186138aa95353eceb08937eb4913f3cfcda5d77419f1f70446"
+    },
+    "no_later_state_health_extrapolation": true,
+    "runtime_adopted": false,
+    "new_verified_saved_days": 0,
+    "later_documentation_correction_commit": "ef9c87a122a22b68dbf965d66ef84cab6c4f7d1d",
+    "later_documentation_commit_scope": "One existing business document, two label corrections, zero source/JVM changes; original feature publication preserved."
+  },
+  "runtime_adopted": false,
+  "HTTP_TTFT_or_saved_day_gain_proven": false,
+  "backend_weights_quantization_build": null,
+  "cost": {
+    "owner_preparation_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "coordination_seconds": null,
+    "test_active_seconds": null,
+    "publication_active_seconds": null,
+    "net_owner_saving_seconds": null
+  },
+  "new_HTTP_or_JVM_for_documentation": 0,
+  "this_case_publication_does_not_complete_continuous_goal": true,
+  "next_trigger": "Later actual full Construction quote/material/intent integration or another real completed model task; source/software publication does not grant Runtime or saved-day throughput.",
+  "generated_at_utc": "2026-11-07T21:04:17.510900+00:00",
+  "updated_at_utc": "2026-11-07T21:06:20.556816+00:00"
+}

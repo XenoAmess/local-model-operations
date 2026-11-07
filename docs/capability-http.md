@@ -4490,3 +4490,11 @@ prod始终1TU0/4class。新Test首3方法2P1F、diagnostic只failed1F、最终�
 实际1prodTU0/22class、1newTest/mainTU0/1class、仅3newmethods3P。Test草稿SDK固定emission oracle与main完整计时修正在BEGIN前，未产生额外RED。完整6805700B query大DATA旧拒/new完整742B正确且原件不变，**只作功能反例，不进速度分母**。角色仅暂态SDK13字段/hello4键，保null/错父/顺序/完整native envelope，原cap/持久query/守卫保持，不授完整quote/action/material。
 
 具名旧22class bytecopy仅`existing_binary_only`，不授完整旧源码谱系或Runtime等价。固定四JVM ABBA CPU1/384m45、8warm16sample全保：同198482B输入/689B固定输出，组件median3.7886→2.83575ms、主线程allocated1984696→64936B；**完整main合计3.3759619→3.3797185秒、outer6.0660970→6.1626870秒未更快**，ACTUALprocess4.7575663→4.7378597秒另保。20:46:39.667224Z资源全闭，6files正常发表`f6c2b638c5cf9e729cff378ade663c966b29a080`且remote一致；P111另dirty未混入，不预授其集成绿。[全部样本、拒收、owner接管与未知成本](evidence/2026-11-08-http-peacetime-finalizer112.md)保留，0Runtime/TTFT/保存日信用，持续goal不结束。
+
+## 2026-11-08：完整PlanningWire归档v3与旧v2并存P111
+
+`HTTP-JAVA-FINANCE-FULL-PLANNING-ARCHIVE-111`两轮各1POST/1END/0retry，fixed3/max6000、9源145062B，均200/stop/DONE/VALID；有效TTFT4.189712/0.963776秒，总11.9522039/17.7443027秒，reported31593/1311与31485/2952、cachednull。首未接通v3字段集/writer/两reader拒收；次核心partial，owner修括号/保旧helper，未编原坏稿。强指导，不授独立设计或整体模式净收益。
+
+仅原PlanningWire>1MiB时选严格v3 ExactRef，完整byte保同writer原64MiBFullMaterial并每次实际重开校验；v2原1MiB/decimal/quoteBytes、manifest限额/Guard/全文材料不变，无错误fallback或裁原件。Archive1TU4class、首次public fixture2TU39class、必要current CandidateCodec1TU1class分账；另77class/10family具名原复制，0旧十二TU/Collector重编。唯一新Test六编译首owner RED/五green；保Native漏JNA、owner错误预算、旧cache2F+diagnostic1F、Test07 small1P/large freshness1E，原25s与所有业务deadline未改。
+
+三个新方法分别Test03 codec1P、Test07 small1P、Test08 onlylarge1P，**非同JVM3P**；末actor42.1415376/outer42.8581214秒，20:59:20.715767Z全闭。完整PlanningWire1060851B/SHA96e5502c…、manifest13737B仅功能资格，manifestSHA未报告；旧final误标签保原件，用02和addendum纠正，无JVM重跑。业务6files `fbc8cafb59977735ee13d3021409c1f14daa9eab`正常发表且remote一致；纯文档`ef9c87a`后到区分console runner/XML时间。[全错误链、稳定source原件、严格全文回读与未知成本](evidence/2026-11-08-http-finance-full-plan111.md)保留，0性能/Runtime/Game/保存日信用，持续目标不结束。
