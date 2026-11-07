@@ -1,0 +1,119 @@
+{
+  "schema": "local-model-operations.civ6-newgame82/v1",
+  "utc": "2026-11-07T08:06:09.174257+00:00",
+  "date_local": "2026-11-07",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/1f7f862e3c308bf4ef1c4c56588593301583967a/docs/research/baiqi-p6-newgame82-first-capital-evidence-2026-11-07.json",
+    "sha256": "854eeb5ce6edba7967bc003862e1d4c5d0de7e84ee98b45d448e87736df3a447"
+  },
+  "model": {
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "attempts": 1,
+    "extra_retries": 0,
+    "usage": {
+      "prompt_tokens": 53252,
+      "completion_tokens": 1495,
+      "total_tokens": 54747
+    },
+    "ttft_ms": 6888.288499903865,
+    "total_ms": 21758.034399943426,
+    "shared_commit": "cb5d75eabf80a0aad430bb66cb6180d39d5e2196",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "review": {
+      "utc": "2026-11-07T08:02:22.929085+00:00",
+      "mode": "http-candidate-source-audit",
+      "candidate_findings": 3,
+      "accepted_new_defects": 0,
+      "patches_adopted": 0,
+      "raw_native_execution": 0,
+      "reviews": [
+        {
+          "finding": 1,
+          "verdict": "Not a demonstrated newgame defect",
+          "reason": "Factory dependency failure is conditional fail-closed behavior and explicitly logged. Candidate supplied no actual missing dependency trigger; Native newgame bridge initialized and first capital observed."
+        },
+        {
+          "finding": 2,
+          "verdict": "Wrong control-flow inference",
+          "reason": "A nonnil bank at Initialize entry is handled by clone/READY or invalid rejection before WriteNew. WriteNew journal_changed tests an intervening property change, preserving concurrent evidence. Candidate previous-session speculation does not establish that path."
+        },
+        {
+          "finding": 3,
+          "verdict": "Conditional safety hold, not proven permanent deadlock",
+          "reason": "Unknown initialization intentionally blocks emission. RefreshSettlement retries Initialize while unready, so temporary failure alone does not establish indefinitely held state. Native first newgame path worked."
+        }
+      ],
+      "anchor_quality": "First and third quoted anchors use != where actual Lua uses ~=; not exact source excerpts.",
+      "retained_unproven": "Native startup event ordering and malformed/absent dependency environments are not universally proved by one successful start.",
+      "native_separate_evidence": "Current newgame UI false flag, first65536 OBSERVED/city65536@60,30 atturn1, normal2 monument4of60; not model-authored actions.",
+      "usage": {
+        "prompt_tokens": 53252,
+        "completion_tokens": 1495,
+        "total_tokens": 54747
+      },
+      "ttft_ms": 6888.288499903865,
+      "total_ms": 21758.034399943426,
+      "source_sha256": {
+        "mod/Baiqi/Lua/BaiqiController.lua": "2e713275d739afdcd83b5592274c0ce795c484f0fa4c4ba598a3e105133ac0e5",
+        "mod/Baiqi/Lua/BaiqiSettlementStateCore.lua": "6ebc7e7abfc0f055e4b88c6e68c7fd4cfe7edb3d35f98599b899e97096a8b071",
+        "mod/Baiqi/Lua/BaiqiSettlementIntentGameplay.lua": "c14c741670ebee3719d2d511746ad0118a3145c2a39b5e9c344bc3cf8daf5548",
+        "mod/Baiqi/UI/BaiqiExecutor.lua": "64310c070a9a95c75d3cdd3a2624845bd6f2549a36e2f849ddbeb6f7c14eb57b"
+      },
+      "cumulative_through479": {
+        "logical_tasks": 479,
+        "complete_stop_valid": 446,
+        "length": 30,
+        "final_transport_failures": 3,
+        "http_attempts": 509,
+        "extra_retries": 30,
+        "opencode_native_generation": 0,
+        "cached_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null
+      },
+      "owner_timing": "PREP_BEGIN/END recorded with interleaved frontend work; review start not independently timed. No exclusive active-time or savings claim."
+    },
+    "accepted_new_defects": 0,
+    "patch_adoption": 0,
+    "raw_native_execution": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 479,
+    "complete_stop_valid": 446,
+    "length": 30,
+    "final_transport_failures": 3,
+    "http_attempts": 509,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "native": "Unchanged82/93files. Actual original newworld UI flagfalse; turn1 first65536 OBSERVED token settle:0:1/request0:1:1/city65536西安60,30. UI original absent, Core delayed offmap original extra, not live.1militaryTESTPLAYERskip+1ordinaryEND→2Monument4of60/gold15/warriorposition59,30.893840Bsave/loadContinue→samecity/progress/journal/trueUIloadflag.",
+    "scope": "One fresh newworld+oneordinaryround+completedreload, no initialSDKwrapper/globalcommandcounts.2rawimages inlined.ARMED pre-effect persistence recoveryFAIL and Legacy expansion held remain.",
+    "479": "Full53252+1495=54747tokens21.7580344s0retry.3conditionalfindings0newdefects/0patchadopt/0rawNative. Non-nilproperty branch misread, failcloseddependency intentional/logged, temporaryunavailable not indefinitely proof; !=quoted where actualLua~=; startuporder unproven.",
+    "owner": "EarlyLSQnoMainMenu/twoloadingLSQtimeouts0CMD. Captureforeground APIfailedbeforeimage; separatelyqualifiedWin32ownfocus. CityviewPythonadjacentnumeralliteralwarningfixedspacingaftervalidread.",
+    "maintenance": "Sharedcb5d75e synchronized; Nov7samehost/user00:36success1.19.5cache reused, no nativegeneration. Through479/446/30/3 HTTP509extra30/unknowncostnull.",
+    "release": "No productchange/full1153notrerunfordocs; Steam0modeswitch/online/uploadAlpha74unchanged."
+  },
+  "generic_lessons": [
+    "A fail-closed dependency guard is a conditional limitation, not a demonstrated defect without a real trigger.",
+    "Follow existing-state early returns before attributing a later compare-before-write refusal to stale session data.",
+    "Temporary unavailability plus a repeated initialization path does not establish permanent failure.",
+    "In an actual new world, qualify the native new-game flag and resulting first action separately from saved-world migration.",
+    "Core and UI rosters can differ transiently because consumed off-map objects remain delayed; record their full identity and state rather than labeling roster entries live.",
+    "A completed-world reload cannot close a pending-action recovery failure."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "One fresh newgame first capital, one normal production round and completed-world reload; not pending-intent recovery, all start conditions, long-run loyalty, completeTC or Steam82release. No source-audit patch adoption."
+}

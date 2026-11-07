@@ -4284,3 +4284,10 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 第一稿为长度检查和赋值重复编码，标准路径仍2次、超限fallback可3次；具体反馈后的第二稿又预先求值两个操作数，fallback3次并越过原`&&`短路边界。均源审拒收、模型源码采用0，未编跑模型候选，owner接管且无第三HTTP。完整响应及自称保序均不代替逐分支调用次数和求值顺序复核；owner后续验证不追授模型信用。[原任务、两次错误、输入提示及成本边界](evidence/2026-11-07-http-restore-encoding103.md)保留原件pin和72.031961秒首尾窗口，主动准备/审阅/修正与净节省unknown，不从两轮失败推永久能力上限或模式优劣。
 
 后到owner最终版仅1生产TU首编exit0／4.7081031秒，07:56:08.682196Z资源关闭；0新Test／RUN／旧绿，未运行采用。该独立源码类型结果与两份模型拒收分账，不授模型原样成功、行为或性能收益。
+
+
+## 2026-11-07：Civ6newgame82
+
+479 stop valid54747tokens21.758s0retry/3conditional findings0newdefects/0patchNative. Actual82fresh firstcapital/oneordinary production/reload narrowPASS,2rawimages, no startupSDK/globalzero. Through479446complete30length3transportHTTP509extra30/Nov7cache1.19.5/OpenCode new0/unknownnull/Steam0Alpha74.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-newgame82.json)。
