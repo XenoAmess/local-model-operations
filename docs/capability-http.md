@@ -4276,3 +4276,11 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 实际generic dictionary-form的原user JSON值span UTF8分布：history241行2847000B、root_facts56项712937B、snapshot115keys45909B、完整proposal2800B；这是内容字节而非外层转义wire或tokens。现caller只有Council/婚姻/Life窄域，无Sway专用compact入口。修复方向由M6业务owner独占：显式Sway任务域，保当前snapshot未知字段、完整proposal及identity/bodySHA和相关scheme原件语义，省略的无关历史仍保Java档案且明示scope；不能盲截断、删Guard或称完整历史无损。新投影完整编码/正负DATA/实际服务/同局恢复尚未在本案授信，减输出256、抬服务限或重复原POST都不是已证修复。[原错误、参数、精确链与边界](evidence/2026-11-07-runtime-sway-input-context-http400.json)。
 
 早19:08/3982162B/1437ms与19:10/3983519B/1320ms是另两次报告切点，未在此读取其body，不把最后下界/耗时回填。原response早已CAS归档，receipt直到batch收束ROW才可具名导航；Runtime合作stop/实际END/ROW分别记，不等于Game/keeper停止或新休假。0新模型生成/维护/JVM/Game/GET/服务或活跃配置改动，不制造119或重读旧length，不授提速/新日/SAVE/G2。
+
+## 2026-11-07：恢复附件重复编码的两轮完整候选均拒收
+
+`HTTP-JAVA-RESTORE-ENCODING-103`是有完整5份源码及明确设计约束的窄方法体优化：同调用内只复用首次合格字节，保原fallback、物理读取和短路顺序。两轮fixed3/max2200/temp0/thinkingfalse/JSON/SSE均1 POST/1 END/0retry、200/stop/DONE/JSON有效；总时9.8285504与5.7156085秒，有效TTFT4.4168844与1.2431587秒，reported tokens28731/683与28939/697，cached均null。
+
+第一稿为长度检查和赋值重复编码，标准路径仍2次、超限fallback可3次；具体反馈后的第二稿又预先求值两个操作数，fallback3次并越过原`&&`短路边界。均源审拒收、模型源码采用0，未编跑模型候选，owner接管且无第三HTTP。完整响应及自称保序均不代替逐分支调用次数和求值顺序复核；owner后续验证不追授模型信用。[原任务、两次错误、输入提示及成本边界](evidence/2026-11-07-http-restore-encoding103.md)保留原件pin和72.031961秒首尾窗口，主动准备/审阅/修正与净节省unknown，不从两轮失败推永久能力上限或模式优劣。
+
+后到owner最终版仅1生产TU首编exit0／4.7081031秒，07:56:08.682196Z资源关闭；0新Test／RUN／旧绿，未运行采用。该独立源码类型结果与两份模型拒收分账，不授模型原样成功、行为或性能收益。

@@ -1,0 +1,211 @@
+{
+  "schema": "local-model-operations.http-case/v1",
+  "case_id": "HTTP-JAVA-RESTORE-ENCODING-103",
+  "mode_id": "http-candidate",
+  "date": "2026-11-07",
+  "generated_at_utc": "2026-11-07T07:58:29.878093+00:00",
+  "scope": "Redacted completed candidate-review case; no new HTTP, JVM, tests or business action. Raw requests, source and replies remain on the executing machine.",
+  "task": "Reduce repeated serialization of one immutable Java value within one restore-attachment comparison while preserving short-circuit, fallback and physical verification.",
+  "input_guidance": "Owner identified duplicate and specified exact numeric type, 8 MiB reuse bound, local lifetime, fallback and evaluation-order requirements. Correction included first candidate-specific call count diagnostics.",
+  "source_files_count": 5,
+  "shared_repo_base": "cb5d75eabf80a0aad430bb66cb6180d39d5e2196",
+  "runtime_caller_exact_code_version_qualified_by_this_case": null,
+  "backend_weights_quantization_build": null,
+  "rounds": [
+    {
+      "round": 1,
+      "post_begin_utc": "2026-11-07T07:48:45.294536+00:00",
+      "attempt_end_utc": "2026-11-07T07:48:55.122792+00:00",
+      "post_count": 1,
+      "transport_retries": 0,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "message_utf8_bytes": [
+        301,
+        141107,
+        1786
+      ],
+      "model": "qwen38-coder",
+      "max_tokens": 2200,
+      "temperature": 0,
+      "enable_thinking": false,
+      "response_format": "json_object",
+      "stream": true,
+      "include_usage": true,
+      "http_status": 200,
+      "http_headers_ms": 4415.82950000884,
+      "first_nonempty_content_delta_ms": 4416.884400008712,
+      "total_ms": 9828.550400037784,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 28731,
+        "completion_tokens": 683,
+        "total_tokens": 29414
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "actual_peer": "UNKNOWN",
+      "owner_review": "REJECTED_SEMANTICS",
+      "model_source_adopted": false,
+      "raw_pins": {
+        "REQUEST.json": {
+          "bytes": 146295,
+          "sha256": "b629981f00ead2afdb129b042f09b5e73e1d165e95ad3cc2c20a0e81b3da80bc"
+        },
+        "ATTEMPT1-RESULT.json": {
+          "bytes": 1284,
+          "sha256": "0ebb2ca512ec68d32c23b46ae219ff37d37cf0cbeee6dd6b5971623ab1ab5ba8"
+        },
+        "ATTEMPT1-CONTENT.txt": {
+          "bytes": 3010,
+          "sha256": "3f11af9779062fc63ada2f2c4c59e655fd27fe63d06f6d491028aa520c91f90c"
+        },
+        "EVENTS.jsonl": {
+          "bytes": 2731,
+          "sha256": "0c8a3bc4eac60841ac7563bcf495aafe504bc54c8b00a5aa5a21ca0424959cda"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "post_begin_utc": "2026-11-07T07:49:51.610801+00:00",
+      "attempt_end_utc": "2026-11-07T07:49:57.326497+00:00",
+      "post_count": 1,
+      "transport_retries": 0,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "message_utf8_bytes": [
+        301,
+        141107,
+        2955
+      ],
+      "model": "qwen38-coder",
+      "max_tokens": 2200,
+      "temperature": 0,
+      "enable_thinking": false,
+      "response_format": "json_object",
+      "stream": true,
+      "include_usage": true,
+      "http_status": 200,
+      "http_headers_ms": 1242.2442000242881,
+      "first_nonempty_content_delta_ms": 1243.158700002823,
+      "total_ms": 5715.608500002418,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 28939,
+        "completion_tokens": 697,
+        "total_tokens": 29636
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "actual_peer": "UNKNOWN",
+      "owner_review": "REJECTED_SEMANTICS",
+      "model_source_adopted": false,
+      "raw_pins": {
+        "REQUEST.json": {
+          "bytes": 147465,
+          "sha256": "37a8614a2bc0a9666011f8d5cea9490fdbe3ffc4e30e7c628c749796e924cae5"
+        },
+        "ATTEMPT1-RESULT.json": {
+          "bytes": 1286,
+          "sha256": "dee23afece7affaca729185db34d9c118fc401ee819ba661d6856181daa54433"
+        },
+        "ATTEMPT1-CONTENT.txt": {
+          "bytes": 3127,
+          "sha256": "902aa4d2c2bfb4166815a1a9b06b7b3dd295c70e61f90b6ae5a585cc307ae76c"
+        },
+        "EVENTS.jsonl": {
+          "bytes": 2779,
+          "sha256": "d084e0110b4f62185bcc3bef0dfdb8e893bfbfff2379c6a72758c044f43fee38"
+        }
+      }
+    }
+  ],
+  "review_findings": [
+    {
+      "round": 1,
+      "finding": "Length gate and buffer assignment each re-encode; stable successful branch remains two target encodings, oversized successful fallback can perform three."
+    },
+    {
+      "round": 2,
+      "finding": "Two comparator buffers are computed before the short-circuit expression; fallback performs three target encodings and causes work before the original first comparison."
+    }
+  ],
+  "adoption": {
+    "model_source_units": 0,
+    "model_complete_methods": 0,
+    "raw_model_candidates_compiled": false,
+    "raw_model_candidates_run": false,
+    "owner_takeover": true,
+    "third_http_request": false,
+    "owner_final_software_and_runtime_results": "Owner final source has one-TU type success as separately pinned below; no model-candidate compilation, behavior or runtime credit."
+  },
+  "cost": {
+    "first_post_to_last_end_seconds": "72.031961",
+    "owner_preparation_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "coordination_seconds": null,
+    "publication_active_seconds": null,
+    "net_owner_saving_seconds": null,
+    "missing_phase_records": "Do not infer active effort from HTTP durations or inter-round wall interval."
+  },
+  "maintenance": "Owner reports a successful same-day OpenCode check, but this documentation task did not independently obtain its original receipt; no native-tool capability or new maintenance execution claimed.",
+  "next_trigger": "A future independent real optimization requiring simultaneous call-count and evaluation-order review; no rerun of this completed task.",
+  "interpretation_limits": [
+    "Complete HTTP/stop/DONE/valid JSON do not establish semantic correctness.",
+    "Two rejected candidates do not establish a permanent model capability limit.",
+    "No deployment, end-to-end performance or saved-day gain is claimed.",
+    "No fair HTTP/OpenCode efficiency comparison is available."
+  ],
+  "owner_follow_up": {
+    "scope": "Owner final version only; the two model candidates remain rejected with zero code adoption.",
+    "source_bytes": 52749,
+    "source_sha256": "9b9040bdd539cd31e3cf5968b877b01b705167af4eb340bb5517cd0a385c78b3",
+    "actual_at_utc": "2026-11-07T07:56:08.466511+00:00",
+    "exit_code": 0,
+    "seconds": 4.708103100012522,
+    "emitted_classes": 9,
+    "execution_counts": {
+      "new_production_TUs": 1,
+      "new_Test_TUs": 0,
+      "Test_RUN": 0,
+      "oldgreen_TUs_or_RUN": 0,
+      "Runtime_Game_Native_P100": 0
+    },
+    "close_at_utc": "2026-11-07T07:56:08.682196+00:00",
+    "terminal_observed": true,
+    "reservation_still_held": false,
+    "runtime_adopted": false,
+    "behavior_or_end_to_end_gain_qualified": false,
+    "raw_pins": {
+      "ACTUAL.json": {
+        "bytes": 1590,
+        "sha256": "d7f4232d1949743f4ea91c668f17efd4796c2c6555040575f318b9641126e7a7"
+      },
+      "MANAGED-CLOSE.json": {
+        "bytes": 237,
+        "sha256": "d5213667792d62d0b63254a50c4615ccf6c04626a6004de7f838f20da523c292"
+      },
+      "QUALIFIED02-ONE-SOURCE-TYPING-ONLY.json": {
+        "bytes": 4649,
+        "sha256": "9b9f6681329a6431ed596f0dfab57c817941bd1b0db1fcea8b2e0964678bd102"
+      }
+    }
+  },
+  "documentation_owner_correction": {
+    "failure": "Initial source-pin assertion selected the preserved older owner candidate rather than the qualified final candidate.",
+    "attribution": "Documentation owner input-selection error; not a model failure or javac failure.",
+    "mutation_before_failure": "No JSON write, stage, commit or push occurred in the failed append command.",
+    "resolution": "Selected final candidate through the actual qualification receipt, then verified exact bytes/SHA; originals retained.",
+    "active_correction_cost_seconds": null
+  }
+}
