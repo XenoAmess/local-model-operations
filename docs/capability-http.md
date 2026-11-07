@@ -4412,3 +4412,10 @@ Alpha2同item3833805495完成：5append+1content一次OK／0Create／0自动重�
 85actual84save61→85cold保留goal1983/queue2132，63/64走5927/5926，65一次FOUND北京及goal空，66grain5/65、正式save1126552B/hash0f7511f8233dc41f3b6bf9a8db10c80bd5815508bb4fd9f4b868383a58aa76c9与UI/Core重载保持、空嵌套表保持、钩nil。266未来样本全读一次／3目标path／0errdrop；0文职手操。504rawLua51compile但local函数自影使0注册却打印installed，隔离snapshotnil，错Players.GetLocalPlayer/colon无self/args无n/外方先记录，拒0Native。owner接管只读观察器，人口成本仍未知。累计504469stop32length3transportHTTP534extra30，canonical复用Nov8首500成功1.19.5维护缓存；OpenCode新原生生成0，未知null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source85-native504.json)。
+
+
+## 2026-11-08：Civ6population504-native
+
+0新HTTP，原504候选仍拒绝／0Native，owner私有观察器及v2各14隔离检查。两条正式38档新分支各13普通END24军队待命2军队侦察，0文职／内政／强制／赠送／交战。迟侦察49训练/51仅22of80，13+6记录留证撤钩；早侦察43=0of80、50=77of80/pop4粮33门槛44，51出生393216时pop4→population3/粮33/门槛33(两次同值回调)→productioncomplete3→population4/粮2/门槛44。40行全读一次、0errunknown/drop/argdrop。出生态save1062791B/hash42a0a504397e6216d335745777955ce401650a7dd956fc6d94434d9ea096b1ad正式UI/Core重载保持、钩nil。4→4掩盖真实扣1人口及同回合增长；不猜总督、不回填82历史、不拼接不同分支同ID。累计保持504469stop32length3transportHTTP534extra30/OpenCode新0/未知null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-population504-native.json)。
