@@ -1,0 +1,237 @@
+{
+  "schema": "local-model-operations.civ6-source87-district515/v1",
+  "utc": "2026-11-07T21:21:16.198631+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/16bd87aeda861c2fbd51900db620df3a0a5560f9/docs/research/baiqi-p6-district515-source87-evidence-2026-11-08.json",
+    "sha256": "3ed3f789e4901d0580163d8b030eb322bed927d34ebd86a819303fde75cbb24c"
+  },
+  "model": [
+    {
+      "task": 513,
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 1529,
+        "completion_tokens": 671,
+        "total_tokens": 2200
+      },
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "ttft_ms": 438.5125000262633,
+      "total_ms": 5309.739600052126,
+      "canonical_shared_commit": "e70d85581fd10ae366588da2cafb640de6127a21",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "whole_raw_adopted": false,
+        "adoption": "MODIFIED_ANALYSIS_DIRECTION_ONLY",
+        "reused": [
+          "Visible adjacent-only scope",
+          "Qualification distinct from action and combat outcome",
+          "One TEST_PLAYER action then independent actual readback; no unknown replay"
+        ],
+        "rejected": [
+          "Owner!=self and BARBARIAN type do not establish hostility",
+          "Invented UI.GetID wording; actual object:GetID",
+          "Wrong CanStartOperation signature repeated from owner prompt",
+          "Eligibility alone does not mandate action"
+        ],
+        "owner_contract_correction": "Owner supplied wrong(unit,op,params,false) signature. Shipped Civ6Common102..169 proves actual(unit,op,nil,params) and original MOVE modifiers. Supplied source helper lacked qualification implementation; owner error not solely model failure.",
+        "raw_native_executions": 0,
+        "native_plan": "Owner typed inline read: localhumanBaiqi/current66, exactownspearman, sixcityadjacent visible plots only, table bound32, ownDiplomacy:IsAtWarWith; primary originalMoveUnitToPlot once under fresh exactenemy/predicates/noNewWar check.",
+        "actual_result": {
+          "single_request_return_count": 0,
+          "first_immediate_world": "oldstate retained; no replay",
+          "later_settled_world": {
+            "spearman": [
+              262147,
+              15,
+              32,
+              0,
+              27
+            ],
+            "enemy": [
+              1310739,
+              63,
+              "UNIT_WARRIOR",
+              15,
+              31,
+              48
+            ]
+          },
+          "start_spearman_damage": 0,
+          "start_enemy_damage": 14,
+          "new_war_request": 0,
+          "context": "TEST_PLAYER originalWorldInput/Civ6Common, not modBACKGROUND",
+          "executor_future_samples_after_settled_attack": 0
+        },
+        "software_validation": "Lua5.1 compile and independent exactworld preflight/readback; no new product change or duplicated full-suite run",
+        "limitations": [
+          "Single own spearman melee action only, not all military/religiouscombattypes or outcome guarantee",
+          "No exact capturedunit identity or cause inferred"
+        ]
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 514,
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 4627,
+        "completion_tokens": 675,
+        "total_tokens": 5302
+      },
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "ttft_ms": 769.4616001099348,
+      "total_ms": 5633.1331001129,
+      "canonical_shared_commit": "e70d85581fd10ae366588da2cafb640de6127a21",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "whole_raw_adopted": false,
+        "raw_native_executions": 0,
+        "rejection": "INCONCLUSIVE verdict is compatible with missing evidence, but HolySite task was answered with Campus, unsupported claim of absent global API, and no actual resource/placement distinction. No score change adopted."
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 515,
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 998,
+        "completion_tokens": 788,
+        "total_tokens": 1786
+      },
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "ttft_ms": 404.4905999908224,
+      "total_ms": 5118.593899998814,
+      "canonical_shared_commit": "e70d85581fd10ae366588da2cafb640de6127a21",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "utc": "2026-11-07T21:10:04.694576+00:00",
+        "raw_anchor_counts": [
+          1,
+          1,
+          1
+        ],
+        "sequential_anchor_counts": [
+          1,
+          1,
+          1
+        ],
+        "raw_Lua51_compile": true,
+        "whole_raw_adopted": false,
+        "raw_native_executions": 0,
+        "raw_rejection": "All three anchors unique and sequentially applicable; Lua51 compiles. Two duplicate local FreshValid definitions are never called, depend on undefined HOLY_SITE/BUILD/APPEND and literal parameter keys; improvement names omit IMPROVEMENT_ prefix. Full candidate tested only in isolated Lua51, not Native.",
+        "owner_correction": "Two initial comparison assertions guessed anchor failure without measuring normalized/sequential source; both failed before tests or actions. Actual result: all three anchors uniquely apply in order and compile. Guessed anchor rejection retracted; independent semantic failures retained.",
+        "results": {
+          "baseline86": {
+            "methods_run": 9,
+            "failed_methods": [
+              "test_farm_becomes_military_improvement_during_final_native_validation",
+              "test_protection_changes_after_selection_prevent_actual_dispatch",
+              "test_real_prefixed_economic_types_can_be_replaced"
+            ],
+            "failure_assertion_records": 15,
+            "failures": [
+              "source87_district.DistrictImprovementTests.test_farm_becomes_military_improvement_during_final_native_validation",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='w.park=true')",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='w.resource=8')",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='w.feature=2')",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='w.owner=8')",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='w.alias=true')",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='w.noPlacement=true')",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='GameInfo.Districts[777]=nil')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='FARM')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='MINE')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='QUARRY')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='PLANTATION')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='PASTURE')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='CAMP')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='LUMBER_MILL')"
+            ],
+            "errors": [],
+            "source_sha256": "32ab5082109737a2b16f56ebbf62ca08b298b79d0b5b90a92aec2f30add439e1"
+          },
+          "raw515_full": {
+            "methods_run": 9,
+            "failed_methods": [
+              "test_farm_becomes_military_improvement_during_final_native_validation",
+              "test_protection_changes_after_selection_prevent_actual_dispatch",
+              "test_real_prefixed_economic_types_can_be_replaced"
+            ],
+            "failure_assertion_records": 15,
+            "failures": [
+              "source87_district.DistrictImprovementTests.test_farm_becomes_military_improvement_during_final_native_validation",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='w.park=true')",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='w.resource=8')",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='w.feature=2')",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='w.owner=8')",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='w.alias=true')",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='w.noPlacement=true')",
+              "source87_district.DistrictImprovementTests.test_protection_changes_after_selection_prevent_actual_dispatch (change='GameInfo.Districts[777]=nil')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='FARM')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='MINE')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='QUARRY')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='PLANTATION')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='PASTURE')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='CAMP')",
+              "source87_district.DistrictImprovementTests.test_real_prefixed_economic_types_can_be_replaced (kind='LUMBER_MILL')"
+            ],
+            "errors": [],
+            "source_sha256": "1c67ea1009384d744a6c0b448f3e60bea900a9bf139ad36baf2c7b436486a0af"
+          },
+          "owner87": {
+            "methods_run": 9,
+            "failed_methods": [],
+            "failure_assertion_records": 0,
+            "failures": [],
+            "errors": [],
+            "source_sha256": "85fc6086874f0392ef89bc8de3e1c14319e3789690a2ee123cd71b4863cc5a09"
+          }
+        }
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 515,
+    "complete_stop_valid": 480,
+    "length": 32,
+    "final_transport_failures": 3,
+    "http_attempts": 545,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Native86actual74:14ownvisibleplots,0oldClearPlotHoly candidates;farm2532@16,34passesotherprotectedpredicates+nativeCanHave/CanStartBUILD. Existingcommercialqueueuntouched.87onlyeconomicimprovementwhitelist+freshplacementboundary,9Lua51methods baseline86/raw515each3failedmethods15assertions/0errors,owner0;full1223run1222pass1SDKskip,74Lua51/96files.0Native87yet.86TEST_PLAYERoneactualmelee +Congresssubmit/resume71,risks74onlyspear/0prophetretained.",
+  "generic_lessons": [
+    "A failed production prerequisite may be a candidate filter rather than priority. Compare the exact native legal plot with each local exclusion before changing scores.",
+    "An occupied economic plot can be a legal district site. Preserve military/unknown improvements and other protected terrain while admitting exact known metadata names.",
+    "Revalidate semantic placement constraints after final native qualification and immediately before dispatch. An initial candidate check cannot protect against intervening ownership, resource, park or military-improvement changes.",
+    "A patch can have all anchors match uniquely and compile while doing nothing useful: verify real metadata prefixes, call sites, constants and parameter keys.",
+    "Count actual normalized and sequential anchor matches before claiming rejection. Two owner assertions guessed failure and stopped before tests; the final measured three valid anchors supersede those guesses.",
+    "Report failed methods and assertion records separately when subtests expand failures. Nine methods yielded three failed methods and fifteen assertion records, not fifteen independently executed methods.",
+    "A player voting for an outcome is not evidence the resolution won or the effect applied. Record review, one submission, actual session recovery, and unresolved effect verification separately.",
+    "A no-resource expression using Lua and can yield false. Normalize that branch before a nonnil metadata test; retain the failed readonly diagnostic without inventing gameplay side effects."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Source87software and Native86prerequisite witness only. Existingcommercialheadnotreplaced; actual87districtbuildnotyetverified. No newprophet, no fullCongress effect, capturedactorsunknown;ARMED/legacy/full40TCremainopen.0Steamonline/upload."
+}
