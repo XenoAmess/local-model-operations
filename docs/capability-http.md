@@ -4370,3 +4370,10 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 实际1SelectorTU0/4class；1newTestTU0/1class+3new inverse3P，另1changedexisting Oracle TestTU0/1class+only affectedexisting1P，分两个JUnit进程。最后14:50:05.598401Z资源全闭，其它旧/P104方法0。私有helper descriptor增Map参，必要消费者只同步适配器／原断言不变，不授body热替。wrongCONFIG参数在JVM/slot/BEGIN前拒绝只归执行器owner操作错，无compiler/modelRED或HTTP重试。[精确采用、时序、实际5阶段和成本边界](evidence/2026-11-07-http-model-alias105.md)保留未知主动工时与净节省，未授Runtime或性能收益。
 
 后到业务正式发表`0a8878ce9566a2c835bb8a1cd4e5cd8792a88e4a`，owner具名回执确认remote master一致／clean；仍未Runtime采用／实际热替，0新增确认保存日。
+
+
+## 2026-11-07：Civ6workshop-alpha2-final
+
+Alpha2同item3833805495完成：5append+1content一次OK／0Create／0自动重放，8publisher进程（7creator404350+1consumer289070），12正文HTMLimg/全部图与封面hash/93实际下载22657822B逐项pin一致。人工fresh无人报告才上线；物理GoOffline ACK仍online，正常退出Steam19252、普通重启14904，最后Invoke后14:57:54独立可见GoOnline无输入焦点截图证offline，Steam0terminate/0账号配置写。原Civ6save64后0CPU无UI端口残留>180s只terminate自有tuple，非cleanexit。无新HTTP/OpenCode，累计仍494459stop32length3transportHTTP524extra30，unknownnull。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-workshop-alpha2-final.json)。
