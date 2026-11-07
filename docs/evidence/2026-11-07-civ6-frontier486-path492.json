@@ -1,0 +1,338 @@
+{
+  "schema": "local-model-operations.civ6-frontier486-path492/v1",
+  "utc": "2026-11-07T13:17:37.427914+00:00",
+  "date_local": "2026-11-07",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/6ebed497056c6d214a0ff2dffd6a569224192232/docs/research/baiqi-p6-frontier486-path492-natural-settler-evidence-2026-11-07.json",
+    "sha256": "a093b493fb94bbb100b7a398c175d01e5a34dc4ffb2380e1099df91981553ec6"
+  },
+  "model": [
+    {
+      "task": 486,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 2934,
+        "completion_tokens": 1496,
+        "total_tokens": 4430
+      },
+      "ttft_ms": 543.6468999832869,
+      "total_ms": 9142.449099919759,
+      "review": {
+        "utc": "2026-11-07T11:18:48.738059+00:00",
+        "raw_lua51_compile": false,
+        "raw_compile_error": "[string \"<python>\"]:102: '=' expected near 'continue'",
+        "raw_contract_cases_run": 0,
+        "raw_other_static_issues": [
+          "No requested whole-function pcall.",
+          "Invalid visible-row fields cause selectTarget to return nil rather than UNKNOWN metadata."
+        ],
+        "owner_prompt_correction": "Prompt486 omitted an explicit Lua5.1 version even though current game target is known Lua2013.2.0/unpack5.1. Raw used goto/labels; owner compile refused before any execution. This omission is owner preparation responsibility, not a product defect.",
+        "whole_raw_adoption": 0,
+        "raw_native_execution": 0,
+        "owner_cases": {
+          "max-distance-then-lowest-index": {
+            "passed": true
+          },
+          "tie-lowest-index": {
+            "passed": true
+          },
+          "empty-known-no-target": {
+            "passed": true
+          },
+          "no-outward-target-known-none": {
+            "passed": true
+          },
+          "holes-unknown": {
+            "passed": true
+          },
+          "extra-string-array-key": {
+            "passed": true
+          },
+          "seven-rows-rejected": {
+            "passed": true
+          },
+          "duplicate-plot-index": {
+            "passed": true
+          },
+          "nan-geometry": {
+            "passed": true
+          },
+          "infinite-distance": {
+            "passed": true
+          },
+          "numeric-string-rejected": {
+            "passed": true
+          },
+          "visible-not-boolean": {
+            "passed": true
+          },
+          "invisible-skip-with-unknown-properties": {
+            "passed": true
+          },
+          "foreign-skip-with-no-native-fields": {
+            "passed": true
+          },
+          "city-skip-with-no-native-fields": {
+            "passed": true
+          },
+          "occupied-skip-with-no-native-fields": {
+            "passed": true
+          },
+          "eligible-missing-canmove-unknown": {
+            "passed": true
+          },
+          "eligible-missing-canswap-unknown": {
+            "passed": true
+          },
+          "eligible-missing-war-change-unknown": {
+            "passed": true
+          },
+          "native-move-rejection-not-selected": {
+            "passed": true
+          },
+          "swap-rejected-target": {
+            "passed": true
+          },
+          "war-change-rejected-target": {
+            "passed": true
+          },
+          "nonadjacent-not-selected": {
+            "passed": true
+          },
+          "unknown-owner-rejected": {
+            "passed": true
+          },
+          "fractional-unit-count": {
+            "passed": true
+          },
+          "bad-pid-protected": {
+            "passed": true
+          },
+          "fresh-plain-output-no-input-mutation": {
+            "passed": true
+          }
+        },
+        "owner_unique_cases": 27,
+        "owner_sha256": "490e8edad2683b572e85a445cfbced210d2bdd9ddbd94a70cfdd8fa44cc3ff3b",
+        "scope": "Pure target metadata only for TEST_PLAYER, not BACKGROUND scouting or a command emitter. Owner reviews and freshly qualifies each actual input.",
+        "usage": {
+          "prompt_tokens": 2934,
+          "completion_tokens": 1496,
+          "total_tokens": 4430
+        },
+        "ttft_ms": 543.6468999832869,
+        "total_ms": 9142.449099919759,
+        "cumulative_through486": {
+          "logical_tasks": 486,
+          "complete_stop_valid": 453,
+          "length": 30,
+          "final_transport_failures": 3,
+          "http_attempts": 516,
+          "extra_retries": 30,
+          "opencode_native_generation": 0,
+          "cached_tokens": null,
+          "owner_active_seconds": null,
+          "net_savings_seconds": null
+        }
+      },
+      "shared_commit": "cb337ca4bd87f5c9fe5b3745692c0b140d04e501",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 492,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 50493,
+        "completion_tokens": 1137,
+        "total_tokens": 51630
+      },
+      "ttft_ms": 6574.025999987498,
+      "total_ms": 13473.290399997495,
+      "review": {
+        "utc": "2026-11-07T12:52:44.008266+00:00",
+        "raw_lua51_compile": true,
+        "raw_cases": {
+          "empty-real-zero": {
+            "passed": false
+          },
+          "one-element": {
+            "passed": true
+          },
+          "dense-three": {
+            "passed": true
+          },
+          "hole-unknown": {
+            "passed": false
+          },
+          "string-key-unknown": {
+            "passed": true
+          },
+          "invalid-value-unknown": {
+            "passed": false
+          },
+          "other-actor-unrecorded": {
+            "passed": false
+          },
+          "nil-holes-and-count": {
+            "passed": true
+          },
+          "native-once-only": {
+            "passed": false
+          },
+          "original-error-identity": {
+            "passed": false
+          },
+          "sample-error-transparent": {
+            "passed": true
+          },
+          "restore-exact": {
+            "passed": true
+          },
+          "foreign-function-preserved": {
+            "passed": true
+          },
+          "foreign-namespace-preserved": {
+            "passed": true
+          },
+          "capacity-filtered": {
+            "passed": true
+          },
+          "bad-target-transparent": {
+            "passed": false
+          },
+          "occupied-install-refused": {
+            "passed": true
+          },
+          "publication-failure-rollback": {
+            "passed": true
+          }
+        },
+        "raw_failed_cases": 7,
+        "static_rejections": [
+          "Before sampling records every actor, including UNKNOWN rather than filtering; actual Native units may be userdata.",
+          "Empty plots becomes UNKNOWN; no validation of all keys/holes.",
+          "Sampling before original query violated requested post-return-only timing."
+        ],
+        "whole_raw_adoption": 0,
+        "raw_native_execution": 0,
+        "owner_cases": {
+          "empty-real-zero": {
+            "passed": true
+          },
+          "one-element": {
+            "passed": true
+          },
+          "dense-three": {
+            "passed": true
+          },
+          "hole-unknown": {
+            "passed": true
+          },
+          "string-key-unknown": {
+            "passed": true
+          },
+          "invalid-value-unknown": {
+            "passed": true
+          },
+          "other-actor-unrecorded": {
+            "passed": true
+          },
+          "nil-holes-and-count": {
+            "passed": true
+          },
+          "native-once-only": {
+            "passed": true
+          },
+          "original-error-identity": {
+            "passed": true
+          },
+          "sample-error-transparent": {
+            "passed": true
+          },
+          "restore-exact": {
+            "passed": true
+          },
+          "foreign-function-preserved": {
+            "passed": true
+          },
+          "foreign-namespace-preserved": {
+            "passed": true
+          },
+          "capacity-filtered": {
+            "passed": true
+          },
+          "bad-target-transparent": {
+            "passed": true
+          },
+          "occupied-install-refused": {
+            "passed": true
+          },
+          "publication-failure-rollback": {
+            "passed": true
+          }
+        },
+        "owner_contract_cases": 18,
+        "owner_sha256": "e290d6802445732b0b06df2b4bd4608c0f16cb6ca5b71ba051aaf30a733a5e16",
+        "scope": "Transparent future GetMoveToPathEx only, no route query emitted by observer, no command emitter.",
+        "usage": {
+          "prompt_tokens": 50493,
+          "completion_tokens": 1137,
+          "total_tokens": 51630
+        },
+        "ttft_ms": 6574.025999987498,
+        "total_ms": 13473.290399997495,
+        "cumulative_through492": {
+          "logical_tasks": 492,
+          "complete_stop_valid": 457,
+          "length": 32,
+          "final_transport_failures": 3,
+          "http_attempts": 522,
+          "extra_retries": 30,
+          "opencode_native_generation": 0,
+          "cached_tokens": null,
+          "owner_active_seconds": null,
+          "net_savings_seconds": null
+        }
+      },
+      "shared_commit": "154a28b398b5e424e29f5f9066f3c21bbe2127a7",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 492,
+    "complete_stop_valid": 457,
+    "length": 32,
+    "final_transport_failures": 3,
+    "http_attempts": 522,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Current Native82 freshnewgame38→56:18ordinaryEND/31milSKIP+5TEST_PLAYER militaryorders,0civilian/manualdomestic/grants/reveal/forced. Actualsettler51,secondbuilder56,firstbuilder3improvements;527futureExecutorfinance with0errors/drops/scopedmilitary, nativepath5 contrasted with lateremptyread;official56save/load retains4units/1city/pop4/gold202 after allhooksrestored.",
+  "generic_lessons": [
+    "A path read after standby is not the path that existed before the background decision; observe original future returns rather than infer earlier emptiness.",
+    "An available destination and valid native path do not bypass safety checks at the origin and intermediate plots. Later visible threat samples are not atomic dispatch-time snapshots.",
+    "Transparent Lua51 instrumentation must preserve nil return holes and native error identity, accept userdata actors, distinguish real empty paths from UNKNOWN and filter the intended actor.",
+    "Owner orchestration must inspect both terminal exit and semantic success; a second dependent call after a rejected preview is an owner workflow failure even when the guard prevents all orders.",
+    "Natural unit birth does not prove population cost or complete expansion; save/reload of the completed state and route-to-found outcome remain separate cases."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Fresh-world unit training, visible-threat safety correlation and completed-state persistence only; no complete expansion, population-deduction, recovery fix or40TC PASS. Product82 unchanged, Workshop lastverified74,0newonline/upload. HTTP and OpenCode-native accounting separate."
+}

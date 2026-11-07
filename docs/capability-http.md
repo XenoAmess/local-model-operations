@@ -4340,3 +4340,10 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 487/488length保留0采用；489—491三个真实窄候选stop/JSON，owner选择部分逻辑并修490硬编码回退与491 count==count+1；14方法（含C#5compile/20纯助手case）pass，0Publisher.Main/SteamAPI。实际HTTP2后3在途区间，累计491/456complete/32length/3transport/HTTP521extra30。产品82/93未改，工坊74未更新，维护复用Nov7同机同用户00:36成功1.19.5，OpenCode新原生0；缓存、成本、人工节时null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-release-tools491.json)。
+
+
+## 2026-11-07：Civ6frontier486-path492
+
+486raw Lua51goto拒/owner27pass，prompt未写5.1是owner责任；492raw编译但18中7fail/owner18pass，路径复制变体19pass，0整稿Native。实际53后后台Nativepath5而待命后query52/53empty，不混时刻；55当前4可见交战敌军，51→56移民等待，人口4→4不授cost。56四units/一城保存1090744B/hash049d6d01829fa298d39c38f3fe2ce09ffb8b35e1d6f2cc4ae7a55e55328425f1全钩清再正式reload保持，3新图。Owner第二步moves0仍跟随失败preview调用，守卫0emit拒，流程已改terminal+semantic；发布原件名错误后只校验已有图片续交，Git已有远端祖先时正常push，不为无须rebase而stash/丢弃独立改动。累计492457stop32length3transportHTTP522extra30/OpenCode新0，未知null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-frontier486-path492.json)。
