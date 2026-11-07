@@ -1,0 +1,168 @@
+{
+  "schema": "local-model-operations.civ6-source86-prophet509/v1",
+  "utc": "2026-11-07T19:31:36.617215+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/98c6e826944df3a317f38d0ecb72dac6ab3f4516/docs/research/baiqi-p6-prophet509-source86-evidence-2026-11-08.json",
+    "sha256": "a6e827a604398518fed95377163438bd9a1a9f1c0584458fd7b82500495449c5"
+  },
+  "model": [
+    {
+      "task": 508,
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 5683,
+        "completion_tokens": 778,
+        "total_tokens": 6461
+      },
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "ttft_ms": 915.9008999122307,
+      "total_ms": 5823.766399989836,
+      "shared_commit": "ea38f04e87c7e9a8fc9465e5f7d10dbb777c3219",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "candidate_adoption": "REJECTED",
+        "raw_lua51_compile": true,
+        "raw_actual_leader_status": "UNKNOWN",
+        "raw_wrong_literal_then_values_index_throws": true,
+        "raw_nil_environment_protected": false,
+        "raw_native_executions": 0,
+        "findings": [
+          "Literal Baiqi mismatches actual LEADER_BAIQI; owner prompt omitted exact configured literal/Config source, contributing ambiguity.",
+          "pcall multiple values are not an array: vals holds first numeric result, then vals[1] throws outside protected block.",
+          "Environment/global/leader/getters before pcall can throw; GetLocalPlayer calledtwice."
+        ],
+        "owner_cases": 15,
+        "owner_checks": {
+          "known_unfounded_exact_once": true,
+          "known_founded": true,
+          "nil_environment_unknown": true,
+          "foreign_player_unknown": true,
+          "invalid_pid_no_getters": true,
+          "wrong_leader_unknown": true,
+          "nonhuman_unknown": true,
+          "engine_throw_unknown": true,
+          "missing_method_unknown": true,
+          "fractional_created_rejected": true,
+          "negative_earned_rejected": true,
+          "nan_faith_rejected": true,
+          "infinite_faith_rejected": true,
+          "invalid_boolean_rejected": true,
+          "missing_religion_unknown": true
+        },
+        "owner_source_changes_only_ignored_QA": true
+      },
+      "final_comparison": null,
+      "whole_raw_adopted": false,
+      "raw_native_executions": 0,
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 509,
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 9940,
+        "completion_tokens": 1244,
+        "total_tokens": 11184
+      },
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "ttft_ms": 1631.9748000241816,
+      "total_ms": 9162.371499929577,
+      "shared_commit": "ea38f04e87c7e9a8fc9465e5f7d10dbb777c3219",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "raw_lua51_compile": true,
+        "unique_anchor_counts": [
+          1,
+          1
+        ],
+        "raw_test_run": 17,
+        "raw_failures": [
+          "test_other_live_prophet_does_not_hide_correlated_completion"
+        ],
+        "raw_errors": [],
+        "whole_candidate_adoption": "REJECTED",
+        "modified_adoption": "Prequalification true concept adopted; owner removes post ownership-flag receipt condition entirely while retaining exact durableOBSERVED/token and earnedincrease.",
+        "counterexample": "Firstprophet correctlyconsumed/event/earned with another liveprophet stillowned: raw falseflag receipt blocks valid completion.",
+        "raw_native_executions": 0,
+        "baseline85_returncode": 1,
+        "baseline85_log_sha256": "a38b1e41c72701c4b90e5cdfc0bdcf8ca302f401d69432bbacab773c16590c2f"
+      },
+      "final_comparison": {
+        "results": {
+          "baseline85": {
+            "run": 17,
+            "failures": [
+              "prophet509_corrected_fixture.ProphetTests.test_already_earned_or_founded_or_native_rejected_cannot_found_again (case='flag')",
+              "prophet509_corrected_fixture.ProphetTests.test_changed_qualification_after_persisted_permission_blocks_native_dispatch",
+              "prophet509_corrected_fixture.ProphetTests.test_consumption_and_actual_earned_state_alone_are_not_confirmation",
+              "prophet509_corrected_fixture.ProphetTests.test_late_native_event_after_controller_recreation_updates_durable_record",
+              "prophet509_corrected_fixture.ProphetTests.test_lost_prophet_ownership_after_durable_grant_holds_armed_without_native_order",
+              "prophet509_corrected_fixture.ProphetTests.test_matching_native_event_waits_for_actual_earned_qualification",
+              "prophet509_corrected_fixture.ProphetTests.test_other_live_prophet_does_not_hide_correlated_completion",
+              "prophet509_corrected_fixture.ProphetTests.test_second_prophet_cannot_compete_with_unresolved_founding_request",
+              "prophet509_corrected_fixture.ProphetTests.test_unknown_prophet_request_not_replayed_after_controller_recreation",
+              "prophet509_corrected_fixture.ProphetTests.test_unknown_survives_turn_and_never_replays_or_spams",
+              "prophet509_corrected_fixture.ProphetTests.test_zero_charge_prophet_walks_to_completed_site_then_uses_real_operation_once"
+            ],
+            "errors": []
+          },
+          "raw509": {
+            "run": 17,
+            "failures": [
+              "prophet509_corrected_fixture.ProphetTests.test_other_live_prophet_does_not_hide_correlated_completion"
+            ],
+            "errors": []
+          },
+          "owner86": {
+            "run": 17,
+            "failures": [],
+            "errors": []
+          }
+        },
+        "owner_correction": "First two-prophet fixture captured a pre-consumption FindID table; corrected to reflect current presence. Rechecked old85/raw509/owner86 against corrected fixture; original private logs preserved.",
+        "raw_native_executions": 0,
+        "whole_raw_adopted": false
+      },
+      "whole_raw_adopted": false,
+      "raw_native_executions": 0,
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 509,
+    "complete_stop_valid": 474,
+    "length": 32,
+    "final_transport_failures": 3,
+    "http_attempts": 539,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Native85selfreligion/prophetread:created-1/earned0/pantheon14/ownsprophettrue/faith934.7421875,Confucius5111847@8,9(nonholy)/moves4/Nativequalificationfalse,oldLEGACY_UNKNOWN retained. Local shipped ReligionScreen proves true→USE_PROPHET. Source86pretrue/postdurableOBSERVEDtoken+earned only,17Lua51cases old85fail11/raw509fail1/owner0;full1214run1213pass1SDKskip,74Lua51/96files.86notyetNative.",
+  "generic_lessons": [
+    "A boolean named after a unit is not an activation receipt. Read its actual shipped UI consumer and sample the real state before encoding a gate in both product and fixtures.",
+    "If a fixture repeats the implementation misconception, passing tests are circular. Correct the fixture using independent Native/primary-source semantics and rerun the old product as a negative control.",
+    "Actor-level completion can remain valid when a second actor keeps a player-wide ownership flag true. Correlate exact durable token/event/effect plus earned capacity, rather than using the global flag as receipt.",
+    "A cached pre-consumption lookup fixture can manufacture a failure. Rebuild its exact lookup from current presence and rerun baseline, raw candidate and owner implementation against the corrected fixture.",
+    "A wrong condition can be real without being the sole cause of the current old actor waiting: preserve its LEGACY journal and noneligible location as independent facts.",
+    "Give exact configured constants in prompts. A missing leader literal in the owner contract contributes ambiguity even when the candidate also has independent protected-call and multi-return bugs."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Source86software fix and Native85readonly semantics witness only. Old LEGACY prophetnotreactivated; fresh86Native required. ARMED/legacyrecoveryFAIL/full40TC remainOPEN.0Steamonline/upload;publicAlpha2still82."
+}

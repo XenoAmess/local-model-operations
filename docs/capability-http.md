@@ -4444,3 +4444,10 @@ prod始终1TU0/4class。新Test首3方法2P1F、diagnostic只failed1F、最终�
 保presence/null/坏形状及expected:null优先，cash／source原对象完整，角色不是全snapshot无损或新权威。prod1TU0/12class；新Test首1P0F2E为owner大写machineID夹具未到Collector，改fixture后仅两errorcase2P，31-vector方法原绿保留，不写最后同JVM3P，不归模型/生产错误。139history为无关未消费DATA扩展，Loan ordinal314本已synthetic，不授同世界或live许可。31原向量28typed相同／3原拒绝保type+message，不是31新JUnit方法。
 
 同组件输入Gap3404665→2662B、Loan3406815→4881B，容量修复不授CPU／实机速度／完整Construction。最终19:17:46.829631Z资源闭合，6files正常发表`38e024f468f7c6e67c18a0fe8aecf130ec63d399`，remote一致。[真实输入范围、采用与owner错误分账](evidence/2026-11-08-http-financing-role107.md)保所有原阶段／资源pin和未知成本，0Runtime／资金到账／保存日信用；持续性能目标仍进行。
+
+
+## 2026-11-08：Civ6source86-prophet509
+
+508原稿错领袖字面量/pcall多值当数组/外层未保护，owner提示漏精确LEADER_BAIQI来源也记录，15checkedowner只读Native85自宗教/孔子事实；509两个真实锚点唯一可编译，但post仍用反向ownsflag做回执，另一先知存活时失败，whole拒，仅pretrue方向修改采用。ownerpost确切持久OBSERVED/token+earned增加、旧保护不变。原版ReligionScreen126/384—387 true应useprophet；Nativeold158ownsprophettrue但created-1/earned0/faith934.7421875，当前非圣地且JLEGACY，未激活。修fixturetrue-before/false-consumed、三新methods、Controller消费者和CoreharnessLua51。双先知fixture首次缓存旧FindID，已动态修后重跑17case，旧85fail11/raw509fail1/owner86zero。full1214run1213pass1SDK环境skip99.683s，74Lua51/96zipSHA0201430c891ee31d41f9493295d574e160604fbf62579699fc79abcaa01aa627。85owned24476已private158hash复核/正式Exit一次，终态另核；86未安装Native，Alpha2仍82。累计509474stop32length3transportHTTP539extra30/OpenCode新0/未知null，canonical复用Nov8维护。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source86-prophet509.json)。
