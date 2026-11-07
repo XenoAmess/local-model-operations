@@ -1,0 +1,332 @@
+{
+  "schema": "local-model-operations.http-case/v1",
+  "case_id": "HTTP-JAVA-MODEL-HISTORY-BYTE-IDENTITY-104",
+  "mode_id": "http-candidate",
+  "date": "2026-11-07",
+  "generated_at_utc": "2026-11-07T14:42:21.565124+00:00",
+  "scope": "Redacted actual source-candidate case; documentation does not dispatch HTTP or run software/business actions.",
+  "task": "Preserve ordered wire identity when omitting duplicate snapshot history in three Java model-input consumers.",
+  "guidance": "Owner identified all three sites and member-order counterexample; correction explicitly supplied element-wise array equality, 64 MiB role budget and typed-copy guidance. Strongly guided implementation, not independent defect discovery.",
+  "sources_count": 5,
+  "stable_source_message_utf8_bytes": 114491,
+  "shared_repo_base": "6f02e5095b7ad36357395160c681b120867f5f28",
+  "backend_weights_quantization_build": null,
+  "runtime_caller_exact_version_qualified_by_this_case": null,
+  "rounds": [
+    {
+      "round": 1,
+      "post_begin_utc": "2026-11-07T14:24:26.005541+00:00",
+      "attempt_end_utc": "2026-11-07T14:24:36.230524+00:00",
+      "post_count": 1,
+      "transport_retries": 0,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "message_utf8_bytes": [
+        301,
+        114491,
+        2038
+      ],
+      "model": "qwen38-coder",
+      "max_tokens": 2600,
+      "temperature": 0,
+      "enable_thinking": false,
+      "response_format": "json_object",
+      "stream": true,
+      "include_usage": true,
+      "http_status": 200,
+      "http_headers_ms": 3449.585899943486,
+      "first_nonempty_content_delta_ms": 3450.9823999833316,
+      "total_ms": 10224.909899989143,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 25003,
+        "completion_tokens": 1110,
+        "total_tokens": 26113
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "actual_peer": "UNKNOWN",
+      "frozen_client_candidate_review": "NOT_YET_REVIEWED",
+      "frozen_client_adopted": false,
+      "later_owner_decision": "REJECTED",
+      "raw_pins": {
+        "REQUEST.json": {
+          "bytes": 120298,
+          "sha256": "c0f447b96a7b406a85e76aaeeb4890ee338efc162fc393dcdf675eee510eb4f9"
+        },
+        "ATTEMPT1-RESULT.json": {
+          "bytes": 1282,
+          "sha256": "7677ab13fb9069a2f0d9d945c3f4596bbf3e43381b183be62e19bba3d2e14a8a"
+        },
+        "ATTEMPT1-CONTENT.txt": {
+          "bytes": 5109,
+          "sha256": "e5d87c61a3b9f0dcadc604579c2a0aa2caea97a3449e000ad4e152cf903b4c2d"
+        },
+        "EVENTS.jsonl": {
+          "bytes": 2725,
+          "sha256": "35f8eacf68eaf5366c9f61f4b8f97d93782bb5827ddc99e88c0f70f9be96dd40"
+        }
+      }
+    },
+    {
+      "round": 2,
+      "post_begin_utc": "2026-11-07T14:26:19.267927+00:00",
+      "attempt_end_utc": "2026-11-07T14:26:26.868143+00:00",
+      "post_count": 1,
+      "transport_retries": 0,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "message_utf8_bytes": [
+        301,
+        114491,
+        3010
+      ],
+      "model": "qwen38-coder",
+      "max_tokens": 2300,
+      "temperature": 0,
+      "enable_thinking": false,
+      "response_format": "json_object",
+      "stream": true,
+      "include_usage": true,
+      "http_status": 200,
+      "http_headers_ms": 951.4751000097021,
+      "first_nonempty_content_delta_ms": 952.3932000156492,
+      "total_ms": 7600.131599931046,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 25199,
+        "completion_tokens": 1131,
+        "total_tokens": 26330
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "actual_peer": "UNKNOWN",
+      "frozen_client_candidate_review": "NOT_YET_REVIEWED",
+      "frozen_client_adopted": false,
+      "later_owner_decision": "PARTIAL_WITH_OWNER_CORRECTION",
+      "raw_pins": {
+        "REQUEST.json": {
+          "bytes": 121271,
+          "sha256": "0bd2fa28bd5c33000cff363effaa5f04715f0e4d5f280ecc35f9f44671473b1a"
+        },
+        "ATTEMPT1-RESULT.json": {
+          "bytes": 1280,
+          "sha256": "2204058458ada9d45e0f28a69166f08f0507586cd4f0624c4653d9a62d1aac90"
+        },
+        "ATTEMPT1-CONTENT.txt": {
+          "bytes": 5272,
+          "sha256": "dd5bcc7cc0d5a209c58f5bf5455b54011a04bb3fccdf75f306ac4f753d26f358"
+        },
+        "EVENTS.jsonl": {
+          "bytes": 2766,
+          "sha256": "b41c6423fd33e30769db14915f9767d5b528ec7088c53d4ad7ed0c38b912ee36"
+        }
+      }
+    }
+  ],
+  "findings": [
+    {
+      "round": 1,
+      "decision": "REJECTED_SOURCE",
+      "details": [
+        "byte array Object.equals compares references rather than elements",
+        "Selected 256 MiB Driver domain rather than 64 MiB model material budget",
+        "Passed invariant typed object list to an array value requiring a value list"
+      ],
+      "compiled_raw_candidate": false
+    },
+    {
+      "round": 2,
+      "decision": "PARTIAL_WITH_OWNER_CORRECTION",
+      "partial_scope": "Element-wise byte comparison, 64 MiB role budget and typed-copy core direction; all three final hunks adjusted by owner.",
+      "owner_corrections": [
+        "Removed three new RuntimeException-swallow catch blocks",
+        "Replaced compact 32-depth codec call with actual wire 64-depth fixed codec without changing codec implementation"
+      ],
+      "whole_method_or_hunk_verbatim_adoption": 0
+    }
+  ],
+  "numeric_regression_limit": "Existing decimal token equality already distinguishes original numeric lexemes; 1.0 versus 1.00 is not the observed structural-equality defect.",
+  "final_source_ready": {
+    "raw_pin": {
+      "bytes": 1533,
+      "sha256": "5c952f99881ec4944fa38ae1dbe15f1866e5f8ef09593ed1cb00a7372f61964a"
+    },
+    "sources": [
+      {
+        "name": "RootOnlineDecisionSelector.java",
+        "bytes": 86433,
+        "sha256": "3ce1d5a7c5957c11f9baac8a73576770172556a9f285fc2b2f9ea064542b6891"
+      },
+      {
+        "name": "RootCouncilDecisionProjection.java",
+        "bytes": 10198,
+        "sha256": "1537ff280977ab1ed4f97c65384a6db37cd311ae3f099a5febbeda48b69e6937"
+      }
+    ],
+    "new_types": 0,
+    "new_methods": 0,
+    "new_fields": 0
+  },
+  "owner_integration_red": {
+    "at_utc": "2026-11-07T14:32:26.793587+00:00",
+    "exit_code": 1,
+    "seconds": 6.5569381000241265,
+    "execution_counts": {
+      "new_production_TUs": 2,
+      "new_Test_TUs": 0,
+      "Test_RUN": 0,
+      "oldgreen_TUs_or_RUN": 0,
+      "Runtime_Game_Native_P100": 0
+    },
+    "class_count": 0,
+    "cause": "Owner codec conversion introduced one excess closing parenthesis; source Ready03 removes only that extra parenthesis.",
+    "attribution": "Owner integration; not model raw-code compilation or an additional model failure.",
+    "closed_at_utc": "2026-11-07T14:32:26.999206+00:00",
+    "reservation_still_held": false,
+    "raw_pins": {
+      "ACTUAL.json": {
+        "bytes": 1547,
+        "sha256": "15ce52c57701a112b0f29c2e3228716af9cfc93d82fd90e159da559d65386e9f"
+      },
+      "MANAGED-CLOSE.json": {
+        "bytes": 237,
+        "sha256": "362ed67a65b954936977626e9f18cf145d0558f34de5d2ee6f10f2c4d1b0e093"
+      }
+    }
+  },
+  "software_follow_up": {
+    "scope": "Owner-corrected mixed source only; no raw-model whole-method/hunk success claim.",
+    "phases": [
+      {
+        "phase": "production",
+        "actual_at_utc": "2026-11-07T14:35:37.351830+00:00",
+        "exit_code": 0,
+        "seconds": 7.227082500001416,
+        "execution_counts": {
+          "new_production_TUs": 2,
+          "new_Test_TUs": 0,
+          "Test_RUN": 0,
+          "oldgreen_TUs_or_RUN": 0,
+          "Runtime_Game_Native_P100": 0
+        },
+        "closed_at_utc": "2026-11-07T14:35:37.622402+00:00",
+        "reservation_still_held": false,
+        "raw_pins": {
+          "ACTUAL.json": {
+            "bytes": 1547,
+            "sha256": "7174e6e8ca484d28fe73206b5d7a8aaf1eea211d0cd9204293dfcca85fa20c2a"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 237,
+            "sha256": "43b7d630355dae32de7d8e4b29a87b238d850d898c22ce71788c874f732367b2"
+          }
+        }
+      },
+      {
+        "phase": "test_compile",
+        "actual_at_utc": "2026-11-07T14:38:13.775291+00:00",
+        "exit_code": 0,
+        "seconds": 4.880396799999289,
+        "execution_counts": {
+          "new_Test_TUs": 1,
+          "production_TUs": 0,
+          "oldgreen_TUs": 0,
+          "Runtime_Game_Native_P100": 0
+        },
+        "closed_at_utc": "2026-11-07T14:38:14.015393+00:00",
+        "reservation_still_held": false,
+        "raw_pins": {
+          "ACTUAL.json": {
+            "bytes": 1544,
+            "sha256": "24b9a13425349fb5a254ad3f17f04e6f1307255c60cc2a65cf71290cf9265f7e"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 237,
+            "sha256": "aee66e026c6c0923a8f945a47439b714200b4eb7add7c86791149f780ceefb9b"
+          }
+        }
+      },
+      {
+        "phase": "new_DATA",
+        "actual_at_utc": "2026-11-07T14:38:40.996114+00:00",
+        "exit_code": 0,
+        "seconds": 5.40348229999654,
+        "execution_counts": {
+          "new_DATA_methods": 3,
+          "old_Test_methods": 0,
+          "Runtime_Game_Native_P100": 0
+        },
+        "closed_at_utc": "2026-11-07T14:38:41.209503+00:00",
+        "reservation_still_held": false,
+        "raw_pins": {
+          "ACTUAL.json": {
+            "bytes": 1323,
+            "sha256": "c84703175d5736c77d0fdad9434105207819e23389e299131fbbc610097d9437"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 238,
+            "sha256": "3165e173ab252f39d85d1b5385091a2c367401d5a7909165b00636efbec30c6c"
+          }
+        }
+      }
+    ],
+    "production_emitted_classes": 5,
+    "new_test_emitted_classes": 2,
+    "DATA": {
+      "passes": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "old_test_methods": 0,
+      "xml_pin": {
+        "bytes": 42935,
+        "sha256": "7b7b8202f20d6f2c2012b17fb9bf2fac677b05d78fded9b90837a4aceb9c5b84"
+      }
+    },
+    "qualification_pin": {
+      "bytes": 14034,
+      "sha256": "e9f65667c4e9a31a859f2e06f7ff25d58833d5a077d729ef7af1907458b070f1"
+    },
+    "runtime_adopted": false,
+    "end_to_end_gain_qualified": false
+  },
+  "formal_publication": {
+    "at_utc": "2026-11-07T14:40:37.6341069Z",
+    "business_commit": "c856485023f2daeb85fd287eca7781f235e5398e",
+    "remote_master_at_receipt": "c856485023f2daeb85fd287eca7781f235e5398e",
+    "clean_at_receipt": true,
+    "model02_core_partially_adopted": true,
+    "Runtime_adopted": false,
+    "new_verified_saved_days": 0,
+    "raw_pin": {
+      "bytes": 1271,
+      "sha256": "8738937d179ff8f5cbe72e9909a49dc880ef6d991ded77d2c8340dc4bf40dd17"
+    },
+    "verification_scope": "Read exact business-owner publication receipt; no independent business operation or remote live/game query for documentation."
+  },
+  "runtime_adopted": false,
+  "end_to_end_gain_qualified": false,
+  "cost": {
+    "first_post_to_last_end_seconds": "120.862602",
+    "owner_preparation_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "coordination_seconds": null,
+    "test_active_seconds": null,
+    "publication_active_seconds": null,
+    "net_owner_saving_seconds": null,
+    "missing_phase_records": "Do not infer active effort from HTTP, compile durations or inter-round wall gap."
+  },
+  "new_http_for_documentation": 0,
+  "new_opencode_native_task": 0,
+  "next_trigger": "A future independent real fidelity task; no rerun of this completed two-round candidate generation to seek a different adoption label."
+}

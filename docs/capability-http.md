@@ -4354,3 +4354,11 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 493/494真实并行2、stop/DONE/VALID：8181/7793tokens、TTFT1.5821299/1.8813511秒、总14.6315424/12.8981036秒，0retry。493混18/14图注、38farm/44-45后事、51/56照片；494误把14城QA叫新局且复制任务指令，0整稿采用，owner逐图与世界身份修正重写。12图=5新82+7历史，BBCode5248B；93files与ZIP全一致hasha1f8be6e2dd5ebccf2300caabd9e1aeebc84dec7f737ef8e72044e6d1dc1ff16。新跨page日志守卫回归，15工具方法含20managedhelpers通过；0SDKinit/online/upload，fresh占用async待答。累计494459stop32length3transportHTTP524extra30/OpenCode新0，维护缓存Nov7同机同用户00:36成功1.19.5、未知null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-alpha2494.json)。
+
+## 2026-11-07：模型输入历史去重的字节身份修复P104
+
+`HTTP-JAVA-MODEL-HISTORY-BYTE-IDENTITY-104`的首轮完整稿以`byte[].equals`做引用比较、错用256 MiB域并有typed数组构造问题，源审拒收。具体反馈后的第二轮元素字节比较／64 MiB／typed复制方向部分采用；三个最终hunk仍由owner调整，删除新增吞异常catch并改compact为实际64层wire codec，无完整方法或hunk原样采用。owner已定位全部消费者并给反例／修正提示，不能称模型独立发现。原数字token比较本已严格，不把数字字面差异误记为观察到的成员顺序缺陷。
+
+两轮fixed3/max2600→2300/temp0/thinkingfalse/JSON/SSE，2 POST／2 END／0retry，均200/stop/DONE/VALID；有效TTFT3.4509824／0.9523932秒，总10.2249099／7.6001316秒，reported tokens25003/1110与25199/1131，cachednull。owner codec转换多余括号导致首2TU RED1/0class，单独归owner；纠正后2TU0/5class、新Test1TU0/2class，only3新DATA实际3P，旧绿0／旧methods RUN0，14:38:41.209503Z资源全闭。模型原稿拒收／partial、owner错误及后继混合源码通过分账，不授Runtime或性能收益。[原件pin、强指导范围、完整RED与后到验证](evidence/2026-11-07-http-model-history104.md)保留未知主动工时与净节省，不套用P103全拒收结论。
+
+后到业务发表为`c856485023f2daeb85fd287eca7781f235e5398e`，具名回执记录remote master一致／clean切点；仍未Runtime采用，0新增确认保存日，不以正式源码提交代替实际游玩效果。
