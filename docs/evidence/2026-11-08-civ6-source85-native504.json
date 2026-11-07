@@ -1,0 +1,75 @@
+{
+  "schema": "local-model-operations.civ6-source85-native504/v1",
+  "utc": "2026-11-07T18:14:37.184214+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/cf9e32287098a15e901b938fe7321a63ae76ce26/docs/research/baiqi-p6-source85-native-and-population504-evidence-2026-11-08.json",
+    "sha256": "453b274a3a7bbae00df2a1df129273799f775f7bc8c5838b2d3f35bafed92dcf"
+  },
+  "model": {
+    "task": 504,
+    "http_attempts": 1,
+    "usage": {
+      "prompt_tokens": 3559,
+      "completion_tokens": 1470,
+      "total_tokens": 5029
+    },
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "ttft_ms": 669.610399985686,
+    "total_ms": 9875.731399981305,
+    "shared_commit": "8099403e799694180631b470e3ab27561e73ba80",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "review": {
+      "raw_lua51_compile": true,
+      "raw_native_executions": 0,
+      "candidate_adoption": "REJECTED",
+      "isolated_actual_consumer_api": {
+        "registered_callbacks": 0,
+        "removed_callbacks": 0,
+        "diagnostic_global_type": "nil",
+        "printed_success": "P6Population504 installed",
+        "snapshot": null
+      },
+      "findings": [
+        "Local P6Population504 is assigned the installer function, so its nonnil guard immediately returns; prints installed with zero event registrations and no diagnostic global.",
+        "Invents Players.GetLocalPlayer, unlike supplied Game.GetLocalPlayer; colon-method getters called without self. Snapshot returnsnil against supplied API shape.",
+        "No explicit vararg n, so nil holes/trailing nil are not preserved. Unfiltered foreign event args still appended before snapshot filtering.",
+        "Unit birth does not attach capital food/pop snapshot; inaccessible local records/counters, missing bounded turn guard and ownership-safe exposed object.",
+        "growth.GetFood indexing and unitObj.GetUnitType invocation can throw outside the safe-call function."
+      ],
+      "owner_followup": "Build bounded passive observer from actual Game/Players/city/event contracts; isolate meaningful callback/restore/nil-hole/foreign-filter tests before Native."
+    },
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 504,
+    "complete_stop_valid": 469,
+    "length": 32,
+    "final_transport_failures": 3,
+    "http_attempts": 534,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Actual84queued61proposal cold-loaded under85, preservedgoal1983 andqueue2132; 5ordinaryEND10armySKIP,65Beijing/emptygoal,66granary5of65 andofficial1126552B completedstate save/reload UI/Core preserved,allhooksnil.266samples allreadonce/3intendedpath,0error/drop.504rawobserver rejected isolated0registrationsyetprintedinstalled;0rawNative.",
+  "generic_lessons": [
+    "A persisted proposal and native queued step are separate records. Qualify actual getter return arity, then observe future calls without treating nil as proof that every dispatch layer is empty.",
+    "Upgrade persistence and completed empty-bank serialization need separate actual save/load samples with writer and reader versions explicit.",
+    "An installer can compile and print success yet never register any callback because its own function shadows the sentinel. Validate observable registrations and exposed read/restore consumers.",
+    "Use supplied Game.GetLocalPlayer and colon-method calling conventions. Preserve vararg count and nil holes; filter foreign event identifiers before storing or querying them.",
+    "Check UI versus Core API availability before save side effects. Failed preflight before a nil action flag is distinct from uncertain SaveGame return; preserve original intent and use a new reviewed attempt.",
+    "A loading-screen glyph mismatch sends no key; endpoint timeout sends no CMD. Qualify again only after actual load readiness, then verify world effects separately from ACK."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Native85queued-goal upgrade and completed-state save/reload narrowPASS;504passiveobserver candidate rejected,not installed. Population cost, ARMED/legacy recovery FAIL, full40TC remainOPEN; Alpha2public82/no newSteamonlineorupload."
+}

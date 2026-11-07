@@ -4405,3 +4405,10 @@ Alpha2同item3833805495完成：5append+1content一次OK／0Create／0自动重�
 503三锚点都存在/编译，但afterCommit注入queue后仍fakeFOUND1且ARMED，整稿拒并改用负向思路，owner加早期/预算前/最终Native检查及安全standby查询。8新方法85过，84初8方法6fail/8失败子案，full1210pass1SDK环境skip/74Lua51/96zip。84actualgoal初nil→61记录393216→1983(5926)，actor5929moves1queued2132；J首都OBS1无actorFOUND。5normalEND4milSKIP+8milorder，4futureExecutorcivops与6目标path全部read/restore，无extraNative；正式save1111447B/hashd94187488d0599829087b081dee1105c50c37f60a7065e15634820af23159611，尚未cold。85数据Core与84字节一致，下一步84save→85coldQueued61，不能冒充同版本或已读。累计503468stop32length3transportHTTP533extra30/OpenCode新0，复用Nov8维护1.19.5成功缓存、未知null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source85-queued503.json)。
+
+
+## 2026-11-08：Civ6source85-native504
+
+85actual84save61→85cold保留goal1983/queue2132，63/64走5927/5926，65一次FOUND北京及goal空，66grain5/65、正式save1126552B/hash0f7511f8233dc41f3b6bf9a8db10c80bd5815508bb4fd9f4b868383a58aa76c9与UI/Core重载保持、空嵌套表保持、钩nil。266未来样本全读一次／3目标path／0errdrop；0文职手操。504rawLua51compile但local函数自影使0注册却打印installed，隔离snapshotnil，错Players.GetLocalPlayer/colon无self/args无n/外方先记录，拒0Native。owner接管只读观察器，人口成本仍未知。累计504469stop32length3transportHTTP534extra30，canonical复用Nov8首500成功1.19.5维护缓存；OpenCode新原生生成0，未知null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source85-native504.json)。
