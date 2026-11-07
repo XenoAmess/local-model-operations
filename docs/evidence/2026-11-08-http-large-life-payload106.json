@@ -1,0 +1,805 @@
+{
+  "schema": "local-model-operations.http-case/v1",
+  "case_id": "HTTP-JAVA-LARGE-LIFE-PAYLOAD-106",
+  "mode_id": "http-candidate",
+  "local_observation_date": "2026-11-08",
+  "local_timezone": "Asia/Shanghai",
+  "request_utc_date": "2026-11-07",
+  "generated_at_utc": "2026-11-07T19:16:55.721115+00:00",
+  "scope": "Actual source candidate and later bounded offline formatter measurement; documentation performs no model, JVM or business action.",
+  "shared_repo_base": "8973677df8c38286a0eaf7a4792a6e75dc1a180d",
+  "source_count": 5,
+  "stable_source_message_utf8_bytes": 108992,
+  "guidance": "Owner supplied exact overflow-only algorithm, registry and required-capability gates, small-input byte preservation, marker, exact policy suffix and original64KiB threshold; strongly guided implementation.",
+  "round": {
+    "post_begin_utc": "2026-11-07T18:39:06.684080+00:00",
+    "attempt_end_utc": "2026-11-07T18:39:15.229576+00:00",
+    "post_count": 1,
+    "transport_retries": 0,
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "message_utf8_bytes": [
+      301,
+      108992,
+      3022
+    ],
+    "model": "qwen38-coder",
+    "max_tokens": 2300,
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true,
+    "http_status": 200,
+    "http_headers_ms": 3335.600099992007,
+    "first_nonempty_content_delta_ms": 3336.890000035055,
+    "total_ms": 8545.496099977754,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 24006,
+      "completion_tokens": 841,
+      "total_tokens": 24847
+    },
+    "cached_prompt_tokens_if_reported": null,
+    "actual_peer": "UNKNOWN",
+    "frozen_client_candidate_review": "NOT_YET_REVIEWED",
+    "frozen_client_adopted": false,
+    "later_owner_decision": "PARTIAL_WITH_OWNER_LOCAL_INTEGRATION",
+    "raw_pins": {
+      "REQUEST.json": {
+        "bytes": 115693,
+        "sha256": "dc71f2214385f309da8ccaaae38bf18278fb7d90699bd74882099817d5bfd19d"
+      },
+      "ATTEMPT1-RESULT.json": {
+        "bytes": 1276,
+        "sha256": "7e97fee0d0b13d0675aafb1ef75ac43a68004a97ad7f3fb8302ea996eaf14846"
+      },
+      "ATTEMPT1-CONTENT.txt": {
+        "bytes": 3725,
+        "sha256": "85b105d1e84e5c4f553c814eeb032aec3407b773bf34083d42fc747ecb61645a"
+      },
+      "EVENTS.jsonl": {
+        "bytes": 2679,
+        "sha256": "ef230bb664cb2321dddd9bba08efefe140494f8bc0df5aa6c302ac1c557ae612"
+      }
+    }
+  },
+  "adoption": {
+    "scope": "Core overflow validation and private-tree mutation partially adopted.",
+    "owner_changes": "Use existing Set import and required List rather than an extra HashSet, plus local names, comments and formatting. No established model business error.",
+    "verbatim_complete_method_or_whole_diff_qualified": false,
+    "raw_model_candidate_compiled_or_run": false
+  },
+  "source_ready": {
+    "ready_pin": {
+      "bytes": 881,
+      "sha256": "2af1fe1c421ff221b7dc2e2ffc3c3201c6cff0dad781eaba57dfabd9c4bfe824"
+    },
+    "source_pin": {
+      "bytes": 88546,
+      "sha256": "817857e4fac372f13ac5807a1c7d881070175330f9f49a4181ebfe5cb4d8ebae"
+    },
+    "baseline_business_commit": "0a8878ce9566a2c835bb8a1cd4e5cd8792a88e4a",
+    "scope": "method body only; 65536 heuristic unchanged, initial small payload bytes unchanged; no runtime credit"
+  },
+  "prompt_observations_not_new_benchmark": {
+    "original_compact_eligibility_checks": true,
+    "original_compact_formatter_bytes": 65913,
+    "unchanged_compact_limit_bytes": 65536,
+    "P105_full_formatter_bytes": 1537575,
+    "user_field_bytes": 59757,
+    "policy_field_bytes": 920,
+    "advertised_registry_count": 134,
+    "required_capability_count": 6,
+    "prospective_subset_formatter_bytes": 60559,
+    "historical_runtime_request_bytes_not_an_AB_control": 2784926
+  },
+  "projection_limits": [
+    "Only validated technical registry subset is projected after original compact overflow.",
+    "Small profile keeps original encoded bytes and policy.",
+    "Existing qualification, unknown siblings, proposal, source/command/deadline/authority retained.",
+    "Projected technical registry is not whole-generic-input byte identity."
+  ],
+  "provenance": {
+    "first_probe": "DATA reconstruction only; fact-before/evidence originals not exported, approximately45KiB snapshot already omitted nativehistory; not an original internal Root object.",
+    "historical_runtime_request_is_not_baseline": true,
+    "formatter_output_is_not_actual_HTTP_request_wire": true,
+    "actual_matched_variant": "Actual matched variant restored139originalRow nativehistory equally using named producer rules; removed-member position remains unknown, so no original internal FullSnapshot/Root byte-identity claim."
+  },
+  "software_follow_up": {
+    "qualification_pin": {
+      "bytes": 41512,
+      "sha256": "eafa1ea93c02d849e1f51b2cfc55769dc80ccfbc949fa92b1d73fe1092b71e39"
+    },
+    "counts": {
+      "production_TUs": 1,
+      "distinct_new_Test_source_files": 1,
+      "necessary_Test_variant_compilations": 3,
+      "manual_probe_TUs": 1,
+      "retained_initial_successful_methods": 2,
+      "diagnostic_failed_method_RUN": 1,
+      "final_failed_method_RUN_success": 1,
+      "benchmark_JVMs": 4,
+      "warmups": 8,
+      "measured_samples": 16,
+      "measured_per_mode": 8,
+      "unchanged_old_Test_or_Probe_or_production_recompile": 0
+    },
+    "phases": [
+      {
+        "phase": "production",
+        "at_utc": "2026-11-07T18:42:19.318496+00:00",
+        "exit_code": 0,
+        "contract_accepted": true,
+        "process_seconds": 6.927856900030747,
+        "closed_at_utc": "2026-11-07T18:42:19.547408+00:00",
+        "reservation_still_held": false,
+        "actual_pin": {
+          "bytes": 1489,
+          "sha256": "db727336143ddb0b4a837aec66461a64c681215ad64cfaa2b79930cf60c14374"
+        },
+        "close_pin": {
+          "bytes": 237,
+          "sha256": "3963d53bd9f599d1355f7588fad7d29aa0ef4c27c00fe5b563958b99e0376df9"
+        },
+        "outer_window_pin": {
+          "bytes": 841,
+          "sha256": "f6377435aff0ef36481e4bbb777e72b341a4dabcb037b963717728c6c7c47a56"
+        },
+        "emitted_classes": 4
+      },
+      {
+        "phase": "initial_Test_compile",
+        "at_utc": "2026-11-07T18:54:25.547823+00:00",
+        "exit_code": 0,
+        "contract_accepted": true,
+        "process_seconds": 6.636460200068541,
+        "closed_at_utc": "2026-11-07T18:54:25.830467+00:00",
+        "reservation_still_held": false,
+        "actual_pin": {
+          "bytes": 1491,
+          "sha256": "87445f1d5e2e8d0dca9656bca2044be94240717a7460e25bc416c80f8c4f6943"
+        },
+        "close_pin": {
+          "bytes": 237,
+          "sha256": "eae17dc7b8c38e280b14de87d05e66054a0d219db6d09cf9ae4d981a1a5c8dcb"
+        },
+        "outer_window_pin": {
+          "bytes": 853,
+          "sha256": "b8f42bb5d87d5dec460d7ca77d849fa2ccb28323a1f6254c9cf0944f9f9618ff"
+        },
+        "emitted_classes": 2
+      },
+      {
+        "phase": "initial_three_cases",
+        "at_utc": "2026-11-07T18:54:39.271997+00:00",
+        "exit_code": 1,
+        "contract_accepted": false,
+        "process_seconds": 7.886530900024809,
+        "closed_at_utc": "2026-11-07T18:54:39.516973+00:00",
+        "reservation_still_held": false,
+        "actual_pin": {
+          "bytes": 1279,
+          "sha256": "4057acf1dd7add2428b01c20890c83aafb416ac9b43da544c1ed900b7960f4a7"
+        },
+        "close_pin": {
+          "bytes": 238,
+          "sha256": "828fccdec15d7b5d979b068a508d641d41f646093d24623a0cef365b6c29d958"
+        },
+        "outer_window_pin": {
+          "bytes": 853,
+          "sha256": "b6815a1514e78cfc872b46da4662e5267b9bc664b1731c6b46741976278ca14c"
+        },
+        "JUnit": {
+          "tests": 3,
+          "passes": 2,
+          "failures": 1,
+          "errors": 0,
+          "skipped": 0,
+          "xml_pin": {
+            "bytes": 43703,
+            "sha256": "a756cabec9024a984c082fc342f9c6e7e6dbbb5491e1371d1423520bacd8a031"
+          }
+        }
+      },
+      {
+        "phase": "diagnostic_compile",
+        "at_utc": "2026-11-07T19:00:57.653985+00:00",
+        "exit_code": 0,
+        "contract_accepted": true,
+        "process_seconds": 5.435908399987966,
+        "closed_at_utc": "2026-11-07T19:00:57.913222+00:00",
+        "reservation_still_held": false,
+        "actual_pin": {
+          "bytes": 1500,
+          "sha256": "211801cff0975400ec8ef1eef07ea270395686d39ff26c39cd12a16a729ed0ac"
+        },
+        "close_pin": {
+          "bytes": 237,
+          "sha256": "1f141e3e28719141c23c07f2b82a0fc549255e374d8696d8e0a090ec0c688d7e"
+        },
+        "outer_window_pin": {
+          "bytes": 864,
+          "sha256": "de968dbe301e32aac4cb24cdb8e18a0b0ddef5b33e3ea5997f77617bae807658"
+        },
+        "emitted_classes": 2
+      },
+      {
+        "phase": "diagnostic_failedcase",
+        "at_utc": "2026-11-07T19:01:09.771397+00:00",
+        "exit_code": 1,
+        "contract_accepted": false,
+        "process_seconds": 6.314581000013277,
+        "closed_at_utc": "2026-11-07T19:01:10.040392+00:00",
+        "reservation_still_held": false,
+        "actual_pin": {
+          "bytes": 1313,
+          "sha256": "5cfce8c641220ed56afa689330e52b40a0dd77fba6c53c7a0d57898b5915f713"
+        },
+        "close_pin": {
+          "bytes": 238,
+          "sha256": "3109f1f6644e8da1ae4edd4c92699bc535a4be382c512dbaedef3dbfb5b7d1f6"
+        },
+        "outer_window_pin": {
+          "bytes": 867,
+          "sha256": "fc0894da18ca7f802dd4bdde79fce8e223ad66524ab51fdb67695f8da4ae61d6"
+        },
+        "JUnit": {
+          "tests": 1,
+          "passes": 0,
+          "failures": 1,
+          "errors": 0,
+          "skipped": 0,
+          "xml_pin": {
+            "bytes": 42517,
+            "sha256": "a7929f591a174f14f6ff6e9743cb49ce6b9042ddf45977999914029ac87bc3d8"
+          }
+        }
+      },
+      {
+        "phase": "final_Test_compile",
+        "at_utc": "2026-11-07T19:05:34.672846+00:00",
+        "exit_code": 0,
+        "contract_accepted": true,
+        "process_seconds": 5.751292799948715,
+        "closed_at_utc": "2026-11-07T19:05:34.943857+00:00",
+        "reservation_still_held": false,
+        "actual_pin": {
+          "bytes": 1466,
+          "sha256": "6eceb6c00fb6d1f42a64fa2a2e6621bfc080459d50a4d14a8153bffc2244b1ca"
+        },
+        "close_pin": {
+          "bytes": 237,
+          "sha256": "6f7bca42b44afa68adda6abeb09c33c1c6b6c2ce2fc0f821c7d52fe2028181de"
+        },
+        "outer_window_pin": {
+          "bytes": 852,
+          "sha256": "b3ef2ed28a26ec6c23c034b63f3413c9978fec33ca03389871e22add4105a342"
+        },
+        "emitted_classes": 2
+      },
+      {
+        "phase": "final_failedcase_success",
+        "at_utc": "2026-11-07T19:06:20.010099+00:00",
+        "exit_code": 0,
+        "contract_accepted": true,
+        "process_seconds": 6.260235899942927,
+        "closed_at_utc": "2026-11-07T19:06:20.266151+00:00",
+        "reservation_still_held": false,
+        "actual_pin": {
+          "bytes": 1293,
+          "sha256": "83cfd519ef5b0641e2b45f1330022ee381b3eaab493116350061c4732935ad3e"
+        },
+        "close_pin": {
+          "bytes": 238,
+          "sha256": "a9d3d99ed579567346d13ed00bbbe0c3291c3eded10355244b61f66f9dab174e"
+        },
+        "outer_window_pin": {
+          "bytes": 855,
+          "sha256": "5b10850c915696da21cc30d42f537624c99c319e3a8663238efe264e02f58ed4"
+        },
+        "JUnit": {
+          "tests": 1,
+          "passes": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "xml_pin": {
+            "bytes": 41695,
+            "sha256": "5d9f39b8c8327e3a6b2e47e09a2aacaf8703bfd7c6c39cb2b329e27743359a58"
+          }
+        }
+      }
+    ],
+    "pass_accounting": "Initial3newmethods2P1F; retain two unchanged green methods. Diagnostic only failedmethod1F after independent oracle byte equality passed. Final only failedmethod1P. Three distinct new methods covered across variants, not one final same-JVM3P.",
+    "retained_initial_successful_methods": [
+      "originalSmallLifeWireReturnsBeforeRegistryProjectionValidation()",
+      "unsupportedRegistryAndStillLargeCurrentFactsKeepFullFallback()"
+    ],
+    "corrected_failed_method": "actualLargeLifeRegistryOverflowRetainsAllOtherExportedData()",
+    "test_marker_error_attribution": "Owner cross-JVM whole-candidate-hash assumption; no model or production-code error established. Production source and codec were not changed for the marker correction.",
+    "initial_probe_pin": {
+      "bytes": 13141,
+      "sha256": "3141fd7c39fc58d853b21b99d911b7793e1815eecd6642617ab25c1066d815a6"
+    },
+    "last_close_utc": "2026-11-07T19:07:14.448230+00:00",
+    "all_own_resources_released": true,
+    "runtime_adopted": false,
+    "Test_variant_source_pins": {
+      "initial_Test_source": {
+        "bytes": 28432,
+        "sha256": "e98d2f10daf185f14c68dc459aac18f64cfbca6f85af3e1de50b97a39d284542"
+      },
+      "diagnostic_Test_source": {
+        "bytes": 28923,
+        "sha256": "6e9c1595040895c1275180146c1b13e9034a80f7d90227ae39ccd5f81fb51165"
+      },
+      "final_Test_source": {
+        "bytes": 30317,
+        "sha256": "c45e1ce5182a3f436f5b5f38cb622caa3a72deeab5a76806d3b860ad50040cbe"
+      }
+    }
+  },
+  "matched_measurement": {
+    "analysis_pin": {
+      "bytes": 25343,
+      "sha256": "6b31c8430ddfb47bd5fe300e62b7ab0f0e53a967834e0fc5ec4593004da8184c"
+    },
+    "root_independent_review_pin": {
+      "bytes": 7051,
+      "sha256": "a6998fa87a683270b3619e742287d2eb06cc187ac2c529c6cbaaa1c817a65f7f"
+    },
+    "order": [
+      "A0",
+      "B0",
+      "B1",
+      "A1"
+    ],
+    "common_heap_mib": 384,
+    "common_cpu": 1,
+    "per_JVM_timeout_seconds": 45,
+    "only_selector_binary_prefix_varies": true,
+    "warmups": 8,
+    "measured_samples": 16,
+    "measured_per_mode": 8,
+    "all_runs": [
+      {
+        "jvm": "A0",
+        "mode": "baseline",
+        "formatter_output_bytes": 1537575,
+        "formatter_output_sha256": "1c1e7c0fbc8323404249b77f18a458ff6d3d94f5bbb1132113351603e73c9496",
+        "independent_candidate_oracle_sha256_this_JVM": "847a6628ce3fc14d02e8a3f07aea9f2e1b218a7e46946062bb7bc5b285fd7eda",
+        "history_rows": 139,
+        "trace_visits": 33,
+        "action_facts": 10,
+        "load_ns": 4206659199,
+        "oracle_setup_ns": 102603000,
+        "main_ns_before_output": 5534789400,
+        "process_seconds": "7.3081616999115795",
+        "outer_seconds": "8.326925700064749",
+        "closed_at_utc": "2026-11-07T19:06:32.738174+00:00",
+        "all_warm_and_measured_samples": [
+          {
+            "index": 0,
+            "warmup": true,
+            "formatter_ns": 442194000,
+            "main_thread_allocated_bytes": 194352976
+          },
+          {
+            "index": 1,
+            "warmup": true,
+            "formatter_ns": 146961201,
+            "main_thread_allocated_bytes": 192895952
+          },
+          {
+            "index": 2,
+            "warmup": false,
+            "formatter_ns": 140026600,
+            "main_thread_allocated_bytes": 192894456
+          },
+          {
+            "index": 3,
+            "warmup": false,
+            "formatter_ns": 127218200,
+            "main_thread_allocated_bytes": 192894552
+          },
+          {
+            "index": 4,
+            "warmup": false,
+            "formatter_ns": 109926900,
+            "main_thread_allocated_bytes": 192893888
+          },
+          {
+            "index": 5,
+            "warmup": false,
+            "formatter_ns": 139284001,
+            "main_thread_allocated_bytes": 192894104
+          }
+        ],
+        "OS_lifetime_peaks": {
+          "peak_working_set_bytes": 357957632,
+          "peak_pagefile_bytes": 490864640,
+          "kernel_cpu_100ns": "17500000",
+          "user_cpu_100ns": "35000000"
+        },
+        "raw_pins": {
+          "raw": {
+            "bytes": 1963,
+            "sha256": "7d3a7b4ace8a1ef37511f534243a74784bcda5bdbab749f9b8a3784bd9385121"
+          },
+          "actual": {
+            "bytes": 1321,
+            "sha256": "c4ba8f81ade1268a99f2983aa54be01289a58aa349b514e73204219d0214397a"
+          },
+          "close": {
+            "bytes": 235,
+            "sha256": "919af1a89f1f3f1abc14f0a1c51252524a7f27d24c320f5df18a430b0a611c78"
+          },
+          "OS_peaks": {
+            "bytes": 508,
+            "sha256": "819108127e66e6f640cbe789253a623726989c43f8ef3e8fc37907c8b096f20a"
+          },
+          "outer": {
+            "bytes": 846,
+            "sha256": "d57995679b4af3c2f60952a6bcb88443b225a37c1a6b911063b0626d72ad38a7"
+          }
+        }
+      },
+      {
+        "jvm": "B0",
+        "mode": "candidate",
+        "formatter_output_bytes": 60559,
+        "formatter_output_sha256": "016dddcfc2355116ebde0265ae56c44919f87b0dd6046b11cfce879481f37407",
+        "independent_candidate_oracle_sha256_this_JVM": "016dddcfc2355116ebde0265ae56c44919f87b0dd6046b11cfce879481f37407",
+        "history_rows": 139,
+        "trace_visits": 33,
+        "action_facts": 10,
+        "load_ns": 4333086700,
+        "oracle_setup_ns": 98238800,
+        "main_ns_before_output": 4975179100,
+        "process_seconds": "6.573820799938403",
+        "outer_seconds": "7.408219999982975",
+        "closed_at_utc": "2026-11-07T19:06:51.384140+00:00",
+        "all_warm_and_measured_samples": [
+          {
+            "index": 0,
+            "warmup": true,
+            "formatter_ns": 214076201,
+            "main_thread_allocated_bytes": 62570936
+          },
+          {
+            "index": 1,
+            "warmup": true,
+            "formatter_ns": 61711400,
+            "main_thread_allocated_bytes": 61160088
+          },
+          {
+            "index": 2,
+            "warmup": false,
+            "formatter_ns": 47971299,
+            "main_thread_allocated_bytes": 61161000
+          },
+          {
+            "index": 3,
+            "warmup": false,
+            "formatter_ns": 52388999,
+            "main_thread_allocated_bytes": 61161104
+          },
+          {
+            "index": 4,
+            "warmup": false,
+            "formatter_ns": 44651900,
+            "main_thread_allocated_bytes": 61160480
+          },
+          {
+            "index": 5,
+            "warmup": false,
+            "formatter_ns": 50876100,
+            "main_thread_allocated_bytes": 61160008
+          }
+        ],
+        "OS_lifetime_peaks": {
+          "peak_working_set_bytes": 324988928,
+          "peak_pagefile_bytes": 490553344,
+          "kernel_cpu_100ns": "15000000",
+          "user_cpu_100ns": "33906250"
+        },
+        "raw_pins": {
+          "raw": {
+            "bytes": 1950,
+            "sha256": "74ce9e8619e69c1300f8b16515bd0a79c3934184e43e2f35423064fa9552d57e"
+          },
+          "actual": {
+            "bytes": 1320,
+            "sha256": "fe8b6c853c06f64b2028959521f43321f89be93f236153ac23d66f99f5c90c0c"
+          },
+          "close": {
+            "bytes": 235,
+            "sha256": "6c9bca1c0bf4d3b1667205bd1bc2d042c3717281375d235084b58a61a74b1f78"
+          },
+          "OS_peaks": {
+            "bytes": 507,
+            "sha256": "f67597bbcf29301321fce4098b8d802931afb85cd13a61c49620ae97650a03db"
+          },
+          "outer": {
+            "bytes": 846,
+            "sha256": "a09c4b993fbb1e1efcd01a031453ac84bb93c9eb922da6579c6d3ea182685b5a"
+          }
+        }
+      },
+      {
+        "jvm": "B1",
+        "mode": "candidate",
+        "formatter_output_bytes": 60559,
+        "formatter_output_sha256": "847a6628ce3fc14d02e8a3f07aea9f2e1b218a7e46946062bb7bc5b285fd7eda",
+        "independent_candidate_oracle_sha256_this_JVM": "847a6628ce3fc14d02e8a3f07aea9f2e1b218a7e46946062bb7bc5b285fd7eda",
+        "history_rows": 139,
+        "trace_visits": 33,
+        "action_facts": 10,
+        "load_ns": 4305423800,
+        "oracle_setup_ns": 99194100,
+        "main_ns_before_output": 4947455200,
+        "process_seconds": "6.537436500075273",
+        "outer_seconds": "7.251887899939902",
+        "closed_at_utc": "2026-11-07T19:07:02.839578+00:00",
+        "all_warm_and_measured_samples": [
+          {
+            "index": 0,
+            "warmup": true,
+            "formatter_ns": 227621801,
+            "main_thread_allocated_bytes": 62570208
+          },
+          {
+            "index": 1,
+            "warmup": true,
+            "formatter_ns": 52258100,
+            "main_thread_allocated_bytes": 61160088
+          },
+          {
+            "index": 2,
+            "warmup": false,
+            "formatter_ns": 44773600,
+            "main_thread_allocated_bytes": 61161000
+          },
+          {
+            "index": 3,
+            "warmup": false,
+            "formatter_ns": 46156400,
+            "main_thread_allocated_bytes": 61161104
+          },
+          {
+            "index": 4,
+            "warmup": false,
+            "formatter_ns": 43500400,
+            "main_thread_allocated_bytes": 61160480
+          },
+          {
+            "index": 5,
+            "warmup": false,
+            "formatter_ns": 52575600,
+            "main_thread_allocated_bytes": 61160008
+          }
+        ],
+        "OS_lifetime_peaks": {
+          "peak_working_set_bytes": 318521344,
+          "peak_pagefile_bytes": 490704896,
+          "kernel_cpu_100ns": "18125000",
+          "user_cpu_100ns": "31250000"
+        },
+        "raw_pins": {
+          "raw": {
+            "bytes": 1950,
+            "sha256": "c28c74af3a268d98a8ce89f7a9da951ef58811d56199e24a8cba55a9e6a062b9"
+          },
+          "actual": {
+            "bytes": 1320,
+            "sha256": "086a37baa27cb045cf34eb5159c233467de3173fa96f4fc10ce749fab7af2ccf"
+          },
+          "close": {
+            "bytes": 235,
+            "sha256": "d7b3319acd1e7de5f086f2433f9ab05a1595a7dcfb508cf3bae7005ff1372f83"
+          },
+          "OS_peaks": {
+            "bytes": 508,
+            "sha256": "e900582a1f40fc834407af671753b2c26756da0f73ec460089d0ea94507c1800"
+          },
+          "outer": {
+            "bytes": 846,
+            "sha256": "d00e78700132ecfb2354ca25fdd3360e000c1318f62f77fd22600ffc8454a98e"
+          }
+        }
+      },
+      {
+        "jvm": "A1",
+        "mode": "baseline",
+        "formatter_output_bytes": 1537575,
+        "formatter_output_sha256": "1c1e7c0fbc8323404249b77f18a458ff6d3d94f5bbb1132113351603e73c9496",
+        "independent_candidate_oracle_sha256_this_JVM": "016dddcfc2355116ebde0265ae56c44919f87b0dd6046b11cfce879481f37407",
+        "history_rows": 139,
+        "trace_visits": 33,
+        "action_facts": 10,
+        "load_ns": 4352493500,
+        "oracle_setup_ns": 109872801,
+        "main_ns_before_output": 5775026300,
+        "process_seconds": "6.802117200102657",
+        "outer_seconds": "7.536486499942839",
+        "closed_at_utc": "2026-11-07T19:07:14.448230+00:00",
+        "all_warm_and_measured_samples": [
+          {
+            "index": 0,
+            "warmup": true,
+            "formatter_ns": 450217000,
+            "main_thread_allocated_bytes": 194352856
+          },
+          {
+            "index": 1,
+            "warmup": true,
+            "formatter_ns": 162206900,
+            "main_thread_allocated_bytes": 192895920
+          },
+          {
+            "index": 2,
+            "warmup": false,
+            "formatter_ns": 163091501,
+            "main_thread_allocated_bytes": 192894424
+          },
+          {
+            "index": 3,
+            "warmup": false,
+            "formatter_ns": 143355299,
+            "main_thread_allocated_bytes": 192894520
+          },
+          {
+            "index": 4,
+            "warmup": false,
+            "formatter_ns": 140503500,
+            "main_thread_allocated_bytes": 192893856
+          },
+          {
+            "index": 5,
+            "warmup": false,
+            "formatter_ns": 171098999,
+            "main_thread_allocated_bytes": 192894072
+          }
+        ],
+        "OS_lifetime_peaks": {
+          "peak_working_set_bytes": 374644736,
+          "peak_pagefile_bytes": 491249664,
+          "kernel_cpu_100ns": "17031250",
+          "user_cpu_100ns": "37500000"
+        },
+        "raw_pins": {
+          "raw": {
+            "bytes": 1963,
+            "sha256": "9628b14df2e43144adfe29d282e5e7e6ba14bcda7aa4858297da8f7fd476f546"
+          },
+          "actual": {
+            "bytes": 1320,
+            "sha256": "fd3d8c36144199952604206f7bc760ab1aa192f99b8247509853e0cc5a747cb6"
+          },
+          "close": {
+            "bytes": 235,
+            "sha256": "bd4aa81eb9ff9410b7ae7964fc7243f1ff1c80750cc16844e232f3484ed7c1ce"
+          },
+          "OS_peaks": {
+            "bytes": 507,
+            "sha256": "6224a76077aac73e1decf02b1d5a445b530ee349d2dc69db70c7becff4bb4832"
+          },
+          "outer": {
+            "bytes": 846,
+            "sha256": "153a0847d702dbdde9bf1e6fb3bf08d04a3b4e5750fa0f05ac51882c7edb3903"
+          }
+        }
+      }
+    ],
+    "statistics": {
+      "baseline": {
+        "measured_samples": 8,
+        "formatter_ms_median": "140.26505",
+        "formatter_ms_mean": "141.813125",
+        "formatter_ns_minimum": 109926900,
+        "formatter_ns_maximum": 171098999,
+        "main_thread_allocated_bytes_median": "192894264.0",
+        "main_thread_allocated_bytes_mean": "192894234",
+        "formatter_output_bytes": 1537575
+      },
+      "candidate": {
+        "measured_samples": 8,
+        "formatter_ms_median": "47.0638495",
+        "formatter_ms_mean": "47.86178725",
+        "formatter_ns_minimum": 43500400,
+        "formatter_ns_maximum": 52575600,
+        "main_thread_allocated_bytes_median": "61160740.0",
+        "main_thread_allocated_bytes_mean": "61160648",
+        "formatter_output_bytes": 60559
+      }
+    },
+    "descriptive_reduction_fractions": {
+      "formatter_median": "0.6644648862991885719215157304",
+      "main_thread_allocation_median": "0.6829312664268751921000616172",
+      "formatter_output_bytes": "0.9606139537908719899842284116"
+    },
+    "scope": "Same reconstructed139-history DATA; complete requestPayload includes common P104 comparison and original failed initial compact. Oracle/setup/load/warm/main/fullprocess/outer remain separate. Main-thread allocation is not totalprocess allocation, RSS or heap peak. No outlier deletion, forcedGC or speed assertion. No HTTP/Runtime/saved-day gain."
+  },
+  "formal_publication": {
+    "business_commit": "94d85256583ac226f62c5638220c16315bae962a",
+    "origin_master_at_receipt": "94d85256583ac226f62c5638220c16315bae962a",
+    "remote_master_at_receipt": "94d85256583ac226f62c5638220c16315bae962a",
+    "files": 7,
+    "production_source_sha256": "817857e4fac372f13ac5807a1c7d881070175330f9f49a4181ebfe5cb4d8ebae",
+    "final_Test_source_sha256": "c45e1ce5182a3f436f5b5f38cb622caa3a72deeab5a76806d3b860ad50040cbe",
+    "raw_pin": {
+      "bytes": 1041,
+      "sha256": "0a488c95606dc5a5626fd16f75385c6787c7c43f3d0d97eb2529d6e866e5cabb"
+    },
+    "business_checkout_fully_clean_claimed": false,
+    "other_changes_preserved": "Independent P107 dirty files retained and excluded from the P106 publication.",
+    "Runtime_adopted": false,
+    "new_verified_saved_days": 0
+  },
+  "runtime_adopted": false,
+  "end_to_end_gain_qualified": false,
+  "backend_weights_quantization_build": null,
+  "cost": {
+    "owner_preparation_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "coordination_seconds": null,
+    "test_active_seconds": null,
+    "publication_active_seconds": null,
+    "net_owner_saving_seconds": null
+  },
+  "new_http_for_documentation": 0,
+  "new_opencode_native_task": 0,
+  "next_trigger": "Next actual source call, adoption, matched performance result or environment change; publishing this case does not complete the continuous optimization goal.",
+  "cross_JVM_marker_diagnosis": {
+    "root_diff_pin": {
+      "bytes": 1522,
+      "sha256": "a05268b63af6dea5cec8ff1e81532846e8faaeada6d0e6300528ef5950053309"
+    },
+    "structured_path": "/bounded_stop_intent/advance_plan/campaign_deadline",
+    "member_orders": [
+      [
+        "endpoint_date_raw",
+        "status",
+        "requested_target_date_raw",
+        "target_date_raw",
+        "starting_date_raw",
+        "calendar_profile",
+        "campaign_id",
+        "boundary_date_raw"
+      ],
+      [
+        "starting_date_raw",
+        "target_date_raw",
+        "requested_target_date_raw",
+        "status",
+        "endpoint_date_raw",
+        "boundary_date_raw",
+        "campaign_id",
+        "calendar_profile"
+      ]
+    ],
+    "same_outer_envelope": true,
+    "same_user_prefix_suffix_utf8_bytes": true,
+    "same_exact_number_tokens_and_values": true,
+    "within_diagnostic_JVM_equal_wire_pins": [
+      {
+        "bytes": 60559,
+        "sha256": "5be0d64c4472b9dbdadb8e9cb1e443b864746f9a36dcf9dc48f246edcfc73297"
+      },
+      {
+        "bytes": 60559,
+        "sha256": "5be0d64c4472b9dbdadb8e9cb1e443b864746f9a36dcf9dc48f246edcfc73297"
+      }
+    ],
+    "marker_rule": "Original baseline1c fixed globally; candidate complete independent oracle and marker fixed within each JVM, not one universal cross-JVM candidate hash."
+  },
+  "continuous_goal_status_managed_by_root": true,
+  "this_case_publication_does_not_complete_continuous_goal": true
+}

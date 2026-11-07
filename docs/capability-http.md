@@ -4426,3 +4426,13 @@ Alpha2同item3833805495完成：5append+1content一次OK／0Create／0自动重�
 505/506真实独立任务canonical同时在途，507因实际新返回形状异常另派；三稿完整stop但均拒，0rawNative。505误授pendingfalse/-1等于无queued，静态API/签名错且提私有Commit注ARMED；506未导M/Members当表/type遮蔽，owner15测后Native58自有中四宗教类型0；507pcall解包valsnil，owner15测在真实host又遇rawgetnil而工具handlererror，v2next改写/15测(显式rawgetnil)和真实UI/Core成功。最初inline type末尾GetProperty读出function误读已撤回；实际goalkey0returns/localnil，J1table正常，0属性重置。85正式载82failure158，原ARMED8650807/846xy10,19/14城/58units保持，恢复FAIL；0新END/UNKNOWN重发/私有Inspect，单独save629900B/hash53a08d9f9eff2fb65a5bc93a11b938b78c5f18a09b50c75dddb6b58a73d9c579未reload。累计507472stop32length3transportHTTP537extra30/OpenCode新0，复用Nov8成功1.19.5维护缓存，未知null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-recovery505507.json)。
+
+## 2026-11-08：大Life输入的overflow-only registry投影P106
+
+`HTTP-JAVA-LARGE-LIFE-PAYLOAD-106`实际UTC11/7 18:39:06.684080→15.229576（本地11/8），1POST／1END／0retry、fixed3/max2300/temp0/thinkingfalse/JSON/SSE，200/stop/DONE/VALID；有效TTFT3.3368900秒、总8.5454961秒、reported24006/841、cachednull。owner给完整overflow资格／marker／policy设计与DATA观察；模型核心partial，owner整理Set/List／命名／分行，无已证模型业务错。只在原64KiB溢出后投影已验证的技术registry，其它资格和原小输入字节保留，不称完整generic输入逐字无损。
+
+prod始终1TU0/4class。新Test首3方法2P1F、diagnostic只failed1F、最终只failed1P；原两绿保留未重跑，不称最终同JVM3P。两个RED来自owner假设候选跨JVM全局SHA固定，独立diff仅见8个Map.of deadline成员顺序变化，outer／user前后字节／精确数字token相同，完整oracle在同JVM逐字相等；生产codec和A原1c marker未改，不归模型或生产错。[原件、精确通过分账与来源边界](evidence/2026-11-08-http-large-life-payload106.md)保留三代Test、失败和未知主动成本。
+
+四独立JVM A0/B0/B1/A1，CPU1/384MiB/45s，8warm+16measured全保、每mode8。相同139行history重建变体计入共同P104比较和失败初次compact，只有Selector二进制前缀变；fullformatter中位数140.26505→47.0638495ms（−66.4465%），主线程allocated中位192894264→61160740B（−68.2931%），完整formatter输出1537575→60559B（−96.0614%）。旧运行2784926B不是A基线；probe01漏掉的负担不冒完整输入，恢复成员原位置unknown，不冒原内部Root。所有预热／样本／process／main／load／setup／outer／OSpeak保留；主线程分配非总进程分配或RSS峰值，不授HTTP／Runtime／保存日收益。
+
+业务7files正常发表`94d85256583ac226f62c5638220c16315bae962a`且remote一致，P107独立dirty保留未混入，不称全树clean。19:07:14.448230Z全部软件资源闭合；本有限case发表不完成持续性能目标，下一真实调用／采用／测量触发后继续记录。
