@@ -4298,3 +4298,10 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 480rawQAreader14pass/wholecodeNative readonlyadopt, product0. Owner44contracts; originalpredicate true atARMED afterFOUND, timedactualsave/reloadstill14live, twoordinaryroundsnoresume. UIinterleaving/autosave/queueinternalsunknown. Through480447complete30length3transportHTTP510extra30/OpenCode0/Steam0Alpha74.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-settlement480.json)。
+
+
+## 2026-11-07：Civ6domestic481
+
+481raw13of20fail/whole0Nativeadopt, independentowner20pass. Actual82newworld normal2→18 firstmining/code/autonextresearch/cards/monument;991483Bsave reloadretained;2rawimages.Through481448complete30length3transportHTTP511extra30/OpenCode0/unknownnull/Steam0Alpha74.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-domestic481.json)。

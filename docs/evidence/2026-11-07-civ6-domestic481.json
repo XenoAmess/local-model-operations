@@ -1,0 +1,223 @@
+{
+  "schema": "local-model-operations.civ6-domestic481/v1",
+  "utc": "2026-11-07T09:28:23.521734+00:00",
+  "date_local": "2026-11-07",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/bd26a3b125127706331c20f36f25717dac134bf8/docs/research/baiqi-p6-domestic481-first-tech-civic-policy-evidence-2026-11-07.json",
+    "sha256": "b3b55f84ebe47ccc42e61db6efae510f7bd89cb2f7446d9b1ddd8faf7d38df1e"
+  },
+  "model": {
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "attempts": 1,
+    "extra_retries": 0,
+    "usage": {
+      "prompt_tokens": 5837,
+      "completion_tokens": 1497,
+      "total_tokens": 7334
+    },
+    "ttft_ms": 909.3175999587402,
+    "total_ms": 9799.877500045113,
+    "shared_commit": "d9ee5be8aa5a735d7be26c2e5574fb102b8c49d3",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "review": {
+      "utc": "2026-11-07T09:08:41.902843+00:00",
+      "raw_compile": true,
+      "raw_cases": {
+        "typed-base-known": {
+          "passed": false
+        },
+        "zero-slot-no-native-slot-read": {
+          "passed": false
+        },
+        "owned-completions-and-policy": {
+          "passed": false
+        },
+        "none-current-indices": {
+          "passed": false
+        },
+        "slot-count-upper-bound-before-slots": {
+          "passed": true
+        },
+        "fractional-slot-count": {
+          "passed": true
+        },
+        "getter-error-protected": {
+          "passed": false
+        },
+        "missing-interface-protected": {
+          "passed": true
+        },
+        "invalid-object-input-not-returned": {
+          "passed": true
+        },
+        "foreign-local-mismatch": {
+          "passed": true
+        },
+        "nonhuman-rejected": {
+          "passed": true
+        },
+        "other-leader-rejected": {
+          "passed": true
+        },
+        "research-row-index-mismatch": {
+          "passed": false,
+          "error": "[string \"<python>\"]:3: assertion failed!\nstack traceback:\n\t[C]: in function 'assert'\n\t[string \"<python>\"]:3: in function 'HasTech'\n\t[string \"<python>\"]:122: in function <[string \"<python>\"]:22>\n\t(tail call): ?\n\t[string \"<python>\"]:1: in function <[string \"<python>\"]:1>\n\t(tail call): ?"
+        },
+        "research-type-missing": {
+          "passed": false
+        },
+        "known-tech-numeric-not-boolean": {
+          "passed": false
+        },
+        "known-civic-string-not-boolean": {
+          "passed": false
+        },
+        "missing-fixed-mining-no-native-ownership-read": {
+          "passed": false
+        },
+        "slot-row-string-missing": {
+          "passed": false
+        },
+        "slot-type-cannot-none": {
+          "passed": false
+        },
+        "fresh-metadata-copy": {
+          "passed": false
+        }
+      },
+      "raw_failed": 13,
+      "owner_cases": {
+        "typed-base-known": {
+          "passed": true
+        },
+        "zero-slot-no-native-slot-read": {
+          "passed": true
+        },
+        "owned-completions-and-policy": {
+          "passed": true
+        },
+        "none-current-indices": {
+          "passed": true
+        },
+        "slot-count-upper-bound-before-slots": {
+          "passed": true
+        },
+        "fractional-slot-count": {
+          "passed": true
+        },
+        "getter-error-protected": {
+          "passed": true
+        },
+        "missing-interface-protected": {
+          "passed": true
+        },
+        "invalid-object-input-not-returned": {
+          "passed": true
+        },
+        "foreign-local-mismatch": {
+          "passed": true
+        },
+        "nonhuman-rejected": {
+          "passed": true
+        },
+        "other-leader-rejected": {
+          "passed": true
+        },
+        "research-row-index-mismatch": {
+          "passed": true
+        },
+        "research-type-missing": {
+          "passed": true
+        },
+        "known-tech-numeric-not-boolean": {
+          "passed": true
+        },
+        "known-civic-string-not-boolean": {
+          "passed": true
+        },
+        "missing-fixed-mining-no-native-ownership-read": {
+          "passed": true
+        },
+        "slot-row-string-missing": {
+          "passed": true
+        },
+        "slot-type-cannot-none": {
+          "passed": true
+        },
+        "fresh-metadata-copy": {
+          "passed": true
+        }
+      },
+      "owner_unique_cases": 20,
+      "owner_sha256": "2e31eb028fa8037cf0ae49bdc277436aef337621b0719de8836e73b8659da26b",
+      "raw_native_execution": 0,
+      "whole_raw_adoption": 0,
+      "raw_defects": [
+        "KNOWN success status missing.",
+        "Read lacks requested error protection.",
+        "DB row Index not compared to requested numeric index, missing type strings tolerated.",
+        "HasTech/HasCivic return values not boolean-qualified; missing fixed rows tolerated.",
+        "Slot type -1 accepted with missing type despite a real slot."
+      ],
+      "usage": {
+        "prompt_tokens": 5837,
+        "completion_tokens": 1497,
+        "total_tokens": 7334
+      },
+      "ttft_ms": 909.3175999587402,
+      "total_ms": 9799.877500045113,
+      "cumulative_through481": {
+        "logical_tasks": 481,
+        "complete_stop_valid": 448,
+        "length": 30,
+        "final_transport_failures": 3,
+        "http_attempts": 511,
+        "extra_retries": 30,
+        "opencode_native_generation": 0,
+        "cached_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null
+      }
+    },
+    "whole_raw_adopted": false,
+    "raw_native_execution": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 481,
+    "complete_stop_valid": 448,
+    "length": 30,
+    "final_transport_failures": 3,
+    "http_attempts": 511,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "candidate": "481stop valid7334tokens9.7998775s0retry.Rawcompiled but13of20 contracts fail: missingKNOWN, no error protection, DB rowindex/name validation, knownflags notbool, missingfixedrows tolerated.Whole0Native/0adopt. Owner independent20Lua51pass then actualNative UI read.",
+    "native": "Same fresh82 world ordinary2→18,16militaryTESTPLAYERskips16normalEND/no domesticinputs. Mining firstread complete11→AnimalHusbandry; Code firstread complete14→Craftsmanship and Discipline/UrbanPlanning filled actualslots0/1. Monumentexists/pop3/gold95/Standbyproject at18; exactbuildingcompletionturn and standby cause not inferred.",
+    "persistence": "Official991483Bsave/hash104cd33b...loadContinue→same research/ownership/government/cards/building/city/warrior/standby.2rawimages embedded. NoSDK/worldfullrequest counts or completegovtree claims.",
+    "owner": "One stalegovernmentviewreference failed original60secondguard beforeinput, freshsameownedreference reviewed thenoneview; noageweakening/policychoices.",
+    "accounting": "Through481/448/30/3 HTTP511extra30, OpenCode new0, unknowncost/cache/savingsnull. No productpatch/prior1153notrerun/Steam0online-uploadAlpha74unchanged.",
+    "limits": "Narrow firsttech/civic/free initialpolicy and completedreload in one start, not fullresearch/government/paidpolicychanges or recoveryfix. ExistingARMED/Legacyfailures remain."
+  },
+  "generic_lessons": [
+    "A readonly extractor must explicitly label success and qualify returned ownership booleans; a plain table or valid JSON is not enough.",
+    "Validate database row identity against the requested numeric index before treating names as current state.",
+    "Record the first sampled completed state separately from an exact engine completion event timestamp.",
+    "A fallback project in a real queue is different from an empty queue; inspect its database kind and do not infer its cause solely from the treasury.",
+    "When a screenshot freshness guard refuses an input, keep the refusal and acquire a new reviewed reference rather than weakening the age rule."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "One early newgame first research/civic/free initial policies, building presence and completed-state save/reload; not completeTC, all governments/paidpolicy behavior, recoveryfix, or Steam82release."
+}
