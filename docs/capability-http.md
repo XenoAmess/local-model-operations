@@ -4347,3 +4347,10 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 486raw Lua51goto拒/owner27pass，prompt未写5.1是owner责任；492raw编译但18中7fail/owner18pass，路径复制变体19pass，0整稿Native。实际53后后台Nativepath5而待命后query52/53empty，不混时刻；55当前4可见交战敌军，51→56移民等待，人口4→4不授cost。56四units/一城保存1090744B/hash049d6d01829fa298d39c38f3fe2ce09ffb8b35e1d6f2cc4ae7a55e55328425f1全钩清再正式reload保持，3新图。Owner第二步moves0仍跟随失败preview调用，守卫0emit拒，流程已改terminal+semantic；发布原件名错误后只校验已有图片续交，Git已有远端祖先时正常push，不为无须rebase而stash/丢弃独立改动。累计492457stop32length3transportHTTP522extra30/OpenCode新0，未知null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-frontier486-path492.json)。
+
+
+## 2026-11-07：Civ6alpha2494
+
+493/494真实并行2、stop/DONE/VALID：8181/7793tokens、TTFT1.5821299/1.8813511秒、总14.6315424/12.8981036秒，0retry。493混18/14图注、38farm/44-45后事、51/56照片；494误把14城QA叫新局且复制任务指令，0整稿采用，owner逐图与世界身份修正重写。12图=5新82+7历史，BBCode5248B；93files与ZIP全一致hasha1f8be6e2dd5ebccf2300caabd9e1aeebc84dec7f737ef8e72044e6d1dc1ff16。新跨page日志守卫回归，15工具方法含20managedhelpers通过；0SDKinit/online/upload，fresh占用async待答。累计494459stop32length3transportHTTP524extra30/OpenCode新0，维护缓存Nov7同机同用户00:36成功1.19.5、未知null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-alpha2494.json)。
