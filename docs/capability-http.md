@@ -4398,3 +4398,10 @@ Alpha2同item3833805495完成：5append+1content一次OK／0Create／0自动重�
 501原稿helper编译但Process不接Read/Remember/Forget、cleanup为散文，拒；502按正确tests路径内存跑6中3error3pass，但重建测试未重建/集合与索引错误，原稿不采用、0Native。owner任务混用Lua53原夹具与5.1要求是准备责任，新UI全Lua51。owner84接独立property严格schema/Core/Gameplay/Controller，30新方法、full1202pass1SDK环境skip/74Lua51/96zip匹配；首宽hunk错置清理于宗教分支，review立即改回确认FOUND_CITY后，未安装或Native。当前83正式66save/reload保持，退出请求一次未确认退完。累计502467stop32length3transportHTTP532extra30，新OpenCode原生0，复用Nov8同机1.19.5成功维护缓存，未知成本null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source84-goals502.json)。
+
+
+## 2026-11-08：Civ6source85-queued503
+
+503三锚点都存在/编译，但afterCommit注入queue后仍fakeFOUND1且ARMED，整稿拒并改用负向思路，owner加早期/预算前/最终Native检查及安全standby查询。8新方法85过，84初8方法6fail/8失败子案，full1210pass1SDK环境skip/74Lua51/96zip。84actualgoal初nil→61记录393216→1983(5926)，actor5929moves1queued2132；J首都OBS1无actorFOUND。5normalEND4milSKIP+8milorder，4futureExecutorcivops与6目标path全部read/restore，无extraNative；正式save1111447B/hashd94187488d0599829087b081dee1105c50c37f60a7065e15634820af23159611，尚未cold。85数据Core与84字节一致，下一步84save→85coldQueued61，不能冒充同版本或已读。累计503468stop32length3transportHTTP533extra30/OpenCode新0，复用Nov8维护1.19.5成功缓存、未知null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source85-queued503.json)。

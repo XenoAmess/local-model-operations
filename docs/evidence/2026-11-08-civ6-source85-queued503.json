@@ -1,0 +1,100 @@
+{
+  "schema": "local-model-operations.civ6-source85-queued503/v1",
+  "utc": "2026-11-07T17:37:51.485858+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/cfd24ce7ca9193c8dba7f0d31af438dbbc16245a/docs/research/baiqi-p6-queued-goal503-source85-evidence-2026-11-08.json",
+    "sha256": "a7db864d0826d58da2c41bcd31c2d5e02e9f6f8b5bbb4d6c2e0f424b9ccaf176"
+  },
+  "model": {
+    "task": 503,
+    "http_attempts": 1,
+    "usage": {
+      "prompt_tokens": 3659,
+      "completion_tokens": 773,
+      "total_tokens": 4432
+    },
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "ttft_ms": 763.8461999595165,
+    "total_ms": 5508.7297999998555,
+    "shared_commit": "3d18afc1eefa37deeb6d1a7e6fec19bee8a4e027",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "review": {
+      "utc": "2026-11-07T17:13:10.567578+00:00",
+      "candidate_JSON_complete": true,
+      "raw_lua51_compile": true,
+      "anchor_counts": [
+        1,
+        1,
+        1
+      ],
+      "isolated_cases": {
+        "existing_queue": {
+          "fake_requests": [],
+          "queued_destination": 43,
+          "journal_stage": null,
+          "no_new_native_operation_contract_pass": true
+        },
+        "after_qualification": {
+          "fake_requests": [],
+          "queued_destination": 43,
+          "journal_stage": null,
+          "no_new_native_operation_contract_pass": true
+        },
+        "after_commit": {
+          "fake_requests": [
+            {
+              "unit": 2,
+              "operation": 11
+            }
+          ],
+          "queued_destination": 43,
+          "journal_stage": "ARMED",
+          "no_new_native_operation_contract_pass": false
+        }
+      },
+      "native_game_executions": 0,
+      "product_changes": 0,
+      "adoption": "REJECTED_AS_COMPLETE_PATCH_OWNER_WILL_RETAIN_NEGATIVE_GUARD_IDEA",
+      "finding": "All three anchors exist and compile, but none checks after durable FOUND Commit. An injected queued destination after actual Commit still emits fake FOUND under raw patch. Keep ARMED and wait instead; no blanket race-free claim."
+    },
+    "adoption": {
+      "utc": "2026-11-07T17:33:48.388734+00:00",
+      "scope": "Modified negative-guard concept only; raw complete patch rejected for missing post-Commit boundary. Owner uses early/pre-budget/finalNative checks and exception/shape-safe standby.",
+      "whole_raw_adopted": false,
+      "raw_native_executions": 0,
+      "review_sha256": "06e0a62c1db87586d64b88cc5e6da24020289e625b1d304375cdde70e23faf12"
+    },
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 503,
+    "complete_stop_valid": 468,
+    "length": 32,
+    "final_transport_failures": 3,
+    "http_attempts": 533,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Actual84cold56→61:real independently stored393216goal1983, queued2132/moves1 retained, save1111447B d94187488d0599829087b081dee1105c50c37f60a7065e15634820af23159611 afterallhooksrestored. Source85knownqueue negative guard8newmethods/full1210pass1SDKskip/74Lua51/96files,notyetNativecoldtested.",
+  "generic_lessons": [
+    "A persisted proposal must not replace a still queued native order after local pending memory is lost. A nil destination is only an additional condition, not an engine/network-empty proof.",
+    "Check before request budget/irreversible preparation and after durable callbacks at the final native boundary. An already committed transaction remains held when a late condition blocks dispatch.",
+    "All anchors can exist and code can compile while a critical later phase is missing. Inject the changed state after the real durable ACK, not before an easier gate.",
+    "Only a newly created, known-unsent nonpersistent local proposal may be retired. Do not clear persistent ARMED state or cancel the original native queue.",
+    "Distinguish actual property creation and saved bytes from cold-load persistence. Keep writer/reader build versions explicit for upgrade tests."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Native84selection/proposal-property creation and official queued61save only. Source85negative-queue software guard, not yet installed/coldtested. Old ARMED/legacy recovery, population cost and full40TC remain OPEN; no Steam online/upload."
+}
