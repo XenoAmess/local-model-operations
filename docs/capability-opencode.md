@@ -708,3 +708,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-07：Civ6threat484
 
 0新OpenCode原生生成；canonical CLI普通HTTP前复用同机同用户Nov7同机同用户00:36成功1.19.5每日维护缓存。候选审阅／owner诊断／Native结果分账；不把编译或维护成功授予产品验收。未知缓存tokens／人工节时保持null。[固定业务pin](evidence/2026-11-07-civ6-threat484.json)。
+
+
+### 2026-11-07：Civ6production485
+
+0新OpenCode原生生成；canonical CLI普通HTTP前复用同机同用户Nov7同机同用户00:36成功1.19.5每日维护缓存。候选审阅／owner诊断／Native结果分账；不把编译或维护成功授予产品验收。未知缓存tokens／人工节时保持null。[固定业务pin](evidence/2026-11-07-civ6-production485.json)。

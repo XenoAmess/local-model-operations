@@ -4326,3 +4326,10 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 484advisorywrongidentity/API rejected;ownerupgrade15pass. Real82TESTPLAYERmilitary10inputs plus5normalEND/3SKIP;38BACKGROUNDfarm/charges3→2/0manualciv,133transparentfuturesamples scoped0army. Official1024091Bfarmreloadretained/3newimages.Through484451complete30length3transportHTTP514extra30/OpenCode0/unknownnull/Steam0Alpha74.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-threat484.json)。
+
+
+## 2026-11-07：Civ6production485
+
+485rawcompilefail0Native, owner25pass then current38CanProduce2+appendtrue/activequeue1 and actualnativeemptysettlementhinttable.0gameorders/hooks.Through485452complete30length3transportHTTP515extra30/OpenCode0/unknownnull/Steam0Alpha74.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-production485.json)。

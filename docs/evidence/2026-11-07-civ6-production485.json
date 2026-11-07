@@ -1,0 +1,173 @@
+{
+  "schema": "local-model-operations.civ6-production485/v1",
+  "utc": "2026-11-07T11:12:44.070718+00:00",
+  "date_local": "2026-11-07",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/6ce39ef7223816ca1c7e16fcec5ef1a5c5a41abd/docs/research/baiqi-p6-production485-settler-legality-hints-evidence-2026-11-07.json",
+    "sha256": "6cdc20e92d372df86f4e308f8b6526525492282b181b3aa8e24033b4fbb366ff"
+  },
+  "model": {
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "attempts": 1,
+    "extra_retries": 0,
+    "usage": {
+      "prompt_tokens": 4759,
+      "completion_tokens": 1122,
+      "total_tokens": 5881
+    },
+    "ttft_ms": 804.1192999808118,
+    "total_ms": 7770.594900008291,
+    "shared_commit": "2c0731e8b54d2e24b5db5fab985c929fac300cb4",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "review": {
+      "utc": "2026-11-07T10:54:05.255282+00:00",
+      "raw_compile": false,
+      "raw_compile_error": "[string \"<python>\"]:16: function arguments expected near 'and'",
+      "raw_contract_cases_run": 0,
+      "owner_cases": {
+        "actual-pid-number-and-signed-hash-signatures": {
+          "passed": true
+        },
+        "native-false-is-known-not-unknown": {
+          "passed": true
+        },
+        "empty-queue-current0-known": {
+          "passed": true
+        },
+        "missing-ui-not-skip-guard": {
+          "passed": true
+        },
+        "missing-interface-protected": {
+          "passed": true
+        },
+        "local-mismatch-before-probe": {
+          "passed": true
+        },
+        "city-id-alias-rejected": {
+          "passed": true
+        },
+        "foreign-city-rejected": {
+          "passed": true
+        },
+        "nonhuman": {
+          "passed": true
+        },
+        "inactive": {
+          "passed": true
+        },
+        "busy": {
+          "passed": true
+        },
+        "unknown-busy-not-false": {
+          "passed": true
+        },
+        "bad-row-type": {
+          "passed": true
+        },
+        "bad-row-index": {
+          "passed": true
+        },
+        "infinite-hash-no-probe": {
+          "passed": true
+        },
+        "parameter-key-collision-before-probe": {
+          "passed": true
+        },
+        "nonboolean-native-not-coerced": {
+          "passed": true
+        },
+        "throw-protected-no-raw-exception": {
+          "passed": true
+        },
+        "turn-drift": {
+          "passed": true
+        },
+        "queue-size-drift": {
+          "passed": true
+        },
+        "queue-hash-drift": {
+          "passed": true
+        },
+        "local-changed-at-boundary": {
+          "passed": true
+        },
+        "owner-changed-at-boundary": {
+          "passed": true
+        },
+        "invalid-city-input-before-native": {
+          "passed": true
+        },
+        "fresh-plain-metadata": {
+          "passed": true
+        }
+      },
+      "owner_unique_cases": 25,
+      "owner_sha256": "bc8af7ce720bd5745aca3f68b1c2db80c328c3e9e5972fc924302f723f496dce",
+      "whole_raw_adoption": 0,
+      "raw_native_execution": 0,
+      "raw_defects": [
+        "Lua syntax invalid at player:GetCities and: colon call used as member presence expression.",
+        "Also treats numeric GetLocalPlayer as player object.",
+        "No requested whole-read pcall; limitation overstates missing-interface protection.",
+        "Missing E.UI can skip exact idle guard."
+      ],
+      "source_correction": "Controller2027 sets hasSafeSite=true only for pure budget probe, then2029 queries SettlementSites and2030 requires actual hints. A pure true does not imply full RecruitAllowed. Current append legality cannot explain historical36 alone.",
+      "usage": {
+        "prompt_tokens": 4759,
+        "completion_tokens": 1122,
+        "total_tokens": 5881
+      },
+      "ttft_ms": 804.1192999808118,
+      "total_ms": 7770.594900008291,
+      "cumulative_through485": {
+        "logical_tasks": 485,
+        "complete_stop_valid": 452,
+        "length": 30,
+        "final_transport_failures": 3,
+        "http_attempts": 515,
+        "extra_retries": 30,
+        "opencode_native_generation": 0,
+        "cached_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null
+      }
+    },
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 485,
+    "complete_stop_valid": 452,
+    "length": 30,
+    "final_transport_failures": 3,
+    "http_attempts": 515,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "candidate": "485stopvalid5881tokens7.7705949s0retry, JSONvalid butLua51syntaxinvalid colonmemberpresence player:GetCities and. Also numericpid treatedasobject/nopcall/missingUIgate;0rawcontract/native/wholeadopt. Ownerindependent25Lua51contracts passed.",
+    "native": "Actual38settlerIndex0/hash-798712536, bothCanProduce andCanStartAppend true, queue1activeStandby. ActualGrandAIpresent/GetSettlementRecommendations(12)trueemptytable0rows, no hiddenlocations/properties emitted.0orders/hooks/statewrites.",
+    "source": "Controller2027temporaryhasSafeSite=truepurebudget,2029 actualSitequery,2030 fullgate. Purebudgettrue notfullRecruitAllowed; currentappendtrue notqueueReady or historical36proof. NormalTESTPLAYERexploration and realtraining/founding remain pending.",
+    "accounting": "Through485452complete30length3transportHTTP515extra30/newOpenCode0/unknownnull.Product82nochange/prior1153notrerun/Steam0Alpha74. UpdatedstatusheadNov7 toseparatecurrentandhistoricalcuts."
+  },
+  "generic_lessons": [
+    "Valid JSON and a stop finish reason do not imply the embedded Lua even compiles.",
+    "A colon expression cannot be used as a method-presence property test.",
+    "Record temporary gate placeholders at the exact observation boundary before interpreting a pure decision.",
+    "Allowing append production is distinct from a controller policy to wait for an empty queue.",
+    "An actual empty native table must be distinguished from a missing interface or nil fallback.",
+    "Current-state sampling cannot retroactively explain a prior turn."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Current native settler append legality and actual empty hints with source gate correlation; not historical36 proof, training/founding, complete expansion matrix or Steam82release."
+}
