@@ -1,0 +1,82 @@
+{
+  "schema": "local-model-operations.civ6-source87-native516/v1",
+  "utc": "2026-11-07T21:52:54.724807+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/36c5b9af4842134e3ce3873345db806b8e77daaf/docs/research/baiqi-p6-source87-native-city516-evidence-2026-11-08.json",
+    "sha256": "54e419ced5e02349ffb85ff2afca2f3553e29bcdf863c0bb7414f00ab2a1146f"
+  },
+  "model": {
+    "task": 516,
+    "http_attempts": 1,
+    "usage": {
+      "prompt_tokens": 1242,
+      "completion_tokens": 1080,
+      "total_tokens": 2322
+    },
+    "ttft_ms": 410.2012999355793,
+    "total_ms": 7170.971599989571,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "review": {
+      "whole_raw_adopted": false,
+      "raw_Lua51_compile": true,
+      "raw_native_executions": 0,
+      "reasons": [
+        "Uses global UI/Map/PlayersVisibility instead of supplied E consistently",
+        "Invented Map.GetPlotIndex, GameInfo.IsExplored, PlayersVisibility.IsVisible static and UnitTypes.SWORD",
+        "No exact localhumanBaiqi/currentturn/fullcity or enemyID guard",
+        "No pcall despite claimed error protection; no actual32bound despite claimed limit"
+      ],
+      "owner_prompt_correction": "Prompt incorrectly insisted CityCommandTypes.PARAM_X/Y; actual supplied WorldInput2550..2556 uses UnitOperationTypes.PARAM_X/Y for CityManager command. Raw repeats prompt. Owner read primary and corrected before any Native query/order.",
+      "owner_validation": "Lua5.1 compile; fixed exact self0/city65536/turn74/visibleadjacentenemy4653058/war63/fresh native CanStartCommand, query no game order then separate exclusive TEST_PLAYER original CityManager.RequestCommand once; not a product Lua module or new full suite.",
+      "actual": {
+        "command_count": 1,
+        "return_count": 0,
+        "immediate_enemy_damage": 0,
+        "immediate_CanStartCommand": false,
+        "settled_enemy_damage": 10,
+        "settled_CanStartCommand": false,
+        "new_war_requested": false,
+        "mod_BACKGROUND_military_commands_from_QA": 0
+      },
+      "limits": [
+        "One player-owned city ranged shot only; no wholecity/army/religiouscombatmatrix pass",
+        "No causal effect on district production yet"
+      ],
+      "raw_source_sha256": "1baddc8867f83d072965b4d0dfcc299d101752491dcb59d5bc16b617314c4bba"
+    },
+    "canonical_shared_commit": "2cc851af957ea57749d8027b8d65b82e6b847e9f",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 516,
+    "complete_stop_valid": 481,
+    "length": 32,
+    "final_transport_failures": 3,
+    "http_attempts": 546,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Source87/96hashmatch coldstarted offline proof gateage0.036525s, owned10480, originalexact86save74load/Continueonce actualUI-Core178.5gold10pop1spear/commercial/JOBSERVED retained;74to78fourordinaryEND4armySKIP,twoTEST_PLAYERcityrangecommandsactualSword10/Archer16damage.129future+5snapshotexactonce restored,official78save.0newdistrict/prophetactualpositive.",
+  "generic_lessons": [
+    "Read the supplied primary consumer before specifying an API contract. CityManager ranged commands in this engine use UnitOperationTypes coordinate keys; a plausible CityCommandTypes key family was an owner prompt error.",
+    "A Native call returning zero values and an immediate stale read do not justify replay. Verify exact visible actor identity and later damage independently; command eligibility consumption alone is not the effect.",
+    "A successful cold load and queue continuation do not prove a placement fix. Keep the still-unexercised district/farm-consumption case open when production selects a unit instead.",
+    "A no-barbarian scenario can isolate domestic prerequisites but cannot retrospectively pass survival behavior in a siege scenario. Preserve a formal backup and label changed setup conditions.",
+    "Qualify live client mode using a separate readonly observation after any navigation, immediately before a single launch. Missing proof or early refused endpoint reads must produce zero launches or gameplay commands."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Narrow Source87coldload/ordinaryqueue/twoTEST_PLAYERcityshots. Actualnewdistrictfarmconsumption and newprophetstillunexercised;oldFAIL/full40TC/survivalremainopen.0Steamonline/upload."
+}
