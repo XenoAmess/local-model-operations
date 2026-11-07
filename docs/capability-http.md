@@ -4312,3 +4312,10 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 482sourceaudit0newdefect0patch/raw0Native, broad guarantees corrected. Native82normal18→33 firstbuilder/slinger after finitefallback,392transparentfuture samples, militarywaiting;1017948Bofficialreloadretained,2images. Builderimprovementstillopen. Through482449complete30length3transportHTTP512extra30/OpenCode0/unknownnull/Steam0Alpha74.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-production482.json)。
+
+
+## 2026-11-07：Civ6builder483
+
+483raw27cases24fail/0Native;independentowner27passthenactual3recommendations+3visibleatwarunitsmatchcurrentoriginrejection.0gameorders/hooks/newimages;fullconstruction/post-threatrecoveryopen.Through483450complete30length3transportHTTP513extra30/OpenCode0/unknownnull/Steam0Alpha74.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-builder483.json)。

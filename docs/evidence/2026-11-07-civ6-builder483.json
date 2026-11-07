@@ -1,0 +1,267 @@
+{
+  "schema": "local-model-operations.civ6-builder483/v1",
+  "utc": "2026-11-07T09:56:50.629491+00:00",
+  "date_local": "2026-11-07",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/cc3eb8649c87a0efc21368d8b2227c72ec081d8d/docs/research/baiqi-p6-builder483-threat-wait-evidence-2026-11-07.json",
+    "sha256": "241705dee69bbca643647caacfa3b38a36047f2cf448c6c5be24332610cd208b"
+  },
+  "model": {
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "attempts": 1,
+    "extra_retries": 0,
+    "usage": {
+      "prompt_tokens": 1565,
+      "completion_tokens": 1541,
+      "total_tokens": 3106
+    },
+    "ttft_ms": 501.7967999447137,
+    "total_ms": 9781.099499901757,
+    "shared_commit": "e8d5905f6da1ed14a990a9efbd94999eff3e87ff",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "review": {
+      "utc": "2026-11-07T09:52:48.272203+00:00",
+      "raw_compile": true,
+      "raw_cases": {
+        "actual-numeric-local-player-correct-config-methods": {
+          "passed": false,
+          "error": "[string \"<python>\"]:18: attempt to index local 'player' (a number value)\nstack traceback:\n\t[string \"<python>\"]:18: in function <[string \"<python>\"]:3>\n\t(tail call): ?\n\t[string \"<python>\"]:1: in function <[string \"<python>\"]:1>\n\t(tail call): ?"
+        },
+        "empty-table-known-empty": {
+          "passed": false,
+          "error": "[string \"<python>\"]:18: attempt to index local 'player' (a number value)\nstack traceback:\n\t[string \"<python>\"]:18: in function <[string \"<python>\"]:3>\n\t(tail call): ?\n\t[string \"<python>\"]:1: in function <[string \"<python>\"]:1>\n\t(tail call): ?"
+        },
+        "nil-not-empty": {
+          "passed": false
+        },
+        "getter-throws-protected-no-secret": {
+          "passed": false
+        },
+        "missing-interface-protected": {
+          "passed": true
+        },
+        "bad-environment-value-protected": {
+          "passed": false
+        },
+        "local-player-mismatch-before-actor-reads": {
+          "passed": false
+        },
+        "nonhuman": {
+          "passed": false
+        },
+        "other-leader": {
+          "passed": false
+        },
+        "city-full-id-alias-rejected": {
+          "passed": false
+        },
+        "unit-full-id-alias-rejected": {
+          "passed": false
+        },
+        "foreign-unit-rejected": {
+          "passed": false
+        },
+        "military-not-builder": {
+          "passed": false
+        },
+        "nonowned-recommendation-no-map-read": {
+          "passed": false,
+          "error": "[string \"<python>\"]:18: attempt to index local 'player' (a number value)\nstack traceback:\n\t[string \"<python>\"]:18: in function <[string \"<python>\"]:3>\n\t(tail call): ?\n\t[string \"<python>\"]:1: in function <[string \"<python>\"]:1>\n\t(tail call): ?"
+        },
+        "dedup-target-count-raw": {
+          "passed": false,
+          "error": "[string \"<python>\"]:18: attempt to index local 'player' (a number value)\nstack traceback:\n\t[string \"<python>\"]:18: in function <[string \"<python>\"]:3>\n\t(tail call): ?\n\t[string \"<python>\"]:1: in function <[string \"<python>\"]:1>\n\t(tail call): ?"
+        },
+        "purchased-raw-129-duplicate-entries-bounded": {
+          "passed": false
+        },
+        "recommendation-raw-count-bounded": {
+          "passed": false
+        },
+        "malformed-recommendation-before-map-read": {
+          "passed": false
+        },
+        "missing-purchased-not-empty": {
+          "passed": false
+        },
+        "plot-identity-mismatch": {
+          "passed": false
+        },
+        "plot-owner-mismatch-not-known-partial": {
+          "passed": false
+        },
+        "missing-owned-plot": {
+          "passed": false
+        },
+        "visibility-type-not-false-default": {
+          "passed": false
+        },
+        "infinite-coordinate": {
+          "passed": false
+        },
+        "fractional-id-no-read": {
+          "passed": true
+        },
+        "invalid-pid-object-no-read": {
+          "passed": true
+        },
+        "fresh-plain-output": {
+          "passed": false,
+          "error": "[string \"<python>\"]:18: attempt to index local 'player' (a number value)\nstack traceback:\n\t[string \"<python>\"]:18: in function <[string \"<python>\"]:3>\n\t(tail call): ?\n\t[string \"<python>\"]:1: in function <[string \"<python>\"]:1>\n\t(tail call): ?"
+        }
+      },
+      "raw_failed": 24,
+      "owner_cases": {
+        "actual-numeric-local-player-correct-config-methods": {
+          "passed": true
+        },
+        "empty-table-known-empty": {
+          "passed": true
+        },
+        "nil-not-empty": {
+          "passed": true
+        },
+        "getter-throws-protected-no-secret": {
+          "passed": true
+        },
+        "missing-interface-protected": {
+          "passed": true
+        },
+        "bad-environment-value-protected": {
+          "passed": true
+        },
+        "local-player-mismatch-before-actor-reads": {
+          "passed": true
+        },
+        "nonhuman": {
+          "passed": true
+        },
+        "other-leader": {
+          "passed": true
+        },
+        "city-full-id-alias-rejected": {
+          "passed": true
+        },
+        "unit-full-id-alias-rejected": {
+          "passed": true
+        },
+        "foreign-unit-rejected": {
+          "passed": true
+        },
+        "military-not-builder": {
+          "passed": true
+        },
+        "nonowned-recommendation-no-map-read": {
+          "passed": true
+        },
+        "dedup-target-count-raw": {
+          "passed": true
+        },
+        "purchased-raw-129-duplicate-entries-bounded": {
+          "passed": true
+        },
+        "recommendation-raw-count-bounded": {
+          "passed": true
+        },
+        "malformed-recommendation-before-map-read": {
+          "passed": true
+        },
+        "missing-purchased-not-empty": {
+          "passed": true
+        },
+        "plot-identity-mismatch": {
+          "passed": true
+        },
+        "plot-owner-mismatch-not-known-partial": {
+          "passed": true
+        },
+        "missing-owned-plot": {
+          "passed": true
+        },
+        "visibility-type-not-false-default": {
+          "passed": true
+        },
+        "infinite-coordinate": {
+          "passed": true
+        },
+        "fractional-id-no-read": {
+          "passed": true
+        },
+        "invalid-pid-object-no-read": {
+          "passed": true
+        },
+        "fresh-plain-output": {
+          "passed": true
+        }
+      },
+      "owner_unique_cases": 27,
+      "owner_sha256": "ab702e7e6b1f3b786eae5912f7e20c8f0ddfe5782a1e13d6f558f6cc5b61db90",
+      "raw_native_execution": 0,
+      "whole_raw_adoption": 0,
+      "raw_defects": [
+        "Treats Game.GetLocalPlayer numeric pid as player object and calls GetID on number.",
+        "Invents GetHuman/GetLeader instead of contracted IsHuman/GetLeaderTypeName.",
+        "No whole-read pcall despite explicit contract; limitation asks external wrapper.",
+        "Purchased count bound applies only to unique indices, allowing arbitrary duplicate entries.",
+        "Infinite coordinate accepted if numeric floor returns infinity.",
+        "Purchased plot owner mismatch can be treated as known nonowned instead of rejecting stale identity."
+      ],
+      "usage": {
+        "prompt_tokens": 1565,
+        "completion_tokens": 1541,
+        "total_tokens": 3106
+      },
+      "ttft_ms": 501.7967999447137,
+      "total_ms": 9781.099499901757,
+      "cumulative_through483": {
+        "logical_tasks": 483,
+        "complete_stop_valid": 450,
+        "length": 30,
+        "final_transport_failures": 3,
+        "http_attempts": 513,
+        "extra_retries": 30,
+        "opencode_native_generation": 0,
+        "cached_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null
+      }
+    },
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 483,
+    "complete_stop_valid": 450,
+    "length": 30,
+    "final_transport_failures": 3,
+    "http_attempts": 513,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "candidate": "483stopvalid3106tokens9.7810995s0retry.RawLua51compiles but27cases24fail, numericGetLocalPlayer treatedasplayer, inventedGetHuman/GetLeader, no pcall/rawcollectionbound. Not24independentdefects becausefrontfailuremasksbranches.0Native/whole0adopt.",
+    "native": "Ownerindependentreader27Lua51contracts pass: actualKNOWN3ownedrevealedvisible recommendations at2205/2281/2353. Same33 ownbuilderradius2 visible-only primary/religious query sees3foreignatwar(owner63/dist2),19geometrycells. Sourcecurrentwork and routeorigin Safe rejection condition matches, noprivateSafe/Plannercall.",
+    "limits": "Currentwait justified inputs, not fullbranchtrace/post-threat recovery/construction.0gameorders/hooks/propertywrites. Prior4822images reused, notnewcount. Product82unchanged/prior1153notrerun/Steam0Alpha74.",
+    "accounting": "483450complete30length3transportHTTP513extra30/newOpenCode0/unknowncostcacheandsavingsnull."
+  },
+  "generic_lessons": [
+    "Qualify whether a getter returns a numeric identity or an object before calling methods on it.",
+    "Reject invented lookalike API methods even if generated Lua compiles.",
+    "Count raw collection entries for a traversal limit; deduplication does not bound iteration.",
+    "A front-gate candidate failure may mask deeper branch behavior; failed case count is not independent defect count.",
+    "Keep recommendations, current safety inputs, actual planner branch trace and completed construction as separate evidence.",
+    "A reused screenshot is useful context but is not a newly captured image."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Readonly current recommendation and safety-input qualification for one builder; not completed construction, post-threat recovery, full safety matrix, or Steam82 release."
+}
