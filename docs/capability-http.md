@@ -4362,3 +4362,11 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 两轮fixed3/max2600→2300/temp0/thinkingfalse/JSON/SSE，2 POST／2 END／0retry，均200/stop/DONE/VALID；有效TTFT3.4509824／0.9523932秒，总10.2249099／7.6001316秒，reported tokens25003/1110与25199/1131，cachednull。owner codec转换多余括号导致首2TU RED1/0class，单独归owner；纠正后2TU0/5class、新Test1TU0/2class，only3新DATA实际3P，旧绿0／旧methods RUN0，14:38:41.209503Z资源全闭。模型原稿拒收／partial、owner错误及后继混合源码通过分账，不授Runtime或性能收益。[原件pin、强指导范围、完整RED与后到验证](evidence/2026-11-07-http-model-history104.md)保留未知主动工时与净节省，不套用P103全拒收结论。
 
 后到业务发表为`c856485023f2daeb85fd287eca7781f235e5398e`，具名回执记录remote master一致／clean切点；仍未Runtime采用，0新增确认保存日，不以正式源码提交代替实际游玩效果。
+
+## 2026-11-07：ROOT与完整WAR历史别名的顺序保真P105
+
+`HTTP-JAVA-MODEL-HISTORY-ALIAS-105`为独立真实实现，不是P104重试；owner给两个可达别名、同调用字典／每当前体一次编码及A／B／A inverse预期。模型1 POST／1 END／0retry，fixed3/max4500/temp0/thinkingfalse/JSON/SSE，200/stop/DONE/VALID；有效TTFT3.2574418秒、总14.3602321秒，reported23056/1985、cachednull。ROOT setup/call有限hunk在LF投影逐字采用；两个helper核心partial，owner仅将两处UTF8解码String key改已有Base64精确bytekey，不称已证UTF8业务错误。三model edit加这两表达式调整后，与最终source LF投影整件一致；完整方法原样0，family按owner给定真实sorting边界保持。
+
+实际1SelectorTU0/4class；1newTestTU0/1class+3new inverse3P，另1changedexisting Oracle TestTU0/1class+only affectedexisting1P，分两个JUnit进程。最后14:50:05.598401Z资源全闭，其它旧/P104方法0。私有helper descriptor增Map参，必要消费者只同步适配器／原断言不变，不授body热替。wrongCONFIG参数在JVM/slot/BEGIN前拒绝只归执行器owner操作错，无compiler/modelRED或HTTP重试。[精确采用、时序、实际5阶段和成本边界](evidence/2026-11-07-http-model-alias105.md)保留未知主动工时与净节省，未授Runtime或性能收益。
+
+后到业务正式发表`0a8878ce9566a2c835bb8a1cd4e5cd8792a88e4a`，owner具名回执确认remote master一致／clean；仍未Runtime采用／实际热替，0新增确认保存日。
