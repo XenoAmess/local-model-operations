@@ -4475,3 +4475,10 @@ prod始终1TU0/4class。新Test首3方法2P1F、diagnostic只failed1F、最终�
 2prodTU一次0/16class；owner新Test复合var真实javac RED1/0class/0JUnit，最小拆两声明后同TestTU0/1class、仅5newmethods5P。Native两项metadata准备纠正在JVM/claim/BEGIN前，不计额外RED。81原向量＝32gift+31cash+18focus，含3正Focus/20政治profile、public producer held对象和income584686子树；向量不是额外JUnit。角色保坏形状/presence/完整业务子树与收入，原全文核验不裁；raw echo和后继新规划args/actionId/bodyhash可变，不称lossless或改写旧命令。
 
 19:58:50.157231Z资源全闭，7files正常发表`b2c3f89d62d8bfefe3e0832d2b3aa4eb3601f177`且remote一致、发布切点clean。**完整Archive.verify及真实intent未实测**；两个真实SDK callsite编译与helper/SDK绿不授编排绿，独立1MiB inline归档门留后到真实集成。无性能对照／Runtime／Game／保存日信用。[失败、采用、有限覆盖及未知成本](evidence/2026-11-08-http-cash-context110.md)完整分账，持续目标不因case结束。
+
+
+## 2026-11-08：Civ6source86-native512
+
+510占位M.Select、511路径非Lua、512SafeCall约定错/未给玩家API/丢getter值，whole均拒0rawNative；owner15/16/14Lua51checks后用。源86相同96hash，离线freshproof0.003387s后冷起，原版古典Online速度单人局40到66，26normalEND52armySKIP0move/attack/民事输入。48/50外交阻塞，原END各一次，TEST_PLAYER回复后独立读49/51，无重发。914futureExecutor(892recruit7city15unitop/0cmd)和27宗教快照逐项读一次0error/drop，observer均撤。5改良/寡头4卡/8pop155.5gold/新移民及builderqueue，原版save/load/Continue各一次，UI/Core66保持。points0/rate0/holyfalse/0新先知，激活仍未触发，0grant/private初始化。被俘提示ID未知/scout伤52如实4图内嵌，0玩家攻击不等于0barb战斗，不能压风险。旧85原退出后自有残留退役一次非正常退出；0Steamonline/upload，Alpha2仍82。累计512477stop32length3transportHTTP542extra30/OpenCode新0/未知null，canonical复用Nov8维护。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source86-native512.json)。

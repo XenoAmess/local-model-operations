@@ -1,0 +1,110 @@
+{
+  "schema": "local-model-operations.civ6-source86-native512/v1",
+  "utc": "2026-11-07T20:28:02.461532+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/58e599430a31ce12eddd7c07f41349cf5b572950/docs/research/baiqi-p6-source86-native510-512-evidence-2026-11-08.json",
+    "sha256": "9472e2037d40b5af64905f57c7b628b15c20a4efc608e4d16435b45658c72e94"
+  },
+  "model": [
+    {
+      "task": 510,
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 2297,
+        "completion_tokens": 271,
+        "total_tokens": 2568
+      },
+      "ttft_ms": 501.6497999895364,
+      "total_ms": 2291.4218000369146,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "whole_raw_adopted": false,
+      "rejection": "Unimplemented M.Select call, no standalone implementation",
+      "raw_native_executions": 0,
+      "owner_Lua51_checks": 15,
+      "canonical_shared_commit": "65adf840c013d5cc18a98476e9635701c34755f7",
+      "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 511,
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 4086,
+        "completion_tokens": 382,
+        "total_tokens": 4468
+      },
+      "ttft_ms": 1524.3169000605121,
+      "total_ms": 4079.5937000075355,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "whole_raw_adopted": false,
+      "rejection": "Filesystem path instead of Lua module",
+      "raw_native_executions": 0,
+      "owner_Lua51_checks": 16,
+      "canonical_shared_commit": "65adf840c013d5cc18a98476e9635701c34755f7",
+      "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 512,
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 2173,
+        "completion_tokens": 1331,
+        "total_tokens": 3504
+      },
+      "ttft_ms": 470.91889998409897,
+      "total_ms": 8857.624500058591,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "whole_raw_adopted": false,
+      "rejection": "Unsupported player APIs; SafeCall return convention wrong; getter results discarded; missing local leader/window guards and hash resolution",
+      "raw_native_executions": 0,
+      "owner_Lua51_checks": 14,
+      "canonical_shared_commit": "65adf840c013d5cc18a98476e9635701c34755f7",
+      "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 512,
+    "complete_stop_valid": 477,
+    "length": 32,
+    "final_transport_failures": 3,
+    "http_attempts": 542,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Source86/96files coldboot offlineproof0.003387s then originalClassicalOnline-speed singleplayer40to66,26normalEND52armySKIP,914futureExecutor samples+27religion snapshots exactonce+restored.5improvements/oligarchy4cards/66formalreload matched UI/Core.0newprophet/points/holy, activation NOT_EXERCISED; capturednoticeunknownactor/scoutdamage52 retained.4embeddedrawimages.",
+  "generic_lessons": [
+    "A syntactically valid JSON response may contain a function call placeholder or a path rather than executable source. Validate the standalone source body before any Native execution.",
+    "A protected-call helper must document its return convention, and every getter result must actually be assigned. Wrapping calls in pcall does not establish functional correctness or identity protection.",
+    "An accepted end-turn input may stop at a normal diplomacy choice. Keep the single issued action, answer through original TEST_PLAYER UI, then independently read the actual next turn; never replay merely because a bounded readiness poll expired.",
+    "No new actor means no activation acceptance. Preserve a clean empty journal and report unmet prerequisites rather than granting a unit or reusing a legacy actor.",
+    "An incident popup without an actor identifier is evidence of an incident, not exact correlation to a specific observed unit. Keep unknown identity and possible hostile-turn causes explicit.",
+    "Future wrappers have installation boundaries and context scope. Read all sample indices once and restore exact own callbacks; zero captured army requests in one context does not prove global zero orders.",
+    "A source change that passed software checks still needs its own clean runtime startup, actual ordinary turns, and save/load readback; record nondefault scenario settings and distinguish online game speed from client network mode."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Narrow Source86 coldstart/ordinary-city/game-state persistence evidence. Religion activation and ARMED/legacy recoveryFAIL/full40TC remainopen. Capturedincident not correlated to exactactor/cause.0Steamonline/upload;publicAlpha2still82."
+}
