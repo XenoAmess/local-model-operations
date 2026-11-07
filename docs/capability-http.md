@@ -4391,3 +4391,10 @@ Alpha2同item3833805495完成：5append+1content一次OK／0Create／0自动重�
 83同一自然移民61出城64到址65建北京66粮仓5of65，保存1126483B/hashc8a27cdc4b8fd57466ee4a6e8d26d1612b88fc4b326f0b2dbf4e259c67b4dae7正式reload双上下文保持，全钩nil，3新图；currenthint3old1983false在移动后读，非派发原子因果。270finance完整0err/drop，scope0军令、FOUND1与SKIP1，745019656GameInfo行不是枚举。498答非任务拒；499raw8of18+无globalexport、owner私有schema18pass未产品接线；500wrongstaticvisibility导致constructorengine拒，实际Coreglobalnil/perplayerfunction，另formation/index/readback缺口拒，0原稿Native。498/499Nov7canonical缓存，500Nov8首次新鲜OpenCode1.19.5/registry同版/无update，0新OpenCode原生生成。累计500/465stop32length3transportHTTP530extra30、未知成本null；产品83不变，Alpha2仍82，目标持久化/成本/恢复FAIL及40项继续。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source83-native500.json)。
+
+
+## 2026-11-08：Civ6source84-goals502
+
+501原稿helper编译但Process不接Read/Remember/Forget、cleanup为散文，拒；502按正确tests路径内存跑6中3error3pass，但重建测试未重建/集合与索引错误，原稿不采用、0Native。owner任务混用Lua53原夹具与5.1要求是准备责任，新UI全Lua51。owner84接独立property严格schema/Core/Gameplay/Controller，30新方法、full1202pass1SDK环境skip/74Lua51/96zip匹配；首宽hunk错置清理于宗教分支，review立即改回确认FOUND_CITY后，未安装或Native。当前83正式66save/reload保持，退出请求一次未确认退完。累计502467stop32length3transportHTTP532extra30，新OpenCode原生0，复用Nov8同机1.19.5成功维护缓存，未知成本null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source84-goals502.json)。

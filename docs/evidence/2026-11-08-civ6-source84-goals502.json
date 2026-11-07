@@ -1,0 +1,108 @@
+{
+  "schema": "local-model-operations.civ6-source84-goals502/v1",
+  "utc": "2026-11-07T16:55:56.979406+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/2d5c1edc720d39efcc8b4022a70a3d5f034fb8fb/docs/research/baiqi-p6-goals501502-source84-evidence-2026-11-08.json",
+    "sha256": "2ea8db77aefa29d5667ebe9fe19b71257f9ddff6f7a8ed92f3619993576683cc"
+  },
+  "model": [
+    {
+      "task": 501,
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 3727,
+        "completion_tokens": 1265,
+        "total_tokens": 4992
+      },
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "ttft_ms": 729.541499982588,
+      "total_ms": 8658.936599968001,
+      "shared_commit": "32280801d755d11b440cca4aef23549f6a37afc9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "candidate_adoption": "REJECTED_IMPLEMENTATION_OWNER_REWRITE",
+        "raw_native_calls": 0,
+        "lua51_compile": true,
+        "findings": [
+          "Helper candidates supplied, but ProcessSettler never calls Read/Remember/Forget or either helper; no requested persistence wiring.",
+          "Bridge helper indexes ExposedMembers without a type guard; nil is unsafe.",
+          "Cleanup statement is prose, not executable integration; malformed nil Remember must never qualify.",
+          "Owner completed actual Core/Gameplay/Controller consumers and current-arrival qualification; no whole raw function adopted."
+        ]
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 502,
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 7256,
+        "completion_tokens": 992,
+        "total_tokens": 8248
+      },
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "ttft_ms": 1301.7959999851882,
+      "total_ms": 7386.923399986699,
+      "shared_commit": "32280801d755d11b440cca4aef23549f6a37afc9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "utc": "2026-11-07T16:47:07.732152+00:00",
+        "python_compile": true,
+        "executed_in_memory_with_intended_tests_file_location": true,
+        "product_source_modified": false,
+        "Native_executions": 0,
+        "ran": 6,
+        "failures": 0,
+        "errors": 3,
+        "passed": 3,
+        "source_sha256": "6f5a56131050c9d260c114207737940ac15a55701e9eebc697446ed3837e508a",
+        "owner_findings": [
+          "Positive named reexecute never reloads controller source or advances fixture position; not a cold-local-cache test.",
+          "Assigns Python dicts as Lua collections and indexes Lua array with -1.",
+          "Changes Map.GetPlotByIndex globally to return a unit object, invalidating unrelated geometry consumers.",
+          "Missing mock_movement consumer setup; owner will use actual established fixture shape and precise per-plot changes.",
+          "Prompt requested existing Lua53 fixture and also Lua51; owner resolves new tests with Lua51 and actual module list."
+        ]
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 502,
+    "complete_stop_valid": 467,
+    "length": 32,
+    "final_transport_failures": 3,
+    "http_attempts": 532,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Source84software only: independent proposal schema/Core/Gameplay/UI wiring;19Core+4Gameplay+6ControllerUI+1schema(18cases),full1202pass1SDKenvironment skip,74Lua51/96filesbyte-matched package. LastNative83completed66saved/reloaded,officialexitrequestedonce;84notinstalledorNative-tested.",
+  "generic_lessons": [
+    "A helper function existing in a candidate does not establish implementation: inspect actual call sites and consumers.",
+    "A controller-reload test must reconstruct controller locals and preserve a distinct service state. Calling RunNow twice does not exercise reload.",
+    "Use Lua tables and correct Lua array indexing in Python/Lupa fixtures. A broken harness can make negative tests pass vacuously.",
+    "Retire stale movement proposals independently of irreversible founding intents; proposal absence/alias is not a founding outcome.",
+    "Test exact persisted readback, owner/map/turn changes, receiver shape, escort boundaries and apply-then-throw semantics without issuing game orders.",
+    "Abstract controller fixtures and consistent-geometry Core tests cover different contracts; neither alone is Native integration evidence.",
+    "Private comparison copies must suppress newly added metadata mutators as well as existing command bridges."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Software source84 persistence only; actual in-transit cold-load goal persistence remains NOT_RUN. Existing ARMED/legacy failure, population costs and full40TC remain OPEN. No Steam online/publish or model-generated Native code execution in this package."
+}
