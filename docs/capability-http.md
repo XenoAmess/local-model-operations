@@ -4419,3 +4419,10 @@ Alpha2同item3833805495完成：5append+1content一次OK／0Create／0自动重�
 0新HTTP，原504候选仍拒绝／0Native，owner私有观察器及v2各14隔离检查。两条正式38档新分支各13普通END24军队待命2军队侦察，0文职／内政／强制／赠送／交战。迟侦察49训练/51仅22of80，13+6记录留证撤钩；早侦察43=0of80、50=77of80/pop4粮33门槛44，51出生393216时pop4→population3/粮33/门槛33(两次同值回调)→productioncomplete3→population4/粮2/门槛44。40行全读一次、0errunknown/drop/argdrop。出生态save1062791B/hash42a0a504397e6216d335745777955ce401650a7dd956fc6d94434d9ea096b1ad正式UI/Core重载保持、钩nil。4→4掩盖真实扣1人口及同回合增长；不猜总督、不回填82历史、不拼接不同分支同ID。累计保持504469stop32length3transportHTTP534extra30/OpenCode新0/未知null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-population504-native.json)。
+
+
+## 2026-11-08：Civ6recovery505507
+
+505/506真实独立任务canonical同时在途，507因实际新返回形状异常另派；三稿完整stop但均拒，0rawNative。505误授pendingfalse/-1等于无queued，静态API/签名错且提私有Commit注ARMED；506未导M/Members当表/type遮蔽，owner15测后Native58自有中四宗教类型0；507pcall解包valsnil，owner15测在真实host又遇rawgetnil而工具handlererror，v2next改写/15测(显式rawgetnil)和真实UI/Core成功。最初inline type末尾GetProperty读出function误读已撤回；实际goalkey0returns/localnil，J1table正常，0属性重置。85正式载82failure158，原ARMED8650807/846xy10,19/14城/58units保持，恢复FAIL；0新END/UNKNOWN重发/私有Inspect，单独save629900B/hash53a08d9f9eff2fb65a5bc93a11b938b78c5f18a09b50c75dddb6b58a73d9c579未reload。累计507472stop32length3transportHTTP537extra30/OpenCode新0，复用Nov8成功1.19.5维护缓存，未知null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-recovery505507.json)。

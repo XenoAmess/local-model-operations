@@ -1,0 +1,176 @@
+{
+  "schema": "local-model-operations.civ6-recovery505507/v1",
+  "utc": "2026-11-07T19:08:06.978059+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/88622505948d76699e61d9abe5be2638eb21696f/docs/research/baiqi-p6-recovery505-religion506-property507-evidence-2026-11-08.json",
+    "sha256": "412a49c786cdf5a32fa014b88aaa8dcffd570114fb2ea35612f2b2b6285e04a5"
+  },
+  "model": [
+    {
+      "task": 505,
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 8612,
+        "completion_tokens": 699,
+        "total_tokens": 9311
+      },
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "started_at_utc": "2026-11-07T18:51:11.224526+00:00",
+      "total_ms": 8443.14900005702,
+      "ttft_ms": 2123.3617999823764,
+      "shared_commit": "7a27482ae09f470eff5c64cb74a421405d2b035a",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "candidate_adoption": "REJECTED_EXPERIMENT_AND_ENGINE_GUARANTEE_CLAIMS",
+        "raw_native_executions": 0,
+        "useful_direction": "No presently supported safe replay rule; no implementation proposed. Existing independent owner conclusion, not adopted new engine proof.",
+        "findings": [
+          "source_findings3 wrongly calls falseHasPending/-1operation a confirmation of no queued native operation, contrary supplied scope limit.",
+          "Experiment manually injects ARMEd via private Commit, repeats already controlled dispatch/no-dispatch distinction and does not decide hidden dispatch-layer guarantee.",
+          "Invents UnitManager.HasPendingOperations/GetOperationType static calls: qualified existing adapter uses unit:HasPendingOperations()/unit:GetOperationType().",
+          "BaiqiSettlementUnitCore.Classify(unit) has wrong actual signature Classify(J,E,pid,id).",
+          "DispatchAttempted boolean alone shifts the save/crash ambiguity; no atomic co-commit with native command is shown."
+        ],
+        "owner_next": "Load preserved82failure158 under85 for compatibility+actual ownreligious actor inventory, zero unknownFOUND replay. Query real unit operation and event availability only; do not repeat prior two ordinary turns as new proof."
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 506,
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 3712,
+        "completion_tokens": 674,
+        "total_tokens": 4386
+      },
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "started_at_utc": "2026-11-07T18:51:11.224816+00:00",
+      "total_ms": 7380.734500009567,
+      "ttft_ms": 1084.3217000365257,
+      "shared_commit": "7a27482ae09f470eff5c64cb74a421405d2b035a",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "candidate_adoption": "REJECTED",
+        "raw_lua51_compile": true,
+        "raw_standalone_execution_failure": "[string \"<python>\"]:1: attempt to index global 'M' (a nil value)",
+        "raw_empty_actual_generic_iterator_status": "UNKNOWN",
+        "raw_table_member_status": "UNKNOWN",
+        "raw_native_executions": 0,
+        "findings": [
+          "No local M declaration or return M; not a standalone promised module.",
+          "Treats Members generic iterator as ipairs table.",
+          "local type variable shadows Lua type(), so any unit triggers a protected error.",
+          "Returns UNKNOWN upon any ordinary nonreligious unit rather than filtering it; bound counts only selected religious units."
+        ],
+        "owner_checks": {
+          "empty_generic_iterator_known": true,
+          "mixed_inventory_filters_four_types": true,
+          "duplicate_nonreligious_rejected": true,
+          "duplicate_after_religious_no_partial": true,
+          "foreign_owner_rejected": true,
+          "invalid_id_rejected": true,
+          "invalid_type_rejected": true,
+          "missing_definition_rejected": true,
+          "128all_inventory_bound_known": true,
+          "129all_inventory_bound_unknown": true,
+          "getter_throw_unknown": true,
+          "wrong_owner_or_human_unknown": true,
+          "local_player_changed_unknown": true,
+          "invalid_pid_unknown": true,
+          "policy_unknown_no_partial": true
+        },
+        "owner_cases": 15,
+        "owner_native_executions_so_far": 0
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 507,
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 3559,
+        "completion_tokens": 793,
+        "total_tokens": 4352
+      },
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "started_at_utc": "2026-11-07T18:57:20.722465+00:00",
+      "total_ms": 5891.483400017023,
+      "ttft_ms": 704.9489999189973,
+      "shared_commit": "7a27482ae09f470eff5c64cb74a421405d2b035a",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "candidate_adoption": "REJECTED",
+        "raw_lua51_compile": true,
+        "raw_valid_player_zero_returns_pcall": false,
+        "raw_error_class": "attempt to get length of nil vals",
+        "raw_native_executions": 0,
+        "findings": [
+          "local ok,vals={pcall(...)} assigns the packed table to ok and leaves valsnil; #vals throws for valid player.",
+          "Even corrected unpack must remove pcall boolean and preserve explicit arity/nil holes; # cannot measure arbitrary returns.",
+          "Table-only player gate assumes native representation; raw output has no8-return cap and unprotected metatable/getter access."
+        ],
+        "owner_cases": 15,
+        "owner_checks": {
+          "zero_returns_preserved": true,
+          "one_nil_return_preserved": true,
+          "function_return_never_invoked": true,
+          "colon_self_received": true,
+          "nil_holes_and_trailing_nil_counted": true,
+          "eight_types_and_full_count": true,
+          "exception_no_private_message": true,
+          "plain_goal_bank_shape": true,
+          "top_level_scan_bound": true,
+          "goals_scan_bound": true,
+          "metatable_index_never_called": true,
+          "getter_lookup_exception_caught": true,
+          "invalid_key_zero_getter_calls": true,
+          "missing_player_unknown": true,
+          "journal_key_allowed": true
+        }
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 507,
+    "complete_stop_valid": 472,
+    "length": 32,
+    "final_transport_failures": 3,
+    "http_attempts": 537,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Exact82failure158loadedunder85:UI/Core158/14cities58units/gold7567.28515625, ARMEd8650807/token/request/846 preserved,0unknownFOUNDreplay. UIoperationgetterabsent/Core-1;queuedAPIUIpresent/Coreabsent;falsependingnotwholequeueproof.Religionowner15checksactual58inventory/0targetactors.Propertyowner15checks thenactualrawgetmissingcausedownhandlererror;v2next15checks actualgoal0returns/localnil,J1table.85save629900B stableACKnotreloaded.",
+  "generic_lessons": [
+    "Preserving an unresolved durable record across a build upgrade is a compatibility result, not forward recovery. Keep the known FAIL open without replaying unknown operations.",
+    "Getter availability is context-specific. Unit operation type may exist only in Core while queued movement destination exists only in UI; names and values do not imply a network-wide barrier.",
+    "Read full return arity before applying type or schema inference. A zero-return call in the last argument position is different from assigning it to a local variable, which yieldsnil.",
+    "A nominal Lua5.1 interpreter can expose a restricted standard library. Qualify rawget/next/getmetatable in the actual host, then repeat isolated checks with the missing builtin removed.",
+    "A real own inventory with zero target actors is KNOWN_EMPTY, not a permission pass. Do not spawn or purchase actors merely to fill a Native acceptance checkbox.",
+    "Do not accept a model experiment that repeats an already controlled comparison or invokes ungranted private mutators. A DispatchAttempted flag alone moves an ambiguity unless it co-commits atomically with the native command."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Native85compatibility/read-only context API and return-arity qualification only; recovery progress FAIL/open, no religious permission proof.0productchanges/fullsuite rerun/Steamonline orupload; publicAlpha2still82."
+}
