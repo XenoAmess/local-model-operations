@@ -1,0 +1,263 @@
+{
+  "schema": "local-model-operations.civ6-source83-native500/v1",
+  "utc": "2026-11-07T16:24:11.673216+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/d2e37c7f93b3a53557b21042faf2290af4b75a79/docs/research/baiqi-p6-source83-native-and-goals498500-evidence-2026-11-08.json",
+    "sha256": "b0d4b611c7dec62ae5526532a0f3d52f940bdaed3ee43d77ccad6305ed9096c6"
+  },
+  "model": [
+    {
+      "task": 498,
+      "call_date_local": "2026-11-07",
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 54100,
+        "completion_tokens": 1004,
+        "total_tokens": 55104
+      },
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "ttft_ms": 6940.92720001936,
+      "total_ms": 14081.207600072958,
+      "shared_commit": "b4ee137f745e70c0eee61c2170c2dcb3b32b3cf8",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "candidate_adoption": "REJECTED",
+        "raw_native_calls": 0,
+        "findings": [
+          "Did not propose independent movement-goal persistence; repeated existing FOUND journal lifecycle.",
+          "Claims about overwriting ARMED/LEGACY and resuming after movement are not the supplied source contract.",
+          "No candidate implementation or target persistence adopted."
+        ]
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 499,
+      "call_date_local": "2026-11-07",
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 1993,
+        "completion_tokens": 1178,
+        "total_tokens": 3171
+      },
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "ttft_ms": 542.3531000269577,
+      "total_ms": 7312.108500045724,
+      "shared_commit": "b4ee137f745e70c0eee61c2170c2dcb3b32b3cf8",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "candidate_adoption": "REJECTED_OWNER_PRIVATE_PROTOTYPE_ONLY",
+        "raw_native_calls": 0,
+        "contracts": {
+          "raw": {
+            "lua51_compile": true,
+            "cases": {
+              "empty_roundtrip": {
+                "passed": true
+              },
+              "valid_goal": {
+                "passed": false
+              },
+              "owner_mismatch": {
+                "passed": false
+              },
+              "extra_bank_field": {
+                "passed": false
+              },
+              "bank_metatable": {
+                "passed": false
+              },
+              "goals_metatable": {
+                "passed": false
+              },
+              "goal_extra_field": {
+                "passed": false
+              },
+              "invalid_owner_argument": {
+                "passed": false
+              },
+              "canonical_key": {
+                "passed": true
+              },
+              "duplicate_target": {
+                "passed": true
+              },
+              "deep_copy": {
+                "passed": false
+              },
+              "max_32_goals": {
+                "passed": false
+              },
+              "reject_33_goals": {
+                "passed": true
+              },
+              "nan_inf_boolean_new": {
+                "passed": true
+              },
+              "negative_fraction_new": {
+                "passed": true
+              },
+              "large_exact_id": {
+                "passed": false
+              },
+              "missing_not_empty": {
+                "passed": true
+              },
+              "map_mismatch": {
+                "passed": true
+              }
+            },
+            "pass_count": 8,
+            "count": 18,
+            "global_export": false,
+            "source_sha256": "c90be17b3ed0b0aeaf511a429a52dd678daddb71100291eb67cad0cf1a517f47"
+          },
+          "owner": {
+            "lua51_compile": true,
+            "cases": {
+              "empty_roundtrip": {
+                "passed": true
+              },
+              "valid_goal": {
+                "passed": true
+              },
+              "owner_mismatch": {
+                "passed": true
+              },
+              "extra_bank_field": {
+                "passed": true
+              },
+              "bank_metatable": {
+                "passed": true
+              },
+              "goals_metatable": {
+                "passed": true
+              },
+              "goal_extra_field": {
+                "passed": true
+              },
+              "invalid_owner_argument": {
+                "passed": true
+              },
+              "canonical_key": {
+                "passed": true
+              },
+              "duplicate_target": {
+                "passed": true
+              },
+              "deep_copy": {
+                "passed": true
+              },
+              "max_32_goals": {
+                "passed": true
+              },
+              "reject_33_goals": {
+                "passed": true
+              },
+              "nan_inf_boolean_new": {
+                "passed": true
+              },
+              "negative_fraction_new": {
+                "passed": true
+              },
+              "large_exact_id": {
+                "passed": true
+              },
+              "missing_not_empty": {
+                "passed": true
+              },
+              "map_mismatch": {
+                "passed": true
+              }
+            },
+            "pass_count": 18,
+            "count": 18,
+            "global_export": true,
+            "source_sha256": "e1bcb1e9b09a92791862291e2a8dc2f32dc49e93071e3113c4592df79c97e7fd"
+          }
+        },
+        "findings": [
+          "Valid goal has five fields but raw requires six; accepts an extra sixth field instead.",
+          "Clone fails owner matching/argument and exact bank/meta checks; local export omits required global.",
+          "Raw8of18pass; owner18of18pass plus global export, private prototype not integrated or Native-executed."
+        ]
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 500,
+      "call_date_local": "2026-11-08",
+      "http_attempts": 1,
+      "usage": {
+        "prompt_tokens": 4054,
+        "completion_tokens": 2643,
+        "total_tokens": 6697
+      },
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "ttft_ms": 727.1822999464348,
+      "total_ms": 15889.737699995749,
+      "shared_commit": "b4ee137f745e70c0eee61c2170c2dcb3b32b3cf8",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "review": {
+        "candidate_adoption": "REJECTED",
+        "raw_native_calls": 0,
+        "lua51_compile": true,
+        "findings": [
+          "Requires E.PlayersVisibility.IsRevealed as a global static function; actual Core has nil there, per-player function only.",
+          "Ignores supplied index versus computed plot, accepts formation2 through formation<1 guard.",
+          "No exact expected-bank readback or final owner/map/old-bank recheck; valid-but-different writeback can be mistaken for success.",
+          "Same-unit goal changes rejected, preventing replanning; no code integrated."
+        ],
+        "isolated_actual_consumer_shape_constructor": {
+          "api": null,
+          "reason": "engine",
+          "native_executions": 0
+        }
+      },
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 500,
+    "complete_stop_valid": 465,
+    "length": 32,
+    "final_transport_failures": 3,
+    "http_attempts": 530,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Cold83exact82save56→66normal10turns,14militarySKIP+8TEST_PLAYERmilitaryorders; settler61moves/64arrives/65oneFOUNDBeijing/66granary5of65 and officialcompletedstate reload holds afterallhooksrestored.270finance samples+8intendednativepaths,error/drop0; no manual civilian/domestic/grants/reveal/forcedturn. Native currentCoreAPItypes qualify visibilityglobalnil/perplayerfunction; candidate code0Native.",
+  "generic_lessons": [
+    "A post-movement recommendation snapshot is not an atomic before-dispatch witness. Source branch regression and Native outcome need distinct claims.",
+    "Persist a movement proposal independently of a once-authorized irreversible transaction. A saved goal cannot authorize replaying an unresolved FOUND command.",
+    "Schema clone contracts must test valid records, exact owner/field sets/metatables, canonical full-ID keys, duplicate sites and deep copies, not only malformed rejection.",
+    "Native APIs may be per-player rather than static namespace methods. Qualify actual receiver shape before accepting candidate constructor checks.",
+    "A no-throw wrapper Boolean is not a native success result when the original function returns zero values; independently read effects.",
+    "A normal END can complete even when a subsequent diagnostic path lookup fails. Repair/read the completed state without replaying END.",
+    "Each local natural day requires the canonical preflight before first model call; owner review date and HTTP invocation date can differ."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Source83 narrow autonomous-expansion and completed-state reload PASS only. Target persistence is unimplemented; rejected498/499/500 are not product changes. Population cost, ARMED/legacy recovery and full40TC remain OPEN. Steam stayed offline, no new publishing transaction. HTTP calls, owner schema prototype, software checks and Native facts separately accounted."
+}

@@ -4384,3 +4384,10 @@ Alpha2同item3833805495完成：5append+1content一次OK／0Create／0自动重�
 495伪导出与源码误述拒；496缺end且漏安全守卫拒，均0原稿Native；owner只读known1983不在raw3hints／21of37visible0city、ownnearest4，不等于私有support返回或原进程因果。497修改采用已选候选方向／call，owner显式优先并保留重复最高评分。新增9方法，82有3fail；83聚焦98pass，首full18error来自owner漏版本白名单／断言，修后1172pass1SDK环境skip，71Lua51/93zip一致，尚未安装Native。冷读goal不持久化、ARMED／legacyFAIL保留；累计497/462stop32length3transportHTTP527extra30，OpenCode新0，未知null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-target495497.json)。
+
+
+## 2026-11-08：Civ6source83-native500
+
+83同一自然移民61出城64到址65建北京66粮仓5of65，保存1126483B/hashc8a27cdc4b8fd57466ee4a6e8d26d1612b88fc4b326f0b2dbf4e259c67b4dae7正式reload双上下文保持，全钩nil，3新图；currenthint3old1983false在移动后读，非派发原子因果。270finance完整0err/drop，scope0军令、FOUND1与SKIP1，745019656GameInfo行不是枚举。498答非任务拒；499raw8of18+无globalexport、owner私有schema18pass未产品接线；500wrongstaticvisibility导致constructorengine拒，实际Coreglobalnil/perplayerfunction，另formation/index/readback缺口拒，0原稿Native。498/499Nov7canonical缓存，500Nov8首次新鲜OpenCode1.19.5/registry同版/无update，0新OpenCode原生生成。累计500/465stop32length3transportHTTP530extra30、未知成本null；产品83不变，Alpha2仍82，目标持久化/成本/恢复FAIL及40项继续。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source83-native500.json)。
