@@ -4319,3 +4319,10 @@ before1920B/9981a8d9精确在完整模型code一次，after2129B/b7a04ff9精确�
 483raw27cases24fail/0Native;independentowner27passthenactual3recommendations+3visibleatwarunitsmatchcurrentoriginrejection.0gameorders/hooks/newimages;fullconstruction/post-threatrecoveryopen.Through483450complete30length3transportHTTP513extra30/OpenCode0/unknownnull/Steam0Alpha74.
 
 [固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-builder483.json)。
+
+
+## 2026-11-07：Civ6threat484
+
+484advisorywrongidentity/API rejected;ownerupgrade15pass. Real82TESTPLAYERmilitary10inputs plus5normalEND/3SKIP;38BACKGROUNDfarm/charges3→2/0manualciv,133transparentfuturesamples scoped0army. Official1024091Bfarmreloadretained/3newimages.Through484451complete30length3transportHTTP514extra30/OpenCode0/unknownnull/Steam0Alpha74.
+
+[固定业务pin、原件与未知成本](evidence/2026-11-07-civ6-threat484.json)。

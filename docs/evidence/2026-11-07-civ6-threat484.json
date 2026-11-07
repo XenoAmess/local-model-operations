@@ -1,0 +1,177 @@
+{
+  "schema": "local-model-operations.civ6-threat484/v1",
+  "utc": "2026-11-07T10:51:12.237471+00:00",
+  "date_local": "2026-11-07",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/da1992d16660fd9b726ab7da2200e201c6372c50/docs/research/baiqi-p6-threat484-combat-and-farm-recovery-evidence-2026-11-07.json",
+    "sha256": "fb0d1ac49aebbf85a283ba2db78aac691eb3294ba66c6ff34812c7c6d4a939b2"
+  },
+  "model": {
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "attempts": 1,
+    "extra_retries": 0,
+    "usage": {
+      "prompt_tokens": 2155,
+      "completion_tokens": 1320,
+      "total_tokens": 3475
+    },
+    "ttft_ms": 484.7919999156147,
+    "total_ms": 9914.532299968414,
+    "shared_commit": "2c0731e8b54d2e24b5db5fab985c929fac300cb4",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "review": {
+      "utc": "2026-11-07T10:02:29.538275+00:00",
+      "raw_advisory_steps": 5,
+      "whole_raw_plan_adoption": false,
+      "raw_native_execution": 0,
+      "raw_defects": [
+        "Calls current player Player33 instead of player0/turn33.",
+        "Confuses actual warrior131073 with archer and selects it for the slinger262146 upgrade.",
+        "Confuses enemy warrior and archer labels.",
+        "Suggests CanStartCommand for ranged attack, whereas actual vanilla WorldInput uses CanStartOperation/RequestOperation.",
+        "Treats builder movement/type change during autonomous progression as inherently unexpected and overbroad zeroBACKGROUND assertion without instrumentation."
+      ],
+      "owner_scope": "Reuse previously qualified original military upgrade API pattern with current fresh actual UnitPanel preview: slinger262146 -> archer28, cost60, treasury170. Current Native guarded code independently owner written, no model command code. Original action after qualification only, then fresh collection read, never stale object.",
+      "owner_lua51_contract_cases": {
+        "one-request-no-old-object-after-return": {
+          "passed": true,
+          "requests": 1,
+          "terminal_success": true
+        },
+        "foreign-actor": {
+          "passed": true,
+          "requests": 0,
+          "terminal_success": false
+        },
+        "actor-alias": {
+          "passed": true,
+          "requests": 0,
+          "terminal_success": false
+        },
+        "civilian-not-army": {
+          "passed": true,
+          "requests": 0,
+          "terminal_success": false
+        },
+        "wrong-price": {
+          "passed": true,
+          "requests": 0,
+          "terminal_success": false
+        },
+        "treasury-changed": {
+          "passed": true,
+          "requests": 0,
+          "terminal_success": false
+        },
+        "target-changed": {
+          "passed": true,
+          "requests": 0,
+          "terminal_success": false
+        },
+        "native-rejected": {
+          "passed": true,
+          "requests": 0,
+          "terminal_success": false
+        },
+        "other-turn": {
+          "passed": true,
+          "requests": 0,
+          "terminal_success": false
+        },
+        "nonhuman": {
+          "passed": true,
+          "requests": 0,
+          "terminal_success": false
+        },
+        "inactive": {
+          "passed": true,
+          "requests": 0,
+          "terminal_success": false
+        },
+        "dead-unit": {
+          "passed": true,
+          "requests": 0,
+          "terminal_success": false
+        },
+        "other-leader": {
+          "passed": true,
+          "requests": 0,
+          "terminal_success": false
+        },
+        "prior-attempt-not-replayed": {
+          "passed": true,
+          "requests": 0,
+          "terminal_success": false
+        },
+        "request-error-claimed-and-no-replay": {
+          "passed": true,
+          "requests": 1,
+          "terminal_success": false
+        }
+      },
+      "owner_unique_cases": 15,
+      "owner_command_sha256": "c741df148b60588d618c304e9be7b0890302cf81a2956c8869efd4e69ee296d8",
+      "usage": {
+        "prompt_tokens": 2155,
+        "completion_tokens": 1320,
+        "total_tokens": 3475
+      },
+      "ttft_ms": 484.7919999156147,
+      "total_ms": 9914.532299968414,
+      "cumulative_through484": {
+        "logical_tasks": 484,
+        "complete_stop_valid": 451,
+        "length": 30,
+        "final_transport_failures": 3,
+        "http_attempts": 514,
+        "extra_retries": 30,
+        "opencode_native_generation": 0,
+        "cached_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null
+      }
+    },
+    "raw_type": "Advisory TEST_PLAYER conditional plan, not generated game code",
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 484,
+    "complete_stop_valid": 451,
+    "length": 30,
+    "final_transport_failures": 3,
+    "http_attempts": 514,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "candidate": "484stopvalid3475tokens9.9145323s0retry.Advisory confusesplayer0/turn33, warrior/archer, upgradeactor and rangedCanStartCommand.Whole0adopt/raw0Native. Owner existingoriginalAPIpattern upgrade15Lua51contracts passed.",
+    "native": "TESTPLAYER33→38 5normalEND3armySKIP +10militaryinputs(1upgrade4moves4range1melee), cost60/newfullID327683/freshcollection read andno oldobjectreuse.0civ/grants/forced/declarations. Warriorwound75 preserved, notlossless.",
+    "farm": "Enemies retreat outside currentdanger;38BACKGROUND builderMOVEto5929 thenFARM/hash168372657, actualFarmIndex1/nonpillaged, charges3→2/manualactions0, archer sameplotstill2moves/form1 notmoved. OriginalfutureExecutor133samples(127recruit1city5builderop),0errorsdrops/0scopearmy. Exactrestorebeforeofficialsave.",
+    "persistence": "1024091Bsave/hashb40b7eb4...officialreloadContinue126contexts Farm/charges/3units/pop4/gold130/standby/Jobserved/hooknil;3rawimages embedded. Notallbarbarianskilled/global safety/fullTC/recoveryfix.",
+    "owner": "Distance2 melee preview refused0input, twoearly16readtimeouts recoveredfreshactual35/36/noENDreplay; new32readfuture36→37read20. Validatebothlayersbeforeipairs, whitespacecompilefailure0CMDfixed. Fast37postshotdamage0later66 kept/noactionreplay.",
+    "accounting": "Through484451complete30length3transportHTTP514extra30/newOpenCode0/unknownnull.Product82unchanged1153notrerun/Steam0Alpha74.485separatefuturelegalitydiagnostic unreviewed atthisdelivery."
+  },
+  "generic_lessons": [
+    "Keep player identity, current turn and unit full identity separate when reviewing a plan.",
+    "An upgrade can replace the unit object and full identity; read a fresh collection after issuing the command.",
+    "Check swap eligibility before a military move into a tile containing a protected civilian.",
+    "A ready/idle response need not mean combat effects have reached the next UI state read.",
+    "Retain early bounded-read failures and use fresh independent state qualification; never replay a normal END to fix a read timeout.",
+    "Qualify both native layer collections before placing them into ipairs, since a nil first entry truncates iteration.",
+    "A pure recruitment budget approval is distinct from full native production legality and actual candidate selection.",
+    "Threat retreat followed by construction is not a claim that all enemies were eliminated."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "One fresh-start military control and current visible-threat wait/recovery to ordinary farm plus completed-state reload; not all safety, repair, military or recovery cases, nor Steam82 release."
+}
