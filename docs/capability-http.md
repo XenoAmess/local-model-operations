@@ -4467,3 +4467,11 @@ prod始终1TU0/4class。新Test首3方法2P1F、diagnostic只failed1F、最终�
 实际1prodTU0/12class、1newTest/mainTU0/2class、仅3newmethods3P，30原向量typed/result/bytes与四domain全文/statehead保，不是30额外JUnit或live准入。固定四JVM ABBA CPU1/384m45、8warm16sample全保；组件median18.22445→0.2783995ms、主线程allocated均51992952→28872B，wrapper3403002→1064B，结果694/f463…四run同。**整ACTUALprocess A7.9696502→B8.1413520秒，outer A9.3364754→B9.7467725秒，没有更快**；原负向全窗与load/setup/main/OSpeak均保，不只报组件、不授HTTP/Runtime/保存日收益。
 
 19:35:04.792321Z资源全闭，6files正常发表`c11ac8b5a2f30027fe0d397b7150cecd96184d42`且remote一致、发布切点clean。旧CASH108生产wrapper标签保raw并绑定P109实际source，Test/main在BEGIN前更名，不为label重跑。[完整结果、部分采用与未知成本](evidence/2026-11-08-http-budget-snapshot109.md)保留，持续性能目标不因该case发表结束。
+
+## 2026-11-08：共享cash角色的类型纠正与有限SDK资格P110
+
+`HTTP-JAVA-SHARED-CASH-CONTEXT-ROLE-110`一次fixed3/max2600、12源220491B，200/stop/DONE/VALID、1POST/1END/0retry；有效TTFT6.3179948秒、总15.2114296秒，reported48676/1449、cachednull。owner给确切21/3/14字段与两真实消费者，core partial；模型将Value返回值赋Obj在源审纠正，未编坏稿，owner合并私有别名，不称完整方法原样采用。准备module路径错在0POST前修正，不归模型。
+
+2prodTU一次0/16class；owner新Test复合var真实javac RED1/0class/0JUnit，最小拆两声明后同TestTU0/1class、仅5newmethods5P。Native两项metadata准备纠正在JVM/claim/BEGIN前，不计额外RED。81原向量＝32gift+31cash+18focus，含3正Focus/20政治profile、public producer held对象和income584686子树；向量不是额外JUnit。角色保坏形状/presence/完整业务子树与收入，原全文核验不裁；raw echo和后继新规划args/actionId/bodyhash可变，不称lossless或改写旧命令。
+
+19:58:50.157231Z资源全闭，7files正常发表`b2c3f89d62d8bfefe3e0832d2b3aa4eb3601f177`且remote一致、发布切点clean。**完整Archive.verify及真实intent未实测**；两个真实SDK callsite编译与helper/SDK绿不授编排绿，独立1MiB inline归档门留后到真实集成。无性能对照／Runtime／Game／保存日信用。[失败、采用、有限覆盖及未知成本](evidence/2026-11-08-http-cash-context110.md)完整分账，持续目标不因case结束。

@@ -1,0 +1,493 @@
+{
+  "schema": "local-model-operations.http-case/v1",
+  "case_id": "HTTP-JAVA-SHARED-CASH-CONTEXT-ROLE-110",
+  "mode_id": "http-candidate",
+  "local_observation_date": "2026-11-08",
+  "local_timezone": "Asia/Shanghai",
+  "request_utc_date": "2026-11-07",
+  "shared_repo_base": "8a1c5008d9ce821a4b50792b4c69a305240f07e3",
+  "scope": "Real two-consumer cash-context role implementation; bounded SDK/public-producer DATA, not full archive or intent orchestration. No documentation HTTP/JVM/business execution.",
+  "guidance": "Strong owner guidance: complete current producers, verifier and downstream codecs; exact 21 snapshot, 3 diagnostics and 14 root keys, existing pure copy-present helper and two callsites supplied. No independent algorithm discovery or mode comparison.",
+  "round": {
+    "model": "qwen38-coder",
+    "max_tokens": 2600,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "message_utf8_bytes": [
+      301,
+      220491,
+      4262
+    ],
+    "source_count": 12,
+    "post_begin_utc": "2026-11-07T19:43:09.695047+00:00",
+    "attempt_end_utc": "2026-11-07T19:43:24.906449+00:00",
+    "post_count": 1,
+    "transport_retries": 0,
+    "http_status": 200,
+    "http_headers_ms": 6316.755699925125,
+    "first_nonempty_content_delta_ms": 6317.994799930602,
+    "total_ms": 15211.429600021802,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "usage": {
+      "prompt_tokens": 48676,
+      "completion_tokens": 1449,
+      "total_tokens": 50125
+    },
+    "cached_prompt_tokens_if_reported": null,
+    "json_syntax": {
+      "status": "VALID",
+      "top_level_type": "object",
+      "reason": "COMPLETE_STOP_JSON",
+      "error": null,
+      "offset_units": "Unicode code points",
+      "max_utf8_bytes": 1048576,
+      "semantic_review": "OWNER_REVIEW_REQUIRED"
+    },
+    "actual_peer": "UNKNOWN",
+    "frozen_client_candidate_review": "NOT_YET_REVIEWED",
+    "frozen_client_adopted": false,
+    "later_owner_decision": "semantic core partially adopted; supplied Value-returning Obj.get was assigned to Obj in raw candidate; owner corrected to instanceof pattern bindings and merged unnecessary private aliases before any production compile",
+    "raw_pins": {
+      "REQUEST.json": {
+        "bytes": 230972,
+        "sha256": "29ea762086b23ce8c7102c5f300b3cfe749f7ee5fd36dcde995e25f3ad491b77"
+      },
+      "REQUEST-PREPARATION.json": {
+        "bytes": 869,
+        "sha256": "e3fce86d1644ba20438a00dd37d1dd92bb350f2129d5b73cccc7910a6c12d6e2"
+      },
+      "ATTEMPT1-RESULT.json": {
+        "bytes": 1271,
+        "sha256": "0cd30decf4dad2004380ecbb0d345949033307fb2a163644853e5fd91da4ca8e"
+      },
+      "ATTEMPT1-CONTENT.txt": {
+        "bytes": 6342,
+        "sha256": "27d292ded7f467055564d5cdfe3a2ccad5e7850eebb716116e7bcf6574b60702"
+      },
+      "ATTEMPT1-RESPONSE.sse": {
+        "bytes": 163726,
+        "sha256": "e6ce3dfda513ecac6ef9153cf2a04814169fdbe58e35182f35b6d4279f4cdb18"
+      },
+      "EVENTS.jsonl": {
+        "bytes": 2647,
+        "sha256": "ad94b323984bc025eea548addd9a9d739932d2b35b12e3bd1960ea989688386d"
+      },
+      "SUMMARY.json": {
+        "bytes": 1620,
+        "sha256": "84984eeaafdd4e5a7db9a05c3be57bcab60316892efae6605885bd60173ba9a9"
+      }
+    }
+  },
+  "adoption": {
+    "scope": "partial plus owner type/assembly correction",
+    "verbatim_complete_methods": 0,
+    "raw_model_candidate_compiled_or_run": false,
+    "model_type_error_seen_in_supplied_API": true,
+    "model_type_error_is_actual_compiler_RED": false,
+    "new_public_static_method_on_existing_class": "Pure projection shared by actual cross-package producer and archive SDK callsite; no new type, permission or policy",
+    "frozen_Runtime_body_only_adoption_qualified": false
+  },
+  "role_semantics": [
+    "Only Obj snapshot/root are projected; scalar/null/missing and all other outer fields remain as supplied. Snapshot uses exact 21 present keys, diagnostics only three present keys, root 14 complete subtrees; unknown members inside retained business subtrees, arrays/order/duplicates/opaque political identifiers remain complete.",
+    "Original snapshot/root/market/mercenary ledger/source frames and whole planning request/SEM/Packet/docs remain held outside role. Role is not a lossless archive: raw Focus echo may differ, while typed decisions/FocusedWar/political profile output must match.",
+    "Root retains full monthly income subtree and bindings for downstream Construction intent. New role representation changes only future newly planned ordinary_cash_request/args/actionId/bodyhash; issued commands/original hashes/receipts/UNKNOWN are never rewritten or replayed.",
+    "Archive SDK callsite uses same projection after unchanged original full-material/source/hash/Guard/physical-read checks. No changed parser/encoder/policy/cap, no dropped archived bytes. Full Archive.verify orchestration and real intent were not run in this case. Independent inline planning-wire 1MiB boundary remains for later P111."
+  ],
+  "pre_POST_owner_preparation": {
+    "error": "Construction lifecycle source was placed under wrong module path; corrected before first POST. No model candidate or HTTP attempt from preparation failure.",
+    "post_count": 0,
+    "pins": {
+      "TASK01.txt": {
+        "bytes": 4262,
+        "sha256": "9b89f67e133fcaa6a3b388be224bcfdf6930269fafdb6611cae5cc0ce3328f83"
+      },
+      "SPEC01.json": {
+        "bytes": 1696,
+        "sha256": "1cfefaa4ec22b723f1fe4391ab4e0fb2a32b350469c88f11ab989cb0ede2dbc6"
+      },
+      "SPEC-PREPARE-FAILED01.json": {
+        "bytes": 1694,
+        "sha256": "ca19ebade5b3222f9dd395eb9de6c47a3d60388b2fb54c3d2807d583606be3c8"
+      },
+      "PREPARE-ERROR01.txt": {
+        "bytes": 189,
+        "sha256": "a54edca8805333793d6b497cbc22fb16a01b6ce07166b8d923c8d20c445df30a"
+      }
+    }
+  },
+  "source_pins": {
+    "collector": {
+      "bytes": 43608,
+      "sha256": "7c787aecd1b13cb54e559ee92ce842258f0f02ee9a5293533e3e380f07f9668a"
+    },
+    "archive": {
+      "bytes": 29653,
+      "sha256": "7c2c2f3fa2c35ac55921eba4216a75727c4a4a2e65b4d9d442e8b2633f73a039"
+    },
+    "first_Test": {
+      "bytes": 15914,
+      "sha256": "4941a17487c788a91ccc3d33f4fce4c0133d0e6513949a0ecf138b27f7ca59f8"
+    },
+    "final_Test": {
+      "bytes": 15931,
+      "sha256": "88e66f4288e3eed60f4068988eff948ef2da79a7ea38aa78b1f55a5ba1a41e41"
+    }
+  },
+  "software": {
+    "qualification_pin": {
+      "bytes": 16769,
+      "sha256": "6d1d096af86c9f8b6914b712f260186248402da8c14a18bc78917c29375b498e"
+    },
+    "counts": {
+      "changed_production_TUs": 2,
+      "production_compile_attempts": 1,
+      "production_output_classes": 16,
+      "new_Test_TUs": 1,
+      "necessary_Test_compile_attempts": 2,
+      "first_Test_compile_RED": 1,
+      "first_Test_output_classes": 0,
+      "first_Test_JUnit_methods": 0,
+      "final_new_JUnit_methods": 5,
+      "final_JUnit_successful": 5,
+      "final_JUnit_failed": 0,
+      "final_JUnit_errors": 0,
+      "old_Test_methods": 0,
+      "old_codec_guards_cap_recompile": 0,
+      "HTTP_Game_Native_P100": 0
+    },
+    "phases": [
+      {
+        "id": "production",
+        "phase": "prod",
+        "exit": 0,
+        "actual_seconds": 6.250845200032927,
+        "outer_seconds": 6.902224299963564,
+        "classcount": 16,
+        "close_utc": "2026-11-07T19:46:29.272151+00:00",
+        "terminal_observed": true,
+        "reservation_held_after_close": false,
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 5066,
+            "sha256": "042fcd06a44b5545d992bab74baaae163511a5108f1ba37f3473f0671db4d28d"
+          },
+          "CHILD-START.json": {
+            "bytes": 323,
+            "sha256": "7c47d9e7717f39378454530913b368fdd490a103ad8d6cc126c0400687eb8e81"
+          },
+          "CHILD-TERMINAL.json": {
+            "bytes": 648,
+            "sha256": "23f2e0b4ecbbb8c17c370386ef69552c6aaf6e7a01b3f46cc5868d07d26ee5de"
+          },
+          "CHILD-OS-RESOURCE-PEAKS.json": {
+            "bytes": 506,
+            "sha256": "e465acd450988000220d859cedc4c192d45e3dc8c69f7b7f1f1649797792155b"
+          },
+          "stdout.bin": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stderr.bin": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "ACTUAL.json": {
+            "bytes": 1583,
+            "sha256": "ef59cf9e79ce4a9bd2adc20cafe484eb80065c68d44f58bb5d96b33fa1e29bdf"
+          },
+          "POST.json": {
+            "bytes": 367,
+            "sha256": "8d9f8c194707afa38a19f6d6af1add88231d80e76b5317f9b12770552f499271"
+          },
+          "RELEASE-FENCE.json": {
+            "bytes": 1004,
+            "sha256": "257c33d3838dca0d68358111be9933fdd3523c456a478da1a19593c8423fd556"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 237,
+            "sha256": "b785b2ac0cf6ec269248cb15b96f34fe871aaf4b9ce7dd27b6ae7fba6fa79a83"
+          }
+        },
+        "outer_pin": {
+          "bytes": 867,
+          "sha256": "b5316e2f4b1b1240782512237de427a9c7ce4f8aa735b7823073bc5c5e3bff72"
+        }
+      },
+      {
+        "id": "owner_test_RED",
+        "phase": "test",
+        "exit": 1,
+        "actual_seconds": 1.4117571999086067,
+        "outer_seconds": 2.0506431999383494,
+        "classcount": 0,
+        "close_utc": "2026-11-07T19:57:01.656172+00:00",
+        "terminal_observed": true,
+        "reservation_held_after_close": false,
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 12200,
+            "sha256": "f971a7e24e93144944e7c09c4b4b3e857daed390680aaa1990ea5680ee857f74"
+          },
+          "CHILD-START.json": {
+            "bytes": 324,
+            "sha256": "3f57da25f8dd54e393d7ddbd72ccf96c8961a5c6b13bb049b0c9a46163432006"
+          },
+          "CHILD-TERMINAL.json": {
+            "bytes": 651,
+            "sha256": "4858f617593e0b5619c269b21e552d4561121f387d40f89aefb30f9168728739"
+          },
+          "CHILD-OS-RESOURCE-PEAKS.json": {
+            "bytes": 503,
+            "sha256": "e0bd24d01764eed2da7f002c446046f72239d3914aaba8f591fdcf679ddc7b05"
+          },
+          "stdout.bin": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stderr.bin": {
+            "bytes": 278,
+            "sha256": "2bdc20ede8355083fae18e79a69c2083c86606b8878a7a9d3d5d15736ddefc68"
+          },
+          "ACTUAL.json": {
+            "bytes": 1495,
+            "sha256": "496147ad7a000bbc021780369e688a5f6bc530624b1d6190490db05b06a5f7a0"
+          },
+          "POST.json": {
+            "bytes": 366,
+            "sha256": "7e1cf74f2b71e90a799aeda7a028f8f988a6b27a82118d5013bfa9d8ed943e5b"
+          },
+          "RELEASE-FENCE.json": {
+            "bytes": 1005,
+            "sha256": "f09dee6fb1bd858936de1ccb1c697dccb332e0c5c48c2cb4b606f05a607be553"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 237,
+            "sha256": "882b8a41e24681d4a47c2103adaa6e92ec6b4716a6aa7551092b46105e40e7a1"
+          }
+        },
+        "outer_pin": {
+          "bytes": 864,
+          "sha256": "b9f83b48ddefc3a753f106bf2bbc00838c02bc35512e0c2db9e7d75d792d639c"
+        }
+      },
+      {
+        "id": "corrected_test",
+        "phase": "test",
+        "exit": 0,
+        "actual_seconds": 4.804789499961771,
+        "outer_seconds": 5.435055200010538,
+        "classcount": 1,
+        "close_utc": "2026-11-07T19:58:39.171407+00:00",
+        "terminal_observed": true,
+        "reservation_held_after_close": false,
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 12436,
+            "sha256": "e8c9c3b7962ce0ce136d72eeec461ecea71dfe3f0a2a8d4421a3622a654438e4"
+          },
+          "CHILD-START.json": {
+            "bytes": 324,
+            "sha256": "12d4c57173b1a159e1693ffe166ea353c8d2d134789a763c7f977147c77283c7"
+          },
+          "CHILD-TERMINAL.json": {
+            "bytes": 649,
+            "sha256": "5e3c07ec5bd55ce5538e985c60f46624250f1b9025889e240f733344254f5cb8"
+          },
+          "CHILD-OS-RESOURCE-PEAKS.json": {
+            "bytes": 507,
+            "sha256": "334dfb973b3239104fb7fd0f0472ea31de9abb5e77bd2f1b092f445da7783346"
+          },
+          "stdout.bin": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stderr.bin": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "ACTUAL.json": {
+            "bytes": 1494,
+            "sha256": "7fc3c7fb2c33ea93b6a78cf16b40d40a05621a84aa5e93f1b9e451946fdd21ee"
+          },
+          "POST.json": {
+            "bytes": 366,
+            "sha256": "babd161ae96b5d287c58edbf95dc25f923335ccbf23f95887bffc19df500d7fe"
+          },
+          "RELEASE-FENCE.json": {
+            "bytes": 1005,
+            "sha256": "5fc2e15492bbe5f1785e9f99ab37fb564b2949c9b3a06e1d70f8deabab180bc1"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 237,
+            "sha256": "2ad966f2ae30db16b0222fcbe668665c809d6ad63a51493025ab99febe671192"
+          }
+        },
+        "outer_pin": {
+          "bytes": 863,
+          "sha256": "3a4458440f984eb84aa93c082f616f638bf7cfaf4e5f2272ea093075689309e7"
+        }
+      },
+      {
+        "id": "five_new_methods",
+        "phase": "junit",
+        "exit": 0,
+        "actual_seconds": 7.325608300045133,
+        "outer_seconds": 7.942517899908125,
+        "classcount": null,
+        "close_utc": "2026-11-07T19:58:50.157231+00:00",
+        "terminal_observed": true,
+        "reservation_held_after_close": false,
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 12775,
+            "sha256": "325a804e6cc48af9090c5e2f178e0cb97222a4f6bf210cb823e256c2e48e1886"
+          },
+          "CHILD-START.json": {
+            "bytes": 319,
+            "sha256": "5d40e7fb7a76a20cbe76ef2c013c07875871ef8bcd1060d0e3255d9ea802f66a"
+          },
+          "CHILD-TERMINAL.json": {
+            "bytes": 652,
+            "sha256": "6a8b4c60001443b46bc1b3a76db59f70888a543ce028df2e555c906847501040"
+          },
+          "CHILD-OS-RESOURCE-PEAKS.json": {
+            "bytes": 506,
+            "sha256": "82e9cd20ea238dc15d332fa2260592056f9b821cc68f73fe6c9dea4481329114"
+          },
+          "stdout.bin": {
+            "bytes": 611,
+            "sha256": "bb217c2a8f7e1614481029e4e06f619af9be3f5a2cee62e6eaec5a2a0efd5309"
+          },
+          "stderr.bin": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "ACTUAL.json": {
+            "bytes": 1340,
+            "sha256": "b010a736d277ba8cf43887e8c428a79918ab6d1918054931b5652bb8e4f45a1d"
+          },
+          "POST.json": {
+            "bytes": 1762,
+            "sha256": "fb38d8dea7d0ab541d5dfcdefc59bafd4d54b3244b7e0ad733771f72d3e2ce11"
+          },
+          "RELEASE-FENCE.json": {
+            "bytes": 1009,
+            "sha256": "d3a0d7d24d78dc6082275f606d7064d833806856d9fc290e817ea472d9e45098"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 238,
+            "sha256": "7eec9b06f6e2909065f3b36ab217ba9d1eb35855fa977a85caac2cee286a6909"
+          }
+        },
+        "outer_pin": {
+          "bytes": 866,
+          "sha256": "aa1c554123d9479632eeb7a3ba6451855ce470ad088074d73904e198341b6393"
+        }
+      }
+    ],
+    "JUnit": {
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xml_pin": {
+        "bytes": 45083,
+        "sha256": "08bac2c453c6721cdf02203ff3da71bcf968a1afd4268e3de60b2f950a54ff37"
+      },
+      "methods": [
+        "bounded SDK overflow and malformed/unknown inputs",
+        "all construction cash decisions including actual positive focus branch",
+        "focus outcomes and exact opaque political profiles without raw echo identity claim",
+        "gift typed requests/decisions with large unconsumed history",
+        "public producer held objects and income subtree"
+      ]
+    },
+    "owner_Test_error": "Illegal compound var declaration on line96 was authored/reviewed by owners; real javac exit1/0class/0JUnit is retained. Only split into two declarations, then necessary compile and same five methods passed. Not a model candidate compiler failure.",
+    "pre_BEGIN_mechanical_corrections": {
+      "pin": {
+        "bytes": 676,
+        "sha256": "93885da1ca69b339d7088a0eb43c3106dfd39934b23c6a62978b8e894e103077"
+      },
+      "scope": "Two Native recorder metadata assumptions: size15930 vs actual15931 with approved SHA; Ready02 schema omitted repeated selectors/class, so reuse pinned Ready01 selectors. Both before any JVM/claim/BEGIN; no source/selector change and no additional compiler/HTTP RED."
+    },
+    "coverage": {
+      "original_vectors": 81,
+      "gift_vectors": 32,
+      "construction_cash_vectors": 31,
+      "focus_vectors": 18,
+      "actual_positive_focus_cases": 3,
+      "political_profile_comparisons_by_original_war": 20,
+      "vector_count_is_not_JUnit_method_count": true,
+      "role_maximum_bytes_observed": {
+        "gift32": 2277,
+        "construction31": 5805,
+        "focus18": 3999
+      },
+      "boundary_DATA": {
+        "snapshot_bytes_below_original65536cap": 64411,
+        "whole_cash_bytes_above_original65536cap": 65897,
+        "shared_SDK_entry_positive": true,
+        "malformed_scalar_null_missing_preserved": true
+      },
+      "income_subtree": {
+        "raw": 584686,
+        "scale": 100000,
+        "actor_native_date_bindings_preserved": true,
+        "real_intent_executed": false
+      }
+    },
+    "provenance": "Existing original SDK vectors; 139 retained Driver rows used as unconsumed DATA extension and final retained ROOT income provenance, not a live/current FinanceCurrent or original complete internal Root admission. Public producer preserves held objects/bytes. Same31 construction corpus alias is not an additional sample.",
+    "last_close_utc": "2026-11-07T19:58:50.157231+00:00",
+    "all_children_closed": true,
+    "full_Archive_verify": false,
+    "real_Intent": false,
+    "end_to_end_performance_measured": false
+  },
+  "formal_publication": {
+    "business_commit": "b2c3f89d62d8bfefe3e0832d2b3aa4eb3601f177",
+    "origin_master_at_receipt": "b2c3f89d62d8bfefe3e0832d2b3aa4eb3601f177",
+    "remote_master_at_receipt": "b2c3f89d62d8bfefe3e0832d2b3aa4eb3601f177",
+    "files": 7,
+    "isolated_status_at_receipt": "clean",
+    "raw_pin": {
+      "bytes": 1171,
+      "sha256": "cf7f6ddf0f65b517b4093e6613924346ee9cb1fdda7e0c022e7df5c3df29ea02"
+    },
+    "no_publication_time_health_extrapolation": true,
+    "runtime_adopted": false,
+    "new_verified_saved_days": 0
+  },
+  "runtime_adopted": false,
+  "HTTP_TTFT_or_saved_day_gain_proven": false,
+  "backend_weights_quantization_build": null,
+  "cost": {
+    "owner_preparation_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "coordination_seconds": null,
+    "test_active_seconds": null,
+    "publication_active_seconds": null,
+    "net_owner_saving_seconds": null
+  },
+  "new_HTTP_or_JVM_for_documentation": 0,
+  "this_case_publication_does_not_complete_continuous_goal": true,
+  "documentation_reader_launch_correction": "Unqualified python resolved to extensionless Cygwin file and did not run. Read-only metadata commands used an explicit existing Python313 executable afterwards; no change to model/JVM/business evidence.",
+  "next_trigger": "Later real P111 full-material archive bind/verify/originalRequest and P112 real intent integration results, or another actual model/adoption case. No new request or run just for documentation.",
+  "generated_at_utc": "2026-11-07T20:10:46.706468+00:00",
+  "documentation_validation_correction": "Initial overbroad redaction check matched semantic snapshot/root/market text as an agent path; check stopped before any stage/commit/push. Narrowed agent-path boundary without removing role semantics, then reran all required checks. Not a model or business failure."
+}
