@@ -4793,3 +4793,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 550 length2600整弃，1HTTP11355tokens16.175s，无正文parse/采用；551 stop/DONE/外JSONVALID，1HTTP8711+268=8979tokens2.536s，精确唯一纯hunk原样采用。owner限制只改planner而遗漏已供Admin预筛，8消费者原4FAIL0ERROR，补真实消费者后8过／受影响25过，完整1359pass1SDKskip/105files83Lua51，未Native96。另95真实138到152农场学院147完工，但同移民秀容152初始−2.6875，FAIL已保存停END，2530观察序号恰一次全撤。6原图/106queue106vitals固定Native反链，无手动内政。累计551logical513stop35length3transport581HTTPextra30/OpenCode新0，Nov9维护缓存/null未知。Steam他机占用0模式上线上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source96governor551.json)。
+
+
+## 2026-11-09：Civ6source96native156
+
+552真实未决人口诊断，1HTTP stop/DONE/外JSONVALID，1365+363=1728tokens2.866s。原Lua51编译但漏显式pcall、nil检查冒称隐式pcall、未供Gameglobal，代码整拒0Native；owner固定pid0/有界5turn按原UIvisibility，4资格后Native历史152..154filtered/155飓风PopLost0/156none，不推出人口根因。96同95FAIL152冷读自动gov0调任实际−2.6875到+5.3125/供城+18，四普通turn后八城L100正、秀容pop2，40queue40vitals三图、667观察撤钩/156saveACK稳定。启动前freshbackgroundoffline0.003335s，旧自有残留273s惰性后terminate1，Steam0动作。累计552logical514stop35length3transport582HTTPextra30/OpenCode新0，Nov9缓存维护/null未知，旧FAIL/full40开放。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source96native156.json)。

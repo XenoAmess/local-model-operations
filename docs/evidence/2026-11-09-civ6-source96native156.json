@@ -1,0 +1,72 @@
+{
+  "schema": "local-model-operations.civ6-source96native156/v1",
+  "utc": "2026-11-08T19:22:20.539840+00:00",
+  "date_local": "2026-11-09",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/6dd1ebe7855f64774f6a3ec4c607072495cc80b6/docs/research/baiqi-p6-governor96-native156-model552-evidence-2026-11-09.json",
+    "sha256": "ebe2ea2950e8f37d72f2a3a50e300cf392ee12a48d7560d712edde58e0298af2"
+  },
+  "model": {
+    "task": "Visible original climate history bounded readonly diagnostic, real unresolved population change",
+    "started_at_utc": "2026-11-08T19:13:53.447726+00:00",
+    "HTTP_attempts": 1,
+    "extra_attempts": 0,
+    "finish_reason": "stop",
+    "SSE_DONE": true,
+    "outer_JSON": "VALID",
+    "usage": {
+      "prompt_tokens": 1365,
+      "completion_tokens": 363,
+      "total_tokens": 1728
+    },
+    "total_ms": 2865.503500099294,
+    "review": {
+      "raw_Lua51_compile": true,
+      "raw_code_adoption": 0,
+      "raw_Native": 0,
+      "review": "REJECTED_CODE: uses unsupplied Game global and omits explicit perturnpcall; limits falsely calls nil checks implicitpcall. Owner wrote bounded pure fixedplayer0 reader using given ports and real primary visibility consumer.",
+      "owner_cases": [
+        "visible_missing_poplost_not_zero",
+        "hidden_does_not_read_detail",
+        "per_turn_throw_continues",
+        "global_needs_no_plot_read"
+      ],
+      "owner_case_count": 4,
+      "owner_Lua51_compile": true,
+      "owner_not_product": true
+    },
+    "raw_Native_execution": 0,
+    "daily_maintenance": "Nov9 canonical successful same-machine/same-user1.19.5 cache reused;updatedfalse",
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 552,
+    "complete_stop_valid_outer_JSON": 514,
+    "length_discarded": 35,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 582,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_HTTP_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Actual96 cold same95FAIL152: reportedown WORLD1CITY8UNIT25BUILDING36DISTRICT25PLOT115 equal; governor0 movedJiaodong->Xiurong, -2.6875->+5.3125 donor26->18, bootstraprequestcountunknown.152to156fourordinaryturns/all8L100positive, Xiurongpop2, observer667restored/save156stable. Changsha153pop4->1543->1564causeunknown;156foodsurplus0 notpriorstarvationproof. Owner4case visiblehistoricalreader found152..154filtered/155hurricanePopLost0/156none; no hiddenhistory orcause claim.",
+  "generic_lessons": [
+    "Nil checks do not provide pcall exception isolation; limits claiming implicitpcall contradicted actual source.",
+    "A candidate can compile yet use a missing E port/global; qualify against explicit supplied environment before Native.",
+    "Filter historical events exactly as original visible UI; filtered records and current nil cannot establish past city cause.",
+    "After-after city state and +8/-8loyalty actual effects may establish narrow intervention, but unobserved bootstrap request count staysUNKNOWN.",
+    "A stop file added while batch cycle is already in flight only gates future entry; record actual reached156 and0END156 instead of claiming stop154.",
+    "Population fall with no city settler queue is a new investigation, not automatic settler-cost or starvation verdict; preserve current save and reproduce separately."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "552 code rejected despite complete transport/compile; owner4diagnosticcases separate from product methods. Native96 governor recovery narrowPASS plus unresolved population loss, not whole expansion/20turn/full40 or model gameplay success. No Steam online/login/uploader initialization/upload."
+}
