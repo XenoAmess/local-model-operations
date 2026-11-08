@@ -4821,3 +4821,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 555完整stop/DONE/JSON，1HTTP/6680tokens/5.935483s；raw整稿拒绝0Native，静态改冒号、全表先知断言、Claimant0过滤和界限/未知错。owner12例后Native162只读公开先知1未招募index122/nil、已创教2、cap未知；自有40points/+0/faith436.3046875/created-1，宗教链仍open。累计555/517stop/35length/3transport/585HTTP/30extra/OpenCode新0/null未知。Steam外机占用0上线或上传；产品97未改。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion555.json)。
+
+
+## 2026-11-09：Civ6source97long173
+
+0新HTTP/软件方法，累计555保持；复用97软件1375pass1SDKskip与既有只读/观察器资格。Native153→173实际20回合含154正式重载，长沙4→7、160全城食粮行无饥饿倒计时、168忠诚行100正变化；29普通END92armySKIP，0UserForced/手补内政。4629观察条=4453recruit35city139op2cmd，0错0丢，3305前原子轮换，全撤；CityRequestCommand未包故食粮命令次数未知。17建筑7区域完成含旧放置、8处新改良，新移民仍在途，广州末样本净粮0。5原图9CSV/173save1666670B未load；旧FAIL/宗教/兼容/性能/完整40未闭，Steam外机占用0上线上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source97long173.json)。
