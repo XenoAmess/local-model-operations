@@ -4737,3 +4737,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 545普通HTTP1份stop/DONE/VALID，4064+431tokens/3.3684266s。两个精确feature条件替换原样采用，helper未原样采用：独立5场景4失败（缺FeatureType、两未知bool通过、getter异常），owner补显式false校验及pcall。schema实际Features.Settlement，NoCity不存在；新旧城址两消费者修复，边境/忠诚/最终FOUND守卫不放宽。9新Lua51方法，旧93七失败子场景一异常，新94九方法通过；初ownerfixture未初始化六子场景FAIL和比较脚本错误要求旧无异常分别保留；全1339运行1338通过1SDKskip，104文件82Lua51包一致。94未安装/实机，93已Save109正式Exit一次，不授新城或长期保城。累计545/508JSON/34length/3transport/575HTTPextra30，OpenCode原生0、成本未知。Steam他机占用0上线上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source94feature545.json)。
+
+
+## 2026-11-08：Civ6source94native120
+
+新增HTTP/软件case/OpenCode原生0，复用owner修正94（545两精确条件替换，非原helper）。离线cold109原移民接受雨林2047并移动，112目标变更原因未截获；113到118持有新2427@59,32，119广州建立，120粮仓4/32/忠诚100+17，正式Save/Load报告范围逐字段保持、UI/Core原属性OBSERVED。最终地块无地貌，不能授雨林建城或长期稳定。62队列62vitals/4原图内嵌，1866观察样本0错误丢弃已撤；13settlerMOVE2SKIP1FOUND，1大商人激活命令完整收益未隔离，无观察范围内军令。31玩家armySKIP/12普通END输入/11advance；110议会实际Prophetban/Theaterboost不是玩家所投Scientist/Harbor，114原版envoyview/close保8后新END，NPC正常外交分账，无UserForced/手补内政。软件1339/1338+1SDK沿用、模型累计545/508JSON/34length/3transport/575HTTPextra30。Steam占用继续0上线上传，full40/长期/旧恢复FAIL保持。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source94native120.json)。
