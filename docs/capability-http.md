@@ -4702,3 +4702,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 542 canonical普通HTTP1POST、stop/DONE/合法外层JSON，3006+2266=5272tokens/13.5608772秒、cached=null；Nov8首500成功1.19.5每日维护缓存复用，0OpenCode原生生成。raw Lua51能编译但7反例失败，整稿拒用；其中Standard裸词为owner输入歧义另担，其余年龄冲突、索引异常、无穷值与元表问题独立实证。owner独立20场景通过，Native130本方DARK/era4/score42；不授压力根因。连同541独立34场景读者发布QA源与54场景夹具，2方法定向通过；产品92/104文件不变。128新目的正式加载ACKtrue但仍loading，比较未知，无重发Load或END130。累计542/506stopJSON/33length/3transport/572HTTPextra30，未知成本null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-loyaltyinfo542.json)。
+
+
+## 2026-11-08：Civ6age542compare
+
+本包0新HTTP/软件case/OpenCode原生生成，复用542 owner20资格实际比较128与130：英雄时代/era3/41分/倒计时1→黑暗/era4/42分/倒计时−1，成都+1.09375→−15。当前active128，原失败档保留；不能授唯一根因或精确切换回合。加载有hung捕图拒绝/LSQtimeout0CMD；旧Continue区域比对失败在intent前，重新查看新参考后一次正式Continue完成，无Load重发或END130。累计冻结542/506stopJSON/33length/3transport/572HTTPextra30，后续543另计，未知成本null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-age542compare.json)。
