@@ -4632,3 +4632,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 528529真实2任务并行POST区间重叠峰值2，均完整stop/SSE/JSON、2HTTP0extra。528原9methods38subtests3方法失败（DTO15只返11、同轮2次GetReligion、可拼两组件faith和created），owner补4签名字段并复用组件后全过，修改采用。529pureJournal8methods29subs全过，原稿完整采用，均0Native。源88两组件及imports/manifest登记，尚无需求/Core许可/writer/实际存档键；24定向17新+7manifest过、76Lua51、98包byteMatch，未安装，运行/安装仍87且96hash保持，旧全套未重跑。owner缩进子串锚点计数／合并测试root导入路径已修，原失败保留。累计529493stop33length3transportHTTP559extra30/OpenCode新增原生0/null未知，Nov8缓存维护成功不授代码能力。Steam外机占用后0模式登录下载上传初始化上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source88-missionary529.json)。
+
+
+## 2026-11-08：Civ6source89-missionary533
+
+530—533四真实独立任务完整stop/SSE/JSON，4HTTP0extra，实际POST峰值4持续17.042582秒。530原17子场景1fail（owner前读外方ID）修改采用；531读库字段替代真实Property，16中12fail拒绝；532wrong依赖名使正常许可拒绝，明确诊断别名下nil最后快照/合法serial17并发覆盖/MustPurchasefalse三反例，整拒；533三唯一锚点两文件编译，但pid0错误与缺Protected，整稿拒绝只采用引入方向。owner独立Core/Guard/Initialize接线，25新方法/33纯子场景，全1269run1268pass1SDKskip，79Lua51/101包一致，未安装Native89，原87all96保持。首全套1fail29error/定向79中2旧87断言均如实留档并修正（夹具依赖、私有对照version与新增路径关闭），最终全套通过。累计通过533为533logical497stop33length3transport563HTTP30extra，OpenCode新原生0，Nov8每日缓存，未知人工成本/cache null；Steam外机占用0任何上线下载上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source89-missionary533.json)。

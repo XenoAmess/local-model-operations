@@ -1,0 +1,228 @@
+{
+  "schema": "local-model-operations.civ6-source89-missionary533/v1",
+  "utc": "2026-11-08T05:11:46.909847+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/34137485fe05f581efe4ec11059d0535e54f91d6/docs/research/baiqi-p6-missionary-storage89-model530533-evidence-2026-11-08.json",
+    "sha256": "98971a19467fcbd84fa50b64aa234c7063b100053bcb2cdb7442aac4e8e7b10e"
+  },
+  "model": [
+    {
+      "task": 530,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 4481,
+        "completion_tokens": 1620,
+        "total_tokens": 6101
+      },
+      "ttft_ms": 3003.466400085017,
+      "total_ms": 19819.507600041106,
+      "POST_BEGIN_utc": "2026-11-08T04:27:44.194103+00:00",
+      "ATTEMPT_END_utc": "2026-11-08T04:28:04.014497+00:00",
+      "review": {
+        "whole_raw_adopted": false,
+        "adoption": "MODIFIED_OWNER_FIRST_FOREIGN_SKIP",
+        "raw_Lua51_compile": true,
+        "raw_failed_cases": {
+          "foreign_owner_before_id": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'"
+        },
+        "owner_cases": 17,
+        "owner_sha256": "b48d60a4415225c6a00072f5e674ca0161da19053782cc4b73bf2e4e81b7c497",
+        "raw_native_executions": 0
+      },
+      "shared_commit": "024a19eb6e2937ebd44817f6d41d974755a3cb2d",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 531,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 4879,
+        "completion_tokens": 1304,
+        "total_tokens": 6183
+      },
+      "ttft_ms": 3004.5552999945357,
+      "total_ms": 17039.350699982606,
+      "POST_BEGIN_utc": "2026-11-08T04:27:44.192954+00:00",
+      "ATTEMPT_END_utc": "2026-11-08T04:28:01.236685+00:00",
+      "review": {
+        "whole_raw_adopted": false,
+        "adoption": "REJECTED_WRONG_STORAGE_SOURCE_AND_DUPLICATED_SHALLOW_VALIDATION",
+        "raw_Lua51_compile": true,
+        "raw_failed_cases": {
+          "empty_keys_really_read_twice": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+          "naturalist_ARMED_holds_missionary": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+          "missionary_ARMED_holds_naturalist": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+          "bad_old_value_unknown": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+          "throwing_read_not_absence": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+          "missing_journal_contract": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+          "strict_validator_boolean": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+          "get_property_not_a_function": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+          "appeared_between_reads": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+          "disappeared_between_reads": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+          "frozen_first_copy": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+          "userdata_property_receiver_and_catalogs": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'"
+        },
+        "owner_cases": 16,
+        "owner_sha256": "87ac052e9b74666dad070c19a8554f05c54eedd4309fe8059eec7332ec4a48bf",
+        "raw_native_executions": 0
+      },
+      "shared_commit": "024a19eb6e2937ebd44817f6d41d974755a3cb2d",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 532,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 8376,
+        "completion_tokens": 3744,
+        "total_tokens": 12120
+      },
+      "ttft_ms": 3270.1536000240594,
+      "total_ms": 32721.779600018635,
+      "POST_BEGIN_utc": "2026-11-08T04:27:44.192374+00:00",
+      "ATTEMPT_END_utc": "2026-11-08T04:28:16.914253+00:00",
+      "review": {
+        "whole_raw_adopted": false,
+        "raw_compiled_Lua51": true,
+        "raw_frozen_API_positive_permission": [
+          false,
+          null,
+          "snapshot_changed"
+        ],
+        "diagnostic_only_alias": "BaiqiFaithGuard=BaiqiFaithPurchaseGuard; not a product fix or adoption",
+        "counterexamples": {
+          "last_snapshot_nil": {
+            "permission_wrongly_granted": true,
+            "diagnostic_alias_shim": true,
+            "return": [
+              true,
+              "missionary-purchase:0:1",
+              "armed"
+            ]
+          },
+          "journal_changed_after_spread_init": {
+            "permission_wrongly_granted": true,
+            "diagnostic_alias_shim": true,
+            "return": [
+              true,
+              "missionary-purchase:0:1",
+              "armed"
+            ]
+          },
+          "must_purchase_false": {
+            "permission_wrongly_granted": true,
+            "diagnostic_alias_shim": true,
+            "return": [
+              true,
+              "missionary-purchase:0:1",
+              "armed"
+            ]
+          }
+        },
+        "owner_production_core_independently_derived_from_existing_naturalist_core": true,
+        "raw_Native_executions": 0
+      },
+      "shared_commit": "024a19eb6e2937ebd44817f6d41d974755a3cb2d",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 533,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 5975,
+        "completion_tokens": 2033,
+        "total_tokens": 8008
+      },
+      "ttft_ms": 1962.3768999008462,
+      "total_ms": 22707.586799981073,
+      "POST_BEGIN_utc": "2026-11-08T04:27:44.192916+00:00",
+      "ATTEMPT_END_utc": "2026-11-08T04:28:06.904839+00:00",
+      "review": {
+        "whole_raw_adopted": false,
+        "sequential_unique_anchors": [
+          1,
+          1,
+          1
+        ],
+        "both_materialized_files_compile_Lua51": true,
+        "raw_pid0_initialize": false,
+        "owner_pid0_initialize": true,
+        "raw_Native_executions": 0
+      },
+      "shared_commit": "024a19eb6e2937ebd44817f6d41d974755a3cb2d",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 533,
+    "complete_stop_valid": 497,
+    "length": 33,
+    "final_transport_failures": 3,
+    "http_attempts": 563,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "source": 89,
+    "installed_and_native": 87,
+    "new_methods": 25,
+    "pure_subcases": 33,
+    "full_run": 1269,
+    "full_pass": 1268,
+    "SDK_environment_skip": 1,
+    "all_Lua51": 79,
+    "package_files": 101,
+    "byte_match": true,
+    "installed87_all96_unchanged": true,
+    "Native89": false,
+    "actual_client_peak": 4,
+    "Steam_operations": 0
+  },
+  "generic_lessons": [
+    "Storage guards must read actual player properties and freeze validated copies; library fields are not persisted business state.",
+    "Owner checks precede foreign object IDs. Known foreign objects can be skipped without reading their identity or coordinates.",
+    "A compiled permission bridge with a wrong dependency name cannot be adopted; diagnostic aliases only isolate further defects and are not a product fix.",
+    "The last fresh snapshot cannot silently fall back to an empty baseline. Preserve IDs of foreign-faith and zero-charge own actors to reject converted old IDs as new purchase receipts.",
+    "After initialization, compare the original own journal again. A valid changed journal with a higher serial exposes overwrites that a corrupt-value fixture cannot when another guard already rejects corruption.",
+    "Explicit initialization must accept valid player0 and return one protected strict boolean, while preserving existing unknown or armed records.",
+    "New Core consumers require new closure in private static performance controls, not merely a version-gate increase. Include-noop test harnesses need actual new libraries.",
+    "Four measured overlapping POST intervals are not configured12..16 concurrency or server state. Software storage is not Native procurement."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Source89 Core permission/storage/event lifecycle only; UI demand/command consumer and Native procurement not yet complete. Existing recovery FAILs remain. Installed/live87 unchanged, publicAlpha2 stays82/12images. Raw530 modified,531532 rejected,533 whole bundle rejected and owner direction only.0Steam operations while occupied; unknown savings/cache null."
+}
