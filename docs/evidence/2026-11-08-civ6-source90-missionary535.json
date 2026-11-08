@@ -1,0 +1,120 @@
+{
+  "schema": "local-model-operations.civ6-source90-missionary535/v1",
+  "utc": "2026-11-08T05:32:50.080707+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/8c7daf4cae4ee1a8668523254057be652ddc7e8f/docs/research/baiqi-p6-missionary-flow90-model534535-evidence-2026-11-08.json",
+    "sha256": "92691a9d08d53da9f07ec8b7ea7edf26600a37d914d65e517fd1898e03ba0a5e"
+  },
+  "model": [
+    {
+      "task": 534,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 17023,
+        "completion_tokens": 1881,
+        "total_tokens": 18904
+      },
+      "ttft_ms": 4669.258999987505,
+      "total_ms": 19041.60730005242,
+      "POST_BEGIN_utc": "2026-11-08T05:04:27.419466+00:00",
+      "ATTEMPT_END_utc": "2026-11-08T05:04:46.466656+00:00",
+      "review": {
+        "whole_raw_adopted": false,
+        "raw_Lua51_compile": false,
+        "compile_reason": "Unsupported continue statement in Lua5.1",
+        "owner_independent_implementation": true,
+        "owner_cases": 22,
+        "raw_Native_executions": 0
+      },
+      "shared_commit": "024a19eb6e2937ebd44817f6d41d974755a3cb2d",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 535,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 17169,
+        "completion_tokens": 2012,
+        "total_tokens": 19181
+      },
+      "ttft_ms": 3648.3734999783337,
+      "total_ms": 19233.089999994263,
+      "POST_BEGIN_utc": "2026-11-08T05:04:27.418080+00:00",
+      "ATTEMPT_END_utc": "2026-11-08T05:04:46.656076+00:00",
+      "review": {
+        "whole_raw_adopted": false,
+        "raw_Lua51_compile": true,
+        "raw_positive_result": [
+          "UNAVAILABLE",
+          null,
+          "bridge_unavailable"
+        ],
+        "counterexample": "Frozen E.Bridge is a function; raw Object check only accepts table/userdata, so normal purchase always rejects.",
+        "owner_independent_implementation": true,
+        "owner_cases": 19,
+        "raw_Native_executions": 0
+      },
+      "shared_commit": "024a19eb6e2937ebd44817f6d41d974755a3cb2d",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 535,
+    "complete_stop_valid_JSON": 499,
+    "length": 33,
+    "final_transport_failures": 3,
+    "http_attempts": 565,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "source": 90,
+    "installed_and_native": 87,
+    "new_methods": 19,
+    "pure_cases": 41,
+    "flow_methods": 17,
+    "full_run": 1288,
+    "full_pass": 1287,
+    "SDK_environment_skip": 1,
+    "all_Lua51": 81,
+    "package_files": 103,
+    "byte_match": true,
+    "installed87_all96_unchanged": true,
+    "Native90": false,
+    "actual_client_peak": 2,
+    "Steam_operations": 0
+  },
+  "generic_lessons": [
+    "Complete SSE and valid outer JSON do not imply supported source syntax. Lua5.1 continue is a compile failure, not a transport failure.",
+    "A function-valued dependency must be checked as a function. Applying a table/userdata helper to E.Bridge rejects every normal positive path.",
+    "A new purchase receipt needs to be included in busy-phase reconciliation. Storage alone cannot release the real UI consumer.",
+    "Do not permanently mark a held actor evaluated for the turn; receipt release must restore its normal scheduling in the same turn.",
+    "Fixture steering must change the actual getter or producer. An unused leader field does not test ownership changes.",
+    "Keep actual SDK writes distinct from supplied command adapters. Preserve private diagnostic rejection rules and capture functions into locals for identity comparisons.",
+    "The actual consumer must persist permission before one native request and hold unknown results. Void/false/throw cannot cancel or authorize retries.",
+    "Cold UI metadata reconstruction in isolated bindings is not real game save/load, Native purchase or religious combat UI permission proof."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Source90 domestic procurement and receipt handoff wired and software-tested only. No Native90 debit/new missionary/spread/save-load proof, no install. Installed/live87 unchanged; publicAlpha2 stays82/12images and prior recovery FAILs remain.534 syntax fail/535 semantic fail raw rejected; complete_stop_valid_JSON is not source correctness.0Steam operations while occupied, unknown savings/cache null."
+}

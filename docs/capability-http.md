@@ -4639,3 +4639,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 530—533四真实独立任务完整stop/SSE/JSON，4HTTP0extra，实际POST峰值4持续17.042582秒。530原17子场景1fail（owner前读外方ID）修改采用；531读库字段替代真实Property，16中12fail拒绝；532wrong依赖名使正常许可拒绝，明确诊断别名下nil最后快照/合法serial17并发覆盖/MustPurchasefalse三反例，整拒；533三唯一锚点两文件编译，但pid0错误与缺Protected，整稿拒绝只采用引入方向。owner独立Core/Guard/Initialize接线，25新方法/33纯子场景，全1269run1268pass1SDKskip，79Lua51/101包一致，未安装Native89，原87all96保持。首全套1fail29error/定向79中2旧87断言均如实留档并修正（夹具依赖、私有对照version与新增路径关闭），最终全套通过。累计通过533为533logical497stop33length3transport563HTTP30extra，OpenCode新原生0，Nov8每日缓存，未知人工成本/cache null；Steam外机占用0任何上线下载上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source89-missionary533.json)。
+
+
+## 2026-11-08：Civ6source90-missionary535
+
+534535两真实独立请求完整stop/SSE/外JSON，实际峰值2持续19.047190秒，2HTTP0extra。534原稿含Lua51不支持continue编译失败，535虽编译却Object(E.Bridge函数)导致正常正例也UNAVAILABLE，均整拒0Native，owner独立Demand/Submit并接真实Controller。19新方法=2纯/41子场景+17联合；首联合3失败中2产品问题（busy effectPending漏采购、held被unitEvaluated导致回执后仍停）已修，unusedleader改实际getter属夹具纠正。首全1288中1写插桩error，保留工具拒绝规则，显式adapter与实际SDK分开捕获、SDK函数先读local再比较；最终1288run1287pass1SDKskip，81Lua51/103包一致，未install/Native90，安装实机仍87all96。累计535logical499stop有效外JSON33length3transport565HTTP30extra，Nov8维护缓存/OpenCode新原生0/cache节时null。其他设备占用Steam，包内0模式查询输入联网下载上传；Alpha2仍82/12图。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source90-missionary535.json)。
