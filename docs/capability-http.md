@@ -4523,6 +4523,14 @@ Root实际BEGIN→末CLOSE190.727833s与Native更早operator起点191.163224s、
 
 全部24call与CPU/分配/setup/main/actor/outer保持，operator全窗50.553755s、实际BEGIN窗50.099146s、四actor46.9881366s分别记；有限DATA不授Policy.evaluate/NativeREAD/SEM/owning publication或Runtime，不叠加P114百分比。业务5files `ba7e5888b202b1bd278a57f70defe8c37e58a262`正常发表且remote一致、发布切点clean。[单行采用、raw标签、所有原件与未知成本](evidence/2026-11-08-http-large-preserve115.md)保留，Root64pins全吻合，私有导航留D；0Game/P100/保存日信用，持续goal与实际P116独立继续。
 
+## 2026-11-08：精确optional融资wrapper与派生边界P116
+
+`HTTP-JAVA-EXACT-FINANCING-HEADER-116`一次fixed3/max5000、源码58760B，1POST/0retry、200/stop/DONE/VALID；有效TTFT1.9834396秒、总16.3057455秒，reported13594/2442、cachednull。owner给精确full-only/rawtoken/nullpresent/clone/retention算法，corepartial；宽catch/Value赋Obj/import由owner纠正，坏稿未编。初始任务及production01派生encode64M的accepted-set缺口归owner：合法raw67108863B因UTF8膨胀wrapper67150800B；production02仅派生lease用现有256M，raw64M/retain262K/command1M/Guard不变。真near1P，SDK25931/cachefalse，不授大manifest；独立1GiB近限OS峰值与普通cohort分开。
+
+2生产叶共3必要TU，最终5class；Test01 helperimport真实javacRED/0JUnit，Test02 3P1E因deep40误走既有NativeEffects32，Test03仅failed方法改实际Source64域1P+独立newnear1P，保其它3绿，5unique跨3JVM非same5P，未扩Native域。metadata preBEGIN错不归模型RED。Main03免编/同原DATA warmCAS，无新PREP；外ABBA/内B0B0B1B1透明映射与Codec2+Source3完整family/firstorigin保，24calls8warm16measure全留。
+
+whole mean730.0337375→631.3798ms（−13.51%）/median722.61945→622.43395（−13.86%），主线程allocmean1041765402→945644769B（−9.23%），actor均11.2068362→10.53680915s（−5.98%）。新增construct30064B/coldresolve26652B/Q230064B成本全计，不能把wall全归一处；ABBA47.112489s/首次生产至末close739.117687s含错误等待。业务6files `1a85e42f76c5d002fac406546a6d4923ded8c135`正常发表且remote一致、发布切点clean。[完整错误、accepted-set、全部样本/阶段和未知成本](evidence/2026-11-08-http-financing-header116.md)保留，Root145pins全吻合；0实际Policy/NativeREAD/SEM/owning publication/Runtime/Game/保存日信用，持续goal与P117独立继续。
+
 
 ## 2026-11-08：Civ6source87-district515
 
