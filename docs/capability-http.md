@@ -4765,3 +4765,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 547一次HTTP完整stop/SSE/合法JSON，3011+1019=4030tokens/7.249s。Lua51能编译，代码用globals绕E、无异常保护/自有FindID核验，0采用0原稿Native；显示层事实已在primary，不授新根因。Nov9首次新鲜维护installed/latest1.19.5、未更新。累计547logical510stopJSON34length3transport577HTTPextra30/OpenCode新原生0。负责人实际发现94第8城负忠诚，139保存止END，独立复现诊断继续；未知人工/cache null，Steam占用禁令不变。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source94fail139.json)。
+
+
+## 2026-11-09：Civ6source95warning548
+
+548一次HTTP stop/DONE/合法JSON，6461+883=7344tokens/6.431s。两原hunk含行号0精确匹配，include位置错误拒绝；owner去行号/加强类型后部分采用guard，复用owner34-case读者。13新方法含34复用场景，旧94八失败/95全过；完整1351pass1SDK环境skip、105文件83Lua51。新Native138实际负6取证独立于软件，95未安装不授139阻断通过。累计548logical511stop34length3transport578HTTPextra30/OpenCode新原生0，Nov9缓存维护。Steam他机占用禁令持续，未知人工/cache null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source95warning548.json)。
