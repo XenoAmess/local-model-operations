@@ -4653,3 +4653,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 536真实只读采购日志审计，1HTTP完整stop/SSE/外JSON但continue导致Lua51编译失败整拒，owner独立实现3Property双轮冻结/Clone/Equal，ABSENT/KNOWN/UNKNOWN+计数，未知保持nil，无Inspect/Prepare/Observe或写/命令。1方法16Lua51场景全过，工具未入Native且外于产品103，旧1287pass1SDKskip未重跑。累计536logical500stop外JSON33length3transport566HTTP30extra，OpenCode原生0，Nov8维护缓存，未知节时/cache null。业务90已安装103match，87原119全文核验后新1358838B备份，旧备份保留，退出残留核身份/哈希/0窗口端口CPU/>180s后只结束自有；每次新启动前独立后台GoOnline证实当前14904offline，正式菜单头部导航另记非只读。0模式切换上线登录下载上传、外机占用未解除。首次90启动未响应/两LSQ端口timeout，自有WM_CLOSE后终止；二次同DX12/8核32前端contexts、原版119LoadACKtrue，但切点世界尚未读，未归因或授Native90通过。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-faith536-cold90.json)。
+
+
+## 2026-11-08：Civ6cold90-537
+
+537一次HTTP/完整stopJSON；原稿5边界失败，owner修后21Lua51场景通过。实际119→122观察0仅一个城市命令绑定，已撤；90冷读与3普通回合成立，但成都8.83忠诚/每回合-6.28/产能0记FAIL并保存。无采购正案。业务原图、CSV及精确公开pin已交付。538/539后续候选另记。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-cold90-537.json)。

@@ -1,0 +1,70 @@
+{
+  "schema": "local-model-operations.civ6-cold90-537/v1",
+  "utc": "2026-11-08T07:02:38.013249+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/6fcb21d4be62921d5b5e570767f5b9c7261634e1/docs/research/baiqi-p6-source90-cold-smoke-and-command537-evidence-2026-11-08.json",
+    "sha256": "1faa1cf18c4ab86fdb4a6e12e49ba7c1690c2185eb3a9c058896c0874b7915d1"
+  },
+  "model": {
+    "task": 537,
+    "http_attempts": 1,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 4935,
+      "completion_tokens": 1418,
+      "total_tokens": 6353
+    },
+    "ttft_ms": 802.9719999758527,
+    "total_ms": 9145.783600048162,
+    "review": {
+      "whole_raw_adopted": false,
+      "adoption": "MODIFIED_INTEGER_FIELDS_AND_PROTECTED_AFTER_OBSERVATION",
+      "raw_Lua51_compile": true,
+      "raw_failed_cases": {
+        "fractional_turn_unknown": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+        "boolean_actor_id_unknown": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+        "string_operation_unknown": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+        "fractional_operation_unknown": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'",
+        "after_error_does_not_change_native_return": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'"
+      },
+      "owner_cases": 21,
+      "owner_sha256": "3d7ea626d7c51ff22a43e5eb9b6e798ae85f6d6dfd07e5ad73a746d2a43fba35",
+      "raw_Native_executions": 0,
+      "scope": "Before Native install. Observer transparent software tested; scope UI CityManager.RequestCommand only, not actual purchase success."
+    },
+    "shared_commit": "2638d402dcc37ece1fe846f7477fb41858b4e6d6",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 537,
+    "complete_stop_valid_JSON": 501,
+    "length": 33,
+    "final_transport_failures": 3,
+    "http_attempts": 567,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Owner-modified observer installed119, read120/122, restored122; count/error/drop/sample0 only Executor city RequestCommand. Cold90 actual world and3ordinary advances, new Chengdu loyaltyFAIL preserved; no purchase positive.",
+  "generic_lessons": [
+    "Instrumentation must wrap the actual consumer: RequestOperation coverage cannot prove RequestCommand silence.",
+    "Observation after native return must be protected so diagnostic failure cannot alter successful return/exception semantics.",
+    "Read the previous readiness terminal before dependent turn actions; assert current world before all inputs, retain failed guards and do not replay.",
+    "A loaded world and ongoing production can coexist with a city stability FAIL; save it and repair rather than widen PASS.",
+    "Offline menu proof does not establish remote account idle; occupied user notice remains binding."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Product90 pin8c7daf unchanged. One context observer only, not global command audit or purchase positive. Existing ARMED/legacy/stability and full40 remain open. Steam online/upload0; Alpha2 remains82/12images. Through537 only;538539 subsequent reviews separate. Unknown costs/cachedtokens null."
+}
