@@ -4716,3 +4716,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 543 canonical1POST stop/DONE/JSON，5845+665=6510tokens/4.9634281秒，Nov8首500成功1.19.5维护缓存复用，OpenCode原生生成0。raw整体替换Lua51失败(extraend)，第一精确半径片段采用，分支owner修正，0rawNative。新6消费者92三反例/93六过，边境28过。先4新增正案夹具fail，局部修后全量37FAIL/1ERROR/1SKIP；统一Lua53float坐标索引夹具后1330run1329pass1SDKskip，104文件/82Lua51包一致。源码93尚未Native，不关闭原92长期130FAIL。累计543/507stopJSON/33length/3transport/573HTTPextra30，成本未知null；0Steam上线/上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source93site543.json)。
+
+
+## 2026-11-08：Civ6source93native101
+
+新增HTTP/软件case/OpenCode原生生成0；复用543审阅修正产品93冷装，当前Native101。99保存旧队列67/100完成新移民，pop11→10，不授93新训练选择；移民100/101原地2moves/goal0/queue nil，首都Builder23/41，两个同一可见己方格NONE→锯木厂、两builder各消耗1次，4原图内嵌。2armySKIP/3normalEND/2advance，99RomeBye一次；100首END停留后fresh pending读回再新END到101，无UserForced，首次原因未隔离。135samples/recruit128/city1/unitop6/unitcmd0/errors/drop0，撤下后Save101ACKtrue稳定未加载。7hint仅2当前可见，foreign4 vsown6/7；仅保守等待样本，不授安全新城或长期稳定。541警告器仍未知，零新模型。累计543/507stopJSON/33length/3transport/573HTTPextra30，未知成本null，Steam其他设备占用0上线/上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source93native101.json)。
