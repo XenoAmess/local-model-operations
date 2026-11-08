@@ -4779,3 +4779,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 0新HTTP/case，复用548前软件与10方法观察器资格；95同138档冷验到139，旧坏目标未建，移民保留2移动0建城、新目标1902、既有生产继续，窄通过。105安装byte-match，Steam后台fresh0.002574秒offline后启动，0online/upload；94自有正常退出0terminate。139观察器仍在，后继窗口另记。累计548分母不变，未知成本/cache null，完整长期与旧FAIL开放。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source95native139.json)。
+
+
+## 2026-11-09：Civ6alpha2risks549
+
+549真实风险补记候选，1HTTP stop/DONE/合法JSON，2905+292=3197tokens/2.298s。两稿仅117字符/68汉字且相同无格式，未达200到350要求；宗教未可用表述过宽，owner重写实际影响/版本边界/链接/BBCode，0原文段落采用。实际82固定blob核谓词false；GitHub仅说明更新、原正文/附件元数据保持，Steam仅待同步文件，0online/upload。累计549logical512stop34length3transport579HTTPextra30/OpenCode新原生0，Nov9维护缓存/未知成本null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-alpha2risks549.json)。
