@@ -4828,3 +4828,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 0新HTTP/软件方法，累计555保持；复用97软件1375pass1SDKskip与既有只读/观察器资格。Native153→173实际20回合含154正式重载，长沙4→7、160全城食粮行无饥饿倒计时、168忠诚行100正变化；29普通END92armySKIP，0UserForced/手补内政。4629观察条=4453recruit35city139op2cmd，0错0丢，3305前原子轮换，全撤；CityRequestCommand未包故食粮命令次数未知。17建筑7区域完成含旧放置、8处新改良，新移民仍在途，广州末样本净粮0。5原图9CSV/173save1666670B未load；旧FAIL/宗教/兼容/性能/完整40未闭，Steam外机占用0上线上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source97long173.json)。
+
+
+## 2026-11-09：Civ6found556longxi176
+
+556完整stop/DONE/JSON/1HTTP/3545tokens/4.160131s，raw!=Lua51失败；syntax-only12中2FAIL2ERROR，整稿拒0rawNative。owner12新工具方法＋finance10、sensor5后174安装，175一次实际FOUND前UNKNOWN/nil/no_warning_entry；同4063259自然建陇西589832，176粮仓3/32/L100+17，演员消耗/目标0/rawIntentOBSERVED另核。先撤外层175后W4于176，659条0错丢；176save1689624B未load。工具不入mod，产品97未改；5旧原图/doc固定6bb13fb公开GET200/hash一致，Steam0上线或上传，旧恢复/宗教/40仍open。累计556/518stop/35length/3transport/586HTTP/30extra/OpenCode新0，未知null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-found556longxi176.json)。
