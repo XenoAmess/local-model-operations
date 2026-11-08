@@ -4856,3 +4856,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 复用557分析，0新HTTP；97读取旧ARMED158一次，旧token/request保留，CANCEL两种资格boolean false但缺active/strategic同步样本，0取消/清记录/重放/END158。只授升级状态读取保留，历史恢复FAIL保持。已正式返回独立保存的176主9城，food非负/饥荒-1/忠诚100且正增长。新增原始实机图入项目；Steam其他设备使用，0模式切换/联网登录下载上传初始化上传。此记录停在557累计，558另账。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-oldarmed97-native158.json)。
+
+
+## 2026-11-09：Civ6dispatch98-software
+
+558–560三次真实HTTP均stop/DONE/JSON、峰值1；558只采源码停滞诊断，旧ARMED满行动力重发等拒，559仅路径缺测试源码拒，560错误同token条件将放行赋值拒。owner完成98同回合freshACK内存closure，旧ARMED/读档/跨回合不重发，false/void/throw保留未决；加载ACK/枚举/待命三个反例驱动修正。23新回归旧97十四失败、新全过；完整1412/1411pass/1SDKenvskip、85Lua51/107byteequal。两轮完整工具错误19/1均修复，未算通过。累计560/522stop/35length/3transport/590HTTP/30extra，OpenCode原生新0、未知成本null。98未Native、公开Alpha2仍82，Steam外机占用禁止上线和上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-dispatch98-software.json)。

@@ -1,0 +1,114 @@
+{
+  "schema": "local-model-operations.civ6-dispatch98-software/v1",
+  "utc": "2026-11-08T23:17:48.564545+00:00",
+  "date_local": "2026-11-09",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/9f474f8bd1c118f9c4430f92d55b99ec9fd66413/docs/research/baiqi-p6-dispatch558-560-live-unissued98-evidence-2026-11-09.json",
+    "sha256": "486908f647b2a282437cb6087d755e4d6403c160a4cae5c44eee759effb505d5"
+  },
+  "model": [
+    {
+      "task": 558,
+      "started_at_utc": "2026-11-08T22:54:38.997940+00:00",
+      "seconds": 12.523250699974597,
+      "HTTP_attempts": 1,
+      "extra_attempts": 0,
+      "usage": {
+        "prompt_tokens": 22556,
+        "completion_tokens": 1338,
+        "total_tokens": 23894
+      },
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "outer_JSON": "VALID",
+      "raw_result_sha256": "2f20887544f1baf29629bc53aa3e4ff405e54504c27c62693acf5d91cc675240",
+      "adoption": "DIAGNOSIS_ONLY_RAW_RECOVERY_PROPOSAL_REJECTED",
+      "owner_review": [
+        "Fresh postCommit prewriter early returns can strand unsent intent: source diagnosis adopted.",
+        "Reject restored ARM also granting based on full moves/position, clearing unknown records, writer-success retry semantics and incomplete direct retry guards."
+      ],
+      "raw_candidate_Native": 0,
+      "daily_maintenance": "Nov9 canonical same-machine/user successful cache installed/latest1.19.5 updatedfalse",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 559,
+      "started_at_utc": "2026-11-08T23:00:10.090627+00:00",
+      "seconds": 4.044858900015242,
+      "HTTP_attempts": 1,
+      "extra_attempts": 0,
+      "usage": {
+        "prompt_tokens": 19383,
+        "completion_tokens": 192,
+        "total_tokens": 19575
+      },
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "outer_JSON": "VALID",
+      "raw_result_sha256": "d5bf1c658aabbd8f389b55962d506eaf94c9cfc99bf0d32f54851618c6628f75",
+      "adoption": "REJECTED_NO_EXECUTABLE_TEST_SOURCE",
+      "owner_review": [
+        "Returned only a test filepath and requested-case names; no promised test source. Owner authored actual black-box composition fixtures."
+      ],
+      "raw_candidate_Native": 0,
+      "daily_maintenance": "Nov9 canonical same-machine/user successful cache installed/latest1.19.5 updatedfalse",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 560,
+      "started_at_utc": "2026-11-08T23:12:44.390381+00:00",
+      "seconds": 2.792358500068076,
+      "HTTP_attempts": 1,
+      "extra_attempts": 0,
+      "usage": {
+        "prompt_tokens": 3866,
+        "completion_tokens": 320,
+        "total_tokens": 4186
+      },
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "outer_JSON": "VALID",
+      "raw_result_sha256": "3e35916a366ae5f064bc42149c24e105df0dcfea2fbe0ebe9e47e499c4b694e8",
+      "adoption": "REJECTED_WRONG_TOKEN_INDEX_OWNER_REPAIR",
+      "owner_review": [
+        "Proposed ts[i+3].value != equals while after is ts[i+3].value: condition is contradictory and permits real assignment.",
+        "Owner instead reads adjacent i+4 token and end/start positions; identity/equality new regression plus existing assignment/declaration rejection all pass."
+      ],
+      "raw_candidate_Native": 0,
+      "daily_maintenance": "Nov9 canonical same-machine/user successful cache installed/latest1.19.5 updatedfalse",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 560,
+    "complete_stop_valid_outer_JSON": 522,
+    "length_discarded": 35,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 590,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_HTTP_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "No98Native yet. Real97 main176 saved1689325B/hashverified before own official exit. Source98 software1412run/1411pass/1SDKenvskip,107byteequal/85Lua51; old97 23newcases14fail/98allpass. Other-deviceSteambusy,0online/modeswitch/uploader.",
+  "generic_lessons": [
+    "Fresh unsent live permission must come from that exact Commit ACK; savedARMED/fullmoves/sameposition never reconstruct it.",
+    "Invalidate across load event captured before ACK, turn change and native bindings/enum; consume before writer even for false/void/throw.",
+    "Inspect every consumer: passive reconciliation and standby timeout can otherwise consume or bypass an unsent grant.",
+    "A candidate giving only a test filepath has not supplied executable test code.",
+    "For one-character lexer punctuation, compare the next adjacent token to distinguish == from =; testing the same token twice is a contradictory rejection guard."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "HTTP syntax completion, source diagnosis, owner product/software and Native effects are distinct. No98coldNative or interrupted-save recovery PASS claimed. Raw candidates0Native, no schema/Core change. Product98 source/software only; publicAlpha2 still82."
+}
