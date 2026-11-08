@@ -4751,3 +4751,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 本轮新HTTP/case/OpenCode原生0，复用545owner修正产品94。新120移民队列0/115到123自然训练/pop12→11，新2686992保持雨林2047目标，128抵达、129建立太原、130黑暗时代粮仓3/32及忠诚100+17；广州粮仓和纪念碑完工、人口2、100+18。68队列68状态4原图。125→130观察1064样本0错丢已撤，4MOVE1FOUND；120→125间隙不补连续覆盖。130SaveACKtrue稳定未加载。30玩家armySKIP/13普通END/10advance，部分结束停留原因未隔离；原版envoy保12，特殊议程Start直接Waiting无投票，结果援助14票。截图过期/外装饰不等拒绝0click后实际文字+完整按钮精确fresh比对才单次Bye，成本归owner。累计545/508JSON/34length/3transport/575HTTPextra30，未知成本null。Steam他机占用0上线上传，旧92/恢复/宗教/兼容/性能/full40继续开放。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source94native130.json)。
+
+
+## 2026-11-08：Civ6source94reload130
+
+546真实宗教诊断一次HTTP，stop/DONE/合法JSON，9475+877=10352tokens/7.478s；跑向考古且漏读已供圣地消费者，整拒0采用，owner接管。累计546logical/509stopJSON/34length/3transport/576HTTPextra30/OpenCode新原生0。Nov8请求复用当日维护成功缓存；Nov9只是记录与业务继续，未发生新HTTP，未知人工成本/cache null。完成态读档窄通过，旧恢复FAIL保留；Steam他机占用禁上线未解除。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source94reload130.json)。
