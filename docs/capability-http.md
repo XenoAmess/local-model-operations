@@ -4835,3 +4835,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 556完整stop/DONE/JSON/1HTTP/3545tokens/4.160131s，raw!=Lua51失败；syntax-only12中2FAIL2ERROR，整稿拒0rawNative。owner12新工具方法＋finance10、sensor5后174安装，175一次实际FOUND前UNKNOWN/nil/no_warning_entry；同4063259自然建陇西589832，176粮仓3/32/L100+17，演员消耗/目标0/rawIntentOBSERVED另核。先撤外层175后W4于176，659条0错丢；176save1689624B未load。工具不入mod，产品97未改；5旧原图/doc固定6bb13fb公开GET200/hash一致，Steam0上线或上传，旧恢复/宗教/40仍open。累计556/518stop/35length/3transport/586HTTP/30extra/OpenCode新0，未知null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-found556longxi176.json)。
+
+
+## 2026-11-09：Civ6source97reload176
+
+0新HTTP/软件，556累计保持；同97正式载176 ACKtrue/Continue1，actual176active。WORLD1/CITY9/BUILDING56/DISTRICT33/PLOT139等、9城food/focus全等，陇西1pop粮仓3/32L100+17/rawOBSERVED条目/goal0保持。UNIT30中两builder继续移动明确列差，bootstrap请求数未知。preflight双分号Lua51先拒0动作后修；临时hung截图拒/LSQtimeout0CMD，原Continue新鲜比图后一次输入，同11316birth/126context重证。交付README重复路径守卫先拒gitadd前，显式证据路径补交付不重生资产。旧未决/安全/宗教/完整40未闭，Steam0上线或上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source97reload176.json)。
