@@ -4688,3 +4688,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 541普通HTTP1POST、stop/DONE/合法外层JSON，7160+2943=10103tokens，cached=null；Nov8首500成功1.19.5每日维护缓存复用，0OpenCode原生生成。raw能编译但实际API夹具9反例失败，整稿拒绝、0rawNative；owner独立只读34Lua51场景通过，125实际三个UNKNOWN，不授known-negative正案或产品集成。92产品未改，104文件冷装；125→128三个正常回合移民等待并保持提案，其他生产推进，正式128存读档保持采样世界。成都仍production0，91长期130FAIL与完整验收开放。累计541logical/505stopJSON/33length/3transport/571HTTPextra30，成本未知null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source92native541.json)。
+
+
+## 2026-11-08：Civ6source92fail130
+
+本包新增HTTP0／OpenCode原生生成0，复用541负责人独立34例只读资格，130三个UNKNOWN；累计仍541/505stopJSON/33length/3transport/571HTTPextra30。92原地等待有效但129→130成都忠诚19.0625→4.0625、rate+1.09375→−15、产能0，仍7城且原移民存活并保留目标，长期FAIL。130检查exit1后无后续END，仅只读、正式保存和原版城市页；失败档稳定未加载，原图内嵌。不能将第8城或时代猜作已证原因；新原生窗口无观察器，不授订单0。其他设备占用，Steam0上线／上传。未知人工成本与缓存null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source92fail130.json)。
