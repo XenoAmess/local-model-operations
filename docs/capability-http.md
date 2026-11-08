@@ -4723,3 +4723,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 新增HTTP/软件case/OpenCode原生生成0；复用543审阅修正产品93冷装，当前Native101。99保存旧队列67/100完成新移民，pop11→10，不授93新训练选择；移民100/101原地2moves/goal0/queue nil，首都Builder23/41，两个同一可见己方格NONE→锯木厂、两builder各消耗1次，4原图内嵌。2armySKIP/3normalEND/2advance，99RomeBye一次；100首END停留后fresh pending读回再新END到101，无UserForced，首次原因未隔离。135samples/recruit128/city1/unitop6/unitcmd0/errors/drop0，撤下后Save101ACKtrue稳定未加载。7hint仅2当前可见，foreign4 vsown6/7；仅保守等待样本，不授安全新城或长期稳定。541警告器仍未知，零新模型。累计543/507stopJSON/33length/3transport/573HTTPextra30，未知成本null，Steam其他设备占用0上线/上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source93native101.json)。
+
+
+## 2026-11-08：Civ6source93native109
+
+544普通HTTP1份length，正文未读／未候选解析／整弃／0采用，4025+3072tokens，17.4027197秒，owner独立适配既有TEST_PLAYER军队工具，复用27场景不新增case。93正常102→109五城40队列40状态；新长矛兵106出生并等待，108玩家普通移动坐标与2→1行动力核实，2原图内嵌。斥候6次普通玩家侦察不算后台命令。观察器102安装109撤下1061样本无错误，移民7待命无观察到扩张；101撤钩至102间隙不回填。源码误排除全部地貌已查明，真实Features.Settlement而非NoCity，修复另包。109存档ACKtrue稳定未加载。冻结544累计544/507完整JSON/34length/3transport/574HTTPextra30；0OpenCode原生，未知成本null。Steam其他设备占用0上线上传，完整40未闭。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source93native109.json)。
