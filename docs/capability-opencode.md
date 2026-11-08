@@ -863,3 +863,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-08：Civ6age542compare
 
 0新OpenCode原生生成；canonical CLI普通HTTP前复用同机同用户Nov7调用498/499前成功缓存；Nov8首次500新鲜1.19.5每日检查且无更新。候选审阅／owner诊断／Native结果分账；不把编译或维护成功授予产品验收。未知缓存tokens／人工节时保持null。[固定业务pin](evidence/2026-11-08-civ6-age542compare.json)。
+
+
+### 2026-11-08：Civ6source93site543
+
+0新OpenCode原生生成；canonical CLI普通HTTP前复用同机同用户Nov7调用498/499前成功缓存；Nov8首次500新鲜1.19.5每日检查且无更新。候选审阅／owner诊断／Native结果分账；不把编译或维护成功授予产品验收。未知缓存tokens／人工节时保持null。[固定业务pin](evidence/2026-11-08-civ6-source93site543.json)。

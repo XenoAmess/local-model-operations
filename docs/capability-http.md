@@ -4709,3 +4709,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 本包0新HTTP/软件case/OpenCode原生生成，复用542 owner20资格实际比较128与130：英雄时代/era3/41分/倒计时1→黑暗/era4/42分/倒计时−1，成都+1.09375→−15。当前active128，原失败档保留；不能授唯一根因或精确切换回合。加载有hung捕图拒绝/LSQtimeout0CMD；旧Continue区域比对失败在intent前，重新查看新参考后一次正式Continue完成，无Load重发或END130。累计冻结542/506stopJSON/33length/3transport/572HTTPextra30，后续543另计，未知成本null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-age542compare.json)。
+
+
+## 2026-11-08：Civ6source93site543
+
+543 canonical1POST stop/DONE/JSON，5845+665=6510tokens/4.9634281秒，Nov8首500成功1.19.5维护缓存复用，OpenCode原生生成0。raw整体替换Lua51失败(extraend)，第一精确半径片段采用，分支owner修正，0rawNative。新6消费者92三反例/93六过，边境28过。先4新增正案夹具fail，局部修后全量37FAIL/1ERROR/1SKIP；统一Lua53float坐标索引夹具后1330run1329pass1SDKskip，104文件/82Lua51包一致。源码93尚未Native，不关闭原92长期130FAIL。累计543/507stopJSON/33length/3transport/573HTTPextra30，成本未知null；0Steam上线/上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source93site543.json)。
