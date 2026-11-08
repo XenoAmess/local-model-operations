@@ -4588,3 +4588,10 @@ ABBA54.786904s/首生产至末close1024.723985s含失败纠正等待，独立1Gi
 524—526真实3任务均完整stop/SSE/JSON、3HTTP0额外重试；原稿全拒0Native：524source是路径／当前Map当旧before，52519边界11失败，526goto实际Lua51编译失败／漏self与外层pcall。owner公开QA3模块19队列+26区域+20资源，4方法65逻辑边界全过；产品87不变、旧1222pass1SDKskip未重跑。实际99→11920回合22normalEND/28玩家待命/16外交议会click/0UserForced或内政，5→7城6建筑4特色区19新增改良。108Minebefore→109PLACED→119COMPLETE独立Map+同城成员，Farm子类型不授。3195observer逐序一次0errdrop/唯一大商人cmd，21prophet快照0新事件；TC037缺逐回合战略库存仍部分，119新增7资源只作未来基线。119正式saveACKtrue稳定未load；旧QAscroll错误context清理已在真实popup纠正。累计526490stop33length3transportHTTP556extra30/OpenCode原生新0，Nov8同机用户维护缓存，未知缓存成本节时null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source87-fivecity526.json)。
+
+
+## 2026-11-08：Civ6source87-fivecity527
+
+527真实1分析候选完整stop/SSE/JSON、1HTTP0额外重试，whole拒0compile/Native/新软件测试：杜撰UNIT_JUDGE/ELDER、普通信仰买先知、指挥白名单当采购范围、错ProphetHeld引用。owner给错生产消费者段落而漏真正2785—2869及Military2541，完整其他招募路径也未给；报告后静态发现已有Admin264 RECRUIT_GREAT_PERSON消费者，不可断言无先知取得逻辑。业务独立正式Load99/Continue各1，UI五城九单位保持（Core多一延迟死亡builder），重新20实际回合22END28玩家待命16外交议会click、0内政/UserForced；7战略资源21份147行、122队列行、6建筑4特色区19改良5→7城，TC037仅此GSNoBarb夹具PASS。3193观察恰读一次0errdrop，21prophet快照0新事件，全部撤钩，119保存未load。114actual115busy只读续查不多END；119资源preassert具体条件未知，后同回合只读补采。累计527491stop33length3transportHTTP557extra30/OpenCode原生新0/null未知，Nov8维护缓存。用户新增外机占用后0Steam模式/登录/下载/上传初始化/上传，旧空闲确认失效。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source87-fivecity527.json)。
