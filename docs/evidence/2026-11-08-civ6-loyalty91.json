@@ -1,0 +1,105 @@
+{
+  "schema": "local-model-operations.civ6-loyalty91/v1",
+  "utc": "2026-11-08T07:17:49.332773+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/0606997a3d1ddd4c8df5b472d9176d972e548e37/docs/research/baiqi-p6-governor-loyalty91-model538539-evidence-2026-11-08.json",
+    "sha256": "dffa813f24dc31a2c1ef9207f24661292d27364f9bb86ad125f7441e44ea2d25"
+  },
+  "model": [
+    {
+      "task": 538,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 46476,
+        "completion_tokens": 2326,
+        "total_tokens": 48802
+      },
+      "ttft_ms": 10534.063400002196,
+      "total_ms": 27918.338799965568,
+      "review": {
+        "whole_raw_adopted": false,
+        "raw_Lua51_compile": true,
+        "raw_failures_against_owner_extended_cases": {
+          "higher_safe_remainder_before_type": "[string \"<python>\"]:6: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[string \"<python>\"]:6: in function 'ExpectPlan'\n\t[C]: in function 'assert'",
+          "full_governor_effect_removal_not_base": "[string \"<python>\"]:5: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[string \"<python>\"]:5: in function 'ExpectNil'\n\t[C]: in function 'assert'",
+          "array_extra_key_rejected": "[string \"<python>\"]:5: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[string \"<python>\"]:5: in function 'ExpectNil'\n\t[C]: in function 'assert'",
+          "array_hole_rejected": "[string \"<python>\"]:5: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[string \"<python>\"]:5: in function 'ExpectNil'\n\t[C]: in function 'assert'",
+          "scalar_row_safe_nil": "[string \"<python>\"]:36: attempt to index local 'item' (a boolean value)\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[string \"<python>\"]:5: in function 'ExpectNil'\n\t[string \"<python>\"]:52: in function 'Plan'\n\t[string \"<python>\"]:36: in function 'BuildIndex'",
+          "scalar_array_safe_nil": "[string \"<python>\"]:50: attempt to get length of local 'cities' (a boolean value)\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[string \"<python>\"]:5: in function 'ExpectNil'\n\t[string \"<python>\"]:50: in function 'Plan'",
+          "nonexistent_permission_ref_rejected": "[string \"<python>\"]:5: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[string \"<python>\"]:5: in function 'ExpectNil'\n\t[C]: in function 'assert'",
+          "userdata_like_metatable_not_executed": "[string \"<python>\"]:1: do not execute\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[string \"<python>\"]:5: in function 'ExpectNil'\n\t[string \"<python>\"]:52: in function 'Plan'\n\t[string \"<python>\"]:36: in function 'BuildIndex'\n\t[string \"<python>\"]:1: in function <[string \"<python>\"]:1>\n\t[C]: in function 'error'",
+          "unassigned_large_index_not_lost_to_magic_score": "[string \"<python>\"]:6: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[string \"<python>\"]:6: in function 'ExpectPlan'\n\t[C]: in function 'assert'"
+        },
+        "raw_original_contract_failures": "Malformed scalar rows/arrays throw; array extra keys accepted; donor choice ignores safe remainder; magic1000000 score rejects legal large index. RemovalPressure is owner extension after primary API discovery.",
+        "owner_implementation": "Independently hardened pure planner, real GetIdentityPressure and GetIdentitySourcesBreakdown Governors removal, not static8. Tests shared with actual stateful Admin consumer.",
+        "owner_cases": 33,
+        "raw_Native_executions": 0,
+        "owner_Native_executions_before_delivery": 0,
+        "source_sha256": "274e1c944acc2f102e9c83f2613343bde7542b43bc73dd74af1b068531ed4d17"
+      },
+      "shared_commit": "2638d402dcc37ece1fe846f7477fb41858b4e6d6",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 539,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 55275,
+        "completion_tokens": 1074,
+        "total_tokens": 56349
+      },
+      "ttft_ms": 13422.255499986932,
+      "total_ms": 21214.535500039347,
+      "review": {
+        "whole_raw_adopted": false,
+        "source_empty": true,
+        "usable_caution": "Missing GetContinentPlotsLoyalty key does not establish zero or safe.",
+        "rejection": "Claims only negative warnings without proving engine table semantics; mostly repeats supplied fixture/contracts and existing tests, no new implementable screen.",
+        "raw_Native_executions": 0,
+        "owner_next_scope": "Governor remedy91 only; expansion forecast and risk screen remain open."
+      },
+      "shared_commit": "2638d402dcc37ece1fe846f7477fb41858b4e6d6",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 539,
+    "complete_stop_valid_JSON": 503,
+    "length": 33,
+    "final_transport_failures": 3,
+    "http_attempts": 569,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Read-only original governor pressure APIs under90; no91Native. Ordinary exit90 left qualified own residue, retired only after savedhash/180s/0windows/listeners/CPU; noSteam operations.",
+  "generic_lessons": [
+    "Use the original consumer calculation: actual governor identity pressure and full Governors removal rather than metadata base contribution.",
+    "A valid JSON/compiling planner can still ignore array shape, reference consistency and ranking contracts; adversarial cases must precede adoption.",
+    "Magnitude subtraction scores can exclude valid large IDs; use direct deterministic comparisons.",
+    "Keep local pending native request independent from ACK truth and retain uncertainty across turns; explicitly disclose lack of cross-save persistence.",
+    "After product version bump, update exact private benchmark supported versions while retaining unknown-version and lexical-anchor rejection."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Source91 software only, not installed/cold Native at evidence cut. In-session governor pending is not durable save recovery. Expansion risk remains. Steam occupied;0online/upload;Alpha2still82/12images. Through539503complete outer JSON does not mean503 usable candidates. Unknown costs/cachedtokens null."
+}
