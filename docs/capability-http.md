@@ -4800,3 +4800,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 552真实未决人口诊断，1HTTP stop/DONE/外JSONVALID，1365+363=1728tokens2.866s。原Lua51编译但漏显式pcall、nil检查冒称隐式pcall、未供Gameglobal，代码整拒0Native；owner固定pid0/有界5turn按原UIvisibility，4资格后Native历史152..154filtered/155飓风PopLost0/156none，不推出人口根因。96同95FAIL152冷读自动gov0调任实际−2.6875到+5.3125/供城+18，四普通turn后八城L100正、秀容pop2，40queue40vitals三图、667观察撤钩/156saveACK稳定。启动前freshbackgroundoffline0.003335s，旧自有残留273s惰性后terminate1，Steam0动作。累计552logical514stop35length3transport582HTTPextra30/OpenCode新0，Nov9缓存维护/null未知，旧FAIL/full40开放。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source96native156.json)。
+
+
+## 2026-11-09：Civ6source97food553554
+
+553/554两个真实独立任务均1HTTP stop/DONE/外JSONVALID，实际峰2重叠4.631673s；5532573+477=3050tokens4.633s，六处!=使Lua51原稿编译FAIL，owner语法改~=后保留Plan。5542651+846=3497tokens6.802s，原fixture localMnil/helperlocal违背注入/分块协议18fail，owner改作用域保留18正文+加4，Runner/Admin/回归owner写，原稿0Native。97新16方法旧96八FAIL0ERROR/新全过，完整1375pass1SDKskip/85Lua51/107文件，未Native97。另96独立152到154实际复现长沙增长后surplus−1/starve1，再普通掉4到3；153saveACK稳定与两图/13己方地块/许可true但0手动Focus明确。累计554logical516stop35length3transport584HTTPextra30/OpenCode新0，Nov9缓存维护/null未知。Steam占用0模式上线上传；完整40旧FAIL开放。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source97food553554.json)。
