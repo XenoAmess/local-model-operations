@@ -4625,3 +4625,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 527真实1分析候选完整stop/SSE/JSON、1HTTP0额外重试，whole拒0compile/Native/新软件测试：杜撰UNIT_JUDGE/ELDER、普通信仰买先知、指挥白名单当采购范围、错ProphetHeld引用。owner给错生产消费者段落而漏真正2785—2869及Military2541，完整其他招募路径也未给；报告后静态发现已有Admin264 RECRUIT_GREAT_PERSON消费者，不可断言无先知取得逻辑。业务独立正式Load99/Continue各1，UI五城九单位保持（Core多一延迟死亡builder），重新20实际回合22END28玩家待命16外交议会click、0内政/UserForced；7战略资源21份147行、122队列行、6建筑4特色区19改良5→7城，TC037仅此GSNoBarb夹具PASS。3193观察恰读一次0errdrop，21prophet快照0新事件，全部撤钩，119保存未load。114actual115busy只读续查不多END；119资源preassert具体条件未知，后同回合只读补采。累计527491stop33length3transportHTTP557extra30/OpenCode原生新0/null未知，Nov8维护缓存。用户新增外机占用后0Steam模式/登录/下载/上传初始化/上传，旧空闲确认失效。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source87-fivecity527.json)。
+
+
+## 2026-11-08：Civ6source88-missionary529
+
+528529真实2任务并行POST区间重叠峰值2，均完整stop/SSE/JSON、2HTTP0extra。528原9methods38subtests3方法失败（DTO15只返11、同轮2次GetReligion、可拼两组件faith和created），owner补4签名字段并复用组件后全过，修改采用。529pureJournal8methods29subs全过，原稿完整采用，均0Native。源88两组件及imports/manifest登记，尚无需求/Core许可/writer/实际存档键；24定向17新+7manifest过、76Lua51、98包byteMatch，未安装，运行/安装仍87且96hash保持，旧全套未重跑。owner缩进子串锚点计数／合并测试root导入路径已修，原失败保留。累计529493stop33length3transportHTTP559extra30/OpenCode新增原生0/null未知，Nov8缓存维护成功不授代码能力。Steam外机占用后0模式登录下载上传初始化上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source88-missionary529.json)。

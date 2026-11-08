@@ -1,0 +1,143 @@
+{
+  "schema": "local-model-operations.civ6-source88-missionary529/v1",
+  "utc": "2026-11-08T04:21:27.223829+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/5af6f7ba33f0b50bf3fad20b22b30e7c35b0a8ad/docs/research/baiqi-p6-missionary-components88-model528529-evidence-2026-11-08.json",
+    "sha256": "6a7d54b203c7fe56da43c4ffacac2aade963356ee74f6ce798166267c92786ff"
+  },
+  "model": [
+    {
+      "task": 528,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "complete": true,
+      "usage": {
+        "prompt_tokens": 6355,
+        "completion_tokens": 1506,
+        "total_tokens": 7861
+      },
+      "ttft_ms": 1727.844399982132,
+      "total_ms": 12933.383599971421,
+      "review": {
+        "whole_raw_adopted": false,
+        "adoption": "MODIFIED_SCALAR_SIGNATURE_AND_ONE_RELIGION_COMPONENT_PER_ROUND",
+        "raw_Lua51_compile": true,
+        "raw_checks": {
+          "methods": 9,
+          "subtests": 38,
+          "failures": 3,
+          "errors": 0,
+          "failed_ids": [
+            "test_baiqi_missionary_purchase.MissionaryQuoteTests.test_exact_scalar_quote_includes_native_signature",
+            "test_baiqi_missionary_purchase.MissionaryQuoteTests.test_same_religion_component_once_each_round",
+            "test_baiqi_missionary_purchase.MissionaryQuoteTests.test_two_components_cannot_synthesize_faith_and_identity"
+          ],
+          "source_sha256": "b8d172aed4e7e12a1de870e5c171f3132d8318f0efee8ba2cfc785264552613a"
+        },
+        "owner_checks": {
+          "methods": 9,
+          "subtests": 38,
+          "failures": 0,
+          "errors": 0,
+          "failed_ids": [],
+          "source_sha256": "8515d1733d8f59d6f153bf93aed6a0a8ba8bd3aec51f53d1399ad39cf1d54237"
+        },
+        "raw_native_executions": 0,
+        "owner_native_executions": 0,
+        "corrections": [
+          "Return scalar operation/parameter keys required by actual future writer; raw only returned11 of15 fields.",
+          "Reuse the same religion component within one read; raw called player:GetReligion twice and can mix faith from one object with created religion from another."
+        ]
+      },
+      "shared_commit": "79c39d1fd6d162d56fe1abb939a38f8cd2c8c25e",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 529,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "complete": true,
+      "usage": {
+        "prompt_tokens": 4841,
+        "completion_tokens": 1914,
+        "total_tokens": 6755
+      },
+      "ttft_ms": 1429.1753000579774,
+      "total_ms": 14908.585399971344,
+      "review": {
+        "whole_raw_adopted": true,
+        "adoption": "WHOLE_PURE_MISSIONARY_PURCHASE_JOURNAL_AFTER_BOUNDARY_TESTS",
+        "raw_Lua51_compile": true,
+        "checks": {
+          "methods": 8,
+          "subtests": 29,
+          "failures": 0,
+          "errors": 0,
+          "failed_ids": [],
+          "source_sha256": "01d77584dad638034240cfe32bab1cb05f705ad236a79d2cc9f1f6afaeeb7be2"
+        },
+        "raw_native_executions": 0,
+        "owner_native_executions": 0,
+        "source_edits": "Only normalized LF/one terminal newline; no semantic edits."
+      },
+      "shared_commit": "79c39d1fd6d162d56fe1abb939a38f8cd2c8c25e",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 529,
+    "complete_stop_valid": 493,
+    "length": 33,
+    "final_transport_failures": 3,
+    "http_attempts": 559,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "source": 88,
+    "installed_and_native": 87,
+    "new_components": 2,
+    "new_methods": 17,
+    "new_subtests": 67,
+    "targeted_methods": 24,
+    "all_Lua51": 76,
+    "package_files": 98,
+    "byte_match": true,
+    "installed87_all96_unchanged": true,
+    "Native88": false,
+    "actual_client_peak": 2,
+    "Steam_occupied": true,
+    "Steam_operations": 0
+  },
+  "generic_lessons": [
+    "A correct read-only quote must return the scalar command signature required by its consumer; validating fields internally is not enough if the DTO omits them.",
+    "Read faith and created religion from one component per snapshot round. Two GetReligion calls can synthesize a valid-looking quote from inconsistent objects.",
+    "A pure journal needs semantic counterexamples: holes, metatables, old type/token, multipleARMED, exact debit, new ID absent from baseline, deep copy and symmetric equality.",
+    "Whole raw529 adopted only after8methods29subtests, while528 raw3failures required a narrow owner patch; do not flatten both into raw adoption.",
+    "Two actual overlapping clients are a real measured peak; do not inflate it to the configured12..16 initial target or infer server concurrency/cache.",
+    "Registering quote and journal libraries is a component milestone, not a procurement writer, persisted game record or Native purchase result.",
+    "Keep source88/installed87/live87 separate; a new package is not an install. Validate installed hashes without overwriting a running game.",
+    "Exact whole-line anchors avoid overlapping4/6-space substring matches. Test launchers need actual repository root as well as tests/tools imports."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Source88 pure quote/journal components only. No procurement demand, Core permission bridge, writer, real persistence or Native88 result yet; installed/live87 unchanged. Actual client peak2 for two independent tasks, not target12..16.0Steam operations while other device occupied; raw529 whole adopted after isolated tests,528 modified, unknown savings/cache/cost null."
+}
