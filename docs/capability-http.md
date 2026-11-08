@@ -4744,3 +4744,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 新增HTTP/软件case/OpenCode原生0，复用owner修正94（545两精确条件替换，非原helper）。离线cold109原移民接受雨林2047并移动，112目标变更原因未截获；113到118持有新2427@59,32，119广州建立，120粮仓4/32/忠诚100+17，正式Save/Load报告范围逐字段保持、UI/Core原属性OBSERVED。最终地块无地貌，不能授雨林建城或长期稳定。62队列62vitals/4原图内嵌，1866观察样本0错误丢弃已撤；13settlerMOVE2SKIP1FOUND，1大商人激活命令完整收益未隔离，无观察范围内军令。31玩家armySKIP/12普通END输入/11advance；110议会实际Prophetban/Theaterboost不是玩家所投Scientist/Harbor，114原版envoyview/close保8后新END，NPC正常外交分账，无UserForced/手补内政。软件1339/1338+1SDK沿用、模型累计545/508JSON/34length/3transport/575HTTPextra30。Steam占用继续0上线上传，full40/长期/旧恢复FAIL保持。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source94native120.json)。
+
+
+## 2026-11-08：Civ6source94native130
+
+本轮新HTTP/case/OpenCode原生0，复用545owner修正产品94。新120移民队列0/115到123自然训练/pop12→11，新2686992保持雨林2047目标，128抵达、129建立太原、130黑暗时代粮仓3/32及忠诚100+17；广州粮仓和纪念碑完工、人口2、100+18。68队列68状态4原图。125→130观察1064样本0错丢已撤，4MOVE1FOUND；120→125间隙不补连续覆盖。130SaveACKtrue稳定未加载。30玩家armySKIP/13普通END/10advance，部分结束停留原因未隔离；原版envoy保12，特殊议程Start直接Waiting无投票，结果援助14票。截图过期/外装饰不等拒绝0click后实际文字+完整按钮精确fresh比对才单次Bye，成本归owner。累计545/508JSON/34length/3transport/575HTTPextra30，未知成本null。Steam他机占用0上线上传，旧92/恢复/宗教/兼容/性能/full40继续开放。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source94native130.json)。
