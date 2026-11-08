@@ -4681,3 +4681,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 540已有候选修后接入92同一Policy函数，无新HTTP/累计仍540。15新方法29纯场景+14Controller；最终55定向和1322全量通过，104包82Lua51一致，未Native92。91到130再失稳，保存失败点并公开负责人错误：FAIL后误发2SKIP+1END，议会挡在130，非保护成功。后续动作检查exit_code/语义，不再END130。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-stability92.json)。
+
+
+## 2026-11-08：Civ6source92native541
+
+541普通HTTP1POST、stop/DONE/合法外层JSON，7160+2943=10103tokens，cached=null；Nov8首500成功1.19.5每日维护缓存复用，0OpenCode原生生成。raw能编译但实际API夹具9反例失败，整稿拒绝、0rawNative；owner独立只读34Lua51场景通过，125实际三个UNKNOWN，不授known-negative正案或产品集成。92产品未改，104文件冷装；125→128三个正常回合移民等待并保持提案，其他生产推进，正式128存读档保持采样世界。成都仍production0，91长期130FAIL与完整验收开放。累计541logical/505stopJSON/33length/3transport/571HTTPextra30，成本未知null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source92native541.json)。
