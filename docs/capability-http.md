@@ -4667,3 +4667,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 538/539两个真实任务并行完整stopJSON；538编译通过但owner33扩展场景9失败，整稿未采用；539无新实现且未证实negative-only断言拒绝。owner91新增17方法、全1307run/1306pass/1SDK环境skip；104包/82Lua51一致。90原版API只读核验不冒充91效果。危城/选址/旧恢复FAIL保持。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-loyalty91.json)。
+
+
+## 2026-11-08：Civ6loyalty91-native540
+
+540一次完整stopJSON，原稿5失败，owner修后29纯场景通过但未集成或进游戏。91实际自动派总督并3回合忠诚8.83→13.28；产能仍0，不能关闭完整稳定性FAIL。3图/21行CSV/两新备份ACK与hash及诊断修正均业务公开pin，累计540/504有效外层JSON/570HTTP，OpenCode-native0。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-loyalty91-native540.json)。

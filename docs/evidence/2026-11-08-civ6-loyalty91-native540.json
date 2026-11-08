@@ -1,0 +1,75 @@
+{
+  "schema": "local-model-operations.civ6-loyalty91-native540/v1",
+  "utc": "2026-11-08T07:45:37.314151+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/59902dc5a6122ab7355a1ff2fb7d62ff5150e6cf/docs/research/baiqi-p6-governor-loyalty91-native-and-model540-evidence-2026-11-08.json",
+    "sha256": "60df4f7fa9a6442118fe0e76e32dde0de6051d736e46b54f7baf60e429848313"
+  },
+  "model": {
+    "task": 540,
+    "http_attempts": 1,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 8244,
+      "completion_tokens": 1455,
+      "total_tokens": 9699
+    },
+    "ttft_ms": 1383.7986000580713,
+    "total_ms": 9791.062999982387,
+    "review": {
+      "whole_raw_adopted": false,
+      "adoption": "MODIFIED_PLAIN_TABLE_VALIDATION_AND_ACTUAL_INCLUDE_GLOBAL_EXPORT",
+      "raw_Lua51_compile": true,
+      "raw_failed_cases": {
+        "snapshot_metatable_unknown": "[string \"<python>\"]:3: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[string \"<python>\"]:4: in function 'Unknown'\n\t[string \"<python>\"]:3: in function 'Expect'\n\t[C]: in function 'assert'",
+        "array_metatable_unknown": "[string \"<python>\"]:3: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[string \"<python>\"]:4: in function 'Unknown'\n\t[string \"<python>\"]:3: in function 'Expect'\n\t[C]: in function 'assert'",
+        "row_metatable_unknown": "[string \"<python>\"]:3: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[string \"<python>\"]:4: in function 'Unknown'\n\t[string \"<python>\"]:3: in function 'Expect'\n\t[C]: in function 'assert'",
+        "snapshot_getter_not_executed": "[string \"<python>\"]:1: do not execute\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[string \"<python>\"]:4: in function 'Unknown'\n\t[string \"<python>\"]:3: in function 'Expect'\n\t[string \"<python>\"]:16: in function 'Evaluate'\n\t[string \"<python>\"]:1: in function <[string \"<python>\"]:1>\n\t[C]: in function 'error'",
+        "include_consumer_global_published": "[string \"<python>\"]:1: assertion failed!\nstack traceback:\n\t[string \"<python>\"]:1: in main chunk\n\t[C]: in function 'assert'"
+      },
+      "owner_cases": 29,
+      "owner_Lua51_compile": true,
+      "owner_sha256": "814ba3b1268131d7f327a0cea9eddfe91ce3dd6561389344d18775e7ce05a691",
+      "Native_raw_and_owner_executions": 0,
+      "product_integration": "NOT_YET_WIRED",
+      "source91_unchanged": true,
+      "scope": "29 pure cases only; Controller extraction, rules metadata, final pre-command gate and actual expansion still pending."
+    },
+    "product_adopted": false,
+    "owner_modified_candidate_only": true,
+    "shared_commit": "477daf4acf372c1ad428d5ec7899b98155e6003b",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 540,
+    "complete_stop_valid_JSON": 504,
+    "length": 33,
+    "final_transport_failures": 3,
+    "http_attempts": 570,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Actual cold91 loaded preserved122; autonomous governor3 moved65536to393221, target rate-6.28125to+1.71875/source100+21. Three ordinary turns to125 loyalty13.28125, production0 still open.0manual domestic/QA bridge calls,0Steam online.",
+  "generic_lessons": [
+    "Native assignment and short-term rate gain do not prove production recovery; show remaining0yield directly.",
+    "Compile diagnostic commands with the actual engine Lua dialect; Lua53 accepted double semicolon that Civ Lua51 rejected before any action.",
+    "Treat exact pixel guard failure as zero input; after fresh human-equivalent visual review, bind current scene and owned process/birth/foreground/geometry/hash/age before one ordinary input.",
+    "Validate metatables before reading DTO fields so a supposed pure reader cannot execute arbitrary reflected getters.",
+    "A returned local module is insufficient when include consumers expect a global; inspect real binding before adopting."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Product91 frozen060699 pin, actual125 not132. Only autonomous assignment/short recovery narrow positive; production0, long-term expansion/old ARMED/legacy/religion/performance/compatibility/full40 remain open.540 is candidate only. Steam occupied0online/upload;Alpha2still82/12images. Unknown costs/cachedtokens null."
+}
