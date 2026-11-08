@@ -1,0 +1,83 @@
+{
+  "schema": "local-model-operations.civ6-faith536-cold90/v1",
+  "utc": "2026-11-08T06:00:31.676506+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/35c50d8a1660b499684129c2c96083b91fa9937b/docs/research/baiqi-p6-faith-audit536-and-cold90-preparation-evidence-2026-11-08.json",
+    "sha256": "b669409f52cb83432432f4bf29cced57e25ae6bbcd27f127a9019a04a40b4ebc"
+  },
+  "model": {
+    "task": 536,
+    "http_attempts": 1,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "usage": {
+      "prompt_tokens": 5352,
+      "completion_tokens": 2314,
+      "total_tokens": 7666
+    },
+    "ttft_ms": 861.862999969162,
+    "total_ms": 14669.70600001514,
+    "review": {
+      "whole_raw_adopted": false,
+      "raw_Lua51_compile": false,
+      "reason": "Unsupported continue statement in Lua5.1",
+      "owner_independent": true,
+      "owner_cases": 16,
+      "owner_sha256": "0ed261535286c77d259ac5fecf4114c3d17a2a8444c253ea5c48368b02de4d0e",
+      "raw_Native_executions": 0,
+      "scope": "Read-only audit only; not receipt reconciliation, not product103 package, not Native proof."
+    },
+    "shared_commit": "242e1c9b123e1c6090ec0e17e49ef69c5364a20b",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 536,
+    "complete_stop_valid_JSON": 500,
+    "length": 33,
+    "final_transport_failures": 3,
+    "http_attempts": 566,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "product_source": 90,
+    "installed": 90,
+    "last_verified_gameplay_at_cut": 87,
+    "new_QA_method": 1,
+    "Lua51_subcases": 16,
+    "tool_in_product103": false,
+    "tool_Native": 0,
+    "raw_Native": 0,
+    "prior_product_full_pass": 1287,
+    "SDK_environment_skip": 1,
+    "startup1_ready": false,
+    "startup2_main_contexts": 32,
+    "startup2_loadACK": true,
+    "world_read_at_cut": false,
+    "Steam_online_login_download_upload": 0
+  },
+  "generic_lessons": [
+    "Read-only diagnostics must not call product Inspect methods that may reconcile and write receipts.",
+    "Absent properties, failed reads and malformed values need distinct statuses; per-namespace unknown data should not erase independently known evidence.",
+    "Freeze validated copies before cross-read comparison, and never execute function-shaped stored values.",
+    "Lua5.1 compile failure remains source syntax failure despite complete SSE and valid outer JSON.",
+    "Version installation, startup, MainMenu context list, load ACK and actual loaded world are different evidence levels.",
+    "Formal menu navigation may activate the client; separate it from independent background read-only offline proof.",
+    "Offline mode evidence does not mean remote account idle. Occupancy restrictions still forbid online/login/download/upload.",
+    "Only retire an owned exited residue after validating its save, identity, absent windows/listeners, idle CPU and elapsed time. An unresponsive startup is not a clean successful exit or a proven product cause."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Read-only QA counts only; zero owner tool or raw-model Native executions, not procurement receipts or gameplay success. Product90 unchanged103files. Installed90/main32contexts/loadACK are not actual loaded world. Formal menu navigation is distinct from read-only offline proof; remote occupancy still forbids online/login/download/upload. Unknown cause/cost/cache remain unknown."
+}

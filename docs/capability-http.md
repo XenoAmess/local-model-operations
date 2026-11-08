@@ -4646,3 +4646,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 534535两真实独立请求完整stop/SSE/外JSON，实际峰值2持续19.047190秒，2HTTP0extra。534原稿含Lua51不支持continue编译失败，535虽编译却Object(E.Bridge函数)导致正常正例也UNAVAILABLE，均整拒0Native，owner独立Demand/Submit并接真实Controller。19新方法=2纯/41子场景+17联合；首联合3失败中2产品问题（busy effectPending漏采购、held被unitEvaluated导致回执后仍停）已修，unusedleader改实际getter属夹具纠正。首全1288中1写插桩error，保留工具拒绝规则，显式adapter与实际SDK分开捕获、SDK函数先读local再比较；最终1288run1287pass1SDKskip，81Lua51/103包一致，未install/Native90，安装实机仍87all96。累计535logical499stop有效外JSON33length3transport565HTTP30extra，Nov8维护缓存/OpenCode新原生0/cache节时null。其他设备占用Steam，包内0模式查询输入联网下载上传；Alpha2仍82/12图。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source90-missionary535.json)。
+
+
+## 2026-11-08：Civ6faith536-cold90
+
+536真实只读采购日志审计，1HTTP完整stop/SSE/外JSON但continue导致Lua51编译失败整拒，owner独立实现3Property双轮冻结/Clone/Equal，ABSENT/KNOWN/UNKNOWN+计数，未知保持nil，无Inspect/Prepare/Observe或写/命令。1方法16Lua51场景全过，工具未入Native且外于产品103，旧1287pass1SDKskip未重跑。累计536logical500stop外JSON33length3transport566HTTP30extra，OpenCode原生0，Nov8维护缓存，未知节时/cache null。业务90已安装103match，87原119全文核验后新1358838B备份，旧备份保留，退出残留核身份/哈希/0窗口端口CPU/>180s后只结束自有；每次新启动前独立后台GoOnline证实当前14904offline，正式菜单头部导航另记非只读。0模式切换上线登录下载上传、外机占用未解除。首次90启动未响应/两LSQ端口timeout，自有WM_CLOSE后终止；二次同DX12/8核32前端contexts、原版119LoadACKtrue，但切点世界尚未读，未归因或授Native90通过。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-faith536-cold90.json)。
