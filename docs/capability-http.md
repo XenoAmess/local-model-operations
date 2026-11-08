@@ -4807,3 +4807,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 553/554两个真实独立任务均1HTTP stop/DONE/外JSONVALID，实际峰2重叠4.631673s；5532573+477=3050tokens4.633s，六处!=使Lua51原稿编译FAIL，owner语法改~=后保留Plan。5542651+846=3497tokens6.802s，原fixture localMnil/helperlocal违背注入/分块协议18fail，owner改作用域保留18正文+加4，Runner/Admin/回归owner写，原稿0Native。97新16方法旧96八FAIL0ERROR/新全过，完整1375pass1SDKskip/85Lua51/107文件，未Native97。另96独立152到154实际复现长沙增长后surplus−1/starve1，再普通掉4到3；153saveACK稳定与两图/13己方地块/许可true但0手动Focus明确。累计554logical516stop35length3transport584HTTPextra30/OpenCode新0，Nov9缓存维护/null未知。Steam占用0模式上线上传；完整40旧FAIL开放。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source97food553554.json)。
+
+
+## 2026-11-09：Civ6source97native154
+
+0新HTTP/产品软件方法，复用553/554的软件资格；97同96饥饿153档coldLoad/Continue各1，实际FOODfavtrue/净−1到+5/总7到13/产11.703到8.102。普通END/4SKIP后154保4口（96负例3口），Save154ACK稳定并原版load/Continue各1，八城food逐字段同，WORLD/CITY/BUILDING/DISTRICT/PLOT同但UNIT一builder续队列移动，bootstrap次数unknown。Finance第一段4builderMOVE已撤，不含CityRequestCommand所以不授focus次数；W2后续另记。原553未经修正稿0Native，语法修正后的产品Plan实际执行，不能混写。累计554/516stop35length3transport584HTTPextra30/OpenCode原生新0/null未知不变。GitHub风险body11294B精确readback两内嵌PNG GET200 hash一致，附件/工坊82/12图保持，Steam他机占用0模式上线上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source97native154.json)。
