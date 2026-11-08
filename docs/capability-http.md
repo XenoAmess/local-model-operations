@@ -4562,6 +4562,16 @@ ABBA54.786904s/首生产至末close1024.723985s含失败纠正等待，独立1Gi
 
 实际fullouter67108863B/query67098833→derived67146833B使旧publicderived与新owned路线同拒，独立1GiB测试不进ABBA；query未借finance256M。完整ABBA46.77263s/首生产至末close389.339755s含正确性/准备/等待。业务7files `53d2d46c448a3389907304cf8948aafa8d394347`正常发表、remote一致/发布切点clean；[机械纠正、全部24样本/反向阶段与成本](evidence/2026-11-08-http-owned-query120.md)保留。只属当前有限DATA改善，0persistentworker/实际Policy/NativeREAD/SEM/owningpub/Runtime/Game/保存日或目标通过；持续goal与后继独立继续。
 
+## 2026-11-08：original内容比较literal采用与完整分布P122
+
+`HTTP-JAVA-ORIGINAL-CONTENT-COMPARE-122`一次fixed3/max2500、3完整源72818B含只读RawJson先例，消息301/73664/3448B；1POST/0retry、200/stop/DONE/VALID，有效TTFT2.2199283s、总6.261943s，reported15755/654、cachednull。强owner精确两处算法已给，两anchor1/1 literal5add1del逐byte等正式源、reverse恢复原bytes，owner代码修正0，不授独立发现。仅boolean originalContentEquals保Arrays expected左侧/nullfalse/不保留probe，intent仍queryencode先于cachepresent短路/精确比较/lazy旧fallback；原getterclone、构造器/B2/token/finance/真实CAS/Guard不改。
+
+实际2prodTU20class首次0/19.5094797s，无新class；原ACTUAL模板count3保留，按两javac token/CONFIG/SourceFile及12+8输出另发errata实际2、0重跑。metadata误标1与gate/compiler/JUnit错误0分列。仅受影响旧fullLoaded exactbody/mismatchedproof两meaningful方法同JVM2P，actor19.3261638/XMLsuite15.824，0TestTU/newunique0，不造镜像比较测试。
+
+同Main03/原DATA02/physical warmCAS/EXPECTED，全部8warm16measure、old/new20family firstorigin/CP、四独立JVM全成本保持。aggregate mean783.496675→678.252425ms（−13.4326%）/median745.26925→661.0281ms（−11.30345%），主线程alloc711341801→704523144B（−.95856%），intent少6818656B符合单clone。**A0/B0/B1/A1均679.4587/710.83795/645.6669/887.53465ms，B0反慢，A1保1087.9297/967.3439ms两慢点**；不把13%汇总因果归不足1%whole分配，范围/阶段反向/启动等待全保，不删点重跑或以P121后pass替代。
+
+actor均13.33278225→12.6861464s仅本cohort；ABBA58.073156s/首生产至末close385.398892s。业务5files `9c4786aff3ad7205532c778d83269bc44f020bc1`正常发表、remote一致，切点另留授权P123单源dirty未混入，不称当时全树clean。[原件勘误、全部24样本与成本](evidence/2026-11-08-http-original-content122.md)保留，Root51direct/48unique与184具名pins、11物理文件/旧cards核同。0persistentworker/实际Policy/NativeREAD/SEM/owningpub/Runtime/Game/保存日或目标通过；持续goal与后继独立继续。
+
 ## 2026-11-08：Civ6source87-district515
 
 513仅近城可见/资格与实效分开方向修改采用，非我即敌/BARBARIAN类型拒，owner提示错资格签名也据原版unit,op,nil,params修；TEST_PLAYER一次近战初即时旧值不重发，settledownmoves0/dmg27/enemy14to48。70normalEND先队列移动留70，freshworld后再normalEND进议会，圣地A1/抗骑兵A1/free0review后submit一次，六方提交shown及actual71战略恢复，最终议案效果未核。514圣地答学院whole拒，未改评分。Native74district2of4/14selfvisibleplots旧ClearPlot0candidate，farm2532@16,34其余保护过且CanHave/CanStartBUILDtrue，仅经济改良被挡。515全部3锚点顺序唯一应用及Lua51compile，但漏IMPROVEMENT_、重复FreshValid未调用/未知常量错键，whole拒0rawNative；owner两次未测猜锚点先断言失败，已实测撤回。Readonlyprobe曾false-resource~=nil索引，0动作，v2nil归一14plots全读。87仅7经济改良白名单+NextRequest前freshxy/owner/row/nativeCanHave/protection，旧军队/队列/预算/评分/日志不动。9Lua51actualControllermethods baseline86/raw515各3failedmethods15failureassertions0errors，owner0；full1223run1222pass1SDKskip81.311s，74Lua51/96zipSHAe3f06cb2fdaa38e968ec819cb8ce823cd4e5f8aba60fb18802cc1538ce88aa37。B267finance+9snapshot逐项一次撤钩；74onlyspear10pop178.5gold/commercial/0prophet，文职损失/被俘ID未知，不抹风险。74SaveACKtrue/stable1154101B/hash7024d35ed777ff78a38bdb02f8fe8144a26717052df4b96be959c4545c940be5未load。累计515480stop32length3transportHTTP545extra30/OpenCode新0/nullunknown，canonicalNov8维护缓存。源码87未安装Native，Alpha2仍82，0Steamonline/upload。
