@@ -1,0 +1,94 @@
+{
+  "schema": "local-model-operations.civ6-source94feature545/v1",
+  "utc": "2026-11-08T12:48:50.356975+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/e78546412cef62c82472d67d4ebf2485275983f4/docs/research/baiqi-p6-settlement-feature94-model545-evidence-2026-11-08.json",
+    "sha256": "92babb44d05a4475cf9eebb75051c943c043b45bac8bdc3ebd780330d517f0af"
+  },
+  "model": {
+    "mode": "canonical ordinary HTTP",
+    "HTTP_attempts": 1,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "outer_JSON": "VALID",
+    "usage": {
+      "prompt_tokens": 4064,
+      "completion_tokens": 431,
+      "total_tokens": 4495
+    },
+    "total_ms": 3368.4266000054777,
+    "raw_helper_Lua51_compile": true,
+    "raw_helper_owner_cases": [
+      {
+        "case": "valid",
+        "expected": true,
+        "actual": true,
+        "error": null,
+        "pass": true
+      },
+      {
+        "case": "missing_type",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "pass": false
+      },
+      {
+        "case": "missing_natural",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "pass": false
+      },
+      {
+        "case": "missing_impassable",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "pass": false
+      },
+      {
+        "case": "getter_error",
+        "expected": false,
+        "actual": null,
+        "error": "[string \"<python>\"]:1: unavailable\nstack traceback:\n\t[string \"<python>\"]:2: in function <[string \"<python>\"]:1>\n\t[string \"<python>\"]:1: in function 'GetFeatureType'\n\t[C]: in function 'error'",
+        "pass": false
+      }
+    ],
+    "adoption": "Two exact feature-condition replacement strings adopted verbatim. Helper not adopted as supplied: missing FeatureType validation, nilNaturalWonder/nilImpassable admitted, getter exception escaped. Owner wrote explicit typedfalse checks and pcall containment.",
+    "raw_Native_executions": 0,
+    "owner_input_scope": "Strongly guided actual schema, two exact consumers, guard types and intended minimal patch. No autonomous API discovery claim.",
+    "maintenance": "Nov8 first5001.19.5 passed; canonical545 reused same-client current-day cache, no newOpenCode native generation.",
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 545,
+    "complete_stop_valid_outer_JSON": 508,
+    "length_discarded": 34,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 575,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_HTTP_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Source94softwareonly,installed/lastNative93saved109; no94Nativeyet. Featuremetadataactual109provesSettlementtrueforrainforest/floodplains; originalschemahasSettlementnotNoCity. New9Lua51consumer methods;old93sevenFAILsubcases/oneERROR,new94ninepass;full1339run1338pass1SDKskip,104file82Lua51packageverified.",
+  "generic_lessons": [
+    "Use the actual schema field Settlement rather than hypothetical NoCity or removability/technology predicates; source exclusion and exclusive runtime cause are distinct.",
+    "Reject unknown boolean metadata explicitly. A guard that only rejects ==true admits nil and malformed values as safe.",
+    "Transport stop and Lua compilation do not establish conservative metadata behavior or exception containment; independent cases found four failures in a fivecase raw-helper review.",
+    "Record partial adoption precisely: two exact replacement strings adopted, owner rewrote helper. Actual schema and intended consumers were strongly provided, so do not claim autonomous API discovery.",
+    "Initialize the consumer fixture before evaluating context-dependent private locals; missing initialization is owner cost, not evidence to relax product guards.",
+    "A baseline getter exception is a meaningful negative counterexample. Do not demand an errorfree old baseline in comparison orchestration or erase its retained logs."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Strongly guided ordinaryHTTP partial two-string adoption plus owner-authored feature helper, independent software validation only.94Native not yet; old long-term/recovery/full40 risks remain; no Steam online/publication and unknown costs null."
+}

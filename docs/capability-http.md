@@ -4730,3 +4730,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 544普通HTTP1份length，正文未读／未候选解析／整弃／0采用，4025+3072tokens，17.4027197秒，owner独立适配既有TEST_PLAYER军队工具，复用27场景不新增case。93正常102→109五城40队列40状态；新长矛兵106出生并等待，108玩家普通移动坐标与2→1行动力核实，2原图内嵌。斥候6次普通玩家侦察不算后台命令。观察器102安装109撤下1061样本无错误，移民7待命无观察到扩张；101撤钩至102间隙不回填。源码误排除全部地貌已查明，真实Features.Settlement而非NoCity，修复另包。109存档ACKtrue稳定未加载。冻结544累计544/507完整JSON/34length/3transport/574HTTPextra30；0OpenCode原生，未知成本null。Steam其他设备占用0上线上传，完整40未闭。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source93native109.json)。
+
+
+## 2026-11-08：Civ6source94feature545
+
+545普通HTTP1份stop/DONE/VALID，4064+431tokens/3.3684266s。两个精确feature条件替换原样采用，helper未原样采用：独立5场景4失败（缺FeatureType、两未知bool通过、getter异常），owner补显式false校验及pcall。schema实际Features.Settlement，NoCity不存在；新旧城址两消费者修复，边境/忠诚/最终FOUND守卫不放宽。9新Lua51方法，旧93七失败子场景一异常，新94九方法通过；初ownerfixture未初始化六子场景FAIL和比较脚本错误要求旧无异常分别保留；全1339运行1338通过1SDKskip，104文件82Lua51包一致。94未安装/实机，93已Save109正式Exit一次，不授新城或长期保城。累计545/508JSON/34length/3transport/575HTTPextra30，OpenCode原生0、成本未知。Steam他机占用0上线上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source94feature545.json)。
