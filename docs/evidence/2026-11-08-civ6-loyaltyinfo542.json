@@ -1,0 +1,75 @@
+{
+  "schema": "local-model-operations.civ6-loyaltyinfo542/v1",
+  "utc": "2026-11-08T09:51:35.843647+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/1b81410022349adfefaed235a29dda2d77811173/docs/research/baiqi-p6-loyalty-information541542-evidence-2026-11-08.json",
+    "sha256": "d578e2358c7301379a505b5bc4786db376c14a54f1e78a4aeb1592716b5f2120"
+  },
+  "model": {
+    "mode": "canonical ordinary HTTP",
+    "HTTP_attempts": 1,
+    "stop": true,
+    "sse_done": true,
+    "outer_JSON": "VALID",
+    "usage": {
+      "prompt_tokens": 3006,
+      "completion_tokens": 2266,
+      "total_tokens": 5272
+    },
+    "cached_prompt_tokens": null,
+    "total_ms": 13560.87720009964,
+    "maintenance": "Reuse Nov8 first500 successful1.19.5 daily check, no update; OpenCode native generation0.",
+    "raw_Lua51_compile": true,
+    "raw_whole_adopted": false,
+    "raw_failed_fixture_cases": [
+      "dark_and_golden_inconsistent",
+      "dark_and_heroic_inconsistent",
+      "actual_standard_literal_zero_eras_calls",
+      "library_index_exception_unknown",
+      "sealed_environment_metatable_never_executed",
+      "infinite_score_unknown",
+      "infinite_countdown_unknown"
+    ],
+    "independent_failures": [
+      "No Dark plus Golden/Heroic consistency guard despite candidate test prose claiming it.",
+      "Native property indexing and E field access can throw outside protected calls.",
+      "Infinite numeric era/score/countdown can pass floor test.",
+      "Does not reject plain-environment metatable; side effects may execute."
+    ],
+    "owner_input_clarification": "Contract used bare Standard rather than explicitly providing RULESET_STANDARD. Owner accepts literal ambiguity cost, corrects actual value from existing runtime/project source, does not count it as solely a model fault. Other contradictory flags, native library indexing exception and infinite scalars are independent explicit-contract failures.",
+    "raw_Native_executions": 0,
+    "owner_independent_cases": 20,
+    "owner_pass": 20,
+    "owner_source_sha256": "7ed436fcc8d740a566115c3bed4550237929ec0610d06d4ab9ecd6ff00883f71",
+    "product_adoption": 0
+  },
+  "cumulative": {
+    "logical_tasks": 542,
+    "complete_stop_valid_outer_JSON": 506,
+    "length_discarded": 33,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 572,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_HTTP_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "QA-only publication of owner information readers,54Lua51subscenarios in2unittest methods; source92 remains104files. Own age130 actual era4/score42/countdown-1/DARK; no pressure root cause proven. New-purpose formalLoad128 ACKtrue but loading, comparison pending; no duplicate Load or END130.",
+  "generic_lessons": [
+    "Contract literals must be explicit. Bare Standard in owner input left a ruleset-literal ambiguity; owner accepts this preparation error separately from independently explicit model failures.",
+    "Candidate test prose claiming Dark plus Golden rejection does not prove implementation contains that guard. Run the actual module against counterexamples.",
+    "pcall around a native function does not protect native-library indexing or E field reads performed before pcall. Qualify the actual exception boundary.",
+    "math.floor(v)==v alone accepts infinity. Diagnostic integer fields need finite bounds as well as integer checks.",
+    "Heroic and Golden may both be true, countdown-1 is valid; preserve actual primary UI precedence rather than invented mutually-exclusive flags.",
+    "A readonly130 DARK snapshot is not a historical era transition or a population-pressure root cause. Keep pending128 comparison explicitly unknown.",
+    "Two unittest methods with54internal cases are not54new full-suite methods. QA tools outside product package do not imply a product version change."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "QA source publication only; raw5420Native/product adoption, owner diagnostic only. Old541 known-negative Native positive and128 age comparison remain pending. No product source93 or loyalty fix, no Steam online/upload, no full suite rerun or inferred cost savings."
+}

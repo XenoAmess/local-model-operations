@@ -4695,3 +4695,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 本包新增HTTP0／OpenCode原生生成0，复用541负责人独立34例只读资格，130三个UNKNOWN；累计仍541/505stopJSON/33length/3transport/571HTTPextra30。92原地等待有效但129→130成都忠诚19.0625→4.0625、rate+1.09375→−15、产能0，仍7城且原移民存活并保留目标，长期FAIL。130检查exit1后无后续END，仅只读、正式保存和原版城市页；失败档稳定未加载，原图内嵌。不能将第8城或时代猜作已证原因；新原生窗口无观察器，不授订单0。其他设备占用，Steam0上线／上传。未知人工成本与缓存null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source92fail130.json)。
+
+
+## 2026-11-08：Civ6loyaltyinfo542
+
+542 canonical普通HTTP1POST、stop/DONE/合法外层JSON，3006+2266=5272tokens/13.5608772秒、cached=null；Nov8首500成功1.19.5每日维护缓存复用，0OpenCode原生生成。raw Lua51能编译但7反例失败，整稿拒用；其中Standard裸词为owner输入歧义另担，其余年龄冲突、索引异常、无穷值与元表问题独立实证。owner独立20场景通过，Native130本方DARK/era4/score42；不授压力根因。连同541独立34场景读者发布QA源与54场景夹具，2方法定向通过；产品92/104文件不变。128新目的正式加载ACKtrue但仍loading，比较未知，无重发Load或END130。累计542/506stopJSON/33length/3transport/572HTTPextra30，未知成本null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-loyaltyinfo542.json)。
