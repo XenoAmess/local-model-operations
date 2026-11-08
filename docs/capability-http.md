@@ -4515,6 +4515,14 @@ Public Applied15/Unknown15/Rejected16三个独立JVM各1P，非同JVM3P；末23:
 
 Root实际BEGIN→末CLOSE190.727833s与Native更早operator起点191.163224s、四actor合48.1624676s、首失败PREP到末close473.568004s分别保留，不删准备/等待；不是整任务主动成本或保存日分母。业务7files `fbb026b6a34491bfdd4da8c69a135f5191c0d45d`正常发表且remote一致、发布切点clean。[全部样本、partial采用、物理身份和未知成本](evidence/2026-11-08-http-immutable-full-result114.md)保留；**未执行Policy.evaluate/NativeREAD/完整SEM准入/owning publication**，0Runtime/TTFT/保存日信用。持续goal与后继P115独立继续。
 
+## 2026-11-08：LARGE preserve纯DATA重复构造的单行采用P115
+
+`HTTP-JAVA-LARGE-PRESERVE-REDUNDANT-FACTORY-115`一次fixed3/max3000、3源41554B，1POST/0retry、200/stop/DONE/VALID；有效TTFT1.5298693秒、总5.055228秒，reported9658/519、cachednull。任务已给准确语句与immutable-full/private-pair证明，literal hunk原样采用1：只删LARGE丢弃结果的factory，oldsmall decode-before-clone反例及原重验保持；owner证明不署模型独立发现。实际原9410B唯一替换后逐byte等正式9358B；所有sameSession/CAS/physicalread/lenSHA/header/coldresolve/Q2/Guard/command边界不改。
+
+1prodTU0/3class、新Test1TU仅2newmethods2P，Native prerequisite alias错在claim/JVM/BEGIN前拒、0javacRED/0模型错。复用P114同Main03和原DATA/source/sharedroot/EXPECTED，0Main重编/0新PREP，全部8warm16measure。逻辑A0B0B1A1→rawB0B0B1B1透明映射，raw不改；双方cachetrue，真正variant按Source3class hash/first-origin/orderedCP，不凭内部标签猜A/B。wholemean913.822675→705.3617625ms（−22.81%）、median861.3643→694.91825（−19.32%），主线程allocmean1216925041→1041739137B（−14.40%），actor均12.16565385→11.32841445s（−6.88%）；preserve阶段中位287.222/395396252B→147.72655ms/220210304B。
+
+全部24call与CPU/分配/setup/main/actor/outer保持，operator全窗50.553755s、实际BEGIN窗50.099146s、四actor46.9881366s分别记；有限DATA不授Policy.evaluate/NativeREAD/SEM/owning publication或Runtime，不叠加P114百分比。业务5files `ba7e5888b202b1bd278a57f70defe8c37e58a262`正常发表且remote一致、发布切点clean。[单行采用、raw标签、所有原件与未知成本](evidence/2026-11-08-http-large-preserve115.md)保留，Root64pins全吻合，私有导航留D；0Game/P100/保存日信用，持续goal与实际P116独立继续。
+
 
 ## 2026-11-08：Civ6source87-district515
 
