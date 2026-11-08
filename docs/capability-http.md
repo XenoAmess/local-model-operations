@@ -4842,3 +4842,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 0新HTTP/软件，556累计保持；同97正式载176 ACKtrue/Continue1，actual176active。WORLD1/CITY9/BUILDING56/DISTRICT33/PLOT139等、9城food/focus全等，陇西1pop粮仓3/32L100+17/rawOBSERVED条目/goal0保持。UNIT30中两builder继续移动明确列差，bootstrap请求数未知。preflight双分号Lua51先拒0动作后修；临时hung截图拒/LSQtimeout0CMD，原Continue新鲜比图后一次输入，同11316birth/126context重证。交付README重复路径守卫先拒gitadd前，显式证据路径补交付不重生资产。旧未决/安全/宗教/完整40未闭，Steam0上线或上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source97reload176.json)。
+
+
+## 2026-11-09：Civ6cancel557-corelines
+
+557 stop/DONE/JSON/1HTTP/15040tokens/9.145552s；视觉路径/命令开始及NOT_PROVEN窄采用，拒raw把原版SpyOnAbort标modCore481to487，补普通command路由/已给pendingAPI。owner也先误写128行，实测124并修公开回执；HTTP/Native未重跑。当前自有idleScout196610@51,28/m3/pendingfalse/queuednil，liveCANCEL533311341，原版两种CanStart签名皆booleanfalse，0RequestCommand/Operation/属性写、没碰旧8650807，无新取消许可/清日志/重放；旧ARMED仍FAIL。累计557/519stop/35length/3transport/587HTTP/30extra/OpenCode新0/null未知，Steam0上线或上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-cancel557-corelines.json)。
