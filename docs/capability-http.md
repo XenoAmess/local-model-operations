@@ -4870,3 +4870,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 复用560，0新HTTP；561另账。98正式冷读176，独立背景离线证明距启动0.003946秒，0模式切换/上线/上传。3实际普通回合/4END/15玩家待命/巴西3输入；九城36food均非负starve−1，36loyalty100正增长，广州food0余量薄。177千年洪水PopLost1与首都16→15→16、6改良消失同窗，不捏造逐城因果。观察784=766评估+6城+12单位，全自有builder，0错丢已撤；9MOVE/3BUILD仅2共同地块净新改良。四原图/8CSV/逐图文/BBCode入库，179ACKtrue1724604B/hash保存未load。新增秀容卡片1对rawqueue4待诊断；新闭包无自然触发，旧恢复FAIL/宗教/完整40保持开放。公开Alpha2仍82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source98-native179.json)。
+
+
+## 2026-11-09：Civ6cityui561-correction
+
+561修正了owner误读：秀容原图实际4，曾看作1并错误报新缺陷。私人识字放大、三次原版CityPanel只读（两种GetTurnsLeft均4、ProductionNum4、GetCityData4）与第二原图一致，0产品补丁/游戏命令/控件写/刷新器。原四PNG字节不变，已改README/实机解读/证据/用例/BBCode并撤回缺陷，新增原始复核图；旧公开pin0c439的错误声明不覆盖更正pin。模型stop/DONE/JSON/1HTTP/28473tokens/11.281081s，采真实ProductionNumgetter及数据路径，XP2覆写ViewMain断言拒。owner向未见图的模型提供假视觉前提，不能记模型视觉失败。累计561/523stop/35length/3transport/591HTTP/30extra/OpenCode新0/null未知。产品98、旧恢复FAIL/宗教/完整40继续，Steam占用禁止上线。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-cityui561-correction.json)。

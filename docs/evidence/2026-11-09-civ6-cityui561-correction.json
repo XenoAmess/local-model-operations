@@ -1,0 +1,68 @@
+{
+  "schema": "local-model-operations.civ6-cityui561-correction/v1",
+  "utc": "2026-11-08T23:56:28.473595+00:00",
+  "date_local": "2026-11-09",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/b3a9090c277e363d44275ee203f55294beffbd67/docs/research/baiqi-p6-cityui561-owner-image-reading-correction-evidence-2026-11-09.json",
+    "sha256": "64d1816132cfb6d93e037b61a8baa4ce9d4bd34297e326e91106297ab61ef838"
+  },
+  "model": {
+    "started_at_utc": "2026-11-08T23:41:28.830052+00:00",
+    "HTTP_attempts": 1,
+    "extra_attempts": 0,
+    "finish_reason": "stop",
+    "SSE_DONE": true,
+    "outer_JSON": "VALID",
+    "usage": {
+      "prompt_tokens": 27329,
+      "completion_tokens": 1144,
+      "total_tokens": 28473
+    },
+    "seconds": 11.28108070010785,
+    "adoption": "PARTIAL_PRIMARY_ANALYSIS_AND_READONLY_GETTER_SUGGESTIONS_OWNER_INPUT_CORRECTED",
+    "review": {
+      "adopted": [
+        "Original ProductionNum/ProductionLabel and CurrentTurnsLeft data route",
+        "Base unit production path omits modifier; compare supplied existing signatures before proposing changes",
+        "Actual existing ProductionNum:GetText read suggestion"
+      ],
+      "rejected_or_limited": [
+        "Expansion2 does not override ViewMain; mod captures Expansion1->Base. Given complete Expansion2 source, candidate override-chain claim incorrect.",
+        "Modifier omission hypothesis not supported by actual same-city live readings: both signatures return4.",
+        "Cache/fallback/race root causes not adopted; original raster was4 all along."
+      ],
+      "owner_input_failure": "Owner told model raster said1; this visual fact was wrong. Candidate was text-only, so do not classify failure to disprove unseen image as model vision error."
+    },
+    "raw_candidate_code_Native": 0,
+    "daily_maintenance": "Nov9 canonical successful cache installed/latest1.19.5 updatedfalse",
+    "actual_HTTP_peak": 1,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 561,
+    "complete_stop_valid_outer_JSON": 523,
+    "length_discarded": 35,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 591,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_HTTP_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Actual selected ownXiurong179 oneview/threeCityPanelreadonly queries,0gameorders/controlwrites/refreshers. Original and rechecked rawimages both4, native bothsignature4/controltext4/GetCityData4. Owner prior raster1 claim false and publicly withdrawn; original4PNGs unchanged, new rawrecheckPNG added.",
+  "generic_lessons": [
+    "Distinguish owner false observation input from candidate API/source mistakes. A text-only model was not given the image, so its failure to reject a false visual premise is not model vision failure.",
+    "Small screenshot digits require original-image enlargement or matching live control read before publishing a defect claim.",
+    "Equality of two actual native getter signatures refutes that live modifier-arity difference; do not patch based on a speculative hypothesis.",
+    "Correct current documents and BBCode, preserve immutable erroneous/corrective commits as an auditable owner correction, never alter the original screenshot."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Correction explicitly supersedes prior source98-native179 screenshot1/raw4 defect claim, which was an owner visual misread. No product defect fix, no Native transient-dispatch PASS. Software1412unchanged. Partial source analysis and actual getter/image agreement remain separately scoped."
+}
