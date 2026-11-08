@@ -1,0 +1,3147 @@
+{
+  "schema": "local-model-operations.http-case/v1",
+  "case_id": "HTTP-JAVA-GUARDED-INTENT-RESULT-REUSE-117",
+  "mode_id": "http-candidate",
+  "local_observation_date": "2026-11-08",
+  "local_timezone": "Asia/Shanghai",
+  "request_utc_date": "2026-11-08",
+  "scope": "Same successful P116 complete DATAconsumer boundary, onlyintent privatehelper exactsamequote finalized result reuse guardedbyfullquery bytes equal. Existingqueryencode,clonedgetter+memcmp andallfallbacks/physicalcoldread/header/candidate/currentguards costretained. NotactualPolicy.evaluate/NativefreshREAD/SEM/owningpub/Runtime.",
+  "round": {
+    "model": "qwen38-coder",
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "source_count": 5,
+    "message_utf8_bytes": [
+      301,
+      104117,
+      2913
+    ],
+    "post_count": 1,
+    "transport_retries": 0,
+    "post_begin_utc": "2026-11-08T01:02:53.796378+00:00",
+    "attempt_end_utc": "2026-11-08T01:03:00.373964+00:00",
+    "frozen_client_candidate_review": "NOT_YET_REVIEWED",
+    "frozen_client_adopted": false,
+    "actual_peer": "UNKNOWN",
+    "raw_pins": {
+      "REQUEST.json": {
+        "bytes": 109958,
+        "sha256": "585301f11e23de60fb4992f5f9d15985d510e4c69dea29efc7b227695bd6880e"
+      },
+      "ATTEMPT1-RESULT.json": {
+        "bytes": 1285,
+        "sha256": "d2674381ed147cf2f60839ec8a255197d83d97ca440a721ccb6b3e38ee9bc067"
+      },
+      "ATTEMPT1-CONTENT.txt": {
+        "bytes": 2481,
+        "sha256": "c70a41403c2c23097b9dba70c45ceb398349e891aa567949826a68cc9fad0f47"
+      },
+      "EVENTS.jsonl": {
+        "bytes": 2666,
+        "sha256": "17aa825c4e2d0bff3673020c6d49c2d61668f0ffedeb393a8762ac7e37a6efb7"
+      },
+      "SUMMARY.json": {
+        "bytes": 1631,
+        "sha256": "a51721349dfcad8aabe65ca33cca8578483cc16d72df40858d518379dd6319d2"
+      }
+    },
+    "task_pin": {
+      "bytes": 2923,
+      "sha256": "88c1aa2d14b6fb8c137fae2ca89dc69342ea0eb34555141172d56d4379674d44"
+    },
+    "spec_pin": {
+      "bytes": 833,
+      "sha256": "3fcf8f3416cc722c0213735c5f3f524b1af68e05b474715d709161da40b93250"
+    },
+    "http_status": 200,
+    "http_headers_ms": 2953.233000007458,
+    "first_nonempty_content_delta_ms": 2954.5722999610007,
+    "total_ms": 6577.54909992218,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "usage": {
+      "prompt_tokens": 22282,
+      "completion_tokens": 564,
+      "total_tokens": 22846
+    },
+    "cached_prompt_tokens_if_reported": null,
+    "json_syntax": {
+      "status": "VALID",
+      "top_level_type": "object",
+      "reason": "COMPLETE_STOP_JSON",
+      "error": null,
+      "offset_units": "Unicode code points",
+      "max_utf8_bytes": 1048576,
+      "semantic_review": "OWNER_REVIEW_REQUIRED"
+    }
+  },
+  "guidance": "Exact private five-argument intent calculation and present-cache+samefullquery Arrays.equals algorithm prescribed. Strongly guided literal hunk, not independent optimization discovery.",
+  "adoption": {
+    "grade": "LITERAL_MODEL_ONE_HUNK_ADOPTED",
+    "verbatim_hunks": 1,
+    "byte_exact_before_replace_equals_after": true,
+    "line_additions": 9,
+    "line_deletions": 1,
+    "redundant_initializer_preserved": "byte[] finalizedBytes = queryBytes; retained literally, overwritten bothbranches; no source cleanup attribution",
+    "source_before_pin": {
+      "bytes": 48598,
+      "sha256": "64058272640f2b99a41f6c2384a3be71d62b72a4d30ba55d31b19ca9b1e83d01"
+    },
+    "source_after_pin": {
+      "bytes": 49053,
+      "sha256": "51cd62bb9d13ee0217d7c00ba28fef3c22113a5257b8b72850e50078c6650d48"
+    },
+    "owner_adoption_pin": {
+      "bytes": 1459,
+      "sha256": "8150c9753095daee66bc305913a964bd91e74251f38486ebf3726d7b3ab46cee"
+    },
+    "whole_task_or_model_Test_authorship_claim": false
+  },
+  "boundaries": [
+    "Existing DriverJson.encode(query) always runs. Reuse only if same immutable NativeQuote cachepresent and Arrays.equals(queryBytes,samequote.original()) exact; getter clones/memcmp costs retained. No structural equality/typed Economy reencode shortcut.",
+    "Cacheempty/oldsmall/unequalquery lazily uses identical original finalizer. All following finalized parse/frame/candidate/expected/province/income/pending/canonical body validation unchanged. No physical CAS/cold read/header/source or Guard/session/READ cache.",
+    "New actual samewriter Source preserve/cold resolve yields real Loaded for production3arg intent. Existing privatepure5arg is cacheempty/unequalproof DATA oracle only; no fabricated Loaded or private Guard issuer, no Native/canonicalAction authority."
+  ],
+  "software": {
+    "qualification_pin": {
+      "bytes": 43237,
+      "sha256": "33eb979f6a093c4b13e527f9c3fbbf3cca5174e2ce03ffe16b9190f1e5fdcb1b"
+    },
+    "production_counts": {
+      "changed_existing_source_TU_executions": 1,
+      "unique_changed_source_paths": 1,
+      "complete_output_family": 8,
+      "unchanged_oldgreen_production_TUs_recompiled": 0
+    },
+    "Test_counts": {
+      "necessary_new_Test_TU_executions": 2,
+      "unique_new_Test_source_paths": 1,
+      "first_Test01_javac_errors": 1,
+      "first_Test01_output_classes": 0,
+      "first_Test01_JUnit": 0,
+      "new_methods": 3,
+      "final_same_JVM_pass": 3,
+      "old_Test_methods_RUN": 0
+    },
+    "phases": [
+      {
+        "label": "one_Lifecycle_TU8class",
+        "phase": "prod",
+        "exit_code": 0,
+        "timeout": false,
+        "contract_accepted": true,
+        "actor_seconds": 5.546033999999054,
+        "outer_seconds": 6.249958800035529,
+        "close_utc": "2026-11-08T01:09:57.398927+00:00",
+        "reservation_held_after_close": false,
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 43869,
+            "sha256": "dfa0eb5b830df267a8b85ca337563b0658acf72958d85d94632efe1b74c0bfa1"
+          },
+          "ACTUAL.json": {
+            "bytes": 1574,
+            "sha256": "6aa7344700d7f6ccf73058647c600c65b5833cd37a31755359c8d6ce6ebe4ea0"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 237,
+            "sha256": "d2578e73a0c40192c9b2cc55b6c6e2953bcfed9a7a20d110ede4eacf0950eb40"
+          }
+        },
+        "operator_pin": {
+          "bytes": 850,
+          "sha256": "ec0c6cd14af30427712d392e875ff41d0c85c26c0c47f06cd6fd1c6ae4ad9036"
+        }
+      },
+      {
+        "label": "Test_compile1",
+        "phase": "test",
+        "exit_code": 1,
+        "timeout": false,
+        "contract_accepted": false,
+        "actor_seconds": 4.579850999987684,
+        "outer_seconds": 5.3275712000904605,
+        "close_utc": "2026-11-08T01:13:19.848634+00:00",
+        "reservation_held_after_close": false,
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 51923,
+            "sha256": "381ed0c1554744e8f092d0931c38bd874200cb5334daff1b2be3558e65351618"
+          },
+          "ACTUAL.json": {
+            "bytes": 1625,
+            "sha256": "d968100ea02adb732bbdbf1d23c8e807ee87576de224e1c3faf49788ce852fae"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 237,
+            "sha256": "8ea02f3093f0416fc597bb3dcbb7d04b4573a9a92a379ef5283e6cd61d7403b5"
+          }
+        },
+        "operator_pin": {
+          "bytes": 871,
+          "sha256": "98f3a0f13f122cf647e93bb70255e0a86cd2993c1c6d400875a13c1561e4f637"
+        }
+      },
+      {
+        "label": "Test_compile2",
+        "phase": "test",
+        "exit_code": 0,
+        "timeout": false,
+        "contract_accepted": true,
+        "actor_seconds": 4.402581400005147,
+        "outer_seconds": 5.182724799960852,
+        "close_utc": "2026-11-08T01:14:23.209584+00:00",
+        "reservation_held_after_close": false,
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 52893,
+            "sha256": "8ceffa17bdcbd7b8fd56d39111660d35252422dbc952d2ff748d2d81ceb631ad"
+          },
+          "ACTUAL.json": {
+            "bytes": 1626,
+            "sha256": "c2b27941b3248261cf9ceb4be0ce737c863afd2ca5ca737144ed9281ccdb70fc"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 237,
+            "sha256": "5d1c5c7a4d5161dbe18bbaf74bb0dec04479aaca19150ebf3e53b4e414e55b42"
+          }
+        },
+        "operator_pin": {
+          "bytes": 870,
+          "sha256": "8d80a5b9166c055046431830973e63741875c37d4dbb593dc1028c997995361e"
+        }
+      },
+      {
+        "label": "three_new_methods_sameJVM",
+        "phase": "junit",
+        "exit_code": 0,
+        "timeout": false,
+        "contract_accepted": true,
+        "actor_seconds": 12.024611399974674,
+        "outer_seconds": 12.81061679997947,
+        "close_utc": "2026-11-08T01:14:36.449764+00:00",
+        "reservation_held_after_close": false,
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 54279,
+            "sha256": "a6d68778d6d61fd106404f6ffec5fbf6a710cac5facf94ed42eb0ac353b3901e"
+          },
+          "ACTUAL.json": {
+            "bytes": 1888,
+            "sha256": "c315529339f2a3bdbc072543f4c8faedc1de9d878492739630487ebb74f31abf"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 238,
+            "sha256": "b3110370f0502a11e57d53fe7564961874193b9efc00d9113f882925d5f256d9"
+          }
+        },
+        "operator_pin": {
+          "bytes": 873,
+          "sha256": "3ef915d2e71c7cc346ab3808e34b79bc05864f81c002074a99b42d9ea5623d29"
+        },
+        "JUnit": {
+          "tests": 3,
+          "errors": 0,
+          "failures": 0,
+          "skipped": 0,
+          "suite_seconds": 10.104,
+          "xml_pin": {
+            "bytes": 45049,
+            "sha256": "dc1510424254d3f72450b69bbadaf25320b1e6498731417208ec8ad2419cb40f"
+          }
+        }
+      },
+      {
+        "label": "A0",
+        "phase": "A0",
+        "exit_code": 0,
+        "timeout": false,
+        "contract_accepted": true,
+        "actor_seconds": 10.762902999995276,
+        "outer_seconds": 11.591490000020713,
+        "close_utc": "2026-11-08T01:15:51.722946+00:00",
+        "reservation_held_after_close": false,
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 52375,
+            "sha256": "3610764bbae2d3770d297c27c2ff0836dbeeb7419ee32aca0c135cbce4493f51"
+          },
+          "ACTUAL.json": {
+            "bytes": 1623,
+            "sha256": "abc46f3cba223974aaa4bcb9f92e55bea86115d03699c3fbf500bcb7aaba2546"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 235,
+            "sha256": "8932e2407cf54218f9dfed107119a4b90ab2533c6589d7fcaabcf0304048bfcc"
+          }
+        },
+        "operator_pin": {
+          "bytes": 861,
+          "sha256": "ddb09546b0e002604f1eea78480d7572245af9ad167400f9a231230892aff4f7"
+        },
+        "raw_report_label": "B0",
+        "source_variant": "oldP116successfulLifecycle8",
+        "source_family": [
+          {
+            "bytes": 3543,
+            "sha256": "97cacd334ab2186aa869e67525e67a281d6a84e5e93da5040bb9b06225e0d284"
+          },
+          {
+            "bytes": 1739,
+            "sha256": "66470190c76ede63ca85b962c5f027413441b4ab12afb0a8d8913384a4722c2b"
+          },
+          {
+            "bytes": 3751,
+            "sha256": "7bb5ea4bfcebe16fe93f4c7d45f1a552f6934b8de36b4433de9a849ebb873b0b"
+          },
+          {
+            "bytes": 2684,
+            "sha256": "c80f8678c932b83bd50ef0eed8fe1094d619406439758252dd9250a1646812a2"
+          },
+          {
+            "bytes": 2136,
+            "sha256": "49f0a4b945c225e5afaa5329f474208b5a34a35905ae2da884248a93621b8682"
+          },
+          {
+            "bytes": 47612,
+            "sha256": "c347c1e40a15a7676b8176b58320a3195222622c1d03fcfd0a6bd7cd7a22648a"
+          },
+          {
+            "bytes": 2678,
+            "sha256": "cc520edfcc0dfb98e22014a0f568bfa4d32c796aadead36a46e4c665de43e2f2"
+          },
+          {
+            "bytes": 29747,
+            "sha256": "f782dd4525dd3035def67def4a13dbba2fc594024d9548f1a1ff802bd9d0a091"
+          }
+        ],
+        "first_origins": {
+          "bytes": 18730,
+          "sha256": "956db77240fe81435125921f9eeb95ec1674770edb1e43520c7eb77271a2b9aa"
+        },
+        "main_ns_before_output": 8357308000,
+        "setup_ns": 1949027100
+      },
+      {
+        "label": "B0",
+        "phase": "B0",
+        "exit_code": 0,
+        "timeout": false,
+        "contract_accepted": true,
+        "actor_seconds": 10.765028599998914,
+        "outer_seconds": 11.636640499928035,
+        "close_utc": "2026-11-08T01:16:03.460628+00:00",
+        "reservation_held_after_close": false,
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 52365,
+            "sha256": "7e12bd4d1267350a824b53f73d933c52a86a0f311882d31deb492b15690d3679"
+          },
+          "ACTUAL.json": {
+            "bytes": 1613,
+            "sha256": "a75b68ecf13fe7eb9463cb5c1311ccfff4f3aa77aa06cf9d074ace55c85ccf0b"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 235,
+            "sha256": "57a4ae1c72bcf7ece437bc4a519704ecb2857001226d1dcefb1e481863b67674"
+          }
+        },
+        "operator_pin": {
+          "bytes": 861,
+          "sha256": "11540fd69fc8461cc6914cd7b7c062b029634037036cedbf31256f9b40bf8b94"
+        },
+        "raw_report_label": "B0",
+        "source_variant": "newP117Lifecycle8",
+        "source_family": [
+          {
+            "bytes": 3543,
+            "sha256": "06062ee655a6aeda1fd8888895716ad379f4aae14f931bb9813f0acb2d601fb7"
+          },
+          {
+            "bytes": 1739,
+            "sha256": "66470190c76ede63ca85b962c5f027413441b4ab12afb0a8d8913384a4722c2b"
+          },
+          {
+            "bytes": 3751,
+            "sha256": "7bb5ea4bfcebe16fe93f4c7d45f1a552f6934b8de36b4433de9a849ebb873b0b"
+          },
+          {
+            "bytes": 2684,
+            "sha256": "c80f8678c932b83bd50ef0eed8fe1094d619406439758252dd9250a1646812a2"
+          },
+          {
+            "bytes": 2136,
+            "sha256": "49f0a4b945c225e5afaa5329f474208b5a34a35905ae2da884248a93621b8682"
+          },
+          {
+            "bytes": 47612,
+            "sha256": "c347c1e40a15a7676b8176b58320a3195222622c1d03fcfd0a6bd7cd7a22648a"
+          },
+          {
+            "bytes": 2678,
+            "sha256": "cc520edfcc0dfb98e22014a0f568bfa4d32c796aadead36a46e4c665de43e2f2"
+          },
+          {
+            "bytes": 30585,
+            "sha256": "1cb2b10d9d668ea347e806d0bceb96310f5f9d89679a2bc11315a367914e777a"
+          }
+        ],
+        "first_origins": {
+          "bytes": 18458,
+          "sha256": "0313f15196995db6a61bb3fa9f12c5b0bc57316dcd4e1216b55ecef3e961e77c"
+        },
+        "main_ns_before_output": 8318643700,
+        "setup_ns": 1868563800
+      },
+      {
+        "label": "B1",
+        "phase": "B1",
+        "exit_code": 0,
+        "timeout": false,
+        "contract_accepted": true,
+        "actor_seconds": 11.110425399965607,
+        "outer_seconds": 12.390284799970686,
+        "close_utc": "2026-11-08T01:16:15.606663+00:00",
+        "reservation_held_after_close": false,
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 52365,
+            "sha256": "eba255d6bf950f4bfa15560fb6c5ed2c8128234718bdac89fa8f9c6e9db61150"
+          },
+          "ACTUAL.json": {
+            "bytes": 1613,
+            "sha256": "e9a6d1ac1dc76849f780191f9232aeff5e63fef88a082e22c8385fbd1835df07"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 235,
+            "sha256": "87e8a7f2424c46c0687deed8c58fac9cdba0cedaaa49aa0d310c46e6d3de0189"
+          }
+        },
+        "operator_pin": {
+          "bytes": 861,
+          "sha256": "1de15eb5c49d3829b7eac9dafbd0622b3db4d703875da7f3cc476a142c073600"
+        },
+        "raw_report_label": "B1",
+        "source_variant": "newP117Lifecycle8",
+        "source_family": [
+          {
+            "bytes": 3543,
+            "sha256": "06062ee655a6aeda1fd8888895716ad379f4aae14f931bb9813f0acb2d601fb7"
+          },
+          {
+            "bytes": 1739,
+            "sha256": "66470190c76ede63ca85b962c5f027413441b4ab12afb0a8d8913384a4722c2b"
+          },
+          {
+            "bytes": 3751,
+            "sha256": "7bb5ea4bfcebe16fe93f4c7d45f1a552f6934b8de36b4433de9a849ebb873b0b"
+          },
+          {
+            "bytes": 2684,
+            "sha256": "c80f8678c932b83bd50ef0eed8fe1094d619406439758252dd9250a1646812a2"
+          },
+          {
+            "bytes": 2136,
+            "sha256": "49f0a4b945c225e5afaa5329f474208b5a34a35905ae2da884248a93621b8682"
+          },
+          {
+            "bytes": 47612,
+            "sha256": "c347c1e40a15a7676b8176b58320a3195222622c1d03fcfd0a6bd7cd7a22648a"
+          },
+          {
+            "bytes": 2678,
+            "sha256": "cc520edfcc0dfb98e22014a0f568bfa4d32c796aadead36a46e4c665de43e2f2"
+          },
+          {
+            "bytes": 30585,
+            "sha256": "1cb2b10d9d668ea347e806d0bceb96310f5f9d89679a2bc11315a367914e777a"
+          }
+        ],
+        "first_origins": {
+          "bytes": 18458,
+          "sha256": "0313f15196995db6a61bb3fa9f12c5b0bc57316dcd4e1216b55ecef3e961e77c"
+        },
+        "main_ns_before_output": 8448949500,
+        "setup_ns": 1973529500
+      },
+      {
+        "label": "A1",
+        "phase": "A1",
+        "exit_code": 0,
+        "timeout": false,
+        "contract_accepted": true,
+        "actor_seconds": 10.588167699985206,
+        "outer_seconds": 11.370986699941568,
+        "close_utc": "2026-11-08T01:16:27.648816+00:00",
+        "reservation_held_after_close": false,
+        "receipts": {
+          "BEGIN.json": {
+            "bytes": 52375,
+            "sha256": "0175f999d300b0a36c3cdc3be7af7389a909e47f37dc69c8f707c9a986c6f858"
+          },
+          "ACTUAL.json": {
+            "bytes": 1623,
+            "sha256": "6926d9a412aab1d4caca68a2bdc35cc4c76b96b3ac208ad6529b588277f9803d"
+          },
+          "MANAGED-CLOSE.json": {
+            "bytes": 235,
+            "sha256": "931e3d33fe52aa0b4ce5bd812ea9a5b6677d6eabba9b1a62ef939ca017330c73"
+          }
+        },
+        "operator_pin": {
+          "bytes": 861,
+          "sha256": "e41f4982e4413e5c3f8f72528da9f116cbac58303f620a16586657b2ab8f39e8"
+        },
+        "raw_report_label": "B1",
+        "source_variant": "oldP116successfulLifecycle8",
+        "source_family": [
+          {
+            "bytes": 3543,
+            "sha256": "97cacd334ab2186aa869e67525e67a281d6a84e5e93da5040bb9b06225e0d284"
+          },
+          {
+            "bytes": 1739,
+            "sha256": "66470190c76ede63ca85b962c5f027413441b4ab12afb0a8d8913384a4722c2b"
+          },
+          {
+            "bytes": 3751,
+            "sha256": "7bb5ea4bfcebe16fe93f4c7d45f1a552f6934b8de36b4433de9a849ebb873b0b"
+          },
+          {
+            "bytes": 2684,
+            "sha256": "c80f8678c932b83bd50ef0eed8fe1094d619406439758252dd9250a1646812a2"
+          },
+          {
+            "bytes": 2136,
+            "sha256": "49f0a4b945c225e5afaa5329f474208b5a34a35905ae2da884248a93621b8682"
+          },
+          {
+            "bytes": 47612,
+            "sha256": "c347c1e40a15a7676b8176b58320a3195222622c1d03fcfd0a6bd7cd7a22648a"
+          },
+          {
+            "bytes": 2678,
+            "sha256": "cc520edfcc0dfb98e22014a0f568bfa4d32c796aadead36a46e4c665de43e2f2"
+          },
+          {
+            "bytes": 29747,
+            "sha256": "f782dd4525dd3035def67def4a13dbba2fc594024d9548f1a1ff802bd9d0a091"
+          }
+        ],
+        "first_origins": {
+          "bytes": 18730,
+          "sha256": "956db77240fe81435125921f9eeb95ec1674770edb1e43520c7eb77271a2b9aa"
+        },
+        "main_ns_before_output": 8267809200,
+        "setup_ns": 1860548600
+      }
+    ],
+    "owner_Test01_error": "Owner checkedException in third fixture writer.locked lambda quote(true), sourceL90, actualjavac1error0class0JUnit. Test02 lifts same fullquote before lock; all input/assertions/selectors unchanged. Production literal model hunk unchanged; not a model or production failure.",
+    "Native_preBEGIN_metadata_error_pin": {
+      "bytes": 874,
+      "sha256": "2e8c3ba6e70bb1d13f9422df875beaba7de86e2883fe886bf14c7188dc97a348"
+    },
+    "Native_error_attribution": "Wrong historical helper basename FileNotFound before claim/JVM/BEGIN;0Java,not model or javac RED",
+    "previous_P116_pin": {
+      "bytes": 67246,
+      "sha256": "c4e58eaa32a9657089a21aff08de5b5e0f6e3d101d727ec6f1a0d983c223af7c"
+    },
+    "Main03_recompiled": 0,
+    "new_PREP_JVMs": 0,
+    "dataset_refresh": false,
+    "Root_direct_pin_review": {
+      "bytes": 534,
+      "sha256": "ea7badd24428a98961e63723a57ec9f751bcffe75cb053fd11afb07c9ab6d156"
+    },
+    "Root_direct_pins": 77,
+    "Root_unique_paths": 73,
+    "Root_all_match": true,
+    "Root_new_cases_review_pin": {
+      "bytes": 2173,
+      "sha256": "b5f2a5137c61e0ea02dc365d6b9d009896fbd74f6ff82866486a34e6a35fa4fc"
+    }
+  },
+  "measurement": {
+    "raw_pin": {
+      "bytes": 399381,
+      "sha256": "35202ce5a5bc6f599e58ad383cbfaa83ac51bcb53be459aac62f1a74d11a136e"
+    },
+    "identity_pin": {
+      "bytes": 6593,
+      "sha256": "d36ab293afbda415f32cca92604436be74ac6659a39386b3c4da50888f82c867"
+    },
+    "Root_actual_review_pin": {
+      "bytes": 112138,
+      "sha256": "fff2a4fe9ee441673d965dd75850e94fed83ea1c685cf437a8652723d8f935c0"
+    },
+    "Root_named_origin_pin": {
+      "bytes": 49645,
+      "sha256": "2a457f8703358e55abaffeca15eb181a393f991c56bbf2134d7381bdace242f0"
+    },
+    "baseline_Lifecycle8_pin": {
+      "bytes": 52983,
+      "sha256": "8f99aed06b93262eb55a5e9f9538782ba0cd24221168a354ac723320945dd1db"
+    },
+    "common_P116_B21_pin": {
+      "bytes": 61017,
+      "sha256": "3a271ff504e307a402482396a782ae54318004161febe763bc084a4940cada5d"
+    },
+    "logical_to_raw_labels": {
+      "A0": "B0",
+      "B0": "B0",
+      "B1": "B1",
+      "A1": "B1"
+    },
+    "raw_labels_preserved": true,
+    "variant_source": "Complete Lifecycle8 family strict firstorigin/sourcehash/orderedCP only; commonP11621, Main03 andP114DATA/root/EXPECTED unchanged. Named124pins differ onlyLifecycle and$Bound class hashes. Rawcachetrue is commonP114 resultAPI lane, not new intent-hit proof.",
+    "all_24_calls": [
+      {
+        "logical_phase": "A0",
+        "raw_report_label": "B0",
+        "source_variant": "oldP116successfulLifecycle8",
+        "kind": "warmup",
+        "index": 0,
+        "whole": {
+          "wall_ns": 2712244900,
+          "cpu_ns": 656250000,
+          "thread_allocated_bytes": 965964680
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 7029900,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 436056
+          },
+          "construct": {
+            "wall_ns": 844634200,
+            "cpu_ns": 171875000,
+            "thread_allocated_bytes": 182495456
+          },
+          "compose": {
+            "wall_ns": 28118500,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 1535656
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 834100,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 44200
+          },
+          "preserve_readback": {
+            "wall_ns": 305017000,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 125087192
+          },
+          "args_command_data": {
+            "wall_ns": 176453100,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 5745600
+          },
+          "resolve_full": {
+            "wall_ns": 575543800,
+            "cpu_ns": 109375000,
+            "thread_allocated_bytes": 339080408
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 104221000,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175316336
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 420731300,
+            "cpu_ns": 109375000,
+            "thread_allocated_bytes": 116526832
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 249353200,
+            "cpu_ns": 78125000,
+            "thread_allocated_bytes": 19695672
+          },
+          "writer_release": {
+            "wall_ns": 308800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1272
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "A0",
+        "raw_report_label": "B0",
+        "source_variant": "oldP116successfulLifecycle8",
+        "kind": "warmup",
+        "index": 1,
+        "whole": {
+          "wall_ns": 1049319200,
+          "cpu_ns": 265625000,
+          "thread_allocated_bytes": 945674296
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 858600,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28336
+          },
+          "construct": {
+            "wall_ns": 132438100,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 175222552
+          },
+          "compose": {
+            "wall_ns": 412800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 406100,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 63365900,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 124024584
+          },
+          "args_command_data": {
+            "wall_ns": 190957800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3093216
+          },
+          "resolve_full": {
+            "wall_ns": 483447400,
+            "cpu_ns": 109375000,
+            "thread_allocated_bytes": 338405656
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 94809500,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175257792
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 72064400,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 114649616
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 10277600,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 14964544
+          },
+          "writer_release": {
+            "wall_ns": 281000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1248
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "A0",
+        "raw_report_label": "B0",
+        "source_variant": "oldP116successfulLifecycle8",
+        "kind": "measured",
+        "index": 0,
+        "whole": {
+          "wall_ns": 710807400,
+          "cpu_ns": 296875000,
+          "thread_allocated_bytes": 945623208
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 820400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28336
+          },
+          "construct": {
+            "wall_ns": 91405100,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 114200,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 411000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 62550800,
+            "cpu_ns": 78125000,
+            "thread_allocated_bytes": 124024584
+          },
+          "args_command_data": {
+            "wall_ns": 8926500,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3053592
+          },
+          "resolve_full": {
+            "wall_ns": 247904400,
+            "cpu_ns": 93750000,
+            "thread_allocated_bytes": 338405248
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 95726200,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 194177200,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 114645088
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 8509500,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 14964544
+          },
+          "writer_release": {
+            "wall_ns": 262100,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1248
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "A0",
+        "raw_report_label": "B0",
+        "source_variant": "oldP116successfulLifecycle8",
+        "kind": "measured",
+        "index": 1,
+        "whole": {
+          "wall_ns": 566296000,
+          "cpu_ns": 281250000,
+          "thread_allocated_bytes": 945611304
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 1838700,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28336
+          },
+          "construct": {
+            "wall_ns": 94217400,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 108800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 427700,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 60315300,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 124024584
+          },
+          "args_command_data": {
+            "wall_ns": 17784100,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3053488
+          },
+          "resolve_full": {
+            "wall_ns": 232572600,
+            "cpu_ns": 93750000,
+            "thread_allocated_bytes": 338405208
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 83232400,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 68409900,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 114633304
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 7136600,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 14964544
+          },
+          "writer_release": {
+            "wall_ns": 252500,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1272
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "A0",
+        "raw_report_label": "B0",
+        "source_variant": "oldP116successfulLifecycle8",
+        "kind": "measured",
+        "index": 2,
+        "whole": {
+          "wall_ns": 650391200,
+          "cpu_ns": 312500000,
+          "thread_allocated_bytes": 945611480
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 716100,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28336
+          },
+          "construct": {
+            "wall_ns": 159599600,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 254200,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 373600,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 104270300,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 124024728
+          },
+          "args_command_data": {
+            "wall_ns": 25602300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3053488
+          },
+          "resolve_full": {
+            "wall_ns": 198144200,
+            "cpu_ns": 109375000,
+            "thread_allocated_bytes": 338405192
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 85817600,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 63344300,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 114633352
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 11967500,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 14964544
+          },
+          "writer_release": {
+            "wall_ns": 301500,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1272
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "A0",
+        "raw_report_label": "B0",
+        "source_variant": "oldP116successfulLifecycle8",
+        "kind": "measured",
+        "index": 3,
+        "whole": {
+          "wall_ns": 578444700,
+          "cpu_ns": 312500000,
+          "thread_allocated_bytes": 945623680
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 787600,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28336
+          },
+          "construct": {
+            "wall_ns": 90454100,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 258500,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 429400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 92443500,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 124036992
+          },
+          "args_command_data": {
+            "wall_ns": 13616000,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 3053488
+          },
+          "resolve_full": {
+            "wall_ns": 199887900,
+            "cpu_ns": 93750000,
+            "thread_allocated_bytes": 338405136
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 105005500,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 69088800,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 114633368
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 6213300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 14964544
+          },
+          "writer_release": {
+            "wall_ns": 260100,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1248
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "B0",
+        "raw_report_label": "B0",
+        "source_variant": "newP117Lifecycle8",
+        "kind": "warmup",
+        "index": 0,
+        "whole": {
+          "wall_ns": 2840701600,
+          "cpu_ns": 484375000,
+          "thread_allocated_bytes": 911864736
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 6653300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 435792
+          },
+          "construct": {
+            "wall_ns": 837777100,
+            "cpu_ns": 125000000,
+            "thread_allocated_bytes": 182487672
+          },
+          "compose": {
+            "wall_ns": 28669200,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1533704
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 923300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 44176
+          },
+          "preserve_readback": {
+            "wall_ns": 289412900,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 125086336
+          },
+          "args_command_data": {
+            "wall_ns": 171119600,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 5749496
+          },
+          "resolve_full": {
+            "wall_ns": 576464700,
+            "cpu_ns": 78125000,
+            "thread_allocated_bytes": 338526040
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 124106000,
+            "cpu_ns": 78125000,
+            "thread_allocated_bytes": 175316256
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 413956200,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 63006168
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 391336300,
+            "cpu_ns": 78125000,
+            "thread_allocated_bytes": 19677888
+          },
+          "writer_release": {
+            "wall_ns": 283000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1208
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "B0",
+        "raw_report_label": "B0",
+        "source_variant": "newP117Lifecycle8",
+        "kind": "warmup",
+        "index": 1,
+        "whole": {
+          "wall_ns": 906887700,
+          "cpu_ns": 328125000,
+          "thread_allocated_bytes": 892178568
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 1120900,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28176
+          },
+          "construct": {
+            "wall_ns": 182246400,
+            "cpu_ns": 93750000,
+            "thread_allocated_bytes": 175222552
+          },
+          "compose": {
+            "wall_ns": 131100,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 421800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 70986300,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 124023752
+          },
+          "args_command_data": {
+            "wall_ns": 76957000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3069344
+          },
+          "resolve_full": {
+            "wall_ns": 317194300,
+            "cpu_ns": 109375000,
+            "thread_allocated_bytes": 338412344
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 193285500,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 53594500,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 61160416
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 10694600,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 14976496
+          },
+          "writer_release": {
+            "wall_ns": 255300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1184
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "B0",
+        "raw_report_label": "B0",
+        "source_variant": "newP117Lifecycle8",
+        "kind": "measured",
+        "index": 0,
+        "whole": {
+          "wall_ns": 678452400,
+          "cpu_ns": 281250000,
+          "thread_allocated_bytes": 892163144
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 780600,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28176
+          },
+          "construct": {
+            "wall_ns": 102752300,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 109700,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 426000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 54904500,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 124023752
+          },
+          "args_command_data": {
+            "wall_ns": 6290900,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3065440
+          },
+          "resolve_full": {
+            "wall_ns": 232816100,
+            "cpu_ns": 109375000,
+            "thread_allocated_bytes": 338411696
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 91027100,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 181953000,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 61155832
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 7058200,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 14976496
+          },
+          "writer_release": {
+            "wall_ns": 334000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1184
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "B0",
+        "raw_report_label": "B0",
+        "source_variant": "newP117Lifecycle8",
+        "kind": "measured",
+        "index": 1,
+        "whole": {
+          "wall_ns": 565953100,
+          "cpu_ns": 328125000,
+          "thread_allocated_bytes": 892151400
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 978800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28176
+          },
+          "construct": {
+            "wall_ns": 90022800,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 104400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 395300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 65775800,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 124023752
+          },
+          "args_command_data": {
+            "wall_ns": 15762300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3065440
+          },
+          "resolve_full": {
+            "wall_ns": 255206900,
+            "cpu_ns": 140625000,
+            "thread_allocated_bytes": 338411656
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 81746300,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 48736000,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 61144104
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 6961200,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 14976496
+          },
+          "writer_release": {
+            "wall_ns": 263300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1208
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "B0",
+        "raw_report_label": "B0",
+        "source_variant": "newP117Lifecycle8",
+        "kind": "measured",
+        "index": 2,
+        "whole": {
+          "wall_ns": 728172000,
+          "cpu_ns": 281250000,
+          "thread_allocated_bytes": 892151552
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 14405200,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28176
+          },
+          "construct": {
+            "wall_ns": 198934400,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 356400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 542700,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 77825300,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 124023896
+          },
+          "args_command_data": {
+            "wall_ns": 20780600,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3065440
+          },
+          "resolve_full": {
+            "wall_ns": 172052800,
+            "cpu_ns": 109375000,
+            "thread_allocated_bytes": 338411640
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 98560400,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 130747500,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 61144152
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 13569300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 14976496
+          },
+          "writer_release": {
+            "wall_ns": 397400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1184
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "B0",
+        "raw_report_label": "B0",
+        "source_variant": "newP117Lifecycle8",
+        "kind": "measured",
+        "index": 3,
+        "whole": {
+          "wall_ns": 586811900,
+          "cpu_ns": 296875000,
+          "thread_allocated_bytes": 892163776
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 892200,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28176
+          },
+          "construct": {
+            "wall_ns": 80935300,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 302300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 400800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 57200500,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 124036160
+          },
+          "args_command_data": {
+            "wall_ns": 3367300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3065440
+          },
+          "resolve_full": {
+            "wall_ns": 302541300,
+            "cpu_ns": 93750000,
+            "thread_allocated_bytes": 338411560
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 81803600,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 51409500,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 61144168
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 7665100,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 14976496
+          },
+          "writer_release": {
+            "wall_ns": 294000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1208
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "B1",
+        "raw_report_label": "B1",
+        "source_variant": "newP117Lifecycle8",
+        "kind": "warmup",
+        "index": 0,
+        "whole": {
+          "wall_ns": 2594410200,
+          "cpu_ns": 718750000,
+          "thread_allocated_bytes": 911974664
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 7578600,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 435792
+          },
+          "construct": {
+            "wall_ns": 822833400,
+            "cpu_ns": 187500000,
+            "thread_allocated_bytes": 182486304
+          },
+          "compose": {
+            "wall_ns": 28170200,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 1533704
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 869800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 44200
+          },
+          "preserve_readback": {
+            "wall_ns": 276436600,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 125085744
+          },
+          "args_command_data": {
+            "wall_ns": 170482500,
+            "cpu_ns": 93750000,
+            "thread_allocated_bytes": 5744816
+          },
+          "resolve_full": {
+            "wall_ns": 568752600,
+            "cpu_ns": 125000000,
+            "thread_allocated_bytes": 338944928
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 111706700,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175316256
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 354434900,
+            "cpu_ns": 78125000,
+            "thread_allocated_bytes": 62687752
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 252868900,
+            "cpu_ns": 78125000,
+            "thread_allocated_bytes": 19693960
+          },
+          "writer_release": {
+            "wall_ns": 276000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1208
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "B1",
+        "raw_report_label": "B1",
+        "source_variant": "newP117Lifecycle8",
+        "kind": "warmup",
+        "index": 1,
+        "whole": {
+          "wall_ns": 1207202500,
+          "cpu_ns": 281250000,
+          "thread_allocated_bytes": 892170168
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 785800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28176
+          },
+          "construct": {
+            "wall_ns": 175654400,
+            "cpu_ns": 78125000,
+            "thread_allocated_bytes": 175222552
+          },
+          "compose": {
+            "wall_ns": 127000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 452000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 78902900,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 124023752
+          },
+          "args_command_data": {
+            "wall_ns": 228092000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3093216
+          },
+          "resolve_full": {
+            "wall_ns": 464729200,
+            "cpu_ns": 109375000,
+            "thread_allocated_bytes": 338415688
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 197959900,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175257792
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 49681100,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 61136512
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 10557100,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 14964544
+          },
+          "writer_release": {
+            "wall_ns": 261100,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1184
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "B1",
+        "raw_report_label": "B1",
+        "source_variant": "newP117Lifecycle8",
+        "kind": "measured",
+        "index": 0,
+        "whole": {
+          "wall_ns": 675024900,
+          "cpu_ns": 265625000,
+          "thread_allocated_bytes": 892112848
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 824700,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28176
+          },
+          "construct": {
+            "wall_ns": 104265900,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 110200,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 355500,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 55856000,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 124023808
+          },
+          "args_command_data": {
+            "wall_ns": 6044300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3053488
+          },
+          "resolve_full": {
+            "wall_ns": 242970700,
+            "cpu_ns": 93750000,
+            "thread_allocated_bytes": 338404928
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 86702400,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 171022900,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 61136152
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 6565600,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 14964544
+          },
+          "writer_release": {
+            "wall_ns": 306700,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1184
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "B1",
+        "raw_report_label": "B1",
+        "source_variant": "newP117Lifecycle8",
+        "kind": "measured",
+        "index": 1,
+        "whole": {
+          "wall_ns": 588768700,
+          "cpu_ns": 265625000,
+          "thread_allocated_bytes": 892096824
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 822300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28176
+          },
+          "construct": {
+            "wall_ns": 95522700,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 110800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 418200,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 64515800,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 124023752
+          },
+          "args_command_data": {
+            "wall_ns": 18093000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3053488
+          },
+          "resolve_full": {
+            "wall_ns": 252043500,
+            "cpu_ns": 109375000,
+            "thread_allocated_bytes": 338404888
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 87735700,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 62481300,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 61120200
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 6773000,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 14964544
+          },
+          "writer_release": {
+            "wall_ns": 252400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1208
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "B1",
+        "raw_report_label": "B1",
+        "source_variant": "newP117Lifecycle8",
+        "kind": "measured",
+        "index": 2,
+        "whole": {
+          "wall_ns": 667033300,
+          "cpu_ns": 328125000,
+          "thread_allocated_bytes": 892097000
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 6797400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28176
+          },
+          "construct": {
+            "wall_ns": 192608700,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 262300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 514000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 66866700,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 124023896
+          },
+          "args_command_data": {
+            "wall_ns": 19759800,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 3053488
+          },
+          "resolve_full": {
+            "wall_ns": 177434200,
+            "cpu_ns": 109375000,
+            "thread_allocated_bytes": 338404896
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 81914000,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 108821300,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 61120248
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 11711400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 14964544
+          },
+          "writer_release": {
+            "wall_ns": 343500,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1184
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "B1",
+        "raw_report_label": "B1",
+        "source_variant": "newP117Lifecycle8",
+        "kind": "measured",
+        "index": 3,
+        "whole": {
+          "wall_ns": 613774500,
+          "cpu_ns": 359375000,
+          "thread_allocated_bytes": 892109592
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 684200,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28176
+          },
+          "construct": {
+            "wall_ns": 90153800,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 348400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 415900,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 65835100,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 124036160
+          },
+          "args_command_data": {
+            "wall_ns": 3606000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3053488
+          },
+          "resolve_full": {
+            "wall_ns": 289837600,
+            "cpu_ns": 140625000,
+            "thread_allocated_bytes": 338405024
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 93879600,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 62333700,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 61120424
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 6408400,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 14964544
+          },
+          "writer_release": {
+            "wall_ns": 271800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1208
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "A1",
+        "raw_report_label": "B1",
+        "source_variant": "oldP116successfulLifecycle8",
+        "kind": "warmup",
+        "index": 0,
+        "whole": {
+          "wall_ns": 2824099500,
+          "cpu_ns": 687500000,
+          "thread_allocated_bytes": 965417560
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 9665800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 437208
+          },
+          "construct": {
+            "wall_ns": 855598200,
+            "cpu_ns": 156250000,
+            "thread_allocated_bytes": 182490984
+          },
+          "compose": {
+            "wall_ns": 27938200,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 1535656
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 839200,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 44200
+          },
+          "preserve_readback": {
+            "wall_ns": 276472000,
+            "cpu_ns": 78125000,
+            "thread_allocated_bytes": 125102520
+          },
+          "args_command_data": {
+            "wall_ns": 168236300,
+            "cpu_ns": 78125000,
+            "thread_allocated_bytes": 5738056
+          },
+          "resolve_full": {
+            "wall_ns": 563971700,
+            "cpu_ns": 109375000,
+            "thread_allocated_bytes": 338882336
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 121857300,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175316336
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 383938600,
+            "cpu_ns": 93750000,
+            "thread_allocated_bytes": 116189264
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 415304200,
+            "cpu_ns": 93750000,
+            "thread_allocated_bytes": 19679600
+          },
+          "writer_release": {
+            "wall_ns": 278000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1400
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "A1",
+        "raw_report_label": "B1",
+        "source_variant": "oldP116successfulLifecycle8",
+        "kind": "warmup",
+        "index": 1,
+        "whole": {
+          "wall_ns": 837009700,
+          "cpu_ns": 328125000,
+          "thread_allocated_bytes": 945705024
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 1958900,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 29328
+          },
+          "construct": {
+            "wall_ns": 144870500,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175222552
+          },
+          "compose": {
+            "wall_ns": 244100,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 390800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 96526900,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 124035976
+          },
+          "args_command_data": {
+            "wall_ns": 76705600,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 3069296
+          },
+          "resolve_full": {
+            "wall_ns": 339504700,
+            "cpu_ns": 109375000,
+            "thread_allocated_bytes": 338412368
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 89846100,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 76321000,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 114673520
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 10382400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 14976496
+          },
+          "writer_release": {
+            "wall_ns": 258700,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1184
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "A1",
+        "raw_report_label": "B1",
+        "source_variant": "oldP116successfulLifecycle8",
+        "kind": "measured",
+        "index": 0,
+        "whole": {
+          "wall_ns": 755594300,
+          "cpu_ns": 312500000,
+          "thread_allocated_bytes": 945676408
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 1741000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28232
+          },
+          "construct": {
+            "wall_ns": 97702000,
+            "cpu_ns": 78125000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 150900,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 392400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 62088800,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 124023752
+          },
+          "args_command_data": {
+            "wall_ns": 6653100,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3065544
+          },
+          "resolve_full": {
+            "wall_ns": 276348900,
+            "cpu_ns": 93750000,
+            "thread_allocated_bytes": 338411696
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 99437800,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 201460300,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 114668936
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 9349400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 14976496
+          },
+          "writer_release": {
+            "wall_ns": 269700,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1184
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "A1",
+        "raw_report_label": "B1",
+        "source_variant": "oldP116successfulLifecycle8",
+        "kind": "measured",
+        "index": 1,
+        "whole": {
+          "wall_ns": 623332800,
+          "cpu_ns": 296875000,
+          "thread_allocated_bytes": 945664504
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 1721100,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28176
+          },
+          "construct": {
+            "wall_ns": 107032900,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 114900,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 388600,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 70674400,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 124023752
+          },
+          "args_command_data": {
+            "wall_ns": 16294700,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 3065440
+          },
+          "resolve_full": {
+            "wall_ns": 244689300,
+            "cpu_ns": 109375000,
+            "thread_allocated_bytes": 338411680
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 95096900,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 79000500,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 114657208
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 8032000,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 14976496
+          },
+          "writer_release": {
+            "wall_ns": 287500,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1184
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "A1",
+        "raw_report_label": "B1",
+        "source_variant": "oldP116successfulLifecycle8",
+        "kind": "measured",
+        "index": 2,
+        "whole": {
+          "wall_ns": 669569800,
+          "cpu_ns": 265625000,
+          "thread_allocated_bytes": 945664656
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 1184800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28176
+          },
+          "construct": {
+            "wall_ns": 170860900,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 347900,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 390500,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 91938300,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 124023896
+          },
+          "args_command_data": {
+            "wall_ns": 30792200,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3065440
+          },
+          "resolve_full": {
+            "wall_ns": 196440400,
+            "cpu_ns": 78125000,
+            "thread_allocated_bytes": 338411640
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 84236000,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 78845700,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 114657256
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 14182300,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 14976496
+          },
+          "writer_release": {
+            "wall_ns": 350800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1184
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      },
+      {
+        "logical_phase": "A1",
+        "raw_report_label": "B1",
+        "source_variant": "oldP116successfulLifecycle8",
+        "kind": "measured",
+        "index": 3,
+        "whole": {
+          "wall_ns": 561090100,
+          "cpu_ns": 359375000,
+          "thread_allocated_bytes": 945677112
+        },
+        "phases": {
+          "writer_acquire": {
+            "wall_ns": 673700,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 28176
+          },
+          "construct": {
+            "wall_ns": 91672800,
+            "cpu_ns": 78125000,
+            "thread_allocated_bytes": 175216264
+          },
+          "compose": {
+            "wall_ns": 220400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3624
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": 424800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 23128
+          },
+          "preserve_readback": {
+            "wall_ns": 83739000,
+            "cpu_ns": 31250000,
+            "thread_allocated_bytes": 124036160
+          },
+          "args_command_data": {
+            "wall_ns": 3675800,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 3065440
+          },
+          "resolve_full": {
+            "wall_ns": 212897700,
+            "cpu_ns": 125000000,
+            "thread_allocated_bytes": 338411792
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": 84330300,
+            "cpu_ns": 62500000,
+            "thread_allocated_bytes": 175257552
+          },
+          "pure_intent_canonical": {
+            "wall_ns": 75529800,
+            "cpu_ns": 46875000,
+            "thread_allocated_bytes": 114657272
+          },
+          "marker_and_input_validation": {
+            "wall_ns": 7720400,
+            "cpu_ns": 15625000,
+            "thread_allocated_bytes": 14976496
+          },
+          "writer_release": {
+            "wall_ns": 205400,
+            "cpu_ns": 0,
+            "thread_allocated_bytes": 1208
+          }
+        },
+        "cache_api_used": true,
+        "cas_existed_before_preserve": true,
+        "failure": null
+      }
+    ],
+    "counts": {
+      "independent_JVMs": 4,
+      "warmups": 8,
+      "measured": 16,
+      "filtered_samples": 0,
+      "forced_GC": false
+    },
+    "expected_markers": {
+      "input_sha256": "fe413956e14af2487bbec3b900e7ef6f08e653fc405ad5b71466eaa9e2cb9cdd",
+      "input_bytes": "6831978",
+      "q2_sha256": "a5a09c41abe1a73a358e986f241774f4cb3b9a19d85e2b70f7678a71237661be",
+      "result_sha256": "a75285853229d9d29d2f0007cc76f2d48db0e4f32a2d39db75c7f466b70503cb",
+      "finalized_sha256": "24f59b81b432937ca734b326e510f82b3690ce0ffa52735bf01fdc0ca6b2ff15",
+      "args_sha256": "aeb2806fbde45632e9380f9343ffd51fa36f9c37c6734f9733d1311f775be177",
+      "command_sha256": "4aec1347b02bffc364cf6fae8c81add1e0fea542bb8f535ac34fde686799c7fb",
+      "action_id": "action-f8a0b2ce612fd677d515b41e258ad80e2c6095c426fa66a6f7a0355f34b283a3",
+      "body_sha256": "d433648fb7e1d304bda482ac5c410d42e293de9d01e93fef54d836e4fb86f7b7",
+      "body_bytes": "18576",
+      "source_sha256": "dabe2962924d0d842cbc4f307537dead20d7e6abcb00d9874caca08de2f6dbd1",
+      "source_bytes": "61",
+      "prototype_sha256": "58743348b9182fdc963b196eaf1a785e448f56e6b5b479fcd79dac6d337ab1b6",
+      "CAS_sha256": "fe413956e14af2487bbec3b900e7ef6f08e653fc405ad5b71466eaa9e2cb9cdd"
+    },
+    "same_absolute_source_CAS_all_markers_verified": true,
+    "per_variant_summary": {
+      "A": {
+        "measured_calls": 8,
+        "whole": {
+          "wall_ns": {
+            "n": 8,
+            "supported": 8,
+            "mean": 639440787.5,
+            "median": 636862000.0,
+            "minimum": 561090100,
+            "maximum": 755594300
+          },
+          "cpu_ns": {
+            "n": 8,
+            "supported": 8,
+            "mean": 304687500,
+            "median": 304687500.0,
+            "minimum": 265625000,
+            "maximum": 359375000
+          },
+          "thread_allocated_bytes": {
+            "n": 8,
+            "supported": 8,
+            "mean": 945644044,
+            "median": 945644092.0,
+            "minimum": 945611304,
+            "maximum": 945677112
+          }
+        },
+        "stages": {
+          "writer_acquire": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 1185425,
+              "median": 1002600.0,
+              "minimum": 673700,
+              "maximum": 1838700
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 0,
+              "median": 0.0,
+              "minimum": 0,
+              "maximum": 0
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 28263,
+              "median": 28284.0,
+              "minimum": 28176,
+              "maximum": 28336
+            }
+          },
+          "construct": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 112868100,
+              "median": 95959700.0,
+              "minimum": 90454100,
+              "maximum": 170860900
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 54687500,
+              "median": 46875000.0,
+              "minimum": 31250000,
+              "maximum": 78125000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 175216264,
+              "median": 175216264.0,
+              "minimum": 175216264,
+              "maximum": 175216264
+            }
+          },
+          "compose": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 196225,
+              "median": 185650.0,
+              "minimum": 108800,
+              "maximum": 347900
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 0,
+              "median": 0.0,
+              "minimum": 0,
+              "maximum": 0
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 3624,
+              "median": 3624.0,
+              "minimum": 3624,
+              "maximum": 3624
+            }
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 404750,
+              "median": 401700.0,
+              "minimum": 373600,
+              "maximum": 429400
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 0,
+              "median": 0.0,
+              "minimum": 0,
+              "maximum": 0
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 23128,
+              "median": 23128.0,
+              "minimum": 23128,
+              "maximum": 23128
+            }
+          },
+          "preserve_readback": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 78502550,
+              "median": 77206700.0,
+              "minimum": 60315300,
+              "maximum": 104270300
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 48828125,
+              "median": 46875000.0,
+              "minimum": 31250000,
+              "maximum": 78125000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 124027306,
+              "median": 124024584.0,
+              "minimum": 124023752,
+              "maximum": 124036992
+            }
+          },
+          "args_command_data": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 15418087.5,
+              "median": 14955350.0,
+              "minimum": 3675800,
+              "maximum": 30792200
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 3906250,
+              "median": 0.0,
+              "minimum": 0,
+              "maximum": 15625000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 3059490,
+              "median": 3059516.0,
+              "minimum": 3053488,
+              "maximum": 3065544
+            }
+          },
+          "resolve_full": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 226110675,
+              "median": 222735150.0,
+              "minimum": 196440400,
+              "maximum": 276348900
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 99609375,
+              "median": 93750000.0,
+              "minimum": 78125000,
+              "maximum": 125000000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 338408449,
+              "median": 338408444.0,
+              "minimum": 338405136,
+              "maximum": 338411792
+            }
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 91610337.5,
+              "median": 90457250.0,
+              "minimum": 83232400,
+              "maximum": 105005500
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 52734375,
+              "median": 46875000.0,
+              "minimum": 46875000,
+              "maximum": 62500000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 175257552,
+              "median": 175257552.0,
+              "minimum": 175257552,
+              "maximum": 175257552
+            }
+          },
+          "pure_intent_canonical": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 103732062.5,
+              "median": 77187750.0,
+              "minimum": 63344300,
+              "maximum": 201460300
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 39062500,
+              "median": 39062500.0,
+              "minimum": 15625000,
+              "maximum": 62500000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 114648223,
+              "median": 114651148.0,
+              "minimum": 114633304,
+              "maximum": 114668936
+            }
+          },
+          "marker_and_input_validation": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 9138875,
+              "median": 8270750.0,
+              "minimum": 6213300,
+              "maximum": 14182300
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 5859375,
+              "median": 0.0,
+              "minimum": 0,
+              "maximum": 15625000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 14970520,
+              "median": 14970520.0,
+              "minimum": 14964544,
+              "maximum": 14976496
+            }
+          },
+          "writer_release": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 273700,
+              "median": 265900.0,
+              "minimum": 205400,
+              "maximum": 350800
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 0,
+              "median": 0.0,
+              "minimum": 0,
+              "maximum": 0
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 1225,
+              "median": 1228.0,
+              "minimum": 1184,
+              "maximum": 1272
+            }
+          }
+        },
+        "process_actor_mean_seconds": 10.675535349990241,
+        "process_outer_mean_seconds": 11.48123834998114,
+        "main_before_output_mean_ns": 8312558600,
+        "setup_mean_ns": 1904787850
+      },
+      "B": {
+        "measured_calls": 8,
+        "whole": {
+          "wall_ns": {
+            "n": 8,
+            "supported": 8,
+            "mean": 637998850,
+            "median": 640403900.0,
+            "minimum": 565953100,
+            "maximum": 728172000
+          },
+          "cpu_ns": {
+            "n": 8,
+            "supported": 8,
+            "mean": 300781250,
+            "median": 289062500.0,
+            "minimum": 265625000,
+            "maximum": 359375000
+          },
+          "thread_allocated_bytes": {
+            "n": 8,
+            "supported": 8,
+            "mean": 892130767,
+            "median": 892132124.0,
+            "minimum": 892096824,
+            "maximum": 892163776
+          }
+        },
+        "stages": {
+          "writer_acquire": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 3273175,
+              "median": 858450.0,
+              "minimum": 684200,
+              "maximum": 14405200
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 0,
+              "median": 0.0,
+              "minimum": 0,
+              "maximum": 0
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 28176,
+              "median": 28176.0,
+              "minimum": 28176,
+              "maximum": 28176
+            }
+          },
+          "construct": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 119399487.5,
+              "median": 99137500.0,
+              "minimum": 80935300,
+              "maximum": 198934400
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 52734375,
+              "median": 54687500.0,
+              "minimum": 31250000,
+              "maximum": 62500000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 175216264,
+              "median": 175216264.0,
+              "minimum": 175216264,
+              "maximum": 175216264
+            }
+          },
+          "compose": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 213062.5,
+              "median": 186550.0,
+              "minimum": 104400,
+              "maximum": 356400
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 0,
+              "median": 0.0,
+              "minimum": 0,
+              "maximum": 0
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 3624,
+              "median": 3624.0,
+              "minimum": 3624,
+              "maximum": 3624
+            }
+          },
+          "extract_and_metadata_source": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 433550,
+              "median": 417050.0,
+              "minimum": 355500,
+              "maximum": 542700
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 0,
+              "median": 0.0,
+              "minimum": 0,
+              "maximum": 0
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 23128,
+              "median": 23128.0,
+              "minimum": 23128,
+              "maximum": 23128
+            }
+          },
+          "preserve_readback": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 63597462.5,
+              "median": 65145800.0,
+              "minimum": 54904500,
+              "maximum": 77825300
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 46875000,
+              "median": 46875000.0,
+              "minimum": 31250000,
+              "maximum": 62500000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 124026897,
+              "median": 124023852.0,
+              "minimum": 124023752,
+              "maximum": 124036160
+            }
+          },
+          "args_command_data": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 11713025,
+              "median": 11026600.0,
+              "minimum": 3367300,
+              "maximum": 20780600
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 1953125,
+              "median": 0.0,
+              "minimum": 0,
+              "maximum": 15625000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 3059464,
+              "median": 3059464.0,
+              "minimum": 3053488,
+              "maximum": 3065440
+            }
+          },
+          "resolve_full": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 240612887.5,
+              "median": 247507100.0,
+              "minimum": 172052800,
+              "maximum": 302541300
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 113281250,
+              "median": 109375000.0,
+              "minimum": 93750000,
+              "maximum": 140625000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 338408286,
+              "median": 338408292.0,
+              "minimum": 338404888,
+              "maximum": 338411696
+            }
+          },
+          "distinct_q2_compose_compare": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 87921137.5,
+              "median": 87219050.0,
+              "minimum": 81746300,
+              "maximum": 98560400
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 52734375,
+              "median": 54687500.0,
+              "minimum": 31250000,
+              "maximum": 62500000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 175257552,
+              "median": 175257552.0,
+              "minimum": 175257552,
+              "maximum": 175257552
+            }
+          },
+          "pure_intent_canonical": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 102188150,
+              "median": 85651300.0,
+              "minimum": 48736000,
+              "maximum": 181953000
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 25390625,
+              "median": 31250000.0,
+              "minimum": 15625000,
+              "maximum": 31250000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 61135660,
+              "median": 61140128.0,
+              "minimum": 61120200,
+              "maximum": 61155832
+            }
+          },
+          "marker_and_input_validation": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 8339025,
+              "median": 7009700.0,
+              "minimum": 6408400,
+              "maximum": 13569300
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 7812500,
+              "median": 7812500.0,
+              "minimum": 0,
+              "maximum": 15625000
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 14970520,
+              "median": 14970520.0,
+              "minimum": 14964544,
+              "maximum": 14976496
+            }
+          },
+          "writer_release": {
+            "wall_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 307887.5,
+              "median": 300350.0,
+              "minimum": 252400,
+              "maximum": 397400
+            },
+            "cpu_ns": {
+              "n": 8,
+              "supported": 8,
+              "mean": 0,
+              "median": 0.0,
+              "minimum": 0,
+              "maximum": 0
+            },
+            "thread_allocated_bytes": {
+              "n": 8,
+              "supported": 8,
+              "mean": 1196,
+              "median": 1196.0,
+              "minimum": 1184,
+              "maximum": 1208
+            }
+          }
+        },
+        "process_actor_mean_seconds": 10.93772699998226,
+        "process_outer_mean_seconds": 12.01346264994936,
+        "main_before_output_mean_ns": 8383796600,
+        "setup_mean_ns": 1921046650
+      }
+    },
+    "descriptive_change_percent": {
+      "wall_ns": {
+        "mean": -0.2254997692026306,
+        "median": 0.5561487417996336
+      },
+      "cpu_ns": {
+        "mean": -1.2820512820512775,
+        "median": -5.128205128205132
+      },
+      "thread_allocated_bytes": {
+        "mean": -5.6589239195800385,
+        "median": -5.658785208166883
+      }
+    },
+    "process_windows": [
+      {
+        "logical": "A0",
+        "raw_report_label": "B0",
+        "actor_seconds": 10.762902999995276,
+        "main_ns": 8357308000,
+        "setup_ns": 1949027100,
+        "close": {
+          "atUtc": "2026-11-08T01:15:51.722946+00:00",
+          "phase": "A0",
+          "result": 0,
+          "fence_durable": true,
+          "launch_attempted": true,
+          "terminal_observed": true,
+          "own_reservation_still_held": false,
+          "automatic_successor": false
+        }
+      },
+      {
+        "logical": "B0",
+        "raw_report_label": "B0",
+        "actor_seconds": 10.765028599998914,
+        "main_ns": 8318643700,
+        "setup_ns": 1868563800,
+        "close": {
+          "atUtc": "2026-11-08T01:16:03.460628+00:00",
+          "phase": "B0",
+          "result": 0,
+          "fence_durable": true,
+          "launch_attempted": true,
+          "terminal_observed": true,
+          "own_reservation_still_held": false,
+          "automatic_successor": false
+        }
+      },
+      {
+        "logical": "B1",
+        "raw_report_label": "B1",
+        "actor_seconds": 11.110425399965607,
+        "main_ns": 8448949500,
+        "setup_ns": 1973529500,
+        "close": {
+          "atUtc": "2026-11-08T01:16:15.606663+00:00",
+          "phase": "B1",
+          "result": 0,
+          "fence_durable": true,
+          "launch_attempted": true,
+          "terminal_observed": true,
+          "own_reservation_still_held": false,
+          "automatic_successor": false
+        }
+      },
+      {
+        "logical": "A1",
+        "raw_report_label": "B1",
+        "actor_seconds": 10.588167699985206,
+        "main_ns": 8267809200,
+        "setup_ns": 1860548600,
+        "close": {
+          "atUtc": "2026-11-08T01:16:27.648816+00:00",
+          "phase": "A1",
+          "result": 0,
+          "fence_durable": true,
+          "launch_attempted": true,
+          "terminal_observed": true,
+          "own_reservation_still_held": false,
+          "automatic_successor": false
+        }
+      }
+    ],
+    "whole_windows": {
+      "ABBA_start": "2026-11-08T01:15:40.196240+00:00",
+      "A1_close": "2026-11-08T01:16:27.648816+00:00",
+      "ABBA_seconds_including_phase_gaps": 47.452576,
+      "first_actual_production_start": "2026-11-08T01:09:51.214892+00:00",
+      "first_production_through_final_close_including_compile_error_fix_reviews_and_wait_seconds": 396.433924
+    },
+    "sum_four_actor_seconds": 43.226524699945,
+    "wallclock_performance_pass": false,
+    "allocation_improvement_observed": true,
+    "negative_timing_findings": {
+      "whole_median_increased": true,
+      "actor_mean_increased": true,
+      "intent_phase_median_ms": {
+        "A": 77.18775,
+        "B": 85.6513
+      },
+      "no_noisefilter_or_extra_run_to_find_green": true
+    },
+    "same_cohort_not_prior_case_percentage_sum": true,
+    "allocation_scope": "Cumulative main-thread allocated bytes, not retained heap/RSS/totalJVM or proof of faster Game/Native."
+  },
+  "formal_publication": {
+    "business_commit": "dbc61046b0232cb2d882ee6044d9e54be50b07c8",
+    "head_origin_remote_equal_at_receipt": true,
+    "clean_at_receipt": true,
+    "files": 5,
+    "raw_pin": {
+      "bytes": 745,
+      "sha256": "71d16d8e995200bd61191552d54cbbfa31ff5526a2b37f472c7511aea3438ef0"
+    },
+    "wallclock_performance_pass": false,
+    "runtime_adopted": false,
+    "new_verified_saved_days": 0,
+    "no_later_tree_health_extrapolation": true
+  },
+  "backend_weights_quantization_build": null,
+  "cost": {
+    "owner_preparation_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "coordination_seconds": null,
+    "test_active_seconds": null,
+    "publication_active_seconds": null,
+    "net_owner_saving_seconds": null
+  },
+  "new_HTTP_or_JVM_for_documentation": 0,
+  "saved_days_in_this_DATA_comparison": 0,
+  "finite_seconds_per_saved_day": null,
+  "this_case_publication_does_not_complete_continuous_goal": true,
+  "next_trigger": "Only actual P118 source/adoption/software/measurement later; B2 feasibility or request preparation is not result or Runtime qualification.",
+  "generated_at_utc": "2026-11-08T01:28:59.900486+00:00",
+  "shared_repo_base": "5ef2d6c17f182b912a29bb8b4c5a650ae74c5bfc"
+}
