@@ -4758,3 +4758,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 546真实宗教诊断一次HTTP，stop/DONE/合法JSON，9475+877=10352tokens/7.478s；跑向考古且漏读已供圣地消费者，整拒0采用，owner接管。累计546logical/509stopJSON/34length/3transport/576HTTPextra30/OpenCode新原生0。Nov8请求复用当日维护成功缓存；Nov9只是记录与业务继续，未发生新HTTP，未知人工成本/cache null。完成态读档窄通过，旧恢复FAIL保留；Steam他机占用禁上线未解除。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source94reload130.json)。
+
+
+## 2026-11-09：Civ6source94fail139
+
+547一次HTTP完整stop/SSE/合法JSON，3011+1019=4030tokens/7.249s。Lua51能编译，代码用globals绕E、无异常保护/自有FindID核验，0采用0原稿Native；显示层事实已在primary，不授新根因。Nov9首次新鲜维护installed/latest1.19.5、未更新。累计547logical510stopJSON34length3transport577HTTPextra30/OpenCode新原生0。负责人实际发现94第8城负忠诚，139保存止END，独立复现诊断继续；未知人工/cache null，Steam占用禁令不变。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source94fail139.json)。
