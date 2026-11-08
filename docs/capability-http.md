@@ -4507,6 +4507,14 @@ prod始终1TU0/4class。新Test首3方法2P1F、diagnostic只failed1F、最终�
 
 Public Applied15/Unknown15/Rejected16三个独立JVM各1P，非同JVM3P；末23:29:47.867285Z释放。Root698pins全吻合与九具名阳性软件原件独审，plan6828384B/material6850180B只功能资格，未作速度对照。业务23files `16a7e1ebda3aee214af908cd7513dc905adce11d`正常发表且remote一致；SDK Codec四空行格式化非空行逐byte同、编译原件保留0重跑。[完整模型采用、48实际阶段、失败/标签/格式谱系与未知成本](evidence/2026-11-08-http-construction-full-original113.md)保留；私有source-index/CAS不公开，0Runtime/P100/Game/TTFT/保存日信用，持续goal与独立P114继续。
 
+## 2026-11-08：不可变full实例首份精确结果复用P114
+
+`HTTP-JAVA-IMMUTABLE-FULL-RESULT-CACHE-114`一次fixed3/max6000、7源115576B，1POST/0retry、200/stop/DONE/VALID；有效TTFT3.5878828秒、总15.4117106秒，reported25752/2045、cachednull。精确缓存/lazy fallback算法已给；模型扩缓存到oldsmall超scope，corepartial加owner独立D稿纠正full-only，坏稿未编。只存同一selected full对象已算出的fixed bytes并防御clone，oldsmall/unselected保持empty、其它物理CAS/Source/Q2/Guard/hash/deadline不变，不用decoded quote重编码冒原字节。
+
+实际2prodTU0/16class、新CacheTest1TU仅4newmethods4P；Main02首PREP小inline canonical oracle错误5.9625245s保原失败，Main03改oracle/Trace finally，用新data02 PREP8.6686718s后固定四JVM A0B0B1A1，各2warm4measure，全部24calls/8warm16measured及阶段/whole/process/window全保。Q1同6831978B/fe413…、61B同source和同CAS绝对路径/所有args+body markers，完整声明consumer DATA均947.99135→907.3915375ms（−4.28%），median951.43385→862.08805（−9.39%），主线程allocmedian1284099924→1216949556B（−5.23%），actor均12.21972205→11.86151175s（−2.93%）。范围重叠、未改Q2中位114.88235→146.2695ms变慢原样保留，不推因果/普遍加速。
+
+Root实际BEGIN→末CLOSE190.727833s与Native更早operator起点191.163224s、四actor合48.1624676s、首失败PREP到末close473.568004s分别保留，不删准备/等待；不是整任务主动成本或保存日分母。业务7files `fbb026b6a34491bfdd4da8c69a135f5191c0d45d`正常发表且remote一致、发布切点clean。[全部样本、partial采用、物理身份和未知成本](evidence/2026-11-08-http-immutable-full-result114.md)保留；**未执行Policy.evaluate/NativeREAD/完整SEM准入/owning publication**，0Runtime/TTFT/保存日信用。持续goal与后继P115独立继续。
+
 
 ## 2026-11-08：Civ6source87-district515
 
