@@ -4849,3 +4849,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 557 stop/DONE/JSON/1HTTP/15040tokens/9.145552s；视觉路径/命令开始及NOT_PROVEN窄采用，拒raw把原版SpyOnAbort标modCore481to487，补普通command路由/已给pendingAPI。owner也先误写128行，实测124并修公开回执；HTTP/Native未重跑。当前自有idleScout196610@51,28/m3/pendingfalse/queuednil，liveCANCEL533311341，原版两种CanStart签名皆booleanfalse，0RequestCommand/Operation/属性写、没碰旧8650807，无新取消许可/清日志/重放；旧ARMED仍FAIL。累计557/519stop/35length/3transport/587HTTP/30extra/OpenCode新0/null未知，Steam0上线或上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-cancel557-corelines.json)。
+
+
+## 2026-11-09：Civ6oldarmed97-native158
+
+复用557分析，0新HTTP；97读取旧ARMED158一次，旧token/request保留，CANCEL两种资格boolean false但缺active/strategic同步样本，0取消/清记录/重放/END158。只授升级状态读取保留，历史恢复FAIL保持。已正式返回独立保存的176主9城，food非负/饥荒-1/忠诚100且正增长。新增原始实机图入项目；Steam其他设备使用，0模式切换/联网登录下载上传初始化上传。此记录停在557累计，558另账。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-oldarmed97-native158.json)。
