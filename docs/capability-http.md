@@ -4674,3 +4674,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 540一次完整stopJSON，原稿5失败，owner修后29纯场景通过但未集成或进游戏。91实际自动派总督并3回合忠诚8.83→13.28；产能仍0，不能关闭完整稳定性FAIL。3图/21行CSV/两新备份ACK与hash及诊断修正均业务公开pin，累计540/504有效外层JSON/570HTTP，OpenCode-native0。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-loyalty91-native540.json)。
+
+
+## 2026-11-08：Civ6stability92
+
+540已有候选修后接入92同一Policy函数，无新HTTP/累计仍540。15新方法29纯场景+14Controller；最终55定向和1322全量通过，104包82Lua51一致，未Native92。91到130再失稳，保存失败点并公开负责人错误：FAIL后误发2SKIP+1END，议会挡在130，非保护成功。后续动作检查exit_code/语义，不再END130。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-stability92.json)。
