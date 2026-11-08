@@ -4863,3 +4863,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 558–560三次真实HTTP均stop/DONE/JSON、峰值1；558只采源码停滞诊断，旧ARMED满行动力重发等拒，559仅路径缺测试源码拒，560错误同token条件将放行赋值拒。owner完成98同回合freshACK内存closure，旧ARMED/读档/跨回合不重发，false/void/throw保留未决；加载ACK/枚举/待命三个反例驱动修正。23新回归旧97十四失败、新全过；完整1412/1411pass/1SDKenvskip、85Lua51/107byteequal。两轮完整工具错误19/1均修复，未算通过。累计560/522stop/35length/3transport/590HTTP/30extra，OpenCode原生新0、未知成本null。98未Native、公开Alpha2仍82，Steam外机占用禁止上线和上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-dispatch98-software.json)。
+
+
+## 2026-11-09：Civ6source98-native179
+
+复用560，0新HTTP；561另账。98正式冷读176，独立背景离线证明距启动0.003946秒，0模式切换/上线/上传。3实际普通回合/4END/15玩家待命/巴西3输入；九城36food均非负starve−1，36loyalty100正增长，广州food0余量薄。177千年洪水PopLost1与首都16→15→16、6改良消失同窗，不捏造逐城因果。观察784=766评估+6城+12单位，全自有builder，0错丢已撤；9MOVE/3BUILD仅2共同地块净新改良。四原图/8CSV/逐图文/BBCode入库，179ACKtrue1724604B/hash保存未load。新增秀容卡片1对rawqueue4待诊断；新闭包无自然触发，旧恢复FAIL/宗教/完整40保持开放。公开Alpha2仍82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source98-native179.json)。
