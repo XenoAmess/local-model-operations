@@ -4814,3 +4814,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 0新HTTP/产品软件方法，复用553/554的软件资格；97同96饥饿153档coldLoad/Continue各1，实际FOODfavtrue/净−1到+5/总7到13/产11.703到8.102。普通END/4SKIP后154保4口（96负例3口），Save154ACK稳定并原版load/Continue各1，八城food逐字段同，WORLD/CITY/BUILDING/DISTRICT/PLOT同但UNIT一builder续队列移动，bootstrap次数unknown。Finance第一段4builderMOVE已撤，不含CityRequestCommand所以不授focus次数；W2后续另记。原553未经修正稿0Native，语法修正后的产品Plan实际执行，不能混写。累计554/516stop35length3transport584HTTPextra30/OpenCode原生新0/null未知不变。GitHub风险body11294B精确readback两内嵌PNG GET200 hash一致，附件/工坊82/12图保持，Steam他机占用0模式上线上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source97native154.json)。
+
+
+## 2026-11-09：Civ6religion555
+
+555完整stop/DONE/JSON，1HTTP/6680tokens/5.935483s；raw整稿拒绝0Native，静态改冒号、全表先知断言、Claimant0过滤和界限/未知错。owner12例后Native162只读公开先知1未招募index122/nil、已创教2、cap未知；自有40points/+0/faith436.3046875/created-1，宗教链仍open。累计555/517stop/35length/3transport/585HTTP/30extra/OpenCode新0/null未知。Steam外机占用0上线或上传；产品97未改。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion555.json)。
