@@ -4571,3 +4571,10 @@ ABBA54.786904s/首生产至末close1024.723985s含失败纠正等待，独立1Gi
 517—523实际7任务：6完整stop/1length、7HTTP、0额外重试。517修改boolfalse/reference方向owner13；518只采未来同时威胁观察方向，私有调用/混淆SKIP拒；519length整弃，owner17。520owner提示漏评分定义，521补全后Holy35等静态分可取，owner先无测怀疑后读定义撤回；候选faith抄错/成本推断不采。522草稿实际1546非自报1100，owner修allcity提示范围、重写并嵌5原图。523原稿26边界1异常计数失败，owner修后26通过，90扩未来观察至allown，不回填已成港口旧plot。累计523/487stop/33length/3transport/553HTTP/extra30，Nov8同客户端维护缓存，OpenCode新增原生0/null未知。业务40→85为45normalEND90armySKIP0UserForced/内政输入，71/78后台实建北京邯郸，85撤三钩Save/Load/Continue各1 UI/Core3城7units545.9296875金/3J保持；先知46快照全读0birthactivation，不代表科学家商人0。只首都的0区域记录已纠正，源87无产品改动、旧1222pass1SDKskip未重跑，农场替换/新先知/围城及恢复FAIL仍开放，0联网上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source87-nobarb523.json)。
+
+
+## 2026-11-08：Civ6source87-fivecity526
+
+524—526真实3任务均完整stop/SSE/JSON、3HTTP0额外重试；原稿全拒0Native：524source是路径／当前Map当旧before，52519边界11失败，526goto实际Lua51编译失败／漏self与外层pcall。owner公开QA3模块19队列+26区域+20资源，4方法65逻辑边界全过；产品87不变、旧1222pass1SDKskip未重跑。实际99→11920回合22normalEND/28玩家待命/16外交议会click/0UserForced或内政，5→7城6建筑4特色区19新增改良。108Minebefore→109PLACED→119COMPLETE独立Map+同城成员，Farm子类型不授。3195observer逐序一次0errdrop/唯一大商人cmd，21prophet快照0新事件；TC037缺逐回合战略库存仍部分，119新增7资源只作未来基线。119正式saveACKtrue稳定未load；旧QAscroll错误context清理已在真实popup纠正。累计526490stop33length3transportHTTP556extra30/OpenCode原生新0，Nov8同机用户维护缓存，未知缓存成本节时null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-08-civ6-source87-fivecity526.json)。

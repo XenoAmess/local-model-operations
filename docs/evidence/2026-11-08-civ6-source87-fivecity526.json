@@ -1,0 +1,206 @@
+{
+  "schema": "local-model-operations.civ6-source87-fivecity526/v1",
+  "utc": "2026-11-08T02:15:58.014080+00:00",
+  "date_local": "2026-11-08",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/b7316f3f5c7603da8caf5756dd92fc08e5d0f4d5/docs/research/baiqi-p6-fivecity119-model524-526-evidence-2026-11-08.json",
+    "sha256": "9ff0f621e037d8d22ccbdb97bfeb03391310c7bd40432e35df38468f3ce75e5a"
+  },
+  "model": [
+    {
+      "task": 524,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "complete": true,
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 1691,
+        "completion_tokens": 946,
+        "total_tokens": 2637
+      },
+      "ttft_ms": 461.17720007896423,
+      "total_ms": 6678.605000022799,
+      "review": {
+        "whole_raw_adopted": false,
+        "adoption": "REJECTED_SOURCE_PATH_NOT_IMPLEMENTATION",
+        "raw_compile_attempts": 0,
+        "raw_native_executions": 0,
+        "rejected": [
+          "source is district524-contract.txt rather than executable module.",
+          "T1 suggests querying current map improvement to validate historical before value; before must come from immutable pre-request witness.",
+          "Self-reported limits are not implemented tests or guards."
+        ],
+        "owner_scope": "Owner Lua51-compiled zero-action paired readonly world query, no new isolated suite for simple getter script. Actual98 Map+owncityMembers show two EMPTY-before Harbor placements, incomplete; explicitly no farmreplacement proof."
+      },
+      "shared_commit": "2c212a1badd4eb72cc9036be622294a37b0d68e6",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 525,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "complete": true,
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 2775,
+        "completion_tokens": 1907,
+        "total_tokens": 4682
+      },
+      "ttft_ms": 536.4636000012979,
+      "total_ms": 11672.216700040735,
+      "review": {
+        "whole_raw_adopted": false,
+        "adoption": "REJECTED_NATIVE_OBJECT_TYPES_AND_METADATA_LOOKUP",
+        "raw_Lua51_compile": true,
+        "raw_native_executions": 0,
+        "raw_failed_cases": [
+          "current_building_cost_once",
+          "native_userdata_city_and_queue",
+          "district_actual_getters",
+          "project_actual_getters",
+          "standard_unit_cost_modifier",
+          "corps_cost_not_standard",
+          "army_cost_not_standard",
+          "empty_not_unknown",
+          "metadata_index_without_database_call",
+          "metadata_exception_contained",
+          "completed_head_preserved"
+        ],
+        "raw_fail_count": 11,
+        "owner_cases": 19,
+        "owner_checks": [
+          "current_building_cost_once",
+          "native_userdata_city_and_queue",
+          "district_actual_getters",
+          "project_actual_getters",
+          "standard_unit_cost_modifier",
+          "corps_cost_not_standard",
+          "army_cost_not_standard",
+          "foreign_owner_no_queue_read",
+          "empty_not_unknown",
+          "mismatched_empty_unknown",
+          "metadata_index_without_database_call",
+          "ambiguous_hash_refused",
+          "wrong_metadata_hash_refused",
+          "metadata_exception_contained",
+          "finite_numeric_required",
+          "function_return_not_called",
+          "completed_head_preserved",
+          "unknown_formation_refused",
+          "missing_type_refused"
+        ],
+        "owner_sha256": "d9b3629409b1bcdca791417e7baf46a9862b812357db208ce189c272cc224088",
+        "owner_scope": "Independent readonly snapshot from supplied primary getters. No product change/commands. Simple getter assembler checked for false EMPTY/unknown, actual modifier costs and no hidden/foreign reads; not full software suite or Native success.",
+        "reasons": [
+          "Forces city/q table and rejects Native userdata.",
+          "Calls GameInfo table with hash instead of indexing [hash].",
+          "Missing outer exception boundary and finite/type validation."
+        ]
+      },
+      "shared_commit": "2c212a1badd4eb72cc9036be622294a37b0d68e6",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    {
+      "task": 526,
+      "http_attempts": 1,
+      "finish_reason": "stop",
+      "complete": true,
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 1947,
+        "completion_tokens": 1067,
+        "total_tokens": 3014
+      },
+      "ttft_ms": 462.8407000564039,
+      "total_ms": 7232.050899998285,
+      "review": {
+        "whole_raw_adopted": false,
+        "adoption": "REJECTED_LUA51_SYNTAX_RECEIVER_AND_EXCEPTION_BOUNDARY",
+        "raw_Lua51_compile": false,
+        "raw_compile_error": "[string \"<python>\"]:38: '=' expected near 'continue'",
+        "raw_native_executions": 0,
+        "raw_runtime_cases": 0,
+        "owner_cases": 20,
+        "owner_sha256": "f6e1da7f6af0275930a594454e5cedc888ced6516d634e649a76d4446b975a07",
+        "owner_corrections": [
+          "Independent Lua51 nested if avoids unsupported goto/label.",
+          "Actual getter passed resources self and ResourceType once.",
+          "Outer pcall contains setup/iterator/getter exceptions; finite bounded indices and numbers."
+        ],
+        "scope": "Future readonly own GS strategic resource snapshots only. No repair or backfill of missing99..119 quantities; no product change or game order."
+      },
+      "shared_commit": "2c212a1badd4eb72cc9036be622294a37b0d68e6",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  ],
+  "cumulative": {
+    "logical_tasks": 526,
+    "complete_stop_valid": 490,
+    "length": 33,
+    "final_transport_failures": 3,
+    "http_attempts": 556,
+    "extra_retries": 30,
+    "opencode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": {
+    "product": 87,
+    "actual_window": [
+      99,
+      119
+    ],
+    "normal_END": 22,
+    "player_scout_SKIP": 20,
+    "player_admiral_SKIP": 8,
+    "physical_diplomacy_congress_clicks": 16,
+    "manual_domestic_inputs": 0,
+    "new_buildings": 6,
+    "completed_specialty_districts": 4,
+    "new_improvements": 19,
+    "cities": [
+      5,
+      7
+    ],
+    "TC037_status": "EVIDENCE_INCOMPLETE_MISSING_PER_TURN_STRATEGIC_STOCKS",
+    "Native_mine_replacement_completed": true,
+    "farm_subtype_pass": false,
+    "new_prophet_pass": false,
+    "portable_QA_methods": 4,
+    "portable_logical_cases": 65,
+    "online_uploads": 0
+  },
+  "generic_lessons": [
+    "A complete HTTP stop/validJSON source field may still contain a file path, not an implementation.524 whole rejected without compile or Native.",
+    "Native objects may be userdata; metadata lookup by hash is table indexing, not calling the catalog with a hash.525 owner tests exposed11 of19 failures.",
+    "Lua51 does not support goto/label.526 failed actual compilation, also omitted receiver and outer exception boundary; runtime prose claims were not executed.",
+    "Count immutable original plot witness, independent actual map placement and actual city district completion separately; mine positive does not grant farm subtype.",
+    "A twenty-turn window can require22 ordinary END requests. Record actual turn changes separately from ACK, military waits and physical diplomatic clicks.",
+    "Discovering a missing per-turn stockpile field leaves acceptance incomplete. A future current snapshot cannot reconstruct missing history or grant PASS.",
+    "Same-turn late native effects can change counts without another END. Keep early and settled snapshots and state the cutoff.",
+    "A nil QA flag in the wrong UI context proves no cleanup. Query and remove only known flags in their actual WorldCongressPopup context.",
+    "Hash the text actually passed to Lua separately from raw CRLF bytes and public normalized EOF source. Preserve both provenance values.",
+    "When an inspected screenshot gets stale, refuse input. A fresh owned capture with exact reviewed header/context/whole-target pixel equality can be passed through the original fresh-input guard; mismatches still0input."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "QA diagnostics, repository evidence and ordinary TEST_PLAYER inputs only; Source87 mod product unchanged. No whole TC037 PASS due to missing per-turn strategic stock quantities. Native mine positive, not farm or prophet/religious combat/full40. Private saves/raw models stay ignored;0Steam online or uploads."
+}
