@@ -4982,3 +4982,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 0新逻辑／0HTTP／0OpenCode原生，沿用572累计。Owner103安装108equal后fresh后台offline0.005423s启动，正式128Load+Continue1后世界行、7队列20建筑19区域94地块17单位及7food全同，原先知OBSERVED与佛教两信仰保持；图片实际开拓者5回合，不作神社开工。首次unavailable0spawn；header导航输入激活另记，后独立后台证明。旧自有游戏退出残留按存档/身份/无窗口端口/CPU0/>180s清理，Steam无终止/重启/模式切换。加载端口失败0CMD，无Load/Continue重发；新observer之前bootstrap发令未知。神社/采购传播/旧ARMEDFAIL/完整40仍开，工坊82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source103-cold128.json)。
+
+
+## 2026-11-09：Civ6religion573-shrine133
+
+5731HTTP/stop/DONE/JSON，4786+1263=6049tokens/8.546672s。rawLua51compile但无fresh二读/多人守卫/稀疏验证、跳异常行和字面反斜杠TSV，4隔离对照揭示假Known或漏无宗教行，全拒0Native。owner误给Religion>=0合同，NativeUNKNOWN后确证-1为无宗教与0行合法，补测试7pass/Native131及133Known；不把owner错误归模型。原移民正常133完成→后台神社0/35/3turns，一次原生BUILD/已存未load，Finance787零错丢仍挂；零传教士但邢州已自然佛教，不授spread。特殊NO1free→7NO4YESfail；regularA1Baiqi/Commerce→实际A6Brazil/CityCenter，0费用与输入结果分账。累计573/534stop/36length/3transport/603HTTP/30extra/OpenCode0/null未知；产品103full1562保持，不虚报1569。Steam他机占用0上线或上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion573-shrine133.json)。
