@@ -5164,3 +5164,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 594—596各1HTTP、stop/DONE/合法外JSON，594/595实际峰2重叠11.652919秒，596另执行。594偏移方向/全UI结论缩窄；595未调用函数、集合类型和validfalse错误整体拒；596资源门反读、单类候选空与非空队列误读纠正。0rawNative，owner两城原图与18格有界只读揭示必需地貌水坝缺口，未改产品/队列或END186。累计冻结596logical556complete37length3transport626HTTP30extra、0OpenCode原生、未知成本null；597后续修复候选另包。Steam他机占用0上线上传，工坊82未更。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-city-amenity186.json)。
+
+
+## 2026-11-10：Civ6dam109-required-features
+
+597普通HTTP1次，stop/DONE/合法外JSON，5966+983=6949tokens/7.070048秒，Nov10成功1.19.5缓存复用、0OpenCode原生。部分采用水坝专用helper/双实际行参数，原fraction0.5反例owner补索引/类型守卫，0rawNative。9新方法过；旧108两方法13子场景断言FAIL。首全1628有owner遗漏第二白名单的2工具错误/1SDKskip，修后涉及8方法全过，未重跑全套；87Lua51/109包。当前106里局部提取109纯函数只读18格、水坝交集0→1，非实际109开工/建成。累计597logical557complete37length3transport627HTTP30extra，成本null。Steam他机占用禁上线、0新启上传，工坊82未更。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-dam109-required-features.json)。

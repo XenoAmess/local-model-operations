@@ -1,0 +1,70 @@
+{
+  "schema": "local-model-operations.civ6-dam109-required-features/v1",
+  "utc": "2026-11-09T20:37:36.613643+00:00",
+  "date_local": "2026-11-10",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/8246d509a7591b7f3ca5a7fea4014efaeac0abba/docs/research/baiqi-p6-dam-required-features109-evidence-2026-11-10.json",
+    "sha256": "73ec1973e6b2a2ba5e69e801e16665a0f8916edadca0242767c6fa92faa9a1e5"
+  },
+  "model": {
+    "utc": "2026-11-09T20:30:06.756353+00:00",
+    "model": 597,
+    "usage": {
+      "prompt_tokens": 5966,
+      "completion_tokens": 983,
+      "total_tokens": 6949
+    },
+    "duration_ms": 7070.048099965788,
+    "HTTP_attempts": 1,
+    "complete_stop_DONE_valid_outer_JSON": true,
+    "raw_code_Native_execution": 0,
+    "raw_fractional_feature_matching_metadata_accepted": true,
+    "adoption": "District-specific threeverifiedfloodplain helper and both rowarguments partiallyadopted; owner adds finite/nonnegativeinteger featureindex and objecttypes/strictfeaturetypereading guards before metadataaccess. Originalprotectioncomment retained.",
+    "rejection": "Rawhelper checks districtindex but not featureindexinteger before metadataaccess; accepts matchingfake0.5 row. Missing/malformedfeaturemetadata also needs explicitobjectguards.",
+    "owner_tests_on_old108": {
+      "methods": 9,
+      "failures": 13,
+      "errors": 0
+    },
+    "old_controller_sha256": "0ed45be25d3c982de14dc14e926452b00f3988463693c9207fc88a94a578d2d9",
+    "cumulative597": {
+      "logical_tasks": 597,
+      "complete_stop_valid_outer_JSON": 557,
+      "length_discarded": 37,
+      "final_transport_failure": 3,
+      "HTTP_attempts": 627,
+      "extra_HTTP_attempts": 30,
+      "OpenCode_native_generation": 0,
+      "current_in_flight": 0,
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    }
+  },
+  "cumulative": {
+    "logical_tasks": 597,
+    "complete_stop_valid_outer_JSON": 557,
+    "length_discarded": 37,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 627,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "109district-specific mandatoryfloodplains exception andbothactualrowboundaries.9newrealwriter methods pass, old10813subtestassertfailures. Full1628firstpass1625/2toolversionerrors/1SDKskip; ownerfixedmissedduplicatebuilderwhitelist,8affectedconsumermethodspass, nofullrerunclaim.87Lua51/109byteequalZIP3a2d07...; current106onlyexacthelperlocalreadonly18plotsDAMintersection0to1,ECstill0. Noinstalled109BUILD/completion.",
+  "generic_lessons": [
+    "A verified mandatory-feature district needs a specific district-feature exception, not a blanket removal of all feature protection. Both planner and final write boundary must receive and recheck the actual district row.",
+    "Validate native indices before metadata lookup; equality with a matching fabricated fractional row is not sufficient. Candidate597 checked district index but accepted feature0.5; owner finite/nonnegativeinteger guards reject it.",
+    "Bind native metadata object guards to actual observed provider types. Here GameInfo.Features is userdata while returned district/feature rows are tables; table-only collection guards would reject real game metadata.",
+    "An exact-source pure predicate preview on native plots is valuable but remains narrower than controller selection, final operation qualification, normal BUILD, completion and installed reload.",
+    "Record owner integration omissions and targeted recovery: duplicate source-version guards can break auxiliary builders even after source resolver update. Preserve first fullsuite failure and rerun affected consumers, not silently relabel initialrun as allgreen."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "One real ordinaryHTTP597candidate partlyadopted afterownerindex/objectguards; no new OpenCode-native generation. Softwarechecks and exactsourcepurehelper Nativepreview only, no109installation/fullcontrollerBUILD/completion or40casepass. Steamonline/upload forbidden."
+}
