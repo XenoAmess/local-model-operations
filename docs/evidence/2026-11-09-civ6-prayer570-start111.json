@@ -1,0 +1,56 @@
+{
+  "schema": "local-model-operations.civ6-prayer570-start111/v1",
+  "utc": "2026-11-09T05:16:19.918848+00:00",
+  "date_local": "2026-11-09",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/0b53f3d70f9f26c85d2b1a1ca8a8560d9d51d6d0/docs/research/baiqi-p6-prayer570-observer-software-and-native-prayer-start111-evidence-2026-11-09.json",
+    "sha256": "47f9f2d403f1387fc1c6d689e61339e381cb6331f5460b0d891e7f06f74c8f11"
+  },
+  "model": {
+    "started_at_utc": "2026-11-09T04:41:23.167080+00:00",
+    "HTTP_attempts": 1,
+    "extra_attempts": 0,
+    "usage": {
+      "prompt_tokens": 4823,
+      "completion_tokens": 1196,
+      "total_tokens": 6019
+    },
+    "seconds": 8.633994700037874,
+    "finish_reason": "stop",
+    "SSE_DONE": true,
+    "outer_JSON": "VALID",
+    "adoption": "RAW_REJECTED_OWNER_TOOLS_ONLY_MODULE",
+    "raw_or_control_Native": 0,
+    "actual_HTTP_peak": 1,
+    "daily_maintenance": "Nov9 canonical same-machine/user successful cache installed/latest1.19.5 updatedfalse",
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "cumulative": {
+    "logical_tasks": 570,
+    "complete_stop_valid_outer_JSON": 532,
+    "length_discarded": 35,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 600,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_HTTP_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Owner tools-only12pass, raw12has9failure11error-events; default-only control15failure1error-events, both0Native. Atpin observernotinstalled. Native102Handan106Holy0of75 then27/42/55/68,111completed and normalHolyPrayer12/hash30870116/0of68/5turns;own44+4/unclaimed122,6food/loyaltypositive,111save0END111. No completion/reward/recruit/foundingpass.",
+  "generic_lessons": [
+    "A completion event and an own-state snapshot have distinct certainty and timing; neither alone establishes the amount or ordering of reward application.",
+    "An interturn observer must not require an active player or idle game core, but must recheck current identity, target ownership and bounded turn scope.",
+    "Use exact static Add/Remove closures and truthful idempotent removal acknowledgments; a tautological ownership assert does not establish lifecycle safety.",
+    "Filter other players before reading snapshots, bound records practically, retain event identifiers when own data is unknown, and separate unknown from zero.",
+    "Native production start, completion and reward are different acceptance milestones; a queue entry and descriptive text do not prove reward receipt."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Tools-only checks and Native production start at frozen111; observer not yet installed at fixedpin. No completed project/reward/Prophet/founding or issued-operation recovery pass; test-player diplomacy not mod background diplomacy."
+}

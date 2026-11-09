@@ -4954,3 +4954,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 既有569的owner102实机补证，新逻辑任务0/HTTP0，分母不增加。实际10类各6公开玩家，自己先知12/60+4，原打开滚动关闭各1只读；两原图数字窄过，小视口底部布局仍未过。首次ownAltEnter显示装置失败，GP事件在LSQ45读取失败、CMD49未发，非模型HTTP；原错误OK、>=180秒仅自有9432身份/路径/CPU0/无可见窗监听及两个已知隐藏微窗核验后清残留，FullScreen0未改，0.004803秒新离线证明重启同103。101/首次102/窗口重读经济1、队列5、建筑14、区域10、地块63、单位9全等，只授ownslice。早期99→103实际4turn、4军队SKIP、5普通RequestAction，25food正常、22civilian观察全撤；点数0,0,4,8,12，不猜来源或授祷告/招募/创教。累计仍569/531stop/35length/3transport/599HTTP/30extra，新OpenCode0/null未知。Steam外机占用0上线上传，Alpha2仍82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-gp102-native103.json)。
+
+
+## 2026-11-09：Civ6prayer570-start111
+
+570完整stop/DONE/JSON1HTTP6019tokens/8.633995s，raw12有9fail11error-events，补default-only控制仍15fail1error-events，均0Native拒。漏默认/实用界限、callback当前scope与city/turn/snapshot一致、事件IDs、Restore幂等与失败回执；Owned恒真、Add异常清理比错对象。owner工具12pass，32默认1..128，ownCityProjectCompleted静态AddRemove，未知快照仍保事件，通知不授奖励，pin时未装Native/不入产品/未重跑完整1558。实际102Handan106Holy0of75→27/42/55/68→111complete，后台Prayer12/hash30870116/0of68/5turns、own44+4/unclaimed122，111save0END111；6food无饿、6loyalty100正，Finance1310/0错丢仍挂。105原生settlerFOUND是正常新案，不修旧ARMEDFAIL；Rome/Brazil拒交易与Congress两项免费A1是TEST_PLAYER外交，最终Theater/Cultural非自选Commerce/Trade。累计570/532stop/35length/3transport/600HTTP/30extra，新OpenCode0/null未知，Steam占用0上线上传，Alpha2仍82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-prayer570-start111.json)。
