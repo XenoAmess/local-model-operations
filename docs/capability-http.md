@@ -5024,3 +5024,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 577Native补证0新HTTP/逻辑，累计577冻结切点不重算；独立138正式load/Continue1后M573逐行保持，1normalEND/2armySKIP到139。Core/UI各4事件Started1592408602→Charges0/1→Removed→Deactivated，UI1ch/f4→0ch/f5仍活坐标55,34再missing，Core全dead0ch/-9999；只保各ctx次序、不解释原始尾0/1成功码。产品ARMED仍FAIL。Corecfg.IsHuman误用发生安装后print，读回0样本后先精确撤再fallbackplayer重装，UI旧scope合法无双装；0动作重放。事件2handles/Finance137含8文职1spread/CityCmd0全部撤，139save1463550/hash4083b6f...，0END139，105Core事件pair收尾实现另验。Steam禁上线工坊82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion577-native139.json)。
+
+
+## 2026-11-09：Civ6religion578-final105
+
+5781HTTP12600tokens/14.439776s stop/DONE/VALID，rawhelperscompile但TestRelBridge夹具污染/GameEvents错族/CoreGetUnitType/MAXnil/城市0/实际sentinel正案拒/nofresh，UI补丁误改Core/不存在include/return后代码，全拒0Native。相同11Core旧104与raw均1fail1缺Shutdownerror；owner独立事件pair+spentactor/完整journal重复复核、UI同token最后缺演员清pending，新13与原14pass，full1598=1577+577tool8+13，1597pass1SDKskip/86Lua51/108byteequal。普通Read/Prepare/schema保持，缺事件旧ARMED不追认，缺namespace不初始化，部分Add关闭、精确Shutdown、私有control关新订阅。冻结切点105未装未Native，104139FAIL与138前置保存，own19876退出残留条件清理仅自有tuple，Steam禁上线工坊82。累计578/539stop/36length/3transport/608HTTP/30extra/OpenCode0/null成本。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion578-final105.json)。
