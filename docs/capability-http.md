@@ -5038,3 +5038,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 105Native补证0新HTTP/逻辑，578累计不增。108files等于8fd38e7，Steam14904freshbackgroundoffline age0.045483后spawn12000，同138Load/Continue1后M573全同/7food全同，1normalEND/2armySKIP→139仅一SPREAD。原token religion:0:3自动OBSERVED，原始Lua.log唯一core_final_charge_receipt独立确认UIpendingclear；与104失败139六自有组同/faith383.425/佛教5非多数，Core1为dead对象而非活unit。observer137/128read1city8文职ops0cmd0错丢、CityCmd0仍挂，139save1463574/a435149b...未load。两新原图和BBCode上库，图宗教公民6是全宗教合计，悬浮Changsha非目标。final收尾窄通过，正常新采购/完成态读档/旧移民FAIL/full40继续，Steam0上线或上传工坊82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source105-final139.json)。
+
+
+## 2026-11-09：Civ6religion579-purchase140
+
+579两句真实140文案1HTTP1069tokens/1.015649s stop/DONE/VALID；数值80/394.4296875/314.4296875正确，partial采用数字表述方向，owner重写重play/模糊独立新事件并删无关未验证总结，0代码/Native采用，没把后来的重载结论归模型。Native105140仅1cityfaith购买，新3670037@54,37/r1/ch3/mv0、purchase:0:2OBSERVED，旧13670记录保留；跨回合正常income11.0039与真实80区分，不猜涨价公式。140save1464129/2a36d685...正式LoadACK/Continue1后world/7queue/24building/20district/103plot/23unit/7food/followers及全部完成journal逐行同，所测无新扣费单位奖励，bootstrapcommandsunknown。observer270/256read2city12文职0cmd0错丢、CityCmd1均已撤。两新原图BBCode上库，full1598切点不增。累计579/540stop/36length/3transport/609HTTP/30extra/OpenCode0/null成本，Steam禁上线工坊82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion579-purchase140.json)。
