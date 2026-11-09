@@ -5094,3 +5094,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 584真实adapter候选1HTTP stopJSON2271+1225=3496tokens7.712214秒，原GetLocalPlayer类型错/方法不调用/编造UI.GetUnit与Core.GetUnit/漏self/别名与分数值错整份拒绝。owner21隔离场景/Lua51后复用既有raw观察器，两侧各2Deactivated且第二仍pending/queuedtrue，0matchingStarted仅该过滤窗，0错丢均撤；1normalEND2armySKIP/0人工文职到166，未改产品105或授恢复。新鲜Core0/UI0.25分记；原UI0保存guard0调用，实际.25另存1623174/f68d3615...未load。累计584logical545complete36length3transport614HTTP30extra0OpenCode生成，未知成本null，Steam禁上线工坊82未更。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-move584-native166.json)。
+
+
+## 2026-11-09：Civ6apostle585-native-qa
+
+585普通HTTP5283+1205=6488tokens8.477650秒stopJSON，局部函数遮蔽全局自阻／领袖字面量错／漏human与城市完整身份，整份拒绝0实机。owner17隔离断言/Lua51后仅2调试使徒，玩家原版回调传道信仰及宗教审讯实际耗演员；第三信条由Admin完成。UI审讯166旧值、167原版正常回合后与Core同true；次数3与坐标-9999不伪造3到0。QA167另存未load，正式返原166一次后8城31单位／原2信条／未审讯／无夹具属性，原queuedbuilder分数读数保留。不授正常采购、物理单位按钮、完整矩阵或旧恢复通过；Steam0上线或上传工坊82。累计585logical546complete36length3transport615HTTP30extra0OpenCode生成，成本null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-apostle585-native-qa.json)。

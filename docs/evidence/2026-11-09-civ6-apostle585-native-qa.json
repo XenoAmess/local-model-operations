@@ -1,0 +1,86 @@
+{
+  "schema": "local-model-operations.civ6-apostle585-native-qa/v1",
+  "utc": "2026-11-09T14:53:39.651136+00:00",
+  "date_local": "2026-11-09",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/53b3ed219816d0f03af3090c7ef30036615e0b0e/docs/research/baiqi-p6-apostle-actions-qa105-evidence-2026-11-09.json",
+    "sha256": "8bba916e184ba10daa04918087208ffed76b5b13d4a2841d0724939ce54fac61"
+  },
+  "model": {
+    "new_logical_tasks": 1,
+    "new_HTTP_attempts": 1,
+    "new_OpenCode_native_generation": 0,
+    "finish_reason": "stop",
+    "JSON_valid": true,
+    "usage": {
+      "prompt_tokens": 5283,
+      "completion_tokens": 1205,
+      "total_tokens": 6488
+    },
+    "duration_ms": 8477.649900014512,
+    "raw_code_adopted": false,
+    "raw_native": 0,
+    "review": {
+      "model585": {
+        "adoption": "REJECTED_WHOLE_CODE_NEVER_EXECUTED",
+        "reasons": [
+          "Local function name shadows intended global custody; first if sees its own function and always returns.",
+          "Compares actual leader name against literal BaiqiConfig.leader instead of LEADER_BAIQI.",
+          "Missing required human/capital/Handan full identity preflight."
+        ]
+      },
+      "owner_diagnostic": {
+        "lua51_compile": true,
+        "isolated_assertions_passed": 17,
+        "assertions": [
+          "prepared_two_units",
+          "affiliated_exactly_two",
+          "final_custody_prepared",
+          "faith_not_debited",
+          "full_ids_preserved",
+          "prepared_replay_blocked",
+          "wrong_turn_zero_creations_and_writes",
+          "wrong_leader_zero_creations_and_writes",
+          "not_human_zero_creations_and_writes",
+          "multiplayer_zero_creations_and_writes",
+          "wrong_capital_full_id_zero_creations_and_writes",
+          "inquisition_already_launched_zero_creations_and_writes",
+          "second_plot_occupied_zero_creations_and_writes",
+          "existing_property_zero_creations_and_writes",
+          "existing_global_zero_creations_and_writes",
+          "partial_second_failure_keeps_first_id",
+          "partial_failure_no_replay"
+        ],
+        "sha256": "fc813df83851a475d661eab9eb4100288163aead8f6f241a7bb30f89ea845c6d",
+        "native_fixture": "NOT_RUN_AT_REVIEW"
+      },
+      "owner_preflight_failure": "First readonly Core attempt called unsupported GetNumBeliefsEarned; transport retained error, zero fixture/actions/writes. Corrected second readonly query reports unsupported explicitly; no wrong layer getter reached."
+    }
+  },
+  "cumulative": {
+    "logical_tasks": 585,
+    "complete_stop_valid_outer_JSON": 546,
+    "length_discarded": 36,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 615,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_HTTP_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "105 F04 QA two explicitly granted apostles at166, original UnitPanel callback eachonce forEVANGELIZE andLAUNCH_INQUISITION. Earnedbelief2to3 and actual48 added byAdmin; bothconsumed. Coreinquisitiontrue first, UIfalse untiloneactualnormal166to167 wherebothtrue. QA167savedneverloaded; formal original166returnonce/Continueonce verifies8cities31units/twobeliefs477.16015625/falseinquisition/nofixturepropertyoractors. Source105unchanged; noNative requestcount instrumentation or normal acquisition claim.",
+  "generic_lessons": [
+    "A local function named like its intended global custody flag shadows that global and can make its own first guard always return. Stop/valid JSON does not establish reachable initialization.",
+    "Keep player unit-use operations distinct from follow-on domestic choices. Test the real original consumer and resulting state before loosening guards based on a static shared keyword.",
+    "UI/Core getter sets and state visibility differ. Core lacks GetNumBeliefsEarned here; temporary inquisition true/false readouts converge only after actual normal turn advance, not callback ACK.",
+    "Delayed-death actors can retain original charge and move values at off-map sentinels. Actual consumption is not proof of a numeric charge decrement to zero.",
+    "Explicitly granted military QA units prove only the sampled operation/effect. Preserve original save separately, return through official load, and verify diagnostic fixture state absent rather than claiming whole-world equality."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "One fully rejected model fixture candidate; owner17 isolated diagnostic assertions plus independent two Native original callback effects and official pre-fixture save return. No product source/fullsuite change, no normal apostle acquisition or whole military matrix pass. HTTP generation and daily OpenCode maintenance remain separate. Steam online/upload forbidden."
+}
