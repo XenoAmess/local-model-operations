@@ -5080,3 +5080,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 0新逻辑/HTTP/OpenCode生成，582累计不增。105原165存档同进程实际Load1/Continue1/0END165；五组1/8/45/28/124相同、30完整单位身份类型相同但1builder真实移动，8food/7routes/faith461.75390625/已打印完成账本字段保持。FindID两个旧ID在UI与Core别名新骑士/建造者，验收原nil守卫拒绝后按完整ID修正，未操作新演员。原帧到preload的商人出发/预计回合差有保存前原生tradeObserved时序，先停Load再对账，无覆写旧save。新移动与旧164:253未见完成记录继续审查，不授未知MOVE恢复或旧ARMEDFAIL闭合。新原图/文档/待发BBCode入库，Steam禁上线工坊82未更。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source105-reload165.json)。
+
+
+## 2026-11-09：Civ6move583-audit
+
+583真实MOVE源码诊断1HTTP stopJSON23485+604=24089tokens/7.481846秒，整稿拒绝：错误称turnreset清MOVE、idle+空queue证明可靠失败；原文自相矛盾且未分BR013能力/一般移动语义。owner核对Controller18/694/3530..3540/3599..3609，0新Native动作订阅/产品变化/功能通过。累计583logical544complete36length3transport613HTTP30extra0OpenCode原生生成，未知成本null。下一步仅被动原生事件观察自然builder动作，不猜payload/不清ARMED/不重放未知，Steam禁上线82未更。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-move583-audit.json)。
