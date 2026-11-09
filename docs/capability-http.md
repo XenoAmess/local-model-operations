@@ -5031,3 +5031,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 5781HTTP12600tokens/14.439776s stop/DONE/VALID，rawhelperscompile但TestRelBridge夹具污染/GameEvents错族/CoreGetUnitType/MAXnil/城市0/实际sentinel正案拒/nofresh，UI补丁误改Core/不存在include/return后代码，全拒0Native。相同11Core旧104与raw均1fail1缺Shutdownerror；owner独立事件pair+spentactor/完整journal重复复核、UI同token最后缺演员清pending，新13与原14pass，full1598=1577+577tool8+13，1597pass1SDKskip/86Lua51/108byteequal。普通Read/Prepare/schema保持，缺事件旧ARMED不追认，缺namespace不初始化，部分Add关闭、精确Shutdown、私有control关新订阅。冻结切点105未装未Native，104139FAIL与138前置保存，own19876退出残留条件清理仅自有tuple，Steam禁上线工坊82。累计578/539stop/36length/3transport/608HTTP/30extra/OpenCode0/null成本。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion578-final105.json)。
+
+
+## 2026-11-09：Civ6source105-final139
+
+105Native补证0新HTTP/逻辑，578累计不增。108files等于8fd38e7，Steam14904freshbackgroundoffline age0.045483后spawn12000，同138Load/Continue1后M573全同/7food全同，1normalEND/2armySKIP→139仅一SPREAD。原token religion:0:3自动OBSERVED，原始Lua.log唯一core_final_charge_receipt独立确认UIpendingclear；与104失败139六自有组同/faith383.425/佛教5非多数，Core1为dead对象而非活unit。observer137/128read1city8文职ops0cmd0错丢、CityCmd0仍挂，139save1463574/a435149b...未load。两新原图和BBCode上库，图宗教公民6是全宗教合计，悬浮Changsha非目标。final收尾窄通过，正常新采购/完成态读档/旧移民FAIL/full40继续，Steam0上线或上传工坊82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source105-final139.json)。
