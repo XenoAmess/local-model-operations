@@ -5010,3 +5010,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 5761HTTP12244tokens/3.540883s stop/DONE/VALID，重复owner已识别负坐标拒绝原因，提议-9999删除对象作proof或错误Coreflatgetter，0产品采用/0rawNative，先资格事件。Native104137三MOVE到西安65536+SPREAD，138/139各SPREAD；前两次3→2→1/OBSERVED窄过，139Core3407893own0r1ch0DelayedDeathtrue/-9999而ARMED，UIlive0，0END139已存1463393/201a02a...。首都Buddhist1→3→4→5/12majority-1，压力贡献未知；3normalEND/4armySKIP，28food非负无饿/28忠诚100正，observer413/383read3city27unitop0cmd0错丢、CityCmd0均撤。3原图及CSV上库，软件full1577切点不增。累计576/537stop/36length/3transport/606HTTP/30extra/OpenCode0/null成本，Steam禁上线工坊82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion576-spread139.json)。
+
+
+## 2026-11-09：Civ6religion577-eventtool
+
+5771HTTP3081tokens/7.622741s stop/DONE/VALID，有原版签名/完整订阅示例/精确合同。rawLua51compile，同8methods10失败事件：尾nilargc/8参数界/快照alias与非法结构/scope/当前Add漏清/partialRestore重复移除，全拒0Native。owner独立有界RAW观察及精确清理8pass，工具不进104108包，产品full1577切点不虚增1585full。冻结发布时仅Core/UI139四eventAddRemove存在，未装未证实emission；独立138LoadACK真实world未read，139FAIL保存继续。累计577/538stop/36length/3transport/607HTTP/30extra/OpenCode0/null成本，Steam他机占用0上线或上传工坊82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion577-eventtool.json)。
