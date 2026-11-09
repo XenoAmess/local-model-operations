@@ -4947,3 +4947,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 569完整stop/DONE/JSON1HTTP22747tokens/17.531432s，rawhelperLua51compile但范围缺、逐类半发布、NaN等，3直接反例实证普通领袖改动/后续类异常已留首类/NaN发布，raw3tests全error（未定义include）并镜像实现，整稿0Native拒绝。owner102仅GPwrapper原版调用后、只白绮当前明确空类，64有界密集去重含own，公开点数+met/unmet名字，全量暂存后复核才发；已有数据/缺类/past/normalleader/原版异常保持。12真实helper回归pass，完整1546/1545pass/1SDKskip，86Lua51/108包，102尚未安装实机，101显示/视口及宗教整链仍open。累计569/531stop/35length/3transport/599HTTP/30extra，新OpenCode0/null未知。Steam占用0上线上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-gp569-public102.json)。
+
+
+## 2026-11-09：Civ6gp102-native103
+
+既有569的owner102实机补证，新逻辑任务0/HTTP0，分母不增加。实际10类各6公开玩家，自己先知12/60+4，原打开滚动关闭各1只读；两原图数字窄过，小视口底部布局仍未过。首次ownAltEnter显示装置失败，GP事件在LSQ45读取失败、CMD49未发，非模型HTTP；原错误OK、>=180秒仅自有9432身份/路径/CPU0/无可见窗监听及两个已知隐藏微窗核验后清残留，FullScreen0未改，0.004803秒新离线证明重启同103。101/首次102/窗口重读经济1、队列5、建筑14、区域10、地块63、单位9全等，只授ownslice。早期99→103实际4turn、4军队SKIP、5普通RequestAction，25food正常、22civilian观察全撤；点数0,0,4,8,12，不猜来源或授祷告/招募/创教。累计仍569/531stop/35length/3transport/599HTTP/30extra，新OpenCode0/null未知。Steam外机占用0上线上传，Alpha2仍82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-gp102-native103.json)。
