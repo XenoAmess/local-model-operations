@@ -4891,3 +4891,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 562真实未完成地图宗教容量诊断，stop/DONE/JSON/1HTTP/2503tokens/6.530123s。raw可编译但22组12pass/6fail/4error：编号0拒、genericfor状态丢、异常漏、稀疏非数组漏、无穷cap/元表ID接受，整稿拒0Native；owner只读模块22Lua51pass后，179原生Map2/SMALL/先知类上限4、已成立2、差2。差不等于空闲名额／可领先知／创教许可，不把162旧池当179，不改生产权重或手补宗教，不进mod包。累计562/524stop/35length/3transport/592HTTP/30extra/OpenCode新0/null未知；产品98原1412软件切点不重算，宗教自然链/旧恢复FAIL/完整40继续。Steam外机占用0模式切换或上线登录上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion562-cap.json)。
+
+
+## 2026-11-09：Civ6religion563-software99
+
+563真实未完成首座圣地产能候选，stop/DONE/JSON/1HTTP18925tokens/19.178804s。排序35弱项诊断窄采，rawhelper14只有2pass10fail2error，漏其他城市／放置／排队、数值队列错比字符串、无最终重验或异常有界保护、分数矛盾，原代码整拒0Native。owner99首座92加权及全帝国承诺／最终复核，保留原队列和高优先级，未决跨超时／其他head／turn保持，不加持久协议；23新回归旧98十四fail、新全pass，完整1457run1456pass1SDK条件skip、85Lua51/107包。最初6fixture断言纠正非六产品bug，Gitcached格式守卫阻止一次提交后仅空白注释修复。当前98原生179五城HolySite双CanProduce真／九城无已建放置且已有队列、公开一未领取先知40点+0，不冒充99实效。累计563/525stop/35length/3transport/593HTTP/30extra/OpenCode原生新0/null未知，Steam占用0上线或上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion563-software99.json)。
