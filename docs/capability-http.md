@@ -4989,3 +4989,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 5731HTTP/stop/DONE/JSON，4786+1263=6049tokens/8.546672s。rawLua51compile但无fresh二读/多人守卫/稀疏验证、跳异常行和字面反斜杠TSV，4隔离对照揭示假Known或漏无宗教行，全拒0Native。owner误给Religion>=0合同，NativeUNKNOWN后确证-1为无宗教与0行合法，补测试7pass/Native131及133Known；不把owner错误归模型。原移民正常133完成→后台神社0/35/3turns，一次原生BUILD/已存未load，Finance787零错丢仍挂；零传教士但邢州已自然佛教，不授spread。特殊NO1free→7NO4YESfail；regularA1Baiqi/Commerce→实际A6Brazil/CityCenter，0费用与输入结果分账。累计573/534stop/36length/3transport/603HTTP/30extra/OpenCode0/null未知；产品103full1562保持，不虚报1569。Steam他机占用0上线或上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion573-shrine133.json)。
+
+
+## 2026-11-09：Civ6religion574-birth104
+
+5741HTTP/stop/DONE/JSON，14746+1161=15907tokens/9.868998s；rawLua51compile但Hash词法先用/硬编码786443/中心圣地坐标矛盾/删snapcenterguard/无fresh，全拒0Native。相同8methods旧103有2失败事件、raw9、owner8pass，原23intentchecks通过。owner本城HolySite+MapID/完整未损坏/元数据+二读最终复核，0购买writer变更；full1577=1562+573tool7+new8，1576pass1SDKskip/86Lua51/108byteequal。实机103136神社完工、一次70faith421.414→351.414出生3407893@54,37/r1/ch3/moves0，ARMED仍中心56,38；FAIL已保存/0END136，Finance1572/31civilianops及CityCmds1均0错丢并撤。104未装未冷验，采购/传播不授。累计574/535stop/36length/3transport/604HTTP/30extra/OpenCode0/null未知。Steam他机占用0上线或上传，工坊82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion574-birth104.json)。
