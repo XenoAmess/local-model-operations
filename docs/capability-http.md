@@ -4968,3 +4968,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 571真实祷告／招募／创教文案候选1HTTP，7311+2800=10111tokens、18.266241秒，length/DONE但非完整stop，整份丢弃不读取拼接，0采用/Native。Owner独立整理实机：116项目完成event1且已撤，64→101 delta37/相邻稳定5/本样本额外32；125报价120，120实际普通招募/单位，121到圣地，122消耗/OBSERVED/佛教WORK_ETHIC+TITHE与原版图一致。HasReligiousFoundingUnit非单位presence；纠正Rome已领1仍争夺猜测，0赞助。缺神社导致70信仰报价可负担而native采购false，国内传播未过。111→122实际11普通回合/12普通END返回/22TEST_PLAYER军队SKIP，72food正常，Finance3046/0错丢仍挂；三save未load。累计571/532完整/36length/3最终transport/601HTTP/30extra，0OpenCode原生；Steam禁上线、工坊仍82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion571-founded122.json)。
+
+
+## 2026-11-09：Civ6religion572-shrine103
+
+572普通HTTP完整stop/DONE/JSON1次，20552+587=21139tokens/6.580024s，采用仅BUILDING_SHRINE91的一处补丁，owner103版本与对照工具接入、4城市消费者检查。旧102同4有1fail，新4pass；full首次1562有18错误因漏103allowlist，修两tool后full1562/1561pass/1SDKskip，86Lua51/108包字节一致。真实102至128七城/无神社/移民33of130保存，未安装103实机；神社Maintenance1而非可能0，原队列/高优先级保持。Finance4096保留+13丢弃含5unitop/0error，119保留unitcalls文职，精确撤除，不授晚窗口全军队覆盖。累计572/533stop/36length/3transport/602HTTP/30extra/OpenCode原生0/null未知；Steam他机占用0上线或上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion572-shrine103.json)。
