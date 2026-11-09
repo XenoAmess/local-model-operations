@@ -1,0 +1,72 @@
+{
+  "schema": "local-model-operations.civ6-move584-native166/v1",
+  "utc": "2026-11-09T14:16:44.909858+00:00",
+  "date_local": "2026-11-09",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/a411fe9718f69e0d59f8e773d3b387b65a19992d/docs/research/baiqi-p6-move584-native-events166-evidence-2026-11-09.json",
+    "sha256": "1bc034a74a4a476b5f539b233cb71e029611097cca48a41ed63527e3f046e36e"
+  },
+  "model": {
+    "new_logical_tasks": 1,
+    "new_HTTP_attempts": 1,
+    "new_OpenCode_native_generation": 0,
+    "finish_reason": "stop",
+    "JSON_valid": true,
+    "usage": {
+      "prompt_tokens": 2271,
+      "completion_tokens": 1225,
+      "total_tokens": 3496
+    },
+    "duration_ms": 7712.213800055906,
+    "raw_code_adopted": false,
+    "raw_native": 0,
+    "review": {
+      "raw_Lua51_compile": true,
+      "raw_positive_contract_failures": [
+        "scope rejects actual integer localPlayer0 and reads methods without calling them",
+        "UI invented UI.GetUnit / UNIT_BUILDER global, wrong native receiver",
+        "Core invented Core.GetUnit / UNIT_BUILDER global, wrong native receiver"
+      ],
+      "raw_code_adopted": false,
+      "raw_Native": 0,
+      "owner_Lua51_compile": true,
+      "owner_isolated_assertion_scenarios": 21,
+      "owner_all_passed": true,
+      "owner_native_subscription_at_review": false,
+      "defects": [
+        "Scope mistakes localplayer integer0 for userdata and reads function references without invoking",
+        "Missing owncapital validation",
+        "Invented UI.GetUnit/Core.GetUnit and undefined UNIT_BUILDER",
+        "Native getters called without self",
+        "Aliases do not preserve actual completeID and fractional moves discarded"
+      ],
+      "scope": "Only private adapters to existing passive observer; no mod version/source change or new full suite; no event semantics qualified by these checks."
+    }
+  },
+  "cumulative": {
+    "logical_tasks": 584,
+    "complete_stop_valid_outer_JSON": 545,
+    "length_discarded": 36,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 614,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_HTTP_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Source105natural165to166 oneordinaryEND/twoarmySKIP, builder4456469moves54,34via54,33to54,32. UI/Core each2rawDeactivated, no matchingStarted underfixedfilter, zeroerrordrop andbothrestored. Seconddeactivation stillpending/queuedtrue, notidlebarrier. UI0.25/Core0freshread distinction preserved. ActualUI0.25queued166saved1623174/f68d3615...notloaded.",
+  "generic_lessons": [
+    "An event named Deactivated is not an empty-queue guarantee. This actual MOVE callback still exposes pending=true in both contexts, UIqueued=true and Coreoperation=MOVE.",
+    "No matched Started event under a fixed pid/fullUID signature filter does not establish global event absence. It also cannot justify reusing a different operation family event-pair proof.",
+    "Keep context-specific scalar readouts as observed. UIquarter movement and Corezero are both real here; do not silently round UI tozero or assert an unmeasured cause.",
+    "Passive adapters must use actual object lookup ports and native method receivers, not invented UI.GetUnit or Core.GetUnit. Preserve exact full actor identity before calling unit-type-specific getters.",
+    "A rejected pre-save guard is not a failed or completed save. The first UIzero assumption caused zeroSaveGame calls; the separately qualified quarter-point queuedstate was saved once."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "One rejected model adapter; owner21isolateddiagnostic scenarios and independent Native rawcallback evidence only. No product source change/fullsuite or unknown MOVE/oldFOUNDARMED recovery pass. Both observers restored. Steam online/upload forbidden."
+}
