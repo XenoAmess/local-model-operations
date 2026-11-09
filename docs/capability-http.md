@@ -4877,3 +4877,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 561修正了owner误读：秀容原图实际4，曾看作1并错误报新缺陷。私人识字放大、三次原版CityPanel只读（两种GetTurnsLeft均4、ProductionNum4、GetCityData4）与第二原图一致，0产品补丁/游戏命令/控件写/刷新器。原四PNG字节不变，已改README/实机解读/证据/用例/BBCode并撤回缺陷，新增原始复核图；旧公开pin0c439的错误声明不覆盖更正pin。模型stop/DONE/JSON/1HTTP/28473tokens/11.281081s，采真实ProductionNumgetter及数据路径，XP2覆写ViewMain断言拒。owner向未见图的模型提供假视觉前提，不能记模型视觉失败。累计561/523stop/35length/3transport/591HTTP/30extra/OpenCode新0/null未知。产品98、旧恢复FAIL/宗教/完整40继续，Steam占用禁止上线。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-cityui561-correction.json)。
+
+
+## 2026-11-09：Civ6source98-natural176
+
+复用561、0新HTTP，562容量读取另账。98从独立173正例走3实际回合/5普通END/15玩家军队待命，175一次FOUND实际8→9，176粮仓3/32/L100+17；新0:175:18，不混继承97的193。175UI无/Core有旧actor且没读死亡旗，不追认Core当时消失；176双方lookupnil/名册0且OBSERVED一致。34food非负starve−1、34忠诚100正增长，655=635评估+5城+15文职调用，0错丢已撤。原图+6CSV/解读/BBCode入库；176ACKtrue1689811B/hash保存未load，已返179主线，9food/经济队列建筑区域地块保持、一builder续动，不推全世界不变或0bootstrap。174busy核验失败0后续动作，后来新读合格新END；查看标记断言错误据raw纠正0重放。正常FOUND路径通过，特殊live延后路径未自然观测，旧恢复FAIL/宗教/完整40保持。Steam0新启动/模式切换/上线或上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source98-natural176.json)。
