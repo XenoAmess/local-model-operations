@@ -1,0 +1,147 @@
+{
+  "schema": "local-model-operations.civ6-city-amenity186/v1",
+  "utc": "2026-11-09T20:28:51.684020+00:00",
+  "date_local": "2026-11-10",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/80bc68c6603428c62ad2fa514f686a68d43152d0/docs/research/baiqi-p6-city-amenity186-evidence-2026-11-10.json",
+    "sha256": "3388da66489ec02a74660b3509e4569486c86d737515299ae3651a3f88d61252"
+  },
+  "model": {
+    "utc": "2026-11-09T20:00:21.188296+00:00",
+    "models": [
+      {
+        "number": 594,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "outer_JSON_valid": true,
+        "usage": {
+          "prompt_tokens": 24170,
+          "completion_tokens": 906,
+          "total_tokens": 25076
+        },
+        "duration_ms": 12503.7972999271,
+        "HTTP_attempts": 1,
+        "raw_code_Native_execution": 0,
+        "adoption": "Native bounds arithmetic and unchanged wrapper/source anchors retained as reviewinput; rawprobe rejected and broad no-patch conclusion narrowed to current sampled frames.",
+        "rejections": [
+          "Says offset-5 placespanelabove bottom, contradicted by actualbottom694>689; correct below-edge5 relation.",
+          "Authorintent/functionalallUIpass notproved; only sampledcurrentWuhan andlaterownerXian.",
+          "Rawprobe misses186/humanBaiqi/SP/capital/busy/method guards.",
+          "Control coordinates are UIclient coordinates, notwindowouter728 or assumedabsoluteOSscreen."
+        ],
+        "owner_actual_samples": [
+          "Wuhan1pop originalpanel",
+          "Xian16pop originalpanel"
+        ],
+        "Native_layout_changes": 0
+      },
+      {
+        "number": 595,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "outer_JSON_valid": true,
+        "usage": {
+          "prompt_tokens": 5847,
+          "completion_tokens": 963,
+          "total_tokens": 6810
+        },
+        "duration_ms": 11650.04570002202,
+        "HTTP_attempts": 1,
+        "raw_code_Native_execution": 0,
+        "adoption": "Whole rawcode rejected; independent ownerboundedactualNative595sampler used.",
+        "rejections": [
+          "Only defines uncalledlocalBaiqiExecutor, no top-levelscope/2targetexecution/DONE.",
+          "pairs(districts) instead of actual collection:Members; pairs onGameInfo.Buildings() iterator and loopkeytreatedasrow.",
+          "Attempts district lookup frombuildings table and districtHasBeenPlaced onbuildinghash.",
+          "Validfalse CanProduce misclassifiedINVALID rather than VALUEfalse.",
+          "No pcall/optionalstatus/finite validation or requiredworldqualification."
+        ],
+        "isolated_check": "Whole candidate executes zero print samples in Lua51 because function nevercalled.",
+        "source_packet_note": "One contextline mistakenly mentions GameInfo.Districts.ENTERTAINMENT_COMPLEX then gives actualcorrectkeyDISTRICT_ENTERTAINMENT_COMPLEX; owner usesverifiedactualkey. Do not count that suppliedtypo as a model-createdAPI.",
+        "owner_actual_Native": "2citiescurrent186/8VALUEbooleanCanProduce gates; currentECtrueboth, Arenafalseboth; no historical174cause inference."
+      },
+      {
+        "number": 596,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "outer_JSON_valid": true,
+        "usage": {
+          "prompt_tokens": 5454,
+          "completion_tokens": 1011,
+          "total_tokens": 6465
+        },
+        "duration_ms": 7858.572000055574,
+        "HTTP_attempts": 1,
+        "raw_code_Native_execution": 0,
+        "adoption": "Only separation of production, plot topology and policy retained; owner independent readonly18plot inventory confirmed actual intersection0.",
+        "rejections": [
+          "Visible-resource policy reversed: actual source requires not ResourceVisible.",
+          "No EC candidate does not mean no other building/unit/project candidate or Choose=nil.",
+          "Nonempty queue returns before candidate evaluation, does not continue search.",
+          "Add is private local with qualification calls, not a callable readonlyNative API.",
+          "ResourceVisible internally reads resource metadata then visibility; only owner output avoids hidden resource identities."
+        ]
+      }
+    ],
+    "actual_HTTP_peak": 2,
+    "HTTP_overlap_seconds": 11.652919,
+    "new_logical_tasks": 2,
+    "new_HTTP_attempts": 2,
+    "OpenCode_daily": "Nov10 successfulsame-machine1.19.5cache reused bycanonicalCLI",
+    "new_OpenCode_native_generation": 0,
+    "cumulative595": {
+      "logical_tasks": 595,
+      "complete_stop_valid_outer_JSON": 555,
+      "length_discarded": 37,
+      "final_transport_failure": 3,
+      "HTTP_attempts": 625,
+      "extra_HTTP_attempts": 30,
+      "OpenCode_native_generation": 0,
+      "current_in_flight": 0,
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    "cumulative596": {
+      "logical_tasks": 596,
+      "complete_stop_valid_outer_JSON": 556,
+      "length_discarded": 37,
+      "final_transport_failure": 3,
+      "HTTP_attempts": 626,
+      "extra_HTTP_attempts": 30,
+      "OpenCode_native_generation": 0,
+      "current_in_flight_at_frozen596": 0,
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    "scope_note": "Frozen594through596 diagnosis; later597DAMimplementation candidate separate, not included in this denominator."
+  },
+  "cumulative": {
+    "logical_tasks": 596,
+    "complete_stop_valid_outer_JSON": 556,
+    "length_discarded": 37,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 626,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_in_flight_at_frozen596": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Current106turn186 only. Two owncity originalviews/clientgeometry; no layoutwrites or gameplayorders. Beijing18ownvisibleplots: Clear6/NativeEC4/intersection0. OtherdistrictsDAM1topology/productiontrue butmandatoryfloodplainblocked, Waterpark6topology/currentCanProducefalseandNaturalHistoryfalse. ActualDAMconstructionnottested.0Steam/newspawn.",
+  "generic_lessons": [
+    "UI screen/client and OS window dimensions are distinct; derive bottom from actual screenoffset plus size, not the sign of XMLoffset alone. Two visible frames do not prove all UI or author intent.",
+    "Preserve valid false in readonly qualification records. Compilation of an uncalled local probe does not mean it sampled anything; actual collection Members and GameInfo iterator shapes must match consumers.",
+    "One district having no eligible plot does not mean the full candidate list is empty. A nonempty production queue returns before candidate generation; do not infer an old selection from current gates.",
+    "Read both sides of a policy predicate: not ResourceVisible rejects visible resources. Reporting only visibility booleans is distinct from internally reading metadata; protect hidden-resource identities in public diagnostics.",
+    "A generic no-feature policy conflicts with a district whose actual shipped data mandates a feature. Separate that identified product gap from current queue preservation and later successful construction; narrowly bind exceptions to verified district-feature pairs.",
+    "Record owner diagnostic defects too: the supplied595 context had one key typo and owneroptionalrow fallback was not generalmissingdefinition-safe; actual rowpresent observations remain narrow."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Frozen ordinary HTTP models594to596; no native-tool generation. Current owncity/plot observations only, no old174cause, actualDAMbuild, fullUI or40case pass. No Steamonline/newspawn/upload."
+}

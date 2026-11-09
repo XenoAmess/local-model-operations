@@ -5157,3 +5157,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 本包新增模型／HTTP／OpenCode生成0，累计593不重计。现有离线106186临时108模块，7Applytrue（首1／独立重复3／原版渲染3）；透明观察后4true0false含1独立重复，不能全叫自动回调。原版开关各3、物理查看按钮4，传记原版API滚动0→1非滚轮。75属性＋回调＋观察全还原，另从原版重开九卡768/670及命名空间nil，无残留缩放；自有世界1/城9/建筑65/区域34/地块144/单位35、9food9vitals与186save1709266/ba39b4...保持。仅可还原预验PASS，不是108冷安装／宽视口／全规则集；CityPanel、旧ARMEDFAIL、未知MOVE、十城/full40继续。Steam占用禁上线，0新进程/模式/登录下载上传，工坊82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-gp108-preview186.json)。
+
+
+## 2026-11-10：Civ6city-amenity186
+
+594—596各1HTTP、stop/DONE/合法外JSON，594/595实际峰2重叠11.652919秒，596另执行。594偏移方向/全UI结论缩窄；595未调用函数、集合类型和validfalse错误整体拒；596资源门反读、单类候选空与非空队列误读纠正。0rawNative，owner两城原图与18格有界只读揭示必需地貌水坝缺口，未改产品/队列或END186。累计冻结596logical556complete37length3transport626HTTP30extra、0OpenCode原生、未知成本null；597后续修复候选另包。Steam他机占用0上线上传，工坊82未更。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-city-amenity186.json)。
