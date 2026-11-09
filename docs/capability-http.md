@@ -5115,3 +5115,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 589实际Nov9调用stopJSON5176+678=5854tokens5.083503秒，Cities全局／GetCity／GameConfiguration.IsHuman编造及self错整份拒绝。Owner只读实际接口五帧40城600VALUE，106天然6回合证明三城开娱乐、西安EC接Arena172达8/8。娱乐+3与lux+1／人口需求+1分列，议会实际军事生产折扣／大作家禁点／陌生玩家DIP2／WorldFair另记。Cold166六组等、1471观察零错丢撤，1721645552/55ba3d...未load，其他城／旧ARMEDFAIL／未知MOVE／20回合106／40case未闭。累计589logical549complete37length3transport619HTTP30extra0OpenCode生成；Nov10仅后到实机证据，未补造当日维护。Steam上线禁令持续，头部导航与独立只读offline证明分开，0模式切换或上传，工坊82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-amenities106-native172.json)。
+
+
+## 2026-11-10：Civ6source106-reload172
+
+0新模型任务／HTTP／OpenCode生成，复用累计589不重复计数，不追认Nov10维护。106完成态172Load一次／继续一次实际竞技场8/8保持，五组自有行+8food+120来源全同；33ID类型集合一致、1builder位置/行动变化。前两次截图超60秒0输入，readonly证实owner/PID/birth相同且age150.55s；复拍名称/继续文字像素相同比对，再用原时效/前台/哈希/身份校验点击一次，不放宽守卫。0END172/无观察器，未知MOVE和旧FOUNDARMEDFAIL未闭，Steam禁上线工坊82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-source106-reload172.json)。
