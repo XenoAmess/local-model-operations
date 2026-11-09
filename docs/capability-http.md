@@ -4905,3 +4905,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 564真实未完成先知赞助只读报价，stop/DONE/JSON/1HTTP15143tokens/9.177928s。raw可编译却把Game静态写冒号，20方法9fail事件；仅三处点号纠正对照仍19fail事件，漏稀疏／额外键／已领取重复／定义Index、nil成本状态／末尾新鲜性等。非19独立方法，原稿和对照均0Native，owner只读模块20pass后99实机182：Prophet122/CanRecruitfalse/金币及信仰赞助true，报价500／350，自有4534.1015625／522.14453125；0采购／扣费／赠送／Bridge。未实现自动赞助，不进mod包，原99完整1457切点未重跑。累计564/526stop/35length/3transport/594HTTP/30extra/OpenCode原生新0/null未知，Steam占用0模式/上线/上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion564-quote.json)。
+
+
+## 2026-11-09：Civ6source99-holy-native186
+
+99自然首座圣地与首次产点，0新HTTP／产品改动，复用563/564。179冷读自有1经济9队列59建筑33区域140plot30unit全等；7普通END45玩家军队待命，185Spainintro拒访1后actual186。太原182圣地0/68、18334、18452、185实际完成接灯塔，18640->41/+1，完成态正式reload自有1/9/66/34/145/36全等及9food/41+1保持，不推全世界或0bootstrap。72food非负starve-1/72loyalty100正变化；observer179->1851846=1781recruit14city50op1cmd，51全owncivilian，0错丢全撤，末回合不在观察窗。首都180fullCanProduce真但ClearPlot/geometry交集0，非已证排序失败；185food忙碌guard先停后fresh正常，普通END遇外交不重放；owner口述市场纠正为实际灯塔。107byte安装、Steam新鲜后台offline0.003459s后启动，header输入与proof分列0mode/online/upload。构建产点窄PASS，先知/宗教传播/旧ARMED恢复FAIL/full40保持。累计564/526stop/35length/3transport/594HTTP/30extra/OpenCode新0/null未知。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source99-holy-native186.json)。
