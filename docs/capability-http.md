@@ -5045,3 +5045,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 579两句真实140文案1HTTP1069tokens/1.015649s stop/DONE/VALID；数值80/394.4296875/314.4296875正确，partial采用数字表述方向，owner重写重play/模糊独立新事件并删无关未验证总结，0代码/Native采用，没把后来的重载结论归模型。Native105140仅1cityfaith购买，新3670037@54,37/r1/ch3/mv0、purchase:0:2OBSERVED，旧13670记录保留；跨回合正常income11.0039与真实80区分，不猜涨价公式。140save1464129/2a36d685...正式LoadACK/Continue1后world/7queue/24building/20district/103plot/23unit/7food/followers及全部完成journal逐行同，所测无新扣费单位奖励，bootstrapcommandsunknown。observer270/256read2city12文职0cmd0错丢、CityCmd1均已撤。两新原图BBCode上库，full1598切点不增。累计579/540stop/36length/3transport/609HTTP/30extra/OpenCode0/null成本，Steam禁上线工坊82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion579-purchase140.json)。
+
+
+## 2026-11-09：Civ6source105-sdk-offline
+
+0新模型；此前full1598的1skip确因BAIQI_WORKSHOP_SDK_ASSEMBLY未设，非已证实未装SDK。游戏同级现有官方Steamworks.NET引用sha90daa82a...，只传单次子进程，以C#5 /main:WorkshopOfflineTests编译运行1method/20purehelperspass，Publisher.Main/SteamAPI.Init/Steamonline/download/upload均0。不入DLL、不改1597pass1skip原件、不虚报新full，579累计不增，工坊82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source105-sdk-offline.json)。
