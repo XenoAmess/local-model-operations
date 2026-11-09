@@ -5073,3 +5073,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 582为真实只读采样诊断，1HTTP完整stop合法JSON/4494tokens10.320730秒，原diff损坏、复用冻结子标签且缺白名单/续读，原代码拒绝。owner私有白名单3次上限/保留原件，69Native只读首试均完成，重试分支未触发不授Native覆盖。累计582logical543complete36length3transport612HTTP30extra/0OpenCode原生生成，未知成本null。105同进程145→165实际20turn/21帧157城市行，18建筑5普通区域7配对改良，24ordinaryEND36armySKIP0人工内政UserForced，本TC037场景通过；8城多数、161无需求不买，165save1613032/558acebe...未load。5原图内嵌/4CSV/待发BBCode上库；旧ARMED恢复FAIL/宜居度-3/小视口与规则集性能矩阵继续。Steam禁上线工坊82未更。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source105-window145-165.json)。
+
+
+## 2026-11-09：Civ6source105-reload165
+
+0新逻辑/HTTP/OpenCode生成，582累计不增。105原165存档同进程实际Load1/Continue1/0END165；五组1/8/45/28/124相同、30完整单位身份类型相同但1builder真实移动，8food/7routes/faith461.75390625/已打印完成账本字段保持。FindID两个旧ID在UI与Core别名新骑士/建造者，验收原nil守卫拒绝后按完整ID修正，未操作新演员。原帧到preload的商人出发/预计回合差有保存前原生tradeObserved时序，先停Load再对账，无覆写旧save。新移动与旧164:253未见完成记录继续审查，不授未知MOVE恢复或旧ARMEDFAIL闭合。新原图/文档/待发BBCode入库，Steam禁上线工坊82未更。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source105-reload165.json)。
