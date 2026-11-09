@@ -5122,3 +5122,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 0新模型任务／HTTP／OpenCode生成，复用累计589不重复计数，不追认Nov10维护。106完成态172Load一次／继续一次实际竞技场8/8保持，五组自有行+8food+120来源全同；33ID类型集合一致、1builder位置/行动变化。前两次截图超60秒0输入，readonly证实owner/PID/birth相同且age150.55s；复拍名称/继续文字像素相同比对，再用原时效/前台/哈希/身份校验点击一次，不放宽守卫。0END172/无观察器，未知MOVE和旧FOUNDARMEDFAIL未闭，Steam禁上线工坊82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-source106-reload172.json)。
+
+
+## 2026-11-10：Civ6source106-window166-186
+
+590—592三stop/DONE/合法外JSON、各1HTTP/72795tokens，真实HTTP峰1（目标12—16不凑数）。590hint/未测资格文案重写，591固定768源锚点由owner实测689/768确认而原探针未执行；592伪Timeline/实例全局、无恢复、复制测试整体拒绝，独立实际形状反例。Owner私有布局稿Lua51五检查通过，未入产品／Native。106自然20实际回合174城帧8→9／19建筑6区域7配对改良；33普通END63玩家军队待命、0手动内政。武汉181两侧OBSERVED，1861709266/ba39b4...已存未载，其他宜居度／旧ARMEDFAIL／小视口／full40继续。累计592logical552complete37length3transport622HTTP30extra0OpenCode原生生成，Nov10新每日维护1.19.5成功，未知节时/缓存null。Steam他机占用禁上线，联网／登录／下载／上传初始化／上传0，工坊82不变。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-source106-window166-186.json)。
