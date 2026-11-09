@@ -4926,3 +4926,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 566完整stop/DONE/JSON1HTTP8941tokens/11.434711s，raw20有9fail事件，仅三静态点号控制仍11fail事件，均0Native；owner工具20pass后100原生187确认当前先知类nil/nil为NONE_AVAILABLE，自身42/+1未创教无先知。公开past122由p1在186领取，不猜方法或凑齐4槽。100冷186状态六组全等，1普通结束8军队SKIP，拒Spain交易并关闭，18food18loyalty，269观察已撤。祷告队列尚忙机会关闭，未授奖励招募。GP主体handlernil、原view事件ACK后地图未变，UI查看FAIL另567修复。累计566/528stop/35length/3transport/596HTTP/30extra，新OpenCode0/null未知。Steam外机占用0联网或上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion566-empty-native187.json)。
+
+
+## 2026-11-09：Civ6ui567-gp101
+
+567完整stop/DONE/JSON1HTTP20733tokens/10.000089s，GreatPeoplePopup函数补丁原样采用，owner修头注释；raw8测试7error，含include参数数目、dict属性和未模拟IsReadOnly，并无真实wildcard/禁写/重复注册保证，测试拒绝0Native。owner8实际wrapper/loader/guard+synthetic原版合同通过；旧100同组12error-events含子场景。101全1531/1530pass/1SDKskip、85Lua51/107包，冷界面仍待验。累计567/529stop/35length/3transport/597HTTP/30extra，新OpenCode0/null未知。100187负例已保存，祷告奖励／招募未通过，Steam禁上线上传、公开Alpha2仍82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-ui567-gp101.json)。
