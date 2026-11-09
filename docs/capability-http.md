@@ -5017,3 +5017,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 5771HTTP3081tokens/7.622741s stop/DONE/VALID，有原版签名/完整订阅示例/精确合同。rawLua51compile，同8methods10失败事件：尾nilargc/8参数界/快照alias与非法结构/scope/当前Add漏清/partialRestore重复移除，全拒0Native。owner独立有界RAW观察及精确清理8pass，工具不进104108包，产品full1577切点不虚增1585full。冻结发布时仅Core/UI139四eventAddRemove存在，未装未证实emission；独立138LoadACK真实world未read，139FAIL保存继续。累计577/538stop/36length/3transport/607HTTP/30extra/OpenCode0/null成本，Steam他机占用0上线或上传工坊82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion577-eventtool.json)。
+
+
+## 2026-11-09：Civ6religion577-native139
+
+577Native补证0新HTTP/逻辑，累计577冻结切点不重算；独立138正式load/Continue1后M573逐行保持，1normalEND/2armySKIP到139。Core/UI各4事件Started1592408602→Charges0/1→Removed→Deactivated，UI1ch/f4→0ch/f5仍活坐标55,34再missing，Core全dead0ch/-9999；只保各ctx次序、不解释原始尾0/1成功码。产品ARMED仍FAIL。Corecfg.IsHuman误用发生安装后print，读回0样本后先精确撤再fallbackplayer重装，UI旧scope合法无双装；0动作重放。事件2handles/Finance137含8文职1spread/CityCmd0全部撤，139save1463550/hash4083b6f...，0END139，105Core事件pair收尾实现另验。Steam禁上线工坊82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion577-native139.json)。

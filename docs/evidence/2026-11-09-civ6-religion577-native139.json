@@ -1,0 +1,41 @@
+{
+  "schema": "local-model-operations.civ6-religion577-native139/v1",
+  "utc": "2026-11-09T09:49:02.840814+00:00",
+  "date_local": "2026-11-09",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/867efab8a0ba07f5c7c2db8e11637a3fdec3872f/docs/research/baiqi-p6-religion577-native-last-charge-events139-evidence-2026-11-09.json",
+    "sha256": "e636d5edd93bfea1bbcbbce167ae003c8e645d99721420b3b728d31e8c26cd75"
+  },
+  "model": {
+    "new_logical_tasks": 0,
+    "new_HTTP_attempts": 0,
+    "new_OpenCode_native_generation": 0,
+    "owner_native_followup_only": true
+  },
+  "cumulative": {
+    "logical_tasks": 577,
+    "complete_stop_valid_outer_JSON": 538,
+    "length_discarded": 36,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 607,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_HTTP_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Independent138checkpoint branch actual139 Core/UI4events each StartedSpread→Charges0/1→Removed→Deactivated. UI exact adjacent event snapshots alivecharge1/followers4→alivecharge0/followers5 thenmissing; Core all callbacks alreadydead0charge/-9999. Product104 receiptstillARMED; all4diagnostic handles restored, actual139branchsaveverified.",
+  "generic_lessons": [
+    "Core and UI callbacks for the same native notifications can observe different materialized unit state. Record per-context order and facts instead of assuming cross-context atomicity.",
+    "A matching operation-start event and actual charge-change notification supply causal evidence unavailable from polling a deleted unit. Do not decode undocumented event tail parameters as success codes.",
+    "Adjacent same-turn UI event snapshots isolated a follower change from4to5, unlike aggregate interturn growth that can include ordinary pressure.",
+    "An adapter can fail after subscription but before its acknowledgment print. Read back the existing owned handle and restore it before retrying a corrected installation; do not assume the initial error means no side effect.",
+    "A native diagnostic success does not repair the product receipt. Preserve the real ARMED failure and qualify a separate implementation against the exact observed event sequence."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Owner Native diagnostic followup only, no new HTTP or model adoption. Product104 receipt stillfails; next105 implementation separately verified. Independent branch events not additive to main three spreads."
+}
