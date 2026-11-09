@@ -5003,3 +5003,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 575文档真实任务1HTTP/stop/DONE/VALID，6139+773=6912tokens/5.669021s；有当前104原生事实却照抄旧软件报告，错称运行103/104未冷验/旧档未load及玩家采购，whole拒0采用，owner独立写。104108files等于0d04e22，freshbackgroundSteamoffline age0.008590后启动19876；同真实103ARMED136正式load+Continue1，自动OBSERVED同token/3407893/oneunit/faith351.414，0QA桥调用／重买。六自有组及7food/followers全同，恢复136save1449339/9031462f...未load；bootstrapcallsunknown，观察器136新装。CoreGetNumBeliefsEarned nil归owner读口误用0actions；loading变亮guard拒0input后审新鲜原图Continue1。累计575/536stop/36length/3transport/605HTTP/30extra/OpenCode0/null成本，Steam他机占用0上线或上传工坊82；fresh104采购/国内spread仍未过。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion575-cold104.json)。
+
+
+## 2026-11-09：Civ6religion576-spread139
+
+5761HTTP12244tokens/3.540883s stop/DONE/VALID，重复owner已识别负坐标拒绝原因，提议-9999删除对象作proof或错误Coreflatgetter，0产品采用/0rawNative，先资格事件。Native104137三MOVE到西安65536+SPREAD，138/139各SPREAD；前两次3→2→1/OBSERVED窄过，139Core3407893own0r1ch0DelayedDeathtrue/-9999而ARMED，UIlive0，0END139已存1463393/201a02a...。首都Buddhist1→3→4→5/12majority-1，压力贡献未知；3normalEND/4armySKIP，28food非负无饿/28忠诚100正，observer413/383read3city27unitop0cmd0错丢、CityCmd0均撤。3原图及CSV上库，软件full1577切点不增。累计576/537stop/36length/3transport/606HTTP/30extra/OpenCode0/null成本，Steam禁上线工坊82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion576-spread139.json)。
