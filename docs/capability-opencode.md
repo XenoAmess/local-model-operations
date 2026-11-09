@@ -1148,3 +1148,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-09：Civ6amenities106-software
 
 0新OpenCode原生生成；canonical CLI普通HTTP前复用同机同用户Nov9首次547前新鲜检查成功；installed/latest均1.19.5，updated=false。候选审阅／owner诊断／Native结果分账；不把编译或维护成功授予产品验收。未知缓存tokens／人工节时保持null。[固定业务pin](evidence/2026-11-09-civ6-amenities106-software.json)。
+
+
+### 2026-11-10：Civ6amenities106-native172
+
+0新OpenCode原生生成；589普通HTTP实际发生于客户端11月9日，canonical CLI复用当日成功缓存；11月10日仅同步后到证据，未新增模型请求或追认当日维护。候选审阅／owner诊断／Native结果分账；不把编译或维护成功授予产品验收。未知缓存tokens／人工节时保持null。[固定业务pin](evidence/2026-11-10-civ6-amenities106-native172.json)。

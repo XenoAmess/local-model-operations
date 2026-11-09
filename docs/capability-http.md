@@ -5108,3 +5108,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 586/587真实并发峰2持续16.154930秒：58659643+3000tokens/33.700407秒length整弃，58763997+45/16.148332秒仅路径非代码拒绝。5886645+1123/7.499261秒stopJSON，rawdiff128corrupt，三个精确106替换行经owner修hunk后部分采用。生产和9测试owner完成，首次完整1611有18对照版本错误，后限定106再跑1610pass1SDKskip/143.563秒，86Lua51/108包。ownerZIP前缀漏Baiqi/另核修复不再跑完整套件。Native105166八城只读仅资格，不授106实机或宜居度改善。累计588logical548complete37length3transport618HTTP30extra0OpenCode生成，成本null。Steam占用禁上线工坊82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-amenities106-software.json)。
+
+
+## 2026-11-10：Civ6amenities106-native172
+
+589实际Nov9调用stopJSON5176+678=5854tokens5.083503秒，Cities全局／GetCity／GameConfiguration.IsHuman编造及self错整份拒绝。Owner只读实际接口五帧40城600VALUE，106天然6回合证明三城开娱乐、西安EC接Arena172达8/8。娱乐+3与lux+1／人口需求+1分列，议会实际军事生产折扣／大作家禁点／陌生玩家DIP2／WorldFair另记。Cold166六组等、1471观察零错丢撤，1721645552/55ba3d...未load，其他城／旧ARMEDFAIL／未知MOVE／20回合106／40case未闭。累计589logical549complete37length3transport619HTTP30extra0OpenCode生成；Nov10仅后到实机证据，未补造当日维护。Steam上线禁令持续，头部导航与独立只读offline证明分开，0模式切换或上传，工坊82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-amenities106-native172.json)。
