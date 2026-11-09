@@ -5066,3 +5066,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 真实580工具/581图解两任务并行：2stop合法JSON/2HTTP，实际POST重叠1.743283s/峰2；累计581logical542complete36length3transport611HTTP30extra/0OpenCode生成。580原diff损坏、非法值getter前置合同不符且缺测试，不采用原代码；owner闭包bound1..16384默认4096，4新增共14方法通过/Lua51编译，无新全套。581只部分事实改写。105北京144同演员finalOBSERVED+UI完成，佛教仍4/11majority-1不授转教，Core延迟死亡枚举不算live。原图内嵌/CSV/BBCode入库；7food无饿/忠诚100正，北京宜居度-3小视口及旧移民ARMEDFAIL/40项继续。Steam禁上线工坊82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion580-581.json)。
+
+
+## 2026-11-09：Civ6source105-window145-165
+
+582为真实只读采样诊断，1HTTP完整stop合法JSON/4494tokens10.320730秒，原diff损坏、复用冻结子标签且缺白名单/续读，原代码拒绝。owner私有白名单3次上限/保留原件，69Native只读首试均完成，重试分支未触发不授Native覆盖。累计582logical543complete36length3transport612HTTP30extra/0OpenCode原生生成，未知成本null。105同进程145→165实际20turn/21帧157城市行，18建筑5普通区域7配对改良，24ordinaryEND36armySKIP0人工内政UserForced，本TC037场景通过；8城多数、161无需求不买，165save1613032/558acebe...未load。5原图内嵌/4CSV/待发BBCode上库；旧ARMED恢复FAIL/宜居度-3/小视口与规则集性能矩阵继续。Steam禁上线工坊82未更。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source105-window145-165.json)。

@@ -1,0 +1,71 @@
+{
+  "schema": "local-model-operations.civ6-source105-window145-165/v1",
+  "utc": "2026-11-09T12:46:09.315200+00:00",
+  "date_local": "2026-11-09",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/6802c19921fd4cfa9974582e8d80e6f2e4c61936/docs/research/baiqi-p6-source105-window145-165-and-no-demand-evidence-2026-11-09.json",
+    "sha256": "167655ec0bf2a0d878a9dd6219ae70a8329b9c4f3fb30d872eadaae682d6ac95"
+  },
+  "model": {
+    "new_logical_tasks": 1,
+    "new_HTTP_attempts": 1,
+    "new_OpenCode_native_generation": 0,
+    "task": "582 real read-only sampling runner diagnosis",
+    "finish_reason": "stop",
+    "JSON_valid": true,
+    "usage": {
+      "prompt_tokens": 2795,
+      "completion_tokens": 1699,
+      "total_tokens": 4494
+    },
+    "duration_ms": 10320.729700033553,
+    "raw_code_adopted": false,
+    "rejection": [
+      "Malformed unified diff @@ without hunk ranges",
+      "Undefined bare p6_source105post_settled_owner.py in Path expression",
+      "Retry suffix changes log only, reuses frozen child labels and hits FileExistsError",
+      "Atomic guard classifier cannot match actual failure and relies on wrong settle marker",
+      "No seven-tool/observer read-only argv whitelist",
+      "Does not implement actual153 resume"
+    ],
+    "owner_private_runner_AST_parse": true,
+    "owner_gameplay_actions_from_candidate": 0,
+    "sampling_gate_actual": {
+      "query_receipts": 69,
+      "explicit_not_ready": 0,
+      "opaque_UNKNOWN": 0,
+      "retry_attempts": 0,
+      "max_attempt_observed": 1
+    },
+    "retry_branch_not_exercised_in_Native": true,
+    "unknown_cost": null
+  },
+  "cumulative": {
+    "logical_tasks": 582,
+    "complete_stop_valid_outer_JSON": 543,
+    "length_discarded": 36,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 612,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_HTTP_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Same105process ordinary145to165 twenty actualturnadvances with21snapshots157cityrows,18newbuildings5ordinarydistricts7same-visible-owned NONEtoimproved matchedBACKGROUND BUILD. 24ordinaryEND36armySKIP0manualdomestic0UserForced. Scenario TC037PASS, not historicalfixedfivecity replay/all40/performance. Own8majority160, no-demand1610missionaries/no new purchase/faithincrease. Allhooksrestored165/saveverifiednotloaded.",
+  "generic_lessons": [
+    "A completed continuous acceptance window needs complete per-turn evidence. Keep the incomplete earlier140to160 window and use actual145to16521frames instead of backfilling missing142/143queue states.",
+    "Separate normal end requests from actual turn advances: queued unit execution can leave the same turn active. Read the actual queue and normal eligibility before another ordinary end; do not replay an unknown request.",
+    "Opaque UNKNOWN from a read-only snapshot is not actor absence or a proven busy cause. Preserve it, obtain a separate qualified read, and never retry game actions through the diagnostic path.",
+    "A bounded sampling retry wrapper must whitelist exact read-only tools and arguments; an observer read allowance must not admit install or restore. Preserve every raw attempt, unique child output labels and failed state guards.",
+    "Actual module/UI names and per-turn range bounds are consumers too. Keep completion sentinel errors and range rejections as harness errors, without inventing product failures or rerunning successful game actions.",
+    "Report public religion screen totals separately from owned cities. A total of9includes an external city while independent own-city reads confirm8; do not claim active foreign spread from passive religion pressure.",
+    "Cap extensions and nested observations require exact LIFO cleanup. Here the old3788 and outer2979 both remainzeroerror/drop, outerjoinsat809 and isremovedfirst; later161to165 is not falsely granted finance hook coverage."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "One ordinary local HTTP candidate rejected; owner private diagnosis and actual105nativecity/religionwindow separately attributed. No new full product suite, no Native retry-branch coverage, no current full performance/all40/legacy ARM recovery pass. Steam online/upload prohibited while other device busy."
+}
