@@ -4912,3 +4912,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 99自然首座圣地与首次产点，0新HTTP／产品改动，复用563/564。179冷读自有1经济9队列59建筑33区域140plot30unit全等；7普通END45玩家军队待命，185Spainintro拒访1后actual186。太原182圣地0/68、18334、18452、185实际完成接灯塔，18640->41/+1，完成态正式reload自有1/9/66/34/145/36全等及9food/41+1保持，不推全世界或0bootstrap。72food非负starve-1/72loyalty100正变化；observer179->1851846=1781recruit14city50op1cmd，51全owncivilian，0错丢全撤，末回合不在观察窗。首都180fullCanProduce真但ClearPlot/geometry交集0，非已证排序失败；185food忙碌guard先停后fresh正常，普通END遇外交不重放；owner口述市场纠正为实际灯塔。107byte安装、Steam新鲜后台offline0.003459s后启动，header输入与proof分列0mode/online/upload。构建产点窄PASS，先知/宗教传播/旧ARMED恢复FAIL/full40保持。累计564/526stop/35length/3transport/594HTTP/30extra/OpenCode新0/null未知。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source99-holy-native186.json)。
+
+
+## 2026-11-09：Civ6religion565-prayer100
+
+565正常圣地祷告项目候选stop/DONE/JSON/1HTTP19492tokens/14.128484s。原helper及精确接线Lua51可编译，但26有19fail事件0error，漏帝国承诺／候选预算／未知持有，待命−1000丢失、原1分项目被新需求阻断，布尔／定义／重复不足且虚称atomicity，整稿0Native。owner100项目91前置候选、全帝国／最终Native重验、未知请求标记保留，仍非持久协议／普通项目总禁令；26新pass，旧99同组20fail事件0error，原23首座回归在完整1503/1502pass/1SDK条件skip内，85Lua51/107包。初26唯一fixture错误为无圣地应选旧92而非工坊90；验证器else拼写被Python先拒0测试，修复后实际运行。99原生186确认PROJECT_ENHANCE_DISTRICT_HOLY_SITE成本100/双CanProduce及APPENDtrue、原队列灯塔，先知cost60/own41+1/CanRecruitfalse，项目奖励额仍未知；0点数赠送或赞助。累计565/527stop/35length/3transport/595HTTP/30extra/OpenCode原生新0/null未知。100尚未安装实机，Steam占用0上线上传，旧恢复FAIL／宗教整链／完整40open。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion565-prayer100.json)。

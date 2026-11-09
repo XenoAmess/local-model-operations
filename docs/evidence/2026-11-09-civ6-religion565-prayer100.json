@@ -1,0 +1,68 @@
+{
+  "schema": "local-model-operations.civ6-religion565-prayer100/v1",
+  "utc": "2026-11-09T02:20:11.765263+00:00",
+  "date_local": "2026-11-09",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/a3f10a3a7050719aa97f86d1fe7733802222ea32/docs/research/baiqi-p6-religion565-prayer100-software-evidence-2026-11-09.json",
+    "sha256": "732d5ad0ff0131a8f706f8eddc86a14f98d616e44d8abafb3b1f812000b941f3"
+  },
+  "model": {
+    "started_at_utc": "2026-11-09T01:58:55.468831+00:00",
+    "HTTP_attempts": 1,
+    "extra_attempts": 0,
+    "usage": {
+      "prompt_tokens": 17557,
+      "completion_tokens": 1935,
+      "total_tokens": 19492
+    },
+    "seconds": 14.128484499990009,
+    "finish_reason": "stop",
+    "SSE_DONE": true,
+    "outer_JSON": "VALID",
+    "helper_and_assembled_Lua51_compile": true,
+    "adoption": "RAW_IMPLEMENTATION_REJECTED_OWNER_IMPLEMENTATION",
+    "raw26_failure_events": 19,
+    "raw26_error_events": 0,
+    "raw_candidate_Native": 0,
+    "actual_HTTP_peak": 1,
+    "daily_maintenance": "Nov9 canonical same-machine/user successful cache installed/latest1.19.5 updatedfalse",
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null,
+    "review": [
+      "Only current-city queue/pending checked; misses empire-wide commitments.",
+      "Still inserts prayer after ordinary candidate budget can be exhausted.",
+      "Removes standby-1000 by giving it score1.",
+      "Final demand guard applied even to ordinary score1 project, blocking legacy fallback.",
+      "Missing explicit false recruitability, duplicate/definition/unknown record checks and bounded early-stop timeline scan.",
+      "No ReadBack marker retained after unknown requests; claims atomicity beyond actual read checks."
+    ]
+  },
+  "cumulative": {
+    "logical_tasks": 565,
+    "complete_stop_valid_outer_JSON": 527,
+    "length_discarded": 35,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 595,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_HTTP_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "100softwareonly26newController tests pass,old99same26has20fail-events/rawassembled19fail-events0error;full1503run1502pass1SDKenvskip;85Lua51/107filepack.99Native186 actualHolyprayerdefinitionindex12/hash30870116/cost100/bothCanProduceanAPPENDtrue/currentLighthouse retained,Prophet41+1/cost60/notrecruitable.100notinstalled/Native atthispin.",
+  "generic_lessons": [
+    "A project priority must enter before a finite candidate budget is exhausted, while normal high-scoring work still wins.",
+    "A cross-city supply bonus must inspect all native queues/current items and pending operations; checking only the current city is insufficient.",
+    "Apply a new demand guard only to promoted candidates, preserving ordinary fallback production and the standby negative score.",
+    "Read explicit false/unknown separately, validate full lists/definitions/duplicates, and retain unknown submitted promises instead of inferring failure.",
+    "Read-boundary revalidation is not atomicity; describe its actual practical limit.",
+    "Regression fixtures must allow existing first-infrastructure behavior to beat an ordinary building when the new project is ineligible."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "100 software-only at thispin; Native prayer award and Prophet recruitment not observed. Failure events can include multiple subcases of one method. No spending/new persistence/control permissions; publicAlpha2still82, Steamotherdevicebusy0onlineorupload."
+}
