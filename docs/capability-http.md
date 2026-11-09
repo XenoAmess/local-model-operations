@@ -4996,3 +4996,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 5741HTTP/stop/DONE/JSON，14746+1161=15907tokens/9.868998s；rawLua51compile但Hash词法先用/硬编码786443/中心圣地坐标矛盾/删snapcenterguard/无fresh，全拒0Native。相同8methods旧103有2失败事件、raw9、owner8pass，原23intentchecks通过。owner本城HolySite+MapID/完整未损坏/元数据+二读最终复核，0购买writer变更；full1577=1562+573tool7+new8，1576pass1SDKskip/86Lua51/108byteequal。实机103136神社完工、一次70faith421.414→351.414出生3407893@54,37/r1/ch3/moves0，ARMED仍中心56,38；FAIL已保存/0END136，Finance1572/31civilianops及CityCmds1均0错丢并撤。104未装未冷验，采购/传播不授。累计574/535stop/36length/3transport/604HTTP/30extra/OpenCode0/null未知。Steam他机占用0上线或上传，工坊82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion574-birth104.json)。
+
+
+## 2026-11-09：Civ6religion575-cold104
+
+575文档真实任务1HTTP/stop/DONE/VALID，6139+773=6912tokens/5.669021s；有当前104原生事实却照抄旧软件报告，错称运行103/104未冷验/旧档未load及玩家采购，whole拒0采用，owner独立写。104108files等于0d04e22，freshbackgroundSteamoffline age0.008590后启动19876；同真实103ARMED136正式load+Continue1，自动OBSERVED同token/3407893/oneunit/faith351.414，0QA桥调用／重买。六自有组及7food/followers全同，恢复136save1449339/9031462f...未load；bootstrapcallsunknown，观察器136新装。CoreGetNumBeliefsEarned nil归owner读口误用0actions；loading变亮guard拒0input后审新鲜原图Continue1。累计575/536stop/36length/3transport/605HTTP/30extra/OpenCode0/null成本，Steam他机占用0上线或上传工坊82；fresh104采购/国内spread仍未过。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion575-cold104.json)。
