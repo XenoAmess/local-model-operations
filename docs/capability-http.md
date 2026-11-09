@@ -5150,3 +5150,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 593新真实任务1HTTP/stop/DONE/JSON4164+796=4960tokens5.830157秒，复用Nov10同机1.19.5成功维护缓存；rawfixture普通字段__eq／无children接线／setter漏self导致高度写table，三隔离缺陷拒绝，0Native。Owner真实SOURCE测试用共享底层状态的元方法代理，旧1078方法6pass2Lua断言error，1088pass，相关38pass／12.880s，全1618pass1SDKskip88.388s／87Lua51／109包字节等。缓存改lastHeight，原XML或上次合法值重验，外部999仍整页拒。源码108软件切点／运行106186；Native预验另记，0新进程或Steam上线，工坊82。累计593logical553complete37length3transport623HTTP30extra0OpenCode原生生成，成本null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-gp-handle-cache108-software.json)。
+
+
+## 2026-11-10：Civ6gp108-preview186
+
+本包新增模型／HTTP／OpenCode生成0，累计593不重计。现有离线106186临时108模块，7Applytrue（首1／独立重复3／原版渲染3）；透明观察后4true0false含1独立重复，不能全叫自动回调。原版开关各3、物理查看按钮4，传记原版API滚动0→1非滚轮。75属性＋回调＋观察全还原，另从原版重开九卡768/670及命名空间nil，无残留缩放；自有世界1/城9/建筑65/区域34/地块144/单位35、9food9vitals与186save1709266/ba39b4...保持。仅可还原预验PASS，不是108冷安装／宽视口／全规则集；CityPanel、旧ARMEDFAIL、未知MOVE、十城/full40继续。Steam占用禁上线，0新进程/模式/登录下载上传，工坊82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-gp108-preview186.json)。
