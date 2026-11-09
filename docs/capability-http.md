@@ -4940,3 +4940,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 568完整stop/DONE/JSON1HTTP4955tokens/5.176399s，首边界patch采用、冗余>=0拒，raw6pass但超要求3，owner合3并known-before-future防旧范围假绿；原20+3共23pass，旧150同3有3fail-events含子场景。101原生187打开关闭及只读窄通过，X/Y和小视口底部截断仍FAIL，Game.GetPlayers四筛选0而PlayerManager6含own，原因未知，569另修。187另save，正式读真实87NoBarb99后5城9单位/faith100.41015625/points0+0/unclaimed122，5food正常，无赠送／招募／创教通过。累计至568/530stop/35length/3transport/598HTTP/30extra，新OpenCode0/null未知。外机Steam占用0模式上线上传，公开Alpha2仍82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-supply568-native101-partial.json)。
+
+
+## 2026-11-09：Civ6gp569-public102
+
+569完整stop/DONE/JSON1HTTP22747tokens/17.531432s，rawhelperLua51compile但范围缺、逐类半发布、NaN等，3直接反例实证普通领袖改动/后续类异常已留首类/NaN发布，raw3tests全error（未定义include）并镜像实现，整稿0Native拒绝。owner102仅GPwrapper原版调用后、只白绮当前明确空类，64有界密集去重含own，公开点数+met/unmet名字，全量暂存后复核才发；已有数据/缺类/past/normalleader/原版异常保持。12真实helper回归pass，完整1546/1545pass/1SDKskip，86Lua51/108包，102尚未安装实机，101显示/视口及宗教整链仍open。累计569/531stop/35length/3transport/599HTTP/30extra，新OpenCode0/null未知。Steam占用0上线上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-gp569-public102.json)。
