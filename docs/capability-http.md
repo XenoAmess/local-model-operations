@@ -4975,3 +4975,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 572普通HTTP完整stop/DONE/JSON1次，20552+587=21139tokens/6.580024s，采用仅BUILDING_SHRINE91的一处补丁，owner103版本与对照工具接入、4城市消费者检查。旧102同4有1fail，新4pass；full首次1562有18错误因漏103allowlist，修两tool后full1562/1561pass/1SDKskip，86Lua51/108包字节一致。真实102至128七城/无神社/移民33of130保存，未安装103实机；神社Maintenance1而非可能0，原队列/高优先级保持。Finance4096保留+13丢弃含5unitop/0error，119保留unitcalls文职，精确撤除，不授晚窗口全军队覆盖。累计572/533stop/36length/3transport/602HTTP/30extra/OpenCode原生0/null未知；Steam他机占用0上线或上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion572-shrine103.json)。
+
+
+## 2026-11-09：Civ6source103-cold128
+
+0新逻辑／0HTTP／0OpenCode原生，沿用572累计。Owner103安装108equal后fresh后台offline0.005423s启动，正式128Load+Continue1后世界行、7队列20建筑19区域94地块17单位及7food全同，原先知OBSERVED与佛教两信仰保持；图片实际开拓者5回合，不作神社开工。首次unavailable0spawn；header导航输入激活另记，后独立后台证明。旧自有游戏退出残留按存档/身份/无窗口端口/CPU0/>180s清理，Steam无终止/重启/模式切换。加载端口失败0CMD，无Load/Continue重发；新observer之前bootstrap发令未知。神社/采购传播/旧ARMEDFAIL/完整40仍开，工坊82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source103-cold128.json)。
