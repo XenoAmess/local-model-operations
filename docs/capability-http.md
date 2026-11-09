@@ -5143,3 +5143,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 本业务冻结pin1df1377／累计592（后续任务另记），本预验新增HTTP／模型0。更正旧两案例Timeline伪造/People原生形状说法：Timeline真实；m_kGreatPeople原版local表确有，候选跨文件当全局访问错误。原People反例撤回，改真正全局不可见／映射无GetChildren两缺陷，592整稿拒绝不变。107既有106186UI预验首9卡689适配，原传记/历史可见；重复Applyfalse。9卡+4子句柄==true但tablekeylookupfalse，固定对象替身漏边界。75项还原768/670、模块命名空间nil，原版关页，0END186/新进程/Steam。Native无debug/rawequal只读前置失败0setter，改实际可用比较。源码107软件1616pass1SDKskip仍真但不覆盖NativeFAIL；旧恢复/CityPanel/full矩阵开放。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-gp107-preview186-reapply-fail.json)。
+
+
+## 2026-11-10：Civ6gp-handle-cache108-software
+
+593新真实任务1HTTP/stop/DONE/JSON4164+796=4960tokens5.830157秒，复用Nov10同机1.19.5成功维护缓存；rawfixture普通字段__eq／无children接线／setter漏self导致高度写table，三隔离缺陷拒绝，0Native。Owner真实SOURCE测试用共享底层状态的元方法代理，旧1078方法6pass2Lua断言error，1088pass，相关38pass／12.880s，全1618pass1SDKskip88.388s／87Lua51／109包字节等。缓存改lastHeight，原XML或上次合法值重验，外部999仍整页拒。源码108软件切点／运行106186；Native预验另记，0新进程或Steam上线，工坊82。累计593logical553complete37length3transport623HTTP30extra0OpenCode原生生成，成本null。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-gp-handle-cache108-software.json)。
