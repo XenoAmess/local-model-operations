@@ -5136,3 +5136,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 本案例新增模型／HTTP／OpenCode生成均0，592整稿拒绝后owner接管源码107；6新真实模块／36相关通过、完整1616pass1SDKskip108.024秒、87Lua51/109包逐字节相等。固定高度适配600..768，原768恢复、整页有限树预检、保留招募152区与数据补读，半像素避免以整数偏移0.5容差处理。未安装／未冷启动，运行106186；已有离线实例可还原预验另记，新后台Steam模式查询unavailable，0新进程／模式切换／上线上传，工坊82。每日维护是前序590在Nov10真实1.19.5成功的已有事实，本案例未重算。累计592logical552complete37length3transport622HTTP30extra0OpenCode生成，未知成本null；旧恢复FAIL／CityPanel／全矩阵未闭。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-gp-viewport107-software.json)。
+
+
+## 2026-11-10：Civ6gp107-preview186-reapply-fail
+
+本业务冻结pin1df1377／累计592（后续任务另记），本预验新增HTTP／模型0。更正旧两案例Timeline伪造/People原生形状说法：Timeline真实；m_kGreatPeople原版local表确有，候选跨文件当全局访问错误。原People反例撤回，改真正全局不可见／映射无GetChildren两缺陷，592整稿拒绝不变。107既有106186UI预验首9卡689适配，原传记/历史可见；重复Applyfalse。9卡+4子句柄==true但tablekeylookupfalse，固定对象替身漏边界。75项还原768/670、模块命名空间nil，原版关页，0END186/新进程/Steam。Native无debug/rawequal只读前置失败0setter，改实际可用比较。源码107软件1616pass1SDKskip仍真但不覆盖NativeFAIL；旧恢复/CityPanel/full矩阵开放。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-gp107-preview186-reapply-fail.json)。

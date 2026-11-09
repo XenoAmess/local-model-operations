@@ -1,0 +1,92 @@
+{
+  "schema": "local-model-operations.civ6-gp107-preview186-reapply-fail/v1",
+  "utc": "2026-11-09T19:13:45.620455+00:00",
+  "date_local": "2026-11-10",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/1df1377b54f39f4d88453c406629f822519f4633/docs/research/baiqi-p6-gp107-preview186-reapply-fail-evidence-2026-11-10.json",
+    "sha256": "b3280adb1b9d2cf22aae7e4b2bcc31842410a347c92fb6529687a3cf8eecc6b3"
+  },
+  "model": {
+    "new_logical_tasks": 0,
+    "new_HTTP_attempts": 0,
+    "new_OpenCode_native_generation": 0,
+    "corrected_prior592_review": {
+      "number": 592,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "outer_JSON_valid": true,
+      "usage": {
+        "prompt_tokens": 23672,
+        "completion_tokens": 2167,
+        "total_tokens": 25839
+      },
+      "duration_ms": 16662.84669993911,
+      "HTTP_attempts": 1,
+      "actual_request_date_local": "2026-11-10",
+      "raw_candidate_Native_execution": 0,
+      "raw_candidate_applied": false,
+      "cached_tokens": null,
+      "adoption": "Entire implementation and copied-test candidate rejected",
+      "Lua51_compile": true,
+      "isolated_counterexamples": {
+        "native_Timeline_private_instance_not_global_raises": true,
+        "conditional_global_alias_plain_instance_has_no_GetChildren_returns_false": true
+      },
+      "rejections": [
+        "Original data.Timeline is valid. Original m_kGreatPeople exists as a LOCAL upvalue; the separate helper incorrectly reads it as a global, which is nil.",
+        "getCtrl receives plain instance table rather than Content native control, so search returnsnil.",
+        "No own human Baiqi scope, no dense complete bounded whole-tree preflight, partial writes/firstcard return.",
+        "No >=768 restoration and repeated calls cumulatively shrink; reduces152high recruitment progress box, hiding content.",
+        "No title placement/outerpopup fix. Tests embed a duplicate implementation, setter stubs discard dimensions, and narrow assertion cannot pass realhelper."
+      ],
+      "owner_takeover_required": true,
+      "owner_review_correction": {
+        "utc": "2026-11-09T19:07:33.738383+00:00",
+        "withdrawn_claim": "Timeline is invented and actual native data usesPeople; this was an owner source-reading error.",
+        "primary_anchors": [
+          "Original local m_kGreatPeople declaration",
+          "ViewCurrent iterates ipairs(data.Timeline)",
+          "AddRecruit stores native instance maps in local m_kGreatPeople"
+        ],
+        "hypothetical_People_shape": "Earlier People-shaped empty input is NOT an actual Native consumer counterexample and is withdrawn.",
+        "candidate_still_rejected": true,
+        "private_original_review_preserved": true,
+        "second_counterexample_scope": "Only conditionally exposing a synthetic global to reach the next defect; actual Native never exposed that global.",
+        "new_model_or_HTTP": 0,
+        "raw_code_Native_executions": 0
+      }
+    },
+    "prior_shared_claims_to_withdraw": [
+      "source106-window166-186: Timeline invented/actualPeople claims",
+      "gp-viewport107-software: actual-shape language based on incorrect People assumption"
+    ],
+    "candidate_disposition_unchanged": "Still reject entire592 due inaccessible nativeLOCAL throughglobal, plaininstance receiver, missingrestore/scope and copiedtests; do not count the hypotheticalPeople input as actualNative evidence.",
+    "next_unfinished_work": "Regression for aliasingGetChildren handles and validnativepoolreset; correctcache then retest. Not yet done here."
+  },
+  "cumulative": {
+    "logical_tasks": 592,
+    "complete_stop_valid_outer_JSON": 552,
+    "length_discarded": 37,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 622,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Frozen1df1377businesscut atcumulative592,0newmodelthispreview. Installed106186temporarilyappliedowner107UIhelperwithoutInstall. First9cards75properties applied/689layoutandoriginalbiography/historyvisible. Reapplyfalse.13Nativeequaltruebutfreshhandlekeylookupfalse probes. All75restored768/670,namespacesnil,originalGPclosed.0END186/newspawn/Steam. WithdrawpriorownerTimeline/Peopleerror; actualTimelinevalid,m_kGreatPeopleexistsLOCALonly.",
+  "generic_lessons": [
+    "Correction: prior source106-window166-186 and gp-viewport107-software owner review misread data.Timeline as invented. Native actually iterates data.Timeline and declares local m_kGreatPeople. Withdraw hypothetical People-shaped input as Native evidence. The rejected helper still incorrectly uses the local table as a global, and searches the instance map instead of its Content control.",
+    "Native control equality is not Lua table-key identity. Nine cards and four child handles compared==true across fresh GetChildren calls while a key written using the earlier handle could not be read using the new handle. Weak-key cache tests using persistent Lua objects missed this actual consumer boundary.",
+    "An initially good screenshot is not repeated-open correctness: source107 first Apply fit689, but after tab navigation repeatedApplyfalse. Preserve the negative receipt even when the existing fitted dimensions remain visible, and build a regression before repairing.",
+    "A temporary UI-only preview with no hook installation can be explicitly restored to original geometry; capture restoration and remove namespaces, then close through the original UI. This is distinct from cold installedsource acceptance.",
+    "Native debug and rawequal were unavailable; those readonly probes failed without setters. Use confirmed available comparisons/local-table marks and do not ship dependencies inferred from isolated Lua runtime availability."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Immutable business cutoff1df1377 atcumulative592; not a live aggregate after later task593. Zero new model calls in this preview/correction record. Explicitly withdraw erroneous Timeline/People statements in prior two shared cases; raw originals/history retained. Narrow UIpreview only, repeatedApplyFAIL/restored, no coldinstalled107pass. Steam online/login/download/uploader initialization/upload forbidden."
+}
