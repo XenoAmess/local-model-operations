@@ -5129,3 +5129,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 590—592三stop/DONE/合法外JSON、各1HTTP/72795tokens，真实HTTP峰1（目标12—16不凑数）。590hint/未测资格文案重写，591固定768源锚点由owner实测689/768确认而原探针未执行；592伪Timeline/实例全局、无恢复、复制测试整体拒绝，独立实际形状反例。Owner私有布局稿Lua51五检查通过，未入产品／Native。106自然20实际回合174城帧8→9／19建筑6区域7配对改良；33普通END63玩家军队待命、0手动内政。武汉181两侧OBSERVED，1861709266/ba39b4...已存未载，其他宜居度／旧ARMEDFAIL／小视口／full40继续。累计592logical552complete37length3transport622HTTP30extra0OpenCode原生生成，Nov10新每日维护1.19.5成功，未知节时/缓存null。Steam他机占用禁上线，联网／登录／下载／上传初始化／上传0，工坊82不变。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-source106-window166-186.json)。
+
+
+## 2026-11-10：Civ6gp-viewport107-software
+
+本案例新增模型／HTTP／OpenCode生成均0，592整稿拒绝后owner接管源码107；6新真实模块／36相关通过、完整1616pass1SDKskip108.024秒、87Lua51/109包逐字节相等。固定高度适配600..768，原768恢复、整页有限树预检、保留招募152区与数据补读，半像素避免以整数偏移0.5容差处理。未安装／未冷启动，运行106186；已有离线实例可还原预验另记，新后台Steam模式查询unavailable，0新进程／模式切换／上线上传，工坊82。每日维护是前序590在Nov10真实1.19.5成功的已有事实，本案例未重算。累计592logical552complete37length3transport622HTTP30extra0OpenCode生成，未知成本null；旧恢复FAIL／CityPanel／全矩阵未闭。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-gp-viewport107-software.json)。
