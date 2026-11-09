@@ -5059,3 +5059,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 0新HTTP/逻辑；105正常续购完成态140重载后，1normalEND/2armySKIP到141，新3670037三MOVE到西安+一SPREAD，3→2/newreligion:0:4OBSERVED、旧religion:0:3保持。首都12pop佛教5→6、nativeMajority-1→1，原版宗教页4cities含西安；不按6/12另推规则，不量化压力贡献。observer140/128read1city11文职ops0cmd0错丢、CityCmd0仍挂，7food无饿/7忠诚100正，广州5→6，141save1466428/41718fd7...未load，1新原图CSV/BBCode上库，579累计/full1598及SDK单补分账保持。Steam禁上线工坊82，旧移民ARMEDFAIL及40项继续。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source105-capital141.json)。
+
+
+## 2026-11-09：Civ6religion580-581
+
+真实580工具/581图解两任务并行：2stop合法JSON/2HTTP，实际POST重叠1.743283s/峰2；累计581logical542complete36length3transport611HTTP30extra/0OpenCode生成。580原diff损坏、非法值getter前置合同不符且缺测试，不采用原代码；owner闭包bound1..16384默认4096，4新增共14方法通过/Lua51编译，无新全套。581只部分事实改写。105北京144同演员finalOBSERVED+UI完成，佛教仍4/11majority-1不授转教，Core延迟死亡枚举不算live。原图内嵌/CSV/BBCode入库；7food无饿/忠诚100正，北京宜居度-3小视口及旧移民ARMEDFAIL/40项继续。Steam禁上线工坊82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion580-581.json)。
