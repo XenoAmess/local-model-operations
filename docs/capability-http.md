@@ -4933,3 +4933,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 567完整stop/DONE/JSON1HTTP20733tokens/10.000089s，GreatPeoplePopup函数补丁原样采用，owner修头注释；raw8测试7error，含include参数数目、dict属性和未模拟IsReadOnly，并无真实wildcard/禁写/重复注册保证，测试拒绝0Native。owner8实际wrapper/loader/guard+synthetic原版合同通过；旧100同组12error-events含子场景。101全1531/1530pass/1SDKskip、85Lua51/107包，冷界面仍待验。累计567/529stop/35length/3transport/597HTTP/30extra，新OpenCode0/null未知。100187负例已保存，祷告奖励／招募未通过，Steam禁上线上传、公开Alpha2仍82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-ui567-gp101.json)。
+
+
+## 2026-11-09：Civ6supply568-native101-partial
+
+568完整stop/DONE/JSON1HTTP4955tokens/5.176399s，首边界patch采用、冗余>=0拒，raw6pass但超要求3，owner合3并known-before-future防旧范围假绿；原20+3共23pass，旧150同3有3fail-events含子场景。101原生187打开关闭及只读窄通过，X/Y和小视口底部截断仍FAIL，Game.GetPlayers四筛选0而PlayerManager6含own，原因未知，569另修。187另save，正式读真实87NoBarb99后5城9单位/faith100.41015625/points0+0/unclaimed122，5food正常，无赠送／招募／创教通过。累计至568/530stop/35length/3transport/598HTTP/30extra，新OpenCode0/null未知。外机Steam占用0模式上线上传，公开Alpha2仍82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-supply568-native101-partial.json)。
