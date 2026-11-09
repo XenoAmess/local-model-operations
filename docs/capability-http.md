@@ -5052,3 +5052,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 0新模型；此前full1598的1skip确因BAIQI_WORKSHOP_SDK_ASSEMBLY未设，非已证实未装SDK。游戏同级现有官方Steamworks.NET引用sha90daa82a...，只传单次子进程，以C#5 /main:WorkshopOfflineTests编译运行1method/20purehelperspass，Publisher.Main/SteamAPI.Init/Steamonline/download/upload均0。不入DLL、不改1597pass1skip原件、不虚报新full，579累计不增，工坊82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source105-sdk-offline.json)。
+
+
+## 2026-11-09：Civ6source105-capital141
+
+0新HTTP/逻辑；105正常续购完成态140重载后，1normalEND/2armySKIP到141，新3670037三MOVE到西安+一SPREAD，3→2/newreligion:0:4OBSERVED、旧religion:0:3保持。首都12pop佛教5→6、nativeMajority-1→1，原版宗教页4cities含西安；不按6/12另推规则，不量化压力贡献。observer140/128read1city11文职ops0cmd0错丢、CityCmd0仍挂，7food无饿/7忠诚100正，广州5→6，141save1466428/41718fd7...未load，1新原图CSV/BBCode上库，579累计/full1598及SDK单补分账保持。Steam禁上线工坊82，旧移民ARMEDFAIL及40项继续。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-source105-capital141.json)。
