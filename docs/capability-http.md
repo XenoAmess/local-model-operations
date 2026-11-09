@@ -4961,3 +4961,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 570完整stop/DONE/JSON1HTTP6019tokens/8.633995s，raw12有9fail11error-events，补default-only控制仍15fail1error-events，均0Native拒。漏默认/实用界限、callback当前scope与city/turn/snapshot一致、事件IDs、Restore幂等与失败回执；Owned恒真、Add异常清理比错对象。owner工具12pass，32默认1..128，ownCityProjectCompleted静态AddRemove，未知快照仍保事件，通知不授奖励，pin时未装Native/不入产品/未重跑完整1558。实际102Handan106Holy0of75→27/42/55/68→111complete，后台Prayer12/hash30870116/0of68/5turns、own44+4/unclaimed122，111save0END111；6food无饿、6loyalty100正，Finance1310/0错丢仍挂。105原生settlerFOUND是正常新案，不修旧ARMEDFAIL；Rome/Brazil拒交易与Congress两项免费A1是TEST_PLAYER外交，最终Theater/Cultural非自选Commerce/Trade。累计570/532stop/35length/3transport/600HTTP/30extra，新OpenCode0/null未知，Steam占用0上线上传，Alpha2仍82。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-prayer570-start111.json)。
+
+
+## 2026-11-09：Civ6religion571-founded122
+
+571真实祷告／招募／创教文案候选1HTTP，7311+2800=10111tokens、18.266241秒，length/DONE但非完整stop，整份丢弃不读取拼接，0采用/Native。Owner独立整理实机：116项目完成event1且已撤，64→101 delta37/相邻稳定5/本样本额外32；125报价120，120实际普通招募/单位，121到圣地，122消耗/OBSERVED/佛教WORK_ETHIC+TITHE与原版图一致。HasReligiousFoundingUnit非单位presence；纠正Rome已领1仍争夺猜测，0赞助。缺神社导致70信仰报价可负担而native采购false，国内传播未过。111→122实际11普通回合/12普通END返回/22TEST_PLAYER军队SKIP，72food正常，Finance3046/0错丢仍挂；三save未load。累计571/532完整/36length/3最终transport/601HTTP/30extra，0OpenCode原生；Steam禁上线、工坊仍82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-religion571-founded122.json)。
