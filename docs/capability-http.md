@@ -5101,3 +5101,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 585普通HTTP5283+1205=6488tokens8.477650秒stopJSON，局部函数遮蔽全局自阻／领袖字面量错／漏human与城市完整身份，整份拒绝0实机。owner17隔离断言/Lua51后仅2调试使徒，玩家原版回调传道信仰及宗教审讯实际耗演员；第三信条由Admin完成。UI审讯166旧值、167原版正常回合后与Core同true；次数3与坐标-9999不伪造3到0。QA167另存未load，正式返原166一次后8城31单位／原2信条／未审讯／无夹具属性，原queuedbuilder分数读数保留。不授正常采购、物理单位按钮、完整矩阵或旧恢复通过；Steam0上线或上传工坊82。累计585logical546complete36length3transport615HTTP30extra0OpenCode生成，成本null。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-apostle585-native-qa.json)。
+
+
+## 2026-11-09：Civ6amenities106-software
+
+586/587真实并发峰2持续16.154930秒：58659643+3000tokens/33.700407秒length整弃，58763997+45/16.148332秒仅路径非代码拒绝。5886645+1123/7.499261秒stopJSON，rawdiff128corrupt，三个精确106替换行经owner修hunk后部分采用。生产和9测试owner完成，首次完整1611有18对照版本错误，后限定106再跑1610pass1SDKskip/143.563秒，86Lua51/108包。ownerZIP前缀漏Baiqi/另核修复不再跑完整套件。Native105166八城只读仅资格，不授106实机或宜居度改善。累计588logical548complete37length3transport618HTTP30extra0OpenCode生成，成本null。Steam占用禁上线工坊82。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-09-civ6-amenities106-software.json)。

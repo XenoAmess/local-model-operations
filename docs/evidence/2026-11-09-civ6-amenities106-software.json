@@ -1,0 +1,89 @@
+{
+  "schema": "local-model-operations.civ6-amenities106-software/v1",
+  "utc": "2026-11-09T15:17:36.987669+00:00",
+  "date_local": "2026-11-09",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/1193dd80ecae373682bb1dfa9626450b2c82ee53/docs/research/baiqi-p6-amenity-production106-evidence-2026-11-09.json",
+    "sha256": "c019fe2e80ef4c116b22f059dd4ba09bb12d10e7f72a7bcb70c58a94eb4d7ef1"
+  },
+  "model": {
+    "new_logical_tasks": 3,
+    "new_HTTP_attempts": 3,
+    "new_OpenCode_native_generation": 0,
+    "cases": {
+      "586": {
+        "logical_tasks": 1,
+        "HTTP_attempts": 1,
+        "finish_reason": "length",
+        "candidate_complete": false,
+        "usage": {
+          "prompt_tokens": 59643,
+          "completion_tokens": 3000,
+          "total_tokens": 62643
+        },
+        "duration_ms": 33700.40660002269,
+        "raw_executed": false,
+        "adoption": "LENGTH_WHOLE_DISCARDED_NEVER_READ_OR_SPLICED"
+      },
+      "587": {
+        "logical_tasks": 1,
+        "HTTP_attempts": 1,
+        "finish_reason": "stop",
+        "candidate_complete": true,
+        "usage": {
+          "prompt_tokens": 63997,
+          "completion_tokens": 45,
+          "total_tokens": 64042
+        },
+        "duration_ms": 16148.332300013863,
+        "raw_executed": false,
+        "adoption": "REJECTED_FILE_PATH_INSTEAD_OF_TEST_CODE"
+      },
+      "588": {
+        "logical_tasks": 1,
+        "HTTP_attempts": 1,
+        "finish_reason": "stop",
+        "candidate_complete": true,
+        "usage": {
+          "prompt_tokens": 6645,
+          "completion_tokens": 1123,
+          "total_tokens": 7768
+        },
+        "duration_ms": 7499.261399963871,
+        "raw_executed": false,
+        "adoption": "PARTIAL_THREE_LITERAL_REPLACEMENT_LINES_OWNER_FIXED_UNIFIED_HUNKS"
+      }
+    },
+    "actual_peak_HTTP_in_flight": 2,
+    "peak2_seconds": 16.15493,
+    "current_HTTP_in_flight": 0,
+    "model_product_code_or_tests_adopted": false,
+    "control_tooling_three_lines_partially_adopted": true
+  },
+  "cumulative": {
+    "logical_tasks": 588,
+    "complete_stop_valid_outer_JSON": 548,
+    "length_discarded": 37,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 618,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_HTTP_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "105live166 read-only8cities:7shortfalls>=2,4EntertainmentComplex bothCanProduce modes true, allqueuesoccupied; noNativeplacement/costs/106effectclaimed. Product106 ownerpriority max94 and9actualwriter regressions pass; full1611methods1610pass1SDKskip,86Lua51,108zipbyteequal. Initial18static-controlversionerrors fixed exact106; ownerpostcheckwrongzip prefix separately corrected withoutfullsuite replay. Stillruntime105, no106install/start at evidencecut; Steamforbiddenonlineoperations0.",
+  "generic_lessons": [
+    "Large full current source can consume 60k input tokens while still producing a length-truncated patch or a filename instead of requested test body. Preserve these as failures, do not reconstruct half candidates or equate strict JSON with meaningful implementation.",
+    "A real production test should drive the original city writer with native legal modes, budget, placement, active queue and final requalification changes. Helper score assertions alone do not verify integration.",
+    "A source version bump has offline diagnostic consumers too. Add only the newly qualified exact version, keep future versions rejected, and preserve static suppression anchors instead of bypassing benchmark failures.",
+    "A semantically correct three-line candidate can still have corrupt unified diff hunks. Check raw patch, record rejection, rebuild only independently reviewed exact replacement lines and re-check before applying.",
+    "Separate successful tests from a later owner artifact-check bug. An archive prefix mismatch after a green suite is fixed by a correct standalone byte check, not by replaying the entire successful suite or hiding the failed helper."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Three new ordinary HTTP tasks, one lengthdiscard, one non-code JSON rejection, one partial three-line diagnostic-tooling adoption. Owner production106 software validated; runtime still105 at evidencecut, no amenity improvement/completeeconomic or full40pass. Daily OpenCode maintenance is not native generation. Steam online/upload prohibited."
+}
