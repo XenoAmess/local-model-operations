@@ -5199,3 +5199,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5持续12.629617秒。owner在HTTP前独立修camel wire命名，旧Source01为0POST不补模型信用。两份无Sourceissue、其它consumed顺序／public ctor／close异常假设及N/A误报逐源排除，0模型实现采用；hook不授loaded源、账号证据不授全远端absence。0本岗JVM／Steam／Game，模型不挡Native／Runtime。
 
 [案例及边界](evidence/2026-11-11-ck3-current-mode-p0-http-source-review.md)，[逐请求成本与分级](evidence/2026-11-11-ck3-current-mode-p0-http-source-review.json)。
+
+
+## 2026-11-11：Civ6source109-window186-206
+
+601—603三普通HTTP均1次stop/DONE/合法外JSON，峰1，原稿0Native。601集合／队列／可见性／边界整拒，owner补实际消费者独立147可见地块/4DAM机会，仍0实际施工；602仅测量建议部分参考，按钮条件及一次性guard拒绝，owner错误GetScreenOffsetVal显式更正为GetScreenOffset；603整份文案拒绝，82发布与北京先后错误、英文笔记，owner输入压缩和未核实忠诚率另纠。10920实际回合、196城帧、9到10城/23建筑7区域3配对改良，修复与新增分账，12告警未全闭。5122观察零错丢但非全局，已撤钩保存206未载。累计603/563完整37length3transport633HTTP30extra，Nov11缓存1.19.5/0原生生成，未知成本null。Steam持续0上线上传，工坊82保持。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-11-civ6-source109-window186-206.json)。
