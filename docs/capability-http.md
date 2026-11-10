@@ -5178,3 +5178,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 29真实POST，峰12持续58.643748秒；22完整stop、7length整件弃用，0传输错误／重试。初轮预算范围失配后拆方法并调整有限预算，后9候选及新实际源码7独审均完整。仅710B test-only Caller源字节原样采用；Main仍owner整合，完整响应和HIGH标签不授语义／软件通过。错误的ABBA分母、raw裁剪与自我推翻误报均拒；全部成本、原预算失败和后继纠偏保留，0本岗JVM／Runtime或保存日信用。
 
 [案例与适用边界](evidence/2026-11-10-ck3-p221-http-concurrency-output-budget.md)，[逐请求成本与采用分级](evidence/2026-11-10-ck3-p221-http-concurrency-output-budget.json)。
+
+
+## 2026-11-10：CK3 P221 actualCode与future程序边界
+
+新增11POST／10stop1length，实际6类57程序输入，峰9持续61.924035秒；与前29合计40／32完整8截断、0传输重试，最高峰仍12不相加。大Code输入TTFT最高148.594秒后未叠加；5份静态PASS非运行资格，Counter无反例误报拒。两个future程序先只回NOT_PROVEN，缩实现合同后完整产代码但AST不等资格：pair漏128分母／oracle与绑定校验缺失均未采用，owner接管不刷第三轮。仅710B Caller源实际采用且独立编译类1030B已持；无模型Main或测量／Runtime信用。
+
+[案例与边界](evidence/2026-11-10-ck3-p221-actual-code-http-review.md)，[逐请求成本与采用分级](evidence/2026-11-10-ck3-p221-actual-code-http-review.json)。

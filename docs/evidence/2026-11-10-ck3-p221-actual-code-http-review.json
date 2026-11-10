@@ -1,0 +1,412 @@
+{
+  "schema": "local-model-operations.actual-Code-http-evidence/v1",
+  "date": "2026-11-10",
+  "mode_id": "ordinary_http_candidate",
+  "case_id": "ck3-p221-actual-Code-and-future-programs",
+  "phase": "Static compiled Code review and source candidates; no measurement data used",
+  "shared_revision_before_case": "b712fc417c4e4680654144a79e4d8547e69c4796",
+  "daily_client_maintenance": "Reuse actual Nov10 1.19.5 success recorded in preceding case; no extra maintenance credited",
+  "request_configuration": "Existing shared scripts/call.py, fixed3/exact system/current complete source+contracts/finite task; DIRECT configured endpoint, no active business caller/config switch. Actual socket peer UNKNOWN.",
+  "actual_inputs": {
+    "compiled_family_count": 6,
+    "complete_Code_method_count": 57,
+    "method_distribution": {
+      "Main": 37,
+      "Counters": 5,
+      "FixedLoader": 2,
+      "Fixture": 9,
+      "Side": 1,
+      "Caller": 3
+    },
+    "full_static_export": {
+      "name": "ACTUAL6-ALL57-EXISTING-READERS01.json",
+      "bytes": 553756,
+      "sha256": "129f403fc985519128dc9a4ce4709b002a6d04ac5d6e0e0690f1083df157198e"
+    },
+    "selected_complete_methods_per_initial_obligation": [
+      3,
+      19,
+      21,
+      19,
+      26,
+      25,
+      18,
+      19,
+      16
+    ],
+    "initial_source_utf8_bytes_range": [
+      139251,
+      572737
+    ],
+    "source_and_actual_compiled_pins": "Unchanged current Main40076/1cece003... and Caller710/9b75da1d...; observed actual class Main50404/00966526... and Caller1030/5ce3bd1e...",
+    "reader_engine": "Existing pure Python inspect_glue219 API with Q rebinding, p187 resolved pool/catches/BSMs and p196 complete instruction/branch rows; no Java/reflection/JFR/new parser platform.",
+    "measurement_CFG_or_report_in_requests": false,
+    "independent_review_received_prior_answers_or_Root_expected_PCs": false
+  },
+  "new_HTTP_totals": {
+    "POSTs": 11,
+    "HTTP200": 11,
+    "complete_stop": 10,
+    "length_unused": 1,
+    "transport_errors": 0,
+    "retry_POSTs": 0,
+    "TTFT_ms_min_median_max": [
+      3405.463599949144,
+      65913.45200000796,
+      148594.23649997916
+    ],
+    "prompt_tokens": 1439357,
+    "completion_tokens": 11653
+  },
+  "waves": {
+    "actual_Code9": {
+      "POSTs": 9,
+      "HTTP200": 9,
+      "complete_stop": 8,
+      "length_unused": 1,
+      "transport_errors": 0,
+      "retry_POSTs": 0,
+      "TTFT_ms_min_median_max": [
+        7052.437899983488,
+        89518.35659996141,
+        148594.23649997916
+      ],
+      "prompt_tokens": 1399282,
+      "completion_tokens": 6924
+    },
+    "narrow_future_program2": {
+      "POSTs": 2,
+      "HTTP200": 2,
+      "complete_stop": 2,
+      "length_unused": 0,
+      "transport_errors": 0,
+      "retry_POSTs": 0,
+      "TTFT_ms_min_median_max": [
+        3405.463599949144,
+        3532.5703999842517,
+        3659.6772000193596
+      ],
+      "prompt_tokens": 40075,
+      "completion_tokens": 4729
+    }
+  },
+  "concurrency": {
+    "new_case_client_peak": 9,
+    "new_case_peak_seconds": 61.924035,
+    "new_case_peak_segments": [
+      {
+        "start": "2026-11-10T15:14:13.201940+00:00",
+        "end": "2026-11-10T15:15:15.125975+00:00",
+        "inflight": 9,
+        "seconds": 61.924035
+      }
+    ],
+    "prior_case_peak": 12,
+    "prior_case_peak_seconds": 58.643748,
+    "maximum_across_both_cases": 12,
+    "peaks_not_added_or_claimed_sustained": true,
+    "server_running_waiting_KV": "NOT_HELD",
+    "large_input_dynamic_response": "Did not add more large Code requests while TTFT rose; follow-up only two real unfinished source obligations with smaller relevant context."
+  },
+  "costs": {
+    "first_POST_to_last_END_seconds": 515.541949,
+    "HTTP_active_union_seconds": 201.79960400000002,
+    "sum_attempt_seconds_overlapping_not_wall": 1250.2589472999098,
+    "TTFT_large_max_ms": 148594.23649997916,
+    "read_timeout_configured_seconds": 180,
+    "actual_transport_timeouts": 0,
+    "not_server_capacity_benchmark": true,
+    "cached_prompt_tokens_if_not_reported": null
+  },
+  "cumulative_since_prior_user_request": {
+    "prior_published_POSTs": 29,
+    "new_POSTs": 11,
+    "total_POSTs": 40,
+    "HTTP200": 40,
+    "complete_stop": 32,
+    "length_unused": 8,
+    "transport_errors": 0,
+    "retry_POSTs": 0,
+    "prior_evidence": "2026-11-10-ck3-p221-http-concurrency-output-budget.json",
+    "do_not_merge_other_projects_or_historical_usage": true
+  },
+  "result_and_adoption": {
+    "static_reviews": "Five auxiliary PASS/0 findings with explicit runtime NOT_PROVEN; one unsubstantiated/self-retracted finding rejected; one length wholly unused. Models do not replace owner static qualification.",
+    "counter_false_claim": "Actual state pc182 ifnull branches to250; pc189 invokes isThreadAllocatedMemorySupported. The claimed class-name branch target and missing support check were unsupported.",
+    "first_future_program_requests": "Returned complete NOT_PROVEN JSON instead of requested code. Absence of a report correctly limits actual validation, but does not implement a future-input program.",
+    "new_narrow_implementation_requests": "Reduced inputs to64575/71803bytes and19163/20912tokens; explicit source-implementation contract. Both produced complete Python files and AST syntax parsed; no execution. Math /128 omission and missing acceptance checks mean neither program adopted.",
+    "adopted_model_code": "Only preceding test-only Caller source710B is byte-exact adopted; its compiled artifact1030B exists from independent compile0/full6 receipt. No whole model Main/validator adoption.",
+    "Caller_method_Code_bytes": {
+      "constructor": 5,
+      "typed_apply": 12,
+      "erased_bridge_apply": 9
+    },
+    "owner_static_actual57_review_receipt": {
+      "name": "ACTUAL6-57PROGRAMS-NATURALCHOICE-ORIGINALFULLPOST-OWNER-REVIEW01.json",
+      "bytes": 42744,
+      "sha256": "b94ddbf7646fe3858cdef6a6a3411de3baf940c1aecd89a67ce66d580d6e11bc"
+    },
+    "no_compiled_Code_or_measurement_PASS_from_HTTP_alone": true
+  },
+  "per_request_cost_and_grade": [
+    {
+      "task": "code01-caller3",
+      "POST_BEGIN": "2026-11-10T15:14:13.086952+00:00",
+      "END": "2026-11-10T15:15:15.125975+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 7052.437899983488,
+      "total_ms": 62039.281100034714,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 36998,
+        "completion_tokens": 62,
+        "total_tokens": 37060
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "grade": "AUXILIARY_STATIC_PASS",
+      "owner_review": "Caller3; no runtime identity/performance proved."
+    },
+    {
+      "task": "code02-kernel",
+      "POST_BEGIN": "2026-11-10T15:14:13.092900+00:00",
+      "END": "2026-11-10T15:16:16.723172+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 48255.86140004452,
+      "total_ms": 123630.31799998134,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 156432,
+        "completion_tokens": 84,
+        "total_tokens": 156516
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "grade": "AUXILIARY_STATIC_PASS",
+      "owner_review": "Kernel; no measurement execution/counter state proved."
+    },
+    {
+      "task": "code03-original-post",
+      "POST_BEGIN": "2026-11-10T15:14:13.092572+00:00",
+      "END": "2026-11-10T15:15:46.571740+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 52212.14509999845,
+      "total_ms": 93479.11660000682,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 163125,
+        "completion_tokens": 48,
+        "total_tokens": 163173
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "grade": "AUXILIARY_STATIC_PASS",
+      "owner_review": "Original POST static Code; not actual oracle execution."
+    },
+    {
+      "task": "code04-strict-loader",
+      "POST_BEGIN": "2026-11-10T15:14:13.105113+00:00",
+      "END": "2026-11-10T15:16:33.927207+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 65913.45200000796,
+      "total_ms": 140822.07530003507,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 152861,
+        "completion_tokens": 99,
+        "total_tokens": 152960
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "grade": "AUXILIARY_STATIC_PASS",
+      "owner_review": "Loader assertions in static Code; not future executed binding."
+    },
+    {
+      "task": "code05-input-resource",
+      "POST_BEGIN": "2026-11-10T15:14:13.124863+00:00",
+      "END": "2026-11-10T15:16:42.497401+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 89518.35659996141,
+      "total_ms": 149372.6046999218,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 158988,
+        "completion_tokens": 155,
+        "total_tokens": 159143
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "grade": "AUXILIARY_STATIC_PASS",
+      "owner_review": "Static input/resource protections; future physical availability and wire hash unobserved."
+    },
+    {
+      "task": "code06-counters-math",
+      "POST_BEGIN": "2026-11-10T15:14:13.129179+00:00",
+      "END": "2026-11-10T15:16:50.104890+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 105314.14889998268,
+      "total_ms": 156975.6716999691,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 181959,
+        "completion_tokens": 943,
+        "total_tokens": 182902
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "grade": "FINDING_REJECTED",
+      "owner_review": "Self-retracted unsupported-counter claim with no counterexample. Actual Counters.state pc182 ifnull target250; pc189 invokes isThreadAllocatedMemorySupported, not a branch to java/lang/Boolean.class."
+    },
+    {
+      "task": "code07-failure-cleanup",
+      "POST_BEGIN": "2026-11-10T15:14:13.134046+00:00",
+      "END": "2026-11-10T15:17:13.611225+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 118647.11309992708,
+      "total_ms": 180477.23349998705,
+      "finish_reason": "length",
+      "failure": "finish_reason_length",
+      "candidate_complete": false,
+      "usage": {
+        "prompt_tokens": 157498,
+        "completion_tokens": 5000,
+        "total_tokens": 162498
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "grade": "UNUSED_LENGTH",
+      "owner_review": "Whole response unused/not read/extracted/parsed. Length is distinct from transport/semantic review; no unchanged retry."
+    },
+    {
+      "task": "code08-exact-reader",
+      "POST_BEGIN": "2026-11-10T15:14:13.192625+00:00",
+      "END": "2026-11-10T15:16:44.578719+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 137828.9502999978,
+      "total_ms": 151386.22600003146,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 183132,
+        "completion_tokens": 258,
+        "total_tokens": 183390
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "grade": "NO_CODE_CANDIDATE",
+      "owner_review": "Returned NOT_PROVEN because no actual report exists; true evidence limit, but did not implement requested future reader."
+    },
+    {
+      "task": "code09-report-checker",
+      "POST_BEGIN": "2026-11-10T15:14:13.201940+00:00",
+      "END": "2026-11-10T15:16:44.987284+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 148594.23649997916,
+      "total_ms": 151785.2627999382,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 208289,
+        "completion_tokens": 275,
+        "total_tokens": 208564
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "grade": "NO_CODE_CANDIDATE",
+      "owner_review": "Returned NOT_PROVEN instead of requested candidate checker; no acceptance program delivered."
+    },
+    {
+      "task": "code10-future-math-program",
+      "POST_BEGIN": "2026-11-10T15:22:27.353854+00:00",
+      "END": "2026-11-10T15:22:46.369798+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 3405.463599949144,
+      "total_ms": 19015.954899950884,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 19163,
+        "completion_tokens": 2152,
+        "total_tokens": 21315
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "grade": "CODE_NOT_ADOPTED_AFTER_SOURCE_REVIEW",
+      "owner_review": "AST valid only. Paired median compares raw signed numerators without /128, so numerator128 expects128 vs correct1. Unbounded read-before-cap, global input/final/cleanup-state and CPU/enclosing/POST math omitted."
+    },
+    {
+      "task": "code11-future-checker-program",
+      "POST_BEGIN": "2026-11-10T15:22:27.353570+00:00",
+      "END": "2026-11-10T15:22:48.628901+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_nonempty_content_delta_ms": 3659.6772000193596,
+      "total_ms": 21275.20270005334,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 20912,
+        "completion_tokens": 2577,
+        "total_tokens": 23489
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "grade": "CODE_NOT_ADOPTED_AFTER_SOURCE_REVIEW",
+      "owner_review": "AST valid only. Required original_oracles exact counts/no-firstA absent; declared trusted Main/tail values not consumed, identity/final-input/cleanup checks incomplete."
+    }
+  ],
+  "client_parameter_audit": "All11 actual REQUESTs checked exact3/system/model/temp0/thinkingfalse/finite budgets/DIRECT; complete results separate from semantic grade",
+  "private_receipts": {
+    "closed_costs_grades": {
+      "name": "CLOSED-COSTS-GRADES01.json",
+      "bytes": 17402,
+      "sha256": "22bf699a0a40d5a4978a5a21ec66dfcbcf297a3e105b30bd963d6c54cb063b20"
+    },
+    "AST_candidate_source_syntax_only": [
+      {
+        "task": "code10-future-math-program",
+        "candidate": {
+          "name": "recompute_p221_fixed48.py",
+          "bytes": 6876,
+          "sha256": "aa8373435074f1e3878fb8318e38d37c38eb95d5eac8997fa5d4a0aea1306117"
+        },
+        "AST_syntax_valid": true,
+        "candidate_executed": false,
+        "semantic_qualification": false
+      },
+      {
+        "task": "code11-future-checker-program",
+        "candidate": {
+          "name": "p221_report_checker.py",
+          "bytes": 8623,
+          "sha256": "f02209a31777289fa0d04f9a2408f06fdcbae6140e29fa981aa25c9a72845c2e"
+        },
+        "AST_syntax_valid": true,
+        "candidate_executed": false,
+        "semantic_qualification": false
+      }
+    ]
+  },
+  "next_boundary": "No third same-source validator request. Owner continues mature trusted reader/checker; only a genuinely new actual artifact and unfinished obligation starts another model task. Main goal remains ACTIVE.",
+  "operator_bounds": {
+    "new_JVM": 0,
+    "candidate_program_execution": 0,
+    "production_source_CFG_Runtime_Game_P100_mutation": 0,
+    "raw_source_requests_responses_absolute_private_index_published": false
+  }
+}
