@@ -5171,3 +5171,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 597普通HTTP1次，stop/DONE/合法外JSON，5966+983=6949tokens/7.070048秒，Nov10成功1.19.5缓存复用、0OpenCode原生。部分采用水坝专用helper/双实际行参数，原fraction0.5反例owner补索引/类型守卫，0rawNative。9新方法过；旧108两方法13子场景断言FAIL。首全1628有owner遗漏第二白名单的2工具错误/1SDKskip，修后涉及8方法全过，未重跑全套；87Lua51/109包。当前106里局部提取109纯函数只读18格、水坝交集0→1，非实际109开工/建成。累计597logical557complete37length3transport627HTTP30extra，成本null。Steam他机占用禁上线、0新启上传，工坊82未更。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-10-civ6-dam109-required-features.json)。
+
+
+## 2026-11-10：CK3 P221真实并发与输出预算
+
+29真实POST，峰12持续58.643748秒；22完整stop、7length整件弃用，0传输错误／重试。初轮预算范围失配后拆方法并调整有限预算，后9候选及新实际源码7独审均完整。仅710B test-only Caller源字节原样采用；Main仍owner整合，完整响应和HIGH标签不授语义／软件通过。错误的ABBA分母、raw裁剪与自我推翻误报均拒；全部成本、原预算失败和后继纠偏保留，0本岗JVM／Runtime或保存日信用。
+
+[案例与适用边界](evidence/2026-11-10-ck3-p221-http-concurrency-output-budget.md)，[逐请求成本与采用分级](evidence/2026-11-10-ck3-p221-http-concurrency-output-budget.json)。

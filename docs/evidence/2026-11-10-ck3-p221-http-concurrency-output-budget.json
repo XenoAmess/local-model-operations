@@ -1,0 +1,801 @@
+{
+  "schema": "local-model-operations.http-source-concurrency-budget-case/v1",
+  "date": "2026-11-10",
+  "mode_id": "ordinary_http_candidate",
+  "case_id": "ck3-p221-source-candidates",
+  "status": "HTTP_CLOSED_SOURCE_REVIEW_CUT",
+  "client": "Windows Python3.13 shared scripts/call.py; configured machine identity retained privately",
+  "maintenance": {
+    "checked_at_local": "2026-11-10T22:15:47.631562+08:00",
+    "installed_before": "1.19.5",
+    "registry_latest": "1.19.5",
+    "installed_after": "1.19.5",
+    "updated": false,
+    "cached": false,
+    "basis": "Actual shared check_opencode.py CLI result before requests"
+  },
+  "shared_revision": "537f35cb2223fde9233654ef665bad0821325002",
+  "selected_configuration": {
+    "model": "qwen38-coder",
+    "routing": "DIRECT; selected configured host; redirects refused; actual socket peer UNKNOWN",
+    "authentication_required": false,
+    "messages": [
+      "exact fixed system",
+      "complete current source and contracts",
+      "changing finite task"
+    ],
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "usage_requested": true,
+    "all_actual_REQUEST_parameters_audited": true,
+    "active_business_caller_or_configuration_switched": false
+  },
+  "business_obligation": "Unfinished test-only public budget choose measurement components and independent review of newly integrated current source. No new production algorithm, Game action, or runtime decision request.",
+  "input_scope": {
+    "first_complete_core_source_bytes": 55496,
+    "initial_mature_source_prefix_bytes": 182188,
+    "corrective_prefix_bytes_range": [
+      95971,
+      116081
+    ],
+    "actual_current_two_TU_review_prefix_bytes": 99294,
+    "current_owner_Main": {
+      "bytes": 40076,
+      "sha256": "1cece003cade40e79d84237f5a29e145717265a9785498f15b6809d7bc674300"
+    },
+    "complete_sources_and_APIs": "Full production policy/Choice, original Test and complete original case0, fixed plan, selected mature Main/reader/checker as needed; exact current owner Main+Caller replaced the earlier draft in new review requests.",
+    "independent_review_did_not_receive_previous_reviewer_answers": true,
+    "field_mapping_before_actual_source": "Prospective only, NOT_HELD; actual signatures updated in subsequent requests."
+  },
+  "waves": {
+    "initial_01_to13": {
+      "requests": 13,
+      "ended": 13,
+      "inflight": 0,
+      "HTTP200": 13,
+      "complete_stop": 6,
+      "length_unused": 7,
+      "transport_failures": 0,
+      "retry_post_count": 0,
+      "ttft_ms_min_median_max": [
+        2079.0693000890315,
+        21711.85190009419,
+        23673.30160003621
+      ],
+      "tokens_reported": {
+        "prompt_tokens": 581568,
+        "completion_tokens": 50084,
+        "total_tokens": 631652
+      }
+    },
+    "corrective_14_to22": {
+      "requests": 9,
+      "ended": 9,
+      "inflight": 0,
+      "HTTP200": 9,
+      "complete_stop": 9,
+      "length_unused": 0,
+      "transport_failures": 0,
+      "retry_post_count": 0,
+      "ttft_ms_min_median_max": [
+        1642.5045999931172,
+        9907.94150007423,
+        11516.942500020377
+      ],
+      "tokens_reported": {
+        "prompt_tokens": 250248,
+        "completion_tokens": 21651,
+        "total_tokens": 271899
+      }
+    },
+    "actual_current_source_reviews_23_to29": {
+      "requests": 7,
+      "ended": 7,
+      "inflight": 0,
+      "HTTP200": 7,
+      "complete_stop": 7,
+      "length_unused": 0,
+      "transport_failures": 0,
+      "retry_post_count": 0,
+      "ttft_ms_min_median_max": [
+        4494.703499949537,
+        4542.508100043051,
+        4990.248600021005
+      ],
+      "tokens_reported": {
+        "prompt_tokens": 184178,
+        "completion_tokens": 11167,
+        "total_tokens": 195345
+      }
+    }
+  },
+  "actual_HTTP_totals": {
+    "requests": 29,
+    "ended": 29,
+    "inflight": 0,
+    "HTTP200": 29,
+    "complete_stop": 22,
+    "length_unused": 7,
+    "transport_failures": 0,
+    "retry_post_count": 0,
+    "ttft_ms_min_median_max": [
+      1642.5045999931172,
+      11128.409800003283,
+      23673.30160003621
+    ],
+    "tokens_reported": {
+      "prompt_tokens": 1015994,
+      "completion_tokens": 82902,
+      "total_tokens": 1098896
+    }
+  },
+  "concurrency": {
+    "client_POST_BEGIN_to_ATTEMPT_END_peak": 12,
+    "peak_duration_seconds": 58.643748,
+    "peak_segments": [
+      {
+        "start": "2026-11-10T14:21:18.380328+00:00",
+        "end": "2026-11-10T14:22:17.024076+00:00",
+        "inflight": 12,
+        "seconds": 58.643748
+      }
+    ],
+    "not_sustained_for_whole_workflow": true,
+    "server_running_waiting_KV": "NOT_HELD",
+    "current_inflight_at_cut": 0,
+    "no_quota_fill_or_periodic_empty_calls": true
+  },
+  "cost_boundaries": {
+    "first_POST_to_last_END_wall_seconds": 1575.233374,
+    "HTTP_active_union_seconds": 242.343397,
+    "sum_request_attempt_seconds_overlapping_not_end_to_end": 1594.4577142000198,
+    "outside_HTTP_active_intervals_seconds_not_pure_wait_or_CPU": 1332.8899769999998,
+    "request_completion_rate_per_full_window_minute": 1.1045982320585344,
+    "includes_preparation_review_interface_coordination_gaps": true,
+    "not_service_throughput_or_hardware_capacity_benchmark": true,
+    "cached_tokens_if_not_reported": null,
+    "saved_days_or_Runtime_speed_credit": false
+  },
+  "source_adoption": {
+    "Caller": {
+      "grade": "literal byte-exact test-only D source adoption by source owner",
+      "bytes": 710,
+      "sha256": "9b75da1d3eae62cd6c7323b948b7fe015fcbdb683a92754f9b83994e4c49eead"
+    },
+    "Main": "Owner integrated the mature program; no whole model Main adoption. Kernel19 was read but identical mature logic was retained rather than rewritten for credit.",
+    "source_ready_receipt": {
+      "name": "SOURCE-READY01.json",
+      "bytes": 5306,
+      "sha256": "a161e710495259d9bc22b3ddc0bbb44530a219d3f5bada39c6539d3ea52ca700"
+    },
+    "grades_receipt": {
+      "name": "MODEL-RESPONSES-ACTUAL-SOURCE-ADOPTION-GRADES01.json",
+      "bytes": 23380,
+      "sha256": "40d74240d8fccf96d1ff5ca9d0fa69dc5f61363e37eba25d0e02967edb9059ee"
+    },
+    "compile_behavior_actual_Code_measurement_Runtime": "No evidence used by this source-review case; later qualification is separate."
+  },
+  "failure_classification": {
+    "length7": "Owner task scope/output-budget mismatch; whole output unused, no partial splicing or unchanged retry; not semantic failure.",
+    "complete_candidate_errors": "API/types, source-contract fidelity, report/loader identity and missing validation are separate from successful transport.",
+    "review_false_positives": "Wrong ABBA denominator, warm/measured confusion, binary class name confusion, speculative missing source, self-retracted issue labels, and advice to clip raw were rejected by owner review.",
+    "current_source_mutated_for_false_findings": false,
+    "truncation_or_one_case_does_not_define_global_model_capability": true
+  },
+  "operational_changes": {
+    "scopes": "Broad components became exact method/small class obligations; code-only output reduced repeated explanation.",
+    "output_budgets": "Corrective requests 4000-9000 tokens according to source size; main method only, not whole 40KB Main under 5000 tokens.",
+    "completion_observation": "Initial6/13 complete; corrective9/9 and current source review7/7 complete. This improves completion in this workload, not semantic or performance qualification.",
+    "next_review_prompt": "Permit zero findings/NO_SOURCE_ISSUE_FOUND/NOT_PROVEN. Each defect needs exact current source location, violated contract and concrete counterexample; do not infer from a FINDINGS/severity tag."
+  },
+  "private_evidence_pins": {
+    "all29_operations": {
+      "name": "ACTUAL-HTTP-ALL29-FINAL01.json",
+      "bytes": 57631,
+      "sha256": "042253a25349a4d5622d2a1bb9dd92b966b9cd51289339815652a0478569f161"
+    },
+    "caller_source_equality": {
+      "name": "MODEL01-ACTUAL-CALLER-SOURCE-EQUALITY01.json",
+      "bytes": 1205,
+      "sha256": "dd077b4b0a4dd41b563e43355728bf72c1907fac957157a14bb2424d474eaa94"
+    },
+    "handoff": {
+      "name": "MODEL-OPERATIONS-HANDOFF-FINAL01.json",
+      "bytes": 32303,
+      "sha256": "4e52946c20e3733d1483ab5391b73cc229c677e47b0c7e40acc785f07f81b90f"
+    }
+  },
+  "per_request_cost_and_grade": [
+    {
+      "task": "model01-caller",
+      "post_begin": "2026-11-10T14:17:44.258764+00:00",
+      "attempt_end": "2026-11-10T14:17:48.947930+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 2079.0693000890315,
+      "total_ms": 4688.8323000166565,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 14577,
+        "completion_tokens": 410,
+        "total_tokens": 14987
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "LITERAL_SOURCE_ADOPTED",
+      "owner_review": "Java actual Caller bytes equal response source; source only, not compiled."
+    },
+    {
+      "task": "model02-fixture",
+      "post_begin": "2026-11-10T14:21:18.257046+00:00",
+      "attempt_end": "2026-11-10T14:22:17.024076+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 12800.43659999501,
+      "total_ms": 58767.01549999416,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 47285,
+        "completion_tokens": 1594,
+        "total_tokens": 48879
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REJECTED_AS_DELIVERED",
+      "owner_review": "Classpath resource violates direct physical original; stream not closed, final resource re-pin absent."
+    },
+    {
+      "task": "model03-post-oracle",
+      "post_begin": "2026-11-10T14:21:18.271338+00:00",
+      "attempt_end": "2026-11-10T14:23:00.033201+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 17698.607800062746,
+      "total_ms": 101761.81399996858,
+      "finish_reason": "length",
+      "failure": "finish_reason_length",
+      "candidate_complete": false,
+      "usage": {
+        "prompt_tokens": 47250,
+        "completion_tokens": 4500,
+        "total_tokens": 51750
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "UNUSED_LENGTH_OWNER_BUDGET_MISMATCH",
+      "owner_review": "Whole response unused; content not read/extracted/parsed; no unchanged retry."
+    },
+    {
+      "task": "model04-loader",
+      "post_begin": "2026-11-10T14:21:18.287783+00:00",
+      "attempt_end": "2026-11-10T14:23:16.287579+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 14226.360800093971,
+      "total_ms": 117999.87270007841,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 47247,
+        "completion_tokens": 6473,
+        "total_tokens": 53720
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REJECTED_AS_DELIVERED",
+      "owner_review": "Package-relative class pin paths, CP encoding/inverted predicate/count contradictions and explicit Policy prewarm."
+    },
+    {
+      "task": "model05-main-orchestration",
+      "post_begin": "2026-11-10T14:21:18.287746+00:00",
+      "attempt_end": "2026-11-10T14:23:16.764918+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 21753.40409995988,
+      "total_ms": 118477.29539999273,
+      "finish_reason": "length",
+      "failure": "finish_reason_length",
+      "candidate_complete": false,
+      "usage": {
+        "prompt_tokens": 47264,
+        "completion_tokens": 6500,
+        "total_tokens": 53764
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "UNUSED_LENGTH_OWNER_BUDGET_MISMATCH",
+      "owner_review": "Whole response unused; content not read/extracted/parsed; no unchanged retry."
+    },
+    {
+      "task": "model06-kernel-counters",
+      "post_begin": "2026-11-10T14:21:18.307368+00:00",
+      "attempt_end": "2026-11-10T14:23:00.754438+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 18635.569800040685,
+      "total_ms": 102447.02820002567,
+      "finish_reason": "length",
+      "failure": "finish_reason_length",
+      "candidate_complete": false,
+      "usage": {
+        "prompt_tokens": 47237,
+        "completion_tokens": 4500,
+        "total_tokens": 51737
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "UNUSED_LENGTH_OWNER_BUDGET_MISMATCH",
+      "owner_review": "Whole response unused; content not read/extracted/parsed; no unchanged retry."
+    },
+    {
+      "task": "model07-report-gates",
+      "post_begin": "2026-11-10T14:21:18.315254+00:00",
+      "attempt_end": "2026-11-10T14:23:03.275128+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 18634.672299958766,
+      "total_ms": 104959.86899989657,
+      "finish_reason": "length",
+      "failure": "finish_reason_length",
+      "candidate_complete": false,
+      "usage": {
+        "prompt_tokens": 47257,
+        "completion_tokens": 5000,
+        "total_tokens": 52257
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "UNUSED_LENGTH_OWNER_BUDGET_MISMATCH",
+      "owner_review": "Whole response unused; content not read/extracted/parsed; no unchanged retry."
+    },
+    {
+      "task": "model08-independent-reader",
+      "post_begin": "2026-11-10T14:21:18.335184+00:00",
+      "attempt_end": "2026-11-10T14:23:18.489273+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 23239.615499973297,
+      "total_ms": 120153.91590003856,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 47281,
+        "completion_tokens": 6836,
+        "total_tokens": 54117
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REJECTED_AS_DELIVERED",
+      "owner_review": "P219 fields/first-A baseline/helper identity carried into P221; missing import and hardcoded input paths."
+    },
+    {
+      "task": "model09-case-reachability",
+      "post_begin": "2026-11-10T14:21:18.329332+00:00",
+      "attempt_end": "2026-11-10T14:22:33.796475+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 21711.85190009419,
+      "total_ms": 75467.19730005134,
+      "finish_reason": "length",
+      "failure": "finish_reason_length",
+      "candidate_complete": false,
+      "usage": {
+        "prompt_tokens": 47223,
+        "completion_tokens": 2500,
+        "total_tokens": 49723
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "UNUSED_LENGTH_OWNER_BUDGET_MISMATCH",
+      "owner_review": "Whole response unused; content not read/extracted/parsed; no unchanged retry."
+    },
+    {
+      "task": "model10-api-nest",
+      "post_begin": "2026-11-10T14:21:18.334677+00:00",
+      "attempt_end": "2026-11-10T14:22:37.064101+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 23240.317899966612,
+      "total_ms": 78729.44360005204,
+      "finish_reason": "length",
+      "failure": "finish_reason_length",
+      "candidate_complete": false,
+      "usage": {
+        "prompt_tokens": 47222,
+        "completion_tokens": 2800,
+        "total_tokens": 50022
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "UNUSED_LENGTH_OWNER_BUDGET_MISMATCH",
+      "owner_review": "Whole response unused; content not read/extracted/parsed; no unchanged retry."
+    },
+    {
+      "task": "model11-source-code-checks",
+      "post_begin": "2026-11-10T14:21:18.357656+00:00",
+      "attempt_end": "2026-11-10T14:22:23.034801+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 23216.968499938957,
+      "total_ms": 64677.23089992069,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 47236,
+        "completion_tokens": 1827,
+        "total_tokens": 49063
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REVIEW_NOT_ACCEPTED_AS_QUALIFICATION",
+      "owner_review": "Unjustified Set iteration/nested SHA inlining/hidden-class claims; checklist is not actual Code evidence."
+    },
+    {
+      "task": "model12-static-sets-review",
+      "post_begin": "2026-11-10T14:21:18.380328+00:00",
+      "attempt_end": "2026-11-10T14:22:39.945691+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 23671.76409997046,
+      "total_ms": 81565.36430004053,
+      "finish_reason": "length",
+      "failure": "finish_reason_length",
+      "candidate_complete": false,
+      "usage": {
+        "prompt_tokens": 47221,
+        "completion_tokens": 3000,
+        "total_tokens": 50221
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "UNUSED_LENGTH_OWNER_BUDGET_MISMATCH",
+      "owner_review": "Whole response unused; content not read/extracted/parsed; no unchanged retry."
+    },
+    {
+      "task": "model13-acceptance-checker",
+      "post_begin": "2026-11-10T14:21:18.378607+00:00",
+      "attempt_end": "2026-11-10T14:22:57.145697+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 23673.30160003621,
+      "total_ms": 98767.08769996185,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 47268,
+        "completion_tokens": 4144,
+        "total_tokens": 51412
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REJECTED_AS_DELIVERED",
+      "owner_review": "Parent physical/loader assumptions inconsistent; required POST counts missing and wrong log cap."
+    },
+    {
+      "task": "model14-fixture-repair",
+      "post_begin": "2026-11-10T14:32:42.929837+00:00",
+      "attempt_end": "2026-11-10T14:33:07.600787+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 4256.381400045939,
+      "total_ms": 24672.389100072905,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 27009,
+        "completion_tokens": 1109,
+        "total_tokens": 28118
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "CORRECTION_REFERENCE_ONLY",
+      "owner_review": "Physical bounded stream/close repaired, but self-contained Fixture adds two fields rather than actual owner five-field contract; not adopted as delivered."
+    },
+    {
+      "task": "model15-post-one-method",
+      "post_begin": "2026-11-10T14:32:42.930015+00:00",
+      "attempt_end": "2026-11-10T14:32:59.315036+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 11128.409800003283,
+      "total_ms": 16386.648099985905,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 25354,
+        "completion_tokens": 337,
+        "total_tokens": 25691
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REJECTED_AS_DELIVERED",
+      "owner_review": "Class literal assigned to instance type and unhandled checked exceptions in proposed POST method."
+    },
+    {
+      "task": "model16-loader-classes",
+      "post_begin": "2026-11-10T14:32:42.929904+00:00",
+      "attempt_end": "2026-11-10T14:33:02.129422+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 9907.980400021188,
+      "total_ms": 19200.985400006175,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 31837,
+        "completion_tokens": 599,
+        "total_tokens": 32436
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REJECTED_AS_DELIVERED",
+      "owner_review": "Extra closing brace and configurable owned-name set rather than required fixed four names."
+    },
+    {
+      "task": "model17-origin-verification",
+      "post_begin": "2026-11-10T14:32:42.930020+00:00",
+      "attempt_end": "2026-11-10T14:33:44.385899+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 9725.673299981281,
+      "total_ms": 61457.425700034946,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 31890,
+        "completion_tokens": 6425,
+        "total_tokens": 38315
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REJECTED_AS_DELIVERED",
+      "owner_review": "Repeated package pin path and CP encoding/predicate defects; explicit Policy initialization remains."
+    },
+    {
+      "task": "model18-main-method",
+      "post_begin": "2026-11-10T14:34:15.221800+00:00",
+      "attempt_end": "2026-11-10T14:34:36.451471+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 1644.4692999357358,
+      "total_ms": 21229.654799913988,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 25966,
+        "completion_tokens": 3179,
+        "total_tokens": 29145
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REJECTED_AS_DELIVERED",
+      "owner_review": "Newline hash under compact-list label, premature 15-role assertion, missing exact POST-count/resource final checks."
+    },
+    {
+      "task": "model19-kernel-one-method",
+      "post_begin": "2026-11-10T14:34:15.223284+00:00",
+      "attempt_end": "2026-11-10T14:34:25.071164+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 1642.5045999931172,
+      "total_ms": 9847.825199947692,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 25997,
+        "completion_tokens": 1133,
+        "total_tokens": 27130
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "NOT_ADOPTED_DUPLICATE_MATURE_LOGIC",
+      "owner_review": "Java read complete kernel consistent with contract, retained its mature program plus per-row POST counts; no rewrite for model credit."
+    },
+    {
+      "task": "model20-stats-counts",
+      "post_begin": "2026-11-10T14:32:42.929901+00:00",
+      "attempt_end": "2026-11-10T14:33:06.475246+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 9907.94150007423,
+      "total_ms": 23546.930800075643,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 25340,
+        "completion_tokens": 956,
+        "total_tokens": 26296
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REQUIRES_OWNER_CORRECTION_NOT_ADOPTED",
+      "owner_review": "Mean allocation value uses median key, duplicate overwrites it; exact POST totals not independently asserted."
+    },
+    {
+      "task": "model21-pure-math-reader",
+      "post_begin": "2026-11-10T14:32:42.931293+00:00",
+      "attempt_end": "2026-11-10T14:33:32.351287+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 11516.942500020377,
+      "total_ms": 49419.82740000822,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 27119,
+        "completion_tokens": 3758,
+        "total_tokens": 30877
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REJECTED_AS_DELIVERED",
+      "owner_review": "Incomplete row/endpoint validity checks and planned-call fallback, yet proof claims all48 valid; not actual acceptance."
+    },
+    {
+      "task": "model22-checker-repair",
+      "post_begin": "2026-11-10T14:32:42.931938+00:00",
+      "attempt_end": "2026-11-10T14:33:32.111468+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 11516.507600084879,
+      "total_ms": 49179.35049999505,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 29736,
+        "completion_tokens": 4155,
+        "total_tokens": 33891
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REJECTED_AS_DELIVERED",
+      "owner_review": "Structural repairs but original/per-row POST counters missing and actual field mapping not supplied."
+    },
+    {
+      "task": "model23-current-kernel",
+      "post_begin": "2026-11-10T14:43:24.756441+00:00",
+      "attempt_end": "2026-11-10T14:43:36.410694+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 4542.42409998551,
+      "total_ms": 11654.218400013633,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 26303,
+        "completion_tokens": 386,
+        "total_tokens": 26689
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REVIEW_FINDING_REJECTED",
+      "owner_review": "Calls sides[ABBA] in cited source while falsely claiming sides unused."
+    },
+    {
+      "task": "model24-current-post-oracle",
+      "post_begin": "2026-11-10T14:43:24.781938+00:00",
+      "attempt_end": "2026-11-10T14:43:59.492138+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 4516.07209991198,
+      "total_ms": 34710.20139998291,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 26304,
+        "completion_tokens": 2377,
+        "total_tokens": 28681
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REVIEW_FINDING_REJECTED",
+      "owner_review": "HIGH labels repeatedly retract to no issue; original expected-tree oracle does not require a new expected-wire/order hash."
+    },
+    {
+      "task": "model25-current-loader",
+      "post_begin": "2026-11-10T14:43:24.755867+00:00",
+      "attempt_end": "2026-11-10T14:43:58.145686+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 4542.508100043051,
+      "total_ms": 33389.8531999439,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 26311,
+        "completion_tokens": 2195,
+        "total_tokens": 28506
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REVIEW_FINDING_REJECTED",
+      "owner_review": "Incorrect binary-name dollar-sign objection later self-retracted; matching pins/source checks are not defects."
+    },
+    {
+      "task": "model26-current-fixture",
+      "post_begin": "2026-11-10T14:43:24.803763+00:00",
+      "attempt_end": "2026-11-10T14:43:57.116731+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 4990.248600021005,
+      "total_ms": 32312.604399980046,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 26324,
+        "completion_tokens": 2075,
+        "total_tokens": 28399
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REVIEW_FINDING_REJECTED",
+      "owner_review": "Speculates supplied exact original files absent and parent variable differs, despite actual source binding parent to Main loader and checking CodeSource."
+    },
+    {
+      "task": "model27-current-failure-cleanup",
+      "post_begin": "2026-11-10T14:43:24.803542+00:00",
+      "attempt_end": "2026-11-10T14:43:48.376031+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 4494.703499949537,
+      "total_ms": 23572.530400007963,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 26293,
+        "completion_tokens": 1162,
+        "total_tokens": 27455
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REVIEW_FINDING_REJECTED",
+      "owner_review": "Recommends clipping raw rows/origins against explicit preservation contract; other claims self-retract or describe required fail-stop checks."
+    },
+    {
+      "task": "model28-current-counters-gates",
+      "post_begin": "2026-11-10T14:43:24.813980+00:00",
+      "attempt_end": "2026-11-10T14:43:52.617699+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 4980.508900014684,
+      "total_ms": 27803.89360000845,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 26321,
+        "completion_tokens": 1469,
+        "total_tokens": 27790
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REVIEW_FINDING_REJECTED",
+      "owner_review": "Wrong denominator256 suggestion; correct signed difference of two 128-call side totals divides128. Hardcoded64 is only used for measured rows."
+    },
+    {
+      "task": "model29-current-case0-path",
+      "post_begin": "2026-11-10T14:43:24.810742+00:00",
+      "attempt_end": "2026-11-10T14:43:52.422160+00:00",
+      "attempts": 1,
+      "http_status": 200,
+      "first_content_ms": 4983.333799988031,
+      "total_ms": 27611.40900000464,
+      "finish_reason": "stop",
+      "failure": null,
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 26322,
+        "completion_tokens": 1503,
+        "total_tokens": 27825
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "adoption_grade": "REVIEW_NOT_SOURCE_ACCEPTANCE",
+      "owner_review": "Case path arithmetic/three groups confirmed, but unrelated Declined guard and self-retracted issue labels do not establish new defects."
+    }
+  ],
+  "boundaries": {
+    "new_JVM_by_HTTP_owner": 0,
+    "production_source_configuration_runtime_mutation_by_HTTP_owner": 0,
+    "model_retry_downstream_business_replay": 0,
+    "raw_prompts_responses_absolute_private_source_index_published": false,
+    "continuous_parent_goal_completed": false
+  }
+}
