@@ -1213,3 +1213,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-11：Civ6food607-starvation208
 
 0新OpenCode原生生成；606—607复用Nov11同机同用户成功1.19.5维护缓存，无升级／0OpenCode原生生成。候选审阅／owner诊断／Native结果分账；不把编译或维护成功授予产品验收。未知缓存tokens／人工节时保持null。[固定业务pin](evidence/2026-11-11-civ6-food607-starvation208.json)。
+
+
+### 2026-11-11：110救粮预验为owner后续
+
+0新OpenCode原生生成，0新HTTP；先前607普通三消息候选整拒，owner独立实现／软件／实机证据不追授模型或OpenCode生成能力，未量化人工与净节时。[固定证据](evidence/2026-11-11-civ6-food110-preview208.json)。

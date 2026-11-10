@@ -1,0 +1,54 @@
+{
+  "schema": "local-model-operations.civ6-food110-native-followup/v1",
+  "date_local": "2026-11-11",
+  "utc": "2026-11-10T19:54:16.039816+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/59a15a18cfda79a32e7c3dc52be799d8d33a33e3/docs/research/baiqi-p6-source110-food-preview208-evidence-2026-11-11.json",
+    "sha256": "81b6f5ee2f618a95d0616e203e1b78a817b191634a108afb1a21b70485c8cc58"
+  },
+  "mode": "http-candidate-owner-followup",
+  "new_HTTP_requests": 0,
+  "prior_complete_candidate": 607,
+  "prior_candidate_adoption": "Whole planner rejected; owner source110 separately qualified.",
+  "owner_software": "9newmethods/89Lua51/111files; initial full1644 had18old auxiliary version errors/1SDKskip, fixed related tests26pass, not a clean full rerun.",
+  "actual_Native": {
+    "runtime_base": 109,
+    "module_source": 110,
+    "turn": 208,
+    "background_Admin_calls": 73,
+    "rescue_requests": 1,
+    "observed_effects": 1,
+    "target_surplus_before_after": [
+      -1,
+      0
+    ],
+    "source_surplus_before_after": [
+      16,
+      16
+    ],
+    "industrial_specialists_before_after": [
+      2,
+      1
+    ],
+    "new_field_worked": 1,
+    "population_before_after": [
+      8,
+      8
+    ],
+    "END": 0,
+    "exact_original_Admin_restored": true,
+    "official_rescued_save_ACK": true,
+    "save_not_loaded": true
+  },
+  "generic_lessons": [
+    "A pure arithmetic food prediction became game effect only after actual own plot assignment, native worker counts, food yield/surplus/starvation and donor city readback. Keep each evidence layer distinct.",
+    "Re-selecting an already selected city can leave the original UI cached after a valid native state change. Native16/0/-1 and old15/redstarvation screenshot coexisted. View-only another-city/back refreshed the real display; do not edit the image or claim the first screenshot reflected the effect.",
+    "Unknown-request holding in a local Lua table is scoped to the current UI context. A same-process success does not qualify cross-save/reload recovery.",
+    "A background module preview driven by the original scheduler is not an installed cold-start test. Preserve successful gameplay changes while restoring exact diagnostic bindings and keep original pre-failure save for an independent cold reproduction."
+  ],
+  "Steam_online_actions": 0,
+  "uploads": 0,
+  "owner_active_seconds": null,
+  "net_savings_seconds": null
+}
