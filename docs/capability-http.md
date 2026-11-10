@@ -5185,3 +5185,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 新增11POST／10stop1length，实际6类57程序输入，峰9持续61.924035秒；与前29合计40／32完整8截断、0传输重试，最高峰仍12不相加。大Code输入TTFT最高148.594秒后未叠加；5份静态PASS非运行资格，Counter无反例误报拒。两个future程序先只回NOT_PROVEN，缩实现合同后完整产代码但AST不等资格：pair漏128分母／oracle与绑定校验缺失均未采用，owner接管不刷第三轮。仅710B Caller源实际采用且独立编译类1030B已持；无模型Main或测量／Runtime信用。
 
 [案例与边界](evidence/2026-11-10-ck3-p221-actual-code-http-review.md)，[逐请求成本与采用分级](evidence/2026-11-10-ck3-p221-actual-code-http-review.json)。
+
+
+## 2026-11-11：Civ6cold109-gp186
+
+598—600三普通HTTP各1次stop/DONE/合法JSON、真实峰1，无原候选代码Native。598PID/玩家域与installed时序错误整拒；599部分日志事实参考，owner全文件核35来源与70消息；600部分可还原实验建议，拒getter实时前置。Owner比较器TypeError修后保严格两单位不等，实际MOVE配对另核。正式109原版冷读/查看尺寸窄通过，物理滚轮仍未过；输入未接收过早归因撤回，单布尔实验无效已还原。598Nov10缓存，599Nov11首次1.19.5无升级、600新缓存。累计600logical560complete37length3transport630HTTP30extra0OpenCode原生，成本null。Steam新鲜后台离线后启动自有游戏、0上线上传，工坊82未更。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-11-civ6-cold109-gp186.json)。
