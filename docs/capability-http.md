@@ -5262,3 +5262,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 609单HTTP完整stop/DONE/JSON，11393+843tokens／7892.1658ms，0代码采用；范围／精确还原／测试细节不足，owner7钩子检查不等实机命中。112真正加载缺粮208后0Prepare、journalnil，Core config.IsHuman缺失，player可用true，InspectUNAVAILABLE；未END并保存失败现场，诊断已撤。610单HTTP10835+584／5274.9864ms完整，采用其人类判断小gate（owner集成），配置函数有则权威，缺失才player，未知拒绝。分开Core/UI新5方法旧112复现1error，修后相关42过，93Lua51／115包，113Native冻结点待验。首两测试模块名误填为owner导入错误已改，非模型产品失败。累计610/570完整37length3transport640HTTP30extra，Nov11缓存、0OpenCode原生，未知成本null，Steam0上线上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-11-civ6-food113-software.json)。
+
+
+## 2026-11-11：113 实机持久许可与正常救粮
+
+0新HTTP／OpenCode原生。owner113Core在112私有实机预验成功，1真实Prepare/ARM写读回、1许可回复截断、187原Runner循环、0交换提交标记；精确撤所有绑定后真实存ARM。正式113 115字节匹配、新鲜只读离线后冷读，118原循环同一完整ARM／0新增请求，缺粮保持不叫恢复。另原BeforeLoss208一次正常加载、1后台救粮／1持久OBSERVED、两普通推进2END／8待命／0人工内政，30城帧健康，邢州8人净0；邯郸13→14盈余未隔离。210运动会自然弹出适配689、物理确认1后实闭，底层已读调用次数未知。完成态已存、冻结点未读；已发Native未知／旧FAIL／全矩阵未授。Steam0上线／上传，成本null。
+
+[固定业务pin](evidence/2026-11-11-civ6-food113-native210.json)。

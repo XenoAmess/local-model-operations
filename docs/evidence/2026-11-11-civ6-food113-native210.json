@@ -1,0 +1,61 @@
+{
+  "schema": "local-model-operations.civ6-food113-native-followup/v1",
+  "utc": "2026-11-10T22:25:40.525588+00:00",
+  "date_local": "2026-11-11",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/5b8d62b9e24772225b724545de554ca6286957f8/docs/research/baiqi-p6-food113-persistence-cold-evidence-2026-11-11.json",
+    "sha256": "44d74b5848ec205a5ffa83e4bd9c24ea2854be0eccbea7601a89867bdaac47dc"
+  },
+  "new_HTTP_requests": 0,
+  "new_OpenCode_native_generation": 0,
+  "prior_adoption_scope": "609 no code adopted. 610 narrow human-gate fragment adopted in113 software; owner diagnostics/Native separate.",
+  "pre_send_fault": {
+    "hot_Core113_under112": true,
+    "original_prepare_entries": 1,
+    "reply_dropped": 1,
+    "original_runner_cycles": 187,
+    "actual_ARMED_verified": true,
+    "city_command_logs": 0,
+    "exact_restore_keep_property": true,
+    "official_save_ACK": true
+  },
+  "formal113": {
+    "install115_byte_exact": true,
+    "fresh_readonly_offline_age": 0.008744,
+    "cold_old_arm_load_once": true,
+    "full_bound_identity_and_token_retained": true,
+    "old_arm_cycles": 118,
+    "no_new_arm_request_logs": true,
+    "hungry_fixture_END": 0,
+    "fresh_original208_save_load_once": true,
+    "normal_rescue_request_logs": 1,
+    "actual_purchased_city_to_target": true,
+    "persisted_OBSERVED": true,
+    "two_ordinary_advances": true,
+    "ordinary_END": 2,
+    "TEST_PLAYER_army_SKIPS": 8,
+    "manual_domestic": 0,
+    "city_frames": 30,
+    "target_pop": 8,
+    "target_food_surplus": 0,
+    "Handan_surplus_13_to_14_unisolated": true,
+    "natural_world_games210_auto_visible689": true,
+    "physical_confirmations": 1,
+    "lowlevel_mark_seen_count": null,
+    "completed_save_not_loaded_at_cutoff": true
+  },
+  "generic_lessons": [
+    "A diagnostic that truncates a verified persistent Prepare reply before the city command can establish durable old-arm no replay, but never proves recovery after an already-issued command of unknown outcome.",
+    "Keep a separate original pre-failure save. A no-replay cold case that remains hungry and a normal rescue on the original empty-journal save are different outcomes; loading the latter is not manual journal clearing.",
+    "Count actual original Runner invocations with a transparent owned wrapper, then restore exact bindings. Log markers, persistent full record, actual purchased city, food, and same-world turn readiness are separate evidence.",
+    "An official successful Load ACK, a loading-screen Continue and a qualified endpoint are distinct. During an in-process reload LSQ may time out on a still-owned listener; wait for the original screen, requalify and never replay the Load to fix diagnostics.",
+    "A cold exact binary-install check is not sufficient for native realm ports; read actual nil/true methods and the now-working protected bridge.",
+    "A naturally raised completed-event popup after ordinary progression qualifies a different route than diagnostic use of the original Show callback. Preserve the original physical confirmation and separate its unknown native mark-seen count."
+  ],
+  "Steam_online_actions": 0,
+  "uploads": 0,
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Frozen 113 pre-send fault + normal food and UI narrow window. No issued-native-command unknown recovery, whole matrix, completed-save reload or publication at cutoff."
+}
