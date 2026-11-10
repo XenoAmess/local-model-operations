@@ -1,0 +1,120 @@
+{
+  "schema": "local-model-operations.civ6-food607-starvation208/v1",
+  "utc": "2026-11-10T19:43:27.302114+00:00",
+  "date_local": "2026-11-11",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/91a17a60686ba4a25f52583c14a8b96df036b9cf/docs/research/baiqi-p6-source109-food208-evidence-2026-11-11.json",
+    "sha256": "d3bc2a03fc0f7327f5373e78299e7ffe920fa473dc5a169ec9711b642d55b159"
+  },
+  "model": {
+    "606": {
+      "utc": "2026-11-10T19:03:19.174256+00:00",
+      "model": 606,
+      "complete_stop_DONE_valid_outer_JSON": true,
+      "usage": {
+        "prompt_tokens": 9074,
+        "completion_tokens": 1650,
+        "total_tokens": 10724
+      },
+      "duration_ms": 12686.75859994255,
+      "HTTP_attempts": 1,
+      "adoption": "Whole geometry plan rejected, no executablecode/Native/productadoption. Owner takes over geometryscope using actualsourcecenteranchors.",
+      "raw_candidate_Native_execution": 0,
+      "owner_arithmetic_counterexamples_not_Native": [
+        {
+          "viewport": 689,
+          "candidate_Window_min768h_plus8": 697,
+          "overflows_viewport": true,
+          "DropShadow_not_resized": 760,
+          "candidate_detail_height": 220
+        },
+        {
+          "viewport": 600,
+          "candidate_Window_min768h_plus8": 608,
+          "overflows_viewport": true,
+          "DropShadow_not_resized": 760,
+          "candidate_detail_height": 220
+        }
+      ],
+      "rejections": [
+        "Window formula min768h+8 doublecounts parent+8 and overflows8at689/600;DropShadow760 omitted.",
+        "Arbitrary BaseStackheight overridesautoStack, clampingjustifications contradict their own derivedspace.",
+        "CrisisDetailheight remains220atboth689/600 despite compressedbackground; no measuredcontentor600overlapqualification.",
+        "EmergencyDetailplan entry literally retracts itself inreasonbut remainsformalchange; cannot executeambiguousplan.",
+        "Hidden/offscreenApply recommendation violates explicit freshactualvisiblepreviewcondition.",
+        "Restoring hardcodedbasevalues isnot restoringexactpre-previewvalues; nofullbefore-anysetterpreflight.",
+        "Morethan5previewsteps, no actionablecorrectcenteranchor derivation."
+      ],
+      "daily_maintenance": "Nov11same-machine/user1.19.5cache reused/0nativegeneration",
+      "cumulative606": {
+        "logical_tasks": 606,
+        "complete_stop_valid_outer_JSON": 566,
+        "length_discarded": 37,
+        "final_transport_failure": 3,
+        "HTTP_attempts": 636,
+        "extra_HTTP_attempts": 30,
+        "OpenCode_native_generation": 0,
+        "current_in_flight": 0,
+        "cached_tokens": null,
+        "owner_active_seconds": null,
+        "net_savings_seconds": null
+      }
+    },
+    "607": {
+      "model": 607,
+      "complete_stop_DONE_valid_outer_JSON": true,
+      "usage": {
+        "prompt_tokens": 5031,
+        "completion_tokens": 1423,
+        "total_tokens": 6454
+      },
+      "duration_ms": 9643.995399936102,
+      "HTTP_attempts": 1,
+      "raw_candidate_Native_execution": 0,
+      "adoption": "Whole planner rejected; correct case choice alone does not qualify executable code. Owner implementation pending.",
+      "isolated_software_counterexamples": [
+        "Raw Lua51 compilation fails on !=.",
+        "Syntax-only repair rejects legitimate district=-1 and improvement=-1 and returns no plan for actual six targets.",
+        "After syntax and sentinel repair, sourceCityID is wrongly copied from plotID2277 rather than sourcecity65536.",
+        "After syntax and sentinel repair, starvation=-1 still returns plan: required starvation/population/map bounds omitted."
+      ],
+      "additional_source_findings": [
+        "Dense table validation silently truncates at first hole, ignores string/zero/out-of-range keys.",
+        "NaN/infinite IDs pass range/floor validation in cases; sourceWorked/sourceLocked are not finite bounded integers."
+      ],
+      "owner_corrections": [
+        "First MANAGE reader incorrectly required max>=citizens; citycenter1/max0 is legitimate. Complete reread preserves native sentinel counts.",
+        "607 dispatcher first expected16 fields instead of15 and boolean at13 instead of12; failed before HTTP, then corrected without duplicate dispatch."
+      ],
+      "daily_maintenance": "Nov11 same-machine/user successful OpenCode1.19.5 cache reused, zero native generation"
+    }
+  },
+  "cumulative": {
+    "logical_tasks": 607,
+    "complete_stop_valid_outer_JSON": 567,
+    "length_discarded": 37,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 637,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Runtime109turn208/10cities: target population8/surplus-1/starvation2 despite FOODfavored, stopped beforeEND208. OriginalUI screenshot inspected, official preloss save1872098bytes acknowledged/notloaded. Six own swap candidates readonly; plot2277 donor outsideworkdistance4,target3,food1,Nativeallowed; predictiononly/no request at cutoff. Getter605exactrestored21calls/18ignored/3explicitreadonlysamples/0natural target samples/0errorsdrops. Steam0online/upload.",
+  "generic_lessons": [
+    "Validate executable artifacts separately from correct prose case choices: a selected plot was right but the Lua contained unsupported !=, rejected valid -1 sentinels and confused source city identity with plot identity.",
+    "Dense-list validation must inspect every key and reject holes, metadata, duplicates, NaN and infinity; stopping at the first nil silently accepts an incomplete input.",
+    "A city center may report one citizen and maxzero. Do not impose an unqualified count<=max relation on aligned native MANAGE rows. Preserve original keyed alignment and complete bounded reads.",
+    "A missing donor work row is not generally an unworked plot: require a full authoritative map and independent native donor distance outsideworkradius before considering reassignment.",
+    "A focus flag is a control state, not a food sufficiency receipt. A former healthy sampled window does not cover a new later starvation failure.",
+    "Parent-relative plus8 sizes cannot be doublecounted in a viewport formula. Arithmetic counterexamples do not constitute an actual visible UI preview, and restoring constants does not restore exact prior state.",
+    "Explicit read-only getter qualification samples must be tagged separately from natural consumer calls. A nil destination does not prove the complete engine command queue is empty."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Evidence cutoff at109turn208 beforeEND: no rescue command/product adoption or UI preview; new owner source110 work is a separate later package. Old settlement reloadFAIL/MOVEqueue/DAM/UI/performance/full40 open. No Steam login/online/upload."
+}

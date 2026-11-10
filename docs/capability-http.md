@@ -5213,3 +5213,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 604/605均1HTTP完整stop/DONE/外JSON，峰1，原稿0Native。604效果/归因分类部分参考，2位置误读、新ID非重放及行动点推断拒绝；owner后续连接2案按实际行序更正。605原!=语法失败，修语法仅隔离重现6缺陷，整模块拒；owner首异常反例预期样本1改实际0。负责人独立getter工具8方法过，未入mod包，未接实机、0新END/订单，当前109206十城。3新增改良效果与演员归因分开、9MOVE不判引擎拒绝。累计605/565完整37length3transport635HTTP30extra，Nov11成功1.19.5缓存，0OpenCode原生，成本null。Steam0上线上传，工坊82不变。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-11-civ6-queue605-warning-audit.json)。
+
+
+## 2026-11-11：Civ6food607-starvation208
+
+606/607均单次完整stop/DONE/合法外JSON，峰1，Nov11成功1.19.5缓存、0OpenCode原生。606窗口方案整拒：689/600推得697/608，漏阴影／内容收缩和精确恢复，0Native。607选图正确但!=语法、-1标记、sourceCityID错接plotID、缺饥饿门，整模块拒；隔离反例0rawNative。owner城中心max0关系及15列解析误设已纠正，原件保留。新208foodFAIL已公开图／正式存未载，救粮候选只读未执行；605三显式样本不充自然样本且已撤。累计607/567完整37length3transport637HTTP30extra，未知缓存／人工／净节时null，Steam0上线／上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-11-civ6-food607-starvation208.json)。
