@@ -1,0 +1,107 @@
+{
+  "schema": "local-model-operations.civ6-food113-software/v1",
+  "utc": "2026-11-10T22:05:06.829585+00:00",
+  "date_local": "2026-11-11",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/208add38cf24c75c0c3bbed890ecfc6c9251e541/docs/research/baiqi-p6-food113-core-human-evidence-2026-11-11.json",
+    "sha256": "61b27b2b14f0d117b8824c8a8fd488a88a4d8cf6762957e00e808bdbc353fb5b"
+  },
+  "model": {
+    "complete_stop_DONE_valid_JSON": true,
+    "HTTP_attempts": 1,
+    "peak_in_flight": 1,
+    "usage": {
+      "prompt_tokens": 10835,
+      "completion_tokens": 584,
+      "total_tokens": 11419
+    },
+    "duration_ms": 5274.986400036141,
+    "headers_ms": 1683.574500028044,
+    "first_content_ms": 1685.7842999743298,
+    "adoption": "Human gate fragment adopted with owner indentation and integration into existing owner condition. Tests are owner implementation; six abstract cases reviewed, not executable candidate tests.",
+    "gate_chars": 367,
+    "gate_sha256": "bb4ca150eec46ea52df0596defffa10b700a1d55d3a1352aee3839a17d74331f",
+    "raw_candidate_Native": 0,
+    "daily_maintenance": "Nov11 successful same-machine/user OpenCode1.19.5 cache; zero native generation",
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "model609": {
+    "utc": "2026-11-10T21:52:08.276310+00:00",
+    "model": 609,
+    "complete_stop_DONE_valid_JSON": true,
+    "HTTP_attempts": 1,
+    "peak_inflight": 1,
+    "usage": {
+      "prompt_tokens": 11393,
+      "completion_tokens": 843,
+      "total_tokens": 12236
+    },
+    "duration_ms": 7892.165799974464,
+    "headers_ms": 1783.6884999414906,
+    "first_content_ms": 1802.9006000142545,
+    "candidate_sha256": "d986d11cc21caa2c55f07d775c47b6bb2fbe828470477dfdaa60cc72c5972bdf",
+    "adoption": "No executable code or new test adoption; review restates supplied diagnostic plan. Owner narrow fault and seven tests independent.",
+    "review": [
+      "Exact fixture and write/readback-before-truncation direction were already in supplied task.",
+      "Namespace advice says bridge nil or expected marker; a nil bridge has no callable original Prepare and must not activate. Owner requires actual owned marker/version/function plus empty own namespace.",
+      "Cleanup only described as restore, without exact bridge/wrapper/namespace identity checks; owner refuses all replacement cleanup.",
+      "Candidate omits supplied live world seed, NoBarbs, fullcapital and map scope checks. Owner uses qualified MapConfiguration.GetValue(RANDOM_SEED); input prose incorrectly named GameConfiguration MAP_RANDOM_SEED, not used in owner diagnostic.",
+      "Three tests restate given cases, not forwarding unknown return/throw, nonmatching scopes or replacement cleanup. A stated zero-or-one command allowance is too loose for this known-zero-submit fixture.",
+      "Fault is after successful persistent Prepare before any city command. It cannot qualify issued-city-command unknown recovery or atomic queue/save behavior."
+    ],
+    "owner_private_checks": {
+      "methods": 7,
+      "pass": 7,
+      "seconds": 0.097,
+      "variant_changed_files": [
+        "Lua/BaiqiFoodTileIntentGameplay.lua"
+      ],
+      "product_code_modified": false,
+      "raw_candidate_native": 0
+    },
+    "daily_maintenance": "Nov11 same-machine/user successful OpenCode1.19.5 cache reused; no native generation",
+    "cumulative609": {
+      "logical_tasks": 609,
+      "complete_stop_valid_outer_JSON": 569,
+      "length_discarded": 37,
+      "final_transport_failure": 3,
+      "HTTP_attempts": 639,
+      "extra_HTTP_attempts": 30,
+      "OpenCode_native_generation": 0,
+      "cached_tokens": null,
+      "owner_active_seconds": null,
+      "net_savings_seconds": null
+    },
+    "native_outcome_at_review": "NOT_YET_OBSERVED",
+    "Steam_online_actions": 0,
+    "uploads": 0
+  },
+  "cumulative": {
+    "logical_tasks": 610,
+    "complete_stop_valid_outer_JSON": 570,
+    "length_discarded": 37,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 640,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Actual112 loaded original208 but journalnil/Prepare0/fault0; Core configuration.IsHuman absent/player.IsHuman actualtrue, InspectUNAVAILABLE. NoEND/manualdomestic. Diagnostic restored, failing checkpoint officialsaved/notloaded. Owner113 software42relatedpass/93Lua51/115files, not native113 success at frozen cutoff.",
+  "generic_lessons": [
+    "Realm-specific identity APIs need independent shapes in fixtures. Core configuration.IsHuman is absent while player.IsHuman exists; sharing the UI fixture object hid a real availability failure despite a passing broad test run.",
+    "When a configuration human method exists, its false/nonboolean/throw is authoritative and cannot fall through to a true player method. Use the player method only when the config method is unavailable.",
+    "A fault injection not reached is neither a safety pass nor recovery success. Prove zero hook entries and unchanged journal, then diagnose the product gate without replaying an unconfirmed command.",
+    "A diagnostic proposal that says restore without retaining exact wrapper/bridge/namespace identities is not qualified cleanup. Owner checks replacement refusal separately.",
+    "Readonly Core and UI expose different growth ports too. Preserve a diagnostic failure on UI-only GetFood/countdown, use protected Core type reads, and read actual stock/countdown in UI without inventing values.",
+    "Adopt a reviewed small gate fragment separately from abstract test descriptions. Owner runnable fixtures, software checks, hot diagnostics and cold native outcome remain separate capability levels."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Frozen real112 failure and owner113 software only. Later hot/cold113 evidence separate; no issued-city-command recovery, whole matrix or Steam publication claim."
+}

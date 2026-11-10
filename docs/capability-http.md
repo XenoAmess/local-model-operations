@@ -5255,3 +5255,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 0新HTTP／OpenCode原生。owner112新增有界Journal/Gameplay桥与UI最后边界：旧ARMED只观察，新鲜持久写读回许可才可能发送；未知跨回合保持，真实归属加非负food才OBSERVED，预发送变更可能长期阻塞。115文件／93Lua51，18新方法；全量1680中1679pass1SDKskip含9重复fixture，改导入后仅18重跑全过，无干净1671全跑声称。冻结点Native持久化未验。另归档正式111冷验：689原弹窗两次开/确认，六类样本相同并非全世界相同，武汉3→4粮／23→17增长／20.703125→22.5生产原因未隔离，0END/人工内政/后台外交，但原确认markseen底层次数未知。Steam0上线上传，未知成本null。
 
 [固定业务pin](evidence/2026-11-11-civ6-food112-software.json)。
+
+
+## 2026-11-11：Civ6food113-software
+
+609单HTTP完整stop/DONE/JSON，11393+843tokens／7892.1658ms，0代码采用；范围／精确还原／测试细节不足，owner7钩子检查不等实机命中。112真正加载缺粮208后0Prepare、journalnil，Core config.IsHuman缺失，player可用true，InspectUNAVAILABLE；未END并保存失败现场，诊断已撤。610单HTTP10835+584／5274.9864ms完整，采用其人类判断小gate（owner集成），配置函数有则权威，缺失才player，未知拒绝。分开Core/UI新5方法旧112复现1error，修后相关42过，93Lua51／115包，113Native冻结点待验。首两测试模块名误填为owner导入错误已改，非模型产品失败。累计610/570完整37length3transport640HTTP30extra，Nov11缓存、0OpenCode原生，未知成本null，Steam0上线上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-11-civ6-food113-software.json)。
