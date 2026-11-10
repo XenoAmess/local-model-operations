@@ -1233,3 +1233,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-11：Civ6food608-persistence-review
 
 0新OpenCode原生生成；608复用Nov11同机同用户成功1.19.5维护缓存，无升级／0OpenCode原生生成。候选审阅／owner诊断／Native结果分账；不把编译或维护成功授予产品验收。未知缓存tokens／人工节时保持null。[固定业务pin](evidence/2026-11-11-civ6-food608-persistence-review.json)。
+
+
+### 2026-11-11：112和111均为owner后续
+
+0新OpenCode原生生成，0新HTTP。608拒用协议与owner软件、606拒用几何与owner正式UI冷验分别记录，维护缓存不授生成能力；未知人工及净节时null。[固定证据](evidence/2026-11-11-civ6-food112-software.json)。

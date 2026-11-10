@@ -1,0 +1,77 @@
+{
+  "schema": "local-model-operations.civ6-source112-owner-followup/v1",
+  "utc": "2026-11-10T21:51:13.481500+00:00",
+  "date_local": "2026-11-11",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/072406ca1ae6fbba418cdcfde3a390e544a1d010/docs/research/baiqi-p6-food112-persistence-software-evidence-2026-11-11.json",
+    "sha256": "9436ba2c9368bb087644210aea7a65cf945b4e1c436814aa48cc26a80b3c00ab"
+  },
+  "related_cold111": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/e11fa931ba56f21f9e6a0480cee8da3b173fef27/docs/research/baiqi-p6-worldcrisis111-cold210-evidence-2026-11-11.json",
+    "sha256": "600e049838036810c3a4a635882403774c7bd4214cb6beb41babde348ab7c06b"
+  },
+  "new_HTTP_requests": 0,
+  "new_OpenCode_native_generation": 0,
+  "prior_candidate608": "Whole protocol rejected; owner concrete Journal/Core/UI implementation separate.",
+  "software112": {
+    "files": 115,
+    "Lua51_compiled": 93,
+    "new_persistence_methods": 18,
+    "full_collected": 1680,
+    "pass": 1679,
+    "SDK_skip": 1,
+    "duplicate_fixture_methods": 9,
+    "duplicate_import_fixed_after_full": true,
+    "final18_only_pass": true,
+    "no_clean1671_full_rerun_claim": true,
+    "native_persistence_pending_at_software_cutoff": true
+  },
+  "cold111": {
+    "formal_install_files": 113,
+    "byte_exact": true,
+    "offline_proof_age_seconds": 0.004013,
+    "real_original_popup_opens": 2,
+    "physical_original_confirmations": 2,
+    "bounded_15controls_height689": true,
+    "six_sample_groups_equal": {
+      "WORLD": 1,
+      "CITY": 10,
+      "BUILDING": 93,
+      "DISTRICT": 50,
+      "PLOT": 168,
+      "UNIT": 42
+    },
+    "not_whole_world_equality": true,
+    "Wuhan_surplus_pre_cold": [
+      3,
+      4
+    ],
+    "Wuhan_growth_pre_cold": [
+      23,
+      17
+    ],
+    "Wuhan_production_pre_cold": [
+      20.703125,
+      22.5
+    ],
+    "Wuhan_cause": "unisolated",
+    "ordinary_END": 0,
+    "manual_domestic": 0,
+    "background_diplomacy": 0,
+    "lowlevel_mark_seen_accept_count": null
+  },
+  "generic_lessons": [
+    "A durable reservation and a fresh send grant are different. A loaded ARMED record cannot authorize a new command; uncertain records must survive later turns while still allowing late effect observation.",
+    "Pre-send persistence protects against replay but has availability cost: a verified intent followed by a final qualification failure can remain unsent and held. Do not erase that history by timeout.",
+    "Realm-specific native ports matter. UI Map.GetCityPlots is absent in Core; primary Cities.GetPlotPurchaseCity provides full purchase-city identity there.",
+    "A passing full test run may double collect imported TestCase methods. Record the actual collected result and separate the import correction plus targeted pass, rather than inventing a clean full rerun.",
+    "Equal selected WORLD/CITY/building/district/plot/unit samples do not prove whole-world equality. A different city food and production yield across cold load must remain an unisolated delta.",
+    "Original UI close callbacks may issue mark-seen operations. Count human confirmations separately from background diplomacy and do not report zero all game operations when low-level counts were not observed."
+  ],
+  "Steam_online_actions": 0,
+  "uploads": 0,
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Software112 has no actual persistence/reload at its frozen cutoff; cold111 is independent UI evidence. No retrofit of candidate adoption or full matrix closure."
+}

@@ -5248,3 +5248,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 608单HTTP完整stop/DONE/合法外JSON，14474+907=15381tokens、8193.5603ms、有效首2077.2999ms、峰1，Nov11成功1.19.5缓存，0OpenCode原生。整持久协议拒：目标坐标缺、无可发送边、UNKNOWN无迟到观察、turnreject保持与schema／最终重检未闭；20标题非可执行反例。正确CoreCities端口和非原子性来自已给合同；owner新鲜只读资格Map.GetCityPlots=nil而Cities实际返回自有完整城。0新属性／命令／rawNative／产品采用，owner接手另包；累计608/568完整37length3transport638HTTP30extra，准备与111冷验交错主动／净收益null。Steam0上线上传。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-11-civ6-food608-persistence-review.json)。
+
+
+## 2026-11-11：112持久许可软件与111冷验边界
+
+0新HTTP／OpenCode原生。owner112新增有界Journal/Gameplay桥与UI最后边界：旧ARMED只观察，新鲜持久写读回许可才可能发送；未知跨回合保持，真实归属加非负food才OBSERVED，预发送变更可能长期阻塞。115文件／93Lua51，18新方法；全量1680中1679pass1SDKskip含9重复fixture，改导入后仅18重跑全过，无干净1671全跑声称。冻结点Native持久化未验。另归档正式111冷验：689原弹窗两次开/确认，六类样本相同并非全世界相同，武汉3→4粮／23→17增长／20.703125→22.5生产原因未隔离，0END/人工内政/后台外交，但原确认markseen底层次数未知。Steam0上线上传，未知成本null。
+
+[固定业务pin](evidence/2026-11-11-civ6-food112-software.json)。
