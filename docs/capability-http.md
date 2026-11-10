@@ -5192,3 +5192,10 @@ A0/B0/B1/A1 measured均725.090225/677.173725/766.4928/752.757375ms，B0较快B1�
 598—600三普通HTTP各1次stop/DONE/合法JSON、真实峰1，无原候选代码Native。598PID/玩家域与installed时序错误整拒；599部分日志事实参考，owner全文件核35来源与70消息；600部分可还原实验建议，拒getter实时前置。Owner比较器TypeError修后保严格两单位不等，实际MOVE配对另核。正式109原版冷读/查看尺寸窄通过，物理滚轮仍未过；输入未接收过早归因撤回，单布尔实验无效已还原。598Nov10缓存，599Nov11首次1.19.5无升级、600新缓存。累计600logical560complete37length3transport630HTTP30extra0OpenCode原生，成本null。Steam新鲜后台离线后启动自有游戏、0上线上传，工坊82未更。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-11-civ6-cold109-gp186.json)。
+
+
+## 2026-11-11：CK3 current-mode P0五项源审
+
+Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5持续12.629617秒。owner在HTTP前独立修camel wire命名，旧Source01为0POST不补模型信用。两份无Sourceissue、其它consumed顺序／public ctor／close异常假设及N/A误报逐源排除，0模型实现采用；hook不授loaded源、账号证据不授全远端absence。0本岗JVM／Steam／Game，模型不挡Native／Runtime。
+
+[案例及边界](evidence/2026-11-11-ck3-current-mode-p0-http-source-review.md)，[逐请求成本与分级](evidence/2026-11-11-ck3-current-mode-p0-http-source-review.json)。

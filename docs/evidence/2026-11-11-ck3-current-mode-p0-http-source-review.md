@@ -1,0 +1,11 @@
+# 当前模式启动P0：五项独立源审
+
+本轮针对新的current-mode启动接线，完整4TU与3份BASE齐备后首次并行5个真实HTTP义务：默认offline路径、精确资格绑定、一次消费／清理、旧构造器、入口和证据声明。5次均200／stop／DONE／合法JSON，0截断、0传输错误、0重试；峰5持续12.629617秒，全POST到END窗口31.319236秒。TTFT8.609–12.109秒，输入149146、输出4309tokens，cachedtokens未报告为null。没有重复P221或为达到12并发补任务。
+
+Source01的wire命名缺陷由owner在HTTP前独立发现：strictMapper默认SNAKE_CASE，既定外部wire为camelCase。Source02仅在fresh mapper reader显式LOWER_CAMEL_CASE，其余严格规则及三旧接线不动。全部首次请求已经使用Source02；旧准备稿0POST，未重跑一批旧请求，也不把owner修复记为模型发现。今日本机OpenCode实际检查1.19.5与registry一致；共享main正常FF仅文档，配置及活跃caller均未自动切换。
+
+默认路径与binding两份返回NO_SOURCE_ISSUE_FOUND，仍不证明外部实现、真实观察或运行。其它标签不作为缺陷：模型称consumed在deadline后赋值，实际Source02第132行已置true，第133行才查deadline；模型称旧9参构造变public，BASE第47行与当前第48行均package-private。旧Owned的null非法域收紧是明确合同变化，不是正常offline路径或ABI失效。cleanup的checkedIOException假设再由owner已持close()V／flags33／无该checked异常声明排除。其余None／N/A／自行撤回项目不计作具体反例。
+
+本轮没有模型实现或源码修改被采用，0本岗JVM、Game／Steam查询或动作。requireLoadedClass兼容no-op不授实际源码装载，有限账号证据不授全远端absence。纯record正例、真实wire测试、私有live资格、CREATE／HELLO、Core可用及SAVE均分别验收。owner后到报告独立编译／wire和CREATE／HELLO、Core仍加载不可用；本源审单元未独核这些机器回执，不据模型标签升格为运行准入、健康或保存通过。
+
+[逐请求成本、采用分级与私有原件pin](2026-11-11-ck3-current-mode-p0-http-source-review.json)。源码准备、Native增编和Runtime恢复均不等模型绿或本文发表；有限模型单元结束，主目标继续。
