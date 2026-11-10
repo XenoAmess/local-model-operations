@@ -1218,3 +1218,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-11：110救粮预验为owner后续
 
 0新OpenCode原生生成，0新HTTP；先前607普通三消息候选整拒，owner独立实现／软件／实机证据不追授模型或OpenCode生成能力，未量化人工与净节时。[固定证据](evidence/2026-11-11-civ6-food110-preview208.json)。
+
+
+### 2026-11-11：110冷验为owner后续
+
+0新OpenCode原生生成、0新HTTP。已拒607与owner正式冷装／实机结果分账，不由维护或后续成功追授生成能力；人工及净收益未知。[固定证据](evidence/2026-11-11-civ6-food110-cold210.json)。
