@@ -1248,3 +1248,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-11：113 Native为owner后续
 
 0新OpenCode原生生成、0新HTTP。609拒代码与610窄gate软件采用保持原账；后续负责人故障钩子、正式冷读、自然救粮不追授模型自动验收。成本未知。[固定证据](evidence/2026-11-11-civ6-food113-native210.json)。
+
+
+### 2026-11-11：611／612未采用及owner114后续
+
+0新OpenCode原生。维护缓存不授代码生成；两普通HTTP整弃，owner规划读数、真实施工和失败、114软件独立分账。[固定证据](evidence/2026-11-11-civ6-food114-software.json)。

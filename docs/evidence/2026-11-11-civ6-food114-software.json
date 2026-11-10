@@ -1,0 +1,114 @@
+{
+  "schema": "local-model-operations.civ6-food114-placement-regression/v1",
+  "utc": "2026-11-10T23:06:15.847925+00:00",
+  "date_local": "2026-11-11",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "food114-software": {
+      "url": "https://github.com/XenoAmess/civ6_dev/blob/9f5c2e81b43b9936440f7107b8e679fc48ee0ca2/docs/research/baiqi-p6-source114-district-food-software-2026-11-11.json",
+      "sha256": "d91f3b60986b8c80198b184d99617057951e6c3a806b2e89b31f5db52ecbde93"
+    },
+    "food113-dam-fail211": {
+      "url": "https://github.com/XenoAmess/civ6_dev/blob/316d533a8d73e26ef60a6fb3096eb01734a2bc6a/docs/research/baiqi-p6-source113-dam-food211-evidence-2026-11-11.json",
+      "sha256": "d3cecbe1115c9e489fda49c2c8a82364de5e97e24cc7dc3144e490db8c587505"
+    },
+    "food113-completed210": {
+      "url": "https://github.com/XenoAmess/civ6_dev/blob/e6a74cc3fb44f0155e5ab4e99a59aebac69a2a23/docs/research/baiqi-p6-food113-completed-reload210-evidence-2026-11-11.json",
+      "sha256": "13951db8e3760abbf286b23c485d9c079e819b6438863f3ad1dd6505ccea1df4"
+    }
+  },
+  "model611": {
+    "HTTP_attempts": 1,
+    "finish_reason": "length",
+    "sse_done": true,
+    "candidate_adopted": false,
+    "raw_Native": 0,
+    "usage": {
+      "prompt_tokens": 8779,
+      "completion_tokens": 1200,
+      "total_tokens": 9979
+    },
+    "duration_ms": 9888.716899906285,
+    "first_content_ms": 1443.7826999928802,
+    "headers_ms": 1441.2853999529034,
+    "cached_tokens": null,
+    "daily_maintenance": "Nov11 successful OpenCode1.19.5 cache; zero native generation"
+  },
+  "model612": {
+    "HTTP_attempts": 1,
+    "finish_reason": "length",
+    "sse_done": true,
+    "candidate_adopted": false,
+    "raw_Native": 0,
+    "usage": {
+      "prompt_tokens": 6742,
+      "completion_tokens": 1500,
+      "total_tokens": 8242
+    },
+    "duration_ms": 9914.920800016262,
+    "first_content_ms": 1284.3489999650046,
+    "headers_ms": 1282.1647999808192,
+    "cached_tokens": null,
+    "daily_maintenance": "Nov11 successful OpenCode1.19.5 cache; zero native generation"
+  },
+  "cumulative": {
+    "logical_tasks": 612,
+    "complete_stop_valid_outer_JSON": 570,
+    "length_discarded": 39,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 642,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "new_OpenCode_native_generation": 0,
+  "owner_verified": {
+    "source113_completed_reload": {
+      "same_process": true,
+      "no_new_rescue_markers": true,
+      "original_cycles": 176,
+      "city_food_vitals_equal": 9,
+      "Wuhan_unisolated_repeat_delta": true
+    },
+    "source113_211": {
+      "ordinary_end_with_original_player_congress": true,
+      "free_ballot_cost": 0,
+      "native_Xian_DAM_start": true,
+      "actual_placement": 2569,
+      "progress_cost": [
+        0,
+        197
+      ],
+      "dam_not_completed": true,
+      "Xingzhou_new_district_consumed_worked_food": true,
+      "actual_food_before_after": [
+        0,
+        -1
+      ],
+      "stop_before_next_END": true
+    },
+    "source114_software": {
+      "new_methods": 8,
+      "full": 1684,
+      "passed": 1683,
+      "SDK_skip": 1,
+      "read_only_shanghai_food4_margin12_native_preview": true,
+      "cold_game_acceptance_pending_at_cutoff": true
+    }
+  },
+  "generic_lessons": [
+    "A previous production subsystem effect may be undone by a different subsystem later. A persisted OBSERVED receipt records a prior fact; subsequent district construction removed its actual worked-food yield. Verify ownership, current use and output independently.",
+    "Preserve the actual failing save before the next turn. Use an original healthy earlier checkpoint for a retest of a preventive guard; do not undo active construction or mutate yields to create a pass.",
+    "Capture original eligible candidates and actual winner separately from native submission and physical placement. A dam that passes all native checks can lose to an industrial district; a dam placed with progress0 is started but not completed.",
+    "A local pure helper copied for a probe must receive lexical visibility. A missing binding produced false zero in the owner probe, not product failure.",
+    "A normal END can reach an original player diplomacy gate without advancing. Observe the exact modal state, resolve it as TEST_PLAYER and read actual next turn; never replay or force END to bypass it.",
+    "Keep one bounded native work scan per placement evaluation, then freshly recheck the chosen positive food plot and queue. An absent row is not explicit zero.",
+    "SSE DONE with finish_reason=length is incomplete even if content starts with a JSON object. Preserve originals, discard them whole, and do not attribute independent owner implementation to that output."
+  ],
+  "Steam_online_actions": 0,
+  "uploads": 0,
+  "owner_active_seconds": null,
+  "net_savings_seconds": null
+}
