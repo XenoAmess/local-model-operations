@@ -5241,3 +5241,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 0新HTTP／OpenCode原生，606整拒保持。owner实际689六尺寸预验、原版滚动条0→1→0后精确还原，合成轮无效不授验。111模块原真实竞赛入口三次刷新，两轮15控件／ShowEmergency／配置／滚动值精确恢复，保留原选择和动画。owner资格误设dense1，实际Nativekey0/#0，在原回调前失败且计数0，只修私有读取后新查看；另一原图拍中动画，逻辑offset0不证明稳定渲染，独立周期等1.2秒后原图全框。软件首1653中9fail1error属漏33context消费者，修精确门和4096预算（旧32保持，新16从Executor腾出）；最终1652pass1SDKskip，91Lua51／113包。安装运行110／210，正式111冷验待做，0END／Steam上线，原稿采用0、人工净收益未知。
 
 [固定业务pin](evidence/2026-11-11-civ6-crisis111-hook210.json)。
+
+
+## 2026-11-11：Civ6food608-persistence-review
+
+608单HTTP完整stop/DONE/合法外JSON，14474+907=15381tokens、8193.5603ms、有效首2077.2999ms、峰1，Nov11成功1.19.5缓存，0OpenCode原生。整持久协议拒：目标坐标缺、无可发送边、UNKNOWN无迟到观察、turnreject保持与schema／最终重检未闭；20标题非可执行反例。正确CoreCities端口和非原子性来自已给合同；owner新鲜只读资格Map.GetCityPlots=nil而Cities实际返回自有完整城。0新属性／命令／rawNative／产品采用，owner接手另包；累计608/568完整37length3transport638HTTP30extra，准备与111冷验交错主动／净收益null。Steam0上线上传。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-11-civ6-food608-persistence-review.json)。
