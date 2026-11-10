@@ -5206,3 +5206,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 601—603三普通HTTP均1次stop/DONE/合法外JSON，峰1，原稿0Native。601集合／队列／可见性／边界整拒，owner补实际消费者独立147可见地块/4DAM机会，仍0实际施工；602仅测量建议部分参考，按钮条件及一次性guard拒绝，owner错误GetScreenOffsetVal显式更正为GetScreenOffset；603整份文案拒绝，82发布与北京先后错误、英文笔记，owner输入压缩和未核实忠诚率另纠。10920实际回合、196城帧、9到10城/23建筑7区域3配对改良，修复与新增分账，12告警未全闭。5122观察零错丢但非全局，已撤钩保存206未载。累计603/563完整37length3transport633HTTP30extra，Nov11缓存1.19.5/0原生生成，未知成本null。Steam持续0上线上传，工坊82保持。
 
 [固定业务pin、原件与未知成本](evidence/2026-11-11-civ6-source109-window186-206.json)。
+
+
+## 2026-11-11：Civ6queue605-warning-audit
+
+604/605均1HTTP完整stop/DONE/外JSON，峰1，原稿0Native。604效果/归因分类部分参考，2位置误读、新ID非重放及行动点推断拒绝；owner后续连接2案按实际行序更正。605原!=语法失败，修语法仅隔离重现6缺陷，整模块拒；owner首异常反例预期样本1改实际0。负责人独立getter工具8方法过，未入mod包，未接实机、0新END/订单，当前109206十城。3新增改良效果与演员归因分开、9MOVE不判引擎拒绝。累计605/565完整37length3transport635HTTP30extra，Nov11成功1.19.5缓存，0OpenCode原生，成本null。Steam0上线上传，工坊82不变。
+
+[固定业务pin、原件与未知成本](evidence/2026-11-11-civ6-queue605-warning-audit.json)。

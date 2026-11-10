@@ -1,0 +1,149 @@
+{
+  "schema": "local-model-operations.civ6-queue605-warning-audit/v1",
+  "utc": "2026-11-10T18:38:42.919163+00:00",
+  "date_local": "2026-11-11",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/47f398ca0ec42c80625ced7fc3c6c4194e594945/docs/research/baiqi-p6-move-warning-audit604605-evidence-2026-11-11.json",
+    "sha256": "eb2ebab5a15549ff0aba4ac0867f48e6ffa215f7500050e5c3a4f3a875ace421"
+  },
+  "model": {
+    "new_logical_tasks": 2,
+    "HTTP_attempts": 2,
+    "complete_stop_valid_outer_JSON": 2,
+    "items": [
+      {
+        "utc": "2026-11-10T18:23:22.445870+00:00",
+        "model": 604,
+        "complete_stop_DONE_valid_outer_JSON": true,
+        "usage": {
+          "prompt_tokens": 14074,
+          "completion_tokens": 1386,
+          "total_tokens": 15460
+        },
+        "duration_ms": 10696.289699990302,
+        "HTTP_attempts": 1,
+        "adoption": "Partial effect-vs-attribution classification; raw candidate0Native and no productpatch.",
+        "raw_candidate_Native_execution": 0,
+        "rejections": [
+          "Prior4718607snapshot is63,34 not requesttarget62,35; prior5832743 is58,30 not target58,29. Candidate wrongly puts both actors on target in prior snapshots.",
+          "Actionpoints resetting across turns is not evidence that a specificoperationexecuted.",
+          "A newrequestID doesnot exclude replay of the same old operation; compareactualboundaries/target andqueueauthority.",
+          "Adjacent-unit-existence checks alone cannot prove removal cause or settle actorattribution.",
+          "Do-not-store-params advice doesnotremove demonstrated missing expectedtype/charges diagnosticneed; no implementation decision adopted."
+        ],
+        "owner_corrections": [
+          "Initial next_requests_same_actor filter used turn>=warningTurn and couldinclude earlier same-turn requests. Preserve frozenpacket; corrected analysisusesactual subsequent logline order. AffectedIDs:0:205:315,0:206:344"
+        ],
+        "owner_new_observation": {
+          "nine_idle_count": 9,
+          "first_later_request_from_old_destination_ids": [
+            "0:188:41",
+            "0:203:286",
+            "0:205:331"
+          ],
+          "interpretation": "Laterfullactorposition atoldtarget doesnotprove engineinitialrejection. It is not alonecausal attribution or queueemptybarrier."
+        },
+        "daily_maintenance": "Nov11same-machine/user1.19.5cache reused/0nativegeneration",
+        "cumulative604": {
+          "logical_tasks": 604,
+          "complete_stop_valid_outer_JSON": 564,
+          "length_discarded": 37,
+          "final_transport_failure": 3,
+          "HTTP_attempts": 634,
+          "extra_HTTP_attempts": 30,
+          "OpenCode_native_generation": 0,
+          "current_in_flight": 0,
+          "cached_tokens": null,
+          "owner_active_seconds": null,
+          "net_savings_seconds": null
+        }
+      },
+      {
+        "utc": "2026-11-10T18:27:59.577279+00:00",
+        "model": 605,
+        "complete_stop_DONE_valid_outer_JSON": true,
+        "usage": {
+          "prompt_tokens": 3096,
+          "completion_tokens": 1063,
+          "total_tokens": 4159
+        },
+        "duration_ms": 7279.422500054352,
+        "HTTP_attempts": 1,
+        "adoption": "Wholemodule rejected, raw0Native; syntax-only correction usedsolelyfor isolated counterexamples, not adopted. Owner takes overtool scope.",
+        "raw_candidate_Native_execution": 0,
+        "checks": {
+          "raw_lua51_compile": {
+            "passed": false,
+            "error": "[string \"<python>\"]:26: 'then' expected near '!'"
+          },
+          "diagnostics_run_before_original_contrary_contract": true,
+          "mutable_snapshot_alias_retained": true,
+          "malformed_turn_accepted": true,
+          "install_publication_throw_leaks_wrapper": true,
+          "original_throw_leaves_reentrancy_state_corrupt": true,
+          "nonscalar_snapshot_not_validated": true
+        },
+        "rejections": [
+          "Lua51 != syntax invalid.",
+          "Beforeoriginal snapshot violates explicit after-original contract.",
+          "Scope/finiteinteger/plain scalarfields/32keys/64keylength enforcement absent despite limitstrings.",
+          "Snapshotaliasednotcopied, raw nestedvalues retained.",
+          "Reentrancyflag startsafter diagnostics andisnotresetonoriginalthrow.",
+          "Installpublicationfailure leak andno currentmanageridentityrestoreguard."
+        ],
+        "daily_maintenance": "Nov11 same-machine/user1.19.5cache reused/0nativegeneration",
+        "cumulative605": {
+          "logical_tasks": 605,
+          "complete_stop_valid_outer_JSON": 565,
+          "length_discarded": 37,
+          "final_transport_failure": 3,
+          "HTTP_attempts": 635,
+          "extra_HTTP_attempts": 30,
+          "OpenCode_native_generation": 0,
+          "current_in_flight": 0,
+          "cached_tokens": null,
+          "owner_active_seconds": null,
+          "net_savings_seconds": null
+        },
+        "owner_test_correction": "Originalthrowcounterexample firstexpectedone sample, but candidateAfterneverran andnextBeforewasblocked; correctedtoactualzero. Failedfirstisolatedrun retained;0gameactions."
+      }
+    ],
+    "actual_HTTP_peak": 1,
+    "requested_initial_concurrency_target": [
+      12,
+      16
+    ],
+    "no_quota_probes": true,
+    "maintenance": "Nov11 same-machine/user successful1.19.5 cache reused",
+    "OpenCode_native_generation": 0
+  },
+  "cumulative": {
+    "logical_tasks": 605,
+    "complete_stop_valid_outer_JSON": 565,
+    "length_discarded": 37,
+    "final_transport_failure": 3,
+    "HTTP_attempts": 635,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "current_in_flight": 0,
+    "cached_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "opencode_native_generation": 0,
+  "owner_native_scope": "Source/runtime109still206/10cities;0newEND/save/reload/orders.3requestplotsNONEtoimprovementwitholdbuilderabsent,exactactorcauseunknown.9idleMOVEcases3laterexactfullactorpositionatoldtarget.206fresh3builderportspendingtrue/readyfalse/destinationknown,UIidle;existingguardalreadyholdsthem. Newownergettertool8Lua51methodspass0Nativewrapperinstallatcutpoint;notproductfix.",
+  "generic_lessons": [
+    "Last known one-charge actor absence plus a new improvement is effect evidence, not exact actor attribution; preserve the missing pre-request expected type and immediate snapshot as unknown.",
+    "A new request identifier does not by itself rule out replay, and action points changing across turns do not prove a particular action executed.",
+    "Connect events by actual log order, not merely same-or-later turn. The owner input mislabeled two earlier same-turn requests as next; preserve frozen input and correct the analysis separately.",
+    "Coordinate columns must be read independently: two prior actor positions differed from their request targets even though a prose model asserted equality.",
+    "Getter forwarding diagnostics must run the original exactly once and preserve all arguments, nils, arity and original errors. Separate callback failures, snapshot copies, bounded storage and reentrancy must not perturb the consumer.",
+    "Stating limits in a JSON list does not implement them. Candidate605 failed Lua51 syntax; a syntax-only isolated repair exposed aliasing, timing, validation, reentrancy and rollback defects. Do not deploy the corrected draft.",
+    "Foreign binding and namespace preservation applies on both restore and partial installation failure. The observer owner can retry only while all remaining state is still owned.",
+    "A software-qualified diagnostic tool is not a game pass. Current three pendingtrue actors are readyfalse, so the existing guard already waits; this does not prove a new pending check would repair historical failures."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null,
+  "scope_limit": "Tools-only software/readonly preflight package, no product version change, no Native getter wrapper install at cutoff, no new action. Old issuedFOUNDARMED reloadFAIL/9queuewarnings/exactbuilderattribution/DAM/UI/full40/performance remainopen. No Steam online/login/upload."
+}
