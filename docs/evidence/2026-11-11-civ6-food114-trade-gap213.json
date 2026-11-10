@@ -1,0 +1,94 @@
+{
+  "schema": "local-model-operations.civ6-food114-trade-gap213/v1",
+  "utc": "2026-11-10T23:53:00.297841+00:00",
+  "date_local": "2026-11-11",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "food114-trade-gap213": {
+      "url": "https://github.com/XenoAmess/civ6_dev/blob/b4e0597b974110709ea768d45d1014dd103d26be/docs/research/baiqi-p6-source114-trade-gap213-evidence-2026-11-11.json",
+      "sha256": "90c08a7b42f8a670c3cbde9bba4f6bc2431e55a2a1d049db4aedb0a4a57d5ab6"
+    },
+    "food114-pop213": {
+      "url": "https://github.com/XenoAmess/civ6_dev/blob/6b5d9cfb99d2a437a84798e38362752a7515d0e7/docs/research/baiqi-p6-source114-population213-evidence-2026-11-11.json",
+      "sha256": "41048249f5b0e1d4485b353a845f3849afeb5dac8d83d3959d6a952b92499b92"
+    },
+    "food114-native211": {
+      "url": "https://github.com/XenoAmess/civ6_dev/blob/a76a052e2abfd4d0b0d16c5ca1ac7172acca0fc5/docs/research/baiqi-p6-source114-district-food-native211-evidence-2026-11-11.json",
+      "sha256": "45ec58a62b7742ea508802e73a921d4a018f51b175692ba5f9b7747077ba9ea0"
+    }
+  },
+  "models": {
+    "613": {
+      "HTTP": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "usage": {
+        "prompt_tokens": 1906,
+        "completion_tokens": 77,
+        "total_tokens": 1983
+      },
+      "total_ms": 1207.5713999802247,
+      "TTFT_ms": 523.7383000785485,
+      "adopted": false,
+      "review": "Valid diagnostic suggestion; callback order alone cannot falsify native starvation causality. Owner implemented independent passive subscribers; no model code."
+    },
+    "614": {
+      "HTTP": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "usage": {
+        "prompt_tokens": 3340,
+        "completion_tokens": 120,
+        "total_tokens": 3460
+      },
+      "total_ms": 1607.4912000913173,
+      "TTFT_ms": 680.7442000135779,
+      "adopted": false,
+      "review": "Duplicates existing reactive UNIGNORE and rejects the actual zero-surplus precursor. Cannot address the already favored city or the inter-turn deficit."
+    }
+  },
+  "cumulative": {
+    "logical": 614,
+    "complete": 572,
+    "length": 39,
+    "transport": 3,
+    "HTTP": 644,
+    "extra": 30,
+    "OpenCode_native": 0,
+    "cached": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "new_OpenCode_native_generation": 0,
+  "owner_verified": {
+    "source114_211": {
+      "same_original210_save": true,
+      "worked_food_plot_preserved": true,
+      "new_University_actual": true,
+      "native_DAM_started_not_complete": true
+    },
+    "source114_213": {
+      "population_loss_8_to_7_reproduced": true,
+      "route_lost_food_3": true,
+      "UI_stock_before_after": [
+        1.74609375,
+        -1.25390625
+      ],
+      "route_restored_after_loss": true,
+      "reason_route_removed": null,
+      "native_remaining_turns_port": null,
+      "observers_removed": true,
+      "END213": 0
+    }
+  },
+  "generic_lessons": [
+    "Separate pre-turn, inter-turn, and settled reads. A restored supply route hides the shortage and cannot reverse prior population loss.",
+    "Passively compare actual route membership, resource deltas, stock and population events. Event delivery is a snapshot boundary, not proof of internal engine instruction order.",
+    "A preexisting negative-only focus repair cannot act on a zero-surplus city before a trade loss, and no ordinary player inputs are available between resource loss and population processing in this reproduction.",
+    "A valid short JSON candidate can repeat the old implementation or contain a false falsifier; neither qualifies as adopted logic."
+  ],
+  "Steam_online_actions": 0,
+  "uploads": 0,
+  "owner_active_seconds": null,
+  "net_savings_seconds": null
+}

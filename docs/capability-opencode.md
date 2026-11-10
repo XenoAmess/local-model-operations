@@ -1253,3 +1253,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-11：611／612未采用及owner114后续
 
 0新OpenCode原生。维护缓存不授代码生成；两普通HTTP整弃，owner规划读数、真实施工和失败、114软件独立分账。[固定证据](evidence/2026-11-11-civ6-food114-software.json)。
+
+
+### 2026-11-11：613／614未采用与普通回合诊断
+
+0新OpenCode原生。两个HTTP完整候选均未采用；owner双Realm实际只读记录与测试玩家原版输入独立分账。[固定证据](evidence/2026-11-11-civ6-food114-trade-gap213.json)。
