@@ -5471,3 +5471,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：638／639与122正常金币购买软件
 
 638单HTTP200/DONE但length，5514+3000tokens、18591.7608ms，截断未读未采用。639最终资格函数单HTTP200/stop/DONE/VALID，774+590、4357.2555ms；合法leader字符串对pid数值即拒用，猜Game/UI、漏reserve和最终重读，隔离反例成立，原代码拒用。Owner17runner/Admin＋1控制器pending hold合同，旧121消费者调度用例1失败。首轮1769有1SDK qualified receiver观测错误，使用规范局部CityManager保留注入与观测后最终1771项1770pass1SDKskip、95Lua51／117包。引用637原生资格而不授122扣款／建筑／排水效果；保留121失败257，计划独立冷载256复测。累计639/595完整/41length/3transport/669HTTP/30extra，初始在途1、OpenCode原生0、未知成本null。[固定Git blob证据](evidence/2026-11-12-civ6-model638639-paid-flood-software.json)。
+
+
+## 2026-11-12：640与122原生未购买失败
+
+单HTTP200/stop/DONE/VALID，7274+614=7888tokens、5474.3291ms。真实122256冷载，需求／Native两资格true、价135、金币19287.51953125未变且未买；精确只读函数片段Contexttrue、Read/Eligible均成功nil，实际Maintenance1被Owner零维护假设误挡。640的H2方向独立验证，原稿Context函数当环境及pcall布尔索引隔离失败，原代码拒用；hypotheses字段数组不符合同。Owner13值＋4函数结果全256，无writer/include/Run/全局替换／动作，不授购买。保持256，继续123按维护费预算并预留同回合承诺。累计640/596完整/41length/3transport/670HTTP/30extra，实际初始在途1，OpenCode原生0、未知成本null。[固定Git blob证据](evidence/2026-11-12-civ6-model640-native-maintenance-rejection.json)。

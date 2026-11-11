@@ -1348,3 +1348,8 @@ OpenCode与registry实际1.19.5、未升级；当天首次检查成功后625命�
 ### 2026-11-12：638／639与122软件
 
 同机同用户当日1.19.5维护成功缓存复用，无升级或OpenCode原生生成。长度失败、合同拒用、Owner观测兼容修正及软件结果分别计，尚无122 Native授效。[记录](evidence/2026-11-12-civ6-model638639-paid-flood-software.json)。
+
+
+### 2026-11-12：640普通HTTP与原生维护费诊断
+
+当日同机同用户1.19.5成功维护缓存复用，无升级或OpenCode原生生成。Owner错误假设／候选拒用／Native诊断分别计，不把通过编译与无错误日志当效果。[记录](evidence/2026-11-12-civ6-model640-native-maintenance-rejection.json)。
