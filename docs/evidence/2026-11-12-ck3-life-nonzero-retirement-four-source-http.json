@@ -1,0 +1,385 @@
+{
+  "schema": "local-model-operations.life-nonzero-retirement-four-http/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "case_id": "ck3-life-nonzero-retirement-four-source-reviews",
+  "shared_head_at_dispatch": "11537549b2b94182c4dd838b1fcef5180317fd89",
+  "synchronization_and_maintenance": {
+    "shared_head": "11537549b2b94182c4dd838b1fcef5180317fd89",
+    "daily_success_reused": {
+      "schema": "local-model-operations.opencode-daily/v1",
+      "date": "2026-11-12",
+      "checked_at_local": "2026-11-12T02:42:39.984713+08:00",
+      "signature": "e83f1e70259b5710d571e23d4a1aa50cb9cdc392a9c71154d4032855b20b2bcc",
+      "installed_before": "1.19.5",
+      "installed_version": "1.19.5",
+      "registry_latest": "1.19.5",
+      "target_version": "1.19.5",
+      "updated": false,
+      "cached": true
+    },
+    "rules_unchanged": true,
+    "source_combination": "Source02 seven leaves + Source03 Cycle + Source04 Journal/Driver",
+    "all_HTTP_before_coherent_overlay": 0,
+    "owner_source03_set_order_and_source04_child_consumption_not_model_credit": true,
+    "new_VM_live_ledger_source": 0
+  },
+  "scope": {
+    "coherent_source": "Source02 seven unchanged leaves + Source03 Cycle + Source04 Journal/Driver",
+    "original_versions_HTTP_count": 0,
+    "all_four_first_dispatches_with_overlays": true,
+    "source03_set_order_and_source04_child_consumption": "Owner fixes before first POST; no model discovery or repair credit.",
+    "complete_methods_vs_complete_global_implementation": "Journal/Core/RuntimeAssembly used named complete relevant members. Task04 omitted OriginalWindowReducer full body; Task01 included it.",
+    "source_snapshot_not_loaded_memory_attestation": true,
+    "preserved_frontier": {
+      "current_completed_cycles": 13,
+      "saved_completed_cycles": 1,
+      "top_last_settled_cycles": 1,
+      "confirmed_saved_days": 8,
+      "original_batch": 5,
+      "next_batch_sequence": 6,
+      "additional_five_days_credit": 0
+    },
+    "pins": [
+      {
+        "name": "SOURCE02-READY.json",
+        "bytes": 8265,
+        "sha256": "49e348abab8ec75808f79d706bf38c769bfdb4fc74f2c12582647c9868d642a6"
+      },
+      {
+        "name": "SOURCE03-READY.json",
+        "bytes": 1386,
+        "sha256": "368a0ad0c1c11f24a02ab40f25ea9086b564a58e97fc03f86fd432f106072e57"
+      },
+      {
+        "name": "SOURCE04-READY.json",
+        "bytes": 2434,
+        "sha256": "401ab62af83d21038b56e8daf8f06356df77ab6155ee58219bac4b74b6789825"
+      },
+      {
+        "name": "head349.original.json",
+        "bytes": 93350,
+        "sha256": "862dc549acaf411d341a0b8048c3246f471d0de3d76a71db326e9c5c6aa740de"
+      },
+      {
+        "name": "receipt-0.original.json",
+        "bytes": 6531,
+        "sha256": "dbddc8912b5ac86cdd207ba0f3450105581b9ccdc95ff63ee39344fec3dfa303"
+      },
+      {
+        "name": "receipt-1.original.json",
+        "bytes": 7448,
+        "sha256": "81aa82856d4ba0e851d814940141058b215f1df1462c4f49d0b0b2df4271a6ed"
+      },
+      {
+        "name": "receipt-2.original.json",
+        "bytes": 6611,
+        "sha256": "377d256a47fcee0e91f7f2bf62f61be4c119becc3109d86b1e6518579c642a65"
+      },
+      {
+        "name": "SOURCE03-OrdinaryCycleTransitions.java",
+        "bytes": 235388,
+        "sha256": "e57289e112556a3f2c2158cf2cb97a7b11fc1bc0f6e230b9cc066e325243df9c"
+      },
+      {
+        "name": "SOURCE04-ContinuityBatchJournal.java",
+        "bytes": 410313,
+        "sha256": "3d71780772e1f12be4c05dbc453a580481ed0cbbec0156845fb09f016e2bbe78"
+      },
+      {
+        "name": "SOURCE04-DriverStateAssembler.java",
+        "bytes": 158373,
+        "sha256": "f4075a617a7b3084f8964c82a130b83ec158b7953072f1bb07857c1385797dac"
+      },
+      {
+        "name": "OriginalWindowReducer.java",
+        "bytes": 31731,
+        "sha256": "7bfeb1a4159144c23e3e4b394e83f32616a9695379145c68253fd863bceb65e8"
+      }
+    ]
+  },
+  "request_audit": {
+    "model": "qwen38-coder",
+    "mode": "DIRECT shared caller",
+    "temperature": 0,
+    "enable_thinking": false,
+    "message_count": 3,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true,
+    "redirects": "refused",
+    "actual_peer": "UNKNOWN",
+    "active_consumer_or_service_changed": false
+  },
+  "concurrency": {
+    "definition": "POST_BEGIN to ATTEMPT_END intervals",
+    "peak": 4,
+    "peak_continuous_seconds": 89.92434,
+    "first_post_begin_utc": "2026-11-11T20:20:16.033292+00:00",
+    "last_end_utc": "2026-11-11T20:21:50.165210+00:00",
+    "wave_wall_seconds": 94.131918,
+    "current_inflight_after_end": 0
+  },
+  "cost": {
+    "http_attempts": 4,
+    "complete_stop": 4,
+    "length": 0,
+    "transport_failure": 0,
+    "retry": 0,
+    "prompt_tokens": 695917,
+    "completion_tokens": 1408,
+    "sum_attempt_total_ms": 364923.5031999415,
+    "financial_cost": null,
+    "full_owner_preparation_wall_seconds": null,
+    "source_preparation_failures": "Path/member-name guesses corrected before dispatch; no resulting HTTP or VM. No claim of zero preparation cost."
+  },
+  "tasks": [
+    {
+      "task": "retire01-real-nonzero-frontier-controller",
+      "post_begin_utc": "2026-11-11T20:20:16.039116+00:00",
+      "attempt_started_utc": "2026-11-11T20:20:16.038667+00:00",
+      "end_utc": "2026-11-11T20:21:46.764387+00:00",
+      "max_tokens": 2800,
+      "source_prefix_bytes": 696463,
+      "source_prefix_sha256": "9ff44828dcb84c4c0aa45b344e0bfe4b4ca5e9c4ddf230b7ae0cacd7512ac40a",
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "headers_ms": 88514.66679992154,
+      "effective_content_TTFT_ms": 88515.85929992143,
+      "total_ms": 90725.27329996228,
+      "usage": {
+        "prompt_tokens": 179708,
+        "completion_tokens": 235,
+        "total_tokens": 179943
+      },
+      "cached_prompt_tokens": null,
+      "model_reported_status": "NO_CONCRETE_FINDING",
+      "model_reported_findings": 0,
+      "owner_grade": "AUXILIARY_NO_CONCRETE_FINDING",
+      "code_adopted": false,
+      "new_defect_adopted": false,
+      "attempt_count": 1,
+      "pins": [
+        {
+          "name": "REQUEST.json",
+          "bytes": 725591,
+          "sha256": "634bda274ed37fa8ecff3e3d74683755f84e5a9e01dc0e7b685665f38980ac6e"
+        },
+        {
+          "name": "ATTEMPT1-RESULT.json",
+          "bytes": 1326,
+          "sha256": "4ea0d51c62b2bc9cc0b0b441a93d5dfc0503e82e28f0b06b51cf8517efb6b574"
+        },
+        {
+          "name": "ATTEMPT1-CONTENT.txt",
+          "bytes": 953,
+          "sha256": "2becd422a7f60ada6b391c65c2378fc7d1ddde6dff8481d8c8b689e8311e7c4c"
+        },
+        {
+          "name": "SUMMARY.json",
+          "bytes": 1711,
+          "sha256": "69d916e25004e9f99c849ab89ffe9b7cf8142d9ea89973edffcd9acbcb1e3008"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 2909,
+          "sha256": "139f22240a9afa309d12292d751c346f875c4c0307162527de7a440f82ac9c97"
+        }
+      ]
+    },
+    {
+      "task": "retire02-versioned-request-prior-sway-compatibility",
+      "post_begin_utc": "2026-11-11T20:20:16.039485+00:00",
+      "attempt_started_utc": "2026-11-11T20:20:16.039078+00:00",
+      "end_utc": "2026-11-11T20:21:46.181888+00:00",
+      "max_tokens": 2400,
+      "source_prefix_bytes": 364411,
+      "source_prefix_sha256": "d8db1d892adbfd1c5cf1228c46a36c92959257926613e8f813c5de5d61434451",
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "headers_ms": 34111.448999959975,
+      "effective_content_TTFT_ms": 34112.438099924475,
+      "total_ms": 90142.20070000738,
+      "usage": {
+        "prompt_tokens": 112727,
+        "completion_tokens": 241,
+        "total_tokens": 112968
+      },
+      "cached_prompt_tokens": null,
+      "model_reported_status": "NO_CONCRETE_FINDING",
+      "model_reported_findings": 0,
+      "owner_grade": "AUXILIARY_NO_CONCRETE_FINDING",
+      "code_adopted": false,
+      "new_defect_adopted": false,
+      "attempt_count": 1,
+      "pins": [
+        {
+          "name": "REQUEST.json",
+          "bytes": 386275,
+          "sha256": "06e9873c09366ecee5a3a116a4f8b8b385dae658d4df2a5bd65e40a16b57074f"
+        },
+        {
+          "name": "ATTEMPT1-RESULT.json",
+          "bytes": 1338,
+          "sha256": "ef19fcf2d2bcd9c49e81d90b2ff8e9760489cc51abd54a1c29f3a7f5d7d4f2cd"
+        },
+        {
+          "name": "ATTEMPT1-CONTENT.txt",
+          "bytes": 1023,
+          "sha256": "d8c7a2b3df442eadd1de0dd5c7c848f6f66f206a1831065dd5e78023999f7ac8"
+        },
+        {
+          "name": "SUMMARY.json",
+          "bytes": 1733,
+          "sha256": "2cc8d3e7e97f10320046315e9cb4441c35e4b57692eef77c10188e89194967ba"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 2973,
+          "sha256": "1c9546fadd296d1a2797ced0327fada7f64638e4c1f5c289fe39a298bdadcd60"
+        }
+      ]
+    },
+    {
+      "task": "retire03-early-systemcontrol-and-driver-exclusion",
+      "post_begin_utc": "2026-11-11T20:20:16.033292+00:00",
+      "attempt_started_utc": "2026-11-11T20:20:16.032883+00:00",
+      "end_utc": "2026-11-11T20:21:45.964472+00:00",
+      "max_tokens": 2400,
+      "source_prefix_bytes": 785883,
+      "source_prefix_sha256": "c801838dae9c1fb55e226b50293e9a70da8ca7c39805dea9e3371cbab94e9aaa",
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "headers_ms": 63406.05690004304,
+      "effective_content_TTFT_ms": 63407.17879997101,
+      "total_ms": 89931.09199998435,
+      "usage": {
+        "prompt_tokens": 193755,
+        "completion_tokens": 191,
+        "total_tokens": 193946
+      },
+      "cached_prompt_tokens": null,
+      "model_reported_status": "NO_CONCRETE_FINDING",
+      "model_reported_findings": 0,
+      "owner_grade": "AUXILIARY_NO_CONCRETE_FINDING",
+      "code_adopted": false,
+      "new_defect_adopted": false,
+      "attempt_count": 1,
+      "pins": [
+        {
+          "name": "REQUEST.json",
+          "bytes": 813571,
+          "sha256": "7d87df8dae2a69d5754ce7e5faaf4c440f86cde3c2091b4e891fd83a0f645531"
+        },
+        {
+          "name": "ATTEMPT1-RESULT.json",
+          "bytes": 1334,
+          "sha256": "b41ec0fca0ada42af4055252950d208d891214532c2ba4e8abb6f6b7fbae89b1"
+        },
+        {
+          "name": "ATTEMPT1-CONTENT.txt",
+          "bytes": 721,
+          "sha256": "0aa0b0308ffc957d3a9427b45a6909d189f9ebd8c61ec7db36dece475092ee7d"
+        },
+        {
+          "name": "SUMMARY.json",
+          "bytes": 1727,
+          "sha256": "ebcf85c7ceb7840b058236fd06081669662027b6b984d4ed088a2ea4c2140775"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 2957,
+          "sha256": "893a21a6645f8f1903242f66ee5de3609201156c7daf5d169f40386a70db062b"
+        }
+      ]
+    },
+    {
+      "task": "retire04-installer-currentdata-nonzero-entry",
+      "post_begin_utc": "2026-11-11T20:20:16.040132+00:00",
+      "attempt_started_utc": "2026-11-11T20:20:16.039746+00:00",
+      "end_utc": "2026-11-11T20:21:50.165210+00:00",
+      "max_tokens": 2800,
+      "source_prefix_bytes": 849917,
+      "source_prefix_sha256": "3f62892e821b1173cf367b6841114a9c7cd024a43e5cb936c54e150e00c5116b",
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": "VALID",
+      "headers_ms": 79069.58749995101,
+      "effective_content_TTFT_ms": 79070.90619998053,
+      "total_ms": 94124.93719998747,
+      "usage": {
+        "prompt_tokens": 209727,
+        "completion_tokens": 741,
+        "total_tokens": 210468
+      },
+      "cached_prompt_tokens": null,
+      "model_reported_status": "FINDINGS",
+      "model_reported_findings": 2,
+      "owner_grade": "TWO_FINDINGS_REJECTED_AFTER_SOURCE_CHECK",
+      "code_adopted": false,
+      "new_defect_adopted": false,
+      "attempt_count": 1,
+      "pins": [
+        {
+          "name": "REQUEST.json",
+          "bytes": 880690,
+          "sha256": "b144ac185c0e0f0d3f48ed4a4c97516746275266dfd3f2f868f94628384627b1"
+        },
+        {
+          "name": "ATTEMPT1-RESULT.json",
+          "bytes": 1329,
+          "sha256": "6aa89e38f1a25b2e3c80a26ef801ab3cdedc54e094501a23006a7dd7184c3183"
+        },
+        {
+          "name": "ATTEMPT1-CONTENT.txt",
+          "bytes": 3329,
+          "sha256": "c7bd60244c9fc3b1ed5aa0645a0812631f8c38d4fdb2df888959f47d3eb996aa"
+        },
+        {
+          "name": "SUMMARY.json",
+          "bytes": 1717,
+          "sha256": "d9ec526ee3981bbe9acba2219aebc9bf14a76f7c584cf538835456f7893fc3aa"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 2927,
+          "sha256": "bf8913ba5cc522118fa02dd003fb0a358b82920ff62b425fc75f57631072c1b2"
+        }
+      ]
+    }
+  ],
+  "owner_review": {
+    "tasks01_to03": "No concrete source findings; auxiliary only. Task02 synthetic line labels are unsupported and not evidence anchors.",
+    "task04_finding01": {
+      "status": "REJECTED",
+      "claim": "settledActions omits unresolved parent",
+      "source_counterexample": "Journal 3221 reads all receipts; 3837-3838 passes full actions into SettledSameGameData; 2204 selects exact parent ID; 2174-2184 explicitly validates unique unresolved parent. Field name is not a settled filter."
+    },
+    "task04_finding02": {
+      "status": "REJECTED_WITH_INPUT_LIMIT",
+      "claim": "Reducer might normalize cycle; relax equality",
+      "input_limit": "Task04 lacked full OriginalWindowReducer; should return NOT_PROVEN for that method, not a defect. Task01 had full body.",
+      "source_counterexample": "OriginalWindowReducer177-205 changes status/binding/last_error only; cycle and saved branches retained. Cycle176-177 must retain exact equality."
+    },
+    "declared_constructor_arity": "Old overload 12 formal parameters; new record canonical constructor 14. Prior hand-count description was owner metadata, not an ABI defect.",
+    "model_code_adopted": 0,
+    "verified_model_bug_fix_adopted": 0,
+    "retained_technical_implementation_changed": false
+  },
+  "limits": {
+    "HTTP_complete_is_not_semantic_or_software_pass": true,
+    "no_model_gate_for_Java_Native_Runtime": true,
+    "extra_VM_or_tests_or_live_or_ledger_or_production_source_changes_by_this_role": 0,
+    "Runtime_cancel_Status_recovery_Loop_SAVE_credit": false,
+    "performance_or_latency_comparison": false,
+    "cache_or_service_queue_inference": false,
+    "unprovided_external_methods": "NOT_PROVEN; not a new admission gate."
+  }
+}
