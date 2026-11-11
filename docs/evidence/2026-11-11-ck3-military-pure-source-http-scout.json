@@ -1,0 +1,267 @@
+{
+  "schema": "local-model-operations.military-pure-source-scout/v1",
+  "date_local": "2026-11-11",
+  "mode_id": "ordinary_http_candidate",
+  "case_id": "ck3-military-pure-source-scout01",
+  "shared_head_at_dispatch": "23f4b089adb3e16791a4dde2f76fa7baa66913bb",
+  "synchronization": "Clean main fetch and ff-only from edb2b568 to23f4b089;16 documentation files1481 additions. Previously read AGENTS/usage/executor/operations prompt/caller byte hashes unchanged. No reset/force or active configuration migration.",
+  "client_maintenance": {
+    "checked_at_local": "2026-11-11T01:17:07.452023+08:00",
+    "installed_before": "1.19.5",
+    "registry_latest": "1.19.5",
+    "installed_after": "1.19.5",
+    "updated": false,
+    "same_day_success_reused": true
+  },
+  "source_scope": {
+    "formal_head": "7ff19e671e9e8d362617190075a2a8ac93fedbf9",
+    "source_from": "Complete immutable formal Git objects, not dirty checkout or sparse physical-file inference",
+    "complete_target_classes": 3,
+    "complete_original_tests": 3,
+    "additional_complete_type": "JsonField",
+    "sources": [
+      {
+        "name": "DefenderContinueRisk.java",
+        "blob": "89e750d4ebffca0194d70ccc033917bd6bb98c02",
+        "bytes": 14177,
+        "sha256": "929f3617f0593ddeb1be7973e76ac007e6525846b4f8fdad246a301be76aa874"
+      },
+      {
+        "name": "DefenderContinueRiskTest.java",
+        "blob": "0fc8fcb4ef6f69d25f710cf3c5510010ad948f37",
+        "bytes": 12604,
+        "sha256": "58cea9336c2f0e606b9c5f0ffa6a42840d1ff4a7a197d860b996ac1a55a536c1"
+      },
+      {
+        "name": "ProjectedContactPolicy.java",
+        "blob": "23e55b2c53d3902891fe8330c1ad5a091e5349f9",
+        "bytes": 10555,
+        "sha256": "492ec2c518e97c299001fc2fb6f05dc4e88bc66280322e559554eafa9c205ffb"
+      },
+      {
+        "name": "ProjectedContactPolicyTest.java",
+        "blob": "ba07c0c5e8d53baad6a77ac9268c9a19ccf6e137",
+        "bytes": 8847,
+        "sha256": "e612c6834ac333abc0efefbdee50901a1f2a5b21f5648159a7e5b75b037607d6"
+      },
+      {
+        "name": "DeclarationObjectivePriority.java",
+        "blob": "df0378a164fa4fd60657814cc2e173e9825af61a",
+        "bytes": 9083,
+        "sha256": "43ababb87ba6450cb66d025301cf11cb3c2c7690e4d02e7b9239c3fb22748a10"
+      },
+      {
+        "name": "DeclarationObjectivePriorityTest.java",
+        "blob": "39245399ec734e4240f6af227eca811b6edb8029",
+        "bytes": 12135,
+        "sha256": "9f87f0f8ae4ad4363a038d07ac9d2157e2340ff92b49c488a9877d2d51c53c4f"
+      },
+      {
+        "name": "JsonField.java",
+        "blob": "f549322bddfa647d1850afd002df506eecb79cfe",
+        "bytes": 932,
+        "sha256": "df38e8d61491e3eea4856702439c3cddeba67f0f7d9962e60a3446e645a13bd4"
+      }
+    ],
+    "actualclass_body_equivalence_Runtime_frequency_ROI": "NOT_HELD",
+    "tests_not_newly_executed": true
+  },
+  "actual_HTTP": {
+    "POSTs": 3,
+    "HTTP200": 3,
+    "complete_stop": 3,
+    "length": 0,
+    "transport_errors": 0,
+    "retry_POSTs": 0,
+    "current_inflight": 0,
+    "peak_client_POST_to_END": 3,
+    "peak_seconds": 8.813972,
+    "peak_segments": [
+      {
+        "start": "2026-11-11T04:16:48.459112+00:00",
+        "end": "2026-11-11T04:16:57.273084+00:00",
+        "inflight": 3,
+        "seconds": 8.813972
+      }
+    ],
+    "first_POST_to_last_END_seconds": 11.568909,
+    "prompt_tokens": 16832,
+    "completion_tokens": 2369,
+    "TTFT_ms_min_median_max": [
+      1560.136300045997,
+      2360.5729000410065,
+      2559.701499994844
+    ],
+    "server_queue_KV_observation": "NOT_HELD"
+  },
+  "actual_request_audit": {
+    "caller": "Existing shared scripts/call.py",
+    "model": "qwen38-coder",
+    "base_url": "http://192.168.1.11:8080/v1",
+    "transport": "DIRECT exact configured host; redirects refused; actual peer UNKNOWN",
+    "fixed_messages": [
+      "exact shared system",
+      "complete current formal source plus original test/contracts",
+      "finite assigned narrow obligation"
+    ],
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "max_tokens": [
+      1600,
+      1700,
+      1800
+    ],
+    "cached_prompt_tokens_if_unreported": null,
+    "all_actual_requests_audited": true,
+    "actual_source_prefixes": [
+      {
+        "task": "review01-defender-constants",
+        "bytes": 28015,
+        "sha256": "e850287623dd42761b03a7c5a7c565b38a8aee498029731a6235cc68fd9f023d"
+      },
+      {
+        "task": "review02-projected-singleton",
+        "bytes": 20644,
+        "sha256": "ea01030eba2c05dbb197e03725f619873eeef7cb30af6ba87770610771a8bfaf"
+      },
+      {
+        "task": "review03-declaration-key",
+        "bytes": 23462,
+        "sha256": "bf80f25323559b61f8a37518da295c42ec4d89d0cec027392bd4207edcb74e79"
+      }
+    ]
+  },
+  "per_request_costs": [
+    {
+      "task": "review01-defender-constants",
+      "BEGIN": "2026-11-11T04:16:48.456999+00:00",
+      "END": "2026-11-11T04:16:57.273084+00:00",
+      "http_status": 200,
+      "http_headers_ms": 2558.763200067915,
+      "first_nonempty_content_delta_ms": 2559.701499994844,
+      "total_ms": 8815.958500024863,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 6590,
+        "completion_tokens": 575,
+        "total_tokens": 7165
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "failure": null,
+      "candidate_complete": true
+    },
+    {
+      "task": "review02-projected-singleton",
+      "BEGIN": "2026-11-11T04:16:48.457347+00:00",
+      "END": "2026-11-11T04:16:59.502358+00:00",
+      "http_status": 200,
+      "http_headers_ms": 1559.2040000483394,
+      "first_nonempty_content_delta_ms": 1560.136300045997,
+      "total_ms": 11045.010200003162,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 4787,
+        "completion_tokens": 847,
+        "total_tokens": 5634
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "failure": null,
+      "candidate_complete": true
+    },
+    {
+      "task": "review03-declaration-key",
+      "BEGIN": "2026-11-11T04:16:48.459112+00:00",
+      "END": "2026-11-11T04:17:00.025908+00:00",
+      "http_status": 200,
+      "http_headers_ms": 2359.4314999645576,
+      "first_nonempty_content_delta_ms": 2360.5729000410065,
+      "total_ms": 11566.751300008036,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 5455,
+        "completion_tokens": 947,
+        "total_tokens": 6402
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "failure": null,
+      "candidate_complete": true
+    }
+  ],
+  "adoption_grades": [
+    {
+      "task": "review01-defender-constants",
+      "model_status": "CANDIDATE",
+      "owner_grade": "SOURCE_CANDIDATE_ONLY_NOT_IMPLEMENTED",
+      "candidate": "Same original five enum constants, same order, five direct adds to the same owned TreeSet; no comparator/container/order change.",
+      "owner_reason": "Source-level local replacement is plausible: original input is immutable List, not SortedSet bulk-build case; all constants are non-null and comparator reads fixed enum wire strings. Preserve exact insertion order rather than rely only on final sorting. No dynamic frequency, actual allocation reduction/JIT behavior or ROI held.",
+      "semantic_noise": "Model stated allocation/iterator elimination too conclusively; no executed allocation evidence. Its different-order item was not a concrete behavior counterexample.",
+      "source_code_adopted": false
+    },
+    {
+      "task": "review02-projected-singleton",
+      "model_status": "CANDIDATE",
+      "owner_grade": "NO_CODE_AUTH_FROZEN_REQUIRE",
+      "candidate": "size-one plus unboxed Integer value at same short-circuit location.",
+      "owner_reason": "After dispatch Root explicitly identified this Scope require expression as a frozen Guard boundary. Even source-level equivalence does not grant implementation. Original packet forbade Guard changes but did not identify this exact expression as Guard; preserve this owner scope clarification, no corrective POST.",
+      "semantic_noise": "size==1 alone does not prove non-null; actual List.copyOf plus typed validation does. Guessed external exception type/test import and non-existing List.findFirst example are not accepted findings/API authority.",
+      "source_code_adopted": false
+    },
+    {
+      "task": "review03-declaration-key",
+      "model_status": "CANDIDATE",
+      "owner_grade": "REJECTED_FALSE_ALLOCATION_PREMISE_BOUNDED_NO",
+      "candidate": "winnerKey initial List.of() changed to null only.",
+      "owner_reason": "Original empty List.of() is the shared empty immutable list; model invented per-call ArrayList/wrapper allocation. Short-circuit makes initial value unused, but that does not establish the claimed allocation saving. No preference/BigInteger/comparison rewrite authorized or performed.",
+      "semantic_noise": "Claimed one-object-per-call elimination and nonexistent empty ArrayList allocation; no complexity or latency benefit established.",
+      "source_code_adopted": false
+    }
+  ],
+  "outcome": {
+    "source_candidates_forwarded": 1,
+    "frozen_boundary_not_authorized": 1,
+    "false_allocation_premise_rejected": 1,
+    "model_code_implemented_or_adopted": false,
+    "new_compiles_tests_or_measurements": 0,
+    "latency_allocation_ROI_or_Runtime_pass": false,
+    "planning_and_business_not_blocked": true
+  },
+  "operating_lessons": [
+    "Use three real independent complete-source obligations when three exist; peak3 is observed, not a target12 shortfall.",
+    "A semantically plausible edit still needs source authority: owner post-dispatch frozen-boundary clarification prohibits implementation without creating another HTTP task.",
+    "Count owned transient materialization separately from shared empty constants; null sentinel substitution does not prove a removed allocation.",
+    "Model CANDIDATE, source equivalence, static exact anchors, software validation, actual adoption and performance are separate levels.",
+    "No performance or public-domain narrowing from model labels; keep public custom BigInteger callbacks and validation/evaluation order intact."
+  ],
+  "private_receipts": {
+    "closed_costs": {
+      "name": "CLOSED-COSTS01.json",
+      "bytes": 5632,
+      "sha256": "d9593942f52006a5d14f8be367ffe3f28e7aec925983ebf3259b5610625d140c"
+    },
+    "owner_review": {
+      "name": "OWNER-REVIEW-AND-HANDOFF01.json",
+      "bytes": 2860,
+      "sha256": "d5bb035a913f3b2fd8ddd0a6388af0b7b45f4237e3cc4bf39e2435dfe2fffe20"
+    },
+    "git_source_identities": {
+      "name": "GIT-SOURCE-IDENTITIES01.json",
+      "bytes": 2530,
+      "sha256": "d029c7367c883d061076682a078327fa64875fc5ffd9076b39832c40e6cb7028"
+    }
+  },
+  "bounds": {
+    "new_HTTP_beyond_three_real_obligations": 0,
+    "implementation_or_production_Git_mutations": 0,
+    "new_JVM_or_profile_or_decoder": 0,
+    "Game_Steam_Runtime_operations": 0,
+    "P100_refused_chain_repost": 0,
+    "active_service_config_caller_changes": 0,
+    "raw_prompts_sources_responses_or_absolute_private_paths_published": false,
+    "continuous_parent_goal_completed": false
+  }
+}

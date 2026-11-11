@@ -5297,3 +5297,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 618:1HTTP200/stop/DONE，1024+113tokens，1314.0576ms，方向重复且不把社区放置误认作商路断开，未采用。115正式离线213→215同坝2569原版完工，216仍完好并保存；拒绝原交易／免费特殊议程均为测试玩家。邢州自然回8非阻止前次掉人。153旧档正式115原生FOCUS请求1及观测1，长沙净−1→+5，6/6；216长沙净0低库存但9/9，实际新排序均无资格。恢复216完成坝与十城读数一致。累计618/576完整/39length/3transport/648HTTP/30extra，0OpenCode原生／Steam上线，未知成本null。
 
 [固定业务证据](evidence/2026-11-11-civ6-food115-native-215-216.json)。
+
+
+## 2026-11-11：CK3 三项有限纯源码 scout
+
+3真实并行HTTP全部200/stop/DONE/合法JSON，峰3持续8.813972秒，TTFT1.560–2.560秒；16832输入／2369输出，0length／transport／retry。完整当前Git源+原测试分别覆盖Defender五常量列表、Projected单元素比较、Declaration排序key。前者仅源码候选未实现；第二个后到明确冻结require，NO-CODE-AUTH；第三个虚构共享emptyList每调用分配，拒绝。0源码采用／JVM／实机，动态ROI未知，不为并发配额追加任务。
+
+[完整成本与采用分级](evidence/2026-11-11-ck3-military-pure-source-http-scout.md)。
