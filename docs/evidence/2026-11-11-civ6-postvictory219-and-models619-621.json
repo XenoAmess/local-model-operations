@@ -1,0 +1,70 @@
+{
+  "schema": "local-model-operations.civ6-postvictory219/v1",
+  "utc": "2026-11-11T15:27:16.409646+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/6e6eeac/docs/research/baiqi-p6-source115-postvictory219-evidence-2026-11-11.json",
+    "sha256": "56af1169dd297feebb9dc43b46e2a07b872ea9d948f38e54b502a1f9cd06d5bd"
+  },
+  "models": [
+    {
+      "task": 619,
+      "HTTP_attempts": 1,
+      "usage": {
+        "prompt_tokens": 2661,
+        "completion_tokens": 137,
+        "total_tokens": 2798
+      },
+      "total_ms": 2363.2341000484303,
+      "finish_reason": "stop",
+      "sse_done": true
+    },
+    {
+      "task": 620,
+      "HTTP_attempts": 1,
+      "usage": {
+        "prompt_tokens": 9192,
+        "completion_tokens": 139,
+        "total_tokens": 9331
+      },
+      "total_ms": 2722.946999943815,
+      "finish_reason": "stop",
+      "sse_done": true
+    },
+    {
+      "task": 621,
+      "HTTP_attempts": 1,
+      "usage": {
+        "prompt_tokens": 5133,
+        "completion_tokens": 224,
+        "total_tokens": 5357
+      },
+      "total_ms": 2355.273999972269,
+      "finish_reason": "stop",
+      "sse_done": true
+    }
+  ],
+  "reviews": {
+    "619": "No precise callback causal instrumentation; not adopted. Owner passive wrapper has no relevant natural sample.",
+    "620": "Once-per-turn proposal could replay unknown relocation on later turns; rejected. No teleport implemented.",
+    "621": "Says ordinary game has not ended despite Brazil result; rejected, owner rewrote synopsis."
+  },
+  "cumulative": {
+    "logical": 621,
+    "complete": 579,
+    "length": 39,
+    "transport_failure": 3,
+    "HTTP_attempts": 651,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0
+  },
+  "OpenCode_native_generation": 0,
+  "generic_lessons": [
+    "An ended game and a one-more-turn continuation require distinct acceptance labels.",
+    "Idle observer wrapper runs are not causal target samples; retire unproductive hooks between sessions.",
+    "Per-turn guards cannot authorize retrying an operation whose earlier outcome remains unknown.",
+    "Visible and exclusion CanProduce modes can disagree; use both and inspect actual prerequisites."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null
+}

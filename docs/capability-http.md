@@ -5353,3 +5353,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 后到actual core01＋mid02 DRAFT两项真实HTTP均200/stop/DONE/合法JSON，峰2持续22.965886秒，TTFT18.618／20.151秒，156855输入／659输出，0length／retry。独立核CAS/codec/append-replay与旧ID/同Game-episode Sway采集前隔离，两个空finding只作静态辅助。更正『任何preparation前已gate』泛称，旧同ID返回原件不等dispatch；0模型代码采用，不追授完整安装/Driver/cycle或NoEffect。首4不同方案不倒填此新实现，0本岗JVM/live/账本，不为配额重审。
 
 [完整成本与版本边界](evidence/2026-11-11-ck3-operator-quarantine-actual-two-http.md)。
+
+
+## 2026-11-11：619—621与结算后219的交接
+
+三个普通HTTP各1次stop/DONE/VALID，2798、9331、5357 tokens；2363.2341、2722.9470、2355.2740ms。619缺精确因果钩子，620逐回合迁城会重发未知结果，621错误声称普通对局未结束，均未采用。Owner撤去1911074外层运行但0目标样本钩子，保存219；食品市场排除模式true但可见模式与科技false。累计621/579完整/39length/3transport/651HTTP/30extra，0OpenCode原生，未知成本null。
+
+[固定业务证据](evidence/2026-11-11-civ6-postvictory219-and-models619-621.json)。
