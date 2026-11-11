@@ -5498,3 +5498,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 真实 batch8 原件否定“预算不足后空等”：1800 秒 batch、900 秒 reserve，延期仍余867秒；真正尾段是发布后多轮重规划，已有立即 End／新 batch 不重复实现。随后2并行源审全200/stop/DONE/合法JSON，峰2持续42.898707秒，290973输入／1454输出、TTFT36.390／37.476秒，0length／transport／retry。调用图中 READ 已发布仍委托 downstream 的误述纠正；减少重复发布补丁反新增调用且返回接口类型错，整拒不编。0代码／优化采用，不混当前P0或授Runtime、SAVE、确定提速。
 
 [成本与逐项拒收](evidence/2026-11-12-ck3-publication-refresh-two-source-http.md)。
+
+
+## 2026-11-12：644—646与124已有投入续建
+
+644/645/646各单HTTP stop/DONE/VALID，19389/11223/11379tokens，16663.9989/9377.9814/5427.7066ms，真实峰1。644猜Tech／GetCurrentPower／MembersNext且未知false0，两隔离反例拒；Owner5合同、十九Native阶段0错证四新能源科技均未拥有且不可直接研究，6己方建造者。645重用已否资格的未建0／静态1当未来费，策略拒，仅方法清单方向采用；无新预测器。646纯评分helper部分采用，猜消费者／静态成本／92胜93矛盾拒。原生123／263工厂73/165合法却被项目92压制，124有限未完工投入93、真实队列成本及原许可保留；8新方法，全1782项1781pass1SDKskip、95Lua51/117包，精确旧123 Controller3失败0错，124实机待冷验。累计646/602完整41length3transport676HTTP30extra、OpenCode原生0、未知成本null。[固定反链及Owner修正](evidence/2026-11-12-civ6-model644646-resume124.json)。

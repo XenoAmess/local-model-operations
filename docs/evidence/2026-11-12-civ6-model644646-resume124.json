@@ -1,0 +1,172 @@
+{
+  "machine_id": "BF-202609141645",
+  "models": {
+    "644": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 17247,
+        "completion_tokens": 2142,
+        "total_tokens": 19389
+      },
+      "total_ms": 16663.99889998138,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      }
+    },
+    "645": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 10185,
+        "completion_tokens": 1038,
+        "total_tokens": 11223
+      },
+      "total_ms": 9377.981400000863,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      }
+    },
+    "646": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 10831,
+        "completion_tokens": 548,
+        "total_tokens": 11379
+      },
+      "total_ms": 5427.706600050442,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      }
+    }
+  },
+  "adoption": {
+    "644": {
+      "raw_code_adopted": false,
+      "unknown_context_misreported_false_and_zero": true,
+      "invented_GameInfo_Tech_unprotected_error": "[string \"<python>\"]:22: attempt to index field 'Tech' (a nil value)\nstack traceback:\n\t[string \"<python>\"]:22: in function <[string \"<python>\"]:1>",
+      "other_rejections": [
+        "Global Players/GameInfo ignored supplied E, guessed E.player and BaiqiPolicy.Context",
+        "UnitPlot and Safe are inaccessible private closures, wrong Safe signature",
+        "Members iterator treated as object with Next",
+        "GetCurrentPower invented; actual supplied getter GetFreePower",
+        "Tech prerequisite HasTech not implemented; owner source omitted Admin tech consumer and will supply it next time",
+        "No final turn/owner/xy check and per-city256 instead of total cap",
+        "No pcall for most reads, dense ipairs on native result unsupported"
+      ],
+      "raw_native_executions": 0
+    },
+    "644_owner_contract_groups": 5,
+    "645": {
+      "policy_rejected": true,
+      "inventory_direction_partly_adopted": true,
+      "reason": "Recommends using known unbuilt0 or fallback static1 as forecast, contradicting supplied disqualification. Net3 minimum2 would accept0/1; hypothetical actual7 gives net-4. This arithmetic is a counterexample, not a measured future cost.",
+      "raw_native_code": false
+    },
+    "646": {
+      "pure_score_helper_partly_adopted": true,
+      "owner_actual_queue_consumer_added": true,
+      "raw_integration_rejected": [
+        "Guesses Buildings:GetProgress or nonexistent helper despite supplied queue APIs",
+        "Uses static row.Cost instead of actual queue165",
+        "Test5 contradictory 92-over93 tie suggestion rejected"
+      ],
+      "raw_model_code_game_executions": 0
+    }
+  },
+  "owner_corrections": [
+    "642643 publisher syntax missing dict value fixed before mutation/commit; not a model transport error",
+    "644 final-row fixture incorrectly assumed19 after turn drift; dependent definitions stop, corrected to actual last row",
+    "124 first low-budget fixture used maintenance0; changed to actual positive1 before expecting rejection",
+    "First263 view attempt rejected old private turn bound and uppercase city before any input; corrected separate own-city view succeeded"
+  ],
+  "maintenance": {
+    "daily_date": "2026-11-12",
+    "OpenCode_installed_registry": "1.19.5",
+    "same_machine_user_success_cache_reused": true,
+    "upgrade_this_window": false,
+    "OpenCode_native_generation": 0
+  },
+  "cumulative": {
+    "logical_calls": 646,
+    "complete": 602,
+    "length_failures": 41,
+    "transport_failures": 3,
+    "HTTP_attempts": 676,
+    "additional_attempts": 30,
+    "actual_initial_inflight": 1,
+    "these_three_POST_peak": 1,
+    "OpenCode_native_generation": 0,
+    "cached_prompt_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "still_open": [
+    "124 formal install/cold native invested Factory selection and completion",
+    "Dynamic future maintenance and tight-budget guarantee",
+    "Renewable unlock and permanent power, including zero-investment building starvation",
+    "Reload gross income difference",
+    "Older population-loss attribution and unknown-action recovery and full matrix"
+  ],
+  "schema": "local-model-operations.civ6-model644646-resume124/v1",
+  "utc": "2026-11-11T22:47:27.137419+00:00",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/badaf230b807d5d7a8ad6f8aa92f77b93cfb2e4c/docs/research/baiqi-p6-source124-resume-and-model644646-2026-11-12.json",
+    "sha256": "a8679e1dec53436aa1fbbca838d2264bccad0d31ec295822f2ecb75aa7d1f493",
+    "bytes_scope": "git_blob",
+    "working_copy_sha256": "4b2db0ca4b42bc63bded84950aa70fa81780c2a18b3bb8060f4435cc08102000"
+  },
+  "software": {
+    "full_summary": "Ran 1782 tests in 141.102s",
+    "passed": 1781,
+    "SDK_skip": 1,
+    "new_methods": 8,
+    "Lua51_compiled": 95,
+    "package_files": 117,
+    "old123_failing_assertions": [
+      "test_final_native_permission_loss_stops_building_writer (test_baiqi_resume_production.ResumeProductionTests.test_final_native_permission_loss_stops_building_writer)",
+      "test_native_queue_cost_and_investment_beat_repeating_project (test_baiqi_resume_production.ResumeProductionTests.test_native_queue_cost_and_investment_beat_repeating_project)",
+      "test_unknown_writer_is_not_replayed_after_turn_change (test_baiqi_resume_production.ResumeProductionTests.test_unknown_writer_is_not_replayed_after_turn_change)"
+    ],
+    "old123_errors": []
+  },
+  "native_before_fix": {
+    "version": 123,
+    "turn": 263,
+    "Shanghai_IndustrialZone_repaired_Workshop_built": true,
+    "Factory73_165_both_native_modes_true_but_project_active": true,
+    "all_four_renewable_unlock_techs_HasTech_false_CanResearch_false": true
+  },
+  "generic_lessons": [
+    "A repeatable high-priority fallback can indefinitely displace already invested legal work; qualify the actual saved progress and native legality before changing ranking.",
+    "Use actual queue costs rather than static metadata; separate pure helper adoption from rejected guessed integration APIs.",
+    "False/zero defaults do not preserve unavailable state, and iterator methods cannot be invented from collection names.",
+    "Known unbuilt0 cannot forecast future maintenance; repeating an already disqualified getter is not a new qualification.",
+    "A failed fixture expectation for a zero-maintenance row is owner setup cost, not a product budget failure."
+  ],
+  "new_native124_effect_passed": false,
+  "OpenCode_native_generation": 0,
+  "unknown_cost_and_savings": null
+}
