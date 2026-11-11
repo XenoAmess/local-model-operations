@@ -5398,3 +5398,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：630 Native 清理条目与回执
 
 单HTTP200/stop/DONE/VALID，2439+1263=3702tokens、9082.852ms。原helper错接pcall多返回，合格隔离夹具实返nil,nil；原回执先限定size2，size1分支不可达，双项也未守旧生产，原片段拒用，只部分采用元数据和反例方向。118真实独立6军队SKIP／1普通END证明Native PREPEND仅留下新Sewer一项、厂73/165仍存，118回执卡住；119负责人修订4新方法，全1719项1718pass1SDKskip、93Lua51／115包，待119实机。首轮稀疏夹具错误归owner。累计630逻辑／588完整／39length／3transport／660HTTP／30extra；初始实际在途1，0OpenCode原生，成本收益null。[固定业务证据](evidence/2026-11-12-civ6-model630-native-pruned-receipt.json)。
+
+
+## 2026-11-12：Life STATUS_ONLY 与独立只读窗口两项审阅
+
+新日实际OpenCode检查成功1.19.5，shared main同步2afe89d且配置不变。2完整并行HTTP均200/stop/DONE/合法JSON，峰2持续34.396404秒；248430输入／1046输出，TTFT32.157／28.242秒，0length／transport／retry。装配审空finding；恢复审无bug但误读scope帧路径及旧UNKNOWN后的父子顺序，已逐源纠正。0模型代码／新缺陷采用；后到frame-budget结果与CLI03不倒填，0本岗JVM/live/账本。不同prompt TTFT不作性能对比，无积压不凑定额。
+
+[完整成本与版本分层](evidence/2026-11-12-ck3-life-status-and-readwindow-two-http.md)。
