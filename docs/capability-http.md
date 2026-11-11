@@ -5325,3 +5325,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 6真实HTTP全部200/stop/DONE/合法JSON，峰6持续25.568634秒，TTFT8.799–20.773秒；217506输入／2335输出，0length／transport／retry。首个真实波次全用当前03，01／02只准备未POST；caption由owner自审，不授模型信用。六项无具体finding，仍纠正Top+21、2304展开式和资源memory逐行／physical setup-final边界。0模型代码采用／本岗JVM或live，不把source协议当actualCode／测量，Native不等模型。
 
 [完整成本与分级](evidence/2026-11-11-ck3-p225-source03-six-http-reviews.md)。
+
+
+## 2026-11-11：明确授权后的冻结 P0 诊断
+
+4真实并行HTTP全部200/stop/DONE/合法JSON，峰4持续35.702361秒，TTFT5.056–25.376秒；199996输入／4691输出，0length／transport／retry。仅指定源码和冻结副本，0live／账本动作。0已证首字段／模型修复采用：范围排除仅辅助，数值大小比较错、完整解码委托误读、自授HIGH诊断均拒；reservation与Run.child不同，不削弱原完整回执校验。首输入缺record/reducer声明已报告，后到源码不追授读过，不重投同包；真实恢复与许可保持唯一owner边界。
+
+[完整成本与误报分级](evidence/2026-11-11-ck3-authorized-frozen-p0-http-diagnosis.md)。
