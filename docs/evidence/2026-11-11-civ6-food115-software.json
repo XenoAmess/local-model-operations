@@ -1,0 +1,107 @@
+{
+  "schema": "local-model-operations.civ6-food115-trade-ranking/v1",
+  "utc": "2026-11-11T00:15:25.835818+00:00",
+  "date_local": "2026-11-11",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "food115-software": {
+      "url": "https://github.com/XenoAmess/civ6_dev/blob/907292b6856efe3e28368424cde915244fc458f8/docs/research/baiqi-p6-source115-trade-food-software-2026-11-11.json",
+      "sha256": "4638886b1f718a27eb222be1dd26d46c6799e7627e73e32a72c15a37141b09f8"
+    },
+    "food114-prevention-audit212": {
+      "url": "https://github.com/XenoAmess/civ6_dev/blob/447786493736a36f63318abd62a241e67a4e93e6/docs/research/baiqi-p6-source114-prevention-audit212-evidence-2026-11-11.json",
+      "sha256": "5d38f90fd2a6d6ad674b5efb750e07784a1fae39024e41ff1569668342ac0650"
+    }
+  },
+  "models": {
+    "615": {
+      "HTTP": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "usage": {
+        "prompt_tokens": 1685,
+        "completion_tokens": 136,
+        "total_tokens": 1821
+      },
+      "total_ms": 2237.576900050044,
+      "TTFT_ms": 763.0967000732198,
+      "adopted": false,
+      "review": "Restated original path length order, omitting food comparison and required path/modifier components. No adoption."
+    },
+    "616": {
+      "HTTP": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "usage": {
+        "prompt_tokens": 1951,
+        "completion_tokens": 148,
+        "total_tokens": 2099
+      },
+      "total_ms": 2299.047000007704,
+      "TTFT_ms": 897.9210000252351,
+      "adopted": false,
+      "review": "Farm is a future plausible alternative, but no qualified onsite builder and current native order already chooses by index. No builder change or adoption."
+    },
+    "617": {
+      "HTTP": 200,
+      "finish_reason": "stop",
+      "DONE": true,
+      "usage": {
+        "prompt_tokens": 1523,
+        "completion_tokens": 347,
+        "total_tokens": 1870
+      },
+      "total_ms": 2642.578500090167,
+      "TTFT_ms": 504.88260004203767,
+      "adopted": false,
+      "review": "Calls nonexistent Game.GetGrowth instead of origin:GetGrowth; treats missing FOOD slots as zero, fails to validate finite or thrown reads. Owner implemented separate checked score map. No candidate code adopted."
+    }
+  },
+  "cumulative": {
+    "logical": 617,
+    "complete": 575,
+    "length": 39,
+    "transport": 3,
+    "HTTP": 647,
+    "extra": 30,
+    "OpenCode_native": 0,
+    "cached": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "new_OpenCode_native_generation": 0,
+  "owner_verified": {
+    "native114_food_audit": {
+      "worked_positive_donor_plots_not_taken": true,
+      "recommended_improvement_resolved_hash": "IMPROVEMENT_GREAT_WALL",
+      "trade_9_of_9": true,
+      "onsite_farm_qualification": null,
+      "route_remaining_turns": null
+    },
+    "source115_software": {
+      "full_tests": {
+        "total": 1690,
+        "pass": 1689,
+        "SDK_skip": 1,
+        "seconds": 87.297
+      },
+      "same_source_readonly_on_114": {
+        "candidates": 9,
+        "Xian": 5,
+        "Jiaodong": 3,
+        "requests": 0
+      },
+      "actual_115_route_start": null
+    }
+  },
+  "generic_lessons": [
+    "Resolve native recommendation hashes before assigning an improvement type. Terrain and civic metadata do not prove an eligible builder action or yield effect.",
+    "A clock icon can display geometric distance; inspect the actual original consumer and verified component ports before treating it as a schedule.",
+    "Keep estimates local to ranking; native authorization still rereads capacity, endpoint, path and safety. Unknown scores should keep the entire default order; do not invent zero components.",
+    "Validate the source/installer/version consumers separately. Updating the text allowlist but not the numeric allowlist caused 18 static fixture errors; after correcting both, rerun the entire suite."
+  ],
+  "Steam_online_actions": 0,
+  "uploads": 0,
+  "owner_active_seconds": null,
+  "net_savings_seconds": null
+}

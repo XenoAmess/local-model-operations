@@ -1258,3 +1258,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-11：613／614未采用与普通回合诊断
 
 0新OpenCode原生。两个HTTP完整候选均未采用；owner双Realm实际只读记录与测试玩家原版输入独立分账。[固定证据](evidence/2026-11-11-civ6-food114-trade-gap213.json)。
+
+
+### 2026-11-11：615–617普通HTTP与115负责人实现
+
+0新OpenCode原生。三个普通HTTP都完整，但合同偏差未采用；实机只读和负责人软件验证不算模型执行。[固定证据](evidence/2026-11-11-civ6-food115-trade-ranking.json)。
