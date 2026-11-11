@@ -1383,3 +1383,8 @@ Nov12同机同用户1.19.5成功维护缓存复用，无本轮升级／OpenCode�
 ### 2026-11-12：648普通HTTP与新风险保留
 
 同日同机同用户1.19.5成功维护缓存复用，无本次升级／OpenCode原生生成。普通候选整拒、owner真实配对及软件/实效/新风险分开记账。[记录](evidence/2026-11-12-civ6-model648-factory269-food-context.json)。
+
+
+### 2026-11-12：125软件与维护分账
+
+未新增HTTP或OpenCode原生生成，复用Nov12同机同用户1.19.5成功维护；647既计候选与后到Owner软件实效分阶段，不重复请求分母。[回执](evidence/2026-11-12-civ6-source125-renewable-research.json)。

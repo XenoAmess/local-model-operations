@@ -5520,3 +5520,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：648真实跨context读与124工厂269完成
 
 648单HTTP200/stop/DONE/VALID，11646tokens/7103.2044ms。候选同context两次getter伪UI/Core、无owner/turn保护隔离拒。Owner5合同，真实UI/Core/UI48阶段：-1/+1/-1、Core10可选API错误完整保留；风险保存并停下一END。一次重载UI+1/Core+1、市场4→6及flags变化，不授原因或修复；收入／住房未知变化亦保留。独立工厂267续73→268130→269完成／重载保持，22事件0错丢3钩全撤，6普通END42军队SKIP5NPC0人工内政。累计648/604完整41length3transport678HTTP30extra、初始在途1、OpenCode原生0、未知成本null。[固定业务证据](evidence/2026-11-12-civ6-model648-factory269-food-context.json)。
+
+
+## 2026-11-12：125新能源策略软件交付（无新HTTP）
+
+沿647候选整拒后Owner真实城市端口实现，持续required>free／三燃料0、实际Prereq及当前合法研究／真实成本，保正进度、防洪优先、原path和pending／最后重读。10新方法通过，旧124同组7失败0错。首全1792项1790pass1SDKskip1Ownerfixture重复扫描计数失败；只修隔离fixture后10方法过，产品不变，1791通过证据／1SDKskip，不冒称第二次全绿。95Lua51/117包；125正式实效待冷验。无新HTTP，不重计647；累计648/604完整41length3transport678HTTP30extra，OpenCode原生0、未知成本null。[固定Git blob反链](evidence/2026-11-12-civ6-source125-renewable-research.json)。
