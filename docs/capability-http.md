@@ -5515,3 +5515,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 2真实P0源审全200/stop/DONE/合法JSON，峰2持续30.993975秒；228810输入／1627输出，TTFT约28.930秒，0length／transport／retry。Source17的“缺material”与放宽sourceequals两建议拒收；capture有保留不冒充旧CAS已实查，缺ActionCommand/G2Source声明公平记输入限界，owner后读不倒填。Source16空finding，误把parent486称gen14已纠为20；后到487/488与独立cancel20成功单列、0模型信用。0代码／修复采用，不重投／不改旧期限，普通Life根因另续。
 
 [成本与来源边界](evidence/2026-11-12-ck3-prior-life17-and-cancel20-two-source-http.md)。
+
+
+## 2026-11-12：648真实跨context读与124工厂269完成
+
+648单HTTP200/stop/DONE/VALID，11646tokens/7103.2044ms。候选同context两次getter伪UI/Core、无owner/turn保护隔离拒。Owner5合同，真实UI/Core/UI48阶段：-1/+1/-1、Core10可选API错误完整保留；风险保存并停下一END。一次重载UI+1/Core+1、市场4→6及flags变化，不授原因或修复；收入／住房未知变化亦保留。独立工厂267续73→268130→269完成／重载保持，22事件0错丢3钩全撤，6普通END42军队SKIP5NPC0人工内政。累计648/604完整41length3transport678HTTP30extra、初始在途1、OpenCode原生0、未知成本null。[固定业务证据](evidence/2026-11-12-civ6-model648-factory269-food-context.json)。
