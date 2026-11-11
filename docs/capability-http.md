@@ -5318,3 +5318,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 3真实并行HTTP全部200/stop/DONE/合法JSON，峰3持续20.864114秒，TTFT10.757–15.655秒；124518输入／2249输出，0length／transport／retry。完整原源、whole Test、32向量覆盖语义／覆盖／调用路径与分配机制。三个source支持标签无具体finding；模型错写vector13–16，原件为19–22，非测试coverage缺口。fullscan限定不扩成一般定理，物理分配和Runtime频率未知。Java原作独立推进，0模型代码采用／候选重投／本岗JVM或live。
 
 [成本与来源分级](evidence/2026-11-11-ck3-p224-owner-scan-http-source-review.md)。
+
+
+## 2026-11-11：P225 Source03 六义务并行审
+
+6真实HTTP全部200/stop/DONE/合法JSON，峰6持续25.568634秒，TTFT8.799–20.773秒；217506输入／2335输出，0length／transport／retry。首个真实波次全用当前03，01／02只准备未POST；caption由owner自审，不授模型信用。六项无具体finding，仍纠正Top+21、2304展开式和资源memory逐行／physical setup-final边界。0模型代码采用／本岗JVM或live，不把source协议当actualCode／测量，Native不等模型。
+
+[完整成本与分级](evidence/2026-11-11-ck3-p225-source03-six-http-reviews.md)。
