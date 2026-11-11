@@ -1,0 +1,226 @@
+{
+  "schema": "local-model-operations.life-new-witness-event495-three-http/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "shared_head_at_dispatch": "fbb73a6e237c98a970e373bc27fa8ba88947eecd",
+  "scope": "Two authorized new Life design duties with expanded actual declarations; review of already owner-authored actual Event495 Source20. Not the previous existing-API BOUNDED_NO or separate DTO21 repair.",
+  "maintenance": {
+    "same_day_1_19_5_success_cache_reused": true,
+    "policy_caller_and_configuration_hashes_unchanged": true,
+    "active_service_or_consumer_configuration_changed": false
+  },
+  "concurrency": {
+    "definition": "POST_BEGIN through ATTEMPT_END",
+    "peak": 3,
+    "peak_continuous_seconds": 96.564502,
+    "first_begin_utc": "2026-11-11T23:29:36.992103+00:00",
+    "last_end_utc": "2026-11-11T23:31:19.216468+00:00",
+    "wave_wall_seconds": 102.224365,
+    "current_after_end": 0
+  },
+  "cost": {
+    "HTTP_attempts": 3,
+    "complete_stop": 3,
+    "length": 0,
+    "transport_failure": 0,
+    "retry": 0,
+    "prompt_tokens": 623354,
+    "completion_tokens": 6452,
+    "sum_attempt_total_ms": 299444.2674999591,
+    "financial_cost": null,
+    "preparation_seconds": null
+  },
+  "tasks": [
+    {
+      "task": "life-new-afterack-provenance-design-http",
+      "post_begin_utc": "2026-11-11T23:29:36.992103+00:00",
+      "end_utc": "2026-11-11T23:31:19.216468+00:00",
+      "prefix": {
+        "bytes": 1004864,
+        "sha256": "d989c6b7363004005cdbbe4b95a07fe9597e5ba4bf3f7fceb0768481fe0edab8"
+      },
+      "input_files": 38,
+      "request_audit": {
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "max_tokens": 6000
+      },
+      "messages": 3,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "http_headers_ms": 80167.3869000515,
+      "first_nonempty_content_delta_ms": 80168.34680002648,
+      "total_ms": 102224.25209998619,
+      "prompt_tokens": 230227,
+      "completion_tokens": 2562,
+      "cached_prompt_tokens": null,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_review": {
+        "grade": "REJECTED_SOURCE_CANDIDATE",
+        "adopted_code": false,
+        "reasons": [
+          "The proposal constructs a new ObservedFrame from ExactRef byte-count metadata and then calls AcceptedSnapshotRevision.requireOriginal on the reconstructed object. The supplied actual token checks object identity with its retained original occurrence; reconstruction cannot satisfy it.",
+          "The proposed ACK decoder manufactures AckReceived with outbound Optional.empty and nonempty custody. The supplied constructor requires retained outbound whenever custody is present.",
+          "The record checks a positive setter and same subject but omits the essential received-event order after the setter response. Reconstructing a token or resampling the current snapshot cannot replace this.",
+          "No working dedicated validator/consumer or archive replay implementation was delivered; DTO/codec helper imports and APIs remain incomplete."
+        ],
+        "input_limits": [
+          "ExactRef, RawJson and ProposalLifecycleCodec were referenced but not supplied as independent whole declarations in this packet. Guessed helper API/type details remain unqualified, separate from the failures demonstrable in the supplied token, ObservedFrame and AckReceived declarations."
+        ],
+        "next": "Java owner first defines the minimal immutable witness and chronology contract; no same-prefix semantic rerun."
+      }
+    },
+    {
+      "task": "life-new-afterack-factory-wiring-design-http",
+      "post_begin_utc": "2026-11-11T23:29:36.992133+00:00",
+      "end_utc": "2026-11-11T23:31:13.556836+00:00",
+      "prefix": {
+        "bytes": 1004864,
+        "sha256": "d989c6b7363004005cdbbe4b95a07fe9597e5ba4bf3f7fceb0768481fe0edab8"
+      },
+      "input_files": 38,
+      "request_audit": {
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "max_tokens": 6000
+      },
+      "messages": 3,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "http_headers_ms": 69419.39029993955,
+      "first_nonempty_content_delta_ms": 69420.61839997768,
+      "total_ms": 96564.69429994468,
+      "prompt_tokens": 230271,
+      "completion_tokens": 1702,
+      "cached_prompt_tokens": null,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_review": {
+        "grade": "REJECTED_SOURCE_CANDIDATE",
+        "adopted_code": false,
+        "reasons": [
+          "ActionCommand.ack() does not exist in the supplied complete record; AcceptedSnapshotRevision.originalPacket() returns PacketIdentity, which has no requestId().",
+          "currentSnapshot plus requireOriginal proves an already accepted occurrence belongs to its token, not that it was received after this setter ACK. The proposed independent read custody is not obtainable from the fabricated packet request ID.",
+          "TimelinePhysicalOnlyConsumer fabricates ProposalFrame identity with BigInteger.ZERO values, violating the required actual identity/provenance boundary.",
+          "Neither warm Factory call site 729 nor755 was actually wired, and no complete successful withReceivedSnapshot/withFrozenRawObservation producer path was implemented.",
+          "The proposed read-frame time ordering is not the existing READ chronology and is not a substantiated new contract."
+        ],
+        "valid_APIs_not_misclassified": [
+          "RootRuntimeContext.transport() exists.",
+          "NativeGameTransport.originalRequestChronology(String) exists."
+        ],
+        "next": "No compile, application or source rewrite; coordinate a real narrow method contract before any different follow-up."
+      }
+    },
+    {
+      "task": "event495-source20-afterproducer-review-http",
+      "post_begin_utc": "2026-11-11T23:29:36.992334+00:00",
+      "end_utc": "2026-11-11T23:31:17.647671+00:00",
+      "prefix": {
+        "bytes": 748760,
+        "sha256": "c5b86139d594972897fcb75bf5bd11a96e7658c219bbf0e1bb2921b489859827"
+      },
+      "input_files": 33,
+      "request_audit": {
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        },
+        "max_tokens": 4500
+      },
+      "messages": 3,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "http_headers_ms": 48093.258999986574,
+      "first_nonempty_content_delta_ms": 48094.44590006024,
+      "total_ms": 100655.32110002823,
+      "prompt_tokens": 162856,
+      "completion_tokens": 2188,
+      "cached_prompt_tokens": null,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_review": {
+        "grade": "NO_ACTIONABLE_SOURCE_FINDING",
+        "adopted_code": false,
+        "adopted_repair": false,
+        "reasons": [
+          "Finding1 confuses an installed ActualAfterPort callback with an active private event scope. Empty explicitly means no applicable private scope; an active source failure throws. Unconditionally throwing on empty would disable ordinary fallback and was rejected.",
+          "Other entries explicitly withdraw their own defect claims or propose no correction. Existing caller propagation/catches preserve interruption and observation failure behavior.",
+          "The statement that the time guard is generally redundant is overbroad: readFamilySend requires reconciliation and bypasses the new ordinary loop. Its cached-family exception must remain.",
+          "Stale-to-later and bound-failure regression scenarios overlap the owner tests already being prepared; they do not earn new implementation or testing credit."
+        ],
+        "incident_limits": "Frozen495 had a positive ACK and publication-time rejection but did not expose its after frame/time or actual private ThreadLocal state. The ordinary stale fallback is source-reachable, not a uniquely proven incident path.",
+        "owner_origin": "Source20 full candidate and three-hunk patch were already Java owner work before this request. Source21 DTO missing-OR repair and Runtime restoration are independent owner work.",
+        "next": "No source changes or extra validation wave; retain the complete response and owner corrections."
+      }
+    }
+  ],
+  "qualification": {
+    "model_code_adopted": 0,
+    "model_repairs_adopted": 0,
+    "new_JVM": 0,
+    "operator_new_tests": 0,
+    "Game_or_Native_queries": 0,
+    "Runtime_admission": false,
+    "saved_day_credit": false,
+    "owner_Source20_and_Source21_work": "Independent owner work, not attributed to these reviews",
+    "loaded_Native_and_runtime_path": "Not granted by source review"
+  },
+  "measurement_limits": [
+    "Actual input/output and all raw responses retained privately; no incomplete output was read as a candidate.",
+    "Different prompt/operating windows cannot prove concurrency or latency improvement.",
+    "Cached token count unreported; do not infer cache, service queueing or contention cause from TTFT.",
+    "Source-specific rejections do not establish a permanent overall model capability ceiling.",
+    "No third same-prefix semantic validation run."
+  ]
+}

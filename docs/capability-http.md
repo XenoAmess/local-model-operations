@@ -5532,3 +5532,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 One complete stop request: 32.0237 s total / 26.7338 s content TTFT, 207629 input / 797 output, peak1, no retry. Existing READ/Driver limitations were useful; BOUNDED_NO based on absent consumers or loaded lineage did not answer the authorized new narrow witness design. No code or repair adopted. Operator collection delay is separate from actual HTTP duration; no Runtime or saved-day credit.
 
 [Cost and owner grading](evidence/2026-11-12-ck3-future-life-afterack-source-no.md).
+
+
+## 2026-11-12: New Life witness designs and actual Event495 Source20
+
+Three complete stop requests, peak3 sustained96.564502s; 623354 input / 6452 output, TTFT80.1683/69.4206/48.0944s, no retry or truncation. Both new Life code candidates rejected for actual occurrence/ACK custody violations, absent APIs and fabricated identity; Source20 review supplied no actionable defect and confused installed callback with active private scope. Owner code, DTO21 repair and recovery remain independent. Zero model code/fix adoption; no Runtime or saved-day credit.
+
+[Exact cost, source limits and per-response grading](evidence/2026-11-12-ck3-life-new-witness-and-event495-source20-three-http.md).
