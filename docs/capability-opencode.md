@@ -1303,3 +1303,8 @@ OpenCode与registry实际1.19.5、未升级；当天首次检查成功后625命�
 ### 2026-11-12：630 普通 HTTP；维护缓存复用
 
 同机当日1.19.5维护缓存复用，没有新增OpenCode原生生成或工具循环。Lua多返回候选失败、Owner软件与118真实复现分别计，见[记录](evidence/2026-11-12-civ6-model630-native-pruned-receipt.json)。
+
+
+### 2026-11-12：119 Native 实效不是 OpenCode 原生生成
+
+119通过实际生产接续、食品市场建成及完成态存读档；这是负责人审阅编测后的游戏证据，没有新增HTTP或OpenCode原生生成。见[实效分账](evidence/2026-11-12-civ6-source119-native-food-and-recovery.json)。

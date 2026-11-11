@@ -5405,3 +5405,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 新日实际OpenCode检查成功1.19.5，shared main同步2afe89d且配置不变。2完整并行HTTP均200/stop/DONE/合法JSON，峰2持续34.396404秒；248430输入／1046输出，TTFT32.157／28.242秒，0length／transport／retry。装配审空finding；恢复审无bug但误读scope帧路径及旧UNKNOWN后的父子顺序，已逐源纠正。0模型代码／新缺陷采用；后到frame-budget结果与CLI03不倒填，0本岗JVM/live/账本。不同prompt TTFT不作性能对比，无积压不凑定额。
 
 [完整成本与版本分层](evidence/2026-11-12-ck3-life-status-and-readwindow-two-http.md)。
+
+
+## 2026-11-12：119 后续实机，未新增 HTTP
+
+622/626/629/630后续：独立236→243七实际回合，9普通END／44玩家军队SKIP／0人工内政，118删条目回执失败由119关闭；Sewer239完成并接CommercialHub至132/143，旧厂73生产保持。食品市场240实际+4、243通电+6，长沙自然4人／净9；总粮含地块与人口变化，分别归因。36事件／16配对无错丢，3订阅+2绑定撤；完成态重载11城／145建筑／63区域／198可见自有格／51单位及food/vitals全同。原主237保留，不把独立复现叠加计主线。无新增HTTP、OpenCode原生0，成本收益null。[固定业务证据](evidence/2026-11-12-civ6-source119-native-food-and-recovery.json)。
