@@ -5388,3 +5388,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 单HTTP200/stop/DONE/VALID，5206+202=5408tokens，2279.384ms。有限比较方向部分采用；人口0反例及缺类型限定／最终门使原helper和集成拒用，负责人重写。8新方法、旧116三失败断言、完整1706项1705pass1官方SDKskip，93Lua51／115包；源码117未装，实机116继续原食品市场链。复用当日维护，累计626逻辑／584完整／39length／3transport／656HTTP／30extra；0OpenCode原生，成本收益null。[固定业务证据](evidence/2026-11-12-civ6-model626-housing-demand.json)。
 
 622的后续实机证据新增：116在228长沙net0/stock0.6836、原生食品市场合法后，实际94分选中并由后台开工，尚未证明建成。该软件之后的实效不计新增HTTP调用，见[业务记录](https://github.com/XenoAmess/civ6_dev/blob/fa1c1fc0f532bf221e6a81a99521ee2222774f25/docs/testing/baiqi-food-market-start228-116.md)。
+
+
+## 2026-11-12：627–629、实际收益与受阻队列
+
+三次均单HTTP200/stop/DONE/VALID：627为4259+393tokens/3823.497ms，628为2358+389/3233.946ms，629为6327+874/6573.964ms。627无效分支判据拒用；628只部分采用实际建筑收益接口；629只部分采用受损前置区域和PREPEND方向，保护、未完证据、原签名重检及两条目回执由owner重写。118软件1715项1714pass1SDKskip、93Lua51／115包，旧117最终同组5失败。首轮2失败1错误归owner夹具。源118未装，原116实际洪灾阻塞237已保存；只读预验不授写入实效。普通HTTP累计629逻辑／587完整／39length／3transport／659HTTP／30extra，初始实际在途各1；原生OpenCode0、成本收益null。[固定业务证据](evidence/2026-11-12-civ6-model627-629-blocked-production.json)。
