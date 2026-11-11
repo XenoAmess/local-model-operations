@@ -1,0 +1,170 @@
+{
+  "machine_id": "BF-202609141645",
+  "models": {
+    "635": {
+      "http_status": 200,
+      "finish_reason": "length",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 18696,
+        "completion_tokens": 4200,
+        "total_tokens": 22896
+      },
+      "total_ms": 26286.620400031097,
+      "json_syntax": {
+        "status": "UNKNOWN",
+        "top_level_type": "UNKNOWN",
+        "reason": "NON_STOP_FINISH",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "candidate_complete": false
+    },
+    "636": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 1977,
+        "completion_tokens": 1073,
+        "total_tokens": 3050
+      },
+      "total_ms": 7209.255800000392,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "candidate_complete": true
+    }
+  },
+  "adoption": {
+    "635": "length candidate not read, parsed, spliced or adopted; source/task too broad for output budget",
+    "636_raw_code_adopted": false,
+    "636_counterexample": {
+      "candidate_complete": true,
+      "raw_code_adopted": false,
+      "isolated_failure": "[string \"<python>\"]:7: attempt to index local 'c' (a boolean value)\nstack traceback:\n\t[string \"<python>\"]:7: in function <[string \"<python>\"]:2>",
+      "other_review": [
+        "local module is not exposed as the requested include global",
+        "pcall values repeatedly treated as tuple tables",
+        "Members iterator incorrectly consumed using ipairs",
+        "ordinary lowland=-1 becomes unknown; unknown completion/pillage not preserved",
+        "metadata hash/prerequisite and plot coordinate checks absent",
+        "early false paths omit final identity/turn read"
+      ],
+      "native_execution": false
+    },
+    "owner_rewrite": true,
+    "direction_only": "share known native demand with normal research and production writers"
+  },
+  "maintenance": {
+    "daily_date": "2026-11-12",
+    "OpenCode_installed_registry": "1.19.5",
+    "same_machine_user_success_cache_reused": true,
+    "upgrade_this_call": false,
+    "OpenCode_native_generation": 0
+  },
+  "cumulative": {
+    "logical_calls": 636,
+    "complete": 593,
+    "length_failures": 40,
+    "transport_failures": 3,
+    "HTTP_attempts": 666,
+    "additional_attempts": 30,
+    "actual_initial_inflight": 1,
+    "OpenCode_native_generation": 0,
+    "cached_prompt_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "implementation": {
+    "native_visible_own_complete_pillaged_coastal_district_only": true,
+    "lowland_integer_range": [
+      0,
+      2
+    ],
+    "flooded_explicit_true_submerged_explicit_false": true,
+    "barrier_known_absent_or_pillaged": true,
+    "unknown_returns_nil": true,
+    "district_scan_bound": 64,
+    "research_city_scan_bound": 256,
+    "emergency_research_only_idle_or_current_progress_exact_zero": true,
+    "existing_positive_progress_preserved": true,
+    "native_prerequisite_definition_used": true,
+    "research_pending_before_dispatch_no_cross_turn_replay": true,
+    "observed_research_target_or_owned_tech_required": true,
+    "barrier_score": 96,
+    "power_score": 92,
+    "existing_active_production_preserved": true,
+    "two_native_CanProduce_and_CanStartOperation_required": true,
+    "fresh_final_demand_turn_owner_queue_idle_legality_gates": true,
+    "free_tech_buildings_resources_terrain_writes": 0
+  },
+  "native_readonly_preview": {
+    "runtime": 120,
+    "turn": 253,
+    "own_cities": 11,
+    "demand_city_ids": [
+      262147,
+      655369
+    ],
+    "research": {
+      "current": "TECH_ADVANCED_FLIGHT",
+      "current_index": 50,
+      "current_progress": 0,
+      "current_cost": 592,
+      "target": "TECH_COMPUTERS",
+      "target_index": 55,
+      "target_hash": 1442511705,
+      "target_progress": 330,
+      "target_cost": 664,
+      "owned": false,
+      "can_research": true
+    },
+    "game_orders": 0,
+    "function_replacements": 0,
+    "globals_written": 0,
+    "no_native_research_selection_build_or_drain_pass": true
+  },
+  "limitations": [
+    "121 installation/cold load and actual research selection pending",
+    "Actual technology completion, native barrier dispatch, construction and drainage pending",
+    "Active queues are preserved; near sea rise may precede rescue",
+    "Only current known damaged but not submerged districts trigger this emergency; broad preventative coastal policy remains outside this change",
+    "Long-term electricity and full acceptance matrix remain open"
+  ],
+  "schema": "local-model-operations.civ6-model635636-coastal-response/v1",
+  "utc": "2026-11-11T20:57:44.285904+00:00",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/c8bfd662b361f7370398f850dc2e77341043a1b1/docs/research/baiqi-p6-source121-coastal-response-software-2026-11-12.json",
+    "sha256": "8894057a3969a2a958950c58ee56f865896eb4a67b177e4a27a6eac94390cede",
+    "bytes_scope": "git_blob",
+    "working_copy_sha256": "fcba3a8482a5daed089af5f85d806b662005c9a5f90bcc9f6d97e2803bf5ee73"
+  },
+  "tests": {
+    "targeted_methods": 22,
+    "full_total": 1753,
+    "passed": 1752,
+    "official_SDK_skipped": 1,
+    "old120_failing_assertions_including_subtests": 11,
+    "Lua51_compiled": 94,
+    "package_files": 116,
+    "full_summary": "Ran 1753 tests in 128.470s"
+  },
+  "generic_lessons": [
+    "Budget one complete narrow module before requesting multi-writer integration; preserve length raw output unread and unadopted.",
+    "pcall returns a Boolean followed by values, not a tuple table. City Members returns key then object and is not an ipairs data array.",
+    "Research requests need a pending latch before native dispatch and observed state confirmation; an unknown result across a turn does not permit replay.",
+    "Native exclusion eligibility alone cannot establish that the prerequisite technology is owned.",
+    "A known zero-progress research choice may be replanned without discarding positive-progress research; actual unlock and construction remain separate evidence."
+  ],
+  "OpenCode_native_generation": 0,
+  "unknown_cost_and_savings": null
+}

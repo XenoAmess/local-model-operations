@@ -5456,3 +5456,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：634 海岸低地与防洪资格
 
 单HTTP200/stop/DONE/VALID，7558+1467=9025tokens、11217.9624ms。原稿不满足FindID合同且缺身份视野、区域类型、两种生产资格和分阶段保护；隔离给定合同0目标读取，原代码拒用。Owner6合同后两自有地块40阶段0API错误，Flooded=true/Submerged=false，nil未知保留；屏障无、完整生产false/排除true，所需科技尚无但可研究。仅只读诊断，不授建设或排水效果。累计634/592完整/39length/3transport/664HTTP/30extra，实际初始在途1，OpenCode原生0，成本未知null。[固定Git blob证据](evidence/2026-11-12-civ6-model634-coastal-flood.json)。
+
+
+## 2026-11-12：635／636 与 121 海岸洪灾应对软件
+
+635完整三入口范围过大，单HTTP200/DONE但length，18696+4200tokens、26286.6204ms，截断未读未解析未采用。缩为helper后636单HTTP200/stop/DONE/VALID，1977+1073、7209.2558ms；pcall布尔索引隔离失败，错误Members及元数据／最后检查，原代码拒用。Owner接真实原生需求与研究pending／0进度切换／合法生产；22新增方法，旧120同组11失败断言，完整1753项1752pass1SDKskip、94Lua51／116包。现运行120253隔离只读11城两true，无命令、全局或订阅，不授121实效。累计636/593完整/40length/3transport/666HTTP/30extra，初始实际在途1，原生OpenCode0，未知成本null。[固定Git blob证据](evidence/2026-11-12-civ6-model635636-coastal-response.json)。

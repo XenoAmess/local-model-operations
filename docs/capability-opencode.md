@@ -1333,3 +1333,8 @@ OpenCode与registry实际1.19.5、未升级；当天首次检查成功后625命�
 ### 2026-11-12：634 洪灾诊断
 
 同机同用户1.19.5每日维护成功缓存复用；本次普通HTTP，无升级、无OpenCode原生工具生成。两城原生只读资格与实际未来建设效果分开。[记录](evidence/2026-11-12-civ6-model634-coastal-flood.json)。
+
+
+### 2026-11-12：635／636 与 121 软件
+
+同机同用户当日1.19.5维护成功缓存复用，两个普通HTTP任务，无升级及OpenCode原生生成。length与完整候选拒用、Owner软件／Native效果分开。[记录](evidence/2026-11-12-civ6-model635636-coastal-response.json)。
