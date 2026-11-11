@@ -5508,3 +5508,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：647新能源研究候选与124冷载
 
 647单HTTP200/stop/DONE/VALID，18590tokens/9288.8419ms、初始在途1。完整现行Admin与city电力消费者已给，仍发明player:GetPower，隔离抛错；缺pcall／有界own城／最后重验，原Research后第二发及Hash替path建议拒，0源码采用／rawNative。Owner复用644工具19阶段0错证264卫星可研究；124主快照冷载相同但邢州粮1→3及项目供电flag变动未知，不授全状态同一。累计647/603完整41length3transport677HTTP30extra、OpenCode原生0、未知成本null。[固定Git blob证据](evidence/2026-11-12-civ6-model647-renewable-cold124.json)。
+
+
+## 2026-11-12：Prior-Life17／cancel20 两项新源审
+
+2真实P0源审全200/stop/DONE/合法JSON，峰2持续30.993975秒；228810输入／1627输出，TTFT约28.930秒，0length／transport／retry。Source17的“缺material”与放宽sourceequals两建议拒收；capture有保留不冒充旧CAS已实查，缺ActionCommand/G2Source声明公平记输入限界，owner后读不倒填。Source16空finding，误把parent486称gen14已纠为20；后到487/488与独立cancel20成功单列、0模型信用。0代码／修复采用，不重投／不改旧期限，普通Life根因另续。
+
+[成本与来源边界](evidence/2026-11-12-ck3-prior-life17-and-cancel20-two-source-http.md)。
