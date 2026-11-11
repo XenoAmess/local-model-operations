@@ -1288,3 +1288,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-12：当日维护通过，625仍为普通HTTP
 
 OpenCode与registry实际1.19.5、未升级；当天首次检查成功后625命中维护缓存。未新增OpenCode原生生成或工具循环证据。Core／UI复现实验与候选传输分账，见[本次记录](evidence/2026-11-12-civ6-model625-population-traces.json)。
+
+
+### 2026-11-12：626 为普通 HTTP，原生生成仍为零
+
+626 复用同机当日1.19.5成功维护缓存；没有 OpenCode 原生生成或工具调用链证据。纯函数候选与软件、实机状态分开见[记录](evidence/2026-11-12-civ6-model626-housing-demand.json)。

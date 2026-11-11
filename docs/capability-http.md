@@ -5381,3 +5381,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 625单HTTP200/stop/DONE/VALID，2304+104=2408tokens、1311.097ms。只采用Core读数方向，缺当前覆盖就排除因果的建议拒用。Owner三独立分支5END/20军队SKIP/3原版Bye，229末快照行无错丢，25订阅全撤；UI/Core回调turn和状态并不原子。原版完整消费者补读后查到风暴26历史PopLost4／损10格，武汉实际只少1，逐城归因未闭，不授food修复。准备期遗漏真实namespace、夹具类型及过期原图均归owner。Nov12新维护1.19.5成功无升级，625复用缓存；累计625/583完整/39length/3transport/655HTTP/30extra，0OpenCode原生，未知成本null。
 
 [固定业务证据](evidence/2026-11-12-civ6-model625-population-traces.json)。
+
+
+## 2026-11-12：626 新社区住房需求
+
+单HTTP200/stop/DONE/VALID，5206+202=5408tokens，2279.384ms。有限比较方向部分采用；人口0反例及缺类型限定／最终门使原helper和集成拒用，负责人重写。8新方法、旧116三失败断言、完整1706项1705pass1官方SDKskip，93Lua51／115包；源码117未装，实机116继续原食品市场链。复用当日维护，累计626逻辑／584完整／39length／3transport／656HTTP／30extra；0OpenCode原生，成本收益null。[固定业务证据](evidence/2026-11-12-civ6-model626-housing-demand.json)。
+
+622的后续实机证据新增：116在228长沙net0/stock0.6836、原生食品市场合法后，实际94分选中并由后台开工，尚未证明建成。该软件之后的实效不计新增HTTP调用，见[业务记录](https://github.com/XenoAmess/civ6_dev/blob/fa1c1fc0f532bf221e6a81a99521ee2222774f25/docs/testing/baiqi-food-market-start228-116.md)。
