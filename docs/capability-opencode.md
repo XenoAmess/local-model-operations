@@ -1263,3 +1263,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-11：615–617普通HTTP与115负责人实现
 
 0新OpenCode原生。三个普通HTTP都完整，但合同偏差未采用；实机只读和负责人软件验证不算模型执行。[固定证据](evidence/2026-11-11-civ6-food115-trade-ranking.json)。
+
+
+### 2026-11-11：618未采用与owner正式115实机
+
+0新OpenCode原生。普通HTTP候选未采用；原版完工、重载及商路未触发分别记录。[固定证据](evidence/2026-11-11-civ6-food115-native-215-216.json)。
