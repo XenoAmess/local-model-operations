@@ -5481,3 +5481,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：123维护费预算软件，复用640诊断
 
 依据已计640真实诊断，Owner允许有限非负维护费、扣除本次及本回合新维护承诺，保留100金币和净2；规则最终重读。默认fixture改实际维护1，20runner方法，精确旧122同组11失败0异常；完整1774项1773pass1SDKskip、95Lua51／117包。新HTTP0，不重复640；累计仍640/596完整/41length/3transport/670HTTP/30extra，初始实际在途1、OpenCode原生0、未知成本null。尚未授123扣款／建筑／排水实效。[固定Git blob证据](evidence/2026-11-12-civ6-source123-maintenance-budget-software.json)。
+
+
+## 2026-11-12：641与123原生付费救援258
+
+123原版Gold两次各135扣270，建筑／排水／上海跨事件存续、胶东社区与市场修复实际粮4净6→10；2普通回合14军队SKIP2NPC点击，保存重载目标状态及现金保留、无重购。WORLD总收入531.8125→538.11328125未知，不授全世界一致。641单HTTP200/stop/DONE/VALID，2855+777=3632tokens、5837.7621ms；Members键／组件hash／pcall错误，隔离拒用。Owner6合同、11城61Native阶段0错；原版Index绑定确认，已建屏障GetBuildingMaintenance仍0，hash也0，不当免费或潜在0。实际动态维护预算仍未通过，不能用宽裕财政的救援掩盖。累计641/597完整/41length/3transport/671HTTP/30extra，实际初始在途1、OpenCode原生0、未知成本null。[固定Git blob证据](evidence/2026-11-12-civ6-model641-native123-paid-rescue.json)。
