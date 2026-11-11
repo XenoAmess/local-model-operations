@@ -5360,3 +5360,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 三个普通HTTP各1次stop/DONE/VALID，2798、9331、5357 tokens；2363.2341、2722.9470、2355.2740ms。619缺精确因果钩子，620逐回合迁城会重发未知结果，621错误声称普通对局未结束，均未采用。Owner撤去1911074外层运行但0目标样本钩子，保存219；食品市场排除模式true但可见模式与科技false。累计621/579完整/39length/3transport/651HTTP/30extra，0OpenCode原生，未知成本null。
 
 [固定业务证据](evidence/2026-11-11-civ6-postvictory219-and-models619-621.json)。
+
+
+## 2026-11-11：622基础产粮评分部分采用
+
+1HTTP200/stop/DONE/VALID，7620+440=8060tokens，4019.4342ms；纯函数部分采用。原集成增长读取逃出pcall，隔离复现；部分坏表与宜居度提示覆盖拒用，owner有界全表重写。8新方法，旧115两失败；首全1698两版本消费者错误，修后全1697pass/1SDKskip，93Lua51/115包。115实机220只读评分市场4粮/94分但可见资格false，不能冒称116生产。累计622/580完整/39length/3transport/652HTTP/30extra；同日1.19.5维护缓存、0OpenCode原生，未知成本null。
+
+[固定业务证据](evidence/2026-11-11-civ6-food-production116-model622.json)。

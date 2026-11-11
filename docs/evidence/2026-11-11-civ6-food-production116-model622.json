@@ -1,0 +1,76 @@
+{
+  "schema": "local-model-operations.civ6-food-production116/v1",
+  "utc": "2026-11-11T15:31:05.173752+00:00",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/ece2736405996937605056e793c66a5e32d27735/docs/research/baiqi-p6-source116-food-production-software-2026-11-11.json",
+    "sha256": "051f8bea9b0572e8b48e80aa22261c9ae5d93c09419914c0b92e556d211cbd1a"
+  },
+  "model622": {
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "usage": {
+      "prompt_tokens": 7620,
+      "completion_tokens": 440,
+      "total_tokens": 8060
+    },
+    "total_ms": 4019.434200017713
+  },
+  "adoption": {
+    "planner_function": "Partially adopted with project style and finite-number contract.",
+    "controller_integration": "Rejected; growth read escapes pcall, partial malformed yield rows accepted, amenity hint bypassed outside the food-stock gate. Owner wrote bounded all-or-nothing helper and composed scores.",
+    "isolated_original_candidate_growth_exception_reproduced": true,
+    "raw_candidate_native_executed": false
+  },
+  "software": {
+    "new_methods": 8,
+    "previous115_failures": 2,
+    "final_total": 1698,
+    "final_pass": 1697,
+    "SDK_environment_skip": 1,
+    "initial_full_version_consumer_errors": 2,
+    "final_seconds": 123.5672069999855
+  },
+  "native": {
+    "source": 116,
+    "runtime": 115,
+    "turn": 220,
+    "cities": 10,
+    "Changsha": {
+      "stock": 0.68359375,
+      "net_food": 0,
+      "food_market_base_food": 4,
+      "food_market_score_from_base40": 94,
+      "native_visible": false,
+      "native_exclusion": true
+    },
+    "orders": 0,
+    "controller116_run": false
+  },
+  "cumulative": {
+    "logical": 622,
+    "complete": 580,
+    "length": 39,
+    "transport_failure": 3,
+    "HTTP_attempts": 652,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0
+  },
+  "maintenance": {
+    "cached": true,
+    "installed_version": "1.19.5",
+    "date_local": "2026-11-11",
+    "updated": false
+  },
+  "OpenCode_native_generation": 0,
+  "generic_lessons": [
+    "A protected table scan does not protect later growth reads; an optional hint must contain the entire read chain.",
+    "Reject the whole optional hint after malformed or incomplete inputs instead of adopting the already collected prefix.",
+    "Compose independent score hints so a food-associated row outside the shortage gate does not erase the amenity hint.",
+    "Update every version consumer before starting discovery; importing an old function body can preserve its rejection after the file changes. Freeze sources through the final complete check.",
+    "Read-only scoring on an old runtime verifies native data shape, not new controller execution or game effects."
+  ],
+  "owner_active_seconds": null,
+  "net_savings_seconds": null
+}
