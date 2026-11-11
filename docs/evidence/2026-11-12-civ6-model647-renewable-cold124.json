@@ -1,0 +1,87 @@
+{
+  "machine_id": "BF-202609141645",
+  "model": {
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "usage": {
+      "prompt_tokens": 17594,
+      "completion_tokens": 996,
+      "total_tokens": 18590
+    },
+    "total_ms": 9288.841899950057,
+    "json_syntax": {
+      "status": "VALID",
+      "top_level_type": "object",
+      "reason": "COMPLETE_STOP_JSON",
+      "error": null,
+      "offset_units": "Unicode code points",
+      "max_utf8_bytes": 1048576,
+      "semantic_review": "OWNER_REVIEW_REQUIRED"
+    }
+  },
+  "adoption": {
+    "raw_code_adopted": false,
+    "Lua51_compile_pass": true,
+    "invented_Player_GetPower_exception": "[string \"<python>\"]:10: attempt to call method 'GetPower' (a nil value)\nstack traceback:\n\t[string \"<python>\"]:10: in function <[string \"<python>\"]:1>",
+    "raw_Native_execution": 0,
+    "other_rejections": [
+      "Power belongs to own city per supplied actual source, not player",
+      "No pcall, no bounded own-city scan, no ID/xy/visibility/final-turn recheck",
+      "Hard-coded tech associations ignore current Improvements prerequisite metadata",
+      "Index may be noninteger/nonfinite; Hash/type not validated",
+      "Integration proposed after Research would allow two requests instead of the one pending protocol",
+      "Original RESEARCH consumer takes path table, not direct technology Hash",
+      "Tests claim no-city nil although candidate never reads cities"
+    ],
+    "partial_direction": "No new selector code adopted; owner will implement city-scoped demand and preserve research protocol. Supplied requirement required>free despite active-project power was already in prompt."
+  },
+  "owner_corrections": [
+    "Wrapper install-target version initially changed to124 during preparation; corrected to existing123 before executing install",
+    "City-view window bound rejected one pre-input attempt before independent corrected view",
+    "First cold comparison incorrectly expected food equality; preserved actual Xingzhou net1 to3 and growth-time12 to4, no state reset or invented cause"
+  ],
+  "maintenance": {
+    "daily_date": "2026-11-12",
+    "same_machine_user_success_cache_reused": true,
+    "OpenCode_installed_registry": "1.19.5",
+    "upgrade_this_window": false,
+    "OpenCode_native_generation": 0
+  },
+  "cumulative": {
+    "logical_calls": 647,
+    "complete": 603,
+    "length_failures": 41,
+    "transport_failures": 3,
+    "HTTP_attempts": 677,
+    "additional_attempts": 30,
+    "actual_initial_inflight": 1,
+    "OpenCode_native_generation": 0,
+    "cached_prompt_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "still_open": [
+    "Shanghai current project preserved; actual Factory resume/completion still pending",
+    "Resource-free durable power and strategic unlock selection implementation",
+    "Unknown cold-load food/power-flag differences",
+    "Dynamic future upkeep and old recovery and full matrix"
+  ],
+  "schema": "local-model-operations.civ6-model647-renewable-cold124/v1",
+  "utc": "2026-11-11T22:58:22.007477+00:00",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/cfe0cfee247ecd37c6e84f12239a2276b89df007/docs/research/baiqi-p6-model647-renewable-cold124-2026-11-12.json",
+    "sha256": "919ba5b41a884f0ca65adecff0d209996b9e906c400813c6e2ec4f95c2eac486",
+    "bytes_scope": "git_blob",
+    "working_copy_sha256": "adef3deda1c201a6ab2437e78fee362d9c83c0de05f4f83446e52d50ce32918c"
+  },
+  "business_result": "124 installed and cold-loaded263, main snapshot equal; food and active-project power flags changed and retained as unknown. Actual264 Rocketry completion made Satellites directly researchable; actual construction and strategic research still open.",
+  "generic_lessons": [
+    "Use actual declaring owner: supplied power component belonged to city, model invented player:GetPower and the exception escaped.",
+    "Do not add a second action after an existing pending protocol; preserve the original path table argument rather than replacing it with Hash.",
+    "Main snapshot equality is not all-state equality: retain distinct food and runtime flag changes and do not ascribe them to unrelated new ranking code.",
+    "A new read with the previously qualified reader after actual prerequisite completion is state-change qualification, not model raw Native adoption."
+  ],
+  "OpenCode_native_generation": 0,
+  "unknown_cost_and_savings": null
+}

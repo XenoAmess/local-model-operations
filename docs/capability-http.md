@@ -5503,3 +5503,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：644—646与124已有投入续建
 
 644/645/646各单HTTP stop/DONE/VALID，19389/11223/11379tokens，16663.9989/9377.9814/5427.7066ms，真实峰1。644猜Tech／GetCurrentPower／MembersNext且未知false0，两隔离反例拒；Owner5合同、十九Native阶段0错证四新能源科技均未拥有且不可直接研究，6己方建造者。645重用已否资格的未建0／静态1当未来费，策略拒，仅方法清单方向采用；无新预测器。646纯评分helper部分采用，猜消费者／静态成本／92胜93矛盾拒。原生123／263工厂73/165合法却被项目92压制，124有限未完工投入93、真实队列成本及原许可保留；8新方法，全1782项1781pass1SDKskip、95Lua51/117包，精确旧123 Controller3失败0错，124实机待冷验。累计646/602完整41length3transport676HTTP30extra、OpenCode原生0、未知成本null。[固定反链及Owner修正](evidence/2026-11-12-civ6-model644646-resume124.json)。
+
+
+## 2026-11-12：647新能源研究候选与124冷载
+
+647单HTTP200/stop/DONE/VALID，18590tokens/9288.8419ms、初始在途1。完整现行Admin与city电力消费者已给，仍发明player:GetPower，隔离抛错；缺pcall／有界own城／最后重验，原Research后第二发及Hash替path建议拒，0源码采用／rawNative。Owner复用644工具19阶段0错证264卫星可研究；124主快照冷载相同但邢州粮1→3及项目供电flag变动未知，不授全状态同一。累计647/603完整41length3transport677HTTP30extra、OpenCode原生0、未知成本null。[固定Git blob证据](evidence/2026-11-12-civ6-model647-renewable-cold124.json)。
