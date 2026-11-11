@@ -5491,3 +5491,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：642／643真实维护与既有水电
 
 两HTTP各200/stop/DONE/VALID，642为8684tokens/5890.0686ms，643为9416/7246.4125ms。642 Lua51 goto编译及pcall布尔误用拒；Owner5合同后Core21阶段0错，两已建屏障各7，UI0/静态1；未建对照均UI不可造，Core六NotImplemented，不授未来成本。643假pcall直调、数字区域比字符串两隔离反例拒；Owner6合同后首都水电早已有且完好，免费6需求8，生产购买均false，重复建造假设推翻。规则初读4096上限错误后独立32768有界补读通过，不抹掉原错。累计643/599完整41length3transport673HTTP30extra、实际初始在途1、OpenCode原生0、未知成本null。[精确Git blob业务证据](evidence/2026-11-12-civ6-model642643-upkeep-hydro.json)。
+
+
+## 2026-11-12：Publication 刷新两项完整源审
+
+真实 batch8 原件否定“预算不足后空等”：1800 秒 batch、900 秒 reserve，延期仍余867秒；真正尾段是发布后多轮重规划，已有立即 End／新 batch 不重复实现。随后2并行源审全200/stop/DONE/合法JSON，峰2持续42.898707秒，290973输入／1454输出、TTFT36.390／37.476秒，0length／transport／retry。调用图中 READ 已发布仍委托 downstream 的误述纠正；减少重复发布补丁反新增调用且返回接口类型错，整拒不编。0代码／优化采用，不混当前P0或授Runtime、SAVE、确定提速。
+
+[成本与逐项拒收](evidence/2026-11-12-ck3-publication-refresh-two-source-http.md)。
