@@ -5311,3 +5311,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 4真实并行HTTP全部200/stop/DONE/合法JSON，峰4持续22.208592秒，TTFT14.34–18.72秒；193907输入／1504输出，0length／transport／retry。已有Caller只审不重写，直接Git API核对纠正owner准备时的checked假设，未借模型信用。四项source-only无具体缺陷，仍纠正Top+16、JSON对象等值不保wireorder、pair128解释。0模型代码采用／本岗JVM；源码协议不授actualCode／测量／Runtime，Native不等模型绿。
 
 [完整成本与分层结果](evidence/2026-11-11-ck3-p223-complete-evaluate-http-source-review.md)。
+
+
+## 2026-11-11：P224 owner ledger 完整扫描窄审
+
+3真实并行HTTP全部200/stop/DONE/合法JSON，峰3持续20.864114秒，TTFT10.757–15.655秒；124518输入／2249输出，0length／transport／retry。完整原源、whole Test、32向量覆盖语义／覆盖／调用路径与分配机制。三个source支持标签无具体finding；模型错写vector13–16，原件为19–22，非测试coverage缺口。fullscan限定不扩成一般定理，物理分配和Runtime频率未知。Java原作独立推进，0模型代码采用／候选重投／本岗JVM或live。
+
+[成本与来源分级](evidence/2026-11-11-ck3-p224-owner-scan-http-source-review.md)。
