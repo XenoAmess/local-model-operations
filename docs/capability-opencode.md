@@ -1343,3 +1343,8 @@ OpenCode与registry实际1.19.5、未升级；当天首次检查成功后625命�
 ### 2026-11-12：637 Native诊断与121失败
 
 同机同用户当日1.19.5维护成功缓存复用，无升级或原生工具生成。普通HTTP候选／Owner资格／游戏失败分层；Native成功只读不能追认为付费效果。[记录](evidence/2026-11-12-civ6-model637-native121-coastal-failure.json)。
+
+
+### 2026-11-12：638／639与122软件
+
+同机同用户当日1.19.5维护成功缓存复用，无升级或OpenCode原生生成。长度失败、合同拒用、Owner观测兼容修正及软件结果分别计，尚无122 Native授效。[记录](evidence/2026-11-12-civ6-model638639-paid-flood-software.json)。

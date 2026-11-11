@@ -5466,3 +5466,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：637 与 121 原生海岸失败
 
 真实4普通回合／28军队SKIP／3NPC点击，AI完成计算机且胶东防洪坝74/280；上海地块257沉没、救援FAIL，256与失败257均保存。637单HTTP200/stop/DONE/VALID，9910+550=10460tokens、5416.7924ms；原稿猜Cities/GetTurn及漏完整守卫／显示模式，隔离反例失败原代码拒用。Owner5合同、21Native阶段0错误；胶东金币135／信仰80两模式皆真，上海同价皆假。metadata PurchaseYield=nil不等于禁止，价格不等于许可；0购买动作不授实际扣款或排水。637时累计637/594完整/40length/3transport/667HTTP/30extra，638639后续实现另计；初始在途1、原生OpenCode0、未知成本null。[固定Git blob证据](evidence/2026-11-12-civ6-model637-native121-coastal-failure.json)。
+
+
+## 2026-11-12：638／639与122正常金币购买软件
+
+638单HTTP200/DONE但length，5514+3000tokens、18591.7608ms，截断未读未采用。639最终资格函数单HTTP200/stop/DONE/VALID，774+590、4357.2555ms；合法leader字符串对pid数值即拒用，猜Game/UI、漏reserve和最终重读，隔离反例成立，原代码拒用。Owner17runner/Admin＋1控制器pending hold合同，旧121消费者调度用例1失败。首轮1769有1SDK qualified receiver观测错误，使用规范局部CityManager保留注入与观测后最终1771项1770pass1SDKskip、95Lua51／117包。引用637原生资格而不授122扣款／建筑／排水效果；保留121失败257，计划独立冷载256复测。累计639/595完整/41length/3transport/669HTTP/30extra，初始在途1、OpenCode原生0、未知成本null。[固定Git blob证据](evidence/2026-11-12-civ6-model638639-paid-flood-software.json)。

@@ -1,0 +1,164 @@
+{
+  "machine_id": "BF-202609141645",
+  "models": {
+    "638": {
+      "http_status": 200,
+      "finish_reason": "length",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 5514,
+        "completion_tokens": 3000,
+        "total_tokens": 8514
+      },
+      "total_ms": 18591.76079998724,
+      "json_syntax": {
+        "status": "UNKNOWN",
+        "top_level_type": "UNKNOWN",
+        "reason": "NON_STOP_FINISH",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "candidate_complete": false
+    },
+    "639": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 774,
+        "completion_tokens": 590,
+        "total_tokens": 1364
+      },
+      "total_ms": 4357.255499926396,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "candidate_complete": true
+    }
+  },
+  "adoption": {
+    "638": "length; raw candidate unread, not parsed, spliced or adopted; whole runner still too broad",
+    "639_raw_code_adopted": false,
+    "639_counterexample": {
+      "raw_code_adopted": false,
+      "counterexample": "Valid specified config.leader string is compared to numeric pid, so the raw gate always returns nil before qualification. No config.human was in the supplied contract.",
+      "other_rejections": [
+        "Guessed Game:IsTurnActive, IsMultiplayer/Hotseat and UI:IsProcessing rather than supplied actual bindings",
+        "Uses unqualified global CityCommandTypes/GameInfo/CityManager instead of E",
+        "Gold reserve100 omitted, maintenance from wrong object API, hardcoded2",
+        "No final owner/xy/turn/idle/demand rereads; truthy eligibility permits unknown nonboolean",
+        "Does not require finite positive price/balance"
+      ],
+      "native_execution": false
+    },
+    "owner_rewrite": true
+  },
+  "maintenance": {
+    "daily_date": "2026-11-12",
+    "OpenCode_installed_registry": "1.19.5",
+    "same_machine_user_success_cache_reused": true,
+    "upgrade_this_call": false,
+    "OpenCode_native_generation": 0
+  },
+  "cumulative": {
+    "logical_calls": 639,
+    "complete": 595,
+    "length_failures": 41,
+    "transport_failures": 3,
+    "HTTP_attempts": 669,
+    "additional_attempts": 30,
+    "actual_initial_inflight": 1,
+    "OpenCode_native_generation": 0,
+    "cached_prompt_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "implementation": {
+    "writer": "original CityManager.RequestCommand / CityCommandTypes.PURCHASE",
+    "Gold_only": true,
+    "native_gold_yield_definition_required": true,
+    "native_two_CanStartCommand_modes_explicit_true": true,
+    "nil_PurchaseYield_does_not_override_native_permission": true,
+    "actual_flood_demand_helper_reused": true,
+    "finite_positive_exact_price_and_final_price_unchanged": true,
+    "gold_reserve": 100,
+    "net_gold_min": 2,
+    "zero_maintenance_rule_only": true,
+    "city_scan_bound": 256,
+    "one_request_per_Run": true,
+    "pending_before_dispatch": true,
+    "pending_survives_turn_changes_in_same_executor": true,
+    "unknown_request_not_replayed": true,
+    "observed_owned_building_intact_required": true,
+    "pending_city_production_hold_until_observed": true,
+    "no_queue_cancel_or_replace": true,
+    "fresh_price_budget_demand_turn_identity_and_idle_checks": true,
+    "not_claimed_atomic_snapshot": true,
+    "manual_purchases": 0,
+    "faith_purchases": 0,
+    "free_tech_buildings_resources_terrain_writes": 0
+  },
+  "native_prerequisite_evidence": {
+    "source": 121,
+    "turn": 257,
+    "model637_diagnosis": "Jiaodong native gold price135 and two purchase modes true; Shanghai same price but both false after submergence",
+    "purchase_requests": 0,
+    "no_payment_building_or_draining_effect_credit": true,
+    "planned_counterfactual_branch": "Separately cold-load preserved121256, before Shanghai submergence; retain failed257 save and evidence."
+  },
+  "limitations": [
+    "122 not installed/launched or native-qualified yet",
+    "Actual paid purchase, debit and barrier state pending",
+    "Native drainage, legal district/building repairs and food recovery pending",
+    "No claim of restoring already submerged Shanghai257",
+    "Pending is executor memory, not a newly persistent cross-load recovery journal",
+    "Earlier preventative climate response, long-term electricity and full matrix remain open"
+  ],
+  "owner_preflight_error": {
+    "first639_dispatch_unterminated_python_triple_quote": true,
+    "POST_before_correction": 0,
+    "HTTP_failure_counted_for_that_preflight": false
+  },
+  "schema": "local-model-operations.civ6-model638639-paid-flood-software/v1",
+  "utc": "2026-11-11T21:30:22.760914+00:00",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/4ab8227695430d8bab70ca0e93634540b8139e3c/docs/research/baiqi-p6-source122-paid-flood-barrier-software-2026-11-12.json",
+    "sha256": "8126f27701f41026cfa095feee0039ded9f25b896561fff27a58d3e3d48e81fa",
+    "bytes_scope": "git_blob",
+    "working_copy_sha256": "c6090a225e1dd6aed6c983927604103983c9186db83563d84e5379fb694b4351"
+  },
+  "tests": {
+    "new_runner_methods": 17,
+    "new_controller_pending_hold_method": 1,
+    "final_total": 1771,
+    "passed": 1770,
+    "SDK_skip": 1,
+    "Lua51_compiled": 95,
+    "package_files": 117,
+    "full_summary": "Ran 1771 tests in 64.970s",
+    "first_full_regression": {
+      "total": 1769,
+      "duration_seconds": 68.175,
+      "errors": 1,
+      "skips": 1,
+      "failure": "Write instrumenter rejects E.CityManager.RequestCommand as qualified SDK receiver; fixed using local canonical CityManager=E.CityManager, preserving dependency injection and observation."
+    }
+  },
+  "generic_lessons": [
+    "Repeated whole-runner output length is a real preparation cost; narrow to one final gate and preserve truncated candidates unread.",
+    "Comparing a configured leader string with player ID rejects every valid supplied context; qualify against actual consumer methods.",
+    "A newly injected SDK writer must remain visible to existing write instrumentation; local canonical CityManager=E.CityManager preserves the binding and instrumenter support.",
+    "Hold city production while a currency request result is unknown; neither a duplicate command nor a competing production completion should be used to infer a paid result.",
+    "A native quote and eligibility establish prerequisites; debit, building, terrain recovery and durability still need separate game evidence."
+  ],
+  "OpenCode_native_generation": 0,
+  "unknown_cost_and_savings": null
+}
