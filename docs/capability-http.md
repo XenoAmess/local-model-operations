@@ -5446,3 +5446,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 四项真实并行源审均 200/stop/DONE/合法 JSON，峰 4 持续 89.924340 秒；695917 输入／1408 输出，TTFT 34.112–88.516 秒，0 length／transport／retry。Source02＋03＋04 首发，Set-order／child 消费修正为 owner 前置发现。三项空 finding，第四误把 settledActions 名字当过滤、未供 reducer 正文却建议放松信用检查，均拒；0 模型代码／新缺陷采用。输入缺口、实际部署／恢复／SAVE 分层，0 本岗 JVM/live。
 
 [完整成本与拒收分级](evidence/2026-11-12-ck3-life-nonzero-retirement-four-source-http.md)。
+
+
+## 2026-11-12：120 实机供电与 253 完成态
+
+无新HTTP用于本段Native；633软件候选已记，独立634诊断在重载期间完成但不在此追认采用。原119246冷载全同，七实际回合／7显式END／49军队SKIP／0人工内政，秀容247、胶东广州248自动项目，胶东249实际市场4→6、250原版项目完成并接续；入队和重开帧可未供电，非连续供电保证。251社区/市场受损变0且洪灾拒修，另诊防洪。10被动行0错丢、3订阅撤；253重载11城/158建筑/64区域/204可见自有格/52单位及food/vitals/power/damage全同。70 Localization官方Clickout/HoF来源不当成Baiqi加载失败，也不称日志全零；owner迭代器错误单列。普通END与议会原版消费者内置END未作全局计数。[固定证据](evidence/2026-11-12-civ6-source120-native-power253.json)。
