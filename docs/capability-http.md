@@ -5346,3 +5346,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 4真实并行HTTP全部200/stop/DONE/合法JSON，峰4持续54.153677秒，TTFT16.500–42.593秒；351163输入／5739输出，0length／transport／retry。正式Git、source307、原方案及冻结全链分别标明，0新实现审阅或代码采用。拒收Guard顺序误读、旧codec分支改动、latest-map伪反例和Outcome自动续行建议。后到OperatorQuarantined只授operator未知效果终态，首4未读新实现；历史issuer缺口不作operator授权门。0本岗JVM／live／账本操作，不追认NoEffect／schedulerSuccess或保持配额。
 
 [完整成本与后到方案边界](evidence/2026-11-11-ck3-composite-protocol-four-source-http.md)。
+
+
+## 2026-11-11：OperatorQuarantined 实际源码两项审阅
+
+后到actual core01＋mid02 DRAFT两项真实HTTP均200/stop/DONE/合法JSON，峰2持续22.965886秒，TTFT18.618／20.151秒，156855输入／659输出，0length／retry。独立核CAS/codec/append-replay与旧ID/同Game-episode Sway采集前隔离，两个空finding只作静态辅助。更正『任何preparation前已gate』泛称，旧同ID返回原件不等dispatch；0模型代码采用，不追授完整安装/Driver/cycle或NoEffect。首4不同方案不倒填此新实现，0本岗JVM/live/账本，不为配额重审。
+
+[完整成本与版本边界](evidence/2026-11-11-ck3-operator-quarantine-actual-two-http.md)。
