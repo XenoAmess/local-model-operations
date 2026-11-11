@@ -1313,3 +1313,8 @@ OpenCode与registry实际1.19.5、未升级；当天首次检查成功后625命�
 ### 2026-11-12：631 普通 HTTP 与维护分账
 
 同机同用户当日OpenCode1.19.5成功维护缓存复用，本案没有升级，也没有OpenCode原生代码生成或工具循环。候选拒用、Owner隔离合同、Native未知归因和完成态恢复分别记录，见[631案例](evidence/2026-11-12-civ6-model631-wuhan-callback.json)。
+
+
+### 2026-11-12：632 普通 HTTP 与电力诊断
+
+同机同用户当日OpenCode1.19.5成功缓存复用，没有升级或OpenCode原生工具生成。候选反例、Owner合同与Native129分阶段读数分开计；[记录](evidence/2026-11-12-civ6-model632-power-and-completed246.json)。

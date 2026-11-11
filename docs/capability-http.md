@@ -5422,3 +5422,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 3真实并行HTTP全部200/stop/DONE/合法JSON，峰3持续48.037333秒；293348输入／4244输出，TTFT16.561–39.117秒，0length／transport／retry。新维护实现尚未入输入，只有当前源方案分析；0模型代码／已证缺陷采用。拒把AtomicBoolean当durable／借SubmissionPermit、漏!writeReturned、旧UNKNOWN永久不可恢复及wholeLife gate；Task3最终replay正文未供单列输入未知。0本岗JVM/live/账本，不追授pause为原Life结算或target／SAVE，不重投同包。
 
 [完整成本与拒收边界](evidence/2026-11-12-ck3-maintenance-pause-and-single-life-three-http.md)。
+
+
+## 2026-11-12：632 电力读数与 246 完成态
+
+单 HTTP200/stop/DONE/VALID，4537+748=5285 tokens、6081.4556ms，初始实际在途1。原候选字典来源行用ipairs成空、首接口异常阻断后续，两隔离反例成立，原代码拒用；Owner8合同后只读11城129阶段记录，长沙临时供电1/需求3未完全供电、市场实际4，另三城缺电。自动补电尚未实现，不从当下重建243→246原因。原119从243接三实际回合/3普通END/21军队SKIP/0内政，商业中心与市场完成接银行；长沙五人、下水道完成，246全量重载保持。旧固定6粮断言错误归Owner，未执行依赖保存，修正后单次正式保存。累计632逻辑/590完整/39length/3transport/662HTTP/30extra，OpenCode原生0，成本收益null。[固定业务证据](evidence/2026-11-12-civ6-model632-power-and-completed246.json)。
