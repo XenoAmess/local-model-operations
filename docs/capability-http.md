@@ -5332,3 +5332,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 4真实并行HTTP全部200/stop/DONE/合法JSON，峰4持续35.702361秒，TTFT5.056–25.376秒；199996输入／4691输出，0length／transport／retry。仅指定源码和冻结副本，0live／账本动作。0已证首字段／模型修复采用：范围排除仅辅助，数值大小比较错、完整解码委托误读、自授HIGH诊断均拒；reservation与Run.child不同，不削弱原完整回执校验。首输入缺record/reducer声明已报告，后到源码不追授读过，不重投同包；真实恢复与许可保持唯一owner边界。
 
 [完整成本与误报分级](evidence/2026-11-11-ck3-authorized-frozen-p0-http-diagnosis.md)。
+
+
+## 2026-11-11：新栈4项与实际业务 codec 后到2项
+
+6真实POST／6HTTP200，5stop1length，0transport／retry；前峰4持续42.724384秒，后峰2持续24.740531秒，不报6同在途。355286输入／9933输出，TTFT8.586–27.504秒，全POST窗417.521079秒含间隔。新栈定位producerInput的ImportRequest canonical，由Root／Native发现；前4错误编码／版本／分支推断拒，后到真实候选2审中1截断整弃未读、1漏hash新旧条件而误报。0模型修复采用，owner二进制封包／4CLI前检0POST错误单列；不改原件／genericparser／旧hash，不阻真实P0。
+
+[完整成本与版本分级](evidence/2026-11-11-ck3-new-stack-business-codec-http.md)。
