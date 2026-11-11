@@ -1,0 +1,558 @@
+{
+  "schema": "local-model-operations.planning-performance-six-source-http/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "case_id": "ck3-planning-hotspots-six-independent-source-tasks",
+  "shared_head_at_dispatch": "02bc359628f0579b1a7ca31a5dd94a2580fdc48e",
+  "synchronization_and_maintenance": {
+    "clean_main_fetch_ff_only": true,
+    "from_head": "0529a795a872023c08d1b4fe9075896e4c3ea7d1",
+    "to_head": "02bc359628f0579b1a7ca31a5dd94a2580fdc48e",
+    "remote_change_scope": "Other consumer documentation only.",
+    "AGENTS_usage_config_caller_hashes_unchanged": true,
+    "same_day_successful_maintenance_cache_reused": true,
+    "checked_at_local": "2026-11-12T02:42:39.984713+08:00",
+    "installed_registry_target": "1.19.5",
+    "active_caller_service_or_business_config_changed": false
+  },
+  "timing_input": {
+    "pin": {
+      "name": "EXISTING-TIMING-SINGLE-CUT01.json",
+      "bytes": 8717,
+      "sha256": "312d28da9885294f509f22313a6f4a310a6bb21498aaf4b1a8c6f0f7efd0fa6f"
+    },
+    "scope_elapsed_ns": 44985395900,
+    "work_enter_count": 2,
+    "work_elapsed_ns": 44984063800,
+    "controller_phase_spans": [
+      {
+        "elapsed_ns": 8072523400,
+        "failed_count": 0,
+        "interrupted_count": 0,
+        "phase": "OBSERVATION",
+        "phase_ordinal": 1,
+        "return_count": 2,
+        "sample_count": 2
+      },
+      {
+        "elapsed_ns": 36641672400,
+        "failed_count": 0,
+        "interrupted_count": 0,
+        "phase": "PLANNING",
+        "phase_ordinal": 2,
+        "return_count": 2,
+        "sample_count": 2
+      },
+      {
+        "elapsed_ns": 250531900,
+        "failed_count": 0,
+        "interrupted_count": 0,
+        "phase": "OUTCOME_CONSUMPTION",
+        "phase_ordinal": 5,
+        "return_count": 2,
+        "sample_count": 2
+      }
+    ],
+    "selected_policy_rows": [
+      {
+        "elapsed_ns": 5154419200,
+        "enter_count": 2,
+        "failed_count": 0,
+        "return_count": 2,
+        "stage_ordinal": 2
+      },
+      {
+        "elapsed_ns": 7918652000,
+        "enter_count": 2,
+        "failed_count": 0,
+        "return_count": 2,
+        "stage_ordinal": 18
+      },
+      {
+        "elapsed_ns": 6243635400,
+        "enter_count": 2,
+        "failed_count": 0,
+        "return_count": 2,
+        "stage_ordinal": 19
+      },
+      {
+        "elapsed_ns": 4340855800,
+        "enter_count": 2,
+        "failed_count": 0,
+        "return_count": 2,
+        "stage_ordinal": 20
+      }
+    ],
+    "historic_HTTP_rows": 6,
+    "inclusive_cumulative_not_exclusive_CPU_or_duplicate_proof": true,
+    "not_same_window_as_this_new_six_HTTP_wave": true,
+    "no_full_latency_attribution_to_LLM": true
+  },
+  "actual_source_scope": {
+    "frozen_source_identity_index": {
+      "name": "FROZEN-SOURCE-AND-TIMING-INDEX01.json",
+      "bytes": 7935,
+      "sha256": "5e659c3743a1b6859756675a9bf3b082868efa9771d4239bf67a82056148ef12"
+    },
+    "source307_disk_snapshots_not_all_loaded_memory_attestation": true,
+    "prefixes": [
+      {
+        "task": "perf01-factiongift-planning-repetition",
+        "max_tokens": 4200,
+        "complete_files": [
+          "EXISTING-TIMING-SINGLE-CUT01.json",
+          "OrdinaryPolicy.java",
+          "PlanningRequest.java",
+          "PlanningObservation.java",
+          "PlanningResult.java",
+          "PlanningStage.java",
+          "PlanTrace.java",
+          "OrdinaryPlanner.java",
+          "OrdinaryPlanningPipeline.java",
+          "OrdinaryFinancePolicies.java",
+          "OrdinaryFinanceCollector.java",
+          "FinanceReadContracts.java",
+          "FinanceStatePort.java",
+          "M5PeacetimePolicy.java",
+          "PlanningReadPort.java",
+          "PlanningReadRequest.java",
+          "PlanningReadResult.java",
+          "ReadContract.java",
+          "FactionGiftPolicy.java"
+        ],
+        "prefix_bytes": 244739,
+        "prefix_sha256": "8a47cf71419f62f3e64328a7ddb832ac4036a24649ceb3fafaaed0f111ddfb2a"
+      },
+      {
+        "task": "perf02-construction-planning-repetition",
+        "max_tokens": 4400,
+        "complete_files": [
+          "EXISTING-TIMING-SINGLE-CUT01.json",
+          "OrdinaryPolicy.java",
+          "PlanningRequest.java",
+          "PlanningObservation.java",
+          "PlanningResult.java",
+          "PlanningStage.java",
+          "PlanTrace.java",
+          "OrdinaryPlanner.java",
+          "OrdinaryPlanningPipeline.java",
+          "OrdinaryFinancePolicies.java",
+          "OrdinaryFinanceCollector.java",
+          "FinanceReadContracts.java",
+          "FinanceStatePort.java",
+          "M5PeacetimePolicy.java",
+          "PlanningReadPort.java",
+          "PlanningReadRequest.java",
+          "PlanningReadResult.java",
+          "ReadContract.java",
+          "OrdinaryConstructionPolicy.java",
+          "OrdinaryConstructionCollector.java",
+          "ConstructionMaterialSource.java"
+        ],
+        "prefix_bytes": 281904,
+        "prefix_sha256": "5698de56d9651209eea2963c2ced3e180e70e50f2bec5e1788e22d1cba844fc5"
+      },
+      {
+        "task": "perf03-event-foreground-freshness",
+        "max_tokens": 4200,
+        "complete_files": [
+          "EXISTING-TIMING-SINGLE-CUT01.json",
+          "OrdinaryPolicy.java",
+          "PlanningRequest.java",
+          "PlanningObservation.java",
+          "PlanningResult.java",
+          "PlanningStage.java",
+          "PlanTrace.java",
+          "OrdinaryPlanner.java",
+          "OrdinaryPlanningPipeline.java",
+          "PlanningReadPort.java",
+          "PlanningReadRequest.java",
+          "PlanningReadResult.java",
+          "ReadContract.java",
+          "EventPolicies.java",
+          "EventReadBinding.java",
+          "EventDecisionInput.java",
+          "EventIncidentCapturePort.java",
+          "EpisodeIncidentJournal.java",
+          "RegisteredEventCore.java"
+        ],
+        "prefix_bytes": 310452,
+        "prefix_sha256": "1ac7f37d56151ef37e5f9836f44eb79895eda893a04f158630fd2fc200e027c5"
+      },
+      {
+        "task": "perf04-family-planning-repetition",
+        "max_tokens": 4200,
+        "complete_files": [
+          "EXISTING-TIMING-SINGLE-CUT01.json",
+          "OrdinaryPolicy.java",
+          "PlanningRequest.java",
+          "PlanningObservation.java",
+          "PlanningResult.java",
+          "PlanningStage.java",
+          "PlanTrace.java",
+          "OrdinaryPlanner.java",
+          "OrdinaryPlanningPipeline.java",
+          "PlanningReadPort.java",
+          "PlanningReadRequest.java",
+          "PlanningReadResult.java",
+          "ReadContract.java",
+          "FamilyOrdinaryPolicy.java",
+          "FamilyPorts.java",
+          "FamilyHistory.java",
+          "FamilyJson.java",
+          "FamilyDomainReadBinding.java",
+          "FamilyRootCurrentFrame.java",
+          "FamilyGuardianCadence.java",
+          "M5PeacetimePolicy.java"
+        ],
+        "prefix_bytes": 203063,
+        "prefix_sha256": "bc3252e0153b7747168481f4a29237736229e729fb2e9f92fe8d30bb6a92ab3d"
+      },
+      {
+        "task": "perf05-workscope-two-evaluate-attribution",
+        "max_tokens": 4400,
+        "complete_files": [
+          "EXISTING-TIMING-SINGLE-CUT01.json",
+          "OrdinaryPolicy.java",
+          "PlanningRequest.java",
+          "PlanningObservation.java",
+          "PlanningResult.java",
+          "PlanningStage.java",
+          "PlanTrace.java",
+          "OrdinaryPlanner.java",
+          "OrdinaryPlanningPipeline.java",
+          "RootReadPublicationCompletion.java",
+          "RootRuntimePipeline.java",
+          "OrdinaryPlanCompletion.java",
+          "OrdinaryDecisionSelector.java",
+          "SessionController.java",
+          "DriverReadHistoryPublisher.java"
+        ],
+        "prefix_bytes": 354519,
+        "prefix_sha256": "1db9bb71277c6909aeb3f6ba222b2017ab4fcbe549d87beb30a2c192d46b083f"
+      },
+      {
+        "task": "perf06-history-save-pure-traversal",
+        "max_tokens": 4400,
+        "complete_files": [
+          "EXISTING-TIMING-SINGLE-CUT01.json",
+          "ContinuityActionJournal.java",
+          "DriverReadHistoryPublisher.java",
+          "DriverActionHistoryPublisher.java",
+          "RootReadPublicationCompletion.java",
+          "SavedAttachmentSourceStore.java",
+          "CheckpointPair.java",
+          "CheckpointPairCodec.java",
+          "PublicCheckpointMaterialCapture.java",
+          "ContinuityWriter.java",
+          "ContinuityStorePort.java",
+          "WriterContracts.java",
+          "StorageWriteGuard.java",
+          "ActionReceipt.java"
+        ],
+        "prefix_bytes": 449752,
+        "prefix_sha256": "3598968bee2d25c391c3bc20e0feaca4629a36d1781624153da0bb87ccecc20c"
+      }
+    ],
+    "stage2_actual_name": "TERMINAL_AND_FOREGROUND_WINDOWS"
+  },
+  "actual_HTTP": {
+    "POST": 6,
+    "HTTP200": 6,
+    "stop": 5,
+    "length": 1,
+    "transport_failure": 0,
+    "provider_refusal": 0,
+    "retry": 0,
+    "current_inflight": 0,
+    "actual_peak": 6,
+    "peak_duration_seconds": 57.201258,
+    "first_POST_to_last_END_seconds": 83.807937,
+    "sum_attempt_total_seconds": 406.5735968000954,
+    "input_tokens": 394076,
+    "output_tokens": 11782,
+    "effective_content_TTFT_ms_min": 12707.306100055575,
+    "effective_content_TTFT_ms_max": 47517.246300005354,
+    "cached_prompt_tokens": null,
+    "preparation_seconds": null,
+    "manual_review_seconds": null,
+    "net_time_saved_seconds": null
+  },
+  "actual_request_parameters": {
+    "caller": "Existing shared scripts/call.py",
+    "model": "qwen38-coder",
+    "base_url": "http://192.168.1.11:8080/v1",
+    "network": "DIRECT exacthost; redirects refused; actual peer UNKNOWN",
+    "messages": [
+      "exact shared system",
+      "complete obligation-specific current source and frozen timing/limits",
+      "different finite task with exact small edits or bounded NO"
+    ],
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "max_tokens": [
+      4200,
+      4400,
+      4200,
+      4200,
+      4400,
+      4400
+    ],
+    "all_REQUESTs_audited": true
+  },
+  "per_request_costs": [
+    {
+      "task": "perf01-factiongift-planning-repetition",
+      "BEGIN": "2026-11-11T19:44:27.971025+00:00",
+      "END": "2026-11-11T19:45:44.077325+00:00",
+      "started_at_utc": "2026-11-11T19:44:27.970558+00:00",
+      "http_status": 200,
+      "http_headers_ms": 20344.325299956836,
+      "first_nonempty_content_delta_ms": 20345.351799973287,
+      "total_ms": 76106.27279989421,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 53629,
+        "completion_tokens": 2842,
+        "total_tokens": 56471
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "failure": null,
+      "candidate_complete": true,
+      "json_syntax_status": "VALID",
+      "max_tokens": 4200,
+      "messages": 3,
+      "prefix_bytes": 244739,
+      "actual_REQUEST_prefix_sha256": "8a47cf71419f62f3e64328a7ddb832ac4036a24649ceb3fafaaed0f111ddfb2a",
+      "status_label": "CANDIDATE"
+    },
+    {
+      "task": "perf02-construction-planning-repetition",
+      "BEGIN": "2026-11-11T19:44:27.969235+00:00",
+      "END": "2026-11-11T19:45:32.295170+00:00",
+      "started_at_utc": "2026-11-11T19:44:27.968823+00:00",
+      "http_status": 200,
+      "http_headers_ms": 26148.158599971794,
+      "first_nonempty_content_delta_ms": 26149.15850001853,
+      "total_ms": 64325.93960000668,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 60938,
+        "completion_tokens": 1333,
+        "total_tokens": 62271
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "failure": null,
+      "candidate_complete": true,
+      "json_syntax_status": "VALID",
+      "max_tokens": 4400,
+      "messages": 3,
+      "prefix_bytes": 281904,
+      "actual_REQUEST_prefix_sha256": "5698de56d9651209eea2963c2ced3e180e70e50f2bec5e1788e22d1cba844fc5",
+      "status_label": "CANDIDATE"
+    },
+    {
+      "task": "perf03-event-foreground-freshness",
+      "BEGIN": "2026-11-11T19:44:27.970756+00:00",
+      "END": "2026-11-11T19:45:35.331259+00:00",
+      "started_at_utc": "2026-11-11T19:44:27.970350+00:00",
+      "http_status": 200,
+      "http_headers_ms": 38399.46970005985,
+      "first_nonempty_content_delta_ms": 38400.407399982214,
+      "total_ms": 67360.38640001789,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 66600,
+        "completion_tokens": 1718,
+        "total_tokens": 68318
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "failure": null,
+      "candidate_complete": true,
+      "json_syntax_status": "VALID",
+      "max_tokens": 4200,
+      "messages": 3,
+      "prefix_bytes": 310452,
+      "actual_REQUEST_prefix_sha256": "1ac7f37d56151ef37e5f9836f44eb79895eda893a04f158630fd2fc200e027c5",
+      "status_label": "CANDIDATE"
+    },
+    {
+      "task": "perf04-family-planning-repetition",
+      "BEGIN": "2026-11-11T19:44:27.970817+00:00",
+      "END": "2026-11-11T19:45:25.742438+00:00",
+      "started_at_utc": "2026-11-11T19:44:27.970350+00:00",
+      "http_status": 200,
+      "http_headers_ms": 12706.2468000222,
+      "first_nonempty_content_delta_ms": 12707.306100055575,
+      "total_ms": 57771.699400036596,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 45480,
+        "completion_tokens": 792,
+        "total_tokens": 46272
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "failure": null,
+      "candidate_complete": true,
+      "json_syntax_status": "VALID",
+      "max_tokens": 4200,
+      "messages": 3,
+      "prefix_bytes": 203063,
+      "actual_REQUEST_prefix_sha256": "bc3252e0153b7747168481f4a29237736229e729fb2e9f92fe8d30bb6a92ab3d",
+      "status_label": "BOUNDED_NO"
+    },
+    {
+      "task": "perf05-workscope-two-evaluate-attribution",
+      "BEGIN": "2026-11-11T19:44:27.969108+00:00",
+      "END": "2026-11-11T19:45:25.172620+00:00",
+      "started_at_utc": "2026-11-11T19:44:27.968527+00:00",
+      "http_status": 200,
+      "http_headers_ms": 37251.42040010542,
+      "first_nonempty_content_delta_ms": 37252.43610003963,
+      "total_ms": 57203.608700074255,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 74443,
+        "completion_tokens": 697,
+        "total_tokens": 75140
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "failure": null,
+      "candidate_complete": true,
+      "json_syntax_status": "VALID",
+      "max_tokens": 4400,
+      "messages": 3,
+      "prefix_bytes": 354519,
+      "actual_REQUEST_prefix_sha256": "1db9bb71277c6909aeb3f6ba222b2017ab4fcbe549d87beb30a2c192d46b083f",
+      "status_label": "BOUNDED_NO"
+    },
+    {
+      "task": "perf06-history-save-pure-traversal",
+      "BEGIN": "2026-11-11T19:44:27.971362+00:00",
+      "END": "2026-11-11T19:45:51.777045+00:00",
+      "started_at_utc": "2026-11-11T19:44:27.970959+00:00",
+      "http_status": 200,
+      "http_headers_ms": 47516.24420005828,
+      "first_nonempty_content_delta_ms": 47517.246300005354,
+      "total_ms": 83805.68990006577,
+      "finish_reason": "length",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 92986,
+        "completion_tokens": 4400,
+        "total_tokens": 97386
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "failure": "finish_reason_length",
+      "candidate_complete": false,
+      "json_syntax_status": "UNKNOWN",
+      "max_tokens": 4400,
+      "messages": 3,
+      "prefix_bytes": 449752,
+      "actual_REQUEST_prefix_sha256": "3598968bee2d25c391c3bc20e0feaca4629a36d1781624153da0bb87ccecc20c",
+      "status_label": "UNUSED_LENGTH_DISCARDED_NO_CANDIDATE_READ"
+    }
+  ],
+  "adoption_grades": {
+    "MODEL_CODE_ADOPTED": 0,
+    "performance_pass": false,
+    "new_JVM_tests_or_measurements": 0,
+    "rows": [
+      {
+        "task": "perf01-factiongift-planning-repetition",
+        "grade": "CORE_HYPOTHESIS_ONLY_OWNER_ANCHOR_REPAIR_UNAPPLIED",
+        "owner_review": "Collector324 already creates candidateWire.choice by encoding/parsing the same selected object returned at333; ordinary policy205 encodes/parses again. Raw model old block has0 literal matches because actual declaration/args share a line. Owner narrows to the one exact expression; publicGift/fresh pre-dispatch paths unchanged. Immutable/value/wire/callback equivalence and payoff remain owner review; not adopted."
+      },
+      {
+        "task": "perf02-construction-planning-repetition",
+        "grade": "REJECTED_NO_WORK_REMOVED_AND_TYPE_CHANGE",
+        "owner_review": "Both literal old anchors match1, but helper merely executes the exact same state.ledger(...).orElseThrow().original() again, so removes no lookup/unwrapping. Also changes Current.priority component from Observation to Observed without compatible producers; no valid source performance candidate."
+      },
+      {
+        "task": "perf03-event-foreground-freshness",
+        "grade": "CORE_HYPOTHESIS_ONLY_OWNER_OVERLOAD_COMPLETION_UNAPPLIED",
+        "owner_review": "Two raw old anchors match1 each. Pure steps sorting per foreground iteration is a bounded source question; raw patch deletes old two-argument wrapper still called by mandatory168 and other existing consumers. Owner JSON proposal restores a delegating old overload; no Java/compile/adoption. Native/modal/actor/source checks remain; no quantified latency benefit."
+      },
+      {
+        "task": "perf04-family-planning-repetition",
+        "grade": "BOUNDED_NO_ONLY_FOR_SUPPLIED_BODY",
+        "owner_review": "Existing wartime review memo recognized. No new local candidate supplied; FamilyEducationPolicy/FamilyChildPolicy/OrdinaryCorePolicy internals absent, so no whole-module no-optimization theorem."
+      },
+      {
+        "task": "perf05-workscope-two-evaluate-attribution",
+        "grade": "BOUNDED_NO_WITH_ATTRIBUTION_WORDING_CORRECTIONS",
+        "owner_review": "Current source supports READ publication/replan rerunning work; count2 is not unchanged-input duplication proof. Reject same PlanningRequest assertion: SessionController1185 calls available(false) on every planRound and1195 uses that ready.request. Reject cross-round PreparedSelection reuse: RootReadPublicationCompletion69-70 clears publication/preparedSelection per pass. Exact historical per-round input trace and loaded-source equivalence are not proved; no skip/cache approved."
+      },
+      {
+        "task": "perf06-history-save-pure-traversal",
+        "grade": "UNUSED_LENGTH_DISCARDED_OWNER_SCOPE_OUTPUT_BUDGET",
+        "owner_review": "HTTP200/DONE but finish length4400, syntax UNKNOWN. No semantic candidate read, JSON decode, patch extraction, splice or continuation POST. Full input/output/latency cost retained; no model semantic failure conclusion."
+      }
+    ],
+    "candidates_for_owner_review_not_implementation": {
+      "name": "OWNER-CORRECTED-UNAPPLIED-PROPOSALS01.json",
+      "bytes": 3648,
+      "sha256": "c21597805edf16aa16c68f7a49b2bcf77cc5e0a24d095a7622014c4a13b5b067"
+    },
+    "original_runtime_timing_six_business_HTTP_rows_not_counted_as_six_new_source_requests": true,
+    "input_limits": [
+      "Missing family education/child/core transitive bodies remain unknown.",
+      "No new profile, exact per-round input trace, Runtime load or measured candidate benefit."
+    ],
+    "new_production_source_CFG_JVM_live_ledger_operations": 0,
+    "continuous_parent_goal_complete": false
+  },
+  "owner_prePOST_navigation_error": {
+    "failed_source_reads": 2,
+    "actual_POST_before_fix": 0,
+    "issue": "Guessed ContinuityWriter modules. Finite actual filename lookup located adapters-storage; original snapshots retained, no source mutation.",
+    "receipt": {
+      "name": "PREPOST-SOURCE-NAVIGATION-CORRECTION01.json",
+      "bytes": 334,
+      "sha256": "bb272d8a00c96806e8fbaaa9a403cb25c448ecb9d4c2a7eaa93670d731e1255f"
+    }
+  },
+  "private_receipts": {
+    "costs": {
+      "name": "CLOSED-SIX-HTTP-COSTS01.json",
+      "bytes": 7404,
+      "sha256": "be331bdb4bdd464228ac9878b7afe3e692356df3cfd417c1d2e5639dbaeff467"
+    },
+    "owner_grades": {
+      "name": "OWNER-SIX-GRADES-AND-CANDIDATE-LIMITS01.json",
+      "bytes": 3639,
+      "sha256": "08bcbf7858edecd169ae6d758146e89bb0c1ada30e72aa80b99dab0a7b1a0ad2"
+    },
+    "unapplied_proposals": {
+      "name": "OWNER-CORRECTED-UNAPPLIED-PROPOSALS01.json",
+      "bytes": 3648,
+      "sha256": "c21597805edf16aa16c68f7a49b2bcf77cc5e0a24d095a7622014c4a13b5b067"
+    },
+    "readiness": {
+      "name": "READINESS01.json",
+      "bytes": 1235,
+      "sha256": "84bd3dc6c4066dcdba6da54773652ef898b957b4d9038cee84d54000ca3a5f0b"
+    }
+  },
+  "operating_lessons": [
+    "Count2 and inclusive elapsed counters are not sufficient evidence to remove an evaluation or attribute its latency to model HTTP.",
+    "Verify both exact anchors and every changed helper consumer; an apparently local overload edit can leave old callers broken.",
+    "Moving identical lookup into a helper does not remove work; unrequested component type changes are not performance fixes.",
+    "A local immutable-choice reuse or sorted-list reuse is only a gain hypothesis until its semantics and actual payoff are qualified.",
+    "Length discards the complete output candidate; do not salvage a half patch or label unread content a semantic failure."
+  ],
+  "bounds": {
+    "new_production_source_Git_JVM_Game_Native_live_ledger_operations": 0,
+    "raw_source_prompt_response_or_private_absolute_paths_published": false,
+    "dynamic_space_identity_freshness_Guard_parser_hash_oldencode_checks_removed": false,
+    "Runtime_speedup_SAVE_or_end_to_end_performance_qualified": false,
+    "continuous_parent_goal_complete": false
+  }
+}

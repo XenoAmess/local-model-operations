@@ -5432,3 +5432,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：633 空燃料供电项目与 120 软件
 
 单HTTP200/stop/DONE/VALID，9856+1012=10868 tokens、8455.2214ms，真实初始在途1。原helper缺值异常、负燃料加分，原控制器把pcall数值当数组，三隔离反例成立；XP2误读普通项目字段且最终重检缺失，原代码拒用。Owner12新方法，旧119同组11失败断言；完整1731项1730pass1SDKskip、93Lua51／115包。原生119246证煤库存0/积累3/发电需求3，油铀0；XP2 callable userdata真实规则支持进行中全供电，首个owner类型白名单漏查纠正。只读120判断识别四城，两原版模式合法，0writer/替换/动作，不授120供电实效或长期供电。累计633/591完整/39length/3transport/663HTTP/30extra，0OpenCode原生，成本收益null。[固定证据](evidence/2026-11-12-civ6-model633-empty-fuel-power-project.json)。
+
+
+## 2026-11-12：规划热点六项同波任务
+
+6真实POST均HTTP200，5stop1length，峰6持续57.201258秒；394076输入／11782输出，TTFT12.707–47.517秒，0transport／retry。冻结inclusive timing不作同调用冗余或LLM总归因。Gift choice复用和Event单次steps排序仅未应用候选：owner分别修锚点／补旧overload；Construction无益helper＋类型变化拒，Family和workscope否定均限源范围，后者same-request／跨轮缓存误述已纠正。第6截断整弃不拼／不续投，0模型代码采用／性能通过／本岗JVM-live；不挡P0。
+
+[完整成本、提案与拒收分级](evidence/2026-11-12-ck3-planning-performance-six-source-http.md)。
