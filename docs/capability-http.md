@@ -5339,3 +5339,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 6真实POST／6HTTP200，5stop1length，0transport／retry；前峰4持续42.724384秒，后峰2持续24.740531秒，不报6同在途。355286输入／9933输出，TTFT8.586–27.504秒，全POST窗417.521079秒含间隔。新栈定位producerInput的ImportRequest canonical，由Root／Native发现；前4错误编码／版本／分支推断拒，后到真实候选2审中1截断整弃未读、1漏hash新旧条件而误报。0模型修复采用，owner二进制封包／4CLI前检0POST错误单列；不改原件／genericparser／旧hash，不阻真实P0。
 
 [完整成本与版本分级](evidence/2026-11-11-ck3-new-stack-business-codec-http.md)。
+
+
+## 2026-11-11：新终态协议四项完整源码分析
+
+4真实并行HTTP全部200/stop/DONE/合法JSON，峰4持续54.153677秒，TTFT16.500–42.593秒；351163输入／5739输出，0length／transport／retry。正式Git、source307、原方案及冻结全链分别标明，0新实现审阅或代码采用。拒收Guard顺序误读、旧codec分支改动、latest-map伪反例和Outcome自动续行建议。后到OperatorQuarantined只授operator未知效果终态，首4未读新实现；历史issuer缺口不作operator授权门。0本岗JVM／live／账本操作，不追认NoEffect／schedulerSuccess或保持配额。
+
+[完整成本与后到方案边界](evidence/2026-11-11-ck3-composite-protocol-four-source-http.md)。
