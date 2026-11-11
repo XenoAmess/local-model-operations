@@ -1318,3 +1318,8 @@ OpenCode与registry实际1.19.5、未升级；当天首次检查成功后625命�
 ### 2026-11-12：632 普通 HTTP 与电力诊断
 
 同机同用户当日OpenCode1.19.5成功缓存复用，没有升级或OpenCode原生工具生成。候选反例、Owner合同与Native129分阶段读数分开计；[记录](evidence/2026-11-12-civ6-model632-power-and-completed246.json)。
+
+
+### 2026-11-12：633 普通 HTTP 与 120 软件
+
+同机同用户当日1.19.5维护成功缓存复用，无新增升级或OpenCode原生工具生成。软件与119只读资格不追认为120实效；[记录](evidence/2026-11-12-civ6-model633-empty-fuel-power-project.json)。

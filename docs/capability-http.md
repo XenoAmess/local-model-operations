@@ -5427,3 +5427,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：632 电力读数与 246 完成态
 
 单 HTTP200/stop/DONE/VALID，4537+748=5285 tokens、6081.4556ms，初始实际在途1。原候选字典来源行用ipairs成空、首接口异常阻断后续，两隔离反例成立，原代码拒用；Owner8合同后只读11城129阶段记录，长沙临时供电1/需求3未完全供电、市场实际4，另三城缺电。自动补电尚未实现，不从当下重建243→246原因。原119从243接三实际回合/3普通END/21军队SKIP/0内政，商业中心与市场完成接银行；长沙五人、下水道完成，246全量重载保持。旧固定6粮断言错误归Owner，未执行依赖保存，修正后单次正式保存。累计632逻辑/590完整/39length/3transport/662HTTP/30extra，OpenCode原生0，成本收益null。[固定业务证据](evidence/2026-11-12-civ6-model632-power-and-completed246.json)。
+
+
+## 2026-11-12：633 空燃料供电项目与 120 软件
+
+单HTTP200/stop/DONE/VALID，9856+1012=10868 tokens、8455.2214ms，真实初始在途1。原helper缺值异常、负燃料加分，原控制器把pcall数值当数组，三隔离反例成立；XP2误读普通项目字段且最终重检缺失，原代码拒用。Owner12新方法，旧119同组11失败断言；完整1731项1730pass1SDKskip、93Lua51／115包。原生119246证煤库存0/积累3/发电需求3，油铀0；XP2 callable userdata真实规则支持进行中全供电，首个owner类型白名单漏查纠正。只读120判断识别四城，两原版模式合法，0writer/替换/动作，不授120供电实效或长期供电。累计633/591完整/39length/3transport/663HTTP/30extra，0OpenCode原生，成本收益null。[固定证据](evidence/2026-11-12-civ6-model633-empty-fuel-power-project.json)。
