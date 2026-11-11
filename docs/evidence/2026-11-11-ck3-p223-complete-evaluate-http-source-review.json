@@ -1,0 +1,285 @@
+{
+  "schema": "local-model-operations.p223-source02-http-review/v1",
+  "date_local": "2026-11-11",
+  "mode_id": "ordinary_http_candidate",
+  "case_id": "ck3-p223-complete-evaluate-source-review",
+  "shared_head_at_dispatch": "1eac71f2783d2739c0545a9fd7213621e3b886bc",
+  "synchronization": "Clean main fetch+ff-only, no advance from1eac71f; previously read AGENTS/usage/executor/operations prompt/caller SHA unchanged. No active service/config/caller switch.",
+  "client_maintenance": {
+    "date_local": "2026-11-11",
+    "checked_at_local": "2026-11-11T01:17:07.452023+08:00",
+    "registry_latest_and_installed": "1.19.5",
+    "same_day_success_reused": true
+  },
+  "source_scope": {
+    "formal_business_head": "6fc5aa0756ff7a8bd6b1031508a8521930d68135",
+    "actual_source02_pins": [
+      {
+        "name": "DefenderEvaluateMeasure223Main.java",
+        "bytes": 43758,
+        "sha256": "e772548c88dfac46794d8538d784a44a484f2a408dc252f443047f80b44103cc"
+      },
+      {
+        "name": "DefenderEvaluate223Caller.java",
+        "bytes": 460,
+        "sha256": "bb59c845cbb581eb9659b67d91e5930f4f8a4a4d931015506f92329e3a3b15cb"
+      },
+      {
+        "name": "FactionGiftFixedSets221Main.java",
+        "bytes": 40076,
+        "sha256": "1cece003cade40e79d84237f5a29e145717265a9785498f15b6809d7bc674300"
+      }
+    ],
+    "source_ready": {
+      "name": "SOURCE-READY01.json",
+      "bytes": 6907,
+      "sha256": "1575e3ebe509140908ebb3fa15bd18f24220e842935dac7cbf555509a2ab277d"
+    },
+    "complete_prefix_bytes": 176277,
+    "complete_prefix_sha256": "5ed4da161b6bc5177e99f1eb83977b3a77077575e235d3366ebeda8eb7fe13d9",
+    "complete_files": [
+      "DefenderEvaluateMeasure223Main.java",
+      "DefenderEvaluate223Caller.java",
+      "DefenderContinueRiskCodec.java",
+      "DefenderContinueRisk.java",
+      "DefenderContinueRiskTest.java",
+      "producer-golden-v1.json",
+      "FactionGiftFixedSets221Main.java",
+      "ACCEPTED-PLAN01.json"
+    ],
+    "target": "One complete public Codec.evaluate(raw) -> natural byte[], including frozen decode/observe/encode inside target; source-only review of new test harness, no business-body edit.",
+    "fixed_case": "Original case0 r0271-contact, complete request plus original full15-field expected tree/7 ordered blockers and full original assertReadOnly; no second business oracle or invented firstA expected.",
+    "protocol": "Strict19 child per side=Risk Top+16nested/Codec/Caller; common Codec with package-private normalize shares child runtime package. Fixed historical parent378 is separate from current production379; no automatic CP switch. Same Object[1]/raw reference/full backup, Object[64] retains natural outputs;48 rows/2304 calls are source protocol, not actual run evidence.",
+    "source_class_Code_behavior_and_performance": "NOT_PROVEN by model reviews",
+    "source01_HTTP": 0,
+    "caller_generation_HTTP": 0,
+    "SourceReady_timing": "Owner supplied actual complete2TU pins before dispatch; later sealed Ready references the identical bytes. No Ready/document ACK was a POST or Native gate."
+  },
+  "owner_preparation_error_before_first_POST": {
+    "issue": "Historical task prose assumed checked IOException, but complete current formal evaluate(byte[]) declares none.",
+    "resolution": "HTTP operator directly read immutable formal Git API and notified owner; owner retained uncompiled Caller01 and provided direct-return Caller02. No model request or failed JVM for that bad candidate.",
+    "model_discovery_or_model_code_credit": false
+  },
+  "actual_HTTP": {
+    "POSTs": 4,
+    "HTTP200": 4,
+    "complete_stop": 4,
+    "length": 0,
+    "transport_errors": 0,
+    "retry_POSTs": 0,
+    "current_inflight": 0,
+    "peak_client_POST_to_END": 4,
+    "peak_seconds": 22.208592,
+    "peak_segments": [
+      {
+        "start": "2026-11-11T04:51:25.428324+00:00",
+        "end": "2026-11-11T04:51:47.636916+00:00",
+        "inflight": 4,
+        "seconds": 22.208592
+      }
+    ],
+    "first_POST_to_last_END_seconds": 23.529989,
+    "TTFT_ms_min_median_max": [
+      14339.866900001653,
+      17208.07200006675,
+      18721.251499955542
+    ],
+    "prompt_tokens": 193907,
+    "completion_tokens": 1504,
+    "server_queue_KV": "NOT_HELD"
+  },
+  "actual_request_parameters": {
+    "model": "qwen38-coder",
+    "base_url": "http://192.168.1.11:8080/v1",
+    "transport": "Shared DIRECT exacthost, redirect refused, actual socket peer UNKNOWN",
+    "fixed_messages": [
+      "exact shared system",
+      "complete current Source02 TUs/current target/original Test+golden/mature Main/contract",
+      "finite changing obligation"
+    ],
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "max_tokens": [
+      2000,
+      2000,
+      2000,
+      2200
+    ],
+    "actual_REQUESTs_audited": true,
+    "same_actual_source_prefix_in_all4": true,
+    "cached_prompt_tokens_if_unreported": null
+  },
+  "per_request_costs": [
+    {
+      "task": "review01-strict19-package",
+      "BEGIN": "2026-11-11T04:51:25.426883+00:00",
+      "END": "2026-11-11T04:51:48.764069+00:00",
+      "http_status": 200,
+      "http_headers_ms": 14338.838799973018,
+      "first_nonempty_content_delta_ms": 14339.866900001653,
+      "total_ms": 23337.239400018007,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 48472,
+        "completion_tokens": 422,
+        "total_tokens": 48894
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "failure": null,
+      "candidate_complete": true
+    },
+    {
+      "task": "review02-original-fullPOST",
+      "BEGIN": "2026-11-11T04:51:25.426719+00:00",
+      "END": "2026-11-11T04:51:48.503853+00:00",
+      "http_status": 200,
+      "http_headers_ms": 18720.19000002183,
+      "first_nonempty_content_delta_ms": 18721.251499955542,
+      "total_ms": 23077.19039998483,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 48472,
+        "completion_tokens": 378,
+        "total_tokens": 48850
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "failure": null,
+      "candidate_complete": true
+    },
+    {
+      "task": "review03-natural-byte-kernel",
+      "BEGIN": "2026-11-11T04:51:25.428161+00:00",
+      "END": "2026-11-11T04:51:47.636916+00:00",
+      "http_status": 200,
+      "http_headers_ms": 17207.122900057584,
+      "first_nonempty_content_delta_ms": 17208.136700093746,
+      "total_ms": 22208.75440002419,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 48475,
+        "completion_tokens": 290,
+        "total_tokens": 48765
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "failure": null,
+      "candidate_complete": true
+    },
+    {
+      "task": "review04-mature-counter-cleanup",
+      "BEGIN": "2026-11-11T04:51:25.428324+00:00",
+      "END": "2026-11-11T04:51:48.956708+00:00",
+      "http_status": 200,
+      "http_headers_ms": 17206.96310000494,
+      "first_nonempty_content_delta_ms": 17208.007300039753,
+      "total_ms": 23528.371799970046,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 48488,
+        "completion_tokens": 414,
+        "total_tokens": 48902
+      },
+      "cached_prompt_tokens_if_reported": null,
+      "failure": null,
+      "candidate_complete": true
+    }
+  ],
+  "adoption_grades": [
+    {
+      "task": "review01-strict19-package",
+      "model_result": "NO_SOURCE_ISSUE_FOUND",
+      "owner_grade": "AUXILIARY_SOURCE_REVIEW_ONLY",
+      "accepted_findings": 0,
+      "model_code_implemented_or_adopted": false
+    },
+    {
+      "task": "review02-original-fullPOST",
+      "model_result": "NO_SOURCE_ISSUE_FOUND",
+      "owner_grade": "AUXILIARY_SOURCE_REVIEW_ONLY",
+      "accepted_findings": 0,
+      "model_code_implemented_or_adopted": false
+    },
+    {
+      "task": "review03-natural-byte-kernel",
+      "model_result": "NO_SOURCE_ISSUE_FOUND",
+      "owner_grade": "AUXILIARY_SOURCE_REVIEW_ONLY",
+      "accepted_findings": 0,
+      "model_code_implemented_or_adopted": false
+    },
+    {
+      "task": "review04-mature-counter-cleanup",
+      "model_result": "NO_SOURCE_ISSUE_FOUND",
+      "owner_grade": "AUXILIARY_SOURCE_REVIEW_ONLY",
+      "accepted_findings": 0,
+      "model_code_implemented_or_adopted": false
+    }
+  ],
+  "owner_explanatory_corrections": [
+    {
+      "task": "review01-strict19-package",
+      "model_wording": "17 DefenderContinueRisk nested types",
+      "owner_correction": "The Policy17 group is one Top plus16 nested, then Codec1+Caller1 gives19. Model otherwise identified intended group/URLs; no source fix or actual loaded-class proof."
+    },
+    {
+      "task": "review02-original-fullPOST",
+      "model_wording": "Full JsonNode equality preserves field order",
+      "owner_correction": "Object-node equality compares member names/values without preserving object insertion/wire order; array order is significant. Full15 expected fields and7 blocker-array entries remain the original oracle. The response also correctly denied a precomputed bytegolden. Do not adopt the overstated phrase or alter the original oracle."
+    },
+    {
+      "task": "review04-mature-counter-cleanup",
+      "model_wording": "256 total cycle calls divided by2 for per-call delta",
+      "owner_correction": "The signed Btotal-Atotal numerator is divided by128 because each variant has two rows of64. Numeric128 is correct; no256 change or denominator rewrite."
+    }
+  ],
+  "outcome": {
+    "all4_empty_findings": true,
+    "accepted_source_defects": 0,
+    "model_code_adopted": false,
+    "code_or_actual_class_qualification_from_model_labels": false,
+    "model_owner_new_JVM_tests_CFG_profile_decoder": 0,
+    "source_and_Native_work_not_waiting_on_model": true,
+    "future_actual_bytecode_and_measurement_separate": true
+  },
+  "operating_lessons": [
+    "Check actual API before conditional exception adapters; directly discovered input-contract mismatch is owner preparation evidence rather than model defect/discovery.",
+    "If Caller already exists, review actual full current source instead of rewriting it for model credit.",
+    "Independent finite reviews can share actual complete current prefix without turning NO_SOURCE_ISSUE_FOUND into software/runtime qualification.",
+    "Review observations too: correct zero-finding outcome can still contain group-count or equality/order overclaims that owner must correct.",
+    "Keep source protocol counts/expected assertions distinct from future actual Code, raw rows, counter support, performance and Runtime/save evidence."
+  ],
+  "private_receipts": {
+    "costs": {
+      "name": "CLOSED-COSTS01.json",
+      "bytes": 7018,
+      "sha256": "9a2398ce8e4e8a2ecab59a11bd7d8388dc668eb6b2107ad7da7043e470de5643"
+    },
+    "owner_grades": {
+      "name": "OWNER-GRADES-AND-HANDOFF01.json",
+      "bytes": 2573,
+      "sha256": "b16ad35d7257f4e489459aed18cc73859d5c1071476fbe2d743a09b6d329d3bb"
+    },
+    "prepared_sources": {
+      "name": "SOURCE-REQUEST-PREPARED02.json",
+      "bytes": 1913,
+      "sha256": "38da461bbcab115f296323c129dd82c98f8e613590cd517d1eabd0b99b191dd6"
+    },
+    "formal_source_inputs": {
+      "name": "FORMAL-SOURCE-INPUTS01.json",
+      "bytes": 1402,
+      "sha256": "b649dfc1c349142677ed12ff03d1a435f8c2840129e9845e5999f99fd88951a4"
+    }
+  },
+  "bounds": {
+    "new_extra_HTTP_after_four_scopes": 0,
+    "new_implementation_or_production_Git_changes_by_model_owner": 0,
+    "new_JVM_Game_Steam_Runtime_actions_by_model_owner": 0,
+    "P100_refused_chain_repost": 0,
+    "raw_sources_prompts_responses_private_paths_or_game_material_published": false,
+    "continuous_parent_goal_completed": false
+  }
+}
