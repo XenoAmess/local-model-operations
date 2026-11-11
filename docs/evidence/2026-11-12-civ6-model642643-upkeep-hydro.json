@@ -1,0 +1,128 @@
+{
+  "machine_id": "BF-202609141645",
+  "models": {
+    "642": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 8008,
+        "completion_tokens": 676,
+        "total_tokens": 8684
+      },
+      "total_ms": 5890.0685999542475,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      }
+    },
+    "643": {
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 8589,
+        "completion_tokens": 827,
+        "total_tokens": 9416
+      },
+      "total_ms": 7246.41249992419,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      }
+    }
+  },
+  "adoption": {
+    "642": {
+      "raw_code_adopted": false,
+      "Lua51_compile_failure": "[string \"<python>\"]:16: '=' expected near 'continue'",
+      "other_rejections": [
+        "pcall Boolean status captured as data",
+        "Missing own ID/owner/xy and final turn checks",
+        "Invented E.Treasury instead of supplied player component; omits actual reads",
+        "API lookup and world scope outside independent protection",
+        "Game colon call does not follow supplied dot API consumer"
+      ],
+      "native_raw_execution": false
+    },
+    "643": {
+      "raw_code_adopted": false,
+      "normal_numeric_district_type_gives_unread_unknown": true,
+      "fake_pcall_native_exception_escapes": "[string \"<python>\"]:1: optional native read\nstack traceback:\n\t[C]: in function 'error'\n\t[string \"<python>\"]:1: in function 'GetOwner'\n\t[string \"<python>\"]:6: in function <[string \"<python>\"]:4>\n\t(tail call): ?\n\t[string \"<python>\"]:4: in function <[string \"<python>\"]:1>",
+      "other_rejections": [
+        "Local pcall deliberately replaced with a direct invocation",
+        "District numeric type compared to string; no metadata mapping or target coordinates",
+        "xy and turn ignored, no visibility or bounded scan",
+        "Unknowns default to false/zero, raw ok status incorrectly inferred from no return",
+        "Guessed E.YIELD_GOLD and missing supplied operation namespace; only visible purchase mode",
+        "No live modifier-chain check; direction wrongly skips long-term goal while project temporarily powers city"
+      ],
+      "native_raw_execution": false
+    },
+    "raw_code_adopted": false,
+    "directions_only": [
+      "Differentiate Core and UI effective maintenance APIs",
+      "Qualify already owned hydro before assuming it is missing"
+    ]
+  },
+  "qualification": {
+    "642_owner_contract_groups": 5,
+    "643_owner_contract_groups": 6
+  },
+  "maintenance": {
+    "daily_date": "2026-11-12",
+    "OpenCode_installed_registry": "1.19.5",
+    "same_machine_user_success_cache_reused": true,
+    "upgrade_this_window": false,
+    "OpenCode_native_generation": 0
+  },
+  "cumulative": {
+    "logical_calls": 643,
+    "complete": 599,
+    "length_failures": 41,
+    "transport_failures": 3,
+    "HTTP_attempts": 673,
+    "additional_attempts": 30,
+    "actual_initial_inflight": 1,
+    "OpenCode_native_generation": 0,
+    "cached_prompt_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "still_open": [
+    "Eligible unbuilt dynamic future upkeep and tight-budget guard",
+    "Reload gross income change cause",
+    "Shanghai IndustrialZone repair and old Factory resume",
+    "Other renewable sources or technology for resource-free power beyond existing6",
+    "Full acceptance matrix and older unknown recovery"
+  ],
+  "schema": "local-model-operations.civ6-model642643-upkeep-hydro/v1",
+  "utc": "2026-11-11T22:35:09.494849+00:00",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/f8e2eab9d2090790a47af7dcdfeb40e97ac72be4/docs/research/baiqi-p6-model642643-core-upkeep-hydro260-2026-11-12.json",
+    "sha256": "7a6cc46f5c7f50a89300e77c8735690fd35b8be110ab25837c114bfb506d0282",
+    "bytes_scope": "git_blob",
+    "working_copy_sha256": "cc5ae68e93fcf459f50a37cbd5b340612f22a6532813ba63c32e5136dbc84782"
+  },
+  "generic_lessons": [
+    "Same method names in UI and Core can differ: owned barrier effective upkeep was7 Core,0 UI,1 static; unbuilt0 and Core NotImplemented are not future-cost evidence.",
+    "A suspected missing hydro was already owned; qualify actual state before implementing duplicate build priority.",
+    "Protect each optional API and retain partial original output after owner errors without replaying the original Native request.",
+    "Finite metadata bounds can fail; one4096 limit error was corrected by an independent bounded32768 rule read, never relabeled no-rule.",
+    "A model-defined fake pcall can compile while dropping exception protection; inspect binding and test real error paths."
+  ],
+  "new_source_changes": 0,
+  "raw_model_Native_adoption": 0,
+  "Steam_online_upload": 0,
+  "unknown_cost_and_savings": null
+}

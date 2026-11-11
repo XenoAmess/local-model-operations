@@ -5486,3 +5486,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：641与123原生付费救援258
 
 123原版Gold两次各135扣270，建筑／排水／上海跨事件存续、胶东社区与市场修复实际粮4净6→10；2普通回合14军队SKIP2NPC点击，保存重载目标状态及现金保留、无重购。WORLD总收入531.8125→538.11328125未知，不授全世界一致。641单HTTP200/stop/DONE/VALID，2855+777=3632tokens、5837.7621ms；Members键／组件hash／pcall错误，隔离拒用。Owner6合同、11城61Native阶段0错；原版Index绑定确认，已建屏障GetBuildingMaintenance仍0，hash也0，不当免费或潜在0。实际动态维护预算仍未通过，不能用宽裕财政的救援掩盖。累计641/597完整/41length/3transport/671HTTP/30extra，实际初始在途1、OpenCode原生0、未知成本null。[固定Git blob证据](evidence/2026-11-12-civ6-model641-native123-paid-rescue.json)。
+
+
+## 2026-11-12：642／643真实维护与既有水电
+
+两HTTP各200/stop/DONE/VALID，642为8684tokens/5890.0686ms，643为9416/7246.4125ms。642 Lua51 goto编译及pcall布尔误用拒；Owner5合同后Core21阶段0错，两已建屏障各7，UI0/静态1；未建对照均UI不可造，Core六NotImplemented，不授未来成本。643假pcall直调、数字区域比字符串两隔离反例拒；Owner6合同后首都水电早已有且完好，免费6需求8，生产购买均false，重复建造假设推翻。规则初读4096上限错误后独立32768有界补读通过，不抹掉原错。累计643/599完整41length3transport673HTTP30extra、实际初始在途1、OpenCode原生0、未知成本null。[精确Git blob业务证据](evidence/2026-11-12-civ6-model642643-upkeep-hydro.json)。
