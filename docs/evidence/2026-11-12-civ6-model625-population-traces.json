@@ -1,0 +1,57 @@
+{
+  "schema": "local-model-operations.civ6-model625-population-traces/v1",
+  "utc": "2026-11-11T16:26:30.032041+00:00",
+  "date_local": "2026-11-12",
+  "machine_id": "BF-202609141645",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/982c79392ec07f1e96fc39a9d77b3f292c9a80c0/docs/research/baiqi-p6-source116-population222-trace-evidence-2026-11-12.json",
+    "sha256": "936a4c2f25f262146c0dbcd40776f69180f1d3cfa598d137cc9528afb8537b2f"
+  },
+  "model625": {
+    "usage": {
+      "prompt_tokens": 2304,
+      "completion_tokens": 104,
+      "total_tokens": 2408
+    },
+    "total_ms": 1311.0970000270754,
+    "finish_reason": "stop",
+    "sse_done": true
+  },
+  "adoption": "Core-side weather read direction only; reject exclusion from missing current footprint and impossible before-callback promise. Owner actual Core trace and original ClimateScreen/NaturalDisasterPopup readers, no candidate code executed.",
+  "maintenance": {
+    "date_local": "2026-11-12",
+    "checked_at_local": "2026-11-12T00:07:12.147534+08:00",
+    "installed_version": "1.19.5",
+    "registry_latest": "1.19.5",
+    "updated": false,
+    "cached_on_first_check": false,
+    "cached_for_model625": true,
+    "OpenCode_native_generation": 0
+  },
+  "cumulative": {
+    "logical": 625,
+    "complete": 583,
+    "length": 39,
+    "transport_failure": 3,
+    "HTTP_attempts": 655,
+    "extra_HTTP_attempts": 30,
+    "OpenCode_native_generation": 0
+  },
+  "generic_lessons": [
+    "UI and Core callback labels and associated read state need not be one atomic instant; do not join solely by the displayed turn.",
+    "A moving hazard can have an earlier path through a location even when its current footprint excludes it. Missing current overlap is not proof of no past damage.",
+    "An event aggregate population loss is not a per-city loss receipt. An initial zero loss at creation is not necessarily the final lifetime result.",
+    "Read complete relevant original consumers when narrow keyword searches miss a real data namespace; owner preparation errors are separate from model transport.",
+    "A copied autosave must remain byte-identical and be qualified by the actual loaded world; filename and load ACK are not sufficient.",
+    "Keep independent reproductions separate from ordinary continuous acceptance and restore all callbacks before returning to the preserved main checkpoint."
+  ],
+  "owner_corrections": [
+    "Second branch Continue reference exceeded60s; guard rejected with0 input, fresh capture allowed once.",
+    "Core extension isolated fixture initially used FLOOD instead of STORM; fixed fixture and passed before Native use.",
+    "Auto221 first snapshot guard failed with0 gameplay input; actual turn221/pop6/current storm verified and new readonly sample passed.",
+    "Initial primary source search omitted GameRandomEvents; reading full consumer exposed the native damage/history ports later. Owner preparation cost is not model service failure."
+  ],
+  "OpenCode_native_generation": 0,
+  "owner_active_seconds": null,
+  "net_savings_seconds": null
+}

@@ -5374,3 +5374,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 两次各1HTTP200/stop/DONE/VALID，5349与1702tokens、2247.3313/2083.7072ms。623缺评分city关联和正确撤钩合同，拒用；624只保留事件订阅方向，中心点匹配及当前正盈余推断拒用。Owner7隔离观察器合同，0自然目标；人口守卫失败后仍装钩的错误已立即清理，0END222。116正常建第11城但武汉6→5，当前库存正不能排除之前饥饿，原因待独立复现。累计624/582完整/39length/3transport/654HTTP/30extra，0OpenCode原生，未知成本null。
 
 [固定业务证据](evidence/2026-11-11-civ6-model623624-population222.json)。
+
+
+## 2026-11-12：625与移动灾害的时序／归因限制
+
+625单HTTP200/stop/DONE/VALID，2304+104=2408tokens、1311.097ms。只采用Core读数方向，缺当前覆盖就排除因果的建议拒用。Owner三独立分支5END/20军队SKIP/3原版Bye，229末快照行无错丢，25订阅全撤；UI/Core回调turn和状态并不原子。原版完整消费者补读后查到风暴26历史PopLost4／损10格，武汉实际只少1，逐城归因未闭，不授food修复。准备期遗漏真实namespace、夹具类型及过期原图均归owner。Nov12新维护1.19.5成功无升级，625复用缓存；累计625/583完整/39length/3transport/655HTTP/30extra，0OpenCode原生，未知成本null。
+
+[固定业务证据](evidence/2026-11-12-civ6-model625-population-traces.json)。

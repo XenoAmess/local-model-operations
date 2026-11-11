@@ -1283,3 +1283,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-11：623—624仅普通HTTP
 
 未新增OpenCode原生生成。普通HTTP方向审阅、owner隔离观察器合同、实际人口变化和失败停链错误分别记录，不以完整响应授根因或工具能力，见[固定证据](evidence/2026-11-11-civ6-model623624-population222.json)。
+
+
+### 2026-11-12：当日维护通过，625仍为普通HTTP
+
+OpenCode与registry实际1.19.5、未升级；当天首次检查成功后625命中维护缓存。未新增OpenCode原生生成或工具循环证据。Core／UI复现实验与候选传输分账，见[本次记录](evidence/2026-11-12-civ6-model625-population-traces.json)。
