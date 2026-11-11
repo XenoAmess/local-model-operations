@@ -5451,3 +5451,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：120 实机供电与 253 完成态
 
 无新HTTP用于本段Native；633软件候选已记，独立634诊断在重载期间完成但不在此追认采用。原119246冷载全同，七实际回合／7显式END／49军队SKIP／0人工内政，秀容247、胶东广州248自动项目，胶东249实际市场4→6、250原版项目完成并接续；入队和重开帧可未供电，非连续供电保证。251社区/市场受损变0且洪灾拒修，另诊防洪。10被动行0错丢、3订阅撤；253重载11城/158建筑/64区域/204可见自有格/52单位及food/vitals/power/damage全同。70 Localization官方Clickout/HoF来源不当成Baiqi加载失败，也不称日志全零；owner迭代器错误单列。普通END与议会原版消费者内置END未作全局计数。[固定证据](evidence/2026-11-12-civ6-source120-native-power253.json)。
+
+
+## 2026-11-12：634 海岸低地与防洪资格
+
+单HTTP200/stop/DONE/VALID，7558+1467=9025tokens、11217.9624ms。原稿不满足FindID合同且缺身份视野、区域类型、两种生产资格和分阶段保护；隔离给定合同0目标读取，原代码拒用。Owner6合同后两自有地块40阶段0API错误，Flooded=true/Submerged=false，nil未知保留；屏障无、完整生产false/排除true，所需科技尚无但可研究。仅只读诊断，不授建设或排水效果。累计634/592完整/39length/3transport/664HTTP/30extra，实际初始在途1，OpenCode原生0，成本未知null。[固定Git blob证据](evidence/2026-11-12-civ6-model634-coastal-flood.json)。

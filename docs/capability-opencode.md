@@ -1328,3 +1328,8 @@ OpenCode与registry实际1.19.5、未升级；当天首次检查成功后625命�
 ### 2026-11-12：120 Native 不授 OpenCode 原生能力
 
 正式供电、完成及重载是owner修订编测后的实机证据，没有新增OpenCode原生工具生成；[分账](evidence/2026-11-12-civ6-source120-native-power253.json)。
+
+
+### 2026-11-12：634 洪灾诊断
+
+同机同用户1.19.5每日维护成功缓存复用；本次普通HTTP，无升级、无OpenCode原生工具生成。两城原生只读资格与实际未来建设效果分开。[记录](evidence/2026-11-12-civ6-model634-coastal-flood.json)。
