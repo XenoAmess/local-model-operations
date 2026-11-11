@@ -5415,3 +5415,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：631 武汉人口回调和受灾名单
 
 真实未完成任务先候选，单 HTTP200/stop/DONE/VALID，10784+1615=12399 tokens、12211.6747ms，初始实际在途1。原代码事件签名错误、历史单表当数组、缺有界快照和精确卸载、恢复243基准错误，拒用；分路回调读取方向部分采用。Owner8隔离合同后，UI/Core各3行、0错丢、8订阅精确撤。原Auto221独立一次普通END/4军队SKIP/1原版Bye，确认武汉在221灾害受影响名单；全事件PopLost0→4仍不能归因武汉一人损失。恢复原完成243，11城/145建筑/63区域/198可见自有格/51单位及food/vitals全同。累计631逻辑/589完整/39length/3transport/661HTTP/30extra，OpenCode原生0，成本收益null。[固定业务证据](evidence/2026-11-12-civ6-model631-wuhan-callback.json)。
+
+
+## 2026-11-12：维护 pause 与单 Life 退役三项分析
+
+3真实并行HTTP全部200/stop/DONE/合法JSON，峰3持续48.037333秒；293348输入／4244输出，TTFT16.561–39.117秒，0length／transport／retry。新维护实现尚未入输入，只有当前源方案分析；0模型代码／已证缺陷采用。拒把AtomicBoolean当durable／借SubmissionPermit、漏!writeReturned、旧UNKNOWN永久不可恢复及wholeLife gate；Task3最终replay正文未供单列输入未知。0本岗JVM/live/账本，不追授pause为原Life结算或target／SAVE，不重投同包。
+
+[完整成本与拒收边界](evidence/2026-11-12-ck3-maintenance-pause-and-single-life-three-http.md)。
