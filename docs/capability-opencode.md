@@ -1278,3 +1278,8 @@ The complete raw implementation was rejected for empty-queue, duplicate identity
 ### 2026-11-11：622普通HTTP与116负责人实现
 
 0新OpenCode原生生成；同日1.19.5维护缓存不授工具循环或代码能力。HTTP纯评分部分采用、集成拒用及owner验证分列，见[固定记录](evidence/2026-11-11-civ6-food-production116-model622.json)。
+
+
+### 2026-11-11：623—624仅普通HTTP
+
+未新增OpenCode原生生成。普通HTTP方向审阅、owner隔离观察器合同、实际人口变化和失败停链错误分别记录，不以完整响应授根因或工具能力，见[固定证据](evidence/2026-11-11-civ6-model623624-population222.json)。

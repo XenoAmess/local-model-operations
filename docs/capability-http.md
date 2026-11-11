@@ -5367,3 +5367,10 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 1HTTP200/stop/DONE/VALID，7620+440=8060tokens，4019.4342ms；纯函数部分采用。原集成增长读取逃出pcall，隔离复现；部分坏表与宜居度提示覆盖拒用，owner有界全表重写。8新方法，旧115两失败；首全1698两版本消费者错误，修后全1697pass/1SDKskip，93Lua51/115包。115实机220只读评分市场4粮/94分但可见资格false，不能冒称116生产。累计622/580完整/39length/3transport/652HTTP/30extra；同日1.19.5维护缓存、0OpenCode原生，未知成本null。
 
 [固定业务证据](evidence/2026-11-11-civ6-food-production116-model622.json)。
+
+
+## 2026-11-11：623—624及新人口变化的诊断边界
+
+两次各1HTTP200/stop/DONE/VALID，5349与1702tokens、2247.3313/2083.7072ms。623缺评分city关联和正确撤钩合同，拒用；624只保留事件订阅方向，中心点匹配及当前正盈余推断拒用。Owner7隔离观察器合同，0自然目标；人口守卫失败后仍装钩的错误已立即清理，0END222。116正常建第11城但武汉6→5，当前库存正不能排除之前饥饿，原因待独立复现。累计624/582完整/39length/3transport/654HTTP/30extra，0OpenCode原生，未知成本null。
+
+[固定业务证据](evidence/2026-11-11-civ6-model623624-population222.json)。
