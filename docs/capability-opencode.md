@@ -1353,3 +1353,8 @@ OpenCode与registry实际1.19.5、未升级；当天首次检查成功后625命�
 ### 2026-11-12：640普通HTTP与原生维护费诊断
 
 当日同机同用户1.19.5成功维护缓存复用，无升级或OpenCode原生生成。Owner错误假设／候选拒用／Native诊断分别计，不把通过编译与无错误日志当效果。[记录](evidence/2026-11-12-civ6-model640-native-maintenance-rejection.json)。
+
+
+### 2026-11-12：123维护费预算软件
+
+复用已计640普通HTTP诊断，无新HTTP或OpenCode原生生成；当日1.19.5维护成功缓存仍适用，未升级。软件修正不追认Native效果。[记录](evidence/2026-11-12-civ6-source123-maintenance-budget-software.json)。

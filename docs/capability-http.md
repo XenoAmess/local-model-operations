@@ -5476,3 +5476,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：640与122原生未购买失败
 
 单HTTP200/stop/DONE/VALID，7274+614=7888tokens、5474.3291ms。真实122256冷载，需求／Native两资格true、价135、金币19287.51953125未变且未买；精确只读函数片段Contexttrue、Read/Eligible均成功nil，实际Maintenance1被Owner零维护假设误挡。640的H2方向独立验证，原稿Context函数当环境及pcall布尔索引隔离失败，原代码拒用；hypotheses字段数组不符合同。Owner13值＋4函数结果全256，无writer/include/Run/全局替换／动作，不授购买。保持256，继续123按维护费预算并预留同回合承诺。累计640/596完整/41length/3transport/670HTTP/30extra，实际初始在途1，OpenCode原生0、未知成本null。[固定Git blob证据](evidence/2026-11-12-civ6-model640-native-maintenance-rejection.json)。
+
+
+## 2026-11-12：123维护费预算软件，复用640诊断
+
+依据已计640真实诊断，Owner允许有限非负维护费、扣除本次及本回合新维护承诺，保留100金币和净2；规则最终重读。默认fixture改实际维护1，20runner方法，精确旧122同组11失败0异常；完整1774项1773pass1SDKskip、95Lua51／117包。新HTTP0，不重复640；累计仍640/596完整/41length/3transport/670HTTP/30extra，初始实际在途1、OpenCode原生0、未知成本null。尚未授123扣款／建筑／排水实效。[固定Git blob证据](evidence/2026-11-12-civ6-source123-maintenance-budget-software.json)。
