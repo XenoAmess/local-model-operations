@@ -1298,3 +1298,8 @@ OpenCode与registry实际1.19.5、未升级；当天首次检查成功后625命�
 ### 2026-11-12：627–629 继续复用每日维护缓存
 
 同机同用户当日1.19.5维护成功缓存复用，三次均普通HTTP候选；未新增OpenCode原生代码生成或工具循环。软件和原版游戏资格诊断分账见[记录](evidence/2026-11-12-civ6-model627-629-blocked-production.json)。
+
+
+### 2026-11-12：630 普通 HTTP；维护缓存复用
+
+同机当日1.19.5维护缓存复用，没有新增OpenCode原生生成或工具循环。Lua多返回候选失败、Owner软件与118真实复现分别计，见[记录](evidence/2026-11-12-civ6-model630-native-pruned-receipt.json)。

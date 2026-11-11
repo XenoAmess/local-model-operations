@@ -5393,3 +5393,8 @@ Source02实际4TU+3BASE首次5并行，5stop／0length／0transportretry，峰5�
 ## 2026-11-12：627–629、实际收益与受阻队列
 
 三次均单HTTP200/stop/DONE/VALID：627为4259+393tokens/3823.497ms，628为2358+389/3233.946ms，629为6327+874/6573.964ms。627无效分支判据拒用；628只部分采用实际建筑收益接口；629只部分采用受损前置区域和PREPEND方向，保护、未完证据、原签名重检及两条目回执由owner重写。118软件1715项1714pass1SDKskip、93Lua51／115包，旧117最终同组5失败。首轮2失败1错误归owner夹具。源118未装，原116实际洪灾阻塞237已保存；只读预验不授写入实效。普通HTTP累计629逻辑／587完整／39length／3transport／659HTTP／30extra，初始实际在途各1；原生OpenCode0、成本收益null。[固定业务证据](evidence/2026-11-12-civ6-model627-629-blocked-production.json)。
+
+
+## 2026-11-12：630 Native 清理条目与回执
+
+单HTTP200/stop/DONE/VALID，2439+1263=3702tokens、9082.852ms。原helper错接pcall多返回，合格隔离夹具实返nil,nil；原回执先限定size2，size1分支不可达，双项也未守旧生产，原片段拒用，只部分采用元数据和反例方向。118真实独立6军队SKIP／1普通END证明Native PREPEND仅留下新Sewer一项、厂73/165仍存，118回执卡住；119负责人修订4新方法，全1719项1718pass1SDKskip、93Lua51／115包，待119实机。首轮稀疏夹具错误归owner。累计630逻辑／588完整／39length／3transport／660HTTP／30extra；初始实际在途1，0OpenCode原生，成本收益null。[固定业务证据](evidence/2026-11-12-civ6-model630-native-pruned-receipt.json)。
