@@ -5539,3 +5539,8 @@ One complete stop request: 32.0237 s total / 26.7338 s content TTFT, 207629 inpu
 Three complete stop requests, peak3 sustained96.564502s; 623354 input / 6452 output, TTFT80.1683/69.4206/48.0944s, no retry or truncation. Both new Life code candidates rejected for actual occurrence/ACK custody violations, absent APIs and fabricated identity; Source20 review supplied no actionable defect and confused installed callback with active private scope. Owner code, DTO21 repair and recovery remain independent. Zero model code/fix adoption; no Runtime or saved-day credit.
 
 [Exact cost, source limits and per-response grading](evidence/2026-11-12-ck3-life-new-witness-and-event495-source20-three-http.md).
+
+
+## 2026-11-12：649新能源改良排序、650粮食证据分析与125实际自动研究
+
+649完整23869tokens／6595.1489ms，4纯函数组过、方向部分可用，原接入只检首选Wind会漏合法Solar，逐行Native资格与界限／城市输入未闭，产品0采用。650完整3966tokens／7643.3592ms，跨scope仍qualified、129事件截断不标未知、None覆盖当空、外国UnitAdded误列生产等4隔离反例整拒，0rawNative。Owner125实机271正进度科技自然完成后正式选卫星，272已296.332/740，尚未解锁或授新能源建设。保存271风险后单普通END，邢州仍11人／库存0.25→1.34765625；前期270→271实际−1仍保留，不能归纯显示或宣布修复。累计650/606完整41length3transport680HTTP30extra，维护缓存复用、未知成本null。[精确公开反链](evidence/2026-11-12-civ6-native125-272-model649650.json)。
