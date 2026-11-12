@@ -5646,3 +5646,8 @@ Two distinct complete source reviews, zero findings and zero model code adoption
 Four complete stop requests,383135 input/12129 output, no retry/length; last independent pair peak2/40.761487s. Original projection patch missed early alias ordering; one diagnosed correction fixed the small production core but its regression draft remained broken. A later same-round Published candidate matched the owner contract, while its test and an independent review's unsupported high-severity claims were rejected. Actual core adoption not held at this cut; no compile, measured benefit, Runtime or SAVE grant.
 
 [Costs, corrected source mechanics and rejected verification claims](evidence/2026-11-12-ck3-projection-choice-and-domain-rejoin-candidates.md).
+
+
+## 2026-11-12：129正燃料供电资格软件
+
+664 Planner窄hunk在实际模块12形态通过后采用；Admin原hunk拒用，Owner补有限非负、free<required和两个bool资格，研究只针对未供满或project-only城市，不抢真实非project供电。临时项目对实际未供满、已知正燃料仍可排名，原queue／Native合法性／正进度／pending不重发保留。10新真实方法，精确旧128四方法6断言失败0异常；冻结全1858项1857pass1SDKskip，97Lua119包。正式同283煤2冷验待做，0新HTTP不重计663664。[固定blob反链](evidence/2026-11-12-civ6-source129-positive-fuel.json)。

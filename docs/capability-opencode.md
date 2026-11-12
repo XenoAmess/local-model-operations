@@ -1453,3 +1453,8 @@ Nov12同机同用户1.19.5成功每日维护缓存复用，三个普通HTTP候�
 ### 2026-11-12：663／664普通候选与分段采用
 
 同机同用户Nov12的1.19.5维护成功缓存复用，普通HTTP峰值2；原663与664 Admin拒用、664 Planner局部经实际模块审阅批准，软件／Native阶段分账，OpenCode原生生成0。[回执](evidence/2026-11-12-civ6-model663664-fuel-gap.json)。
+
+
+### 2026-11-12：129软件局部采用分账
+
+0新增HTTP／OpenCode原生。664已审阅Planner局部采用和Owner Admin修正得到冻结全量软件验证，仍不授游戏效果／未来预算／最终持续供电。[回执](evidence/2026-11-12-civ6-source129-positive-fuel.json)。
