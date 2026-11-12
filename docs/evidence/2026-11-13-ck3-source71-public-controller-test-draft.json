@@ -1,0 +1,297 @@
+{
+  "schema": "local-model-operations.source71-public-test-draft/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "task": "One new independent unapplied advisory test draft against owner-corrected Source71, not a third retry of its production task. Planning owns actual test leaf and first typing independently.",
+  "input": {
+    "frozen_file_raw": {
+      "bytes": 558798,
+      "sha256": "4140072c9166716351b427fd0e38d34f75dfe9fa28260466bee31a2b8dd28de2"
+    },
+    "actual_message_LF_utf8": {
+      "bytes": 556365,
+      "sha256": "6facfc0d7a32e3712f59deb986bf442c94201bcf9fcdb0a1bee0356fc652e494"
+    },
+    "normal_transform": "Existing caller read_text CRLF-to-LF only; no hidden content/source change."
+  },
+  "complete_sources": [
+    {
+      "frozen": "01-SOURCE-READY71.json",
+      "bytes": 5358,
+      "sha256": "2da2becbc6b8d7a46c61b2a591601e87f651fac4b7cae649aa90e2fdc7f78aae",
+      "extent": "complete candidate SourceReady metadata, NOT actual Runtime adoption"
+    },
+    {
+      "frozen": "02-SessionController.java",
+      "bytes": 140121,
+      "sha256": "b70b6512874da7d3132b1b018cd1ae6c51bd9424fcc0526d01d42b8723c5f7d1",
+      "extent": "complete coherent actual Source71 candidate production leaf, not active Source68 worker"
+    },
+    {
+      "frozen": "03-BatchLimits.java",
+      "bytes": 1872,
+      "sha256": "bb9f78d97ad517b48d8ed330fa05c8ad0975926d4921a440af046b0e15d2cd0f",
+      "extent": "complete coherent actual Source71 candidate production leaf, not active Source68 worker"
+    },
+    {
+      "frozen": "04-RootOrdinaryWorkerLoop.java",
+      "bytes": 55469,
+      "sha256": "1dfc78e8ec54cee5468b3cc324e34322f7a67cf60b0ba341e6be761c258225c4",
+      "extent": "complete coherent actual Source71 candidate production leaf, not active Source68 worker"
+    },
+    {
+      "frozen": "05-RootOrdinaryWorkerMain.java",
+      "bytes": 29482,
+      "sha256": "e024c451b767eccf0a74ff74d9ace2ca1bc342d09eff045f43b8fa9da220f690",
+      "extent": "complete coherent actual Source71 candidate production leaf, not active Source68 worker"
+    },
+    {
+      "frozen": "06-DriverAppliedLifeHistory206Test.java",
+      "bytes": 14488,
+      "sha256": "979d0238ac9123a2e038b85df2c34b19caa69e2f1fc4763c7465f1d39eb81b1e",
+      "extent": "complete real public valid AppliedLife DTO example; private/package fixture is reference only, do not call inaccessible test helpers"
+    },
+    {
+      "frozen": "07-SessionControllerRegressionTest.java",
+      "bytes": 108782,
+      "sha256": "ee6798b228ded39a94c74f80943c49b51ae9adcd73461c0a35eb2d63d2ab347c",
+      "extent": "complete existing public Controller ports/shared clock/real Planner/reference fixture contracts"
+    },
+    {
+      "frozen": "08-LifeBudgetHint334Test.java",
+      "bytes": 10079,
+      "sha256": "88b15ebbe833534bc67a7e065b67d707ff4ede4ba1aec6356eacb11f6da8693d",
+      "extent": "complete existing real budget subject/reserve/default contract fixture"
+    },
+    {
+      "frozen": "09-RootAnnualDirtyLifeBudgetTest.java",
+      "bytes": 24226,
+      "sha256": "7245be010e28e44c7052f0eaed0a2e8d781762a2bde804397b72e85890d9013a",
+      "extent": "complete existing RootLoop package consumer/default/annual dirty fixture and control/BatchAccess seam"
+    },
+    {
+      "frozen": "10-SessionPorts.java",
+      "bytes": 23739,
+      "sha256": "4f71dbe0e2da0f56918232a16c6051c3a39d8d6c30f03ce1a3fe24323a216c77",
+      "extent": "complete current public Ready/SemanticEvidence/BatchJournal/CompletedCycleProof/other port records"
+    },
+    {
+      "frozen": "11-SessionClock.java",
+      "bytes": 1118,
+      "sha256": "1e6759cd4112e6aafd488a142690ed7b0ccb044143cbddfdb657f2b730487c9c",
+      "extent": "complete actual mutable software clock interface"
+    },
+    {
+      "frozen": "12-BatchReport.java",
+      "bytes": 10541,
+      "sha256": "8903576da4f5f7d93ab512b22e4613686959e1f6de7989c84f3a08b0f8c6c309",
+      "extent": "complete actual report/turn/phase/terminal/Journal DATA records"
+    },
+    {
+      "frozen": "13-OrdinaryPlanner.java",
+      "bytes": 23645,
+      "sha256": "6046542c947d24cff9c8a615fbd3ae005294f59b32b1433ab3d8bcfc9804db06",
+      "extent": "complete real public OrdinaryPlanner constructor/evaluate/run/policy port implementation"
+    },
+    {
+      "frozen": "14-OrdinaryPlanCompletion.java",
+      "bytes": 5484,
+      "sha256": "7db25d542008083bda653ff2944a4b613d187ff30fcd3ee217fce5e523c9406c",
+      "extent": "complete public completion/PlanningScope contract"
+    },
+    {
+      "frozen": "15-PlanningRequest.java",
+      "bytes": 3328,
+      "sha256": "a3a08bf35a207ea8fe8314695bc80cd5a84057ad6978c6d0c5e8a7f812db233b",
+      "extent": "complete actual public Planner request/observations/owner binding"
+    },
+    {
+      "frozen": "16-PlanningResult.java",
+      "bytes": 3395,
+      "sha256": "c064331c8cc8fd8d10c4439f847c88fd92a6972535c7b13e82e7e401bf7d2c41",
+      "extent": "complete actual Planner result types"
+    },
+    {
+      "frozen": "17-ActionEffects.java",
+      "bytes": 44676,
+      "sha256": "367653ab1e83ad0a00171c9bc6d7731821f12f5fecbb2e740cd586a4400032e8",
+      "extent": "complete real validateComposite/validateChildBindings and visible/eligible checks for legal Life DTO"
+    },
+    {
+      "frozen": "18-ActionReceipt.java",
+      "bytes": 5260,
+      "sha256": "03db0d0edd0facf9fcabb24897a870c4eac11f13b67808cebef583b06c6a63d4",
+      "extent": "complete real receipt constructors/accessors/outcome/settled validation"
+    },
+    {
+      "frozen": "19-ActionState.java",
+      "bytes": 14316,
+      "sha256": "8314f584b52894527378071b113be4a5d3916581c04ca862d9530679e3cafd8c",
+      "extent": "complete public composite/children/Attempt/Dispatch/Applied/settlement DTO declarations"
+    },
+    {
+      "frozen": "20-ActionCommand.java",
+      "bytes": 5863,
+      "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+      "extent": "complete public command contracts, no fake gameplay origin"
+    },
+    {
+      "frozen": "21-ActionTransitions.java",
+      "bytes": 9931,
+      "sha256": "66ca21e8e0e74e2a715c60696867ecaca5ebf8ba46acb78b654c13324be64694",
+      "extent": "complete real transitions/helper validation used by the valid Life reference"
+    },
+    {
+      "frozen": "22-ActionCoordinatorPort.java",
+      "bytes": 2581,
+      "sha256": "e556ae67de18450bc2828fbf2b4a899e3ada65a1c46524591231919ed5f7b89d",
+      "extent": "complete public action/coordinator port, no private issuer allowed"
+    },
+    {
+      "frozen": "23-CheckpointRequestFactory.java",
+      "bytes": 2870,
+      "sha256": "897656bd6cfd4a4f23db7ce341bf8583fd6a34d3a8fac25805f82398399a57bb",
+      "extent": "complete public checkpoint request factory; no real native SAVE or canonical issuer is created by the test"
+    }
+  ],
+  "request": {
+    "BEGIN_utc": "2026-11-12T18:45:18.432232+00:00",
+    "END_utc": "2026-11-12T18:46:05.931794+00:00",
+    "parameters": {
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "max_tokens": 9000,
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      }
+    },
+    "messages_metadata_only": [
+      {
+        "role": "system",
+        "bytes": 301,
+        "sha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5"
+      },
+      {
+        "role": "user",
+        "bytes": 556365,
+        "sha256": "6facfc0d7a32e3712f59deb986bf442c94201bcf9fcdb0a1bee0356fc652e494"
+      },
+      {
+        "role": "user",
+        "bytes": 707,
+        "sha256": "821fab66971f863ddacbb437b5c4a98428ed527b5ac4d63f30ed46e257be91c8"
+      }
+    ],
+    "http_status": 200,
+    "headers_ms": 14852.126999991015,
+    "content_TTFT_ms": 14853.153400006704,
+    "total_ms": 47499.62260003667,
+    "usage": {
+      "prompt_tokens": 116361,
+      "completion_tokens": 5533,
+      "total_tokens": 121894
+    },
+    "cached_tokens": null,
+    "currency_cost": null,
+    "finish": "stop",
+    "DONE": true,
+    "JSON": "VALID",
+    "routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    },
+    "response": {
+      "bytes": 23153,
+      "sha256": "411185c0cc10709b472db6286a5cf87c400cede08777173698e3fc722789bf47"
+    },
+    "retries": 0,
+    "length": 0
+  },
+  "review_pin": {
+    "bytes": 4009,
+    "sha256": "d736ef7a905ab8781fb96c221e9bf1c8b798d108aa3ad4c985ce49219d443e79"
+  },
+  "review": {
+    "schema": "local-model-operations.source71-independent-test-draft-review/v1",
+    "at_utc": "2026-11-12T18:57:23.585250+00:00",
+    "response": {
+      "bytes": 23153,
+      "sha256": "411185c0cc10709b472db6286a5cf87c400cede08777173698e3fc722789bf47"
+    },
+    "candidate_text": {
+      "bytes": 18146,
+      "sha256": "4d99ec475ba01d5f162025f90b7e49c6f3bbd0066c448283f1867f8f3e19edc0"
+    },
+    "grade": "COMPLETE_UNAPPLIED_ADVISORY_TEST_REJECTED_STATIC_AND_ORACLE_ERRORS_NOT_RUN",
+    "model_test_methods": 4,
+    "compiled": false,
+    "executed": false,
+    "adopted": false,
+    "unique_owner20_leaf_written": false,
+    "production_or_live_changed": false,
+    "concrete_defects": [
+      {
+        "kind": "STATIC_JDK_IMPORT",
+        "actual": "Code uses unqualified Path/Path.of repeatedly but supplies no java.nio.file.Path import; static typing issue, not observed javac RED."
+      },
+      {
+        "kind": "DIRTY_ORACLE_WRONG",
+        "actual": "First earlyWALL asserts dirtySinceSave=false while the real candidate early frontier requires dirty and explicitly preserves that annual tail/savedpair. Fresh after-SEM SAFE does not grant saved credit or clear dirty."
+      },
+      {
+        "kind": "JOURNAL_TERMINAL_ORACLE_WRONG",
+        "actual": "Early clean WALL maps in Controller finally to BATCH_DEFERRED, not the asserted BATCH_FINISHED. The draft treats a scheduler deferral as a normal finished report."
+      },
+      {
+        "kind": "CONSUMER_NOT_THE_PRODUCED_REPORT",
+        "actual": "It first runs controller.runBatch standalone then invokes a new RootLoop; that loop starts new batches instead of consuming the already produced report. It does not prove the claimed first report-to-nextbatch coupling."
+      },
+      {
+        "kind": "FINITE_LOOP_UNPROVED",
+        "actual": "Main test Control.stopRequested returns false forever and onBatchCompleted only appends reports. No demonstrated finite callback cut supports reports.size==2/result.sequence==2; a small-action producer may continue issuing more actions."
+      },
+      {
+        "kind": "STOP_ORACLE_WRONG",
+        "actual": "STOP test Control.stopRequested is true from the beginning. Actual RootLoop tests it before any batch, so zero reports, not the asserted one."
+      },
+      {
+        "kind": "PUBLIC_VALID_LIFE_EVIDENCE_REJECTED",
+        "actual": "The effect originalEvidence and execution.guard.nativeEvidence are both the same REF, contradicting included ActionEffects.validateComposite requirement that the terminal semantic original differ from guard native evidence. Merely tagging Life handler and Applied cannot establish a legal complete Life DTO."
+      },
+      {
+        "kind": "DEFAULT_AND_ANNUAL_CLAIMS_NOT_PROVEN",
+        "actual": "Default/annual/turnbound examples use five-second wall while the same first-action implementation advances601seconds and initial dirty/default setup is not qualified. Their precise expected terminals are not justified; no execution is claimed."
+      }
+    ],
+    "do_not_false_flag": [
+      "SessionClock.Tick(long,Instant) order in this draft is the real API.",
+      "ActionReceipt.applied(), ActionState.EffectObservation and top-level CompositeExecution are real existing types/methods; do not call them invented APIs."
+    ],
+    "input_extent_limit": "23 complete source/test files include the requested coherent4TU/legalLife206/ControllerRegression/Hint334 and full ActionEffects/State/Receipt. Not every referenced transitive type such as CompositeExecution/GuardEvidence/ObservationProvenance was supplied as a separate full file. Post-hoc API checks must not be backfilled as original complete declarations read by the model.",
+    "useful_intent_not_adoption": "Shared clock/action cost, current-subject after-SEM, actual RootLoop consumer/default/SAVE/finite cases were requested. The draft names those intentions but its incorrect assertions do not verify them.",
+    "owner20_independent_test_proceeds_without_waiting": true,
+    "no_retry_or_rewrite_requested_at_this_cut": true
+  },
+  "grade": "COMPLETE_UNAPPLIED_ADVISORY_TEST_REJECTED_STATIC_AND_ORACLE_ERRORS_NOT_RUN",
+  "model_tests_adopted_compiled_executed": 0,
+  "operator_wrote_owner20_or_production_leaf": false,
+  "operator_JVM_Game_GET_JFR_service_change": 0,
+  "peak": 1,
+  "current": 0,
+  "same_day_maintenance_success_reused": true,
+  "limits": [
+    "Complete JSON/code text is not actual JUnit or even a valid oracle.",
+    "No re-post or model-generated tests gate the actual owner test.",
+    "Actual public types/methods checked later cannot be backfilled as complete original transitive declarations; incorrect source assertions are separately attributable."
+  ]
+}

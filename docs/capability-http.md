@@ -5998,3 +5998,10 @@ Source69 common Snapshot leaf/base/dependencies permit reuse of the existing1TU9
 698完整19801tokens／7277.8312ms未形成新Capture缺陷，正确CHARGING冻结既有；把mock throwAfterTransfer/failCharge混作P4实机拒收。Owner包只给P4/P5，漏27/74/75和独立恢复测试，不能把“待补”做全项目缺失盘点或归模型忽略已供数据。699完整9993tokens／13369.4700ms保留67已测范围，但69文件、4096内存／丢弃门和>1000候选义务无据；原建议CLI实际exit2，0输出目录／0安装，store_true单flag与带true区分。Owner未提供候选生产者／512配置也单列，不重投已闭旧绿或假称136性能已测。[候选与Owner输入限制](evidence/2026-11-13-civ6-models698699.json)。
 
 两HTTP峰2／重叠7.277938秒，stop/DONE／严格JSON；累计699逻辑／648完整stop流（含前692严格JSON拒绝）／48length／3最终transport／729HTTP／30extra。Nov13canonical1.19.5成功缓存复用，OpenCode原生0；未知缓存、Owner总成本与净收益null。继续原协议真正压力夹具和当前风险独立验证，不把软件、历史Native、当前集成与模型采用合并成PASS。
+
+
+## 2026-11-13: Source71 independent test draft and Source70 prefix-fold custody task
+
+71 testdraft116361in/5533out/47.4996sstop is unapplied: dirty/journal/STOP/consumer/finite oracles wrong, no actualJUnitRED. Production71 posterior is partial record+oldCtor/callshape, owner actualfrontier/gates/tail separate. [Testdraft](evidence/2026-11-13-ck3-source71-public-controller-test-draft.md); [production posterior](evidence/2026-11-13-ck3-post-life-early-batch-renewal-method.json).
+
+70 two complete stops438774in/1898out/43.8471sHTTP repeat false genericmaterial/frame bypass edges; no code/technicalNO/thirdPOST. Empty actualINITIAL/newcallee evidence only02, no custody/hit/ROI grant. [Source and exact costs](evidence/2026-11-13-ck3-verified-cooldown-prefix-fold-method.md). Both units remain actualpeak1/current0, no fabricated overlap, newVM/live/service actions.
