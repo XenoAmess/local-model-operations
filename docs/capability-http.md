@@ -5559,3 +5559,10 @@ Three complete stop requests, peak3 sustained96.564502s; 623354 input / 6452 out
 ## 2026-11-12：653／654相邻施工与126软件交付
 
 两真实任务实际初始/峰值2、重叠26.500657秒。653完整28754tokens／26500.6884ms，错把CanStartOperation多返回当GetOperationTargets，隔离合法目标仍nil/0真正getter；ctx/站位/writer等整拒。654完整29478tokens／31049.9640ms，Python过但13setup错误0行为pass，未补原输入已明示缺失的UnitOperationResults，另有空pass/坐标误读等整拒。Owner按原版独立adjacent operation、真实Hash稀疏目标/邻格站位/最后元数据函数重读实现，15Lua51新方法，全1807项1806pass1SDKskip、95Lua/117字节精确包；旧125修订3关键行为失败0异常。初哨兵fixture2fail1error分账。126待正式冷验，不授当前125/275施工实效。累计654/610完整41length3transport684HTTP30extra，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-source126-adjacent-builder.json)。
+
+
+## 2026-11-12: Typed after-ACK small-method implementation
+
+Four complete stop requests for three exact duties, peak2/28.232321s; 283145 input/10327 output, no truncation or retry. Native factory and APP DATA groups were actually partially adopted into five owner-corrected Source30 leaves, still partial/not compile-ready. Two archive-validator drafts rejected and owner took over. Fair correction preserves the operator's false ActionReceipt.ack absence claim as an operator error; no Runtime/software/SAVE credit.
+
+[Actual partial adoption, costs and rejected verifier closure](evidence/2026-11-12-ck3-typed-afterack-small-methods-four-http.md).

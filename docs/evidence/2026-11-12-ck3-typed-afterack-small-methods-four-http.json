@@ -1,0 +1,247 @@
+{
+  "schema": "local-model-operations.typed-afterack-small-methods/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "obligations": 3,
+  "HTTP_requests": 4,
+  "semantic_diagnosed_correction_requests": 1,
+  "transient_retries": 0,
+  "request_audit": {
+    "model": "qwen38-coder",
+    "messages": 3,
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true,
+    "DIRECT": true,
+    "actual_peer": "UNKNOWN",
+    "same_day_OpenCode1_19_5_success_cache_reused": true,
+    "active_service_or_consumer_config_changed": false
+  },
+  "concurrency": {
+    "definition": "POST_BEGIN through END",
+    "maximum_peak": 2,
+    "peak2_continuous_seconds": 28.232321,
+    "remaining_requests_each_peak1": true,
+    "current_inflight_after_all_end": 0,
+    "first_begin_utc": "2026-11-12T00:19:32.045216+00:00",
+    "last_end_utc": "2026-11-12T00:36:00.905786+00:00",
+    "full_first_to_last_window_includes_owner_preparation_and_business_priority_wait_not_HTTP_runtime": true
+  },
+  "cost": {
+    "complete_stop": 4,
+    "length": 0,
+    "transport_failure": 0,
+    "prompt_tokens": 283145,
+    "completion_tokens": 10327,
+    "sum_attempt_total_ms": 103138.95970012527,
+    "financial_cost": null,
+    "owner_preparation_seconds": null
+  },
+  "tasks": [
+    {
+      "task": "life-typed-native-factory-01",
+      "post_begin_utc": "2026-11-12T00:19:32.045383+00:00",
+      "end_utc": "2026-11-12T00:20:00.277704+00:00",
+      "prefix": {
+        "bytes": 258097,
+        "sha256": "865b401203231d0c85bc38a82d56c6c51b87958e3f8179e844f2f6cb97ec1490"
+      },
+      "max_tokens": 7000,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "http_headers_ms": 12315.999599988572,
+      "first_nonempty_content_delta_ms": 12317.05349998083,
+      "total_ms": 28232.287000049837,
+      "prompt_tokens": 54030,
+      "completion_tokens": 2256,
+      "cached_prompt_tokens": null,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_grade": "SOURCE_PARTIAL_CODE_ADOPTED_WITH_OWNER_CORRECTIONS",
+      "content": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 10879,
+        "sha256": "f4ed6b383693470aff40394b1c30148dbd93813a7e3ab59d706f10bf2000f483"
+      }
+    },
+    {
+      "task": "life-typed-app-data-codec-02",
+      "post_begin_utc": "2026-11-12T00:19:32.045216+00:00",
+      "end_utc": "2026-11-12T00:20:03.464915+00:00",
+      "prefix": {
+        "bytes": 174893,
+        "sha256": "1a1f26f51e16047fe7731faf9f5ca0ca188c75f5555176623ef41ffb27fd23ce"
+      },
+      "max_tokens": 10000,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "http_headers_ms": 8651.080299983732,
+      "first_nonempty_content_delta_ms": 8652.199700009078,
+      "total_ms": 31419.738800032064,
+      "prompt_tokens": 38113,
+      "completion_tokens": 2853,
+      "cached_prompt_tokens": null,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_grade": "SOURCE_PARTIAL_CODE_ADOPTED_WITH_OWNER_CORRECTIONS",
+      "content": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 12972,
+        "sha256": "c86fc0e1dfd71786acd78a6da0d549a6f98199e7497c34594c1dac521611d789"
+      }
+    },
+    {
+      "task": "life-typed-root-archive-validator-03",
+      "post_begin_utc": "2026-11-12T00:27:21.744389+00:00",
+      "end_utc": "2026-11-12T00:27:48.710513+00:00",
+      "prefix": {
+        "bytes": 447669,
+        "sha256": "e8e410f616358668d764c3b2e69fd97e7aeaf15633f5500789ddebf12ee877d5"
+      },
+      "max_tokens": 10000,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "http_headers_ms": 12044.28839997854,
+      "first_nonempty_content_delta_ms": 12045.175799983554,
+      "total_ms": 26966.099000070244,
+      "prompt_tokens": 93910,
+      "completion_tokens": 2479,
+      "cached_prompt_tokens": null,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_grade": "REJECTED_INCOMPLETE_ARCHIVE_VERIFIER_OWNER_TAKEOVER",
+      "content": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 12026,
+        "sha256": "1bcf2cd37ccd89c5e6b7762297b9b7451061b86de271eba741f85b3a29f5232d"
+      }
+    },
+    {
+      "task": "life-typed-root-archive-validator-fix04",
+      "post_begin_utc": "2026-11-12T00:35:44.384915+00:00",
+      "end_utc": "2026-11-12T00:36:00.905786+00:00",
+      "prefix": {
+        "bytes": 447669,
+        "sha256": "e8e410f616358668d764c3b2e69fd97e7aeaf15633f5500789ddebf12ee877d5"
+      },
+      "max_tokens": 10000,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "http_headers_ms": 1450.2105999272317,
+      "first_nonempty_content_delta_ms": 1451.2849999591708,
+      "total_ms": 16520.834899973124,
+      "prompt_tokens": 97092,
+      "completion_tokens": 2739,
+      "cached_prompt_tokens": null,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_grade": "REJECTED_INCOMPLETE_ARCHIVE_VERIFIER_OWNER_TAKEOVER",
+      "content": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 13283,
+        "sha256": "fdc64af0ccfc5a5d5829f379210852dc5c0c5531669d2efe44fd7edea8a9d21c"
+      }
+    }
+  ],
+  "actual_source_adoption": {
+    "proof": {
+      "name": "OWNER-PARTIAL-METHODS30.json",
+      "bytes": 6036,
+      "sha256": "97dd9b9e2ec23426739974514db5ac33c94aaf8bded4c792e6bdcd33c6beb9e9"
+    },
+    "state": "PARTIAL_NOT_COHERENT_NOT_COMPILE_READY",
+    "partially_adopted_model_groups": 2,
+    "owner_corrected_leaves": 5,
+    "new_source_pins": [
+      {
+        "name": "NativeGameTransport.java",
+        "bytes": 158722,
+        "sha256": "0660121ace8ee634bb0b96be74cdcbda3467415aa31f757eb0ad94a8f1839c36"
+      },
+      {
+        "name": "ObservationProvenance.java",
+        "bytes": 5899,
+        "sha256": "5d584d9552e40da2a4561669c549a323280a91a4a8c170060e3e8fde8298ed07"
+      },
+      {
+        "name": "ObservationProvenanceCodec.java",
+        "bytes": 6881,
+        "sha256": "3b5973932edcb5cb2596125c3cab0687e59fbe272d4a18ca2b173c6d12f812a9"
+      },
+      {
+        "name": "NativeEffectEvidence.java",
+        "bytes": 25459,
+        "sha256": "f1a0bd22c4f179e635554f8c7996ea2290f6a4a18fce738d4a9437a39ee6c490"
+      },
+      {
+        "name": "TimelinePhysicalAfterAckEvidence.java",
+        "bytes": 7176,
+        "sha256": "4e5e6c35c127844a508d9a482fbeab24c41d08565a9d1fff2bfa24e892c33a43"
+      }
+    ],
+    "owner_corrections": [
+      "Native requireOriginal delegates same live factory then compares identical accepted receiver token and setter chronology, closing post-close/current-session/epoch gap.",
+      "Native factory also requires DTO nativeOk, accepted session equals current setter chronology, and existing AdvancePrimitives.nativeResult verifies actual timeline operation accepted semantic after raw packet equivalence.",
+      "APP missing ActionPorts import, Instant.parse around StrictJson.utc, and preserve ref bytes/SHA binding repaired.",
+      "Recorded.publicRevision is actual Complete projected public revision, not transport pre-offset revision."
+    ],
+    "software_compilation_qualification": false,
+    "coherent_protocol_or_Runtime_qualification": false
+  },
+  "rejected_verifiers": {
+    "first": "Reverse application-to-Root dependency, wrong receipt/record/request APIs, excludes legitimate ACK state, missing actual ACK and native packet/ref/prepared closure.",
+    "correction": "Corrected module route and some APIs but still fails to load/bind recorded ACK, original native Snapshot and full claims/prepared/ref/optional-token closure. Owner takeover; no further same-task loop.",
+    "not_compiled": true
+  },
+  "fair_owner_corrections": {
+    "incorrect_prior_critique": "The operator said ActionReceipt.ack did not exist. It does; the operator confused ActionReceipt with ActionCommand. This is an operator mistake, not model defect.",
+    "actual_missing_getters": [
+      "ActionReceipt.attempt",
+      "PhysicalAfterAcknowledgement.snapshotReceived"
+    ],
+    "real_APIs_not_misclassified": [
+      "ActionReceipt.ack",
+      "ActionIds.child(parent,ordinal,operation)",
+      "NativeRequestChronology.PacketIdentity.of",
+      "RawJson.equals byte-content comparison"
+    ],
+    "NativeFramePacket_literal": "Owner shorthand resolved before first POST to actual NativeWire/NativePacketPort declarations; no imaginary class dependency was supplied."
+  },
+  "limits": [
+    "Mechanical unique-anchor checks are not compilation or semantic proof.",
+    "Source partial adoption does not retroactively adopt the prior broad-design refusals/rejected candidates.",
+    "Cached prompt tokens were null; TTFT differences do not prove cache or general throughput changes.",
+    "All new native witness/data decoding/body hot-redefinition admission remains separately unqualified.",
+    "No business source writes, candidate JVM/tests, Game/Native queries or new Runtime authority performed by model operator."
+  ]
+}
