@@ -1,0 +1,141 @@
+{
+  "schema": "local-model-operations.civ6-positive-fuel-native318/v1",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/ea1ac4da257d15b1b0c9ceb08d4e4cbb490f0579/docs/research/baiqi-p6-native133-positive-fuel318-2026-11-12.json",
+    "sha256": "7548a77a9efdf2705e90070ac461edd78b2c3252055dfd902938525f72b993aa",
+    "bytes_scope": "git_blob"
+  },
+  "Native_effect": {
+    "cityID": 589832,
+    "position": [
+      62,
+      34
+    ],
+    "before": "Zoo179/180 at315; actual own completion callback316 with queue empty",
+    "completion_snapshot": {
+      "required": 2,
+      "free": 0,
+      "temporary": 1,
+      "fully_powered": false,
+      "active_project": false,
+      "coal": 3,
+      "oil": 1,
+      "uranium": 0,
+      "queue_hash": 0,
+      "queue_size": 0,
+      "status": "KNOWN"
+    },
+    "background_request": "BaiqiExecutor: BAIQI|request|turn=316|id=0:316:210|source=BACKGROUND|city=589832|type=PROJECT_ENHANCE_DISTRICT_INDUSTRIAL_ZONE",
+    "matching_queue_receipt": true,
+    "native316_actual_queue": "Industrial project Index10/hash-1205325871 progress0/cost166",
+    "actual317_power_project_rows": [
+      [
+        "P6_133_RUNTIME_SCORE",
+        "true"
+      ],
+      [
+        "P6_133_POWER_CITY",
+        "589832",
+        "12",
+        "0",
+        "0",
+        "2",
+        "true",
+        "true",
+        "-1205325871",
+        "100",
+        "168",
+        "false",
+        "NO_MARKET",
+        "64.9296875",
+        "4"
+      ],
+      [
+        "P6_133_FUEL",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "P6_133_POWER_DONE"
+      ]
+    ],
+    "actual318_power_project_rows": [
+      [
+        "P6_133_RUNTIME_SCORE",
+        "true"
+      ],
+      [
+        "P6_133_POWER_CITY",
+        "589832",
+        "13",
+        "0",
+        "0",
+        "2",
+        "true",
+        "true",
+        "-1205325871",
+        "152",
+        "170",
+        "false",
+        "NO_MARKET",
+        "2.4140625",
+        "4"
+      ],
+      [
+        "P6_133_FUEL",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "P6_133_POWER_DONE"
+      ]
+    ],
+    "functional_result": "SUPPORTED_NATIVE_SEQUENCE: actual unpowered/positive fuel completion snapshot -> fresh BACKGROUND industrial project and queue receipt -> actual progressed project100/168 at317 with full power/activeProjecttrue,152/170 at318 still fully powered.",
+    "causal_bound": "Completion snapshot is not a direct trace of private planner inputs or an atomic event-to-request state. The supplied fuel validation still separately accepts zero. Actual project-powered flag supports active-project power, not permanent supply or oil consumption.",
+    "oil317318": 1
+  },
+  "observer": {
+    "notifications": 25,
+    "both_native_event_kinds_triggered": true,
+    "all25_double_reads_known": true,
+    "errors": 0,
+    "drops": 0,
+    "exact_own_subscriptions_restored317": true,
+    "removeErrors": 0,
+    "post_restore318_samples_and_counters_unchanged": true,
+    "product_functions_replaced": 0,
+    "game_orders": 0
+  },
+  "temporal_resource_limit": "Completion callbacks313 observedcoal5 while prior312 stablecoal2 and later313 stablecoal0; later callbackscoal3 while final stock0. Endpoint snapshots do not establish monotonic stocks or exact consumption attribution.",
+  "retained_investment_gap": {
+    "old_project_progress": 143,
+    "cost318": 170,
+    "not_resumed_completed": true,
+    "powerplant33_completed317_owned_and_intact": true,
+    "new_head317": "Stadium0/240",
+    "new_head318": "Stadium59/240",
+    "classification": "Retained progress is not scheduled work; building-only investment hint lacks project continuation. Real implementation/acceptance gap, not corrected by manual queue input."
+  },
+  "new_HTTP": 0,
+  "frozen_through688": {
+    "logical": 688,
+    "complete": 638,
+    "length": 47,
+    "transport": 3,
+    "HTTP": 718,
+    "extra": 30,
+    "OpenCode_native": 0
+  },
+  "separate_models689690": "Not credited or recounted in this Native follow-up; next software case",
+  "unknown_cache_cost_net_savings": null,
+  "lessons": [
+    "Keep completion notification, current snapshot, original request, queue observation and actual game effect as separate pieces of evidence.",
+    "A completion snapshot is not the direct input of a later private planner function; do not claim atomicity or stronger causality.",
+    "Resource amounts can rise between endpoint reads and then be consumed. Observed callbackscoal3/5 with final0 do not justify monotonic interpolation.",
+    "Native teardown needs exact-reference removal and later evidence of no new observer records despite real production completion.",
+    "A retained amount of production is not a scheduled task. A completed repair chain followed by a new unrelated building exposes a real project-continuation gap.",
+    "Housing adequacy is a separate domain from food/loyalty qualification."
+  ]
+}
