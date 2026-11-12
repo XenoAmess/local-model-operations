@@ -5805,3 +5805,13 @@ One guided request completes stop/DONE with68039 input/710 output, TTFT8.7219s/t
 ## 2026-11-12：676/677通知与地块移除独立复现
 
 676完整7492tokens／四反例整拒，67711992tokens含输出6500 length整弃未读；Owner10合同后Native27条0错丢，明确NIL通知保留。独立302→303前后8组全匹配，人口回调正库存、目标2133移除与原版哈布沙尘暴本回合1人口通知支持天气推断；最新全局事件已是另飓风，不能错绑。10监听精撤、原主303恢复，净粮重载差异单列。累计677／630完整44length3transport707HTTP30extra，维护缓存复用／OpenCode原生0／净收益null。[固定blob反链](evidence/2026-11-12-civ6-xiurong303-notice676677.json)。
+
+
+## 2026-11-12: Actual prepared-supplier adoption and true composition qualification
+
+No new HTTP. Source61 actually adopts both model edits unchanged; actual/formal each compile one TU/six classes, and final owner revision03 passes four real Fixture/publisher/CAS/collector/new-Root-overload/Planner/Controller methods. Every-pass ROOT, two real receipt roles, same-marker/new-Native cadence, expiry/failures/Blocked are checked. Owner Test lambda RED and history1-versus2 failure are preserved; the unrun ROOT-skip proposal is rejected, not model production repair. Complete Managed/Core issuance, formal behavior and Runtime/speed/SAVE are separate. Root's prospective engineering metadata cap is not a new user grant or retroqualification.
+
+[Posterior source, real tests, original failures and costs](evidence/2026-11-12-ck3-prepared-publication-supplier-method.json).
+
+
+Later formal Root6 also independently passes the same owner whole4 (four unique methods/eight actual+formal executions), with its own ACTUAL/XML/close. Only that prefix is replaced; no full formal-platform/Managed/Core/Runtime or speed grant is inferred.
