@@ -1538,3 +1538,8 @@ Nov12同机同用户OpenCode1.19.5成功缓存复用，三个新调用均普通H
 ### 2026-11-12：133游戏后见不补计模型调用
 
 Owner修正部分HTTP候选后的实际新计划救粮／两普通回合保持，及另城灾害人口失败分别记。0新HTTP，不重计682，0OpenCode原生；此前每日维护缓存不授代码能力，成本未知null。[固定Native业务反链](evidence/2026-11-12-civ6-native133-food-fire306.json)。
+
+
+### 2026-11-12：133完成态持久化后见
+
+完成态重载保两回执，0新增救粮；其余数值重算差异保留、不授全世界不变。0新HTTP、through682不重计，0OpenCode原生、未知成本null。[固定完成态反链](evidence/2026-11-12-civ6-completed-food133-reload306.json)。

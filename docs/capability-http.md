@@ -5830,3 +5830,8 @@ Later formal Root6 also independently passes the same owner whole4 (four unique 
 ## 2026-11-12：133后见Native救粮与独立人口失败
 
 Owner修正部分680/681后实际冷验：已转入旧许可不重发，另一新计划使目标净粮0、15人口跨两普通回合保持；另城也自然新救粮。33食品／忠诚城帧过，但306另一供粮城人口−1单独触发停止，正库存／自有燃烧森林及原生事件损失支持灾害推断，缺逐城原因码不冒全窗口通过；Core/UI净粮差异分别记。新完成态重载另待，0新HTTP／through682不重计，0OpenCode原生、未知成本净收益null。原始候选整份采用并未追授。[固定Native业务反链](evidence/2026-11-12-civ6-native133-food-fire306.json)。
+
+
+## 2026-11-12：133完成态重载后见
+
+同一保存306一次官方重载／一次继续，旧两OBSERVED与serial4保持；严格旧日志前缀后新增救粮请求／回执均0。11城身份人口库存保持、食品／忠诚合格；完整World/建筑/区域/地块同，但1Builder成本、同演员续行、多城产出／宜居重算差异另记，原因未隔离，不报whole-world invariance。初次过宽CITY整行保护拒绝后先分域检查、0依赖输入；四旧人口损失及六停止记录保留，明确新范围继续工厂。0新HTTP／through682不重计／OpenCode原生0，未知成本净收益null。[固定完成态反链](evidence/2026-11-12-civ6-completed-food133-reload306.json)。
