@@ -5922,3 +5922,10 @@ One complete new method request23950in/1238out, TTFT3.3263s/total10.7780s, peak1
 ## 2026-11-12：Civ6692住房选址与严格JSON拒绝
 
 692 HTTP200完整stop/DONE，13644tokens／11835.7839ms／TTFT1867.2277ms；共享报JSON VALID，项目递归重复observation键拒绝／exit1／candidate=null，整份0采用，不修补重试。641完整流计数不等于641严格候选通过。Owner实际134／319十一原生社区候选均被ClearPlot挡住：3可见资源、8其他地貌；提高分数不能单独解决，邯郸HasDistrict真而HasBeenPlaced假。只读APPEND资格不授活动队列写入，0游戏动作。累计692／641完整stop流含此次严格JSON拒绝、48length3transport722HTTP30extra，维护缓存复用／OpenCode原生0／未知成本null。[固定资源地貌与JSON拒绝反链](evidence/2026-11-12-civ6-housing692-protection319.json)。
+
+
+## 2026-11-12: Typed planning expiry P0, carrier-only selection
+
+One complete stop74764in/2400out, TTFT9.7172s/total23.4043s, peak1/current0. Three edits rejected for two-clock race, wrongObj-as-PlanTrace and swallowed suppression/cancellation faults; no actual javacRED. Only new typed carrier body genuinely partial-selected with import/Javadoc cleanup, owner separately writes the live planning integration. Late flush-suppressed feedback remains late; original completion source supplied. SourceReady not software/Runtime/fullrepair, original action guards/deadlines/UNKNOWN stay.
+
+[Exact incident, source selection and cost](evidence/2026-11-12-ck3-planning-predispatch-deadline-p0-method.md).

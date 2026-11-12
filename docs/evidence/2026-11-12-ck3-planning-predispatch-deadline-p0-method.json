@@ -1,0 +1,352 @@
+{
+  "schema": "local-model-operations.planning-predispatch-deadline-p0-method/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "task": "One real P0 method proposal for legal readonly planning crossing its original deadline before new action preparation. Not a Source65 performance request.",
+  "incident": {
+    "batch": "46",
+    "original_deadline": "2026-11-12T14:54:20.839484900Z",
+    "readonly_ROOT_publication_after_deadline": true,
+    "C59_already_settled": true,
+    "pending": null,
+    "new_INTENT": false,
+    "first_stack": {
+      "bytes": 6199,
+      "sha256": "55d803fd23202cb0a386a005c66dbfaa2570b67f8188b0440b16c100a6aef38c"
+    },
+    "frozen_index": {
+      "bytes": 2186,
+      "sha256": "465684a4b9eef680b5c1cb82e3976514b1709a7033ee7fe1241efd2a93971591"
+    },
+    "diagnosis_extent": "Real supplied stack goes Context.requireCurrent->Commands.requireRequest/dispatch/prepareOnce/rewriteDeadline->Campaign/M7->Planner->Controller->planning completion. No new live queries."
+  },
+  "request": {
+    "prefix": {
+      "bytes": 360374,
+      "sha256": "ab5c7d72acc139e6276f0958f014f98a55d194babd591f2df5f94f53d1f67c6b"
+    },
+    "complete_units": 17,
+    "POST_BEGIN_utc": "2026-11-12T15:10:35.821111+00:00",
+    "END_utc": "2026-11-12T15:10:59.225309+00:00",
+    "parameters": {
+      "model": "qwen38-coder",
+      "max_tokens": 6000,
+      "temperature": 0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      }
+    },
+    "message_roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "headers_ms": 9716.136900009587,
+    "content_TTFT_ms": 9717.240499914624,
+    "total_ms": 23404.32420000434,
+    "usage": {
+      "prompt_tokens": 74764,
+      "completion_tokens": 2400,
+      "total_tokens": 77164
+    },
+    "cached_tokens": null,
+    "currency_cost": null,
+    "status": 200,
+    "finish": "stop",
+    "DONE": true,
+    "JSON": "VALID",
+    "response": {
+      "bytes": 12679,
+      "sha256": "2e61252991382ce5832fdf2780ad17bece36824ea578f3a40cff4e1f546fbb53"
+    },
+    "routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    },
+    "retries": 0,
+    "length": 0
+  },
+  "concurrency": {
+    "peak": 1,
+    "current_after_END": 0,
+    "preparation_not_inflight": true,
+    "service_queue": "UNKNOWN"
+  },
+  "review": {
+    "at_utc": "2026-11-12T15:16:19.857127+00:00",
+    "grade": "COMPLETE_P0_CANDIDATE_REJECTED_UNCLOSED_CLOCK_RACE_WRONG_TRACE_TYPE_AND_FAULT_SWALLOWING_ZERO_ADOPTION",
+    "response": {
+      "bytes": 12679,
+      "sha256": "2e61252991382ce5832fdf2780ad17bece36824ea578f3a40cff4e1f546fbb53"
+    },
+    "mechanical_edits": [
+      {
+        "name": "RootRuntimeCommands.java",
+        "literal_current_lineending_matches": 1,
+        "anchor_matches_after_EOL_only": 1,
+        "bytes": 25373,
+        "sha256": "4f6dbe8d0d69f1bde4c47f818b42331a33b3020605ee1b6489f8f9daa628204b",
+        "whole_inverse_restores_base": true
+      },
+      {
+        "name": "OrdinaryPlanner.java",
+        "literal_current_lineending_matches": 0,
+        "mechanics": "Original method spans mixed LF/CRLF; exact one anchor after line-ending-only matching. Replacement kept response LF; inverse restores mixed original.",
+        "anchor_matches_after_EOL_only": 1,
+        "bytes": 23952,
+        "sha256": "0086498806572761d90f9d37c96f1fc4022d65018baed518d6ec48fdaacbb344",
+        "whole_inverse_restores_base": true
+      },
+      {
+        "name": "RootCampaignPoliciesFactory.java",
+        "literal_current_lineending_matches": 1,
+        "anchor_matches_after_EOL_only": 1,
+        "bytes": 9304,
+        "sha256": "6d45edd8b6437edf8433c51a3547dc9f9ca4bcd1b19639dc8978d7831791a343",
+        "whole_inverse_restores_base": true
+      }
+    ],
+    "new_carrier": {
+      "bytes": 1130,
+      "sha256": "d03d124a5f7c20cd5ee4eb766eb48f6c677e310752cdf561ddc67f61f37760e6"
+    },
+    "positive_limited_extent": [
+      "Defines structural new RuntimeException carrier with original request and observed time; default suppression is enabled, not an IllegalStateException swallowed by campaign adapter.",
+      "Old Context.requireCurrent body remains unmodified and original deadlines are not refreshed.",
+      "Existing generic catch remains for other exceptions; no message matching or broad generic ContractViolation catch."
+    ],
+    "rejected_points": [
+      {
+        "category": "CLOCK_RACE_NOT_CLOSED",
+        "actual": "requireRequest now reads context.clock then calls unchanged context.requireCurrent, which reads time again; expiry between those reads still takes generic ContractViolation. A precheck is not a precise typed boundary for the actual deeper guard race."
+      },
+      {
+        "category": "TYPE_ERROR_NOT_MISSING_API",
+        "actual": "New Stopped fourth argument is expiry.request().observations().snapshot(). snapshot() exists and returns an Obj; supplied PlanningResult.Stopped requires a PlanTrace. No actual javac run is claimed."
+      },
+      {
+        "category": "REAL_FAILURE_SWALLOWED",
+        "actual": "New typed catch adds cancellation Runtime/Error as suppressed then returns normal Stopped. It never checks original cause/suppressed or exact expiry.request()==current request; true scope/writer/cancel faults could be hidden. The complete original RootReadPublicationCompletion108-115 was in input; explicit owner reminder about its flush suppressed behavior arrived after POST_BEGIN and is not retroactive model guidance."
+      },
+      {
+        "category": "EARLIER_REQUEST_DEADLINE_CONSUMER_NOT_CLOSED",
+        "actual": "Actual Controller845-846 maps any PlanningResult.Stopped to End(PLANNER_STOPPED). request deadline can precede batch monotonic until, so1197 requireTime need not throw WALL_TIMEOUT. The proposed Stopped(DEADLINE) alone therefore does not close the required normal wall/defer route for that input."
+      }
+    ],
+    "late_owner_feedback": {
+      "after_POST_BEGIN": true,
+      "detail": "RootReadPublicationCompletion.finishOriginalWork flush failure addsSuppressed to typed RuntimeException; only pure expiry can become normal. New type must retain suppression. Original full source was supplied, but explicit diagnostic was late."
+    },
+    "qualification": {
+      "operator_new_JVM_live_production": 0,
+      "model_adopted": false,
+      "software_Runtime_speed": "NOT_GRANTED",
+      "automatic_second_HTTP": false
+    },
+    "limits": "Static source/type/logic rejection, not an actual compiler RED or transport failure. No full fake trace or marker authority constructed; all new source blocks remain private candidates for sole owner.",
+    "operator_preflight": "Initial checker assumed one uniform newline per source. Current Planner contains mixed LF/CRLF; its old method matches exactly once after newline-only comparison, so this is not a model ambiguous/missing semantic anchor.",
+    "initial_review_grade": "COMPLETE_P0_CANDIDATE_REJECTED_UNCLOSED_CLOCK_RACE_WRONG_TRACE_TYPE_AND_FAULT_SWALLOWING_ZERO_ADOPTION",
+    "posterior_owner_selection": {
+      "sourceReady": {
+        "bytes": 5547,
+        "sha256": "e3c62043b9b92fcdaac7be548f4c475be31fbc26252776f9c67a337d81ad7497"
+      },
+      "carrier": {
+        "bytes": 904,
+        "sha256": "52d9121637b510e9cf48dfee6c9a288b014c045cb7ac9721aa8c8d89fd8347be"
+      },
+      "grade": "ONLY_NEW_CARRIER_CLASS_BODY_PARTIALLY_ADOPTED_THREE_MODEL_EDITS_REJECTED",
+      "class_body_literal_equality_after_outer_import_Javadoc_and_EOLeadjustment": true,
+      "owner_changes": "Remove redundant self-package import and shorten Javadoc; model fields/constructor/getters/default suppression unchanged. Other three production edits not borrowed.",
+      "owner_integration": "Separate owner-written Context single-clock planning entry with old requireCurrent/action paths unchanged, Commands call and State.run exact-request pure-type consumption. Controller keeps true monotonic-budget behavior and existing shorter-request Planner deadline result.",
+      "sources": [
+        {
+          "relative": "local-service/src/main/java/org/xar/ck3/control/service/root/RootRuntimeContext.java",
+          "bytes": 29729,
+          "sha256": "96902287df750a5f006321e41ae840e270e7bfeb3ba47dba3cd15de70743cbe2"
+        },
+        {
+          "relative": "local-service/src/main/java/org/xar/ck3/control/service/root/RootRuntimeCommands.java",
+          "bytes": 25161,
+          "sha256": "c1aab53c1c70587701ff0593dd393485382a64774735f5caf3cdefbed5941668"
+        },
+        {
+          "relative": "application/src/main/java/org/xar/ck3/control/application/planning/OrdinaryPlanner.java",
+          "bytes": 23645,
+          "sha256": "6046542c947d24cff9c8a615fbd3ae005294f59b32b1433ab3d8bcfc9804db06"
+        },
+        {
+          "relative": "application/src/main/java/org/xar/ck3/control/application/planning/PlanningDeadlineExpiry.java",
+          "bytes": 904,
+          "sha256": "52d9121637b510e9cf48dfee6c9a288b014c045cb7ac9721aa8c8d89fd8347be"
+        }
+      ],
+      "qualification": "FourTU SourceReady only at this cut. Native typing pending; no software/Runtime/full repair credit. New type requires coherent normal loader qualification, not assumed HCR."
+    },
+    "latest_grade": "ONLY_CARRIER_BODY_PARTIAL_THREE_MODEL_PRODUCTION_EDITS_REJECTED_OWNER_INTEGRATION_SEPARATE"
+  },
+  "posterior_source66": {
+    "sourceReady": {
+      "bytes": 5547,
+      "sha256": "e3c62043b9b92fcdaac7be548f4c475be31fbc26252776f9c67a337d81ad7497"
+    },
+    "carrier": {
+      "bytes": 904,
+      "sha256": "52d9121637b510e9cf48dfee6c9a288b014c045cb7ac9721aa8c8d89fd8347be"
+    },
+    "grade": "ONLY_NEW_CARRIER_CLASS_BODY_PARTIALLY_ADOPTED_THREE_MODEL_EDITS_REJECTED",
+    "class_body_literal_equality_after_outer_import_Javadoc_and_EOLeadjustment": true,
+    "owner_changes": "Remove redundant self-package import and shorten Javadoc; model fields/constructor/getters/default suppression unchanged. Other three production edits not borrowed.",
+    "owner_integration": "Separate owner-written Context single-clock planning entry with old requireCurrent/action paths unchanged, Commands call and State.run exact-request pure-type consumption. Controller keeps true monotonic-budget behavior and existing shorter-request Planner deadline result.",
+    "sources": [
+      {
+        "relative": "local-service/src/main/java/org/xar/ck3/control/service/root/RootRuntimeContext.java",
+        "bytes": 29729,
+        "sha256": "96902287df750a5f006321e41ae840e270e7bfeb3ba47dba3cd15de70743cbe2"
+      },
+      {
+        "relative": "local-service/src/main/java/org/xar/ck3/control/service/root/RootRuntimeCommands.java",
+        "bytes": 25161,
+        "sha256": "c1aab53c1c70587701ff0593dd393485382a64774735f5caf3cdefbed5941668"
+      },
+      {
+        "relative": "application/src/main/java/org/xar/ck3/control/application/planning/OrdinaryPlanner.java",
+        "bytes": 23645,
+        "sha256": "6046542c947d24cff9c8a615fbd3ae005294f59b32b1433ab3d8bcfc9804db06"
+      },
+      {
+        "relative": "application/src/main/java/org/xar/ck3/control/application/planning/PlanningDeadlineExpiry.java",
+        "bytes": 904,
+        "sha256": "52d9121637b510e9cf48dfee6c9a288b014c045cb7ac9721aa8c8d89fd8347be"
+      }
+    ],
+    "qualification": "FourTU SourceReady only at this cut. Native typing pending; no software/Runtime/full repair credit. New type requires coherent normal loader qualification, not assumed HCR."
+  },
+  "input_scope": [
+    {
+      "name": "RootRuntimeContext.java",
+      "bytes": 29240,
+      "sha256": "a274ce6ddcaee756e033aecc545ddfb167ad7ee33135ea5f58e3a0c5f2a54dd2",
+      "extent": "complete CURRENT context and old requireCurrent/action authorities hard boundary"
+    },
+    {
+      "name": "RootRuntimeCommands.java",
+      "bytes": 25164,
+      "sha256": "4ea7f15f6c09447d73295cfb2b153c148ae6835e2f67a49d53434fdc58b594ae",
+      "extent": "complete CURRENT command-preparation and rewriteDeadline dispatch path"
+    },
+    {
+      "name": "RootCampaignPoliciesFactory.java",
+      "bytes": 9187,
+      "sha256": "3893ae14dd6e8d508b72fd51d13f8f8b2b0f2b773a9a06c830ee5c9348ca4ad1",
+      "extent": "complete CURRENT campaign adapter including typed failure wrapping"
+    },
+    {
+      "name": "M7CampaignPolicies.java",
+      "bytes": 32237,
+      "sha256": "afde22a2454062275a647bb3fdb5ddc4dc51aefb8e0fd2e6218147f40c159a7f",
+      "extent": "complete CURRENT actual policy and InputUnavailable catch"
+    },
+    {
+      "name": "OrdinaryPlanner.java",
+      "bytes": 23276,
+      "sha256": "3e627fd9abc6916eedfb02f284a9588fc96418d68fe26cc0987fd4d7d05e495d",
+      "extent": "complete CURRENT stage precheck/evaluate/catch/result paths"
+    },
+    {
+      "name": "SessionController.java",
+      "bytes": 136562,
+      "sha256": "8d4fe67657d7cdf90aec9c58bd6e270ec901f2f6ba235fb2218fc0d0d63df466",
+      "extent": "complete CURRENT planRound, typed End, monotonic budget and journal terminal/finally paths"
+    },
+    {
+      "name": "RootReadPublicationCompletion.java",
+      "bytes": 25166,
+      "sha256": "7435e250228a9c4cea7810d1494f754aaf5a3f14b4ce326bd8317db85eed2868",
+      "extent": "complete CURRENT planning scope/publication/replan/error boundary"
+    },
+    {
+      "name": "PlanningRequest.java",
+      "bytes": 3328,
+      "sha256": "a3a08bf35a207ea8fe8314695bc80cd5a84057ad6978c6d0c5e8a7f812db233b",
+      "extent": "complete CURRENT exact request identity/deadline declaration"
+    },
+    {
+      "name": "PlanningResult.java",
+      "bytes": 3395,
+      "sha256": "c064331c8cc8fd8d10c4439f847c88fd92a6972535c7b13e82e7e401bf7d2c41",
+      "extent": "complete CURRENT stopped/action result alternatives"
+    },
+    {
+      "name": "OrdinaryPolicy.java",
+      "bytes": 3729,
+      "sha256": "6d6140a07103c712059a067fbccff9f889b52719a80963605ddcb34828c78b0f",
+      "extent": "complete CURRENT policy decision and stop declarations"
+    },
+    {
+      "name": "SessionPorts.java",
+      "bytes": 23739,
+      "sha256": "4f71dbe0e2da0f56918232a16c6051c3a39d8d6c30f03ce1a3fe24323a216c77",
+      "extent": "complete CURRENT controller clocks/planning-scope and ports declarations"
+    },
+    {
+      "name": "BatchReport.java",
+      "bytes": 10541,
+      "sha256": "8903576da4f5f7d93ab512b22e4613686959e1f6de7989c84f3a08b0f8c6c309",
+      "extent": "complete CURRENT terminal/result/report declarations"
+    },
+    {
+      "name": "ContractViolationException.java",
+      "bytes": 348,
+      "sha256": "ed14dfab6bf95bf2c0b0361f8302de520179e02788e60a6ba4b3d2ad3e04ddd9",
+      "extent": "complete CURRENT generic contract exception; never message-match/catch indiscriminately"
+    },
+    {
+      "name": "SessionControllerObservationDeadlineTest.java",
+      "bytes": 10376,
+      "sha256": "10b07b43cae5191f092b607f043e43b16ac6d899dc3bfe314a62fa894612e336",
+      "extent": "complete existing original deadline Test, reference only no new execution grant"
+    },
+    {
+      "name": "RootOrdinaryRuntimePhaseDeadlineTest.java",
+      "bytes": 6441,
+      "sha256": "ee66d13d74f3417ff9529a4e45f6a1fdcc98612181a1f9044c8bd1ab71c8fce2",
+      "extent": "complete existing original phase deadline Test, reference only no new execution grant"
+    },
+    {
+      "name": "ORIGINAL-CONTEXT-DEADLINE-STACK01.log",
+      "bytes": 6199,
+      "sha256": "55d803fd23202cb0a386a005c66dbfaa2570b67f8188b0440b16c100a6aef38c",
+      "extent": "complete real first Throwable stack; no live operations for this task"
+    },
+    {
+      "name": "INDEX01.json",
+      "bytes": 2186,
+      "sha256": "465684a4b9eef680b5c1cb82e3976514b1709a7033ee7fe1241efd2a93971591",
+      "extent": "complete frozen original metadata index; referenced big head/report not needed/read by this task"
+    }
+  ],
+  "operations": {
+    "shared_clean_ff": "494e8902f4cab7cb870cba2e9daec1d7e12fdef2",
+    "same_day_success_reused": true,
+    "policy_config_caller_unchanged": true,
+    "operator_new_JVM_live_profile_production_or_service_changes": 0
+  },
+  "limits": [
+    "One complete response and a partial selected carrier are not complete P0 repair or software success. Three production edits are rejected, separate owner integration must be independently qualified.",
+    "Original requireCurrent/action guards, command deadlines/identity, UNKNOWN and published readonly originals retained. No deadline renewal, replay/cancel or generic/message-match failure swallowing.",
+    "Concrete suppression reminder came after POST; complete original finishOriginalWork body was already supplied. Do not backfill explicit guidance or call cancellation/suppression failures harmless.",
+    "New type structural/normal loader qualification; source/typing/behavior/Runtime/SAVE separate. No new performance claim or Source65 analysis adoption."
+  ],
+  "privacy": "Full sources/request/response/private incident paths remain local; only metadata and precise diagnostic boundary published."
+}
