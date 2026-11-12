@@ -1,0 +1,301 @@
+{
+  "schema": "local-model-operations.offline-unaccepted-drain75-method/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "scope": "One new necessary Controller drain implementation candidate after real queue-backpressure clean-stop failure; separate from reserve74 and Action72. Owner implementation and original model candidate are independent.",
+  "incident_source_facts": {
+    "actual_new_stack": {
+      "bytes": 1016,
+      "sha256": "7e3b4a75956639cdb44ec8639890c0a24e056320f39b999b6289fa801f3c5a4b"
+    },
+    "stack_selection": "Only the exact new stack; earlier mixed historical stack excluded.",
+    "failure_chain": [
+      "SessionController.drainForCleanRestart",
+      "RootApplicationSession.captureCleanRestart",
+      "RootOrdinaryWorkerMain.captureForStop"
+    ],
+    "source_counterexample": "enqueueAnalysisInputs retains local work before enqueue; the actual Worker checks queue-full before publishing its durable request. Old drain enumerates only port durable originals, yet the original final Guard also requires local retained inputs empty. An unaccepted local item can therefore be omitted from real retry while still preventing clean capture.",
+    "guard_limits": "The final failure has four clauses: pending tickets, local retained inputs, failed analyses and last-report failed IDs. The actual private maps/future outcomes at the failure are NOT_HELD; this is not a proved sole live cause.",
+    "actual_settings_source": "Root runtime assembly uses single-thread Worker queue4/retained128; selected config does not define those settings.",
+    "metadata_scope": {
+      "reports": 2,
+      "pending_per_report": [
+        5,
+        5
+      ],
+      "pending_union": 6,
+      "reported_failed_ids": [
+        [],
+        []
+      ],
+      "durable_requests": 9,
+      "durable_binding_groups": 1,
+      "binding_matches_actual_selected_config": true,
+      "complete_metadata_for_pending_union_before_delegate_END": true,
+      "exact_episode_scan_batch_names": 11,
+      "scan_batch_names_absent_from_worker_durables": 2,
+      "interpretation": "Only bounded names, refs-only small request metadata, selected config binding and report state. Durable complete files do not prove Java future validation, empty private maps, current active-job completion or capture qualification. Unpublished scan names are candidates, not snapshots of local retained objects.",
+      "phase_limit": "Report phase totals provide phase and elapsed nanos, not a serialized FAILED phase result. Queue-full detail plus source identifies the error path; no literal FAILED field or CPU duration is invented.",
+      "diagnostic_log": "Existing reap-failure diagnostic not held; no additional sampling or code was installed to create it.",
+      "inventory_limit": "Initial nonrecursive scan-root inventory was not a total-zero claim. One exact manifest-derived episode directory was then listed; no incident or manifest payload followed."
+    },
+    "private_metadata_refs": {
+      "QUEUE-AND-REPORT-METADATA01.json": {
+        "bytes": 39987,
+        "sha256": "39710beb5c6ab4b96a33cf082df9e10b4a7cda334303e6f39e38f224df795825"
+      },
+      "CONFIG-BINDING-REPORT-CLAUSES02.json": {
+        "bytes": 9630,
+        "sha256": "c1dd4b80592cca5a2cf35ee8b78319d7a0996977a4045545805e28d78d5f576f"
+      },
+      "EXACT-MANIFEST-PARENT-NAMES04.json": {
+        "bytes": 7388,
+        "sha256": "3fccadd6493971388cf2b5ecff252691f73366c87971259c668424aa11192a80"
+      }
+    },
+    "operation_boundary": "No queue cleanup, capacity change, job cancellation/completion, service query, provider diagnostic POST, Game/Native action, Driver/SEM/incident/result/knowledge body or large request was read."
+  },
+  "input": {
+    "raw_prefix": {
+      "bytes": 652560,
+      "sha256": "1911b50e845fd53f6c83c5e4ae80bed5da7ed95e269dd306dd76f79e7e0a56ea"
+    },
+    "actual_LF_source_message": {
+      "bytes": 649509,
+      "sha256": "519f9fecdc13efb14288c44480995f1ee402103671d0f94f14930111c0b680e8"
+    },
+    "files": [
+      {
+        "frozen": "01-SessionController.java",
+        "bytes": 140121,
+        "sha256": "b70b6512874da7d3132b1b018cd1ae6c51bd9424fcc0526d01d42b8723c5f7d1",
+        "extent": "SOLE TARGET current actual140121/b70b; complete idle/drain/retained enqueue/reap/failure/checkpoint state; output ONLY drainForCleanRestart method edit"
+      },
+      {
+        "frozen": "02-SessionPorts.java",
+        "bytes": 23739,
+        "sha256": "4f71dbe0e2da0f56918232a16c6051c3a39d8d6c30f03ce1a3fe24323a216c77",
+        "extent": "complete AnalysisTicket/AnalysisCompletion/OfflineAnalysisPort actual declarations; SessionIdentity nested exists"
+      },
+      {
+        "frozen": "03-SessionClock.java",
+        "bytes": 1118,
+        "sha256": "1e6759cd4112e6aafd488a142690ed7b0ccb044143cbddfdb657f2b730487c9c",
+        "extent": "complete actual original deadlineUTC/monotonic wait contract"
+      },
+      {
+        "frozen": "04-OfflineAnalysisWorker.java",
+        "bytes": 48760,
+        "sha256": "7b2a6dee5d49b735a9cfd9549c8dd0531585402ff7212803420ebf7951da9770",
+        "extent": "complete actual single-thread queue4/durable ACK/future completion/restoration; source reference no changes allowed"
+      },
+      {
+        "frozen": "05-RootOfflineAnalysisWorker.java",
+        "bytes": 13022,
+        "sha256": "9d1614a9f9c4f2ede83c723d1da9455426b1a703d449b00b71a7ca2a991dfb7b",
+        "extent": "complete actual installed perGame port binding/retainedOriginals/retire/Core lifetime; no permission to bypass"
+      },
+      {
+        "frozen": "06-RootApplicationSession.java",
+        "bytes": 91337,
+        "sha256": "aca15eb0d07cf65669f6aa9629a4e8b5b6b5afcfc434efdcfbcc82574c96b384",
+        "extent": "complete actual drain outsidewriter then genuine cleanrestart capture caller; no changes"
+      },
+      {
+        "frozen": "07-RootOrdinaryWorkerMain.java",
+        "bytes": 29482,
+        "sha256": "e024c451b767eccf0a74ff74d9ace2ca1bc342d09eff045f43b8fa9da220f690",
+        "extent": "complete actual captureForStop and original stop/error/ticket behavior; no changes"
+      },
+      {
+        "frozen": "08-OfflineEventAnalysisContract.java",
+        "bytes": 5623,
+        "sha256": "035be7f85bd8c59eae5e0ef7b2b4d32dd88f23f141e76e25c058f430a729ffce",
+        "extent": "complete immutable refs-only BatchRequest/batchID/error contract; no Gamebody"
+      },
+      {
+        "frozen": "09-OfflineEventAnalysisWire.java",
+        "bytes": 11469,
+        "sha256": "1beb719014bebc475e32d9ea8b402a5c555113afd087ad2b918dfe94c794b539",
+        "extent": "complete strict original Work DTO/metadata encoders; frozen"
+      },
+      {
+        "frozen": "10-RetainedIncidentBatchSource.java",
+        "bytes": 931,
+        "sha256": "dab7e9fceaf9945c18e8743faf6a6d71dd8944050c880aa21d28cc689e1bee9b",
+        "extent": "complete actual retained source bounded immutable captured batches, no currentReady authority"
+      },
+      {
+        "frozen": "11-SessionControllerRegressionTest.java",
+        "bytes": 108782,
+        "sha256": "ee6798b228ded39a94c74f80943c49b51ae9adcd73461c0a35eb2d63d2ab347c",
+        "extent": "complete real public Controller old queued future/restart/drain/error tests; reference only no new test output"
+      },
+      {
+        "frozen": "12-CleanRestartReadOnlyIoPhaseTest.java",
+        "bytes": 25978,
+        "sha256": "d6a1ae5819be297ce59d564ca5f88623eaea2170d934625ad7b8e90aecc7ec4a",
+        "extent": "complete real software writer/controller capture/drain boundary; no fake ManagedRoot"
+      },
+      {
+        "frozen": "13-CleanRestartCanonicalWriterTest.java",
+        "bytes": 72242,
+        "sha256": "90d82daaa9042d3acf6f253e9f1713f4cdf5d898a5c8001e786581b67f128bfb",
+        "extent": "complete original writer/canonical/Unknown/capture unchanged regressions"
+      },
+      {
+        "frozen": "14-OfflineAnalysisWorkerTest.java",
+        "bytes": 19740,
+        "sha256": "24a721b707835a1a1886b6e2ff69ce497acf2687cb6affb8208de8e6a0e160cb",
+        "extent": "complete real durable queue/future/source output/ownership/error worker regression, no workers run here"
+      },
+      {
+        "frozen": "15-CONFIG-BINDING-REPORT-CLAUSES02.json",
+        "bytes": 9630,
+        "sha256": "c1dd4b80592cca5a2cf35ee8b78319d7a0996977a4045545805e28d78d5f576f",
+        "extent": "complete small actualconfig+report status+same9Binding metadata; no secret/provider config/body"
+      },
+      {
+        "frozen": "16-QUEUE-AND-REPORT-METADATA01.json",
+        "bytes": 39987,
+        "sha256": "39710beb5c6ab4b96a33cf082df9e10b4a7cda334303e6f39e38f224df795825",
+        "extent": "complete bounded metadataonly actualqueue filenames/refs+complete siblings; file existence is NOT future success proof"
+      },
+      {
+        "frozen": "17-OFFLINE-QUEUE-DRAIN-FAILURE-NEW-ONLY02.original.stack.txt",
+        "bytes": 1016,
+        "sha256": "7e3b4a75956639cdb44ec8639890c0a24e056320f39b999b6289fa801f3c5a4b",
+        "extent": "complete new exact1016 stack at273/296; previous mixed historicalstack01 excluded"
+      }
+    ],
+    "composition": "14 complete current code/test files plus two complete bounded metadata summaries and one exact new stack; only one production method requested.",
+    "hinting": "Owner supplied merged-unique bounds, real enqueue/wait/reap and guard-preservation contract. Not an independent discovery of the diagnosed source omission."
+  },
+  "request": {
+    "bytes": 665955,
+    "sha256": "73341a7a8ddf60be9076e123eb7a5ec10e05dda08cbe3471a204c6cf961a9a01",
+    "messages": 3,
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "max_tokens": 6000,
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "network": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    }
+  },
+  "attempt": {
+    "POST_BEGIN": "2026-11-12T23:02:38.275012+00:00",
+    "END": "2026-11-12T23:03:04.821311+00:00",
+    "status": 200,
+    "finish": "stop",
+    "DONE": true,
+    "JSON_syntax": "VALID",
+    "complete_candidate": true,
+    "headers_ms": 19000.246900017373,
+    "TTFT_content_ms": 19001.45900005009,
+    "total_ms": 26546.295000007376,
+    "usage": {
+      "prompt_tokens": 148424,
+      "completion_tokens": 1289,
+      "total_tokens": 149713
+    },
+    "cached_tokens": null,
+    "response": {
+      "bytes": 6601,
+      "sha256": "fce906211369c7f7ea2baf4b32028f407434ea61fde631c42a82bf903968dc65"
+    },
+    "retry": 0,
+    "length": 0,
+    "transport_error": 0,
+    "peak_inflight": 1,
+    "current_inflight": 0,
+    "actual_POST_interval_seconds": 26.546299,
+    "performance_limit": "Headers/content TTFT/HTTP duration only; no queue, cache, CPU or business speed attribution inferred."
+  },
+  "candidate_review": {
+    "at_utc": "2026-11-12T23:07:08.886834+00:00",
+    "response": {
+      "bytes": 6601,
+      "sha256": "fce906211369c7f7ea2baf4b32028f407434ea61fde631c42a82bf903968dc65"
+    },
+    "anchors": [
+      {
+        "path": "SessionController.java",
+        "matches": 1
+      }
+    ],
+    "working_core": "Adds a genuine enqueue/await/reap loop over local retained originals; original accepted-first join and final four-clause Guard remain.",
+    "gaps": [
+      "Only old durable seen map; no strict merged local+durable total unique<=4096.",
+      "Initial local32 with a first different durable triggers original backlog cap before new local loop can run.",
+      "completedAnalysisIds skip leaves same local work in map, so final clean Guard still rejects that specified overlap state.",
+      "SameID local/durable changed body can skip comparison on completed-ID branch; prose claims local uses merge helper but actual added loop does not."
+    ],
+    "fairness": "Declared BatchRequest/JDK/port APIs exist; no actual javac executed, no invented-API finding. Specified edge states are source counterexamples, not direct private-state observations in failed runtime capture.",
+    "adoption_at_cut": 0,
+    "actual_compiles": 0,
+    "status": "UNAPPLIED_OWNER_REVIEW_REQUIRED",
+    "no_second_HTTP_requested_or_dispatched": true
+  },
+  "owner_independent_source_review": {
+    "source": {
+      "bytes": 143806,
+      "sha256": "e12480008c789601bfff1b8057a0a730192cae6ad3c91a7051c45ebcd4318bfd"
+    },
+    "ready": {
+      "bytes": 2311,
+      "sha256": "64098cfa9426c22f72221a6321c92dbe7d4b73d060564340962e11acaa8ef6a1"
+    },
+    "created_utc": "2026-11-12T23:03:03.193661+00:00",
+    "model_END_utc": "2026-11-12T23:03:04.821311+00:00",
+    "created_before_model_END": true,
+    "model_hunks_adopted": 0,
+    "inverse_to_qualified74_exact_LF": true,
+    "original_four_clause_guard_exact": true,
+    "observed_changes": "Local inputs placed first then durable originals; strict seen ID/body equality/unique4096; matching completed local value remove; genuine original enqueue/await/reap and firstaccepted join. No change outside one drain method, so qualified74 retainer and old action/clock guards remain exact.",
+    "conditional_ordering_note": "Input conflict validation is incremental. Hypothetical completedID x with local A then conflicting durable B clears localA before later duplicate failure; no actual private-state reachability/live example held. If retention of that invalid local copy on collision is required, owner can prevalidate merged duplicates before removals. This does not grant clean capture: original collision throws and Guard remains.",
+    "scope_limit": "Source-only single read; no compiler/test/runtime proof from this review, no actual private pending/retained map/future validation inferred from disk metadata.",
+    "joint_diagnosis": "Shared source and bounded metadata investigation is separate from production code authorship; owner source existed before model END and did not use model hunks."
+  },
+  "qualification_at_cut": {
+    "model_hunks_adopted": 0,
+    "model_tests": 0,
+    "operator_compiles": 0,
+    "actual_model_candidate_javac": 0,
+    "software_PASS_granted": false,
+    "Runtime_adoption_granted": false,
+    "clean_capture_ticket_granted": false,
+    "SAVE_or_speed_granted": false,
+    "native_owner_followup": "Owner source handed to Native and owner25 real backpressure tests; their later results require separate receipts, not this RO review."
+  },
+  "handoff": "Complete one-method candidate and four specific static gaps delivered to source owner. One actual independent-owner source review then completed. No second HTTP or indefinite retry; mature Runtime recovery and necessary software work continue independently.",
+  "maintenance": "Reused same-day successful OpenCode1.19.5 cache. Current clean shared main synchronized by fetch and ff-only merge; no service or active consumer configuration change.",
+  "operator_boundary": {
+    "production_writes": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "GET": 0,
+    "new_sampling": 0,
+    "JFR": 0,
+    "queue_mutation": 0,
+    "research_HTTP": 1
+  }
+}
