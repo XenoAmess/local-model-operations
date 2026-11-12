@@ -1468,3 +1468,8 @@ Nov12同机同用户1.19.5成功每日维护缓存复用，三个普通HTTP候�
 ### 2026-11-12：665/666继续分开维护、候选与实机效果
 
 OpenCode1.19.5同机同用户每日成功缓存复用、原生生成0。665整拒后Owner临时观察已恢复，七条零燃料不能证明正燃料优先级；666保护大整数后窄采用分类逻辑，11测试与实际双context290 READY分层，新NPC分支仍待实机。2新HTTP逻辑，累计666／620完整43length3transport696HTTP30extra，未知成本null。[665](evidence/2026-11-12-civ6-power-prewrite665.json)、[666](evidence/2026-11-12-civ6-readiness666.json)。
+
+
+### 2026-11-12：667世界议会阻挡识别
+
+同机同用户OpenCode1.19.5每日成功缓存复用，原生生成0；HTTP窄采用、10软件测试、实际弹窗分类分开，维护不授代码能力。累计667／621完整43length3transport697HTTP30extra，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-congress-readiness667.json)。

@@ -5684,3 +5684,8 @@ Two complete sequential stops, 112729 input/3826 output, no retry/length. One su
 A helper-plus-packet-Test request reached length6500 and remained wholly unread/unused; operator scope and budget error. A separately authorized helper-only obligation completed686 tokens with the four availability states and narrow comparison core. Three constant-receiver fixes remain for public malformed/subclass inputs; existing pure DATA test owner prevents duplicate work. Two POSTs, 54446 input/7186 output, no transport retry, peak1/current0; no Java/live/permission or benefit grant.
 
 [Exact costs and guided partial-source boundary](evidence/2026-11-12-ck3-physical-modal-data-helper.md).
+
+
+## 2026-11-12：667世界议会阻挡识别
+
+4252tokens完整候选4个坏base异常见证后窄采用，10新测试；实际5context291同scope/玩家/turn且Intro可见→MODAL_BLOCKED，0自发游戏动作；测试玩家原版反对军事紧急状况、0外交支持/宣战后独立292 READY。累计667／621完整43length3transport697HTTP30extra，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-congress-readiness667.json)。
