@@ -5634,3 +5634,8 @@ Two distinct complete source reviews, zero findings and zero model code adoption
 ## 2026-11-12：128正式冷读与前置选择真实效果
 
 128／278各世界组及vitals保持，长沙UI净粮9→11／库存人口不变独立UI/Core11，明确保留该差异。正式跨上下文桥真假实证，1普通END／7军SKIP／毛利再见1点击后真279；原塑料正进度先自然完成，唯一后台海上goal74／site2789→核裂变56请求＋观察，当前0/664。5滑雪场与人口保持、279已存，0模组错。0新增HTTP不重计659—662，后续科技／建造／持续电力仍开放。[固定blob反链](evidence/2026-11-12-civ6-native128-prerequisite279.json)。
+
+
+## 2026-11-12：663／664正燃料与实际消费者缺口
+
+283核裂变完成、煤2使旧零燃料门退出新能源路线。24资源getter／11城／33电厂Has全已知，煤积累3、当前耗电1；邢州非project供电，10城仍project-only，未来总需求不据此推算。663完整13575tokens却continue／bool当numeric／错HasBuilding等整拒，Owner7组后只读。664完整22047tokens，Admin无限值／零gap／未知phase3反例拒；Planner hunk在实际全模块12形态通过，批准后续窄采用。Owner误读formation列为charges与初始词法upvalue夹具错误均纠正分账，煤来源未知。累计664／618完整43length3transport694HTTP30extra，成本缓存净收益null。[固定blob反链](evidence/2026-11-12-civ6-model663664-fuel-gap.json)。
