@@ -5937,3 +5937,8 @@ Planning-expiry source-only posterior: ownerReady66-03 adds Controller damagedEn
 ## 2026-11-12：Civ6134保留项目投资自然完成
 
 119冷装／新鲜后台离线后原318实际一次加载，所采七组与food/vitals同。体育场59→115→174→230自然完工，322唯一BACKGROUND resume_project=true请求0:322:76和队列匹配，143/173原生接续；323双完成事件／进度0与另一次新项目分列。七普通END／五实际推进／35军SKIP，66城帧／五人口区间无新损失；319队列未换回合后新鲜空闲／阻塞和军SKIP资格再授一次普通END，不重放未知。三通知0错丢、exact撤两自有引用，323已存未载。0新增HTTP，689690软件与691692诊断／693694候选不重计或互授；OpenCode原生0，未知成本null。[固定143续建完成实机反链](evidence/2026-11-12-civ6-native134-project-completed323.json)。
+
+
+## 2026-11-12：Civ6缺房林地社区135与693／694
+
+693完整13805tokens／19564.2580ms，5旧hunk各匹配一次，独立14方法4failure；整数误限住房小数、新元数据读取在pcall外可停Controller，Owner修后仅部分采用。694完整20328tokens／17540.1387ms，原8方法在raw693下2failure2error（全局w／字符串API数字参数／雨林错拒／假竞争），缺test_的方法未运行不冒执行数，原测试整拒。Owner14新集成方法预验17.693s／实际针对全过，冻结全1982中1981pass1SDKskip、97Lua51／119包；249.396s不推净节省或实机性能。只真实住房不足可允许已知可移除普通森林／雨林社区并给93，原资源／粮食／队列和native门保留；135实机后见另记。两HTTP峰2／重叠17.532383秒，累计694／643完整stop流（前692含1严格JSON拒绝）48length3transport724HTTP30extra，Nov12维护缓存复用／原生0／未知成本null。[固定住房135软件反链](evidence/2026-11-12-civ6-housing135-model693694.json)。

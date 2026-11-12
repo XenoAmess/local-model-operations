@@ -1593,3 +1593,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-12：134项目投资Native后见
 
 0新HTTP／OpenCode原生，源689纯提示部分采用、OwnerController后到实效单列，不追授原稿或OpenCode生成。323保存未载，住房下一135继续。[固定143续建完成实机反链](evidence/2026-11-12-civ6-native134-project-completed323.json)。
+
+
+### 2026-11-12：135住房软件候选
+
+693694是普通HTTP候选，不是OpenCode原生工具。OpenCode1.19.5同机同用户Nov12成功维护缓存复用，原生累计0；Owner1981软件通过不追授原稿或Native。累计694／643完整stop流48length3transport724HTTP30extra，未知成本null。[固定住房135软件反链](evidence/2026-11-12-civ6-housing135-model693694.json)。
