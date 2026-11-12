@@ -1,0 +1,11 @@
+# Owned-snapshot byte parsing with original diagnostics fallback
+
+One actual request completed 200/stop/DONE/valid JSON: content TTFT2.1811s, total8.6483s, input15539/output1143, retry0/length0, peak1/current0. Six complete inputs include current FullJsonTree, its numeric and validation callees, actual core2.21.7 charset declarations/Code and both existing whole Test classes. Daily maintenance was reused; clean shared main fast-forwarded through a doc-only update without changing caller/config/service.
+
+The complete response has three unique production edits. It keeps the original input/StackWalker guards, owns one cloned byte snapshot, scans all UTF8 with a bounded8192-char decoder buffer before grammar, uses a separate byte factory with charset detection disabled, and sends BOM or byte-parser IO/runtime failure to the whole original char[]/String helper. The old decoded-character threshold, read/encode/validate/requireLimit and original FACTORY/JSON remain. This is a proposal, not an executed parser or performance result.
+
+Source inspection found a concrete checked-exception defect before compilation: strictUtf8Scan invokes CoderResult.throwException twice but has no catch/throws, and parse calls it before its byte-parser try. The owner was immediately given the exact method and a minimal correction obligation: wrap CharacterCodingException with the original invalid-complete-material error while keeping the full UTF8 scan before grammar. The redundant import is a cleanup detail, not separately claimed javac failure. No generated Test or actual compiler failure is attributed here. All three method anchors and the inverse-to-base were checked locally; owner selection, typing and behavior remain separate.
+
+The supplied tests require original character-source diagnostics on malformed JSON and invalid-tail UTF8 priority. Escaped lone surrogates are part of the old complete-tree domain. A natural mixed-phase JFR suggests genuine work, but samples are not CPU duration/AB and do not establish any saved time or new SAVE result. The independent test owner supplies whole old-class differential tests; no duplicate HTTP or JVM is run for this record.
+
+[Exact request and source defect](2026-11-12-ck3-fulljson-direct-byteparser-method.json).

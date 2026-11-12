@@ -1,0 +1,131 @@
+{
+  "schema": "local-model-operations.fulljson-owned-byte-parser-method/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "task": "One current FullJsonTree TU: owned snapshot, bounded complete UTF8 pre-scan, private UTF8 byte parser, exact original legacy fallback.",
+  "guidance": "Owner supplied design, full sources, exact core charset API and old diagnostic tests; no model discovery credit for those facts.",
+  "request": {
+    "prefix": {
+      "bytes": 62498,
+      "sha256": "41440e6e9d804cebe0a482b2dc07ebf83db7897080317551fc55083b6599cdad"
+    },
+    "complete_units": 6,
+    "POST_BEGIN_utc": "2026-11-12T13:38:05.565608+00:00",
+    "END_utc": "2026-11-12T13:38:14.214133+00:00",
+    "parameters": {
+      "model": "qwen38-coder",
+      "max_tokens": 6000,
+      "temperature": 0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      }
+    },
+    "message_roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "headers_ms": 2179.917800007388,
+    "content_TTFT_ms": 2181.0851000482216,
+    "total_ms": 8648.348700022325,
+    "usage": {
+      "prompt_tokens": 15539,
+      "completion_tokens": 1143,
+      "total_tokens": 16682
+    },
+    "cached_tokens": null,
+    "currency_cost": null,
+    "status": 200,
+    "finish": "stop",
+    "DONE": true,
+    "JSON": "VALID",
+    "response": {
+      "bytes": 5231,
+      "sha256": "a030cb40282df8d8f8ef18f235a6935a1a2d55189d721ff297cc58db493fe1d2"
+    },
+    "routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    },
+    "retries": 0,
+    "length": 0
+  },
+  "concurrency": {
+    "actual_peak": 1,
+    "current_after_END": 0,
+    "preparation_not_inflight": true,
+    "global_service_queue": "UNKNOWN"
+  },
+  "source_review": {
+    "at_utc": "2026-11-12T13:40:32.795581+00:00",
+    "grade": "COMPLETE_THREE_MODEL_EDITS_WITH_SOURCE_LEVEL_CHECKED_EXCEPTION_DEFECT_OWNER_REVIEW_PENDING",
+    "base": {
+      "bytes": 6865,
+      "sha256": "914b08d99cc2c31ac3ba6da7a7bb311b3d58fac1daa7add4088dc3c644807653"
+    },
+    "candidate": {
+      "bytes": 9126,
+      "sha256": "23fc31430901b0daa75d5ea4c30bb87bc68c01adef5e9ddd11cb0b3554d7550a"
+    },
+    "unique_anchors": [
+      1,
+      1,
+      1
+    ],
+    "mechanics": "Only response LF to original CRLF adaptation; whole inverse byte-identical.",
+    "preserved": [
+      "Original input-limit and StackWalker block at the original public parse position.",
+      "Original FACTORY and JSON encoder declaration bytes.",
+      "Whole old read/encode/validate/requireLimit tail unchanged.",
+      "Legacy helper contains original strict whole UTF8 decode and decoded-char threshold routes with input variable substitution only."
+    ],
+    "positive_source_checks": [
+      "One private snapshot cloned after original input checks.",
+      "8192-char strict REPORT decode and flush loop run before byte grammar, same snapshot on every route.",
+      "BYTE_FACTORY adds only explicit CHARSET_DETECTION disable with same constraints.",
+      "BOM goes legacy; fast IO or Runtime goes complete legacy after try-with-resources closes. No Error catch."
+    ],
+    "defect": {
+      "category": "MODEL_SOURCE_CHECKED_EXCEPTION_BOUNDARY",
+      "exact_method": "private static void strictUtf8Scan(byte[] input)",
+      "evidence": "Both CoderResult.throwException() invocations require CharacterCodingException handling; method has no catch/throws, public parse calls it before its byte-parser try.",
+      "static_not_actual_javac": true,
+      "minimal_owner_suggestion": "Catch CharacterCodingException within the strict scan and wrap in the original invalid complete JSON material IllegalArgumentException; keep scan outside grammar try so it cannot be hidden by parser fallback."
+    },
+    "minor": "CoderResult import is unused (var declarations); unused import is not independently claimed javac failure.",
+    "qualification": {
+      "operator_JVM": 0,
+      "source_owner_adoption": "PENDING",
+      "typing_behavior_Runtime_speed": "NOT_GRANTED",
+      "generated_test": false
+    }
+  },
+  "input_test_obligations": [
+    "Both complete existing classes supplied: decoded-buffer failure byteOffset=-1/charOffset>=0/rawContent=null and decoded-char threshold32768/32769.",
+    "Whole invalid UTF8 tail must win over earlier JSON duplicate/syntax errors; escaped lone surrogate remains admitted by legacy FullJsonTree.",
+    "BigInteger and DecimalTokenNode preserve original floating lexical text, field and array order; no RawJson Unicode rule added."
+  ],
+  "operations": {
+    "shared_clean_ff": "cf9bcab969c4bc2d0b0045282bf9c4fa9f25bc2c",
+    "policy_config_caller_unchanged": true,
+    "daily_success_reused": true,
+    "operator_JVM_Game_JFR_production_or_service_change": 0
+  },
+  "static_defect_not_javac": "A complete stop can still omit the checked CharacterCodingException boundary; identified by source reading before any compiler run. Unused CoderResult import alone is not called a compiler failure.",
+  "limits": [
+    "One hunk set is an uncompiled private source proposal, owner selection pending at this review.",
+    "No new cache, public trusted AST or global charset/parser/encoder change.",
+    "No timing benefit, CPU allocation saving, AB/Runtime/SAVE grant from request or JFR samples."
+  ],
+  "privacy": "Complete code, requests, class Code and private source/fixture paths stay local."
+}

@@ -125,5 +125,271 @@
     "Earlier Archive cross-profile-cache inquiry is a distinct finite RO NO, not this method or a model capability failure.",
     "Formal byteLength API must be preserved by merging only small method edits rather than copying actual whole source."
   ],
-  "privacy": "Full code, class bytes, requests, packets, library files and private absolute paths remain local."
+  "privacy": "Full code, class bytes, requests, packets, library files and private absolute paths remain local.",
+  "posterior_source63": {
+    "sourceReady": {
+      "bytes": 3740,
+      "sha256": "3841fd3ef17da46c155a10be6978c1e33b9c6b28d59b24fb18b6ba3214db3143"
+    },
+    "sources": [
+      {
+        "variant": "actual",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27"
+      },
+      {
+        "variant": "formal",
+        "bytes": 7033,
+        "sha256": "3a4c34ef711a115af1abf25ef23221a9716f60fed224ac35732a2eff323c1fce"
+      }
+    ],
+    "grade": "ONE_COMPLETE_MODEL_PRODUCTION_EDIT_ADOPTED_WITH_LF_ADAPTATION_NO_SEMANTIC_OWNER_CORRECTION",
+    "actual_candidate_LF_equals_selected_source": true,
+    "formal_extra_byteLength_preserved": true,
+    "software": [
+      {
+        "role": "rawjson63-compile01",
+        "kind": "compile",
+        "begin": "2026-11-12T12:35:26.711197+00:00",
+        "end": "2026-11-12T12:35:29.422987+00:00",
+        "exit": 0,
+        "accepted": true,
+        "actor_seconds": "1.9801137999165803",
+        "operator_seconds": "2.711785599938594",
+        "ACTUAL": {
+          "bytes": 1500,
+          "sha256": "6ae61f9bba148ac49cf15c86eb6211001e3486bc9c15be66acdc713012395137"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "e02e68281622a6d29976784a4437feb10bbc004cfdf6eb409c16264da3ff8718"
+        },
+        "classes": 1
+      },
+      {
+        "role": "rawjson63-test14-compile01",
+        "kind": "compile",
+        "begin": "2026-11-12T12:37:26.076828+00:00",
+        "end": "2026-11-12T12:37:29.105579+00:00",
+        "exit": 0,
+        "accepted": true,
+        "actor_seconds": "2.3569989999523386",
+        "operator_seconds": "3.028749999939464",
+        "ACTUAL": {
+          "bytes": 1542,
+          "sha256": "329ed2ff65a48fd4e3e65c8d787b862f4b98a8905021de124b1c4bb20630443d"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "94701634291ff04d20890933e9352d84a6a842202e2ab55518c5345851f7e035"
+        },
+        "classes": 3
+      },
+      {
+        "role": "rawjson63-whole6-junit01",
+        "kind": "junit",
+        "begin": "2026-11-12T12:38:43.494581+00:00",
+        "end": "2026-11-12T12:38:48.573002+00:00",
+        "exit": 1,
+        "accepted": false,
+        "actor_seconds": "3.336767500033602",
+        "operator_seconds": "5.078417300013825",
+        "ACTUAL": {
+          "bytes": 1402,
+          "sha256": "a0ffebd50202b9cd1487164d1a691aebed8be19c389ea8a80cd37c05b0dfc942"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "81373e198812a77e9cbc02356508b3790f38ed1c945fabe6c3aae7b28be7bb06"
+        },
+        "XML": [
+          {
+            "pin": {
+              "bytes": 8913,
+              "sha256": "533d9adf093e5c2d7a4ec4e61ea24c32c1c6fd6b7db571fdc54487254fab697e"
+            },
+            "counts": {
+              "tests": 6,
+              "failures": 1,
+              "errors": 0,
+              "skipped": 0
+            }
+          }
+        ]
+      },
+      {
+        "role": "rawjson63-test14-compile02",
+        "kind": "compile",
+        "begin": "2026-11-12T12:42:47.172048+00:00",
+        "end": "2026-11-12T12:42:50.828897+00:00",
+        "exit": 0,
+        "accepted": true,
+        "actor_seconds": "2.4484751999843866",
+        "operator_seconds": "3.6568399999523535",
+        "ACTUAL": {
+          "bytes": 1542,
+          "sha256": "b74667f02f8cecf89d259d538eb488985f83d032844e1ff3fa5a3e0cf01f4e95"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "818e5a26a2bec83387a77b974d8c4b977c48ec3723e4e81a6a8c9ae355b57f24"
+        },
+        "classes": 3
+      },
+      {
+        "role": "rawjson63-whole6-junit02",
+        "kind": "junit",
+        "begin": "2026-11-12T12:44:19.614468+00:00",
+        "end": "2026-11-12T12:44:22.503205+00:00",
+        "exit": 0,
+        "accepted": true,
+        "actor_seconds": "1.9091728000203148",
+        "operator_seconds": "2.8887312000151724",
+        "ACTUAL": {
+          "bytes": 1403,
+          "sha256": "913b70dc330d7ce28ad7784c40b5dcf809ed8249d42b2a990aad4f4ea237d355"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "f63c345a3b028e7b6a48683f8089e61475f2a75bc091283760563c4e7a3f69a1"
+        },
+        "XML": [
+          {
+            "pin": {
+              "bytes": 8082,
+              "sha256": "1fd7656ab80af6563d4abfbcc72e4d487dc257f844850c468a84086a34f2729c"
+            },
+            "counts": {
+              "tests": 6,
+              "failures": 0,
+              "errors": 0,
+              "skipped": 0
+            }
+          }
+        ]
+      },
+      {
+        "role": "rawjson63-formal-compile01",
+        "kind": "compile",
+        "begin": "2026-11-12T12:45:57.703555+00:00",
+        "end": "2026-11-12T12:46:00.174313+00:00",
+        "exit": 0,
+        "accepted": true,
+        "actor_seconds": "1.806423099944368",
+        "operator_seconds": "2.470755000016652",
+        "ACTUAL": {
+          "bytes": 1543,
+          "sha256": "192ca2293b1f3c507009857af692250b12e598abdef1ccaea6aebf4a49a9647c"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "8334a24d08a07418e8677f710368d736c8a7150f0d8d9b14b3b2a3524dbedc16"
+        },
+        "classes": 1
+      },
+      {
+        "role": "rawjson63-formal-whole6-junit01",
+        "kind": "junit",
+        "begin": "2026-11-12T12:47:18.877296+00:00",
+        "end": "2026-11-12T12:47:21.860586+00:00",
+        "exit": 0,
+        "accepted": true,
+        "actor_seconds": "2.1785977999679744",
+        "operator_seconds": "2.9832848999649286",
+        "ACTUAL": {
+          "bytes": 1414,
+          "sha256": "20b21775359ac8484eddfb45a031e7c7c546ac4e10113d4cacbf9a1005f7284a"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "c27e9bd7268bf93f4576ac9e2d7906c489b15e329c4d16d7f99a3cab36f4d20c"
+        },
+        "XML": [
+          {
+            "pin": {
+              "bytes": 8110,
+              "sha256": "80711060b75f6991edea4cf5a2a9d63653b32f43e8a03a3a4fdb8a20019a0afa"
+            },
+            "counts": {
+              "tests": 6,
+              "failures": 0,
+              "errors": 0,
+              "skipped": 0
+            }
+          }
+        ]
+      }
+    ],
+    "qualification": {
+      "bytes": 22037,
+      "sha256": "20c8978998cbb11cc68fd0aa8e8ccddbb673443f2d5449966854a7f45725e47c"
+    },
+    "coverage": [
+      "Whole old5905 RawJson class embedded as independent legacyoracle with mechanical selfname/indent changes only. Sixcases compare both protocol/full profiles, all common public outputs and exact error/cause/suppressed order, no parse-counter mirror.",
+      "ActualNUL/UTF16/UTF32 autodetection, malformedUTF8/Unicode/escapes/EOF/duplicates/trailing/depth/numeric4300vs4301/full8000 and ownership. Exactly one64MiBplus1 zeroarray used for four sizegate rejections before clone/parser; no acceptedlarge tree. CPU1Xmx192.",
+      "Formal7033 retains extra publicbyteLength declaration; shared actualAPI differential tests do not dynamically exercise that extra getter. Formal behavior qualified independently, not from actual6P.",
+      "No Runtime/CPU/allocation/speed or producer callsite performance qualification from software. Native did not write live C/Game/worker/GET. Runtimeattempt64 is separate from Source63."
+    ],
+    "first_owner_test_failure": {
+      "actual": "5P1F",
+      "cause": "Extra assertion about LegacyRawJson cause expected unpaired surrogate, actual originalJacksonEOF; both actual/legacy profile comparisons already passed before line95.",
+      "correction": "Owner/Java approved draft02 removes only two extra fixed legacycause lines and neutralcomment; no input/sixbytes/wholelegacy/strict differential/case changes.",
+      "old_source_and_ACTUAL_false_CLOSE_result1_preserved": true
+    },
+    "six_byte_example_correction": "Earlier prompt asserted a six-byte wide input implied an unpaired-surrogate error. Actual original parser reports EOF; old/new complete comparisons had already passed. The extra owner-only cause assertion was removed, not the input or differential oracle. A wide-encoded Unicode-escape rationale for retaining the conservative NUL fallback is source-derived, not a newly run empirical counterexample. No model discovery/test credit is backfilled.",
+    "business_publication": {
+      "pin": {
+        "bytes": 883,
+        "sha256": "0cd0d6501e84bd4b13ebfcd8049f244b767677063545ab87908837db436e37ff"
+      },
+      "commit": "ca3bad009507ab32009de65fca8702fee34b4ffc",
+      "remote_master_at_cut": "ca3bad009507ab32009de65fca8702fee34b4ffc",
+      "clean_at_cut": true,
+      "files": 5
+    },
+    "defined_native_cost": {
+      "new_business_JVMs": 7,
+      "new_counts": {
+        "compile": 4,
+        "junit": 3
+      },
+      "new_actor_seconds": "16.0165491998195647",
+      "new_operator_seconds": "22.8185639998409895",
+      "business_JVMs": 134,
+      "all_counts": {
+        "compile": 95,
+        "junit": 37,
+        "data-main": 2
+      },
+      "all_actor_seconds": "1712.9395514997886572",
+      "all_operator_seconds": "2074.8262735997559406",
+      "actor_nested_in_operator_do_not_add": true,
+      "first_Native_BEGIN": "2026-11-11T17:32:29.172610+00:00",
+      "last_Native_END": "2026-11-12T12:47:21.860586+00:00",
+      "whole_span_BEGIN_to_lastEND_seconds": "69292.687976",
+      "whole_elapsed_through_report_cut_seconds": "69612.929186",
+      "Source63Ready": "2026-11-12T12:32:19.810408+00:00",
+      "Source63Ready_to_lastEND_seconds": "902.050178",
+      "Source63Ready_to_report_cut_seconds": "1222.291388",
+      "independent5JFRtools_and2other_perf_compiles_excluded": true
+    },
+    "post64_positive_sample": {
+      "report": {
+        "bytes": 13591,
+        "sha256": "5f5645137e8a15c264f51d301db62b2ada542d1713e7fefb335fd8523f041afb"
+      },
+      "start": "2026-11-12T13:05:39.116409600Z",
+      "end": "2026-11-12T13:06:09.228516900Z",
+      "span_ns": 30112107300,
+      "business_recorded_id": 330,
+      "OS_id": 90260,
+      "Execution_samples": 400,
+      "validateFast_presence_and_nearest": 45,
+      "legacy_validate_sampled": 0,
+      "projectOwnedHistoryRows_presence": 61,
+      "projectOwnedHistoryRows_nearest": 0,
+      "limits": "Exact method positive only, no legacy absence/fast rate/cache hit/miss/CPU duration/AB/latency claim. General top40=376/tail24. Natural mixed C55 phase."
+    },
+    "separate_qualification": "Actual and formal oneTU/oneclass independently compile and each pass the same real owner sixcases; six unique tests/twelve successful variant executions, not twelve unique tests. Source publication and positive Runtime stack occurrence do not prove speed, whole behavior or SAVE goal."
+  }
 }

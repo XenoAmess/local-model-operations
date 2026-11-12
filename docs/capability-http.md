@@ -5879,3 +5879,10 @@ One complete stop:13049 input/826 output, TTFT1.9165s/total7.1741s, peak1/curren
 ## 2026-11-12：Civ6正库存缺电后的新项目实效
 
 武汉316完成回调真实缺电req2/temp1/煤3油1/q空，随后BG新工业项目请求/回执，317100/168+activeProject全供电，318152/170保持；通知不冒私有规划输入/原子或油消费因果。25双事件样本0错丢，317exact撤、318新完成后计数/样本仍原样。七正常回合77城次food/vitals人口无新损失，旧六损失八停止保持；工厂33修完仍改造体育场，旧143没接续，列真实缺口修复；住房三城不足另域记录。0新HTTP/冻结through688不重计，689690另包，OpenCode原生0/未知成本null。[固定实机序列反链](evidence/2026-11-12-civ6-positive-fuel-native318.json)。
+
+
+## 2026-11-12: FullJsonTree byte-parser method and RawJson posterior
+
+One complete stop15539in/1143out, TTFT2.1811s/total8.6483s, peak1/current0. Three model method/factory edits preserve the legacy diagnostic fallback but omit checked CharacterCodingException handling in the bounded UTF8 scanner; source defect found before any compiler, owner selection pending. Prior RawJson onehunk now genuinely adopted with LF-only adaptation, actual/formal independently1TU1class+whole6P; owner extraEOFcause guess accounts for the preserved5P1F. Post64fast45 is actual sampled method occurrence only, no CPU/AB/speed. No duplicate HTTP/JVM or live operation for records.
+
+[New complete response and defect](evidence/2026-11-12-ck3-fulljson-direct-byteparser-method.md); [prior true adoption/software and sample boundary](evidence/2026-11-12-ck3-rawjson-owned-byteproof-method.json).
