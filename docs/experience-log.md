@@ -139,3 +139,8 @@ Civ6实际军队Delete首试中，前台与单位均正确，按键工具返回�
 ## 2026-11-12：Civ6余粮供粮678／679
 
 678输入17148／输出6500 length整弃未读，整三文件输出预算不合亦记owner尺寸限制。679完整17246+1192=18438tokens／11686.3716ms，原12方法在旧131已有11过／1Lua断言unittest error；虚用sourceWorked、用目标缺粮代替供粮负例、不真实reload，整拒／0rawNative。Owner11新Lua51方法、43相关，全1921项1920pass1SDKskip，97Lua／119包；初5前导分号夹具错误与raw679计数误期望单列。UI食物2／Core1须保上下文差异，正式132同304冷验待做。两POST峰2／重叠11.689638秒，累计679／631完整45length3transport709HTTP30extra；Nov12同机同用户1.19.5维护缓存复用，OpenCode原生0、未知缓存成本净收益null。[固定业务反链](evidence/2026-11-12-civ6-food-donor678679.json)。
+
+
+## 2026-11-12：Civ6实际部分换格与680—682
+
+132真实换2133后上海净−2→−1／源城仍+6，原UI2粮转入后1粮；只有一次请求、ARMED保持、不重发，保存304。680/681/682均完整stop/DONE/VALID，分别25284/25143/23618tokens、35879.517/34608.8496/23824.2616ms。680拒−0.5／重复写负回执／同plot再Prepare三反例，681nil字符串别名经独立Lua断言捕获，均仅部分hunk经owner纠正采用；682十方法1过9errors／接线丢失等整拒。Owner12新方法／55相关及全1933项1932pass1SDKskip，97Lua／119包；首10owner双格fixture/旧期望错误单列。三POST峰3／重叠23.816935秒，累计682／634完整45length3transport712HTTP30extra。Nov12同机同用户1.19.5维护缓存复用，OpenCode原生0／未知成本净收益null；133游戏仍待同部分生效档冷验。[固定业务反链](evidence/2026-11-12-civ6-partial-food680682.json)。

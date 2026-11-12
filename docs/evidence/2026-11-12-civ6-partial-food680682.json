@@ -1,0 +1,166 @@
+{
+  "schema": "local-model-operations.civ6-partial-food680682/v1",
+  "business_evidence": {
+    "software133": {
+      "url": "https://github.com/XenoAmess/civ6_dev/blob/be1ebbb4dfbcb785729129660a46580c01bfb77d/docs/research/baiqi-p6-source133-partial-food-software-2026-11-12.json",
+      "sha256": "799589074c10052ca22f79adefa8182a35ca0a3503fbc829270fcae78627c6ee",
+      "bytes_scope": "git_blob"
+    },
+    "Native132": {
+      "url": "https://github.com/XenoAmess/civ6_dev/blob/1cf2c7478b669b096b03ffeb50dd21fd6a412331/docs/research/baiqi-p6-native132-partial-food304-2026-11-12.json",
+      "sha256": "a1278379ada2b1f1f3602e5c68ecbde631b8e853f4fd14ef161bbb0682bf737c",
+      "bytes_scope": "git_blob"
+    }
+  },
+  "Native132_failure": {
+    "actually_transferred_plot": 2133,
+    "recipient_UI_food_before_and_after": [
+      2,
+      1
+    ],
+    "recipient_net_food_before_and_after": [
+      -2,
+      -1
+    ],
+    "donor_net_food_remained": 6,
+    "only_one_request_no_replay": true,
+    "ARMED_preserved_negative_food": true,
+    "exact_yield_difference_cause": null,
+    "saved_and_stopped304": true
+  },
+  "models": {
+    "680": {
+      "usage": {
+        "prompt_tokens": 21272,
+        "completion_tokens": 4012,
+        "total_tokens": 25284
+      },
+      "total_ms": 35879.51699993573,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "candidate_complete": true
+    },
+    "681": {
+      "usage": {
+        "prompt_tokens": 21278,
+        "completion_tokens": 3865,
+        "total_tokens": 25143
+      },
+      "total_ms": 34608.849599957466,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "candidate_complete": true
+    },
+    "682": {
+      "usage": {
+        "prompt_tokens": 21425,
+        "completion_tokens": 2193,
+        "total_tokens": 23618
+      },
+      "total_ms": 23824.261599918827,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "candidate_complete": true
+    }
+  },
+  "review": {
+    "raw680_compiles": true,
+    "raw681_compiles": true,
+    "raw682_compiles": true,
+    "raw680": {
+      "negative_fraction_minus_half_rejected": true,
+      "same_TRANSFERRED_new_turn_extra_writes": 1,
+      "same_plot_new_Prepare_granted": true
+    },
+    "raw681_source_review": {
+      "receipt_and_stage_hunks_potential_partial_adoption": true,
+      "attemptKey_OPEN_nil_vs_string_nil_alias": true,
+      "comments_removed_not_adopted": true
+    },
+    "raw682": {
+      "methods": 10,
+      "failures": 0,
+      "errors": 9,
+      "whole_rejected": true,
+      "findings": [
+        "Core module loaded before globals then ExposedMembers replaced; published bridge lost",
+        "W.apply always sets net0 so cannot witness partial negative transfer",
+        "W.donor never read by raw fixture",
+        "two distinct plot test never installs second plot ports",
+        "reload method never reloads modules"
+      ]
+    },
+    "raw_candidates_Native": 0,
+    "owner_takeover": "Fix fractional bound, immutable negative transfer receipt, same-plot explicit denial, typed attempt pair, meaningful independent tests"
+  },
+  "adoption": {
+    "680": "PARTIAL: Observe accepts TRANSFERRED, finite negative target inspection and separate transfer/rescue log branches; owner wrote fractional strict journal bound, stable first negative receipt and explicit same-plot denial. Whole modules rejected.",
+    "681": "PARTIAL: exact terminal-token hold release, stage validation and partial-vs-success log hunks; owner used typed turn/token attempt pair, kept all original safety comments and added explicit same_plot denial reason. Whole file not adopted.",
+    "682": "REJECTED:10methods,1pass9unittest errors under raw680/681; lost bridge initialization, unused donor field, no second plot or actual reload. Owner new fixture and12methods."
+  },
+  "through682": {
+    "logical": 682,
+    "complete": 634,
+    "length": 45,
+    "transport": 3,
+    "HTTP": 712,
+    "extra": 30,
+    "OpenCode_native": 0,
+    "new_actual_HTTP_peak": 3,
+    "new_three_way_overlap_seconds": 23.816935,
+    "unknown_cache_cost_savings": null
+  },
+  "software": {
+    "version": 133,
+    "full_summary": "Ran 1933 tests in 171.871s",
+    "passed": 1932,
+    "SDK_skip": 1,
+    "new_Lua51_methods": 12,
+    "targeted_related_pass": 55,
+    "Lua51_compiled": 97,
+    "package_files": 119,
+    "package_sha256": "91765340f4da71974ec247476020d3986f6f4af47e350c95361826c22fd6b3d7",
+    "owner_initial_fixture_errors": {
+      "initial_related_errors": 10,
+      "causes": "two-plot owner fixture retained sourceDistance4 while exposing worked source rows; corrected radius2 and direct Prepare cost argument; old donor negative-target expectation updated to TRANSFERRED with distinct write count"
+    }
+  },
+  "maintenance": "Nov12 same-machine/user successful OpenCode1.19.5 daily cache reused; no native generation",
+  "owner_costs": "UTC prep/review/correction events retained; overlapping Native/docs and software waits prevent exclusive active/net cost claim",
+  "Native133": "PENDING",
+  "OpenCode_native_generation": 0,
+  "lessons": [
+    "A known applied transfer and a successful resource rescue are different receipts.",
+    "A new confirmed token can scope a different plan without granting a retry to an old unknown operation.",
+    "Negative measurements can be fractional; reject nonnegative TRANSFERRED values without rejecting -0.5.",
+    "Keep OPEN nil distinct from token strings; avoid ad hoc string-encoded attempt identities.",
+    "A test must wire the actual bridge and distinct native target ports before claiming multiple actions or reload behavior."
+  ]
+}

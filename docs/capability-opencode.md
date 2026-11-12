@@ -1528,3 +1528,8 @@ OpenCode1.19.5同机同用户每日成功缓存复用、原生生成0。665整�
 ### 2026-11-12：Civ6678／679维护与候选分账
 
 同机同用户Nov12 OpenCode1.19.5成功缓存复用；新2次均HTTP候选，0OpenCode原生生成。678 length6500未读整弃，679完整但测试缺供粮负例／真实重载而拒用。Owner1920pass1SDKskip仅软件，不授132游戏效果。累计679／631完整45length3transport709HTTP30extra，成本未知null。[固定业务反链](evidence/2026-11-12-civ6-food-donor678679.json)。
+
+
+### 2026-11-12：Civ6680—682与部分效果
+
+Nov12同机同用户OpenCode1.19.5成功缓存复用，三个新调用均普通HTTP候选，0OpenCode原生生成。132已转入仍负粮而保ARMED；680/681部分经owner修正，682整拒，133仅1932pass1SDKskip软件；不授游戏救粮通过。累计682／634完整45length3transport712HTTP30extra，成本未知null。[固定业务反链](evidence/2026-11-12-civ6-partial-food680682.json)。
