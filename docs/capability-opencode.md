@@ -1533,3 +1533,8 @@ OpenCode1.19.5同机同用户每日成功缓存复用、原生生成0。665整�
 ### 2026-11-12：Civ6680—682与部分效果
 
 Nov12同机同用户OpenCode1.19.5成功缓存复用，三个新调用均普通HTTP候选，0OpenCode原生生成。132已转入仍负粮而保ARMED；680/681部分经owner修正，682整拒，133仅1932pass1SDKskip软件；不授游戏救粮通过。累计682／634完整45length3transport712HTTP30extra，成本未知null。[固定业务反链](evidence/2026-11-12-civ6-partial-food680682.json)。
+
+
+### 2026-11-12：133游戏后见不补计模型调用
+
+Owner修正部分HTTP候选后的实际新计划救粮／两普通回合保持，及另城灾害人口失败分别记。0新HTTP，不重计682，0OpenCode原生；此前每日维护缓存不授代码能力，成本未知null。[固定Native业务反链](evidence/2026-11-12-civ6-native133-food-fire306.json)。
