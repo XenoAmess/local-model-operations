@@ -5639,3 +5639,10 @@ Two distinct complete source reviews, zero findings and zero model code adoption
 ## 2026-11-12：663／664正燃料与实际消费者缺口
 
 283核裂变完成、煤2使旧零燃料门退出新能源路线。24资源getter／11城／33电厂Has全已知，煤积累3、当前耗电1；邢州非project供电，10城仍project-only，未来总需求不据此推算。663完整13575tokens却continue／bool当numeric／错HasBuilding等整拒，Owner7组后只读。664完整22047tokens，Admin无限值／零gap／未知phase3反例拒；Planner hunk在实际全模块12形态通过，批准后续窄采用。Owner误读formation列为charges与初始词法upvalue夹具错误均纠正分账，煤来源未知。累计664／618完整43length3transport694HTTP30extra，成本缓存净收益null。[固定blob反链](evidence/2026-11-12-civ6-model663664-fuel-gap.json)。
+
+
+## 2026-11-12: Projection choice and same-round publication candidates
+
+Four complete stop requests,383135 input/12129 output, no retry/length; last independent pair peak2/40.761487s. Original projection patch missed early alias ordering; one diagnosed correction fixed the small production core but its regression draft remained broken. A later same-round Published candidate matched the owner contract, while its test and an independent review's unsupported high-severity claims were rejected. Actual core adoption not held at this cut; no compile, measured benefit, Runtime or SAVE grant.
+
+[Costs, corrected source mechanics and rejected verification claims](evidence/2026-11-12-ck3-projection-choice-and-domain-rejoin-candidates.md).

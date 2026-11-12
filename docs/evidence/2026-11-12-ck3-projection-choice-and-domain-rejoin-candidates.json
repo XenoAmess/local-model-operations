@@ -1,0 +1,308 @@
+{
+  "schema": "local-model-operations.projection-choice-and-domain-rejoin-candidates/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "scope": "Two newly owner-selected implementation obligations: model-input projection orchestration, then real pre-model publication same-round continuation. One explicitly authorized diagnosed correction and one independent boundary review; not a quota wave or repeated old publication packet.",
+  "requests": [
+    {
+      "task": "event13-original",
+      "prefix": {
+        "bytes": 248522,
+        "sha256": "97c98dff4e143730115a12cda1e90e978f01c022112970a0ee4044f7bcc0fb78"
+      },
+      "request": {
+        "max_tokens": 10000,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "messages": 3,
+      "post_begin_utc": "2026-11-12T02:39:34.565585+00:00",
+      "end_utc": "2026-11-12T02:40:10.231201+00:00",
+      "http_status": 200,
+      "http_headers_ms": 7698.824499966577,
+      "first_nonempty_content_delta_ms": 7699.875999940559,
+      "total_ms": 35665.58959998656,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 58922,
+        "completion_tokens": 4815,
+        "total_tokens": 63737
+      },
+      "cached_prompt_tokens": null,
+      "attempts": 1,
+      "retry": 0,
+      "length": 0,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_grade": "REJECTED_BEFORE_COMPILE",
+      "actual_source_adoption": "NONE",
+      "content_receipt": {
+        "bytes": 20132,
+        "sha256": "3c9e3eba1445e67fcf45d3846ba0d3adfa222b2fe00e824813b09d99fdb53017"
+      }
+    },
+    {
+      "task": "event13-one-diagnosed-correction",
+      "prefix": {
+        "bytes": 270444,
+        "sha256": "81d0b97e6e618d48d6b757366ca41b5c198b9c56ca0cc5c093d771b983169a75"
+      },
+      "request": {
+        "max_tokens": 12000,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "messages": 3,
+      "post_begin_utc": "2026-11-12T02:45:50.072417+00:00",
+      "end_utc": "2026-11-12T02:46:19.167113+00:00",
+      "http_status": 200,
+      "http_headers_ms": 1740.2740999823436,
+      "first_nonempty_content_delta_ms": 1741.3609999930486,
+      "total_ms": 29094.623900018632,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 64792,
+        "completion_tokens": 4955,
+        "total_tokens": 69747
+      },
+      "cached_prompt_tokens": null,
+      "attempts": 1,
+      "retry": 0,
+      "length": 0,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_grade": "SOURCE_CORE_CORRECTED_TEST_REJECTED_ADOPTION_NOT_HELD",
+      "actual_source_adoption": "NOT_HELD at this source-review cut",
+      "content_receipt": {
+        "bytes": 20773,
+        "sha256": "e96b60143b099dc62e6f66c42924bc9639b27e07d4d28252c3fa64ddadee979e"
+      }
+    },
+    {
+      "task": "batch17-same-round-candidate",
+      "prefix": {
+        "bytes": 608907,
+        "sha256": "368356559a2632e4eaff9e7723d334ffca5919fb4b5876825f70f00c6da4748f"
+      },
+      "request": {
+        "max_tokens": 6000,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "messages": 3,
+      "post_begin_utc": "2026-11-12T03:05:35.047941+00:00",
+      "end_utc": "2026-11-12T03:06:18.362117+00:00",
+      "http_status": 200,
+      "http_headers_ms": 33271.37059997767,
+      "first_nonempty_content_delta_ms": 33272.369600017555,
+      "total_ms": 43314.0635000309,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 129737,
+        "completion_tokens": 1471,
+        "total_tokens": 131208
+      },
+      "cached_prompt_tokens": null,
+      "attempts": 1,
+      "retry": 0,
+      "length": 0,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_grade": "SOURCE_CORE_MATCHES_OWNER_CONTRACT_TEST_REJECTED_ADOPTION_NOT_HELD",
+      "actual_source_adoption": "NOT_HELD at this source-review cut",
+      "content_receipt": {
+        "bytes": 6360,
+        "sha256": "e400df2a962dbe472d72c31cb30762d837a197838bcfb88a0b8523b7f45aef80"
+      }
+    },
+    {
+      "task": "batch17-independent-boundary-review",
+      "prefix": {
+        "bytes": 608907,
+        "sha256": "368356559a2632e4eaff9e7723d334ffca5919fb4b5876825f70f00c6da4748f"
+      },
+      "request": {
+        "max_tokens": 2600,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "messages": 3,
+      "post_begin_utc": "2026-11-12T03:05:35.048167+00:00",
+      "end_utc": "2026-11-12T03:06:15.809654+00:00",
+      "http_status": 200,
+      "http_headers_ms": 31589.877500082366,
+      "first_nonempty_content_delta_ms": 31590.95730003901,
+      "total_ms": 40761.40990003478,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 129684,
+        "completion_tokens": 888,
+        "total_tokens": 130572
+      },
+      "cached_prompt_tokens": null,
+      "attempts": 1,
+      "retry": 0,
+      "length": 0,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_grade": "FINDINGS_NOT_ACCEPTED_AFTER_SOURCE_CHECK",
+      "actual_source_adoption": "NONE",
+      "content_receipt": {
+        "bytes": 3809,
+        "sha256": "5026b9e3d790ae99365c3b18d40103d8d3f0295c6e9649e2c16758ec921d3aac"
+      }
+    }
+  ],
+  "totals": {
+    "actual_POSTs": 4,
+    "complete_stop": 4,
+    "retry": 0,
+    "length": 0,
+    "prompt_tokens": 383135,
+    "completion_tokens": 12129,
+    "sum_request_total_ms": 148835.68690007087,
+    "financial_cost": null
+  },
+  "concurrency": {
+    "definition": "actual POST_BEGIN through END",
+    "peak": 2,
+    "peak2_duration_seconds": 40.761487,
+    "current_after_end": 0,
+    "first_two_requests_sequential": true,
+    "last_two_independent_duties_parallel": true,
+    "business_request_queue_observed": "No global server-queue measurement; runtime supplied only its existing local log cut"
+  },
+  "event13": {
+    "deterministic_source_problem": "Existing whole-array alias marker prevents the existing item-dictionary projection from being evaluated. The chosen change compares complete request wires from the same pre-alias model input; no item algorithm is reinvented.",
+    "first_candidate_rejection": [
+      "It copies the model tree after the unchanged early alias mutation; the item helper still returns null.",
+      "The rationale claims pre-alias placement absent from the edits.",
+      "The new test uses1MiB for an actual1665178-byte user and mistakes an existing alias row for a complete array.",
+      "It omits required imports and does not test the actual wire-choice path, an equal-wire-length tie or real baseline encoding failure."
+    ],
+    "correction_positive_evidence": [
+      "Actual early mutation removed.",
+      "Shallow baseline root plus new history array receives unchanged whole-alias algorithm; original model tree is retained for unchanged item algorithm.",
+      "Whole old baseline wire encoded first outside optional try; optional failure returns baseline; strictly shorter item selected, tie old.",
+      "All three old anchors match once after universal newline normalization. This is not raw whole-file byte-inverse or execution proof."
+    ],
+    "correction_test_rejection": [
+      "The independent whole-alias expander is defined but never called on the actual fixture; the alias row is still asserted to contain a full array.",
+      "Method and PlanTrace still lack imports; Optional alone was corrected.",
+      "No complete-wire encoder invocation or actual choice comparison in fixture test.",
+      "Tie and baseline-failure tests still do not exercise their claimed conditions.",
+      "Constructed HttpClient is not closed."
+    ],
+    "fixture_boundary": "Only exact external fixture identity, loading contract, shape and byte analysis were supplied, not every raw game fact. The actual request was already aliased and cannot prove unheld earlier member positions. Fresh synthetic unaliased item/order/token fixtures retain a stronger fixed-byte oracle.",
+    "original_tests": "Both historical tests and the fixed historical class SHA assertion remain untouched. No old test green is assigned to a new class.",
+    "adoption_boundary": "Corrected production core was recognized and delivered for owner choice; source adoption not yet held at this cut. New test rejected; no third request."
+  },
+  "batch17": {
+    "actual_evidence": "Four frozen READ publication returns and three domain publication returns. Tail stage name does not identify the writer. Two frozen small actual domain payloads confirm OPTIONAL_CADENCE and four domains advancing misses1 to2 across native revisions; third cooldown state not held in this packet.",
+    "source_boundary": "Cadence is bounded and may enter dated cooldown after three misses. Inter-row wall gaps are not component duration or CPU. No infinite loop or exact performance benefit is proved.",
+    "candidate_positive_evidence": "The production change extends the same-writer continuation supplier only to the real cached beforeModel Published, excluding Blocked and unrelated afterPlanning publications, using the unchanged actual collector requalification. Per-work resets and original bounds remain.",
+    "candidate_test_rejection": [
+      "Unused invented WriterContracts.State.empty/Head/Receipt construction does not match actual off-prefix declarations. The request did not supply those optional fixture constructors; the model should avoid the unnecessary factory or report the missing declarations.",
+      "Actual WriterContracts uses ContinuityState, five-field Head and a different Receipt/Disposition contract; this is source inspection, not an observed compiler RED.",
+      "Test methods omit checked IOException/InterruptedException handling required by the supplied helper signature.",
+      "Boolean-supplier simulations exercise the unchanged loop helper and would also pass without the new production supplier, so they do not verify the new connection."
+    ],
+    "independent_review_rejected": [
+      "It assumes prepared Published can coexist with readPublication, contradicting the supplied beforeModel empty-read precondition and Planner mutually exclusive branches.",
+      "It claims possible leaked stale round state despite explicit finally cleanup in both owned round scopes.",
+      "Its second finding restates the known old source opportunity rather than a reachable counterexample to the proposed continuation. Numeric source references are also inaccurate.",
+      "CRITICAL/HIGH labels do not replace source evidence."
+    ],
+    "input_scope": "26 complete source/original files plus explicitly bounded unchanged Core session-method excerpts, not a full unrelated Root audit.",
+    "adoption_boundary": "Small production candidate delivered for owner choice; test and unsupported independent findings rejected. No runtime permission or repeat wave."
+  },
+  "operations": {
+    "same_day_successful_client_maintenance_reused": true,
+    "stable_three_messages": true,
+    "temperature": 0,
+    "thinking": false,
+    "DIRECT_no_redirect": true,
+    "active_service_or_business_config_changed": false,
+    "raw_evidence_retained_privately": true,
+    "one_operator_PowerShell_quoting_error": "Before Python inspection; fixed locally, no source/model/JVM failure."
+  },
+  "qualification": {
+    "new_Java_or_test_execution_by_this_operator": 0,
+    "observed_compiler_RED": false,
+    "Game_Native_or_ledger_operation": 0,
+    "production_write_by_model_operator": false,
+    "whole_wire_equivalence_measured": false,
+    "optimization_benefit_measured": false,
+    "Runtime_or_SAVE_grant": false,
+    "earlier_actual_typed_partial_adoption": "Separate evidence; not erased by these rejected tests"
+  },
+  "next_step": "Java owner chooses the corrected small production cores and supplies real source adoption/software receipts separately. No further generic retry is authorized by this case."
+}
