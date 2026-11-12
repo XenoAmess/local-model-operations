@@ -5737,3 +5737,10 @@ No new HTTP/Java/live. Original physical-read model edits retain all8 old public
 ## 2026-11-12：670/671秀容300独立领域与typed队列
 
 670完整6073tokens/4147.1905ms，人口与queue元数据分开方向窄采用、Owner补缺失领域事实；671完整4536tokens/6188.3885ms四反例整拒，Owner6只读合同后Native PROJECT10/143产能/工业区pillaged及PREPEND资格true，0修复/END300。人口−3独立保留并停下一END，13零燃料trace已还原。累计截至671／625完整43length3transport701HTTP30extra，后续672/673不预计；OpenCode维护缓存、原生0/成本null。[固定blob反链](evidence/2026-11-12-civ6-xiurong300-model670671.json)。
+
+
+## 2026-11-12: Bounded clean-stop capture candidate and later restored ABI
+
+One complete source-guided method response123405 input/875 output, TTFT15.9210s/total20.8014s, no retry/length, peak1/current0. Genuine read/producer core has missing import, writer-phase, interruption, duplicate-preserve and diagnostic-bound corrections before owner integration; no compiler/Runtime/benefit grant. Existing Source56 now has necessary1TU1class/complete old16-member ABI retention and reused4 manualDATApass, without erasing owner53/Runtime58 failure or pretending full Root coverage.
+
+[Exact candidate and later qualification boundaries](evidence/2026-11-12-ck3-clean-stop-fresh-capture-method.md).

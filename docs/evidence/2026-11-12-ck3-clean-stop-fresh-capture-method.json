@@ -1,0 +1,150 @@
+{
+  "schema": "local-model-operations.clean-stop-fresh-capture-method/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "request": {
+    "prefix": {
+      "bytes": 628672,
+      "sha256": "8e751fb20011cb92549e9153fc765fe1d721b53b5a607f8504b986a355882024"
+    },
+    "input_sources": 19,
+    "begin_utc": "2026-11-12T06:35:27.003330+00:00",
+    "end_utc": "2026-11-12T06:35:47.804785+00:00",
+    "messages": 3,
+    "parameters": {
+      "max_tokens": 4000,
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      }
+    },
+    "headers_ms": 15919.789800071158,
+    "content_TTFT_ms": 15920.954699977301,
+    "total_ms": 20801.373600028455,
+    "status": 200,
+    "finish": "stop",
+    "SSE_DONE": true,
+    "JSON": "VALID",
+    "usage": {
+      "prompt_tokens": 123405,
+      "completion_tokens": 875,
+      "total_tokens": 124280
+    },
+    "cached_tokens": null,
+    "routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    },
+    "response": {
+      "bytes": 4483,
+      "sha256": "54c8a27daf9ea9d7d73308b53c339cc309070a4f5c5c7e41e6d9d427d0b2c97c"
+    },
+    "retry": 0,
+    "length": 0
+  },
+  "concurrency": {
+    "peak": 1,
+    "current_after_END": 0,
+    "preparation_not_counted": true
+  },
+  "guidance": "Actual source owner/helper had located the observation-clearing/stop-before-observe mechanism and selected the exact fallback method. This is guided implementation, not model discovery of a unique runtime cause.",
+  "source_grade": {
+    "grade": "PARTIAL_SOURCE_CORE_OWNER_CORRECTIONS_REQUIRED_BEFORE_COMPILE",
+    "actual_source_adoption": "NOT_HELD at this review cut",
+    "normalized_anchor_matches": [
+      1,
+      1
+    ],
+    "positive": [
+      "Only the typed MissingDriverObservation enables one new read/producer/capture retry.",
+      "Uses the actual default fresh-read API, original verification, archive and frozen raw observation/Complete producer; no fake frame or stale SEM.",
+      "Original calls lock, drain, other exceptions, deadline parameter, stop and capture guards remain."
+    ],
+    "corrections": [
+      "DriverObservationAssembler.Complete is referenced by simple name without an import; original target uses fully qualified driver-assembler names. The full type declaration was supplied.",
+      "The catch is inside owner.withBorrowed lambda, retaining the first writer scope through fresh IO. Move try/catch outside that original call to meet the requested phase boundary. No deadlock or unique runtime failure is inferred from this source mismatch.",
+      "InterruptedException retains the interrupt flag but is wrapped as plain IOException; propagate the declared interruption or use the owner-approved typed interrupted IO form.",
+      "The successful frame is preserved twice, discarding the first ExactRef. Preserve once and reuse its real ref for the callback.",
+      "Unavailable reason is appended unbounded despite the requested bounded diagnostic."
+    ],
+    "classification": "Source/API/lifecycle/allocation issues observed before compilation, not an actual compiler RED. The genuine-read core remains useful for owner selection after explicit changes; no whole candidate adoption or measured gain is proved.",
+    "tests": "No new Test was requested or run. Existing-complete no-READ, exact one typed fallback, non-Missing propagation, failed-read originals, original deadline, scope cleanup and unchanged dirty/saved state are separate useful owner regressions."
+  },
+  "previous_task_source56_later_qualification": {
+    "at_utc": "2026-11-12T06:42:23.281251+00:00",
+    "grade": "SOURCE56_NECESSARY_COMPILER_OLD_ABI_AND_REUSED_HELPER_DATA_QUALIFIED",
+    "source": {
+      "bytes": 25635,
+      "sha256": "80734d781aa2115aea1a61529269448437a44f91e3f985ea4d067ed81f05e525"
+    },
+    "source_ready02": {
+      "bytes": 3525,
+      "sha256": "81bc911368f7f2c79456a9e366ffa09e486e63eb6c4b2357b144e61a5d6e00e1"
+    },
+    "necessary_production_TUs_classes": [
+      1,
+      1
+    ],
+    "compile_actual": {
+      "bytes": 1628,
+      "sha256": "5a9f429e6e153373197fd527c878adeadccd16b02308616ff404685ce18ece06"
+    },
+    "compile_exit": 0,
+    "compile_actor_seconds": 4.901800399995409,
+    "old_binary_API_check": {
+      "bytes": 7756,
+      "sha256": "cf67bcb21d62c8e0d643c0b54f9916be40d978267b1b299bf869bd936e6aeccd"
+    },
+    "old_binary_exact_matches_pre53": true,
+    "old_and_new_public_protected_count": 16,
+    "retained_API_dimensions": [
+      "name",
+      "descriptor",
+      "flags",
+      "generic signature"
+    ],
+    "critical_methods_present": [
+      "verifyClockReport",
+      "compatibleResult"
+    ],
+    "new_actual_class": {
+      "bytes": 45347,
+      "sha256": "39d8cbfc44a73d8744cbf0e0c168e8897ffb1be8f8799d80f8e3f8940d0e22ad"
+    },
+    "reused_manual_DATA_Main": {
+      "cases": 4,
+      "JUnit_cases": 0,
+      "new_Test_compile": 0,
+      "exit": 0,
+      "actor_seconds": 4.88390289992094,
+      "actual": {
+        "bytes": 1483,
+        "sha256": "55911384957562f7d91fb4365647ad2bcfd4fd2c2203573715361bc6085e5743"
+      },
+      "limitation": "Same helper/original-read/stopped equality coverage; not a newly tested full compatibleResult/Root membership."
+    },
+    "source53Ready_to_source56DataClose_seconds": 2971.205769,
+    "window_boundary": "Source53 original Ready -> Source56 reused DATA managed close; includes preparation/error/wait, separate from short actors and prior model HTTP.",
+    "prior_owner53_error_Runtime58_and_helper4PASS_preserved": true,
+    "full_Root_or_Runtime_from_this_check": false,
+    "operator_new_HTTP_Java_or_live": 0
+  },
+  "limits": {
+    "current_capture_or_future_ticket_not_granted": true,
+    "new_Test_Java_Game_Native_or_production_write_by_operator": 0,
+    "old_deadline_stop_guard_parser_hash_encode_ledger_changed": false,
+    "saved_day_or_latency_improvement_proved": false
+  },
+  "privacy": "Full source, original frames, runtime files and private absolute paths remain local."
+}
