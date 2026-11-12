@@ -5663,3 +5663,10 @@ Four complete stop requests,383135 input/12129 output, no retry/length; last ind
 Three complete stops,291620 input/8986 output, no retry/length; implementation pair peak2/43.934585s. Receiver review missed a pre-POST allowed-budget counterexample. Snapshot production core is useful pending owner integration, while its generated Test is rejected. Root-subtree method has an always-rejecting guard and breaks the legacy marker; rejected before compile. Earlier Event13 correction's three production edits now have actual Source44 partial adoption, separate from rejected Tests and ungranted Runtime/benefit.
 
 [Exact costs and later adoption boundary](evidence/2026-11-12-ck3-receiver-review-snapshot-and-root-subtrees.md).
+
+
+## 2026-11-12: Guided narrow methods after concrete source diagnosis
+
+Two complete sequential stops, 112729 input/3826 output, no retry/length. One subtree correction fixes protocol/duplicate core but leaves an abandoned extra encode traversal and incomplete POLICY wording for owner cleanup. A distinct current public-replay candidate has three unique anchors and preserves its error-to-Incomplete boundary using the existing private nominal handoff. Source candidates only; no new Test/Java/Runtime/benefit claim.
+
+[Costs, remaining work and fair partial-core boundaries](evidence/2026-11-12-ck3-precise-subtree-and-public-replay-methods.md).

@@ -1,0 +1,182 @@
+{
+  "schema": "local-model-operations.precise-method-candidates/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "requests": [
+    {
+      "task": "event13-root-fact-subtrees-method-correction02",
+      "prefix": {
+        "bytes": 237466,
+        "sha256": "6a45af35778c2472736b899d2f094bd3d6409178ccf91372eac9be1684bca22e"
+      },
+      "input_files": 10,
+      "begin_utc": "2026-11-12T03:56:35.974064+00:00",
+      "end_utc": "2026-11-12T03:56:55.963959+00:00",
+      "request": {
+        "max_tokens": 7000,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "messages": 3,
+      "headers_ms": 7350.182199967094,
+      "content_TTFT_ms": 7351.111099938862,
+      "total_ms": 19989.736199961044,
+      "status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "JSON": "VALID",
+      "usage": {
+        "prompt_tokens": 56087,
+        "completion_tokens": 2219,
+        "total_tokens": 58306
+      },
+      "cached_tokens": null,
+      "routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "retry": 0,
+      "length": 0,
+      "response": {
+        "bytes": 10434,
+        "sha256": "7f035e2b4181275b751f39ffa402646e74b1709947aaa3f71867302a9d9ac7d6"
+      }
+    },
+    {
+      "task": "driver-public-replay-single-projection-candidate01",
+      "prefix": {
+        "bytes": 269611,
+        "sha256": "979fa7c6644bbb5d878d68398634265d7331337e5d7b6b5135d2e8f7690c0ba3"
+      },
+      "input_files": 27,
+      "begin_utc": "2026-11-12T03:59:53.719561+00:00",
+      "end_utc": "2026-11-12T04:00:10.680543+00:00",
+      "request": {
+        "max_tokens": 6000,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "messages": 3,
+      "headers_ms": 7414.165400085039,
+      "content_TTFT_ms": 7415.113700088114,
+      "total_ms": 16961.068500066176,
+      "status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "JSON": "VALID",
+      "usage": {
+        "prompt_tokens": 56642,
+        "completion_tokens": 1607,
+        "total_tokens": 58249
+      },
+      "cached_tokens": null,
+      "routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "retry": 0,
+      "length": 0,
+      "response": {
+        "bytes": 7474,
+        "sha256": "8c96b1fdbb5d6703ed885b9a01fdb4f594c136cee3c3575864777996f94b3873"
+      }
+    }
+  ],
+  "totals": {
+    "POSTs": 2,
+    "complete_stop": 2,
+    "retry": 0,
+    "length": 0,
+    "prompt_tokens": 112729,
+    "completion_tokens": 3826,
+    "sum_total_ms": 36950.80470002722,
+    "cached_tokens": null,
+    "financial_cost": null
+  },
+  "concurrency": {
+    "peak": 1,
+    "current_after_END": 0,
+    "why_not_parallel": "The replay request was prepared only after read-only source confirmation found an independent improvement; no preparation was counted as in-flight."
+  },
+  "guidance": "Both requests explicitly supplied owner-selected narrow method contracts and exact source. They are guided implementation candidates, not independent discovery of the whole design.",
+  "root_subtrees": {
+    "grade": "CORRECTED_PRODUCTION_CORE_WITH_OWNER_CLEANUP_REQUIRED",
+    "source_adoption": "NOT_HELD at this cut",
+    "model_new_Test_requested_or_generated": false,
+    "corrected": [
+      "Valid legacy marker is required rather than prohibited.",
+      "New independent marker/dictionaries leave old history and war markers intact.",
+      "Per-role exact encoded keys are counted, then duplicates including first occurrence are replaced at original property positions.",
+      "Original values/arrays and source metadata remain unchanged; no global or cross-round cache."
+    ],
+    "remaining": [
+      "One abandoned initial encode/intern loop and unused ObjectNode allocations remain before the actual count/project passes; all three encode traversals run as written.",
+      "That dead pass contains self-correction comments and must be deleted by owner; no third HTTP retry is implied.",
+      "POLICY wording must explicitly use the sole-key wrapper reference value and restore only specified direct fields once, removing only the two new fields. The separate expansion_contract is clearer but is not automatically part of the actual model request.",
+      "All roots are copied, even unchanged ones, despite narrower requested allocation scope."
+    ],
+    "fair_boundary": "A complete corrected two-pass production core may be selected partially after explicit owner cleanup; it is not falsely labelled wholly useless or originally adopted. No complete-wire size or latency benefit is proved."
+  },
+  "public_replay": {
+    "grade": "CONCRETE_NOMINAL_SOURCE_CANDIDATE_PENDING_OWNER",
+    "source_adoption": "NOT_HELD at this cut",
+    "normalized_anchor_matches": [
+      1,
+      1,
+      1
+    ],
+    "source_facts": [
+      "Current archive scope already enables the finite Driver decode scope; no missing-cache or new-cache claim.",
+      "The public replay and captured null-decoder tail still use ordinary assemble; profile four Complete verification repeats the same-call projection.",
+      "Current Loader.load uses a different nominal route whose first projection intentionally throws outside the catch."
+    ],
+    "candidate": [
+      "A new package-private method accepts only Reader-private-ctor parsed originals, projects inside the original IllegalArgumentException/ArithmeticException boundary and then uses existing private constructor handoff.",
+      "Only two Reader replay endings route into it; original material callback/decoder getter, framing clone, hash and source checks remain.",
+      "Public assemble, Complete canonical validation of arbitrary supplied data, Loader paths, Snapshot and encoding algorithms stay unchanged."
+    ],
+    "null_boundary": "The candidate omits explicit actual/evidence checks before try. Its projectFull performs these before other work, and NullPointerException is not caught by the selected catch. Nominal parsed actual/facts are non-null. An owner may add the explicit checks for literal contract clarity; no changed public null result has been demonstrated.",
+    "tests": "Two named methods in the supplied historical replay test were actually verified to exist. No Test code was generated or run; profile1/profile4 field equality, projection failure Incomplete, public forged Full, callback order, nested/failed token cleanup still require meaningful owner validation.",
+    "unmeasured_cost": "Private carrier/thread-local work also has cost, especially profiles without the repeated projection; no net benefit or Runtime admission is proved."
+  },
+  "scope": {
+    "new_JVM_Test_or_Game": 0,
+    "production_write_by_model_operator": 0,
+    "whole_class_or_Test_generation": false,
+    "old_parser_encode_Guard_hash_changed": false,
+    "Runtime_or_SAVEDAY_admission": false
+  },
+  "operations": {
+    "same_day_successful_maintenance_reused": true,
+    "shared_caller_service_active_config_changed": false,
+    "actual_terminal_reported_before_cost_seal": true,
+    "source_preparation_error": "Two nonexistent historical spec/task filenames were queried before the actual directory names were read; read-only operator path errors, not model or Java failures."
+  },
+  "privacy": "Raw source, requests, game originals and private absolute paths remain local."
+}
