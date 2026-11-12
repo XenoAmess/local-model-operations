@@ -5929,3 +5929,6 @@ One complete new method request23950in/1238out, TTFT3.3263s/total10.7780s, peak1
 One complete stop74764in/2400out, TTFT9.7172s/total23.4043s, peak1/current0. Three edits rejected for two-clock race, wrongObj-as-PlanTrace and swallowed suppression/cancellation faults; no actual javacRED. Only new typed carrier body genuinely partial-selected with import/Javadoc cleanup, owner separately writes the live planning integration. Late flush-suppressed feedback remains late; original completion source supplied. SourceReady not software/Runtime/fullrepair, original action guards/deadlines/UNKNOWN stay.
 
 [Exact incident, source selection and cost](evidence/2026-11-12-ck3-planning-predispatch-deadline-p0-method.md).
+
+
+Planning-expiry source-only posterior: ownerReady66-03 adds Controller damagedEnd/failIo handling and pre-compiler transientfield lint fix. Earlier requestdeadline preserving PLANNER_STOPPED is an existing behavior boundary, not a separate bug; only actual batchmono expiry claims WALL. Initial consumer critique narrowed, model race/type/suppressed faults and carrier-only partial credit unchanged;0newHTTP/JVM/live. [Source overlay and clarification](evidence/2026-11-12-ck3-planning-predispatch-deadline-p0-method.json).
