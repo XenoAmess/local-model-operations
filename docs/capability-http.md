@@ -5624,3 +5624,8 @@ Two distinct complete source reviews, zero findings and zero model code adoption
 一项真实75秒导演稿候选完整stop，3228输入／1466输出tokens，TTFT657.043ms、HTTP9852.430ms；具名POST→END峰值1／9.848631秒，不计其他消费者。JSON与9段连续时间通过；开场提前揭示视觉梗、十秒库存数字卡、重复占位旁白及额外在线点击不符合宣传片需要，整稿未采用。Owner另写8镜75秒导演稿，XAR0.3.0创作配置与留存字节通过；未录屏、无图像审查／实机／成片／发布 credit。核心梗与UI顺序来自owner输入，未知缓存和人工成本保持null。
 
 [来源、提示程度、具体拒绝与最终稿固定提交](evidence/2026-11-12-hoi4-promo-director-draft.json)。
+
+
+## 2026-11-12：662独立领域与非原子端点
+
+662完整3672tokens／12835.5005ms，但foreignCore误qualified、UI范围未知仍保事件、坏事件领域误qualified、巨大int溢出和extras泄漏5反例整拒。Owner纯分析器9方法＋55坏参数过，实际旧272→273UI库存−1保留，后读Core+4只记非原子端点值差异，事件覆盖缺失未知，无因果／END许可／新游戏命令。累计662／616完整43length3transport692HTTP30extra，未知缓存成本净收益null。[固定blob反链](evidence/2026-11-12-civ6-model662-food-domains.json)。
