@@ -1523,3 +1523,8 @@ OpenCode1.19.5同机同用户每日成功缓存复用、原生生成0。665整�
 ### 2026-11-12：676/677通知与地块移除独立复现
 
 676完整7492tokens／四反例整拒，67711992tokens含输出6500 length整弃未读；Owner10合同后Native27条0错丢，明确NIL通知保留。独立302→303前后8组全匹配，人口回调正库存、目标2133移除与原版哈布沙尘暴本回合1人口通知支持天气推断；最新全局事件已是另飓风，不能错绑。10监听精撤、原主303恢复，净粮重载差异单列。累计677／630完整44length3transport707HTTP30extra，维护缓存复用／OpenCode原生0／净收益null。[固定blob反链](evidence/2026-11-12-civ6-xiurong303-notice676677.json)。
+
+
+### 2026-11-12：Civ6678／679维护与候选分账
+
+同机同用户Nov12 OpenCode1.19.5成功缓存复用；新2次均HTTP候选，0OpenCode原生生成。678 length6500未读整弃，679完整但测试缺供粮负例／真实重载而拒用。Owner1920pass1SDKskip仅软件，不授132游戏效果。累计679／631完整45length3transport709HTTP30extra，成本未知null。[固定业务反链](evidence/2026-11-12-civ6-food-donor678679.json)。

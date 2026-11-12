@@ -5815,3 +5815,8 @@ No new HTTP. Source61 actually adopts both model edits unchanged; actual/formal 
 
 
 Later formal Root6 also independently passes the same owner whole4 (four unique methods/eight actual+formal executions), with its own ACTUAL/XML/close. Only that prefix is replaced; no full formal-platform/Managed/Core/Runtime or speed grant is inferred.
+
+
+## 2026-11-12：Civ6余粮供粮678／679
+
+678输入17148／输出6500 length整弃未读，整三文件输出预算不合亦记owner尺寸限制。679完整17246+1192=18438tokens／11686.3716ms，原12方法在旧131已有11过／1Lua断言unittest error；虚用sourceWorked、用目标缺粮代替供粮负例、不真实reload，整拒／0rawNative。Owner11新Lua51方法、43相关，全1921项1920pass1SDKskip，97Lua／119包；初5前导分号夹具错误与raw679计数误期望单列。UI食物2／Core1须保上下文差异，正式132同304冷验待做。两POST峰2／重叠11.689638秒，累计679／631完整45length3transport709HTTP30extra；Nov12同机同用户1.19.5维护缓存复用，OpenCode原生0、未知缓存成本净收益null。[固定业务反链](evidence/2026-11-12-civ6-food-donor678679.json)。

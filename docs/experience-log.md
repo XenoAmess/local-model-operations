@@ -134,3 +134,8 @@ Civ6已用薄适配委托共享CLI，14项必要边界检查通过；其中用�
 ## 2026-11-02：输入发送ACK不能证明原生动作
 
 Civ6实际军队Delete首试中，前台与单位均正确，按键工具返回后原生InputActionTriggered、提示入口和确认框却均0。检查本机PyDirectInput映射和扩展键处理后，改用实际Windows扩展Delete；此时action15、原生提示、军队原生确认与文职guard拒绝分别可见，手动取消后位置/行动/完整ID不变。首次无反应保留，不能算军队功能故障或成功负例。owner编排与工具修正成本独立于两份模型length失败；三消息完整135也没有满足所需具体观察合同。[实际输入与采用记录](evidence/2026-11-02-civ6-input-acceptance.json)。
+
+
+## 2026-11-12：Civ6余粮供粮678／679
+
+678输入17148／输出6500 length整弃未读，整三文件输出预算不合亦记owner尺寸限制。679完整17246+1192=18438tokens／11686.3716ms，原12方法在旧131已有11过／1Lua断言unittest error；虚用sourceWorked、用目标缺粮代替供粮负例、不真实reload，整拒／0rawNative。Owner11新Lua51方法、43相关，全1921项1920pass1SDKskip，97Lua／119包；初5前导分号夹具错误与raw679计数误期望单列。UI食物2／Core1须保上下文差异，正式132同304冷验待做。两POST峰2／重叠11.689638秒，累计679／631完整45length3transport709HTTP30extra；Nov12同机同用户1.19.5维护缓存复用，OpenCode原生0、未知缓存成本净收益null。[固定业务反链](evidence/2026-11-12-civ6-food-donor678679.json)。

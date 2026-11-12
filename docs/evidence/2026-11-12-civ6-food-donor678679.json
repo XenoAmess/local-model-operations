@@ -1,0 +1,115 @@
+{
+  "schema": "local-model-operations.civ6-food-donor678679/v1",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/1cc51d6b8a744f2dc6441abec757cd12a55984cb/docs/research/baiqi-p6-source132-food-donor-software-2026-11-12.json",
+    "sha256": "e3513d5bf21d2076526ca111a255b6bd6f0ea651e868eb6a90ba7307c20498c0",
+    "bytes_scope": "git_blob"
+  },
+  "models": {
+    "678": {
+      "usage": {
+        "prompt_tokens": 17148,
+        "completion_tokens": 6500,
+        "total_tokens": 23648
+      },
+      "total_ms": 41153.716600034386,
+      "finish_reason": "length",
+      "sse_done": true,
+      "json_syntax": {
+        "status": "UNKNOWN",
+        "top_level_type": "UNKNOWN",
+        "reason": "NON_STOP_FINISH",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "candidate_complete": false
+    },
+    "679": {
+      "usage": {
+        "prompt_tokens": 17246,
+        "completion_tokens": 1192,
+        "total_tokens": 18438
+      },
+      "total_ms": 11686.37160002254,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "candidate_complete": true
+    }
+  },
+  "review": {
+    "678": {
+      "adoption": false,
+      "body_read_or_parsed": false,
+      "reason": "length6500; full three-file prompt output scope exceeded budget; owner sizing limitation retained"
+    },
+    "679": {
+      "adoption": false,
+      "raw131_methods": 12,
+      "pass": 11,
+      "Lua_assertion_unittest_errors": 1,
+      "failures": 0,
+      "findings": [
+        "sourceWorked fixture field unused, so no multiple-worker witness",
+        "underfood changes target deficit rather than donor surplus",
+        "Core expectedFood test remains old sourceDistance4",
+        "Observe never tests negative donor; reload test never reloads modules",
+        "multiplayer differs from multiple workers"
+      ]
+    },
+    "raw_candidate_Native_calls": 0,
+    "owner_corrections": {
+      "raw679_count_helper": "Expected unittest failure but Lupa Lua assertion is reported as error; original log preserved, no rerun needed",
+      "new_test_initial_leading_semicolon_errors": 5,
+      "after_fixture_correction_related_tests_pass": 43
+    },
+    "owner_active_cost_and_net_savings": null
+  },
+  "through679": {
+    "logical": 679,
+    "complete": 631,
+    "length": 45,
+    "transport": 3,
+    "HTTP": 709,
+    "extra": 30,
+    "OpenCode_native": 0,
+    "new_actual_HTTP_peak": 2,
+    "new_HTTP_overlap_seconds": 11.689638,
+    "unknown_cache_cost_savings": null
+  },
+  "software": {
+    "version": 132,
+    "full_summary": "Ran 1921 tests in 222.104s",
+    "passed": 1920,
+    "SDK_skip": 1,
+    "new_Lua51_methods": 11,
+    "targeted_related_pass": 43,
+    "Lua51_compiled": 97,
+    "package_files": 119,
+    "package_sha256": "789ac4ace7d77da77a2d4bab1b6673723bffa07ad1208c020be31a5061a1c76b"
+  },
+  "UI_Core_yield_difference_actual": [
+    2,
+    1
+  ],
+  "native132": "NOT_YET_VALIDATED",
+  "OpenCode_native_generation": 0,
+  "maintenance": "Nov12 same-machine/user successful OpenCode1.19.5 cache reused; no new native tool generation",
+  "phase_costs": "UTC phases retained privately; Native diagnosis and other owner tasks overlapped, active and net cost unknown",
+  "lessons": [
+    "Whole-file output budgets must fit actual source scope; a length result remains discarded rather than patched together.",
+    "A named mock field that the actual fixture never reads cannot prove worker-count rejection.",
+    "Test donor shortage separately from recipient shortage, and actually reload the implementation when claiming reload protection.",
+    "Read yields in the correct context; Core and UI values can differ."
+  ]
+}
