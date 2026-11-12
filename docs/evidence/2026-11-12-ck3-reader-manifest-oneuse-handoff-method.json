@@ -1,0 +1,180 @@
+{
+  "schema": "local-model-operations.reader-manifest-oneuse-handoff-method/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "task": "One NEW Reader1TU production candidate for selected private one-use same-call strictly parsed manifest handoff. Distinct from two rejected historical replay analyses.",
+  "guidance": "Owner/Planning supplied exact immutable-input/one-use/reentry/API/order contract. Model credit only implementation edit bodies; no discovery or prior rejected-analysis adoption.",
+  "request": {
+    "prefix": {
+      "bytes": 110497,
+      "sha256": "0ea7a07983b32ae71268ad70307600b89a1fccfa91910ff4bb1ebc80a685d988"
+    },
+    "complete_units": 8,
+    "POST_BEGIN_utc": "2026-11-12T14:47:51.789116+00:00",
+    "END_utc": "2026-11-12T14:48:02.567204+00:00",
+    "parameters": {
+      "model": "qwen38-coder",
+      "max_tokens": 5000,
+      "temperature": 0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      }
+    },
+    "message_roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "headers_ms": 3325.146400020458,
+    "content_TTFT_ms": 3326.296400045976,
+    "total_ms": 10778.034000075422,
+    "usage": {
+      "prompt_tokens": 23950,
+      "completion_tokens": 1238,
+      "total_tokens": 25188
+    },
+    "cached_tokens": null,
+    "currency_cost": null,
+    "status": 200,
+    "finish": "stop",
+    "DONE": true,
+    "JSON": "VALID",
+    "response": {
+      "bytes": 5347,
+      "sha256": "3a9749de9e3de1216b78b3e8ab43d5e5a830275edb62543146a4eea6ccff12ef"
+    },
+    "routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    },
+    "retries": 0,
+    "length": 0
+  },
+  "concurrency": {
+    "peak": 1,
+    "current_after_END": 0,
+    "preparation_not_inflight": true,
+    "service_queue": "UNKNOWN"
+  },
+  "source_review": {
+    "at_utc": "2026-11-12T14:50:37.463961+00:00",
+    "grade": "THREE_COMPLETE_MODEL_EDITS_WITH_TWO_MAP_ENTRY_FACTORY_API_ERRORS_OWNER_SELECTION_PENDING",
+    "base": {
+      "bytes": 23478,
+      "sha256": "f9261570044a38bec8c7254aa7d9452e2c6e9f9914df396d79a6f20336968f06"
+    },
+    "candidate": {
+      "bytes": 24331,
+      "sha256": "a71b3f4c7131b3876ba0213e3adc65a765a8a42db297024feef459cb08e675db"
+    },
+    "unique_anchors": [
+      1,
+      1,
+      1
+    ],
+    "mechanics": "Current source and response are both LF; three original anchors each match once and complete inverse restores exact current23478-byte source.",
+    "positive_checks": [
+      "Adds only private static ThreadLocal using JDK Entry nesting; no new class or public signature.",
+      "Handoff get/set after both original callbacks, fullDriver nonnull and framed-native bounds, only around same final Loader call; finally restores/removes original prior.",
+      "Original manifest.bytes clone and requireExact hash remain before take; fields/schema guard runs unchanged after hit or old parse fallback.",
+      "Take removes unconditionally before identity matching; RawJson and ExactRef checked by ==, no equality/hash-based token lookup.",
+      "Null decoder fallback and all other original reader methods remain unchanged; no Loader/Assembler/source62/cache/parser/hash edits."
+    ],
+    "defect": {
+      "category": "MODEL_API_INVENTION",
+      "exact": "Two nested Map.Entry.of(...) calls in scope installation. Java Map.entry(...) is the actual immutable-entry factory selected in contract and already used by current Loader; Entry.of is not declared.",
+      "source_static_not_actual_javac": true,
+      "minimal_owner_fix": "Only replace these two Map.Entry.of calls with Map.entry; keep all selected ordering and one-use semantics.",
+      "count": 2
+    },
+    "reentrancy_limit": "Original JCA hash can reenter. Its check is retained before one-use take; no claim of all activation callback-free. Real reentry/leak/old error tests remain the independent owner responsibility.",
+    "qualification": {
+      "operator_JVM_live_production_writes": 0,
+      "source_owner_adoption": "PENDING",
+      "software_Runtime_speed": "NOT_GRANTED",
+      "generated_model_Test": false
+    },
+    "credit_boundary": "This new one-TU implementation follows separately supplied owner/Planning concrete contract. Two earlier broad historical analyses remain zero adopted and do not become successful code from this task.",
+    "operator_preflight": "Initial D-only review script assumed CRLF and rejected anchors; actual source is LF and all three literal LF anchors match once. Fixed only checker newline selection; model response unchanged, no candidate written on failure, no JVM."
+  },
+  "input_scope": [
+    {
+      "name": "DriverObservationEvidenceReader.java",
+      "bytes": 23478,
+      "sha256": "f9261570044a38bec8c7254aa7d9452e2c6e9f9914df396d79a6f20336968f06",
+      "extent": "complete CURRENT sole production target"
+    },
+    {
+      "name": "DriverFrameEvidenceLoader.java",
+      "bytes": 14549,
+      "sha256": "adc3f43e1c11429a9a948e5ed9aff4d4be97110dcf5b311263adc8561236eeec",
+      "extent": "complete CURRENT final loader callee including pure diagnostics, replay wrapper, cleanup and current caches; reference only DO NOT EDIT"
+    },
+    {
+      "name": "DriverJson.java",
+      "bytes": 11237,
+      "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+      "extent": "complete CURRENT strict parsed Obj producer and hash/encoding callee; DO NOT EDIT"
+    },
+    {
+      "name": "RawJson.java",
+      "bytes": 6984,
+      "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+      "extent": "complete CURRENT final privately owned/cloned immutable byte holder; DO NOT EDIT"
+    },
+    {
+      "name": "OpportunityJson.java",
+      "bytes": 7208,
+      "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+      "extent": "complete CURRENT typed immutable Obj/value declarations; DO NOT EDIT"
+    },
+    {
+      "name": "ExactRef.java",
+      "bytes": 1490,
+      "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+      "extent": "complete CURRENT exact ref declaration; identity comparison only in new private take"
+    },
+    {
+      "name": "StrictJson.java",
+      "bytes": 14844,
+      "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+      "extent": "complete CURRENT exception/shape-validation declarations; DO NOT EDIT"
+    },
+    {
+      "name": "DriverPublicReplay52DataTest.java",
+      "bytes": 22224,
+      "sha256": "df9ab7fe7022421ed4cc42115eaa8af72ab5586168d1eec34a3678b365aae3df",
+      "extent": "complete existing real owner12 public replay/ownership/error/callback/forgedFull Test, reference only; independent new test owner writes reentry cases"
+    }
+  ],
+  "operations": {
+    "shared_clean_main": "4e90eb165a36e45c9afc89b37bb9689c664bee5c",
+    "same_day_success_reused": true,
+    "policy_config_caller_unchanged": true,
+    "operator_new_JVM_live_profile_production_or_service_changes": 0
+  },
+  "private_boundary": [
+    "Only the first strict parse produces the private row; it never escapes through callbacks.",
+    "Install after both original callbacks, null and framed bounds, directly around final Loader.",
+    "Always clone/hash before take; take removes before matching exact RawJson and ExactRef object identities. Schema/fields remain after both hit/miss.",
+    "Original hash provider may reenter. No claim whole activation is callback-free or public input trusted; independent real regression remains required.",
+    "No whole Complete frame memo, multi-entry cache, cross-round retention, callback/read/hash deletion or other production leaf change."
+  ],
+  "scope_limits": [
+    "The model uses Map.Entry.of twice, a source-level API error; selected JDK factory is Map.entry. No actual javac RED was run by model operator.",
+    "Exact three anchors and whole inverse checked; owner selection/typing/behavior/Runtime/speed pending at review.",
+    "Manifest size/live repetition/major cost not established; no healthy reload justified solely for this small method and no significant ROI claim.",
+    "No generated model Test. Independent owner tests retain existing public replay/error/callback/forged Full checks."
+  ],
+  "privacy": "Full sources/response/request/Test bodies and private absolute paths stay local."
+}

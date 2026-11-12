@@ -5905,3 +5905,10 @@ One authorized correction stop161520in/1330out, TTFT1.6092s/total10.9065s. Suppl
 ## 2026-11-12：Civ6项目投资接续134与689／690
 
 689完整27324tokens／30177.3274ms，仅纯ResumeProjectScore窄hunk部分采用；原两Controller hunk各匹配一次，独立12方法5failure，Owner重写特殊项目独立接续、预算前保留／去重与最终资格。690 length5000／29146tokens／42384.0964ms正文未读整弃。Owner首次11/12过，合法校园抢先属隔离夹具，纠正后12过7.960s；旧133对新12方法15failure1error含subTest。冻结全1968项1967pass1SDKskip、97Lua51／119包逐字节，417.642s不是净节省或实机性能；软件切点仍133／318，134实效后见另记。两HTTP峰2／重叠30.176518秒，累计through690为690／639完整48length3transport720HTTP30extra，Nov12维护缓存复用、原生0／未知成本null。[固定续建软件反链](evidence/2026-11-12-civ6-project-resume134-model689690.json)。
+
+
+## 2026-11-12: New one-use Reader manifest method
+
+One complete new method request23950in/1238out, TTFT3.3263s/total10.7780s, peak1/current0. Three private oneuse edits follow selected callback/hash/schema order but use nonexistent Map.Entry.of twice; owner received exact Map.entry correction before any javac. Three literal LFanchors/inverse checked, initial CRLFchecker error is operator-only. Distinct from two rejected historical analyses, not their third broad requery or adoption. No model Test/software/Runtime/majorROI claim.
+
+[Exact source boundaries and costs](evidence/2026-11-12-ck3-reader-manifest-oneuse-handoff-method.md).
