@@ -5793,3 +5793,10 @@ One guided two-TU implementation completes stop/DONE:33360 input/791 output, TTF
 ## 2026-11-12：131实机修复与303新损失
 
 0新HTTP，不重计674675。119匹配／新鲜离线、同302唯一后台修工业区并观察，Native裁旧条目保工坊72/97和项目143/157；1普通END7军SKIP后工业区完好、工坊接续，关闭窄受阻恢复。303人口15→14／旧风电2133消失、现5座，已存303并停END；全事件PopLost1及AffectedCity仍不授逐城原子因果。Owner24→27误称住房撤回为忠诚度增量，1原图，原生0／净收益null。[固定blob反链](evidence/2026-11-12-civ6-native131-repair-poploss303.json)。
+
+
+## 2026-11-12: Real prepared-publication supplier overload and posterior receipts
+
+One guided request completes stop/DONE with68039 input/710 output, TTFT8.7219s/total12.9932s, peak1/current0/no retry. Two literal anchors preserve the old three-arg loop and wire the real Root call to a lazy package-only four-arg Published supplier; exact cast follows existing private DATA restrictions. No source correction or fake mirrored Test credit; real producer/Planner/Controller regression remains owner work. Separately, Source60 selects both model edits with independent actual/formal two-TU16-class/whole4 passes and exact six-file publication. Owner no-new-type Source59 has actual/formal one-TU2-class/whole2; formal57 five-file publication preserves private-wrapper/helper-hit limits. All older pending/failure/software cuts stay intact, with no causal runtime/saved-day benefit.
+
+[New method and exact costs](evidence/2026-11-12-ck3-prepared-publication-supplier-method.md); [later owned-byte adoption](evidence/2026-11-12-ck3-owned-byte-priority-once.json); [plain-List adaptation](evidence/2026-11-12-ck3-postchange-hotspot-guided-methods.json); [capture publication boundary](evidence/2026-11-12-ck3-clean-stop-fresh-capture-method.json).
