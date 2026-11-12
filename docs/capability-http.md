@@ -5966,3 +5966,8 @@ Two complete stops77486in/4097out, sumHTTP29.8035s/sequentialpeak1/current0. Cor
 Two complete stops102776in/2737out, sumHTTP23.8697s/sequentialpeak1/current0. IOimport fixed in02 but private FullJsonTree.JSON access remains; legal internalwriter not implemented,0actualjavac/thirdPOST. ActualDecimal.writeNumber first description was correct; owner writeRaw memory corrected from exact source, not model error. Correct privatecallsite proof/publicfallback remains separate from rejection. Prior rowmemo ninehunk partial+owner typing/hash/fullbytes/cleanup now actual/formalwhole4/exact5pub/Runtime68LOOP, still no actualhit/ROI/newSAVE.
 
 [New complete candidates and limits](evidence/2026-11-13-ck3-snapshot-private-first-encoding-method.md); [prior actual partial/software/Runtime posterior](evidence/2026-11-13-ck3-owned-history-row-byte-memo-method.json).
+
+
+### Source69 posterior: partial production body and real whole-six qualification
+
+The prior two complete proposals remain invalid as written, but final adoption is partial: importIO/two private callsites/helper serialization+lease+IO body are genuinely selected. Owner supplies lawful privateComplete mapper, actual write settings and original limit guard. Actual1TU9 original classes and owner19 complete legacy differentialwhole6 pass; old API/family retained, new privatefield is not HCR. Native recorder prelaunch0JVM is not sourceRED. Cumulative155 business JVMs/nine tools separately accounted; Runtime69 adoption/hit/CPU/ROI remain unheld. No newHTTP or maintenance for this posterior. [Source and exact software evidence](evidence/2026-11-13-ck3-snapshot-private-first-encoding-method.json).
