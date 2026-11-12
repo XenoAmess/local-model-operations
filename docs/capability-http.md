@@ -5878,7 +5878,7 @@ One complete stop:13049 input/826 output, TTFT1.9165s/total7.1741s, peak1/curren
 
 ## 2026-11-12：Civ6正库存缺电后的新项目实效
 
-武汉316完成回调真实缺电req2/temp1/煤3油1/q空，随后BG新工业项目请求/回执，317100/168+activeProject全供电，318152/170保持；通知不冒私有规划输入/原子或油消费因果。25双事件样本0错丢，317exact撤、318新完成后计数/样本仍原样。七正常回合77城次food/vitals人口无新损失，旧六损失八停止保持；工厂33修完仍改造体育场，旧143没接续，列真实缺口修复；住房三城不足另域记录。0新HTTP/冻结through688不重计，689690另包，OpenCode原生0/未知成本null。[固定实机序列反链](evidence/2026-11-12-civ6-positive-fuel-native318.json)。
+武汉316完成回调真实缺电req2/temp1/煤3油1/q空，随后BG新工业项目请求/回执，317100/168+activeProject全供电，318152/170保持；通知不冒私有规划输入/原子或油消费因果。25双事件样本0错丢，317exact撤、318新完成后计数/样本仍原样。七正常回合77城次food/vitals人口无新损失，旧六损失八停止保持；发电站33修完仍改造体育场，旧143没接续，列真实缺口修复；住房三城不足另域记录。0新HTTP/冻结through688不重计，689690另包，OpenCode原生0/未知成本null。[固定实机序列反链](evidence/2026-11-12-civ6-positive-fuel-native318.json)。
 
 
 ## 2026-11-12: FullJsonTree byte-parser method and RawJson posterior
@@ -5900,3 +5900,8 @@ One complete stop159481in/1221out, TTFT20.4776s/total28.4085s, peak1/current0. N
 One authorized correction stop161520in/1330out, TTFT1.6092s/total10.9065s. Supplied samebasis producer fact corrected, but whole-rebuild/Complete map plan rejected: native material-cache and driver-key misread, promises retained validation yet skips it on hits. Both complete responses0adopted, no compiler/Runtime/technicalNO/ceiling claim or thirdPOST. Total321001in2551out/sumHTTP39.3149688s, sequentialpeak1/current0; secondTTFT does not prove cache/queue/speed.
 
 [Exact scope, both costs and rejection boundary](evidence/2026-11-12-ck3-persistent-replay-scope-source-analysis.json).
+
+
+## 2026-11-12：Civ6项目投资接续134与689／690
+
+689完整27324tokens／30177.3274ms，仅纯ResumeProjectScore窄hunk部分采用；原两Controller hunk各匹配一次，独立12方法5failure，Owner重写特殊项目独立接续、预算前保留／去重与最终资格。690 length5000／29146tokens／42384.0964ms正文未读整弃。Owner首次11/12过，合法校园抢先属隔离夹具，纠正后12过7.960s；旧133对新12方法15failure1error含subTest。冻结全1968项1967pass1SDKskip、97Lua51／119包逐字节，417.642s不是净节省或实机性能；软件切点仍133／318，134实效后见另记。两HTTP峰2／重叠30.176518秒，累计through690为690／639完整48length3transport720HTTP30extra，Nov12维护缓存复用、原生0／未知成本null。[固定续建软件反链](evidence/2026-11-12-civ6-project-resume134-model689690.json)。

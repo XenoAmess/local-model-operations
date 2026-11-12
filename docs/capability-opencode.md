@@ -1573,3 +1573,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-12：Owner完成观察器实机后见
 
 25已知原生通知、实际新项目供电及exact撤销分列；0新HTTP，through688不重计，0OpenCode原生生成。689690下一源码任务独立记账，未知成本null。[固定实机序列反链](evidence/2026-11-12-civ6-positive-fuel-native318.json)。
+
+
+### 2026-11-12：134项目投资软件候选
+
+689／690均普通HTTP，维护继续复用Nov12同机用户OpenCode1.19.5成功缓存；纯helper部分采用／Controller由Owner重写，1967软件通过不授OpenCode代码生成或Native134。累计through690为690／639完整48length3transport720HTTP30extra，原生0，未知成本null。[固定续建软件反链](evidence/2026-11-12-civ6-project-resume134-model689690.json)。
