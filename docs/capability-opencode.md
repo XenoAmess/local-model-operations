@@ -1548,3 +1548,8 @@ Owner修正部分HTTP候选后的实际新计划救粮／两普通回合保持�
 ### 2026-11-12：Civ6683／684只读诊断
 
 同日同机同用户OpenCode1.19.5成功维护缓存复用；2新请求均普通HTTP候选。683完整但九个合同／数据／最终门问题整体拒用，684 length5000未读整弃；Owner12只读Lua51方法通过、Native界面未开。累计684／635完整46length3transport714HTTP30extra；0OpenCode原生、未知成本null。[固定双业务反链](evidence/2026-11-12-civ6-trade-coal683684.json)。
+
+
+### 2026-11-12：683／684煤读取后见
+
+Owner纯只读模块实际原版界面KNOWN，普通25煤交易是TEST_PLAYER准备，不是OpenCode或后台能力；0新HTTP，through684不重计，0OpenCode原生，未知成本null。[固定实机反链](evidence/2026-11-12-civ6-native-coal-trade308.json)。

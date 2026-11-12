@@ -1,0 +1,75 @@
+{
+  "schema": "local-model-operations.civ6-native-coal-trade308/v1",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/cbfd55710e00ad60ff17b22da09716487c747300/docs/research/baiqi-p6-native133-coal-trade308-2026-11-12.json",
+    "sha256": "51d28a3acc54c2e1620759e4c548e5968d5739f596bdf66d35b0285c4c7b9321",
+    "bytes_scope": "git_blob"
+  },
+  "model_followup": "683 raw wholly rejected;684 length body unread; owner module actual hidden UNKNOWN and visible known. No new HTTP in this follow-up.",
+  "known_metadata": {
+    "hidden_trade_view": "UNKNOWN/environment",
+    "regular_visible_canada_view": "KNOWN",
+    "coal_index": 41,
+    "MaxAmount": 100,
+    "IsValid": true,
+    "present": true,
+    "not_a_per_item_quantity_limit": true
+  },
+  "original_draft": {
+    "from": 1,
+    "to": 0,
+    "initial_amount": 1,
+    "duration": 0,
+    "original_item_max": 25,
+    "rejected40": "Owner precondition failed before marker/text/callback; fresh read proved marker nil and amount1. No40 input.",
+    "accepted25": "One original quantity edit and OnValueEditButton confirmed25; not yet a trade then"
+  },
+  "owner_tooling_corrections": {
+    "first_readonly_iterator": "for _,item in deal:Items() produced nil item; terminal error retained, no action; owner corrected to single-return for item in deal:Items() and read six rows.",
+    "stale_screenshot_click": "Rejected before input, fresh image captured/viewed for a new price click.",
+    "first_exit": "Original Goodbye returned to diplomacy overview, not world; pre-END hidden-scene guard failed before input. Original close button then returned to world."
+  },
+  "transaction": {
+    "coal_from_Canada": 25,
+    "coal_duration": 0,
+    "gold_from_local_once": 279,
+    "gold_from_local_per_turn": 29,
+    "gold_duration": 30,
+    "other_resources_cities_agreements_war": 0
+  },
+  "actual_result": {
+    "coal_before": 0,
+    "coal_after": 25,
+    "gold_before": 40319.984375,
+    "gold_after": 40040.984375,
+    "outgoing_working_items_after": 0,
+    "incoming_old_coal_IsValid_after": false,
+    "interpretation": "Original acceptance plus actual coal+25 and cash-279 confirms completed trade; stale incoming validation is not an authority to replay."
+  },
+  "Native_boundary": "This is TEST_PLAYER normal diplomacy fixture preparation; not delegated acquisition, positive-fuel production selection or permanent power effect. Existing project queues unchanged; Xiurong Entertainment repair continues with old143/161 preserved and insufficient power.",
+  "new_HTTP": 0,
+  "through684_unchanged": {
+    "logical": 684,
+    "complete": 635,
+    "length": 46,
+    "transport": 3,
+    "HTTP": 714,
+    "extra": 30,
+    "OpenCode_native": 0
+  },
+  "OpenCode_native": 0,
+  "unknown_cache_cost_net_savings": null,
+  "lessons": [
+    "GetPossibleDealItems list MaxAmount and a draft item GetMaxAmount can differ: observed100 versus25. Validate the actual native item instead of assuming list availability is input permission.",
+    "The native deal Items iterator yielded the item as its single return; key/value loops produced a nil second value. Correct and read fresh before any action.",
+    "A complete quote and one original accept ACK still need actual stock/cash readback; old incoming working data can remain after settlement.",
+    "A TEST_PLAYER ordinary trade constructs a resource fixture; it does not prove delegated diplomacy, AI resource acquisition or new production selection.",
+    "Original Goodbye may return to diplomacy overview; verify scene hidden before issuing ordinary turn input."
+  ],
+  "remaining": [
+    "Positive-fuel background production choice and fuel effects",
+    "Xiurong remaining repairs and invested143 project resumption/completion",
+    "New308 fire causal limits and older population losses",
+    "Full acceptance matrix"
+  ]
+}

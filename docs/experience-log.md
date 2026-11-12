@@ -159,3 +159,8 @@ Owner修正部分680/681后实际冷验：已转入旧许可不重发，另一�
 ## 2026-11-12：Civ6当前交易煤元数据683／684
 
 683完整13328tokens／15516.5028ms，但合同行外otherPlayerID使合法阳性UNKNOWN；仅隔离补镜像后八缺口（稀疏／额外key／分数量／metatable／末态inactive／错对象ID／缺煤Index／getter漂移）仍KNOWN，整拒／0rawNative。68416677tokens含输出5000 length未读整弃。Owner只读当前原版可见deal模块12Lua51方法首过0.137s；禁止UI/交易mutation、对方from四参数、完整密集列表和最终状态绑定，不授实际metadata／煤交易／正燃料项目效果。两HTTP峰2／重叠15.516009秒，累计684／635完整46length3transport714HTTP30extra，维护缓存复用／OpenCode原生0／未知成本净收益null。另原版END只处理队列后留回合，fresh普通下一步才实际换回合；308工厂／海港已修、项目保留，新人口损失与自有火灾传播边界单记。[固定双业务反链](evidence/2026-11-12-civ6-trade-coal683684.json)。
+
+
+## 2026-11-12：Civ6煤诊断Owner模块实机后见
+
+隐藏原版deal UNKNOWN／当前Canada KNOWN，列表max100而单项max25；40保护在写前拒绝、原版25合法编辑。报价双方六行只含25煤及279金币+29GPT30回合，原版一次成交后库存0→25／金币−279；不授后台资源获取或正燃料生产。Owner首只读Items key/value错因单返回修正，旧截图／未关场景保护先拒绝；成交后旧INCOMING validation不代替库存。0新HTTP，through684及OpenCode原生0不重计，成本收益null。[固定实机反链](evidence/2026-11-12-civ6-native-coal-trade308.json)。
