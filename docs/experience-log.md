@@ -199,3 +199,8 @@ Owner修正部分680/681后实际冷验：已转入旧许可不重发，另一�
 ## 2026-11-12：Civ6692住房选址与严格JSON拒绝
 
 692 HTTP200完整stop/DONE，13644tokens／11835.7839ms／TTFT1867.2277ms；共享报JSON VALID，项目递归重复observation键拒绝／exit1／candidate=null，整份0采用，不修补重试。641完整流计数不等于641严格候选通过。Owner实际134／319十一原生社区候选均被ClearPlot挡住：3可见资源、8其他地貌；提高分数不能单独解决，邯郸HasDistrict真而HasBeenPlaced假。只读APPEND资格不授活动队列写入，0游戏动作。累计692／641完整stop流含此次严格JSON拒绝、48length3transport722HTTP30extra，维护缓存复用／OpenCode原生0／未知成本null。[固定资源地貌与JSON拒绝反链](evidence/2026-11-12-civ6-housing692-protection319.json)。
+
+
+## 2026-11-12：Civ6134保留项目投资自然完成
+
+119冷装／新鲜后台离线后原318实际一次加载，所采七组与food/vitals同。体育场59→115→174→230自然完工，322唯一BACKGROUND resume_project=true请求0:322:76和队列匹配，143/173原生接续；323双完成事件／进度0与另一次新项目分列。七普通END／五实际推进／35军SKIP，66城帧／五人口区间无新损失；319队列未换回合后新鲜空闲／阻塞和军SKIP资格再授一次普通END，不重放未知。三通知0错丢、exact撤两自有引用，323已存未载。0新增HTTP，689690软件与691692诊断／693694候选不重计或互授；OpenCode原生0，未知成本null。[固定143续建完成实机反链](evidence/2026-11-12-civ6-native134-project-completed323.json)。

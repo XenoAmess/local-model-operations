@@ -1588,3 +1588,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-12：692普通HTTP严格JSON失败
 
 同机Nov12 OpenCode1.19.5维护缓存继续复用；完整流被项目严格JSON拒绝，不是原生工具生成案例，累计原生仍0。692／641完整stop流（本次重复键拒绝）48length3transport722HTTP30extra，未知成本null。[固定资源地貌与JSON拒绝反链](evidence/2026-11-12-civ6-housing692-protection319.json)。
+
+
+### 2026-11-12：134项目投资Native后见
+
+0新HTTP／OpenCode原生，源689纯提示部分采用、OwnerController后到实效单列，不追授原稿或OpenCode生成。323保存未载，住房下一135继续。[固定143续建完成实机反链](evidence/2026-11-12-civ6-native134-project-completed323.json)。

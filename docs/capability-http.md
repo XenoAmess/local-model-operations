@@ -5932,3 +5932,8 @@ One complete stop74764in/2400out, TTFT9.7172s/total23.4043s, peak1/current0. Thr
 
 
 Planning-expiry source-only posterior: ownerReady66-03 adds Controller damagedEnd/failIo handling and pre-compiler transientfield lint fix. Earlier requestdeadline preserving PLANNER_STOPPED is an existing behavior boundary, not a separate bug; only actual batchmono expiry claims WALL. Initial consumer critique narrowed, model race/type/suppressed faults and carrier-only partial credit unchanged;0newHTTP/JVM/live. [Source overlay and clarification](evidence/2026-11-12-ck3-planning-predispatch-deadline-p0-method.json).
+
+
+## 2026-11-12：Civ6134保留项目投资自然完成
+
+119冷装／新鲜后台离线后原318实际一次加载，所采七组与food/vitals同。体育场59→115→174→230自然完工，322唯一BACKGROUND resume_project=true请求0:322:76和队列匹配，143/173原生接续；323双完成事件／进度0与另一次新项目分列。七普通END／五实际推进／35军SKIP，66城帧／五人口区间无新损失；319队列未换回合后新鲜空闲／阻塞和军SKIP资格再授一次普通END，不重放未知。三通知0错丢、exact撤两自有引用，323已存未载。0新增HTTP，689690软件与691692诊断／693694候选不重计或互授；OpenCode原生0，未知成本null。[固定143续建完成实机反链](evidence/2026-11-12-civ6-native134-project-completed323.json)。
