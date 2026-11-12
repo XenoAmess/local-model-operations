@@ -5713,3 +5713,8 @@ A helper-plus-packet-Test request reached length6500 and remained wholly unread/
 One guided method response complete stop/DONE:46812 input/847 output, TTFT6.1164s/total10.9930s, peak1/current0, no retry. Two exact anchors preserve ordinary branch while delegating physical DATA to existing parent/archive/custody validators. Later real receipts separately confirm helper57-line partial adoption+owner3 fixes+4DATApass, public-replay3-edit Source52 partial adoption, and formal full-wire choice normal publication+owner4pass. Rejected model Tests and unread length response retain their original grades; no extra HTTP or Runtime/speed credit.
 
 [Method audit and posterior adoption boundaries](evidence/2026-11-12-ck3-registered-physical-stop-method.md).
+
+
+## 2026-11-12：669回合转换无后续输入
+
+完整3088tokens/8378.2509ms，12假端口隔离场景通过，整份审阅后用于私有驱动；pending漂移只走原只读监视，新分支Native触发仍待见。原件转义疑虑未成立、Owner AST夹具修正不算模型失败。实际NPC_BLOCKED巴西对话后296，控制论自然完成接预测系统0/1150；296正式END先完成队列到2205后以新意图普通END，不冒称297。累计669／623完整43length3transport699HTTP30extra；OpenCode1.19.5同机同用户维护缓存，原生0/未知成本null。[固定blob反链](evidence/2026-11-12-civ6-phase2-transition669.json)。

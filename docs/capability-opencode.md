@@ -1483,3 +1483,8 @@ OpenCode1.19.5同机同用户每日成功缓存复用、原生生成0。665整�
 ### 2026-11-12：上海294原档回调复现与主线恢复
 
 0新HTTP／OpenCode原生生成，Owner631复用不重计；原293八组全同，1普通END7军SKIP再次15→14，UI/Core各2条无错丢。UI正库存/+17及龙卷风整事件PopLost0→1非原子逐城因果，不关闭人口缺陷；8监听全撤、正式恢复295逐组核对，继续独立海上验收。668累计不变／未知成本null。[固定blob反链](evidence/2026-11-12-civ6-shanghai294-native-reproduction.json)。
+
+
+### 2026-11-12：669回合转换无后续输入
+
+完整3088tokens/8378.2509ms，12假端口隔离场景通过，整份审阅后用于私有驱动；pending漂移只走原只读监视，新分支Native触发仍待见。原件转义疑虑未成立、Owner AST夹具修正不算模型失败。实际NPC_BLOCKED巴西对话后296，控制论自然完成接预测系统0/1150；296正式END先完成队列到2205后以新意图普通END，不冒称297。累计669／623完整43length3transport699HTTP30extra；OpenCode1.19.5同机同用户维护缓存，原生0/未知成本null。[固定blob反链](evidence/2026-11-12-civ6-phase2-transition669.json)。
