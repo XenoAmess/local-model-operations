@@ -16,3 +16,5 @@ The replay request followed current source confirmation: the existing archive al
 The two cited historical replay test methods really exist; no test was generated or executed. Full field equivalence, malformed-original behavior, callback order and nested/error scope cleanup remain necessary owner validation. Additional carrier/thread-local cost and the complete-wire policy overhead are unmeasured. Neither candidate is granted compilation, Runtime adoption or speed benefit at this cut.
 
 [Request audit and exact source grades](2026-11-12-ck3-precise-subtree-and-public-replay-methods.json).
+
+Later Source52 actually adopts all three public-replay production edits with owner-added explicit actual/evidence null checks. This source-only receipt does not backfill software/Runtime or speed credit, and the unrelated subtree candidate remains unadopted at this cut.

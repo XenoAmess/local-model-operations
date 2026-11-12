@@ -14,3 +14,5 @@ The complete 57-line helper matches the four states, exact five-key unknown prof
 A separate test owner already holds active ownership of the exact three-packet regressions and malformed/known/null/other-boundary cases, so no duplicate Test request was dispatched. No Java/tests, production source writes, live query, action or sampling occurred. Final callers must independently bind actual PhysicalAfterAck frames, Status chronology and archived proof; DATA compatibility alone grants none of those. No Runtime or speed benefit is inferred.
 
 [Actual request parameters, costs and source grade](2026-11-12-ck3-physical-modal-data-helper.json).
+
+Later receipt: the complete57-line helper is actually partially adopted after exactly the three constant-receiver fixes. Whole-source comparison confirms those are the only changes. Helper2/Test2 classes compile, and owner11 whole4 real-packet/negative methods pass. Coherent Source51 is5 production TUs/29classes; full live protocol and performance remain separate. The unread length response remains unused; the original pending cut is preserved.

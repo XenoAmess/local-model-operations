@@ -1,0 +1,11 @@
+# Registered physical stop read: one concrete method
+
+The source owner located a real result-consumer bug: a retained physical Status read has a non-gameplay origin, while the ordinary branch asks for before().game() and an ordinary-only contract. The local model received the complete current method/callees and exact retained basis, read and result, then produced only a package-private method plus mechanical caller replacement.
+
+One HTTP200/stop/DONE/valid-JSON response: content TTFT6.1164s, total10.9930s, input46812/output847, no retry/length. Actual peak1/current0. Both source anchors match once. The physical branch delegates to the real Observation/parent/archive/custody validators; the ordinary operand order/message and following exact Status comparison, result schema and encoders remain. No synthetic gameplay frame, new control, broad catch or permission is introduced. The copied report-level comment can be shortened. Source candidate only; owner qualification is separate.
+
+Later receipts also strengthen earlier cases without rewriting their original cuts. The 57-line availability helper is actually partially adopted after exactly three owner constant-receiver fixes, independently checked across the whole source; helper2 classes and owner Test2 classes compile and all four real packet/negative methods pass. The coherent five-source typing29-class result does not qualify the full live protocol. The unread length response remains wholly unused.
+
+The public replay candidate's three production edits are actually partially adopted in Source52, with owner-added explicit null preconditions. Its behavior/Runtime qualification is not held at that cut. The earlier full-wire war-choice core now has normal business publication cdf92d1a2a398d4933f8da40b7ad97b3bfbce234: the necessary formal-variant production TU produced4 classes, then the unchanged owner09 Test2 classes ran all four methods successfully. Model-generated Tests remain rejected. These validate pure complete-wire formatting, not whole selector/HTTP/live behavior or speed. Original pending/failed cuts remain historical.
+
+No new HTTP was issued to earn those later credits, and no Java, tests, live action or production source write was performed by the model operator. [Exact audit and later source/software grades](2026-11-12-ck3-registered-physical-stop-method.json).

@@ -5706,3 +5706,10 @@ A helper-plus-packet-Test request reached length6500 and remained wholly unread/
 ## 2026-11-12：上海294原档回调复现与主线恢复
 
 0新HTTP／OpenCode原生生成，Owner631复用不重计；原293八组全同，1普通END7军SKIP再次15→14，UI/Core各2条无错丢。UI正库存/+17及龙卷风整事件PopLost0→1非原子逐城因果，不关闭人口缺陷；8监听全撤、正式恢复295逐组核对，继续独立海上验收。668累计不变／未知成本null。[固定blob反链](evidence/2026-11-12-civ6-shanghai294-native-reproduction.json)。
+
+
+## 2026-11-12: Concrete physical-read method and later adoption receipts
+
+One guided method response complete stop/DONE:46812 input/847 output, TTFT6.1164s/total10.9930s, peak1/current0, no retry. Two exact anchors preserve ordinary branch while delegating physical DATA to existing parent/archive/custody validators. Later real receipts separately confirm helper57-line partial adoption+owner3 fixes+4DATApass, public-replay3-edit Source52 partial adoption, and formal full-wire choice normal publication+owner4pass. Rejected model Tests and unread length response retain their original grades; no extra HTTP or Runtime/speed credit.
+
+[Method audit and posterior adoption boundaries](evidence/2026-11-12-ck3-registered-physical-stop-method.md).

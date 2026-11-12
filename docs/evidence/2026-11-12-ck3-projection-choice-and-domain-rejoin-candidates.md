@@ -24,3 +24,5 @@ Java retains source integration and actual software verification. At this source
 [Exact request costs, source boundaries and owner grades](2026-11-12-ck3-projection-choice-and-domain-rejoin-candidates.json).
 
 Later source receipt: the owner actually partially adopted all three corrected production edits into Source44 (85793 bytes,0b0534dea54fe00e65ca18b073cd89b00b96180318fd1f9bc5285ed8ed249324), extracting a private formatter for independent pure DATA tests. Both generated Tests remain rejected. This updates adoption beyond the original pending cut; it grants no software, Runtime or measured benefit.
+
+Later formal49 receipt: the partial model production core plus owner private entry/formal integration is normally published at cdf92d1a2a398d4933f8da40b7ad97b3bfbce234. One necessary formal production TU yields4 classes; unchanged owner09 Test2 classes run whole4 methods successfully, without test recompile or model-Test credit. Actual/synthetic restoration, tie and baseline-failure behavior qualify pure complete-wire formatting only; selector/HTTP/live and speed are not granted. Original pending and rejected-test cuts remain intact.
