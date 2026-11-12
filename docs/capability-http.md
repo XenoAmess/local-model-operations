@@ -5744,3 +5744,8 @@ No new HTTP/Java/live. Original physical-read model edits retain all8 old public
 One complete source-guided method response123405 input/875 output, TTFT15.9210s/total20.8014s, no retry/length, peak1/current0. Genuine read/producer core has missing import, writer-phase, interruption, duplicate-preserve and diagnostic-bound corrections before owner integration; no compiler/Runtime/benefit grant. Existing Source56 now has necessary1TU1class/complete old16-member ABI retention and reused4 manualDATApass, without erasing owner53/Runtime58 failure or pretending full Root coverage.
 
 [Exact candidate and later qualification boundaries](evidence/2026-11-12-ck3-clean-stop-fresh-capture-method.md).
+
+
+## 2026-11-12：672/673受阻项目130软件
+
+两真实HTTP完整15731／16765tokens，峰2重叠约17.65秒；672把签名当work／过滤先耗预算／虚构API／最终漂移整拒，673十三setup错误及错writer整拒，0rawNative。Owner接管既有唯一写者，11新回归、旧129三断言失败0异常、冻结全1900项1899pass1SDKskip／97Lua119包；130冷验未授，人口FAIL保留。累计673／627完整43length3transport703HTTP30extra；每日维护缓存复用、OpenCode原生0／净收益null。[固定blob反链](evidence/2026-11-12-civ6-blocked-project130-model672673.json)。

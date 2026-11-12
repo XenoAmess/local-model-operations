@@ -1493,3 +1493,8 @@ OpenCode1.19.5同机同用户每日成功缓存复用、原生生成0。665整�
 ### 2026-11-12：670/671秀容300独立领域与typed队列
 
 670完整6073tokens/4147.1905ms，人口与queue元数据分开方向窄采用、Owner补缺失领域事实；671完整4536tokens/6188.3885ms四反例整拒，Owner6只读合同后Native PROJECT10/143产能/工业区pillaged及PREPEND资格true，0修复/END300。人口−3独立保留并停下一END，13零燃料trace已还原。累计截至671／625完整43length3transport701HTTP30extra，后续672/673不预计；OpenCode维护缓存、原生0/成本null。[固定blob反链](evidence/2026-11-12-civ6-xiurong300-model670671.json)。
+
+
+### 2026-11-12：672/673受阻项目130软件
+
+两真实HTTP完整15731／16765tokens，峰2重叠约17.65秒；672把签名当work／过滤先耗预算／虚构API／最终漂移整拒，673十三setup错误及错writer整拒，0rawNative。Owner接管既有唯一写者，11新回归、旧129三断言失败0异常、冻结全1900项1899pass1SDKskip／97Lua119包；130冷验未授，人口FAIL保留。累计673／627完整43length3transport703HTTP30extra；每日维护缓存复用、OpenCode原生0／净收益null。[固定blob反链](evidence/2026-11-12-civ6-blocked-project130-model672673.json)。
