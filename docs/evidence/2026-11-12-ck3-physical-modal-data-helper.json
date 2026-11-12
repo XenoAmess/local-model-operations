@@ -1,0 +1,198 @@
+{
+  "schema": "local-model-operations.physical-modal-data-helper/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "requests": [
+    {
+      "task": "physical-modal-availability-helper01",
+      "prefix": {
+        "bytes": 116004,
+        "sha256": "88b2e972282b458df122c9650a5360693617601ee6129dd4ba33ecb7ffcd90cb"
+      },
+      "complete_input_files": 11,
+      "begin_utc": "2026-11-12T04:16:04.164405+00:00",
+      "end_utc": "2026-11-12T04:16:45.766029+00:00",
+      "messages": 3,
+      "request": {
+        "max_tokens": 6500,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "status": 200,
+      "headers_ms": 3792.46690007858,
+      "content_TTFT_ms": 3793.5026000486687,
+      "total_ms": 41601.610200013965,
+      "finish_reason": "length",
+      "SSE_DONE": true,
+      "JSON": "UNKNOWN",
+      "candidate_complete": false,
+      "usage": {
+        "prompt_tokens": 27652,
+        "completion_tokens": 6500,
+        "total_tokens": 34152
+      },
+      "cached_tokens": null,
+      "routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "transport_retry": 0
+    },
+    {
+      "task": "physical-modal-availability-helper-only02",
+      "prefix": {
+        "bytes": 112418,
+        "sha256": "6c1521d7e2f6a51ebd1bdacb4159468013986a020102e723f332309d0243296c"
+      },
+      "complete_input_files": 11,
+      "begin_utc": "2026-11-12T04:18:32.080505+00:00",
+      "end_utc": "2026-11-12T04:18:39.824694+00:00",
+      "messages": 3,
+      "request": {
+        "max_tokens": 3000,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "status": 200,
+      "headers_ms": 3680.2948999684304,
+      "content_TTFT_ms": 3681.207099929452,
+      "total_ms": 7744.073499925435,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "JSON": "VALID",
+      "candidate_complete": true,
+      "usage": {
+        "prompt_tokens": 26794,
+        "completion_tokens": 686,
+        "total_tokens": 27480
+      },
+      "cached_tokens": null,
+      "routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "transport_retry": 0
+    }
+  ],
+  "totals": {
+    "POSTs": 2,
+    "complete_stop": 1,
+    "length": 1,
+    "transport_retry": 0,
+    "prompt_tokens": 54446,
+    "completion_tokens": 7186,
+    "sum_total_ms": 49345.6836999394,
+    "cached_tokens": null,
+    "financial_cost": null
+  },
+  "concurrency": {
+    "peak": 1,
+    "current_after_END": 0,
+    "preparation_not_counted": true
+  },
+  "first_request": {
+    "grade": "UNUSED_LENGTH_DISCARDED",
+    "CONTENT_read_parsed_or_extracted": false,
+    "candidate_code_adopted": 0,
+    "cause": "Operator bundled helper plus complete three-packet regression output; output scope and budget were poorly sized. No model semantic finding can be assigned to an unread truncated response.",
+    "raw_and_cost_retained": true
+  },
+  "changed_scope": {
+    "explicitly_authorized": "A new bounded helper-only obligation, excluding Test/Base64 repetition; original complete source and packets remain input only.",
+    "not_stream_continuation": true,
+    "old_partial_content_supplied_or_spliced": false,
+    "max_output_tokens": 3000,
+    "actual_complete_output_tokens": 686
+  },
+  "helper": {
+    "grade": "HELPER_CORE_COMPLETE_OWNER_THREE_RECEIVER_CORRECTIONS_REQUIRED",
+    "actual_source_adoption": "NOT_HELD at this review cut",
+    "response_field": "complete_java",
+    "complete_java_bytes": 2801,
+    "complete_java_sha256": "1b1b07365d37203325a3825f2096746ceabab1d627e0c2f30a9442d049e9b368",
+    "complete_java_lines": 57,
+    "matches": [
+      "The four DATA availability states keep missing distinct from explicit null.",
+      "Only the exact five-key owner-unavailable object qualifies; known, malformed or extra-field values do not become no-modal.",
+      "Only missing-to-exact-unavailable and its reverse are new compatible directions; all three other boundary values use original equality.",
+      "No input mutation, Frame construction, permissions or old Clock comparison edits."
+    ],
+    "owner_corrections": [
+      "Use standard constant BigInteger.valueOf(2000).equals(input) rather than input-owned equals; supplied public IntegerValue can contain null or a BigInteger subclass.",
+      "Use constant unknown.equals(text.value()) and constant source.equals(src.value()); supplied Text record permits null, which should classify as OTHER_PRESENT rather than NPE."
+    ],
+    "counterexample_scope": "Ordinary strictly parsed real packet values do not contain these fabricated null/subclass values. The new public pure DATA API still requires its malformed-input contract; those are source-level counterexamples, not a claimed real Native packet corruption.",
+    "test_owner": "Existing separate pure DATA test owner explicitly confirmed active ownership of the three exact frozen packets and negative cases. No duplicate Test model request or Java run was issued.",
+    "not_granted": [
+      "typing",
+      "behavior pass",
+      "actual source adoption",
+      "Root/Status/proof/replay permission",
+      "Runtime recovery",
+      "latency or saved-day benefit"
+    ]
+  },
+  "fixture_boundary": {
+    "existing_frozen_packets": 3,
+    "native_revisions_as_fixture_labels": [
+      515,
+      516,
+      517
+    ],
+    "original_packet_bytes": [
+      1298,
+      1182,
+      1182
+    ],
+    "official_state_bytes": [
+      1197,
+      1016,
+      1016
+    ],
+    "meaning": "The first original has the exact unknown object; the other two have no hint key. Original bytes/presence remain unmodified.",
+    "operator_path_correction": "An earlier informal 517 artifact guess was corrected from the official exact index before either POST; no wrong packet was dispatched.",
+    "new_sampling": false
+  },
+  "guidance": "The exact class/API, five-key shape, comparison directions and original boundary checks were supplied by the source owner. This is guided method implementation, not an independently discovered architecture or diagnosis.",
+  "scope": {
+    "new_HTTP_business_action": 0,
+    "new_JVM_or_Test_run": 0,
+    "Game_Native_query_or_ledger_write": 0,
+    "model_operator_production_write": 0,
+    "old_parser_Guard_hash_encode_changed": false,
+    "DLL_full_source_equivalence_or_unique_cause_granted": false
+  },
+  "operations": {
+    "shared_main_sync_before_task": true,
+    "same_day_successful_maintenance_reused": true,
+    "caller_service_or_active_config_changed": false,
+    "complete_terminal_reported_before_full_review_or_cost_seal": true
+  },
+  "privacy": "Original packets, game data, private requests and absolute local paths remain on the execution machine."
+}

@@ -5677,3 +5677,10 @@ Two complete sequential stops, 112729 input/3826 output, no retry/length. One su
 665完整6234tokens／7236.1529ms，原Lua全局污染及虚构接口等整拒；Owner10组后临时观察7个实际BACKGROUND项目并匹配原生queue，燃料均0，未授正储量分支通过，287已恢复原函数槽并清QA再存档。[固定blob证据与采用边界](evidence/2026-11-12-civ6-power-prewrite665.json)。
 
 666完整2966tokens／7054.4387ms，三处巨大整数OverflowError、两个producer缺实际localplayer见证；分类逻辑加保护窄采用，Lua由Owner补实际字段。11项针对测试及双context实际290 READY；NPC新监视器实机分支仍待遇到。串行、同scope/实际turn、无自动点击或END重试，READY不授权操作。[固定blob证据](evidence/2026-11-12-civ6-readiness666.json)。本段2个真实窄任务、实际各1在途，无空探针；累计666／620完整／43length／3transport／696HTTP／30extra，缓存／成本／净收益null。
+
+
+## 2026-11-12: Small pure DATA helper after output-scope correction
+
+A helper-plus-packet-Test request reached length6500 and remained wholly unread/unused; operator scope and budget error. A separately authorized helper-only obligation completed686 tokens with the four availability states and narrow comparison core. Three constant-receiver fixes remain for public malformed/subclass inputs; existing pure DATA test owner prevents duplicate work. Two POSTs, 54446 input/7186 output, no transport retry, peak1/current0; no Java/live/permission or benefit grant.
+
+[Exact costs and guided partial-source boundary](evidence/2026-11-12-ck3-physical-modal-data-helper.md).
