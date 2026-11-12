@@ -5971,3 +5971,14 @@ Two complete stops102776in/2737out, sumHTTP23.8697s/sequentialpeak1/current0. IO
 ### Source69 posterior: partial production body and real whole-six qualification
 
 The prior two complete proposals remain invalid as written, but final adoption is partial: importIO/two private callsites/helper serialization+lease+IO body are genuinely selected. Owner supplies lawful privateComplete mapper, actual write settings and original limit guard. Actual1TU9 original classes and owner19 complete legacy differentialwhole6 pass; old API/family retained, new privatefield is not HCR. Native recorder prelaunch0JVM is not sourceRED. Cumulative155 business JVMs/nine tools separately accounted; Runtime69 adoption/hit/CPU/ROI remain unheld. No newHTTP or maintenance for this posterior. [Source and exact software evidence](evidence/2026-11-13-ck3-snapshot-private-first-encoding-method.json).
+
+
+## 2026-11-13：Civ6审计695、泛滥平原696／697与同版重载
+
+695完整18160tokens／15152.5647ms却混淆发表切点与后到证据、重复过时B_delta缺口、把未证MOVE混作旧FOUND失败，整拒。Owner纠正：TC038的74／8／1029确已提供，初筛误认缺源由前置断言发现，不归模型。67四数值预算／25配对和105106特定长局证据保留，未冒授完整矩阵。[695固定反链](evidence/2026-11-13-civ6-695-housing-audit.json)。
+
+696原样采用纯helper一hunk，真实19房／20人且原生合法的不可移除泛滥平原需独立于森林清除资格；不发新清地貌命令、不绕资源／粮格／队列／原生门。Owner7方法旧135有13失败／原696七过8.795s。697自称组合却继承14旧方法，实际20项20失败；另一个exact旧fixture替换LuaSyntaxError。其测试整拒，Owner7新方法加旧14语义维护，实际21全过／冻结全1989中1988pass1SDKskip、97Lua51／119包。两完整HTTP21564和22523tokens、7338.3960和12185.9957ms，峰2／重叠7.325417秒；软件耗时不推净节省、包成不授Native。[136软件固定反链](evidence/2026-11-13-civ6-696697-housing-audit.json)。
+
+135完成329同版正式冷载，三城住房／地块保持，191建筑69区域222地块52单位相等、11人口／队列目标投入保持；世界收入、Builder成本、4粮食／8vitals行有差异，因果未隔离，不称全字段保持或归136。同版也出现差异只能限制归因，不能授具体引擎原因。0END／新HTTP，旧六人口损失与八停止保留。[重载固定反链](evidence/2026-11-13-civ6-135reload-housing-audit.json)。
+
+Nov13由695入口实际canonical检查OpenCode1.19.5／registry1.19.5无升级，696697同机同用户缓存复用；普通HTTP累计697逻辑／646完整stop流（前692含严格JSON拒绝）／48length／3最终transport／727HTTP／30extra。OpenCode原生生成0，未知缓存／Owner总成本／净节省null。继续真实136冷装实效及未闭验收，不制造补位请求。

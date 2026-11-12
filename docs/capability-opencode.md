@@ -1608,3 +1608,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-13：135住房完成Native后见
 
 0新HTTP／OpenCode原生，修后693部分接线实际三城完工与区域住房增加，不追授原稿或全城充足。695新自然日独立证据审计单列维护，不把本次Native算模型调用。[固定135三社区完成与剩余缺口反链](evidence/2026-11-13-civ6-native135-housing-completed329.json)。
+
+
+### 2026-11-13：Civ6审计与136住房软件
+
+695入口当日实际canonical维护检查1.19.5／registry1.19.5，无升级；696697成功缓存复用。三次均普通HTTP，OpenCode原生生成累计0；维护、软件测试与Native重载分别记账，不授原生工具代码能力。[固定HTTP与Owner纠错](evidence/2026-11-13-civ6-696697-housing-audit.json)，累计697／646完整流48length3transport727HTTP30extra，未知成本null。
