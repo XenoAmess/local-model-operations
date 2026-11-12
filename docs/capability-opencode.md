@@ -1583,3 +1583,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-12：691住房只读调查
 
 普通HTTP一完整请求，原生游戏读回由Owner执行；不等于OpenCode原生工具生成，累计该模式仍0。Nov12 OpenCode1.19.5成功维护缓存复用，累计691／640完整48length3transport721HTTP30extra，未知成本null。[固定住房诊断反链](evidence/2026-11-12-civ6-housing691-native318.json)。
+
+
+### 2026-11-12：692普通HTTP严格JSON失败
+
+同机Nov12 OpenCode1.19.5维护缓存继续复用；完整流被项目严格JSON拒绝，不是原生工具生成案例，累计原生仍0。692／641完整stop流（本次重复键拒绝）48length3transport722HTTP30extra，未知成本null。[固定资源地貌与JSON拒绝反链](evidence/2026-11-12-civ6-housing692-protection319.json)。

@@ -194,3 +194,8 @@ Owner修正部分680/681后实际冷验：已转入旧许可不重发，另一�
 ## 2026-11-12：Civ6691住房需求和重复社区
 
 691完整10455tokens／7976.6551ms／TTFT1620.8209ms，只采用有界调查方向，Owner纠正负缺口算术、需求不等于排序、先计扫描预算及未审原因表；漏答重复社区由实际OnePerCityfalse、邯郸已有社区仍双CanProduce真补证。133／318北京15/20、邯郸18/20、上海14/15，需求／双生产均真，原生可放置4／2／5不授ClearPlot／资产／粮食／保留或最终操作资格，0游戏动作，不归因政体。累计691／640完整48length3transport721HTTP30extra，新峰1；同机Nov12维护缓存复用、原生0／未知成本null。[固定住房诊断反链](evidence/2026-11-12-civ6-housing691-native318.json)。
+
+
+## 2026-11-12：Civ6692住房选址与严格JSON拒绝
+
+692 HTTP200完整stop/DONE，13644tokens／11835.7839ms／TTFT1867.2277ms；共享报JSON VALID，项目递归重复observation键拒绝／exit1／candidate=null，整份0采用，不修补重试。641完整流计数不等于641严格候选通过。Owner实际134／319十一原生社区候选均被ClearPlot挡住：3可见资源、8其他地貌；提高分数不能单独解决，邯郸HasDistrict真而HasBeenPlaced假。只读APPEND资格不授活动队列写入，0游戏动作。累计692／641完整stop流含此次严格JSON拒绝、48length3transport722HTTP30extra，维护缓存复用／OpenCode原生0／未知成本null。[固定资源地貌与JSON拒绝反链](evidence/2026-11-12-civ6-housing692-protection319.json)。
