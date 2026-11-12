@@ -1,0 +1,183 @@
+{
+  "schema": "local-model-operations.reserved-wait-warm-status-reviews/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "scope": "Two distinct current-source counterexample reviews: reserved-child waiting route, then a later owner-written warm Life STATUS_ONLY branch. No implementation request or repeated validator wave.",
+  "requests": [
+    {
+      "source_version": "Source41",
+      "input_files": 23,
+      "prefix": {
+        "bytes": 640081,
+        "sha256": "2470023801613489174d6173e1e097f26bcf3da4aa0f4bc1556c940e2b1d9aff"
+      },
+      "request": {
+        "max_tokens": 2800,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "messages": 3,
+      "post_begin_utc": "2026-11-12T02:12:04.975153+00:00",
+      "end_utc": "2026-11-12T02:12:24.436568+00:00",
+      "http": {
+        "http_status": 200,
+        "http_headers_ms": 16416.037200018764,
+        "first_nonempty_content_delta_ms": 16416.977200075053,
+        "total_ms": 19461.39489999041,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "usage": {
+          "prompt_tokens": 127821,
+          "completion_tokens": 463,
+          "total_tokens": 128284
+        },
+        "cached_prompt_tokens_if_reported": null,
+        "network_routing": {
+          "proxy_mode": "direct",
+          "target_host": "192.168.1.11",
+          "proxy_handler": "disabled",
+          "redirects": "refused",
+          "actual_peer": "UNKNOWN"
+        }
+      },
+      "json_syntax": "VALID",
+      "attempts": 1,
+      "retry": 0,
+      "length": 0,
+      "response_status": null,
+      "findings": [],
+      "content_receipt": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 2071,
+        "sha256": "67de71165910ff617ab08bba49ef95081da4139bad9e13506fd182d4e7dbfe1c"
+      },
+      "model_code_adopted": 0,
+      "owner_grade": "AUXILIARY_SOURCE_REVIEW_ONLY_NO_ACTIONABLE_FINDING",
+      "owner_corrections": [
+        "Numeric source locations were inaccurate: current is at 697, freshReservedChildObservation at 820, isReservedChild at 46 in the supplied files; claims are checked against actual methods rather than the response line numbers.",
+        "The existing actual(...) producer/session validation establishes held identity; assigning its return to sameHeld does not independently prove it.",
+        "The original reserved-child routing defect was found by the source owner before this request, not by the model."
+      ]
+    },
+    {
+      "source_version": "Source42",
+      "input_files": 24,
+      "prefix": {
+        "bytes": 441358,
+        "sha256": "1bb8b4e3b8a143e4844867847f078eff0d6746392ca1aa8f167cb7e44c1fcd5c"
+      },
+      "request": {
+        "max_tokens": 2400,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "messages": 3,
+      "post_begin_utc": "2026-11-12T02:21:59.206861+00:00",
+      "end_utc": "2026-11-12T02:22:13.362471+00:00",
+      "http": {
+        "http_status": 200,
+        "http_headers_ms": 11557.764300028794,
+        "first_nonempty_content_delta_ms": 11558.824200066738,
+        "total_ms": 14155.634499969892,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "usage": {
+          "prompt_tokens": 89211,
+          "completion_tokens": 400,
+          "total_tokens": 89611
+        },
+        "cached_prompt_tokens_if_reported": null,
+        "network_routing": {
+          "proxy_mode": "direct",
+          "target_host": "192.168.1.11",
+          "proxy_handler": "disabled",
+          "redirects": "refused",
+          "actual_peer": "UNKNOWN"
+        }
+      },
+      "json_syntax": "VALID",
+      "attempts": 1,
+      "retry": 0,
+      "length": 0,
+      "response_status": "NO_SOURCE_ISSUE_FOUND",
+      "findings": [],
+      "content_receipt": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 1900,
+        "sha256": "3fe517dd6678d97127a886f0b9c9a2d4767c71ef22c193b2b3c0b3c14702ef84"
+      },
+      "model_code_adopted": 0,
+      "owner_grade": "AUXILIARY_SOURCE_REVIEW_ONLY_NO_ACTIONABLE_FINDING",
+      "owner_corrections": [
+        "No new Game/Native query describes this offline review only. The candidate intentionally issues the real read through the existing STATUS_ONLY authority and coordinator; it does not eliminate that query.",
+        "The warm branch and canonical-prefix handling were already owner-written before POST. Empty findings neither validates live status behavior nor grants source authorship."
+      ]
+    }
+  ],
+  "summary": {
+    "actual_POSTs": 2,
+    "complete_stop": 2,
+    "length": 0,
+    "retry": 0,
+    "prompt_tokens": 217032,
+    "completion_tokens": 863,
+    "sum_request_total_ms": 33617.0293999603,
+    "financial_cost": null
+  },
+  "concurrency": {
+    "definition": "actual POST_BEGIN through END",
+    "peak": 1,
+    "requests_overlapped": false,
+    "current_after_end": 0,
+    "sequential_distinct_artifact_arrivals_not_a_concurrency_target": true
+  },
+  "source_version_boundary": {
+    "Source41_input": "Complete candidate and original patch; original owner found next(child) treated as a composite parent.",
+    "Source42_input": "Complete two-leaf candidate and patch plus current complete callees. It adds the warm physical Status branch and includes Source41.",
+    "Source42_POST_before_any_Source42_request": true,
+    "old_request_cancelled_or_reposted": false,
+    "runtime_head_or_receipt_changes_not_inserted_into_old_requests": true
+  },
+  "owner_assessment": {
+    "Source41": "No concrete scope regression found in the new route; existing finite budget, revision and parent route preserved. Model line references needed correction.",
+    "Source42": "Warm canonical running Life, settled child prefix, original ARM, complete observation, archived occurrence and existing STATUS_ONLY admission described consistently with source. No concrete new defect identified.",
+    "finding_absence_is_proof": false,
+    "new_model_source_code": 0,
+    "software_or_Runtime_qualification_by_these_requests": false
+  },
+  "operations": {
+    "shared_main_synchronized": true,
+    "AGENTS_usage_config_caller_hashes_unchanged": true,
+    "same_day_successful_OpenCode_maintenance_cache_reused": true,
+    "service_or_active_business_configuration_changed": false,
+    "primary_business_owner_did_not_wait_for_model": true
+  },
+  "limits": [
+    "Static review only; no new Java/test/Game/Native operation by this operator.",
+    "Independent owner compilation, actual deployment, original-ID recovery and live behavior require their own receipts.",
+    "Earlier positive physical primitive does not qualify a later multi-frame/status branch.",
+    "No source/Runtime/performance/SAVE credit inferred from HTTP200, valid JSON or empty findings.",
+    "Request sizes and TTFT are task-specific; no inference about cache hits or comparison to short business-decision prompts."
+  ],
+  "privacy": "Raw source, requests, responses and private evidence paths remain on the execution machine."
+}

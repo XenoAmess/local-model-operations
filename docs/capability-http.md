@@ -5610,3 +5610,10 @@ One complete stop42.5306s/TTFT7.5321s, 57685 input/6221 output, peak1/no retry. 
 ## 2026-11-12：659—661路径／场址真实消费与128软件
 
 三真实任务峰值3／重叠22.712152秒。659完整28291tokens但硬编码xy0、未定义pid、元数据表当函数，阳性0calls；660完整26607tokens却复制旧直接解锁选择，桥false仍选／locked+桥true仍无选择，均0桥调用；661完整27453tokens，9setup错误0行为通过，三份整拒0rawNative。Owner20新Lua51方法，旧127三方法4断言失败0异常；实际Core player.IsHuman而非缺失config端口，独立内联正反读资格。首轮全量途中修改造成配对源码哈希拒绝，冻结重跑1838pass1SDKskip／97Lua119包。新只读Core桥、有空场址的实际图下一步消费、原pending-before-writer和正进度保护；正式128游戏效果待验。累计661／615完整43length3transport691HTTP30extra，未知缓存成本净收益null。[固定blob反链](evidence/2026-11-12-civ6-source128-power-path.json)。
+
+
+## 2026-11-12: Reserved wait and warm physical Status reviews
+
+Two distinct complete source reviews, zero findings and zero model code adoption: 19.4614s / TTFT16.4170s and14.1556s / TTFT11.5588s; 217032 input/863 output, sequential peak1, no retry/length. Owner corrected numeric source locations and the scope of “no new query”; the candidate still uses the real existing STATUS_ONLY issuer. Source-only auxiliary evidence grants no typing, live recovery, performance or SAVE result.
+
+[Actual request costs and source-version boundaries](evidence/2026-11-12-ck3-reserved-wait-warm-status-reviews.md).
