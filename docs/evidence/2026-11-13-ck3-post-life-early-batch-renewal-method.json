@@ -437,5 +437,389 @@
       "adopted": false,
       "test_owner_independent": true
     }
+  },
+  "posterior_actual_formal_software71": {
+    "qualification": {
+      "bytes": 22605,
+      "sha256": "7ef528d020b15752f9303291d1c455f681479edb2a41fd6a10119cef572887bf"
+    },
+    "cut_utc": "2026-11-12T19:07:45.177427+00:00",
+    "actual_ready": {
+      "bytes": 5358,
+      "sha256": "2da2becbc6b8d7a46c61b2a591601e87f651fac4b7cae649aa90e2fdc7f78aae"
+    },
+    "formal_ready": {
+      "bytes": 4091,
+      "sha256": "249360cff0f4051003552435fff0071b5a6b6eea174e6baa3545d6d678fdc991"
+    },
+    "final_test_ready": {
+      "bytes": 1877,
+      "sha256": "6ded5feff10d0e0056a5e69a9a5a825f53fd354dad79f84997075d69856ad3c9"
+    },
+    "production": {
+      "actual4TUs35types": {
+        "bytes": 110241,
+        "sha256": "d1d69e9c303a548acc016a90631a6f1dc4161ccc52eb2df0acd36adb661b67b3"
+      },
+      "formal4TUs35types": {
+        "bytes": 110227,
+        "sha256": "d7aac20bfde514eb36069eac2d02bf3b308909c501435995ab58868b903280eb"
+      },
+      "families": {
+        "Controller": 19,
+        "BatchLimits": 1,
+        "Loop": 11,
+        "Main": 4
+      },
+      "old_metadata_classes_checked": 35,
+      "old_public_protected_descriptor_flags_subset_retained": true,
+      "old_mutable_alias_NOT_HELD": [],
+      "removed_or_missing_declarations": {},
+      "new_types_versus_held_origins": [],
+      "BatchLimits_public_constructors": [
+        {
+          "name": "<init>",
+          "descriptor": "(Ljava/lang/String;ILjava/time/Duration;Ljava/time/Duration;Ljava/time/Duration;IZ)V",
+          "flags": 1,
+          "signature": null
+        },
+        {
+          "name": "<init>",
+          "descriptor": "(Ljava/lang/String;ILjava/time/Duration;Ljava/time/Duration;Ljava/time/Duration;I)V",
+          "flags": 1,
+          "signature": null
+        }
+      ],
+      "measured_common31_classbytes_equal": true,
+      "formal_Main_distinct_original_no_runWithHost_bindOrdinaryHost_preserved": true,
+      "formal_Main_original_binary_API_NOT_HELD": true,
+      "structural_nonHCR": true
+    },
+    "tests": {
+      "final_Test_TUs": 1,
+      "final_Test_types": 12,
+      "helpers": 0,
+      "props": 0,
+      "JNA": 0,
+      "actual_final": "4P0FES annualturn2 coverage",
+      "formal_final": "independent4P0FES sameTest12 reused",
+      "actual_reports": [
+        {
+          "bytes": 48727,
+          "sha256": "e7d17285441940fdd490bf3c6057a49f5857bc10627a6f94f7d6bac04202ff58"
+        },
+        {
+          "bytes": 46358,
+          "sha256": "966cd49fb2496e8c8160d03a8688c1e7df0486a7fcc50d5aae8679fe3e0e23fd"
+        },
+        {
+          "bytes": 46337,
+          "sha256": "2ab41fcb5f09af036c060dd771b035c5d24e8e074bd8ef33ba36814f16f309a6"
+        }
+      ],
+      "formal_reports": [
+        {
+          "bytes": 48661,
+          "sha256": "0b3a9030d25b45e81c14c88825606be54324e9fa4e5fe40057acfede92882853"
+        },
+        {
+          "bytes": 46291,
+          "sha256": "f097eaf1060e2128b3c6e177bc9911179cfadb263045921454c61e06225c177a"
+        },
+        {
+          "bytes": 46270,
+          "sha256": "be6193fe0ecebc3a0537dd9132c55f7849d2b8d1e6ec5c217718d692e0bef28c"
+        }
+      ]
+    },
+    "XML_counts_independently_read": {
+      "actual_reports": [
+        {
+          "name": "TEST-junit-jupiter.xml",
+          "bytes": 48727,
+          "sha256": "e7d17285441940fdd490bf3c6057a49f5857bc10627a6f94f7d6bac04202ff58",
+          "counts": {
+            "tests": 4,
+            "failures": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        {
+          "name": "TEST-junit-platform-suite.xml",
+          "bytes": 46358,
+          "sha256": "966cd49fb2496e8c8160d03a8688c1e7df0486a7fcc50d5aae8679fe3e0e23fd",
+          "counts": {
+            "tests": 0,
+            "failures": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        {
+          "name": "TEST-junit-vintage.xml",
+          "bytes": 46337,
+          "sha256": "2ab41fcb5f09af036c060dd771b035c5d24e8e074bd8ef33ba36814f16f309a6",
+          "counts": {
+            "tests": 0,
+            "failures": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        }
+      ],
+      "formal_reports": [
+        {
+          "name": "TEST-junit-jupiter.xml",
+          "bytes": 48661,
+          "sha256": "0b3a9030d25b45e81c14c88825606be54324e9fa4e5fe40057acfede92882853",
+          "counts": {
+            "tests": 4,
+            "failures": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        {
+          "name": "TEST-junit-platform-suite.xml",
+          "bytes": 46291,
+          "sha256": "f097eaf1060e2128b3c6e177bc9911179cfadb263045921454c61e06225c177a",
+          "counts": {
+            "tests": 0,
+            "failures": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        {
+          "name": "TEST-junit-vintage.xml",
+          "bytes": 46270,
+          "sha256": "be6193fe0ecebc3a0537dd9132c55f7849d2b8d1e6ec5c217718d692e0bef28c",
+          "counts": {
+            "tests": 0,
+            "failures": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        }
+      ]
+    },
+    "phases": [
+      {
+        "exit": 0,
+        "accepted": true,
+        "actual": {
+          "bytes": 1567,
+          "sha256": "17fb81d98f4235c800a68d8a689a1a8f14f557fca996a0ad403c55ea8da9f48e"
+        },
+        "post": {
+          "bytes": 364,
+          "sha256": "37b60b089805f298b353b257cc65eea1c8fefda1dd8b62e99aebef59d568b7bb"
+        },
+        "close": {
+          "bytes": 204,
+          "sha256": "d8a3cebc88e3b10442a74fcda89c34bbdac69291736b1008b70b8dea3c6ab5fe"
+        },
+        "outer": {
+          "bytes": 949,
+          "sha256": "fbfc262a2523560b4f23099696af2e8533974a0084f6d85f3b1c8343ef2ee583"
+        }
+      },
+      {
+        "exit": 0,
+        "accepted": true,
+        "actual": {
+          "bytes": 1634,
+          "sha256": "6092cd72952ed1079052754afbc83b4663aacde22e5ecd09ca133f47a5c733fb"
+        },
+        "post": {
+          "bytes": 370,
+          "sha256": "4651634a3fe5cc40dd785bafe7d5b29a3bb82a723c2d96ac50c2766b134b478a"
+        },
+        "close": {
+          "bytes": 204,
+          "sha256": "09eabc34966017b8937f4e4ab29c23fc24d927509730623e7eb738ed50c3c998"
+        },
+        "outer": {
+          "bytes": 963,
+          "sha256": "ad701d58b7a4d89cf232ec68bbbb8bcab5698b2610b538f51f93a04997d91a89"
+        }
+      },
+      {
+        "exit": 1,
+        "accepted": false,
+        "actual": {
+          "bytes": 1425,
+          "sha256": "65153a074facadcb2e0a6707724936dad97f5dcb65ee6e43aab794936d917abd"
+        },
+        "post": {
+          "bytes": 139,
+          "sha256": "e7bafd1e2cb62464105ed6f46bdccfd32420bccd99816d0c7d9ea27994c4e257"
+        },
+        "close": {
+          "bytes": 204,
+          "sha256": "d19c260a00d0d9b12dcbf44ca94b31a0dfd5baa2a91a4a22ca66914c1ad50236"
+        },
+        "outer": {
+          "bytes": 958,
+          "sha256": "e0fbff4d1fed4e93e237808cafe4b6d64f4222e918ffec5061ef4711b6a3b906"
+        }
+      },
+      {
+        "exit": 0,
+        "accepted": true,
+        "actual": {
+          "bytes": 1632,
+          "sha256": "f1f23e2a99159ade69f569ca1c6ed66ec4a406221bf3a297de2c9c01210a513f"
+        },
+        "post": {
+          "bytes": 370,
+          "sha256": "cec4a2005a88cb1d1e00e213cfa550d822cb2b51013141f8e0ccbf05a0acbc54"
+        },
+        "close": {
+          "bytes": 204,
+          "sha256": "590ce9d212da72d955f4b74ab3b7f7438164465c6abd89f569cdd6f90aeb8545"
+        },
+        "outer": {
+          "bytes": 963,
+          "sha256": "154837fb73a0b7d49f2677b6b229e347c5ba1669f48148a94be910e863c72f59"
+        }
+      },
+      {
+        "exit": 0,
+        "accepted": true,
+        "actual": {
+          "bytes": 1424,
+          "sha256": "d0cb67408c246e4cc873adfbc7304d7ec3088923ec0b1d0939f3e59b2b038711"
+        },
+        "post": {
+          "bytes": 1516,
+          "sha256": "0444959c142959d5f91ebafe35e9810924e4b38905feced02d5c1cbceaff1a38"
+        },
+        "close": {
+          "bytes": 204,
+          "sha256": "33bb83f575cec79e03db3eb5dd6bf8b9a78469718857ae567a7bc1608939faf4"
+        },
+        "outer": {
+          "bytes": 957,
+          "sha256": "bae47a7f2d8e5ab98d3141be3ea52b68a977cc7f92d7b0a6eff36fe4b5bf5288"
+        }
+      },
+      {
+        "exit": 0,
+        "accepted": true,
+        "actual": {
+          "bytes": 1633,
+          "sha256": "4f4fed81bd92df83b1aca2d6fb5b2fdc8175e598c404b39f14d7020ab31ebdb5"
+        },
+        "post": {
+          "bytes": 370,
+          "sha256": "a7fac7e19f14cc0c4166e396370623cf0206ef44558eb2acb5082f42c035d4c3"
+        },
+        "close": {
+          "bytes": 204,
+          "sha256": "ae360714af7e1f6924ce458a61cac235b5086ae0258de8ad7ea99e4bdc4f050c"
+        },
+        "outer": {
+          "bytes": 961,
+          "sha256": "4bb22629e694511facf747615ddb60269580a702b6dec39a5f647da4f6f6bbe7"
+        }
+      },
+      {
+        "exit": 0,
+        "accepted": true,
+        "actual": {
+          "bytes": 1424,
+          "sha256": "f8b4dcbd2df5d1a2b022ee7c22dce66f4cdcc3f800dd692b6dd9d6a5ab199257"
+        },
+        "post": {
+          "bytes": 1516,
+          "sha256": "0be05835c89ae49434fe6cab2f003d4a6e19792f1565e2784bc9f322b3b76f75"
+        },
+        "close": {
+          "bytes": 204,
+          "sha256": "6262838ddac064659c60f526fe6295a902a3036fddd2faf65d1c74b4f412776d"
+        },
+        "outer": {
+          "bytes": 958,
+          "sha256": "397e31d7b3642dd2b6022493fbd25c0ce8bb8490f0caff7e4e050d4e7bdf65ea"
+        }
+      },
+      {
+        "exit": 0,
+        "accepted": true,
+        "actual": {
+          "bytes": 1624,
+          "sha256": "35336627892052ddad2057750fca1f12a7ab5be8cc633a822d5050008c495760"
+        },
+        "post": {
+          "bytes": 371,
+          "sha256": "a0c0ddf671c706993614c0bc2cd7ad3003ae33ff61e3f32c6e47a42e71631f2c"
+        },
+        "close": {
+          "bytes": 204,
+          "sha256": "986497c1b2c9cf53b7aaf4f3f376576cc9a8abf09a41a3d9177b676e661d1f56"
+        },
+        "outer": {
+          "bytes": 963,
+          "sha256": "fad9e8f597b818b8ee9a5fcbe6cf95b4b12503270799596b2c19b185156c7e97"
+        }
+      },
+      {
+        "exit": 0,
+        "accepted": true,
+        "actual": {
+          "bytes": 1474,
+          "sha256": "21b8648f892bb565eb28e62ed0a41338825faa4b4bbf08a89c6b34ac3ad7db94"
+        },
+        "post": {
+          "bytes": 1537,
+          "sha256": "62a5e6f33357d7ff12f7a1ff3425dc589bc4e01bcdf30f8cb5d1fd3f5a967bd7"
+        },
+        "close": {
+          "bytes": 204,
+          "sha256": "6e5cf055b0167b45fd40ee0a7b4547231dc01e01aaddf177ae78031fe0277bea"
+        },
+        "outer": {
+          "bytes": 972,
+          "sha256": "353346aeb37a315c571edd00465f0df8a0c7dffdaf068edb614ae54524ff1644"
+        }
+      }
+    ],
+    "preserved_failures_and_coverage": [
+      "First3P1F: missingbaseline fixture expected policyStop but originalSaveRound/readiness path ran; only oracle corrected, production unchanged",
+      "Draft03 4P remains oldtailSAVE evidence; annualturn1 returned at turnbound. Finaldraft04 changes only annualturn2+comment and finalactual/formal4P passes",
+      "Finalsummary inline shell length SyntaxError0write/0JVM retained as toolchunk1d1f65, not production/test failure"
+    ],
+    "limits": [
+      "PublicRootLoop BatchAccess/Controller/sharedclock/publicLifeDATA effects+checkedJournal tested, not RootManaged/privatecapture/liveCore issuer",
+      "Oldsixarg/defaultfalse and Control defaultfalse retained. ActualMain optin true only nonlastsequence. No originaldeadline refresh/replay/horizon/SAVEfrequency change",
+      "Formal4 independently typed because immediate complete common3dependency equivalence was not established; measured31byte equality does not erase actualcost",
+      "No Runtime adoption/natural earlyrenew/CPU/AB/10secondgoal credit; Source69 independent, Source70notprerequisite, Source65HELD0CFG/BEGIN/JVM"
+    ],
+    "cost": {
+      "new_business_JVMs": 9,
+      "new_counts": {
+        "compile": 5,
+        "junit": 4
+      },
+      "new_actor_seconds": "88.3151329999091095",
+      "new_operator_seconds": "101.820495599880815",
+      "all_business_JVMs": 164,
+      "all_counts": {
+        "compile": 115,
+        "junit": 47,
+        "data-main": 2
+      },
+      "all_actor_seconds": "1959.7807113998569603",
+      "all_operator_seconds": "2368.5216595000820149",
+      "actor_nested_in_operator_do_not_add": true,
+      "independent_JFR_tools_still": 9,
+      "older2performance_compiles_excluded": true,
+      "first_Native_BEGIN": "2026-11-11T17:32:29.172610+00:00",
+      "last_Native_END": "2026-11-12T19:03:17.357872+00:00"
+    },
+    "credit": "Model production record/callshape partial only; owner all frontier/Control/Main/tail plus owner20 actual Test. Separate bad model advisory Test remains unapplied.",
+    "not_new_formal_runtime_or_AB": "Actual/formal each4TU35 and sameTest12 finalwhole4 independently qualify the called lower public Controller/Loop/data routes; not Managed/privatecapture/Main canonical issuer, live branch/hit or speed."
   }
 }

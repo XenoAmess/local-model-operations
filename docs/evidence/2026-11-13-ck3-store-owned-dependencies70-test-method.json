@@ -1,0 +1,372 @@
+{
+  "schema": "local-model-operations.store70-owned-dependency-test-method/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "task": "New actual Store70 dependency-trace test draft plus sole correction. Not a third old prefix-closure analysis; different owner-written API and narrow real Windows fixture consumer.",
+  "source_prefix": {
+    "frozen_file_raw": {
+      "bytes": 395452,
+      "sha256": "d14165092f7c1f3d276ec36a92fa86b6dbe20dc46c40cd535d4b84f1554e2a27"
+    },
+    "actual_message_LF_utf8": {
+      "bytes": 391451,
+      "sha256": "025eb0e6846332e9f0e03167ff7a6f9c7b117f48362bf7c6497804a7d4caec3a"
+    },
+    "transform": "Existing caller read_text CRLF-to-LF; original file pins and actual messages separately audited"
+  },
+  "complete_sources": [
+    {
+      "frozen": "01-ImmutableArtifactStore.java",
+      "bytes": 50923,
+      "sha256": "44dedcb5555dd26a23493eac5eaaaf7f1e93b9f8974f3ef9a92c799ba7cc7602",
+      "extent": "complete actual owner-written new Store70 producer; test target only, not model old closure NO"
+    },
+    {
+      "frozen": "02-ImmutableArtifactStore.java",
+      "bytes": 45283,
+      "sha256": "12ba692f6035de0aa4ae2375e504a9f34ed4b9c6580d0c04e86f5965fd564795",
+      "extent": "complete original current45283 Store BASE, preserve old read/error/guard behavior"
+    },
+    {
+      "frozen": "03-LedgerFiles.java",
+      "bytes": 15173,
+      "sha256": "f231189a583013abfb8aac2ba0fbd3a05c338c3d7099206bf31177d583263748",
+      "extent": "complete actual fresh pathname/pin/metadata/identity/error I/O callee"
+    },
+    {
+      "frozen": "04-IdentityBearingFileAttributes.java",
+      "bytes": 27387,
+      "sha256": "c2581fb1b43ceacac0694608c5b9a869b3ac2855052c04025fb1021020fadef1",
+      "extent": "complete actual Windows held lease/afterContent/fresh reopen qualification; no assumed FileID immutability"
+    },
+    {
+      "frozen": "05-ContinuityWriter.java",
+      "bytes": 126589,
+      "sha256": "5b23ade6e962079744aed574c9f3ef5cae4de912b3d9b228b6ae0801895fb217",
+      "extent": "complete actual software writer/locked Session construction and ownership"
+    },
+    {
+      "frozen": "06-StorageWriteGuard.java",
+      "bytes": 7252,
+      "sha256": "beac715b9e08e4b712c69be2154142c3d8a95c141b0829d90dc0b744816b36ab",
+      "extent": "complete actual source-qualified storage write guard; no fake no-op permission"
+    },
+    {
+      "frozen": "07-WindowsLedgerLock.java",
+      "bytes": 5304,
+      "sha256": "b7c98f337ce2bdf091b3fab20e311e53e6260365d8242e1fba196835899ac4e1",
+      "extent": "complete actual native writer lock contract for software storage fixture"
+    },
+    {
+      "frozen": "08-ContinuityStorePort.java",
+      "bytes": 9414,
+      "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+      "extent": "complete original Session/borrowed/read/pin API"
+    },
+    {
+      "frozen": "09-WriterContracts.java",
+      "bytes": 18156,
+      "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+      "extent": "complete actual Layout/Pin/config/ref/durability contracts"
+    },
+    {
+      "frozen": "10-WriterFixture.java",
+      "bytes": 3628,
+      "sha256": "2ce06ea783245b4cfdc12fbc6106ca7be3ae1bed3f991d97cdf3ff36ff50e87c",
+      "extent": "complete actual package test fixture; same-package use allowed, existing test compilation dependency must be listed"
+    },
+    {
+      "frozen": "11-StorageWriteGuardTestSupport.java",
+      "bytes": 16712,
+      "sha256": "c36a7cf4a98adb018e634abe143eda3be23785efefc3f9ed8574c4cb30d40b3f",
+      "extent": "complete authoritative adapters-storage module support fixture; no duplicate same-FQName local-service support compilation"
+    },
+    {
+      "frozen": "12-ImmutableArtifactStoreTest.java",
+      "bytes": 20853,
+      "sha256": "a32bf32a1563361c15d19207f6287275d9ea8ebd608c7ac1466867838604f211",
+      "extent": "complete existing real file replacement/commit/permission/budget/error storage tests and fixture patterns"
+    },
+    {
+      "frozen": "13-ImmutableArtifactStoreReadOnly251Test.java",
+      "bytes": 6402,
+      "sha256": "d66d69e09d9b5b63ff5f64e7d20f678e3b77c672158e5b708a6d929867ab3095",
+      "extent": "complete existing read-only guard/real held writer setup and no-extra-write assertions"
+    },
+    {
+      "frozen": "14-CompleteDriverDecodeScope333Test.java",
+      "bytes": 20284,
+      "sha256": "abf22f7f60d58c3dc2a0a2f596d50da503784d63a28b811ed992b50285aae204",
+      "extent": "complete reference actual heldscope Writer setup and poison/owner lifetime tests; do not call private Fixture or copy Archive paths into target"
+    },
+    {
+      "frozen": "15-SOURCE-READY-STORE70.json",
+      "bytes": 3740,
+      "sha256": "74d46c58ef078fe98c4af0402a0f4a677162a592df2233aa10e9db8b157d3e62",
+      "extent": "complete Store-only ready/source proof contract, no software/runtime success presumed"
+    },
+    {
+      "frozen": "16-ContinuityState.java",
+      "bytes": 7614,
+      "sha256": "a506aec4e6ea48d199bce0c7037e1d32b1864b14f2af82c7807e243ff3f8d6a7",
+      "extent": "complete actual immutable software continuity State used by true WriterFixture"
+    }
+  ],
+  "first": {
+    "request": {
+      "BEGIN_utc": "2026-11-12T19:35:27.466889+00:00",
+      "END_utc": "2026-11-12T19:35:46.787966+00:00",
+      "parameters": {
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "max_tokens": 8000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_metadata": [
+        {
+          "role": "system",
+          "bytes": 301,
+          "sha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5"
+        },
+        {
+          "role": "user",
+          "bytes": 391451,
+          "sha256": "025eb0e6846332e9f0e03167ff7a6f9c7b117f48362bf7c6497804a7d4caec3a"
+        },
+        {
+          "role": "user",
+          "bytes": 767,
+          "sha256": "864162c0c1db47192c3313f1533a327039755a5f14001c89512c8ea77b2fe38f"
+        }
+      ],
+      "status": 200,
+      "headers_ms": 10585.07820009254,
+      "content_TTFT_ms": 10586.557900067419,
+      "total_ms": 19320.904900087044,
+      "usage": {
+        "prompt_tokens": 82926,
+        "completion_tokens": 1378,
+        "total_tokens": 84304
+      },
+      "cache_tokens": null,
+      "currency_cost": null,
+      "finish": "stop",
+      "DONE": true,
+      "JSON": "VALID",
+      "routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "response": {
+        "bytes": 5830,
+        "sha256": "c7999ae82ade84ca4ad22c27e84c65111dcc02f6e76216fd921b3a95c1ff2bb2"
+      },
+      "retries": 0,
+      "length": 0
+    },
+    "review_pin": {
+      "bytes": 1988,
+      "sha256": "bf082b04d39e9e09f800f889a8ba88d53149e29291b23579fd57ea446e73f521"
+    },
+    "review": {
+      "schema": "local-model-operations.store70-test-source-review/v1",
+      "at_utc": "2026-11-12T19:43:42.589191+00:00",
+      "response": {
+        "bytes": 5830,
+        "sha256": "c7999ae82ade84ca4ad22c27e84c65111dcc02f6e76216fd921b3a95c1ff2bb2"
+      },
+      "candidate_text": {
+        "bytes": 3757,
+        "sha256": "4feb4a4b971b3ae1a61543837b06dc9041130e2d3de7b163a085c9bb37e3672c"
+      },
+      "compiled": false,
+      "executed": false,
+      "adopted": false,
+      "production_or_Planning_test_leaf_changed": false,
+      "complete_HTTP_not_Test_qualification": true,
+      "grade": "COMPLETE_STOP_ACKNOWLEDGED_INCOMPLETE_TEST_SKELETON_REJECTED",
+      "method_names": 5,
+      "empty_or_comment_only_tests": 4,
+      "nonempty_first_method_has_no_real_trace_test": true,
+      "static_defects": [
+        "A var initializer conditional with both alternatives null cannot infer a Java local variable type.",
+        "The intended true WriterFixture/Session integration is explicitly left as TODO despite complete existing fixture and251 example in input."
+      ],
+      "classification": "Not length, transport, output-budget shortage or observed compiler RED. No five-case pass/coverage claim.",
+      "correct_apis_not_errors": [
+        "ImmutableArtifactStore.originalWriterLock() exists and first use is not an invented API.",
+        "StorageWriteGuardTestSupport.create(Path,Path,long) exists.",
+        "StorageWriteGuard/its test support are AutoCloseable and close is real."
+      ],
+      "operator_feedback_error": {
+        "false_claim": "Second task incorrectly said Store.originalWriterLock() did not exist.",
+        "actual": "New Store line398 has public Path originalWriterLock(); exact frozen complete source confirms it. First model call itself was correct.",
+        "immediate_correction_sent_while02_inflight": true,
+        "old_request_not_edited_or_replayed": true,
+        "not_model_failure": true,
+        "other_getter_fairness": "Writer.artifactStore() also exists; its empty fixture configuration, not API absence, is the defect."
+      }
+    }
+  },
+  "sole_correction": {
+    "same_current_prefix": {
+      "bytes": 395452,
+      "sha256": "d14165092f7c1f3d276ec36a92fa86b6dbe20dc46c40cd535d4b84f1554e2a27"
+    },
+    "all16_current_file_pins_unchanged": true,
+    "complete_first_response": {
+      "bytes": 5830,
+      "sha256": "c7999ae82ade84ca4ad22c27e84c65111dcc02f6e76216fd921b3a95c1ff2bb2"
+    },
+    "request": {
+      "BEGIN_utc": "2026-11-12T19:39:13.871178+00:00",
+      "END_utc": "2026-11-12T19:39:25.506195+00:00",
+      "parameters": {
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "max_tokens": 8000,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_metadata": [
+        {
+          "role": "system",
+          "bytes": 301,
+          "sha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5"
+        },
+        {
+          "role": "user",
+          "bytes": 391451,
+          "sha256": "025eb0e6846332e9f0e03167ff7a6f9c7b117f48362bf7c6497804a7d4caec3a"
+        },
+        {
+          "role": "user",
+          "bytes": 11325,
+          "sha256": "4e3a3252232a4a60a50dae3fffd35aa87453fa1d52f0ac2d7beff22482380cb6"
+        }
+      ],
+      "status": 200,
+      "headers_ms": 1534.8133000079542,
+      "content_TTFT_ms": 1535.8357999939471,
+      "total_ms": 11634.516600053757,
+      "usage": {
+        "prompt_tokens": 85271,
+        "completion_tokens": 1738,
+        "total_tokens": 87009
+      },
+      "cache_tokens": null,
+      "currency_cost": null,
+      "finish": "stop",
+      "DONE": true,
+      "JSON": "VALID",
+      "routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "response": {
+        "bytes": 7763,
+        "sha256": "eefd4699acb1a80f470953b1ecbc9d251b6e860bb2cf9bc04245d94fa8c6490f"
+      },
+      "retries": 0,
+      "length": 0
+    },
+    "review_pin": {
+      "bytes": 2694,
+      "sha256": "3e03242c3f7a09f5681f21228f27a6cb6e3aa5bdf2324ffa4d1bda8cbb31e913"
+    },
+    "review": {
+      "schema": "local-model-operations.store70-test-source-review/v1",
+      "at_utc": "2026-11-12T19:43:42.612972+00:00",
+      "response": {
+        "bytes": 7763,
+        "sha256": "eefd4699acb1a80f470953b1ecbc9d251b6e860bb2cf9bc04245d94fa8c6490f"
+      },
+      "candidate_text": {
+        "bytes": 5865,
+        "sha256": "00ec9160c11528b4942e814ca36c05d878f19dd4c2a0d698d62a4cec8900821a"
+      },
+      "compiled": false,
+      "executed": false,
+      "adopted": false,
+      "production_or_Planning_test_leaf_changed": false,
+      "complete_HTTP_not_Test_qualification": true,
+      "grade": "COMPLETE_TWO_METHOD_TEST_DRAFT_NOT_COMPILABLE_AS_WRITTEN_OWNER_INTEGRATION",
+      "method_names": 2,
+      "substantive_improvement": [
+        "Two actual nested trace/fallback assertion bodies replace empty stubs.",
+        "Uses genuine WriterFixture construction and storage finally, lists ACL/poison/identity/thread gaps explicitly."
+      ],
+      "static_and_fixture_defects": [
+        "Missing java.nio.file.Path and Files imports.",
+        "verifyRetainedDependencies is a HistoricalReads method; code calls the Store receiver.",
+        "ContinuityWriter.artifactStore() is real, but the supplied WriterFixture selects Extensions.none(), so its Optional is empty. Draft must construct/register an actual Store with the fixture guard/lock as the supplied251 pattern shows.",
+        "An external WindowsLedgerLock is held then writer.locked tries acquiring it again without an active Writer Session. That is not legal nested ACTIVE_SESSION reuse."
+      ],
+      "scope_limit": "File count plus retained byte count bounds added files/accounting; alone it does not prove arbitrary original file contents/ACL/metadata unchanged. Immutable set/returned-byte mutation/firstFailure/fresh-identity cases remain unimplemented.",
+      "owner_possible_partial": "Source owner says nested/fallback assertion bodies may be useful, but has not reported actual fragment adoption. No selection/typing/test pass is pregranted.",
+      "owner_changes_needed": "Genuine ownStore/writerSession assembly, remove external lock, imports/receiver and a clear legal entry budget, then independent freshmtime/firstFailure cases.",
+      "operator_feedback_error": {
+        "false_claim": "Second task incorrectly said Store.originalWriterLock() did not exist.",
+        "actual": "New Store line398 has public Path originalWriterLock(); exact frozen complete source confirms it. First model call itself was correct.",
+        "immediate_correction_sent_while02_inflight": true,
+        "old_request_not_edited_or_replayed": true,
+        "not_model_failure": true,
+        "other_getter_fairness": "Writer.artifactStore() also exists; its empty fixture configuration, not API absence, is the defect."
+      }
+    }
+  },
+  "combined": {
+    "requests": 2,
+    "input_tokens": 168197,
+    "output_tokens": 3116,
+    "sum_HTTP_ms": "30955.421500140801",
+    "first_BEGIN_to_last_END_seconds": "238.039306",
+    "envelope_includes_review_and_feedback": true,
+    "peak": 1,
+    "current": 0,
+    "retries": 0,
+    "length": 0,
+    "cached_both": null,
+    "currency_cost": null,
+    "third_HTTP": 0
+  },
+  "current_adoption": "NONE_AT_REVIEW_CUT; owner may later select real nested/fallback assertion fragments with separate corrections/evidence. No tests/green are presumed.",
+  "owner_feedback_error": {
+    "false_claim": "Second task incorrectly said Store.originalWriterLock() did not exist.",
+    "actual": "New Store line398 has public Path originalWriterLock(); exact frozen complete source confirms it. First model call itself was correct.",
+    "immediate_correction_sent_while02_inflight": true,
+    "old_request_not_edited_or_replayed": true,
+    "not_model_failure": true,
+    "other_getter_fairness": "Writer.artifactStore() also exists; its empty fixture configuration, not API absence, is the defect."
+  },
+  "operator_JVM_production_Planning_leaf_Game_GET_JFR_service_changes": 0,
+  "limits": [
+    "First incomplete skeleton is complete HTTP with admitted unfinished code, not length/budget or transport failure.",
+    "Second two substantive methods improve scope but are not compilable/configured as written; no actual javac/JUnit RED was run by this operator.",
+    "Real getters/StorageGuard create/close/read(Pin,int) must not be falsely labeled missing APIs. Correct trace intentions remain separate from selection.",
+    "Actual files/permission/identity/force and finite scope checks are preserved obligations; no DPP/Root/prefix hit or CPU/ROI credit from an advisory test draft."
+  ]
+}

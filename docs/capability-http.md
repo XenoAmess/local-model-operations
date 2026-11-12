@@ -6016,3 +6016,10 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 独立135324存档下普通136两自然推进到326，北京后台唯一0:326:31请求、队列回执和2568区域10匹配，原生普通泛滥平原feature0仍在、农场由原版BUILD移除，净粮15／20人口无新损失；无需排除另一个森林。这里只授新增分支实际开工，完工／住房增益／重载后见另记；保护136主332，分支进度不叠加主线。[Native开工固定反链](evidence/2026-11-13-civ6-native136-flood-start326.json)。
 
 累计700逻辑／649完整stop流（前692含严格JSON拒绝）／48length／3最终transport／730HTTP／30extra；700新峰1。Nov13canonical1.19.5成功缓存复用，OpenCode原生0，未知缓存／Owner总成本／净节省null。明确源码任务、私有构建、游戏阶段与模型采用分开，继续真实未闭验收。
+
+
+## 2026-11-13: New Store70 dependency-test task, not another closure retry
+
+Two stops168197in/3116out/30.9554sHTTP/peak1/current0. First unfinished skeleton (notlength), second2real methods still need imports/readsreceiver/ownStore/lock assembly. Owner takes over/no thirdHTTP, actual fragments not precredited. Store.originalWriterLock getter exists: wrong owner feedback corrected and not charged to model. [Exact tasks/costs](evidence/2026-11-13-ck3-store-owned-dependencies70-test-method.md).
+
+71 productionpartial now actual/formal4TU35+owner20sameTest12 finalwhole4 each; first fixture1F and annualturn1 coverage limit preserved, finalturn2 qualifies helper.164businessJVM/nine tools separate, not live/fullMain/CPU.70 new4TU owner source contains0oldNO code. [71 software posterior](evidence/2026-11-13-ck3-post-life-early-batch-renewal-method.json); [70 owner-source posterior](evidence/2026-11-13-ck3-verified-cooldown-prefix-fold-method.json).
