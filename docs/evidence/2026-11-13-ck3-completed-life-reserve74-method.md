@@ -1,0 +1,11 @@
+# Completed-Life reserve74: two complete candidates and explicit transfer/error boundaries
+
+This independent singleController task conservatively learns existing reserve_floor_nanos from a clean marked Source71 post-settle last-Life report. saved_life_tail_nanos must remain physical-SAVE telemetry; no old deadline, horizon, floor/readiness, annualSAVE/STOP/turn/pending or Guard relaxation was requested. Owner phase scalars motivate the task but are not an operator-held exact interval/CPU measurement.
+
+First POST21:59:35.088004Z→END21:59:53.116520Z:95289in1004out,TTFT12.2312548s/total18.0285027s. Sole correction22:03:54.329199Z→22:04:01.083828Z:102919in841out,TTFT2.1472113s/total6.7544312s. Both200/stop/DONE/validJSON, combined198208in1845out/24.7829339sHTTP, peak1/current0/no retry or length. Complete16-source prefix was reused exactly; full Main consumer was added only02 and not retrospectively credited as01 input.
+
+First candidate had real private-record-field access (ended() exists), chose earliest instead of last returned ACTION, and raised only privateController floor while leaving the public shared retainer unchanged. Correction fixes those three points: ended(), maximum returned ACTION start, and existing staticretainer floor output consumed by Controller/Main. It still omits requested mixed-reconciliation/failed-phase/complete subject filters and finite new-sample protection; a conditional overday measurement would cause the old hint decoder to return empty instead of keeping a prior valid hint. No such live failure was executed.
+
+Two exact anchors per response match. Candidates remain unapplied at this cut,0javac, not actual compile RED, technicalNO or permanent model limit. Genuine corrected code points and unchanged physical-SAVE/default behavior are preserved in the review. Owner receives the complete candidates and may later select fragments with separate attribution. No third HTTP, test generation, operator JVM, Game query or performance qualification follows.
+
+One preparation error guessed a separate SessionIdentity.java; the real nested record was already in complete SessionPorts. It was corrected before anyPOST and is an operator error. [Exact costs/current sources/static reviews](2026-11-13-ck3-completed-life-reserve74-method.json). Raw code stays private.
