@@ -5549,3 +5549,8 @@ Three complete stop requests, peak3 sustained96.564502s; 623354 input / 6452 out
 ## 2026-11-12：651实际建造者建议与卫星已解锁
 
 651完整9952tokens／7365.1469ms，Lua51实际因continue编译失败；原函数声称pcall但没有、漏pid0/localplayer、2048仅最内break，整拒0rawNative。Owner7合同后实际66次AI查询36行6目标0未知，真实Hash都是滑雪场，没有太阳能建议；先核真实候选与地形，不能假设排序就是根因。125卫星275确实拥有，当前位置24新能源资格全false，建设仍待证；273初−1后同回合UI/Core+4保留双阶段，原因未知。累计651/607完整41length3transport681HTTP30extra，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-native125-275-model651.json)。
+
+
+## 2026-11-12：652适用性端口与真假值多返回
+
+652完整3552tokens／8050.9301ms，continue实际Lua51编译失败，Safe返回result,OK却按success,boolean消费，true/false双隔离见证整拒0rawNative。Owner8合同后，真实team0／SolarIndex38，217己方可见格逐一Core重核后全false0未知；同端口6滑雪场阳性。补充未资格Core方法报错、未知部分调用数另留，不计绿。原版相邻建设独立operation实际消费者找到，继续具体实现；当前适用不授清地后结果或命令许可。累计652/608完整41length3transport682HTTP30extra，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-model652-suitability.json)。
