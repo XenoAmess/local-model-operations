@@ -5982,3 +5982,10 @@ The prior two complete proposals remain invalid as written, but final adoption i
 135完成329同版正式冷载，三城住房／地块保持，191建筑69区域222地块52单位相等、11人口／队列目标投入保持；世界收入、Builder成本、4粮食／8vitals行有差异，因果未隔离，不称全字段保持或归136。同版也出现差异只能限制归因，不能授具体引擎原因。0END／新HTTP，旧六人口损失与八停止保留。[重载固定反链](evidence/2026-11-13-civ6-135reload-housing-audit.json)。
 
 Nov13由695入口实际canonical检查OpenCode1.19.5／registry1.19.5无升级，696697同机同用户缓存复用；普通HTTP累计697逻辑／646完整stop流（前692含严格JSON拒绝）／48length／3最终transport／727HTTP／30extra。OpenCode原生生成0，未知缓存／Owner总成本／净节省null。继续真实136冷装实效及未闭验收，不制造补位请求。
+
+
+## 2026-11-13: Post-Life early batch-renewal implementation attempts
+
+Two complete stops233735in/3487out, sumHTTP39.316356s/peak1/current0. First false consumerNO is corrected from real whole-batchTurn/cleanWall/continue source; second three-hunk implementation still has inner-Run scope and scheduling/SAVE/finite-frontier gaps. Old6argCtor and outerSAVE cleanup remain; do not invent their deletion. No actualjavac/selection/thirdHTTP at this review cut. [Exact task and limits](evidence/2026-11-13-ck3-post-life-early-batch-renewal-method.md).
+
+Source69 common Snapshot leaf/base/dependencies permit reuse of the existing1TU9/wholelegacy6 with zero extraformalJVM/tests; this is not an independent formal run or fullRoot/Runtime grant. [Common reuse posterior](evidence/2026-11-13-ck3-snapshot-private-first-encoding-method.json).

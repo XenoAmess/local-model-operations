@@ -1,0 +1,386 @@
+{
+  "schema": "local-model-operations.post-life-early-batch-renewal-method/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "task": "One real post-settled-Life opt-in early fresh-batch scheduling implementation task, followed by its sole precise correction; old generic defaults and actual Root consumer must both close.",
+  "motivation_extent": "Owner reports batch49/50 remaining approximately5m24 after completed Life, below retained17m13.749 reserve; a later planning workpass still consumes4-5min before existing pre-intent deferral. These are reported observations, not a new trace, CPU measurement, AB gain or promised saving.",
+  "input_prefix": {
+    "frozen_file_raw": {
+      "bytes": 561761,
+      "sha256": "0fcc47a04b607e5eb4044e02cbdbc7fdfd4c20113d88e5303c6127c6366eedde"
+    },
+    "actual_source_message_utf8": {
+      "bytes": 559814,
+      "sha256": "9c37dee352ce9c7fec56af355fb554c6bc43a6ed8f8f63dfc5691b3309cbc13f"
+    },
+    "caller_transform": "Existing caller Path.read_text normalizes CRLF to LF; both complete source messages are identical to that exact normal transform, not raw-file byte-identical. Frozen original source pins remain exact."
+  },
+  "complete_sources": [
+    {
+      "frozen": "01-SessionController.java",
+      "bytes": 136657,
+      "sha256": "1af1b321fdfffcc4ce8489e801ead80a1ac7cbcf112a21b0f6dcad75a34047e1",
+      "extent": "complete actual Source66-final Controller, primary production target"
+    },
+    {
+      "frozen": "02-RootOrdinaryWorkerLoop.java",
+      "bytes": 55110,
+      "sha256": "816de7b9362d342b2e58e86034b44d76ba3d3f05b86d3c2b360ff73a91bdb550",
+      "extent": "complete actual Root consumer/adapter/new batch loop and clean-wall/no-progress/STOP/recovery branches"
+    },
+    {
+      "frozen": "03-RootApplicationSession.java",
+      "bytes": 91337,
+      "sha256": "aca15eb0d07cf65669f6aa9629a4e8b5b6b5afcfc434efdcfbcc82574c96b384",
+      "extent": "complete actual Root batch issuer/locks/prepareTransport/owner.afterTurn and current session handling"
+    },
+    {
+      "frozen": "04-RootOrdinaryWorkerMain.java",
+      "bytes": 29394,
+      "sha256": "5a76f4bf1e8d3f1bc25c9a8d076077b3fc411b201f0bbfd7e27c3a1e9ebfff69",
+      "extent": "complete actual durable Root caller/config/stop/onBatchCompleted scheduling hints and ticket handling"
+    },
+    {
+      "frozen": "05-RootSessionAccess.java",
+      "bytes": 2703,
+      "sha256": "e5b4e64cc2b9a0240dab6f326125bccafe02429d7bd8f300ae4d2df18069f09a",
+      "extent": "complete actual current-session access interface"
+    },
+    {
+      "frozen": "06-SessionPorts.java",
+      "bytes": 23739,
+      "sha256": "4f71dbe0e2da0f56918232a16c6051c3a39d8d6c30f03ce1a3fe24323a216c77",
+      "extent": "complete real Ready/checkpoint/lifecycle/action/semantic/journal/planner port declarations"
+    },
+    {
+      "frozen": "07-SessionClock.java",
+      "bytes": 1118,
+      "sha256": "1e6759cd4112e6aafd488a142690ed7b0ccb044143cbddfdb657f2b730487c9c",
+      "extent": "complete real dual clock and timing API"
+    },
+    {
+      "frozen": "08-BatchLimits.java",
+      "bytes": 1545,
+      "sha256": "c875d4cbc717dc71d578a615040f6e159ace68a05e916a4507e247be4d2d3d69",
+      "extent": "complete immutable existing finite request/budget/cadence contract, old public behavior preserved"
+    },
+    {
+      "frozen": "09-BatchReport.java",
+      "bytes": 10541,
+      "sha256": "8903576da4f5f7d93ab512b22e4613686959e1f6de7989c84f3a08b0f8c6c309",
+      "extent": "complete real terminal/detail/turn/boundary/report types"
+    },
+    {
+      "frozen": "10-OrdinaryPlanCompletion.java",
+      "bytes": 5484,
+      "sha256": "7db25d542008083bda653ff2944a4b613d187ff30fcd3ee217fce5e523c9406c",
+      "extent": "complete real scope/outcome/publication interfaces and callbacks"
+    },
+    {
+      "frozen": "11-PlanningRequest.java",
+      "bytes": 3328,
+      "sha256": "a3a08bf35a207ea8fe8314695bc80cd5a84057ad6978c6d0c5e8a7f812db233b",
+      "extent": "complete actual request/fresh observations/owner deadline inputs"
+    },
+    {
+      "frozen": "12-RootReadPublicationCompletion.java",
+      "bytes": 25166,
+      "sha256": "7435e250228a9c4cea7810d1494f754aaf5a3f14b4ce326bd8317db85eed2868",
+      "extent": "complete current Source61 real writer planning scope/workpass/newproposal barriers"
+    },
+    {
+      "frozen": "13-NativeReadinessCollector.java",
+      "bytes": 120415,
+      "sha256": "6727b0ae9920964cde6d94523a9afb2de3f83bfb4c4e7d94a1d8c3903aa4934c",
+      "extent": "complete real scoped observation/current proposal capture and rejoin consumer; actual native-transport module"
+    },
+    {
+      "frozen": "14-RootAnnualDirtyLifeBudgetTest.java",
+      "bytes": 24226,
+      "sha256": "7245be010e28e44c7052f0eaed0a2e8d781762a2bde804397b72e85890d9013a",
+      "extent": "complete existing real Controller/Root-loop seam annual-dirty/selected-Life/false-deferral regression; reference not changed/executed"
+    },
+    {
+      "frozen": "15-RootLifeBudgetDeferral318Test.java",
+      "bytes": 8489,
+      "sha256": "45f10f79f32e2ad3468b260cb47f29e0a7d34989920d4db9788f75fef1aeb47b",
+      "extent": "complete existing selected-Life deferral/finite loop contracts; reference only"
+    },
+    {
+      "frozen": "16-WorkerLifeBudgetHistory334Test.java",
+      "bytes": 10615,
+      "sha256": "819f839a104766b6b2462056317274921354733f075d42631634a6180d6ac2f2",
+      "extent": "complete existing saved estimate/subject/restore/consumer tests; reference only"
+    }
+  ],
+  "first": {
+    "request": {
+      "POST_BEGIN_utc": "2026-11-12T17:59:52.547911+00:00",
+      "END_utc": "2026-11-12T18:00:17.050395+00:00",
+      "parameters": {
+        "model": "qwen38-coder",
+        "max_tokens": 6000,
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_metadata_only": [
+        {
+          "role": "system",
+          "bytes": 301,
+          "sha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5"
+        },
+        {
+          "role": "user",
+          "bytes": 559814,
+          "sha256": "9c37dee352ce9c7fec56af355fb554c6bc43a6ed8f8f63dfc5691b3309cbc13f"
+        },
+        {
+          "role": "user",
+          "bytes": 799,
+          "sha256": "15882de9e6c2d4c03ba824922d15154b82bdc3aada795b372cd1f625c6659cd9"
+        }
+      ],
+      "headers_ms": 14624.203799990937,
+      "content_TTFT_ms": 14625.572299933992,
+      "total_ms": 24501.60560000222,
+      "usage": {
+        "prompt_tokens": 114416,
+        "completion_tokens": 1359,
+        "total_tokens": 115775
+      },
+      "cache_tokens": null,
+      "currency_cost": null,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "JSON_status": "VALID",
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "response": {
+        "bytes": 5810,
+        "sha256": "1eb12293b5622504f3e498ad8fb71c846f0a6ef2e060b9ef0adb3850a16dd513"
+      },
+      "retries": 0,
+      "length": 0
+    },
+    "response_decision": "NO",
+    "review_pin": {
+      "bytes": 13034,
+      "sha256": "cbeb416ab7c2d1e2a8041730287c102b6032f6ecabf49d3c0e6243a693ad7398"
+    },
+    "grade": "COMPLETE_SOURCE_ANALYSIS_REJECTED_FALSE_CONSUMER_NO_NOT_TECHNICAL_NO",
+    "code_edits": 0,
+    "rejected_claims": [
+      {
+        "claim": "A post-settled-Life early WALL report requires isUnissuedLifeBudgetDeferral to reach a fresh batch.",
+        "counterexample": "Clean nonquarantined WALL has an independent consumer. noProgressAfterWall immediately returns false for any report.turns nonempty, so the completed Life already defeats that stop condition. Its below-wall short return independently defeats the full-wall condition. The normal clean-wall tail stores previousReport and continues."
+      },
+      {
+        "claim": "No new action after the Life implies no progress in the current batch.",
+        "counterexample": "Run appends the current Life Turn before completeCycle. It is a whole-batch report, not a delta since the last turn."
+      },
+      {
+        "claim": "Any distinct opt-in scheduling route violates unchanged public defaults/no new authority.",
+        "counterexample": "The task expressly permits a small opt-in scheduling entry/actual Root adapter route while original public runBatch remains default. A scheduling choice is not an action qualification; exact implementation/consumer/failure boundaries still need review."
+      },
+      {
+        "claim": "Annual SAVE counterexample depends on captureCleanPlanningWall requiring clean dirty=false.",
+        "counterexample": "That capture is in the no-progress branch which a settled-Life turn cannot enter. The actual annual/missing-baseline SAVE predicate in planRound and outer run cleanup is the relevant required boundary, not this unrelated capture precondition."
+      }
+    ],
+    "correct_limit_kept": "Do not manufacture PRE_INTENT_LIFE_BUDGET_DEFERRED selected command/trace or broaden the old unissued predicate. A real narrow new scheduling route still needs explicit source implementation, SAVE/pending/terminal/STOP/error ordering and actual nextbatch proof."
+  },
+  "sole_correction": {
+    "same_current_prefix": {
+      "bytes": 561761,
+      "sha256": "0fcc47a04b607e5eb4044e02cbdbc7fdfd4c20113d88e5303c6127c6366eedde"
+    },
+    "complete_first_response_supplied": {
+      "bytes": 5810,
+      "sha256": "1eb12293b5622504f3e498ad8fb71c846f0a6ef2e060b9ef0adb3850a16dd513"
+    },
+    "feedback_task": {
+      "bytes": 23251,
+      "sha256": "a1463333e76e53f51232c838473bf8055a5c51be629a90a55ca3b6339917049a"
+    },
+    "request": {
+      "POST_BEGIN_utc": "2026-11-12T18:03:57.825503+00:00",
+      "END_utc": "2026-11-12T18:04:12.640212+00:00",
+      "parameters": {
+        "model": "qwen38-coder",
+        "max_tokens": 6000,
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_metadata_only": [
+        {
+          "role": "system",
+          "bytes": 301,
+          "sha256": "a19b6419a33e3197bb6e55014ac519bb816aebde41c8d8daccadc789820267d5"
+        },
+        {
+          "role": "user",
+          "bytes": 559814,
+          "sha256": "9c37dee352ce9c7fec56af355fb554c6bc43a6ed8f8f63dfc5691b3309cbc13f"
+        },
+        {
+          "role": "user",
+          "bytes": 23251,
+          "sha256": "a1463333e76e53f51232c838473bf8055a5c51be629a90a55ca3b6339917049a"
+        }
+      ],
+      "headers_ms": 1860.071900067851,
+      "content_TTFT_ms": 1861.1712000565603,
+      "total_ms": 14814.750400022604,
+      "usage": {
+        "prompt_tokens": 119319,
+        "completion_tokens": 2128,
+        "total_tokens": 121447
+      },
+      "cache_tokens": null,
+      "currency_cost": null,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "JSON_status": "VALID",
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "response": {
+        "bytes": 9060,
+        "sha256": "7be1089537e2ade274099cbe8e8006a3cd56ffdfc4f9457e74bcd13d4affe4ff"
+      },
+      "retries": 0,
+      "length": 0
+    },
+    "response_decision": "IMPLEMENT",
+    "review_pin": {
+      "bytes": 4838,
+      "sha256": "0d7f66b58461d21b5aeedcf61b779f53ee98ec921c2d4b10c1b86cd0f467a484"
+    },
+    "grade": "COMPLETE_MINIMAL_PATCH_REJECTED_AS_WRITTEN_OWNER_INTEGRATION_REQUIRED_NO_THIRD_HTTP",
+    "candidate_files": [
+      {
+        "name": "SessionController.java",
+        "bytes": 137808,
+        "sha256": "c04e3fa0a22bd0a4357f6bf6e887efce399750d8c7e62a29f48cf23f422bb820",
+        "old_anchor_count": 1,
+        "whole_inverse_exact_base": true
+      },
+      {
+        "name": "BatchLimits.java",
+        "bytes": 1872,
+        "sha256": "bb9f78d97ad517b48d8ed330fa05c8ad0975926d4921a440af046b0e15d2cd0f",
+        "old_anchor_count": 1,
+        "whole_inverse_exact_base": true
+      },
+      {
+        "name": "RootOrdinaryWorkerLoop.java",
+        "bytes": 55170,
+        "sha256": "a3f6c5988f776e48605532e8025ee97e9fb3b9e8cc4116a3fd805da6613fd2ec",
+        "old_anchor_count": 1,
+        "whole_inverse_exact_base": true
+      }
+    ],
+    "accepted_reasoning_not_adoption": [
+      "The corrected independent clean-wall consumer and full-batch Turn/non-progress facts now agree with actual source.",
+      "Do not synthesize old isUnissuedLifeBudgetDeferral trace/detail; new post-settle detail is separately named.",
+      "Early check is outside completeCycle protected journal catch and after existing requireCompletion/requireTime.",
+      "The old six-argument BatchLimits constructor is explicitly retained and defaults false; it is not a missing-constructor ABI defect."
+    ],
+    "static_defects": [
+      {
+        "kind": "MEMBER_SCOPE_COMPILABILITY",
+        "location": "New block in outer SessionController.run, after run.completeCycle(receipt)",
+        "actual": "untilNanos and deadline() belong to private inner Run (original lines1136 and1222); the new block uses them unqualified from the outer class. No production compiler was run on this candidate."
+      },
+      {
+        "kind": "FRONTIER_AND_SUBJECT_CONTRACT_NOT_CLOSED",
+        "actual": "The check uses receipt.command().before(), not the actual fresh after-SEM Ready used for the real settle. No explicit real CompositeSettled/Applied HANDLER qualification or the pending/read/checkpoint/UI/terminal/adoption/journal flags specified in the original task are checked; claiming successful completeCycle alone covers all such paths is not a demonstrated proof."
+      },
+      {
+        "kind": "FINITE_TURN_BOUND_ORDER",
+        "actual": "The new body block can change terminal to WALL_TIMEOUT when run.completedCount()==maximumTurns, before the while condition is evaluated again. The response claim that the condition naturally preserves the reached turn bound is false. Original default six-argument callers remain flagfalse, but opt-in finite Root behavior still needs the explicit bound/order check."
+      },
+      {
+        "kind": "MANDATORY_SAVE_AND_EXTRA_READ_PROOF",
+        "actual": "No due/missing-baseline/unsafe SAVE eligibility gate is given. Fair boundary: existing outer dirty/SAVE cleanup remains textually present and break executes it; this is not deletion of SAVE. It may add a fresh read and changes the terminal/detail before required cleanup, so the claimed no-mandatory-SAVE early frontier is not established."
+      },
+      {
+        "kind": "STOP_ORDER_PROOF",
+        "actual": "The claim stopRequested already breaks before the new check is not true for an ordinary noncheckpoint action body; the original next-iteration stop test is later. A Root consumer will still test STOP before another batch, but report/order/callback semantics were not proved for an exact coincident stop."
+      }
+    ],
+    "structural_note": "A seventh public BatchLimits record component plus a retained six-argument constructor is a structural API change, not the old six-argument constructor being deleted. Default equality/wire/introspection/client behavior and all true-flag Root finite seams need owner assessment; no hypothetical failure is claimed as observed.",
+    "future_regressions": [
+      "Post-settle insufficient-budget true-root route returns clean report then new batch/request without a second costly plan",
+      "Original six-argument finite/default caller, reached turn bound and STOP/onBatchCompleted error",
+      "Real annual/missing-baseline SAVE safe and unsafe cases with preserved dirty/savedpair",
+      "Pending read/UI/terminal/UNKNOWN/adoption and journal/suppressed failure",
+      "Non-Life small action chosen by original policy in actual fresh nextbatch"
+    ]
+  },
+  "combined_cost": {
+    "requests": 2,
+    "input_tokens": 233735,
+    "output_tokens": 3487,
+    "sum_HTTP_ms": "39316.356000024824",
+    "first_BEGIN_to_last_END_seconds": "260.092301",
+    "envelope_includes_prep_review_and_owner_feedback": true,
+    "sequential_peak": 1,
+    "current_after_END": 0,
+    "retries": 0,
+    "length": 0,
+    "cache_tokens_both": null,
+    "currency_cost": null,
+    "third_HTTP": 0
+  },
+  "current_adoption": "NONE_AT_SOURCE_REVIEW_CUT; owner has complete response and isolated files and may later select fragments with separate evidence.",
+  "operator_actions": {
+    "source_write": "Private candidate files only; no business source changes",
+    "new_HTTP_for_docs": 0,
+    "new_maintenance_for_docs": 0,
+    "JVM": 0,
+    "Game_live_GET": 0,
+    "JFR": 0,
+    "service_change": 0,
+    "same_day_success_cache_reused": true,
+    "shared_clean_main_at_dispatch": "d6022d763c27e1348498095b01ab2187b66aa9a2"
+  },
+  "preparation_note": "Collector module was initially guessed as application; exact filename lookup found native-transport before any POST, and its full actual file entered both unchanged prefixes. No API absence or incomplete model source was inferred.",
+  "limits": [
+    "First complete false NO is a source reasoning failure, not a technical NO or a permanent capability ceiling.",
+    "Second source anchors are unique and invert to the exact source base; static wrong member scope is not an observed javac RED.",
+    "A seventh BatchLimits component retains an explicit six-argument constructor; do not falsely claim its deletion. Default/finite/client/structural implications still need review.",
+    "Original dirty/SAVE cleanup remains and break executes it; no claim the patch deleted SAVE. Missing eligibility and timing proofs remain material.",
+    "No whole source, raw response/request, Game data, headers or private machine paths are published.",
+    "Root/source owner takes over after the sole correction; no third request, healthy Runtime change, software/CPU/SAVE result is issued."
+  ]
+}
