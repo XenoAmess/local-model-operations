@@ -1,0 +1,133 @@
+{
+  "schema": "local-model-operations.civ6-trade683684/v1",
+  "business_evidence": {
+    "coal_reader": {
+      "url": "https://github.com/XenoAmess/civ6_dev/blob/40b36b1dda7852ecad328112f78df134ffb032a6/docs/research/baiqi-p6-trade-coal-reader683684-2026-11-12.json",
+      "sha256": "a57c87592b8a7485470fdba30a8a02dbd4c7f3c497cd6c63b7772ae0dceba83a",
+      "bytes_scope": "git_blob"
+    },
+    "repair308": {
+      "url": "https://github.com/XenoAmess/civ6_dev/blob/40b36b1dda7852ecad328112f78df134ffb032a6/docs/research/baiqi-p6-native133-repair-fire308-2026-11-12.json",
+      "sha256": "e36607cdceed117d5d5ad77187d58b7180f8240a9af4795422b7eaea2d416924",
+      "bytes_scope": "git_blob"
+    }
+  },
+  "models": {
+    "683": {
+      "usage": {
+        "prompt_tokens": 11539,
+        "completion_tokens": 1789,
+        "total_tokens": 13328
+      },
+      "total_ms": 15516.502799931914,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "candidate_complete": true
+    },
+    "684": {
+      "usage": {
+        "prompt_tokens": 11677,
+        "completion_tokens": 5000,
+        "total_tokens": 16677
+      },
+      "total_ms": 32868.11179993674,
+      "finish_reason": "length",
+      "sse_done": true,
+      "json_syntax": {
+        "status": "UNKNOWN",
+        "top_level_type": "UNKNOWN",
+        "reason": "NON_STOP_FINISH",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "candidate_complete": false
+    }
+  },
+  "review": {
+    "raw_compiles_Lua51": true,
+    "results": {
+      "MissingMirror": "UNKNOWN",
+      "Positive": "KNOWN",
+      "Sparse": "KNOWN",
+      "ExtraKey": "KNOWN",
+      "Fraction": "KNOWN",
+      "Meta": "KNOWN",
+      "InactiveFinal": "KNOWN",
+      "WrongOther": "KNOWN",
+      "MissingCoalIndex": 0,
+      "ReboundGetter": "KNOWN"
+    },
+    "whole_adoption": false,
+    "raw_Native_calls": 0,
+    "684": "length5000: body not read/parsed/adopted/retried/concatenated",
+    "mirror_field": "otherPlayerID deliberately added only to expose further failures, not an omitted input from supplied contract"
+  },
+  "adoption": "RAW683_WHOLE_REJECTED; RAW684_LENGTH_BODY_UNREAD; OWNER_WHOLE_MODULE_AND_TESTS",
+  "software": {
+    "Lua51_methods": 12,
+    "passed": 12,
+    "first_run_unittest_seconds": 0.137,
+    "record_source": "Actual exec result581ef2; source hashes captured after pass, owner made no intervening source edits",
+    "source_sha256": {
+      "tools/lua/diagnostic_trade_coal.lua": "443786a7a51565f12bb63ea4abba6cc06b50e28fc4ff4df534c6a90b13c4c537",
+      "tests/test_diagnostic_trade_coal.py": "a432798b4577f5da6709256a88350d943002be08846791a0111472899565b9c6"
+    },
+    "forbidden_commands_and_input_mutation_checks": true,
+    "full_product_suite_not_rerun_for_standalone_diagnostic": true,
+    "source133_prior_frozen_full_suite": {
+      "total": 1933,
+      "pass": 1932,
+      "SDK_skip": 1,
+      "commit": "be1ebbb4dfbcb785729129660a46580c01bfb77d"
+    }
+  },
+  "through684": {
+    "logical": 684,
+    "complete": 635,
+    "length": 46,
+    "transport": 3,
+    "HTTP": 714,
+    "extra": 30,
+    "OpenCode_native": 0,
+    "new_actual_HTTP_peak": 2,
+    "new_HTTP_overlap_seconds": 15.516009,
+    "unknown_cache_cost_savings": null
+  },
+  "maintenance": "Canonical caller reused same-machine/user Nov12 OpenCode1.19.5 successful daily maintenance; no upgrade/native tool generation",
+  "owner_costs": "Initial source indexing/planning before phase events unknown; prep/review/correction UTC events retained with Native/log/doc work overlapping; active/net cost unknown",
+  "Native_reader_status": {
+    "reader_calls": 0,
+    "trade_view_open_calls": 0,
+    "coal_purchase_calls": 0,
+    "positive_fuel_project_branch": "OPEN",
+    "current_game": 133,
+    "turn": 308,
+    "main_stop": "New Jiaodong population loss, current checkpoint preserved"
+  },
+  "separate_native_progress": {
+    "factory_and_seaport_repaired": true,
+    "old_project_preserved_not_resumed": true,
+    "first_normal_end_processed_queue_and_retained_turn": true,
+    "fresh_ordinary_next_step_then_actual_next_turn": true,
+    "new_population_loss_saved_and_stopped": true,
+    "own_fire_spread_supports_inference_no_direct_city_reason": true
+  },
+  "lessons": [
+    "Do not introduce an unsupplied mirror ID when the contract provides an object identity getter.",
+    "Validate every key in a bounded collection; a first-nil scan cannot prove completeness.",
+    "Final checks must re-read activity, real actor IDs and bound getters, not only duplicated scalar IDs.",
+    "A resource availability row is not an accepted trade, price, or permission to mutate a deal.",
+    "Distinguish an original queued-action END phase from actual turn advance before deciding the next normal step."
+  ]
+}

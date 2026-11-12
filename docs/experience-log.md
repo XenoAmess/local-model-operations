@@ -154,3 +154,8 @@ Owner修正部分680/681后实际冷验：已转入旧许可不重发，另一�
 ## 2026-11-12：133完成态重载后见
 
 同一保存306一次官方重载／一次继续，旧两OBSERVED与serial4保持；严格旧日志前缀后新增救粮请求／回执均0。11城身份人口库存保持、食品／忠诚合格；完整World/建筑/区域/地块同，但1Builder成本、同演员续行、多城产出／宜居重算差异另记，原因未隔离，不报whole-world invariance。初次过宽CITY整行保护拒绝后先分域检查、0依赖输入；四旧人口损失及六停止记录保留，明确新范围继续工厂。0新HTTP／through682不重计／OpenCode原生0，未知成本净收益null。[固定完成态反链](evidence/2026-11-12-civ6-completed-food133-reload306.json)。
+
+
+## 2026-11-12：Civ6当前交易煤元数据683／684
+
+683完整13328tokens／15516.5028ms，但合同行外otherPlayerID使合法阳性UNKNOWN；仅隔离补镜像后八缺口（稀疏／额外key／分数量／metatable／末态inactive／错对象ID／缺煤Index／getter漂移）仍KNOWN，整拒／0rawNative。68416677tokens含输出5000 length未读整弃。Owner只读当前原版可见deal模块12Lua51方法首过0.137s；禁止UI/交易mutation、对方from四参数、完整密集列表和最终状态绑定，不授实际metadata／煤交易／正燃料项目效果。两HTTP峰2／重叠15.516009秒，累计684／635完整46length3transport714HTTP30extra，维护缓存复用／OpenCode原生0／未知成本净收益null。另原版END只处理队列后留回合，fresh普通下一步才实际换回合；308工厂／海港已修、项目保留，新人口损失与自有火灾传播边界单记。[固定双业务反链](evidence/2026-11-12-civ6-trade-coal683684.json)。

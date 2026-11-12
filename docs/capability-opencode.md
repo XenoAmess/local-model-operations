@@ -1543,3 +1543,8 @@ Owner修正部分HTTP候选后的实际新计划救粮／两普通回合保持�
 ### 2026-11-12：133完成态持久化后见
 
 完成态重载保两回执，0新增救粮；其余数值重算差异保留、不授全世界不变。0新HTTP、through682不重计，0OpenCode原生、未知成本null。[固定完成态反链](evidence/2026-11-12-civ6-completed-food133-reload306.json)。
+
+
+### 2026-11-12：Civ6683／684只读诊断
+
+同日同机同用户OpenCode1.19.5成功维护缓存复用；2新请求均普通HTTP候选。683完整但九个合同／数据／最终门问题整体拒用，684 length5000未读整弃；Owner12只读Lua51方法通过、Native界面未开。累计684／635完整46length3transport714HTTP30extra；0OpenCode原生、未知成本null。[固定双业务反链](evidence/2026-11-12-civ6-trade-coal683684.json)。

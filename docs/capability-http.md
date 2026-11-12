@@ -5842,3 +5842,8 @@ Owner修正部分680/681后实际冷验：已转入旧许可不重发，另一�
 Two complete stops,175479 input/5089 output, sumHTTP51.6312s, sequential peak1/current0/no retry or length. First and sole corrected candidates remain uncompiled/unadopted: identity gate, callback, wiring/import and ambiguous-anchor faults survive; corrected single-slot/constructor fragments do not imply adoption. The stronger actual Store333 repeat witness arrived after correction BEGIN and is independently source-read, not model input/credit. This is neither a technical NO nor a permanent ceiling; owner takes over without a third request. Existing Source61 exact-five formal publication/line-ending-only Test transformation and final119-JVM historical cost are appended separately; no new Runtime or speed grant.
 
 [Costs, rejection and late-source boundary](evidence/2026-11-12-ck3-owned-scope-history-two-rejected-candidates.md); [prior Source61 later publication](evidence/2026-11-12-ck3-prepared-publication-supplier-method.json).
+
+
+## 2026-11-12：Civ6当前交易煤元数据683／684
+
+683完整13328tokens／15516.5028ms，但合同行外otherPlayerID使合法阳性UNKNOWN；仅隔离补镜像后八缺口（稀疏／额外key／分数量／metatable／末态inactive／错对象ID／缺煤Index／getter漂移）仍KNOWN，整拒／0rawNative。68416677tokens含输出5000 length未读整弃。Owner只读当前原版可见deal模块12Lua51方法首过0.137s；禁止UI/交易mutation、对方from四参数、完整密集列表和最终状态绑定，不授实际metadata／煤交易／正燃料项目效果。两HTTP峰2／重叠15.516009秒，累计684／635完整46length3transport714HTTP30extra，维护缓存复用／OpenCode原生0／未知成本净收益null。另原版END只处理队列后留回合，fresh普通下一步才实际换回合；308工厂／海港已修、项目保留，新人口损失与自有火灾传播边界单记。[固定双业务反链](evidence/2026-11-12-civ6-trade-coal683684.json)。
