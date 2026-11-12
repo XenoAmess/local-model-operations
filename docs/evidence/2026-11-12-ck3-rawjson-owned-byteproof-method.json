@@ -1,0 +1,129 @@
+{
+  "schema": "local-model-operations.rawjson-owned-byteproof-method/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "task": "One actual RawJson production method hunk: private no-NUL/no-backslash-u proof and full recursive token validation dispatch, original fallback retained.",
+  "guidance": "Owner/Root supplied conservative NUL exclusion, actual core lazy-string/token facts, profile/budget boundaries and exact implementation scope; not model discovery.",
+  "request": {
+    "prefix": {
+      "bytes": 44935,
+      "sha256": "d0b60d47b766b3b13deee6a82e520e3525c3282fd0b2e3d78ebe2081cbe3f2e5"
+    },
+    "complete_units": 6,
+    "POST_BEGIN_utc": "2026-11-12T12:29:49.826150+00:00",
+    "END_utc": "2026-11-12T12:29:57.000294+00:00",
+    "parameters": {
+      "max_tokens": 3000,
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      }
+    },
+    "message_roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "headers_ms": 1915.2760000433773,
+    "content_TTFT_ms": 1916.5175000671297,
+    "total_ms": 7174.111500033177,
+    "usage": {
+      "prompt_tokens": 13049,
+      "completion_tokens": 826,
+      "total_tokens": 13875
+    },
+    "cached_tokens": null,
+    "currency_cost": null,
+    "status": 200,
+    "finish": "stop",
+    "DONE": true,
+    "JSON": "VALID",
+    "response": {
+      "bytes": 3685,
+      "sha256": "4d50c8f717eec3b65d42d71128ba99b393ccae8295b88b9a33c40b2ba3c52c0e"
+    },
+    "routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    },
+    "retries": 0,
+    "length": 0
+  },
+  "concurrency": {
+    "actual_peak": 1,
+    "current_after_END": 0,
+    "preparation_review_not_HTTP": true,
+    "global_service_queue_UNKNOWN": true
+  },
+  "source_review": {
+    "at_utc": "2026-11-12T12:32:20.136697+00:00",
+    "grade": "ONE_MODEL_PRODUCTION_EDIT_SOURCE_USABLE_OWNER_SELECTION_PENDING",
+    "base": {
+      "bytes": 5905,
+      "sha256": "282031e86b7c6eaa1b7b90b3890b83ec4e306e11dba7e85af47cf917c9866d4b"
+    },
+    "candidate": {
+      "bytes": 7108,
+      "sha256": "6648920952baffdf874280879e03c093acc3b6557f1bc27197efd5f279659917"
+    },
+    "anchors": 1,
+    "mechanics": "Only literal LF-response to existing CRLF anchor adaptation; exact whole inverse restores original.",
+    "old_validate_whole_body_byte_identical": true,
+    "constructors_clone_UTF8_factories_other_public_methods_unchanged": true,
+    "source_checks": [
+      "Proof inspects only private final cloned bytes, rejecting anyNUL or raw backslash-u adjacency.",
+      "Dispatch remains after initial nextToken and before unchanged trailing nextToken; proof false executes whole original recursive validator.",
+      "Fast recursive path consumes every object/array value with same FIELD_NAME/scalar checks and messages; no new skipChildren/currentName/getText/unicode calls.",
+      "Original factories retain duplicate/depth/number/string constraints; UTF16/32 ambiguity and escaped Unicode remain on full fallback.",
+      "All prior public API regions remain; formal byteLength must be preserved by applying the tiny patch instead of copying actual whole file."
+    ],
+    "prose_limit": "Whitespace-only hits original JSON value required; the response regression wording also mentions trailing as an alternative, which is imprecise for that input. No model Test exists or is adopted.",
+    "limits": [
+      "No compiler/Test/Runtime/latency/SAVE pass from static inspection.",
+      "NUL guard/core lazy-string proof and intended algorithm supplied by owner/Root; model credit is this one implementation hunk.",
+      "Actual core bytecode extraction provided, not full source equivalence; no new JVM or library/config change.",
+      "Owned byte proof does not remove any external byte validation or claim all29 sampled RawJson callers benefit."
+    ]
+  },
+  "actual_core_input": {
+    "report": {
+      "bytes": 17390,
+      "sha256": "e64af539624e574af81c473b8423bfaa9dcd3a84217b01539706406882960ac2"
+    },
+    "version": "2.21.7",
+    "jar_bytes": 594782,
+    "jar_sha256": "8c5623b98f32d5f7e1287ff61ed50e08ab7b11381e991fff89327faabba42261",
+    "extent": "Read-only actual class Code/invokes; no complete source JAR or source-equivalence claim. No new JVM or javap by model operator."
+  },
+  "proof_boundaries": [
+    "Existing constructor owns/clones bytes and runs its old ASCII or strict UTF8 REPORT check before validateDocument.",
+    "NUL fallback is necessary because automatic UTF16/32 bootstrap can reinterpret otherwise raw-UTF8-valid bytes as an unpaired surrogate; raw backslash-u also retains old decoded-string validation.",
+    "Fast recursion still uses every nextToken and original FIELD_NAME/scalar checks and trailing read; no skipChildren or direct public trusted input.",
+    "Unchanged factories retain duplicate/depth/number bounds. Owned byte length<=64MiB bounds decoded UTF8 string units; no-NUL guard excludes wide-encoding shortcut domain.",
+    "Both default4300 and full-material number profiles and requireProtocolBound remain original; all old APIs and full validate/unicode bodies unchanged."
+  ],
+  "operator_preflight": "Initial D-only checker treated the word unicode() in a comment as a call. Ignoring line comments confirms no such fast-path call; candidate code was not modified and no Java executed.",
+  "qualification": "Source-usable one hunk handed to sole owner, selection/typing/differential/Runtime/benefit not granted at first review. No Test generated; independent owner tests are separate.",
+  "operations": {
+    "shared_clean_ff": "f9c3874 doc-only progression, same policy/config/caller",
+    "daily_OpenCode_success_reused": "2026-11-12T02:42:39.984713+08:00",
+    "new_operator_JVM_Game_JFR_production_write_or_service_change": 0
+  },
+  "scope_limits": [
+    "Only two frozen small materials11878B meet proof2/2; no live frequency/ROI or all29 sampled-call benefit claim.",
+    "Earlier Archive cross-profile-cache inquiry is a distinct finite RO NO, not this method or a model capability failure.",
+    "Formal byteLength API must be preserved by merging only small method edits rather than copying actual whole source."
+  ],
+  "privacy": "Full code, class bytes, requests, packets, library files and private absolute paths remain local."
+}

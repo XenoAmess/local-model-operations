@@ -5862,3 +5862,10 @@ Two complete stops,175479 input/5089 output, sumHTTP51.6312s, sequential peak1/c
 ## 2026-11-12：Civ6686未用燃料条件与原版交易
 
 686完整7990+857=8847tokens／7354.0739ms，峰1。只采用有条件逻辑相容性，Owner修正powered否定、零耗能项目、维修当前队列优先级、双CanProduce/新鲜BUILD资格四处；0代码Native。独立现场修好斗兽场/动物园并转发电站，143仍保留；原版Canada无油、Brazil metadata valid却拒价、Spain无，Rome1油报价六行核验后一次接受，实际油0→1/煤8/金币−14另1GPT30。交易准备不授后台能力或缺电新项目通过。累计686／637完整46length3transport716HTTP30extra，维护复用原生0／未知成本null。[固定本项目反链](evidence/2026-11-12-civ6-original-oil311-model686.json)。
+
+
+## 2026-11-12: Guided RawJson private-byteproof method
+
+One complete stop:13049 input/826 output, TTFT1.9165s/total7.1741s, peak1/current0/no retry. One source-usable hunk preserves old constructors/factories/public APIs/whole fallback and adds a no-NUL/no-raw-backslash-u proof plus complete nextToken recursion without string scans. Owner supplied NUL/autodetection and actual-core facts; no model Test/software/Runtime/speed grant. Prior rejected history candidates remain0 adopted even after successful owner-manual Source62 actual/formal independent qualification and exact-seven publication; fairness requires separate credit.
+
+[New method and exact costs](evidence/2026-11-12-ck3-rawjson-owned-byteproof-method.md); [owner-original continuation of rejected task](evidence/2026-11-12-ck3-owned-scope-history-two-rejected-candidates.json).
