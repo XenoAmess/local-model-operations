@@ -5800,3 +5800,8 @@ One guided two-TU implementation completes stop/DONE:33360 input/791 output, TTF
 One guided request completes stop/DONE with68039 input/710 output, TTFT8.7219s/total12.9932s, peak1/current0/no retry. Two literal anchors preserve the old three-arg loop and wire the real Root call to a lazy package-only four-arg Published supplier; exact cast follows existing private DATA restrictions. No source correction or fake mirrored Test credit; real producer/Planner/Controller regression remains owner work. Separately, Source60 selects both model edits with independent actual/formal two-TU16-class/whole4 passes and exact six-file publication. Owner no-new-type Source59 has actual/formal one-TU2-class/whole2; formal57 five-file publication preserves private-wrapper/helper-hit limits. All older pending/failure/software cuts stay intact, with no causal runtime/saved-day benefit.
 
 [New method and exact costs](evidence/2026-11-12-ck3-prepared-publication-supplier-method.md); [later owned-byte adoption](evidence/2026-11-12-ck3-owned-byte-priority-once.json); [plain-List adaptation](evidence/2026-11-12-ck3-postchange-hotspot-guided-methods.json); [capture publication boundary](evidence/2026-11-12-ck3-clean-stop-fresh-capture-method.json).
+
+
+## 2026-11-12：676/677通知与地块移除独立复现
+
+676完整7492tokens／四反例整拒，67711992tokens含输出6500 length整弃未读；Owner10合同后Native27条0错丢，明确NIL通知保留。独立302→303前后8组全匹配，人口回调正库存、目标2133移除与原版哈布沙尘暴本回合1人口通知支持天气推断；最新全局事件已是另飓风，不能错绑。10监听精撤、原主303恢复，净粮重载差异单列。累计677／630完整44length3transport707HTTP30extra，维护缓存复用／OpenCode原生0／净收益null。[固定blob反链](evidence/2026-11-12-civ6-xiurong303-notice676677.json)。
