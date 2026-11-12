@@ -5595,3 +5595,8 @@ One complete stop42.5306s/TTFT7.5321s, 57685 input/6221 output, peak1/no retry. 
 ## 2026-11-12：127已知原生队列跨冷读及普通完成
 
 自然277档冷读后原生Builder675的2350队列/位置/次数保持、0新模组请求，世界/全部城市组/54单位/food/vitals保持。一普通END/7军事SKIP、加拿大拒绝再见2点击后，278到原目标56,31、队列nil/charges2，新实例0该演员MOVE，仅到达后SKIP；不把旧pending requestID冒充已恢复。其他演员续建2滑雪场，5总数及次数2→1/3→2，表明非全局冻结。0新HTTP不重计655656，657地点诊断另记；历史空队列UNKNOWN与持续电力仍开放。[固定blob反链](evidence/2026-11-12-civ6-native127-queue278.json)。
+
+
+## 2026-11-12：657多目标适用性与保护边界
+
+657完整14247tokens／11206.3245ms。缺全局端口在pcall实参求值时抛出隔离复现，整份不直接采用；Owner保护前检／最终跨行回合撤销，9组后只读Native。218地块×4实际team端口872次：海上风电32真186假、其他三项各218假，0未知。未拥有解锁科技独立保留，不授建造或假想清地许可。当前消费端无有地块条件的前置路径规划，继续真实658诊断。累计657／612完整42length3transport687HTTP30extra，缓存成本净收益null。[固定blob反链](evidence/2026-11-12-civ6-model657-renewable-sites.json)。
