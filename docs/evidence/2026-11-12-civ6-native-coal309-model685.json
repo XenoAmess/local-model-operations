@@ -1,0 +1,114 @@
+{
+  "schema": "local-model-operations.civ6-native-coal309-model685/v1",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/d7aeeb975d6871eac9300e832ad19ff38e76da28/docs/research/baiqi-p6-native133-coal-fire309-model685-2026-11-12.json",
+    "sha256": "9fd3a6d9afa125c12aced9439ea341496b141f47c3a17478c639c45558d68323",
+    "bytes_scope": "git_blob"
+  },
+  "model_review": {
+    "schema": "civ6.model685-positive-fuel-analysis-review/v1",
+    "utc": "2026-11-12T11:40:25.615497+00:00",
+    "model": 685,
+    "adoption": "WHOLE_ANALYSIS_REJECTED_NO_CODE_OR_NATIVE_USE",
+    "models": {
+      "685": {
+        "usage": {
+          "prompt_tokens": 16224,
+          "completion_tokens": 1484,
+          "total_tokens": 17708
+        },
+        "total_ms": 12453.28120002523,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": {
+          "status": "VALID",
+          "top_level_type": "object",
+          "reason": "COMPLETE_STOP_JSON",
+          "error": null,
+          "offset_units": "Unicode code points",
+          "max_utf8_bytes": 1048576,
+          "semantic_review": "OWNER_REVIEW_REQUIRED"
+        },
+        "candidate_complete": true
+      }
+    },
+    "issues": [
+      {
+        "candidate": "positive fuel stocks (>=0)",
+        "counterevidence": "PowerProjectScore and PowerProjectWanted accept zero too; positive-fuel Native condition requires observed >0, not reinterpretation of >=0.",
+        "source": "mod/Baiqi/Lua/BaiqiPlanner.lua:26"
+      },
+      {
+        "candidate": "old143 project currently in queue/head and remains active",
+        "counterevidence": "Provided actual308 queue size1 and current hash1982083301 resolves Entertainment district repair; GetProjectProgress143 is retained investment outside head. Candidate repeatedly invents contrary premise.",
+        "source": "docs/research/baiqi-p6-native133-coal-trade308-2026-11-12.json"
+      },
+      {
+        "candidate": "EntertainmentComplex repair implies prerequisite for industrial project",
+        "counterevidence": "PowerProjectWanted explicitly checks PrereqDistrict INDUSTRIAL_ZONE. Actual Industrial Zone9 is owned and unpillaged; Entertainment7 is unrelated repair backlog.",
+        "source": "mod/Baiqi/Lua/BaiqiController.lua:3551"
+      },
+      {
+        "candidate": "project may be blocked by lack of power",
+        "counterevidence": "Shipped rule required by controller: FullyPoweredWhileActive true and RequiredPowerWhileActive0. No supplied evidence supports this power-block explanation; it cannot justify a new/manual intervention.",
+        "source": "mod/Baiqi/Lua/BaiqiController.lua:3553"
+      },
+      {
+        "candidate": "pending repair implies BlockedIdleHead prerequisite-insertion case",
+        "counterevidence": "QueueReady tests actual native state. Ordinary ongoing legal repair is preserved; retained project progress alone does not establish a blocked head.",
+        "source": "mod/Baiqi/Lua/BaiqiController.lua:3583"
+      }
+    ],
+    "true_but_preexisting": "Repairs+1000, unfinished building93, power92 and normal queue preservation were already in supplied code; no new adoption credit.",
+    "owner_corrected_next": "Observe natural current repairs, unpowered+positive-stock selection only at a genuinely ready queue, new BUILD request and actual queue/power readback separately. Do not alter queue for fixture. Actual temporary power does not imply fuel consumption or permanent power.",
+    "source_sha256": {
+      "mod/Baiqi/Lua/BaiqiPlanner.lua": "11a8164ca3910f7d2fb1d1f60e87a8abf69d6a6c4c8d8a50e1c75c75f7abde8c",
+      "mod/Baiqi/Lua/BaiqiController.lua": "bc8068694f8ca8f8a6639d597a2af1b7402b38f88bb62d4a442ac14c8ac72575"
+    },
+    "through685": {
+      "logical": 685,
+      "complete": 636,
+      "length": 46,
+      "transport": 3,
+      "HTTP": 715,
+      "extra": 30,
+      "OpenCode_native": 0,
+      "new_actual_inflight_peak": 1,
+      "cache_cost_net_savings": null
+    },
+    "maintenance": "Same machine/user Nov12 successful daily OpenCode1.19.5 maintenance cache reused by canonical adapter; no native generation",
+    "owner_active_review_net_savings": null,
+    "Native_and_software_pass_claim": false
+  },
+  "independent_native": {
+    "coal25_to20": true,
+    "all11_fully_powered": true,
+    "new_unpowered_positivefuel_project_choice": "OPEN, zero new project requests in strict log window",
+    "repair": "Entertainment repaired; Arena active;143 retained outside current head",
+    "new_food": "One BACKGROUND2574 token5 actual OBSERVED surplus1, no replay",
+    "loss": "New Xingzhou12→11; own2576 burning and positive food supports ongoing forestfire inference only, stopped beforeEND309 and saved",
+    "normal_end": "2normal END/1actualturn, queued movement first, then fresh ordinary progression, NPC/congress explicitly TEST_PLAYER"
+  },
+  "owner_iteration_error": "Cities:Members returns index,city while Deal:Items returned one item; wrong single-return city read failed before actions, corrected all11 rows. Different iterator contracts require actual consumers, not analogy.",
+  "lessons": [
+    "A retained production amount is not a queue entry or active head. Use current hash/type/count to distinguish investment from scheduled work.",
+    "Nonnegative validation does not require positive fuel. Observe a genuinely unpowered city and a positive stock before claiming the positive-fuel selection branch.",
+    "Restored fuel can supply every city and remove the unpowered precondition. That is a measured outcome, not proof of a new fallback project choice.",
+    "Do not infer a project power blocker when the guarded shipped rule explicitly requires zero power and grants power while active.",
+    "Native effects and rejected source analysis must have separate acceptance credit."
+  ],
+  "through685": {
+    "logical": 685,
+    "complete": 636,
+    "length": 46,
+    "transport": 3,
+    "HTTP": 715,
+    "extra": 30,
+    "OpenCode_native": 0,
+    "new_actual_inflight_peak": 1,
+    "cache_cost_net_savings": null
+  },
+  "new_HTTP": 1,
+  "raw_candidate_Native_use": 0,
+  "owner_cost_net_savings": null
+}

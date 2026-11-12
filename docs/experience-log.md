@@ -164,3 +164,8 @@ Owner修正部分680/681后实际冷验：已转入旧许可不重发，另一�
 ## 2026-11-12：Civ6煤诊断Owner模块实机后见
 
 隐藏原版deal UNKNOWN／当前Canada KNOWN，列表max100而单项max25；40保护在写前拒绝、原版25合法编辑。报价双方六行只含25煤及279金币+29GPT30回合，原版一次成交后库存0→25／金币−279；不授后台资源获取或正燃料生产。Owner首只读Items key/value错因单返回修正，旧截图／未关场景保护先拒绝；成交后旧INCOMING validation不代替库存。0新HTTP，through684及OpenCode原生0不重计，成本收益null。[固定实机反链](evidence/2026-11-12-civ6-native-coal-trade308.json)。
+
+
+## 2026-11-12：Civ6正燃料实际供电与685分析拒用
+
+685完整stop/DONE/JSON，16224+1484=17708tokens、12453.2812ms，峰1；把保留143当项目队首、>=0当正、娱乐区作工业前提、猜项目缺电等五项反例，整稿拒用／0代码或Native采用。Owner分开已有维修优先级与真实新决策。独立煤25→20后11城全供电、娱乐区修好接斗兽场，新项目请求0，正燃料缺电选项目仍开；新2574救粮OBSERVED，309人口损失及自有火点只支持火灾推断，保存停。Cities:Members与Deal:Items不同迭代合同，Owner只读错误0操作修正。累计685／636完整46length3transport715HTTP30extra，维护缓存复用／OpenCode原生0／未知成本null。[固定逐项反链](evidence/2026-11-12-civ6-native-coal309-model685.json)。

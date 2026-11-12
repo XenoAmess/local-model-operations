@@ -1553,3 +1553,8 @@ Owner修正部分HTTP候选后的实际新计划救粮／两普通回合保持�
 ### 2026-11-12：683／684煤读取后见
 
 Owner纯只读模块实际原版界面KNOWN，普通25煤交易是TEST_PLAYER准备，不是OpenCode或后台能力；0新HTTP，through684不重计，0OpenCode原生，未知成本null。[固定实机反链](evidence/2026-11-12-civ6-native-coal-trade308.json)。
+
+
+### 2026-11-12：685当前生产验收分析
+
+成功复用同机同用户当日OpenCode1.19.5维护缓存；685是普通HTTP，完整但关键现场前提误读而整拒。累计685／636完整46length3transport715HTTP30extra，OpenCode原生0，未因维护授生成或Native通过。[固定逐项反链](evidence/2026-11-12-civ6-native-coal309-model685.json)。
