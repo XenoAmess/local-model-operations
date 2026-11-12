@@ -5768,3 +5768,6 @@ Three source-complete duties run at actual peak3 for27.955578s, then one separat
 No new HTTP. Source58's four model implementation edits plus the owner outer import now have necessary one-TU/three-class compilation and two existing meaningful whole-Test methods passed. First incorrect NO, supplied diagnosis, source-only selection and missing-import finding stay separate historical cuts. Private-record loader/Runtime adoption and latency/SAVE benefit remain ungranted; no new mirror Test or profile is added.
 
 [Exact posterior software receipts](evidence/2026-11-12-ck3-postchange-hotspot-guided-methods.json).
+
+
+Later existing Runtime loader evidence for another nested type motivates an owner plain-List adaptation before Source58 deployment. It is not a Source58 execution failure or model semantic error, and does not erase its true software pass. New variant source and qualification remain separate; no new HTTP is needed.
