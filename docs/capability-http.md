@@ -5651,3 +5651,8 @@ Four complete stop requests,383135 input/12129 output, no retry/length; last ind
 ## 2026-11-12：129正燃料供电资格软件
 
 664 Planner窄hunk在实际模块12形态通过后采用；Admin原hunk拒用，Owner补有限非负、free<required和两个bool资格，研究只针对未供满或project-only城市，不抢真实非project供电。临时项目对实际未供满、已知正燃料仍可排名，原queue／Native合法性／正进度／pending不重发保留。10新真实方法，精确旧128四方法6断言失败0异常；冻结全1858项1857pass1SDKskip，97Lua119包。正式同283煤2冷验待做，0新HTTP不重计663664。[固定blob反链](evidence/2026-11-12-civ6-source129-positive-fuel.json)。
+
+
+## 2026-11-12：129煤2同档恢复研究实证
+
+原128煤2／合成材料0档正式129冷读，唯一后台海上goal74/site2789→激光61请求＋原生观察、真实0/740，冷窗口0END／人工研究。所有世界组／城市queue／food／vitals／5滑雪场保持；221购买格重新884次Core实际team适用读，海上32真／其余0，0未知。已保存129结果，后续普通回合／正燃料项目／最终持续电力仍分阶段。0新HTTP，不重计663664或Owner657重测；665独立观察任务另记。[固定blob反链](evidence/2026-11-12-civ6-native129-positive-coal283.json)。

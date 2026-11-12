@@ -1458,3 +1458,8 @@ Nov12同机同用户1.19.5成功每日维护缓存复用，三个普通HTTP候�
 ### 2026-11-12：129软件局部采用分账
 
 0新增HTTP／OpenCode原生。664已审阅Planner局部采用和Owner Admin修正得到冻结全量软件验证，仍不授游戏效果／未来预算／最终持续供电。[回执](evidence/2026-11-12-civ6-source129-positive-fuel.json)。
+
+
+### 2026-11-12：129正燃料冷验效果分账
+
+0新HTTP和0OpenCode原生生成。664窄采用及Owner收紧在正式129煤2原档恢复下一研究，非维护或软件推定；完整持续电力不提前通过。[回执](evidence/2026-11-12-civ6-native129-positive-coal283.json)。
