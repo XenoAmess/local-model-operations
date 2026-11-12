@@ -6076,3 +6076,8 @@ One complete stop148424in1289out/26.546295sHTTP, TTFT19.001459s, peak1/current0.
 
 
 Queue75 posterior: independent ownerrev02 complete-set prevalidation supersedes only old conditional owner01 note; actual/formal each independentlywhole3P, modelcode0 unchanged. PublicController/EpisodeJournal/controlledport software scope, no RootManaged/realworker cleanTicket/HCR or ROI. Business exact5 published; Native198/10tool cumulative cut separate from one model HTTP. [Posterior exact receipt boundaries](evidence/2026-11-13-ck3-offline-unaccepted-drain75-method.md#posterior-independent-owner-rev02-software-and-publication).
+
+
+## 2026-11-13: Canonical72B full-scope measurement draft review
+
+One new finite review121955in1990out/29.0437306sHTTP, TTFT15.7585419s, peak1/current0. Complete15-source draft/guard/Writer closure supplied; false ordinal/index18 assertion finding rejected against actual local16 loop,0adoption/no secondHTTP/JVM. Pretty preREQUEST vs compact wire112B difference corrected with completeJSON equality, no lost source. Existing owner72B actual/formal2P and publication counters are software/counter evidence only; neither this review nor old second-resolution marks grant timing/Runtime speed. [Exact fair-task/cost/error boundaries](evidence/2026-11-13-ck3-canonical72b-fullscope-measurement-review.md).
