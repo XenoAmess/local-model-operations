@@ -1,0 +1,160 @@
+{
+  "machine_id": "BF-202609141645",
+  "source_install_runtime": 126,
+  "native_builds": [
+    {
+      "turn": 275,
+      "requestID": "0:275:9",
+      "unitID": 6750250,
+      "operation": "BUILD_IMPROVEMENT_ADJACENT",
+      "plotID": 2424,
+      "fromPlotID": 2423
+    },
+    {
+      "turn": 276,
+      "requestID": "0:276:13",
+      "unitID": 7798799,
+      "operation": "BUILD_IMPROVEMENT_ADJACENT",
+      "plotID": 2721,
+      "fromPlotID": 2722
+    },
+    {
+      "turn": 277,
+      "requestID": "0:277:40",
+      "unitID": 6881317,
+      "operation": "BUILD_IMPROVEMENT_ADJACENT",
+      "plotID": 2793,
+      "fromPlotID": 2719
+    }
+  ],
+  "paired_observed_for_each_build": true,
+  "actual_build_charge_deltas": [
+    {
+      "unitID": 6750250,
+      "before_charges": 3,
+      "after_charges": 2
+    },
+    {
+      "unitID": 7798799,
+      "before_charges": 3,
+      "after_charges": 2
+    },
+    {
+      "unitID": 6881317,
+      "before_charges": 3,
+      "after_charges": 2
+    }
+  ],
+  "actual_three_unpillaged_improvements277": [
+    [
+      "P6_ADJ126_ACTUAL_SKI",
+      "277",
+      "65536",
+      "2424",
+      "56",
+      "32",
+      "45",
+      "2135005470",
+      "false"
+    ],
+    [
+      "P6_ADJ126_ACTUAL_SKI",
+      "277",
+      "196610",
+      "2793",
+      "55",
+      "37",
+      "45",
+      "2135005470",
+      "false"
+    ],
+    [
+      "P6_ADJ126_ACTUAL_SKI",
+      "277",
+      "196610",
+      "2721",
+      "57",
+      "36",
+      "45",
+      "2135005470",
+      "false"
+    ]
+  ],
+  "actual_native_queued_move": {
+    "unitID": 6750250,
+    "current_xy": [
+      55,
+      31
+    ],
+    "current_moves": 2,
+    "current_charges": 2,
+    "original_request": {
+      "turn": 276,
+      "requestID": "0:276:22",
+      "unitID": 6750250,
+      "operation": "MOVE_TO",
+      "plotID": 2350,
+      "fromPlotID": 2349
+    },
+    "native_GetQueuedDestination": 2350,
+    "getter_result_count": 1,
+    "not_cleared_or_cancelled_or_replayed": true,
+    "other_five_builders_queued_destination": null,
+    "older7340072_move_0_275_7_observed277": true,
+    "saved_native_queue_untouched": true,
+    "warm_reload_not_performed_until_builder_queue_guard_is_extended": true,
+    "source126_gap": "SettlerQueueIdle only checks UNIT_SETTLER, so a fresh UI may otherwise submit a new Builder operation while its original engine queue remains."
+  },
+  "TEST_PLAYER": {
+    "explicit_normal_END_turns": [
+      275,
+      276
+    ],
+    "military_SKIPs": 14,
+    "load_requests": 1,
+    "Continue_physical_clicks": 1,
+    "NPC_physical_clicks": 0,
+    "UserForced": 0,
+    "manual_domestic": 0,
+    "BACKGROUND_military_or_diplomacy": 0,
+    "readiness277_timed_out_busy_then_independently_requalified": true,
+    "END275_or276_replay_after_timeout": 0,
+    "END277_sent": false
+  },
+  "Lua_module_error_lines": 0,
+  "through654_cumulative_reference": {
+    "logical_calls": 654,
+    "complete": 610,
+    "length_failures": 41,
+    "transport_failures": 3,
+    "HTTP_attempts": 684,
+    "additional_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "cached_prompt_tokens": null,
+    "net_savings_seconds": null
+  },
+  "still_open": [
+    "Builder native queue guard source127 and cold read of natural277 queue2350",
+    "Completed ski persistence readback under that guard",
+    "Solar site planning/durable power and recurring food phase root cause",
+    "Older213/222, unknown-outcome recovery and full acceptance matrix"
+  ],
+  "schema": "local-model-operations.civ6-native126-three-skis/v1",
+  "utc": "2026-11-12T01:13:47.806315+00:00",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/b77e6599df13253fbee56cf65580a2c0dfe40c6d/docs/research/baiqi-p6-native126-three-ski277-2026-11-12.json",
+    "sha256": "cf1d07fce15e23f8173b33256226a3be3d47159be9d615633b667ff735be955e",
+    "bytes_scope": "git_blob",
+    "working_copy_sha256": "d1dd2b7ca57b7e6a7b5b732fa19fbd34c698946b25db04b872a6429fad05def4"
+  },
+  "generic_lessons": [
+    "Validate the actual separate operation through command observation, target state and actor cost rather than a software fixture or a request alone.",
+    "A fixed original target monitor missed a valid new native-proposed target; use a wider owned visible inventory before reporting total completions.",
+    "A delayed queued move was observed two turns later, so lack of early observation was not engine rejection.",
+    "Before a reload, inspect the original native queue and the queue guard consumer; preserve the real pending queue and use it as a future acceptance checkpoint."
+  ],
+  "new_HTTP": 0,
+  "later655656_is_separate_followup": true,
+  "OpenCode_native_generation": 0,
+  "unknown_cost_and_savings": null
+}

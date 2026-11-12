@@ -5580,3 +5580,8 @@ Three full-source studies completed stop, peak3/45.802773s, 322699 input/2080 ou
 One complete stop42.5306s/TTFT7.5321s, 57685 input/6221 output, peak1/no retry. Rejected before compile: onlyAssembler edits, leaked public projectFull token scope and removed originalactor/alive/calendar checks. Threeanchors and12named historical testmethods are real, not test passes. Later owner nominal Reader API arrived afterPOST and gets no retrospective model credit; no Runtime/optimization/SAVE grant.
 
 [Cost and original-vs-later contract boundary](evidence/2026-11-12-ck3-driver-projection-implementation.md).
+
+
+## 2026-11-12：126正式三处相邻施工（不重计653／654）
+
+275/276/277分别自然建2424/2721/2793滑雪场，每条原生adjacent请求都有精确observed，三演员次数各3→2。固定最初六目标监视只报2，完整自有可见库存读回实际3，不能漏途中原生新目标。2普通END14军队SKIP0人工文职；734旧移动两回合后observed，不当早期拒绝。另675原生队列2350仍保留，277已保存，先补Builder同类防覆盖再读档，不宣布恢复通过。本段0新HTTP，引用截至654统计；655656后续队列任务独立记账。[固定blob反链](evidence/2026-11-12-civ6-native126-three-skis.json)。
