@@ -5893,3 +5893,10 @@ One complete stop15539in/1143out, TTFT2.1811s/total8.6483s, peak1/current0. Thre
 One complete stop159481in/1221out, TTFT20.4776s/total28.4085s, peak1/current0. Nine complete current sources supplied; model BOUNDED_NO remains a rejected inference because distinct proofs need not have distinct frame bases and whole-mode differences do not rule out repeated pure sub-computations. Exact source counterexample is conditional, not livehit/ROI or a cache implementation. No automatic secondPOST/software/Runtime grant. Prior FullJsonTree threehunks genuinely partial adopted with local ownerCCE fix, commonwhole11 and qualified formalreuse, not a second formalrun.
 
 [Analysis and exact limits](evidence/2026-11-12-ck3-persistent-replay-scope-source-analysis.md); [prior actual source/software/publication posterior](evidence/2026-11-12-ck3-fulljson-direct-byteparser-method.json).
+
+
+## 2026-11-12: Sole same-basis historical replay correction
+
+One authorized correction stop161520in/1330out, TTFT1.6092s/total10.9065s. Supplied samebasis producer fact corrected, but whole-rebuild/Complete map plan rejected: native material-cache and driver-key misread, promises retained validation yet skips it on hits. Both complete responses0adopted, no compiler/Runtime/technicalNO/ceiling claim or thirdPOST. Total321001in2551out/sumHTTP39.3149688s, sequentialpeak1/current0; secondTTFT does not prove cache/queue/speed.
+
+[Exact scope, both costs and rejection boundary](evidence/2026-11-12-ck3-persistent-replay-scope-source-analysis.json).
