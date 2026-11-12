@@ -5754,3 +5754,10 @@ One complete source-guided method response123405 input/875 output, TTFT15.9210s/
 ## 2026-11-12：130实机修复和首座海上风电
 
 0新HTTP，不重计672673。119匹配／新鲜离线、同档300唯一后台工业区修复并观察，Native裁旧项目条目保143/154；1普通END7军SKIP到301工业区完好、项目143/157、预测系统自然完成。最后次Builder7798799造真实海上风电2132并消耗，保raw unit_unavailable及配对效果边界；上海free2仍有project供电，不授持续供足。人口FAIL及全矩阵继续，OpenCode原生0／净收益null。[固定blob反链](evidence/2026-11-12-civ6-native130-first-offshore301.json)。
+
+
+## 2026-11-12: Real JFR callers, bounded NOs and a precise private-method correction
+
+Three source-complete duties run at actual peak3 for27.955578s, then one separately diagnosed implementation at peak1; four complete stops,212823 input/3425 output, summedHTTP101.1895s, no retry/length/current0. First NO falsely denies an explicit assembler parse; the fixed private carrier correction produces four usable-core edits but needs one real outer import, with typing still ungranted at first review. Later Source58 actually adopts those four edits plus the owner import; source-only, not software/Runtime benefit. Other NOs retain normal/public-input and durability limits; no repeats for quota. Closed JFR sample counts never become CPU seconds or speed credit. Source57 actual partial integration and formal52's later normal publication are appended separately, preserving original pending cuts and owner/test credit.
+
+[Costs and precise grades](evidence/2026-11-12-ck3-postchange-hotspot-guided-methods.md); [later capture source ownership](evidence/2026-11-12-ck3-clean-stop-fresh-capture-method.json); [later public-replay publication](evidence/2026-11-12-ck3-precise-subtree-and-public-replay-methods.json).

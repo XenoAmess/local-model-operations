@@ -18,3 +18,5 @@ The two cited historical replay test methods really exist; no test was generated
 [Request audit and exact source grades](2026-11-12-ck3-precise-subtree-and-public-replay-methods.json).
 
 Later Source52 actually adopts all three public-replay production edits with owner-added explicit actual/evidence null checks. This source-only receipt does not backfill software/Runtime or speed credit, and the unrelated subtree candidate remains unadopted at this cut.
+
+Later formal52 is normally published at800378307a061b8130db0e088b6af4befc8036af (six files). Its variant has necessary two-TU/twelve-class qualification and the unchanged independent owner four-case whole Test, without a Test recompile. Actual variant adoption in Runtime60 is separate. These receipts do not turn the generated bad Tests into accepted work or prove a causal runtime/saved-day gain.
