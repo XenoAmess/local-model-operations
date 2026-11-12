@@ -1613,3 +1613,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-13：Civ6审计与136住房软件
 
 695入口当日实际canonical维护检查1.19.5／registry1.19.5，无升级；696697成功缓存复用。三次均普通HTTP，OpenCode原生生成累计0；维护、软件测试与Native重载分别记账，不授原生工具代码能力。[固定HTTP与Owner纠错](evidence/2026-11-13-civ6-696697-housing-audit.json)，累计697／646完整流48length3transport727HTTP30extra，未知成本null。
+
+
+### 2026-11-13：698699与136Native独立
+
+698699均普通HTTP，复用Nov13canonicalOpenCode1.19.5成功缓存；原生生成累计0。136自然住房实效不授原生工具能力；0新代码采用／性能测量，未知成本null。[固定审阅反链](evidence/2026-11-13-civ6-models698699.json)。

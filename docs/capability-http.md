@@ -5989,3 +5989,12 @@ Nov13由695入口实际canonical检查OpenCode1.19.5／registry1.19.5无升级�
 Two complete stops233735in/3487out, sumHTTP39.316356s/peak1/current0. First false consumerNO is corrected from real whole-batchTurn/cleanWall/continue source; second three-hunk implementation still has inner-Run scope and scheduling/SAVE/finite-frontier gaps. Old6argCtor and outerSAVE cleanup remain; do not invent their deletion. No actualjavac/selection/thirdHTTP at this review cut. [Exact task and limits](evidence/2026-11-13-ck3-post-life-early-batch-renewal-method.md).
 
 Source69 common Snapshot leaf/base/dependencies permit reuse of the existing1TU9/wholelegacy6 with zero extraformalJVM/tests; this is not an independent formal run or fullRoot/Runtime grant. [Common reuse posterior](evidence/2026-11-13-ck3-snapshot-private-first-encoding-method.json).
+
+
+## 2026-11-13：136自然补房332与698／699审阅边界
+
+同329分别冷载135和136，四组快照／粮食／vitals／住房行全相同；西安Builder自然完成后330森林社区0→127/200→332完工，住房23→27／24人。北京改良住房3→7先解除赤字，不能冒授136新增泛滥平原施工。332当前11城均不缺房仅瞬时，三实际推进／五普通END／一议会所含END／21军队SKIP分开，44城帧、三人口区间无新损失；4观察exact撤、332已存未载。0本Native新HTTP，泛滥平原独立324对照另继续。[Native固定反链](evidence/2026-11-13-civ6-native136332.json)。
+
+698完整19801tokens／7277.8312ms未形成新Capture缺陷，正确CHARGING冻结既有；把mock throwAfterTransfer/failCharge混作P4实机拒收。Owner包只给P4/P5，漏27/74/75和独立恢复测试，不能把“待补”做全项目缺失盘点或归模型忽略已供数据。699完整9993tokens／13369.4700ms保留67已测范围，但69文件、4096内存／丢弃门和>1000候选义务无据；原建议CLI实际exit2，0输出目录／0安装，store_true单flag与带true区分。Owner未提供候选生产者／512配置也单列，不重投已闭旧绿或假称136性能已测。[候选与Owner输入限制](evidence/2026-11-13-civ6-models698699.json)。
+
+两HTTP峰2／重叠7.277938秒，stop/DONE／严格JSON；累计699逻辑／648完整stop流（含前692严格JSON拒绝）／48length／3最终transport／729HTTP／30extra。Nov13canonical1.19.5成功缓存复用，OpenCode原生0；未知缓存、Owner总成本与净收益null。继续原协议真正压力夹具和当前风险独立验证，不把软件、历史Native、当前集成与模型采用合并成PASS。
