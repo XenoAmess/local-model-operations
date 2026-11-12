@@ -5886,3 +5886,10 @@ One complete stop:13049 input/826 output, TTFT1.9165s/total7.1741s, peak1/curren
 One complete stop15539in/1143out, TTFT2.1811s/total8.6483s, peak1/current0. Three model method/factory edits preserve the legacy diagnostic fallback but omit checked CharacterCodingException handling in the bounded UTF8 scanner; source defect found before any compiler, owner selection pending. Prior RawJson onehunk now genuinely adopted with LF-only adaptation, actual/formal independently1TU1class+whole6P; owner extraEOFcause guess accounts for the preserved5P1F. Post64fast45 is actual sampled method occurrence only, no CPU/AB/speed. No duplicate HTTP/JVM or live operation for records.
 
 [New complete response and defect](evidence/2026-11-12-ck3-fulljson-direct-byteparser-method.md); [prior true adoption/software and sample boundary](evidence/2026-11-12-ck3-rawjson-owned-byteproof-method.json).
+
+
+## 2026-11-12: Whole historical replay source analysis
+
+One complete stop159481in/1221out, TTFT20.4776s/total28.4085s, peak1/current0. Nine complete current sources supplied; model BOUNDED_NO remains a rejected inference because distinct proofs need not have distinct frame bases and whole-mode differences do not rule out repeated pure sub-computations. Exact source counterexample is conditional, not livehit/ROI or a cache implementation. No automatic secondPOST/software/Runtime grant. Prior FullJsonTree threehunks genuinely partial adopted with local ownerCCE fix, commonwhole11 and qualified formalreuse, not a second formalrun.
+
+[Analysis and exact limits](evidence/2026-11-12-ck3-persistent-replay-scope-source-analysis.md); [prior actual source/software/publication posterior](evidence/2026-11-12-ck3-fulljson-direct-byteparser-method.json).

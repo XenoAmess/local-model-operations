@@ -127,5 +127,179 @@
     "No new cache, public trusted AST or global charset/parser/encoder change.",
     "No timing benefit, CPU allocation saving, AB/Runtime/SAVE grant from request or JFR samples."
   ],
-  "privacy": "Complete code, requests, class Code and private source/fixture paths stay local."
+  "privacy": "Complete code, requests, class Code and private source/fixture paths stay local.",
+  "posterior_source64": {
+    "sourceReady": {
+      "bytes": 2947,
+      "sha256": "4e252883518f3970bab0ff22dd0507f4ef645dfc21ae48f4bd19ed153fc890d8"
+    },
+    "common_source": {
+      "bytes": 9196,
+      "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a"
+    },
+    "grade": "THREE_COMPLETE_MODEL_EDIT_BODIES_PARTIALLY_ADOPTED_PLUS_OWNER_LOCAL_CCE_BOUNDARY_CORRECTION",
+    "owner_correction": "Catch checked CharacterCodingException with exact old IAE message before grammar and remove unused CoderResult import. Static finding repaired before javac; not a production/compiler RED.",
+    "qualification": {
+      "common_prod_TUs": 1,
+      "common_prod_types": 2,
+      "new_Test_TUs": 1,
+      "new_Test_types": 5,
+      "unchanged_required_Test_TUs": 2,
+      "unchanged_Test_types": 3,
+      "whole_new": 6,
+      "whole_existing": 5,
+      "whole_result": "11P0FES",
+      "formal_candidate_same_exact_bytes": true,
+      "formal_qualification_reused_exact_consumed_closure": true,
+      "additional_formal_JVMs": 0,
+      "reuse_and_API_proof": {
+        "bytes": 10257,
+        "sha256": "12c6798c19db1ca0a2fd80c7dd5f0b410b86815c4e353cc21dce5346c6c040a2"
+      }
+    },
+    "qualifier": {
+      "bytes": 16152,
+      "sha256": "b420b55a3dd208d7f8084648c2f7de0c6aed050ada436665df0abc2c52bdbf73"
+    },
+    "phases": [
+      {
+        "role": "fulljson64-compile01",
+        "kind": "compile",
+        "BEGIN": "2026-11-12T13:49:01.122078+00:00",
+        "END": "2026-11-12T13:49:04.155272+00:00",
+        "exit": 0,
+        "accepted": true,
+        "actor_seconds": "2.3760219999821857",
+        "operator_seconds": "3.0331927000079304",
+        "ACTUAL": {
+          "bytes": 1509,
+          "sha256": "61dd1a192da6187a8b32574f193aa662fd3f602590bfca2d79954a5d3f9ac5b8"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "ba3ca83abed965b11b48c54f3ae80b379040c8e8fd9b26b6708f841d73fcb61f"
+        },
+        "classes": 2
+      },
+      {
+        "role": "fulljson64-tests-compile01",
+        "kind": "compile",
+        "BEGIN": "2026-11-12T13:56:14.461189+00:00",
+        "END": "2026-11-12T13:56:17.852642+00:00",
+        "exit": 1,
+        "accepted": false,
+        "actor_seconds": "2.6771511000115424",
+        "operator_seconds": "3.3914492999901995",
+        "ACTUAL": {
+          "bytes": 1571,
+          "sha256": "a36ba6ba4ab4ad718a5964fd5a78ded07a958e6c8c3e83eeb4a7cc6285094281"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "69af5d96d59189ca4412057757dddb7cf7b249a52fa00e5963c3d62167c50bbb"
+        },
+        "classes": 0
+      },
+      {
+        "role": "fulljson64-tests-compile02",
+        "kind": "compile",
+        "BEGIN": "2026-11-12T14:00:23.202737+00:00",
+        "END": "2026-11-12T14:00:27.234637+00:00",
+        "exit": 0,
+        "accepted": true,
+        "actor_seconds": "3.316664700047113",
+        "operator_seconds": "4.031898200046271",
+        "ACTUAL": {
+          "bytes": 1571,
+          "sha256": "6f8afcc8dcad6251bc29d044745be376cb54566346fc86cf382caa8e3ce7d376"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "5d736f603f4a420d6af3cfa53caee79f621263844cda0c9f249034f5aea788d6"
+        },
+        "classes": 8
+      },
+      {
+        "role": "fulljson64-whole11-junit01",
+        "kind": "junit",
+        "BEGIN": "2026-11-12T14:02:18.284409+00:00",
+        "END": "2026-11-12T14:02:21.317110+00:00",
+        "exit": 0,
+        "accepted": true,
+        "actor_seconds": "2.306282800040208",
+        "operator_seconds": "3.0326956000644714",
+        "ACTUAL": {
+          "bytes": 1541,
+          "sha256": "7000910b51031a4dbc6dd6f4a461b5c16ad6c383bdc396b96c6ff7d84d6f94fc"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "ec21a23c4d0bc008adfb710a64dde09143294ced0c08972fcff10bf0297b2355"
+        },
+        "XML": [
+          {
+            "pin": {
+              "bytes": 11367,
+              "sha256": "ae687e1a91b74d46d25d987e8938de2755bdba92ded883f55e9a5170138ea3d3"
+            },
+            "counts": {
+              "tests": 11,
+              "failures": 0,
+              "errors": 0,
+              "skipped": 0
+            }
+          }
+        ]
+      }
+    ],
+    "coverage": [
+      "Whole original6865 legacy class retained as independent oracle; productionprivate fast scanner/parser not mirrored. All new6 plus original CharBuffer3583+DecodedBufferBoundary2 run whole in oneJUnit.",
+      "Exact output/numeric lexemes/order, strict fullUTF8 priority before token errors, 32768/32769 UTF16-unit boundary for ASCII/BMP/supplementary, malformed/BOM/wide-domain admission/errorcause/location, limits/depth/duplicate/trailing and clonedinputs/returnedtree/encodercallbacks compared.",
+      "Actual/formal BASE differ only lineendings, sharedcommon9196 candidate and eight directdependency members have exactsame classbytes; threeJar containers exactsame. Only this sourceunit consumed closure/testing reuses, not formalRoot/platform/Runtime.",
+      "Actual2->2 oldtypes and all public/protected descriptor+flags retained, newprivateBYTE_FACTORY/methods structural so notbody-only/HCR. No Runtime/live/GET/authority/throughput/CPU/savegoal qualification."
+    ],
+    "preserved_failures": {
+      "first_Test_compile": "3local lintwarnings on new FailingObjectNode inheriteddeepCopy bridge/serialUID/events, -Werror led RED/0class; actual13:56:17.772554CLOSE1 released.",
+      "owner_correction": "Only subclass localunchecked+SerialUID+transientevents metadata; serializebody/sixcases/wholelegacy/inputs/twooldTests/globalWerror unchanged.",
+      "model_static_checked_CCE": "Owner source catches checked CCE with originalIAE before any javac; not called a model/production javacRED.",
+      "original_Test_prediction4_to5": "One existing enum-switch synthetic added to four normal declared types; originalReady01 preserved, actualnew5/old3 used."
+    },
+    "business_publication": {
+      "pin": {
+        "bytes": 919,
+        "sha256": "150be39b7552597f08c0951129d1e4a965980ba0dd372600b8a855fcbeb4f262"
+      },
+      "commit": "4157b0bfa5a8623d8bd0e46af48d5019d90d6461",
+      "remote_master_at_cut": "4157b0bfa5a8623d8bd0e46af48d5019d90d6461",
+      "clean_at_cut": true,
+      "files": 5
+    },
+    "defined_native_cost": {
+      "new_business_JVMs": 4,
+      "new_counts": {
+        "compile": 3,
+        "junit": 1
+      },
+      "new_actor_seconds": "10.6761206000810491",
+      "new_operator_seconds": "13.4892358001088723",
+      "all_business_JVMs": 138,
+      "all_counts": {
+        "compile": 98,
+        "junit": 38,
+        "data-main": 2
+      },
+      "all_actor_seconds": "1723.6156720998697063",
+      "all_operator_seconds": "2088.3155093998648129",
+      "actor_nested_in_operator_do_not_add": true,
+      "first_Native_BEGIN": "2026-11-11T17:32:29.172610+00:00",
+      "last_Native_END": "2026-11-12T14:02:21.317110+00:00",
+      "whole_span_BEGIN_to_lastEND_seconds": "73792.1445",
+      "whole_elapsed_to_reportcut_seconds": "74263.840999",
+      "Source64Ready": "2026-11-12T13:42:47.844898+00:00",
+      "Source64Ready_to_lastEND_seconds": "1173.472212",
+      "Source64Ready_to_reportcut_seconds": "1645.168711",
+      "independent6JFRtools_and2older_perf_compiles_excluded": true
+    },
+    "limits": "One common1TU2classes and one11-case run (new6+existing5), not eleven new tests or independent actual/formal two runs. Formal reuse supported only by exact common source/eight direct dependency classes/three JAR containers, not the complete platform. No Runtime/adoption/CPU/allocation/wall/SAVE result from this software/publication cut."
+  }
 }
