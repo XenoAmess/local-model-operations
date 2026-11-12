@@ -6043,3 +6043,13 @@ One complete stop153006in/2399out/34.1739sHTTP/TTFT19.7840s, peak1/current0. All
 ### Event73 posterior: real partial DTO adoption, owner closes binding/archive/failure
 
 First-response constants/policy/DTO fragments were genuinely selected into actual96260/f16de425, with owner exact-event binding, original-wire archive/ref and no-fullfallback/wire refusal. Production1TU4+owner22Test1TU4 actual0 and whole3P/CLOSE21:18:23.283800Z verified; local event5requests72422–72423B/non-event120247B, unsupported/oversize0HTTP. Not exact3hunk adoption, latest0adoption, provider or Runtime/ROI. Preflight0VM failures separate; no second engineeringPOST. [Fair posterior and exact qualification](evidence/2026-11-13-ck3-event-scoped-context73-method.json).
+
+
+### Event73 real provider acceptance after independent formal whole3
+
+Formal2TU8 and independentwhole3P/CLOSE21:26:40.538350Z, exact6 c9132cbd4b5 published. Runtime newfresh request78638B/21461in145out actually200complete/TTFT2853ms total3663ms; not old4.67MB replay/AB/Nativeeffect/SAVE. Partial model DTO fragments and owner safeguards stay distinct; no new operatorHTTP/VM/live. [Formal and actual provider posterior](evidence/2026-11-13-ck3-event-scoped-context73-method.json).
+
+
+## 2026-11-13: Action72 hot-history implementation, final bounded second still length
+
+Two nonoverlapping HTTPs at max8000/12000 both length/DONE, complete19-source438671B input same/current.191078in/20000out/124.0768093sHTTP, peak1/current0, no retry/transport; whole incomplete texts unused/unread/not fed back or spliced. Java takes over/no thirdHTTP. Output granularity is not semanticNO/compilerRED/capability ceiling; zero model code/software/Runtime/ROI. [Exact budget/cost/handoff evidence](evidence/2026-11-13-ck3-action-canonical-history72-output-budget.md).

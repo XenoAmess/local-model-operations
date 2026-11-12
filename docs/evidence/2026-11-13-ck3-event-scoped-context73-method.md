@@ -17,3 +17,11 @@ Java selected first-response constants/policy and DTO snapshot/command/final-pla
 Necessary production1TU4 and final owner22Test1TU4 compiled successfully. Real whole3 passed3/0FES, inputs unchanged and fence released at21:18:23.283800Z. The five local event exchanges were72422–72423bytes, one non-event120247bytes; unsupported/oversized events made zero HTTP calls. These are localhost software observations, not provider acceptance, loading, real event effect, latency or SAVE. Native preparation01/02 had0BEGIN/0Java; no source javac RED is charged to the model.
 
 Native cumulative cut175businessJVM=122compile+51JUnit+2DATA and ten independent tools is separately pinned; actor time nests in operator time. No additional engineering HTTP or operator JVM/live operation was performed for this update. Initial static rejection remains historical, and notification delay is recorded separately from the34.174s HTTP.
+
+## Formal and first actual provider posterior
+
+Formal Selector100823/2ad98a1c preserves its existing variant; the test changes only its default fixture path. Necessary2TU8 compiled and whole3 independently passed3/0FES/CLOSE21:26:40.538350Z. Java published exact6 at c9132cbd4b528ee9efda5912a9480355cf98eb31 and reported remote/clean. Partial model/owner attribution is unchanged; actual software was not relabeled as a formal run.
+
+Runtime independently supplied the first new fresh provider request: started21:28:03.433386700Z,78638wire bytes,200/complete,21461input+145outputtokens,TTFT2853ms/total3663ms/cache unknown. The raw END has duration and original start, not an independent END timestamp. This proves actual acceptance of this new bounded input. It is a different proposal/frame from the earlier4.67MB400, not a retry of the old action, lossless projection or AB speed claim. The specific index holds ActionSelected scalars and no Native effect/SAVE qualification. No operator diagnostic/research request or live query was added for this update.
+
+The final Native cumulative cut177businessJVM=123compile+52JUnit+2DATA and ten independent tools remains separate from model HTTP and Runtime.
