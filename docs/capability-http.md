@@ -5554,3 +5554,8 @@ Three complete stop requests, peak3 sustained96.564502s; 623354 input / 6452 out
 ## 2026-11-12：652适用性端口与真假值多返回
 
 652完整3552tokens／8050.9301ms，continue实际Lua51编译失败，Safe返回result,OK却按success,boolean消费，true/false双隔离见证整拒0rawNative。Owner8合同后，真实team0／SolarIndex38，217己方可见格逐一Core重核后全false0未知；同端口6滑雪场阳性。补充未资格Core方法报错、未知部分调用数另留，不计绿。原版相邻建设独立operation实际消费者找到，继续具体实现；当前适用不授清地后结果或命令许可。累计652/608完整41length3transport682HTTP30extra，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-model652-suitability.json)。
+
+
+## 2026-11-12：653／654相邻施工与126软件交付
+
+两真实任务实际初始/峰值2、重叠26.500657秒。653完整28754tokens／26500.6884ms，错把CanStartOperation多返回当GetOperationTargets，隔离合法目标仍nil/0真正getter；ctx/站位/writer等整拒。654完整29478tokens／31049.9640ms，Python过但13setup错误0行为pass，未补原输入已明示缺失的UnitOperationResults，另有空pass/坐标误读等整拒。Owner按原版独立adjacent operation、真实Hash稀疏目标/邻格站位/最后元数据函数重读实现，15Lua51新方法，全1807项1806pass1SDKskip、95Lua/117字节精确包；旧125修订3关键行为失败0异常。初哨兵fixture2fail1error分账。126待正式冷验，不授当前125/275施工实效。累计654/610完整41length3transport684HTTP30extra，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-source126-adjacent-builder.json)。
