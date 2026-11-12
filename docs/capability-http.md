@@ -5912,3 +5912,8 @@ One authorized correction stop161520in/1330out, TTFT1.6092s/total10.9065s. Suppl
 One complete new method request23950in/1238out, TTFT3.3263s/total10.7780s, peak1/current0. Three private oneuse edits follow selected callback/hash/schema order but use nonexistent Map.Entry.of twice; owner received exact Map.entry correction before any javac. Three literal LFanchors/inverse checked, initial CRLFchecker error is operator-only. Distinct from two rejected historical analyses, not their third broad requery or adoption. No model Test/software/Runtime/majorROI claim.
 
 [Exact source boundaries and costs](evidence/2026-11-12-ck3-reader-manifest-oneuse-handoff-method.md).
+
+
+## 2026-11-12：Civ6691住房需求和重复社区
+
+691完整10455tokens／7976.6551ms／TTFT1620.8209ms，只采用有界调查方向，Owner纠正负缺口算术、需求不等于排序、先计扫描预算及未审原因表；漏答重复社区由实际OnePerCityfalse、邯郸已有社区仍双CanProduce真补证。133／318北京15/20、邯郸18/20、上海14/15，需求／双生产均真，原生可放置4／2／5不授ClearPlot／资产／粮食／保留或最终操作资格，0游戏动作，不归因政体。累计691／640完整48length3transport721HTTP30extra，新峰1；同机Nov12维护缓存复用、原生0／未知成本null。[固定住房诊断反链](evidence/2026-11-12-civ6-housing691-native318.json)。

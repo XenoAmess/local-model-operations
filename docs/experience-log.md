@@ -189,3 +189,8 @@ Owner修正部分680/681后实际冷验：已转入旧许可不重发，另一�
 ## 2026-11-12：Civ6项目投资接续134与689／690
 
 689完整27324tokens／30177.3274ms，仅纯ResumeProjectScore窄hunk部分采用；原两Controller hunk各匹配一次，独立12方法5failure，Owner重写特殊项目独立接续、预算前保留／去重与最终资格。690 length5000／29146tokens／42384.0964ms正文未读整弃。Owner首次11/12过，合法校园抢先属隔离夹具，纠正后12过7.960s；旧133对新12方法15failure1error含subTest。冻结全1968项1967pass1SDKskip、97Lua51／119包逐字节，417.642s不是净节省或实机性能；软件切点仍133／318，134实效后见另记。两HTTP峰2／重叠30.176518秒，累计through690为690／639完整48length3transport720HTTP30extra，Nov12维护缓存复用、原生0／未知成本null。[固定续建软件反链](evidence/2026-11-12-civ6-project-resume134-model689690.json)。
+
+
+## 2026-11-12：Civ6691住房需求和重复社区
+
+691完整10455tokens／7976.6551ms／TTFT1620.8209ms，只采用有界调查方向，Owner纠正负缺口算术、需求不等于排序、先计扫描预算及未审原因表；漏答重复社区由实际OnePerCityfalse、邯郸已有社区仍双CanProduce真补证。133／318北京15/20、邯郸18/20、上海14/15，需求／双生产均真，原生可放置4／2／5不授ClearPlot／资产／粮食／保留或最终操作资格，0游戏动作，不归因政体。累计691／640完整48length3transport721HTTP30extra，新峰1；同机Nov12维护缓存复用、原生0／未知成本null。[固定住房诊断反链](evidence/2026-11-12-civ6-housing691-native318.json)。

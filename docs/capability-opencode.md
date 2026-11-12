@@ -1578,3 +1578,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-12：134项目投资软件候选
 
 689／690均普通HTTP，维护继续复用Nov12同机用户OpenCode1.19.5成功缓存；纯helper部分采用／Controller由Owner重写，1967软件通过不授OpenCode代码生成或Native134。累计through690为690／639完整48length3transport720HTTP30extra，原生0，未知成本null。[固定续建软件反链](evidence/2026-11-12-civ6-project-resume134-model689690.json)。
+
+
+### 2026-11-12：691住房只读调查
+
+普通HTTP一完整请求，原生游戏读回由Owner执行；不等于OpenCode原生工具生成，累计该模式仍0。Nov12 OpenCode1.19.5成功维护缓存复用，累计691／640完整48length3transport721HTTP30extra，未知成本null。[固定住房诊断反链](evidence/2026-11-12-civ6-housing691-native318.json)。
