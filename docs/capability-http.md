@@ -5778,3 +5778,8 @@ Later existing Runtime loader evidence for another nested type motivates an owne
 One guided two-TU implementation completes stop/DONE:33360 input/791 output, TTFT4.3619s/total9.1901s, no retries/length, peak1/current0. Two source edits preserve both-clones-before-parse precedence, old public Input/observe/finance paths, the literal private algorithm and Collector encoder order. Only CRLF anchors need mechanical adaptation. Null-error Test prose is corrected to the real NPE behavior, with no repeated request or generated Test credit. D candidates are handed to the source owner; software/Runtime/speed outcomes are still separate.
 
 [Source, costs and ownership/error-order evidence](evidence/2026-11-12-ck3-owned-byte-priority-once.md).
+
+
+## 2026-11-12：674/675既有建筑修复302
+
+两完整候选26535／25774tokens，实际峰2／重叠24.20032秒；674删旧分支使13方法17断言失败0异常，675十五方法4失败0异常且true/true、空负例、递归fallback，整稿拒绝，窄段待正式验证。Owner错误预期setup异常／缺shape撤回，纯Lua递归探针中断结果未知。130实际4风电、秀容free4需3仅单帧；新工坊72/97受阻已存302／0END，131尚未写。累计675／629完整43length3transport705HTTP30extra；OpenCode维护缓存、原生0／净收益null。[固定blob反链](evidence/2026-11-12-civ6-workshop302-model674675.json)。
