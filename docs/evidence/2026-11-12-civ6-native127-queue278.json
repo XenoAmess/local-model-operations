@@ -1,0 +1,182 @@
+{
+  "machine_id": "BF-202609141645",
+  "source_install_runtime": 127,
+  "native_queue_case": {
+    "unitID": 6750250,
+    "source126_saved277": {
+      "xy": [
+        55,
+        31
+      ],
+      "moves": 2,
+      "charges": 2,
+      "native_queue": 2350
+    },
+    "source127_cold277": {
+      "xy": [
+        55,
+        31
+      ],
+      "moves": 2,
+      "charges": 2,
+      "native_queue": 2350,
+      "new_mod_requests": []
+    },
+    "after_one_ordinary_END277_actual278": {
+      "xy": [
+        56,
+        31
+      ],
+      "plotID": 2350,
+      "moves": 2,
+      "charges": 2,
+      "native_queue": null,
+      "exact_new_mod_requests": [
+        "BaiqiExecutor: BAIQI|request|turn=278|id=0:278:12|source=BACKGROUND|unit=6750250|operation=SKIP_TURN|plot=2350|from=2350"
+      ]
+    },
+    "no_new_mod_MOVE_request_for_this_actor_after_reload": true,
+    "no_queue_clear_or_cancel_or_civilian_test_input": true,
+    "original_engine_queue_reached_original_destination": true,
+    "claim_scope": "Known native Builder queue survives UI/process reload without overwrite and completes through ordinary turn flow; original transient pending requestID was not restored or newly observed."
+  },
+  "completed_skis": {
+    "three_from126_save_preserved": true,
+    "actual_total278": 5,
+    "all_unpillaged": true,
+    "rows": [
+      [
+        "P6_BUILDERQUEUE127_ACTUAL_SKI",
+        "278",
+        "65536",
+        "2573",
+        "57",
+        "34",
+        "45",
+        "2135005470",
+        "false"
+      ],
+      [
+        "P6_BUILDERQUEUE127_ACTUAL_SKI",
+        "278",
+        "65536",
+        "2424",
+        "56",
+        "32",
+        "45",
+        "2135005470",
+        "false"
+      ],
+      [
+        "P6_BUILDERQUEUE127_ACTUAL_SKI",
+        "278",
+        "196610",
+        "2793",
+        "55",
+        "37",
+        "45",
+        "2135005470",
+        "false"
+      ],
+      [
+        "P6_BUILDERQUEUE127_ACTUAL_SKI",
+        "278",
+        "196610",
+        "2721",
+        "57",
+        "36",
+        "45",
+        "2135005470",
+        "false"
+      ],
+      [
+        "P6_BUILDERQUEUE127_ACTUAL_SKI",
+        "278",
+        "458758",
+        "2351",
+        "57",
+        "31",
+        "45",
+        "2135005470",
+        "false"
+      ]
+    ],
+    "new_127_build_requests": [
+      "BaiqiExecutor: BAIQI|request|turn=278|id=0:278:3|source=BACKGROUND|unit=7798799|operation=BUILD_IMPROVEMENT_ADJACENT|plot=2573|from=2647",
+      "BaiqiExecutor: BAIQI|request|turn=278|id=0:278:11|source=BACKGROUND|unit=7340072|operation=BUILD_IMPROVEMENT_ADJACENT|plot=2351|from=2278"
+    ],
+    "new_127_observed_lines": [
+      "BaiqiExecutor: BAIQI|observed|turn=278|id=0:278:3|unit=7798799|kind=BUILD_IMPROVEMENT_ADJACENT",
+      "BaiqiExecutor: BAIQI|observed|turn=278|id=0:278:11|unit=7340072|kind=BUILD_IMPROVEMENT_ADJACENT"
+    ],
+    "actual_new_actor_charge_changes": [
+      {
+        "unitID": 7798799,
+        "cold277": 2,
+        "after278": 1
+      },
+      {
+        "unitID": 7340072,
+        "cold277": 3,
+        "after278": 2
+      }
+    ],
+    "not_a_power_supply_claim": true
+  },
+  "TEST_PLAYER": {
+    "cold_load_requests": 1,
+    "Continue_physical_clicks": 1,
+    "explicit_normal_END_turns": [
+      277
+    ],
+    "military_SKIPs": 7,
+    "Canada_trade_reject_and_bye_clicks": 2,
+    "UserForced": 0,
+    "manual_domestic": 0,
+    "BACKGROUND_military_or_diplomacy": 0,
+    "timeout_did_not_replay_END": true,
+    "END278_sent": false
+  },
+  "loop_liveness": {
+    "cold_active_background_wait_lines": 4,
+    "after278_BAIQI_requests": 16,
+    "five_original_builder_actor_queues_nil_after278": true,
+    "same_actor_allowed_standby_only_after_original_queue_empty": true
+  },
+  "Lua_module_errors": [],
+  "through656_cumulative_reference": {
+    "logical_calls": 656,
+    "complete": 611,
+    "length_failures": 42,
+    "transport_failures": 3,
+    "HTTP_attempts": 686,
+    "additional_attempts": 30,
+    "OpenCode_native_generation": 0,
+    "cached_prompt_tokens": null,
+    "net_savings_seconds": null
+  },
+  "still_open": [
+    "Historical unknown outcomes whose native queue is no longer present",
+    "Actual renewable site planning/research prerequisites/construction and durable power",
+    "Recurring food phase and old213/222/full matrix"
+  ],
+  "schema": "local-model-operations.civ6-native127-queue278/v1",
+  "utc": "2026-11-12T01:55:15.494336+00:00",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/bfb338d7a4da8802f22c1894a50be85839388761/docs/research/baiqi-p6-native127-builder-queue278-2026-11-12.json",
+    "sha256": "160a26a12cef341624398c8f68b3143e731dd4d8d81d213cc5231fe897f91acb",
+    "bytes_scope": "git_blob",
+    "working_copy_sha256": "1076dc401acf4338a2b370899cc3285d7d929cba625ccfb0d07ea63f8a77f6f2"
+  },
+  "generic_lessons": [
+    "A preserved native queue can supply an already-existing engine action after reload; reaching the original destination without a new mod MOVE is distinct from reconstructing a transient pending requestID.",
+    "Verify queue, actor position and cost across a complete ordinary turn, not merely END acknowledgement or a readiness timeout.",
+    "After a queue completes, a newly allowed standby at the destination is not an override of the old queue; establish ordering through getter state and the final writer guard.",
+    "Other actors completed new work in the same window, supporting loop liveness rather than a blanket action freeze."
+  ],
+  "new_HTTP": 0,
+  "655656_already_counted": true,
+  "657_is_separate_site_followup": true,
+  "OpenCode_native_generation": 0,
+  "unknown_cost_and_savings": null
+}

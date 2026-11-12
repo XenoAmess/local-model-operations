@@ -5590,3 +5590,8 @@ One complete stop42.5306s/TTFT7.5321s, 57685 input/6221 output, peak1/no retry. 
 ## 2026-11-12：655队列helper采用、656截断与127软件
 
 655完整25111tokens／10095.9680ms，外层字段object/array不符任务string但JSON VALID，Ownertyped提取后Lua51及返回形态见证通过，采用实际helper将Builder纳入现有队列防覆盖；无关演员只保getter范围，不授额外权限。656 HTTP200/DONE但length，29820tokens／34946.7484ms，原文未读未采用未重投。Owner12新方法、旧126三方法8断言失败0异常，全1819项1818pass1SDKskip、95Lua/117字节精确包。Owner先漏UnitOperations夹具表致12setup错误，修正分账，不归模型。双任务峰值2／重叠10.096057秒，累计656/611完整42length3transport686HTTP30extra，127待自然277/2350队列冷验，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-source127-builder-queue.json)。
+
+
+## 2026-11-12：127已知原生队列跨冷读及普通完成
+
+自然277档冷读后原生Builder675的2350队列/位置/次数保持、0新模组请求，世界/全部城市组/54单位/food/vitals保持。一普通END/7军事SKIP、加拿大拒绝再见2点击后，278到原目标56,31、队列nil/charges2，新实例0该演员MOVE，仅到达后SKIP；不把旧pending requestID冒充已恢复。其他演员续建2滑雪场，5总数及次数2→1/3→2，表明非全局冻结。0新HTTP不重计655656，657地点诊断另记；历史空队列UNKNOWN与持续电力仍开放。[固定blob反链](evidence/2026-11-12-civ6-native127-queue278.json)。
