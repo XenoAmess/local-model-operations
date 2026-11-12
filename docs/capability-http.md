@@ -5573,3 +5573,10 @@ Four complete stop requests for three exact duties, peak2/28.232321s; 283145 inp
 Three full-source studies completed stop, peak3/45.802773s, 322699 input/2080 output; no retry/length. No usable patch: double projection NO lacks a concrete equivalence obstruction; role-decode NO uses unproven sample-to-I/O causality; identity NO partly distinguishes real CAS data but misreads checkRoot callers. Stage/JFR windows and278.6456252s unattributed residual explicit; nearest leaf counts are not CPU or true calls. Zero optimization/Runtime/SAVE credit; earlier typed partial adoption remains separate.
 
 [Counts, source roles and owner corrections](evidence/2026-11-12-ck3-c21c22-jfr-three-source-studies.md).
+
+
+## 2026-11-12: Driver projection three-leaf implementation
+
+One complete stop42.5306s/TTFT7.5321s, 57685 input/6221 output, peak1/no retry. Rejected before compile: onlyAssembler edits, leaked public projectFull token scope and removed originalactor/alive/calendar checks. Threeanchors and12named historical testmethods are real, not test passes. Later owner nominal Reader API arrived afterPOST and gets no retrospective model credit; no Runtime/optimization/SAVE grant.
+
+[Cost and original-vs-later contract boundary](evidence/2026-11-12-ck3-driver-projection-implementation.md).

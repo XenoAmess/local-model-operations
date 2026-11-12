@@ -1,0 +1,102 @@
+{
+  "schema": "local-model-operations.driver-projection-implementation/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "scope": "One actual owner-selected three-leaf single-call projection implementation; not repeated generic source review.",
+  "input": {
+    "files": 25,
+    "prefix": {
+      "bytes": 261747,
+      "sha256": "65fbadc51849f405df0585cb21743f2778479913d2fd3e4ab49f5e57d9b8d3b4"
+    },
+    "historical_tests_distinct_from_current_production": true
+  },
+  "request_audit": {
+    "model": "qwen38-coder",
+    "messages": 3,
+    "max_tokens": 10000,
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "include_usage": true,
+    "network_routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    },
+    "same_day_success_cache_reused": true,
+    "service_or_active_config_changed": false
+  },
+  "http": {
+    "post_begin_utc": "2026-11-12T01:02:29.505523+00:00",
+    "end_utc": "2026-11-12T01:03:12.036169+00:00",
+    "http_status": 200,
+    "finish_reason": "stop",
+    "SSE_DONE": true,
+    "json_syntax": "VALID",
+    "http_headers_ms": 7531.11420001369,
+    "first_nonempty_content_delta_ms": 7532.146300072782,
+    "total_ms": 42530.62560001854,
+    "prompt_tokens": 57685,
+    "completion_tokens": 6221,
+    "cached_prompt_tokens": null,
+    "attempts": 1,
+    "retry": 0,
+    "length": 0,
+    "financial_cost": null
+  },
+  "concurrency": {
+    "definition": "POST_BEGIN through END",
+    "peak": 1,
+    "current_after_end": 0
+  },
+  "owner_review": {
+    "grade": "REJECTED_SOURCE_CANDIDATE_BEFORE_COMPILE",
+    "adopted": false,
+    "first_contract_violations": [
+      "Only Assembler edits; missing required Reader entry and Loader capture/routing.",
+      "Private ThreadLocal issued by public projectFull, survives its return and has no finally cleanup; token scope is not one internal new Complete.",
+      "Equality/callback-capable checks run before token consumption.",
+      "Matched token bypasses the original complete validation block instead of retaining required equations.",
+      "Public assemble loses actor/session equality, alive check and calendar validation.",
+      "Public projectFull now requires a player identity and changes its death-capable FullSnapshot contract."
+    ],
+    "not_a_new_contract_failure": "The later Reader-private ValidatedOriginals/package-private Assembler signature arrived after actual POST. It was not inserted into the old request or assumed read by model.",
+    "mechanical_positive_evidence": {
+      "unique_existing_anchors": 3,
+      "all_matched_once": true,
+      "claimed_existing_test_methods": 12,
+      "methods_present_in_supplied_historical_files": 12,
+      "tests_executed": 0
+    }
+  },
+  "later_owner_contract": {
+    "Reader_private_constructor_package_private_ValidatedOriginals": true,
+    "Assembler_package_private_nominal_entry": true,
+    "arrived_after_first_POST": true,
+    "exact_arrival_UTC": "NOT_HELD",
+    "request_cancelled_or_reposted": false,
+    "model_given_retroactive_credit_for_later_signature": false
+  },
+  "qualification": {
+    "model_code_adopted": 0,
+    "candidate_compilation_executed": false,
+    "compiler_RED_observed": false,
+    "tests_executed": 0,
+    "Game_or_Native_operation": 0,
+    "Runtime_admission": false,
+    "optimization_benefit_measured": false,
+    "saved_day_credit": false,
+    "previous_typed_Life_partial_adoption": "Separate actual outcome, not overwritten"
+  },
+  "content_receipt": {
+    "name": "ATTEMPT1-CONTENT.txt",
+    "bytes": 30975,
+    "sha256": "d6696baf659244914513dd4e7dab1ebb0dfce4186ed81952f86c3116de3406df"
+  }
+}
