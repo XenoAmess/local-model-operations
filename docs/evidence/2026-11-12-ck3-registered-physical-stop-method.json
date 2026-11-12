@@ -168,5 +168,71 @@
     "source_HTTP_as_Runtime_gate": false,
     "old_unknown_deadline_or_ledger_changed": false
   },
-  "privacy": "Raw source, original reads/results, game facts and private paths remain local."
+  "privacy": "Raw source, original reads/results, game facts and private paths remain local.",
+  "later_owner53_integration_error_and_source56_repair": {
+    "at_utc": "2026-11-12T05:49:22.226712+00:00",
+    "classification": "OWNER_POSTPROCESS_RANGE_ERROR_NOT_MODEL_SEMANTIC_FAILURE",
+    "original_model_edits": "Reapplying the two original unique edits to the complete frozen baseline retains all eight old public declarations and the complete verifyClockReport region.",
+    "owner_error": "When shortening a repeated Javadoc in the whole integrated file, an owner index matched the earlier identical comment and sliced through the two old public methods. Original model edits did not remove either API.",
+    "model_comment_boundary": "The candidate duplicated a report-level comment. That unnecessary comment can be shortened locally; its presence does not make the original unique edits remove APIs.",
+    "bad_source53": {
+      "bytes": 17124,
+      "sha256": "00b48638915ba6c56d9acd6c201982ba4698d41b8bb96d61f3796847bf828a83"
+    },
+    "missing_public_methods": [
+      "verifyClockReport",
+      "compatibleResult"
+    ],
+    "actual_runtime58_error": "NoSuchMethodError for compatibleResult, not a claimed second runtime exception for the other missing method.",
+    "runtime_original_failure": {
+      "bytes": 5294,
+      "sha256": "ce639a4b5f472f80bac9c77bf06bad6486709928c4ab4f1d7c49db7ab4e9fae7"
+    },
+    "prior_typing_and_DATA": {
+      "qualifier": {
+        "bytes": 4533,
+        "sha256": "2a5d756a2991f13d7fec36fb0d7807d9246fb73feb34e7788490385339a1ea5f"
+      },
+      "manual_DATA_cases": 4,
+      "JUnit_cases": 0,
+      "all4_PASS_COMPLETE": true,
+      "whole_compatibleResult_Root_membership": false,
+      "manual_actor_seconds": 4.3929766999790445,
+      "TestReady_to_Main_END_seconds": "970.587974",
+      "compile_END_to_Main_BEGIN_seconds": "610.980222",
+      "limitation": "True helper/original-read/stopped-value/wrong-operation DATA results do not prove the missing public entries exist or the full Root recovery works."
+    },
+    "source56": {
+      "ready_original": {
+        "bytes": 3023,
+        "sha256": "65b47a1e52de55e3a463b77304f5a4cdb29f77f2a61f70cb5ea084d1a9bb7320"
+      },
+      "ready_corrected_active_base": {
+        "bytes": 3525,
+        "sha256": "81bc911368f7f2c79456a9e366ffa09e486e63eb6c4b2357b144e61a5d6e00e1"
+      },
+      "source": {
+        "bytes": 25635,
+        "sha256": "80734d781aa2115aea1a61529269448437a44f91e3f985ea4d067ed81f05e525"
+      },
+      "original_complete_baseline": {
+        "bytes": 24776,
+        "sha256": "6b216750a1fe6572370f3bf71fbb33cb49de90f5e528d7e70687f0a9e532c32b"
+      },
+      "repair": "Reapply original model edits to frozen complete baseline, shortening only the inserted edit.new comment before applying.",
+      "read_only_whole_check": {
+        "bytes": 2832,
+        "sha256": "a9a5b2c9e7ab0179395e83fb8e0149e88b08a4a138a06190557ccd2683501565"
+      },
+      "retains_all8_old_public_declarations": true,
+      "verifyClockReport_full_region_unchanged": true,
+      "only_difference_from_original_model_composition": "new helper Javadoc",
+      "qualification": "NOT_HELD at this source-only cut; necessary compiler/API/public-entry qualification belongs to existing owner",
+      "Ready02_metadata_correction": "Original complete baseline is retained separately; actual installed bad53 is identified as active base. Ready01 is not overwritten."
+    },
+    "new_model_HTTP_JVM_or_live_by_record_owner": 0,
+    "old_failure_or_deadline_rewritten": false,
+    "Runtime_APPLIED_qualification": false,
+    "complete_repair_wall_window": "NOT_CLOSED at this source-only cut; do not replace full costs by the short DATA actor."
+  }
 }

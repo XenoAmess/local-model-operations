@@ -5725,3 +5725,10 @@ One guided method response complete stop/DONE:46812 input/847 output, TTFT6.1164
 一次完整stop，13136输入／1391输出tokens，TTFT2011.987ms／HTTP9716.920ms，具名峰值1／9.710212秒。候选可读真实六条回执，但错误receipt SHA、字节数及双斜线路径三反例被接受。Owner部分沿用索引／类型／时长守卫结构，改用已供源码中的CaptureFile公开校验，实际六条接受／七类负例全拒绝；无逐字整方法采用。Composer、布局与五秒AV组件为owner独立工作，全文录像／影片仍待桌面时段，不授文字模型审图或影片批准。提示程度、人工成本及缓存边界明示。
 
 [真实输入、三反例、部分采用与固定消费提交](evidence/2026-11-12-hoi4-promo-index-loader.json)。
+
+
+## 2026-11-12: Later owner postprocessing error and source-only restoration
+
+No new HTTP/Java/live. Original physical-read model edits retain all8 old public declarations; owner whole-file Javadoc slicing accidentally removed2, causing actual compatibleResult NoSuchMethodError. Helper4 manualDATA pass remains true but does not qualify public-entry or full Root behavior. Restored Source56 matches original model composition except its local helper comment; new qualification is pending at this cut. Separately, Snapshot54 actually adopts all9 production edits after only the two mechanical anchor fixes; generated Test remains rejected.
+
+[Original failure, ownership and restored-source boundary](evidence/2026-11-12-ck3-registered-physical-stop-method.md); [snapshot later source adoption](evidence/2026-11-12-ck3-receiver-review-snapshot-and-root-subtrees.md).
