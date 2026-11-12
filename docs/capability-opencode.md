@@ -1558,3 +1558,8 @@ Owner纯只读模块实际原版界面KNOWN，普通25煤交易是TEST_PLAYER准
 ### 2026-11-12：685当前生产验收分析
 
 成功复用同机同用户当日OpenCode1.19.5维护缓存；685是普通HTTP，完整但关键现场前提误读而整拒。累计685／636完整46length3transport715HTTP30extra，OpenCode原生0，未因维护授生成或Native通过。[固定逐项反链](evidence/2026-11-12-civ6-native-coal309-model685.json)。
+
+
+### 2026-11-12：686有条件分析
+
+同机同用户Nov12 OpenCode1.19.5维护成功缓存复用；686普通HTTP完整分析仅部分条件采用，四Owner修正，0代码/Native采用。累计686／637完整46length3transport716HTTP30extra，原生0、未知成本null。[固定本项目反链](evidence/2026-11-12-civ6-original-oil311-model686.json)。

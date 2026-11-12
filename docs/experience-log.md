@@ -169,3 +169,8 @@ Owner修正部分680/681后实际冷验：已转入旧许可不重发，另一�
 ## 2026-11-12：Civ6正燃料实际供电与685分析拒用
 
 685完整stop/DONE/JSON，16224+1484=17708tokens、12453.2812ms，峰1；把保留143当项目队首、>=0当正、娱乐区作工业前提、猜项目缺电等五项反例，整稿拒用／0代码或Native采用。Owner分开已有维修优先级与真实新决策。独立煤25→20后11城全供电、娱乐区修好接斗兽场，新项目请求0，正燃料缺电选项目仍开；新2574救粮OBSERVED，309人口损失及自有火点只支持火灾推断，保存停。Cities:Members与Deal:Items不同迭代合同，Owner只读错误0操作修正。累计685／636完整46length3transport715HTTP30extra，维护缓存复用／OpenCode原生0／未知成本null。[固定逐项反链](evidence/2026-11-12-civ6-native-coal309-model685.json)。
+
+
+## 2026-11-12：Civ6686未用燃料条件与原版交易
+
+686完整7990+857=8847tokens／7354.0739ms，峰1。只采用有条件逻辑相容性，Owner修正powered否定、零耗能项目、维修当前队列优先级、双CanProduce/新鲜BUILD资格四处；0代码Native。独立现场修好斗兽场/动物园并转发电站，143仍保留；原版Canada无油、Brazil metadata valid却拒价、Spain无，Rome1油报价六行核验后一次接受，实际油0→1/煤8/金币−14另1GPT30。交易准备不授后台能力或缺电新项目通过。累计686／637完整46length3transport716HTTP30extra，维护复用原生0／未知成本null。[固定本项目反链](evidence/2026-11-12-civ6-original-oil311-model686.json)。

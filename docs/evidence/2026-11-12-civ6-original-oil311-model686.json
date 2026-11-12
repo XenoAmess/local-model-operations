@@ -1,0 +1,97 @@
+{
+  "schema": "local-model-operations.civ6-original-oil311-model686/v1",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/cef05d67c199b475935a6809a37791c4723815f9/docs/research/baiqi-p6-native133-repairs-oil311-model686-2026-11-12.json",
+    "sha256": "63c870a381038d9572611bb6592542bb400f1bcc34bbcbb41251ceb0e055fac5",
+    "bytes_scope": "git_blob"
+  },
+  "model686_review": {
+    "schema": "civ6.model686-unused-positive-fuel-review/v1",
+    "utc": "2026-11-12T12:01:22.608127+00:00",
+    "model": 686,
+    "adoption": "PARTIAL_CONDITIONAL_SOURCE_COMPATIBILITY_ONLY; no code or Native commands",
+    "models": {
+      "686": {
+        "usage": {
+          "prompt_tokens": 7990,
+          "completion_tokens": 857,
+          "total_tokens": 8847
+        },
+        "total_ms": 7354.073900030926,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "json_syntax": {
+          "status": "VALID",
+          "top_level_type": "object",
+          "reason": "COMPLETE_STOP_JSON",
+          "error": null,
+          "offset_units": "Unicode code points",
+          "max_utf8_bytes": 1048576,
+          "semantic_review": "OWNER_REVIEW_REQUIRED"
+        },
+        "candidate_complete": true
+      }
+    },
+    "accepted_scope": "The source accepts zero coal with positive oil if all resource reads nonnegative, city actually not fully powered with required>0 and shipped zero-power FullyPoweredWhileActive rule. A normal original trade could provide the positive unused-fuel fixture only if available and actual stock survives; no guarantee of a new project or engine effect.",
+    "owner_corrections": [
+      {
+        "candidate": "powered ~= false is described as unpowered",
+        "correction": "That expression is a rejection condition. Only strict powered==false passes the guard."
+      },
+      {
+        "candidate": "source does not forbid using oil as fuel for the project / engine fuel-consumption uncertainty",
+        "correction": "Controller requires Projects_XP2 RequiredPowerWhileActive0 and FullyPoweredWhileActive true. Positive oil is a stock precondition test, not evidence the project consumes oil."
+      },
+      {
+        "candidate": "143 progress or Zoo repair are separate concerns so cannot affect power selection",
+        "correction": "They are separate from the pure fuel predicate but active Zoo queue prevents unrelated new scheduling; repairs+1000 and other priorities still compete. Retained143 is not an active head."
+      },
+      {
+        "candidate": "q:CanProduce true suffices for project availability",
+        "correction": "Require both actual CanProduce modes plus fresh CityManager.CanStartOperation/build params and eligible QueueReady; no private PowerProjectWanted calls."
+      }
+    ],
+    "Native_fixture": "NOT_YET_OPENED_OR_QUALIFIED; still ordinary310→311 congress",
+    "through686": {
+      "logical": 686,
+      "complete": 637,
+      "length": 46,
+      "transport": 3,
+      "HTTP": 716,
+      "extra": 30,
+      "OpenCode_native": 0,
+      "new_actual_inflight_peak": 1,
+      "cache_cost_net_savings": null
+    },
+    "maintenance": "Same-machine/user Nov12 OpenCode1.19.5 successful daily cache via canonical adapter; no native generation",
+    "owner_active_review_net_savings": null,
+    "Native_pass": false
+  },
+  "separate_native_results": {
+    "repair": "Arena310/Zoo311 actual completed, powerplant0/240 chosen,143/164 retained outside head",
+    "stability": "310311 NO_LOSS; six historical losses/eight stop hashes retained",
+    "original_oil_fixture": "Canada no row; Brazil valid102 but original equalize refuses, zero trade; Spain no row; Rome six guarded quote rows and one original accept, actualoil0→1/coal8 held/cash-14+1GPT30",
+    "boundary": "Original TEST_PLAYER diplomacy fixture; no background resource acquisition, oil consumption or positive-fuel-unpowered new project PASS"
+  },
+  "lessons": [
+    "Resource metadata validity is separate from AI price willingness and final settlement. A valid Brazil row did not produce a tradable quote.",
+    "A hypothesis can be compatible with the source yet fail Native prerequisites such as actual offer availability and surviving stock.",
+    "Correct negated guard wording: powered~=false rejects; strictfalse passes.",
+    "Repair queues and priorities remain relevant even when discussing a separate pure fuel predicate.",
+    "Do not interpret retained progress as a current head; actual repair completion followed a different building choice."
+  ],
+  "new_HTTP": 1,
+  "through686": {
+    "logical": 686,
+    "complete": 637,
+    "length": 46,
+    "transport": 3,
+    "HTTP": 716,
+    "extra": 30,
+    "OpenCode_native": 0,
+    "new_actual_inflight_peak": 1,
+    "cache_cost_net_savings": null
+  },
+  "unknown_cache_cost_net_savings": null,
+  "OpenCode_native_generation": 0
+}
