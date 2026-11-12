@@ -1,0 +1,116 @@
+{
+  "schema": "local-model-operations.case/v1",
+  "case_id": "2026-11-12-hoi4-promo-recorder-source-review",
+  "mode_id": "http-candidate",
+  "observed_at_utc": "2026-11-12T04:36:35.201302+00:00",
+  "task": "Review the current bounded screenshot-based Windows recorder before its first real short HOI4 capture. No game operation delegated.",
+  "model": "qwen38-coder",
+  "max_tokens": 2200,
+  "message_roles": [
+    "system",
+    "user",
+    "user"
+  ],
+  "source_scope": [
+    "Complete recorder source",
+    "Complete actual desktop helper",
+    "Complete actual common filesystem/identity helpers",
+    "Current capture and resource contract"
+  ],
+  "source_at_post": [
+    {
+      "filename": "promo_capture.py",
+      "sha256": "b246afb5104b3eb966eb20a0cd2687ad2f3fe01d27b657cf5051de5c66c9f94f"
+    },
+    {
+      "filename": "desktop.py",
+      "sha256": "5d1c014660dedc6230ccd44bbe7bf05a88fc360c32454622a880e75e34183586"
+    },
+    {
+      "filename": "common.py",
+      "sha256": "07f3e6bee427910d7f398b35dc9ab3e6e41cce0736213cf5e2656b8f9739a0fa"
+    },
+    {
+      "filename": "contract.txt",
+      "sha256": "9901fd45f1d83c86f48785b07ee861d0ee6dc4dfb040583da4ef729a05ba4626"
+    }
+  ],
+  "request": {
+    "bytes": 28857,
+    "sha256": "7a5659302763959904eb42e1839d9b803f8526247d8017b620722d916dec4fee"
+  },
+  "candidate": {
+    "bytes": 5131,
+    "sha256": "87a83c448fc9053dc6793e946963b2fb0a32146e8e2ea8ac46ca2b3c101c1087"
+  },
+  "caller": {
+    "entrypoint": "scripts/call.py",
+    "current_file_observation": {
+      "bytes": 23968,
+      "sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf"
+    },
+    "current_config_observation": {
+      "bytes": 1862,
+      "sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9"
+    },
+    "observation_boundary": "These caller/config file hashes were observed after the POST; they are not a contemporaneous runtime-code attestation. Exact request and result remain retained."
+  },
+  "transport": {
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "candidate_complete": true,
+    "usage": {
+      "prompt_tokens": 7111,
+      "completion_tokens": 1366,
+      "total_tokens": 8477
+    },
+    "cached_prompt_tokens_if_reported": null,
+    "first_nonempty_content_delta_ms": 1296.1303000338376,
+    "total_ms": 10179.015200119466
+  },
+  "concurrency": {
+    "scope": "This single explicitly named task directory only; other clients and server occupancy unknown",
+    "post_begin_utc": "2026-11-12T03:49:04.712144+00:00",
+    "attempt_end_utc": "2026-11-12T03:49:14.897067+00:00",
+    "peak": 1,
+    "peak_duration_seconds": 10.184923,
+    "current": 0
+  },
+  "owner_review": {
+    "json_parse": "passed",
+    "candidate": "One high-severity finding contains a long self-refuting chain of analysis rather than an established defect. It eventually starts an unfinished question about valid short files caused by a size cap.",
+    "adoption": "reviewed-not-adopted; no model code or validated actionable finding adopted",
+    "owner_hardening": "Owner added actual duration and decoded-frame count checks; kept technical capture and content approval separate. No claim that the candidate supplied a complete fix.",
+    "scope_limits": [
+      "Text review grants no visual, game-state or film signoff.",
+      "No permanent model capability ceiling or time-saving conclusion."
+    ]
+  },
+  "subsequent_owner_validation": {
+    "source_repository": "https://github.com/XenoAmess/xenoamess_hoi4_dev",
+    "source_commit": "941f6cf15c8f1810475a9eb54861ec5e04a84907",
+    "real_short_captures": 6,
+    "recorded_seconds": 95.966,
+    "geometry": [
+      1024,
+      768
+    ],
+    "fps": 30,
+    "observed_focus_preflight_refusal": true,
+    "mid_capture_focus_change_guard_live_tested": false,
+    "unsupported_key_pre_focus_witness": "passed,0 OS initialization and0 input",
+    "new_Q_scan_code_business_result": "pending exclusive desktop slot",
+    "full_film": "not produced"
+  },
+  "cost": {
+    "model_http_ms": 10179.015200119466,
+    "owner_prepare_seconds": null,
+    "owner_review_seconds": null,
+    "owner_fix_seconds": null,
+    "net_saving": null,
+    "cache_benefit": null
+  },
+  "raw_evidence": "Consumer ignored runtime/local-model-operations/promo-recorder-review-20261112/response; no raw REQUEST/SSE or screenshots published in this shared case.",
+  "next_real_trigger": "After remaining footage is captured, validate any newly required source integration against the exact current media contracts. Do not re-post this closed audit to fill capacity."
+}
