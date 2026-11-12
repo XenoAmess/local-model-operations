@@ -1463,3 +1463,8 @@ Nov12同机同用户1.19.5成功每日维护缓存复用，三个普通HTTP候�
 ### 2026-11-12：129正燃料冷验效果分账
 
 0新HTTP和0OpenCode原生生成。664窄采用及Owner收紧在正式129煤2原档恢复下一研究，非维护或软件推定；完整持续电力不提前通过。[回执](evidence/2026-11-12-civ6-native129-positive-coal283.json)。
+
+
+### 2026-11-12：665/666继续分开维护、候选与实机效果
+
+OpenCode1.19.5同机同用户每日成功缓存复用、原生生成0。665整拒后Owner临时观察已恢复，七条零燃料不能证明正燃料优先级；666保护大整数后窄采用分类逻辑，11测试与实际双context290 READY分层，新NPC分支仍待实机。2新HTTP逻辑，累计666／620完整43length3transport696HTTP30extra，未知成本null。[665](evidence/2026-11-12-civ6-power-prewrite665.json)、[666](evidence/2026-11-12-civ6-readiness666.json)。
