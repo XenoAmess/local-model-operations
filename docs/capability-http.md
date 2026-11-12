@@ -5954,3 +5954,8 @@ Planning-expiry source-only posterior: ownerReady66-03 adds Controller damagedEn
 Two complete stops77486in/4097out, sumHTTP29.8035s/sequentialpeak1/current0. Corrected capture and failurecleanup but residual StreamObj/ListValue static defect remain; no actualjavacRED/thirdPOST or blanket failure of correct identity/fullbytes/lifetime parts. Rowkey saturation1024/16MiB is bounded not wholeDOM budget. Late169row4,337,616B input-equality proof is only02 input, not scopedhit/ROI. First caller after midnight performs actual Nov13maintenance1.19.5 success, not stale daycache. Prior P0carrier-onlypartial now has actual/formalwhole4 and exact10pub/Runtime67LOOP separately, no newSAVE/naturalexpiry/speed credit.
 
 [New bounded candidate and all costs](evidence/2026-11-13-ck3-owned-history-row-byte-memo-method.md); [prior P0true posterior](evidence/2026-11-12-ck3-planning-predispatch-deadline-p0-method.json).
+
+
+## 2026-11-13：Civ6135三社区实际完成329
+
+邯郸326／上海327／北京329原生自然完工，三次BACKGROUND请求／回执／实际地块配对。区域住房邯郸5→9、上海0→3、北京0→4；邯郸同期改良1→3，总+6不能全归社区。北京19/20与西安23/24仍不足，继续真实合法替代，不授全城充足或全验收。六实际推进／八普通结束输入＋一次议会提交END／42军SKIP、77城帧与六人口区间无新损失，13观察全KNOWN且exact撤掉。329已存未载；0新HTTP，693694软件和695审计另包，OpenCode原生0／未知成本null。[固定135三社区完成与剩余缺口反链](evidence/2026-11-13-civ6-native135-housing-completed329.json)。
