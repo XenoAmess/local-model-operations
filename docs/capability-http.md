@@ -6023,3 +6023,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 Two stops168197in/3116out/30.9554sHTTP/peak1/current0. First unfinished skeleton (notlength), second2real methods still need imports/readsreceiver/ownStore/lock assembly. Owner takes over/no thirdHTTP, actual fragments not precredited. Store.originalWriterLock getter exists: wrong owner feedback corrected and not charged to model. [Exact tasks/costs](evidence/2026-11-13-ck3-store-owned-dependencies70-test-method.md).
 
 71 productionpartial now actual/formal4TU35+owner20sameTest12 finalwhole4 each; first fixture1F and annualturn1 coverage limit preserved, finalturn2 qualifies helper.164businessJVM/nine tools separate, not live/fullMain/CPU.70 new4TU owner source contains0oldNO code. [71 software posterior](evidence/2026-11-13-ck3-post-life-early-batch-renewal-method.json); [70 owner-source posterior](evidence/2026-11-13-ck3-verified-cooldown-prefix-fold-method.json).
+
+
+### Store70 test posterior: actual partial assertion bodies and real whole4
+
+Model02 nested/fallback/current-scope bodies are genuinely partially selected; owner supplies real Store/Session/receiver/import/lock/64KiB budget and extra authoritypoison/freshmtime cases. ActualTest+Fixture typing2TU4 reported, realwhole4P/CLOSE19:50:15.814894Z/inputs unchanged verified; two qualified Supportclasses reuse not frozen-source equality. Prior static rejection preserved, latest not0adoption; no DPP/ACL/Root/Runtime/ROI claim. [Exact partial and whole4 evidence](evidence/2026-11-13-ck3-store-owned-dependencies70-test-method.json).
