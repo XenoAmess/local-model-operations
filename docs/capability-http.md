@@ -5617,3 +5617,10 @@ One complete stop42.5306s/TTFT7.5321s, 57685 input/6221 output, peak1/no retry. 
 Two distinct complete source reviews, zero findings and zero model code adoption: 19.4614s / TTFT16.4170s and14.1556s / TTFT11.5588s; 217032 input/863 output, sequential peak1, no retry/length. Owner corrected numeric source locations and the scope of “no new query”; the candidate still uses the real existing STATUS_ONLY issuer. Source-only auxiliary evidence grants no typing, live recovery, performance or SAVE result.
 
 [Actual request costs and source-version boundaries](evidence/2026-11-12-ck3-reserved-wait-warm-status-reviews.md).
+
+
+## 2026-11-12：HOI4 宣传片导演稿文字候选
+
+一项真实75秒导演稿候选完整stop，3228输入／1466输出tokens，TTFT657.043ms、HTTP9852.430ms；具名POST→END峰值1／9.848631秒，不计其他消费者。JSON与9段连续时间通过；开场提前揭示视觉梗、十秒库存数字卡、重复占位旁白及额外在线点击不符合宣传片需要，整稿未采用。Owner另写8镜75秒导演稿，XAR0.3.0创作配置与留存字节通过；未录屏、无图像审查／实机／成片／发布 credit。核心梗与UI顺序来自owner输入，未知缓存和人工成本保持null。
+
+[来源、提示程度、具体拒绝与最终稿固定提交](evidence/2026-11-12-hoi4-promo-director-draft.json)。

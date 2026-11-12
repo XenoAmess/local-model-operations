@@ -1,0 +1,92 @@
+{
+  "schema": "local-model-operations.case/v1",
+  "case_id": "2026-11-12-hoi4-promo-director-draft",
+  "mode_id": "http-candidate",
+  "observed_at_utc": "2026-11-12T02:38:14.574108+00:00",
+  "task": "Bounded 75-second Chinese director-script proposal for an existing HOI4 portrait mod; first script delivery, no recording.",
+  "source_repository": "https://github.com/XenoAmess/xenoamess_hoi4_dev",
+  "caller_repository_commit": "074ffa7f6ab74ddfc1779df0979bd46e7fa613f5",
+  "caller_actual_file": {
+    "bytes": 23968,
+    "sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf"
+  },
+  "config_actual_file": {
+    "bytes": 1862,
+    "sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9"
+  },
+  "model": "qwen38-coder",
+  "max_tokens": 3600,
+  "message_roles": [
+    "system",
+    "user",
+    "user"
+  ],
+  "input_closure": [
+    "Complete owner creative/capture/product contract",
+    "Complete published version completion receipt",
+    "Complete current generic capture/evidence/audio/claims contract"
+  ],
+  "prompt_exposure": "Owner supplied the core joke, known game UI locations, 75-second target, constraints and approximate sequence. Candidate is not independent concept discovery. Fixed shared system still names Java engineering; task is a text creative proposal.",
+  "request": {
+    "bytes": 13320,
+    "sha256": "19e448957f9dd508ea3655dc8970e19dbfa7b33ac635cffbeed441cabc46964a"
+  },
+  "candidate": {
+    "bytes": 4772,
+    "sha256": "60e35a93a1bcc967f21d896be388af354513c4ef6c25c4f3910ad8b47ffd3a4c"
+  },
+  "transport": {
+    "attempts": 1,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "candidate_complete": true,
+    "usage": {
+      "prompt_tokens": 3228,
+      "completion_tokens": 1466,
+      "total_tokens": 4694
+    },
+    "cached_prompt_tokens_if_reported": null,
+    "first_content_ms": 657.0429001003504,
+    "total_ms": 9852.430400205776
+  },
+  "concurrency": {
+    "scope": "This one explicitly named task directory only; other consumers and server occupancy unknown",
+    "post_begin_utc": "2026-11-12T02:30:25.905102+00:00",
+    "attempt_end_utc": "2026-11-12T02:30:35.753733+00:00",
+    "peak": 1,
+    "peak_duration_seconds": 9.848631,
+    "completed": true
+  },
+  "owner_review": {
+    "json_parse": "passed",
+    "timeline": "9 contiguous intervals from 0 to75 seconds",
+    "adoption": "reviewed-not-adopted; owner wrote final eight-shot script",
+    "specific_rejections": [
+      "Opening proposes seven-country clicks inside five seconds and reveals the visual joke before the intended political-portrait reveal.",
+      "Candidate dedicates ten seconds to audit inventory numbers, impairing the requested promo pacing.",
+      "Repeated stock UI/click descriptions and placeholder narration do not supply a shootable expressive director script.",
+      "External link-clicking and subscription-click directions add unnecessary online/account actions; final uses a static end card."
+    ],
+    "retained_scope": "Known UI references and core motif were already supplied by owner, so no independent creative credit is assigned.",
+    "image_review_credit": false,
+    "runtime_credit": false,
+    "film_or_publish_credit": false
+  },
+  "cost": {
+    "model_http_ms": 9852.430400205776,
+    "owner_prepare_seconds": null,
+    "owner_review_seconds": null,
+    "owner_rewrite_seconds": null,
+    "net_time_saving": null,
+    "cache_benefit": null
+  },
+  "raw_evidence": "Consumer repository ignored runtime/local-model-operations/promo-director-20261112/response; raw inputs and SSE not published.",
+  "next_real_trigger": "After a concrete script/capture revision, use a bounded text claim/timing review with the exact current script. Do not manufacture another task or infer visual correctness from text.",
+  "owner_final_artifact": {
+    "commit": "9440e147dffce2150777df99030c47c7caca7886",
+    "path": "mod_nailong/promo/1.0/director-script.zh-CN.md",
+    "sha256": "d26ecf8e2f0463665f273c925bc866d19a372809eee967c2f5e229947abe2bb5",
+    "validation": "Owner script, eight contiguous draft shots totaling75s, XAR0.3.0 config/run and preserved bytes verified; no new footage or film."
+  }
+}
