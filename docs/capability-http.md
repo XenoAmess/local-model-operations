@@ -5566,3 +5566,10 @@ Three complete stop requests, peak3 sustained96.564502s; 623354 input / 6452 out
 Four complete stop requests for three exact duties, peak2/28.232321s; 283145 input/10327 output, no truncation or retry. Native factory and APP DATA groups were actually partially adopted into five owner-corrected Source30 leaves, still partial/not compile-ready. Two archive-validator drafts rejected and owner took over. Fair correction preserves the operator's false ActionReceipt.ack absence claim as an operator error; no Runtime/software/SAVE credit.
 
 [Actual partial adoption, costs and rejected verifier closure](evidence/2026-11-12-ck3-typed-afterack-small-methods-four-http.md).
+
+
+## 2026-11-12: Measured planning/JFR source studies
+
+Three full-source studies completed stop, peak3/45.802773s, 322699 input/2080 output; no retry/length. No usable patch: double projection NO lacks a concrete equivalence obstruction; role-decode NO uses unproven sample-to-I/O causality; identity NO partly distinguishes real CAS data but misreads checkRoot callers. Stage/JFR windows and278.6456252s unattributed residual explicit; nearest leaf counts are not CPU or true calls. Zero optimization/Runtime/SAVE credit; earlier typed partial adoption remains separate.
+
+[Counts, source roles and owner corrections](evidence/2026-11-12-ck3-c21c22-jfr-three-source-studies.md).

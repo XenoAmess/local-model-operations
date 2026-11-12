@@ -1,0 +1,181 @@
+{
+  "schema": "local-model-operations.measured-jfr-three-source-studies/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "shared_head_at_dispatch": "d4f566b1b85661933438a13a204a79ff6be91a4d",
+  "request_audit": {
+    "model": "qwen38-coder",
+    "messages": 3,
+    "temperature": 0,
+    "enable_thinking": false,
+    "response_format": "json_object",
+    "stream": true,
+    "include_usage": true,
+    "DIRECT": true,
+    "actual_peer": "UNKNOWN",
+    "same_day_OpenCode1_19_5_cache_reused": true,
+    "active_config_or_service_changed": false
+  },
+  "concurrency": {
+    "definition": "POST_BEGIN through END",
+    "peak": 3,
+    "peak_continuous_seconds": 45.802773,
+    "first_begin_utc": "2026-11-12T00:47:11.499460+00:00",
+    "last_end_utc": "2026-11-12T00:48:01.354341+00:00",
+    "wave_wall_seconds": 49.854881,
+    "current_inflight": 0
+  },
+  "cost": {
+    "HTTP_attempts": 3,
+    "complete_stop": 3,
+    "length": 0,
+    "transport_failure": 0,
+    "retry": 0,
+    "prompt_tokens": 322699,
+    "completion_tokens": 2080,
+    "sum_attempt_total_ms": 142399.13000003435,
+    "financial_cost": null,
+    "preparation_wall_seconds": null
+  },
+  "tasks": [
+    {
+      "task": "performance-driver-single-load-projection-01",
+      "post_begin_utc": "2026-11-12T00:47:11.499460+00:00",
+      "end_utc": "2026-11-12T00:47:57.303619+00:00",
+      "input_files": 17,
+      "prefix": {
+        "bytes": 299368,
+        "sha256": "96e5468d3dea00f9845371bced70d8def2688371d8b7e0171ef893cbfb398a01"
+      },
+      "max_tokens": 4500,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "http_headers_ms": 20211.243199999444,
+      "first_nonempty_content_delta_ms": 20212.3768000165,
+      "total_ms": 45804.24920003861,
+      "prompt_tokens": 71339,
+      "completion_tokens": 490,
+      "cached_prompt_tokens": null,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_review": {
+        "grade": "NO_PATCH_EQUIVALENCE_OBSTRUCTION_NOT_DEMONSTRATED",
+        "valid_reference": "Double semantic projection exists in one Loader.load; scoped Driver decoding already implemented.",
+        "rejected_or_unproven": "Calling repeated validation intentionally necessary is not a concrete counterexample against same-call private reuse; no error/callback equivalence proof supplied. Dynamic frequency and ROI of this exact load path not held."
+      },
+      "model_code_adopted": false
+    },
+    {
+      "task": "performance-archive-native-role-decode-02",
+      "post_begin_utc": "2026-11-12T00:47:11.500846+00:00",
+      "end_utc": "2026-11-12T00:47:58.242174+00:00",
+      "input_files": 14,
+      "prefix": {
+        "bytes": 563436,
+        "sha256": "352e4586efa93664233880902c98655fc775e86c721f56322d4128e4ae2d7b58"
+      },
+      "max_tokens": 4500,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "http_headers_ms": 40783.4016000852,
+      "first_nonempty_content_delta_ms": 40784.526900039054,
+      "total_ms": 46741.333700018,
+      "prompt_tokens": 122251,
+      "completion_tokens": 577,
+      "cached_prompt_tokens": null,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_review": {
+        "grade": "NO_PATCH_MEMORY_AND_ROI_UNPROVEN",
+        "valid_reference": "Current RawJson and historical read caches exist, and fresh bytes/hash/identity must remain.",
+        "rejected_or_unproven": "Native-vs-execution sample counts do not establish dominant I/O time or prove a private bounded role certificate cannot be useful. No concrete candidate or memory accounting supplied."
+      },
+      "model_code_adopted": false
+    },
+    {
+      "task": "performance-artifact-identity-redundancy-03",
+      "post_begin_utc": "2026-11-12T00:47:11.500815+00:00",
+      "end_utc": "2026-11-12T00:48:01.354341+00:00",
+      "input_files": 11,
+      "prefix": {
+        "bytes": 597831,
+        "sha256": "ccc4ace0e350ed05c5dd112c063f97d6861e90296bfc675abe32aaa420be79ea"
+      },
+      "max_tokens": 4000,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "http_headers_ms": 38833.505299990065,
+      "first_nonempty_content_delta_ms": 38834.43539997097,
+      "total_ms": 49853.54709997773,
+      "prompt_tokens": 129109,
+      "completion_tokens": 1013,
+      "cached_prompt_tokens": null,
+      "network_routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "owner_review": {
+        "grade": "BOUNDED_NO_PARTIAL_REFERENCE_WITH_CALLGRAPH_ERRORS",
+        "valid_reference": "Actual CAS payload before/after identity is distinct from code-source audit and must not be casually removed.",
+        "rejected_or_unproven": "verifyRaw519-535 contains no checkRoot call; reparse claim does not analyze existing no-follow handle/windowsStamp checks. All physical identity/race/error semantics still need a real equivalence proof, not automatic removal."
+      },
+      "model_code_adopted": false
+    }
+  ],
+  "measurement_context": {
+    "stage_rows": 8,
+    "stage_window_wall_seconds": "379.4359874",
+    "independent_scope_seconds": [
+      "81.4209002",
+      "19.369462"
+    ],
+    "nominal_scope_duration_coverage_seconds": "100.7903622",
+    "unattributed_seconds": "278.6456252",
+    "nested_times_not_additive": true,
+    "separate_later_JFR_seconds": 45,
+    "delegate_execution_samples": 332,
+    "delegate_native_samples": 259,
+    "delegate_parks": 52,
+    "other_native_samples_excluded_from_business": 1959,
+    "counts_are_not_CPU_duration_or_true_call_count": true,
+    "thresholded_zero_FileRead_FileWrite_is_not_no_IO": true,
+    "new_saved_days_credit": 0,
+    "not_saved_day_performance_pass": true
+  },
+  "input_scope_limits": [
+    "Current complete source307 callee bytes; current disk not loaded-memory attestation.",
+    "Actual original test files not provided separately; no existing-coverage claim.",
+    "Existing ParsedMaterial/Driver/command caches recognized, no rebranding them as new code.",
+    "No old FileStore-cache NO, cross-round PreparedSelection, fake FullFrame or changed data identity/space/freshness.",
+    "Nearest-owned groups are exclusive despite generic field label inclusive_event_count.",
+    "Representative displays truncated24/127; parent aggregate lists were not joined to fake a full stack.",
+    "Two standard consumer tool reads of same retained recording; no new profile or live query."
+  ],
+  "qualification": {
+    "model_code_adopted": 0,
+    "performance_patch": 0,
+    "model_candidate_software_executed": 0,
+    "Runtime_admission": false,
+    "optimization_benefit_measured": false,
+    "previous_typed_Life_partial_adoption": "Separate actual two code groups, not overwritten by these three NO responses."
+  }
+}
