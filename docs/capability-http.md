@@ -5656,3 +5656,10 @@ Four complete stop requests,383135 input/12129 output, no retry/length; last ind
 ## 2026-11-12：129煤2同档恢复研究实证
 
 原128煤2／合成材料0档正式129冷读，唯一后台海上goal74/site2789→激光61请求＋原生观察、真实0/740，冷窗口0END／人工研究。所有世界组／城市queue／food／vitals／5滑雪场保持；221购买格重新884次Core实际team适用读，海上32真／其余0，0未知。已保存129结果，后续普通回合／正燃料项目／最终持续电力仍分阶段。0新HTTP，不重计663664或Owner657重测；665独立观察任务另记。[固定blob反链](evidence/2026-11-12-civ6-native129-positive-coal283.json)。
+
+
+## 2026-11-12: Receiver review and two profile-guided source candidates
+
+Three complete stops,291620 input/8986 output, no retry/length; implementation pair peak2/43.934585s. Receiver review missed a pre-POST allowed-budget counterexample. Snapshot production core is useful pending owner integration, while its generated Test is rejected. Root-subtree method has an always-rejecting guard and breaks the legacy marker; rejected before compile. Earlier Event13 correction's three production edits now have actual Source44 partial adoption, separate from rejected Tests and ungranted Runtime/benefit.
+
+[Exact costs and later adoption boundary](evidence/2026-11-12-ck3-receiver-review-snapshot-and-root-subtrees.md).

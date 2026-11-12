@@ -22,3 +22,5 @@ The proposed new test invented an unused writer fixture factory, omitted require
 Java retains source integration and actual software verification. At this source-review cut both corrected small cores were candidates, both new tests were rejected, and no typing, real wire equivalence, latency, Runtime or saved-day result was granted. Raw source/requests/game data remain local. A local PowerShell quoting error occurred before Python inspection and was corrected separately from model outcomes.
 
 [Exact request costs, source boundaries and owner grades](2026-11-12-ck3-projection-choice-and-domain-rejoin-candidates.json).
+
+Later source receipt: the owner actually partially adopted all three corrected production edits into Source44 (85793 bytes,0b0534dea54fe00e65ca18b073cd89b00b96180318fd1f9bc5285ed8ed249324), extracting a private formatter for independent pure DATA tests. Both generated Tests remain rejected. This updates adoption beyond the original pending cut; it grants no software, Runtime or measured benefit.

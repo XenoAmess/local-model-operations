@@ -1,0 +1,259 @@
+{
+  "schema": "local-model-operations.receiver-snapshot-root-subtrees/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "requests": [
+    {
+      "task": "physical-current-after-status45-source-review",
+      "prefix": {
+        "bytes": 931417,
+        "sha256": "ba6af131728c4e2a04ff191a460084088236eed2b5a1af9f22f12febc344c737"
+      },
+      "input_files": 31,
+      "messages": 3,
+      "request": {
+        "max_tokens": 2700,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "begin_utc": "2026-11-12T03:22:38.210454+00:00",
+      "end_utc": "2026-11-12T03:23:05.274019+00:00",
+      "headers_ms": 23966.715699993074,
+      "content_TTFT_ms": 23968.031500000507,
+      "total_ms": 27063.749799970537,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 185427,
+        "completion_tokens": 467,
+        "total_tokens": 185894
+      },
+      "cached_tokens": null,
+      "retry": 0,
+      "length": 0,
+      "routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "response": {
+        "bytes": 2130,
+        "sha256": "7eb82f50ae5c980a87c8e09382613fcfe2fbfecf3b92ce1997ef23f85dca46e6"
+      }
+    },
+    {
+      "task": "driver-snapshot-owned-byteproof-implementation",
+      "prefix": {
+        "bytes": 171387,
+        "sha256": "c3941d7b868c5fe7a4e6d5068c255f77ca4ceef1e55304e90b250669a925a0bf"
+      },
+      "input_files": 10,
+      "messages": 3,
+      "request": {
+        "max_tokens": 10000,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "begin_utc": "2026-11-12T03:37:52.752897+00:00",
+      "end_utc": "2026-11-12T03:38:36.687611+00:00",
+      "headers_ms": 10382.804700057022,
+      "content_TTFT_ms": 10383.88970005326,
+      "total_ms": 43934.60160004906,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 45922,
+        "completion_tokens": 4228,
+        "total_tokens": 50150
+      },
+      "cached_tokens": null,
+      "retry": 0,
+      "length": 0,
+      "routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "response": {
+        "bytes": 17919,
+        "sha256": "d6f91d8ea0f5f668670f6a589976d134969baf44b0128572121f463dd92f0375"
+      }
+    },
+    {
+      "task": "event13-root-fact-subtrees-method-candidate",
+      "prefix": {
+        "bytes": 251742,
+        "sha256": "2e91ab26774f5773f984c43020c32b7dbfabf4aa5f6c0341eb9a82c19eb72689"
+      },
+      "input_files": 12,
+      "messages": 3,
+      "request": {
+        "max_tokens": 10000,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "begin_utc": "2026-11-12T03:37:52.753026+00:00",
+      "end_utc": "2026-11-12T03:38:37.738317+00:00",
+      "headers_ms": 14018.934300052933,
+      "content_TTFT_ms": 14019.87210009247,
+      "total_ms": 44985.1833001012,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "SSE_DONE": true,
+      "json_syntax": "VALID",
+      "usage": {
+        "prompt_tokens": 60271,
+        "completion_tokens": 4291,
+        "total_tokens": 64562
+      },
+      "cached_tokens": null,
+      "retry": 0,
+      "length": 0,
+      "routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "response": {
+        "bytes": 18070,
+        "sha256": "bac4b4814c3d14dc6e7ebb16d8e949101e8bc49918853896cc6bd3ef19b67789"
+      }
+    }
+  ],
+  "totals": {
+    "POSTs": 3,
+    "complete_stop": 3,
+    "retry": 0,
+    "length": 0,
+    "prompt_tokens": 291620,
+    "completion_tokens": 8986,
+    "sum_request_total_ms": 115983.5347001208,
+    "financial_cost": null
+  },
+  "concurrency": {
+    "peak": 2,
+    "peak2_seconds": 43.934585,
+    "current_after_end": 0
+  },
+  "receiver_review": {
+    "grade": "NOT_PROVEN_EMPTY_FINDINGS_MISSED_KNOWN_ALLOWED_BUDGET_COUNTEREXAMPLE",
+    "model_code_adopted": 0,
+    "owner_finding_before_POST": "The source allows maximumFrames=1. A stale current peek consumes that only loop iteration, so next performs no actual observe, unlike the original single receive iteration. Owner confirmed and repaired peek/redelivery budget separately.",
+    "model_first_discovery_or_later_repair_credit": false,
+    "other_scope_chronology_descriptions": "Auxiliary source descriptions only; no proof of correctness or unique historical timeout cause.",
+    "operator_notification_delay": "A delayed terminal report was an operator scheduling failure. Actual HTTP27.0637498s is not the roughly109s age of the request when status was requested. Exact notification receipt UTC not held.",
+    "later_source_version": "Retained original request; later owner repair was not retroactively reviewed or reposted."
+  },
+  "snapshot": {
+    "grade": "PRODUCTION_CORE_USABLE_PENDING_OWNER_INTEGRATION_NEW_TEST_REJECTED",
+    "actual_source_adoption": "NOT_HELD at this review cut",
+    "core_positive": [
+      "Same coherent privately cloned bytes feed unchanged strict parser and conservative byte proof.",
+      "Local boolean only; uncertain unicode-escape/four-byte input retains old per-node surrogate walk and constructor fallback.",
+      "Each bytes(node) still runs first; exact one-use CONSTRUCTION identity/finally and public constructor/getter/encode contracts remain."
+    ],
+    "mechanical_anchor_counts_normalized_text": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "anchor_corrections_required": [
+      "Nested decodeAndVerify old block has wrong indentation.",
+      "decodeComplete old anchor adds explicit public absent from source; the interface method was already implicitly public, so this is anchor mismatch rather than a nonexistent API or new permission."
+    ],
+    "test_rejection": [
+      "Multiple public test methods omit void return type; ArrayList import is missing.",
+      "Surrogate/BMP/numeric positive cases pass a partial key object instead of the complete Driver envelope, so they reject before entry/slot behavior.",
+      "An invalid JSON escape is called invalid UTF8 but does not provide malformed UTF8 bytes.",
+      "Callback/nesting/index/error precedence and original fallback obligations remain unverified."
+    ],
+    "rationale_correction": "Bytes>=0xF0 are potential four-byte leading/invalid bytes, not UTF8 continuation bytes. Strict UTF8 parsing precedes proof; this wording error does not invalidate the conservative code condition.",
+    "no_measured_benefit": "Clone and scan add work/memory; no latency/CPU/allocation gain is proved."
+  },
+  "root_subtrees": {
+    "grade": "REJECTED_SOURCE_METHOD_AND_NEW_TEST_BEFORE_COMPILE",
+    "actual_source_adoption": "NONE",
+    "first_fatal_source_error": "Guard rejects data that has history_projection_schema while simultaneously requiring its legacy value. No valid standard producer input reaches the projection.",
+    "other_errors": [
+      "It overwrites the existing root-history marker and the expander deletes it, breaking required compatibility.",
+      "changed is set for every field without checking any actual repetition.",
+      "New production Map/HashMap names lack imports; new Test has malformed calls and JsonNode/ObjectNode type errors."
+    ],
+    "positive_evidence": [
+      "It attempts separate role dictionaries and the existing fixed encoder rather than semantic-only equality.",
+      "No source outside the selected projection leaf is proposed."
+    ],
+    "followup": "Only one precisely diagnosed method/helper correction authorized later; no repeated broken full-Test generation. Original failure remains retained."
+  },
+  "later_event13_source_adoption": {
+    "version": "Source44",
+    "source_bytes": 85793,
+    "source_sha256": "0b0534dea54fe00e65ca18b073cd89b00b96180318fd1f9bc5285ed8ed249324",
+    "adopted": "All three production edits from the earlier exact correction, source-partial only",
+    "owner_delta": "Extract private complete-wire formatter for real pure DATA tests",
+    "model_tests_adopted": false,
+    "software_Runtime_or_latency_credit": false
+  },
+  "qualification": {
+    "new_JVM_or_tests": 0,
+    "observed_compiler_RED": false,
+    "Game_Native_or_ledger_operation": 0,
+    "production_write_by_model_operator": false,
+    "Runtime_or_saved_day_grant": false,
+    "partial_core_candidates_not_described_as_wholly_useless": true
+  },
+  "operations": {
+    "stable_three_messages": true,
+    "same_day_maintenance_success_reused": true,
+    "active_config_or_service_changed": false,
+    "cached_tokens_not_inferred": true,
+    "operator_path_correction": "A wrong package path was queried read-only, then corrected to checkpoint via rg; no Python/Java/model failure inferred."
+  },
+  "privacy": "Raw source, request bodies, game originals and private absolute paths remain local."
+}
