@@ -1,0 +1,234 @@
+{
+  "schema": "local-model-operations.embedded-java-event14-http400-source-ro/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "consumer": "Embedded Java business proposal selection; not Python engineering CLI generation/OpenCode and not new operator requests.",
+  "first_two_frozen_metadata": {
+    "index": {
+      "bytes": 4245,
+      "sha256": "41339653e3dbd15fee446431e122a2822a839b57e8975ad454ec83e8afd794c8"
+    },
+    "exact_selected_lines": {
+      "bytes": 4422,
+      "sha256": "2533ef8db102d0d0ee03c1a4b9addc455d20a2c941e8e06906066051f1431121"
+    },
+    "ENDs": [
+      {
+        "started_utc": "2026-11-12T20:26:20.038782500Z",
+        "request_bytes": 4674507,
+        "http_status": 400,
+        "total_ms": 1665,
+        "response_wire_bytes": 387,
+        "transient": false,
+        "complete": false
+      },
+      {
+        "started_utc": "2026-11-12T20:27:32.395868600Z",
+        "request_bytes": 4674507,
+        "http_status": 400,
+        "total_ms": 1690,
+        "response_wire_bytes": 387,
+        "transient": false,
+        "complete": false
+      }
+    ],
+    "bodies_not_inferred_equal_from_length": true
+  },
+  "later_actual_original": {
+    "index": {
+      "bytes": 2729,
+      "sha256": "a0152484bed91172df8b0f07ee37859356ed6958f2fa5314939841d93a72450a"
+    },
+    "decoded_wire": {
+      "bytes": 387,
+      "sha256": "83afc49760019e4e076a37b3eab80853c4c844018c24c7f2caec12f774c45b56"
+    },
+    "observed_utc": "2026-11-12T20:32:20.789235400Z",
+    "distinct_last_natural_proposal_not_first_two": true,
+    "receipt": {
+      "bytes": 962,
+      "sha256": "e2c991a1479332a75cca002613cb735fb48c901c40e80cb25b486d04fbb32af9"
+    },
+    "attempt": {
+      "bytes": 932,
+      "sha256": "4dc13ae526cd8ab43d203184e160256e0e4720b6642f64975c5e130dc8f25d07"
+    },
+    "request_metadata_only_unread": {
+      "bytes": 4674507,
+      "sha256": "b5675df07559a625b27bbc1f10a5ea8701ecec224bb9b94b7863e0d1f1786f55"
+    }
+  },
+  "confirmed_provider_rejection": {
+    "type": "BadRequestError",
+    "param": "input_tokens",
+    "max_context_tokens": 1048576,
+    "reported_minimum_input_tokens": 1048577,
+    "exact_complete_input_token_count": null,
+    "input_already_exceeds_without_output": true,
+    "inference": "Lowering only output budget cannot make this already overlimit input fit. No field-level token origin or need to raise server limits is inferred."
+  },
+  "actual_source_files_metadata": [
+    {
+      "name": "RootOnlineDecisionSelector.java",
+      "bytes": 86068,
+      "sha256": "4fc4c3698e7806b420142c2a3ee048aa5aa9bdc4df7e00ffb0b11025431ad5f7"
+    },
+    {
+      "name": "RootOrdinaryRuntimeAssembly.java",
+      "bytes": 74531,
+      "sha256": "de9cfe9c01ac1b27665cd90be99649f2802ee2dfc5c92acf309ca298c5fe1e3d"
+    },
+    {
+      "name": "RootOrdinaryWorkerMain.java",
+      "bytes": 29482,
+      "sha256": "e024c451b767eccf0a74ff74d9ace2ca1bc342d09eff045f43b8fa9da220f690"
+    },
+    {
+      "name": "OrdinaryPlanner.java",
+      "bytes": 23645,
+      "sha256": "6046542c947d24cff9c8a615fbd3ae005294f59b32b1433ab3d8bcfc9804db06"
+    },
+    {
+      "name": "call.py",
+      "bytes": 23968,
+      "sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf"
+    }
+  ],
+  "source_preservation_chain": [
+    "Java Selector non200 branch still accumulates bounded raw response bytes.",
+    "Selector146 wire_base64 and153 preserve attempt under actual MaterialSink.",
+    "Decision receipt1053 stores request ref and attempts[] and is returned even for WAIT.",
+    "OrdinaryPlanner138-149 attaches model_decision_receipt to last visited stage evidence for WAIT as well.",
+    "RootAssembly777/833 source sink uses actual NativeArchive.withSession(...).preserveMaterial.",
+    "WorkerMain382-394 on completed batch writes report to stateDirectory/worker-batches.jsonl and emits it. Use last_plan.visits[*].evidence.model_decision_receipt -> attempts ref -> wire_base64.",
+    "Python shared call.py separately writes ATTEMPTn-HTTP-ERROR.txt, but it is not this business Java caller and cannot prove these bodies existed there."
+  ],
+  "source_vs_actual_limit": "Source establishes the preservation route, not arbitrary loaded-class memory equality. Runtime subsequently holds exact decision/attempt/wire refs above; no source-lineage audit gate is added.",
+  "operator_actions": {
+    "new_HTTP": 0,
+    "service_queries": 0,
+    "JVM": 0,
+    "Game_GET_controls": 0,
+    "large_Driver_or_REQUEST_read_copy": 0,
+    "CAS_scan": 0,
+    "production_change": 0
+  },
+  "scope_limits": [
+    "Known first two and later last original are not a whole incident HTTP count.",
+    "Input failure is proven for the later original, not retroactively proven by the first two387byte lengths.",
+    "No full4.67MiBREQUEST, raw Native packet or header/API credential is published/read by this operator for this locator step.",
+    "Current data/current capture, actual delegateEND and batchWALL are separate Runtime-owned facts. No new Event control INTENT or old deadline replay is issued.",
+    "Java/Root owns subsequent bounded event projection/current option text/effects/necessarycontext/ref contract and input audit. Original action/response/NativeFreshGuard retained; no diagnostic retry or blind truncation authorized here."
+  ],
+  "runtime_followup_request_byte_audit": {
+    "report": {
+      "bytes": 3193,
+      "sha256": "86ee8d96179358736453f54709b26c99e30391d298040200e834a237594d68ec"
+    },
+    "created_utc": "2026-11-12T20:40:27.107506+00:00",
+    "request": {
+      "bytes": 4674507,
+      "sha256": "b5675df07559a625b27bbc1f10a5ea8701ecec224bb9b94b7863e0d1f1786f55"
+    },
+    "nonmessage_parameters": {
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "stream": true,
+      "max_tokens": 256
+    },
+    "messages": [
+      {
+        "index": 0,
+        "role": "system",
+        "content_type": "str",
+        "decoded_content_utf8_bytes": 2574,
+        "keys": [
+          "role",
+          "content"
+        ]
+      },
+      {
+        "index": 1,
+        "role": "user",
+        "content_type": "str",
+        "decoded_content_utf8_bytes": 4236111,
+        "keys": [
+          "role",
+          "content"
+        ],
+        "content_is_JSON_object": true,
+        "content_top_fields_canonical_serialized_bytes": [
+          {
+            "field": "history",
+            "json_type": "list",
+            "canonical_utf8_bytes": 3313981
+          },
+          {
+            "field": "root_facts",
+            "json_type": "list",
+            "canonical_utf8_bytes": 852978
+          },
+          {
+            "field": "history_projection_schema",
+            "json_type": "str",
+            "canonical_utf8_bytes": 38
+          },
+          {
+            "field": "capabilities",
+            "json_type": "list",
+            "canonical_utf8_bytes": 5666
+          },
+          {
+            "field": "routable_operations",
+            "json_type": "list",
+            "canonical_utf8_bytes": 3619
+          },
+          {
+            "field": "action_facts",
+            "json_type": "list",
+            "canonical_utf8_bytes": 1133
+          },
+          {
+            "field": "snapshot",
+            "json_type": "dict",
+            "canonical_utf8_bytes": 39784
+          },
+          {
+            "field": "proposal",
+            "json_type": "dict",
+            "canonical_utf8_bytes": 18468
+          },
+          {
+            "field": "proposal_id",
+            "json_type": "str",
+            "canonical_utf8_bytes": 72
+          },
+          {
+            "field": "body_sha256",
+            "json_type": "str",
+            "canonical_utf8_bytes": 66
+          },
+          {
+            "field": "planning_deadline",
+            "json_type": "str",
+            "canonical_utf8_bytes": 32
+          },
+          {
+            "field": "history_declarable_wars_projection_schema",
+            "json_type": "str",
+            "canonical_utf8_bytes": 44
+          }
+        ]
+      }
+    ],
+    "measurement_limits": [
+      "Decoded content UTF8 byte counts exact for decoded strings, not serialized JSON token counts",
+      "Subfields measured only by canonical json.dumps for relative size; not falsely original wire spans",
+      "No content text, headers or secrets emitted; no token-count inference",
+      "Exact already archived request only, no Driver/save/CAS scan/Game/query/HTTP/GET and no adopted source change"
+    ],
+    "operator_read_extent": "Runtime performed the separately authorized exact known REQUEST audit. This model operator consumes only this3193-byte metadata report, not the4.67MiBREQUEST body or text.",
+    "consumer_contract": "Two messages are the actual embedded Java business protocol. Do not label that an engineering three-source-message conformance failure.",
+    "new_operator_HTTP_or_large_request_copy": 0
+  }
+}

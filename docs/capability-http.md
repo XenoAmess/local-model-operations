@@ -6028,3 +6028,8 @@ Two stops168197in/3116out/30.9554sHTTP/peak1/current0. First unfinished skeleton
 ### Store70 test posterior: actual partial assertion bodies and real whole4
 
 Model02 nested/fallback/current-scope bodies are genuinely partially selected; owner supplies real Store/Session/receiver/import/lock/64KiB budget and extra authoritypoison/freshmtime cases. ActualTest+Fixture typing2TU4 reported, realwhole4P/CLOSE19:50:15.814894Z/inputs unchanged verified; two qualified Supportclasses reuse not frozen-source equality. Prior static rejection preserved, latest not0adoption; no DPP/ACL/Root/Runtime/ROI claim. [Exact partial and whole4 evidence](evidence/2026-11-13-ck3-store-owned-dependencies70-test-method.json).
+
+
+## 2026-11-13: Embedded event14 HTTP400 input-context rejection
+
+Existing Java business body387B proves last naturalinput >=1048577tokens >1048576cap before output; earlier two samebyte-length400s are metadataonly. Wireattempt->decisionreceipt->WAIT trace->completedreport source locator found real archived error without engineeringPOST/CASscan/Game. Python sharedCLI errorfile mechanism is distinct.4.67MiBREQUEST unread by this operator at this cut; no exact fulltokencount/fieldcause/serverincrease/ROI inferred. [Actual failure and RO path](evidence/2026-11-13-ck3-event14-business-http400-context-ro.md).
