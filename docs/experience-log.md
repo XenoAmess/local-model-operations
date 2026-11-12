@@ -174,3 +174,8 @@ Owner修正部分680/681后实际冷验：已转入旧许可不重发，另一�
 ## 2026-11-12：Civ6686未用燃料条件与原版交易
 
 686完整7990+857=8847tokens／7354.0739ms，峰1。只采用有条件逻辑相容性，Owner修正powered否定、零耗能项目、维修当前队列优先级、双CanProduce/新鲜BUILD资格四处；0代码Native。独立现场修好斗兽场/动物园并转发电站，143仍保留；原版Canada无油、Brazil metadata valid却拒价、Spain无，Rome1油报价六行核验后一次接受，实际油0→1/煤8/金币−14另1GPT30。交易准备不授后台能力或缺电新项目通过。累计686／637完整46length3transport716HTTP30extra，维护复用原生0／未知成本null。[固定本项目反链](evidence/2026-11-12-civ6-original-oil311-model686.json)。
+
+
+## 2026-11-12：Civ6687／688完成通知只读观察
+
+687完整6506tokens／21844.1917ms，漏动态身份／名单／漂移未知，失败Remove谎报恢复、失败Add漏清理，整拒／0rawNative；独立11方法实际14failure11error含subTest。6888893tokens/length5000正文未读整弃。Owner整体模块与fixture11方法首过0.099s，己方双完成事件两次读电力/燃料/队列、不写游戏；未知和精确撤销边界另记，不授Native或规划输入。Owner原任务来源误称Controller订两事件，实际项目端来自已装XP2教程，纠正不算模型错。两HTTP峰2／重叠21.844057秒，累计688／638完整47length3transport718HTTP30extra，维护复用／原生0／未知成本null。[固定观察器审阅反链](evidence/2026-11-12-civ6-power-completion687688.json)。

@@ -5869,3 +5869,8 @@ Two complete stops,175479 input/5089 output, sumHTTP51.6312s, sequential peak1/c
 One complete stop:13049 input/826 output, TTFT1.9165s/total7.1741s, peak1/current0/no retry. One source-usable hunk preserves old constructors/factories/public APIs/whole fallback and adds a no-NUL/no-raw-backslash-u proof plus complete nextToken recursion without string scans. Owner supplied NUL/autodetection and actual-core facts; no model Test/software/Runtime/speed grant. Prior rejected history candidates remain0 adopted even after successful owner-manual Source62 actual/formal independent qualification and exact-seven publication; fairness requires separate credit.
 
 [New method and exact costs](evidence/2026-11-12-ck3-rawjson-owned-byteproof-method.md); [owner-original continuation of rejected task](evidence/2026-11-12-ck3-owned-scope-history-two-rejected-candidates.json).
+
+
+## 2026-11-12：Civ6687／688完成通知只读观察
+
+687完整6506tokens／21844.1917ms，漏动态身份／名单／漂移未知，失败Remove谎报恢复、失败Add漏清理，整拒／0rawNative；独立11方法实际14failure11error含subTest。6888893tokens/length5000正文未读整弃。Owner整体模块与fixture11方法首过0.099s，己方双完成事件两次读电力/燃料/队列、不写游戏；未知和精确撤销边界另记，不授Native或规划输入。Owner原任务来源误称Controller订两事件，实际项目端来自已装XP2教程，纠正不算模型错。两HTTP峰2／重叠21.844057秒，累计688／638完整47length3transport718HTTP30extra，维护复用／原生0／未知成本null。[固定观察器审阅反链](evidence/2026-11-12-civ6-power-completion687688.json)。
