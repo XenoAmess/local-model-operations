@@ -1,0 +1,178 @@
+{
+  "machine_id": "BF-202609141645",
+  "source_install_runtime": 128,
+  "product_commit": "2142ddedd304232fd8006aba77a28ea8ddf03597",
+  "cold278": {
+    "exact_127_checkpoint_loaded_once": true,
+    "continue_physical_clicks": 1,
+    "comparison": {
+      "WORLD": {
+        "before": 1,
+        "after": 1,
+        "equal": true,
+        "only_before": [],
+        "only_after": []
+      },
+      "CITY": {
+        "before": 11,
+        "after": 11,
+        "equal": true,
+        "only_before": [],
+        "only_after": []
+      },
+      "BUILDING": {
+        "before": 172,
+        "after": 172,
+        "equal": true,
+        "only_before": [],
+        "only_after": []
+      },
+      "DISTRICT": {
+        "before": 64,
+        "after": 64,
+        "equal": true,
+        "only_before": [],
+        "only_after": []
+      },
+      "PLOT": {
+        "before": 214,
+        "after": 214,
+        "equal": true,
+        "only_before": [],
+        "only_after": []
+      },
+      "UNIT": {
+        "before": 54,
+        "after": 54,
+        "equal": true,
+        "only_before": [],
+        "only_after": []
+      },
+      "allfood": {
+        "before_rows": 11,
+        "after_rows": 11,
+        "equal": false,
+        "only_before": [
+          [
+            "278",
+            "327684",
+            "12",
+            "44.20703125",
+            "69",
+            "9",
+            "3",
+            "-1",
+            "true",
+            "false"
+          ]
+        ],
+        "only_after": [
+          [
+            "278",
+            "327684",
+            "12",
+            "44.20703125",
+            "69",
+            "11",
+            "3",
+            "-1",
+            "true",
+            "false"
+          ]
+        ]
+      },
+      "vitals": {
+        "before_rows": 11,
+        "after_rows": 11,
+        "equal": true,
+        "only_before": [],
+        "only_after": []
+      },
+      "utc": "2026-11-12T02:33:54.794120+00:00",
+      "source127_to128_same278": true,
+      "TEST_PLAYER_END_during_cold_load": 0,
+      "not_assumed_atomic": true
+    },
+    "research_preserved": {
+      "type": "TECH_PLASTICS",
+      "index": 54,
+      "progress": 533.61328125,
+      "cost": 592
+    },
+    "formal_UI_to_Core_bridge": {
+      "marker": "baiqi-power-sites-v1",
+      "version": 1,
+      "actual_offshore_true": true,
+      "same_plot_Solar_false": true,
+      "new_game_orders": 0
+    },
+    "five_existing_skis_intact": true,
+    "food_difference": "Changsha UI net food9 to11, same population12 and stock44.20703125. Independent later UI/Core both11; Xingzhou UI/Core4 with stock14.12109375/pop11. No causal attribution or blanket food equality."
+  },
+  "normal_window278_to279": {
+    "ordinary_END_inputs": 1,
+    "military_SKIP_inputs": 7,
+    "UserForced": 0,
+    "Maori_denunciation_original_goodbye_clicks": 1,
+    "readiness_timeout_no_END_replay": true,
+    "actual279_reached": true,
+    "new_manual_civilian_domestic_or_research_inputs": 0,
+    "Plastics_owned_after_natural_completion": true,
+    "current_research": {
+      "type": "TECH_NUCLEAR_FISSION",
+      "index": 56,
+      "progress": 0,
+      "cost": 664
+    },
+    "BACKGROUND_power_research_request": {
+      "count": 1,
+      "turn": 279,
+      "city": 131073,
+      "improvement": "IMPROVEMENT_OFFSHORE_WIND_FARM",
+      "goal": 74,
+      "sitePlot": 2789,
+      "next_index": 56,
+      "native_research_observed_count": 1
+    },
+    "direct_Geothermal_unlock_then_researchable_but_no_suitable_empty_site_not_selected": true,
+    "five_skis_intact": true,
+    "all_city_food_and_vitals_samples_pass": true,
+    "Xingzhou_population": 11,
+    "Lua_module_errors": 0,
+    "Database_Localization_duplicate_tags_retained_not_zero_error_claim": true
+  },
+  "save279": {
+    "name": "Baiqi_P6_20261112_V128_OffshorePrerequisite279.Civ6Save",
+    "bytes": 2246960,
+    "sha256": "15869cc35ccf99e4ac104e9003e4cb8b1eac208c78ddb72748074f105fee4ab0"
+  },
+  "maintenance_and_HTTP": {
+    "new_HTTP_for_native": 0,
+    "659661_already_recorded": true,
+    "662_separate_food_analysis_already_recorded": true,
+    "OpenCode_native_generation": 0
+  },
+  "still_open": [
+    "Natural research progress and later prerequisites; final actual offshore unlock/build/durable power",
+    "Changsha cold-food difference and recurring food phase/old213",
+    "Older222 attribution, historical unknown recovery/full matrix"
+  ],
+  "schema": "local-model-operations.civ6-native128-prerequisite279/v1",
+  "utc": "2026-11-12T02:45:26.046290+00:00",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/57dfa0f62197ee0eb73cbe962d9ce6015f57d451/docs/research/baiqi-p6-native128-offshore-prerequisite279-2026-11-12.json",
+    "sha256": "433c847b07ae4e70958b751d0efc8a7e46dceca0ab05c853ea7777f90a029f55",
+    "bytes_scope": "git_blob",
+    "working_copy_sha256": "e87f6d47739bc8597fd483010062267a9ffeb70d02132f98788a56ce3668e088"
+  },
+  "generic_lessons": [
+    "A successful cold comparison can coexist with an explicitly different food field; preserve the mismatch and independently read its current values.",
+    "Wait through an ordinary external popup without replaying END, then establish the actual next turn.",
+    "Distinguish preserving current research, natural completion, selecting the next prerequisite, and final technology/build/electricity effects.",
+    "A suitable empty site filtered out a cheaper currently researchable unlock with no viable site in this observed world."
+  ],
+  "new_HTTP": 0,
+  "659662_already_counted": true,
+  "OpenCode_native_generation": 0,
+  "unknown_cost_and_savings": null
+}

@@ -5629,3 +5629,8 @@ Two distinct complete source reviews, zero findings and zero model code adoption
 ## 2026-11-12：662独立领域与非原子端点
 
 662完整3672tokens／12835.5005ms，但foreignCore误qualified、UI范围未知仍保事件、坏事件领域误qualified、巨大int溢出和extras泄漏5反例整拒。Owner纯分析器9方法＋55坏参数过，实际旧272→273UI库存−1保留，后读Core+4只记非原子端点值差异，事件覆盖缺失未知，无因果／END许可／新游戏命令。累计662／616完整43length3transport692HTTP30extra，未知缓存成本净收益null。[固定blob反链](evidence/2026-11-12-civ6-model662-food-domains.json)。
+
+
+## 2026-11-12：128正式冷读与前置选择真实效果
+
+128／278各世界组及vitals保持，长沙UI净粮9→11／库存人口不变独立UI/Core11，明确保留该差异。正式跨上下文桥真假实证，1普通END／7军SKIP／毛利再见1点击后真279；原塑料正进度先自然完成，唯一后台海上goal74／site2789→核裂变56请求＋观察，当前0/664。5滑雪场与人口保持、279已存，0模组错。0新增HTTP不重计659—662，后续科技／建造／持续电力仍开放。[固定blob反链](evidence/2026-11-12-civ6-native128-prerequisite279.json)。
