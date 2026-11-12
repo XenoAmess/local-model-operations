@@ -1,0 +1,18 @@
+# Two complete owned-scope history candidates rejected
+
+A new closed mixed-phase recording points to actual immutable-history reconstruction on the already adopted replay52 path. This is a new remaining source question, not a repeat of52/54/59/60/61. Business thread 226 has 270 execution events; visible top 40 stack groups cover 252 and 18 are not displayed. Read 76/RawJson 29 are visible-group counts, not CPU time or the cost of one history caller. No new recording, tool/business JVM or live input was collected for these requests.
+
+| Request | Content TTFT | Total | Input / output | Result |
+| --- | ---: | ---: | ---: | --- |
+| First complete implementation | 9.9447s | 23.9680s | 76955 / 2365 | Source rejected |
+| One precise diagnosed correction | 12.5966s | 27.6632s | 98524 / 2724 | Still source rejected |
+
+Both were 200/stop/DONE/valid JSON, no retries or truncation. Total 175479 input/5089 output, summed HTTP 51.6312483s, sequential actual peak 1/current 0. Cached tokens and currency cost were unreported. Preparation, review and notification are not HTTP in-flight time.
+
+The first proposal omits imports, does not restrict memo eligibility to privately strict-decoded Driver identities, stores multiple/unregistered entries, adds an ownerGate callback, fails to wire the two real nominal assemble paths, and breaks a legacy private constructor path. Its repeated-scope proof does not name an actual enclosing scope invocation: withSession only borrows a view. It also relies on a conditional same-manifest assumption instead of tracing real manifest driver references, exact original bytes and the private decoder identity. The second response fixes the one-slot container and restores the old constructor but retains missing DriverJson import, missing membership gate, extra foreign callback, unchanged null-decoder main paths and incomplete replay-error cleanup. Both also provide a two-line Reader anchor matching two places, contrary to the requested unique edits. No Java was run and no compiler RED is claimed. Useful immutable-list/finite-finally fragments are recognized without assuming adoption.
+
+After the sole correction had BEGIN, the source owner supplied the complete existing CompleteDriverDecodeScope333Test. Its real store/writer/archive fixture performs two actual loadFull calls inside archive.inSession, asserts the same decoded Driver identity while reopening four material/two Native originals, and rejects tampering; the scoped Reader case also reprojects with strict binding checks. That source was independently read later, not included or credited to either response. It witnesses repeatability of actual production APIs in a real software fixture, not every live scope hit or a measured gain. The two rejected patches therefore do not establish a technical NO or capability ceiling. The owner continues implementation; later explicit partial-fragment use, if any, must be recorded separately. There is no third HTTP.
+
+The independent storage inquiry found distinct paths and observations separated by reads, callbacks and close/reopen, so no safe second dedup task was manufactured. Original parser/hash/encoder, callback, frame, authority, durability and capacity boundaries stay unchanged. These responses grant no software, Runtime or saved-day/speed success.
+
+[Exact costs, source diagnostics and posterior input boundary](2026-11-12-ck3-owned-scope-history-two-rejected-candidates.json).

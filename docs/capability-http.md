@@ -5835,3 +5835,10 @@ Owner修正部分680/681后实际冷验：已转入旧许可不重发，另一�
 ## 2026-11-12：133完成态重载后见
 
 同一保存306一次官方重载／一次继续，旧两OBSERVED与serial4保持；严格旧日志前缀后新增救粮请求／回执均0。11城身份人口库存保持、食品／忠诚合格；完整World/建筑/区域/地块同，但1Builder成本、同演员续行、多城产出／宜居重算差异另记，原因未隔离，不报whole-world invariance。初次过宽CITY整行保护拒绝后先分域检查、0依赖输入；四旧人口损失及六停止记录保留，明确新范围继续工厂。0新HTTP／through682不重计／OpenCode原生0，未知成本净收益null。[固定完成态反链](evidence/2026-11-12-civ6-completed-food133-reload306.json)。
+
+
+## 2026-11-12: Owned-scope history implementation and one rejected correction
+
+Two complete stops,175479 input/5089 output, sumHTTP51.6312s, sequential peak1/current0/no retry or length. First and sole corrected candidates remain uncompiled/unadopted: identity gate, callback, wiring/import and ambiguous-anchor faults survive; corrected single-slot/constructor fragments do not imply adoption. The stronger actual Store333 repeat witness arrived after correction BEGIN and is independently source-read, not model input/credit. This is neither a technical NO nor a permanent ceiling; owner takes over without a third request. Existing Source61 exact-five formal publication/line-ending-only Test transformation and final119-JVM historical cost are appended separately; no new Runtime or speed grant.
+
+[Costs, rejection and late-source boundary](evidence/2026-11-12-ck3-owned-scope-history-two-rejected-candidates.md); [prior Source61 later publication](evidence/2026-11-12-ck3-prepared-publication-supplier-method.json).

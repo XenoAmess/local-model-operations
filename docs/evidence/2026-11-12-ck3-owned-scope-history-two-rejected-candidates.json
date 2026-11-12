@@ -1,0 +1,355 @@
+{
+  "schema": "local-model-operations.post62-owned-scope-history-two-candidates/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "basis": {
+    "existing_closed_hotspot_report": {
+      "bytes": 17701,
+      "sha256": "8e9b2a13abb1d435d5e5b9c514d739d142af98bb1c1a4d32d7c46def5f4da42a"
+    },
+    "recording_duration_seconds": "30.2322602",
+    "business_recorded_thread": 226,
+    "previous_recording_thread129_not_reused": true,
+    "business_execution_events": 270,
+    "visible_top40_stack_group_events": 252,
+    "unshown_tail_events": 18,
+    "read76_RawJson29": "Visible-group source questions, not a complete270 attribution, not all read76 from one Assembler caller or CPU/wall fractions.",
+    "shown_history_stack": "Assembler.projectFull lambda227 -> DriverJson.object103 -> FullJsonTree; sampled nominal replay52 is already active and not re-proposed.",
+    "no_new_JFR_or_standard_consumer_by_operator": true
+  },
+  "requests": [
+    {
+      "duty": "post62-scoped-owned-history-projection01",
+      "prefix": {
+        "bytes": 377083,
+        "sha256": "d01ff660a32bc4866eb75a3df2c0c12b993c010712ce885a1c33a9565f72042b"
+      },
+      "complete_units": 16,
+      "POST_BEGIN_utc": "2026-11-12T10:34:47.480128+00:00",
+      "END_utc": "2026-11-12T10:35:11.448106+00:00",
+      "parameters": {
+        "max_tokens": 6000,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "headers_ms": 9943.77029989846,
+      "content_TTFT_ms": 9944.728199974634,
+      "total_ms": 23968.00989995245,
+      "usage": {
+        "prompt_tokens": 76955,
+        "completion_tokens": 2365,
+        "total_tokens": 79320
+      },
+      "cached_tokens": null,
+      "currency_cost": null,
+      "status": 200,
+      "finish": "stop",
+      "DONE": true,
+      "JSON": "VALID",
+      "response": {
+        "bytes": 11381,
+        "sha256": "6264df967a0f8f9ab659aeaaed45a2b32f6596a1db87d50413ce52c848380f17"
+      },
+      "retry": 0,
+      "length": 0,
+      "routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      }
+    },
+    {
+      "duty": "post62-scoped-owned-history-correction02",
+      "prefix": {
+        "bytes": 484950,
+        "sha256": "435eadad291b9845028213f0408cd3b39735390e3470b48947b40a63e4f9ab53"
+      },
+      "complete_units": 20,
+      "POST_BEGIN_utc": "2026-11-12T10:45:55.503826+00:00",
+      "END_utc": "2026-11-12T10:46:23.167119+00:00",
+      "parameters": {
+        "max_tokens": 6000,
+        "model": "qwen38-coder",
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "headers_ms": 12595.544400042854,
+      "content_TTFT_ms": 12596.572899958119,
+      "total_ms": 27663.238400011323,
+      "usage": {
+        "prompt_tokens": 98524,
+        "completion_tokens": 2724,
+        "total_tokens": 101248
+      },
+      "cached_tokens": null,
+      "currency_cost": null,
+      "status": 200,
+      "finish": "stop",
+      "DONE": true,
+      "JSON": "VALID",
+      "response": {
+        "bytes": 12247,
+        "sha256": "dc195e9bd2f1c2a5d288c5e748c04a905fdff6633f972d952a8b515385edab19"
+      },
+      "retry": 0,
+      "length": 0,
+      "routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      }
+    }
+  ],
+  "totals": {
+    "actual_POSTs": 2,
+    "complete_stop": 2,
+    "retries": 0,
+    "length": 0,
+    "prompt_tokens": 175479,
+    "completion_tokens": 5089,
+    "summed_HTTP_ms": "51631.248299963773",
+    "first_POST_to_second_END_wall_seconds": "695.686991",
+    "wall_boundary": "First actual POST_BEGIN to final correction END, including inter-request source review/preparation/wait; not only summed HTTP and not a Game metric."
+  },
+  "concurrency": {
+    "sequential_peak": 1,
+    "current_after_END": 0,
+    "preparation_review_and_notification_not_inflight": true,
+    "no_service_global_queue_claim": true
+  },
+  "guided_scope": "Root/source owner selected existing private owner/Session scope, strict-issued Driver identity, one latest immutable row projection, original first-parse/error/callback order and finite cleanup. The second request is the sole explicitly authorized precise diagnostic correction.",
+  "grades": [
+    {
+      "at_utc": "2026-11-12T10:50:59.099070+00:00",
+      "grade": "REJECTED_COMPLETE_SOURCE_CANDIDATE_NOT_COMPILED_NOT_ADOPTED",
+      "response": {
+        "bytes": 11381,
+        "sha256": "6264df967a0f8f9ab659aeaaed45a2b32f6596a1db87d50413ce52c848380f17"
+      },
+      "edit_count": 12,
+      "anchor_checks": [
+        {
+          "file": "DriverFrameEvidenceLoader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverFrameEvidenceLoader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverFrameEvidenceLoader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverFrameEvidenceLoader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverFrameEvidenceLoader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverFrameEvidenceLoader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverObservationEvidenceReader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverObservationEvidenceReader.java",
+          "old_anchor_matches_in_complete_current_source": 2
+        },
+        {
+          "file": "DriverObservationEvidenceReader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverObservationEvidenceReader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverObservationAssembler.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverObservationAssembler.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        }
+      ],
+      "source_faults": [
+        "Loader still has no DriverJson import for its newly used class.",
+        "No membership gate requiring a Driver object to be identical to one of private completeDrivers values; a public foreign Driver can be parsed then memoized.",
+        "projectHistoryRows invokes checkedDriverOwner again, adding a real external gate callback and observable error/diagnostic order.",
+        "Both assembleValidatedOriginals and assembleReplayedOriginals still invoke the old three-argument projectFull with null decoder, so the main sampled nominal replay path never reaches reuse.",
+        "The Reader replayFacts+assembleReplayedOriginals two-line anchor matches twice (normal entry and captured fallback); unique exact anchors are not supplied.",
+        "Original replayCompleteOriginals failure catch has no new projection clearing.",
+        "Proof does not identify an enclosing actual scope invocation; withSession only borrows a view, and same manifest driverFacts reference is not the separate Driver original-ref/bytes argument.",
+        "OpportunityJson outer import is also missing.",
+        "IdentityHashMap allows several registered or arbitrary Driver entries, contrary to one most-recent projection slot.",
+        "Deletes old private three-arg ValidatedOriginals constructor while captured fallback still calls it."
+      ],
+      "positive_fragments_not_adoption": [
+        "First row list is constructed by the original strict parser and List.copyOf.",
+        "New state has outer finally/decoder-exception/eviction cleanup, though incomplete overall.",
+        "Snapshot/DriverJson/RawJson/parser/hash/encoder bodies are not proposed for modification."
+      ],
+      "classification": "Model source/import/signature/identity/bound/lifecycle/wiring errors in supplied complete source; no actual compiler RED. Incomplete proof is not a technical impossibility or capability ceiling.",
+      "operator_actions": "Read and reviewed complete stop response; no Java candidate execution, production write or Runtime action. Owner takes over after the single authorized correction; no third HTTP.",
+      "later_real_333_fixture_not_in_either_request": true
+    },
+    {
+      "at_utc": "2026-11-12T10:50:59.133447+00:00",
+      "grade": "REJECTED_COMPLETE_SOURCE_CANDIDATE_NOT_COMPILED_NOT_ADOPTED",
+      "response": {
+        "bytes": 12247,
+        "sha256": "dc195e9bd2f1c2a5d288c5e748c04a905fdff6633f972d952a8b515385edab19"
+      },
+      "edit_count": 13,
+      "anchor_checks": [
+        {
+          "file": "DriverFrameEvidenceLoader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverFrameEvidenceLoader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverFrameEvidenceLoader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverFrameEvidenceLoader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverFrameEvidenceLoader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverFrameEvidenceLoader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverFrameEvidenceLoader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverObservationEvidenceReader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverObservationEvidenceReader.java",
+          "old_anchor_matches_in_complete_current_source": 2
+        },
+        {
+          "file": "DriverObservationEvidenceReader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverObservationEvidenceReader.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverObservationAssembler.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        },
+        {
+          "file": "DriverObservationAssembler.java",
+          "old_anchor_matches_in_complete_current_source": 1
+        }
+      ],
+      "source_faults": [
+        "Loader still has no DriverJson import for its newly used class.",
+        "No membership gate requiring a Driver object to be identical to one of private completeDrivers values; a public foreign Driver can be parsed then memoized.",
+        "projectHistoryRows invokes checkedDriverOwner again, adding a real external gate callback and observable error/diagnostic order.",
+        "Both assembleValidatedOriginals and assembleReplayedOriginals still invoke the old three-argument projectFull with null decoder, so the main sampled nominal replay path never reaches reuse.",
+        "The Reader replayFacts+assembleReplayedOriginals two-line anchor matches twice (normal entry and captured fallback); unique exact anchors are not supplied.",
+        "Original replayCompleteOriginals failure catch has no new projection clearing.",
+        "Proof does not identify an enclosing actual scope invocation; withSession only borrows a view, and same manifest driverFacts reference is not the separate Driver original-ref/bytes argument."
+      ],
+      "positive_fragments_not_adoption": [
+        "Changes the proposed cache storage to one Map.Entry slot and retains the old three-arg nominal constructor delegating null.",
+        "Adds the OpportunityJson outer import, although DriverJson remains missing.",
+        "Retains first projection position and original public three-arg fallback, but fails to wire the two actual nominal assemble consumers."
+      ],
+      "classification": "Model source/import/signature/identity/bound/lifecycle/wiring errors in supplied complete source; no actual compiler RED. Incomplete proof is not a technical impossibility or capability ceiling.",
+      "operator_actions": "Read and reviewed complete stop response; no Java candidate execution, production write or Runtime action. Owner takes over after the single authorized correction; no third HTTP.",
+      "later_real_333_fixture_not_in_either_request": true
+    }
+  ],
+  "adoption_at_this_cut": {
+    "production_code": 0,
+    "compiled_or_Test_executed_by_operator": 0,
+    "complete_candidates": "Both rejected after reading full stop content. This is not unread/truncated discard, actual compiler RED, technical boundedNO or a permanent model capability ceiling.",
+    "owner_continuation": "Owner takes over real implementation. Any later declared small-fragment/partial adoption requires a new explicit receipt; none inferred here.",
+    "third_HTTP": 0
+  },
+  "later_333_source_witness": {
+    "at_utc": "2026-11-12T10:50:59.134117+00:00",
+    "source": {
+      "bytes": 20284,
+      "sha256": "abf22f7f60d58c3dc2a0a2f596d50da503784d63a28b811ed992b50285aae204"
+    },
+    "received_after_correction_POST_BEGIN": "2026-11-12T10:45:55.503826Z",
+    "included_in_request_01_or_02": false,
+    "literal_source_witness": [
+      "Fixture builds actual ImmutableArtifactStore/ContinuityWriter/NativeOutcomeArchive(store,writer,new DriverFrameEvidenceLoader(true)).",
+      "actualFullLoaderReopensEveryOriginalAfterPureDriverMemoHit calls actual archive.inSession and actual loader.loadFull twice, asserts same facts.driver object identity, four material loads/two native loads, then tamper rejection.",
+      "newReaderProjectionStillChecksManifestDriverNativeAndSemanticBindings calls actual scoped Reader projection and reasserts same Driver; wrong manifest/driver/native/source rejects."
+    ],
+    "limits": [
+      "This is existing source evidence for repeatability of actual production APIs in a real software fixture, not proof every live scope hits or measured ROI.",
+      "The Test source was read only; it was not rerun, included retroactively, or credited as model discovery.",
+      "This late evidence supports the owner continuation and does not repair rejected candidate identity/callback/import/wiring faults."
+    ]
+  },
+  "Store_independent_RO": "Existing multiple paths and observations across ReadFile/afterContent/close/reopen are distinct boundaries; no safe independent dedup candidate was found. No filler second topic/request.",
+  "operations": {
+    "model": "qwen38-coder",
+    "daily_OpenCode_success_reused": "2026-11-12T02:42:39.984713+08:00",
+    "shared_clean_ff_before_requests": "6f29f47 doc-only progression; same policy/config/caller, no service/active business caller change.",
+    "new_operator_Java_Game_native_query_profile_ledger_or_production_write": 0
+  },
+  "limits": [
+    "Scope membership and API wiring are source errors in complete declared targets, not software compiler outcomes.",
+    "The stronger actual Store Test pointer arrived after the correction POST began and was not included retroactively. Its existing source witnesses real API repeatability, not every live scope hit, current Test execution or ROI.",
+    "No global cache, trusted AST, forced durability/capacity removal or permission mechanism is adopted.",
+    "No Root/Runtime/loading/speed/SAVE success is inferred from two completed HTTPs or the source witness."
+  ],
+  "privacy": "Complete source, raw requests/responses, JFR, packets, machine metadata and private paths remain local."
+}
