@@ -5585,3 +5585,8 @@ One complete stop42.5306s/TTFT7.5321s, 57685 input/6221 output, peak1/no retry. 
 ## 2026-11-12：126正式三处相邻施工（不重计653／654）
 
 275/276/277分别自然建2424/2721/2793滑雪场，每条原生adjacent请求都有精确observed，三演员次数各3→2。固定最初六目标监视只报2，完整自有可见库存读回实际3，不能漏途中原生新目标。2普通END14军队SKIP0人工文职；734旧移动两回合后observed，不当早期拒绝。另675原生队列2350仍保留，277已保存，先补Builder同类防覆盖再读档，不宣布恢复通过。本段0新HTTP，引用截至654统计；655656后续队列任务独立记账。[固定blob反链](evidence/2026-11-12-civ6-native126-three-skis.json)。
+
+
+## 2026-11-12：655队列helper采用、656截断与127软件
+
+655完整25111tokens／10095.9680ms，外层字段object/array不符任务string但JSON VALID，Ownertyped提取后Lua51及返回形态见证通过，采用实际helper将Builder纳入现有队列防覆盖；无关演员只保getter范围，不授额外权限。656 HTTP200/DONE但length，29820tokens／34946.7484ms，原文未读未采用未重投。Owner12新方法、旧126三方法8断言失败0异常，全1819项1818pass1SDKskip、95Lua/117字节精确包。Owner先漏UnitOperations夹具表致12setup错误，修正分账，不归模型。双任务峰值2／重叠10.096057秒，累计656/611完整42length3transport686HTTP30extra，127待自然277/2350队列冷验，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-source127-builder-queue.json)。
