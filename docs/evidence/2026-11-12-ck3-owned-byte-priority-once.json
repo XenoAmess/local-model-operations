@@ -1,0 +1,154 @@
+{
+  "schema": "local-model-operations.owned-byte-priority-once/v1",
+  "date_local": "2026-11-12",
+  "mode_id": "ordinary_http_candidate",
+  "task": "One exact two-TU implementation: privately owned byte-array observation entry, old parsed algorithm retained, one actual Collector call-site.",
+  "source_basis": {
+    "complete_source_and_contract_prefix": {
+      "bytes": 147758,
+      "sha256": "4d16778ecece611dd9e45df4f4049959cd8f99cbb28578688468b60fce4707b6"
+    },
+    "complete_units": 12,
+    "target_source_pins": [
+      {
+        "name": "OrdinaryWarPriority.java",
+        "bytes": 24804,
+        "sha256": "557874a08ab35842723ca288101f599e932b21558a5b86aa413c6d70055ace73"
+      },
+      {
+        "name": "OrdinaryFinanceCollector.java",
+        "bytes": 39173,
+        "sha256": "db72bc89632b60dce14596f43c6ea2faaaa3bf8986fd1e6e398bcb1cc826b4a0"
+      }
+    ],
+    "diagnosis_and_contract": "Supplied by source owner/Root: old Input clones and validates snapshot/root while discarding trees, followed immediately by a second observe parse without an intervening external callback.",
+    "existing_Test_bodies": "Both complete historical reference Test bodies supplied; resource payloads not loaded, no current pass claim.",
+    "dynamic_frequency_ROI_or_Runtime_loaded_equivalence": "NOT_HELD; source mechanism only."
+  },
+  "request": {
+    "POST_BEGIN_utc": "2026-11-12T07:28:08.933711+00:00",
+    "END_utc": "2026-11-12T07:28:18.123896+00:00",
+    "message_roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "parameters": {
+      "max_tokens": 3200,
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      }
+    },
+    "headers_ms": 4360.869999974966,
+    "content_TTFT_ms": 4361.873700050637,
+    "total_ms": 9190.084200003184,
+    "usage": {
+      "prompt_tokens": 33360,
+      "completion_tokens": 791,
+      "total_tokens": 34151
+    },
+    "cached_tokens": null,
+    "currency_cost": null,
+    "http_status": 200,
+    "finish": "stop",
+    "DONE": true,
+    "JSON": "VALID",
+    "response": {
+      "bytes": 3711,
+      "sha256": "e0365832089e63827653bb815ed2c55331a96ca9f67f3252a86cb927703e20c4"
+    },
+    "routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    },
+    "retries": 0,
+    "length": 0
+  },
+  "concurrency": {
+    "actual_peak": 1,
+    "current_after_END": 0,
+    "preparation_and_source_review_not_inflight": true,
+    "no_quota_or_service_global_queue_claim": true
+  },
+  "source_review": {
+    "grade": "TWO_MODEL_PRODUCTION_EDITS_SOURCE_USABLE_OWNER_SELECTION_PENDING",
+    "production_edits": 2,
+    "mechanics": "Only literal LF-response to original CRLF anchor adaptation; no production algorithm correction.",
+    "checks": [
+      {
+        "file": "OrdinaryWarPriority.java",
+        "base": {
+          "bytes": 24804,
+          "sha256": "557874a08ab35842723ca288101f599e932b21558a5b86aa413c6d70055ace73"
+        },
+        "candidate": {
+          "bytes": 25538,
+          "sha256": "01c102aa8ddc83b0f9bdcdecff5b5bef45645045f41f63f1e03e4488e74b84e0"
+        },
+        "anchor_matches": 1,
+        "CRLF_only_anchor_mechanics": true,
+        "whole_inverse_restores_original": true
+      },
+      {
+        "file": "OrdinaryFinanceCollector.java",
+        "base": {
+          "bytes": 39173,
+          "sha256": "db72bc89632b60dce14596f43c6ea2faaaa3bf8986fd1e6e398bcb1cc826b4a0"
+        },
+        "candidate": {
+          "bytes": 39142,
+          "sha256": "153945fcc2661829dd07f43e1bfc1e776990ff241e3f265587db238b0f76a92d"
+        },
+        "anchor_matches": 1,
+        "CRLF_only_anchor_mechanics": true,
+        "whole_inverse_restores_original": true
+      }
+    ],
+    "positive": [
+      "Two owned clones are in original order before any parse, preserving null-root precedence over malformed snapshot.",
+      "New byte entry retains original snapshot record/full parser, root strict parser and exact nullable-root shape/message.",
+      "Existing Input constructor/getters and FinanceRequest/finance region are byte-identical; existing observe(Input) two parse expressions remain literal and in place before delegation.",
+      "Entire original algorithm through Observation construction is byte-identical in private observeParsed; no count/role/sort/arithmetic/custom BigInteger behavior changed.",
+      "Collector edit only removes Input allocation; both complete DriverJson.encode argument expressions remain same left-to-right order.",
+      "No new public AST/trust input, new type, call-spanning cache, source/freshness/Guard bypass or parser/hash/encoder edit."
+    ],
+    "regression_prose_correction": "The proposed null-pair regression inaccurately names ContractViolationException universally. Both old Input and new byte entry actually Objects.requireNonNull -> NullPointerException; compare real class/message/precedence, not that prose. No generated Test is present or adopted.",
+    "future_meaningful_regressions": [
+      "Existing golden/current consumer parity and Unicode/numeric/sourceSnapshot bytes.",
+      "Null pairs/malformed snapshot/bad root shape/bounds exact exception/message precedence against the old composition.",
+      "Caller arrays and returned source/encoded byte copies cannot mutate retained snapshot.",
+      "Collector encoder evaluation/read/current proposal/exception boundary unchanged."
+    ],
+    "actual_source_owner_selection": "Pending at first review cut; D-only candidates handed to the sole writer.",
+    "compilation_behavior_Runtime_or_speed_pass": false
+  },
+  "operations": {
+    "model": "qwen38-coder",
+    "daily_OpenCode_success_reused": "2026-11-12T02:42:39.984713+08:00",
+    "OpenCode_version": "1.19.5",
+    "clean_main_fetch_ff_only": "Shared HEAD2d443d4 policy/usage/config/caller hashes unchanged before request.",
+    "existing_business_log_window": "Last observed business request had ended; not a global service queue check.",
+    "new_operator_JVM_Game_profile_GET_ledger_or_production_write": 0,
+    "active_business_caller_or_service_changed": false
+  },
+  "limits": [
+    "No new public trusted AST input, carrier class, cross-call cache or parser/hash/old-encode change.",
+    "All old Input/observe(Input)/FinanceRequest and finance entry points remain; observation getters retain defensive copying.",
+    "Byte-entry owns both arrays before parsing. Null snapshot precedes null root, and null root still precedes malformed snapshot.",
+    "Collector retains both encoder expressions and their left-to-right evaluation, current source/frame/read/catch behavior.",
+    "Generated regression prose is future advice, not executed Test or semantic qualification. Null-pair error name is corrected without another HTTP."
+  ],
+  "privacy": "Complete source, requests, original materials and private absolute paths remain local."
+}

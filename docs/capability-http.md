@@ -5771,3 +5771,10 @@ No new HTTP. Source58's four model implementation edits plus the owner outer imp
 
 
 Later existing Runtime loader evidence for another nested type motivates an owner plain-List adaptation before Source58 deployment. It is not a Source58 execution failure or model semantic error, and does not erase its true software pass. New variant source and qualification remain separate; no new HTTP is needed.
+
+
+## 2026-11-12: Owned-byte priority entry with exact old API boundaries
+
+One guided two-TU implementation completes stop/DONE:33360 input/791 output, TTFT4.3619s/total9.1901s, no retries/length, peak1/current0. Two source edits preserve both-clones-before-parse precedence, old public Input/observe/finance paths, the literal private algorithm and Collector encoder order. Only CRLF anchors need mechanical adaptation. Null-error Test prose is corrected to the real NPE behavior, with no repeated request or generated Test credit. D candidates are handed to the source owner; software/Runtime/speed outcomes are still separate.
+
+[Source, costs and ownership/error-order evidence](evidence/2026-11-12-ck3-owned-byte-priority-once.md).
