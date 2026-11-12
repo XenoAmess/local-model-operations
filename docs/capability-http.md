@@ -5544,3 +5544,8 @@ Three complete stop requests, peak3 sustained96.564502s; 623354 input / 6452 out
 ## 2026-11-12：649新能源改良排序、650粮食证据分析与125实际自动研究
 
 649完整23869tokens／6595.1489ms，4纯函数组过、方向部分可用，原接入只检首选Wind会漏合法Solar，逐行Native资格与界限／城市输入未闭，产品0采用。650完整3966tokens／7643.3592ms，跨scope仍qualified、129事件截断不标未知、None覆盖当空、外国UnitAdded误列生产等4隔离反例整拒，0rawNative。Owner125实机271正进度科技自然完成后正式选卫星，272已296.332/740，尚未解锁或授新能源建设。保存271风险后单普通END，邢州仍11人／库存0.25→1.34765625；前期270→271实际−1仍保留，不能归纯显示或宣布修复。累计650/606完整41length3transport680HTTP30extra，维护缓存复用、未知成本null。[精确公开反链](evidence/2026-11-12-civ6-native125-272-model649650.json)。
+
+
+## 2026-11-12：651实际建造者建议与卫星已解锁
+
+651完整9952tokens／7365.1469ms，Lua51实际因continue编译失败；原函数声称pcall但没有、漏pid0/localplayer、2048仅最内break，整拒0rawNative。Owner7合同后实际66次AI查询36行6目标0未知，真实Hash都是滑雪场，没有太阳能建议；先核真实候选与地形，不能假设排序就是根因。125卫星275确实拥有，当前位置24新能源资格全false，建设仍待证；273初−1后同回合UI/Core+4保留双阶段，原因未知。累计651/607完整41length3transport681HTTP30extra，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-native125-275-model651.json)。
