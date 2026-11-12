@@ -1478,3 +1478,8 @@ OpenCode1.19.5同机同用户每日成功缓存复用、原生生成0。665整�
 ### 2026-11-12：668跨回合人口损失与上海294
 
 完整4925tokens／8558.3264ms，8巨大整数溢出见证后加保护窄采用；10新测试、原11城快照重放293→294 LOSS、294→295 NO_LOSS。当前正粮未检查跨回合人口，自动END294后Owner才发现，已保存295和4原auto，未发END295；未来LOSS/UNKNOWN停下一END，不把qualified当继续许可。龙卷风整事件PopLost1非逐城证明，初筛严于原版与动态关闭坐标开菜单均补记。累计668／622完整43length3transport698HTTP30extra；OpenCode1.19.5同机同用户缓存、原生0，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-population668.json)。
+
+
+### 2026-11-12：上海294原档回调复现与主线恢复
+
+0新HTTP／OpenCode原生生成，Owner631复用不重计；原293八组全同，1普通END7军SKIP再次15→14，UI/Core各2条无错丢。UI正库存/+17及龙卷风整事件PopLost0→1非原子逐城因果，不关闭人口缺陷；8监听全撤、正式恢复295逐组核对，继续独立海上验收。668累计不变／未知成本null。[固定blob反链](evidence/2026-11-12-civ6-shanghai294-native-reproduction.json)。
