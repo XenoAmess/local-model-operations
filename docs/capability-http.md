@@ -5788,3 +5788,8 @@ One guided two-TU implementation completes stop/DONE:33360 input/791 output, TTF
 ## 2026-11-12：131受阻建筑修复软件采用
 
 0新HTTP，不重计674675。部分采用674新kind的QueueReady／过滤／读回窄段，Owner保留旧未建建筑与项目并严验72/97既有修复。10新方法、旧130三断言失败0异常、冻结全1910项1909pass1SDKskip／97Lua119包；131冷验未授，130302原档及人口FAIL保留。初次函数保护多含注释在写源前被拒并纠正，未归模型。OpenCode原生0／未知净收益null。[固定blob反链](evidence/2026-11-12-civ6-source131-blocked-repair-software.json)。
+
+
+## 2026-11-12：131实机修复与303新损失
+
+0新HTTP，不重计674675。119匹配／新鲜离线、同302唯一后台修工业区并观察，Native裁旧条目保工坊72/97和项目143/157；1普通END7军SKIP后工业区完好、工坊接续，关闭窄受阻恢复。303人口15→14／旧风电2133消失、现5座，已存303并停END；全事件PopLost1及AffectedCity仍不授逐城原子因果。Owner24→27误称住房撤回为忠诚度增量，1原图，原生0／净收益null。[固定blob反链](evidence/2026-11-12-civ6-native131-repair-poploss303.json)。
