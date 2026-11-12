@@ -6038,3 +6038,8 @@ Existing Java business body387B proves last naturalinput >=1048577tokens >104857
 ## 2026-11-13: Event73 bounded input first candidate, contradictory old peaceful guard
 
 One complete stop153006in/2399out/34.1739sHTTP/TTFT19.7840s, peak1/current0. All3anchors unique, but active-event Obj→old peaceful active_event-null check makes new path impossible, and oversize returns to the unbounded input that caused the real business400. No original-input archive ref/current arrays, incomplete event/option binding; no compile/adoption/Runtime/ROI. Real existing APIs are not falsely labeled missing; no transport/length failure or technicalNO. [Source, exact costs and rejection](evidence/2026-11-13-ck3-event-scoped-context73-method.md).
+
+
+### Event73 posterior: real partial DTO adoption, owner closes binding/archive/failure
+
+First-response constants/policy/DTO fragments were genuinely selected into actual96260/f16de425, with owner exact-event binding, original-wire archive/ref and no-fullfallback/wire refusal. Production1TU4+owner22Test1TU4 actual0 and whole3P/CLOSE21:18:23.283800Z verified; local event5requests72422–72423B/non-event120247B, unsupported/oversize0HTTP. Not exact3hunk adoption, latest0adoption, provider or Runtime/ROI. Preflight0VM failures separate; no second engineeringPOST. [Fair posterior and exact qualification](evidence/2026-11-13-ck3-event-scoped-context73-method.json).
