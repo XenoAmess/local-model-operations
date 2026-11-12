@@ -5696,3 +5696,8 @@ A helper-plus-packet-Test request reached length6500 and remained wholly unread/
 一次完整stop，7111输入／1366输出tokens，TTFT1296.130ms、HTTP10179.015ms；具名峰值1／10.184923秒。所谓high发现自我否定并以未完成的大小限制问题结尾，无模型代码或已证实可操作发现采用。Owner另加时长／解码帧数门禁，真实6段95.966秒采集通过技术检查；后续桌面焦点冲突在开录前被拒。Owner误用未支持Q扫描码的两次输入未发键，先验校验与Q映射修正分账；Q实机和完整影片仍待桌面时段，不授文字模型审图或影片批准。缓存／人工净收益未知。
 
 [输入、源版本边界、成本与实际有限验证](evidence/2026-11-12-hoi4-promo-recorder-source-review.json)。
+
+
+## 2026-11-12：668跨回合人口损失与上海294
+
+完整4925tokens／8558.3264ms，8巨大整数溢出见证后加保护窄采用；10新测试、原11城快照重放293→294 LOSS、294→295 NO_LOSS。当前正粮未检查跨回合人口，自动END294后Owner才发现，已保存295和4原auto，未发END295；未来LOSS/UNKNOWN停下一END，不把qualified当继续许可。龙卷风整事件PopLost1非逐城证明，初筛严于原版与动态关闭坐标开菜单均补记。累计668／622完整43length3transport698HTTP30extra；OpenCode1.19.5同机同用户缓存、原生0，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-population668.json)。
