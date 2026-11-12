@@ -6005,3 +6005,14 @@ Source69 common Snapshot leaf/base/dependencies permit reuse of the existing1TU9
 71 testdraft116361in/5533out/47.4996sstop is unapplied: dirty/journal/STOP/consumer/finite oracles wrong, no actualJUnitRED. Production71 posterior is partial record+oldCtor/callshape, owner actualfrontier/gates/tail separate. [Testdraft](evidence/2026-11-13-ck3-source71-public-controller-test-draft.md); [production posterior](evidence/2026-11-13-ck3-post-life-early-batch-renewal-method.json).
 
 70 two complete stops438774in/1898out/43.8471sHTTP repeat false genericmaterial/frame bypass edges; no code/technicalNO/thirdPOST. Empty actualINITIAL/newcallee evidence only02, no custody/hit/ROI grant. [Source and exact costs](evidence/2026-11-13-ck3-verified-cooldown-prefix-fold-method.md). Both units remain actualpeak1/current0, no fabricated overlap, newVM/live/service actions.
+
+
+## 2026-11-13：700候选领域纠正、136私有配对准备与泛滥平原开工
+
+Owner先前698699及本共享摘要的“候选512”没有充分限定领域，现明确纠正：ProcessCity/Add的checked512限制该资格计数，不限制全部外层枚举／工作，更不限制移民全图城址。699的>1000要求无合同依据，不能用跨领域512作不可能性证明。700完整71992tokens／15431.6745ms／TTFT9363.4108ms，仅生产／城址领域不同部分采用；其引擎硬12、遗漏旧preferred目标、ProcessSettler→RecruitAllowed调用边均拒收。源码只是请求GetSettlementRecommendations(12)并pairs遍历，返回硬上限未实测；旧目标可额外合并，招募由ProcessCity调用RecruitAllowed。[固定纠错反链](evidence/2026-11-13-civ6-model700-domain-correction.json)。旧JSON／blob和原始请求保留，本段只纠正域界与来源，不重写历史。
+
+Owner按正确单flag生成普通136的enabled／control私有119文件配对，各97Lua51编译、ZIP逐字一致、计时前缀SHA相同，源码未变，0安装／Native性能／压力夹具PASS。control12文件词法差异列明，仍待独立运行覆盖／时钟验证，不把可构建当有效全局对照。[私有准备反链](evidence/2026-11-13-civ6-perf136-private-preparation.json)。一次DIRECT Git连接失败后使用既有环境代理正常push并读回远端，未改全局代理或Steam模式。
+
+独立135324存档下普通136两自然推进到326，北京后台唯一0:326:31请求、队列回执和2568区域10匹配，原生普通泛滥平原feature0仍在、农场由原版BUILD移除，净粮15／20人口无新损失；无需排除另一个森林。这里只授新增分支实际开工，完工／住房增益／重载后见另记；保护136主332，分支进度不叠加主线。[Native开工固定反链](evidence/2026-11-13-civ6-native136-flood-start326.json)。
+
+累计700逻辑／649完整stop流（前692含严格JSON拒绝）／48length／3最终transport／730HTTP／30extra；700新峰1。Nov13canonical1.19.5成功缓存复用，OpenCode原生0，未知缓存／Owner总成本／净节省null。明确源码任务、私有构建、游戏阶段与模型采用分开，继续真实未闭验收。

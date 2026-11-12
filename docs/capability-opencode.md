@@ -1618,3 +1618,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-13：698699与136Native独立
 
 698699均普通HTTP，复用Nov13canonicalOpenCode1.19.5成功缓存；原生生成累计0。136自然住房实效不授原生工具能力；0新代码采用／性能测量，未知成本null。[固定审阅反链](evidence/2026-11-13-civ6-models698699.json)。
+
+
+### 2026-11-13：700与独立136游戏分支
+
+700是普通HTTP，71992tokens完整但只采领域解释，原生12上限／旧目标／调用边由Owner纠正。复用Nov13canonicalOpenCode1.19.5成功缓存，原生生成累计0；实际泛滥平原开工和私有性能配对准备分账。[纠错固定反链](evidence/2026-11-13-civ6-model700-domain-correction.json)。累计700／649完整流48length3transport730HTTP30extra，未知成本null。
