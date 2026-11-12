@@ -5959,3 +5959,10 @@ Two complete stops77486in/4097out, sumHTTP29.8035s/sequentialpeak1/current0. Cor
 ## 2026-11-13：Civ6135三社区实际完成329
 
 邯郸326／上海327／北京329原生自然完工，三次BACKGROUND请求／回执／实际地块配对。区域住房邯郸5→9、上海0→3、北京0→4；邯郸同期改良1→3，总+6不能全归社区。北京19/20与西安23/24仍不足，继续真实合法替代，不授全城充足或全验收。六实际推进／八普通结束输入＋一次议会提交END／42军SKIP、77城帧与六人口区间无新损失，13观察全KNOWN且exact撤掉。329已存未载；0新HTTP，693694软件和695审计另包，OpenCode原生0／未知成本null。[固定135三社区完成与剩余缺口反链](evidence/2026-11-13-civ6-native135-housing-completed329.json)。
+
+
+## 2026-11-13: Private Snapshot first-encoding implementation attempts
+
+Two complete stops102776in/2737out, sumHTTP23.8697s/sequentialpeak1/current0. IOimport fixed in02 but private FullJsonTree.JSON access remains; legal internalwriter not implemented,0actualjavac/thirdPOST. ActualDecimal.writeNumber first description was correct; owner writeRaw memory corrected from exact source, not model error. Correct privatecallsite proof/publicfallback remains separate from rejection. Prior rowmemo ninehunk partial+owner typing/hash/fullbytes/cleanup now actual/formalwhole4/exact5pub/Runtime68LOOP, still no actualhit/ROI/newSAVE.
+
+[New complete candidates and limits](evidence/2026-11-13-ck3-snapshot-private-first-encoding-method.md); [prior actual partial/software/Runtime posterior](evidence/2026-11-13-ck3-owned-history-row-byte-memo-method.json).

@@ -1,0 +1,348 @@
+{
+  "schema": "local-model-operations.snapshot-private-first-encoding-method/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "task": "One new private Snapshot strict-parser subtree first-encoding implementation plus sole correction; no public encoder/constructor/body changes or rowmemo tuning.",
+  "prefix": {
+    "bytes": 191168,
+    "sha256": "59a9a86a78c6dfdcc0fba905d15582167c4a0b3868b544a3418cf2681eb0f768"
+  },
+  "complete_units": 11,
+  "input_scope": [
+    {
+      "name": "DriverStateSnapshot.java",
+      "bytes": 10911,
+      "sha256": "0307feefd2f675eec8af3577452779a5b02fe3af28eb1173e0aa9076cfd64404",
+      "extent": "complete CURRENT Source54 actual principal production target"
+    },
+    {
+      "name": "FullJsonTree.java",
+      "bytes": 9196,
+      "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a",
+      "extent": "complete CURRENT Source64 actual strict parser/old public encoder+writer factory; public encode body frozen"
+    },
+    {
+      "name": "DecimalTokenNode.java",
+      "bytes": 3400,
+      "sha256": "dcfaa1f41e5dba568e21d61103197827c26704e3e386da48077a8a159812b9df",
+      "extent": "complete CURRENT original arbitrary decimal lexeme/numeric serialization"
+    },
+    {
+      "name": "DriverCheckpointStore.java",
+      "bytes": 13687,
+      "sha256": "6688b546d04172a81c738c55d5676c2a80a51bfb35f5188dd1a9d4ac79596c04",
+      "extent": "complete CURRENT true Driver lease268435456 bytes and original error/bounds interfaces"
+    },
+    {
+      "name": "StrictJson.java",
+      "bytes": 14844,
+      "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+      "extent": "complete CURRENT null/type/integer/error declarations; DO NOT MODIFY"
+    },
+    {
+      "name": "DriverStateSnapshotImmutabilityTest.java",
+      "bytes": 8521,
+      "sha256": "459ea46ef603caba26cf69e33ddd3d5003c5bfbc0057268b811afb4f3efc5cc4",
+      "extent": "complete existing original public Snapshot immutable input/output boundary Test; reference only"
+    },
+    {
+      "name": "DriverStateSnapshotOwnedBytesDataTest.java",
+      "bytes": 15245,
+      "sha256": "7d8979f02a25df99bdd4da9bcbe5db5eb5bb35a8aa76124dd7a94ca0f7ee5942",
+      "extent": "complete existing independent owner13 public allslots/history/Unicode/failure old-byteproof Test; reference only no new execution"
+    },
+    {
+      "name": "FullJsonTreeCharBuffer358Test.java",
+      "bytes": 10390,
+      "sha256": "8277d764511f1501fa2ac61a7c06566a061710117927457da247ce41477a080d",
+      "extent": "complete original whole FullJsonTree numeric/UTF8/old exception oracle Test; reference only"
+    },
+    {
+      "name": "FullJsonTreeDecodedBufferBoundaryTest.java",
+      "bytes": 4156,
+      "sha256": "31122f50fcd628147f46b7037647c29c0fc04192c6f6ec2fc611c006430a4d33",
+      "extent": "complete original short/Reader character diagnostic/escaped surrogate Test; reference only"
+    },
+    {
+      "name": "REMAINING-HOTSPOTS-SUMMARY01.json",
+      "bytes": 69601,
+      "sha256": "fdb4341e71a3c4c301523506483284f5a68e6cf9d334054a6ca4539a4d63b0bc",
+      "extent": "complete existing closed post68 selected-hotspot summary only, not a fresh recording or CPU measurement"
+    },
+    {
+      "name": "FullJsonTreeByteParserDataTest.java",
+      "bytes": 21756,
+      "sha256": "021a29e2245a480d19f0c30649c64d0ac9dc10fdca3f560c93cb10d556e00633",
+      "extent": "complete existing owner15 strict whole legacy parser/failure/callback differential Test, no new execution credit"
+    }
+  ],
+  "first": {
+    "request": {
+      "POST_BEGIN_utc": "2026-11-12T17:28:00.713215+00:00",
+      "END_utc": "2026-11-12T17:28:15.474846+00:00",
+      "parameters": {
+        "model": "qwen38-coder",
+        "max_tokens": 6000,
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "headers_ms": 6478.627900010906,
+      "content_TTFT_ms": 6480.122199980542,
+      "total_ms": 14761.797799961641,
+      "usage": {
+        "prompt_tokens": 50221,
+        "completion_tokens": 1322,
+        "total_tokens": 51543
+      },
+      "cached_tokens": null,
+      "currency_cost": null,
+      "status": 200,
+      "finish": "stop",
+      "DONE": true,
+      "JSON": "VALID",
+      "response": {
+        "bytes": 5890,
+        "sha256": "336fdb5dab4b635ad07408dbe562e807fcf5adcf6145f1b64bbfcc34bcc3bbff"
+      },
+      "routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "retries": 0,
+      "length": 0
+    },
+    "review": {
+      "at_utc": "2026-11-12T17:36:23.369563+00:00",
+      "grade": "COMPLETE_SOURCE_PROPOSAL_PRIVATE_MAPPER_ACCESS_AND_MISSING_IO_IMPORT_STATIC_DEFECTS",
+      "response": {
+        "bytes": 5890,
+        "sha256": "336fdb5dab4b635ad07408dbe562e807fcf5adcf6145f1b64bbfcc34bcc3bbff"
+      },
+      "base": {
+        "bytes": 10911,
+        "sha256": "0307feefd2f675eec8af3577452779a5b02fe3af28eb1173e0aa9076cfd64404"
+      },
+      "candidate": {
+        "bytes": 11986,
+        "sha256": "5524eede88877ac84961a02a152dd7896206ff4a9e6ca52ecb07eb550177b045"
+      },
+      "unique_anchors": [
+        1,
+        1,
+        1
+      ],
+      "whole_inverse_restores_base": true,
+      "mechanics": "Response symbolic fully-qualified filename mapped only to the known soleSnapshot target; exact anchors after line-ending-only adaptation, no semantic anchor rewriting.",
+      "correct_source_extent": [
+        "Private parsedValue/parsedEntry first-encode sites chosen, parsedEntry index check left before encoding.",
+        "Original public FullJsonTree.encode/validate, Snapshot public constructors and Complete.encode not changed; CONSTRUCTION/provenStable/surrogate fallback bodies preserved.",
+        "Actual DecimalTokenNode.serialize output.writeNumber(token) described correctly, not an error."
+      ],
+      "defect": {
+        "category": "JAVA_PRIVATE_ACCESS_CONTROL",
+        "actual": "encodeParsed directly invokes FullJsonTree.JSON.writeValueAsBytes, but supplied FullJsonTree.JSON is private. It exists, is not public/package accessible, and must not be exposed as a fix. No legal Snapshot-private writer is implemented.",
+        "static_not_actual_javac": true
+      },
+      "IO_import": "Still missing java.io.IOException in first source",
+      "provenance_limit": "Closed parser tree origin reasoning is useful but does not make another class private field accessible. Writer/output equality cannot be qualified from an illegal same-instance reference; future-parser speculation is not a meaningful current regression.",
+      "owner_word_error_correction": "Owner initially recalled writeRawValue, then re-read current/frozen/ownerBASE3400-byte dcfaa1... line50 and confirmed actual writeNumber(token). First model statement was correct; no code changed for this owner memory error.",
+      "qualification": {
+        "operator_JVM_live_production": 0,
+        "full_candidate_accepted": false,
+        "actual_model_hunk_adoption": "NOT_HELD_OWNER_SELECTION_PENDING",
+        "software_Runtime_gain": "NOT_GRANTED",
+        "model_Test_generated": false,
+        "automatic_third_HTTP": false
+      },
+      "limits": "Complete stops, not length/transport failure or actual javac RED. Private encoding remains a source-owner design task; repeated access-control mistake is not proof of technical impossibility or permanent capability ceiling."
+    }
+  },
+  "sole_correction": {
+    "same_current_prefix": {
+      "bytes": 191168,
+      "sha256": "59a9a86a78c6dfdcc0fba905d15582167c4a0b3868b544a3418cf2681eb0f768"
+    },
+    "complete_first_response": {
+      "bytes": 5890,
+      "sha256": "336fdb5dab4b635ad07408dbe562e807fcf5adcf6145f1b64bbfcc34bcc3bbff"
+    },
+    "feedback_task": {
+      "bytes": 11750,
+      "sha256": "9c9b2b8f9867775e9fbfc1413d0db2495c5cf52fec5174819cca311132e96eaa"
+    },
+    "request": {
+      "POST_BEGIN_utc": "2026-11-12T17:33:22.411325+00:00",
+      "END_utc": "2026-11-12T17:33:31.518911+00:00",
+      "parameters": {
+        "model": "qwen38-coder",
+        "max_tokens": 6000,
+        "temperature": 0,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "response_format": {
+          "type": "json_object"
+        },
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "message_roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "headers_ms": 1390.1375000132248,
+      "content_TTFT_ms": 1391.9271000195295,
+      "total_ms": 9107.929700054228,
+      "usage": {
+        "prompt_tokens": 52555,
+        "completion_tokens": 1415,
+        "total_tokens": 53970
+      },
+      "cached_tokens": null,
+      "currency_cost": null,
+      "status": 200,
+      "finish": "stop",
+      "DONE": true,
+      "JSON": "VALID",
+      "response": {
+        "bytes": 6316,
+        "sha256": "4e12af37607031509de23c0a9ba793c06473f396d018ce150fc67c053c120238"
+      },
+      "routing": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "retries": 0,
+      "length": 0
+    },
+    "review": {
+      "at_utc": "2026-11-12T17:36:23.371467+00:00",
+      "grade": "COMPLETE_SOURCE_PROPOSAL_REJECTED_AS_WRITTEN_PRIVATE_MAPPER_ACCESS_UNRESOLVED_OWNER_TAKES_OVER",
+      "response": {
+        "bytes": 6316,
+        "sha256": "4e12af37607031509de23c0a9ba793c06473f396d018ce150fc67c053c120238"
+      },
+      "base": {
+        "bytes": 10911,
+        "sha256": "0307feefd2f675eec8af3577452779a5b02fe3af28eb1173e0aa9076cfd64404"
+      },
+      "candidate": {
+        "bytes": 12014,
+        "sha256": "d0f2ee97acea0cb12dc215c5f8944ed46e55a4085342f40dce24cc3e0f2cd157"
+      },
+      "unique_anchors": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "whole_inverse_restores_base": true,
+      "mechanics": "Response symbolic fully-qualified filename mapped only to the known soleSnapshot target; exact anchors after line-ending-only adaptation, no semantic anchor rewriting.",
+      "correct_source_extent": [
+        "Private parsedValue/parsedEntry first-encode sites chosen, parsedEntry index check left before encoding.",
+        "Original public FullJsonTree.encode/validate, Snapshot public constructors and Complete.encode not changed; CONSTRUCTION/provenStable/surrogate fallback bodies preserved.",
+        "Actual DecimalTokenNode.serialize output.writeNumber(token) described correctly, not an error."
+      ],
+      "defect": {
+        "category": "JAVA_PRIVATE_ACCESS_CONTROL",
+        "actual": "encodeParsed directly invokes FullJsonTree.JSON.writeValueAsBytes, but supplied FullJsonTree.JSON is private. It exists, is not public/package accessible, and must not be exposed as a fix. No legal Snapshot-private writer is implemented.",
+        "static_not_actual_javac": true
+      },
+      "IO_import": "Second response adds actual IOException import, fixing that one missing declaration only.",
+      "provenance_limit": "Closed parser tree origin reasoning is useful but does not make another class private field accessible. Writer/output equality cannot be qualified from an illegal same-instance reference; future-parser speculation is not a meaningful current regression.",
+      "owner_word_error_correction": "Owner initially recalled writeRawValue, then re-read current/frozen/ownerBASE3400-byte dcfaa1... line50 and confirmed actual writeNumber(token). First model statement was correct; no code changed for this owner memory error.",
+      "qualification": {
+        "operator_JVM_live_production": 0,
+        "full_candidate_accepted": false,
+        "actual_model_hunk_adoption": "NOT_HELD_OWNER_SELECTION_PENDING",
+        "software_Runtime_gain": "NOT_GRANTED",
+        "model_Test_generated": false,
+        "automatic_third_HTTP": false
+      },
+      "limits": "Complete stops, not length/transport failure or actual javac RED. Private encoding remains a source-owner design task; repeated access-control mistake is not proof of technical impossibility or permanent capability ceiling."
+    }
+  },
+  "owner_word_correction": {
+    "actual_DecimalTokenNode": {
+      "bytes": 3400,
+      "sha256": "dcfaa1f41e5dba568e21d61103197827c26704e3e386da48077a8a159812b9df"
+    },
+    "real_serialize": "output.writeNumber(token)",
+    "intermediate_owner_memory": "writeRawValue",
+    "owner_rechecked_and_confirmed": true,
+    "model_first_description_correct": true,
+    "source_changed_for_this_correction": false
+  },
+  "sample_extent": {
+    "closed_summary": {
+      "bytes": 69601,
+      "sha256": "fdb4341e71a3c4c301523506483284f5a68e6cf9d334054a6ca4539a4d63b0bc"
+    },
+    "business_recorded_id": 83,
+    "OS_id": 101284,
+    "Execution_samples": 449,
+    "Native_samples": 157,
+    "FullJsonTree_read_nearest": 99,
+    "read_caller_groups": 19,
+    "one_Snapshot_parse_caller_samples": 48,
+    "one_Persistent_caller_samples": 25,
+    "encode_inclusive": 60,
+    "encode_nearest": 40,
+    "encode_caller_groups": 11,
+    "one_parsedEntry_caller_samples": 44,
+    "limits": "48/25/44 are counts within caller groups, not group counts or CPU duration; inclusive and nearest populations cannot be added. This is closed mixed-phase evidence, not AB or all samples attributed to one callee."
+  },
+  "combined_cost": {
+    "requests": 2,
+    "input_tokens": 102776,
+    "output_tokens": 2737,
+    "sum_HTTP_ms": "23869.727500015869",
+    "first_BEGIN_to_last_END_seconds": "330.805696",
+    "envelope_includes_prep_review_owner_feedback": true,
+    "sequential_peak": 1,
+    "current_after_END": 0,
+    "retries": 0,
+    "length": 0,
+    "cached_tokens_both": null,
+    "currency_cost": null,
+    "third_HTTP": 0,
+    "no_TTFT_cache_queue_or_speed_inference": true
+  },
+  "operations": {
+    "shared_clean_main": "13d57323507c83a14c7f8fbe8c6a2e19eb14762c",
+    "policy_config_caller_unchanged": true,
+    "Nov13_daily_actual_success_reused": true,
+    "operator_JVM_Game_live_JFR_production_or_service_change": 0
+  },
+  "limits": [
+    "Both complete proposals are rejected as written; owner may independently choose actual fragments later, none is backfilled at this source-review cut.",
+    "A private field access defect is not missing source, length/transport failure, an actual compiler RED, a technical NO or permanent model ceiling.",
+    "Legal private writer equivalence, Driver256MiB lease/error/callback/ownership and surrogate paths remain owner implementation/regression tasks; no256MiB empirical test or Runtime gain claimed.",
+    "Public FullJsonTree encode/arbitrary node validation and Snapshot constructors/Complete.encode remain original. No public trusted tree, parser platform, reflection or mapper exposure as a workaround.",
+    "B IO already has distinct-path/pre-read/post-read/close/callback boundary sourceNO, not another quota POST."
+  ],
+  "privacy": "Complete sources/requests/responses/private code and recording paths remain local."
+}
