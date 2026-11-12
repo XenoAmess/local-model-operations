@@ -1,0 +1,231 @@
+{
+  "machine_id": "BF-202609141645",
+  "model658": {
+    "transport": {
+      "http_status": 200,
+      "finish_reason": "length",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 10420,
+        "completion_tokens": 3600,
+        "total_tokens": 14020
+      },
+      "total_ms": 21476.267300080508,
+      "first_nonempty_content_delta_ms": 1670.3145999927074,
+      "json_syntax": {
+        "status": "UNKNOWN",
+        "top_level_type": "UNKNOWN",
+        "reason": "NON_STOP_FINISH",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      }
+    },
+    "incomplete_candidate_body_read": false,
+    "adopted": false,
+    "concatenated": false,
+    "automatically_retried": false
+  },
+  "owner_native": {
+    "Lua51_compile": true,
+    "actual_UI_context_human_leader_singleplayer_turn_active_settled_pre_and_post_guards": true,
+    "actual_GetResearchPath_goal_hash_to_dense_1_based_tech_indices": {
+      "IMPROVEMENT_WIND_FARM": [
+        {
+          "raw_key_type": "number",
+          "raw_key": 1,
+          "raw_value_type": "number",
+          "raw_value": 54,
+          "index": 54,
+          "hash": -2122571700,
+          "type": "TECH_PLASTICS",
+          "owned": false,
+          "CanResearch": true,
+          "progress": 533.61328125,
+          "cost": 592.0
+        },
+        {
+          "raw_key_type": "number",
+          "raw_key": 2,
+          "raw_value_type": "number",
+          "raw_value": 57,
+          "index": 57,
+          "hash": 1915613645,
+          "type": "TECH_SYNTHETIC_MATERIALS",
+          "owned": false,
+          "CanResearch": false,
+          "progress": 0.0,
+          "cost": 664.0
+        },
+        {
+          "raw_key_type": "number",
+          "raw_key": 3,
+          "raw_value_type": "number",
+          "raw_value": 62,
+          "index": 62,
+          "hash": -1574004523,
+          "type": "TECH_COMPOSITES",
+          "owned": false,
+          "CanResearch": false,
+          "progress": 0.0,
+          "cost": 740.0
+        }
+      ],
+      "IMPROVEMENT_GEOTHERMAL_PLANT": [
+        {
+          "raw_key_type": "number",
+          "raw_key": 1,
+          "raw_value_type": "number",
+          "raw_value": 54,
+          "index": 54,
+          "hash": -2122571700,
+          "type": "TECH_PLASTICS",
+          "owned": false,
+          "CanResearch": true,
+          "progress": 533.61328125,
+          "cost": 592.0
+        },
+        {
+          "raw_key_type": "number",
+          "raw_key": 2,
+          "raw_value_type": "number",
+          "raw_value": 57,
+          "index": 57,
+          "hash": 1915613645,
+          "type": "TECH_SYNTHETIC_MATERIALS",
+          "owned": false,
+          "CanResearch": false,
+          "progress": 0.0,
+          "cost": 664.0
+        }
+      ],
+      "IMPROVEMENT_OFFSHORE_WIND_FARM": [
+        {
+          "raw_key_type": "number",
+          "raw_key": 1,
+          "raw_value_type": "number",
+          "raw_value": 56,
+          "index": 56,
+          "hash": 840424027,
+          "type": "TECH_NUCLEAR_FISSION",
+          "owned": false,
+          "CanResearch": true,
+          "progress": 0.0,
+          "cost": 664.0
+        },
+        {
+          "raw_key_type": "number",
+          "raw_key": 2,
+          "raw_value_type": "number",
+          "raw_value": 61,
+          "index": 61,
+          "hash": 611924100,
+          "type": "TECH_LASERS",
+          "owned": false,
+          "CanResearch": false,
+          "progress": 0.0,
+          "cost": 740.0
+        },
+        {
+          "raw_key_type": "number",
+          "raw_key": 3,
+          "raw_value_type": "number",
+          "raw_value": 66,
+          "index": 66,
+          "hash": 1514828631,
+          "type": "TECH_NUCLEAR_FUSION",
+          "owned": false,
+          "CanResearch": false,
+          "progress": 0.0,
+          "cost": 862.0
+        },
+        {
+          "raw_key_type": "number",
+          "raw_key": 4,
+          "raw_value_type": "number",
+          "raw_value": 72,
+          "index": 72,
+          "hash": -96279613,
+          "type": "TECH_CYBERNETICS",
+          "owned": false,
+          "CanResearch": false,
+          "progress": 0.0,
+          "cost": 1100.0
+        },
+        {
+          "raw_key_type": "number",
+          "raw_key": 5,
+          "raw_value_type": "number",
+          "raw_value": 74,
+          "index": 74,
+          "hash": 1049470971,
+          "type": "TECH_PREDICTIVE_SYSTEMS",
+          "owned": false,
+          "CanResearch": false,
+          "progress": 0.0,
+          "cost": 1150.0
+        }
+      ]
+    },
+    "resolved_entries": 10,
+    "unresolved_entries": 0,
+    "max_raw_entries_per_path": 128,
+    "max_total_raw_entries": 512,
+    "current_research": {
+      "type": "TECH_PLASTICS",
+      "index": 54,
+      "progress": 533.61328125,
+      "cost": 592
+    },
+    "UI_ImprovementBuilder": null,
+    "UI_player_GetTeam": {
+      "port": "function",
+      "pcall": true,
+      "value": 0
+    },
+    "qualified_Core_suitability_dependency": "baiqi-p6-native127-renewable-sites657-2026-11-12.json",
+    "new_implementation_required": "Read-only Core suitability bridge plus UI site-aware actual research-path next-step planning; preserve current positive progress and existing request/pending protocol.",
+    "future_tech_path_not_inferred_from_static_XML": true
+  },
+  "maintenance": {
+    "daily_date": "2026-11-12",
+    "OpenCode_installed_registry": "1.19.5",
+    "same_machine_user_success_cache_reused": true,
+    "OpenCode_native_generation": 0
+  },
+  "cumulative_at_model658_completion": {
+    "logical_calls": 658,
+    "complete": 612,
+    "length_failures": 43,
+    "transport_failures": 3,
+    "HTTP_attempts": 688,
+    "additional_attempts": 30,
+    "actual_initial_inflight": 1,
+    "OpenCode_native_generation": 0,
+    "cached_prompt_tokens": null,
+    "owner_active_seconds": null,
+    "net_savings_seconds": null
+  },
+  "still_open": [
+    "Source128 bridge and site-aware prerequisite planning",
+    "Actual unlock, offshore construction and durable power",
+    "Recurring food phase root cause, older213/222 and unknown recovery/full matrix"
+  ],
+  "schema": "local-model-operations.civ6-model658-research-path/v1",
+  "utc": "2026-11-12T02:10:05.090348+00:00",
+  "business_evidence": {
+    "url": "https://github.com/XenoAmess/civ6_dev/blob/e78486688e87c91aa3560c703d5feb0b87b9a1ab/docs/research/baiqi-p6-native127-research-path658-2026-11-12.json",
+    "sha256": "0ea5ea7177a9a70ceeda55ad6f7301b4fafddfb4ed0be99a8e992f8bd6081bab",
+    "bytes_scope": "git_blob",
+    "working_copy_sha256": "6e826d0f31bed0ef7e003dddf7ddf233d9c01cfcf66269e758396ba91c4d0734"
+  },
+  "generic_lessons": [
+    "Discard a length-truncated candidate without reading or stitching its body.",
+    "Qualify actual runtime graph/path shapes and per-context port availability before introducing a consumer.",
+    "A currently available API in one context can be absent in another; use a bounded read-only bridge rather than treating it as global."
+  ],
+  "new_HTTP": 1,
+  "OpenCode_native_generation": 0,
+  "unknown_cost_and_savings": null
+}

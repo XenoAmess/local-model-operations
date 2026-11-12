@@ -1428,3 +1428,8 @@ Nov12同机同用户1.19.5成功维护缓存复用，无本轮升级／OpenCode�
 ### 2026-11-12：657普通HTTP与维护分账
 
 657复用Nov12同机同用户1.19.5成功维护缓存，普通HTTP候选审阅／Owner合同／Native适用性分别记账；OpenCode原生生成0，维护成功不授代码生成能力。[回执](evidence/2026-11-12-civ6-model657-renewable-sites.json)。
+
+
+### 2026-11-12：658长度失败不授能力
+
+658普通HTTP复用Nov12同机同用户1.19.5成功维护缓存；length整体拒用，Owner实际诊断分账。OpenCode原生生成0。[回执](evidence/2026-11-12-civ6-model658-research-path.json)。

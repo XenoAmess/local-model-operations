@@ -5600,3 +5600,8 @@ One complete stop42.5306s/TTFT7.5321s, 57685 input/6221 output, peak1/no retry. 
 ## 2026-11-12：657多目标适用性与保护边界
 
 657完整14247tokens／11206.3245ms。缺全局端口在pcall实参求值时抛出隔离复现，整份不直接采用；Owner保护前检／最终跨行回合撤销，9组后只读Native。218地块×4实际team端口872次：海上风电32真186假、其他三项各218假，0未知。未拥有解锁科技独立保留，不授建造或假想清地许可。当前消费端无有地块条件的前置路径规划，继续真实658诊断。累计657／612完整42length3transport687HTTP30extra，缓存成本净收益null。[固定blob反链](evidence/2026-11-12-civ6-model657-renewable-sites.json)。
+
+
+## 2026-11-12：658半截整拒与实际随机路径
+
+658 HTTP200／DONE但length，14020tokens／21476.2673ms，正文不读不拼不采用不自动重试。Owner独立只读实际3路径10项，海上风电56→61→66→72→74，实际dense Index表；保护塑料正进度。UI ImprovementBuilder缺失与Core端口已资格分开，继续小型只读桥与下一前置规划。累计658／612完整43length3transport688HTTP30extra，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-model658-research-path.json)。
