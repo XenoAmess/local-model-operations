@@ -5605,3 +5605,8 @@ One complete stop42.5306s/TTFT7.5321s, 57685 input/6221 output, peak1/no retry. 
 ## 2026-11-12：658半截整拒与实际随机路径
 
 658 HTTP200／DONE但length，14020tokens／21476.2673ms，正文不读不拼不采用不自动重试。Owner独立只读实际3路径10项，海上风电56→61→66→72→74，实际dense Index表；保护塑料正进度。UI ImprovementBuilder缺失与Core端口已资格分开，继续小型只读桥与下一前置规划。累计658／612完整43length3transport688HTTP30extra，未知成本null。[固定blob反链](evidence/2026-11-12-civ6-model658-research-path.json)。
+
+
+## 2026-11-12：659—661路径／场址真实消费与128软件
+
+三真实任务峰值3／重叠22.712152秒。659完整28291tokens但硬编码xy0、未定义pid、元数据表当函数，阳性0calls；660完整26607tokens却复制旧直接解锁选择，桥false仍选／locked+桥true仍无选择，均0桥调用；661完整27453tokens，9setup错误0行为通过，三份整拒0rawNative。Owner20新Lua51方法，旧127三方法4断言失败0异常；实际Core player.IsHuman而非缺失config端口，独立内联正反读资格。首轮全量途中修改造成配对源码哈希拒绝，冻结重跑1838pass1SDKskip／97Lua119包。新只读Core桥、有空场址的实际图下一步消费、原pending-before-writer和正进度保护；正式128游戏效果待验。累计661／615完整43length3transport691HTTP30extra，未知缓存成本净收益null。[固定blob反链](evidence/2026-11-12-civ6-source128-power-path.json)。

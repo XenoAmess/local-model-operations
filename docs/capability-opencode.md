@@ -1433,3 +1433,8 @@ Nov12同机同用户1.19.5成功维护缓存复用，无本轮升级／OpenCode�
 ### 2026-11-12：658长度失败不授能力
 
 658普通HTTP复用Nov12同机同用户1.19.5成功维护缓存；length整体拒用，Owner实际诊断分账。OpenCode原生生成0。[回执](evidence/2026-11-12-civ6-model658-research-path.json)。
+
+
+### 2026-11-12：659—661普通候选、Owner修正与原生分账
+
+Nov12同机同用户1.19.5成功每日维护缓存复用，三个普通HTTP候选均拒用，Owner编测和只读端口资格另列；OpenCode原生生成0，正式128效果未由软件结果代授。[回执](evidence/2026-11-12-civ6-source128-power-path.json)。
