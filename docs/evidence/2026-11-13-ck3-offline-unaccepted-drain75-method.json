@@ -297,5 +297,303 @@
     "JFR": 0,
     "queue_mutation": 0,
     "research_HTTP": 1
+  },
+  "owner_revision02_software_posterior": {
+    "recorded_utc": "2026-11-12T23:36:00.300272+00:00",
+    "scope": "Finite posterior from existing named Ready and Native receipts only; no new HTTP, VM, source implementation/review, test, queue inspection or live action.",
+    "source_revision02": {
+      "source": {
+        "bytes": 143839,
+        "sha256": "88287a8b17754d7a918b9cba1c203a10100ebd5739f5d1d868f97c758a9a8895"
+      },
+      "ready": {
+        "bytes": 3008,
+        "sha256": "470f20675885285b2ebf2e6fda9d07b6c2e4b56c599ccbf09a018dc391672f8c"
+      },
+      "owner_created_utc": "2026-11-12T23:08:30.705709+00:00",
+      "delta_from_owner01": "Prevalidate all duplicate IDs/bodies and total unique bound before enqueueing any local work. The first candidate was typing-only, noJUnit/Runtime; sequential merge could process local before seeing conflicting durable sameID. Existing real accepted futures are still joined before this pure merged-set validation. Original enqueue/wait/reap and final four guards unchanged.",
+      "prior_conditional_ordering_note": "Historical owner01 note retained. Revision02 prevalidates the complete merged set before admission or local completion removal, eliminating that specified owner01 conditional state mutation before later conflict rejection."
+    },
+    "authorship": {
+      "model_hunks_adopted": 0,
+      "owner_production": true,
+      "shared_source_and_metadata_diagnosis": "Credited separately; owner production was not taken from the static-rejected model response. No posterior model-code or model-test credit."
+    },
+    "actual": {
+      "qualification": {
+        "final_production_TUs": 1,
+        "final_production_classes": 19,
+        "Test_TUs": 1,
+        "Test_classes": 9,
+        "whole3": "3P0FES",
+        "original_owner01_only_typing_0JUnit_preserved": true,
+        "owner02_static_strengthening": "Validate complete merged local+durable ID/body/unique4096 before enqueuing any local; no actual compilerRED attributed to staticownerreview.",
+        "component_limits": "Real public SessionController, EpisodeIncidentJournal and software Queue/Review/Knowledge ports; no private capture/Session/Guard or issuer. Mature full Runtime recovery and clean capture remain separate."
+      },
+      "tested_behavior": [
+        "Public enqueue full fails before durable publication; original local same object remains and drains when capacity returns despite zero durables. Acceptedfuture-first join/reap/dedup and legacy durable route.",
+        "Complete merged conflicting ID/body rejects before local admission; duplicate samebody and unique4096 behavior retained.",
+        "Failed acceptedfuture and actual5ms timeout preserve jobs; immutable failedlastreport remains failure and original fourclause cleanGuard rejects; no fakecompletion/ticket/jobdrop."
+      ],
+      "thin_receipt": {
+        "bytes": 15215,
+        "sha256": "a023eca4039f1a7fea0b8580b298cb0c6178c81eb5777f7ee71a0fdab4ccf110"
+      },
+      "phases": [
+        {
+          "name": "offline-queue75-compile01",
+          "actor_seconds": "8.503012600005604",
+          "operator_seconds": "9.364917500060983",
+          "exit_code": 0,
+          "accepted": true,
+          "actual": {
+            "bytes": 1583,
+            "sha256": "41fa9f7dde6364db0e8c0f87d9538e5bc96a6e36b17c05794732b176ae9ff89b"
+          },
+          "post": {
+            "bytes": 360,
+            "sha256": "b2815e38774fd5cb3c1895d467296626d741bb98dfa4ea4884e3862b296c08af"
+          },
+          "close": {
+            "bytes": 204,
+            "sha256": "3e74d9fd10a772a3ee851631ca975192e0c1bf0adc449e00b40b74fe046f27ee"
+          }
+        },
+        {
+          "name": "offline-queue75-compile02",
+          "actor_seconds": "7.170409500016831",
+          "operator_seconds": "8.04958390002139",
+          "exit_code": 0,
+          "accepted": true,
+          "actual": {
+            "bytes": 1583,
+            "sha256": "b86ce646f4be9eae256eedf6e0d3d6cb9ca64d41a092c00ede4365ab63b36ab6"
+          },
+          "post": {
+            "bytes": 360,
+            "sha256": "c1c6c980afba5c381333c8e30c097fd904a6e8f0a2ccb1f1641ad068bef85bac"
+          },
+          "close": {
+            "bytes": 204,
+            "sha256": "733a5c36c520d393dce9910d22157dd08b327ec4d0117fa6c1d9846501dd4e53"
+          }
+        },
+        {
+          "name": "offline-queue75-test25-compile01",
+          "actor_seconds": "8.537661499925889",
+          "operator_seconds": "9.626549099921249",
+          "exit_code": 0,
+          "accepted": true,
+          "actual": {
+            "bytes": 1577,
+            "sha256": "fca4a08125ab59b0357fec5c745fc10761ec968549d9cf76733119f20b1b7bd7"
+          },
+          "post": {
+            "bytes": 367,
+            "sha256": "141f05b04d9e6b63972b048ec09dfc6da12948725ba7e871dd353b57403a0077"
+          },
+          "close": {
+            "bytes": 204,
+            "sha256": "6344fad1aa2d4355fcee05403892791924c0a42058ad6b68f649e28999cdeab5"
+          }
+        },
+        {
+          "name": "offline-queue75-whole3-junit01",
+          "actor_seconds": "6.687481899978593",
+          "operator_seconds": "7.6843433999456465",
+          "exit_code": 0,
+          "accepted": true,
+          "actual": {
+            "bytes": 1317,
+            "sha256": "de3d4cac380b32b13b7b0ebfd8bcde508526d4f9de840af2dff121fb0cd11269"
+          },
+          "post": {
+            "bytes": 1348,
+            "sha256": "e9fda5b5d7cea100a97d2f111094b0432631f31e3710622c22d5358012a550d2"
+          },
+          "close": {
+            "bytes": 204,
+            "sha256": "1bf3d7cf358a5fa0fb44e089cb6391e9f3f21b9555a479f9ac1f5ff95732f5f9"
+          },
+          "reports": [
+            {
+              "name": "TEST-junit-jupiter.xml",
+              "bytes": 48310,
+              "sha256": "320fab33c4a469a4be167bebee8fd1515faad20612fd60cd383c10489117e3d9",
+              "counts": {
+                "tests": "3",
+                "failures": "0",
+                "errors": "0",
+                "skipped": "0"
+              }
+            },
+            {
+              "name": "TEST-junit-platform-suite.xml",
+              "bytes": 46582,
+              "sha256": "2815f39f93ecd8b95a5ed1ee5510ab26c69d413959e61202e4e0c689736e973c",
+              "counts": {
+                "tests": "0",
+                "failures": "0",
+                "errors": "0",
+                "skipped": "0"
+              }
+            },
+            {
+              "name": "TEST-junit-vintage.xml",
+              "bytes": 46561,
+              "sha256": "f0bf3e190eada243f2d44798743057a58e1570198289582b0979b148232064bd",
+              "counts": {
+                "tests": "0",
+                "failures": "0",
+                "errors": "0",
+                "skipped": "0"
+              }
+            }
+          ]
+        }
+      ],
+      "old_owner01": "Typing only, no JUnit/runtime. Revision02 actual Controller1TU19/Test1TU9; whole3 first3P0FES."
+    },
+    "formal": {
+      "qualification": {
+        "production_TUs": 1,
+        "production_classes": 19,
+        "existing_Test_classes": 9,
+        "Test_recompile": 0,
+        "whole3": "3P0FES independently on formal74/71/73 closure",
+        "same_source_and_baseline": "Exact rawrev02 actual/formalcandidate143839/88287a8b, BASE143130/cd1d7825",
+        "post_independent_compile_binary_comparison": {
+          "compared": 19,
+          "equal": 19
+        },
+        "paid_compile_and_run_costs_retained": true
+      },
+      "phases": [
+        {
+          "name": "offline-queue75-formal-compile01",
+          "actor_seconds": "8.803292899974622",
+          "operator_seconds": "9.89132120006252",
+          "exit_code": 0,
+          "accepted": true,
+          "actual": {
+            "bytes": 1571,
+            "sha256": "cba01f9173e7f8d80cccc70894609085dc217aa65cd832e3a545c98e951d0e4b"
+          },
+          "post": {
+            "bytes": 367,
+            "sha256": "63a312da40c174a66fb944394d243b52ab21479f8d2b17de76df56fd51784344"
+          },
+          "close": {
+            "bytes": 204,
+            "sha256": "ac311fff0cfb10d77e5af490fe1d96f60ede6a3a0047db8db1490fa0be7d3499"
+          }
+        },
+        {
+          "name": "offline-queue75-formal-whole3-junit01",
+          "actor_seconds": "7.994984299992211",
+          "operator_seconds": "9.696604000055231",
+          "exit_code": 0,
+          "accepted": true,
+          "actual": {
+            "bytes": 1356,
+            "sha256": "ef75b58353320995b089ead0e5a1b0231db63143fbbba18c942239c8cbaf5369"
+          },
+          "post": {
+            "bytes": 1369,
+            "sha256": "0fae892f02569052d30373862a730caed0e2555f6206b936781b037c7e8160b8"
+          },
+          "close": {
+            "bytes": 204,
+            "sha256": "dd0d385c221e724210c7b90b2cc7c6f08ef6de48f20dabedf07752a592a1c952"
+          },
+          "reports": [
+            {
+              "name": "TEST-junit-jupiter.xml",
+              "bytes": 48248,
+              "sha256": "fb3424c1055bf7e096991e5351621d30881277362e8043c345e9937d49025c51",
+              "counts": {
+                "tests": "3",
+                "failures": "0",
+                "errors": "0",
+                "skipped": "0"
+              }
+            },
+            {
+              "name": "TEST-junit-platform-suite.xml",
+              "bytes": 46520,
+              "sha256": "6bf5c335c5720606f9941b7c8ff6b794dd2f6bee448ae80821d784761083f993",
+              "counts": {
+                "tests": "0",
+                "failures": "0",
+                "errors": "0",
+                "skipped": "0"
+              }
+            },
+            {
+              "name": "TEST-junit-vintage.xml",
+              "bytes": 46499,
+              "sha256": "b8c4bbdb05fae9b4fe7807eda364879151607197b1d5f2954e99af35e3090661",
+              "counts": {
+                "tests": "0",
+                "failures": "0",
+                "errors": "0",
+                "skipped": "0"
+              }
+            }
+          ]
+        }
+      ],
+      "test_recompile": 0,
+      "scope": "Independent formal Controller1TU19 compile and whole3 run using existing sameTest9. Not an inferred pass from actual or a duplicate Test compile."
+    },
+    "final_native_receipt": {
+      "bytes": 11280,
+      "sha256": "ea0fbfc93e47e0a8afd14b260331d173532c02ecdc1c156aa1b81e1b64573fdb"
+    },
+    "shape_only": {
+      "source_metadata": {
+        "bytes": 884,
+        "sha256": "f204b5dbd343017bc4985f8650831af1a30074cc88b6acaf217b885165d11f10"
+      },
+      "description": "Full19 membermetadata equal to qualified74owner02/newtype0/oldAPI preserved, body-only structure fact only; not currentloader HCR qualification.",
+      "no_fallback_restart_doScan_mature_callable": "NOT_HELD"
+    },
+    "business_publication": {
+      "receipt": {
+        "bytes": 1826,
+        "sha256": "5050dcedc9e7bd324d6a305af77a72d57e9f9197496e8acf16689c5fb44e8ed4"
+      },
+      "commit": "94b30f6dcf6d23a64398a26ef157ace60eb351df",
+      "paths": 5,
+      "remote_clean": "Owner-published receipt and message report equal origin/master/clean; models operator did not write or query business Git."
+    },
+    "cost_cut": {
+      "business_JVM_total": 198,
+      "compile": 136,
+      "JUnit": 60,
+      "DATA_Main": 2,
+      "independent_JFR_tool_JVMs": 10,
+      "cumulative_actor_seconds": "2268.9511629000771833",
+      "cumulative_operator_seconds": "2728.1764141001039999",
+      "actor_nested_not_additive": true,
+      "all_older_FAILs_cuts_CAPs_originals_preserved": true
+    },
+    "qualification_limits": "Both actual and formal test publicController/file-backed EpisodeJournal/controlled ports/backpressure/futurefail+real5ms deadline+originalfourclause failedreport guard. No RootManaged issuer/privateCapture/actualqueue state cleanup/currentWorker/HCR/cleanTicket qualification.",
+    "Runtime_at_business_publication_cut": "Source74 matureallsettled recovery LOOP held; Source75 not adopted/copy/GET at this publication cut, no HCR/capture/drain success credit or software/Git gate.",
+    "model_HTTP_cost_unchanged": {
+      "requests": 1,
+      "input_tokens": 148424,
+      "output_tokens": 1289,
+      "total_ms": 26546.295000007376,
+      "current_inflight": 0,
+      "new_HTTP": 0
+    },
+    "remaining_ungranted": [
+      "actual Source75 copy/load/HCR",
+      "real stopped-worker drain and clean capture ticket",
+      "private RootManaged/Session issuer integration",
+      "actual active queue cleanup or future/map state",
+      "performance/CPU/SAVE improvement"
+    ]
   }
 }
