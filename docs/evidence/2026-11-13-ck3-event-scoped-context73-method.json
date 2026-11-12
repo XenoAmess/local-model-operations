@@ -1,0 +1,312 @@
+{
+  "schema": "local-model-operations.event-scoped-context73-method/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "scope": "New functional P0 single Selector TU bounded current-event admission candidate. Separate from archived business HTTP400 diagnosis, prior closure tasks and tests owned elsewhere.",
+  "shared_source_head": "633b67108b27ac95ff75965d23d781b5d202cab2",
+  "source_prefix": {
+    "frozen_file_raw": {
+      "bytes": 636838,
+      "sha256": "b5a7d058407019aa1a72eb4928795f41ad5f13ab84d1ae36fc3c697c614b8501"
+    },
+    "actual_message_LF_utf8": {
+      "bytes": 632459,
+      "sha256": "c359c0f74117b32da4737409b5635558d91a86086c933db7823f9ed5f831fda6"
+    },
+    "transform": "Existing caller read_text CRLF-to-LF; frozen file pins and actual REQUEST separately audited"
+  },
+  "complete_sources": [
+    {
+      "frozen": "01-RootOnlineDecisionSelector.java",
+      "bytes": 86068,
+      "sha256": "4fc4c3698e7806b420142c2a3ee048aa5aa9bdc4df7e00ffb0b11025431ad5f7",
+      "extent": "complete actual86068 principal target; ONLY production leaf allowed"
+    },
+    {
+      "frozen": "02-PlanningRequest.java",
+      "bytes": 3328,
+      "sha256": "a3a08bf35a207ea8fe8314695bc80cd5a84057ad6978c6d0c5e8a7f812db233b",
+      "extent": "complete current bound request/observations/deadline/source contract"
+    },
+    {
+      "frozen": "03-PlanningObservation.java",
+      "bytes": 3931,
+      "sha256": "6d76bce8ff7e186f9e32d5a5a8559b23953de75c9301369621602863321ab57b",
+      "extent": "complete immutable current snapshot/history/capabilities/actionfacts definitions"
+    },
+    {
+      "frozen": "04-PlanningResult.java",
+      "bytes": 3395,
+      "sha256": "c064331c8cc8fd8d10c4439f847c88fd92a6972535c7b13e82e7e401bf7d2c41",
+      "extent": "complete actual ActionSelected/ReadOnlyWait result contract"
+    },
+    {
+      "frozen": "05-PlanTrace.java",
+      "bytes": 1213,
+      "sha256": "c2f03a346c7f1e085bb32ee9b92c8f22f04f0bd10383d0cf8ba73b86ce692c1a",
+      "extent": "complete original finalPlan/visits/choice trace"
+    },
+    {
+      "frozen": "06-OrdinaryDecisionSelector.java",
+      "bytes": 824,
+      "sha256": "f3e8c6ea6169f63da4660c9858e78272d8b0a4ee99a338323ddb94631c354c14",
+      "extent": "complete exact SELECT_PROPOSAL-or-WAIT/selection evidence interface"
+    },
+    {
+      "frozen": "07-OrdinaryPolicy.java",
+      "bytes": 3729,
+      "sha256": "6d6140a07103c712059a067fbccff9f889b52719a80963605ddcb34828c78b0f",
+      "extent": "complete real Kind/Purpose/Draft/enums; do not invent enum values"
+    },
+    {
+      "frozen": "08-ActionCommand.java",
+      "bytes": 5863,
+      "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+      "extent": "complete original command/public source/body/expectation/identity APIs"
+    },
+    {
+      "frozen": "09-ActionCodec.java",
+      "bytes": 13354,
+      "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+      "extent": "complete original command encoder/bodySHA; frozen algorithm"
+    },
+    {
+      "frozen": "10-EventPolicies.java",
+      "bytes": 53620,
+      "sha256": "5e5973ddd066ea92f32364e7da9560aa47b6655131c2946f55081e12e32fccca",
+      "extent": "complete real event operation/kind/fallback builder and bindings"
+    },
+    {
+      "frozen": "11-PublicEventResolution.java",
+      "bytes": 18716,
+      "sha256": "625388b0cbedae738e7f2ff74ec136e063ec88345dde87bad207bd9df439a039",
+      "extent": "complete real exact current event/option/source/fallback contract"
+    },
+    {
+      "frozen": "12-RegisteredEventCore.java",
+      "bytes": 35969,
+      "sha256": "f70340e61e214e0bbf13fd0ab79caa131dd1ffaf3745c0b1203ecb618e25f920",
+      "extent": "complete real registry status/effect knowledge/ordinary event decisions"
+    },
+    {
+      "frozen": "13-EpisodeIncidentJournal.java",
+      "bytes": 110056,
+      "sha256": "bea9d8e84d70d42fdc000c5e3a07206f6875d871daccb461c4f50e56fffb488d",
+      "extent": "complete real incident/user fallback/current source/binding evidence contract"
+    },
+    {
+      "frozen": "14-CompactPeacefulLifeDecision220Test.java",
+      "bytes": 34557,
+      "sha256": "739619e884089cb85dcf91d14edfd77e6add63688a5dbabbcc4e750c2731af74",
+      "extent": "complete original nonEvent compact route/old payload contract Test, reference only no execution"
+    },
+    {
+      "frozen": "15-OnlineOrdinaryDecisionSelectorTest.java",
+      "bytes": 74284,
+      "sha256": "f11a7038d86eb685fdec219c3fe72e9b33c8753cc494525ff98a422941924703",
+      "extent": "complete original Java selector protocol/source/receipt/selection tests"
+    },
+    {
+      "frozen": "16-RootOnlineDecisionSelectorSseBoundaryTest.java",
+      "bytes": 16282,
+      "sha256": "d21bde656956afd6920d8e73cd3bef2aecd5f2597f42f955068dca7bdfac3a1a",
+      "extent": "complete original SSE/response/deadline error boundary Test, no change"
+    },
+    {
+      "frozen": "17-RootOnlineDecisionSelectorPendingHeadersTest.java",
+      "bytes": 12226,
+      "sha256": "d3a489a58be818d7a82b62af17c9b5d0f09a666e65b87ed5e8c2fae62834fa93",
+      "extent": "complete original pending headers/cleanup/deadline Test, no change"
+    },
+    {
+      "frozen": "18-ACTUAL-REQUEST-STRUCTURE73.json",
+      "bytes": 8229,
+      "sha256": "c11a77bba04808423f51cd2f25156f717613161113ebb05cc8ece0d9b07b7a62",
+      "extent": "complete small actual request shape metadata; NOT the4.67MiBREQUEST"
+    },
+    {
+      "frozen": "19-ACTUAL-EVENT-CONTEXT73.json",
+      "bytes": 101045,
+      "sha256": "43910f65b1db692796bb9e06296defbf193aec74e83d1d494bdb6974ce5dd88c",
+      "extent": "complete bounded actual current Event context101045, full original proposal/snapshot/small relevant rows only"
+    },
+    {
+      "frozen": "20-FullJsonTree.java",
+      "bytes": 9196,
+      "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a",
+      "extent": "complete actual public encode/strict parse limits; JSON mapper private, do not access"
+    },
+    {
+      "frozen": "21-RawJson.java",
+      "bytes": 6984,
+      "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+      "extent": "complete actual private-owned fullMaterial/protocol byte bounds; old API frozen"
+    },
+    {
+      "frozen": "22-StrictJson.java",
+      "bytes": 14844,
+      "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+      "extent": "complete actual exact type/field/current integer/data validation helpers; frozen"
+    },
+    {
+      "frozen": "23-OpportunityJson.java",
+      "bytes": 7208,
+      "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+      "extent": "complete actual immutable JSON tree/data types, no public trusted AST"
+    }
+  ],
+  "excluded_input": "Original 4674507-byte business request was neither read nor copied into this coding request by this operator; supplied complete 101045-byte bounded actual event context and 8229-byte structure report instead.",
+  "request": {
+    "bytes": 659525,
+    "sha256": "b477a7904574f082717f43740b09204b34b18bcc906b91781da27fd76bdfcbd3",
+    "messages": 3,
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "max_tokens": 6000,
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "network": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    }
+  },
+  "actual_HTTP": {
+    "POST_BEGIN": "2026-11-12T20:52:14.139155+00:00",
+    "END": "2026-11-12T20:52:48.312854+00:00",
+    "status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "headers_ms": 19782.898199977353,
+    "TTFT_content_ms": 19784.04599998612,
+    "total_ms": 34173.92840003595,
+    "usage": {
+      "prompt_tokens": 153006,
+      "completion_tokens": 2399,
+      "total_tokens": 155405
+    },
+    "cached_tokens": null,
+    "retries": 0,
+    "length": 0,
+    "transport_failures": 0,
+    "JSON_syntax": "VALID",
+    "candidate_content": {
+      "bytes": 10883,
+      "sha256": "abd3b3f42cec1df685190cf4904ac9439cb09280e07acf60a3f5d222ccfd9244"
+    },
+    "peak_inflight": 1,
+    "peak_duration_seconds": 34.173699,
+    "current_inflight": 0,
+    "queue_or_cache_cause": "NOT_HELD; no service sampler used"
+  },
+  "review": {
+    "anchors": [
+      {
+        "edit": 1,
+        "matches": 1,
+        "path": "RootOnlineDecisionSelector.java"
+      },
+      {
+        "edit": 2,
+        "matches": 1,
+        "path": "RootOnlineDecisionSelector.java"
+      },
+      {
+        "edit": 3,
+        "matches": 1,
+        "path": "RootOnlineDecisionSelector.java"
+      }
+    ],
+    "findings": [
+      {
+        "id": "event_always_falls_back",
+        "classification": "SOURCE_COUNTEREXAMPLE",
+        "detail": "New eligibility requires active_event Obj; new payload then invokes old hasCurrentCompleteRoot which requires active_event null. All eligible active-event inputs return null and reach existing full HTTP fallback."
+      },
+      {
+        "id": "overflow_and_malformed_unbounded_fallback",
+        "classification": "CONTRACT_VIOLATION",
+        "detail": "Payload >262144 and RuntimeException return null; requestPayload continues old paths/full unbounded event HTTP. Response prose explicitly endorses this fallback, contrary to supplied fail-WAIT contract."
+      },
+      {
+        "id": "archive_reference_missing",
+        "classification": "CONTRACT_OMISSION",
+        "detail": "No MaterialSink call for complete unprojected original model input, no archived-original ExactRef in projected DTO, and no new local WAIT with discoverable original evidence. Original select would archive only returned projected/full request."
+      },
+      {
+        "id": "current_arrays_missing",
+        "classification": "CONTRACT_OMISSION",
+        "detail": "New DTO includes action_facts but omits complete current capabilities and routable_operations requested by contract."
+      },
+      {
+        "id": "event_binding_incomplete",
+        "classification": "CONTRACT_OMISSION",
+        "detail": "Only checks operation regex, plan kind, active_event instance/count types and advertised operation. Does not verify actual current instance/selected option/rendered-native mapping/full fallback binding against original command args. Deadline equality is stricter than original EventPolicies accepts <=, not a relaxation proof."
+      },
+      {
+        "id": "history_removal_unconditional",
+        "classification": "CONTRACT_VIOLATION",
+        "detail": "members.remove(native_command_history) erases any current scalar/object under that key too, despite contract allowing omission only as explicitly historical collection. Does preserve other snapshot fields by shallow immutable copy."
+      },
+      {
+        "id": "sample_wire_size_not_verified",
+        "classification": "UNSUPPORTED_CLAIM",
+        "detail": "101045 small-context input file size does not prove generated complete policy/messages/escaping wire <=256KiB. Proposed runtime payload length check is entire encoded wire, but sample-fit assertion unexecuted and path impossible due peaceful guard."
+      }
+    ],
+    "legitimate_APIs": [
+      "ActionCommand.before() exists; PlanningRequest before/source/session/deadline accessors exist.",
+      "OrdinaryPolicy.Kind.FOREGROUND and Purpose.WORLD_ACTION exist; Draft command/phase/detail are actual APIs.",
+      "OpportunityJson.Obj.members/get constructor and OperationKey.value() exist; no false API absence claim.",
+      "FullJsonTree public parse/encode and ActionCodec encodeCommand/bodySha256/claims are actual APIs.",
+      "All three old anchors match uniquely; no actual compiler execution, compiler RED or software PASS claimed."
+    ],
+    "classification": "Complete review-eligible response; whole candidate statically rejected for concrete contradictory branch and evidence/failure omissions. Not transport, length, actual javac RED, technical impossibility or capability ceiling."
+  },
+  "adoption_at_cut": {
+    "model_production_hunks": 0,
+    "model_tests": 0,
+    "business_compiles": 0,
+    "software_Pass": false,
+    "production_publish": false,
+    "Runtime_adoption": false,
+    "speed_or_SAVE_grant": false,
+    "posterior": "No owner source adoption held at this cut; later actual partial selection must be appended separately."
+  },
+  "maintenance": {
+    "same_day_success_cache_reused": true,
+    "local_date": "2026-11-13",
+    "installed_registry_target": "1.19.5",
+    "updated": false,
+    "successful_cache_at_local": "2026-11-13T00:00:16.238350+08:00",
+    "maintenance_record": {
+      "bytes": 517,
+      "sha256": "0ca1cb2c19ee23ce6536f0ec1793e93d648f0a26968d11d43b60ea366095650d"
+    }
+  },
+  "operator_boundary": {
+    "new_engineering_HTTP": 1,
+    "new_business_HTTP": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "full_business_request_reads": 0,
+    "service_parameters_changed": false,
+    "production_source_writes": 0
+  },
+  "independent_source_diagnosis": "Old peaceful hasCurrentCompleteRoot explicitly requires active_event null; therefore it cannot guard a current active-event projection. Complete HTTP completion does not establish usable bounded P0 behavior."
+}

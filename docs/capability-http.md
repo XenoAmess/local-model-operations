@@ -6033,3 +6033,8 @@ Model02 nested/fallback/current-scope bodies are genuinely partially selected; o
 ## 2026-11-13: Embedded event14 HTTP400 input-context rejection
 
 Existing Java business body387B proves last naturalinput >=1048577tokens >1048576cap before output; earlier two samebyte-length400s are metadataonly. Wireattempt->decisionreceipt->WAIT trace->completedreport source locator found real archived error without engineeringPOST/CASscan/Game. Python sharedCLI errorfile mechanism is distinct.4.67MiBREQUEST unread by this operator at this cut; no exact fulltokencount/fieldcause/serverincrease/ROI inferred. [Actual failure and RO path](evidence/2026-11-13-ck3-event14-business-http400-context-ro.md).
+
+
+## 2026-11-13: Event73 bounded input first candidate, contradictory old peaceful guard
+
+One complete stop153006in/2399out/34.1739sHTTP/TTFT19.7840s, peak1/current0. All3anchors unique, but active-event Obj→old peaceful active_event-null check makes new path impossible, and oversize returns to the unbounded input that caused the real business400. No original-input archive ref/current arrays, incomplete event/option binding; no compile/adoption/Runtime/ROI. Real existing APIs are not falsely labeled missing; no transport/length failure or technicalNO. [Source, exact costs and rejection](evidence/2026-11-13-ck3-event-scoped-context73-method.md).
