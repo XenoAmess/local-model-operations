@@ -1498,3 +1498,8 @@ OpenCode1.19.5同机同用户每日成功缓存复用、原生生成0。665整�
 ### 2026-11-12：672/673受阻项目130软件
 
 两真实HTTP完整15731／16765tokens，峰2重叠约17.65秒；672把签名当work／过滤先耗预算／虚构API／最终漂移整拒，673十三setup错误及错writer整拒，0rawNative。Owner接管既有唯一写者，11新回归、旧129三断言失败0异常、冻结全1900项1899pass1SDKskip／97Lua119包；130冷验未授，人口FAIL保留。累计673／627完整43length3transport703HTTP30extra；每日维护缓存复用、OpenCode原生0／净收益null。[固定blob反链](evidence/2026-11-12-civ6-blocked-project130-model672673.json)。
+
+
+### 2026-11-12：130实机修复和首座海上风电
+
+0新HTTP，不重计672673。119匹配／新鲜离线、同档300唯一后台工业区修复并观察，Native裁旧项目条目保143/154；1普通END7军SKIP到301工业区完好、项目143/157、预测系统自然完成。最后次Builder7798799造真实海上风电2132并消耗，保raw unit_unavailable及配对效果边界；上海free2仍有project供电，不授持续供足。人口FAIL及全矩阵继续，OpenCode原生0／净收益null。[固定blob反链](evidence/2026-11-12-civ6-native130-first-offshore301.json)。
