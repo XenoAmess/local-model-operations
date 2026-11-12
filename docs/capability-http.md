@@ -5947,3 +5947,10 @@ Planning-expiry source-only posterior: ownerReady66-03 adds Controller damagedEn
 ## 2026-11-12：Civ6135实际社区开工324
 
 119冷装／新鲜离线后原134323一次加载，七快照组相同，但4food和6vitals派生行不同，人口／库存／忠诚保持；初未提交保持措辞已纠正，不归因135或宣称全部一致。324原队列自然完成后，后台邯郸2867／上海2055各一次社区请求、队列回执和实际区域10；北京港口保持。邯郸施工中总住房18→17／区域6→5保留，未授住房改善，观察器有界继续待真实完成。单普通END7军SKIP／无人损／22城帧合格，324已存未载。0新增HTTP，不重计693694，OpenCode原生0／未知成本null。[固定135冷读与两城开工反链](evidence/2026-11-12-civ6-native135-housing-started324.json)。
+
+
+## 2026-11-13: Exact row-byte scoped memo implementation and correction
+
+Two complete stops77486in/4097out, sumHTTP29.8035s/sequentialpeak1/current0. Corrected capture and failurecleanup but residual StreamObj/ListValue static defect remain; no actualjavacRED/thirdPOST or blanket failure of correct identity/fullbytes/lifetime parts. Rowkey saturation1024/16MiB is bounded not wholeDOM budget. Late169row4,337,616B input-equality proof is only02 input, not scopedhit/ROI. First caller after midnight performs actual Nov13maintenance1.19.5 success, not stale daycache. Prior P0carrier-onlypartial now has actual/formalwhole4 and exact10pub/Runtime67LOOP separately, no newSAVE/naturalexpiry/speed credit.
+
+[New bounded candidate and all costs](evidence/2026-11-13-ck3-owned-history-row-byte-memo-method.md); [prior P0true posterior](evidence/2026-11-12-ck3-planning-predispatch-deadline-p0-method.json).

@@ -383,5 +383,373 @@
     "carrier_lint_followup": "Request field becomes transient in carrier02 static lint fix before compiler, not an actual RED. Original904-byte partially selected body retained as prior cut. Do not extend exact904 equality to the later changed field.",
     "deadline_behavior_clarification": "Earlier request deadline before batch monotonic bound keeps the existing Planner DEADLINE -> PLANNER_STOPPED behavior, same as stage287. It is not by itself a new bug or requirement to claim batch wall expired. In this actual incident mono bound was exceeded, so original requireTime1197 chooses WALL_TIMEOUT/BATCH_DEFERRED. The model still fails on race/type/suppression, independent of this behavior boundary.",
     "qualification": "Source only at received cut; typing/behavior/Runtime and source-owner entire fix remain separate, model credit only carrier body. No new HTTP/JVM/live."
+  },
+  "posterior_software_and_runtime67": {
+    "business_publication": {
+      "pin": {
+        "bytes": 623,
+        "sha256": "6c43c78ae7087bbce1adddc597508591d548ba47a7d6ddbd7cc1d5885c9f758c"
+      },
+      "commit": "c98f8352f92138f12c6544981e75e27f49a3db51",
+      "exact_files": 10,
+      "production_sources": 6,
+      "tests": 1,
+      "docs": 3,
+      "clean_remote_at_cut": true
+    },
+    "final_qualification": {
+      "bytes": 11715,
+      "sha256": "77956e4277d640e7edc71ade2ba7b86384d105c84707f3dd40b920225080d5c0"
+    },
+    "actual_qualification": {
+      "bytes": 20179,
+      "sha256": "735ac7a2dbca486593dbe20b48e52241f23550a4b80d48f69e1dac6e05be47ff"
+    },
+    "production": {
+      "TUs": 6,
+      "types": 51,
+      "families": {
+        "OrdinaryPlanner.java": 2,
+        "PlanningDeadlineExpiry.java": 1,
+        "ContinuityBatchJournal.java": 21,
+        "SessionController.java": 19,
+        "RootRuntimeCommands.java": 3,
+        "RootRuntimeContext.java": 5
+      },
+      "output": {
+        "bytes": 282480,
+        "sha256": "9101b739169cc6cd405cd33565743482cd0562caf1225a8e7473265f55fa5ca3"
+      },
+      "new_source_type": "org/xar/ck3/control/application/planning/PlanningDeadlineExpiry relative original source baseline; already present in Runtime67 actual cohort",
+      "body_only": false,
+      "old_API_fact": "Read-only current ordered CP51 types public/protected descriptor+flags subset retained by these51 outputs. This is not an immutable original formalBASE class attestation: current C build classes have already changed through Runtime67.",
+      "clean_classloader_boundary_required_for_new_original_type": true
+    },
+    "test": {
+      "reused_qualified_types": 10,
+      "new_Test_compilations": 0,
+      "wholecases": [
+        "org.xar.ck3.control.service.root.PlanningDeadlineExpiryControllerDataTest#expiryInsideRealPolicyEndsTheOriginalBatchWithoutAnyActionOrSavedCredit",
+        "org.xar.ck3.control.service.root.PlanningDeadlineExpiryControllerDataTest#shorterRequestDeadlineRemainsAnOrdinaryPlannerStopAndTheOriginalEntryCheckStillRuns",
+        "org.xar.ck3.control.service.root.PlanningDeadlineExpiryControllerDataTest#expiredWallClockCannotReclassifyOtherRequestCauseSuppressionOrAnUnrelatedContractFailure",
+        "org.xar.ck3.control.service.root.PlanningDeadlineExpiryControllerDataTest#actualReadPublicationIoFailureMustSurviveExpiryAndMustNotCallTheFailedWriterTwice"
+      ],
+      "reports": [
+        {
+          "bytes": 48525,
+          "sha256": "859d8ccc7d8f6e696555a4c0b955aae45b2d433f5cb657b6aa5390f1d4dcd5b6"
+        },
+        {
+          "bytes": 46078,
+          "sha256": "7490fe257f4690ffea9e80a1f16f2d59c62b10ad2aed333dd7b323b04b875fc3"
+        },
+        {
+          "bytes": 46057,
+          "sha256": "7d439f995a95c7b8f4512d87bc1e3df1ab1b870707c4835d6f6feba5406044d9"
+        }
+      ],
+      "actual": "4P0FES; other engines zero; inputs unchanged"
+    },
+    "formal_phases": [
+      {
+        "actual": {
+          "bytes": 1604,
+          "sha256": "490f6792e195d5c6e58d349c4d3639bf817dfacc3fc06c09751586bc9bd8087f"
+        },
+        "close": {
+          "bytes": 204,
+          "sha256": "52860225d25ac4f58ef6e8adf23bcfe8f0dc34db61ebc89ff87912d8794c8f5f"
+        },
+        "post": {
+          "bytes": 369,
+          "sha256": "229c5dac5c7c3f110eb3dcc3b7af1cf81a86cf9e6a85e7a2009c030d7038992b"
+        },
+        "outer": {
+          "bytes": 959,
+          "sha256": "e375354f7141fb54ac51081d02a022bfa76ab20b8df6d63cb6c6fec841c41651"
+        }
+      },
+      {
+        "actual": {
+          "bytes": 1467,
+          "sha256": "c696dbfb5ccd2423de1fa0d3e8e5e00bd7da3192abe24ba641d03eb3ba45c5de"
+        },
+        "close": {
+          "bytes": 204,
+          "sha256": "78410ba011bee7c93fafec904e5b4d83606fd2d1dcd804ed0bbf0e8940414d91"
+        },
+        "post": {
+          "bytes": 1557,
+          "sha256": "2200875cc87cdbc0e8f1c35c67af854e45292072741a38e75b437b46cdedf8f4"
+        },
+        "outer": {
+          "bytes": 968,
+          "sha256": "48f0d8ddc1e482fef629d2b8cc16847f2e0b76f5c5fa476d47663d023c4b31cc"
+        }
+      }
+    ],
+    "actual_phases": [
+      {
+        "kind": "compile",
+        "BEGIN": "2026-11-12T15:19:48.564617+00:00",
+        "END": "2026-11-12T15:20:05.764269+00:00",
+        "exit": 1,
+        "accepted": false,
+        "actorSeconds": "14.85826500004623",
+        "operatorSeconds": "17.199650099966675",
+        "ACTUAL": {
+          "bytes": 1581,
+          "sha256": "9283bcfd45f036d48ad8d44628a418a08c7b25f924caa728071f00a05797ce9f"
+        },
+        "POST": {
+          "bytes": 364,
+          "sha256": "55353eef9f7a4ead7c5ddb089b6b73030a16266af5585aa42c1ac66e385d4c6d"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "f38f6c34e594a7a44b216e0583acd58114c682cf4e223a1ac99340ec2ab4b1eb"
+        },
+        "OUTPUTS": {
+          "bytes": 21220,
+          "sha256": "64f5615fdee2c3372aeed6df2e259505e4e62e7c9c635ba6bc6c2f44d78276d1"
+        },
+        "types": 5
+      },
+      {
+        "kind": "compile",
+        "BEGIN": "2026-11-12T15:23:44.662912+00:00",
+        "END": "2026-11-12T15:23:57.696003+00:00",
+        "exit": 0,
+        "accepted": true,
+        "actorSeconds": "10.603251999942586",
+        "operatorSeconds": "13.0330880000256",
+        "ACTUAL": {
+          "bytes": 1582,
+          "sha256": "fa7a38e3df679fc003ac090f561037f6ceb9a29b47d1fd3644c56a9728e4980f"
+        },
+        "POST": {
+          "bytes": 364,
+          "sha256": "b109d2ff61ac420bf0bff08f8d22f3a739d29f64432416e3e941dbb469c336d4"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "245f5aeae40c848094fc62f1f1690372a1d0d1f8cdf4de7eb3f9ae380f41a4bb"
+        },
+        "OUTPUTS": {
+          "bytes": 117786,
+          "sha256": "826c742b320687c12bbcb1b197969ecc78bf8e6b9828c3d39771fb479e87dd39"
+        },
+        "types": 30
+      },
+      {
+        "kind": "compile",
+        "BEGIN": "2026-11-12T15:28:25.069539+00:00",
+        "END": "2026-11-12T15:28:38.103321+00:00",
+        "exit": 0,
+        "accepted": true,
+        "actorSeconds": "11.269892200012691",
+        "operatorSeconds": "13.033778400043957",
+        "ACTUAL": {
+          "bytes": 1555,
+          "sha256": "99628eb0f357bd67147d75a56c61da941ac15380829e67fad4401bffa2f9f8db"
+        },
+        "POST": {
+          "bytes": 362,
+          "sha256": "c0a2725dc4579166f77abf555229769644ff2fbb1bead9e30a686a6e2971b3d4"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "0df7527f4859873f6887ec3c455c62e69ff3aa9787926c63c617e8c8cd1e86e1"
+        },
+        "OUTPUTS": {
+          "bytes": 168771,
+          "sha256": "449bf414414ecffab3bc3ddb88040c9849a23c6bdfa7798f22a55e35e1258277"
+        },
+        "types": 21
+      },
+      {
+        "kind": "compile",
+        "BEGIN": "2026-11-12T15:31:08.602074+00:00",
+        "END": "2026-11-12T15:31:17.243431+00:00",
+        "exit": 1,
+        "accepted": false,
+        "actorSeconds": "6.766684200032614",
+        "operatorSeconds": "8.641352100064978",
+        "ACTUAL": {
+          "bytes": 1597,
+          "sha256": "1871b8547b9d12332444527b345f26b7e522c4359801bcca258cb8dbe25140e4"
+        },
+        "POST": {
+          "bytes": 369,
+          "sha256": "84d33ef5fe973dbc3a13ef11ffd0d44513e582c08aee8e52891eeb4392aeb9df"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "66c2f414c8b20719b5475bbd1539e75157220a4dadc2401b3a5a1c098814c49c"
+        },
+        "OUTPUTS": {
+          "bytes": 129,
+          "sha256": "6376d821cae745dda7e2d5c81efa992fabea1e004b013c992a272f78a202f2b0"
+        },
+        "types": 0
+      },
+      {
+        "kind": "compile",
+        "BEGIN": "2026-11-12T15:34:26.909142+00:00",
+        "END": "2026-11-12T15:34:34.292171+00:00",
+        "exit": 1,
+        "accepted": false,
+        "actorSeconds": "5.587047999957576",
+        "operatorSeconds": "7.3830256999935955",
+        "ACTUAL": {
+          "bytes": 1597,
+          "sha256": "10cb726f836ca7e5f6993dc4b628cac9125c822d0999a146a0fd908e3b02e684"
+        },
+        "POST": {
+          "bytes": 369,
+          "sha256": "8233af8d9c480c0ea736eada71241f2a026f150133da74c75bb30d3da6831c0e"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "13418b10906f30acd0941c414a8821bf84e21353716357eac7bc39bbef44c391"
+        },
+        "OUTPUTS": {
+          "bytes": 129,
+          "sha256": "6376d821cae745dda7e2d5c81efa992fabea1e004b013c992a272f78a202f2b0"
+        },
+        "types": 0
+      },
+      {
+        "kind": "compile",
+        "BEGIN": "2026-11-12T15:37:40.947549+00:00",
+        "END": "2026-11-12T15:37:47.999244+00:00",
+        "exit": 0,
+        "accepted": true,
+        "actorSeconds": "5.636103900033049",
+        "operatorSeconds": "7.051692599896342",
+        "ACTUAL": {
+          "bytes": 1598,
+          "sha256": "f72732f160dcac52ea0118deb04ae16b11089fd163df29375dfb63d4cd01bbc8"
+        },
+        "POST": {
+          "bytes": 370,
+          "sha256": "0070284bd5a2b1a548988d4a13f97d51db4f06cb04dc596372e5dee92bdcafb1"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "15c4549c4a0f1c9337b0a6ae89b63425d257de1bd08df846b09f27d845ee314d"
+        },
+        "OUTPUTS": {
+          "bytes": 19846,
+          "sha256": "c711e9a59ed57745c97473147870ab4ad6d97165fd91c40f298011f9bd92cba9"
+        },
+        "types": 10
+      },
+      {
+        "kind": "junit",
+        "BEGIN": "2026-11-12T15:40:15.287573+00:00",
+        "END": "2026-11-12T15:40:21.106802+00:00",
+        "exit": 0,
+        "accepted": true,
+        "actorSeconds": "4.3358215999323875",
+        "operatorSeconds": "5.8192232000874355",
+        "ACTUAL": {
+          "bytes": 1427,
+          "sha256": "d18a8c3a8acd8406f8eda0f1ce018e5d01403378285db16a0d44f47264dfc259"
+        },
+        "POST": {
+          "bytes": 1542,
+          "sha256": "090f935b3904eadb658a1dbb3bf0b1102b22fbb98c100c1cda5372427ce39ba8"
+        },
+        "CLOSE": {
+          "bytes": 204,
+          "sha256": "64267dd1f9a375b45996c1dd84afa4f73e7fe76362ae3508353b8c9d490d00f2"
+        },
+        "XML": [
+          {
+            "pin": {
+              "bytes": 48582,
+              "sha256": "ff4bab075778c82fca61ee16dfcb08e17cf9890c55aaa4174967fb87f550d4e1"
+            },
+            "counts": {
+              "tests": 4,
+              "failures": 0,
+              "errors": 0,
+              "skipped": 0
+            }
+          },
+          {
+            "pin": {
+              "bytes": 46134,
+              "sha256": "096049e8002b3ea72ad1b11b0b6df9ecbca620dfb443bdf5fa5376f897e3bc30"
+            },
+            "counts": {
+              "tests": 0,
+              "failures": 0,
+              "errors": 0,
+              "skipped": 0
+            }
+          },
+          {
+            "pin": {
+              "bytes": 46113,
+              "sha256": "b04cdbe46196ad8e7f27de70fc1c93681f92ca4a0cea2f96b2010d53efc2513f"
+            },
+            "counts": {
+              "tests": 0,
+              "failures": 0,
+              "errors": 0,
+              "skipped": 0
+            }
+          }
+        ],
+        "selectors": [
+          "org.xar.ck3.control.service.root.PlanningDeadlineExpiryControllerDataTest#expiryInsideRealPolicyEndsTheOriginalBatchWithoutAnyActionOrSavedCredit",
+          "org.xar.ck3.control.service.root.PlanningDeadlineExpiryControllerDataTest#shorterRequestDeadlineRemainsAnOrdinaryPlannerStopAndTheOriginalEntryCheckStillRuns",
+          "org.xar.ck3.control.service.root.PlanningDeadlineExpiryControllerDataTest#expiredWallClockCannotReclassifyOtherRequestCauseSuppressionOrAnUnrelatedContractFailure",
+          "org.xar.ck3.control.service.root.PlanningDeadlineExpiryControllerDataTest#actualReadPublicationIoFailureMustSurviveExpiryAndMustNotCallTheFailedWriterTwice"
+        ]
+      }
+    ],
+    "limits": [
+      "Formal Journal/Saved and Command/Planner original differences preserved; source variant separately compiled",
+      "Only called deadline/Controller/RootCompletion DATA validated; formal Journal capture1237 fullhistory and RootContext liveissuer NOT_HELD",
+      "No Runtime adoption/sourceC writes/Game/GET/actions/deadline refresh or permission issued",
+      "Source65 Reader/Test candidate remains HELD 0CFG/0BEGIN/0JVM",
+      "Actual Runtime67 LOOP receipt separately owned by Runtime; not inferred from this qualification"
+    ],
+    "cost": {
+      "new_business_JVMs": 2,
+      "new_counts": {
+        "compile": 1,
+        "junit": 1
+      },
+      "new_actor_seconds": "21.088518200092949",
+      "new_operator_seconds": "23.905819400097243",
+      "all_business_JVMs": 147,
+      "all_counts": {
+        "compile": 105,
+        "junit": 40,
+        "data-main": 2
+      },
+      "all_actor_seconds": "1803.7612571999197888",
+      "all_operator_seconds": "2184.3831389000406389",
+      "actor_nested_in_operator_do_not_add": true,
+      "independent_7JFRtools_and_2older_perf_compiles_excluded": true,
+      "first_Native_BEGIN": "2026-11-11T17:32:29.172610+00:00",
+      "last_Native_END": "2026-11-12T16:01:09.406623+00:00"
+    },
+    "credit": "Only model new carrier body partially adopted; transient static lint and all other66 integration/67original8555body extraction/newcapture wrapper are source-owner work. Actual66fiveTU30+67oneTU21 and one trueControllerwhole4; formal6TU51 with sameTest10 independentlywhole4, not eight unique cases or old formal1237fullhistory qualification.",
+    "runtime_cut": {
+      "read_original_history_restoration_at": "2026-11-12T15:59:11.9373Z",
+      "LOOP_at": "2026-11-12T15:59:22.9131302Z",
+      "C59_retained": true,
+      "observed": 434,
+      "eligible": 417,
+      "confirmedSaved": 373,
+      "new_SAVE": 0,
+      "natural_planning_expiry_branch_credit": false
+    },
+    "scope": "Actual Runtime67 fullhistory/LOOP reported separately by Runtime and business publication; not inferred from software. No source65manifest/68memo transfer or speed credit."
   }
 }
