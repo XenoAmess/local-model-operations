@@ -5732,3 +5732,8 @@ One guided method response complete stop/DONE:46812 input/847 output, TTFT6.1164
 No new HTTP/Java/live. Original physical-read model edits retain all8 old public declarations; owner whole-file Javadoc slicing accidentally removed2, causing actual compatibleResult NoSuchMethodError. Helper4 manualDATA pass remains true but does not qualify public-entry or full Root behavior. Restored Source56 matches original model composition except its local helper comment; new qualification is pending at this cut. Separately, Snapshot54 actually adopts all9 production edits after only the two mechanical anchor fixes; generated Test remains rejected.
 
 [Original failure, ownership and restored-source boundary](evidence/2026-11-12-ck3-registered-physical-stop-method.md); [snapshot later source adoption](evidence/2026-11-12-ck3-receiver-review-snapshot-and-root-subtrees.md).
+
+
+## 2026-11-12：670/671秀容300独立领域与typed队列
+
+670完整6073tokens/4147.1905ms，人口与queue元数据分开方向窄采用、Owner补缺失领域事实；671完整4536tokens/6188.3885ms四反例整拒，Owner6只读合同后Native PROJECT10/143产能/工业区pillaged及PREPEND资格true，0修复/END300。人口−3独立保留并停下一END，13零燃料trace已还原。累计截至671／625完整43length3transport701HTTP30extra，后续672/673不预计；OpenCode维护缓存、原生0/成本null。[固定blob反链](evidence/2026-11-12-civ6-xiurong300-model670671.json)。

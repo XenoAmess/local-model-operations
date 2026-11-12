@@ -1488,3 +1488,8 @@ OpenCode1.19.5同机同用户每日成功缓存复用、原生生成0。665整�
 ### 2026-11-12：669回合转换无后续输入
 
 完整3088tokens/8378.2509ms，12假端口隔离场景通过，整份审阅后用于私有驱动；pending漂移只走原只读监视，新分支Native触发仍待见。原件转义疑虑未成立、Owner AST夹具修正不算模型失败。实际NPC_BLOCKED巴西对话后296，控制论自然完成接预测系统0/1150；296正式END先完成队列到2205后以新意图普通END，不冒称297。累计669／623完整43length3transport699HTTP30extra；OpenCode1.19.5同机同用户维护缓存，原生0/未知成本null。[固定blob反链](evidence/2026-11-12-civ6-phase2-transition669.json)。
+
+
+### 2026-11-12：670/671秀容300独立领域与typed队列
+
+670完整6073tokens/4147.1905ms，人口与queue元数据分开方向窄采用、Owner补缺失领域事实；671完整4536tokens/6188.3885ms四反例整拒，Owner6只读合同后Native PROJECT10/143产能/工业区pillaged及PREPEND资格true，0修复/END300。人口−3独立保留并停下一END，13零燃料trace已还原。累计截至671／625完整43length3transport701HTTP30extra，后续672/673不预计；OpenCode维护缓存、原生0/成本null。[固定blob反链](evidence/2026-11-12-civ6-xiurong300-model670671.json)。
