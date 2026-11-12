@@ -1,0 +1,162 @@
+{
+  "schema": "local-model-operations.case/v1",
+  "case_id": "2026-11-12-hoi4-promo-index-loader",
+  "mode_id": "http-candidate",
+  "observed_at_utc": "2026-11-12T05:37:26.007205+00:00",
+  "task": "Implement a bounded read-only clip-index loader for the real in-progress HOI4 promo integration.",
+  "model": "qwen38-coder",
+  "max_tokens": 3500,
+  "message_roles": [
+    "system",
+    "user",
+    "user"
+  ],
+  "input_closure": "Complete current generic capture module, actual six-clip index and precise helper contract. Owner specified all required checks; no independent contract discovery claimed.",
+  "source_bindings": [
+    {
+      "filename": "capture.py",
+      "sha256": "429387f4fc0781229dcd5e50e75a730c5eae70987a5b0a6e23b4a21c4623e5f9"
+    },
+    {
+      "filename": "capture-index-v1.json",
+      "sha256": "29592888c3a10b51ad255e7c83cd1025ffe27bc2490afa57db711fbe8d3b9fbe"
+    },
+    {
+      "filename": "contract.txt",
+      "sha256": "e98a98671385a9790208a4b673457642888fd6b28948db362e0dfb377e883d79"
+    }
+  ],
+  "request": {
+    "bytes": 53131,
+    "sha256": "c3672902958e4a1d4d1b4912c03fbf9adda43b32463e5c1bce03c3f447f6246c"
+  },
+  "candidate": {
+    "bytes": 5523,
+    "sha256": "74c5d4dd28f0b7edc0ad0038eaef6348bc16481528d8591e2e767f6f25f51d85"
+  },
+  "candidate_code_lines": 106,
+  "requested_code_line_limit": 100,
+  "transport": {
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "candidate_complete": true,
+    "usage": {
+      "prompt_tokens": 13136,
+      "completion_tokens": 1391,
+      "total_tokens": 14527
+    },
+    "cached_prompt_tokens_if_reported": null,
+    "first_nonempty_content_delta_ms": 2011.9869001209736,
+    "total_ms": 9716.919500147924
+  },
+  "concurrency": {
+    "scope": "This one named task directory; other consumers/server state unknown",
+    "post_begin_utc": "2026-11-12T04:44:24.624162+00:00",
+    "attempt_end_utc": "2026-11-12T04:44:34.334374+00:00",
+    "peak": 1,
+    "peak_duration_seconds": 9.710212,
+    "current": 0
+  },
+  "candidate_validation": {
+    "positive_six_real_receipts": true,
+    "negative": {
+      "receipt_sha": {
+        "rejected": false
+      },
+      "receipt_bytes": {
+        "rejected": false
+      },
+      "non_normalized_path": {
+        "rejected": false
+      },
+      "wrong_casting": {
+        "rejected": true,
+        "error": "ValueError"
+      },
+      "raw_sha": {
+        "rejected": true,
+        "error": "ValueError"
+      },
+      "bool_duration": {
+        "rejected": true,
+        "error": "ValueError"
+      },
+      "duplicate_clip_id": {
+        "rejected": true,
+        "error": "ValueError"
+      }
+    }
+  },
+  "owner_validation": {
+    "positive_six_real_receipts": true,
+    "negative": {
+      "receipt_sha": {
+        "rejected": true,
+        "error": "CaptureError"
+      },
+      "receipt_bytes": {
+        "rejected": true,
+        "error": "CaptureError"
+      },
+      "non_normalized_path": {
+        "rejected": true,
+        "error": "CaptureError"
+      },
+      "wrong_casting": {
+        "rejected": true,
+        "error": "ValueError"
+      },
+      "raw_sha": {
+        "rejected": true,
+        "error": "CaptureError"
+      },
+      "bool_duration": {
+        "rejected": true,
+        "error": "ValueError"
+      },
+      "duplicate_clip_id": {
+        "rejected": true,
+        "error": "ValueError"
+      }
+    }
+  },
+  "adoption": {
+    "level": "partial+owner; no method adopted verbatim",
+    "retained": "File/index/type/casting/duration guard structure from the candidate; owner reformatted and shortened it.",
+    "owner_changes": [
+      "Bounded actual index read.",
+      "Use supplied public CaptureFile.from_mapping for normalized paths, symlink containment and actual SHA/byte checks on both raw media and receipt JSON.",
+      "Cross-check raw binding against generic receipt and preserve explicit duration/duplicate/policy guards."
+    ],
+    "specific_candidate_errors": [
+      "Receipt bytes and SHA were syntax-checked but never compared with the actual receipt file.",
+      "PurePosixPath normalization silently accepted a non-normalized double-slash path."
+    ],
+    "scope": "Actual six receipts accepted; seven corrupted-input types rejected after correction. This proves index reference checks, not image identity or film approval."
+  },
+  "consumer_source": {
+    "repository": "https://github.com/XenoAmess/xenoamess_hoi4_dev",
+    "commit": "8244381ab6f2fad90ae38db038744d343bd93051",
+    "file": "mod_nailong/promo/integration/nailong_promo/capture_index.py",
+    "actual_file": {
+      "bytes": 3126,
+      "sha256": "8cde0ae369efe9f1d852a31261b5a1443f41178e44560aadb47bee58735a0f83"
+    }
+  },
+  "separate_owner_work": "Project composer/layout source and a real5-second title AV component were owner work; no model media-composition credit inferred from this helper.",
+  "business_scope": "Full filming and movie remain incomplete pending an exclusive desktop slot. No new video publication, visual approval or human signoff.",
+  "cost": {
+    "http_ms": 9716.919500147924,
+    "owner_prepare_seconds": null,
+    "owner_review_seconds": null,
+    "owner_correction_seconds": null,
+    "net_saving": null,
+    "cache_benefit": null
+  },
+  "raw_evidence": "Consumer ignored runtime/local-model-operations/promo-index-loader-20261112/response and runtime/promo-capture-20261112/index-loader-witness.json; raw media/requests not uploaded to this shared case.",
+  "next_real_trigger": "After remaining footage exists, validate the actual full composer run. Do not repeat this closed helper task or count generated fixtures as real game footage.",
+  "candidate_contract_notes": [
+    "106 code lines exceeded the requested100-line limit; corrected adopted helper is bounded and shorter."
+  ]
+}

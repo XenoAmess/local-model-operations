@@ -5718,3 +5718,10 @@ One guided method response complete stop/DONE:46812 input/847 output, TTFT6.1164
 ## 2026-11-12：669回合转换无后续输入
 
 完整3088tokens/8378.2509ms，12假端口隔离场景通过，整份审阅后用于私有驱动；pending漂移只走原只读监视，新分支Native触发仍待见。原件转义疑虑未成立、Owner AST夹具修正不算模型失败。实际NPC_BLOCKED巴西对话后296，控制论自然完成接预测系统0/1150；296正式END先完成队列到2205后以新意图普通END，不冒称297。累计669／623完整43length3transport699HTTP30extra；OpenCode1.19.5同机同用户维护缓存，原生0/未知成本null。[固定blob反链](evidence/2026-11-12-civ6-phase2-transition669.json)。
+
+
+## 2026-11-12：HOI4 实录索引绑定的部分采用
+
+一次完整stop，13136输入／1391输出tokens，TTFT2011.987ms／HTTP9716.920ms，具名峰值1／9.710212秒。候选可读真实六条回执，但错误receipt SHA、字节数及双斜线路径三反例被接受。Owner部分沿用索引／类型／时长守卫结构，改用已供源码中的CaptureFile公开校验，实际六条接受／七类负例全拒绝；无逐字整方法采用。Composer、布局与五秒AV组件为owner独立工作，全文录像／影片仍待桌面时段，不授文字模型审图或影片批准。提示程度、人工成本及缓存边界明示。
+
+[真实输入、三反例、部分采用与固定消费提交](evidence/2026-11-12-hoi4-promo-index-loader.json)。
