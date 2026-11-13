@@ -6081,3 +6081,8 @@ Queue75 posterior: independent ownerrev02 complete-set prevalidation supersedes 
 ## 2026-11-13: Canonical72B full-scope measurement draft review
 
 One new finite review121955in1990out/29.0437306sHTTP, TTFT15.7585419s, peak1/current0. Complete15-source draft/guard/Writer closure supplied; false ordinal/index18 assertion finding rejected against actual local16 loop,0adoption/no secondHTTP/JVM. Pretty preREQUEST vs compact wire112B difference corrected with completeJSON equality, no lost source. Existing owner72B actual/formal2P and publication counters are software/counter evidence only; neither this review nor old second-resolution marks grant timing/Runtime speed. [Exact fair-task/cost/error boundaries](evidence/2026-11-13-ck3-canonical72b-fullscope-measurement-review.md).
+
+
+## 2026-11-13: Receipt64/68 semantic-role safe-variant review
+
+One complete stop76285in1757out/22.1591938sHTTP, TTFT9.8643535s, peak1/current0. Full19 current sources include firstProjection+BigDecimal metadata/schema and later lexical command. Model NO conflates replacing metadata with the allowed narrower non-command projection reduction and offers no exact counterexample; unsupportedNO/0adoption/0javac, not technical impossibility or ceiling. Real numeric-role incompatibility retained; exactcompact preREQUEST/actual bytes equal, no new platform/cache/Guard/live or repeat request. [Specific source-role rejection and cost](evidence/2026-11-13-ck3-receipt-shared-ast-review.md).

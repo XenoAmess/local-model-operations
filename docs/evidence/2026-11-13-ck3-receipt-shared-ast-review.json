@@ -1,0 +1,254 @@
+{
+  "schema": "local-model-operations.receipt-shared-ast-review/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "scope": "One new finite same-call ActionReceiptCodec64/68 safe-variant review with concrete minimum candidate or justified rejection; not prior72 review/retry, not whole receipt/command cache or parser redesign.",
+  "source": {
+    "files": [
+      {
+        "name": "StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Strict default integer/schema/text helpers, not a legal replacement2MiB parser."
+      },
+      {
+        "name": "ProjectionJson.java",
+        "bytes": 4272,
+        "sha256": "bc042a865d61cec9ac7969d87b9f8a6fba082c1fd8169ff40cabd43367edcad8",
+        "role": "Actual first complete Projection validation: UTF8/BOM/NUL/duplicate/trailing/surrogate/constraints."
+      },
+      {
+        "name": "FullJsonTree.java",
+        "bytes": 9196,
+        "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a",
+        "role": "Current exact numeric lexeme parser/legacy error fallback; public algorithm frozen."
+      },
+      {
+        "name": "DecimalTokenNode.java",
+        "bytes": 3400,
+        "sha256": "dcfaa1f41e5dba568e21d61103197827c26704e3e386da48077a8a159812b9df",
+        "role": "True Decimal token NumericNode semantics, numberValue conversions and writeNumber serialization."
+      },
+      {
+        "name": "OpportunityJson.java",
+        "bytes": 7208,
+        "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+        "role": "Actual typed JSON immutable object/value/decimal declarations."
+      },
+      {
+        "name": "DriverJson.java",
+        "bytes": 11237,
+        "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+        "role": "Actual FullTree-to-typed model and canonical writers; no public trustedtree scope."
+      },
+      {
+        "name": "PublicDataJson.java",
+        "bytes": 8999,
+        "sha256": "60c4de5abab56b01919ec2fedbd7e4c338a845e1abd5b71bb5f83a0d57647f0c",
+        "role": "Exact decimal-preserving canonical command encoder, character writer and RawJson bounds."
+      },
+      {
+        "name": "RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Original ownedbytes/UTF8/factories/token bounds; unchanged."
+      },
+      {
+        "name": "ProposalLifecycleCodec.java",
+        "bytes": 22989,
+        "sha256": "ef0d9f389a30ea8a538982232705efeef74694fd63f51251214d9cce5fb858e1",
+        "role": "First header decoder actually Projection validate then private BigInteger/BigDecimal readTree."
+      },
+      {
+        "name": "ActionCodec.java",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "role": "Original command canonical numeric/bodySHA codec; no action algorithm changes."
+      },
+      {
+        "name": "ActionCommand.java",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "role": "Actual command constructor/equality and role data constraints."
+      },
+      {
+        "name": "ActionReceipt.java",
+        "bytes": 5260,
+        "sha256": "03db0d0edd0facf9fcabb24897a870c4eac11f13b67808cebef583b06c6a63d4",
+        "role": "Actual receipt constructor/bodySHA/callback effect order."
+      },
+      {
+        "name": "ActionPorts.java",
+        "bytes": 22631,
+        "sha256": "2b3e2ac7bc235899a3befb384a4d3bf085afa804bf66fcda2078f52adb75ced2",
+        "role": "Real default canonical command callback and arbitrary Archive boundary."
+      },
+      {
+        "name": "CompositeOperatorQuarantineReceiptCodec.java",
+        "bytes": 2680,
+        "sha256": "0dcead18f38814dd1e68e85fd3c8341217f40314f659b980056f2dce9f2a16e3",
+        "role": "Current special schema delegation bypasses ordinary typedcommand extraction; preserve branch/order."
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 126452,
+        "sha256": "550bddae7e53ea7e63beee5626245a037d973f929fe99f8b0d3d8df24bf83271",
+        "role": "Actual current126452 caller: fresh readBytes then receipt decode; existing command scope cache separate, not new72B candidate."
+      },
+      {
+        "name": "ActionCodecNumericTokenTest.java",
+        "bytes": 11226,
+        "sha256": "b62dcb8183fde33553a6448034814e82d129867d209c5fcd30e6487a45852bd6",
+        "role": "Complete existing decimal/category/negativezero/canonical/legacy token public tests reference; no newTest output."
+      },
+      {
+        "name": "ActionReceiptNumericArchiveTest.java",
+        "bytes": 5116,
+        "sha256": "97fb980be50332c3a5766ff189be939e403858fee22a2585d85e86d36e136faf",
+        "role": "Real old receipt numeric archive/coldsameID tests reference, no issued live authority."
+      },
+      {
+        "name": "HistoricalCommandReuse320Test.java",
+        "bytes": 19388,
+        "sha256": "9fb4e187844579fb48ec010db1b555e943ee67952084b58f48f4a6eef32fae6a",
+        "role": "Actual canonical command reuse callbacks: old public decode/loadRequest order, perreceipt state/hash/fresh checks."
+      },
+      {
+        "name": "ActionReceiptCodec.java",
+        "bytes": 54330,
+        "sha256": "e142910af54fb6be9cf245d125e34e59ad63d3f7783cb9bd6a404659ab4ec2a0",
+        "role": "SOLE target private decode samecall AST reuse design. Preserve all oldschema/encoder/settlement/callback public body logic."
+      }
+    ],
+    "raw_bytes_sum": 355429,
+    "actual_LF_source_message": {
+      "bytes": 359971,
+      "sha256": "2b21624765d79c44f2b0e8a52c0de0453f7159c5160cc9e8f2d45ae11e9d5765"
+    },
+    "all19_current_and_frozen_pins_equal_after_END": true,
+    "target": {
+      "name": "ActionReceiptCodec.java",
+      "bytes": 54330,
+      "sha256": "e142910af54fb6be9cf245d125e34e59ad63d3f7783cb9bd6a404659ab4ec2a0"
+    },
+    "actual_NativeArchive": "Complete actual current126452 caller, not unadopted72B/70 candidate.",
+    "input_boundary": "Full Projection/Proposal/FullTree/Decimal/typed model/RawJson/command+receipt/Archive interfaces/current consumer and existing numeric/archive/callback tests supplied. No raw Game/Driver/request/receipt body was read or copied; no large fixture platform added."
+  },
+  "owner_supplied_semantic_contract": {
+    "first": "Receipt64 ProposalLifecycleCodec.decodePayload first ProjectionJson.object(raw,2MiB) full token/UTF8/BOM/NUL/dup/trailing/surrogate constraints, then private standard ObjectMapper BigInteger/BigDecimal metadata AST.",
+    "second": "Original field/schema checks65-67 precede68 DriverJson.object -> FullJsonTree DecimalTokenNode -> typed Obj original command extraction, preserving category/-0.0/exponent/trailingzeros.",
+    "later": "Original canonical command callback then state/archive callbacks and receipt body hash order remain. Special CompositeOperatorQuarantine schema delegates earlier with no ordinary command extraction.",
+    "not_equivalent": "StrictJson.parse explicit max1MiB cannot replace2MiBreceipt. Metadata branches445/449/453 use StrictJson.canonical, so custom numeric-node replacement is not presumed equivalent. FullTree complete64depth/byte validation must remain even if non-command typed projection could be reduced.",
+    "allowed": "One specific private safe intermediate/projection seam or actual counterexample. No wholeReceipt cache/publictrustedAST/new platform/freshread/hash/Guard changes.",
+    "hinting": "These exact roles/budgets/branch facts were owner-supplied before POST; model is not credited for independently discovering them."
+  },
+  "request": {
+    "bytes": 372992,
+    "sha256": "56c6a985205be0aac82a73d49a5d123979f4289c14f1db72a657ea49f4ddee14",
+    "prefrozen_compact_REQUEST_raw_exact": true,
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "max_tokens": 4000,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "network": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    }
+  },
+  "HTTP": {
+    "POST_BEGIN": "2026-11-13T00:24:52.074284+00:00",
+    "END": "2026-11-13T00:25:14.233506+00:00",
+    "status": 200,
+    "finish": "stop",
+    "DONE": true,
+    "JSON_syntax": "VALID",
+    "headers_ms": 9862.92759992648,
+    "TTFT_content_ms": 9864.35349995736,
+    "total_ms": 22159.19379994739,
+    "usage": {
+      "prompt_tokens": 76285,
+      "completion_tokens": 1757,
+      "total_tokens": 78042
+    },
+    "cached_tokens": null,
+    "response": {
+      "bytes": 7274,
+      "sha256": "72f503c38b37580cee9f67e3596b8b02ac0a31cc2dff84cfa0640f5fec8c85e7"
+    },
+    "retry": 0,
+    "length": 0,
+    "transport_error": 0,
+    "peak_inflight": 1,
+    "current_inflight": 0,
+    "communication": "Actual END first thin-reported before content/source review. Source/metadata facts do not convert22.159sHTTP to CPU or business time saving."
+  },
+  "source_review": {
+    "at_utc": "2026-11-13T00:27:47.633550+00:00",
+    "response": {
+      "bytes": 7274,
+      "sha256": "72f503c38b37580cee9f67e3596b8b02ac0a31cc2dff84cfa0640f5fec8c85e7"
+    },
+    "model_reported_status": "REJECTED",
+    "owner_review_status": "UNSUPPORTED_GENERAL_NO_NARROW_TARGET_UNADDRESSED",
+    "correct_roles_not_new_adoption": [
+      "Standard BigDecimal metadata cannot reconstruct command original decimal token/negativezero/exponent/trailingzero.",
+      "Original first Projection validation and header/schema checks must remain before command lexeme extraction.",
+      "StrictJson.canonical really rejects non-integer numeric nodes; this source fact is not falsely labeled an invented-API error."
+    ],
+    "specific_rejection_gaps": [
+      "Final task explicitly permits retaining all first Projection/Proposal BigDecimal metadata and all schema checks while only reducing68 non-command typed Obj projection. Model instead assumes every variant replaces metadata with FullTree, so its rejection does not cover the supplied narrow variant.",
+      "ProjectionJson itself returns a validated byte carrier, not a DecimalNode tree. Proposal private ObjectMapper creates the standard numeric tree after validation. The answer conflates these roles.",
+      "FullTree BOM dispatch to complete legacy parser does not prove the answer's claim that BOM is accepted; no actual acceptance run or source proof was supplied. Legacy fallback alone cannot support that claim.",
+      "Different parser obligations forbid a naive whole-AST substitution, but do not by themselves disprove a same-call reduction of pure typed projection after preserving both validations. No concrete operand/failure counterexample for that narrower boundary was given."
+    ],
+    "next_source_question": "Owner may separately evaluate the private DriverJson.model traversal at68 after full-material validation, preserving original depth/error/metadata semantics. This is not an implemented or qualified candidate and not a request for another model attempt.",
+    "code_edits_returned": 0,
+    "code_or_design_hunks_adopted": 0,
+    "actual_javac": 0,
+    "second_HTTP": false,
+    "classification": "Task/source-role misread and insufficient general NO, not a proven technicalNO/capability ceiling/actual compilerRED.",
+    "handoff": "Complete response and exact gaps immediately sent Java and Root after END, before cost/publication; no new request follows."
+  },
+  "adoption": {
+    "code_edits": 0,
+    "code_or_design_hunks": 0,
+    "model_tests": 0,
+    "operator_javac": 0,
+    "software_PASS": false,
+    "Runtime": false,
+    "SAVE_or_ROI": false
+  },
+  "operator_boundary": {
+    "research_HTTP": 1,
+    "business_HTTP": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "GET": 0,
+    "sampling_recording": 0,
+    "production_writes": 0,
+    "whole_receipt_cache": 0
+  },
+  "maintenance": "Same localNov13 successfulOpenCode1.19.5 cache reused; shared clean main fetched/ff-synced, no service/config migration.",
+  "resource_quote": {
+    "forecast_new_private_bytes": 2097152,
+    "growth_measurement": "Named task root only, full originals retained; not whole machine/disk accounting."
+  },
+  "handoff": "Source owner receives complete unsupported-NO review; no repeat model request to force an optimization and no effect on independent actual N16/N32 experiment."
+}
