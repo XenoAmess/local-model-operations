@@ -6216,3 +6216,12 @@ Owner138另捕canonical引用、保override顺序路径，批内工作bank逐未
 ### 2026-11-14 独立PreparedCleanupEvidence02两项审阅与A入口范围后验
 
 两题只审冻结Evidence02单DATA叶（各55Java/4合同），不混B19/22PARTIAL/未来Originals改稿。首请求均stop/DONE/valid、0retry，合416409输入/2774输出tokens，真peak2重叠63.542657秒，当前0。A无finding/UUID异常类型措辞修正；B三claims未成立：callee已强制IDLE2后fresh顺序，独立READ失败诊断非CANCEL同RID，failure中expired binding DATA非正向许可。0代码/Test采用/不授cap/ACK/控制/真实继任。另后到owner说明A入口无Ordinary业务worker不等于无offline restore/submission，不借此给模型发现或回写旧input。见[late](evidence/2026-11-14-ck3-prepared-cleanup-evidence02-late-review.md)、[postACK/failure](evidence/2026-11-14-ck3-prepared-cleanup-evidence02-postack-failure-review.md)、[入口scope勘误](evidence/2026-11-14-ck3-noeffect-entry-offline-service-scope-posterior.md)。
+
+
+## 2026-11-14：710总督需求候选边界与140软件
+
+[固定证据](https://github.com/XenoAmess/civ6_dev/blob/1b8253a679d5690636a9fc34e6f8294a6ae6ab97/docs/research/baiqi-p6-source140-governor-demand710-2026-11-14.json)：710一HTTP16251+1477=17728tokens/11451.0451ms、TTFT2258.7319ms，完整stop/DONE/合法JSON。原helper未实际迭代计数/前后count/唯一集合验证；隔离报告1城却实129仍false，迭代器调用130次，正无穷false/负无穷true，readerthrow不在调用保护内。原调用重写把unknown变returntrue阻断普通总督路径。0原代码采用；Owner事前已要求fresh需求、真实128上限及完整快照重建，重写不是候选自主发现。候选保留的governor Index参数与实际原代码一致，不能错报Hash问题。
+
+Owner140需求扫描在原snapshot pcall内、有限rate/唯一自有集合/前后count及实际迭代cap；只决定是否建完整snapshot，不当许可缓存，pending先观察和所有donor/postpermission/final上下文门保留。9新方法/31实际相关通过；Owner误请求不存在的额外测试模块造成loader错误，随后真实完整discovery2038项2037pass1SDKskip/122.219秒，97Lua51/119包。此切点尚未140Native，不能据软件授提速或B_turn通过。
+
+累计through710：710逻辑/659完整流（含旧692严格JSON拒绝）/48length/3最终transport/740HTTP/30extra，新实际峰1。Nov14canonical维护1.19.5/latest1.19.5成功cache复用；OpenCode原生0，cachedtokens/Owner主动成本/净节省null。711是另一真实未完成的普通END观测driver迁移候选，不并入本计数。

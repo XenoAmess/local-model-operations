@@ -1643,3 +1643,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：706–709与139Native仍分轨
 
 [固定证据](https://github.com/XenoAmess/civ6_dev/blob/f24ed689c2e38d227e86ca672a029a318b9ba74a/docs/research/baiqi-p6-native139-observed709-2026-11-14.json)及其中706–708反链均普通HTTP、Owner验证/Native；Nov14 canonical1.19.5维护缓存复用，0新OpenCode原生生成或工具session。减少读取、软件通过和失败的Native计数器均不授OpenCode能力；成本未知null。
+
+
+### 2026-11-14：710普通HTTP与140软件
+
+[710/140证据](https://github.com/XenoAmess/civ6_dev/blob/1b8253a679d5690636a9fc34e6f8294a6ae6ab97/docs/research/baiqi-p6-source140-governor-demand710-2026-11-14.json)每日维护复用Nov14canonical1.19.5成功cache；0新OpenCode原生生成/工具session。候选失误、Owner修正、软件通过不追授原生能力，未知成本null。
