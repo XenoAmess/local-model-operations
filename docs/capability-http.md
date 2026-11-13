@@ -6286,3 +6286,12 @@ Owner重写独立StageAprivate工具：prefix QAanchor早于actualgamecallback�
 ### 2026-11-14 B parent09 partial-cycle与五child Frame两项完整源码审阅
 
 68/70完整Java＋各2contract，固定三消息/source600/2400/max3000，实际2POST均stop/DONE/valid，0retry；合1234224输入/1403输出tokens，真peak2重叠177.615452秒，当前0。两答0新finding/0code/Test采用。partial读取角色不等于禁止专Main计划内一次私Root许可CANCEL；finishUnresolved→finishObserved仍装offline服务，不能授0bind/0submit。五child概述把独立域replay串单线及childcanonical前后顺序写错，parent>child5检查在verifyReceipt。运营完整Frame声明漏首prefix单列post-BEGIN核，不回填/二投；后到owner两import/SDK修正不追模型。未实现sameID fallback是原scope限界，未授Native/实际恢复/速度。见[partial-cycle](evidence/2026-11-14-ck3-parent09-partial-cycle-review.md)、[五child](evidence/2026-11-14-ck3-parent09-five-child-frame-review.md)。
+
+
+## 2026-11-14：723严格实际导出分析与724有界诊断
+
+[723固定证据](https://github.com/XenoAmess/civ6_dev/blob/f56fd082bfd47571042a316d112f6f5876ef0be3/docs/research/baiqi-stageA-aborted86-analyzer723-2026-11-14.json)：真实StageA普通85->86初读4samples/3qualificationErrors，自动stop后最终7calls/7samples、0drop/invalid/zero，1anchor；首已记录row始于nativeanchor，但其他3错误无逐原因元数据，UNKNOWN，不能猜事件顺序或授Bplan。86另存并撤回两个包装和一个QA订阅。723 complete5207tokens/9572.8518ms/TTFT706.0425ms，raw7合同探针全失败：错duration/行anchor/eligible/布尔和缺失计数接受，应单列gate-race/turncross却拒绝，0rawcode。Owner严格actualshape/clocklinks/accounting/classification/finite-ms检查11方法通过；阈值不变。
+
+[724固定证据](https://github.com/XenoAmess/civ6_dev/blob/eba443ad3bfd739069bf35b74dce454a3c4e7fc0/docs/research/baiqi-stageA-qualification-trace724-2026-11-14.json)：complete3628tokens/2757.0585ms/TTFT650.6003ms。raw对字符串key map用#判断长度，无界；bool非reason计数、状态未连真实consumer、畸形抛错/溢出/非有限metadata原样copy，6探针全失败，0rawcode。Owner只补固定14reason+unknown桶、前16事件、有限饱和counter、缺失turn-clock不补0；不额外读SDK，原Unknown计数语义和所有门不松。6新+13window-lifecycle+4realbuilder=23不同方法过，97Lua51/53/119私有包待新Native。新的reason观测不回写旧3unknowns。
+
+两调用各1attempt，stop/DONE/strictJSON；累计through724 724logical/671完整流（含历史692严格JSON拒绝）/50length/3transport/754HTTP/30extra，新峰1。Nov14canonical1.19.5/latest1.19.5成功cache复用，OpenCode native0，cachedtokens/Owner主动成本/净节省null。
