@@ -6315,3 +6315,14 @@ Owner重写独立StageAprivate工具：prefix QAanchor早于actualgamecallback�
 4新/27相关Lua51和真实Executor方法过（含逆序dispatch软件fixture、去raw内置）；97Lua51/53/119包只准备待新Native。逆序fixture不当实际引擎顺序证据。Owner首C存档basename冲突被门拒0动作后唯一名保存；首新test stub漏colon self已修，分别记账。
 
 累计through726 726logical/673完整流（含历史692严格JSON拒绝）/50length/3transport/756HTTP/30extra，新峰1，Nov14维护成功cache复用；OpenCode native0，cachedtokens/Owner主动成本/净节省null。Bplan/Bdelta/完整TC036仍open，预算不降。
+
+
+## 2026-11-14：727计时桥、728完整调用者与729版本化区间证明
+
+[727固定证据](https://github.com/XenoAmess/civ6_dev/blob/be0a98f94b286a981c68d1a7958da5d83249173c/docs/research/baiqi-paired-normal-bridge727-2026-11-14.json)：6359tokens/5927.2550ms/TTFT880.2418ms，6raw探针5失败1外来退休过，反向拒ends保留/补normal资格/异常逃逸/身份漏检，0原代码。Owner7桥+3新当前构建、连旧构建/clock共22方法过；两119私有包同prefix，实际跨UI/普通驱动/25段Native仍未验证。Bridge只计时不发动作；未知和尝试凭证不能变成已发行END。
+
+[728固定证据](https://github.com/XenoAmess/civ6_dev/blob/19f2d63aad603df31f36fa70aac9971e0ad9ff1b/docs/research/baiqi-stageA-nativeD-arguments728-2026-11-14.json)：D86仍1缺anchor/9samples，不能因inline方法就报修好。核完整Controller.Update实际转发allowOrders，独立普通86->87诊断第一ActualRunNow确为单参false，比此诊断自己的Nativeobserver早324ms；9entry/1event零error/drop， formalD9/1不改，两包装独立撤回。此分支不补测D86旧参数或函数结束时刻，不授延迟PASS。728 2785tokens/2739.2022ms/TTFT490.1598ms，raw6探针5失败1arity过：and/or丢false、flag当turn、getter阻body、Stop缓存仍读、Add未知遗留，0原代码；Owner7方法及同助手Native实际通过。只看Executor直接调用者遗漏Controller.Update是Owner审阅缺口。
+
+[729固定证据](https://github.com/XenoAmess/civ6_dev/blob/fbf3758b5e772b879e1b6efbf1df1bdd890b8a08/docs/research/baiqi-stageA-v2-preanchor729-2026-11-14.json)：5585tokens/5430.7598ms/TTFT1116.2816ms，raw6合同探针全失败：缺Finite、已知anchor漏解决新行、pending不减、重复膨胀、倒序区间可过、unknown外抛；2测试仅提供Finite谓词暴露后续逻辑，不采拼接候选。0原代码。Owner明确新source stageA-v2：只对精确false单参Controller调用保留完整canonical行且占4096，待真Nativeanchor后证明started<anchor/ended<=anchor才列窗前；跨界/未解决/true/nil/Admin无例外，旧v1形状和FAIL不回改。15新/60相关软件方法过，真实Controller.Update+Executor消费者核对，新119/97Lua51-53产物待Native。预算不降，物理引擎发出时间仍未知。
+
+各1attempt，stop/DONE/strictJSON。累计through729 729logical/676完整流（含历史692严格JSON拒绝）/50length/3transport/759HTTP/30extra，新峰1。Nov14维护成功cache复用；OpenCode native0、cachedtokens/Owner主动成本/净节省null。

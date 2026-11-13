@@ -1688,3 +1688,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：726普通HTTP不授原生生成能力
 
 [NativeC/726/Owner27软件方法](https://github.com/XenoAmess/civ6_dev/blob/982f54a4434fb8058f25e810126b36ddf8baff7c/docs/research/baiqi-stageA-native-anchor-inline726-2026-11-14.json)分账，Nov14维护成功cache复用；0新增原生OpenCode生成或工具session，候选部分语句采用不等于独立方案发现，未知成本null。
+
+
+### 2026-11-14：727—729仍为普通HTTP候选
+
+[727](https://github.com/XenoAmess/civ6_dev/blob/be0a98f94b286a981c68d1a7958da5d83249173c/docs/research/baiqi-paired-normal-bridge727-2026-11-14.json)／[728](https://github.com/XenoAmess/civ6_dev/blob/19f2d63aad603df31f36fa70aac9971e0ad9ff1b/docs/research/baiqi-stageA-nativeD-arguments728-2026-11-14.json)／[729](https://github.com/XenoAmess/civ6_dev/blob/fbf3758b5e772b879e1b6efbf1df1bdd890b8a08/docs/research/baiqi-stageA-v2-preanchor729-2026-11-14.json)维护成功cache复用，0新增原生OpenCode工具／生成session。候选原代码均拒，Owner软件、参数Native和未决延迟分开，未知成本null。
