@@ -1,0 +1,582 @@
+{
+  "schema": "local-model-operations.B-parent09-two-source-review/v1",
+  "date_local": "2026-11-14",
+  "mode_id": "ordinary_http_candidate",
+  "input": {
+    "complete_java_files": 68,
+    "complete_other_files": 2,
+    "full_files": [
+      {
+        "name": "ActionCommand.java",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ActionCodec.java",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ActionPorts.java",
+        "bytes": 23186,
+        "sha256": "8f442da38de05a11daa15c4d8eb700f7c609a7e82d4d8de5ea94c171f2b676a7",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ActionReceipt.java",
+        "bytes": 5610,
+        "sha256": "37f650571511151cd2398923f804024e0e3dbcbe207c5927b03191b043871630",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ActionReceiptCodec.java",
+        "bytes": 58573,
+        "sha256": "bf7456175d2cf409904d795eb75799c657dc67ad67a1bd97b2d425cc5252afc2",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ActionState.java",
+        "bytes": 15287,
+        "sha256": "331a9057b17c153dceb79780ff0ecb9b3a34529112707fb4e1937ac4a92c4611",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ActionTransitions.java",
+        "bytes": 11651,
+        "sha256": "aca13bf9d9e438db09c749211564cc7fa6b25d3a1cf74fbd1a930a19d51c6944",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ActionJournal.java",
+        "bytes": 2794,
+        "sha256": "5b224d9636086b5d23614e84f1398e402c45031c59b8049131fb06edc974ad51",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ActionSnapshotReader.java",
+        "bytes": 2463,
+        "sha256": "2bfd32ef7f9d5d3f6fb7bdc6cd5229390b135185c7d68d69ed66ed90dd102f88",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "CompositeActionPort.java",
+        "bytes": 5181,
+        "sha256": "4d36a9b0d06cddfe291ffcb1cc9e2aa0a5ae5a10532fbb603ffef435f4b9ef5e",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "NativeRequest.java",
+        "bytes": 2170,
+        "sha256": "0030edd3d9987415a4a7cac48157eb7455ef5586098defe7d6b1e9f8b503d83e",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "NativeRequestChronology.java",
+        "bytes": 14185,
+        "sha256": "ec05a0cea8abcf21bc7a6bc26c47c1baaa1dbe45e0e4f878c61616cb549f3c92",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "DriverJson.java",
+        "bytes": 11237,
+        "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "FullJsonTree.java",
+        "bytes": 9196,
+        "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "DecimalTokenNode.java",
+        "bytes": 3400,
+        "sha256": "dcfaa1f41e5dba568e21d61103197827c26704e3e386da48077a8a159812b9df",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "OpportunityJson.java",
+        "bytes": 7208,
+        "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ObservationProvenance.java",
+        "bytes": 7460,
+        "sha256": "540fe19d51f5f005171721ad218d124405bda3c79d52e67bd90bb07acfa42f1f",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ObservationProvenanceCodec.java",
+        "bytes": 8512,
+        "sha256": "63be48a433977e1598106e232b861e93901d25fe914b7b4d81f67d560cd602e9",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "PreparedCleanupParentProof.java",
+        "bytes": 9816,
+        "sha256": "c71acf82ec7319330753e1d8fb91f0faeb597b08c7875250a2757d97441a58d0",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "PreparedCleanupParentEvidence.java",
+        "bytes": 11665,
+        "sha256": "1136c25d48e87d23d4b71f2dfcda6c9550900fa2c74b60f41cc3558efa6fcea3",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "PreparedCleanupParentProjection.java",
+        "bytes": 6594,
+        "sha256": "1a7ca8f47df9f5c8f4a93d76f4214296d9b824a3034c941bbbeb2af4170ebbb0",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "PreparedCleanupEvidence.java",
+        "bytes": 42480,
+        "sha256": "4ece8d5a18f747a52d00dc5320eff7f1869579b37acda37c6c0c99202ea73c66",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "PreparedCleanupAction.java",
+        "bytes": 3457,
+        "sha256": "dbe40c5a575cddd012ac8c06773fb914f3bd4d9a124dbc2dab5f4f757d5210d2",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "PreparedCleanupActionCodec.java",
+        "bytes": 3783,
+        "sha256": "e4d3252bda8d172229c7b44ded969df0d9404aa63d531f953a165e474cb7c35c",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "PreparedCleanupReplay.java",
+        "bytes": 3642,
+        "sha256": "8b23c9ec17a0149863c14704049d901ab07d09968eec21790baab291602d0163",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "PreparedCleanupCursor.java",
+        "bytes": 2874,
+        "sha256": "177829db8f5669741e612416e59d7131fa46e4c2bd9dbc104f54017c9db23d52",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "LifePreparedCleanupContinuation.java",
+        "bytes": 2148,
+        "sha256": "cef7f5d88c04fe0dc16cc8fba82ee461a4a20c03dd08a04b3a8800f4805f9cc4",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "CompositeContinuationToken.java",
+        "bytes": 481,
+        "sha256": "0bf1f6cbc2fce3d395b1fa9a4b8eac2a2ed23fcbce02aa2d66440f66fcec8c4a",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ClockStatusRead.java",
+        "bytes": 18063,
+        "sha256": "f6d3be5a0eb7adba055c06dbbf5d548dbf2b38ce4d02077e1bcf25f6ab3d255b",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "AdvanceClock.java",
+        "bytes": 39197,
+        "sha256": "35e3f0f8678d8dd1be5305b019e6f0b802146c825ccd08c711c51e60d738cab6",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "AdvancePlan.java",
+        "bytes": 8794,
+        "sha256": "83e03eb2d616f922ff3f555f431eabaf683eec0bf9c530620ae6e46861640e81",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "NativeObservationPort.java",
+        "bytes": 1639,
+        "sha256": "66f33fcee1823e3acf9bd2ff047b953d7de1dc74032a1751aefca47fe62b8d2b",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "PhysicalStatusIdentity.java",
+        "bytes": 4112,
+        "sha256": "ed93358d81a387771be86249a5ec183a9fba9da02f88062e26329f9abaaa2699",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "GuardEvidence.java",
+        "bytes": 6176,
+        "sha256": "a26fcda93c132568c925090f4717fe1023be4534ce94c74afa7303b4d2a47247",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "PostExitCleanupNoEffectProof.java",
+        "bytes": 33571,
+        "sha256": "91780874e76b81c4fb25ab8e2b5bbb0d2aba2f104426a660f3338ffe0cbc5665",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "LifePostResumePauseCleanupProof.java",
+        "bytes": 29764,
+        "sha256": "9f40c17deef892fca478603b910e684c83c0453f32afe59dedeceb1fd7eb258b",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "DriverObservationAssembler.java",
+        "bytes": 28791,
+        "sha256": "e38f5ace67972450970a1c96db1981ef2acae7e58a30ee723f03fc9dd744b4e4",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "RootRuntimeContext.java",
+        "bytes": 29729,
+        "sha256": "96902287df750a5f006321e41ae840e270e7bfeb3ba47dba3cd15de70743cbe2",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 481727,
+        "sha256": "b3888cfc11ccef763d94dd356dd8ae228f6629588ffe5b8a13e08be26873b600",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "DriverBootstrap.java",
+        "bytes": 143513,
+        "sha256": "19880937c6e96fa032bd4f9eca8d54775ff39a1fa159360b53012d44dd6ede28",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "RootApplicationAssembly.java",
+        "bytes": 255287,
+        "sha256": "aeac3aef2337d85a66b3f1fe4694e62902f162a7cdec3b0d1e999860c5bd9e73",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "RootOrdinaryRuntimeAssembly.java",
+        "bytes": 79122,
+        "sha256": "6f01acc1a43e0d14ced75121a957842c8812ea90166aa1caf6ac9e9737116d6b",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "RootApplicationSession.java",
+        "bytes": 97640,
+        "sha256": "5381ea18e4492a4d0179ff57ac08f92e86f827a4916a8791cc00467cd25195ab",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "RootLifeRuntimeFactory.java",
+        "bytes": 67140,
+        "sha256": "696db6c13828c13b448dc8e464af8d4d2c6cb971eb1578496618982f1a7b642b",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "RootPreparedCleanupScope.java",
+        "bytes": 10217,
+        "sha256": "31665dbfc56a5553fab8ce03c51d545f40b5cab1a9e332a46026ec68f40840ff",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 138699,
+        "sha256": "f199b8dec75104aa291b5ff0e5600bc1874004c2deb8c0a26a8302f83c4f77bf",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "DriverPersistentPlanningState.java",
+        "bytes": 43116,
+        "sha256": "e4d8b64da28563857690dc4d9d000a3890938212a49cba163ece33ad0d71d6ec",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "DriverCapabilityRuntime.java",
+        "bytes": 55131,
+        "sha256": "542321de42c35c8c315f6eaca690351c71b1c6f59a3aa76626a0423cfa7c46b4",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "DriverCapabilityStateProducer.java",
+        "bytes": 93113,
+        "sha256": "fc45e8ebb5734189a2bc4a4efbd74a32a48a95997b456a418ca63b4c546f0b4c",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "SessionPorts.java",
+        "bytes": 23739,
+        "sha256": "4f71dbe0e2da0f56918232a16c6051c3a39d8d6c30f03ce1a3fe24323a216c77",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "SessionController.java",
+        "bytes": 143839,
+        "sha256": "88287a8b17754d7a918b9cba1c203a10100ebd5739f5d1d868f97c758a9a8895",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "RootOfflineAnalysisWorker.java",
+        "bytes": 13022,
+        "sha256": "9d1614a9f9c4f2ede83c723d1da9455426b1a703d449b00b71a7ca2a991dfb7b",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "OfflineAnalysisWorker.java",
+        "bytes": 48760,
+        "sha256": "7b2a6dee5d49b735a9cfd9549c8dd0531585402ff7212803420ebf7951da9770",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "PreparedCleanupCoordinatorSupport.java",
+        "bytes": 12730,
+        "sha256": "4fb9c57704e59f9ab8b68bb304f86a99acca59742d8b480ce85806474eabcbb4",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "LifeAdvanceComposite.java",
+        "bytes": 73254,
+        "sha256": "8a900e7fe568e5ca58a39608df2ea19e3597fd46d33e3150b909c2c0384a35f8",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "LifeAdvanceRootReplay.java",
+        "bytes": 18970,
+        "sha256": "f4e9333c5a612d7f0ca4e6bb85f04cf85bb99b8fd935fa19b8063a7a269888b6",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "LifeAdvanceEvidence.java",
+        "bytes": 31643,
+        "sha256": "4621dce43198b0c4cd8c0ace938a2fcfb907dc3e5487cd7c30717d2473da713f",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ActionEffects.java",
+        "bytes": 46263,
+        "sha256": "49d52d68a170c43ad8edfb683c8fce6d4c0d8e45b015c4391df64ce29c541418",
+        "role": "Complete parent09 candidate/current direct declaration or actual consumer"
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 462562,
+        "sha256": "e1c28bb2f280d324674d4f09afbd78620d131c32bca39d23d76a2dbd7bee4e6a",
+        "role": "Complete current BASE immediately before this parent delta, child07-qualified mapping or unchanged currentC"
+      },
+      {
+        "name": "DriverBootstrap.java",
+        "bytes": 143251,
+        "sha256": "fffe98eceafcbd3ec2f2697adcc11db5ca79bc3de4dd79d795fc0834aab34df4",
+        "role": "Complete current BASE immediately before this parent delta, child07-qualified mapping or unchanged currentC"
+      },
+      {
+        "name": "RootApplicationAssembly.java",
+        "bytes": 255133,
+        "sha256": "5461d9c667aff711241df747727b795d0f17641a7295703f09dcfc092d6e88f9",
+        "role": "Complete current BASE immediately before this parent delta, child07-qualified mapping or unchanged currentC"
+      },
+      {
+        "name": "RootOrdinaryRuntimeAssembly.java",
+        "bytes": 76723,
+        "sha256": "68c2ab4c3888159b3b33b293273ef9800cd11a113b8013c6501f8247a446f2d2",
+        "role": "Complete current BASE immediately before this parent delta, child07-qualified mapping or unchanged currentC"
+      },
+      {
+        "name": "PreparedCleanupSuccessorOnlyMain.java",
+        "bytes": 19485,
+        "sha256": "908a201f2b7bd87c21ea2d64fda01be7fac2756f8bf030803f19d926e8d0f671",
+        "role": "Complete frozen dedicated B-only Main draft02, not yet compiled or run"
+      },
+      {
+        "name": "SOURCE-READY-B-PARENT-STAGE09.json",
+        "bytes": 63127,
+        "sha256": "c2018cc7ae657758201316049d6a43cfbd6bfb7a8e66bc4f6eabdac1c3f8a3f1",
+        "role": "Complete final coherent parent09 Ready/source map/limits; all44 candidate and originalBASE pins independently checked"
+      },
+      {
+        "name": "SOURCE-CONTRACT09.json",
+        "bytes": 3885,
+        "sha256": "3cfe17ac957c71ec620b0295bb1a50a260f722556f6b05994d1ba782f936d119",
+        "role": "Complete role split/source and qualification boundaries"
+      }
+    ],
+    "source_message": {
+      "bytes": 3473815,
+      "sha256": "2e9c4ee59952f44eb653501ebdea3cd78e94cf5674306625f0700a3d34c4e7b3"
+    },
+    "stage": "Complete coherent parent09 over qualified child07,44-source owner mapping; role-specific whole-source selection.",
+    "BASE_scope": "Whole final parent09 candidate and selected whole current-before-delta child07 BASE; original production BASE pins are mapped in full Ready but not all duplicated. Selection and omissions are explicit in each quote. No old Evidence02/B01 re-review.",
+    "postBEGIN_direct_declaration_gap": "AdvanceObservationPort.java whole declaration omitted, separately read/pinned after BEGIN; original request unchanged.",
+    "hint_level": "Full owner source, exact role design and original guards existed before POST; neither model authored production or tests. Known later import/SDK fixes are owner work.",
+    "same_ID_fallback_implemented": false,
+    "old_large_Game_material_body_read": false
+  },
+  "HTTP": {
+    "POST_BEGIN": "2026-11-13T20:12:25.635898+00:00",
+    "END": "2026-11-13T20:15:23.251350+00:00",
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "headers_ms": 172572.3451001104,
+    "TTFT_content_ms": 172573.47090006806,
+    "total_ms": 177615.42670009658,
+    "usage": {
+      "prompt_tokens": 713801,
+      "completion_tokens": 578,
+      "total_tokens": 714379
+    },
+    "attempts": 1,
+    "retries": 0,
+    "cached_tokens": null,
+    "request": {
+      "bytes": 3547722,
+      "sha256": "907f340c570ccc8fd1ce8de5b7b2b162c02022eefd75e503642e76b02ce4bcb0",
+      "prepost_byte_exact": true,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "max_tokens": 3000,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "network": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      }
+    },
+    "raw_SSE": {
+      "bytes": 73066,
+      "sha256": "eeaabbc55905340c86f80b66ea9e6f5e6364fe28f584aa6e24a25e63d6f0ac22"
+    },
+    "response": {
+      "bytes": 2705,
+      "sha256": "f78d77f64351c97b6d67a9075fe52fd3ee884058228dbfc714d81739801c85ba"
+    },
+    "full_stream_reconstruction_byte_exact": true,
+    "source_HTTP_profile": {
+      "name": "source-high-concurrency-direct.json",
+      "read_seconds": 600,
+      "total_seconds": 2400,
+      "profile": {
+        "bytes": 1863,
+        "sha256": "97fb38b997dde3522f2310d06a229ab660db35f8bdc1a5d40eaa5c9e07e57e9a"
+      }
+    },
+    "communication": "Real BEGIN, complete END/cost and absolute CONTENT pointers sent to Root/Java before semantic audit and shared publication."
+  },
+  "pair_HTTP": {
+    "logical_tasks": 2,
+    "actual_POST_attempts": 2,
+    "actual_peak_HTTP": 2,
+    "overlap_seconds": 177.615452,
+    "current_inflight": 0,
+    "retries": 0,
+    "reported_input_tokens": 1234224,
+    "reported_output_tokens": 1403,
+    "sum_HTTP_ms": 356525.60860011727,
+    "queue_context_capacity_cache": "NOT_HELD; successful713801 input is a lower-bound observation, not configured server context/slots/cache or throughput proof.",
+    "task3_phase_limit_bytes": 9437184,
+    "task4_phase_limit_bytes": 7340032,
+    "aggregate_phase_limit_bytes": 16777216,
+    "old_actual_kept_no_third_or_repeated_request": true
+  },
+  "review": {
+    "classification": "SHORT_HIGHLEVEL_ROUTE_SUMMARY_WITH_INCORRECT_NEGATIVES_0_NEW_FINDING_0_HUNK",
+    "confirmed_model_findings": [],
+    "supported_limited_observations": [
+      "The response broadly recognizes immutable original command/prefix/deadline, strict postACK capture and partial WALL_TIMEOUT_WITH_DATE_PROGRESS with checkpoint eligibility false.",
+      "It reports no substantiated finding and does not invent an implemented same-ID fallback."
+    ],
+    "source_corrections": [
+      {
+        "claim": "finishPreparedCleanupOnly starts no Native world write",
+        "disposition": "INCORRECT; this specialized entry intentionally obtains a private actual Root/Guard permission for one distinct fifth CANCEL. No ordinary Host/Controller business loop or repeated control is the intended boundary. The review task readonly wording concerns partial recovery reads, not a ban on that separately authorized planned cleanup.",
+        "source": "RootOrdinaryRuntimeAssembly.Prepared.finishPreparedCleanupOnly calls the actual Life prepared token producer and session.continuePreparedCleanup; full dedicated Main describes/validates one fifth-child CANCEL."
+      },
+      {
+        "claim": "OfflineAnalysisWorker.bind restoreOrSubmit is not invoked by this specialized entry",
+        "disposition": "INCORRECT; finishUnresolvedSameGame delegates to finishObserved, which constructs and installs actual offline services. Existing restore/submit machinery remains. Zero actual job submission would require separately held current job evidence, not this source-review negative.",
+        "source": "RootApplicationAssembly.Core.finishUnresolvedSameGame/finishObserved, offline.install and actual RootOfflineAnalysisWorker/OfflineAnalysisWorker supplied in input."
+      }
+    ],
+    "coverage_limit": "The short578-token reply does not actually explain the requested unretained->RETAIN failure->cold SETTLE->ordinary resume consumer sequence. A broad intended-route summary cannot qualify that recovery contract or serve as a new defect.",
+    "adoption": {
+      "findings": 0,
+      "code_hunks": 0,
+      "test_hunks": 0,
+      "software_Runtime_control_or_performance_credit": false
+    },
+    "input_and_later_owner_limits": [
+      "The complete AdvanceObservationPort.Frame declaration was omitted from both original frozen inputs. Callers, frame proof/projection and assembler files were supplied; the missing interface itself was read after BEGIN and independently pinned, never retroactively inserted. Dependent API/constructor guesses cannot be graded as errors under a complete-declaration input.",
+      "The dedicated Main frozen draft02 is complete input but was not compiled/run at freeze. Runtime later supplied a final label/comment variant; no input replacement or repeated request was made.",
+      "Two missing imports in parent09 were already fixed by owner in later parent10. The model did not discover or supply those fixes. Later SDK failure-budget correction is independent owner work, not parent-review or model qualification.",
+      "Same-ID original-capture fallback/promotion is explicitly not implemented in this source stage. Its absence is not a new finding or an instruction to remint/reissue UNKNOWN."
+    ]
+  },
+  "adoption": {
+    "findings": 0,
+    "code_hunks": 0,
+    "test_hunks": 0,
+    "software_Runtime_control_or_performance_credit": false
+  },
+  "operator_boundary": {
+    "business_HTTP": 0,
+    "production_Test_writes": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "ledger": 0,
+    "GET": 0,
+    "service_probe": 0
+  },
+  "resources": {
+    "phase_max_bytes": 9437184,
+    "aggregate_max_bytes": 16777216,
+    "includes_all_prepared_actual_requests_SSE_scripts_metadata": true,
+    "initial_unposted_declaration_gap_request_preserved_byte_exact_in_private_zip": true,
+    "initial_preparation_not_a_model_attempt": true,
+    "old_actual_kept": true
+  },
+  "next": "No new code/Test/finding adopted, no repeated request or full-platform gate. Actual software/control/recovery must use their own evidence, not this review agreement."
+}

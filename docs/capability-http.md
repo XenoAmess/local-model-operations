@@ -6281,3 +6281,8 @@ Owner误用禁止活游戏导航工具0输入拒绝，后续unavailable及reload
 Owner重写独立StageAprivate工具：prefix QAanchor早于actualgamecallback，三真实include后包装Admin.Run/Controller.RunNow；release函数体字节不变。记录整次调用/前后turn-city，留10->11，QAunknown不能阻断或掩盖body原error，restore只认自己bindings/subscriber。17新+16canonical=33不同软件方法过，97Lua51/53/119包只准备，未授StageA Native。Owner probe leading-semicolon Lua51错误、capacity元数据误设、ZIP prefix和全局ETmock范围均已纠正，不能算模型问题。
 
 累计through722：722logical/669完整流（含历史692严格JSON拒绝）/50length/3transport/752HTTP/30extra；新峰1。Nov14canonical1.19.5/latest1.19.5成功cache复用，OpenCode native0，cachedtokens/Owner主动成本/净节省null。
+
+
+### 2026-11-14 B parent09 partial-cycle与五child Frame两项完整源码审阅
+
+68/70完整Java＋各2contract，固定三消息/source600/2400/max3000，实际2POST均stop/DONE/valid，0retry；合1234224输入/1403输出tokens，真peak2重叠177.615452秒，当前0。两答0新finding/0code/Test采用。partial读取角色不等于禁止专Main计划内一次私Root许可CANCEL；finishUnresolved→finishObserved仍装offline服务，不能授0bind/0submit。五child概述把独立域replay串单线及childcanonical前后顺序写错，parent>child5检查在verifyReceipt。运营完整Frame声明漏首prefix单列post-BEGIN核，不回填/二投；后到owner两import/SDK修正不追模型。未实现sameID fallback是原scope限界，未授Native/实际恢复/速度。见[partial-cycle](evidence/2026-11-14-ck3-parent09-partial-cycle-review.md)、[五child](evidence/2026-11-14-ck3-parent09-five-child-frame-review.md)。
