@@ -6132,3 +6132,8 @@ Complete stop129240in1471out/43.9949066sHTTP, TTFT31.5447403s. Full17sources, ex
 ## 2026-11-13: Identity/lease distinct-fresh-check local review
 
 Complete stop129538in546out/37.8213736sHTTP, TTFT33.1935653s; full11inputs, exact541890B pre/post. Pairedpeak2/37.821186soverlap.0reuse returned, fresh/query roles preserved; flattened root/read call-edge corrected. Not exhaustive technicalNO or performance result;0code/Test/JVM/live/newprofile, no secondPOST. [Inputs/limits/cost](evidence/2026-11-13-ck3-identity-lease-local-review.md).
+
+
+### 2026-11-13 C81 revision02：角色与 partial 终态两项完整源审
+
+两份完整三消息先冻结后并发 POST，均41完整Java、9TU候选与真实小原件，预存/实际REQUEST byte-exact；两call各stop/DONE/JSON有效、0retry，真实peak2重叠71.453847秒，合518487输入/1062输出tokens。A角色闭包总结无新finding；B正确保持ARMED→Pending/UNKNOWN，但把live observe与archive replay串成顺序、忽略verifySequence的POLLED分支、把CANCEL child存在性归给无child参数的validateCancellation，均按源码纠正。Root/owner先给三ref设计、SAVE拒绝、Cold绑定与实际状态，不冒独立发现。0新代码/Test采用，有限一致不授软件、恢复、推进、SAVE或ROI；后到新cleanup协议不在本轮input。见[角色审阅](evidence/2026-11-13-ck3-c81-terminal-pause-role-review.md)与[终态审阅](evidence/2026-11-13-ck3-c81-partial-readonly-outcome-review.md)。
