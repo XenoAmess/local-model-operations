@@ -6089,3 +6089,8 @@ One complete stop76285in1757out/22.1591938sHTTP, TTFT9.8643535s, peak1/current0.
 
 
 Receipt76 posterior: owner independently keeps both original parse roles/fullvalidation and projects only command. Actual/formal distinct soleCodec1class each independentlywhole4P; model prior unsupportedNO/0hunk unchanged, no retroactive model credit. Exact5 business published; Native209/10tool is held cumulative cut. Source76 runtime/performance/HCR remain ungranted. [Existing-receipt software posterior](evidence/2026-11-13-ck3-receipt-shared-ast-review.md#posterior-owner-source76-safe-projection-and-independent-whole4-qualification).
+
+
+## 2026-11-13: Finite historicalCAS ordinaryAction retained profile
+
+One complete stop94463in1120out/18.5159641sHTTP, TTFT12.1175072s, peak1/current0. Root/Java-prescribed3leaf literal candidate: source-review exactly6numeric changes, only118newtier/156old, rawEOL/inverse preserved. Near-bound natural4056entries has0fallback; not heap/CPU/Runtime gain. Complete12-source+log closure and outer-scope refinement beforePOST, no new helper/type/issuer. Owner actual selection pending at initial cut,0models compilation/live/no repeat. [Source/contract/candidate/cost](evidence/2026-11-13-ck3-historical-cas-action-profile-method.md).

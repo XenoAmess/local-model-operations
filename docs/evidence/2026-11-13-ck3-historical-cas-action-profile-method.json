@@ -1,0 +1,271 @@
+{
+  "schema": "local-model-operations.historical-cas-action-profile-method/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "scope": "One new finite3leaf literal implementation candidate for bounded historical readonly retention resources; no Game/source admission, parser/hash/encode/deadline/Guard or storage/disk-budget change.",
+  "existing_natural_evidence": {
+    "log": {
+      "bytes": 1406,
+      "sha256": "208b8b439a3af048a0865499390279d9034a15196e710407a84691aeb08e5024"
+    },
+    "completed_scope_rows": 2,
+    "rows_equal": true,
+    "per_row": {
+      "publication_attempts": 11837,
+      "held_path_attempts": 7781,
+      "acquisition_attempts": 4056,
+      "acquired_retained": 4056,
+      "fallback_attempts": 0,
+      "entry_bound": 0,
+      "handle_bound": 0,
+      "byte_bound": 0,
+      "peak_entries": 4056,
+      "peak_retained_bytes": 19089891,
+      "maximum_entries": 4096,
+      "maximum_retained_bytes": 268435456,
+      "maximum_handles": 8192,
+      "finish_succeeded": 1,
+      "validation_failed": 0
+    },
+    "limits": "Counts and retained original byte accounting only. No future fallback observed, no unique caller inferred just from shared profile, no elapsed/CPU/fullIO/RSS/native-handle headroom or performance result.",
+    "source_cap_semantics": "HistoricalReadLimits field maximumPublications becomes Store.maximumEntries for distinct retained leases; publication_attempts11837 is not the4096 retained-entry cap. Metadata+data lease pair and unchanged entries*2>maximumHandles-4 predicate may trigger handle fallback first."
+  },
+  "owner_contract_and_refinement": {
+    "initial": "Root authorized finite8192entry/16384handle ordinaryAction retention profile, unchanged256MiBbytes and all other guards/defaults.",
+    "source_refinement_before_POST": "Java/Root found canonicalReceipts fallback156 also serves ACK/Settled/physical paths. Final contract changes only118 after its existing IntentDurable/Submitting&&!OperatorRebind&&!physical gate;156 remains old4096/8192. No proposedReceipt parameter/helper/field/config/installer.",
+    "reachability": "Complete Writer wraps revalidate+reduce in withReadValidation; capturedHead canonicalReceipts path uses that existing scopedArchive and does not reach156. Native every inHistoricalReadScope calls Store.begin, which rejects nesting: not automatic nested inheritance.",
+    "intentional_resource_delta": "Public resource hard maxima in ActionPorts and Store rise consistently to8192/16384. Other explicit production default profiles stay4096/8192; newly allowed finite resource requests do not grant action authority.",
+    "hint_level": "Exact tier,3target leaves, only118branch and preserved156 behavior were prescribed by Root/Java. Model generated correct matching literal hunks, not an independent algorithm or source-diagnosis discovery."
+  },
+  "input": {
+    "complete_files": [
+      {
+        "name": "ActionPorts.java",
+        "bytes": 22631,
+        "sha256": "2b3e2ac7bc235899a3befb384a4d3bf085afa804bf66fcda2078f52adb75ced2",
+        "role": "TARGET1 existing HistoricalReadLimits canonical resource bound, arbitrary Archive defaults unchanged."
+      },
+      {
+        "name": "ActionContinuityAuthority.java",
+        "bytes": 14237,
+        "sha256": "098e698edd8424348978a96a19080f61cdbf1ee590b62194fe86092e8cfe640c",
+        "role": "TARGET2 only explicit ordinaryAction borrowed writer two HistoricalReadScope profile selection."
+      },
+      {
+        "name": "ImmutableArtifactStore.java",
+        "bytes": 50923,
+        "sha256": "44dedcb5555dd26a23493eac5eaaaf7f1e93b9f8974f3ef9a92c799ba7cc7602",
+        "role": "TARGET3 matching finite hard resource ceilings; actual fallback/fresh firstFailure/dependency/cleanup body preserved."
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 137327,
+        "sha256": "86f7f61f200d8eb8631aeadaedb760346912fceded2d2e119af20da18b544c5e",
+        "role": "Complete currentcohort typed HistoricalReadScope lifecycle, exactSession/cache/close/diagnostics implementation; not an older baseline."
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Actual heldSession/Checked callback declarations."
+      },
+      {
+        "name": "WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Actual locked Head/authority contract."
+      },
+      {
+        "name": "StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Original input resource-bounds require; do not change parser or Game guard."
+      },
+      {
+        "name": "NativeArchiveHistoricalScope225Test.java",
+        "bytes": 25097,
+        "sha256": "e197e9e4b9b842bb2f464134e71ebd4952827b3fd0532acc16236ae1da36bc7b",
+        "role": "Existing real writer/archive bounded fallback/changed originals/scope tests; no new heavy8K-file test required."
+      },
+      {
+        "name": "HistoricalFinishPrimaryTest.java",
+        "bytes": 9496,
+        "sha256": "2231802b341970c15860ee2bd45a3832f5c93d0c4ceea8bca956313ad4794940",
+        "role": "Actual firstfailure/escaping error/suppressed close semantics regression."
+      },
+      {
+        "name": "CanonicalLookupHistoricalScopePublicP0Test.java",
+        "bytes": 15916,
+        "sha256": "e2b917985b1c4b5af38622fcdcf9c9c21ad80e4dafb8f0ad8779289d95ac9939",
+        "role": "Actual authority/borrowedScope/public default tests and existing finite small limits."
+      },
+      {
+        "name": "StorageWriteGuardTestSupport.java",
+        "bytes": 16482,
+        "sha256": "3bd4e4237c92cdff9113c3031fa999ae87c2c60eb0171ef6b0567bfaf843497f",
+        "role": "Exact qualified real StorageWriteGuard helper, no invented fixture API."
+      },
+      {
+        "name": "ContinuityWriter.java",
+        "bytes": 126589,
+        "sha256": "5b23ade6e962079744aed574c9f3ef5cae4de912b3d9b228b6ae0801895fb217",
+        "role": "Full actual Writer proves outer validation scope encloses revalidate/reduce; original actual source pin rechecked before dispatch, no extra copy."
+      }
+    ],
+    "complete_code_test_files": 12,
+    "tiny_original_log_files": 1,
+    "source_message": {
+      "bytes": 463389,
+      "sha256": "af26cd68a3a94d94b2792e4a72807d9901f2008ce6c949abf4efde4b4e866982"
+    },
+    "all_current_frozen_pins_equal_after_END": true,
+    "preparation": "Started with complete bounds/lifecycle/lowlevel material then selected only the task-relevant core, full actual Writer and real finite tests; no giant recoveryJournal/platform added. Original scope proposals were corrected before first POST, not a retry."
+  },
+  "request": {
+    "bytes": 476961,
+    "sha256": "5f5c8e68ce34debbe24ef2e72a79e1af578e46ec3c4015023fb038735102d1d0",
+    "prefrozen_compact_raw_exact": true,
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "max_tokens": 4000,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "network": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    }
+  },
+  "HTTP": {
+    "POST_BEGIN": "2026-11-13T01:22:53.391074+00:00",
+    "END": "2026-11-13T01:23:11.907106+00:00",
+    "status": 200,
+    "finish": "stop",
+    "DONE": true,
+    "JSON_syntax": "VALID",
+    "headers_ms": 12116.483499994501,
+    "TTFT_content_ms": 12117.507199989632,
+    "total_ms": 18515.964100020938,
+    "usage": {
+      "prompt_tokens": 94463,
+      "completion_tokens": 1120,
+      "total_tokens": 95583
+    },
+    "cached_tokens": null,
+    "response": {
+      "bytes": 4091,
+      "sha256": "c84affb1e64042d0773008d124ff551d32cdf4999312a16a7b3ff18f309fe29b"
+    },
+    "retry": 0,
+    "length": 0,
+    "transport_error": 0,
+    "peak_inflight": 1,
+    "current_inflight": 0,
+    "communication": "BEGIN and END thin-reported before source review/publication. HTTP timing is not a queue/cache/CPU or business speed measurement."
+  },
+  "source_review": {
+    "at_utc": "2026-11-13T01:24:46.582118+00:00",
+    "status": "COMPLETE_3LITERAL_EDIT_SOURCE_REVIEW_CONSISTENT_OWNER_REVIEW_PENDING",
+    "response": {
+      "bytes": 4091,
+      "sha256": "c84affb1e64042d0773008d124ff551d32cdf4999312a16a7b3ff18f309fe29b"
+    },
+    "candidate_sources": [
+      {
+        "name": "ActionPorts.java",
+        "base": {
+          "bytes": 22631,
+          "sha256": "2b3e2ac7bc235899a3befb384a4d3bf085afa804bf66fcda2078f52adb75ced2"
+        },
+        "candidate": {
+          "bytes": 22632,
+          "sha256": "07353b1a774696b014e17257c16a4e0289b747edeedb30ecdffb571618ef02d1"
+        },
+        "unique_anchor": true,
+        "inverse_exact_LF": true,
+        "EOL": "preservedLF",
+        "only_two_authorized_numeric_literal_changes": true
+      },
+      {
+        "name": "ImmutableArtifactStore.java",
+        "base": {
+          "bytes": 50923,
+          "sha256": "44dedcb5555dd26a23493eac5eaaaf7f1e93b9f8974f3ef9a92c799ba7cc7602"
+        },
+        "candidate": {
+          "bytes": 50924,
+          "sha256": "bf6eda7ccc4d90ae2ea993ea5af34ff70f8990fd3c02eac1dcc9ddcee96e036a"
+        },
+        "unique_anchor": true,
+        "inverse_exact_LF": true,
+        "EOL": "preservedCRLF",
+        "only_two_authorized_numeric_literal_changes": true
+      },
+      {
+        "name": "ActionContinuityAuthority.java",
+        "base": {
+          "bytes": 14237,
+          "sha256": "098e698edd8424348978a96a19080f61cdbf1ee590b62194fe86092e8cfe640c"
+        },
+        "candidate": {
+          "bytes": 14238,
+          "sha256": "ee89104330981cd3314e806bc1d1e2022321b515e6277ef9f3f28db0d1621d92"
+        },
+        "unique_anchor": true,
+        "inverse_exact_LF": true,
+        "EOL": "preservedCRLF",
+        "only_two_authorized_numeric_literal_changes": true
+      }
+    ],
+    "change_scope": "Exactly6numeric literal positions in3files; all other normalized body bytes unchanged and raw EOL preserved.",
+    "preserved": [
+      "Recordfields/publicAPI/method/signature/type counts unchanged.",
+      "Only118 selected profile changed;156 fallback original profile remains.",
+      "All full guards/parser/hash/encode/deadline/fresh IO/fallback/admission formula/firstFailure/cleanup body unchanged.",
+      "256MiB retainedbytes unchanged, unrelated4096 sources untouched."
+    ],
+    "regression_plan_limit": "Model gives boundary/selectedprofile/basicexistingfallback test suggestions only, not executed tests or full new safety qualification. Existing real tiny-scope suites cover poison/fresh/cleanup as separate Native choices.",
+    "hint_level": "Exact tier, only118branch and3leaf literal contract supplied by Root/Java; no independent model algorithm or source-diagnosis discovery claimed.",
+    "adoption_at_review_cut": "NOT_HELD",
+    "compiles": 0,
+    "software_PASS": false,
+    "Runtime_HCR_or_ROI": false,
+    "operator_boundary": "Isolated private candidate files only; input frozen originals unchanged,0production/JVM/live, no second HTTP."
+  },
+  "handoff_at_cut": {
+    "source_owner": "Complete4091B response and isolated3candidate rawpins sent directly to source owner, who began exact selection. Adoption receipt NOT_HELD at this review cut, not asserted zero forever.",
+    "model_code_adoption": "PENDING_OWNER_RECEIPT",
+    "software_qualification": false,
+    "Runtime_HCR_or_ROI": false,
+    "no_extra_request": "No second HTTP, tests or compile by models operator."
+  },
+  "maintenance": "Same localNov13 OpenCode1.19.5 successful cache reused, clean shared main synchronized. No consumer/service/config migration.",
+  "operator_boundary": {
+    "new_model_HTTP": 1,
+    "business_HTTP": 0,
+    "production_source_writes": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "GET": 0,
+    "new_sampling_JFR": 0
+  },
+  "resources": {
+    "new_private_forecast_bytes": 2097152,
+    "meaning": "Named task evidence/candidates only; does not claim complete package/disk/OS memory authority."
+  }
+}
