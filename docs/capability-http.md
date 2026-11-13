@@ -6144,3 +6144,8 @@ Complete stop129538in546out/37.8213736sHTTP, TTFT33.1935653s; full11inputs, exac
 一次完整stop／19790输入与1209输出tokens，HTTP9737.155ms／TTFT2693.845ms，具名峰1。输入给齐当前composer和实际配方／八段回执索引，但不含图像音频，明确只作文本审阅。七项数字差异基本可核，候选却把窗口内提前读完当成必须重录，未证明截断；代码和交付文案均0采用。实际FFmpeg片尾参数失败与后到真峰值偏高由owner实测发现，分别修正并留新构建代际；不归候选功劳，也不授人工审片或公开发布。
 
 [完整输入范围、窗口解释、0采用与实际调用成本](evidence/2026-11-13-hoi4-promo-editorial-review.json)。
+
+
+### 2026-11-13 C81 StageB：新 issuer 与 crash/IDLE 完整代码两审
+
+先冻结两完整请求再并发：65Java，实际union22（17B覆盖4A、复用其余5A），真实小原件及false backend门/atomic binary未持明确。各stop/DONE/JSON完整，0retry；合766074输入/2035输出tokens，峰2重叠109.220511秒。A仅预给false门一致，缺token throw/旧取消分支/handler命名及原子资格泛化已纠；B把pre-ARMED错当首个IDLE，实际两post-IDLE/伪continuation分支/跨caller错误传播均按源拒。真实executePrimitive/IntentDurable/Proof.verify不误记API发明。0新finding/0代码/Test采用，无二投；source-review资源额度不授CANCEL、flag启用或Runtime信用。见[issuer审](evidence/2026-11-13-ck3-c81-stageb-private-issuer-review.md)与[crash审](evidence/2026-11-13-ck3-c81-stageb-crash-terminal-replay-review.md)。
