@@ -1703,3 +1703,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：733完整HTTP模块与原生会话分账
 
 [733](https://github.com/XenoAmess/civ6_dev/blob/9967ff21893ab271b24df8a7e6291f3b5b2bfb0e/docs/research/baiqi-paired-normal-end733-2026-11-14.json)完整候选模块原样采用，6不同软件方法过；Nov14维护缓存复用但新增OpenCode原生工具/生成会话0，真实游戏跨UI未验证、未知成本null。
+
+
+### 2026-11-14：734与完整F仍分账
+
+[734](https://github.com/XenoAmess/civ6_dev/blob/00d1eef5d0f57e5367bc8240cef18cb27af4d6f5/docs/research/baiqi-controller-coarse734-2026-11-14.json)普通HTTP原代码拒绝，Owner13软件方法过；[F实际游戏](https://github.com/XenoAmess/civ6_dev/blob/e90df1429297609d9d9ec3c244ebe89f1cd7c211/docs/research/baiqi-stageA-F-complete-fail-2026-11-14.json)Controller最大90ms仍FAIL。维护成功缓存不授源码能力，新增OpenCode原生工具/生成会话0，未知成本null。

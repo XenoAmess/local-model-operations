@@ -6350,3 +6350,12 @@ Owner重写独立StageAprivate工具：prefix QAanchor早于actualgamecallback�
 [固定证据](https://github.com/XenoAmess/civ6_dev/blob/9967ff21893ab271b24df8a7e6291f3b5b2bfb0e/docs/research/baiqi-paired-normal-end733-2026-11-14.json)。完整候选模块原样采用，函数API/原版guard/Begin紧接无参数RequestAction/逐字段发行回执是Owner事前明确合同，非独立发明API。原样6方法过，正式消费者同6方法再验，不算12不同方法。使用真实canonical140 bridge/clock：五段各2秒排除各5秒准备；重复Begin拒第二次END，动作后OSError、缺失/错误/重复/ERR回执不重发，坏Python参数不查询、原版资格不满足不启钟。单一Lua运行时映射ActionPanel仅软件，实际跨UI/control普通门/五组25段Native仍未知；不授B_delta。
 
 1attempt/stop/DONE/strictJSON；total_tokens=11297, completion_tokens=359, total_ms=4020.2102, TTFT_ms=1708.6640。累计733logical/680完整流（含历史严格JSON拒绝）/50length/3finaltransport/763HTTP/30extra，新峰1。Nov14 canonical1.19.5维护成功cache复用，nativeOpenCode0，cachedtokens/Owner主动成本/净节省null。
+
+
+## 2026-11-14：完整F仍有最大值FAIL与734共享诊断预算
+
+[F固定Native证据](https://github.com/XenoAmess/civ6_dev/blob/e90df1429297609d9d9ec3c244ebe89f1cd7c211/docs/research/baiqi-stageA-F-complete-fail-2026-11-14.json)：311行零error/drop、22真实锚点证明窗前区间，完整86—90窗及关闭91均被严格分析器接受。Admin116纯十城p95约19/max23ms达到；Controller143纯十城p95约12却max90ms、另89回合56ms，B_plan仍FAIL。已保存/撤自有QA/原版退出一次；E失败记录及约80ms负诊断不追改，不以低p95丢弃尖峰。
+
+[734固定软件证据](https://github.com/XenoAmess/civ6_dev/blob/00d1eef5d0f57e5367bc8240cef18cb27af4d6f5/docs/research/baiqi-controller-coarse734-2026-11-14.json)：原样10方法5过5 Lua断言错误，serial不增/rootId恒0、snapshot整数无上限、getter未保护阻断正文、坏根时钟/满容量的未知元数据未记错；0原代码采用。Owner重写10新/3真实构建方法过，根及六粗子项共享ONE canonical profile4096，不另建4096子池。私有119包仅Controller尾段、97Lua51/53，原正文为精确字节前缀；选88/89已观察锚点后10秒诊断，早期入口有意不采。插桩会改变根cost，包含子项不能相加授B_plan/全脚本通过。原样运行后加强一处窗外返回值夹具，原失败不回写。新NativeG当时未完成，未授性能或提速。
+
+1attempt/stop/DONE/strictJSON；total_tokens=66937, completion_tokens=761, total_ms=13045.7863, TTFT_ms=8481.7110。累计734logical/681完整流（含历史严格JSON拒绝）/50length/3finaltransport/764HTTP/30extra，新峰1；Nov14 canonical1.19.5成功维护cache复用，OpenCode native0，cachedtokens/Owner主动成本/净节省null。
