@@ -6149,3 +6149,8 @@ Complete stop129538in546out/37.8213736sHTTP, TTFT33.1935653s; full11inputs, exac
 ### 2026-11-13 C81 StageB：新 issuer 与 crash/IDLE 完整代码两审
 
 先冻结两完整请求再并发：65Java，实际union22（17B覆盖4A、复用其余5A），真实小原件及false backend门/atomic binary未持明确。各stop/DONE/JSON完整，0retry；合766074输入/2035输出tokens，峰2重叠109.220511秒。A仅预给false门一致，缺token throw/旧取消分支/handler命名及原子资格泛化已纠；B把pre-ARMED错当首个IDLE，实际两post-IDLE/伪continuation分支/跨caller错误传播均按源拒。真实executePrimitive/IntentDurable/Proof.verify不误记API发明。0新finding/0代码/Test采用，无二投；source-review资源额度不授CANCEL、flag启用或Runtime信用。见[issuer审](evidence/2026-11-13-ck3-c81-stageb-private-issuer-review.md)与[crash审](evidence/2026-11-13-ck3-c81-stageb-crash-terminal-replay-review.md)。
+
+
+### 2026-11-13 C81 final7：四项真实并发完整源审
+
+四个独立题先冻结再并发，完整Java79/74/74/75及5个完整小证据，均stop/DONE/JSON有效、0retry；真实peak4重叠175.166667秒，合1665110输入/3157输出tokens，当前0。79源的439509输入实际200是已验点，不是配置ctx上限；queue/cache未采不推。预算题仅总结已给operand且未追完整SDK写边界；UNKNOWN4题改对三读角色但其child已APPLIED/parentUNKNOWN就拒的测试错；身份矩阵不是全面authority证明；legacy题marked fallthrough和SAVEcollector归属已纠。0新finding/0代码/Test采用，不补第五/二投。Root新接受精确同Game/session/DLL后端范围与sourceprivatefalse分开，旧未持cut不追改。owner后到SDK回调跨expiry的条件源码观察单列，不冒model发现/自然发生。见[预算](evidence/2026-11-13-ck3-c81-final7-operation-freshness-review.md)、[UNKNOWN4](evidence/2026-11-13-ck3-c81-final7-unknown4-review.md)、[custody](evidence/2026-11-13-ck3-c81-final7-proof-custody-review.md)、[legacy](evidence/2026-11-13-ck3-c81-final7-legacy-review.md)。

@@ -1,0 +1,735 @@
+{
+  "schema": "local-model-operations.c81-final7-independent-source-review/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "review_subject": "Operation/freshness and SDK write review",
+  "input": {
+    "complete_java_files": 79,
+    "complete_nonJava_evidence_files": 5,
+    "full_files": [
+      {
+        "name": "ContinuityBatchJournal.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/session/ContinuityBatchJournal.java",
+        "bytes": 455830,
+        "sha256": "f3a22fca3cc81e0a3c82f60d85db44f23a13dd1c608c8c87856d34a6c0742ffb",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "ObservationProvenance.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ObservationProvenance.java",
+        "bytes": 6754,
+        "sha256": "14dcfffc1711e029cb84620e792591a80324e6967a61bb20ceda797cec84af95",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ObservationProvenanceCodec.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ObservationProvenanceCodec.java",
+        "bytes": 7789,
+        "sha256": "de619a1205a9a266f7158b72839d75398fdc2a7f084e43e0c20b7c0580e0ba05",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ActionEffects.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionEffects.java",
+        "bytes": 45736,
+        "sha256": "a6458085d22674ed3070e941160adc27e2190ac5fa343116f6f318b78e212dbc",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "CanonicalSaveReceiptVerifier.java",
+        "relative_source": "local-service/src/main/java/org/xar/ck3/control/service/root/CanonicalSaveReceiptVerifier.java",
+        "bytes": 28036,
+        "sha256": "b5ada3e86c448d978d41c2204ee6b1878878fbc7387fb4cdb710e2effd93ab9c",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "RootAdvanceInfrastructureFactory.java",
+        "relative_source": "local-service/src/main/java/org/xar/ck3/control/service/root/RootAdvanceInfrastructureFactory.java",
+        "bytes": 95297,
+        "sha256": "1cb271d7db04d86ebf6f0c24e5ec8cdce2542b92a379714af8f6d3c93457fdee",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "AdvanceClockArchivedReplay.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/AdvanceClockArchivedReplay.java",
+        "bytes": 21501,
+        "sha256": "f11778e1a066ed04cfdd6ea112116b6237b29a9e5d454ebbafabffe9f6df2449",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "LifeAdvanceRootReplay.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/LifeAdvanceRootReplay.java",
+        "bytes": 15117,
+        "sha256": "06ad4e0a1a75524f383d4c19960e4c36a8a6a4673912258f53361d1fb256f2ba",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "LifeAdvanceComposite.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/LifeAdvanceComposite.java",
+        "bytes": 59820,
+        "sha256": "5b56ad9b2c641ebc139cc898fccf587beead8ab114c21f2bd45e5c973e8490a2",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "ActionChildPlanningScope.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionChildPlanningScope.java",
+        "bytes": 14739,
+        "sha256": "3cc0a9bb8f5b4c8806d1631f2408d7878896e4410a27f75acc6d40d506096d0f",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "CompositeContinuationSupport.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/CompositeContinuationSupport.java",
+        "bytes": 13580,
+        "sha256": "8c6e6d475cdfbf29a995f04d23ac9ff05ce1768b77dff4bde6f297e5540c0d66",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "CompositeContinuationToken.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/CompositeContinuationToken.java",
+        "bytes": 458,
+        "sha256": "f0c8545954aeae9e771d45afede7726ab2e71b43a7d6ae00f41288eaa9d71192",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "LifeAdvanceEvidence.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/LifeAdvanceEvidence.java",
+        "bytes": 31448,
+        "sha256": "6846d526c5d74df34ab1841f3669f8233cd6b4bc0b1522dd7758f715c6f24d52",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "LifePostResumePauseCancellation.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/LifePostResumePauseCancellation.java",
+        "bytes": 5367,
+        "sha256": "a3dd85d48adf5cdbbaa4921619c75887bc664902790d9e29fb2450adf7fa60c1",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "LifePostResumePauseCleanupEvidence.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/LifePostResumePauseCleanupEvidence.java",
+        "bytes": 8171,
+        "sha256": "0dfea2b8030837efe60494566c6d7ca639eca3877447c0b4aee170587a7af4c5",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "LifePostResumePauseCleanupProof.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/LifePostResumePauseCleanupProof.java",
+        "bytes": 29764,
+        "sha256": "9f40c17deef892fca478603b910e684c83c0453f32afe59dedeceb1fd7eb258b",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "RootActionGuard.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/effects/RootActionGuard.java",
+        "bytes": 18310,
+        "sha256": "baf812b9c2c2a28e4c4fcc55259864add6ad582cd51f5badb21e8106eaeac83e",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "RootPlanningReadGuard.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/effects/RootPlanningReadGuard.java",
+        "bytes": 39950,
+        "sha256": "036b54d7d129280f40fc0c668f49dccabb4748c03c00a796e1563ae2d3e90d3a",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "RootApplicationSession.java",
+        "relative_source": "local-service/src/main/java/org/xar/ck3/control/service/root/RootApplicationSession.java",
+        "bytes": 91444,
+        "sha256": "7eab08126f27d32a96bc6460933d7788e0fe063244ae760bd2fde227cbe337f2",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "RootDerivedChildAuthority.java",
+        "relative_source": "local-service/src/main/java/org/xar/ck3/control/service/root/RootDerivedChildAuthority.java",
+        "bytes": 31965,
+        "sha256": "26f9ac953ef1d7d7a2bb0c923a7c67026bc79ee6c60e7e5ef0b2a59b598c32a2",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "RootLifeRuntimeFactory.java",
+        "relative_source": "local-service/src/main/java/org/xar/ck3/control/service/root/RootLifeRuntimeFactory.java",
+        "bytes": 18482,
+        "sha256": "7b739dd9b7547f478b65a8a9e070f69a5ec8a4c3c0d8249b9e666bf4b1949806",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "RootOrdinaryRuntimeAssembly.java",
+        "relative_source": "local-service/src/main/java/org/xar/ck3/control/service/root/RootOrdinaryRuntimeAssembly.java",
+        "bytes": 76043,
+        "sha256": "49e4dcf90853e49108db6057b6fb20165f9e37118921db591d193edb864b4d39",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "ActionCommand.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionCommand.java",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ActionReceipt.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionReceipt.java",
+        "bytes": 5260,
+        "sha256": "03db0d0edd0facf9fcabb24897a870c4eac11f13b67808cebef583b06c6a63d4",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ActionState.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionState.java",
+        "bytes": 14316,
+        "sha256": "8314f584b52894527378071b113be4a5d3916581c04ca862d9530679e3cafd8c",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ActionIds.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionIds.java",
+        "bytes": 3215,
+        "sha256": "3ec3268ab673adb38b84b666ec413ccca27596e1e88c07f24065109b7ecb869b",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ActionCodec.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionCodec.java",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ActionPorts.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionPorts.java",
+        "bytes": 22632,
+        "sha256": "07353b1a774696b014e17257c16a4e0289b747edeedb30ecdffb571618ef02d1",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ActionScope.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionScope.java",
+        "bytes": 712,
+        "sha256": "d3ae0ef56ee0e32dbc955831b0b6723fa4173139d9759c9ad0721ef5d7dbbe2b",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ActionObservationWindow.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionObservationWindow.java",
+        "bytes": 1600,
+        "sha256": "2e79bb6cd24080cf7741613cacdbc75d6211065ff30256b4bbd31686a11cde7a",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "NativeActionPort.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/NativeActionPort.java",
+        "bytes": 8817,
+        "sha256": "57fa4858639ec594dded7dcc3a165fa17ca15bdb614a2b0200dc436bc28b45d4",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "NativeRequestChronology.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/NativeRequestChronology.java",
+        "bytes": 14185,
+        "sha256": "ec05a0cea8abcf21bc7a6bc26c47c1baaa1dbe45e0e4f878c61616cb549f3c92",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "NativeObservationPort.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/NativeObservationPort.java",
+        "bytes": 1639,
+        "sha256": "66f33fcee1823e3acf9bd2ff047b953d7de1dc74032a1751aefca47fe62b8d2b",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "PlanningReadReceipt.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/PlanningReadReceipt.java",
+        "bytes": 6590,
+        "sha256": "cb78eab706c7497a48a7db8f534c892d8f1fe6790fd0fc730750035dea5efd12",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "RawJson.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "AdvanceClock.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/AdvanceClock.java",
+        "bytes": 39197,
+        "sha256": "35e3f0f8678d8dd1be5305b019e6f0b802146c825ccd08c711c51e60d738cab6",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "AdvancePrimitives.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/AdvancePrimitives.java",
+        "bytes": 22378,
+        "sha256": "2580325eeeabfbeb96ef9ab3253830638b38ab1641762f5089568251214ed323",
+        "role": "Complete latest source-owned temporal/freshness revision; still false backend gate and not a control qualification."
+      },
+      {
+        "name": "AdvancePlan.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/AdvancePlan.java",
+        "bytes": 8794,
+        "sha256": "83e03eb2d616f922ff3f555f431eabaf683eec0bf9c530620ae6e46861640e81",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "AdvanceProgress.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/AdvanceProgress.java",
+        "bytes": 8763,
+        "sha256": "d7ca29ab229ecab105b0c57ee27ca01660185de41fcd51368ea8f494779ec383",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "AdvanceObservationPort.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/AdvanceObservationPort.java",
+        "bytes": 4863,
+        "sha256": "dbeb58bfb6b02fd40f4d6dc41beb1e14b47bc449e9a1753797da988ee9effd99",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "AdvanceResult.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/AdvanceResult.java",
+        "bytes": 25635,
+        "sha256": "80734d781aa2115aea1a61529269448437a44f91e3f985ea4d067ed81f05e525",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ClockStatusRead.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/ClockStatusRead.java",
+        "bytes": 18063,
+        "sha256": "f6d3be5a0eb7adba055c06dbbf5d548dbf2b38ce4d02077e1bcf25f6ab3d255b",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "NativeEffectEvidence.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/effects/NativeEffectEvidence.java",
+        "bytes": 25459,
+        "sha256": "f1a0bd22c4f179e635554f8c7996ea2290f6a4a18fce738d4a9437a39ee6c490",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ExactRef.java",
+        "relative_source": "contracts/src/main/java/org/xar/ck3/control/contracts/ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "StrictJson.java",
+        "relative_source": "contracts/src/main/java/org/xar/ck3/control/contracts/StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ProposalLifecycle.java",
+        "relative_source": "g2-research/src/main/java/org/xar/ck3/control/g2/planning/ProposalLifecycle.java",
+        "bytes": 15603,
+        "sha256": "3c154565347db1d227e54ccc336dcadb255be23d6f5a238e4026f95645126603",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "LateOutcome.java",
+        "relative_source": "late-outcome-reconciliation/src/main/java/org/xar/ck3/control/reconciliation/LateOutcome.java",
+        "bytes": 15204,
+        "sha256": "99729d5d9521bec42d359e46781edcb602e5066a710c47976b8c94b60e780c99",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "SentinelObservation.java",
+        "relative_source": "wave2-runtime/src/main/java/org/xar/ck3/control/wave2/runtime/deadlinetransport/SentinelObservation.java",
+        "bytes": 2939,
+        "sha256": "227eab66d692467eae2bb3d249039eb690bd2c46ec7fb6c866a3845841566c9b",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "TimelineOwner.java",
+        "relative_source": "wave3-runtime/src/main/java/org/xar/ck3/control/wave3/runtime/timelineowner/TimelineOwner.java",
+        "bytes": 11332,
+        "sha256": "f1e192bdcabd4545a8d19324099fa28794592db1efaabd5f4a692d256905ca28",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "TimelineOwnerCodec.java",
+        "relative_source": "wave3-runtime/src/main/java/org/xar/ck3/control/wave3/runtime/timelineowner/TimelineOwnerCodec.java",
+        "bytes": 6499,
+        "sha256": "c7ed94ae90efa61fee8705ded2b019f51468f353a766d42dd63c27ca0c0f9952",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "NativeFreshSnapshotPort.java",
+        "relative_source": "native-transport/src/main/java/org/xar/ck3/control/nativebridge/NativeFreshSnapshotPort.java",
+        "bytes": 10458,
+        "sha256": "c96cf9e1a5e334a1a2b4244275541bcb38f2348ffbd008b64f1b659d27d1dcc2",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "NativeWire.java",
+        "relative_source": "native-transport/src/main/java/org/xar/ck3/control/nativebridge/NativeWire.java",
+        "bytes": 18430,
+        "sha256": "0c8b499fcaf65e864def0ab4015ac3781ec6c33a70bbf7ee105f450510096e04",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "relative_source": "continuity-core/src/main/java/org/xar/ck3/control/continuity/writer/ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ActionJournal.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionJournal.java",
+        "bytes": 2794,
+        "sha256": "5b224d9636086b5d23614e84f1398e402c45031c59b8049131fb06edc974ad51",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ActionCoordinator.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionCoordinator.java",
+        "bytes": 61560,
+        "sha256": "3a36a98841f0f6318454b528e052592217ce3bdff4e1e37962fa5a4284e0d1f8",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "ActionTransitions.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionTransitions.java",
+        "bytes": 9931,
+        "sha256": "66ca21e8e0e74e2a715c60696867ecaca5ebf8ba46acb78b654c13324be64694",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "CompositeCoordinatorSupport.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/CompositeCoordinatorSupport.java",
+        "bytes": 18366,
+        "sha256": "a391b8d98cb6decb233c5ce2de797e289b74d7e11353a69c1ec7205f67ebb193",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "CompositeRegistry.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/CompositeRegistry.java",
+        "bytes": 1246,
+        "sha256": "12498bf928be195c1a5d97b57c61385ee191bee6324adb34a43115b7e92810ee",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "CompositeActionPort.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/CompositeActionPort.java",
+        "bytes": 3034,
+        "sha256": "5603574b7d0f4a0d65d3acfeae48a8fbb346eeec1210c928f9a8c826d9b35eea",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "CompositeExecution.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/CompositeExecution.java",
+        "bytes": 1035,
+        "sha256": "266b348d31cd942347a7443d5dca85a10c6688c7ec943d5417f008d3da81765a",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "CompositeContinuationReport.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/CompositeContinuationReport.java",
+        "bytes": 935,
+        "sha256": "6917497d0598592fb11091389b900f19fc46021a78fb5402bea24e593e7dd67e",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "RootExecutableBindings.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/RootExecutableBindings.java",
+        "bytes": 68706,
+        "sha256": "a4177fd677296bf548ddb862adea722df74e8ebe3a76fb4b872721abb576ebe9",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "LifeSentinelCancellationProof.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/LifeSentinelCancellationProof.java",
+        "bytes": 14057,
+        "sha256": "046ea0c935d98eea5a692ef4f6937077b9b1ee5cafd2884f003668a194bb5511",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "NativeRecordedEvidenceVerifier.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/effects/NativeRecordedEvidenceVerifier.java",
+        "bytes": 42822,
+        "sha256": "5701da6aa598aa25f4d73885a2812ba530303e2e6f117bfd9d94e02a5fe44421",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "RootRuntimeContext.java",
+        "relative_source": "local-service/src/main/java/org/xar/ck3/control/service/root/RootRuntimeContext.java",
+        "bytes": 29729,
+        "sha256": "96902287df750a5f006321e41ae840e270e7bfeb3ba47dba3cd15de70743cbe2",
+        "role": "Complete unchanged current direct source/dependency, frozen pin checked; not a new implementation."
+      },
+      {
+        "name": "AdvancePrimitiveArchivedReplay.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/advance/AdvancePrimitiveArchivedReplay.java",
+        "bytes": 18364,
+        "sha256": "8d132a6d22b811cbad506c68c7b8780f05fd4ea6c2859a70e1ae9f2de3e98794",
+        "role": "Complete direct read/guard/reconciliation declaration or primitive replay consumer needed for timing/UNKNOWN4 audit; no SDK expansion."
+      },
+      {
+        "name": "PlanningReadPort.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/PlanningReadPort.java",
+        "bytes": 3628,
+        "sha256": "35f5d12a1304d36833c24c829f75969c13bed1334371c7306fad703d4995df24",
+        "role": "Complete direct read/guard/reconciliation declaration or primitive replay consumer needed for timing/UNKNOWN4 audit; no SDK expansion."
+      },
+      {
+        "name": "PlanningReadRequest.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/PlanningReadRequest.java",
+        "bytes": 3568,
+        "sha256": "66c1a78677fc47c6398fb064d94112448b46c3410f5c549a132bcedd3770137a",
+        "role": "Complete direct read/guard/reconciliation declaration or primitive replay consumer needed for timing/UNKNOWN4 audit; no SDK expansion."
+      },
+      {
+        "name": "PlanningReadResult.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/PlanningReadResult.java",
+        "bytes": 2058,
+        "sha256": "d4ec175a46b5dd38b276b76335cf3b6fc3deaba2dde8cf464c8437971ea9d4fc",
+        "role": "Complete direct read/guard/reconciliation declaration or primitive replay consumer needed for timing/UNKNOWN4 audit; no SDK expansion."
+      },
+      {
+        "name": "GuardEvidence.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/GuardEvidence.java",
+        "bytes": 6176,
+        "sha256": "a26fcda93c132568c925090f4717fe1023be4534ce94c74afa7303b4d2a47247",
+        "role": "Complete direct read/guard/reconciliation declaration or primitive replay consumer needed for timing/UNKNOWN4 audit; no SDK expansion."
+      },
+      {
+        "name": "ActionReconciliationScope.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionReconciliationScope.java",
+        "bytes": 9492,
+        "sha256": "45c51683e09b255858a68b9746c0a90543ca5a5d41bb02823e16ed0b0618355a",
+        "role": "Complete direct read/guard/reconciliation declaration or primitive replay consumer needed for timing/UNKNOWN4 audit; no SDK expansion."
+      },
+      {
+        "name": "RootGuardChecks.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/effects/RootGuardChecks.java",
+        "bytes": 14232,
+        "sha256": "e3a702a268cc65c9f18e3d7c094e9347d79fcbf229f591907be32e076b90a481",
+        "role": "Complete direct read/guard/reconciliation declaration or primitive replay consumer needed for timing/UNKNOWN4 audit; no SDK expansion."
+      },
+      {
+        "name": "CommandOrigin.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/CommandOrigin.java",
+        "bytes": 5057,
+        "sha256": "3036eb8836c7c4cd76e188d44e1ae664896833a650577d2b0c5aecd6f367ce82",
+        "role": "Complete direct read/guard/reconciliation declaration or primitive replay consumer needed for timing/UNKNOWN4 audit; no SDK expansion."
+      },
+      {
+        "name": "PhysicalStatusIdentity.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/PhysicalStatusIdentity.java",
+        "bytes": 4112,
+        "sha256": "ed93358d81a387771be86249a5ec183a9fba9da02f88062e26329f9abaaa2699",
+        "role": "Complete direct read/guard/reconciliation declaration or primitive replay consumer needed for timing/UNKNOWN4 audit; no SDK expansion."
+      },
+      {
+        "name": "ORDERED-ARM-RESUME-PAUSE-ORIGINAL-PARENT-BINDINGS01.json",
+        "relative_source": null,
+        "bytes": 26741,
+        "sha256": "ba1aec58da4714a5653ce33b09a75909b09f65ffe8722a83a9892b663213ce6d",
+        "role": "Complete frozen original three-child/parent/binding evidence, not substitute authority."
+      },
+      {
+        "name": "HEAD-CHILDREN-END-AND-EXACT-OS-IDENTITIES01.json",
+        "relative_source": null,
+        "bytes": 4256,
+        "sha256": "99a67bda830b117d5b6e6dfd41cee7c045cc2649a62aec10186ce290d768005e",
+        "role": "Complete frozen head/children/OS/end identities; no new live operation."
+      },
+      {
+        "name": "sentinel-status.original.json",
+        "relative_source": null,
+        "bytes": 463,
+        "sha256": "175ac6fdac1876e8b23bfc5deca97b37124afb2c6d3af128121276fbb90ac408",
+        "role": "Complete later genuine generation79 independent READ: ARMED, not terminal; may not fabricate completion."
+      },
+      {
+        "name": "ACTUAL-ARMED-STATUS-AND-PENDING-LIMIT81-01.json",
+        "relative_source": null,
+        "bytes": 1316,
+        "sha256": "4c8c5b394c101402f6d39492ac99fb4f89a2a7500c7ceffaf6c328a4fcfe8d45",
+        "role": "Later owner RO status and Pending limit; not held at older Ready01 source freeze."
+      },
+      {
+        "name": "CURRENT-BACKEND-LOADED-BINDING-AND-PRIVATE-QUALIFICATION-SCOPE01.json",
+        "relative_source": null,
+        "bytes": 5338,
+        "sha256": "7f223b96954d51f21b4abe83b74b9fbecf18d8a73a3eba06296099c90862ae62",
+        "role": "Complete new Root acceptance of conditional backend binding ONLY for the exact ongoing Game/session/DLL; not a source enable/token/control permission. No linked large DLL or live originals followed."
+      },
+      {
+        "name": "NativeGameTransport.java",
+        "relative_source": "native-transport/src/main/java/org/xar/ck3/control/nativebridge/NativeGameTransport.java",
+        "bytes": 158722,
+        "sha256": "0660121ace8ee634bb0b96be74cdcbda3467415aa31f757eb0ad94a8f1839c36",
+        "role": "Complete actual direct consumer/declaration specific to this review; no source or Runtime modification."
+      },
+      {
+        "name": "NativePacketPort.java",
+        "relative_source": "native-transport/src/main/java/org/xar/ck3/control/nativebridge/NativePacketPort.java",
+        "bytes": 4901,
+        "sha256": "8692e0e355482e68b981fcdfb4a8ad056c7b82032f5de1caa29c08644c11ecbc",
+        "role": "Complete actual direct consumer/declaration specific to this review; no source or Runtime modification."
+      },
+      {
+        "name": "NativePrivateActionPermission.java",
+        "relative_source": "native-transport/src/main/java/org/xar/ck3/control/nativebridge/NativePrivateActionPermission.java",
+        "bytes": 5077,
+        "sha256": "9759379f570f3840b3dae31a04290666efb3fbca385c2042f6563a106bb83342",
+        "role": "Complete actual direct consumer/declaration specific to this review; no source or Runtime modification."
+      },
+      {
+        "name": "SubmissionPermit.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/SubmissionPermit.java",
+        "bytes": 2525,
+        "sha256": "afe6c63aea9b80aaeeca2e91803c46a790f6a8ce2937591cc09a13235dd3a4cd",
+        "role": "Complete actual direct consumer/declaration specific to this review; no source or Runtime modification."
+      },
+      {
+        "name": "NativeRequest.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/NativeRequest.java",
+        "bytes": 2170,
+        "sha256": "0030edd3d9987415a4a7cac48157eb7455ef5586098defe7d6b1e9f8b503d83e",
+        "role": "Complete actual direct consumer/declaration specific to this review; no source or Runtime modification."
+      }
+    ],
+    "source_message": {
+      "bytes": 2096819,
+      "sha256": "86ec62e5cd560fca7758f791789ca685a35878e3c515ca6388a7d0e9bb331d3b"
+    },
+    "latest_ready": {
+      "bytes": 22195,
+      "sha256": "142a220f6c39d5042b76089d4a754ef4703e560d22d65482ba3022b5fbbb8b90"
+    },
+    "baseline_b03": {
+      "bytes": 17926,
+      "sha256": "38ad52d629a06010a53fa9fc9e5df89ca3f5db01e337f1cedb9d0a7a6feb2970"
+    },
+    "hint_level": "Root/Java supplied final7 timing/guard/child producer fixes, repaired B01/B03 cursor/read roles and scoped loaded-backend acceptance. Not independent model diagnosis/design. Complete current classes and full B03 diff, not snippets."
+  },
+  "HTTP": {
+    "POST_BEGIN": "2026-11-13T10:47:24.020276+00:00",
+    "END": "2026-11-13T10:50:20.240555+00:00",
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "headers_ms": 168290.3000001097,
+    "TTFT_content_ms": 168291.23750003055,
+    "total_ms": 176220.11330001988,
+    "usage": {
+      "prompt_tokens": 439509,
+      "completion_tokens": 769,
+      "total_tokens": 440278
+    },
+    "cached_tokens": null,
+    "attempts": 1,
+    "retries": 0,
+    "length": 0,
+    "request": {
+      "bytes": 2146772,
+      "sha256": "818b77e43ee895ac42de7d8218702e0263da96f0be82d1cee70579b419205b03",
+      "prepost_byte_exact": true,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "max_tokens": 3000,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "network": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      }
+    },
+    "response": {
+      "bytes": 3021,
+      "sha256": "c226c261c1c2b44da04470f1b06aeed3b19110f81194dfe3d070fcd3b03a68ba"
+    },
+    "raw_SSE": {
+      "bytes": 85099,
+      "sha256": "c716b49ba94d53e52747569b5f0f3cbd1a785677ddae22233e2c5e0e78458f32"
+    },
+    "full_SSE_content_reconstruction_byte_exact": true,
+    "current_inflight": 0,
+    "communication": "Real BEGIN/terminal costs and output pins thin-reported before detailed source review/publication."
+  },
+  "batch_HTTP": {
+    "actual_peak_HTTP": 4,
+    "all_four_overlap_seconds": 175.166667,
+    "first_BEGIN_to_final_END_seconds": 177.127383,
+    "current_inflight": 0,
+    "input_tokens": 1665110,
+    "output_tokens": 3157,
+    "sum_HTTP_ms": 705360.3233000031,
+    "retries": 0,
+    "fifth_task": 0,
+    "preparation_not_inflight": true,
+    "service_queue_slots_and_cached_tokens": "NOT_HELD; no new probes or inference from TTFT/overlap",
+    "context": "A439509 prompt tokens actually completed200. This is an observed supported input, not configured maximum context or a promise for other inputs."
+  },
+  "review": {
+    "classification": "PRE_SUPPLIED_TEMPORAL_SUMMARY_AGREEMENT_NO_NEW_FINDING_SDK_WRITE_BOUNDARY_NOT_AUDITED",
+    "supported": [
+      "The latest seven-leaf source separates own operation max10m/phase limit from actual read/frame/source freshness2m, clamps new-token Guard.validUntil, and clips the precise new child Status window to ACK-response+2m.",
+      "The new source gate remains false despite later Root acceptance of exact current backend binding. No source enable/token/control follows."
+    ],
+    "corrections_and_limits": [
+      "token_deadline is constrained to be after issuedAt and no later than issuedAt+10m; it is not invariably equal to that upper bound. The issuer may choose an earlier caller phase deadline.",
+      "Proof.requireFreshArmedPaused validates timestamps; the actual read-window producer is RootLifeRuntimeFactory. A table of predicates is not a complete producer/consumer/write-time proof.",
+      "The response did not trace the supplied actual SDK validation/consume/callback/write order. It therefore does not establish final write freshness or full temporal closure.",
+      "After the response, the owner independently traced SDK guard check before consumePermit/beforeFirstWrite callbacks and a later endpoint write. A conditional expiry-during-callback counterexample was sent to Java/Root for confirmation; no natural occurrence, implementation fix or actual dispatch was held at this cut. This is not a model finding.",
+      "Minimal test suggestions are unimplemented; source agreement is not test PASS, enable permission or actual clock completion."
+    ],
+    "adoption": {
+      "new_model_findings": 0,
+      "source_hunks": 0,
+      "test_hunks": 0,
+      "limited_pre_supplied_agreement": true,
+      "Runtime_control_or_ROI": false
+    }
+  },
+  "adoption": {
+    "new_model_findings": 0,
+    "source_hunks": 0,
+    "test_hunks": 0,
+    "limited_pre_supplied_agreement": true,
+    "Runtime_control_or_ROI": false
+  },
+  "backend_scope": "New input includes Root acceptance only for the exact same ongoing Game/session/DLL. The current source private enable remains unimplemented/false; no token, control or generic backend qualification is granted. Old NOT_HELD input cuts remain unchanged.",
+  "operator_boundary": {
+    "model_HTTP": 1,
+    "business_HTTP": 0,
+    "production_Test_writes": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "GET": 0,
+    "new_large_DLL_Driver_SEM_read": 0,
+    "service_probe": 0
+  },
+  "resource": {
+    "whole_phase_limit_each": 5242880,
+    "four_phase_aggregate_limit": 20971520,
+    "all_frozen_actual_requests_full_streams_scripts_metadata_counted": true,
+    "old_actual_and_reserves_kept": true,
+    "shared_helpers_and_common_metadata_allocated_once_to_A": true
+  },
+  "next": "No fifth task or repeat request to make a review green. Software/tests/actual source enable and Runtime behavior require their own receipts and authority."
+}
