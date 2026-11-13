@@ -6295,3 +6295,12 @@ Owner重写独立StageAprivate工具：prefix QAanchor早于actualgamecallback�
 [724固定证据](https://github.com/XenoAmess/civ6_dev/blob/eba443ad3bfd739069bf35b74dce454a3c4e7fc0/docs/research/baiqi-stageA-qualification-trace724-2026-11-14.json)：complete3628tokens/2757.0585ms/TTFT650.6003ms。raw对字符串key map用#判断长度，无界；bool非reason计数、状态未连真实consumer、畸形抛错/溢出/非有限metadata原样copy，6探针全失败，0rawcode。Owner只补固定14reason+unknown桶、前16事件、有限饱和counter、缺失turn-clock不补0；不额外读SDK，原Unknown计数语义和所有门不松。6新+13window-lifecycle+4realbuilder=23不同方法过，97Lua51/53/119私有包待新Native。新的reason观测不回写旧3unknowns。
 
 两调用各1attempt，stop/DONE/strictJSON；累计through724 724logical/671完整流（含历史692严格JSON拒绝）/50length/3transport/754HTTP/30extra，新峰1。Nov14canonical1.19.5/latest1.19.5成功cache复用，OpenCode native0，cachedtokens/Owner主动成本/净节省null。
+
+
+## 2026-11-14：Owner沙箱兼容缺陷与725普通END合同
+
+[Owner修正固定证据](https://github.com/XenoAmess/civ6_dev/blob/13ec163003fe61a354a358e8d503bd11982c4375/docs/research/baiqi-stageA-sandbox-correction-2026-11-14.json)：上一Owner trace实现用了rawget/rawset，真实Civ6Lua两者nil，QAprefix在NewTrace和原版Executor前失败，P6PerfPlanA nil/85，0END/正式样本。不是724原代码实机行为，不解释先前3资格unknown。Owner改为pcall保护普通表操作，明确trace初始化ready，失败不许enable；测试主动移除这两个内置函数，23相关方法再过/97Lua51-53/119包待新冷验。宿主Lua51版本相同不保证沙箱内置函数可用，编译/隔离通过不替代真实consumer初始化。
+
+[725固定证据](https://github.com/XenoAmess/civ6_dev/blob/fcdfef51536f230b5384d602ad26940f95d2a0e6/docs/research/baiqi-paired-normal-contract725-2026-11-14.json)：真实未完成的paired normalEND/clockstart合同任务，complete7890tokens/3293.0225ms/TTFT1331.3672ms，单次stop/DONE/strictJSON。raw仍建议在UserForced前Begin、描述action不存在的军队准备循环、receipt只ATTEMPTED且无实际发行、无真实跨contextbridge，0代码/新软件测试/匹配Native。原paired返回source67也不能覆盖build已允许140的现实。时钟应在TEST_PLAYER军队准备后、普通RequestAction前；control真实内政gate不许靠强制END或人工内政补装过关，桥identity和实际Bdelta仍待。
+
+累计through725 725logical/672完整流（含历史692严格JSON拒绝）/50length/3transport/755HTTP/30extra，新峰1。Nov14canonical1.19.5/latest1.19.5成功cache复用；OpenCode native0，cachedtokens/Owner主动成本/净节省null。
