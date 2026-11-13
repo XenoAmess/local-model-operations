@@ -6250,3 +6250,12 @@ Owner140需求扫描在原snapshot pcall内、有限rate/唯一自有集合/前�
 ### 2026-11-14 B child06 actualRoot与SDK两项完整源码审阅
 
 前2固定三消息100/89完整Java，source-high-concurrency-direct600/2400/max3000，实际2POST均stop/DONE/valid、0retry；合956296输入/2447输出tokens，真peak2重叠136.553698秒，当前0。Root3claims未证：journal cache随head seq+digest，独立TL不是越过session，consume前后fresh拒期正是目标；finally覆盖Error、依赖核验先于head。运营首前缀漏完整SnapshotReader，后到RO补核单记、不回填输入/重投，原Journal已完整提供。SDK有限流程概述0finding/0代码/Test采用。只child-stage，不授父projection/同IDproofpromotion/Main或全B/实际控制；后到07编前后serial/import纠正独立归owner。见[Root](evidence/2026-11-14-ck3-child06-root-held-scope-review.md)、[SDK](evidence/2026-11-14-ck3-child06-sdk-capture-review.md)。
+
+
+## 2026-11-14：718719、实测零丢弃但END后外交漏报
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/450e677c17d6ae13e5b0457a7ab8f2179e9eda22/docs/research/baiqi-p6-window140-timeout-post-end719-2026-11-14.json)：窗外计时Native33contexts各6变化/198边界行，872保留样本、297锚点、7写入行，0drop/clock/export错误；三次普通END85/86/87各18TEST_PLAYER军事SKIP，无文职补装/UserForced。87END之后Alexander仅Goodbye界面，旧driver把visibility读放在notrequested门内，后发访问漏报；Owner发现和鲜图物理Esc较晚，180秒deadline已ABORTED/全部计数关闭，随后独立实际88十城空闲。没有重发87END或追开记录，没有五窗PASS。
+
+718完整69254tokens/10290.6586ms、TTFT8849.3270ms，给出的eventAdd挂点真实，但Tick/RunNow漏Admin，localTick不满足仅改Executor私有前缀合同，准确include插点与旧55构建门未解决，0采用，阶段A另做。719完整8265tokens/3050.3409ms、TTFT1376.4875ms，else方向能覆盖已请求87，但仍在86..90/age>=10门内，错称everypending；raw测试不推进85却期待86，1实跑失败。0原代码/测试采用。Owner真正移出门，每pending读外交，包括85/age<10/已请求，仍不自动外交/重发END、不改180秒/4096；2新/27相关软件方法过，未来新试验正式重载原85。
+
+两次各一HTTP/stop/DONE/严格JSON，新峰1；through719累计719逻辑/666完整流（含旧692严格JSON拒绝）/50length/3最终transport/749HTTP/30extra。Nov14canonical1.19.5/latest1.19.5成功cache复用，OpenCode原生0，cachedtokens/Owner主动成本/净节省null。零丢弃、正常换回合与完整性能验收分开，不以工具修复追认失败测量。
