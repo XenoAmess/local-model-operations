@@ -1663,3 +1663,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：718719与后台HTTP
 
 [固定证据](https://github.com/XenoAmess/civ6_dev/blob/450e677c17d6ae13e5b0457a7ab8f2179e9eda22/docs/research/baiqi-p6-window140-timeout-post-end719-2026-11-14.json)为普通HTTP审阅及OwnerNative/软件；每日维护缓存复用Nov14canonical1.19.5，0新原生生成/工具session，未知成本null。Native零drop与外交等待失败不授OpenCode能力或完整验收。
+
+
+### 2026-11-14：720仍是普通HTTP候选
+
+[720固定证据](https://github.com/XenoAmess/civ6_dev/blob/9df117eab7bf010d8c30ab54eee320fedd8444d5/docs/research/baiqi-p6-trialB-next-quota720-2026-11-14.json)维护缓存复用Nov14canonical1.19.5，0新OpenCode原生生成/工具session；部分代码采用、软件21项通过与失败Native分别记账，未知成本null。

@@ -6259,3 +6259,14 @@ Owner140需求扫描在原snapshot pcall内、有限rate/唯一自有集合/前�
 718完整69254tokens/10290.6586ms、TTFT8849.3270ms，给出的eventAdd挂点真实，但Tick/RunNow漏Admin，localTick不满足仅改Executor私有前缀合同，准确include插点与旧55构建门未解决，0采用，阶段A另做。719完整8265tokens/3050.3409ms、TTFT1376.4875ms，else方向能覆盖已请求87，但仍在86..90/age>=10门内，错称everypending；raw测试不推进85却期待86，1实跑失败。0原代码/测试采用。Owner真正移出门，每pending读外交，包括85/age<10/已请求，仍不自动外交/重发END、不改180秒/4096；2新/27相关软件方法过，未来新试验正式重载原85。
 
 两次各一HTTP/stop/DONE/严格JSON，新峰1；through719累计719逻辑/666完整流（含旧692严格JSON拒绝）/50length/3最终transport/749HTTP/30extra。Nov14canonical1.19.5/latest1.19.5成功cache复用，OpenCode原生0，cachedtokens/Owner主动成本/净节省null。零丢弃、正常换回合与完整性能验收分开，不以工具修复追认失败测量。
+
+
+## 2026-11-14：720真实Core丢弃后的预算内配额转移
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/9df117eab7bf010d8c30ab54eee320fedd8444d5/docs/research/baiqi-p6-trialB-next-quota720-2026-11-14.json)：修复后87END后访问被及时报告，Owner鲜图TEST_PLAYER Esc，实际88无重发。TrialB普通85–89到90十城，90age8.196错5后停；在途结束后Core128retained/813total/678zero/7drop，其余0drop/invalid，全局1437保留。原件33ctx/660anchors/30write行完整导出并保存90，不改失败配额或追认PASS。
+
+720完整6876tokens/4107.5340ms、TTFT1156.9470ms，部分采用actual140门分支和两配额赋值。原函数以placeholder省略keys/quotas创建和既有验证，不能整份替换。384转移和数值为Owner事前合同，非模型独立发现。Owner补keyword-only/unknownprofile/140metadata，3新+6当前构建+8旧有界+4旧构建=21方法通过；实际Lua51Core135/Flag137全保留，Core第513仍按512丢弃。新actual14033context仅从UnitFlag768->384、Core128->512，Executor2032及其余不动，默认legacy32/33、67/139元数据保持，全局4096及20/50/1000ms、Nreq64/Bdelta预算不变。新私有97Lua双编译/119包在此切点只准备未Native，不把储存调整当性能成功。
+
+Owner误用禁止活游戏导航工具0输入拒绝，后续unavailable及reload门拒绝亦保留；核唯一自有已存88/QA全关后单独正式header导航，再后台只读offline，焦点短暂断言失败未依赖重载，后读自有已前台0Esc，复核才读原85。不能把导航ACK或好友状态当模式证明，无登录/联网/他人游戏终止。
+
+累计through720：720逻辑/667完整流（含旧692严格JSON拒绝）/50length/3最终transport/750HTTP/30extra，新峰1，Nov14canonical1.19.5/latest1.19.5维护成功cache复用；OpenCode原生0、cachedtokens/Owner主动成本/净节省null。721为独立未完成StageA窗口包装候选，另记。
