@@ -1,0 +1,9 @@
+# Journal historical profile: finite audit rejected against current source
+
+One read-only task examined only the existing Journal history-reader resource tier, from4096entries/8192handles to the already permitted8192/16384, keeping256MiB. Eleven complete Java sources, owner callgraph and the707B generic fallback6 original were supplied. The semantic DPP.MAX_CHAIN4096, all action/source/fresh checks and other scopes were frozen. No production or runtime changes were requested.
+
+POST04:17:55.197383Z to END04:18:31.462764Z completed200/stop/DONE/validJSON:185926input/1781output, contentTTFT24.0765517s and HTTP36.2654452s. The930869B compact request matches its prePOST bytes. There was one attempt, no retry/length, peak1/current0. BEGIN/END and the complete response pointer were reported before source review.
+
+The proposed conditional GO and test assertions were rejected. Store refuses and poisons nested historical scopes; it does not replace the outer ThreadLocal. Held validation failure throws and poisons; only missing custody yields false and ordinary fallback. The actual handle admission formula limits the old/new tiers to4095/8191 retained entries, so the proposed old entry_bound-positive test is unsupported. Proxy/session qualification does not test actual opaque callbacks, whose Journal branch roles were left untraced. An untagged fallback row cannot establish a Journal prefix hit or prove that a larger tier enables its fast path.
+
+The byte/GC and owner/custody caveats are valid general limits largely supplied in the task, not new independent findings. This is a complete but incorrect analysis, not length truncation, compiler failure, a technical NO or evidence against the underlying resource opportunity. No findings/code/tests were adopted, no JVM/live probe was run, and no second request is planned. [Exact complete inputs, source counterexamples and cost](2026-11-13-ck3-journal-historical-profile-audit.json).

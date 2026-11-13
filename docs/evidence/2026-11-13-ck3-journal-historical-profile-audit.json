@@ -1,0 +1,222 @@
+{
+  "schema": "local-model-operations.journal-historical-profile-audit/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "scope": "One read-only audit of Journal.readSameGameHistory existing8192entries/16384handles opt-in; byte cap remains256MiB. No implementation.",
+  "input": {
+    "complete_java_files": 11,
+    "files": [
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 438606,
+        "sha256": "cc12953c0e67a143323d70b2b407b5f09316795675c69c561507fb73930bf27d",
+        "role": "SOLE proposed resource-profile callsite: complete current Journal; all actual readSameGameHistory callers and locked reconstruction."
+      },
+      {
+        "name": "DriverCapabilityRuntime.java",
+        "bytes": 55131,
+        "sha256": "542321de42c35c8c315f6eaca690351c71b1c6f59a3aa76626a0423cfa7c46b4",
+        "role": "Actual local-service private owned-scope bridge, not an application-module API."
+      },
+      {
+        "name": "DriverCapabilityStateProducer.java",
+        "bytes": 93113,
+        "sha256": "fc45e8ebb5734189a2bc4a4efbd74a32a48a95997b456a418ca63b4c546f0b4c",
+        "role": "Complete actual capability replay consumer and independent validations before/after DPP."
+      },
+      {
+        "name": "DriverPersistentPlanningState.java",
+        "bytes": 43116,
+        "sha256": "e4d8b64da28563857690dc4d9d000a3890938212a49cba163ece33ad0d71d6ec",
+        "role": "Current Source70 owned-prefix implementation; MAX_CHAIN4096 is semantic and frozen."
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 137327,
+        "sha256": "86f7f61f200d8eb8631aeadaedb760346912fceded2d2e119af20da18b544c5e",
+        "role": "Actual private facade/session/head/custody qualification and opaque disqualification."
+      },
+      {
+        "name": "ImmutableArtifactStore.java",
+        "bytes": 50924,
+        "sha256": "bf6eda7ccc4d90ae2ea993ea5af34ff70f8990fd3c02eac1dcc9ddcee96e036a",
+        "role": "Actual resource admission, traceDependencies, fallback/fresh validation, poison and closing."
+      },
+      {
+        "name": "ActionPorts.java",
+        "bytes": 22632,
+        "sha256": "07353b1a774696b014e17257c16a4e0289b747edeedb30ecdffb571618ef02d1",
+        "role": "Existing finite HistoricalReadLimits hard maxima; no API changes requested."
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Actual Session/store callbacks and owner contract."
+      },
+      {
+        "name": "WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Complete writer public contracts, not a manufactured authority."
+      },
+      {
+        "name": "DriverDeclarationContinuityState.java",
+        "bytes": 8947,
+        "sha256": "a7bdaaa215f84a0ee10413c99b5c81c18b2ce80d75867c71c549825cd10d02a1",
+        "role": "Independent DPP replay-header validator; cannot be removed or assumed cached."
+      },
+      {
+        "name": "OwnedCooldownPrefix70ConsumerTest.java",
+        "bytes": 20682,
+        "sha256": "7e47ca117b40e4ee8ec8a3c338720e8f243ae6e0fe6c72d111f32a44f62f0383",
+        "role": "Existing real Store/public-facade/owned-scope consumer test; controlled fixture evidence only, not full Journal consumer qualification."
+      },
+      {
+        "name": "CALLGRAPH-RO01.json",
+        "bytes": 8319,
+        "sha256": "b60c70f45f293ec7101d706afb1c31f95f62c8288fa9543ca72c89b0caa4bf79",
+        "role": "Owner RO hints/callgraph; source is authoritative. Reported106 row is not held caller attribution."
+      },
+      {
+        "name": "NATURAL-FIRST-HISTORICAL-CAS-BOUNDARY-FALLBACK.original.log",
+        "bytes": 707,
+        "sha256": "8a13843fa1f24044655261df3f5282dbaf553f4d3b0de64e29eb6e0c5a395d37",
+        "role": "Existing generic old-scope natural fallback6 original; no Journal caller tag."
+      }
+    ],
+    "raw_material_bytes": 907074,
+    "source_message": {
+      "bytes": 908753,
+      "sha256": "6e695f447a0b89d57a7dc76caf1fdc41976e14744e3a1a13740a77ddc1005a9c"
+    },
+    "limits": "Full current Journal438606 and actual current capability Runtime/Producer/DPP/Archive/Store/Ports/contracts/header/owner21 Test; no all-platform DTO tree, largeDriver or request copied.",
+    "runtime_evidence": "Only pinned707B generic oldscope fallback6. Reported106 original NOT_HELD, no Journal caller identity. Ordinaryaction retained4144 is a different role; BOOT duration not causal evidence."
+  },
+  "contract": {
+    "one_callsite": "Journal historical reconstruction only; other profiles and all Game/source/action/fresh/poison/cleanup/byte checks unchanged.",
+    "semantic_bound": "DPP.MAX_CHAIN4096 is semantic cycle/depth validation and MUST NOT be raised.",
+    "required_proof": "Exact Journal consumer/opaque roles, effective resource bound, meaningful held subprefix opportunity, counterexamples and minimal controlled test plan. No public authority, global cache or implementation."
+  },
+  "request": {
+    "bytes": 930869,
+    "sha256": "25a16e6eb9928e22f3dd4d05eb9dad03cee9a46043cfa28b13a6e088c4689981",
+    "prepost_compact_byte_exact": true,
+    "roles": [
+      "system",
+      "user",
+      "user"
+    ],
+    "model": "qwen38-coder",
+    "temperature": 0,
+    "max_tokens": 3000,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "response_format": {
+      "type": "json_object"
+    },
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "network": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    }
+  },
+  "HTTP": {
+    "POST_BEGIN": "2026-11-13T04:17:55.197383+00:00",
+    "END": "2026-11-13T04:18:31.462764+00:00",
+    "status": 200,
+    "finish": "stop",
+    "DONE": true,
+    "JSON_syntax": "VALID",
+    "headers_ms": 24075.593800051138,
+    "TTFT_content_ms": 24076.551700010896,
+    "total_ms": 36265.4452000279,
+    "usage": {
+      "prompt_tokens": 185926,
+      "completion_tokens": 1781,
+      "total_tokens": 187707
+    },
+    "cached_tokens": null,
+    "response": {
+      "bytes": 7423,
+      "sha256": "124845fea4fd1532e6894e8848bb6d8ebaf673cc83de5cf742e3232914f2fbd9"
+    },
+    "attempts": 1,
+    "retries": 0,
+    "length": 0,
+    "transport_errors": 0,
+    "peak_inflight": 1,
+    "current_inflight": 0,
+    "communication": "Actual BEGIN and END thin-reported before source review/publication; content absolute pointer delivered source owner. Preparation/review time is not HTTP service latency."
+  },
+  "review": {
+    "recorded_utc": "2026-11-13T04:21:45.344892+00:00",
+    "classification": "COMPLETE_ANALYSIS_REJECTED_SOURCE_ERRORS_0ADOPTION_NO_SECOND_POST",
+    "root_review": "Root independently accepted source-specific rejection categories; no software or live gate.",
+    "findings": [
+      {
+        "model_claim": "A nested historical read scope replaces or clears the ThreadLocal and can lose the outer prefix.",
+        "source": "ImmutableArtifactStore.java:314-317",
+        "actual": "Nested HistoricalReads is refused, recorded as historical failure, and thrown. Nested dependency traces are a distinct supported mechanism; no normal nested-scope replacement route exists.",
+        "category": "invented control-flow / scope lifecycle"
+      },
+      {
+        "model_claim": "Changing or removing a held source makes verify return false and normally falls back to full replay.",
+        "source": "ImmutableArtifactStore.java:230-249; NativeOutcomeArchive.java:358",
+        "actual": "verifyRetainedDependencies false means missing held custody only. Actual held-source validation failure throws and records firstFailure; it cannot grant a successful full fallback. Fresh qualification preserves leases and original checks, with no new acquisition/payload hash/parser shortcut.",
+        "category": "failure classification / poisoned scope incorrectly treated as successful fallback"
+      },
+      {
+        "model_claim": "At 5000 small originals, old4096/8192 must show entry_bound>0.",
+        "source": "ImmutableArtifactStore.java:128-133,589-593",
+        "actual": "Admission requires size*2 <= handles-4 before adding two custody handles. The old tier retains at most4095, new tier8191 if other bounds permit. Oldhandle admission stops first; the proposed entry-bound assertion does not follow and the response never derives this effective bound.",
+        "category": "resource arithmetic / invalid proposed test oracle"
+      },
+      {
+        "model_claim": "Opaque barriers are covered by a public proxy or mismatched-session test, and higher Journal capacity confirms that the fast prefix path is enabled.",
+        "source": "NativeOutcomeArchive.java:303-362 and disqualifyPersistentPrefix callsites; DPP.replayCooldown",
+        "actual": "Private facade qualification and actual opaque dependency callbacks are distinct. The response does not trace the actual disqualifying branch roles through Journal or prove a meaningful held subprefix. An untagged fallback6 row identifies neither Journal nor a prefix hit; probability or speed conclusions are unmeasured.",
+        "category": "missing requested consumer proof / unsupported inference"
+      }
+    ],
+    "valid_limited_points": [
+      "The supplied source already establishes the Journal -> capability producer -> DPP and private archive/store bridge.",
+      "The existing8192/16384 tier is finite; keeping256MiB does not guarantee unchanged retained bytes, heap or GC cost.",
+      "Capacity cannot remove opaque/owner/session/head/byte blockers, and no wall/CPU or natural hit rate was measured."
+    ],
+    "input_hint_level": "Root/Java pre-supplied the exact callsite/tier, dependency invalidation mechanism, blocker classes, byte/GC warning, real fixture and lack of caller attribution. These general observations are not independent model findings.",
+    "not_a_technical_NO": "Reject this response and proposed test oracles, not the underlying bounded resource opportunity. No implementation, benchmark, or capacity impossibility was tested.",
+    "adoption": {
+      "new_findings": 0,
+      "code_hunks": 0,
+      "tests": 0,
+      "javac": 0,
+      "JVM": 0,
+      "runtime_or_performance_grant": false
+    },
+    "operator_local_error": "One Python -c read-only request-pin check failed from PowerShell quoting; fixed using byte-array comparison. No extra HTTP or evidence replacement; unrelated to model transport/content."
+  },
+  "operator_boundary": {
+    "model_HTTP": 1,
+    "business_HTTP": 0,
+    "production_writes": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "GET": 0,
+    "CAS_scan": 0,
+    "large_Driver_request_reads": 0
+  },
+  "maintenance": "Same localNov13 successful client cache reused; shared main fetched/fast-forwarded clean, no active consumer/service change.",
+  "resource": {
+    "private_growth_forecast_bytes": 4194304,
+    "separate_allocation": "Explicit Root4MiB prospective allocation for this unit; does not alter earlier2MiB task records."
+  },
+  "next": "No second same-topic POST, no capacity/source/live modification granted by the response. Owner may independently assess a bounded experiment; this review is not a BOOT/recovery prerequisite."
+}
