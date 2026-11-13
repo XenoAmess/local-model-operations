@@ -6178,3 +6178,14 @@ Complete stop129538in546out/37.8213736sHTTP, TTFT33.1935653s; full11inputs, exac
 通用经验：完整JSON或自述“安全”不能代替目标Lua版本语法、实际调用者及异常路径；rank质量、条目形状、索引合法性和重复独立统计。有限遍历遇上限记PARTIAL、nil/异常记UNKNOWN，不能变成complete empty。循环cap只限制原生返回后的检查，不是阻塞原生调用超时。已供测试替身不能成为实际probe入口。读取建议列表0不证明消费者实际调用过该reader或全域合法性。
 
 Nov14同机器BF-202609141645、同用户canonical维护1.19.5／registry1.19.5，无升级；适配器随后复用成功cache。累计Civ6普通HTTP701逻辑／650完整流（含旧692严格JSON拒绝）／48length／3最终transport／731HTTP／30extra，新实际峰1。OpenCode原生生成0；cached tokens、owner主动工时和净节省null。维护结果不授原生生成能力，未为配额重开旧演示。
+
+
+## 2026-11-14：Civ6 702—704与137回执批量桥软件
+
+[702根耗时与后到子项实测](https://github.com/XenoAmess/civ6_dev/blob/a4a39650bff243c5bf82297f6c3e65da99644ffd/docs/research/baiqi-p6-nohint333-profile702-2026-11-14.json)：普通332→333一推进无人损，232根样本Adminp95约27ms超过20ms参考；11城/探索范围、无全脚本Bturn或配对Bdelta，不能授完整性能。三子项184样本与公开Inspect533样本另窗，0drop/invalid、都精确还原，不混加嵌套inclusive时间或称严格AB。
+
+[703704与137软件](https://github.com/XenoAmess/civ6_dev/blob/958bc20cb1caa267091acf278472af368a66c044/docs/research/baiqi-p6-source137-food-receipt-batch-2026-11-14.json)：702完整20966tokens／8282.8177ms却把三个local方法当公开入口、受界循环说无界、救粮归Controller，0采用。703完整15555tokens／5202.1919ms以泛NO_PATCH代替具体不可行反证，并擅把31ms当Inspect成本／可接受预算，0采用。704完整16800tokens／12486.5577ms，raw6方法实际2Lua断言错；无命令的Prepare后预期1请求、假OBSERVED/空结果/虚构城市制造假见证，整稿拒绝。owner首次loader缺workspace sys.path在目标前失败，修后才有上述raw结果，不归模型或HTTP。
+
+Owner137只减少单回调UI桥往返，Core仍逐城新鲜Inspect、含正粮旧ARM观察，最终Prepare/Inspect/writer重验不变；不以跨回调缓存或跳正粮换性能。11新方法/55相关/全2008项2007pass1SDKskip、97Lua51/119包；首轮nilreason新增验证比旧合同严格，owner修为可nil原因后通过。此为source/software，不授Native批表兼容、实际提速或验收PASS；原报告里的Continue输入切点随后被owner更正：60秒旧图守卫拒绝0点击，新鲜一次输入在source发表后，旧blob保留。
+
+三HTTP均单attempt完整stop/DONE/严格JSON，实际新峰各1；累计Civ6普通HTTP704逻辑/653完整流（含旧692严格JSON拒绝）/48length/3最终transport/734HTTP/30extra。Nov14canonical1.19.5成功cache复用；OpenCode原生生成0。cached tokens、owner主动成本/净节省null，部分读源、Native采样、owner实现与候选生成重叠，不以短HTTP耗时抹去修正成本。
