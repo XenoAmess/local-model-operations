@@ -6234,3 +6234,14 @@ Owner140需求扫描在原snapshot pcall内、有限rate/唯一自有集合/前�
 [711–713和驱动软件](https://github.com/XenoAmess/civ6_dev/blob/7186b6610ac0455cf6bbf915c160a9c79125192c/docs/research/baiqi-p6-ordinary-observed-driver711713-2026-11-14.json)：71112311tokens/13703.1945ms、7126183tokens/9981.2292ms均length/DONE，整份拒绝0拼接；Owner接管该迁移。另派窄测试713，完整6063tokens/2912.9495ms，raw3方法实际3失败：未发动作回调却断言旧forced actions[85]；fail_poll_once仅影响后续poll不模拟门失败，实际回调先触发；还误说ACK返回忽略。0原代码/测试采用。Owner默认要求普通测试玩家回调，独占凭证/READY后才调用；精确ACK只是提交凭证，实际激活独立读；未知/throw/错误ACK停止不重放，旧UserForced须显式legacy。9新/25相关软件方法过，原85十城/五窗10秒/4096/33上下文保持，尚无新Native回调PASS。
 
 累计through713：713逻辑/660完整流（含旧692严格JSON拒绝）/50length/3最终transport/743HTTP/30extra，新峰1。Nov14canonical1.19.5/latest1.19.5维护cache复用；OpenCode原生0，cachedtokens/Owner主动成本/净节省null。714是未完成Native适配器候选，另记。
+
+
+## 2026-11-14：714–717，普通回合观测丢弃与严格窗外控制
+
+[714715及Native原件](https://github.com/XenoAmess/civ6_dev/blob/410f1d2f42bf5af893c094ab4e31e99306d44041/docs/research/baiqi-p6-observed140-normal-partial714715-2026-11-14.json)：714完整8234tokens/4752.8432ms却把call-return issuance凭证与引擎接受混同，并把busy跳变当接受证明，0代码采用。实际普通85/86两次END、各18个TEST_PLAYER合法军事SKIP，独立读到86/87；无UserForced或文职补装。33上下文/4096原配置下UnitPanel64配额丢37，全局1362保留、132锚点/4write行已导出，ABORTED/全部记录关闭，未Reset/重放，不能授完整性/五窗PASS。715完整11373tokens/3600.4382ms的UNKNOWN漏Update自身根包装，原件包含所有相关实现并无缺源借口；实际transform Update/RunIfReady父根压制直接子Admin/Controller计时，当前样本Update1058/OnPlayback33/Activate1、两独立根0，另采阶段A，不从函数manifest授B_plan。
+
+[716软件](https://github.com/XenoAmess/civ6_dev/blob/6ea1658d35fcd7612d19908c094481cf5c71e20e/docs/research/baiqi-p6-window-timing716-software-2026-11-14.json)：完整10214tokens/4135.3146ms只给文字，建议h.Wrap注册期执行fn/非法非变参...、要求每暂停期都有非零锚点/写入，0原代码。窗外只停timing而保持整回合writes/anchors是Owner事前设计；Owner保cachedWrap、加bounded变化计数和TIMING_CONTROL导出，变化过则强制精确phase凭证，保守全时钟偏移区间不得碰固定窗、关闭91前恢复。14新/52旧共66不同方法过；首次52相关中3旧dump行位置断言受新增metadata影响，核新类型后重跑9导出（含1新legacy兼容）过，其他44不重复。Owner初包装器else1语法错误0测试亦保留。97Lua双编译/119私有包仅准备未Native，不放宽4096。
+
+[717助手](https://github.com/XenoAmess/civ6_dev/blob/0256513baabeab2f82328bed4d4f6ae68425a8c2/docs/research/baiqi-p6-timing-transition717-software-2026-11-14.json)：完整7615tokens/4992.3478ms，raw6方法首测8Lua子错误、只有正常路径整方法过；额外键、Snapshot/clock/emit异常、错回合先改、计数未增/记录丢失/绑定变更等缺陷，0原代码采用。Owner两阶段预检+逐项新鲜确认/clockrows+最后全核，未知不猜回滚或重放；6新Lua51方法0.093秒过，最后加入Snapshot期间注册集合突变例。仍非Native切换PASS。
+
+四调用均一次HTTP/stop/DONE/严格JSON；through717累计717逻辑/664完整流（含旧692严格JSON拒绝）/50length/3最终transport/747HTTP/30extra，新峰1。Nov14canonical1.19.5/latest1.19.5成功cache复用；OpenCode原生0，cachedtokens/Owner主动成本/净节省null。冷测继续，软件/Native/预算分级不混同。

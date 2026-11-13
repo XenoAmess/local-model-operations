@@ -1653,3 +1653,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：711–713仍属普通HTTP
 
 [固定证据](https://github.com/XenoAmess/civ6_dev/blob/7186b6610ac0455cf6bbf915c160a9c79125192c/docs/research/baiqi-p6-ordinary-observed-driver711713-2026-11-14.json)每日维护复用Nov14canonical1.19.5成功cache；两截断、一个完整但失败候选与Owner25软件方法均不授OpenCode原生能力。0新原生生成/工具session，未知成本null。
+
+
+### 2026-11-14：714–717诊断仍为普通HTTP
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/0256513baabeab2f82328bed4d4f6ae68425a8c2/docs/research/baiqi-p6-timing-transition717-software-2026-11-14.json)及714–716反链为普通HTTP、Owner软件与Native；Nov14canonical1.19.5维护成功cache复用，0新原生生成/工具session。实际普通换回合、失败的完整采集和软件审计不授OpenCode原生能力；未知成本null。
