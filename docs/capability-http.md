@@ -6164,3 +6164,8 @@ Complete stop129538in546out/37.8213736sHTTP, TTFT33.1935653s; full11inputs, exac
 ### 2026-11-13 Advance same-call生产/独立旧oracle/正式资源投影三审
 
 三固定消息完整源42/55/22Java，真并发peak3/重叠99.980199秒，均stop/DONE/JSON-valid、0retry；合701247输入/2604输出tokens，当前0。三答有限设计一致但0新finding/0代码/Test采用：A三项findings实为正向observation且Status read须nonnull分支；B已核完整旧body机械inverse，只授被调用consumer独立性，不把未改producer分支列门；C真增default/override/private/package签名，非body-only，default归ActionPorts.OutcomeArchive。原件/SSE/参数/owner输入提示与实际软件、装载、Native custody、收益分列；0额外HTTP/JVM/live。见[生产](evidence/2026-11-13-ck3-advance-compatible-samecall-source-review.md)、[旧oracle](evidence/2026-11-13-ck3-advance-compatible-samecall-oracle-review.md)、[formal资源](evidence/2026-11-13-ck3-formal-history512-resource-review.md)。
+
+
+### 2026-11-14 C81 A-only NoEffect完整四审与有限输出/瞬时重试
+
+四logical题76/77/81/78完整Java，每题全18candidate+16BASE，原始小包/资格与大SEM未读范围明确。实际5POST尝试：3完整stop回复，B length整份未读UNUSED不续，D首无headers180sTimeout保全后既定退避11.8625628s重试成功；不把4题当4可用。真peak4两窗合185.635132秒，退避不算在途，当前0；已报告1948587输入/8003输出tokens含length，首timeout用量未知，快retry不推cache/ctx。0可落实finding/0代码/Test：A正向observation非发现，C顺序/双parent/APP调用/方法归属纠错，D接口非许可/锁内重验期限/已存在negative纠错。每日Nov14检查已实际成功。源码资格、owner首编/Test、真实A结算/ACK/NoDispatch/credit分列。见[raw](evidence/2026-11-14-ck3-noeffect-rawproof-review.md)、[length](evidence/2026-11-14-ck3-noeffect-state-codec-length.md)、[archive](evidence/2026-11-14-ck3-noeffect-archive-replay-review.md)、[issuer](evidence/2026-11-14-ck3-noeffect-root-issuer-review.md)。

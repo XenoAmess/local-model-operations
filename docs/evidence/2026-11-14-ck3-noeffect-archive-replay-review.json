@@ -1,0 +1,726 @@
+{
+  "schema": "local-model-operations.c81-noeffect-A18-source-review/v1",
+  "date_local": "2026-11-14",
+  "mode_id": "ordinary_http_candidate",
+  "input": {
+    "complete_java_files": 81,
+    "complete_other_files": 12,
+    "full_files": [
+      {
+        "name": "ActionState.java",
+        "bytes": 15264,
+        "sha256": "d11ac489e6606e562a19153216dca31d8e3823c4869db892c313d46f39e52860",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "ActionState.java",
+        "bytes": 14316,
+        "sha256": "8314f584b52894527378071b113be4a5d3916581c04ca862d9530679e3cafd8c",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "ActionReceipt.java",
+        "bytes": 5368,
+        "sha256": "649dc1fedf9bcbc26d90613d54ba1e1ca0155705946ddc4ee15bee9369031dbd",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "ActionReceipt.java",
+        "bytes": 5260,
+        "sha256": "03db0d0edd0facf9fcabb24897a870c4eac11f13b67808cebef583b06c6a63d4",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "ActionTransitions.java",
+        "bytes": 10953,
+        "sha256": "680de862b60592b04fcf065541bb8a8ae7fb2c8983c5dc611909a93bf29a40be",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "ActionTransitions.java",
+        "bytes": 9931,
+        "sha256": "66ca21e8e0e74e2a715c60696867ecaca5ebf8ba46acb78b654c13324be64694",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "ActionReceiptCodec.java",
+        "bytes": 58147,
+        "sha256": "9ec30f005a26006999f3ba159eba29ebb11664e60bf203d2c6077fe36f9b2aff",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "ActionReceiptCodec.java",
+        "bytes": 56700,
+        "sha256": "6fa780306dfd325f06823f1c1906605065683401ca880486f81c1ccdc8d6d3fc",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "ContinuityActionJournal.java",
+        "bytes": 24513,
+        "sha256": "bf5e43ef5c1197274106264fce419e97833fbe17a5ef873461fa2d4c892ad7ff",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "ContinuityActionJournal.java",
+        "bytes": 24362,
+        "sha256": "801c38e4c00a8da9908ec7a9790903ca3b38aee70612dd754fdb75ddf9039f35",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "CanonicalFundingPending.java",
+        "bytes": 23647,
+        "sha256": "177ca86b734b27c1dd87efadd4883b2af8ffeb3e063718e88ebe9691f51eee7d",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "CanonicalFundingPending.java",
+        "bytes": 23308,
+        "sha256": "7a580cb9e41ab80448fde6824352c8f101b7a4ddd1cbb7a2e5e2b5644753ed10",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "McpAutoTurnEncoder.java",
+        "bytes": 29962,
+        "sha256": "670d289b74df8ff72a20a137ba394579319f84d68de27496e521c731a1ac9be6",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "McpAutoTurnEncoder.java",
+        "bytes": 29569,
+        "sha256": "847dbf91f2e5b242b5ee1d1479848dd4e39eab3b19d64115633cdd6c94b3df1e",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "ActionContinuityAuthority.java",
+        "bytes": 15076,
+        "sha256": "5a294951baf02b17fafc2b49defa9f4746241d52805e5af1f795e5ab900919bf",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "ActionContinuityAuthority.java",
+        "bytes": 14238,
+        "sha256": "ee89104330981cd3314e806bc1d1e2022321b515e6277ef9f3f28db0d1621d92",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 138490,
+        "sha256": "fd4346694f8895d7d1101a1537ff99edb4309cccb885ea1e19293da11e612f23",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 138185,
+        "sha256": "d594cda2b3a42fa7006a170081a1afb31ec73d33f9d10d4e159f14e3a7fa2491",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "NativeRecordedEvidenceVerifier.java",
+        "bytes": 43431,
+        "sha256": "184579a5ee4cb9512859595fefaedf8e92e8d867dea440ecba6fcfcf17d5ca71",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "NativeRecordedEvidenceVerifier.java",
+        "bytes": 42822,
+        "sha256": "5701da6aa598aa25f4d73885a2812ba530303e2e6f117bfd9d94e02a5fe44421",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "AdvancePrimitiveArchivedReplay.java",
+        "bytes": 20296,
+        "sha256": "47aadd6cc8afd08eb4062e023245768e1a09390821c4ae3f2cb9a83f7c194c81",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "AdvancePrimitiveArchivedReplay.java",
+        "bytes": 18364,
+        "sha256": "8d132a6d22b811cbad506c68c7b8780f05fd4ea6c2859a70e1ae9f2de3e98794",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "RootAdvanceInfrastructureFactory.java",
+        "bytes": 95419,
+        "sha256": "634325d196fe4c95c7df15cc2a3695d63c716846ae93d5c8d483bf062353569c",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "RootAdvanceInfrastructureFactory.java",
+        "bytes": 95297,
+        "sha256": "1cb271d7db04d86ebf6f0c24e5ec8cdce2542b92a379714af8f6d3c93457fdee",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "LifeAdvanceComposite.java",
+        "bytes": 63178,
+        "sha256": "5a60598e74b3de0f965280454497e24e7369466ef2fbdd41b1d0a158394d09aa",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "LifeAdvanceComposite.java",
+        "bytes": 60243,
+        "sha256": "473f01ae376df5cae545c7c0a6cb0e00c518ee82997c3cf7fbc5bdb4d041e888",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "RootApplicationSession.java",
+        "bytes": 94099,
+        "sha256": "f65fd6a26e2bff1918d0b361bd483204681051f8f1dfe1765d8aaa137574df81",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "RootApplicationSession.java",
+        "bytes": 91444,
+        "sha256": "7eab08126f27d32a96bc6460933d7788e0fe063244ae760bd2fde227cbe337f2",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "RootLifeRuntimeFactory.java",
+        "bytes": 53257,
+        "sha256": "ed5d29e95f5a838e74ee57d694f32d8fda4340b4bbff37f4ddc1d4294b22ca71",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "RootLifeRuntimeFactory.java",
+        "bytes": 35916,
+        "sha256": "21cfadc01205aa9daa9c90ce14b9dd83cbd72b02887b689134076cb9bb3ed494",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "RootOrdinaryRuntimeAssembly.java",
+        "bytes": 77555,
+        "sha256": "c22ce8260e63eef71406c862d01d98a03666d652916b7c8fce1b273ab1f2b3d6",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "RootOrdinaryRuntimeAssembly.java",
+        "bytes": 76043,
+        "sha256": "49e4dcf90853e49108db6057b6fb20165f9e37118921db591d193edb864b4d39",
+        "role": "Complete exact current actual BASE, distinct from candidate"
+      },
+      {
+        "name": "PostExitCleanupNoEffectProof.java",
+        "bytes": 33571,
+        "sha256": "91780874e76b81c4fb25ab8e2b5bbb0d2aba2f104426a660f3338ffe0cbc5665",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "NoEffectReconciliationToken.java",
+        "bytes": 2384,
+        "sha256": "3a2bd6d672f77169699ab55700df099024b8deacf31bcb4d5376b39685354e82",
+        "role": "Complete coherent A18 candidate; owner authored and not software/Runtime qualification"
+      },
+      {
+        "name": "ActionCommand.java",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "ActionCodec.java",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "ActionPorts.java",
+        "bytes": 23186,
+        "sha256": "8f442da38de05a11daa15c4d8eb700f7c609a7e82d4d8de5ea94c171f2b676a7",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "NativeActionPort.java",
+        "bytes": 8817,
+        "sha256": "57fa4858639ec594dded7dcc3a165fa17ca15bdb614a2b0200dc436bc28b45d4",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "NativeObservationPort.java",
+        "bytes": 1639,
+        "sha256": "66f33fcee1823e3acf9bd2ff047b953d7de1dc74032a1751aefca47fe62b8d2b",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "NativeRequestChronology.java",
+        "bytes": 14185,
+        "sha256": "ec05a0cea8abcf21bc7a6bc26c47c1baaa1dbe45e0e4f878c61616cb549f3c92",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "ObservationProvenance.java",
+        "bytes": 6754,
+        "sha256": "14dcfffc1711e029cb84620e792591a80324e6967a61bb20ceda797cec84af95",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "ObservationProvenanceCodec.java",
+        "bytes": 7789,
+        "sha256": "de619a1205a9a266f7158b72839d75398fdc2a7f084e43e0c20b7c0580e0ba05",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "CommandOrigin.java",
+        "bytes": 5057,
+        "sha256": "3036eb8836c7c4cd76e188d44e1ae664896833a650577d2b0c5aecd6f367ce82",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "GuardEvidence.java",
+        "bytes": 6176,
+        "sha256": "a26fcda93c132568c925090f4717fe1023be4534ce94c74afa7303b4d2a47247",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "PhysicalStatusIdentity.java",
+        "bytes": 4112,
+        "sha256": "ed93358d81a387771be86249a5ec183a9fba9da02f88062e26329f9abaaa2699",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "PlanningReadReceipt.java",
+        "bytes": 6590,
+        "sha256": "cb78eab706c7497a48a7db8f534c892d8f1fe6790fd0fc730750035dea5efd12",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "PlanningReadRequest.java",
+        "bytes": 3568,
+        "sha256": "66c1a78677fc47c6398fb064d94112448b46c3410f5c549a132bcedd3770137a",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "ActionJournal.java",
+        "bytes": 2794,
+        "sha256": "5b224d9636086b5d23614e84f1398e402c45031c59b8049131fb06edc974ad51",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "PlanningReadPort.java",
+        "bytes": 3628,
+        "sha256": "35f5d12a1304d36833c24c829f75969c13bed1334371c7306fad703d4995df24",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "PlanningReadResult.java",
+        "bytes": 2058,
+        "sha256": "d4ec175a46b5dd38b276b76335cf3b6fc3deaba2dde8cf464c8437971ea9d4fc",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "ReadContract.java",
+        "bytes": 28138,
+        "sha256": "293b06cba88a8eda29c73b48f599583dc63234e9ee8f7cb957a1202b5d6a76e8",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "CompositeActionPort.java",
+        "bytes": 3034,
+        "sha256": "5603574b7d0f4a0d65d3acfeae48a8fbb346eeec1210c928f9a8c826d9b35eea",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "ClockStatusRead.java",
+        "bytes": 18063,
+        "sha256": "f6d3be5a0eb7adba055c06dbbf5d548dbf2b38ce4d02077e1bcf25f6ab3d255b",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "LifePostResumePauseCleanupProof.java",
+        "bytes": 29764,
+        "sha256": "9f40c17deef892fca478603b910e684c83c0453f32afe59dedeceb1fd7eb258b",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "LifePostResumePauseCleanupEvidence.java",
+        "bytes": 8171,
+        "sha256": "0dfea2b8030837efe60494566c6d7ca639eca3877447c0b4aee170587a7af4c5",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "LifePostResumePauseCancellation.java",
+        "bytes": 5367,
+        "sha256": "a3dd85d48adf5cdbbaa4921619c75887bc664902790d9e29fb2450adf7fa60c1",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "LifeAdvanceEvidence.java",
+        "bytes": 31448,
+        "sha256": "6846d526c5d74df34ab1841f3669f8233cd6b4bc0b1522dd7758f715c6f24d52",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "AdvanceObservationPort.java",
+        "bytes": 4863,
+        "sha256": "dbeb58bfb6b02fd40f4d6dc41beb1e14b47bc449e9a1753797da988ee9effd99",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "AdvancePlan.java",
+        "bytes": 8794,
+        "sha256": "83e03eb2d616f922ff3f555f431eabaf683eec0bf9c530620ae6e46861640e81",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "AdvancePolicy.java",
+        "bytes": 14991,
+        "sha256": "da23d6be8ff7e9f7195037c9f0e54580cf717e21e356da193eacd3067938b666",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "AdvanceClock.java",
+        "bytes": 39197,
+        "sha256": "35e3f0f8678d8dd1be5305b019e6f0b802146c825ccd08c711c51e60d738cab6",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "DriverJson.java",
+        "bytes": 11237,
+        "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "NativeEffectEvidence.java",
+        "bytes": 25459,
+        "sha256": "f1a0bd22c4f179e635554f8c7996ea2290f6a4a18fce738d4a9437a39ee6c490",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "FullJsonTree.java",
+        "bytes": 9196,
+        "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "DecimalTokenNode.java",
+        "bytes": 3400,
+        "sha256": "dcfaa1f41e5dba568e21d61103197827c26704e3e386da48077a8a159812b9df",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "OpportunityJson.java",
+        "bytes": 7208,
+        "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "ProposalLifecycle.java",
+        "bytes": 15603,
+        "sha256": "3c154565347db1d227e54ccc336dcadb255be23d6f5a238e4026f95645126603",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "LateOutcome.java",
+        "bytes": 15204,
+        "sha256": "99729d5d9521bec42d359e46781edcb602e5066a710c47976b8c94b60e780c99",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "SentinelObservation.java",
+        "bytes": 2939,
+        "sha256": "227eab66d692467eae2bb3d249039eb690bd2c46ec7fb6c866a3845841566c9b",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "NativeArchiveDataCodec.java",
+        "bytes": 19007,
+        "sha256": "ad56ad889946f0b7c0651c0bd36c0f9d6b5558a7e45aeb95f114e538940f3bb4",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "NativeWire.java",
+        "bytes": 18430,
+        "sha256": "0c8b499fcaf65e864def0ab4015ac3781ec6c33a70bbf7ee105f450510096e04",
+        "role": "Complete unchanged actual direct declaration/producer/consumer"
+      },
+      {
+        "name": "SOURCE-READY-NOEFFECT-A18-01.json",
+        "bytes": 25756,
+        "sha256": "01b0b470ee1b2a97f2ff9a8f063add2b42240219448da51b6f437ac83a0de7fd",
+        "role": "Complete final A18 source mapping and scope"
+      },
+      {
+        "name": "TEST-SOURCE-READY-A-NOEFFECT-01.json",
+        "bytes": 6227,
+        "sha256": "eebc3d377b18fbd5127b24baf533eaf177d8f1fe762af9086306392280c41568",
+        "role": "Complete owner38 Test Ready and explicit untested boundaries"
+      },
+      {
+        "name": "PostExitCleanupNoEffectDataTest.java",
+        "bytes": 22992,
+        "sha256": "2f3597966e6aaf9d4f4c14c3f6693679cce15e1f22900ebe47796e46f28fdd55",
+        "role": "Complete owner38 whole3 Test source; no model authorship"
+      },
+      {
+        "name": "SOURCE-ROLES-AND-EXCLUDED-LARGE-MATERIAL01.json",
+        "bytes": 3339,
+        "sha256": "b9ce702842b8ad24f44ef4a82884493d36c951bbb28b09bf158cff7d639a68df",
+        "role": "Complete source/evidence scope and excluded large-material disclosure"
+      },
+      {
+        "name": "ACTUAL-SMALL-RAW-PACKETS-FULL01.json",
+        "bytes": 4694,
+        "sha256": "65969d3a7ee4d7b5f3d85d06810de40525df734fe16d332777121ee412fe3239",
+        "role": "Complete existing small native originals as base64 with exact bytes/SHA"
+      },
+      {
+        "name": "POSTEXIT-ACTUAL-STATUS-AND-FRESH-NOEFFECT-INDEPENDENT01.json",
+        "bytes": 6215,
+        "sha256": "f1fb0ece4415626bd2c2ed543d096d0dac43c82f8679f16d4aa7d0f19ab9cd14",
+        "role": "Complete existing qualification/actual postexit observation, with its original temporal cut"
+      },
+      {
+        "name": "POSTEXIT-STATUS-BARRIER-INDEPENDENT01.json",
+        "bytes": 847,
+        "sha256": "97bb5614d242a47384a439cc18bf0d6b5df943e008b895f3d6981944a4ac5b27",
+        "role": "Complete existing qualification/actual postexit observation, with its original temporal cut"
+      },
+      {
+        "name": "C81-POSTEXIT-STATUS-BARRIER-CONDITIONAL-QUALIFICATION01.json",
+        "bytes": 19350,
+        "sha256": "d4727bdd2d7d071436c0ffe6e572bc30d705a23729a8444236f03529fec5923c",
+        "role": "Complete existing qualification/actual postexit observation, with its original temporal cut"
+      },
+      {
+        "name": "ACTUAL-STATUS-AND-AFTER-FRESH-BARRIER-OBSERVATIONS01.json",
+        "bytes": 6939,
+        "sha256": "22c77c280cacb30163524d9ab6f7fe9060262575926f98132cb6b39363cb5911",
+        "role": "Complete existing qualification/actual postexit observation, with its original temporal cut"
+      },
+      {
+        "name": "EXACT-FAILED-JAVA-RELEASED79.json",
+        "bytes": 1588,
+        "sha256": "d112ae78cf7c8496f646fba5ac6fb12b22fbce5bcb64455e4bb6be98316ccb3f",
+        "role": "Complete existing qualification/actual postexit observation, with its original temporal cut"
+      },
+      {
+        "name": "sentinel-status.original.json",
+        "bytes": 463,
+        "sha256": "175ac6fdac1876e8b23bfc5deca97b37124afb2c6d3af128121276fbb90ac408",
+        "role": "Complete existing actual small status/fresh read DATA and custody; no new observation"
+      },
+      {
+        "name": "STATUS-AND-FRESH-RESULT.json",
+        "bytes": 4539,
+        "sha256": "bdc7165f1097ea1b86ae411271d288cdf167704a7df77330dfd944f4c423af10",
+        "role": "Complete existing actual small status/fresh read DATA and custody; no new observation"
+      },
+      {
+        "name": "STATUS-DIAGNOSTIC-RESULT.json",
+        "bytes": 2904,
+        "sha256": "86c8135bc0a430291a96c1e8dd03fbe6ac4a234d8d9e0b56c33d552e60deea00",
+        "role": "Complete existing actual small status/fresh read DATA and custody; no new observation"
+      },
+      {
+        "name": "WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Complete actual direct role-specific caller/declaration"
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Complete actual direct role-specific caller/declaration"
+      },
+      {
+        "name": "ContinuityWriter.java",
+        "bytes": 126589,
+        "sha256": "5b23ade6e962079744aed574c9f3ef5cae4de912b3d9b228b6ae0801895fb217",
+        "role": "Complete actual direct role-specific caller/declaration"
+      },
+      {
+        "name": "ImmutableArtifactStore.java",
+        "bytes": 51679,
+        "sha256": "f3726e0e38a7137b1dc6fbf4c7093a49aa1b4454b65f07187dd30b0d46563ed2",
+        "role": "Complete actual direct role-specific caller/declaration"
+      },
+      {
+        "name": "LedgerFiles.java",
+        "bytes": 15173,
+        "sha256": "f231189a583013abfb8aac2ba0fbd3a05c338c3d7099206bf31177d583263748",
+        "role": "Complete actual direct role-specific caller/declaration"
+      },
+      {
+        "name": "IdentityBearingFileAttributes.java",
+        "bytes": 27387,
+        "sha256": "c2581fb1b43ceacac0694608c5b9a869b3ac2855052c04025fb1021020fadef1",
+        "role": "Complete actual direct role-specific caller/declaration"
+      }
+    ],
+    "source_message": {
+      "bytes": 2386658,
+      "sha256": "991d49f17c6e0a8dc9e1a72a840a936cfd8e80eee71052b3755f702f24f7e1a0"
+    },
+    "final_ready": {
+      "bytes": 25756,
+      "sha256": "01b0b470ee1b2a97f2ff9a8f063add2b42240219448da51b6f437ac83a0de7fd"
+    },
+    "every_request_complete_A18_and16_BASE": true,
+    "direct_declarations_are_role_scoped_not_whole_SDK_platform": true,
+    "large_semantic_manifest_DLL_body_read_or_inlined": false,
+    "unified_patch": "Exact pinned Ready reference only, all complete target Java bodies supplied instead of duplicate patch text",
+    "hint_level": "Actual observation, qualification premises, A-only design, implementation and owner38 test existed before POST. No independent diagnosis/implementation authorship."
+  },
+  "HTTP": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "http_status": 200,
+        "http_headers_ms": 163763.56650004163,
+        "first_nonempty_content_delta_ms": 163764.5715000108,
+        "total_ms": 214334.3430000823,
+        "finish_reason": "stop",
+        "sse_done": true,
+        "usage": {
+          "prompt_tokens": 508767,
+          "completion_tokens": 2611,
+          "total_tokens": 511378
+        },
+        "failure": null,
+        "candidate_complete": true,
+        "POST_BEGIN": "2026-11-13T16:00:38.383568+00:00",
+        "END": "2026-11-13T16:04:12.717931+00:00",
+        "json_syntax": {
+          "status": "VALID",
+          "top_level_type": "object",
+          "reason": "COMPLETE_STOP_JSON",
+          "error": null,
+          "offset_units": "Unicode code points",
+          "max_utf8_bytes": 1048576,
+          "semantic_review": "OWNER_REVIEW_REQUIRED"
+        },
+        "network": {
+          "proxy_mode": "direct",
+          "target_host": "192.168.1.11",
+          "proxy_handler": "disabled",
+          "redirects": "refused",
+          "actual_peer": "UNKNOWN"
+        },
+        "CONTENT_metadata_only": {
+          "bytes": 12477,
+          "sha256": "95d566f90da88510d7dc6325f7a10ead6a3d2755cfd771edf9b39bfb51f8ce7b"
+        },
+        "raw_SSE": {
+          "bytes": 298767,
+          "sha256": "a34bf11d7fcf595bb71525eaca1e54341f534059e9551cded85a5f885c6e582b"
+        },
+        "complete_stream_reconstruction_byte_exact": true
+      }
+    ],
+    "logical_tasks": 1,
+    "actual_POST_attempts": 1,
+    "transient_retries": 0,
+    "request": {
+      "bytes": 2452547,
+      "sha256": "688e1e7da327fb31def1e650809041929b4ddc5fb0352292846864a7a9735748",
+      "prepost_byte_exact": true,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "max_tokens": 3000,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      }
+    },
+    "retry_backoff_seconds": [],
+    "daily_check_events": [],
+    "cached_tokens": null,
+    "current_inflight": 0,
+    "service_queue_actual_peer": "NOT_HELD; no probe or TTFT inference",
+    "communication": "Actual BEGIN and terminal/cost/absolute content pointers sent before semantic review and publication."
+  },
+  "four_task_transport": {
+    "actual_logical_tasks": 4,
+    "actual_POST_attempts": 5,
+    "complete_stop_reviews": 3,
+    "whole_unused_length": 1,
+    "transient_retries": 1,
+    "actual_peak_HTTP": 4,
+    "peak4_total_seconds": 185.635132,
+    "first_peak4_interval_seconds": 179.909644,
+    "retry_peak4_interval_seconds": 5.725488,
+    "current_inflight": 0,
+    "reported_input_tokens": 1948587,
+    "reported_output_tokens": 8003,
+    "failed_D_attempt1_service_tokens": "NOT_HELD; reported token totals are lower bounds on service work/billing, not context configuration",
+    "sum_all_attempt_HTTP_ms": 829376.9389002118,
+    "preparation_backoff_not_inflight": true,
+    "queue_cache_capacity": "NOT_HELD; quick retry and successful514386-token prompt do not establish cache/context limit/concurrency slots",
+    "new_aggregate_whole_phase_limit": 20971520,
+    "all_old_actual_future_kept": true,
+    "fifth_task_or_new_semantic_retry": 0
+  },
+  "review": {
+    "classification": "SOURCE_SUMMARY_WITH_REAL_CALL_ORDER_AND_API_ERRORS_0_ACTIONABLE_FINDING",
+    "supported": [
+      "Recognizes the explicit new-state transition, retained original optionals, fixed proof/parent/child identities and separate mandatory Root qualification in broad outline.",
+      "Reports no actionable finding; no proposed code or test was adopted."
+    ],
+    "corrections_and_limits": [
+      "Authority actually calls ActionTransitions.validate before loadRecord, not the inverse order claimed at the start.",
+      "The answer falsely states both child4>parent and parent>child4. Actual Proof compares child4>originalParent1929 and current parent1935>child4; these are two different parent receipts.",
+      "APP Proof does not directly call native NativeFreshSnapshotPort.verifyAfterOriginal. It checks raw DATA; the actual Root domain callback performs the SDK verification. No APP-to-native reverse dependency was introduced.",
+      "The actual Session method is reconcilePostExitCleanupNoEffect; the Only suffix belongs to Prepared.reconcilePostExitCleanupNoEffectOnly. Several answer consumer labels conflate them.",
+      "state_material exact ref/lexical bytes retention, parsed Obj equality to raw packet state and Root SDK original checks are separate layers. The answer bytes-equal-to-DriverJson.object description is inaccurate.",
+      "Repeated guard lists do not prove full callback/first-failure/custody closure or actual same-lock idempotence. This source opinion grants no software/loader/live terminal/credit."
+    ],
+    "adoption": {
+      "new_model_findings": 0,
+      "code_hunks": 0,
+      "test_hunks": 0,
+      "Runtime_or_terminal_credit": false
+    }
+  },
+  "adoption": {
+    "new_model_findings": 0,
+    "code_hunks": 0,
+    "test_hunks": 0,
+    "Runtime_or_terminal_credit": false
+  },
+  "operator_boundary": {
+    "business_HTTP": 0,
+    "production_Test_writes": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "GET": 0,
+    "large_Driver_SEM_DLL_body_read": 0,
+    "service_probe": 0
+  },
+  "client_maintenance": "Actual2026-11-14 daily check1.19.5=registry1.19.5 succeeded without update; shared local lock/cache reused, separately from model retries.",
+  "resources": {
+    "new_whole_four_phase_limit": 20971520,
+    "pre_actual_REQUEST_full_streams_scripts_metadata_all_counted": true,
+    "common_once_allocated_to_A": true,
+    "old_actual_future_all_preserved": true
+  },
+  "next": "No repeat B length request, fifth topic or added software/actual-A gate. Owner qualification and any canonical child settlement require separate exact receipts."
+}
