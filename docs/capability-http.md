@@ -6200,3 +6200,14 @@ Owner137只减少单回调UI桥往返，Core仍逐城新鲜Inspect、含正粮�
 Owner138另捕canonical引用、保override顺序路径，批内工作bank逐未决观察前仍freshOwner，返回前freshLoad全字段Equal及上下文再核，UNKNOWN丢整批，无跨回调缓存。6新方法/既有66相关/全2014项2013pass1SDKskip、97Lua51/119包，118.794秒；此切点尚未Native或证明提速。尤其只测两个城市无法区分旧两次读与新首尾两次读，owner用第三个已资格自有城市验证2次、次调用再读2次，避免假性能见证。末读突变到旧ARM、异常/损坏/方法/人类/回合变化、写后读未知均0send。
 
 累计Civ6普通HTTP705逻辑/654完整流（含旧692strictJSON拒绝）/48length/3最终transport/735HTTP/30extra，新实际峰1；Nov14canonical1.19.5成功cache复用，OpenCode原生生成0。cached tokens、owner主动成本/净节省null；软件、旧Native无改善、后续冷装分别分级，不因HTTP完好替候选背书。
+
+
+## 2026-11-14：706–709、真实负性能与有界观测工具
+
+[706707及138Native](https://github.com/XenoAmess/civ6_dev/blob/75b03a50d4bee689d1a37bb7d2e24891a50f4381/docs/research/baiqi-p6-native138-cold333-latency-open-2026-11-14.json)：706完整16557tokens/11848.9049ms却漏实际55/67构建版本门；建议CLI实际exit1、requires67、0输出目录/安装。Owner没提供NewContext及完整聚合输入，缺这些不能归咎候选。707完整28055tokens/9125.2661ms未给保留CorePrepare和最终Player后仍误发的反例，0代码采用。138实机102自然批204克隆，UI366批4026行READY，但818根Adminp95约29ms仍超20ms，不能以减少账本读取宣称性能通过。
+
+[708与139软件](https://github.com/XenoAmess/civ6_dev/blob/8e0bee4e617fb90b65350775dbe64f1fd3aa3def/docs/research/baiqi-p6-source139-food-demand708-2026-11-14.json)：完整19164tokens/12064.5755ms，raw救粮复制旧City而无其声称需求门，正粮两城实测4完整busy读/1无用flag；raw偏好nil>=0在待决flag观察前抛错，实测0应1。救粮0代码采用，偏好只采方向经Owner重写；回执先观察、负粮重读、最终权限门保留。9新方法/全2022pass1SDKskip，软件不是Native证明。
+
+[139Native与709工具](https://github.com/XenoAmess/civ6_dev/blob/f24ed689c2e38d227e86ca672a029a318b9ba74a/docs/research/baiqi-p6-native139-observed709-2026-11-14.json)：已采九域同333全等，1254自然根0drop/invalid，Adminp95约22ms仍高于20ms；不同窗口/进程不得宣称严格8ms代码收益或全脚本B_turn/B_delta通过。尝试包装Native忙碌读取失败，实证原函数未改、0调用，清理未启用全局；不把失败计数器当成功证据。709完整23366tokens/17345.6302ms，原diff apply-check exit128；只采版本/产物命名方向，Owner补有界4096限制、Lua51/53编译及67元数据兼容。24实际方法通过，含真实变换Core捕canonical、override回退和根去重；首次Owner错误module入口ImportError在未跑8项前失败，修正discovery后8过。私有119文件/97Lua/33入口包只准备未安装；协议marker67与实际产品139需分开。
+
+四任务均一次HTTP、stop/DONE/合法JSON，新实际峰1；through709累计709逻辑/658完整流（含旧692严格JSON拒绝）/48length/3最终transport/739HTTP/30extra。Nov14canonical每日检查1.19.5/latest1.19.5成功缓存复用，OpenCode原生生成0，cachedtokens/Owner主动成本/净节省null。710为另一个真实未完成任务，不混入本计数。所有游戏步骤Steam离线，无发布。
