@@ -6127,3 +6127,8 @@ One complete stop293966in1575out/48.4304604sHTTP, TTFT38.2237345s, peak1/current
 ## 2026-11-13: Source80 finite raw-cache entry experiment review
 
 Complete stop129240in1471out/43.9949066sHTTP, TTFT31.5447403s. Full17sources, exact645959B pre/post; paired realpeak2/37.821186soverlap. Limiteddesign/LRUtest agreement, no new blocker or hunk adopted. Correct wrong line coordinates/current-loaded/staticfinal claims; actualnested adoption and totalheap/frequency unheld, not review-green/software/live/ROI. [Exact source/test/hint/cost](evidence/2026-11-13-ck3-source80-raw-cache-entry-review.md).
+
+
+## 2026-11-13: Identity/lease distinct-fresh-check local review
+
+Complete stop129538in546out/37.8213736sHTTP, TTFT33.1935653s; full11inputs, exact541890B pre/post. Pairedpeak2/37.821186soverlap.0reuse returned, fresh/query roles preserved; flattened root/read call-edge corrected. Not exhaustive technicalNO or performance result;0code/Test/JVM/live/newprofile, no secondPOST. [Inputs/limits/cost](evidence/2026-11-13-ck3-identity-lease-local-review.md).

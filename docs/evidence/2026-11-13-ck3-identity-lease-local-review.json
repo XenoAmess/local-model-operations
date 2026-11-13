@@ -1,0 +1,193 @@
+{
+  "schema": "local-model-operations.identity-lease-local-review/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "scope": "One independent current Identity/lease review, at most one safe pure local reuse or zero; prepared with Source80 before simultaneous dispatch.",
+  "input": {
+    "files": [
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 137327,
+        "sha256": "86f7f61f200d8eb8631aeadaedb760346912fceded2d2e119af20da18b544c5e",
+        "role": "Actual unchanged caller token/readBytes to Store, not Source80 experimental class."
+      },
+      {
+        "name": "ImmutableArtifactStore.java",
+        "bytes": 50924,
+        "sha256": "bf6eda7ccc4d90ae2ea993ea5af34ff70f8990fd3c02eac1dcc9ddcee96e036a",
+        "role": "Complete current Store fresh/hash/retention/poison contracts; no change."
+      },
+      {
+        "name": "LedgerFiles.java",
+        "bytes": 15173,
+        "sha256": "f231189a583013abfb8aac2ba0fbd3a05c338c3d7099206bf31177d583263748",
+        "role": "Complete current per-document/leased fresh metadata and content source."
+      },
+      {
+        "name": "IdentityBearingFileAttributes.java",
+        "bytes": 27387,
+        "sha256": "c2581fb1b43ceacac0694608c5b9a869b3ac2855052c04025fb1021020fadef1",
+        "role": "Complete current Identity and nested ReadOnlyLease; flags/path/root/fresh sequence unchanged."
+      },
+      {
+        "name": "WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Actual writer/Pins/Head/value contracts."
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Actual Session and callback contract."
+      },
+      {
+        "name": "ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "role": "Actual immutable reference type and identity semantics."
+      },
+      {
+        "name": "IdentityMemory335Test.java",
+        "bytes": 6366,
+        "sha256": "d92fe5f7a952a2d2263b7b9567be8c8b5475834b164884022b713096b3ff4181",
+        "role": "Complete independent three-buffer Win32 oracle Test for current private88B memory implementation; no new run."
+      },
+      {
+        "name": "ReadLeaseContentRetirement312Test.java",
+        "bytes": 3591,
+        "sha256": "1ae07955d1220828a05c3115a8362f613cfcb8c5d2dae6d64f5ca13b855b49c4",
+        "role": "Complete existing lease content retirement/freshmetadata/close regression; no current rerun."
+      },
+      {
+        "name": "LedgerLeasedDocumentRetention312Test.java",
+        "bytes": 2614,
+        "sha256": "28e52ced539ea095571f5a7199dbf125abcf52abca35b481d71129abf85e2f83",
+        "role": "Complete existing actual LeasedDocument retention/Pin/close regression; no current rerun."
+      },
+      {
+        "name": "ATTRIBUTION.json",
+        "bytes": 245919,
+        "sha256": "f7e3abc06a579159d42e6835b6c4a839a45968a7a155439710e961b3c4639920",
+        "role": "Complete already-closed bounded JFR attribution only, retained6.5717s tail/business46 Exec47 Native45; no new JFR/JVM."
+      }
+    ],
+    "file_count": 11,
+    "source_message": {
+      "bytes": 523390,
+      "sha256": "61460002902bca9fee79d6a1fddc7185d71aee267838fbbea036323506429a95"
+    },
+    "original_file_bytes": 518361,
+    "complete_source": "Full current Archive/Store/Ledger/Identity and contracts, complete335/retirement312/LeasedDocument312 sources, complete existing JFR attribution245919.",
+    "source_hint": "Owner/helper no-removable-system-query and broad creation-memory possibility pre-supplied, exact optimization not authored by model. Source80 experimental class is not used in this task."
+  },
+  "contract": "Keep every fresh/root/path/lease/flags/hash/owner/head/opaque/first-failure/close and callback order. No merged18/0/1, different file stages, globalcache, FileStore208 or new platform.0candidate allowed with concrete limits.",
+  "HTTP": {
+    "POST_BEGIN": "2026-11-13T06:24:45.529703+00:00",
+    "END": "2026-11-13T06:25:23.351131+00:00",
+    "status": 200,
+    "finish": "stop",
+    "DONE": true,
+    "JSON_syntax": "VALID",
+    "headers_ms": 33192.004399956204,
+    "TTFT_content_ms": 33193.565299967304,
+    "total_ms": 37821.37360004708,
+    "usage": {
+      "prompt_tokens": 129538,
+      "completion_tokens": 546,
+      "total_tokens": 130084
+    },
+    "cached_tokens": null,
+    "attempts": 1,
+    "retries": 0,
+    "length": 0,
+    "transport_errors": 0,
+    "request": {
+      "bytes": 541890,
+      "sha256": "96fc7eadbf9193b22c7ba4fbed7026f5259db10eb7bcc766f05553ed49174b6a",
+      "prepost_compact_byte_exact": true,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "max_tokens": 3000,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "network": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      }
+    },
+    "response": {
+      "bytes": 2530,
+      "sha256": "892768d4057f9214fae3a7f1f9ac72b31a292a0f465907e385dce8bd2f2f057b"
+    },
+    "current_inflight": 0,
+    "communication": "Actual BEGIN/END and fullcontent pointer thin-reported before source review/publication. Both complete requests frozen before either dispatch."
+  },
+  "pair_HTTP": {
+    "actual_peak_HTTP": 2,
+    "peak_overlap_seconds": 37.821186,
+    "current_inflight": 0,
+    "input_tokens": 258778,
+    "output_tokens": 2017,
+    "sum_HTTP_ms": 81816.28020002972,
+    "identity_started_before_source80_microseconds": 242,
+    "preparation_not_counted_as_inflight": true,
+    "retries": 0,
+    "third_task": 0,
+    "limit": "Only these two research calls; no claim about global provider/business running or wait queues."
+  },
+  "review": {
+    "classification": "ZERO_LOCAL_REUSE_RETURNED_NONREMOVABLE_FRESH_CHECK_ROLES_CONSISTENT",
+    "supported": "Held vs fresh path, root vs payload/metadata, NIO/flags/GENERIC_READ open, native query kinds18/0/1 and close/failed lease serve different roles; no system query deletion/cross-call cache proposed.",
+    "exact_chain_correction": "qualifyLeasePath179 directly calls windowsStamp(handle,true) and validated; it does not then call Identity.read. Identity.read is the independent checkRoot->directoryStamp path. Preserve branch distinction, not the response flattened call-edge string.",
+    "zero_candidate_limit": "Model returns0 reuse candidates. Helper already knew a possible private creation-memory getter reuse, which would not save Win32 queries and has no measured ROI. This zero is not a technical impossibility/exhaustive proof against pure micro reuse or a capability ceiling.",
+    "hint_fairness": "Source index pre-supplied general owner knowledge of no removable query and a possible creation-memory getter micro-point; no independent discovery credit assigned to repeating these boundaries.",
+    "evidence": "JFR only6.5717s retained tail/business46 Exec47 Native45, no CPU ratio or complete ACTION coverage. Zero FileIO threshold events is not noI/O, DPP0 samples is not a cachehit. No model timing/Runtime grant.",
+    "test_scope": "Complete independent335 three-buffer oracle and retirement/LeasedDocument312 Test sources were provided as unrun regression material. No test executed or changed.",
+    "new_findings": 0,
+    "code_hunks": 0,
+    "test_edits": 0,
+    "operator_JVM": 0,
+    "Runtime_or_ROI": false,
+    "no_repeat": "No second Identity task, new query/profile/SDK audit or FileStore208 cache."
+  },
+  "adoption": {
+    "new_findings": 0,
+    "code_hunks": 0,
+    "tests": 0,
+    "bounded_fresh_check_agreement": true,
+    "software_or_Runtime_or_ROI": false
+  },
+  "operator_boundary": {
+    "model_HTTP": 1,
+    "business_HTTP": 0,
+    "production_or_Test_writes": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "GET": 0,
+    "new_JFR": 0,
+    "CAS_scan": 0
+  },
+  "resource": {
+    "whole_private_phase_forecast_bytes": 3145728,
+    "pair_whole_forecast_bytes": 6291456,
+    "allocation": "Root files/pre+actualREQUEST/SSE/content/metadata included; common preparation/record helpers and pairmanifest counted only in Source80 phase, not doubled."
+  },
+  "next": "No third paired task or second review. All existing checks retained; independently proposed owner micro-point needs its own source/qualification, no benefit claim."
+}
