@@ -1623,3 +1623,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-13：700与独立136游戏分支
 
 700是普通HTTP，71992tokens完整但只采领域解释，原生12上限／旧目标／调用边由Owner纠正。复用Nov13canonicalOpenCode1.19.5成功缓存，原生生成累计0；实际泛滥平原开工和私有性能配对准备分账。[纠错固定反链](evidence/2026-11-13-civ6-model700-domain-correction.json)。累计700／649完整流48length3transport730HTTP30extra，未知成本null。
+
+
+## 2026-11-14：Civ6 701入口维护分账
+
+同机BF-202609141645首次canonical检查OpenCode1.19.5／registry1.19.5，无升级，随后普通HTTP适配器复用当日成功cache。[实际701证据](https://github.com/XenoAmess/civ6_dev/blob/a9312a0f9702d5229e60062ab3a4c663c26354a8/docs/research/baiqi-p6-main332-hint701-2026-11-14.json)属于三消息HTTP，0新OpenCode原生生成任务／工具会话／原生能力结论。后者不因维护成功或ownerLua51／游戏验证增加；未知成本保null。

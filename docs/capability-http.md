@@ -6169,3 +6169,12 @@ Complete stop129538in546out/37.8213736sHTTP, TTFT33.1935653s; full11inputs, exac
 ### 2026-11-14 C81 A-only NoEffect完整四审与有限输出/瞬时重试
 
 四logical题76/77/81/78完整Java，每题全18candidate+16BASE，原始小包/资格与大SEM未读范围明确。实际5POST尝试：3完整stop回复，B length整份未读UNUSED不续，D首无headers180sTimeout保全后既定退避11.8625628s重试成功；不把4题当4可用。真peak4两窗合185.635132秒，退避不算在途，当前0；已报告1948587输入/8003输出tokens含length，首timeout用量未知，快retry不推cache/ctx。0可落实finding/0代码/Test：A正向observation非发现，C顺序/双parent/APP调用/方法归属纠错，D接口非许可/锁内重验期限/已存在negative纠错。每日Nov14检查已实际成功。源码资格、owner首编/Test、真实A结算/ACK/NoDispatch/credit分列。见[raw](evidence/2026-11-14-ck3-noeffect-rawproof-review.md)、[length](evidence/2026-11-14-ck3-noeffect-state-codec-length.md)、[archive](evidence/2026-11-14-ck3-noeffect-archive-replay-review.md)、[issuer](evidence/2026-11-14-ck3-noeffect-root-issuer-review.md)。
+
+
+## 2026-11-14：Civ6 701有限只读探针与实际空推荐
+
+[精确业务证据](https://github.com/XenoAmess/civ6_dev/blob/a9312a0f9702d5229e60062ab3a4c663c26354a8/docs/research/baiqi-p6-main332-hint701-2026-11-14.json)。一真实HTTP候选14025+734=14759tokens／6936.6102ms，TTFT2006.6744ms，单attempt完整stop/DONE／严格JSON。整稿0代码或结论采用：goto／label在实际Lua51独立compile失败，使用TestWorld示例而无实际输出，声称pcall保护但没有pcall；把rank<1混进总invalid导致合法0起始rank掩盖索引统计。原代码0Native。owner重写只读诊断，8个Lua51方法首过，随后真实游戏读得完整空table；这里只授返回域，不授全地图无合法点、硬最大12、实际消费路径或性能。测试/原生/业务与模型采用分列。
+
+通用经验：完整JSON或自述“安全”不能代替目标Lua版本语法、实际调用者及异常路径；rank质量、条目形状、索引合法性和重复独立统计。有限遍历遇上限记PARTIAL、nil/异常记UNKNOWN，不能变成complete empty。循环cap只限制原生返回后的检查，不是阻塞原生调用超时。已供测试替身不能成为实际probe入口。读取建议列表0不证明消费者实际调用过该reader或全域合法性。
+
+Nov14同机器BF-202609141645、同用户canonical维护1.19.5／registry1.19.5，无升级；适配器随后复用成功cache。累计Civ6普通HTTP701逻辑／650完整流（含旧692严格JSON拒绝）／48length／3最终transport／731HTTP／30extra，新实际峰1。OpenCode原生生成0；cached tokens、owner主动工时和净节省null。维护结果不授原生生成能力，未为配额重开旧演示。
