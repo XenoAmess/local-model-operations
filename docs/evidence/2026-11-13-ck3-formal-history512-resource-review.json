@@ -1,0 +1,353 @@
+{
+  "schema": "local-model-operations.advance-resource-three-source-review/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "input": {
+    "complete_java_files": 22,
+    "complete_other_files": 5,
+    "full_files": [
+      {
+        "name": "SOURCE-ROLES01.json",
+        "bytes": 2120,
+        "sha256": "f4445e96faf0c44c77b4c6d86f7f9bed9dbf891503c2c2587eb02bc6cc2df334",
+        "role": "Complete shared authority/source contract"
+      },
+      {
+        "name": "ActionPorts.java",
+        "bytes": 22632,
+        "sha256": "07353b1a774696b014e17257c16a4e0289b747edeedb30ecdffb571618ef02d1",
+        "role": "Complete FORMAL BASE; preserve existing formal-only differences"
+      },
+      {
+        "name": "ActionPorts.java",
+        "bytes": 23186,
+        "sha256": "8f442da38de05a11daa15c4d8eb700f7c609a7e82d4d8de5ea94c171f2b676a7",
+        "role": "Complete isolated FORMAL resource-only candidate, not actual source"
+      },
+      {
+        "name": "ImmutableArtifactStore.java",
+        "bytes": 52623,
+        "sha256": "6c2da074ea29c5cee86319cde5325a5a7b8446f0d7d59b1ac846f4756907efc4",
+        "role": "Complete FORMAL BASE; preserve existing formal-only differences"
+      },
+      {
+        "name": "ImmutableArtifactStore.java",
+        "bytes": 53369,
+        "sha256": "4590b8ec73217a785a4965c585c5187d9fd16e08b2bd429074a050d11a59bf89",
+        "role": "Complete isolated FORMAL resource-only candidate, not actual source"
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 142460,
+        "sha256": "a2f4c6711deb91f8f7fdc9fff8bd02d938b254ad05dcf29057dd6a7abee6d99f",
+        "role": "Complete FORMAL BASE; preserve existing formal-only differences"
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 143318,
+        "sha256": "e1f800b00d86081a9233d5d0db380130f1ac6455e87a0a35d520b27f7766fa13",
+        "role": "Complete isolated FORMAL resource-only candidate, not actual source"
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 422915,
+        "sha256": "78fff9e22695b88340cf6ef9dac1581bd9bdef8ae0251fc7895bbb785e201ee7",
+        "role": "Complete FORMAL BASE; preserve existing formal-only differences"
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 422797,
+        "sha256": "30599bc8697b957cbde2aaa8aa38cafe8dafc7fd783c5c97966c310102c58505",
+        "role": "Complete isolated FORMAL resource-only candidate, not actual source"
+      },
+      {
+        "name": "SameGameHistoricalRecoveryBudgetDataTest.java",
+        "bytes": 11507,
+        "sha256": "439ad1f02bdce98d3720e3a1eac825e81bf219840e4d527f2049b14fc6436f5c",
+        "role": "Complete portable tiny-CAS Test; independently existing before POST"
+      },
+      {
+        "name": "WriterFixture.java",
+        "bytes": 3628,
+        "sha256": "2ce06ea783245b4cfdc12fbc6106ca7be3ae1bed3f991d97cdf3ff36ff50e87c",
+        "role": "Complete original formal/qualified identical existing test helper"
+      },
+      {
+        "name": "StorageWriteGuardTestSupport.java",
+        "bytes": 16482,
+        "sha256": "3bd4e4237c92cdff9113c3031fa999ae87c2c60eb0171ef6b0567bfaf843497f",
+        "role": "Complete original formal/qualified identical existing test helper"
+      },
+      {
+        "name": "WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Complete unchanged direct storage/session/custody declaration"
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Complete unchanged direct storage/session/custody declaration"
+      },
+      {
+        "name": "StorageWriteGuard.java",
+        "bytes": 7252,
+        "sha256": "beac715b9e08e4b712c69be2154142c3d8a95c141b0829d90dc0b744816b36ab",
+        "role": "Complete unchanged direct storage/session/custody declaration"
+      },
+      {
+        "name": "ContinuityWriter.java",
+        "bytes": 126589,
+        "sha256": "5b23ade6e962079744aed574c9f3ef5cae4de912b3d9b228b6ae0801895fb217",
+        "role": "Complete unchanged direct storage/session/custody declaration"
+      },
+      {
+        "name": "LedgerFiles.java",
+        "bytes": 15173,
+        "sha256": "f231189a583013abfb8aac2ba0fbd3a05c338c3d7099206bf31177d583263748",
+        "role": "Complete unchanged direct storage/session/custody declaration"
+      },
+      {
+        "name": "IdentityBearingFileAttributes.java",
+        "bytes": 27387,
+        "sha256": "c2581fb1b43ceacac0694608c5b9a869b3ac2855052c04025fb1021020fadef1",
+        "role": "Complete unchanged direct storage/session/custody declaration"
+      },
+      {
+        "name": "ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "role": "Complete unchanged direct storage/session/custody declaration"
+      },
+      {
+        "name": "StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Complete unchanged direct storage/session/custody declaration"
+      },
+      {
+        "name": "ContinuityJson.java",
+        "bytes": 10085,
+        "sha256": "7b5e31679b8be7d7ebfe212cf26180323cb10a9614a8ee8d7e07dc2a662d748d",
+        "role": "Complete unchanged direct storage/session/custody declaration"
+      },
+      {
+        "name": "ContinuityState.java",
+        "bytes": 7614,
+        "sha256": "a506aec4e6ea48d199bce0c7037e1d32b1864b14f2af82c7807e243ff3f8d6a7",
+        "role": "Complete unchanged direct storage/session/custody declaration"
+      },
+      {
+        "name": "RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Complete strict immutable byte material"
+      },
+      {
+        "name": "formal-resource-only03.patch",
+        "bytes": 6241,
+        "sha256": "d535f72727cfdb3ae739dfa02e7db7e80d3e3bac7846949a93063b60968cb526",
+        "role": "Complete resource-only formal diff"
+      },
+      {
+        "name": "CHANGE-NOTE03.txt",
+        "bytes": 1666,
+        "sha256": "8560b840b7fae2a9461e83e0a3613b85c595173dcf9cf1ef21a2013c85946152",
+        "role": "Complete owner change explanation, not an oracle"
+      },
+      {
+        "name": "local-service.pom.xml",
+        "bytes": 8622,
+        "sha256": "5e8a0fd9d68b9055eb203d0b8e594bacbe076f7399fdc6c5748c758ec99b5c08",
+        "role": "Complete existing module resource/Test contract"
+      },
+      {
+        "name": "FORMAL-RESOURCE-UNIT-REVIEW04.json",
+        "bytes": 12512,
+        "sha256": "6b85981a4a7841c030f2eb459ef272e84b34589cbc787d49ab9cc69eecc4c554",
+        "role": "Complete review04 pin correction and independent formal scope"
+      }
+    ],
+    "source_message": {
+      "bytes": 1601454,
+      "sha256": "edd5041cdd4328be96c690eca9572eb809af725044cfdf730a80f8b368b5da16"
+    },
+    "hint_level": "Root/Java supplied existing candidate design/production and owner tests/independent BASE. This is source review, not independent implementation or discovery.",
+    "full_current_source_UTF8_and_EOL_inlined": true
+  },
+  "HTTP": {
+    "POST_BEGIN": "2026-11-13T14:01:03.376724+00:00",
+    "END": "2026-11-13T14:02:44.269434+00:00",
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "headers_ms": 93324.72710008733,
+    "TTFT_content_ms": 93325.74369991198,
+    "total_ms": 100892.61629991233,
+    "usage": {
+      "prompt_tokens": 327678,
+      "completion_tokens": 802,
+      "total_tokens": 328480
+    },
+    "cached_tokens": null,
+    "attempts": 1,
+    "retries": 0,
+    "length": 0,
+    "request": {
+      "bytes": 1637250,
+      "sha256": "2c521f61995bb6011535b03c1ee8853530b66ef2b22aca873ef70cf6c748c0c5",
+      "prepost_byte_exact": true,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "max_tokens": 3000,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "network": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      }
+    },
+    "response": {
+      "bytes": 2935,
+      "sha256": "ad106ba9540eed8bcd5c76bf65991dd63a28c75832816aa8caff8708758a87d1"
+    },
+    "raw_SSE": {
+      "bytes": 94598,
+      "sha256": "7756892eae75529d0a62b5c0b07f46671c79dd2bfa97ae7f629f407c014b21ab"
+    },
+    "full_stream_reconstruction_byte_exact": true,
+    "current_inflight": 0,
+    "status_communication": "Real BEGIN and final END/cost/absolute content pointers sent before detailed source audit/publication."
+  },
+  "three_HTTP": {
+    "actual_peak_HTTP": 3,
+    "three_way_overlap_seconds": 99.980199,
+    "current_inflight": 0,
+    "retries": 0,
+    "input_tokens": 701247,
+    "output_tokens": 2604,
+    "sum_HTTP_ms": 303637.5215998851,
+    "source_preparation_not_inflight": true,
+    "service_queue_or_capacity": "NOT_HELD; no probe and no inference from TTFT",
+    "new_independent_private_phases_aggregate_limit": 8388608,
+    "old_all_actual_and_reserves_kept": true,
+    "fourth_task": 0
+  },
+  "review": {
+    "classification": "LIMITED_FORMAL_RESOURCE_PROJECTION_AGREEMENT_WITH_API_LABEL_CORRECTIONS_0_NEW_FINDING",
+    "supported": [
+      "Complete formal BASE plus four-TU resource-only patch mechanically reconstruct each complete formal candidate after LF normalization. Existing formal-only differences are retained; no actual primitivePause or Life cleanup protocol is projected into formal Journal.",
+      "Intentional public interface default256 and concrete fixed512 routes, original general256 bounds, common fresh/identity/hash/fallback/nested-poison/close behavior and portable tiny component Test are materially as described."
+    ],
+    "corrections_and_limits": [
+      "The answer no-new-APIs sentence is false if read as no signature additions: the change adds an interface default, a concrete override and private/package methods. It is not body-only or proof of HCR ability. No newly invented API by the model is a separate, narrower statement.",
+      "The default belongs to ActionPorts.OutcomeArchive; NativeOutcomeArchive supplies the concrete override. Calling the interface method a NativeOutcomeArchive default is an inaccurate owner/type label.",
+      "The Test Diagnostics explicitly sets INFO and installs a handler, asserting diagnostic presence. A hypothetical disabled logger is not a demonstrated defect or new mandatory case.",
+      "The component Test and source analysis do not exercise Journal full-history/custody/prefix-hit, formal whole-platform behavior, live adoption or wall/IO gain. Fixed512 retention/named664 counters are not total heap, native-handle or allocation bounds.",
+      "Formal projection and portable Test predate POST; zero new model code/Test or discovery credit."
+    ],
+    "mechanical_formal_patch_audit": [
+      {
+        "name": "ActionPorts.java",
+        "hunks": 1,
+        "complete_patch_apply_equals_candidate_LF": true,
+        "BASE": {
+          "bytes": 22632,
+          "sha256": "07353b1a774696b014e17257c16a4e0289b747edeedb30ecdffb571618ef02d1"
+        },
+        "candidate": {
+          "bytes": 23186,
+          "sha256": "8f442da38de05a11daa15c4d8eb700f7c609a7e82d4d8de5ea94c171f2b676a7"
+        }
+      },
+      {
+        "name": "ImmutableArtifactStore.java",
+        "hunks": 1,
+        "complete_patch_apply_equals_candidate_LF": true,
+        "BASE": {
+          "bytes": 52623,
+          "sha256": "6c2da074ea29c5cee86319cde5325a5a7b8446f0d7d59b1ac846f4756907efc4"
+        },
+        "candidate": {
+          "bytes": 53369,
+          "sha256": "4590b8ec73217a785a4965c585c5187d9fd16e08b2bd429074a050d11a59bf89"
+        }
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "hunks": 1,
+        "complete_patch_apply_equals_candidate_LF": true,
+        "BASE": {
+          "bytes": 142460,
+          "sha256": "a2f4c6711deb91f8f7fdc9fff8bd02d938b254ad05dcf29057dd6a7abee6d99f"
+        },
+        "candidate": {
+          "bytes": 143318,
+          "sha256": "e1f800b00d86081a9233d5d0db380130f1ac6455e87a0a35d520b27f7766fa13"
+        }
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "hunks": 1,
+        "complete_patch_apply_equals_candidate_LF": true,
+        "BASE": {
+          "bytes": 422915,
+          "sha256": "78fff9e22695b88340cf6ef9dac1581bd9bdef8ae0251fc7895bbb785e201ee7"
+        },
+        "candidate": {
+          "bytes": 422797,
+          "sha256": "30599bc8697b957cbde2aaa8aa38cafe8dafc7fd783c5c97966c310102c58505"
+        }
+      }
+    ],
+    "adoption": {
+      "new_model_findings": 0,
+      "source_hunks": 0,
+      "test_hunks": 0,
+      "limited_projection_agreement": true,
+      "Runtime_or_ROI": false
+    }
+  },
+  "adoption": {
+    "new_model_findings": 0,
+    "source_hunks": 0,
+    "test_hunks": 0,
+    "limited_projection_agreement": true,
+    "Runtime_or_ROI": false
+  },
+  "operator_boundary": {
+    "model_HTTP": 1,
+    "business_HTTP": 0,
+    "production_Test_writes": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "GET": 0,
+    "large_Driver_SEM_request_read": 0,
+    "service_probe": 0
+  },
+  "resource": {
+    "new_aggregate_limit": 8388608,
+    "pre_actual_REQUEST_full_streams_scripts_metadata_counted": true,
+    "common_helpers_allocated_once": true,
+    "old_actual_reserves_kept": true
+  },
+  "next": "No repeated review or new software/Runtime gate from these opinions. Independent owner qualification and recovery keep their exact separate receipts."
+}

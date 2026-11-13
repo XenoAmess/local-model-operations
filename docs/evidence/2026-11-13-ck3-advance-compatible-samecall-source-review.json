@@ -1,0 +1,434 @@
+{
+  "schema": "local-model-operations.advance-resource-three-source-review/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "input": {
+    "complete_java_files": 42,
+    "complete_other_files": 3,
+    "full_files": [
+      {
+        "name": "SOURCE-ROLES01.json",
+        "bytes": 2120,
+        "sha256": "f4445e96faf0c44c77b4c6d86f7f9bed9dbf891503c2c2587eb02bc6cc2df334",
+        "role": "Complete shared authority/source contract"
+      },
+      {
+        "name": "AdvanceResult.java",
+        "bytes": 25635,
+        "sha256": "80734d781aa2115aea1a61529269448437a44f91e3f985ea4d067ed81f05e525",
+        "role": "Complete frozen ACTUAL BASE for exact comparison"
+      },
+      {
+        "name": "AdvanceResult.java",
+        "bytes": 26078,
+        "sha256": "519c2c5dacde9a48c40966a4159f23b2c96bc57ccad93a283701fde95aecb0fb",
+        "role": "Complete isolated two-TU same-call candidate; not current adoption"
+      },
+      {
+        "name": "AdvanceCompletedRead.java",
+        "bytes": 3914,
+        "sha256": "12a5bcadb4146f35fa9e3ade5a76e88190046d181dea8f05ee7775f9c4e56dd8",
+        "role": "Complete frozen ACTUAL BASE for exact comparison"
+      },
+      {
+        "name": "AdvanceCompletedRead.java",
+        "bytes": 3875,
+        "sha256": "46efecc88b4c41865092c2873f5db1988b4bf8ce1b4ff6c2eba8b5d0210083cc",
+        "role": "Complete isolated two-TU same-call candidate; not current adoption"
+      },
+      {
+        "name": "ActionCommand.java",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "ActionCodec.java",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "ActionReceipt.java",
+        "bytes": 5260,
+        "sha256": "03db0d0edd0facf9fcabb24897a870c4eac11f13b67808cebef583b06c6a63d4",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "ActionState.java",
+        "bytes": 14316,
+        "sha256": "8314f584b52894527378071b113be4a5d3916581c04ca862d9530679e3cafd8c",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "ActionEffects.java",
+        "bytes": 45736,
+        "sha256": "a6458085d22674ed3070e941160adc27e2190ac5fa343116f6f318b78e212dbc",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "ActionPorts.java",
+        "bytes": 23186,
+        "sha256": "8f442da38de05a11daa15c4d8eb700f7c609a7e82d4d8de5ea94c171f2b676a7",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "NativeActionPort.java",
+        "bytes": 8817,
+        "sha256": "57fa4858639ec594dded7dcc3a165fa17ca15bdb614a2b0200dc436bc28b45d4",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "NativeRequestChronology.java",
+        "bytes": 14185,
+        "sha256": "ec05a0cea8abcf21bc7a6bc26c47c1baaa1dbe45e0e4f878c61616cb549f3c92",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "GuardEvidence.java",
+        "bytes": 6176,
+        "sha256": "a26fcda93c132568c925090f4717fe1023be4534ce94c74afa7303b4d2a47247",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "CommandOrigin.java",
+        "bytes": 5057,
+        "sha256": "3036eb8836c7c4cd76e188d44e1ae664896833a650577d2b0c5aecd6f367ce82",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "PlanningReadReceipt.java",
+        "bytes": 6590,
+        "sha256": "cb78eab706c7497a48a7db8f534c892d8f1fe6790fd0fc730750035dea5efd12",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "PlanningReadRequest.java",
+        "bytes": 3568,
+        "sha256": "66c1a78677fc47c6398fb064d94112448b46c3410f5c549a132bcedd3770137a",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "PhysicalStatusIdentity.java",
+        "bytes": 4112,
+        "sha256": "ed93358d81a387771be86249a5ec183a9fba9da02f88062e26329f9abaaa2699",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "PlanningReadPort.java",
+        "bytes": 3628,
+        "sha256": "35f5d12a1304d36833c24c829f75969c13bed1334371c7306fad703d4995df24",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "PlanningReadResult.java",
+        "bytes": 2058,
+        "sha256": "d4ec175a46b5dd38b276b76335cf3b6fc3deaba2dde8cf464c8437971ea9d4fc",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "ReadContract.java",
+        "bytes": 28138,
+        "sha256": "293b06cba88a8eda29c73b48f599583dc63234e9ee8f7cb957a1202b5d6a76e8",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "CompositeActionPort.java",
+        "bytes": 3034,
+        "sha256": "5603574b7d0f4a0d65d3acfeae48a8fbb346eeec1210c928f9a8c826d9b35eea",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "DriverJson.java",
+        "bytes": 11237,
+        "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "ClockStatusRead.java",
+        "bytes": 18063,
+        "sha256": "f6d3be5a0eb7adba055c06dbbf5d548dbf2b38ce4d02077e1bcf25f6ab3d255b",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "AdvancePlan.java",
+        "bytes": 8794,
+        "sha256": "83e03eb2d616f922ff3f555f431eabaf683eec0bf9c530620ae6e46861640e81",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "AdvanceClock.java",
+        "bytes": 39197,
+        "sha256": "35e3f0f8678d8dd1be5305b019e6f0b802146c825ccd08c711c51e60d738cab6",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "AdvanceObservationPort.java",
+        "bytes": 4863,
+        "sha256": "dbeb58bfb6b02fd40f4d6dc41beb1e14b47bc449e9a1753797da988ee9effd99",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "AdvancePolicy.java",
+        "bytes": 14991,
+        "sha256": "da23d6be8ff7e9f7195037c9f0e54580cf717e21e356da193eacd3067938b666",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "LifeAdvanceComposite.java",
+        "bytes": 60243,
+        "sha256": "473f01ae376df5cae545c7c0a6cb0e00c518ee82997c3cf7fbc5bdb4d041e888",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "LifeAdvanceEvidence.java",
+        "bytes": 31448,
+        "sha256": "6846d526c5d74df34ab1841f3669f8233cd6b4bc0b1522dd7758f715c6f24d52",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "AdvanceClockArchivedReplay.java",
+        "bytes": 21501,
+        "sha256": "f11778e1a066ed04cfdd6ea112116b6237b29a9e5d454ebbafabffe9f6df2449",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "NativeRecordedEvidenceVerifier.java",
+        "bytes": 42822,
+        "sha256": "5701da6aa598aa25f4d73885a2812ba530303e2e6f117bfd9d94e02a5fe44421",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "FullJsonTree.java",
+        "bytes": 9196,
+        "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "DecimalTokenNode.java",
+        "bytes": 3400,
+        "sha256": "dcfaa1f41e5dba568e21d61103197827c26704e3e386da48077a8a159812b9df",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "OpportunityJson.java",
+        "bytes": 7208,
+        "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "ProposalLifecycle.java",
+        "bytes": 15603,
+        "sha256": "3c154565347db1d227e54ccc336dcadb255be23d6f5a238e4026f95645126603",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "LateOutcome.java",
+        "bytes": 15204,
+        "sha256": "99729d5d9521bec42d359e46781edcb602e5066a710c47976b8c94b60e780c99",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "SentinelObservation.java",
+        "bytes": 2939,
+        "sha256": "227eab66d692467eae2bb3d249039eb690bd2c46ec7fb6c866a3845841566c9b",
+        "role": "Complete current direct declaration/parser/validation consumer"
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 138185,
+        "sha256": "d594cda2b3a42fa7006a170081a1afb31ec73d33f9d10d4e159f14e3a7fa2491",
+        "role": "Complete current concrete archive original/fresh/IO implementation"
+      },
+      {
+        "name": "DriverPersistentPlanningState.java",
+        "bytes": 43116,
+        "sha256": "e4d8b64da28563857690dc4d9d000a3890938212a49cba163ece33ad0d71d6ec",
+        "role": "Complete real CompletedRead consumer/caller"
+      },
+      {
+        "name": "samecall-parse01.patch",
+        "bytes": 5384,
+        "sha256": "80c003cabe29687b5590aa4ddb544bcc957e5614fdb8e248b1af38d2a70bc7cf",
+        "role": "Complete same-call candidate diff; compare complete files"
+      },
+      {
+        "name": "SOURCE-READY01.json",
+        "bytes": 5418,
+        "sha256": "9d0b0ea7cea5120ff9d746bd7ff69e3d28fdeceb6887e14b5e801d5c6bcf603c",
+        "role": "Complete production Ready; source statements are owner hints, not empirical facts"
+      }
+    ],
+    "source_message": {
+      "bytes": 790738,
+      "sha256": "53f105b1aabe7d5f52f31e09c18306dbc3861a3183d0efffc1071494975f0a81"
+    },
+    "hint_level": "Root/Java supplied existing candidate design/production and owner tests/independent BASE. This is source review, not independent implementation or discovery.",
+    "full_current_source_UTF8_and_EOL_inlined": true
+  },
+  "HTTP": {
+    "POST_BEGIN": "2026-11-13T14:01:03.375581+00:00",
+    "END": "2026-11-13T14:02:46.140492+00:00",
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "headers_ms": 48129.95190010406,
+    "TTFT_content_ms": 48131.0352999717,
+    "total_ms": 102764.85630008392,
+    "usage": {
+      "prompt_tokens": 163090,
+      "completion_tokens": 1090,
+      "total_tokens": 164180
+    },
+    "cached_tokens": null,
+    "attempts": 1,
+    "retries": 0,
+    "length": 0,
+    "request": {
+      "bytes": 811384,
+      "sha256": "cc4061e7b15a3c05ec0af80b2bc94e2163feb9d354030fea73b6cd33dcedf97d",
+      "prepost_byte_exact": true,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "max_tokens": 3000,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "network": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      }
+    },
+    "response": {
+      "bytes": 5017,
+      "sha256": "238877b3bbf295efc5dd34ced6bc2f02cc0d20f1efb35301e6ea722275207174"
+    },
+    "raw_SSE": {
+      "bytes": 140818,
+      "sha256": "d776f88917c1372997283594191afd1cd2de553269bad8bf45ab7753f833957f"
+    },
+    "full_stream_reconstruction_byte_exact": true,
+    "current_inflight": 0,
+    "status_communication": "Real BEGIN and final END/cost/absolute content pointers sent before detailed source audit/publication."
+  },
+  "three_HTTP": {
+    "actual_peak_HTTP": 3,
+    "three_way_overlap_seconds": 99.980199,
+    "current_inflight": 0,
+    "retries": 0,
+    "input_tokens": 701247,
+    "output_tokens": 2604,
+    "sum_HTTP_ms": 303637.5215998851,
+    "source_preparation_not_inflight": true,
+    "service_queue_or_capacity": "NOT_HELD; no probe and no inference from TTFT",
+    "new_independent_private_phases_aggregate_limit": 8388608,
+    "old_all_actual_and_reserves_kept": true,
+    "fourth_task": 0
+  },
+  "review": {
+    "classification": "LIMITED_LOCAL_IMMUTABLE_REUSE_AGREEMENT_0_NEW_ACTIONABLE_FINDING",
+    "supported": [
+      "Candidate preserves all original compatible-result validation expressions/order, returning the original RawJson and immutable first Obj after successful validation. CompletedRead removes only its second parse and uses the same original identity for the final materialReferenceOf.",
+      "Public compatibleResult empty/error paths and original Raw identity remain. No cache, ThreadLocal, new type/field, authority or fresh/hash/profile IO removal."
+    ],
+    "corrections_and_limits": [
+      "The three items under substantiated_findings are positive observations, not three new bugs or adopted findings.",
+      "loadRead occurs once only when the original native_stop_read_ref is non-null; successful null-reference paths perform zero loadRead, as in BASE. loadMaterial remains one for a present original result.",
+      "Source-level equivalence/safety wording is a limited review opinion, not compiler, all-input/platform correctness, actual custody, Runtime loading or performance qualification. Actual archive implementations may wrap IO; the answer generic IOException wording does not establish a checked signature.",
+      "The design and candidate existed before POST; owner diagnosis and exact source-count two parses to one are not model discoveries or measured IO/wall savings."
+    ],
+    "mechanical_source_audit": [
+      {
+        "name": "AdvanceResult.java",
+        "hunks": 3,
+        "complete_patch_apply_equals_candidate_LF": true,
+        "BASE": {
+          "bytes": 25635,
+          "sha256": "80734d781aa2115aea1a61529269448437a44f91e3f985ea4d067ed81f05e525"
+        },
+        "candidate": {
+          "bytes": 26078,
+          "sha256": "519c2c5dacde9a48c40966a4159f23b2c96bc57ccad93a283701fde95aecb0fb"
+        }
+      },
+      {
+        "name": "AdvanceCompletedRead.java",
+        "hunks": 1,
+        "complete_patch_apply_equals_candidate_LF": true,
+        "BASE": {
+          "bytes": 3914,
+          "sha256": "12a5bcadb4146f35fa9e3ade5a76e88190046d181dea8f05ee7775f9c4e56dd8"
+        },
+        "candidate": {
+          "bytes": 3875,
+          "sha256": "46efecc88b4c41865092c2873f5db1988b4bf8ce1b4ff6c2eba8b5d0210083cc"
+        }
+      }
+    ],
+    "adoption": {
+      "new_model_findings": 0,
+      "source_hunks": 0,
+      "test_hunks": 0,
+      "limited_design_agreement": true,
+      "Runtime_or_ROI": false
+    }
+  },
+  "adoption": {
+    "new_model_findings": 0,
+    "source_hunks": 0,
+    "test_hunks": 0,
+    "limited_design_agreement": true,
+    "Runtime_or_ROI": false
+  },
+  "operator_boundary": {
+    "model_HTTP": 1,
+    "business_HTTP": 0,
+    "production_Test_writes": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "GET": 0,
+    "large_Driver_SEM_request_read": 0,
+    "service_probe": 0
+  },
+  "resource": {
+    "new_aggregate_limit": 8388608,
+    "pre_actual_REQUEST_full_streams_scripts_metadata_counted": true,
+    "common_helpers_allocated_once": true,
+    "old_actual_reserves_kept": true
+  },
+  "next": "No repeated review or new software/Runtime gate from these opinions. Independent owner qualification and recovery keep their exact separate receipts."
+}
