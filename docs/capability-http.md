@@ -6359,3 +6359,8 @@ Owner重写独立StageAprivate工具：prefix QAanchor早于actualgamecallback�
 [734固定软件证据](https://github.com/XenoAmess/civ6_dev/blob/00d1eef5d0f57e5367bc8240cef18cb27af4d6f5/docs/research/baiqi-controller-coarse734-2026-11-14.json)：原样10方法5过5 Lua断言错误，serial不增/rootId恒0、snapshot整数无上限、getter未保护阻断正文、坏根时钟/满容量的未知元数据未记错；0原代码采用。Owner重写10新/3真实构建方法过，根及六粗子项共享ONE canonical profile4096，不另建4096子池。私有119包仅Controller尾段、97Lua51/53，原正文为精确字节前缀；选88/89已观察锚点后10秒诊断，早期入口有意不采。插桩会改变根cost，包含子项不能相加授B_plan/全脚本通过。原样运行后加强一处窗外返回值夹具，原失败不回写。新NativeG当时未完成，未授性能或提速。
 
 1attempt/stop/DONE/strictJSON；total_tokens=66937, completion_tokens=761, total_ms=13045.7863, TTFT_ms=8481.7110。累计734logical/681完整流（含历史严格JSON拒绝）/50length/3finaltransport/764HTTP/30extra，新峰1；Nov14 canonical1.19.5成功维护cache复用，OpenCode native0，cachedtokens/Owner主动成本/净节省null。
+
+
+### 2026-11-14 Transient CAS scope02 连续lease与actualRoot两项源码审阅
+
+42/74完整Java＋各2contract，四candidate/BASE全文、三消息/source600/2400/max3000；2POST均stop/DONE/valid、0retry，合745479输入/2267输出tokens，真peak2重叠109.907563秒，当前0。A列3finding但首反复自纠无反例：预算检查在external lease前、prior先返回；verifySources显式unknown，requireEligible/admitted/Optional.empty不可混。B空finding仅有限流程概述，backend hook与Root直接留configured/G2/DLL分开。全0新finding/代码/Test采用，不扩测试/二投；read custody非world权限、StaticScopeFalse非实际NoDispatch、StageC partial排除，不授软件/装载/速度。见[连续lease](evidence/2026-11-14-ck3-transient-cas02-lease-budget-review.md)、[actualRoot](evidence/2026-11-14-ck3-transient-cas02-root-scope-review.md)。
