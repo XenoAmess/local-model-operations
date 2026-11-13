@@ -6381,3 +6381,14 @@ Owner工具3新/6相关方法过，1—12唯一词法目标、默认尾段与冻
 736: 1attempt/stop/DONE/strictJSON; total_tokens=75102, completion_tokens=1015, total_ms=16215.7129, TTFT_ms=9609.5623.
 
 累计736logical/683完整流（含历史严格JSON拒绝）/50length/3finaltransport/766HTTP/30extra，新峰1；Nov14 canonical1.19.5维护成功cache复用，OpenCode native0，cachedtokens/Owner主动成本/净节省null。
+
+
+## 2026-11-14：H操作遗漏、I未重现与737版本化诊断范围
+
+[H固定证据](https://github.com/XenoAmess/civ6_dev/blob/0ae18582de2e36da34d7adbb7a482f45f006d73f/docs/research/baiqi-controller-H-timeout-I-2026-11-14.json)：Owner未及时关闭实际87友好告别，原180秒截止触发，0根/样本。不是模型/产品性能FAIL；不延长截止、不重放END，中止后原版Esc一次实际到88，保存/七绑定和自有监听撤，再独立重读原85。原失败保持。
+
+[I和737固定证据](https://github.com/XenoAmess/civ6_dev/blob/49162daa291f2eaf785b551405e3835e34007817/docs/research/baiqi-controller-I-preobserver737-2026-11-14.json)：I用原版DiplomacyActionView.KeyHandler(Keys.VK_ESCAPE)的外部TEST_PLAYER一次回调，独占凭证/87/非active/可见/动画停止约束，调用返回与2.110秒后隐藏/实际88分读。65根190行区间审计过，maxroot12/Settler8ms没有重现G65/82或正式F90；无源码修复，缓存/缺失调用/未重现原因null，不授性能通过。
+
+已知v1限定观察器通知后，未证明I遗漏了哪次尖峰。下一显式v2诊断保留全部active88/89通知前入口，加原通知后10秒，保全区间按真实锚点分类，不造物理事件时间/补旧行。737完整predicate函数体字面采用，Owner事前确定范围；8实际constructor/profile合同检查过，Owner3新/9相关构建方法过、97Lua51/53/119包仅准备。v1粗/细生成字节与冻结G/H逐字一致，4096单池/透传/产品140保持。
+
+1attempt/stop/DONE/strictJSON；total_tokens=5186, completion_tokens=188, total_ms=1898.0289, TTFT_ms=818.0491。累计737logical/684完整流（含历史严格JSON拒绝）/50length/3finaltransport/767HTTP/30extra，新峰1；Nov14 canonical1.19.5维护成功cache复用，OpenCode native0，cachedtokens/Owner主动成本/净节省null。
