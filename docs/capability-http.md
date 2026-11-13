@@ -6225,3 +6225,12 @@ Owner138另捕canonical引用、保override顺序路径，批内工作bank逐未
 Owner140需求扫描在原snapshot pcall内、有限rate/唯一自有集合/前后count及实际迭代cap；只决定是否建完整snapshot，不当许可缓存，pending先观察和所有donor/postpermission/final上下文门保留。9新方法/31实际相关通过；Owner误请求不存在的额外测试模块造成loader错误，随后真实完整discovery2038项2037pass1SDKskip/122.219秒，97Lua51/119包。此切点尚未140Native，不能据软件授提速或B_turn通过。
 
 累计through710：710逻辑/659完整流（含旧692严格JSON拒绝）/48length/3最终transport/740HTTP/30extra，新实际峰1。Nov14canonical维护1.19.5/latest1.19.5成功cache复用；OpenCode原生0，cachedtokens/Owner主动成本/净节省null。711是另一真实未完成的普通END观测driver迁移候选，不并入本计数。
+
+
+## 2026-11-14：711–713普通END观测软件，140Native仍无提速证明
+
+[140后到Native](https://github.com/XenoAmess/civ6_dev/blob/d37c1f0fa1fdcad4727665bb7d8e5e6125686e43/docs/research/baiqi-p6-native140-cold333-latency-open-2026-11-14.json)九域同333全等，390根样本0drop/invalid/error，Adminp95约23ms仍>20ms参考，不能授提速/严格AB/全脚本B_turn/B_delta。Owner启动期旧端点拒绝与独占文件拒绝均在Native动作前；资格MainMenu原flag nil后另证据名第一次实际loadtrue，再原版Continue一次。漏compare参数又被旧baseline文件保护拒绝，修正后才形成新分析，0覆盖。
+
+[711–713和驱动软件](https://github.com/XenoAmess/civ6_dev/blob/7186b6610ac0455cf6bbf915c160a9c79125192c/docs/research/baiqi-p6-ordinary-observed-driver711713-2026-11-14.json)：71112311tokens/13703.1945ms、7126183tokens/9981.2292ms均length/DONE，整份拒绝0拼接；Owner接管该迁移。另派窄测试713，完整6063tokens/2912.9495ms，raw3方法实际3失败：未发动作回调却断言旧forced actions[85]；fail_poll_once仅影响后续poll不模拟门失败，实际回调先触发；还误说ACK返回忽略。0原代码/测试采用。Owner默认要求普通测试玩家回调，独占凭证/READY后才调用；精确ACK只是提交凭证，实际激活独立读；未知/throw/错误ACK停止不重放，旧UserForced须显式legacy。9新/25相关软件方法过，原85十城/五窗10秒/4096/33上下文保持，尚无新Native回调PASS。
+
+累计through713：713逻辑/660完整流（含旧692严格JSON拒绝）/50length/3最终transport/743HTTP/30extra，新峰1。Nov14canonical1.19.5/latest1.19.5维护cache复用；OpenCode原生0，cachedtokens/Owner主动成本/净节省null。714是未完成Native适配器候选，另记。
