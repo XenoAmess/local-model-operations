@@ -6107,3 +6107,8 @@ CASprofile77 source posterior: all3modelhunks byte-exact selected into owner act
 ## 2026-11-13: Journal historical-reader resource-profile audit
 
 One complete stop185926in1781out/36.2654452sHTTP, TTFT24.0765517s, peak1/current0. Full11-source consumer/store closure plus actual genericfallback6, exactcompact930869B pre/post. Analysis falsely replaces nested scopes, converts held validation failure into successful false fallback, misses effective4095/8191 handle bound and does not trace opaque Journal roles. ConditionalGO/test oracles rejected;0finding/code adoption,0JVM/live/no secondPOST. Not a length, technicalNO or proof that bounded retention is useless. [Exact source/contract/error/cost](evidence/2026-11-13-ck3-journal-historical-profile-audit.md).
+
+
+## 2026-11-13: Journal79 final candidate and wrapper test review
+
+One complete stop241107in1750out/42.1776012sHTTP, TTFT31.1776409s, peak1/current0. Full13production+1selfcontainedTest, exactcompact1213520B pre/post. Seven entries conclude no defect; first locking speculation self-retracted. Proposed IOException gap ignores declared scope same-object/re-entry test and loadRecord no-throws; later fullhistory/Store coverage is outside the narrow claim.0actionable findings/0adoption, no review-green/compile/live grant, no secondPOST/JVM. [Exact source/consumer/error/cost boundaries](evidence/2026-11-13-ck3-journal79-wrapper-review.md).

@@ -1,0 +1,9 @@
+# Journal79 final wrapper test review: no actionable new finding
+
+One new review supplied13 complete current production sources and the complete self-contained owner30 Test12857B. Three full intermediary/contracts sources close the public-entry, withLocked, first-canonical-read and owner/checkedIO boundary. The owner candidate changes only Journal resource literals to8192/16384;256MiB, semanticMAX_CHAIN4096, all guards and other scopes stay. The test intentionally uses public software ports and stops at the first record sentinel; it claims no Native lease or full-history/prefix hit.
+
+POST05:01:33.752333Z to END05:02:15.929761Z completed200/stop/DONE/validJSON:241107input/1750output, TTFT31.1776409s and HTTP42.1776012s. Compact REQUEST1213520B/a822034e is byte-identical to prePOST. One attempt, no retry or length, peak1/current0. Actual BEGIN/END and full response pointer were delivered before review.
+
+Seven returned findings ultimately state no consequence or matching flow. The first hypothesizes the wrong withLocked position and retracts it in the same item. No new defect is established. The proposed checkedIOException gap confuses loadRecord's no-throws interface with the declared scope callback; the actual Test already asserts same-object IOException, cleanup and re-entry. NativeArchive's special NoSuchFile handling is real, while checked work wrapping/unwrap is in Transitions. Later full-history failures and real Store dependency verification are outside this software wrapper's explicit claim, not blockers demanding a fabricated Root fixture.
+
+No findings, source or test changes were adopted. This is not review-green, software/runtime qualification, a technicalNO or performance evidence. Independent owner qualification proceeds separately. No second request, JVM or live probe was run. [Complete source pins, response/review and cost](2026-11-13-ck3-journal79-wrapper-review.json).
