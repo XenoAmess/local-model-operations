@@ -6326,3 +6326,20 @@ Owner重写独立StageAprivate工具：prefix QAanchor早于actualgamecallback�
 [729固定证据](https://github.com/XenoAmess/civ6_dev/blob/fbf3758b5e772b879e1b6efbf1df1bdd890b8a08/docs/research/baiqi-stageA-v2-preanchor729-2026-11-14.json)：5585tokens/5430.7598ms/TTFT1116.2816ms，raw6合同探针全失败：缺Finite、已知anchor漏解决新行、pending不减、重复膨胀、倒序区间可过、unknown外抛；2测试仅提供Finite谓词暴露后续逻辑，不采拼接候选。0原代码。Owner明确新source stageA-v2：只对精确false单参Controller调用保留完整canonical行且占4096，待真Nativeanchor后证明started<anchor/ended<=anchor才列窗前；跨界/未解决/true/nil/Admin无例外，旧v1形状和FAIL不回改。15新/60相关软件方法过，真实Controller.Update+Executor消费者核对，新119/97Lua51-53产物待Native。预算不降，物理引擎发出时间仍未知。
 
 各1attempt，stop/DONE/strictJSON。累计through729 729logical/676完整流（含历史692严格JSON拒绝）/50length/3transport/759HTTP/30extra，新峰1。Nov14维护成功cache复用；OpenCode native0、cachedtokens/Owner主动成本/净节省null。
+
+
+## 2026-11-14：730版本/模式助手采用、731普通驱动与732原生收尾等待
+
+[730固定证据](https://github.com/XenoAmess/civ6_dev/blob/3f6967e0c8436a77f2cd2464f2bb2639c063075b/docs/research/baiqi-paired-source-mode730-2026-11-14.json)：原样8合同检查全过，完整validate_capture_mode助手字面代码采用，所需collections.abc来自已提供实际consumer。Owner增加显式expected_source_version/require_ordinary接入和结果metadata，5新/14相关软件方法过；旧67默认形状/公式、零分母unknown及500ms/10%预算保持。25段是软件夹具，不是Native匹配证据。
+
+[731固定证据](https://github.com/XenoAmess/civ6_dev/blob/dc398c2489bc87870dfbd26421654c8349eaf9bc/docs/research/baiqi-paired-normal-driver731-2026-11-14.json)：原样2方法1失败1错误，85访问未存在record[0]，不做准备/桥Begin/END；异常项也未发行END就抛出，并期待合同未要求的RuntimeError转换。0语义测试代码采用；harness搭建方向/API是Owner提示，非独立发现。Owner默认普通回调驱动8新+9显式legacy方法过，用真实canonical clock/bridge证明5秒准备排除于每段2秒，五次END无END90，动作后断线和READY未知不重发；桥/时钟退出回执分读。跨UI映射仅夹具，真实原版接受/25匹配段仍待。
+
+[732固定证据](https://github.com/XenoAmess/civ6_dev/blob/b5e8dc25f0fc1e99c6c5678ffa1e2311dcfe1325/docs/research/baiqi-stageA-E-closing732-2026-11-14.json)：原样6检查4过2失败，缺math导入使有真实anchor路径NameError；0原代码采用。Owner严格类型/有限转换/溢出门6方法过。Native E五窗318保留行零error/drop，25窗前完整区间已由Native证明；首次实际91轮询age=-1后收尾复合断言失败，无capture_stop/COMPLETE。后到91锚点虽已在冻结导出，精确失败子项仍unknown，不造旧stop或追认通过。91保存，两包装/自有监听已撤；F同一预热冷实例同产物正式重读85，单独新凭证。实际当前turn可早于通知观察，收尾应等待真实就绪且保原截止，不能由调用返回授Native完成。
+
+730: total_tokens=6344, completion_tokens=365, total_ms=2923.1542, TTFT_ms=910.0147; 1attempt/stop/DONE/strictJSON.
+
+731: total_tokens=11625, completion_tokens=686, total_ms=5782.6554, TTFT_ms=1941.3602; 1attempt/stop/DONE/strictJSON.
+
+732: total_tokens=7089, completion_tokens=401, total_ms=3583.4665, TTFT_ms=1250.0150; 1attempt/stop/DONE/strictJSON.
+
+累计through732：732logical/679完整流（含历史692严格JSON拒绝）/50length/3finaltransport/762HTTP/30extra，新峰1。Nov14 canonical1.19.5维护成功cache复用；OpenCode native0。cachedtokens/Owner主动成本/净节省null，未宣布性能或整例通过。

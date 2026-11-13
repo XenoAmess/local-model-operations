@@ -1693,3 +1693,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：727—729仍为普通HTTP候选
 
 [727](https://github.com/XenoAmess/civ6_dev/blob/be0a98f94b286a981c68d1a7958da5d83249173c/docs/research/baiqi-paired-normal-bridge727-2026-11-14.json)／[728](https://github.com/XenoAmess/civ6_dev/blob/19f2d63aad603df31f36fa70aac9971e0ad9ff1b/docs/research/baiqi-stageA-nativeD-arguments728-2026-11-14.json)／[729](https://github.com/XenoAmess/civ6_dev/blob/fbf3758b5e772b879e1b6efbf1df1bdd890b8a08/docs/research/baiqi-stageA-v2-preanchor729-2026-11-14.json)维护成功cache复用，0新增原生OpenCode工具／生成session。候选原代码均拒，Owner软件、参数Native和未决延迟分开，未知成本null。
+
+
+### 2026-11-14：730—732普通HTTP与Native业务分账
+
+[730](https://github.com/XenoAmess/civ6_dev/blob/3f6967e0c8436a77f2cd2464f2bb2639c063075b/docs/research/baiqi-paired-source-mode730-2026-11-14.json)完整助手采用；[731](https://github.com/XenoAmess/civ6_dev/blob/dc398c2489bc87870dfbd26421654c8349eaf9bc/docs/research/baiqi-paired-normal-driver731-2026-11-14.json)和[732](https://github.com/XenoAmess/civ6_dev/blob/b5e8dc25f0fc1e99c6c5678ffa1e2311dcfe1325/docs/research/baiqi-stageA-E-closing732-2026-11-14.json)原语义代码未采用，Owner软件与E真实收尾失败分别记录。全部普通HTTP，Nov14维护成功缓存复用，0新增OpenCode原生工具/生成会话；业务Native游戏不是OpenCode native。未知成本null，未据编测或318样本授性能通过。
