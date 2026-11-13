@@ -1,0 +1,102 @@
+{
+  "schema": "local-model-operations.case/v1",
+  "case_id": "2026-11-13-hoi4-promo-editorial-review",
+  "mode_id": "http-candidate",
+  "observed_at_utc": "2026-11-13T08:39:07.604948+00:00",
+  "task": "First full75-second promo text/code editorial review after two missing live capture groups were actually recorded.",
+  "model": "qwen38-coder",
+  "max_tokens": 2200,
+  "message_roles": [
+    "system",
+    "user",
+    "user"
+  ],
+  "input_closure": "Full current composer, approved director script, shot plan/casting policy, native config, complete current production recipe and8-receipt capture index. Text/code scope explicit; image/audio bytes not supplied, so no visible/audible review delegated.",
+  "source_bindings": [
+    {
+      "path": "mod_nailong/promo/1.0/director-script.zh-CN.md",
+      "bytes": 11103,
+      "sha256": "a041d2c8416a90b94a7d4ce754236050bcb322263c66d7a4f7b791b1019bfa19"
+    },
+    {
+      "path": "mod_nailong/promo/1.0/shot-plan.json",
+      "bytes": 5619,
+      "sha256": "ce686c7efa370233caac73dcc47fc7cb9cabaaae80504ff2ef52ff80d0f16183"
+    },
+    {
+      "path": "mod_nailong/promo/1.0/promo-project.json",
+      "bytes": 4088,
+      "sha256": "a8d4f1859ba37ea13b5f8f80d66273363f5d9497d1c0c8e4ab6a8ad7ff0d4c5e"
+    },
+    {
+      "path": "runtime/promo-capture-20261112/production-inputs-v2.json",
+      "bytes": 9918,
+      "sha256": "8d92cd80fe5f83ea8001cd22ed3e111556224d709199b5290771b9f9b1acc3c8"
+    },
+    {
+      "path": "runtime/promo-capture-20261112/capture-index-v2.json",
+      "bytes": 11921,
+      "sha256": "5e908b8c04842a428acc3f6ff11784357201d7cdcc2676d5d7b669cdf1141d14"
+    },
+    {
+      "path": "mod_nailong/promo/integration/nailong_promo/__init__.py",
+      "bytes": 13902,
+      "sha256": "ad3801491d604aaf5ecbcd9b4f7f36c07b728992ae23b7e785b4855e5554956e"
+    }
+  ],
+  "request": {
+    "bytes": 62246,
+    "sha256": "ff324ed3522ac776cb0bcc901fae1ba905a07d5556bb8f8cab64e7d39fe9afa7"
+  },
+  "candidate": {
+    "bytes": 3625,
+    "sha256": "10db194faaa74dabd8892f0371b4465f2f416bb25149b2ed2aa9f5c6dd304f41"
+  },
+  "transport": {
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "candidate_complete": true,
+    "usage": {
+      "prompt_tokens": 19790,
+      "completion_tokens": 1209,
+      "total_tokens": 20999
+    },
+    "cached_prompt_tokens_if_reported": null,
+    "first_nonempty_content_delta_ms": 2693.845400121063,
+    "total_ms": 9737.155200215057
+  },
+  "concurrency": {
+    "scope": "This one named request only; unrelated consumers and server state unknown",
+    "post_begin_utc": "2026-11-13T08:27:26.414549+00:00",
+    "attempt_end_utc": "2026-11-13T08:27:36.152125+00:00",
+    "peak": 1,
+    "peak_duration_seconds": 9.737576,
+    "current": 0
+  },
+  "owner_review": {
+    "candidate_issue_count": 7,
+    "numerical_comparisons": "The candidate correctly noticed several subtitle/actual speech ends differ from planned narration windows. These measured timings were already explicit in the supplied recipe.",
+    "rejected_conclusions": [
+      "A speech ending before its window ends does not require regeneration; remaining shot time is intentionally silence/hold.",
+      "S05 voice end35.199 remains within the27-39second chapter; extending the chapter would break the75-second editorial target.",
+      "S01 and S05 timing changes are accommodated within their unchanged chapters; no demonstrated truncation.",
+      "The handoff omitted requested provenance/limitations and treated all timing differences as a blocker, so no prose adopted."
+    ],
+    "missed_later_owner_findings": "The actual full build later rejected the supplied fade duration .5 on installed FFmpeg9.0.2; owner changed it to0.5. A subsequent real full-stream measurement found true peak+0.8dBFS; owner lowered both stem gains3dB and initiated a fresh retained build. Neither finding is credited to the text candidate.",
+    "source_adoption": 0,
+    "handoff_prose_adoption": 0,
+    "qualified_use": "Informational timing comparison only; no regeneration or game operation based on this candidate."
+  },
+  "business_boundary": "Two actual live capture groups completed by owner via raw pixels/OCR and real keys/mouse. Full movie builds/audio measurements are separate owner work; text model grants no image/game/film approval. No human signoff or video upload claimed.",
+  "cost": {
+    "http_ms": 9737.155200215057,
+    "owner_prepare_seconds": null,
+    "owner_review_seconds": null,
+    "net_saving": null,
+    "cache_benefit": null
+  },
+  "daily_opencode": "Canonical2026-11-13 cached successful check1.19.5 was actually run before this POST.",
+  "raw_evidence": "Consumer ignored runtime/local-model-operations/promo-editorial-review-20261113/response; raw requests and game frames are not uploaded here.",
+  "next_real_trigger": "Owner completes actual media QC and pending review package; do not repeat this closed timing critique or infer broad model incapability."
+}

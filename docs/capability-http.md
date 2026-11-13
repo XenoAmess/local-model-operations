@@ -6137,3 +6137,10 @@ Complete stop129538in546out/37.8213736sHTTP, TTFT33.1935653s; full11inputs, exac
 ### 2026-11-13 C81 revision02：角色与 partial 终态两项完整源审
 
 两份完整三消息先冻结后并发 POST，均41完整Java、9TU候选与真实小原件，预存/实际REQUEST byte-exact；两call各stop/DONE/JSON有效、0retry，真实peak2重叠71.453847秒，合518487输入/1062输出tokens。A角色闭包总结无新finding；B正确保持ARMED→Pending/UNKNOWN，但把live observe与archive replay串成顺序、忽略verifySequence的POLLED分支、把CANCEL child存在性归给无child参数的validateCancellation，均按源码纠正。Root/owner先给三ref设计、SAVE拒绝、Cold绑定与实际状态，不冒独立发现。0新代码/Test采用，有限一致不授软件、恢复、推进、SAVE或ROI；后到新cleanup协议不在本轮input。见[角色审阅](evidence/2026-11-13-ck3-c81-terminal-pause-role-review.md)与[终态审阅](evidence/2026-11-13-ck3-c81-partial-readonly-outcome-review.md)。
+
+
+## 2026-11-13：HOI4 首次全片的文本时窗审阅
+
+一次完整stop／19790输入与1209输出tokens，HTTP9737.155ms／TTFT2693.845ms，具名峰1。输入给齐当前composer和实际配方／八段回执索引，但不含图像音频，明确只作文本审阅。七项数字差异基本可核，候选却把窗口内提前读完当成必须重录，未证明截断；代码和交付文案均0采用。实际FFmpeg片尾参数失败与后到真峰值偏高由owner实测发现，分别修正并留新构建代际；不归候选功劳，也不授人工审片或公开发布。
+
+[完整输入范围、窗口解释、0采用与实际调用成本](evidence/2026-11-13-hoi4-promo-editorial-review.json)。
