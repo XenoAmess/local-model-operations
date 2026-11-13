@@ -6086,3 +6086,6 @@ One new finite review121955in1990out/29.0437306sHTTP, TTFT15.7585419s, peak1/cur
 ## 2026-11-13: Receipt64/68 semantic-role safe-variant review
 
 One complete stop76285in1757out/22.1591938sHTTP, TTFT9.8643535s, peak1/current0. Full19 current sources include firstProjection+BigDecimal metadata/schema and later lexical command. Model NO conflates replacing metadata with the allowed narrower non-command projection reduction and offers no exact counterexample; unsupportedNO/0adoption/0javac, not technical impossibility or ceiling. Real numeric-role incompatibility retained; exactcompact preREQUEST/actual bytes equal, no new platform/cache/Guard/live or repeat request. [Specific source-role rejection and cost](evidence/2026-11-13-ck3-receipt-shared-ast-review.md).
+
+
+Receipt76 posterior: owner independently keeps both original parse roles/fullvalidation and projects only command. Actual/formal distinct soleCodec1class each independentlywhole4P; model prior unsupportedNO/0hunk unchanged, no retroactive model credit. Exact5 business published; Native209/10tool is held cumulative cut. Source76 runtime/performance/HCR remain ungranted. [Existing-receipt software posterior](evidence/2026-11-13-ck3-receipt-shared-ast-review.md#posterior-owner-source76-safe-projection-and-independent-whole4-qualification).
