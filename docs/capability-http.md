@@ -6364,3 +6364,20 @@ Owner重写独立StageAprivate工具：prefix QAanchor早于actualgamecallback�
 ### 2026-11-14 Transient CAS scope02 连续lease与actualRoot两项源码审阅
 
 42/74完整Java＋各2contract，四candidate/BASE全文、三消息/source600/2400/max3000；2POST均stop/DONE/valid、0retry，合745479输入/2267输出tokens，真peak2重叠109.907563秒，当前0。A列3finding但首反复自纠无反例：预算检查在external lease前、prior先返回；verifySources显式unknown，requireEligible/admitted/Optional.empty不可混。B空finding仅有限流程概述，backend hook与Root直接留configured/G2/DLL分开。全0新finding/代码/Test采用，不扩测试/二投；read custody非world权限、StaticScopeFalse非实际NoDispatch、StageC partial排除，不授软件/装载/速度。见[连续lease](evidence/2026-11-14-ck3-transient-cas02-lease-budget-review.md)、[actualRoot](evidence/2026-11-14-ck3-transient-cas02-root-scope-review.md)。
+
+
+## 2026-11-14：G父子区间定位与735736未采用范围
+
+[固定公开证据](https://github.com/XenoAmess/civ6_dev/blob/202ee2199d43d34abd4f9bca238c2453e573fcd0/docs/research/baiqi-controller-G-settler735736-2026-11-14.json)。Native G冷启/132.965秒预热/正式重读原85，普通END85—89到90/11城，840行64根单4096池零error/drop/invalid/metadataerror；审计所有根ID和父子区间。88根约94/75ms分别含ProcessSettler82/65ms，生产单项不在同级尖峰；未测全部函数、不将包含子项相加或反推CPU，89未重现F56ms也不授修好。90保存、七绑定/自有observer撤，原版退出后247.401秒仅清自有静止残留。
+
+735生产候选耗尽优化6处字面修改均唯一、限定ProcessCity选择前，Lua51/53可编译、最终选择/发单尾部精确保持；0语义测试/代码采用，因当前实际尖峰在Settler而延期，不记候选编译失败或游戏PASS。原首个项目保留扫描仍未早终止。
+
+736按Owner事前延迟首选方案提出方法，原样与实际SettlementSites/Policy.Number比6探针2过4失败：more由true改false导致路径失败后少继续；非firstOnly丢preferred；Native回调使preferred恢复资格的fallback不再复验；用truthy而非严格true。缺AI/无preferred旧路两项过，0代码采用。不能从未查询候选推more=false或省略后继消费者。
+
+Owner工具3新/6相关方法过，1—12唯一词法目标、默认尾段与冻结G实际字节精确一致。H六细目标97Lua51/53/119文件仅准备：根/子仍共享4096、Native内部成本待测，产品140及F最大值FAIL保持。
+
+735: 1attempt/stop/DONE/strictJSON; total_tokens=78341, completion_tokens=1019, total_ms=16493.7684, TTFT_ms=9990.4513.
+
+736: 1attempt/stop/DONE/strictJSON; total_tokens=75102, completion_tokens=1015, total_ms=16215.7129, TTFT_ms=9609.5623.
+
+累计736logical/683完整流（含历史严格JSON拒绝）/50length/3finaltransport/766HTTP/30extra，新峰1；Nov14 canonical1.19.5维护成功cache复用，OpenCode native0，cachedtokens/Owner主动成本/净节省null。
