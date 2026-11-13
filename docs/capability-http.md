@@ -6122,3 +6122,8 @@ One complete stop153623in1456out/29.799411sHTTP, TTFT19.7804823s, peak1/current0
 ## 2026-11-13: Actual ACTION inclusive-wall source coverage
 
 One complete stop293966in1575out/48.4304604sHTTP, TTFT38.2237345s, peak1/current0; exactcompact1457541B and full35current source/original evidence. Source containment partly correct, borrowed-overload and primitive/composite ordering corrected; per-span UTC/component CPU NOT_HELD. Generic inspect-flush/likely-wait not new verified optimization,0adoption/no secondPOST or liveinstrumentation. Two authorized tasks did not overlap (HTTPsum78.2298714s), no falsepeak2. [Source/timing/error/cost](evidence/2026-11-13-ck3-action-inclusive-span-analysis.md).
+
+
+## 2026-11-13: Source80 finite raw-cache entry experiment review
+
+Complete stop129240in1471out/43.9949066sHTTP, TTFT31.5447403s. Full17sources, exact645959B pre/post; paired realpeak2/37.821186soverlap. Limiteddesign/LRUtest agreement, no new blocker or hunk adopted. Correct wrong line coordinates/current-loaded/staticfinal claims; actualnested adoption and totalheap/frequency unheld, not review-green/software/live/ROI. [Exact source/test/hint/cost](evidence/2026-11-13-ck3-source80-raw-cache-entry-review.md).
