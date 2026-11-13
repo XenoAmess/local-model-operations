@@ -1,0 +1,9 @@
+# ACTION inclusive wall: source coverage, no new optimization adopted
+
+The complete35-source actual Controller/wrapper/coordinator/Composite/Life/history/publication chain and existing B69report50070, parent1836receipt9542 and C77summary5315 were supplied. The immutable request contains all full source text and original metadata; no largeDriver/SEM, CAS scan, fresh query or new profiling. A wrongly suggested service.root Bindings path was corrected to the actual application.action class before dispatch.
+
+POST05:35:09.394104Z to END05:35:57.824602Z completed200/stop/DONE/validJSON:293966input/1575output, contentTTFT38.2237345s and HTTP48.4304604s. Compact1457541B/c956fd1b matches prePOST bytes. One attempt, no retry/length, current0. This started after the first hotpath review ended, so two real tasks peak1 with no overlap; summedHTTP78.2298714s,447589input/3031output. Preparation was never counted as in-flight.
+
+Useful source description is limited: ACTION covers the synchronous execute/continue call including publication tail, and aggregate1028152709900ns is not individual UTC or CPU. Parent started/observed times are receipt anchors, not timer endpoints. The response conflates an already-borrowed Governance call with a second public borrow and places primitive preparation/IntentDurable before the composite-parent path. Real executeLocked/guard.verify/Timings APIs and ARM child submission are not falsely called nonexistent. The timer records specific exception categories, not every Error; the phase diagnostic callback follows its captured end tick.
+
+Inspect-flush is a pre-known containment observation, and likely-wait is unmeasured; neither supplies a new verified repeated-work optimization.0new findings/code/tests adopted, no full timing attribution/software/Native/Runtime/ROI grant, no second request/new instrumentation. [Exact full inputs, source corrections and cost](2026-11-13-ck3-action-inclusive-span-analysis.json).

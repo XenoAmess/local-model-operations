@@ -6117,3 +6117,8 @@ One complete stop241107in1750out/42.1776012sHTTP, TTFT31.1776409s, peak1/current
 ## 2026-11-13: Archive/replay hotpath and existingHELD65 review
 
 One complete stop153623in1456out/29.799411sHTTP, TTFT19.7804823s, peak1/current0; exactcompact725298B. Full20current sources+existingheldcandidate/Test. Generic handoff rejection ignores retained bytes/SHA and same-call identity; extra proposal deletes contentEquals on hash-key trust without equivalence proof.0findings/code/tests adopted, no technicalNO/software/live grant or secondPOST. [Source/error/cost](evidence/2026-11-13-ck3-archive-replay-hotpath-review.md).
+
+
+## 2026-11-13: Actual ACTION inclusive-wall source coverage
+
+One complete stop293966in1575out/48.4304604sHTTP, TTFT38.2237345s, peak1/current0; exactcompact1457541B and full35current source/original evidence. Source containment partly correct, borrowed-overload and primitive/composite ordering corrected; per-span UTC/component CPU NOT_HELD. Generic inspect-flush/likely-wait not new verified optimization,0adoption/no secondPOST or liveinstrumentation. Two authorized tasks did not overlap (HTTPsum78.2298714s), no falsepeak2. [Source/timing/error/cost](evidence/2026-11-13-ck3-action-inclusive-span-analysis.md).
