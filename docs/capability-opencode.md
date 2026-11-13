@@ -1633,3 +1633,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：702—704为HTTP，137软件独立
 
 [固定源证据](https://github.com/XenoAmess/civ6_dev/blob/958bc20cb1caa267091acf278472af368a66c044/docs/research/baiqi-p6-source137-food-receipt-batch-2026-11-14.json)中702—704三任务均普通三消息HTTP，复用Nov14成功1.19.5每日cache；0新OpenCode原生session/工具生成。2008软件项与97Lua51不授原生工具或Native游戏提速能力，未知成本null。
+
+
+### 2026-11-14：705与138软件分轨
+
+[705/138固定证据](https://github.com/XenoAmess/civ6_dev/blob/3ddf6267f7257fedbc93ed9b1a3d21bd3c665c33/docs/research/baiqi-p6-source138-working-journal705-2026-11-14.json)为普通HTTP一任务和owner软件实现，维护复用Nov14canonical1.19.5cache；0新OpenCode原生生成/工具session。137实际无耗时改善与138软件通过均不授原生工具能力，未知成本null。

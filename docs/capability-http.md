@@ -6189,3 +6189,14 @@ Nov14同机器BF-202609141645、同用户canonical维护1.19.5／registry1.19.5�
 Owner137只减少单回调UI桥往返，Core仍逐城新鲜Inspect、含正粮旧ARM观察，最终Prepare/Inspect/writer重验不变；不以跨回调缓存或跳正粮换性能。11新方法/55相关/全2008项2007pass1SDKskip、97Lua51/119包；首轮nilreason新增验证比旧合同严格，owner修为可nil原因后通过。此为source/software，不授Native批表兼容、实际提速或验收PASS；原报告里的Continue输入切点随后被owner更正：60秒旧图守卫拒绝0点击，新鲜一次输入在source发表后，旧blob保留。
 
 三HTTP均单attempt完整stop/DONE/严格JSON，实际新峰各1；累计Civ6普通HTTP704逻辑/653完整流（含旧692严格JSON拒绝）/48length/3最终transport/734HTTP/30extra。Nov14canonical1.19.5成功cache复用；OpenCode原生生成0。cached tokens、owner主动成本/净节省null，部分读源、Native采样、owner实现与候选生成重叠，不以短HTTP耗时抹去修正成本。
+
+
+## 2026-11-14：137实机无性能改善，705拒绝与138软件
+
+[137后到Native](https://github.com/XenoAmess/civ6_dev/blob/be9ce0496e0e7d8eedb5143a05bfd9ce878d2823/docs/research/baiqi-p6-native137-cold333-batch-2026-11-14.json)明确78批858行全READY，旧账本和所有已采组相同，但Adminp95仍约30ms>20ms参考；624根样本0drop/invalid。不能把桥次数下降或代码变更写成提速，11城/不同进程窗口也不授严格AB或完整协议。Owner一次focus尚在运行就读截图，被前台guard拒绝0截图输入；实际等待终态后才继续，保流程错误而不追认合规。
+
+[705候选和138软件](https://github.com/XenoAmess/civ6_dev/blob/3ddf6267f7257fedbc93ed9b1a3d21bd3c665c33/docs/research/baiqi-p6-source138-working-journal705-2026-11-14.json)：一HTTP15329+1335=16664tokens，10200.1122ms，TTFT2170.9259ms，完整stop/DONE/严格JSON。0代码采用：函数丢Owner返回key却读globalnil，隔离真实ARM错误回OPEN；把捕获inspect与当前同字段自比，替换reader的见证READY/0调用，所谓fallback不可达；Observe克隆被误说原地更新。批内工作账本及最终freshEqual是Owner事前明确设计，不记模型独立发现。
+
+Owner138另捕canonical引用、保override顺序路径，批内工作bank逐未决观察前仍freshOwner，返回前freshLoad全字段Equal及上下文再核，UNKNOWN丢整批，无跨回调缓存。6新方法/既有66相关/全2014项2013pass1SDKskip、97Lua51/119包，118.794秒；此切点尚未Native或证明提速。尤其只测两个城市无法区分旧两次读与新首尾两次读，owner用第三个已资格自有城市验证2次、次调用再读2次，避免假性能见证。末读突变到旧ARM、异常/损坏/方法/人类/回合变化、写后读未知均0send。
+
+累计Civ6普通HTTP705逻辑/654完整流（含旧692strictJSON拒绝）/48length/3最终transport/735HTTP/30extra，新实际峰1；Nov14canonical1.19.5成功cache复用，OpenCode原生生成0。cached tokens、owner主动成本/净节省null；软件、旧Native无改善、后续冷装分别分级，不因HTTP完好替候选背书。
