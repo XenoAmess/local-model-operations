@@ -6270,3 +6270,14 @@ Owner140需求扫描在原snapshot pcall内、有限rate/唯一自有集合/前�
 Owner误用禁止活游戏导航工具0输入拒绝，后续unavailable及reload门拒绝亦保留；核唯一自有已存88/QA全关后单独正式header导航，再后台只读offline，焦点短暂断言失败未依赖重载，后读自有已前台0Esc，复核才读原85。不能把导航ACK或好友状态当模式证明，无登录/联网/他人游戏终止。
 
 累计through720：720逻辑/667完整流（含旧692严格JSON拒绝）/50length/3最终transport/750HTTP/30extra，新峰1，Nov14canonical1.19.5/latest1.19.5维护成功cache复用；OpenCode原生0、cachedtokens/Owner主动成本/净节省null。721为独立未完成StageA窗口包装候选，另记。
+
+
+## 2026-11-14：721722独立窗口计时与真实消费者
+
+[固定软件证据](https://github.com/XenoAmess/civ6_dev/blob/6a71ab44230301fcc564fa59ce4f15274cc47b55/docs/research/baiqi-stageA-tooling721722-2026-11-14.json)；[新Native五窗证据](https://github.com/XenoAmess/civ6_dev/blob/d1558de58aab3e8986e65c55fcb7cfed57f8eba6/docs/research/baiqi-p6-native140-quota-fivewindows-2026-11-14.json)分别记账。StageB在全局4096下33context/1721retained/40281zero/0drops-invalid-exporterrors，396控制行经保守包络校准，Bturn约203/330/571/710/253ms，整回合提交11/10/19/12/29。不能据此授独立Bplan或匹配Bdelta/完整性能PASS。
+
+721 complete2892tokens/3402.4956ms/TTFT493.7294ms，5raw合同探针全失败：窗外仍走timed、undefined Pack、QAgetter阻断body、误标旧首row。722 complete3345tokens/4151.9503ms/TTFT534.6441ms，4raw探针全失败：传入的env未提供消费者真实functionports、QAcallback抛错可阻断后续listener、Restore读出scope对象、非法锚点不记unknown。均stop/DONE/strictJSON、各1attempt，0rawcode采用。仅在WrapWindow内部pcall不保护注册的事件回调；环境相同名字不等于接口相同。共享contract应包含实际producer和consumer，不凭JSON合法或函数存在认定兼容。
+
+Owner重写独立StageAprivate工具：prefix QAanchor早于actualgamecallback，三真实include后包装Admin.Run/Controller.RunNow；release函数体字节不变。记录整次调用/前后turn-city，留10->11，QAunknown不能阻断或掩盖body原error，restore只认自己bindings/subscriber。17新+16canonical=33不同软件方法过，97Lua51/53/119包只准备，未授StageA Native。Owner probe leading-semicolon Lua51错误、capacity元数据误设、ZIP prefix和全局ETmock范围均已纠正，不能算模型问题。
+
+累计through722：722logical/669完整流（含历史692严格JSON拒绝）/50length/3transport/752HTTP/30extra；新峰1。Nov14canonical1.19.5/latest1.19.5成功cache复用，OpenCode native0，cachedtokens/Owner主动成本/净节省null。

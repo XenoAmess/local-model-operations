@@ -1668,3 +1668,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：720仍是普通HTTP候选
 
 [720固定证据](https://github.com/XenoAmess/civ6_dev/blob/9df117eab7bf010d8c30ab54eee320fedd8444d5/docs/research/baiqi-p6-trialB-next-quota720-2026-11-14.json)维护缓存复用Nov14canonical1.19.5，0新OpenCode原生生成/工具session；部分代码采用、软件21项通过与失败Native分别记账，未知成本null。
+
+
+### 2026-11-14：721722均为普通HTTP候选
+
+[固定候选审阅及33软件检查](https://github.com/XenoAmess/civ6_dev/blob/6a71ab44230301fcc564fa59ce4f15274cc47b55/docs/research/baiqi-stageA-tooling721722-2026-11-14.json)：Nov14维护成功cache复用，0新原生OpenCode生成／工具session；两个完整候选原代码均拒绝，Owner重写与真实游戏StageB结果分别记录，未知成本null。
