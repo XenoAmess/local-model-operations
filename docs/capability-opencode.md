@@ -1683,3 +1683,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：725仍非原生OpenCode能力
 
 [725审阅](https://github.com/XenoAmess/civ6_dev/blob/fcdfef51536f230b5384d602ad26940f95d2a0e6/docs/research/baiqi-paired-normal-contract725-2026-11-14.json)维护成功cache复用、0新增原生生成／工具session；[Owner沙箱缺陷](https://github.com/XenoAmess/civ6_dev/blob/13ec163003fe61a354a358e8d503bd11982c4375/docs/research/baiqi-stageA-sandbox-correction-2026-11-14.json)与HTTP候选分别归因，23宿主检查不替代真实游戏初始化，未知成本null。
+
+
+### 2026-11-14：726普通HTTP不授原生生成能力
+
+[NativeC/726/Owner27软件方法](https://github.com/XenoAmess/civ6_dev/blob/982f54a4434fb8058f25e810126b36ddf8baff7c/docs/research/baiqi-stageA-native-anchor-inline726-2026-11-14.json)分账，Nov14维护成功cache复用；0新增原生OpenCode生成或工具session，候选部分语句采用不等于独立方案发现，未知成本null。

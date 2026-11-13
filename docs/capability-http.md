@@ -6304,3 +6304,14 @@ Owner重写独立StageAprivate工具：prefix QAanchor早于actualgamecallback�
 [725固定证据](https://github.com/XenoAmess/civ6_dev/blob/fcdfef51536f230b5384d602ad26940f95d2a0e6/docs/research/baiqi-paired-normal-contract725-2026-11-14.json)：真实未完成的paired normalEND/clockstart合同任务，complete7890tokens/3293.0225ms/TTFT1331.3672ms，单次stop/DONE/strictJSON。raw仍建议在UserForced前Begin、描述action不存在的军队准备循环、receipt只ATTEMPTED且无实际发行、无真实跨contextbridge，0代码/新软件测试/匹配Native。原paired返回source67也不能覆盖build已允许140的现实。时钟应在TEST_PLAYER军队准备后、普通RequestAction前；control真实内政gate不许靠强制END或人工内政补装过关，桥identity和实际Bdelta仍待。
 
 累计through725 725logical/672完整流（含历史692严格JSON拒绝）/50length/3transport/755HTTP/30extra，新峰1。Nov14canonical1.19.5/latest1.19.5成功cache复用；OpenCode native0，cachedtokens/Owner主动成本/净节省null。
+
+
+## 2026-11-14：726真实规划入口早于独立QA锚点
+
+[固定NativeC与软件证据](https://github.com/XenoAmess/civ6_dev/blob/982f54a4434fb8058f25e810126b36ddf8baff7c/docs/research/baiqi-stageA-native-anchor-inline726-2026-11-14.json)：修正raw内置依赖后初始化正常、74.170s预热/正式原85，普通END85->86，2anchor_missing Controller.RunNow已知时刻比独立QA86anchor早676/312ms，最终9calls/9samples、0drop/invalid/zero，traceDropped0/saturation-malformedfalse。只证明此observer延迟，不泛化引擎派发顺序，不倒推旧3unknown。原件/唯一C86保存，两包装+一个QA监听撤回，0END重发/内政补装。
+
+726 complete5007tokens/1813.2882ms/TTFT833.1388ms，单次stop/DONE/strictJSON；raw方法只传pid丢其余参数/nil孔，意外QA错误无unknown计账，2探针失败，原erroridentity探针通过。原方法拒；具体Add/Remove同alias语句经审阅部分采用，inline方向/别名合同为Owner事前指定非自主发现。Owner重写变参和异常保护，在真实nativeActivate entry先观察后原fn，duplicate不覆盖首clock，retire不移游戏callback，shutdown按alias匹配。源码声明诚实：规划和游戏回调体保持，Shutdown订阅身份行调整；不能继续称所有fn体字面未改。移除声明QA edits后逐字恢复release。
+
+4新/27相关Lua51和真实Executor方法过（含逆序dispatch软件fixture、去raw内置）；97Lua51/53/119包只准备待新Native。逆序fixture不当实际引擎顺序证据。Owner首C存档basename冲突被门拒0动作后唯一名保存；首新test stub漏colon self已修，分别记账。
+
+累计through726 726logical/673完整流（含历史692严格JSON拒绝）/50length/3transport/756HTTP/30extra，新峰1，Nov14维护成功cache复用；OpenCode native0，cachedtokens/Owner主动成本/净节省null。Bplan/Bdelta/完整TC036仍open，预算不降。
