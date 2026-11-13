@@ -6094,3 +6094,8 @@ Receipt76 posterior: owner independently keeps both original parse roles/fullval
 ## 2026-11-13: Finite historicalCAS ordinaryAction retained profile
 
 One complete stop94463in1120out/18.5159641sHTTP, TTFT12.1175072s, peak1/current0. Root/Java-prescribed3leaf literal candidate: source-review exactly6numeric changes, only118newtier/156old, rawEOL/inverse preserved. Near-bound natural4056entries has0fallback; not heap/CPU/Runtime gain. Complete12-source+log closure and outer-scope refinement beforePOST, no new helper/type/issuer. Owner actual selection pending at initial cut,0models compilation/live/no repeat. [Source/contract/candidate/cost](evidence/2026-11-13-ck3-historical-cas-action-profile-method.md).
+
+
+## 2026-11-13: GovernancePERK78 bounded admission plus archive locator
+
+One complete stop68108in2731out/24.3553709sHTTP, TTFT8.767709s, peak1/current0. Full15code+B66exactREADONLYquery, no failedcommand/body cause inference or ownerdraft.6anchors match but unsupportedPERK failopen, missing fulllegacy/ref, invalid catchbindings/import statically rejected;0javac/0adoption/no secondHTTP. Existing emitEvent/lowercaseDomain legitimate. Independent owner78 source/typing precedes modelPOST and is not model credit. [Source/origin/error/cost](evidence/2026-11-13-ck3-governance-perk78-method.md).
