@@ -1,0 +1,272 @@
+{
+  "schema": "local-model-operations.archive-replay-hotpath-review/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "scope": "One new narrow current hotpath review: existingHELD65 manifest handoff plus at most one distinct small remaining pure computation. Not the preceding Journal capacity or wrapper review.",
+  "input": {
+    "current_production_java_files": 20,
+    "held_candidate_files": 1,
+    "held_test_files": 1,
+    "files": [
+      {
+        "name": "02-DriverCapabilityRuntime.java",
+        "bytes": 55131,
+        "sha256": "542321de42c35c8c315f6eaca690351c71b1c6f59a3aa76626a0423cfa7c46b4",
+        "role": "Complete current actual production source; immutable snapshot byte-verified against currentC. Not Source79 candidate."
+      },
+      {
+        "name": "03-DriverCapabilityStateProducer.java",
+        "bytes": 93113,
+        "sha256": "fc45e8ebb5734189a2bc4a4efbd74a32a48a95997b456a418ca63b4c546f0b4c",
+        "role": "Complete current actual production source; immutable snapshot byte-verified against currentC. Not Source79 candidate."
+      },
+      {
+        "name": "04-DriverPersistentPlanningState.java",
+        "bytes": 43116,
+        "sha256": "e4d8b64da28563857690dc4d9d000a3890938212a49cba163ece33ad0d71d6ec",
+        "role": "Complete current actual production source; immutable snapshot byte-verified against currentC. Not Source79 candidate."
+      },
+      {
+        "name": "05-NativeOutcomeArchive.java",
+        "bytes": 137327,
+        "sha256": "86f7f61f200d8eb8631aeadaedb760346912fceded2d2e119af20da18b544c5e",
+        "role": "Complete current actual production source; immutable snapshot byte-verified against currentC. Not Source79 candidate."
+      },
+      {
+        "name": "06-ImmutableArtifactStore.java",
+        "bytes": 50924,
+        "sha256": "bf6eda7ccc4d90ae2ea993ea5af34ff70f8990fd3c02eac1dcc9ddcee96e036a",
+        "role": "Complete current actual production source; immutable snapshot byte-verified against currentC. Not Source79 candidate."
+      },
+      {
+        "name": "07-ActionPorts.java",
+        "bytes": 22632,
+        "sha256": "07353b1a774696b014e17257c16a4e0289b747edeedb30ecdffb571618ef02d1",
+        "role": "Complete current actual production source; immutable snapshot byte-verified against currentC. Not Source79 candidate."
+      },
+      {
+        "name": "08-ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Complete current actual production source; immutable snapshot byte-verified against currentC. Not Source79 candidate."
+      },
+      {
+        "name": "09-WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Complete current actual production source; immutable snapshot byte-verified against currentC. Not Source79 candidate."
+      },
+      {
+        "name": "10-DriverDeclarationContinuityState.java",
+        "bytes": 8947,
+        "sha256": "a7bdaaa215f84a0ee10413c99b5c81c18b2ce80d75867c71c549825cd10d02a1",
+        "role": "Complete current actual production source; immutable snapshot byte-verified against currentC. Not Source79 candidate."
+      },
+      {
+        "name": "10-DriverJson.java",
+        "bytes": 11237,
+        "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+        "role": "Actual parser/converter/sha256 implementation; preserve numeric lexemes and public arbitrary-input rules."
+      },
+      {
+        "name": "11-RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Actual final owned-byte token, defensive bytes clone, protocol/full bounds and already-active fast validation."
+      },
+      {
+        "name": "12-DriverObservationEvidenceReader.java",
+        "bytes": 23478,
+        "sha256": "f9261570044a38bec8c7254aa7d9452e2c6e9f9914df396d79a6f20336968f06",
+        "role": "CURRENT ACTUAL BASE Reader, not the held65 candidate. Full checkedManifest/captured/public/raw routes and callbacks."
+      },
+      {
+        "name": "13-DriverFrameEvidenceLoader.java",
+        "bytes": 17237,
+        "sha256": "a649f7ef7ba2032245c89429cf1618af6f2e0edba6a0c7548e1c492c8a5c508f",
+        "role": "Current owner/session decoder caches and exact-row reuse; public/fallback paths and failure cleanup remain."
+      },
+      {
+        "name": "14-DriverObservationAssembler.java",
+        "bytes": 28791,
+        "sha256": "e38f5ace67972450970a1c96db1981ef2acae7e58a30ee723f03fc9dd744b4e4",
+        "role": "Current nominal/private projection handoff and public full validation; no new trusted AST."
+      },
+      {
+        "name": "15-DriverStateSnapshot.java",
+        "bytes": 12444,
+        "sha256": "69a835a455bd2b6f6fa97ffc8c56ee75b8316471f6d54e381660cad167aa9c98",
+        "role": "Current strict decode, owned byte proof and private encoding; do not repropose those existing changes."
+      },
+      {
+        "name": "16-FullJsonTree.java",
+        "bytes": 9196,
+        "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a",
+        "role": "Current complete strict parser/encoder/bounds; no parser, hash or numeric encoding change."
+      },
+      {
+        "name": "17-OpportunityJson.java",
+        "bytes": 7208,
+        "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+        "role": "Actual full immutable DATA tree/conversion contracts."
+      },
+      {
+        "name": "18-StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Actual strict DATA validation/error contracts, not a replacement for other parser profiles."
+      },
+      {
+        "name": "19-LedgerFiles.java",
+        "bytes": 15173,
+        "sha256": "f231189a583013abfb8aac2ba0fbd3a05c338c3d7099206bf31177d583263748",
+        "role": "Actual retained publication fresh-read and Pin/lease boundary; not redundant external I/O by assumption."
+      },
+      {
+        "name": "20-IdentityBearingFileAttributes.java",
+        "bytes": 27387,
+        "sha256": "c2581fb1b43ceacac0694608c5b9a869b3ac2855052c04025fb1021020fadef1",
+        "role": "Actual handle/path/metadata/fresh identity responsibilities and callback boundaries, all preserved."
+      },
+      {
+        "name": "21-HELD65-CANDIDATE-DriverObservationEvidenceReader.java",
+        "bytes": 24325,
+        "sha256": "7c5bd58ba0afa5b621b6dc6d4eec920536d052220c117c33ea2d23bf36335e67",
+        "role": "Existing HELD65 actual candidate ONLY for review; separate from current BASE of same FQ class. Source/test historical0BEGIN/0JVM, not adopted or a new discovery."
+      },
+      {
+        "name": "22-HELD65-DriverManifestSameCallDataTest.java",
+        "bytes": 22826,
+        "sha256": "b6e2e0967b7692448f247e55360503b8b9a4bdfab2cfbd9eddc717b42e718f31",
+        "role": "Complete existing unrun owner16 DATA regression draft for held65; no test success claimed."
+      },
+      {
+        "name": "23-BOOT-THREAD75-ONCE.original.txt",
+        "bytes": 27449,
+        "sha256": "2d90b80f750b72c2e8679c0b9d12bae805f4a5049e7aba13f4e452c7ca6e973d",
+        "role": "One already-closed R75 thread dump; sample/reachability only, no frequency/CPU/prefix-hit inference."
+      },
+      {
+        "name": "24-CYCLE77-FIRST-CONFIG75-FULL-WALL-PHASES-AND-1198-CONSUMED01.json",
+        "bytes": 5315,
+        "sha256": "1f2bf3fe5a08dbdc1a419de26d52d21bf037e747a70488a4362c8fe56d2c37e9",
+        "role": "Already-held C77 inclusive wall summary. ACTION/PLAN/OBS cannot be added across nested scopes or used as CPU/unique cause."
+      }
+    ],
+    "source_message": {
+      "bytes": 704703,
+      "sha256": "2832af301efc5a5075d033aa067b0d18c4140ef821ce5e81112bc09292fc33ce"
+    },
+    "original_file_bytes": 692654,
+    "held65_ready": {
+      "bytes": 3654,
+      "sha256": "0bcff2ee87c60a688d6904b1184d48cbd9ba18a5e458c99450fd6761dd738c5a"
+    },
+    "selection": "Four unrelated large Journal/Transitions/ActionJournal/SessionPorts files excluded in full; complete Reader/Loader/Assembler/parser/fresh/identity leaves supplied, not source fragments.",
+    "existing_work": "Private protocol/full profile cache with fresh read/contentEquals, Store held parsedCommit, qualified ownedPrefix and existing strict decoder/history/row/parser/encoding reuse already active in supplied current source.",
+    "hint_boundary": "Planning independently told operator the material two-clone micro-point/provider counterexample; that specific answer was not in this first task. Returned points are not credited as independent discovery of pre-known work."
+  },
+  "requested_contract": "Review actual handoff guard/callback/error/owner behavior and 0-1 genuinely new pure small point, preserve fresh/hash/content/opaque/owner/head/guard and arbitrary public-input fallback. No new platform/cache/limits/live instrumentation.",
+  "evidence": "R75 once-only thread shows reachability, not repeated operands/hits/CPU. C77 inclusive wall summary not causal attribution or AB. No additional large originals/Driver/SEM read.",
+  "HTTP": {
+    "POST_BEGIN": "2026-11-13T05:23:31.886355+00:00",
+    "END": "2026-11-13T05:24:01.685800+00:00",
+    "status": 200,
+    "finish": "stop",
+    "DONE": true,
+    "JSON_syntax": "VALID",
+    "headers_ms": 19779.155700001866,
+    "TTFT_content_ms": 19780.482300091535,
+    "total_ms": 29799.41099998541,
+    "usage": {
+      "prompt_tokens": 153623,
+      "completion_tokens": 1456,
+      "total_tokens": 155079
+    },
+    "cached_tokens": null,
+    "attempts": 1,
+    "retries": 0,
+    "length": 0,
+    "transport_errors": 0,
+    "request": {
+      "bytes": 725298,
+      "sha256": "ddc55ad409436a0423e1a7632ee9c9953258259820b96c5879b0232b40702764",
+      "prepost_compact_byte_exact": true,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "max_tokens": 3000,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "network": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      }
+    },
+    "response": {
+      "bytes": 6122,
+      "sha256": "07f4fd6e6b426a4126ce8d878c16d01469d76bbc87ee7b826480dac366e05c7f"
+    },
+    "peak_inflight": 1,
+    "current_inflight": 0,
+    "communication": "Real BEGIN/END and complete content pointer reported before review/publication. Preparation is not service latency, CPU or in-flight time."
+  },
+  "review": {
+    "classification": "COMPLETE_STOP_UNSUPPORTED_HELD65_REJECTION_AND_CONTENT_EQUALITY_REMOVAL_REJECTED_0ADOPTION",
+    "held65": [
+      "Model says identity handoff bypasses byte/SHA validation. Actual candidate checkedManifest first clones bytes and requireExact, then takes only the parsed Obj; field/schema validation remains. No byte/SHA bypass exists.",
+      "Archive returning fresh or cached RawJson before this call does not defeat the same-call manifest object/ref passed unchanged through actual Loader. Archive RawJson token caching is not Reader AST caching.",
+      "The response acknowledges finally restores the prior handoff, but then gives a hypothetical improper exit/leak without a failing source path. Unconditional remove-before-match plus original parse fallback is not shown to violate a guard.",
+      "Unmeasured significant CPU gain is a qualification limit, not a concrete source-safety counterexample. This response does not establish a software NO or a completed/accepted implementation."
+    ],
+    "additional_candidate": {
+      "proposal": "Remove token cache-hit contentEquals after freshread and return the ExactRef-keyed cachedRawJson.",
+      "rejection": "Existing correctness requires fresh original read AND the cache/raw byte-content equality. Equalref/SHA is not a proof permitting deletion of that frozen equality; no source-grounded guard-equivalence/collision/provider/ownership argument was supplied. No change is adopted.",
+      "test_limit": "Mocking private ParsedMaterialCache/call-counting skipped equality mirrors the proposed shortcut and does not prove old/new byte/error behavior."
+    },
+    "fairness": "The model keeps readBytes in its final proposal; do not falsely call it a final recommendation to skip all fresh disk reads. The actual rejected change is removal of contentEquals and unsupported equivalence.",
+    "boundaries": "HELD65 was already owner candidate with unrun Test0BEGIN/0JVM/no adoption at input. Its prior issue is not new model discovery; this failed review does not invalidate the underlying candidate. No second same-topic POST.",
+    "owner_cut": "Root read complete6122B response and accepted zero actionable findings/code adoption. Java received full raw pointer and source review.",
+    "actionable_findings": 0,
+    "source_hunks": 0,
+    "test_edits": 0,
+    "JVM": 0,
+    "Runtime_or_performance_grant": false
+  },
+  "adoption": {
+    "actionable_findings": 0,
+    "source_hunks": 0,
+    "tests": 0,
+    "software_or_Runtime_or_speed": false
+  },
+  "operators": {
+    "model_HTTP": 1,
+    "business_HTTP": 0,
+    "production_writes": 0,
+    "test_writes": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "GET": 0,
+    "CAS_scan": 0
+  },
+  "resource": {
+    "whole_private_phase_forecast_bytes": 3145728,
+    "meaning": "Includes frozen inputs, pre/actualREQUEST/SSE/content/metadata and helpers; not extra allocation on top of preparation."
+  },
+  "next": "No repeat POST or source changes. Owner may independently qualify HELD65, with later exact software/adoption facts separate."
+}

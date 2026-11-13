@@ -6112,3 +6112,8 @@ One complete stop185926in1781out/36.2654452sHTTP, TTFT24.0765517s, peak1/current
 ## 2026-11-13: Journal79 final candidate and wrapper test review
 
 One complete stop241107in1750out/42.1776012sHTTP, TTFT31.1776409s, peak1/current0. Full13production+1selfcontainedTest, exactcompact1213520B pre/post. Seven entries conclude no defect; first locking speculation self-retracted. Proposed IOException gap ignores declared scope same-object/re-entry test and loadRecord no-throws; later fullhistory/Store coverage is outside the narrow claim.0actionable findings/0adoption, no review-green/compile/live grant, no secondPOST/JVM. [Exact source/consumer/error/cost boundaries](evidence/2026-11-13-ck3-journal79-wrapper-review.md).
+
+
+## 2026-11-13: Archive/replay hotpath and existingHELD65 review
+
+One complete stop153623in1456out/29.799411sHTTP, TTFT19.7804823s, peak1/current0; exactcompact725298B. Full20current sources+existingheldcandidate/Test. Generic handoff rejection ignores retained bytes/SHA and same-call identity; extra proposal deletes contentEquals on hash-key trust without equivalence proof.0findings/code/tests adopted, no technicalNO/software/live grant or secondPOST. [Source/error/cost](evidence/2026-11-13-ck3-archive-replay-hotpath-review.md).
