@@ -267,5 +267,104 @@
   "resources": {
     "new_private_forecast_bytes": 2097152,
     "meaning": "Named task evidence/candidates only; does not claim complete package/disk/OS memory authority."
+  },
+  "source77_exact_adoption_posterior": {
+    "recorded_utc": "2026-11-13T02:54:53.872856+00:00",
+    "selected_at_utc": "2026-11-13T01:27:29.333432+00:00",
+    "sourceReady": {
+      "bytes": 6756,
+      "sha256": "42384f9224df345d9be36da107b44dd941b0e9a884cccf36feb1f06076da040b"
+    },
+    "status": "ALL3HUNKS_BYTE_EXACT_ADOPTED_TO_ACTUAL_OWNER_SOURCE_VARIANT",
+    "actual_source_variant_not_runtime": true,
+    "sources": [
+      {
+        "name": "ActionPorts.java",
+        "candidate": {
+          "bytes": 22632,
+          "sha256": "07353b1a774696b014e17257c16a4e0289b747edeedb30ecdffb571618ef02d1"
+        },
+        "model_candidate_byte_exact": true,
+        "inverse_exact_normalized": true,
+        "numeric_changes_only": [
+          [
+            "4096",
+            "8192"
+          ],
+          [
+            "8192",
+            "16384"
+          ]
+        ]
+      },
+      {
+        "name": "ImmutableArtifactStore.java",
+        "candidate": {
+          "bytes": 50924,
+          "sha256": "bf6eda7ccc4d90ae2ea993ea5af34ff70f8990fd3c02eac1dcc9ddcee96e036a"
+        },
+        "model_candidate_byte_exact": true,
+        "inverse_exact_normalized": true,
+        "numeric_changes_only": [
+          [
+            "4096",
+            "8192"
+          ],
+          [
+            "8192",
+            "16384"
+          ]
+        ]
+      },
+      {
+        "name": "ActionContinuityAuthority.java",
+        "candidate": {
+          "bytes": 14238,
+          "sha256": "ee89104330981cd3314e806bc1d1e2022321b515e6277ef9f3f28db0d1621d92"
+        },
+        "model_candidate_byte_exact": true,
+        "inverse_exact_normalized": true,
+        "numeric_changes_only": [
+          [
+            "4096",
+            "8192"
+          ],
+          [
+            "8192",
+            "16384"
+          ]
+        ]
+      }
+    ],
+    "normalized_patch": {
+      "bytes": 2654,
+      "sha256": "ee36c9c59b39996ce78013082594c6a58c02772aaaff8a83b57dcc51acfac884"
+    },
+    "model_hunks_adopted": 3,
+    "semantic_owner_code_changes": 0,
+    "owner_hint_separate": "Root/Java explicitly prescribed exact finite tier, only118 selection, old156 and six numeric positions. Model supplies exact literal implementation, not independent source diagnosis/optimization discovery.",
+    "source_scope": [
+      "Only ordinary IntentDurable/Submitting, nonOperator and nonphysical existing withReadValidation gate selects8192pub/256MiB/16384handles at118",
+      "validationHead captured outer archive is reused by revalidate/reduce canonicalReceipts139-151; no nested HistoricalReadScope is created",
+      "canonicalReceipts fallback156 and allRecovery/Planning/Bootstrap caller defaults remain4096pub/256MiB/8192handles",
+      "Ports record constructor and Store entry validation share the same new finite maxima8192/16384; bytes upper bound unchanged256MiB",
+      "Every existing admission predicate/order, full fresh validation, fallback, firstFailure poison, trace qualification and close cleanup remains byte-for-byte unchanged",
+      "New limits apply only to newly created scopes; existing HistoricalReads final budgets remain their original values"
+    ],
+    "qualification": "This named Ready is source-only at its selection cut; no javac/behavior/Runtime/HCR credit is granted here. Any later Native results need independent actual receipts.",
+    "current_model_HTTP_unchanged": {
+      "requests": 1,
+      "input_tokens": 94463,
+      "output_tokens": 1120,
+      "total_ms": 18515.964100020938,
+      "current_inflight": 0
+    },
+    "new_activity": {
+      "HTTP": 0,
+      "JVM": 0,
+      "production_writes": 0,
+      "Game_Native_live": 0,
+      "sourceRO": "Only existing namedReady+byte/pin equality, not another source review or implementation."
+    }
   }
 }

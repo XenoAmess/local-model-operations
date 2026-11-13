@@ -6099,3 +6099,6 @@ One complete stop94463in1120out/18.5159641sHTTP, TTFT12.1175072s, peak1/current0
 ## 2026-11-13: GovernancePERK78 bounded admission plus archive locator
 
 One complete stop68108in2731out/24.3553709sHTTP, TTFT8.767709s, peak1/current0. Full15code+B66exactREADONLYquery, no failedcommand/body cause inference or ownerdraft.6anchors match but unsupportedPERK failopen, missing fulllegacy/ref, invalid catchbindings/import statically rejected;0javac/0adoption/no secondHTTP. Existing emitEvent/lowercaseDomain legitimate. Independent owner78 source/typing precedes modelPOST and is not model credit. [Source/origin/error/cost](evidence/2026-11-13-ck3-governance-perk78-method.md).
+
+
+CASprofile77 source posterior: all3modelhunks byte-exact selected into owner actual source variant,0semantic owner edits; prescribed tier/only118/gate diagnosis separately credited Root/Java. Initial pendingcut kept, later3hunk adoption explicit. Existing namedReady only, no software/HCR/Runtime/ROI grant or newHTTP/JVM/live. [Exact-source adoption posterior](evidence/2026-11-13-ck3-historical-cas-action-profile-method.md#posterior-source77-exact3hunk-source-adoption).
