@@ -6211,3 +6211,8 @@ Owner138另捕canonical引用、保override顺序路径，批内工作bank逐未
 [139Native与709工具](https://github.com/XenoAmess/civ6_dev/blob/f24ed689c2e38d227e86ca672a029a318b9ba74a/docs/research/baiqi-p6-native139-observed709-2026-11-14.json)：已采九域同333全等，1254自然根0drop/invalid，Adminp95约22ms仍高于20ms；不同窗口/进程不得宣称严格8ms代码收益或全脚本B_turn/B_delta通过。尝试包装Native忙碌读取失败，实证原函数未改、0调用，清理未启用全局；不把失败计数器当成功证据。709完整23366tokens/17345.6302ms，原diff apply-check exit128；只采版本/产物命名方向，Owner补有界4096限制、Lua51/53编译及67元数据兼容。24实际方法通过，含真实变换Core捕canonical、override回退和根去重；首次Owner错误module入口ImportError在未跑8项前失败，修正discovery后8过。私有119文件/97Lua/33入口包只准备未安装；协议marker67与实际产品139需分开。
 
 四任务均一次HTTP、stop/DONE/合法JSON，新实际峰1；through709累计709逻辑/658完整流（含旧692严格JSON拒绝）/48length/3最终transport/739HTTP/30extra。Nov14canonical每日检查1.19.5/latest1.19.5成功缓存复用，OpenCode原生生成0，cachedtokens/Owner主动成本/净节省null。710为另一个真实未完成任务，不混入本计数。所有游戏步骤Steam离线，无发布。
+
+
+### 2026-11-14 独立PreparedCleanupEvidence02两项审阅与A入口范围后验
+
+两题只审冻结Evidence02单DATA叶（各55Java/4合同），不混B19/22PARTIAL/未来Originals改稿。首请求均stop/DONE/valid、0retry，合416409输入/2774输出tokens，真peak2重叠63.542657秒，当前0。A无finding/UUID异常类型措辞修正；B三claims未成立：callee已强制IDLE2后fresh顺序，独立READ失败诊断非CANCEL同RID，failure中expired binding DATA非正向许可。0代码/Test采用/不授cap/ACK/控制/真实继任。另后到owner说明A入口无Ordinary业务worker不等于无offline restore/submission，不借此给模型发现或回写旧input。见[late](evidence/2026-11-14-ck3-prepared-cleanup-evidence02-late-review.md)、[postACK/failure](evidence/2026-11-14-ck3-prepared-cleanup-evidence02-postack-failure-review.md)、[入口scope勘误](evidence/2026-11-14-ck3-noeffect-entry-offline-service-scope-posterior.md)。

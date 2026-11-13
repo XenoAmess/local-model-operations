@@ -1,0 +1,22 @@
+{
+  "schema": "local-model-operations.owner-source-scope-posterior/v1",
+  "date_local": "2026-11-14",
+  "origin": {
+    "name": "READONLY-ENTRY-OFFLINE-SERVICE-SCOPE-ERRATUM02.json",
+    "bytes": 2480,
+    "sha256": "cedde38402dcf98656e4fe972d7a9ddcc917146ef727061397afac97682c8520"
+  },
+  "original_A18_ready": {
+    "bytes": 25756,
+    "sha256": "01b0b470ee1b2a97f2ff9a8f063add2b42240219448da51b6f437ac83a0de7fd"
+  },
+  "correction": "A separate read-only entry does not install OrdinaryHost, run Controller/business worker, continue the parent or call a Native action. Its existing finishObserved route also installs/binds offline analysis, so a blanket no-worker statement was too broad.",
+  "existing_chain": [
+    "RootApplicationAssembly.finishObserved -> RootOfflineAnalysisWorker.Prepared.install -> OfflineAnalysisWorker.bind",
+    "Bounded fixed-root matching originals may restoreOrSubmit. Completed terminal can avoid submission; missing terminal and eligible failure reanalysis can submit. Terminal presence alone does not prove zero tasks."
+  ],
+  "actual_current_job_classification_at_note": "NOT_HELD; Runtime owns fixed-root actual inspection",
+  "provenance": "Owner/Runtime later source-scope correction, not a finding from the prior three complete model responses. Original input/response/cuts and first140class typing remain historical and are not rewritten.",
+  "new_model_HTTP_JVM_source_Test_Game_Native_ledger_actions": 0,
+  "new_model_hunk_or_discovery_credit": 0
+}
