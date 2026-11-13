@@ -6245,3 +6245,8 @@ Owner140需求扫描在原snapshot pcall内、有限rate/唯一自有集合/前�
 [717助手](https://github.com/XenoAmess/civ6_dev/blob/0256513baabeab2f82328bed4d4f6ae68425a8c2/docs/research/baiqi-p6-timing-transition717-software-2026-11-14.json)：完整7615tokens/4992.3478ms，raw6方法首测8Lua子错误、只有正常路径整方法过；额外键、Snapshot/clock/emit异常、错回合先改、计数未增/记录丢失/绑定变更等缺陷，0原代码采用。Owner两阶段预检+逐项新鲜确认/clockrows+最后全核，未知不猜回滚或重放；6新Lua51方法0.093秒过，最后加入Snapshot期间注册集合突变例。仍非Native切换PASS。
 
 四调用均一次HTTP/stop/DONE/严格JSON；through717累计717逻辑/664完整流（含旧692严格JSON拒绝）/50length/3最终transport/747HTTP/30extra，新峰1。Nov14canonical1.19.5/latest1.19.5成功cache复用；OpenCode原生0，cachedtokens/Owner主动成本/净节省null。冷测继续，软件/Native/预算分级不混同。
+
+
+### 2026-11-14 B child06 actualRoot与SDK两项完整源码审阅
+
+前2固定三消息100/89完整Java，source-high-concurrency-direct600/2400/max3000，实际2POST均stop/DONE/valid、0retry；合956296输入/2447输出tokens，真peak2重叠136.553698秒，当前0。Root3claims未证：journal cache随head seq+digest，独立TL不是越过session，consume前后fresh拒期正是目标；finally覆盖Error、依赖核验先于head。运营首前缀漏完整SnapshotReader，后到RO补核单记、不回填输入/重投，原Journal已完整提供。SDK有限流程概述0finding/0代码/Test采用。只child-stage，不授父projection/同IDproofpromotion/Main或全B/实际控制；后到07编前后serial/import纠正独立归owner。见[Root](evidence/2026-11-14-ck3-child06-root-held-scope-review.md)、[SDK](evidence/2026-11-14-ck3-child06-sdk-capture-review.md)。
