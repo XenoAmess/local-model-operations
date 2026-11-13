@@ -6154,3 +6154,8 @@ Complete stop129538in546out/37.8213736sHTTP, TTFT33.1935653s; full11inputs, exac
 ### 2026-11-13 C81 final7：四项真实并发完整源审
 
 四个独立题先冻结再并发，完整Java79/74/74/75及5个完整小证据，均stop/DONE/JSON有效、0retry；真实peak4重叠175.166667秒，合1665110输入/3157输出tokens，当前0。79源的439509输入实际200是已验点，不是配置ctx上限；queue/cache未采不推。预算题仅总结已给operand且未追完整SDK写边界；UNKNOWN4题改对三读角色但其child已APPLIED/parentUNKNOWN就拒的测试错；身份矩阵不是全面authority证明；legacy题marked fallthrough和SAVEcollector归属已纠。0新finding/0代码/Test采用，不补第五/二投。Root新接受精确同Game/session/DLL后端范围与sourceprivatefalse分开，旧未持cut不追改。owner后到SDK回调跨expiry的条件源码观察单列，不冒model发现/自然发生。见[预算](evidence/2026-11-13-ck3-c81-final7-operation-freshness-review.md)、[UNKNOWN4](evidence/2026-11-13-ck3-c81-final7-unknown4-review.md)、[custody](evidence/2026-11-13-ck3-c81-final7-proof-custody-review.md)、[legacy](evidence/2026-11-13-ck3-c81-final7-legacy-review.md)。
+
+
+### 2026-11-13 captured primitivePause 与 sameGameHistory512 两项新审
+
+两完整current源码题41/47Java+5原件，先冻后并发，均stop/DONE/JSON有效、0retry；合641253输入/1277输出tokens，真peak2重叠87.912226秒，当前0。严格primitivePause零credit角色与named default256/concrete512概述有限一致，0新finding/0代码/Test。B三admission公式实际正确，不误记错；finish escaping/suppressed与独立cleanup精度纠正，664namedraw/配置2g不当heap实测。A新helper不等于fullDriver/Nativecustody已资格；首4TU92编绿属于owner/Native，不归模型。无二投/第三题/实机探测。见[Pause角色](evidence/2026-11-13-ck3-captured-primitive-pause-role-review.md)与[512scope](evidence/2026-11-13-ck3-samegame-history512-scope-review.md)。

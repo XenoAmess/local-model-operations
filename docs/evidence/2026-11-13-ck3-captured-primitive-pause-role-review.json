@@ -1,0 +1,464 @@
+{
+  "schema": "local-model-operations.captured-pause-history512-source-review/v1",
+  "date_local": "2026-11-13",
+  "mode_id": "ordinary_http_candidate",
+  "input": {
+    "complete_java_files": 41,
+    "complete_nonJava_evidence_files": 5,
+    "full_files": [
+      {
+        "name": "ActionPorts.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionPorts.java",
+        "bytes": 23186,
+        "sha256": "8f442da38de05a11daa15c4d8eb700f7c609a7e82d4d8de5ea94c171f2b676a7",
+        "role": "Complete final coherent cohort03 candidate; isolated source-only, not active source or successful recovery."
+      },
+      {
+        "name": "ImmutableArtifactStore.java",
+        "relative_source": "adapters-storage/src/main/java/org/xar/ck3/control/continuity/writer/ImmutableArtifactStore.java",
+        "bytes": 51679,
+        "sha256": "f3726e0e38a7137b1dc6fbf4c7093a49aa1b4454b65f07187dd30b0d46563ed2",
+        "role": "Complete final coherent cohort03 candidate; isolated source-only, not active source or successful recovery."
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "relative_source": "local-service/src/main/java/org/xar/ck3/control/continuity/writer/NativeOutcomeArchive.java",
+        "bytes": 138185,
+        "sha256": "d594cda2b3a42fa7006a170081a1afb31ec73d33f9d10d4e159f14e3a7fa2491",
+        "role": "Complete final coherent cohort03 candidate; isolated source-only, not active source or successful recovery."
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/session/ContinuityBatchJournal.java",
+        "bytes": 458357,
+        "sha256": "9940113f4d677bc94254b27fa389e187b99e4b49615e45cb8f9a899ad1cf3419",
+        "role": "Complete final coherent cohort03 candidate; isolated source-only, not active source or successful recovery."
+      },
+      {
+        "name": "ActionReceipt.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionReceipt.java",
+        "bytes": 5260,
+        "sha256": "03db0d0edd0facf9fcabb24897a870c4eac11f13b67808cebef583b06c6a63d4",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "ActionState.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionState.java",
+        "bytes": 14316,
+        "sha256": "8314f584b52894527378071b113be4a5d3916581c04ca862d9530679e3cafd8c",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "ActionCommand.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionCommand.java",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "ActionCodec.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionCodec.java",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "ActionReceiptCodec.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionReceiptCodec.java",
+        "bytes": 56700,
+        "sha256": "6fa780306dfd325f06823f1c1906605065683401ca880486f81c1ccdc8d6d3fc",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "ActionEffects.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionEffects.java",
+        "bytes": 45736,
+        "sha256": "a6458085d22674ed3070e941160adc27e2190ac5fa343116f6f318b78e212dbc",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "PauseConfirmation.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/PauseConfirmation.java",
+        "bytes": 5138,
+        "sha256": "188c5ef8a5b7cab253b3bf8a9c0ead0bbdea163dc812e34f95df0c9764b5a673",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "ObservationProvenance.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ObservationProvenance.java",
+        "bytes": 6754,
+        "sha256": "14dcfffc1711e029cb84620e792591a80324e6967a61bb20ceda797cec84af95",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "ObservationProvenanceCodec.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ObservationProvenanceCodec.java",
+        "bytes": 7789,
+        "sha256": "de619a1205a9a266f7158b72839d75398fdc2a7f084e43e0c20b7c0580e0ba05",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "NativeActionPort.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/NativeActionPort.java",
+        "bytes": 8817,
+        "sha256": "57fa4858639ec594dded7dcc3a165fa17ca15bdb614a2b0200dc436bc28b45d4",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "NativeRequestChronology.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/NativeRequestChronology.java",
+        "bytes": 14185,
+        "sha256": "ec05a0cea8abcf21bc7a6bc26c47c1baaa1dbe45e0e4f878c61616cb549f3c92",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "GuardEvidence.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/GuardEvidence.java",
+        "bytes": 6176,
+        "sha256": "a26fcda93c132568c925090f4717fe1023be4534ce94c74afa7303b4d2a47247",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "CommandOrigin.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/CommandOrigin.java",
+        "bytes": 5057,
+        "sha256": "3036eb8836c7c4cd76e188d44e1ae664896833a650577d2b0c5aecd6f367ce82",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "RawJson.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "PhysicalStatusIdentity.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/PhysicalStatusIdentity.java",
+        "bytes": 4112,
+        "sha256": "ed93358d81a387771be86249a5ec183a9fba9da02f88062e26329f9abaaa2699",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "PlanningReadReceipt.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/PlanningReadReceipt.java",
+        "bytes": 6590,
+        "sha256": "cb78eab706c7497a48a7db8f534c892d8f1fe6790fd0fc730750035dea5efd12",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "PlanningReadRequest.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/PlanningReadRequest.java",
+        "bytes": 3568,
+        "sha256": "66c1a78677fc47c6398fb064d94112448b46c3410f5c549a132bcedd3770137a",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "ActionJournal.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ActionJournal.java",
+        "bytes": 2794,
+        "sha256": "5b224d9636086b5d23614e84f1398e402c45031c59b8049131fb06edc974ad51",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "ContinuityActionJournal.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/action/ContinuityActionJournal.java",
+        "bytes": 24362,
+        "sha256": "801c38e4c00a8da9908ec7a9790903ca3b38aee70612dd754fdb75ddf9039f35",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "DriverActionHistoryState.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/driver/DriverActionHistoryState.java",
+        "bytes": 15733,
+        "sha256": "2b79400b3ec4f8a459308780ce925ef97b5c342b45e22d368f9eadbc4fe96c11",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "DriverActionHistoryCodec.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/driver/DriverActionHistoryCodec.java",
+        "bytes": 28812,
+        "sha256": "9a2f025c787ffbf7b22e94076bfd47a6c6accd43da094281414e7d9dc9df706a",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "DriverActionHistoryPublisher.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/driver/DriverActionHistoryPublisher.java",
+        "bytes": 29138,
+        "sha256": "fa69685f9ec6cf2ca9a22901f9e427925b3b52464e27dd3ca7b44eb0b01af626",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "DriverSnapshotFacts.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/driver/DriverSnapshotFacts.java",
+        "bytes": 14955,
+        "sha256": "f557be8eb7c2e7a43a4c7eb30e4bae25a53f046cda38a33c71edbbbc1208d446",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "DriverJson.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/driver/DriverJson.java",
+        "bytes": 11237,
+        "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "DriverCapabilityStateProducer.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/driver/DriverCapabilityStateProducer.java",
+        "bytes": 93113,
+        "sha256": "fc45e8ebb5734189a2bc4a4efbd74a32a48a95997b456a418ca63b4c546f0b4c",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "NativeRecordedEvidenceVerifier.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/effects/NativeRecordedEvidenceVerifier.java",
+        "bytes": 42822,
+        "sha256": "5701da6aa598aa25f4d73885a2812ba530303e2e6f117bfd9d94e02a5fe44421",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "NativeEffectEvidence.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/effects/NativeEffectEvidence.java",
+        "bytes": 25459,
+        "sha256": "f1a0bd22c4f179e635554f8c7996ea2290f6a4a18fce738d4a9437a39ee6c490",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "RootGuardEvidence.java",
+        "relative_source": "application/src/main/java/org/xar/ck3/control/application/effects/RootGuardEvidence.java",
+        "bytes": 13774,
+        "sha256": "976ce47e315e1273944482dd6c981239d1a0611297f0a42e9bfc94df229ea7d6",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "ExactRef.java",
+        "relative_source": "contracts/src/main/java/org/xar/ck3/control/contracts/ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "StrictJson.java",
+        "relative_source": "contracts/src/main/java/org/xar/ck3/control/contracts/StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "OpportunityJson.java",
+        "relative_source": "planning-runtime/src/main/java/org/xar/ck3/control/planning/opportunity/OpportunityJson.java",
+        "bytes": 7208,
+        "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "ProposalLifecycle.java",
+        "relative_source": "g2-research/src/main/java/org/xar/ck3/control/g2/planning/ProposalLifecycle.java",
+        "bytes": 15603,
+        "sha256": "3c154565347db1d227e54ccc336dcadb255be23d6f5a238e4026f95645126603",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "WriterContracts.java",
+        "relative_source": "continuity-core/src/main/java/org/xar/ck3/control/continuity/writer/WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "relative_source": "continuity-core/src/main/java/org/xar/ck3/control/continuity/writer/ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "StorageWriteGuard.java",
+        "relative_source": "continuity-core/src/main/java/org/xar/ck3/control/continuity/writer/StorageWriteGuard.java",
+        "bytes": 7252,
+        "sha256": "beac715b9e08e4b712c69be2154142c3d8a95c141b0829d90dc0b744816b36ab",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "LedgerFiles.java",
+        "relative_source": "adapters-storage/src/main/java/org/xar/ck3/control/continuity/writer/LedgerFiles.java",
+        "bytes": 15173,
+        "sha256": "f231189a583013abfb8aac2ba0fbd3a05c338c3d7099206bf31177d583263748",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "IdentityBearingFileAttributes.java",
+        "relative_source": "contracts/src/main/java/org/xar/ck3/control/contracts/source/IdentityBearingFileAttributes.java",
+        "bytes": 27387,
+        "sha256": "c2581fb1b43ceacac0694608c5b9a869b3ac2855052c04025fb1021020fadef1",
+        "role": "Complete current direct declaration/producer/consumer, unchanged by this candidate; no formal or stale BASE substitution."
+      },
+      {
+        "name": "PAUSE1927-EXACT-ROLE-AND-PRODUCER-THIN01.json",
+        "relative_source": null,
+        "bytes": 5579,
+        "sha256": "5514902c8d4296860b9d206e963b4883900beaedc609a7cbe5d5aff029515375",
+        "role": "Complete existing precise first1928/primitive1927 role evidence, not current UNKNOWN parent authority."
+      },
+      {
+        "name": "PAUSE1927-CANONICAL-PRODUCER.original.json",
+        "relative_source": null,
+        "bytes": 9917,
+        "sha256": "d81db3cb5128c8a4acef75252ea51d72f3f22a8193d681b0f0fa5661612b6bcd",
+        "role": "Complete existing9917B canonical-only producer original; no Driver/SEM/big request read or CAS scan."
+      },
+      {
+        "name": "FIRST-FAILURE-AND-FULL-STACK.original.txt",
+        "relative_source": null,
+        "bytes": 6617,
+        "sha256": "dc99de402cf66c3b23d45bcc2f861a9486ba4df37fc52d3da5283b6cb2421efa",
+        "role": "Complete existing first BOOT failure/stack and one natural scope metrics; not a new sample."
+      },
+      {
+        "name": "R77-NATURAL-CAS-BYTE-BOUND-AND-PHASE-BUDGET-RO01.json",
+        "relative_source": null,
+        "bytes": 7667,
+        "sha256": "a4a5ae69a153777d4e0894ee508d7effe8644a506a2e9874165af2cd0ce8ba56",
+        "role": "Complete Native RO natural bytebound/profile/heap-configuration limitations, not actual heap or performance proof."
+      },
+      {
+        "name": "ACTUAL-START307.json",
+        "relative_source": null,
+        "bytes": 4681,
+        "sha256": "f34e313ecb4aa17ab21207c7a0eea2d9d6d5a8dee55e40de4efcb9c332b83792",
+        "role": "Complete existing launch argv: target-Xmx2g only; not a usedheap/freeheap observation."
+      }
+    ],
+    "source_message": {
+      "bytes": 1379403,
+      "sha256": "3b43ef3cef23e238a82ac0cf25feb876a50477917072d2f5ab4eec8d54803125"
+    },
+    "ready": {
+      "bytes": 8814,
+      "sha256": "e91ba3afbed1c9d8a242d413db4651547399208843f53fd54a6de3de43541bc9"
+    },
+    "hint_level": "Root/Java supplied first historical pause cause, strict CanonicalOnly zero-credit role and fixed512/default256 design. Actual small producer/stack/metrics/launch originals included, no big Driver or new live query. Not independent model diagnosis/design."
+  },
+  "HTTP": {
+    "POST_BEGIN": "2026-11-13T12:45:14.838700+00:00",
+    "END": "2026-11-13T12:46:42.751659+00:00",
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "json_syntax": "VALID",
+    "headers_ms": 78977.37779992167,
+    "TTFT_content_ms": 78978.56749990024,
+    "total_ms": 87913.00479997881,
+    "usage": {
+      "prompt_tokens": 292382,
+      "completion_tokens": 397,
+      "total_tokens": 292779
+    },
+    "cached_tokens": null,
+    "attempts": 1,
+    "retries": 0,
+    "length": 0,
+    "request": {
+      "bytes": 1413269,
+      "sha256": "4bfddecd52a13ff8a1385c567dfcf8d8d61d1f41fa035e6efc112c34bc8eca92",
+      "prepost_byte_exact": true,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "max_tokens": 3000,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "network": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      }
+    },
+    "response": {
+      "bytes": 1859,
+      "sha256": "25e11a376ef730db6126caf02bc2af0989f6b77a2e53cbfc19b7526148243e04"
+    },
+    "raw_SSE": {
+      "bytes": 51656,
+      "sha256": "1487f9b6c5e6dcd4d941d14c8d43225ae588c14e505f5e712d496b293b4795d5"
+    },
+    "full_stream_reconstruction_byte_exact": true,
+    "current_inflight": 0,
+    "communication": "True BEGIN and END/cost/output pointers reported before detailed source review/publication."
+  },
+  "pair_HTTP": {
+    "actual_peak_HTTP": 2,
+    "overlap_seconds": 87.912226,
+    "current_inflight": 0,
+    "input_tokens": 641253,
+    "output_tokens": 1277,
+    "sum_HTTP_ms": 178935.10939995758,
+    "retries": 0,
+    "third_task": 0,
+    "preparation_not_inflight": true,
+    "service_queue_or_cache": "NOT_HELD; no probe or timing inference",
+    "whole_phase_limit_each": 5242880,
+    "pair_limit": 10485760,
+    "all_previous_actual_and_reserves_kept": true
+  },
+  "review": {
+    "classification": "LIMITED_STRICT_PAUSE_DATA_ROLE_AGREEMENT_0_NEW_FINDING_CODE_TEST",
+    "supported": [
+      "The new branch is primitive Settled(PauseConfirmed), pause-map/empty arguments, TERMINAL_WITHOUT_EFFECT, no visible/applied/eligible credit, no legacy row and exactly one after-frame sidecar.",
+      "ActionEffects/PauseConfirmation and exact CanonicalOnly DIRECT_API producer bind action/body/sequence/outcome/receipt and ordered native/material refs; unchanged later original/canonical/complete Driver checks still run.",
+      "The candidate does not accept the current UNKNOWN parent, widen all terminal outcomes or grant action/day/SAVE credit. Old APPLIED and Life rejection guards are preserved."
+    ],
+    "limits_and_corrections": [
+      "This is a summary of owner-supplied cause/role, not an independent discovery. The answer identifies no new counterexample or adopted test.",
+      "Distributed guards are not all implemented in State.requireOriginal: Journal also checks the captured predecessor/version/episode/before Driver and reduction before its mandatory original consumer. Do not promote the summary to a single helper authority proof.",
+      "The new branch and suggested DATA methods alone do not prove full Driver equality or concrete NativeArchive custody. Those require the actual later consumers/legitimate original ports.",
+      "Independent cohort4TU/92 production typing was reported by Root before POST; it is owner/Native evidence, not earned by this source review. Full history/recovery/Runtime/credit remains separate."
+    ],
+    "adoption": {
+      "new_model_findings": 0,
+      "source_hunks": 0,
+      "test_hunks": 0,
+      "limited_role_consistency": true,
+      "Runtime_or_ROI": false
+    }
+  },
+  "adoption": {
+    "new_model_findings": 0,
+    "source_hunks": 0,
+    "test_hunks": 0,
+    "limited_role_consistency": true,
+    "Runtime_or_ROI": false
+  },
+  "operator_boundary": {
+    "model_HTTP": 1,
+    "business_HTTP": 0,
+    "production_Test_writes": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "GET": 0,
+    "new_large_Driver_SEM_DLL_request_read": 0,
+    "service_probe": 0
+  },
+  "resource": {
+    "whole_phase_limit_each": 5242880,
+    "pair_limit": 10485760,
+    "all_pre_actual_requests_streams_helpers_metadata_counted": true,
+    "shared_helpers_common_metadata_charged_once_to_A": true,
+    "old_allocation_actual_reserves_kept": true
+  },
+  "next": "No second review or third paired topic to manufacture a finding. Owner/Native tests, actual class loading/full-history recovery and Runtime outcomes require separate exact receipts."
+}
