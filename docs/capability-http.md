@@ -6392,3 +6392,8 @@ Owner工具3新/6相关方法过，1—12唯一词法目标、默认尾段与冻
 已知v1限定观察器通知后，未证明I遗漏了哪次尖峰。下一显式v2诊断保留全部active88/89通知前入口，加原通知后10秒，保全区间按真实锚点分类，不造物理事件时间/补旧行。737完整predicate函数体字面采用，Owner事前确定范围；8实际constructor/profile合同检查过，Owner3新/9相关构建方法过、97Lua51/53/119包仅准备。v1粗/细生成字节与冻结G/H逐字一致，4096单池/透传/产品140保持。
 
 1attempt/stop/DONE/strictJSON；total_tokens=5186, completion_tokens=188, total_ms=1898.0289, TTFT_ms=818.0491。累计737logical/684完整流（含历史严格JSON拒绝）/50length/3finaltransport/767HTTP/30extra，新峰1；Nov14 canonical1.19.5维护成功cache复用，OpenCode native0，cachedtokens/Owner主动成本/净节省null。
+
+
+### 2026-11-14 StageC proof与readonly路由两项真实源码审阅：一完整、一length弃用
+
+A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Frame完整）；3消息/source600/2400/max3000，真实2POST、0retry、峰2重叠167.419853秒。A stop321789in801out，0finding有限流程概述；B length787808in3000out整件UNUSED、未语义读/解析/拼接/续问，不授第二份可用审查。reported合1109597in3801out含弃用，不能推serverctx/并发。Root同16M内改A7/B9完整source，独立fresh已保；原小binary包以全Base64字节/哈希核，6.9M旧SEM/DLL仅ref不假读。NoEffect非NoDispatch/ACK/新credit；软件首编独立，0modelcode/Test采用，当前0HTTP。见[proof](evidence/2026-11-14-ck3-stagec-proof-raw-review.md)、[readonly length](evidence/2026-11-14-ck3-stagec-readonly-route-length.md)。

@@ -1,0 +1,840 @@
+{
+  "schema": "local-model-operations.StageC-source-pair/v1",
+  "date_local": "2026-11-14",
+  "mode_id": "ordinary_http_candidate",
+  "input": {
+    "complete_java_files": 92,
+    "complete_other_files": 4,
+    "full_files": [
+      {
+        "name": "ActionCommand.java",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionCodec.java",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionPorts.java",
+        "bytes": 23186,
+        "sha256": "8f442da38de05a11daa15c4d8eb700f7c609a7e82d4d8de5ea94c171f2b676a7",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionState.java",
+        "bytes": 16004,
+        "sha256": "1b58941b54451bb573b5c4c064044e2ad09622353f8b517645e1dbf8140ea611",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionReceipt.java",
+        "bytes": 5725,
+        "sha256": "2857682e8bbc4fe71444bc884e13cc67aa02ac56ae20ee5bcb97569dc67c4931",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionReceiptCodec.java",
+        "bytes": 59676,
+        "sha256": "5ee4f19c163df53b0bfb2955f68bae26b70bcd2bdb6dfca122865a1a1b00c8bd",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionTransitions.java",
+        "bytes": 12638,
+        "sha256": "ea9ab55ad074b0f8910bc4bc3214dfe973bc579ccb85070472db7934504342e0",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionIds.java",
+        "bytes": 3215,
+        "sha256": "3ec3268ab673adb38b84b666ec413ccca27596e1e88c07f24065109b7ecb869b",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RequestIds.java",
+        "bytes": 1393,
+        "sha256": "0db5fefc4039e4e4445e5c947d041b8eb3cb21de06566e7b7040847b06ec1b0f",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "OperationKey.java",
+        "bytes": 413,
+        "sha256": "bc21f4c9f71e1964569c1c0218e38cf3c9b5177da99338b28bfa08ddd043ca57",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "CommandOrigin.java",
+        "bytes": 5057,
+        "sha256": "3036eb8836c7c4cd76e188d44e1ae664896833a650577d2b0c5aecd6f367ce82",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "GuardEvidence.java",
+        "bytes": 6176,
+        "sha256": "a26fcda93c132568c925090f4717fe1023be4534ce94c74afa7303b4d2a47247",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeActionPort.java",
+        "bytes": 11308,
+        "sha256": "ff69d9d5ef6a75c0f5c03e9b83a165a1e5544d4e8f044d3c886bd865a04daa81",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeRequest.java",
+        "bytes": 2170,
+        "sha256": "0030edd3d9987415a4a7cac48157eb7455ef5586098defe7d6b1e9f8b503d83e",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeObservationPort.java",
+        "bytes": 1639,
+        "sha256": "66f33fcee1823e3acf9bd2ff047b953d7de1dc74032a1751aefca47fe62b8d2b",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeRequestChronology.java",
+        "bytes": 14185,
+        "sha256": "ec05a0cea8abcf21bc7a6bc26c47c1baaa1dbe45e0e4f878c61616cb549f3c92",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PlanningReadReceipt.java",
+        "bytes": 6590,
+        "sha256": "cb78eab706c7497a48a7db8f534c892d8f1fe6790fd0fc730750035dea5efd12",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ReadContract.java",
+        "bytes": 28138,
+        "sha256": "293b06cba88a8eda29c73b48f599583dc63234e9ee8f7cb957a1202b5d6a76e8",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupAction.java",
+        "bytes": 3457,
+        "sha256": "dbe40c5a575cddd012ac8c06773fb914f3bd4d9a124dbc2dab5f4f757d5210d2",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupActionCodec.java",
+        "bytes": 3783,
+        "sha256": "e4d3252bda8d172229c7b44ded969df0d9404aa63d531f953a165e474cb7c35c",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupEvidence.java",
+        "bytes": 42480,
+        "sha256": "4ece8d5a18f747a52d00dc5320eff7f1869579b37acda37c6c0c99202ea73c66",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupNoEffectProof.java",
+        "bytes": 32651,
+        "sha256": "871d5b3ddc2ad495608548d095ab1c4965e12c9dbfa9c3dee2fcf006b1212bf8",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedNoEffectReconciliationToken.java",
+        "bytes": 2634,
+        "sha256": "3577ba81da273a8d20124fbb00c84894a8d95842f6352bbb7948ef539f2cd882",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PostExitCleanupNoEffectProof.java",
+        "bytes": 33571,
+        "sha256": "91780874e76b81c4fb25ab8e2b5bbb0d2aba2f104426a660f3338ffe0cbc5665",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "LifePostResumePauseCleanupProof.java",
+        "bytes": 29764,
+        "sha256": "9f40c17deef892fca478603b910e684c83c0453f32afe59dedeceb1fd7eb258b",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "LifeAdvanceEvidence.java",
+        "bytes": 31643,
+        "sha256": "4621dce43198b0c4cd8c0ace938a2fcfb907dc3e5487cd7c30717d2473da713f",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "AdvanceObservationPort.java",
+        "bytes": 4863,
+        "sha256": "dbeb58bfb6b02fd40f4d6dc41beb1e14b47bc449e9a1753797da988ee9effd99",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ObservationProvenance.java",
+        "bytes": 7460,
+        "sha256": "540fe19d51f5f005171721ad218d124405bda3c79d52e67bd90bb07acfa42f1f",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ObservationProvenanceCodec.java",
+        "bytes": 8512,
+        "sha256": "63be48a433977e1598106e232b861e93901d25fe914b7b4d81f67d560cd602e9",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "AdvanceClock.java",
+        "bytes": 39197,
+        "sha256": "35e3f0f8678d8dd1be5305b019e6f0b802146c825ccd08c711c51e60d738cab6",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ClockStatusRead.java",
+        "bytes": 18063,
+        "sha256": "f6d3be5a0eb7adba055c06dbbf5d548dbf2b38ce4d02077e1bcf25f6ab3d255b",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "DriverJson.java",
+        "bytes": 11237,
+        "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "FullJsonTree.java",
+        "bytes": 9196,
+        "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "DecimalTokenNode.java",
+        "bytes": 3400,
+        "sha256": "dcfaa1f41e5dba568e21d61103197827c26704e3e386da48077a8a159812b9df",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "OpportunityJson.java",
+        "bytes": 7208,
+        "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "G2Source.java",
+        "bytes": 1330,
+        "sha256": "10a3b417bee865653469cf48d204b5db956941771741bcc2afde355c70d3e60c",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "GameGeneration.java",
+        "bytes": 1618,
+        "sha256": "82f827951e6df97e8546bd4f153bc2d1cc8739cd1274f4a1af84d8d627ea96c4",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeRecordedEvidenceVerifier.java",
+        "bytes": 45990,
+        "sha256": "6bdf79cf7ae558503f2a776406481a1454ea484cb799ccaf3c1c56178aead938",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "AdvancePrimitiveArchivedReplay.java",
+        "bytes": 21792,
+        "sha256": "0b0abb3fcb38fdaa806b05ccdc883fa10319f7e3a9959aae8fbac4fcaa2ea430",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeWire.java",
+        "bytes": 18430,
+        "sha256": "0c8b499fcaf65e864def0ab4015ac3781ec6c33a70bbf7ee105f450510096e04",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeFreshSnapshotPort.java",
+        "bytes": 10458,
+        "sha256": "c96cf9e1a5e334a1a2b4244275541bcb38f2348ffbd008b64f1b659d27d1dcc2",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativePipeEndpoint.java",
+        "bytes": 18700,
+        "sha256": "ce047c8a0cc827eae075d05c2b094c7d605fe28fccc4da019537a548ae490471",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "OriginalEvidencePort.java",
+        "bytes": 511,
+        "sha256": "73e24f1db40f2f5f5d296a3b5c2693e344875065c1d92967e8a198ce2b2f6797",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "CanonicalFundingPending.java",
+        "bytes": 23762,
+        "sha256": "f09d9cea9b6e7a3b6c66af2d26e049a6170052cdb95ac07080d75ccf217d52ec",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "McpAutoTurnEncoder.java",
+        "bytes": 29873,
+        "sha256": "6d39aeec3ef2655c3c85112d2a8a333e24fe2b333a1af9e641264746d79a976e",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "LifeAdvanceComposite.java",
+        "bytes": 76751,
+        "sha256": "d65951a46b4a640aaad945e4934a20d3932f3b7af85fd64583f50798956909ad",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootApplicationSession.java",
+        "bytes": 102315,
+        "sha256": "434f67230559ca2ddda129b59301d95f646291c02fd2f2c0400dd5f31bb647a3",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootOrdinaryRuntimeAssembly.java",
+        "bytes": 80607,
+        "sha256": "a155952dbb42809e2c89e1d110639caf2aec8116067eeb633e62d4f14c0e1740",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootLifeRuntimeFactory.java",
+        "bytes": 87475,
+        "sha256": "254c7558f76e33178fdb2b51c8bcaa656f38736e4d55c427689300c218931029",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 148279,
+        "sha256": "fd245ab9cc652f9707764378da4a678fd1e968d8c4651514e6c5e0ba211d94c8",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 483101,
+        "sha256": "67035199790d81eee8b4cd1e101ef95f05bd448e2234df1d6b6a68610d1f93c3",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityActionJournal.java",
+        "bytes": 24680,
+        "sha256": "c20e8879088afc749f569c2d2923959e6b20f9d326685cf6a8632198a9165c4f",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootApplicationAssembly.java",
+        "bytes": 255287,
+        "sha256": "aeac3aef2337d85a66b3f1fe4694e62902f162a7cdec3b0d1e999860c5bd9e73",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootRuntimeContext.java",
+        "bytes": 29729,
+        "sha256": "96902287df750a5f006321e41ae840e270e7bfeb3ba47dba3cd15de70743cbe2",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootInstalledCatalog.java",
+        "bytes": 56562,
+        "sha256": "c6b0408a2176529ff324178dc23ccd2913a154270a092d31fa984a227e30e8f6",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootPreparedCleanupScope.java",
+        "bytes": 11748,
+        "sha256": "d782009f5ac32a267c15b87d1276514773420c322e603d66389990e8d965f03f",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionEffects.java",
+        "bytes": 46263,
+        "sha256": "49d52d68a170c43ad8edfb683c8fce6d4c0d8e45b015c4391df64ce29c541418",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionJournal.java",
+        "bytes": 2794,
+        "sha256": "5b224d9636086b5d23614e84f1398e402c45031c59b8049131fb06edc974ad51",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionSnapshotReader.java",
+        "bytes": 2463,
+        "sha256": "2bfd32ef7f9d5d3f6fb7bdc6cd5229390b135185c7d68d69ed66ed90dd102f88",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionCoordinator.java",
+        "bytes": 62306,
+        "sha256": "a6eeebf56e814d7c6f464aa6403d8ed08bee518dada7f7392b1f9ed66d525afd",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupCoordinatorSupport.java",
+        "bytes": 13130,
+        "sha256": "a49b9fc8fd79e3a3827b9cce6fd414ce7283c171ceafe0ebc1637e3d3e3336fc",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupFailure.java",
+        "bytes": 3746,
+        "sha256": "f049c2b35682699f5061ce05d76748360cd0d326e2336662ef5674e5e17c43ec",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "CompositeActionPort.java",
+        "bytes": 5181,
+        "sha256": "4d36a9b0d06cddfe291ffcb1cc9e2aa0a5ae5a10532fbb603ffef435f4b9ef5e",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "CompositeContinuationToken.java",
+        "bytes": 481,
+        "sha256": "0bf1f6cbc2fce3d395b1fa9a4b8eac2a2ed23fcbce02aa2d66440f66fcec8c4a",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "LifePreparedCleanupContinuation.java",
+        "bytes": 2148,
+        "sha256": "cef7f5d88c04fe0dc16cc8fba82ee461a4a20c03dd08a04b3a8800f4805f9cc4",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupReplay.java",
+        "bytes": 3642,
+        "sha256": "8b23c9ec17a0149863c14704049d901ab07d09968eec21790baab291602d0163",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ManagedGameSession.java",
+        "bytes": 17346,
+        "sha256": "034601687ab5d9ace72acff511f70ac8c535173e8d1958360eca9bd8e2f05219",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativePrivateActionPermission.java",
+        "bytes": 8580,
+        "sha256": "dc5300678a247a64265445640d0cec6a8058de72b6a6a8414612f893fc281d2b",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityWriter.java",
+        "bytes": 126589,
+        "sha256": "5b23ade6e962079744aed574c9f3ef5cae4de912b3d9b228b6ae0801895fb217",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "LedgerFiles.java",
+        "bytes": 15173,
+        "sha256": "f231189a583013abfb8aac2ba0fbd3a05c338c3d7099206bf31177d583263748",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "IdentityBearingFileAttributes.java",
+        "bytes": 27387,
+        "sha256": "c2581fb1b43ceacac0694608c5b9a869b3ac2855052c04025fb1021020fadef1",
+        "role": "Complete coherent StageC/current necessary target/declaration/actual caller",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionState.java",
+        "bytes": 15287,
+        "sha256": "331a9057b17c153dceb79780ff0ecb9b3a34529112707fb4e1937ac4a92c4611",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionReceipt.java",
+        "bytes": 5610,
+        "sha256": "37f650571511151cd2398923f804024e0e3dbcbe207c5927b03191b043871630",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionTransitions.java",
+        "bytes": 11651,
+        "sha256": "aca13bf9d9e438db09c749211564cc7fa6b25d3a1cf74fbd1a930a19d51c6944",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionReceiptCodec.java",
+        "bytes": 58573,
+        "sha256": "bf7456175d2cf409904d795eb75799c657dc67ad67a1bd97b2d425cc5252afc2",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "CanonicalFundingPending.java",
+        "bytes": 23612,
+        "sha256": "93c24347042f0a5c8e5fa496d3fb5fc07c7160cb4b4ef729f41499bbc60b6661",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "McpAutoTurnEncoder.java",
+        "bytes": 29786,
+        "sha256": "358690dbbccaf6e547f13f4172617d3ffd3cbe2bcf02277fdfb0c922c5cd3f45",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "LifeAdvanceComposite.java",
+        "bytes": 73254,
+        "sha256": "8a900e7fe568e5ca58a39608df2ea19e3597fd46d33e3150b909c2c0384a35f8",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootApplicationSession.java",
+        "bytes": 97640,
+        "sha256": "5381ea18e4492a4d0179ff57ac08f92e86f827a4916a8791cc00467cd25195ab",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootOrdinaryRuntimeAssembly.java",
+        "bytes": 79169,
+        "sha256": "75773ac3cbf58861e625d6c4b2737ba397fc470de0fbe9ddc610e7ae779941ee",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootLifeRuntimeFactory.java",
+        "bytes": 67278,
+        "sha256": "44f11bd269f0e977111a2ff6d9cfbd19929ecb0a65540d219ffc3ec09d171940",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 147744,
+        "sha256": "9775280c9bbfc02185e87a5c6d3c9c3d2947f3ea681736818ef4bb102d4f0775",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeRecordedEvidenceVerifier.java",
+        "bytes": 45056,
+        "sha256": "7661fb12bad5527a90b5cc5d270784c07bc708298c356aaa6afaab07565b4972",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "AdvancePrimitiveArchivedReplay.java",
+        "bytes": 21237,
+        "sha256": "c43a85cfd14b958a8d676a6e5ffdcac5b224522600a7c66bf42e3b545822b1c7",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 481727,
+        "sha256": "b3888cfc11ccef763d94dd356dd8ae228f6629588ffe5b8a13e08be26873b600",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityActionJournal.java",
+        "bytes": 24376,
+        "sha256": "f4a7b809f53b7b514b0dd39d1cc4509a23eab5ac4256d6be932e4e9c1c51f110",
+        "role": "Complete exact current BASE of the selected StageC review target",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupNoEffectApplyOnlyMain.java",
+        "bytes": 17718,
+        "sha256": "6b2e3b362d14d7879678204b8bb08ba2e30eb5c88c20634ab3281ca030198ad7",
+        "role": "Complete actual readonly StageC Main, first1TU2 typing0 reported, not executed",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "SOURCE-READY-STAGEC-PREPARED-NOEFFECT01.json",
+        "bytes": 51738,
+        "sha256": "6764c97376c6dc21e21afe8cf710e4650333d12662436f8b3a9c1daeaf544e16",
+        "role": "Complete final17 Ready and union50 source mapping/qualification limits",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "SOURCE-CONTRACT01.json",
+        "bytes": 10021,
+        "sha256": "5848e45d5524c4bac7db54d2a002d5c1840b4de736491584c56efccb3f8eb313",
+        "role": "Complete task/resource/source/qualification contract",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "POST-B-ACTUAL-NOEFFECT-OBSERVATION-INDEPENDENT01.json",
+        "bytes": 4921,
+        "sha256": "3a809080c712a6c13babf954a4d0cfe1eddf02d69785aec6fcf02d6a34389de6",
+        "role": "Complete accepted independent Root observation, not canonical settlement/permission",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ACTUAL-POST-B-STATUS79-AND-AFTER-FRESH-OBSERVATIONS03.json",
+        "bytes": 6181,
+        "sha256": "33473a49f06261ef3cf6de370277ce8a9f2e4635e0667c37406fac80bce9f7b4",
+        "role": "Complete bounded Runtime original observation index, not new control",
+        "inline_encoding": "UTF8"
+      }
+    ],
+    "source_message": {
+      "bytes": 3743995,
+      "sha256": "fcc08016cc21622f78a8ca04f850696f87919348c6d975c2205a2889d33d5cb3"
+    },
+    "selected_whole_BASE_policy": "Only role targets have full exact BASE. All other selected callers/declarations are whole coherent current sources; entire Ready17/BASE15/union50 maps verified but not unrelated filler-inline.",
+    "coherent_stage": "17 final candidate/15 BASE and50-source union all independently pinned; relevant role source selection is whole, not every unrelated file inlined.",
+    "Frame_interface_complete": true,
+    "small_raw_binary_originals_full_Base64_A": false,
+    "large_old_Driver_SEM_DLL_body_read_or_inlined": false,
+    "hint_level": "Owner code and exact independently accepted observation/serial qualification existed before POST. Root/Java provided role/design/guard boundaries; no model implementation or independent discovery credit.",
+    "operator_preparation_before_POST": "An unlocated direct declaration and binary .bin decoding choice were corrected before any REQUEST/POST; no partial request sent and no model attempt from those preparation errors."
+  },
+  "HTTP": {
+    "POST_BEGIN": "2026-11-13T23:25:15.881772+00:00",
+    "END": "2026-11-13T23:28:16.336599+00:00",
+    "http_status": 200,
+    "finish_reason": "length",
+    "sse_done": true,
+    "json_syntax": {
+      "status": "UNKNOWN",
+      "top_level_type": "UNKNOWN",
+      "reason": "NON_STOP_FINISH",
+      "error": null,
+      "offset_units": "Unicode code points",
+      "max_utf8_bytes": 1048576,
+      "semantic_review": "OWNER_REVIEW_REQUIRED"
+    },
+    "candidate_complete": false,
+    "headers_ms": 162065.03779999912,
+    "TTFT_content_ms": 162066.3329998497,
+    "total_ms": 180454.81499982998,
+    "usage": {
+      "prompt_tokens": 787808,
+      "completion_tokens": 3000,
+      "total_tokens": 790808
+    },
+    "attempts": 1,
+    "retries": 0,
+    "cached_tokens": null,
+    "request": {
+      "bytes": 3826806,
+      "sha256": "e571ee87c9874045a7e36372706b41dfe3b680156dd012586115d886cad2c5c3",
+      "prepost_byte_exact": true,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "max_tokens": 3000,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "network": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      }
+    },
+    "raw_SSE": {
+      "bytes": 313240,
+      "sha256": "0829fc3e8a73bf87a2e7ad76d1c397098e7e7137a210190bd77b082a976c95c9"
+    },
+    "response_bytes_transport_pin_only": {
+      "bytes": 14212,
+      "sha256": "1d88e7ef6854c649f900e5c0f1761ff4e5f26a01346aef0d76984ac5edc5fa4c"
+    },
+    "full_stream_reconstruction_byte_exact": true,
+    "source_HTTP_profile": {
+      "name": "source-high-concurrency-direct.json",
+      "read_seconds": 600,
+      "total_seconds": 2400,
+      "profile": {
+        "bytes": 1863,
+        "sha256": "97fb38b997dde3522f2310d06a229ab660db35f8bdc1a5d40eaa5c9e07e57e9a"
+      }
+    },
+    "communication": "Actual BEGIN/END/cost and absolute complete CONTENT or unused length pointer sent to Root/Java before semantic audit/publication."
+  },
+  "pair_HTTP": {
+    "logical_tasks": 2,
+    "actual_POST_attempts": 2,
+    "usable_complete_reviews": 1,
+    "unused_length_whole": 1,
+    "actual_peak_HTTP": 2,
+    "overlap_seconds": 167.419853,
+    "current_inflight": 0,
+    "retries": 0,
+    "reported_input_tokens_including_unused": 1109597,
+    "reported_output_tokens_including_unused": 3801,
+    "sum_HTTP_ms": 347900.8818999864,
+    "queue_context_capacity_cache": "NOT_HELD; successful full review and accepted787808-input length response are not a configured server context or concurrency capacity.",
+    "phase_limits_bytes": [
+      7340032,
+      9437184
+    ],
+    "aggregate_limit_bytes": 16777216,
+    "allocation": "Original8MiB/8MiB quote preserved; Root explicitly reassigned same aggregate to A7MiB/B9MiB for complete sources, no new future or ctx/config change.",
+    "Native_fresh_included_pair16MiB_once": {
+      "current": 491493606,
+      "mandatory": 526804205,
+      "source_phase": 8388608,
+      "forecast": 1026686419,
+      "cap": 1342177280
+    },
+    "old_all_actual_preserved": true,
+    "length_no_semantic_parse_splice_continuation_or_second_request": true
+  },
+  "review": {
+    "classification": "LENGTH_WHOLE_UNUSED_SEMANTICALLY_UNREAD_NO_CONTINUATION",
+    "model_listed_findings": null,
+    "confirmed_findings": [],
+    "content_semantic_read_or_candidate_JSON_parsed": false,
+    "transport_bytes_hash_and_SSE_reconstruction_only": true,
+    "disposition": "Preserve complete REQUEST/SSE/CONTENT/terminal metadata, discard the entire candidate. No fragment extraction, concatenation, request continuation or second POST.",
+    "failure_category": "FINITE_OUTPUT_LENGTH; not structural context4xx, source compile error, semantic NO or permanent model capability bound.",
+    "scope_limit": "No readonly issuer/domain/replay/codec/route finding or agreement may be inferred from this unused response. One logical task did not yield a usable review.",
+    "adoption": {
+      "findings": 0,
+      "code_hunks": 0,
+      "test_hunks": 0,
+      "software_Runtime_control_credit": false
+    }
+  },
+  "adoption": {
+    "findings": 0,
+    "code_hunks": 0,
+    "test_hunks": 0,
+    "software_Runtime_control_credit": false
+  },
+  "owner_software_separate": "Root reported StageC17/source155 and dedicated Main1TU2 first compilation0 before these reviews; software facts are independent of model responses. No live application/ledger permission is granted here.",
+  "operator_boundary": {
+    "business_HTTP": 0,
+    "production_Test_writes": 0,
+    "JVM": 0,
+    "Game_Native_live": 0,
+    "ledger": 0,
+    "GET": 0,
+    "service_probe": 0
+  },
+  "resources": {
+    "phase_max_bytes": 9437184,
+    "aggregate_max_bytes": 16777216,
+    "includes_all_pre_actual_REQUEST_SSE_scripts_roles_metadata": true,
+    "old_all_actual_kept": true,
+    "old_Transient_unused_future_release_not_counted_twice": true
+  },
+  "next": "Close this pair with0 adopted source/Test/findings. Future coherent independent tasks may request a shorter bounded callgraph summary; they cannot continue or recover the unused length candidate."
+}
