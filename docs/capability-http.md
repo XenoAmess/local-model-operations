@@ -6343,3 +6343,10 @@ Owner重写独立StageAprivate工具：prefix QAanchor早于actualgamecallback�
 732: total_tokens=7089, completion_tokens=401, total_ms=3583.4665, TTFT_ms=1250.0150; 1attempt/stop/DONE/strictJSON.
 
 累计through732：732logical/679完整流（含历史692严格JSON拒绝）/50length/3finaltransport/762HTTP/30extra，新峰1。Nov14 canonical1.19.5维护成功cache复用；OpenCode native0。cachedtokens/Owner主动成本/净节省null，未宣布性能或整例通过。
+
+
+## 2026-11-14：733普通END发行入口完整采用
+
+[固定证据](https://github.com/XenoAmess/civ6_dev/blob/9967ff21893ab271b24df8a7e6291f3b5b2bfb0e/docs/research/baiqi-paired-normal-end733-2026-11-14.json)。完整候选模块原样采用，函数API/原版guard/Begin紧接无参数RequestAction/逐字段发行回执是Owner事前明确合同，非独立发明API。原样6方法过，正式消费者同6方法再验，不算12不同方法。使用真实canonical140 bridge/clock：五段各2秒排除各5秒准备；重复Begin拒第二次END，动作后OSError、缺失/错误/重复/ERR回执不重发，坏Python参数不查询、原版资格不满足不启钟。单一Lua运行时映射ActionPanel仅软件，实际跨UI/control普通门/五组25段Native仍未知；不授B_delta。
+
+1attempt/stop/DONE/strictJSON；total_tokens=11297, completion_tokens=359, total_ms=4020.2102, TTFT_ms=1708.6640。累计733logical/680完整流（含历史严格JSON拒绝）/50length/3finaltransport/763HTTP/30extra，新峰1。Nov14 canonical1.19.5维护成功cache复用，nativeOpenCode0，cachedtokens/Owner主动成本/净节省null。

@@ -1698,3 +1698,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：730—732普通HTTP与Native业务分账
 
 [730](https://github.com/XenoAmess/civ6_dev/blob/3f6967e0c8436a77f2cd2464f2bb2639c063075b/docs/research/baiqi-paired-source-mode730-2026-11-14.json)完整助手采用；[731](https://github.com/XenoAmess/civ6_dev/blob/dc398c2489bc87870dfbd26421654c8349eaf9bc/docs/research/baiqi-paired-normal-driver731-2026-11-14.json)和[732](https://github.com/XenoAmess/civ6_dev/blob/b5e8dc25f0fc1e99c6c5678ffa1e2311dcfe1325/docs/research/baiqi-stageA-E-closing732-2026-11-14.json)原语义代码未采用，Owner软件与E真实收尾失败分别记录。全部普通HTTP，Nov14维护成功缓存复用，0新增OpenCode原生工具/生成会话；业务Native游戏不是OpenCode native。未知成本null，未据编测或318样本授性能通过。
+
+
+### 2026-11-14：733完整HTTP模块与原生会话分账
+
+[733](https://github.com/XenoAmess/civ6_dev/blob/9967ff21893ab271b24df8a7e6291f3b5b2bfb0e/docs/research/baiqi-paired-normal-end733-2026-11-14.json)完整候选模块原样采用，6不同软件方法过；Nov14维护缓存复用但新增OpenCode原生工具/生成会话0，真实游戏跨UI未验证、未知成本null。
