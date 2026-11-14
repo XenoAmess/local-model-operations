@@ -6569,3 +6569,12 @@ Subject02/Descriptor02/Request01与新privateArchive01两完整组件审，A69�
 760收到9份当前协议／实际汇总／分析器与消费源，完整29118input／1173output、11573.6321ms、1attempt stop／DONE／strictJSON。数值／有限支持留审阅笔记，不算新发现／代码／Native／运行测试。拒绝其捏造“TC036协议另需coldcompat／restore／其它功能”的理由；Owner原请求未给实际用例303—306，后读原条款才确定真实压力／报告缺口，输入缺口与错误推断分记。B_turn whole-turn措辞改回固定10秒去重墙钟，N_req proxy改实际全回合原生提交；键为actual_TEST_PLAYER_input_audit。current140只分配profile名，不据此推源码版本或错误归StageA。
 
 PREP／REVIEW／两段CORRECTION有前置UTC，较早范围规划／helper和之后发布未量，wall不作active。累计760逻辑／707完整流（含历史JSON拒绝）／50length／3最终transport／790HTTP／30extra，新增峰1，cachedtokens／Owner active／net savingsnull。旧140／141 FAIL不回写，继续真实压力与分布任务。
+
+
+## 2026-11-14：761压力判据拒绝／762分布补丁采用并修测试
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/febc3cb47481f59b4f77e32bf31906913db16ee5/docs/research/baiqi-plan-distribution761762-2026-11-14.json)：两个实际POST重叠20.054144秒、client峰2，761为75540input／875output、20053.888ms，762为9836／1956、25420.444ms，均1attempt stop／DONE／strictJSON。761是首份当前源压力计划，因未区分候选池与访问分母、oneValidation提前返回却判无合法地点、把参数12当已证Native上限、无唯一可执行锚点而拒绝，0代码／原稿运行。A不支持、B支持而只访问A的反例来自当前源控制流，不算新Native。FoundingSite／CivilianMoveTarget确为真函数，未误报不存在。
+
+762单个统计hunk逐字采用，p50最近秩、严格未舍入>20／>50次数，原p95／max预算不变。原4测试隔离执行3pass1fail（1.0000000000012221精确比1.0），Owner仅改第四测试三处9位近似断言，加稀有50ms不误改p95预算／全排除分类两项；相关21全过。保留原件和失败，未产品舍入。保留原N事实新建报告，全部旧输出字段及原汇总对应字段全等：116Admin p50约2ms、144Controller约1ms，>20各1／>50各0，0新Native／游戏输入。实际压力矩阵仍PARTIAL，不扩写四冻结预算既有通过或旧140／141失败。
+
+阶段UTC保留，Owner总wall含切换、21项测试发生在重算验证标记前；更早准备和发布未知，不冒独占active／净节时。累计762logical／709完整流含历史JSON拒绝／50length／3最终transport／792HTTP／30extra；server并行／KV／cache及Owner有效成本null。
