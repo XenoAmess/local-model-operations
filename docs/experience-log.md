@@ -275,3 +275,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：旧玩家消费者也要检查原生动作兜底
 
 [751752／142](https://github.com/XenoAmess/civ6_dev/blob/9d429c2223b60e06aeb17a7c894dc50e403f0718/docs/research/baiqi-allscript142-pair751752-2026-11-14.json)：只在Python层限制child模式还不够，实际旧军队待命Lua尾部可能DoEndTurn。匹配计时只允许最终已确认端点发令，去除该尾路并测试失去选中资格时零动作。函数源码完整／Python编译成功不能替代缺导入、外交插入时机和穷尽循环的行为测试；HTTPstop也不授采用。Owner给错文件名造成模型缺上下文须一起记录。全脚本累计调用与保留行分别记账；1735保留／37509零成功并未突破4096上限。
+
+
+### 2026-11-14：先确认日志导出是否有顺序语义
+
+[753／142E1](https://github.com/XenoAmess/civ6_dev/blob/061899ea4c61266bb5c169bb4abae78c07aef333/docs/research/baiqi-pair142-E1-cold753-2026-11-14.json)：记录map使用pairs输出，顺序不是时间线，严格比较应校验唯一键／计数／已知包络后对完整多重集比较，不能用set掩盖重复。历史导出只给字段子集就只授该子集。Owner提示哈希笔误须标明真实回执权威、不能改写原请求或把候选正确纠正抹掉。真实跨UI普通时钟完成一侧不等于对照／整组，必须保留原始耗时与外交停留，不提前算净收益。

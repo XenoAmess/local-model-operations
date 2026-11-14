@@ -1,0 +1,99 @@
+{
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/061899ea4c61266bb5c169bb4abae78c07aef333/docs/research/baiqi-pair142-E1-cold753-2026-11-14.json",
+  "model753": {
+    "started_at_utc": "2026-11-14T02:35:53.333208+00:00",
+    "attempts": 1,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "strict_json": "VALID",
+    "total_ms": 8367.633500136435,
+    "usage": {
+      "prompt_tokens": 27659,
+      "completion_tokens": 719,
+      "total_tokens": 28378
+    },
+    "cached_prompt_tokens": null,
+    "adoption": "No generated code. Reviewed nine actual domains, exact protected140333 receipt identity, duplicate and unknown checks used as preparation notes. Owner comparison independently implemented.",
+    "owner_prompt_correction": "Task prose contained wrong hash explicitly marked CORRECTION, authoritative actual saved receipt was provided. Candidate correctly used receipt SHA91ac...7845b; no wrong prose hash adopted.",
+    "rejected_or_limited": [
+      "Claim that journal list order is meaningful not established by supplied excerpts; actual BaiqiFoodTileJournal.Validate/Clone/Equal use keyed records and pairs, plus direct export iterates pairs. Do not mark reordered rows as data loss.",
+      "Cold140 baseline actually has11 city rows in allfood/vitals; hypothetical count change does not invalidate checking this frozen fixture.",
+      "Next-readback list mostly repeats provided historical baselines; it does not itself perform current Native coldload."
+    ],
+    "software": {
+      "actual_baseline": "cold140333",
+      "software_scenarios": 6,
+      "domains": {
+        "WORLD": 1,
+        "CITY": 11,
+        "BUILDING": 196,
+        "DISTRICT": 70,
+        "PLOT": 222,
+        "UNIT": 52,
+        "allfood": 11,
+        "vitals": 11,
+        "food_journal": 5
+      },
+      "scope": "Selected exported fields only. Journal records are maps (actual J.Equal uses pairs), not a chronological output stream. Counter does not erase duplicates; identity/count/known-envelope checks precede equality. No Native142/coldload credit."
+    },
+    "remaining": "Selected exported journal fields only; full unexported historical fields cannot be claimed equal. No142main333 coldload or compatibility pass."
+  },
+  "cumulative": {
+    "logical_calls": 753,
+    "complete_streams_including_historical_json_rejection": 700,
+    "length": 50,
+    "final_transport": 3,
+    "actual_HTTP": 783,
+    "extra_attempts": 30
+  },
+  "maintenance": "OpenCode1.19.5 daily success cache reused; new native generation/tool sessions0.",
+  "unknown_costs": {
+    "cached_tokens": null,
+    "owner_active_time": null,
+    "net_savings": null
+  },
+  "native_credit": "Actual ActionPanel shared bridge Begin -> ordinary RequestAction -> Executor native inline activation -> five valid clock records. No software single-context substitution. Bridge+clock retired on completion.",
+  "records": [
+    {
+      "from_turn": 85,
+      "to_turn": 86,
+      "pid": 0,
+      "started": 1794623886.384,
+      "ended": 1794623888.635,
+      "seconds": 2.250999927520752
+    },
+    {
+      "from_turn": 86,
+      "to_turn": 87,
+      "pid": 0,
+      "started": 1794623958.3600001,
+      "ended": 1794623961.912,
+      "seconds": 3.551999807357788
+    },
+    {
+      "from_turn": 87,
+      "to_turn": 88,
+      "pid": 0,
+      "started": 1794624035.033,
+      "ended": 1794624040.414,
+      "seconds": 5.38100004196167
+    },
+    {
+      "from_turn": 88,
+      "to_turn": 89,
+      "pid": 0,
+      "started": 1794624111.878,
+      "ended": 1794624119.399,
+      "seconds": 7.520999908447266
+    },
+    {
+      "from_turn": 89,
+      "to_turn": 90,
+      "pid": 0,
+      "started": 1794624193.414,
+      "ended": 1794624197.973,
+      "seconds": 4.559000015258789
+    }
+  ],
+  "limits": "Only group1 enabled side exists in current142 series. No matched control or fivegroup25segment B_delta conclusion. N B_plan and whole-script B_turn/N_req passed independently; no fullTC036/fullfunctional acceptance. Main333/release restore pending."
+}

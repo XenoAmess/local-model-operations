@@ -6478,3 +6478,12 @@ A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Fr
 复用旧待命消费者必须去除DoEndTurn兜底，否则可能在计时桥之外发令；实际Lua5.1／5.3各两场景证实合格只SKIP／不合格零动作，均零END。Executor阶段／token留其上下文，ActionPanel通过共享桥核验，不把软件单运行时当UI全局互通。控制UI不能END就停止，不补内政／UserForced／绕保护。
 
 两次各1attempt，stop／DONE／strictJSON，依次新增峰1；累计752逻辑／699完整流（含历史JSON拒绝）／50length／3最终transport／782HTTP／30extra。耗时tokens见[共享原值](evidence/2026-11-14-civ6-allscript142-pair751752.json)，缓存token／Owner主动成本／净节省null。
+
+
+## 2026-11-14：第一启用侧Native普通计时与753冷兼容准备
+
+[项目精确证据](https://github.com/XenoAmess/civ6_dev/blob/061899ea4c61266bb5c169bb4abae78c07aef333/docs/research/baiqi-pair142-E1-cold753-2026-11-14.json)：142第一组启用侧五条跨UI实际记录2251／3552／5381／7521／4559ms，0错误／拒绝，普通END85—89、90窗后停，无END90。ActionPanel共享桥Begin到Executor原生激活实效闭合，TEST_PLAYER准备在计时前、外交全部时间保留；桥／时钟撤、90保存后原版退出，自有安静残留185.340287秒后清理。没有同组对照／完整25段，不授B_delta或源码因果净收益。
+
+753实际任务为后续主333冷兼容合同：九实际域、正确140保护档SHA／重复键／未知数据建议审后留用，无生成代码。Owner提示的错误哈希已显式CORRECTION并提供真实回执，候选实际用正确SHA，未采用笔误。其“账本行顺序有意义”不支持；Owner再查实际J.Validate／Clone／Equal与导出使用pairs、记录按citykey存储，拒绝把行重排当损失。六只读场景过：自比和逆序相等，重复城市／缺城市／未知包络／重复账本头拒绝；只覆盖历史已导出字段，不授未采完整字段等同或142主333Native。
+
+单attempt、stop／DONE／strictJSON，8367.633500ms，27659input／719output；累计753逻辑／700完整流（含历史JSON拒绝）／50length／3最终transport／783HTTP／30extra。缓存token／Owner主动成本／净节省null。

@@ -1758,3 +1758,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：751752候选与142全脚本Native分层
 
 [精确证据](https://github.com/XenoAmess/civ6_dev/blob/9d429c2223b60e06aeb17a7c894dc50e403f0718/docs/research/baiqi-allscript142-pair751752-2026-11-14.json)：canonical1.19.5每日维护成功缓存复用，新OpenCode原生生成／工具0。752原模块软件失败保留，Owner51相关软件、142全脚本预算Native分别记账，不授OpenCode生成、跨UI普通计时桥或配对通过；成本null。
+
+
+### 2026-11-14：753部分审阅与Native计时信用独立
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/061899ea4c61266bb5c169bb4abae78c07aef333/docs/research/baiqi-pair142-E1-cold753-2026-11-14.json)：canonical1.19.5每日维护成功缓存复用，OpenCode新原生生成／工具0。HTTP诊断建议、Owner六软件场景、142启用侧真实跨UI五记录分记，不授OpenCode生成／配对性能通过；成本null。
