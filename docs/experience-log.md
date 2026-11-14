@@ -493,3 +493,10 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 [811](https://github.com/XenoAmess/civ6_dev/blob/37559e16c083a025a8b4e4d19e2d66589cbce562/docs/research/baiqi-passive-population811-power812-2026-11-15.json)Subscribe前真实scope/port必须闭合，callbackcap必须在昂贵读取前、错误不得透出游戏，Add/Remove显式false和throwafterregistration都要记。PARTIAL缺字段不补零或借另一上下文值；UI旧回合/Core新回合不能拼成同步证据。latestCurrentEvent可能已换成别的灾害，事件同窗与累计损失不是逐城cause。
 
 [812](https://github.com/XenoAmess/civ6_dev/blob/37559e16c083a025a8b4e4d19e2d66589cbce562/docs/research/baiqi-passive-population811-power812-2026-11-15.json)同projecthash可跨多个正常完成周期，不把进度回零直接说成随机异常；按真实列核177/0/127/0/75。已供数据的社区损坏与健康港口前置可同时成立，不能用一概无损解释活跃队列，也不能据短时缺电任意抢写合法投入。
+
+
+### 2026-11-15：有效军令与全等主张要各自读回
+
+[342](https://github.com/XenoAmess/civ6_dev/blob/59bf85dce15231f485bcc90c126b964e97d27358/docs/research/baiqi-automatic-repairs342-814-2026-11-15.json)SKIP即时ACK仍ready、后到独立读才确认不可操作；同格军队移位后15个资格false→true，测试玩家可正常处理，后台权限不扩大。新输入应有真实 intervening player work 与独立once namespace，不能重放旧unknownEND。候选代码缺少发令前独占文件时，事后unknown日志无法补防重；rawreturned必须先存后校marker，BaseException含I/O与校验错误。
+
+正式重载保留目标修复／供电／队列，30选定行仅29相等；另一城市surplus10→12、foodstock/pop不变也要保留，不能用目标局部成功授全部全等。Owner发布前all-row断言捕获差异，改窄证据主张；后续原因未知。

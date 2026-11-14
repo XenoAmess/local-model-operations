@@ -1968,3 +1968,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：811—812分轨与实际上下文能力
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/37559e16c083a025a8b4e4d19e2d66589cbce562/docs/research/baiqi-passive-population811-power812-2026-11-15.json)Nov15同机同用户canonical1.19.5维护成功cache复用，新OpenCode原生生成／toolsession0。双POST是普通HTTP并行，不是OpenCode原生任务。实际Core缺接口和Ownerprofile修订不归模型，也不以CLI维护通过补全runtime能力。
+
+
+### 2026-11-15：813—815继续分轨
+
+[来源](https://github.com/XenoAmess/civ6_dev/blob/59bf85dce15231f485bcc90c126b964e97d27358/docs/research/baiqi-automatic-repairs342-814-2026-11-15.json)sharedcaller复用Nov15同机同用户canonical1.19.5维护成功缓存，新增OpenCode原生工具session0。三个是普通HTTP候选，Lua双编译／Owner实机操作不计OpenCode原生生成能力。

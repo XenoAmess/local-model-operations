@@ -6866,3 +6866,10 @@ Owner实际后台读Text→Document→Pane→Pane→Window，头部支持Invoke�
 [来源](https://github.com/XenoAmess/civ6_dev/blob/37559e16c083a025a8b4e4d19e2d66589cbce562/docs/research/baiqi-passive-population811-power812-2026-11-15.json)两个真实独立任务直接并行POST，actualpeak2/overlap25.249402秒，均stop/DONE/strictJSON；8115503/1674tokens、26096.1173ms/TTFT1511.4009，81287220/1257、25249.3356ms/TTFT13807.1682。811raw0采用：错误GetCities链实际给集合、baselineINVALID但active/errors0；scope缺失、staticself错、callback/cap/reentrancy、Add/Removefalse及throwafterregistration清理错误。Owner重写20场景过；首Corecfg:IsHuman在Add前失败，实际p:IsHumantrue且三UI食品接口缺失，Owner单独Core2profile记录PARTIAL/nil、5场景过，这是Owner上下文合同漏项，非模型新错。UI和Core各3retained/28seen/25ignored/0errors/drops，两target人口三数字事件可复现各-1。UIturn338/Core339、surplus和缺字段分列，latestevent9火山不是历史storm14，仍不授逐城因果。两处各own2监听已精确撤、命名空间清理／另存，0原候选Native。
 
 812部分采用合法现有队列保留笔记；错335Guangzhouprogress0（actual177）和忽略已供Neighborhoodpillaged拒绝，Broadno-pillage/progresspath也错，源码已有CompletedIdleHead/BlockedIdleHead/resume。Owner真实工业项目XP2true/0、key/iterate同值、CanProduce两模式true，广州Harbor75/180合法保留、工业区和港口无损，未立即改生产或授未来恢复。观察器能力、partialAPI、人口effect和cause、源审/Native分别分层。累计812/753complete/56length/3finaltransport/842HTTP/30extra，cachedtokens/Ownerfullcost/净节时null。
+
+
+## 2026-11-15：813—815军队阻塞、一次性工具与人口上下文
+
+[813](https://github.com/XenoAmess/civ6_dev/blob/21ba8cd99552f46a433f904050ee84044bfbbb7b/docs/research/baiqi-power142-observed340-2026-11-15.json)原诊断整拒，凭空以脚本失败／全部SKIP不合法替代已供正例。26197/1290tokens、12492.5188ms／TTFT3628.8849。Owner实际13SKIP独立读回，另15同格待命；Owner读取漏既有后备哈希的纯读错误单列，不归模型。
+
+[814—815](https://github.com/XenoAmess/civ6_dev/blob/59bf85dce15231f485bcc90c126b964e97d27358/docs/research/baiqi-automatic-repairs342-814-2026-11-15.json)均完整stop/DONE/strictJSON。8145212/4355、27205.9788ms／TTFT837.2083，原稿无durableintent、body重复、CLI前导零／typedplan／owner绑定和异常范围缺，0rawNative；仅部分既有SafePath和读取表达沿用，Owner21隔离场景后实际11军队MOVE逐条到址清队列、两回合56uniqueSKIP，新普通END另读actual341/342，0后台军令或内政补填。8154523/1862、12158.0601ms／TTFT811.7690，Lua51/53均语法失败、API门和Members迭代错等，0采用；Owner19dualLua只读组件待实机，不授人口cause。三个POST各自独立无重叠，实际峰1／当前0；累计815/756complete/56length/3finaltransport/845HTTP/30extra，缓存及Ownerfullcost/净节时null。自动社区修复和重载是OwnerNative效果，不能反向补原候选通过。
