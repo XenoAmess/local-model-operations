@@ -1718,3 +1718,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：737采用与未重现不授原生能力
 
 [737/I](https://github.com/XenoAmess/civ6_dev/blob/49162daa291f2eaf785b551405e3835e34007817/docs/research/baiqi-controller-I-preobserver737-2026-11-14.json)完整HTTP predicate采用，8合同/9相关构建检查过；I未重现原因unknown，[H Owner操作遗漏](https://github.com/XenoAmess/civ6_dev/blob/0ae18582de2e36da34d7adbb7a482f45f006d73f/docs/research/baiqi-controller-H-timeout-I-2026-11-14.json)独立记账。维护成功缓存复用，新增OpenCode原生工具/生成会话0，未知成本null。
+
+
+### 2026-11-14：738—741 HTTP拒稿与141软件边界
+
+[精确项目反链](https://github.com/XenoAmess/civ6_dev/blob/1affcfe51b15ea72d99cad33736cb7bf5e45d79a/docs/research/baiqi-source141-settler-J738741-2026-11-14.json)四HTTP完整候选均未采用，Owner141全量2198含1SDK跳过、5版本软件边界通过。Nov14 canonical1.19.5维护成功缓存复用，不授OpenCode代码能力；原生工具／生成会话新增0。Native141、实机性能、缓存tokens、Owner主动成本／净节省未确认。

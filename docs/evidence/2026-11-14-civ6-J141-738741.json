@@ -1,0 +1,274 @@
+{
+  "schema": "shared.civ6.J141-738741/v1",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/1affcfe51b15ea72d99cad33736cb7bf5e45d79a/docs/research/baiqi-source141-settler-J738741-2026-11-14.json",
+  "project_commit": "1affcfe51b15ea72d99cad33736cb7bf5e45d79a",
+  "models": [
+    {
+      "model": 738,
+      "usage": {
+        "prompt_tokens": 74521,
+        "completion_tokens": 1384,
+        "total_tokens": 75905
+      },
+      "total_ms": 38249.3823999539,
+      "ttft_ms": 18097.188899992034,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "review": {
+        "candidate_function_unchanged": true,
+        "methods": 7,
+        "failures": 4,
+        "errors": 0,
+        "adopted": false
+      },
+      "adopted": false
+    },
+    {
+      "model": 739,
+      "usage": {
+        "prompt_tokens": 138592,
+        "completion_tokens": 943,
+        "total_tokens": 139535
+      },
+      "total_ms": 36163.676699856296,
+      "ttft_ms": 28726.765099912882,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "review": {
+        "candidate_unchanged": true,
+        "methods": 3,
+        "failures": 2,
+        "errors": 0,
+        "empty_assertion_method": "test_limits",
+        "candidate_source_override_provided": false,
+        "adopted": false
+      },
+      "adopted": false
+    },
+    {
+      "model": 740,
+      "usage": {
+        "prompt_tokens": 11138,
+        "completion_tokens": 1613,
+        "total_tokens": 12751
+      },
+      "total_ms": 14986.320200143382,
+      "ttft_ms": 3448.040100047365,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "review": {
+        "schema": "civ6.raw-candidate-review/v1",
+        "model": 740,
+        "complete_stop_done_json": true,
+        "edits": [
+          {
+            "file": "tools/build_plan_profile_mod.py",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/build_plan_profile_mod.py",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/build_plan_profile_mod.py",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/build_plan_profile_mod.py",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/build_plan_profile_mod.py",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/lua/diagnostic_plan_stage.lua",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/lua/diagnostic_plan_stage.lua",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/analyze_plan_capture.py",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/analyze_plan_capture.py",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          }
+        ],
+        "rejected_reasons": [
+          "analyzer references d before assigning it; final edit overlaps earlier replacement and no longer matches after that replacement",
+          "claim of preserved140 bytes contradicted by explicit extra call argument",
+          "Python source_version accepts float140.0 and141.0, contrary to strict int contract"
+        ],
+        "adopted_edits": 0,
+        "native_calls": 0,
+        "review_method": "Exact original-source anchors and actual consumer contract inspection before adoption; no partial candidate applied",
+        "owner_correction": "Original anchor counts are all1; initial owner prose alleging bad original anchors was wrong and is withdrawn. Evidence counts were correct. Corrected before publication."
+      },
+      "adopted": false
+    },
+    {
+      "model": 741,
+      "usage": {
+        "prompt_tokens": 14085,
+        "completion_tokens": 2743,
+        "total_tokens": 16828
+      },
+      "total_ms": 20936.89510016702,
+      "ttft_ms": 3202.4799999780953,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "review": {
+        "schema": "civ6.raw-candidate-review/v1",
+        "model": 741,
+        "complete_stop_done_json": true,
+        "edits": [
+          {
+            "file": "tools/paired_normal_end.py",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/run_paired_acceptance.py",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/run_paired_acceptance.py",
+            "current_anchor_matches": 1,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/run_paired_acceptance.py",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/run_paired_acceptance.py",
+            "current_anchor_matches": 1,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/run_paired_acceptance.py",
+            "current_anchor_matches": 1,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/analyze_paired_turns.py",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/analyze_paired_turns.py",
+            "current_anchor_matches": 1,
+            "unchanged_replacement": true,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/lua/benchmark_end_bridge.lua",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          },
+          {
+            "file": "tools/lua/benchmark_end_bridge.lua",
+            "current_anchor_matches": 0,
+            "unchanged_replacement": false,
+            "original140_anchor_matches": 1
+          }
+        ],
+        "rejected_reasons": [
+          "normal callback contract changed to unsupported keyword then returned extra source_version forbidden by actual driver ACK shape",
+          "setup retains source140 guard",
+          "bridge accepts either stage version without matching entry/actual constructor version; optional GetSourceVersion not provided by builder"
+        ],
+        "adopted_edits": 0,
+        "native_calls": 0,
+        "review_method": "Exact original-source anchors and actual consumer contract inspection before adoption; no partial candidate applied",
+        "owner_correction": "Original anchor counts are all1; initial owner prose alleging bad original anchors was wrong and is withdrawn. Evidence counts were correct. Corrected before publication."
+      },
+      "adopted": false
+    }
+  ],
+  "actual_concurrency": [
+    {
+      "models": [
+        738,
+        739
+      ],
+      "overlap_seconds": 36.164104,
+      "measured_from": "POST_BEGIN through ATTEMPT_END; not CLI lifetime",
+      "peak_inflight": 2
+    },
+    {
+      "models": [
+        740,
+        741
+      ],
+      "overlap_seconds": 14.978859,
+      "measured_from": "POST_BEGIN through ATTEMPT_END; not CLI lifetime",
+      "peak_inflight": 2
+    }
+  ],
+  "cumulative": {
+    "logical": 741,
+    "complete_streams_including_historical_json_rejection": 688,
+    "length": 50,
+    "final_transport": 3,
+    "http": 771,
+    "extra_attempts": 30,
+    "new_peak_inflight": 2
+  },
+  "maintenance": "Nov14 canonical1.19.5 passed cache reused; no OpenCode native sessions",
+  "unknown_costs": {
+    "cached_tokens": null,
+    "owner_active_time": null,
+    "net_savings": null
+  },
+  "software": {
+    "source_version": 141,
+    "tests_total": 2198,
+    "tests_passed": 2197,
+    "SDK_skipped": 1,
+    "raw738": {
+      "passed": 3,
+      "failed": 4
+    },
+    "raw739": {
+      "failed": 2,
+      "empty_pass": 1
+    },
+    "new_settler_methods_passed": 7,
+    "related_settler_methods_passed": 83,
+    "version_boundary_methods_passed": 5
+  },
+  "limits": "HTTP completion and owner adoption separate. All738—741 rejected; owner implementation after738 failed, no model independent optimization discovery. Original-anchor prose owner mistake corrected against all1 measured matches before publication. No Native141/performance or OpenCode generation credit."
+}

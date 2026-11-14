@@ -6397,3 +6397,12 @@ Owner工具3新/6相关方法过，1—12唯一词法目标、默认尾段与冻
 ### 2026-11-14 StageC proof与readonly路由两项真实源码审阅：一完整、一length弃用
 
 A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Frame完整）；3消息/source600/2400/max3000，真实2POST、0retry、峰2重叠167.419853秒。A stop321789in801out，0finding有限流程概述；B length787808in3000out整件UNUSED、未语义读/解析/拼接/续问，不授第二份可用审查。reported合1109597in3801out含弃用，不能推serverctx/并发。Root同16M内改A7/B9完整source，独立fresh已保；原小binary包以全Base64字节/哈希核，6.9M旧SEM/DLL仅ref不假读。NoEffect非NoDispatch/ACK/新credit；软件首编独立，0modelcode/Test采用，当前0HTTP。见[proof](evidence/2026-11-14-ck3-stagec-proof-raw-review.md)、[readonly length](evidence/2026-11-14-ck3-stagec-readonly-route-length.md)。
+
+
+## 2026-11-14：J复现重复支持、738—741拒稿与Owner141
+
+[固定项目证据](https://github.com/XenoAmess/civ6_dev/blob/1affcfe51b15ea72d99cad33736cb7bf5e45d79a/docs/research/baiqi-source141-settler-J738741-2026-11-14.json)：J76根201行，14通知前／62通知后，77ms根中Settler67ms，支持27ms＋候选扫描26ms（内含支持22ms），嵌套不能求和；另71ms无所选子项、归因unknown。738原7方法3过4失败，重复验证／保留冲突／tested回退问题；739误用真实夹具API、缺注入、含空方法，原3方法2失败1空过，0采用。Owner141当前目标直接路径、负目标ID续行，7新／83相关过；最终资格／护送／UNKNOWN写入边界保持。
+
+740原始锚点全唯一，但分析器用未赋值d／重叠替换／浮点版本及字节保持虚称；741破ACK字段和callback合同、漏setup140、bridge未绑定同版本，两者0采用。Owner初次锚点错误口述经原HEAD计数全1纠正并公开，不能归模型错误。Owner端显式140／141源版本与错误版本零发单5方法过；2198全量中2197过1SDK跳过，97Lua51／53／119文件。Native141及正式性能仍待，旧140F性能FAIL不追认。
+
+四次单attempt完整stop／DONE／strictJSON，四原tokens／耗时见[共享证据](evidence/2026-11-14-civ6-J141-738741.json)。738/739实际POST交叠36.164104秒、740/741交叠14.978859秒，各峰2；不据目标12—16造任务或算作实际并发。累计741logical／688完整（含历史JSON拒绝）／50length／3transport／771HTTP／30extra；维护canonical1.19.5成功cache复用，OpenCode native0／cachedtokens与Owner主动成本与净节省null。

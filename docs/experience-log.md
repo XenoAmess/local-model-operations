@@ -250,3 +250,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 独立135324存档下普通136两自然推进到326，北京后台唯一0:326:31请求、队列回执和2568区域10匹配，原生普通泛滥平原feature0仍在、农场由原版BUILD移除，净粮15／20人口无新损失；无需排除另一个森林。这里只授新增分支实际开工，完工／住房增益／重载后见另记；保护136主332，分支进度不叠加主线。[Native开工固定反链](evidence/2026-11-13-civ6-native136-flood-start326.json)。
 
 累计700逻辑／649完整stop流（前692含严格JSON拒绝）／48length／3最终transport／730HTTP／30extra；700新峰1。Nov13canonical1.19.5成功缓存复用，OpenCode原生0，未知缓存／Owner总成本／净节省null。明确源码任务、私有构建、游戏阶段与模型采用分开，继续真实未闭验收。
+
+
+### 2026-11-14：Civ6候选必须对齐实际消费合同
+
+[738—741与Owner141](https://github.com/XenoAmess/civ6_dev/blob/1affcfe51b15ea72d99cad33736cb7bf5e45d79a/docs/research/baiqi-source141-settler-J738741-2026-11-14.json)重复支持检查可用实际Controller方法计数验证，未知Forget后只保留否定proposalID，最终发单仍新鲜。模型给错GameInfo可调用形状、请求记录shape、空测试或额外ACK字段不能授采用；原稿失败与Owner修正分列。Source版本适配不得悄改历史证据。Owner关于锚点的初始猜测也需逐项计数修正（本例全1），不能把负责人错误转嫁候选。四次完整流、实际两组峰2和成本null分别记录；141 Native／性能仍待。
