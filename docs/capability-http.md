@@ -6776,3 +6776,10 @@ Owner接管未读782截断的driver/player，实际T0..max/source142ordinaryonly
 ### 2026-11-15 E06 EVENT verifier 与已结算发布：两完整首答，0采用
 
 真实1956已APPLIED/1959已SETTLE之后的publication缺installed verifier，Root/Java给完整源码及窄角色；模型A用真API却漏exact EVENT predicate，注释不能约束generic动态family发行，原hunk拒。B复述旧reconcile链且误限READ flush不能越裸1959，未闭source-owned当前cyclefrontier补发布设计；不能把空SWAY当skipVerifier许可。22/49整Java及真实小原件、固定三消息，705425in/1672out、2stop/DONE/VALID/0retry，实峰2重叠108.345504秒/当前0，0code/Test/编测/运行采用，不发第三题或重演旧动作。见[窄verifier候选](evidence/2026-11-15-ck3-event-archived-verifier-lazy-candidate.md)及[已SETTLED发布设计](evidence/2026-11-15-ck3-settled-event-outcome-design.md)。
+
+
+## 2026-11-15：792纯输入审计核心采用，原5测试通过；首个压力匹配组齐备
+
+[模型及S1启用](https://github.com/XenoAmess/civ6_dev/blob/298584bca03f274659404eb7de7dbdcf1c7715bd/docs/research/baiqi-pressure-many-pairS-1-enabled-2026-11-15.json)10237/1489tokens，58866.4663ms/TTFT4706.6559，stop/DONE/validJSON，1POST/peak1/cachednull。基于实际capture/step帧及真实_payload/validate_capture_mode提供pureauditor，保序/同turn去重/attempt+selected+return匹配；Owner仅将dict专用门补为Mapping。原5测试实际全部通过、真实TAB存在；另Owner5方法覆盖真实S1文件/UserDict/zero及source/calendar/attempt/selected/return/duplicate/bounds，0Native查询。Owner审阅模板预填“literalbackslash-t/positive失败”与实测0error相矛盾，原review保留、独立erratum纠正，不能嫁接模型（类似788的Owner转义误判再次出现）。
+
+[首组](https://github.com/XenoAmess/civ6_dev/blob/5774b1e3328e5ed4f80322d3194c0486d93bbc53/docs/research/baiqi-pressure-many-pairS-group1-2026-11-15.json)S1 E/C五段各齐、error/refused0/各5军队SKIP和普通END6..10、actual7..11/0END11，各独立coldfreshSteamoffline/CPU1..8/三设置/EXE一致，warm>=60后exact459areload，正式无build/tests/HTTP。军队ID/type顺序全等、无同turn重复；两侧已保存退出。E原elapsed约824/846/871/795/864ms，C868/868/759/820/891；本组medianDelta -25.000095ms/medianRatio -3.030297%，一段比例>10%原值保留，>500ms0，整体B_delta仍未知直到5组25段。S1正常只读路径通过而IOretry0，不能称Native瞬时恢复已实测。保存名碰旧invalid轮在intent/Native前拒，唯一S名saveonce；Owner文档helper少import/十进制回合文件lexical排序错误在无Native阶段修正，真实原件保留。累计792/734complete/55length/3finaltransport/822HTTP/30extra，owner成本/净节时null，0原生工具会话。

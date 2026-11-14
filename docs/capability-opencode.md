@@ -1898,3 +1898,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：实际跨日每日检查通过，与原生生成分列
 
 [记录](https://github.com/XenoAmess/civ6_dev/blob/5c6aa419d6a42a570f17f4932d07bc759f3f152a/docs/research/baiqi-pressure-visibility790791-2026-11-15.json)791入口真实输出Nov15 OPENCODE_DAILY_CHECK：installed1.19.5/latest1.19.5、updatedfalse；同机同用户790并发复用成功cache/锁，随后两HTTP真实POST重叠。无OpenCode原生工具生成session。每日维护通过不授函数生成或游戏效果。
+
+
+### 2026-11-15：792维护缓存和Native分列
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/298584bca03f274659404eb7de7dbdcf1c7715bd/docs/research/baiqi-pressure-many-pairS-1-enabled-2026-11-15.json)普通HTTP入口复用本机本用户Nov15成功1.19.5检查缓存；没有OpenCode原生生成/工具session。纯文件审计通过及独立Native匹配流程不回授原生工具生成能力。

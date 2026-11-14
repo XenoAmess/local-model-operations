@@ -415,3 +415,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：严格分开failed query与后继state query，重试界定到固定纯读
 
 [790/791](https://github.com/XenoAmess/civ6_dev/blob/5c6aa419d6a42a570f17f4932d07bc759f3f152a/docs/research/baiqi-pressure-visibility790791-2026-11-15.json)两帧已够区分成功LSQ后CMD发送与失败前未发送：核payload firstdigits/唯一context和实际send位置；返回值仍未知。独立后来读的tag3/NUL空文本不能塞回原失败流，size1含NUL不等size0。只读metadata动作0只描述那次查询，不覆盖历史选择。不能用审稿推断更换frame协议；固定纯读最多3次可恢复瞬时IO，所有真实游戏动作继续不重试。真实wirefixture含TAB/上下文prefix，测试缺test_prefix及raw错误逐项保留。
+
+
+### 2026-11-15：采用结论必须从实际计数派生，不能预填失败故事
+
+[792](https://github.com/XenoAmess/civ6_dev/blob/298584bca03f274659404eb7de7dbdcf1c7715bd/docs/research/baiqi-pressure-many-pairS-1-enabled-2026-11-15.json)raw5tests全过、literalprobe TABtrue/backslashfalse，Owner预填失败文字就是Owner错误，应保原review/补erratum，不为模板编造模型缺陷。Mapping合同与dict-only候选差异用实际UserDict见证。原生输入只审request序列/ACK，不能当物理完成；[首匹配组](https://github.com/XenoAmess/civ6_dev/blob/5774b1e3328e5ed4f80322d3194c0486d93bbc53/docs/research/baiqi-pressure-many-pairS-group1-2026-11-15.json)某段>10%仍全留，总体中位规则只在25段齐备裁定，不能逐组换门或选更好结果。

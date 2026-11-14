@@ -1,0 +1,217 @@
+{
+  "project_model_and_side_evidence": "https://github.com/XenoAmess/civ6_dev/blob/298584bca03f274659404eb7de7dbdcf1c7715bd/docs/research/baiqi-pressure-many-pairS-1-enabled-2026-11-15.json",
+  "project_group_evidence": "https://github.com/XenoAmess/civ6_dev/blob/5774b1e3328e5ed4f80322d3194c0486d93bbc53/docs/research/baiqi-pressure-many-pairS-group1-2026-11-15.json",
+  "model792": {
+    "usage": {
+      "prompt_tokens": 10237,
+      "completion_tokens": 1489,
+      "total_tokens": 11726
+    },
+    "wall_ms": 58866.46629986353,
+    "TTFT_ms": 4706.655899994075,
+    "finish_reason": "stop",
+    "SSE_done": true,
+    "review_correction": {
+      "utc": "2026-11-14T16:24:18.780309+00:00",
+      "superseded_review_sha256": "cdddf4d7a1221d443c10f4a2a6caa1ac4b5d3e4cba8a921a3c560c05ff694786",
+      "correction": "Ownerprepopulatedadoptiontext wronglyassertedliteralbackslash-t andpositivefailure, contradictedbyactualASTruntimeprobe andraw5testsallpass. Bothoriginalreview andthiserratumretained. No modeldelimiter/testfailure.",
+      "actual_raw_tests": {
+        "discovered": 5,
+        "errors": 0,
+        "failures": 0,
+        "wire_literal_probe": {
+          "actual_TAB_present": true,
+          "literal_backslash_t_present": false
+        }
+      },
+      "adoption": "Coreauditbody reused withOwnerdict-onlyguard changed to Mapping. Original5tests passed and retained as executed candidate verification; they lack capture source/calendar and selected/return mismatch coverage. Owner5methods coveractualdata/UserDict/zero/order/metadata/attempt/selected/return/duplicate/bounds. No Native queries.",
+      "owner_methods_passed": 5,
+      "actual_side_input_audit": {
+        "turns": {
+          "6": [
+            [
+              "131073",
+              "UNIT_WARRIOR"
+            ]
+          ],
+          "7": [
+            [
+              "131073",
+              "UNIT_WARRIOR"
+            ]
+          ],
+          "8": [
+            [
+              "131073",
+              "UNIT_WARRIOR"
+            ]
+          ],
+          "9": [
+            [
+              "131073",
+              "UNIT_WARRIOR"
+            ]
+          ],
+          "10": [
+            [
+              "131073",
+              "UNIT_WARRIOR"
+            ]
+          ]
+        },
+        "total_SKIP_request_calls": 5,
+        "no_sameunit_sameturn_duplicate": true
+      },
+      "Native_queries": 0,
+      "originals_rewritten": false
+    },
+    "adoption": "Coreauditoradoptedprivate; OwnerMappingguardcorrection; 5raw+5Owner methods passed plusactualS1data audit",
+    "new_logical_calls": 1,
+    "cumulative_logical": 792,
+    "cumulative_complete": 734,
+    "cumulative_length": 55,
+    "cumulative_final_transport": 3,
+    "cumulative_HTTP": 822,
+    "cumulative_extra_HTTP": 30,
+    "peak_in_flight": 1,
+    "cached_tokens": null,
+    "owner_full_cost_ms": null,
+    "net_savings": null,
+    "daily_maintenance": "Nov15successful1.19.5cache reused; noOpenCode native-toolgen session"
+  },
+  "actual_first_side_input_audit": {
+    "turns": {
+      "6": [
+        [
+          "131073",
+          "UNIT_WARRIOR"
+        ]
+      ],
+      "7": [
+        [
+          "131073",
+          "UNIT_WARRIOR"
+        ]
+      ],
+      "8": [
+        [
+          "131073",
+          "UNIT_WARRIOR"
+        ]
+      ],
+      "9": [
+        [
+          "131073",
+          "UNIT_WARRIOR"
+        ]
+      ],
+      "10": [
+        [
+          "131073",
+          "UNIT_WARRIOR"
+        ]
+      ]
+    },
+    "total_SKIP_request_calls": 5,
+    "no_sameunit_sameturn_duplicate": true
+  },
+  "group1": {
+    "schema": "civ6.pressure-many-paired-group/v1",
+    "date": "2026-11-15",
+    "machine_id": "BF-202609141645",
+    "recorded_utc": "2026-11-14T16:34:01.362633+00:00",
+    "completed_groups": 1,
+    "matched_segments": 5,
+    "current_group": 1,
+    "current_order": [
+      "enabled",
+      "control"
+    ],
+    "current_group_median_delta_ms": -25.00009536743164,
+    "current_group_median_segment_ratio_percent": -3.03029735424959,
+    "current_strict_over_500ms": 0,
+    "current_strict_over_10percent": 1,
+    "all_completed_raw_matched_rows": [
+      {
+        "pair": 1,
+        "turn": 7,
+        "enabled_ms": 823.9998817443848,
+        "control_ms": 867.999792098999,
+        "delta_ms": -43.99991035461426,
+        "ratio_percent": -5.069115310294438
+      },
+      {
+        "pair": 1,
+        "turn": 8,
+        "enabled_ms": 846.0001945495605,
+        "control_ms": 868.0000305175781,
+        "delta_ms": -21.999835968017578,
+        "ratio_percent": -2.5345432251770013
+      },
+      {
+        "pair": 1,
+        "turn": 9,
+        "enabled_ms": 870.999813079834,
+        "control_ms": 758.9998245239258,
+        "delta_ms": 111.9999885559082,
+        "ratio_percent": 14.75626013828909
+      },
+      {
+        "pair": 1,
+        "turn": 10,
+        "enabled_ms": 794.9998378753662,
+        "control_ms": 819.9999332427979,
+        "delta_ms": -25.00009536743164,
+        "ratio_percent": -3.048792366185381
+      },
+      {
+        "pair": 1,
+        "turn": 11,
+        "enabled_ms": 864.0000820159912,
+        "control_ms": 891.0000324249268,
+        "delta_ms": -26.999950408935547,
+        "ratio_percent": -3.03029735424959
+      }
+    ],
+    "actual_sides": [
+      {
+        "pair": 1,
+        "variant": "enabled",
+        "evidence": "baiqi-pressure-many-pairS-1-enabled-2026-11-15.json",
+        "evidence_sha256": "93678fe0810778870a72bd0d48090a45b2f6649203bf26c25caac29780346dc5",
+        "owner_pid": 3516,
+        "owner_birth": 1794672778.8449483,
+        "whole_input_sequence_equal": true
+      },
+      {
+        "pair": 1,
+        "variant": "control",
+        "evidence": "baiqi-pressure-many-pairS-1-control-2026-11-15.json",
+        "evidence_sha256": "076577fc2216b0aaab57bb18f2a5fc5252727f8277ec1bb48c4f6fdb86a8fd3c",
+        "owner_pid": 11524,
+        "owner_birth": 1794673465.4523787,
+        "whole_input_sequence_equal": true
+      }
+    ],
+    "all_ordered_military_sequences_equal": true,
+    "all_NO_END11": true,
+    "all_ordinary_END6_to10_once": true,
+    "all_actual_native_activations7_to11": true,
+    "all_same_exe_CPU_settings": true,
+    "overall": null,
+    "limits": {
+      "B_delta": "UNKNOWNuntilall5groups",
+      "not_each_segment_or_group_gate": true,
+      "world_or_latency_differences": "Allrawvaluesretained; notexclusive/solecausalmodCPU",
+      "prior_invalid_overlapped_and_R1": "Excludedwhole/preservedseparately",
+      "MANY_H_I_threebudgets": "PriorindependentPASS",
+      "NO_SITE_performance": "NOT_RUN",
+      "TC036": "PARTIAL",
+      "new_HTTP": 0,
+      "cumulative_logical": 792,
+      "Steam_online_or_upload": 0,
+      "screenshots": 0,
+      "source142119_changed": false
+    }
+  }
+}
