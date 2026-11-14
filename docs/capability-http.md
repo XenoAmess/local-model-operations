@@ -6701,3 +6701,10 @@ Native独立WATER1成功不追认旧alllandFAIL；静态control人工初始11城
 [记录](https://github.com/XenoAmess/civ6_dev/blob/adc552334db7bd6c38a2723356117b883707b5e8/docs/research/baiqi-pressure-natural-build781782-2026-11-14.json)7817436input／1888output、17024.182ms stop／DONE／strictJSON，78210828／8000、49382.600ms length整份未读弃用。两单POST实际峰2、共同17.024656秒，累计782logical／725complete含历史JSON拒绝／54length／3最终transport／812HTTP／30extra。78110锚点第6／9不匹配；仅为反证lstrip适配，build读未赋值version抛UnboundLocalError，prefix缺Lua右花括号解析FAIL，目录未创建。部分参数／范围／CLI／mode／ZIP思路采用，Owner移验证、修注入／元数据，0原测试。Owner4新+6旧构建方法通过，实际两119文件包／97Lua双编译、T0/T1/max5段、旧None/140/141/142prefix四SHA不变；完整driver/player仍85，不授NativeT1pair。
 
 新enabled自然census独立实例23492，freshSteam离线0.003705秒、exact6be8加载一次／orderedloadlog0/18/31／ownedHWND Esc一次，0截图。Native10自然recruit_choice均T1入池3／全访3／cheap2supportfalse2／返0／exhausted，0drop/invalid，未>=12也无globalnosite。后台10纪念碑队列，TEST_PLAYER5军队SKIP/5普通END1..5独立到6，0civinput/重复同单位同回合，0END6；T2..6没新调用不能说hint不变。T6纯观察retire后export并存459a…独立checkpoint，主f70/NoSite92f/原6be8及产品142源不变。维护cache复用、原生0、cache/server/Owner完整成本null，TC036PARTIAL。
+
+
+## 2026-11-14：783把调用数写成池大小，Owner驱动接管分列
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/208fb78b861acdb510f46a7b49cd3a949ffded3c/docs/research/baiqi-pressure-driver-diagnosis783-2026-11-14.json)7836534input／1491output、11665.221ms、首内容1200.345ms，单POST stop／DONE／strictJSON、实际峰1。输入明确10自然调用每池3，候选写10位置/raw10/visited10；cheap_pass2反写拒绝、同数认缓存/地形原因、未经证实高信心与NO_SITE自然效果均拒，0文字／代码采用。Owner同owned进程已retire/save后T6只QAgetter一次，真实12不同位置、census仍10，不授自然>=12；结果变化否定全程相同但不诊断内部cache/重算。该窄QA已是任务合同要求，不记模型独有收益。
+
+Owner接管未读782截断的driver/player，实际T0..max/source142ordinaryonly，pressureheadersetup/reserve/poll/post/stop、7字段ACKvslegacy4、五段actualT至T5后停。7新+51旧方法过，realprefix/bridge/clock/ordinaryAPI/合成UI，10次软件drivercapture直接消费为25pairedrows，unknownACK/READY/timeoutnoreplay、pending保留、queueblock不补内政。无Nativepressurepair／性能通过；privatechildren与fullscript日历未完。累计783logical／726complete含历史JSON拒绝／54length／3最终transport／813HTTP／30extra，维护cache／原生0，cache/server/Owner完整成本null，产品142119源及主334/NoSite/6be8保存保持，TC036PARTIAL。

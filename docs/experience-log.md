@@ -375,3 +375,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：缺调用不等返回不变，生成字符串须运行解析
 
 [781—782](https://github.com/XenoAmess/civ6_dev/blob/adc552334db7bd6c38a2723356117b883707b5e8/docs/research/baiqi-pressure-natural-build781782-2026-11-14.json)自然调用只发生T1，队列填充后后续回合不再调用，就不能推断T2..6候选值相同；人工QAgetter与自然证据分列。全池穷尽证明当前推荐池无接受项，不是全图无落点。构建器候选的hunk必须逐个唯一，Python能解析不代表生成Lua括号闭合；先验证实际版本赋值再用其校验参数，候选宣称覆盖不替代真实prefix+消费者双版本运行。
+
+
+### 2026-11-14：样本数、每样本分母与结果变化须分别判断
+
+[783](https://github.com/XenoAmess/civ6_dev/blob/208fb78b861acdb510f46a7b49cd3a949ffded3c/docs/research/baiqi-pressure-driver-diagnosis783-2026-11-14.json)10次调用每池3不是10位置；cheap_pass代表通过便宜门而非被拒。没有新调用的回合值未知，后续一次getter12也不授自然样本，变化只证明返回不同；数量不变不能判cache还是重算。分析候选的高信心并非证据；提供原版调用源码只能证明调用者意图，不能推出Native硬上限。来源和实际calendar贯穿driver/header/ACK/record/consumer，失联后不能重放动作，保留pending并独立观察。
