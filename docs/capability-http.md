@@ -6655,3 +6655,8 @@ Owner修正均不归模型：Mods同名8/32导致查询在CMD前拦截；g_Playe
 Owner按原协议和真实Ready1重写独立压力冻结文档，旧协议字节SHA全等；保留20／50ms、1000ms／64／500ms与10%、4096／每目标100纯十城／60秒，分指标严格超限次数且>20次数不新增逐次门槛。真实T1窗2..6，规划／全脚本实际7收尾，配对结束1..5激活2..6、6窗后停不END6；自然census和计时分包，未知工具（全脚本／配对／END驱动仍85）先扩展验证。MANY指纹尚未冻结，不能从全陆地授admitted>=12。无压力性能通过，TC036仍PARTIAL。
 
 累计774logical／719complete含历史JSON拒绝／52length／3最终transport／804HTTP／30extra。无text-only改动测试，人工核对threshold／SHA／旧文件不变；后补日历段clarification及publication未计，NativeMANY准备与phasewall重叠；server／cache／Owner有效成本／净收益null。Steam0上线／上传。
+
+
+### 2026-11-14 B76 Head.digest 单方法候选与唯一修复：完整源、0实际优化采用
+
+真实B76线程点Head.digest→Core DATA owner→archive.check触发新body-only任务，完整33Java+实际15KB栈/合同；首答old==new，文字改成少一次head读取违约且不省digest。一次必要修复仍成功路径两digest，原&&已短路失败，另StrictJson.require缺String参数静态不编；0source/Test/软件资格，方向不封技术NO。两请求合382087in1490out、总HTTP35.6335543秒、0retry、实际peak1，当前0。不重投旧DPP坏稿、不再第三次；原history32M未结余11080308内重分配，无新future或旧actual释放。见[首候选](evidence/2026-11-14-ck3-retirement-head-digest-noop.md)、[唯一修复](evidence/2026-11-14-ck3-retirement-head-digest-repair.md)。
