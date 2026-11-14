@@ -6444,3 +6444,8 @@ A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Fr
 [Owner142交付与精确反链](https://github.com/XenoAmess/civ6_dev/blob/e8353103eacb980484806eef137d0351d2c85716/docs/research/baiqi-source142-support-budget745746-2026-11-14.json)将昂贵KnownExpansionSupport每回调一次、严格选项先于原生读、已尝试ID、空结果more传到真正调度器；默认Recruit枚举与最终RequestCivilian不改。Owner首全量2219发现廉价外国地块被错误消耗预算的时序回归，修实现／保留旧oracle，再2220中2219过1SDK跳过，4新／87相关移民和6版本边界（新142普通END／capture）过，97Lua双编译／119包。142未安装／Native未验，正运行AdminL冻结141不混授；单支持31＋路径25仍可能超50，旧FAIL保持。
 
 两次单attempt／完整stop／DONE／strictJSON，实际POST交叠10.062363秒、峰2；各tokens／耗时见[共享原值](evidence/2026-11-14-civ6-support-budget745746.json)。累计746／693完整（含历史JSON拒绝）／50length／3transport／776HTTP／30extra。每日维护成功cache复用，OpenCode native0，cachedtokens／Owner主动成本／净节省null。
+
+
+### 2026-11-14 Frontier 两完整短审：四项不成立，0采用
+
+69/88完整Java、各34非Java含30小cycle-record原件/116873索引、509085候选与496820完整BASE/directFrame；大Driver/SEM/native/stamp仅ref不假读。固定3消息/source600/2400/max2200/目标800，两首均stop/DONE/strictJSON、0retry；合1470244in717out，真峰2重叠211.438937秒，当前0HTTP。A把false拒绝写成accept，忽略单ref64MiB+4先界及load前局部计费；B误将savedHead当前semantic当head80，再凭假设normalizer报兼容退化，均无reachable反例。0finding/code/Test采用，不封技术NO/实际冷恢复绿；postreply完整stamp生产者另pin不回填input。原8/8准备不足仅同16M内改7/9、补完整继承声明后首派，无截源/二投。见[validator](evidence/2026-11-14-ck3-frontier-validator-review.md)、[callers](evidence/2026-11-14-ck3-frontier-callers-review.md)。

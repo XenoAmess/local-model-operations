@@ -1,0 +1,774 @@
+{
+  "schema": "local-model-operations.http-source-review/v1",
+  "date_local": "2026-11-14",
+  "mode_id": "http_candidate",
+  "input": {
+    "candidate": "Single owner Frontier Journal509085/85edfb72 vs complete BASE496820/d030995b; C6-02 coherent dependencies, not older StageC or partial source.",
+    "complete_java_files": 69,
+    "complete_other_files": 34,
+    "small_cycle_records_whole": 30,
+    "full_files": [
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 509085,
+        "sha256": "85edfb7239d753fa0e4fc36beaf7639094c6e40bbe9bd9df13a03f13d2f573ab",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "SessionPorts.java",
+        "bytes": 23739,
+        "sha256": "4f71dbe0e2da0f56918232a16c6051c3a39d8d6c30f03ce1a3fe24323a216c77",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "OrdinaryCycleTransitions.java",
+        "bytes": 246761,
+        "sha256": "582fb80f6f5efb0c7a795eb2c918c7f4e62b5a0b2563e96d557550a1db0c102d",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ContinuityState.java",
+        "bytes": 7614,
+        "sha256": "a506aec4e6ea48d199bce0c7037e1d32b1864b14f2af82c7807e243ff3f8d6a7",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ContinuityJson.java",
+        "bytes": 10085,
+        "sha256": "7b5e31679b8be7d7ebfe212cf26180323cb10a9614a8ee8d7e07dc2a662d748d",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ActionPorts.java",
+        "bytes": 23186,
+        "sha256": "8f442da38de05a11daa15c4d8eb700f7c609a7e82d4d8de5ea94c171f2b676a7",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ActionCommand.java",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ActionCodec.java",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ActionReceipt.java",
+        "bytes": 5725,
+        "sha256": "2857682e8bbc4fe71444bc884e13cc67aa02ac56ae20ee5bcb97569dc67c4931",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ActionReceiptCodec.java",
+        "bytes": 59676,
+        "sha256": "5ee4f19c163df53b0bfb2955f68bae26b70bcd2bdb6dfca122865a1a1b00c8bd",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ActionState.java",
+        "bytes": 16004,
+        "sha256": "1b58941b54451bb573b5c4c064044e2ad09622353f8b517645e1dbf8140ea611",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ActionTransitions.java",
+        "bytes": 14134,
+        "sha256": "5d3786a8edb5a0a906b0c4cde956959525d922560b9683374b97a725d0d4b47a",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ActionEffects.java",
+        "bytes": 47747,
+        "sha256": "dc7e87f1cca2d595f5a598c0b87a31a0112a4221dbc8ae43358b3ac59f017851",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ActionIds.java",
+        "bytes": 3215,
+        "sha256": "3ec3268ab673adb38b84b666ec413ccca27596e1e88c07f24065109b7ecb869b",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "RequestIds.java",
+        "bytes": 1393,
+        "sha256": "0db5fefc4039e4e4445e5c947d041b8eb3cb21de06566e7b7040847b06ec1b0f",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "OperationKey.java",
+        "bytes": 413,
+        "sha256": "bc21f4c9f71e1964569c1c0218e38cf3c9b5177da99338b28bfa08ddd043ca57",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "CommandOrigin.java",
+        "bytes": 5057,
+        "sha256": "3036eb8836c7c4cd76e188d44e1ae664896833a650577d2b0c5aecd6f367ce82",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "GuardEvidence.java",
+        "bytes": 6176,
+        "sha256": "a26fcda93c132568c925090f4717fe1023be4534ce94c74afa7303b4d2a47247",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PhysicalStatusIdentity.java",
+        "bytes": 4112,
+        "sha256": "ed93358d81a387771be86249a5ec183a9fba9da02f88062e26329f9abaaa2699",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ObservationProvenance.java",
+        "bytes": 8409,
+        "sha256": "1b58db19351227e0ff9873adc703bbe845503c2c946262272ac1b9775d912e15",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ObservationProvenanceCodec.java",
+        "bytes": 9758,
+        "sha256": "ff9b0c32bd69650f051e6c62bc39581ae730575aa4a132a35a1094510878083b",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "DriverJson.java",
+        "bytes": 11237,
+        "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "FullJsonTree.java",
+        "bytes": 9196,
+        "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "DecimalTokenNode.java",
+        "bytes": 3400,
+        "sha256": "dcfaa1f41e5dba568e21d61103197827c26704e3e386da48077a8a159812b9df",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "OpportunityJson.java",
+        "bytes": 7208,
+        "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "DriverObservationEvidenceReader.java",
+        "bytes": 23478,
+        "sha256": "f9261570044a38bec8c7254aa7d9452e2c6e9f9914df396d79a6f20336968f06",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "DriverObservationAssembler.java",
+        "bytes": 28791,
+        "sha256": "e38f5ace67972450970a1c96db1981ef2acae7e58a30ee723f03fc9dd744b4e4",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "DriverFrameEvidenceLoader.java",
+        "bytes": 17237,
+        "sha256": "a649f7ef7ba2032245c89429cf1618af6f2e0edba6a0c7548e1c492c8a5c508f",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "DriverObservationFacts.java",
+        "bytes": 2488,
+        "sha256": "2b6a592182a5408d6eff3643e36bcbb4cdcb85666ebcec16fa8146909542aad6",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "DriverSnapshotFacts.java",
+        "bytes": 14955,
+        "sha256": "f557be8eb7c2e7a43a4c7eb30e4bae25a53f046cda38a33c71edbbbc1208d446",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "DriverStateSnapshot.java",
+        "bytes": 12444,
+        "sha256": "69a835a455bd2b6f6fa97ffc8c56ee75b8316471f6d54e381660cad167aa9c98",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "DriverCheckpointStore.java",
+        "bytes": 13687,
+        "sha256": "6688b546d04172a81c738c55d5676c2a80a51bfb35f5188dd1a9d4ac79596c04",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "CheckpointPairCodec.java",
+        "bytes": 2910,
+        "sha256": "4f3dde9feab454fa4dd47225e5a46fdef4b814098da37e5261287ee4badd7f07",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "AdvanceObservationPort.java",
+        "bytes": 4863,
+        "sha256": "dbeb58bfb6b02fd40f4d6dc41beb1e14b47bc449e9a1753797da988ee9effd99",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "NativeWire.java",
+        "bytes": 18430,
+        "sha256": "0c8b499fcaf65e864def0ab4015ac3781ec6c33a70bbf7ee105f450510096e04",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "G2Source.java",
+        "bytes": 1330,
+        "sha256": "10a3b417bee865653469cf48d204b5db956941771741bcc2afde355c70d3e60c",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "GameGeneration.java",
+        "bytes": 1618,
+        "sha256": "82f827951e6df97e8546bd4f153bc2d1cc8739cd1274f4a1af84d8d627ea96c4",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "OriginalEvidencePort.java",
+        "bytes": 511,
+        "sha256": "73e24f1db40f2f5f5d296a3b5c2693e344875065c1d92967e8a198ce2b2f6797",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 148279,
+        "sha256": "fd245ab9cc652f9707764378da4a678fd1e968d8c4651514e6c5e0ba211d94c8",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PreparedCleanupParentEvidence.java",
+        "bytes": 12402,
+        "sha256": "193f9ef57dc1e7d2626e8ac56849ff53db02fa924f5f4726926d954e4ee3d3c0",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PreparedCleanupParentProjection.java",
+        "bytes": 7112,
+        "sha256": "bdfa250c1991aaa1f0e81dd47151e0e4aba6aebe69e89e1176d8eb51dc016d86",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PreparedCleanupParentProof.java",
+        "bytes": 10470,
+        "sha256": "092dd8080776124254e862fb45008ee33e3bbc6ad1c24228200348556b3dd000",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PreparedCleanupSuccessorParentEvidence.java",
+        "bytes": 11115,
+        "sha256": "c9d5938ad187b234ea30d25d5ec81a0509051c84203e6972153e8c55e4c88e51",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PreparedCleanupSuccessorParentProof.java",
+        "bytes": 11468,
+        "sha256": "6c2703292bc6a7470903ecf4639d90346a69bed44f813277d110bdf42fa8cd6f",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PreparedCleanupSuccessorEvidence.java",
+        "bytes": 13463,
+        "sha256": "dc7a3148b33fc848e3826866f8ef9a83ad883f2eb2514a1d8c361e6358dc6895",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PreparedCleanupEvidence.java",
+        "bytes": 42786,
+        "sha256": "e5eaaa7249c32f662c4ba07c27d75b54f4b79b2814035a970721ff6e6a528909",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PreparedCleanupNoEffectProof.java",
+        "bytes": 32651,
+        "sha256": "871d5b3ddc2ad495608548d095ab1c4965e12c9dbfa9c3dee2fcf006b1212bf8",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PostExitCleanupNoEffectProof.java",
+        "bytes": 33571,
+        "sha256": "91780874e76b81c4fb25ab8e2b5bbb0d2aba2f104426a660f3338ffe0cbc5665",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "LifePostResumePauseCleanupProof.java",
+        "bytes": 29764,
+        "sha256": "9f40c17deef892fca478603b910e684c83c0453f32afe59dedeceb1fd7eb258b",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PreparedCleanupReplay.java",
+        "bytes": 3642,
+        "sha256": "8b23c9ec17a0149863c14704049d901ab07d09968eec21790baab291602d0163",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PreparedCleanupCursor.java",
+        "bytes": 4713,
+        "sha256": "d3aaa2cddc02989252cbf608af3073b3c80d2492090684011528036c993bca80",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PreparedCleanupAction.java",
+        "bytes": 3457,
+        "sha256": "dbe40c5a575cddd012ac8c06773fb914f3bd4d9a124dbc2dab5f4f757d5210d2",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "PreparedCleanupActionCodec.java",
+        "bytes": 3783,
+        "sha256": "e4d3252bda8d172229c7b44ded969df0d9404aa63d531f953a165e474cb7c35c",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "LifeAdvanceEvidence.java",
+        "bytes": 31643,
+        "sha256": "4621dce43198b0c4cd8c0ace938a2fcfb907dc3e5487cd7c30717d2473da713f",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "AdvanceClock.java",
+        "bytes": 39197,
+        "sha256": "35e3f0f8678d8dd1be5305b019e6f0b802146c825ccd08c711c51e60d738cab6",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ClockStatusRead.java",
+        "bytes": 18063,
+        "sha256": "f6d3be5a0eb7adba055c06dbbf5d548dbf2b38ce4d02077e1bcf25f6ab3d255b",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "CompositeActionPort.java",
+        "bytes": 5181,
+        "sha256": "4d36a9b0d06cddfe291ffcb1cc9e2aa0a5ae5a10532fbb603ffef435f4b9ef5e",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "CompositeContinuationToken.java",
+        "bytes": 481,
+        "sha256": "0bf1f6cbc2fce3d395b1fa9a4b8eac2a2ed23fcbce02aa2d66440f66fcec8c4a",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "NativeRequest.java",
+        "bytes": 2170,
+        "sha256": "0030edd3d9987415a4a7cac48157eb7455ef5586098defe7d6b1e9f8b503d83e",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "NativeRequestChronology.java",
+        "bytes": 14185,
+        "sha256": "ec05a0cea8abcf21bc7a6bc26c47c1baaa1dbe45e0e4f878c61616cb549f3c92",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "NativeActionPort.java",
+        "bytes": 11308,
+        "sha256": "ff69d9d5ef6a75c0f5c03e9b83a165a1e5544d4e8f044d3c886bd865a04daa81",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "NativeObservationPort.java",
+        "bytes": 1639,
+        "sha256": "66f33fcee1823e3acf9bd2ff047b953d7de1dc74032a1751aefca47fe62b8d2b",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "NativeEffectEvidence.java",
+        "bytes": 25459,
+        "sha256": "f1a0bd22c4f179e635554f8c7996ea2290f6a4a18fce738d4a9437a39ee6c490",
+        "role": "Complete selected C6 current source/caller/direct declaration, Frontier overlay"
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 496820,
+        "sha256": "d030995bb6d8b6b59d2430f093f55bc593a0453c2862cb266cfa79666ab4404c",
+        "role": "Complete qualified C6 Journal BASE before single Frontier edit"
+      },
+      {
+        "name": "SOURCE-READY-V2-PARTIAL-CYCLE-FRONTIER01.json",
+        "bytes": 3820,
+        "sha256": "bfd61d9cb7fa82f80bdf8f64128b5aa4fd783919a0772b1d77604fb5b4643e34",
+        "role": "Complete owner single-leaf SourceReady"
+      },
+      {
+        "name": "SOURCE-READY-C6-PREPARED-SUCCESSOR-V2-02.json",
+        "bytes": 63411,
+        "sha256": "010d910f95dada15bc8ed352e838e3cd63adf1eb6dea432e83f802c87315648b",
+        "role": "Complete underlying C6-02 source map"
+      },
+      {
+        "name": "SOURCE-CONTRACT01.json",
+        "bytes": 15352,
+        "sha256": "94786af8ab262efe9cba2b9e0d15489ce3bf4a7175f2818156c7ebd9ed71ebfb",
+        "role": "Complete role/source/raw-input contract"
+      },
+      {
+        "name": "ACTUAL-C81-CYCLE80-TO-SAVED51-BOUNDED-ORIGINALS-RO01.json",
+        "bytes": 116873,
+        "sha256": "d7eec403b0483d98b71bc7da990ddfe95c483301d9a053bac5439d45aae61087",
+        "role": "Complete bounded30-record source index, not big raw Driver/SEM"
+      },
+      {
+        "name": "163df94f0e7edfb3ab2b0bcd2b331834a94987e52fc4a5a4cb29444224464fd6.bin",
+        "bytes": 2346,
+        "sha256": "163df94f0e7edfb3ab2b0bcd2b331834a94987e52fc4a5a4cb29444224464fd6",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "03d84568237f282b2e8c8dc88f4fd08a20a94665637420dedf1bc8acef374478.bin",
+        "bytes": 2346,
+        "sha256": "03d84568237f282b2e8c8dc88f4fd08a20a94665637420dedf1bc8acef374478",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "126c035d8f6e3044bb07745d5e1991545764a5707a9f85cb5b10bcc7bfd9b65f.bin",
+        "bytes": 2346,
+        "sha256": "126c035d8f6e3044bb07745d5e1991545764a5707a9f85cb5b10bcc7bfd9b65f",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "c5537ec2ef384e2d28014b23ea9d58ca0e31c11630e8a889e649044557cde37c.bin",
+        "bytes": 2346,
+        "sha256": "c5537ec2ef384e2d28014b23ea9d58ca0e31c11630e8a889e649044557cde37c",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "8ca265a5162cecefd36a6d4868d0839f4cae45ed9229dd8ebeafa2ead544b28f.bin",
+        "bytes": 2347,
+        "sha256": "8ca265a5162cecefd36a6d4868d0839f4cae45ed9229dd8ebeafa2ead544b28f",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "7d80232b1315eb15f2af81ead08d86b69982de351fa28a7e2dabf973a826316b.bin",
+        "bytes": 2346,
+        "sha256": "7d80232b1315eb15f2af81ead08d86b69982de351fa28a7e2dabf973a826316b",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "53556c7c00ff5194b2b25e85e0f58fd8b3c33d44ccecd2ac52846f4f691b23b6.bin",
+        "bytes": 2346,
+        "sha256": "53556c7c00ff5194b2b25e85e0f58fd8b3c33d44ccecd2ac52846f4f691b23b6",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "37262ac33f5ff7408a34fdda2c486ed0520a599acff48af4d717ed57e6bef30a.bin",
+        "bytes": 2345,
+        "sha256": "37262ac33f5ff7408a34fdda2c486ed0520a599acff48af4d717ed57e6bef30a",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "1d4efc644737d6d62412ea908acf3bd84397590b5828ef03e560fa878effd7c8.bin",
+        "bytes": 2345,
+        "sha256": "1d4efc644737d6d62412ea908acf3bd84397590b5828ef03e560fa878effd7c8",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "d568a99ff5a926e0bbf4c1b0ff99b3820cf110b83f0f045eddb69e3207c67264.bin",
+        "bytes": 2345,
+        "sha256": "d568a99ff5a926e0bbf4c1b0ff99b3820cf110b83f0f045eddb69e3207c67264",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "fb46c89955323989b527e41778eb0ff486a61cb197c55e0e74fd867ab73ac288.bin",
+        "bytes": 2345,
+        "sha256": "fb46c89955323989b527e41778eb0ff486a61cb197c55e0e74fd867ab73ac288",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "63a6a903516ea9ccf977f9b0a3503c4a86902871aae82b28097c9cc7fa5ec67a.bin",
+        "bytes": 2342,
+        "sha256": "63a6a903516ea9ccf977f9b0a3503c4a86902871aae82b28097c9cc7fa5ec67a",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "89b622acc5211248b28a20aabf101181a1ad8f73f660f5955013da1b216f66df.bin",
+        "bytes": 2346,
+        "sha256": "89b622acc5211248b28a20aabf101181a1ad8f73f660f5955013da1b216f66df",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "7aa61e24be334fc6424ad258305ae5dc32c4b9409257f5b67a81393e762a54e3.bin",
+        "bytes": 2345,
+        "sha256": "7aa61e24be334fc6424ad258305ae5dc32c4b9409257f5b67a81393e762a54e3",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "64f17553998a9026619e4e5b8d7171b814c8f0630783254888ddf282658ee8c3.bin",
+        "bytes": 2345,
+        "sha256": "64f17553998a9026619e4e5b8d7171b814c8f0630783254888ddf282658ee8c3",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "4e08a668c4596ebeb8627bbc0bddd6ede1910c5a9c4337fe62f546eb523cd141.bin",
+        "bytes": 2345,
+        "sha256": "4e08a668c4596ebeb8627bbc0bddd6ede1910c5a9c4337fe62f546eb523cd141",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "b543137afa9d4eb15c88490617a6040f247e194e55c1d71c303b8ef62a5a241d.bin",
+        "bytes": 2342,
+        "sha256": "b543137afa9d4eb15c88490617a6040f247e194e55c1d71c303b8ef62a5a241d",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "3aba09131fdd857decbc9f4e00b969d9fee375310c06c2b90b31bd7ff64c8b2f.bin",
+        "bytes": 2345,
+        "sha256": "3aba09131fdd857decbc9f4e00b969d9fee375310c06c2b90b31bd7ff64c8b2f",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "e5e94c791a01ead460f418c63c9b9877cce29891c20f21a3d8d25c76e6c9cfc8.bin",
+        "bytes": 2343,
+        "sha256": "e5e94c791a01ead460f418c63c9b9877cce29891c20f21a3d8d25c76e6c9cfc8",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "5711c0e42e4c41986b27bc20b22e7ad047ab1b4e14f73ee7d4bc656e6a13ac7a.bin",
+        "bytes": 2343,
+        "sha256": "5711c0e42e4c41986b27bc20b22e7ad047ab1b4e14f73ee7d4bc656e6a13ac7a",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "baac1093b4b1a50a5699b26cb1e9ac084cceedb5f70e489d745a1e15d236e23e.bin",
+        "bytes": 2343,
+        "sha256": "baac1093b4b1a50a5699b26cb1e9ac084cceedb5f70e489d745a1e15d236e23e",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "45b9e942c50d9a5810959c12651c0584e13d51655811a04b85df9ff740901ddc.bin",
+        "bytes": 2343,
+        "sha256": "45b9e942c50d9a5810959c12651c0584e13d51655811a04b85df9ff740901ddc",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "2092401deb6b7f3ba3395bd0ebc3733259cd92c67fb5a6e7841c0af3277c31aa.bin",
+        "bytes": 2343,
+        "sha256": "2092401deb6b7f3ba3395bd0ebc3733259cd92c67fb5a6e7841c0af3277c31aa",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "4414da018d7f147d2ffb7e1bd992061e1e831c947ceaaa456ee6c7dfb4b6a41b.bin",
+        "bytes": 2343,
+        "sha256": "4414da018d7f147d2ffb7e1bd992061e1e831c947ceaaa456ee6c7dfb4b6a41b",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "2523afcc3b477f291d51948ace7ae246269db6a47233b68fbbd4c1d35923d499.bin",
+        "bytes": 2343,
+        "sha256": "2523afcc3b477f291d51948ace7ae246269db6a47233b68fbbd4c1d35923d499",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "55422ebdc33da43559821099879b2f24d4a3bb429c72e4e18220c0f275f9586c.bin",
+        "bytes": 2343,
+        "sha256": "55422ebdc33da43559821099879b2f24d4a3bb429c72e4e18220c0f275f9586c",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "58ec6367a91ce54d84ffbae730f173c11a075d17ea2ba28706f84632de112bd3.bin",
+        "bytes": 2343,
+        "sha256": "58ec6367a91ce54d84ffbae730f173c11a075d17ea2ba28706f84632de112bd3",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "a650e617fada79f1e82a1de60b8cc05999dbf8a184ceef0265acc2c8ffc5f9b5.bin",
+        "bytes": 2343,
+        "sha256": "a650e617fada79f1e82a1de60b8cc05999dbf8a184ceef0265acc2c8ffc5f9b5",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "e87cbaacbe5c8fef97119c2bf15e2985f619a2b3ef77c6687603b2625c2c7dea.bin",
+        "bytes": 2343,
+        "sha256": "e87cbaacbe5c8fef97119c2bf15e2985f619a2b3ef77c6687603b2625c2c7dea",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      },
+      {
+        "name": "80998443af637c0b0f3a9d5612c362be8edf42bc13ad29ff78fb29823c1694ad.bin",
+        "bytes": 2343,
+        "sha256": "80998443af637c0b0f3a9d5612c362be8edf42bc13ad29ff78fb29823c1694ad",
+        "role": "Complete named small cycle record original, no other CAS enumeration"
+      }
+    ],
+    "source_message_bytes": 2576763,
+    "whole_direct_Frame_and_inherited_declarations_audited": true,
+    "large_Driver_SEM_native_stamp_read_or_inlined": false,
+    "large_original_limit": "Full named cycle-record bytes and index are not full Driver/SEM/native/stamp/receipt originals. No positive full raw history/actual cold result is inferred.",
+    "postreply_extra_producer_files_not_in_frozen_REQUEST": true,
+    "owner_design_and_typing_before_POST_not_model_authorship": true
+  },
+  "HTTP": {
+    "POST_BEGIN": "2026-11-14T01:20:43.310704+00:00",
+    "END": "2026-11-14T01:24:14.760257+00:00",
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "strict_JSON": {
+      "status": "VALID",
+      "top_level_type": "object",
+      "reason": "COMPLETE_STOP_JSON",
+      "error": null,
+      "offset_units": "Unicode code points",
+      "max_utf8_bytes": 1048576,
+      "semantic_review": "OWNER_REVIEW_REQUIRED"
+    },
+    "headers_ms": 166912.24709991366,
+    "TTFT_content_ms": 166913.38420007378,
+    "total_ms": 211449.6591000352,
+    "usage": {
+      "prompt_tokens": 618285,
+      "completion_tokens": 358,
+      "total_tokens": 618643
+    },
+    "retries": 0,
+    "cached_tokens": null,
+    "request": {
+      "bytes": 2656350,
+      "sha256": "eb341cba6e186b983ea706e588c57eaf6b1fbbc004adb97f8ca70b166088fae3",
+      "preactual_byte_exact": true,
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "max_tokens": 2200,
+      "fixed_messages": 3,
+      "network": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      }
+    },
+    "SSE": {
+      "bytes": 50097,
+      "sha256": "a9c6be40a11e0687945157b749df4135d4fd50e543af420a995f27456e34d5dd"
+    },
+    "CONTENT": {
+      "bytes": 1508,
+      "sha256": "a5c4a845d6797236d08266267e2249a97ddca706954d192970e3d288afcd76d5"
+    },
+    "SSE_reconstruction_byte_exact": true,
+    "complete_source_full_membership_bytes_SHA_audited": true,
+    "listed_findings": 2,
+    "reply_target800_met": true,
+    "profile": {
+      "name": "source-high-concurrency-direct",
+      "read_seconds": 600,
+      "total_seconds": 2400,
+      "max_transient_attempts": 6
+    }
+  },
+  "two_HTTP": {
+    "logical_tasks": 2,
+    "actual_POST_attempts": 2,
+    "usable_complete_reviews": 2,
+    "length": 0,
+    "retries": 0,
+    "actual_peak_HTTP": 2,
+    "peak2_overlap_seconds": 211.438937,
+    "current_inflight": 0,
+    "reported_input_tokens": 1470244,
+    "reported_output_tokens": 717,
+    "sum_HTTP_ms": 423517.6154000219,
+    "first_BEGIN_to_last_END_seconds": 212.078666,
+    "phase_allocation_bytes": [
+      7340032,
+      9437184
+    ],
+    "aggregate_limit_bytes": 16777216,
+    "Native_fresh_forecast_new16MiB_once": 1147045070,
+    "engineering_cap_bytes": 1342177280,
+    "no_new_CTX_queue_cache_or_performance_inference": true,
+    "old_actual_and_reserves_preserved": true,
+    "no_second_or_third_request": true
+  },
+  "source_review": {
+    "classification": "FALSE_ACCEPT_AND_UNREACHABLE_OVERSIZE_ALLOCATION_CLAIMS_REJECTED",
+    "listed_findings": 2,
+    "confirmed_findings": [],
+    "claims": [
+      {
+        "claim": "Loop128 normal false return silently accepts an incomplete chain.",
+        "source_check": "Journal2065 returns false, and caller1850 immediately returns Optional.empty when frontier is false. This is bounded rejection, not acceptance. No savedHead hit cannot bypass completeness."
+      },
+      {
+        "claim": "Adding a single >512MiB original to local seen/bytes can cause OOM or caller-state corruption before checking the bound.",
+        "source_check": "Journal2105 first requires ref.bytes>0 and <=DriverJson.MAX_NATIVE_BYTES+4. Supplied DriverJson26 is64MiB; the proposed >512MiB ref is already rejected.2106 mutates only per-call local ref/long bookkeeping, then throws if cumulative bounds fail;2108 loads raw bytes only after bounds. No huge raw array or accepted/shared state follows this failure."
+      }
+    ],
+    "Root_Java_scope": "Root independently agrees no actionable counterexample; no source/Test change or new case. A full positive raw closure is not established by rejection of these claims.",
+    "adoption": {
+      "new_findings": 0,
+      "code_hunks": 0,
+      "Test_hunks": 0,
+      "software_Runtime_cold_qualification_or_control_credit": false
+    }
+  },
+  "adoption": {
+    "new_findings": 0,
+    "code_hunks": 0,
+    "Test_hunks": 0,
+    "software_Runtime_cold_qualification_or_control_credit": false
+  },
+  "output_contract": {
+    "total_target_tokens": 800,
+    "max_output_tokens": 2200,
+    "max_findings": 2,
+    "max_limits": 3,
+    "no_long_callgraph": true
+  },
+  "resources": {
+    "phase_limit_bytes": 7340032,
+    "pair_limit_bytes": 16777216,
+    "future_release": "Root only; old C6/StageC/Transient/performance settlement not repeated."
+  },
+  "preparation_boundary": "Before POST, initial8/8 division was too small for roleB; same16MiB reassigned7/9. Full NativeEffectEvidence.FrameLoader and ActionCoordinatorPort declarations then added before final wire freeze, hashes changed before dispatch. No incomplete-source POST, source truncation or extra model attempt.",
+  "no_new_VM_Game_Native_ledger_GET_qualification_probe_or_production_Test_write": true,
+  "next": "Both closed. No repeat semantic request. Owner47 actual large-original Test and any real cold integration are independent evidence, not supplied/adopted model tests."
+}
