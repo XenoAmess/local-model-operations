@@ -6646,3 +6646,12 @@ Owner修正均不归模型：Mods同名8/32导致查询在CMD前拦截；g_Playe
 ### 2026-11-14 History replay 两实现、一纠错和窄设计：peak2、length整弃、0采用
 
 初始A/B先冻完整79Java前缀后同批POST，A6000 length整件语义未读保UNUSED；B5000完整stop但double-final/checkedIO、新capture每次清空、callback首错/cleanup/graph账不闭。一次真实B02纠错全81Java后stop，去掉语法/authority捕获却无cache创建/set/restore，分支恒null，0采用。随后独立窄A只索最小祖先依赖设计，完整同79源，不读不续旧length；其whole-backward/proof-only集合遗漏forwardframe/receipt/opaque依赖且API不成立，0设计采用。4请求合2193206in10313out、0瞬错、3stop+1length；仅初始pair真实peak2重叠156.027739秒（先前从较早A起算多14.868ms的消息保历史），当前0。原B输入误写explicit2MiB属owner说明错，真实整源码1MiB、代码用原常量；原件不改，B02明确纠正。纯DATA缓存必须给真实创建/寿命/所有权与保留图计量，不能用not_closed假定外层已有；祖先复用必须合闭proof+forward全依赖，不能只从终态Set筛回被taint轨迹。0source/Test/软件或实机资格，不以模型坏稿封真实性能机会。见[首A整弃](evidence/2026-11-14-ck3-history-ancestor-implementation-length.md)、[首B静态拒](evidence/2026-11-14-ck3-history-semantic-implementation-static.md)、[B纠错缺接线](evidence/2026-11-14-ck3-history-semantic-repair-deadpath.md)、[窄祖先设计](evidence/2026-11-14-ck3-history-ancestor-partition-design.md)。
+
+
+## 2026-11-14：774压力协议，成功文本仍需核对数据和统计
+
+[精确项目记录](https://github.com/XenoAmess/civ6_dev/blob/d1670139498966b75dd7298e79da2728129b331c/docs/research/baiqi-pressure-protocol774-2026-11-14.json)5898input／1320output、9383.320ms、TTFT926.929ms，单POST完整stop／DONE／strictJSON。原稿3441字符超请求1800且主要英文，0字符采用。实质错：把实际全0的END／人口／生产进度／unitkill写成1；把25配对原始段的总体中位差值及逐段比例中位写成25 medians each达标；笼统禁same-turnmilSKIP而非同单位同回合重复；limits又称已参数化StageA仍硬码85。不能信allfacts／noassumptions自述。
+
+Owner按原协议和真实Ready1重写独立压力冻结文档，旧协议字节SHA全等；保留20／50ms、1000ms／64／500ms与10%、4096／每目标100纯十城／60秒，分指标严格超限次数且>20次数不新增逐次门槛。真实T1窗2..6，规划／全脚本实际7收尾，配对结束1..5激活2..6、6窗后停不END6；自然census和计时分包，未知工具（全脚本／配对／END驱动仍85）先扩展验证。MANY指纹尚未冻结，不能从全陆地授admitted>=12。无压力性能通过，TC036仍PARTIAL。
+
+累计774logical／719complete含历史JSON拒绝／52length／3最终transport／804HTTP／30extra。无text-only改动测试，人工核对threshold／SHA／旧文件不变；后补日历段clarification及publication未计，NativeMANY准备与phasewall重叠；server／cache／Owner有效成本／净收益null。Steam0上线／上传。

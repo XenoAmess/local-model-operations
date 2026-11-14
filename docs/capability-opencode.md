@@ -1833,3 +1833,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：773维护与HTTP截断／NativeQA分列
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/c829fd9c4e47d91c19916736752e8ef8b4349408/docs/research/baiqi-pressure-nosite-fixture773-2026-11-14.json)canonical1.19.5 Nov14维护成功缓存复用，新增OpenCode原生生成／工具sessions0。HTTPlength整份未读；Owner测试和Civ6 Native夹具几何证书不算OpenCode原生能力，也不算Baiqi AI构建／探索效果。
+
+
+### 2026-11-14：774仍HTTP文档候选
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/d1670139498966b75dd7298e79da2728129b331c/docs/research/baiqi-pressure-protocol774-2026-11-14.json)canonical1.19.5 Nov14维护成功缓存复用，新增原生生成／工具sessions0。HTTP完整文本原稿错误导致拒绝，Owner文档核验不授OpenCode原生或Native性能能力。

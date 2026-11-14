@@ -350,3 +350,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：封闭全图必要几何门，比空推荐列表更强但不等完整功能
 
 [773](https://github.com/XenoAmess/civ6_dev/blob/c829fd9c4e47d91c19916736752e8ef8b4349408/docs/research/baiqi-pressure-nosite-fixture773-2026-11-14.json)人工准备每个非城地块为水，再独立读取真实完整可见世界，能证明当前必要门无候选；空推荐池本身不能。输出来源与人工初始化必须显式，marker/ledger不替代实际地块。写入后的对象逐个读回，城市ID按(owner,id)唯一。实际初始化回合由新世界读回而来，不能由设想T0追认。Native同名上下文应在CMD前停止，优先用唯一父界面持有的明确子对象和已读原版API；不能随便选first context。主保存／自有PID／freshoffline／当前日志加载／API ACK／实际就绪分层，禁止重放不明动作。
+
+
+### 2026-11-14：配对中位判据不能被文本改成每段门槛
+
+[774](https://github.com/XenoAmess/civ6_dev/blob/d1670139498966b75dd7298e79da2728129b331c/docs/research/baiqi-pressure-protocol774-2026-11-14.json)25rawsegments是样本，不是25medians各自必须达标；总体差值median和每段比率median是两个固定判据，每组median另报。布局创建回合、配对激活和规划闭窗分别写明；有界准备0动作数字不能由顺口文本变成1。冻结实际存档SHA／人口单位队列和外部observer差异，原协议保持字节原样；新全陆地不等自然推荐池≥12。
