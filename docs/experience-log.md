@@ -370,3 +370,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：同名上下文API须逐层确认，模式标识与统计缺失不能靠声明补足
 
 [778—780](https://github.com/XenoAmess/civ6_dev/blob/2e56ba4a6bd964526007ff786463648fc98d65bc/docs/research/baiqi-pressure-water1-native778780-2026-11-14.json)UI可读city:GetBuildQueue不代表GameCore也可调用；预检先于全部写入并保留独立边界读回，修正需不同意图，不能盲重放。原版CanProduce和业务预算分别核验，人工基线补足不授AI实效。实际回合参数化应贯穿来源／metadata／records，旧API也必须拒新模式；布尔False等于0的语言特性要求精确类型。任何零分母使整体ratioUNKNOWN，同时delta完整计数仍需保留。模型测试代码可能二次执行query或吞异常，必须看实际调用次数和未确定动作状态，HTTP完整不等测试可信。
+
+
+### 2026-11-14：缺调用不等返回不变，生成字符串须运行解析
+
+[781—782](https://github.com/XenoAmess/civ6_dev/blob/adc552334db7bd6c38a2723356117b883707b5e8/docs/research/baiqi-pressure-natural-build781782-2026-11-14.json)自然调用只发生T1，队列填充后后续回合不再调用，就不能推断T2..6候选值相同；人工QAgetter与自然证据分列。全池穷尽证明当前推荐池无接受项，不是全图无落点。构建器候选的hunk必须逐个唯一，Python能解析不代表生成Lua括号闭合；先验证实际版本赋值再用其校验参数，候选宣称覆盖不替代真实prefix+消费者双版本运行。

@@ -6694,3 +6694,10 @@ Nativefresh12380也MANY访问冲突，最后持久CONTINENTS_BEGIN，1144setter/
 [精确记录](https://github.com/XenoAmess/civ6_dev/blob/2e56ba4a6bd964526007ff786463648fc98d65bc/docs/research/baiqi-pressure-water1-native778780-2026-11-14.json)7788145input／6500output、43444.969ms，length整份未读弃用；77910779／3556、29883.262ms和缩窄7804639／5876、33132.814ms均stop／DONE／strictJSON单POST。实际client峰2、778/779共同29.883259秒，累计780logical／724complete含历史JSON拒绝／53length／3最终transport／810HTTP／30extra。779单追加入口为基础，Owner补说明；246行9原方法仅3过6error，缺全局／Env参数／ends和LuaError，query执行两次还吞异常、迭代表键；直接import5TestCases会重复发现，0原测试采用。780共享core／实际日历为基础，原稿旧API认压力T85、False认0，坏结构类型错误，零control丢delta计数且ratio键多错，Owner严格结构后元数据、模式隔离和分布。62相关过含11新，realclock/bridge+fakeUI双Lua与合成算术；builder/player/driver尚85，不授整套T1。
 
 Native独立WATER1成功不追认旧alllandFAIL；静态control人工初始11城／1144可见／2初始移民删除／人口至4／玩家金至100，军队0动作、生产进度0、END0、不授AI效果。原版CanProduce通过不足模组人口／储备门；GameCore没有UI的city:GetBuildQueue，第一次预检在写入前失败，独立确认ledgernil/pop2/gold10后修正。新6be8…存档明确独立冻结，QAgetter仅3位置含1城，不算natural≥12。主334／NoSite存档、产品142119源／ZIP保持。维护cache复用／原生0，未知缓存／server并行／Owner完整修改验证成本／净收益null，TC036PARTIAL。
+
+
+## 2026-11-14：781—782实际池穷尽与构建器软件分列
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/adc552334db7bd6c38a2723356117b883707b5e8/docs/research/baiqi-pressure-natural-build781782-2026-11-14.json)7817436input／1888output、17024.182ms stop／DONE／strictJSON，78210828／8000、49382.600ms length整份未读弃用。两单POST实际峰2、共同17.024656秒，累计782logical／725complete含历史JSON拒绝／54length／3最终transport／812HTTP／30extra。78110锚点第6／9不匹配；仅为反证lstrip适配，build读未赋值version抛UnboundLocalError，prefix缺Lua右花括号解析FAIL，目录未创建。部分参数／范围／CLI／mode／ZIP思路采用，Owner移验证、修注入／元数据，0原测试。Owner4新+6旧构建方法通过，实际两119文件包／97Lua双编译、T0/T1/max5段、旧None/140/141/142prefix四SHA不变；完整driver/player仍85，不授NativeT1pair。
+
+新enabled自然census独立实例23492，freshSteam离线0.003705秒、exact6be8加载一次／orderedloadlog0/18/31／ownedHWND Esc一次，0截图。Native10自然recruit_choice均T1入池3／全访3／cheap2supportfalse2／返0／exhausted，0drop/invalid，未>=12也无globalnosite。后台10纪念碑队列，TEST_PLAYER5军队SKIP/5普通END1..5独立到6，0civinput/重复同单位同回合，0END6；T2..6没新调用不能说hint不变。T6纯观察retire后export并存459a…独立checkpoint，主f70/NoSite92f/原6be8及产品142源不变。维护cache复用、原生0、cache/server/Owner完整成本null，TC036PARTIAL。
