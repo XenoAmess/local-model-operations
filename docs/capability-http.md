@@ -6713,3 +6713,8 @@ Owner接管未读782截断的driver/player，实际T0..max/source142ordinaryonly
 ### 2026-11-14 B77 新one-fresh-Head合同：单首完整body候选
 
 实际B77点为Win32FileID→Session.head→owner第二read，新currentCore270804/e9e合同明确允许同check合1，和旧B76强制保两read的digest题不同。完整33Java+3原件，模型首524out给一次observed后seq→既有identity/digest的具体body；保原前置非IO短路、消息/异常包装、每raw方法前后check、下一check重验，不用entry/exit-only。独立源审支持逻辑，oldanchor多4缩进/new少1行须owner纯空白投影，不授rawexact/其余30类或HCR。193581in/TTFT24.921864秒/HTTP28.0535852秒/stop0retry/峰1当前0；0实际source/Test/编测/运行授信，no第二题。见[B77源与成本](evidence/2026-11-14-ck3-b77-single-fresh-head-body-candidate.md)。
+
+
+### 2026-11-14 postRETAIN两真实实现首稿：完整stop、闭包不成、owner接管
+
+已有canonicalAPPLIEDevent+realRETAINpending恢复拆Journal与Core/Bootstrap两实现，完整56/70Java+各7原件，max6000/5000给完整hunks而非短review。两个完整wire先冻结同时BEGIN，1174034in6780out、2stop/DONE/strictJSON、0retry、真peak2重叠185.480695秒/当前0。A漏pending==latest与实际WAL，沿Life-onlypendingControl使newEventgate恒false；B文件anchor混淆、PendingRole7field6ctor及无targettype methodref、实际history名单未接。0完整source/Test采用/0javac，不把既有helperAPI虚报新错；开始后补入的45minprep→资格后10minREAD具体合同归owner后到，不倒授模型已读或漏指令。Root/Java已手工接管，不花第三题凑请求，也不封恢复technicalNO。B77单fresh D-only语义hunk是独立单元，不把它并作本两稿采纳。见[Journal稿](evidence/2026-11-14-ck3-postretain-journal-static.md)、[Core/Bootstrap稿](evidence/2026-11-14-ck3-postretain-core-bootstrap-static.md)。
