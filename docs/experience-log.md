@@ -395,3 +395,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：冻结p95与max分开裁定，阶段通过不提前合并完整验收
 
 [H](https://github.com/XenoAmess/civ6_dev/blob/3d222777b9d1bf2620de5bc2478db5a6dffc48ce/docs/research/baiqi-pressure-many-stageA-H-2026-11-14.json)Controller一次约22ms仍可满足p95<=20/max<=50，必须原值保留并计>20而不临时加逐次20门。preanchor有效记录单列，0读数不等0开销；完整窗口各目标>=100pure10、无丢样/坏钟再授该单项。显式列矩阵其余格未测，继续执行；退出后残留用exactownership/静止/保存验证清理，当前freshSteam离线证明与旧配置分开。
+
+
+### 2026-11-14：转义表示需检查实际literal；压力采样读数区分总调用与保留样本
+
+[I/788](https://github.com/XenoAmess/civ6_dev/blob/4e71c66302205e28511390bc14dc428b63e4b50e/docs/research/baiqi-pressure-many-fullscript-I-2026-11-14.json)Owner首次把合法TAB源码的repr误判为反斜杠，ASTliteral码点[9]／6字段TSV独证纠正，保原review及成本，不嫁接模型。导出1201 retained与驱动完成时samples17577总调用含zero聚合分开；原始计时、完整回合请求、部分收尾和独立B_delta口径分别裁定。严格source/日历/包／普通回调校验先于授结论；有限计时并集不称独占CPU，零时长聚合不宣称零开销。

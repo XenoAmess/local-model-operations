@@ -1878,3 +1878,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：H性能实机不回授原生生成
 
 [记录](https://github.com/XenoAmess/civ6_dev/blob/3d222777b9d1bf2620de5bc2478db5a6dffc48ce/docs/research/baiqi-pressure-many-stageA-H-2026-11-14.json)没有新模型调用，OpenCode原生生成/工具session0。NativeH actualB_plan pass只来自独立游戏证据，不能追认维护cache或HTTP候选具原生工具能力。
+
+
+### 2026-11-14：788／Native I继续分轨
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/4e71c66302205e28511390bc14dc428b63e4b50e/docs/research/baiqi-pressure-many-fullscript-I-2026-11-14.json)788是普通HTTP候选，入口复用同机同用户Nov14成功每日OpenCode缓存；原生工具生成session0。Native I两预算通过不证明OpenCode生成能力。跨本地自然日须重新维护，未追认旧检查。
