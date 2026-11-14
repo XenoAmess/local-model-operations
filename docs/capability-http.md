@@ -6537,3 +6537,8 @@ Owner只补后续累计758与新E2过期截图发令前拒绝事实，不归候�
 真实142第二组对照→启用五段齐，环境同首组；中位差−28.000116ms／各自分母比例中位−0.371305%。只到2／5组10／25段，整体B_delta仍null；启用11城／对照10城，负中位不是因果提速，保留所有外交停留、不扣除世界差异。
 
 1attempt stop／DONE／strictJSON，16659input／844output、8053.1779ms，新增实际峰1；累计758逻辑／705完整流（含历史JSON拒绝）／50length／3最终transport／788HTTP／30extra。cachedtokens／Owner active／net savingsnull。
+
+
+### 2026-11-14 Driver 同call两设计审：完整源同批peak2、0完整设计采用
+
+两真实互补设计任务先冻两完整wire再同批POST：A54整Java+6合同，B62+6；相关完整组件和直接声明，actual readerfix/NEWshape/future encoder分列，不把C路径冒Maven谱系。固定三消息/600-2400/max2200/目标800，各stop/DONE/strictJSON、0retry，合696164in576out，actualpeak2重叠95.274184秒，当前0。A重复同一工厂两条，现7参Known canonical仍encode/hash，未闭private one-use/provenance；B两泛helper未闭自有strict parser来源、fresh原件和首错顺序，既有typedReader先newRawJson协议界不等同原full-material入口。0完整设计/source/Test采用；不封私域复用technicalNO、不以record identity授深不可变。既有encoder独立测量的tiny局部收益不解释21min全history，真实未载保持。见[Known编码设计](evidence/2026-11-14-ck3-known-samecall-encode-design.md)、[Reader解码设计](evidence/2026-11-14-ck3-reader-same-originals-decode-design.md)。
