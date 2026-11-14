@@ -6621,3 +6621,12 @@ Owner接管组件与私有精确源码变换：15新方法／内10既有行为�
 Owner独立实现地图纯几何与Python纯核验，共12方法pass，双Lua51／53执行假端口／完整1144预检、准确1144写入和后置顺序，坏最后地块仍0写，setter异常立即停；严格schema／可见全图／城市归属命名空间。Owner首测1处Lua代理表直接比较失败，改内容比较后12过，未归因模型或修改实现。Source142发布119哈希全等，主334在该单元0Native查询／动作。MANY全陆地只是几何准备，actual admitted>=12仍需真实自然调用；NO_SITE要真11城市及全1144实际可见快照，仅证明必要notWater/notCity几何门。地图入口／Native准备未完成，不授完整TC036。
 
 累计771logical／717complete含历史JSON拒绝／51length／3最终transport／801HTTP／30extra；server并行／cachetokens／Owner有效时间／净节省null。初始候选读取早于REVIEW_BEGIN未计，raw测试在review，12Owner方法在correction，跨任务wall重叠；SDK发现和发布未计。主证据保留请求hash与来源／原件失败，Steam0上线／上传。
+
+
+## 2026-11-14：772私有地图包，完整候选拒绝／生成回调ABI实测
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/66715674f9c00bccf4f0a4996daeb3983dcab0d2/docs/research/baiqi-pressure-map-addon772-2026-11-14.json)1真实POST，6230input／3442output、20537.309ms、TTFT949.765ms，stop／DONE／strictJSON。0代码／测试采用：嵌模块置表达式右边致生成Lua51／53解析失败，未includeMapEnums，回调要求Native未传E，UpdateDatabase缺File节点；Windows实际四文件SHA全不符。Metadata JSON有效，不得误报。Pytest未安装是环境事实；用stdlib逐项执行6普通函数为3PASS3ERROR，三运行测试先在eval赋值处失败，独立compile另证实际入口错误。
+
+Owner5方法通过，实际生成独立四文件包、XML引用／byteSHA与metadata，加载与GetMapInitData零写、GenerateMap()无参真实ABI在51／53两变体假端口运行；成功和异常均禁止重放，坏输入建目录前拒绝，保护既有／发布路径。另119文件静态control已软件准备，12差异，二者均未安装。发布142源119哈希同，当前334本单元0Native查询／动作；不算AI构建或新压力通过。SDK编辑器调度证明Create第二参为numericplotIndex，普通Core适用性／回读仍未知，0创建；AddProgress成员存在不授签名。
+
+累计772logical／718complete含历史JSON拒绝／51length／3最终transport／802HTTP／30extra。初始SDK／高层prep未计，raw见证在review，5Owner测试和CLIbuild在correction，server并行／cache／Owner有效成本／净收益null。后续Native仍须新主存档、官方退出、freshSteamoffline，零上线／上传。

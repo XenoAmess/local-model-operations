@@ -340,3 +340,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：先验证所有地图写端口，地形准备与候选池事实分列
 
 [770—771](https://github.com/XenoAmess/civ6_dev/blob/ddf7ad1e6507a087d5ef58cca718447f65861cd7/docs/research/baiqi-pressure-geometry770771-2026-11-14.json)新地图生成必须在首setter前检查完整有限布局／所有写端口／每个实际地块；运行setter异常直接停，不回放。未创建城市的11个陆地不构成无落点证明，全陆地也不授原生推荐>=12。Python tuple坐标set循环不能误当items解包，bool是int子类需type精确检查，每玩家cityID命名空间允许跨玩家重复但不容同玩家重复。Lua //跨版本、虚构lupa.Lua和空pass测试均需真实端口见证，不可由模型成功自述追认。Owner测试要比较Lua代理内容，不把相同指针显示当Python代理可相等。
+
+
+### 2026-11-14：跨语言打包要验证实际入口与写后字节
+
+[772](https://github.com/XenoAmess/civ6_dev/blob/66715674f9c00bccf4f0a4996daeb3983dcab0d2/docs/research/baiqi-pressure-map-addon772-2026-11-14.json)返回函数的Lua模块必须封闭在函数体内再调用，不能直接拼在等号后；Native无参回调不能靠软件传E掩盖。include真实MapEnums和manifest File子节点要完整。Windows write_text换行会使内存LF摘要与实际CRLF文件不符，写bytes并对写后文件取SHA；不能只assert字典长度。Pytest依赖缺失和候选代码失败分别记，普通无fixture函数可stdlib逐项运行但不虚称pytest已跑。字节摘要与生成入口双版本执行只是软件准备，不授真实世界／AI效果。

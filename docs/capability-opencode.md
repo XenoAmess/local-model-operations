@@ -1823,3 +1823,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：770—771为HTTP生成，私有几何仍未Native
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/ddf7ad1e6507a087d5ef58cca718447f65861cd7/docs/research/baiqi-pressure-geometry770771-2026-11-14.json)canonical OpenCode1.19.5 Nov14维护成功缓存复用，新增原生生成／工具sessions0。HTTP候选两份完整但全部拒绝；Owner12项合成软件验证不转换为OpenCode原生能力，也不算真实地图生成或AI效果。
+
+
+### 2026-11-14：772仍为HTTP候选，软件地图包不授原生效果
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/66715674f9c00bccf4f0a4996daeb3983dcab0d2/docs/research/baiqi-pressure-map-addon772-2026-11-14.json)canonical1.19.5 Nov14日维护成功缓存复用，新增OpenCode原生生成／工具sessions0。HTTP流完整但候选拒绝，Owner生成入口的双Lua合成运行与Native地图生成分列。
