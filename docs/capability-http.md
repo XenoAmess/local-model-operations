@@ -6458,3 +6458,12 @@ A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Fr
 [M747748精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/20a04e16be3507eacef6f7edcc96aa9f0f0ce05e/docs/research/baiqi-startup-M747748-recovery-2026-11-14.json)：142M预主界面双LSQ超时／Ghost，0载入／Continue／END／样本，非142游戏通过或功能FAIL。747原稿线程tuple错误原样在dump前失败，并错DLL、旧快照、漏身份／事前凭证，0采用；Owner按微软文档独立普通转储345902字节保忽略目录。748把合法重复UnusedStream0当重复关键流，原样真实dump拒，另有输出路径／覆写／范围歧义问题，0采用。Owner独立有界读133模块34线程，热线程8244采样2秒CPU约2.046875；单PC ntdll位置只作地址映射，明确不是调用栈／原因。Owner关闭守卫最初win32gui缺方法错误在输入前修正；只有自有M窗口普通关闭未处理、保存dump后终止，非静止残留、Steam／他人游戏0动作。
 
 同包N无重装／缓存／代码变更可启动、原85载入一次，仍不授M原因或142预算。两HTTP顺序单attempt／stop／DONE／strictJSON峰1；tokens／耗时／纠错和限制见[共享原值](evidence/2026-11-14-civ6-startup-M747748.json)。累计748／695完整（含历史JSON拒绝）／50length／3transport／778HTTP／30extra，维护cache复用、OpenCode native0／缓存与主动成本净节省null。
+
+
+## 2026-11-14：142 N规划预算与749750审阅
+
+[项目精确证据](https://github.com/XenoAmess/civ6_dev/blob/111258bd622dcac7026703cd82b9f1ae272333a8/docs/research/baiqi-stageA142-N749750-2026-11-14.json)：新冷142正式五窗312行质量合格，纯十城Admin116／Controller144，p95／max13／21和7／20ms，B_plan通过。原85预热91.879秒再正式重载，普通END到实际91，两包装／监听撤、保存后原版退出，196.469156秒无窗口／监听／CPU的自有残留清理。仅本轮规划预算，不授源码因果比例、全脚本／配对或整例。
+
+749真实本地化归因任务完整，14白绮Language+Tag唯一、错误标签缺席审后留用；BaseGameText表名不证明vanilla/DLC，Owner日志直接提供CurrentClickouts文件路径。重复起源和M启动挂起关系仍未知、无删缓存／文本。750在Owner准备下一全脚本生命周期前看实际消费者：142路径／清单／哈希建议部分使用；拒绝旧PID不变、对已支持142构建器再迁移、版本无关Steam只读查询加142参数。运行token不能作源版本证明。均无产品代码候选采用。
+
+两次各1attempt、stop／DONE／strictJSON，依次真实任务，新增峰1；累计750逻辑／697完整流（含历史拒绝）／50length／3最终transport／780HTTP／30extra。各tokens／耗时见[共享原值](evidence/2026-11-14-civ6-stageA142-N749750.json)，缓存token／Owner主动成本／净节省null。

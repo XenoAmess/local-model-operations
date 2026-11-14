@@ -1,0 +1,120 @@
+{
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/111258bd622dcac7026703cd82b9f1ae272333a8/docs/research/baiqi-stageA142-N749750-2026-11-14.json",
+  "models": [
+    {
+      "id": 749,
+      "started_at_utc": "2026-11-14T01:57:52.758593+00:00",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "strict_json": "VALID",
+      "total_ms": 12466.208799974993,
+      "usage": {
+        "prompt_tokens": 78603,
+        "completion_tokens": 322,
+        "total_tokens": 78925
+      },
+      "cached_prompt_tokens": null
+    },
+    {
+      "id": 750,
+      "started_at_utc": "2026-11-14T02:06:44.649097+00:00",
+      "attempts": 1,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "strict_json": "VALID",
+      "total_ms": 8201.075700111687,
+      "usage": {
+        "prompt_tokens": 13361,
+        "completion_tokens": 955,
+        "total_tokens": 14316
+      },
+      "cached_prompt_tokens": null
+    }
+  ],
+  "reviews": {
+    "749": {
+      "candidate_attribution": "UNKNOWN",
+      "adoption": "Verified tag absence / next file inspection retained as diagnostic notes only; no product code or text changes.",
+      "owner_findings": {
+        "baiqi_xml_rows": 14,
+        "unique_language_tag_pairs": 14,
+        "actual_error_file_paths": [
+          "CurrentClickouts/2c9b4ae5-2103-4eff-8989-d14aed1df23d/Text/ClickoutText_en_US.xml",
+          "CurrentClickouts/30440078-0c31-4d6c-998c-76ae4e5ebba1/Text/ClickoutText_en_US.xml",
+          "CurrentClickouts/3ee61767-9597-4e4b-bfb4-98038d4edf27/Text/ClickoutText_en_US.xml",
+          "CurrentClickouts/42ae428f-b510-4419-9ffc-eaf8bb90e6e3/Text/ClickoutText_en_US.xml",
+          "CurrentClickouts/cad1bd11-4fc4-45ad-aed6-95033e4011c6/Text/ClickoutText_en_US.xml",
+          "HallOfFame/10_TheWayOfWar/Text/HallOfFameText_en_US.xml",
+          "HallOfFame/11_LichQueen/Text/HallOfFameText_en_US.xml",
+          "HallOfFame/13_KingOfTheWonder/Text/HallOfFameText_en_US.xml",
+          "HallOfFame/14_Civpocalypse/Text/HallOfFameText_en_US.xml",
+          "HallOfFame/15_OneMoreTurn/Text/HallOfFameText_en_US.xml",
+          "HallOfFame/1_AgeOfAbundance/Text/HallOfFameText_en_US.xml",
+          "HallOfFame/2_SevenSeas/Text/HallOfFameText_en_US.xml",
+          "HallOfFame/3_RobotRevolution/Text/HallOfFameText_en_US.xml",
+          "HallOfFame/4_TheHeadOfCyrus/Text/HallOfFameText_en_US.xml",
+          "HallOfFame/5_IdesOfMarch/Text/Event5_Prince_HOF_en_US.xml",
+          "HallOfFame/6_ThreeStarsEach/Text/HallOfFameText_en_US.xml",
+          "HallOfFame/7_ReachForTheHeavens/Text/HallOfFameText_en_US.xml",
+          "HallOfFame/8_TerraIncognita/Text/HallOfFameText_en_US.xml",
+          "HallOfFame/9_LiveYongleReaction/Text/HallOfFameText_en_US.xml"
+        ]
+      },
+      "correction": "BaseGameText table alone does not establish vanilla/DLC origin. Actual XMLSerializer log supplies CurrentClickouts source paths; duplicate origin/load-order and any contribution to startup M remain unknown."
+    },
+    "750": {
+      "adoption": "Reviewed source142 path/mode/explicit source checks, preserve schema marker/current140 quota/4096 and ordinary callbacks. Owner prepares private lifecycle independently; no model code generated.",
+      "rejected_or_corrected": [
+        "Builder already explicitly supports142; no source edit needed.",
+        "Do not preserve old literal PID25376; bind new owned PID plus creation time/executable after launch.",
+        "Current residue belongs N24436, not old14025376.",
+        "Readonly Steam helper is version independent; no142-specific mode change or arguments.",
+        "P6Q20StageB token proves run identity, not source version; require manifest/build/source hashes and actual Native config separately."
+      ]
+    }
+  },
+  "cumulative": {
+    "logical_calls": 750,
+    "complete_streams_including_historical_json_rejection": 697,
+    "length": 50,
+    "final_transport": 3,
+    "actual_HTTP": 780,
+    "extra_attempts": 30
+  },
+  "new_calls_actual_peak": 1,
+  "maintenance": "Canonical OpenCode1.19.5 daily success cache reused; new OpenCode native sessions0.",
+  "unknown_costs": {
+    "cached_tokens": null,
+    "owner_active_time": null,
+    "net_savings": null
+  },
+  "Native142": {
+    "samples": 312,
+    "sample_quality_ok": true,
+    "targets": {
+      "Admin.Run": {
+        "pure_ten_count": 116,
+        "p95_ms": 13.000011444091797,
+        "max_ms": 21.000146865844727,
+        "budget_ok": true
+      },
+      "Controller.RunNow": {
+        "pure_ten_count": 144,
+        "p95_ms": 6.999969482421875,
+        "max_ms": 20.000219345092773,
+        "budget_ok": true
+      }
+    },
+    "B_plan_budget_ok": true,
+    "pre_anchor": {
+      "pending": 0,
+      "recorded": 17,
+      "validated": 17,
+      "errors": 0
+    },
+    "saved_bytes": 520551,
+    "saved_sha256": "9b4c547ab89add7a3c7116523d5a807334fd268e7fc6d49d3be6d1ed6b611a9e"
+  },
+  "limits": "N proves independent Admin/Controller B_plan in this fresh142 formal run only. No causal speed ratio, no allscript B_turn/N_req142, no matched B_delta or fullTC036/fullfunctional pass. Prior140/141 FAIL not rewritten. Main333 coldcompat/release restore pending."
+}

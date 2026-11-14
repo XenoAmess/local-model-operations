@@ -265,3 +265,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：启动诊断原件和无因果恢复分列
 
 [M747748](https://github.com/XenoAmess/civ6_dev/blob/20a04e16be3507eacef6f7edcc96aa9f0f0ce05e/docs/research/baiqi-startup-M747748-recovery-2026-11-14.json)主界面前挂起的自有实例先保线程与普通dump，转储私密；不能把Ghost焦点不匹配绕成截图或GameCMD权限。合法UnusedStream0允许重复，关键流才要求唯一；单PC映射不冒调用栈或根因。相同产物N恢复不追认M采样，Owner错误也记在真正失败前／后边界，不转嫁模型或计作Steam操作。
+
+
+### 2026-11-14：表名和运行token不能替代来源证据
+
+[749750／N](https://github.com/XenoAmess/civ6_dev/blob/111258bd622dcac7026703cd82b9f1ae272333a8/docs/research/baiqi-stageA142-N749750-2026-11-14.json)：通用本地化表名无法确定资产归属，直接核错误文件路径和实际文本键；路径能指向报错插入者，仍未确定首次重复来源或启动根因。运行token只能确定一次运行，源版本另核实际manifest／buildmode／所有文件哈希和新进程。模型应识别已支持的版本，不为迁移而迁移；旧PID必须换为新的PID／birth／exe三元组。新正式142规划预算通过不追认旧140／141、不扩授全脚本或五组配对。

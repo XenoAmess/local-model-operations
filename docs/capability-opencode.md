@@ -1748,3 +1748,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：744 Native接入和747748失败仍不授原生生成
 
 [L与747748](https://github.com/XenoAmess/civ6_dev/blob/20a04e16be3507eacef6f7edcc96aa9f0f0ce05e/docs/research/baiqi-startup-M747748-recovery-2026-11-14.json)完整HTTP helper744通过Owner实际Admin接入后仅授其根关联／身份恢复范围；747／748完整候选均失败0采用，Owner转储／解析另算。每日canonical1.19.5维护成功cache复用，新增OpenCode原生生成／工具0、成本null；无Native142预算或Steam上线信用。
+
+
+### 2026-11-14：749750 HTTP审阅及N实际规划预算
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/111258bd622dcac7026703cd82b9f1ae272333a8/docs/research/baiqi-stageA142-N749750-2026-11-14.json)区分完整HTTP、部分诊断建议、Owner准备和N实际B_plan；canonical1.19.5每日维护成功缓存复用。OpenCode原生生成／工具新增0，未授其代码或Native性能信用，成本null。
