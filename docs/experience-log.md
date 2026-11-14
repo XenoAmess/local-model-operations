@@ -430,3 +430,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：源码替换命中与实际Lua命名空间都要验证
 
 [794/795](https://github.com/XenoAmess/civ6_dev/blob/5f0ec7811f9957ec8ab703009b2cc30c65998afc/docs/research/baiqi-pressure-nosite-driver794795-2026-11-15.json)同API名称在Executor存在不等于ActionPanel可见；对真实callee变换检查每mode命中而非仅看s.replace语句。编译不解析runtimeglobal，隔离实际namespace可反证nil；不要靠把守卫挪入未知上下文省掉真实跨context预检。保留driver/child各自CLI合同和实际receipt字段/根路径，缺声明不得造key。负例明确false与合同ValueError两种拒绝，不为Owner期望修源。
+
+
+### 2026-11-15：冻结总体中位规则下保留全部尖峰，切换夹具去掉旧状态假设
+
+[MANY](https://github.com/XenoAmess/civ6_dev/blob/481c3cea06e7ac28db952f4b3e56e4c16e0025cc/docs/testing/baiqi-pressure-many-complete.md)25raw段有2个>500ms/5个>10%仍按原median判据通过，不能给每段/每组/p95/max临时加门或挑更好结果。Actor审计只证请求/返回，不证队列物理执行。下一[NO_SITE读出](https://github.com/XenoAmess/civ6_dev/blob/2b1172030112dd37d5e8b63587daaf2996d25514/docs/research/baiqi-pressure-nosite-data-tools-2026-11-15.json)不能继承MANYpop4/固定队列/仅一勇士，nullablehash留unknown；预算FAIL仍中性保存保世界，严格区分语法/软件/Native完成。

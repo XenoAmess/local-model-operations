@@ -1913,3 +1913,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：794/795继续分轨
 
 [记录](https://github.com/XenoAmess/civ6_dev/blob/5f0ec7811f9957ec8ab703009b2cc30c65998afc/docs/research/baiqi-pressure-nosite-driver794795-2026-11-15.json)普通HTTP复用Nov15本机本用户1.19.5成功每日缓存；OpenCode原生工具生成session0。候选完整传输与跨上下文语义失败分开，离线compile不授Native效果。
+
+
+### 2026-11-15：完整MANY性能实机不回授模型能力
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/481c3cea06e7ac28db952f4b3e56e4c16e0025cc/docs/testing/baiqi-pressure-many-complete.md)无新模型调用、0OpenCode原生工具生成session。独立Native四预算及下一夹具软件准备层级分开，成功维护缓存不授游戏或原生代码生成效果。
