@@ -1953,3 +1953,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：805／803真实恢复与原生模式分轨
 
 [证据](evidence/2026-11-15-civ6-performance805-restore803.json)继续复用Nov15同机同用户1.19.5成功维护缓存，新增OpenCode原生工具生成session0。普通HTTP报告审阅、Owner工具修正／软件、真实恢复载入分别计，不把维护或HTTPstop当Native生成能力。
+
+
+### 2026-11-15：806普通HTTP与游戏操作分轨
+
+[806](https://github.com/XenoAmess/civ6_dev/blob/65fd1893a9c5cd263534a12b99498db8f1e8e220/docs/research/baiqi-ordinary806-main335-queue-completed-2026-11-15.json)Nov15同机同用户canonical1.19.5成功cache复用，新OpenCode原生工具session0；17隔离门场景为Owner软件，真实普通END后队列完成为游戏证据，均不改记OpenCode能力。

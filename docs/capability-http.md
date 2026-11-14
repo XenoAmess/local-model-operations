@@ -6847,3 +6847,8 @@ Owner实际后台读Text→Document→Pane→Pane→Window，头部支持Invoke�
 [805来源](https://github.com/XenoAmess/civ6_dev/blob/c68e59426cf5077d9229fee5cb66d256978be498/docs/research/baiqi-performance142-complete805-2026-11-15.json)，28787/2622tokens、19596.8292ms/TTFT3885.1804，stop/DONE/strictJSON、1POST，无正式采样重叠。模型八格数值确认只作审阅笔记，0代码／测试；CRITICAL来源歧义被实际canonical side的R4label/replacement字段消解，最终汇总仍显式映射。模型把其他功能／未测规则集当TC036门、HIGH但requiredactionNone等措辞拒绝；Owner按真实合同授已测环境TC036，不授全40项。HTTP读选定汇总非独立raw覆盖审计，历史PARTIAL不覆盖后续全证据，也不回写历史。
 
 [803后到采用／恢复](https://github.com/XenoAmess/civ6_dev/blob/ab76be4d279c5aa7ba02610153d6f211c1cab374/docs/research/baiqi-ordinary142-main334-restored803-2026-11-15.json)与804未审切点分开：紧凑绑定部分采用，Owner修Name stem、Lua编译、typedfiniteidentity／CLI、returned先保存及只读时间戳；4双Lua／8守卫过，实际普通119全匹配、一正式Load／一ownedHWNDEscape、334／11ready，军队原queue仍在且零新END334。Owner曾在端点未ready后仍调用loadhelper，缺Lua.log在intent/Native前拒绝，随后资格重取才实际一次load；不造重试游戏动作。R4替代侧退出额外门3情景过。累计805/746complete/56length/3finaltransport/835HTTP/30extra，缓存／Ownerfullcost／净节时null。
+
+
+## 2026-11-15：806一次普通END候选与实际队列闭合
+
+[806](https://github.com/XenoAmess/civ6_dev/blob/65fd1893a9c5cd263534a12b99498db8f1e8e220/docs/research/baiqi-ordinary806-main335-queue-completed-2026-11-15.json)8757/1696tokens、11445.8503ms/TTFT1449.0271，stop/DONE/strictJSON，1POST，真实未写私有END334工具先求候选。原稿四个guards方法层级错误（actual在guards.guards），缺显式11cities/moves3门；Exception非BaseException且receipt写/marker验证在unknown范围外。核心一次发令／独占intent／Lua部分采用，Owner复用实际ownercheck、修门与完整postintent异常范围、exactuniqueRETURN；4raw/修订双Luacompile、9Lua门／8Python门过，原代码未Native／模型测试0。实际一次普通无REASON END334使已发军队路线到55,36并清queue，独立335READY／11城无人口损失／正式save，0新MOVE/SKIP/人工内政；只授这个有确认队列样本，不授旧ARMED FOUND恢复。累计806/747complete/56length/3finaltransport/836HTTP/30extra，缓存／Ownerfullcost／净节时null。

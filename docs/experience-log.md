@@ -474,3 +474,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 [805](https://github.com/XenoAmess/civ6_dev/blob/c68e59426cf5077d9229fee5cb66d256978be498/docs/research/baiqi-performance142-complete805-2026-11-15.json)须检查canonical side内部label／replacement，不能因文件名沿用原pair编号就猜混入失效侧。可在最终汇总显式映射实际替代ID以改善阅读，同时拒绝虚构数据缺陷；历史阶段PARTIAL是切片，不是后来补全后的额外FAIL门。其他未验功能／规则集不无条件变成单项性能合同门。
 
 [803恢复](https://github.com/XenoAmess/civ6_dev/blob/ab76be4d279c5aa7ba02610153d6f211c1cab374/docs/research/baiqi-ordinary142-main334-restored803-2026-11-15.json)真实官方save表Name用stem，候选文件名正确不保证API参数正确；raw false回执先存再判、异常不重放。端点未就绪就调用依赖helper是Owner编排错，本次偶然在intent前失败不证明可忽略门。命令ACK／独立世界ready／queued军队实际执行仍三层分列。
+
+
+### 2026-11-15：嵌套模块与postintent异常边界
+
+[806](https://github.com/XenoAmess/civ6_dev/blob/65fd1893a9c5cd263534a12b99498db8f1e8e220/docs/research/baiqi-ordinary806-main335-queue-completed-2026-11-15.json)源码中直接import的模块不一定导出被它引用的guard函数；应按实际声明层级复用，避免复制owner身份实现。独占意图后的query、raw保存、RETURN验证全部可能失败，应留unknown并保持原BaseException；缺标记也不是重发许可。原API返回、queue到址清空及actual335激活三次独立状态，不能只凭END ACK宣布完成。
