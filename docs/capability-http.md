@@ -6811,3 +6811,8 @@ Owner仅取794固定purevisibility函数，795零原样代码；从Native已过H
 [精确证据](https://github.com/XenoAmess/civ6_dev/blob/e3e004e669f9c2adf0b48df65d08040b2ab8d1fa/docs/research/baiqi-pressure-nosite-fullscript796797-2026-11-15.json)。796为6919输入/2252输出tokens、18494.8589ms、TTFT2405.5913ms；797为8941/2309、18220.2146ms、TTFT2211.4274ms。两者stop/DONE/strictJSON，2POST实际峰2、重叠18.208401秒；均在J采样停止并退出后调用。796完整fixture主体原样采用；Owner最初把合法单反斜杠转义误判成过度转义，修正前的计数断言失败，实际AST与码点92/39撤回误判，未修改正确候选或执行Native。797头校验核心采用，Owner补正整数launchPID与两边有限非布尔birth；原测试正例3种类行却声称10/5/2，首先exportcounts失败，另配额124×33=4092错误，后续负例未执行、0原测试采用。Owner合成1正22负过，输入不变，实际fixture4次双Lua编译；机械端口与严格下层分析器准备但该次切片未安装或采样。不可由头验证推导样本质量或游戏预算通过。累计797逻辑/739完整/55length/3最终传输/827HTTP/30extra；cache、Owner全成本、净节时null。
 
 前置独立J在[真实NO_SITE证据](https://github.com/XenoAmess/civ6_dev/blob/33e0c8f8bdf2c8a7b920d3ed5cb05169b524e98c/docs/research/baiqi-pressure-nosite-stageA-J-2026-11-15.json)完成普通END1..6，138/155纯十城样本、两目标p95约9/2ms，B_plan通过；这不补授K全脚本或B_delta。
+
+
+## 2026-11-15：798纯文件NO_SITE军事输入审计
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/8be2b5ed9f604e982509d5e7210e6093acbf1148/docs/research/baiqi-pressure-nosite-input798-2026-11-15.json)。7799/3858tokens，22941.6963ms/TTFT1332.5378，stop/DONE/strictJSON、1POST无重试；K初始载入/预热期完成、无正式采样重叠。核心采用，Owner补recordfrom/to/pid精确int；raw接受True/2.0/False。raw测试误从collections导入MappingProxyType而非types，导入失败0执行；只修导入后18方法过，Owner另6负例/1带上下文TAB及深复制不变正例过。不得把导入后全绿追授原稿；原浅复制immutability不足，另测原始capture及嵌套frames。采用固定92fT1/END1..5/激活2..6日历的只读文件审计，无Native动作/效果或B_delta授权。累计798逻辑/740完整/55length/3finaltransport/828HTTP/30extra；未知缓存、Owner全成本、净节时null。

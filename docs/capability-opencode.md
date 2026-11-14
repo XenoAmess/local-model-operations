@@ -1923,3 +1923,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：796/797普通HTTP与每日维护分开
 
 [来源](https://github.com/XenoAmess/civ6_dev/blob/e3e004e669f9c2adf0b48df65d08040b2ab8d1fa/docs/research/baiqi-pressure-nosite-fullscript796797-2026-11-15.json)继续复用Nov15同机同用户OpenCode1.19.5成功每日缓存。此次OpenCode原生工具生成session0；维护成功不授源码生成或Native效果，两模式分轨。
+
+
+### 2026-11-15：798继续分轨
+
+[来源](https://github.com/XenoAmess/civ6_dev/blob/8be2b5ed9f604e982509d5e7210e6093acbf1148/docs/research/baiqi-pressure-nosite-input798-2026-11-15.json)普通HTTP复用Nov15同机同用户1.19.5成功每日缓存；新OpenCode原生工具生成session0，维护不补授代码生成能力。

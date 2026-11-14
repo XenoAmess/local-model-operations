@@ -440,3 +440,10 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：先解析合法转义，头正例也须满足实际计数
 
 [796/797](https://github.com/XenoAmess/civ6_dev/blob/e3e004e669f9c2adf0b48df65d08040b2ab8d1fa/docs/research/baiqi-pressure-nosite-fullscript796797-2026-11-15.json)Owner不得仅凭渲染斜杠猜Python路径错误；以实际字节/AST及消费者解释为准，不修坏正确候选。合成正例必须匹配真实rows条数与全局配额和，不能拿种类行冒充多条样本；负例被前置错误遮蔽时明确未执行。launch身份严格排除bool与非有限birth。头合同、下层样本/时钟/切换审计、Native效果仍分层验收。
+
+
+### 2026-11-15：正确模块声明与精确数值类型
+
+[798](https://github.com/XenoAmess/civ6_dev/blob/8be2b5ed9f604e982509d5e7210e6093acbf1148/docs/research/baiqi-pressure-nosite-input798-2026-11-15.json)MappingProxyType来自types，collections中的实际导入失败必须记0测试执行；只修导入后的方法数独立记录。数值等值比较会接受bool与float作为回合/id，合同若要求整数应先type(v)isint。读者输出无赋值不代替深层输入不变测试；TAB wire用实际码点和真实前缀验证。
+
+后续[NO_SITE Native K](https://github.com/XenoAmess/civ6_dev/blob/8154757e8d544fbe144380bd8a02307d91e83df8/docs/research/baiqi-pressure-nosite-fullscript-K-2026-11-15.json)实际33上下文/198时钟/396切换完整，五窗最大181.001425ms/整回合最多3请求，通过该两预算；不由HTTP成功推出Native效果，798文件审计未提供K游戏动作。
