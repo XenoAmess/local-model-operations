@@ -1,0 +1,93 @@
+{
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/3a976e2555c9247837abe046093c8dd56b31ce2b/docs/research/baiqi-pressure-pair-overlap-rejected-2026-11-14.json",
+  "invalidation": {
+    "utc": "2026-11-14T15:56:32.454810+00:00",
+    "case": "pressurepair142-1-enabled",
+    "status": "ENVIRONMENT_INVALID_ENTIRE_SIDE",
+    "reason": "Owner started NoSite private builds during load, then automatic sequence entered formal measurement while builds still active. Build completion UTC15:54:24.147303 follows formal run start15:53:59.235970.",
+    "completed_capture_exists_at_persisted_invalidation": true,
+    "raw_metrics_visible_by_persisted_invalidation": true,
+    "ordering_correction": "Decision and user commentary were based on live progress at9 before reading final durations. Initial attempt to persist precompletion rejection failed its guard because capture had already finished. Pendingtool then displayed actual durations. This exclusive record is later; do not claim a successful precompletion persisted record.",
+    "current_live_progress": "Completed11/save/officialexit; quietownedresiduewait",
+    "all_originals_retained": true,
+    "no_segment_filtering_or_outlier_removal": true,
+    "retry": "Independentnewcoldcampaign pressurepair142r; allfivegroups use r-label; samefixture/pins/budgets, noadoptionofinvalidfirstside",
+    "owner_error": true,
+    "model_error": false,
+    "Steam_online": 0
+  },
+  "runtime_functionality": "FiveordinarycrosscontextBegin/actualinlineactivationstops,0clockerror/refused,stopactual11/noEND11; validflowevidenceonly, notperformance",
+  "fresh_R_campaign": {
+    "utc": "2026-11-14T15:56:49.404541+00:00",
+    "label_prefix": "pressurepair142r",
+    "source_version": 142,
+    "source": "baiqi142-pressure-paired-v1",
+    "initial_turn": 6,
+    "fixture_sha256": "459a46e5d23d0600db7bd682a8d99f44218cc1812ba34bd6cdbe07993340da0a",
+    "sequence": [
+      [
+        1,
+        "enabled"
+      ],
+      [
+        1,
+        "control"
+      ],
+      [
+        2,
+        "control"
+      ],
+      [
+        2,
+        "enabled"
+      ],
+      [
+        3,
+        "enabled"
+      ],
+      [
+        3,
+        "control"
+      ],
+      [
+        4,
+        "control"
+      ],
+      [
+        4,
+        "enabled"
+      ],
+      [
+        5,
+        "enabled"
+      ],
+      [
+        5,
+        "control"
+      ]
+    ],
+    "paired_groups": 5,
+    "raw_segments": 25,
+    "invalid_previous_side": "pressurepair142-1-enabled",
+    "lock": "Beforeformalrun throughCOMPLETE; noHTTP/build/tests untilclosed. Filereads/progress/Native solewriter only.",
+    "no_R_campaign_capture_exists_at_freeze": true,
+    "old_invalid_side_durations_already_visible": true
+  },
+  "limits": {
+    "MANY_B_delta": "NOT_RUN_VALIDLY",
+    "NoSite_Native_performance": "NOT_RUN",
+    "MANY_B_plan_B_turn_N_req": "PriorH/I PASS unaffected",
+    "TC036": "PARTIAL",
+    "new_HTTP": 0,
+    "cumulative_logical": 789,
+    "Steam_online": 0,
+    "screenshots": 0,
+    "source142119_changed": false,
+    "owner_errors": [
+      "Buildpreparation overlapped formalmeasurement; noautomaticexclusivityguard in original sequence",
+      "Initialprecompletionpersistenceguardfailedbecausecapturealreadyfinished; thenpendingtoolrevealedmetrics. Correctedrecordispostcompletion, notsuccessfulprecompletionrecord",
+      "Freshcampaignpreparefirstfilenameowner_owner lookupfailedafterwritinginvalidation; correctednamingbeforeanyRNativeaction",
+      "PreparehelpercosmeticfinalstdoutsaidBEFORE_RESULTS, contradictedbyrecord; thatclaimiswithdrawn. Actualpersistedinvalidationpostcompletion."
+    ]
+  }
+}

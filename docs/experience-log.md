@@ -405,3 +405,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：预检需要实际调用边；文字与真实接口冲突分别记
 
 [789](https://github.com/XenoAmess/civ6_dev/blob/e729cd531d823d2e2ddd4e840701c37eba2b80df/docs/research/baiqi-pressure-paired-child789-2026-11-14.json)定义guard字符串而没有query/consumer调用，不能算守卫有效；用实际AST Name Load及真实生成callee编译和负场景核验。Owner提示虚构header和旧marker与模型实际选对所供endpoint分账；先查生产者，不为不存在的header加Native断言。源替换必须检查命中，代码构造语法故障在Native前阻断并保留Owner修正，不嫁接模型或Native失败。
+
+
+### 2026-11-14：异步准备会跨过正式测量边界，先设活动标记
+
+[压力配对](https://github.com/XenoAmess/civ6_dev/blob/3a976e2555c9247837abe046093c8dd56b31ce2b/docs/research/baiqi-pressure-pair-overlap-rejected-2026-11-14.json)准备时在load/warm阶段不保证整个子进程在formal前结束；自动生命周期需要明确测量互斥。已发生重叠保全原值，整侧拒绝，冻结新独立campaign，避免按结果过滤。最初想要早落盘但检查失败，就必须记录失败及后来实际时间，不能将意图追认为事实。

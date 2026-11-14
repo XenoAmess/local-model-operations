@@ -6755,3 +6755,10 @@ Owner接管未读782截断的driver/player，实际T0..max/source142ordinaryonly
 [精确证据](https://github.com/XenoAmess/civ6_dev/blob/e729cd531d823d2e2ddd4e840701c37eba2b80df/docs/research/baiqi-pressure-paired-child789-2026-11-14.json)7876/1890tokens，stop/DONE/严格JSON，13332.4171ms，TTFT1335.0354ms，1POST/峰1。候选pre_guard定义但AST Load计0，声称Executor预检实际未查询；无替换锚点断言、旧动态Lua名、owner active/error/refusal及MP/human/leader保护遗漏。Owner基于实际旧消费者重写适配，仅采用其正确pressurebridge字段字面量；16实际子Lua dualcompile/32实际6与10turn正负预检通过，0Native查询／动作。原候选0测试代码。Owner请求错写不存在的P6PairPressureBuild及旧marker，候选依据所供权威endpoint正确用pressuremarker，Owner输入错分账。Owner首次多行字面量注入Python双引号致语法错误，在子文件生成/Native前终止，改单行后验证，raw保留。
 
 首边已装coldlaunch16888，endpoint初读拒绝，尚无正式END或性能采样；软件不授B_delta。累计789逻辑/731完整/55length/3finaltransport/819HTTP/30extra，缓存/null、Owner完整成本/null、净节时/null。
+
+
+## 2026-11-14：压力配对流程Native成立但Owner负载重叠，整侧不计性能
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/3a976e2555c9247837abe046093c8dd56b31ce2b/docs/research/baiqi-pressure-pair-overlap-rejected-2026-11-14.json)source142压力桥实际五次普通跨UI Begin/原生inlineactivationstop、error/refused0、actual11/noEND11，流程完成。Owner在加载空档起NO_SITE包构建后，序列自动进入正式计时，构建完成15:54:24.147303晚于runstart15:53:59.235970且首段15:54:07.750..08.662在内，故整启用侧ENVIRONMENT_INVALID，五原值全留不择优，不授B_delta/对照组。原H/I独立PASS保持，非模型缺陷。
+
+拒绝决定基于live9进度、尚未看最终值；首次落precompletionrecord守卫因capture已经完成拒写，pendingtool随后展示值，最终持久记录晚于完成，不能造已成功早落盘。新r系列预先冻结五组交替顺序／同fixture459a/pins，formal前独占标记、COMPLETE后解除，期间0build/tests/HTTP。第一侧quietownedresidueofficialexit181s、0窗口/监听/2sCPU0与saveSHA复核后仅终止自己1次。无新HTTP，累计789保持。
