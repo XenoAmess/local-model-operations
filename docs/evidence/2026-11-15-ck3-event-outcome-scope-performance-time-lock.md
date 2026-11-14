@@ -5,3 +5,5 @@ Two complete independent reviews produced no adopted proposal. A suggests keepin
 One limited source observation remains for owner judgment: Session checks its deadline at entry, performs further Driver/current-Sway qualification, then calls the pipeline before its next deadline check. No actual timeout, deadlock or late pipeline entry was measured. This observation is not a validated bug or adopted patch.
 
 Each request contains23completeJava+2contracts. Both ended stop/DONE/strictJSON with zero retries:671203input/1362output, actualpeak2 overlap91.951732s/current0. Original actions and cycle settlement are not replayed. [Exact source/cost/disposition](2026-11-15-ck3-event-outcome-scope-performance-time-lock.json).
+
+A later independent [E07 captured-READ review](2026-11-15-ck3-e07-captured-read-pure-work.md) rejects a false duplicate-load claim against the then-current complete source; it does not change this earlier pair or grant Runtime performance qualification.
