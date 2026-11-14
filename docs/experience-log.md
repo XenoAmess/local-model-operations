@@ -435,3 +435,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：冻结总体中位规则下保留全部尖峰，切换夹具去掉旧状态假设
 
 [MANY](https://github.com/XenoAmess/civ6_dev/blob/481c3cea06e7ac28db952f4b3e56e4c16e0025cc/docs/testing/baiqi-pressure-many-complete.md)25raw段有2个>500ms/5个>10%仍按原median判据通过，不能给每段/每组/p95/max临时加门或挑更好结果。Actor审计只证请求/返回，不证队列物理执行。下一[NO_SITE读出](https://github.com/XenoAmess/civ6_dev/blob/2b1172030112dd37d5e8b63587daaf2996d25514/docs/research/baiqi-pressure-nosite-data-tools-2026-11-15.json)不能继承MANYpop4/固定队列/仅一勇士，nullablehash留unknown；预算FAIL仍中性保存保世界，严格区分语法/软件/Native完成。
+
+
+### 2026-11-15：先解析合法转义，头正例也须满足实际计数
+
+[796/797](https://github.com/XenoAmess/civ6_dev/blob/e3e004e669f9c2adf0b48df65d08040b2ab8d1fa/docs/research/baiqi-pressure-nosite-fullscript796797-2026-11-15.json)Owner不得仅凭渲染斜杠猜Python路径错误；以实际字节/AST及消费者解释为准，不修坏正确候选。合成正例必须匹配真实rows条数与全局配额和，不能拿种类行冒充多条样本；负例被前置错误遮蔽时明确未执行。launch身份严格排除bool与非有限birth。头合同、下层样本/时钟/切换审计、Native效果仍分层验收。
