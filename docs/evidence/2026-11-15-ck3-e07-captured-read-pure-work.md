@@ -5,3 +5,5 @@ The complete response mistakes one loadFullMaterial(beforeRef) call for two. Its
 The input already includes the actual1024entry/64MiB FULL-material cache with fresh read/content comparison and the implemented private owned Snapshot encoder. The single existing9013B thread is a location observation; it does not measure parse frequency, cache misses, CPU share or end-to-end benefit.
 
 Complete27Java+2original/contracts; one fixed-three-message request.305875input/539output, TTFT37.6485705s/HTTP41.0253992s, stop/DONE/strictJSON/zero retry, actualpeak1/current0. No second request or liveaction. [Source/cost/disposition](2026-11-15-ck3-e07-captured-read-pure-work.json).
+
+A later independent [B79 proof/Ledger pair](2026-11-15-ck3-b79-retirement-proof-ledger-pure-work.md) returns no new candidate under its own exact source contract. It does not alter this earlier rejected duplicate-load candidate or establish a general optimization limit.
