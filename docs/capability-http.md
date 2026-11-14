@@ -6783,3 +6783,10 @@ Owner接管未读782截断的driver/player，实际T0..max/source142ordinaryonly
 [模型及S1启用](https://github.com/XenoAmess/civ6_dev/blob/298584bca03f274659404eb7de7dbdcf1c7715bd/docs/research/baiqi-pressure-many-pairS-1-enabled-2026-11-15.json)10237/1489tokens，58866.4663ms/TTFT4706.6559，stop/DONE/validJSON，1POST/peak1/cachednull。基于实际capture/step帧及真实_payload/validate_capture_mode提供pureauditor，保序/同turn去重/attempt+selected+return匹配；Owner仅将dict专用门补为Mapping。原5测试实际全部通过、真实TAB存在；另Owner5方法覆盖真实S1文件/UserDict/zero及source/calendar/attempt/selected/return/duplicate/bounds，0Native查询。Owner审阅模板预填“literalbackslash-t/positive失败”与实测0error相矛盾，原review保留、独立erratum纠正，不能嫁接模型（类似788的Owner转义误判再次出现）。
 
 [首组](https://github.com/XenoAmess/civ6_dev/blob/5774b1e3328e5ed4f80322d3194c0486d93bbc53/docs/research/baiqi-pressure-many-pairS-group1-2026-11-15.json)S1 E/C五段各齐、error/refused0/各5军队SKIP和普通END6..10、actual7..11/0END11，各独立coldfreshSteamoffline/CPU1..8/三设置/EXE一致，warm>=60后exact459areload，正式无build/tests/HTTP。军队ID/type顺序全等、无同turn重复；两侧已保存退出。E原elapsed约824/846/871/795/864ms，C868/868/759/820/891；本组medianDelta -25.000095ms/medianRatio -3.030297%，一段比例>10%原值保留，>500ms0，整体B_delta仍未知直到5组25段。S1正常只读路径通过而IOretry0，不能称Native瞬时恢复已实测。保存名碰旧invalid轮在intent/Native前拒，唯一S名saveonce；Owner文档helper少import/十进制回合文件lexical排序错误在无Native阶段修正，真实原件保留。累计792/734complete/55length/3finaltransport/822HTTP/30extra，owner成本/净节时null，0原生工具会话。
+
+
+## 2026-11-15：793真实下一夹具载入适配，漏CLI绑定由Owner纠正
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/c641c0f6c4f779686877ae875c95459fe6611b99/docs/research/baiqi-pressure-nosite-stageA-fixture793-2026-11-15.json)11479/2161tokens，14352.873ms/TTFT1763.2605，1POST/峰1/stop/DONE/validJSON。基于实际H载入生命周期/StageA生产者/NO_SITE773指纹，产出动态PID/birth/exe、固定92f295622bytes、实际T1/h日历1/2/6、零计数、独占意图、warm60/Restore/精确重载、日志资格/ownedHWNDoneEsc完整适配。原AST可解析但漏mode=sys.argv1，最小实际分支独立执行NameError、0Native；Owner补该绑定及显式Rootsys.path，修cosmeticH标签，其余主体采用。4双Lua编译/18正确负场景/精确continue源锚点通过，0测试代码由模型供应。仅准备、未装/未Native；初始财务/队列/演员/地图细读另待，不能套MANY125金/12推荐。
+
+调用仅在S3启用侧正式停止及save/exit后等待期，未与采样重叠。累计793/735complete/55length/3finaltransport/823HTTP/30extra；cache/ownerfullcost/netsavings均null。源码142119及Steam离线保持，MANY仍待全部25配对，NO_SITE性能未测。

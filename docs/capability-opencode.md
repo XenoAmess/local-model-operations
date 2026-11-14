@@ -1903,3 +1903,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：792维护缓存和Native分列
 
 [记录](https://github.com/XenoAmess/civ6_dev/blob/298584bca03f274659404eb7de7dbdcf1c7715bd/docs/research/baiqi-pressure-many-pairS-1-enabled-2026-11-15.json)普通HTTP入口复用本机本用户Nov15成功1.19.5检查缓存；没有OpenCode原生生成/工具session。纯文件审计通过及独立Native匹配流程不回授原生工具生成能力。
+
+
+### 2026-11-15：793缓存维护不授Native效果
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/c641c0f6c4f779686877ae875c95459fe6611b99/docs/research/baiqi-pressure-nosite-stageA-fixture793-2026-11-15.json)普通HTTP复用本机本用户Nov15成功1.19.5每日检查；OpenCode原生工具生成session0。CLI候选语法通过与实际变量绑定缺陷分别记录，0Native使用。

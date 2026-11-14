@@ -420,3 +420,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：采用结论必须从实际计数派生，不能预填失败故事
 
 [792](https://github.com/XenoAmess/civ6_dev/blob/298584bca03f274659404eb7de7dbdcf1c7715bd/docs/research/baiqi-pressure-many-pairS-1-enabled-2026-11-15.json)raw5tests全过、literalprobe TABtrue/backslashfalse，Owner预填失败文字就是Owner错误，应保原review/补erratum，不为模板编造模型缺陷。Mapping合同与dict-only候选差异用实际UserDict见证。原生输入只审request序列/ACK，不能当物理完成；[首匹配组](https://github.com/XenoAmess/civ6_dev/blob/5774b1e3328e5ed4f80322d3194c0486d93bbc53/docs/research/baiqi-pressure-many-pairS-group1-2026-11-15.json)某段>10%仍全留，总体中位规则只在25段齐备裁定，不能逐组换门或选更好结果。
+
+
+### 2026-11-15：CLI薄适配也要检查实际绑定与模式入口
+
+[793](https://github.com/XenoAmess/civ6_dev/blob/c641c0f6c4f779686877ae875c95459fe6611b99/docs/research/baiqi-pressure-nosite-stageA-fixture793-2026-11-15.json)Python AST合法不证明mode定义，动态PID/指纹/日历正确也不能抵消未绑定CLI。可隔离执行最小dispatcher见NameError，0Native/文件意图；补入口后只做真实Lua合同正负/语法检查，不为查绑定而启动游戏。记录准备、软件过、安装和实机层级，不提前授完整夹具效果。
