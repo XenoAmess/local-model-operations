@@ -6676,3 +6676,14 @@ MANY首次创建在复用NO_SITE实例13172时访问冲突，最后持久Lua只�
 ### 2026-11-14 Quarkus3.40.1.1 old-null：精确source与最小native索引候选
 
 Root/Planning已闭实际old=null与模块缺显式索引RO后，单份MavenCentral精确sources776806B隔离获取（非模型POST、未改m2），输入9整框架Java+22完整props/4POM/bytecode/actual69/log/合同。模型首答606tokens给2行dev native-transport索引及真实org.xar.ck3.control坐标，独立源码审认可最小API候选；非model独立根因。完整流/实际REQUEST字节核通过，138839in606out/TTFT17.823033秒/HTTP21.5849753秒/stop0retry/峰1，当前0。失误FQN/历史index未知，未显式配置不等于已证程序化缺项；rawlastStartIndex与可lazyload wrapper有别，框架明示新增类还由Quarkusprocessors处理。仅未来augmentation/startup候选，尚未授source应用、当前HCR或现场效应，无必要二POST。见[精确来源与候选](evidence/2026-11-14-ck3-quarkus-oldindex-native-transport-candidate.md)。
+
+
+## 2026-11-14：776—777独立水域变体／桥日历，部分采用与缺失测试留证
+
+[精确记录](https://github.com/XenoAmess/civ6_dev/blob/cd6eb4585d82252ba6c86feb459ebaf33bf15196/docs/research/baiqi-pressure-water-anchor776777-2026-11-14.json)7763811input／1167output、10787.159ms；77712705／3297、22693.214ms，均1POST stop／DONE／strictJSON，client峰2／共同10.778911秒。两份test_module竟只是文件名，0测试代码／0原测试通过。7768hunks为基础，raw接受entry.marker/source/initial_turn被篡改仍开始clock，Owner补三项拒绝和缩进。777取部分variant/path/option/CLI声明，Owner修旧MANY错报1143但实1144、新11城市slot全丘陵、缺0城市预检；rawPython按首行查水，正图逆序被拒，错水index1移首行却READY。Owner用物理index和局部mapdict／明确mode关闭这些错误。所有原件／exactanchors／合成反证保留。
+
+桥相关21过含5新，真实clock和两Lua五段T0/T1/max/legacy85，invalidbeforeclock/publish、unknownpendingnoretry及foreign/retire保持；仅bridge软件，配对builder/analyzer/Pythonendpoint/player仍85不可NativeT1。地图36过含6新，真实geometry+snapshotconsumer+actualentry+5fileXML/hashes；初轮直接import17TestCases使23收集，Owner改modulealias后36唯一方法，不重复报新测试。合计57／11新。WATER1只新独立variant/thirdmap，物理0海洋、11slot草原／其他1132丘陵；旧MANY单水仍不合格，≥12actualnaturaladmitted和全部预算不变；新包prepared未Native，不授修复。共享core分支改变旧入口嵌入字节，保留旧772/775历史包，不追认byteequal。
+
+Nativefresh12380也MANY访问冲突，最后持久CONTINENTS_BEGIN，1144setter/AREA_END/CHOKE_END在前，334字符全???符号；深入根因未知，warmreuse不是必要前提。0Continue/END/manualsetup；自有OK一次后自然退出，0kill/Steam/截图。新单水域是假设待新实例验证，不能倒写两次FAIL。产品142119源不变，主f70b/NoSite92f4保留。
+
+累计777logical／722complete含历史JSON拒绝／52length／3最终transport／807HTTP／30extra，server/cache/Owner有效成本/净收益null；初始bridgehunk采用在correction前未计，其余tests/build在correction，SDK/Nativecrash/publication未知。Steam0上线／上传，TC036仍PARTIAL。

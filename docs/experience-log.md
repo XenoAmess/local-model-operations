@@ -360,3 +360,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：方法代理先保持原self，C++崩溃保留未知边界
 
 [775](https://github.com/XenoAmess/civ6_dev/blob/d3285be7598fe3512ee41d2b9e2e7f02f698205e/docs/research/baiqi-pressure-generation-failure-trace775-2026-11-14.json)代理对象的colon self不能直接交给原userdata方法，必须换成原对象；参数及多返回nilholes都需真实消费者。构造函数不能把缺失Native方法包装成总是存在的function以绕过预检。Pythoncolon行可能解析为注解，语法PASS不代表调度；测试也得实际加载模块。原生访问冲突无符号，最后持久marker只是已知边界，不赋根因；新trace包使用新进程／独立世界并保存旧FAIL。错误框只读／确认、API ACK和实际PID消失分别记，严禁截图Steam／强杀他人／重放未知动作。
+
+
+### 2026-11-14：地块index不能被数组位置替代，隔离夹具变体不降低资格
+
+[776—777](https://github.com/XenoAmess/civ6_dev/blob/cd6eb4585d82252ba6c86feb459ebaf33bf15196/docs/research/baiqi-pressure-water-anchor776777-2026-11-14.json)完整覆盖数据允许乱序，按rows[0]查物理plot0会漏真／认假；先按index验证再计单水。新fixture显式新variant/path，保留旧FAIL/旧MANY规则，变化物理条件不改真实pool≥12／性能预算。桥初始化参数要发布前验证，Begin也核entry元数据完整一致；只压新marker不足以防字段被改。生成声明提供test_module字段不等提供测试，文件路径不能当代码；导入TestCase会被unittest重复发现，应import模块复用工具。Native日志只能定位已持久边界，不能从无符号崩溃直接断定C++根因。
