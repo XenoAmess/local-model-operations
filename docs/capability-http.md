@@ -6828,3 +6828,8 @@ Owner实际后台读Text→Document→Pane→Pane→Window，头部支持Invoke�
 ## 2026-11-15：800真实受管安装恢复候选的门限缺口
 
 [来源](https://github.com/XenoAmess/civ6_dev/blob/4eccc8148329d0099168e0782e9130f58b9677b7/docs/research/baiqi-pressure-return142-preparation800-2026-11-15.json)。7567/3487tokens、22051.3268ms/TTFT1322.1650，stop/DONE/strictJSON、1POST无重试，N3采样停止保存退出后调用。骨架部分采用，raw缺formal锁、truthy完成态/overall只判key、float/bool元数据、marker只比key、版本负分支pass及意图无manifesthash；Owner补全部并在备份后再次核门，16隔离检查过，模型测试代码0。实际安装/主保存加载/游戏/Steam操作0，待全十侧25段结束后首次真实check；预算FAIL也应能恢复普通包，不能以绿作为退出诊断副本前提。累计800/742complete/55length/3finaltransport/830HTTP/30extra；缓存/Ownerfullcost/netsavingsnull。
+
+
+## 2026-11-15：801普通包冷启候选，副作用前缀与回执消费者
+
+[来源](https://github.com/XenoAmess/civ6_dev/blob/ce5d8e5862c0215c94b1e9003338c25558011164/docs/research/baiqi-pressure-main334-launch-preparation801-2026-11-15.json)。7866/3841tokens、23281.3124ms/TTFT1327.3010，stop/DONE/strictJSON、1POST无重试；N3正式采样停且退出后/N4正式采样前。主体部分采用，rawenv用os无import；若前门全满足会在写意图后/Popen前NameError，本次仅表达式隔离复现、0真实意图。Owner补精确PID/birth有限同实例、awareUTC/发令前freshage、marker值、EXEfile、CLI与源指纹；按所供实际旧消费者绑定flatpid/created_at/exe，不虚构resolved_exe或拿nestednew_identity交平面API。21Owner隔离检查，0候选测试代码/真实Steam查询/Native/Popen/安装/主存档load。累计801/743complete/55length/3finaltransport/831HTTP/30extra；缓存/Ownerfullcost/netsavingsnull。

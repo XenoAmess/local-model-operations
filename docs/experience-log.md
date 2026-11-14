@@ -457,3 +457,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：恢复工具不能跳过未知门，也不能以预算通过为恢复前提
 
 [800](https://github.com/XenoAmess/civ6_dev/blob/4eccc8148329d0099168e0782e9130f58b9677b7/docs/research/baiqi-pressure-return142-preparation800-2026-11-15.json)相同API调用骨架可用不证明外围门齐全；核formal锁、exactTrue/int、Mapping、manifest值及真正抛错的版本负支。只读check与带独占意图/完整备份的install分开，备份后发令前再核当前文件/进程门；unknownmutation不得重放。恢复普通包是收尾必要动作，与性能PASS/FAIL分开，不把未执行工具或隔离门限见证写成真实安装。
+
+
+### 2026-11-15：缺import的真实副作用位置与schema适配
+
+[801](https://github.com/XenoAmess/civ6_dev/blob/ce5d8e5862c0215c94b1e9003338c25558011164/docs/research/baiqi-pressure-main334-launch-preparation801-2026-11-15.json)先沿实际语句定位错误在意图之前还是之后，隔离表达式复现不能写成整段实际运行。版本/文件数量/commit不代替manifest值核对；平面与嵌套回执按真实消费者绑定。proof创建时新鲜不保证发令前仍新鲜，发令前再核且未知不重放；不能用软件fakeproc见证授真实外部动作。
