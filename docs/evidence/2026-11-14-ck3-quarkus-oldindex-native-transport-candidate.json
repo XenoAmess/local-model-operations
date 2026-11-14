@@ -308,7 +308,7 @@
       "sha256": "5c65f3c0fbae9da88d932a52f8319e927a42a1dec03d1c1b7f4f080b315d8fbe",
       "name": "MODEL-CANDIDATE-SOURCE-REVIEW03.json"
     },
-    "configuration_source_application": "PENDING owner/actualsource not credited",
+    "configuration_source_application": "FORMAL_SOURCE_ADOPTED after original candidate review; actualRuntimeconfig not deployed",
     "model_Test_JVM_live_operations": 0
   },
   "candidate": {
@@ -332,10 +332,11 @@
   },
   "adoption": {
     "source_supported_config_candidate": 1,
-    "owner_source_applied_hunks": 0,
+    "owner_source_applied_hunks": 1,
     "model_independent_rootcause_findings": 0,
     "software_qualification": 0,
-    "Runtime_or_HCR_or_Game_permission": 0
+    "Runtime_or_HCR_or_Game_permission": 0,
+    "adopted_configuration_lines": 2
   },
   "budget": {
     "new_independent_aggregate_limit": 8388608,
@@ -346,5 +347,25 @@
     "old_history32_and_other_settled_actual_kept": true,
     "no_unused_released_yet": true
   },
-  "next": "Java owner may review/adopt isolated configuration, with any later augmentation/coverage/HCR accepted independently by Runtime. No unnecessary second model request, no framework patch/dependencyversion/POM change, no active configuration/VM/live action."
+  "next": "Formal source adoption is now recorded. Runtime config/index deployment and any HCR acceptance remain independent and unverified; no new model request or actualoperation is authorized by this posterior.",
+  "posterior_source_adoption": {
+    "business_commit": "b738160efeb76540516e0069e1cb86d063a8cc9d",
+    "business_commit_url": "https://github.com/XenoAmess/ck3_eternal_recurrence/commit/b738160efeb76540516e0069e1cb86d063a8cc9d",
+    "source_ready": {
+      "name": "SOURCE-READY-FORMAL-DEV-NATIVE-INDEX01.json",
+      "bytes": 2957,
+      "sha256": "c5b1ac9321e92d0d3e38b1a355c9111947c0f1210b60e646102394eec5594b2b"
+    },
+    "adoption": "Two model response property lines adopted exactly; placement adapted to formal instrumentation line because formalBASE has no Runtimecontinuity-core anchor. All other formalproperties remain exact.",
+    "formal_base_bytes": 285,
+    "formal_candidate_bytes": 453,
+    "formal_candidate_sha256": "d23ee512f4e56caa1f6374e5462bdee54de95dfa0f912dfc5e0fe4101a904f36",
+    "actual_Runtime_properties_sha256": "42ebb4890f4b419688b00e6ba4e0f7a93c211facdbd6a53d9ad4f41511432aab",
+    "actual_Runtime_deployed": false,
+    "actual_index_or_HCR_verified": false,
+    "solecause_or_performance_claim": false,
+    "HTTP_or_JVM_new": 0,
+    "model_two_line_contents_exact": true,
+    "whole_model_Runtime_properties_copied_to_formal": false
+  }
 }
