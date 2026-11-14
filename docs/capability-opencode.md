@@ -1863,3 +1863,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：783分析HTTP不授原生能力
 
 [记录](https://github.com/XenoAmess/civ6_dev/blob/208fb78b861acdb510f46a7b49cd3a949ffded3c/docs/research/baiqi-pressure-driver-diagnosis783-2026-11-14.json)canonical Nov14成功维护缓存复用，OpenCode原生生成／工具sessions0。候选分析事实错误拒绝；Owner软件驱动与NativeQAgetter分别记账，不以完整HTTP或12个QA位置追认自然压力效果。
+
+
+### 2026-11-14：自然12与784—785软件不授原生能力
+
+[Native自然资格](https://github.com/XenoAmess/civ6_dev/blob/5c95d3088f034a34ecb8295536d2c24bbf1e1898/docs/research/baiqi-pressure-natural12-fixture-2026-11-14.json)与[HTTP/Owner软件](https://github.com/XenoAmess/civ6_dev/blob/69140cb71c6cc9925e4fc9f5793c05b184a6b3db/docs/research/baiqi-pressure-observed-calendar784785-2026-11-14.json)分别留证；canonical Nov14成功维护cache复用，OpenCode原生生成／工具sessions0。Native12来自实际正常游戏生产后自然调用，不能回授模型诊断正确或完整性能通过。

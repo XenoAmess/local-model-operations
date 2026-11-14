@@ -380,3 +380,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：样本数、每样本分母与结果变化须分别判断
 
 [783](https://github.com/XenoAmess/civ6_dev/blob/208fb78b861acdb510f46a7b49cd3a949ffded3c/docs/research/baiqi-pressure-driver-diagnosis783-2026-11-14.json)10次调用每池3不是10位置；cheap_pass代表通过便宜门而非被拒。没有新调用的回合值未知，后续一次getter12也不授自然样本，变化只证明返回不同；数量不变不能判cache还是重算。分析候选的高信心并非证据；提供原版调用源码只能证明调用者意图，不能推出Native硬上限。来源和实际calendar贯穿driver/header/ACK/record/consumer，失联后不能重放动作，保留pending并独立观察。
+
+
+### 2026-11-14：正常队列完成可触发后续自然样本，容器摘要不同先查负载
+
+[自然12](https://github.com/XenoAmess/civ6_dev/blob/5c95d3088f034a34ecb8295536d2c24bbf1e1898/docs/research/baiqi-pressure-natural12-fixture-2026-11-14.json)初始小池不必立即改地图，实际QA值变化后从精确保存点新观测、只普通回合推进到自然队列完成，再取得真实12；各epoch/保存SHA/角色和剩余未访问分清。 [全脚本](https://github.com/XenoAmess/civ6_dev/blob/69140cb71c6cc9925e4fc9f5793c05b184a6b3db/docs/research/baiqi-pressure-observed-calendar784785-2026-11-14.json)六END/五窗/下一closing与paired五段不同，实际日历所有消费者应对齐。兼容性核查区分metadata与内容字节、ZIP成员时间戳；不要因容器SHA不同重写旧证据。Owner测试也需检查断言是否实际约束目标，turn*0不能证明时窗，修正必须重跑。

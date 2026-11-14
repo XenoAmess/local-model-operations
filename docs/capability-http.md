@@ -6718,3 +6718,12 @@ Owner接管未读782截断的driver/player，实际T0..max/source142ordinaryonly
 ### 2026-11-14 postRETAIN两真实实现首稿：完整stop、闭包不成、owner接管
 
 已有canonicalAPPLIEDevent+realRETAINpending恢复拆Journal与Core/Bootstrap两实现，完整56/70Java+各7原件，max6000/5000给完整hunks而非短review。两个完整wire先冻结同时BEGIN，1174034in6780out、2stop/DONE/strictJSON、0retry、真peak2重叠185.480695秒/当前0。A漏pending==latest与实际WAL，沿Life-onlypendingControl使newEventgate恒false；B文件anchor混淆、PendingRole7field6ctor及无targettype methodref、实际history名单未接。0完整source/Test采用/0javac，不把既有helperAPI虚报新错；开始后补入的45minprep→资格后10minREAD具体合同归owner后到，不倒授模型已读或漏指令。Root/Java已手工接管，不花第三题凑请求，也不封恢复technicalNO。B77单fresh D-only语义hunk是独立单元，不把它并作本两稿采纳。见[Journal稿](evidence/2026-11-14-ck3-postretain-journal-static.md)、[Core/Bootstrap稿](evidence/2026-11-14-ck3-postretain-core-bootstrap-static.md)。
+
+
+## 2026-11-14：自然12资格独立于HTTP，全脚本784—785收尾
+
+[实际自然12](https://github.com/XenoAmess/civ6_dev/blob/5c95d3088f034a34ecb8295536d2c24bbf1e1898/docs/research/baiqi-pressure-natural12-fixture-2026-11-14.json)同owned进程从exact459aT6重新载入、新census0起，3军队SKIP／3普通END6..8到9，choice/write各raw12/admitted12/visited1/returned1，零drop/invalid，11未访问不能授穷尽。后台settler队列请求＋observed，非已训练/建城；0manualgetter/planner/civ/grants/END9。T9观察00ee…另存，不替代T6初始点；原T1池3穷尽保持。此前QA12只事实变化，0模型文字功劳，仍未压力性能。
+
+[784—785](https://github.com/XenoAmess/civ6_dev/blob/69140cb71c6cc9925e4fc9f5793c05b184a6b3db/docs/research/baiqi-pressure-observed-calendar784785-2026-11-14.json)7849401input/6500output、41689.960ms length整份未读弃用，Ownerdriver接管；7857279/1120、10841.314ms stop/DONE/strictJSON，7唯一hunks。原稿接受bounded_zero=1/int子类、旧metadata多3None、压力缺source/T正确键且window字符串，Owner修类型／条件元数据；部分参数／header/mode/CLI思路采用，0原测试。11新+37旧过，实际119/97双编译、33context/4096、只Executor压力stamp，driver33contractdouble Lua53＋所有queryLua51parse；实际T0/T6/max六ENDT..T5／窗T1..T5／closeT6，区别paired五段。Owner初时钟测试turn*0无效，改实际callbacktime>=anchor+10后重跑；默认119payload及ZIP解包原件全等，但97成员时间戳不同致容器SHA不同，初误要求整个metadataarchiveSHA一致已留FAIL原件并修读回，0重建/追认。T6全脚本7ce5…准备未装，非Native。
+
+累计785logical／727complete含历史JSON拒绝／55length／3最终transport／815HTTP／30extra，两POST峰2共同10.840002秒；维护cache/原生0，cache/server/Owner完整成本null，产品142119源与main/NoSite/各基线保留，Steam0上线/截图，TC036PARTIAL。
