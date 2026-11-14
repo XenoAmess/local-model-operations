@@ -1868,3 +1868,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：自然12与784—785软件不授原生能力
 
 [Native自然资格](https://github.com/XenoAmess/civ6_dev/blob/5c95d3088f034a34ecb8295536d2c24bbf1e1898/docs/research/baiqi-pressure-natural12-fixture-2026-11-14.json)与[HTTP/Owner软件](https://github.com/XenoAmess/civ6_dev/blob/69140cb71c6cc9925e4fc9f5793c05b184a6b3db/docs/research/baiqi-pressure-observed-calendar784785-2026-11-14.json)分别留证；canonical Nov14成功维护cache复用，OpenCode原生生成／工具sessions0。Native12来自实际正常游戏生产后自然调用，不能回授模型诊断正确或完整性能通过。
+
+
+### 2026-11-14：786—787依旧HTTP路径
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/f22fa79db8d82d3ddee2f08b51307106dab34cc4/docs/research/baiqi-pressure-initial-readiness786787-2026-11-14.json)canonical Nov14 1.19.5成功cache复用，原生生成/工具sessions0。完整HTTP、11软件方法、8port场景、1实际T6snapshot分别记账，不能相互追认或授未运行的性能通过。

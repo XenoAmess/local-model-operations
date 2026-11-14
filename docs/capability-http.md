@@ -6727,3 +6727,10 @@ Owner接管未读782截断的driver/player，实际T0..max/source142ordinaryonly
 [784—785](https://github.com/XenoAmess/civ6_dev/blob/69140cb71c6cc9925e4fc9f5793c05b184a6b3db/docs/research/baiqi-pressure-observed-calendar784785-2026-11-14.json)7849401input/6500output、41689.960ms length整份未读弃用，Ownerdriver接管；7857279/1120、10841.314ms stop/DONE/strictJSON，7唯一hunks。原稿接受bounded_zero=1/int子类、旧metadata多3None、压力缺source/T正确键且window字符串，Owner修类型／条件元数据；部分参数／header/mode/CLI思路采用，0原测试。11新+37旧过，实际119/97双编译、33context/4096、只Executor压力stamp，driver33contractdouble Lua53＋所有queryLua51parse；实际T0/T6/max六ENDT..T5／窗T1..T5／closeT6，区别paired五段。Owner初时钟测试turn*0无效，改实际callbacktime>=anchor+10后重跑；默认119payload及ZIP解包原件全等，但97成员时间戳不同致容器SHA不同，初误要求整个metadataarchiveSHA一致已留FAIL原件并修读回，0重建/追认。T6全脚本7ce5…准备未装，非Native。
 
 累计785logical／727complete含历史JSON拒绝／55length／3最终transport／815HTTP／30extra，两POST峰2共同10.840002秒；维护cache/原生0，cache/server/Owner完整成本null，产品142119源与main/NoSite/各基线保留，Steam0上线/截图，TC036PARTIAL。
+
+
+## 2026-11-14：786—787初始只读界限与真实日历收尾
+
+[精确记录](https://github.com/XenoAmess/civ6_dev/blob/f22fa79db8d82d3ddee2f08b51307106dab34cc4/docs/research/baiqi-pressure-initial-readiness786787-2026-11-14.json)7863810input/552output、6320.439ms，7876898/2242、15196.280ms，均单POST stop/DONE/strictJSON，峰2共同6.321089秒。786原只读Lua缺bounds/ownership/type/stableend，fake每方33单位打印66而DONE仍0/0；原稿Native0，Owner只取getter/记录结构为基础，先boundedwhole-snapshot再输出，32每方/总11city/严格数值ID所属重复/真实总数/回合稳定，8dualLua假ports正常16行、失败0行，另实际T6读取。787整1implhunk采用，7原测试全过但超过5方法合同且所谓T6实为T0closing6；Owner并为5方法补实际T6/typedcase，与6旧共11过。Owner自写Nonefixture先做None+6错，改directinvalidT调用后11重过，不记模型失败。
+
+实际G同owned进程exact459aT6新载入，human10pop4food2队列1hashMonument，gold125/net5；AI1pop4food2/settlerqueue，gold40/net6；humanwarrior3,4，AI20,22属vanilla不是BaiqiBG军令。完整1144visible水1/城11/裸陆1132复核，G0END/Nativewrites/getter/planner，自有census0calls退休，保护459a/00ee后正式退出一次，残留状态需另检查不假定gone。StageA T6ec78…119/97双编译准备未装，不授性能。累计787logical/729complete含历史JSON拒绝/55length/3最终transport/817HTTP/30extra，维护cache/原生0，cache/server/Owner完整成本null，TC036PARTIAL，Steam0在线/上传/截图，产品142119源及保存点保持。

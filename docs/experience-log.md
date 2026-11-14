@@ -385,3 +385,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：正常队列完成可触发后续自然样本，容器摘要不同先查负载
 
 [自然12](https://github.com/XenoAmess/civ6_dev/blob/5c95d3088f034a34ecb8295536d2c24bbf1e1898/docs/research/baiqi-pressure-natural12-fixture-2026-11-14.json)初始小池不必立即改地图，实际QA值变化后从精确保存点新观测、只普通回合推进到自然队列完成，再取得真实12；各epoch/保存SHA/角色和剩余未访问分清。 [全脚本](https://github.com/XenoAmess/civ6_dev/blob/69140cb71c6cc9925e4fc9f5793c05b184a6b3db/docs/research/baiqi-pressure-observed-calendar784785-2026-11-14.json)六END/五窗/下一closing与paired五段不同，实际日历所有消费者应对齐。兼容性核查区分metadata与内容字节、ZIP成员时间戳；不要因容器SHA不同重写旧证据。Owner测试也需检查断言是否实际约束目标，turn*0不能证明时窗，修正必须重跑。
+
+
+### 2026-11-14：只读也需有界和诚实总数，基线必须读实际AI状态
+
+[786—787](https://github.com/XenoAmess/civ6_dev/blob/f22fa79db8d82d3ddee2f08b51307106dab34cc4/docs/research/baiqi-pressure-initial-readiness786787-2026-11-14.json)只读候选无界可输出66演员却报告0；先完整有界采集、校验类型/身份/回合，再输出真实总数，失败不能残留似完整前缀。AI的队列/位置来自原版对手，不以初始人工布置的旧值代替当前读回，也不算模组BACKGROUND行为。辅助closinggate也会藏旧85常数，要在Native前找齐；参数名T6的测试可能实际只测T0的closing6，核实每个实参。
