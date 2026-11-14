@@ -6687,3 +6687,10 @@ Root/Planning已闭实际old=null与模块缺显式索引RO后，单份MavenCent
 Nativefresh12380也MANY访问冲突，最后持久CONTINENTS_BEGIN，1144setter/AREA_END/CHOKE_END在前，334字符全???符号；深入根因未知，warmreuse不是必要前提。0Continue/END/manualsetup；自有OK一次后自然退出，0kill/Steam/截图。新单水域是假设待新实例验证，不能倒写两次FAIL。产品142119源不变，主f70b/NoSite92f4保留。
 
 累计777logical／722complete含历史JSON拒绝／52length／3最终transport／807HTTP／30extra，server/cache/Owner有效成本/净收益null；初始bridgehunk采用在correction前未计，其余tests/build在correction，SDK/Nativecrash/publication未知。Steam0上线／上传，TC036仍PARTIAL。
+
+
+## 2026-11-14：778—780压力配对软件和单水域Native资格分列
+
+[精确记录](https://github.com/XenoAmess/civ6_dev/blob/2e56ba4a6bd964526007ff786463648fc98d65bc/docs/research/baiqi-pressure-water1-native778780-2026-11-14.json)7788145input／6500output、43444.969ms，length整份未读弃用；77910779／3556、29883.262ms和缩窄7804639／5876、33132.814ms均stop／DONE／strictJSON单POST。实际client峰2、778/779共同29.883259秒，累计780logical／724complete含历史JSON拒绝／53length／3最终transport／810HTTP／30extra。779单追加入口为基础，Owner补说明；246行9原方法仅3过6error，缺全局／Env参数／ends和LuaError，query执行两次还吞异常、迭代表键；直接import5TestCases会重复发现，0原测试采用。780共享core／实际日历为基础，原稿旧API认压力T85、False认0，坏结构类型错误，零control丢delta计数且ratio键多错，Owner严格结构后元数据、模式隔离和分布。62相关过含11新，realclock/bridge+fakeUI双Lua与合成算术；builder/player/driver尚85，不授整套T1。
+
+Native独立WATER1成功不追认旧alllandFAIL；静态control人工初始11城／1144可见／2初始移民删除／人口至4／玩家金至100，军队0动作、生产进度0、END0、不授AI效果。原版CanProduce通过不足模组人口／储备门；GameCore没有UI的city:GetBuildQueue，第一次预检在写入前失败，独立确认ledgernil/pop2/gold10后修正。新6be8…存档明确独立冻结，QAgetter仅3位置含1城，不算natural≥12。主334／NoSite存档、产品142119源／ZIP保持。维护cache复用／原生0，未知缓存／server并行／Owner完整修改验证成本／净收益null，TC036PARTIAL。

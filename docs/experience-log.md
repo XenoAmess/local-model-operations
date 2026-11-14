@@ -365,3 +365,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：地块index不能被数组位置替代，隔离夹具变体不降低资格
 
 [776—777](https://github.com/XenoAmess/civ6_dev/blob/cd6eb4585d82252ba6c86feb459ebaf33bf15196/docs/research/baiqi-pressure-water-anchor776777-2026-11-14.json)完整覆盖数据允许乱序，按rows[0]查物理plot0会漏真／认假；先按index验证再计单水。新fixture显式新variant/path，保留旧FAIL/旧MANY规则，变化物理条件不改真实pool≥12／性能预算。桥初始化参数要发布前验证，Begin也核entry元数据完整一致；只压新marker不足以防字段被改。生成声明提供test_module字段不等提供测试，文件路径不能当代码；导入TestCase会被unittest重复发现，应import模块复用工具。Native日志只能定位已持久边界，不能从无符号崩溃直接断定C++根因。
+
+
+### 2026-11-14：同名上下文API须逐层确认，模式标识与统计缺失不能靠声明补足
+
+[778—780](https://github.com/XenoAmess/civ6_dev/blob/2e56ba4a6bd964526007ff786463648fc98d65bc/docs/research/baiqi-pressure-water1-native778780-2026-11-14.json)UI可读city:GetBuildQueue不代表GameCore也可调用；预检先于全部写入并保留独立边界读回，修正需不同意图，不能盲重放。原版CanProduce和业务预算分别核验，人工基线补足不授AI实效。实际回合参数化应贯穿来源／metadata／records，旧API也必须拒新模式；布尔False等于0的语言特性要求精确类型。任何零分母使整体ratioUNKNOWN，同时delta完整计数仍需保留。模型测试代码可能二次执行query或吞异常，必须看实际调用次数和未确定动作状态，HTTP完整不等测试可信。

@@ -1848,3 +1848,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：776—777为HTTP，新增软件不授Native能力
 
 [记录](https://github.com/XenoAmess/civ6_dev/blob/cd6eb4585d82252ba6c86feb459ebaf33bf15196/docs/research/baiqi-pressure-water-anchor776777-2026-11-14.json)canonical1.19.5 Nov14维护successcache复用，新原生生成／工具sessions0。两个完整HTTP候选部分采用，57Owner软件方法与freshNative访问冲突分列，不转为OpenCode原生能力或完整性能通过。
+
+
+### 2026-11-14：778—780仅HTTP，Native不授OpenCode生成
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/2e56ba4a6bd964526007ff786463648fc98d65bc/docs/research/baiqi-pressure-water1-native778780-2026-11-14.json)复用当日本机同用户canonical1.19.5成功维护缓存；原生生成／工具sessions0。HTTP候选部分采用、62软件方法与单水域Native初始状态独立，不把QAgetter或人工准备认作AI／压力通过。
