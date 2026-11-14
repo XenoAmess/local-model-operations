@@ -6671,3 +6671,8 @@ Owner透明trace＋实际builder可选tracegen，12相关方法过含7新：真�
 MANY首次创建在复用NO_SITE实例13172时访问冲突，最后持久Lua只到seed616018722，内部Map写数未知、0Continue／END／人工setup／unitorders。只读WM_GETTEXT取759字符、全???符号，根因未知；不能编成allhills／stamp／reuse／GPU已确定。自有错误框OK一次后PID自然消失，0进程kill；主f70b…和NoSiteReady92f4…崩后字节SHA重新相同。继续freshownedinstance和新tracedaddon的独立尝试，不重放旧世界。
 
 累计775logical／720complete含历史JSON拒绝／52length／3最终transport／805HTTP／30extra；cache/server并行／Owner有效成本／净收益null，Native失败诊断和publication未计。Steam0上线／上传，TC036仍PARTIAL。
+
+
+### 2026-11-14 Quarkus3.40.1.1 old-null：精确source与最小native索引候选
+
+Root/Planning已闭实际old=null与模块缺显式索引RO后，单份MavenCentral精确sources776806B隔离获取（非模型POST、未改m2），输入9整框架Java+22完整props/4POM/bytecode/actual69/log/合同。模型首答606tokens给2行dev native-transport索引及真实org.xar.ck3.control坐标，独立源码审认可最小API候选；非model独立根因。完整流/实际REQUEST字节核通过，138839in606out/TTFT17.823033秒/HTTP21.5849753秒/stop0retry/峰1，当前0。失误FQN/历史index未知，未显式配置不等于已证程序化缺项；rawlastStartIndex与可lazyload wrapper有别，框架明示新增类还由Quarkusprocessors处理。仅未来augmentation/startup候选，尚未授source应用、当前HCR或现场效应，无必要二POST。见[精确来源与候选](evidence/2026-11-14-ck3-quarkus-oldindex-native-transport-candidate.md)。
