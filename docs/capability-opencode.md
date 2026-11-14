@@ -1733,3 +1733,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：743提案和141 NativeFAIL分别记账
 
 [743与141](https://github.com/XenoAmess/civ6_dev/blob/adb351047b0fa17b2542c6ff2c5149122ebbe99e/docs/research/baiqi-stageA141-fail-743-2026-11-14.json)HTTP完整提案不等于实际诊断采用；141正式性能FAIL，不能从Owner语义修正／编译／每日维护推速度。canonical1.19.5维护成功cache复用，新增OpenCode原生生成／工具会话0，未知成本null。
+
+
+### 2026-11-14：744 helper字面采用不授原生生成能力
+
+[744](https://github.com/XenoAmess/civ6_dev/blob/17ed9c9c916e333daee273ffd82113828491b6ae/docs/research/baiqi-named-root744-2026-11-14.json)完整HTTP helper通过12种软件方法并采用，OwnerAdmin构建3方法独立计数、Native未验。Nov14 canonical1.19.5维护成功cache复用；新增OpenCode原生工具／代码生成0，Owner主动成本／净节省／缓存tokens均null。

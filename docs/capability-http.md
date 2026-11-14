@@ -6423,3 +6423,10 @@ A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Fr
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/adb351047b0fa17b2542c6ff2c5149122ebbe99e/docs/research/baiqi-stageA141-fail-743-2026-11-14.json)：正式141313行质量通过，Admin114纯十城p9521ms超过20、Controller144纯十城max428ms超过50（88、allowOrders=true），0诊断错误／drop／坏clock，18通知前证明完整。90Core有新增城市＋消耗移民效果证明仍不授性能或全功能通过，阈值不放宽；91已存／QA撤／自有残留清理。
 
 743六实际Admin函数名唯一可核，但GovernorRescue的两次完整snapshot被混成demand/full、观察器先后范围有冲突，0实际诊断实现／0优化采用；候选只作待核归因笔记。单attempt完整stop／DONE／strictJSON、峰1，tokens／耗时见[共享原值](evidence/2026-11-14-civ6-stageA141-743.json)。累计743／690完整（含历史JSON拒绝）／50length／3transport／773HTTP／30extra。Owner12子项包先撞Lua51局部变量200上限，修为独立作用域和私有恢复闭包；2新／11相关通过、旧六项G/J后缀字节同。末次产品全量2198含1SDK跳过，工具修改未虚称全量重跑；新K仅准备切点不授Native。维护成功cache复用，OpenCode native0／成本null。
+
+
+## 2026-11-14：744命名根完整helper采用与Owner Admin构建
+
+[固定744证据](https://github.com/XenoAmess/civ6_dev/blob/17ed9c9c916e333daee273ffd82113828491b6ae/docs/research/baiqi-named-root744-2026-11-14.json)在Owner事前明确API／保留合同后，完整NewNamedNested字面采用，12种实际canonical profile／child方法原稿及采用文件均过（同12不能加成24），Lua51／53编译。严格Admin.Run或Controller.RunNow标签在factory前校验、记录时绑定；4096共享、nil／false／erroridentity／snapshot／坏clock／drop／退役透传保持，旧helper／K不改。
+
+[Owner新构建器](https://github.com/XenoAmess/civ6_dev/blob/44cd82001c49fb4701a1ee52cef8033b302ab5c5/docs/research/baiqi-admin141-diagnostic-prepared-2026-11-14.json)九局部＋三实际外部runner，13绑定、真实87..89通知前与通知后10秒，3构建／生命周期方法过、97Lua双编译119包，仅准备不授Native。743六实际函数名建议经核验后纳入Owner扩展覆盖，是部分建议采用、不是0影响；0代码／错误理由或范围采用。744只授完整helper，不授Owner builder或瓶颈独立发现。单attempt／stop／DONE／strictJSON峰1，tokens／耗时见[共享原值](evidence/2026-11-14-civ6-named-root744.json)。累计744／691完整（含历史JSON拒绝）／50length／3transport／774HTTP／30extra；维护cache复用，OpenCode native0／成本null，141正式B_plan仍FAIL。
