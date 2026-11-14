@@ -6748,3 +6748,10 @@ Owner接管未读782截断的driver/player，实际T0..max/source142ordinaryonly
 [精确证据](https://github.com/XenoAmess/civ6_dev/blob/4e71c66302205e28511390bc14dc428b63e4b50e/docs/research/baiqi-pressure-many-fullscript-I-2026-11-14.json)788提供既有导出文件的198时钟／396切换采集和analyze_capture实际7..11/close12骨架；stop/DONE/严格JSON，6163/1767tokens，11477.9928ms，TTFT939.0671ms，1POST/峰1，cached=null。Owner补严格driver/build/source142/T6/fixture/package/33上下文/完整普通回调/导出计数校验及p50/p95/max/严格超限分布；模型只交测试计划，0测试代码。原候选实际TAB正确，Owner首次把转义展示误读为字面backslash-t；原错误review保留，ASTliteral码点[9]和真实TSV见证纠正Owner，不得计为模型delimiter错误或修复功劳。私有parser 1正14负header、2阈值边界4非法分布及实际198/396原件检查，0Native查询，再实际analyze_capture通过。
 
 独立Native I精确459aT6、freshSteamoffline/CPU1..8、warm127.789s后正式重载，33context/1201retained/792anchor/14writebucket/0exporterror，16423zero成功聚合、cap4096。五窗并集142.000198/124.001265/154.000282/127.997398/228.997707ms，p50~142/p95=max~229/>1000=0；完整写入2/2/2/2/4，p50=2/p95=max4/>64=0。6军队SKIP/普通END6..11，actual7..12，0END12/civfill/getter/planner/diplo；close12的2写入另列。仅MANY B_turn/N_req PASS，B_delta/NoSite/完整TC036仍待。诊断导出后撤33绑定、save f3ff7537后officialexitonce。模型骨架不能推原生效果或净节时；owner总成本/null。累计至788：788逻辑/730完整/55length/3finaltransport/818HTTP/30extra，之后789独立任务另记不回填。
+
+
+## 2026-11-14：789配对子脚本仅桥守卫字面量采用，定义预检不等于执行
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/e729cd531d823d2e2ddd4e840701c37eba2b80df/docs/research/baiqi-pressure-paired-child789-2026-11-14.json)7876/1890tokens，stop/DONE/严格JSON，13332.4171ms，TTFT1335.0354ms，1POST/峰1。候选pre_guard定义但AST Load计0，声称Executor预检实际未查询；无替换锚点断言、旧动态Lua名、owner active/error/refusal及MP/human/leader保护遗漏。Owner基于实际旧消费者重写适配，仅采用其正确pressurebridge字段字面量；16实际子Lua dualcompile/32实际6与10turn正负预检通过，0Native查询／动作。原候选0测试代码。Owner请求错写不存在的P6PairPressureBuild及旧marker，候选依据所供权威endpoint正确用pressuremarker，Owner输入错分账。Owner首次多行字面量注入Python双引号致语法错误，在子文件生成/Native前终止，改单行后验证，raw保留。
+
+首边已装coldlaunch16888，endpoint初读拒绝，尚无正式END或性能采样；软件不授B_delta。累计789逻辑/731完整/55length/3finaltransport/819HTTP/30extra，缓存/null、Owner完整成本/null、净节时/null。

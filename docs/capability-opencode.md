@@ -1883,3 +1883,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：788／Native I继续分轨
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/4e71c66302205e28511390bc14dc428b63e4b50e/docs/research/baiqi-pressure-many-fullscript-I-2026-11-14.json)788是普通HTTP候选，入口复用同机同用户Nov14成功每日OpenCode缓存；原生工具生成session0。Native I两预算通过不证明OpenCode生成能力。跨本地自然日须重新维护，未追认旧检查。
+
+
+### 2026-11-14：789仍是普通候选生成
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/e729cd531d823d2e2ddd4e840701c37eba2b80df/docs/research/baiqi-pressure-paired-child789-2026-11-14.json)复用Nov14本机本用户成功每日检查；原生OpenCode工具生成session0，不由HTTP候选或Native准备追授能力。
