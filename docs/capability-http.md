@@ -6411,3 +6411,8 @@ A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Fr
 ### 2026-11-14 C6v2四职责首审：3完整、1length整件弃用，实际peak3
 
 61/80/86/78完整Java各2contracts，Ready02全20/17BASE/53union精确核；固定三消息/source600/2400/max3000，短reply目标1400/12edges120words/5边界。4实际POST0retry，1/2/4 stop、3 length整件UNUSED未语义读/续问；reported合1979195in5423out含弃用，3份usable非4份。真峰3重叠160.871822秒，Main真冻前4等待、前3结束后才派，不假峰4。1/2共6疑点均源码不成：虚构ParentProof递归、漏execution6/wholeequals/C5关联；假设recordequals浅或loader静默失效、删guard建议拒。4有限summary0finding；全0modelcode/Test采用。4终态poll通知约晚4min单列，HTTP真51.672748s不混源核耗时；0CTX/cache容量推断。见[proof](evidence/2026-11-14-ck3-c6-v2-prefix-review.md)、[RootSDK](evidence/2026-11-14-ck3-c6-root-sdk-review.md)、[length](evidence/2026-11-14-ck3-c6-parent-cold-length.md)、[Main](evidence/2026-11-14-ck3-c6-main-api-review.md)。
+
+
+## 2026-11-14：742重复完整合同后仍未达实际断言
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/adbc0fb0fb83e22464526cc38144046367a068d8/docs/research/baiqi-model742-city-budget-2026-11-14.json)提供实际ProcessCity／Config／Planner／mock／消费者／735补丁后，要求2项却返3项；原样3Lua错误访问nil全局city，真实对象为lexical locals。0预算断言／0采用，不授产品失败或城市71ms归因。Owner的加载后Config无效说法也被实际C表引用纠正并在公开前撤回。对应范围由Owner接管，不反复重发同任务。完整stop／DONE／strictJSON、单attempt峰1；累计742／689完整（含历史JSON拒绝）／50length／3transport／772HTTP／30extra，具体tokens与耗时见[共享原值](evidence/2026-11-14-civ6-city-budget742.json)。维护cache复用，OpenCode native0／成本null。

@@ -1723,3 +1723,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：738—741 HTTP拒稿与141软件边界
 
 [精确项目反链](https://github.com/XenoAmess/civ6_dev/blob/1affcfe51b15ea72d99cad33736cb7bf5e45d79a/docs/research/baiqi-source141-settler-J738741-2026-11-14.json)四HTTP完整候选均未采用，Owner141全量2198含1SDK跳过、5版本软件边界通过。Nov14 canonical1.19.5维护成功缓存复用，不授OpenCode代码能力；原生工具／生成会话新增0。Native141、实机性能、缓存tokens、Owner主动成本／净节省未确认。
+
+
+### 2026-11-14：742夹具失败不授原生能力
+
+[742](https://github.com/XenoAmess/civ6_dev/blob/adbc0fb0fb83e22464526cc38144046367a068d8/docs/research/baiqi-model742-city-budget-2026-11-14.json)为HTTP完整候选，3setup错误／0采用；canonical1.19.5维护成功cache复用。新增OpenCode原生工具／代码生成会话0，HTTPstop／Owner源码验证／Native实测分记。
