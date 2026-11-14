@@ -6771,3 +6771,8 @@ Owner接管未读782截断的driver/player，实际T0..max/source142ordinaryonly
 7905843/917tokens，8839.2731ms/TTFT2106.8316，函数主体采用（去unusedtime/加doc/变量名）；仅固定DiplomacyActionView print可见性purequery，strictattempt1..3/OSError+EOF/.25等待，格式/ERR/其他异常即时拒，原异常保留、帧不放宽、动作不重试。raw7tests3ERROR（假colonwire），recovery无test_prefix未发现，0原tests采用。Owner9新+5既有endpoint+8既有callback=22unique过，含实际make_callback只读恢复后只ENDonce/unknown0input。初始runner缺旧bareimport路径，14已过，补路径只跑未执行8；Ownerfixture命令错分账。
 
 79110007/1099tokens，10976.1746ms/TTFT2189.3398；正确LSQ/ID/CMDsend但混laterindependentfailure_state与failedreceipt，虚增tag3帧，把只读metadata0当全历史proof，猜visibilitychange和guard非protocol根因，整篇0采用。Owner机器核2wireframes+source顺序，不授server原因或Native性能。两call均stop/DONE/validJSON、2POST/peak2/overlap8.839213s，cached=null/ownerfullcost=null/netsavings=null；累计791/733complete/55length/3finaltransport/821HTTP/30extra。S新cold已start但Native修复效果尚待，不把软件过算实机。
+
+
+### 2026-11-15 E06 EVENT verifier 与已结算发布：两完整首答，0采用
+
+真实1956已APPLIED/1959已SETTLE之后的publication缺installed verifier，Root/Java给完整源码及窄角色；模型A用真API却漏exact EVENT predicate，注释不能约束generic动态family发行，原hunk拒。B复述旧reconcile链且误限READ flush不能越裸1959，未闭source-owned当前cyclefrontier补发布设计；不能把空SWAY当skipVerifier许可。22/49整Java及真实小原件、固定三消息，705425in/1672out、2stop/DONE/VALID/0retry，实峰2重叠108.345504秒/当前0，0code/Test/编测/运行采用，不发第三题或重演旧动作。见[窄verifier候选](evidence/2026-11-15-ck3-event-archived-verifier-lazy-candidate.md)及[已SETTLED发布设计](evidence/2026-11-15-ck3-settled-event-outcome-design.md)。
