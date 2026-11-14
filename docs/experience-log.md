@@ -486,3 +486,10 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 [使者](https://github.com/XenoAmess/civ6_dev/blob/15ac9180457c7bf2ee1d36d5462a812df3bbd246/docs/research/baiqi-original-envoy809-ordinary338-2026-11-15.json)WAIT_AI分类标签不证明CPU/AI持续忙，freshsame-turnactive应读实际blocking；envoy是BR014明确的玩家外交，不能当缺失内政补后台自动化。完整原版callback与库存/目标独立差值比直接猜operation更能闭合窄权限样本，依旧不等于物理点击或全窗口计数。
 
 [810](https://github.com/XenoAmess/civ6_dev/blob/c82fd79dc1875d4b3897185ef6cc0d7b87d6d48e/docs/research/baiqi-population339-diagnosis810-2026-11-15.json)完整字段合同也要按实际列位逐项算，不能把增长倒计时当盈余。Ownerpacket解释词不是引擎因果；灾害aggregate、at-own-center=nil和latestcurrentaffected0各有范围，不强行拼成逐城cause。新人口loss保原件/存档先停止，正食品快照不能排尽intra-turn机制，不以候选自信跳过诊断。
+
+
+### 2026-11-15：被动回调也需生命周期和领域边界
+
+[811](https://github.com/XenoAmess/civ6_dev/blob/37559e16c083a025a8b4e4d19e2d66589cbce562/docs/research/baiqi-passive-population811-power812-2026-11-15.json)Subscribe前真实scope/port必须闭合，callbackcap必须在昂贵读取前、错误不得透出游戏，Add/Remove显式false和throwafterregistration都要记。PARTIAL缺字段不补零或借另一上下文值；UI旧回合/Core新回合不能拼成同步证据。latestCurrentEvent可能已换成别的灾害，事件同窗与累计损失不是逐城cause。
+
+[812](https://github.com/XenoAmess/civ6_dev/blob/37559e16c083a025a8b4e4d19e2d66589cbce562/docs/research/baiqi-passive-population811-power812-2026-11-15.json)同projecthash可跨多个正常完成周期，不把进度回零直接说成随机异常；按真实列核177/0/127/0/75。已供数据的社区损坏与健康港口前置可同时成立，不能用一概无损解释活跃队列，也不能据短时缺电任意抢写合法投入。

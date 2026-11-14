@@ -1963,3 +1963,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：807—810 HTTP与原版游戏输入分轨
 
 [来源](evidence/2026-11-15-civ6-ordinary807-810-envoy-population.json)Nov15同机同用户canonical1.19.5维护缓存复用，0新增OpenCode原生工具session。原版使者由授权TEST_PLAYER处理、后台外交仍禁止；HTTP工具候选/Owner软件/游戏实际结果分开，后到人口归因与修复不由维护通过授信。
+
+
+### 2026-11-15：811—812分轨与实际上下文能力
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/37559e16c083a025a8b4e4d19e2d66589cbce562/docs/research/baiqi-passive-population811-power812-2026-11-15.json)Nov15同机同用户canonical1.19.5维护成功cache复用，新OpenCode原生生成／toolsession0。双POST是普通HTTP并行，不是OpenCode原生任务。实际Core缺接口和Ownerprofile修订不归模型，也不以CLI维护通过补全runtime能力。
