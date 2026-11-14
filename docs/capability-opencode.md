@@ -1828,3 +1828,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：772仍为HTTP候选，软件地图包不授原生效果
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/66715674f9c00bccf4f0a4996daeb3983dcab0d2/docs/research/baiqi-pressure-map-addon772-2026-11-14.json)canonical1.19.5 Nov14日维护成功缓存复用，新增OpenCode原生生成／工具sessions0。HTTP流完整但候选拒绝，Owner生成入口的双Lua合成运行与Native地图生成分列。
+
+
+### 2026-11-14：773维护与HTTP截断／NativeQA分列
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/c829fd9c4e47d91c19916736752e8ef8b4349408/docs/research/baiqi-pressure-nosite-fixture773-2026-11-14.json)canonical1.19.5 Nov14维护成功缓存复用，新增OpenCode原生生成／工具sessions0。HTTPlength整份未读；Owner测试和Civ6 Native夹具几何证书不算OpenCode原生能力，也不算Baiqi AI构建／探索效果。

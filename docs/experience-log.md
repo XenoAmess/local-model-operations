@@ -345,3 +345,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：跨语言打包要验证实际入口与写后字节
 
 [772](https://github.com/XenoAmess/civ6_dev/blob/66715674f9c00bccf4f0a4996daeb3983dcab0d2/docs/research/baiqi-pressure-map-addon772-2026-11-14.json)返回函数的Lua模块必须封闭在函数体内再调用，不能直接拼在等号后；Native无参回调不能靠软件传E掩盖。include真实MapEnums和manifest File子节点要完整。Windows write_text换行会使内存LF摘要与实际CRLF文件不符，写bytes并对写后文件取SHA；不能只assert字典长度。Pytest依赖缺失和候选代码失败分别记，普通无fixture函数可stdlib逐项运行但不虚称pytest已跑。字节摘要与生成入口双版本执行只是软件准备，不授真实世界／AI效果。
+
+
+### 2026-11-14：封闭全图必要几何门，比空推荐列表更强但不等完整功能
+
+[773](https://github.com/XenoAmess/civ6_dev/blob/c829fd9c4e47d91c19916736752e8ef8b4349408/docs/research/baiqi-pressure-nosite-fixture773-2026-11-14.json)人工准备每个非城地块为水，再独立读取真实完整可见世界，能证明当前必要门无候选；空推荐池本身不能。输出来源与人工初始化必须显式，marker/ledger不替代实际地块。写入后的对象逐个读回，城市ID按(owner,id)唯一。实际初始化回合由新世界读回而来，不能由设想T0追认。Native同名上下文应在CMD前停止，优先用唯一父界面持有的明确子对象和已读原版API；不能随便选first context。主保存／自有PID／freshoffline／当前日志加载／API ACK／实际就绪分层，禁止重放不明动作。

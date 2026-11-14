@@ -6630,3 +6630,14 @@ Owner独立实现地图纯几何与Python纯核验，共12方法pass，双Lua51�
 Owner5方法通过，实际生成独立四文件包、XML引用／byteSHA与metadata，加载与GetMapInitData零写、GenerateMap()无参真实ABI在51／53两变体假端口运行；成功和异常均禁止重放，坏输入建目录前拒绝，保护既有／发布路径。另119文件静态control已软件准备，12差异，二者均未安装。发布142源119哈希同，当前334本单元0Native查询／动作；不算AI构建或新压力通过。SDK编辑器调度证明Create第二参为numericplotIndex，普通Core适用性／回读仍未知，0创建；AddProgress成员存在不授签名。
 
 累计772logical／718complete含历史JSON拒绝／51length／3最终transport／802HTTP／30extra。初始SDK／高层prep未计，raw见证在review，5Owner测试和CLIbuild在correction，server并行／cache／Owner有效成本／净收益null。后续Native仍须新主存档、官方退出、freshSteamoffline，零上线／上传。
+
+
+## 2026-11-14：773截断整份弃用，Owner六项与独立Native几何证书
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/c829fd9c4e47d91c19916736752e8ef8b4349408/docs/research/baiqi-pressure-nosite-fixture773-2026-11-14.json)1POST3770input／6500output、37978.328ms、TTFT694.021ms，finishlength／DONE／JSONUNKNOWN，候选内容从未读取／解析／编译／运行，0采用、不拼接重发。Owner只读collector6方法过，Lua51／53真实consumer；全1144几何／可见性前置，最后不可见仍0内容／城市读取，精确私有mapID／尺寸拦正常世界；MANY不赋入池数。首次5过后因新增MANY分支改合成ports补1，最终6过。初始Owner模块在correction前未计成本，不能回填phase或声称独占节省。
+
+新夹具实际T1、白绮10城／埃及1城，Native一次只读采集完整1144可见地块，1133水／11城／0裸陆地；只授Controller必要notWater/notCity几何门无候选，不授自然推荐／性能／MANY>=12。人工11Create＋1144visibility+1不算AI效果，0人口／生产／单位删除移动／外交／END1。普通Core的Create(playerID,numericPlotIndex)实测适用，返回playerID/cityID并逐城读回；双方首城ID65536，跨玩家命名空间不能误判重复。Ready1私有存档295622字节、SHA92f43e9ca5fa38adef7d0e602d50d3e11da6d65f9cfbd6db496292113c8b9aa0，仅本机，不提交存档。计时若后续正式测必须按真实T1／2..6／7，不能改标签。
+
+主334以新f70b50de…存档保存，正式退出后自有16524自然消失，0主地图／军队／文职动作和END334。私有static-control119／12diff和4file地图已安装，新13172实例cold前Steam14904后台新鲜offline0.004468秒、无截图；0上线／上传。实际地图domain可选／自动2major0citystates，MapGen回调与当前加载日志顺序实证后只投自有HWND Esc一次，独立UI/Core读回。
+
+Owner修正均不归模型：Mods同名8/32导致查询在CMD前拦截；g_PlayerParameters误按0索引，实际原版getter取对象，失败均在setter前；新局T1不是假定T0，守卫拦截后读取实际值；首端点漏port在LSQ前失败，LoadScreen timeout不重放游戏动作。累计773logical／718complete含历史JSON拒绝／52length／3最终transport／803HTTP／30extra；server并行／cachedtokens／Owner有效时间／净收益null，TC036仍PARTIAL。
