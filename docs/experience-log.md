@@ -315,3 +315,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：候选穷尽条件与分布统计的预算边界
 
 [761—762](https://github.com/XenoAmess/civ6_dev/blob/febc3cb47481f59b4f77e32bf31906913db16ee5/docs/research/baiqi-plan-distribution761762-2026-11-14.json)：分批搜索只检查失败前缀时不能以支持数0判无合法候选；先冻结池准入、实际访问、便宜过滤、未知及提前退出分母，推荐数量参数不等于已证API上限。新分布字段可用原事实离线补算并逐值核全部旧字段；严格阈值次数不能隐式取代p95预算。浮点构造的测试断言错误应修测试而不舍入产品原值，保原失败及Owner增测，不追授Native或净收益。
+
+
+### 2026-11-14：真实producer schema与Lua点／冒号一致性
+
+[763—764](https://github.com/XenoAmess/civ6_dev/blob/742c9503ac99fd30159c0ff9c66b3f3f9a292aa4/docs/research/baiqi-settlement-census763764-2026-11-14.json)严格验证器如果把实际必有元数据从schema漏掉，负向绿测不等于能消费真producer。Python bool属于int，计数要用exact类型；有限性校验要进入row值路径。Lua module返回factory与测试绑定global、dot／colon、Lua1-based索引都须沿真实消费者核；宽catch捕获self.fail产生无意义绿。Owner接管后保原失败，不追授模型采用；元数据额外只读与无新增推荐／安全判断／游戏动作分开命名。

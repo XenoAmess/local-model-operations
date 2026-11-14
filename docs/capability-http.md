@@ -6578,3 +6578,12 @@ PREP／REVIEW／两段CORRECTION有前置UTC，较早范围规划／helper和之
 762单个统计hunk逐字采用，p50最近秩、严格未舍入>20／>50次数，原p95／max预算不变。原4测试隔离执行3pass1fail（1.0000000000012221精确比1.0），Owner仅改第四测试三处9位近似断言，加稀有50ms不误改p95预算／全排除分类两项；相关21全过。保留原件和失败，未产品舍入。保留原N事实新建报告，全部旧输出字段及原汇总对应字段全等：116Admin p50约2ms、144Controller约1ms，>20各1／>50各0，0新Native／游戏输入。实际压力矩阵仍PARTIAL，不扩写四冻结预算既有通过或旧140／141失败。
 
 阶段UTC保留，Owner总wall含切换、21项测试发生在重算验证标记前；更早准备和发布未知，不冒独占active／净节时。累计762logical／709完整流含历史JSON拒绝／50length／3最终transport／792HTTP／30extra；server并行／KV／cache及Owner有效成本null。
+
+
+## 2026-11-14：763／764观察组件候选失败，Owner接管
+
+[精确项目包](https://github.com/XenoAmess/civ6_dev/blob/742c9503ac99fd30159c0ff9c66b3f3f9a292aa4/docs/research/baiqi-settlement-census763764-2026-11-14.json)含明确Owner设计接口、实际完整SettlementSites／RecruitAllowed与三个调用点。763漏failed=false及回合／城数／计时字段，实际合法producer row拒绝，bool经isinstance(int)混入计数，漏候选池上界；原9测试7pass2errors。764违反DOT API写冒号方法，合法点Record当缺row返回false；adapted colon接受NaN／inf，公开enabled可重启。原11测试10errors（factory未绑定global），剩余1pass捕获自身self.fail，不能算有效见证；0原代码／测试采用，0重投。
+
+Owner接管组件与私有精确源码变换：15新方法／内10既有行为方法通过，实际分批false前缀保unvisited、下次支持替代，推荐／支持读取和军事请求同原版，发令前fresh复查保持。97Lua51／53、119仅Controller差、所有私有改动可精确反向恢复；仅软件尚未Native，TC036仍PARTIAL。冻结实际准入去重池≥12为many，不冒APIcap或全图无法律地点；global_no_legal_site保持null。每次观察新增首尾turn／cities／clock元数据读，Owner初始no additional Native calls措辞太宽，明确只保证不加推荐／支持／指令，输入歧义与独立模型错误分列。
+
+两POST峰2、重叠16.727462s；7636423input／2240output、17764.785ms，7644010／2029、16728.490ms，均1attempt完整stop／DONE／strictJSON。Owner首准备helper SyntaxError保留后在新prep段修正，早期源发现／transform草稿未量，互相重叠phase不作active。累计764logical／711complete含历史JSON拒绝／50length／3最终transport／794HTTP／30extra，cache／server并行／Owneractive／net savingsnull。

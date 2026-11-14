@@ -1798,3 +1798,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：761—762仍属HTTP候选
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/febc3cb47481f59b4f77e32bf31906913db16ee5/docs/research/baiqi-plan-distribution761762-2026-11-14.json)：canonical1.19.5本机Nov14日维护成功缓存复用，OpenCode新增原生生成／工具session0。HTTP源码采用、测试纠正、原事实重算分别授予，维护绿不授OpenCode代码能力。
+
+
+### 2026-11-14：763—764无新增原生代码任务
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/742c9503ac99fd30159c0ff9c66b3f3f9a292aa4/docs/research/baiqi-settlement-census763764-2026-11-14.json)继续普通HTTP候选，两份0采用与Owner接管的软件结果分开。canonical1.19.5本机Nov14成功维护缓存复用，新增OpenCode原生生成／工具sessions0，不从日维护授源码或Native游戏能力。
