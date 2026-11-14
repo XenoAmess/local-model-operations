@@ -1,0 +1,694 @@
+{
+  "schema": "local-model-operations.http-component-review/v1",
+  "date_local": "2026-11-14",
+  "mode_id": "http_candidate",
+  "input": {
+    "scope": "Complete frozen Subject02/Descriptor02/Request01 and independent newprivateArchive01 components. The surrounding v3 Root/Core/Source/Journal cohort is explicitly partial, not reviewed as coherent.",
+    "complete_java_files": 69,
+    "complete_other_files": 17,
+    "full_files": [
+      {
+        "name": "ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "FullJsonTree.java",
+        "bytes": 9196,
+        "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "DecimalTokenNode.java",
+        "bytes": 3400,
+        "sha256": "dcfaa1f41e5dba568e21d61103197827c26704e3e386da48077a8a159812b9df",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "GameGeneration.java",
+        "bytes": 1618,
+        "sha256": "82f827951e6df97e8546bd4f153bc2d1cc8739cd1274f4a1af84d8d627ea96c4",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "G2Source.java",
+        "bytes": 1330,
+        "sha256": "10a3b417bee865653469cf48d204b5db956941771741bcc2afde355c70d3e60c",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "NativeCharacterId.java",
+        "bytes": 1609,
+        "sha256": "55772f0eabad57d336ec9a0ab2c0335aad4996045529cd8b502a85f6a1fb9938",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "PublicRevision.java",
+        "bytes": 1838,
+        "sha256": "4f04d9aa9aee42928b3fc83c9d03e263df85a578070f2030884276f1fe521a38",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "CrossJsDecimalUInt64.java",
+        "bytes": 536,
+        "sha256": "184f3a1935bf6ff40ba674ad61632b9560a9ddd76b244a54e2b74803aaa98f73",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "PythonOnlyUInt64.java",
+        "bytes": 409,
+        "sha256": "78b09afe4d38e2c66aed3cd89f6c5ce951cd36e2c3bc0851e02e2566f8a15b80",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "OpportunityJson.java",
+        "bytes": 7208,
+        "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "DriverJson.java",
+        "bytes": 11237,
+        "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ProposalLifecycle.java",
+        "bytes": 15603,
+        "sha256": "3c154565347db1d227e54ccc336dcadb255be23d6f5a238e4026f95645126603",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "JointBudgetSelector.java",
+        "bytes": 13271,
+        "sha256": "7eafdbf0a1e5dfc9c3ff2a27185d9b51c361576b0292d644c16afbb6fc1b3662",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "CompositeOperatorQuarantineRequest.java",
+        "bytes": 10408,
+        "sha256": "5f768dd4cbdc09a1519b5dbe9ff89bbaad59127364c118afbce574e210a89d89",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ReservedLifeRetirementSubject.java",
+        "bytes": 12659,
+        "sha256": "dc126ff088f2104c102e5d923b35fd0aa1990b2524ff2b8a92ba2024f0e0e552",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "PreparedCleanupSuccessorEvidence.java",
+        "bytes": 18359,
+        "sha256": "dbe410c68de6392dda01303241bbdc5db3a90a8964cefaaf430c89fb08dbabb5",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ActionCommand.java",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ActionCodec.java",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ActionIds.java",
+        "bytes": 3215,
+        "sha256": "3ec3268ab673adb38b84b666ec413ccca27596e1e88c07f24065109b7ecb869b",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "RequestIds.java",
+        "bytes": 1393,
+        "sha256": "0db5fefc4039e4e4445e5c947d041b8eb3cb21de06566e7b7040847b06ec1b0f",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "CommandOrigin.java",
+        "bytes": 5057,
+        "sha256": "3036eb8836c7c4cd76e188d44e1ae664896833a650577d2b0c5aecd6f367ce82",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "GuardEvidence.java",
+        "bytes": 6176,
+        "sha256": "a26fcda93c132568c925090f4717fe1023be4534ce94c74afa7303b4d2a47247",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "OperationKey.java",
+        "bytes": 413,
+        "sha256": "bc21f4c9f71e1964569c1c0218e38cf3c9b5177da99338b28bfa08ddd043ca57",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ActionReceipt.java",
+        "bytes": 5848,
+        "sha256": "dd64077d3b3358f5b34d7b3338aee33897c565bf60b8efd951b0e20a8a462913",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ActionReceiptCodec.java",
+        "bytes": 60717,
+        "sha256": "ce966a1e9e4d69817a023e4db34ec1facd8e87f46e86a0c993e75ade1134f0f5",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ActionState.java",
+        "bytes": 16904,
+        "sha256": "c2dae68947b52d8d5193f731e279ad457e0a27b4880296ef12307073daf78866",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ActionTransitions.java",
+        "bytes": 14813,
+        "sha256": "1537263b690d14d824e9d014531ed883b5b47a0a755fcb9759519eb5e98a22cf",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ActionRecord.java",
+        "bytes": 445,
+        "sha256": "a66f04efe3e9825aff5e3826be052bb687b70bab389486deb3e4bf5125d521e1",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ActionRecordCodec.java",
+        "bytes": 1338,
+        "sha256": "7cae3af6a305e9041f60c66c69d832e64f6f576c57e65e6092120b03840e3e84",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "NativeFreshSnapshotPort.java",
+        "bytes": 10458,
+        "sha256": "c96cf9e1a5e334a1a2b4244275541bcb38f2348ffbd008b64f1b659d27d1dcc2",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "CompositeExecution.java",
+        "bytes": 1035,
+        "sha256": "266b348d31cd942347a7443d5dca85a10c6688c7ec943d5417f008d3da81765a",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ActionPorts.java",
+        "bytes": 23186,
+        "sha256": "8f442da38de05a11daa15c4d8eb700f7c609a7e82d4d8de5ea94c171f2b676a7",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "NativeActionPort.java",
+        "bytes": 11308,
+        "sha256": "ff69d9d5ef6a75c0f5c03e9b83a165a1e5544d4e8f044d3c886bd865a04daa81",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "NativeRequest.java",
+        "bytes": 2170,
+        "sha256": "0030edd3d9987415a4a7cac48157eb7455ef5586098defe7d6b1e9f8b503d83e",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "NativeRequestChronology.java",
+        "bytes": 14185,
+        "sha256": "ec05a0cea8abcf21bc7a6bc26c47c1baaa1dbe45e0e4f878c61616cb549f3c92",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "NativeObservationPort.java",
+        "bytes": 1639,
+        "sha256": "66f33fcee1823e3acf9bd2ff047b953d7de1dc74032a1751aefca47fe62b8d2b",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "NativeWire.java",
+        "bytes": 18430,
+        "sha256": "0c8b499fcaf65e864def0ab4015ac3781ec6c33a70bbf7ee105f450510096e04",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "CompositeActionPort.java",
+        "bytes": 5181,
+        "sha256": "4d36a9b0d06cddfe291ffcb1cc9e2aa0a5ae5a10532fbb603ffef435f4b9ef5e",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "CompositeContinuationToken.java",
+        "bytes": 481,
+        "sha256": "0bf1f6cbc2fce3d395b1fa9a4b8eac2a2ed23fcbce02aa2d66440f66fcec8c4a",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "AdvancePrimitives.java",
+        "bytes": 22378,
+        "sha256": "2580325eeeabfbeb96ef9ab3253830638b38ab1641762f5089568251214ed323",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ClockStatusRead.java",
+        "bytes": 18063,
+        "sha256": "f6d3be5a0eb7adba055c06dbbf5d548dbf2b38ce4d02077e1bcf25f6ab3d255b",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "AdvanceClock.java",
+        "bytes": 39197,
+        "sha256": "35e3f0f8678d8dd1be5305b019e6f0b802146c825ccd08c711c51e60d738cab6",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "AdvanceObservationPort.java",
+        "bytes": 4863,
+        "sha256": "dbeb58bfb6b02fd40f4d6dc41beb1e14b47bc449e9a1753797da988ee9effd99",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "PreparedCleanupEvidence.java",
+        "bytes": 42786,
+        "sha256": "e5eaaa7249c32f662c4ba07c27d75b54f4b79b2814035a970721ff6e6a528909",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "PreparedCleanupNoEffectProof.java",
+        "bytes": 32651,
+        "sha256": "871d5b3ddc2ad495608548d095ab1c4965e12c9dbfa9c3dee2fcf006b1212bf8",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "PostExitCleanupNoEffectProof.java",
+        "bytes": 33571,
+        "sha256": "91780874e76b81c4fb25ab8e2b5bbb0d2aba2f104426a660f3338ffe0cbc5665",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "PreparedCleanupCursor.java",
+        "bytes": 4713,
+        "sha256": "d3aaa2cddc02989252cbf608af3073b3c80d2492090684011528036c993bca80",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "PreparedCleanupAction.java",
+        "bytes": 3457,
+        "sha256": "dbe40c5a575cddd012ac8c06773fb914f3bd4d9a124dbc2dab5f4f757d5210d2",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "PreparedCleanupActionCodec.java",
+        "bytes": 3783,
+        "sha256": "e4d3252bda8d172229c7b44ded969df0d9404aa63d531f953a165e474cb7c35c",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "LifeAdvanceComposite.java",
+        "bytes": 87370,
+        "sha256": "becae7a0bbbcf111b06d117e5a3b2d155021afb77f737bd520b316e73c7006a3",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "LifeAdvanceEvidence.java",
+        "bytes": 31643,
+        "sha256": "4621dce43198b0c4cd8c0ace938a2fcfb907dc3e5487cd7c30717d2473da713f",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "LifePostResumePauseCleanupProof.java",
+        "bytes": 29764,
+        "sha256": "9f40c17deef892fca478603b910e684c83c0453f32afe59dedeceb1fd7eb258b",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "NativeEffectEvidence.java",
+        "bytes": 25459,
+        "sha256": "f1a0bd22c4f179e635554f8c7996ea2290f6a4a18fce738d4a9437a39ee6c490",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ObservationProvenance.java",
+        "bytes": 8409,
+        "sha256": "1b58db19351227e0ff9873adc703bbe845503c2c946262272ac1b9775d912e15",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ObservationProvenanceCodec.java",
+        "bytes": 9758,
+        "sha256": "ff9b0c32bd69650f051e6c62bc39581ae730575aa4a132a35a1094510878083b",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "PlanningReadReceipt.java",
+        "bytes": 6590,
+        "sha256": "cb78eab706c7497a48a7db8f534c892d8f1fe6790fd0fc730750035dea5efd12",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ReadContract.java",
+        "bytes": 28138,
+        "sha256": "293b06cba88a8eda29c73b48f599583dc63234e9ee8f7cb957a1202b5d6a76e8",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "OriginalEvidencePort.java",
+        "bytes": 511,
+        "sha256": "73e24f1db40f2f5f5d296a3b5c2693e344875065c1d92967e8a198ce2b2f6797",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ContinuityState.java",
+        "bytes": 7614,
+        "sha256": "a506aec4e6ea48d199bce0c7037e1d32b1864b14f2af82c7807e243ff3f8d6a7",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ContinuityJson.java",
+        "bytes": 10085,
+        "sha256": "7b5e31679b8be7d7ebfe212cf26180323cb10a9614a8ee8d7e07dc2a662d748d",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "NativeArchiveDataCodec.java",
+        "bytes": 19007,
+        "sha256": "ad56ad889946f0b7c0651c0bd36c0f9d6b5558a7e45aeb95f114e538940f3bb4",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "ArchiveOriginalEvidencePort.java",
+        "bytes": 1038,
+        "sha256": "1e30bb469634e9776c4ba9d47e656d9f79c97c769f5f6bbd22826a155395adae",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 148597,
+        "sha256": "d608934517b272fceb2f67f75c61157490a7ce5d957237ca75084f8b7a0ffecb",
+        "role": "Complete frozen dependency/current API shape or candidate. NewC shape is not historical source-input custody; no authority inferred."
+      },
+      {
+        "name": "PreparedCleanupSuccessorEvidence.java",
+        "bytes": 13463,
+        "sha256": "dc7a3148b33fc848e3826866f8ef9a83ad883f2eb2514a1d8c361e6358dc6895",
+        "role": "Complete explicitly frozen BASE; additiveDescriptor compared without substituting old implementation."
+      },
+      {
+        "name": "CompositeOperatorQuarantineRequest.java",
+        "bytes": 7070,
+        "sha256": "b1218f4c67402a1cba526cdc357fa51bf6570279ea609b10c70de6b3d3bec67b",
+        "role": "Complete NEWreference RequestBASE, not oldselected source provenance."
+      },
+      {
+        "name": "c46d21ec8fef4be5d12c03a582c42ef73a0a9221e0efa287911c2cc10e7d8854.bin",
+        "bytes": 3902,
+        "sha256": "c46d21ec8fef4be5d12c03a582c42ef73a0a9221e0efa287911c2cc10e7d8854",
+        "role": "Actual immutable original v2 metadata3902, old issue/deadline/nonce unchanged."
+      },
+      {
+        "name": "117ae99b509327ed04b4b7ca04e43de1564afeb1805eb063757e5a5073ddf117.bin",
+        "bytes": 7775,
+        "sha256": "117ae99b509327ed04b4b7ca04e43de1564afeb1805eb063757e5a5073ddf117",
+        "role": "Actual retained1940 current parent6 receipt, not a child6 lifecycle or a new decision."
+      },
+      {
+        "name": "cc914fca3a10bcfcd9b9f44e0155cfd61e7c793aeb3b6fcb03a9d3fee0b05d86.bin",
+        "bytes": 7344,
+        "sha256": "cc914fca3a10bcfcd9b9f44e0155cfd61e7c793aeb3b6fcb03a9d3fee0b05d86",
+        "role": "Actual small original original_parent named by original metadata; DATA only, no current authority."
+      },
+      {
+        "name": "b79f11c332572d2b22b95328f3616bfaa375c76160c5fa68ed221641f72ae1e8.bin",
+        "bytes": 2201,
+        "sha256": "b79f11c332572d2b22b95328f3616bfaa375c76160c5fa68ed221641f72ae1e8",
+        "role": "Actual small original command named by original metadata; DATA only, no current authority."
+      },
+      {
+        "name": "81f71d7adc9b700f308024a98ae96efb95ee9c860e8426069f67881ef4b33052.bin",
+        "bytes": 485,
+        "sha256": "81f71d7adc9b700f308024a98ae96efb95ee9c860e8426069f67881ef4b33052",
+        "role": "Actual small original native_prepared named by original metadata; DATA only, no current authority."
+      },
+      {
+        "name": "8a3ccb1431262067daed5c9cbc7559ac4ad3c4bb653f2860825ee806adb9dfb5.bin",
+        "bytes": 2734,
+        "sha256": "8a3ccb1431262067daed5c9cbc7559ac4ad3c4bb653f2860825ee806adb9dfb5",
+        "role": "Actual small original a_terminal named by original metadata; DATA only, no current authority."
+      },
+      {
+        "name": "8e78ab2472a34651e10594aa54ca0af3543a68613d5cc6dea00ecab6be78fa63.bin",
+        "bytes": 3146,
+        "sha256": "8e78ab2472a34651e10594aa54ca0af3543a68613d5cc6dea00ecab6be78fa63",
+        "role": "Actual small original c5_terminal named by original metadata; DATA only, no current authority."
+      },
+      {
+        "name": "4e82d98d78988332cac22cdbdad8e5f1fdff1224d4c004e7ea32124dd3d54e37.bin",
+        "bytes": 3135,
+        "sha256": "4e82d98d78988332cac22cdbdad8e5f1fdff1224d4c004e7ea32124dd3d54e37",
+        "role": "Actual small original authorization named by original metadata; DATA only, no current authority."
+      },
+      {
+        "name": "cceada550198f895c4c006791cf3b972b37620e6d87411ae2912d1a169f63e36.bin",
+        "bytes": 3682,
+        "sha256": "cceada550198f895c4c006791cf3b972b37620e6d87411ae2912d1a169f63e36",
+        "role": "Actual small original a_proof named by original metadata; DATA only, no current authority."
+      },
+      {
+        "name": "c53c9ae4ee0587da4c41f4bd3c3f8b2b750b2af9ec6244bf121d62099d6fa02c.bin",
+        "bytes": 4784,
+        "sha256": "c53c9ae4ee0587da4c41f4bd3c3f8b2b750b2af9ec6244bf121d62099d6fa02c",
+        "role": "Actual small original c5_noeffect_proof named by original metadata; DATA only, no current authority."
+      },
+      {
+        "name": "f42a94b5be9efc2c19d4b01d237b02cda9b09f6527fb38aa03fc070537fd88a8.bin",
+        "bytes": 7382,
+        "sha256": "f42a94b5be9efc2c19d4b01d237b02cda9b09f6527fb38aa03fc070537fd88a8",
+        "role": "Actual canonical original child1, not a new dispatch/Frame/permission."
+      },
+      {
+        "name": "24e7e34f8fa8b8ce52f2dd966ba5fb687caf368ea2ff97d5d74bf8a2fd1d9399.bin",
+        "bytes": 7350,
+        "sha256": "24e7e34f8fa8b8ce52f2dd966ba5fb687caf368ea2ff97d5d74bf8a2fd1d9399",
+        "role": "Actual canonical original child2, not a new dispatch/Frame/permission."
+      },
+      {
+        "name": "76945824decaaea3cf8c0393880c56faff97cf587089cc3508a347f0fb81a690.bin",
+        "bytes": 7879,
+        "sha256": "76945824decaaea3cf8c0393880c56faff97cf587089cc3508a347f0fb81a690",
+        "role": "Actual canonical original child3, not a new dispatch/Frame/permission."
+      },
+      {
+        "name": "SOURCE-READY-SUBJECT-DESCRIPTOR-PARTIAL02.json",
+        "bytes": 6599,
+        "sha256": "32d29a14b92e51aafd0bb8a91dd2927ae31d8beeb8e2cdf3aa7e4757d911e780",
+        "role": "Complete frozen scope/source/caller/output contract, not wholecohort qualification."
+      },
+      {
+        "name": "SOURCE-READY-REQUEST-V3-PARTIAL01.json",
+        "bytes": 6957,
+        "sha256": "aea16274890aa41f2ff987ebd85999935383e084d422403dd2bdc6dcb0e21898",
+        "role": "Complete frozen scope/source/caller/output contract, not wholecohort qualification."
+      },
+      {
+        "name": "SOURCE-READY-ROOT-RAW-DATA-ARCHIVE-PARTIAL01.json",
+        "bytes": 6594,
+        "sha256": "66485b9fa13176cf332daf9ae6da86512010c6f6d1f7399eb1c7d2347c2a1474",
+        "role": "Complete frozen scope/source/caller/output contract, not wholecohort qualification."
+      },
+      {
+        "name": "SOURCE-CONTRACT01.json",
+        "bytes": 4259,
+        "sha256": "2cdf4edc5b7b7591d5f19846ed0ce371c0eb7c5785bc60eb2073bf7bfb48397b",
+        "role": "Complete frozen scope/source/caller/output contract, not wholecohort qualification."
+      }
+    ],
+    "whole_inline_bytes_SHA_checked": true,
+    "actual_named_small_originals": "Parent1940/parent5/preparation3902/command2201/native485/first5/auth/smallproof originals complete; no large Driver/SEM/DLL read or fabricated currentWAL/operator decision.",
+    "phase_boundary": "Administrative UNKNOWN_EFFECT only, no oldNoEffect/NoDispatch/paused-health assertion. Canonical first5 DATA scan does not replay C5 proofs. Actual privateCore/session/currentcompleteWAL/originalparentGuard remain; fullhistory/currentfreshDriver/SEM/Game belongs to later normalController recovery.",
+    "provenance": "Frozen actual55 dependencies and explicitly NEW C API shape distinguished from old Maven source-input custody. No SourceReady status, HTTP or component DTO grants permission.",
+    "unposted_preclosure_versions": "Final direct declaration/phase-scope clarification preceded any HTTP. Entire earlier unposted assembly is compressed and byte-reconstructible with old SHA; final actual REQUEST equals final raw prewire.",
+    "known_input_gap": {
+      "schema": "xar.retirement-v3-postreply-callee-check/v1",
+      "at_utc": "2026-11-14T06:54:12.634289+00:00",
+      "postreply_full_source_read": {
+        "bytes": 6666,
+        "sha256": "3503e15f9a1110007e8c5e9f7400e0ded908c04571b2c583e0c14bb3fce93cb8",
+        "name": "CompositeOperatorQuarantineObservation.java"
+      },
+      "postreply_complete_source_held": {
+        "bytes": 6666,
+        "sha256": "3503e15f9a1110007e8c5e9f7400e0ded908c04571b2c583e0c14bb3fce93cb8",
+        "name": "POSTREPLY-CALLEE-CompositeOperatorQuarantineObservation.java"
+      },
+      "in_frozen_initial_inputs": false,
+      "input_gap": "Complete direct CompositeOperatorQuarantineObservation callee was omitted from the first prefix. Existing whole NativeArchive shows the call, but model was not supplied the callee body. This is an owner input/declaration gap, not credited as an API or semantic fact model read.",
+      "actual_method": "load reads the observation/request material and proof.originalReceipt parent; it does not enumerate C5 child terminals. requireOriginal ties complete parent execution/reservation vector.",
+      "no_backfill_or_second_HTTP": true,
+      "no_old_Maven_source_lineage_claim": true
+    }
+  },
+  "HTTP": {
+    "task": "reserved-retirement-v3-subject-binding-review01",
+    "POST_BEGIN": "2026-11-14T06:46:57.069897+00:00",
+    "END": "2026-11-14T06:48:24.267262+00:00",
+    "attempts": 1,
+    "retries": 0,
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "strict_JSON": {
+      "status": "VALID",
+      "top_level_type": "object",
+      "reason": "COMPLETE_STOP_JSON",
+      "error": null,
+      "offset_units": "Unicode code points",
+      "max_utf8_bytes": 1048576,
+      "semantic_review": "OWNER_REVIEW_REQUIRED"
+    },
+    "headers_ms": 68640.80199995078,
+    "TTFT_content_ms": 68642.75789982639,
+    "total_ms": 87198.08040000498,
+    "usage": {
+      "prompt_tokens": 270810,
+      "completion_tokens": 1157,
+      "total_tokens": 271967
+    },
+    "cached_tokens": null,
+    "request": {
+      "bytes": 1194869,
+      "sha256": "c9edcdc7483b263191091a034b7daf857178802c76a39abf09db0fbba4ff24b5",
+      "preactual_byte_exact": true,
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "max_tokens": 2200,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "network": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      },
+      "name": "REQUEST.json"
+    },
+    "full_source_inline_bytes_SHA_checked": true,
+    "profile": {
+      "name": "source-high-concurrency-direct",
+      "read_seconds": 600,
+      "total_seconds": 2400,
+      "max_transient_attempts": 6
+    },
+    "CONTENT": {
+      "bytes": 3959,
+      "sha256": "c6a8d4da02b015a83f7028b34bea5d4310d9d412b1da8fce9a03e5b4542997db",
+      "name": "ATTEMPT1-CONTENT.txt"
+    },
+    "SSE": {
+      "bytes": 130883,
+      "sha256": "8375334352efb5dce97f4c78ae2fcf1cda6f37aaea6dadaf633494620507d010",
+      "name": "ATTEMPT1-RESPONSE.sse"
+    },
+    "SSE_reconstruction_byte_exact": true,
+    "response_keys": [
+      "findings"
+    ],
+    "listed_findings": 1,
+    "disposition": "FULL_STOP_OWNER_SOURCE_REVIEW_REQUIRED"
+  },
+  "two_HTTP": {
+    "logical_tasks": 2,
+    "actual_POST_attempts": 2,
+    "retries": 0,
+    "usable_stop_responses": 2,
+    "whole_length_unused": 0,
+    "actual_peak_HTTP": 2,
+    "peak2_overlap_seconds": 82.326496,
+    "current_inflight": 0,
+    "reported_input_tokens": 600237,
+    "reported_output_tokens": 1468,
+    "sum_HTTP_ms": 169525.60109994374,
+    "first_BEGIN_to_last_END_seconds": 87.197505,
+    "both_complete_wires_frozen_before_first_POST": true,
+    "aggregate_limit": 8388608,
+    "no_CTX_cache_queue_capacity_ROI_inference": true
+  },
+  "stop_response_count_scope": "Complete stop/DONE/strictJSON transport only, not semantically accepted findings or usable code.",
+  "source_review": {
+    "classification": "VALID_STOP_JSON_SELF_DISPROVING_UNFINISHED_SEMANTIC_FINDING_NO_REACHABLE_COUNTEREXAMPLE",
+    "listed_findings": 1,
+    "confirmed_findings": [],
+    "source_check": "The reply repeatedly claims a defect then computes that evidence prefix, authorization, native request operation, deadline/17-minute finite window, v3 reason/handler/size checks all pass. It ends inside an unfinished textual parent.equals(byId...) claim without a supplied mismatching operand or reachable path. Actual Subject.require puts each canonical action in a byId map and explicitly requires the supplied original parent be present/unchanged; absence/change is intended rejection, not a shown positive false rejection.",
+    "finish_scope": "Strict JSON is VALID and finish=stop/DONE, so this is semantically unsubstantiated/incomplete analysis, not length/partial-stream failure. The1157-token reply exceeds target800 but remains below hard2200. Full original answer is preserved, no continuation.",
+    "component_scope": "No actual currentWAL/installed operator request/current fresh Driver/SEM was invented. Component review does not admit administrative retirement or later Controller recovery.",
+    "adoption": {
+      "confirmed_reachable_findings": 0,
+      "source_hunks": 0,
+      "Test_hunks": 0,
+      "full_cohort_software_Runtime_or_permission_qualification": false
+    }
+  },
+  "adoption": {
+    "confirmed_reachable_findings": 0,
+    "source_hunks": 0,
+    "Test_hunks": 0,
+    "full_cohort_software_Runtime_or_permission_qualification": false
+  },
+  "output_contract": {
+    "target_tokens": 800,
+    "hard_max_tokens": 2200,
+    "max_reachable_findings": 2,
+    "target_met": false
+  },
+  "resources": {
+    "new_independent_aggregate_bytes": 8388608,
+    "phase_limit": 4194304,
+    "fresh_forecast": 1271192905,
+    "engineering_cap": 1610612736,
+    "old_settled_actual_preserved_no_double_release": true
+  },
+  "activity": {
+    "production_Test_write": 0,
+    "JVM_Game_Native_query_GET_ledger_control": 0
+  },
+  "cost_limits": {
+    "early_discovery_labor": "UNKNOWN; no backfilled PREP interval",
+    "HTTP_and_source_review_not_net_labor_benefit": true
+  },
+  "next": "Closed0adoption, no secondPOST/continuation. Real source/code/compile/runtime permissions remain independent and no model review is a recovery gate."
+}

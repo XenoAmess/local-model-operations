@@ -6550,3 +6550,8 @@ Owner只补后续累计758与新E2过期截图发令前拒绝事实，不归候�
 Owner桌面矩形截取虽通过foreground句柄预检，却实际采Steam像素，原因UNKNOWN；图无模式或输入效力、0据图点击／Steam输入，原图metadata留私密，不公开账号。停用配对desktop捕获／旧image Continue，不用PrintWindow。Owner独立实现当前log-before/after前缀和唯一load→UI→ready顺序／mtime，8个纯日志场景过；初载及正式重载两次各一个PostMessage Esc只投指定owned HWND。API返回只记入队，独立新端点／实际85／计时桥资格读回才记录继续样本通过，既不追授原候选也不授通用Windows路由／物理按钮矩阵。正式第三组启用侧仍采样，不授第三匹配组或完整B_delta。
 
 单attempt stop／DONE／strictJSON，6163input／872output、6531.3758ms，新峰1；累计759逻辑／706完整流（含历史JSON拒绝）／50length／3最终transport／789HTTP／30extra。前置phase BEGIN实记、两次CORRECTION分段，但早期事故调查和之后发布未量；wall不作active，cachedtokens／Owner active／net savingsnull。
+
+
+### 2026-11-14 v3行政组件两审：同批peak2、父预约不等于C5、输入缺项分列
+
+Subject02/Descriptor02/Request01与新privateArchive01两完整组件审，A69整Java/B77，各17小原件/合同；wholecohort明确partial，UNKNOWN_EFFECT行政决定不授NoEffect/NoDispatch/健康，first5只DATA不重C5，原parentGuard保而后继fresh恢复另门。两wire冻齐同批POST，600/2400/max2200，各stop/DONE/strictJSON、0retry，合600237in1468out、peak2重叠82.326496秒/current0。A1157out超过800目标但非length，反复自证相等最后无完整可达反例；B两项同因把原parent预约record当C5terminal，requiredguard重开不能授C5递归。Observation完整直接callee首输入漏列，owner输入缺项与model无证推断分开，postreply真source检查不回填/二投；0finding/source/Test采用。完整未POST初装gzip保、actualREQUEST/SSE原字节核。见[Subject](evidence/2026-11-14-ck3-reserved-retirement-v3-subject-review.md)、[Archive](evidence/2026-11-14-ck3-reserved-retirement-v3-archive-review.md)。
