@@ -6587,3 +6587,12 @@ PREP／REVIEW／两段CORRECTION有前置UTC，较早范围规划／helper和之
 Owner接管组件与私有精确源码变换：15新方法／内10既有行为方法通过，实际分批false前缀保unvisited、下次支持替代，推荐／支持读取和军事请求同原版，发令前fresh复查保持。97Lua51／53、119仅Controller差、所有私有改动可精确反向恢复；仅软件尚未Native，TC036仍PARTIAL。冻结实际准入去重池≥12为many，不冒APIcap或全图无法律地点；global_no_legal_site保持null。每次观察新增首尾turn／cities／clock元数据读，Owner初始no additional Native calls措辞太宽，明确只保证不加推荐／支持／指令，输入歧义与独立模型错误分列。
 
 两POST峰2、重叠16.727462s；7636423input／2240output、17764.785ms，7644010／2029、16728.490ms，均1attempt完整stop／DONE／strictJSON。Owner首准备helper SyntaxError保留后在新prep段修正，早期源发现／transform草稿未量，互相重叠phase不作active。累计764logical／711complete含历史JSON拒绝／50length／3最终transport／794HTTP／30extra，cache／server并行／Owneractive／net savingsnull。
+
+
+## 2026-11-14：实际自然池11／10不改阈值，765解析失败接管
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/3ef23a33a16aa8c097e5e34015b2f220cef79cdd/docs/research/baiqi-census142a-frontier765-2026-11-14.json)：Owner763／764接管观察包冷载原十城85，54TEST_PLAYER军队SKIP／普通END85—87各一次，实际到88，两自然SettlementSites池11／10、各访问支持1，第一次接受、第二次留9未访问；0drop／invalid／资格错误。未达预冻many≥12，未穷尽，不能判全图／允许全域无合法地点；不改阈值或冒正式计时预算通过。观察退役、88独立存档、119发布恢复，主334另存新检查点已冷读就绪无诊断对象，0END334，Steam持续offline。该Native合同属于Owner工具运行，不反授前两拒绝候选代码采用。
+
+765首个未写的只读scout/ranger邻接未探明几何查询候选2505input／3462output、21131.902ms、TTFT490.763ms，单次stop／DONE／strictJSON。unsupported continue导致51／53解析均FAIL，0raw runtime tests／code／tests采用；另有GetUnitType数字当名称、迭代器状态丢失、E/global与未供Map.GetIndex接口、revealed方向／目标坐标错误。Owner未明确LEADER_BAIQI字面量与unit_type输出类型，单列输入缺口。Owner接管6方法＋双解析通过，主334只读Native52单位COMPLETE0行，0选择／命令。邻接未探明不等于移动后新视野，实际压力准备效果仍待，0行不授无探索办法或无合法城址。
+
+阶段wall与退出／冷载重叠，6测试在correction段、dualparse在verification；较早发现与发布未知。累计765logical／712complete含历史JSON拒绝／50length／3最终transport／795HTTP／30extra；新POST峰1，cache／Owner有效工时／净节省null。

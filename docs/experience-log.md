@@ -320,3 +320,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：真实producer schema与Lua点／冒号一致性
 
 [763—764](https://github.com/XenoAmess/civ6_dev/blob/742c9503ac99fd30159c0ff9c66b3f3f9a292aa4/docs/research/baiqi-settlement-census763764-2026-11-14.json)严格验证器如果把实际必有元数据从schema漏掉，负向绿测不等于能消费真producer。Python bool属于int，计数要用exact类型；有限性校验要进入row值路径。Lua module返回factory与测试绑定global、dot／colon、Lua1-based索引都须沿真实消费者核；宽catch捕获self.fail产生无意义绿。Owner接管后保原失败，不追授模型采用；元数据额外只读与无新增推荐／安全判断／游戏动作分开命名。
+
+
+### 2026-11-14：未达压力门的数据与fixture设计限制
+
+[实际11／10池](https://github.com/XenoAmess/civ6_dev/blob/3ef23a33a16aa8c097e5e34015b2f220cef79cdd/docs/research/baiqi-census142a-frontier765-2026-11-14.json)紧邻冻结12也不能改成“很多”。已接受提案／失败前缀／未访问分别保留，局部函数没有穷尽就不判无合法地点，诊断2行不授正式性能budget。只读API软件／Native合同能通过而未满足业务夹具准备价值；邻接未探明不衡量未来移动视野，0行不证明没探索办法。Owner设计／输入缺口与模型独立语法／成员／类型错误均记录，真实游戏API不混OpenCode模式。
