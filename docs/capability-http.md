@@ -6406,3 +6406,8 @@ A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Fr
 740原始锚点全唯一，但分析器用未赋值d／重叠替换／浮点版本及字节保持虚称；741破ACK字段和callback合同、漏setup140、bridge未绑定同版本，两者0采用。Owner初次锚点错误口述经原HEAD计数全1纠正并公开，不能归模型错误。Owner端显式140／141源版本与错误版本零发单5方法过；2198全量中2197过1SDK跳过，97Lua51／53／119文件。Native141及正式性能仍待，旧140F性能FAIL不追认。
 
 四次单attempt完整stop／DONE／strictJSON，四原tokens／耗时见[共享证据](evidence/2026-11-14-civ6-J141-738741.json)。738/739实际POST交叠36.164104秒、740/741交叠14.978859秒，各峰2；不据目标12—16造任务或算作实际并发。累计741logical／688完整（含历史JSON拒绝）／50length／3transport／771HTTP／30extra；维护canonical1.19.5成功cache复用，OpenCode native0／cachedtokens与Owner主动成本与净节省null。
+
+
+### 2026-11-14 C6v2四职责首审：3完整、1length整件弃用，实际peak3
+
+61/80/86/78完整Java各2contracts，Ready02全20/17BASE/53union精确核；固定三消息/source600/2400/max3000，短reply目标1400/12edges120words/5边界。4实际POST0retry，1/2/4 stop、3 length整件UNUSED未语义读/续问；reported合1979195in5423out含弃用，3份usable非4份。真峰3重叠160.871822秒，Main真冻前4等待、前3结束后才派，不假峰4。1/2共6疑点均源码不成：虚构ParentProof递归、漏execution6/wholeequals/C5关联；假设recordequals浅或loader静默失效、删guard建议拒。4有限summary0finding；全0modelcode/Test采用。4终态poll通知约晚4min单列，HTTP真51.672748s不混源核耗时；0CTX/cache容量推断。见[proof](evidence/2026-11-14-ck3-c6-v2-prefix-review.md)、[RootSDK](evidence/2026-11-14-ck3-c6-root-sdk-review.md)、[length](evidence/2026-11-14-ck3-c6-parent-cold-length.md)、[Main](evidence/2026-11-14-ck3-c6-main-api-review.md)。
