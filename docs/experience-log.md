@@ -290,3 +290,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：未知签名要能采集且不伪装合格
 
 [756／实际4参](https://github.com/XenoAmess/civ6_dev/blob/a42e3d2533a1cd0ecb27ce2308cfe2683b970fba/docs/research/baiqi-event142-A756-fourargs-2026-11-14.json)：声明形参个数只是消费前缀，不能当作发出数量。新结构错误与unexpectedArity计数可区分未知诊断，但旧invalid不回写、qualified不放宽。未知额外参数仍保留完整argc、最多8项类型／基础值，长文本记录截断前缀与原长度；只存类型会丢掉下一步所需原值。新采集会话保持已尝试输入台账，不能因改诊断重新跳过同单位或重发未知命令。
+
+
+### 2026-11-14：事件缺席和普通结束不能消除未知队列
+
+[142实机](https://github.com/XenoAmess/civ6_dev/blob/9e528974790b16f18e4b3840ad52dcd15d266e9d/docs/research/baiqi-event142B-normal334-757-2026-11-14.json)：实际军队MOVE执行但被动Started未新增，六SKIP事件第四值0也未知语义。以未见事件判断无动作／安全重放不成立。已验证UI GetQueuedDestination实际可返回数字plot index；先核真实返回形状，不把无x/y当队列空。普通END能先处理已有队列而留原回合，也能下一回合仍保留排队目的地；调用返回、实际回合、位置／行动／pending／目的地分别读回。新鲜明确新队列可支撑下一次普通输入，未知动作不得盲重试。

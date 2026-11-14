@@ -6515,3 +6515,14 @@ A69整Java+25小原件/合同，冻结Proof02/Token01/samecall组件+core4/C6成
 [事件A／756精确证据](https://github.com/XenoAmess/civ6_dev/blob/a42e3d2533a1cd0ecb27ce2308cfe2683b970fba/docs/research/baiqi-event142-A756-fourargs-2026-11-14.json)：被动监听后TEST_PLAYER一军队SKIP实际发出4number，前三0／196610／745019656，第四值未采。A invalid1、0error/drop，下一输入前停止，无END；监听已撤，不追认合格。自带消费者声明3形参不证明Native只发3。756四锚点各唯一命中；两新合同×双Lua4检查2过2失败。三个计数分项片段字面采用；第四长文本直接丢失／不留原长度由Owner修为256字节前缀与原长度，基础值前8项有界，不持有不透明对象。保留旧invalid／qualified逻辑及全部10旧方法；新2、相关合计371过。
 
 候选建议unexpectedArity也为0会阻止未知签名诊断，拒绝该调用方建议；新探针仅以结构错误／error/drop0允许继续独立授权输入，未知arity仍单列、不授资格、不改游戏命令许可／阈值。旧A失败／完整原请求保留，新nonce与日志，原军队已尝试表不清。756切点累计756逻辑／703完整流（含历史JSON拒绝）／50length／3最终transport／786HTTP／30extra；单attempt stop／DONE／strictJSON，5387input／887output，36867.1998ms，新增峰1。缓存token／Owner主动成本／净节省null。
+
+
+## 2026-11-14：757错API拒绝与四参数Native边界
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/9e528974790b16f18e4b3840ad52dcd15d266e9d/docs/research/baiqi-event142B-normal334-757-2026-11-14.json)：757在实际333军队阻塞／只读资格探针编写前提出完整JSON，13880input／727output、6519.251ms、1attempt stop／DONE。候选单位API发明、数字类型对字符串、未绑定visibility、错误静态pending方法；只定义局部函数但未调用／打印。静态拒绝、0代码采用／执行，不造原稿运行测试。Owner实际API探针及TEST_PLAYER移动另行完成，不能授全部21阻塞原因或后台军令。
+
+756后续ProbeB Native六不同军队SKIP均四数字`[0,unitID,745019656,0]`，额外值保留实效已验；结构错误／error／drop0，unexpectedArity6、旧invalid6和qualified=false不变，第四值含义UNKNOWN。一个真实军队MOVE没有新增Started事件，所以事件缺席不能证明未执行、不能授权旧ARMED重发；监听已撤。Owner旧nonce333:1在发令前被拒，鲜读后独立序列2..7继续，未清先前SKIP表。
+
+主333两次各自有新鲜理由的无REASON普通END：首段已有13商人／1建造者位置行动变化仍333；六TEST_PLAYER军队移动和12不同军队SKIP各一次，弓箭手部分移动留pending／数字queuedIndex2719，新确认队列后第二次END，原版外交告别Esc一次，独立实际334／11城无人损。334弓箭手仍54,35、pendingtrue，不能把换回合算路线完成；0人工文职，334已存未重载。阶段化过程不能混作后台AI或已闭队列，未授旧恢复／四剩余性能组／完整矩阵。
+
+累计757逻辑／704完整流（含历史JSON拒绝）／50length／3最终transport／787HTTP／30extra；新增峰1。缓存tokens／Owner主动成本／净节省null。
