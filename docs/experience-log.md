@@ -330,3 +330,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：窄几何任务仍需合适输出预算与业务价值边界
 
 [766](https://github.com/XenoAmess/civ6_dev/blob/8d802d141c8b991c52e0683256f146fe7e3f2ec0/docs/research/baiqi-visible-fringe766-2026-11-14.json)固定6000不足实现及完整测试时，length保整次原件不读半稿；不拼接或归语义错。Owner有界图查询软件／Native通过也只证明静态可见状态，0点不等于无探索／合法城址。多次getter的arity／value分开来源，不能拼同次返回证明；不因未达压力门就修改已冻结原试验阈值。
+
+
+### 2026-11-14：参数化日历要关闭全部锚点范围与词法遮蔽
+
+[767—769](https://github.com/XenoAmess/civ6_dev/blob/0922d1da94308789ea379a74b257adb2027f7dcf/docs/research/baiqi-pressure-calendar767769-2026-11-14.json)只改窗口上下界却保留原生事件85..91，会让新日历无锚点；包围函数first与被包装函数首参同名会使旧无参路径也崩。要用实际包装／事件／nil参数港口验证，不能只看prefix字符串。共用固定回合的软件fixture迁移需显式改合成样本标签，不能改实际保存数据。无当前声明的builder.uuid4及正确模式反向期待都要原稿留证。新压力source和实际T与旧预算／旧存档严格隔离，0／11个推荐不证明C++cap或全部合法地点；只有类型或编辑器示例不能自动授普通场景变更。

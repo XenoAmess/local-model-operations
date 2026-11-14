@@ -1813,3 +1813,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：766 HTTP截断与Owner游戏只读分账
 
 [766](https://github.com/XenoAmess/civ6_dev/blob/8d802d141c8b991c52e0683256f146fe7e3f2ec0/docs/research/baiqi-visible-fringe766-2026-11-14.json)canonical1.19.5 Nov14维护成功缓存复用；OpenCode新增原生生成／工具sessions0。HTTP length、Owner5项软件和Native游戏静态几何合同分别记，维护不授代码／游戏效果能力。
+
+
+### 2026-11-14：767—769仍为HTTP候选，新压力工具尚未Native
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/0922d1da94308789ea379a74b257adb2027f7dcf/docs/research/baiqi-pressure-calendar767769-2026-11-14.json)canonical1.19.5 Nov14维护成功缓存复用，新增OpenCode原生生成／工具sessions0。三HTTP生成、Owner纠正、79软件方法／私有包与旧N重算分列；Core类型查询不授创建／普通场景适用性，也不转成OpenCode原生能力。

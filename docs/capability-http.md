@@ -6601,3 +6601,14 @@ Owner接管组件与私有精确源码变换：15新方法／内10既有行为�
 ## 2026-11-14：766有限几何BFS请求length未读弃用
 
 [精确项目包](https://github.com/XenoAmess/civ6_dev/blob/8d802d141c8b991c52e0683256f146fe7e3f2ec0/docs/research/baiqi-visible-fringe766-2026-11-14.json)：新窄任务有完整当前consumer／tests和Owner图距3／64节点／只读API合同。3236input／6000output、33575.648ms、TTFT642.857ms，单次length／DONE，JSON资格UNKNOWN。CONTENT未读／解析／编译／运行／拼接，0代码／测试采用、0重投，不授语义错误或永久能力上限。Owner接管5Lua51方法＋51／53解析过，当前主334已有侦察兵三步静态37节点0未探明的只读合同，0选择／移动／END334。不授其他单位／全图／实际未来视野／合法地点或压力通过；队列arity与value出自两个读也不并成同次证明。累计766logical／712complete／51length／3最终transport／796HTTP／30extra，峰1。前置发现／发布未知，correction含测试和Native、verification仅parse，wall不作active／净收益。
+
+
+## 2026-11-14：767—769压力日历生成，分项采用与真实原稿失败
+
+[精确项目包](https://github.com/XenoAmess/civ6_dev/blob/0922d1da94308789ea379a74b257adb2027f7dcf/docs/research/baiqi-pressure-calendar767769-2026-11-14.json)的新场景计时明确T初始化、实际T+1..T+5、关闭T+6，独立source／schema，旧85原始预算／标签／数据不动，4096／纯十城100／20和50ms不改。三个真实源齐任务POST峰3、共同31.758543秒。7678389input／5258output、43884.377ms，76813093／3290、31758.098ms，7698688／4302、39775.817ms，均1attempt stop／DONE／strictJSON。
+
+767新压力函数116行逐字采用，未用超230约束的289行全稿，旧函数正文原样；原6方法5pass1error为add_pre固定86，Owner改软件样本两回合字段加3方法。768部分代码采用，Owner修实质85..91锚点残留及first下界与实际调用参数遮蔽，原7方法1pass6errors（Fire未定义等），独立source-port还证旧Admin.Run无参比nil、压力211无锚点；原测试0采用，Owner6方法验证真包装。769三个构建hunk原码采用，原4方法2pass2errors：不存在builder.uuid4，另有有效142/T100错预期；换Owner4方法。raw未来依赖按已明示接口与raw768组装，不把字符串绿当Lua日历运行绿。
+
+相关79方法（19新）全过，保留N全部字段和762分布逐值相同／原事实字节未改，119文件／97Lua51+53压力T0私有包、精确逆向恢复、142产品119源哈希相同，未安装／Native新场景。79测试在correction段，verification仅原N与实包；早期发现／高层设计／之后发布未知，重叠wall不冒active。累计769logical／715complete含历史JSON拒绝／51length／3最终transport／799HTTP／30extra，server并行／cachedtokens／Owner有效工时／净节省null。
+
+[前置只读域筛选](https://github.com/XenoAmess/civ6_dev/blob/8a23f1d028c08e0325b49f95157753d5a605b9f0/docs/research/baiqi-recommendation-domain142-2026-11-14.json)无新HTTP：85与210各12／13／12分别返回全11／全3、排序集合相同，六次QAgetter不并入Controller自然样本，不授API硬上限或压力通过。主334已恢复6082…独立保存点，0END／地图修改。CoreCityManager.InitCity为nil，编辑器Create示例和可见性成员类型不等普通场景可执行签名，未调用创建／揭图。继续独立受控夹具。
