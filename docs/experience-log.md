@@ -280,3 +280,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：先确认日志导出是否有顺序语义
 
 [753／142E1](https://github.com/XenoAmess/civ6_dev/blob/061899ea4c61266bb5c169bb4abae78c07aef333/docs/research/baiqi-pair142-E1-cold753-2026-11-14.json)：记录map使用pairs输出，顺序不是时间线，严格比较应校验唯一键／计数／已知包络后对完整多重集比较，不能用set掩盖重复。历史导出只给字段子集就只授该子集。Owner提示哈希笔误须标明真实回执权威、不能改写原请求或把候选正确纠正抹掉。真实跨UI普通时钟完成一侧不等于对照／整组，必须保留原始耗时与外交停留，不提前算净收益。
+
+
+### 2026-11-14：监听绑定异常也可能已经绑定
+
+[754755／142首组](https://github.com/XenoAmess/civ6_dev/blob/0c7640c1d2f05db12b82bb7a1445dd346a913d74/docs/research/baiqi-pair142-C1-event754755-2026-11-14.json)：绑定尝试必须在Add前记；若Add绑定后抛错，只能针对同一自有回调清理一次，不能把subscribed=false当成事实。Remove未知保持未知且停止采集，不重复移除。Lua固定形参加ipairs(varargs)会丢nil尾且伪造argc，真实select数量与有界类型列表应分开；代码编译过仍可能把块内local时间写成nil全局。读实际API消费者后再选探针，不重复已完成阴性读数或凭无待办猜全局队列为空。

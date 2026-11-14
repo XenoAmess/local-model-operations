@@ -6487,3 +6487,14 @@ A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Fr
 753实际任务为后续主333冷兼容合同：九实际域、正确140保护档SHA／重复键／未知数据建议审后留用，无生成代码。Owner提示的错误哈希已显式CORRECTION并提供真实回执，候选实际用正确SHA，未采用笔误。其“账本行顺序有意义”不支持；Owner再查实际J.Validate／Clone／Equal与导出使用pairs、记录按citykey存储，拒绝把行重排当损失。六只读场景过：自比和逆序相等，重复城市／缺城市／未知包络／重复账本头拒绝；只覆盖历史已导出字段，不授未采完整字段等同或142主333Native。
 
 单attempt、stop／DONE／strictJSON，8367.633500ms，27659input／719output；累计753逻辑／700完整流（含历史JSON拒绝）／50length／3最终transport／783HTTP／30extra。缓存token／Owner主动成本／净节省null。
+
+
+## 2026-11-14：完整首组与754755被动事件候选
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/0c7640c1d2f05db12b82bb7a1445dd346a913d74/docs/research/baiqi-pair142-C1-event754755-2026-11-14.json)：142控制侧五段完整、普通END85—89／90停，程序／CPU1—8／三设置哈希同启用；第一组中位差201.999903ms、逐段自身分母比例中位3.552250%。只有5／25匹配段，整体B_delta仍null，不授全TC036。90对照已存、桥／时钟撤、原版退出，自有安静残留312.730195秒后清理，Steam未上线。
+
+754完整但重复477478已完成的读数、误将单位对象方法写成UnitManager静态API，拒绝探针与队列空推断，不重发旧ARMED。Owner从实际WorldTracker／TutorialUIRoot找到声明ownerID/unitID/operationID及同回调Add/Remove源码，仍不授Native实际签名／保存保证。755完整模块返回table.New而非要求函数；仅用适配器测试原函数，16检查4过12失败（8合同×双Lua），时间／回合作用域、nil实参数量、额外参数资格、本地非0过滤、Add异常清理及Remove未知状态均有缺口。0完整函数采用。
+
+Owner独立被动观察器10新增方法（双Lua子场景非20独立方法），相关合计369过；无原游戏回调包装／动作／属性写入，Add未知仅清理自有回调一次、Remove未知保持订阅未知。尚未Native，旧恢复FAIL不解除。先恢复发布包主333冷兼容／事件读回，剩余四组仍按冻结规则待做。
+
+两次各1attempt、stop／DONE／strictJSON、依次新增峰1；累计755逻辑／702完整流（含历史JSON拒绝）／50length／3最终transport／785HTTP／30extra。原值tokens／耗时见[共享JSON](evidence/2026-11-14-civ6-pair142-C1-event754755.json)。缓存token／Owner主动成本／净节省null。

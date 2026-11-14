@@ -1763,3 +1763,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：753部分审阅与Native计时信用独立
 
 [精确证据](https://github.com/XenoAmess/civ6_dev/blob/061899ea4c61266bb5c169bb4abae78c07aef333/docs/research/baiqi-pair142-E1-cold753-2026-11-14.json)：canonical1.19.5每日维护成功缓存复用，OpenCode新原生生成／工具0。HTTP诊断建议、Owner六软件场景、142启用侧真实跨UI五记录分记，不授OpenCode生成／配对性能通过；成本null。
+
+
+### 2026-11-14：754755原稿与Owner事件软件隔离
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/0c7640c1d2f05db12b82bb7a1445dd346a913d74/docs/research/baiqi-pair142-C1-event754755-2026-11-14.json)：canonical1.19.5每日维护成功缓存复用，新增OpenCode原生生成／工具0。完整HTTP、原模块16检查失败、Owner369相关软件与首组Native计时分别记账；未授OpenCode生成、事件Native或恢复修复，成本null。
