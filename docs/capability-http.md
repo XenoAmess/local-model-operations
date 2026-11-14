@@ -6708,3 +6708,8 @@ Native独立WATER1成功不追认旧alllandFAIL；静态control人工初始11城
 [记录](https://github.com/XenoAmess/civ6_dev/blob/208fb78b861acdb510f46a7b49cd3a949ffded3c/docs/research/baiqi-pressure-driver-diagnosis783-2026-11-14.json)7836534input／1491output、11665.221ms、首内容1200.345ms，单POST stop／DONE／strictJSON、实际峰1。输入明确10自然调用每池3，候选写10位置/raw10/visited10；cheap_pass2反写拒绝、同数认缓存/地形原因、未经证实高信心与NO_SITE自然效果均拒，0文字／代码采用。Owner同owned进程已retire/save后T6只QAgetter一次，真实12不同位置、census仍10，不授自然>=12；结果变化否定全程相同但不诊断内部cache/重算。该窄QA已是任务合同要求，不记模型独有收益。
 
 Owner接管未读782截断的driver/player，实际T0..max/source142ordinaryonly，pressureheadersetup/reserve/poll/post/stop、7字段ACKvslegacy4、五段actualT至T5后停。7新+51旧方法过，realprefix/bridge/clock/ordinaryAPI/合成UI，10次软件drivercapture直接消费为25pairedrows，unknownACK/READY/timeoutnoreplay、pending保留、queueblock不补内政。无Nativepressurepair／性能通过；privatechildren与fullscript日历未完。累计783logical／726complete含历史JSON拒绝／54length／3最终transport／813HTTP／30extra，维护cache／原生0，cache/server/Owner完整成本null，产品142119源及主334/NoSite/6be8保存保持，TC036PARTIAL。
+
+
+### 2026-11-14 B77 新one-fresh-Head合同：单首完整body候选
+
+实际B77点为Win32FileID→Session.head→owner第二read，新currentCore270804/e9e合同明确允许同check合1，和旧B76强制保两read的digest题不同。完整33Java+3原件，模型首524out给一次observed后seq→既有identity/digest的具体body；保原前置非IO短路、消息/异常包装、每raw方法前后check、下一check重验，不用entry/exit-only。独立源审支持逻辑，oldanchor多4缩进/new少1行须owner纯空白投影，不授rawexact/其余30类或HCR。193581in/TTFT24.921864秒/HTTP28.0535852秒/stop0retry/峰1当前0；0实际source/Test/编测/运行授信，no第二题。见[B77源与成本](evidence/2026-11-14-ck3-b77-single-fresh-head-body-candidate.md)。
