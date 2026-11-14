@@ -1728,3 +1728,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：742夹具失败不授原生能力
 
 [742](https://github.com/XenoAmess/civ6_dev/blob/adbc0fb0fb83e22464526cc38144046367a068d8/docs/research/baiqi-model742-city-budget-2026-11-14.json)为HTTP完整候选，3setup错误／0采用；canonical1.19.5维护成功cache复用。新增OpenCode原生工具／代码生成会话0，HTTPstop／Owner源码验证／Native实测分记。
+
+
+### 2026-11-14：743提案和141 NativeFAIL分别记账
+
+[743与141](https://github.com/XenoAmess/civ6_dev/blob/adb351047b0fa17b2542c6ff2c5149122ebbe99e/docs/research/baiqi-stageA141-fail-743-2026-11-14.json)HTTP完整提案不等于实际诊断采用；141正式性能FAIL，不能从Owner语义修正／编译／每日维护推速度。canonical1.19.5维护成功cache复用，新增OpenCode原生生成／工具会话0，未知成本null。

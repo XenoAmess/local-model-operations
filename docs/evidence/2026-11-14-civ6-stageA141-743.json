@@ -1,0 +1,60 @@
+{
+  "schema": "shared.civ6.stageA141-743/v1",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/adb351047b0fa17b2542c6ff2c5149122ebbe99e/docs/research/baiqi-stageA141-fail-743-2026-11-14.json",
+  "model743": {
+    "usage": {
+      "prompt_tokens": 18127,
+      "completion_tokens": 513,
+      "total_tokens": 18640
+    },
+    "total_ms": 6194.194599986076,
+    "ttft_ms": 2459.8369000013918,
+    "review": {
+      "complete_stop_done_json": true,
+      "actual_target_checks": [
+        {
+          "function": "Research",
+          "unique_actual_lexical_matches": 1
+        },
+        {
+          "function": "PowerResearchChoice",
+          "unique_actual_lexical_matches": 1
+        },
+        {
+          "function": "GovernorRescue",
+          "unique_actual_lexical_matches": 1
+        },
+        {
+          "function": "Governors",
+          "unique_actual_lexical_matches": 1
+        },
+        {
+          "function": "Religion",
+          "unique_actual_lexical_matches": 1
+        },
+        {
+          "function": "Government",
+          "unique_actual_lexical_matches": 1
+        }
+      ],
+      "adopted_instrumentation_or_optimization": 0,
+      "review": "All six names real. PowerResearchChoice actual sites/path/bridge loops merit measurement, but no causal proof. GovernorRescue snapshots are both full snapshots only after a nonnil first plan, not one demand and one full snapshot. Proposed observer-before-instrumentation requirement conflicts with retaining pre-observer entries. Owner has not implemented Admin attribution yet; scope remains pending."
+    }
+  },
+  "cumulative": {
+    "logical": 743,
+    "complete_streams_including_historical_json_rejection": 690,
+    "length": 50,
+    "final_transport": 3,
+    "http": 773,
+    "extra_attempts": 30,
+    "new_peak": 1
+  },
+  "maintenance": "Nov14 canonical1.19.5 passed cache reused; OpenCode native0",
+  "unknown_costs": {
+    "cached_tokens": null,
+    "owner_active_time": null,
+    "net_savings": null
+  },
+  "limits": "Formal141 313 samples qualityOK but Adminp9521 and Controllermax428 FAIL; source fast-path semantic improvement does not grant Native speed. 743 actualsixnames verified, suggested instrumentation remains unimplemented and reasons/scope need corrections. 12child Lua51 cap failure was Owner diagnostic construction, repaired with2new/11relatedmethods; last productfull2198 includes1SDKskip, no repeatedfullsuite claim."
+}

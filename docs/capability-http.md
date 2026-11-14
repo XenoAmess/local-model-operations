@@ -6416,3 +6416,10 @@ A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Fr
 ## 2026-11-14：742重复完整合同后仍未达实际断言
 
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/adbc0fb0fb83e22464526cc38144046367a068d8/docs/research/baiqi-model742-city-budget-2026-11-14.json)提供实际ProcessCity／Config／Planner／mock／消费者／735补丁后，要求2项却返3项；原样3Lua错误访问nil全局city，真实对象为lexical locals。0预算断言／0采用，不授产品失败或城市71ms归因。Owner的加载后Config无效说法也被实际C表引用纠正并在公开前撤回。对应范围由Owner接管，不反复重发同任务。完整stop／DONE／strictJSON、单attempt峰1；累计742／689完整（含历史JSON拒绝）／50length／3transport／772HTTP／30extra，具体tokens与耗时见[共享原值](evidence/2026-11-14-civ6-city-budget742.json)。维护cache复用，OpenCode native0／成本null。
+
+
+## 2026-11-14：141性能FAIL与743归因提案边界
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/adb351047b0fa17b2542c6ff2c5149122ebbe99e/docs/research/baiqi-stageA141-fail-743-2026-11-14.json)：正式141313行质量通过，Admin114纯十城p9521ms超过20、Controller144纯十城max428ms超过50（88、allowOrders=true），0诊断错误／drop／坏clock，18通知前证明完整。90Core有新增城市＋消耗移民效果证明仍不授性能或全功能通过，阈值不放宽；91已存／QA撤／自有残留清理。
+
+743六实际Admin函数名唯一可核，但GovernorRescue的两次完整snapshot被混成demand/full、观察器先后范围有冲突，0实际诊断实现／0优化采用；候选只作待核归因笔记。单attempt完整stop／DONE／strictJSON、峰1，tokens／耗时见[共享原值](evidence/2026-11-14-civ6-stageA141-743.json)。累计743／690完整（含历史JSON拒绝）／50length／3transport／773HTTP／30extra。Owner12子项包先撞Lua51局部变量200上限，修为独立作用域和私有恢复闭包；2新／11相关通过、旧六项G/J后缀字节同。末次产品全量2198含1SDK跳过，工具修改未虚称全量重跑；新K仅准备切点不授Native。维护成功cache复用，OpenCode native0／成本null。
