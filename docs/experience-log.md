@@ -270,3 +270,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：表名和运行token不能替代来源证据
 
 [749750／N](https://github.com/XenoAmess/civ6_dev/blob/111258bd622dcac7026703cd82b9f1ae272333a8/docs/research/baiqi-stageA142-N749750-2026-11-14.json)：通用本地化表名无法确定资产归属，直接核错误文件路径和实际文本键；路径能指向报错插入者，仍未确定首次重复来源或启动根因。运行token只能确定一次运行，源版本另核实际manifest／buildmode／所有文件哈希和新进程。模型应识别已支持的版本，不为迁移而迁移；旧PID必须换为新的PID／birth／exe三元组。新正式142规划预算通过不追认旧140／141、不扩授全脚本或五组配对。
+
+
+### 2026-11-14：旧玩家消费者也要检查原生动作兜底
+
+[751752／142](https://github.com/XenoAmess/civ6_dev/blob/9d429c2223b60e06aeb17a7c894dc50e403f0718/docs/research/baiqi-allscript142-pair751752-2026-11-14.json)：只在Python层限制child模式还不够，实际旧军队待命Lua尾部可能DoEndTurn。匹配计时只允许最终已确认端点发令，去除该尾路并测试失去选中资格时零动作。函数源码完整／Python编译成功不能替代缺导入、外交插入时机和穷尽循环的行为测试；HTTPstop也不授采用。Owner给错文件名造成模型缺上下文须一起记录。全脚本累计调用与保留行分别记账；1735保留／37509零成功并未突破4096上限。

@@ -6467,3 +6467,14 @@ A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Fr
 749真实本地化归因任务完整，14白绮Language+Tag唯一、错误标签缺席审后留用；BaseGameText表名不证明vanilla/DLC，Owner日志直接提供CurrentClickouts文件路径。重复起源和M启动挂起关系仍未知、无删缓存／文本。750在Owner准备下一全脚本生命周期前看实际消费者：142路径／清单／哈希建议部分使用；拒绝旧PID不变、对已支持142构建器再迁移、版本无关Steam只读查询加142参数。运行token不能作源版本证明。均无产品代码候选采用。
 
 两次各1attempt、stop／DONE／strictJSON，依次真实任务，新增峰1；累计750逻辑／697完整流（含历史拒绝）／50length／3最终transport／780HTTP／30extra。各tokens／耗时见[共享原值](evidence/2026-11-14-civ6-stageA142-N749750.json)，缓存token／Owner主动成本／净节省null。
+
+
+## 2026-11-14：142全脚本与751752普通配对准备
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/9d429c2223b60e06aeb17a7c894dc50e403f0718/docs/research/baiqi-allscript142-pair751752-2026-11-14.json)：33上下文1735保留行／37509测得零耗时成功调用，396切换凭证／198时钟三元校准完整，B_turn五窗443／365／191／188／552ms及整回合写入11／10／19／12／28通过。91已存、33监听撤、原版退出，自有残留等待281.998311秒后满足无窗口／监听／CPU条件才清理。N独立规划预算另有证据，未授配对／全TC036。
+
+751在Owner准备142Native生命周期前提出回调／ACK建议，部分经实际API确认使用；Owner误写当前文件名导致遗漏实际构建器／端点消费者，记录双方限制，不能把未给上下文归候选全责。旧V67命名／回执／桥恢复不能原样复用，旧包装没有其声称的显式版本检查，OnClose未确立，不采用。752完整代码三方法1过／1失败／1错误：缺导入NameError、选择后外交仍SKIP；静态还缺迭代耗尽、发令前凭证与严格数值形状。0完整函数采用；Owner8新／51相关过，实际Lua桥／时钟软件夹具，跨UI实机仍未知。
+
+复用旧待命消费者必须去除DoEndTurn兜底，否则可能在计时桥之外发令；实际Lua5.1／5.3各两场景证实合格只SKIP／不合格零动作，均零END。Executor阶段／token留其上下文，ActionPanel通过共享桥核验，不把软件单运行时当UI全局互通。控制UI不能END就停止，不补内政／UserForced／绕保护。
+
+两次各1attempt，stop／DONE／strictJSON，依次新增峰1；累计752逻辑／699完整流（含历史JSON拒绝）／50length／3最终transport／782HTTP／30extra。耗时tokens见[共享原值](evidence/2026-11-14-civ6-allscript142-pair751752.json)，缓存token／Owner主动成本／净节省null。
