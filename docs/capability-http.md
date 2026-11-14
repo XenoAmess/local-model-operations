@@ -6503,3 +6503,8 @@ Owner独立被动观察器10新增方法（双Lua子场景非20独立方法）�
 ### 2026-11-14 reserved6 两独立审：组件有限空答与first-event误读
 
 A69整Java+25小原件/合同，冻结Proof02/Token01/samecall组件+core4/C6成熟声明，明确非新Root/WAL；B103整Java+24小原件/合同，后到完整coherent17/union55/15BASE及继承/Frame声明，未输入A答案。固定3消息/source600/2400/max2200/目标800；两首stop/DONE/strictJSON、0retry，合1189302in214out。A74tokens仅scope限制、0finding，不授完整proof验证；B两项把switch(old.state)的Reservedfalse误当拒next，遗漏顶部emptyprevious第一事件允许分支及幂等append前return，源码均拒收/0hunk。A39.728s先闭，B准备后131.056s，实际peak1无重叠，不凑峰2；A通知延迟数分钟、B约88s单列，不混HTTP。0source/Test采用，不授NoDispatch/ACK/IDLE/credit/软件/实机；新20M预算独立/旧actual全保。见[组件](evidence/2026-11-14-ck3-reserved6-proof-component-review.md)、[first event](evidence/2026-11-14-ck3-reserved6-first-event-review.md)。
+
+
+### 2026-11-14 NEW-owned Ledger 两完整审：同批peak2、0采用
+
+两完整wire先冻再同批POST，各86整Java+2合同，current55/NEWreference15173f231/candidate15772b84a/tinywhole4/Windows接口和3原测试全给，task重复完整关键method而不截前缀。固定3消息/source600/2400/max2200/目标800；2stop/DONE/strictJSON、0retry，合1305318in293out，实际peak2重叠178.487326秒，当前0HTTP。A42tokens仅3有限正向observations，不授全面验证；B错称NEWreference exact新建ExpectedRef（实际与候选均复用expected），又说optimized verify调exact并要求内部构造计数，源码与行为回归边界不符，0finding/code/Test采用。重复method不能代owner核真；旧selected739b原source谱系NOT_HELD不补造。新Ledger16M独立、旧actual全保；不授软件/装载/Runtime或收益。见[实现](evidence/2026-11-14-ck3-ledger-owned-source-review.md)、[tiny tests](evidence/2026-11-14-ck3-ledger-owned-tiny-tests-review.md)。
