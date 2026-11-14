@@ -325,3 +325,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：未达压力门的数据与fixture设计限制
 
 [实际11／10池](https://github.com/XenoAmess/civ6_dev/blob/3ef23a33a16aa8c097e5e34015b2f220cef79cdd/docs/research/baiqi-census142a-frontier765-2026-11-14.json)紧邻冻结12也不能改成“很多”。已接受提案／失败前缀／未访问分别保留，局部函数没有穷尽就不判无合法地点，诊断2行不授正式性能budget。只读API软件／Native合同能通过而未满足业务夹具准备价值；邻接未探明不衡量未来移动视野，0行不证明没探索办法。Owner设计／输入缺口与模型独立语法／成员／类型错误均记录，真实游戏API不混OpenCode模式。
+
+
+### 2026-11-14：窄几何任务仍需合适输出预算与业务价值边界
+
+[766](https://github.com/XenoAmess/civ6_dev/blob/8d802d141c8b991c52e0683256f146fe7e3f2ec0/docs/research/baiqi-visible-fringe766-2026-11-14.json)固定6000不足实现及完整测试时，length保整次原件不读半稿；不拼接或归语义错。Owner有界图查询软件／Native通过也只证明静态可见状态，0点不等于无探索／合法城址。多次getter的arity／value分开来源，不能拼同次返回证明；不因未达压力门就修改已冻结原试验阈值。

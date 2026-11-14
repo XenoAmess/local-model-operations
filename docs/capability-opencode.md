@@ -1808,3 +1808,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：765仍为HTTP，Native游戏只读另记
 
 [765](https://github.com/XenoAmess/civ6_dev/blob/3ef23a33a16aa8c097e5e34015b2f220cef79cdd/docs/research/baiqi-census142a-frontier765-2026-11-14.json)canonical1.19.5 Nov14维护成功缓存复用，新增OpenCode原生生成／工具sessions0。HTTP解析失败、Owner源码6项软件及实际游戏只读52单位0行分别记，Native游戏API不等于OpenCode native模式，不追授模型能力。
+
+
+### 2026-11-14：766 HTTP截断与Owner游戏只读分账
+
+[766](https://github.com/XenoAmess/civ6_dev/blob/8d802d141c8b991c52e0683256f146fe7e3f2ec0/docs/research/baiqi-visible-fringe766-2026-11-14.json)canonical1.19.5 Nov14维护成功缓存复用；OpenCode新增原生生成／工具sessions0。HTTP length、Owner5项软件和Native游戏静态几何合同分别记，维护不授代码／游戏效果能力。

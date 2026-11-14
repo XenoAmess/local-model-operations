@@ -6596,3 +6596,8 @@ Owner接管组件与私有精确源码变换：15新方法／内10既有行为�
 765首个未写的只读scout/ranger邻接未探明几何查询候选2505input／3462output、21131.902ms、TTFT490.763ms，单次stop／DONE／strictJSON。unsupported continue导致51／53解析均FAIL，0raw runtime tests／code／tests采用；另有GetUnitType数字当名称、迭代器状态丢失、E/global与未供Map.GetIndex接口、revealed方向／目标坐标错误。Owner未明确LEADER_BAIQI字面量与unit_type输出类型，单列输入缺口。Owner接管6方法＋双解析通过，主334只读Native52单位COMPLETE0行，0选择／命令。邻接未探明不等于移动后新视野，实际压力准备效果仍待，0行不授无探索办法或无合法城址。
 
 阶段wall与退出／冷载重叠，6测试在correction段、dualparse在verification；较早发现与发布未知。累计765logical／712complete含历史JSON拒绝／50length／3最终transport／795HTTP／30extra；新POST峰1，cache／Owner有效工时／净节省null。
+
+
+## 2026-11-14：766有限几何BFS请求length未读弃用
+
+[精确项目包](https://github.com/XenoAmess/civ6_dev/blob/8d802d141c8b991c52e0683256f146fe7e3f2ec0/docs/research/baiqi-visible-fringe766-2026-11-14.json)：新窄任务有完整当前consumer／tests和Owner图距3／64节点／只读API合同。3236input／6000output、33575.648ms、TTFT642.857ms，单次length／DONE，JSON资格UNKNOWN。CONTENT未读／解析／编译／运行／拼接，0代码／测试采用、0重投，不授语义错误或永久能力上限。Owner接管5Lua51方法＋51／53解析过，当前主334已有侦察兵三步静态37节点0未探明的只读合同，0选择／移动／END334。不授其他单位／全图／实际未来视野／合法地点或压力通过；队列arity与value出自两个读也不并成同次证明。累计766logical／712complete／51length／3最终transport／796HTTP／30extra，峰1。前置发现／发布未知，correction含测试和Native、verification仅parse，wall不作active／净收益。
