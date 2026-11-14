@@ -1743,3 +1743,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：745746完整HTTP、142软件与141 Native分层
 
 [745746和142](https://github.com/XenoAmess/civ6_dev/blob/e8353103eacb980484806eef137d0351d2c85716/docs/research/baiqi-source142-support-budget745746-2026-11-14.json)完整流不等于采用，原稿失败、Owner合同修正／软件、冻结旧Native版本分别记录；canonical1.19.5维护成功cache复用。新增OpenCode原生生成／工具0，成本null，不授Native142或速度。
+
+
+### 2026-11-14：744 Native接入和747748失败仍不授原生生成
+
+[L与747748](https://github.com/XenoAmess/civ6_dev/blob/20a04e16be3507eacef6f7edcc96aa9f0f0ce05e/docs/research/baiqi-startup-M747748-recovery-2026-11-14.json)完整HTTP helper744通过Owner实际Admin接入后仅授其根关联／身份恢复范围；747／748完整候选均失败0采用，Owner转储／解析另算。每日canonical1.19.5维护成功cache复用，新增OpenCode原生生成／工具0、成本null；无Native142预算或Steam上线信用。

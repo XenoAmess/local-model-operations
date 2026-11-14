@@ -6449,3 +6449,12 @@ A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Fr
 ### 2026-11-14 Frontier 两完整短审：四项不成立，0采用
 
 69/88完整Java、各34非Java含30小cycle-record原件/116873索引、509085候选与496820完整BASE/directFrame；大Driver/SEM/native/stamp仅ref不假读。固定3消息/source600/2400/max2200/目标800，两首均stop/DONE/strictJSON、0retry；合1470244in717out，真峰2重叠211.438937秒，当前0HTTP。A把false拒绝写成accept，忽略单ref64MiB+4先界及load前局部计费；B误将savedHead当前semantic当head80，再凭假设normalizer报兼容退化，均无reachable反例。0finding/code/Test采用，不封技术NO/实际冷恢复绿；postreply完整stamp生产者另pin不回填input。原8/8准备不足仅同16M内改7/9、补完整继承声明后首派，无截源/二投。见[validator](evidence/2026-11-14-ck3-frontier-validator-review.md)、[callers](evidence/2026-11-14-ck3-frontier-callers-review.md)。
+
+
+## 2026-11-14：L实际接入、M启动失败与747／748拒稿
+
+[AdminL固定证据](https://github.com/XenoAmess/civ6_dev/blob/55efc192350044547ccf5097c18b105e4429e748/docs/research/baiqi-admin141-L-2026-11-14.json)82根904行／13身份恢复有Native关联，744完整helper经Owner构建接入实际Admin。根max18／FoodTile8／Flood5ms未重现正式141p9521；仅三诊断窗／82根，不授正式预算、速度或参数／错误Native信用。
+
+[M747748精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/20a04e16be3507eacef6f7edcc96aa9f0f0ce05e/docs/research/baiqi-startup-M747748-recovery-2026-11-14.json)：142M预主界面双LSQ超时／Ghost，0载入／Continue／END／样本，非142游戏通过或功能FAIL。747原稿线程tuple错误原样在dump前失败，并错DLL、旧快照、漏身份／事前凭证，0采用；Owner按微软文档独立普通转储345902字节保忽略目录。748把合法重复UnusedStream0当重复关键流，原样真实dump拒，另有输出路径／覆写／范围歧义问题，0采用。Owner独立有界读133模块34线程，热线程8244采样2秒CPU约2.046875；单PC ntdll位置只作地址映射，明确不是调用栈／原因。Owner关闭守卫最初win32gui缺方法错误在输入前修正；只有自有M窗口普通关闭未处理、保存dump后终止，非静止残留、Steam／他人游戏0动作。
+
+同包N无重装／缓存／代码变更可启动、原85载入一次，仍不授M原因或142预算。两HTTP顺序单attempt／stop／DONE／strictJSON峰1；tokens／耗时／纠错和限制见[共享原值](evidence/2026-11-14-civ6-startup-M747748.json)。累计748／695完整（含历史JSON拒绝）／50length／3transport／778HTTP／30extra，维护cache复用、OpenCode native0／缓存与主动成本净节省null。

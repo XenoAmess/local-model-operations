@@ -260,3 +260,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：空批次续行要检查实际消费者
 
 [745746／Owner142](https://github.com/XenoAmess/civ6_dev/blob/e8353103eacb980484806eef137d0351d2c85716/docs/research/baiqi-source142-support-budget745746-2026-11-14.json)限定函数＋调用前先确认消费者是否处理空结果more；本例Owner误以为会传递，原稿虽返回more仍提前SKIP。预算应基于被测昂贵工作，廉价已变外国地块应过滤后同回调继续；现有oracle发现Owner过度限制后修实现，不改断言。候选新测试不可用Pythonlist冒Lua原生表，也不能用继承旧测试数抵新合同验证。2220含1SDK跳过为软件证据，142仍无Native／速度信用。
+
+
+### 2026-11-14：启动诊断原件和无因果恢复分列
+
+[M747748](https://github.com/XenoAmess/civ6_dev/blob/20a04e16be3507eacef6f7edcc96aa9f0f0ce05e/docs/research/baiqi-startup-M747748-recovery-2026-11-14.json)主界面前挂起的自有实例先保线程与普通dump，转储私密；不能把Ghost焦点不匹配绕成截图或GameCMD权限。合法UnusedStream0允许重复，关键流才要求唯一；单PC映射不冒调用栈或根因。相同产物N恢复不追认M采样，Owner错误也记在真正失败前／后边界，不转嫁模型或计作Steam操作。
