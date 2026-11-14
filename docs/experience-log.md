@@ -295,3 +295,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：事件缺席和普通结束不能消除未知队列
 
 [142实机](https://github.com/XenoAmess/civ6_dev/blob/9e528974790b16f18e4b3840ad52dcd15d266e9d/docs/research/baiqi-event142B-normal334-757-2026-11-14.json)：实际军队MOVE执行但被动Started未新增，六SKIP事件第四值0也未知语义。以未见事件判断无动作／安全重放不成立。已验证UI GetQueuedDestination实际可返回数字plot index；先核真实返回形状，不把无x/y当队列空。普通END能先处理已有队列而留原回合，也能下一回合仍保留排队目的地；调用返回、实际回合、位置／行动／pending／目的地分别读回。新鲜明确新队列可支撑下一次普通输入，未知动作不得盲重试。
+
+
+### 2026-11-14：先追真实生产者，再声称发布器缺检查
+
+[758](https://github.com/XenoAmess/civ6_dev/blob/0788b29ca4e875b2de4b0df39209c58114b0a805/docs/research/baiqi-pair142-group2-model758-2026-11-14.json)收到完整producer/consumer仍把可信材料被篡改假设当实际缺口，且漏掉紧邻的跨记录时间断言。审阅要给当前源码可达的失败路径，核实际上游身份／环境采集与下游保存前置门；离线发证不要求仍有游戏活进程。明确未授物理精度等边界不能改写成伪造输入漏洞。新增阶段BEGIN真实先落盘，但与其它任务交错的wall不能冒充独占active，也不替未量的发布／协调成本。

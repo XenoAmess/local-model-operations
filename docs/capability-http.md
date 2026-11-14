@@ -6526,3 +6526,14 @@ A69整Java+25小原件/合同，冻结Proof02/Token01/samecall组件+core4/C6成
 主333两次各自有新鲜理由的无REASON普通END：首段已有13商人／1建造者位置行动变化仍333；六TEST_PLAYER军队移动和12不同军队SKIP各一次，弓箭手部分移动留pending／数字queuedIndex2719，新确认队列后第二次END，原版外交告别Esc一次，独立实际334／11城无人损。334弓箭手仍54,35、pendingtrue，不能把换回合算路线完成；0人工文职，334已存未重载。阶段化过程不能混作后台AI或已闭队列，未授旧恢复／四剩余性能组／完整矩阵。
 
 累计757逻辑／704完整流（含历史JSON拒绝）／50length／3最终transport／787HTTP／30extra；新增峰1。缓存tokens／Owner主动成本／净节省null。
+
+
+## 2026-11-14：758完整审阅仍漏既有单调门／第二匹配组
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/0788b29ca4e875b2de4b0df39209c58114b0a805/docs/research/baiqi-pair142-group2-model758-2026-11-14.json)：新私有单侧发布整理器首次审，实际生产者／消费者／冻结协议／当前C2产物9份完整输入，要求区分实际事实、可达反例与明示限制，不把可信owner账本当抗篡改安全边界。758三条0采用：两条基线／PID凭证被篡改假设未给真实生产路径，现有producer实际绑定当前PID/birth/EXE/CPU/settings；发布时游戏已退出，不要求活进程。第三条直接误称跨记录不查顺序，遗漏下一行started≥previous ended+10及段内ended≥started。模型自己写实际C2不受影响并不构成验证；静态原文足够拒绝，0新运行测试／代码。物理事件时刻／计时精度等真实未知仍保留。
+
+Owner只补后续累计758与新E2过期截图发令前拒绝事实，不归候选采用。PREP／REVIEW／CORRECTION均在独立前置调用落BEGIN，具体UTC／墙钟见JSON；与Native活动交错、含任务切换，不冒独占主动工时。phase helper创建和之后发布authoring／git等未知，不能据8.053sHTTP反推净节省。
+
+真实142第二组对照→启用五段齐，环境同首组；中位差−28.000116ms／各自分母比例中位−0.371305%。只到2／5组10／25段，整体B_delta仍null；启用11城／对照10城，负中位不是因果提速，保留所有外交停留、不扣除世界差异。
+
+1attempt stop／DONE／strictJSON，16659input／844output、8053.1779ms，新增实际峰1；累计758逻辑／705完整流（含历史JSON拒绝）／50length／3最终transport／788HTTP／30extra。cachedtokens／Owner active／net savingsnull。
