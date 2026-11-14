@@ -6734,3 +6734,10 @@ Owner接管未读782截断的driver/player，实际T0..max/source142ordinaryonly
 [精确记录](https://github.com/XenoAmess/civ6_dev/blob/f22fa79db8d82d3ddee2f08b51307106dab34cc4/docs/research/baiqi-pressure-initial-readiness786787-2026-11-14.json)7863810input/552output、6320.439ms，7876898/2242、15196.280ms，均单POST stop/DONE/strictJSON，峰2共同6.321089秒。786原只读Lua缺bounds/ownership/type/stableend，fake每方33单位打印66而DONE仍0/0；原稿Native0，Owner只取getter/记录结构为基础，先boundedwhole-snapshot再输出，32每方/总11city/严格数值ID所属重复/真实总数/回合稳定，8dualLua假ports正常16行、失败0行，另实际T6读取。787整1implhunk采用，7原测试全过但超过5方法合同且所谓T6实为T0closing6；Owner并为5方法补实际T6/typedcase，与6旧共11过。Owner自写Nonefixture先做None+6错，改directinvalidT调用后11重过，不记模型失败。
 
 实际G同owned进程exact459aT6新载入，human10pop4food2队列1hashMonument，gold125/net5；AI1pop4food2/settlerqueue，gold40/net6；humanwarrior3,4，AI20,22属vanilla不是BaiqiBG军令。完整1144visible水1/城11/裸陆1132复核，G0END/Nativewrites/getter/planner，自有census0calls退休，保护459a/00ee后正式退出一次，残留状态需另检查不假定gone。StageA T6ec78…119/97双编译准备未装，不授性能。累计787logical/729complete含历史JSON拒绝/55length/3最终transport/817HTTP/30extra，维护cache/原生0，cache/server/Owner完整成本null，TC036PARTIAL，Steam0在线/上传/截图，产品142119源及保存点保持。
+
+
+## 2026-11-14：独立MANY规划压力NativeH通过，非新HTTP功劳
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/3d222777b9d1bf2620de5bc2478db5a6dffc48ce/docs/research/baiqi-pressure-many-stageA-H-2026-11-14.json)exact459aT6，实际warm133.371999979秒后正式重载，coldowned18404/freshSteamoffline0.005637秒/CPU1..8，StageA119/oneExecutor/97dualLua。窗7..11、close12，304retained包括Admin140pure10/Controller160pure10及4preanchor完整验证；0drop/invalid/qualification，cap4096/aggregateZeroFalse。Adminp50~1ms/p95~2/max~4/>20=0/>50=0；Controllerp50=0/p95~1/max21.999835968/>20=1/>50=0。保留zero读数不认zeroCPU；冻结p95<=20/max<=50成立，不新增单次20门。6军队SKIP/6普通END6..11独立激活7..12、0END12/civfill/getter/planner/diplo，H存6d9b后Restore/officialexitonce。仅MANY B_plan，B_turn/N_req/B_delta/NoSite性能与完整TC036仍未授。
+
+无新HTTP/OpenCode原生调用，逻辑累计787不变；产品142119/ZIP和main/NoSite/初始保存保持，Steam0上线/截图。前G官方退出后>244秒0窗口/监听/两秒CPU静止、saveSHA复核后只清理exactowned headless残留1次，不假写全程0kill、Steam0操作；H新coldproof分列。首次checkpointprefix含大写A在意图/Native前拒，修lowercase后只saveonce。

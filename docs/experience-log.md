@@ -390,3 +390,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：只读也需有界和诚实总数，基线必须读实际AI状态
 
 [786—787](https://github.com/XenoAmess/civ6_dev/blob/f22fa79db8d82d3ddee2f08b51307106dab34cc4/docs/research/baiqi-pressure-initial-readiness786787-2026-11-14.json)只读候选无界可输出66演员却报告0；先完整有界采集、校验类型/身份/回合，再输出真实总数，失败不能残留似完整前缀。AI的队列/位置来自原版对手，不以初始人工布置的旧值代替当前读回，也不算模组BACKGROUND行为。辅助closinggate也会藏旧85常数，要在Native前找齐；参数名T6的测试可能实际只测T0的closing6，核实每个实参。
+
+
+### 2026-11-14：冻结p95与max分开裁定，阶段通过不提前合并完整验收
+
+[H](https://github.com/XenoAmess/civ6_dev/blob/3d222777b9d1bf2620de5bc2478db5a6dffc48ce/docs/research/baiqi-pressure-many-stageA-H-2026-11-14.json)Controller一次约22ms仍可满足p95<=20/max<=50，必须原值保留并计>20而不临时加逐次20门。preanchor有效记录单列，0读数不等0开销；完整窗口各目标>=100pure10、无丢样/坏钟再授该单项。显式列矩阵其余格未测，继续执行；退出后残留用exactownership/静止/保存验证清理，当前freshSteam离线证明与旧配置分开。

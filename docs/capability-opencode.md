@@ -1873,3 +1873,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：786—787依旧HTTP路径
 
 [记录](https://github.com/XenoAmess/civ6_dev/blob/f22fa79db8d82d3ddee2f08b51307106dab34cc4/docs/research/baiqi-pressure-initial-readiness786787-2026-11-14.json)canonical Nov14 1.19.5成功cache复用，原生生成/工具sessions0。完整HTTP、11软件方法、8port场景、1实际T6snapshot分别记账，不能相互追认或授未运行的性能通过。
+
+
+### 2026-11-14：H性能实机不回授原生生成
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/3d222777b9d1bf2620de5bc2478db5a6dffc48ce/docs/research/baiqi-pressure-many-stageA-H-2026-11-14.json)没有新模型调用，OpenCode原生生成/工具session0。NativeH actualB_plan pass只来自独立游戏证据，不能追认维护cache或HTTP候选具原生工具能力。
