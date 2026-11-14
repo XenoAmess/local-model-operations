@@ -479,3 +479,10 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：嵌套模块与postintent异常边界
 
 [806](https://github.com/XenoAmess/civ6_dev/blob/65fd1893a9c5cd263534a12b99498db8f1e8e220/docs/research/baiqi-ordinary806-main335-queue-completed-2026-11-15.json)源码中直接import的模块不一定导出被它引用的guard函数；应按实际声明层级复用，避免复制owner身份实现。独占意图后的query、raw保存、RETURN验证全部可能失败，应留unknown并保持原BaseException；缺标记也不是重发许可。原API返回、queue到址清空及actual335激活三次独立状态，不能只凭END ACK宣布完成。
+
+
+### 2026-11-15：原版阻塞归属和字段位置要由事实核实
+
+[使者](https://github.com/XenoAmess/civ6_dev/blob/15ac9180457c7bf2ee1d36d5462a812df3bbd246/docs/research/baiqi-original-envoy809-ordinary338-2026-11-15.json)WAIT_AI分类标签不证明CPU/AI持续忙，freshsame-turnactive应读实际blocking；envoy是BR014明确的玩家外交，不能当缺失内政补后台自动化。完整原版callback与库存/目标独立差值比直接猜operation更能闭合窄权限样本，依旧不等于物理点击或全窗口计数。
+
+[810](https://github.com/XenoAmess/civ6_dev/blob/c82fd79dc1875d4b3897185ef6cc0d7b87d6d48e/docs/research/baiqi-population339-diagnosis810-2026-11-15.json)完整字段合同也要按实际列位逐项算，不能把增长倒计时当盈余。Ownerpacket解释词不是引擎因果；灾害aggregate、at-own-center=nil和latestcurrentaffected0各有范围，不强行拼成逐城cause。新人口loss保原件/存档先停止，正食品快照不能排尽intra-turn机制，不以候选自信跳过诊断。
