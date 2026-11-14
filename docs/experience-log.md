@@ -255,3 +255,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：Civ6候选必须对齐实际消费合同
 
 [738—741与Owner141](https://github.com/XenoAmess/civ6_dev/blob/1affcfe51b15ea72d99cad33736cb7bf5e45d79a/docs/research/baiqi-source141-settler-J738741-2026-11-14.json)重复支持检查可用实际Controller方法计数验证，未知Forget后只保留否定proposalID，最终发单仍新鲜。模型给错GameInfo可调用形状、请求记录shape、空测试或额外ACK字段不能授采用；原稿失败与Owner修正分列。Source版本适配不得悄改历史证据。Owner关于锚点的初始猜测也需逐项计数修正（本例全1），不能把负责人错误转嫁候选。四次完整流、实际两组峰2和成本null分别记录；141 Native／性能仍待。
+
+
+### 2026-11-14：空批次续行要检查实际消费者
+
+[745746／Owner142](https://github.com/XenoAmess/civ6_dev/blob/e8353103eacb980484806eef137d0351d2c85716/docs/research/baiqi-source142-support-budget745746-2026-11-14.json)限定函数＋调用前先确认消费者是否处理空结果more；本例Owner误以为会传递，原稿虽返回more仍提前SKIP。预算应基于被测昂贵工作，廉价已变外国地块应过滤后同回调继续；现有oracle发现Owner过度限制后修实现，不改断言。候选新测试不可用Pythonlist冒Lua原生表，也不能用继承旧测试数抵新合同验证。2220含1SDK跳过为软件证据，142仍无Native／速度信用。

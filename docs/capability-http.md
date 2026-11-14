@@ -6435,3 +6435,12 @@ A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Fr
 ### 2026-11-14 StageC 两项独立性能源码审：完整短答，0可采用候选
 
 54/72完整Java、各4非Java，StageC17/union50实际冻结及必要BASE/Frame，非C6；原END1622/日志3907完整入前缀。固定3消息/source600/2400/max2200、目标800tokens。两首请求均stop/DONE/strictJSON/0retry，合1135001in1040out，真峰2重叠157.224221秒；0当前在途。A两候选提出放宽/2 admission+evict和删contentEquals，违反既定边界；其Commit LRU无完整新鲜metadata/identity/失败先序等价，不授可用设计，held parsedCommit已存在。B []仅保必要验证，不能据此给所有纯计算复用技术NO。0finding/code/Test采用，无性能/实机资格；同一新16MiB与旧C6结算分开，旧actual全保。见[CAS](evidence/2026-11-14-ck3-stagec-initial-cas-performance-review.md)、[source/proof](evidence/2026-11-14-ck3-stagec-repeated-proof-performance-review.md)。
+
+
+## 2026-11-14：745／746与真正消费者续行合同
+
+[K固定证据](https://github.com/XenoAmess/civ6_dev/blob/fe3f53703c091b8075c2f4bb2f854ff20c835528/docs/research/baiqi-controller141-K-2026-11-14.json)79根1159行审计过，根105／Settler97／Sites70／Path25，最慢根3次支持；未重现正式428、不授根因或性能。下一745给函数＋一条调用，原4Owner方法2失败2Lua断言错误；Owner事前误以为旧消费者支持空结果more，自身约束漏实际consumerhunk，不能全归模型。745窄分次思路审后修正使用、无完整raw函数字面采用；746原9中7继承旧方法过、2新在Pythonlist→Luaipairs userdata处失败，0新测试采用，不能将7旧过授新oracle。
+
+[Owner142交付与精确反链](https://github.com/XenoAmess/civ6_dev/blob/e8353103eacb980484806eef137d0351d2c85716/docs/research/baiqi-source142-support-budget745746-2026-11-14.json)将昂贵KnownExpansionSupport每回调一次、严格选项先于原生读、已尝试ID、空结果more传到真正调度器；默认Recruit枚举与最终RequestCivilian不改。Owner首全量2219发现廉价外国地块被错误消耗预算的时序回归，修实现／保留旧oracle，再2220中2219过1SDK跳过，4新／87相关移民和6版本边界（新142普通END／capture）过，97Lua双编译／119包。142未安装／Native未验，正运行AdminL冻结141不混授；单支持31＋路径25仍可能超50，旧FAIL保持。
+
+两次单attempt／完整stop／DONE／strictJSON，实际POST交叠10.062363秒、峰2；各tokens／耗时见[共享原值](evidence/2026-11-14-civ6-support-budget745746.json)。累计746／693完整（含历史JSON拒绝）／50length／3transport／776HTTP／30extra。每日维护成功cache复用，OpenCode native0，cachedtokens／Owner主动成本／净节省null。
