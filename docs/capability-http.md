@@ -6873,3 +6873,8 @@ Owner实际后台读Text→Document→Pane→Pane→Window，头部支持Invoke�
 [813](https://github.com/XenoAmess/civ6_dev/blob/21ba8cd99552f46a433f904050ee84044bfbbb7b/docs/research/baiqi-power142-observed340-2026-11-15.json)原诊断整拒，凭空以脚本失败／全部SKIP不合法替代已供正例。26197/1290tokens、12492.5188ms／TTFT3628.8849。Owner实际13SKIP独立读回，另15同格待命；Owner读取漏既有后备哈希的纯读错误单列，不归模型。
 
 [814—815](https://github.com/XenoAmess/civ6_dev/blob/59bf85dce15231f485bcc90c126b964e97d27358/docs/research/baiqi-automatic-repairs342-814-2026-11-15.json)均完整stop/DONE/strictJSON。8145212/4355、27205.9788ms／TTFT837.2083，原稿无durableintent、body重复、CLI前导零／typedplan／owner绑定和异常范围缺，0rawNative；仅部分既有SafePath和读取表达沿用，Owner21隔离场景后实际11军队MOVE逐条到址清队列、两回合56uniqueSKIP，新普通END另读actual341/342，0后台军令或内政补填。8154523/1862、12158.0601ms／TTFT811.7690，Lua51/53均语法失败、API门和Members迭代错等，0采用；Owner19dualLua只读组件待实机，不授人口cause。三个POST各自独立无重叠，实际峰1／当前0；累计815/756complete/56length/3finaltransport/845HTTP/30extra，缓存及Ownerfullcost/净节时null。自动社区修复和重载是OwnerNative效果，不能反向补原候选通过。
+
+
+## 2026-11-15：815后到Native与Owner合同纠正
+
+[815B](https://github.com/XenoAmess/civ6_dev/blob/304d4085c4dd39de2092ffc2366a5b94c1e69783/docs/research/baiqi-population815B-native339-2026-11-15.json)无新HTTP、原候选0采用／0Native保持。Owner原先误给GetEventsForTurn密集数组合同，实际两上下文单14字段record／future nil；Core GetDistricts有而集合Members缺失。首版Native beforeEND即PARTIAL/UNKNOWN、均精确撤三绑定，未推进。新15组件＋24观察器场景均dualLua后，真实一次普通END338、actual339；UI四citycontextKNOWN／0contextErrors，Core四PARTIAL／Membersmissing但historyknown，未借UI字段。两侧各3retained/28seen/25ignored/0callbackerrors/drops，三ownlisteners撤清。Haboob14累计Pop0to3/Tiles7to21已前后读回，但两次人口callback都已总3，仍不授逐城cause。Owner还只给了snapshot包装层而非底层producer，后来才核读；这些输入遗漏不归模型。ENDwrapper旧Core2回执门在意图／Native前失败，修后才唯一END。模型代码语法等独立拒用理由不变。Nativefinish切点累计815/756complete/845HTTP保持，后来816另案；未知成本null。

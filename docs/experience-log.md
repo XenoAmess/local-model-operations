@@ -500,3 +500,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 [342](https://github.com/XenoAmess/civ6_dev/blob/59bf85dce15231f485bcc90c126b964e97d27358/docs/research/baiqi-automatic-repairs342-814-2026-11-15.json)SKIP即时ACK仍ready、后到独立读才确认不可操作；同格军队移位后15个资格false→true，测试玩家可正常处理，后台权限不扩大。新输入应有真实 intervening player work 与独立once namespace，不能重放旧unknownEND。候选代码缺少发令前独占文件时，事后unknown日志无法补防重；rawreturned必须先存后校marker，BaseException含I/O与校验错误。
 
 正式重载保留目标修复／供电／队列，30选定行仅29相等；另一城市surplus10→12、foodstock/pop不变也要保留，不能用目标局部成功授全部全等。Owner发布前all-row断言捕获差异，改窄证据主张；后续原因未知。
+
+
+### 2026-11-15：复数API名称不能替代真实返回形状
+
+[815B](https://github.com/XenoAmess/civ6_dev/blob/304d4085c4dd39de2092ffc2366a5b94c1e69783/docs/research/baiqi-population815B-native339-2026-11-15.json)GetEventsForTurn在已测UI/Core返回单record，名字复数不能支持数组合同；未来nil为本查询无记录，不补零。某集合在UI可Members而Core无，不把上层getter存在当整个链可用。局部缺口应保留PARTIAL并继续独立已知历史。灾害累计前后增量能补证发生窗口，回调已见终值时仍无逐城分配；不要借更多相同重现包装成因果。

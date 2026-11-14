@@ -1973,3 +1973,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：813—815继续分轨
 
 [来源](https://github.com/XenoAmess/civ6_dev/blob/59bf85dce15231f485bcc90c126b964e97d27358/docs/research/baiqi-automatic-repairs342-814-2026-11-15.json)sharedcaller复用Nov15同机同用户canonical1.19.5维护成功缓存，新增OpenCode原生工具session0。三个是普通HTTP候选，Lua双编译／Owner实机操作不计OpenCode原生生成能力。
+
+
+### 2026-11-15：815B游戏上下文不是维护或模型能力
+
+[后到Native](https://github.com/XenoAmess/civ6_dev/blob/304d4085c4dd39de2092ffc2366a5b94c1e69783/docs/research/baiqi-population815B-native339-2026-11-15.json)0新OpenCode原生session／0新维护结论，sharedcaller已有Nov15缓存不补runtime接口。Corecollection缺Members是实机端口事实，Owner原合同错误单列；新增组件／观察器是Owner修订和编测，不转记原候选成功。
