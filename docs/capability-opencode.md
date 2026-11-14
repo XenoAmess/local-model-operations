@@ -1948,3 +1948,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：802—804分轨与维护边界
 
 [来源](https://github.com/XenoAmess/civ6_dev/blob/c21ee3d38bd367f868d8a85ddf91530cd54f34c2/docs/research/baiqi-pressure-N4-invalid-admission804-2026-11-15.json)普通HTTP继续复用Nov15同机同用户1.19.5成功维护缓存，新OpenCode原生工具生成session0。Civ6资源租约包在共享CLI外围含维护阶段，不往HTTP重试内部塞维护或重放游戏。未知中断保留占用，按实际CLI终态/原件核实后显式清理。
+
+
+### 2026-11-15：805／803真实恢复与原生模式分轨
+
+[证据](evidence/2026-11-15-civ6-performance805-restore803.json)继续复用Nov15同机同用户1.19.5成功维护缓存，新增OpenCode原生工具生成session0。普通HTTP报告审阅、Owner工具修正／软件、真实恢复载入分别计，不把维护或HTTPstop当Native生成能力。

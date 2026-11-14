@@ -467,3 +467,10 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：正式采样与模型任务必须双向占用
 
 [804](https://github.com/XenoAmess/civ6_dev/blob/c21ee3d38bd367f868d8a85ddf91530cd54f34c2/docs/research/baiqi-pressure-N4-invalid-admission804-2026-11-15.json)只在调用前看标记不能关闭TOCTOU；正式方先独占标记后查模型租约，模型方建租约后再查正式标记。两个模型可并行；两方都拒绝是安全结果，不要求恰好一方成功。统计竞争临界区同时入场峰值，不能用整段成功次数替代。正常/回滚清理也必须核自己路径/nonce/role，不吞异常或清foreignmarker；未知中断留存直到Owner有终态证据，不能按时间猜stale。正文length未读整弃与宿主调度失误分账，环境无效整侧排除不得择优；判废记录时机写实，不回填完成前。
+
+
+### 2026-11-15：报告歧义应回到实际样本身份与合同
+
+[805](https://github.com/XenoAmess/civ6_dev/blob/c68e59426cf5077d9229fee5cb66d256978be498/docs/research/baiqi-performance142-complete805-2026-11-15.json)须检查canonical side内部label／replacement，不能因文件名沿用原pair编号就猜混入失效侧。可在最终汇总显式映射实际替代ID以改善阅读，同时拒绝虚构数据缺陷；历史阶段PARTIAL是切片，不是后来补全后的额外FAIL门。其他未验功能／规则集不无条件变成单项性能合同门。
+
+[803恢复](https://github.com/XenoAmess/civ6_dev/blob/ab76be4d279c5aa7ba02610153d6f211c1cab374/docs/research/baiqi-ordinary142-main334-restored803-2026-11-15.json)真实官方save表Name用stem，候选文件名正确不保证API参数正确；raw false回执先存再判、异常不重放。端点未就绪就调用依赖helper是Owner编排错，本次偶然在intent前失败不证明可忽略门。命令ACK／独立世界ready／queued军队实际执行仍三层分列。

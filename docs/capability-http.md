@@ -6840,3 +6840,10 @@ Owner实际后台读Text→Document→Pane→Pane→Window，头部支持Invoke�
 [精确来源](https://github.com/XenoAmess/civ6_dev/blob/c21ee3d38bd367f868d8a85ddf91530cd54f34c2/docs/research/baiqi-pressure-N4-invalid-admission804-2026-11-15.json)。802为10007/4300tokens、25716.2636ms、TTFT1647.6784，length整份未读，extractor在CONTENT读取前assert停止，0采用。803缩为复用成熟校验后8091/2135、14336.4320ms/TTFT1391.4379、stop/DONE/strictJSON，候选本切点未审；Owner却在Native正式4E期间POST，整侧五段明确拒绝并保原值。判废持久化时capture已COMPLETE，不冒称完成前；决定未依据最终耗时，后续才展示数值。部署/采样编排失误不能归模型传输或作为代码正确性结论。
 
 804为4393/2093、12725.1132ms/TTFT767.5561、stop/DONE/JSON有效，在全部Native停止后新真实修复任务。原子文件/双检查/异常保留骨架部分采用；raw正常/回滚直接unlink且吞cleanupOSError、缺父目录、scanerror不回滚、忽略非JSON活动，0原样安全清理采用。原11方法4错误；race错用成功调用总数而非同时入场峰值，本次碰巧过不授互斥。Owner新增路径/nonce/role核验、失败留存与scanfailclosed，45方法过含24轮线程竞争、实际负向子CLI、旧正式marker与模型并存时0Native查询；软件不授硬件或Native拒绝实测。Civ6适配器只包共享CLI/每日维护/HTTP，不另实现SSE或改参数；正式失败不自动清标记，未知模型子进程中断不自动释放，Owner先对账。累计804/745complete/56length/3finaltransport/834HTTP/30extra，缓存/Ownerfullcost/netsavingsnull。
+
+
+## 2026-11-15：805最终报告复核与803后到采用
+
+[805来源](https://github.com/XenoAmess/civ6_dev/blob/c68e59426cf5077d9229fee5cb66d256978be498/docs/research/baiqi-performance142-complete805-2026-11-15.json)，28787/2622tokens、19596.8292ms/TTFT3885.1804，stop/DONE/strictJSON、1POST，无正式采样重叠。模型八格数值确认只作审阅笔记，0代码／测试；CRITICAL来源歧义被实际canonical side的R4label/replacement字段消解，最终汇总仍显式映射。模型把其他功能／未测规则集当TC036门、HIGH但requiredactionNone等措辞拒绝；Owner按真实合同授已测环境TC036，不授全40项。HTTP读选定汇总非独立raw覆盖审计，历史PARTIAL不覆盖后续全证据，也不回写历史。
+
+[803后到采用／恢复](https://github.com/XenoAmess/civ6_dev/blob/ab76be4d279c5aa7ba02610153d6f211c1cab374/docs/research/baiqi-ordinary142-main334-restored803-2026-11-15.json)与804未审切点分开：紧凑绑定部分采用，Owner修Name stem、Lua编译、typedfiniteidentity／CLI、returned先保存及只读时间戳；4双Lua／8守卫过，实际普通119全匹配、一正式Load／一ownedHWNDEscape、334／11ready，军队原queue仍在且零新END334。Owner曾在端点未ready后仍调用loadhelper，缺Lua.log在intent/Native前拒绝，随后资格重取才实际一次load；不造重试游戏动作。R4替代侧退出额外门3情景过。累计805/746complete/56length/3finaltransport/835HTTP/30extra，缓存／Ownerfullcost／净节时null。
