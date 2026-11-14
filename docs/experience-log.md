@@ -300,3 +300,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：先追真实生产者，再声称发布器缺检查
 
 [758](https://github.com/XenoAmess/civ6_dev/blob/0788b29ca4e875b2de4b0df39209c58114b0a805/docs/research/baiqi-pair142-group2-model758-2026-11-14.json)收到完整producer/consumer仍把可信材料被篡改假设当实际缺口，且漏掉紧邻的跨记录时间断言。审阅要给当前源码可达的失败路径，核实际上游身份／环境采集与下游保存前置门；离线发证不要求仍有游戏活进程。明确未授物理精度等边界不能改写成伪造输入漏洞。新增阶段BEGIN真实先落盘，但与其它任务交错的wall不能冒充独占active，也不替未量的发布／协调成本。
+
+
+### 2026-11-14：前景句柄不等于之后桌面像素的归属
+
+[759实际事件](https://github.com/XenoAmess/civ6_dev/blob/449e4adcd32284c668649ddb33321eeb9d391eed/docs/research/baiqi-targeted-continue759-2026-11-14.json)中，foreground PID/HWND检查通过但矩形ImageGrab像素属于另一个应用；原因未立，不能凭预检metadata授游戏视觉或Steam模式。0据图输入，停止相应desktop路径。使用原版已有输入入口也须当前会话资格、独占尝试和实际结果独立读回；定向PostMessage成功只是入队。新log前缀冻结＋增量顺序防止旧ready标记冒充当前load，未知前缀／重复／缺项拒绝，不能因辅助工具错误重放load或未知游戏动作。

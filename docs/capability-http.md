@@ -6542,3 +6542,11 @@ Owner只补后续累计758与新E2过期截图发令前拒绝事实，不归候�
 ### 2026-11-14 Driver 同call两设计审：完整源同批peak2、0完整设计采用
 
 两真实互补设计任务先冻两完整wire再同批POST：A54整Java+6合同，B62+6；相关完整组件和直接声明，actual readerfix/NEWshape/future encoder分列，不把C路径冒Maven谱系。固定三消息/600-2400/max2200/目标800，各stop/DONE/strictJSON、0retry，合696164in576out，actualpeak2重叠95.274184秒，当前0。A重复同一工厂两条，现7参Known canonical仍encode/hash，未闭private one-use/provenance；B两泛helper未闭自有strict parser来源、fresh原件和首错顺序，既有typedReader先newRawJson协议界不等同原full-material入口。0完整设计/source/Test采用；不封私域复用technicalNO、不以record identity授深不可变。既有encoder独立测量的tiny局部收益不解释21min全history，真实未载保持。见[Known编码设计](evidence/2026-11-14-ck3-known-samecall-encode-design.md)、[Reader解码设计](evidence/2026-11-14-ck3-reader-same-originals-decode-design.md)。
+
+## 2026-11-14：759缺导入／日志资格拒绝，Owner定向继续分读
+
+[项目精确证据](https://github.com/XenoAmess/civ6_dev/blob/449e4adcd32284c668649ddb33321eeb9d391eed/docs/research/baiqi-targeted-continue759-2026-11-14.json)：真实Owner取图错误后，在新输入实现前给原版完整LoadScreen／pywin32实际API docs及三个旧helper，要求只定向owned HWND、当前load日志顺序mtime／唯一性、全新凭证且未知不重发。759完整候选却缺win32con导入、只查子串、未绑当前launch/指定HWND、复用旧Continue凭证，且输入前写QUEUED，0原稿采用／执行／运行测试。Owner未给实际当前loader与health日志路径producer，错误路径／空格TAB匹配部分上下文缺口独立记账，不全归模型。
+
+Owner桌面矩形截取虽通过foreground句柄预检，却实际采Steam像素，原因UNKNOWN；图无模式或输入效力、0据图点击／Steam输入，原图metadata留私密，不公开账号。停用配对desktop捕获／旧image Continue，不用PrintWindow。Owner独立实现当前log-before/after前缀和唯一load→UI→ready顺序／mtime，8个纯日志场景过；初载及正式重载两次各一个PostMessage Esc只投指定owned HWND。API返回只记入队，独立新端点／实际85／计时桥资格读回才记录继续样本通过，既不追授原候选也不授通用Windows路由／物理按钮矩阵。正式第三组启用侧仍采样，不授第三匹配组或完整B_delta。
+
+单attempt stop／DONE／strictJSON，6163input／872output、6531.3758ms，新峰1；累计759逻辑／706完整流（含历史JSON拒绝）／50length／3最终transport／789HTTP／30extra。前置phase BEGIN实记、两次CORRECTION分段，但早期事故调查和之后发布未量；wall不作active，cachedtokens／Owner active／net savingsnull。
