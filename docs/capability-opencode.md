@@ -1788,3 +1788,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：759输入候选与Owner Native结果分离
 
 [759](https://github.com/XenoAmess/civ6_dev/blob/449e4adcd32284c668649ddb33321eeb9d391eed/docs/research/baiqi-targeted-continue759-2026-11-14.json)仍HTTP三消息，canonical1.19.5 Nov14成功缓存复用，OpenCode新原生生成／工具0。取图边界Owner纠正、8纯log场景与2实际继续读回不反推OpenCode或被拒原稿能力；完整功能与性能矩阵未因此通过。
+
+
+### 2026-11-14：760组合性能审阅与正式预算范围
+
+[760](https://github.com/XenoAmess/civ6_dev/blob/2d9f3569adc5995c35b8fdd03197b1c9aa382166/docs/research/baiqi-performance142-frozen760-2026-11-14.json)是HTTP候选；canonical1.19.5 Nov14成功缓存复用，OpenCode新原生生成／工具0。四预算在限定夹具Native通过、Owner范围纠正和模型部分审阅分列，不追授OpenCode或完整TC036／全功能／净收益。

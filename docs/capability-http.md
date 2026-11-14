@@ -6560,3 +6560,12 @@ Subject02/Descriptor02/Request01与新privateArchive01两完整组件审，A69�
 ### 2026-11-14 Final v3四独立完整审：真实peak4、8listed0finding、回调与私producer前序必须核
 
 最终Ready02 coherent13全供各角色，A89/B94/C91/D93整Java，各15合同/小原件，角色BASE完整；01 checkedsupplier两错由owner预先修，不冒model发现。四wire先冻齐同批POST，600/2400/max2200/目标800；4stop/DONE/strictJSON、0retry，3015768in1988out，真实peak4重叠306.268305秒、当前0。A漏Entry先retire与Core10m/outer min；B两None正向observations不计finding且preappend不可达说法不精确；C同method122/131已有vector/body检查，完整Source callback另核；D漏privatecontext完整bytes等式与full details持久/历史验窗。8listed0可达finding/source/Test采用。C缺具体canonicalJournal实现的有限input事实与已供Bootstrap/NativeVerifier/Observation分列，不用模型未见反推输入缺/不借B上下文补授C。32M全旧actual保，不授serverctx/cache/容量或实际控制/恢复/性能。见[1](evidence/2026-11-14-ck3-v3-final-main-window-review.md), [2](evidence/2026-11-14-ck3-v3-final-core-scope-review.md), [3](evidence/2026-11-14-ck3-v3-final-assembler-recovery-review.md), [4](evidence/2026-11-14-ck3-v3-final-cycle-replay-review.md)。
+
+
+## 2026-11-14：760数值审阅部分使用，完整用例理由纠正
+
+[精确项目包](https://github.com/XenoAmess/civ6_dev/blob/2d9f3569adc5995c35b8fdd03197b1c9aa382166/docs/research/baiqi-performance142-frozen760-2026-11-14.json)：142独立规划116／144纯十城，Admin p95／max13／21ms、Controller7／20ms；33上下文固定10秒B_turn峰552ms、完整回合Native提交峰28；五组25匹配段整体中位167.000055ms／各自分母比例中位3.202916%。900军队SKIP请求序列逐回合同首启用，50普通END、0END90，所有外交与高值保留。四项冻结预算仅本原85夹具PASS；完整TC036仍需无合法城址／很多候选压力和完整p50／超限报告，不授全功能／因果净脚本收益。最后对照自然退出，发布119字节清单恢复、原334已冷载就绪无性能对象，0人工内政／END334。
+
+760收到9份当前协议／实际汇总／分析器与消费源，完整29118input／1173output、11573.6321ms、1attempt stop／DONE／strictJSON。数值／有限支持留审阅笔记，不算新发现／代码／Native／运行测试。拒绝其捏造“TC036协议另需coldcompat／restore／其它功能”的理由；Owner原请求未给实际用例303—306，后读原条款才确定真实压力／报告缺口，输入缺口与错误推断分记。B_turn whole-turn措辞改回固定10秒去重墙钟，N_req proxy改实际全回合原生提交；键为actual_TEST_PLAYER_input_audit。current140只分配profile名，不据此推源码版本或错误归StageA。
+
+PREP／REVIEW／两段CORRECTION有前置UTC，较早范围规划／helper和之后发布未量，wall不作active。累计760逻辑／707完整流（含历史JSON拒绝）／50length／3最终transport／790HTTP／30extra，新增峰1，cachedtokens／Owner active／net savingsnull。旧140／141 FAIL不回写，继续真实压力与分布任务。

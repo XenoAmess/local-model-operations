@@ -305,3 +305,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：前景句柄不等于之后桌面像素的归属
 
 [759实际事件](https://github.com/XenoAmess/civ6_dev/blob/449e4adcd32284c668649ddb33321eeb9d391eed/docs/research/baiqi-targeted-continue759-2026-11-14.json)中，foreground PID/HWND检查通过但矩形ImageGrab像素属于另一个应用；原因未立，不能凭预检metadata授游戏视觉或Steam模式。0据图输入，停止相应desktop路径。使用原版已有输入入口也须当前会话资格、独占尝试和实际结果独立读回；定向PostMessage成功只是入队。新log前缀冻结＋增量顺序防止旧ready标记冒充当前load，未知前缀／重复／缺项拒绝，不能因辅助工具错误重放load或未知游戏动作。
+
+
+### 2026-11-14：冻结预算通过不替代真实用例压力与报告条款
+
+[760](https://github.com/XenoAmess/civ6_dev/blob/2d9f3569adc5995c35b8fdd03197b1c9aa382166/docs/research/baiqi-performance142-frozen760-2026-11-14.json)数字匹配却编出额外coldcompat条件。合并证据前要读实际用例、配置和阶段协议；缺实际条款是Owner上下文限制，不许可模型补造原因。固定10秒脚本去重墙钟与全回合写入计数分别命名，不能互换或称proxy。推荐空表不等于完整允许搜索域无合法地点；单次十城85的四预算与压力分类／p50／超限报告分别授予，保留不同世界轨迹与所有样本，不把中位负值当因果提速。
