@@ -335,3 +335,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：参数化日历要关闭全部锚点范围与词法遮蔽
 
 [767—769](https://github.com/XenoAmess/civ6_dev/blob/0922d1da94308789ea379a74b257adb2027f7dcf/docs/research/baiqi-pressure-calendar767769-2026-11-14.json)只改窗口上下界却保留原生事件85..91，会让新日历无锚点；包围函数first与被包装函数首参同名会使旧无参路径也崩。要用实际包装／事件／nil参数港口验证，不能只看prefix字符串。共用固定回合的软件fixture迁移需显式改合成样本标签，不能改实际保存数据。无当前声明的builder.uuid4及正确模式反向期待都要原稿留证。新压力source和实际T与旧预算／旧存档严格隔离，0／11个推荐不证明C++cap或全部合法地点；只有类型或编辑器示例不能自动授普通场景变更。
+
+
+### 2026-11-14：先验证所有地图写端口，地形准备与候选池事实分列
+
+[770—771](https://github.com/XenoAmess/civ6_dev/blob/ddf7ad1e6507a087d5ef58cca718447f65861cd7/docs/research/baiqi-pressure-geometry770771-2026-11-14.json)新地图生成必须在首setter前检查完整有限布局／所有写端口／每个实际地块；运行setter异常直接停，不回放。未创建城市的11个陆地不构成无落点证明，全陆地也不授原生推荐>=12。Python tuple坐标set循环不能误当items解包，bool是int子类需type精确检查，每玩家cityID命名空间允许跨玩家重复但不容同玩家重复。Lua //跨版本、虚构lupa.Lua和空pass测试均需真实端口见证，不可由模型成功自述追认。Owner测试要比较Lua代理内容，不把相同指针显示当Python代理可相等。

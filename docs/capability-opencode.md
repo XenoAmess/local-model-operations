@@ -1818,3 +1818,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：767—769仍为HTTP候选，新压力工具尚未Native
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/0922d1da94308789ea379a74b257adb2027f7dcf/docs/research/baiqi-pressure-calendar767769-2026-11-14.json)canonical1.19.5 Nov14维护成功缓存复用，新增OpenCode原生生成／工具sessions0。三HTTP生成、Owner纠正、79软件方法／私有包与旧N重算分列；Core类型查询不授创建／普通场景适用性，也不转成OpenCode原生能力。
+
+
+### 2026-11-14：770—771为HTTP生成，私有几何仍未Native
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/ddf7ad1e6507a087d5ef58cca718447f65861cd7/docs/research/baiqi-pressure-geometry770771-2026-11-14.json)canonical OpenCode1.19.5 Nov14维护成功缓存复用，新增原生生成／工具sessions0。HTTP候选两份完整但全部拒绝；Owner12项合成软件验证不转换为OpenCode原生能力，也不算真实地图生成或AI效果。

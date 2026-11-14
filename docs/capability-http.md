@@ -6612,3 +6612,12 @@ Owner接管组件与私有精确源码变换：15新方法／内10既有行为�
 相关79方法（19新）全过，保留N全部字段和762分布逐值相同／原事实字节未改，119文件／97Lua51+53压力T0私有包、精确逆向恢复、142产品119源哈希相同，未安装／Native新场景。79测试在correction段，verification仅原N与实包；早期发现／高层设计／之后发布未知，重叠wall不冒active。累计769logical／715complete含历史JSON拒绝／51length／3最终transport／799HTTP／30extra，server并行／cachedtokens／Owner有效工时／净节省null。
 
 [前置只读域筛选](https://github.com/XenoAmess/civ6_dev/blob/8a23f1d028c08e0325b49f95157753d5a605b9f0/docs/research/baiqi-recommendation-domain142-2026-11-14.json)无新HTTP：85与210各12／13／12分别返回全11／全3、排序集合相同，六次QAgetter不并入Controller自然样本，不授API硬上限或压力通过。主334已恢复6082…独立保存点，0END／地图修改。CoreCityManager.InitCity为nil，编辑器Create示例和可见性成员类型不等普通场景可执行签名，未调用创建／揭图。继续独立受控夹具。
+
+
+## 2026-11-14：770—771受控地形／严格快照工具，完整候选全拒绝
+
+[项目精确证据](https://github.com/XenoAmess/civ6_dev/blob/ddf7ad1e6507a087d5ef58cca718447f65861cd7/docs/research/baiqi-pressure-geometry770771-2026-11-14.json)两个真实任务同时POST，client在途峰2、共同22.162093秒；7703001input／2866output、22165.765ms，7713002／3900、27720.327ms，均单attempt完整stop／DONE／strictJSON，代码／测试0采用。770 Lua51因//解析失败、全局Generate未返回模块、缺变更端口预检／有限整数校验；原7测试全在虚构lupa.lua51.Lua错误，另有JSON直接充当Lua、缺StampContinents、空pass顺序测试。771合法快照KeyError4，将坐标set误解包为坐标／owner；缺每玩家ID唯一及城市地块全交叉校验，bool当int，原8测试3pass5error；212实现行超180、8方法超<8。不能以strictJSON完整／rationale自述替代源码与执行验证。
+
+Owner独立实现地图纯几何与Python纯核验，共12方法pass，双Lua51／53执行假端口／完整1144预检、准确1144写入和后置顺序，坏最后地块仍0写，setter异常立即停；严格schema／可见全图／城市归属命名空间。Owner首测1处Lua代理表直接比较失败，改内容比较后12过，未归因模型或修改实现。Source142发布119哈希全等，主334在该单元0Native查询／动作。MANY全陆地只是几何准备，actual admitted>=12仍需真实自然调用；NO_SITE要真11城市及全1144实际可见快照，仅证明必要notWater/notCity几何门。地图入口／Native准备未完成，不授完整TC036。
+
+累计771logical／717complete含历史JSON拒绝／51length／3最终transport／801HTTP／30extra；server并行／cachetokens／Owner有效时间／净节省null。初始候选读取早于REVIEW_BEGIN未计，raw测试在review，12Owner方法在correction，跨任务wall重叠；SDK发现和发布未计。主证据保留请求hash与来源／原件失败，Steam0上线／上传。
