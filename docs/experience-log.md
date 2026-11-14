@@ -452,3 +452,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：菜单role、可用pattern、动作ACK与实际状态分开
 
 [799](https://github.com/XenoAmess/civ6_dev/blob/7e021155736b5e4fb8b2ddd144cbee5aaf9cd817/docs/research/baiqi-pressure-steam-header799-2026-11-15.json)可见Text控件也可能支持InvokePattern，但存在/返回不证明展开或模式。只读树有界未穷尽须写remaining，后续完整查询单列，不从一次lookup0推不存在。菜单导航与状态证明分开：前台守卫变化可以发生在指针移动之后、点击之前，保精确已执行前缀；随后新鲜背景只读modeitem才授状态，不能重写原失败。闭包mock的inner self错误与生产逻辑分开；命名未发现或pass测试不算有效见证，需另做actioncounter/ownership/精确数值边界。
+
+
+### 2026-11-15：恢复工具不能跳过未知门，也不能以预算通过为恢复前提
+
+[800](https://github.com/XenoAmess/civ6_dev/blob/4eccc8148329d0099168e0782e9130f58b9677b7/docs/research/baiqi-pressure-return142-preparation800-2026-11-15.json)相同API调用骨架可用不证明外围门齐全；核formal锁、exactTrue/int、Mapping、manifest值及真正抛错的版本负支。只读check与带独占意图/完整备份的install分开，备份后发令前再核当前文件/进程门；unknownmutation不得重放。恢复普通包是收尾必要动作，与性能PASS/FAIL分开，不把未执行工具或隔离门限见证写成真实安装。

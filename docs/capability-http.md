@@ -6823,3 +6823,8 @@ Owner仅取794固定purevisibility函数，795零原样代码；从Native已过H
 [精确来源](https://github.com/XenoAmess/civ6_dev/blob/7e021155736b5e4fb8b2ddd144cbee5aaf9cd817/docs/research/baiqi-pressure-steam-header799-2026-11-15.json)。1879/3069tokens、18725.5017ms/TTFT454.9354，stop/DONE/strictJSON、1POST无重试，无正式测量或游戏运行重叠。最多5节点的遍历/归属先验/0handle不合并/白名单redact/pattern只读核心部分采用；Owner补精确intHWND、ownership精确True、矩形整数/顺序/范围。Raw8方法实际1fail，mock内部ElementInfo读错self字段而被silentfallback遮蔽；只修mock后8过，另Owner17检查。cycle_test未发现、noaction是pass、声明的抛错pattern未实现，均不授原见证通过。
 
 Owner实际后台读Text→Document→Pane→Pane→Window，头部支持Invoke却不证明MenuItemrole或可见菜单。旧lookup0输入拒绝、Invoke返回/定向输入/officialmainURI均未授离线；完整主树1159无modeitem，其他窗口内容未读。指针导航后前台守卫变化、计划点击未发；随后独立后台实际可见GoOnline，入口再取年龄.003585秒的新鲜离线证明才首次冷启23640，之前0launchintent/Popen。早期失败原因仍未知，不把恢复链写solecause、泛化必成功或模型执行游戏。累计799/741complete/55length/3finaltransport/829HTTP/30extra；cache/Ownerfullcost/netsavingsnull。
+
+
+## 2026-11-15：800真实受管安装恢复候选的门限缺口
+
+[来源](https://github.com/XenoAmess/civ6_dev/blob/4eccc8148329d0099168e0782e9130f58b9677b7/docs/research/baiqi-pressure-return142-preparation800-2026-11-15.json)。7567/3487tokens、22051.3268ms/TTFT1322.1650，stop/DONE/strictJSON、1POST无重试，N3采样停止保存退出后调用。骨架部分采用，raw缺formal锁、truthy完成态/overall只判key、float/bool元数据、marker只比key、版本负分支pass及意图无manifesthash；Owner补全部并在备份后再次核门，16隔离检查过，模型测试代码0。实际安装/主保存加载/游戏/Steam操作0，待全十侧25段结束后首次真实check；预算FAIL也应能恢复普通包，不能以绿作为退出诊断副本前提。累计800/742complete/55length/3finaltransport/830HTTP/30extra；缓存/Ownerfullcost/netsavingsnull。

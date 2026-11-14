@@ -1933,3 +1933,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：799维护与普通HTTP分轨
 
 [来源](https://github.com/XenoAmess/civ6_dev/blob/7e021155736b5e4fb8b2ddd144cbee5aaf9cd817/docs/research/baiqi-pressure-steam-header799-2026-11-15.json)普通HTTP复用Nov15同机同用户OpenCode1.19.5成功每日缓存；新原生工具生成session0，维护不授UI或源码生成能力。
+
+
+### 2026-11-15：800 HTTP与维护分轨
+
+[来源](https://github.com/XenoAmess/civ6_dev/blob/4eccc8148329d0099168e0782e9130f58b9677b7/docs/research/baiqi-pressure-return142-preparation800-2026-11-15.json)复用Nov15同机同用户1.19.5成功维护缓存；新OpenCode原生工具生成session0，不由维护补授恢复或代码生成效果。
