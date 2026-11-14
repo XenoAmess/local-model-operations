@@ -6430,3 +6430,8 @@ A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Fr
 [固定744证据](https://github.com/XenoAmess/civ6_dev/blob/17ed9c9c916e333daee273ffd82113828491b6ae/docs/research/baiqi-named-root744-2026-11-14.json)在Owner事前明确API／保留合同后，完整NewNamedNested字面采用，12种实际canonical profile／child方法原稿及采用文件均过（同12不能加成24），Lua51／53编译。严格Admin.Run或Controller.RunNow标签在factory前校验、记录时绑定；4096共享、nil／false／erroridentity／snapshot／坏clock／drop／退役透传保持，旧helper／K不改。
 
 [Owner新构建器](https://github.com/XenoAmess/civ6_dev/blob/44cd82001c49fb4701a1ee52cef8033b302ab5c5/docs/research/baiqi-admin141-diagnostic-prepared-2026-11-14.json)九局部＋三实际外部runner，13绑定、真实87..89通知前与通知后10秒，3构建／生命周期方法过、97Lua双编译119包，仅准备不授Native。743六实际函数名建议经核验后纳入Owner扩展覆盖，是部分建议采用、不是0影响；0代码／错误理由或范围采用。744只授完整helper，不授Owner builder或瓶颈独立发现。单attempt／stop／DONE／strictJSON峰1，tokens／耗时见[共享原值](evidence/2026-11-14-civ6-named-root744.json)。累计744／691完整（含历史JSON拒绝）／50length／3transport／774HTTP／30extra；维护cache复用，OpenCode native0／成本null，141正式B_plan仍FAIL。
+
+
+### 2026-11-14 StageC 两项独立性能源码审：完整短答，0可采用候选
+
+54/72完整Java、各4非Java，StageC17/union50实际冻结及必要BASE/Frame，非C6；原END1622/日志3907完整入前缀。固定3消息/source600/2400/max2200、目标800tokens。两首请求均stop/DONE/strictJSON/0retry，合1135001in1040out，真峰2重叠157.224221秒；0当前在途。A两候选提出放宽/2 admission+evict和删contentEquals，违反既定边界；其Commit LRU无完整新鲜metadata/identity/失败先序等价，不授可用设计，held parsedCommit已存在。B []仅保必要验证，不能据此给所有纯计算复用技术NO。0finding/code/Test采用，无性能/实机资格；同一新16MiB与旧C6结算分开，旧actual全保。见[CAS](evidence/2026-11-14-ck3-stagec-initial-cas-performance-review.md)、[source/proof](evidence/2026-11-14-ck3-stagec-repeated-proof-performance-review.md)。

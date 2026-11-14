@@ -1,0 +1,503 @@
+{
+  "schema": "local-model-operations.http-source-review/v1",
+  "date_local": "2026-11-14",
+  "mode_id": "http_candidate",
+  "input": {
+    "source_scope": "Frozen coherent StageC17 / actual union50_344, not future C6. Only role-relevant complete source and target BASE/direct declarations inline, including full Frame interface.",
+    "complete_java_files": 54,
+    "complete_other_files": 4,
+    "full_files": [
+      {
+        "name": "ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "FullJsonTree.java",
+        "bytes": 9196,
+        "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "DecimalTokenNode.java",
+        "bytes": 3400,
+        "sha256": "dcfaa1f41e5dba568e21d61103197827c26704e3e386da48077a8a159812b9df",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "OpportunityJson.java",
+        "bytes": 7208,
+        "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "DriverJson.java",
+        "bytes": 11237,
+        "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ActionCommand.java",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ActionCodec.java",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ActionPorts.java",
+        "bytes": 23186,
+        "sha256": "8f442da38de05a11daa15c4d8eb700f7c609a7e82d4d8de5ea94c171f2b676a7",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ActionReceipt.java",
+        "bytes": 5725,
+        "sha256": "2857682e8bbc4fe71444bc884e13cc67aa02ac56ae20ee5bcb97569dc67c4931",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ActionReceiptCodec.java",
+        "bytes": 59676,
+        "sha256": "5ee4f19c163df53b0bfb2955f68bae26b70bcd2bdb6dfca122865a1a1b00c8bd",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ActionState.java",
+        "bytes": 16004,
+        "sha256": "1b58941b54451bb573b5c4c064044e2ad09622353f8b517645e1dbf8140ea611",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ActionTransitions.java",
+        "bytes": 12638,
+        "sha256": "ea9ab55ad074b0f8910bc4bc3214dfe973bc579ccb85070472db7934504342e0",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ActionJournal.java",
+        "bytes": 2794,
+        "sha256": "5b224d9636086b5d23614e84f1398e402c45031c59b8049131fb06edc974ad51",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ActionIds.java",
+        "bytes": 3215,
+        "sha256": "3ec3268ab673adb38b84b666ec413ccca27596e1e88c07f24065109b7ecb869b",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "RequestIds.java",
+        "bytes": 1393,
+        "sha256": "0db5fefc4039e4e4445e5c947d041b8eb3cb21de06566e7b7040847b06ec1b0f",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "OperationKey.java",
+        "bytes": 413,
+        "sha256": "bc21f4c9f71e1964569c1c0218e38cf3c9b5177da99338b28bfa08ddd043ca57",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "CommandOrigin.java",
+        "bytes": 5057,
+        "sha256": "3036eb8836c7c4cd76e188d44e1ae664896833a650577d2b0c5aecd6f367ce82",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "GuardEvidence.java",
+        "bytes": 6176,
+        "sha256": "a26fcda93c132568c925090f4717fe1023be4534ce94c74afa7303b4d2a47247",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "NativeRequest.java",
+        "bytes": 2170,
+        "sha256": "0030edd3d9987415a4a7cac48157eb7455ef5586098defe7d6b1e9f8b503d83e",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "NativeRequestChronology.java",
+        "bytes": 14185,
+        "sha256": "ec05a0cea8abcf21bc7a6bc26c47c1baaa1dbe45e0e4f878c61616cb549f3c92",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "NativeActionPort.java",
+        "bytes": 11308,
+        "sha256": "ff69d9d5ef6a75c0f5c03e9b83a165a1e5544d4e8f044d3c886bd865a04daa81",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "OriginalEvidencePort.java",
+        "bytes": 511,
+        "sha256": "73e24f1db40f2f5f5d296a3b5c2693e344875065c1d92967e8a198ce2b2f6797",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ContinuityWriter.java",
+        "bytes": 126589,
+        "sha256": "5b23ade6e962079744aed574c9f3ef5cae4de912b3d9b228b6ae0801895fb217",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ContinuityState.java",
+        "bytes": 7614,
+        "sha256": "a506aec4e6ea48d199bce0c7037e1d32b1864b14f2af82c7807e243ff3f8d6a7",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ContinuityJson.java",
+        "bytes": 10085,
+        "sha256": "7b5e31679b8be7d7ebfe212cf26180323cb10a9614a8ee8d7e07dc2a662d748d",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ContinuityEvent.java",
+        "bytes": 6692,
+        "sha256": "04c43a9d2a26811a4c4453490cdc5e9b194d10ba00f1201238de795c36f47438",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "StorageWriteGuard.java",
+        "bytes": 7252,
+        "sha256": "beac715b9e08e4b712c69be2154142c3d8a95c141b0829d90dc0b744816b36ab",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ImmutableArtifactStore.java",
+        "bytes": 63870,
+        "sha256": "7cd99f97fae36f4a131752df3fa2e55192b9673e451acedccfec19faba124284",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "LedgerFiles.java",
+        "bytes": 15173,
+        "sha256": "f231189a583013abfb8aac2ba0fbd3a05c338c3d7099206bf31177d583263748",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "IdentityBearingFileAttributes.java",
+        "bytes": 27387,
+        "sha256": "c2581fb1b43ceacac0694608c5b9a869b3ac2855052c04025fb1021020fadef1",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 148279,
+        "sha256": "fd245ab9cc652f9707764378da4a678fd1e968d8c4651514e6c5e0ba211d94c8",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "AdvanceObservationPort.java",
+        "bytes": 4863,
+        "sha256": "dbeb58bfb6b02fd40f4d6dc41beb1e14b47bc449e9a1753797da988ee9effd99",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "SessionPorts.java",
+        "bytes": 23739,
+        "sha256": "4f71dbe0e2da0f56918232a16c6051c3a39d8d6c30f03ce1a3fe24323a216c77",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 483101,
+        "sha256": "67035199790d81eee8b4cd1e101ef95f05bd448e2234df1d6b6a68610d1f93c3",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "DriverBootstrap.java",
+        "bytes": 143513,
+        "sha256": "19880937c6e96fa032bd4f9eca8d54775ff39a1fa159360b53012d44dd6ede28",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "DriverCapabilityRuntime.java",
+        "bytes": 55131,
+        "sha256": "542321de42c35c8c315f6eaca690351c71b1c6f59a3aa76626a0423cfa7c46b4",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "DriverCapabilityStateProducer.java",
+        "bytes": 93113,
+        "sha256": "fc45e8ebb5734189a2bc4a4efbd74a32a48a95997b456a418ca63b4c546f0b4c",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "DriverPersistentPlanningState.java",
+        "bytes": 43116,
+        "sha256": "e4d8b64da28563857690dc4d9d000a3890938212a49cba163ece33ad0d71d6ec",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "DriverObservationEvidenceReader.java",
+        "bytes": 23478,
+        "sha256": "f9261570044a38bec8c7254aa7d9452e2c6e9f9914df396d79a6f20336968f06",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "DriverObservationAssembler.java",
+        "bytes": 28791,
+        "sha256": "e38f5ace67972450970a1c96db1981ef2acae7e58a30ee723f03fc9dd744b4e4",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "DriverFrameEvidenceLoader.java",
+        "bytes": 17237,
+        "sha256": "a649f7ef7ba2032245c89429cf1618af6f2e0edba6a0c7548e1c492c8a5c508f",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "DriverSnapshotFacts.java",
+        "bytes": 14955,
+        "sha256": "f557be8eb7c2e7a43a4c7eb30e4bae25a53f046cda38a33c71edbbbc1208d446",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "DriverStateSnapshot.java",
+        "bytes": 12444,
+        "sha256": "69a835a455bd2b6f6fa97ffc8c56ee75b8316471f6d54e381660cad167aa9c98",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "DriverCheckpointStore.java",
+        "bytes": 13687,
+        "sha256": "6688b546d04172a81c738c55d5676c2a80a51bfb35f5188dd1a9d4ac79596c04",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "RootApplicationAssembly.java",
+        "bytes": 255287,
+        "sha256": "aeac3aef2337d85a66b3f1fe4694e62902f162a7cdec3b0d1e999860c5bd9e73",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "RootRuntimeContext.java",
+        "bytes": 29729,
+        "sha256": "96902287df750a5f006321e41ae840e270e7bfeb3ba47dba3cd15de70743cbe2",
+        "role": "Complete actual frozen StageC caller/implementation/direct declaration"
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 147744,
+        "sha256": "9775280c9bbfc02185e87a5c6d3c9c3d2947f3ea681736818ef4bb102d4f0775",
+        "role": "Complete selected StageC target BASE"
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 481727,
+        "sha256": "b3888cfc11ccef763d94dd356dd8ae228f6629588ffe5b8a13e08be26873b600",
+        "role": "Complete selected StageC target BASE"
+      },
+      {
+        "name": "ImmutableArtifactStore.java",
+        "bytes": 51679,
+        "sha256": "f3726e0e38a7137b1dc6fbf4c7093a49aa1b4454b65f07187dd30b0d46563ed2",
+        "role": "Complete original Store BASE before already-existing transient custody"
+      },
+      {
+        "name": "PreparedCleanupNoEffectApplyOnlyMain.java",
+        "bytes": 17718,
+        "sha256": "6b2e3b362d14d7879678204b8bb08ba2e30eb5c88c20634ab3281ca030198ad7",
+        "role": "Complete actual StageC dedicated Main caller, not future C6"
+      },
+      {
+        "name": "SOURCE-READY-STAGEC-PREPARED-NOEFFECT01.json",
+        "bytes": 51738,
+        "sha256": "6764c97376c6dc21e21afe8cf710e4650333d12662436f8b3a9c1daeaf544e16",
+        "role": "Complete final StageC17 source manifest"
+      },
+      {
+        "name": "SOURCE-CONTRACT01.json",
+        "bytes": 3513,
+        "sha256": "104cef72ac4c4321c8ca80e2800a49ebc43061e3f7f205a08cf3bc4763a87c41",
+        "role": "Complete source/measurement/preservation/output contract"
+      },
+      {
+        "name": "ACTUAL-END.json",
+        "bytes": 1622,
+        "sha256": "d7e32a23ff7a58d4fa68c489083098a042722a909d868064930e3d9a4c6ca141",
+        "role": "Complete already captured execution END"
+      },
+      {
+        "name": "stderr.bin",
+        "bytes": 3907,
+        "sha256": "f5a0f0bf1907f59d34c1c2df7da135fd955ff1ec6229b4d3d0f51b52be3a00e6",
+        "role": "Complete original untruncated scope diagnostics/CLI exception"
+      }
+    ],
+    "source_message_bytes": 2705014,
+    "full_source_eol_bytes_SHA_audited": true,
+    "actual_diagnostics": "Full held END1622 and original stderr3907/f5a0f0bf; initial1263309 attempts/177230 byte-bound/7827entries/536870518peak; four later17210 attempts/4095held/725handle-bound/25825358peak each. No source caller label or per-op timing.",
+    "new_design_source_or_oracle_from_model": false,
+    "large_Driver_SEM_Game_material_read_or_inlined": false
+  },
+  "HTTP": {
+    "POST_BEGIN": "2026-11-14T00:45:18.009644+00:00",
+    "END": "2026-11-14T00:47:57.788658+00:00",
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "strict_JSON": {
+      "status": "VALID",
+      "top_level_type": "object",
+      "reason": "COMPLETE_STOP_JSON",
+      "error": null,
+      "offset_units": "Unicode code points",
+      "max_utf8_bytes": 1048576,
+      "semantic_review": "OWNER_REVIEW_REQUIRED"
+    },
+    "headers_ms": 149000.4045998212,
+    "TTFT_content_ms": 149001.61729985848,
+    "total_ms": 159779.0716998279,
+    "usage": {
+      "prompt_tokens": 558807,
+      "completion_tokens": 694,
+      "total_tokens": 559501
+    },
+    "retries": 0,
+    "cached_tokens": null,
+    "request": {
+      "bytes": 2769272,
+      "sha256": "a67b15774b09f88de0f1434ab44539a512a6f24fe4b1ba2f1e17df1a5b2b6c46",
+      "preactual_byte_exact": true,
+      "fixed_messages": 3,
+      "max_tokens": 2200,
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "network": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      }
+    },
+    "SSE": {
+      "bytes": 96971,
+      "sha256": "4f7cbc96fedb43a1b6fb084c2badccfb924adce7770ee7894055d7a5f6fae4de"
+    },
+    "CONTENT": {
+      "bytes": 3079,
+      "sha256": "3017564d3ae494cd9b296420a13a48deb0ebe3d34c5a216eaaef839fb8e5a8db"
+    },
+    "full_SSE_content_reconstructed_byte_exact": true,
+    "full_source_SHA_and_whole_membership_reverified": true,
+    "listed_candidates": 2,
+    "reply_target800_met": true,
+    "profile": {
+      "name": "source-high-concurrency-direct",
+      "read_seconds": 600,
+      "total_seconds": 2400,
+      "max_transient_attempts": 6
+    }
+  },
+  "two_HTTP": {
+    "logical_tasks": 2,
+    "actual_POST_attempts": 2,
+    "usable_complete_reviews": 2,
+    "length": 0,
+    "retries": 0,
+    "actual_peak_HTTP": 2,
+    "peak2_overlap_seconds": 157.224221,
+    "current_inflight": 0,
+    "reported_input_tokens": 1135001,
+    "reported_output_tokens": 1040,
+    "sum_HTTP_ms": 317003.3429998439,
+    "full_first_BEGIN_to_last_END_seconds": 159.779014,
+    "cost_limit": "HTTP sum is overlapping request occupancy, not wall/CPU savings. No configured ctx/cache/queue capacity inference.",
+    "phase_limits_bytes": [
+      8388608,
+      8388608
+    ],
+    "aggregate_limit_bytes": 16777216,
+    "Native_fresh_forecast_including_new16MiB_once": 1105543605,
+    "engineering_cap_bytes": 1342177280,
+    "all_old_actual_and_reserves_preserved": true,
+    "no_second_or_third_request": true
+  },
+  "source_review": {
+    "classification": "TWO_UNSAFE_OR_UNCLOSED_REUSE_SUGGESTIONS_REJECTED_0_ADOPTION",
+    "listed_candidates": 2,
+    "confirmed_candidates": [],
+    "claims": [
+      {
+        "claim": "Relax expected.bytes <= remaining/2 to remaining and immediately evict an old publication; alternatively add SHA-key Commit LRU.",
+        "disposition": "The relaxed admission/eviction violates this task preservation boundary. Store760-785 records held/unretained dependencies and scope custody; active DependencyTrace/TransientLeaseTrace cannot silently lose a held entry. Metrics do not establish bytes was low at each fallback.",
+        "pure_decode_limit": "Actual held PublicationLease already retains parsed bound Commit and readLeasedPublication509-514 still revalidates metadata/data. Fallback782-785 performs a fresh metadata read/decode then verifyRaw. A separate decoded metadata cache would need exact fresh metadata bytes/identity/owner/lifetime/failure equivalence and its own finite accounting. SHA/path immutability alone was not that proof; no usable design was supplied. This does not deny a future distinct bounded pure-decode investigation."
+      },
+      {
+        "claim": "Trust ExactRef and remove cached.contentEquals(bytes) after readBytes.",
+        "disposition": "Explicit original content-equality guard is frozen and must remain. NativeArchive1940-1951 reads then checks exact cached content; a digest/key identity argument does not authorize deleting that equality. The reply itself makes its equivalence conditional, and no accepted counterexample/test/custody proof closes it."
+      }
+    ],
+    "no_technical_NO_or_capacity_bound_from_rejection": true,
+    "adoption": {
+      "new_findings": 0,
+      "code_hunks": 0,
+      "Test_hunks": 0,
+      "software_Runtime_or_performance_credit": false
+    }
+  },
+  "adoption": {
+    "new_findings": 0,
+    "code_hunks": 0,
+    "Test_hunks": 0,
+    "software_Runtime_or_performance_credit": false
+  },
+  "output_contract": {
+    "target_total_tokens": 800,
+    "API_max_tokens": 2200,
+    "max_candidates": 2,
+    "max_limits": 3,
+    "no_long_callgraph": true
+  },
+  "resource_limits": {
+    "phase_bytes": 8388608,
+    "aggregate_bytes": 16777216,
+    "future_release": "Only Root may reconcile retained actual against this once16MiB. Older C6/StageC/Transient settlement is not repeated."
+  },
+  "operator_preparation_error": "Before any POST, an incorrectly named DriverCheckpointSnapshot source lookup was corrected via the actual Loader import to DriverStateSnapshot. An unmatched parenthesis in a read-only guide-print command was corrected. Neither was a model attempt, source change or compile error.",
+  "no_new_JVM_Game_Native_ledger_GET_service_probe_or_production_Test_write": true,
+  "next": "No same-topic rePOST/length continuation. Any distinct future candidate requires real source evidence and preserves all original authority/guards."
+}
