@@ -6816,3 +6816,10 @@ Owner仅取794固定purevisibility函数，795零原样代码；从Native已过H
 ## 2026-11-15：798纯文件NO_SITE军事输入审计
 
 [精确证据](https://github.com/XenoAmess/civ6_dev/blob/8be2b5ed9f604e982509d5e7210e6093acbf1148/docs/research/baiqi-pressure-nosite-input798-2026-11-15.json)。7799/3858tokens，22941.6963ms/TTFT1332.5378，stop/DONE/strictJSON、1POST无重试；K初始载入/预热期完成、无正式采样重叠。核心采用，Owner补recordfrom/to/pid精确int；raw接受True/2.0/False。raw测试误从collections导入MappingProxyType而非types，导入失败0执行；只修导入后18方法过，Owner另6负例/1带上下文TAB及深复制不变正例过。不得把导入后全绿追授原稿；原浅复制immutability不足，另测原始capture及嵌套frames。采用固定92fT1/END1..5/激活2..6日历的只读文件审计，无Native动作/效果或B_delta授权。累计798逻辑/740完整/55length/3finaltransport/828HTTP/30extra；未知缓存、Owner全成本、净节时null。
+
+
+## 2026-11-15：799只读UIA头部诊断，未知状态门与真实恢复分层
+
+[精确来源](https://github.com/XenoAmess/civ6_dev/blob/7e021155736b5e4fb8b2ddd144cbee5aaf9cd817/docs/research/baiqi-pressure-steam-header799-2026-11-15.json)。1879/3069tokens、18725.5017ms/TTFT454.9354，stop/DONE/strictJSON、1POST无重试，无正式测量或游戏运行重叠。最多5节点的遍历/归属先验/0handle不合并/白名单redact/pattern只读核心部分采用；Owner补精确intHWND、ownership精确True、矩形整数/顺序/范围。Raw8方法实际1fail，mock内部ElementInfo读错self字段而被silentfallback遮蔽；只修mock后8过，另Owner17检查。cycle_test未发现、noaction是pass、声明的抛错pattern未实现，均不授原见证通过。
+
+Owner实际后台读Text→Document→Pane→Pane→Window，头部支持Invoke却不证明MenuItemrole或可见菜单。旧lookup0输入拒绝、Invoke返回/定向输入/officialmainURI均未授离线；完整主树1159无modeitem，其他窗口内容未读。指针导航后前台守卫变化、计划点击未发；随后独立后台实际可见GoOnline，入口再取年龄.003585秒的新鲜离线证明才首次冷启23640，之前0launchintent/Popen。早期失败原因仍未知，不把恢复链写solecause、泛化必成功或模型执行游戏。累计799/741complete/55length/3finaltransport/829HTTP/30extra；cache/Ownerfullcost/netsavingsnull。

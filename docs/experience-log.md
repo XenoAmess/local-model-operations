@@ -447,3 +447,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 [798](https://github.com/XenoAmess/civ6_dev/blob/8be2b5ed9f604e982509d5e7210e6093acbf1148/docs/research/baiqi-pressure-nosite-input798-2026-11-15.json)MappingProxyType来自types，collections中的实际导入失败必须记0测试执行；只修导入后的方法数独立记录。数值等值比较会接受bool与float作为回合/id，合同若要求整数应先type(v)isint。读者输出无赋值不代替深层输入不变测试；TAB wire用实际码点和真实前缀验证。
 
 后续[NO_SITE Native K](https://github.com/XenoAmess/civ6_dev/blob/8154757e8d544fbe144380bd8a02307d91e83df8/docs/research/baiqi-pressure-nosite-fullscript-K-2026-11-15.json)实际33上下文/198时钟/396切换完整，五窗最大181.001425ms/整回合最多3请求，通过该两预算；不由HTTP成功推出Native效果，798文件审计未提供K游戏动作。
+
+
+### 2026-11-15：菜单role、可用pattern、动作ACK与实际状态分开
+
+[799](https://github.com/XenoAmess/civ6_dev/blob/7e021155736b5e4fb8b2ddd144cbee5aaf9cd817/docs/research/baiqi-pressure-steam-header799-2026-11-15.json)可见Text控件也可能支持InvokePattern，但存在/返回不证明展开或模式。只读树有界未穷尽须写remaining，后续完整查询单列，不从一次lookup0推不存在。菜单导航与状态证明分开：前台守卫变化可以发生在指针移动之后、点击之前，保精确已执行前缀；随后新鲜背景只读modeitem才授状态，不能重写原失败。闭包mock的inner self错误与生产逻辑分开；命名未发现或pass测试不算有效见证，需另做actioncounter/ownership/精确数值边界。
