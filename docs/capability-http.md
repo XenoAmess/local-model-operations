@@ -6762,3 +6762,12 @@ Owner接管未读782截断的driver/player，实际T0..max/source142ordinaryonly
 [证据](https://github.com/XenoAmess/civ6_dev/blob/3a976e2555c9247837abe046093c8dd56b31ce2b/docs/research/baiqi-pressure-pair-overlap-rejected-2026-11-14.json)source142压力桥实际五次普通跨UI Begin/原生inlineactivationstop、error/refused0、actual11/noEND11，流程完成。Owner在加载空档起NO_SITE包构建后，序列自动进入正式计时，构建完成15:54:24.147303晚于runstart15:53:59.235970且首段15:54:07.750..08.662在内，故整启用侧ENVIRONMENT_INVALID，五原值全留不择优，不授B_delta/对照组。原H/I独立PASS保持，非模型缺陷。
 
 拒绝决定基于live9进度、尚未看最终值；首次落precompletionrecord守卫因capture已经完成拒写，pendingtool随后展示值，最终持久记录晚于完成，不能造已成功早落盘。新r系列预先冻结五组交替顺序／同fixture459a/pins，formal前独占标记、COMPLETE后解除，期间0build/tests/HTTP。第一侧quietownedresidueofficialexit181s、0窗口/监听/2sCPU0与saveSHA复核后仅终止自己1次。无新HTTP，累计789保持。
+
+
+## 2026-11-15：790只读恢复函数主体采用，791跨原件混淆诊断拒绝
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/5c6aa419d6a42a570f17f4932d07bc759f3f152a/docs/research/baiqi-pressure-visibility790791-2026-11-15.json)R1actualT6选择1/0SKIP/0END，握手2386byte tag4/126contexts/ID95成功，提交固定纯读CMD后第二帧size0/tag4；客户端拒绝，原生值/服务根因未知。驱动撤桥/clock retired/ABORTED/0records/nopending，独立确认后清formal锁、save a0e29a92/officialexit，185s静止ownedresidue1次。不能把ends6预约当END。
+
+7905843/917tokens，8839.2731ms/TTFT2106.8316，函数主体采用（去unusedtime/加doc/变量名）；仅固定DiplomacyActionView print可见性purequery，strictattempt1..3/OSError+EOF/.25等待，格式/ERR/其他异常即时拒，原异常保留、帧不放宽、动作不重试。raw7tests3ERROR（假colonwire），recovery无test_prefix未发现，0原tests采用。Owner9新+5既有endpoint+8既有callback=22unique过，含实际make_callback只读恢复后只ENDonce/unknown0input。初始runner缺旧bareimport路径，14已过，补路径只跑未执行8；Ownerfixture命令错分账。
+
+79110007/1099tokens，10976.1746ms/TTFT2189.3398；正确LSQ/ID/CMDsend但混laterindependentfailure_state与failedreceipt，虚增tag3帧，把只读metadata0当全历史proof，猜visibilitychange和guard非protocol根因，整篇0采用。Owner机器核2wireframes+source顺序，不授server原因或Native性能。两call均stop/DONE/validJSON、2POST/peak2/overlap8.839213s，cached=null/ownerfullcost=null/netsavings=null；累计791/733complete/55length/3finaltransport/821HTTP/30extra。S新cold已start但Native修复效果尚待，不把软件过算实机。

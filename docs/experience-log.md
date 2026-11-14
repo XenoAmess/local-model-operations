@@ -410,3 +410,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：异步准备会跨过正式测量边界，先设活动标记
 
 [压力配对](https://github.com/XenoAmess/civ6_dev/blob/3a976e2555c9247837abe046093c8dd56b31ce2b/docs/research/baiqi-pressure-pair-overlap-rejected-2026-11-14.json)准备时在load/warm阶段不保证整个子进程在formal前结束；自动生命周期需要明确测量互斥。已发生重叠保全原值，整侧拒绝，冻结新独立campaign，避免按结果过滤。最初想要早落盘但检查失败，就必须记录失败及后来实际时间，不能将意图追认为事实。
+
+
+### 2026-11-15：严格分开failed query与后继state query，重试界定到固定纯读
+
+[790/791](https://github.com/XenoAmess/civ6_dev/blob/5c6aa419d6a42a570f17f4932d07bc759f3f152a/docs/research/baiqi-pressure-visibility790791-2026-11-15.json)两帧已够区分成功LSQ后CMD发送与失败前未发送：核payload firstdigits/唯一context和实际send位置；返回值仍未知。独立后来读的tag3/NUL空文本不能塞回原失败流，size1含NUL不等size0。只读metadata动作0只描述那次查询，不覆盖历史选择。不能用审稿推断更换frame协议；固定纯读最多3次可恢复瞬时IO，所有真实游戏动作继续不重试。真实wirefixture含TAB/上下文prefix，测试缺test_prefix及raw错误逐项保留。

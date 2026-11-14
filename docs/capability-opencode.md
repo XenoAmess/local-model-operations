@@ -1893,3 +1893,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：测量调度错误不归原生工具
 
 [记录](https://github.com/XenoAmess/civ6_dev/blob/3a976e2555c9247837abe046093c8dd56b31ce2b/docs/research/baiqi-pressure-pair-overlap-rejected-2026-11-14.json)无新HTTP/OpenCode原生调用，所有构建与采样重叠及记录顺序错误属于Owner编排。原生工具能力不变，维护成功也不修饰Native性能证据。
+
+
+### 2026-11-15：实际跨日每日检查通过，与原生生成分列
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/5c6aa419d6a42a570f17f4932d07bc759f3f152a/docs/research/baiqi-pressure-visibility790791-2026-11-15.json)791入口真实输出Nov15 OPENCODE_DAILY_CHECK：installed1.19.5/latest1.19.5、updatedfalse；同机同用户790并发复用成功cache/锁，随后两HTTP真实POST重叠。无OpenCode原生工具生成session。每日维护通过不授函数生成或游戏效果。
