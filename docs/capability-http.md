@@ -6660,3 +6660,14 @@ Owner按原协议和真实Ready1重写独立压力冻结文档，旧协议字节
 ### 2026-11-14 B76 Head.digest 单方法候选与唯一修复：完整源、0实际优化采用
 
 真实B76线程点Head.digest→Core DATA owner→archive.check触发新body-only任务，完整33Java+实际15KB栈/合同；首答old==new，文字改成少一次head读取违约且不省digest。一次必要修复仍成功路径两digest，原&&已短路失败，另StrictJson.require缺String参数静态不编；0source/Test/软件资格，方向不封技术NO。两请求合382087in1490out、总HTTP35.6335543秒、0retry、实际peak1，当前0。不重投旧DPP坏稿、不再第三次；原history32M未结余11080308内重分配，无新future或旧actual释放。见[首候选](evidence/2026-11-14-ck3-retirement-head-digest-noop.md)、[唯一修复](evidence/2026-11-14-ck3-retirement-head-digest-repair.md)。
+
+
+## 2026-11-14：775生成阶段trace拒绝原稿，保留独立NativeMANY崩溃
+
+[精确记录](https://github.com/XenoAmess/civ6_dev/blob/d3285be7598fe3512ee41d2b9e2e7f02f698205e/docs/research/baiqi-pressure-generation-failure-trace775-2026-11-14.json)5564input／3457output、21059.382ms、TTFT860.652ms，1POST stop／DONE／strictJSON。0原码／测试采用：Lua51／53可解析但无returnMakeTrace，Map身份改变、枚举校验缺、起点self传proxy、args／returns丢失、无1145挡板。Python确能解析（冒号行是注解不是方法调用），7测试全部在首Lua51 eval(local E语句)错误，未到Lua53且未加载模块；只有Owner显式单行exportbridge的独立消费者见证两版本1147假变更后self断言失败，不能追认rawmodule通过。156Lua／144test超各130。Owner助手首轮ROOT导入缺失败于Lua前，修助手并核对原件后继续，source观察／suite在correction，不倒填phase。
+
+Owner透明trace＋实际builder可选tracegen，12相关方法过含7新：真实几何／两版本actualentry、完整1144和起点顺序、原self／nilholes／erroridentity、logger失败不改变Native调用、1145前拒绝、Snapshotcopy。默认生成四文件全部metadata／bytehash与772精确等，release142119源哈希同。仅私有mapcallbacks，无ingamecallbacks；preparedtrace未Native，不授崩溃修复。
+
+MANY首次创建在复用NO_SITE实例13172时访问冲突，最后持久Lua只到seed616018722，内部Map写数未知、0Continue／END／人工setup／unitorders。只读WM_GETTEXT取759字符、全???符号，根因未知；不能编成allhills／stamp／reuse／GPU已确定。自有错误框OK一次后PID自然消失，0进程kill；主f70b…和NoSiteReady92f4…崩后字节SHA重新相同。继续freshownedinstance和新tracedaddon的独立尝试，不重放旧世界。
+
+累计775logical／720complete含历史JSON拒绝／52length／3最终transport／805HTTP／30extra；cache/server并行／Owner有效成本／净收益null，Native失败诊断和publication未计。Steam0上线／上传，TC036仍PARTIAL。

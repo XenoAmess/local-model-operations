@@ -1838,3 +1838,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-14：774仍HTTP文档候选
 
 [记录](https://github.com/XenoAmess/civ6_dev/blob/d1670139498966b75dd7298e79da2728129b331c/docs/research/baiqi-pressure-protocol774-2026-11-14.json)canonical1.19.5 Nov14维护成功缓存复用，新增原生生成／工具sessions0。HTTP完整文本原稿错误导致拒绝，Owner文档核验不授OpenCode原生或Native性能能力。
+
+
+### 2026-11-14：775HTTP与真实Civ6访问冲突分列
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/d3285be7598fe3512ee41d2b9e2e7f02f698205e/docs/research/baiqi-pressure-generation-failure-trace775-2026-11-14.json)canonical1.19.5 Nov14成功维护缓存复用，新原生生成／工具sessions0。HTTPcomplete候选被拒、Owner12方法／Native生成FAIL各自留证，不能用HTTP成功或pcall误称捕获C++accessviolation。

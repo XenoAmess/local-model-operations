@@ -355,3 +355,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：配对中位判据不能被文本改成每段门槛
 
 [774](https://github.com/XenoAmess/civ6_dev/blob/d1670139498966b75dd7298e79da2728129b331c/docs/research/baiqi-pressure-protocol774-2026-11-14.json)25rawsegments是样本，不是25medians各自必须达标；总体差值median和每段比率median是两个固定判据，每组median另报。布局创建回合、配对激活和规划闭窗分别写明；有界准备0动作数字不能由顺口文本变成1。冻结实际存档SHA／人口单位队列和外部observer差异，原协议保持字节原样；新全陆地不等自然推荐池≥12。
+
+
+### 2026-11-14：方法代理先保持原self，C++崩溃保留未知边界
+
+[775](https://github.com/XenoAmess/civ6_dev/blob/d3285be7598fe3512ee41d2b9e2e7f02f698205e/docs/research/baiqi-pressure-generation-failure-trace775-2026-11-14.json)代理对象的colon self不能直接交给原userdata方法，必须换成原对象；参数及多返回nilholes都需真实消费者。构造函数不能把缺失Native方法包装成总是存在的function以绕过预检。Pythoncolon行可能解析为注解，语法PASS不代表调度；测试也得实际加载模块。原生访问冲突无符号，最后持久marker只是已知边界，不赋根因；新trace包使用新进程／独立世界并保存旧FAIL。错误框只读／确认、API ACK和实际PID消失分别记，严禁截图Steam／强杀他人／重放未知动作。
