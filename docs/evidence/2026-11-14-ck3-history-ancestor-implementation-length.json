@@ -1,0 +1,689 @@
+{
+  "schema": "local-model-operations.http-source-implementation/v1",
+  "date_local": "2026-11-14",
+  "mode_id": "http_candidate",
+  "scope": "History replay: first ancestor implementation and private semantic parse implementation, one genuine parse correction, then a narrower independent ancestor dependency partition design. These are not repeated completed review tasks; original length remains wholly unused.",
+  "input": {
+    "complete_java_files": 79,
+    "complete_other_files": 10,
+    "whole_inline_rawbytes_SHA_checked": true,
+    "full_files": [
+      {
+        "name": "DriverPersistentPlanningState.java",
+        "bytes": 43116,
+        "sha256": "e4d8b64da28563857690dc4d9d000a3890938212a49cba163ece33ad0d71d6ec",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DriverCapabilityStateProducer.java",
+        "bytes": 93113,
+        "sha256": "fc45e8ebb5734189a2bc4a4efbd74a32a48a95997b456a418ca63b4c546f0b4c",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DriverCapabilityRuntime.java",
+        "bytes": 55131,
+        "sha256": "542321de42c35c8c315f6eaca690351c71b1c6f59a3aa76626a0423cfa7c46b4",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 148597,
+        "sha256": "d608934517b272fceb2f67f75c61157490a7ce5d957237ca75084f8b7a0ffecb",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ImmutableArtifactStore.java",
+        "bytes": 62984,
+        "sha256": "729a666403015f02175314cd33e39239365d18ce7222f4a5a55e96afc1391649",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 524524,
+        "sha256": "66bdc3b62f89245b69f98fad1dba7cbd9201024e2974efbd100255aa600e5305",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DriverJson.java",
+        "bytes": 11237,
+        "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "FullJsonTree.java",
+        "bytes": 9196,
+        "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DecimalTokenNode.java",
+        "bytes": 3400,
+        "sha256": "dcfaa1f41e5dba568e21d61103197827c26704e3e386da48077a8a159812b9df",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "OpportunityJson.java",
+        "bytes": 7208,
+        "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DeclarationOpportunityCooldown.java",
+        "bytes": 22131,
+        "sha256": "6367013d5eff7df15e2c819cb77dc0fbfbc48c1ff31ab70f55d65c2002b1b655",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ArmyWarReadCodec.java",
+        "bytes": 17758,
+        "sha256": "5f5ee492f11fee61c76ff31b83fb3afe534af92f71065182112c3062beecbfad",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ArmyTypes.java",
+        "bytes": 4654,
+        "sha256": "5e971f8859f861fa5a3a32c67e0f97389e3d165e63c9e941be0c27670e797f58",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ArmyCalls.java",
+        "bytes": 13077,
+        "sha256": "a0876f9058a84a8059483a3f52a39618cd79255f748102c761ce7f270bd4ce80",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "PublicMethod.java",
+        "bytes": 17572,
+        "sha256": "35687e7737c9c4112b13992e48e2429ade3f565682aa6eb5862672d80768cd84",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DriverObservationEvidenceReader.java",
+        "bytes": 23478,
+        "sha256": "f9261570044a38bec8c7254aa7d9452e2c6e9f9914df396d79a6f20336968f06",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DriverObservationAssembler.java",
+        "bytes": 28791,
+        "sha256": "e38f5ace67972450970a1c96db1981ef2acae7e58a30ee723f03fc9dd744b4e4",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DriverObservationFacts.java",
+        "bytes": 2488,
+        "sha256": "2b6a592182a5408d6eff3643e36bcbb4cdcb85666ebcec16fa8146909542aad6",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DriverSnapshotFacts.java",
+        "bytes": 14955,
+        "sha256": "f557be8eb7c2e7a43a4c7eb30e4bae25a53f046cda38a33c71edbbbc1208d446",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DriverFrameEvidenceLoader.java",
+        "bytes": 17237,
+        "sha256": "a649f7ef7ba2032245c89429cf1618af6f2e0edba6a0c7548e1c492c8a5c508f",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DriverStateSnapshot.java",
+        "bytes": 18410,
+        "sha256": "c8a13b90ae3c2a93ad7166283c72a22744a4d2a71fbcf9bfd10e51ee45b34cc2",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DriverCheckpointStore.java",
+        "bytes": 13687,
+        "sha256": "6688b546d04172a81c738c55d5676c2a80a51bfb35f5188dd1a9d4ac79596c04",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ActionPorts.java",
+        "bytes": 23186,
+        "sha256": "8f442da38de05a11daa15c4d8eb700f7c609a7e82d4d8de5ea94c171f2b676a7",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "NativeEffectEvidence.java",
+        "bytes": 25459,
+        "sha256": "f1a0bd22c4f179e635554f8c7996ea2290f6a4a18fce738d4a9437a39ee6c490",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "NativeObservationPort.java",
+        "bytes": 1639,
+        "sha256": "66f33fcee1823e3acf9bd2ff047b953d7de1dc74032a1751aefca47fe62b8d2b",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "NativeWire.java",
+        "bytes": 18430,
+        "sha256": "0c8b499fcaf65e864def0ab4015ac3781ec6c33a70bbf7ee105f450510096e04",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ActionCommand.java",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ActionCodec.java",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ActionReceipt.java",
+        "bytes": 5848,
+        "sha256": "dd64077d3b3358f5b34d7b3338aee33897c565bf60b8efd951b0e20a8a462913",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ActionReceiptCodec.java",
+        "bytes": 60717,
+        "sha256": "ce966a1e9e4d69817a023e4db34ec1facd8e87f46e86a0c993e75ade1134f0f5",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ActionState.java",
+        "bytes": 16904,
+        "sha256": "c2dae68947b52d8d5193f731e279ad457e0a27b4880296ef12307073daf78866",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ActionTransitions.java",
+        "bytes": 14813,
+        "sha256": "1537263b690d14d824e9d014531ed883b5b47a0a755fcb9759519eb5e98a22cf",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ActionRecord.java",
+        "bytes": 445,
+        "sha256": "a66f04efe3e9825aff5e3826be052bb687b70bab389486deb3e4bf5125d521e1",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ActionRecordCodec.java",
+        "bytes": 1338,
+        "sha256": "7cae3af6a305e9041f60c66c69d832e64f6f576c57e65e6092120b03840e3e84",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "CommandOrigin.java",
+        "bytes": 5057,
+        "sha256": "3036eb8836c7c4cd76e188d44e1ae664896833a650577d2b0c5aecd6f367ce82",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "GuardEvidence.java",
+        "bytes": 6176,
+        "sha256": "a26fcda93c132568c925090f4717fe1023be4534ce94c74afa7303b4d2a47247",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "CompositeExecution.java",
+        "bytes": 1035,
+        "sha256": "266b348d31cd942347a7443d5dca85a10c6688c7ec943d5417f008d3da81765a",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "PlanningReadReceipt.java",
+        "bytes": 6590,
+        "sha256": "cb78eab706c7497a48a7db8f534c892d8f1fe6790fd0fc730750035dea5efd12",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ReadContract.java",
+        "bytes": 28138,
+        "sha256": "293b06cba88a8eda29c73b48f599583dc63234e9ee8f7cb957a1202b5d6a76e8",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "OriginalEvidencePort.java",
+        "bytes": 511,
+        "sha256": "73e24f1db40f2f5f5d296a3b5c2693e344875065c1d92967e8a198ce2b2f6797",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ArchiveOriginalEvidencePort.java",
+        "bytes": 1038,
+        "sha256": "1e30bb469634e9776c4ba9d47e656d9f79c97c769f5f6bbd22826a155395adae",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ContinuityWriter.java",
+        "bytes": 126589,
+        "sha256": "5b23ade6e962079744aed574c9f3ef5cae4de912b3d9b228b6ae0801895fb217",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ContinuityState.java",
+        "bytes": 7614,
+        "sha256": "a506aec4e6ea48d199bce0c7037e1d32b1864b14f2af82c7807e243ff3f8d6a7",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ContinuityJson.java",
+        "bytes": 10085,
+        "sha256": "7b5e31679b8be7d7ebfe212cf26180323cb10a9614a8ee8d7e07dc2a662d748d",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ContinuityEvent.java",
+        "bytes": 6692,
+        "sha256": "04c43a9d2a26811a4c4453490cdc5e9b194d10ba00f1201238de795c36f47438",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "LedgerFiles.java",
+        "bytes": 15173,
+        "sha256": "f231189a583013abfb8aac2ba0fbd3a05c338c3d7099206bf31177d583263748",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "IdentityBearingFileAttributes.java",
+        "bytes": 27387,
+        "sha256": "c2581fb1b43ceacac0694608c5b9a869b3ac2855052c04025fb1021020fadef1",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "StorageWriteGuard.java",
+        "bytes": 7252,
+        "sha256": "beac715b9e08e4b712c69be2154142c3d8a95c141b0829d90dc0b744816b36ab",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "GameGeneration.java",
+        "bytes": 1618,
+        "sha256": "82f827951e6df97e8546bd4f153bc2d1cc8739cd1274f4a1af84d8d627ea96c4",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "G2Source.java",
+        "bytes": 1330,
+        "sha256": "10a3b417bee865653469cf48d204b5db956941771741bcc2afde355c70d3e60c",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "NativeCharacterId.java",
+        "bytes": 1609,
+        "sha256": "55772f0eabad57d336ec9a0ab2c0335aad4996045529cd8b502a85f6a1fb9938",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "PublicRevision.java",
+        "bytes": 1838,
+        "sha256": "4f04d9aa9aee42928b3fc83c9d03e263df85a578070f2030884276f1fe521a38",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "CrossJsDecimalUInt64.java",
+        "bytes": 536,
+        "sha256": "184f3a1935bf6ff40ba674ad61632b9560a9ddd76b244a54e2b74803aaa98f73",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "PythonOnlyUInt64.java",
+        "bytes": 409,
+        "sha256": "78b09afe4d38e2c66aed3cd89f6c5ce951cd36e2c3bc0851e02e2566f8a15b80",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ProposalLifecycle.java",
+        "bytes": 15603,
+        "sha256": "3c154565347db1d227e54ccc336dcadb255be23d6f5a238e4026f95645126603",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "ProposalLifecycleCodec.java",
+        "bytes": 22989,
+        "sha256": "ef0d9f389a30ea8a538982232705efeef74694fd63f51251214d9cce5fb858e1",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "JointBudgetSelector.java",
+        "bytes": 13271,
+        "sha256": "7eafdbf0a1e5dfc9c3ff2a27185d9b51c361576b0292d644c16afbb6fc1b3662",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "NativeSemanticNormalizer.java",
+        "bytes": 4387,
+        "sha256": "3c592811b700e0bfc725767df3c4caa3185be1eaefcc463091fa733a047d5840",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "NativeCalendarObservation.java",
+        "bytes": 5390,
+        "sha256": "3ececc251223ec1db6fe5de9fcb0828cb285ce0e34b3990c5a515e3b88974ead",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DriverDeclarationContinuityState.java",
+        "bytes": 8947,
+        "sha256": "a7bdaaa215f84a0ee10413c99b5c81c18b2ce80d75867c71c549825cd10d02a1",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DriverSemanticReadState.java",
+        "bytes": 23211,
+        "sha256": "38fd89c62fddd7009a101d0f972d6d3630005279928406c63bce917ec3f32acf",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DriverRuntimeCapabilities.java",
+        "bytes": 9937,
+        "sha256": "54c03a714c7a6932f81f3901260e89b174f793b75d47e8a75996415514f2f1a0",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "CrossRunPlanning.java",
+        "bytes": 21920,
+        "sha256": "78cb5a6b942ff363d7cb4318993f190b2510d125ffdddc89a4ebccdf2192d5c6",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "CrossRunPlanningDomain.java",
+        "bytes": 16011,
+        "sha256": "01640ed1b12e682233ca4b2f5aa07a30b493a6144e2145a80e27871cf1b08672",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "DomainBodies.java",
+        "bytes": 9404,
+        "sha256": "d9c9ed76f9e3ed31ed0c436c2452b4e096dc5b311653fc78ae44b6e657ca7f32",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "CheckpointFiles.java",
+        "bytes": 1300,
+        "sha256": "5d3e9610e7b17db00ad22ade36073870568404f148972ccb6ec2769142f4360e",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "FileStatIdentity.java",
+        "bytes": 1736,
+        "sha256": "69d8e95f620ee13e1d875cdeecc44f65eef1c2389a6edd65ecd645bf21326709",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "AdvanceCompletedRead.java",
+        "bytes": 3914,
+        "sha256": "12a5bcadb4146f35fa9e3ade5a76e88190046d181dea8f05ee7775f9c4e56dd8",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "AdvanceClockArchivedReplay.java",
+        "bytes": 21501,
+        "sha256": "f11778e1a066ed04cfdd6ea112116b6237b29a9e5d454ebbafabffe9f6df2449",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "AdvanceResult.java",
+        "bytes": 25635,
+        "sha256": "80734d781aa2115aea1a61529269448437a44f91e3f985ea4d067ed81f05e525",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "LifeAdvanceEvidence.java",
+        "bytes": 31643,
+        "sha256": "4621dce43198b0c4cd8c0ace938a2fcfb907dc3e5487cd7c30717d2473da713f",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "LifeAdvanceRootReplay.java",
+        "bytes": 20012,
+        "sha256": "3ab5c45c7419ff739ab2964154c2c0561e47a38f8410490033e98c4833779149",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "AdvanceObservationPort.java",
+        "bytes": 4863,
+        "sha256": "dbeb58bfb6b02fd40f4d6dc41beb1e14b47bc449e9a1753797da988ee9effd99",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "CompositeOperatorQuarantineObservation.java",
+        "bytes": 6666,
+        "sha256": "3503e15f9a1110007e8c5e9f7400e0ded908c04571b2c583e0c14bb3fce93cb8",
+        "role": "Complete frozen current component/directdeclaration. Explicit NEWreference is not claimed oldMaveninput; actual35/overlay and Snapshotadoption independently scoped."
+      },
+      {
+        "name": "HISTORICAL-CLOSE-THIN-INDEX80.json",
+        "bytes": 2385,
+        "sha256": "6a62c983edb9a1473824b1709859b6b737596e2f61a5343eafd28d4d3bedc6e8",
+        "role": "Complete existing owner evidence/metrics/105proof metadata; no largeSEM/Driver body read or claimed."
+      },
+      {
+        "name": "HISTORICAL-CAS-METRICS.original.txt",
+        "bytes": 553,
+        "sha256": "c81b7091cd3f9b640b230dd9a0e697b82e59d96b33b1657c1c532b4341be7a4c",
+        "role": "Complete existing owner evidence/metrics/105proof metadata; no largeSEM/Driver body read or claimed."
+      },
+      {
+        "name": "CYCLE80-NAMED-DPP-CHAIN-SUMMARY01.json",
+        "bytes": 12166,
+        "sha256": "04fe17f17b48d9504339cb97d4f036f1a92ea59344b6528e1cc3dc32fa818f12",
+        "role": "Complete existing owner evidence/metrics/105proof metadata; no largeSEM/Driver body read or claimed."
+      },
+      {
+        "name": "CYCLE80-NAMED-DPP-PREVIOUS-CHAIN-REFS01.json",
+        "bytes": 161826,
+        "sha256": "949b1eff34f64b8f331af73e6d79ef924a53f563e9725e0cfee60d3ae0901b50",
+        "role": "Complete existing owner evidence/metrics/105proof metadata; no largeSEM/Driver body read or claimed."
+      },
+      {
+        "name": "OWNED-PREFIX-AND-REPEATED-PARSE-RO01.json",
+        "bytes": 10098,
+        "sha256": "d8ec940303e5c4bccbccf763d0843a0ba54db70d27ff921c39d660d25806696f",
+        "role": "Complete sourcequalification/actualscope/known diagnosis/output/resource contract."
+      },
+      {
+        "name": "SOURCE-READY-TIMELINE-NOEFFECT-AND-RECOVERY-HANDLES02.json",
+        "bytes": 6667,
+        "sha256": "f9e72d930f80aeb84d128a72e049361dd16e3197cd36b0baaa94b7561205fbc6",
+        "role": "Complete sourcequalification/actualscope/known diagnosis/output/resource contract."
+      },
+      {
+        "name": "ACTUAL35-SAMEHOST-RELOAD-HANDOFF80.json",
+        "bytes": 32657,
+        "sha256": "6b68644a2d6446cc558f3ec6d83f0407225d63db7e04f879ad85267ff698382d",
+        "role": "Complete sourcequalification/actualscope/known diagnosis/output/resource contract."
+      },
+      {
+        "name": "ACTUAL-DEV80-MODEL-SDK-AND-BOOT-BINDING.json",
+        "bytes": 2130,
+        "sha256": "e049338069bbbff70f9b21a4c9f726d2a138b0acf16aaf0e1c024c6c949d1fec",
+        "role": "Complete sourcequalification/actualscope/known diagnosis/output/resource contract."
+      },
+      {
+        "name": "FROZEN-CURRENT-SOURCE-REFERENCES01.json",
+        "bytes": 9119,
+        "sha256": "1ac88d7fdc23eae404aa9a1fb9082e4df4dcb70b708f303bd6f74a159ac52294",
+        "role": "Complete sourcequalification/actualscope/known diagnosis/output/resource contract."
+      },
+      {
+        "name": "SOURCE-CONTRACT01.json",
+        "bytes": 7466,
+        "sha256": "c008509b0dd546e099c933687338bb6d7052226fdfa25d06e943121d4a7dbaa9",
+        "role": "Complete sourcequalification/actualscope/known diagnosis/output/resource contract."
+      }
+    ],
+    "provenance": "Explicit frozen currentC NEWreference shape for DPP/Producer/bridge is not invented historical Maven input. Journal/Store/Archive actual overlays and independently qualified/adopted Complete encoder are separately scoped. Already implemented caches/encoder are not new candidate discoveries.",
+    "owner_RO": "105proofs/68distinct semantic refs/105distinct framepairs and28 matching namedcycle refs are metadata facts, not measured parse/memo rates. Actual1373.576329s historicalscope wall and95005bytebound admissionattempts/1564unretained are not CPU, distinctrefs or cachemisses. No large Driver/SEM body read is claimed."
+  },
+  "HTTP": {
+    "task": "history-replay-subprefix-dependency-implementation01",
+    "POST_BEGIN": "2026-11-14T11:31:14.830417+00:00",
+    "END": "2026-11-14T11:34:17.356962+00:00",
+    "attempts": 1,
+    "retries": 0,
+    "http_status": 200,
+    "finish_reason": "length",
+    "sse_done": true,
+    "strict_JSON": {
+      "status": "UNKNOWN",
+      "top_level_type": "UNKNOWN",
+      "reason": "NON_STOP_FINISH",
+      "error": null,
+      "offset_units": "Unicode code points",
+      "max_utf8_bytes": 1048576,
+      "semantic_review": "OWNER_REVIEW_REQUIRED"
+    },
+    "headers_ms": 145178.64199983887,
+    "TTFT_content_ms": 145179.712299956,
+    "total_ms": 182526.45869995467,
+    "usage": {
+      "prompt_tokens": 545936,
+      "completion_tokens": 6000,
+      "total_tokens": 551936
+    },
+    "cached_prompt_tokens": null,
+    "request": {
+      "bytes": 2281962,
+      "sha256": "f8479b5d285dd4eb18bd35808db8770520d2e32f6dc741ba1e64ec8d2b7beaf3",
+      "name": "REQUEST.json"
+    },
+    "prewire": {
+      "bytes": 2281962,
+      "sha256": "f8479b5d285dd4eb18bd35808db8770520d2e32f6dc741ba1e64ec8d2b7beaf3",
+      "name": "REQUEST-FROZEN-BEFORE-POST.json"
+    },
+    "preactual_byte_exact": true,
+    "whole_files_count": 89,
+    "complete_java": 79,
+    "whole_source_SHA_inline_verified": true,
+    "max_tokens": 6000,
+    "fixed_messages": 3,
+    "profile": {
+      "read_seconds": 600,
+      "total_seconds": 2400,
+      "transient_attempts": 6
+    },
+    "network_routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    },
+    "adoption": {
+      "source": 0,
+      "tests": 0,
+      "javac": 0,
+      "live": 0
+    },
+    "CONTENT": {
+      "bytes": 28798,
+      "sha256": "93bb5b458d6c09f762275794970ad1c2e2d8ee08c8afae417ec102b8742bc6e5",
+      "name": "ATTEMPT1-CONTENT.txt"
+    },
+    "SSE": {
+      "bytes": 614477,
+      "sha256": "9e7559feedec1e935276b208eac5e283cff0ab1e8fe0d657a4f4c7a6066fddcb",
+      "name": "ATTEMPT1-RESPONSE.sse"
+    },
+    "disposition": "WHOLE_UNUSED_SEMANTICALLY_UNREAD_NO_CONTINUATION",
+    "response_semantically_read": false
+  },
+  "group": {
+    "logical_requests": 4,
+    "first_parallel_implementation_tasks": 2,
+    "complete_B_repair_iterations": 1,
+    "independent_narrow_ancestor_design_tasks": 1,
+    "actual_HTTP_attempts": 4,
+    "transient_retries": 0,
+    "complete_stop_responses": 3,
+    "whole_length_unused": 1,
+    "source_or_test_adopted": 0,
+    "actual_peak_HTTP": 2,
+    "peak2_overlap_seconds": 156.027739,
+    "current_inflight": 0,
+    "reported_input_tokens": 2193206,
+    "reported_output_tokens": 10313,
+    "sum_HTTP_ms": 433128.2265998889,
+    "first_BEGIN_to_last_END_seconds": 998.510566,
+    "parallelism_fact": "Only initialA/B overlapped. B02 and narrow newA were separate later intervals, no fabricated peak4.",
+    "first_pair_full_wires_frozen_before_first_POST": true,
+    "same_new_aggregate_limit": 33554432,
+    "original_A_length_read_or_continued": false,
+    "owner_input_erratum": "Initial B task/contract incorrectly described actual StrictJson1MiB as2MiB; full source supplied correct constant; B01 code used actual constant. B02 explicitly corrected owner statement, originals kept.",
+    "no_service_cache_context_queue_capacity_or_runtime_ROI_inference": true,
+    "at_utc": "2026-11-14T11:49:43.105641+00:00"
+  },
+  "source_review": {
+    "classification": "WHOLE_LENGTH_UNUSED_NOT_SEMANTICALLY_READ",
+    "response_read": false,
+    "hunks_extracted": false,
+    "continued_or_rePOSTed": false,
+    "checks": [
+      "The finite6000-token first implementation reply ended length. Rawstream/content/usage are retained only as unused evidence; no semantic claims or patch are extracted.",
+      "Later ancestor design is a narrower independently worded task using the complete same sources. No part of this length output is supplied or continued."
+    ],
+    "adoption": {
+      "complete_designs": 0,
+      "source_hunks": 0,
+      "Test_hunks": 0,
+      "model_independent_source_findings": 0,
+      "model_JVM_or_live_operations": 0,
+      "no_technical_NO_of_real_performance_opportunity": true
+    }
+  },
+  "adoption": {
+    "complete_designs": 0,
+    "source_hunks": 0,
+    "Test_hunks": 0,
+    "model_independent_source_findings": 0,
+    "model_JVM_or_live_operations": 0,
+    "no_technical_NO_of_real_performance_opportunity": true
+  },
+  "resources": {
+    "new_history_aggregate_once": 33554432,
+    "engineering_cap": 1610612736,
+    "fresh_referenced_forecast_with_separate_formal16M": 1436664530,
+    "four_request_forecast": 26142272,
+    "old_all_actual_and_other_futures_preserved": true,
+    "no_unused_release_before_complete_actual_and_Git_closure": true
+  },
+  "cost_limits": {
+    "earlier_discovery_labor": "UNKNOWN; not backfilled",
+    "review_BEGIN": "UNKNOWN; first source reading preceded durable completion record",
+    "HTTP_separate_from_preparation_review_Git_and_Runtime": true,
+    "no_server_CTX_cache_queue_capacity_or_ROI_inference": true
+  },
+  "next": "Owner may implement the actual dependency-closure and finite private semantic reuse units independently. These outputs do not establish software NO, validation success, real adoption, Game permission or speedup; no extra HTTP is launched to fill concurrency."
+}

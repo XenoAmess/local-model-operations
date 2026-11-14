@@ -6641,3 +6641,8 @@ Owner5方法通过，实际生成独立四文件包、XML引用／byteSHA与meta
 主334以新f70b50de…存档保存，正式退出后自有16524自然消失，0主地图／军队／文职动作和END334。私有static-control119／12diff和4file地图已安装，新13172实例cold前Steam14904后台新鲜offline0.004468秒、无截图；0上线／上传。实际地图domain可选／自动2major0citystates，MapGen回调与当前加载日志顺序实证后只投自有HWND Esc一次，独立UI/Core读回。
 
 Owner修正均不归模型：Mods同名8/32导致查询在CMD前拦截；g_PlayerParameters误按0索引，实际原版getter取对象，失败均在setter前；新局T1不是假定T0，守卫拦截后读取实际值；首端点漏port在LSQ前失败，LoadScreen timeout不重放游戏动作。累计773logical／718complete含历史JSON拒绝／52length／3最终transport／803HTTP／30extra；server并行／cachedtokens／Owner有效时间／净收益null，TC036仍PARTIAL。
+
+
+### 2026-11-14 History replay 两实现、一纠错和窄设计：peak2、length整弃、0采用
+
+初始A/B先冻完整79Java前缀后同批POST，A6000 length整件语义未读保UNUSED；B5000完整stop但double-final/checkedIO、新capture每次清空、callback首错/cleanup/graph账不闭。一次真实B02纠错全81Java后stop，去掉语法/authority捕获却无cache创建/set/restore，分支恒null，0采用。随后独立窄A只索最小祖先依赖设计，完整同79源，不读不续旧length；其whole-backward/proof-only集合遗漏forwardframe/receipt/opaque依赖且API不成立，0设计采用。4请求合2193206in10313out、0瞬错、3stop+1length；仅初始pair真实peak2重叠156.027739秒（先前从较早A起算多14.868ms的消息保历史），当前0。原B输入误写explicit2MiB属owner说明错，真实整源码1MiB、代码用原常量；原件不改，B02明确纠正。纯DATA缓存必须给真实创建/寿命/所有权与保留图计量，不能用not_closed假定外层已有；祖先复用必须合闭proof+forward全依赖，不能只从终态Set筛回被taint轨迹。0source/Test/软件或实机资格，不以模型坏稿封真实性能机会。见[首A整弃](evidence/2026-11-14-ck3-history-ancestor-implementation-length.md)、[首B静态拒](evidence/2026-11-14-ck3-history-semantic-implementation-static.md)、[B纠错缺接线](evidence/2026-11-14-ck3-history-semantic-repair-deadpath.md)、[窄祖先设计](evidence/2026-11-14-ck3-history-ancestor-partition-design.md)。
