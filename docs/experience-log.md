@@ -462,3 +462,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：缺import的真实副作用位置与schema适配
 
 [801](https://github.com/XenoAmess/civ6_dev/blob/ce5d8e5862c0215c94b1e9003338c25558011164/docs/research/baiqi-pressure-main334-launch-preparation801-2026-11-15.json)先沿实际语句定位错误在意图之前还是之后，隔离表达式复现不能写成整段实际运行。版本/文件数量/commit不代替manifest值核对；平面与嵌套回执按真实消费者绑定。proof创建时新鲜不保证发令前仍新鲜，发令前再核且未知不重放；不能用软件fakeproc见证授真实外部动作。
+
+
+### 2026-11-15：正式采样与模型任务必须双向占用
+
+[804](https://github.com/XenoAmess/civ6_dev/blob/c21ee3d38bd367f868d8a85ddf91530cd54f34c2/docs/research/baiqi-pressure-N4-invalid-admission804-2026-11-15.json)只在调用前看标记不能关闭TOCTOU；正式方先独占标记后查模型租约，模型方建租约后再查正式标记。两个模型可并行；两方都拒绝是安全结果，不要求恰好一方成功。统计竞争临界区同时入场峰值，不能用整段成功次数替代。正常/回滚清理也必须核自己路径/nonce/role，不吞异常或清foreignmarker；未知中断留存直到Owner有终态证据，不能按时间猜stale。正文length未读整弃与宿主调度失误分账，环境无效整侧排除不得择优；判废记录时机写实，不回填完成前。

@@ -6833,3 +6833,10 @@ Owner实际后台读Text→Document→Pane→Pane→Window，头部支持Invoke�
 ## 2026-11-15：801普通包冷启候选，副作用前缀与回执消费者
 
 [来源](https://github.com/XenoAmess/civ6_dev/blob/ce5d8e5862c0215c94b1e9003338c25558011164/docs/research/baiqi-pressure-main334-launch-preparation801-2026-11-15.json)。7866/3841tokens、23281.3124ms/TTFT1327.3010，stop/DONE/strictJSON、1POST无重试；N3正式采样停且退出后/N4正式采样前。主体部分采用，rawenv用os无import；若前门全满足会在写意图后/Popen前NameError，本次仅表达式隔离复现、0真实意图。Owner补精确PID/birth有限同实例、awareUTC/发令前freshage、marker值、EXEfile、CLI与源指纹；按所供实际旧消费者绑定flatpid/created_at/exe，不虚构resolved_exe或拿nestednew_identity交平面API。21Owner隔离检查，0候选测试代码/真实Steam查询/Native/Popen/安装/主存档load。累计801/743complete/55length/3finaltransport/831HTTP/30extra；缓存/Ownerfullcost/netsavingsnull。
+
+
+## 2026-11-15：802截断／803环境失效／804双向入场门
+
+[精确来源](https://github.com/XenoAmess/civ6_dev/blob/c21ee3d38bd367f868d8a85ddf91530cd54f34c2/docs/research/baiqi-pressure-N4-invalid-admission804-2026-11-15.json)。802为10007/4300tokens、25716.2636ms、TTFT1647.6784，length整份未读，extractor在CONTENT读取前assert停止，0采用。803缩为复用成熟校验后8091/2135、14336.4320ms/TTFT1391.4379、stop/DONE/strictJSON，候选本切点未审；Owner却在Native正式4E期间POST，整侧五段明确拒绝并保原值。判废持久化时capture已COMPLETE，不冒称完成前；决定未依据最终耗时，后续才展示数值。部署/采样编排失误不能归模型传输或作为代码正确性结论。
+
+804为4393/2093、12725.1132ms/TTFT767.5561、stop/DONE/JSON有效，在全部Native停止后新真实修复任务。原子文件/双检查/异常保留骨架部分采用；raw正常/回滚直接unlink且吞cleanupOSError、缺父目录、scanerror不回滚、忽略非JSON活动，0原样安全清理采用。原11方法4错误；race错用成功调用总数而非同时入场峰值，本次碰巧过不授互斥。Owner新增路径/nonce/role核验、失败留存与scanfailclosed，45方法过含24轮线程竞争、实际负向子CLI、旧正式marker与模型并存时0Native查询；软件不授硬件或Native拒绝实测。Civ6适配器只包共享CLI/每日维护/HTTP，不另实现SSE或改参数；正式失败不自动清标记，未知模型子进程中断不自动释放，Owner先对账。累计804/745complete/56length/3finaltransport/834HTTP/30extra，缓存/Ownerfullcost/netsavingsnull。
