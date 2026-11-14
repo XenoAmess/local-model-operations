@@ -1908,3 +1908,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：793缓存维护不授Native效果
 
 [记录](https://github.com/XenoAmess/civ6_dev/blob/c641c0f6c4f779686877ae875c95459fe6611b99/docs/research/baiqi-pressure-nosite-stageA-fixture793-2026-11-15.json)普通HTTP复用本机本用户Nov15成功1.19.5每日检查；OpenCode原生工具生成session0。CLI候选语法通过与实际变量绑定缺陷分别记录，0Native使用。
+
+
+### 2026-11-15：794/795继续分轨
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/5f0ec7811f9957ec8ab703009b2cc30c65998afc/docs/research/baiqi-pressure-nosite-driver794795-2026-11-15.json)普通HTTP复用Nov15本机本用户1.19.5成功每日缓存；OpenCode原生工具生成session0。候选完整传输与跨上下文语义失败分开，离线compile不授Native效果。

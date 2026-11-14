@@ -425,3 +425,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：CLI薄适配也要检查实际绑定与模式入口
 
 [793](https://github.com/XenoAmess/civ6_dev/blob/c641c0f6c4f779686877ae875c95459fe6611b99/docs/research/baiqi-pressure-nosite-stageA-fixture793-2026-11-15.json)Python AST合法不证明mode定义，动态PID/指纹/日历正确也不能抵消未绑定CLI。可隔离执行最小dispatcher见NameError，0Native/文件意图；补入口后只做真实Lua合同正负/语法检查，不为查绑定而启动游戏。记录准备、软件过、安装和实机层级，不提前授完整夹具效果。
+
+
+### 2026-11-15：源码替换命中与实际Lua命名空间都要验证
+
+[794/795](https://github.com/XenoAmess/civ6_dev/blob/5f0ec7811f9957ec8ab703009b2cc30c65998afc/docs/research/baiqi-pressure-nosite-driver794795-2026-11-15.json)同API名称在Executor存在不等于ActionPanel可见；对真实callee变换检查每mode命中而非仅看s.replace语句。编译不解析runtimeglobal，隔离实际namespace可反证nil；不要靠把守卫挪入未知上下文省掉真实跨context预检。保留driver/child各自CLI合同和实际receipt字段/根路径，缺声明不得造key。负例明确false与合同ValueError两种拒绝，不为Owner期望修源。

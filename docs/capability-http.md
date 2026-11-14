@@ -6790,3 +6790,10 @@ Owner接管未读782截断的driver/player，实际T0..max/source142ordinaryonly
 [证据](https://github.com/XenoAmess/civ6_dev/blob/c641c0f6c4f779686877ae875c95459fe6611b99/docs/research/baiqi-pressure-nosite-stageA-fixture793-2026-11-15.json)11479/2161tokens，14352.873ms/TTFT1763.2605，1POST/峰1/stop/DONE/validJSON。基于实际H载入生命周期/StageA生产者/NO_SITE773指纹，产出动态PID/birth/exe、固定92f295622bytes、实际T1/h日历1/2/6、零计数、独占意图、warm60/Restore/精确重载、日志资格/ownedHWNDoneEsc完整适配。原AST可解析但漏mode=sys.argv1，最小实际分支独立执行NameError、0Native；Owner补该绑定及显式Rootsys.path，修cosmeticH标签，其余主体采用。4双Lua编译/18正确负场景/精确continue源锚点通过，0测试代码由模型供应。仅准备、未装/未Native；初始财务/队列/演员/地图细读另待，不能套MANY125金/12推荐。
 
 调用仅在S3启用侧正式停止及save/exit后等待期，未与采样重叠。累计793/735complete/55length/3finaltransport/823HTTP/30extra；cache/ownerfullcost/netsavings均null。源码142119及Steam离线保持，MANY仍待全部25配对，NO_SITE性能未测。
+
+
+## 2026-11-15：794/795真实NO_SITE驱动适配，跨模式与上下文错误由Owner接管
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/5f0ec7811f9957ec8ab703009b2cc30c65998afc/docs/research/baiqi-pressure-nosite-driver794795-2026-11-15.json)7944513/3226tokens，22247.3767ms/TTFT1252.0818；7954188/1444，11980.8211ms/TTFT1436.2754，均stop/DONE/validJSON，两POST峰2重叠11.981325s，仅S4对照侧采样停/save/exit后等待期调用。794将子CLI塞进无参数driver（隔离IndexError），错构.local-model/B回执目录、虚构resolved_exe字段（实际launchschema无该字段），漏Root导入/Gitclean；实际TABparser探针通过，不造delimiter错误。795select/end预检replace实际未命中、step在ActionPanel取Executor私有P6PerfPlanA，实际三mode注入false/true/false及两Lua nil反证。无候选测试代码。
+
+Owner仅取794固定purevisibility函数，795零原样代码；从Native已过H做精确calendar1..7和动态身份窄port，保留独占意图/onewriter/六ordinaryEND1..6/五window2..6/closing7/noEND7/180swatchdog/完整preanchor门/原版TEST_PLAYER外交Esc/失效自有recording停。Executor预检后再原Armypositive-list/SKIP/普通END，ActionPanel无Executorglobal；实际driver42+child16 dualLua compiles/13closingcases过，0Native。Owner最初把pending0/recorded1/validated0负例期待false，实际正确ValueError，修witness不改source。安装器只读119source/119prepared/archivece5e/mapaddonchecks过，要求MANY S5controlownedgone，未安装。初始fullreader/collect/analyze/save/exit仍待，软件不授NS性能。累计795/737complete/55length/3finaltransport/825HTTP/30extra，cache/ownerfullcost/netsavingsnull。
