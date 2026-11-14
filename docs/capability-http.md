@@ -6498,3 +6498,8 @@ A56完整Java+18小原件/合同，B92完整Java+4合同（17candidate/15BASE/Fr
 Owner独立被动观察器10新增方法（双Lua子场景非20独立方法），相关合计369过；无原游戏回调包装／动作／属性写入，Add未知仅清理自有回调一次、Remove未知保持订阅未知。尚未Native，旧恢复FAIL不解除。先恢复发布包主333冷兼容／事件读回，剩余四组仍按冻结规则待做。
 
 两次各1attempt、stop／DONE／strictJSON、依次新增峰1；累计755逻辑／702完整流（含历史JSON拒绝）／50length／3最终transport／785HTTP／30extra。原值tokens／耗时见[共享JSON](evidence/2026-11-14-civ6-pair142-C1-event754755.json)。缓存token／Owner主动成本／净节省null。
+
+
+### 2026-11-14 reserved6 两独立审：组件有限空答与first-event误读
+
+A69整Java+25小原件/合同，冻结Proof02/Token01/samecall组件+core4/C6成熟声明，明确非新Root/WAL；B103整Java+24小原件/合同，后到完整coherent17/union55/15BASE及继承/Frame声明，未输入A答案。固定3消息/source600/2400/max2200/目标800；两首stop/DONE/strictJSON、0retry，合1189302in214out。A74tokens仅scope限制、0finding，不授完整proof验证；B两项把switch(old.state)的Reservedfalse误当拒next，遗漏顶部emptyprevious第一事件允许分支及幂等append前return，源码均拒收/0hunk。A39.728s先闭，B准备后131.056s，实际peak1无重叠，不凑峰2；A通知延迟数分钟、B约88s单列，不混HTTP。0source/Test采用，不授NoDispatch/ACK/IDLE/credit/软件/实机；新20M预算独立/旧actual全保。见[组件](evidence/2026-11-14-ck3-reserved6-proof-component-review.md)、[first event](evidence/2026-11-14-ck3-reserved6-first-event-review.md)。

@@ -1,0 +1,1055 @@
+{
+  "schema": "local-model-operations.http-source-review/v1",
+  "date_local": "2026-11-14",
+  "mode_id": "http_candidate",
+  "input": {
+    "scope": "Frozen coherent17/union55 with complete15BASE and necessary direct declarations/actual callers; independent of A result.",
+    "complete_java_files": 103,
+    "complete_other_files": 24,
+    "full_files": [
+      {
+        "name": "ActionState.java",
+        "bytes": 16904,
+        "sha256": "c2dae68947b52d8d5193f731e279ad457e0a27b4880296ef12307073daf78866",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionReceipt.java",
+        "bytes": 5848,
+        "sha256": "dd64077d3b3358f5b34d7b3338aee33897c565bf60b8efd951b0e20a8a462913",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionTransitions.java",
+        "bytes": 14813,
+        "sha256": "1537263b690d14d824e9d014531ed883b5b47a0a755fcb9759519eb5e98a22cf",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionReceiptCodec.java",
+        "bytes": 60717,
+        "sha256": "ce966a1e9e4d69817a023e4db34ec1facd8e87f46e86a0c993e75ade1134f0f5",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "CanonicalFundingPending.java",
+        "bytes": 23920,
+        "sha256": "24a273615cac67647cc9b269708c0730ebccaa9921918ffcdff2703013d54139",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "McpAutoTurnEncoder.java",
+        "bytes": 29968,
+        "sha256": "cc97c3ff2cb8e38b1f07902e333e18fdcf6a196b7f3519d2da4c0d6b67bd5f9e",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "LifeAdvanceComposite.java",
+        "bytes": 87370,
+        "sha256": "becae7a0bbbcf111b06d117e5a3b2d155021afb77f737bd520b316e73c7006a3",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootApplicationSession.java",
+        "bytes": 107756,
+        "sha256": "51fc9523435b1715a8d1a9e5c64b07c9c92737adb6cd755cddccded8798212ed",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootOrdinaryRuntimeAssembly.java",
+        "bytes": 83999,
+        "sha256": "9a57dac4b1069df846aa6d4d551a9da58592e427919e85cb69ddcb3df8b0b182",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityActionJournal.java",
+        "bytes": 24919,
+        "sha256": "733327afe9b759fdffe0f54acc5242f883e1185d2cda3fe8bfb83ea59303b147",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 510195,
+        "sha256": "4e6562772e42d574c551ac716885c2ca2864f3500e9b397ce758f8d9739b4d31",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootLifeRuntimeFactory.java",
+        "bytes": 113600,
+        "sha256": "fdc52489593be6c28d2099a050de758d155b44692864d34095e7e2d0445b5414",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "AdvancePrimitiveArchivedReplay.java",
+        "bytes": 22312,
+        "sha256": "66bf8d89a0e849f983b9955727d8e3050db112104571e818b8c42f024f8e1bc4",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeRecordedEvidenceVerifier.java",
+        "bytes": 46995,
+        "sha256": "38219759f8e990187076898b91322e027393e1f4b6e221a1de48022133208c64",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 148597,
+        "sha256": "d608934517b272fceb2f67f75c61157490a7ce5d957237ca75084f8b7a0ffecb",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ReservedPreparedCleanupNoEffectProof.java",
+        "bytes": 37855,
+        "sha256": "0df24575f4346a44989394c59e689366d20b744ee01d1e6cb520c0269deed136",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ReservedCleanupNoEffectReconciliationToken.java",
+        "bytes": 2964,
+        "sha256": "9fa70807840556cf579fd963cdd7dee1d0e1233b1220cd3d9de49dc98998b069",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionPorts.java",
+        "bytes": 23186,
+        "sha256": "8f442da38de05a11daa15c4d8eb700f7c609a7e82d4d8de5ea94c171f2b676a7",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionCommand.java",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionCodec.java",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionIds.java",
+        "bytes": 3215,
+        "sha256": "3ec3268ab673adb38b84b666ec413ccca27596e1e88c07f24065109b7ecb869b",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RequestIds.java",
+        "bytes": 1393,
+        "sha256": "0db5fefc4039e4e4445e5c947d041b8eb3cb21de06566e7b7040847b06ec1b0f",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "OperationKey.java",
+        "bytes": 413,
+        "sha256": "bc21f4c9f71e1964569c1c0218e38cf3c9b5177da99338b28bfa08ddd043ca57",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "CommandOrigin.java",
+        "bytes": 5057,
+        "sha256": "3036eb8836c7c4cd76e188d44e1ae664896833a650577d2b0c5aecd6f367ce82",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "GuardEvidence.java",
+        "bytes": 6176,
+        "sha256": "a26fcda93c132568c925090f4717fe1023be4534ce94c74afa7303b4d2a47247",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionCommandScope.java",
+        "bytes": 2813,
+        "sha256": "b8e6f08334f8a84a93e6aabf27b2c5eda7760959223c08d4ba42ff7f2ffe9ebd",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeRequest.java",
+        "bytes": 2170,
+        "sha256": "0030edd3d9987415a4a7cac48157eb7455ef5586098defe7d6b1e9f8b503d83e",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeRequestChronology.java",
+        "bytes": 14185,
+        "sha256": "ec05a0cea8abcf21bc7a6bc26c47c1baaa1dbe45e0e4f878c61616cb549f3c92",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeActionPort.java",
+        "bytes": 11308,
+        "sha256": "ff69d9d5ef6a75c0f5c03e9b83a165a1e5544d4e8f044d3c886bd865a04daa81",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeObservationPort.java",
+        "bytes": 1639,
+        "sha256": "66f33fcee1823e3acf9bd2ff047b953d7de1dc74032a1751aefca47fe62b8d2b",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PlanningReadReceipt.java",
+        "bytes": 6590,
+        "sha256": "cb78eab706c7497a48a7db8f534c892d8f1fe6790fd0fc730750035dea5efd12",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ReadContract.java",
+        "bytes": 28138,
+        "sha256": "293b06cba88a8eda29c73b48f599583dc63234e9ee8f7cb957a1202b5d6a76e8",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PhysicalStatusIdentity.java",
+        "bytes": 4112,
+        "sha256": "ed93358d81a387771be86249a5ec183a9fba9da02f88062e26329f9abaaa2699",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "LifecycleIdentity.java",
+        "bytes": 6476,
+        "sha256": "5fc4fe856ac221cd4da207b29e1c55403d98af38e1554e210c2a8c53bc1a14f1",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ObservationProvenance.java",
+        "bytes": 8409,
+        "sha256": "1b58db19351227e0ff9873adc703bbe845503c2c946262272ac1b9775d912e15",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ObservationProvenanceCodec.java",
+        "bytes": 9758,
+        "sha256": "ff9b0c32bd69650f051e6c62bc39581ae730575aa4a132a35a1094510878083b",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupAction.java",
+        "bytes": 3457,
+        "sha256": "dbe40c5a575cddd012ac8c06773fb914f3bd4d9a124dbc2dab5f4f757d5210d2",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupActionCodec.java",
+        "bytes": 3783,
+        "sha256": "e4d3252bda8d172229c7b44ded969df0d9404aa63d531f953a165e474cb7c35c",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupEvidence.java",
+        "bytes": 42786,
+        "sha256": "e5eaaa7249c32f662c4ba07c27d75b54f4b79b2814035a970721ff6e6a528909",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupSuccessorEvidence.java",
+        "bytes": 13463,
+        "sha256": "dc7a3148b33fc848e3826866f8ef9a83ad883f2eb2514a1d8c361e6358dc6895",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupReplay.java",
+        "bytes": 3642,
+        "sha256": "8b23c9ec17a0149863c14704049d901ab07d09968eec21790baab291602d0163",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupCursor.java",
+        "bytes": 4713,
+        "sha256": "d3aaa2cddc02989252cbf608af3073b3c80d2492090684011528036c993bca80",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupNoEffectProof.java",
+        "bytes": 32651,
+        "sha256": "871d5b3ddc2ad495608548d095ab1c4965e12c9dbfa9c3dee2fcf006b1212bf8",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedNoEffectReconciliationToken.java",
+        "bytes": 2634,
+        "sha256": "3577ba81da273a8d20124fbb00c84894a8d95842f6352bbb7948ef539f2cd882",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PostExitCleanupNoEffectProof.java",
+        "bytes": 33571,
+        "sha256": "91780874e76b81c4fb25ab8e2b5bbb0d2aba2f104426a660f3338ffe0cbc5665",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "LifePostResumePauseCleanupProof.java",
+        "bytes": 29764,
+        "sha256": "9f40c17deef892fca478603b910e684c83c0453f32afe59dedeceb1fd7eb258b",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "LifeAdvanceEvidence.java",
+        "bytes": 31643,
+        "sha256": "4621dce43198b0c4cd8c0ace938a2fcfb907dc3e5487cd7c30717d2473da713f",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "LifePreparedCleanupContinuation.java",
+        "bytes": 3990,
+        "sha256": "a1a65d006696051bf64b22fc29689bd2c278ed4e1eafc92fd1a135565ab79c2a",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "CompositeActionPort.java",
+        "bytes": 5181,
+        "sha256": "4d36a9b0d06cddfe291ffcb1cc9e2aa0a5ae5a10532fbb603ffef435f4b9ef5e",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "CompositeContinuationToken.java",
+        "bytes": 481,
+        "sha256": "0bf1f6cbc2fce3d395b1fa9a4b8eac2a2ed23fcbce02aa2d66440f66fcec8c4a",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "AdvanceObservationPort.java",
+        "bytes": 4863,
+        "sha256": "dbeb58bfb6b02fd40f4d6dc41beb1e14b47bc449e9a1753797da988ee9effd99",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ClockStatusRead.java",
+        "bytes": 18063,
+        "sha256": "f6d3be5a0eb7adba055c06dbbf5d548dbf2b38ce4d02077e1bcf25f6ab3d255b",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "AdvanceClock.java",
+        "bytes": 39197,
+        "sha256": "35e3f0f8678d8dd1be5305b019e6f0b802146c825ccd08c711c51e60d738cab6",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeEffectEvidence.java",
+        "bytes": 25459,
+        "sha256": "f1a0bd22c4f179e635554f8c7996ea2290f6a4a18fce738d4a9437a39ee6c490",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootGuardEvidence.java",
+        "bytes": 13774,
+        "sha256": "976ce47e315e1273944482dd6c981239d1a0611297f0a42e9bfc94df229ea7d6",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "OriginalEvidencePort.java",
+        "bytes": 511,
+        "sha256": "73e24f1db40f2f5f5d296a3b5c2693e344875065c1d92967e8a198ce2b2f6797",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeWire.java",
+        "bytes": 18430,
+        "sha256": "0c8b499fcaf65e864def0ab4015ac3781ec6c33a70bbf7ee105f450510096e04",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeFreshSnapshotPort.java",
+        "bytes": 10458,
+        "sha256": "c96cf9e1a5e334a1a2b4244275541bcb38f2348ffbd008b64f1b659d27d1dcc2",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "DriverJson.java",
+        "bytes": 11237,
+        "sha256": "95c3c7753d6c91c1ee5b95d3e3377d71a42da8eeb0a88fd5d9f893ead9a3938e",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "FullJsonTree.java",
+        "bytes": 9196,
+        "sha256": "e36207ea51a1af55c85dbb079b733e14d53aa8108ef0b78545442564214a129a",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "DecimalTokenNode.java",
+        "bytes": 3400,
+        "sha256": "dcfaa1f41e5dba568e21d61103197827c26704e3e386da48077a8a159812b9df",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "OpportunityJson.java",
+        "bytes": 7208,
+        "sha256": "fbbd3b1cf196d1969bcdb4dfef5f3be0fb4d2a6f592d4c696aeb228cee50de5a",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "G2Source.java",
+        "bytes": 1330,
+        "sha256": "10a3b417bee865653469cf48d204b5db956941771741bcc2afde355c70d3e60c",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "GameGeneration.java",
+        "bytes": 1618,
+        "sha256": "82f827951e6df97e8546bd4f153bc2d1cc8739cd1274f4a1af84d8d627ea96c4",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "LateOutcome.java",
+        "bytes": 15204,
+        "sha256": "99729d5d9521bec42d359e46781edcb602e5066a710c47976b8c94b60e780c99",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootApplicationAssembly.java",
+        "bytes": 255287,
+        "sha256": "aeac3aef2337d85a66b3f1fe4694e62902f162a7cdec3b0d1e999860c5bd9e73",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootRuntimeContext.java",
+        "bytes": 29729,
+        "sha256": "96902287df750a5f006321e41ae840e270e7bfeb3ba47dba3cd15de70743cbe2",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootPreparedCleanupScope.java",
+        "bytes": 11748,
+        "sha256": "d782009f5ac32a267c15b87d1276514773420c322e603d66389990e8d965f03f",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionJournal.java",
+        "bytes": 2794,
+        "sha256": "5b224d9636086b5d23614e84f1398e402c45031c59b8049131fb06edc974ad51",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionSnapshotReader.java",
+        "bytes": 2463,
+        "sha256": "2bfd32ef7f9d5d3f6fb7bdc6cd5229390b135185c7d68d69ed66ed90dd102f88",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionCoordinatorPort.java",
+        "bytes": 2581,
+        "sha256": "e556ae67de18450bc2828fbf2b4a899e3ada65a1c46524591231919ed5f7b89d",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionCoordinator.java",
+        "bytes": 62306,
+        "sha256": "a6eeebf56e814d7c6f464aa6403d8ed08bee518dada7f7392b1f9ed66d525afd",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupCoordinatorSupport.java",
+        "bytes": 13740,
+        "sha256": "3221c57b46229686a6e563f19d0e56d2e1dd7accc79013ccb2e7c9f57c57643d",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "PreparedCleanupFailure.java",
+        "bytes": 3746,
+        "sha256": "f049c2b35682699f5061ce05d76748360cd0d326e2336662ef5674e5e17c43ec",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "SessionPorts.java",
+        "bytes": 23739,
+        "sha256": "4f71dbe0e2da0f56918232a16c6051c3a39d8d6c30f03ce1a3fe24323a216c77",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityWriter.java",
+        "bytes": 126589,
+        "sha256": "5b23ade6e962079744aed574c9f3ef5cae4de912b3d9b228b6ae0801895fb217",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityState.java",
+        "bytes": 7614,
+        "sha256": "a506aec4e6ea48d199bce0c7037e1d32b1864b14f2af82c7807e243ff3f8d6a7",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityJson.java",
+        "bytes": 10085,
+        "sha256": "7b5e31679b8be7d7ebfe212cf26180323cb10a9614a8ee8d7e07dc2a662d748d",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityEvent.java",
+        "bytes": 6692,
+        "sha256": "04c43a9d2a26811a4c4453490cdc5e9b194d10ba00f1201238de795c36f47438",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativePrivateActionPermission.java",
+        "bytes": 8580,
+        "sha256": "dc5300678a247a64265445640d0cec6a8058de72b6a6a8414612f893fc281d2b",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ManagedGameSession.java",
+        "bytes": 17346,
+        "sha256": "034601687ab5d9ace72acff511f70ac8c535173e8d1958360eca9bd8e2f05219",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "GameLifecycle.java",
+        "bytes": 4250,
+        "sha256": "5597083ed7112ab5b1168ab858d2336f4cd0fca5bee379a6cca1260bab0ef14f",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "GameSupervisorControl.java",
+        "bytes": 9569,
+        "sha256": "c4fb8f0fe7625e5229980ebbc488e5c2606df97c2e83b33f0416dbb4e91c6369",
+        "role": "Complete coherent17/current union55 B consumer or necessary actual caller/direct declaration",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionState.java",
+        "bytes": 16004,
+        "sha256": "1b58941b54451bb573b5c4c064044e2ad09622353f8b517645e1dbf8140ea611",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionReceipt.java",
+        "bytes": 5725,
+        "sha256": "2857682e8bbc4fe71444bc884e13cc67aa02ac56ae20ee5bcb97569dc67c4931",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionTransitions.java",
+        "bytes": 14134,
+        "sha256": "5d3786a8edb5a0a906b0c4cde956959525d922560b9683374b97a725d0d4b47a",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ActionReceiptCodec.java",
+        "bytes": 59676,
+        "sha256": "5ee4f19c163df53b0bfb2955f68bae26b70bcd2bdb6dfca122865a1a1b00c8bd",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "CanonicalFundingPending.java",
+        "bytes": 23762,
+        "sha256": "f09d9cea9b6e7a3b6c66af2d26e049a6170052cdb95ac07080d75ccf217d52ec",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "McpAutoTurnEncoder.java",
+        "bytes": 29873,
+        "sha256": "6d39aeec3ef2655c3c85112d2a8a333e24fe2b333a1af9e641264746d79a976e",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "LifeAdvanceComposite.java",
+        "bytes": 83660,
+        "sha256": "7a0f577c6919c708f61bdf8a94d0b887918aa9c6ac059630c9f42be479e7bc0a",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootApplicationSession.java",
+        "bytes": 102315,
+        "sha256": "434f67230559ca2ddda129b59301d95f646291c02fd2f2c0400dd5f31bb647a3",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootOrdinaryRuntimeAssembly.java",
+        "bytes": 82526,
+        "sha256": "7461679faf4a0fc66bd1b08d13cfb83bd2823e6d8bc4547889c82f796e3d2344",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityActionJournal.java",
+        "bytes": 24680,
+        "sha256": "c20e8879088afc749f569c2d2923959e6b20f9d326685cf6a8632198a9165c4f",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ContinuityBatchJournal.java",
+        "bytes": 509085,
+        "sha256": "85edfb7239d753fa0e4fc36beaf7639094c6e40bbe9bd9df13a03f13d2f573ab",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "RootLifeRuntimeFactory.java",
+        "bytes": 92555,
+        "sha256": "810942c26e78e94e5221500ddd2fa68754a5196e7a8cb291a0e218dfdefd56e3",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "AdvancePrimitiveArchivedReplay.java",
+        "bytes": 21792,
+        "sha256": "0b0abb3fcb38fdaa806b05ccdc883fa10319f7e3a9959aae8fbac4fcaa2ea430",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeRecordedEvidenceVerifier.java",
+        "bytes": 45990,
+        "sha256": "6bdf79cf7ae558503f2a776406481a1454ea484cb799ccaf3c1c56178aead938",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "NativeOutcomeArchive.java",
+        "bytes": 148279,
+        "sha256": "fd245ab9cc652f9707764378da4a678fd1e968d8c4651514e6c5e0ba211d94c8",
+        "role": "Complete exact17-cohort target BASE",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ACTUAL-POST-C6-STATUS79-AND-AFTER-FRESH-OBSERVATIONS01.json",
+        "bytes": 13879,
+        "sha256": "44dba67a854fc9288d7e68e275fdac46d69028506dd1e13fe4dacf1d09b74ba7",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "POST-C6-ACTUAL-NOEFFECT-OBSERVATION-INDEPENDENT01.json",
+        "bytes": 6005,
+        "sha256": "543961f10e81fabfa66aabd119562a0d6ca74a6d2c06aaa308e7b119354bfc0d",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "POST-C6-SENDER138520-STATUS98-BARRIER-CONDITIONAL-REUSE01.json",
+        "bytes": 11040,
+        "sha256": "3f7ebfa6d4f6bee80dcf009b63488549079ed65ef074f060eecb20cc5d693811",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "C81-POSTEXIT-STATUS-BARRIER-CONDITIONAL-QUALIFICATION01.json",
+        "bytes": 19350,
+        "sha256": "d4727bdd2d7d071436c0ffe6e572bc30d705a23729a8444236f03529fec5923c",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "POSTEXIT-STATUS-BARRIER-INDEPENDENT01.json",
+        "bytes": 847,
+        "sha256": "97bb5614d242a47384a439cc18bf0d6b5df943e008b895f3d6981944a4ac5b27",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ACTUAL-CHILD-START.json",
+        "bytes": 201,
+        "sha256": "dbc9e1a1ead0235b737809d2f86f049a56693e82b7958c49d1027eedd6ec3395",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ACTUAL-END.json",
+        "bytes": 1692,
+        "sha256": "53946fae1b4278630fe2100676ecd53992fcc9b91a1ddda6a6bfaadf2b85e794",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "1d013c82023a0ff2bc96b1ef9d72ba60ace17e9159ae7eab193d9e564bdf1062.bin",
+        "bytes": 6066,
+        "sha256": "1d013c82023a0ff2bc96b1ef9d72ba60ace17e9159ae7eab193d9e564bdf1062",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "BASE64_RAW_BYTES"
+      },
+      {
+        "name": "d03831e7521bac8054d4dc6eb267b34ea77638fa8e4ede8442b19759b951842d.bin",
+        "bytes": 8963,
+        "sha256": "d03831e7521bac8054d4dc6eb267b34ea77638fa8e4ede8442b19759b951842d",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "BASE64_RAW_BYTES"
+      },
+      {
+        "name": "9e38a287d4b92236a8c92523deb9de97d173772cd783280dbc8a0dca866b6312.bin",
+        "bytes": 1353,
+        "sha256": "9e38a287d4b92236a8c92523deb9de97d173772cd783280dbc8a0dca866b6312",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "BASE64_RAW_BYTES"
+      },
+      {
+        "name": "status-ack-original.packet",
+        "bytes": 684,
+        "sha256": "fe2a9beba1100e016d759a4a389fca2b6e1f31662f101e1cf38b95abc1e70670",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "BASE64_RAW_BYTES"
+      },
+      {
+        "name": "fresh-outbound-original.packet",
+        "bytes": 165,
+        "sha256": "1cab5c0e37409c9a56d9fa2ae11aa7d120245d0a10bb437e9d306117e718b762",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "BASE64_RAW_BYTES"
+      },
+      {
+        "name": "fresh-snapshot-original.packet",
+        "bytes": 1237,
+        "sha256": "55b47682ff93416b3c6a376461af7f877d67c81524275380c595bc007d3d87d2",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "BASE64_RAW_BYTES"
+      },
+      {
+        "name": "fresh-ack-original.packet",
+        "bytes": 282,
+        "sha256": "273e97748f01032b95e90664c96d3066486d6328f6d6fed51950c1036b9493c9",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "BASE64_RAW_BYTES"
+      },
+      {
+        "name": "sentinel-status.original.json",
+        "bytes": 463,
+        "sha256": "175ac6fdac1876e8b23bfc5deca97b37124afb2c6d3af128121276fbb90ac408",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "STATUS-AND-FRESH-RESULT.json",
+        "bytes": 4536,
+        "sha256": "382c42a1de4306270ab1243b20aa7d6ae77050778ebfa9f4fd073c6074aa64cb",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "STATUS-DIAGNOSTIC-RESULT.json",
+        "bytes": 2901,
+        "sha256": "61bdeb4737c4cdd299db2b17708f4a7e55686dced1c228c0e8ef8bc79b02d86a",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "98ad9e86c03269422cbcd53c570cffed27b6bd2057d1e76b4c9d6008f256682e.bin",
+        "bytes": 13960,
+        "sha256": "98ad9e86c03269422cbcd53c570cffed27b6bd2057d1e76b4c9d6008f256682e",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ACTUAL-BEGIN.json",
+        "bytes": 523,
+        "sha256": "a76b57d6bf20cce0dbc2759131d09752f7d3d45a6a8921f3978b0a4dff44dfeb",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ACTUAL-CHILD-START.json",
+        "bytes": 235,
+        "sha256": "fc2b776d9d7fad936ddec91382338961a53c360aa2e5a077ae6e93d8fb29f198",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "ACTUAL-END.json",
+        "bytes": 3399,
+        "sha256": "d2bb337982b658cbaebaf24ec07050dae0202586909e01bc03f242b872ac6b1b",
+        "role": "Complete existing small original/custody/barrier/Root acceptance; no new observation",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "SOURCE-READY-RESERVED6-NOEFFECT01.json",
+        "bytes": 57925,
+        "sha256": "304c9aa59d27bfe0f0d6522bffe5b0bfbcf26472687ba2394283b95672d3af1e",
+        "role": "Complete final coherent17 source/BASE/union55 map",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "SOURCE-READY-RESERVED-SAMECALL02.json",
+        "bytes": 4149,
+        "sha256": "90b08387373ac1c970fcdef3d21790cb9a4cfbe347e9e6c09d785fd25ddc5795",
+        "role": "Complete actual new samecall component source contract",
+        "inline_encoding": "UTF8"
+      },
+      {
+        "name": "B-COHERENT-SOURCE-CONTRACT01.json",
+        "bytes": 4910,
+        "sha256": "5ab365e3adec8e9ec32a2b89bfdc97df9feceafb9150a18c6a84cd45986f5a00",
+        "role": "Complete independent B input/authority/source/qualification contract",
+        "inline_encoding": "UTF8"
+      }
+    ],
+    "source_message_bytes": 4037988,
+    "all_full_source_BASE_decl_Frame_raw_Base64_bytes_SHA_checked": true,
+    "large_Driver_SEM_DLL_bodies_read_or_inlined": false,
+    "A_answer_supplied_to_B": false,
+    "owner_original_source_and_Root_observation_not_model_discovery": true
+  },
+  "HTTP": {
+    "POST_BEGIN": "2026-11-14T03:26:06.084037+00:00",
+    "END": "2026-11-14T03:28:17.139629+00:00",
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "strict_JSON": {
+      "status": "VALID",
+      "top_level_type": "object",
+      "reason": "COMPLETE_STOP_JSON",
+      "error": null,
+      "offset_units": "Unicode code points",
+      "max_utf8_bytes": 1048576,
+      "semantic_review": "OWNER_REVIEW_REQUIRED"
+    },
+    "headers_ms": 129881.08439999633,
+    "TTFT_content_ms": 129882.01839989051,
+    "total_ms": 131055.64030003734,
+    "usage": {
+      "prompt_tokens": 889072,
+      "completion_tokens": 140,
+      "total_tokens": 889212
+    },
+    "retries": 0,
+    "cached_tokens": null,
+    "request": {
+      "bytes": 4132588,
+      "sha256": "6913bdaf021ec45460a7d187d6df96af13ebfe231c6167896381496e16cdcb1c",
+      "preactual_byte_exact": true,
+      "roles": [
+        "system",
+        "user",
+        "user"
+      ],
+      "model": "qwen38-coder",
+      "temperature": 0,
+      "max_tokens": 2200,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "network": {
+        "proxy_mode": "direct",
+        "target_host": "192.168.1.11",
+        "proxy_handler": "disabled",
+        "redirects": "refused",
+        "actual_peer": "UNKNOWN"
+      }
+    },
+    "SSE": {
+      "bytes": 18304,
+      "sha256": "0a7e71502787aab56a4c6f121cee6925e3b2cf7c92e1c5bf554b60e8059edb00"
+    },
+    "CONTENT": {
+      "bytes": 721,
+      "sha256": "249b6cbfd808be3295c09feefe2c354c7bb94d7d89fb7301f31b5d12496c149d"
+    },
+    "complete_SSE_reconstruction_byte_exact": true,
+    "complete_source_direct_Frame_raw_Base64_SHA_and_whole_membership_audited": true,
+    "listed_findings": 2,
+    "target800_met": true,
+    "profile": {
+      "name": "source-high-concurrency-direct",
+      "read_seconds": 600,
+      "total_seconds": 2400,
+      "transient_retry_max_attempts": 6
+    }
+  },
+  "two_HTTP": {
+    "logical_tasks": 2,
+    "actual_POST_attempts": 2,
+    "usable_complete_responses": 2,
+    "length": 0,
+    "retries": 0,
+    "current_inflight": 0,
+    "actual_peak_HTTP": 1,
+    "overlap_seconds": 0,
+    "HTTP_occupied_seconds_at_peak1": 170.7837281001266,
+    "gap_after_A_END_before_B_BEGIN_seconds": 286.142625,
+    "first_BEGIN_to_last_END_seconds": 456.926381,
+    "reported_input_tokens": 1189302,
+    "reported_output_tokens": 214,
+    "sum_HTTP_ms": 170783.7281001266,
+    "notification_limits": "A finished39.728s before B preparation completed and was notified several minutes late; by03:24:32Z confirmed. B END03:28:17.139629Z notified after03:29:45Z poll (~88s late). These operator polling delays are separate from actual HTTP time, and no peak2 was held.",
+    "no_CTX_cache_queue_capacity_or_software_inference_from_success": true,
+    "phase_limits_initial_bytes": [
+      10485760,
+      10485760
+    ],
+    "aggregate_limit_bytes": 20971520,
+    "Native_effective_forecast_including_new20M_Ledger8M_Main1M_once": 1182076495,
+    "engineering_cap_bytes": 1610612736,
+    "all_old_actual_preserved_old_settled_future_not_revived": true,
+    "no_second_or_third_request": true
+  },
+  "source_review": {
+    "classification": "TWO_FALSE_FIRST_EVENT_BLOCKERS_SAME_OLD_STATE_SWITCH_MISREAD_REJECTED",
+    "listed_findings": 2,
+    "confirmed_findings": [],
+    "claims": [
+      {
+        "claim": "ActionTransitions.validate case Reserved->false makes the first terminal append unreachable from UNKNOWN/CompositeUnknown.",
+        "source_check": "The API exists; the failure is control-flow interpretation. Supplied validate13-16 explicitly handles previous.empty and nextReserved, validates exact Gameplay/emptyargs/CANCELprefix and returns before switch(old.state()).42 false forbids a successor of an already terminal child. OriginalUNKNOWN is a different parentID/vector; original reserved6 has no independent previous lifecycle to transition from."
+      },
+      {
+        "claim": "RootApplicationSession append invokes the rejecting transition, also preventing idempotent return.",
+        "source_check": "Session1324-1332 finds existing child; sameproof/preparation terminal is verified then returned before append. Any other existing lifecycle rejects deliberately. Only absence reaches1334-1335 append; ContinuityActionJournal67-68 passes the matching child actionID previousOptional, which is empty, to the allowed first-event branch. Mandatory actualRoot/WAL qualification precedes this. No fabricated UNKNOWNchild/PREPARED transition or guard change is needed."
+      }
+    ],
+    "Root_independent_review": "Root separately read full answer and agreed both claims conflict with source; no changed source/Test/newcase or rePOST.",
+    "qualification_limit": "Rejection of blockers is not complete integration certification, actual terminal/Root permission, NoDispatch/ACK/IDLE/credit or all sealed-consumer runtime proof.",
+    "adoption": {
+      "new_findings": 0,
+      "code_hunks": 0,
+      "Test_hunks": 0,
+      "software_Runtime_control_or_whole_component_validation_credit": false
+    }
+  },
+  "adoption": {
+    "new_findings": 0,
+    "code_hunks": 0,
+    "Test_hunks": 0,
+    "software_Runtime_control_or_whole_component_validation_credit": false
+  },
+  "output_contract": {
+    "target_total_tokens": 800,
+    "API_max_tokens": 2200,
+    "max_reachable_findings": 2,
+    "max_scope_limits": 3,
+    "no_long_callgraph": true
+  },
+  "resources": {
+    "phase_initial_limit": 10485760,
+    "pair_new_aggregate_limit": 20971520,
+    "note": "New20MiB once; old Frontier/perf/C6/StageC/Transient retained actual and already-released unused are not counted/released again. Root reconciles only after exact actual closure."
+  },
+  "operator_boundary": {
+    "HTTP_peak1_not2": true,
+    "terminal_notification_delays_disclosed": true,
+    "prePOST_missing_decl_lookup": "B ContinuityEvent lookup resolved and GameLifecycle.Port/GameSupervisorControl full inherited declarations added before first BPOST. No incomplete-source POST/extra semantic task.",
+    "no_new_JVM_Game_Native_GET_control_ledger_or_production_Test_write": true
+  },
+  "next": "No repeat/continuation. New real source or actual qualifiers require their own evidence; software/actual terminal work remains with existing owners."
+}
