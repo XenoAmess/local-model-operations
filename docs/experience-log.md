@@ -285,3 +285,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-14：监听绑定异常也可能已经绑定
 
 [754755／142首组](https://github.com/XenoAmess/civ6_dev/blob/0c7640c1d2f05db12b82bb7a1445dd346a913d74/docs/research/baiqi-pair142-C1-event754755-2026-11-14.json)：绑定尝试必须在Add前记；若Add绑定后抛错，只能针对同一自有回调清理一次，不能把subscribed=false当成事实。Remove未知保持未知且停止采集，不重复移除。Lua固定形参加ipairs(varargs)会丢nil尾且伪造argc，真实select数量与有界类型列表应分开；代码编译过仍可能把块内local时间写成nil全局。读实际API消费者后再选探针，不重复已完成阴性读数或凭无待办猜全局队列为空。
+
+
+### 2026-11-14：未知签名要能采集且不伪装合格
+
+[756／实际4参](https://github.com/XenoAmess/civ6_dev/blob/a42e3d2533a1cd0ecb27ce2308cfe2683b970fba/docs/research/baiqi-event142-A756-fourargs-2026-11-14.json)：声明形参个数只是消费前缀，不能当作发出数量。新结构错误与unexpectedArity计数可区分未知诊断，但旧invalid不回写、qualified不放宽。未知额外参数仍保留完整argc、最多8项类型／基础值，长文本记录截断前缀与原长度；只存类型会丢掉下一步所需原值。新采集会话保持已尝试输入台账，不能因改诊断重新跳过同单位或重发未知命令。

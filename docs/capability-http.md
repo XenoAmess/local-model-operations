@@ -6508,3 +6508,10 @@ A69整Java+25小原件/合同，冻结Proof02/Token01/samecall组件+core4/C6成
 ### 2026-11-14 NEW-owned Ledger 两完整审：同批peak2、0采用
 
 两完整wire先冻再同批POST，各86整Java+2合同，current55/NEWreference15173f231/candidate15772b84a/tinywhole4/Windows接口和3原测试全给，task重复完整关键method而不截前缀。固定3消息/source600/2400/max2200/目标800；2stop/DONE/strictJSON、0retry，合1305318in293out，实际peak2重叠178.487326秒，当前0HTTP。A42tokens仅3有限正向observations，不授全面验证；B错称NEWreference exact新建ExpectedRef（实际与候选均复用expected），又说optimized verify调exact并要求内部构造计数，源码与行为回归边界不符，0finding/code/Test采用。重复method不能代owner核真；旧selected739b原source谱系NOT_HELD不补造。新Ledger16M独立、旧actual全保；不授软件/装载/Runtime或收益。见[实现](evidence/2026-11-14-ck3-ledger-owned-source-review.md)、[tiny tests](evidence/2026-11-14-ck3-ledger-owned-tiny-tests-review.md)。
+## 2026-11-14：142主档九域与756四参数诊断
+
+[发布142冷读333](https://github.com/XenoAmess/civ6_dev/blob/9f7b09502a3cd05adbe2243c0e70a9e4d1c4637e/docs/research/baiqi-release142-cold333-2026-11-14.json)：精确140保护档冷加载，119发布文件字节一致，已采九域（11城／196建筑／70区域／222可见自有地块／52单位及food/vitals／旧已导出账本字段）全等，142333另存未覆盖原档。不是未采完整字段或旧ARMED恢复通过；HTTP755为该冷兼容切点。
+
+[事件A／756精确证据](https://github.com/XenoAmess/civ6_dev/blob/a42e3d2533a1cd0ecb27ce2308cfe2683b970fba/docs/research/baiqi-event142-A756-fourargs-2026-11-14.json)：被动监听后TEST_PLAYER一军队SKIP实际发出4number，前三0／196610／745019656，第四值未采。A invalid1、0error/drop，下一输入前停止，无END；监听已撤，不追认合格。自带消费者声明3形参不证明Native只发3。756四锚点各唯一命中；两新合同×双Lua4检查2过2失败。三个计数分项片段字面采用；第四长文本直接丢失／不留原长度由Owner修为256字节前缀与原长度，基础值前8项有界，不持有不透明对象。保留旧invalid／qualified逻辑及全部10旧方法；新2、相关合计371过。
+
+候选建议unexpectedArity也为0会阻止未知签名诊断，拒绝该调用方建议；新探针仅以结构错误／error/drop0允许继续独立授权输入，未知arity仍单列、不授资格、不改游戏命令许可／阈值。旧A失败／完整原请求保留，新nonce与日志，原军队已尝试表不清。756切点累计756逻辑／703完整流（含历史JSON拒绝）／50length／3最终transport／786HTTP／30extra；单attempt stop／DONE／strictJSON，5387input／887output，36867.1998ms，新增峰1。缓存token／Owner主动成本／净节省null。
