@@ -7098,3 +7098,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[Civ6 878—880实际writer身份](evidence/2026-11-16-civ6-http878-880-writer-identity.json)：878源语义反证整拒；879仅记录器思路；880Static缓存思路采用但Method隔离越界拒。Owner实际transform红28场景、修后46双Lua场景及启用计数1次过，产品未改。编译／同函数空包装不能证明真实计数wrapper身份；cold恢复不倒推旧许可cause。累计880／809完整／911HTTP，未知成本null。
 
 2026-11-16：[Civ6 881配对预检](evidence/2026-11-16-civ6-http881-paired-preflight.json)：只读manifest/ZIP框架部分采用；control代码资格、严格标记和重复归档由Owner补，5正负检查及真实两包复核过，B_delta未跑。此前880修复后的独立StageB已实机闭合B_turn/N_req，881后派发不抢前功；编译和新哈希不能替代规范代码核验。累计881／810完整／912HTTP，未知成本null。
+
+2026-11-16：[Civ6持续验收882—887](evidence/2026-11-16-civ6-http882887-continuation.json)。882仅分组／883实际绕行测点／884部分字节适配经Owner门修正31软件checks；885指导单行Owner核包作用域、Nativepayload前后全同。886漏实际选点manifest属Owner输入缺口，已有子函数误列未测，不采用；887把征城请求当生产并虚构读API，拒绝原生计划／0输入。首152配对两侧仅1/5组、中位+3076ms／55.95%超预算，原76msFAIL继续，不能授全mod。累计887／816完整／918HTTP，未知成本null。

@@ -2137,3 +2137,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[Civ6 878—880](evidence/2026-11-16-civ6-http878-880-writer-identity.json)仅HTTP源码／诊断候选，OpenCode只复用BF客户端Nov16的1.19.5每日维护成功缓存；新增原生工具生成0，不从HTTP修复或维护授原生能力。
 
 2026-11-16：[881配对预检](evidence/2026-11-16-civ6-http881-paired-preflight.json)仍仅HTTP候选；OpenCode1.19.5日维护缓存命中、新增原生工具生成0，与Owner独立Native实采分列。
+
+2026-11-16：[Civ6持续验收882—887](evidence/2026-11-16-civ6-http882887-continuation.json)。882—887均为普通HTTP候选；OpenCode仅复用本机Nov16的1.19.5日维护成功缓存，新增原生工具／生成0。Owner软件与独立Native配对采集分列，不据维护、HTTP stop或游戏端口授OpenCode原生能力。
