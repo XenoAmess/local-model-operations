@@ -11,3 +11,5 @@ Zero new reachable findings or source/Test hunks were adopted. Software and Runt
 The exact new material scope was 8,981,504 B, independently funded once under the later 1576 MiB engineering-material cap. Runtime reserve 1,131,520 B stayed separate. Before POST, the source-review contract explicitly preserved legitimate fresh READ publication while forbidding world control and ACTION/RETAIN/SETTLE replay.
 
 [Per-request source pins, cost and review](2026-11-15-ck3-arm-cold-clock-source-review.json).
+
+[Later independent ARM READ provenance and UNKNOWN ancestry reviews](2026-11-15-ck3-arm-read-provenance-retry-review.md).
