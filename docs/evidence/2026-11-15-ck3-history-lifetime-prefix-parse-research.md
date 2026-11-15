@@ -13,3 +13,5 @@ The 768 MiB recovery scope and 256 MiB general scope are independent. Their coun
 Finalquote02 corrected A's finish contract before POST: preserve validations at their actual call sites and original finish/close failure aggregation; finish does not rehash every payload. The new material scope was 9,928,704 B, funded once under the 1598 MiB engineering cap, including 2,320 B of Native cross-root metadata already in its current roots.
 
 [Exact source pins, stream metrics and source review](2026-11-15-ck3-history-lifetime-prefix-parse-research.json).
+
+[Later owner payload/proof implementation source reviews](2026-11-15-ck3-historical-payload-proof-review.md).
