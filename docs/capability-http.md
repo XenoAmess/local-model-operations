@@ -7025,3 +7025,10 @@ Owner QA在原读取产生值的位置观察，不额外Native读或主动RunNow
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/b8e3fb35ccd62ee7ec66a85ab8954a94147bf57b/docs/research/baiqi-source150-firstplanning-exclusion855857-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-flood-static-exclusion855857.json)。Owner被动150首次真实规划观测：队列0、需求真预算足、防洪坝排除资格false；独立实际电脑未拥有413/664，而当前激光333.7305/925，旧AI研究零进度门挡住紧急切换。原版消费者仍要求排除与完整检查，不能因fullCan或BUILDCan=true就绕缺科技。85513012+1437tokens、10386.1591ms／TTFT1920.7909、200stop/DONE/严格JSON、双Lua编译，但遗漏关键(true,true)结果调用，Read丢多返回导致失败表不可达、身份和后置guard不足，0执行／采用／Native。
 
 85620923+2256、22263.1383ms／4085.6313，完整JSON、唯一锚点双编译，实际两Lua Admin.Run正例各0请求（应1）：最终非零进度门未解除、interrupted未赋值、ACK先清pending再核旧投入且旧row对targetHash，整体拒。85724653+6500、45127.9707ms／6183.9933，length整份未读不解析／拼接；Owner预算成本分账，不计语义错误。856／857实际峰2重叠22.269706秒，855峰1。累计857／789完整／65length／3最终传输／888HTTP／30额外，0在途，新增OpenCode原生0，缓存／服务并发／完整Owner成本／净收益null。Owner151接管尚未在该证据切点实现，Native恢复仍FAIL。
+
+
+## 2026-11-15：Owner151独立修复及实机投入保留（零新请求）
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/3a58920b3f422cd78ed4291adee397b9dd10ac0a/docs/research/baiqi-source151-native193-flood-research-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-owner-flood-research151.json)。承接被拒856与length857，未重POST，源码／测试0原稿采用。Owner仅对真实可抢救洪灾允许紧急研究切换，精确原科技身份／正未完成投入与成本发令前重检，目标观察后还需保原进度或已合法完成才清pending，未知不重放；生产排除门保持。2549项2548pass1SDKskip／168.787s、97Lua双编译119包20旧前缀保持。首次完整2549两处旧mockHash555断言失败（182.055s），修消费者为实机Index55后重跑全绿；10新方法双Lua覆盖实际Admin.Run。
+
+实机151正式冷193，后台唯一切电脑55，request与research_observed及独立current55均证；电脑413/664未变，激光333.73046875/925原投入保持。0人工研究／生产，科技完工／防洪／旧ARMED恢复仍未授。软件／维护／原稿与Owner实效分账，累计857／789完整／65length／3最终传输／888HTTP／30额外不变，新增OpenCode原生0，未知缓存／主动Owner成本／净省时null。

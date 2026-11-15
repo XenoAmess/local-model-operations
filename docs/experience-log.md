@@ -540,3 +540,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：看似更完整的资格检查可能漏另一类前置条件
 
 [855—857](https://github.com/XenoAmess/civ6_dev/blob/b8e3fb35ccd62ee7ec66a85ab8954a94147bf57b/docs/research/baiqi-source150-firstplanning-exclusion855857-2026-11-15.json)的fullCan和BUILDCan事后均true，但原版排除模式false且所需科技未拥有；原消费合同要求两种模式，不能由函数名字推权限强弱或绕门。诊断需保多返回值和nil位置，单值reader的known标记不是失败表；应实际调用关键排除结果模式。最早自然规划的直接日志与事后读取分开，预算足／低军队分数不排除候选先被资格过滤。对紧急切换补丁必须真跑投入正例，若最终旧门仍在，新增pending结构不使业务生效；保留旧投入的ACK必须先核再清pending。原生路径回的是Index55，旧mock{Hash555}应纠正而非拿来重写实际接口。
+
+
+### 2026-11-15：nil合成零和可变行自比较的反例
+
+[Owner151](https://github.com/XenoAmess/civ6_dev/blob/3a58920b3f422cd78ed4291adee397b9dd10ac0a/docs/research/baiqi-source151-native193-flood-research-2026-11-15.json)新增反例分别在首次Lua51场景失败：Lua的`condition and getter() or 0`会把getter的nil／false合成0，可能授出零投入路径，应显式分支并验证数值。两个变量指同一可变GameInfo行时，callback改Hash后再自比较仍相等；在调用路径API前冻结Index／Hash／Type标量，再核当前行。最终10方法全双Lua场景通过，不能把首失败写成两Lua均跑过。以实际Native GetResearchPath得到的Index55修正mock producer及所有consumer555断言，不能只改正例或为了旧绿改变真实API。
