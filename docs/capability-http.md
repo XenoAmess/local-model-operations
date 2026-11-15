@@ -6896,3 +6896,10 @@ Owner实际后台读Text→Document→Pane→Pane→Window，头部支持Invoke�
 [证据](https://github.com/XenoAmess/civ6_dev/blob/e4af524e5f10b4813f05baacb516f5a313e04843/docs/research/baiqi-source143-cold159-model824825-2026-11-15.json)：8245616/1683tokens、10773.0939ms/TTFT865.4909，stop/DONE/strictJSON。15唯一小替换部分采用；原稿调用不存在的lifecycle check_owner、两重复锚点违约、虚构parser锚点、漏二次turn及marker消费者，Owner纠正。Owner迁移隔离夹具宽替换误改目标index11to14，先失败且保原稿，修夹具后21安全门场景全过。随后11次实际TEST_PLAYER军队MOVE均各一次、独立到址清队列，不授raw整稿Native能力。
 
 8251797/911、6151.3986/453.5334，stop/DONE/strictJSON，raw0采用/0Native：城市ID查单位集合、编造错误index公式、truthy可见性、water类型检查重复而impassable缺、owner0/城数/高度/循环边界及整数缺。Owner只读重写、双Lua编译/无写审查，没有为低影响读器另造mock。实际1144点皆可见/揭露的继承QA夹具13基本候选，再复制精确产品只读谓词得4点通过，仍不授path/NativeFOUND。143普通158to159及旧日志保持是游戏证据，不回授模型；完整独立扩张/143性能待验。累计至825为825/764complete/58length/3finaltransport/855HTTP/30extra；这两个POST不重叠、实峰1。后续826起另案。缓存/完整Owner成本/净节时null。
+
+
+## 2026-11-15：826有界备用点／827渲染兼容／828测试截断
+
+[项目源](https://github.com/XenoAmess/civ6_dev/blob/20ada92294ae3c572372a2a4eb47c8d12e856e66/docs/research/baiqi-source144-bounded-alternates-software-2026-11-15.json)及[摘要](evidence/2026-11-15-civ6-bounded-alternates826-828.json)。82614140/1249tokens、9815.4869ms/TTFT2042.9194，stop/DONE/strictJSON，部分策略与推荐收集采用；明示合同仍漏pcall，读取中途throw会停Controller/留半截候选。Owner事务式proposal批收集、strict可见性/max19/整数距离和使用传入player纠正。8273589/1085、6934.9644/682.6646，stop/DONE/strictJSON，4个实际唯一renderer替换采用，仅Owner改错误文案版本；其它144工具接线由Owner。143普通/压力输出hash保留，旧Lua模板未改。82872901/2600、24199.7821/9479.0585 length，内容未读整弃；Owner8实际Controller新方法接管。
+
+Owner首改诊断文案预期时缩进错在测试执行前暴露；全套首轮另有4census文本锚点错误，缩窄唯一锚点后4专项过，旧143转换/prefix/逆变换逐字节一致。最终2438run/2437pass/1SDKskip、144.216秒，26容量方法/79聚焦/97Lua双编译/119包一致。软件不授Native/性能；旧ARMED恢复FAIL保留，142性能只保原实测范围。三POST不重叠、实峰1，至828累计828/766complete/59length/3finaltransport/858HTTP/30extra，cut当前0；缓存/服务并发/完整Owner成本/净收益null，后续冷游戏另案。
