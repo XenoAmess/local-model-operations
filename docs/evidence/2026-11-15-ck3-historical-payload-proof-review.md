@@ -11,3 +11,5 @@ Owner implementation, new3/old12 tests and actual Native25/15P preceded these HT
 The new material scope was 4,990,976 B, independently funded once. No old unused pool was borrowed, no third request was sent and no Game, GET, VM, source or test operation was performed.
 
 [Exact component pins, stream metrics and source review](2026-11-15-ck3-historical-payload-proof-review.json).
+
+[Later single profile4 CPU request: whole response unused](2026-11-15-ck3-jdk3-profile4-inner-cpu-unused.md).
