@@ -2135,3 +2135,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 [证据](https://github.com/XenoAmess/civ6_dev/blob/ed31d5b9e2aa63e84d29ab6f383782fc4c2445c2/docs/research/baiqi-handoff-2026-11-16.json)。CanonicalCLI复用Nov16同机OpenCode1.19.5成功维护缓存；本次只有交接草稿笔记，新增OpenCode原生生成0。导出撤钩、普通安装恢复及离线读证是Owner实际动作，不归为模型执行能力。
 
 2026-11-16：[Civ6 878—880](evidence/2026-11-16-civ6-http878-880-writer-identity.json)仅HTTP源码／诊断候选，OpenCode只复用BF客户端Nov16的1.19.5每日维护成功缓存；新增原生工具生成0，不从HTTP修复或维护授原生能力。
+
+2026-11-16：[881配对预检](evidence/2026-11-16-civ6-http881-paired-preflight.json)仍仅HTTP候选；OpenCode1.19.5日维护缓存命中、新增原生工具生成0，与Owner独立Native实采分列。
