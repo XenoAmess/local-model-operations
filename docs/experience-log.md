@@ -588,3 +588,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-16：原生接口装饰必须保留求值时机与多返回值
 
 [私有QA案例](https://github.com/XenoAmess/civ6_dev/blob/a7d1e6701a001d58b85cd7861f9f1288744f0653/docs/research/baiqi-source152-native-path-tool871874-2026-11-16.json)只在唯一调用点将当次Native函数作为参数，不缓存旧函数或替换全局API；GetIndex副作用改变下一次函数的反例与false／nil／尾nil／同错误对象均实际运行。撤计时别名不等于撤私有调用点，元数据明确后者到退出才消失。28旧默认字节证明隔离旧功能。测试容量由闭包捕获，修改描述字段不能缩容量，Owner失败原件保留并填满真实预算修正；别把自己的错误记给模型。
+
+
+### 2026-11-16：同一互斥在准备与测量中的条件相反
+
+[875／876](https://github.com/XenoAmess/civ6_dev/blob/925b4327b0bac22daeb10236096982323f15424c/docs/research/baiqi-source152-stageB-preparation875876-2026-11-16.json)中，准备包／冷启动前要求formal_idle，正式重载后与采样期间应验证自己持有的nonce、label、source、PID出生，而不能再要求空闲。候选“protected=True”不能替代saves调用及实际新档指纹；Builder元数据也不能冒充ZIP字节复核。Owner字符串守卫误匹配新容量字段子串的两次早停单列，未发游戏动作，不归咎模型。

@@ -7084,3 +7084,8 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 ## 2026-11-16：871—874在长输出失败后转窄任务，实际行为验证仍由Owner负责
 
 [精确证据](https://github.com/XenoAmess/civ6_dev/blob/a7d1e6701a001d58b85cd7861f9f1288744f0653/docs/research/baiqi-source152-native-path-tool871874-2026-11-16.json)。871部分采用测点，纠正半径／消费者和缺行因果推断；872length3800、873length2800，完整SSE但整拒0执行／不拼片。Owner接管私有QA工具，874真实尚未写的双行为测试stop／合法JSON，却缺Automation上下文、Lua53覆盖Lua51，隔离2errors整拒。Owner14新项／81相关通过，28旧默认字节不变、97双Lua119ZIP，保持当前原生函数／参数／nil尾值／异常与身份安全撤钩；不是Native性能通过。实际871872峰值2／重叠34.185501秒，后续窄任务不凑数。累计874／803完整／68length／3transport／905HTTP／30extra；未知缓存、服务并发、完整Owner主动成本、净省时null。
+
+
+## 2026-11-16：875／876“已验证”必须有实际调用，正式空闲与持有互斥分阶段
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/925b4327b0bac22daeb10236096982323f15424c/docs/research/baiqi-source152-stageB-preparation875876-2026-11-16.json)。2stop／DONE／JSON，实际POST峰值2，整拒0代码执行。875的_present与metadata API正确，但0实际saves、无ZIP字节／独立双Lua核验，却标已保护；876机械替换后锚点1/0/0/0、正式运行错误要求空闲并混v3mode。Owner独立构建33上下文4096、97双Lua119ZIP及普通END85—90到91驱动，nonce/source/owner先于Native核对，尚未装测。前一轮原生细分根15ms未复现原76msFAIL，保持失败，不把未复现当修复。累计876／805完整／68length／3transport／907HTTP／30extra，0在途、未知成本null。
