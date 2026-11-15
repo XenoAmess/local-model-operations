@@ -1,0 +1,62 @@
+{
+  "source": "https://github.com/XenoAmess/civ6_dev/blob/f8ab13a2b12cdd8698d5215cefd42969b6e58b3a/docs/research/baiqi-source148-native181-overlap-cycle846847-2026-11-15.json",
+  "machine": "BF-202609141645",
+  "models": {
+    "846": {
+      "usage": {
+        "prompt_tokens": 14739,
+        "completion_tokens": 1807,
+        "total_tokens": 16546
+      },
+      "total_ms": 14165.84310005419,
+      "TTFT_ms": 2165.135799907148,
+      "complete_stop_DONE_strict_JSON": true,
+      "raw_code_adopted": 0,
+      "raw_code_Native": 0,
+      "decision": "Reject: invented Get bridge instead of Read/status/playerID; geometric empty blocker filter cannot match occupied builder; no native settler path; pending.unitID absent; goto Lua5.1 invalid/new top-level local; before normal work; missing WaitBuilderRoute/final fresh guard; SettlerQueueIdle bypasses builder native queue."
+    },
+    "847": {
+      "usage": {
+        "prompt_tokens": 23850,
+        "completion_tokens": 2066,
+        "total_tokens": 25916
+      },
+      "total_ms": 15231.554499827325,
+      "TTFT_ms": 3325.9640999604017,
+      "complete_stop_DONE_strict_JSON": true,
+      "raw_code_adopted": 0,
+      "raw_code_Native": 0,
+      "decision": "Reject statically, not executed: unbound world(runtime) misses self; plot317 coordinates wrong; x parameter compared to plot index273/317 so MOVE always rejected; city queue mistaken for native unit queue; incomplete/malformed held bank; no actual-work proof; blanket all-requests assertion; unsupported method placement. No test adoption."
+    }
+  },
+  "ledger": {
+    "logical": 847,
+    "complete": 781,
+    "length": 63,
+    "final_transport": 3,
+    "HTTP_attempts": 878,
+    "extra_attempts": 30,
+    "inflight": 0,
+    "new_tasks_peak": 1,
+    "new_tasks_overlap": false,
+    "new_OpenCode_native_generation_sessions": 0
+  },
+  "unknown": {
+    "cached_tokens": null,
+    "service_concurrency": null,
+    "full_Owner_cost": null,
+    "net_time_saving": null,
+    "fresh182_path_turns": null,
+    "why_native_path_avoids_direct_landing": null,
+    "source148_performance": "UNMEASURED"
+  },
+  "claims": {
+    "native_overlap_clear": "PASS_NARROW",
+    "army_same_position_and_no_escort": "PASS_NARROW",
+    "normal181_to182": "NOT_RUN",
+    "native_water_cycle_resolved": false,
+    "new_city_founded": false,
+    "all_functional_acceptance": false,
+    "old_ARMED_recovery": "FAIL_OPEN"
+  }
+}

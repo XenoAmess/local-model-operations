@@ -2038,3 +2038,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：845length与Owner148验证
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/18bb307c7481335ca55b5f3e1d3377201dc1400e/docs/research/baiqi-source148-cycle-overlap-software-2026-11-15.json)走canonical caller每日维护缓存，Nov15同机同用户1.19.5成功，新增OpenCode原生工具生成0。普通HTTPlength未读；Owner2501软件与未测Native分轨。
+
+
+### 2026-11-15：846—847与Native148分轨
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/f8ab13a2b12cdd8698d5215cefd42969b6e58b3a/docs/research/baiqi-source148-native181-overlap-cycle846847-2026-11-15.json)复用canonical caller Nov15同机同用户1.19.5成功缓存，新增OpenCode原生工具生成0。普通候选／原测试均0采用，Native148重叠通过与水路FAIL、Owner149尚未实现分别记录。

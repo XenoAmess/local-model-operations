@@ -6971,3 +6971,8 @@ Owner在147179和181各复现229228229往返，普通结束到181后新建造者
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/18bb307c7481335ca55b5f3e1d3377201dc1400e/docs/research/baiqi-source148-cycle-overlap-software-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-owner148-review845.json)。真实尚未最终交付的主层文职槽消费者复核，10795+1800tokens、15317.1989ms、TTFT1693.2669，单HTTP200后length，整份未读拒绝，0原代码／Native，不重投已由Owner接管的范围。累计845/779完整63length3最终传输876HTTP30extra，当前0，新峰1，无新增OpenCode原生生成；缓存/服务并发/完整Owner成本/净收益null。
 
 Owner实际复核形成类与宗教消费者：失败首边节点不作为后续几何证据，文职重叠可移入己方军队旁空槽；新5.1夹具先碰5.3load(env)、缺数值后空格，又在首轮2499/10error中暴露借用setUp没runtime属性，修兼容后发现原宗教停车占位筛选遗漏。完整修正后2501中2500过1SDKskip、97双Lua119包；支持类元数据合成用例不等于实际默认Getter含贸易层，仍UNKNOWN。原生181待后续，不能把Owner软件补正授模型或游戏通过。
+
+
+## 2026-11-15：846—847空闲建造者让路候选拒绝
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/f8ab13a2b12cdd8698d5215cefd42969b6e58b3a/docs/research/baiqi-source148-native181-overlap-cycle846847-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-builder-yield846847.json)。两个真实未完成范围先发模型，均单HTTP200stop/DONE/strictJSON，14739+1807与23850+2066tokens，14165.8431／15231.5545ms，峰各1且未重叠。846虚构Get桥、几何空位过滤不能匹配占位建造者、未取真实路径、pending.unitID不存在、goto不兼容5.1／新顶层局部变量、抢普通工作及漏最终guard，0代码采用／Native。847未绑定world self、坐标317错误、X参数当plotIndex导致MOVE全拒、城市队列混单位队列、held记录不完整／工作优先无真实正例，静态拒绝未运行原测试，0采用。Owner准备接管149，148只有新建造者重叠解除窄通过，水路仍往返，不回授模型效果。累计847/781完整63length3最终传输878HTTP30extra、当前0，未知缓存／服务并发／完整Owner成本／净收益null。
