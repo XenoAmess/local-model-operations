@@ -520,3 +520,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：打印cap不是遍历cap；正确API也需正确目标
 
 [848—849](https://github.com/XenoAmess/civ6_dev/blob/32bc63310cc77bb67f3fa2363acd178b75e20254/docs/research/baiqi-source149-native184-march-admiral848849-2026-11-15.json)有界诊断应在循环体真正截断，并对overflow标unknown总量；仅停止打印4／8行不限制Members／pairs／ipairs遍历。完整JSON仍可能Lua缺end；编译通过也可能把原地index当目的地，需真实端口正例断言实际传参及非零请求。选择本身是状态变化边界，不能在选中之前放所谓最终guard后直接发令。纯回合／阻塞读不到EndGameMenu，应另核实际结束画面；原版“再战一回合”与新鲜原版END新一步分别记录，不重发旧unknown或清issued。
+
+
+### 2026-11-15：控制台宿主与Lua return不是同一输出接口
+
+[850—851](https://github.com/XenoAmess/civ6_dev/blob/0fef94f1dc36d5afd7e8ba07feeff191294ad82d/docs/research/baiqi-source149-cold193-flood850851-2026-11-15.json)的只读诊断必须先核实际宿主消费：编译通过且return结构表不能替代被捕获的print行。pcall成功不代表单返回值，原生资格API可能bool加nil／失败表；记录真实arity和payload，再按消费者合同解释，unknown不等于false。hash0为无当前生产，不能按GameInfo.Units[0]推断正在训练移民。未完成项目仍应核前提区、投入和真实失败理由；合法防洪坝被业务候选过滤与Native拒绝应分别定位。有限预算应匹配完整诊断义务，length整弃不算模型语义错误。

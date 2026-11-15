@@ -6997,3 +6997,10 @@ Owner实现空闲建造者让出非held移民既有原生路线，普通工作�
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/32bc63310cc77bb67f3fa2363acd178b75e20254/docs/research/baiqi-source149-native184-march-admiral848849-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-player-admiral848849.json)。当前184两海军统帅同格、各solo／无pending空queue而SKIPfalse，分别先发真实未完的只读邻格和TEST_PLAYER单次移动任务。8484022+657tokens／5072.2309ms／TTFT716.0863，8493166+1018／6921.1031ms／584.3838；均1HTTP200stop/DONE/strictJSON，两个POST无重叠，各峰1。848双Lua缺end，0执行；context／身份／队列只打印不资格判断，print-onlycap不限制扫描、漏pcall，0采用／Native。849双Lua编译而原地403误作目标360，真实端口隔离正例0请求；nil pending、多nilqueue、选择后重检、最终target/path/context/binding均缺，0代码采用／0rawNative。
 
 Owner有界2×6原生读明确有Cantrue但path空的邻格，也有403360真两点且空闲水格。100双Lua动作场景后，只由TEST_PLAYER单次移动新统帅10682433，实际4→3／位置8,8，旧7,9不动；两个未尝试SKIP分别成功，先前6次不重发。AI新移民同源149推进到10,11、让路builder恢复一次改良，但全路／建城／冷重载未授；这不回授原稿。累计849／783完整／63length／3最终传输／880HTTP／30额外，当前0，新增OpenCode原生0；未知缓存／服务并发／Owner全主动成本／净收益null。
+
+
+## 2026-11-15：850宿主读取合同缺失／851预算截断
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/0fef94f1dc36d5afd7e8ba07feeff191294ad82d/docs/research/baiqi-source149-cold193-flood850851-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-readonly-cold850851.json)。两份真实未完成冷读诊断实际POST峰2，重叠5.367140秒；85010078+435tokens、5376.207ms／TTFT1846.8421，完整stop/DONE/严格JSON、双Lua编译但未执行。候选只return表，宿主捕获控制台，缺上下文／完整ID／pcall／arity和实际行定义、进度、资格／前提区状态，0采用／rawNative。8512369+1800tokens、12437.818ms／TTFT1839.0192、length整份未读／不解析不编译；1800预算Owner成本另列，不能算语义失败。850首次POST前补完实际QueueReady输入，原REQUEST不回写；不授完整引擎闭包。
+
+Owner独立有界读取器双编译及真实192／193只读通过；实际CanProduce(full)可返回bool加nil／失败表，原始arity保留，不把strict-one unknown称原生false。新城冷读与普通193粮仓0→9/32通过；武汉项目119/145因洪灾区域不能修复而停产，防洪坝合法却被源码过滤，修复继续，不授完成。累计851／784完整／64length／3最终传输／882HTTP／30额外，当前0，新OpenCode原生生成0，缓存／服务并发／Owner全成本／净节时null。

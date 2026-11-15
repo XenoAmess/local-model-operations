@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-15",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/0fef94f1dc36d5afd7e8ba07feeff191294ad82d/docs/research/baiqi-source149-cold193-flood850851-2026-11-15.json",
+  "models": [
+    {
+      "number": 850,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 10078,
+        "completion_tokens": 435,
+        "total_tokens": 10513
+      },
+      "total_ms": 5376.206999877468,
+      "first_nonempty_content_delta_ms": 1846.8420999124646,
+      "adopted": false,
+      "raw_Native": 0,
+      "compile_both_Lua": true,
+      "candidate_executions": 0,
+      "whole_length_unread": false
+    },
+    {
+      "number": 851,
+      "http_status": 200,
+      "finish_reason": "length",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 2369,
+        "completion_tokens": 1800,
+        "total_tokens": 4169
+      },
+      "total_ms": 12437.818000093102,
+      "first_nonempty_content_delta_ms": 1839.0192000661045,
+      "adopted": false,
+      "raw_Native": 0,
+      "compile_both_Lua": false,
+      "candidate_executions": 0,
+      "whole_length_unread": true
+    }
+  ],
+  "model_concurrency": {
+    "actual_POST_peak": 2,
+    "overlap_seconds": 5.36714,
+    "service_concurrency": null
+  },
+  "ledger": {
+    "logical": 851,
+    "complete": 784,
+    "length": 64,
+    "final_transport": 3,
+    "HTTP_attempts": 882,
+    "extra_attempts": 30,
+    "inflight": 0,
+    "new_OpenCode_native_generation": 0
+  },
+  "reviews": {
+    "850": "compiles Lua5.1/5.3 but returns table rather than console printing required by host, missing context/fullID/pcall/arity and required row/progress/CanProduce/prerequisite facts; no execution/adoption",
+    "851": "1800 output budget exhausted; entire length body unread, no JSON candidate parse/compile/adoption. Owner budget cost separate",
+    "Owner": "bounded standalone actual collector dualcompiled, Native192 and193 readonly. CanProduce full returns bool plus nil or failuretable; arity preserved, unknown not treated false. Owner fixture whitespace error 0tests retained before corrected40dualLua cases. Original850 request source completion added before firstPOST, request unchanged afterward."
+  },
+  "Owner_native": "same149 cold newcity/journal preserved; ordinary193 granary0to9/32; new flooded prerequisite failure identified, fix pending",
+  "unknown": {
+    "cached_tokens": null,
+    "full_Owner_active_cost": null,
+    "net_time_saving": null
+  },
+  "new_OpenCode_native_sessions": 0
+}
