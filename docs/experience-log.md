@@ -530,3 +530,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：真实行定义与测试别名必须隔离
 
 [852—853](https://github.com/XenoAmess/civ6_dev/blob/00a573f9de8036e00295884aeb08b014b12b8f93/docs/research/baiqi-source150-blocked-flood-software-2026-11-15.json)已同时提供实际防洪坝Hash205057393和mock913，候选仍把mock值写入产品；审阅必须沿真实GameInfo身份核对，不能把测试通过常量当游戏API值。读回分支新增在已return的分支之后可能永远不可达；队列已排入与建筑已完成又是不同证据。测试继承包装对象与实际.case消费者应先核接口，原writer可能带严格断言，不能先调用再声称覆盖。Owner软件夹具已初始化Lua与候选Lua字符串未执行两者分开记录，纠错不追改原始请求或失败。
+
+
+### 2026-11-15：被动观察也要核输出、异常和安装时序
+
+[854](https://github.com/XenoAmess/civ6_dev/blob/fdc9e4efc3dda001870379317fc885e1aac52193/docs/research/baiqi-source150-native193-first-planning854-2026-11-15.json)编译通过不能证明trace可见：积累后reset且无print会丢整份观测。pcall必须区分原错误并保原异常对象和全部nil返回位置，不能将错误字符串作为成功结果。shared模块可能被后续include重建，应在全部include后核真实别名再包装；空installer不补时序。使用已有读取值插入日志，不能偷偷多读Native状态来声称完全被动；20实际端口调用数对照与2错误／cap场景是软件范围，日志时延和Native仍另验。后读资格不恢复首次规划的历史事实，未观测初始队列不能认定引擎裁剪或具体加载race。

@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-15",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/fdc9e4efc3dda001870379317fc885e1aac52193/docs/research/baiqi-source150-native193-first-planning854-2026-11-15.json",
+  "model854": {
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "usage": {
+      "prompt_tokens": 19622,
+      "completion_tokens": 1345,
+      "total_tokens": 20967
+    },
+    "total_ms": 11258.086199872196,
+    "first_nonempty_content_delta_ms": 2666.5671998634934,
+    "review": {
+      "both_Lua_compile_only": [
+        true,
+        true
+      ],
+      "adopted": false,
+      "Native": 0,
+      "raw_execution": 0,
+      "reason": "logs accumulated then reset without printing; pcall errors returned as success and all return arity reduced to1; originalsharedmodules wrapped before Admin reinclude, installer no-op; extraGetID/GetTurn reads; unboundedcandidate iteration; targetcontextnotpreserved across nestedcall. Rejected after source/compile review, no execution."
+    },
+    "POST_peak": 1,
+    "raw_Native": 0
+  },
+  "ledger": {
+    "logical": 854,
+    "complete": 787,
+    "length": 64,
+    "final_transport": 3,
+    "HTTP_attempts": 885,
+    "extra_attempts": 30,
+    "inflight": 0,
+    "new_OpenCode_native_generation": 0
+  },
+  "Owner_QA_prepared": {
+    "base_version": 150,
+    "variant": "passive firstplanning trace, not product equality",
+    "changed_files": [
+      "Lua/BaiqiController.lua",
+      "UI/BaiqiExecutor.lua"
+    ],
+    "dualLua_files": 97,
+    "files": 119,
+    "archive_sha256": "9aa631736a30364dd8f884fd0a43629d3cfe86bbd2b6ef2c8c6d33ed0e86345f",
+    "software_scenarios": 22,
+    "actual_native_port_call_and_decision_parity_scenarios": 20,
+    "nil_arity_error_context_and_cap_scenarios": 2,
+    "new_Native_reads_or_game_actions": 0,
+    "force_RunNow": 0,
+    "installed_or_Native": false,
+    "logs": "actual firstqueue size, raw and folded flood demand, budget, barrier eligibility, actual choose candidates and chosen; 96lines/32candidates with UNKNOWN tail; private aliases installed after all includes"
+  },
+  "root_cause_limits": [
+    "Current BUILD eligibility and flood=true are later observations, not measurements at request0:193:1.",
+    "No direct snapshot yet of initial queue size or flood demand/budget/qualification during firstplanning.",
+    "Source MilitaryScore about64to66 plus atmost0.9 is below barrier96, so simple military priority explanation unsupported.",
+    "Earlier commentary attributed queue disappearance to load cleanup prematurely; withdrawal recorded here. Native prune timing/cause not proved.",
+    "150 strict retained-head barrier path not exercised by observed machinegun request; no NativefixPASS."
+  ],
+  "claims": {
+    "cold_city_and_investment_persistence": true,
+    "native_flood_recovery": false,
+    "barrier_completed_or_drained": false,
+    "all_functional_acceptance": false,
+    "old_ARMED_recovery": "FAIL_OPEN"
+  },
+  "unknown": {
+    "cached_tokens": null,
+    "service_concurrency": null,
+    "full_Owner_active_cost": null,
+    "net_time_saving": null,
+    "performance": "UNMEASURED"
+  },
+  "new_OpenCode_native_sessions": 0
+}

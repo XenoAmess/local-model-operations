@@ -7011,3 +7011,10 @@ Owner独立有界读取器双编译及真实192／193只读通过；实际CanPro
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/00a573f9de8036e00295884aeb08b014b12b8f93/docs/research/baiqi-source150-blocked-flood-software-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-flood-recovery852853.json)。真实未完成的洪灾队列实现与独立回归并行，峰2、重叠17.485752秒；85232104+2415tokens、25260.7731ms／TTFT9707.2964，85343141+1050、17514.4634ms／9571.3825。均1HTTP200stop/DONE/严格JSON。852五锚点唯一、忽略目录合成源码双Lua编译，但原district-only拒绝门保留，blockedFlood未定义、blockedWork.floodBarrier未置位，硬编码mock913与实际205057393冲突；读回放在提前return之后且误要求建筑完成，0执行／采用／Native。853Python可解析，实际隔离setUp先运行继承夹具Lua初始化，再在wrapper.change处AttributeError，候选Lua change字符串尚未执行；另漏mock/helper、先调旧writer、修复分支重置夹具，0完成产品测试／采用／Native。Owner最初“beforeLua”描述过宽已公开更正，原件不改；不能声称零软件Lua执行。
 
 Owner独立实现和10个双Lua双kind方法，旧149正例失败，首150又有8个晚期需求反例失败，补最终Native后需求／身份重读，再完整2532项、2531pass1SDKskip／342.018s、97Lua双编译119包及18历史前缀逐字节保持。此软件不授排水／建筑完成或旧ARMED恢复。累计853／786完整／64length／3最终传输／884HTTP／30额外，0在途，新增OpenCode原生0；缓存／服务并发／Owner完整成本／净收益null。
+
+
+## 2026-11-15：854观察器不输出、吞异常及别名过早
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/fdc9e4efc3dda001870379317fc885e1aac52193/docs/research/baiqi-source150-native193-first-planning854-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-passive-planning854.json)。源150实机冷193保留项目119/145，却首排机枪；事后需求／资格true不能倒填首规划，因此先发真实未完成的被动首规划trace任务。85419622+1345tokens、11258.0862ms／TTFT2666.5672，单POST峰1／200stop/DONE/严格JSON，合成源码双Lua编译但0执行／采用／rawNative：日志只积累后reset、未print；pcall错误作为正常result返回，arity缩1；shared模块在后续Admin include之前被包装，installer为no-op；额外GetID/GetTurn且候选遍历无界，nestedcontext未恢复。
+
+Owner QA在原读取产生值的位置观察，不额外Native读或主动RunNow；after-all-includes安装别名，原函数一次、nil／返回arity和异常对象保持。20双Lua实际消费者场景核端口调用数／请求／投入完全一致，另2双Lua场景核nil／异常／context与96行／32候选cap，97Lua双编译119包，Native诊断尚待。源150实际恢复仍FAIL，早先把队列消失归因读档的Owner评论已撤回，缺首规划快照不推根因。累计854／787完整／64length／3最终传输／885HTTP／30额外，0在途，OpenCode原生新增0，未知缓存／全成本／净收益null。
