@@ -6889,3 +6889,10 @@ Owner实际后台读Text→Document→Pane→Pane→Window，头部支持Invoke�
 8213257/597、7651.6236/2502.9129，完整但漏正常版本门/锚点大小写及计数错误/int子类放行，整拒；Owner精确单锚点内存渲染并保旧模板及None/140—142前缀hash。8228326/3735、29086.7488/2811.3566，部分驱动/回执消费者采用；Owner补未匹配锚点，拒版本143配142tag，修漏ACK硬142。8238217/3500、27483.5504/2540.2605为length，内容未读/整弃，Owner接管剩余观察驱动与分析器。
 
 软件2423run/2422pass/1SDKskip、185.287秒；新18方法覆盖实际Controller/临发令变化，工具52项、97Lua双编译/119包一致。首次143全套版本门及Lua51局部变量限制由Owner修；另一轮3个旧测试期望修后全过。软件cut143 Native待验，142旧恢复FAIL与性能PASS分范围。819/820实峰2重叠27.614688秒，821/822/823实峰3重叠7.651990秒；累计823逻辑/762完整/58length/3最终transport/853HTTP/30extra，cut在途0。缓存/服务并发/Owner完整成本/净收益null；无新HTTP重试或共享配置改动。
+
+
+## 2026-11-15：824安全工具适配／825只读城址普查
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/e4af524e5f10b4813f05baacb516f5a313e04843/docs/research/baiqi-source143-cold159-model824825-2026-11-15.json)：8245616/1683tokens、10773.0939ms/TTFT865.4909，stop/DONE/strictJSON。15唯一小替换部分采用；原稿调用不存在的lifecycle check_owner、两重复锚点违约、虚构parser锚点、漏二次turn及marker消费者，Owner纠正。Owner迁移隔离夹具宽替换误改目标index11to14，先失败且保原稿，修夹具后21安全门场景全过。随后11次实际TEST_PLAYER军队MOVE均各一次、独立到址清队列，不授raw整稿Native能力。
+
+8251797/911、6151.3986/453.5334，stop/DONE/strictJSON，raw0采用/0Native：城市ID查单位集合、编造错误index公式、truthy可见性、water类型检查重复而impassable缺、owner0/城数/高度/循环边界及整数缺。Owner只读重写、双Lua编译/无写审查，没有为低影响读器另造mock。实际1144点皆可见/揭露的继承QA夹具13基本候选，再复制精确产品只读谓词得4点通过，仍不授path/NativeFOUND。143普通158to159及旧日志保持是游戏证据，不回授模型；完整独立扩张/143性能待验。累计至825为825/764complete/58length/3finaltransport/855HTTP/30extra；这两个POST不重叠、实峰1。后续826起另案。缓存/完整Owner成本/净节时null。
