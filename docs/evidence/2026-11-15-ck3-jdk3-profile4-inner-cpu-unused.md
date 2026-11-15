@@ -11,3 +11,5 @@ Owner code, independent26-class/3P software qualification and E16 early linkage 
 The new material scope was 2,158,592 B, independently funded once, with original streams/audits and actual Git/material costs retained separately. Runtime and formal work did not wait for this response.
 
 [Exact input pins, original-stream metadata and disposition](2026-11-15-ck3-jdk3-profile4-inner-cpu-unused.json).
+
+[Later independent Head digest and existing cache evidence](2026-11-15-ck3-head-digest-cache-source-evidence.md).
