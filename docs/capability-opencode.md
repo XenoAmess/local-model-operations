@@ -1998,3 +1998,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：829—830继续分轨
 
 [记录](https://github.com/XenoAmess/civ6_dev/blob/1ab77236f5a0efd4b7d90b5b320c0b537ad5e667/docs/research/baiqi-source144-native160-queue829-2026-11-15.json)普通HTTP复用Nov15同机同用户canonical1.19.5成功每日缓存，新OpenCode原生生成session0；Native公共/私有证据及Owner游戏操作分列，维护或HTTPstop不授未知private状态。
+
+
+### 2026-11-15：831—832继续分轨
+
+[记录](https://github.com/XenoAmess/civ6_dev/blob/a8b0f2bc79bfbfe750d3373b300a1c2659265570/docs/research/baiqi-source145-lazy-alternates-software-2026-11-15.json)复用Nov15同机同用户canonical1.19.5成功每日缓存，新OpenCode原生工具生成session0；Owner错误源闭包、HTTP length、软件修正与后续游戏效果分别计，不从维护补独立源审或生成能力。

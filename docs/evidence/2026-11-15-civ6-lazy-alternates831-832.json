@@ -1,0 +1,77 @@
+{
+  "source": "https://github.com/XenoAmess/civ6_dev/blob/a8b0f2bc79bfbfe750d3373b300a1c2659265570/docs/research/baiqi-source145-lazy-alternates-software-2026-11-15.json",
+  "machine": "BF-202609141645",
+  "mode": "ordinary HTTP candidate",
+  "models": [
+    {
+      "id": 830,
+      "input": 19035,
+      "output": 1732,
+      "ms": 12977.67399996519,
+      "TTFT_ms": 2588.6558999773115,
+      "finish": "stop",
+      "raw_adoption": 0,
+      "reason": "Removed exception/transaction guard; oneValidation too early; ordinary loop ended before appended candidates validated; tail sort absent. Owner implementation"
+    },
+    {
+      "id": 831,
+      "input": 3808,
+      "output": 1453,
+      "ms": 14741.825599921867,
+      "TTFT_ms": 1324.3084999267012,
+      "finish": "stop",
+      "adoption": "Version145 exact allowed-list and support semantics partial; raw still duplicates every version branch despite requested folding. Owner common parameter rendering preserves143/144 hashes"
+    },
+    {
+      "id": 832,
+      "input": 25088,
+      "output": 1800,
+      "ms": 17791.851199930534,
+      "TTFT_ms": 4578.768600011244,
+      "finish": "length",
+      "adoption": "Content unread/discarded whole; Owner actual oneValidation/tail order tests",
+      "owner_input_error": "Supplied updated145 test class/export contract but accidentally included frozen older144 site closure from830, not actual145. REQUEST/raw retained; no current145 independent audit claim; failures not attributed to stale input as model semantic errors"
+    }
+  ],
+  "software": {
+    "run": 2448,
+    "seconds": 138.045,
+    "skipped": 1,
+    "failures": 0,
+    "errors": 0
+  },
+  "concurrency": {
+    "831_832_actual_peak": 2,
+    "overlap_seconds": 14.715785,
+    "POST_intervals_UTC": [
+      [
+        "2026-11-15T02:00:13.998331+00:00",
+        "2026-11-15T02:00:28.740299+00:00"
+      ],
+      [
+        "2026-11-15T02:00:14.024514+00:00",
+        "2026-11-15T02:00:31.816799+00:00"
+      ]
+    ]
+  },
+  "ledger": {
+    "logical": 832,
+    "complete": 769,
+    "length": 60,
+    "final_transport": 3,
+    "HTTP": 862,
+    "extra": 30,
+    "current_inflight": 0
+  },
+  "OpenCode": {
+    "maintenance": "Nov15 same-machine/user canonical1.19.5 successful cache reused",
+    "new_native_generation_sessions": 0
+  },
+  "unknown": {
+    "cached_tokens": null,
+    "service_concurrency": null,
+    "owner_full_cost": null,
+    "net_savings": null
+  },
+  "Native_at_software_cut": "PENDING"
+}

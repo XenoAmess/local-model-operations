@@ -6910,3 +6910,10 @@ Owner首改诊断文案预期时缩进错在测试执行前暴露；全套首轮
 [来源](https://github.com/XenoAmess/civ6_dev/blob/1ab77236f5a0efd4b7d90b5b320c0b537ad5e667/docs/research/baiqi-source144-native160-queue829-2026-11-15.json)。8298020/782tokens、6375.7840ms/TTFT1354.9900，stop/DONE/strictJSON；实际字段枚举部分采用，raw silentbreak/缺queue size与全城计数边界、nil索引及总计漏项由Owner纠正。双Lua／无写审查后，Native14个条目0移民/0nil，59live中1旧移民，公共预算和14训练资格正向；reserved/pending/cache仍UNKNOWN，未偷换为0。Owner发现实际两个新增hint带负忠诚警告，4近邻原源谓词仍过，144 raw候选非空门有缺口；143/144普通回合与此诊断不授扩张或性能PASS。
 
 83019035/1732、12977.6740/2588.6559，stop/DONE/strictJSON，raw0采用/0Native：删明示pcall与事务批、oneValidation过早触发、普通模式循环后追加不再验证、漏tail排序。Owner接管145，实现与红绿/续扫验证另案，不从“完整候选”授逻辑正确。两个POST不重叠、实峰1，至830累计830/768complete/59length/3finaltransport/860HTTP/30extra；后续831/832另案，cachedtokens/Owner完整成本/净收益null。
+
+
+## 2026-11-15：831版本渲染／832length与Owner源范围纠正
+
+[源](https://github.com/XenoAmess/civ6_dev/blob/a8b0f2bc79bfbfe750d3373b300a1c2659265570/docs/research/baiqi-source145-lazy-alternates-software-2026-11-15.json)及[摘要](evidence/2026-11-15-civ6-lazy-alternates831-832.json)。8313808/1453tokens、14741.8256ms/TTFT1324.3085，stop/DONE/strictJSON；145明确白名单语义部分采用，但原稿仍逐版本重复分支，Owner参数化替换并保143/144普通及压力prefix全hash。83225088/1800、17791.8512/4578.7686，length/SSE完成，内容未读整弃。Owner给了更新145 test class与导出合同，却误附830时冻结的旧144函数闭包；原REQUEST和范围纠正保留，不授当前145独立源审，不把Owner输入错误算模型语义失败或由length反推永久能力上限。Owner接管续扫／tail排序实测，830前稿仍0采用。
+
+真实144红用例[]vs[201]保留，145绿；29容量／102聚焦、最终2448run/2447pass/1SDKskip138.045秒，97Lua双编译/119包一致。oneValidation逐callback46拒/47拒后追加/45接受、每support一次，耗尽不重查；正常Native成功零备用几何，sort只新增尾部。软件不授Native扩张/性能或旧ARMED恢复。两真实POST峰2重叠14.715785秒，累计832/769complete/60length/3finaltransport/862HTTP/30extra，cut0在途。cache/服务并发/完整Owner成本/净节时null。
