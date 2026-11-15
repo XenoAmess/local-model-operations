@@ -1,0 +1,248 @@
+{
+  "schema": "local-model-operations.ledger-inline-fullreader-review/v1",
+  "date_local": "2026-11-15",
+  "mode_id": "http_candidate",
+  "input": {
+    "whole_Java_each": 17,
+    "whole_other_each": 3,
+    "files": [
+      {
+        "label": "ACTUAL_BASE/LedgerFiles.java",
+        "bytes": 15173,
+        "sha256": "f231189a583013abfb8aac2ba0fbd3a05c338c3d7099206bf31177d583263748"
+      },
+      {
+        "label": "ACTUAL_VIRTUAL_PROPOSED_NOT_MATERIALIZED/LedgerFiles.java",
+        "bytes": 15843,
+        "sha256": "472fc4b67dc06fa0500625459e5e36896133c5e049be93da41ffae0cc6221248"
+      },
+      {
+        "label": "FORMAL_BASE/LedgerFiles.java",
+        "bytes": 15163,
+        "sha256": "e2e8088dd7218e58e0cac07e37be7ce4d60167288143dda3f816fa39c074a0e5"
+      },
+      {
+        "label": "FORMAL_SOURCE_READY/LedgerFiles.java",
+        "bytes": 15833,
+        "sha256": "9dda1b15f4aa639a50d83c0776869b58fe6d3a259eaf0475728928c93b1f2889"
+      },
+      {
+        "label": "adapters-storage/src/main/java/org/xar/ck3/control/continuity/writer/ImmutableArtifactStore.java",
+        "bytes": 62984,
+        "sha256": "729a666403015f02175314cd33e39239365d18ce7222f4a5a55e96afc1391649"
+      },
+      {
+        "label": "contracts/src/main/java/org/xar/ck3/control/contracts/source/IdentityBearingFileAttributes.java",
+        "bytes": 27387,
+        "sha256": "c2581fb1b43ceacac0694608c5b9a869b3ac2855052c04025fb1021020fadef1"
+      },
+      {
+        "label": "continuity-core/src/main/java/org/xar/ck3/control/continuity/writer/StorageWriteGuard.java",
+        "bytes": 7252,
+        "sha256": "beac715b9e08e4b712c69be2154142c3d8a95c141b0829d90dc0b744816b36ab"
+      },
+      {
+        "label": "continuity-core/src/main/java/org/xar/ck3/control/continuity/writer/WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded"
+      },
+      {
+        "label": "continuity-core/src/main/java/org/xar/ck3/control/continuity/writer/ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f"
+      },
+      {
+        "label": "continuity-core/src/main/java/org/xar/ck3/control/continuity/ContinuityState.java",
+        "bytes": 7614,
+        "sha256": "a506aec4e6ea48d199bce0c7037e1d32b1864b14f2af82c7807e243ff3f8d6a7"
+      },
+      {
+        "label": "continuity-core/src/main/java/org/xar/ck3/control/continuity/ContinuityJson.java",
+        "bytes": 10085,
+        "sha256": "7b5e31679b8be7d7ebfe212cf26180323cb10a9614a8ee8d7e07dc2a662d748d"
+      },
+      {
+        "label": "contracts/src/main/java/org/xar/ck3/control/contracts/StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2"
+      },
+      {
+        "label": "contracts/src/main/java/org/xar/ck3/control/contracts/ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221"
+      },
+      {
+        "label": "adapters-storage/src/main/java/org/xar/ck3/control/continuity/writer/WindowsLedgerLock.java",
+        "bytes": 5304,
+        "sha256": "b7c98f337ce2bdf091b3fab20e311e53e6260365d8242e1fba196835899ac4e1"
+      },
+      {
+        "label": "continuity-core/src/main/java/org/xar/ck3/control/continuity/writer/DomainBodies.java",
+        "bytes": 9404,
+        "sha256": "d9c9ed76f9e3ed31ed0c436c2452b4e096dc5b311653fc78ae44b6e657ca7f32"
+      },
+      {
+        "label": "EXISTING_TEST/LedgerFilesRebindIsolation276Test.java",
+        "bytes": 4177,
+        "sha256": "ccbdc6c8115f372eaca2e9f403b5446e0a7a2f63eb610453291a690d0f1241d9"
+      },
+      {
+        "label": "EXISTING_TEST/LedgerLeasedDocumentRetention312Test.java",
+        "bytes": 2614,
+        "sha256": "28e52ced539ea095571f5a7199dbf125abcf52abca35b481d71129abf85e2f83"
+      },
+      {
+        "label": "LEDGER-EXACT-INLINE-FULLREAD01.patch",
+        "bytes": 2302,
+        "sha256": "9cfd1bb307faa6da40bfb43a8391d0762ab067bfc7a26720454183e5451dec65"
+      },
+      {
+        "label": "LEDGER-EXACT-INLINE-FULLREAD-NOTICE01.txt",
+        "bytes": 5703,
+        "sha256": "d172455d30a50bb970cdecaad0fa8cad30a94b5e660feaeb67946d0b542427b1"
+      },
+      {
+        "label": "PROPOSAL_REVIEW_CONTRACT",
+        "bytes": 1522,
+        "sha256": "6c3ea112864389775bf6f1fb372a4eac39ccc7274a4ce474feba360fb968a21b"
+      }
+    ],
+    "source_cut": "Owner actual15173/f231 baseline+15843/472f strict virtual projection; formal15163/e2e baseline+physical SourceReady15833/9dda. Four whole Ledger versions and actual Store/identity/Pin/ExactRef/Guard declarations plus whole276/312 tests. No implementation by model. FormalSourceReady5191/49330290; actualnew not materialized. Prior formal/actual10B write clone delta remains independent.",
+    "tests": "Existing source276/312; old qualified binaries NOT_HELD at inputcut. No test execution attributed to HTTP.",
+    "known_rejected_gate": "Earlier value-equals return Pathlease broke expected-reference objectidentity and was cancelled0POST; neither this inline owner proposal nor these reviews revives it."
+  },
+  "HTTP_tasks": [
+    {
+      "task": "ledger-inline-fullreader-semantic-review01",
+      "POST_BEGIN": "2026-11-15T01:18:57.203598+00:00",
+      "END": "2026-11-15T01:19:19.976482+00:00",
+      "attempts": 1,
+      "retries": 0,
+      "finish_reason": "stop",
+      "DONE": true,
+      "strict_JSON": "VALID",
+      "TTFT_ms": 13365.761399967596,
+      "total_ms": 22772.991199977696,
+      "usage": {
+        "prompt_tokens": 56380,
+        "completion_tokens": 1040,
+        "total_tokens": 57420
+      },
+      "cached_tokens": null,
+      "max_tokens": 1800,
+      "prewire": {
+        "name": "REQUEST-FROZEN-BEFORE-POST.json",
+        "bytes": 264859,
+        "sha256": "402b5e32e9dfc41a2fa09ba9c372d352f90baf47eb1b4a655092fa3acb80aee6"
+      },
+      "actual_REQUEST": {
+        "name": "REQUEST.json",
+        "bytes": 264859,
+        "sha256": "402b5e32e9dfc41a2fa09ba9c372d352f90baf47eb1b4a655092fa3acb80aee6"
+      },
+      "preactual_byteexact": true,
+      "whole_pinned_source_inline_exact": true,
+      "SSE": {
+        "name": "ATTEMPT1-RESPONSE.sse",
+        "bytes": 130430,
+        "sha256": "7b064154b980a5dc3918b10651e5e6cf78817cbf5683946fc30968430a5963ae"
+      },
+      "CONTENT": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 4657,
+        "sha256": "ebfbe40047ac66b8ed393aeca03c6f6ab142b0506641c6b6c659b45e4365ce21"
+      },
+      "SSE_content_byteexact": true
+    },
+    {
+      "task": "ledger-inline-fullreader-clone-ownership-cost-review01",
+      "POST_BEGIN": "2026-11-15T01:18:57.210618+00:00",
+      "END": "2026-11-15T01:19:17.661788+00:00",
+      "attempts": 1,
+      "retries": 0,
+      "finish_reason": "stop",
+      "DONE": true,
+      "strict_JSON": "VALID",
+      "TTFT_ms": 14477.488299831748,
+      "total_ms": 20451.05359982699,
+      "usage": {
+        "prompt_tokens": 56372,
+        "completion_tokens": 740,
+        "total_tokens": 57112
+      },
+      "cached_tokens": null,
+      "max_tokens": 1800,
+      "prewire": {
+        "name": "REQUEST-FROZEN-BEFORE-POST.json",
+        "bytes": 264809,
+        "sha256": "bdac087983cb707cc5c75b22449f16e29f8e2c3f4bbc475a9885768ebbf8f1d4"
+      },
+      "actual_REQUEST": {
+        "name": "REQUEST.json",
+        "bytes": 264809,
+        "sha256": "bdac087983cb707cc5c75b22449f16e29f8e2c3f4bbc475a9885768ebbf8f1d4"
+      },
+      "preactual_byteexact": true,
+      "whole_pinned_source_inline_exact": true,
+      "SSE": {
+        "name": "ATTEMPT1-RESPONSE.sse",
+        "bytes": 87542,
+        "sha256": "340bd37b03fba5788082c2215318117270fec7d5b96408abfe55182b882f4dbf"
+      },
+      "CONTENT": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 2675,
+        "sha256": "833ab361a649db93dcde5e8b8be8b5d04874419ea7422bf94a2301de5d073590"
+      },
+      "SSE_content_byteexact": true
+    }
+  ],
+  "group": {
+    "actual_POSTs": 2,
+    "ENDs": 2,
+    "retries": 0,
+    "complete_stop_streams": 2,
+    "length_or_partial": 0,
+    "input_tokens": 112752,
+    "output_tokens": 1780,
+    "peak_HTTP": 2,
+    "overlap_seconds": 20.45117,
+    "current_inflight": 0,
+    "server_queue_cache_context_capacity": "NOT_HELD; no probe or inference"
+  },
+  "source_reviews": [
+    {
+      "classification": "REJECT_UNREACHABLE_ACQUISITION_NPE_AND_UNSUBSTANTIATED_IDENTITY_OMISSION",
+      "new_reachable_findings": 0,
+      "checks": [
+        "A F1 says an acquire outside try enters that catch with null. An exception before try never enters that catch. Old Path overload71-85 also acquires before try72; provider190-218 closes its own partial HANDLE in finally. Both old/new use that same provider. No new leak or null-close route is established.",
+        "A F2 alleges omitted after-read identity validation, then acknowledges the reconstructed Pin/path are identical and offers only maintenance speculation. Provider207-208 still reads then freshly qualifies pathname; LeasedDocument.read47-54 still verifies current identity. No concrete omitted check or differing ordinary error is shown.",
+        "The duplicate inline reader is an owner-proposed maintenance tradeoff, not a new reachable finding. Checked objectidentity/defensivecopy/close observations do not qualify production binaries, HCR, tests or performance."
+      ]
+    },
+    {
+      "classification": "REJECT_DOUBLE_COUNTED_CLONES_AND_WRAPPER_COUNTS",
+      "new_reachable_findings": 0,
+      "checks": [
+        "B counts getters that acquisition never calls and counts the same intermediate Document twice. BoundedFileRead39-40 has no cloning constructor/accessor; originalRead150 explicitly clones once. Old Path80 clones into Document then old ExactRef95 accesses actual.bytes private field directly and clones into final Document. Thus successful acquisition has 3 payload clones old versus2 new, saving one n-byte constructor clone, not model5->3 or two clones.",
+        "Both exact routes create one FileIdentity, one new ExactRef and two Pins (computed actual and expected-bound final); Documents2->1 and LeasedDocuments2->1. LeasedDocument.read/original return the same final Document and do not invoke Document.bytes(). A later explicit getter independently clones once in both versions.",
+        "Mismatch after full read: old already made intermediate Document/wrapper whereas new rejects before Document construction. The provider readData original byte array/JNA chunk copying and originalRead clone stay unchanged; release nulls captured bytes, close does not clone. Array allocation volume is not a guaranteed peak-live, RSS, GC or elapsed-time change. Formal/actual prior10B write accessor difference is outside hunk and is not a saving of this proposal."
+      ]
+    }
+  ],
+  "adoption": {
+    "new_reachable_findings": 0,
+    "source_Test_hunks": 0,
+    "model_implementation": 0,
+    "HTTP_grants_software_HCR_Runtime_performance": false
+  },
+  "budget": {
+    "scope_exact": 1410048,
+    "maximum_not_reservedfull": 2097152,
+    "forecast": 1409336,
+    "old1536_denial": "Old software+model forecast1611652645 exceeded1610612736 by1039909; preserved.",
+    "new1538_fund": "Root prospective engineering-only1612709888; Native fresh1611686508 margin1023380 funded only1410048 once. Heap/CAS/Game Guards unchanged.",
+    "no_freed_pool_borrow": true
+  },
+  "limits": "Two finite source reviews only; full responses preserved including false findings and cost errors. Source consistency is not software/HCR/live or speed acceptance. No thirdPOST or Test/source mutation."
+}
