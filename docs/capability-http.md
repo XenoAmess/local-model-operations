@@ -6929,3 +6929,10 @@ Owner首个真实请求已返回，随后只读脚本数字拼接编译错，过
 ### 2026-11-15: six actual DATA-custody reviews
 
 [Six complete-source reviews](evidence/2026-11-15-ck3-data-cas-borrow-six-review.md) reached actual peak6 for159.865865s, with6 stop/DONE/validJSON,0 retries and0 adopted findings/hunks. Positive observations in findings arrays are not bugs. A validJSON stop can still contain an unfinished semantic argument; require an actual producer/path before treating a private-state coverage suggestion as actionable. Owner implementation, known prerequisite repair, software and Runtime qualification remain separate.
+
+
+## 2026-11-15：834真实阻塞只读普查／835睡眠拒稿／836工具接线
+
+[精确项目源](https://github.com/XenoAmess/civ6_dev/blob/4138d4a46007aadab7f99e8a010c038b901dfd38/docs/research/baiqi-source146-naturalist-sleep-software-2026-11-15.json)及[摘要](evidence/2026-11-15-civ6-naturalist-sleep834-836.json)。8341050/483tokens、3491.9592ms/TTFT401.8962，完整stop/DONE/JSON，census部分采用；原稿把两种ready相加，Owner改每单位一次、补selected owner及最终blocker，双Lua/无写审查后Native62单位仅1ready自然学家、41pending，0游戏输入，未为纯读造mock。8356786/1255、8866.6257/1268.2196完整，原稿改掉旧persistent待命、错误unit.GetQueuedDestination、missingpendinggetter放过、nilSKIP当false、漏二次许可/绑定，0代码采用/0rawNative。Owner独立SLEEP后备，仅真实SKIP=false自然学家，保护knownemptyNativequeue和park/purchase。Owner进一步发现旧NaturalistPurchaseHeld只判ARMED、UNKNOWN亦false，故补真实购买桥OPEN，不能把Owner完善合同的成本全推模型。
+
+8362941/473、3091.8368/548.0788完整，两白名单替换及测试方法采用，no-op替换忽略；旧未知146夹具改147和其余消费者由Owner。新增13真实Controller方法及7版本方法，145反例[]与146一次SLEEP红绿；首红cwd错误在行为前失败、首绿bootstrap写次数基线1非0、首次全套两旧146非法用例失败均保原件。最终2468run/2467pass/1SDKskip157.956秒，97Lua双编译/119包，None及140—145原prefix哈希保持；不授冷Native或新版性能/旧ARMED恢复。三POST不重叠峰1，累计836/773完整60length3finaltransport866HTTP30extra，当前0，未知缓存/服务并发/完整Owner成本/净节时null。

@@ -1,0 +1,86 @@
+{
+  "source": "https://github.com/XenoAmess/civ6_dev/blob/4138d4a46007aadab7f99e8a010c038b901dfd38/docs/research/baiqi-source146-naturalist-sleep-software-2026-11-15.json",
+  "machine": "BF-202609141645",
+  "models": [
+    {
+      "case": 834,
+      "usage": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 483,
+        "total_tokens": 1533
+      },
+      "ms": 3491.959200007841,
+      "TTFT_ms": 401.8962001428008,
+      "finish": "stop",
+      "SSE_DONE": true,
+      "JSON": "VALID",
+      "adoption": "PARTIAL_READONLY; Owner unique ready count, selected owner and final blocker; Native62/1ready/41pending",
+      "shared_commit": "405b535341e136f6dcfd90eba00ed5d67782a9b7",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "request_sha256": "9c7f1b1765b84ed8b6b1befe68d5ba3666e8f829354926ee992258a93800765b"
+    },
+    {
+      "case": 835,
+      "usage": {
+        "prompt_tokens": 6786,
+        "completion_tokens": 1255,
+        "total_tokens": 8041
+      },
+      "ms": 8866.62569991313,
+      "TTFT_ms": 1268.2195999659598,
+      "finish": "stop",
+      "SSE_DONE": true,
+      "JSON": "VALID",
+      "adoption": "REJECTED_CODE; removes persistent standby, wrong unit queue getter, missing pendinggetter allowed, nilSkip conflated withfalse, no second intent/queue checks/bindings. Owner rewrite. Owner later tightened purchase UNKNOWN because existing NaturalistPurchaseHeld only recognizes ARMED.",
+      "shared_commit": "405b535341e136f6dcfd90eba00ed5d67782a9b7",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "request_sha256": "403fbaa86bfda48a59aa47c623a2acef7daa325fb02c4a924764da5edda2d1ee"
+    },
+    {
+      "case": 836,
+      "usage": {
+        "prompt_tokens": 2941,
+        "completion_tokens": 473,
+        "total_tokens": 3414
+      },
+      "ms": 3091.836799867451,
+      "TTFT_ms": 548.0787998531014,
+      "finish": "stop",
+      "SSE_DONE": true,
+      "JSON": "VALID",
+      "adoption": "PARTIAL; two exact whitelist replacements and one current-render test adopted; no-op replacement ignored. Owner old147 rejection fixture updates and remaining consumer gates/tests",
+      "shared_commit": "405b535341e136f6dcfd90eba00ed5d67782a9b7",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "request_sha256": "a8608e12ac2ed1a27a7affeb737d412969b77b2da7d5609338f059ce99582204"
+    }
+  ],
+  "verification": {
+    "run": 2468,
+    "pass": 2467,
+    "skip": 1,
+    "seconds": 157.956,
+    "failures": 0,
+    "errors": 0
+  },
+  "ledger": {
+    "logical": 836,
+    "complete": 773,
+    "length": 60,
+    "final_transport": 3,
+    "HTTP": 866,
+    "extra_retries": 30,
+    "current_in_flight": 0,
+    "new_tasks_actual_peak": 1,
+    "new_OpenCode_native_generation_sessions": 0
+  },
+  "unknown": {
+    "cached_tokens": null,
+    "server_concurrency": null,
+    "Owner_active_preparation_review_correction": null,
+    "net_savings": null
+  },
+  "Native_at_software_cut": "PENDING"
+}
