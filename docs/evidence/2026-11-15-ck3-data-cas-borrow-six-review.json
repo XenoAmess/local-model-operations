@@ -1,0 +1,669 @@
+{
+  "schema": "local-model-operations.retirement-data-cas-borrow-six/v1",
+  "date_local": "2026-11-15",
+  "mode_id": "http_candidate",
+  "input": {
+    "whole_Java_each": [
+      25,
+      39,
+      37,
+      35,
+      23,
+      41
+    ],
+    "whole_other_each": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      6
+    ],
+    "unique_full_sources": [
+      {
+        "label": "CURRENT_ACTUAL_BASE/adapters-storage/src/main/java/org/xar/ck3/control/continuity/writer/ImmutableArtifactStore.java",
+        "bytes": 62984,
+        "sha256": "729a666403015f02175314cd33e39239365d18ce7222f4a5a55e96afc1391649"
+      },
+      {
+        "label": "CURRENT_ACTUAL_BASE/local-service/src/main/java/org/xar/ck3/control/continuity/writer/NativeOutcomeArchive.java",
+        "bytes": 148597,
+        "sha256": "d608934517b272fceb2f67f75c61157490a7ce5d957237ca75084f8b7a0ffecb"
+      },
+      {
+        "label": "CURRENT_ACTUAL_BASE/local-service/src/main/java/org/xar/ck3/control/service/root/RootApplicationAssembly.java",
+        "bytes": 280240,
+        "sha256": "766c50998c750fba8ea79e9d46ade0910ebf6cb10abd577b161c25e0a8af1d57"
+      },
+      {
+        "label": "CANDIDATE_VIRTUAL/adapters-storage/src/main/java/org/xar/ck3/control/continuity/writer/ImmutableArtifactStore.java",
+        "bytes": 63817,
+        "sha256": "02d189210b4137458a27aa1ab3cbe2c465ab810a60bf7104a61107e4cf2933db"
+      },
+      {
+        "label": "CANDIDATE_VIRTUAL/local-service/src/main/java/org/xar/ck3/control/continuity/writer/NativeOutcomeArchive.java",
+        "bytes": 150646,
+        "sha256": "53310ef85651b9aabbc533fabed27ee9ddc0ca9fbaf3bb035cde9c44e38e3f03"
+      },
+      {
+        "label": "CANDIDATE_VIRTUAL/local-service/src/main/java/org/xar/ck3/control/service/root/RootApplicationAssembly.java",
+        "bytes": 280323,
+        "sha256": "68c25540c59a9e5113904e247784d95cb863db18da815f1f15453519cf5323b5"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/effects/OriginalEvidencePort.java",
+        "bytes": 511,
+        "sha256": "73e24f1db40f2f5f5d296a3b5c2693e344875065c1d92967e8a198ce2b2f6797"
+      },
+      {
+        "label": "adapters-storage/src/main/java/org/xar/ck3/control/continuity/writer/ContinuityWriter.java",
+        "bytes": 126589,
+        "sha256": "5b23ade6e962079744aed574c9f3ef5cae4de912b3d9b228b6ae0801895fb217"
+      },
+      {
+        "label": "continuity-core/src/main/java/org/xar/ck3/control/continuity/writer/ContinuityStorePort.java",
+        "bytes": 9414,
+        "sha256": "bfad267191ddc252decd545f224450a701623f45a92dbaf4cff94769b86c6f7f"
+      },
+      {
+        "label": "continuity-core/src/main/java/org/xar/ck3/control/continuity/writer/WriterContracts.java",
+        "bytes": 18156,
+        "sha256": "3f91b61042b451fc8d3a72dd10b9b88eb1144e314e8c567b9a4709bb1d433ded"
+      },
+      {
+        "label": "continuity-core/src/main/java/org/xar/ck3/control/continuity/ContinuityState.java",
+        "bytes": 7614,
+        "sha256": "a506aec4e6ea48d199bce0c7037e1d32b1864b14f2af82c7807e243ff3f8d6a7"
+      },
+      {
+        "label": "continuity-core/src/main/java/org/xar/ck3/control/continuity/writer/StorageWriteGuard.java",
+        "bytes": 7252,
+        "sha256": "beac715b9e08e4b712c69be2154142c3d8a95c141b0829d90dc0b744816b36ab"
+      },
+      {
+        "label": "contracts/src/main/java/org/xar/ck3/control/contracts/ExactRef.java",
+        "bytes": 1490,
+        "sha256": "006dc93e3297600c7a004b3d6b73fcfb4fd31d36a6c57a699558c2feed8fd221"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/RawJson.java",
+        "bytes": 6984,
+        "sha256": "880ad40e6689716c740fcdb1df0c8f36886a4ef3f2f33cf6821f5d3c815d5d27"
+      },
+      {
+        "label": "continuity-core/src/main/java/org/xar/ck3/control/continuity/ContinuityJson.java",
+        "bytes": 10085,
+        "sha256": "7b5e31679b8be7d7ebfe212cf26180323cb10a9614a8ee8d7e07dc2a662d748d"
+      },
+      {
+        "label": "contracts/src/main/java/org/xar/ck3/control/contracts/StrictJson.java",
+        "bytes": 14844,
+        "sha256": "a6c185770b920e45107e046235ee0dcb098ab538b532e3f49e94d9e8f93f79d2"
+      },
+      {
+        "label": "adapters-storage/src/main/java/org/xar/ck3/control/continuity/writer/WindowsLedgerLock.java",
+        "bytes": 5304,
+        "sha256": "b7c98f337ce2bdf091b3fab20e311e53e6260365d8242e1fba196835899ac4e1"
+      },
+      {
+        "label": "continuity-core/src/main/java/org/xar/ck3/control/continuity/writer/DomainBodies.java",
+        "bytes": 9404,
+        "sha256": "d9c9ed76f9e3ed31ed0c436c2452b4e096dc5b311653fc78ae44b6e657ca7f32"
+      },
+      {
+        "label": "adapters-storage/src/main/java/org/xar/ck3/control/continuity/writer/LedgerFiles.java",
+        "bytes": 15833,
+        "sha256": "9dda1b15f4aa639a50d83c0776869b58fe6d3a259eaf0475728928c93b1f2889"
+      },
+      {
+        "label": "contracts/src/main/java/org/xar/ck3/control/contracts/source/IdentityBearingFileAttributes.java",
+        "bytes": 27387,
+        "sha256": "c2581fb1b43ceacac0694608c5b9a869b3ac2855052c04025fb1021020fadef1"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/ActionPorts.java",
+        "bytes": 23186,
+        "sha256": "8f442da38de05a11daa15c4d8eb700f7c609a7e82d4d8de5ea94c171f2b676a7"
+      },
+      {
+        "label": "local-service/src/main/java/org/xar/ck3/control/application/driver/DriverCapabilityRuntime.java",
+        "bytes": 55131,
+        "sha256": "542321de42c35c8c315f6eaca690351c71b1c6f59a3aa76626a0423cfa7c46b4"
+      },
+      {
+        "label": "local-service/src/main/java/org/xar/ck3/control/service/root/RootReservedRetirementArchive.java",
+        "bytes": 13334,
+        "sha256": "876465c0031c39f8b9e450f96b69c8d44417aef4594d4d4f20ffffdc200b0745"
+      },
+      {
+        "label": "local-service/src/main/java/org/xar/ck3/control/continuity/writer/NativeArchiveDataCodec.java",
+        "bytes": 19007,
+        "sha256": "ad56ad889946f0b7c0651c0bd36c0f9d6b5558a7e45aeb95f114e538940f3bb4"
+      },
+      {
+        "label": "local-service/src/main/java/org/xar/ck3/control/continuity/writer/ArchiveOriginalEvidencePort.java",
+        "bytes": 1038,
+        "sha256": "1e30bb469634e9776c4ba9d47e656d9f79c97c769f5f6bbd22826a155395adae"
+      },
+      {
+        "label": "SOURCE_INTENTION_READY.json",
+        "bytes": 7712,
+        "sha256": "97c11214a8347f35c154b36f23eee08a8d24c5f47be4e229ff182b4dc060b500"
+      },
+      {
+        "label": "OWNER_ACTUAL3.patch",
+        "bytes": 6986,
+        "sha256": "64bc256e0d29eee0891d356f39a774b16c91e32e65457517b7ce39ffc22fa78c"
+      },
+      {
+        "label": "REV02_MECHANICAL_PROOF.json",
+        "bytes": 886,
+        "sha256": "41933d5450ac46a1616d0b1a054fa352d021e86101253be0e99f0ec94323f014"
+      },
+      {
+        "label": "INDEPENDENT_KNOWN_FINISH_PRECONDITION.patch",
+        "bytes": 1126,
+        "sha256": "c449fba12e3caa5dccf44656656663fb201197a73ec467e6fede0dd61099f9ba"
+      },
+      {
+        "label": "SCOPE_REVIEW_CONTRACT",
+        "bytes": 2032,
+        "sha256": "4f0cb3b90d2569775447e934cf6660acba5c2dfdf5bd25dd3f372b707577601d"
+      },
+      {
+        "label": "EXISTING_TEST_SOURCE/NativeArchiveHistoricalScope225Test.java",
+        "bytes": 25097,
+        "sha256": "e197e9e4b9b842bb2f464134e71ebd4952827b3fd0532acc16236ae1da36bc7b"
+      },
+      {
+        "label": "EXISTING_TEST_SOURCE/ReadOnlyHistoricalScope258Test.java",
+        "bytes": 10058,
+        "sha256": "cdb660f28a0b2f7615a5b40b1ac9d8ba889d4ac2b8076c24a79093d3ef38f429"
+      },
+      {
+        "label": "EXISTING_TEST_SOURCE/StorageWriteGuardTestSupport.java",
+        "bytes": 16482,
+        "sha256": "3bd4e4237c92cdff9113c3031fa999ae87c2c60eb0171ef6b0567bfaf843497f"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/NativeActionPort.java",
+        "bytes": 11308,
+        "sha256": "ff69d9d5ef6a75c0f5c03e9b83a165a1e5544d4e8f044d3c886bd865a04daa81"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/NativeObservationPort.java",
+        "bytes": 1639,
+        "sha256": "66f33fcee1823e3acf9bd2ff047b953d7de1dc74032a1751aefca47fe62b8d2b"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/NativeRequest.java",
+        "bytes": 2170,
+        "sha256": "0030edd3d9987415a4a7cac48157eb7455ef5586098defe7d6b1e9f8b503d83e"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/PlanningReadReceipt.java",
+        "bytes": 6590,
+        "sha256": "cb78eab706c7497a48a7db8f534c892d8f1fe6790fd0fc730750035dea5efd12"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/ActionReceipt.java",
+        "bytes": 5848,
+        "sha256": "dd64077d3b3358f5b34d7b3338aee33897c565bf60b8efd951b0e20a8a462913"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/ActionRecord.java",
+        "bytes": 445,
+        "sha256": "a66f04efe3e9825aff5e3826be052bb687b70bab389486deb3e4bf5125d521e1"
+      },
+      {
+        "label": "contracts/src/main/java/org/xar/ck3/control/contracts/presentation/PresentationOriginals.java",
+        "bytes": 2349,
+        "sha256": "b62c16ae62ccd4d7a6b0e9bb9cdd807abbdadc8b88abea6e62d80766736422c7"
+      },
+      {
+        "label": "contracts/src/main/java/org/xar/ck3/control/contracts/presentation/OriginalOutcome.java",
+        "bytes": 10731,
+        "sha256": "5c5faba2720bea3c465ff2fe8f4194b801401390b07dd32d4364eae4b91d1ae7"
+      },
+      {
+        "label": "contracts/src/main/java/org/xar/ck3/control/contracts/presentation/PresentationObservation.java",
+        "bytes": 9706,
+        "sha256": "3bb737b79211d04628af8be4e3f554166d6376ccbac3d31cd60233de16ece95d"
+      },
+      {
+        "label": "contracts/src/main/java/org/xar/ck3/control/contracts/presentation/FrontendWindowCaptureRequest.java",
+        "bytes": 6484,
+        "sha256": "4a8a606fc7b7658ab953b5915074043d4907071a06ff03e8985c12e2cd875a6f"
+      },
+      {
+        "label": "contracts/src/main/java/org/xar/ck3/control/contracts/presentation/FrontendWindowCaptureOutcome.java",
+        "bytes": 8434,
+        "sha256": "fd07ebad58334ea3e9a21b5be614ceb9b04288a3987e2dbcab812c77b7164834"
+      },
+      {
+        "label": "contracts/src/main/java/org/xar/ck3/control/contracts/ContractViolationException.java",
+        "bytes": 348,
+        "sha256": "ed14dfab6bf95bf2c0b0361f8302de520179e02788e60a6ba4b3d2ad3e04ddd9"
+      },
+      {
+        "label": "EXISTING_TEST_SOURCE/HistoricalFinishPrimaryTest.java",
+        "bytes": 9496,
+        "sha256": "2231802b341970c15860ee2bd45a3832f5c93d0c4ceea8bca956313ad4794940"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/effects/NativeEffectEvidence.java",
+        "bytes": 25459,
+        "sha256": "f1a0bd22c4f179e635554f8c7996ea2290f6a4a18fce738d4a9437a39ee6c490"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/GuardEvidence.java",
+        "bytes": 6176,
+        "sha256": "a26fcda93c132568c925090f4717fe1023be4534ce94c74afa7303b4d2a47247"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/ActionCommand.java",
+        "bytes": 5863,
+        "sha256": "44ca002a61c52ce068c70a3a1c0ca5bea58d3454e617bf048b7f8d1ca3acf49c"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/OperationKey.java",
+        "bytes": 413,
+        "sha256": "bc21f4c9f71e1964569c1c0218e38cf3c9b5177da99338b28bfa08ddd043ca57"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/CompositeOperatorQuarantineSource.java",
+        "bytes": 14316,
+        "sha256": "673e870ebbd2292cb315e041fd89ba5188361c8328519992a5c301ac1ff29a7e"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/ActionReceiptCodec.java",
+        "bytes": 60717,
+        "sha256": "ce966a1e9e4d69817a023e4db34ec1facd8e87f46e86a0c993e75ade1134f0f5"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/effects/NativeRecordedEvidenceVerifier.java",
+        "bytes": 47764,
+        "sha256": "51b3fb0cdd903967e443498e3513b103ddcc6abd37955db3a047e8f0426b80e3"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/ContinuityActionJournal.java",
+        "bytes": 24919,
+        "sha256": "733327afe9b759fdffe0f54acc5242f883e1185d2cda3fe8bfb83ea59303b147"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/ActionJournal.java",
+        "bytes": 2794,
+        "sha256": "5b224d9636086b5d23614e84f1398e402c45031c59b8049131fb06edc974ad51"
+      },
+      {
+        "label": "application/src/main/java/org/xar/ck3/control/application/action/ActionCodec.java",
+        "bytes": 13354,
+        "sha256": "1c61f3457485b9fc5c26ccb35dfe6b3d8c4a4cdfe5efcb10afdfa65d8210a302"
+      },
+      {
+        "label": "ReservedRetirementDataReadScopeTest.java",
+        "bytes": 21867,
+        "sha256": "9e02b9f379a31fe80870c21c46e2c9a94033d1cf94aaeb45627bc416a05ddd3e"
+      },
+      {
+        "label": "TEST-SOURCE-READY-RESERVED-RETIREMENT-DATA-BORROW-OWNER65-01.json",
+        "bytes": 9907,
+        "sha256": "aeaecd3bebe4f154c176e2a97197cee67c6115663a2c8d3aa414ce3ec134aab8"
+      }
+    ],
+    "candidate_cut": "Owner Rev02 actual current-based three complete virtual sources,494786B: Core280323/68c25540, Archive150646/53310ef8, Store63817/02d18921. CurrentCoreBASE280240/766c5099 includes clean verifier; obsolete279717 excluded. Each virtual whole source fullSHA/inverse checked. No candidate Java was materialized by model operations.",
+    "known_prerequisite": "Root selected only the existing minimal formal finish-cause defense as an independent precondition. Old actual getCause diagnostic could replace escaping primary. This is known owner evidence, not model discovery or new borrow code. Other formal Store/Core/Archive variants were not transplanted.",
+    "new_Test": "Whole owner65 Test21867/9e02b9f3 and Ready9907/aeaecd3b plus original225/258/finish and complete helper/direct declarations in role6. Source-only/uncompiled at inputcut; no model Test authorship.",
+    "post_BEGIN_owner_fact": "Java later materialized identical three sources under actual02, Ready13360/3544b0c72019884583e563d4df64c524a014c2d88409e2c105991faa368f2125. It does not retroactively change frozen inputs or grant compilation/live status."
+  },
+  "HTTP_tasks": [
+    {
+      "role": "identity",
+      "task": "retirement-data-cas-identity-review01",
+      "POST_BEGIN": "2026-11-15T02:50:38.393582+00:00",
+      "END": "2026-11-15T02:53:47.082810+00:00",
+      "attempts": 1,
+      "retries": 0,
+      "finish_reason": "stop",
+      "DONE": true,
+      "strict_JSON": "VALID",
+      "TTFT_ms": 84604.31279987097,
+      "total_ms": 188689.14609984495,
+      "usage": {
+        "prompt_tokens": 272660,
+        "completion_tokens": 706,
+        "total_tokens": 273366
+      },
+      "cached_tokens": null,
+      "max_tokens": 2400,
+      "whole_Java": 25,
+      "whole_other": 5,
+      "prewire": {
+        "name": "REQUEST-FROZEN-BEFORE-POST.json",
+        "bytes": 1412984,
+        "sha256": "88511bd88939f41b7a60e68df310e4328db115e1a3e19662df6caadfcb4be13e"
+      },
+      "actual_REQUEST": {
+        "name": "REQUEST.json",
+        "bytes": 1412984,
+        "sha256": "88511bd88939f41b7a60e68df310e4328db115e1a3e19662df6caadfcb4be13e"
+      },
+      "preactual_byteexact": true,
+      "full_source_boundary_bytes_SHA_exact": true,
+      "SSE": {
+        "name": "ATTEMPT1-RESPONSE.sse",
+        "bytes": 90701,
+        "sha256": "95530d7094aa1257d36302ff687cfbd2555b2aa1cdb2769c9d2dcd8c69151825"
+      },
+      "CONTENT": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 3410,
+        "sha256": "3c8d9eff0f06f0034438ed8580dd8cfee819c2f7300e55fcf7b49b33f5449916"
+      },
+      "SSE_content_byteexact": true
+    },
+    {
+      "role": "lifecycle",
+      "task": "retirement-data-cas-lifecycle-review01",
+      "POST_BEGIN": "2026-11-15T02:50:38.411994+00:00",
+      "END": "2026-11-15T02:53:47.421568+00:00",
+      "attempts": 1,
+      "retries": 0,
+      "finish_reason": "stop",
+      "DONE": true,
+      "strict_JSON": "VALID",
+      "TTFT_ms": 80852.38819988444,
+      "total_ms": 189009.6827999223,
+      "usage": {
+        "prompt_tokens": 246747,
+        "completion_tokens": 777,
+        "total_tokens": 247524
+      },
+      "cached_tokens": null,
+      "max_tokens": 2400,
+      "whole_Java": 39,
+      "whole_other": 5,
+      "prewire": {
+        "name": "REQUEST-FROZEN-BEFORE-POST.json",
+        "bytes": 1252891,
+        "sha256": "e972e636de4504b6375e85e0df05c9dc1b27fa61b30fef3fa3c6b83b04814c91"
+      },
+      "actual_REQUEST": {
+        "name": "REQUEST.json",
+        "bytes": 1252891,
+        "sha256": "e972e636de4504b6375e85e0df05c9dc1b27fa61b30fef3fa3c6b83b04814c91"
+      },
+      "preactual_byteexact": true,
+      "full_source_boundary_bytes_SHA_exact": true,
+      "SSE": {
+        "name": "ATTEMPT1-RESPONSE.sse",
+        "bytes": 96805,
+        "sha256": "a6bea4c7da6a740d3e390af58fe983d7473c64e28cdd401bef7f232cf1f18e8c"
+      },
+      "CONTENT": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 3313,
+        "sha256": "4ae3a47b27a2cc0b1f10e28c48389c667609babcca65c6fa5fe2250d0c2a801c"
+      },
+      "SSE_content_byteexact": true
+    },
+    {
+      "role": "failure",
+      "task": "retirement-data-cas-failure-review01",
+      "POST_BEGIN": "2026-11-15T02:50:38.438903+00:00",
+      "END": "2026-11-15T02:53:42.758471+00:00",
+      "attempts": 1,
+      "retries": 0,
+      "finish_reason": "stop",
+      "DONE": true,
+      "strict_JSON": "VALID",
+      "TTFT_ms": 183261.1111002043,
+      "total_ms": 184319.60829999298,
+      "usage": {
+        "prompt_tokens": 241622,
+        "completion_tokens": 86,
+        "total_tokens": 241708
+      },
+      "cached_tokens": null,
+      "max_tokens": 2400,
+      "whole_Java": 37,
+      "whole_other": 5,
+      "prewire": {
+        "name": "REQUEST-FROZEN-BEFORE-POST.json",
+        "bytes": 1227895,
+        "sha256": "5c9eaf0df8f1c8dd29b97b7282cf07d2c4436d14a9feb6f644084dbab5c64ae4"
+      },
+      "actual_REQUEST": {
+        "name": "REQUEST.json",
+        "bytes": 1227895,
+        "sha256": "5c9eaf0df8f1c8dd29b97b7282cf07d2c4436d14a9feb6f644084dbab5c64ae4"
+      },
+      "preactual_byteexact": true,
+      "full_source_boundary_bytes_SHA_exact": true,
+      "SSE": {
+        "name": "ATTEMPT1-RESPONSE.sse",
+        "bytes": 11335,
+        "sha256": "a744bb5d648b4c121f57e81985390a77f0e47db444d60c03ef42e9054bedaa1e"
+      },
+      "CONTENT": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 418,
+        "sha256": "23fdfe51d458bcfc375e9e3103d3fd1891cd12ca3dde2f36469c58ef019e7d29"
+      },
+      "SSE_content_byteexact": true
+    },
+    {
+      "role": "data-boundary",
+      "task": "retirement-data-cas-data-boundary-review01",
+      "POST_BEGIN": "2026-11-15T02:50:38.435510+00:00",
+      "END": "2026-11-15T02:53:42.198006+00:00",
+      "attempts": 1,
+      "retries": 0,
+      "finish_reason": "stop",
+      "DONE": true,
+      "strict_JSON": "VALID",
+      "TTFT_ms": 174646.86700003222,
+      "total_ms": 183762.62419996783,
+      "usage": {
+        "prompt_tokens": 274114,
+        "completion_tokens": 56,
+        "total_tokens": 274170
+      },
+      "cached_tokens": null,
+      "max_tokens": 2400,
+      "whole_Java": 35,
+      "whole_other": 5,
+      "prewire": {
+        "name": "REQUEST-FROZEN-BEFORE-POST.json",
+        "bytes": 1413315,
+        "sha256": "96401472b460295e4bafe109e4118f674ecefc05bc1e0e4d7bc6a5c38ac738cc"
+      },
+      "actual_REQUEST": {
+        "name": "REQUEST.json",
+        "bytes": 1413315,
+        "sha256": "96401472b460295e4bafe109e4118f674ecefc05bc1e0e4d7bc6a5c38ac738cc"
+      },
+      "preactual_byteexact": true,
+      "full_source_boundary_bytes_SHA_exact": true,
+      "SSE": {
+        "name": "ATTEMPT1-RESPONSE.sse",
+        "bytes": 8524,
+        "sha256": "85d32df38fbcb8adeaa42df7fe82324be60d0df88e66d565c04888095a3d2dc5"
+      },
+      "CONTENT": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 279,
+        "sha256": "1af90e3272a8ac1efc36bbeaa09adea369112866938abb1fa298ea2037634583"
+      },
+      "SSE_content_byteexact": true
+    },
+    {
+      "role": "bounds",
+      "task": "retirement-data-cas-bounds-review01",
+      "POST_BEGIN": "2026-11-15T02:50:38.434942+00:00",
+      "END": "2026-11-15T02:53:18.313326+00:00",
+      "attempts": 1,
+      "retries": 0,
+      "finish_reason": "stop",
+      "DONE": true,
+      "strict_JSON": "VALID",
+      "TTFT_ms": 100395.25060006417,
+      "total_ms": 159878.51780001074,
+      "usage": {
+        "prompt_tokens": 191185,
+        "completion_tokens": 64,
+        "total_tokens": 191249
+      },
+      "cached_tokens": null,
+      "max_tokens": 2400,
+      "whole_Java": 23,
+      "whole_other": 5,
+      "prewire": {
+        "name": "REQUEST-FROZEN-BEFORE-POST.json",
+        "bytes": 977081,
+        "sha256": "ad180940e6a7e64bb76132f186469eac9ce72ff819a0d201b81de693335bb141"
+      },
+      "actual_REQUEST": {
+        "name": "REQUEST.json",
+        "bytes": 977081,
+        "sha256": "ad180940e6a7e64bb76132f186469eac9ce72ff819a0d201b81de693335bb141"
+      },
+      "preactual_byteexact": true,
+      "full_source_boundary_bytes_SHA_exact": true,
+      "SSE": {
+        "name": "ATTEMPT1-RESPONSE.sse",
+        "bytes": 10000,
+        "sha256": "dfc26cba7f8d4846b8af8138851b2c27e6c1c31902389e402585220fb5f14422"
+      },
+      "CONTENT": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 324,
+        "sha256": "088e9e9eb997fc2fe7f6fa0d4832949bc1520cee688926ea01bead6366672d29"
+      },
+      "SSE_content_byteexact": true
+    },
+    {
+      "role": "test-coverage",
+      "task": "retirement-data-cas-test-coverage-review01",
+      "POST_BEGIN": "2026-11-15T02:50:38.447461+00:00",
+      "END": "2026-11-15T02:53:43.143311+00:00",
+      "attempts": 1,
+      "retries": 0,
+      "finish_reason": "stop",
+      "DONE": true,
+      "strict_JSON": "VALID",
+      "TTFT_ms": 158219.97329988517,
+      "total_ms": 184695.81589987502,
+      "usage": {
+        "prompt_tokens": 256640,
+        "completion_tokens": 169,
+        "total_tokens": 256809
+      },
+      "cached_tokens": null,
+      "max_tokens": 2400,
+      "whole_Java": 41,
+      "whole_other": 6,
+      "prewire": {
+        "name": "REQUEST-FROZEN-BEFORE-POST.json",
+        "bytes": 1296356,
+        "sha256": "de0c9e90754b03c8661af0c22c1065928844a57a91a6ce6fd0c26e703893434c"
+      },
+      "actual_REQUEST": {
+        "name": "REQUEST.json",
+        "bytes": 1296356,
+        "sha256": "de0c9e90754b03c8661af0c22c1065928844a57a91a6ce6fd0c26e703893434c"
+      },
+      "preactual_byteexact": true,
+      "full_source_boundary_bytes_SHA_exact": true,
+      "SSE": {
+        "name": "ATTEMPT1-RESPONSE.sse",
+        "bytes": 22219,
+        "sha256": "c97b60e7c88c456308409fc18517f7784fe96f39a563c8f8c872f083db69439f"
+      },
+      "CONTENT": {
+        "name": "ATTEMPT1-CONTENT.txt",
+        "bytes": 702,
+        "sha256": "08ff2804a93531ef7b056395bbe4549848fd5729a2a7a7caa0f0ca6db48f559b"
+      },
+      "SSE_content_byteexact": true
+    }
+  ],
+  "group": {
+    "actual_POSTs": 6,
+    "ENDs": 6,
+    "retries": 0,
+    "complete_stop_streams": 6,
+    "length_or_partial_stream": 0,
+    "new_usable_findings": 0,
+    "input_tokens": 1482968,
+    "output_tokens": 1858,
+    "peak_HTTP": 6,
+    "all6_overlap_seconds": 159.865865,
+    "full_client_window_seconds": 189.027986,
+    "window_average_inflight": 5.768220479268081,
+    "current_inflight": 0,
+    "service_queue_cache_KV_context_capacity": "NOT_HELD; no probe or inference"
+  },
+  "source_reviews": {
+    "identity": {
+      "classification": "POSITIVE_OBSERVATIONS_MISPLACED_IN_FINDINGS_NOT_REACHABLE_DEFECTS",
+      "checks": [
+        "Both nominal findings conclude the supplied guards reject detached cache/foreign custody. A conjectured stale commandReads is followed by the model itself identifying clearCommands and the explicit null-TLS detached-cache rejection. No producer/path passing the guards is supplied.",
+        "Store accessor and requireActive bind actual session/thread/TLS; private facade shares owner TLS/cache. Persistent drift is checked after callback. This finite source observation is not a proof covering every transient mutation or new authority."
+      ]
+    },
+    "lifecycle": {
+      "classification": "CORRECT_BEHAVIOR_LABELLED_FINDINGS_NOT_NEW_BUGS",
+      "checks": [
+        "F1 explicitly calls borrow behavior correct: no finish/close of outer reads, caught failures poison the existing owner, owner later finishes. F2 describes exact session/cache/current checks as correct. Neither is a defect or new implementation.",
+        "After historical scope finish, a still-live actual Session-bound facade can perform fresh fallback or open another ordinary scope; no permanent facade-expiry rule is inferred. Foreign-thread rejection is local and cannot magically poison another thread TLS."
+      ]
+    },
+    "failure": {
+      "classification": "EMPTY_LIMITED_FAILURE_SUMMARY",
+      "checks": [
+        "findings[] and boundary names only. Independent hostile-getCause defense is already Root-selected from existing formal source and fully provided as known prerequisite; no model discovery or software qualification is credited.",
+        "Full escaping-primary/firstFailure/suppression, generic nested rejection and cleanup remain separate owner/source/test obligations; short summary does not establish exhaustive correctness."
+      ]
+    },
+    "data-boundary": {
+      "classification": "EMPTY_LIMITED_DATA_BOUNDARY_SUMMARY",
+      "checks": [
+        "findings[] with four component names and no new route or hunk. Existing Core raw facade still performs per-read owner/session/head/source checks; its two private DATA consumers and NativeRecordedEvidenceVerifier are supplied whole.",
+        "No Native action, domain-write, live READ flush, issuer or Runtime permission is granted by this review; no whole-history or all-method proof is inferred."
+      ]
+    },
+    "bounds": {
+      "classification": "EMPTY_LIMITED_BOUNDS_SUMMARY",
+      "checks": [
+        "findings[] with method names, not a new candidate or comprehensive accounting proof. Borrow does not create/reset/finish owner reads; no active scope delegates the existing ordinary8192/256MiB/16384 path.",
+        "Inherited recovery-tier custody remains the existing exact owner limits, not a new permission or fresh heap allowance. No memory-limit, eviction, negative hint or cache change was proposed/adopted."
+      ]
+    },
+    "test-coverage": {
+      "classification": "SEMANTICALLY_INCOMPLETE_UNSUBSTANTIATED_PRIVATE_CACHE_TEST_GAP",
+      "checks": [
+        "Transport is stop/DONE/valid JSON, but the analysis string ends inside the phrase new IOException(. This is incomplete semantic reasoning, not finish=length or a missing SSE tail; original text is retained unchanged.",
+        "The only asserted coverage gap targets reads==null with private cache.commandReads!=null. It supplies no reachable public producer/prior-state path. historicalReadScope owns assignment and finally clears commandReads; postchecks reject mismatched custody. Owner65 Ready explicitly excludes manufacturing a private stale pointer where no ordinary public producer was identified.",
+        "No new mirror/reflection fixture or altered oracle is justified. The complete actual new21867B Test, original225/258/finish and helper/interfaces were included, so the claim is not blamed on a missing supplied Test. No Test hunk is adopted."
+      ]
+    }
+  },
+  "adoption": {
+    "new_reachable_findings": 0,
+    "source_Test_hunks": 0,
+    "model_implementation": 0,
+    "software_HCR_Runtime_permission_from_HTTP": false
+  },
+  "budget": {
+    "new_scope_exact": 18911232,
+    "pre_plus_actual_REQUEST": 15161044,
+    "prospective_all_material": 18911044,
+    "Root_engineering_only_cap": 1637875712,
+    "Native_true_fresh_forecast": 1635715570,
+    "Native_margin": 2160142,
+    "software_independent_scope": 4820992,
+    "scope_counting": "Models18911232 and software4820992 each funded once; no old unused pool borrow or full-prewire double counting. Prior1536/1538 caps/negative quotes preserved; heap/Game/CAS/Guard unchanged."
+  },
+  "limits": "Six independent reviews share relevant whole components; no quotas filled with duplicate tasks, no seventh request. Positive observations and valid JSON are not findings or complete proof. The short test-gap string is semantically incomplete despite complete SSE. Current actual Runtime adoption/performance remains separately owned."
+}

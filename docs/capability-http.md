@@ -6924,3 +6924,8 @@ Owner首改诊断文案预期时缩进错在测试执行前暴露；全套首轮
 [真实源码／合同和后续首验](https://github.com/XenoAmess/civ6_dev/blob/094e50668b5d8e6c8d2ad1737310407d2eb77d6d/docs/research/baiqi-military-alert833-software-2026-11-15.json)与[摘要](evidence/2026-11-15-civ6-military-alert833.json)。单HTTP200完整stop/DONE/strictJSON，1641+1110tokens、7258.7108ms／TTFT512.9994。原稿硬编码162而不比EXPECTED.turn、误把SENTRY当AWAKE、漏领袖／SP及两次FindID／最终重检，0代码采用／0rawNative。Owner独立重写46双Lua场景，已知pending ALERT保留门26场景／实际普通END双编译。
 
 Owner首个真实请求已返回，随后只读脚本数字拼接编译错，过早要求立即SENTRY的断言亦错；新纯读实际pendingtrue／ACTIVITY_OPERATION、原位／健康／单编队／queuednil，0请求重放或取消。跨回合结算在冻结切点待验；Owner结果假设和实现成本不归模型。实际初始／峰在途1，累计833／770完整／60length／3最终transport／863HTTP／30extra，当前0；缓存、服务并发、完整Owner准备／纠错主动成本及净收益null。单请求失败不推断永久上限。
+
+
+### 2026-11-15: six actual DATA-custody reviews
+
+[Six complete-source reviews](evidence/2026-11-15-ck3-data-cas-borrow-six-review.md) reached actual peak6 for159.865865s, with6 stop/DONE/validJSON,0 retries and0 adopted findings/hunks. Positive observations in findings arrays are not bugs. A validJSON stop can still contain an unfinished semantic argument; require an actual producer/path before treating a private-state coverage suggestion as actionable. Owner implementation, known prerequisite repair, software and Runtime qualification remain separate.
