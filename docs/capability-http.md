@@ -6903,3 +6903,10 @@ Owner实际后台读Text→Document→Pane→Pane→Window，头部支持Invoke�
 [项目源](https://github.com/XenoAmess/civ6_dev/blob/20ada92294ae3c572372a2a4eb47c8d12e856e66/docs/research/baiqi-source144-bounded-alternates-software-2026-11-15.json)及[摘要](evidence/2026-11-15-civ6-bounded-alternates826-828.json)。82614140/1249tokens、9815.4869ms/TTFT2042.9194，stop/DONE/strictJSON，部分策略与推荐收集采用；明示合同仍漏pcall，读取中途throw会停Controller/留半截候选。Owner事务式proposal批收集、strict可见性/max19/整数距离和使用传入player纠正。8273589/1085、6934.9644/682.6646，stop/DONE/strictJSON，4个实际唯一renderer替换采用，仅Owner改错误文案版本；其它144工具接线由Owner。143普通/压力输出hash保留，旧Lua模板未改。82872901/2600、24199.7821/9479.0585 length，内容未读整弃；Owner8实际Controller新方法接管。
 
 Owner首改诊断文案预期时缩进错在测试执行前暴露；全套首轮另有4census文本锚点错误，缩窄唯一锚点后4专项过，旧143转换/prefix/逆变换逐字节一致。最终2438run/2437pass/1SDKskip、144.216秒，26容量方法/79聚焦/97Lua双编译/119包一致。软件不授Native/性能；旧ARMED恢复FAIL保留，142性能只保原实测范围。三POST不重叠、实峰1，至828累计828/766complete/59length/3finaltransport/858HTTP/30extra，cut当前0；缓存/服务并发/完整Owner成本/净收益null，后续冷游戏另案。
+
+
+## 2026-11-15：829原生队列诊断／830lazy候选拒用
+
+[来源](https://github.com/XenoAmess/civ6_dev/blob/1ab77236f5a0efd4b7d90b5b320c0b537ad5e667/docs/research/baiqi-source144-native160-queue829-2026-11-15.json)。8298020/782tokens、6375.7840ms/TTFT1354.9900，stop/DONE/strictJSON；实际字段枚举部分采用，raw silentbreak/缺queue size与全城计数边界、nil索引及总计漏项由Owner纠正。双Lua／无写审查后，Native14个条目0移民/0nil，59live中1旧移民，公共预算和14训练资格正向；reserved/pending/cache仍UNKNOWN，未偷换为0。Owner发现实际两个新增hint带负忠诚警告，4近邻原源谓词仍过，144 raw候选非空门有缺口；143/144普通回合与此诊断不授扩张或性能PASS。
+
+83019035/1732、12977.6740/2588.6559，stop/DONE/strictJSON，raw0采用/0Native：删明示pcall与事务批、oneValidation过早触发、普通模式循环后追加不再验证、漏tail排序。Owner接管145，实现与红绿/续扫验证另案，不从“完整候选”授逻辑正确。两个POST不重叠、实峰1，至830累计830/768complete/59length/3finaltransport/860HTTP/30extra；后续831/832另案，cachedtokens/Owner完整成本/净收益null。
