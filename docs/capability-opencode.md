@@ -2151,3 +2151,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[Civ6 895与154区域预检](evidence/2026-11-16-civ6-http895-district-preflight154.json)。895普通HTTP超时不授OpenCode生成能力；Nov16同机每日维护成功缓存1.19.5有效，原生生成0。测试正对照最初绑定第三次读取次数，Owner移除实现形状断言、保留真实拒绝／合法边界并在改产品前重跑旧版。
 
 2026-11-16：[Civ6 896／897与155调度](evidence/2026-11-16-civ6-http896897-pruning-scheduling155.json)。Nov16同机每日维护成功缓存1.19.5有效，OpenCode原生生成0；普通HTTP的四次超时不授原生工具能力。调度变更的整周期测试仍调用真实Run，单次时机变更测试只观察当前回调，不能把后续合法新回合的动作误当作当前越权。
+
+2026-11-16：[Civ6155独立规划实测](evidence/2026-11-16-civ6-source155-native-planning.json)。本次Native验收无模型HTTP、无OpenCode原生生成；Nov16维护缓存成功1.19.5不代表生成候选能力。
