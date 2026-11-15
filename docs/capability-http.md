@@ -7032,3 +7032,10 @@ Owner QA在原读取产生值的位置观察，不额外Native读或主动RunNow
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/3a58920b3f422cd78ed4291adee397b9dd10ac0a/docs/research/baiqi-source151-native193-flood-research-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-owner-flood-research151.json)。承接被拒856与length857，未重POST，源码／测试0原稿采用。Owner仅对真实可抢救洪灾允许紧急研究切换，精确原科技身份／正未完成投入与成本发令前重检，目标观察后还需保原进度或已合法完成才清pending，未知不重放；生产排除门保持。2549项2548pass1SDKskip／168.787s、97Lua双编译119包20旧前缀保持。首次完整2549两处旧mockHash555断言失败（182.055s），修消费者为实机Index55后重跑全绿；10新方法双Lua覆盖实际Admin.Run。
 
 实机151正式冷193，后台唯一切电脑55，request与research_observed及独立current55均证；电脑413/664未变，激光333.73046875/925原投入保持。0人工研究／生产，科技完工／防洪／旧ARMED恢复仍未授。软件／维护／原稿与Owner实效分账，累计857／789完整／65length／3最终传输／888HTTP／30额外不变，新增OpenCode原生0，未知缓存／主动Owner成本／净省时null。
+
+
+## 2026-11-15：858实际空队列合同拒绝与Owner军队升级
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/2a98d6e73b586b9344b7a51254070fa69c7573a5/docs/research/baiqi-source151-granary196-upgrade858-2026-11-15.json)／[案例](evidence/2026-11-15-civ6-http858-upgrade-and-owner-witness.json)。真实未完成TEST_PLAYER升级守卫任务，3576+851tokens，5720.5937ms／有效内容TTFT675.7907ms，stop、DONE、严格JSON；双Lua编译，但实际端口正案各0请求（期待1）。原稿把原生单nil空队列要求为table#1，缺SelectUnit、fresh绑定和最后资格，整体拒绝，0原稿Native／采用。完整API与队列合同已在输入，按语义错误记；维护成功不补能力。
+
+Owner52双Lua守卫及16虎蹲炮场景后，195原版升级只发一次、金币395、完整新演员ID11075604独立集合读回；敌方63恰有相同完整ID131073，所以ID必须与owner及所属集合共同验证。旧演员在升级后可能退休，作者代码不再访问旧pointer。首次见证可吞退休后异常，Owner加严正例必须无异常完成，52再过，原守卫SHA未变且Native未重放。195三城各135自动防洪坝／武汉排水，196自然扩张新城首栋普通粮仓完成属Owner实效；工业区修复／旧ARMED恢复与151性能仍开。858切点累计858／790完整／65length／3最终传输／889HTTP／30extra、0在途，未知缓存／完整Owner主动成本／净省时null。

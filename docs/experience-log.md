@@ -545,3 +545,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：nil合成零和可变行自比较的反例
 
 [Owner151](https://github.com/XenoAmess/civ6_dev/blob/3a58920b3f422cd78ed4291adee397b9dd10ac0a/docs/research/baiqi-source151-native193-flood-research-2026-11-15.json)新增反例分别在首次Lua51场景失败：Lua的`condition and getter() or 0`会把getter的nil／false合成0，可能授出零投入路径，应显式分支并验证数值。两个变量指同一可变GameInfo行时，callback改Hash后再自比较仍相等；在调用路径API前冻结Index／Hash／Type标量，再核当前行。最终10方法全双Lua场景通过，不能把首失败写成两Lua均跑过。以实际Native GetResearchPath得到的Index55修正mock producer及所有consumer555断言，不能只改正例或为了旧绿改变真实API。
+
+
+### 2026-11-15：正例异常也必须成为见证失败
+
+[858及Owner纠正](https://github.com/XenoAmess/civ6_dev/blob/2a98d6e73b586b9344b7a51254070fa69c7573a5/docs/research/baiqi-source151-granary196-upgrade858-2026-11-15.json)：隔离见证不应吞掉模拟writer退休演员之后的异常。期望成功分支须验证无意外异常和完整终态，再看请求数；不能只因已有1写就放过后续错误。队列单nil返回与table内nil不同，必须保留arity。升级可产生新ID，应从当前owner集合重新取演员；跨玩家ID碰撞必须按owner限定。上述纠正有52双Lua软件场景与原版一次395金币升级的新演员实效，不能扩成所有升级窗口或并发物理证明。

@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-15",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "task": 858,
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/2a98d6e73b586b9344b7a51254070fa69c7573a5/docs/research/baiqi-source151-granary196-upgrade858-2026-11-15.json",
+  "model": {
+    "http_status": 200,
+    "finish_reason": "stop",
+    "sse_done": true,
+    "usage": {
+      "prompt_tokens": 3576,
+      "completion_tokens": 851,
+      "total_tokens": 4427
+    },
+    "total_ms": 5720.593700185418,
+    "first_nonempty_content_delta_ms": 675.7907001301646,
+    "review": {
+      "both_Lua_compile": true,
+      "isolated_actual_port_positive_requests": [
+        0,
+        0
+      ],
+      "expected": 1,
+      "adopted": false,
+      "Native": 0,
+      "reason": "requires queue table#1withnil instead of actual zero/one nil => rejects actualemptyqueue; neverSelectUnit; no freshbindingchecks or15cityguard, no finalfreshnessafterlastCan. Wholecandidate rejected."
+    },
+    "actual_POST_peak": 1,
+    "raw_Native": 0
+  },
+  "Owner_witness_correction": "initial harness could swallow unexpected exceptions after mockwriter retired actor; now all positive paths must complete without exception, including caught unknown writer. Original receipt/log retained; guard source unchanged and actualNative upgrade not replayed.",
+  "TEST_PLAYER_upgrade": {
+    "from_id": 131073,
+    "from_type": 21,
+    "from": "UNIT_WARRIOR",
+    "xy": [
+      15,
+      13
+    ],
+    "damage": 48,
+    "target_type": 68,
+    "target": "UNIT_INFANTRY",
+    "price": 395,
+    "before_gold": 12026.12109375,
+    "after_gold": 11631.12109375,
+    "quoted_upgrade_resource": [
+      45,
+      1
+    ],
+    "resource_stock_delta": "not measured",
+    "loose_and_full_CanStartCommand": true,
+    "single_original_RequestCommand": true,
+    "new_id": 11075604,
+    "new_unit_type": 68,
+    "new_damage": 48,
+    "new_moves": 0,
+    "fresh_collection_proof": true,
+    "old_pointer_authored_reads_after_request": 0,
+    "background_military_commands": 0,
+    "guard_dualLua_scenarios": 52
+  },
+  "cross_version_natural_chain": {
+    "same_naturally_trained_actor": 10027070,
+    "birth173": "source145to146 naturalproduction, populationcost independently priorrecorded",
+    "march": "source147to149 samefullID",
+    "founded192": "source149 sameactor FOUND observed/newcity and consumedactor",
+    "newcity_first_building_completed196": "source151 ordinaryfollowup, notallstages151",
+    "new_OBSERVED_and_old_ARMED_unchanged": true
+  },
+  "granary_completed": true,
+  "ledger_at_case_cut": {
+    "logical": 858,
+    "complete": 790,
+    "length": 65,
+    "final_transport": 3,
+    "HTTP_attempts": 889,
+    "extra_attempts": 30,
+    "inflight": 0,
+    "new_OpenCode_native_generation": 0
+  },
+  "unknown": {
+    "cached_tokens": null,
+    "service_concurrency": null,
+    "full_Owner_active_cost": null,
+    "net_time_saving": null,
+    "source151_performance": "UNMEASURED"
+  },
+  "new_OpenCode_native_generation": 0,
+  "boundary": "Native effects belong to Owner guard and product; rejected model858 never executed in Native. Later task859 excluded from this858 evidencecut."
+}

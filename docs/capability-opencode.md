@@ -2083,3 +2083,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：Owner151结果不追授原生生成
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/3a58920b3f422cd78ed4291adee397b9dd10ac0a/docs/research/baiqi-source151-native193-flood-research-2026-11-15.json)无新增HTTP或OpenCode原生session。Owner独立研发、完整2549和真实后台研究效果不改变856拒绝／857整弃的原稿结论，也不把每日OpenCode缓存复用算业务生成。
+
+
+### 2026-11-15：858与Owner195／196不增加原生生成次数
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/2a98d6e73b586b9344b7a51254070fa69c7573a5/docs/research/baiqi-source151-granary196-upgrade858-2026-11-15.json)：新增1普通HTTP任务858、0OpenCode原生生成。当天成功维护缓存仅为入口资格；Owner编测、测试玩家军事操作、产品自动防洪及跨版本建城首建筑链均不追授原生工具或被拒858能力。两mode继续分账。
