@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-15",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/b8e3fb35ccd62ee7ec66a85ab8954a94147bf57b/docs/research/baiqi-source150-firstplanning-exclusion855857-2026-11-15.json",
+  "models": [
+    {
+      "number": 855,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 13012,
+        "completion_tokens": 1437,
+        "total_tokens": 14449
+      },
+      "total_ms": 10386.159099871293,
+      "first_nonempty_content_delta_ms": 1920.7909000106156,
+      "adopted": false,
+      "Native": 0,
+      "Owner_review": {
+        "both_Lua_compile_only": true,
+        "execution": 0,
+        "adopted": false,
+        "Native": 0,
+        "reason": "omits requested (true,true) exclusion result call; substitutes(false) and wrongly names it permission. Read drops multi-return results so resFull is boolnotfailuretable; no exactrow identity/currentmetadata/Computersprogresscost; context onlybefore, noafter."
+      }
+    },
+    {
+      "number": 856,
+      "http_status": 200,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 20923,
+        "completion_tokens": 2256,
+        "total_tokens": 23179
+      },
+      "total_ms": 22263.138300040737,
+      "first_nonempty_content_delta_ms": 4085.6312999967486,
+      "adopted": false,
+      "Native": 0,
+      "Owner_review": {
+        "unique_anchors": [
+          1
+        ],
+        "both_Lua_compile": true,
+        "isolated_actual_Admin_Run_positive_scenarios": 2,
+        "required_requests_each": 1,
+        "actual_requests_each": [
+          0,
+          0
+        ],
+        "adopted": false,
+        "Native": 0,
+        "reason": "finalnonzero progressgate retained => no preemption. interruptedsnapshot never assigned; pendingACK clears beforepreservationcheck and fallback comparesoldrowagainst targethash/type; no originalsnapshot freshness. Rejectedwholepatch."
+      }
+    },
+    {
+      "number": 857,
+      "http_status": 200,
+      "finish_reason": "length",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 24653,
+        "completion_tokens": 6500,
+        "total_tokens": 31153
+      },
+      "total_ms": 45127.97069991939,
+      "first_nonempty_content_delta_ms": 6183.993299957365,
+      "adopted": false,
+      "Native": 0,
+      "length_whole_unread": true,
+      "candidate_JSON_parse": 0,
+      "compile": 0,
+      "execution": 0
+    }
+  ],
+  "concurrency": {
+    "855_POST_peak": 1,
+    "856857_POST_peak": 2,
+    "856857_overlap_seconds": 22.269706,
+    "service_concurrency": null
+  },
+  "ledger": {
+    "logical": 857,
+    "complete": 789,
+    "length": 65,
+    "final_transport": 3,
+    "HTTP_attempts": 888,
+    "extra_attempts": 30,
+    "inflight": 0,
+    "new_OpenCode_native_generation": 0
+  },
+  "actual_firstplanning": {
+    "complete_lines": 41,
+    "line_cap": 96,
+    "line_gaps": 0,
+    "dropped_or_unknown_tail": 0,
+    "first_target_city": 327684,
+    "turn": 193,
+    "initial_queue_size": 0,
+    "gold": 12049.59765625,
+    "netGold": 189.8125,
+    "committedMaintenance": 4,
+    "minimum_netGold": 2,
+    "barrier_maintenance": 1,
+    "raw_flood_demand": true,
+    "folded_flood_demand": true,
+    "barrier_exclusion_CanProduce": false,
+    "candidate_count": 23,
+    "all_candidates_printed": true,
+    "chosen_unit_index": 80,
+    "chosen_hash": 1543324079,
+    "chosen_score": 66.085,
+    "request": "0:193:1",
+    "source": "BACKGROUND",
+    "extra_Native_reads_or_forced_RunNow": 0,
+    "native_performance_claim": false
+  },
+  "later_readonly": {
+    "barrier_exclusion_with_results": {
+      "first": false,
+      "second": null,
+      "arity": 2
+    },
+    "barrier_full_with_results": {
+      "first": true,
+      "second": null,
+      "arity": 2
+    },
+    "barrier_usual_exclusion": false,
+    "Computers": {
+      "index": 55,
+      "hash": 1442511705,
+      "HasTech": false,
+      "CanResearch": true,
+      "progress": 413,
+      "cost": 664,
+      "Native_GetResearchPath_hash_argument_returns": [
+        55
+      ]
+    },
+    "current_Lasers": {
+      "index": 61,
+      "hash": 611924100,
+      "HasTech": false,
+      "CanResearch": true,
+      "progress": 333.73046875,
+      "cost": 925
+    }
+  },
+  "proven_gap": {
+    "Computerstech_missing": true,
+    "current_nonzero_research_preserved_by_Admin_early_and_final_gates": true,
+    "idle_only_floodresearch_does_not_preempt_invested_Lasers": "source150 Admin Research lines243/283 before151; realcurrent333.73046875",
+    "production_exclusion_gate": "preserve, do not bypass",
+    "initial_queue_empty": "directly observed at firstProcessCity; exact engineprune cause/time beforeit not proved"
+  },
+  "claims": {
+    "firstplanning_cause_measured": true,
+    "source151_implemented": false,
+    "native_flood_recovery": false,
+    "old_ARMED_recovery": "FAIL_OPEN",
+    "all_functional_acceptance": false
+  },
+  "unknown": {
+    "cached_tokens": null,
+    "full_Owner_active_cost": null,
+    "net_time_saving": null,
+    "source150_performance": "UNMEASURED"
+  },
+  "new_OpenCode_native_sessions": 0,
+  "Owner_publication_correction": "Unescaped literal {Hash555} in Owner f-string raised NameError after evidence JSON only, before doc appends/stage/commit/push; raw error retained. Resume reuses existing exact case, escapes literal and continues remaining publication, no model or game replay."
+}

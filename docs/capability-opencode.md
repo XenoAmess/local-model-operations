@@ -2073,3 +2073,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：854普通候选与Owner诊断分账
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/fdc9e4efc3dda001870379317fc885e1aac52193/docs/research/baiqi-source150-native193-first-planning854-2026-11-15.json)经共享维护入口的普通HTTP候选；新增OpenCode原生session0。Owner私有QA观察器的软件资格／冷读不授被拒原稿或每日维护原生代码生成能力。
+
+
+### 2026-11-15：855—857无新增原生工具生成
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/b8e3fb35ccd62ee7ec66a85ab8954a94147bf57b/docs/research/baiqi-source150-firstplanning-exclusion855857-2026-11-15.json)是固定三消息普通HTTP，daily maintenance入口与OpenCode原生生成分账。Owner真实游戏只读、两候选隔离软件调用或之后151修复都不追授被拒／截断原稿原生能力。

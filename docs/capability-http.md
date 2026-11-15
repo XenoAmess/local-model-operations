@@ -7018,3 +7018,10 @@ Owner独立实现和10个双Lua双kind方法，旧149正例失败，首150又有
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/fdc9e4efc3dda001870379317fc885e1aac52193/docs/research/baiqi-source150-native193-first-planning854-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-passive-planning854.json)。源150实机冷193保留项目119/145，却首排机枪；事后需求／资格true不能倒填首规划，因此先发真实未完成的被动首规划trace任务。85419622+1345tokens、11258.0862ms／TTFT2666.5672，单POST峰1／200stop/DONE/严格JSON，合成源码双Lua编译但0执行／采用／rawNative：日志只积累后reset、未print；pcall错误作为正常result返回，arity缩1；shared模块在后续Admin include之前被包装，installer为no-op；额外GetID/GetTurn且候选遍历无界，nestedcontext未恢复。
 
 Owner QA在原读取产生值的位置观察，不额外Native读或主动RunNow；after-all-includes安装别名，原函数一次、nil／返回arity和异常对象保持。20双Lua实际消费者场景核端口调用数／请求／投入完全一致，另2双Lua场景核nil／异常／context与96行／32候选cap，97Lua双编译119包，Native诊断尚待。源150实际恢复仍FAIL，早先把队列消失归因读档的Owner评论已撤回，缺首规划快照不推根因。累计854／787完整／64length／3最终传输／885HTTP／30额外，0在途，OpenCode原生新增0，未知缓存／全成本／净收益null。
+
+
+## 2026-11-15：855多返回丢弃／856未实际解除进度门／857截断
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/b8e3fb35ccd62ee7ec66a85ab8954a94147bf57b/docs/research/baiqi-source150-firstplanning-exclusion855857-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-flood-static-exclusion855857.json)。Owner被动150首次真实规划观测：队列0、需求真预算足、防洪坝排除资格false；独立实际电脑未拥有413/664，而当前激光333.7305/925，旧AI研究零进度门挡住紧急切换。原版消费者仍要求排除与完整检查，不能因fullCan或BUILDCan=true就绕缺科技。85513012+1437tokens、10386.1591ms／TTFT1920.7909、200stop/DONE/严格JSON、双Lua编译，但遗漏关键(true,true)结果调用，Read丢多返回导致失败表不可达、身份和后置guard不足，0执行／采用／Native。
+
+85620923+2256、22263.1383ms／4085.6313，完整JSON、唯一锚点双编译，实际两Lua Admin.Run正例各0请求（应1）：最终非零进度门未解除、interrupted未赋值、ACK先清pending再核旧投入且旧row对targetHash，整体拒。85724653+6500、45127.9707ms／6183.9933，length整份未读不解析／拼接；Owner预算成本分账，不计语义错误。856／857实际峰2重叠22.269706秒，855峰1。累计857／789完整／65length／3最终传输／888HTTP／30额外，0在途，新增OpenCode原生0，缓存／服务并发／完整Owner成本／净收益null。Owner151接管尚未在该证据切点实现，Native恢复仍FAIL。

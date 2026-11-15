@@ -535,3 +535,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：被动观察也要核输出、异常和安装时序
 
 [854](https://github.com/XenoAmess/civ6_dev/blob/fdc9e4efc3dda001870379317fc885e1aac52193/docs/research/baiqi-source150-native193-first-planning854-2026-11-15.json)编译通过不能证明trace可见：积累后reset且无print会丢整份观测。pcall必须区分原错误并保原异常对象和全部nil返回位置，不能将错误字符串作为成功结果。shared模块可能被后续include重建，应在全部include后核真实别名再包装；空installer不补时序。使用已有读取值插入日志，不能偷偷多读Native状态来声称完全被动；20实际端口调用数对照与2错误／cap场景是软件范围，日志时延和Native仍另验。后读资格不恢复首次规划的历史事实，未观测初始队列不能认定引擎裁剪或具体加载race。
+
+
+### 2026-11-15：看似更完整的资格检查可能漏另一类前置条件
+
+[855—857](https://github.com/XenoAmess/civ6_dev/blob/b8e3fb35ccd62ee7ec66a85ab8954a94147bf57b/docs/research/baiqi-source150-firstplanning-exclusion855857-2026-11-15.json)的fullCan和BUILDCan事后均true，但原版排除模式false且所需科技未拥有；原消费合同要求两种模式，不能由函数名字推权限强弱或绕门。诊断需保多返回值和nil位置，单值reader的known标记不是失败表；应实际调用关键排除结果模式。最早自然规划的直接日志与事后读取分开，预算足／低军队分数不排除候选先被资格过滤。对紧急切换补丁必须真跑投入正例，若最终旧门仍在，新增pending结构不使业务生效；保留旧投入的ACK必须先核再清pending。原生路径回的是Index55，旧mock{Hash555}应纠正而非拿来重写实际接口。
