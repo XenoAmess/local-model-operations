@@ -2003,3 +2003,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：831—832继续分轨
 
 [记录](https://github.com/XenoAmess/civ6_dev/blob/a8b0f2bc79bfbfe750d3373b300a1c2659265570/docs/research/baiqi-source145-lazy-alternates-software-2026-11-15.json)复用Nov15同机同用户canonical1.19.5成功每日缓存，新OpenCode原生工具生成session0；Owner错误源闭包、HTTP length、软件修正与后续游戏效果分别计，不从维护补独立源审或生成能力。
+
+
+### 2026-11-15：833继续区分维护与生成
+
+[833](https://github.com/XenoAmess/civ6_dev/blob/094e50668b5d8e6c8d2ad1737310407d2eb77d6d/docs/research/baiqi-military-alert833-software-2026-11-15.json)沿共享caller复用Nov15同机同用户1.19.5每日成功缓存，无新增OpenCode原生工具生成session；HTTP原稿拒绝、Owner软件门与玩家军令实效分别记录，不由维护通过授生成能力。

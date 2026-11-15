@@ -6917,3 +6917,10 @@ Owner首改诊断文案预期时缩进错在测试执行前暴露；全套首轮
 [源](https://github.com/XenoAmess/civ6_dev/blob/a8b0f2bc79bfbfe750d3373b300a1c2659265570/docs/research/baiqi-source145-lazy-alternates-software-2026-11-15.json)及[摘要](evidence/2026-11-15-civ6-lazy-alternates831-832.json)。8313808/1453tokens、14741.8256ms/TTFT1324.3085，stop/DONE/strictJSON；145明确白名单语义部分采用，但原稿仍逐版本重复分支，Owner参数化替换并保143/144普通及压力prefix全hash。83225088/1800、17791.8512/4578.7686，length/SSE完成，内容未读整弃。Owner给了更新145 test class与导出合同，却误附830时冻结的旧144函数闭包；原REQUEST和范围纠正保留，不授当前145独立源审，不把Owner输入错误算模型语义失败或由length反推永久能力上限。Owner接管续扫／tail排序实测，830前稿仍0采用。
 
 真实144红用例[]vs[201]保留，145绿；29容量／102聚焦、最终2448run/2447pass/1SDKskip138.045秒，97Lua双编译/119包一致。oneValidation逐callback46拒/47拒后追加/45接受、每support一次，耗尽不重查；正常Native成功零备用几何，sort只新增尾部。软件不授Native扩张/性能或旧ARMED恢复。两真实POST峰2重叠14.715785秒，累计832/769complete/60length/3finaltransport/862HTTP/30extra，cut0在途。cache/服务并发/完整Owner成本/净节时null。
+
+
+## 2026-11-15：833单军队警戒候选拒绝
+
+[真实源码／合同和后续首验](https://github.com/XenoAmess/civ6_dev/blob/094e50668b5d8e6c8d2ad1737310407d2eb77d6d/docs/research/baiqi-military-alert833-software-2026-11-15.json)与[摘要](evidence/2026-11-15-civ6-military-alert833.json)。单HTTP200完整stop/DONE/strictJSON，1641+1110tokens、7258.7108ms／TTFT512.9994。原稿硬编码162而不比EXPECTED.turn、误把SENTRY当AWAKE、漏领袖／SP及两次FindID／最终重检，0代码采用／0rawNative。Owner独立重写46双Lua场景，已知pending ALERT保留门26场景／实际普通END双编译。
+
+Owner首个真实请求已返回，随后只读脚本数字拼接编译错，过早要求立即SENTRY的断言亦错；新纯读实际pendingtrue／ACTIVITY_OPERATION、原位／健康／单编队／queuednil，0请求重放或取消。跨回合结算在冻结切点待验；Owner结果假设和实现成本不归模型。实际初始／峰在途1，累计833／770完整／60length／3最终transport／863HTTP／30extra，当前0；缓存、服务并发、完整Owner准备／纠错主动成本及净收益null。单请求失败不推断永久上限。
