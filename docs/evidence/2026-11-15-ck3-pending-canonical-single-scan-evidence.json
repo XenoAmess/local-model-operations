@@ -1,0 +1,182 @@
+{
+  "schema": "local-model-operations.case-evidence/v1",
+  "case": "ck3-pending-canonical-single-scan-source-evidence",
+  "date": "2026-11-15",
+  "owner": "/root/models_continue",
+  "mode": "ordinary_http",
+  "status": "COMPLETE_STOP_EVIDENCE_ONLY_NO_IMPLEMENTATION",
+  "source_contract": {
+    "complete_selected_Java": 62,
+    "source_raw_bytes": 1068602,
+    "contract_count": 1,
+    "scope": "Each canonical identical current Head state/bound archive; separate-state historical prefix independent, no cross-call cache.",
+    "exact_REQUEST": {
+      "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\REQUEST-FROZEN-BEFORE-POST.json",
+      "bytes": 1117251,
+      "sha256": "d06f0ccd115069353f06ff36fcff806a97928beafc0076cbec0b3375460e5284"
+    },
+    "spec": {
+      "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\SOURCE-SPEC.json",
+      "bytes": 25173,
+      "sha256": "fd8491f04e58f08c7101c4c305a1bd8284d75edd67cd40c750dd7d82c24eeb3f"
+    },
+    "completeness_limitation": {
+      "status": "DIRECT_CALLEE_BODY_OMITTED_FROM_FIRST_INPUT_DISCOVERED_POST_END",
+      "omitted_whole": {
+        "path": "C:\\ck3-state\\resume91-root\\quarkus-dev307\\source307\\application\\src\\main\\java\\org\\xar\\ck3\\control\\application\\action\\ActionRecordCodec.java",
+        "bytes": 1338,
+        "sha256": "7cae3af6a305e9041f60c66c69d832e64f6f576c57e65e6092120b03840e3e84"
+      },
+      "callsite_was_in_input": "Full NativeArchive1125 invokes ActionRecordCodec.decode; selected62 source prefix omitted its own class body.",
+      "owner_after_cut_read": "Whole1338B read after END: decode17-21 strict schema/row then archive.loadReceipt; encode11-15 archive.receiptReferenceOf then canonical.",
+      "not_retroactive_model_input": true,
+      "no_silent_repair_or_second_POST": true
+    }
+  },
+  "operational": {
+    "schema": "ck3.models.pending-canonical-http-cost/v1",
+    "task": "pending-canonical-single-scan-evidence-review01",
+    "POSTs": 1,
+    "ENDs": 1,
+    "retries": 0,
+    "stop_DONE_VALID": true,
+    "full_SSE_content_byte_exact": true,
+    "actual_pre_REQUEST_byte_exact": true,
+    "input_tokens": 226744,
+    "output_tokens": 319,
+    "TTFT_ms": 29264.984000008553,
+    "total_ms": 31571.511899819598,
+    "POST_BEGIN": "2026-11-15T14:39:33.174684+00:00",
+    "END": "2026-11-15T14:40:04.746220+00:00",
+    "actual_window_seconds": 31.571536,
+    "peak_HTTP": 1,
+    "current_inflight": 0,
+    "service_queue_cache_context_configuration": "NOT_HELD; input success/TTFT proves no configuration or capacity",
+    "all_http_physical_pins": [
+      {
+        "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\http\\ATTEMPT1-CONTENT.txt",
+        "bytes": 1504,
+        "sha256": "d9bba1ac3f6d3779a3aa3a15bcdaa07b60ee965b398d0dcc46248ee835376ae3"
+      },
+      {
+        "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\http\\ATTEMPT1-FIRST-CONTENT.json",
+        "bytes": 116,
+        "sha256": "ee1b3818bd16dbc56d4661ed2808cd77fe02eefe1ffdc71b411b7a795d7b06ba"
+      },
+      {
+        "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\http\\ATTEMPT1-HEADERS.json",
+        "bytes": 2836,
+        "sha256": "5854987b61fb090dd04a7fb2621da9d167486f26b90266d28b4b7ea36a1e5adb"
+      },
+      {
+        "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\http\\ATTEMPT1-RESPONSE.sse",
+        "bytes": 42658,
+        "sha256": "bd4db95b9d01d9abfb1bbf0f8657ed52ec57c1c0b534924a643f8609737f672d"
+      },
+      {
+        "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\http\\ATTEMPT1-RESULT.json",
+        "bytes": 1299,
+        "sha256": "14fd1f5d1325c6f10a9ed22183eb098813636db96be6678611167f8d0b86b16e"
+      },
+      {
+        "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\http\\DISPATCH.claim",
+        "bytes": 108,
+        "sha256": "6220d8ed5af163193f39dad925c17de7304b30257d52d0612b472797e6b142c9"
+      },
+      {
+        "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\http\\EVENTS.jsonl",
+        "bytes": 2842,
+        "sha256": "a7505b43acae89cda8280808ce1f1d4e9de0f59433b93ae7f9ed65bfb1dd17f2"
+      },
+      {
+        "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\http\\REQUEST-PREPARATION.json",
+        "bytes": 936,
+        "sha256": "2757060d49292ede8116d439fd20841c1833aa5e0e307d7affa341827b7846f8"
+      },
+      {
+        "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\http\\REQUEST.json",
+        "bytes": 1117251,
+        "sha256": "d06f0ccd115069353f06ff36fcff806a97928beafc0076cbec0b3375460e5284"
+      },
+      {
+        "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\http\\SUMMARY.json",
+        "bytes": 1681,
+        "sha256": "820491acea90301a941b3ae26eee09332042d3d87545f9736e41053deb2103dd"
+      }
+    ],
+    "actual_pre_REQUEST": {
+      "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\REQUEST-FROZEN-BEFORE-POST.json",
+      "bytes": 1117251,
+      "sha256": "d06f0ccd115069353f06ff36fcff806a97928beafc0076cbec0b3375460e5284"
+    }
+  },
+  "model_response": {
+    "assessment": "EVIDENCE_ONLY",
+    "findings": [],
+    "complete_CONTENT": {
+      "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\http\\ATTEMPT1-CONTENT.txt",
+      "bytes": 1504,
+      "sha256": "d9bba1ac3f6d3779a3aa3a15bcdaa07b60ee965b398d0dcc46248ee835376ae3"
+    },
+    "usable_complete_answer": true,
+    "full_qualification": false
+  },
+  "owner_source_review": {
+    "schema": "ck3.models.pending-canonical-source-review/v1",
+    "task": "pending-canonical-single-scan-evidence-review01",
+    "raw_assessment": "EVIDENCE_ONLY",
+    "raw_findings": [],
+    "reachable_defects_established": 0,
+    "adopted_source_Test_hunks": 0,
+    "implementation_design_requested_or_provided": false,
+    "original_content": {
+      "path": "D:\\ck3-state\\resume91-models-delivery\\ordinary-p0-20261112\\pending-canonical-single-scan-evidence-review01\\http\\ATTEMPT1-CONTENT.txt",
+      "bytes": 1504,
+      "sha256": "d9bba1ac3f6d3779a3aa3a15bcdaa07b60ee965b398d0dcc46248ee835376ae3"
+    },
+    "source_owner_concept_not_model_discovery": "Root/Java single canonical current-state fresh complete scan batching, no cross-call/READ/state/cycle memo. Existing requireHistoricalReceipts/compositeChildren already batch.",
+    "limited_supported_observations": [
+      "PendingBinding141-174 uses lookup144 and memberships165/166 on head.state(); Journal208-210/235-243 each invokes complete historical270-280. Whole chain rejects cycles/over100000 and sequence/machine drift before selection.",
+      "PendingBinding176-203 independently reads actual WAL document, validates full source/ref/sequence, requires historicalState197, separate-state complete membership198, recordHead200 and verifyPin202. Current-state batching concept leaves it intact.",
+      "Batch246-267/compositeChildren197-205 are complete same-invocation precedents; they do not prove identical error order or side effects in this caller."
+    ],
+    "corrections_and_unclosed_proofs": [
+      "ActionRecordCodec.decode is real at NativeArchive1125. Initial owner suspicion was pending only and withdrawn; do not report a model-invented API.",
+      "Fixed state/archive does not prove absence of fresh IO/identity/custody failures or callbacks. NativeArchive readBytes662-664, reference670-672, loadReceipt1197-1200 and receiptReferenceOf1203-1206 run actual session/store/original verification, not assumed pure.",
+      "No patch exists in this task, so no before/after reachable failure trace or failure-order equivalence was proven. Keep original encode/comparison/pin/final-finish checks. Structural feasibility is not source/software/runtime acceptance.",
+      "No concrete archive-write or forged-list path was demonstrated. Actual ARM UNKNOWN existing-only reference is owner-source observation, not proof for all variants, foreign adapters or arbitrary supplied lists.",
+      "No timing attribution, speedup, single-function170s cause, digest hotspot or current runtime branch is established."
+    ],
+    "input_completeness_gap": {
+      "status": "DIRECT_CALLEE_BODY_OMITTED_FROM_FIRST_INPUT_DISCOVERED_POST_END",
+      "omitted_whole": {
+        "path": "C:\\ck3-state\\resume91-root\\quarkus-dev307\\source307\\application\\src\\main\\java\\org\\xar\\ck3\\control\\application\\action\\ActionRecordCodec.java",
+        "bytes": 1338,
+        "sha256": "7cae3af6a305e9041f60c66c69d832e64f6f576c57e65e6092120b03840e3e84"
+      },
+      "callsite_was_in_input": "Full NativeArchive1125 invokes ActionRecordCodec.decode; selected62 source prefix omitted its own class body.",
+      "owner_after_cut_read": "Whole1338B read after END: decode17-21 strict schema/row then archive.loadReceipt; encode11-15 archive.receiptReferenceOf then canonical.",
+      "not_retroactive_model_input": true,
+      "no_silent_repair_or_second_POST": true
+    },
+    "disposition": "Finite answer/findings[] retained. No full dependency-closure proof and no code/design adopted. Input omission is preparation owner quality issue. Java implementation and Runtime do not wait."
+  },
+  "adoption": {
+    "code_Test_hunks": 0,
+    "implementation": 0,
+    "design": 0,
+    "formal_source": 0,
+    "runtime": 0,
+    "speed": 0
+  },
+  "resources": {
+    "new_scope_once": 3005440,
+    "old_pools_reused": false,
+    "cost_closes_after_shared_Git": "Full private pre/actual/stream/metadata, shared files and ownGit, ROOT1256primary, CLOSED self, guard8192. Root alone releases exact unused once."
+  },
+  "prior_case": {
+    "published_commit": "65beee982be908a3fec72eb6f1dc95759053b4ed",
+    "path": "2026-11-15-ck3-head-digest-cache-source-evidence.json"
+  },
+  "no_new_HTTP_or_Game_permission": true
+}

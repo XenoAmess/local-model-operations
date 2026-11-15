@@ -11,3 +11,5 @@ CAS artifact read/publication does not itself establish a continuity-WAL append 
 The new material scope was 3,547,136 B, funded once. Prior profile4 length content remains entirely unused and unanswered; it was not an input, continuation or basis for these reviews.
 
 [Full component pins, raw assessments and source corrections](2026-11-15-ck3-head-digest-cache-source-evidence.json).
+
+[Next independent single-call canonical-history review](2026-11-15-ck3-pending-canonical-single-scan-evidence.md)
