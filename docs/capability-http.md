@@ -7046,3 +7046,10 @@ Owner52双Lua守卫及16虎蹲炮场景后，195原版升级只发一次、金�
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/6c5ea846c69b5a3ba0f5777ce5f28f3453b7623b/docs/research/baiqi-source151-end-preflight859861-2026-11-15.json)／[案例](evidence/2026-11-15-civ6-http859861-end-preflight.json)。三项各一次stop／DONE／严格JSON，实际POST无重叠峰值1；85921178+866tokens／9013.6224ms／TTFT2834.9594，86017854+1085／9723.3577／2476.4892，86112068+2492／16097.6465／1890.7726。859探针双编译但无界且漏要求的队列，0执行／采用；Owner读器误用unit活动getter与过量打印两个失败原件保留，紧凑有界完成标记才授完整。860将AND写OR、可能写日志的Inspect称只读、发明manager端口并建议按时间解除，整拒，无Native／旧FAIL解除。
 
 861四个严格false检查局部采用；整稿插值给140—150全部20历史脚本多一空行，隔离反例保留；ordinary新测试还绕过真正request_end且不核Begin=0，原测试0采用。Owner先保留16个旧版错误状态仍Begin并END红案，补函数资格／精确插值和双Lua真实两入口6方法，共39相关过21.293s，20历史字节全等。仅151工具改变，mod151与性能未追授。Owner两次测试运行器漏路径产生2／4导入错误单列；Git推送响应重置，独立fetch和ls-remote确认服务器已接受同commit才报告交付，无游戏重放。累计861／793完整／65length／3最终传输／892HTTP／30额外、0在途；缓存／主动Owner完整成本／净省时null。
+
+
+## 2026-11-15：862诊断产物的原版／QA哈希不能混比
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/6c1bd42c08a46acee6c1e022a9b040ee1643d7cd/docs/research/baiqi-source151-repairs206-plan862-2026-11-15.json)／[案例](evidence/2026-11-15-civ6-http862-profile-artifact-preparation.json)。真实下一151 StageA准备任务，24042+768tokens／8131.2119ms／有效内容TTFT3386.0172ms，stop／DONE／严格JSON，1POST。Python AST可解析，但ZIP循环把全部instrumented文件与source_hashes比较，唯一改动Executor必然不等；Owner用真实transform隔离此摘要断言不等，未执行整个候选或其build，整体拒／0采用、0Native。formal／model准入亦被候选留给caller，未满足明确任务。
+
+Owner用实际canonicalbuilder及准备预留生成新151包：97Lua双编译、119ZIP和目标字节一致、仅Executor变、4096容量、release正文可精确还原；ZIP31f6fc1e…仅准备，0安装／载入／新性能，142 TC-036历史PASS不追授。实际206工业区和两建筑修复来自既有Owner产品及普通回合，旧工业项目119点保留尚未恢复。被动事件首稿and/or丢false在首Lua51正例失败、未安装，显式分支及12双Lua场景后使用，原错误与模型862无关。累计862／794完整／65length／3最终传输／893HTTP／30extra，0在途；缓存／完整Owner主动成本／净省时null。

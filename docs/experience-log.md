@@ -555,3 +555,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：门必须在计时前，消费者必须真走被测入口
 
 [859—861](https://github.com/XenoAmess/civ6_dev/blob/6c5ea846c69b5a3ba0f5777ce5f28f3453b7623b/docs/research/baiqi-source151-end-preflight859861-2026-11-15.json)：正常结束ACK、HasSent和实际激活分列。通知阻塞0／CanEnd=true不能替代原版额外UI状态；拒绝条件须在计时Begin和动作前。测试调用已有driver默认callback可能绕过目标函数，应执行真实renderer并同时断言Begin=0、writer=0。动态文本为空也可能留下额外换行，历史脚本需逐字节比较；局部采用检查逻辑不等于整稿采用。只读标签须沿实现确认，Inspect这类观察入口可能持久化状态，不能按名字归类。新的不同通知ID经新鲜核对属新测试玩家步骤，不得把旧未知动作自动重试。
+
+
+### 2026-11-15：校验每一层各自声明的字节版本
+
+[862](https://github.com/XenoAmess/civ6_dev/blob/6c1bd42c08a46acee6c1e022a9b040ee1643d7cd/docs/research/baiqi-source151-repairs206-plan862-2026-11-15.json)：诊断ZIP中的改写文件应与instrumented_hashes和实际QA目标比较，未改文件才同时等于release source_hashes；再单独验证声明的改动集合、可逆正文及原版安装未变。不能用同一摘要名消除版本层次。纯事件观察也必须保留false及nil的区别，显式分支优于可能合成nil的and/or；首失败、修正及真正安装分别计账。
