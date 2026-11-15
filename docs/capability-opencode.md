@@ -2141,3 +2141,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[Civ6持续验收882—887](evidence/2026-11-16-civ6-http882887-continuation.json)。882—887均为普通HTTP候选；OpenCode仅复用本机Nov16的1.19.5日维护成功缓存，新增原生工具／生成0。Owner软件与独立Native配对采集分列，不据维护、HTTP stop或游戏端口授OpenCode原生能力。
 
 2026-11-16：[Civ6888—891故障与接管](evidence/2026-11-16-civ6-http888891-transport-failures.json)。888—891均普通HTTP传输失败，未得到候选；OpenCode每日维护成功缓存1.19.5仍有效，0新增原生生成／工具。Owner第一次诊断导入缺脚本搜索路径在HTTP前失败，修后使用canonical预检与网络入口得到元数据502；不能归咎OpenCode或授新能力。
+
+2026-11-16：[Civ6 892与Owner规划153](evidence/2026-11-16-civ6-http892-owner-planning153.json)。892仍为普通HTTP候选失败，Nov16同机同用户每日维护成功缓存1.19.5有效，0新增OpenCode原生生成或工具。Owner独立软件通过不能授予模型生成能力，游戏153尚未实测。
