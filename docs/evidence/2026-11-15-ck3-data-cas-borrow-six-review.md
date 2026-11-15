@@ -11,3 +11,5 @@ The owner later materialized the same three full sources. That post-BEGIN fact d
 Native funded the exact 18,911,232 B model scope once under Root's prospective 1562 MiB engineering-material cap. Software had a separate 4,820,992 B scope. Historical cap refusals, all actual evidence and prior accounting remain; no old unused budget was borrowed.
 
 [Full source pins, per-request cost and source review](2026-11-15-ck3-data-cas-borrow-six-review.json).
+
+A later independent [ARM cold/CLOCK review](2026-11-15-ck3-arm-cold-clock-source-review.md) records original deadline plumbing and separates basis acquisition from late Status IO; it does not reopen these six reviews.
