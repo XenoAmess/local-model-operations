@@ -2018,3 +2018,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：837普通HTTP与维护分轨
 
 [837](https://github.com/XenoAmess/civ6_dev/blob/56a4c152179cb9f3845e9f818d2c839d0bdc84e6/docs/research/baiqi-source146-new-settler173-837-2026-11-15.json)沿canonical caller复用Nov15同机同用户1.19.5成功每日缓存，新增OpenCode原生工具生成session0；输入闭包缺口、HTTP代码拒绝及Owner游戏结果分开记录。
+
+
+### 2026-11-15：838—840与每日维护分轨
+
+[三任务](https://github.com/XenoAmess/civ6_dev/blob/8f0ca5e26b745f41c597aca854ccd5402e586e57/docs/research/baiqi-source146-route178-model838840-2026-11-15.json)均通过canonical caller复用Nov15同机同用户1.19.5成功每日缓存，新增OpenCode原生工具生成0。三份普通HTTP原代码拒绝，Owner只读游戏诊断不回授候选能力；后续产品修复另记。

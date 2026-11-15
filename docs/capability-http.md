@@ -6943,3 +6943,10 @@ Owner首个真实请求已返回，随后只读脚本数字拼接编译错，过
 [项目证据](https://github.com/XenoAmess/civ6_dev/blob/56a4c152179cb9f3845e9f818d2c839d0bdc84e6/docs/research/baiqi-source146-new-settler173-837-2026-11-15.json)及[摘要](evidence/2026-11-15-civ6-goal-wait837.json)。7414+653tokens、5690.8944ms／TTFT1315.4805，1HTTP200完整stop/DONE/strictJSON。仅Reason对应Remember分支映射部分参考；原查询Game冒号调用、虚构GetFormationType/IsDelayed、无界循环及缺失属性不明确UNKNOWN拒绝，0raw代码／Native。Owner给完整goal模块和Controller2501—2740，却漏真实UnitCore classifier及Controller511—531桥／proposal；保原REQUEST，不授全闭包审阅或把漏源全部归模型。模型推dead/delayed或race未证。Owner补实际字段只读／纯Classify，bank1目标845@9,19，UI0.5而Core0/LIVE、dead/delayedfalse；与当前positive-Core-moves门相符，读数非原子且Remember返回未采，不能定唯一根因。
 
 新移民已实际从南京出生、三个后台MOVE到9,2、旧ARMED保持；这是Owner实机链，不回授原稿。173保存／0END173切点，建城仍待。初始／峰在途1，累计837/774完整60length3finaltransport867HTTP30extra，当前0；未知缓存/服务并发/完整Owner成本/净收益null，未为已接管查询重投洗绿。
+
+
+## 2026-11-15：838—840真实占位／山地反例与Owner接管
+
+[项目精确证据](https://github.com/XenoAmess/civ6_dev/blob/8f0ca5e26b745f41c597aca854ccd5402e586e57/docs/research/baiqi-source146-route178-model838840-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-route838840.json)。三任务各单POST完整stop/DONE/strictJSON，分别7523+1110、11168+1611、11655+2390tokens；耗时8632.1523／11665.9852／16658.8902ms。各峰在途1，未重叠，当前0。三份原代码均0采用／0Native：838数值玩家ID当对象、调用不可见私有函数及虚构GetPlot，声明边界未实现；839仅放宽距离仍无法重接真实路线，Owner在REQUEST后才取得东侧山地事实，原件不改；840goto不兼容Lua5.1／table.reverse虚构、visited字面量键错、复用要求原起点相邻的Available令BFS无法扩展，最后整路／资格回读不全。仅BFS形状与任务合同一致，不把合同复述授独立设计贡献。
+
+Owner另写只读实际API读回53节点、23点几何候选，首边原生许可，后续水路未验证；178正式保存，产品修复尚未写，不授候选实际效果。累计840/777完整60length3最终传输870HTTP30额外；缓存、服务并发、完整Owner成本、净收益null。Owner误用GetActivityType和日志路径各保留失败，均无游戏命令。
