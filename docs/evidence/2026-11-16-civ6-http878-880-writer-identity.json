@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/166a7895dfb079eb41d66688da446bc25e132eca/docs/testing/baiqi-source152-observed-writer-identity880.md",
+  "cold_read": "https://github.com/XenoAmess/civ6_dev/blob/8f68323404c4a5c15241548309229abc5634b39e/docs/testing/baiqi-source152-armed90-diagnosis878879.md",
+  "tasks": [
+    {
+      "id": 878,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "usage": {
+        "prompt_tokens": 87298,
+        "completion_tokens": 1181,
+        "total_tokens": 88479
+      },
+      "total_ms": 18933.703899849206,
+      "TTFT_ms": 11314.66929987073,
+      "adoption": "rejected",
+      "review": "False Held/standby assertion, inaccurate quotations; supplied Controller contradicted claims. Missing warning/config closure separately limited scope.",
+      "raw_candidate_Native_executions": 0
+    },
+    {
+      "id": 879,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "usage": {
+        "prompt_tokens": 82483,
+        "completion_tokens": 1554,
+        "total_tokens": 84037
+      },
+      "total_ms": 20257.890700129792,
+      "TTFT_ms": 10775.722700171173,
+      "adoption": "idea_only",
+      "review": "Bound internal logging duplicated per-call events and missed short-circuit entries/pcall errors; owner independently implemented and tested.",
+      "raw_candidate_Native_executions": 0
+    },
+    {
+      "id": 880,
+      "finish_reason": "stop",
+      "sse_done": true,
+      "json_syntax": {
+        "status": "VALID",
+        "top_level_type": "object",
+        "reason": "COMPLETE_STOP_JSON",
+        "error": null,
+        "offset_units": "Unicode code points",
+        "max_utf8_bytes": 1048576,
+        "semantic_review": "OWNER_REVIEW_REQUIRED"
+      },
+      "usage": {
+        "prompt_tokens": 83733,
+        "completion_tokens": 887,
+        "total_tokens": 84620
+      },
+      "total_ms": 8105.432199779898,
+      "TTFT_ms": 2412.3764999676496,
+      "adoption": "partial_idea",
+      "review": "Static fn identity idea accepted; candidate also removed Method label isolation despite explicit scope. Owner retained Method keys, red/green actual transform witnesses.",
+      "raw_candidate_Native_executions": 0
+    }
+  ],
+  "ledger": {
+    "logical": 880,
+    "complete": 809,
+    "length": 68,
+    "final_transport": 3,
+    "HTTP_attempts": 911,
+    "extra_attempts": 30,
+    "inflight": 0
+  },
+  "actual_POST_peak_this_batch": 1,
+  "new_OpenCode_native_generation": 0,
+  "daily_maintenance": "Nov16 BF same-user OpenCode1.19.5 successful cached canonical check",
+  "unknown": {
+    "cached_tokens": null,
+    "service_concurrency": null,
+    "full_owner_active_cost": null,
+    "net_time_saving": null
+  },
+  "general_lessons": [
+    "A static API capture and later equality comparison must use the same diagnostic function identity; compile and no-op wrappers do not witness identity semantics.",
+    "Guided Static-only patch still requires checking adjacent Method label isolation; preserve existing keys outside requested scope.",
+    "A cold reload may remove a live unsent grant and allow standby without proving the previous runtime rejection cause; do not replay an unknown native request."
+  ],
+  "validation": "30 related QA checks including actual transformed Controller 46 dual Lua live-grant cases and actual enabled one-write counting; 5 separate bounded outcome tool checks. Product source unchanged, new QA build not native-validated yet.",
+  "owner_errors": [
+    "Python -c/CMD quoting rejected before intended Python code; switched to explicit script reader.",
+    "Inventory model-idle assertion rejected while known own878 active; read-only inventory removed unrelated gate, launch retained it.",
+    "Timing/readiness and port qualification failures retained, load and Continue not replayed.",
+    "QA outcome error test called replacement RunNow; fixed cached original test entry.",
+    "Bounded tests import path and Lua53 unpack alias needed fixture fixes; separately checked.",
+    "First quoted git commit command rejected; file-body commit succeeded. Later push reported ref lock mismatch, fresh fetch and ls-remote proved exact166a789 already on remote; no force or merge."
+  ]
+}

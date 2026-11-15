@@ -7094,3 +7094,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 ## 2026-11-16：877交接笔记与中止后的显式对账
 
 [精确证据](https://github.com/XenoAmess/civ6_dev/blob/ed31d5b9e2aa63e84d29ab6f383782fc4c2445c2/docs/research/baiqi-handoff-2026-11-16.json)／[交接文档](https://github.com/XenoAmess/civ6_dev/blob/ed31d5b9e2aa63e84d29ab6f383782fc4c2445c2/docs/handoff-2026-11-16.md)。877在原StageB父／子终态、1569样本导出、33监听撤除、END90未触达及nonce对账释放后才HTTP，3789+701tokens，5300.3954ms／TTFT692.4989ms，stop／DONE／JSON。仅演员区分、失败边界和私有路径事实核对笔记采用；Owner补必读清单与下一步，纠正字面Chinese标题及把本轮离岗不再测试误扩成后任禁测。没有候选代码执行或新测试／Native结论。普通152119恢复，保护档不变，无游戏／锁／模型，新鲜Steam离线。累计877／806完整／68length／3transport／908HTTP／30extra，未知成本null。
+
+2026-11-16：[Civ6 878—880实际writer身份](evidence/2026-11-16-civ6-http878-880-writer-identity.json)：878源语义反证整拒；879仅记录器思路；880Static缓存思路采用但Method隔离越界拒。Owner实际transform红28场景、修后46双Lua场景及启用计数1次过，产品未改。编译／同函数空包装不能证明真实计数wrapper身份；cold恢复不倒推旧许可cause。累计880／809完整／911HTTP，未知成本null。
