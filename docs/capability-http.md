@@ -6964,3 +6964,10 @@ Owner为839—840接管的真实堵点锚定半径3图、前4点检测、逐次�
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/42deafbbd473d4d0b42dee9eb4608cc5a1e82450/docs/research/baiqi-source147-native181-cycle843844-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-cycle843844.json)。84315788+1218tokens、10741.4606ms、TTFT2242.1265，单HTTP200stop/DONE/strictJSON；错误把回调局部Safecache说成跨移动缓存失效，测试barepass且陆格230写成水格，严格距离递减会破坏已证178首步，0原代码／Native。844真实ClearCivilianOverlap候选13522+2000tokens、13589.0913ms、TTFT2012.2933，length整份未读，Owner接管。
 
 Owner在147179和181各复现229228229往返，普通结束到181后新建造者与旧商人叠放阻塞，60秒被动等待终态才独立查。当前移民邻273原生path229274273经已占位274，Cantrue不是直接边；新建造者到三格己方军队上均有真实两点路径与Cantrue但尚未下令，正式181保存。事后读取非决策时序，不把推断写成唯一根因。修复继续，不将178两步过度授整路。累计844/779完整62length3最终传输875HTTP30extra，当前0，各新峰1且无重叠；缓存/服务并发/完整Owner成本/净收益null。
+
+
+## 2026-11-15：845未完成主层语义审阅length与Owner148软件
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/18bb307c7481335ca55b5f3e1d3377201dc1400e/docs/research/baiqi-source148-cycle-overlap-software-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-owner148-review845.json)。真实尚未最终交付的主层文职槽消费者复核，10795+1800tokens、15317.1989ms、TTFT1693.2669，单HTTP200后length，整份未读拒绝，0原代码／Native，不重投已由Owner接管的范围。累计845/779完整63length3最终传输876HTTP30extra，当前0，新峰1，无新增OpenCode原生生成；缓存/服务并发/完整Owner成本/净收益null。
+
+Owner实际复核形成类与宗教消费者：失败首边节点不作为后续几何证据，文职重叠可移入己方军队旁空槽；新5.1夹具先碰5.3load(env)、缺数值后空格，又在首轮2499/10error中暴露借用setUp没runtime属性，修兼容后发现原宗教停车占位筛选遗漏。完整修正后2501中2500过1SDKskip、97双Lua119包；支持类元数据合成用例不等于实际默认Getter含贸易层，仍UNKNOWN。原生181待后续，不能把Owner软件补正授模型或游戏通过。

@@ -2033,3 +2033,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：843—844原生失败与维护分轨
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/42deafbbd473d4d0b42dee9eb4608cc5a1e82450/docs/research/baiqi-source147-native181-cycle843844-2026-11-15.json)复用canonical caller的Nov15同机同用户1.19.5成功每日缓存，新增OpenCode原生工具生成0。843普通HTTP原代码拒绝、844length未读，Owner原生诊断和后续产品修复不回授模型能力。
+
+
+### 2026-11-15：845length与Owner148验证
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/18bb307c7481335ca55b5f3e1d3377201dc1400e/docs/research/baiqi-source148-cycle-overlap-software-2026-11-15.json)走canonical caller每日维护缓存，Nov15同机同用户1.19.5成功，新增OpenCode原生工具生成0。普通HTTPlength未读；Owner2501软件与未测Native分轨。
