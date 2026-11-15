@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/2e3eca0c9daaa4b1fa24688d48f4dc4ecea7f38f/docs/research/baiqi-source153-stageA-B-fail-2026-11-16.json",
+  "task": {
+    "task": "civ6-894-turn90-diagnostic",
+    "requested_before_owner_tool_edit": true,
+    "scope": "Real missing turn90 diagnostic option with actual builder, qualifier, tests, new measured summary and consumers",
+    "POST_attempts": 1,
+    "http_headers": 0,
+    "timeout_ms": 180013.29039991833,
+    "candidate_adopted": false,
+    "retry_control": "Task-specific canonical stop set during actual POST after repeated service faults; current POST finished, no retry or lease/process removal."
+  },
+  "ledger_through_894": {
+    "logical": 894,
+    "complete": 816,
+    "length": 68,
+    "final_transport": 10,
+    "HTTP_attempts": 931,
+    "extra_attempts": 36,
+    "inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "OpenCode": "Nov16 same-client successful cached daily maintenance1.19.5; no new native generation capability",
+  "unknown": {
+    "cached_tokens": null,
+    "backend_cause": null,
+    "server_jobs": null,
+    "Owner_active_cost": null,
+    "net_time_saved": null
+  },
+  "Owner_tool": {
+    "new_opt_in": "include_turn90=True, actual source153 and pre-observer required, mode v5",
+    "focus_turns": [
+      88,
+      89,
+      90
+    ],
+    "bindings": 14,
+    "children": [
+      "PlayerContext",
+      "RefreshSettlement",
+      "ReadBack",
+      "ProcessCity",
+      "ProcessBuilder",
+      "ProcessSettler",
+      "ArchaeologyPendingRead",
+      "ProcessNaturalistPurchase",
+      "KnownExpansionSupport",
+      "SettlerGoalBridge",
+      "PathStep",
+      "RequestCivilian"
+    ],
+    "Native_children": [
+      "Native.GetMoveToPathEx"
+    ],
+    "sample_capacity": 4096,
+    "window_seconds": 10,
+    "related_software_tests": 66,
+    "new_methods": 5,
+    "old_defaults": "Byte equality/frozen-default tests passed",
+    "first_new_test_error": "Owner test read turnBefore instead of the actual rootTurn sample field. Corrected fixture assertion; original failure kept.",
+    "archive_sha256": "cfa82cf01f712dde82a66c54df3d35e973232924a18284e930124277a8d91e4a",
+    "installed_or_run": false,
+    "product_modified": false
+  },
+  "Native_boundary": "Product software PASS did not establish a repair: actual153 141 pure-ten Controller samples p95 29ms/max83ms, valid B_planFAIL. Old diagnostic88/89 misses new hottest90; explicit versioned opt-in scope is required. Preserve all302 rows and old FAILs, do not rerun unchanged until green or add inclusive/cross-root costs."
+}

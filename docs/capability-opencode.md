@@ -2145,3 +2145,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[Civ6 892与Owner规划153](evidence/2026-11-16-civ6-http892-owner-planning153.json)。892仍为普通HTTP候选失败，Nov16同机同用户每日维护成功缓存1.19.5有效，0新增OpenCode原生生成或工具。Owner独立软件通过不能授予模型生成能力，游戏153尚未实测。
 
 2026-11-16：[Civ6 893与启动边界](evidence/2026-11-16-civ6-http893-startup-boundary.json)。893普通HTTP候选超时不授OpenCode生成／工具能力；Nov16同机每日维护成功缓存1.19.5有效，原生生成0。受控未知快照不是原生Getter缺失，后续必须限制证据口径。
+
+2026-11-16：[Civ6 894与90回合诊断](evidence/2026-11-16-civ6-http894-turn90-diagnostic.json)。894仍为普通HTTP候选超时，不授OpenCode生成能力；同机Nov16维护成功缓存1.19.5有效，原生生成0。Owner工具测试字段误读turnBefore已按实际rootTurn纠正，不能归咎模型。
