@@ -2043,3 +2043,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：846—847与Native148分轨
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/f8ab13a2b12cdd8698d5215cefd42969b6e58b3a/docs/research/baiqi-source148-native181-overlap-cycle846847-2026-11-15.json)复用canonical caller Nov15同机同用户1.19.5成功缓存，新增OpenCode原生工具生成0。普通候选／原测试均0采用，Native148重叠通过与水路FAIL、Owner149尚未实现分别记录。
+
+
+### 2026-11-15：Owner149与847输入纠正分轨
+
+[来源](https://github.com/XenoAmess/civ6_dev/blob/7d0c358723b6b632db44d17ea92eefe38dcad6b9/docs/research/baiqi-source149-builder-yield-software-2026-11-15.json)本次0新HTTP／0新增OpenCode原生工具生成，无新维护结论。846—847既有Nov15同机同用户canonical1.19.5缓存不补输入完整性或生成能力；Owner2515软件、847错ID输入纠正与未测149Native分别记录。

@@ -505,3 +505,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：复数API名称不能替代真实返回形状
 
 [815B](https://github.com/XenoAmess/civ6_dev/blob/304d4085c4dd39de2092ffc2366a5b94c1e69783/docs/research/baiqi-population815B-native339-2026-11-15.json)GetEventsForTurn在已测UI/Core返回单record，名字复数不能支持数组合同；未来nil为本查询无记录，不补零。某集合在UI可Members而Core无，不把上层getter存在当整个链可用。局部缺口应保留PARTIAL并继续独立已知历史。灾害累计前后增量能补证发生窗口，回调已见终值时仍无逐城分配；不要借更多相同重现包装成因果。
+
+
+### 2026-11-15：先核真实夹具身份，为最终资格保留预算
+
+[149实际案例](https://github.com/XenoAmess/civ6_dev/blob/7d0c358723b6b632db44d17ea92eefe38dcad6b9/docs/research/baiqi-source149-builder-yield-software-2026-11-15.json)Owner任务文字把builder3写成army1，候选跟随错误输入应单列，不以事后补源追认闭包或把错误全归模型。私有等待消费者测试先经过真实passive初始化；断言限定目标演员，不禁止其他合法自动动作。有限初查预算须给最终发令边界留量，第二目标反例应实际执行Native资格再验零／一次写入，不能只测第一个正例。缺接口引起的fixture红、产品预算红和模型拒绝分别保原件。退出后absence不能覆盖已发生的自有残留terminate历史，后见读取需关联正式退出及清理回执。

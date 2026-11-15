@@ -6976,3 +6976,10 @@ Owner实际复核形成类与宗教消费者：失败首边节点不作为后续
 ## 2026-11-15：846—847空闲建造者让路候选拒绝
 
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/f8ab13a2b12cdd8698d5215cefd42969b6e58b3a/docs/research/baiqi-source148-native181-overlap-cycle846847-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-builder-yield846847.json)。两个真实未完成范围先发模型，均单HTTP200stop/DONE/strictJSON，14739+1807与23850+2066tokens，14165.8431／15231.5545ms，峰各1且未重叠。846虚构Get桥、几何空位过滤不能匹配占位建造者、未取真实路径、pending.unitID不存在、goto不兼容5.1／新顶层局部变量、抢普通工作及漏最终guard，0代码采用／Native。847未绑定world self、坐标317错误、X参数当plotIndex导致MOVE全拒、城市队列混单位队列、held记录不完整／工作优先无真实正例，静态拒绝未运行原测试，0采用。Owner准备接管149，148只有新建造者重叠解除窄通过，水路仍往返，不回授模型效果。累计847/781完整63length3最终传输878HTTP30extra、当前0，未知缓存／服务并发／完整Owner成本／净收益null。
+
+
+## 2026-11-15：847输入ID纠正与Owner149让路
+
+[项目精确证据](https://github.com/XenoAmess/civ6_dev/blob/7d0c358723b6b632db44d17ea92eefe38dcad6b9/docs/research/baiqi-source149-builder-yield-software-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-owner149-input-correction.json)。后续实际mock_world审阅发现Owner给847的任务误称建造者ID1，真实builder3／army1；候选跟随该输入，Owner首版夹具也同错，原REQUEST保留，不能归为模型ID错误或授全闭包。其余已记录语义缺陷及0原测试执行／采用仍保持；本次0新HTTP，不重投接管完的scope，累计847／781完整／63length／3最终传输／878HTTP／30额外、0在途。
+
+Owner实现空闲建造者让出非held移民既有原生路线，普通工作优先；实际MOVE资格后重读队列／pending／目标／路径／停车占位，未知当前回合不追加SKIP。新夹具漏ActivityTypes、路线hook漏passive初始化、错误禁止另一个合法移民请求均保留。首次2514全绿后审阅发现第二目标耗尽最终路径预算，新反例双Lua红，保留独立final查询后完整2515中2514过1SDKskip／97双Lua119包；16历史prefix保持。149Native／性能尚未测，软件不回授原候选能力。未知缓存／服务并发／完整Owner成本／净收益null。
