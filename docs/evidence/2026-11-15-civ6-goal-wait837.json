@@ -1,0 +1,74 @@
+{
+  "source": "https://github.com/XenoAmess/civ6_dev/blob/56a4c152179cb9f3845e9f818d2c839d0bdc84e6/docs/research/baiqi-source146-new-settler173-837-2026-11-15.json",
+  "machine": "BF-202609141645",
+  "model": {
+    "usage": {
+      "prompt_tokens": 7414,
+      "completion_tokens": 653,
+      "total_tokens": 8067
+    },
+    "ms": 5690.894400002435,
+    "TTFT_ms": 1315.4804999940097,
+    "stop_DONE_JSON": true,
+    "adoption": "Partial source reason-branch mapping only; raw query rejected,0 raw Native/code",
+    "rejected_query": [
+      "Game:GetLocalPlayer instead of actual static call",
+      "Invented GetFormationType/IsDelayed methods",
+      "Missing bounds and missing property not explicitly UNKNOWN"
+    ],
+    "unsupported_theories": [
+      "Dead/delayed or race root cause not established; actual Core classification LIVE"
+    ],
+    "Owner_input_gap": "Omitted actual SettlementUnitCore classifier and Controller511-531 bridge/proposal despite supplying complete goal modules; REQUEST unchanged, no full closure audit claim"
+  },
+  "ledger": {
+    "logical": 837,
+    "complete": 774,
+    "length": 60,
+    "final_transport": 3,
+    "HTTP": 867,
+    "extra_retries": 30,
+    "current_in_flight": 0,
+    "new_OpenCode_native_sessions": 0,
+    "new_task_peak": 1
+  },
+  "unknown": {
+    "Owner_active_cost": null,
+    "cached_tokens": null,
+    "server_concurrency": null,
+    "net_savings": null
+  },
+  "game_effect_scope": {
+    "independent_queue": "NATIVE_PASS",
+    "new_actor_birth": "NATIVE_POSITIVE",
+    "background_movement_three_steps": "NATIVE_PASS_ON_THIS_TRACE",
+    "new_city_found": "PENDING",
+    "complete_acceptance": "OPEN",
+    "source146_TC036": "UNMEASURED"
+  },
+  "Owner_goal_read": {
+    "property": "BAIQI_SETTLER_GOALS_V1",
+    "version": 1,
+    "owner": 0,
+    "map": [
+      44,
+      26
+    ],
+    "goals": 1,
+    "actor": 10027070,
+    "target": 845,
+    "xy": [
+      9,
+      19
+    ],
+    "UI_moves": 0.5,
+    "UI_ready_move": true,
+    "UI_ready_select": false,
+    "Core_classification": "LIVE",
+    "Core_moves": 0,
+    "Core_dead": false,
+    "Core_delayed": false,
+    "inference": "Core goal Remember requires moves>0; observed Core0 is consistent with waiting. Actual Remember return reason was not sampled, snapshots not atomic; no unique cause or permanent failure claim.",
+    "next_turn_followup": "PENDING"
+  }
+}

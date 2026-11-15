@@ -6936,3 +6936,10 @@ Owner首个真实请求已返回，随后只读脚本数字拼接编译错，过
 [精确项目源](https://github.com/XenoAmess/civ6_dev/blob/4138d4a46007aadab7f99e8a010c038b901dfd38/docs/research/baiqi-source146-naturalist-sleep-software-2026-11-15.json)及[摘要](evidence/2026-11-15-civ6-naturalist-sleep834-836.json)。8341050/483tokens、3491.9592ms/TTFT401.8962，完整stop/DONE/JSON，census部分采用；原稿把两种ready相加，Owner改每单位一次、补selected owner及最终blocker，双Lua/无写审查后Native62单位仅1ready自然学家、41pending，0游戏输入，未为纯读造mock。8356786/1255、8866.6257/1268.2196完整，原稿改掉旧persistent待命、错误unit.GetQueuedDestination、missingpendinggetter放过、nilSKIP当false、漏二次许可/绑定，0代码采用/0rawNative。Owner独立SLEEP后备，仅真实SKIP=false自然学家，保护knownemptyNativequeue和park/purchase。Owner进一步发现旧NaturalistPurchaseHeld只判ARMED、UNKNOWN亦false，故补真实购买桥OPEN，不能把Owner完善合同的成本全推模型。
 
 8362941/473、3091.8368/548.0788完整，两白名单替换及测试方法采用，no-op替换忽略；旧未知146夹具改147和其余消费者由Owner。新增13真实Controller方法及7版本方法，145反例[]与146一次SLEEP红绿；首红cwd错误在行为前失败、首绿bootstrap写次数基线1非0、首次全套两旧146非法用例失败均保原件。最终2468run/2467pass/1SDKskip157.956秒，97Lua双编译/119包，None及140—145原prefix哈希保持；不授冷Native或新版性能/旧ARMED恢复。三POST不重叠峰1，累计836/773完整60length3finaltransport866HTTP30extra，当前0，未知缓存/服务并发/完整Owner成本/净节时null。
+
+
+## 2026-11-15：837行军提案等待与真实跨上下文读数
+
+[项目证据](https://github.com/XenoAmess/civ6_dev/blob/56a4c152179cb9f3845e9f818d2c839d0bdc84e6/docs/research/baiqi-source146-new-settler173-837-2026-11-15.json)及[摘要](evidence/2026-11-15-civ6-goal-wait837.json)。7414+653tokens、5690.8944ms／TTFT1315.4805，1HTTP200完整stop/DONE/strictJSON。仅Reason对应Remember分支映射部分参考；原查询Game冒号调用、虚构GetFormationType/IsDelayed、无界循环及缺失属性不明确UNKNOWN拒绝，0raw代码／Native。Owner给完整goal模块和Controller2501—2740，却漏真实UnitCore classifier及Controller511—531桥／proposal；保原REQUEST，不授全闭包审阅或把漏源全部归模型。模型推dead/delayed或race未证。Owner补实际字段只读／纯Classify，bank1目标845@9,19，UI0.5而Core0/LIVE、dead/delayedfalse；与当前positive-Core-moves门相符，读数非原子且Remember返回未采，不能定唯一根因。
+
+新移民已实际从南京出生、三个后台MOVE到9,2、旧ARMED保持；这是Owner实机链，不回授原稿。173保存／0END173切点，建城仍待。初始／峰在途1，累计837/774完整60length3finaltransport867HTTP30extra，当前0；未知缓存/服务并发/完整Owner成本/净收益null，未为已接管查询重投洗绿。

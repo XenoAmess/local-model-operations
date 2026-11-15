@@ -2013,3 +2013,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：834—836继续分轨
 
 [834—836](https://github.com/XenoAmess/civ6_dev/blob/4138d4a46007aadab7f99e8a010c038b901dfd38/docs/research/baiqi-source146-naturalist-sleep-software-2026-11-15.json)均普通HTTP候选，沿canonical caller复用Nov15同机同用户1.19.5每日成功缓存；新增OpenCode原生工具生成session0。只读普查、产品睡眠后备、编译与后续游戏实效分开，不从维护或最终Owner通过补授原稿能力。
+
+
+### 2026-11-15：837普通HTTP与维护分轨
+
+[837](https://github.com/XenoAmess/civ6_dev/blob/56a4c152179cb9f3845e9f818d2c839d0bdc84e6/docs/research/baiqi-source146-new-settler173-837-2026-11-15.json)沿canonical caller复用Nov15同机同用户1.19.5成功每日缓存，新增OpenCode原生工具生成session0；输入闭包缺口、HTTP代码拒绝及Owner游戏结果分开记录。
