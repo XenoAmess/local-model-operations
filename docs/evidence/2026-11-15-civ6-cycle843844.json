@@ -1,0 +1,63 @@
+{
+  "source": "https://github.com/XenoAmess/civ6_dev/blob/42deafbbd473d4d0b42dee9eb4608cc5a1e82450/docs/research/baiqi-source147-native181-cycle843844-2026-11-15.json",
+  "machine": "BF-202609141645",
+  "models": {
+    "843": {
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 15788,
+        "completion_tokens": 1218,
+        "total_tokens": 17006
+      },
+      "total_ms": 10741.460600169376,
+      "TTFT_ms": 2242.126500001177,
+      "raw_code_adopted": 0,
+      "raw_code_Native": 0,
+      "decision": "Reject: incorrect across-move Safe cache speculation, regression is bare pass with erroneous water230, monotonic-distance fix would break proven178 step-away; first-native-path query direction only, Owner native evidence independently collected"
+    },
+    "844": {
+      "finish_reason": "length",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 13522,
+        "completion_tokens": 2000,
+        "total_tokens": 15522
+      },
+      "total_ms": 13589.091299800202,
+      "TTFT_ms": 2012.2932998929173,
+      "raw_code_adopted": 0,
+      "raw_code_Native": 0,
+      "candidate_read": false,
+      "decision": "length rejected whole, Owner takes actual overlap consumer"
+    }
+  },
+  "ledger": {
+    "logical": 844,
+    "complete": 779,
+    "length": 62,
+    "final_transport": 3,
+    "HTTP_attempts": 875,
+    "extra_attempts": 30,
+    "inflight": 0,
+    "new_tasks_peak": 1,
+    "new_tasks_overlap": false,
+    "new_OpenCode_native_generation_sessions": 0
+  },
+  "unknown": {
+    "cached_tokens": null,
+    "service_concurrency": null,
+    "full_Owner_cost": null,
+    "net_time_saving": null,
+    "future_native_edges": null,
+    "performance147": "UNMEASURED"
+  },
+  "claims": {
+    "178_bypass_two_steps": "PASS_NARROW",
+    "continuous_goal_progress": "FAIL",
+    "new_city_founded": false,
+    "normal181_END": "BLOCKED_NO_REQUEST",
+    "all_functional_acceptance": false,
+    "old_ARMED_recovery": "FAIL_OPEN"
+  }
+}

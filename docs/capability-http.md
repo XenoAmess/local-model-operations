@@ -6957,3 +6957,10 @@ Owner另写只读实际API读回53节点、23点几何候选，首边原生许�
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/684f6b3c9ccace4e90e3b25a98c508f9c2d6bdc9/docs/research/baiqi-source147-bounded-detour-software-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-bounded-owner841842.json)。841审阅未完成补丁，19979+1600tokens、12982.3414ms、TTFT2693.6045，length整份未读拒绝。842真实待完成军队FORTIFY工具，2019+1033tokens、6762.0442ms、TTFT460.2611，单HTTP200stop/DONE/strictJSON；原稿行对象当Hash，没独占预请求ledger或pcall，目的地0误作空，缺arity／human／hotseat／pause／最终queue和binding守卫，0代码采用／Native。原件保留，不重投已接管scope。
 
 Owner为839—840接管的真实堵点锚定半径3图、前4点检测、逐次整路复核，2480软件2479过1SDK跳过、97Lua双编译119包；新的53节点真实几何夹具初先漏goalProposals初始化，负例又错以为单节点阻断全部安全替代，负责人分别修复并保留失败，不把修夹具当产品通过。源码147在证据切点仅软件，不能授实机绕行／建城或模型效果。累计842/778完整61length3最终传输872HTTP30extra，当前0，各新峰1且无交叠；未知缓存/服务并发/完整Owner成本/净收益null。
+
+
+## 2026-11-15：843水路往返与844真实叠放反例
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/42deafbbd473d4d0b42dee9eb4608cc5a1e82450/docs/research/baiqi-source147-native181-cycle843844-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-cycle843844.json)。84315788+1218tokens、10741.4606ms、TTFT2242.1265，单HTTP200stop/DONE/strictJSON；错误把回调局部Safecache说成跨移动缓存失效，测试barepass且陆格230写成水格，严格距离递减会破坏已证178首步，0原代码／Native。844真实ClearCivilianOverlap候选13522+2000tokens、13589.0913ms、TTFT2012.2933，length整份未读，Owner接管。
+
+Owner在147179和181各复现229228229往返，普通结束到181后新建造者与旧商人叠放阻塞，60秒被动等待终态才独立查。当前移民邻273原生path229274273经已占位274，Cantrue不是直接边；新建造者到三格己方军队上均有真实两点路径与Cantrue但尚未下令，正式181保存。事后读取非决策时序，不把推断写成唯一根因。修复继续，不将178两步过度授整路。累计844/779完整62length3最终传输875HTTP30extra，当前0，各新峰1且无重叠；缓存/服务并发/完整Owner成本/净收益null。
