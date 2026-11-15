@@ -580,3 +580,6 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：验证名字存在，也验证谁实际调用它
 
 [869／870](https://github.com/XenoAmess/civ6_dev/blob/cc2500ab37342c22fafef4f6bf3d1981165f20a3/docs/research/baiqi-source152-spike-diagnosis869870-2026-11-15.json)中建造者路线可从Tick直接续跑，单测ProcessBuilder会漏成本。应在实际消费者选点，并保留计时装饰本身影响的界限。假定外部检查、目录排他、marker存在分别不能替代正式互斥、CPU预留和119字节验证。Owner先怀疑函数名／marker并非证据，实际核源码后纠正，不把自己的猜测记成模型错误。
+
+
+2026-11-15补正：[152原生格位与角色](https://github.com/XenoAmess/civ6_dev/blob/dc326d291ad1bdd87bcbc41512652e5760e9078a/docs/research/baiqi-source152-native208-210-865866-2026-11-15.json)。631的7012401/type9是玩家将军，type14是大科学家；FORMATION_CLASS_CIVILIAN格位不等于AI托管。原稿把占位者统称文职的Owner标签已纠正，209将军SKIP仍是TEST_PLAYER，安全占位拒绝与0后台军令结论不变。无新HTTP或OpenCode生成。
