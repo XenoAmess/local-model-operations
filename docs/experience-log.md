@@ -550,3 +550,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：正例异常也必须成为见证失败
 
 [858及Owner纠正](https://github.com/XenoAmess/civ6_dev/blob/2a98d6e73b586b9344b7a51254070fa69c7573a5/docs/research/baiqi-source151-granary196-upgrade858-2026-11-15.json)：隔离见证不应吞掉模拟writer退休演员之后的异常。期望成功分支须验证无意外异常和完整终态，再看请求数；不能只因已有1写就放过后续错误。队列单nil返回与table内nil不同，必须保留arity。升级可产生新ID，应从当前owner集合重新取演员；跨玩家ID碰撞必须按owner限定。上述纠正有52双Lua软件场景与原版一次395金币升级的新演员实效，不能扩成所有升级窗口或并发物理证明。
+
+
+### 2026-11-15：门必须在计时前，消费者必须真走被测入口
+
+[859—861](https://github.com/XenoAmess/civ6_dev/blob/6c5ea846c69b5a3ba0f5777ce5f28f3453b7623b/docs/research/baiqi-source151-end-preflight859861-2026-11-15.json)：正常结束ACK、HasSent和实际激活分列。通知阻塞0／CanEnd=true不能替代原版额外UI状态；拒绝条件须在计时Begin和动作前。测试调用已有driver默认callback可能绕过目标函数，应执行真实renderer并同时断言Begin=0、writer=0。动态文本为空也可能留下额外换行，历史脚本需逐字节比较；局部采用检查逻辑不等于整稿采用。只读标签须沿实现确认，Inspect这类观察入口可能持久化状态，不能按名字归类。新的不同通知ID经新鲜核对属新测试玩家步骤，不得把旧未知动作自动重试。

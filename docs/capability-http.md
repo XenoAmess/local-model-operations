@@ -7039,3 +7039,10 @@ Owner QA在原读取产生值的位置观察，不额外Native读或主动RunNow
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/2a98d6e73b586b9344b7a51254070fa69c7573a5/docs/research/baiqi-source151-granary196-upgrade858-2026-11-15.json)／[案例](evidence/2026-11-15-civ6-http858-upgrade-and-owner-witness.json)。真实未完成TEST_PLAYER升级守卫任务，3576+851tokens，5720.5937ms／有效内容TTFT675.7907ms，stop、DONE、严格JSON；双Lua编译，但实际端口正案各0请求（期待1）。原稿把原生单nil空队列要求为table#1，缺SelectUnit、fresh绑定和最后资格，整体拒绝，0原稿Native／采用。完整API与队列合同已在输入，按语义错误记；维护成功不补能力。
 
 Owner52双Lua守卫及16虎蹲炮场景后，195原版升级只发一次、金币395、完整新演员ID11075604独立集合读回；敌方63恰有相同完整ID131073，所以ID必须与owner及所属集合共同验证。旧演员在升级后可能退休，作者代码不再访问旧pointer。首次见证可吞退休后异常，Owner加严正例必须无异常完成，52再过，原守卫SHA未变且Native未重放。195三城各135自动防洪坝／武汉排水，196自然扩张新城首栋普通粮仓完成属Owner实效；工业区修复／旧ARMED恢复与151性能仍开。858切点累计858／790完整／65length／3最终传输／889HTTP／30extra、0在途，未知缓存／完整Owner主动成本／净省时null。
+
+
+## 2026-11-15：859—861真实回合诊断与计时前拒绝
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/6c5ea846c69b5a3ba0f5777ce5f28f3453b7623b/docs/research/baiqi-source151-end-preflight859861-2026-11-15.json)／[案例](evidence/2026-11-15-civ6-http859861-end-preflight.json)。三项各一次stop／DONE／严格JSON，实际POST无重叠峰值1；85921178+866tokens／9013.6224ms／TTFT2834.9594，86017854+1085／9723.3577／2476.4892，86112068+2492／16097.6465／1890.7726。859探针双编译但无界且漏要求的队列，0执行／采用；Owner读器误用unit活动getter与过量打印两个失败原件保留，紧凑有界完成标记才授完整。860将AND写OR、可能写日志的Inspect称只读、发明manager端口并建议按时间解除，整拒，无Native／旧FAIL解除。
+
+861四个严格false检查局部采用；整稿插值给140—150全部20历史脚本多一空行，隔离反例保留；ordinary新测试还绕过真正request_end且不核Begin=0，原测试0采用。Owner先保留16个旧版错误状态仍Begin并END红案，补函数资格／精确插值和双Lua真实两入口6方法，共39相关过21.293s，20历史字节全等。仅151工具改变，mod151与性能未追授。Owner两次测试运行器漏路径产生2／4导入错误单列；Git推送响应重置，独立fetch和ls-remote确认服务器已接受同commit才报告交付，无游戏重放。累计861／793完整／65length／3最终传输／892HTTP／30额外、0在途；缓存／主动Owner完整成本／净省时null。
