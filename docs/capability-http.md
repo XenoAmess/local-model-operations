@@ -6983,3 +6983,10 @@ Owner实际复核形成类与宗教消费者：失败首边节点不作为后续
 [项目精确证据](https://github.com/XenoAmess/civ6_dev/blob/7d0c358723b6b632db44d17ea92eefe38dcad6b9/docs/research/baiqi-source149-builder-yield-software-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-owner149-input-correction.json)。后续实际mock_world审阅发现Owner给847的任务误称建造者ID1，真实builder3／army1；候选跟随该输入，Owner首版夹具也同错，原REQUEST保留，不能归为模型ID错误或授全闭包。其余已记录语义缺陷及0原测试执行／采用仍保持；本次0新HTTP，不重投接管完的scope，累计847／781完整／63length／3最终传输／878HTTP／30额外、0在途。
 
 Owner实现空闲建造者让出非held移民既有原生路线，普通工作优先；实际MOVE资格后重读队列／pending／目标／路径／停车占位，未知当前回合不追加SKIP。新夹具漏ActivityTypes、路线hook漏passive初始化、错误禁止另一个合法移民请求均保留。首次2514全绿后审阅发现第二目标耗尽最终路径预算，新反例双Lua红，保留独立final查询后完整2515中2514过1SDKskip／97双Lua119包；16历史prefix保持。149Native／性能尚未测，软件不回授原候选能力。未知缓存／服务并发／完整Owner成本／净收益null。
+
+
+## 2026-11-15：Owner149实机让路与模型拒稿分账
+
+[精确项目实机证据](https://github.com/XenoAmess/civ6_dev/blob/ca079d8e0f69085a3951b9fecbdc285afa495de0/docs/research/baiqi-source149-native182-builder-yield-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-owner149-native182.json)。148保护181经149冷读，正式END被世界议会阻塞，TEST_PLAYER原版三张免费投票后实际182；非held新移民10027070在空闲builder9961524自主274→273让位后，四步227228229274317均observed，原堵点确已通过。己方骑手原位／4行动／单编队与旧ARMED保持；182正式新档已核，未授到址／建城、149冷重载、性能或完整验收。
+
+846—847原稿／原测试仍0采用／0rawNative，847错ID输入责任已在上一条纠正。此为Owner实现及实机证据，不回授模型、也不重POST同题洗绿；累计847／781完整／63length／3最终传输／878HTTP／30额外、0在途。Owner未知完整主动成本、缓存和净收益null。

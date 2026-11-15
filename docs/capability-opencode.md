@@ -2048,3 +2048,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：Owner149与847输入纠正分轨
 
 [来源](https://github.com/XenoAmess/civ6_dev/blob/7d0c358723b6b632db44d17ea92eefe38dcad6b9/docs/research/baiqi-source149-builder-yield-software-2026-11-15.json)本次0新HTTP／0新增OpenCode原生工具生成，无新维护结论。846—847既有Nov15同机同用户canonical1.19.5缓存不补输入完整性或生成能力；Owner2515软件、847错ID输入纠正与未测149Native分别记录。
+
+
+### 2026-11-15：Owner149实机不补授OpenCode能力
+
+[来源](https://github.com/XenoAmess/civ6_dev/blob/ca079d8e0f69085a3951b9fecbdc285afa495de0/docs/research/baiqi-source149-native182-builder-yield-2026-11-15.json)0新HTTP／0新OpenCode原生生成；182让路和移民通过属于Owner游戏效果，846—847原候选拒绝不变，既有维护缓存不授生成或Native能力。

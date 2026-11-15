@@ -510,3 +510,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：先核真实夹具身份，为最终资格保留预算
 
 [149实际案例](https://github.com/XenoAmess/civ6_dev/blob/7d0c358723b6b632db44d17ea92eefe38dcad6b9/docs/research/baiqi-source149-builder-yield-software-2026-11-15.json)Owner任务文字把builder3写成army1，候选跟随错误输入应单列，不以事后补源追认闭包或把错误全归模型。私有等待消费者测试先经过真实passive初始化；断言限定目标演员，不禁止其他合法自动动作。有限初查预算须给最终发令边界留量，第二目标反例应实际执行Native资格再验零／一次写入，不能只测第一个正例。缺接口引起的fixture红、产品预算红和模型拒绝分别保原件。退出后absence不能覆盖已发生的自有残留terminate历史，后见读取需关联正式退出及清理回执。
+
+
+### 2026-11-15：原版阶段阻塞、动作返回和实际效果分读
+
+[182实际链](https://github.com/XenoAmess/civ6_dev/blob/ca079d8e0f69085a3951b9fecbdc285afa495de0/docs/research/baiqi-source149-native182-builder-yield-2026-11-15.json)普通END ACK后仍可遇世界议会中间阶段，纯回合读超时保留，独立读实际阻塞并以授权TEST_PLAYER处理，不能把窗口中止当重放END许可。确认页总花费与各票／目标、最终胜出目标分别核；自己投票给A不证明自己的目标胜出，跨回合支持差额也不等于投票成本。让路Native请求／observed、演员实际坐标／队列及保存SHA各自取证；四步通过堵点不等于全路／建城或冷重载。
