@@ -2128,3 +2128,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-16：875／876仅HTTP候选，无新增原生生成
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/925b4327b0bac22daeb10236096982323f15424c/docs/research/baiqi-source152-stageB-preparation875876-2026-11-16.json)两次HTTP完整但整拒，CanonicalCLI复用Nov16同机OpenCode1.19.5成功维护缓存；新增OpenCode原生生成0。Owner验证和私有包构建不转授原生工具能力。
+
+
+### 2026-11-16：877文档HTTP不授OpenCode生成能力
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/ed31d5b9e2aa63e84d29ab6f383782fc4c2445c2/docs/research/baiqi-handoff-2026-11-16.json)。CanonicalCLI复用Nov16同机OpenCode1.19.5成功维护缓存；本次只有交接草稿笔记，新增OpenCode原生生成0。导出撤钩、普通安装恢复及离线读证是Owner实际动作，不归为模型执行能力。

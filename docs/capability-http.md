@@ -7089,3 +7089,8 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 ## 2026-11-16：875／876“已验证”必须有实际调用，正式空闲与持有互斥分阶段
 
 [精确证据](https://github.com/XenoAmess/civ6_dev/blob/925b4327b0bac22daeb10236096982323f15424c/docs/research/baiqi-source152-stageB-preparation875876-2026-11-16.json)。2stop／DONE／JSON，实际POST峰值2，整拒0代码执行。875的_present与metadata API正确，但0实际saves、无ZIP字节／独立双Lua核验，却标已保护；876机械替换后锚点1/0/0/0、正式运行错误要求空闲并混v3mode。Owner独立构建33上下文4096、97双Lua119ZIP及普通END85—90到91驱动，nonce/source/owner先于Native核对，尚未装测。前一轮原生细分根15ms未复现原76msFAIL，保持失败，不把未复现当修复。累计876／805完整／68length／3transport／907HTTP／30extra，0在途、未知成本null。
+
+
+## 2026-11-16：877交接笔记与中止后的显式对账
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/ed31d5b9e2aa63e84d29ab6f383782fc4c2445c2/docs/research/baiqi-handoff-2026-11-16.json)／[交接文档](https://github.com/XenoAmess/civ6_dev/blob/ed31d5b9e2aa63e84d29ab6f383782fc4c2445c2/docs/handoff-2026-11-16.md)。877在原StageB父／子终态、1569样本导出、33监听撤除、END90未触达及nonce对账释放后才HTTP，3789+701tokens，5300.3954ms／TTFT692.4989ms，stop／DONE／JSON。仅演员区分、失败边界和私有路径事实核对笔记采用；Owner补必读清单与下一步，纠正字面Chinese标题及把本轮离岗不再测试误扩成后任禁测。没有候选代码执行或新测试／Native结论。普通152119恢复，保护档不变，无游戏／锁／模型，新鲜Steam离线。累计877／806完整／68length／3transport／908HTTP／30extra，未知成本null。

@@ -593,3 +593,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-16：同一互斥在准备与测量中的条件相反
 
 [875／876](https://github.com/XenoAmess/civ6_dev/blob/925b4327b0bac22daeb10236096982323f15424c/docs/research/baiqi-source152-stageB-preparation875876-2026-11-16.json)中，准备包／冷启动前要求formal_idle，正式重载后与采样期间应验证自己持有的nonce、label、source、PID出生，而不能再要求空闲。候选“protected=True”不能替代saves调用及实际新档指纹；Builder元数据也不能冒充ZIP字节复核。Owner字符串守卫误匹配新容量字段子串的两次早停单列，未发游戏动作，不归咎模型。
+
+
+### 2026-11-16：交接要说明可安全接续的现场，而不是只列进展
+
+[交接](https://github.com/XenoAmess/civ6_dev/blob/ed31d5b9e2aa63e84d29ab6f383782fc4c2445c2/docs/handoff-2026-11-16.md)保留ABORTED90与原B_plan76msFAIL，区分READY预留和原生END、后续ready移民快照和首次失败瞬时、旧8650807与新4390940。中止时先导出／撤钩／核子进程及动作门，再显式释放互斥；不按PID消失或超时删锁。交接前恢复普通119文件、核保护档、明确历史PID端点和LOCAL_ONLY不可随Git迁移，下一位先新鲜确认。Owner保存包装重复分号的失败发生在编译／意图前，保留原件，修正后只保存一次，不记给模型或产品。
