@@ -1,0 +1,109 @@
+{
+  "project_source": "https://github.com/XenoAmess/civ6_dev/blob/d2a3819a5631877e6dbb68d40dc6e1a84e10cdf6/docs/research/baiqi-source143-retained-capacity-software-2026-11-15.json",
+  "older816_source": "https://github.com/XenoAmess/civ6_dev/blob/0292ff4dd579300bf8e8421a4d3230bfb66ae8f4/docs/research/baiqi-legacy816-qualified158-2026-11-15.json",
+  "mode": "ordinary HTTP candidate",
+  "machine": "BF-202609141645",
+  "models": [
+    {
+      "id": 817,
+      "input": 75692,
+      "output": 1395,
+      "ms": 18808.56140004471,
+      "TTFT_ms": 9805.449299979955,
+      "status": "stop",
+      "adoption": "No raw code; planner-only fields had no producer, unrelated ARMED accepted, arithmetic preceded validation"
+    },
+    {
+      "id": 818,
+      "input": 71737,
+      "output": 1516,
+      "ms": 18570.470299804583,
+      "TTFT_ms": 9338.709899922833,
+      "status": "stop",
+      "adoption": "Partial fresh Snapshot/count idea; raw J.Clone(operation map) invalid. Owner compares full cloned bank and counts all unresolved records"
+    },
+    {
+      "id": 819,
+      "input": 20792,
+      "output": 3097,
+      "ms": 27638.513199985027,
+      "TTFT_ms": 4073.188900016248,
+      "status": "stop",
+      "adoption": "Partial normal version allowlists; wrong source anchor and missing renderer/current quota branches corrected"
+    },
+    {
+      "id": 820,
+      "input": 28998,
+      "output": 7500,
+      "ms": 52782.13829989545,
+      "TTFT_ms": 6873.422299977392,
+      "status": "length",
+      "adoption": "Content unread, discarded whole"
+    },
+    {
+      "id": 821,
+      "input": 3257,
+      "output": 597,
+      "ms": 7651.623599929735,
+      "TTFT_ms": 2502.9128999449313,
+      "status": "stop",
+      "adoption": "Rejected: missing normal guard, wrong anchor/tag multiplicities, accepts int subclass. Owner renderer"
+    },
+    {
+      "id": 822,
+      "input": 8326,
+      "output": 3735,
+      "ms": 29086.748800007626,
+      "TTFT_ms": 2811.3566001411527,
+      "status": "stop",
+      "adoption": "Partial consumers; Owner fixed unmatched anchor, mixed-version tag acceptance and missed ACK hardcode"
+    },
+    {
+      "id": 823,
+      "input": 8217,
+      "output": 3500,
+      "ms": 27483.550400007516,
+      "TTFT_ms": 2540.260500041768,
+      "status": "length",
+      "adoption": "Content unread, discarded whole; Owner observed runner/plan analyzer"
+    }
+  ],
+  "verification": {
+    "run": 2423,
+    "seconds": 185.287,
+    "skipped": 1,
+    "failures": 0,
+    "errors": 0
+  },
+  "ledger": {
+    "logical": 823,
+    "complete": 762,
+    "length": 58,
+    "final_transport": 3,
+    "HTTP": 853,
+    "extra": 30,
+    "current_inflight": 0
+  },
+  "OpenCode": {
+    "maintenance": "Nov15 same-machine/user successful1.19.5 cache reused",
+    "new_native_tools_sessions": 0
+  },
+  "unknown": {
+    "cache": null,
+    "server_concurrency": null,
+    "owner_complete_cost": null,
+    "net_savings": null
+  },
+  "concurrency": {
+    "819_820_peak": 2,
+    "819_820_overlap_seconds": 27.614688,
+    "821_822_823_peak": 3,
+    "821_822_823_overlap_seconds": 7.65199
+  },
+  "source143_Native_at_software_cut": "PENDING",
+  "owner_notes": [
+    "First status parser stripped leading porcelain space and failed path equality before any stage/commit; corrected parser, repeated checks then pushed",
+    "Old red witness JSON overwritten by helper; original failure tool output and818 request source retained; do not invent raw failure file"
+  ],
+  "scope": "Business implementation and model adoption separate; old ARMED recovery FAIL retained;142 performance not transferred to143"
+}

@@ -6878,3 +6878,14 @@ Owner实际后台读Text→Document→Pane→Pane→Window，头部支持Invoke�
 ## 2026-11-15：815后到Native与Owner合同纠正
 
 [815B](https://github.com/XenoAmess/civ6_dev/blob/304d4085c4dd39de2092ffc2366a5b94c1e69783/docs/research/baiqi-population815B-native339-2026-11-15.json)无新HTTP、原候选0采用／0Native保持。Owner原先误给GetEventsForTurn密集数组合同，实际两上下文单14字段record／future nil；Core GetDistricts有而集合Members缺失。首版Native beforeEND即PARTIAL/UNKNOWN、均精确撤三绑定，未推进。新15组件＋24观察器场景均dualLua后，真实一次普通END338、actual339；UI四citycontextKNOWN／0contextErrors，Core四PARTIAL／Membersmissing但historyknown，未借UI字段。两侧各3retained/28seen/25ignored/0callbackerrors/drops，三ownlisteners撤清。Haboob14累计Pop0to3/Tiles7to21已前后读回，但两次人口callback都已总3，仍不授逐城cause。Owner还只给了snapshot包装层而非底层producer，后来才核读；这些输入遗漏不归模型。ENDwrapper旧Core2回执门在意图／Native前失败，修后才唯一END。模型代码语法等独立拒用理由不变。Nativefinish切点累计815/756complete/845HTTP保持，后来816另案；未知成本null。
+
+
+## 2026-11-15：816—823保留意图与143工具适配
+
+[816只读资格](https://github.com/XenoAmess/civ6_dev/blob/0292ff4dd579300bf8e8421a4d3230bfb66ae8f4/docs/research/baiqi-legacy816-qualified158-2026-11-15.json)5547/1236tokens、8383.8860ms/TTFT897.9163，stop/DONE/strictJSON，raw0采用：两字段只返回字符串、虚构Game.IsTurnActive、漏实际Core合同。Owner用实际UI/Core端口读出oldARMED仍在、活动资格成立而两CANCEL false，0旧命令/END。Owner平面ACK消费者和Core GetType遗漏单列，未借上下文凑原子快照。
+
+[817—823源码与验证](https://github.com/XenoAmess/civ6_dev/blob/d2a3819a5631877e6dbb68d40dc6e1a84e10cdf6/docs/research/baiqi-source143-retained-capacity-software-2026-11-15.json)及[共享摘要](evidence/2026-11-15-civ6-retained-capacity816-823.json)。81775692/1395、18808.5614ms/TTFT9805.4493，raw缺真实生产者、任意旧ARMED放行和先算后验，拒代码；Owner独立硬限实现。81871737/1516、18570.4703/9338.7099，部分freshSnapshot/全记录计数采用，raw Clone了操作map而非bank导致正例拒绝；Owner比整bank。Owner最初缓存计数也漏临发令第二记录，红见证后修复；其helper覆盖原红JSON错误单列，原红工具输出/请求正文保留，不造原件。81920792/3097、27638.5132/4073.1889，部分版本白名单采用，错实际锚点、漏renderer/currentquota纠正。82028998/7500、52782.1383/6873.4223为length，内容未读/整弃。
+
+8213257/597、7651.6236/2502.9129，完整但漏正常版本门/锚点大小写及计数错误/int子类放行，整拒；Owner精确单锚点内存渲染并保旧模板及None/140—142前缀hash。8228326/3735、29086.7488/2811.3566，部分驱动/回执消费者采用；Owner补未匹配锚点，拒版本143配142tag，修漏ACK硬142。8238217/3500、27483.5504/2540.2605为length，内容未读/整弃，Owner接管剩余观察驱动与分析器。
+
+软件2423run/2422pass/1SDKskip、185.287秒；新18方法覆盖实际Controller/临发令变化，工具52项、97Lua双编译/119包一致。首次143全套版本门及Lua51局部变量限制由Owner修；另一轮3个旧测试期望修后全过。软件cut143 Native待验，142旧恢复FAIL与性能PASS分范围。819/820实峰2重叠27.614688秒，821/822/823实峰3重叠7.651990秒；累计823逻辑/762完整/58length/3最终transport/853HTTP/30extra，cut在途0。缓存/服务并发/Owner完整成本/净收益null；无新HTTP重试或共享配置改动。
