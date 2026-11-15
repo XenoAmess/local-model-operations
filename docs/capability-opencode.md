@@ -2063,3 +2063,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：850—851无原生生成session
 
 [项目证据](https://github.com/XenoAmess/civ6_dev/blob/0fef94f1dc36d5afd7e8ba07feeff191294ad82d/docs/research/baiqi-source149-cold193-flood850851-2026-11-15.json)经唯一共享CLI每日维护入口，普通候选与当日维护成功缓存分账；新增OpenCode原生生成0。HTTP编译、Owner只读Native和新城生产效果均不能给维护程序或原候选授原生生成能力。
+
+
+### 2026-11-15：852—853仍是普通HTTP候选
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/00a573f9de8036e00295884aeb08b014b12b8f93/docs/research/baiqi-source150-blocked-flood-software-2026-11-15.json)的来源为固定三消息共享CLI，维护检查成功缓存与OpenCode原生代码生成分账。新增原生session0；Owner软件运行、安装或后续游戏效果不改原候选生成模式／采用等级。

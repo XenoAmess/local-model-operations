@@ -525,3 +525,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：控制台宿主与Lua return不是同一输出接口
 
 [850—851](https://github.com/XenoAmess/civ6_dev/blob/0fef94f1dc36d5afd7e8ba07feeff191294ad82d/docs/research/baiqi-source149-cold193-flood850851-2026-11-15.json)的只读诊断必须先核实际宿主消费：编译通过且return结构表不能替代被捕获的print行。pcall成功不代表单返回值，原生资格API可能bool加nil／失败表；记录真实arity和payload，再按消费者合同解释，unknown不等于false。hash0为无当前生产，不能按GameInfo.Units[0]推断正在训练移民。未完成项目仍应核前提区、投入和真实失败理由；合法防洪坝被业务候选过滤与Native拒绝应分别定位。有限预算应匹配完整诊断义务，length整弃不算模型语义错误。
+
+
+### 2026-11-15：真实行定义与测试别名必须隔离
+
+[852—853](https://github.com/XenoAmess/civ6_dev/blob/00a573f9de8036e00295884aeb08b014b12b8f93/docs/research/baiqi-source150-blocked-flood-software-2026-11-15.json)已同时提供实际防洪坝Hash205057393和mock913，候选仍把mock值写入产品；审阅必须沿真实GameInfo身份核对，不能把测试通过常量当游戏API值。读回分支新增在已return的分支之后可能永远不可达；队列已排入与建筑已完成又是不同证据。测试继承包装对象与实际.case消费者应先核接口，原writer可能带严格断言，不能先调用再声称覆盖。Owner软件夹具已初始化Lua与候选Lua字符串未执行两者分开记录，纠错不追改原始请求或失败。
