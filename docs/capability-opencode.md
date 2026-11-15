@@ -2118,3 +2118,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：869／870无新增OpenCode原生生成
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/cc2500ab37342c22fafef4f6bf3d1981165f20a3/docs/research/baiqi-source152-spike-diagnosis869870-2026-11-15.json)新增2完整HTTP，诊断笔记部分采用、代码原稿未采用。标准入口复用Nov15同机1.19.5成功缓存；原生生成0。97编译与Owner私有包准备不追授Native或性能通过。
+
+
+### 2026-11-16：跨日874已检查维护，新增原生生成0
+
+[871—874证据](https://github.com/XenoAmess/civ6_dev/blob/a7d1e6701a001d58b85cd7861f9f1288744f0653/docs/research/baiqi-source152-native-path-tool871874-2026-11-16.json)。871—873客户端11月15日复用成功缓存；874客户端已跨11月16日，真实维护检查OpenCode1.19.5与registry1.19.5，无需更新后才HTTP。候选和Owner双Lua通过均不授OpenCode原生代码生成能力，新增原生生成0。

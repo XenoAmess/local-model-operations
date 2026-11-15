@@ -583,3 +583,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 
 
 2026-11-15补正：[152原生格位与角色](https://github.com/XenoAmess/civ6_dev/blob/dc326d291ad1bdd87bcbc41512652e5760e9078a/docs/research/baiqi-source152-native208-210-865866-2026-11-15.json)。631的7012401/type9是玩家将军，type14是大科学家；FORMATION_CLASS_CIVILIAN格位不等于AI托管。原稿把占位者统称文职的Owner标签已纠正，209将军SKIP仍是TEST_PLAYER，安全占位拒绝与0后台军令结论不变。无新HTTP或OpenCode生成。
+
+
+### 2026-11-16：原生接口装饰必须保留求值时机与多返回值
+
+[私有QA案例](https://github.com/XenoAmess/civ6_dev/blob/a7d1e6701a001d58b85cd7861f9f1288744f0653/docs/research/baiqi-source152-native-path-tool871874-2026-11-16.json)只在唯一调用点将当次Native函数作为参数，不缓存旧函数或替换全局API；GetIndex副作用改变下一次函数的反例与false／nil／尾nil／同错误对象均实际运行。撤计时别名不等于撤私有调用点，元数据明确后者到退出才消失。28旧默认字节证明隔离旧功能。测试容量由闭包捕获，修改描述字段不能缩容量，Owner失败原件保留并填满真实预算修正；别把自己的错误记给模型。

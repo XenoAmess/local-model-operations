@@ -7079,3 +7079,8 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 ## 2026-11-15：869／870沿真实消费者选点，未执行的检查不能靠limits代替
 
 [精确证据](https://github.com/XenoAmess/civ6_dev/blob/cc2500ab37342c22fafef4f6bf3d1981165f20a3/docs/research/baiqi-source152-spike-diagnosis869870-2026-11-15.json)两次完整stop／DONE／JSON，实际POST峰值2。869十词法名均真实，采用Tick直接续跑建造者时的分阶段路线／包测点，修正Economy串联和深递归推测；不采Native因果。870Python和marker路径正确，Owner误命名wrong marker字段另更正；仍因无正式／CPU预留／真实安装存档检查、只查ZIP存在整体拒0执行。Owner实际规范构建12scoped子测点、97Lua51／53及119ZIP／精确原Controller前缀，仅诊断不覆盖有效76ms原FAIL。累计870／801完整／66length／3transport／901HTTP／30extra，未知缓存／服务并发／完整Owner主动成本／净省时null。
+
+
+## 2026-11-16：871—874在长输出失败后转窄任务，实际行为验证仍由Owner负责
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/a7d1e6701a001d58b85cd7861f9f1288744f0653/docs/research/baiqi-source152-native-path-tool871874-2026-11-16.json)。871部分采用测点，纠正半径／消费者和缺行因果推断；872length3800、873length2800，完整SSE但整拒0执行／不拼片。Owner接管私有QA工具，874真实尚未写的双行为测试stop／合法JSON，却缺Automation上下文、Lua53覆盖Lua51，隔离2errors整拒。Owner14新项／81相关通过，28旧默认字节不变、97双Lua119ZIP，保持当前原生函数／参数／nil尾值／异常与身份安全撤钩；不是Native性能通过。实际871872峰值2／重叠34.185501秒，后续窄任务不凑数。累计874／803完整／68length／3transport／905HTTP／30extra；未知缓存、服务并发、完整Owner主动成本、净省时null。
