@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/e8cd8c368dd846f06b860ff00a41be0ed87c88d1/docs/research/baiqi-source154-district-preflight-2026-11-16.json",
+  "Native_city_diagnosis": "https://github.com/XenoAmess/civ6_dev/blob/a0d72a5e65ed5a938ec86f1c7952f6379cbe60d5/docs/research/baiqi-source153-city-diagnosis-E-2026-11-16.json",
+  "task": {
+    "task": "civ6-895-city-planning-candidate",
+    "actual_source153_and_cohorts_supplied_before_owner_product_edit": true,
+    "POST_attempts": 1,
+    "response_headers": 0,
+    "timeout_ms": 180031.50760009885,
+    "finish_reason": null,
+    "SSE_DONE": false,
+    "candidate_adopted": false,
+    "Owner_implemented_independently": true,
+    "retry_control": "Canonical task-specific stop during actual POST, current attempt naturally terminal timeout, no retries/kill/lease edits or game replay."
+  },
+  "ledger_through_895": {
+    "logical": 895,
+    "complete": 816,
+    "length": 68,
+    "final_transport": 11,
+    "HTTP_attempts": 932,
+    "extra_attempts": 36,
+    "inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "OpenCode": "Nov16 same-client successful cached daily maintenance1.19.5, no new native generation capability",
+  "unknown": {
+    "cached_tokens": null,
+    "backend_cause": null,
+    "server_jobs": null,
+    "Owner_active_cost": null,
+    "net_time_saved": null
+  },
+  "Owner_change": "Check both exact-boolean native CanProduce modes before district placement/repair planning. Add and actual writer still repeat native qualification. No positive permission retained between callbacks or native guard removed.",
+  "policy_effect": "Unavailable district plots no longer consume candidate checks or expensive placement scans. Remaining candidate order and tie order retained; later eligible candidates may now fit existing512 budget. Candidate and request caps unchanged.",
+  "tests": {
+    "new_methods": 5,
+    "old153_result": "Four failing subcases (false/nil/0/string second mode), with one placement and one placed-state read each. Four other methods pass; raw kept.",
+    "new154_result": "All five methods pass: unavailable/unknown second mode avoids all placement/placed-state reads; first-mode short circuit; same legal choice; mutation during placement; final second-mode rejection.",
+    "full_suite": {
+      "total": 2637,
+      "passed": 2636,
+      "skipped": 1,
+      "skip_reason": "Civ6 SDK environment unavailable",
+      "seconds": 239.498
+    },
+    "owner_test_adjustment": "Initial positive-control assertion demanded an extra third read, mirroring the proposed implementation. Changed to verify existing final boundary and actual rejection cases, then reran old source before editing product.",
+    "Lua51_and_Lua53": 97,
+    "files": 119
+  },
+  "Native154": "NOT_YET_RUN",
+  "lesson": "One city per callback does not bound single-city candidate generation. Actual same-root61/58 in turn90 was missed by old88/89 scope. Before expensive site scans, a second native production-mode rejection can avoid work; current final guards must remain. Do not infer performance repair from compile/full software checks, or exclude settler cost from another run."
+}

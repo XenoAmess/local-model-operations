@@ -2147,3 +2147,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[Civ6 893与启动边界](evidence/2026-11-16-civ6-http893-startup-boundary.json)。893普通HTTP候选超时不授OpenCode生成／工具能力；Nov16同机每日维护成功缓存1.19.5有效，原生生成0。受控未知快照不是原生Getter缺失，后续必须限制证据口径。
 
 2026-11-16：[Civ6 894与90回合诊断](evidence/2026-11-16-civ6-http894-turn90-diagnostic.json)。894仍为普通HTTP候选超时，不授OpenCode生成能力；同机Nov16维护成功缓存1.19.5有效，原生生成0。Owner工具测试字段误读turnBefore已按实际rootTurn纠正，不能归咎模型。
+
+2026-11-16：[Civ6 895与154区域预检](evidence/2026-11-16-civ6-http895-district-preflight154.json)。895普通HTTP超时不授OpenCode生成能力；Nov16同机每日维护成功缓存1.19.5有效，原生生成0。测试正对照最初绑定第三次读取次数，Owner移除实现形状断言、保留真实拒绝／合法边界并在改产品前重跑旧版。
