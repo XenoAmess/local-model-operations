@@ -11,3 +11,5 @@ Zero reachable findings, code or Test hunks were adopted. Owner code, the earlie
 The new material scope was 10,285,056 B, funded once under the 1589 MiB engineering-material cap. Software and Runtime reserves remained independent. Full private originals and final physical Git/material accounting are retained under the case's closed evidence reference.
 
 [Per-request source pins, stream metrics and source review](2026-11-15-ck3-arm-read-provenance-retry-review.json).
+
+[Later independent historical CAS lifetime, prefix and parse research](2026-11-15-ck3-history-lifetime-prefix-parse-research.md).
