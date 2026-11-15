@@ -7053,3 +7053,10 @@ Owner52双Lua守卫及16虎蹲炮场景后，195原版升级只发一次、金�
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/6c1bd42c08a46acee6c1e022a9b040ee1643d7cd/docs/research/baiqi-source151-repairs206-plan862-2026-11-15.json)／[案例](evidence/2026-11-15-civ6-http862-profile-artifact-preparation.json)。真实下一151 StageA准备任务，24042+768tokens／8131.2119ms／有效内容TTFT3386.0172ms，stop／DONE／严格JSON，1POST。Python AST可解析，但ZIP循环把全部instrumented文件与source_hashes比较，唯一改动Executor必然不等；Owner用真实transform隔离此摘要断言不等，未执行整个候选或其build，整体拒／0采用、0Native。formal／model准入亦被候选留给caller，未满足明确任务。
 
 Owner用实际canonicalbuilder及准备预留生成新151包：97Lua双编译、119ZIP和目标字节一致、仅Executor变、4096容量、release正文可精确还原；ZIP31f6fc1e…仅准备，0安装／载入／新性能，142 TC-036历史PASS不追授。实际206工业区和两建筑修复来自既有Owner产品及普通回合，旧工业项目119点保留尚未恢复。被动事件首稿and/or丢false在首Lua51正例失败、未安装，显式分支及12双Lua场景后使用，原错误与模型862无关。累计862／794完整／65length／3最终传输／893HTTP／30extra，0在途；缓存／完整Owner主动成本／净省时null。
+
+
+## 2026-11-15：863／864完整源并行，声称移动的分支实际未移动
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/6d0f65ce5c8664bfe8b2dacad7980eeb1220e3b3/docs/research/baiqi-source152-late-overlap863864-2026-11-15.json)／[案例](evidence/2026-11-15-civ6-http863864-late-civilian-overlap.json)。两个真实任务全量Controller／Policy／消费者／实际Native合同，86386055+754tokens／27821.5785ms／TTFT20263.4579，86486069+1118／30636.4761／22064.4354；各一次stop／DONE／严格JSON，POST峰值2、实际重叠27.824607秒。863仅把held判断再包一层，仍在原not evaluated分支内；双Lua编译但两次实际公开消费者晚到正例均0请求（期待1），整体拒。864缺已提供GP桥，3方法一失败一错误、一负例空过；Lua table.clear另不受支持但未走到，held测试不是held，整体拒。0原稿Native／采用。
+
+Owner先保存151六个新正例红案，再以8方法双Lua共16、58相关过12.958s；原红26含被导入旧10方法，后改模块别名避免重算。首绿夹具漏Native activity和SKIP元数据，6正例仍失败；补真实端口，运行器误写旧x回执被拒、原件保留。152最终2578中2577pass1SDKskip（runner354.869s、宿主357.794s）、97Lua双编译119ZIP22旧前缀保持。Native151三文职阻塞初有安全半径内野蛮人，Owner先归因叠放过早；正常测试玩家城防后19格敌0仍堵，软件原因独立证明，未声称读到私有评估cache。音乐家LEGACY_UNKNOWN保护，0手动文职；152冷验另案。累计864／796完整／65length／3最终传输／895HTTP／30extra，0在途；缓存／完整Owner主动成本／净省时null。

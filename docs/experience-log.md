@@ -560,3 +560,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：校验每一层各自声明的字节版本
 
 [862](https://github.com/XenoAmess/civ6_dev/blob/6c1bd42c08a46acee6c1e022a9b040ee1643d7cd/docs/research/baiqi-source151-repairs206-plan862-2026-11-15.json)：诊断ZIP中的改写文件应与instrumented_hashes和实际QA目标比较，未改文件才同时等于release source_hashes；再单独验证声明的改动集合、可逆正文及原版安装未变。不能用同一摘要名消除版本层次。纯事件观察也必须保留false及nil的区别，显式分支优于可能合成nil的and/or；首失败、修正及真正安装分别计账。
+
+
+### 2026-11-15：按补丁位置验证控制流，按实际路径验证测试
+
+[863／864](https://github.com/XenoAmess/civ6_dev/blob/6d0f65ce5c8664bfe8b2dacad7980eeb1220e3b3/docs/research/baiqi-source152-late-overlap863864-2026-11-15.json)的解释声称把代码移到外围，但exact-anchor替换只改内层嵌套。应在真实公开消费者以旧cache键保持的后来状态复现，不因编译或解释采信控制流。负例可能因缺桥接端口而空过，先使真正正例通过再检查held／queue拒绝。Native阻塞要先核安全、所有权和保护后的UI端口：ActionPanelcivilianCan不是无保护Native资格；先前的敌对单位会使安全门正确拒绝。软件因果与运行期私有状态观察分列，不能靠源码推定已经读到该cache。
