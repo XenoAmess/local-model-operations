@@ -7067,3 +7067,10 @@ Owner先保存151六个新正例红案，再以8方法双Lua共16、58相关过1
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/0ccb270d1f7ab64a00693224bcd7edc8772f2c35/docs/research/baiqi-source152-native208-210-865866-2026-11-15.json)／[案例](evidence/2026-11-15-civ6-http865866-target-neighborhood.json)。86582316+3600tokens／30717.2285ms／TTFT10566.8400，length但DONE，整拒／0执行；缩小后的86682395+378／12921.7588ms／TTFT10520.5773，stop／DONE／严格JSON，实际双Lua2过。但敌人直接占目标格，混入占位且不满足安全起点；把全部Safe强制true仍2过，整拒／0原稿Native。Owner一致几何敌人距起点3／落点2，空闲目标与安全占位备选分开，4双Lua隔离负对照均预期失败、真实相关62过21.827s，产品未改不冒增完整全测计数。两请求先后依赖，实际POST峰值1。累计866／797完整／66length／3最终传输／897HTTP／30extra，0在途、未知缓存／完整Owner主动成本／净省时null。
 
 152冷实机发现起点19格敌0仍不能证明588落点Safe：其自身19格含另一野蛮人499，其他安全格有文职。更正863／864旧案例的safe候选标签。玩家原版步兵前进、另城城防移除敌人后，BACKGROUND商人632→588并待命，音乐家LEGACY_UNKNOWN保持。普通END208／209到210，武汉旧119点工业项目恢复并实际完成；0人工文职，背景军事0。Owner866准备脚本括号笔误及缺文件均POST前停止，不计请求；只读路径参数／容器形状也按真实API修正后再用。
+
+
+## 2026-11-15：867／868当前性能包准备，导入检查不等于调用检查
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/07cd874cd776eddab683f28e1043095adc5b9447/docs/research/baiqi-source152-performance-preparation867868-2026-11-15.json)／[案例](evidence/2026-11-15-civ6-http867868-performance-artifacts.json)。两项真实独立准备任务POST峰值2、重叠11.377067秒；86718375+782tokens／11370.1895ms／TTFT3790.5324，86822901+1717／17552.8782／5705.7630，均一次完整stop／DONE／JSON。867构建器和119ZIP／源与instrumented哈希校验正确，但导入assert_no_model_activity后从未调用、安装及存档也仅构建后检查，limits却声称已做。Owner在预留前补正式空闲／无HTTP／安装／存档预检，部分采用主体，修改后真实准备成功、原稿0执行／0Native。868非法Python包导入语法错误；把实际modinfo XML按JSON解析的独立反例也报错；其他静态缺陷有差异分支pass、无ZIP／目标校验、编译与桥身份只写limits、receipt覆盖。整体拒／0执行，不将未到达缺陷称为真实运行错误。
+
+Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节一致，启用1变更、对照12变更、同计时前缀／实际渲染152桥，启用移除计时装饰后还原Executor原文。此案例切点0安装／采样，后续安装另记，不能用142历史通过或151旧包授152性能。累计868／799完整／66length／3最终传输／899HTTP／30extra，0在途、未知缓存／完整Owner主动成本／净省时null。

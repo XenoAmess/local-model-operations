@@ -570,3 +570,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：用移除安全门的负对照审查安全测试
 
 [865／866](https://github.com/XenoAmess/civ6_dev/blob/0ccb270d1f7ab64a00693224bcd7edc8772f2c35/docs/research/baiqi-source152-native208-210-865866-2026-11-15.json)完整负例通过可能只是另一个门拒绝：敌人放在目标格同时触发占格，甚至删除所有Safe仍过。应把敌人放在落点半径内而起点半径外，保持目标空闲，再用真实公开消费者做消失前后同key验证，并以安全门失效时必红证明非空过。原生路径和CanMOVE true不代表双方Safe。冷启动重置私有缓存，首次解叠不能当同进程旧cache的严格AB；软件与Native各保实际范围。
+
+
+### 2026-11-15：检查调用发生的位置，而不是import和limits
+
+[867／868](https://github.com/XenoAmess/civ6_dev/blob/07cd874cd776eddab683f28e1043095adc5b9447/docs/research/baiqi-source152-performance-preparation867868-2026-11-15.json)说明候选会准确复用构建校验却遗漏前置互斥。应查实际AST调用及先后顺序，在真实准备前检查正式测量空闲、HTTP空闲和保护状态。非法Python模块路径、XML误作JSON应先解析／隔离反例，不执行整个候选；条件分支pass和只在limits宣称校验不能算失败即停。准备与Native性能分别记账；产品升级后旧版通过不自动延续。
