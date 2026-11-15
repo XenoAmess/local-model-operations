@@ -1,0 +1,72 @@
+{
+  "source": "https://github.com/XenoAmess/civ6_dev/blob/684f6b3c9ccace4e90e3b25a98c508f9c2d6bdc9/docs/research/baiqi-source147-bounded-detour-software-2026-11-15.json",
+  "machine": "BF-202609141645",
+  "models": {
+    "841": {
+      "finish_reason": "length",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 19979,
+        "completion_tokens": 1600,
+        "total_tokens": 21579
+      },
+      "total_ms": 12982.341399881989,
+      "TTFT_ms": 2693.6045000329614,
+      "raw_code_adopted": 0,
+      "raw_code_Native": 0,
+      "request_sha256": "f75f58573942e98345de3e185e700677d917d0dcc7bdc02ab5b6e6a12e4bd5f3",
+      "candidate_read": false,
+      "decision": "length rejected whole; Owner reviewed patch and continued checks"
+    },
+    "842": {
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 2019,
+        "completion_tokens": 1033,
+        "total_tokens": 3052
+      },
+      "total_ms": 6762.044199975207,
+      "TTFT_ms": 460.26109997183084,
+      "raw_code_adopted": 0,
+      "raw_code_Native": 0,
+      "request_sha256": "7746001aa97169f2b81f2f467e18cd1c1af229dbb499889af5dc662d78a4d45f",
+      "decision": "Rejected: passes operation row not Hash, no unique pre-request ledger/pcall, accepts destination0, no return-arity, missing human/hotseat/paused and final queue/binding checks; Owner TEST_PLAYER fortify preparation pending"
+    }
+  },
+  "ledger": {
+    "logical": 842,
+    "complete": 778,
+    "length": 61,
+    "final_transport": 3,
+    "HTTP_attempts": 872,
+    "extra_attempts": 30,
+    "inflight": 0,
+    "new_tasks_peak": 1,
+    "new_tasks_overlap": false,
+    "new_OpenCode_native_generation_sessions": 0
+  },
+  "unknown": {
+    "cached_tokens": null,
+    "service_concurrency": null,
+    "full_Owner_cost": null,
+    "net_time_saving": null,
+    "source147_performance": "UNMEASURED",
+    "future_water_legality": null
+  },
+  "Owner_regression_evidence": {
+    "old146_valid_harness": "positive first-away and after-step backtracking fail in both Lua versions; unknown occupant also exposes unsafe direct step",
+    "initial_harness_failure": "goalProposals initialized only by later include; Owner explicitly initialized fixture, retained error log",
+    "first_patch_negative_fixture_error": "open real graph still had alternate safe corridors; negative assertions narrowed to explicit single-corridor cutset, positive keeps full53 native geometry",
+    "old_related_tests_changed": "equal-distance complete certified corridor now allowed; blocked original goal retained instead of forcing alternate goal; old failures retained",
+    "new_TEST_PLAYER_native_actions": 0
+  },
+  "claims": {
+    "software_ready": true,
+    "source147_installed": false,
+    "native_detour": false,
+    "new_city_founded": false,
+    "all_functional_acceptance": false,
+    "old_ARMED_recovery": "FAIL_OPEN"
+  }
+}

@@ -6950,3 +6950,10 @@ Owner首个真实请求已返回，随后只读脚本数字拼接编译错，过
 [项目精确证据](https://github.com/XenoAmess/civ6_dev/blob/8f0ca5e26b745f41c597aca854ccd5402e586e57/docs/research/baiqi-source146-route178-model838840-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-route838840.json)。三任务各单POST完整stop/DONE/strictJSON，分别7523+1110、11168+1611、11655+2390tokens；耗时8632.1523／11665.9852／16658.8902ms。各峰在途1，未重叠，当前0。三份原代码均0采用／0Native：838数值玩家ID当对象、调用不可见私有函数及虚构GetPlot，声明边界未实现；839仅放宽距离仍无法重接真实路线，Owner在REQUEST后才取得东侧山地事实，原件不改；840goto不兼容Lua5.1／table.reverse虚构、visited字面量键错、复用要求原起点相邻的Available令BFS无法扩展，最后整路／资格回读不全。仅BFS形状与任务合同一致，不把合同复述授独立设计贡献。
 
 Owner另写只读实际API读回53节点、23点几何候选，首边原生许可，后续水路未验证；178正式保存，产品修复尚未写，不授候选实际效果。累计840/777完整60length3最终传输870HTTP30额外；缓存、服务并发、完整Owner成本、净收益null。Owner误用GetActivityType和日志路径各保留失败，均无游戏命令。
+
+
+## 2026-11-15：Owner有界绕行完成软件与841—842
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/684f6b3c9ccace4e90e3b25a98c508f9c2d6bdc9/docs/research/baiqi-source147-bounded-detour-software-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-bounded-owner841842.json)。841审阅未完成补丁，19979+1600tokens、12982.3414ms、TTFT2693.6045，length整份未读拒绝。842真实待完成军队FORTIFY工具，2019+1033tokens、6762.0442ms、TTFT460.2611，单HTTP200stop/DONE/strictJSON；原稿行对象当Hash，没独占预请求ledger或pcall，目的地0误作空，缺arity／human／hotseat／pause／最终queue和binding守卫，0代码采用／Native。原件保留，不重投已接管scope。
+
+Owner为839—840接管的真实堵点锚定半径3图、前4点检测、逐次整路复核，2480软件2479过1SDK跳过、97Lua双编译119包；新的53节点真实几何夹具初先漏goalProposals初始化，负例又错以为单节点阻断全部安全替代，负责人分别修复并保留失败，不把修夹具当产品通过。源码147在证据切点仅软件，不能授实机绕行／建城或模型效果。累计842/778完整61length3最终传输872HTTP30extra，当前0，各新峰1且无交叠；未知缓存/服务并发/完整Owner成本/净收益null。

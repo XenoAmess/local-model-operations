@@ -2023,3 +2023,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：838—840与每日维护分轨
 
 [三任务](https://github.com/XenoAmess/civ6_dev/blob/8f0ca5e26b745f41c597aca854ccd5402e586e57/docs/research/baiqi-source146-route178-model838840-2026-11-15.json)均通过canonical caller复用Nov15同机同用户1.19.5成功每日缓存，新增OpenCode原生工具生成0。三份普通HTTP原代码拒绝，Owner只读游戏诊断不回授候选能力；后续产品修复另记。
+
+
+### 2026-11-15：841—842与Owner147软件分账
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/684f6b3c9ccace4e90e3b25a98c508f9c2d6bdc9/docs/research/baiqi-source147-bounded-detour-software-2026-11-15.json)使用canonical caller和Nov15同机同用户1.19.5成功每日缓存，新增OpenCode原生工具生成0。841length不读取，842原代码拒绝；Owner编测不回授OpenCode或普通候选能力。
