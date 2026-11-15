@@ -565,3 +565,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：按补丁位置验证控制流，按实际路径验证测试
 
 [863／864](https://github.com/XenoAmess/civ6_dev/blob/6d0f65ce5c8664bfe8b2dacad7980eeb1220e3b3/docs/research/baiqi-source152-late-overlap863864-2026-11-15.json)的解释声称把代码移到外围，但exact-anchor替换只改内层嵌套。应在真实公开消费者以旧cache键保持的后来状态复现，不因编译或解释采信控制流。负例可能因缺桥接端口而空过，先使真正正例通过再检查held／queue拒绝。Native阻塞要先核安全、所有权和保护后的UI端口：ActionPanelcivilianCan不是无保护Native资格；先前的敌对单位会使安全门正确拒绝。软件因果与运行期私有状态观察分列，不能靠源码推定已经读到该cache。
+
+
+### 2026-11-15：用移除安全门的负对照审查安全测试
+
+[865／866](https://github.com/XenoAmess/civ6_dev/blob/0ccb270d1f7ab64a00693224bcd7edc8772f2c35/docs/research/baiqi-source152-native208-210-865866-2026-11-15.json)完整负例通过可能只是另一个门拒绝：敌人放在目标格同时触发占格，甚至删除所有Safe仍过。应把敌人放在落点半径内而起点半径外，保持目标空闲，再用真实公开消费者做消失前后同key验证，并以安全门失效时必红证明非空过。原生路径和CanMOVE true不代表双方Safe。冷启动重置私有缓存，首次解叠不能当同进程旧cache的严格AB；软件与Native各保实际范围。

@@ -2103,3 +2103,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：863／864无新增OpenCode原生生成
 
 [证据](https://github.com/XenoAmess/civ6_dev/blob/6d0f65ce5c8664bfe8b2dacad7980eeb1220e3b3/docs/research/baiqi-source152-late-overlap863864-2026-11-15.json)新增2HTTP，0OpenCode原生生成，维护缓存仅为入口资格。Owner2578完整软件与Native151测试玩家城防不追授候选／原生工具能力；152冷实效及性能未在此切点验证。
+
+
+### 2026-11-15：865／866沿用维护缓存，无OpenCode原生生成
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/0ccb270d1f7ab64a00693224bcd7edc8772f2c35/docs/research/baiqi-source152-native208-210-865866-2026-11-15.json)新增2真实HTTP：1length、1完整stop，两原稿均拒。Nov15同机同用户成功OpenCode1.19.5缓存经标准入口复用；新增OpenCode原生生成0。隔离Owner测试与Native普通玩家操作不追授原生生成能力，当前152性能仍未测。
