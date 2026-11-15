@@ -575,3 +575,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：检查调用发生的位置，而不是import和limits
 
 [867／868](https://github.com/XenoAmess/civ6_dev/blob/07cd874cd776eddab683f28e1043095adc5b9447/docs/research/baiqi-source152-performance-preparation867868-2026-11-15.json)说明候选会准确复用构建校验却遗漏前置互斥。应查实际AST调用及先后顺序，在真实准备前检查正式测量空闲、HTTP空闲和保护状态。非法Python模块路径、XML误作JSON应先解析／隔离反例，不执行整个候选；条件分支pass和只在limits宣称校验不能算失败即停。准备与Native性能分别记账；产品升级后旧版通过不自动延续。
+
+
+### 2026-11-15：验证名字存在，也验证谁实际调用它
+
+[869／870](https://github.com/XenoAmess/civ6_dev/blob/cc2500ab37342c22fafef4f6bf3d1981165f20a3/docs/research/baiqi-source152-spike-diagnosis869870-2026-11-15.json)中建造者路线可从Tick直接续跑，单测ProcessBuilder会漏成本。应在实际消费者选点，并保留计时装饰本身影响的界限。假定外部检查、目录排他、marker存在分别不能替代正式互斥、CPU预留和119字节验证。Owner先怀疑函数名／marker并非证据，实际核源码后纠正，不把自己的猜测记成模型错误。

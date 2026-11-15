@@ -7074,3 +7074,8 @@ Owner先保存151六个新正例红案，再以8方法双Lua共16、58相关过1
 [精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/07cd874cd776eddab683f28e1043095adc5b9447/docs/research/baiqi-source152-performance-preparation867868-2026-11-15.json)／[案例](evidence/2026-11-15-civ6-http867868-performance-artifacts.json)。两项真实独立准备任务POST峰值2、重叠11.377067秒；86718375+782tokens／11370.1895ms／TTFT3790.5324，86822901+1717／17552.8782／5705.7630，均一次完整stop／DONE／JSON。867构建器和119ZIP／源与instrumented哈希校验正确，但导入assert_no_model_activity后从未调用、安装及存档也仅构建后检查，limits却声称已做。Owner在预留前补正式空闲／无HTTP／安装／存档预检，部分采用主体，修改后真实准备成功、原稿0执行／0Native。868非法Python包导入语法错误；把实际modinfo XML按JSON解析的独立反例也报错；其他静态缺陷有差异分支pass、无ZIP／目标校验、编译与桥身份只写limits、receipt覆盖。整体拒／0执行，不将未到达缺陷称为真实运行错误。
 
 Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节一致，启用1变更、对照12变更、同计时前缀／实际渲染152桥，启用移除计时装饰后还原Executor原文。此案例切点0安装／采样，后续安装另记，不能用142历史通过或151旧包授152性能。累计868／799完整／66length／3最终传输／899HTTP／30extra，0在途、未知缓存／完整Owner主动成本／净省时null。
+
+
+## 2026-11-15：869／870沿真实消费者选点，未执行的检查不能靠limits代替
+
+[精确证据](https://github.com/XenoAmess/civ6_dev/blob/cc2500ab37342c22fafef4f6bf3d1981165f20a3/docs/research/baiqi-source152-spike-diagnosis869870-2026-11-15.json)两次完整stop／DONE／JSON，实际POST峰值2。869十词法名均真实，采用Tick直接续跑建造者时的分阶段路线／包测点，修正Economy串联和深递归推测；不采Native因果。870Python和marker路径正确，Owner误命名wrong marker字段另更正；仍因无正式／CPU预留／真实安装存档检查、只查ZIP存在整体拒0执行。Owner实际规范构建12scoped子测点、97Lua51／53及119ZIP／精确原Controller前缀，仅诊断不覆盖有效76ms原FAIL。累计870／801完整／66length／3transport／901HTTP／30extra，未知缓存／服务并发／完整Owner主动成本／净省时null。
