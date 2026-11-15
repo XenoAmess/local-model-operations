@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-15",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/32bc63310cc77bb67f3fa2363acd178b75e20254/docs/research/baiqi-source149-native184-march-admiral848849-2026-11-15.json",
+  "models": {
+    "848": {
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 4022,
+        "completion_tokens": 657,
+        "total_tokens": 4679
+      },
+      "total_ms": 5072.2308999393135,
+      "first_nonempty_content_delta_ms": 716.0863000899553,
+      "strict_JSON": true,
+      "raw_code_adopted": 0,
+      "raw_Native": 0,
+      "shared_commit": "4d50edc007533b959631b7110824a72e3a38aa39",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "candidate_compiles": false,
+      "candidate_executed": false,
+      "decision": "Rejected: missing final end in bothLua, context/fullID/owner/solo/alive/queue facts printed without qualification, unbounded Members/occupant/path loops with print-only caps, no pcall and no true unique-neighbor bound"
+    },
+    "849": {
+      "finish_reason": "stop",
+      "sse_done": true,
+      "usage": {
+        "prompt_tokens": 3166,
+        "completion_tokens": 1018,
+        "total_tokens": 4184
+      },
+      "total_ms": 6921.103100059554,
+      "first_nonempty_content_delta_ms": 584.3837999273092,
+      "strict_JSON": true,
+      "raw_code_adopted": 0,
+      "raw_Native": 0,
+      "shared_commit": "4d50edc007533b959631b7110824a72e3a38aa39",
+      "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "candidate_compiles_bothLua": true,
+      "candidate_executed_isolated_only": true,
+      "candidate_baseline_requests": 0,
+      "wrong_path_target": 403,
+      "actual_required_target": 360,
+      "decision": "Rejected: native path queried at origin; nil pending and multiple-nil queue accepted, initial fullID/owner absent, select after final guards and attempt flag with no post-select verification; missing final context/target/path/binding checks"
+    }
+  },
+  "ledger": {
+    "logical": 849,
+    "complete": 783,
+    "length": 63,
+    "final_transport": 3,
+    "HTTP_attempts": 880,
+    "extra_attempts": 30,
+    "inflight": 0,
+    "each_new_task_peak": 1,
+    "new_tasks_overlap": false,
+    "new_OpenCode_native_generation_sessions": 0
+  },
+  "Owner_software": {
+    "dualLua_move_scenarios": 100,
+    "runtimes": [
+      "5.1",
+      "5.3"
+    ],
+    "actual_game_actions_from_tests": 0,
+    "test_scope": "positive exact actor/operation/params, initial context/queue/formation/identity/etc negatives, selection/Can boundary mutations and unknown-writer no-replay; raw849 separately baseline0 due path403",
+    "product_full_suite_repeated": false,
+    "reason": "product149 unchanged; necessary isolated action-adapter checks only"
+  },
+  "Owner_native_admiral": {
+    "turn": 184,
+    "old_id": 3604507,
+    "new_id": 10682433,
+    "original_xy": [
+      7,
+      9
+    ],
+    "original_plot": 403,
+    "both_solo": true,
+    "both_no_pending_no_queue": true,
+    "both_native_SKIP_before": false,
+    "new_actor_appearance_source": "not established; not claimed trained soldier",
+    "six_other_SKIPs_preserved": true,
+    "Owner_readonly": "2 actors x6 unique visible neighbor census; bounded occupants/path prefix, same queried path and can printed independently;0actions",
+    "target": {
+      "plot": 360,
+      "xy": [
+        8,
+        8
+      ],
+      "owner": 0,
+      "water": true,
+      "primary_occupants": 0,
+      "native_path": [
+        403,
+        360
+      ],
+      "native_CAN": true
+    },
+    "TEST_PLAYER_move": {
+      "id": 10682433,
+      "from": [
+        7,
+        9
+      ],
+      "to": [
+        8,
+        8
+      ],
+      "Native_MOVE_hash": 1477390184,
+      "once": 1,
+      "moves_before": 4,
+      "moves_after": 3,
+      "independent_position_and_empty_queue": true,
+      "BG_military_commands": 0,
+      "GP_ability_or_civilian_commands": 0
+    },
+    "after_move_both_native_SKIP": true,
+    "new_SKIPs": [
+      3604507,
+      10682433
+    ],
+    "original184_total_successful_SKIPs": 8,
+    "first_six_replayed": 0,
+    "END184_at_saved_cut": 0
+  },
+  "scope_limits": {
+    "native_builder_yield_and_ordinary_work_afterward": true,
+    "new_settler_forward_progress183184": true,
+    "new_military_GP_player_control_example": true,
+    "military_GP_training_source": null,
+    "arrived_or_founded": false,
+    "149_cold_reload": "NOT_YET",
+    "all_functional_acceptance": false,
+    "old_ARMED_recovery": "FAIL_OPEN"
+  },
+  "unknown": {
+    "cached_tokens": null,
+    "service_concurrency": null,
+    "full_Owner_active_cost": null,
+    "net_time_saving": null,
+    "source149_performance": "UNMEASURED"
+  },
+  "new_OpenCode_native_sessions": 0
+}

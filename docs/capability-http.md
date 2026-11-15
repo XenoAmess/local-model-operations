@@ -6990,3 +6990,10 @@ Owner实现空闲建造者让出非held移民既有原生路线，普通工作�
 [精确项目实机证据](https://github.com/XenoAmess/civ6_dev/blob/ca079d8e0f69085a3951b9fecbdc285afa495de0/docs/research/baiqi-source149-native182-builder-yield-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-owner149-native182.json)。148保护181经149冷读，正式END被世界议会阻塞，TEST_PLAYER原版三张免费投票后实际182；非held新移民10027070在空闲builder9961524自主274→273让位后，四步227228229274317均observed，原堵点确已通过。己方骑手原位／4行动／单编队与旧ARMED保持；182正式新档已核，未授到址／建城、149冷重载、性能或完整验收。
 
 846—847原稿／原测试仍0采用／0rawNative，847错ID输入责任已在上一条纠正。此为Owner实现及实机证据，不回授模型、也不重POST同题洗绿；累计847／781完整／63length／3最终传输／878HTTP／30额外、0在途。Owner未知完整主动成本、缓存和净收益null。
+
+
+## 2026-11-15：848有界只读与849单军令原稿拒绝
+
+[精确项目证据](https://github.com/XenoAmess/civ6_dev/blob/32bc63310cc77bb67f3fa2363acd178b75e20254/docs/research/baiqi-source149-native184-march-admiral848849-2026-11-15.json)／[摘要](evidence/2026-11-15-civ6-player-admiral848849.json)。当前184两海军统帅同格、各solo／无pending空queue而SKIPfalse，分别先发真实未完的只读邻格和TEST_PLAYER单次移动任务。8484022+657tokens／5072.2309ms／TTFT716.0863，8493166+1018／6921.1031ms／584.3838；均1HTTP200stop/DONE/strictJSON，两个POST无重叠，各峰1。848双Lua缺end，0执行；context／身份／队列只打印不资格判断，print-onlycap不限制扫描、漏pcall，0采用／Native。849双Lua编译而原地403误作目标360，真实端口隔离正例0请求；nil pending、多nilqueue、选择后重检、最终target/path/context/binding均缺，0代码采用／0rawNative。
+
+Owner有界2×6原生读明确有Cantrue但path空的邻格，也有403360真两点且空闲水格。100双Lua动作场景后，只由TEST_PLAYER单次移动新统帅10682433，实际4→3／位置8,8，旧7,9不动；两个未尝试SKIP分别成功，先前6次不重发。AI新移民同源149推进到10,11、让路builder恢复一次改良，但全路／建城／冷重载未授；这不回授原稿。累计849／783完整／63length／3最终传输／880HTTP／30额外，当前0，新增OpenCode原生0；未知缓存／服务并发／Owner全主动成本／净收益null。

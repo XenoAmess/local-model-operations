@@ -515,3 +515,8 @@ Owner按正确单flag生成普通136的enabled／control私有119文件配对，
 ### 2026-11-15：原版阶段阻塞、动作返回和实际效果分读
 
 [182实际链](https://github.com/XenoAmess/civ6_dev/blob/ca079d8e0f69085a3951b9fecbdc285afa495de0/docs/research/baiqi-source149-native182-builder-yield-2026-11-15.json)普通END ACK后仍可遇世界议会中间阶段，纯回合读超时保留，独立读实际阻塞并以授权TEST_PLAYER处理，不能把窗口中止当重放END许可。确认页总花费与各票／目标、最终胜出目标分别核；自己投票给A不证明自己的目标胜出，跨回合支持差额也不等于投票成本。让路Native请求／observed、演员实际坐标／队列及保存SHA各自取证；四步通过堵点不等于全路／建城或冷重载。
+
+
+### 2026-11-15：打印cap不是遍历cap；正确API也需正确目标
+
+[848—849](https://github.com/XenoAmess/civ6_dev/blob/32bc63310cc77bb67f3fa2363acd178b75e20254/docs/research/baiqi-source149-native184-march-admiral848849-2026-11-15.json)有界诊断应在循环体真正截断，并对overflow标unknown总量；仅停止打印4／8行不限制Members／pairs／ipairs遍历。完整JSON仍可能Lua缺end；编译通过也可能把原地index当目的地，需真实端口正例断言实际传参及非零请求。选择本身是状态变化边界，不能在选中之前放所谓最终guard后直接发令。纯回合／阻塞读不到EndGameMenu，应另核实际结束画面；原版“再战一回合”与新鲜原版END新一步分别记录，不重发旧unknown或清issued。

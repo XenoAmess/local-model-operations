@@ -2053,3 +2053,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 ### 2026-11-15：Owner149实机不补授OpenCode能力
 
 [来源](https://github.com/XenoAmess/civ6_dev/blob/ca079d8e0f69085a3951b9fecbdc285afa495de0/docs/research/baiqi-source149-native182-builder-yield-2026-11-15.json)0新HTTP／0新OpenCode原生生成；182让路和移民通过属于Owner游戏效果，846—847原候选拒绝不变，既有维护缓存不授生成或Native能力。
+
+
+### 2026-11-15：848—849普通HTTP与维护分轨
+
+[证据](https://github.com/XenoAmess/civ6_dev/blob/32bc63310cc77bb67f3fa2363acd178b75e20254/docs/research/baiqi-source149-native184-march-admiral848849-2026-11-15.json)通过canonical caller每日维护入口复用当日已验证上下文，0新增OpenCode原生生成session；两普通候选的编译／隔离拒绝、Owner100软件及真实玩家军令分别计，不由HTTP或维护授Native生成能力。
