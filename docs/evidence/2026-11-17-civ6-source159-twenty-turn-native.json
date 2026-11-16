@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "new_HTTP": 0,
+  "ledger": {
+    "logical": 925,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 41,
+    "generation_POST": 964,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/17d436546e261dfce6acc2fa0fbdd8ae3484abbb/docs/research/baiqi-source159-fivecity99-119-2026-11-17.json",
+  "Native_scope": {
+    "case": "TC-037",
+    "status": "PASS",
+    "window": {
+      "initial": 99,
+      "closing": 119,
+      "actual_turns": 20,
+      "frames": 21,
+      "city_rows": 120,
+      "city_count": [
+        5,
+        6
+      ],
+      "manual_domestic": 0,
+      "UserForced": 0,
+      "direct_normal_END_requests": 20,
+      "original_WorldCongress_submit_normal_END110": 1,
+      "military_SKIPs": 28,
+      "new_cold_launch": false,
+      "world_reloads_during_window": 0
+    },
+    "completions": {
+      "buildings": 6,
+      "ordinary_districts": 4,
+      "paired_improvements": 24
+    },
+    "finance": {
+      "scope": "Only Executor four transparent bindings; not global all-context zero-write evidence",
+      "capacity": 16384,
+      "samples": 224,
+      "recruit": 107,
+      "city": 23,
+      "unit_op": 93,
+      "unit_cmd": 1,
+      "errors": 0,
+      "drops": 0,
+      "unit_types": {
+        "UNIT_SETTLER": 12,
+        "UNIT_BUILDER": 76,
+        "UNIT_TRADER": 4,
+        "UNIT_GREAT_MERCHANT": 2
+      },
+      "roles": [
+        {
+          "role": "settler",
+          "allowed": false,
+          "count": 11
+        },
+        {
+          "role": "builder",
+          "allowed": true,
+          "count": 18
+        },
+        {
+          "role": "builder",
+          "allowed": false,
+          "count": 10
+        },
+        {
+          "role": "trader",
+          "allowed": false,
+          "count": 2
+        },
+        {
+          "role": "military",
+          "allowed": false,
+          "count": 43
+        },
+        {
+          "role": "archaeologist",
+          "allowed": false,
+          "count": 2
+        },
+        {
+          "role": "military",
+          "allowed": true,
+          "count": 5
+        },
+        {
+          "role": "settler",
+          "allowed": true,
+          "count": 12
+        },
+        {
+          "role": "trader",
+          "allowed": true,
+          "count": 4
+        }
+      ],
+      "all_write_parameters_exported": 117,
+      "parameter_scalars": 268,
+      "common_financial_gate_violations": 0,
+      "captured_nonsettler_predicate_mismatches": 0,
+      "settler_capture_limit": {
+        "rows": 23,
+        "missing_fields": [
+          "hasSafeSite",
+          "retainedSettlers"
+        ],
+        "cannot_recompute_complete_settler_predicate": true
+      }
+    },
+    "save": {
+      "utc": "2026-11-16T19:34:10.080253+00:00",
+      "name": "Baiqi_P6_20261117_V159_NormalWindowComplete119.Civ6Save",
+      "bytes": 1346995,
+      "sha256": "90e4d608ea5ddad6ddc09fac5b4a56d0283ae3a753513ff33b4b67f1849c8555",
+      "stable_repeated_read": true
+    },
+    "restore": {
+      "original_bindings_verified": 4,
+      "all_recruit_and_write_records_exported_before_archive_clear": true,
+      "QA_names_cleared": 53,
+      "contexts": 5,
+      "finance_archive_export_token_cleared": true
+    },
+    "exit": {
+      "official_exit_once": true,
+      "owned_residue_wait_before_cleanup_seconds": 190.819176,
+      "utc": "2026-11-16T19:37:41.709106+00:00",
+      "exit_code": 15,
+      "terminate_count": 1,
+      "kill_escalations": 0,
+      "natural_exit_claimed": false
+    }
+  },
+  "lessons": [
+    "A continuous 20turn functional window can resume after a terminal driver failure using fresh real state and distinct labels; preserve old HALTED states and never replay an unknown END.",
+    "The actual original world-congress submit callback includes a normal END. Count it separately from direct END inputs; the winning targets may differ from player votes.",
+    "All-known exported fields only cover the enumerated schema. Here23settler decisions omit hasSafeSite/retainedSettlers used by the real consumer; do not claim full predicate recomputation. Financial gates and captured non-settler roles were separately checked.",
+    "Pair visible NONE->improvement state changes with actual background logs and Native parameter tuples. Newly visible improved land is not automatically work completed in the window.",
+    "Restore observer bindings before exporting detached samples; preserve Native nil/unknown return fields and explicit binding identities, then clear archive only after every required export.",
+    "A stable official saved file is not a successful reload. TC037 passing one actual scene does not grant whole40/currentperformance or oldARMEDrecovery."
+  ],
+  "OpenCode_daily": "Nov17 successful1.19.5 same-machine/user canonical maintenance cache retained;0newnative-generation. Native effects and Owner12dualLuaexport tests do not establish OpenCode code-generation ability.",
+  "full_mod_acceptance": "OPEN",
+  "old_8650807": "FAIL_UNRESOLVED",
+  "current159_performance": "NOT_RUN;157FAILand158ABORTEDpreserved",
+  "unknown": {
+    "cache_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}

@@ -2225,3 +2225,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[159Native91](evidence/2026-11-17-civ6-source159-native-legacy91.json)。本Native复测无原生模型生成，累计0；维护与HTTP/Owner软件/游戏实际结果继续分账。
 
 2026-11-17：[925与有限40条核对](evidence/2026-11-17-civ6-http925-finite40-audit.json)。保留本地11月17日同机同用户1.19.5成功维护缓存；new原生工具生成0。HTTP404、文档验证和旧Native证据均不提升OpenCode原生生成能力；未知成本维持null。
+
+2026-11-17：[159二十回合限定实证](evidence/2026-11-17-civ6-source159-twenty-turn-native.json)。Nov17共享成功维护1.19.5缓存保持；新原生生成0。真实游戏通过、12项Owner双Lua工具验证和HTTP记录继续分账。
