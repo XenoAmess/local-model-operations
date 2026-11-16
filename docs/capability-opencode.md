@@ -2215,3 +2215,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[921引擎寄存器差异与每日维护](evidence/2026-11-17-civ6-http921-game-register-scope.json)。本地Nov17首次模型使用前共享维护实际执行OPENCODE_DAILY_CHECK：installed／registry latest均1.19.5、updated false。维护成功后才POST；原生代码生成仍0，维护网络／CPU成本未知，不能当生成授权。
 
 2026-11-17：[922与真实Native](evidence/2026-11-17-civ6-http922-native-scoped-routes.json)。复用Nov17同机同用户成功每日维护缓存；本包新增原生生成0，累计0。
+
+2026-11-17：[158与923](evidence/2026-11-17-civ6-source158-http923-bounded-routes.json)。Nov17成功每日维护缓存复用；本包／累计原生生成均0，软件成果来自Owner。

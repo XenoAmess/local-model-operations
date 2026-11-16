@@ -7176,3 +7176,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[921引擎寄存器差异与每日维护](evidence/2026-11-17-civ6-http921-game-register-scope.json)。921真实编译器修复11来源／634016字节，一次POST HTTP404／47.9762ms，0候选采用。Stock此前56过但实际游戏私有包寄存器失败0END；Owner隔离QA帧后200→185、17软件方法过，未新Native。累计921／816完整／68length／37最终失败／960生成POST／38额外／0在途，provider metadataGET2/TCP1另计。
 
 2026-11-17：[922与真实Native](evidence/2026-11-17-civ6-http922-native-scoped-routes.json)。922一次404／23.272ms，0候选采用；累计922/816完整/68length/38最终失败/961生成POST/38额外。新Native114根532行证实QA作用域可加载，不授性能或整Mod通过。
+
+2026-11-17：[158与923](evidence/2026-11-17-civ6-source158-http923-bounded-routes.json)。923新40例审计8来源555275字节，一次404／28.2294ms，0候选采用，审计仍未完成。Owner接管922产品任务后首套4失败，其中1实际reason字符串／continuation回归，修后完整2727pass/1SDKskip、119/97双编译，Native未授。累计923/816完整/68length/39最终失败/962生成POST/38额外。
