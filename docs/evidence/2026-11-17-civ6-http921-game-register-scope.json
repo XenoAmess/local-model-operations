@@ -1,0 +1,141 @@
+{
+  "local_date": "2026-11-17",
+  "timezone": "Asia/Shanghai",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "model921": {
+    "sources": 11,
+    "source_bytes": 634016,
+    "actual_POST": "2026-11-16T16:09:12.152097+00:00",
+    "actual_END": "2026-11-16T16:09:12.200318+00:00",
+    "http_status": 404,
+    "total_ms": 47.97620000317693,
+    "candidate_count": 0,
+    "adoption": 0,
+    "generation_POST": 1,
+    "extra_POST": 0,
+    "request_killed": false,
+    "stop_marker": "Written after actualPOST only; currentrequest ended naturally, no explanationof404.",
+    "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "new_local_day_maintenance": {
+      "event": "OPENCODE_DAILY_CHECK",
+      "date": "2026-11-17",
+      "installed_version": "1.19.5",
+      "registry_latest": "1.19.5",
+      "updated": false
+    },
+    "phases": [
+      {
+        "utc": "2026-11-16T16:08:59.930668+00:00",
+        "local_date": "2026-11-17",
+        "phase": "PREP_BEGIN",
+        "limits": "Earlier diagnosis/cleanup/source reasoning exists. FullOwner activecost/net savings unknown. First new localday modeluse must canonical client maintenance; do not bypass75."
+      },
+      {
+        "utc": "2026-11-16T16:08:59.933230+00:00",
+        "phase": "PREP_END",
+        "sources": 11,
+        "bytes": 634016
+      }
+    ],
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "ledger_through921": {
+    "logical": 921,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 37,
+    "generation_POST": 960,
+    "extra_POST": 38,
+    "inflight": 0,
+    "provider_metadata_GET_separate": 2,
+    "provider_TCP_separate": 1,
+    "OpenCode_native_generation": 0,
+    "OpenCode_daily_check_this_package": 1,
+    "maintenance_network_and_CPU_cost": null
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/7bd8bc77c88d497d02a7132623726735c7adcf5f/docs/research/baiqi-source157-game-register-limit-http921-2026-11-17.json",
+  "Native_failure": {
+    "first_private_archive_sha256": "2c0f1fef802549327707bd2a0e97a1ed58b09545f01ab3ed00a251363e9f182e",
+    "stage": "InitialLOAD beforewarmup/formal/END",
+    "game_error": "BaiqiController.lua5306 function/expression requires too many registers (too complex) nearProcessSettler; Executor20 nil follows.",
+    "stock_compile_did_pass": true,
+    "game_compile": "FAIL",
+    "qa_bindings_executed": 0,
+    "formal_admission": false,
+    "END": 0,
+    "samples": 0,
+    "readonly_confirmed_fields": "Turn85/10cities/P6ControllerNestednil/P6Controller157IDrivernil",
+    "cleanup": {
+      "utc": "2026-11-16T16:10:55.874765+00:00",
+      "exit_code": 15,
+      "terminate_count": 1,
+      "kill_escalations": 0,
+      "natural_exit_claimed": false
+    },
+    "new_save": false,
+    "retire_claim": false,
+    "limits": "Whole failed chunk did not execute. Protected original85 retained; no currentperformance evidence or productfailure inferred."
+  },
+  "repair": {
+    "scope": "found_native_timing True v6 only",
+    "method": "Diagnostic owner initialized in an immediately invoked function, captures same outer12child+4proxy lexical cells; leading semicolon separates the product tailcall. Existing alias assignment/restoration/call timing remains; defaultFalse bytes untouched.",
+    "measured_stock_registers": {
+      "source_version": 157,
+      "ordinary_stock_main_registers": 181,
+      "failed_private_stock_main_registers": 200,
+      "new_private_stock_main_registers": 185,
+      "new_archive_sha256": "8d9076155c885691c7689730656aac51b718d5599afe0a9ec0015f968a713d72",
+      "game_register_limit": null,
+      "new_Native": "NOT_RUN",
+      "limits": "StockLua51 binary mainprototype maxstacksize only; no inferred exactCiv6 limit or NativePASS. Failed immutable package retained."
+    },
+    "exact_game_limit": null,
+    "hotwork_outside_frozen_planning_boundary": false
+  },
+  "software": {
+    "new_methods": 2,
+    "old_scope_expected_failures": 1,
+    "postrepair_methods": 17,
+    "postrepair_passed": 17,
+    "postrepair_seconds": 5.271,
+    "scope_all16cells_and_tailcall_bothLua": true,
+    "original14consumer_andartifact_methods_rechecked": true,
+    "legacy28_default_suffix_check_rechecked": true,
+    "current157eight_default_combo_check_rechecked": true,
+    "files": 119,
+    "lua51_and_lua53_compiled": 97,
+    "full_suite_rerun": false,
+    "earlier56pass": "Retained as earlier stock software evidence; failedNative occurred afterwards, do not call prior56 a gamecompiler guarantee."
+  },
+  "lessons": [
+    "Stock Lua51/53 fullpackage compilation didnotguarantee target-game compiler acceptance. Preserve actualzeroENDinitialloadfailure instead of claimingNativepreparationpass.",
+    "Plain do block retains the surrounding product locals on the same register frame. Isolate diagnostic ownership initialization in a nested invocation while capturing the same lexical cells, preserving runtime alias identity/restore and measuredcallboundaries.",
+    "Leading semicolon matters after a product tailcall before an immediately invoked function. Check all16outercells and originalpcall/nil/errors inbothLua runtimes.",
+    "Stockmainregister181/200/185 demonstrates reduction, not exactCiv6limit or Nativefix untilfreshcoldload.",
+    "Wait for actualLSQterminal before dependentquery; two connect refusals beforeCMD and teardownEscape do not constitute successfulmodload or gameactionreplay. Preserve Owner sequencingerror."
+  ],
+  "OpenCode_mode_separate": {
+    "daily_check": {
+      "event": "OPENCODE_DAILY_CHECK",
+      "date": "2026-11-17",
+      "installed_version": "1.19.5",
+      "registry_latest": "1.19.5",
+      "updated": false
+    },
+    "native_generation_this_package": 0,
+    "native_generation_cumulative": 0,
+    "maintenance_network_CPU_cost": null
+  },
+  "new_Native": "NOT_RUN",
+  "full_mod_acceptance": "OPEN",
+  "old8650807": "FAIL_UNRESOLVED",
+  "unknown": {
+    "backend_cause": null,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}
