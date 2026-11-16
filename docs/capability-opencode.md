@@ -2155,3 +2155,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[Civ6155独立规划实测](evidence/2026-11-16-civ6-source155-native-planning.json)。本次Native验收无模型HTTP、无OpenCode原生生成；Nov16维护缓存成功1.19.5不代表生成候选能力。
 
 2026-11-16：[Civ6155全脚本实采](evidence/2026-11-16-civ6-source155-native-fullscript.json)。全脚本验收没有OpenCode原生生成或新HTTP；每日维护缓存1.19.5不授生成能力。24条写入导出行不等于真实提交数，部分91桶不纳正式完整回合。
+
+2026-11-16：[Civ6 898验收盘点传输失败](evidence/2026-11-16-civ6-http898-acceptance-gap-map.json)。Nov16同机维护1.19.5成功缓存复用，原生生成0；898普通HTTP故障不授原生能力。完整Mod目标继续，不因第一组性能配对完成停止。
