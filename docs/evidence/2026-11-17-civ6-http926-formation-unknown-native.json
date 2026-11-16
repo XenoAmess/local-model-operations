@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "task926": {
+    "sources": 11,
+    "source_bytes": 336638,
+    "POST": 1,
+    "http_status": 404,
+    "total_ms": 32.255300087854266,
+    "complete_candidate": false,
+    "adopted": false,
+    "extra_POST": 0,
+    "terminal_exit": 1,
+    "current_request_killed": false,
+    "Owner_choice": "No extra pre-arm RunNow/Update gate implemented. Reused existing tested stage75 fault, independently qualified actual76 before counting window.",
+    "OpenCode": "Nov17 successful1.19.5 maintenance cache reused; native-generation0"
+  },
+  "ledger": {
+    "logical": 926,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 42,
+    "generation_POST": 965,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/70b92aff5d2d0334c50fd4f7ffa8c165649735e4/docs/research/baiqi-source159-formation-unknown76-http926-2026-11-17.json",
+  "Native_subcase": {
+    "status": "PASS",
+    "qualified76": {
+      "before": {
+        "id": 3735581,
+        "x": 16,
+        "y": 14,
+        "moves": 4.0,
+        "spread_charges": 2,
+        "formation_count": 1,
+        "ready_move": true,
+        "ready_select": true,
+        "native_pending": false,
+        "queued_destination": null,
+        "unit_religion": 1,
+        "created_religion": 1,
+        "city_majority": -1,
+        "native_can_spread": true,
+        "journal_stage": "OBSERVED",
+        "journal_token": "religion:0:1",
+        "journal_prior_charges": 3,
+        "own_domestic_target_legal": true
+      },
+      "after": {
+        "id": 3735581,
+        "x": 16,
+        "y": 14,
+        "moves": 4.0,
+        "spread_charges": 2,
+        "formation_count": 1,
+        "ready_move": true,
+        "ready_select": true,
+        "native_pending": false,
+        "queued_destination": null,
+        "unit_religion": 1,
+        "created_religion": 1,
+        "city_majority": -1,
+        "native_can_spread": true,
+        "journal_stage": "OBSERVED",
+        "journal_token": "religion:0:1",
+        "journal_prior_charges": 3,
+        "own_domestic_target_legal": true
+      },
+      "mask_count": [
+        17,
+        19
+      ],
+      "natural_Update_count": [
+        33,
+        55
+      ],
+      "target_SDK_operations": 0,
+      "target_SDK_commands": 0,
+      "identity_errors": 0,
+      "drops": 0,
+      "all_three_observer_bindings_owned": true,
+      "counter_delta_rule": "Staging calls atheld75 do not qualify. Actual76 fresh Native legal spread and unchanged eligible actor +2masked snapshots/+22naturalUpdates define the observed fault window."
+    },
+    "fault_retire_boundary": {
+      "mask_count": 31,
+      "expired": false,
+      "actual_return": "restored",
+      "fresh_ready_premise_rechecked": true
+    },
+    "unmasked_positive": {
+      "actual_turn": 76,
+      "actor": {
+        "id": 3735581,
+        "x": 16,
+        "y": 14,
+        "moves": 0.0,
+        "spread_charges": 1,
+        "formation_count": 1,
+        "ready_move": false,
+        "ready_select": false,
+        "native_pending": false,
+        "queued_destination": null,
+        "unit_religion": 1,
+        "created_religion": 1,
+        "city_majority": -1,
+        "native_can_spread": false,
+        "journal_stage": "OBSERVED",
+        "journal_token": "religion:0:2",
+        "journal_prior_charges": 2,
+        "own_domestic_target_legal": true
+      },
+      "Native_spread_hash": 1592408602,
+      "target_requests": 1,
+      "target_commands": 0,
+      "manual_spread": 0,
+      "effect_scope": "Actual SDK spread attempt + charges2->1/moves4->0 + new OBSERVED religion:0:2 priorcharges2; does not establish city conversion or all religion branches."
+    },
+    "restoration": {
+      "UnitSnapshot_original_restored": true,
+      "three_observer_bindings_restored": true,
+      "diagnostic_globals_cleared": true,
+      "player_QA_markers_cleared_before_save": true
+    },
+    "save": {
+      "utc": "2026-11-16T20:22:48.000952+00:00",
+      "name": "Baiqi_P6_20261117_V159_FormationUnknownCompare76.Civ6Save",
+      "bytes": 485022,
+      "sha256": "abdc227e419fed5c07cac792a671fec601ad0fc915fe1068ac020e31175fc92c",
+      "stable_repeated_read": true
+    }
+  },
+  "lessons": [
+    "Fault staging during an ineligible held turn is not positive evidence. Independently qualify the real next-turn actor/native legality and count only the explicit natural-update window.",
+    "The real formation getter still ran; a copied snapshot field was nil. Distinguish injected unknown snapshot data from an actual unavailable engine getter.",
+    "Use a tested deferred fault interface before adding more callback wrappers. Proposed pre-RunNow/Update arming work was not adopted after HTTP404; staged75+qualified76 produced a finite controlled comparison.",
+    "Retire the fault before its64mask limit expires, verify unchanged fresh eligible state/owned bindings, then require a same-turn unmasked native request plus independent charge/journal change.",
+    "Mock filesystem mutation in every dry-render branch. Here query mocking alone let validation write a real exclusive intent; preserve that artifact and use a distinct known-safe live label, never erase it for retry.",
+    "A formation unknown subcase does not prove real religious escort support, owner/legality missing branches, city conversion, save reload or full test cases."
+  ],
+  "OpenCode_daily": "Nov17same-machine/user successful1.19.5 canonical cache retained,0native-generation. HTTP and Native evidence remain separate.",
+  "whole_mod": "OPEN",
+  "old_8650807": "FAIL_UNRESOLVED",
+  "unknown": {
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}
