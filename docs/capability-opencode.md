@@ -2183,3 +2183,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[155MANY有效FAIL／908](evidence/2026-11-16-civ6-source155-many-fail-http908.json)。无新增原生工具生成，本日同机同用户1.19.5成功维护缓存保持；155NativeFAIL与Owner156修改不算模型生成能力。
 
 2026-11-16：[909终态与Owner修正](evidence/2026-11-16-civ6-http909-source156-registration.json)。本日同机同用户1.19.5成功维护缓存保持；909 HTTP超时、Owner软件修正与Native155失败均不授OpenCode原生生成能力，累计0。
+
+2026-11-16：[910与models元数据新证据](evidence/2026-11-16-civ6-http910-provider404-models200.json)。当日同机同用户1.19.5维护缓存复用；HTTP404／metadataGET200不授OpenCode工具生成能力，原生生成0。

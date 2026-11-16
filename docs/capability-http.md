@@ -7144,3 +7144,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[155MANY有效FAIL／908](evidence/2026-11-16-civ6-source155-many-fail-http908.json)。155MANY五组25段有效FAIL：中位绝对115.999937ms≤500，但比例15.760860%>10；全原值保持。908真实执行器诊断1POST180s无响应头0候选，Owner接管，156软件局部过不授Native。历史cut908=908／816完整／68length／24最终传输／947POST／38额外；后续909独立真实QA任务正在途，不能把cut0当当前0。
 
 2026-11-16：[909终态与Owner修正](evidence/2026-11-16-civ6-http909-source156-registration.json)。909真实QA版本接入：1POST180032.292ms无响应头、0候选；Owner接管，第二轮软件检查在途，Native156待测。累计909／816完整／68length／25最终传输／948生成POST／38额外／0在途。
+
+2026-11-16：[910与models元数据新证据](evidence/2026-11-16-civ6-http910-provider404-models200.json)。910真实20回合适配审阅1POST47.953秒返回provider404，0候选；其后1metadataGET200列出1模型但未列配置模型，根因仍未知。累计910／816完整／68length／26最终请求失败（本次HTTP404）／949生成POST／38额外／0在途。Owner156软件2676过／1SDK跳过，MANY自然资格Native过，不授性能或完整Mod。
