@@ -1,0 +1,192 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate_and_owner_native_validation",
+  "task931": {
+    "task": "Real unfinished request-not-forwarded fault before Owner implementation",
+    "sources": 11,
+    "source_bytes": 407669,
+    "POST": 1,
+    "http_status": 404,
+    "total_ms": 45.438800007104874,
+    "complete_candidate": false,
+    "adopted": false,
+    "extra_POST": 0,
+    "terminal_exit": 1,
+    "current_request_killed": false,
+    "stop_file": "No flag because fast natural terminal between polls; actual EVENTS1POST/no retry."
+  },
+  "ledger": {
+    "logical": 931,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 47,
+    "generation_POST": 970,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/8af2dcde07aaae4ba68ce42bd3a3ff13d373d9d2/docs/research/baiqi-source160-unknown-reasons-native76-http931-2026-11-17.json",
+  "Native_reason_subcases": {
+    "common_fresh_actor76": {
+      "owner": 0,
+      "id": 3735581,
+      "unitType": "UNIT_MISSIONARY",
+      "position": [
+        16,
+        14
+      ],
+      "moves": 4,
+      "charges": 2,
+      "actual_formation": 1,
+      "ready_move": true,
+      "ready_select": true,
+      "native_pending": false,
+      "UI_queued_destination": null,
+      "religion": 1,
+      "own_created_religion": 1,
+      "own_city": 65536,
+      "city_majority": -1,
+      "native_can_spread": true,
+      "old_journal": [
+        "OBSERVED",
+        "religion:0:1",
+        3
+      ]
+    },
+    "formation_phase": {
+      "fault": "Copy only the real Controller snapshot formationCount=nil; actual engine getter still executes",
+      "counter": [
+        14,
+        16
+      ],
+      "natural_Controller_Update": [
+        25,
+        48
+      ],
+      "target_SDK_operations": 0,
+      "target_SDK_commands": 0,
+      "errors_drops": 0,
+      "three_SDK_observer_bindings_owned": true,
+      "actor_unchanged": true,
+      "actual_turn76_reason_count": 1,
+      "actual_reason": "BaiqiExecutor: BAIQI|wait|turn=76|key=civilian-eligibility:3735581|reason=文职处于护送编队或编队信息不明，等待可确认的独立状态",
+      "retired_mask_count": 20,
+      "retired_before64": true
+    },
+    "phase_switch": {
+      "method": "In one owned UI Lua command restore exact original UnitSnapshot and retire/clear its fault, then install and arm the independent copied policy-input owner=nil fault. No game writer or Controller.Update is called by the switch.",
+      "overlapping_active_blockers": false,
+      "fault_rearm": false,
+      "independent_owner_phase_proof": "After original snapshot restoration, natural owner-fault counter grows while exact fresh Native legal actor remains unchanged and zero target requests."
+    },
+    "owner_phase": {
+      "fault": "Real UnitSnapshot/getters run normally; only copied input to the actual policy has owner=nil",
+      "counter": [
+        2,
+        5
+      ],
+      "natural_Controller_Update": [
+        53,
+        56
+      ],
+      "target_SDK_operations": 0,
+      "target_SDK_commands": 0,
+      "errors_drops": 0,
+      "three_SDK_observer_bindings_owned": true,
+      "actor_unchanged": true,
+      "actual_turn76_reason_count": 1,
+      "actual_reason": "BaiqiExecutor: BAIQI|wait|turn=76|key=civilian-eligibility:3735581|reason=文职所有权变更或无法确认，等待可核验的己方单位状态",
+      "retired_mask_count": 9,
+      "retired_before64": true
+    },
+    "native_log_audit": {
+      "utc": "2026-11-16T22:06:13.298125+00:00",
+      "source_version": 160,
+      "actual_turn": 76,
+      "same_log_prefix_verified": true,
+      "Native_queries": 0,
+      "formation_reason_count": 1,
+      "owner_reason_count": 1,
+      "actual_lines": [
+        "BaiqiExecutor: BAIQI|wait|turn=76|key=civilian-eligibility:3735581|reason=文职处于护送编队或编队信息不明，等待可确认的独立状态",
+        "BaiqiExecutor: BAIQI|wait|turn=76|key=civilian-eligibility:3735581|reason=文职所有权变更或无法确认，等待可核验的己方单位状态"
+      ],
+      "phase_order_indices": {
+        "formation_reason": 322,
+        "formation_retired_owner_armed": 341,
+        "owner_reason": 342,
+        "owner_retired": 367
+      },
+      "target_background_requests": [
+        "BaiqiExecutor: BAIQI|request|turn=76|id=0:76:15|source=BACKGROUND|unit=3735581|operation=SPREAD_RELIGION|city=65536|charges=2"
+      ],
+      "request_after_both_restorations": true,
+      "log_sha256": "e3705b0a0a36648f421ffbf6f03efb925eaf4d4bd34cd1b5d1ffb8dbf31c5ba7",
+      "log_bytes": 26227,
+      "interpretation": "Each independently held unknown-input phase produced exactly one current-turn reason across its natural update window. Only the subsequent restored phase submitted one spread. No duplicate reason or request was deleted/filtered from these target/current-turn matches."
+    },
+    "unmasked_positive": {
+      "actual_turn": 76,
+      "SDK_BACKGROUND_spread_hash": 1592408602,
+      "requests": 1,
+      "requestID": "0:76:15",
+      "charges": [
+        2,
+        1
+      ],
+      "moves": [
+        4,
+        0
+      ],
+      "new_journal": [
+        "OBSERVED",
+        "religion:0:2",
+        2
+      ],
+      "manual_spread": 0,
+      "scope": "Actual request, charge cost and independent observed journal change, not proof of whole-city conversion"
+    },
+    "cleanup": {
+      "original_UnitSnapshot_restored": true,
+      "original_policy_binding_restored": true,
+      "three_SDK_observer_bindings_restored": true,
+      "all_diagnostic_globals_cleared": true,
+      "ActionPanel_QA_markers_cleared": true
+    },
+    "save": {
+      "utc": "2026-11-16T22:08:00.008843+00:00",
+      "name": "Baiqi_P6_20261117_V160_UnknownReasonCompare76.Civ6Save",
+      "bytes": 485016,
+      "sha256": "8abb0efed89d1e240c6ee069d3c1a0b0f13f72b3fa0b8f2eb5201d0a92311973",
+      "stable_repeated_read": true
+    }
+  },
+  "diagnostic_extension": {
+    "public_source": "https://github.com/XenoAmess/civ6_dev/blob/0dd91e2904b86392c822dfa0ce8d26f22333f4ee/tools/lua/diagnostic_unforwarded_operation.lua",
+    "tests": 7,
+    "VM_executions": 13,
+    "Native_at_extension_publication": "NOT_RUN",
+    "readonly_capture": "Bounded optional512byte string, capture errors counted and target remains blocked; other args/returns/errors preserved."
+  },
+  "lessons": [
+    "Stage a read fault while a spent actor is held only as setup, then qualify the actual next-turn fresh legal actor before assigning refusal PASS.",
+    "Restore the first exact original consumer before installing the independent second copied-input fault in one Lua command. Capture separate counters, natural updates, identical actor state and same-turn reasons.",
+    "A same-turn log audit can show each exceptional reason once while both fault windows submit zero requests; only the restored phase may independently demonstrate a real charge decrease.",
+    "Never report an intentionally intercepted SDK call as an engine rejection or acknowledgement. Observe SDK attempted, intercepted, Native forwarded, persistent unknown and independent state separately.",
+    "Restore an owned outer observer before retiring an inner request blocker; otherwise foreign-binding protection must refuse the retirement. Replace with a fresh passive observer over the actual original when measuring post-restore retries.",
+    "AST validation should select only the intended string-composition nodes; do not evaluate similarly named subprocess result assignments or execute a driver to render Lua."
+  ],
+  "OpenCode_daily": "Nov17same-machine/user canonical successful1.19.5cache retained; native-generation0. HTTP404 no candidate or adoption, Owner tests and Native evidence do not grant model code capability.",
+  "whole_mod": "OPEN",
+  "old_8650807": "FAIL_UNRESOLVED",
+  "current160_performance": "NOT_RUN",
+  "unknown": {
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}

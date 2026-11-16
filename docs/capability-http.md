@@ -7200,3 +7200,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[930、Core资格事件与原因缺口](evidence/2026-11-17-civ6-http930-core-event-and-reason-gap.json)。930新产品未知原因提示修复候选，15来源440854字节，单POST404／32.9323ms、自然终态1、0候选／采用／extra。Owner实机确认原版Core资格回调三参数且opIndex；FOUND true与SKIP false均触发，不能当接受／完成回执。日志审计发现owner／formation未知76缺理由，继续修复。累计930／816完整／68length／46最终请求失败／969POST／38extra／0在途。
 
 2026-11-17：[160未知原因软件修复](evidence/2026-11-17-civ6-source160-bounded-unknown-reasons-software.json)。无新增HTTP；930原404后Owner完成160未知所有者／编队原因提示修复。新7项通过，完整2748先2733过／14陈旧QA未来版本断言失败／1SDK跳过；产品未改后修正拒绝边界161，相关91项重检过，未冒称第二次全绿。119文件／97Lua双编译，Native复测另案。累计930／816／68／46失败／969POST／38extra保持。
+
+2026-11-17：[931与160实机未知原因](evidence/2026-11-17-civ6-http931-source160-native-reasons.json)。931真实请求未转发候选，11来源407669字节，单POST404／45.4388ms、自然终态1、0候选／采用／extra。Source160实机76编队／所有者独立未知窗口各0请求、理由各1次；全部恢复后一次自然传播2→1并OBSERVED，新保护档485016字节。新未转发工具后加有界只读捕获，7方法13VM通过，Native另案。累计931／816完整／68length／47最终请求失败／970POST／38extra／0在途。
