@@ -2165,3 +2165,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[Civ6 901编队未知状态候选超时](evidence/2026-11-16-civ6-http901-formation-unknown.json)。Nov16同机同用户1.19.5成功每日维护缓存复用，OpenCode原生生成仍0；901普通HTTP180s故障不授原生生成能力。当前155原85五组配对已PASS，但压力／功能仍未完成，继续验收。
 
 2026-11-16：[Owner私有诊断与155压力资格](evidence/2026-11-16-civ6-owner-diagnostics-and-pressure155.json)。本包0新模型调用，Nov16维护缓存及原生生成0保持；Owner软件检查与Native资格不能转授OpenCode生成能力。
+
+2026-11-16：[Civ6902日历适配传输失败与独立实证](evidence/2026-11-16-civ6-http902-many-calendar.json)。Nov16同机每日维护1.19.5成功缓存保持，原生生成仍0；902属于普通HTTP故障，Owner实际验收与软件不能转授原生生成能力。
