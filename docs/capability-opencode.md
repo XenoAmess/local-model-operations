@@ -2159,3 +2159,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[Civ6 898验收盘点传输失败](evidence/2026-11-16-civ6-http898-acceptance-gap-map.json)。Nov16同机维护1.19.5成功缓存复用，原生生成0；898普通HTTP故障不授原生能力。完整Mod目标继续，不因第一组性能配对完成停止。
 
 2026-11-16：[Civ6 899与独立替代](evidence/2026-11-16-civ6-http899-explicit-paired-replacement.json)。Nov16同机每日维护1.19.5缓存成功复用，原生生成0。899普通HTTP传输故障不授原生工具能力；Owner的保存分号及菜单私有状态适配错误分开记录，不归为模型或产品失败。
+
+2026-11-16：[Civ6 900与155资格工具](evidence/2026-11-16-civ6-http900-census155-tool.json)。Nov16维护1.19.5成功缓存复用，原生生成0。900普通HTTP不授原生能力；Owner并行QA提交令下一侧安装前clean-worktree拒绝，0安装／启动，纠正并从未执行阶段继续，未重放游戏动作。

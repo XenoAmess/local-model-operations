@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/121ae7d5f7a1f8e05c318740b2f1e2407a647001/docs/research/baiqi-source155-census-tool-2026-11-16.json",
+  "task": {
+    "task": "civ6-900-census-source155",
+    "actual_sources_and_consumers_supplied_before_owner_edit": true,
+    "status_at_publication": "Already terminal before software commit; initial IN_FLIGHT entry was stale and is corrected here.",
+    "adopted": false,
+    "Owner_independent_implementation_after_repeated_service_faults": true,
+    "raw_candidate_executed": false,
+    "final_status": "TRANSPORT_TIMEOUT",
+    "POST_attempts": 1,
+    "total_ms": 180019.9411001522,
+    "response_headers": 0,
+    "finish_reason": null,
+    "SSE_DONE": false
+  },
+  "ledger_through_900": {
+    "logical": 900,
+    "complete": 816,
+    "length": 68,
+    "final_transport": 16,
+    "HTTP_attempts": 939,
+    "extra_attempts": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "Owner_software": {
+    "new_methods": 8,
+    "old_tool": "14 errors across7 methods/subcases; legacy fingerprint control passed; raw kept.",
+    "related_methods": 23,
+    "seconds": 3.475,
+    "legacy_default_full_transform_on_same_actual_source_unchanged": true,
+    "legacy_prefix_and_EDITS_hashes": {
+      "legacy_prefix_sha256": "db89de7172e7723f792b87c0d47c02bb4611dd67c336410db639f4a6899fb52c",
+      "legacy_default_transform_sha256": "5da88c748950c4f19b3a707b477e1cc1f312ad53f1a20220aa84e5c532627703",
+      "EDITS_repr_sha256": "e4bf739447425b7c7b3486d74c1db168e87fc606138c3aa8cae4180dcbfe254f"
+    },
+    "actual_consumers": "Same sliced search, fresh recruitment writer, safety and original read counts; Source155 observer executed in software.",
+    "full_product_suite": "Prior2648/2647pass/1SDKskip product baseline unchanged; no claim of full suite rerun after this QA-only change."
+  },
+  "archive_sha256": "5e1cd5c45e9874b1125a81ec9b53d093996eeaeb71662b1a331099670ed3c67b",
+  "Native_pressure_status": "UNVERIFIED",
+  "publication_correction": "Owner read terminal only after software push. POST began02:23:53UTC and180s timeout ended before02:26:58UTC commit; initial pending wording was stale, no candidate or game effect credited.",
+  "owner_orchestration_error": {
+    "stage": "pair155-4-control install",
+    "failure_before_mutation": "Traceback (most recent call last):\n  File \"C:\\workspace\\civ6_dev\\.local-model\\pair155_lifecycle_owner.py\", line 73, in <module>\n    {'install':do_install,'launch':do_launch,'begin':do_begin,'finish':do_finish}[mode](pair,variant)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\workspace\\civ6_dev\\.local-model\\pair155_lifecycle_owner.py\", line 35, in do_install\n    base.check_formal_idle();base.check_no_game_running();head=base.check_git_state();saves();d=artifact(variant)\n                                                               ~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\workspace\\civ6_dev\\.local-model\\ordinary142_main334_launch_owner.py\", line 44, in check_git_state\n    raise RuntimeError(f\"Git working tree not clean: {status}\")\nRuntimeError: Git working tree not clean: M tools/build_settlement_census_mod.py\n?? tests/test_settlement_census_source155.py\n",
+    "install_attempt_absent": true,
+    "launch_attempt_absent": true,
+    "game_actions": 0,
+    "cause": "QA tool/test changes remained uncommitted when next cold-side clean-worktree check ran. Source3 progress committed independently, then QA commit completed.",
+    "recovery": "Re-enter installation only after clean pushed HEAD, fresh r2 orchestration log; no Native actions or prior valid groups replayed."
+  },
+  "OpenCode": "Nov16 same-client cached daily success1.19.5, native generation0.",
+  "unknown": {
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_time_saved": null
+  },
+  "lesson": "Preserve actual source tags and old default transform bytes when extending a private census builder. Explicit version validation and exact inverse/caller-read-count tests do not grant Native natural>=12 qualification. Coordinate independent tool commits with clean-worktree launch guards; a pre-install rejection is not a game action. Read the request terminal before describing its publication state."
+}
