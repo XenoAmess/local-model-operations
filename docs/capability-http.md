@@ -7152,3 +7152,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[156 MANY四预算](evidence/2026-11-16-civ6-source156-many-matrix-pass.json)。Owner156 MANY四项冻结预算全过，其他场景和功能继续；0新增模型POST、0候选采用，累计910／949POST保持。Owner两处模板路径错误与仅恢复未执行范围的经验分列，不归咎模型或产品。
 
 2026-11-16：[911五城新任务终态](evidence/2026-11-16-civ6-http911-fivecity404.json)。911真实新五城窗口审阅实际1POST14.202ms返回HTTP404，无候选／采用／重试。41Python+10显式资源已提供；两个Owner路径错误在POST前纠正。累计911／816完整／68length／27最终请求失败／950生成POST／38额外／0在途，metadataGET2和TCP1另计。
+
+2026-11-16：[912输入审阅与来源边界](evidence/2026-11-16-civ6-http912-input-evidence-audit.json)。912真实输入证据审阅23来源/176741字节，1POST40.766ms返回HTTP404、无候选采用，Owner完成8窄范围/7待实测路线审阅。累计912／816完整／68length／28最终请求失败／951生成POST／38额外／0在途。metadataGET2/TCP1另计。

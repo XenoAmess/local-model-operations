@@ -2191,3 +2191,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[156 MANY四预算](evidence/2026-11-16-civ6-source156-many-matrix-pass.json)。当前Native矩阵不授OpenCode生成能力；每日维护缓存1.19.5保持，原生生成仍0。
 
 2026-11-16：[911五城新任务终态](evidence/2026-11-16-civ6-http911-fivecity404.json)。当日同机同用户1.19.5成功缓存继续复用；HTTP404不授OpenCode工具生成能力，原生生成0。
+
+2026-11-16：[912输入审阅与来源边界](evidence/2026-11-16-civ6-http912-input-evidence-audit.json)。同机同用户当日1.19.5维护成功缓存保持；HTTP失败与Owner文档审阅不授OpenCode生成能力，原生生成0。
