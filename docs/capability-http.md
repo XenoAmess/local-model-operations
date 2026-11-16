@@ -7154,3 +7154,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[911五城新任务终态](evidence/2026-11-16-civ6-http911-fivecity404.json)。911真实新五城窗口审阅实际1POST14.202ms返回HTTP404，无候选／采用／重试。41Python+10显式资源已提供；两个Owner路径错误在POST前纠正。累计911／816完整／68length／27最终请求失败／950生成POST／38额外／0在途，metadataGET2和TCP1另计。
 
 2026-11-16：[912输入审阅与来源边界](evidence/2026-11-16-civ6-http912-input-evidence-audit.json)。912真实输入证据审阅23来源/176741字节，1POST40.766ms返回HTTP404、无候选采用，Owner完成8窄范围/7待实测路线审阅。累计912／816完整／68length／28最终请求失败／951生成POST／38额外／0在途。metadataGET2/TCP1另计。
+
+2026-11-16：[913延后启用与默认兼容](evidence/2026-11-16-civ6-http913-deferred-formation.json)。913真实延后启用QA任务11来源/411055字节，1POST27.421ms返回HTTP404、0候选；Owner独立修复，相关16过、默认哈希保持、0Native。累计913／816完整／68length／29最终请求失败／952生成POST／38额外／0在途，metadataGET2/TCP1另计。
