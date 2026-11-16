@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "mode_id": "owner_native_validation",
+  "new_HTTP_generation": 0,
+  "ledger": {
+    "logical": 935,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 51,
+    "generation_POST": 974,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/e5051f67fe9829c4445b9020c3b81f871d8b3e15/docs/research/baiqi-source160-original85-fullscript-2026-11-17.json",
+  "Native_B_turn_N_req": {
+    "status": "PASS_ORIGINAL85_B_TURN_AND_N_REQ_FROZEN_SCOPE",
+    "fixture": {
+      "name": "Baiqi_P6_20261101_V32_TenCities85_BeforeProfile.Civ6Save",
+      "bytes": 503809,
+      "sha256": "107298ae7f1047d017c1570e52cdb2efcfa3ea8db369d95015a8dc63b2703b44"
+    },
+    "build": {
+      "files": 119,
+      "Lua51_Lua53_sources": 97,
+      "runtime_contexts": 33,
+      "archive_sha256": "fc7588aa94930773f57ae856f496a74239c895f6558e2a51eb16dececa667438",
+      "mode": "baiqi160-q21-bounded",
+      "source_commit": "a8d69815f9723b2185f2bf233a8d08b72018dac1",
+      "ordinary_sha256": "d5283623173b71ea65a8183e88114fdc816c0bbd2b14df34013d414fee9bad8b",
+      "all119source_installed_archive_hashes_checked": true,
+      "new_product_change": false
+    },
+    "environment": {
+      "owner": {
+        "pid": 17580,
+        "created_at": 1794870673.8628476,
+        "exe": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sid Meier's Civilization VI\\Base\\Binaries\\Win64Steam\\CivilizationVI_DX12.exe"
+      },
+      "CPU_affinity": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "offline": true,
+      "fresh_background_offline_proof_age_seconds": 5.837597,
+      "initial_mode_query_unavailable": "Formal Steam header navigation once, then separate fresh readonly offline proof before launch; no online switch.",
+      "warmup_seconds": 73.32500004768372,
+      "formal_reserved_before_reload": true,
+      "HTTP_build_heavy_tests_during_formal": 0,
+      "Steam_online_uploads_mode_changes": 0
+    },
+    "capture": {
+      "label": "quota160",
+      "actual_turn": 91,
+      "cities": 11,
+      "ordinary_END_requests": [
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "UserForced": 0,
+      "manual_domestic": 0,
+      "one_native_parent_awaited_all_children": true,
+      "driver_poll_total_function_calls": 37639,
+      "actual_exported_retained_function_samples": 780,
+      "aggregate_measured_zero_success_calls": 37237,
+      "global_retained_capacity": 4096,
+      "anchor_rows": 792,
+      "native_write_counter_rows": 22,
+      "export_errors": 0,
+      "whole_turn_writes_recorded_during_TEST_PLAYER_clicks": true,
+      "timing_transition_phases": 12,
+      "transition_rows": 396,
+      "calibration_bracket_rows": 198,
+      "clock_calibration_and_timing_coverage_verified": true,
+      "no_unknown_clock_or_drop_promoted_to_success": true,
+      "zero_aggregation": "Only measured-zero normal successes aggregated per original frozen helper; unknown clock data is not treated as zero.",
+      "counter_scope": "Driver poll totalCalls is an earlier call-count observation, not retained rows. Final dump780 rows and37237measured-zero successes have their own final snapshot scope; do not equate them to37639 or22write-counter rows."
+    },
+    "windows": [
+      {
+        "turn": 86,
+        "start_ui": 1794871033.821,
+        "end_ui": 1794871043.821,
+        "observed_union_ms": 252.99882888793945,
+        "clipped_inclusive_sum_ms_not_cpu": 260.9989643096924,
+        "sample_rows_intersecting": 95
+      },
+      {
+        "turn": 87,
+        "start_ui": 1794871114.459,
+        "end_ui": 1794871124.459,
+        "observed_union_ms": 150.9988307952881,
+        "clipped_inclusive_sum_ms_not_cpu": 151.99875831604004,
+        "sample_rows_intersecting": 70
+      },
+      {
+        "turn": 88,
+        "start_ui": 1794871208.767,
+        "end_ui": 1794871218.767,
+        "observed_union_ms": 310.99939346313477,
+        "clipped_inclusive_sum_ms_not_cpu": 332.99946784973145,
+        "sample_rows_intersecting": 90
+      },
+      {
+        "turn": 89,
+        "start_ui": 1794871297.5,
+        "end_ui": 1794871307.5,
+        "observed_union_ms": 233.0009937286377,
+        "clipped_inclusive_sum_ms_not_cpu": 244.0016269683838,
+        "sample_rows_intersecting": 67
+      },
+      {
+        "turn": 90,
+        "start_ui": 1794871382.706,
+        "end_ui": 1794871392.706,
+        "observed_union_ms": 194.0007209777832,
+        "clipped_inclusive_sum_ms_not_cpu": 209.0005874633789,
+        "sample_rows_intersecting": 74
+      }
+    ],
+    "complete_turn_writes": [
+      {
+        "turn": 86,
+        "calls": 10,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 10
+        }
+      },
+      {
+        "turn": 87,
+        "calls": 9,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 9
+        }
+      },
+      {
+        "turn": 88,
+        "calls": 14,
+        "by_context": {
+          "Lua/BaiqiGameplay.lua": 1,
+          "UI/BaiqiExecutor.lua": 13
+        }
+      },
+      {
+        "turn": 89,
+        "calls": 12,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 12
+        }
+      },
+      {
+        "turn": 90,
+        "calls": 34,
+        "by_context": {
+          "Lua/BaiqiGameplay.lua": 6,
+          "UI/BaiqiExecutor.lua": 28
+        }
+      }
+    ],
+    "partial_turn_writes": [
+      {
+        "turn": 91,
+        "calls": 7,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 7
+        }
+      }
+    ],
+    "distributions": {
+      "B_turn_ms": {
+        "p50": 233.0009937286377,
+        "p95": 310.99939346313477,
+        "max": 310.99939346313477,
+        "strictly_above_threshold": 0
+      },
+      "N_req_complete_turn": {
+        "p50": 12,
+        "p95": 34,
+        "max": 34,
+        "strictly_above_threshold": 0
+      }
+    },
+    "observed_b_turn_budget_ok": true,
+    "observed_n_req_budget_ok": true,
+    "save": {
+      "utc": "2026-11-16T23:24:54.165835+00:00",
+      "name": "Baiqi_P6_20261117_V160_FullscriptComplete91.Civ6Save",
+      "bytes": 520487,
+      "sha256": "36c4164f6c86bee29816e36fb49349c658b70fe224cb95453c51570d3c58272e",
+      "stable_repeated_read": true
+    },
+    "cleanup": {
+      "all33context_observers_retired": true,
+      "formal_reconciled_and_released": true,
+      "official_exit_calls": 1,
+      "owned_quiet_residue": {
+        "utc": "2026-11-16T23:28:43.725240+00:00",
+        "exit_code": 15,
+        "terminate_count": 1,
+        "kill_escalations": 0,
+        "natural_exit_claimed": false
+      },
+      "Steam_actions": 0
+    }
+  },
+  "Owner_reporting_correction": "An intermediate commentary called the driver1419 count retained samples. Actual consumer sums profile.totalCalls; corrected during ongoing capture and independently verified after release. Final retained780/call aggregate37237/driverpoll37639/write-counterrows22 reported separately. No capture/sample/capacity alteration.",
+  "lessons": [
+    "A progress label named samples can actually sum profile.totalCalls. Read the real consumer and report total calls, retained rows, measured-zero aggregates and counter-row counts separately. Here driver37639 earlier poll, final780retained,37237zero-success aggregates and22write-counter rows have different scopes.",
+    "The per-turn write counters are10,9,14,12,34, not the22export-row count. Partial closing91seven writes remain explicitly separate from the five complete buckets.",
+    "For full-script time use the calibrated union of inclusive observed intervals per fixed window; do not add nested/context-overlapping envelopes as exclusive CPU. Current five windows252.999/150.999/310.999/233.001/194.001ms met1000ms budget.",
+    "Audit all396context-local timing transition rows and198clock brackets; timing pauses around player military input must not disable whole-turn writes or anchors.",
+    "Replay an analyzer over immutable original facts to verify a report. Compare its JSON-normalized structure to storedJSON because Python tuples serialize asJSONlists; an initial direct tuple/list equality assertion is a publisher check failure, not a new Native or budget failure.",
+    "One current-version original85 planning pass and independent full-script/request passes still leave25matchedsegments and bothcurrentpressurematrices open. Continue the authorized work after committing."
+  ],
+  "OpenCode_daily": "Nov17same-machine/user canonical successful1.19.5maintenance cache retained, native-generation0; Owner Native performance outcomes grant no HTTP/OpenCode generation capability.",
+  "whole_mod": "OPEN",
+  "whole_TC036": "OPEN_CURRENT25PAIRS_AND_PRESSURE_MATRICES",
+  "old_8650807": "FAIL_UNRESOLVED",
+  "unknown": {
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}

@@ -2245,3 +2245,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[932933与未转发请求](evidence/2026-11-17-civ6-http932933-unforwarded-request-finite-TC040.json)。Nov17共享维护1.19.5成功缓存／原生生成0保持；Owner实际未知请求回执／普通军队解叠与有限TC040结论不授OpenCode生成能力。
 
 2026-11-17：[934935与160 B_plan](evidence/2026-11-17-civ6-http934935-source160-Bplan-pass.json)。Nov17成功维护1.19.5缓存、原生生成0保持；Owner160 B_plan实机限定PASS不授本地HTTP或OpenCode代码生成能力。
+
+2026-11-17：[160全脚本与请求预算](evidence/2026-11-17-civ6-source160-fullscript-request-budget-pass.json)。Nov17维护1.19.5成功缓存和原生生成0保持；Owner160全脚本／请求实机限定PASS不授本地模型或OpenCode生成能力。
