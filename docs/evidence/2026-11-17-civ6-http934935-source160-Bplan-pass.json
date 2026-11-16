@@ -1,0 +1,247 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate_and_owner_native_validation",
+  "tasks": [
+    {
+      "task": 934,
+      "purpose": "current160-stageB",
+      "sources": 13,
+      "source_bytes": 371329,
+      "POST": 1,
+      "http_status": 404,
+      "total_ms": 93.80070003680885,
+      "complete_candidate": false,
+      "adopted": false,
+      "extra_POST": 0,
+      "terminal_exit": 1,
+      "current_request_killed": false,
+      "stop_after_current_flag_written": true
+    },
+    {
+      "task": 935,
+      "purpose": "current160-paired",
+      "sources": 14,
+      "source_bytes": 377965,
+      "POST": 1,
+      "http_status": 404,
+      "total_ms": 71.01169996894896,
+      "complete_candidate": false,
+      "adopted": false,
+      "extra_POST": 0,
+      "terminal_exit": 1,
+      "current_request_killed": false,
+      "stop_after_current_flag_written": true
+    }
+  ],
+  "ledger": {
+    "logical": 935,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 51,
+    "generation_POST": 974,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/a8d69815f9723b2185f2bf233a8d08b72018dac1/docs/research/baiqi-source160-original85-plan-http934935-2026-11-17.json",
+  "actual_native_B_plan": {
+    "status": "PASS_B_PLAN_ORIGINAL85_FROZEN_SCOPE_ONLY",
+    "fixture": {
+      "name": "Baiqi_P6_20261101_V32_TenCities85_BeforeProfile.Civ6Save",
+      "bytes": 503809,
+      "sha256": "107298ae7f1047d017c1570e52cdb2efcfa3ea8db369d95015a8dc63b2703b44"
+    },
+    "build": {
+      "files": 119,
+      "Lua51_Lua53_sources": 97,
+      "ordinary_sha256": "d5283623173b71ea65a8183e88114fdc816c0bbd2b14df34013d414fee9bad8b",
+      "stageA_sha256": "4b4f262f52cb544c089863c3f5021e5d7c63e68522cef2e33e7d600123e05f53",
+      "private_changed_files": [
+        "UI/BaiqiExecutor.lua"
+      ],
+      "source_commit": "25befef7ddeb917c966ae86a7da8c4ebc0d69eb0",
+      "current_product_changed_for_this_capture": false,
+      "all119_source_installed_archive_hashes_checked": true
+    },
+    "environment": {
+      "owner": {
+        "pid": 22580,
+        "created_at": 1794869308.3925614,
+        "exe": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sid Meier's Civilization VI\\Base\\Binaries\\Win64Steam\\CivilizationVI_DX12.exe"
+      },
+      "CPU_affinity": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "offline": true,
+      "offline_readonly_proof_age_seconds": 5.24986,
+      "mode_query_initially_unavailable": "Formal Steam header navigation once, then fresh separate background readonly offline proof before launch; headerACK is not proof.",
+      "Steam_online_uploads_mode_changes": 0,
+      "warmup_seconds": 79.71200013160706,
+      "formal_reserved_before_reload": true,
+      "HTTP_during_formal": 0,
+      "heavy_tests_builds_during_formal": 0
+    },
+    "capture": {
+      "label": "plan160a",
+      "fixed_window_turns": [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "each_window_seconds": 10,
+      "actual_closing_turn": 91,
+      "actual_cities_closing": 11,
+      "ordinary_END_requests": [
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "UserForced": 0,
+      "manual_domestic": 0,
+      "actual_End_ACK_and_activation_separate": true,
+      "single_native_parent_awaited_all_children": true,
+      "capture_start": 1794869654.193,
+      "capture_stop": 1794870171.641,
+      "capacity": 4096,
+      "sample_quality_ok": true,
+      "samples": 317,
+      "all_spikes_retained": true,
+      "no_outlier_deletion_or_per_group_gate": true,
+      "pre_anchor": {
+        "pending": 0,
+        "recorded": 24,
+        "validated": 24,
+        "errors": 0
+      },
+      "classification_counts": {
+        "Admin.Run": {
+          "pure_ten": 118,
+          "10_to_11": 0,
+          "eleven_city": 16,
+          "turn_crossing": 0,
+          "other_city_state": 0,
+          "outside_window": 0,
+          "before_native_anchor": 0
+        },
+        "Controller.RunNow": {
+          "pure_ten": 143,
+          "10_to_11": 0,
+          "eleven_city": 16,
+          "turn_crossing": 0,
+          "other_city_state": 0,
+          "outside_window": 0,
+          "before_native_anchor": 24
+        }
+      },
+      "eligible_calls_by_turn": {
+        "Admin.Run": {
+          "86": 27,
+          "87": 28,
+          "88": 27,
+          "89": 27,
+          "90": 25
+        },
+        "Controller.RunNow": {
+          "86": 33,
+          "87": 31,
+          "88": 34,
+          "89": 33,
+          "90": 28
+        }
+      },
+      "90_city_growth": "Ten-to-eleven transition occurred naturally; exact start/end city counts determine pure sample classification. Eleven-city records are preserved, not falsely called pure ten."
+    },
+    "frozen_budget": {
+      "min_pure_ten_per_target": 100,
+      "p95_ms_max": 20,
+      "single_max_ms_max": 50,
+      "changes": 0
+    },
+    "targets": {
+      "Admin.Run": {
+        "pure_ten_count": 118,
+        "p50_ms": 0.0,
+        "p95_ms": 2.000093460083008,
+        "max_ms": 10.000228881835938,
+        "above_20ms_count": 0,
+        "above_50ms_count": 0,
+        "budget_ok": true
+      },
+      "Controller.RunNow": {
+        "pure_ten_count": 143,
+        "p50_ms": 1.0001659393310547,
+        "p95_ms": 11.00015640258789,
+        "max_ms": 49.00002479553223,
+        "above_20ms_count": 2,
+        "above_50ms_count": 0,
+        "budget_ok": true
+      }
+    },
+    "overall_B_plan_budget_ok": true,
+    "save": {
+      "utc": "2026-11-16T23:03:18.811408+00:00",
+      "name": "Baiqi_P6_20261117_V160_PlanStageAComplete91.Civ6Save",
+      "bytes": 520491,
+      "sha256": "00de1fc1b02afa48aaaf906116bcc561f32d4a3002b9400b54b359b66ab2e7c7",
+      "stable_repeated_read": true
+    },
+    "cleanup": {
+      "both_profile_targets_and_QA_activation_listener_restored": true,
+      "formal_reconciled_and_released": true,
+      "official_exit_calls": 1,
+      "residue_result": {
+        "utc": "2026-11-16T23:07:37.740031+00:00",
+        "exit_code": 15,
+        "terminate_count": 1,
+        "kill_escalations": 0,
+        "natural_exit_claimed": false
+      },
+      "Steam_actions": 0
+    }
+  },
+  "Owner_preparation_corrections": [
+    "A historical fixtureSHA17c1580 typo was copied through version rendering as17c1600; corrected to real protected17c1570 before any load.",
+    "The metadata-line patch introduced an indentation error after initialASTcheck. Native parent halted in AST parsing before first load/anyformal reservation; failure files retained. Corrected and AST-rechecked all current consumers. A new followup parent/unique serial100 performed the first load using the already-owned cold process; no launch/load/END replay.",
+    "935 preliminary source list used nonexistent analyze_paired_capture.py; preparation assertion refused before POST. Fixed to actual analyze_paired_turns.py; one real subsequent935POST404, not two model calls. A dependent launcher attempt before preparation succeeded only reported missing script, no model or Native action.",
+    "A retained human-readable formal-finish print says152; actual admission/owner/source160/nonce/profile/capture records agree on160. It is not a152capture."
+  ],
+  "historical_failures_retained": [
+    "Source157 B_plan Admin91.999769ms and Controller177.999973ms/p9541.999817ms remain valid historical FAIL.",
+    "Source158 aborted90 has no closing91 and is not retroactively granted completion.",
+    "This160capture does not prove the160 reason-only edit caused the improvement or identify the old Admin spike root cause. Source158 had also reduced DistrictPerson repeated paths; changes and observations remain separately attributed."
+  ],
+  "lessons": [
+    "An actual current-version complete capture may pass its frozen budget after all quality checks, even while historical versions failed. Preserve historical failures and do not claim an unproved causal improvement from unrelated new changes.",
+    "Require>=100 pure-ten-city samples for each target, fixed windows and real closing turn. Preserve eleven-city and complete before-anchor records, not just the samples used for quantiles. Here118/143pure,317total,24before-anchor,32eleven-city,0errors and no dropped spikes.",
+    "Separate normalEND return, actual Native turn activation, persistent save, exact QA retirement and explicit formal release. Source160 completed ordinary90to91 where158 had previously aborted.",
+    "A post-validation metadata edit can break Python indentation. Parse all final consumers again, preserve refusal before first load, and continue using a new scoped parent with the already-owned process instead of relaunching or replaying load.",
+    "Formal admission handles contain only root/path/nonce/role. For reporting HTTP before/after capture, read actual admission-attempt and finished timestamps; do not invent a started_at_utc field. A publisher KeyError was corrected before public writing with the already-frozen original log preserved unchanged.",
+    "Check actual analyzer filenames before request creation. A preliminary wrong source path is preparation refusal, not a model generation call; here935then made one real404POST after using analyze_paired_turns.py.",
+    "Do all independent model requests and heavy package preparations outside the formal interval.934ended before admission,935started after explicit release; neither generated a candidate."
+  ],
+  "OpenCode_daily": "Nov17canonical same-machine/user successful1.19.5cache retained, native-generation0. HTTP404/no candidates/adoption; Owner performancePASS does not grant HTTP/OpenCode generation capability.",
+  "whole_mod": "OPEN",
+  "whole_TC036": "OPEN_OTHER_BUDGETS_AND_CURRENT_PRESSURE",
+  "old_8650807": "FAIL_UNRESOLVED",
+  "unknown": {
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}
