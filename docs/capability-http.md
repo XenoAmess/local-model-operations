@@ -7170,3 +7170,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[919新实测移民长调用](evidence/2026-11-16-civ6-http919-typed-settler.json)。919新移民121ms诊断17来源／466450字节，一次POST HTTP404／52.8288ms、0候选采用；Owner新Native110根340行定位一条实际移民长调用，根出口城数未知，不转授旧失败根因／性能通过。累计919／816完整／68length／35最终失败／958生成POST／38额外／0在途，metadataGET2/TCP1另计。
 
 2026-11-16：[920与未重现的Admin尖峰](evidence/2026-11-16-civ6-http920-admin90.json)。920新建城提交计时工具13来源／443251字节，一次POST HTTP404／29.0471ms，0候选采用。独立Admin89根220行0错，最大13ms未重现原92ms，不授修复或BplanPASS；正式重载元数据文字编辑已披露。累计920／816完整／68length／36最终失败／959生成POST／38额外／0在途，metadataGET2/TCP1另计。
+
+2026-11-16：[Owner建城提交测点软件](evidence/2026-11-16-civ6-found-writer-owner-software.json)。920实际失败后Owner完成私有FOUND提交测点，14新＋42相关软件方法通过，默认字节／一次性pcall／逆变换保持；17绑定同4096包准备未Native。本包HTTP0、候选采用0，不重复累计，仍920／816完整／68length／36最终失败／959生成POST／38额外。

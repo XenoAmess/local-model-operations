@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "model_POST_this_package": 0,
+  "candidate_adoption": 0,
+  "Owner_direct_QA_implementation": true,
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/92dc31cc75e6d8ede9d7d683e7620987493fdce0/docs/research/baiqi-source157-found-writer-timing-2026-11-16.json",
+  "software": {
+    "new_methods": 14,
+    "new_passed": 14,
+    "new_seconds": 6.742,
+    "related_methods": 42,
+    "related_passed": 42,
+    "related_seconds": 58.32,
+    "old_TDD_expected_missing_feature_errors": 14,
+    "engines": [
+      "Lua5.1",
+      "Lua5.3"
+    ],
+    "cases": [
+      "stored writer identity and current lookup",
+      "pcall false/void/throw once",
+      "arity and trailingnil/error identity",
+      "disabled/retired cached root",
+      "foreign wrapper/event restore",
+      "same4096overflow without replay",
+      "missing/duplicate/reserved anchors",
+      "strict flags/scope/version beforeoutput",
+      "actual17bindingcombined119file97dualLua exactreverse"
+    ],
+    "default157_eight_combinations_sha256": "d7c9385be55ec8cdd829faf2aad249ec35d8622b7a2993059c959c031ed8ab2c",
+    "legacy28_default_suffixes": "Frozen independent SHA checks included in42related; unchanged.",
+    "CLI_help": true,
+    "full_suite_rerun": false
+  },
+  "prepared": {
+    "mode": "baiqi157-controller-children-v6",
+    "source_version": 157,
+    "files": 119,
+    "changed_files": [
+      "Lua/BaiqiController.lua"
+    ],
+    "children": [
+      "ProcessSettler",
+      "SettlementHeld",
+      "ExpansionStable",
+      "SettlerGoalBridge",
+      "KnownExpansionSupport",
+      "SettlementSites",
+      "PathStep",
+      "Safe",
+      "SettlerOccupiedDetour",
+      "RequestCivilian",
+      "SettlementBridge",
+      "FoundingSite"
+    ],
+    "binding_count": 17,
+    "sample_capacity": 4096,
+    "profile_count": 1,
+    "focus_turns": [
+      88,
+      89,
+      90
+    ],
+    "native_path_timing": true,
+    "detour_native_timing": true,
+    "found_native_timing": true,
+    "archive_sha256": "2c0f1fef802549327707bd2a0e97a1ed58b09545f01ab3ed00a251363e9f182e",
+    "release_text_recovers_exactly": true,
+    "native_global_binding_modified": false,
+    "lua51_compiled": true,
+    "lua53_compiled": true
+  },
+  "lessons": [
+    "After a real candidate failure, owner can finish a source-grounded narrow diagnostic without asking the model to repeat completed code. Record zero new POST/adoption for that work package.",
+    "Use private passthrough around the exact original pcall function lookup and argument vector; keep live authority and consume-before-writer untouched, never replace Nativeglobal or move work outside frozen planning boundary.",
+    "New14 dualLua/source-artifact methods plus42related/default-byte regressions validate one4096profile and exactinverse. A prepared17binding package is not Native effect or performancepass."
+  ],
+  "OpenCode": "No new OpenCode nativegeneration or maintenance call inthis zeroHTTPpackage; cumulative nativegeneration0. Separate ledger retained.",
+  "ledger_unchanged_through920": {
+    "logical": 920,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 36,
+    "generation_POST": 959,
+    "extra_POST": 38,
+    "inflight": 0
+  },
+  "Native": "NOT_RUN",
+  "whole_mod": "OPEN",
+  "old8650807": "FAIL_UNRESOLVED",
+  "unknown": {
+    "Owner_active_cost": null,
+    "net_savings": null,
+    "cached_tokens": null
+  }
+}
