@@ -1,0 +1,363 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "models": [
+    {
+      "logical": 917,
+      "sources": 17,
+      "source_bytes": 578323,
+      "actual_POST": "2026-11-16T14:45:39.506377+00:00",
+      "actual_END": "2026-11-16T14:45:39.539740+00:00",
+      "http_status": 404,
+      "total_ms": 33.46229996532202,
+      "generation_POST": 1,
+      "extra_POST": 0,
+      "candidate_count": 0,
+      "adoption": 0,
+      "request_killed": false,
+      "stop_marker": "Written only after actual POST to prevent further task retry; current request ended naturally. Does not explain404.",
+      "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "maintenance": "Delegated to canonical call.py CLI client_preflight, before HTTP",
+      "phases": [
+        {
+          "utc": "2026-11-16T14:44:59.764744+00:00",
+          "phase": "PREP_BEGIN",
+          "limits": "Earlier summary/source reading exists, full Owner activecost/net savings unknown."
+        },
+        {
+          "utc": "2026-11-16T14:45:38.941591+00:00",
+          "phase": "PREP_CORRECTION",
+          "limits": "Initial preparation referenced missing tools/profile_selection.py; no POST. Corrected to actual tests/test_profile_selection.py. Earlier summary/source reading exists, full Owner activecost/net savings unknown."
+        },
+        {
+          "utc": "2026-11-16T14:45:38.946076+00:00",
+          "phase": "PREP_END",
+          "sources": 17,
+          "bytes": 578323
+        }
+      ],
+      "Owner_active_cost": null,
+      "net_savings": null
+    },
+    {
+      "logical": 918,
+      "sources": 7,
+      "source_bytes": 74956,
+      "actual_POST": "2026-11-16T14:48:45.154547+00:00",
+      "actual_END": "2026-11-16T14:48:45.170644+00:00",
+      "http_status": 404,
+      "total_ms": 16.18029992096126,
+      "generation_POST": 1,
+      "extra_POST": 0,
+      "candidate_count": 0,
+      "adoption": 0,
+      "request_killed": false,
+      "stop_marker": "Written only after actual POST to prevent further task retry; current request ended naturally. Does not explain404.",
+      "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "maintenance": "Delegated to canonical call.py CLI client_preflight, before HTTP",
+      "phases": [
+        {
+          "utc": "2026-11-16T14:48:44.577070+00:00",
+          "phase": "PREP_BEGIN",
+          "limits": "Earlier builder/source inspection exists; fullOwner activecost/net savings unknown."
+        },
+        {
+          "utc": "2026-11-16T14:48:44.579931+00:00",
+          "phase": "PREP_END",
+          "sources": 7,
+          "bytes": 74956
+        }
+      ],
+      "Owner_active_cost": null,
+      "net_savings": null
+    }
+  ],
+  "ledger_through918": {
+    "logical": 918,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 34,
+    "generation_POST": 957,
+    "extra_POST": 38,
+    "inflight": 0,
+    "metadata_GET_separate": 2,
+    "TCP_separate": 1,
+    "OpenCode_native_generation": 0
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/4f88f2ac72de897cac43a9437c9680400ca37eab/docs/research/baiqi-source157-diagnostic-turn90-http917918-2026-11-16.json",
+  "actual_failure": {
+    "source": "baiqi157-stageA-v2",
+    "sample_quality_ok": true,
+    "samples": 321,
+    "classification_counts": {
+      "Admin.Run": {
+        "pure_ten": 120,
+        "10_to_11": 0,
+        "eleven_city": 8,
+        "turn_crossing": 0,
+        "other_city_state": 0,
+        "outside_window": 0,
+        "before_native_anchor": 0
+      },
+      "Controller.RunNow": {
+        "pure_ten": 149,
+        "10_to_11": 0,
+        "eleven_city": 9,
+        "turn_crossing": 0,
+        "other_city_state": 0,
+        "outside_window": 0,
+        "before_native_anchor": 35
+      }
+    },
+    "eligible_calls_by_turn": {
+      "Admin.Run": {
+        "86": 25,
+        "87": 27,
+        "88": 27,
+        "89": 25,
+        "90": 24
+      },
+      "Controller.RunNow": {
+        "86": 33,
+        "87": 31,
+        "88": 33,
+        "89": 31,
+        "90": 30
+      }
+    },
+    "targets": {
+      "Admin.Run": {
+        "pure_ten_count": 120,
+        "p50_ms": 0.9999275207519531,
+        "p95_ms": 8.00013542175293,
+        "max_ms": 91.99976921081543,
+        "above_20ms_count": 1,
+        "above_50ms_count": 1,
+        "budget_ok": false
+      },
+      "Controller.RunNow": {
+        "pure_ten_count": 149,
+        "p50_ms": 3.000020980834961,
+        "p95_ms": 41.99981689453125,
+        "max_ms": 177.99997329711914,
+        "above_20ms_count": 13,
+        "above_50ms_count": 4,
+        "budget_ok": false
+      }
+    },
+    "overall_budget_ok": false,
+    "limits": "Independent planning-function inclusive wall-clock latency only; no B_turn, N_req, B_delta or whole TC-036 pass.",
+    "pre_anchor": {
+      "pending": 0,
+      "recorded": 35,
+      "validated": 35,
+      "errors": 0
+    }
+  },
+  "software_verification": {
+    "new_methods": 8,
+    "new_passed": 8,
+    "new_seconds": 3.938,
+    "existing_methods": 3,
+    "existing_passed": 3,
+    "existing_seconds": 3.354,
+    "old_TDD_run": {
+      "methods": 8,
+      "expected_failure": 1,
+      "missing_option_errors": 8
+    },
+    "engines": [
+      "Lua5.1",
+      "Lua5.3"
+    ],
+    "full_suite_rerun": false,
+    "actual_package_files": 119,
+    "actual_package_lua51_lua53": 97,
+    "runtime_prepared": {
+      "archive_sha256": "f81889f4ca237031f6b2d7237d255669f6942db2bca427af6c376e7c7f9fbb66",
+      "player_actual15_payloads_dualLua": [
+        {
+          "turn": 85,
+          "mode": "select",
+          "sha256": "f7f51b9a8a7565571b6c6705bd4b26db8be92d8e48b20c0188b288ecb32e6246"
+        },
+        {
+          "turn": 85,
+          "mode": "step",
+          "sha256": "580d7d51c361102d88b792e5af056208a5cf7a37ba58eb34fcc479a10ebcb091"
+        },
+        {
+          "turn": 85,
+          "mode": "end",
+          "sha256": "041268eb8b65c06584dec4688d0f86b7bf02ff282a62525a93a29286fe8a2144"
+        },
+        {
+          "turn": 86,
+          "mode": "select",
+          "sha256": "532fcb43892d1eae1ae8b829bff92f33b984e8ca5e9df91837e8ba2919ebc5e0"
+        },
+        {
+          "turn": 86,
+          "mode": "step",
+          "sha256": "5750fb72fa79449900ff2079ae19f28c3e554de15828720cda72246d68302808"
+        },
+        {
+          "turn": 86,
+          "mode": "end",
+          "sha256": "607ed37120e7d8e783c8eaf3222da88ff6529e0b79152a2caa19c626aa333698"
+        },
+        {
+          "turn": 87,
+          "mode": "select",
+          "sha256": "1e37ae28d97ffc8cc50874098bfb8c0c0ad5faa19bd60adc003ace95e391ccce"
+        },
+        {
+          "turn": 87,
+          "mode": "step",
+          "sha256": "ee11e194b1cc361bbf0c2a2644d9b0a07a5f0c6efe08ac5c1b3e00d641a32fef"
+        },
+        {
+          "turn": 87,
+          "mode": "end",
+          "sha256": "18cb43ab564b33dd3e4e512364f1c1840f724fa4c8c4352554eb82d94d8ffc33"
+        },
+        {
+          "turn": 88,
+          "mode": "select",
+          "sha256": "3aa3fa10ed9760c512b59ace9489f564aabc6c509617e7c5b130900a16215ae9"
+        },
+        {
+          "turn": 88,
+          "mode": "step",
+          "sha256": "bad69894234e3c70290b15afc8d57d059fb45433978d40b93b75582c0afa3ce6"
+        },
+        {
+          "turn": 88,
+          "mode": "end",
+          "sha256": "66cfa6d745728a1ebc26ec9314d2104537305766bd9de9462c3277ea148bce1f"
+        },
+        {
+          "turn": 89,
+          "mode": "select",
+          "sha256": "1bca8e3087160060e96d6fd6859e98a2694fb665162a34a637d755aa8597b2cb"
+        },
+        {
+          "turn": 89,
+          "mode": "step",
+          "sha256": "451aa215a4bcbd186e099536e6327af9a7df371aefdbea691e2b298cf0ed48f2"
+        },
+        {
+          "turn": 89,
+          "mode": "end",
+          "sha256": "ee891c2a62b85b51563a8fbc091260b874bfc5495d9c353370cfe7136b39e70d"
+        }
+      ],
+      "profile_preflight85_89_dualLua": true,
+      "finish_actual3_payloads_dualLua": [
+        {
+          "API": "save_checkpoint",
+          "sha256": "90974c04ddd5e145e088f47a74ecaea13e57d5c56c948cd7d583a906c900da58"
+        },
+        {
+          "API": "query",
+          "sha256": "c51054488b50c98f036364be886549110ea15cc104a5573360b6a182a1aa2a82"
+        },
+        {
+          "API": "query",
+          "sha256": "c304584f890c23de3749551d366b210c3177410a4baf2752e80d153f94258f6c"
+        }
+      ],
+      "AST_scripts": 16,
+      "Native_calls": 0,
+      "game_actions": 0,
+      "limits": "Actual renderer/payload/guard syntax only. No Native result. Readiness-patch first edit was rejected before targetwrite due indentation, then corrected. Diagnostic wall watchdog360 only; fixed10s/4096 and budget thresholds unchanged."
+    },
+    "preparation_errors": "Initial917inputs referenced nonexistent tools/profile_selection.py and were rejected beforePOST; actual tests/test_profile_selection.py then supplied. Source157 plan episode first draft indentation rejected beforeNative; corrected/AST checked beforeactual321row run. No gameplay replay."
+  },
+  "prepared_diagnostics": {
+    "controller": {
+      "mode": "baiqi157-controller-children-v5",
+      "children": [
+        "ReadBack",
+        "ProcessCity",
+        "ProcessBuilder",
+        "ProcessSettler",
+        "ProcessTrader",
+        "ProcessMissionary",
+        "ProcessNaturalist",
+        "ProcessArchaeologist",
+        "ProcessDistrictPerson",
+        "ProcessCreative",
+        "ProcessProphet",
+        "ClearCivilianOverlap"
+      ],
+      "binding_count": 14,
+      "sample_capacity": 4096,
+      "profile_count": 1,
+      "focus_turns": [
+        88,
+        89,
+        90
+      ],
+      "archive_sha256": "f81889f4ca237031f6b2d7237d255669f6942db2bca427af6c376e7c7f9fbb66",
+      "changed_files": [
+        "Lua/BaiqiController.lua"
+      ],
+      "release_text_recovers_exactly": true,
+      "native_global_binding_modified": false,
+      "lua51_compiled": true,
+      "lua53_compiled": true
+    },
+    "admin": {
+      "mode": "baiqi157-admin-children-v2",
+      "children": [
+        "Research",
+        "PowerResearchChoice",
+        "Governors",
+        "GovernorRescue",
+        "GovernorLoyaltyDemand",
+        "Religion",
+        "Government",
+        "GreatPeople",
+        "Choose",
+        "BaiqiFloodPurchase.Run",
+        "BaiqiFoodFocusRunner.Run",
+        "BaiqiFoodTileRescueRunner.Run"
+      ],
+      "sample_capacity": 4096,
+      "profile_count": 1,
+      "focus_turns": [
+        87,
+        88,
+        89,
+        90
+      ],
+      "archive_sha256": "2c73ed29458b1e72b7ba55d879050fc16679e73ad93ddb919ec30d32b3f8f723",
+      "changed_files": [
+        "Lua/BaiqiAdmin.lua"
+      ],
+      "original_admin_exact_prefix": true,
+      "lua51_compiled": true,
+      "lua53_compiled": true
+    }
+  },
+  "lessons": [
+    "Preserve actual failure after a source optimization: source157 Admin92/Controllerp9542,max178 fails despite zero data loss. Different earlier timing is not causal speedup.",
+    "A diagnostic must cover the actual failing turn. Explicit optional Admin90 scope preserves old default helper bytes and fixed4096 oneprofile instead of silently changing historical scopes.",
+    "Selected typed consumers can attribute a future call; do not claim they identify the earlier uninstrumented root. Keep omitted resume functions unknown.",
+    "Reject nonexistent source reference before POST; correct to actual consumer rather than sending a path-only request. Two canonical404 calls produced no candidate, no alternate provider or simulated adoption."
+  ],
+  "OpenCode_daily": "Nov16 same-machine/user canonical maintenance/cache retained; new OpenCode native generation0. HTTP candidate failure and owner software checks do not grant nativegeneration.",
+  "next_Native": "NOT_RUN at publication",
+  "full_mod_acceptance": "OPEN",
+  "old_8650807": "FAIL_UNRESOLVED",
+  "unknown": {
+    "backend_cause": null,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}
