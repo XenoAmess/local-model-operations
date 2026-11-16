@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "model914": {
+    "task": "civ6-914-armed-clearance-event-audit",
+    "actual_source_files": 15,
+    "actual_source_bytes": 413973,
+    "actual_POST": "2026-11-16T12:28:32.339503+00:00",
+    "actual_END": "2026-11-16T12:28:32.367074+00:00",
+    "http_status": 404,
+    "total_ms": 27.672800002619624,
+    "http_headers_ms": null,
+    "finish_reason": null,
+    "sse_done": false,
+    "candidate_count": 0,
+    "adopted": false,
+    "generation_POST": 1,
+    "extra_POST": 0,
+    "current_request_killed": false,
+    "stop_marker": "Written after observed POST_BEGIN to prevent another task-specific retry; does not explain HTTP404 or mean this request was killed.",
+    "max_tokens": 2400,
+    "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "shared_commit": "1f3d2a8b1fc7a5dea0e3c922bd7bd4c43d949c29",
+    "maintenance": "Delegated to canonical call.py CLI client_preflight, before HTTP",
+    "phase_events": [
+      {
+        "utc": "2026-11-16T12:21:15.530682+00:00",
+        "phase": "PREP_BEGIN",
+        "owner": "civ6-root",
+        "limits": "Wall intervals only; earlier problem framing/reading/helper setup unknown. Native parent can advance concurrently; active/exclusive cost and net savings unknown. Do not infer complete preparation cost from this interval."
+      },
+      {
+        "utc": "2026-11-16T12:22:08.215434+00:00",
+        "phase": "PREP_END",
+        "owner": "civ6-root",
+        "limits": "Wall intervals only; earlier problem framing/reading/helper setup unknown. Native parent can advance concurrently; active/exclusive cost and net savings unknown. Do not infer complete preparation cost from this interval."
+      },
+      {
+        "utc": "2026-11-16T12:29:13.568951+00:00",
+        "phase": "REVIEW_BEGIN",
+        "owner": "civ6-root",
+        "limits": "Wall intervals only; earlier problem framing/reading/helper setup unknown. Native parent can advance concurrently; active/exclusive cost and net savings unknown. Do not infer complete preparation cost from this interval."
+      },
+      {
+        "utc": "2026-11-16T12:30:27.139056+00:00",
+        "phase": "REVIEW_END",
+        "owner": "civ6-root",
+        "limits": "Owner response/result/source-scope review before normalized publication; early response reading predates REVIEW_BEGIN and remains unknown. Wall interval only, no exclusive/active/net savings claim."
+      }
+    ],
+    "earlier_framing_and_reading_cost": null,
+    "owner_active_cost": null,
+    "net_savings": null
+  },
+  "ledger_through914": {
+    "logical": 914,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 30,
+    "generation_POST": 953,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "metadata_GET_separate": 2,
+    "TCP_separate": 1
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/21c8ef2c387e21fac006f5cbd62fe564ebbc5a21/docs/research/baiqi-source156-armed-event-audit-http914-2026-11-16.json",
+  "owner_review": {
+    "actual_primary_consumer_inventory_files": 8,
+    "primary_fact": "Shipped UnitPanel subscribes UnitOperationsCleared with unit callback and refreshes UI. UnitOperationDeactivated and WorldInput visual movement cancel are distinct.",
+    "not_proved": "No supplied Lua proves a global/perunit submission barrier, C++ queue completeness or authority to clear/replay old8650807 ARMED. Event name and ordinary-turn count do not provide that proof.",
+    "next_diagnostic": "Prepare transparent exact-unit finite Native event observation plus independently qualified live unit/turn/context facts, then evaluate actual evidence. No observer/event generated or Native cancellation attempted by914.",
+    "Native": "NOT_RUN",
+    "old_8650807_recovery": "FAIL_UNRESOLVED"
+  },
+  "lessons": [
+    "An official queue-cleared event consumer that only refreshes UI is not a specification of engine dispatcher completeness or permission to replay an old unknown operation. Keep event-name hypotheses separate from actually observed causality.",
+    "Scope finite transparent event/write observers to actual owner/fullID/type/context, count errors/drops and verify exact bindings; a zero count without live positive qualification or natural scheduler progress grants no behavior result.",
+    "A deferred fault can be mechanically set before a normal turn while actor is HOLD; qualify any positive behavior claim only after independently observed actual-ready/Native-legal state. Keep pre-turn setup distinct from measured window and never reset/rearm an exhausted bounded fault.",
+    "Record source preparation/response observation/HTTP terminal separately; a stop marker after POST_BEGIN prevents later retries and does not explain an already returning HTTP404."
+  ],
+  "independent_preparation_scope": "Private software only: observer12 dualLua witnesses, lifecycle/source/private119 and fixture/nav checks, fivecity2 driver AST and original85 actual26 script AST. No new Native call or fullmod PASS.",
+  "OpenCode_daily": "Canonical client_preflight maintenance entry reused; same-machine/user successful Nov16 1.19.5 cache previously established. HTTP task failure does not grant OpenCode generation; new nativegeneration0.",
+  "generation_POST_this_task": 1,
+  "metadata_or_TCP_this_task": 0,
+  "config_or_service_changes": 0,
+  "unknown": {
+    "cached_tokens": null,
+    "backend_cause_or_jobs": null,
+    "Owner_active_cost": null,
+    "net_time_saved": null
+  }
+}
