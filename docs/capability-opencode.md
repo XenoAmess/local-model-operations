@@ -2235,3 +2235,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[所有者未知Native76子分支](evidence/2026-11-17-civ6-owner-unknown-native76.json)。同机Nov17维护1.19.5成功缓存与原生生成0保持；Owner Native停发／恢复不授OpenCode代码生成能力。
 
 2026-11-17：[929与Native资格未知76／77](evidence/2026-11-17-civ6-http929-legality-unknown-native76-77.json)。Nov17维护1.19.5成功缓存复用、原生生成0。Native拒绝与自然回合恢复、Owner私有允许型事件观察器软件检查不授OpenCode生成能力。
+
+2026-11-17：[930、Core资格事件与原因缺口](evidence/2026-11-17-civ6-http930-core-event-and-reason-gap.json)。Nov17共享维护1.19.5成功缓存和原生生成0保持；Core回调Native可用、Owner18+12+10项不同观察器软件验证不授OpenCode生成能力。

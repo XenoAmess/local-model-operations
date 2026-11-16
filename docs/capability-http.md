@@ -7196,3 +7196,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[所有者未知Native76子分支](evidence/2026-11-17-civ6-owner-unknown-native76.json)。无新增HTTP；928原404候选未采用的Owner所有者快照钩子取得实机子分支：实际76复制未知17→23／自然Update40→63／目标SDK0，恢复27未过64后同回合正常传播2→1与新OBSERVED。累计928／816／68／44失败／967POST／38extra保持，合法性与请求恢复未闭。
 
 2026-11-17：[929与Native资格未知76／77](evidence/2026-11-17-civ6-http929-legality-unknown-native76-77.json)。929为新Native允许型事件观察器候选，10来源380283字节，单POST404／41.5410ms，自然终态1、0候选／采用／extra；快于轮询未写stop文件，原件确认仅1POST。Owner独立完成传播资格未知Native子分支：76原true→nil一次／0传播／1独立合法SKIP（moves保留4、readyfalse），撤钩后自然77传播2→1。累计929／816完整／68length／45最终失败／968生成POST／38extra／0在途。
+
+2026-11-17：[930、Core资格事件与原因缺口](evidence/2026-11-17-civ6-http930-core-event-and-reason-gap.json)。930新产品未知原因提示修复候选，15来源440854字节，单POST404／32.9323ms、自然终态1、0候选／采用／extra。Owner实机确认原版Core资格回调三参数且opIndex；FOUND true与SKIP false均触发，不能当接受／完成回执。日志审计发现owner／formation未知76缺理由，继续修复。累计930／816完整／68length／46最终请求失败／969POST／38extra／0在途。
