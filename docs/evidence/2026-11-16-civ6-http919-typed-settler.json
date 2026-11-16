@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "model919": {
+    "sources": 17,
+    "source_bytes": 466450,
+    "actual_POST": "2026-11-16T15:15:32.523719+00:00",
+    "actual_END": "2026-11-16T15:15:32.576363+00:00",
+    "http_status": 404,
+    "total_ms": 52.82880016602576,
+    "candidate_count": 0,
+    "adoption": 0,
+    "generation_POST": 1,
+    "extra_POST": 0,
+    "request_killed": false,
+    "stop_marker": "After actual POST only, prevents another task retry; current request completed naturally.",
+    "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "maintenance": "Delegated to canonical call.py CLI client_preflight, before HTTP",
+    "phase_events": [
+      {
+        "utc": "2026-11-16T15:15:30.584126+00:00",
+        "phase": "PREP_BEGIN",
+        "limits": "Earlier newsummary reading/QA preparation exists, fullOwner activecost/net savings unknown."
+      },
+      {
+        "utc": "2026-11-16T15:15:30.588211+00:00",
+        "phase": "PREP_END",
+        "sources": 17,
+        "bytes": 466450
+      }
+    ],
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "ledger_through919": {
+    "logical": 919,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 35,
+    "generation_POST": 958,
+    "extra_POST": 38,
+    "inflight": 0,
+    "metadata_GET_separate": 2,
+    "TCP_separate": 1,
+    "OpenCode_native_generation": 0
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/29cdce344b542c974cff7749291b7b14481a0011/docs/research/baiqi-source157-typed-controller-http919-2026-11-16.json",
+  "actual_diagnosis": {
+    "roots": 110,
+    "rows": 340,
+    "zero_errors": true,
+    "preobserver": 15,
+    "observed": 95,
+    "interpretation": "New root98@90 entry10cities134ms contains ProcessSettler121ms, Creative2ms/City1ms/ReadBack1ms. Root53@89 entry10cities39ms contains Settler36ms and one NativePath2ms. Root88@90 entry10cities39ms contains City38ms. Typed diagnosis identifies this NEW call only. Root exit city count unrecorded: do not call it pure-ten or equate it with prior178/250ms pure-ten failures. Native proxy covers only GetMoveToPathEx inside PathStep; no row does not exclude all Native work. Nested rows not summed."
+  },
+  "lessons": [
+    "Typed children localize one actual new long call to ProcessSettler121ms inside134ms root; do not retroactively identify earlier178/250ms root or claim performance fix.",
+    "Entry city count does not prove the inclusive call remained pure-ten. Keep exit count unknown and preserve original frozen-budget failure.",
+    "No PathStep Native-proxy row cannot exclude all Native work or authorize moving expensive commit outside the frozen planning boundary.",
+    "A future capture intent list must describe actual prepared bindings. Correct before capture and retain correction; never relabel measured rows."
+  ],
+  "OpenCode_daily": "Same-machine/user Nov16 canonical maintenance/cache preserved, newnativegeneration0; HTTP candidate failure doesnotgrant tools.",
+  "next_Admin90": "Prepared only at publication",
+  "old_8650807": "FAIL_UNRESOLVED",
+  "full_mod_acceptance": "OPEN",
+  "unknown": {
+    "backend_cause": null,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}
