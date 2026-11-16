@@ -2219,3 +2219,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[158与923](evidence/2026-11-17-civ6-source158-http923-bounded-routes.json)。Nov17成功每日维护缓存复用；本包／累计原生生成均0，软件成果来自Owner。
 
 2026-11-17：[924与中止窗口](evidence/2026-11-17-civ6-http924-aborted90-standby.json)。本包复用Nov17成功每日维护缓存；新增及累计原生生成0，不能从维护或HTTP失败推断游戏功能通过。
+
+2026-11-17：[159未知创作等待](evidence/2026-11-17-civ6-source159-owner-legacy-standby.json)。本Owner软件工作包没有原生生成；累计仍0，Nov17维护成功不作模型代码采用。
