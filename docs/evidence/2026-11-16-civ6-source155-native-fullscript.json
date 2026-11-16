@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/3981bcb3936fa9de4c5ecef5bc60534f7360189b/docs/research/baiqi-source155-stageB-pass-2026-11-16.json",
+  "source_version": 155,
+  "scope": "Owner actual fullscript33contexts/4096global retained cap; not a model candidate adoption",
+  "windows": [
+    {
+      "turn": 86,
+      "start_ui": 1794787161.978,
+      "end_ui": 1794787171.978,
+      "observed_union_ms": 296.00000381469727,
+      "clipped_inclusive_sum_ms_not_cpu": 301.00011825561523,
+      "sample_rows_intersecting": 174
+    },
+    {
+      "turn": 87,
+      "start_ui": 1794787246.918,
+      "end_ui": 1794787256.918,
+      "observed_union_ms": 446.99859619140625,
+      "clipped_inclusive_sum_ms_not_cpu": 460.9980583190918,
+      "sample_rows_intersecting": 215
+    },
+    {
+      "turn": 88,
+      "start_ui": 1794787339.0870001,
+      "end_ui": 1794787349.0870001,
+      "observed_union_ms": 579.9987316131592,
+      "clipped_inclusive_sum_ms_not_cpu": 614.9981021881104,
+      "sample_rows_intersecting": 181
+    },
+    {
+      "turn": 89,
+      "start_ui": 1794787430.04,
+      "end_ui": 1794787440.04,
+      "observed_union_ms": 438.0016326904297,
+      "clipped_inclusive_sum_ms_not_cpu": 453.0026912689209,
+      "sample_rows_intersecting": 176
+    },
+    {
+      "turn": 90,
+      "start_ui": 1794787517.185,
+      "end_ui": 1794787527.185,
+      "observed_union_ms": 338.0002975463867,
+      "clipped_inclusive_sum_ms_not_cpu": 347.0005989074707,
+      "sample_rows_intersecting": 181
+    }
+  ],
+  "complete_turn_writes": [
+    {
+      "turn": 86,
+      "calls": 11,
+      "by_context": {
+        "UI/BaiqiExecutor.lua": 11
+      }
+    },
+    {
+      "turn": 87,
+      "calls": 10,
+      "by_context": {
+        "UI/BaiqiExecutor.lua": 10
+      }
+    },
+    {
+      "turn": 88,
+      "calls": 15,
+      "by_context": {
+        "Lua/BaiqiGameplay.lua": 1,
+        "UI/BaiqiExecutor.lua": 14
+      }
+    },
+    {
+      "turn": 89,
+      "calls": 17,
+      "by_context": {
+        "Lua/BaiqiGameplay.lua": 2,
+        "UI/BaiqiExecutor.lua": 15
+      }
+    },
+    {
+      "turn": 90,
+      "calls": 34,
+      "by_context": {
+        "Lua/BaiqiGameplay.lua": 6,
+        "UI/BaiqiExecutor.lua": 28
+      }
+    }
+  ],
+  "retained_samples": 1814,
+  "aggregate_zero_success_calls": 35244,
+  "timing_phase_rows": 396,
+  "clock_bracket_rows": 198,
+  "result": "B_turn and N_req PASS exact fixture; B_delta/pressure/whole mod OPEN",
+  "lesson": "Keep whole-turn write counting active when function timing is disabled between fixed10s windows. Audit33-context state transitions and bracket clocks; export row count24 is not submission count. Keep partial91 bucket separate. Stage completion must continue into remaining acceptance work.",
+  "HTTP_during_formal": 0,
+  "new_HTTP_calls": 0,
+  "OpenCode_native_generation": 0,
+  "OpenCode": "Nov16 cached daily success1.19.5 unchanged",
+  "unknown": {
+    "Owner_active_cost": null,
+    "net_time_saved": null,
+    "cached_tokens": null
+  }
+}
