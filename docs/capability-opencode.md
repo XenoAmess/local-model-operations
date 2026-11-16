@@ -2167,3 +2167,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[Owner私有诊断与155压力资格](evidence/2026-11-16-civ6-owner-diagnostics-and-pressure155.json)。本包0新模型调用，Nov16维护缓存及原生生成0保持；Owner软件检查与Native资格不能转授OpenCode生成能力。
 
 2026-11-16：[Civ6902日历适配传输失败与独立实证](evidence/2026-11-16-civ6-http902-many-calendar.json)。Nov16同机每日维护1.19.5成功缓存保持，原生生成仍0；902属于普通HTTP故障，Owner实际验收与软件不能转授原生生成能力。
+
+2026-11-16：[Civ6903—905适配与压力制品校验](evidence/2026-11-16-civ6-http903905-pressure-adapters.json)。Nov16同机同用户1.19.5成功维护缓存仍有效，原生生成0；903—905均普通HTTP传输失败，Owner软件及Native结果不属于原生生成实证。

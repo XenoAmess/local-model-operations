@@ -7128,3 +7128,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[Owner私有诊断与155压力资格](evidence/2026-11-16-civ6-owner-diagnostics-and-pressure155.json)。901无候选后负责人独立完成8方法私有快照故障工具，真实Controller拒绝／未命中阳性／恢复均过，非模型代码采用或Native故障通过。当前155另取得MANY自然12与NO_SITE全图资格，仍非性能PASS；完整实证留项目精确反链。
 
 2026-11-16：[Civ6902日历适配传输失败与独立实证](evidence/2026-11-16-civ6-http902-many-calendar.json)。902真实未完成MANY当前155全脚本T6日历适配候选，实际155消费者／元数据和旧压力算账器先供；1次180秒无响应头，0候选采用。累计902／816完整／68length／18最终传输／941HTTP／38额外，0在途。Owner独立适配继续，NativeMANY规划PASS不计HTTP代码能力。
+
+2026-11-16：[Civ6903—905适配与压力制品校验](evidence/2026-11-16-civ6-http903905-pressure-adapters.json)。903配对／904独立NO_SITE日历实际并行峰2，均1次180s无响应头；905新发现压力制品验证器缺口同样1次180s，0候选采用。Owner10相关方法和6实际119制品通过，NativeMANY全脚本另有独立PASS，不能转授模型代码能力。累计905／816完整／68length／21最终传输／944HTTP／38额外，0在途。
