@@ -2213,3 +2213,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[Owner建城提交测点软件](evidence/2026-11-16-civ6-found-writer-owner-software.json)。本独立软件工作包无新HTTP／维护／OpenCode生成；原生生成累计0，不从负责人软件验证授生成能力。
 
 2026-11-17：[921引擎寄存器差异与每日维护](evidence/2026-11-17-civ6-http921-game-register-scope.json)。本地Nov17首次模型使用前共享维护实际执行OPENCODE_DAILY_CHECK：installed／registry latest均1.19.5、updated false。维护成功后才POST；原生代码生成仍0，维护网络／CPU成本未知，不能当生成授权。
+
+2026-11-17：[922与真实Native](evidence/2026-11-17-civ6-http922-native-scoped-routes.json)。复用Nov17同机同用户成功每日维护缓存；本包新增原生生成0，累计0。

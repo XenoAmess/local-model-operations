@@ -7174,3 +7174,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[Owner建城提交测点软件](evidence/2026-11-16-civ6-found-writer-owner-software.json)。920实际失败后Owner完成私有FOUND提交测点，14新＋42相关软件方法通过，默认字节／一次性pcall／逆变换保持；17绑定同4096包准备未Native。本包HTTP0、候选采用0，不重复累计，仍920／816完整／68length／36最终失败／959生成POST／38额外。
 
 2026-11-17：[921引擎寄存器差异与每日维护](evidence/2026-11-17-civ6-http921-game-register-scope.json)。921真实编译器修复11来源／634016字节，一次POST HTTP404／47.9762ms，0候选采用。Stock此前56过但实际游戏私有包寄存器失败0END；Owner隔离QA帧后200→185、17软件方法过，未新Native。累计921／816完整／68length／37最终失败／960生成POST／38额外／0在途，provider metadataGET2/TCP1另计。
+
+2026-11-17：[922与真实Native](evidence/2026-11-17-civ6-http922-native-scoped-routes.json)。922一次404／23.272ms，0候选采用；累计922/816完整/68length/38最终失败/961生成POST/38额外。新Native114根532行证实QA作用域可加载，不授性能或整Mod通过。
