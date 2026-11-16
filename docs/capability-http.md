@@ -7140,3 +7140,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[Civ6新鲜models502](evidence/2026-11-16-civ6-model-metadata-502.json)。重复失败后新鲜只读诊断：一次TCP握手约24ms成功，复用共享每日维护／transport的单modelsGET约70ms返回502空正文。0生成POST／重试／Native。生成计数仍907／816完整／68length／23最终传输／946POST／38额外，元数据GET另列；根因／后台jobs未知。
 
 2026-11-16：[790固定只读恢复在155复用](evidence/2026-11-16-civ6-bounded-read790-reuse155.json)。Owner155配对漏接已采用790固定纯读恢复，实际size0tag3在LSQ前CMD未发；第三启用侧0段／1选中／0SKIPEND整侧排除。补回MANY／NO_SITE调用点，4实际绑定方法＋9工具方法过，不放宽帧／重试动作。无新HTTP，累计907保持。
+
+2026-11-16：[155MANY有效FAIL／908](evidence/2026-11-16-civ6-source155-many-fail-http908.json)。155MANY五组25段有效FAIL：中位绝对115.999937ms≤500，但比例15.760860%>10；全原值保持。908真实执行器诊断1POST180s无响应头0候选，Owner接管，156软件局部过不授Native。历史cut908=908／816完整／68length／24最终传输／947POST／38额外；后续909独立真实QA任务正在途，不能把cut0当当前0。

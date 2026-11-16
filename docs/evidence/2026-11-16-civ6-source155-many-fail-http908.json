@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "project_Native_evidence": "https://github.com/XenoAmess/civ6_dev/blob/9a603c6fdd10b9818def142c9f2ecc4e9d7e6595/docs/research/baiqi-source155-many-paired-final-2026-11-16.json",
+  "Native_result": {
+    "source_version": 155,
+    "fixture_initial_turn": 6,
+    "valid_groups": 5,
+    "valid_cold_sides": 10,
+    "actual_cold_sides": 13,
+    "excluded_sides": [
+      {
+        "label": "manypair155-1-enabled",
+        "reason": "Firstselect metadata guard rejected before selection, skip or END6;0records, entire side excluded before numeric selection.",
+        "replacement": "manypair155-1-enabled-r1",
+        "evidence": "docs/research/baiqi-source155-many-pair1-guard-abort-2026-11-16.json"
+      },
+      {
+        "label": "manypair155-1-control",
+        "reason": "Native DX12 access violation before initial current-load completion/formal admission/player input;0 captured segments; whole side excluded before arithmetic.",
+        "replacement": "manypair155-1-control-r1",
+        "evidence": "docs/research/baiqi-source155-many-control1-native-crash-2026-11-16.json"
+      },
+      {
+        "label": "manypair155-3-enabled",
+        "reason": "Zero-size tag3 during fixed visibility LSQ beforeCMD after one selection;0SKIP/END/segments; driver retired, whole side excluded before arithmetic.",
+        "replacement": "manypair155-3-enabled-r1",
+        "evidence": "docs/research/baiqi-source155-many-pair3-read-abort-2026-11-16.json"
+      }
+    ],
+    "B_delta": "FAIL",
+    "median_delta_ms": 115.99993705749512,
+    "median_ratio_percent": 15.76085970622687,
+    "all25raw_kept": true,
+    "other_three_MANY_budgets": "Independently155 PASS, not enough for fullTC036."
+  },
+  "model908": {
+    "task_id": "civ6-908-many-delta-review",
+    "scope": "Genuine new validFAIL actualExecutor/Controllereligibility+Update/Adminphases/frozenmetrics supplied beforeOwnerimplementation.",
+    "POST_attempts": 1,
+    "total_ms": 180014.20079986565,
+    "headers": 0,
+    "candidate_adopted": false,
+    "finish_reason": null,
+    "SSE_DONE": false,
+    "handling": "Current actualPOST naturally terminal180s, task-specific furtherretry canceled, no game replay or lease deletion."
+  },
+  "ledger_through_908_historical_cut": {
+    "logical": 908,
+    "complete": 816,
+    "length": 68,
+    "final_transport": 24,
+    "generation_POST_attempts": 947,
+    "extra_attempts": 38,
+    "inflight_at_908_terminal": 0,
+    "OpenCode_native_generation": 0
+  },
+  "current909": "Independent real actual156QAversion-registration task alreadyPOST/inflight after908terminal; not included in historiccut908, no Nativeformalactive.",
+  "Owner_pending_work": "Source156Executorcadence/recoveryguard patch and8newmethods+19existing PASS, fullsuite/build/Native stillpending; no codegen credit to timeout. Existingseparate155fullscriptcorridor positiveenvelopes18.9998/20.9992/152.9994/15.9998/34.0002ms do not explain pairedlaterspikes causally.",
+  "lessons": [
+    "A medianabsoluteincrease under500ms is insufficient if medianpersegmentratio exceeds10%; bothfrozenconditions musthold.",
+    "Keep all25differences/ratios and all invalidside evidence; no unchangedrerun, outlierfiltering or diplomacy subtraction to choosePASS.",
+    "Small active-window B_turn does not alone establish interturnoverhead. Check actualperframeNativeentry/read work, use existing data by exact scope, separate hypothesis from measuredcause.",
+    "When servicefails, take over realimplementation after preservedterminal and use another independent unfinished narrowtask; no fake probes or generation credit."
+  ],
+  "OpenCode_daily": "Nov16 same-client/user1.19.5 successfulcache, nativegeneration0.",
+  "unknown": {
+    "cached_tokens": null,
+    "backend_jobs_or_cause": null,
+    "paired_late_spike_cause": null,
+    "Owner_active_cost": null,
+    "net_time_saved": null
+  }
+}
