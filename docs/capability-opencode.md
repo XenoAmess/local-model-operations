@@ -2207,3 +2207,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[917／918当前失败与显式诊断范围](evidence/2026-11-16-civ6-http917918-diagnostic-turn90.json)。Nov16成功维护缓存和规范入口继续保持；新OpenCode原生生成0。当前候选HTTP失败及独立编测不授原生工具能力。
 
 2026-11-16：[919新实测移民长调用](evidence/2026-11-16-civ6-http919-typed-settler.json)。维持Nov16同机同用户成功维护入口／缓存，OpenCode原生生成仍0；候选HTTP失败及独立Native游戏诊断不授原生代码生成能力。
+
+2026-11-16：[920与未重现的Admin尖峰](evidence/2026-11-16-civ6-http920-admin90.json)。保持Nov16同机同用户成功维护缓存和共享调用入口，OpenCode原生生成0；新私有诊断与HTTP失败不授原生工具能力。
