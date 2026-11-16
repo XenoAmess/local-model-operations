@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "source_version": 156,
+  "Owner_Native": {
+    "scene": "MANY",
+    "four_frozen_budgets": "PASS",
+    "planning_targets": {
+      "Admin.Run": {
+        "pure_ten_count": 137,
+        "p50_ms": 0.9999275207519531,
+        "p95_ms": 6.999969482421875,
+        "max_ms": 9.000062942504883,
+        "above_20ms_count": 0,
+        "above_50ms_count": 0,
+        "budget_ok": true
+      },
+      "Controller.RunNow": {
+        "pure_ten_count": 160,
+        "p50_ms": 0.9999275207519531,
+        "p95_ms": 2.000093460083008,
+        "max_ms": 26.999950408935547,
+        "above_20ms_count": 1,
+        "above_50ms_count": 0,
+        "budget_ok": true
+      }
+    },
+    "function_retained_rows": 333,
+    "aggregate_zero_success_calls": 17159,
+    "fixed_windows": [
+      {
+        "turn": 7,
+        "start_ui": 1794823449.117,
+        "end_ui": 1794823459.117,
+        "observed_union_ms": 28.000831604003906,
+        "clipped_inclusive_sum_ms_not_cpu": 32.00078010559082,
+        "sample_rows_intersecting": 32
+      },
+      {
+        "turn": 8,
+        "start_ui": 1794823471.612,
+        "end_ui": 1794823481.612,
+        "observed_union_ms": 46.999454498291016,
+        "clipped_inclusive_sum_ms_not_cpu": 52.999258041381836,
+        "sample_rows_intersecting": 38
+      },
+      {
+        "turn": 9,
+        "start_ui": 1794823496.1890001,
+        "end_ui": 1794823506.1890001,
+        "observed_union_ms": 46.99969291687012,
+        "clipped_inclusive_sum_ms_not_cpu": 48.99954795837402,
+        "sample_rows_intersecting": 25
+      },
+      {
+        "turn": 10,
+        "start_ui": 1794823517.615,
+        "end_ui": 1794823527.615,
+        "observed_union_ms": 33.00070762634277,
+        "clipped_inclusive_sum_ms_not_cpu": 34.00087356567383,
+        "sample_rows_intersecting": 34
+      },
+      {
+        "turn": 11,
+        "start_ui": 1794823540.4290001,
+        "end_ui": 1794823550.4290001,
+        "observed_union_ms": 80.99937438964844,
+        "clipped_inclusive_sum_ms_not_cpu": 87.99910545349121,
+        "sample_rows_intersecting": 44
+      }
+    ],
+    "complete_turn_submits": [
+      {
+        "turn": 7,
+        "calls": 2,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 2
+        }
+      },
+      {
+        "turn": 8,
+        "calls": 2,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 2
+        }
+      },
+      {
+        "turn": 9,
+        "calls": 2,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 2
+        }
+      },
+      {
+        "turn": 10,
+        "calls": 2,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 2
+        }
+      },
+      {
+        "turn": 11,
+        "calls": 4,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 4
+        }
+      }
+    ],
+    "paired_median_delta_ms": -27.9998779296875,
+    "paired_median_ratio_percent": -3.4981958989703426,
+    "full_mod_acceptance": "OPEN",
+    "other_current_scenes": "Pending independent156 Native results"
+  },
+  "project_evidence": [
+    "https://github.com/XenoAmess/civ6_dev/blob/1d68bf0d87667aa54da8ab951d6bc80f4948228c/docs/research/baiqi-source156-pressure-many-plan-2026-11-16.json",
+    "https://github.com/XenoAmess/civ6_dev/blob/9fcb03a3f20b2a293e53b461be6740f92e1adbf5/docs/research/baiqi-source156-pressure-many-observed-2026-11-16.json"
+  ],
+  "Owner_runtime_corrections": {
+    "initial_navigation": {
+      "error": "Missing pair156_endpoint_owner.py template reference before LSQ/CMD/load/formal",
+      "load_or_game_actions_before_failure": 0,
+      "recovery": "Preserved original HALTED_NO_REPLAY; fixed actual historical template binding, validated 12 rendered payloads, resumed same preloaded cold process with unique r1 episode"
+    },
+    "post_capture_cleanup": {
+      "error": "Missing pair156_cleanup_owner.py template reference after export/save/retire/formal release/official exit",
+      "recovery": "Preserved failed terminal and original exit; corrected four stage template references to actual audited pair155 cleanup implementation; resumed cleanup only with exact owner and >=180s/zero windows/zero listeners/2s CPU gates",
+      "sample_replay": 0,
+      "second_official_exit": 0
+    }
+  },
+  "lessons": [
+    "A parsed wrapper does not prove its runtime template path exists: render nested navigation and cleanup payloads and bind actual module imports before Native use.",
+    "An error before LSQ/CMD/load/formal with zero actions can continue from the same untouched cold process under a new intent; preserve failed original.",
+    "A cleanup-only adapter error after export/save/retire/release/official exit must resume cleanup only, never repeat sampling or exit. Exact PID/birth/exe and all quiet180s gates still apply.",
+    "Do not confuse total profiled calls with retained rows when zero-success calls are aggregated. Current17159 zero-success calls coexist with333 retained rows under frozen4096 capacity."
+  ],
+  "generation_POST_attempts_this_update": 0,
+  "ledger_through910_unchanged": "910logical/816complete/68length/26finalrequestfailures(lastHTTP404)/949generationPOST/38extra/0inflight/OpenCodenative0. MetadataGET2/TCP1 separate.",
+  "model_adoption": "No candidate returned by908/909/910; Owner implementation and Native results are independently attributed.",
+  "OpenCode_daily": "Same-machine/user Nov16 successful1.19.5 cache; nativegeneration0.",
+  "unknown": {
+    "cached_tokens": null,
+    "backend_jobs_or_cause": null,
+    "Owner_active_cost": null,
+    "net_time_saved": null
+  }
+}

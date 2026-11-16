@@ -7148,3 +7148,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[910与models元数据新证据](evidence/2026-11-16-civ6-http910-provider404-models200.json)。910真实20回合适配审阅1POST47.953秒返回provider404，0候选；其后1metadataGET200列出1模型但未列配置模型，根因仍未知。累计910／816完整／68length／26最终请求失败（本次HTTP404）／949生成POST／38额外／0在途。Owner156软件2676过／1SDK跳过，MANY自然资格Native过，不授性能或完整Mod。
 
 2026-11-16：[156当前MANY配对](evidence/2026-11-16-civ6-source156-many-matched-pass.json)。Owner156五组MANY25差值−27.999878ms／−3.498196%，冻结B_delta通过；旧155有效FAIL保留，其他预算／全Mod继续。无新增HTTP或模型代码采用，累计910／949POST不变。
+
+2026-11-16：[156 MANY四预算](evidence/2026-11-16-civ6-source156-many-matrix-pass.json)。Owner156 MANY四项冻结预算全过，其他场景和功能继续；0新增模型POST、0候选采用，累计910／949POST保持。Owner两处模板路径错误与仅恢复未执行范围的经验分列，不归咎模型或产品。
