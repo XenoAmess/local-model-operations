@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "mode_id": "owner_native_validation",
+  "new_HTTP_generation": 0,
+  "ledger": {
+    "logical": 928,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 44,
+    "generation_POST": 967,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/56804dec7924b967cc598f47231bb7f8b8da725d/docs/research/baiqi-source159-owner-unknown76-native-2026-11-17.json",
+  "Native_subcase": {
+    "status": "PASS_LIMITED_SUBCASE",
+    "controlled_fault": {
+      "module": "tools/lua/diagnostic_owner_unknown.lua",
+      "module_sha256": "74b00b7c958cbcfd06bb33a6160c7db1e0666f8fdbf9c79b0284718f4afad9eb",
+      "target": {
+        "owner": 0,
+        "id": 3735581,
+        "type": "UNIT_MISSIONARY"
+      },
+      "method": "Controller UnitSnapshot and Native getters execute normally. Only exact incoming real policy snapshot is copied, copy.owner=nil, then the real BaiqiPolicy.CanCivilian runs once. Actual unit owner remains0.",
+      "actual_engine_owner_getter_missing": false,
+      "private_unused_formation_fault": "Retired unarmed with0masks before owner fault install; not combined with owner unknown.",
+      "limit": 64,
+      "rearm": false,
+      "same_context_policy_binding_owned": true,
+      "foreign_binding_policy": "Preserved, never overwritten"
+    },
+    "qualified76": {
+      "actor_before": [
+        "F76_ACTOR",
+        "3735581",
+        "16",
+        "14",
+        "4",
+        "2",
+        "1",
+        "true",
+        "true",
+        "false",
+        "nil",
+        "1",
+        "1",
+        "-1",
+        "true",
+        "OBSERVED",
+        "religion:0:1",
+        "3",
+        "true"
+      ],
+      "actor_after": [
+        "F76_ACTOR",
+        "3735581",
+        "16",
+        "14",
+        "4",
+        "2",
+        "1",
+        "true",
+        "true",
+        "false",
+        "nil",
+        "1",
+        "1",
+        "-1",
+        "true",
+        "OBSERVED",
+        "religion:0:1",
+        "3",
+        "true"
+      ],
+      "description": "Exact3735581@16,14, actualowner0, moves4/charges2/form1, readyMove/Selecttrue, nativependingfalse/queuednil, ownreligion1, owncitymajority-1, actualNativeSpreadtrue; priorOBSERVEDreligion0:1/priorcharges3 unchanged.",
+      "masked_policy_inputs": [
+        17,
+        23
+      ],
+      "natural_Controller_Update": [
+        40,
+        63
+      ],
+      "target_SDK_operations": 0,
+      "target_SDK_commands": 0,
+      "observer_identity_errors": 0,
+      "observer_drops": 0,
+      "three_observer_bindings_owned": true
+    },
+    "retire_boundary": {
+      "fresh_positive_actor_rechecked": true,
+      "masked": 27,
+      "expired": false,
+      "real_CanCivilian_binding_restored": true,
+      "return": "restored"
+    },
+    "unmasked_same76": {
+      "target_BACKGROUND_spread_hash": 1592408602,
+      "requests": 1,
+      "charges": [
+        2,
+        1
+      ],
+      "moves": [
+        4,
+        0
+      ],
+      "new_journal": [
+        "OBSERVED",
+        "religion:0:2",
+        2
+      ],
+      "manual_spread": 0,
+      "scope": "Real spread request, charge cost and observed journal change; not proof of full city conversion"
+    },
+    "cleanup": {
+      "original_policy_binding_restored": true,
+      "three_observer_bindings_restored": true,
+      "all_diagnostic_globals_cleared": true,
+      "ActionPanel_QA_markers_cleared": true
+    },
+    "save": {
+      "utc": "2026-11-16T21:02:28.154340+00:00",
+      "name": "Baiqi_P6_20261117_V159_OwnerUnknownCompare76.Civ6Save",
+      "bytes": 485038,
+      "sha256": "8a38c83b98b5ca7d34643ccdc923b7c07eb59475c52bda2c1c99e6ff8ffaddfc",
+      "stable_repeated_read": true
+    }
+  },
+  "lessons": [
+    "Inject unknown ownership at the copied real policy input while original Controller snapshots and engine getters still run. Actual native unit ownership must remain unchanged; do not call this a missing engine getter.",
+    "Retire an unused earlier diagnostic unarmed with zero masks before installing the next fault. Do not combine blockers that would make refusal attribution ambiguous.",
+    "Held-turn arming is only setup; independently qualify a naturally refreshed real actor and Native operation, delimit natural Update/copy-mask progress, and require no target SDK writer calls during the interval.",
+    "Exact restoration before finite interception expiry plus same-turn independent Native cost/journal change demonstrates recovery without clearing, replaying or manufacturing gameplay state.",
+    "Passing one ownership fault subcase does not close legality, ambiguous-request recovery, all actors/rulesets or whole-mod acceptance."
+  ],
+  "OpenCode_daily": "Nov17successful1.19.5cache retained;0native-generation. Owner Native validation does not grant OpenCode generation capability.",
+  "whole_mod": "OPEN",
+  "old_8650807": "FAIL_UNRESOLVED",
+  "unknown": {
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}
