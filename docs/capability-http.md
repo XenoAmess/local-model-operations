@@ -7138,3 +7138,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[Civ6907有限输入](evidence/2026-11-16-civ6-http907-finite-input-audit.json)。907真实有限人工输入审阅，单POST180秒无响应头，0候选。Owner源影响核对和有限缺口清单不算新Native通过；UILoader定义遗漏明确归Owner。累计907／816完整／68length／23最终传输／946HTTP／38额外，0在途。
 
 2026-11-16：[Civ6新鲜models502](evidence/2026-11-16-civ6-model-metadata-502.json)。重复失败后新鲜只读诊断：一次TCP握手约24ms成功，复用共享每日维护／transport的单modelsGET约70ms返回502空正文。0生成POST／重试／Native。生成计数仍907／816完整／68length／23最终传输／946POST／38额外，元数据GET另列；根因／后台jobs未知。
+
+2026-11-16：[790固定只读恢复在155复用](evidence/2026-11-16-civ6-bounded-read790-reuse155.json)。Owner155配对漏接已采用790固定纯读恢复，实际size0tag3在LSQ前CMD未发；第三启用侧0段／1选中／0SKIPEND整侧排除。补回MANY／NO_SITE调用点，4实际绑定方法＋9工具方法过，不放宽帧／重试动作。无新HTTP，累计907保持。

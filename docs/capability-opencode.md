@@ -2177,3 +2177,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[Civ6907有限输入](evidence/2026-11-16-civ6-http907-finite-input-audit.json)。本日1.19.5同机同用户维护成功缓存保持、原生生成0；Owner源码审阅与历史Native复用不授原生生成能力。
 
 2026-11-16：[Civ6新鲜models502](evidence/2026-11-16-civ6-model-metadata-502.json)。实际元数据GET前调用共享client_preflight，同机同用户本日成功缓存复用；没有新增原生生成，不把网络诊断或OwnerNative工作授为原生工具能力。
+
+2026-11-16：[790固定只读恢复在155复用](evidence/2026-11-16-civ6-bounded-read790-reuse155.json)。本次仅复用普通HTTP历史已采用790工具，Owner验证／Native对账分列，0新增原生生成；日维护成功缓存保持。
