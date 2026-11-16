@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "model916": {
+    "task": "civ6-916-lazy-great-person-paths",
+    "sources": 20,
+    "source_bytes": 703874,
+    "actual_POST": "2026-11-16T13:56:47.047076+00:00",
+    "actual_END": "2026-11-16T13:56:47.104120+00:00",
+    "http_status": 404,
+    "total_ms": 57.17319995164871,
+    "candidate_count": 0,
+    "adoption": 0,
+    "generation_POST": 1,
+    "extra_POST": 0,
+    "request_killed": false,
+    "stop_marker_written": false,
+    "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "maintenance": "Delegated to canonical call.py CLI client_preflight, before HTTP",
+    "source_before_owner_implementation": true,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "ledger_through916": {
+    "logical": 916,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 32,
+    "generation_POST": 955,
+    "extra_POST": 38,
+    "inflight": 0,
+    "metadata_GET_separate": 2,
+    "TCP_separate": 1,
+    "OpenCode_native_generation": 0
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/3d9d3b3277dd71034da36a81b917b9ea6d0ccad5/docs/research/baiqi-source157-lazy-great-person-routes-2026-11-16.json",
+  "software_summary": {
+    "full_suite_first": {
+      "methods": 2693,
+      "passed": 2691,
+      "failures": 1,
+      "SDK_environment_skips": 1,
+      "seconds": 333.965,
+      "failure": "New deferred formation test expected156 after source bump157; only test expectation corrected."
+    },
+    "focused_recheck": {
+      "module": "test_formation_unknown_deferred",
+      "methods": 8,
+      "passed": 8,
+      "seconds": 4.388,
+      "log": ".local-model\\acceptance-continue-20261116\\source157-deferred-version-recheck.log"
+    },
+    "software_qualification_ok": true,
+    "full_suite_rerun": false,
+    "new_methods": 8,
+    "new_configurations": 32,
+    "engines": [
+      "Lua5.1",
+      "Lua5.3"
+    ],
+    "old156_red_run": {
+      "expected_failed_subcases": 16,
+      "errors": 0
+    },
+    "first_red_run": "Earlier harness preparation run had12 failed subcases and8 Lua5.1 creative setup errors; preserved before fixing only test loader compatibility. Not product failures.",
+    "new_cases": [
+      "nearest",
+      "unreachable nearest",
+      "distance tie",
+      "all unreachable",
+      "native refusal",
+      "formation changes before submit",
+      "escorted",
+      "activation first"
+    ],
+    "creative_harness": "Adds loadstring/setfenv for Lua5.1, keeps Lua5.3 load; product loader unchanged.",
+    "files": 119,
+    "lua51_and_lua53_compiled": 97,
+    "ordinary_archive_sha256": "1c6472572b2861d75b9cee9f28efcbeb918304c29abeb92aa65d60070efee750",
+    "QA_registrations": 17,
+    "legacy_defaults": "Preserved; unknown next version test values moved to158."
+  },
+  "Native_diagnosis": "Source156 113roots/1250rows, zero accounting errors, multiple route calls in long roots. Instrumented timing and source157 software do not replace original156 B_plan FAIL. Typed root15 caller unknown.",
+  "lessons": [
+    "A source-proven redundant route query can be removed before the full failure cause is known, but publication must separate that optimization from a demonstrated Native performance fix.",
+    "Sort by the original stable target priority before an expensive read; preserve first reachable request refusal and current final authority. Verify actual consumers in both supported Lua runtimes.",
+    "Fix test-only Lua5.1 loader compatibility before counting red product tests; retain the initial setup failures separately.",
+    "HTTP404 yields no candidate. Keep provider configuration unchanged; implement and validate owner scope instead of requesting a paraphrase of completed code."
+  ],
+  "OpenCode_daily": "Canonical client_preflight/cache retained for Nov16 same-machine/user1.19.5. New OpenCode native generation0; HTTP and standalone software evidence do not grant it.",
+  "full_mod_acceptance": "OPEN",
+  "old_8650807": "FAIL_UNRESOLVED",
+  "unknown": {
+    "backend_cause": null,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}

@@ -2201,3 +2201,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[Source156 NO_SITE四预算](evidence/2026-11-16-civ6-source156-nosite-four-budgets.json)。本轮游戏性能结果不授OpenCode代码生成能力；当日维护缓存保留，新增原生生成0。
 
 2026-11-16：[915规划超限与下一诊断](evidence/2026-11-16-civ6-http915-plan-failure.json)。现行维护入口与Nov16同机同用户成功缓存保留；HTTP失败／独立软件检查不授原生生成能力，新OpenCode原生0。
+
+2026-11-16：[916真实任务与有限软件采用](evidence/2026-11-16-civ6-http916-lazy-routes.json)。保留Nov16同机同用户成功缓存和共享维护入口；新OpenCode原生生成0，HTTP失败和软件通过均不授原生工具能力。
