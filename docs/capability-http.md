@@ -7130,3 +7130,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[Civ6902日历适配传输失败与独立实证](evidence/2026-11-16-civ6-http902-many-calendar.json)。902真实未完成MANY当前155全脚本T6日历适配候选，实际155消费者／元数据和旧压力算账器先供；1次180秒无响应头，0候选采用。累计902／816完整／68length／18最终传输／941HTTP／38额外，0在途。Owner独立适配继续，NativeMANY规划PASS不计HTTP代码能力。
 
 2026-11-16：[Civ6903—905适配与压力制品校验](evidence/2026-11-16-civ6-http903905-pressure-adapters.json)。903配对／904独立NO_SITE日历实际并行峰2，均1次180s无响应头；905新发现压力制品验证器缺口同样1次180s，0候选采用。Owner10相关方法和6实际119制品通过，NativeMANY全脚本另有独立PASS，不能转授模型代码能力。累计905／816完整／68length／21最终传输／944HTTP／38额外，0在途。
+
+2026-11-16：[压力玩家标识Owner错误](evidence/2026-11-16-civ6-pressure-player-marker-owner-error.json)。Owner压力玩家前缀错误与实际模型失败分账；903真实输入已有压力标识，0候选不承担Owner改写错误。实际守卫双Lua语义验证补足语法检查缺口，无新增HTTP，累计905保持。

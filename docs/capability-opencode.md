@@ -2169,3 +2169,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[Civ6902日历适配传输失败与独立实证](evidence/2026-11-16-civ6-http902-many-calendar.json)。Nov16同机每日维护1.19.5成功缓存保持，原生生成仍0；902属于普通HTTP故障，Owner实际验收与软件不能转授原生生成能力。
 
 2026-11-16：[Civ6903—905适配与压力制品校验](evidence/2026-11-16-civ6-http903905-pressure-adapters.json)。Nov16同机同用户1.19.5成功维护缓存仍有效，原生生成0；903—905均普通HTTP传输失败，Owner软件及Native结果不属于原生生成实证。
+
+2026-11-16：[压力玩家标识Owner错误](evidence/2026-11-16-civ6-pressure-player-marker-owner-error.json)。本次无新增原生工具生成；Nov16同机同用户维护缓存仍为1.19.5成功，Owner软件／实机工作不转授原生生成能力。
