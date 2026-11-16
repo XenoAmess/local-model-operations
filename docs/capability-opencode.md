@@ -2241,3 +2241,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[160未知原因软件修复](evidence/2026-11-17-civ6-source160-bounded-unknown-reasons-software.json)。Nov17维护1.19.5成功缓存和原生生成0保持；Owner源码修复、7项新检查和91项重检不授OpenCode生成能力。
 
 2026-11-17：[931与160实机未知原因](evidence/2026-11-17-civ6-http931-source160-native-reasons.json)。Nov17共享每日维护1.19.5成功缓存、原生生成0保持；Owner实机原因证据与故障工具7方法13VM软件通过，不授OpenCode代码生成能力。
+
+2026-11-17：[932933与未转发请求](evidence/2026-11-17-civ6-http932933-unforwarded-request-finite-TC040.json)。Nov17共享维护1.19.5成功缓存／原生生成0保持；Owner实际未知请求回执／普通军队解叠与有限TC040结论不授OpenCode生成能力。

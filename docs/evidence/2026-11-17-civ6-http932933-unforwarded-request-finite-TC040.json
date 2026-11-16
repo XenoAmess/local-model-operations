@@ -1,0 +1,421 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate_and_owner_native_validation",
+  "tasks": [
+    {
+      "task": 932,
+      "purpose": "current160-stageA",
+      "sources": 13,
+      "source_bytes": 367013,
+      "POST": 1,
+      "http_status": 404,
+      "total_ms": 33.64969999529421,
+      "complete_candidate": false,
+      "adopted": false,
+      "extra_POST": 0,
+      "terminal_exit": 1,
+      "current_request_killed": false,
+      "stop_file": "Fast natural terminal between polls; actual EVENTS prove onePOST/no retry"
+    },
+    {
+      "task": 933,
+      "purpose": "TC040-finite-review",
+      "sources": 13,
+      "source_bytes": 432198,
+      "POST": 1,
+      "http_status": 404,
+      "total_ms": 22.02249993570149,
+      "complete_candidate": false,
+      "adopted": false,
+      "extra_POST": 0,
+      "terminal_exit": 1,
+      "current_request_killed": false,
+      "stop_file": "Fast natural terminal between polls; actual EVENTS prove onePOST/no retry"
+    }
+  ],
+  "ledger": {
+    "logical": 933,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 49,
+    "generation_POST": 972,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/25befef7ddeb917c966ae86a7da8c4ebc0d69eb0/docs/research/baiqi-source160-unforwarded77-78-tc040-http932933-2026-11-17.json",
+  "controlled_unforwarded_request": {
+    "fault": {
+      "method": "Original SDK RequestOperation captured. Arm exact Missionary/SPREAD inner blocker, then install outer passive SDK observer. The attempted SDK call is recorded but not forwarded; nil/zero return values fabricate no Native ACK.",
+      "target": {
+        "owner": 0,
+        "id": 3735581,
+        "unitType": "UNIT_MISSIONARY",
+        "operation_hash": 1592408602
+      },
+      "capture_at_intercept": [
+        "77",
+        "0",
+        "3735581",
+        "16",
+        "14",
+        "4",
+        "1",
+        "1",
+        "true",
+        "true",
+        "false",
+        "nil",
+        "true"
+      ],
+      "capture_fields": [
+        "turn",
+        "owner",
+        "fullID",
+        "x",
+        "y",
+        "moves",
+        "charges",
+        "formation",
+        "readyMove",
+        "readySelect",
+        "nativePending",
+        "UIQueuedDestination",
+        "originalNativeCanSpread"
+      ],
+      "argument_count": 0,
+      "SDK_SPREAD_attempts": 1,
+      "Native_target_SPREAD_forwarded": 0,
+      "Native_engine_rejection_tested": false,
+      "engine_acceptance_or_completion_fabricated": false,
+      "fault_window": {
+        "natural_Controller_Update": [
+          38,
+          46
+        ],
+        "baseline_actor": [
+          "3735581",
+          "16",
+          "14",
+          "4",
+          "1",
+          "1",
+          "true",
+          "true",
+          "false",
+          "nil",
+          "ARMED",
+          "religion:0:3",
+          "1",
+          "77"
+        ],
+        "closing_actor": [
+          "3735581",
+          "16",
+          "14",
+          "4",
+          "1",
+          "1",
+          "false",
+          "false",
+          "false",
+          "nil",
+          "ARMED",
+          "religion:0:3",
+          "1",
+          "77"
+        ],
+        "baseline_sdk": [
+          "38",
+          "1",
+          "0",
+          "0",
+          "0",
+          "true",
+          "true",
+          "true",
+          "false"
+        ],
+        "closing_sdk": [
+          "46",
+          "2",
+          "0",
+          "0",
+          "0",
+          "true",
+          "true",
+          "true",
+          "false"
+        ]
+      },
+      "identity_capture_drop_errors": 0,
+      "journal_UI_Core": [
+        "ARMED",
+        "religion:0:3",
+        1,
+        77
+      ],
+      "charges": [
+        1,
+        1
+      ],
+      "actual_separate_native_SKIP77": 1,
+      "native_SKIP_preserved_moves": 4,
+      "manual_civilian_orders": 0,
+      "QA_journal_writes": 0
+    },
+    "restoration": {
+      "method": "Retire own outer SDK observer first, then inner blocker restoring actual Native RequestOperation. Install a new passive observer over the original, preserving all args/returns/errors once.",
+      "window77": {
+        "natural_Controller_Update": [
+          2,
+          11
+        ],
+        "baseline_actor": [
+          "3735581",
+          "16",
+          "14",
+          "4",
+          "1",
+          "1",
+          "false",
+          "false",
+          "false",
+          "nil",
+          "ARMED",
+          "religion:0:3",
+          "1",
+          "77"
+        ],
+        "closing_actor": [
+          "3735581",
+          "16",
+          "14",
+          "4",
+          "1",
+          "1",
+          "false",
+          "false",
+          "false",
+          "nil",
+          "ARMED",
+          "religion:0:3",
+          "1",
+          "77"
+        ],
+        "baseline_sdk": [
+          "2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "true",
+          "true",
+          "true",
+          "false"
+        ],
+        "closing_sdk": [
+          "11",
+          "0",
+          "0",
+          "0",
+          "0",
+          "true",
+          "true",
+          "true",
+          "false"
+        ]
+      },
+      "SPREAD_after_restore77": 0,
+      "raw_Core_ARMED_retained": true,
+      "no_timeout_clear_or_replay": true
+    },
+    "next_normal_turn": {
+      "actual": 78,
+      "ordinary_END76": 1,
+      "ordinary_first_actual_END77": 1,
+      "UserForced": 0,
+      "window": {
+        "natural_Controller_Update": [
+          1230,
+          1239
+        ],
+        "baseline_actor": [
+          "3735581",
+          "16",
+          "14",
+          "4",
+          "1",
+          "1",
+          "true",
+          "true",
+          "false",
+          "nil",
+          "ARMED",
+          "religion:0:3",
+          "1",
+          "77"
+        ],
+        "closing_actor": [
+          "3735581",
+          "16",
+          "14",
+          "4",
+          "1",
+          "1",
+          "true",
+          "true",
+          "false",
+          "nil",
+          "ARMED",
+          "religion:0:3",
+          "1",
+          "77"
+        ]
+      },
+      "SPREAD_after_restore_and_normal_next_turn": 0,
+      "raw_Core_UI_ARMED_retained": true,
+      "charges": [
+        1,
+        1
+      ],
+      "actual_separate_native_SKIP78": 1
+    },
+    "log_audit": {
+      "utc": "2026-11-16T22:41:35.249718+00:00",
+      "source_version": 160,
+      "actual_closing_turn": 78,
+      "same_log_prefix_verified": true,
+      "complete_log_bytes": 69240,
+      "complete_log_sha256": "33a00bfd5aaf835b1473b931e8193381487864386935b427e34727798394a8e4",
+      "Native_queries": 0,
+      "target_background_requests": [
+        "BaiqiExecutor: BAIQI|request|turn=77|id=0:77:25|source=BACKGROUND|unit=3735581|operation=SPREAD_RELIGION|city=65536|charges=1",
+        "BaiqiExecutor: BAIQI|request|turn=77|id=0:77:26|source=BACKGROUND|unit=3735581|operation=SKIP_TURN|reason=entrusted_standby",
+        "BaiqiExecutor: BAIQI|request|turn=78|id=0:78:36|source=BACKGROUND|unit=3735581|operation=SKIP_TURN|reason=entrusted_standby"
+      ],
+      "SDK_SPREAD_attempts": 1,
+      "controlled_Native_SPREAD_forwarded": 0,
+      "target_observed_success_lines": [],
+      "missionary_wait_lines": [],
+      "wait_line_count": 0,
+      "all_requests_after_native_restore": [
+        "BaiqiExecutor: BAIQI|request|turn=78|id=0:78:36|source=BACKGROUND|unit=3735581|operation=SKIP_TURN|reason=entrusted_standby"
+      ],
+      "actual_END77_begin_count": 1,
+      "scope": "All target/current77-78 request/wait/observed matches retained, no outlier or duplicate deletion. Unforwarded SDK request is not engine rejection. Original ARMED unchanged; no false completion.",
+      "bounded_unresolved_reason_lines": [
+        "BaiqiExecutor: BAIQI|missionary_request_unresolved|turn=77|id=0:77:25|unit=3735581|awaiting_current_charge_proof=true"
+      ],
+      "unresolved_reason_count": 1,
+      "wait_key_count0_is_not_missing_explanation": "Actual product uses missionary_request_unresolved with exact requestID and awaiting-current-charge-proof. UI status initially says registered task awaiting actual result; later ordinary standby retains prior ability receipt.",
+      "all_after_restore_target_operations": "Only separately qualified SKIP78, no SPREAD"
+    },
+    "cleanup": {
+      "outer_then_inner_native_original_restored": true,
+      "fresh_passive_observer_three_bindings_restored": true,
+      "QA_globals_and_ActionPanel_flags_cleared": true
+    },
+    "save": {
+      "utc": "2026-11-16T22:40:42.813136+00:00",
+      "name": "Baiqi_P6_20261117_V160_RequestUnforwarded78.Civ6Save",
+      "bytes": 487536,
+      "sha256": "05bca7a58d7f744286a4f67f8e30946e00d794c1ff458af1e3c79820ea144abd",
+      "stable_repeated_read": true
+    },
+    "official_exit": {
+      "official_exit_calls": 1,
+      "quiet_before_terminate_seconds": 180.343105,
+      "all_windows_listeners": 0,
+      "CPU_stable_read_seconds": 2,
+      "owned_residue_terminate_calls": 1,
+      "exit_code": 15,
+      "kill_escalations": 0,
+      "natural_exit_claimed": false,
+      "Steam_actions": 0
+    }
+  },
+  "finite_case_review": {
+    "frozen_case": "docs/testing/baiqi-test-cases.md#tc-040",
+    "frozen_cases_sha256": "02724953dab1d29370899e6e1db58a2d6ed997af294139e2e04bf54ce775cc7c",
+    "owner_unknown": {
+      "Native_source": 160,
+      "evidence": "baiqi-source160-unknown-reasons-native76-http931-2026-11-17.json",
+      "actual76_refusal_target_requests": 0,
+      "reason_count": 1,
+      "restore_positive": "Actual charge2to1 and new OBSERVED after both read faults restored"
+    },
+    "formation_unknown": {
+      "Native_source": 160,
+      "evidence": "baiqi-source160-unknown-reasons-native76-http931-2026-11-17.json",
+      "actual76_refusal_target_requests": 0,
+      "reason_count": 1,
+      "actual_engine_getter_was_missing": false
+    },
+    "legality_unknown": {
+      "Native_source": 159,
+      "source160_impact_review": "Only one Tick denial-reason hunk changed; supplied original policy, religious Core/journal and missionary legality consumer unchanged. Reuse narrow159 actual true-to-nil SPREAD refusal/recovery with explicit provenance; no claim of a new160 legality-fault execution.",
+      "evidence": "baiqi-source159-legality-unknown76-native77-http929-2026-11-17.json",
+      "actual_SPREAD_requests76": 0,
+      "separate_native_SKIP76": 1,
+      "current76_reason_count": 1,
+      "reason_line": "BaiqiExecutor: BAIQI|wait|turn=76|key=missionary:3735581|reason=传教士等待安全国内路径或原生传播资格",
+      "raw_log_bytes": 78429,
+      "raw_log_sha256": "d98497997eb0c6650a5bbe6e823e316113f477fff49ca6e9afb7404cb2aa0c1a",
+      "same_load_prefix": true,
+      "stage_reason_retire_indices": [
+        173,
+        217,
+        243
+      ],
+      "normal77_restored_SPREAD": 1,
+      "charge_cost": [
+        2,
+        1
+      ]
+    },
+    "unaccepted_request_simulation": {
+      "Native_source": 160,
+      "status": "Controlled unforwarded SDK request, not engine rejection",
+      "request_record": "BACKGROUND0:77:25 SPREAD_RELIGION",
+      "actual77_78_no_charge_change_no_false_success_no_replay": true,
+      "bounded_unknown_reason_count": 1
+    },
+    "scope": "F07 representative controlled owner/formation/legality unknown and request-not-accepted branches, request/outcome truthfulness, bounded reasons and retries. Does not add every-API/every-unit/every-load-mode cross product.",
+    "remaining_required_in_frozen_case": [],
+    "separate_open_cases": [
+      "TC020 real Missionary escort eligibility across supported setup",
+      "TC036 current160 frozen performance",
+      "TC039 old8650807 recovery and other upgrade paths",
+      "Remaining finite001-039 required witnesses"
+    ]
+  },
+  "Owner_harness_corrections": [
+    "Post-unstack continuation initially reused a prior receipt filename: FileExistsError before Native; preserved failure.",
+    "Following phase changed select receipt but not step receipt: FileExistsError before Native; preserved failure.",
+    "Used unused sequence41 and original per-unit skip ledger; two fresh military skips, no old unit skip replay.",
+    "Initial readonly diagnostic reviewed correct operation field and retained armed=true after retirement before running the Native cycle."
+  ],
+  "lessons": [
+    "A controlled SDK-surface attempt deliberately not forwarded to Native is a valid unaccepted-request fault with explicit limits. It is not a measured Native engine rejection. Never promote no return values into an ACK or charge unchanged into completion.",
+    "Observe raw persistent state in both Core and UI, actual remaining charges, original Native qualification, attempted SDK and forwarded Native counts. Restore exact bindings then measure with a new passive observer across a normal turn without rewriting or replaying ARMED.",
+    "Cause messages may use a dedicated unresolved event carrying requestID rather than a generic wait-key line. Audit the actual consumer and complete same-prefix log before calling zero generic wait lines a missing explanation.",
+    "Normal END preflight can fail for military stacking after new training despite helper move/attack checks being false. A failed preflight before the exclusive marker and Native call is not a sent END. Fresh legal TEST_PLAYER military movement and previously unattempted skips can then qualify the first actual ordinary END.",
+    "Continuations must scope both filesystem receipts and Lua attempt keys. Merely changing the outer script name or select receipt prefix may still collide with step receipts and old turn:sequence keys. Keep old per-unit no-repeat ledgers and use genuinely unused scoped sequences.",
+    "A finite acceptance review may reuse a prior-version narrow Native branch only after precise source-impact and original-log review, preserving provenance. Here159 legality consumer and Core/policy were unchanged by160 Tick reason-only edit; owner/form/result branches actually ran160. Do not claim the old branch was freshly run160.",
+    "Current-version performance must be a new qualified capture. New QA packaging and source equality are preparation only; do not reroll unchanged runs until pass or transfer old budgets from another version."
+  ],
+  "OpenCode_daily": "Nov17 canonical successful1.19.5same-machine/user cache retained; native-generation0. TwoHTTP404/no candidate/adoption. Owner QA tools, Native results and finite review do not grant HTTP/OpenCode generation capability.",
+  "whole_mod": "OPEN",
+  "old_8650807": "FAIL_UNRESOLVED",
+  "current160_performance": "NOT_RUN",
+  "unknown": {
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}
