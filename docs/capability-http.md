@@ -7208,3 +7208,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[934935与160 B_plan](evidence/2026-11-17-civ6-http934935-source160-Bplan-pass.json)。934全脚本准备13来源371329字节、935配对准备14来源377965字节，均单POST404／0候选采用extra；935初始错文件名POST前拒绝不另计生成。Owner160原85 B_plan有效PASS：Admin118纯十城p95/max2/10ms，Controller143为11/49ms，317全留24窗前32十一城／0错误丢样；普通91保存／撤钩／释放／自有退出完毕。仅B_plan，TC036其余预算与wholemod／旧865FAIL继续。累计935／816完整／68length／51最终请求失败／974POST／38extra／0在途。
 
 2026-11-17：[160全脚本与请求预算](evidence/2026-11-17-civ6-source160-fullscript-request-budget-pass.json)。无新HTTP；Owner160原85全脚本B_turn／N_req有效PASS。33上下文、780保留／37237测零聚合／4096容量、792锚点／22计数行、0导出错误；396切换198校准行通过。五窗最大311ms／完整回合最多34提交，实际普通91保存撤钩释放退出完毕。驱动37639是早期totalCalls，中途误称保留行已纠正。原85三项预算齐，25配对及当前压力／wholemod／旧865FAIL继续。累计935／816完整／68length／51最终请求失败／974POST／38extra／0在途保持。
+
+2026-11-17：[936与八压力包准备](evidence/2026-11-17-civ6-http936-eight-pressure-packages-prepared.json)。936新真实压力接入任务14来源382204字节，单POST40426.8495ms／自然终态1／0候选采用extra。Owner在首启用侧正式释放／官方退出后两个有界空档准备当前160八压力包119文件97Lua双编译、规范配对ZIP和同前缀核验；先前预热期守卫拒绝未构建。MANY160自然>=12／NO_SITE160证书及压力Native仍NOT_RUN；首启用侧五段不是Bdelta通过。累计936／816完整／68length／52最终请求失败／975POST／38extra／0在途。

@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate_and_owner_QA_preparation",
+  "task936": {
+    "task": "Real current160MANY/NO_SITE qualification and matrix preparation before Owner builds, not completed-task recap",
+    "sources": 14,
+    "source_bytes": 382204,
+    "POST": 1,
+    "http_status": 404,
+    "total_ms": 26.84949990361929,
+    "complete_candidate": false,
+    "adopted": false,
+    "extra_POST": 0,
+    "terminal_exit": 1,
+    "current_request_killed": false,
+    "stop_further_retry_flag_after_actual_POST": true,
+    "ended_before_first_pair_formal": true
+  },
+  "ledger": {
+    "logical": 936,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 52,
+    "generation_POST": 975,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/a1f42ba5c5ef6e8ef9966563e906a9e82ac61f90/docs/research/baiqi-source160-pressure-packages-http936-2026-11-17.json",
+  "prepared_packages": [
+    {
+      "scene": "many",
+      "phase": "plan",
+      "initial_turn": 6,
+      "archive_sha256": "f8eb2425e08c3d5f8de5f67a5dbe54c0737dac31f7deac079a7606e8c8e8c352",
+      "mode": "baiqi160-pressure-stageA-v1"
+    },
+    {
+      "scene": "many",
+      "phase": "observed",
+      "initial_turn": 6,
+      "archive_sha256": "a52e0704cb20bb45e6659351e2adadc5b33c0e60065931fe13a706088d2bbe05",
+      "mode": "baiqi160-pressure-observed-v1"
+    },
+    {
+      "scene": "nosite",
+      "phase": "plan",
+      "initial_turn": 1,
+      "archive_sha256": "85978cd87056c2d210c2362a14348e0926ce4eb4c44bb1ffff2956efdcbcfc1a",
+      "mode": "baiqi160-pressure-stageA-v1"
+    },
+    {
+      "scene": "nosite",
+      "phase": "observed",
+      "initial_turn": 1,
+      "archive_sha256": "d30b4ad5065937f3a44748810b481a28bedfbb7c1733622e6378f145187674ae",
+      "mode": "baiqi160-pressure-observed-v1"
+    },
+    {
+      "scene": "many",
+      "variant": "enabled",
+      "initial_turn": 6,
+      "archive_sha256": "c45fa9694333fa32c3408b5c3efe58f990949f00fef4cbb80a20917c8be4692c",
+      "mode": "baiqi160-pressure-paired-enabled-v1",
+      "clock_prefix_sha256": "85ea5ecd6578f2b8311b51e0b8744e16d5d0235fa4861ccb04a9e014350ad43c"
+    },
+    {
+      "scene": "many",
+      "variant": "control",
+      "initial_turn": 6,
+      "archive_sha256": "6a04b4fc9ae10a67ba8a0378bd364c5f8de5fbd5d41662ba7917572a2f244eab",
+      "mode": "baiqi160-pressure-paired-control-v1",
+      "clock_prefix_sha256": "85ea5ecd6578f2b8311b51e0b8744e16d5d0235fa4861ccb04a9e014350ad43c"
+    },
+    {
+      "scene": "nosite",
+      "variant": "enabled",
+      "initial_turn": 1,
+      "archive_sha256": "b93af2600aa841a9b0d260f209e92afd44d2e6d43545d6a1c6de63cb1fa80f77",
+      "mode": "baiqi160-pressure-paired-enabled-v1",
+      "clock_prefix_sha256": "f2a12928395b0848a497445ecc56bb4622489a364d04d067bf6079e81545875f"
+    },
+    {
+      "scene": "nosite",
+      "variant": "control",
+      "initial_turn": 1,
+      "archive_sha256": "8893ecb63672ea67c872fcf71f018e80ab07eb0c8daa66244d202be0a7a6a8d6",
+      "mode": "baiqi160-pressure-paired-control-v1",
+      "clock_prefix_sha256": "f2a12928395b0848a497445ecc56bb4622489a364d04d067bf6079e81545875f"
+    }
+  ],
+  "software": {
+    "each119manifest_same_product_source": true,
+    "all_original_and_transformed_Lua51_Lua53_compiled": true,
+    "paired_canonical_transform_zip119hashes_verified": true,
+    "same_scene_enabled_control_clock_prefix_identical": true,
+    "Native_calls": 0,
+    "formal_budget_pass": false,
+    "Native_qualification_pass": false,
+    "four_first_batch_elapsed_seconds": 20.27984239999205,
+    "four_pair_batch_elapsed_seconds": 19.35530379996635
+  },
+  "MANY": {
+    "initial_turn": 6,
+    "window_turns": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "planning_fullscript_closing_turn": 12,
+    "paired_END_turns": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "paired_activation_turns": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "fixture_bytes": 324195,
+    "fixture_sha256": "459a46e5d23d0600db7bd682a8d99f44218cc1812ba34bd6cdbe07993340da0a",
+    "current160_natural_admitted_ge12": "NOT_RUN; must observe actual deduplicated natural consumer admission, no directQAgetter credit"
+  },
+  "NO_SITE": {
+    "initial_turn": 1,
+    "window_turns": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "planning_fullscript_closing_turn": 7,
+    "paired_END_turns": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "paired_activation_turns": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "fixture_bytes": 295622,
+    "fixture_sha256": "92f43e9ca5fa38adef7d0e602d50d3e11da6d65f9cfbd6db496292113c8b9aa0",
+    "current160_geometry_certificate": "NOT_RUN; full map1144 with1133water/11cities/0bareland is historical premise, not a freshly observed160certificate"
+  },
+  "scheduling": {
+    "first_pair_enabled_side_formal_release_utc": "2026-11-16T23:45:32.334567+00:00",
+    "four_first_batch_completed_utc": "2026-11-16T23:46:53.233469+00:00",
+    "four_pair_batch_completed_utc": "2026-11-16T23:47:47.077932+00:00",
+    "builds_between_formal_captures": true,
+    "formal_overlap": false,
+    "initial_preparation_guard": "Initial pressure build attempt refused before imports/builds because current side already in warmup. Later separate explicit post-formal official-exit admission used; each build verifies no formal lock and bounded elapsed budget, no permit to build during a capture.",
+    "no_Native_parent_interruption": true,
+    "sole_game_writer": "Existing pair160allgroups parent; preparation performs no Native queries"
+  },
+  "lessons": [
+    "Current-version private artifacts must pin actual source,119files,97Lua dualcompile, exactcalendars, canonicalpairedtransforms and identicalper-sceneclockprefixes. Eightbuiltpackages are preparation, never Native qualification/performance.",
+    "MANY requires fresh actual naturaldeduplicated admission>=12; directQAgetter checks do not count. NO_SITE historicalgeometry likewise needs a new actual scene certificate. Do not transfer156/142qualifiedresults into160.",
+    "Schedule heavy artifact work outside formal capture. A pre-warmup-onlyguard refused an attempt after warmuphadstarted; no build occurred. Later explicit post-formal official-exit admission allowed two bounded batches, both completing with noformal lock while the soleNativeparent independently waited for own quiet exit.",
+    "Five valid enabled-side raw segments before counterpartcompletion are not a pair or global B_delta pass. Retain the6.314/7.317secondlongsegments and waitforcomplete25deltas/ratios.",
+    "The owner can preserve continuous Native testing and prepare independent future work between captures; use actualphase/readback and explicittimebounds, not a centralACKserialization gate or inferredpermission to overlap formal work."
+  ],
+  "OpenCode_daily": "Nov17same-machine/user canonical successful1.19.5maintenance cache reused,native-generation0.936single404/no candidate/adoption; Ownerbuild/compile doesnotgrantHTTP/OpenCodecodegenerationcapability.",
+  "whole_mod": "OPEN",
+  "whole_TC036": "OPEN_CURRENT25PAIRS_AND_PRESSURE_NATIVE_MATRICES",
+  "old8650807": "FAIL_UNRESOLVED",
+  "unknown": {
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}
