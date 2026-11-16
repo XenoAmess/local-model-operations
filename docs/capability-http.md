@@ -7146,3 +7146,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[909终态与Owner修正](evidence/2026-11-16-civ6-http909-source156-registration.json)。909真实QA版本接入：1POST180032.292ms无响应头、0候选；Owner接管，第二轮软件检查在途，Native156待测。累计909／816完整／68length／25最终传输／948生成POST／38额外／0在途。
 
 2026-11-16：[910与models元数据新证据](evidence/2026-11-16-civ6-http910-provider404-models200.json)。910真实20回合适配审阅1POST47.953秒返回provider404，0候选；其后1metadataGET200列出1模型但未列配置模型，根因仍未知。累计910／816完整／68length／26最终请求失败（本次HTTP404）／949生成POST／38额外／0在途。Owner156软件2676过／1SDK跳过，MANY自然资格Native过，不授性能或完整Mod。
+
+2026-11-16：[156当前MANY配对](evidence/2026-11-16-civ6-source156-many-matched-pass.json)。Owner156五组MANY25差值−27.999878ms／−3.498196%，冻结B_delta通过；旧155有效FAIL保留，其他预算／全Mod继续。无新增HTTP或模型代码采用，累计910／949POST不变。
