@@ -7136,3 +7136,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[Civ6906崩溃审阅](evidence/2026-11-16-civ6-http906-owned-native-crash-review.json)。906真实自有DX12冷载崩溃审阅，单POST180秒无响应头，0候选。实际生产者依赖定义未全给的输入限制明记；Owner拒认成因、保留有效侧，只换失效侧。累计906／816完整／68length／22最终传输／945HTTP／38额外，0在途。
 
 2026-11-16：[Civ6907有限输入](evidence/2026-11-16-civ6-http907-finite-input-audit.json)。907真实有限人工输入审阅，单POST180秒无响应头，0候选。Owner源影响核对和有限缺口清单不算新Native通过；UILoader定义遗漏明确归Owner。累计907／816完整／68length／23最终传输／946HTTP／38额外，0在途。
+
+2026-11-16：[Civ6新鲜models502](evidence/2026-11-16-civ6-model-metadata-502.json)。重复失败后新鲜只读诊断：一次TCP握手约24ms成功，复用共享每日维护／transport的单modelsGET约70ms返回502空正文。0生成POST／重试／Native。生成计数仍907／816完整／68length／23最终传输／946POST／38额外，元数据GET另列；根因／后台jobs未知。
