@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "source_version": 156,
+  "product_commit": "b7faffd205ac89005d4908a6532be1c3a3f707b4",
+  "scene": "NO_SITE",
+  "four_frozen_budgets": {
+    "B_plan": "PASS",
+    "B_turn": "PASS",
+    "N_req": "PASS",
+    "B_delta": "PASS"
+  },
+  "scope": "Current source156 exact GS singleplayer frozen NO_SITE fixture, original1; not full TC036 matrix or fullmod acceptance.",
+  "evidence": [
+    "https://github.com/XenoAmess/civ6_dev/blob/cc77116ae14db27c6a87a8f4e77472cfc4cbcb75/docs/research/baiqi-source156-nosite-qualification-2026-11-16.json",
+    "https://github.com/XenoAmess/civ6_dev/blob/cc77116ae14db27c6a87a8f4e77472cfc4cbcb75/docs/research/baiqi-source156-pressure-nosite-plan-2026-11-16.json",
+    "https://github.com/XenoAmess/civ6_dev/blob/cc77116ae14db27c6a87a8f4e77472cfc4cbcb75/docs/research/baiqi-source156-pressure-nosite-observed-2026-11-16.json",
+    "https://github.com/XenoAmess/civ6_dev/blob/cc77116ae14db27c6a87a8f4e77472cfc4cbcb75/docs/research/baiqi-source156-nosite-paired-final-2026-11-16.json"
+  ],
+  "planning_targets": {
+    "Admin.Run": {
+      "pure_ten_count": 139,
+      "p50_ms": 0.9999275207519531,
+      "p95_ms": 4.999876022338867,
+      "max_ms": 7.999897003173828,
+      "above_20ms_count": 0,
+      "above_50ms_count": 0,
+      "budget_ok": true
+    },
+    "Controller.RunNow": {
+      "pure_ten_count": 155,
+      "p50_ms": 0.9999275207519531,
+      "p95_ms": 5.000114440917969,
+      "max_ms": 6.000041961669922,
+      "above_20ms_count": 0,
+      "above_50ms_count": 0,
+      "budget_ok": true
+    }
+  },
+  "whole_script": {
+    "contexts": 33,
+    "retained_samples": 547,
+    "aggregate_zero_success_calls": 17647,
+    "coverage_ok": true
+  },
+  "paired": {
+    "groups": 5,
+    "cold_sides": 10,
+    "raw_segments": 50,
+    "differences": 25,
+    "median_delta_ms": 29.999732971191406,
+    "median_ratio_percent": 4.942294466136909,
+    "group_medians": [
+      {
+        "pair": 1,
+        "median_delta_ms": -581.0000896453857,
+        "median_ratio_percent": -45.5329215692576
+      },
+      {
+        "pair": 2,
+        "median_delta_ms": 36.00001335144043,
+        "median_ratio_percent": 5.891981956671037
+      },
+      {
+        "pair": 3,
+        "median_delta_ms": 550.9998798370361,
+        "median_ratio_percent": 96.02763349587524
+      },
+      {
+        "pair": 4,
+        "median_delta_ms": 58.00008773803711,
+        "median_ratio_percent": 9.797311991648906
+      },
+      {
+        "pair": 5,
+        "median_delta_ms": -104.00009155273438,
+        "median_ratio_percent": -13.941030076853234
+      }
+    ],
+    "excluded_runs": [],
+    "all_spikes_retained": true
+  },
+  "auxiliary_work": "Pair2control owner light read/hash45smallUI files and Git name-only diff wall0.1261147s during formal reload before timed segments; disclosed in exact project record. No modelHTTP/build/Luac/fulltests then; do not claim zero ALL auxiliary host work or its CPU effect.",
+  "lessons": [
+    "Keep original five-group/global25-difference criterion: a groupmedian over budget is retained but is not an additional rejection gate. Do not filter outliers or add rules after measurement.",
+    "Performance protocol admission, ordinary END ACK, execution queue, actual activation, save, exact observer retirement, explicit formal release, official exit and quiet own-process cleanup remain separate evidence.",
+    "Strict geometric no-site qualification is independent of a natural recommendation count of zero; do not substitute empty recommendations for complete geometry."
+  ],
+  "model_ledger": "No new generation call for this arithmetic publication. Current through914: logical914/complete816/length68/finalrequestfail30/generationPOST953/extra38/inflight0; metadataGET2/TCP1 separate; OpenCodeNative0.",
+  "OpenCode": "Daily successful same-machine/user Nov16 1.19.5 cache retained; performance capture does not grant generation capability.",
+  "full_mod_acceptance": "OPEN",
+  "old_8650807_recovery": "FAIL_UNRESOLVED",
+  "unknown": {
+    "exclusive_CPU_effect": null,
+    "causal_speedup": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}
