@@ -1,0 +1,192 @@
+{
+  "date": "2026-11-16",
+  "machine": "BF-202609141645",
+  "mode_id": "http_candidate",
+  "model915": {
+    "task": "civ6-915-original85-plan-failure",
+    "sources": 20,
+    "source_bytes": 530170,
+    "actual_POST": "2026-11-16T13:10:42.930301+00:00",
+    "actual_END": "2026-11-16T13:10:43.026837+00:00",
+    "http_status": 404,
+    "total_ms": 96.18850005790591,
+    "http_headers_ms": null,
+    "finish_reason": null,
+    "sse_done": false,
+    "candidate_count": 0,
+    "adoption": 0,
+    "generation_POST": 1,
+    "extra_POST": 0,
+    "max_tokens": 2600,
+    "request_killed": false,
+    "stop_marker": "Written after observed POST to prevent another retry; does not explain404 or mean currentrequest killed.",
+    "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "maintenance": "Delegated to canonical call.py CLI client_preflight, before HTTP",
+    "phase_events": [
+      {
+        "utc": "2026-11-16T13:08:40.806563+00:00",
+        "phase": "PREP_BEGIN",
+        "owner": "civ6-root",
+        "limits": "Wall only; earlier scoping/readings unknown. Own game quiet-exit pipeline may proceed concurrently; no exclusive active cost or net savings claim."
+      },
+      {
+        "utc": "2026-11-16T13:10:32.543992+00:00",
+        "phase": "PREP_END",
+        "owner": "civ6-root",
+        "limits": "Wall only; earlier scoping/readings unknown. Own game quiet-exit pipeline may proceed concurrently; no exclusive active cost or net savings claim."
+      },
+      {
+        "utc": "2026-11-16T13:14:53.572802+00:00",
+        "phase": "REVIEW_BEGIN",
+        "owner": "civ6-root",
+        "limits": "Wall only; earlier scoping/readings unknown. Own game quiet-exit pipeline may proceed concurrently; no exclusive active cost or net savings claim."
+      },
+      {
+        "utc": "2026-11-16T13:21:32.544644+00:00",
+        "phase": "REVIEW_END",
+        "limits": "Earlier result/raw-row reading before REVIEW_BEGIN unknown; wall intervals are not exclusive activecost or net savings."
+      }
+    ],
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "ledger_through915": {
+    "logical": 915,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 31,
+    "generation_POST": 954,
+    "extra_POST": 38,
+    "inflight": 0,
+    "metadata_GET_separate": 2,
+    "TCP_separate": 1,
+    "OpenCode_native_generation": 0
+  },
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/81be8381781b4eb38e851fdd92b893fa118169a9/docs/research/baiqi-source156-plan-failure-http915-2026-11-16.json",
+  "actual_budget_failure": {
+    "source": "baiqi156-stageA-v2",
+    "sample_quality_ok": true,
+    "samples": 317,
+    "classification_counts": {
+      "Admin.Run": {
+        "pure_ten": 109,
+        "10_to_11": 0,
+        "eleven_city": 8,
+        "turn_crossing": 0,
+        "other_city_state": 0,
+        "outside_window": 0,
+        "before_native_anchor": 0
+      },
+      "Controller.RunNow": {
+        "pure_ten": 152,
+        "10_to_11": 0,
+        "eleven_city": 9,
+        "turn_crossing": 0,
+        "other_city_state": 0,
+        "outside_window": 0,
+        "before_native_anchor": 39
+      }
+    },
+    "eligible_calls_by_turn": {
+      "Admin.Run": {
+        "86": 24,
+        "87": 26,
+        "88": 24,
+        "89": 20,
+        "90": 23
+      },
+      "Controller.RunNow": {
+        "86": 34,
+        "87": 32,
+        "88": 32,
+        "89": 30,
+        "90": 33
+      }
+    },
+    "targets": {
+      "Admin.Run": {
+        "pure_ten_count": 109,
+        "p50_ms": 0.9999275207519531,
+        "p95_ms": 9.000062942504883,
+        "max_ms": 53.999900817871094,
+        "above_20ms_count": 1,
+        "above_50ms_count": 1,
+        "budget_ok": false
+      },
+      "Controller.RunNow": {
+        "pure_ten_count": 152,
+        "p50_ms": 6.000041961669922,
+        "p95_ms": 34.00015830993652,
+        "max_ms": 250.0,
+        "above_20ms_count": 17,
+        "above_50ms_count": 4,
+        "budget_ok": false
+      }
+    },
+    "overall_budget_ok": false,
+    "limits": "Independent planning-function inclusive wall-clock latency only; no B_turn, N_req, B_delta or whole TC-036 pass.",
+    "pre_anchor": {
+      "pending": 0,
+      "recorded": 39,
+      "validated": 39,
+      "errors": 0
+    }
+  },
+  "next_prepared_diagnostic": {
+    "mode": "baiqi156-controller-children-v5",
+    "source_version": 156,
+    "files": 119,
+    "changed_files": [
+      "Lua/BaiqiController.lua"
+    ],
+    "children": [
+      "PlayerContext",
+      "RefreshSettlement",
+      "ReadBack",
+      "ProcessCity",
+      "ProcessBuilder",
+      "ProcessSettler",
+      "ArchaeologyPendingRead",
+      "ProcessNaturalistPurchase",
+      "KnownExpansionSupport",
+      "SettlerGoalBridge",
+      "PathStep",
+      "RequestCivilian"
+    ],
+    "binding_count": 14,
+    "sample_capacity": 4096,
+    "profile_count": 1,
+    "focus_turns": [
+      88,
+      89,
+      90
+    ],
+    "native_path_timing": true,
+    "archive_sha256": "6e0a032d7f3172535739f9528069a7969e1ceb5fb28cca0f3a1193f2a529285f",
+    "release_text_recovers_exactly": true,
+    "native_global_binding_modified": false,
+    "lua51_compiled": true,
+    "lua53_compiled": true,
+    "limits": "Diagnosis only. Explicit source153 opt-in retains active88/89/90 entries before the own observer and within its ten-second window. Same4096 capacity and exact restoration; instrumentation is not B_plan or whole performance evidence."
+  },
+  "lessons": [
+    "Keep measured failure at frozen thresholds: current original85 Controllerp9534/max250 and Adminmax54 do not pass despite zero sample loss or earlier-version/other-fixture passes.",
+    "Before correcting a source cause, retain raw long rows grouped by actual original arguments/turn/anchor offsets; wall latency alone does not identify CPU load, GC, Native pathfinding or cadence causality.",
+    "Private existing lexical child/Native-path instrumentation can localize long roots while preserving original function lookup, arguments and returns, but changes root timing and cannot grant an uninstrumented budget pass.",
+    "Do not treat a pre-submit intent record as END execution. Preserve failed readiness check and independent ends90nil proof; continue only never-sent final action with all existing timing rows retained."
+  ],
+  "model_this_package_POST": 1,
+  "metadata_TCP_this_package": 0,
+  "provider_service_changes": 0,
+  "Native_diagnostic_next": "NOT_RUN",
+  "old_8650807": "FAIL_UNRESOLVED",
+  "full_mod_acceptance": "OPEN",
+  "OpenCode_daily": "Canonical client_preflight/cache retained for Nov16 same-machine/user 1.19.5; new nativegeneration0, no grant from HTTPfailure or private software compilation.",
+  "unknown": {
+    "backend_cause": null,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  }
+}

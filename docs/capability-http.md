@@ -7160,3 +7160,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-16：[914未知请求与事件证明边界](evidence/2026-11-16-civ6-http914-armed-event-audit.json)。914真实旧ARMED事件诊断，15来源／413973字节，一次POST HTTP404／27.6728ms，0候选／采用／额外。事件名称不是队列完整性保证，Native未跑。累计914／816完整／68length／30最终请求失败／953生成POST／38额外／0在途，metadataGET2/TCP1另计。
 
 2026-11-16：[Source156 NO_SITE四预算](evidence/2026-11-16-civ6-source156-nosite-four-budgets.json)。当前156 NO_SITE四冻结预算分别PASS；5组10冷侧25差值，中位29.999733ms／4.942294%，尖峰全部保留，无额外逐组门槛。仅算术发布0新增模型请求，当前914账保留。
+
+2026-11-16：[915规划超限与下一诊断](evidence/2026-11-16-civ6-http915-plan-failure.json)。915真实原85规划超限诊断20来源／530170字节，一次POST HTTP404／96.1885ms，0候选采用；Owner317条原值重核仍FAIL，私有分段包已构建未实测。累计915／816完整／68length／31最终请求失败／954生成POST／38额外／0在途，metadataGET2/TCP1另计。

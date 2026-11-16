@@ -2199,3 +2199,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-16：[914未知请求与事件证明边界](evidence/2026-11-16-civ6-http914-armed-event-audit.json)。现行共享client_preflight入口和同机同用户Nov16成功维护缓存保留；HTTP失败与独立软件准备不授原生生成能力，新增OpenCode原生生成0。
 
 2026-11-16：[Source156 NO_SITE四预算](evidence/2026-11-16-civ6-source156-nosite-four-budgets.json)。本轮游戏性能结果不授OpenCode代码生成能力；当日维护缓存保留，新增原生生成0。
+
+2026-11-16：[915规划超限与下一诊断](evidence/2026-11-16-civ6-http915-plan-failure.json)。现行维护入口与Nov16同机同用户成功缓存保留；HTTP失败／独立软件检查不授原生生成能力，新OpenCode原生0。
