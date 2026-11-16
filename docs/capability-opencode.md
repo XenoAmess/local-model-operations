@@ -2229,3 +2229,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[159二十回合限定实证](evidence/2026-11-17-civ6-source159-twenty-turn-native.json)。Nov17共享成功维护1.19.5缓存保持；新原生生成0。真实游戏通过、12项Owner双Lua工具验证和HTTP记录继续分账。
 
 2026-11-17：[926与编队未知实机子分支](evidence/2026-11-17-civ6-http926-formation-unknown-native.json)。Nov17共享成功维护1.19.5缓存保持；新原生生成0。12项Owner双Lua复核、Native子分支和HTTP404均不授OpenCode原生生成能力。
+
+2026-11-17：[927／928与原版护送资格、读取故障工具](evidence/2026-11-17-civ6-http927928-escort-and-read-fault-tools.json)。Nov17共享成功维护1.19.5缓存保持，新原生生成0。7项Owner软件检查与实机资格结果不授OpenCode原生生成能力，两个Lua51消费者夹具load签名错误及收窄后的覆盖范围分账。
