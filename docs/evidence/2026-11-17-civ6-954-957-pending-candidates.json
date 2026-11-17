@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/7c31e4c2556d490365ab29b578e94a795c3c0a37/docs/research/baiqi-source160-pending-candidates-http954-957-2026-11-17.json",
+  "requests": [
+    {
+      "task": 954,
+      "POST": 1,
+      "status": 404,
+      "total_ms": 160.50120000727475,
+      "begin": "2026-11-17T10:06:30.333445+00:00",
+      "end": "2026-11-17T10:06:30.493489+00:00",
+      "candidate_complete": false,
+      "finish_reason": null,
+      "terminal": 1,
+      "stop_file": true,
+      "sources": 12,
+      "source_bytes": 138854,
+      "adopted": false,
+      "extra_POST": 0,
+      "current_request_killed": false
+    },
+    {
+      "task": 955,
+      "POST": 1,
+      "status": 404,
+      "total_ms": 190.73150004260242,
+      "begin": "2026-11-17T10:06:30.293520+00:00",
+      "end": "2026-11-17T10:06:30.482231+00:00",
+      "candidate_complete": false,
+      "finish_reason": null,
+      "terminal": 1,
+      "stop_file": true,
+      "sources": 14,
+      "source_bytes": 139943,
+      "adopted": false,
+      "extra_POST": 0,
+      "current_request_killed": false
+    },
+    {
+      "task": 956,
+      "POST": 1,
+      "status": 404,
+      "total_ms": 161.68899997137487,
+      "begin": "2026-11-17T10:06:30.385889+00:00",
+      "end": "2026-11-17T10:06:30.547963+00:00",
+      "candidate_complete": false,
+      "finish_reason": null,
+      "terminal": 1,
+      "stop_file": true,
+      "sources": 11,
+      "source_bytes": 98229,
+      "adopted": false,
+      "extra_POST": 0,
+      "current_request_killed": false
+    },
+    {
+      "task": 957,
+      "POST": 1,
+      "status": 404,
+      "total_ms": 203.00380000844598,
+      "begin": "2026-11-17T10:06:30.576594+00:00",
+      "end": "2026-11-17T10:06:30.775709+00:00",
+      "candidate_complete": false,
+      "finish_reason": null,
+      "terminal": 1,
+      "stop_file": true,
+      "sources": 10,
+      "source_bytes": 709198,
+      "adopted": false,
+      "extra_POST": 0,
+      "current_request_killed": false
+    }
+  ],
+  "concurrency": {
+    "real_independent_prepared_tasks": 4,
+    "dispatch_wrapper_tasks": 4,
+    "actual_POST_interval_peak": 3,
+    "server_inference_concurrency": null,
+    "current_inflight": 0,
+    "frozen_initial_reference_target": [
+      12,
+      16
+    ],
+    "not_a_quota": true
+  },
+  "Owner_review": [
+    "Each task included actual source/API/consumer and a real distinct unfinished objective before Owner implementation/review. Four wrappers ran independently; receipts show only3 actual overlapping HTTP intervals, not4/12/16 inference workers.",
+    "All four ended HTTP404 with no SSE completion/finish_reason/valid complete JSON, no candidate adoption or code execution. Stop flags were actually written after observedPOST_BEGIN; no current request was killed and no game action replayed.",
+    "Canonical shared executor/transport/maintenance remained unchanged.404 does not identify provider/auth/model/routing cause or prove runtime game model-service unavailability. No alternate endpoint/model/second HTTP implementation was introduced.",
+    "These are developer dispatch facts only, not software/game/performance results. Owner continues corresponding real work while the sole NoSite Native parent closes its remaining sides."
+  ],
+  "ledger": {
+    "logical": 957,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 73,
+    "generation_POST": 996,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "whole_mod": "OPEN_CONTINUE"
+}

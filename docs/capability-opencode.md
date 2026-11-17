@@ -2297,3 +2297,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：952及Owner旧属性导出软件工作未调用OpenCode原生生成，Nov17同机同用户canonical1.19.5成功缓存和原生0保持；见[导出证据边界](evidence/2026-11-17-civ6-952-oldrights-export-bridge.json)。
 
 2026-11-17：953与Owner有限消费者软件夹具未调用OpenCode原生生成，Nov17同机同用户canonical1.19.5维护缓存和原生0保持，见[有限流程证据边界](evidence/2026-11-17-civ6-953-oldrights-finite-episode.json)。
+
+2026-11-17：954—957普通HTTP派发复用同机同用户Nov17canonical1.19.5成功维护缓存；未调用OpenCode原生生成，原生0保持。HTTP实际交叠不能授OpenCode工具能力，见[独立请求事实](evidence/2026-11-17-civ6-954-957-pending-candidates.json)。

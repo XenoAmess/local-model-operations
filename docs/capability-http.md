@@ -7274,3 +7274,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[952旧属性完整导出／自有只读桥](evidence/2026-11-17-civ6-952-oldrights-export-bridge.json)，11源136287B／一次POST40437.4369ms／0完整采用extra，无stop文件。Owner119／97＋20VM／28损坏导出拒绝，只授软件。有界节点／类型／计数／未知与drop保留，empty/unknown不得授qualified；失败编码尝试数与实际导出节点分开。累计952/816/68length/68最终失败/991POST/38extra/0在途；Native迁移仍未跑。
 
 2026-11-17：[953旧经营权有限消费者](evidence/2026-11-17-civ6-953-oldrights-finite-episode.json)，16源183416B／一次POST40423.4678ms／0完整采用extra；无stop文件。Owner16VM／24坏前态／6有限流程／2实际加载参数通过，仅软件。初始观察导出后先撤，再两普通回合与新3再存再载；未知操作无后续／重放，原版调用ACK与实际激活分开。Native未运行；累计953/816/68length/69最终失败/992POST/38extra/0在途。
+
+2026-11-17：[954—957四独立真实待做候选](evidence/2026-11-17-civ6-954-957-pending-candidates.json)，实际POST交叠峰值3；4次404／160.5012、190.7315、161.6890、203.0038ms／0完整采用extra。均有真实POST_BEGIN后stop旗，仅限后续重试，不杀当前请求；未知服务原因／缓存／Owner成本仍null。Source给实际API，Owner后续实现／审查；不计软件或Native。累计957/816/68length/73最终失败/996POST/38extra/0在途。
