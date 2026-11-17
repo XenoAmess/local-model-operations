@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-17",
+  "utc": "2026-11-17T04:21:26.904126+00:00",
+  "machine": "BF-202609141645",
+  "mode_id": "Owner follow-up to previously recorded942failure, no new request",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/d23325c5c4bed5fbc8a2810fb81de0edd5fe45d2/docs/research/baiqi-source160-pressure-input-auditors-http942-2026-11-17.json",
+  "software_only": {
+    "many": {
+      "utc": "2026-11-17T04:17:14.827800+00:00",
+      "source_version": 160,
+      "strict_negative_checks": [
+        "future_source",
+        "bool_source",
+        "wrong_fixture",
+        "forced_capture",
+        "duplicate_run",
+        "duplicate_token",
+        "boolean_clock_errors",
+        "bool_activation_turn",
+        "missing_marker",
+        "duplicate_marker",
+        "malformed_prefix",
+        "wrong_attempt_sequence",
+        "bool_frame_tag",
+        "different_selected_id",
+        "wrong_issuance_token",
+        "false_request_ACK",
+        "forced_request_ACK",
+        "bool_request_turn",
+        "missing_exhaustion",
+        "final_select_sequence_gap",
+        "unknown_empty_trace",
+        "same_unit_twice_in_one_turn",
+        "wrong_pressure_source",
+        "wrong_pressure_initial",
+        "wrong_pressure_calendar"
+      ],
+      "positive_checks": [
+        "explicit_synthetic_ten_side_immutable",
+        "explicit_exhaustion_zero_step_trace",
+        "real_sequence_difference_reported_without_mutation_or_replay"
+      ],
+      "fixture": "Explicit synthetic many pressure fixtures derived from current160MANYfirstenabled capture/firstactualT6step; cloned labels/tokens/calendars are software fixtures, NOT ten Native pressure runs or real NO_SITE input proof.",
+      "Native_queries": 0,
+      "all10_actual_audit": "NOT_RUN"
+    },
+    "nosite": {
+      "utc": "2026-11-17T04:17:14.851510+00:00",
+      "source_version": 160,
+      "strict_negative_checks": [
+        "future_source",
+        "bool_source",
+        "wrong_fixture",
+        "forced_capture",
+        "duplicate_run",
+        "duplicate_token",
+        "boolean_clock_errors",
+        "bool_activation_turn",
+        "missing_marker",
+        "duplicate_marker",
+        "malformed_prefix",
+        "wrong_attempt_sequence",
+        "bool_frame_tag",
+        "different_selected_id",
+        "wrong_issuance_token",
+        "false_request_ACK",
+        "forced_request_ACK",
+        "bool_request_turn",
+        "missing_exhaustion",
+        "final_select_sequence_gap",
+        "unknown_empty_trace",
+        "same_unit_twice_in_one_turn",
+        "wrong_pressure_source",
+        "wrong_pressure_initial",
+        "wrong_pressure_calendar"
+      ],
+      "positive_checks": [
+        "explicit_synthetic_ten_side_immutable",
+        "explicit_exhaustion_zero_step_trace",
+        "real_sequence_difference_reported_without_mutation_or_replay"
+      ],
+      "fixture": "Explicit synthetic nosite pressure fixtures derived from current160MANYfirstenabled capture/firstactualT6step; cloned labels/tokens/calendars are software fixtures, NOT ten Native pressure runs or real NO_SITE input proof.",
+      "Native_queries": 0,
+      "all10_actual_audit": "NOT_RUN"
+    }
+  },
+  "preparation": {
+    "utc": "2026-11-17T04:13:08.653885+00:00",
+    "source_version": 160,
+    "original85_unchanged": true,
+    "original_core_sha256": "145366be17c2aa7baee4a674f7f03ae02a6dd2bbf143885aa60d0eb7ed3ca950",
+    "original_consumer_sha256": "838ca2cdd715c92679760fa38cd3a7a2d1e53b9096c4f24856f49779ea42f8df",
+    "new_sources": {
+      "pressure160_many_input_audit_core_owner.py": "33e024c6dbd10fa7f036c65dd6ebec538811d9e1d4482072564ad7315a8c3d1a",
+      "pressure160_many_input_audit_owner.py": "6dd930dcfef6af571068b97de11083c5522e5d21e9067a9ab3375f9083455719",
+      "pressure160_nosite_input_audit_core_owner.py": "36dd6febfc3b96926eb8b5feeb506616daf6609ef6c0f336d48621bd56a619a0",
+      "pressure160_nosite_input_audit_owner.py": "77b59ef587998be4ae101218751af5ac9527fe9b9d8e0c74c620f10d99171c8a"
+    },
+    "Native_queries": 0,
+    "software_validation": "PENDING",
+    "actual_all10_pressure_audits": "NOT_RUN",
+    "scope": "Separate immutable-source specializations with actual pressure initial calendar/fixture/label and canonical pressure validation; all original receipt/sequence/explicitexhaustion checks preserved."
+  },
+  "Owner_review": [
+    "Two independent immutable-source specializations preserve original85auditor and actual900SKIP result. Canonical pressure validation uses actualinitial6or1, frozen sceneSHA and labels, without rewriting original Native captures into85.",
+    "Each strict actualall10consumer reads complete stepJSON, explicitfinalselectexhaustion even whenzero-step, ordinaryEND attempt/ACK and separateactualactivation. No missing trace is silently zero; sameunit/turnduplicates and source/fixture/calendar/token/runID errors reject.",
+    "Softwarefixture copies one actual current160MANYfirstenabled capture and actualT6step into synthetic10labels/tokens/calendars, explicitly not10Native runs or NO_SITEobservations; immutable normal, explicitexhaustionzero-step and genuine sequence-difference reporting are the three positives.",
+    "The first synthetic validator generation replaced substring85before fullID1048576, accidentally changing its negative-fixture replacement needle to104676or104176. Different-selected-ID checks correctly reported unexpectedlyaccepted because the mutation had not happened. Fixed fullID substitution before calendar substitution and exact131073needles in both validators; real audit core/Native data unchanged.25negative/3positive per scene then passed after formal release.",
+    "FirstMANYenabled rawfive intervals preserved including8.535s firstsegment; pairedcounterpart/groupmedians/global25 verdict notyetavailable. No exclusions or gatechanges."
+  ],
+  "actual_all10_pressure_audit": "NOT_RUN",
+  "ledger": {
+    "logical": 942,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 58,
+    "generation_POST": 981,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "lessons": [
+    "Preserve approved original85auditor/results; separately specialize realpressurelabels/frozenSHA/calendars and canonicalinitialturn rather than rewriting originalNative facts into85.",
+    "Strict actual all10admission requires every complete stepJSON and explicit lastselection exhaustion including zerosteps, separate ordinaryENDissue/ACK and actualactivation. Cloned tenlabels/tokens/calendars exercise software only, never establish tenNative run evidence.",
+    "First negativefixture generation replaced numeric substring85inside a fullunitID before replacing the original fullID. The intended actor mutation did nothing; the negative check correctly failed. Correct fullID substitution order and rerun the narrow checks; do not weaken validation to make a no-op mutation pass.",
+    "Bothscene specializations then pass25negatives/3positives using oneactualMANYfirstcapture/firststep as explicit syntheticfixtures. Realfirstside raw8.535s spike retained; no paired/globalbudget verdict available yet.",
+    "No new HTTPPOST, no adoptedcandidate and no OpenCode generated-code capability from Owner checks;942ledger remains unchanged."
+  ],
+  "whole_mod": "OPEN_CONTINUE",
+  "TC036": "OPEN_CURRENT_PRESSURE_PAIRS_AND_NO_SITE_MATRIX",
+  "old8650807": "FAIL_UNRESOLVED",
+  "OpenCode_daily": "Nov17 same-machine/user canonical1.19.5successcache/nativegeneration0"
+}

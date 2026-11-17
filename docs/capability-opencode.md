@@ -2271,3 +2271,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[当前160MANY规划预算](evidence/2026-11-17-civ6-current160-many-planning-budget.json)。当前预算通过为Owner游戏证据，不授模型原生工具能力；Nov17维护缓存成功、原生生成0。
 
 2026-11-17：[941／942与当前MANY全脚本](evidence/2026-11-17-civ6-941942-lifecycle-pressure-followup.json)。941／942与Owner验证不授原生代码生成，Nov17成功1.19.5日维护缓存、原生生成0保持。
+
+2026-11-17：[942压力输入审计软件后续](evidence/2026-11-17-civ6-942-pressure-input-audit-software.json)。Owner工具软件检查不授OpenCode生成；Nov17维护成功缓存／原生生成0保持。
