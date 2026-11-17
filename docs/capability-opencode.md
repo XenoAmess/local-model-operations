@@ -2257,3 +2257,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[938与当前压力阶段消费者](evidence/2026-11-17-civ6-http938-input-audit-and-pressure-stages.json)。四阶段消费者和Lua载荷为Owner软件准备，未授OpenCode生成能力；Nov17既有1.19.5成功维护缓存、原生生成0保持，HTTP404与原生能力继续分账。
 
 2026-11-17：[输入守卫与压力配对准备](evidence/2026-11-17-civ6-http938-input-guards-pressure-pairs.json)。上述Owner检查与原值不授OpenCode生成／Native能力；既有Nov17维护成功缓存1.19.5与原生生成0保持。
+
+2026-11-17：[939早期SDK观察与存载准备](evidence/2026-11-17-civ6-http939-passive-startup-reload-preparation.json)。939的HTTP404、Owner独立包／VM结果和同版重载计划不授OpenCode生成或Native能力；Nov17已有1.19.5成功维护缓存与原生生成0保持。
