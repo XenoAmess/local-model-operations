@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/4f28fcf7505d3a56c76cad4f6c5ee6163a1b9c04/docs/research/baiqi-source160-oldpause-marker2-failure-fix966-software-2026-11-17.json",
+  "status": "ACTUAL_RETAINED_LEGACY_CONTROL_PROPERTY_FAIL_PRIVATE_FIX_VERIFIED_NOT_APPLIED",
+  "Owner_review": [
+    "Original frozen P5FiveCitiesStart actually contains cleaned marker2 and disabled legacy state with five city and five unit entries. Natural cleanup leaves the entire old state unchanged because current RetireLegacyControls nests its removal under the already-completed rights gate. Initial QA also incorrectly assumed this real old fixture must have marker!=2; original failure is preserved.",
+    "Fresh current160 controller.available is true and all five city queue metadata are known. This proves availability and current queues, not a completed production action or an actual operational pause. The actual failing boundary is retained deprecated property cleanup; do not call inert stale data an observed gameplay pause.",
+    "Owner future proposal moves only the all-alive old STATE cleanup outside the expensive plot/rights guard. Original source reproduces marker2 retained-state in both Lua engines. Eight candidate VM cases cover disabled tables, false properties, dirty plots and already-clean state; repeated calls cause no extra plot/Game writes, and later old state is removed. Requisition/settlement journals, gold/moves and SDK requests remain unchanged in software.",
+    "No product or installed119 byte changed. The actual scene is being closed by sole abort parent99632: readonly failed-state snapshot, own bridge retirement, official new24 save and owned exit, zero END/manual domestic/original replay. This software record does not claim that parent terminal or P5 acceptance.",
+    "Future readonly WAKE episode V3 now gates the actual failed-P5 diagnostic closure, verified save/retirement/zeroEND and exact own residue, instead of requiring or fabricating a successful P5 witness. Only this predecessor gate changed; one new passive158 load/probe/save/exit flow and all original actor/bank constraints remain. V1/V2 receipts retained; V3 source hashes pinned after2loadVM/4flow checks.",
+    "966 was a new real migration-fix candidate before Owner implementation; canonical POST returned404 in61.5073ms, no complete candidate/adoption. Actual stop-file appeared after POST_BEGIN and stopped further retries; current request finished naturally. Whole TC022/039, old865, paid-city/economy/compatibility and valid pressure performance failures remain open."
+  ],
+  "model966": {
+    "task": 966,
+    "begin": "2026-11-17T13:31:17.095223+00:00",
+    "end": "2026-11-17T13:31:17.156587+00:00",
+    "total_ms": 61.50730000808835,
+    "http_status": 404,
+    "POST": 1,
+    "extra_POST": 0,
+    "terminal": 1,
+    "complete": false,
+    "adopted": false,
+    "stop_file_exists": true,
+    "current_request_killed": false,
+    "sources": 7,
+    "source_bytes": 448664
+  },
+  "ledger": {
+    "logical": 966,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 82,
+    "generation_POST": 1005,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "OpenCode_native_generation": 0,
+  "whole_mod": "OPEN_CONTINUE"
+}
