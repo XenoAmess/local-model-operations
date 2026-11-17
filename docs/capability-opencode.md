@@ -2331,3 +2331,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17: Readonly WAKE episode is Owner software work; same-machine/user canonical maintenance cache and OpenCode native generation0 remain separate. [Execution scope](evidence/2026-11-17-civ6-readonly-wake-finite-software.json).
 
 2026-11-17: Actual TC032 game acceptance was Owner Native work, separate from OpenCode native generation0. [Evidence and scope](evidence/2026-11-17-civ6-current160-oldrights-two-turns-reload.json). Canonical same-machine/user maintenance cache unchanged.
+
+2026-11-17: 964/965 reused canonical Nov17 same-machine/user maintenance success cache; native OpenCode generation0. Owner compiled/tested the private Windows SDK helper independently. [Separate HTTP/OS/game boundaries](evidence/2026-11-17-civ6-own-helper-wfp-selftest.json).
