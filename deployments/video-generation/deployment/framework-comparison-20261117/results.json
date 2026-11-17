@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-17",
+  "hardware": {
+    "gpu": "RTX 6000D",
+    "total_vram_mib": 85651,
+    "inference_host_limit_gib": 80,
+    "aggregate_host_limit_gib": 88
+  },
+  "production_framework_replaced": false,
+  "full_candidate_video_completed": false,
+  "ic_real_block": [
+    {
+      "strategy": "current",
+      "tokens": 174080,
+      "median_s": 7.347646199399605,
+      "all_bit_equal": true,
+      "scope": "one real block with actual HyperFlow, Sharp and unmerged IC adapters; not a full-video speedup"
+    },
+    {
+      "strategy": "accelerate",
+      "tokens": 174080,
+      "median_s": 7.38587989192456,
+      "all_bit_equal": true,
+      "scope": "one real block with actual HyperFlow, Sharp and unmerged IC adapters; not a full-video speedup"
+    },
+    {
+      "strategy": "diffusers",
+      "tokens": 174080,
+      "median_s": 7.81269043404609,
+      "all_bit_equal": true,
+      "scope": "one real block with actual HyperFlow, Sharp and unmerged IC adapters; not a full-video speedup"
+    },
+    {
+      "strategy": "current",
+      "tokens": 344064,
+      "median_s": 26.09771434450522,
+      "all_bit_equal": true,
+      "scope": "one real block with actual HyperFlow, Sharp and unmerged IC adapters; not a full-video speedup"
+    },
+    {
+      "strategy": "accelerate",
+      "tokens": 344064,
+      "median_s": 26.179414691054262,
+      "all_bit_equal": true,
+      "scope": "one real block with actual HyperFlow, Sharp and unmerged IC adapters; not a full-video speedup"
+    },
+    {
+      "strategy": "diffusers",
+      "tokens": 344064,
+      "median_s": 26.569774449570104,
+      "all_bit_equal": true,
+      "scope": "one real block with actual HyperFlow, Sharp and unmerged IC adapters; not a full-video speedup"
+    }
+  ],
+  "vsa_kernel": [
+    {
+      "backend": "fastvideo",
+      "torch": "2.12.0+cu130",
+      "input_sha256": "3c3ef10be27b2a6fc7f238da578676d1a043bcb2f4d7a780c5d488ca4ff1af42",
+      "median_s_after_warmup": 0.09247935097664595,
+      "bit_equal": true,
+      "max_abs_diff": 0.0,
+      "rms_diff": 0.0,
+      "scope": "Sparse attention kernel only; not complete Omni latency or a quality comparison"
+    },
+    {
+      "backend": "uniserve",
+      "torch": "2.13.0+cu130",
+      "input_sha256": "3c3ef10be27b2a6fc7f238da578676d1a043bcb2f4d7a780c5d488ca4ff1af42",
+      "median_s_after_warmup": 0.08968734298832715,
+      "bit_equal": false,
+      "max_abs_diff": 0.0009765625,
+      "rms_diff": 6.217233989296876e-05,
+      "scope": "Sparse attention kernel only; not complete Omni latency or a quality comparison"
+    },
+    {
+      "backend": "sglang",
+      "torch": "2.14.1+cu130",
+      "input_sha256": "3c3ef10be27b2a6fc7f238da578676d1a043bcb2f4d7a780c5d488ca4ff1af42",
+      "median_s_after_warmup": 0.09070172999054193,
+      "bit_equal": false,
+      "max_abs_diff": 0.00048828125,
+      "rms_diff": 1.9422163754685994e-07,
+      "scope": "Sparse attention kernel only; not complete Omni latency or a quality comparison"
+    }
+  ],
+  "concurrency": {
+    "serial": {
+      "pair_median_s": 47.69771575846244,
+      "throughput_ratio_vs_serial": 1.0,
+      "all_bit_equal": true,
+      "peak_gpu_allocated_gib": 46.24728870391846
+    },
+    "two_streams": {
+      "pair_median_s": 47.69430922251195,
+      "throughput_ratio_vs_serial": 1.0000714243691966,
+      "all_bit_equal": true,
+      "peak_gpu_allocated_gib": 46.24728870391846
+    },
+    "batch_two": {
+      "pair_median_s": 47.69094439491164,
+      "throughput_ratio_vs_serial": 1.0001419842621426,
+      "all_bit_equal": true,
+      "peak_gpu_allocated_gib": 46.31955432891846
+    }
+  },
+  "strata": {
+    "niko": {
+      "source_commit": "c77572806996349b49995e4f98d41b5294d36a21",
+      "status": "h3_import_and_launch_plan_rejected",
+      "full_video_s": null,
+      "evidence": "strata-niko-import.json"
+    },
+    "ro99": {
+      "source_commit": "015b075079c51a7aec670ee24924f920f5e7bb2b",
+      "status": "cuda_binary_built_h3_admission_rejected",
+      "full_video_s": null,
+      "build_evidence": "strata-ro99-build.json",
+      "admission_evidence": "strata-ro99-admission.json",
+      "build_workaround": "CUDA profiler API 13.2.86 headers, GCC15 -fno-thread-jumps",
+      "source_modified": false
+    }
+  },
+  "service_restored": true,
+  "diffusers_stream": {
+    "status": "rejected_bitwise_check",
+    "tokens": 4096,
+    "larger_shapes_not_tested": true,
+    "cause": "not diagnosed; no general upstream defect claim"
+  },
+  "sglang": {
+    "source_commit": "8e737da037ddf967d9b1bab778f48fb35275d7ee",
+    "status": "trained_vsa_h3_rejected_sm120",
+    "full_video_s": null,
+    "default_dense_run": "excluded from fair comparison; manually stopped",
+    "explicit_vsa_error": "VSA-H3 device capability 12.0 is outside the supported list",
+    "decoder": "original 36L FP32",
+    "pdd_head_fusion": true
+  },
+  "uniserve": {
+    "source_commit": "d58bee14b46475c690ead7540f9f2bbab7790195",
+    "status": "kernel_measured_default_full_residency_exceeds_vram",
+    "resident_parameters_gib": 94.6872275955975,
+    "full_video_s": null,
+    "default_decoder_projection_dtype": "float16"
+  }
+}

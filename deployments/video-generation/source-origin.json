@@ -1,8 +1,8 @@
 {
-  "source_commit": "a9359e9aecc6f61798778f2026a82135bfba9955",
+  "source_commit": "289a3c02c1d1c81a73c43e4804e4f3a24dba58a6",
   "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
   "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
-  "scope": "Committed video deployment source, configuration, documentation, pinned-upstream patch and small validation receipts",
+  "scope": "Committed video deployment and isolated framework benchmarks; small sanitized measurement and admission receipts",
   "omitted": [
     "runtime Git metadata",
     "models",
@@ -26,8 +26,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 3054,
-      "sha256": "2cc9a77e231a7c3158dc97a97eac475caae7aa23fdd7a1142e09abdf369cb3ac"
+      "bytes": 3967,
+      "sha256": "7d4d5e8a696e1f07c9ce06fd9b6c548296c9e46aa83c5d29cd56c0217eddebbd"
     },
     {
       "path": "deployment-omni.json",
@@ -63,6 +63,81 @@
       "path": "deployment/fastvideo/source.json",
       "bytes": 189,
       "sha256": "9f934d90eb8d5f8ac056822a3740c8b9470b40ebe2d3e23488570003e6d81636"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/4k-attention-concurrency.json",
+      "bytes": 4086,
+      "sha256": "509f6d3622293515636d3d30fa972d4315a819aaf2652d86248d6da6dd7cc361"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/offload-accelerate-174080.json",
+      "bytes": 4944,
+      "sha256": "932844ac1bf4ac84dd1d83988c3597203e5a03abc7d792553ffa486490397b37"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/offload-accelerate-344064.json",
+      "bytes": 4944,
+      "sha256": "de321d898474d1b9dfe9c84c3743888201820f724f4800a1eac52a4d6249a7bd"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/offload-current-174080.json",
+      "bytes": 4949,
+      "sha256": "6a913dbfce103f44286a0c4805ebd63c2ff74df945c51d66c57b118c626e6900"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/offload-current-344064.json",
+      "bytes": 4936,
+      "sha256": "3ef402491098cfcf172bafe7a0cd9e9dd7e798202d07cd7f508b213e9d429518"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/offload-diffusers-174080.json",
+      "bytes": 4951,
+      "sha256": "d29818f29ee14b5dc3eca7e91d4f02a7aec940b5af23519c1f83a2a7a5149b51"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/offload-diffusers-344064.json",
+      "bytes": 4941,
+      "sha256": "eb1d60157dbc4ebb2f106de681ce99a0fd7ec2b95ac6bc406abedbf520dd1c5b"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/results.json",
+      "bytes": 5130,
+      "sha256": "addf7724bd864a4e8fad744bbddf38c76aae8684a63e52bad1ac693ace431995"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/strata-niko-import.json",
+      "bytes": 2134,
+      "sha256": "5bad473db60f945c09e47a8a281b11d130abf28996aad685413e7ffa2eb886e9"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/strata-ro99-admission.json",
+      "bytes": 1367,
+      "sha256": "5c05195a2346ee7f6c4cb24f96afcf0d36634041c57307b89dcc0221c6ead212"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/strata-ro99-build.json",
+      "bytes": 1372,
+      "sha256": "b5de4f761dd74d8f2af0084b18ee57f0d1bfd53999ecfe94cf0291b14ba8da5b"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/uniserve-admission.json",
+      "bytes": 947,
+      "sha256": "59a6ed853656485cc9f7e53aec02601cc3ab5500d185922ef024e22e9cbd589b"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/vsa-fastvideo-65536.json",
+      "bytes": 824,
+      "sha256": "92e0ec47bbbce4495154a9576aec7eba852affe0a0fe0f567d2fcabf4eebec0a"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/vsa-sglang-65536.json",
+      "bytes": 836,
+      "sha256": "20ecd8f490cef486cab46371b1b17c988fe01f63a66be2790531b7d02135e338"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/vsa-uniserve-65536.json",
+      "bytes": 853,
+      "sha256": "255f4524581e460b53eaa92ffe63e4ebf59cb898d1fa4e3ef6b8b78071122567"
     },
     {
       "path": "deployment/minimax-h3/2k-environment.json",
@@ -325,6 +400,11 @@
       "sha256": "c4fc98776a3ba56b303469ed4560b777ef66c491f4b1c931d03597b3be2b5469"
     },
     {
+      "path": "docs/video-framework-benchmark-2026-11-17.md",
+      "bytes": 8394,
+      "sha256": "190c611c28739c3f80a61c0f4035833ecb516c257a08119a9c4381d42525144f"
+    },
+    {
       "path": "docs/video-http-api.md",
       "bytes": 10536,
       "sha256": "e18906fb3f8cf9b1304a89530d0f76fff9e37d11919b63b7925b89bd5590d6c3"
@@ -333,6 +413,11 @@
       "path": "docs/video-http-queue.md",
       "bytes": 10669,
       "sha256": "dc753bbacdbd5fc3ffe91ac58c2daf5590369eb13d814c36569b45d331d9f502"
+    },
+    {
+      "path": "docs/video-inference-framework-research-2026-11-17.md",
+      "bytes": 11147,
+      "sha256": "ee3e82706b23366fea1c6865e96b36fe3c6ef2af75214e54f1e85bb926417807"
     },
     {
       "path": "fasth3-omni-bf16.yaml",
@@ -495,9 +580,24 @@
       "sha256": "76ec53e6221ca0a38312e205f7aa71f0e23294654a2bc3de187b7b32547d2685"
     },
     {
+      "path": "tools/benchmark_h3_4k_concurrency.py",
+      "bytes": 5659,
+      "sha256": "0d351cba43bbd35dab88d9e92cf0aa72e24f1916d333d0f9048fe44c90e2ecac"
+    },
+    {
       "path": "tools/benchmark_h3_ic_exact.py",
-      "bytes": 12250,
-      "sha256": "32f4f68f3d0240460c2636f276e5f5f85dbc9f44a4074252f3dce4a4e706065d"
+      "bytes": 12514,
+      "sha256": "07a6ffa68c6de418786f712af0daf34663b082a1d97d39020c3c38c67a5559fc"
+    },
+    {
+      "path": "tools/benchmark_h3_offload_framework.py",
+      "bytes": 2539,
+      "sha256": "73a18b93e195bd11ce309c82a8223efeb4a4158d3c36eb80a87431be36ca0eae"
+    },
+    {
+      "path": "tools/benchmark_omni_vsa_backends.py",
+      "bytes": 7997,
+      "sha256": "950bd5c20c8b0590d0321f8dc324e377e7ebab08a2345240416eadc0b9e7111f"
     },
     {
       "path": "tools/check_omni_bf16_attention.py",
@@ -550,6 +650,11 @@
       "sha256": "81eb5c0a6280e750f49208ae179c7add0c455721ec9c517537d1a23b84dfa0ad"
     },
     {
+      "path": "tools/measure_sglang_omni_http.py",
+      "bytes": 5978,
+      "sha256": "934a5245a9a88df0777489458eb4866d60cc6b9e388d06965f21f43ff63e8ebb"
+    },
+    {
       "path": "tools/notify_minimax_h3_download.py",
       "bytes": 3893,
       "sha256": "c04fed6af660b0d45dcbc70e154de0c19c6aadaac533a5fb332656a562dba113"
@@ -565,14 +670,34 @@
       "sha256": "e4e48e15529469d4b9424bd9d67c9346a26be6904a1ec2558581a8697acb3a69"
     },
     {
+      "path": "tools/prepare_h3_framework_candidate.py",
+      "bytes": 3474,
+      "sha256": "c4677184295886ba5ba88c6a9213ffb2351fd888ebf90a956eba7c79301a21de"
+    },
+    {
       "path": "tools/prepare_omni_bf16.py",
       "bytes": 2066,
       "sha256": "5a99c9742734260c80fbd77729acbb63172c1fd9ebec834bd383805f5f336195"
     },
     {
+      "path": "tools/prepare_sglang_omni_checkpoint.py",
+      "bytes": 3748,
+      "sha256": "15d763d43f24e69a6bce77ca90c956979d5a7663f1da00be62c845eceaa1bf91"
+    },
+    {
       "path": "tools/probe_hf_routes.py",
       "bytes": 1991,
       "sha256": "26d93a532c8cd40cb85a23bec250239c7d1da1d30730736edb10a378df9fb535"
+    },
+    {
+      "path": "tools/probe_strata_h3.py",
+      "bytes": 4197,
+      "sha256": "72e679de34d0871a4ae39c8eacdfd599e374204622abec6a8a3eb9481ac2d8a5"
+    },
+    {
+      "path": "tools/probe_uniserve_omni.py",
+      "bytes": 3962,
+      "sha256": "049a80bbdf1d13a10fa31ab2d25a2928a643adf1019f11c9cdcf37101ddce53a"
     },
     {
       "path": "tools/queue_minimax_h3_2k_download.py",
@@ -598,6 +723,11 @@
       "path": "tools/run_open_h3_2k.py",
       "bytes": 3138,
       "sha256": "8f209b82518ee44ddbb89da47a8c70f935b98fa82b0d28b2d6aa4554d05e7eb4"
+    },
+    {
+      "path": "tools/run_sglang_omni_candidate.py",
+      "bytes": 3267,
+      "sha256": "907fa1eadc2c4f25b5b244f683d1241fe3589e74906d9e565fe39112a4a973c3"
     },
     {
       "path": "tools/serve_fasth3_omni.py",

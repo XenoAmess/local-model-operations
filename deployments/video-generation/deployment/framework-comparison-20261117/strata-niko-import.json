@@ -1,0 +1,58 @@
+{
+  "action": "niko-import",
+  "started": 1794903427.3194044,
+  "runs": [
+    {
+      "command": [
+        "$VIDEO_ROOT/tools/vendor/strata-candidate/bin/strata",
+        "models",
+        "import",
+        "$VIDEO_ROOT/models/FastH3-Omni-BF16",
+        "--plan",
+        "--output",
+        "json"
+      ],
+      "returncode": 5,
+      "wall_s": 0.11453038896434009,
+      "log": "strata-niko-import-0.log",
+      "response": "{\"schema_version\": 1, \"ok\": false, \"error\": {\"code\": 5, \"message\": \"no GGUF files found at the model import path (or in the folders inside it)\"}}\n"
+    },
+    {
+      "command": [
+        "$VIDEO_ROOT/tools/vendor/strata-candidate/bin/strata",
+        "models",
+        "import",
+        "$VIDEO_ROOT/models/Open-H3-Regenerate-2K-IC",
+        "--plan",
+        "--output",
+        "json"
+      ],
+      "returncode": 5,
+      "wall_s": 0.11434221803210676,
+      "log": "strata-niko-import-1.log",
+      "response": "{\"schema_version\": 1, \"ok\": false, \"error\": {\"code\": 5, \"message\": \"no GGUF files found at the model import path (or in the folders inside it)\"}}\n"
+    },
+    {
+      "command": [
+        "$VIDEO_ROOT/tools/vendor/strata-candidate/bin/strata",
+        "launch",
+        "--family",
+        "minimax-h3",
+        "--model",
+        "$VIDEO_ROOT/models/FastH3-Omni-BF16",
+        "--plan",
+        "--output",
+        "json"
+      ],
+      "returncode": 2,
+      "wall_s": 0.2644517938606441,
+      "log": "strata-niko-import-2.log",
+      "response": "{\"schema_version\": 1, \"ok\": false, \"error\": {\"code\": 2, \"message\": \"There is no model called '$VIDEO_ROOT/models/FastH3-Omni-BF16'. Models: Q2_0, IQ2_XS, IQ3_XXS, IQ3_S, IQ1_M, UD-IQ4_XS, UD-Q4_K_XL, UD-Q5_K_XL, UD-Q6_K_XL, Q8_0, UD-IQ1_M, UD-Q2_0, UD-IQ2_XS, UD-Q2_K_XL, UD-IQ3_XXS, UD-Q3_K_XL, UD-IQ4_XS-v31, Gyro-S, Gyro-M, NVFP4, NVFP4-NVIDIA, NVFP4-QAD.\"}}\n"
+    }
+  ],
+  "source_commit": "c77572806996349b49995e4f98d41b5294d36a21",
+  "scope": "H3 model import/admission, not inference timing",
+  "production_changed": false,
+  "status": "attempts_recorded",
+  "finished": 1794903427.8141918
+}

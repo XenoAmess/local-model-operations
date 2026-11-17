@@ -1,0 +1,44 @@
+{
+  "action": "ro99-build",
+  "started": 1794903770.97723,
+  "runs": [
+    {
+      "command": [
+        "$VIDEO_ROOT/FastVideo/.venv/bin/cmake",
+        "-S",
+        "$VIDEO_ROOT/tools/vendor/strata-ro99-candidate",
+        "-B",
+        "$VIDEO_ROOT/tools/vendor/strata-ro99-candidate/build-codex",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DSTRATA_ENABLE_CUDA=ON",
+        "-DCMAKE_CXX_FLAGS=-fno-thread-jumps",
+        "-DCMAKE_CUDA_COMPILER=$VIDEO_ROOT/tools/cuda/bin/nvcc",
+        "-DCUDAToolkit_ROOT=$VIDEO_ROOT/tools/cuda",
+        "-DCMAKE_CUDA_FLAGS=-I$VIDEO_ROOT/tools/vendor/strata-ro99-candidate/build-toolchain/nvidia/cu13/include"
+      ],
+      "returncode": 0,
+      "wall_s": 0.21438576909713447,
+      "log": "strata-ro99-build-0.log"
+    },
+    {
+      "command": [
+        "$VIDEO_ROOT/FastVideo/.venv/bin/cmake",
+        "--build",
+        "$VIDEO_ROOT/tools/vendor/strata-ro99-candidate/build-codex",
+        "--target",
+        "strata-chat",
+        "strata-server",
+        "--parallel",
+        "2"
+      ],
+      "returncode": 0,
+      "wall_s": 52.77889445004985,
+      "log": "strata-ro99-build-1.log"
+    }
+  ],
+  "source_commit": "015b075079c51a7aec670ee24924f920f5e7bb2b",
+  "scope": "H3 model import/admission, not inference timing",
+  "production_changed": false,
+  "status": "build_completed",
+  "finished": 1794903823.9716728
+}

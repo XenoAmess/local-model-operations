@@ -1,0 +1,35 @@
+{
+  "source_commit": "d58bee14b46475c690ead7540f9f2bbab7790195",
+  "gpu": "NVIDIA RTX 6000D",
+  "capability": [
+    12,
+    0
+  ],
+  "versions": {
+    "torch": "2.13.0",
+    "diffusers": "0.43.0",
+    "flashinfer-python": "0.6.18",
+    "uniserve-kernels": "0.1.0"
+  },
+  "scope": "Real GPU backend selection, real checkpoint configuration and meta-device memory budget; no full-video timing",
+  "provider_tests": {
+    "128": {
+      "status": "available",
+      "provider": "sm120"
+    },
+    "64": {
+      "status": "available",
+      "provider": "sm120"
+    }
+  },
+  "parameter_gib_by_component": {
+    "text_encoder": 47.96887919306755,
+    "transformer_ref": 40.9680552482605,
+    "video_decoder": 4.514750644564629,
+    "audio_decoder": 0.2419179417192936,
+    "video_encoder": 0.6718109846115112,
+    "audio_encoder": 0.32181358337402344
+  },
+  "resident_parameters_total_gib": 94.6872275955975,
+  "full_video_benchmark_completed": false
+}

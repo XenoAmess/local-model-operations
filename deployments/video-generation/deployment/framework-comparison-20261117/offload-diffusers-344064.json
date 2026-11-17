@@ -1,0 +1,154 @@
+{
+  "started": 1794901189.7636945,
+  "torch": "2.12.0+cu130",
+  "gpu": "NVIDIA RTX 6000D",
+  "tokens": 344064,
+  "heads": 56,
+  "head_dim": 128,
+  "scope": "one real block with actual HyperFlow, Sharp and unmerged IC adapters; not a full-video speedup",
+  "block": {
+    "baseline": [
+      {
+        "repeat": 0,
+        "wall_s": 26.67799175484106,
+        "bit_equal": true,
+        "peak_gpu_allocated_bytes": 36447498240,
+        "component_ms": {
+          "adaln_proj": 44.85232162475586,
+          "norm1": 11.577728271484375,
+          "attn.to_q": 214.53257751464844,
+          "attn.to_k": 214.4787139892578,
+          "attn.to_v": 214.5122528076172,
+          "attn.norm_q": 14.298720359802246,
+          "attn.norm_k": 14.305888175964355,
+          "sdpa": 23628.412109375,
+          "attn.to_out.0": 212.5540771484375,
+          "attn": 24574.650390625,
+          "norm2": 5.780479907989502,
+          "ff": 1320.8544921875
+        }
+      },
+      {
+        "repeat": 1,
+        "wall_s": 26.611791511066258,
+        "bit_equal": true,
+        "peak_gpu_allocated_bytes": 40146546688,
+        "component_ms": {
+          "adaln_proj": 0.5990080237388611,
+          "norm1": 5.744703769683838,
+          "attn.to_q": 214.40467834472656,
+          "attn.to_k": 214.50982666015625,
+          "attn.to_v": 214.5614776611328,
+          "attn.norm_q": 14.303423881530762,
+          "attn.norm_k": 14.329888343811035,
+          "sdpa": 23628.49609375,
+          "attn.to_out.0": 212.5220489501953,
+          "attn": 24574.4609375,
+          "norm2": 5.781504154205322,
+          "ff": 1321.96142578125
+        }
+      },
+      {
+        "repeat": 2,
+        "wall_s": 26.61629349179566,
+        "bit_equal": true,
+        "peak_gpu_allocated_bytes": 40146546688,
+        "component_ms": {
+          "adaln_proj": 0.5974079966545105,
+          "norm1": 5.727071762084961,
+          "attn.to_q": 214.42483520507812,
+          "attn.to_k": 214.60316467285156,
+          "attn.to_v": 214.4759063720703,
+          "attn.norm_q": 14.339872360229492,
+          "attn.norm_k": 14.328895568847656,
+          "sdpa": 23628.583984375,
+          "attn.to_out.0": 212.55007934570312,
+          "attn": 24574.658203125,
+          "norm2": 5.815296173095703,
+          "ff": 1322.689453125
+        }
+      }
+    ],
+    "exact_io": [
+      {
+        "repeat": 0,
+        "wall_s": 26.586162797175348,
+        "bit_equal": true,
+        "peak_gpu_allocated_bytes": 40062529536,
+        "component_ms": {
+          "adaln_proj": 0.6174079775810242,
+          "norm1": 5.726655960083008,
+          "attn.to_q": 214.42559814453125,
+          "attn.to_k": 214.525634765625,
+          "attn.to_v": 214.55104064941406,
+          "attn.norm_q": 14.329024314880371,
+          "attn.norm_k": 14.3156156539917,
+          "sdpa": 23628.55078125,
+          "attn.to_out.0": 212.5289306640625,
+          "attn": 24574.466796875,
+          "norm2": 5.8275837898254395,
+          "ff": 1321.0394287109375
+        }
+      },
+      {
+        "repeat": 1,
+        "wall_s": 26.575553975068033,
+        "bit_equal": true,
+        "peak_gpu_allocated_bytes": 40062529536,
+        "component_ms": {
+          "adaln_proj": 0.5891519784927368,
+          "norm1": 5.731488227844238,
+          "attn.to_q": 214.46263122558594,
+          "attn.to_k": 214.41920471191406,
+          "attn.to_v": 214.49798583984375,
+          "attn.norm_q": 14.306336402893066,
+          "attn.norm_k": 14.33011245727539,
+          "sdpa": 23632.126953125,
+          "attn.to_out.0": 211.96876525878906,
+          "attn": 24577.423828125,
+          "norm2": 5.81935977935791,
+          "ff": 1315.6884765625
+        }
+      },
+      {
+        "repeat": 2,
+        "wall_s": 26.563994924072176,
+        "bit_equal": true,
+        "peak_gpu_allocated_bytes": 40062529536,
+        "component_ms": {
+          "adaln_proj": 0.5873280167579651,
+          "norm1": 5.749887943267822,
+          "attn.to_q": 214.54396057128906,
+          "attn.to_k": 214.4784698486328,
+          "attn.to_v": 214.44741821289062,
+          "attn.norm_q": 14.307007789611816,
+          "attn.norm_k": 14.302528381347656,
+          "sdpa": 23632.158203125,
+          "attn.to_out.0": 212.0464630126953,
+          "attn": 24577.546875,
+          "norm2": 5.809120178222656,
+          "ff": 1319.9554443359375
+        }
+      }
+    ]
+  },
+  "attention": [],
+  "cast_cache": {
+    "linears": 6,
+    "host_bytes_saved": 79822848,
+    "compute_dtype": "bfloat16",
+    "cast_device": "cuda",
+    "lora_merged": false
+  },
+  "block_speedup": 1.0016661056699927,
+  "status": "block_exact_io_bitwise_verified",
+  "finished": 1794901350.8193972,
+  "offload_strategy": "diffusers",
+  "versions": {
+    "torch": "2.12.0+cu130",
+    "diffusers": "0.42.0",
+    "accelerate": "1.0.1"
+  },
+  "candidate_timing_key": "exact_io",
+  "baseline_timing_note": "Original unoptimized offload; compare candidate medians across strategy runs."
+}

@@ -1,0 +1,167 @@
+{
+  "started": 1794901520.1484737,
+  "status": "measured_attention_only",
+  "torch": "2.12.0+cu130",
+  "gpu": "NVIDIA RTX 6000D",
+  "tokens": 345843,
+  "heads": 56,
+  "head_dim": 128,
+  "dtype": "bfloat16",
+  "backend": "PyTorch FLASH_ATTENTION (FA2)",
+  "scope": "Two distinct synthetic inputs, one real-4K-length attention call each; NOT full videos",
+  "runs": {
+    "serial": [
+      {
+        "repeat": 0,
+        "pair_wall_s": 47.69474629079923,
+        "bit_equal": [
+          true,
+          true
+        ],
+        "job_completion_s": [
+          23.847990234375,
+          47.694609375
+        ],
+        "peak_gpu_allocated_bytes": 49657648128,
+        "peak_gpu_reserved_bytes": 52151975936
+      },
+      {
+        "repeat": 1,
+        "pair_wall_s": 47.693677552975714,
+        "bit_equal": [
+          true,
+          true
+        ],
+        "job_completion_s": [
+          23.845388671875,
+          47.693546875
+        ],
+        "peak_gpu_allocated_bytes": 49657648128,
+        "peak_gpu_reserved_bytes": 52151975936
+      },
+      {
+        "repeat": 2,
+        "pair_wall_s": 47.70175396394916,
+        "bit_equal": [
+          true,
+          true
+        ],
+        "job_completion_s": [
+          23.849134765625,
+          47.70162109375
+        ],
+        "peak_gpu_allocated_bytes": 49657648128,
+        "peak_gpu_reserved_bytes": 52151975936
+      }
+    ],
+    "two_streams": [
+      {
+        "repeat": 0,
+        "pair_wall_s": 47.70280205598101,
+        "bit_equal": [
+          true,
+          true
+        ],
+        "job_completion_s": [
+          23.85417578125,
+          47.70266796875
+        ],
+        "peak_gpu_allocated_bytes": 49657648128,
+        "peak_gpu_reserved_bytes": 52233764864
+      },
+      {
+        "repeat": 1,
+        "pair_wall_s": 47.69769254908897,
+        "bit_equal": [
+          true,
+          true
+        ],
+        "job_completion_s": [
+          23.8498359375,
+          47.69756640625
+        ],
+        "peak_gpu_allocated_bytes": 49657648128,
+        "peak_gpu_reserved_bytes": 52233764864
+      },
+      {
+        "repeat": 2,
+        "pair_wall_s": 47.690925895934924,
+        "bit_equal": [
+          true,
+          true
+        ],
+        "job_completion_s": [
+          23.84543359375,
+          47.69078515625
+        ],
+        "peak_gpu_allocated_bytes": 49657648128,
+        "peak_gpu_reserved_bytes": 52233764864
+      }
+    ],
+    "batch_two": [
+      {
+        "repeat": 0,
+        "pair_wall_s": 47.69517526286654,
+        "bit_equal": [
+          true,
+          true
+        ],
+        "job_completion_s": [
+          47.69503125,
+          47.69503515625
+        ],
+        "peak_gpu_allocated_bytes": 49735242752,
+        "peak_gpu_reserved_bytes": 52227473408
+      },
+      {
+        "repeat": 1,
+        "pair_wall_s": 47.69097190792672,
+        "bit_equal": [
+          true,
+          true
+        ],
+        "job_completion_s": [
+          47.69083203125,
+          47.69083203125
+        ],
+        "peak_gpu_allocated_bytes": 49735242752,
+        "peak_gpu_reserved_bytes": 52227473408
+      },
+      {
+        "repeat": 2,
+        "pair_wall_s": 47.690916881896555,
+        "bit_equal": [
+          true,
+          true
+        ],
+        "job_completion_s": [
+          47.69077734375,
+          47.69077734375
+        ],
+        "peak_gpu_allocated_bytes": 49735242752,
+        "peak_gpu_reserved_bytes": 52227473408
+      }
+    ]
+  },
+  "summary": {
+    "serial": {
+      "pair_median_s": 47.69771575846244,
+      "throughput_ratio_vs_serial": 1.0,
+      "all_bit_equal": true,
+      "peak_gpu_allocated_gib": 46.24728870391846
+    },
+    "two_streams": {
+      "pair_median_s": 47.69430922251195,
+      "throughput_ratio_vs_serial": 1.0000714243691966,
+      "all_bit_equal": true,
+      "peak_gpu_allocated_gib": 46.24728870391846
+    },
+    "batch_two": {
+      "pair_median_s": 47.69094439491164,
+      "throughput_ratio_vs_serial": 1.0001419842621426,
+      "all_bit_equal": true,
+      "peak_gpu_allocated_gib": 46.31955432891846
+    }
+  },
+  "finished": 1794901997.4489725
+}

@@ -19,6 +19,7 @@ def main():
     parser.add_argument("--tokens", type=int, default=344064)
     parser.add_argument("--repeats", type=int, default=2)
     parser.add_argument("--query-chunks", type=int, nargs="*", default=[4096, 16384, 65536])
+    parser.add_argument("--block-only", action="store_true", help="Skip unrelated attention kernel sweeps")
     args = parser.parse_args()
     sys.path.insert(0, str(ROOT / "llm-lab/scripts"))
     from resource_guard import require_isolation
@@ -211,6 +212,10 @@ def main():
                                   statistics.median(x["wall_s"] for x in report["block"]["exact_io"][1:])
         del model, block, expected, x, temb, indices, rope
         clear()
+        if args.block_only:
+            report.update(status="block_exact_io_bitwise_verified", finished=time.time())
+            save()
+            return
 
         q, k, v = [torch.randn(1, args.tokens, 56, 128, device="cuda", dtype=torch.bfloat16) for _ in range(3)]
 

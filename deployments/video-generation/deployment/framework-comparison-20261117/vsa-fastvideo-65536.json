@@ -1,0 +1,28 @@
+{
+  "backend": "fastvideo",
+  "kernel": "FastVideo Triton split-64 fallback used on SM120",
+  "torch": "2.12.0+cu130",
+  "tokens": 65536,
+  "heads": 56,
+  "head_dim": 128,
+  "dtype": "bfloat16",
+  "logical_tile": 128,
+  "keep_fraction": 0.1,
+  "dense_query_tiles": 2,
+  "input_sha256": "3c3ef10be27b2a6fc7f238da578676d1a043bcb2f4d7a780c5d488ca4ff1af42",
+  "samples_s": [
+    7.762134801130742,
+    0.09257013094611466,
+    0.09247935097664595,
+    0.09217721805907786
+  ],
+  "started": 1794902923.2602062,
+  "scope": "Sparse attention kernel only; not complete Omni latency or a quality comparison",
+  "peak_gpu_allocated_bytes": 7824828928,
+  "median_s_after_warmup": 0.09247935097664595,
+  "bit_equal": true,
+  "max_abs_diff": 0.0,
+  "rms_diff": 0.0,
+  "status": "measured_kernel_only",
+  "finished": 1794902932.2415254
+}

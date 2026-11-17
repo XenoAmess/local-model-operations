@@ -1,0 +1,28 @@
+{
+  "backend": "uniserve",
+  "kernel": "uniserve sm120 (logical 128 split into native 64)",
+  "torch": "2.13.0+cu130",
+  "tokens": 65536,
+  "heads": 56,
+  "head_dim": 128,
+  "dtype": "bfloat16",
+  "logical_tile": 128,
+  "keep_fraction": 0.1,
+  "dense_query_tiles": 2,
+  "input_sha256": "3c3ef10be27b2a6fc7f238da578676d1a043bcb2f4d7a780c5d488ca4ff1af42",
+  "samples_s": [
+    0.5242486831266433,
+    0.08980305795557797,
+    0.08895446313545108,
+    0.08968734298832715
+  ],
+  "started": 1794902935.8677309,
+  "scope": "Sparse attention kernel only; not complete Omni latency or a quality comparison",
+  "peak_gpu_allocated_bytes": 4066732544,
+  "median_s_after_warmup": 0.08968734298832715,
+  "bit_equal": false,
+  "max_abs_diff": 0.0009765625,
+  "rms_diff": 6.217233989296876e-05,
+  "status": "measured_kernel_only",
+  "finished": 1794902936.8694906
+}

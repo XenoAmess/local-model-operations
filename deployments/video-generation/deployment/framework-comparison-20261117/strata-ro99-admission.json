@@ -1,0 +1,44 @@
+{
+  "action": "ro99-admission",
+  "started": 1794903826.777192,
+  "runs": [
+    {
+      "command": [
+        "$VIDEO_ROOT/tools/vendor/strata-ro99-candidate/build-codex/strata-chat",
+        "--model",
+        "$VIDEO_ROOT/models/FastH3-Omni-BF16",
+        "--model-type",
+        "minimax-h3",
+        "--devices",
+        "0",
+        "--dry-run"
+      ],
+      "returncode": 2,
+      "wall_s": 0.06397657189518213,
+      "log": "strata-ro99-admission-0.log",
+      "response": "error: unknown --model-type: minimax-h3\n\nrun with --help for the full option list\n"
+    },
+    {
+      "command": [
+        "$VIDEO_ROOT/tools/vendor/strata-ro99-candidate/build-codex/strata-server",
+        "--model",
+        "$VIDEO_ROOT/models/Open-H3-Regenerate-2K-IC",
+        "--model-type",
+        "minimax-h3",
+        "--devices",
+        "0",
+        "--dry-run"
+      ],
+      "returncode": 2,
+      "wall_s": 0.06421241303905845,
+      "log": "strata-ro99-admission-1.log",
+      "response": "usage: strata-server --model DIR --model-type gemma4|deepseek|glm|glm53|laguna|inkling|kimi-k3\n",
+      "full_stdout_retained_locally": true
+    }
+  ],
+  "source_commit": "015b075079c51a7aec670ee24924f920f5e7bb2b",
+  "scope": "H3 model import/admission, not inference timing",
+  "production_changed": false,
+  "status": "attempts_recorded",
+  "finished": 1794903826.9066715
+}

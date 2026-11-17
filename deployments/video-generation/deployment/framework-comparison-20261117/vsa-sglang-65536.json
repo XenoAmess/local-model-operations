@@ -1,0 +1,28 @@
+{
+  "backend": "sglang",
+  "kernel": "SGLang Triton descriptor split-64",
+  "torch": "2.14.1+cu130",
+  "tokens": 65536,
+  "heads": 56,
+  "head_dim": 128,
+  "dtype": "bfloat16",
+  "logical_tile": 128,
+  "keep_fraction": 0.1,
+  "dense_query_tiles": 2,
+  "input_sha256": "3c3ef10be27b2a6fc7f238da578676d1a043bcb2f4d7a780c5d488ca4ff1af42",
+  "samples_s": [
+    1.1379785761237144,
+    0.09070172999054193,
+    0.0909347990527749,
+    0.09064701106399298
+  ],
+  "started": 1794902940.5707781,
+  "scope": "Sparse attention kernel only; not complete Omni latency or a quality comparison",
+  "peak_gpu_allocated_bytes": 7810148864,
+  "median_s_after_warmup": 0.09070172999054193,
+  "bit_equal": false,
+  "max_abs_diff": 0.00048828125,
+  "rms_diff": 1.9422163754685994e-07,
+  "status": "measured_kernel_only",
+  "finished": 1794902942.1342669
+}
