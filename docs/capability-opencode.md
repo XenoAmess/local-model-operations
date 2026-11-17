@@ -2279,3 +2279,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[944被动UI生命周期组件](evidence/2026-11-17-civ6-944-passive-legacy-ui-lifecycle.json)。944与Owner软件执行不授OpenCode原生生成；Nov17成功1.19.5维护缓存、原生生成0保持。
 
 2026-11-17：[945旧865原始读取](evidence/2026-11-17-civ6-945-raw-old865-snapshot.json)。945与Owner软件验证不授OpenCode原生生成；Nov17成功canonical1.19.5同机同用户维护缓存、原生生成0保持。
+
+2026-11-17：[946有限旧865诊断编排](evidence/2026-11-17-civ6-946-finite-passive-old865-episode.json)。946与Owner验证不授OpenCode原生生成；Nov17同机同用户canonical1.19.5成功维护缓存、原生生成0保持。
