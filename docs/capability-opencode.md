@@ -2335,3 +2335,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17: 964/965 reused canonical Nov17 same-machine/user maintenance success cache; native OpenCode generation0. Owner compiled/tested the private Windows SDK helper independently. [Separate HTTP/OS/game boundaries](evidence/2026-11-17-civ6-own-helper-wfp-selftest.json).
 
 2026-11-17: 966 uses canonical Nov17 same-machine/user maintenance success cache; no native OpenCode generation. [Actual game failure vs Owner software correction boundary](evidence/2026-11-17-civ6-oldpause-marker2-failure-fix966-software.json).
+
+2026-11-17: Failed-scene Native closure and paid965software are Owner work; canonical maintenance/cache and native OpenCode generation0 remain separate. [Evidence boundaries](evidence/2026-11-17-civ6-oldpause-failure-closed-paid965-software.json).

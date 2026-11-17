@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/8170b913093129b95c52c50c42a514342439aeb1/docs/research/baiqi-source160-oldpause-failure-native-closure-2026-11-17.json",
+  "paid_software_evidence": "https://github.com/XenoAmess/civ6_dev/blob/8170b913093129b95c52c50c42a514342439aeb1/docs/research/baiqi-source160-paidcity-live965-software-2026-11-17.json",
+  "status": "P5_RETAINED_LEGACY_PROPERTY_FAIL_SCENE_SAVED_AND_CLOSED",
+  "Owner_review": [
+    "Actual marker2+disabled old control state persists before/after natural cleanup. Original failure is retained; fresh snapshot explicitly reports cleanupFAIL, never raw-cleanPASS.",
+    "The original old pause does not stop these observed production requests: three actual BACKGROUND granary requests0:24:1/2/3 for cities196610/262147/327684 each correlate to a distinct queue_observed line and the fresh queue hash/type. Controller availability is true and all5queue metadata are known. This is stronger than queue progress alone, but does not grant completed-building, two-turn, input-guard or whole TC022/039 acceptance.",
+    "Legacy settler458752 is independently reported restored as LEGACY_UNKNOWN/unresolved; the scene does not establish its recovery. Original865 failure also remains separate.",
+    "After sole original45761 terminal1, sole99632 read actual failed-state queues, retired only the QA capture bridge, saved new24, invoked official exit once and closed exact owned residue after >=180s/window0/listener0/CPUquiet. Save381892/SHAa226087f87bb151f95cdc333211117eedef853f6f5ebaaeaca1dd011f062d33b is a preserved failure checkpoint, not a successful two-turn or reload witness.",
+    "966 future migration proposal and958/961 future proposals remain private, product unchanged. Next current160 new passive158 readonly probe, then fixed-version integration/regression/original P5 retest. Both current pressure failures remain valid."
+  ],
+  "actual_background_requests": [
+    {
+      "requestID": "0:24:1",
+      "city": 196610,
+      "type": "BUILDING_GRANARY"
+    },
+    {
+      "requestID": "0:24:2",
+      "city": 262147,
+      "type": "BUILDING_GRANARY"
+    },
+    {
+      "requestID": "0:24:3",
+      "city": 327684,
+      "type": "BUILDING_GRANARY"
+    }
+  ],
+  "new_generation_POST": 0,
+  "ledger": {
+    "logical": 966,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 82,
+    "generation_POST": 1005,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "OpenCode_native_generation": 0,
+  "whole_mod": "OPEN_CONTINUE"
+}
