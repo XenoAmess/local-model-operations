@@ -1,0 +1,24 @@
+{
+  "status": "startup_cuda_oom_evidence_preserved_not_retried_unchanged",
+  "started": 1794913259.7081995,
+  "runs": [],
+  "baseline_s": 759.2129165099468,
+  "precision": "BF16 DiT and text encoder, native quality 36L VAE with FP16 projection storage",
+  "numerical_note": "Native PDD head fusion and kernels; local CPU-direct loading adapter. Not bitwise equivalent to FastVideo.",
+  "local_sm120_adapter": false,
+  "local_cpu_load_adapter": true,
+  "error": "RuntimeError: Candidate exited during initialization",
+  "finished": 1794913390.0888307,
+  "error_detail": {
+    "stage": "text warmup",
+    "allocation_requested_mib": 128,
+    "gpu_free_mib": 47.19,
+    "diagnostic_parent_context_mib": 684,
+    "text_worker_gib": 52.16,
+    "flow_worker_gib": 30.07
+  },
+  "diagnosed_next_changes": [
+    "Run the exact CPU-streaming diagnostic in a child process that exits before native workers load; free its CUDA context completely",
+    "Reduce flow static grant .362 to .357 to reserve additional transient workspace; text .628 and all input/precision settings unchanged"
+  ]
+}

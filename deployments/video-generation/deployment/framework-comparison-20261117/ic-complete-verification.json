@@ -1,0 +1,138 @@
+{
+  "scope": "Complete IC model: 3 denoising steps, all 50 blocks, original 36L VAE; not one-block replay",
+  "results": [
+    {
+      "strategy": "current",
+      "started": 1794907354.8171115,
+      "size": "2560x1440",
+      "sampler": "up3",
+      "seed": 1234,
+      "steps": 3,
+      "precision": "BF16 DiT, unmerged IC LoRA, original 36L FP32 tiled VAE",
+      "scope": "Complete IC clip: encode, load, 3 denoising steps and original decoder",
+      "status": "completed",
+      "wall_s": 1498.4068981539458,
+      "peak_gpu_allocated_bytes": 73876270592,
+      "peak_gpu_reserved_bytes": 74771857408,
+      "finished": 1794908853.22557,
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 2560,
+            "height": 1440,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "124"
+          }
+        ],
+        "format": {
+          "duration": "5.167000",
+          "size": "315978768"
+        }
+      },
+      "decoded_rgb_sha256": "5426989348bdbd124dafe3fbb0d4fa9dcd2e7e9b20dbd7c936ec2d42abf33a2a",
+      "latent_shape": [
+        24,
+        37,
+        90,
+        160
+      ],
+      "latent_dtype": "torch.bfloat16",
+      "latent_sha256": "aaf430793662150746d0a77d69fd7d8b1e66bbe1c47f66287ddf2c02d7285fdf",
+      "latent_bit_equal_to_current": true,
+      "decoded_pixels_equal_to_current": true,
+      "media_shape_verified": true
+    },
+    {
+      "strategy": "diffusers",
+      "started": 1794909591.1917503,
+      "size": "2560x1440",
+      "sampler": "up3",
+      "seed": 1234,
+      "steps": 3,
+      "precision": "BF16 DiT, unmerged IC LoRA, original 36L FP32 tiled VAE",
+      "scope": "Complete IC clip: encode, load, 3 denoising steps and original decoder",
+      "status": "completed",
+      "wall_s": 1562.78584244987,
+      "peak_gpu_allocated_bytes": 73876270592,
+      "peak_gpu_reserved_bytes": 74771857408,
+      "finished": 1794911153.9801297,
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 2560,
+            "height": 1440,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "124"
+          }
+        ],
+        "format": {
+          "duration": "5.167000",
+          "size": "315978768"
+        }
+      },
+      "decoded_rgb_sha256": "5426989348bdbd124dafe3fbb0d4fa9dcd2e7e9b20dbd7c936ec2d42abf33a2a",
+      "latent_shape": [
+        24,
+        37,
+        90,
+        160
+      ],
+      "latent_dtype": "torch.bfloat16",
+      "latent_sha256": "aaf430793662150746d0a77d69fd7d8b1e66bbe1c47f66287ddf2c02d7285fdf",
+      "latent_bit_equal_to_current": true,
+      "decoded_pixels_equal_to_current": true,
+      "media_shape_verified": true
+    },
+    {
+      "strategy": "accelerate",
+      "started": 1794911245.3641505,
+      "size": "2560x1440",
+      "sampler": "up3",
+      "seed": 1234,
+      "steps": 3,
+      "precision": "BF16 DiT, unmerged IC LoRA, original 36L FP32 tiled VAE",
+      "scope": "Complete IC clip: encode, load, 3 denoising steps and original decoder",
+      "status": "completed",
+      "wall_s": 1506.3348456199747,
+      "peak_gpu_allocated_bytes": 73876270592,
+      "peak_gpu_reserved_bytes": 74771857408,
+      "finished": 1794912751.6997714,
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 2560,
+            "height": 1440,
+            "r_frame_rate": "24/1",
+            "nb_read_frames": "124"
+          }
+        ],
+        "format": {
+          "duration": "5.167000",
+          "size": "315978768"
+        }
+      },
+      "decoded_rgb_sha256": "5426989348bdbd124dafe3fbb0d4fa9dcd2e7e9b20dbd7c936ec2d42abf33a2a",
+      "latent_shape": [
+        24,
+        37,
+        90,
+        160
+      ],
+      "latent_dtype": "torch.bfloat16",
+      "latent_sha256": "aaf430793662150746d0a77d69fd7d8b1e66bbe1c47f66287ddf2c02d7285fdf",
+      "latent_bit_equal_to_current": true,
+      "decoded_pixels_equal_to_current": true,
+      "media_shape_verified": true
+    }
+  ],
+  "all_three_completed_and_bit_equal": true
+}

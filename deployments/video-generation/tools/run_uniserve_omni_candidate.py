@@ -78,6 +78,11 @@ def main():
     sys.path.insert(0, str(ROOT / "llm-lab/scripts"))
     from resource_guard import require_isolation
     require_isolation()
+    if "--probe-only" not in sys.argv:
+        # Let the diagnostic process exit before loading the real workers.
+        # Keeping its CUDA context alive consumed about 684 MiB outside the
+        # native worker grants and caused a reproducible startup OOM.
+        subprocess.run([sys.executable, str(Path(__file__).resolve()), "--probe-only"], check=True)
     lease = (ROOT / "outputs/h3-2k-gpu.lock").open("a")
     fcntl.flock(lease, fcntl.LOCK_EX | fcntl.LOCK_NB)
     if subprocess.check_output(["nvidia-smi", "--query-compute-apps=pid", "--format=csv,noheader"], text=True).strip():
@@ -92,16 +97,16 @@ def main():
     os.environ.pop("all_proxy", None)
     sys.path.insert(0, str(source))
     OUT.mkdir(parents=True, exist_ok=True)
-    probe()
     if "--probe-only" in sys.argv:
+        probe()
         return
     command = [str(source / ".venv/bin/uniserve"), "serve",
                str(ROOT / "outputs/framework-comparison-20261117/uniserve-omni-local"),
                "--workers", str(ROOT / "deployment/framework-comparison-20261117/uniserve-single-gpu-host-weights.experimental.json"),
                "--served-model-name", "fasth3-omni-bf16-uniserve-candidate",
                "--host", "127.0.0.1", "--port", "18012", "--max-running-requests", "1",
-               "--max-video-seconds", "5", "--max-model-len", "8192",
-               "--video-text-capacities", "8192", "--max-condition-rows", "43520",
+               "--max-video-seconds", "5", "--max-model-len", "11264",
+               "--video-text-capacities", "11264", "--max-condition-rows", "43520",
                "--video-resolutions", "768p", "--video-aspect-ratios", "16:9",
                "--mm-processor-kwargs", '{"enlarge_references":true}',
                "--quantization-config", '{"mode":"quality"}',

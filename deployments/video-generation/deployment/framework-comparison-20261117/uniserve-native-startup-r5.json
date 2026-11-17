@@ -1,0 +1,21 @@
+{
+  "status": "http_service_ready_request_rejected_insufficient_prompt_profile",
+  "started": 1794913518.7618973,
+  "runs": [],
+  "baseline_s": 759.2129165099468,
+  "precision": "BF16 DiT and text encoder, native quality 36L VAE with FP16 projection storage",
+  "numerical_note": "Native PDD head fusion and kernels; local CPU-direct loading adapter. Not bitwise equivalent to FastVideo.",
+  "local_sm120_adapter": false,
+  "local_cpu_load_adapter": true,
+  "readiness_wait_s": 128.45488113700412,
+  "reference_sha256": {
+    "image": "472d633ea178e30cd3395a3f7290257a6dbbbbe0f6b2fbc653706d1a251c570a",
+    "video_audio": "893bc0f630dc18ceca2503929d7b1eff9b952d0149480d91d428ccbf892cc236"
+  },
+  "error": "RuntimeError: POST 400: {\"error\":{\"message\":\"request `vid-f02e0b0769134b4399a68afbe70048f1` has 11102 prompt tokens, exceeding the 8192-token profile limit\",\"type\":\"invalid_request_error\",\"code\":\"invalid_request_error\"}}",
+  "finished": 1794913647.4409409,
+  "actual_multimodal_prompt_tokens": 11102,
+  "served_profile_tokens": 8192,
+  "oom_fixed": true,
+  "next_attempt": "Provision11264 prompt tokens; keep every reference and prompt token, no truncation; redistribute worker grants .65/.335 with1.5% unassigned headroom"
+}

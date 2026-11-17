@@ -127,7 +127,7 @@ index dd51352..da3507d 100644
          (model.video_output, "proj_out", grids["video"]),
          (model.audio_output, "audio_proj_out", grids["audio"]),
 diff --git a/uniserve_worker/bootstrap/model_loader.py b/uniserve_worker/bootstrap/model_loader.py
-index f33cf2b..f0152c8 100644
+index f33cf2b..45fece7 100644
 --- a/uniserve_worker/bootstrap/model_loader.py
 +++ b/uniserve_worker/bootstrap/model_loader.py
 @@ -14,6 +14,7 @@ partitioning, and resolves the load-time ``WorkerConfig``. The launch's
@@ -158,12 +158,16 @@ index f33cf2b..f0152c8 100644
          experts=partition,
      )
      model = loaded.model
-@@ -507,10 +514,24 @@ def _stream_host_weights(
+@@ -507,10 +514,28 @@ def _stream_host_weights(
                  f"not {device}"
              )
          for path in _outermost(declarations.get(name, ())):
 +            module = model.get_submodule(path)
 +            if not any(parameter.ndim >= 2 for parameter in module.parameters()):
++                if os.environ.get("H3_UNISERVE_CPU_LOAD") == "1":
++                    # Postprocessors have only small registered constants,
++                    # but still execute on the component's CUDA stream.
++                    module.to(device)
 +                continue
              resident = torch.cuda.memory_allocated(device)
              try:

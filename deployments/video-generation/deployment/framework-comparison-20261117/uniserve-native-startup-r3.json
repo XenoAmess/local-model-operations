@@ -1,0 +1,15 @@
+{
+  "status": "startup_rejected_cpu_only_postprocessor_constant",
+  "started": 1794912812.2917254,
+  "runs": [],
+  "baseline_s": 759.2129165099468,
+  "precision": "BF16 DiT and text encoder, native quality 36L VAE with FP16 projection storage",
+  "numerical_note": "Native PDD head fusion and kernels; local CPU-direct loading adapter. Not bitwise equivalent to FastVideo.",
+  "local_sm120_adapter": false,
+  "local_cpu_load_adapter": true,
+  "error": "RuntimeError: Candidate exited during initialization",
+  "finished": 1794912950.6957347,
+  "workspace_budget_fixed": true,
+  "error_detail": "video_postprocessor registered constants stayed on CPU in the local CPU-direct-load adapter; native ExecutionContext rejected a CUDA stream for a CPU module.",
+  "next_attempt": "Move only the parameterless postprocessor registered constants to its declared CUDA component device, preserving their values and dtype; native runtime checks remain intact."
+}
