@@ -2313,3 +2313,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：958—961Owner普通Lua/Python软件工作与HTTP候选均不授OpenCode原生生成；同机Nov17canonical1.19.5缓存／原生0保持，见[分项公开反链](evidence/2026-11-17-civ6-958961-future-software.json)。
 
 2026-11-17：旧暂停新只读取证为Owner普通Lua/Python软件工作，不授OpenCode原生生成；Nov17缓存／原生0保持，见[软件范围](evidence/2026-11-17-civ6-oldpause-fresh-queue-software.json)。
+
+2026-11-17：TC039保存器修正和六隔离执行为Owner普通Python/Lua工作，非OpenCode原生生成；Nov17同机缓存／原生0保持，见[失败边界与安全接续](evidence/2026-11-17-civ6-tc039-owner-save-separator.json)。

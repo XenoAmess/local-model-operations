@@ -7292,3 +7292,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[958—961后续软件与959／960真实待办派发](evidence/2026-11-17-civ6-958961-future-software.json)：95840VM／9594VM+11拒绝／96016VM／9614VM，均0Native／未应用产品；未拦截读避免身份查询但未授游戏提速。959／960实际HTTP交叠2，各一404／109.0646ms、91.8523ms，stop只限重试／0采用；累计961／816／68length／77失败／1000POST／38extra／0在途。
 
 2026-11-17：[959后续旧暂停己方队列／建造者只读取证](evidence/2026-11-17-civ6-oldpause-fresh-queue-software.json)，六实际QueuehelperVM／九坏帧拒绝，UNKNOWN／nil及全字段有界，0Native／0新POST；P5真实任务／保存重载仍待。累计961保持。
+
+2026-11-17：[TC039实际保存代码尾分号修正](evidence/2026-11-17-civ6-tc039-owner-save-separator.json)：原Parent14035首存前编译失败／终态1，六实际函数隔离MOCK／两真实guard双Lua通过；新35941先对账再首次保存，0END重放，仍未授Native重载通过。Owner错误非模型／产品错误，0新POST，961累计保持。
