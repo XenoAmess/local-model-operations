@@ -7296,3 +7296,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[TC039实际保存代码尾分号修正](evidence/2026-11-17-civ6-tc039-owner-save-separator.json)：原Parent14035首存前编译失败／终态1，六实际函数隔离MOCK／两真实guard双Lua通过；新35941先对账再首次保存，0END重放，仍未授Native重载通过。Owner错误非模型／产品错误，0新POST，961累计保持。
 
 2026-11-17：[当前160未知意图两真实重载窄通过](evidence/2026-11-17-civ6-current160-sameversion-two-reloads-native.json)，原78→普通79／15玩家军队待命／实际79存后重载A+B，六UI/Core见证、原ARMED／次数不变／0SPREAD；自然更新9/10/8/9/9。原Owner首存编译中止保留、35941剩余父真实exit0、0重放，不授全TC039／旧865／压力PASS。0新POST，961累计保持。
+
+2026-11-17：[P5旧暂停有限流程软件准备](evidence/2026-11-17-civ6-oldpause-finite-episode-software.json)，九SHA消费者／12守卫编译／4载入VM／4unknown-stop流程，0Native／P5未载，不授自动生产。真实865／旧P2闭合后方可执行，0新POST，961累计保持。

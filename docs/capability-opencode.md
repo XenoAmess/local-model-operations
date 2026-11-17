@@ -2317,3 +2317,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：TC039保存器修正和六隔离执行为Owner普通Python/Lua工作，非OpenCode原生生成；Nov17同机缓存／原生0保持，见[失败边界与安全接续](evidence/2026-11-17-civ6-tc039-owner-save-separator.json)。
 
 2026-11-17：同版本两重载为Owner实机而非OpenCode原生生成；canonicalNov17同机缓存／原生0保持，见[实际输入与边界](evidence/2026-11-17-civ6-current160-sameversion-two-reloads-native.json)。
+
+2026-11-17：P5有限流程软件为Owner普通Python/Lua工作，非OpenCode原生生成；Nov17缓存／原生0保持，见[编译、模拟与实机边界](evidence/2026-11-17-civ6-oldpause-finite-episode-software.json)。
