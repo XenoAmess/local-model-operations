@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/136c1e76e40ae3c8f018aefd371d895cebc6a5c6/docs/research/baiqi-source160-precise-end-attribution-package-2026-11-17.json",
+  "software_only": {
+    "utc": "2026-11-17T06:53:29.709493+00:00",
+    "source_version": 160,
+    "actual_combined_Executor_VM_executions": [
+      {
+        "VM": "Lua51",
+        "case": "bootstrap_existing_profile_and_canonical_clock"
+      },
+      {
+        "VM": "Lua51",
+        "case": "inline_clock_before_profiled_original_activation"
+      },
+      {
+        "VM": "Lua51",
+        "case": "later_fallback_does_not_duplicate_record"
+      },
+      {
+        "VM": "Lua51",
+        "case": "same_alias_shutdown_remove_preserves_foreign_handler"
+      },
+      {
+        "VM": "Lua51",
+        "case": "wrong_current_turn_refuses_clock_begin"
+      },
+      {
+        "VM": "Lua51",
+        "case": "profiled_original_error_passes_after_inline_clock_stop"
+      },
+      {
+        "VM": "Lua53",
+        "case": "bootstrap_existing_profile_and_canonical_clock"
+      },
+      {
+        "VM": "Lua53",
+        "case": "inline_clock_before_profiled_original_activation"
+      },
+      {
+        "VM": "Lua53",
+        "case": "later_fallback_does_not_duplicate_record"
+      },
+      {
+        "VM": "Lua53",
+        "case": "same_alias_shutdown_remove_preserves_foreign_handler"
+      },
+      {
+        "VM": "Lua53",
+        "case": "wrong_current_turn_refuses_clock_begin"
+      },
+      {
+        "VM": "Lua53",
+        "case": "profiled_original_error_passes_after_inline_clock_stop"
+      }
+    ],
+    "unknown_or_duplicate_source_rejections": 4,
+    "exact_observed_Executor_inverse": true,
+    "global_retained_cap": 4096,
+    "Native_queries": 0,
+    "Native_orders": 0,
+    "Native_33context_integration": "NOT_RUN",
+    "MANY_B_delta": "FAIL_RETAINED",
+    "scope": "Actual combined Executor with real clock/profile helpers and mocked includes/events/Native. Inline clock stops before the profiled original activation, preserves original error and exactalias removal. No game installation/normalEND/causal attribution/performance budget pass."
+  },
+  "Owner_review": [
+    "After the existing-data-only report was pushed, the exact start-correlation question remains. This new completed work package builds the previously unbuilt source; it does not retroactively change the prior report or its unchangedBdeltaFAIL.",
+    "Verify the existing160MANYfullscript119file/source/instrumentation/ZIP snapshot and exacthelper hashes. Add only canonical matchedclock prefix and the same activationAlias Add/Remove transformation over that observedExecutor; inverse recovers it byte-for-byte. All97Lua compile on5.1/5.3,119inventory andglobal4096quotas unchanged.",
+    "Actual combined Executor and real clock/profile helpers execute12mockVM cases. Clock elapsed1s is stopped inline before originalActivate root takes5s; fallback/repeatedevent leaves exactly1clockrecord while originalcallback still runs. Originalthrow remains a throw after clockstop and recordsfailedprofilerow. Exactsamealias removal preserves a foreign handler.",
+    "4unknown/duplicate source/prefix cases reject. Initialmocksetup multiline indentation anchor rejected before anyVM execution, replaced by two exact unique mock statements rather than relaxing product/source hashes.",
+    "These12VMcases use mocked includes and one actualExecutor observer context; they do not prove all33contexts loaded inNative, exactcrosscontextcalibration, ordinaryEND safety or any paired budget. Nativeparent/player/calibration/export/retire/save/exit integration remains unfinished.",
+    "A future single diagnosticEND6->7 cannot replace anyof50raw/25paired segments, be called BdeltaPASS or be used asCPUby summingcontextinclusive envelopes. All originalsource160MANYFAIL evidence retained."
+  ],
+  "new_generation_POST": 0,
+  "ledger": {
+    "logical": 947,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 63,
+    "generation_POST": 986,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "MANY_B_delta": "FAIL_RETAINED",
+  "whole_mod": "OPEN_CONTINUE"
+}
