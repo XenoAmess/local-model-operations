@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-17",
+  "utc": "2026-11-17T11:05:23.397976+00:00",
+  "machine": "BF-202609141645",
+  "source_version": 160,
+  "mode_id": "Owner actual Native evidence, not model generation",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/7baa8157a28eeceeb08f04744e4427fb1e1d0c98/docs/research/baiqi-source160-nosite-paired-final-2026-11-17.json",
+  "project_evidence_bytes": 86566,
+  "project_evidence_sha256": "602f5e8c7af9591bdaf24015f2911af62d12c20ade4564d5edd09e7ab40a477e",
+  "scene": "nosite",
+  "stage": "pairs",
+  "actual_budget_receipt": {
+    "B_delta": "FAIL",
+    "all_four_scene_budgets_PASS": false
+  },
+  "actual_summary": {
+    "arithmetic": {
+      "median_delta_ms": 552.9999732971191,
+      "median_ratio_percent": 19.464281912968694,
+      "ratio_known": true,
+      "observed_b_delta_budget_ok": false,
+      "source_version": 160,
+      "ordinary_required": true,
+      "source": "baiqi160-pressure-paired-v1",
+      "initial_turn": 1
+    },
+    "all_pair_medians": [
+      {
+        "pair": 1,
+        "median_delta_ms": 599.9999046325684,
+        "median_ratio_percent": 58.42257004037793
+      },
+      {
+        "pair": 2,
+        "median_delta_ms": -9.999990463256836,
+        "median_ratio_percent": -1.6920455343116967
+      },
+      {
+        "pair": 3,
+        "median_delta_ms": 51.000118255615234,
+        "median_ratio_percent": 8.777991620467072
+      },
+      {
+        "pair": 4,
+        "median_delta_ms": 3013.9999389648438,
+        "median_ratio_percent": 98.40026035340281
+      },
+      {
+        "pair": 5,
+        "median_delta_ms": 1698.000192642212,
+        "median_ratio_percent": 218.01072723267038
+      }
+    ],
+    "actual_input_audit": {
+      "schema": "civ6.source160-nosite-pressure-logical-input-audit/v1",
+      "source_version": 160,
+      "runs": 10,
+      "turns": 50,
+      "all_ordered_sequences_equal": true,
+      "all_pair_counterpart_sequences_equal": true,
+      "no_sameunit_sameturn_duplicate": true,
+      "total_TEST_PLAYER_SKIP_request_calls": 50,
+      "ordinary_END_call_returns": 50,
+      "END6": 0,
+      "date": "2026-11-17",
+      "utc": "2026-11-17T11:04:07.604873+00:00",
+      "machine": "BF-202609141645",
+      "Native_queries": 0,
+      "inputs_unchanged": true
+    },
+    "all50_raw_and25_differences_retained": true,
+    "excluded_or_replaced_runs": [],
+    "paired_input_admissible": true,
+    "independent_other_budgets": {
+      "B_plan": "PASS",
+      "B_turn": "PASS",
+      "N_req": "PASS",
+      "planning_evidence": "docs/research/baiqi-source160-pressure-nosite-plan-2026-11-17.json",
+      "fullscript_evidence": "docs/research/baiqi-source160-pressure-nosite-fullscript-2026-11-17.json"
+    }
+  },
+  "new_generation_POST": 0,
+  "ledger": {
+    "logical": 958,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 74,
+    "generation_POST": 997,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "OpenCode_native_generation": 0,
+  "whole_mod": "OPEN_CONTINUE",
+  "old8650807": "FAIL_UNRESOLVED",
+  "lessons": [
+    "Software preparation, actual native lifecycle/input admissibility and frozen budget arithmetic remain separate; this record follows the exact pushed actual stage evidence.",
+    "All frozen raw samples/segments and adverse outcomes remain retained at the linked commit; no unchanged-run replacement or outlier/per-group gates.",
+    "A model candidate HTTP failure does not establish gameplay network unavailability. Owner Native validation is not OpenCode native code-generation capability.",
+    "Whole mod function/compatibility/oldsave migration and old865 recovery remain open; finish the next actual task after publishing."
+  ]
+}
