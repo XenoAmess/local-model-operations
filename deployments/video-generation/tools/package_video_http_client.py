@@ -9,6 +9,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 DESTINATION = ROOT / "omni-web/outputs/video-http-client-20261116.zip"
 SOURCES = ["docs/video-http-api.md", "docs/video-http-queue.md", "tools/video_http_client.py",
+           "deployment/video-queue/recovery-verification-20261118.json",
            "deployment/video-queue/validation.json", "docs/open-h3-4k-http.md",
            "deployment/video-queue/4k-validation.json", "docs/open-h3-exact-performance.md",
            "deployment/video-queue/4k-exact-performance.json",

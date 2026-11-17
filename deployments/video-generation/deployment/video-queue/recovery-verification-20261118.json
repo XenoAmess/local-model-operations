@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-18",
+  "cpu_tests_passed": 30,
+  "test_suites": [
+    "test_video_queue*.py (24)",
+    "test_h3_refiner_profiles.py (6)"
+  ],
+  "oom_validation": "Injected failures in isolated temporary databases; no deliberate production OOM or model inference test",
+  "lan_http_checks": {
+    "8001": {
+      "health": {
+        "status": "ok",
+        "model": "fasth3-omni-bf16",
+        "queue": 0,
+        "cloud_used": false,
+        "queue_paused": false,
+        "recovery": {
+          "status": "ready",
+          "consecutive_ooms": 0,
+          "paused": false,
+          "manual_resume_required": false,
+          "cooldown_remaining_seconds": 0,
+          "policy": {
+            "cooldown_seconds": 60,
+            "consecutive_oom_threshold": 2,
+            "min_host_available_gib": 28,
+            "min_gpu_free_fraction": 0.95,
+            "probe_interval_seconds": 5
+          }
+        },
+        "scheduling": "shared_model_affinity",
+        "scheduler_online": true,
+        "active_model": null,
+        "worker_state": "idle"
+      },
+      "resume_http_status": 200,
+      "resume_status": "already_running",
+      "openapi_version": "2.1",
+      "resume_route_present": true
+    },
+    "8002": {
+      "health": {
+        "status": "ok",
+        "model": "open-h3-2k",
+        "queue": 0,
+        "cloud_used": false,
+        "queue_paused": false,
+        "recovery": {
+          "status": "ready",
+          "consecutive_ooms": 0,
+          "paused": false,
+          "manual_resume_required": false,
+          "cooldown_remaining_seconds": 0,
+          "policy": {
+            "cooldown_seconds": 60,
+            "consecutive_oom_threshold": 2,
+            "min_host_available_gib": 28,
+            "min_gpu_free_fraction": 0.95,
+            "probe_interval_seconds": 5
+          }
+        },
+        "scheduling": "shared_model_affinity",
+        "scheduler_online": true,
+        "active_model": null,
+        "worker_state": "idle"
+      },
+      "resume_http_status": 200,
+      "resume_status": "already_running",
+      "openapi_version": "2.1",
+      "resume_route_present": true
+    }
+  },
+  "active_user_job_completed_before_reload": true,
+  "original_failed_job_stays_failed": true,
+  "model_configuration_sha256": {
+    "fasth3-omni-bf16.yaml": "2a8c9c24c06b4149acf1a68be0c64fc1acec7135d549c0f26a1430c48db2c452",
+    "start-fasth3-omni-bf16.sh": "85eec91073c9e203b3475af26fa7c4c5968c02cc5601e8c04f406efc7de1d1e1",
+    "start-h3-2k-worker.sh": "28210083b36d0e06d01dbde0292284e406f69edb7cec1531bb2de38bc48198b9"
+  },
+  "policy": {
+    "cooldown_seconds": 60,
+    "consecutive_oom_threshold": 2,
+    "min_host_available_gib": 28,
+    "min_gpu_free_fraction": 0.95,
+    "probe_interval_seconds": 5
+  },
+  "actual_resource_probe_after_reload": {
+    "checked_at": 1794945492.52083,
+    "ready": true,
+    "blockers": [],
+    "host_available_gib": 107.591,
+    "gpu_total_mib": 85651.0,
+    "gpu_free_mib": 85043.0,
+    "gpu_compute_processes": []
+  },
+  "model_configuration_unchanged": true,
+  "boot_autostart": false,
+  "inference_host_memory_gib": 80,
+  "aggregate_host_memory_gib": 88,
+  "aggregate_swap_gib": 1
+}
