@@ -1,0 +1,588 @@
+{
+  "date": "2026-11-18",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/ca87aafe3c6a07e9b61d51e8a4c22e4b24a59d15/docs/research/baiqi-source162-city-hp71-preparation-2026-11-18.json",
+  "Owner_review": "After genuine991404, Owner built separate QA city-health intent/one mutation/readback. Present malformed authority ports deny; expected data detached before SetProperty aliasing; unknown before/after outcome never retries. This is not an ability effect or Native result.",
+  "validation": {
+    "fixture_actual_VM_runs": 162,
+    "actual_UI_Core_refusal_VM_runs": [
+      {
+        "VM": "Lua51",
+        "mutation": "",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      },
+      {
+        "VM": "Lua51",
+        "mutation": "Unit.GetID=function()return 2162701 end",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      },
+      {
+        "VM": "Lua51",
+        "mutation": "Gold=4523",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      },
+      {
+        "VM": "Lua51",
+        "mutation": "Damage=130",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      },
+      {
+        "VM": "Lua51",
+        "mutation": "P6Paid160LiveMetadata={Read=function()return{interact=1,requests=1,paid_route=1,continuation=0,errors=0,dropped=0}end}",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      },
+      {
+        "VM": "Lua51",
+        "mutation": "TransferCalls=1",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      },
+      {
+        "VM": "Lua51",
+        "mutation": "Unit.GetMovesRemaining=function()return 0 end",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      },
+      {
+        "VM": "Lua53",
+        "mutation": "",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      },
+      {
+        "VM": "Lua53",
+        "mutation": "Unit.GetID=function()return 2162701 end",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      },
+      {
+        "VM": "Lua53",
+        "mutation": "Gold=4523",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      },
+      {
+        "VM": "Lua53",
+        "mutation": "Damage=130",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      },
+      {
+        "VM": "Lua53",
+        "mutation": "P6Paid160LiveMetadata={Read=function()return{interact=1,requests=1,paid_route=1,continuation=0,errors=0,dropped=0}end}",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      },
+      {
+        "VM": "Lua53",
+        "mutation": "TransferCalls=1",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      },
+      {
+        "VM": "Lua53",
+        "mutation": "Unit.GetMovesRemaining=function()return 0 end",
+        "actual_Actions_Quote_Capture_and_OnRequisition": true
+      }
+    ],
+    "load_VM": [
+      {
+        "VM": "Lua51",
+        "official_load_once": true,
+        "setup_backend_finish_guards_compile": true
+      },
+      {
+        "VM": "Lua53",
+        "official_load_once": true,
+        "setup_backend_finish_guards_compile": true
+      }
+    ],
+    "finite_flows": [
+      {
+        "prepare_failure": null,
+        "trace": [
+          [
+            "setup",
+            "prepare-once"
+          ],
+          [
+            "witness",
+            "after-fixture"
+          ]
+        ]
+      },
+      {
+        "prepare_failure": [
+          "setup",
+          "prepare-once"
+        ],
+        "trace": [
+          [
+            "setup",
+            "prepare-once"
+          ]
+        ]
+      },
+      {
+        "prepare_failure": [
+          "witness",
+          "after-fixture"
+        ],
+        "trace": [
+          [
+            "setup",
+            "prepare-once"
+          ],
+          [
+            "witness",
+            "after-fixture"
+          ]
+        ]
+      },
+      {
+        "completion_failure": null,
+        "trace": [
+          [
+            "witness",
+            "after-ui-refusal"
+          ],
+          [
+            "ui",
+            "read",
+            "after-ui-refusal"
+          ],
+          [
+            "backend",
+            "send-QA-stale-request-once"
+          ],
+          [
+            "witness",
+            "after-core-refusal"
+          ],
+          [
+            "ui",
+            "retire",
+            "retired"
+          ],
+          [
+            "finish",
+            "retire"
+          ],
+          [
+            "finish",
+            "save"
+          ],
+          [
+            "finish",
+            "exit"
+          ],
+          [
+            "close"
+          ]
+        ]
+      },
+      {
+        "completion_failure": [
+          "witness",
+          "after-ui-refusal"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-ui-refusal"
+          ]
+        ]
+      },
+      {
+        "completion_failure": [
+          "ui",
+          "read",
+          "after-ui-refusal"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-ui-refusal"
+          ],
+          [
+            "ui",
+            "read",
+            "after-ui-refusal"
+          ]
+        ]
+      },
+      {
+        "completion_failure": [
+          "backend",
+          "send-QA-stale-request-once"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-ui-refusal"
+          ],
+          [
+            "ui",
+            "read",
+            "after-ui-refusal"
+          ],
+          [
+            "backend",
+            "send-QA-stale-request-once"
+          ]
+        ]
+      },
+      {
+        "completion_failure": [
+          "witness",
+          "after-core-refusal"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-ui-refusal"
+          ],
+          [
+            "ui",
+            "read",
+            "after-ui-refusal"
+          ],
+          [
+            "backend",
+            "send-QA-stale-request-once"
+          ],
+          [
+            "witness",
+            "after-core-refusal"
+          ]
+        ]
+      },
+      {
+        "completion_failure": [
+          "ui",
+          "retire",
+          "retired"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-ui-refusal"
+          ],
+          [
+            "ui",
+            "read",
+            "after-ui-refusal"
+          ],
+          [
+            "backend",
+            "send-QA-stale-request-once"
+          ],
+          [
+            "witness",
+            "after-core-refusal"
+          ],
+          [
+            "ui",
+            "retire",
+            "retired"
+          ]
+        ]
+      },
+      {
+        "completion_failure": [
+          "finish",
+          "retire"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-ui-refusal"
+          ],
+          [
+            "ui",
+            "read",
+            "after-ui-refusal"
+          ],
+          [
+            "backend",
+            "send-QA-stale-request-once"
+          ],
+          [
+            "witness",
+            "after-core-refusal"
+          ],
+          [
+            "ui",
+            "retire",
+            "retired"
+          ],
+          [
+            "finish",
+            "retire"
+          ]
+        ]
+      },
+      {
+        "completion_failure": [
+          "finish",
+          "save"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-ui-refusal"
+          ],
+          [
+            "ui",
+            "read",
+            "after-ui-refusal"
+          ],
+          [
+            "backend",
+            "send-QA-stale-request-once"
+          ],
+          [
+            "witness",
+            "after-core-refusal"
+          ],
+          [
+            "ui",
+            "retire",
+            "retired"
+          ],
+          [
+            "finish",
+            "retire"
+          ],
+          [
+            "finish",
+            "save"
+          ]
+        ]
+      },
+      {
+        "completion_failure": [
+          "finish",
+          "exit"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-ui-refusal"
+          ],
+          [
+            "ui",
+            "read",
+            "after-ui-refusal"
+          ],
+          [
+            "backend",
+            "send-QA-stale-request-once"
+          ],
+          [
+            "witness",
+            "after-core-refusal"
+          ],
+          [
+            "ui",
+            "retire",
+            "retired"
+          ],
+          [
+            "finish",
+            "retire"
+          ],
+          [
+            "finish",
+            "save"
+          ],
+          [
+            "finish",
+            "exit"
+          ]
+        ]
+      }
+    ],
+    "initial_finite_flows": [
+      {
+        "failure": null,
+        "trace": [
+          [
+            "lifecycle",
+            "install"
+          ],
+          [
+            "lifecycle",
+            "launch"
+          ],
+          [
+            "connect"
+          ],
+          [
+            "lifecycle",
+            "load",
+            "load"
+          ],
+          [
+            "ready",
+            "load"
+          ],
+          [
+            "witness",
+            "baseline-original"
+          ]
+        ]
+      },
+      {
+        "failure": [
+          "lifecycle",
+          "install"
+        ],
+        "trace": [
+          [
+            "lifecycle",
+            "install"
+          ]
+        ]
+      },
+      {
+        "failure": [
+          "lifecycle",
+          "load",
+          "load"
+        ],
+        "trace": [
+          [
+            "lifecycle",
+            "install"
+          ],
+          [
+            "lifecycle",
+            "launch"
+          ],
+          [
+            "connect"
+          ],
+          [
+            "lifecycle",
+            "load",
+            "load"
+          ]
+        ]
+      },
+      {
+        "failure": [
+          "witness",
+          "baseline-original"
+        ],
+        "trace": [
+          [
+            "lifecycle",
+            "install"
+          ],
+          [
+            "lifecycle",
+            "launch"
+          ],
+          [
+            "connect"
+          ],
+          [
+            "lifecycle",
+            "load",
+            "load"
+          ],
+          [
+            "ready",
+            "load"
+          ],
+          [
+            "witness",
+            "baseline-original"
+          ]
+        ]
+      },
+      {
+        "failure": "unavailable",
+        "trace": [
+          [
+            "lifecycle",
+            "install"
+          ],
+          [
+            "lifecycle",
+            "launch"
+          ],
+          [
+            "lifecycle",
+            "header"
+          ],
+          [
+            "lifecycle",
+            "launch"
+          ],
+          [
+            "connect"
+          ],
+          [
+            "lifecycle",
+            "load",
+            "load"
+          ],
+          [
+            "ready",
+            "load"
+          ],
+          [
+            "witness",
+            "baseline-original"
+          ]
+        ]
+      }
+    ],
+    "actual_driver_metadata_tests": [
+      {
+        "driver": "paidhealth162h71_episode_owner",
+        "simulated_terminal": 0,
+        "actual_emit_call_code": true,
+        "real_subprocesses": 0
+      },
+      {
+        "driver": "paidhealth162h71_episode_owner",
+        "simulated_terminal": 1,
+        "actual_emit_call_code": true,
+        "real_subprocesses": 0
+      },
+      {
+        "driver": "paidhealth162h71_prepare_episode_owner",
+        "simulated_terminal": 0,
+        "actual_emit_call_code": true,
+        "real_subprocesses": 0
+      },
+      {
+        "driver": "paidhealth162h71_prepare_episode_owner",
+        "simulated_terminal": 1,
+        "actual_emit_call_code": true,
+        "real_subprocesses": 0
+      },
+      {
+        "driver": "paidhealth162h71_complete_episode_owner",
+        "simulated_terminal": 0,
+        "actual_emit_call_code": true,
+        "real_subprocesses": 0
+      },
+      {
+        "driver": "paidhealth162h71_complete_episode_owner",
+        "simulated_terminal": 1,
+        "actual_emit_call_code": true,
+        "real_subprocesses": 0
+      }
+    ],
+    "save_client": {
+      "original_private_check_function_same_code": true,
+      "original_function_name_and_globals_unchanged": true,
+      "new_alias_name": "saves",
+      "reason": "987 explicitly projects module.saves and globals named saves. Calling protected._unindexed_saves via its module would bypass that documented projection; a separate same-code FunctionType alias enters the existing supported path without changing987, original modules, hash checks or the function globals.",
+      "actual_SHA_calls": 310,
+      "isolated_functions": 48,
+      "regex_candidates": 20987,
+      "full_original_hash_checks_retained": true,
+      "global_module_or_stdlib_patches": false
+    },
+    "original_failures_retained": "Owner fixture mocks initially had Lua and/or precedence in the alias getter; actual popup integration initially lacked New observer factory and used a native request counter instead of observed metadata in a negative case. These software-only test fixtures were corrected before Native. Partial future-file generation was validated byte-for-byte before continuation, no overwrite or game action."
+  },
+  "Native": "NOT_RUN",
+  "whole_mod": "OPEN_CONTINUE"
+}
