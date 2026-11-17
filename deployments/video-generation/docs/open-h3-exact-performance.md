@@ -13,7 +13,9 @@
 
 4K 单层的原生 SDPA 实测约 23.629 秒，占整层约 88.7%，是主要瓶颈。三种长 query 分块都没有更快，128-token 小规模分块还有数值差异，因此均未启用。缓存实际 BF16 转换结果可减少约 3.87 GiB 常态主内存存储；初始化峰值仍受原权重加载影响，真实输入诊断峰值 79 GiB，仍保留 80 GiB 上限。
 
-完整视频基线任务 `video_gen_8aa9ab4652a14d608c20db3c4cde7798` 已在不中断的情况下完成，5.167 秒原生 4K 总耗时 77 分 47 秒。**优化后的完整视频尚未重新测时，也未做全片逐帧比较**；不能将上述单层比值当成整段视频加速比或大幅提速承诺。[测评及运行记录](../deployment/video-queue/4k-exact-performance.json)、[4K 原始数据](../deployment/video-queue/performance/gpu-4k.json)、[2K 原始数据](../deployment/video-queue/performance/gpu-2k.json)、[真实输入核对](../deployment/video-queue/performance/real-input-parity.json)。
+完整视频基线任务 `video_gen_8aa9ab4652a14d608c20db3c4cde7798` 已在不中断的情况下完成，5.167 秒原生 4K 总耗时 77 分 47 秒。**优化前后完整 4K 尚未重新测时，也未做该项全片逐帧比较**；不能将上述单层比值当成整段视频加速比或大幅提速承诺。[测评及运行记录](../deployment/video-queue/4k-exact-performance.json)、[4K 原始数据](../deployment/video-queue/performance/gpu-4k.json)、[2K 原始数据](../deployment/video-queue/performance/gpu-2k.json)、[真实输入核对](../deployment/video-queue/performance/real-input-parity.json)。
+
+后续补充（2026-11-17）：已完成当前优化版、Accelerate 与 Diffusers 三条完整 **2K** 控制器对照，分别为 1498.407、1506.335、1562.786 秒，最终 latent 与全部 RGB 像素完全一致；该比较没有重跑优化前实现，不能据此计算原优化的完整视频收益。[完整框架实测](video-framework-benchmark-2026-11-17.md)。用户已确认正式 2K／4K 继续使用当前优化版，不替换后端；[全部调研及选型](video-framework-research-index-2026-11-17.md)。
 
 ## 一致性要求
 

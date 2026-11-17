@@ -26,6 +26,10 @@ python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstat
 | --- | --- |
 | worker 协作、单主线、及时提交推送 | [AGENTS.md](AGENTS.md) |
 | 本机 BF16 Omni 与本地 2K／4K HTTP 部署 | [视频服务部署](deployments/video-generation/README.md) |
+| 视频框架全部研究与正式选型 | [研究、实测与采用状态总入口](docs/video-framework-research-index-2026-11-17.md) |
+| FastVideo／SGLang 全面对比 | [性能、质量、显存、服务与维护成本](docs/fastvideo-vs-sglang-2026-11-17.md) |
+| H3 PDD 头融合与注意力实现 | [源码解释、数值差异与纠错](docs/h3-pdd-attention-implementation-2026-11-17.md) |
+| 框架完整测评、两个 Strata 与 4K 并发 | [实测结果及未验证边界](docs/video-framework-benchmark-2026-11-17.md) |
 | 视频推理 Python 层与整体开源框架选型 | [2026-11-17 调研](docs/video-inference-framework-research-2026-11-17.md) |
 | 调用方式、配置覆盖、机器身份和输出 | [使用指南](docs/usage.md) |
 | 每日OpenCode版本检查、pnpm更新和客户端接入 | [客户端每日检查](docs/client-maintenance.md) |

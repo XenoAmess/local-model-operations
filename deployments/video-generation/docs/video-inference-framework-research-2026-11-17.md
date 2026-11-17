@@ -1,5 +1,7 @@
 # 本地视频服务：推理代码与开源框架选型
 
+后续正式决定（用户已确认）：Omni 保留 FastVideo，2K／4K 保留当前优化 IC。本文保留最初源码调查过程；已完成结果、未实测项与取消边界统一见[研究总入口](video-framework-research-index-2026-11-17.md)、[完整实测](video-framework-benchmark-2026-11-17.md)、[FastVideo／SGLang 对比](fastvideo-vs-sglang-2026-11-17.md)。文末“建议的验证顺序”仅为当时研究计划，不能视为恢复已取消基准的指令。
+
 2026-11-17。范围是当前 BF16 FastH3 Omni 与 Open-H3-Regenerate-2K-IC 的 2K／4K 服务，调查代码可维护性和性能替代，不迁移线上框架。用户已取消回滚，继续采用已验证的数据搬运优化。
 
 ## 结论

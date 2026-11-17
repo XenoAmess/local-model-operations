@@ -1,5 +1,7 @@
 # H3 框架性能实测、两个 Strata 与4K并发
 
+最终选型（用户已确认）：正式 Omni 继续 FastVideo；2K／4K 保留当前优化 IC 后端。全部调研入口见[研究索引](video-framework-research-index-2026-11-17.md)，另见[FastVideo／SGLang 全面对比](fastvideo-vs-sglang-2026-11-17.md)与[PDD／注意力实现说明](h3-pdd-attention-implementation-2026-11-17.md)。本次文档整理没有新增推理或恢复下述已取消的稳态补测。
+
 2026-11-17，RTX6000D（85,651MiB，SM120）。截至19:54 CST：**完整2K对照没有显示Diffusers或Accelerate更快；三条最终latent和全部像素完全一致。FastVideo、SGLang与UniServe均已有完整Omni成片，但公平的预热后量产对照尚未完成，不能断言UniServe量产更慢或最快。两个Strata不支持现有H3入口。**
 
 用户指出量产应比较预热后的连续耗时，这一口径正确；撤回用冷启动总时间判断UniServe不值得推进的结论。追加稳态补测已按用户“不测了，先给现有结论”的最新指令取消。正式8001／8002／7860、GPU队列已恢复，局域网只读状态均200，GPU无实验占用。线上框架未替换，全部关闭开机自启、禁止云端，保留80／88GiB主内存上限。

@@ -1,8 +1,8 @@
 {
-  "source_commit": "15b8c2bef739780adfe3cffb9ddb631a8ad889f4",
+  "source_commit": "97c393356d00bda4e3cd261cd2258604cccbc8cd",
   "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
   "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
-  "scope": "Committed video deployment and isolated framework benchmarks; small sanitized measurement and admission receipts",
+  "scope": "Committed video deployment, completed isolated framework measurements, all research documentation and the user-confirmed FastVideo plus optimized IC production selection",
   "omitted": [
     "runtime Git metadata",
     "models",
@@ -26,8 +26,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 3967,
-      "sha256": "7d4d5e8a696e1f07c9ce06fd9b6c548296c9e46aa83c5d29cd56c0217eddebbd"
+      "bytes": 4460,
+      "sha256": "29dbcfa1dae846c74db4bc5b655eaba74cac38456c4b52a259adc650fb947118"
     },
     {
       "path": "deployment-omni.json",
@@ -450,6 +450,11 @@
       "sha256": "bd87999858f17e08a97a74ea53e01cc8d6c7b2618185b5c050fde1566c2cd978"
     },
     {
+      "path": "docs/fastvideo-vs-sglang-2026-11-17.md",
+      "bytes": 8780,
+      "sha256": "c09a35bc48e45f2b58c9643c47b2bbb83c4dd3d31da71a5723bb0581cf9e3166"
+    },
+    {
       "path": "docs/h3-2k-http.md",
       "bytes": 7958,
       "sha256": "06fed2f634e70555e544cc7ecededc3e640b6fc549f543108b7dd244d069eb4d"
@@ -458,6 +463,11 @@
       "path": "docs/h3-2k-refiner-http.md",
       "bytes": 5014,
       "sha256": "40331e7afd30e2df477c26cfddc7b2e46e5d0867ea8b7ea736d0713a0866922f"
+    },
+    {
+      "path": "docs/h3-pdd-attention-implementation-2026-11-17.md",
+      "bytes": 7206,
+      "sha256": "aa8070ad4831850331f3b4590c76e29156872797c47278946d3a1c3a20fde4cc"
     },
     {
       "path": "docs/minimax-h3-local-2k.md",
@@ -481,13 +491,18 @@
     },
     {
       "path": "docs/open-h3-exact-performance.md",
-      "bytes": 5537,
-      "sha256": "c4fc98776a3ba56b303469ed4560b777ef66c491f4b1c931d03597b3be2b5469"
+      "bytes": 6064,
+      "sha256": "8523a685aee23c3ea565c30c4a9ac0e45f3816344dd8668adf5b36968573d486"
     },
     {
       "path": "docs/video-framework-benchmark-2026-11-17.md",
-      "bytes": 14332,
-      "sha256": "c8f74abe417bc5e3b54c8b9cf4b1f74729a96d55bfe17266fe1a7a30ec021c7c"
+      "bytes": 14758,
+      "sha256": "1f0882610faeeded547da876b3c79d1420e193874471a55a4ceb7802109460df"
+    },
+    {
+      "path": "docs/video-framework-research-index-2026-11-17.md",
+      "bytes": 6144,
+      "sha256": "a8736c9e167b855d00909e9a53a474ac97772198cfcaf61838ee70a1651b074a"
     },
     {
       "path": "docs/video-http-api.md",
@@ -501,8 +516,8 @@
     },
     {
       "path": "docs/video-inference-framework-research-2026-11-17.md",
-      "bytes": 11147,
-      "sha256": "ee3e82706b23366fea1c6865e96b36fe3c6ef2af75214e54f1e85bb926417807"
+      "bytes": 11634,
+      "sha256": "885e083cba4a5924b911d4b9186ced014bca15777bd80975d9e47799fd269f0e"
     },
     {
       "path": "fasth3-omni-bf16.yaml",
@@ -904,5 +919,6 @@
       "bytes": 5504,
       "sha256": "5b35b797f894bed300daf12b47d882e54cbda9e668e11fef58187592f53265ee"
     }
-  ]
+  ],
+  "documentation_sync": "Root docs are the reader entry; deployment docs mirror runtime docs. Root-to-deployment links are rewritten to resolve within each tree. Deployment README remains repository-specific."
 }
