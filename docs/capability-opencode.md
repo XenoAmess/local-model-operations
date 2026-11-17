@@ -2327,3 +2327,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：旧865被动实采为Owner验收，不授OpenCode原生生成；Nov17同机缓存／原生0保持，见[HOLD与原意图证据](evidence/2026-11-17-civ6-original865-passive-native.json)。
 
 2026-11-17: Tasks962/963 reused the same-machine/user Nov17 canonical1.19.5 successful maintenance cache; OpenCode native generation remains0. [Separate HTTP/software evidence](evidence/2026-11-17-civ6-readonly-wake962-cleanup963-software.json).
+
+2026-11-17: Readonly WAKE episode is Owner software work; same-machine/user canonical maintenance cache and OpenCode native generation0 remain separate. [Execution scope](evidence/2026-11-17-civ6-readonly-wake-finite-software.json).
