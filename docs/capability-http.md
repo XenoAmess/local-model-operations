@@ -7266,3 +7266,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[949根函数测零命名统计](evidence/2026-11-17-civ6-949-root-labelled-zero-profile.json)，11源337868B／一次POST40427.7286ms／0完整采用extra；很快自然终止，无stop文件不补造。Owner119／97编译、30factory/context＋12combinedExecutor VM通过，2溢出仅软件MAX2。仅私有有界聚合，不改4096／模板／mod，不授零CPU／Native／因果修复或MANYFAIL通过。累计949/816/68length/65最终失败/988POST/38extra/0在途。
 
 2026-11-17：[950精确END消费者](evidence/2026-11-17-civ6-950-precise-end-consumers.json)，15源82763B／一次POST40420.7619ms／0完整采用extra；快速自然退出，未写stop标记。Owner两VM实际组合Executor＋32Context工厂模拟、20坏帧／7流程通过，仅软件；原版调用ACK、真实激活、样本与边界聚合分开。全modOPEN／MANYFAIL保留，累计950/816/68length/66最终失败/989POST/38extra/0在途。
+
+2026-11-17：[951旧收益只读观察准备](evidence/2026-11-17-civ6-951-oldrights-passive-getter.json)，13源163205B／一次POST40420.5745ms／0完整采用extra。Owner核两实际旧档SHA、私有119／97编译及18VM／4源码拒绝；getter失败不阻原清理，原错误不吞。当前SQL先归零与Lua属性后清要分开记录，软件／档案存在不授实机迁移。累计951/816/68length/67最终失败/990POST/38extra/0在途，完整modOPEN。
