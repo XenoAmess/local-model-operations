@@ -29,18 +29,30 @@ def main():
     import h3_ic_exact
     import torch
     torch.cuda.set_per_process_memory_fraction(.94)
+    def progress(model):
+        step = {"number": 0}
+        def begin(module, inputs):
+            step["number"] += 1
+            print(f"IC {args.strategy} denoising step {step['number']} started", flush=True)
+        model.register_forward_pre_hook(begin)
+        for index, block in enumerate(model.transformer_blocks):
+            if index % 10 == 0:
+                def entered(module, inputs, block_index=index):
+                    print(f"IC {args.strategy} step {step['number']}: block {block_index+1}/50", flush=True)
+                block.register_forward_pre_hook(entered)
+        return model
     if args.strategy == "accelerate":
         def place(model, device):
             from accelerate import cpu_offload
-            return cpu_offload(model, execution_device=torch.device(device), offload_buffers=True,
-                               preload_module_classes=["MiniMaxH3TransformerBlock"])
+            return progress(cpu_offload(model, execution_device=torch.device(device), offload_buffers=True,
+                                        preload_module_classes=["MiniMaxH3TransformerBlock"]))
         h3_ic_exact.readonly_block_offload = place
     elif args.strategy == "diffusers":
         def place(model, device):
             from diffusers.hooks import apply_group_offloading
             apply_group_offloading(model, onload_device=torch.device(device), offload_device=torch.device("cpu"),
                                   offload_type="block_level", num_blocks_per_group=1, non_blocking=True)
-            return model
+            return progress(model)
         h3_ic_exact.readonly_block_offload = place
     args.output_dir.mkdir(parents=True, exist_ok=True)
     request = json.loads(args.request.read_text())
