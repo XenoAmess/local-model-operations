@@ -2275,3 +2275,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[942压力输入审计软件后续](evidence/2026-11-17-civ6-942-pressure-input-audit-software.json)。Owner工具软件检查不授OpenCode生成；Nov17维护成功缓存／原生生成0保持。
 
 2026-11-17：[943有限重复读档编排](evidence/2026-11-17-civ6-943-finite-repeated-load-episode.json)。943与Owner软件执行不授OpenCode原生生成；Nov17成功1.19.5维护缓存、原生生成0保持。
+
+2026-11-17：[944被动UI生命周期组件](evidence/2026-11-17-civ6-944-passive-legacy-ui-lifecycle.json)。944与Owner软件执行不授OpenCode原生生成；Nov17成功1.19.5维护缓存、原生生成0保持。

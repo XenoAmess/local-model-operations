@@ -7238,3 +7238,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[943有限重复读档编排](evidence/2026-11-17-civ6-943-finite-repeated-load-episode.json)。943新未完成的有限重复读档编排候选，14源340505字节、一次POST404／43.320300ms／0完整采用extra。Owner3真实玩家载荷双Lua、26VM含20负例、mock实际flow的1END78／3load／2save／未知END停止检查通过；没有Native78读档或79证明。非性能收尾用自身持久日志／保存／撤观察凭证，不伪造formal记录。累计943／816完整／68length／59最终请求失败／982POST／38extra／0在途；真实回合和重复载入继续待验。
 
 2026-11-17：[既有404错误体只读核查](evidence/2026-11-17-civ6-existing-provider404-body-audit.json)。943原件HTTP-ERROR已保留99字节／SHA6f66d3…，实际分类is_bifrost_error=false/status404/provider API error；不能推定具体上游URL／模型状态／认证路由原因。0新POST／GET，0调用器或配置修改，不新增第二套HTTP。943账本不变，OpenCode维护与原生生成0保持。
+
+2026-11-17：[944被动UI生命周期组件](evidence/2026-11-17-civ6-944-passive-legacy-ui-lifecycle.json)。944新旧移民被动UI生命周期组件，13源366055字节、一次POST404／47.266400ms／0完整采用extra。Owner六个实际原版UI事件、精确ID／有界参数／自有撤钩，15用例×双Lua共30VM通过；未安装／未冷读档／无Native恢复证明。事件名不能授队列静止或清除旧ARMED。累计944／816完整／68length／60最终请求失败／983POST／38extra／0在途。

@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-17",
+  "utc": "2026-11-17T05:50:24.634193+00:00",
+  "machine": "BF-202609141645",
+  "mode_id": "http-candidate",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/09e02c84b64ee7c2f4147b290a2803c7c109d254/docs/research/baiqi-source160-legacy-ui-events-http944-2026-11-17.json",
+  "model944": {
+    "purpose": "New still-unfinished old865 passive UI lifecycle observer before Owner implementation; not a repeat of completed Core qualification study",
+    "sources": 13,
+    "source_bytes": 366055,
+    "generation_POST": 1,
+    "http_status": 404,
+    "total_ms": 47.26639995351434,
+    "complete_candidate": false,
+    "adopted": false,
+    "extra_POST": 0,
+    "terminal_exit": 1,
+    "current_request_killed": false,
+    "stop_after_current_flag_written": true,
+    "POST_before_group3control_formal": true
+  },
+  "software_only": {
+    "utc": "2026-11-17T05:41:59.973406+00:00",
+    "source_version": 160,
+    "helper_sha256": "9938fb0202b169a56d9910b6bdec54e5f197bcb5ead2d1aa999a24d72f1c7ec9",
+    "actual_helper_VM_executions": 30,
+    "Lua_versions": [
+      "5.1",
+      "5.3"
+    ],
+    "cases": [
+      "target_arity_nil_expectedtype_not_observed",
+      "exact_fullID_owner_malformed_filter",
+      "read_deepcopy",
+      "bounded64_drops_counted",
+      "retire_idempotent",
+      "foreign_handlers_survive",
+      "missing_event_refuses_before_add",
+      "add_false_not_success",
+      "add_throw_before_cleanup",
+      "add_throw_after_cleanup",
+      "remove_false_stays_incomplete",
+      "remove_throw_stays_incomplete",
+      "foreign_reference_preserved_truthful_repeat",
+      "unsupported_args_and_badclock_unknown",
+      "arity_cap_error_not_silent"
+    ],
+    "Native_queries": 0,
+    "Native_orders": 0,
+    "original865_recovery": "FAIL_UNRESOLVED",
+    "scope": "UI lifecycle notification collection only; no event-name-to-quiescence inference, no permission hook/journalwrite/replay. No package/build/install/cold158Native witness yet."
+  },
+  "Owner_review": [
+    "Factory binds only six known UI Events, prevalidates Add/Remove, filters exact numeric owner0/fullID8650807, retains<=64 matching rows with raw arity/typed nil-inclusive<=16 arguments/turn and separate other/malformed/drop/error counters. expected_unit_type is a configured identity, not a claimed native unit-type observation.",
+    "No unit query/order, property write, permission return, controller Update/RunNow, journal reconciliation or operation retry. Read deep copies and Retire uses exact saved callback references; foreign bindings and other handlers survive.",
+    "Review corrected repeated Retire after a foreign event replacement so an earlier incomplete result stays incomplete. Explicit false Add/Remove results count as errors while nil API returns remain permitted.",
+    "15 actual helper cases execute in both Lua5.1 and5.3: arity/nil, full ID and owner filtering, deep copy, capacity/drop, idempotence, foreign handler preservation, missing events, failing/throwing Add/Remove, foreign event objects, unknown scalar/clock and argument truncation.30VM executions are software evidence only.",
+    "Observer is not packaged, installed or exercised against old158 in Native. There is no new event, cancellation or recovery evidence. CoreCanStartOperation is qualification; a lifecycle notification name alone cannot clear/replay the old ARMED receipt or certify all queues."
+  ],
+  "ledger": {
+    "logical": 944,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 60,
+    "generation_POST": 983,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "lessons": [
+    "Use actual installed primary UI references to select callback names and argument positions; their UI refresh or movement-cancel handlers do not establish an engine completion/cancellation contract.",
+    "An old still-pending lifecycle observation component is real new work distinct from completed permission-qualification probes or a different actor persistence episode. One candidate POST failed404; Owner implementation and30actualVM executions add software evidence, not Native recovery.",
+    "Preserve the first incomplete Retire result on repeated calls; exact saved callback removal must not overwrite foreign event objects or other handlers. Count explicit false registration/removal returns as failures.",
+    "Keep configured expected_unit_type separate from an actual native type read. Record malformed/other/unknown/drop counts explicitly; fullID filtering and argument arity including nil must survive Lua5.1/5.3.",
+    "No new game package/load, unit order, journal change, timeout release or replay. Native queue quiescence, old-target cancellation and original865 recovery remain unknown/FAIL."
+  ],
+  "whole_mod": "OPEN_CONTINUE",
+  "old8650807": "FAIL_UNRESOLVED",
+  "OpenCode_daily": "Nov17 same-machine/user canonical1.19.5successcache/nativegeneration0"
+}
