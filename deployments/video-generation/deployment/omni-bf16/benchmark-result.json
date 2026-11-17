@@ -1,0 +1,197 @@
+{
+  "status": "completed_and_verified",
+  "measured_at": "2026-11-16T09:41:10.424804+00:00",
+  "gpu": "NVIDIA RTX 6000D 85651 MiB",
+  "hardware_limits": {
+    "inference_memory_gib": 80,
+    "aggregate_memory_gib": 88,
+    "max_swap_gib": 1
+  },
+  "configuration": {
+    "model_repository": "FastVideo/FastVideo-FastH3-Omni-8-Step-V1",
+    "revision": "53e0d26a1691aa473b6262d8196a8feb2c297df0",
+    "shared_base_revision": "9bfb6693f2cf6de171db46d1aa586f67d773a1da",
+    "fastvideo_revision": "a0e6cf1f5086c9af735d73e6c0b80dbc1d5817b3",
+    "request_size": "1344x768",
+    "requested_seconds": 5,
+    "actual_seconds": 5.167,
+    "frames": 124,
+    "fps": 24,
+    "seed": 1234,
+    "forwards": 8,
+    "pdd_fine_intervals": 32,
+    "references": [
+      "image",
+      "video_with_audio"
+    ],
+    "denoiser": "BF16 unquantized",
+    "encoder": "BF16 unquantized",
+    "decoder": "original 36-layer VAE, FP32 weights with released FP16 decode autocast; no NVFP4 decoder",
+    "attention": "BF16 tile-128 VSA Triton kernel, trained sparsity 0.9 and reference keep rate 0.1",
+    "stage_profiling": true,
+    "same_request_except_model_and_explicit_size": true
+  },
+  "reference_sha256": {
+    "image": "472d633ea178e30cd3395a3f7290257a6dbbbbe0f6b2fbc653706d1a251c570a",
+    "video": "893bc0f630dc18ceca2503929d7b1eff9b952d0149480d91d428ccbf892cc236"
+  },
+  "bf16": {
+    "job": "video_gen_56dfed15066c491492f27836663ef16e",
+    "api_startup_s": 6.007451202021912,
+    "inference_time_s": 759.2129165099468,
+    "stage_durations": {
+      "input_preparation_stage": 0.9838802330195904,
+      "conditioning_stage": 44.06663848296739,
+      "latent_preparation_stage": 54.61829809914343,
+      "denoising_stage": 641.9679458311293,
+      "video_decoding_stage": 16.264500619843602,
+      "audio_decoding_stage": 0.08996187918819487,
+      "PostDecodeFrameProcessStage": 0.0627550920471549,
+      "VideoSaveStage": 0.18627723096869886,
+      "AudioMuxStage": 0.0
+    },
+    "module_loading_intervals_s": {
+      "text_encoder": 37.587,
+      "vae": 12.512,
+      "audio_vae": 1.356,
+      "transformer": 26.634
+    },
+    "forward_cuda_profiles_ms": [
+      {
+        "qkv_proj": 7239.1,
+        "attention": 49246.8,
+        "out_proj": 2349.2,
+        "feed_forward": 14711.6,
+        "block_total": 77960.3
+      },
+      {
+        "qkv_proj": 7202.2,
+        "attention": 48758.4,
+        "out_proj": 2343.2,
+        "feed_forward": 14709.5,
+        "block_total": 76684.3
+      },
+      {
+        "qkv_proj": 7205.6,
+        "attention": 48746.4,
+        "out_proj": 2343.2,
+        "feed_forward": 14710.2,
+        "block_total": 76676.0
+      },
+      {
+        "qkv_proj": 7203.1,
+        "attention": 48753.5,
+        "out_proj": 2342.7,
+        "feed_forward": 14711.6,
+        "block_total": 76681.0
+      },
+      {
+        "qkv_proj": 7202.0,
+        "attention": 48730.8,
+        "out_proj": 2341.2,
+        "feed_forward": 14709.7,
+        "block_total": 76655.4
+      },
+      {
+        "qkv_proj": 7205.5,
+        "attention": 48739.8,
+        "out_proj": 2341.0,
+        "feed_forward": 14710.2,
+        "block_total": 76667.1
+      },
+      {
+        "qkv_proj": 7203.9,
+        "attention": 48734.7,
+        "out_proj": 2342.0,
+        "feed_forward": 14711.3,
+        "block_total": 76661.9
+      },
+      {
+        "qkv_proj": 7203.4,
+        "attention": 48747.4,
+        "out_proj": 2341.3,
+        "feed_forward": 14710.4,
+        "block_total": 76673.0
+      }
+    ],
+    "maximum_stage_peak_allocated_gib": 73.88,
+    "api_memory_metric_mb": 1146.91845703125,
+    "api_memory_metric_note": "Final-stage counter; not the global GPU peak. Use stage log peaks.",
+    "sha256": "aef5891850f2cf30e4090d6cb0d6359c92dea99bd52d0447bd3653d116cd8a96",
+    "download_url": "http://192.168.1.11:7860/gradio_api/file=/home/ubuntu/workspace/xenoamess_bake_videos/omni-web/outputs/omni-bf16-768p-5s-20261116.mp4"
+  },
+  "nvfp4_baseline": {
+    "job": "video_gen_c90caa0607e043ce9d2db3df541289ec",
+    "references": [
+      "image",
+      "video_with_audio"
+    ],
+    "requested_seconds": 5,
+    "actual_seconds": 5.167,
+    "size": "1344x768",
+    "frames": 124,
+    "fps": 24,
+    "inference_time_s": 350.32147452491336,
+    "stage_durations": {
+      "input_preparation_stage": 1.0838030758313835,
+      "conditioning_stage": 4.226633124053478,
+      "latent_preparation_stage": 40.7513874899596,
+      "denoising_stage": 298.84400759707205,
+      "video_decoding_stage": 5.238942643161863,
+      "audio_decoding_stage": 0.10631047608330846,
+      "PostDecodeFrameProcessStage": 0.046607696916908026,
+      "VideoSaveStage": 0.20104719884693623,
+      "AudioMuxStage": 0.0
+    },
+    "sha256": "339c052db627b8fbb2acab1d47cc668a992d0b90eba58964ef07198d3a07cd8d",
+    "download_url": "http://192.168.1.11:7860/gradio_api/file=/home/ubuntu/workspace/xenoamess_bake_videos/omni-web/outputs/omni-restored-768p-5s-20261116.mp4",
+    "visual_check": "Contact sheet at frames 0,60,123 shows intact character and scene; no black or corrupt sampled frames. Does not establish exact motion matching or comparative quality."
+  },
+  "comparison": {
+    "total_time_ratio_bf16_over_nvfp4": 2.1671892011174863,
+    "denoising_stage_time_ratio": 2.1481707161974866,
+    "bf16_denoising_stage_minus_logged_transformer_loading_s": 615.3339458311293,
+    "bf16_sum_cuda_transformer_blocks_s": 614.659,
+    "bf16_logged_module_loading_sum_s": 78.089,
+    "caveat": "BF16 uses lazy staged loading; NVFP4 baseline was GPU-resident. Whole-stack configurations, not a pure arithmetic-precision benchmark. No quality ranking or 15-second/2K speed extrapolation."
+  },
+  "resources": {
+    "host_unit_peak_gib": 79.00191116333008,
+    "host_unit_swap_peak_gib": 0.7429771423339844,
+    "gpu_driver_sampled_peak_mib": 81539,
+    "sampling_interval_seconds": 10,
+    "oom_events": 0,
+    "memory_psi_full_total_s": 1.111496
+  },
+  "verification": {
+    "lan_api_download_sha256_matches_server": true,
+    "lan_web_download_sha256_matches_server": true,
+    "video_and_audio_present": true,
+    "sampled_frames": [
+      0,
+      60,
+      123
+    ],
+    "visual_check": "Character and scene intact in sampled frames, hands change position, no black or corrupted sampled frames. No assertion of exact motion matching or relative visual quality."
+  },
+  "restoration": {
+    "nvfp4_restored": true,
+    "unit_states": {
+      "fasth3-omni.service": "active",
+      "llmlab-fasth3-omni.service": "active",
+      "fasth3-omni-web.service": "active",
+      "h3-2k-refiner-http.service": "active",
+      "h3-2k-http.service": "inactive",
+      "h3-2k-web.service": "inactive",
+      "qwen38-coder.service": "inactive"
+    },
+    "boot_autostart": {
+      "fasth3-omni.service": "disabled",
+      "fasth3-omni-web.service": "disabled",
+      "h3-2k-refiner-http.service": "disabled"
+    },
+    "cloud_used": false,
+    "full_h3_optimization": "paused"
+  },
+  "local_evidence_directory": "outputs/omni-bf16-benchmark"
+}

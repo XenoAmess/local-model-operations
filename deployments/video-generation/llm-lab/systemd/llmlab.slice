@@ -1,0 +1,11 @@
+[Unit]
+Description=Local LLM experiments with a shared host memory budget
+
+[Slice]
+MemoryAccounting=yes
+MemoryHigh=80G
+MemoryMax=88G
+MemorySwapMax=1G
+TasksMax=512
+CPUWeight=50
+IOWeight=50

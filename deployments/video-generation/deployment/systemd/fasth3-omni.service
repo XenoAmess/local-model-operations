@@ -1,0 +1,18 @@
+[Unit]
+Description=FastH3 Omni reference video and audio HTTP API
+After=network-online.target llmlab-guard.service
+
+[Service]
+Type=exec
+WorkingDirectory=/home/ubuntu/workspace/xenoamess_bake_videos
+ExecStartPre=-/usr/bin/systemctl --user reset-failed llmlab-fasth3-omni.service
+ExecStart=/home/ubuntu/workspace/xenoamess_bake_videos/llm-lab/.venv/bin/python /home/ubuntu/workspace/xenoamess_bake_videos/llm-lab/scripts/run_isolated.py --unit llmlab-fasth3-omni --memory-gib 80 --wait -- /home/ubuntu/workspace/xenoamess_bake_videos/start-fasth3-omni.sh
+ExecStop=-/usr/bin/systemctl --user stop llmlab-fasth3-omni.service
+MemoryMax=256M
+MemorySwapMax=0
+Restart=no
+TimeoutStopSec=30
+UMask=0077
+
+[Install]
+WantedBy=default.target

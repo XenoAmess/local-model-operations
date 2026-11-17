@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-11-16T03:50:25.201812+00:00",
+  "official_repository": "https://github.com/MiniMax-AI/MiniMax-H3",
+  "official_repository_revision": "199b7d0e1fd95e7b3eafa8c15eca692534142427",
+  "required_scope": [
+    "H3-Context-IR",
+    "H3-Base-Ref2VA",
+    "H3-Regenerate-2K"
+  ],
+  "local_weights": {
+    "repository": "MiniMaxAI/MiniMax-H3",
+    "revision": "0919fb684102ef115126612f3fbb84d1027e7317",
+    "status": "downloaded_and_verified_not_deployed",
+    "scope": "H3-Base Ref2VA only; not a complete 2K workflow"
+  },
+  "context_ir": {
+    "local_weights_released": false,
+    "provider": "official MiniMax cloud API",
+    "endpoint": "POST /v2/h3_context_ir"
+  },
+  "regenerate_2k": {
+    "local_implementation_released": false,
+    "separate_downloadable_checkpoint_published": false,
+    "provider": "official MiniMax cloud API",
+    "endpoint": "POST /v2/video_regeneration",
+    "base_model_reuse": "Official architecture reuses H3-Base in context; the regeneration module/workflow is not released. This does not establish that changing the base output dimensions reproduces official 2K."
+  },
+  "query_endpoint": "GET /v2/query/video_generation/{task_id}",
+  "cloud_credentials_configured": false,
+  "cloud_calls_executed": false,
+  "model_switch_allowed": false,
+  "references": [
+    {
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3#full-2k-workflow"
+    },
+    {
+      "url": "https://platform.minimax.io/docs/api-reference/video-generation-v2-h3-context-ir"
+    },
+    {
+      "url": "https://platform.minimax.io/docs/api-reference/video-generation-v2-regeneration"
+    }
+  ],
+  "official_scripts": [
+    {
+      "path": "scripts/readme/full-2k-i2va-h3-regenerate-2k.sh",
+      "url": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/199b7d0e1fd95e7b3eafa8c15eca692534142427/scripts/readme/full-2k-i2va-h3-regenerate-2k.sh",
+      "sha256": "b66701da7bdb003cca5362b7ff9e98bbd3f533155e7b434ffc5a52626fc7d8b5"
+    },
+    {
+      "path": "scripts/readme/full-2k-ref2va-h3-api-2k-in-open-platform-for-reference.sh",
+      "url": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/199b7d0e1fd95e7b3eafa8c15eca692534142427/scripts/readme/full-2k-ref2va-h3-api-2k-in-open-platform-for-reference.sh",
+      "sha256": "caec8a2aaa523d5bcf466d9ddcb3dcbe8f2557ffddd531a158d28dc81768f7d1"
+    },
+    {
+      "path": "scripts/readme/full-2k-ref2va-h3-base.sh",
+      "url": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/199b7d0e1fd95e7b3eafa8c15eca692534142427/scripts/readme/full-2k-ref2va-h3-base.sh",
+      "sha256": "a7fcd7ac1bba8924199e7cac99e01d2fae826ac5ccda21948c1216f9b9f09c84"
+    },
+    {
+      "path": "scripts/readme/full-2k-ref2va-h3-context-ir.sh",
+      "url": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/199b7d0e1fd95e7b3eafa8c15eca692534142427/scripts/readme/full-2k-ref2va-h3-context-ir.sh",
+      "sha256": "8ad994259735861f8282c125ff1425f1732f56786b7c061cc41994ab88f1454b"
+    },
+    {
+      "path": "scripts/readme/full-2k-t2va-h3-regenerate-2k.sh",
+      "url": "https://raw.githubusercontent.com/MiniMax-AI/MiniMax-H3/199b7d0e1fd95e7b3eafa8c15eca692534142427/scripts/readme/full-2k-t2va-h3-regenerate-2k.sh",
+      "sha256": "a285529b8840f9766530196843125118030d14326170626864b71bd8f8932415"
+    }
+  ],
+  "local_replacement": {
+    "repository": "Efficient-Large-Model/Open-H3-Regenerate-2K-IC",
+    "revision": "54a7104b204fb46486cf85c2f600942118186d57",
+    "project": "https://nvlabs.github.io/Sana/Open-H3-Regenerate-2K/#ic",
+    "additional_gib": 18.19198654871434,
+    "status": "downloaded_and_verified; not deployed or inference-tested",
+    "official_minimax_2k_implementation": false
+  },
+  "cloud_use_allowed": false
+}

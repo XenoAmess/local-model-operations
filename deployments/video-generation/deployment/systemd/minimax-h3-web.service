@@ -1,0 +1,18 @@
+[Unit]
+Description=MiniMax H3 BF16 Gradio LAN interface
+After=minimax-h3.service network-online.target
+Wants=minimax-h3.service
+
+[Service]
+Type=exec
+WorkingDirectory=/home/ubuntu/workspace/xenoamess_bake_videos
+ExecStart=/home/ubuntu/workspace/xenoamess_bake_videos/start-minimax-h3-web.sh
+MemoryMax=2G
+MemorySwapMax=0
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+UMask=0077
+
+[Install]
+WantedBy=default.target

@@ -25,6 +25,7 @@ python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstat
 | 内容 | 入口 |
 | --- | --- |
 | worker 协作、单主线、及时提交推送 | [AGENTS.md](AGENTS.md) |
+| 本机 BF16 Omni 与本地 2K／4K HTTP 部署 | [视频服务部署](deployments/video-generation/README.md) |
 | 调用方式、配置覆盖、机器身份和输出 | [使用指南](docs/usage.md) |
 | 每日OpenCode版本检查、pnpm更新和客户端接入 | [客户端每日检查](docs/client-maintenance.md) |
 | Windows入口占位文本、按包构建许可与CLI实证 | [HOI4迁移经验](docs/hoi4-windows-client-experience.md) |

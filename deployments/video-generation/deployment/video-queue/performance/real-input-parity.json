@@ -1,0 +1,22 @@
+{
+  "status": "real_input_first_block_bitwise_verified",
+  "full_model_loaded": true,
+  "cached_lora_linears": 312,
+  "original_fp32_lora_matrices_reloaded": 12,
+  "input_shape": [
+    1,
+    345843,
+    5376
+  ],
+  "output_shape": [
+    1,
+    345843,
+    5376
+  ],
+  "compared_elements": 1859251968,
+  "dtype": "torch.bfloat16",
+  "bit_equal": true,
+  "reference_replay_seconds_including_weight_reload": 26.369736969005316,
+  "full_video_generated": false,
+  "scope": "Actual production packed input and adapted weights; original FP32 LoRA masters, original FFN chunking and original arithmetic replayed"
+}

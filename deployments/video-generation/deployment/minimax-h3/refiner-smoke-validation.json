@@ -1,0 +1,40 @@
+{
+  "status": "refiner_generation_and_http_download_verified",
+  "time": 1794805804.9879885,
+  "resolution": "2560x1440",
+  "frames": 124,
+  "sampler_steps": 3,
+  "denoise_s": 1209.7,
+  "decode_s": 174,
+  "service_wall_s": 1516.962,
+  "unit_memory_peak_gib": 79,
+  "cloud_used": false,
+  "decoder": "released full H3 VAE, 36 blocks, FP32 tiled",
+  "url": "http://192.168.1.11:7860/gradio_api/file=/home/ubuntu/workspace/xenoamess_bake_videos/omni-web/outputs/refiner-smoke-2k-20261116.mp4",
+  "sha256": "981b17c9410422de3432d0b6e848d56fbae9969168737c909a44d18b485aacb6",
+  "ffprobe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 2560,
+        "height": 1440,
+        "r_frame_rate": "24/1",
+        "nb_frames": "124"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "nb_frames": "163"
+      }
+    ],
+    "format": {
+      "duration": "5.167000",
+      "size": "5857113"
+    }
+  },
+  "visual_check": "Extracted frame retains character, scene and main shapes; no black/corrupt output; full temporal quality not scored.",
+  "scope": "Standalone actual 2K generation and LAN download; full H3 to 2K HTTP job is still in progress.",
+  "temporal_visual_check": "Contact sheet at frames 0,60,123 preserves character appearance and scene; no obvious black frames or corruption; no formal temporal score."
+}

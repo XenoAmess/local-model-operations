@@ -1,0 +1,280 @@
+{
+  "status": "gpu_validation_completed_lan_download_and_batch_reuse_verified",
+  "created_at": "2026-11-16T10:22:22.513160+00:00",
+  "models": {
+    "fasth3-omni-bf16": "http://192.168.1.11:8001/v1",
+    "open-h3-2k": "http://192.168.1.11:8002/v1"
+  },
+  "cpu_regression_tests": 14,
+  "live_frontend_restart": {
+    "running_job": "video_gen_2ed5dc058e5b41dcbf52bca0cb5282c7",
+    "before_status": "in_progress",
+    "after_status": "in_progress",
+    "gpu_worker_pid_unchanged": true,
+    "gpu_worker_pid": "1031099"
+  },
+  "real_gpu_validation": "outputs/video-queue-validation-20261116/run.json",
+  "boot_autostart": false,
+  "cloud_used": false,
+  "legacy_http_and_timeline_regression_tests": 9,
+  "bf16_first_draft_lan_download": "sha256_verified",
+  "live_reordering_evidence": "outputs/video-queue-validation-20261116/real-reordering-proof.json",
+  "finished_at": "2026-11-16T11:24:11.336841+00:00",
+  "jobs": [
+    {
+      "id": "video_gen_2ed5dc058e5b41dcbf52bca0cb5282c7",
+      "model": "fasth3-omni-bf16",
+      "status": "completed",
+      "error": null
+    },
+    {
+      "id": "video_gen_f8a7aea242504786b293c0e076936f59",
+      "model": "open-h3-2k",
+      "status": "completed",
+      "error": null
+    },
+    {
+      "id": "video_gen_43d52b427c6847aa845499e2917b829f",
+      "model": "fasth3-omni-bf16",
+      "status": "completed",
+      "error": null
+    },
+    {
+      "id": "video_gen_3463eedd64334f59b455bbb82e93c480",
+      "model": "open-h3-2k",
+      "status": "completed",
+      "error": null
+    }
+  ],
+  "outputs": [
+    {
+      "id": "video_gen_2ed5dc058e5b41dcbf52bca0cb5282c7",
+      "model": "fasth3-omni-bf16",
+      "sha256": "e0652a21faaab46a5fafda93a6a4f89db97cf31c4a7b5ae24910f08143d2ff33",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.167000",
+          "size": "2057313"
+        }
+      },
+      "result": {
+        "inference_time_s": 589.3955428970512,
+        "stage_durations": {
+          "input_preparation_stage": 1.0134746781550348,
+          "conditioning_stage": 43.707814127905294,
+          "latent_preparation_stage": 54.22086558700539,
+          "denoising_stage": 482.1587238770444,
+          "video_decoding_stage": 7.027329659089446,
+          "audio_decoding_stage": 0.10317242913879454,
+          "PostDecodeFrameProcessStage": 0.03755460004322231,
+          "VideoSaveStage": 0.14393603382632136,
+          "AudioMuxStage": 0.0
+        },
+        "size": "832x480",
+        "seconds": "5",
+        "model": "fasth3-omni-bf16",
+        "backend_job": "video_gen_727bb08820664f62aa96c2a79597ff6b",
+        "sha256": "e0652a21faaab46a5fafda93a6a4f89db97cf31c4a7b5ae24910f08143d2ff33",
+        "cloud_used": false
+      }
+    },
+    {
+      "id": "video_gen_f8a7aea242504786b293c0e076936f59",
+      "model": "open-h3-2k",
+      "sha256": "cbd8b25c8a6f3f8c8a57b16b36885da2b85ccef5bb2f7841a17d17558858d474",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 2560,
+            "height": 1440,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.167000",
+          "size": "11707602"
+        }
+      },
+      "result": {
+        "width": 2560,
+        "height": 1440,
+        "frames": 124,
+        "fps": 24,
+        "duration": 5.166666666666667,
+        "sha256": "cbd8b25c8a6f3f8c8a57b16b36885da2b85ccef5bb2f7841a17d17558858d474",
+        "windows": 1,
+        "model": "open-h3-2k",
+        "mode": "regenerate",
+        "draft_model": "caller-supplied draft",
+        "refiner_base": "official full BF16 Ref2VA",
+        "refiner": "Open-H3-Regenerate-2K-IC",
+        "cloud_used": false,
+        "cohort_jobs": 2,
+        "ic_max_windows_per_load": 2
+      }
+    },
+    {
+      "id": "video_gen_43d52b427c6847aa845499e2917b829f",
+      "model": "fasth3-omni-bf16",
+      "sha256": "32d408248ee064f626783bc7a66759dc3c23f4331413a4f45097565263569948",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.167000",
+          "size": "1880997"
+        }
+      },
+      "result": {
+        "inference_time_s": 580.806598328054,
+        "stage_durations": {
+          "input_preparation_stage": 1.036623639985919,
+          "conditioning_stage": 42.33869160991162,
+          "latent_preparation_stage": 54.03255738201551,
+          "denoising_stage": 475.2983188580256,
+          "video_decoding_stage": 6.914200332947075,
+          "audio_decoding_stage": 0.07568413601256907,
+          "PostDecodeFrameProcessStage": 0.013538646046072245,
+          "VideoSaveStage": 0.13135398901067674,
+          "AudioMuxStage": 0.0
+        },
+        "size": "832x480",
+        "seconds": "5",
+        "model": "fasth3-omni-bf16",
+        "backend_job": "video_gen_f400ead934d04125b6dd8a5c12bd6ef6",
+        "sha256": "32d408248ee064f626783bc7a66759dc3c23f4331413a4f45097565263569948",
+        "cloud_used": false
+      }
+    },
+    {
+      "id": "video_gen_3463eedd64334f59b455bbb82e93c480",
+      "model": "open-h3-2k",
+      "sha256": "200fab2fa8668d442953c725c3a128ce359412ba33e42aacda84baac2c46c9a7",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 2560,
+            "height": 1440,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.167000",
+          "size": "9420992"
+        }
+      },
+      "result": {
+        "width": 2560,
+        "height": 1440,
+        "frames": 124,
+        "fps": 24,
+        "duration": 5.166666666666667,
+        "sha256": "200fab2fa8668d442953c725c3a128ce359412ba33e42aacda84baac2c46c9a7",
+        "windows": 1,
+        "model": "open-h3-2k",
+        "mode": "regenerate",
+        "draft_model": "caller-supplied draft",
+        "refiner_base": "official full BF16 Ref2VA",
+        "refiner": "Open-H3-Regenerate-2K-IC",
+        "cloud_used": false,
+        "cohort_jobs": 2,
+        "ic_max_windows_per_load": 2
+      }
+    }
+  ],
+  "dispatch_events": [
+    {
+      "time": 1794823998.6760151,
+      "detail": {
+        "model": "fasth3-omni-bf16",
+        "jobs": [
+          "video_gen_2ed5dc058e5b41dcbf52bca0cb5282c7"
+        ]
+      }
+    },
+    {
+      "time": 1794824595.844688,
+      "detail": {
+        "model": "fasth3-omni-bf16",
+        "jobs": [
+          "video_gen_43d52b427c6847aa845499e2917b829f"
+        ]
+      }
+    },
+    {
+      "time": 1794825182.4276898,
+      "detail": {
+        "model": "open-h3-2k",
+        "jobs": [
+          "video_gen_f8a7aea242504786b293c0e076936f59",
+          "video_gen_3463eedd64334f59b455bbb82e93c480"
+        ]
+      }
+    },
+    {
+      "time": 1794828244.8830898,
+      "detail": {
+        "model": "fasth3-omni-bf16",
+        "jobs": [
+          "video_gen_82d3b2e5040c4ef78b2bec83cb342705"
+        ]
+      }
+    }
+  ],
+  "two_2k_jobs_share_one_worker": true,
+  "two_2k_windows_share_one_dit_load": true,
+  "batch_resources": {
+    "Result": "success",
+    "MemoryPeak": "[not set]",
+    "MemorySwapPeak": "[not set]"
+  },
+  "visual_quality_ranking": "Not evaluated; these checks verify transport, batching, dimensions, frames and audio"
+}

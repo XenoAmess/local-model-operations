@@ -1,0 +1,94 @@
+{
+  "status": "native_4k_generation_and_lan_download_verified",
+  "target_size": "3840x2160",
+  "model": "open-h3-2k",
+  "endpoint": "http://192.168.1.11:8002/v1/videos/regenerations",
+  "native_resolution": "4k",
+  "native_compute_size": "3840x2176",
+  "max_jobs_per_cohort": 1,
+  "max_windows_per_load": 1,
+  "memory_gib": 80,
+  "slice_memory_gib": 88,
+  "decoder": "original 36-layer FP32 tiled VAE",
+  "cloud_used": false,
+  "autostart": false,
+  "job": "video_gen_8aa9ab4652a14d608c20db3c4cde7798",
+  "submitted_at": "2026-11-17T03:40:29.024288+00:00",
+  "exact_latent_checkpoint": true,
+  "previous_attempt": {
+    "id": "video_gen_dd45a556d8db425f84a13f67b9b46cc8",
+    "status": "cancelled_by_operator_before_long_denoising",
+    "reason": "Enable upstream exact latent checkpoint before 4K decode; no OOM occurred"
+  },
+  "finished_at": "2026-11-17T04:58:29.561697+00:00",
+  "terminal_job_status": "completed",
+  "sampled_gpu_peak_mib": 63825,
+  "sample_interval_seconds": 20,
+  "sha256": "d8f5a27809575785155e357fe25503acaf32177c8c179e56993ce448a96ef55f",
+  "ffprobe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "24/1",
+        "nb_frames": "124"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "nb_frames": "163"
+      }
+    ],
+    "format": {
+      "duration": "5.167000",
+      "size": "23578701"
+    }
+  },
+  "result": {
+    "width": 3840,
+    "height": 2160,
+    "frames": 124,
+    "fps": 24,
+    "duration": 5.166666666666667,
+    "sha256": "d8f5a27809575785155e357fe25503acaf32177c8c179e56993ce448a96ef55f",
+    "windows": 1,
+    "model": "open-h3-2k",
+    "mode": "regenerate",
+    "draft_model": "caller-supplied draft",
+    "refiner_base": "official full BF16 Ref2VA",
+    "refiner": "Open-H3-Regenerate-2K-IC",
+    "cloud_used": false,
+    "cohort_jobs": 1,
+    "ic_max_windows_per_load": 1,
+    "native_resolution": "4k",
+    "native_compute_size": "3840x2176"
+  },
+  "submitted_to_completed_s": 4666.787202596664,
+  "denoise_s": 4039.2,
+  "decode_s": 366.0,
+  "latent_checkpoint": {
+    "path": "/home/ubuntu/workspace/xenoamess_bake_videos/outputs/video-queue/jobs/video_gen_8aa9ab4652a14d608c20db3c4cde7798/window-00-4k.latent.pt",
+    "bytes": 57970429,
+    "sha256": "89385de54d8f3eee4000993baab37654eba8be3b516e8f08ab56f1f71c842d10"
+  },
+  "resources": {
+    "Result": "success",
+    "MemoryPeak": "84827422720",
+    "MemorySwapPeak": "805785600",
+    "peak_collection": "cgroup kernel peak counters sampled while worker was alive"
+  },
+  "complete_video_audio_decode_verified": true,
+  "contact_sheet": "/home/ubuntu/workspace/xenoamess_bake_videos/outputs/refiner-4k-validation-20261117/contact-sheet.png",
+  "visual_check": "Agent inspected sampled frames 0, 60, 123: expected character and scene, no obvious blank or corrupt frames. No full temporal or comparative quality claim.",
+  "tested_duration_seconds": 5.166666666666667,
+  "longer_4k_clips_validated": false,
+  "download_url": "http://192.168.1.11:8002/v1/videos/video_gen_8aa9ab4652a14d608c20db3c4cde7798/content",
+  "visual_sample_frames": [
+    0,
+    60,
+    123
+  ]
+}

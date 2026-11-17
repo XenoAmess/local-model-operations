@@ -1,0 +1,147 @@
+{
+  "status": "deployed_exact_io_with_real_input_bitwise_verification",
+  "baseline_job": "video_gen_8aa9ab4652a14d608c20db3c4cde7798",
+  "requirement": "Bitwise identical outputs; same checkpoint, sampler, seed, shapes, precision, FFN GEMM chunks and attention backend",
+  "cpu_tests": 3,
+  "production_enabled": true,
+  "candidates": [
+    "cached existing BF16 IC LoRA casts, unmerged arithmetic unchanged",
+    "immutable CPU weight storage; remove redundant D2H copies",
+    "preallocated FFN outputs with original 2048-token GEMM shapes",
+    "same-kernel noncausal query chunks, subject to bitwise and performance checks"
+  ],
+  "constraints": {
+    "unit_memory_gib": 80,
+    "slice_memory_gib": 88,
+    "cloud": false,
+    "autostart": false
+  },
+  "lora_storage_analysis": {
+    "linear_count": 312,
+    "fp32_master_bytes": 8301576192,
+    "cached_original_bf16_bytes": 4150788096,
+    "host_bytes_saved": 4150788096,
+    "host_gib_saved": 3.86572265625,
+    "extra_precision_reduction": false,
+    "arithmetic": "Original BF16 LoRA matmuls; FP32 masters remain in checkpoint on disk"
+  },
+  "baseline_live_observation": {
+    "time": "2026-11-17T04:42:04.287275+00:00",
+    "unit": "llmlab-h3-2k-refiner-batch-3c4cde7798-1794886830803878213.service",
+    "memory_events": "low 0\nhigh 15310\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0\n",
+    "memory_pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=927463\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=927463\n",
+    "host_vmstat_delta_3s": {
+      "pswpin": 0,
+      "pswpout": 0,
+      "pgmajfault": 0
+    },
+    "gpu": "100 %, 2 %, 288.20 W, 600.00 W, 2422 MHz, 2430 MHz, 63825 MiB"
+  },
+  "baseline_full_video": {
+    "duration_seconds": 5.166666666666667,
+    "native_size": "3840x2160",
+    "submitted_to_completed_s": 4666.787202596664,
+    "denoise_s": 4039.2,
+    "decode_s": 366.0,
+    "sha256": "d8f5a27809575785155e357fe25503acaf32177c8c179e56993ce448a96ef55f",
+    "latent_shape": [
+      24,
+      37,
+      136,
+      240
+    ],
+    "target_and_reference_video_tokens": 339216,
+    "verification": "deployment/video-queue/4k-validation.json"
+  },
+  "production_environment": "H3_IC_EXACT_IO=1",
+  "gpu_4k_block": {
+    "tokens": 344064,
+    "compared_output_elements": 1849688064,
+    "baseline_median_block_s": 26.63312891649548,
+    "optimized_median_block_s": 26.10099664097652,
+    "speedup": 1.0203874312861891,
+    "block_time_reduction_percent": 1.998008860270939,
+    "bit_equal": true,
+    "sdpa_median_s": 23.628546875,
+    "scope": "Actual block 0 with all production adapters; full optimized video not yet timed",
+    "raw_report": "deployment/video-queue/performance/gpu-4k.json"
+  },
+  "gpu_2k_block": {
+    "tokens": 174080,
+    "compared_output_elements": 935854080,
+    "baseline_median_block_s": 7.865887679508887,
+    "optimized_median_block_s": 7.348451064899564,
+    "speedup": 1.0704143784913938,
+    "block_time_reduction_percent": 6.578235485834316,
+    "bit_equal": true,
+    "sdpa_median_s": 6.05430419921875,
+    "scope": "Actual block 0 with all production adapters; full optimized video not yet timed",
+    "raw_report": "deployment/video-queue/performance/gpu-2k.json"
+  },
+  "attention_query_chunk_decision": {
+    "enabled": false,
+    "reason": "No tested candidate was both bitwise identical and faster",
+    "small_128_query_chunk_bit_equal": false,
+    "native_4k_ms": 23631.353515625,
+    "tested_4k_chunks": [
+      {
+        "query_chunk": 4096,
+        "bit_equal": true,
+        "median_ms": 24521.3251953125
+      },
+      {
+        "query_chunk": 16384,
+        "bit_equal": true,
+        "median_ms": 23656.9853515625
+      },
+      {
+        "query_chunk": 65536,
+        "bit_equal": true,
+        "median_ms": 23652.8720703125
+      }
+    ]
+  },
+  "updated_at": "2026-11-17T06:20:46.043832+00:00",
+  "real_input_verification": {
+    "status": "real_input_first_block_bitwise_verified",
+    "full_model_loaded": true,
+    "cached_lora_linears": 312,
+    "original_fp32_lora_matrices_reloaded": 12,
+    "input_shape": [
+      1,
+      345843,
+      5376
+    ],
+    "output_shape": [
+      1,
+      345843,
+      5376
+    ],
+    "compared_elements": 1859251968,
+    "dtype": "torch.bfloat16",
+    "bit_equal": true,
+    "reference_replay_seconds_including_weight_reload": 26.369736969005316,
+    "full_video_generated": false,
+    "scope": "Actual production packed input and adapted weights; original FP32 LoRA masters, original FFN chunking and original arithmetic replayed"
+  },
+  "real_input_verification_report": "deployment/video-queue/performance/real-input-parity.json",
+  "runtime_launch_script": "start-h3-2k-worker.sh",
+  "full_optimized_video_retimed": false,
+  "whole_video_bitwise_compared": false,
+  "profiling_conclusion": "Native SDPA is about 88.7 percent of 4K block time; tested exact query chunks are not faster",
+  "verification_units": {
+    "cpu": "llmlab-h3-ic-exact-cpu-tests-20261117.service",
+    "smoke": "llmlab-h3-ic-exact-gpu-smoke-20261117.service",
+    "4k": "llmlab-h3-ic-exact-gpu-4k-20261117.service",
+    "2k": "llmlab-h3-ic-exact-gpu-2k-20261117.service",
+    "actual_input": "llmlab-h3-ic-exact-real-input-20261117.service"
+  },
+  "real_input_resources": {
+    "result": "success",
+    "peak_host_memory_from_systemd": "79G",
+    "peak_swap_from_systemd": "768.4M",
+    "source": "journalctl --user -u llmlab-h3-ic-exact-real-input-20261117.service",
+    "runtime_seconds": 223.767
+  },
+  "user_decision": "User cancelled rollback and requested optimized deployment retained and committed; research alternative open-source implementations without switching production"
+}

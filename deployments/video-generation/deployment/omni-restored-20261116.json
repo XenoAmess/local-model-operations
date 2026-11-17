@@ -1,0 +1,62 @@
+{
+  "updated_at": "2026-11-16T08:51:52.033526+00:00",
+  "status": "omni_restored_generation_and_lan_download_verified",
+  "model": "FastVideo/FastH3-Omni-NVFP4-QAD",
+  "model_revision": "f01e6a23ac6066aa9eb622cf94b6259442e70ec2",
+  "sampling": {
+    "transformer_forwards": 8,
+    "pdd_intervals": 32,
+    "decoder_layers": 36,
+    "decoder_tier": "quality-36L",
+    "attention": "VSA 0.9, FP4 video attention and FP8 prefix; checkpoint defaults"
+  },
+  "defaults": {
+    "api_size": "1344x768",
+    "web_size": "1344x768"
+  },
+  "validation": {
+    "job": "video_gen_c90caa0607e043ce9d2db3df541289ec",
+    "references": [
+      "image",
+      "video_with_audio"
+    ],
+    "requested_seconds": 5,
+    "actual_seconds": 5.167,
+    "size": "1344x768",
+    "frames": 124,
+    "fps": 24,
+    "inference_time_s": 350.32147452491336,
+    "stage_durations": {
+      "input_preparation_stage": 1.0838030758313835,
+      "conditioning_stage": 4.226633124053478,
+      "latent_preparation_stage": 40.7513874899596,
+      "denoising_stage": 298.84400759707205,
+      "video_decoding_stage": 5.238942643161863,
+      "audio_decoding_stage": 0.10631047608330846,
+      "PostDecodeFrameProcessStage": 0.046607696916908026,
+      "VideoSaveStage": 0.20104719884693623,
+      "AudioMuxStage": 0.0
+    },
+    "sha256": "339c052db627b8fbb2acab1d47cc668a992d0b90eba58964ef07198d3a07cd8d",
+    "download_url": "http://192.168.1.11:7860/gradio_api/file=/home/ubuntu/workspace/xenoamess_bake_videos/omni-web/outputs/omni-restored-768p-5s-20261116.mp4",
+    "visual_check": "Contact sheet at frames 0,60,123 shows intact character and scene; no black or corrupt sampled frames. Does not establish exact motion matching or comparative quality."
+  },
+  "units": {
+    "fasth3-omni.service": "active",
+    "llmlab-fasth3-omni.service": "active",
+    "fasth3-omni-web.service": "active",
+    "h3-2k-http.service": "inactive",
+    "h3-2k-web.service": "inactive",
+    "h3-2k-refiner-http.service": "active",
+    "qwen38-coder.service": "inactive"
+  },
+  "boot_autostart": {
+    "fasth3-omni.service": "disabled",
+    "fasth3-omni-web.service": "disabled",
+    "h3-2k-refiner-http.service": "disabled"
+  },
+  "same_as_morning_variant": true,
+  "bf16_omni_deployed": false,
+  "quality_claim": "Official 36L quality decoder and maximum native size for this local deployment; no claim of best quality across BF16 and quantized variants.",
+  "cloud_used": false
+}

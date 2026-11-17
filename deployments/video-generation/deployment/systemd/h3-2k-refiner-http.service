@@ -1,0 +1,20 @@
+[Unit]
+Description=Local Open-H3 2K queued LAN HTTP API
+After=network-online.target video-gpu-scheduler.service
+Wants=video-gpu-scheduler.service
+
+[Service]
+Type=exec
+WorkingDirectory=/home/ubuntu/workspace/xenoamess_bake_videos
+Environment=VIDEO_HTTP_MODEL=open-h3-2k
+Environment=VIDEO_HTTP_PORT=8002
+ExecStart=/home/ubuntu/workspace/xenoamess_bake_videos/start-h3-2k-refiner-http.sh
+MemoryMax=1G
+MemorySwapMax=0
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+UMask=0077
+
+[Install]
+WantedBy=default.target

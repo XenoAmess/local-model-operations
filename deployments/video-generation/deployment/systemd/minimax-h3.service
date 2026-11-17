@@ -1,0 +1,18 @@
+[Unit]
+Description=MiniMax H3 full BF16 Ref2VA HTTP API
+After=network-online.target llmlab-guard.service
+
+[Service]
+Type=exec
+WorkingDirectory=/home/ubuntu/workspace/xenoamess_bake_videos
+ExecStartPre=-/usr/bin/systemctl --user reset-failed llmlab-minimax-h3.service
+ExecStart=/home/ubuntu/workspace/xenoamess_bake_videos/llm-lab/.venv/bin/python /home/ubuntu/workspace/xenoamess_bake_videos/llm-lab/scripts/run_isolated.py --unit llmlab-minimax-h3 --memory-gib 80 --wait -- /home/ubuntu/workspace/xenoamess_bake_videos/start-minimax-h3.sh
+ExecStop=-/usr/bin/systemctl --user stop llmlab-minimax-h3.service
+MemoryMax=256M
+MemorySwapMax=0
+Restart=no
+TimeoutStopSec=30
+UMask=0077
+
+[Install]
+WantedBy=default.target

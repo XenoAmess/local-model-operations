@@ -1,0 +1,77 @@
+{
+  "updated_at": "2026-11-16T08:51:52.033526+00:00",
+  "source": "https://github.com/hao-ai-lab/FastVideo",
+  "source_commit": "a0e6cf1f5086c9af735d73e6c0b80dbc1d5817b3",
+  "model": "FastVideo/FastH3-Omni-NVFP4-QAD",
+  "model_revision": "f01e6a23ac6066aa9eb622cf94b6259442e70ec2",
+  "pipeline": "MiniMaxH3Ref2VAModularPipeline",
+  "gpu": "NVIDIA RTX 6000D",
+  "api": {
+    "unit": "fasth3-omni.service",
+    "workload_unit": "llmlab-fasth3-omni.service",
+    "listen": "0.0.0.0:8001",
+    "model_alias": "fasth3-omni"
+  },
+  "web": {
+    "unit": "fasth3-omni-web.service",
+    "listen": "0.0.0.0:7860",
+    "framework": "gradio",
+    "version": "5.32.0",
+    "official_demo": "https://huggingface.co/spaces/FastVideo/FastH3-Omni",
+    "implementation": "local client over native FastVideo REST API"
+  },
+  "autostart": false,
+  "isolation": {
+    "launcher": "llm-lab/scripts/run_isolated.py",
+    "workload_memory_gib": 80,
+    "slice_memory_gib": 88,
+    "slice_swap_gib": 1
+  },
+  "sampling": {
+    "pdd_evaluations": 8,
+    "vsa_sparsity": 0.9,
+    "decoder_layers": 36,
+    "fps": 24,
+    "max_pixels": 1032192,
+    "max_frames": 362
+  },
+  "adaln_table_metadata": "models/FastH3-Omni-NVFP4-QAD/adaln_tables-local.complete.json",
+  "http_validation": "outputs/omni-http-validation.json",
+  "image_video_e2e_validation": "outputs/omni-ui-warmup.json",
+  "file_sha256": {
+    "fasth3-omni.yaml": "d19365c678daedd14945eda7f40844542f38b8828117bbaf2c706414e44382d4",
+    "start-fasth3-omni.sh": "6587254bc0ce2b006c96180173271d3cbd92ed6d0f35514252d1b33de80c3af5",
+    "start-fasth3-omni-web.sh": "ccc5537dbc94eba5d207c33e9e361018660757545ceadee54b39ee4904ab30e1",
+    "omni-web/app.py": "db24f834292d1fee29e6865f4bfb2ae7d78b01abb85d14a5bdc7e4a823a06788",
+    "tools/serve_fasth3_omni.py": "c5897d5b9949fd9f5561f38fedd9ffb390a8aced02c4f042df5dbf9d1f60e8fc",
+    "requirements-omni-deployed.txt": "af719531878b915f9bf41f1d3bf242adeb94e4faf14da4b0442a5e45ad0b2ba2",
+    "/home/ubuntu/.config/systemd/user/fasth3-omni.service": "520d7a603890148d7bcc9f7cd907686310ab06e55b7c121655a2c51fafed260b",
+    "/home/ubuntu/.config/systemd/user/fasth3-omni-web.service": "40a0f1071fcfdcdeeb68ac124e4b12799294952ca88f3d01f00433969e0cd8b6",
+    "deployment/systemd/fasth3-omni.service": "520d7a603890148d7bcc9f7cd907686310ab06e55b7c121655a2c51fafed260b",
+    "deployment/systemd/fasth3-omni-web.service": "40a0f1071fcfdcdeeb68ac124e4b12799294952ca88f3d01f00433969e0cd8b6",
+    "tools/composite_foxtail_frame.py": "ebaf4d349b938c5a030a5eca3e527b64e21bf0845650266065d48b229f2c4eeb"
+  },
+  "max_size_15s_validation": "outputs/person-replacement-validation.json",
+  "max_size_15s_generation_s": 1210.7755478839972,
+  "operations_doc": "docs/fasth3-omni.md",
+  "unit_templates": {
+    "api": "deployment/systemd/fasth3-omni.service",
+    "web": "deployment/systemd/fasth3-omni-web.service"
+  },
+  "latest_render_validation": "outputs/person-replacement-v4-validation.json",
+  "latest_render_generation_s": 1267.539922200027,
+  "postprocessing": {
+    "script": "tools/composite_foxtail_frame.py",
+    "border_width": 80,
+    "vertical_offset": -80,
+    "gif_max_bytes": 20000000,
+    "validated_gif_bytes": 19062175
+  },
+  "local_source_patch": "deployment/fastvideo/adaln-reference-subsets.patch",
+  "adaln_repair_validation": "deployment/fastvideo/adaln-verification-20261116.json",
+  "active": true,
+  "default_size": "1344x768",
+  "restore_validation": "deployment/omni-restored-20261116.json",
+  "independent_2k_api": "http://192.168.1.11:8002/v1",
+  "stage_switch": "Stop Omni to release GPU before queued 2K inference; no automatic model switch"
+}

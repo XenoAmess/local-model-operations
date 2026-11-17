@@ -1,0 +1,21 @@
+[Unit]
+Description=FastH3 Omni BF16 queued LAN HTTP API
+After=network-online.target video-gpu-scheduler.service
+Wants=video-gpu-scheduler.service
+Conflicts=fasth3-omni.service h3-2k-http.service
+
+[Service]
+Type=exec
+WorkingDirectory=/home/ubuntu/workspace/xenoamess_bake_videos
+Environment=VIDEO_HTTP_MODEL=fasth3-omni-bf16
+Environment=VIDEO_HTTP_PORT=8001
+ExecStart=/home/ubuntu/workspace/xenoamess_bake_videos/start-video-http.sh
+MemoryMax=1G
+MemorySwapMax=0
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+UMask=0077
+
+[Install]
+WantedBy=default.target

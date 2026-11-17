@@ -1,0 +1,123 @@
+diff --git a/.buildkite/scripts/unit_test.sh b/.buildkite/scripts/unit_test.sh
+index 8d6a61b..9689c9b 100644
+--- a/.buildkite/scripts/unit_test.sh
++++ b/.buildkite/scripts/unit_test.sh
+@@ -28,6 +28,7 @@ exec pytest \
+   ./fastvideo/tests/training/test_trackers.py \
+   ./fastvideo/tests/training/test_ltx2_rope_fps.py \
+   ./fastvideo/tests/inference/test_basic_fasth3_omniref_pdd.py \
++  ./fastvideo/tests/transformers/test_minimax_h3_adaln_cache.py \
+   ./fastvideo/tests/inference/test_inference_regional_compile.py \
+   ./fastvideo/tests/attention/ \
+   ./fastvideo/tests/layers/test_pdd_linear.py \
+diff --git a/fastvideo/models/dits/minimax_h3.py b/fastvideo/models/dits/minimax_h3.py
+index faa70ce..ad9386e 100644
+--- a/fastvideo/models/dits/minimax_h3.py
++++ b/fastvideo/models/dits/minimax_h3.py
+@@ -574,10 +574,40 @@ class MiniMaxH3AdaLayerNormModulation(nn.Module):
+         self._modulation_cache: dict[Any, torch.Tensor] = dict(table or {})
+         self._cache_key: Any = None
+ 
++    def _precomputed_timestep_subset(self, temb: torch.Tensor) -> torch.Tensor | None:
++        """Reuse exact projection rows when a request omits a reference modality.
++
++        The projection acts independently on each unique timestep. A table
++        recorded with reference audio includes its fixed conditioning timestep;
++        image-only requests omit that row but use the same trained ladder.
++        Require exact timestep values and embedding shape/dtype, without rounding
++        or interpolating entries for an unseen timestep.
++        """
++        if self._cache_key is None:
++            return None
++        timesteps, shape, dtype = self._cache_key
++        if shape != tuple(temb.shape) or dtype != str(temb.dtype) or len(timesteps) != shape[0]:
++            return None
++        for (source_timesteps, source_shape, source_dtype), value in self._modulation_cache.items():
++            if (source_shape[1:] != shape[1:] or source_dtype != dtype
++                    or value.ndim != 2 or value.shape[0] != len(source_timesteps)):
++                continue
++            try:
++                rows = [source_timesteps.index(timestep) for timestep in timesteps]
++            except ValueError:
++                continue
++            indices = torch.tensor(rows, device=value.device, dtype=torch.long)
++            return value.index_select(0, indices)
++        return None
++
+     def forward(self, temb: torch.Tensor) -> tuple[torch.Tensor, ...]:
+         cache = getattr(self, "_modulation_cache", None)
+         if cache is not None:
+             out = cache.get(self._cache_key)
++            if out is None and self._host_weight is None:
++                out = self._precomputed_timestep_subset(temb)
++                if out is not None:
++                    cache[self._cache_key] = out
+             if out is None:
+                 if self._host_weight is None:
+                     raise RuntimeError(f"No precomputed AdaLN modulation for timestep key {self._cache_key}; the "
+diff --git a/fastvideo/tests/transformers/test_minimax_h3_adaln_cache.py b/fastvideo/tests/transformers/test_minimax_h3_adaln_cache.py
+new file mode 100644
+index 0000000..03321da
+--- /dev/null
++++ b/fastvideo/tests/transformers/test_minimax_h3_adaln_cache.py
+@@ -0,0 +1,60 @@
++# SPDX-License-Identifier: Apache-2.0
++"""Reference modality subsets must reuse the checkpoint's exact AdaLN rows."""
++import pytest
++import torch
++import torch.nn.functional as F
++
++from fastvideo.models.dits.minimax_h3 import MiniMaxH3AdaLayerNormModulation
++
++
++def _layer():
++    layer = MiniMaxH3AdaLayerNormModulation.__new__(MiniMaxH3AdaLayerNormModulation)
++    torch.nn.Module.__init__(layer)
++    layer.hidden_size = 2
++    layer.apply_silu = True
++    layer.linear = torch.nn.Linear(4, 36)
++    times = (0.0009999871253967285, 0.9990000128746033, 1.0)
++    inputs = torch.tensor([[t, t * t, t * t * t, 1.0] for t in times])
++    with torch.no_grad():
++        outputs = F.linear(F.silu(inputs), layer.linear.weight, layer.linear.bias)
++    source_key = (times, tuple(inputs.shape), str(inputs.dtype))
++    layer.enable_host_cache({source_key: outputs})
++    return layer, inputs, outputs, source_key
++
++
++@pytest.mark.parametrize("rows", [(0, 1), (1, 0), (0, 2), (2, )])
++def test_reference_subsets_and_order_reuse_exact_rows(rows):
++    layer, inputs, outputs, key = _layer()
++    selected = inputs[list(rows)]
++    layer._cache_key = (tuple(key[0][i] for i in rows), tuple(selected.shape), key[2])
++    result = torch.cat(layer(selected), dim=-1)
++    expected = outputs[list(rows)].view(-1, 12)
++    assert torch.equal(result, expected)
++    assert torch.equal(layer._modulation_cache[layer._cache_key], outputs[list(rows)])
++    assert torch.equal(torch.cat(layer(selected), dim=-1), expected)
++
++
++def test_full_modality_cache_stays_unchanged():
++    layer, inputs, outputs, key = _layer()
++    layer._cache_key = key
++    before = layer._modulation_cache[key]
++    assert torch.equal(torch.cat(layer(inputs), dim=-1), outputs.view(-1, 12))
++    assert layer._modulation_cache[key] is before
++
++
++@pytest.mark.parametrize("kind", ["unseen_timestep", "nearby_timestep", "wrong_dtype", "wrong_width"])
++def test_unsupported_times_and_embedding_contracts_still_fail(kind):
++    layer, inputs, _, key = _layer()
++    selected = inputs[:2]
++    times = key[0][:2]
++    if kind == "unseen_timestep":
++        times = (0.25, times[1])
++    elif kind == "nearby_timestep":
++        times = (times[0] + 1e-10, times[1])
++    elif kind == "wrong_dtype":
++        selected = selected.double()
++    elif kind == "wrong_width":
++        selected = selected[:, :3]
++    layer._cache_key = (times, tuple(selected.shape), str(selected.dtype))
++    with pytest.raises(RuntimeError, match="No precomputed AdaLN"):
++        layer(selected)

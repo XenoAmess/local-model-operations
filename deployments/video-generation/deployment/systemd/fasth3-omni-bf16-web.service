@@ -1,0 +1,21 @@
+[Unit]
+Description=FastH3 Omni BF16 Gradio LAN interface
+After=fasth3-omni-bf16.service network-online.target
+Wants=fasth3-omni-bf16.service
+Conflicts=fasth3-omni-web.service h3-2k-web.service
+
+[Service]
+Type=exec
+WorkingDirectory=/home/ubuntu/workspace/xenoamess_bake_videos
+Environment=VIDEO_MODEL_NAME=fasth3-omni-bf16
+Environment="VIDEO_MODEL_TITLE=FastH3 Omni BF16"
+ExecStart=/home/ubuntu/workspace/xenoamess_bake_videos/start-fasth3-omni-web.sh
+MemoryMax=2G
+MemorySwapMax=0
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+UMask=0077
+
+[Install]
+WantedBy=default.target

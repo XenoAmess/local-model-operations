@@ -1,0 +1,18 @@
+[Unit]
+Description=Local H3 2K Gradio LAN webpage
+After=h3-2k-http.service network-online.target
+Wants=h3-2k-http.service
+
+[Service]
+Type=exec
+WorkingDirectory=/home/ubuntu/workspace/xenoamess_bake_videos
+ExecStart=/home/ubuntu/workspace/xenoamess_bake_videos/start-h3-2k-web.sh
+MemoryMax=2G
+MemorySwapMax=0
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+UMask=0077
+
+[Install]
+WantedBy=default.target

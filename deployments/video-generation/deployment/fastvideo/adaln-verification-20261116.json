@@ -1,0 +1,80 @@
+{
+  "time": 1794774994.0648105,
+  "status": "fixed_and_generation_verified",
+  "cause": "Precomputed AdaLN cache keyed by the complete unique-timestep set; image-only requests omit the reference-audio timestep and failed despite all needed projection rows being present.",
+  "checkpoint_revision": "f01e6a23ac6066aa9eb622cf94b6259442e70ec2",
+  "original_table_sha256_unchanged": "1acc433f4956f8b5b45e064f70c342e16b8bd7490b1d637cf21280474851cd1f",
+  "fix": "Exact subset/reordering lookup within a stored entry with identical embedding dimensions and dtype. Unknown timestep values still fail; no rounding/interpolation.",
+  "regression_tests_passed": 9,
+  "real_projection_checks": 400,
+  "api_job": "video_gen_5ee22d97c34f40ffba6bf336ee19f3be",
+  "web_job": "video_gen_bbc95d75151d4786a7fb235be306e543",
+  "media": {
+    "api": {
+      "file": "/home/ubuntu/workspace/xenoamess_bake_videos/outputs/omni-adaln-repair-20261116/api-smoke.mp4",
+      "sha256": "97dfa0b6517618861c0900136f768291000cea17c1651b2acf1fe5176d2d0763",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.167000",
+          "size": "1543411"
+        }
+      }
+    },
+    "web": {
+      "file": "/home/ubuntu/workspace/xenoamess_bake_videos/outputs/omni-adaln-repair-20261116/web-download/4d73cd19a9a95868a7e8030242250f0cc2caf07d282e73fc02ceae041a3be894/video_gen_bbc95d75151d4786a7fb235be306e543.mp4",
+      "sha256": "4d73cd19a9a95868a7e8030242250f0cc2caf07d282e73fc02ceae041a3be894",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 832,
+            "height": 480,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.167000",
+          "size": "1890686"
+        }
+      }
+    }
+  },
+  "client_parameters": {
+    "task": "ref2va",
+    "num_inference_steps": 8
+  },
+  "old_job_id_after_restart_http": 404,
+  "job_index_persistence": "In-memory; retain request/artifacts and resubmit failed or unknown jobs after restart.",
+  "web_validation_note": "The first SDK call inherited proxy environment and lost SSE; direct LAN SDK call completed and downloaded its result.",
+  "service_api": "http://192.168.1.11:8001/v1",
+  "service_web": "http://192.168.1.11:7860",
+  "source_sha256": {
+    "FastVideo/fastvideo/models/dits/minimax_h3.py": "96d4a100ed88482a31319c9b88f852ca7a28d1c57c9ca0ed905c713f21cd6053",
+    "FastVideo/fastvideo/tests/transformers/test_minimax_h3_adaln_cache.py": "8f61580b331494a22ab4d641f95cb24225b584bae256c03069c0775cd31ceded",
+    "FastVideo/.buildkite/scripts/unit_test.sh": "43c0628e188f7934b388e8cb8d94df4208f04ca5241f3146d066bc7b0eac2a43"
+  }
+}

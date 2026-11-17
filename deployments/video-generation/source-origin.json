@@ -1,0 +1,653 @@
+{
+  "source_commit": "a9359e9aecc6f61798778f2026a82135bfba9955",
+  "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
+  "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
+  "scope": "Committed video deployment source, configuration, documentation, pinned-upstream patch and small validation receipts",
+  "omitted": [
+    "runtime Git metadata",
+    "models",
+    "virtual environments",
+    "upstream source checkouts",
+    "uploaded or generated media",
+    "runtime logs",
+    "uncommitted unrelated changes",
+    "historical text-model AGENTS.md"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 20,
+      "sha256": "fb25a78a6381f5646d71aacea4486f6aeeeb03c4d71740227011024be0d20a8f"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 597,
+      "sha256": "b6185295f89744e8f7943a9cd6171496dce6c81c9a52a989cb37ae2939e7726a"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 3054,
+      "sha256": "2cc9a77e231a7c3158dc97a97eac475caae7aa23fdd7a1142e09abdf369cb3ac"
+    },
+    {
+      "path": "deployment-omni.json",
+      "bytes": 3634,
+      "sha256": "bbcfd33e2a9ed84ff030fb16ec695167e28a55c732ae4eae08b7265827947397"
+    },
+    {
+      "path": "deployment/fastvideo/adaln-reference-subsets.patch",
+      "bytes": 5812,
+      "sha256": "31907d2fd68b7e1dcbf867c1baac7d4e28ce1be9e0887b1463dc7321c1ebe9d4"
+    },
+    {
+      "path": "deployment/fastvideo/adaln-table-metadata.json",
+      "bytes": 333,
+      "sha256": "cb9abd73e2eadd3fb6a923b54f854b594fc8481ee963372e427f1c56b4b10242"
+    },
+    {
+      "path": "deployment/fastvideo/adaln-verification-20261116.json",
+      "bytes": 3267,
+      "sha256": "63b69e4bf2669cfd1880b8e4953c80bf0164b9c04152bbd6f34058f41e9a2606"
+    },
+    {
+      "path": "deployment/fastvideo/model-download-manifest.json",
+      "bytes": 18657,
+      "sha256": "390a42d514a98a1df7c2b877fbc83f1a36008fc222f8e33055ee45e4075ed3fe"
+    },
+    {
+      "path": "deployment/fastvideo/model-verification.json",
+      "bytes": 14021,
+      "sha256": "0bf1134fbf56f2c1c8a78fc84feca1e508fc02255cbafa9f008c56cbf61c9dec"
+    },
+    {
+      "path": "deployment/fastvideo/source.json",
+      "bytes": 189,
+      "sha256": "9f934d90eb8d5f8ac056822a3740c8b9470b40ebe2d3e23488570003e6d81636"
+    },
+    {
+      "path": "deployment/minimax-h3/2k-environment.json",
+      "bytes": 651,
+      "sha256": "93e4388895376f07742f77fdf79cf521c9e34137d7c13cfee798792b1656ef43"
+    },
+    {
+      "path": "deployment/minimax-h3/activation-policy.json",
+      "bytes": 3236,
+      "sha256": "580d8b5a8e1e2c4b77a5776a3c19b6146422bbf60d4809e60b8f8494914f872c"
+    },
+    {
+      "path": "deployment/minimax-h3/download-completion.json",
+      "bytes": 574,
+      "sha256": "21f44caa7232daa6abb674f62221543bc5531d3b1126cc21aa3a4de26803457d"
+    },
+    {
+      "path": "deployment/minimax-h3/download-manifest.json",
+      "bytes": 10052,
+      "sha256": "ed1167759eed340aabb9bf7abbe9e74c3335e8039a09e956947691c730f2e8aa"
+    },
+    {
+      "path": "deployment/minimax-h3/full-2k-research.json",
+      "bytes": 3717,
+      "sha256": "40cdb8e9d649646662dc5b42aca1e2b6232b41b68494b0e37ea9f067bd07af6c"
+    },
+    {
+      "path": "deployment/minimax-h3/open-2k-download-manifest.json",
+      "bytes": 17681,
+      "sha256": "6ccfab44a03536dbbea16226ffbf3363c480a13d5098b3bd90e5e8f9d206b531"
+    },
+    {
+      "path": "deployment/minimax-h3/open-2k-weight-verification.json",
+      "bytes": 21878,
+      "sha256": "6f37621d9186a5393c9de40b0fb46f121ff4ac641c4eac5929c98f24730075ba"
+    },
+    {
+      "path": "deployment/minimax-h3/refiner-http-validation.json",
+      "bytes": 732,
+      "sha256": "483c6a1a63b1f6a92dc6dc9bca8dc98cd883bc729ef6991bf01330778b8517b3"
+    },
+    {
+      "path": "deployment/minimax-h3/refiner-smoke-validation.json",
+      "bytes": 1413,
+      "sha256": "f757dae0cb5a50f2d902fb44410d5df7675f4568f07ec642913178497e7d3c9d"
+    },
+    {
+      "path": "deployment/minimax-h3/weight-verification.json",
+      "bytes": 14471,
+      "sha256": "704376002614609cea6f5eccc09e70ccf3aeafeb3c3ae5d415f3833601477bd7"
+    },
+    {
+      "path": "deployment/omni-bf16/attention-preflight.json",
+      "bytes": 261,
+      "sha256": "0ac0dec9a014fd101031185d80652485d98ce3284a1121dcc884802ef2d09b6e"
+    },
+    {
+      "path": "deployment/omni-bf16/base-download-manifest.json",
+      "bytes": 11479,
+      "sha256": "e98a1738814b4d5d35255c6228736f008d0ea3f9ca687c7868d3381012689a10"
+    },
+    {
+      "path": "deployment/omni-bf16/base-metadata-reuse.json",
+      "bytes": 4744,
+      "sha256": "ff5855584816390c8bd6793476350275a813023784772e921e0c31a507118ba7"
+    },
+    {
+      "path": "deployment/omni-bf16/base-weight-verification.json",
+      "bytes": 9623,
+      "sha256": "27a66676578b05afec180509c08466d2d79e1903849a377a6e4f186b09ff3918"
+    },
+    {
+      "path": "deployment/omni-bf16/benchmark-result.json",
+      "bytes": 6995,
+      "sha256": "9eb802d668892d234f68d64161123bec1632b77798b5c7255e198d691558d4e8"
+    },
+    {
+      "path": "deployment/omni-bf16/checkpoint-identity-verification.json",
+      "bytes": 2349,
+      "sha256": "3d18bf6a93e2c3fceb73da33616fc73b1548267178d313f554b8cde8692bd0ff"
+    },
+    {
+      "path": "deployment/omni-bf16/composition.json",
+      "bytes": 1298,
+      "sha256": "4a702076d47344871d69580f801f55a098a59ee2b62e3b22173c682fc6a8f1e1"
+    },
+    {
+      "path": "deployment/omni-bf16/download-route-probe.json",
+      "bytes": 530,
+      "sha256": "2a8c77b146cdda1192785517ef17de7a2444a5dec964267ebce21bd98ecb2e90"
+    },
+    {
+      "path": "deployment/omni-bf16/export-download-manifest.json",
+      "bytes": 4126,
+      "sha256": "19df9b3115a60eb07e07fc83c5681c7bdbc918e64161bae63cf8b44abcb7eba6"
+    },
+    {
+      "path": "deployment/omni-bf16/export-weight-verification.json",
+      "bytes": 6097,
+      "sha256": "c858dec576879d6a26ef4fbd09f1b4cf09c36740130ea8d4ad96ee0b9b06907e"
+    },
+    {
+      "path": "deployment/omni-restored-20261116.json",
+      "bytes": 2432,
+      "sha256": "ee933faf8873085867ece468fbfdce87b89ee47a873eb178b0241b8a0b4db069"
+    },
+    {
+      "path": "deployment/source-repository.json",
+      "bytes": 376,
+      "sha256": "a39f04b2c5149b4ff5cf424803c4cf01466e4a20e4ee2605b87599309cd28c62"
+    },
+    {
+      "path": "deployment/systemd/fasth3-omni-bf16-web.service",
+      "bytes": 576,
+      "sha256": "88f3103ad5a7448998fc66b402b14bb2fc58ea66866f9aafd2c8c8b1d9933b5a"
+    },
+    {
+      "path": "deployment/systemd/fasth3-omni-bf16-worker.service",
+      "bytes": 872,
+      "sha256": "425e3653c826d3efbcffdf43eaba7b8988ddd9d4ee395f5e3ebd0e87bda61eb8"
+    },
+    {
+      "path": "deployment/systemd/fasth3-omni-bf16.service",
+      "bytes": 557,
+      "sha256": "061c3204d84724191b06fea2ee8bed467ddfe504a9bd2c660b3f5f2071ea9145"
+    },
+    {
+      "path": "deployment/systemd/fasth3-omni-web.service",
+      "bytes": 414,
+      "sha256": "40a0f1071fcfdcdeeb68ac124e4b12799294952ca88f3d01f00433969e0cd8b6"
+    },
+    {
+      "path": "deployment/systemd/fasth3-omni.service",
+      "bytes": 727,
+      "sha256": "520d7a603890148d7bcc9f7cd907686310ab06e55b7c121655a2c51fafed260b"
+    },
+    {
+      "path": "deployment/systemd/h3-2k-http.service",
+      "bytes": 450,
+      "sha256": "8c130bda91833ccf52c2b8c8905816cd21f8bc2026bf7bd19e06e67df4888cda"
+    },
+    {
+      "path": "deployment/systemd/h3-2k-refiner-http.service",
+      "bytes": 510,
+      "sha256": "00001f5f0d104e03b83b7b09c5fa6a9ba938d861b9c84a8ed802fa75cf3a2d57"
+    },
+    {
+      "path": "deployment/systemd/h3-2k-web.service",
+      "bytes": 404,
+      "sha256": "694ef42dc20b97e7a86f20e3861da9926e4d661d820d8219a3a121149705a93f"
+    },
+    {
+      "path": "deployment/systemd/minimax-h3-web.service",
+      "bytes": 415,
+      "sha256": "7c06455bf982bf0c0133fa8e774964aab1b453b45f5ea6f2ee1bbb2b8d4db91a"
+    },
+    {
+      "path": "deployment/systemd/minimax-h3.service",
+      "bytes": 713,
+      "sha256": "f7c84b155c1771e92dca202fdffbf4a8efbc5153d172393c2d1d290a27116019"
+    },
+    {
+      "path": "deployment/systemd/video-gpu-scheduler.service",
+      "bytes": 577,
+      "sha256": "2c4e98159302095855d37cd591d237395f24e2021ab66181a9b8e711305c3461"
+    },
+    {
+      "path": "deployment/video-queue/4k-exact-performance.json",
+      "bytes": 5659,
+      "sha256": "da78007325a9e764bf4ba0784077481d398e45620a5c38c74166bb7516ae3393"
+    },
+    {
+      "path": "deployment/video-queue/4k-validation.json",
+      "bytes": 3234,
+      "sha256": "f9016fc74134b68eb17add688e61d37945413cb00ddd88e3d4134b824814a8dc"
+    },
+    {
+      "path": "deployment/video-queue/client-package.json",
+      "bytes": 873,
+      "sha256": "c912bcbf7bd3161278a431358bd2de827b109cdaebdf55c204d8a27becbe35e3"
+    },
+    {
+      "path": "deployment/video-queue/performance/gpu-2k.json",
+      "bytes": 4793,
+      "sha256": "38107b5fee9b7451a621c5205c83dd5144020d00c8275c81cd733d3efd529683"
+    },
+    {
+      "path": "deployment/video-queue/performance/gpu-4k.json",
+      "bytes": 5092,
+      "sha256": "a2ec39aa0bc128127a5c82b0faaded622246d900a6e4126858eb3f1ba5543cf5"
+    },
+    {
+      "path": "deployment/video-queue/performance/gpu-smoke.json",
+      "bytes": 3715,
+      "sha256": "8868cac75702a4378e33ce2fbe7824cbf68107922487296fba8fbbd6be5a8bdd"
+    },
+    {
+      "path": "deployment/video-queue/performance/real-input-parity.json",
+      "bytes": 609,
+      "sha256": "75014e9e505e0c82f2a0ed02334b9b7384196c07d0ccb0ccefd0f687cca18ff9"
+    },
+    {
+      "path": "deployment/video-queue/validation.json",
+      "bytes": 8324,
+      "sha256": "20634b414cf1754a17ccf3512175605b4680fd83698783fed514959991623f68"
+    },
+    {
+      "path": "docs/deployment-git.md",
+      "bytes": 3018,
+      "sha256": "450d81bcd3b9470cbd6e63c9473715f715e52956fc535a3a81fd8833ee6f8665"
+    },
+    {
+      "path": "docs/fasth3-omni.md",
+      "bytes": 28888,
+      "sha256": "5208ee2899fd50dfdbda4ec867d088983d2cf99eeaeb199521352ec462f7e9e8"
+    },
+    {
+      "path": "docs/fasth3-v2-inputs.md",
+      "bytes": 6762,
+      "sha256": "0b3db12d0b1ddf03d3713d83c8e0b1dbc35c8752056105365f5c3209920a2842"
+    },
+    {
+      "path": "docs/fasth3-v2.md",
+      "bytes": 2353,
+      "sha256": "bd87999858f17e08a97a74ea53e01cc8d6c7b2618185b5c050fde1566c2cd978"
+    },
+    {
+      "path": "docs/h3-2k-http.md",
+      "bytes": 7958,
+      "sha256": "06fed2f634e70555e544cc7ecededc3e640b6fc549f543108b7dd244d069eb4d"
+    },
+    {
+      "path": "docs/h3-2k-refiner-http.md",
+      "bytes": 5014,
+      "sha256": "40331e7afd30e2df477c26cfddc7b2e46e5d0867ea8b7ea736d0713a0866922f"
+    },
+    {
+      "path": "docs/minimax-h3-local-2k.md",
+      "bytes": 8403,
+      "sha256": "b92c9ebf4528d8f71f6d8933786acda7b3b266942204f0a0cfd88f875c0af844"
+    },
+    {
+      "path": "docs/minimax-h3.md",
+      "bytes": 7633,
+      "sha256": "7bf0bafea8d49e91a15688fa9e55c975a5da737e52ffa11aef2240f06f3e1df7"
+    },
+    {
+      "path": "docs/omni-bf16-benchmark.md",
+      "bytes": 7326,
+      "sha256": "e4428479b9a57f85fe21a2e918b07df49478d00f8cff45290b85e39889f10e07"
+    },
+    {
+      "path": "docs/open-h3-4k-http.md",
+      "bytes": 3978,
+      "sha256": "6f79557b20c007d19614e7d2d5118db7fea9d8487722560d67be5dc39d563b43"
+    },
+    {
+      "path": "docs/open-h3-exact-performance.md",
+      "bytes": 5537,
+      "sha256": "c4fc98776a3ba56b303469ed4560b777ef66c491f4b1c931d03597b3be2b5469"
+    },
+    {
+      "path": "docs/video-http-api.md",
+      "bytes": 10536,
+      "sha256": "e18906fb3f8cf9b1304a89530d0f76fff9e37d11919b63b7925b89bd5590d6c3"
+    },
+    {
+      "path": "docs/video-http-queue.md",
+      "bytes": 10669,
+      "sha256": "dc753bbacdbd5fc3ffe91ac58c2daf5590369eb13d814c36569b45d331d9f502"
+    },
+    {
+      "path": "fasth3-omni-bf16.yaml",
+      "bytes": 1475,
+      "sha256": "2a8c9c24c06b4149acf1a68be0c64fc1acec7135d549c0f26a1430c48db2c452"
+    },
+    {
+      "path": "fasth3-omni.yaml",
+      "bytes": 1650,
+      "sha256": "d19365c678daedd14945eda7f40844542f38b8828117bbaf2c706414e44382d4"
+    },
+    {
+      "path": "fasth3-v2.yaml",
+      "bytes": 1243,
+      "sha256": "a49d688220712cb5ec8cc638891245c24226f06b58e8d7bb2d03f7a6721e1e91"
+    },
+    {
+      "path": "llm-lab/scripts/memory_watchdog.py",
+      "bytes": 1273,
+      "sha256": "49267356d25f901d637a909e9535dd275e86d2b28ab6ac21a8228ac839f32730"
+    },
+    {
+      "path": "llm-lab/scripts/resource_guard.py",
+      "bytes": 2317,
+      "sha256": "e741f3c5353ef030e9644ad58d600772812705690558c410431222c816933d27"
+    },
+    {
+      "path": "llm-lab/scripts/run_isolated.py",
+      "bytes": 5126,
+      "sha256": "fbcdefa19d23915f3fd75bd170272a3a19578fdd1f0a1574580f0d1aacc8ce81"
+    },
+    {
+      "path": "llm-lab/systemd/llmlab.slice",
+      "bytes": 188,
+      "sha256": "caf3ef6da91d883032f07bd04e40d6f7c6e7abea604948adb295d76bffd5b4e8"
+    },
+    {
+      "path": "minimax-h3.yaml",
+      "bytes": 1258,
+      "sha256": "bee62016765ab1dd8110e6db1a329d0f6cac11ccb63f4162a3794ddd2f66effe"
+    },
+    {
+      "path": "omni-bf16-benchmark.yaml",
+      "bytes": 1341,
+      "sha256": "42d0472a97c9f731724834eb31d4292684e0ca2505d0af13f82c1b8d1326917d"
+    },
+    {
+      "path": "omni-web/app.py",
+      "bytes": 9459,
+      "sha256": "e17f85b757f76c216e2339b9b01ed5f9a05f37edab91c655349d17a80fa20705"
+    },
+    {
+      "path": "requirements-deployed.txt",
+      "bytes": 3849,
+      "sha256": "ad418eb1a415dfe4b039613d1676ffb4a444e84aad697ca145656b8fd419cef2"
+    },
+    {
+      "path": "requirements-omni-deployed.txt",
+      "bytes": 3878,
+      "sha256": "af719531878b915f9bf41f1d3bf242adeb94e4faf14da4b0442a5e45ad0b2ba2"
+    },
+    {
+      "path": "start-fasth3-omni-bf16.sh",
+      "bytes": 1339,
+      "sha256": "85eec91073c9e203b3475af26fa7c4c5968c02cc5601e8c04f406efc7de1d1e1"
+    },
+    {
+      "path": "start-fasth3-omni-web.sh",
+      "bytes": 525,
+      "sha256": "ccc5537dbc94eba5d207c33e9e361018660757545ceadee54b39ee4904ab30e1"
+    },
+    {
+      "path": "start-fasth3-omni.sh",
+      "bytes": 1623,
+      "sha256": "6587254bc0ce2b006c96180173271d3cbd92ed6d0f35514252d1b33de80c3af5"
+    },
+    {
+      "path": "start-fasth3.sh",
+      "bytes": 1047,
+      "sha256": "9287de026d32d8d3b4bffe7ed3f3428fb9caa07cf9db934f6d9b0f8229fd631c"
+    },
+    {
+      "path": "start-h3-2k-http.sh",
+      "bytes": 306,
+      "sha256": "2bb07a9e0fa691e67b71b8034cf417652b826c9525bbe254639f5f6d280f3680"
+    },
+    {
+      "path": "start-h3-2k-refiner-http.sh",
+      "bytes": 198,
+      "sha256": "40a3afcceef155c9e3c99e49f9e4e4d551478274e1b2f183a91251dbbc2649b0"
+    },
+    {
+      "path": "start-h3-2k-web.sh",
+      "bytes": 305,
+      "sha256": "b14e2ec63ccb72ec7ffeb10f41a245f4426ac8d0ffe02435c6a7045fe7673123"
+    },
+    {
+      "path": "start-h3-2k-worker.sh",
+      "bytes": 732,
+      "sha256": "28210083b36d0e06d01dbde0292284e406f69edb7cec1531bb2de38bc48198b9"
+    },
+    {
+      "path": "start-minimax-h3-web.sh",
+      "bytes": 312,
+      "sha256": "32f2afd80dc473a7c5d58df3d10ed79ef71f269938d1eecefc5ee10392a90daa"
+    },
+    {
+      "path": "start-minimax-h3.sh",
+      "bytes": 1371,
+      "sha256": "4a2ab71d35536056c4e2bee5c9982a9f4f4fef9f07c9810aa3cc230c82b83faa"
+    },
+    {
+      "path": "start-omni-bf16-benchmark.sh",
+      "bytes": 1342,
+      "sha256": "9bf7d555df98e5ee173f79193116925ee4a95536b5e210af86c41e36c570c83a"
+    },
+    {
+      "path": "start-video-http.sh",
+      "bytes": 318,
+      "sha256": "e6715e19e35f1c43a8728608dbd65677b339afcebe061125f0eba40888fd5972"
+    },
+    {
+      "path": "tests/test_h3_2k_http.py",
+      "bytes": 6104,
+      "sha256": "3e881b2e1782b85c445dad704aef9be8f530cea661cf923a4e9346241e6e1231"
+    },
+    {
+      "path": "tests/test_h3_2k_media.py",
+      "bytes": 2637,
+      "sha256": "ddd116bdff172b0e71208a174c25293dab059eb82ebba3bc83d6fd5269f95086"
+    },
+    {
+      "path": "tests/test_h3_2k_windows.py",
+      "bytes": 1641,
+      "sha256": "659dbfb049a8b478dc5a4d0efcad90675a332403ac021853196e402c94162ceb"
+    },
+    {
+      "path": "tests/test_h3_ic_chunking.py",
+      "bytes": 1153,
+      "sha256": "11f85f1affb65cce1bdefcb16413dd78be5d8c576c3bb101453c8ffdd6bf2a98"
+    },
+    {
+      "path": "tests/test_h3_ic_exact.py",
+      "bytes": 3930,
+      "sha256": "1f5c3f611f62fad23c16232c7bc8695610b378b5cfbc867a1ab5da01ef3e91a6"
+    },
+    {
+      "path": "tests/test_h3_refiner_profiles.py",
+      "bytes": 5028,
+      "sha256": "a4bbc3ab0c83aca141500744fd46d4f81755a5cce03ebdcd3581195d057c0cbf"
+    },
+    {
+      "path": "tests/test_minimax_h3_tensor_range.py",
+      "bytes": 3615,
+      "sha256": "51ac78fcc0c2ff5228c4007103ab49112b2ae12a8a82304b51fabfd75cca4704"
+    },
+    {
+      "path": "tests/test_video_queue.py",
+      "bytes": 12138,
+      "sha256": "76ec53e6221ca0a38312e205f7aa71f0e23294654a2bc3de187b7b32547d2685"
+    },
+    {
+      "path": "tools/benchmark_h3_ic_exact.py",
+      "bytes": 12250,
+      "sha256": "32f4f68f3d0240460c2636f276e5f5f85dbc9f44a4074252f3dce4a4e706065d"
+    },
+    {
+      "path": "tools/check_omni_bf16_attention.py",
+      "bytes": 1800,
+      "sha256": "b6ac639e51e04a3a7d5b8de5c0e454c9e110128cc81606e7fd2773126eeb604a"
+    },
+    {
+      "path": "tools/composite_foxtail_frame.py",
+      "bytes": 6032,
+      "sha256": "ebaf4d349b938c5a030a5eca3e527b64e21bf0845650266065d48b229f2c4eeb"
+    },
+    {
+      "path": "tools/download_fasth3_omni.py",
+      "bytes": 5031,
+      "sha256": "dba180a7b9a1476d9b785a8311ee618884f21c7fff76bcbf63bc562cee52e497"
+    },
+    {
+      "path": "tools/download_minimax_h3.py",
+      "bytes": 6050,
+      "sha256": "2eabeadc583ff812efbf73db6a95a970793750d7622a66e48a3e808c060b06a3"
+    },
+    {
+      "path": "tools/h3_2k_batch_worker.py",
+      "bytes": 5086,
+      "sha256": "9c4e25a1a5755c22efb28a76d41e8d307e954ca7fe9dac081cb8c487eed79957"
+    },
+    {
+      "path": "tools/h3_2k_worker.py",
+      "bytes": 7667,
+      "sha256": "bfdcc86908580d628c6033bb7d0b8f9c51d75691f17cf9d26b2d483583d8eb8c"
+    },
+    {
+      "path": "tools/h3_base_runtime.py",
+      "bytes": 2368,
+      "sha256": "7f3327fba5b1d41af36409aca8519b26a1aae738058308763680ba1defe765d0"
+    },
+    {
+      "path": "tools/h3_ic_exact.py",
+      "bytes": 9258,
+      "sha256": "f9206133d49c9ebf03e6eb0f5c809e4a274bfdecc9e68043d0a5af795be04833"
+    },
+    {
+      "path": "tools/h3_ic_runtime.py",
+      "bytes": 9824,
+      "sha256": "23e33d90934f339cd5bf9460d406a48b768c62b548eac0bb8b7dc443b2ec64b9"
+    },
+    {
+      "path": "tools/h3_refiner_profiles.py",
+      "bytes": 1620,
+      "sha256": "81eb5c0a6280e750f49208ae179c7add0c455721ec9c517537d1a23b84dfa0ad"
+    },
+    {
+      "path": "tools/notify_minimax_h3_download.py",
+      "bytes": 3893,
+      "sha256": "c04fed6af660b0d45dcbc70e154de0c19c6aadaac533a5fb332656a562dba113"
+    },
+    {
+      "path": "tools/package_video_http_client.py",
+      "bytes": 2378,
+      "sha256": "6cc6e709a56f94d74768d6513df05aa8293b2f59b32739389cb286ad94e6786f"
+    },
+    {
+      "path": "tools/plan_h3_2k_windows.py",
+      "bytes": 1595,
+      "sha256": "e4e48e15529469d4b9424bd9d67c9346a26be6904a1ec2558581a8697acb3a69"
+    },
+    {
+      "path": "tools/prepare_omni_bf16.py",
+      "bytes": 2066,
+      "sha256": "5a99c9742734260c80fbd77729acbb63172c1fd9ebec834bd383805f5f336195"
+    },
+    {
+      "path": "tools/probe_hf_routes.py",
+      "bytes": 1991,
+      "sha256": "26d93a532c8cd40cb85a23bec250239c7d1da1d30730736edb10a378df9fb535"
+    },
+    {
+      "path": "tools/queue_minimax_h3_2k_download.py",
+      "bytes": 2160,
+      "sha256": "051b40c33fe37a2379365217ecd642d7f85f8726ba5155500d655fc87def49a4"
+    },
+    {
+      "path": "tools/reuse_omni_bf16_metadata.py",
+      "bytes": 1451,
+      "sha256": "024166a58d60b59f9b89ebf30ae1af12dea935e8dfecdcacf3d6d912f93ed065"
+    },
+    {
+      "path": "tools/run_h3_ic_real_diagnostic.py",
+      "bytes": 1205,
+      "sha256": "f86d125f34d164b402277a00991673a6f188e3309259c8f36565c4844aea98fb"
+    },
+    {
+      "path": "tools/run_omni_bf16_benchmark.py",
+      "bytes": 10586,
+      "sha256": "6078b96446435811b49db5316246bc316af6b1b85ffe192ec7ec6bc216848875"
+    },
+    {
+      "path": "tools/run_open_h3_2k.py",
+      "bytes": 3138,
+      "sha256": "8f209b82518ee44ddbb89da47a8c70f935b98fa82b0d28b2d6aa4554d05e7eb4"
+    },
+    {
+      "path": "tools/serve_fasth3_omni.py",
+      "bytes": 494,
+      "sha256": "c5897d5b9949fd9f5561f38fedd9ffb390a8aced02c4f042df5dbf9d1f60e8fc"
+    },
+    {
+      "path": "tools/serve_h3_2k_http.py",
+      "bytes": 15424,
+      "sha256": "fe57f4d8172434fca82b1767eb0b0470a4e220a337671b078dbe12b64747d954"
+    },
+    {
+      "path": "tools/serve_video_http.py",
+      "bytes": 9869,
+      "sha256": "9d1efda75462d01a2c9a2281fcc469dd489193bcef36c579fa98ddc610c00866"
+    },
+    {
+      "path": "tools/setup_h3_2k_env.py",
+      "bytes": 1655,
+      "sha256": "c6a11ae821cf1d3aab94fda83f23c70435e4e5436207ce64f3d636be66b5f518"
+    },
+    {
+      "path": "tools/video_gpu_scheduler.py",
+      "bytes": 16367,
+      "sha256": "f72d03ba5d8b8ac995f899a58b62c674f72cccc46f4c3ed73838409d5c2a7130"
+    },
+    {
+      "path": "tools/video_http_client.py",
+      "bytes": 4065,
+      "sha256": "c746e0d66bdc045a5e2165b077ccd9d5c67caa4eae29aada47f2756feeaf65d8"
+    },
+    {
+      "path": "tools/video_queue.py",
+      "bytes": 12423,
+      "sha256": "4d25bfb7da4a67e8c779a3c564102be87faabef51a5cbac19a880903a8eef6dd"
+    },
+    {
+      "path": "tools/watch_h3_2k_validation.py",
+      "bytes": 2287,
+      "sha256": "ebf60d94e5643b9c1d2dc6a6c9440aac9688946602e74eb61459bf24577d4e5f"
+    },
+    {
+      "path": "tools/watch_h3_4k_validation.py",
+      "bytes": 7548,
+      "sha256": "84423ca805862a315074e8b1cefa8cde3feafcbd96e539dd46c8de1392d86058"
+    },
+    {
+      "path": "tools/watch_video_queue_validation.py",
+      "bytes": 5504,
+      "sha256": "5b35b797f894bed300daf12b47d882e54cbda9e668e11fef58187592f53265ee"
+    }
+  ]
+}
