@@ -7244,3 +7244,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[944后续旧865被动启动集成](evidence/2026-11-17-civ6-passive-old865-startup-integration.json)，0新POST。119文件仅Executor、97双Lua编译、32实际mock集成VM／5未知来源拒绝。SDK仅目标断言专化、主体透传不变；双观察独立撤钩不可否决原退出。尚未Native，旧恢复FAIL／整modOPEN；944账本与OpenCode原生生成0保持。
 
 2026-11-17：[945旧865原始读取](evidence/2026-11-17-civ6-945-raw-old865-snapshot.json)。945新完整原始回执／活动／SDK／UI事件读取任务，12源111868B、一次POST40438.574ms、0完整采用extra。Owner12双Lua真实getter模拟执行及30损坏流拒绝；缺失／抛错活动API明确未知，不假定AWAKE，cfgfalse不能被fallback覆盖。仅软件，旧865FAIL不变。累计945/816完整/68length/61最终请求失败/984POST/38extra/0在途。
+
+2026-11-17：[NO_SITE重载前正式归档流程](evidence/2026-11-17-civ6-nosite-pre-reload-formal-copy.json)。0新POST，945账本不变。Owner插入块三空格／首次两空格均AST拒绝，按实际一空格修正，143AST／6实际主流程mock／2实际FS复制／10拒绝通过；不授NativeNoSite或正式准入，未知运行结果不继续释放／退出。
