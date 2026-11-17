@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-17",
+  "utc": "2026-11-17T03:33:48.540437+00:00",
+  "machine": "BF-202609141645",
+  "mode_id": "http-candidate",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/754951f3a23ee38e24037de59745c7aabecaa3af/docs/research/baiqi-source160-tc039-read-consumer-http940-2026-11-17.json",
+  "task940": {
+    "purpose": "New bounded Core/UI raw whole-journal/exactactor/startupSDK reader before Owner implementation, actual sources/APIs/consumers supplied",
+    "sources": 11,
+    "source_bytes": 422695,
+    "generation_POST": 1,
+    "http_status": 404,
+    "total_ms": 157.86570007912815,
+    "complete_candidate": false,
+    "adopted": false,
+    "extra_POST": 0,
+    "terminal_exit": 1,
+    "current_request_killed": false,
+    "stop_after_current_flag_written": true,
+    "before_MANY_formal": true
+  },
+  "Owner_software_only": {
+    "utc": "2026-11-17T03:10:59.350442+00:00",
+    "source_version": 160,
+    "actual_rendered_Lua_VM_executions": 8,
+    "Lua_versions": [
+      "5.1",
+      "5.3"
+    ],
+    "independent_negative_checks": [
+      "missing_done",
+      "duplicate_done",
+      "missing_field",
+      "duplicate_field",
+      "foreign_context",
+      "wrong_turn",
+      "actor_alias",
+      "changed_stage",
+      "changed_token",
+      "noncanonical_integer",
+      "invalid_number",
+      "string_numeric_field",
+      "sdk_drop",
+      "sdk_command",
+      "sdk_foreign_binding",
+      "sdk_spread",
+      "sdk_unknown_turn",
+      "sdk_missing_row",
+      "formation_unknown",
+      "nonfinite_moves",
+      "native_error_frame",
+      "unknown_field",
+      "field_reordered",
+      "independent_Core_UI_difference"
+    ],
+    "Native_queries": 0,
+    "Native_witness": "NOT_RUN",
+    "schema": "bounded whole raw journal / exact actor / passive boot SDK, Core_UI separately read not atomic",
+    "Owner_correction": "Raw bank serial is recorded and validated >=targetsequence3, not falsely fixed to3 solely from token3; future extra bank sequences are not fabricated."
+  },
+  "Owner_review": [
+    "Original first validation invocation was refused at the formal marker guard before any VM execution (0VM/0Native), not bypassed. The later successful receipt is separately timestamped after release.",
+    "Preserve the actual O-NUL console framing and exact expected context, reject malformed/duplicate/oversize/nonfinite fields and reordered or incomplete exports.",
+    "Export bounded raw complete bank metadata and all13schemafields for every operation; do not replace raw journals with a derived snapshot or mutate state.",
+    "Independently parse UI and Core and compare same-turn bank/actor facts without claiming atomic two-context reads. Natural update progress and observer restoration need future actual lifecycle receipts.",
+    "The first post-release validation lacked the repository root in sys.path and failed importing tools.performance_admission before any VM/Native. Corrected root plus private-module search paths; actual subsequent8VM/24negative checks passed. Original tool trace retained; this was an Owner harness error, not a product/model failure."
+  ],
+  "ledger": {
+    "logical": 940,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 56,
+    "generation_POST": 979,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "lessons": [
+    "New real incomplete task before Owner implementation: bounded raw cross-context religious journal/exactactor/startupSDK reader. Actual11sources422695bytes supplied. One naturalPOST404, no completeSSE/JSONcandidate, adoption0/extra0; stopped future retries after actualPOST, never killed currentrequest.",
+    "No alternate endpoint/model/auth/config or secondHTTP implementation. Canonical shared daily Nov17OpenCode1.19.5success cache reused; HTTP failure grants no native-tool capability.",
+    "After request failure Owner used exact qualified UI/Core API split, exported every bounded raw journal field and matched independently read contexts; do not replace journal authority with a derived snapshot or claim atomicity across two reads.",
+    "Token sequence3doesnot prove whole bank serial3. Record raw serial and validate it covers targetsequence while preserving other journal entries. Keep exact fullIDs, owned SDK64row bound and explicit unknown/error/duplicate/overflow rejection.",
+    "First software invocation refused formal guard beforeVM0; first post-release invocation had an Owner path/import error beforeVM0. Correct root/private import paths, actual8LuaVMexecutions/24negativechecksplusO-NULframepositive passed only after formal release.",
+    "These are software checks: no Native load/END or wholecompatibility success. The passive startup package is already separate prior939preparation; repeated-load witness and oldpause/removedrights/old865failure remain actualwork."
+  ],
+  "whole_mod": "OPEN_CONTINUE",
+  "whole_TC039": "OPEN",
+  "old8650807": "FAIL_UNRESOLVED",
+  "OpenCode_daily": "Nov17 same-machine/user canonical1.19.5successfulcache, native generation0"
+}

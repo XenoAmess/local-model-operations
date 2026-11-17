@@ -2265,3 +2265,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[当前160自然候选池资格](evidence/2026-11-17-civ6-current160-many-natural-qualification.json)。自然压力资格为Owner实际游戏证据，不授OpenCode生成；Nov17已有1.19.5成功维护缓存、原生生成0保持。
 
 2026-11-17：[当前160无可用几何资格](evidence/2026-11-17-civ6-current160-nosite-geometry-qualification.json)。全图必要几何证书是Owner实际游戏证据，不授OpenCode生成；Nov17已有1.19.5成功维护缓存、原生生成0保持。
+
+2026-11-17：[940有界原始日志读取准备](evidence/2026-11-17-civ6-940-bounded-journal-reader.json)。940软件结果不授OpenCode生成；Nov17成功1.19.5维护缓存继续复用，原生工具生成0。
