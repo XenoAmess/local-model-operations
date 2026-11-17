@@ -7302,3 +7302,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[旧865继续加载CLI真实入口修正](evidence/2026-11-17-civ6-legacy-owner-continue-cli.json)：原98482确认前参数失败终态1；四合法／七拒绝调用实际主入口，无消费者误调用，两源码AST。新15373仅接续未发输入，不重载／发文职命令或授恢复PASS。Owner接口错误非模型／产品失败，0新POST，961累计保持。
 
 2026-11-17：[旧档基线bytes/byte_count实际全消费者验证](evidence/2026-11-17-civ6-legacy-load-baseline-schema.json)，六生成程序／七坏基线拒绝，旧证据不回填、原字段冲突拒绝。Windows规范化文本与原始字节SHA分开，93076仅接续首次输入。0新POST／无Native软件通过移授，961累计保持。
+
+2026-11-17：[原158旧865当前160被动实采](evidence/2026-11-17-civ6-original865-passive-native.json)，93自然更新／六事件订阅撤除／目标0请求事件／0资格及命令／END。原生HOLD与realm缺失API明确，原ARMED仍在，恢复FAIL不抹除；93076剩余父真实exit0，原两确认前中止保留。0新POST，961累计保持。

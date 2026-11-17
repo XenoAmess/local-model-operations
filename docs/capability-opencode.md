@@ -2323,3 +2323,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：旧865CLI入口／模拟消费者核验为Owner普通Python，非OpenCode原生生成；Nov17缓存／原生0保持，见[真实合同边界](evidence/2026-11-17-civ6-legacy-owner-continue-cli.json)。
 
 2026-11-17：旧档日志基线兼容为Owner临时mockOS/消费者验证，非OpenCode原生生成；Nov17缓存／原生0保持，见[真实与模拟边界](evidence/2026-11-17-civ6-legacy-load-baseline-schema.json)。
+
+2026-11-17：旧865被动实采为Owner验收，不授OpenCode原生生成；Nov17同机缓存／原生0保持，见[HOLD与原意图证据](evidence/2026-11-17-civ6-original865-passive-native.json)。
