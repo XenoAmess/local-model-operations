@@ -7298,3 +7298,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[当前160未知意图两真实重载窄通过](evidence/2026-11-17-civ6-current160-sameversion-two-reloads-native.json)，原78→普通79／15玩家军队待命／实际79存后重载A+B，六UI/Core见证、原ARMED／次数不变／0SPREAD；自然更新9/10/8/9/9。原Owner首存编译中止保留、35941剩余父真实exit0、0重放，不授全TC039／旧865／压力PASS。0新POST，961累计保持。
 
 2026-11-17：[P5旧暂停有限流程软件准备](evidence/2026-11-17-civ6-oldpause-finite-episode-software.json)，九SHA消费者／12守卫编译／4载入VM／4unknown-stop流程，0Native／P5未载，不授自动生产。真实865／旧P2闭合后方可执行，0新POST，961累计保持。
+
+2026-11-17：[旧865继续加载CLI真实入口修正](evidence/2026-11-17-civ6-legacy-owner-continue-cli.json)：原98482确认前参数失败终态1；四合法／七拒绝调用实际主入口，无消费者误调用，两源码AST。新15373仅接续未发输入，不重载／发文职命令或授恢复PASS。Owner接口错误非模型／产品失败，0新POST，961累计保持。
