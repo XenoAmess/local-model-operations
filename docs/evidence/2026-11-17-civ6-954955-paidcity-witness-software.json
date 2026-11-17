@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/f458741f599e7e2353869289cb46fc3f87337f44/docs/research/baiqi-source160-paidcity-raw954-observer955-2026-11-17.json",
+  "Owner_review": [
+    "Reader uses actual readonly Quote in each of Core BaiqiGameplay/GetType and UI WorldInput/GetUnitType; it retains nil/false/UNKNOWN, all bounded journal/result fields, actual changed city ID/owner, treasury and district damage. No Clone/Reconcile/Recover or getter-side writes.",
+    "Getter bounds are6500typed nodes/depth12/4096byte strings/256operations/12000rows/20MB. Complete counts/context/label/turn/localplayer are checked. Unsupported/cyclic/bounded/getter errors remain explicit UNKNOWN, never empty success; raw frames must be retained before parsing. No foreign great-work or complete-asset claim.",
+    "Observer wraps only context-local BaiqiActions.Interact and UI.RequestPlayerOperation in WorldInput or UnitFlagManager. It records primitive metadata of Interact/request/continuation,64rows plus error/drop counters. Direct original calls preserve argument/return nils and errors; no observation callback initiates an action.",
+    "Actual Actions mock tests include cancel, valid popup then confirmation balanceC-1/C/C+1, pending interaction, continuation, malformed request; generic tests cover nil arity/error identity/bounds/detached state/foreign replacement/retirement/partial install rollback.",
+    "Observer UI request counts are not backend transfer/debit/Finish or all-context Native counters. No actual popup, physical input, current160 threshold or TC024-031 pass. Each actual future branch must open a valid ordinary map quote before independent confirmation-balance setup. Initial ineligibleC-1 map interaction can fall through to attack and is not a confirmed requisition rejection.",
+    "Owner corrected an initial META-width parser assertion before the successful52VM run; no candidate code was adopted. Models954/955 were genuine pending tasks and failed404, already accounted in957logical. No new modelPOST for these Owner implementations."
+  ],
+  "raw_VM_runs": 52,
+  "bad_world_export_rejections": 12,
+  "observer_VM_runs": 40,
+  "Native_queries": 0,
+  "Native_orders": 0,
+  "new_generation_POST": 1,
+  "model958_real_candidate": {
+    "task": 958,
+    "begin": "2026-11-17T11:02:29.336732+00:00",
+    "end": "2026-11-17T11:02:29.391892+00:00",
+    "http_status": 404,
+    "total_ms": 53.75740001909435,
+    "POST": 1,
+    "extra_POST": 0,
+    "terminal": 1,
+    "candidate_complete": false,
+    "adopted": false,
+    "stop_file_exists": false,
+    "current_request_killed": false,
+    "sources": 7,
+    "source_bytes": 53544,
+    "scope": "New actual nil unit-type Quote software defect, before Owner product fix; no candidate adopted and no product mutation yet.",
+    "Native_actions": 0,
+    "unknown_cache_costs": null
+  },
+  "ledger": {
+    "logical": 958,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 74,
+    "generation_POST": 997,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "OpenCode_native_generation": 0,
+  "whole_mod": "OPEN_CONTINUE"
+}

@@ -7280,3 +7280,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[956单次字面保存路径索引](evidence/2026-11-17-civ6-956-save-lookup-index.json)，Owner14临时FS例，36原哈希读取不减、2目录扫描；不缓存内容、不跨动作，未知条件fallback／变化fail，原错误及外来绑定保留。仅未来两行适配，950两VM／20坏帧／7流程重验，未改在途NoSite。真实保护链时长未测，不授游戏预算修复；无新POST，957累计不变。
 
 2026-11-17：[当前160 NOSITE pairs实际证据](evidence/2026-11-17-civ6-current160-nosite-pairs-actual.json)：冻结预算记录 {"B_delta": "FAIL", "all_four_scene_budgets_PASS": false}，完整原件／合格性／不利结果见精确项目提交。0新生成POST，账本958保持；Owner实机不授OpenCode原生生成0，整个mod仍OPEN／旧865恢复FAIL，继续制作验收。
+
+2026-11-17：[954原始状态／955界面元数据](evidence/2026-11-17-civ6-954955-paidcity-witness-software.json)：真实待办404后Owner52读取VM／12拒绝／40观察器VM；只授软件工具，不授物理征城、后台转移扣费或阈值PASS。新增958真实缺陷候选一次404／53.7574ms，无完整采用，累计958／816完整／68length／74最终失败／997POST／38extra／0在途。
