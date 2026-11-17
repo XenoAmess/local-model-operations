@@ -7248,3 +7248,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[NO_SITE重载前正式归档流程](evidence/2026-11-17-civ6-nosite-pre-reload-formal-copy.json)。0新POST，945账本不变。Owner插入块三空格／首次两空格均AST拒绝，按实际一空格修正，143AST／6实际主流程mock／2实际FS复制／10拒绝通过；不授NativeNoSite或正式准入，未知运行结果不继续释放／退出。
 
 2026-11-17：[946有限旧865诊断编排](evidence/2026-11-17-civ6-946-finite-passive-old865-episode.json)。946新旧865有限被动冷启编排，12源94964B、一次POST40418.0824ms、0完整采用extra。Owner22真实载荷／保护VM、3实际flow模拟、6前置拒绝通过；隔离命名空间、1load／0END、未知load或save停止依赖，不伪造正式完成。原158未读／旧恢复FAIL。累计946/816完整/68length/62最终请求失败/985POST/38extra/0在途。
+
+2026-11-17：[当前160 MANY pairs实际证据](evidence/2026-11-17-civ6-current160-many-pairs-actual.json)：冻结预算记录 {"B_delta": "FAIL", "all_four_scene_budgets_PASS": false}，完整原件／合格性／不利结果见精确项目提交。0新生成POST，账本946保持；Owner实机不授OpenCode原生生成0，整个mod仍OPEN／旧865恢复FAIL，继续制作验收。
