@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/aa9474a95de09fd5f97213ba39e615824fec8499/docs/research/baiqi-source160-precise-end-label-native-2026-11-17.json",
+  "clock": {
+    "from_turn": 6.0,
+    "to_turn": 7.0,
+    "pid": 0.0,
+    "started": 1794914218.313,
+    "ended": 1794914219.1920002,
+    "seconds": 0.879000186920166
+  },
+  "counts": {
+    "contexts": 33,
+    "samples": 15,
+    "anchors": 132,
+    "write_rows": 1,
+    "errors": 0,
+    "labels": 40,
+    "total_calls": 2158
+  },
+  "label_class_counts": {
+    "BOUNDARY_UNASSIGNABLE": 19,
+    "CONTAINED_ALL_CALLS": 12,
+    "OUTSIDE": 9
+  },
+  "sample_class_counts": {
+    "OUTSIDE": 10,
+    "CONTAINED": 4,
+    "BOUNDARY_UNASSIGNABLE": 1
+  },
+  "Owner_review": [
+    "33contexts/2158calls/40labels/15nonzero retained samples/132anchors/1write row/errors0; full raw facts plus six before/after brackets per context retained. The exact ordinaryEND6->activation7clock is879.000186920ms; the wider recordwindow includes pre/post work.",
+    "12label aggregates are fully within END,19cross its boundary and9are outside. Individual retained samples classify4contained/10outside/1boundary. Never allocate whole crossing aggregates to exactEND or sum overlapping contexts as CPU.",
+    "GovernmentScreen ObjectProxy __index and bound native-method wrappers each execute903times during14ms between1794914218.861and.875, both wholly inside exactEND. Quantized inclusive2ms/1ms respectively do not explain full paired slowdowns; measuredzero is notzeroCPU.",
+    "Actual source shows ObjectProxy checks PlayerID before blocked[key], including player proxies with empty blocked table and unblocked culture reads. A blocked-key-first candidate is newly requested in961 before Owner implementation. It can remove redundant identity checks while retaining fresh checks for blocked writes, but no causal performance repair is yet demonstrated.",
+    "Existing MANY medianratio15.0183326128% and NO_SITE delta552.999973297ms/ratio19.464281913% remain validFAIL. This one diagnostic is not an unchanged five-pair rerun or substitutePASS.",
+    "Current160 exactSDK/clock/profile observers were owned-retired, official save7 verified, formal admission released, official exit once and exact owned residue cleanup after>=180s quiet/no windows/listeners. No furtherEND, manualdomestic, backgroundmilitary/diplomacy or Steamonline.",
+    "Next current160 finite TC039 repeated load, original865passive and oldP2rights evidence before integrating product changes; new959oldpause and960finalfinancial observer software remain separately scoped."
+  ],
+  "model961": {
+    "task": 961,
+    "begin": "2026-11-17T11:22:51.692174+00:00",
+    "end": "2026-11-17T11:22:51.713140+00:00",
+    "total_ms": 21.11910004168749,
+    "http_status": 404,
+    "POST": 1,
+    "extra_POST": 0,
+    "terminal": 1,
+    "complete": false,
+    "adopted": false,
+    "stop_file_exists": false,
+    "current_request_killed": false,
+    "sources": 7,
+    "source_bytes": 149424,
+    "scope": "New actual903+903ObjectProxy read-call diagnostic leads to blocked-key-first candidate; Owner has not implemented it; no causal B_delta claim."
+  },
+  "ledger": {
+    "logical": 961,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 77,
+    "generation_POST": 1000,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "new_generation_POST_for_diagnostic": 0,
+  "OpenCode_native_generation": 0,
+  "whole_mod": "OPEN_CONTINUE"
+}

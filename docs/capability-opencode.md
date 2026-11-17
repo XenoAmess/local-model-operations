@@ -2307,3 +2307,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：957为Owner源码／消费者审阅，非OpenCode原生生成；canonical同机每日维护缓存与原生0不变，见[审阅范围](evidence/2026-11-17-civ6-957-tc037-impact-reviewed-reuse.json)。
 
 2026-11-17：956真实FS／digest计数由Owner普通Python完成，不授OpenCode原生生成；同机Nov17维护缓存／原生0保持，见[实际与临时软件夹具区分](evidence/2026-11-17-civ6-956-real-save-check.json)。
+
+2026-11-17：精确END为Owner实机，961为普通HTTP候选失败；均不授OpenCode原生生成，canonicalNov17同机缓存／原生0保持，见[边界与事实](evidence/2026-11-17-civ6-current160-precise-end-native.json)。
