@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-18",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/872e953c56fbce46c6a6bd1018e10a4eafd8634e/docs/research/baiqi-source161-wake978-native-closed-http980-2026-11-18.json",
+  "status": "ACTUAL_ONE_WAKE_ONE_STANDBY_FOUR_EVENTS_CLOSED_OLD_RECOVERY_FAIL",
+  "review": [
+    "Source161 private978 actual Core authority fallback and one background WAKE are now independently read back, retired, saved and closed. Original39736 capture halt and readonly94232 zero-result diagnosis remain preserved. Corrected38272 continuation exited0; it performed no new WAKE/SKIP/Arm/FOUND/END/load or original-journal write.",
+    "One actual WAKE200562917/n0 was followed by one unchanged ordinary background SKIP745019656/n1. Both UI and Core observed four target events in order: commandStarted(WAKE), operationAdded(index36), operationDeactivated(SKIP), operationsCleared. Clear follows SKIP, so this is not a WAKE-alone cancellation result or proof of global dispatch quiescence.",
+    "Original bank serial1, settle:0:1/request0:156:173 remains ARMED and identical in initial/final UI/Core. Actor remains alive at10,19 with2moves/form1/HOLD; target846 remains empty. Original865 recovery staysFAIL_UNRESOLVED; no timeout, empty queue, HOLD or save is used to grant retry.",
+    "Corrected future-only property producer forced one return; strict original parser unchanged. Real missing property returns zero values, which previously yielded type=function when passed directly to type in Civ6. No bad raw frame was edited, no diagnostic property cleared, no original action replayed.",
+    "Official new158 checkpoint629859bytes SHA dd0dcee365435b619911a4a76752706b967c361d6f350a40d04f3f26d96c055b verified. Official exit once; owned PID14608/birth1794935114.0611553 had no windows/listeners and waited229seconds; quiet exact-owner residue terminate once/exit15/no kill. Natural exit is not claimed.",
+    "Genuine980 adversarial recovery-protocol task ran only after38272 actual exit0 and game closure, returned404/33.37650001049042ms, no candidate/adoption. Owner continues review. The in-memory event receipt is not a persisted cancellation barrier: saved diagnostic intent remains ARMED before the action, so reloading it cannot authorize new FOUND.",
+    "Next recovery measurement must durably correlate native Core events to a separately persisted one-use intent, retain complete old history, and reject later/foreign events, load/turn/actor/world changes, conflict, formation and unknown writes. No old-journal transition is authorized by this record. Other paid-city/input/economy/runtime-isolation and causal performance work continue; valid MANY/NO_SITE FAILs remain."
+  ],
+  "model980": {
+    "task": 980,
+    "POST": 1,
+    "http_status": 404,
+    "total_ms": 33.37650001049042,
+    "complete": false,
+    "adopted": false,
+    "terminal": 1,
+    "extra_POST": 0,
+    "current_request_killed": false,
+    "scope": "AFTER_ACTUAL38272_TERMINAL_AND_OWNED_GAME_CLOSED",
+    "OpenCode_daily": "Nov18 same-machine/user successful1.19.6 cache; native-generation0"
+  },
+  "ledger": {
+    "logical": 980,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 96,
+    "generation_POST": 1019,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "OpenCode_native_generation": 0,
+  "whole_mod": "OPEN_CONTINUE"
+}
