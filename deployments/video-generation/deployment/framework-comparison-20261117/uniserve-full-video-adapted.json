@@ -1,0 +1,65 @@
+{
+  "status": "complete_video_downloaded_decoded_and_sampled",
+  "started": 1794914615.4716883,
+  "runs": [
+    {
+      "repeat": 0,
+      "id": "video_a51e3520120f440fbeed85c16ad3ce82",
+      "status": "completed",
+      "elapsed_s": 643.5468630909454,
+      "wall_s": 643.5470573038328,
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1344,
+            "height": 768,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.184000",
+          "size": "3322315"
+        }
+      }
+    }
+  ],
+  "baseline_s": 759.2129165099468,
+  "precision": "BF16 DiT and text encoder, native quality 36L VAE with FP16 projection storage",
+  "numerical_note": "Native PDD head fusion and kernels; local CPU-direct loading adapter. Not bitwise equivalent to FastVideo.",
+  "local_sm120_adapter": false,
+  "local_cpu_load_adapter": true,
+  "readiness_wait_s": 158.4667309729848,
+  "reference_sha256": {
+    "image": "472d633ea178e30cd3395a3f7290257a6dbbbbe0f6b2fbc653706d1a251c570a",
+    "video_audio": "893bc0f630dc18ceca2503929d7b1eff9b952d0149480d91d428ccbf892cc236"
+  },
+  "finished": 1794915417.6307242,
+  "full_video_completed": true,
+  "text_host_layers": 16,
+  "actual_prompt_tokens": 11102,
+  "prompt_capacity": 11264,
+  "actual_condition_rows": 47744,
+  "condition_capacity": 49152,
+  "server_inference_time_s": 641.420945574,
+  "server_stage_durations": {
+    "decoding": 2.361604494,
+    "denoising": 518.149941124,
+    "encoding": 3.750149818,
+    "finalizing": 11.441840525999998,
+    "preparing": 105.717409612
+  },
+  "output_sha256": "a78fdb735e760b62949c357dd64e40d9ef50f06c304e1cc090ff93ba4ec119f4",
+  "visual_check": "Sampled frames0,60,123 show intact full-body character and scene; no black/corrupt sampled frames. No claim of semantic or numerical equivalence to FastVideo.",
+  "steady_production_ranking": "Not established: one complete request, no controlled post-warmup batch comparison",
+  "cold_start_not_a_production_ranking": true,
+  "production_framework_replaced": false
+}

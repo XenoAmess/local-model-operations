@@ -1,7 +1,7 @@
 [
   {
     "id": "text",
-    "mem_fraction_static": 0.65,
+    "mem_fraction_static": 0.54,
     "ranks": [
       {
         "node": "localhost",
@@ -13,14 +13,15 @@
         "ranks": [
           0
         ],
-        "parallel_config": {}
+        "parallel_config": {},
+        "weights": "host"
       }
     },
     "queue_depth": 3
   },
   {
     "id": "flow",
-    "mem_fraction_static": 0.335,
+    "mem_fraction_static": 0.445,
     "ranks": [
       {
         "node": "localhost",

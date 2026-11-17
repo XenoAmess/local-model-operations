@@ -130,28 +130,38 @@
   },
   "sglang": {
     "source_commit": "8e737da037ddf967d9b1bab778f48fb35275d7ee",
-    "status": "trained_vsa_h3_rejected_sm120",
-    "full_video_s": null,
+    "status": "local_sm120_adapter_complete_video_measured",
+    "full_video_s": 661.5824925790075,
     "default_dense_run": "excluded from fair comparison; manually stopped",
     "explicit_vsa_error": "VSA-H3 device capability 12.0 is outside the supported list",
     "decoder": "original 36L FP32",
-    "pdd_head_fusion": true
+    "pdd_head_fusion": true,
+    "upstream_admission_status": "trained_vsa_h3_rejected_sm120",
+    "steady_ranking_established": false
   },
   "uniserve": {
     "source_commit": "d58bee14b46475c690ead7540f9f2bbab7790195",
-    "status": "kernel_measured_default_full_residency_exceeds_vram",
+    "status": "local_cpu_streaming_adapter_complete_video_measured",
     "resident_parameters_gib": 94.6872275955975,
-    "full_video_s": null,
-    "default_decoder_projection_dtype": "float16"
+    "full_video_s": 643.5470573038328,
+    "default_decoder_projection_dtype": "float16",
+    "local_adapted_full_video_completed": true,
+    "full_video_receipt": "uniserve-full-video-adapted.json",
+    "stock_admission_scope": "Original default full-residency budget; adapted first-request result listed separately",
+    "steady_ranking_established": false,
+    "unmodified_configuration_status": "kernel_measured_default_full_residency_exceeds_vram"
   },
   "full_video_followup": {
-    "status": "ic_all_three_complete_and_bit_equal_uniserve_final_attempt_running",
+    "status": "complete_first_request_results_steady_comparison_cancelled_by_user",
     "scope": "SGLang complete Omni clips and current IC complete; candidate IC controllers and UniServe complete model still pending",
     "sglang_receipt": "sglang-full-video-explicit-reference.json",
     "ic_baseline_receipt": "ic-full-current.json",
     "production_framework_replaced": false,
     "ic_diffusers_receipt": "ic-current-vs-diffusers-full.json",
     "uniserve_startup_receipt": "uniserve-native-startup-r2.json",
-    "ic_full_receipt": "ic-complete-verification.json"
+    "ic_full_receipt": "ic-complete-verification.json",
+    "uniserve_full_receipt": "uniserve-full-video-adapted.json",
+    "steady_receipt": "steady-comparison-cancelled.json",
+    "production_ranking_established": false
   }
 }

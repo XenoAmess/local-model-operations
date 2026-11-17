@@ -1,8 +1,8 @@
 # H3 框架性能实测、两个 Strata 与4K并发
 
-2026-11-17，RTX6000D（85,651MiB，SM120）。结论截至19:06 CST：**完整2K对照没有显示Diffusers或Accelerate更快；三个实现的最终latent和全部像素完全一致。SGLang完整生成已测，输出与正式服务不同，不满足同运算结果替换条件。两个Strata不支持现有H3入口。UniServe原生HTTP已启动成功，正在按真实11102-token请求扩大profile后的最后一次检查中。** 正式推理框架尚未替换。
+2026-11-17，RTX6000D（85,651MiB，SM120）。截至19:54 CST：**完整2K对照没有显示Diffusers或Accelerate更快；三条最终latent和全部像素完全一致。FastVideo、SGLang与UniServe均已有完整Omni成片，但公平的预热后量产对照尚未完成，不能断言UniServe量产更慢或最快。两个Strata不支持现有H3入口。**
 
-所有模型推理、原生编译均在隔离环境执行，保留单任务80GiB、聚合88GiB主内存限制，下载最多两条单文件通道。正式HTTP8001／8002／7860保持在线；独占GPU补测期间暂挂调度器，控制器在结束或异常时恢复。全部服务禁止开机自启、禁止云端。
+用户指出量产应比较预热后的连续耗时，这一口径正确；撤回用冷启动总时间判断UniServe不值得推进的结论。追加稳态补测已按用户“不测了，先给现有结论”的最新指令取消。正式8001／8002／7860、GPU队列已恢复，局域网只读状态均200，GPU无实验占用。线上框架未替换，全部关闭开机自启、禁止云端，保留80／88GiB主内存上限。
 
 ## 完整IC视频：同运算结果对比
 
@@ -30,7 +30,7 @@
 
 Diffusers stream＋低CPU内存接入在4096-token检查未通过逐元素一致性，未进入大尺寸和完整视频测试，未采用。原因尚未定位，不据此宣称上游所有stream实现有缺陷。
 
-## Omni完整视频：FastVideo与SGLang
+## Omni完整视频：已完成请求，不作量产排名
 
 相同图片、带音轨参考视频、prompt、seed1234，1344×768、124帧、24fps、8次PDD前向，保留训练用逻辑VSA tile128、稀疏度0.9、参考保留率0.1、BF16 DiT／文本编码器、原版36L FP32 VAE与原生autocast。不是NVFP4、8L decoder、跳步缓存或降低参考分辨率的测试。
 
@@ -41,17 +41,18 @@ SGLang上游设备选择器默认拒绝SM120的H3 VSA，原始准入结果保留
 | 当前FastVideo历史相同任务 | 759.213秒 | 6.007秒 | 765.220秒 |
 | SGLang适配，第一次独立启动 | 667.679秒 | 52.183秒 | 719.862秒 |
 | SGLang适配，另一次独立启动，显式参考缩放 | 661.582秒 | 52.289秒 | 713.872秒 |
-| SGLang同进程重复相同输入 | 613.511秒 | 不重复计 | 存在条件缓存，排除冷启动排名 |
+| SGLang同进程重复相同输入 | 613.511秒 | 不重复计 | 条件缓存可能命中，不能当作公平量产成绩 |
+| UniServe适配，完整实际请求 | 643.547秒 | 158.467秒 | 802.014秒，仅附列启动成本 |
 
 独立重启且显式 `reference_resize_mode=diffusers` 的MP4与第一条默认请求SHA256完全相同。最初根据通用H3类默认max怀疑缩放不同，随后源码与实测确认**FastH3OmniSamplingParams已经覆盖为diffusers**，撤回该判断。实际图片均为2048×2464。
 
-三条完整MP4均下载、全解码，视频与音轨存在。SGLang抽查帧完整，但由FastVideo基线的全身景别变为面部近景；**任务和画质等价没有证明，数值也非bitwise相同，因此不替换线上。** 计入启动的两次冷路径观察到约5.9%／6.7%墙钟降低；样本少，加载策略、PDD头融合、注意力实现、PyTorch／Transformers版本不同，不将其称为纯框架加速比。[显式复测](../deployment/framework-comparison-20261117/sglang-full-video-explicit-reference.json)，[首次与重复请求](../deployment/framework-comparison-20261117/sglang-full-video-adapted.json)
+三条完整MP4均下载、全解码，视频与音轨存在。SGLang抽查帧完整，但由FastVideo基线的全身景别变为面部近景；**任务和画质等价没有证明，数值也非bitwise相同，因此不替换线上。** **冷启动时间只单列，不用于量产排名。** SGLang重复任务613.511秒含缓存条件，不能与UniServe首条643.547秒直接判定稳态胜负。样本少，加载、算子预热、PDD融合、注意力、解码器存储精度与环境不同，不能宣称公平稳态对比已经完成。[显式复测](../deployment/framework-comparison-20261117/sglang-full-video-explicit-reference.json)，[首次与重复请求](../deployment/framework-comparison-20261117/sglang-full-video-adapted.json)
 
-## UniServe：原生服务与单卡接入
+## UniServe：完整成片已跑通，稳态对照未完成
 
 固定UniServe提交d58bee14b46475c690ead7540f9f2bbab7790195；独立构建原生CUDA扩展、Rust HTTP服务和Python worker成功。meta预算约94.69GiB参数，超过本卡83GiB可用显存，直接全常驻不适用。本地实验适配将host-weight组件直接在CPU加载，再用上游原生LayerWeights流送到GPU，避免先全部加载GPU。没有换量化权重或降低生成配置。[候选补丁](../patches/uniserve-h3-cpu-load-experimental.patch)
 
-10层CPU加载流送检查：三次完整前向、一次中断再重开均与GPU常驻输出逐元素相同。完整H3已经实际加载、50层DiT和36层decoder流送成功；这本身不等于完整生成成功。原生quality档使用原版36层VAE，但投影权重存为FP16，区别于正式FP32权重＋FP16 autocast，不能当作同数值结果替代。
+10层CPU加载流送检查，以及前8层流送、后2层常驻的混合检查：各三次完整前向、一次中断再重开均与GPU常驻输出逐元素相同。完整H3已经实际加载、50层DiT和36层decoder流送成功；这本身不等于完整生成成功。原生quality档使用原版36层VAE，但投影权重存为FP16，区别于正式FP32权重＋FP16 autocast，不能当作同数值结果替代。
 
 | 完整接入检查 | 实际结果 |
 | --- | --- |
@@ -59,9 +60,16 @@ SGLang上游设备选择器默认拒绝SM120的H3 VSA，原始准入结果保留
 | 原预算0.62／0.37 | 文本worker预备工作区1407188992字节超过剩余1096933643字节；调整份额 |
 | 预算调整后 | 显存预算通过；发现本地CPU加载适配遗漏后处理常量设备，已修正 |
 | 诊断与服务同一父进程 | 父诊断CUDA上下文额外约684MiB，实际CUDA OOM；保留证据，未原样重试 |
-| 独立诊断子进程＋预留更多运行空间 | HTTP健康检查成功，实际请求11102 tokens超过8192 profile，按需扩至11264、不截断素材后继续 |
+| 独立诊断子进程＋预留更多运行空间 | HTTP健康检查成功，实际请求11102 tokens超过8192 profile，扩至11264，不截断 |
+| 11264 profile、文本全常驻 | 与DiT实际工作区合计超过本卡容量，保留OOM证据 |
+| 文本前16层原生流送，其余34层及vision常驻 | 本地适配已加载并通过服务warmup；静态主存权重上界60.014GiB，给输入和运行时留余量 |
+| 同一真实请求的条件容量 | 实际47744行，恢复49152容量后准入通过，8轮去噪及完整成片已完成 |
 
-前三项分别是本地配置／适配问题，不据此宣称上游H3不支持。第四次的OOM已明确定位与调整；当前候选保持80／88GiB主内存上限，禁止无变化重投。若最终仍不通过，将报告本机当前候选未验收，而非伪造完整性能数字。[工作区记录](../deployment/framework-comparison-20261117/uniserve-native-startup-r2.json)，[后处理记录](../deployment/framework-comparison-20261117/uniserve-native-startup-r3.json)，[OOM记录](../deployment/framework-comparison-20261117/uniserve-native-startup-r4.json)，[HTTP成功与实际准入](../deployment/framework-comparison-20261117/uniserve-native-startup-r5.json)
+前三项分别是本地配置／适配问题，不据此宣称上游H3不支持。第四次的OOM已明确定位与调整；11264-token profile的新峰值又超限，因此采用有meta预算和混合小模型一致性检查的16层部分流送。当前候选保持80／88GiB主内存上限，禁止无变化重投。最后一次完整请求643.547秒，服务报告内部推理641.421秒（准备105.717、去噪518.150、解码2.362、编码3.750、收尾11.442秒）。结果1344×768、124帧、24fps，含音轨，完整下载与FFmpeg解码通过；抽查第0、60、123帧完整、角色和场景可辨。其PDD／注意力数值实现与36L decoder投影FP16存储不同，未通过同结果替换验收。[完整结果](../deployment/framework-comparison-20261117/uniserve-full-video-adapted.json)
+
+它的单次请求比SGLang该次661.582秒少约2.7%，比历史FastVideo759.213秒少约15.2%，但**这些不是控制算子预热和素材缓存后的量产结果，不据此判稳态胜负**。用户随后要求先停止测试，稳态补测在完成前取消，不继续优化、不自动部署。[取消记录](../deployment/framework-comparison-20261117/steady-comparison-cancelled.json)
+
+接入过程诊断仅解释本地配置与适配的修复，不等于上游框架整体故障。[工作区记录](../deployment/framework-comparison-20261117/uniserve-native-startup-r2.json)，[后处理记录](../deployment/framework-comparison-20261117/uniserve-native-startup-r3.json)，[OOM记录](../deployment/framework-comparison-20261117/uniserve-native-startup-r4.json)，[HTTP成功与实际准入](../deployment/framework-comparison-20261117/uniserve-native-startup-r5.json)
 
 ## Omni稀疏注意力内核
 
@@ -100,6 +108,8 @@ SGLang上游设备选择器默认拒绝SM120的H3 VSA，原始准入结果保留
 ## 复现与证据
 
 正式环境PyTorch2.12.0+cu130／Diffusers0.42.0／Accelerate1.0.1；SGLang提交8e737da037ddf967d9b1bab778f48fb35275d7ee使用PyTorch2.14.1；UniServe使用PyTorch2.13.0。[完整依赖差异](../deployment/framework-comparison-20261117/full-video-environments.json)
+
+追加的tools/run_omni_steady_suite.py与tools/run_fastvideo_omni_candidate.py仅完成语法检查，因用户取消未完成推理验收，不能作为已验证稳态成绩。
 
 完整IC入口tools/run_ic_framework_full.py，策略current／diffusers／accelerate；验证入口tools/verify_framework_full_clips.py。Omni候选使用tools/run_sglang_omni_candidate.py或tools/run_uniserve_omni_candidate.py，仅绑定loopback；tools/measure_sglang_omni_http.py提交同一私有任务。所有入口须通过llm-lab/scripts/run_isolated.py，保持单卡独占lease，不能与正式worker重叠。准备脚本、候选补丁和脱敏结果落在普通部署子目录内。
 

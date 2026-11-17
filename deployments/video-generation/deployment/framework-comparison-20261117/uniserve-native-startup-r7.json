@@ -1,0 +1,30 @@
+{
+  "status": "service_ready_same_request_condition_capacity_rejected",
+  "started": 1794914346.791005,
+  "runs": [
+    {
+      "repeat": 0,
+      "id": "video_c17ce10aca784182ae848a22d10c2fba",
+      "status": "failed",
+      "elapsed_s": 3.317505771992728
+    }
+  ],
+  "baseline_s": 759.2129165099468,
+  "precision": "BF16 DiT and text encoder, native quality 36L VAE with FP16 projection storage",
+  "numerical_note": "Native PDD head fusion and kernels; local CPU-direct loading adapter. Not bitwise equivalent to FastVideo.",
+  "local_sm120_adapter": false,
+  "local_cpu_load_adapter": true,
+  "readiness_wait_s": 134.46847569197416,
+  "reference_sha256": {
+    "image": "472d633ea178e30cd3395a3f7290257a6dbbbbe0f6b2fbc653706d1a251c570a",
+    "video_audio": "893bc0f630dc18ceca2503929d7b1eff9b952d0149480d91d428ccbf892cc236"
+  },
+  "error": "RuntimeError: Candidate inference failed: {'code': 'invalid_request_error', 'message': 'conditions: the conditions take 47744 denoiser rows, more than the 43520 this deployment serves; serve with a larger --max-condition-rows'}",
+  "finished": 1794914484.60275,
+  "text_streamed_layers": 16,
+  "text_prompt_capacity": 11264,
+  "actual_prompt_tokens": 11102,
+  "actual_condition_rows": 47744,
+  "served_condition_rows": 43520,
+  "next_change": "Only restore max-condition-rows49152, now that16 text layers are streamed and GPU memory has headroom; no further engine adaptation"
+}

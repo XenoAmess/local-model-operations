@@ -43,6 +43,8 @@ def main():
                 "--component-precisions.video_vae", "fp32",
                 "--component-precisions.audio_vae", "fp32",
                 "--enable-torch-compile", "false", "--warmup-mode", "off"]
+    if os.environ.get("H3_FRAMEWORK_DISABLE_CONDITIONING_CACHE") == "1":
+        sys.argv.append("--disable-conditioning-cache")
     from sglang.multimodal_gen.runtime.entrypoints.cli import serve as entry
     from sglang.multimodal_gen.configs.pipeline_configs.minimax_h3 import FastH3OmniPipelineConfig
     dispatch = entry.dispatch_launch

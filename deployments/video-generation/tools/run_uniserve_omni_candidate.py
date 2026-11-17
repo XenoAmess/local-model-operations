@@ -67,6 +67,29 @@ def probe():
                 raise RuntimeError("CPU-loaded streaming changes the probe output")
         finally:
             streamed.close()
+        # Also exercise a CPU-streamed prefix followed by resident layers,
+        # the exact placement pattern used by the text encoder candidate.
+        partial_host = nn.ModuleList(Layer() for _ in range(10))
+        partial_host.load_state_dict(resident.state_dict())
+        for layer in partial_host[8:]:
+            layer.to("cuda")
+        partial_stream = LayerWeights(partial_host[:8], execution_device="cuda:0")
+        try:
+            for parameter in partial_host.parameters():
+                if parameter.device.type == "cpu":
+                    parameter.data = parameter.data.to("cuda")
+            prefix_equal = [torch.equal(evaluate(partial_host, inputs), expected) for _ in range(3)]
+            prefix_partial = torch.equal(evaluate(partial_host, inputs, 6), partial)
+            prefix_resumed = torch.equal(evaluate(partial_host, inputs), expected)
+            report["mixed_residency_prefix"] = dict(host_layers=8, resident_layers=2,
+                complete_passes_equal=prefix_equal, interrupted_equal=prefix_partial, resumed_equal=prefix_resumed)
+            if not (all(prefix_equal) and prefix_partial and prefix_resumed):
+                report["status"] = "failed"
+            (OUT / "uniserve-cpu-stream-probe.json").write_text(json.dumps(report, indent=2) + "\n")
+            if report["status"] != "passed":
+                raise RuntimeError("Partial CPU streaming changed the probe output")
+        finally:
+            partial_stream.close()
     del resident, host, expected, partial, inputs, streamed
     import gc
     gc.collect()
@@ -88,7 +111,7 @@ def main():
     if subprocess.check_output(["nvidia-smi", "--query-compute-apps=pid", "--format=csv,noheader"], text=True).strip():
         raise RuntimeError("GPU busy")
     source = ROOT / "tools/vendor/uniserve-candidate"
-    os.environ.update(H3_UNISERVE_CPU_LOAD="1", CUDA_HOME=str(ROOT / "tools/cuda"),
+    os.environ.update(H3_UNISERVE_CPU_LOAD="1", H3_UNISERVE_TEXT_HOST_LAYERS="16", CUDA_HOME=str(ROOT / "tools/cuda"),
                       CUDA_VISIBLE_DEVICES="0", HF_HUB_OFFLINE="1", TRANSFORMERS_OFFLINE="1",
                       OMP_NUM_THREADS="8", PYTHONUNBUFFERED="1",
                       PYTORCH_ALLOC_CONF="expandable_segments:True")
@@ -106,13 +129,13 @@ def main():
                "--served-model-name", "fasth3-omni-bf16-uniserve-candidate",
                "--host", "127.0.0.1", "--port", "18012", "--max-running-requests", "1",
                "--max-video-seconds", "5", "--max-model-len", "11264",
-               "--video-text-capacities", "11264", "--max-condition-rows", "43520",
+               "--video-text-capacities", "11264", "--max-condition-rows", "49152",
                "--video-resolutions", "768p", "--video-aspect-ratios", "16:9",
                "--mm-processor-kwargs", '{"enlarge_references":true}',
                "--quantization-config", '{"mode":"quality"}',
                "--graph-policy", "off", "--load-threads", "1", "--remote-media", "false",
                "--media-directory", "/home/ubuntu", "--watchdog-timeout", "900",
-               "--max-video-job-bytes", "16777216", "--shutdown-timeout", "0"]
+               "--max-video-job-bytes", "33554432", "--shutdown-timeout", "0"]
     print("UNISERVE_EXPERIMENTAL_CPU_LOAD native PDD8; original 36L VAE, native quality FP16 projection storage", flush=True)
     raise SystemExit(subprocess.call(command, cwd=source))
 
