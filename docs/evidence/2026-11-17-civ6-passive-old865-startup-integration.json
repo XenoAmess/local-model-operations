@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/4657cb44291554213705570050caab8fd37185a0/docs/research/baiqi-source160-legacy-passive-boot-2026-11-17.json",
+  "mode_id": "Owner integration following944 failed candidate",
+  "new_generation_POST": 0,
+  "software": {
+    "utc": "2026-11-17T05:53:04.003477+00:00",
+    "source_version": 160,
+    "actual_transformed_Executor_VM_executions": [
+      {
+        "VM": "Lua51",
+        "case": "bootstrap_before_original_readiness"
+      },
+      {
+        "VM": "Lua51",
+        "case": "SDK_trailing_nil_and_multireturn"
+      },
+      {
+        "VM": "Lua51",
+        "case": "Update_passthrough"
+      },
+      {
+        "VM": "Lua51",
+        "case": "Native_error_passthrough"
+      },
+      {
+        "VM": "Lua51",
+        "case": "explicit_retire_then_original_shutdown"
+      },
+      {
+        "VM": "Lua51",
+        "case": "retirement_exception_cannot_veto_shutdown"
+      },
+      {
+        "VM": "Lua51",
+        "case": "foreign_binding_preserved"
+      },
+      {
+        "VM": "Lua51",
+        "case": "bounded_rows_and_snapshot_copy"
+      },
+      {
+        "VM": "Lua51",
+        "case": "UI_hooks_before_readiness_and_raw_nil"
+      },
+      {
+        "VM": "Lua51",
+        "case": "UI_foreign_handler_and_owned_shutdown"
+      },
+      {
+        "VM": "Lua51",
+        "case": "UI_retire_throw_does_not_veto_SDK_or_shutdown"
+      },
+      {
+        "VM": "Lua51",
+        "case": "SDK_retire_throw_does_not_veto_UI_or_shutdown"
+      },
+      {
+        "VM": "Lua51",
+        "case": "UI_foreign_object_preserved_and_incomplete_stays"
+      },
+      {
+        "VM": "Lua51",
+        "case": "SDK_identity_specialization_only_exact_target"
+      },
+      {
+        "VM": "Lua51",
+        "case": "SDK_construction_failure_retires_UI"
+      },
+      {
+        "VM": "Lua51",
+        "case": "UI_registration_false_retires_UI"
+      },
+      {
+        "VM": "Lua53",
+        "case": "bootstrap_before_original_readiness"
+      },
+      {
+        "VM": "Lua53",
+        "case": "SDK_trailing_nil_and_multireturn"
+      },
+      {
+        "VM": "Lua53",
+        "case": "Update_passthrough"
+      },
+      {
+        "VM": "Lua53",
+        "case": "Native_error_passthrough"
+      },
+      {
+        "VM": "Lua53",
+        "case": "explicit_retire_then_original_shutdown"
+      },
+      {
+        "VM": "Lua53",
+        "case": "retirement_exception_cannot_veto_shutdown"
+      },
+      {
+        "VM": "Lua53",
+        "case": "foreign_binding_preserved"
+      },
+      {
+        "VM": "Lua53",
+        "case": "bounded_rows_and_snapshot_copy"
+      },
+      {
+        "VM": "Lua53",
+        "case": "UI_hooks_before_readiness_and_raw_nil"
+      },
+      {
+        "VM": "Lua53",
+        "case": "UI_foreign_handler_and_owned_shutdown"
+      },
+      {
+        "VM": "Lua53",
+        "case": "UI_retire_throw_does_not_veto_SDK_or_shutdown"
+      },
+      {
+        "VM": "Lua53",
+        "case": "SDK_retire_throw_does_not_veto_UI_or_shutdown"
+      },
+      {
+        "VM": "Lua53",
+        "case": "UI_foreign_object_preserved_and_incomplete_stays"
+      },
+      {
+        "VM": "Lua53",
+        "case": "SDK_identity_specialization_only_exact_target"
+      },
+      {
+        "VM": "Lua53",
+        "case": "SDK_construction_failure_retires_UI"
+      },
+      {
+        "VM": "Lua53",
+        "case": "UI_registration_false_retires_UI"
+      }
+    ],
+    "unknown_source_or_helpers_negative": 5,
+    "exact_inverse": true,
+    "specialized_SDK_sha256": "48f08e0b7b7f37c0e89c22bb88520c018ab2e62c537913b51b897d51f3ac6ad7",
+    "Native_queries": 0,
+    "Native_actions": 0,
+    "original865_recovery": "FAIL_UNRESOLVED",
+    "scope": "Actual transformed Executor/factories under mocked includes/events/SDK; no actual game startup, cancellation, journal change or queue-quiescence evidence."
+  },
+  "Owner_review": [
+    "Qualified SDK helper changes exactly its hardcoded target assertion from0/3735581/UNIT_MISSIONARY to0/8650807/UNIT_SETTLER. Byte-exact inverse leaves every passthrough operation/command/Update body unchanged.",
+    "Actual current Executor includes both factories after Controller include returns and before its original readiness events. No claim covers earlier include-side behavior; original readiness/Update path is not paused or deferred.",
+    "All helper/source/anchors require exact known hashes. Generated Executor inverse recovers the original exactly; each of119files and ZIP inventory is checked, only UI/BaiqiExecutor.lua differs;97Lua sources compile onLua5.1/5.3.",
+    "Actual transformed Executor executes32mockVM cases covering bootstrap before original readiness, SDK nil/return/error passthrough, target identity, UI raw nil, capacity/deepcopy, foreign handlers/objects, owned cleanup, independent cleanup exceptions and construction failure cleanup.5unknown source/helper cases reject.",
+    "Both cleanup calls have independent pcall protection, so either diagnostic exception cannot veto the other cleanup or original shutdown. Failed UI registration or SDK construction removes already-added UI callbacks before error.",
+    "All verification is software only; no install, cold158load, cancellation, unit order, journal clear/replay or recovered city. UI lifecycle notifications and native qualification remain insufficient to prove global queue quiescence."
+  ],
+  "ledger": {
+    "logical": 944,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 60,
+    "generation_POST": 983,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "whole_mod": "OPEN_CONTINUE",
+  "old8650807": "FAIL_UNRESOLVED"
+}

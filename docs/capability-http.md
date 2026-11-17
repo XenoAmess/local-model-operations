@@ -7240,3 +7240,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[既有404错误体只读核查](evidence/2026-11-17-civ6-existing-provider404-body-audit.json)。943原件HTTP-ERROR已保留99字节／SHA6f66d3…，实际分类is_bifrost_error=false/status404/provider API error；不能推定具体上游URL／模型状态／认证路由原因。0新POST／GET，0调用器或配置修改，不新增第二套HTTP。943账本不变，OpenCode维护与原生生成0保持。
 
 2026-11-17：[944被动UI生命周期组件](evidence/2026-11-17-civ6-944-passive-legacy-ui-lifecycle.json)。944新旧移民被动UI生命周期组件，13源366055字节、一次POST404／47.266400ms／0完整采用extra。Owner六个实际原版UI事件、精确ID／有界参数／自有撤钩，15用例×双Lua共30VM通过；未安装／未冷读档／无Native恢复证明。事件名不能授队列静止或清除旧ARMED。累计944／816完整／68length／60最终请求失败／983POST／38extra／0在途。
+
+2026-11-17：[944后续旧865被动启动集成](evidence/2026-11-17-civ6-passive-old865-startup-integration.json)，0新POST。119文件仅Executor、97双Lua编译、32实际mock集成VM／5未知来源拒绝。SDK仅目标断言专化、主体透传不变；双观察独立撤钩不可否决原退出。尚未Native，旧恢复FAIL／整modOPEN；944账本与OpenCode原生生成0保持。
