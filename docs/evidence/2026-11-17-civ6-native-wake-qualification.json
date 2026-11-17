@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/34ffd73bb7c26a44512710e5835b904a22373a73/docs/research/baiqi-source160-native-wake-qualification-2026-11-17.json",
+  "status": "READONLY_WAKE_VISIBILITY_AND_STRICT_QUALIFICATION_TRUE_NOT_RECOVERY",
+  "Owner_review": [
+    "Actual UI WAKE enum200562917 matches full GameInfo UNITCOMMAND_WAKE row/index3. Original visible three-argument qualification returns true; original strict four-argument shape returns true,nil. Exact same actor/world and complete original ARMED bank remain unchanged before/after both qualifications and all independent Core/UI readbacks.",
+    "This demonstrates a legally available wake primitive for the held original settler. It does not demonstrate that executing WAKE clears an operation queue, that any native barrier occurred, or that old intent may be removed/retried. No command/operation/END/clear/retry was issued.",
+    "UnitManager namespace inventory contains30keys; actual RequestCommandImmediate exists but no semantics or permission to use it are inferred from its name. Unit metatable has one key; rawget is unavailable and index inventory remains explicit UNKNOWN_RAWGET_UNAVAILABLE. No guessed clear API was invoked.",
+    "Original first16VM mock used a plain unit table and missed the real metatable/rawget branch. Actual failure is retained, original source bytes saved, then both Lua engines reproduce the failure before any qualification. Corrected22VM cases cover nil/false/throwing rawget and explicit unknown while preserving independent visibility/strict booleans. New968receipt labels avoid reusing the original failed query intent.",
+    "Stock MainMenu carousel errors and large original log prefix remain retained; future-only bounded64MiB log reads keep exact SHA/owner/marker order and one-use owned Escape. No game file or Steam-online workaround. The loaded new checkpoint was not reloaded or the original158 hunted.",
+    "Own observers retired, final Core/UI raw bank checked, new158save629895/SHA6008ed2dc8cbce71d7f839c6ae0e2c352f00f708786d8f9bf5cb844930c68a6c verified, officialexitonce and exact quiet residue closed. Recovery58459actualexit0 grants only readonly diagnostic completion; old865 recovery remainsFAIL.",
+    "Developer HTTP tasks967/968 occurred while the game process was alive between stopped Native parents, not during active exclusive Native consumers or a formal performance token. They returned404 without adoption and were not runtime game model calls. Future reports distinguish these windows explicitly.",
+    "Next integrate three verified product fixes/version161, real-file regression/build and original P5 retest, then a separately qualified BACKGROUND wake prototype to observe actual native queue events without clearing journal or faking civilian input. MANY/NO_SITE valid failures remain."
+  ],
+  "actual_actions": {
+    "new_passive158_loads": 1,
+    "original158_loads": 0,
+    "load_replays": 0,
+    "ENDs": 0,
+    "Native_operations": 0,
+    "Native_commands": 0,
+    "WAKE_commands": 0,
+    "CANCEL_commands": 0,
+    "FOUND_requests": 0,
+    "journal_clears": 0
+  },
+  "generation_scope": {
+    "POSTs_while_an_exclusive_Native_parent_was_running": 0,
+    "POSTs_while_owned_game_process_was_alive_between_halted_parents": 2,
+    "task_ids": [
+      967,
+      968
+    ],
+    "not_game_runtime_generation": true,
+    "not_formal_performance_interval": true
+  },
+  "model968": {
+    "task": 968,
+    "begin": "2026-11-17T14:05:35.826980+00:00",
+    "end": "2026-11-17T14:05:35.932653+00:00",
+    "total_ms": 107.95100010000169,
+    "http_status": 404,
+    "POST": 1,
+    "extra_POST": 0,
+    "terminal": 1,
+    "complete": false,
+    "adopted": false,
+    "stop_file_exists": true,
+    "current_request_killed": false,
+    "sources": 6,
+    "source_bytes": 17947
+  },
+  "ledger": {
+    "logical": 968,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 84,
+    "generation_POST": 1007,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "OpenCode_native_generation": 0,
+  "whole_mod": "OPEN_CONTINUE"
+}
