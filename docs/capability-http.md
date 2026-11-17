@@ -7212,3 +7212,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[936与八压力包准备](evidence/2026-11-17-civ6-http936-eight-pressure-packages-prepared.json)。936新真实压力接入任务14来源382204字节，单POST40426.8495ms／自然终态1／0候选采用extra。Owner在首启用侧正式释放／官方退出后两个有界空档准备当前160八压力包119文件97Lua双编译、规范配对ZIP和同前缀核验；先前预热期守卫拒绝未构建。MANY160自然>=12／NO_SITE160证书及压力Native仍NOT_RUN；首启用侧五段不是Bdelta通过。累计936／816完整／68length／52最终请求失败／975POST／38extra／0在途。
 
 2026-11-17：[937有限恢复条款](evidence/2026-11-17-civ6-http937-finite-recovery-clause-review.json)。937新未完成有限TC039条款及下一见证候选13来源473884字节，单POST40424.0788ms自然终态1，0候选／采用／extra；快速结束无停止文件，EVENTS证明单POST。Owner复核同版／旧暂停／旧经营效果独立范围，160未知78档尚未重载，旧865恢复FAIL不豁免。只设计下一冷读／普通79／重复存读，0新Native或PASS。第一组原5差值全留，中位-261ms/-4.156%，+1010ms长增量不滤，25段继续。累计937／816完整／68length／53最终请求失败／976POST／38extra／0在途。
+
+2026-11-17：[936后续独立观察器与两组原值](evidence/2026-11-17-civ6-http936-census-preparation-two-pairs.json)。936既有404后Owner继续真实压力接入，独立观察包119文件／97Lua双编译，12实际Lua载荷双编译及8动态Python体AST通过、0Native；MANY／NO_SITE当前资格仍NOT_RUN。两组10配对段保存撤钩退出齐全但不授25段通过，全部正向尖峰保留。空格锚点、code-object与异常预期、退出收据分支误判均为Owner工具链纠正，未增加HTTP或模型能力。累计937／816完整／68length／53最终请求失败／976POST／38extra／0在途保持。
