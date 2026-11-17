@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/7ccd69cf92171c483bc5b3f33120367eaf336967/docs/research/baiqi-source160-oldrights-two-turns-reload-native-2026-11-17.json",
+  "status": "TC032_PASS_ORIGINAL_ACTIVE_RIGHTS_TWO_ORDINARY_TURNS_AND_NEW_SAVE_RELOAD",
+  "Owner_review": [
+    "Original active lease was actually observed before natural cleanup: source OUT1 and recipient IN1; game rights became nil, cleanup marker2, all captured legacy plot gates0 and alive legacy control states nil. No QA recreated an old benefit.",
+    "Actual source food3->4/housing4->6 and recipient food6->5/housing10->8 remove the transferred benefit. Both granaries stay in place; owners/IDs/coordinates/population and the original military actor remain unchanged within the atomic natural-cleanup capture. Current SQL Amount0 did not make these first engine reads equal.",
+    "Across actual T1,T2,T3,new-save reload3 and final3, source food4/housing6 and recipient food5/housing8 persist. P0gold1850->1855->1860 matches observed income5 with maintenance0; source P1gold10->16->22 matches income6. Reload/final gold remains1860/22. Historical paid150 COMMITTED requisition is byte-equivalent as typed raw data: no refund, debit, replay or new rights income was observed.",
+    "Five TEST_PLAYER military SKIPs precede two ordinary END requests; arrival was independently read. No manual domestic action, forced end, END3 or original-load replay. The read bridge was retired before ordinary turns and after new-save reload; official saves and own-process exit/residue closure were verified.",
+    "This completes the frozen TC032 withdrawn-granary migration case and the withdrawn-rights persistence branch of TC039. It does not grant paid-city full asset preservation or all-unit immobility. Independent initial UI/Core unit counts differed3/4, later both3; raw discrepancy is retained and not called equal or interpreted as a granary deletion.",
+    "Original QA assertion HALT is preserved. The correction accepted actual recorded raw data plus25 negative cases, then read fresh UI/Core once and continued only remaining steps. No product or installed package source changed.",
+    "Old P5 pause, original865 recovery, paid-city matrix, finance/runtime isolation, compatibility and both valid pressure B_delta failures remain separate open work."
+  ],
+  "actual_input": {
+    "old_original_loads": 1,
+    "ordinary_END_turns": [
+      1,
+      2
+    ],
+    "actual_following_turns": [
+      2,
+      3
+    ],
+    "new3_reloads": 1,
+    "END3": 0,
+    "TEST_PLAYER_military_SKIPs": [
+      {
+        "unit_id": 131073,
+        "unit_type": "UNIT_WARRIOR"
+      },
+      {
+        "unit_id": 196610,
+        "unit_type": "UNIT_WARRIOR"
+      },
+      {
+        "unit_id": 131073,
+        "unit_type": "UNIT_WARRIOR"
+      },
+      {
+        "unit_id": 196610,
+        "unit_type": "UNIT_WARRIOR"
+      },
+      {
+        "unit_id": 262147,
+        "unit_type": "UNIT_WARRIOR"
+      }
+    ],
+    "manual_domestic": 0,
+    "UserForced": 0
+  },
+  "ledger": {
+    "logical": 963,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 79,
+    "generation_POST": 1002,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "new_generation_POST": 0,
+  "OpenCode_native_generation": 0,
+  "whole_mod": "OPEN_CONTINUE"
+}
