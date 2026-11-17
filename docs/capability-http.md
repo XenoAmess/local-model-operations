@@ -7258,3 +7258,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[947后续精确END时钟／现有profile组合包](evidence/2026-11-17-civ6-precise-end-clock-profile-package.json)，0新POST。既有宽区间无精确起点，现只加规范clock/相同Alias，不重复已恢复的计时；119／97双Lua、12VM／4来源拒绝。仅软件、Native编排收集仍待做，MANYFAIL不变、947账本与OpenCode原生0保持。
 
 2026-11-17：[948冷启新鲜离线证明修复](evidence/2026-11-17-civ6-948-cold-offline-proof-expiry-repair.json)。948真实启动前proofTTL修复11源65097B、一次POST40416.8429ms、0完整采用extra。旧准入54行在Popen55前因20.590443s证明拒绝；新流程保完整hash于新proof之前、快stat/实例/时效及意图后复核15s，不删旧意图。12门／3实际尾流程mock／3准入分支／mockPopen真代码检查通过，非Native。累计948/816完整/68length/64最终请求失败/987POST/38extra/0在途。
+
+2026-11-17：[当前160 NOSITE observed实际证据](evidence/2026-11-17-civ6-current160-nosite-observed-actual.json)：冻结预算记录 {"B_turn": "PASS", "N_req": "PASS"}，完整原件／合格性／不利结果见精确项目提交。0新生成POST，账本948保持；Owner实机不授OpenCode原生生成0，整个mod仍OPEN／旧865恢复FAIL，继续制作验收。
