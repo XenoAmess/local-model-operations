@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/de8c6496be64e6f9cd984be1270f0ed94c010eab/docs/research/baiqi-source160-tc039-sameversion-two-reloads-native-2026-11-17.json",
+  "status": "PASS_CURRENT160_SAME_VERSION_UNKNOWN_RELIGIOUS_INTENT_SAVE_AND_TWO_RELOADS_ONLY",
+  "actual_input": {
+    "original78loads": 1,
+    "ordinary_END_turns": [
+      78
+    ],
+    "actual_next_turn": 79,
+    "TEST_PLAYER_military_SKIPs": [
+      {
+        "unitID": 1048576,
+        "unitType": "UNIT_SCOUT"
+      },
+      {
+        "unitID": 131073,
+        "unitType": "UNIT_WARRIOR"
+      },
+      {
+        "unitID": 327683,
+        "unitType": "UNIT_SCOUT"
+      },
+      {
+        "unitID": 524292,
+        "unitType": "UNIT_SCOUT"
+      },
+      {
+        "unitID": 1835013,
+        "unitType": "UNIT_HORSEMAN"
+      },
+      {
+        "unitID": 786438,
+        "unitType": "UNIT_SCOUT"
+      },
+      {
+        "unitID": 1245193,
+        "unitType": "UNIT_SCOUT"
+      },
+      {
+        "unitID": 1441803,
+        "unitType": "UNIT_SCOUT"
+      },
+      {
+        "unitID": 2162700,
+        "unitType": "UNIT_HORSEMAN"
+      },
+      {
+        "unitID": 2097168,
+        "unitType": "UNIT_ARCHER"
+      },
+      {
+        "unitID": 2424851,
+        "unitType": "UNIT_HORSEMAN"
+      },
+      {
+        "unitID": 2686997,
+        "unitType": "UNIT_ARCHER"
+      },
+      {
+        "unitID": 2818071,
+        "unitType": "UNIT_HORSEMAN"
+      },
+      {
+        "unitID": 3604507,
+        "unitType": "UNIT_GREAT_ADMIRAL"
+      },
+      {
+        "unitID": 3866654,
+        "unitType": "UNIT_CHINESE_CROUCHING_TIGER"
+      }
+    ],
+    "manual_domestic": 0,
+    "UserForced": 0,
+    "END79": 0,
+    "new79_reloads": [
+      "reload79a",
+      "reload79b"
+    ],
+    "official79_saves": 2
+  },
+  "original_unknown_record": {
+    "token": "religion:0:3",
+    "sequence": 3,
+    "unitID": 3735581,
+    "unitType": "UNIT_MISSIONARY",
+    "religion": 1,
+    "charges": 1,
+    "x": 16,
+    "y": 14,
+    "cityID": 65536,
+    "cityX": 16,
+    "cityY": 14,
+    "turn": 77,
+    "stage": "ARMED"
+  },
+  "Owner_review": [
+    "Original current160unknownmissionary3735581@16,14/charge1/form1 holds religion:0:3/request0:77:25/ARMED across original78load, ordinary79, firstsave79, new79reloadA,new79reloadB andownedretire. Allbaseline/closing UI/Core raw target records are identical, noSPREAD; naturalUpdate deltas9/10/8/9/9 prove passive observation, not manually invoked Update.",
+    "BootSDKobserver is narrow to this missionary inExecutor; it observes permittedstandbySKIP andzeroSPREAD/commands/error/drop, not global all-context request counts. Core/UI snapshots are independent, not atomic.",
+    "Fifteen military actors are explicitly TEST_PLAYERselected/SKIPed before one ordinaryEND78. Endrequest return andactual79raw readback are separate; noUserForced/manualcivilian/newEND79 or backgroundmilitary/diplomacy actions were supplied by the harness.",
+    "Originalparent14035actually stopped on Lua51duplicate-semicolon compilation before saveintent/Network.SaveGame. Sharedprivatehelper separator normalized, six actualfunction isolatedmocks/dualLua realguards passed, originalHALT retained. New sole35941reconciled current79/unchangedraw/nilsaveflags, then firstactualsave andonlyremainingsteps. No gameaction replay.",
+    "Officialnormal79save487314bytes/SHA5050ac9e2f1681616b418698c6a8b8194e93dcb88e38ef9427ffba27a0aa040a was actually loaded twice; final79save is separate. Stable save alone was not called reloadPASS.",
+    "Observerbindings restored before eachreload and finalretire, finalraw independently read, officialexitonce and exactownedresidue after>=180s/no windows/listeners/2sCPUquiet. NoSteamonline/upload.",
+    "Only frozen sameversion unknownreligiousintent persistence clause passes. OldP5pause/migration,oldP2withdrawnbenefits,original865recovery,paidcity/economy/compatibility andwholemodremainOPEN. This does not make unknownmissionary ability succeed or permit retry.",
+    "MANY andNO_SITE current160paired validFAIL remain; future958/961product proposals are stillnotapplied. Nextoriginal865passivecoldwitness thenoldP2rights."
+  ],
+  "new_generation_POST": 0,
+  "ledger": {
+    "logical": 961,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 77,
+    "generation_POST": 1000,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "OpenCode_native_generation": 0,
+  "whole_mod": "OPEN_CONTINUE"
+}
