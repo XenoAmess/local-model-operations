@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": {
+    "958": "https://github.com/XenoAmess/civ6_dev/blob/536435d7e95d7450ee43b6eba4f24680ce522294/docs/research/baiqi-source160-future-nil-quote958-2026-11-17.json",
+    "959": "https://github.com/XenoAmess/civ6_dev/blob/536435d7e95d7450ee43b6eba4f24680ce522294/docs/research/baiqi-source160-oldpause-qualifier959-2026-11-17.json",
+    "960": "https://github.com/XenoAmess/civ6_dev/blob/536435d7e95d7450ee43b6eba4f24680ce522294/docs/research/baiqi-source160-final-recruit-observer960-2026-11-17.json",
+    "961": "https://github.com/XenoAmess/civ6_dev/blob/536435d7e95d7450ee43b6eba4f24680ce522294/docs/research/baiqi-source160-future-objectproxy961-2026-11-17.json"
+  },
+  "actual_requests959960": [
+    {
+      "task": 959,
+      "begin": "2026-11-17T11:12:10.239579+00:00",
+      "end": "2026-11-17T11:12:10.350595+00:00",
+      "http_status": 404,
+      "total_ms": 109.0645999647677,
+      "POST": 1,
+      "extra_POST": 0,
+      "terminal": 1,
+      "complete": false,
+      "adopted": false,
+      "stop_file_exists": true,
+      "current_request_killed": false,
+      "sources": 9,
+      "source_bytes": 401619
+    },
+    {
+      "task": 960,
+      "begin": "2026-11-17T11:12:10.301083+00:00",
+      "end": "2026-11-17T11:12:10.396896+00:00",
+      "http_status": 404,
+      "total_ms": 91.85230010189116,
+      "POST": 1,
+      "extra_POST": 0,
+      "terminal": 1,
+      "complete": false,
+      "adopted": false,
+      "stop_file_exists": true,
+      "current_request_killed": false,
+      "sources": 8,
+      "source_bytes": 398759
+    }
+  ],
+  "actual_POST_peak": 2,
+  "software_only": {
+    "958_proposed_guard_VM": 40,
+    "959_raw_cleanup_VM": 4,
+    "959_damaged_witness_rejections": 11,
+    "960_final_recruit_VM": 16,
+    "961_proposed_read_predicate_VM": 4
+  },
+  "product_or_package_change": false,
+  "Native_queries": 0,
+  "Native_orders": 0,
+  "new_generation_POST_for_dispatch959960": 2,
+  "ledger": {
+    "logical": 961,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 77,
+    "generation_POST": 1000,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "OpenCode_native_generation": 0,
+  "whole_mod": "OPEN_CONTINUE"
+}
