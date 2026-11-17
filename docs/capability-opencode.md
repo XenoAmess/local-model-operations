@@ -2293,3 +2293,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：951及Owner旧收益工厂／Gameplay软件检查未执行OpenCode原生生成；同机同用户Nov17canonical1.19.5成功缓存、原生0保持，见[迁移证据边界](evidence/2026-11-17-civ6-951-oldrights-passive-getter.json)。
 
 2026-11-17：TC039前驱门禁19软件夹具未新增OpenCode原生生成；维护缓存与原生0不变，见[软件及未知结果边界](evidence/2026-11-17-civ6-tc039-prior-chain-gates.json)。
+
+2026-11-17：952及Owner旧属性导出软件工作未调用OpenCode原生生成，Nov17同机同用户canonical1.19.5成功缓存和原生0保持；见[导出证据边界](evidence/2026-11-17-civ6-952-oldrights-export-bridge.json)。

@@ -7270,3 +7270,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[951旧收益只读观察准备](evidence/2026-11-17-civ6-951-oldrights-passive-getter.json)，13源163205B／一次POST40420.5745ms／0完整采用extra。Owner核两实际旧档SHA、私有119／97编译及18VM／4源码拒绝；getter失败不阻原清理，原错误不吞。当前SQL先归零与Lua属性后清要分开记录，软件／档案存在不授实机迁移。累计951/816/68length/67最终失败/990POST/38extra/0在途，完整modOPEN。
 
 2026-11-17：[未来前驱允许表／保存保护](evidence/2026-11-17-civ6-tc039-prior-chain-gates.json)：枚举未结束即检查允许表会误拒绝后续类别；移至完整收集后。11fake-install＋8实际结束门禁逻辑验证，仅已完成／撤钩／保存／残留关闭且无正式录制的前驱可接续。首次Owner检查脚本语法错在执行前修正；0新POST／Native，不授实机通过。
+
+2026-11-17：[952旧属性完整导出／自有只读桥](evidence/2026-11-17-civ6-952-oldrights-export-bridge.json)，11源136287B／一次POST40437.4369ms／0完整采用extra，无stop文件。Owner119／97＋20VM／28损坏导出拒绝，只授软件。有界节点／类型／计数／未知与drop保留，empty/unknown不得授qualified；失败编码尝试数与实际导出节点分开。累计952/816/68length/68最终失败/991POST/38extra/0在途；Native迁移仍未跑。

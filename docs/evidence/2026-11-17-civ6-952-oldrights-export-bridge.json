@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/39ef708486638eef3a3ee3b79826853f6ef9003a/docs/research/baiqi-source160-oldrights-export-http952-2026-11-17.json",
+  "model952": {
+    "purpose": "New bounded typed raw export/parser and own Core/UI read bridge before Owner implementation",
+    "sources": 11,
+    "source_bytes": 136287,
+    "generation_POST": 1,
+    "http_status": 404,
+    "total_ms": 37.436900194734335,
+    "complete_candidate": false,
+    "adopted": false,
+    "extra_POST": 0,
+    "terminal_exit": 1,
+    "current_request_killed": false,
+    "stop_after_current_flag_written": false,
+    "before_NoSite_group3_control_formal": true
+  },
+  "software": {
+    "utc": "2026-11-17T09:06:18.827379+00:00",
+    "VM_executions": [
+      {
+        "VM": "Lua51",
+        "case": "normal_before_after_readonly_export",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua51",
+        "case": "independent_fresh_Core_getter",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua51",
+        "case": "failed_getter_stays_unknown",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua51",
+        "case": "raw_unicode_tab_newline_false_nil",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua51",
+        "case": "capture_drop_stays_explicit",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua51",
+        "case": "owned_retire_stops_capture_preserves_original",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua51",
+        "case": "foreign_bridge_retire_preserves_foreign",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua51",
+        "case": "missing_observer_lookup_never_vetoes_cleanup",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua51",
+        "case": "original_error_identity_not_swallowed",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua51",
+        "case": "foreign_bridge_on_start_refused",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "normal_before_after_readonly_export",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "independent_fresh_Core_getter",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "failed_getter_stays_unknown",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "raw_unicode_tab_newline_false_nil",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "capture_drop_stays_explicit",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "owned_retire_stops_capture_preserves_original",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "foreign_bridge_retire_preserves_foreign",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "missing_observer_lookup_never_vetoes_cleanup",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "original_error_identity_not_swallowed",
+        "actual_overlay": true,
+        "mock_engine": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "foreign_bridge_on_start_refused",
+        "actual_overlay": true,
+        "mock_engine": true
+      }
+    ],
+    "actual_overlay_VM_executions": 20,
+    "malformed_export_rejections": 28,
+    "typed_unknowns_preserved": true,
+    "source_hashes": {
+      "oldrights160_export_owner.lua": "9d12351b8f9daf7ef51d9a845834c300fe5a619ba57a107cbcd40c48e8963965",
+      "oldrights160_codec_owner.py": "fef5bb5be760e8403e6f8f7c52a188f86f5928f8207e749434005abb090e019b",
+      "oldrights160_bridge_package_owner.py": "ef39e5fffed8e780937e43a2f6ab38df777ca1445e84931cc6b6972523b7f0cc",
+      "oldrights160_snapshot_owner.lua": "53d88f7a96ed711cd8708d2975cea6074799c6b8af5f9c40a715f827521910be"
+    },
+    "Native_queries": 0,
+    "Native_orders": 0,
+    "Native_bridge_and_old_load": "NOT_RUN",
+    "scope": "Actual private Gameplay/bridge/export/getter/decoder with software events/cities/properties.32-context proof, real migration/accounting/reload and complete TC022/032 are not granted."
+  },
+  "Owner_review": [
+    "A new overlay adds an owned ExposedMembers read bridge to frozen951 copy; the factory and first119file archive remain unchanged. Both inverse steps restore the exact original Gameplay body. All current source119 hashes and97dualLua compile verify.",
+    "Only detached passive observations are exported: <=4 captures,4096raw nodes/capture,12levels/512table entries/4096byte string,<=24000rows/20MB. Header/capture/field/indexed-node/completion counts preserve every typed nil/false/number/string/table key and explicit UNKNOWN/error/drop; strings hex-encode tabs/newlines/UTF8.",
+    "Reader checks width/order/paths/depth/finite values/unique sorted keys/counts/context and transport errors. Unknown or dropped snapshots remain exportable as unqualified evidence; an empty/error/unknown/drop report cannot become qualified. Failed getter encode attempts and actual emitted node counts are reported separately.",
+    "Core/UI own bridge exposes only Read and QA Retire. Retire disables future QA captures and removes only its own binding, preserving a foreign replacement. The original natural cleanup callback still executes after observation retirement. It adds no new game event subscriptions or property/unit orders.",
+    "Guarded pcall also covers observer global/method lookup, so a missing diagnostic observer cannot veto original cleanup. Original body return/error behavior is retained; no invocation of cleanup/recovery by the getter/export.",
+    "20 actual bridge/Gameplay/export/getter/decoder VM fixtures use mock engine properties, cities and events. Independent fresh-Core reads, raw text and false/nil, unknown getter/drops, owned/foreign retirement and original errors pass;28 damaged exports reject. Fake engine observations are not Native bridge integration/migration/accounting evidence.",
+    "No actual old save loaded or Native bridge queried, no two-accounting-point/save-reload episode yet. Current SQL zeroing before Lua and later attribute cleanup remain separate; this software package grants neither TC022/TC032 nor a performance fix."
+  ],
+  "ledger": {
+    "logical": 952,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 68,
+    "generation_POST": 991,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "whole_mod": "OPEN_CONTINUE"
+}
