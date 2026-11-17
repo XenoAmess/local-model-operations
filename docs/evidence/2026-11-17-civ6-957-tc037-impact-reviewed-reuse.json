@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/8b8574a16960d1060def8e067be0b51a70972290/docs/research/baiqi-source160-tc037-impact-review957-2026-11-17.json",
+  "review_status": "TC037_REVIEWED_REUSE_LIMITED_HEALTHY_FUNCTIONAL_SCOPE",
+  "actual_consumer_review": [
+    "Both versions call CanCivilian once only if snapshot.plot exists. Source160 retains its first result as allowed, captures the second denial reason, and retains the same allowed branch. No new order request, journal write, recovery, queue policy, return, or unitEvaluated change occurs in the delta.",
+    "Reason is not print-only: it assigns local status on each call and updates lastReasons plus Log once per key/text. lastReasons is read only by Reason and resets each turn. No product consumer of GetStatus exists beyond its declaration. Other locals named status are separate scopes.",
+    "Additional work for denied owner/formation can consume time since planningStarted at Tick entry; later builder slice checks use that timestamp. Thus identical callback timing, iteration progress, memory cost or performance is NOT established, and no budget result transfers.",
+    "Existing current160 controlled Native owner/formation unknown witnesses cover the newly explained denials, zero target requests and bounded actual reasons, plus restoration to natural religious work. They are separate from the historical healthy twenty-turn window.",
+    "Owner accepts the unchanged healthy command-policy/completion evidence for TC037 only in the exact supported GS local-single-player, NoBarb/vanilla-UI scene and environment. This is explicit reviewed reuse of Source159 Native facts, not a new Source160 run, general compatibility result, or performance pass."
+  ],
+  "remaining": [
+    "No final119 reload inferred from a stable save. Current160 finite TC039 repeated save/reload witness remains separate.",
+    "No TC038 financial threshold/income-shock pass: only four Executor finance bindings were observed and the full settler predicate was missing hasSafeSite/retainedSettlers.",
+    "No unchanged new20 run solely to relabel historical evidence. Retest new product scheduling/financial/ownership changes or newly observed functional failures as affected.",
+    "Old pause/P2 rights migration, paid-city and compatibility matrix remain open."
+  ],
+  "new_generation_POST": 0,
+  "OpenCode_native_generation": 0,
+  "whole_mod": "OPEN_CONTINUE"
+}

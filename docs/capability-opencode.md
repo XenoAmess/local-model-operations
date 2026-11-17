@@ -2303,3 +2303,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：956目录索引与Owner未来消费者重验为普通本地软件工作，未新增OpenCode原生生成；同机Nov17canonical1.19.5成功缓存／原生0保持，见[完整哈希及未知边界](evidence/2026-11-17-civ6-956-save-lookup-index.json)。
 
 2026-11-17：954／955 Owner双Lua软件验证不授OpenCode原生生成；Nov17同机canonical1.19.5维护缓存／原生0保持，见[完整范围](evidence/2026-11-17-civ6-954955-paidcity-witness-software.json)。
+
+2026-11-17：957为Owner源码／消费者审阅，非OpenCode原生生成；canonical同机每日维护缓存与原生0不变，见[审阅范围](evidence/2026-11-17-civ6-957-tc037-impact-reviewed-reuse.json)。

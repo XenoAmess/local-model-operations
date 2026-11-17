@@ -7282,3 +7282,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[当前160 NOSITE pairs实际证据](evidence/2026-11-17-civ6-current160-nosite-pairs-actual.json)：冻结预算记录 {"B_delta": "FAIL", "all_four_scene_budgets_PASS": false}，完整原件／合格性／不利结果见精确项目提交。0新生成POST，账本958保持；Owner实机不授OpenCode原生生成0，整个mod仍OPEN／旧865恢复FAIL，继续制作验收。
 
 2026-11-17：[954原始状态／955界面元数据](evidence/2026-11-17-civ6-954955-paidcity-witness-software.json)：真实待办404后Owner52读取VM／12拒绝／40观察器VM；只授软件工具，不授物理征城、后台转移扣费或阈值PASS。新增958真实缺陷候选一次404／53.7574ms，无完整采用，累计958／816完整／68length／74最终失败／997POST／38extra／0在途。
+
+2026-11-17：[957精确源码影响审阅](evidence/2026-11-17-civ6-957-tc037-impact-reviewed-reuse.json)：117文件相同／单补丁逆变换，159原20回合仅显式REVIEWED_REUSE于160健康内政功能，不冒称160新实机／性能PASS；Reason有状态、去重和计时影响。0新POST，957累计保持。
