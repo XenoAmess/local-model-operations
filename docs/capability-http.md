@@ -7304,3 +7304,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[旧档基线bytes/byte_count实际全消费者验证](evidence/2026-11-17-civ6-legacy-load-baseline-schema.json)，六生成程序／七坏基线拒绝，旧证据不回填、原字段冲突拒绝。Windows规范化文本与原始字节SHA分开，93076仅接续首次输入。0新POST／无Native软件通过移授，961累计保持。
 
 2026-11-17：[原158旧865当前160被动实采](evidence/2026-11-17-civ6-original865-passive-native.json)，93自然更新／六事件订阅撤除／目标0请求事件／0资格及命令／END。原生HOLD与realm缺失API明确，原ARMED仍在，恢复FAIL不抹除；93076剩余父真实exit0，原两确认前中止保留。0新POST，961累计保持。
+
+2026-11-17: [New962 readonly WAKE/API and963 actual cleanup witness tasks](evidence/2026-11-17-civ6-readonly-wake962-cleanup963-software.json). Both actual canonical POSTs returned404 with no adopted candidate. Owner supplied16 probe VM cases and actual recorded cleanup plus25 negative cases; these do not complete game recovery or two-turn income acceptance. Ledger963logical/816complete/68length/79final failures/1002POST/38extra/0inflight. Unknown cache/cost remain null.
