@@ -104,3 +104,8 @@ UniServe 原生 Rust HTTP＋Python worker 已在独立环境编译成功。尝�
 - 当前IC优化版完整2K、124帧完成，墙钟1498.407秒，其中三轮去噪1152.2秒，原版VAE解码约175秒。抽查第0、60、123帧完整。其余控制器尚待完整对照，不能单凭这个基线下结论。[记录](../deployment/framework-comparison-20261117/ic-full-current.json)
 - SGLang显式 `reference_resize_mode=diffusers` 的独立重启完整生成661.582秒，服务启动另52.289秒，8轮去噪563.232秒；MP4与第一条默认请求SHA256完全相同。计入服务启动后约713.872秒；FastVideo历史对应启动＋请求约765.220秒，观察到约6.7%墙钟降低，但样本很少、环境不同、输出构图不同，未通过同运算结果或质量等价验收，**不替换线上**。[记录](../deployment/framework-comparison-20261117/sglang-full-video-explicit-reference.json)
 - UniServe CPU直接加载＋原生分层流送的小模型检查通过：10层、3次完整前向、一次中断后重开均逐元素一致。首次服务启动因部署配置 `queue_depth=2` 不足而拒绝，运行时要求每个请求至少3个queue positions；修正为3后安排重试。此配置失败不算框架不支持，也不算完整H3成功。
+
+
+2026-11-17 18:31 CST：Diffusers 不开stream的完整2K测试完成，墙钟1562.786秒，三轮去噪1217.2秒，原版VAE解码约177秒；相对当前优化版1498.407秒慢4.296%。最终BF16 latent SHA256、全部124帧解码RGB SHA256均完全相同。此结果支持保留当前优化版；每种完整路径仅一个样本，不作统计显著性结论。[完整对照](../deployment/framework-comparison-20261117/ic-current-vs-diffusers-full.json)
+
+UniServe 第二次启动已实际加载文本模型，成功把50层DiT与36层解码器接到原生host-weight streaming，随后文本worker在warmup结束时因工作区增长1407188992字节超过剩余预算1096933643字节而拒绝（`graph_policy=off`仍会检查准备工作区）。这次没有实际CUDA OOM，不算完整生成成功；调整worker间静态显存份额，并缩小多余条件行容量后安排下一次检查，不改变素材、分辨率、时长、步数或模型精度。[启动记录](../deployment/framework-comparison-20261117/uniserve-native-startup-r2.json)

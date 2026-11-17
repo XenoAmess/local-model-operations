@@ -145,10 +145,12 @@
     "default_decoder_projection_dtype": "float16"
   },
   "full_video_followup": {
-    "status": "in_progress",
+    "status": "accelerate_running_uniserve_workspace_retry_pending",
     "scope": "SGLang complete Omni clips and current IC complete; candidate IC controllers and UniServe complete model still pending",
     "sglang_receipt": "sglang-full-video-explicit-reference.json",
     "ic_baseline_receipt": "ic-full-current.json",
-    "production_framework_replaced": false
+    "production_framework_replaced": false,
+    "ic_diffusers_receipt": "ic-current-vs-diffusers-full.json",
+    "uniserve_startup_receipt": "uniserve-native-startup-r2.json"
   }
 }

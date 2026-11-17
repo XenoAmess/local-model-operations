@@ -1,0 +1,33 @@
+{
+  "status": "startup_rejected_text_worker_workspace_grant",
+  "started": 1794911158.8140128,
+  "runs": [],
+  "baseline_s": 759.2129165099468,
+  "precision": "BF16 DiT and text encoder, native quality 36L VAE with FP16 projection storage",
+  "numerical_note": "Native PDD head fusion and kernels; local CPU-direct loading adapter. Not bitwise equivalent to FastVideo.",
+  "local_sm120_adapter": false,
+  "local_cpu_load_adapter": true,
+  "error": "RuntimeError: Candidate exited during initialization",
+  "finished": 1794911243.1365142,
+  "queue_depth": 3,
+  "weights_streamed": true,
+  "transformer_streaming": {
+    "layers": 50,
+    "slots": 5,
+    "slot_gib": 0.79
+  },
+  "decoder_streaming": {
+    "layers": 36,
+    "slots": 4,
+    "slot_gib": 0.12
+  },
+  "error_detail": {
+    "worker": "text_encoder",
+    "exception": "CUDAGraphError",
+    "prepared_workspace_bytes": 1407188992,
+    "remaining_budget_bytes": 1096933643,
+    "graph_policy": "off",
+    "actual_cuda_oom": false
+  },
+  "next_attempt": "Redistribute static grant .62/.37 -> .628/.362 and cap unused condition-row capacity; retain same request media,768p,124frames,8PDD forwards and original36L native-quality decoder"
+}

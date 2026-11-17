@@ -101,7 +101,7 @@ def main():
                "--served-model-name", "fasth3-omni-bf16-uniserve-candidate",
                "--host", "127.0.0.1", "--port", "18012", "--max-running-requests", "1",
                "--max-video-seconds", "5", "--max-model-len", "8192",
-               "--video-text-capacities", "8192", "--max-condition-rows", "49152",
+               "--video-text-capacities", "8192", "--max-condition-rows", "43520",
                "--video-resolutions", "768p", "--video-aspect-ratios", "16:9",
                "--mm-processor-kwargs", '{"enlarge_references":true}',
                "--quantization-config", '{"mode":"quality"}',
