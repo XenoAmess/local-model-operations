@@ -35,6 +35,8 @@ python3 video_http_client.py 2k --source-job video_gen_实际草稿任务ID \
 
 4K 与 BF16 Omni、2K 共用同一 GPU 队列，提交成功后仍可能排队。实时状态为 `/v1/queue`，不是同步等待整段推理的 HTTP 接口。
 
+OOM 后首次故障会自动清理、冷却并检查资源，随后恢复后续任务；连续两次 OOM 才需人工确认。管理恢复用 `POST http://192.168.1.11:8002/v1/queue/resume`，可传 `{}` 或 `{"reason":"已检查故障"}`。202 为接受请求，须查询 `/v1/queue` 直到 `paused: false`；失败任务不自动重试。[完整管理接口与返回码](video-http-api.md#oom-自动恢复与管理恢复接口)。
+
 ## 原生路线与资源
 
 - 沿用已下载的 Open-H3-Regenerate-2K-IC 权重，直接调用上游 `--resolution 4k`。
@@ -43,7 +45,7 @@ python3 video_http_client.py 2k --source-job video_gen_实际草稿任务ID \
 - 4K 单任务、单窗口执行；2K 原有每次最多两个窗口保持不变。4K 不与另一 GPU 模型同时推理。
 - 4K 使用上游 `--save-latent`，在解码前保存精确去噪潜变量到 `window-XX-4k.latent.pt`，便于保留昂贵的去噪结果。
 - 当前自动续跑复用的是已验证完成的视频窗口；潜变量检查点保留供故障恢复使用，尚不支持自动从该文件跳过采样、单独续解码。
-- 保留推理 unit 80 GiB、聚合 slice 88 GiB、swap 1 GiB 上限及独立内存看护；OOM 后暂停队列，不自动重试或放宽限制。
+- 保留推理 unit 80 GiB、聚合 slice 88 GiB、swap 1 GiB 上限及独立内存看护；OOM 后按上述恢复策略处理后续队列，不自动重试失败任务或放宽限制。
 - 输入沿用约 4.7–15.1 秒范围，长片使用重叠窗口；真实 4K／15 秒成片尚未验收，不能由参数范围推断所有组合均已验证。
 
 4K 窗口命名为 `window-XX-4k.mkv`；2K 检查点文件名保持原样。模型、端口、服务 unit 和启停方式保持不变，见 [队列运维文档](video-http-queue.md)。

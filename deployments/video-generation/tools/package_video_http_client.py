@@ -30,6 +30,8 @@ def main():
                         "2K/4K: http://192.168.1.11:8002/v1  model=open-h3-2k\n"
                         "4K: add --size 3840x2160; see docs/open-h3-4k-http.md\n"
                         "实时队列：http://192.168.1.11:8001/v1/queue\n"
+                        "管理恢复：POST http://192.168.1.11:8001/v1/queue/resume，JSON {}；8002 同效。\n"
+                        "202 表示恢复请求已接受；轮询队列直到 paused=false，失败任务不会重试。\n"
                         "验收快照以打包时为准；服务运行状态请查询 /health 和 /v1/queue。\n")
     with zipfile.ZipFile(temporary) as bundle:
         assert bundle.testzip() is None

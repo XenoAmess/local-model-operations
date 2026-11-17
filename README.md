@@ -27,6 +27,7 @@ python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstat
 | worker 协作、单主线、及时提交推送 | [AGENTS.md](AGENTS.md) |
 | 本机 GitHub 推送认证故障与恢复 | [认证排障记录](docs/github-git-authentication.md) |
 | 本机 BF16 Omni 与本地 2K／4K HTTP 部署 | [视频服务部署](deployments/video-generation/README.md) |
+| 视频队列 OOM 自动恢复与管理恢复接口 | [调用、返回码与恢复状态](deployments/video-generation/docs/video-http-api.md#oom-自动恢复与管理恢复接口) |
 | 视频框架全部研究与正式选型 | [研究、实测与采用状态总入口](docs/video-framework-research-index-2026-11-17.md) |
 | FastVideo／SGLang 全面对比 | [性能、质量、显存、服务与维护成本](docs/fastvideo-vs-sglang-2026-11-17.md) |
 | H3 PDD 头融合与注意力实现 | [源码解释、数值差异与纠错](docs/h3-pdd-attention-implementation-2026-11-17.md) |

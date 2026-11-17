@@ -50,6 +50,7 @@ def preview(jobs, active_model=None, consecutive=0, now=None):
 class QueueStore:
     def __init__(self, directory=DATA):
         self.directory = Path(directory)
+        self.hold = HOLD if self.directory == DATA else self.directory / "inference-hold.json"
         self.jobs = self.directory / "jobs"
         self.uploads = self.directory / "uploads"
         self.db = self.directory / "queue.sqlite3"
@@ -195,6 +196,8 @@ class QueueStore:
                 self.change(job["id"], "failed", "The source video task failed or was cancelled")
 
     def snapshot(self):
+        from video_queue_recovery import QueueRecovery
+        recovery = QueueRecovery(self).snapshot()
         state = self.state()
         ready = self.ready()
         order = preview(ready, state.get("active_model"), state.get("consecutive", 0))
@@ -202,7 +205,7 @@ class QueueStore:
         ordered_ids = {job["id"] for job in order}
         blocked = [job for job in pending if job["status"] == "queued" and job["id"] not in ordered_ids]
         clean = lambda j: {key: j[key] for key in ("id", "model", "status", "created", "dependency")}
-        return {"scheduler": state, "paused": HOLD.exists(),
+        return {"scheduler": state, "paused": recovery["paused"], "recovery": recovery,
                 "policy": {"max_consecutive_jobs_with_competition": MAX_BATCH,
                            "max_other_model_wait_seconds": MAX_WAIT_SECONDS,
                            "note": "Switches at task or dispatched-cohort boundaries; running inference is not preempted"},

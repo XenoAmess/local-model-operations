@@ -1,5 +1,5 @@
 {
-  "source_commit": "97c393356d00bda4e3cd261cd2258604cccbc8cd",
+  "source_commit": "912670bcb7a9bfefc9169dc642aec46378a8bf7a",
   "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
   "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
   "scope": "Committed video deployment, completed isolated framework measurements, all research documentation and the user-confirmed FastVideo plus optimized IC production selection",
@@ -26,8 +26,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 4460,
-      "sha256": "29dbcfa1dae846c74db4bc5b655eaba74cac38456c4b52a259adc650fb947118"
+      "bytes": 4892,
+      "sha256": "74b3964c8432b34d06f2007c214b7c4d7e9099358ef639b6240618f66b3255c6"
     },
     {
       "path": "deployment-omni.json",
@@ -402,7 +402,7 @@
     {
       "path": "deployment/video-queue/client-package.json",
       "bytes": 873,
-      "sha256": "c912bcbf7bd3161278a431358bd2de827b109cdaebdf55c204d8a27becbe35e3"
+      "sha256": "0ee36e9b855412b2e83e47c10cc76e8ff47d2165d3cc929acdac617bf9a45522"
     },
     {
       "path": "deployment/video-queue/performance/gpu-2k.json",
@@ -486,8 +486,8 @@
     },
     {
       "path": "docs/open-h3-4k-http.md",
-      "bytes": 3978,
-      "sha256": "6f79557b20c007d19614e7d2d5118db7fea9d8487722560d67be5dc39d563b43"
+      "bytes": 4451,
+      "sha256": "0ddcabb264689adab44c07398ab0493867a6d963aeadc5b645463df41a6dc990"
     },
     {
       "path": "docs/open-h3-exact-performance.md",
@@ -506,13 +506,13 @@
     },
     {
       "path": "docs/video-http-api.md",
-      "bytes": 10536,
-      "sha256": "e18906fb3f8cf9b1304a89530d0f76fff9e37d11919b63b7925b89bd5590d6c3"
+      "bytes": 14428,
+      "sha256": "763fba44a03dbb17956c8311570126dbbaea3764c5ed8f1f38ac6ababd39073c"
     },
     {
       "path": "docs/video-http-queue.md",
-      "bytes": 10669,
-      "sha256": "dc753bbacdbd5fc3ffe91ac58c2daf5590369eb13d814c36569b45d331d9f502"
+      "bytes": 12173,
+      "sha256": "982060d94f935ece33f7c84afa92adfa0cee12b928475fb3ea0776c304dd756e"
     },
     {
       "path": "docs/video-inference-framework-research-2026-11-17.md",
@@ -686,8 +686,13 @@
     },
     {
       "path": "tests/test_video_queue.py",
-      "bytes": 12138,
-      "sha256": "76ec53e6221ca0a38312e205f7aa71f0e23294654a2bc3de187b7b32547d2685"
+      "bytes": 12525,
+      "sha256": "98903eb2e151cf8da1391cced8e6a585e922d1dcdcce876f70d0becd9b7d5678"
+    },
+    {
+      "path": "tests/test_video_queue_recovery.py",
+      "bytes": 12813,
+      "sha256": "3f8f6445276fceab088c1ccf191af31f7ea41bcd2cd3122616a1c7492161d391"
     },
     {
       "path": "tools/benchmark_h3_4k_concurrency.py",
@@ -771,8 +776,8 @@
     },
     {
       "path": "tools/package_video_http_client.py",
-      "bytes": 2378,
-      "sha256": "6cc6e709a56f94d74768d6513df05aa8293b2f59b32739389cb286ad94e6786f"
+      "bytes": 2618,
+      "sha256": "74556ab06e0d52d8d07abc1f7c47d8ff8f7b7da4e63aae439f24b17a3f1b22b4"
     },
     {
       "path": "tools/plan_h3_2k_windows.py",
@@ -876,8 +881,8 @@
     },
     {
       "path": "tools/serve_video_http.py",
-      "bytes": 9869,
-      "sha256": "9d1efda75462d01a2c9a2281fcc469dd489193bcef36c579fa98ddc610c00866"
+      "bytes": 10945,
+      "sha256": "eeab93f0ee9e717ded71802422aefb581ebb7b02967ce9a3209a25ea19362a8f"
     },
     {
       "path": "tools/setup_h3_2k_env.py",
@@ -891,8 +896,8 @@
     },
     {
       "path": "tools/video_gpu_scheduler.py",
-      "bytes": 16367,
-      "sha256": "f72d03ba5d8b8ac995f899a58b62c674f72cccc46f4c3ed73838409d5c2a7130"
+      "bytes": 19034,
+      "sha256": "2665d15d19b4c294622bcd711a33d805ef2b24a7909f9a7e260b05a22d44ea64"
     },
     {
       "path": "tools/video_http_client.py",
@@ -901,8 +906,13 @@
     },
     {
       "path": "tools/video_queue.py",
-      "bytes": 12423,
-      "sha256": "4d25bfb7da4a67e8c779a3c564102be87faabef51a5cbac19a880903a8eef6dd"
+      "bytes": 12650,
+      "sha256": "4d5bd4d66027ddd6202db32dd4dd8a0459f41c0861ec5fcc5508d5c8f96bb844"
+    },
+    {
+      "path": "tools/video_queue_recovery.py",
+      "bytes": 9250,
+      "sha256": "a0d45d160d95ba3fac55a4b8418b81f96fc47c383cc8e55b13093f84dff23afe"
     },
     {
       "path": "tools/watch_h3_2k_validation.py",

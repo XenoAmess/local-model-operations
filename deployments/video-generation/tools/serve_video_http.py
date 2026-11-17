@@ -15,6 +15,7 @@ from pydantic import BaseModel, Field
 
 from video_queue import HOLD, MODELS, OMNI, REFINER, ROOT, QueueStore
 from h3_refiner_profiles import PROFILES, RefinerSize
+from video_queue_recovery import QueueRecovery
 
 
 class OmniRequest(BaseModel):
@@ -43,18 +44,24 @@ class RefinerRequest(BaseModel):
     sampler: Literal["up3", "up4", "hf8"] = "up3"
 
 
+class QueueResumeRequest(BaseModel):
+    model_config = {"extra": "forbid"}
+    reason: str = Field(default="", max_length=500)
+
+
 def create_app(store=None, model=None):
     store = store or QueueStore()
     model = model or os.environ.get("VIDEO_HTTP_MODEL", OMNI)
     if model not in MODELS:
         raise ValueError("Unsupported HTTP model")
+    recovery = QueueRecovery(store)
 
     @asynccontextmanager
     async def lifespan(app):
         store.initialize()
         yield
 
-    app = FastAPI(title=f"Local {model}", version="2.0", lifespan=lifespan,
+    app = FastAPI(title=f"Local {model}", version="2.1", lifespan=lifespan,
                   description="Persistent asynchronous tasks; shared single-GPU scheduler with model affinity.")
 
     @app.middleware("http")
@@ -91,8 +98,10 @@ def create_app(store=None, model=None):
     @app.get("/health")
     def health():
         state = store.state()
+        memory = recovery.snapshot()
         return {"status": "ok", "model": model, "queue": len([j for j in store.pending() if j["model"] == model]),
-                "cloud_used": False, "queue_paused": HOLD.exists(), "scheduling": "shared_model_affinity",
+                "cloud_used": False, "queue_paused": memory["paused"], "recovery": memory,
+                "scheduling": "shared_model_affinity",
                 "scheduler_online": state.get("phase") != "stopped" and time.time() - state.get("heartbeat", 0) < 15,
                 "active_model": state.get("active_model"), "worker_state": state.get("phase", "not_started")}
 
@@ -112,6 +121,16 @@ def create_app(store=None, model=None):
     @app.get("/v1/queue")
     def queue():
         return store.snapshot()
+
+    @app.post("/v1/queue/resume", tags=["Queue administration"], responses={202: {"description": "Recovery requested; poll /v1/queue"}})
+    def resume_queue(request: QueueResumeRequest | None = None):
+        """Request global recovery without retrying failed jobs or bypassing resource/cooldown checks."""
+        state = store.state()
+        if state.get("phase") == "stopped" or time.time() - state.get("heartbeat", 0) >= 15:
+            raise HTTPException(503, "GPU scheduler is offline; start video-gpu-scheduler.service before resuming")
+        result = recovery.request_resume(request.reason if request else "")
+        result.update(failed_jobs_retried=False, recovery=recovery.snapshot())
+        return JSONResponse(result, status_code=202 if result["accepted"] else 200)
 
     @app.post("/v1/files")
     async def upload(file: UploadFile = File(...)):

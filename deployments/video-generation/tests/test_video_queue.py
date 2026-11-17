@@ -16,6 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 from video_queue import OMNI, REFINER, QueueStore, choose_next, preview
 from serve_video_http import create_app
 from video_gpu_scheduler import Scheduler
+from video_queue_recovery import QueueRecovery, RecoveryPolicy
 
 
 def job(name, model, created):
@@ -145,7 +146,7 @@ class DispatchTest(unittest.IsolatedAsyncioTestCase):
                     patch.object(scheduler, "external_busy", new=AsyncMock(return_value=False)), \
                     patch.object(scheduler, "acquire", return_value=True), \
                     patch.object(scheduler, "release", new=release), \
-                    patch("video_gpu_scheduler.systemctl", new=AsyncMock(return_value="")), \
+                    patch("video_gpu_scheduler.systemctl", new=AsyncMock(return_value="inactive")), \
                     patch("video_gpu_scheduler.HOLD", Path(directory) / "hold"):
                 await asyncio.wait_for(scheduler.run(), 5)
             self.assertEqual(attempts, [[first["id"], second["id"]], [first["id"]]])
@@ -161,17 +162,22 @@ class DispatchTest(unittest.IsolatedAsyncioTestCase):
             scheduler = Scheduler(store)
             self.assertEqual([j["id"] for j in scheduler.cohort(jobs[0], jobs)], [jobs[0]["id"]])
 
-    async def test_memory_failure_pauses_remaining_jobs_instead_of_retrying(self):
+    async def test_memory_failure_recovers_next_job_without_retrying_failed_job(self):
         with tempfile.TemporaryDirectory() as directory:
             store = QueueStore(directory)
             store.initialize()
             jobs = [store.enqueue(OMNI, {"size": "1344x768", "seconds": 5}) for _ in range(2)]
             scheduler = Scheduler(store)
-            hold = Path(directory) / "hold.json"
+            scheduler.recovery = QueueRecovery(store, RecoveryPolicy(cooldown_seconds=0))
+            attempts = []
 
             async def oom(job):
+                attempts.append(job["id"])
                 store.claim([job["id"]], "fake.service")
-                raise MemoryError("CUDA out of memory")
+                if job["id"] == jobs[0]["id"]:
+                    raise MemoryError("CUDA out of memory")
+                store.change(job["id"], "completed")
+                scheduler.stop.set()
 
             async def release():
                 scheduler.model = None
@@ -179,19 +185,18 @@ class DispatchTest(unittest.IsolatedAsyncioTestCase):
             original_state = scheduler.state
             def state(phase):
                 original_state(phase)
-                if phase == "paused_after_memory_failure":
-                    scheduler.stop.set()
 
             with patch.object(store, "migrate_refiner"), patch.object(scheduler, "execute_omni", new=oom), \
                     patch.object(scheduler, "external_busy", new=AsyncMock(return_value=False)), \
                     patch.object(scheduler, "acquire", return_value=True), \
                     patch.object(scheduler, "release", new=release), patch.object(scheduler, "state", new=state), \
-                    patch("video_gpu_scheduler.systemctl", new=AsyncMock(return_value="")), \
-                    patch("video_gpu_scheduler.HOLD", hold):
+                    patch("video_gpu_scheduler.systemctl", new=AsyncMock(return_value="inactive")), \
+                    patch("video_gpu_scheduler.probe_resources", return_value={"ready": True, "blockers": []}):
                 await asyncio.wait_for(scheduler.run(), 5)
-            self.assertTrue(hold.exists())
+            self.assertEqual(attempts, [j["id"] for j in jobs])
+            self.assertFalse(scheduler.recovery.snapshot()["paused"])
             self.assertEqual(store.get(jobs[0]["id"])["status"], "failed")
-            self.assertEqual(store.get(jobs[1]["id"])["status"], "queued")
+            self.assertEqual(store.get(jobs[1]["id"])["status"], "completed")
 
     async def test_shared_dispatch_reorders_jobs_and_never_runs_both_models_together(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -231,7 +236,7 @@ class DispatchTest(unittest.IsolatedAsyncioTestCase):
                     patch.object(scheduler, "external_busy", new=AsyncMock(return_value=False)), \
                     patch.object(scheduler, "acquire", return_value=True), \
                     patch.object(scheduler, "release", new=release), \
-                    patch("video_gpu_scheduler.systemctl", new=AsyncMock(return_value="")), \
+                    patch("video_gpu_scheduler.systemctl", new=AsyncMock(return_value="inactive")), \
                     patch("video_gpu_scheduler.HOLD", Path(directory) / "hold"):
                 await asyncio.wait_for(scheduler.run(), 5)
             self.assertEqual(dispatched, [ids[0], ids[2], ids[4], ids[1], ids[3]])

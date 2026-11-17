@@ -2,6 +2,7 @@
 """One GPU owner for the BF16 Omni and local 2K HTTP queues."""
 
 import asyncio
+from contextlib import suppress
 import fcntl
 import hashlib
 import json
@@ -14,6 +15,7 @@ import requests
 
 from video_queue import HOLD, MAX_BATCH, OMNI, REFINER, ROOT, QueueChanged, QueueStore, choose_next
 from h3_refiner_profiles import get_profile
+from video_queue_recovery import QueueRecovery, probe_resources
 
 BACKEND_UNIT = "fasth3-omni-bf16-worker.service"
 BACKEND_URL = "http://127.0.0.1:8003"
@@ -48,11 +50,52 @@ class Scheduler:
         self.last_job = time.monotonic()
         self.http = requests.Session()
         self.http.trust_env = False
+        self.recovery = QueueRecovery(self.store)
+        self.phase = "starting"
+
+    async def recover_memory(self):
+        """Only the GPU owner cleans workers and releases a durable recovery gate."""
+        self.recovery.sync_legacy()
+        memory = self.recovery.snapshot()
+        if not memory["paused"]:
+            return False
+        if not memory.get("cleanup_complete"):
+            try:
+                units = [BACKEND_UNIT, "llmlab-fasth3-omni-bf16-worker.service"] + memory.get("worker_units", [])
+                for unit in dict.fromkeys(units):
+                    if unit not in {BACKEND_UNIT, "llmlab-fasth3-omni-bf16-worker.service"} and not unit.startswith("llmlab-h3-2k-refiner-batch-"):
+                        continue
+                    await systemctl("stop", unit, check=False)
+                    active = await systemctl("is-active", unit, check=False)
+                    if active not in {"inactive", "failed", "unknown"}:
+                        raise RuntimeError("Worker stop could not be confirmed: " + unit)
+                self.backend = False
+                self.active_unit = None
+                await self.release()
+                self.recovery.cleanup_result(memory["incident_id"])
+            except Exception as error:
+                self.recovery.cleanup_result(memory["incident_id"], str(error)[:500])
+        resources = await asyncio.to_thread(probe_resources, self.recovery.policy)
+        if self.recovery.observe(memory["incident_id"], resources):
+            self.state("idle")
+            return False
+        memory = self.recovery.snapshot()
+        phase = ("memory_circuit_open" if memory["manual_resume_required"] else
+                 "recovering_after_memory_failure" if not memory.get("cleanup_complete") else
+                 "memory_cooldown" if memory["cooldown_remaining_seconds"] else "waiting_for_memory_resources")
+        self.state(phase)
+        return True
 
     def state(self, phase):
+        self.phase = phase
         self.store.set_state(active_model=self.model, consecutive=self.consecutive, phase=phase,
                              running_jobs=[job["id"] for job in self.current],
                              backend_unit=BACKEND_UNIT if self.backend else None)
+
+    async def heartbeat(self):
+        while True:
+            self.state(self.phase)
+            await asyncio.sleep(5)
 
     async def external_busy(self):
         output = await systemctl("list-units", "--state=running", "--no-legend",
@@ -243,21 +286,20 @@ class Scheduler:
         self.store.migrate_refiner()
         singleton = (self.store.directory / "scheduler.lock").open("a")
         fcntl.flock(singleton, fcntl.LOCK_EX | fcntl.LOCK_NB)
-        # No API process resets active jobs. Recovery belongs to this single owner.
-        await systemctl("stop", BACKEND_UNIT)
-        for job in self.store.pending():
-            if job["status"] == "in_progress":
-                if job["unit"]:
-                    await systemctl("stop", job["unit"])
-                self.store.change(job["id"], "queued", "Recovered after scheduler restart")
-        self.store.event("scheduler_started")
+        heartbeat = asyncio.create_task(self.heartbeat())
         try:
+            # No API process resets active jobs. Recovery belongs to this single owner.
+            await systemctl("stop", BACKEND_UNIT)
+            for job in self.store.pending():
+                if job["status"] == "in_progress":
+                    if job["unit"]:
+                        await systemctl("stop", job["unit"])
+                    self.store.change(job["id"], "queued", "Recovered after scheduler restart")
+            self.store.event("scheduler_started")
             while not self.stop.is_set():
                 self.store.fail_dependencies()
-                if HOLD.exists():
-                    await self.release()
-                    self.state("paused_after_memory_failure")
-                    await asyncio.sleep(2)
+                if await self.recover_memory():
+                    await asyncio.sleep(self.recovery.policy.probe_interval_seconds)
                     continue
                 ready = self.store.ready()
                 selected = choose_next(ready, self.model, self.consecutive)
@@ -286,6 +328,8 @@ class Scheduler:
                         await self.execute_omni(self.current[0])
                     else:
                         await self.execute_refiner(self.current)
+                    if any(self.store.get(job["id"])["status"] == "completed" for job in self.current):
+                        self.recovery.record_success()
                 except InterruptedError:
                     break
                 except QueueChanged:
@@ -303,18 +347,23 @@ class Scheduler:
                     self.store.event("execution_failed", model=self.model, error=message)
                     gpu_result = (await systemctl("show", "llmlab-fasth3-omni-bf16-worker.service", "-p", "Result", "--value", check=False)
                                   if self.model == OMNI else "")
-                    if isinstance(error, MemoryError) or "out of memory" in message.lower() or gpu_result == "oom-kill":
-                        HOLD.parent.mkdir(parents=True, exist_ok=True)
-                        atomic_json(HOLD, {"reason": message, "time": time.time(),
-                                           "jobs": [j["id"] for j in self.current]})
-                    if self.active_unit:
-                        await systemctl("stop", self.active_unit, check=False)
-                        self.active_unit = None
-                    await self.release()
+                    memory_failure = isinstance(error, MemoryError) or "out of memory" in message.lower() or gpu_result == "oom-kill"
+                    if memory_failure:
+                        self.recovery.record_failure([j["id"] for j in self.current
+                                                      if self.store.get(j["id"])["status"] == "failed"], message,
+                                                     [self.active_unit] + [j.get("unit") for j in self.current])
+                    else:
+                        if self.active_unit:
+                            await systemctl("stop", self.active_unit, check=False)
+                            self.active_unit = None
+                        await self.release()
                 self.consecutive += len(self.current)
                 self.current = []
                 self.last_job = time.monotonic()
         finally:
+            heartbeat.cancel()
+            with suppress(asyncio.CancelledError):
+                await heartbeat
             if self.active_unit:
                 await systemctl("stop", self.active_unit, check=False)
             await self.release()

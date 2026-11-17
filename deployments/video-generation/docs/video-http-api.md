@@ -13,6 +13,8 @@
 
 4K 继续使用 `open-h3-2k`，仅需指定 `size: "3840x2160"`；[4K 调用与验收状态](open-h3-4k-http.md)。
 
+2026-11-18：已增加[OOM 自动恢复与管理恢复接口](#oom-自动恢复与管理恢复接口)。第一次 OOM 清理、冷却和资源检查后恢复后续任务；连续两次 OOM 才要求人工恢复，失败任务不会重试。
+
 ## 最快调用：Python 客户端
 
 客户端源码为 [tools/video_http_client.py](../tools/video_http_client.py)，只依赖 Python 3 与 `requests`，可在 Linux、macOS、Windows 上运行。将脚本复制到调用机器，安装依赖：
@@ -188,6 +190,68 @@ curl --noproxy '*' --fail-with-body \
 ```
 
 查询、取消、下载均使用该任务所属模型的端口。取消执行中的 2K 小批次成员会停止该批次；未取消的其他任务保留已验证窗口并重新排队。
+
+## OOM 自动恢复与管理恢复接口
+
+两个端口共用同一个恢复状态。以下管理接口与当前局域网 API 一样无需 API Key，作用于 **Omni＋2K／4K 的全局 GPU 队列**。
+
+| 操作 | HTTP 路径 | 用途 |
+| --- | --- | --- |
+| 查询队列及恢复原因 | `GET /v1/queue` | 查看 `paused` 和 `recovery` |
+| 请求人工恢复 | `POST /v1/queue/resume` | 解除连续 OOM 熔断的人工确认，随后仍由调度器检查清理、冷却与资源 |
+| 查询前端与调度器 | `GET /health` | 查看 `queue_paused`、`scheduler_online` 和 `worker_state` |
+
+**直接请求恢复：**
+
+```bash
+curl --noproxy '*' --fail-with-body -sS \
+  -X POST http://192.168.1.11:8001/v1/queue/resume \
+  -H 'Content-Type: application/json' \
+  -d '{"reason":"已检查失败任务，继续处理后续任务"}' | jq
+```
+
+将 `8001` 换成 `8002` 效果相同。请求体可省略，也可以为 `{}`；唯一可选字段 `reason` 最多 500 字符。未知字段返回 422，没有绕过检查的 `force` 参数。
+
+请求被接受时返回 **202**，示意：
+
+```json
+{
+  "accepted": true,
+  "status": "recovery_requested",
+  "recovery_request_id": "本次恢复请求ID",
+  "failed_jobs_retried": false,
+  "recovery": {
+    "status": "manual_intervention",
+    "paused": true,
+    "resume_requested": true,
+    "manual_resume_required": false
+  }
+}
+```
+
+实际 `recovery` 包含更多诊断字段。202 仅表示恢复请求已落盘，**不表示已恢复派发**；请轮询直到 `paused` 为 `false`：
+
+```bash
+curl --noproxy '*' --fail-with-body -sS \
+  http://192.168.1.11:8001/v1/queue \
+  | jq '{paused, recovery, scheduler}'
+```
+
+- 未暂停时返回 **200**、`status: "already_running"`、`accepted: false`，不停止运行任务，不重置 OOM 计数。
+- 同一故障期间重复请求返回相同 `recovery_request_id`，不会重复派发或重试任务。
+- 调度器离线或心跳过期时返回 **503**；在服务器执行 `systemctl --user start video-gpu-scheduler.service` 后再请求。恢复接口不会启动已被操作者停止的服务。
+- **失败任务始终保持 `failed`。** 需要再次生成时由调用者提交新的任务；已排队的后续任务在恢复后继续执行。
+
+自动恢复策略：
+
+1. 第一次 OOM：保存故障、将实际失败任务标为 `failed`，停止本次 worker 并释放 GPU 租约。
+2. 确认 worker 停止后冷却 **60 秒**。每 **5 秒**检查一次：主机可用内存至少 **28 GiB**、GPU 无计算进程、空闲显存至少为总显存的 **95%**。清理或探测失败也会继续等待。
+3. 检查通过后自动恢复后续任务；原失败任务不重试。OOM 计数、冷却期限、恢复请求与诊断持久化到队列数据库，重启不会跳过。
+4. 两次 OOM 之间没有成功任务时，第二次进入 `manual_intervention`；需上述 POST 人工确认。成功完成任务会清零计数；人工恢复完成后也清零计数。
+
+`recovery.status` 为 `ready`、`cooldown`、`waiting_for_resources` 或 `manual_intervention`。常用字段：`consecutive_ooms`、`cooldown_remaining_seconds`、`cleanup_complete`、`cleanup_error`、`resume_requested`、`resources.blockers`；`policy` 给出当前阈值。请求人工恢复后状态可能暂时仍为 `manual_intervention`，以 `paused: false` 确认恢复完成。
+
+旧 `inference-hold.json` 缺少连续失败历史，升级后会保留为需人工确认的暂停；通过上述接口恢复后归档。不要再依赖手动删除标记作为正常运维操作。资源限制、模型精度、分辨率、时长和采样步数都不因恢复而改变。
 
 ## 参数、排队与性能边界
 
