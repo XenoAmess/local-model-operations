@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-18",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/73c39d44b591fdd1013253eb86aa100aa8568e4d/docs/research/baiqi-source162-normal-attack-native-tc023-review-http991992-2026-11-18.json",
+  "actual_effect": "HORSEMAN2162700 moves4->0/damage0->25; enemy city524295 garrison damage150->175 remains owner1/pop1. Treasury4524.2734375 unchanged. One bound original continuation actor2162700/0,target41,19 despite pointer moved877->660. UI paid requests0; Capture callsites Transfer/debit/Finish0; bank/result/cooldownnil.",
+  "TC023_review": {
+    "status": "PASS_FOR_FROZEN_ORIGINAL_GARRISON114_FIXTURE_WITH_VERSIONED_REUSE",
+    "references": {
+      "cancel": "docs/research/baiqi-source161-independent-cancel-native-http986-2026-11-18.json",
+      "paid_confirm": "docs/research/baiqi-source161-exact-gold-C-native-2026-11-18.json",
+      "paid_confirm_plus1": "docs/research/baiqi-source161-gold-plus1-native-2026-11-18.json"
+    },
+    "exact_consumers": [
+      {
+        "file": "Lua/BaiqiActions.lua",
+        "sha256": "e651579f165db402ade1cf1dd9218313f4a6598505bb1a8af73ad627d5d8715a",
+        "Source161_Source162_byte_identical": true
+      },
+      {
+        "file": "Lua/BaiqiRequisition.lua",
+        "sha256": "a5e7227e85f647b42212e802419ab57e2414f42be07524b5b0db0caa67d4cdd2",
+        "Source161_Source162_byte_identical": true
+      },
+      {
+        "file": "Lua/BaiqiCapture.lua",
+        "sha256": "b027756a1a728da1905cc5702d60b01377415231a9d555712195ab518b626185",
+        "Source161_Source162_byte_identical": true
+      },
+      {
+        "file": "Lua/BaiqiConfig.lua",
+        "sha256": "5e2af705e9f6e41cf696a0028e7312658e42a9265657252a44df13ce6c5838eb",
+        "Source161_Source162_byte_identical": true
+      },
+      {
+        "file": "Lua/BaiqiPolicy.lua",
+        "sha256": "d274ee9ad3195533f2fd22f066714be5c977a06df487befee313dd9316c6a22c",
+        "Source161_Source162_byte_identical": true
+      },
+      {
+        "file": "Lua/BaiqiUIGuard.lua",
+        "sha256": "5e25ced0120bba447b9e57243e58ca840b5575bd1545095887a693f29731a948",
+        "Source161_Source162_byte_identical": true
+      },
+      {
+        "file": "UI/BaiqiWorldInput.lua",
+        "sha256": "45c6096f65075904c845ec10f94d1862c8703bcba6c52099b5aa99f0c97c826d",
+        "Source161_Source162_byte_identical": true
+      },
+      {
+        "file": "UI/BaiqiUnitFlagManager.lua",
+        "sha256": "793d6a5a8debc4d485dbd7b1848fbf49075508aed779d04b59164d880dbd1a2b",
+        "Source161_Source162_byte_identical": true
+      }
+    ],
+    "reason": "All eight map-action/quote/capture/config/policy/guard/input consumers are byte-identical161->162. Reuse actual161 independent cancel and paid-confirm-with-pointer-away branches, and add current162 independent normalattack with pointer-away/bound continuation/real combat damage. No161 Native run is relabeled162. Twelve new Core human-port guards do not change these consumers or introduce another map action emitter.",
+    "limits": "This closes TC023 natural interaction branches for the frozen fixture. It grants no full TC024 health/distance/cooldown coverage, special-asset/cold-reload behavior, performance or whole-mod acceptance."
+  },
+  "Owner_failures_retained": [
+    "57163 preinput exit1 after successful select/camera receipt: Windows SetForegroundWindow rejected while an already-open official Steam menu held foreground. No right/attack yet. Fresh menu ownership/mode-item read, one Esc without mode invocation, then own-game UIA focus.",
+    "The separate remaining-hover resume parent exit1 lacked datetime in emitter after spawning its child. Complete actual hover raw frame/ready receipt/image SHA and child absent reconciled to a NEW state without replay; child exit code unobserved, not claimed0. Original focus HALT retained.",
+    "Future not-yet-run completion driver received missing datetime import before use; original pinned body retained. Actual emitter/call code tested with two mock terminal outcomes. Initial test adapter lacked STDOUT, corrected only in validation. No game input there.",
+    "8600 exit1 after positive actual combat and UI readback: persisted JSON string row keys rejected by Owner integer-key consumer. Original raw/HALT retained. New receipt-only qualifier validated actual saved metadata, four actual product VM JSON roundtrips and nine damaged cases, then retirement/save/exit-only33482 exit0. No attack, map input, witness or query replay."
+  ],
+  "models": [
+    {
+      "task": 991,
+      "slug": "city-health-boundary-fixture-before-owner-code",
+      "POST": 1,
+      "http_status": 404,
+      "total_ms": 10.845000157132745,
+      "candidate_complete": false,
+      "adopted": false,
+      "actual_exit": 1,
+      "after_game_closed": true,
+      "shared_commit": "48d9e87899c51f4a836c6d4e6e792cff9da04b15",
+      "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "maintenance": "Delegated to canonical call.py CLI client_preflight, before HTTP",
+      "tokens": null,
+      "cached_tokens": null,
+      "cost": null
+    },
+    {
+      "task": 992,
+      "slug": "manual-domestic-control-snapshot-before-owner-code",
+      "POST": 1,
+      "http_status": 404,
+      "total_ms": 10.93129999935627,
+      "candidate_complete": false,
+      "adopted": false,
+      "actual_exit": 1,
+      "after_game_closed": true,
+      "shared_commit": "48d9e87899c51f4a836c6d4e6e792cff9da04b15",
+      "canonical_config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "canonical_caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+      "maintenance": "Delegated to canonical call.py CLI client_preflight, before HTTP",
+      "tokens": null,
+      "cached_tokens": null,
+      "cost": null
+    }
+  ],
+  "ledger": {
+    "logical": 992,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 108,
+    "generation_POST": 1031,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "actual_POST_peak": 2,
+  "OpenCode_native_generation": 0,
+  "whole_mod": "OPEN_CONTINUE"
+}
