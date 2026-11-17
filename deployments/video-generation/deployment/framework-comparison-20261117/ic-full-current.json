@@ -1,0 +1,27 @@
+{
+  "strategy": "current",
+  "started": 1794907354.8171115,
+  "size": "2560x1440",
+  "sampler": "up3",
+  "seed": 1234,
+  "steps": 3,
+  "precision": "BF16 DiT, unmerged IC LoRA, original 36L FP32 tiled VAE",
+  "scope": "Complete IC clip: encode, load, 3 denoising steps and original decoder",
+  "status": "completed",
+  "wall_s": 1498.4068981539458,
+  "peak_gpu_allocated_bytes": 73876270592,
+  "peak_gpu_reserved_bytes": 74771857408,
+  "finished": 1794908853.22557,
+  "input_scope": "Same 124-frame preprocessed draft used for the accepted native-4K task",
+  "denoising_s": 1152.2,
+  "decode_s": 175,
+  "video_metadata": {
+    "width": 2560,
+    "height": 1440,
+    "frames": 124,
+    "fps": 24,
+    "duration_s": 5.167
+  },
+  "visual_check": "Sampled frames 0,60,123 show intact full-body character and scene, no black/corrupt sampled frames",
+  "numerical_comparison": "Waiting for complete Diffusers and Accelerate outputs; this baseline alone establishes no speedup"
+}

@@ -97,7 +97,7 @@ def main():
         return
     command = [str(source / ".venv/bin/uniserve"), "serve",
                str(ROOT / "outputs/framework-comparison-20261117/uniserve-omni-local"),
-               "--workers", str(OUT / "uniserve-workers.json"),
+               "--workers", str(ROOT / "deployment/framework-comparison-20261117/uniserve-single-gpu-host-weights.experimental.json"),
                "--served-model-name", "fasth3-omni-bf16-uniserve-candidate",
                "--host", "127.0.0.1", "--port", "18012", "--max-running-requests", "1",
                "--max-video-seconds", "5", "--max-model-len", "8192",

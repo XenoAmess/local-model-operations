@@ -1,5 +1,5 @@
 {
-  "source_commit": "b661a8848d6e928bcdd1ece255c222a485afae12",
+  "source_commit": "dbe1a4d3a3a267e9d28f1c02e64faee629304e62",
   "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
   "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
   "scope": "Committed video deployment and isolated framework benchmarks; small sanitized measurement and admission receipts",
@@ -70,6 +70,11 @@
       "sha256": "509f6d3622293515636d3d30fa972d4315a819aaf2652d86248d6da6dd7cc361"
     },
     {
+      "path": "deployment/framework-comparison-20261117/ic-full-current.json",
+      "bytes": 973,
+      "sha256": "b5ec41e7c8a590c6bbe32e372812286ceea9b51c699b80cc4a5dbe55880ae8eb"
+    },
+    {
       "path": "deployment/framework-comparison-20261117/offload-accelerate-174080.json",
       "bytes": 4944,
       "sha256": "932844ac1bf4ac84dd1d83988c3597203e5a03abc7d792553ffa486490397b37"
@@ -106,8 +111,13 @@
     },
     {
       "path": "deployment/framework-comparison-20261117/sglang-full-video-adapted.json",
-      "bytes": 4570,
-      "sha256": "4294e9fbd4fb5901d9728ec5a93ffdc8555f343644bcdadab7c1c42419f5fda4"
+      "bytes": 4924,
+      "sha256": "6f1f72e733fa9eb156e27cf160ea169c9738cdb6bd6614eb6308188ea598247a"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/sglang-full-video-explicit-reference.json",
+      "bytes": 2471,
+      "sha256": "651e4e06a3b3940a7847fc7d57d7ae1f9f9bc2de13f05279fd5ae130554524ff"
     },
     {
       "path": "deployment/framework-comparison-20261117/strata-niko-import.json",
@@ -128,6 +138,16 @@
       "path": "deployment/framework-comparison-20261117/uniserve-admission.json",
       "bytes": 947,
       "sha256": "59a6ed853656485cc9f7e53aec02601cc3ab5500d185922ef024e22e9cbd589b"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/uniserve-cpu-stream-probe.json",
+      "bytes": 301,
+      "sha256": "93e54760df9b5a50008535169ebffffd6d60f94c106a31f497331cd26ea95c3a"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/uniserve-single-gpu-host-weights.experimental.json",
+      "bytes": 1687,
+      "sha256": "91c7617d0763f29a50a981c698187f2592b6ad014faee14361b2e3a12e0d80b0"
     },
     {
       "path": "deployment/framework-comparison-20261117/vsa-fastvideo-65536.json",
@@ -406,8 +426,8 @@
     },
     {
       "path": "docs/video-framework-benchmark-2026-11-17.md",
-      "bytes": 11671,
-      "sha256": "867718ffb2c11d11f60309bda8835b9dbbdf54bfd151c5b5cf622b7f469c2733"
+      "bytes": 12987,
+      "sha256": "9d07f6c89cef3d4cffc8986b755d0dc06aad0e66f822b1b5feecfda0fadbace7"
     },
     {
       "path": "docs/video-http-api.md",
@@ -756,8 +776,8 @@
     },
     {
       "path": "tools/run_uniserve_omni_candidate.py",
-      "bytes": 5648,
-      "sha256": "a24004c83009b25a25c96f601ea3312f72cc52879f9e9ce34b73a7a9ef6d1d98"
+      "bytes": 5719,
+      "sha256": "d0ab110fa5f0b27a034eb30ac9367647d1264514b5deadd5b3a2a7ffc837d8e6"
     },
     {
       "path": "tools/serve_fasth3_omni.py",

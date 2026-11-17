@@ -1,0 +1,84 @@
+{
+  "status": "complete_explicit_omni_reference_resize_verified_not_bitwise_equivalent_to_fastvideo",
+  "started": 1794908858.6103916,
+  "runs": [
+    {
+      "repeat": 0,
+      "id": "797a4d97-4141-483b-a54c-946b9053c11d",
+      "status": "completed",
+      "elapsed_s": 661.5823043498676,
+      "wall_s": 661.5824925790075,
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1344,
+            "height": 768,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.175000",
+          "size": "672877"
+        }
+      }
+    }
+  ],
+  "baseline_s": 759.2129165099468,
+  "precision": "BF16 DiT and text encoder, original 36L FP32 VAE",
+  "numerical_note": "SGLang fuses PDD heads and uses its native VSA; no claim of bitwise equivalence",
+  "local_sm120_adapter": true,
+  "readiness_wait_s": 52.289353710832074,
+  "reference_sha256": {
+    "image": "472d633ea178e30cd3395a3f7290257a6dbbbbe0f6b2fbc653706d1a251c570a",
+    "video_audio": "893bc0f630dc18ceca2503929d7b1eff9b952d0149480d91d428ccbf892cc236"
+  },
+  "reference_resize_mode": "diffusers",
+  "finished": 1794909572.611382,
+  "source_commit": "8e737da037ddf967d9b1bab778f48fb35275d7ee",
+  "output_sha256": "95e2d3fc3899d26ca345b6602d6c4874c1b87709de01e7f04ad2259ba76f9f4a",
+  "same_mp4_as_first_implicit_omni_default": true,
+  "sampled_frame_check": "Intact character and scene, but closer facial framing than FastVideo historical full-body result. Task and quality equivalence not established.",
+  "native_stage_timings": [
+    {
+      "stage": "MiniMaxH3PartitionAdmissionStage",
+      "seconds": 0.0
+    },
+    {
+      "stage": "MiniMaxH3TextEncodingStage",
+      "seconds": 12.1654
+    },
+    {
+      "stage": "MiniMaxH3VisualEncodingStage",
+      "seconds": 37.6533
+    },
+    {
+      "stage": "MiniMaxH3AudioEncodingStage",
+      "seconds": 0.7233
+    },
+    {
+      "stage": "MiniMaxH3LatentPreparationStage",
+      "seconds": 0.0113
+    },
+    {
+      "stage": "MiniMaxH3TimestepPreparationStage",
+      "seconds": 0.0026
+    },
+    {
+      "stage": "MiniMaxH3DenoisingStage",
+      "seconds": 563.2322
+    },
+    {
+      "stage": "MiniMaxH3DecodingStage",
+      "seconds": 46.0983
+    }
+  ]
+}

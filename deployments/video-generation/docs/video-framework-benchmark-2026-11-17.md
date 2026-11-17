@@ -92,8 +92,15 @@ SGLang 增加显式 `H3_FRAMEWORK_EXPERIMENTAL_SM120=1` 的本地适配：放行
 | SGLang 本地适配，默认参考缩放，第一条 | 667.679秒 | 提交至可下载；服务预先加载，启动等待另52.183秒 |
 | SGLang 本地适配，默认参考缩放，第二条 | 613.511秒 | 相同输入重复请求，可使用条件缓存 |
 
-两条 MP4 均下载并通过完整 FFmpeg 解码，均有124帧及音轨。第一条抽查第0、60、123帧无黑屏或破损，角色与场景可辨；这不能证明画质相同或数值等价。进一步对照基线画面与源码发现参考预处理不匹配：SGLang 默认 `reference_resize_mode=max` 只下采样，本次1145×1374图片取1152×1376；正式FastVideo会放大至2048×2464。候选画面也从基线的全身景别变成更近的面部景别。**这两条仅为完整管线诊断成绩，禁止用于同配置性能排名。** 已显式设置 `reference_resize_mode=diffusers` 对齐放大策略并安排补测。加载位置、条件缓存、PyTorch版本和实现差异也需另计。第二条也不称为纯模型推理时间。完成下载后停止候选，2秒 shutdown deadline 导致剩余服务子进程被清理，unit 的 timeout 是停止阶段事件，不能误记为生成失败。
+两条 MP4 均下载并通过完整 FFmpeg 解码，均有124帧及音轨。第一条抽查第0、60、123帧无黑屏或破损，角色与场景可辨；这不能证明画质相同或数值等价。最初根据通用H3默认 `max` 怀疑参考缩放不同，随后核查 **`FastH3OmniSamplingParams` 自身已覆盖为 `diffusers`**，与通用类不同；显式设置该参数的独立服务重启补测又得到与第一条默认请求完全相同的MP4 SHA256。因此撤回“参考缩放不匹配”的判断，实际图片均为2048×2464。候选画面从基线全身景别变成更近的面部景别仍是事实，不能以画面完整就宣称任务和质量等价。加载位置、条件缓存、PyTorch版本和具体算法不同，未将请求时间比值当作同数值结果加速比。第二条也不称为纯模型推理时间。完成下载后停止候选，2秒 shutdown deadline 导致剩余服务子进程被清理，unit 的 timeout 是停止阶段事件，不能误记为生成失败。
 
 UniServe 原生 Rust HTTP＋Python worker 已在独立环境编译成功。尝试通过其原生 host-weight streaming 接入单卡；本地候选补丁使标记 `weights=host` 的组件直接在 CPU 加载，再构建原生分层GPU staging，避免先把超过显存容量的权重全部加载到GPU。首次正式请求前必须通过多层CPU加载流送的逐元素一致性检查。它的默认 quality 模式将原版36L VAE投影权重存为FP16，与正式FP32权重＋FP16 autocast路径不同，完整结果即使成功也须单独标注，不能视为保持同运算结果的替代。
 
 原始完整视频记录保留在本机 `outputs/framework-comparison-20261117/full-video/`；公开记录：[SGLang完整补测](../deployment/framework-comparison-20261117/sglang-full-video-adapted.json)。IC完整对比将另记录最终 latent 与像素一致性，不能用先前单block一致性替代。
+
+
+2026-11-17 18:03 CST 补测更新：
+
+- 当前IC优化版完整2K、124帧完成，墙钟1498.407秒，其中三轮去噪1152.2秒，原版VAE解码约175秒。抽查第0、60、123帧完整。其余控制器尚待完整对照，不能单凭这个基线下结论。[记录](../deployment/framework-comparison-20261117/ic-full-current.json)
+- SGLang显式 `reference_resize_mode=diffusers` 的独立重启完整生成661.582秒，服务启动另52.289秒，8轮去噪563.232秒；MP4与第一条默认请求SHA256完全相同。计入服务启动后约713.872秒；FastVideo历史对应启动＋请求约765.220秒，观察到约6.7%墙钟降低，但样本很少、环境不同、输出构图不同，未通过同运算结果或质量等价验收，**不替换线上**。[记录](../deployment/framework-comparison-20261117/sglang-full-video-explicit-reference.json)
+- UniServe CPU直接加载＋原生分层流送的小模型检查通过：10层、3次完整前向、一次中断后重开均逐元素一致。首次服务启动因部署配置 `queue_depth=2` 不足而拒绝，运行时要求每个请求至少3个queue positions；修正为3后安排重试。此配置失败不算框架不支持，也不算完整H3成功。

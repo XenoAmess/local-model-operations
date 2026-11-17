@@ -1,5 +1,5 @@
 {
-  "status": "diagnostic_full_clips_reference_preprocessing_mismatch",
+  "status": "complete_clips_measured_quality_equivalence_not_verified",
   "started": 1794906015.651547,
   "runs": [
     {
@@ -29,7 +29,8 @@
           "duration": "5.175000",
           "size": "672877"
         }
-      }
+      },
+      "decoded_rgb_sha256": "73d6b290afd882c0646076e27b6b7892f71efd764f87da3a0eae60938e74bd72"
     },
     {
       "repeat": 1,
@@ -58,7 +59,8 @@
           "duration": "5.175000",
           "size": "672876"
         }
-      }
+      },
+      "decoded_rgb_sha256": "73d6b290afd882c0646076e27b6b7892f71efd764f87da3a0eae60938e74bd72"
     }
   ],
   "baseline_s": 759.2129165099468,
@@ -76,22 +78,19 @@
   "adapter_patch": "patches/sglang-h3-sm120-experimental.patch",
   "sampled_frames_visual_check": "Frames 0,60,123: recognizable character, intact scene, no black/corrupt sampled frames; does not establish quality equivalence.",
   "reference_preprocessing": {
-    "candidate": "reference_resize_mode=max (native default; no image upscaling)",
-    "production": "image short edge 2048 including upscaling",
-    "input_image_size": [
-      1145,
-      1374
-    ],
-    "candidate_image_size": [
-      1152,
-      1376
-    ],
+    "candidate_default_class": "FastH3OmniSamplingParams",
+    "default_mode": "diffusers",
+    "explicit_mode_retest": "diffusers",
     "production_image_size": [
       2048,
       2464
     ],
-    "performance_ranking_admissible": false,
-    "matched_references_retest": "explicit reference_resize_mode=diffusers, pending"
+    "candidate_image_size": [
+      2048,
+      2464
+    ],
+    "explicit_retest_same_mp4_sha256_as_first_default_run": true,
+    "correction": "Initial concern was based on the generic MiniMaxH3 default=max; the Omni subclass overrides it to diffusers. Source review plus explicit retest supersede that concern."
   },
   "visual_difference": "Candidate contact sheets are closer facial framing than the historical full-body FastVideo output; intact frames do not establish task or quality equivalence.",
   "native_stage_timings": [
@@ -159,5 +158,7 @@
       "stage": "MiniMaxH3DecodingStage",
       "seconds": 45.3915
     }
-  ]
+  ],
+  "repeat_decoded_pixels_equal": true,
+  "same_input_pipeline_comparison_admissible_with_caveats": true
 }
