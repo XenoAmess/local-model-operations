@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-17",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/e85f2a105a2211b2a179cf60cd8c7eba8250993e/docs/research/baiqi-source160-save-lookup-index-http956-2026-11-17.json",
+  "filesystem_software": {
+    "utc": "2026-11-17T10:17:47.347480+00:00",
+    "real_filesystem_cases": [
+      {
+        "name": "all36_literal_queries_and36_original_hash_reads_retained",
+        "stats": {
+          "enabled": true,
+          "inherited": false,
+          "literal_requests": 36,
+          "literal_hits": 36,
+          "fallback_requests": 0,
+          "directory_walks": 2,
+          "entries": 12,
+          "digest_cache": false
+        }
+      },
+      {
+        "name": "mixedcase_nested_wildcard_foreignroot_explicitcase_equivalent"
+      },
+      {
+        "name": "duplicate_basename_remains_rejected"
+      },
+      {
+        "name": "content_unknown_prevents_dependent_action"
+      },
+      {
+        "name": "new_duplicate_unknown_prevents_dependent_action"
+      },
+      {
+        "name": "deleted_unknown_prevents_dependent_action"
+      },
+      {
+        "name": "new_unprotected_name_unknown_prevents_dependent_action"
+      },
+      {
+        "name": "original_error_identity_and_binding_restore"
+      },
+      {
+        "name": "nested_scope_inherits_outer_without_unpatch"
+      },
+      {
+        "name": "foreign_replacement_preserved_and_unknown"
+      },
+      {
+        "name": "non_ASCII_tree_falls_back_without_filtering"
+      },
+      {
+        "name": "existing_thread_falls_back"
+      },
+      {
+        "name": "independent_checks_rebuild_no_cross_action_cache"
+      },
+      {
+        "name": "reused_parent_still_stops_at_save_root"
+      }
+    ],
+    "module_sha256": "8ecc1dbdf03f86cd89c81c5162caca3195857b4267780c10bf65c76c4ba4e135",
+    "original_hash_reads_retained": 36,
+    "literal_queries": 36,
+    "directory_enumerations": 2,
+    "Native_queries": 0,
+    "actual_protected_save_baseline": "NOT_RUN_WAIT_ALL_NOSITE_CLOSED",
+    "future_consumer_integration": "NOT_RUN",
+    "MANY_B_delta": "FAIL_RETAINED",
+    "scope": "Only temporary files and current WindowsPath3.13 literal semantics. Full digests unchanged, unknown tree/path/binding/threads fails or falls back; no active NoSite module changed and no measured real harness speed claimed. V1 passed13cases; Owner review corrected repeated-parent root stop, then added14th actual boundary case."
+  },
+  "future_recheck": {
+    "VM": 2,
+    "bad_frames": 20,
+    "flows": 7
+  },
+  "Owner_review": [
+    "Only one synchronous protected-save check may index exact ASCII literal filenames under the absolute Windows Saves root. It preserves every old size/SHA/digest assertion and returns duplicates in full; no content/hash cache, no filtering old receipts, no cache across checks/game actions/processes.",
+    "Actual original rglob remains for foreign roots, wildcard/patterns, explicit case/recurse options, other platforms, concurrent threads, preexisting foreign binding, or uncertain nonASCII/reparse/entry-bound cases. Unsupported conditions preserve original slow checks.",
+    "Before caller digest assertions, queried literal paths record file identity/size/mtime/birth where available. After successful original checks, a second original directory scan verifies membership and queried metadata. Changed/missing path, new duplicate/name, new threads or replaced binding raises unknown before dependent action; original errors keep identity and original binding restores or foreign replacement preserves.",
+    "14 real temporary-filesystem cases pass:36 literal queries still execute36 original byte/hash reads with2 directory scans; mixedcase/nested/fallback/duplicates/changed tree/content/delete/errors/nesting/foreign/nonASCII/threads/no cross-action cache and save-root boundary checked. V1passed13; Owner review fixed a reused-parent loop that could inspect above the save root, then14th boundary case verified.",
+    "Only the unused future end160 lifecycle adds import+wrap_checks(saves) before isolated-stage assignment. Staged bytes parsed before atomic replace; old950source copied unchanged to an exclusive backup. No active NoSite imported module, mod file, native API, frozen data or Steam/admission TTL changed.",
+    "Exact existing950suite reran with a new receipt:2 actual combined-Executor/private-Context mock VM runs,20 damaged-frame rejections and7 finite/unknown-result flow fixtures. Other7 consumers match their old hashes; the one lifecycle delta inverses to its old hash. Original950entry now intentionally rejects changed bytes; new verified956entry is required.",
+    "A real original-vs-indexed protected-save sequence is prepared but NOT_RUN until all10NoSite formal/residue closures, actual sole-parent exit0, no game/formal/models. It will retain per-path actual read/digest counts and durations; original-first may warm caches, so it cannot establish isolated speedup or any mod B_delta improvement.",
+    "No current game launch/load/END, old original modified, actual save-check speed, performance fix or whole-mod acceptance is claimed."
+  ],
+  "new_model_POST": 0,
+  "ledger": {
+    "logical": 957,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 73,
+    "generation_POST": 996,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "whole_mod": "OPEN_CONTINUE"
+}
