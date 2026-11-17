@@ -25,6 +25,7 @@ python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstat
 | 内容 | 入口 |
 | --- | --- |
 | worker 协作、单主线、及时提交推送 | [AGENTS.md](AGENTS.md) |
+| 本机 GitHub 推送认证故障与恢复 | [认证排障记录](docs/github-git-authentication.md) |
 | 本机 BF16 Omni 与本地 2K／4K HTTP 部署 | [视频服务部署](deployments/video-generation/README.md) |
 | 视频框架全部研究与正式选型 | [研究、实测与采用状态总入口](docs/video-framework-research-index-2026-11-17.md) |
 | FastVideo／SGLang 全面对比 | [性能、质量、显存、服务与维护成本](docs/fastvideo-vs-sglang-2026-11-17.md) |
