@@ -2249,3 +2249,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[160全脚本与请求预算](evidence/2026-11-17-civ6-source160-fullscript-request-budget-pass.json)。Nov17维护1.19.5成功缓存和原生生成0保持；Owner160全脚本／请求实机限定PASS不授本地模型或OpenCode生成能力。
 
 2026-11-17：[936与八压力包准备](evidence/2026-11-17-civ6-http936-eight-pressure-packages-prepared.json)。Nov17成功维护1.19.5缓存和原生生成0保持；八压力包Owner编译／候选失败不授OpenCode生成或Native能力。
+
+2026-11-17：[937有限恢复条款](evidence/2026-11-17-civ6-http937-finite-recovery-clause-review.json)。Nov17成功维护1.19.5缓存和原生生成0保持；有限条款审阅与未执行见证方案不授OpenCode生成或Native能力。
