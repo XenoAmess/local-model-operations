@@ -69,6 +69,13 @@ def main():
                        seed=original["seed"], num_inference_steps=8, quality="exact")
         if BACKEND == "uniserve":
             del payload["num_inference_steps"], payload["quality"]
+        else:
+            # The native default 'max' only downsizes references. Production
+            # FastVideo enlarges images to short-edge 2048 and videos to the
+            # released canvas. Using the default would change conditioning
+            # token counts and invalidate any equal-workload speed comparison.
+            payload["reference_resize_mode"] = "diffusers"
+            report["reference_resize_mode"] = "diffusers"
         (OUT / f"{BACKEND}-private-request.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
         for repeat in range(int(os.environ.get("H3_FRAMEWORK_REPEATS", "2"))):
             started = time.monotonic()

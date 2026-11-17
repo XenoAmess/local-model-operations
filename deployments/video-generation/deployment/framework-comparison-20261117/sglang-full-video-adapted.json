@@ -1,5 +1,5 @@
 {
-  "status": "two_requests_measured_not_quality_equivalence_validated",
+  "status": "diagnostic_full_clips_reference_preprocessing_mismatch",
   "started": 1794906015.651547,
   "runs": [
     {
@@ -74,5 +74,90 @@
   "service_stop_note": "Both HTTP requests and media decode completed. Afterwards the 2-second transient-unit shutdown deadline killed remaining server workers; unit Result=timeout is shutdown, not failed inference.",
   "source_commit": "8e737da037ddf967d9b1bab778f48fb35275d7ee",
   "adapter_patch": "patches/sglang-h3-sm120-experimental.patch",
-  "sampled_frames_visual_check": "Frames 0,60,123: recognizable character, intact scene, no black/corrupt sampled frames; does not establish quality equivalence."
+  "sampled_frames_visual_check": "Frames 0,60,123: recognizable character, intact scene, no black/corrupt sampled frames; does not establish quality equivalence.",
+  "reference_preprocessing": {
+    "candidate": "reference_resize_mode=max (native default; no image upscaling)",
+    "production": "image short edge 2048 including upscaling",
+    "input_image_size": [
+      1145,
+      1374
+    ],
+    "candidate_image_size": [
+      1152,
+      1376
+    ],
+    "production_image_size": [
+      2048,
+      2464
+    ],
+    "performance_ranking_admissible": false,
+    "matched_references_retest": "explicit reference_resize_mode=diffusers, pending"
+  },
+  "visual_difference": "Candidate contact sheets are closer facial framing than the historical full-body FastVideo output; intact frames do not establish task or quality equivalence.",
+  "native_stage_timings": [
+    {
+      "stage": "MiniMaxH3PartitionAdmissionStage",
+      "seconds": 0.0
+    },
+    {
+      "stage": "MiniMaxH3TextEncodingStage",
+      "seconds": 12.0873
+    },
+    {
+      "stage": "MiniMaxH3VisualEncodingStage",
+      "seconds": 37.6073
+    },
+    {
+      "stage": "MiniMaxH3AudioEncodingStage",
+      "seconds": 0.2337
+    },
+    {
+      "stage": "MiniMaxH3LatentPreparationStage",
+      "seconds": 0.0112
+    },
+    {
+      "stage": "MiniMaxH3TimestepPreparationStage",
+      "seconds": 0.003
+    },
+    {
+      "stage": "MiniMaxH3DenoisingStage",
+      "seconds": 564.2196
+    },
+    {
+      "stage": "MiniMaxH3DecodingStage",
+      "seconds": 50.3645
+    },
+    {
+      "stage": "MiniMaxH3PartitionAdmissionStage",
+      "seconds": 0.0
+    },
+    {
+      "stage": "MiniMaxH3TextEncodingStage",
+      "seconds": 0.4516
+    },
+    {
+      "stage": "MiniMaxH3VisualEncodingStage",
+      "seconds": 2.3269
+    },
+    {
+      "stage": "MiniMaxH3AudioEncodingStage",
+      "seconds": 0.1232
+    },
+    {
+      "stage": "MiniMaxH3LatentPreparationStage",
+      "seconds": 0.011
+    },
+    {
+      "stage": "MiniMaxH3TimestepPreparationStage",
+      "seconds": 0.0007
+    },
+    {
+      "stage": "MiniMaxH3DenoisingStage",
+      "seconds": 561.3705
+    },
+    {
+      "stage": "MiniMaxH3DecodingStage",
+      "seconds": 45.3915
+    }
+  ]
 }
