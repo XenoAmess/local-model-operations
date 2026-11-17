@@ -85,6 +85,7 @@ def main():
     parser.add_argument("--size", choices=list(PROFILES), help="Native target size; legacy --portrait remains supported")
     parser.add_argument("--seed", type=int, default=1234)
     parser.add_argument("--sampler", choices=["up3", "up4", "hf8"], default="up3")
+    parser.add_argument("--save-latent", action="store_true", help="Save the normalized latent for full-video comparisons")
     parser.add_argument("--exact-io", action="store_true", default=os.environ.get("H3_IC_EXACT_IO") == "1",
                         help="Use validated immutable weight storage, cached LoRA casts and bounded FFN output storage")
     parser.add_argument("--verify-first-block", type=Path,
@@ -202,7 +203,7 @@ def main():
     sys.argv = [str(source / "infer.py"), "--weights", str(weights), "--jobs", str(args.jobs.resolve()),
                 "--resolution", profile.resolution, "--attention", "native",
                 "--vae", "standard", "--sampler", args.sampler, "--seed", str(args.seed)]
-    if profile.label == "4K":
+    if profile.label == "4K" or args.save_latent:
         # Preserve the exact denoised latent before the more demanding decode stage.
         sys.argv.append("--save-latent")
     from h3_ic_exact import ExactDiagnosticComplete

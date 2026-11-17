@@ -1,5 +1,5 @@
 {
-  "source_commit": "289a3c02c1d1c81a73c43e4804e4f3a24dba58a6",
+  "source_commit": "10eca40d47f170f53e196a9276d4a25bbfbe517e",
   "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
   "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
   "scope": "Committed video deployment and isolated framework benchmarks; small sanitized measurement and admission receipts",
@@ -103,6 +103,11 @@
       "path": "deployment/framework-comparison-20261117/results.json",
       "bytes": 5130,
       "sha256": "addf7724bd864a4e8fad744bbddf38c76aae8684a63e52bad1ac693ace431995"
+    },
+    {
+      "path": "deployment/framework-comparison-20261117/sglang-full-video-adapted.json",
+      "bytes": 2525,
+      "sha256": "6949d2dd7a857e32b9d0b2a42716b05856f81f868911d9577bbf3da80e0f8045"
     },
     {
       "path": "deployment/framework-comparison-20261117/strata-niko-import.json",
@@ -401,8 +406,8 @@
     },
     {
       "path": "docs/video-framework-benchmark-2026-11-17.md",
-      "bytes": 8394,
-      "sha256": "190c611c28739c3f80a61c0f4035833ecb516c257a08119a9c4381d42525144f"
+      "bytes": 11238,
+      "sha256": "590f99adc2c2e3184738fbdfea7b20693f5af118edff584fed58986ca182f0eb"
     },
     {
       "path": "docs/video-http-api.md",
@@ -468,6 +473,16 @@
       "path": "omni-web/app.py",
       "bytes": 9459,
       "sha256": "e17f85b757f76c216e2339b9b01ed5f9a05f37edab91c655349d17a80fa20705"
+    },
+    {
+      "path": "patches/sglang-h3-sm120-experimental.patch",
+      "bytes": 2169,
+      "sha256": "d85e4283e25ad218333b5d3bf5983f862a41459abceea1b7cb5c0218685d0fcc"
+    },
+    {
+      "path": "patches/uniserve-h3-cpu-load-experimental.patch",
+      "bytes": 8948,
+      "sha256": "47a8dccc4a1863c1df82ad75fb8381281640484d4e59ab1a2bfeb17fccda8268"
     },
     {
       "path": "requirements-deployed.txt",
@@ -641,8 +656,8 @@
     },
     {
       "path": "tools/h3_ic_runtime.py",
-      "bytes": 9824,
-      "sha256": "23e33d90934f339cd5bf9460d406a48b768c62b548eac0bb8b7dc443b2ec64b9"
+      "bytes": 9968,
+      "sha256": "ae82d40fd495dc105e1f2258cff43d665a29f80faa9201c7968bcfac596667d0"
     },
     {
       "path": "tools/h3_refiner_profiles.py",
@@ -651,8 +666,8 @@
     },
     {
       "path": "tools/measure_sglang_omni_http.py",
-      "bytes": 5978,
-      "sha256": "934a5245a9a88df0777489458eb4866d60cc6b9e388d06965f21f43ff63e8ebb"
+      "bytes": 6773,
+      "sha256": "f70da1e59407a8959f98c48fd4f0d3be56944932a1263411aa6df118d5edcf5a"
     },
     {
       "path": "tools/notify_minimax_h3_download.py",
@@ -685,6 +700,11 @@
       "sha256": "15d763d43f24e69a6bce77ca90c956979d5a7663f1da00be62c845eceaa1bf91"
     },
     {
+      "path": "tools/prepare_uniserve_native_server.py",
+      "bytes": 2440,
+      "sha256": "c989fd9376356dd483a01c95388c89c54503c977e7e4b5f20107a308fb74ae61"
+    },
+    {
       "path": "tools/probe_hf_routes.py",
       "bytes": 1991,
       "sha256": "26d93a532c8cd40cb85a23bec250239c7d1da1d30730736edb10a378df9fb535"
@@ -715,6 +735,11 @@
       "sha256": "f86d125f34d164b402277a00991673a6f188e3309259c8f36565c4844aea98fb"
     },
     {
+      "path": "tools/run_ic_framework_full.py",
+      "bytes": 3619,
+      "sha256": "35192e90a2b6718e536ccc86bdc0a52a98b23e16737941493e5d2ba6f1890b50"
+    },
+    {
       "path": "tools/run_omni_bf16_benchmark.py",
       "bytes": 10586,
       "sha256": "6078b96446435811b49db5316246bc316af6b1b85ffe192ec7ec6bc216848875"
@@ -726,8 +751,13 @@
     },
     {
       "path": "tools/run_sglang_omni_candidate.py",
-      "bytes": 3267,
-      "sha256": "907fa1eadc2c4f25b5b244f683d1241fe3589e74906d9e565fe39112a4a973c3"
+      "bytes": 3315,
+      "sha256": "e5f3267998f913ca9cca27c04ae029ee79cb31ea38afbb8d0e6d167ef777fadf"
+    },
+    {
+      "path": "tools/run_uniserve_omni_candidate.py",
+      "bytes": 5648,
+      "sha256": "a24004c83009b25a25c96f601ea3312f72cc52879f9e9ce34b73a7a9ef6d1d98"
     },
     {
       "path": "tools/serve_fasth3_omni.py",

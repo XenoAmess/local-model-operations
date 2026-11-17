@@ -10,21 +10,28 @@ import time
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "outputs/framework-comparison-20261117"
+OUT = Path(os.environ.get("H3_FRAMEWORK_OUTPUT_DIR", str(ROOT / "outputs/framework-comparison-20261117")))
 UNIT = os.environ.get("H3_FRAMEWORK_UNIT", "llmlab-sglang-omni-candidate-20261117.service")
+BACKEND = os.environ.get("H3_FRAMEWORK_BACKEND", "sglang")
 
 
 def main():
+    OUT.mkdir(parents=True, exist_ok=True)
     client = requests.Session()
     client.trust_env = False
-    base = "http://127.0.0.1:18011"
+    base = "http://127.0.0.1:" + ("18012" if BACKEND == "uniserve" else "18011")
     report = dict(status="waiting_for_candidate", started=time.time(), runs=[],
                   source_workload="outputs/omni-bf16-benchmark/request.json",
                   baseline_s=759.2129165099468, precision="BF16 DiT and text encoder, original 36L FP32 VAE",
-                  numerical_note="SGLang fuses PDD heads and uses its native VSA; no claim of bitwise equivalence")
+                  numerical_note="SGLang fuses PDD heads and uses its native VSA; no claim of bitwise equivalence",
+                  local_sm120_adapter=os.environ.get("H3_FRAMEWORK_EXPERIMENTAL_SM120") == "1")
+    if BACKEND == "uniserve":
+        report.update(precision="BF16 DiT and text encoder, native quality 36L VAE with FP16 projection storage",
+                      numerical_note="Native PDD head fusion and kernels; local CPU-direct loading adapter. Not bitwise equivalent to FastVideo.",
+                      local_cpu_load_adapter=True)
 
     def save():
-        (OUT / "sglang-http-benchmark.json").write_text(json.dumps(report, indent=2) + "\n")
+        (OUT / f"{BACKEND}-http-benchmark.json").write_text(json.dumps(report, indent=2) + "\n")
 
     save()
     try:
@@ -55,13 +62,15 @@ def main():
                                    ("video_reference", "video_audio", "video_url")):
             for value in original.get(key, []):
                 path = Path(value[uri_key])
-                conditions.append(dict(type=kind, role="reference", uri=str(path)))
+                conditions.append(dict(type=kind, role="reference", uri=path.resolve().as_uri() if BACKEND == "uniserve" else str(path)))
                 report.setdefault("reference_sha256", {})[kind] = hashlib.sha256(path.read_bytes()).hexdigest()
         payload = dict(model=model, prompt=original["prompt"], task="ref2va", conditions=conditions,
                        target=dict(short_edge=768, aspect_ratio="16:9", duration_seconds=5.0),
                        seed=original["seed"], num_inference_steps=8, quality="exact")
-        (OUT / "sglang-private-request.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
-        for repeat in range(2):
+        if BACKEND == "uniserve":
+            del payload["num_inference_steps"], payload["quality"]
+        (OUT / f"{BACKEND}-private-request.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+        for repeat in range(int(os.environ.get("H3_FRAMEWORK_REPEATS", "2"))):
             started = time.monotonic()
             response = client.post(base + "/v1/videos", json=payload, timeout=60)
             if not response.ok:
@@ -75,7 +84,7 @@ def main():
                 response.raise_for_status()
                 job = response.json()
                 row.update(status=job["status"], elapsed_s=time.monotonic() - started)
-                (OUT / f"sglang-job-{repeat}.json").write_text(json.dumps(job, indent=2) + "\n")
+                (OUT / f"{BACKEND}-job-{repeat}.json").write_text(json.dumps(job, indent=2) + "\n")
                 save()
                 if job["status"] == "completed":
                     break
@@ -88,7 +97,7 @@ def main():
             else:
                 raise TimeoutError("Candidate request exceeded 25 minutes")
             row["wall_s"] = time.monotonic() - started
-            media = OUT / f"sglang-result-{repeat}.mp4"
+            media = OUT / f"{BACKEND}-result-{repeat}.mp4"
             with client.get(base + "/v1/videos/" + row["id"] + "/content", timeout=120, stream=True) as response:
                 response.raise_for_status()
                 with media.open("wb") as output:
@@ -98,17 +107,16 @@ def main():
                 "stream=codec_type,width,height,nb_frames,r_frame_rate:format=duration,size", "-of", "json", str(media)], text=True))
             subprocess.run(["ffmpeg", "-v", "error", "-i", str(media), "-f", "null", "-"], check=True)
             save()
-        report["status"] = "two_requests_measured_not_quality_equivalence_validated"
+        report["status"] = "requests_measured_not_quality_equivalence_validated"
     except Exception as error:
         report.update(status="failed", error=type(error).__name__ + ": " + str(error))
         raise
     finally:
         report["finished"] = time.time()
         save()
-        if (OUT / "sglang-server-launch.log").exists():
-            subprocess.run(["systemctl", "--user", "stop", UNIT], check=False)
+        subprocess.run(["systemctl", "--user", "stop", UNIT], check=False)
         journal = subprocess.run(["journalctl", "--user", "-u", UNIT, "--no-pager", "-o", "cat"], capture_output=True, text=True).stdout
-        (OUT / "sglang-server.log").write_text(journal)
+        (OUT / f"{BACKEND}-server.log").write_text(journal)
 
 
 if __name__ == "__main__":

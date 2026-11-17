@@ -1,0 +1,187 @@
+diff --git a/uniserve/runtime/layer_weights.py b/uniserve/runtime/layer_weights.py
+index 18d753e..a0e8bec 100644
+--- a/uniserve/runtime/layer_weights.py
++++ b/uniserve/runtime/layer_weights.py
+@@ -147,7 +147,7 @@ class LayerWeights:
+     """
+ 
+     @torch.no_grad()
+-    def __init__(self, layers: Sequence[nn.Module]):
++    def __init__(self, layers: Sequence[nn.Module], *, execution_device=None):
+         layers = tuple(layers)
+         if len(layers) < 4:
+             raise ValueError("streaming needs at least four layers")
+@@ -173,10 +173,14 @@ class LayerWeights:
+             for parameters, _, _ in placements
+             for parameter, _ in parameters
+         }
+-        if len(devices) != 1 or next(iter(devices)).type != "cuda":
++        host_load = execution_device is not None
++        if len(devices) != 1 or (next(iter(devices)).type != "cuda" and not host_load):
+             raise ValueError("streamed weights must share one CUDA device")
+ 
+-        self.device = next(iter(devices))
++        source_device = next(iter(devices))
++        self.device = source_device if execution_device is None else torch.device(execution_device)
++        if self.device.type != "cuda" or (host_load and source_device.type != "cpu"):
++            raise ValueError("CPU-loaded streaming requires CPU weights and a CUDA execution device")
+         self.slots = _slots(len(layers), 4)
+         self.ahead = self.slots - 2
+         self.layer_bytes = placements[0][2]
+@@ -187,24 +191,33 @@ class LayerWeights:
+         ]
+         # One page-locked host region of exactly every layer's bytes; the
+         # caching pinned allocator would round each layer to a power of two.
+-        self._region = torch.empty(
+-            len(layers) * self.layer_bytes, dtype=torch.uint8
+-        )
+-        torch.cuda.check_error(
+-            torch.cuda.cudart().cudaHostRegister(
+-                self._region.data_ptr(), self._region.numel(), 0
++        self._regions = []
++        if not host_load:
++            self._region = torch.empty(
++                len(layers) * self.layer_bytes, dtype=torch.uint8
+             )
+-        )
+-        self._host = list(self._region.split(self.layer_bytes))
++            torch.cuda.check_error(torch.cuda.cudart().cudaHostRegister(
++                self._region.data_ptr(), self._region.numel(), 0))
++            self._regions.append(self._region)
++            self._host = list(self._region.split(self.layer_bytes))
++        else:
++            self._host = []
+         self._layers: dict[int, int] = {}
+         self._hooks = []
+         for index, (modules, (parameters, stores, _)) in enumerate(
+             zip(projections, placements, strict=True)
+         ):
+-            host = self._host[index]
++            if host_load:
++                host = torch.empty(self.layer_bytes, dtype=torch.uint8)
++                torch.cuda.check_error(torch.cuda.cudart().cudaHostRegister(
++                    host.data_ptr(), host.numel(), 0))
++                self._regions.append(host)
++                self._host.append(host)
++            else:
++                host = self._host[index]
+             for storage, offset in stores:
+                 source = torch.empty(
+-                    0, dtype=torch.uint8, device=self.device
++                    0, dtype=torch.uint8, device=source_device
+                 ).set_(storage)
+                 host[offset : offset + source.numel()].copy_(source)
+             buffer = self._buffers[index % self.slots].untyped_storage()
+@@ -225,6 +238,10 @@ class LayerWeights:
+                     module.register_forward_pre_hook(self._before)
+                 )
+                 self._hooks.append(module.register_forward_hook(self._after))
++            if host_load:
++                # Release each original pageable source as its parameters are
++                # rebound; do not retain two complete host copies at startup.
++                stores.clear()
+         # The released device storages return to the device.
+         torch.cuda.synchronize(self.device)
+         torch.cuda.empty_cache()
+@@ -294,7 +311,8 @@ class LayerWeights:
+         self._stream.synchronize()
+         if self._host:
+             self._host.clear()
+-            torch.cuda.check_error(
+-                torch.cuda.cudart().cudaHostUnregister(self._region.data_ptr())
+-            )
+-            del self._region
++            for region in self._regions:
++                torch.cuda.check_error(torch.cuda.cudart().cudaHostUnregister(region.data_ptr()))
++            self._regions.clear()
++            if hasattr(self, "_region"):
++                del self._region
+diff --git a/uniserve_models/minimax_h3/weights.py b/uniserve_models/minimax_h3/weights.py
+index dd51352..da3507d 100644
+--- a/uniserve_models/minimax_h3/weights.py
++++ b/uniserve_models/minimax_h3/weights.py
+@@ -11,6 +11,7 @@ the tensors of its source it intentionally leaves unloaded.
+ from __future__ import annotations
+ 
+ from collections.abc import Mapping
++import os
+ 
+ import torch
+ from torch import nn
+@@ -174,6 +175,8 @@ def _prepare_adaln_cache(model, config: DenoiserConfig, reader):
+     # These temporary learned projections belong to loading. Only their fixed
+     # step products remain with the numerical transformer after this function.
+     device = next(model.parameters()).device
++    if device.type == "cpu" and os.environ.get("H3_UNISERVE_CPU_LOAD") == "1":
++        device = torch.device("cuda", torch.cuda.current_device())
+     with torch.device("meta"):
+         embedding = TimestepEmbedding(model.config)
+     for index, source in ((0, "linear_1"), (2, "linear_2")):
+@@ -247,6 +250,8 @@ def _prepare_heads(model, grids: Mapping[str, FixedGrid], reader):
+         ValueError: A modality's grid is not a PDD block grid.
+     """
+     device = next(model.parameters()).device
++    if device.type == "cpu" and os.environ.get("H3_UNISERVE_CPU_LOAD") == "1":
++        device = torch.device("cuda", torch.cuda.current_device())
+     for projection, source, grid in (
+         (model.video_output, "proj_out", grids["video"]),
+         (model.audio_output, "audio_proj_out", grids["audio"]),
+diff --git a/uniserve_worker/bootstrap/model_loader.py b/uniserve_worker/bootstrap/model_loader.py
+index f33cf2b..f0152c8 100644
+--- a/uniserve_worker/bootstrap/model_loader.py
++++ b/uniserve_worker/bootstrap/model_loader.py
+@@ -14,6 +14,7 @@ partitioning, and resolves the load-time ``WorkerConfig``. The launch's
+ from __future__ import annotations
+ 
+ import logging
++import os
+ from collections.abc import Mapping
+ from dataclasses import dataclass, replace
+ from importlib import import_module
+@@ -420,12 +421,18 @@ def load_worker_model(
+                 "experts",
+                 experts.device,
+             )
++    devices = dict(_devices(description, config.execution.generation_device) or {})
++    if os.environ.get("H3_UNISERVE_CPU_LOAD") == "1":
++        for name, binding in bindings.items():
++            if binding.config.weights == "host":
++                for path in _outermost(declarations.get(name, ())):
++                    devices[path] = "cpu"
+     loaded = models.load_model(
+         source,
+         device=config.execution.device,
+         meshes=meshes,
+         attention=attention,
+-        devices=_devices(description, config.execution.generation_device),
++        devices=devices or None,
+         experts=partition,
+     )
+     model = loaded.model
+@@ -507,10 +514,24 @@ def _stream_host_weights(
+                 f"not {device}"
+             )
+         for path in _outermost(declarations.get(name, ())):
++            module = model.get_submodule(path)
++            if not any(parameter.ndim >= 2 for parameter in module.parameters()):
++                continue
+             resident = torch.cuda.memory_allocated(device)
+             try:
+-                layers = layer_stack(model.get_submodule(path))
+-                streamed = LayerWeights(layers)
++                layers = layer_stack(module)
++                host_load = os.environ.get("H3_UNISERVE_CPU_LOAD") == "1"
++                streamed = LayerWeights(layers, execution_device=device if host_load else None)
++                if host_load:
++                    # Projection matrices now point at device staging buffers;
++                    # move the remaining norms, biases, endpoints and caches.
++                    for parameter in module.parameters():
++                        if parameter.device.type == "cpu":
++                            parameter.data = parameter.data.to(device)
++                    for child in module.modules():
++                        for key, value in child._buffers.items():
++                            if value is not None and value.device.type == "cpu":
++                                child._buffers[key] = value.to(device)
+             except ValueError as error:
+                 raise unsupported_setup(
+                     f"component {name} cannot stream {path!r} from host "

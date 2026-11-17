@@ -1,0 +1,39 @@
+diff --git a/python/sglang/multimodal_gen/runtime/layers/attention/backends/video_sparse_attn_h3.py b/python/sglang/multimodal_gen/runtime/layers/attention/backends/video_sparse_attn_h3.py
+index eb67d57..860ed84 100644
+--- a/python/sglang/multimodal_gen/runtime/layers/attention/backends/video_sparse_attn_h3.py
++++ b/python/sglang/multimodal_gen/runtime/layers/attention/backends/video_sparse_attn_h3.py
+@@ -31,6 +31,7 @@ selected key set is unchanged.
+ 
+ import functools
+ import math
++import os
+ import re
+ from dataclasses import dataclass, field
+ from typing import Any
+@@ -603,6 +604,11 @@ class VideoSparseAttentionH3Impl(AttentionImpl):
+         from sglang.multimodal_gen.runtime.layers.attention.backends.flash_attn import (
+             FlashAttentionImpl,
+         )
++        if os.environ.get("H3_FRAMEWORK_EXPERIMENTAL_SM120") == "1" and torch.cuda.get_device_capability() == (12, 0):
++            # Native PyTorch varlen dense attention for token refinement only;
++            # packed video blocks retain the trained sparse policy below.
++            from sglang.multimodal_gen.runtime.layers.attention.backends.sdpa import SDPAImpl
++            FlashAttentionImpl = SDPAImpl
+ 
+         self._dense_fallback = FlashAttentionImpl(
+             num_heads=num_heads,
+diff --git a/python/sglang/multimodal_gen/runtime/platforms/cuda.py b/python/sglang/multimodal_gen/runtime/platforms/cuda.py
+index af25399..a1de2db 100644
+--- a/python/sglang/multimodal_gen/runtime/platforms/cuda.py
++++ b/python/sglang/multimodal_gen/runtime/platforms/cuda.py
+@@ -270,6 +270,10 @@ class _VideoSparseAttentionBackendResolver(_CudaAttentionBackendResolver):
+ # natively before Hopper (see vsa_h3_kernels.py). Older architectures still
+ # fail closed.
+ VSA_H3_CAPABILITIES = frozenset({(8, 0), (9, 0), (10, 0), (10, 3)})
++if os.environ.get("H3_FRAMEWORK_EXPERIMENTAL_SM120") == "1":
++    # Local benchmark only. The descriptor kernel was independently exercised
++    # on this SM120 card; the full H3 pipeline still needs acceptance.
++    VSA_H3_CAPABILITIES = VSA_H3_CAPABILITIES | {(12, 0)}
+ 
+ 
+ class _VideoSparseAttentionH3BackendResolver(_CudaAttentionBackendResolver):

@@ -38,7 +38,7 @@ def main():
                 "--component-attention-backends", "transformer=video_sparse_attn_h3",
                 "--attention-backend-config", '{"VSA_sparsity":0.9,"vsa_tile_size":128,"vsa_ref_keep_rate":0.1}',
                 "--layerwise-offload-components", "dit,text_encoder,vae",
-                "--dit-layerwise-resident-layers", "36",
+                "--dit-layerwise-resident-layers", os.environ.get("H3_FRAMEWORK_RESIDENT_LAYERS", "24"),
                 "--layerwise-resident-layers", "video_vae=36",
                 "--component-precisions.video_vae", "fp32",
                 "--component-precisions.audio_vae", "fp32",

@@ -1,0 +1,78 @@
+{
+  "status": "two_requests_measured_not_quality_equivalence_validated",
+  "started": 1794906015.651547,
+  "runs": [
+    {
+      "repeat": 0,
+      "id": "df550d2c-7972-4465-9891-689eba049b31",
+      "status": "completed",
+      "elapsed_s": 667.6789951780811,
+      "wall_s": 667.6791827131528,
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1344,
+            "height": 768,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.175000",
+          "size": "672877"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "id": "02d6e6ce-a1ea-4453-9554-80b70cd62233",
+      "status": "completed",
+      "elapsed_s": 613.5105433110148,
+      "wall_s": 613.5107049332,
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1344,
+            "height": 768,
+            "r_frame_rate": "24/1",
+            "nb_frames": "124"
+          },
+          {
+            "codec_type": "audio",
+            "r_frame_rate": "0/0",
+            "nb_frames": "163"
+          }
+        ],
+        "format": {
+          "duration": "5.175000",
+          "size": "672876"
+        }
+      }
+    }
+  ],
+  "baseline_s": 759.2129165099468,
+  "precision": "BF16 DiT and text encoder, original 36L FP32 VAE",
+  "numerical_note": "SGLang fuses PDD heads and uses its native VSA; no claim of bitwise equivalence",
+  "local_sm120_adapter": true,
+  "readiness_wait_s": 52.1831489559263,
+  "reference_sha256": {
+    "image": "472d633ea178e30cd3395a3f7290257a6dbbbbe0f6b2fbc653706d1a251c570a",
+    "video_audio": "893bc0f630dc18ceca2503929d7b1eff9b952d0149480d91d428ccbf892cc236"
+  },
+  "finished": 1794907349.2754068,
+  "service_stop_note": "Both HTTP requests and media decode completed. Afterwards the 2-second transient-unit shutdown deadline killed remaining server workers; unit Result=timeout is shutdown, not failed inference.",
+  "source_commit": "8e737da037ddf967d9b1bab778f48fb35275d7ee",
+  "adapter_patch": "patches/sglang-h3-sm120-experimental.patch",
+  "sampled_frames_visual_check": "Frames 0,60,123: recognizable character, intact scene, no black/corrupt sampled frames; does not establish quality equivalence."
+}
