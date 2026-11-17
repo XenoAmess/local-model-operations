@@ -2253,3 +2253,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[937有限恢复条款](evidence/2026-11-17-civ6-http937-finite-recovery-clause-review.json)。Nov17成功维护1.19.5缓存和原生生成0保持；有限条款审阅与未执行见证方案不授OpenCode生成或Native能力。
 
 2026-11-17：[936后续独立观察器与两组原值](evidence/2026-11-17-civ6-http936-census-preparation-two-pairs.json)。独立观察器Owner编译与配对原值不授OpenCode生成；Nov17既有1.19.5维护成功缓存、原生生成0保持，此单元0新增维护／生成请求。
+
+2026-11-17：[938与当前压力阶段消费者](evidence/2026-11-17-civ6-http938-input-audit-and-pressure-stages.json)。四阶段消费者和Lua载荷为Owner软件准备，未授OpenCode生成能力；Nov17既有1.19.5成功维护缓存、原生生成0保持，HTTP404与原生能力继续分账。

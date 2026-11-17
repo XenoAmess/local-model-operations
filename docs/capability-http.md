@@ -7214,3 +7214,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[937有限恢复条款](evidence/2026-11-17-civ6-http937-finite-recovery-clause-review.json)。937新未完成有限TC039条款及下一见证候选13来源473884字节，单POST40424.0788ms自然终态1，0候选／采用／extra；快速结束无停止文件，EVENTS证明单POST。Owner复核同版／旧暂停／旧经营效果独立范围，160未知78档尚未重载，旧865恢复FAIL不豁免。只设计下一冷读／普通79／重复存读，0新Native或PASS。第一组原5差值全留，中位-261ms/-4.156%，+1010ms长增量不滤，25段继续。累计937／816完整／68length／53最终请求失败／976POST／38extra／0在途。
 
 2026-11-17：[936后续独立观察器与两组原值](evidence/2026-11-17-civ6-http936-census-preparation-two-pairs.json)。936既有404后Owner继续真实压力接入，独立观察包119文件／97Lua双编译，12实际Lua载荷双编译及8动态Python体AST通过、0Native；MANY／NO_SITE当前资格仍NOT_RUN。两组10配对段保存撤钩退出齐全但不授25段通过，全部正向尖峰保留。空格锚点、code-object与异常预期、退出收据分支误判均为Owner工具链纠正，未增加HTTP或模型能力。累计937／816完整／68length／53最终请求失败／976POST／38extra／0在途保持。
+
+2026-11-17：[938与当前压力阶段消费者](evidence/2026-11-17-civ6-http938-input-audit-and-pressure-stages.json)。938真实十侧输入审计候选16来源55063字节，1POST40423.0813ms／自然终态1／0候选采用extra，EVENTS核只有一次POST、无停止文件。Owner接管草稿尚待验证。936既有失败范围继续落地46当前160压力阶段消费者，四阶段119文件／来源／ZIP／helper和保护档检查、实际玩家及全脚本夹具双编译通过，0Native、资格及矩阵仍NOT_RUN。第三启用侧11.215秒段保留，不授配对结论。累计938／816完整／68length／54最终请求失败／977POST／38extra／0在途。
