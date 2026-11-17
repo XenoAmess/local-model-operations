@@ -2287,3 +2287,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[948冷启新鲜离线证明修复](evidence/2026-11-17-civ6-948-cold-offline-proof-expiry-repair.json)。948及Owner准入软件验证不授OpenCode原生生成；Nov17同机同用户canonical1.19.5成功维护缓存、原生生成0保持。
 
 2026-11-17：949及Owner工厂／Executor软件检查不授OpenCode原生生成；同机同用户Nov17canonical1.19.5成功维护缓存、原生生成0保持，见[本次证据](evidence/2026-11-17-civ6-949-root-labelled-zero-profile.json)。
+
+2026-11-17：950及Owner消费者软件检查不授OpenCode原生生成；Nov17同机同用户canonical1.19.5维护成功缓存与原生生成0保持，见[精确END消费者边界](evidence/2026-11-17-civ6-950-precise-end-consumers.json)。
