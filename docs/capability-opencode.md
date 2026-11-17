@@ -2345,3 +2345,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17: 969–976 used canonical same-machine/user Nov17 maintenance success cache1.19.5. Native OpenCode generation0;404 HTTP outcomes and Owner software verification confer no native generation capability. [Separate evidence](evidence/2026-11-17-civ6-source161-fixes-http969-976.json).
 
 2026-11-18: [Same-machine/user canonical daily maintenance](evidence/2026-11-18-civ6-private-helper-fence977.json). First977 generation preflight updated installed1.19.5→1.19.6, registry latest1.19.6 matched; successful daily cache now Nov18. Native OpenCode generation0. Subsequent HTTP404 is separately accounted and does not grant code-generation capability.
+
+2026-11-18: 978 used canonical same-machine/user successful daily1.19.6 maintenance cache after977update, native OpenCode generation0. HTTP404/Owner Native diagnostics remain separate capabilities. [Evidence](evidence/2026-11-18-civ6-wake969-zero-native-http978.json).
