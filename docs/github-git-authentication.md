@@ -2,6 +2,14 @@
 
 2026-11-17，执行机器为当前 Ubuntu 主机。目标仓库为 `https://github.com/XenoAmess/local-model-operations.git`，主分支为 `main`。
 
+## 恢复验收
+
+用户完成设备授权后，GitHub CLI 已登录 `XenoAmess`，令牌保存在系统 keyring；仓库 API 确认该账号有 push 权限。已配置持久的 GitHub credential helper 为 `~/.local/bin/gh auth git-credential`，后续 Git 推送通过该助手取得凭据。
+
+远端有其它客户端同时提交，首次同步后的推送被 fast-forward 检查拒绝；重新 fetch、检查远端仅涉及其它业务文档后，安全 rebase 并成功推送。研究、配置、补丁、实测证据及本文的首次发布提交为 `2199dd13c72cd5463db263e03e009e2d70120e4d`，实际 `git ls-remote` 已核对远端 SHA。没有强推、覆盖他人提交或调整模型服务。
+
+以下为修复前的历史证据和今后的恢复流程，不表示当前仍缺少认证。
+
 ## 实际故障与证据
 
 - 当前工作副本于当天 14:25 从公开 HTTPS 地址克隆；本机 `origin/main` reflog 记录的是 fetch，没有成功 push 记录。读取公开仓库成功不能证明写入认证可用。
