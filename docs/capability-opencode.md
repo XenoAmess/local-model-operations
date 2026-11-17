@@ -2341,3 +2341,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17: 967 reused canonical Nov17 same-machine/user maintenance cache; Owner regression/log-reader work does not grant OpenCode native generation, which remains0. [Evidence boundaries](evidence/2026-11-17-civ6-three-fix-regressions-large-log967.json).
 
 2026-11-17: 968 retained canonical same-machine/user Nov17 maintenance success cache; native OpenCode generation0. Owner Native qualifications and software correction remain separate. [Evidence scope](evidence/2026-11-17-civ6-native-wake-qualification.json).
+
+2026-11-17: 969–976 used canonical same-machine/user Nov17 maintenance success cache1.19.5. Native OpenCode generation0;404 HTTP outcomes and Owner software verification confer no native generation capability. [Separate evidence](evidence/2026-11-17-civ6-source161-fixes-http969-976.json).
