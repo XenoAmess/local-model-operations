@@ -1,0 +1,65 @@
+{
+  "schema": "local-model-operations.case/v1",
+  "case_id": "2026-11-18-hoi4-peace-copy-provider404",
+  "mode_id": "http-candidate",
+  "observed_at_utc": "2026-11-17T18:34:26.022682+00:00",
+  "task": "Draft actual HOI4 promo copy based on supplied Workshop peace/anti-racial-discrimination text after user rejected old copy.",
+  "input_closure": "Full Workshop description, original director script/casting shot plan and explicit bounded Chinese editorial contract.",
+  "model": "qwen38-coder",
+  "max_tokens": 1800,
+  "request": {
+    "bytes": 25114,
+    "sha256": "5eb0b2cc668fba8930801191eed5938349d218259a3e4495fb392aa574cf906f"
+  },
+  "source_bindings": [
+    {
+      "path": "mod_nailong/docs/workshop-description.bbcode",
+      "bytes": 5491,
+      "sha256": "2ccf071ec8b461876f3a5a343cb7f70f0475bb2c8fce6d3540d2e271a887d5e8"
+    },
+    {
+      "path": "mod_nailong/promo/1.0/director-script.zh-CN.md",
+      "bytes": 11103,
+      "sha256": "a041d2c8416a90b94a7d4ce754236050bcb322263c66d7a4f7b791b1019bfa19"
+    },
+    {
+      "path": "mod_nailong/promo/1.0/shot-plan.json",
+      "bytes": 5619,
+      "sha256": "ce686c7efa370233caac73dcc47fc7cb9cabaaae80504ff2ef52ff80d0f16183"
+    }
+  ],
+  "transport": {
+    "http_status": 404,
+    "finish_reason": null,
+    "sse_done": false,
+    "candidate_complete": false,
+    "usage": null,
+    "cached_prompt_tokens_if_reported": null,
+    "total_ms": 106.65980004705489
+  },
+  "response_body": "{\"is_bifrost_error\":false,\"status_code\":404,\"error\":{\"message\":\"provider API error (status 404)\"}}",
+  "concurrency": {
+    "scope": "This one named request only; unrelated consumers unknown",
+    "post_begin_utc": "2026-11-17T18:26:29.991100+00:00",
+    "attempt_end_utc": "2026-11-17T18:26:30.093445+00:00",
+    "peak": 1,
+    "duration_seconds": 0.102345,
+    "current": 0
+  },
+  "diagnosis": "Actual shared canonical DIRECT provider returned404 with provider API error. No candidate returned; underlying provider/router cause unknown. Not a model semantic failure or capability limit.",
+  "followthrough": "Canonical404 is not a configured transient retry. Retained request/error, no replay/endpoint fallback/restart. Owner wrote the new copy independently and actual Edge Xiaoxiao synthesis is separate external TTS work, not this model output.",
+  "adoption": {
+    "code": 0,
+    "prose": 0,
+    "candidate_received": false
+  },
+  "daily_check": "2026-11-18 canonical cached successful1.19.6 check was executed before POST.",
+  "cost": {
+    "http_ms": 106.65980004705489,
+    "owner_seconds": null,
+    "net_saving": null,
+    "cache_benefit": null
+  },
+  "raw_evidence": "Consumer ignored runtime/local-model-operations/promo-peace-copy-20261118/response. Raw requests/copy materials not uploaded here.",
+  "next_real_trigger": "Diagnose provider404 from authoritative service information before a genuinely new source-ready local model task; do not requeue this already owner-completed copy task."
+}
