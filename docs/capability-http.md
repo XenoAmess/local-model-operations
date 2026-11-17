@@ -7236,3 +7236,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-17：[942压力输入审计软件后续](evidence/2026-11-17-civ6-942-pressure-input-audit-software.json)。942Owner压力输入审计适配完成软件检查：MANY／NO_SITE各25负／3阳；原85代码／实际900SKIP结论保持。克隆当前首MANY实际捕获／首步为合成十侧，原始全ID替换顺序负例缺陷已发现并修正，绝不授真实十侧／NO_SITE输入通过。首启用侧8.535秒原值保留，配对继续。0新增HTTP，942／816完整／68length／58最终请求失败／981POST／38extra／0在途。
 
 2026-11-17：[943有限重复读档编排](evidence/2026-11-17-civ6-943-finite-repeated-load-episode.json)。943新未完成的有限重复读档编排候选，14源340505字节、一次POST404／43.320300ms／0完整采用extra。Owner3真实玩家载荷双Lua、26VM含20负例、mock实际flow的1END78／3load／2save／未知END停止检查通过；没有Native78读档或79证明。非性能收尾用自身持久日志／保存／撤观察凭证，不伪造formal记录。累计943／816完整／68length／59最终请求失败／982POST／38extra／0在途；真实回合和重复载入继续待验。
+
+2026-11-17：[既有404错误体只读核查](evidence/2026-11-17-civ6-existing-provider404-body-audit.json)。943原件HTTP-ERROR已保留99字节／SHA6f66d3…，实际分类is_bifrost_error=false/status404/provider API error；不能推定具体上游URL／模型状态／认证路由原因。0新POST／GET，0调用器或配置修改，不新增第二套HTTP。943账本不变，OpenCode维护与原生生成0保持。

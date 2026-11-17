@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-17",
+  "utc": "2026-11-17T05:11:35.143952+00:00",
+  "machine": "BF-202609141645",
+  "task_id": "civ6-943-current160-tc039-witness-episode",
+  "mode_id": "Owner readonly existing raw-error audit, no new request",
+  "project_context": "https://github.com/XenoAmess/civ6_dev/blob/b32b9ea44653d33ec3dc8fef31106f925164750c/docs/research/baiqi-source160-tc039-episode-http943-2026-11-17.json",
+  "actual_existing_HTTP_error_body": {
+    "is_bifrost_error": false,
+    "status_code": 404,
+    "error": {
+      "message": "provider API error (status 404)"
+    }
+  },
+  "bytes": 99,
+  "sha256": "6f66d335274d5d5cba42445c38009750e4347777bd4fefb328da7813e28ef4ee",
+  "actual_network_POST_or_GET": 0,
+  "shared_caller_or_config_changes": 0,
+  "conclusions": [
+    "Canonical caller already retained ATTEMPT1-HTTP-ERROR.txt; do not invent an error-body collection gap or a second HTTP implementation without inspecting the existing artifact.",
+    "Response labels its error provider API error(status404)and is_bifrost_error:false. This is the observed response classification only, not proof of a particular provider endpoint/model/auth/service/rootcause.",
+    "No alternateendpoint/model or configuration rewrite was attempted. Keep fullrequests/SSE/private metadata ignored; public error body contains no account, authorization or prompt contents.",
+    "HTTP failure remains failure with no completeSSE/JSONcandidate adopted. Owneractual game/software progress remains independent; OpenCode dailycache/nativegeneration capability is unchanged."
+  ],
+  "unknown": {
+    "actual_upstream_URL": null,
+    "provider_model_state": null,
+    "provider_auth_or_routing_cause": null,
+    "physical_backend_peer": null,
+    "cached_tokens": null,
+    "Owner_active_cost": null,
+    "net_savings": null
+  },
+  "ledger_unchanged": {
+    "logical": 943,
+    "complete": 816,
+    "length": 68,
+    "final_request_failures": 59,
+    "generation_POST": 982,
+    "extra_POST": 38,
+    "inflight": 0,
+    "OpenCode_native_generation": 0
+  }
+}
