@@ -2285,3 +2285,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-17：[947既有END宽区间与前提更正](evidence/2026-11-17-civ6-947-existing-end-envelope-correction.json)。947既有原件分析与Owner代码准备不授OpenCode原生生成；Nov17canonical1.19.5同机同用户维护缓存成功、原生生成0保持。
 
 2026-11-17：[948冷启新鲜离线证明修复](evidence/2026-11-17-civ6-948-cold-offline-proof-expiry-repair.json)。948及Owner准入软件验证不授OpenCode原生生成；Nov17同机同用户canonical1.19.5成功维护缓存、原生生成0保持。
+
+2026-11-17：949及Owner工厂／Executor软件检查不授OpenCode原生生成；同机同用户Nov17canonical1.19.5成功维护缓存、原生生成0保持，见[本次证据](evidence/2026-11-17-civ6-949-root-labelled-zero-profile.json)。
