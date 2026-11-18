@@ -7462,3 +7462,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[1011 Owner配对准备](evidence/2026-11-19-civ6-source163-nosite-pair-consumers1011.json)：在既已记录的候选404后完成真实NO_SITE配对消费者，50实际Lua入口正反例、119文件启用／对照核验和64MiB Continue检查通过，未运行Native、未新增模型调用。通用教训：Python数字token迁移不能覆盖Lua字符串版本；冷实例收据和捕获标签须分清；保留原程序设置锁定文件。
 
 2026-11-19：[1012真实MANY资格准备](evidence/2026-11-19-civ6-source163-many-census1012.json)：正式记录前的真实任务单POST404/76.6296ms，无采用。Owner在正式释放后的退场等待期构建119／97独立census包、5消费者，12实际Lua双编译／8 Python生成核对，0 Native，MANY仍未运行。生成器缩进在写新文件/构建前被AST拒绝后修正，原错误保留。累计1012逻辑／816完整／68length／128最终失败／1051生成POST，extra旧观察38不变、0在途、成本null。
+
+2026-11-19：[1013护送预检与输入审计](evidence/2026-11-19-civ6-source163-escort-input-audit1013.json)：真实候选单POST404/30.8981ms，源路径错误先在POST前拒绝。Owner据实际官方SDK消费写只读helper，42双Lua场景及真实产品Policy边界、输入审计26负例／3正例通过；0 Native／命令，不授实机TC020或十侧输入通过。累计1013逻辑／816完整／68length／129最终失败／1052生成POST，extra旧38不变、0在途、成本null。
