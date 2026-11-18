@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-18",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/38926dea86a5b575bc87eb9d5ed254ca56b17935/docs/research/baiqi-current162-core1002-durable-events-software-2026-11-18.json",
+  "model1002": {
+    "started_at_utc": "2026-11-18T11:49:11.570184+00:00",
+    "http_status": 404,
+    "total_ms": 74.71760013140738,
+    "finish_reason": null,
+    "sse_done": false,
+    "usage": null,
+    "cached_prompt_tokens_if_reported": null,
+    "candidate_complete": false
+  },
+  "owner_correction": "First synthetic Lua51 setter_recursive test failed: Read during setter did not invalidate transaction. Owner added read guards across arming/recording/persisting/writing/reading before all126 verified cases. No model code adopted; failed original preserved.",
+  "software_scenarios": 126,
+  "scope": [
+    "Only separate diagnostic Player property is written and exactly read back; original settlement bank never written. One-use Arm carries old bank/token/request and new diagnostic request. Six captured Core callback bindings, typed nil-preserving raw arguments, 64 first rows, overflow/foreign/unknown write permanently invalidates.",
+    "Arm requires pendingfalse/moves2; callback contexts allow pendingtrue and moves0. Fault tests cover before/after setter error, argument mutation, foreign readback, zero-return getter, callbacks/Read reentry, history/reload, foreign hooks/ports, detached exports, all six channels and maximum arity/capacity.",
+    "Intent.stage=ARMED is persisted before runtime armed flag transitions. Diagnostic stored snapshot can therefore have armed=false at intent write; no native acknowledgement inferred. Retirement removes captured observers only; historical durable payload is not rewritten as a native cancellation receipt.",
+    "Both journal_clear_permitted and replay_permitted alwaysfalse. Raw occurrences, duplicates and ticks do not grant global native queue barrier, semantic cancellation, retirement of original ARMED, or permission to retry FOUND. Actual private UI package, current162 natural WAKE and durable save/reload still pending. Existing old865 recovery FAIL and MANY/NO_SITE pressure FAIL remain."
+  ],
+  "OpenCode_native_generation": 0,
+  "cost_and_savings": null
+}
