@@ -2353,3 +2353,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-19：[本机新自然日维护](evidence/2026-11-19-civ6-source163-instrumented-gate1009.json)：BF-202609141645／Administrator首次模型使用前，规范维护确认installed/latest均1.19.6、updated=false，成功后才发送1009真实HTTP请求。该事实只授本日维护合规，OpenCode原生生成0；随后HTTP404无候选，不转授模型／工具能力或未知成本。
 
 2026-11-19：[1010维护沿用](evidence/2026-11-19-civ6-source163-entry-guards1010.json)：同机同用户复用当天1009前成功的1.19.6日检缓存，无重复维护或原生代码生成。维护不代表HTTP模型可用，实际请求仍404。
+
+2026-11-19：[1011缓存与采样隔离](evidence/2026-11-19-civ6-source163-nosite-fullscript-r2-1011.json)：同机同用户沿用当天成功1.19.6维护缓存，正式实机记录已释放且官方退出后才调用HTTP。维护成功不授HTTP候选或OpenCode原生生成能力，后者累计0。
