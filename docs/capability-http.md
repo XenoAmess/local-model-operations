@@ -7494,3 +7494,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[已知配置模型不可用后的Owner继续](evidence/2026-11-19-civ6-source163-escort-inventory-consumer.json)：普通163只读护送调用程序22项软件检查，0新生成POST/0Native/0模型采用；不将Owner实现补记候选调用，服务配置未改，实机业务继续。
 
 2026-11-19：[已知配置服务不可用时的Owner隔离工具](evidence/2026-11-19-civ6-source163-tc038-scoped-guard-software.json)：0生成POST/0模型采用；实际SDK编译及8辅助程序自测、14调用器检查通过，0Civ6过滤/0Native。自有辅助程序连接阻断与独立清理不授游戏隔离或经济用例通过；Owner业务继续，未知成本null。
+
+2026-11-19：[已知配置模型不匹配时的Owner财务准备](evidence/2026-11-19-civ6-source163-finance-guard-compatibility.json)：0新生成POST/0采用，真实Source163最终招募观察16双Lua场景、119文件/97Lua及12隔离调用器兼容检查；只精确财务QA额外准入，不放宽其它包，游戏经济与隔离尚未实测。
