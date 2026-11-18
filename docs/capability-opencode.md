@@ -2349,3 +2349,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-18: 978 used canonical same-machine/user successful daily1.19.6 maintenance cache after977update, native OpenCode generation0. HTTP404/Owner Native diagnostics remain separate capabilities. [Evidence](evidence/2026-11-18-civ6-wake969-zero-native-http978.json).
 
 2026-11-18: [987988 canonical HTTP provenance](evidence/2026-11-18-civ6-full-save-import-index987988.json). Daily maintenance delegated to canonical call.py with established Nov18 same-machine/user successful1.19.6 cache; no new OpenCode native tool/code generation, HTTP404 does not grant capability.
+
+2026-11-19：[本机新自然日维护](evidence/2026-11-19-civ6-source163-instrumented-gate1009.json)：BF-202609141645／Administrator首次模型使用前，规范维护确认installed/latest均1.19.6、updated=false，成功后才发送1009真实HTTP请求。该事实只授本日维护合规，OpenCode原生生成0；随后HTTP404无候选，不转授模型／工具能力或未知成本。
