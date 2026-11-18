@@ -7476,3 +7476,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[1015 MANY真实准备](evidence/2026-11-19-civ6-source163-many-preparation1015.json)：单POST404/39.2356ms，无采用。Owner规范T6两包119/97及13规划消费者、实际Lua52语义断言通过；自然资格已有游戏证据，正式性能未执行。累计1015逻辑/816完整/68length/131最终失败/1054生成POST、旧extra38不变、0在途、成本null。
 
 2026-11-19：[1016与MANY StageA](evidence/2026-11-19-civ6-source163-many-stagea-fullprep1016.json)：真实配对消费者任务单POST404/83.3585ms，开始及结束均早于正式记录。Owner全脚本17消费者/40Lua语义断言/实际插桩34VM完成软件准备；游戏MANY B_plan=PASS另核全部原值。累计1016逻辑/816完整/68length/132最终失败/1055生成POST、旧extra38不变、0在途、成本null。
+
+2026-11-19：[1017与MANY全脚本](evidence/2026-11-19-civ6-source163-many-fullscript-pairprep1017.json)：原85 StageA消费者真实任务单POST404/20.0326ms，无采用且早于正式区间。Owner配对12＋3消费者、50Lua语义及26反例3正例完成软件准备；当前MANY B_turn／N_req=PASS另有实机核算。累计1017逻辑/816完整/68length/133最终失败/1056生成POST、extra38不变、0在途、成本null。
