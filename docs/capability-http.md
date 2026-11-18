@@ -7450,3 +7450,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-18：[163门控原生复测](evidence/2026-11-18-civ6-source163-native-turn-gate.json)：Owner普通包新鲜离线冷启，实际Sent=true／active+strategic=true／busy=false时IsAvailable=false，下一原生T4激活自动恢复true，Admin自然继续；312行零丢失并撤钩保存。0新增模型请求／采用，累计1007／1046POST不变。窄功能证明不转授性能，完整mod继续。
 
 2026-11-18：[1008当前163 NO_SITE规划验收准备](evidence/2026-11-18-civ6-source163-stageA1008-preparation.json)：真实新生命周期候选任务单POST404/46.2093ms，Owner接管119文件／97双Lua／4096冻结包及14消费者，2正8负前置软件通过，新正式实机尚未运行。几何与MANY自然12义务分开，不借旧资格。累计1008逻辑／816完整／68length／124最终失败／1047生成POST，原extra观察38／OpenCode生成0，未知成本null。
+
+2026-11-18：[163 NO_SITE规划原生PASS](evidence/2026-11-18-civ6-source163-nosite-plan-native.json)：新鲜离线／72.072秒预热／正式先于重载，五窗293原值保留，Admin136纯十城p95/max9/12ms、Controller154约7/9ms，3窗前false验证，保存撤钩释放。父进程只在残留前置检查exit1，原件未追认；重新资格核对后自有terminate1/noKill关闭。0新模型生成，1008逻辑／1047POST不变。窄规划PASS不转授全脚本／请求／配对或整个mod。
