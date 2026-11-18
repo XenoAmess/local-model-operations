@@ -2377,3 +2377,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-19：[1022／1023维护](evidence/2026-11-19-civ6-source163-final-account-gate1022-1023.json)：复用本日同机同用户1.19.6成功缓存，0原生生成；HTTP404与每日维护结果分开。软件防伪和准备不授游戏效果。
 
 2026-11-19：[服务不匹配诊断维护](evidence/2026-11-19-civ6-configured-model404-diagnosis.json)：诊断入口实际ensure_current复用同机同用户本日1.19.6成功缓存，无原生工具生成；健康200和每日维护成功均不授代码候选能力。
+
+2026-11-19：[只读调用程序验证边界](evidence/2026-11-19-civ6-source163-escort-inventory-consumer.json)：本次0OpenCode生成，Native工具生成累计0；Owner Lua回环不授模型能力或游戏效果。
