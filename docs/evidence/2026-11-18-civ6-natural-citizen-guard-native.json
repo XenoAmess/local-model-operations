@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-18",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/a69eea3285c7ca305d4b03b589bd66b6eaf1cc46/docs/research/baiqi-source162-natural-map-citizen-guard-native-2026-11-18.json",
+  "status": "NATURAL_POPULATION_VIEW_MAP_CITIZEN_CLICK_GUARD_REQUEST1_FALSE_ASSETS_EQUAL",
+  "review": [
+    "Installed Expansion2 CityBannerManager population button invokes its native city banner selection and CityPanel_ToggleManageCitizens event. A real held click on actual city196610 population9 opened CITY_MANAGEMENT and Citizen_Management lens even though the CityPanel ManageCitizensCheck remained disabled. No UI enabling or forced lens/API presentation was used. View-only full416field asset reads were equal.",
+    "Actual native citizen target map exposed15visible enabled CitizenButtons. Plot538@10,12 was owned, unworked0 and unlocked0, selected from actual target rows. A single held physical click at its current native rectangle center invoked the existing PlotInfo CityManager.RequestCommand guard once for exact city196610/owner0/MANAGE/coords10,12/current manageparameter1041406338. Existing handler returned one booleanfalse.",
+    "The passive request observer only wrapped the existing per-context guarded function, forwarded every invocation once with exact argument identity/arity and exact return arity, and issued no requests itself. Two actual Lua51/53 software VMs verified zero install requests, nil-containing tuples, metadata failures still forwarding, detached reads, bounded overflow, native exceptions, zero return values, retirement and foreign replacement. Public helper bytes exactly match actual Native helper SHA.",
+    "After the physical citizen click, an independent unguarded Executor asset read showed all416selected fields equal, including citizen lock/count map, queue/focus/purchased land/balances and45units. Native backend request sink was not observed: observed count1 is the existing guard entry, not a backend count. Probe restored the original function and marked retired. No city lock write/fee/unit order/END/QA grant.",
+    "This closes the tested natural citizen-map negative branch and demonstrates information remains viewable. Ordinary map-lock positive, other hotkeys/cancel/reorder/eligible civilian and oldflag cases remain open; no full TC004/022 grant. Existing official held-controls checkpoint is protected and selected assets remain identical; no new SaveGame was performed for these no-effect inputs."
+  ],
+  "whole_mod": "OPEN_CONTINUE"
+}
