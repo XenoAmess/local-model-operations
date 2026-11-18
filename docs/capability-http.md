@@ -7436,3 +7436,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-18：[1002持久事件记录](evidence/2026-11-18-civ6-core1002-durable-events-software.json)：真实任务先行，单POST404／74.7176ms，0候选采用；Owner修复Read重入缺口后126软件场景通过，Native未运行。累计1002逻辑／816完整／68length／118最终失败／1041生成POST，既有额外重试观察38保持；缓存、成本未知。HTTP与OpenCode分轨，维护成功不授代码生成能力。
 
 2026-11-18：[1003自然调度隔离任务](evidence/2026-11-18-civ6-private-wake1003-package.json)：真实未完成问题先行，一次404/196.6405ms，0采用；Owner46联合软件检查与119文件包验证通过，Native尚未运行。累计1003逻辑／816完整／68length／119最终失败／1042生成POST；既有额外重试观察38保持，0在途，OpenCode生成0，成本未知。不得把软件编译、模型HTTP完成或旧版事件提升为实机恢复。
+
+2026-11-18：[持久Core事件实机保存重载](evidence/2026-11-18-civ6-durable-core-events-native-reload.json)：1002/1003均404后Owner接管的私有工具实际4事件／5元数据写入保存重载全量一致、0重发；HTTP候选采用仍0，不能把Owner实机效果归本地模型生成。明确区分原生void返回、Core事件、持久写读、正式Save/Load；SKIP后的清除不授WAKE取消屏障或旧ARMED重放。累计1003保持，OpenCode分轨，成本未知。
