@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-19",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/eb98a114bb059334f7d9cfb8be7e7b30cfc8c413/docs/research/baiqi-source163-original85-instrumented-gate-2026-11-19.json",
+  "review": [
+    "针对原始85默认q21-bounded包的实际UI/BaiqiExecutor字节重新执行规范门控回归，使用包内真实NewContext/NewRoots/NewProfile/NewLeaves，开启录制和计时，不以普通包或NO_SITE变体的哈希代替。",
+    "7个真实测试方法生成34个Lua5.1/5.3模拟环境，全部计时根计数实际增加，容量与丢弃/时钟/注册/锚点/桶/叶错误均核对；两个内存故障包装故意丢尾nil，均被错误放行断言识别。实际包未修改。",
+    "合成环境rawget/rawset/debug=nil，Lua5.3仅补实际Civ端具有的unpack别名；不是关闭权限判断。该软件事实没有新Native上下文/回合/性能预算通过，原始85消费者仍待准备。",
+    "验证在第四对照侧正式释放后的退出等待期执行，起止无正式占用、0 Native/游戏动作/新增模型调用。当前唯一父76440继续十侧配对，整个mod尚未完成。"
+  ],
+  "new_model_calls": 0,
+  "unknown_costs": null
+}
