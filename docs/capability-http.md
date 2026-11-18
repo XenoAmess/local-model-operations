@@ -7442,3 +7442,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-18：[1004八目标观察器与实际军队控制](evidence/2026-11-18-civ6-eight-military-religious-player-controls.json)：真实窄任务单POST404/90.1559ms，0候选采用；Owner32+24+6+48软件场景后完成八类后台隔离／实际玩家移动，未归功模型代码。Tuner Core不继承Gameplay全局纯模块，先错误后证明0创建／0标记，再词法绑定本仓库原模块；解码字段数错误用已有raw离线修正，无业务重放。累计1004逻辑／816完整／68length／120最终失败／1043生成POST，既有额外重试观察38保持，OpenCode生成0，成本未知。
 
 2026-11-18：[1005结束状态只读采集](evidence/2026-11-18-civ6-end1005-typed-observation-smoke.json)：实际静态UI getter与Player缺字段分开，40状态／24跟踪软件场景、当前Native只读smoke通过，尚未观察结束过渡。真实模型单POST404/114.849ms／0采用；Owner修正false字段与缺失混淆，工具准备语法错不归模型。累计1005逻辑／816完整／68length／121最终失败／1044生成POST，旧额外重试观察38保持，OpenCode生成0。不能由getter当前false或已准备trace宣称性能根因、修复或整体验收。
+
+2026-11-18：[1006原子诊断安装与真实结束](evidence/2026-11-18-civ6-atomic-trace1006-native-end.json)：真实新任务一次POST404/54.2895ms，无候选。准备源路径错误在POST前拒绝并保留。Owner42次故障/回滚软件检查，游戏四入口接入后只发一次普通END，T2实际至T3，174行零丢失并撤钩保存。首次七入口只读表安装失败经保存/正常重载清除，不冒称通过；Sent与active短暂同真但Controller入口busy=true，不能据此归因性能。累计1006逻辑／816完整／68length／122最终失败／1045生成POST，旧extra观察38保持，OpenCode生成0。
