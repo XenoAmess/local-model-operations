@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-18",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/f1b3da15a6a5617c10ff257d7a370f01fd622d86/docs/research/baiqi-source162-qa-site405-actual-background-farm-native-2026-11-18.json",
+  "status": "QA_SITE405_ACTUAL_BACKGROUND_FARM_COMPLETE_MANUAL_BUILD_ELIGIBILITY_PREEMPTED",
+  "review": [
+    "Original current-position builder catalog had9returned improvements but all individual validfalse/best-1, so it did not qualify manualBUILD. Installed BUILD_IMPROVEMENT operation and returned improvement rows had nilHotkeyId; no assigned construction-shortcut pass was asserted.",
+    "A fresh readonly scan found ownedemptymaize plot405@9,9, improvement-1/district-1/terrainPLAINS/feature32/resource52, with0own Core unit occupants. Installed primary AustraliaScenario.lua854/886 concretely uses UnitManager.PlaceUnit(unit,x,y). A separately labeled exact one-use QA placement with68LuaVM boundary checks called it once after durable ARMED/readback.",
+    "Actual PlaceUnit placed5832733at9,9 and consumed moves2->0. Original helper expectedmoves2 to remain and failed its postcondition. Independent Core/UI readback reconciled exactlyX/Y/moves deltas; original failed helper/ARMED key retained, no PlaceUnit replay or intent clearing. Software success was not upgraded to Native success for that failed preserve-moves contract.",
+    "A new distinct build-eligibility fixture required exact reconciled old ARMED record and current actor9,9/moves0/charges2, passed84LuaVM boundary cases, then used its own new durable intent and exactlyone ChangeMovesRemaining(2). Core observed credit2. It did not retry the old original-position credit or placement, and made no BUILD request.",
+    "Before the subsequent UI snapshot, current mandatory AI actually executed: unique actual log request0:110:6/sourceBACKGROUND/unit5832733/BUILD_IMPROVEMENT/plot405/from405 and matching observed. UI417field snapshot compared against pre-credit showed only charges2->1 and plotimprovement-1->FARM1; moves had returned0. Independent Core confirmed same actor9,9/moves0/charges1 and FARM405/resource52/owner0, new credit journalOBSERVED2. No manualBUILDinput or direct diagnostic construction request occurred.",
+    "This is actual Source162 automatic construction effect on a clearly labeled QA prepared site, with one actual builder charge spent. It is not autonomous pathfinding/expansion, a natural-turn wholebuilding sequence, or a passed eligible-manualBUILD refusal. AI preemption explains the dependent fixture equality failure; no game-action replay was used to force an input window.",
+    "The post-build checkpoint was officially saved and verified. Old placement ARMED metadata is preserved as the original contract failure, all owned temporary move/city/queue observers and M key listener remain retired, no new UI hooks were installed here. Same game stays owned/running for remaining acceptance.",
+    "New real unfinished task993 requested a candidate BEFORE Owner implementation of a bounded eligible-BUILD UI backstop harness under actual background preemption, using actual current source/consumers/Native observations. Canonical daily-maintained adapter madeone real POST and got404 in13.95ms, no completeSSE/JSON candidate, no adoption or execution. Current request finished naturally; stopfile prevented any further retry. No endpoint/model fallback or Native action replay."
+  ],
+  "model993": {
+    "task": "Eligible BUILD UI harness before Owner implementation",
+    "http_status": 404,
+    "real_POSTs": 1,
+    "complete_candidate": false,
+    "adopted": false,
+    "SSE_done": false,
+    "finish_reason": null,
+    "wall_ms": 13.952900189906359,
+    "configured_model": "qwen38-coder",
+    "routing": {
+      "proxy_mode": "direct",
+      "target_host": "192.168.1.11",
+      "proxy_handler": "disabled",
+      "redirects": "refused",
+      "actual_peer": "UNKNOWN"
+    },
+    "actual_inflight_after_terminal": 0,
+    "usage": null,
+    "cached_tokens": null,
+    "cost": null
+  },
+  "ledger_after993": {
+    "logical_tasks": 993,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 109,
+    "generation_POSTs": 1032,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0,
+    "cache_tokens_and_cost_unknown": true
+  },
+  "whole_mod": "OPEN_CONTINUE"
+}
