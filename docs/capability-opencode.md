@@ -2363,3 +2363,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-19：[1014维护与互斥](evidence/2026-11-19-civ6-source163-original85-packages1014.json)：同机同用户沿用本日成功1.19.6缓存，正式占用时在维护及POST之前拒绝；释放后才发送真实候选。构建发生在退场等待期，OpenCode原生生成累计0。
 
 2026-11-19：[1015维护记录](evidence/2026-11-19-civ6-source163-many-preparation1015.json)：同机同用户沿用本日成功1.19.6缓存，OpenCode原生生成仍0；正式互斥之外才调用及构建。
+
+2026-11-19：[1016维护及采样互斥](evidence/2026-11-19-civ6-source163-many-stagea-fullprep1016.json)：沿用本日本机同用户1.19.6成功缓存；正式区间无该POST重叠，原生生成累计0。
