@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-18",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/419e2dd04e348e36cd5fa57bcf6e84605e488642/docs/research/baiqi-current162-eight-military-religious-player-controls-2026-11-18.json",
+  "model1004": {
+    "started_at_utc": "2026-11-18T12:41:28.462391+00:00",
+    "http_status": 404,
+    "total_ms": 90.15589999035001,
+    "finish_reason": null,
+    "sse_done": false,
+    "usage": null,
+    "cached_prompt_tokens_if_reported": null,
+    "candidate_complete": false
+  },
+  "software": {
+    "multi_target_observer_VM_cases": 32,
+    "fixture_VM_cases": 24,
+    "Core_lexical_binding_VM_cases": 6,
+    "rendered_player_consumer_VM_cases": 48,
+    "product_suite_repeated": false,
+    "Native_initial_Tuner_binding_failure": "Pure Journal not global in GameCore_Tuner; error before first property write/Create. Independent14cities/58units/keynil/globalnil/bankARMED established no effect. New lexical exact canonical pure Journal binding leaves Tuner global untouched.",
+    "owner_tool_corrections": "First baseline decoder expected25columns instead of actual24; rawNative install/read succeeded, corrected and reconciled offline without reinstall. Player-validator Python ternary whitespace fixed before execution. Clock-export auditor13-vs12field assertion corrected with named fields, existing2356raw rows reused, no Native re-export."
+  },
+  "samples": [
+    {
+      "role": "naval",
+      "id": 9175100,
+      "unit_type": "UNIT_GALLEY",
+      "from": [
+        6,
+        3
+      ],
+      "actual_to_UI": [
+        7,
+        4
+      ],
+      "actual_to_Core": [
+        7,
+        4
+      ],
+      "moves_before": 3.0,
+      "moves_after_UI": 2.0,
+      "moves_after_Core": 2.0,
+      "escort_count": 1,
+      "military_formation": 0,
+      "pending_after": false
+    },
+    {
+      "role": "support",
+      "id": 9240626,
+      "unit_type": "UNIT_BATTERING_RAM",
+      "from": [
+        8,
+        1
+      ],
+      "actual_to_UI": [
+        9,
+        2
+      ],
+      "actual_to_Core": [
+        9,
+        2
+      ],
+      "moves_before": 2.0,
+      "moves_after_UI": 1.5,
+      "moves_after_Core": 1.0,
+      "escort_count": 1,
+      "military_formation": -1,
+      "pending_after": false
+    },
+    {
+      "role": "corps",
+      "id": 9306159,
+      "unit_type": "UNIT_WARRIOR",
+      "from": [
+        9,
+        1
+      ],
+      "actual_to_UI": [
+        10,
+        1
+      ],
+      "actual_to_Core": [
+        10,
+        1
+      ],
+      "moves_before": 2.0,
+      "moves_after_UI": 1.5,
+      "moves_after_Core": 1.0,
+      "escort_count": 1,
+      "military_formation": 1,
+      "pending_after": false
+    },
+    {
+      "role": "army",
+      "id": 9371709,
+      "unit_type": "UNIT_WARRIOR",
+      "from": [
+        12,
+        1
+      ],
+      "actual_to_UI": [
+        13,
+        2
+      ],
+      "actual_to_Core": [
+        13,
+        2
+      ],
+      "moves_before": 2.0,
+      "moves_after_UI": 1.0,
+      "moves_after_Core": 1.0,
+      "escort_count": 1,
+      "military_formation": 2,
+      "pending_after": false
+    },
+    {
+      "role": "apostle",
+      "id": 9437246,
+      "unit_type": "UNIT_APOSTLE",
+      "from": [
+        7,
+        2
+      ],
+      "actual_to_UI": [
+        8,
+        2
+      ],
+      "actual_to_Core": [
+        8,
+        2
+      ],
+      "moves_before": 4.0,
+      "moves_after_UI": 3.0,
+      "moves_after_Core": 3.0,
+      "escort_count": 1,
+      "military_formation": -1,
+      "pending_after": false
+    },
+    {
+      "role": "inquisitor",
+      "id": 9502783,
+      "unit_type": "UNIT_INQUISITOR",
+      "from": [
+        10,
+        3
+      ],
+      "actual_to_UI": [
+        11,
+        4
+      ],
+      "actual_to_Core": [
+        11,
+        4
+      ],
+      "moves_before": 4.0,
+      "moves_after_UI": 1.0,
+      "moves_after_Core": 1.0,
+      "escort_count": 1,
+      "military_formation": -1,
+      "pending_after": false
+    },
+    {
+      "role": "guru",
+      "id": 9568320,
+      "unit_type": "UNIT_GURU",
+      "from": [
+        14,
+        3
+      ],
+      "actual_to_UI": [
+        15,
+        4
+      ],
+      "actual_to_Core": [
+        15,
+        4
+      ],
+      "moves_before": 4.0,
+      "moves_after_UI": 2.0,
+      "moves_after_Core": 2.0,
+      "escort_count": 1,
+      "military_formation": -1,
+      "pending_after": false
+    },
+    {
+      "role": "air",
+      "id": 9633857,
+      "unit_type": "UNIT_BIPLANE",
+      "from": [
+        16,
+        14
+      ],
+      "actual_to_UI": [
+        13,
+        16
+      ],
+      "actual_to_Core": [
+        13,
+        16
+      ],
+      "moves_before": 6.0,
+      "moves_after_UI": 0.0,
+      "moves_after_Core": 0.0,
+      "escort_count": 1,
+      "military_formation": 0,
+      "pending_after": false
+    }
+  ],
+  "review": [
+    "Current real58unit inventory had no galley/air/support/apostle/inquisitor/guru, so this is a disclosed controlled F04 QA fixture. Actual CoreCreate function and formation setters were independently typed; UI Create was nil, not transplanted. Primary installed TunerMapPanel/Debug Unit.ltp/Civ6Common contracts supplied to genuine1004 model task before Owner observer implementation. Actual onePOST40490.15589999035001ms/no candidate; Owner wrote and validated the implementation.",
+    "Eight fullID/type/owner targets in immutable observer map, first64rows/capacity, exact void/nil/error forwarding, foreign references preserved on own retirement. Only background Executor SDK bindings observed for target absence; before-observer creation interval and process-wide engine behavior not claimed. Actual82second interval221Controller.RunNow+221Admin.Run/221Update delta, all8selectedstatefields identical and0targetrequests. Full later call export2356rows(1178each), all completed/original-ok/clock-valid/T158,0drop; no formal timing budget grant.",
+    "Every current native visible movement/rebase qualifier was true. TEST_PLAYER then called actual mod-guarded WorldInput original MoveUnitToPlot for7 roles and nativeREBASEthrough its guarded writer forair, exactlyone operation perrole. No direct background military dispatch, religious battle/spread/heal/inquisition, manual domestic substitution, move credit, source pause or unit-control toggle. Corp/army military formation1/2 and escort count1 kept distinct.",
+    "Actual UI and independent Core confirm all8arrivals, movement decreases, unchanged identity/owner/formation and no pending operation. UI/Core numeric remaining moves are recorded separately, not presumed atomic or identical for fractional movement. Stable selectedstates after further originalupdates match; background targetrequests stay0. One player/onebackground observer removed only own methods; AIcall wrapper alreadyretired, allretained rows exported. Result saved withnew unique name; persistence across a later reload not claimed for this military result.",
+    "FullTC019 still requires named source-impact/reuse review for existingland/scout/othernonwhitelist/newnormallytrained samples; no blanket physicalmouse/keyboard/attack or normalrecruitment claim. FullTC020escort andTC021matchingmultiturn remain open; currenteight allescortcount1 are not an escort test. Existingcurrent162ordinaryattack and other narrow evidence remain valid separately.",
+    "Old865recovery and MANY/NO_SITE performanceFAIL remain; no oldFOUND cleared/replayed, no END/Steam/coldlaunch inthiscontrolledmilitaryepisode. The owned25164 game staysrunning withresultprotected, wholemodcontinues. Next investigate ordinary end-transition admission/performance with actual primaryHasSentTurnComplete getter and controlled lifecycle, then remainingescort/multiturn/paid boundaries."
+  ],
+  "ledger": {
+    "logical_tasks": 1004,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 120,
+    "generation_POSTs": 1043,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "unknown_costs": null
+}
