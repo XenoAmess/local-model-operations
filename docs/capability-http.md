@@ -7488,3 +7488,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[1020后续Owner软件验证](evidence/2026-11-19-civ6-source163-escort-inventory1020-software.json)：既有单POST404不重计，本次0HTTP；只读护送清点器63场景×2Lua共126检查通过，两处Owner测试夹具失败/修正分列。未采用模型候选、未授实机资格；未知成本null。
 
 2026-11-19：[1022／1023实际失败与Owner对账兼容](evidence/2026-11-19-civ6-source163-final-account-gate1022-1023.json)：两单POST404，247.9124／71.9309ms，无候选采用。Owner实际35对账／30前置兼容软件检查，保留原HALTED和执行映射；当前Native结果待完成。累计1023逻辑/816完整/68length/139最终失败/1062生成POST、旧extra38不变、0在途、未知成本null。
+
+2026-11-19：[当前404只读诊断](evidence/2026-11-19-civ6-configured-model404-diagnosis.json)：共享配置qwen38-coder，两个有界DIRECT GET中models仅列open-h3-2k，health同模型/refiner_batch。只是当前不匹配，非历史唯一根因或永久上限；0新生成POST，暂停对已知不匹配实例重复生成，不自动切配置/模型/端口或重启服务，Owner继续实际业务。
