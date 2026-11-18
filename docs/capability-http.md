@@ -7492,3 +7492,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[当前404只读诊断](evidence/2026-11-19-civ6-configured-model404-diagnosis.json)：共享配置qwen38-coder，两个有界DIRECT GET中models仅列open-h3-2k，health同模型/refiner_batch。只是当前不匹配，非历史唯一根因或永久上限；0新生成POST，暂停对已知不匹配实例重复生成，不自动切配置/模型/端口或重启服务，Owner继续实际业务。
 
 2026-11-19：[已知配置模型不可用后的Owner继续](evidence/2026-11-19-civ6-source163-escort-inventory-consumer.json)：普通163只读护送调用程序22项软件检查，0新生成POST/0Native/0模型采用；不将Owner实现补记候选调用，服务配置未改，实机业务继续。
+
+2026-11-19：[已知配置服务不可用时的Owner隔离工具](evidence/2026-11-19-civ6-source163-tc038-scoped-guard-software.json)：0生成POST/0模型采用；实际SDK编译及8辅助程序自测、14调用器检查通过，0Civ6过滤/0Native。自有辅助程序连接阻断与独立清理不授游戏隔离或经济用例通过；Owner业务继续，未知成本null。
