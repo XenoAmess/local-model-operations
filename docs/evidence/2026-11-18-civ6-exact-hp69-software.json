@@ -1,0 +1,484 @@
+{
+  "date": "2026-11-18",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/619992d0d8022b57d554bb0151dba54856315624/docs/research/baiqi-source162-city-hp69-preparation-2026-11-18.json",
+  "status": "BELOW_BOUNDARY_CITY_HP69_PAID_SUCCESS_CASE_SOFTWARE_READY_NATIVE_NOT_RUN",
+  "validation": {
+    "actual_product_VM": [
+      {
+        "VM": "Lua51",
+        "case": "positive",
+        "actual_Actions_Quote_Capture_OnRequisition_and974": true
+      },
+      {
+        "VM": "Lua51",
+        "case": "actual_HP68_not_exact69",
+        "actual_Actions_Quote_Capture_OnRequisition_and974": true
+      },
+      {
+        "VM": "Lua51",
+        "case": "actual_HP70_not_exact69",
+        "actual_Actions_Quote_Capture_OnRequisition_and974": true
+      },
+      {
+        "VM": "Lua51",
+        "case": "wrong_fixture_counter",
+        "actual_Actions_Quote_Capture_OnRequisition_and974": true
+      },
+      {
+        "VM": "Lua51",
+        "case": "wrong_target_actor",
+        "actual_Actions_Quote_Capture_OnRequisition_and974": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "positive",
+        "actual_Actions_Quote_Capture_OnRequisition_and974": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "actual_HP68_not_exact69",
+        "actual_Actions_Quote_Capture_OnRequisition_and974": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "actual_HP70_not_exact69",
+        "actual_Actions_Quote_Capture_OnRequisition_and974": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "wrong_fixture_counter",
+        "actual_Actions_Quote_Capture_OnRequisition_and974": true
+      },
+      {
+        "VM": "Lua53",
+        "case": "wrong_target_actor",
+        "actual_Actions_Quote_Capture_OnRequisition_and974": true
+      }
+    ],
+    "prior_fixture_actual_VM_runs": 162,
+    "load_VM": [
+      {
+        "VM": "Lua51",
+        "load_once": true
+      },
+      {
+        "VM": "Lua53",
+        "load_once": true
+      }
+    ],
+    "finite_flows": [
+      {
+        "stage": "initial",
+        "failure": null,
+        "trace": [
+          [
+            "lifecycle",
+            "install"
+          ],
+          [
+            "lifecycle",
+            "launch"
+          ],
+          [
+            "connect"
+          ],
+          [
+            "lifecycle",
+            "load",
+            "load"
+          ],
+          [
+            "ready",
+            "load"
+          ],
+          [
+            "witness",
+            "baseline-original"
+          ]
+        ]
+      },
+      {
+        "stage": "initial",
+        "failure": [
+          "lifecycle",
+          "install"
+        ],
+        "trace": [
+          [
+            "lifecycle",
+            "install"
+          ]
+        ]
+      },
+      {
+        "stage": "initial",
+        "failure": [
+          "lifecycle",
+          "load",
+          "load"
+        ],
+        "trace": [
+          [
+            "lifecycle",
+            "install"
+          ],
+          [
+            "lifecycle",
+            "launch"
+          ],
+          [
+            "connect"
+          ],
+          [
+            "lifecycle",
+            "load",
+            "load"
+          ]
+        ]
+      },
+      {
+        "stage": "initial",
+        "failure": [
+          "witness",
+          "baseline-original"
+        ],
+        "trace": [
+          [
+            "lifecycle",
+            "install"
+          ],
+          [
+            "lifecycle",
+            "launch"
+          ],
+          [
+            "connect"
+          ],
+          [
+            "lifecycle",
+            "load",
+            "load"
+          ],
+          [
+            "ready",
+            "load"
+          ],
+          [
+            "witness",
+            "baseline-original"
+          ]
+        ]
+      },
+      {
+        "stage": "initial",
+        "failure": "unavailable",
+        "trace": [
+          [
+            "lifecycle",
+            "install"
+          ],
+          [
+            "lifecycle",
+            "launch"
+          ],
+          [
+            "lifecycle",
+            "header"
+          ],
+          [
+            "lifecycle",
+            "launch"
+          ],
+          [
+            "connect"
+          ],
+          [
+            "lifecycle",
+            "load",
+            "load"
+          ],
+          [
+            "ready",
+            "load"
+          ],
+          [
+            "witness",
+            "baseline-original"
+          ]
+        ]
+      },
+      {
+        "stage": "prepare",
+        "failure": null,
+        "trace": [
+          [
+            "setup",
+            "prepare-once"
+          ],
+          [
+            "witness",
+            "after-fixture"
+          ]
+        ]
+      },
+      {
+        "stage": "prepare",
+        "failure": [
+          "setup",
+          "prepare-once"
+        ],
+        "trace": [
+          [
+            "setup",
+            "prepare-once"
+          ]
+        ]
+      },
+      {
+        "stage": "prepare",
+        "failure": [
+          "witness",
+          "after-fixture"
+        ],
+        "trace": [
+          [
+            "setup",
+            "prepare-once"
+          ],
+          [
+            "witness",
+            "after-fixture"
+          ]
+        ]
+      },
+      {
+        "stage": "complete",
+        "failure": null,
+        "trace": [
+          [
+            "witness",
+            "after-confirm"
+          ],
+          [
+            "ui",
+            "read",
+            "after-confirm"
+          ],
+          [
+            "ui",
+            "retire",
+            "retired"
+          ],
+          [
+            "finish",
+            "retire"
+          ],
+          [
+            "finish",
+            "save"
+          ],
+          [
+            "finish",
+            "exit"
+          ],
+          [
+            "close"
+          ]
+        ]
+      },
+      {
+        "stage": "complete",
+        "failure": [
+          "witness",
+          "after-confirm"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-confirm"
+          ]
+        ]
+      },
+      {
+        "stage": "complete",
+        "failure": [
+          "ui",
+          "read",
+          "after-confirm"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-confirm"
+          ],
+          [
+            "ui",
+            "read",
+            "after-confirm"
+          ]
+        ]
+      },
+      {
+        "stage": "complete",
+        "failure": [
+          "ui",
+          "retire",
+          "retired"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-confirm"
+          ],
+          [
+            "ui",
+            "read",
+            "after-confirm"
+          ],
+          [
+            "ui",
+            "retire",
+            "retired"
+          ]
+        ]
+      },
+      {
+        "stage": "complete",
+        "failure": [
+          "finish",
+          "retire"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-confirm"
+          ],
+          [
+            "ui",
+            "read",
+            "after-confirm"
+          ],
+          [
+            "ui",
+            "retire",
+            "retired"
+          ],
+          [
+            "finish",
+            "retire"
+          ]
+        ]
+      },
+      {
+        "stage": "complete",
+        "failure": [
+          "finish",
+          "save"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-confirm"
+          ],
+          [
+            "ui",
+            "read",
+            "after-confirm"
+          ],
+          [
+            "ui",
+            "retire",
+            "retired"
+          ],
+          [
+            "finish",
+            "retire"
+          ],
+          [
+            "finish",
+            "save"
+          ]
+        ]
+      },
+      {
+        "stage": "complete",
+        "failure": [
+          "finish",
+          "exit"
+        ],
+        "trace": [
+          [
+            "witness",
+            "after-confirm"
+          ],
+          [
+            "ui",
+            "read",
+            "after-confirm"
+          ],
+          [
+            "ui",
+            "retire",
+            "retired"
+          ],
+          [
+            "finish",
+            "retire"
+          ],
+          [
+            "finish",
+            "save"
+          ],
+          [
+            "finish",
+            "exit"
+          ]
+        ]
+      }
+    ],
+    "actual_driver_metadata_tests": [
+      {
+        "driver": "paidhealth162h69_episode_owner",
+        "simulated_terminal": 0,
+        "actual_emitter_call_code": true,
+        "real_subprocesses": 0
+      },
+      {
+        "driver": "paidhealth162h69_episode_owner",
+        "simulated_terminal": 1,
+        "actual_emitter_call_code": true,
+        "real_subprocesses": 0
+      },
+      {
+        "driver": "paidhealth162h69_prepare_episode_owner",
+        "simulated_terminal": 0,
+        "actual_emitter_call_code": true,
+        "real_subprocesses": 0
+      },
+      {
+        "driver": "paidhealth162h69_prepare_episode_owner",
+        "simulated_terminal": 1,
+        "actual_emitter_call_code": true,
+        "real_subprocesses": 0
+      },
+      {
+        "driver": "paidhealth162h69_complete_episode_owner",
+        "simulated_terminal": 0,
+        "actual_emitter_call_code": true,
+        "real_subprocesses": 0
+      },
+      {
+        "driver": "paidhealth162h69_complete_episode_owner",
+        "simulated_terminal": 1,
+        "actual_emitter_call_code": true,
+        "real_subprocesses": 0
+      }
+    ],
+    "original_SHA_calls": 327,
+    "full_original_hash_checks_retained": true
+  },
+  "review": "Exact boundary sampling needs a current exact-state guard as well as product eligibility. HP68 andHP70 are eligible but cannot substitute for the requestedHP69 sample. One-use QA setup remains distinct from paid outcome; mock callbacks and real game effects remain separate.",
+  "Native": "NOT_RUN",
+  "whole_mod": "OPEN_CONTINUE"
+}
