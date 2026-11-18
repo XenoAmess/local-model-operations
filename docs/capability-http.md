@@ -7460,3 +7460,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[163 NO_SITE全脚本及1011](evidence/2026-11-19-civ6-source163-nosite-fullscript-r2-1011.json)：普通6 END实际T7、33上下文，规范分析B_turn五窗最大798ms、完整请求最大3，固定本场景通过，不转授B_delta或全mod。1011真实后续配对消费者候选：首次源文件名错误在POST前拒绝，保留并核对真实文件后单POST404/14.8842ms，无采用。累计1011逻辑／816完整／68length／127最终失败／1050生成POST／先前extra38不变，0在途、成本null。
 
 2026-11-19：[1011 Owner配对准备](evidence/2026-11-19-civ6-source163-nosite-pair-consumers1011.json)：在既已记录的候选404后完成真实NO_SITE配对消费者，50实际Lua入口正反例、119文件启用／对照核验和64MiB Continue检查通过，未运行Native、未新增模型调用。通用教训：Python数字token迁移不能覆盖Lua字符串版本；冷实例收据和捕获标签须分清；保留原程序设置锁定文件。
+
+2026-11-19：[1012真实MANY资格准备](evidence/2026-11-19-civ6-source163-many-census1012.json)：正式记录前的真实任务单POST404/76.6296ms，无采用。Owner在正式释放后的退场等待期构建119／97独立census包、5消费者，12实际Lua双编译／8 Python生成核对，0 Native，MANY仍未运行。生成器缩进在写新文件/构建前被AST拒绝后修正，原错误保留。累计1012逻辑／816完整／68length／128最终失败／1051生成POST，extra旧观察38不变、0在途、成本null。
