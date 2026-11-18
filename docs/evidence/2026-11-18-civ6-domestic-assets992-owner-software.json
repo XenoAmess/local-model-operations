@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-18",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/d6a7c854bc5be39f052db1b8fb5bad14d539da2a/docs/research/baiqi-domestic-assets992-owner-software-2026-11-18.json",
+  "status": "OWNER_READONLY_ASSETS_TOOL_SOFTWARE_PASS_NATIVE_NOT_RUN",
+  "validation": {
+    "command": "python -X utf8 -m unittest tests.test_diagnostic_domestic_assets -v",
+    "actual_test_methods_passed": 2,
+    "boundary_scenarios": 44,
+    "actual_boundary_VM_runs": 88,
+    "additional_tail_transition_VMs": 2,
+    "tail_transition_reads_per_VM": 2,
+    "generation_candidates_adopted": 0,
+    "actual_game_queries": 0
+  },
+  "contract": [
+    "Pure module defines functions on load; no global hook, property setter, UI selection, operation or command. E and caller-selected full IDs/turn/expectedLeader supplied by caller. Current player0 restriction matches reused queue helper and permits ordinaryleader0 control.",
+    "Maximum64 owned cities/256units and requested256plots, complete selected queues at existing head-helper bound0..7, six standard yield focus flags, sparse citizen/lock/purchased mappings, full selected unit IDs/type/moves/damage/formation/charges and religious data. Owned ID lists and balances rechecked at end; result is not an atomic world snapshot.",
+    "Getter/type/identity/bounds failures become explicit UNKNOWN and qualifiedfalse; zero-return nullable property becomes explicitnil. Required zero-return faith/charges remain UNKNOWN. Missing object listed in own collection is unknown; known absent requested unit not listed in collection is represented presentfalse.",
+    "Encoded tables use typed key/value entries and structural arrays; tests roundtrip actual saved JSON before validating values. A full tail-only change remains observable and old results are detached from aliased native tables.",
+    "This utility supplies evidence, not an automatic claim that a manual operation was blocked. Actual before/after attempts and ordinaryleader positive control are still required. Unsupported custom yields/oversize queues/native table shapes remain uncovered or UNKNOWN."
+  ],
+  "owner_corrections": [
+    "First private validator used default lupa.lua_type for other Lua runtimes; JSON conversion failed before candidate qualification. Corrected test driver to each actual runtime type function and preserved original failure. No model semantic failure.",
+    "Before first successful software validation, Owner strengthened copied request IDs, listed-object lookup consistency, exact queue directive/database/head/formation checks, and nil-only Core unit-type fallback."
+  ],
+  "model992": "Real source-complete task before Owner code returned404/no candidate. Owner implemented; current canonical metadata mismatch separately published, no new generation added.",
+  "whole_mod": "OPEN_CONTINUE"
+}
