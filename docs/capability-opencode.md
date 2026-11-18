@@ -2369,3 +2369,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-19：[1017维护与正式互斥](evidence/2026-11-19-civ6-source163-many-fullscript-pairprep1017.json)：同机同用户本日1.19.6缓存复用，正式前真实候选返回404，正式区间无该POST重叠；原生生成累计0。
 
 2026-11-19：[1018／1019维护](evidence/2026-11-19-civ6-source163-original85-consumers1018-1019.json)：同机同用户沿用本日成功1.19.6缓存，普通候选账与OpenCode原生生成0分开；未将404当维护退出75或合格候选。
+
+2026-11-19：[1020／1021维护边界](evidence/2026-11-19-civ6-source163-startup-recovery1020-1021.json)：同机同用户复用本日OpenCode1.19.6成功缓存；无维护退出75，HTTP404与维护失败分开，OpenCode原生生成仍0，不将维护成功授候选能力。
