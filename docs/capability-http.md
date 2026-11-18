@@ -7478,3 +7478,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[1016与MANY StageA](evidence/2026-11-19-civ6-source163-many-stagea-fullprep1016.json)：真实配对消费者任务单POST404/83.3585ms，开始及结束均早于正式记录。Owner全脚本17消费者/40Lua语义断言/实际插桩34VM完成软件准备；游戏MANY B_plan=PASS另核全部原值。累计1016逻辑/816完整/68length/132最终失败/1055生成POST、旧extra38不变、0在途、成本null。
 
 2026-11-19：[1017与MANY全脚本](evidence/2026-11-19-civ6-source163-many-fullscript-pairprep1017.json)：原85 StageA消费者真实任务单POST404/20.0326ms，无采用且早于正式区间。Owner配对12＋3消费者、50Lua语义及26反例3正例完成软件准备；当前MANY B_turn／N_req=PASS另有实机核算。累计1017逻辑/816完整/68length/133最终失败/1056生成POST、extra38不变、0在途、成本null。
+
+2026-11-19：[1018／1019独立真实任务](evidence/2026-11-19-civ6-source163-original85-consumers1018-1019.json)：并行规范POST各404，19.7924／94.3549ms，区间重叠且均在正式前，无采用。Owner默认85全脚本16消费者、36Lua语义及4包模式版本反例通过，仅软件准备。累计1019逻辑/816完整/68length/135最终失败/1058生成POST、旧extra38不变、0在途、成本null；目标并发不冒称已达到。
