@@ -2373,3 +2373,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-19：[1020／1021维护边界](evidence/2026-11-19-civ6-source163-startup-recovery1020-1021.json)：同机同用户复用本日OpenCode1.19.6成功缓存；无维护退出75，HTTP404与维护失败分开，OpenCode原生生成仍0，不将维护成功授候选能力。
 
 2026-11-19：[1020清点器验证边界](evidence/2026-11-19-civ6-source163-escort-inventory1020-software.json)：本次0OpenCode生成/0新HTTP，原生工具生成累计仍0；Owner Lua软件检查不计作模型或每日维护实效。
+
+2026-11-19：[1022／1023维护](evidence/2026-11-19-civ6-source163-final-account-gate1022-1023.json)：复用本日同机同用户1.19.6成功缓存，0原生生成；HTTP404与每日维护结果分开。软件防伪和准备不授游戏效果。
