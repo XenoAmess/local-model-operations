@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-18",
+  "machine": "BF-202609141645",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/d1b078453ab001abfbd7c140a57a75afdf542ada/docs/research/baiqi-source162-gorgo-gold-building-tile-positive-native-2026-11-18.json",
+  "status": "ORDINARY_GOLD_MONUMENT_AND_PLOT663_PURCHASES_ACTUAL_SAVED",
+  "review": [
+    "Original Gorgo1 stock10gold/0faith positive save remains protected. A separately labeled one-use TEST_PLAYER_QA budget adds1990gold to2000; not ability income, finance automation or a purchase command. Actual Core observed journal and independent full UI asset readback agree; all other selected assets unchanged.",
+    "A held physical click on the legal, affordable native Monument catalog row purchased the building. UI and Core HasBuilding false->true, quoted240gold exactly spent2000->1760, faith0/pop1 unchanged; queue naturally emptied. Diagnostic issued no purchase request.",
+    "A held physical click on native PurchaseButton for plot663@3,15 bought the tile for its quoted50gold: UI/Core owner-1->0, gold1760->1710, purchased-plot set exactly+663. Other selected assets equal except native citizen target mapping for newly owned land; no diagnostic purchase request.",
+    "Both purchases were saved through official SaveGame once, stable repeated file SHA/size verified. Game remains owned/running for further cases. Neither ordinary player effect is Baiqi AI execution evidence."
+  ],
+  "owner_adaptations": [
+    "Initial budget helper rejected raw Core unit count2 before any property write or credit; UI showed one live warrior. Independent Core read found exact delayed-death settler65536/type0@-9999,-9999 plus active warrior131073/type21@1,16. First scope/attempt retained; no unit removed, moved or commanded. New one-use V2 helper admits only this exact delayed object and exact active unit, requires old durable key absent, fences intent before a single credit, and passed38actual Lua51/53 VM cases. V2 observed marker is historical budget preparation, not a permission to restore funds after spending.",
+    "Gold catalog opened before the QA budget had cached unaffordability. Normal visible close/reopen refreshed it; native eligibility was read independently before actual purchase, without forcing controls or directly invoking Refresh.",
+    "After Monument purchase the native catalog had already closed. First tile-view helper rejected its close precondition before sending input. New observed-state branch opened the tile lens once and performed the first tile purchase; no unknown transaction replay.",
+    "The final save exec output was truncated. Durable official-save completion receipt and protected save qualification were read without rerunning SaveGame."
+  ],
+  "whole_mod": "OPEN_CONTINUE"
+}
