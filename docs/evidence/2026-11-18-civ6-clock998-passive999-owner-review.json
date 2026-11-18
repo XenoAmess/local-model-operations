@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-18",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/e6b1f27e7fbf049235fde864ed591b09a065603a/docs/research/baiqi-clock998-passive999-software-and-current-nosite-2026-11-18.json",
+  "models": [
+    {
+      "task": 998,
+      "actual_POSTs": 1,
+      "utc": "2026-11-18T09:27:59.591709+00:00",
+      "http_status": 404,
+      "total_ms": 93.00639992579818,
+      "candidate_complete": false,
+      "adopted": false,
+      "finish_reason": null,
+      "sse_done": false,
+      "usage": null,
+      "cached_tokens": null,
+      "actual_peer": "UNKNOWN"
+    },
+    {
+      "task": 999,
+      "actual_POSTs": 1,
+      "utc": "2026-11-18T09:53:19.231603+00:00",
+      "http_status": 404,
+      "total_ms": 142.70839979872108,
+      "candidate_complete": false,
+      "adopted": false,
+      "finish_reason": null,
+      "sse_done": false,
+      "usage": null,
+      "cached_tokens": null,
+      "actual_peer": "UNKNOWN"
+    }
+  ],
+  "ledger": {
+    "logical_tasks": 999,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 115,
+    "generation_POSTs": 1038,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "review": [
+    "Clock998 mechanically pins/reuses unchanged existing native transport with exactly two QPC hooks: after ownership/LSQ immediately before CMD, after terminal before archive. Original frame bound, errors, raw receipts preserved.27 software cases plus10 actual read-only current162 samples; intervals now29.8-159ms rather than external1.23s. Constant-offset intersections are assumptions, not synchronization or ETW alignment; clock quantization/rate stability unknown.",
+    "Genuine998 and999 requested unfinished narrow tasks before corresponding Owner implementations, each one actual404 POST/no candidate/no SSE DONE/no adoption. First998 dispatcher IndentationError occurred before HTTP, corrected separately and not counted as a generation call. No fallback/model/config changes. Daily OpenCode maintenance remains separate from native generation capability.",
+    "Owner passive diagnostic factory only wraps public Controller.RunNow/Admin.Run, never submits actions or pauses mandatory AI.40 scenarios across Lua5.1/5.3 in4 unittest methods cover exact nil/multiple return/error objects, reentry, bounded first4096/drop counters, invalid clocks without stopping original, third party references and retirement. No native behavior or performance pass yet. pcall yielding unsupported in Lua5.1; no explicit coroutine calls in these consumers, engine yielding behavior remains unproven.",
+    "Previous E guard case saved/retired. Protected frozen NO_SITE T1 loaded once into same owned23448 instance, original Continue once. New actual read-only snapshot:10local cities/11total citytiles/1133water/1144plots/0bareland, independently qualified no admissible geometry. No historical snapshot substituted, no new cold launch or Steam mode control.",
+    "Next actual current162 normal END1->2 plus10s passive observation and owned ETW causal trace. Keep all spikes and existing formal160 MANY15.0183% and NO_SITE552.999973ms/19.4643% FAIL; no changed budgets, no current162 formal pass transfer, old865recovery and full functional acceptance OPEN."
+  ],
+  "whole_mod": "OPEN_CONTINUE"
+}
