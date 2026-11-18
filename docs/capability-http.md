@@ -7484,3 +7484,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[1019后Owner配对准备](evidence/2026-11-19-civ6-source163-original85-paired-owner1019.json)：14消费者、40Lua契约＋8只读体、23反例3正例通过，0新请求／原85Native。Owner泛数字替换误改ID由反例捕获，已限定为日志长度比较；不能以合成十标签冒称Native十侧。台账1019／1058POST不变，成本null。
 
 2026-11-19：[真实1020／1021失败和Owner恢复准备](evidence/2026-11-19-civ6-source163-startup-recovery1020-1021.json)：各单POST404，315.4016／33.1052ms，无候选采用。1020首次正式锁拒绝无POST不另计；1021提供实际生命周期／失败阶段／自有诊断消费者，Owner保存三侧、关闭唯一未加载挂起实例、27项软件映射防变及两个实际Lua子程序检查通过，恢复七侧Native尚未执行。累计1021逻辑/816完整/68length/137最终失败/1060生成POST，旧extra38不变、0在途，未知成本null。
+
+2026-11-19：[1020后续Owner软件验证](evidence/2026-11-19-civ6-source163-escort-inventory1020-software.json)：既有单POST404不重计，本次0HTTP；只读护送清点器63场景×2Lua共126检查通过，两处Owner测试夹具失败/修正分列。未采用模型候选、未授实机资格；未知成本null。
