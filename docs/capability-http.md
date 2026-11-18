@@ -7454,3 +7454,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-18：[163 NO_SITE规划原生PASS](evidence/2026-11-18-civ6-source163-nosite-plan-native.json)：新鲜离线／72.072秒预热／正式先于重载，五窗293原值保留，Admin136纯十城p95/max9/12ms、Controller154约7/9ms，3窗前false验证，保存撤钩释放。父进程只在残留前置检查exit1，原件未追认；重新资格核对后自有terminate1/noKill关闭。0新模型生成，1008逻辑／1047POST不变。窄规划PASS不转授全脚本／请求／配对或整个mod。
 
 2026-11-19：[1009实际插桩门控harness](evidence/2026-11-19-civ6-source163-instrumented-gate1009.json)：新自然日维护成功后真实候选单POST404/11.4345ms，无采用。Owner实际产物7方法／34 VM且真实包装录制开启，2故障对照均识别，0Native；15全脚本消费者／33上下文4096包已准备。首次变异锚漏行号的Owner断言错误保留，不归产品。累计1009逻辑／816完整／68length／125最终失败／1048生成POST，extra旧观察38／OpenCode生成0，成本未知null。
+
+2026-11-19：[1010实际Lua入口验证](evidence/2026-11-19-civ6-source163-entry-guards1010.json)：真实任务单POST404/41.7196ms，无候选采用；Owner执行实际渲染Lua，修正前4例复现旧版本误拒，新副本28例正反例通过。原首轮已中止、导出与撤除观察器、保存并释放正式记录，0 END，不计性能通过。累计1010逻辑／816完整／68length／126最终失败／1049生成POST，先前extra观察38不变，0在途，成本null。
