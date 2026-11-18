@@ -7440,3 +7440,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-18：[持久Core事件实机保存重载](evidence/2026-11-18-civ6-durable-core-events-native-reload.json)：1002/1003均404后Owner接管的私有工具实际4事件／5元数据写入保存重载全量一致、0重发；HTTP候选采用仍0，不能把Owner实机效果归本地模型生成。明确区分原生void返回、Core事件、持久写读、正式Save/Load；SKIP后的清除不授WAKE取消屏障或旧ARMED重放。累计1003保持，OpenCode分轨，成本未知。
 
 2026-11-18：[1004八目标观察器与实际军队控制](evidence/2026-11-18-civ6-eight-military-religious-player-controls.json)：真实窄任务单POST404/90.1559ms，0候选采用；Owner32+24+6+48软件场景后完成八类后台隔离／实际玩家移动，未归功模型代码。Tuner Core不继承Gameplay全局纯模块，先错误后证明0创建／0标记，再词法绑定本仓库原模块；解码字段数错误用已有raw离线修正，无业务重放。累计1004逻辑／816完整／68length／120最终失败／1043生成POST，既有额外重试观察38保持，OpenCode生成0，成本未知。
+
+2026-11-18：[1005结束状态只读采集](evidence/2026-11-18-civ6-end1005-typed-observation-smoke.json)：实际静态UI getter与Player缺字段分开，40状态／24跟踪软件场景、当前Native只读smoke通过，尚未观察结束过渡。真实模型单POST404/114.849ms／0采用；Owner修正false字段与缺失混淆，工具准备语法错不归模型。累计1005逻辑／816完整／68length／121最终失败／1044生成POST，旧额外重试观察38保持，OpenCode生成0。不能由getter当前false或已准备trace宣称性能根因、修复或整体验收。
