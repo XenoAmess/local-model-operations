@@ -7448,3 +7448,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-18：[1007结束发送门控修复](evidence/2026-11-18-civ6-source163-turn-complete-gate.json)：真实新候选任务单POST404/35.5079ms，Owner基于可达原生状态和实际执行器反例接管修复。7项新回归／15执行器方法；全2786首次8处旧夹具缺getter，补3夹具后相关44通过，未冒称全跑重测。97Lua双编译／119普通包／四压力配对包核对通过，Native和性能仍待测。累计1007逻辑／816完整／68length／123最终失败／1046生成POST，额外重试旧观察38、OpenCode生成0，成本未知null。
 
 2026-11-18：[163门控原生复测](evidence/2026-11-18-civ6-source163-native-turn-gate.json)：Owner普通包新鲜离线冷启，实际Sent=true／active+strategic=true／busy=false时IsAvailable=false，下一原生T4激活自动恢复true，Admin自然继续；312行零丢失并撤钩保存。0新增模型请求／采用，累计1007／1046POST不变。窄功能证明不转授性能，完整mod继续。
+
+2026-11-18：[1008当前163 NO_SITE规划验收准备](evidence/2026-11-18-civ6-source163-stageA1008-preparation.json)：真实新生命周期候选任务单POST404/46.2093ms，Owner接管119文件／97双Lua／4096冻结包及14消费者，2正8负前置软件通过，新正式实机尚未运行。几何与MANY自然12义务分开，不借旧资格。累计1008逻辑／816完整／68length／124最终失败／1047生成POST，原extra观察38／OpenCode生成0，未知成本null。
