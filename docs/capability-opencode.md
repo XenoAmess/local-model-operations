@@ -2387,3 +2387,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-19T00:29Z：[同机当日维护缓存复用](evidence/2026-11-19-civ6-configured-model404-readonly-recheck.json)：installed/target1.19.6，cached=true；这是维护缓存与只读HTTP检查，OpenCode原生生成次数仍0，无代码生成能力新授予。
 
 2026-11-19：Source164修复继续复用同机同用户当日OpenCode1.19.6成功维护缓存；本次0原生生成，维护成功不等于代码生成或游戏效果。[真实软件证据](evidence/2026-11-19-civ6-source164-district-route-software.json)。
+
+2026-11-19：Source164诊断前R4只读可用性核对继续复用当日同机同用户OpenCode1.19.6成功维护缓存；0原生生成，不转授代码生成能力。

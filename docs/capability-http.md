@@ -7518,3 +7518,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[Source164后续全脚本准备](evidence/2026-11-19-civ6-source164-fullscript-prepared.json)：76实际消费者场景／7插桩门控／34VM／2故障对照通过，0生成POST；尚无该阶段Native结果，不能越过先决规划FAIL。
 
 2026-11-19：[当前163原85规划实机](evidence/2026-11-19-civ6-source164-original85-plan-native.json)：B_plan=FAIL，原值/纯十城与其他分类保留，六次普通结束实际91，保存/撤钩/释放/退场另核；0新生成POST，不授其余预算或整模组通过。
+
+2026-11-19：[Source164实际失败后的新诊断准备](evidence/2026-11-19-civ6-source164-district-diagnosis-prepared.json)：原规划有效FAIL保留，新19绑定／20VM／2拒绝对照与实际表达式编译通过；R4仅只读GET，配置编码模型仍缺失，0新生成POST、0服务修改。准备不授游戏因果或性能通过，继续Owner真实工作。
