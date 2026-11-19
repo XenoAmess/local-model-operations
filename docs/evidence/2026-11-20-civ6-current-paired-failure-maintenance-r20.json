@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-20",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/6a76f680932e0f9dc2fd550abe07134fb01b7f9a/docs/research/baiqi-source171-paired-failure-current-status-r20-2026-11-20.json",
+  "maintenance_and_readonly_availability": {
+    "utc": "2026-11-19T19:36:17.125968+00:00",
+    "configured_model": "qwen38-coder",
+    "configuration_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "maintenance": {
+      "date": "2026-11-20",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": false
+    },
+    "results": [
+      {
+        "name": "models",
+        "utc": "2026-11-19T19:36:17.066980+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 321,
+        "over_64KiB": false,
+        "sha256": "8e40fc6ab58ad464560a3ac62197225d60f8cb626cb941b3f401696fb58a7c41",
+        "total_ms": 29.896199936047196,
+        "model_ids": [
+          "open-h3-2k"
+        ]
+      },
+      {
+        "name": "health",
+        "utc": "2026-11-19T19:36:17.097773+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 482,
+        "over_64KiB": false,
+        "sha256": "3cb36669e394730b8564b06116418f84c35eb2a3e7203ed539897fc4b48211ae",
+        "total_ms": 27.301000198349357
+      }
+    ],
+    "generation_POSTs": 0,
+    "new_logical_candidate_tasks": 0,
+    "Native_queries": 0,
+    "configuration_changes": 0,
+    "service_mutations": 0,
+    "automatic_fallback": false,
+    "formal_overlap": false
+  },
+  "paired_B_delta": "FAIL",
+  "whole_mod": "OPEN_CONTINUE",
+  "model_ledger": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "generation_POSTs": 0,
+  "OpenCode_native_generation_tasks": 0,
+  "unknown_costs": null
+}

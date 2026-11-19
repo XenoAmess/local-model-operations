@@ -2417,3 +2417,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-19T12:27Z：[同机Nov19维护缓存复用](evidence/2026-11-19-civ6-configured-model404-readonly-r17.json)：installed/target1.19.6、cached=true，OpenCode原生生成仍0；HTTP只读与维护成功分别记账。
 
 2026-11-19T13:31Z：[R18同机每日缓存](evidence/2026-11-19-civ6-source171-health-review-r18.json)仍installed/target1.19.6、cached=true；OpenCode原生生成0，维护缓存不授HTTP代码生成或游戏行为通过。
+
+2026-11-20：[Civ6每日维护R20](evidence/2026-11-20-civ6-current-paired-failure-maintenance-r20.json)：实际Nov20非缓存检查成功，installed／target均1.19.6；本轮0原生工具生成任务，不授代码生成能力。HTTP配置模型缺失另记，游戏有效配对FAIL和后续修复继续。
