@@ -7600,3 +7600,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[Civ6财政报价与配对前置](evidence/2026-11-19-civ6-gift-quote-pair-ready-software.json)：真实未完成任务的负责人候选，66双VM／实际SDK读取体，但0交易／Native；不以软件数值替代收入冲击。配对仅实读新发表前置至首次写入前，0合成完成收据。配置模型缺失下无无效POST／替代。
 
 2026-11-19：[Civ6财政会话软件](evidence/2026-11-19-civ6-owned-finance-context-software.json)16项，先存独占意图／原始返回或unknown，无重试；未登记会话等实际拒绝与模拟传输分账。配置模型缺失下负责人真实任务继续，0生成POST／Native，不称完整父流程已实现。
+
+2026-11-19：[Civ6财政普通回合消费者](evidence/2026-11-19-civ6-finance-player-workflow-software.json)12实际Python／2旧错误控制，复用真实原版处理、独立证据命名、禁止fallbackEND；0Native／新POST，未把完整财政父流程写成完成。
