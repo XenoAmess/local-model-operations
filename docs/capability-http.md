@@ -7506,3 +7506,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[163规划失败后的真实诊断准备](evidence/2026-11-19-civ6-controller163-child-diagnosis-prepared.json)：Owner完成17绑定实负载与14VM、31工具核验；0新生成POST，服务模型不匹配证据保持，未改配置／服务或重试已知不兼容实例。不授Native性能通过。
 
 2026-11-19T00:29Z：[配置模型仍未列出](evidence/2026-11-19-civ6-configured-model404-readonly-recheck.json)，两个只读GET均200／0生成POST／0新候选；配置未改，Owner继续真实实机诊断。不将服务可达但模型缺失当作游戏脱离服务证据。
+
+2026-11-19：[163真实Controller分步实采](evidence/2026-11-19-civ6-controller163-child-native.json)：118根／765行，保存／17绑定撤钩／正式释放／退场完成；0新生成POST。只授实际诊断证据，原规划FAIL和整modOPEN保留，继续因果审阅与产品修复。
