@@ -7568,3 +7568,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[当前170原85规划实机](evidence/2026-11-19-civ6-source170-original85-plan-native.json)：B_plan=FAIL，原值/纯十城与其他分类保留，六次普通结束实际91，保存/撤钩/释放/退场另核；0新生成POST，不授其余预算或整模组通过。
 
 2026-11-19：[171公开单元坐标查询软件](evidence/2026-11-19-civ6-source171-support-coordinate-lookup-software.json)：保留实时支持／Native检查，4新／19分步双Lua、248相关、2旧版本读取对照及完整2859／2858通过／1SDK跳过。Native171未开始，夹具可见性与待测原生坐标查询须独立；R16配置模型缺，0POST／采用，Owner继续实机。
+
+2026-11-19：[Civ6当前171迁移复核及财政观察器](evidence/2026-11-19-civ6-source171-migration-review-finance-preparation.json)：238次历史启动文件比较、16实际双VM、119文件私有包准备；0新POST/Native，费用缓存未知。保留原窄范围实测及未执行分支，不将不可用coder或WFP准备写成游戏隔离通过。
