@@ -7534,3 +7534,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[166冷验安装前字段检查修正](evidence/2026-11-19-civ6-source166-preinstall-guard-correction.json)：正式释放与预算裁定是不同记录，实际安装函数前置4场景通过并在首次写意图前截住，0Native。58既有语义检查未覆盖此安装字段，已补验证；0新模型POST，不授模型或游戏效果能力。
 
 2026-11-19：[166真实Python消费者范围适配修正](evidence/2026-11-19-civ6-source166-player-wrapper-abort-and-correction.json)：版本号替换不能修改历史消费者输入范围；仅编译Lua漏掉Python断言。已补12真实程序执行／2错误对照及4安装前置场景，零Native测试调用。实机B零样本已保存退出，继续C；R7编码模型缺失，0POST／0采用，不授Native或模型能力。
+
+2026-11-19：[当前166原85规划实机](evidence/2026-11-19-civ6-source166-original85-plan-native.json)：B_plan=FAIL，原值/纯十城与其他分类保留，六次普通结束实际91，保存/撤钩/释放/退场另核；0新生成POST，不授其余预算或整模组通过。
