@@ -7502,3 +7502,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[163 MANY完整配对](evidence/2026-11-19-civ6-source163-many-paired-final.json)：5组25段B_delta=PASS，50原值与实际50回合输入另核。11启动尝试/10合格/1零样本启动失败，原三侧保留，新执行映射透明；不是新增模型调用或整模组通过。
 
 2026-11-19：[当前163原85规划实机](evidence/2026-11-19-civ6-source163-original85-plan-native.json)：B_plan=FAIL，原值/纯十城与其他分类保留，六次普通结束实际91，保存/撤钩/释放/退场另核；0新生成POST，不授其余预算或整模组通过。
+
+2026-11-19：[163规划失败后的真实诊断准备](evidence/2026-11-19-civ6-controller163-child-diagnosis-prepared.json)：Owner完成17绑定实负载与14VM、31工具核验；0新生成POST，服务模型不匹配证据保持，未改配置／服务或重试已知不兼容实例。不授Native性能通过。
