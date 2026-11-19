@@ -7618,3 +7618,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20：[Civ6未完成采集后的真实预检修复](evidence/2026-11-20-civ6-source172-readonly-preflight-abort.json)前，R21再次只读GET200确认仅open-h3-2k、配置qwen38-coder仍缺失；无替换、0POST，负责人继续未完成修复。270部分样本不授预算结论。
 
 2026-11-20：[Civ6只读预检修复准备](evidence/2026-11-20-civ6-source172-readonly-preflight-repair-preparation.json)在配置模型仍不可用时由负责人完成：58语义／12Python／18预检入口／15安装前边界，0Native／POST；无模型能力记账或预算通过转授。
+
+2026-11-20：[当前172原85规划实机](evidence/2026-11-20-civ6-source172-original85-plan-native.json)：B_plan=PASS，原值/纯十城与其他分类保留，六次普通结束实际91，保存/撤钩/释放/退场另核；0新生成POST，不授其余预算或整模组通过。
