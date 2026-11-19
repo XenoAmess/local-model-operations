@@ -7622,3 +7622,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20：[当前172原85规划实机](evidence/2026-11-20-civ6-source172-original85-plan-native.json)：B_plan=PASS，原值/纯十城与其他分类保留，六次普通结束实际91，保存/撤钩/释放/退场另核；0新生成POST，不授其余预算或整模组通过。
 
 2026-11-20：[Civ6当前172全脚本准备](evidence/2026-11-20-civ6-source172-fullscript-preparation.json)：76注册表／34计时VM／12Python／18预检入口／13安装前边界，0Native／POST；规划通过只作前置，不转授其他预算或全mod。
+
+2026-11-20：[Civ6当前172原85全脚本实机](evidence/2026-11-20-civ6-source172-original85-fullscript-native.json)：B_turn=PASS/N_req=PASS，33上下文与198/396校准/阶段完整核算；0新生成POST，原值及实际生命周期保留，B_delta/全mod仍未授通过。

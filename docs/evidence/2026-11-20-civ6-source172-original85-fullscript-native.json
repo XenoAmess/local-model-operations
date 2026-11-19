@@ -1,0 +1,1738 @@
+{
+  "date": "2026-11-20",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/6e2164f56939fc353ec6707fbe174af22149b6b9/docs/research/baiqi-source172-original85-fullscript-native-2026-11-20.json",
+  "source_version": 172,
+  "B_turn": "PASS",
+  "N_req": "PASS",
+  "analysis": {
+    "timing_coverage": {
+      "contexts": 33,
+      "phase_rows": 396,
+      "pause_pairs": 198,
+      "coverage_ok": true,
+      "conservative_pause_envelopes": [
+        {
+          "key": "Lua/BaiqiGameplay.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.586,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "Lua/BaiqiGameplay.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.424,
+          "latest_ui": 1795125203.91
+        },
+        {
+          "key": "Lua/BaiqiGameplay.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.397,
+          "latest_ui": 1795125386.3700001
+        },
+        {
+          "key": "Lua/BaiqiGameplay.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.197,
+          "latest_ui": 1795125586.441
+        },
+        {
+          "key": "Lua/BaiqiGameplay.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.376,
+          "latest_ui": 1795125782.523
+        },
+        {
+          "key": "Lua/BaiqiGameplay.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.2020001,
+          "latest_ui": 1795125971.205
+        },
+        {
+          "key": "UI/BaiqiChooseArtifact.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.5870001,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "UI/BaiqiChooseArtifact.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.425,
+          "latest_ui": 1795125203.911
+        },
+        {
+          "key": "UI/BaiqiChooseArtifact.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.398,
+          "latest_ui": 1795125386.371
+        },
+        {
+          "key": "UI/BaiqiChooseArtifact.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.198,
+          "latest_ui": 1795125586.441
+        },
+        {
+          "key": "UI/BaiqiChooseArtifact.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.378,
+          "latest_ui": 1795125782.523
+        },
+        {
+          "key": "UI/BaiqiChooseArtifact.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.203,
+          "latest_ui": 1795125971.205
+        },
+        {
+          "key": "UI/BaiqiCityPanel.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.588,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "UI/BaiqiCityPanel.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.425,
+          "latest_ui": 1795125203.911
+        },
+        {
+          "key": "UI/BaiqiCityPanel.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.399,
+          "latest_ui": 1795125386.372
+        },
+        {
+          "key": "UI/BaiqiCityPanel.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.1990001,
+          "latest_ui": 1795125586.441
+        },
+        {
+          "key": "UI/BaiqiCityPanel.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.379,
+          "latest_ui": 1795125782.524
+        },
+        {
+          "key": "UI/BaiqiCityPanel.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.204,
+          "latest_ui": 1795125971.205
+        },
+        {
+          "key": "UI/BaiqiCityPanelOverview.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.588,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "UI/BaiqiCityPanelOverview.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.426,
+          "latest_ui": 1795125203.912
+        },
+        {
+          "key": "UI/BaiqiCityPanelOverview.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.4,
+          "latest_ui": 1795125386.3730001
+        },
+        {
+          "key": "UI/BaiqiCityPanelOverview.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.2,
+          "latest_ui": 1795125586.441
+        },
+        {
+          "key": "UI/BaiqiCityPanelOverview.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.379,
+          "latest_ui": 1795125782.525
+        },
+        {
+          "key": "UI/BaiqiCityPanelOverview.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.205,
+          "latest_ui": 1795125971.205
+        },
+        {
+          "key": "UI/BaiqiCityStates.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.589,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "UI/BaiqiCityStates.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.426,
+          "latest_ui": 1795125203.912
+        },
+        {
+          "key": "UI/BaiqiCityStates.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.401,
+          "latest_ui": 1795125386.3730001
+        },
+        {
+          "key": "UI/BaiqiCityStates.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.201,
+          "latest_ui": 1795125586.441
+        },
+        {
+          "key": "UI/BaiqiCityStates.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.38,
+          "latest_ui": 1795125782.526
+        },
+        {
+          "key": "UI/BaiqiCityStates.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.206,
+          "latest_ui": 1795125971.205
+        },
+        {
+          "key": "UI/BaiqiCivicsChooser.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.5900002,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "UI/BaiqiCivicsChooser.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.426,
+          "latest_ui": 1795125203.912
+        },
+        {
+          "key": "UI/BaiqiCivicsChooser.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.402,
+          "latest_ui": 1795125386.374
+        },
+        {
+          "key": "UI/BaiqiCivicsChooser.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.2020001,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiCivicsChooser.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.381,
+          "latest_ui": 1795125782.526
+        },
+        {
+          "key": "UI/BaiqiCivicsChooser.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.206,
+          "latest_ui": 1795125971.205
+        },
+        {
+          "key": "UI/BaiqiCivicsTree.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.5900002,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "UI/BaiqiCivicsTree.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.427,
+          "latest_ui": 1795125203.913
+        },
+        {
+          "key": "UI/BaiqiCivicsTree.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.403,
+          "latest_ui": 1795125386.374
+        },
+        {
+          "key": "UI/BaiqiCivicsTree.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.2020001,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiCivicsTree.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.381,
+          "latest_ui": 1795125782.527
+        },
+        {
+          "key": "UI/BaiqiCivicsTree.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.207,
+          "latest_ui": 1795125971.205
+        },
+        {
+          "key": "UI/BaiqiDedicationPopup.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.591,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "UI/BaiqiDedicationPopup.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.427,
+          "latest_ui": 1795125203.913
+        },
+        {
+          "key": "UI/BaiqiDedicationPopup.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.403,
+          "latest_ui": 1795125386.375
+        },
+        {
+          "key": "UI/BaiqiDedicationPopup.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.203,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiDedicationPopup.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.382,
+          "latest_ui": 1795125782.527
+        },
+        {
+          "key": "UI/BaiqiDedicationPopup.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.208,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiDiplomacyActionView.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.591,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "UI/BaiqiDiplomacyActionView.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.427,
+          "latest_ui": 1795125203.914
+        },
+        {
+          "key": "UI/BaiqiDiplomacyActionView.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.404,
+          "latest_ui": 1795125386.375
+        },
+        {
+          "key": "UI/BaiqiDiplomacyActionView.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.204,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiDiplomacyActionView.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.382,
+          "latest_ui": 1795125782.528
+        },
+        {
+          "key": "UI/BaiqiDiplomacyActionView.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.209,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiExecutor.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.592,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "UI/BaiqiExecutor.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.428,
+          "latest_ui": 1795125203.914
+        },
+        {
+          "key": "UI/BaiqiExecutor.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.404,
+          "latest_ui": 1795125386.376
+        },
+        {
+          "key": "UI/BaiqiExecutor.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.204,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiExecutor.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.3830001,
+          "latest_ui": 1795125782.528
+        },
+        {
+          "key": "UI/BaiqiExecutor.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.209,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiGovernmentScreen.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.592,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "UI/BaiqiGovernmentScreen.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.428,
+          "latest_ui": 1795125203.914
+        },
+        {
+          "key": "UI/BaiqiGovernmentScreen.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.405,
+          "latest_ui": 1795125386.376
+        },
+        {
+          "key": "UI/BaiqiGovernmentScreen.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.205,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiGovernmentScreen.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.384,
+          "latest_ui": 1795125782.529
+        },
+        {
+          "key": "UI/BaiqiGovernmentScreen.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.21,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiGovernorAssignmentChooser.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.593,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "UI/BaiqiGovernorAssignmentChooser.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.428,
+          "latest_ui": 1795125203.915
+        },
+        {
+          "key": "UI/BaiqiGovernorAssignmentChooser.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.405,
+          "latest_ui": 1795125386.377
+        },
+        {
+          "key": "UI/BaiqiGovernorAssignmentChooser.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.205,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiGovernorAssignmentChooser.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.384,
+          "latest_ui": 1795125782.53
+        },
+        {
+          "key": "UI/BaiqiGovernorAssignmentChooser.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.211,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiGovernorDetailsPanel.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.593,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "UI/BaiqiGovernorDetailsPanel.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.4290001,
+          "latest_ui": 1795125203.915
+        },
+        {
+          "key": "UI/BaiqiGovernorDetailsPanel.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.4060001,
+          "latest_ui": 1795125386.377
+        },
+        {
+          "key": "UI/BaiqiGovernorDetailsPanel.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.206,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiGovernorDetailsPanel.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.385,
+          "latest_ui": 1795125782.5310001
+        },
+        {
+          "key": "UI/BaiqiGovernorDetailsPanel.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.211,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiGovernorPanel.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.593,
+          "latest_ui": 1795125006.857
+        },
+        {
+          "key": "UI/BaiqiGovernorPanel.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.4290001,
+          "latest_ui": 1795125203.915
+        },
+        {
+          "key": "UI/BaiqiGovernorPanel.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.4060001,
+          "latest_ui": 1795125386.378
+        },
+        {
+          "key": "UI/BaiqiGovernorPanel.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.206,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiGovernorPanel.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.385,
+          "latest_ui": 1795125782.532
+        },
+        {
+          "key": "UI/BaiqiGovernorPanel.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.211,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiGreatPeoplePopup.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.594,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiGreatPeoplePopup.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.43,
+          "latest_ui": 1795125203.915
+        },
+        {
+          "key": "UI/BaiqiGreatPeoplePopup.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.407,
+          "latest_ui": 1795125386.378
+        },
+        {
+          "key": "UI/BaiqiGreatPeoplePopup.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.207,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiGreatPeoplePopup.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.3860002,
+          "latest_ui": 1795125782.533
+        },
+        {
+          "key": "UI/BaiqiGreatPeoplePopup.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.213,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiGreatWorkShowcase.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.595,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiGreatWorkShowcase.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.431,
+          "latest_ui": 1795125203.9160001
+        },
+        {
+          "key": "UI/BaiqiGreatWorkShowcase.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.408,
+          "latest_ui": 1795125386.379
+        },
+        {
+          "key": "UI/BaiqiGreatWorkShowcase.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.207,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiGreatWorkShowcase.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.387,
+          "latest_ui": 1795125782.533
+        },
+        {
+          "key": "UI/BaiqiGreatWorkShowcase.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.213,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiHistoricMoments.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.596,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiHistoricMoments.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.431,
+          "latest_ui": 1795125203.9160001
+        },
+        {
+          "key": "UI/BaiqiHistoricMoments.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.409,
+          "latest_ui": 1795125386.379
+        },
+        {
+          "key": "UI/BaiqiHistoricMoments.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.208,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiHistoricMoments.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.387,
+          "latest_ui": 1795125782.534
+        },
+        {
+          "key": "UI/BaiqiHistoricMoments.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.214,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiLeaderScene.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.598,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiLeaderScene.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.432,
+          "latest_ui": 1795125203.9160001
+        },
+        {
+          "key": "UI/BaiqiLeaderScene.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.409,
+          "latest_ui": 1795125386.38
+        },
+        {
+          "key": "UI/BaiqiLeaderScene.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.208,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiLeaderScene.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.387,
+          "latest_ui": 1795125782.535
+        },
+        {
+          "key": "UI/BaiqiLeaderScene.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.214,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiNaturalDisasterPopup.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.599,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiNaturalDisasterPopup.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.432,
+          "latest_ui": 1795125203.917
+        },
+        {
+          "key": "UI/BaiqiNaturalDisasterPopup.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.41,
+          "latest_ui": 1795125386.38
+        },
+        {
+          "key": "UI/BaiqiNaturalDisasterPopup.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.209,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiNaturalDisasterPopup.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.388,
+          "latest_ui": 1795125782.536
+        },
+        {
+          "key": "UI/BaiqiNaturalDisasterPopup.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.2150002,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiNaturalWonderPopup.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.6000001,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiNaturalWonderPopup.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.433,
+          "latest_ui": 1795125203.917
+        },
+        {
+          "key": "UI/BaiqiNaturalWonderPopup.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.411,
+          "latest_ui": 1795125386.381
+        },
+        {
+          "key": "UI/BaiqiNaturalWonderPopup.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.209,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiNaturalWonderPopup.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.388,
+          "latest_ui": 1795125782.537
+        },
+        {
+          "key": "UI/BaiqiNaturalWonderPopup.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.216,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiNotificationPanel.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.602,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiNotificationPanel.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.433,
+          "latest_ui": 1795125203.917
+        },
+        {
+          "key": "UI/BaiqiNotificationPanel.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.412,
+          "latest_ui": 1795125386.381
+        },
+        {
+          "key": "UI/BaiqiNotificationPanel.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.209,
+          "latest_ui": 1795125586.4420002
+        },
+        {
+          "key": "UI/BaiqiNotificationPanel.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.388,
+          "latest_ui": 1795125782.538
+        },
+        {
+          "key": "UI/BaiqiNotificationPanel.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.217,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiPantheonChooser.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.603,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiPantheonChooser.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.434,
+          "latest_ui": 1795125203.918
+        },
+        {
+          "key": "UI/BaiqiPantheonChooser.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.413,
+          "latest_ui": 1795125386.382
+        },
+        {
+          "key": "UI/BaiqiPantheonChooser.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.21,
+          "latest_ui": 1795125586.443
+        },
+        {
+          "key": "UI/BaiqiPantheonChooser.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.389,
+          "latest_ui": 1795125782.538
+        },
+        {
+          "key": "UI/BaiqiPantheonChooser.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.218,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiPlotInfo.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.604,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiPlotInfo.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.435,
+          "latest_ui": 1795125203.918
+        },
+        {
+          "key": "UI/BaiqiPlotInfo.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.414,
+          "latest_ui": 1795125386.3830001
+        },
+        {
+          "key": "UI/BaiqiPlotInfo.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.21,
+          "latest_ui": 1795125586.443
+        },
+        {
+          "key": "UI/BaiqiPlotInfo.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.389,
+          "latest_ui": 1795125782.539
+        },
+        {
+          "key": "UI/BaiqiPlotInfo.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.218,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiProductionPanel.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.605,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiProductionPanel.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.435,
+          "latest_ui": 1795125203.9190001
+        },
+        {
+          "key": "UI/BaiqiProductionPanel.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.415,
+          "latest_ui": 1795125386.384
+        },
+        {
+          "key": "UI/BaiqiProductionPanel.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.21,
+          "latest_ui": 1795125586.443
+        },
+        {
+          "key": "UI/BaiqiProductionPanel.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.39,
+          "latest_ui": 1795125782.539
+        },
+        {
+          "key": "UI/BaiqiProductionPanel.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.219,
+          "latest_ui": 1795125971.206
+        },
+        {
+          "key": "UI/BaiqiReligionScreen.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.606,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiReligionScreen.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.435,
+          "latest_ui": 1795125203.92
+        },
+        {
+          "key": "UI/BaiqiReligionScreen.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.415,
+          "latest_ui": 1795125386.384
+        },
+        {
+          "key": "UI/BaiqiReligionScreen.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.21,
+          "latest_ui": 1795125586.443
+        },
+        {
+          "key": "UI/BaiqiReligionScreen.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.39,
+          "latest_ui": 1795125782.54
+        },
+        {
+          "key": "UI/BaiqiReligionScreen.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.22,
+          "latest_ui": 1795125971.207
+        },
+        {
+          "key": "UI/BaiqiResearchChooser.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.607,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiResearchChooser.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.436,
+          "latest_ui": 1795125203.921
+        },
+        {
+          "key": "UI/BaiqiResearchChooser.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.4160001,
+          "latest_ui": 1795125386.385
+        },
+        {
+          "key": "UI/BaiqiResearchChooser.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.21,
+          "latest_ui": 1795125586.443
+        },
+        {
+          "key": "UI/BaiqiResearchChooser.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.39,
+          "latest_ui": 1795125782.54
+        },
+        {
+          "key": "UI/BaiqiResearchChooser.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.2220001,
+          "latest_ui": 1795125971.207
+        },
+        {
+          "key": "UI/BaiqiTechCivicCompletedPopup.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.608,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiTechCivicCompletedPopup.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.436,
+          "latest_ui": 1795125203.921
+        },
+        {
+          "key": "UI/BaiqiTechCivicCompletedPopup.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.417,
+          "latest_ui": 1795125386.385
+        },
+        {
+          "key": "UI/BaiqiTechCivicCompletedPopup.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.2120001,
+          "latest_ui": 1795125586.443
+        },
+        {
+          "key": "UI/BaiqiTechCivicCompletedPopup.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.391,
+          "latest_ui": 1795125782.5410001
+        },
+        {
+          "key": "UI/BaiqiTechCivicCompletedPopup.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.223,
+          "latest_ui": 1795125971.207
+        },
+        {
+          "key": "UI/BaiqiTechTree.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.609,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiTechTree.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.437,
+          "latest_ui": 1795125203.922
+        },
+        {
+          "key": "UI/BaiqiTechTree.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.417,
+          "latest_ui": 1795125386.3860002
+        },
+        {
+          "key": "UI/BaiqiTechTree.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.2120001,
+          "latest_ui": 1795125586.443
+        },
+        {
+          "key": "UI/BaiqiTechTree.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.391,
+          "latest_ui": 1795125782.5410001
+        },
+        {
+          "key": "UI/BaiqiTechTree.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.224,
+          "latest_ui": 1795125971.207
+        },
+        {
+          "key": "UI/BaiqiTradeRouteChooser.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.611,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiTradeRouteChooser.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.437,
+          "latest_ui": 1795125203.922
+        },
+        {
+          "key": "UI/BaiqiTradeRouteChooser.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.418,
+          "latest_ui": 1795125386.3860002
+        },
+        {
+          "key": "UI/BaiqiTradeRouteChooser.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.2120001,
+          "latest_ui": 1795125586.443
+        },
+        {
+          "key": "UI/BaiqiTradeRouteChooser.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.391,
+          "latest_ui": 1795125782.542
+        },
+        {
+          "key": "UI/BaiqiTradeRouteChooser.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.224,
+          "latest_ui": 1795125971.207
+        },
+        {
+          "key": "UI/BaiqiUnitFlagManager.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.612,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiUnitFlagManager.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.437,
+          "latest_ui": 1795125203.923
+        },
+        {
+          "key": "UI/BaiqiUnitFlagManager.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.418,
+          "latest_ui": 1795125386.387
+        },
+        {
+          "key": "UI/BaiqiUnitFlagManager.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.213,
+          "latest_ui": 1795125586.443
+        },
+        {
+          "key": "UI/BaiqiUnitFlagManager.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.392,
+          "latest_ui": 1795125782.543
+        },
+        {
+          "key": "UI/BaiqiUnitFlagManager.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.2250001,
+          "latest_ui": 1795125971.207
+        },
+        {
+          "key": "UI/BaiqiUnitPanel.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.6130002,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiUnitPanel.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.438,
+          "latest_ui": 1795125203.923
+        },
+        {
+          "key": "UI/BaiqiUnitPanel.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.4190001,
+          "latest_ui": 1795125386.388
+        },
+        {
+          "key": "UI/BaiqiUnitPanel.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.213,
+          "latest_ui": 1795125586.443
+        },
+        {
+          "key": "UI/BaiqiUnitPanel.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.392,
+          "latest_ui": 1795125782.543
+        },
+        {
+          "key": "UI/BaiqiUnitPanel.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.226,
+          "latest_ui": 1795125971.207
+        },
+        {
+          "key": "UI/BaiqiWorldCrisisPopup.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.614,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiWorldCrisisPopup.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.438,
+          "latest_ui": 1795125203.924
+        },
+        {
+          "key": "UI/BaiqiWorldCrisisPopup.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.4190001,
+          "latest_ui": 1795125386.388
+        },
+        {
+          "key": "UI/BaiqiWorldCrisisPopup.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.213,
+          "latest_ui": 1795125586.443
+        },
+        {
+          "key": "UI/BaiqiWorldCrisisPopup.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.392,
+          "latest_ui": 1795125782.5440001
+        },
+        {
+          "key": "UI/BaiqiWorldCrisisPopup.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.227,
+          "latest_ui": 1795125971.207
+        },
+        {
+          "key": "UI/BaiqiWorldInput.lua",
+          "turn": 85,
+          "earliest_ui": 1795124823.616,
+          "latest_ui": 1795125006.858
+        },
+        {
+          "key": "UI/BaiqiWorldInput.lua",
+          "turn": 86,
+          "earliest_ui": 1795125032.438,
+          "latest_ui": 1795125203.924
+        },
+        {
+          "key": "UI/BaiqiWorldInput.lua",
+          "turn": 87,
+          "earliest_ui": 1795125231.42,
+          "latest_ui": 1795125386.389
+        },
+        {
+          "key": "UI/BaiqiWorldInput.lua",
+          "turn": 88,
+          "earliest_ui": 1795125414.214,
+          "latest_ui": 1795125586.443
+        },
+        {
+          "key": "UI/BaiqiWorldInput.lua",
+          "turn": 89,
+          "earliest_ui": 1795125614.3930001,
+          "latest_ui": 1795125782.5440001
+        },
+        {
+          "key": "UI/BaiqiWorldInput.lua",
+          "turn": 90,
+          "earliest_ui": 1795125815.228,
+          "latest_ui": 1795125971.207
+        }
+      ],
+      "limits": "Timing coverage only; full sample accounting, native writes, and budgets require the capture analyzer."
+    },
+    "windows": [
+      {
+        "turn": 86,
+        "start_ui": 1795125017.515,
+        "end_ui": 1795125027.515,
+        "observed_union_ms": 383.00061225891113,
+        "clipped_inclusive_sum_ms_not_cpu": 403.0005931854248,
+        "sample_rows_intersecting": 78
+      },
+      {
+        "turn": 87,
+        "start_ui": 1795125216.2680001,
+        "end_ui": 1795125226.2680001,
+        "observed_union_ms": 526.9992351531982,
+        "clipped_inclusive_sum_ms_not_cpu": 546.999454498291,
+        "sample_rows_intersecting": 118
+      },
+      {
+        "turn": 88,
+        "start_ui": 1795125401.306,
+        "end_ui": 1795125411.306,
+        "observed_union_ms": 513.99827003479,
+        "clipped_inclusive_sum_ms_not_cpu": 552.9978275299072,
+        "sample_rows_intersecting": 126
+      },
+      {
+        "turn": 89,
+        "start_ui": 1795125601.038,
+        "end_ui": 1795125611.038,
+        "observed_union_ms": 437.0005130767822,
+        "clipped_inclusive_sum_ms_not_cpu": 452.00037956237793,
+        "sample_rows_intersecting": 107
+      },
+      {
+        "turn": 90,
+        "start_ui": 1795125798.489,
+        "end_ui": 1795125808.489,
+        "observed_union_ms": 593.996524810791,
+        "clipped_inclusive_sum_ms_not_cpu": 644.9973583221436,
+        "sample_rows_intersecting": 139
+      }
+    ],
+    "complete_turn_writes": [
+      {
+        "turn": 86,
+        "calls": 9,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 9
+        }
+      },
+      {
+        "turn": 87,
+        "calls": 8,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 8
+        }
+      },
+      {
+        "turn": 88,
+        "calls": 17,
+        "by_context": {
+          "Lua/BaiqiGameplay.lua": 3,
+          "UI/BaiqiExecutor.lua": 14
+        }
+      },
+      {
+        "turn": 89,
+        "calls": 10,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 10
+        }
+      },
+      {
+        "turn": 90,
+        "calls": 32,
+        "by_context": {
+          "Lua/BaiqiGameplay.lua": 6,
+          "UI/BaiqiExecutor.lua": 26
+        }
+      }
+    ],
+    "partial_turn_writes": [
+      {
+        "turn": 91,
+        "calls": 7,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 7
+        }
+      }
+    ],
+    "clock_bounds": {
+      "UI/BaiqiResearchChooser.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiCivicsChooser.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiGovernmentScreen.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiLeaderScene.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiPlotInfo.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiDedicationPopup.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiDiplomacyActionView.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiChooseArtifact.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiGreatPeoplePopup.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiHistoricMoments.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiWorldCrisisPopup.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiGovernorDetailsPanel.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiUnitFlagManager.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiGovernorPanel.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiGreatWorkShowcase.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiCityPanel.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiTechCivicCompletedPopup.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiWorldInput.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiReligionScreen.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiExecutor.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiNaturalDisasterPopup.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiPantheonChooser.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiProductionPanel.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiTechTree.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiCivicsTree.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiNotificationPanel.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "Lua/BaiqiGameplay.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiCityStates.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiTradeRouteChooser.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiNaturalWonderPopup.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiCityPanelOverview.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiGovernorAssignmentChooser.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      },
+      "UI/BaiqiUnitPanel.lua": {
+        "samples": 6,
+        "lower_seconds": 0.0,
+        "upper_seconds": 0.0,
+        "consistent": true
+      }
+    },
+    "local_anchor_counts": {
+      "86": {
+        "UI/BaiqiResearchChooser.lua": 1,
+        "UI/BaiqiCivicsChooser.lua": 1,
+        "UI/BaiqiGovernmentScreen.lua": 1,
+        "UI/BaiqiLeaderScene.lua": 1,
+        "UI/BaiqiPlotInfo.lua": 1,
+        "UI/BaiqiDedicationPopup.lua": 1,
+        "UI/BaiqiDiplomacyActionView.lua": 1,
+        "UI/BaiqiChooseArtifact.lua": 1,
+        "UI/BaiqiGreatPeoplePopup.lua": 1,
+        "UI/BaiqiHistoricMoments.lua": 1,
+        "UI/BaiqiWorldCrisisPopup.lua": 1,
+        "UI/BaiqiGovernorDetailsPanel.lua": 1,
+        "UI/BaiqiUnitFlagManager.lua": 1,
+        "UI/BaiqiGovernorPanel.lua": 1,
+        "UI/BaiqiGreatWorkShowcase.lua": 1,
+        "UI/BaiqiCityPanel.lua": 1,
+        "UI/BaiqiTechCivicCompletedPopup.lua": 1,
+        "UI/BaiqiWorldInput.lua": 1,
+        "UI/BaiqiReligionScreen.lua": 1,
+        "UI/BaiqiExecutor.lua": 1,
+        "UI/BaiqiNaturalDisasterPopup.lua": 1,
+        "UI/BaiqiPantheonChooser.lua": 1,
+        "UI/BaiqiProductionPanel.lua": 1,
+        "UI/BaiqiTechTree.lua": 1,
+        "UI/BaiqiCivicsTree.lua": 1,
+        "UI/BaiqiNotificationPanel.lua": 1,
+        "Lua/BaiqiGameplay.lua": 1,
+        "UI/BaiqiCityStates.lua": 1,
+        "UI/BaiqiTradeRouteChooser.lua": 1,
+        "UI/BaiqiNaturalWonderPopup.lua": 1,
+        "UI/BaiqiCityPanelOverview.lua": 1,
+        "UI/BaiqiGovernorAssignmentChooser.lua": 1,
+        "UI/BaiqiUnitPanel.lua": 1
+      },
+      "87": {
+        "UI/BaiqiResearchChooser.lua": 1,
+        "UI/BaiqiCivicsChooser.lua": 1,
+        "UI/BaiqiGovernmentScreen.lua": 1,
+        "UI/BaiqiLeaderScene.lua": 1,
+        "UI/BaiqiPlotInfo.lua": 1,
+        "UI/BaiqiDedicationPopup.lua": 1,
+        "UI/BaiqiDiplomacyActionView.lua": 1,
+        "UI/BaiqiChooseArtifact.lua": 1,
+        "UI/BaiqiGreatPeoplePopup.lua": 1,
+        "UI/BaiqiHistoricMoments.lua": 1,
+        "UI/BaiqiWorldCrisisPopup.lua": 1,
+        "UI/BaiqiGovernorDetailsPanel.lua": 1,
+        "UI/BaiqiUnitFlagManager.lua": 1,
+        "UI/BaiqiGovernorPanel.lua": 1,
+        "UI/BaiqiGreatWorkShowcase.lua": 1,
+        "UI/BaiqiCityPanel.lua": 1,
+        "UI/BaiqiTechCivicCompletedPopup.lua": 1,
+        "UI/BaiqiWorldInput.lua": 1,
+        "UI/BaiqiReligionScreen.lua": 1,
+        "UI/BaiqiExecutor.lua": 1,
+        "UI/BaiqiNaturalDisasterPopup.lua": 1,
+        "UI/BaiqiPantheonChooser.lua": 1,
+        "UI/BaiqiProductionPanel.lua": 1,
+        "UI/BaiqiTechTree.lua": 1,
+        "UI/BaiqiCivicsTree.lua": 1,
+        "UI/BaiqiNotificationPanel.lua": 1,
+        "Lua/BaiqiGameplay.lua": 1,
+        "UI/BaiqiCityStates.lua": 1,
+        "UI/BaiqiTradeRouteChooser.lua": 1,
+        "UI/BaiqiNaturalWonderPopup.lua": 1,
+        "UI/BaiqiCityPanelOverview.lua": 1,
+        "UI/BaiqiGovernorAssignmentChooser.lua": 1,
+        "UI/BaiqiUnitPanel.lua": 1
+      },
+      "88": {
+        "UI/BaiqiResearchChooser.lua": 1,
+        "UI/BaiqiCivicsChooser.lua": 1,
+        "UI/BaiqiGovernmentScreen.lua": 1,
+        "UI/BaiqiLeaderScene.lua": 1,
+        "UI/BaiqiPlotInfo.lua": 1,
+        "UI/BaiqiDedicationPopup.lua": 1,
+        "UI/BaiqiDiplomacyActionView.lua": 1,
+        "UI/BaiqiChooseArtifact.lua": 1,
+        "UI/BaiqiGreatPeoplePopup.lua": 1,
+        "UI/BaiqiHistoricMoments.lua": 1,
+        "UI/BaiqiWorldCrisisPopup.lua": 1,
+        "UI/BaiqiGovernorDetailsPanel.lua": 1,
+        "UI/BaiqiUnitFlagManager.lua": 1,
+        "UI/BaiqiGovernorPanel.lua": 1,
+        "UI/BaiqiGreatWorkShowcase.lua": 1,
+        "UI/BaiqiCityPanel.lua": 1,
+        "UI/BaiqiTechCivicCompletedPopup.lua": 1,
+        "UI/BaiqiWorldInput.lua": 1,
+        "UI/BaiqiReligionScreen.lua": 1,
+        "UI/BaiqiExecutor.lua": 1,
+        "UI/BaiqiNaturalDisasterPopup.lua": 1,
+        "UI/BaiqiPantheonChooser.lua": 1,
+        "UI/BaiqiProductionPanel.lua": 1,
+        "UI/BaiqiTechTree.lua": 1,
+        "UI/BaiqiCivicsTree.lua": 1,
+        "UI/BaiqiNotificationPanel.lua": 1,
+        "Lua/BaiqiGameplay.lua": 1,
+        "UI/BaiqiCityStates.lua": 1,
+        "UI/BaiqiTradeRouteChooser.lua": 1,
+        "UI/BaiqiNaturalWonderPopup.lua": 1,
+        "UI/BaiqiCityPanelOverview.lua": 1,
+        "UI/BaiqiGovernorAssignmentChooser.lua": 1,
+        "UI/BaiqiUnitPanel.lua": 1
+      },
+      "89": {
+        "UI/BaiqiResearchChooser.lua": 1,
+        "UI/BaiqiCivicsChooser.lua": 1,
+        "UI/BaiqiGovernmentScreen.lua": 1,
+        "UI/BaiqiLeaderScene.lua": 1,
+        "UI/BaiqiPlotInfo.lua": 1,
+        "UI/BaiqiDedicationPopup.lua": 1,
+        "UI/BaiqiDiplomacyActionView.lua": 1,
+        "UI/BaiqiChooseArtifact.lua": 1,
+        "UI/BaiqiGreatPeoplePopup.lua": 1,
+        "UI/BaiqiHistoricMoments.lua": 1,
+        "UI/BaiqiWorldCrisisPopup.lua": 1,
+        "UI/BaiqiGovernorDetailsPanel.lua": 1,
+        "UI/BaiqiUnitFlagManager.lua": 1,
+        "UI/BaiqiGovernorPanel.lua": 1,
+        "UI/BaiqiGreatWorkShowcase.lua": 1,
+        "UI/BaiqiCityPanel.lua": 1,
+        "UI/BaiqiTechCivicCompletedPopup.lua": 1,
+        "UI/BaiqiWorldInput.lua": 1,
+        "UI/BaiqiReligionScreen.lua": 1,
+        "UI/BaiqiExecutor.lua": 1,
+        "UI/BaiqiNaturalDisasterPopup.lua": 1,
+        "UI/BaiqiPantheonChooser.lua": 1,
+        "UI/BaiqiProductionPanel.lua": 1,
+        "UI/BaiqiTechTree.lua": 1,
+        "UI/BaiqiCivicsTree.lua": 1,
+        "UI/BaiqiNotificationPanel.lua": 1,
+        "Lua/BaiqiGameplay.lua": 1,
+        "UI/BaiqiCityStates.lua": 1,
+        "UI/BaiqiTradeRouteChooser.lua": 1,
+        "UI/BaiqiNaturalWonderPopup.lua": 1,
+        "UI/BaiqiCityPanelOverview.lua": 1,
+        "UI/BaiqiGovernorAssignmentChooser.lua": 1,
+        "UI/BaiqiUnitPanel.lua": 1
+      },
+      "90": {
+        "UI/BaiqiResearchChooser.lua": 1,
+        "UI/BaiqiCivicsChooser.lua": 1,
+        "UI/BaiqiGovernmentScreen.lua": 1,
+        "UI/BaiqiLeaderScene.lua": 1,
+        "UI/BaiqiPlotInfo.lua": 1,
+        "UI/BaiqiDedicationPopup.lua": 1,
+        "UI/BaiqiDiplomacyActionView.lua": 1,
+        "UI/BaiqiChooseArtifact.lua": 1,
+        "UI/BaiqiGreatPeoplePopup.lua": 1,
+        "UI/BaiqiHistoricMoments.lua": 1,
+        "UI/BaiqiWorldCrisisPopup.lua": 1,
+        "UI/BaiqiGovernorDetailsPanel.lua": 1,
+        "UI/BaiqiUnitFlagManager.lua": 1,
+        "UI/BaiqiGovernorPanel.lua": 1,
+        "UI/BaiqiGreatWorkShowcase.lua": 1,
+        "UI/BaiqiCityPanel.lua": 1,
+        "UI/BaiqiTechCivicCompletedPopup.lua": 1,
+        "UI/BaiqiWorldInput.lua": 1,
+        "UI/BaiqiReligionScreen.lua": 1,
+        "UI/BaiqiExecutor.lua": 1,
+        "UI/BaiqiNaturalDisasterPopup.lua": 1,
+        "UI/BaiqiPantheonChooser.lua": 1,
+        "UI/BaiqiProductionPanel.lua": 1,
+        "UI/BaiqiTechTree.lua": 1,
+        "UI/BaiqiCivicsTree.lua": 1,
+        "UI/BaiqiNotificationPanel.lua": 1,
+        "Lua/BaiqiGameplay.lua": 1,
+        "UI/BaiqiCityStates.lua": 1,
+        "UI/BaiqiTradeRouteChooser.lua": 1,
+        "UI/BaiqiNaturalWonderPopup.lua": 1,
+        "UI/BaiqiCityPanelOverview.lua": 1,
+        "UI/BaiqiGovernorAssignmentChooser.lua": 1,
+        "UI/BaiqiUnitPanel.lua": 1
+      },
+      "91": {
+        "UI/BaiqiResearchChooser.lua": 1,
+        "UI/BaiqiCivicsChooser.lua": 1,
+        "UI/BaiqiGovernmentScreen.lua": 1,
+        "UI/BaiqiLeaderScene.lua": 1,
+        "UI/BaiqiPlotInfo.lua": 1,
+        "UI/BaiqiDedicationPopup.lua": 1,
+        "UI/BaiqiDiplomacyActionView.lua": 1,
+        "UI/BaiqiChooseArtifact.lua": 1,
+        "UI/BaiqiGreatPeoplePopup.lua": 1,
+        "UI/BaiqiHistoricMoments.lua": 1,
+        "UI/BaiqiWorldCrisisPopup.lua": 1,
+        "UI/BaiqiGovernorDetailsPanel.lua": 1,
+        "UI/BaiqiUnitFlagManager.lua": 1,
+        "UI/BaiqiGovernorPanel.lua": 1,
+        "UI/BaiqiGreatWorkShowcase.lua": 1,
+        "UI/BaiqiCityPanel.lua": 1,
+        "UI/BaiqiTechCivicCompletedPopup.lua": 1,
+        "UI/BaiqiWorldInput.lua": 1,
+        "UI/BaiqiReligionScreen.lua": 1,
+        "UI/BaiqiExecutor.lua": 1,
+        "UI/BaiqiNaturalDisasterPopup.lua": 1,
+        "UI/BaiqiPantheonChooser.lua": 1,
+        "UI/BaiqiProductionPanel.lua": 1,
+        "UI/BaiqiTechTree.lua": 1,
+        "UI/BaiqiCivicsTree.lua": 1,
+        "UI/BaiqiNotificationPanel.lua": 1,
+        "Lua/BaiqiGameplay.lua": 1,
+        "UI/BaiqiCityStates.lua": 1,
+        "UI/BaiqiTradeRouteChooser.lua": 1,
+        "UI/BaiqiNaturalWonderPopup.lua": 1,
+        "UI/BaiqiCityPanelOverview.lua": 1,
+        "UI/BaiqiGovernorAssignmentChooser.lua": 1,
+        "UI/BaiqiUnitPanel.lua": 1
+      }
+    },
+    "contexts": 33,
+    "samples": 1360,
+    "aggregate_zero_success_calls": 32598,
+    "configured_retained_sample_budget": 4096,
+    "observed_b_turn_budget_ok": true,
+    "observed_n_req_budget_ok": true,
+    "limits": [
+      "Observed numbers assume constant context offsets; midpoint alignment is not exact synchronization.",
+      "Clock granularity and timing uncertainty remain unknown.",
+      "Inclusive envelopes contain Native/vanilla callees; they are not exclusive mod CPU.",
+      "Source coverage and city-history classification require separate evidence.",
+      "Matched B_delta and full TC-036 acceptance are not established."
+    ],
+    "utc": "2026-11-19T22:09:21.216760+00:00",
+    "facts_sha256": "141b56c076056e52efd32724c3c5c95c8f9b92ef4535c2a5ce0af314910fadf4",
+    "source_version": 172,
+    "actual_end_mode": "ORDINARY_CALLBACK",
+    "scope": "complete33context fixed5windows/wholeturnwrites with396auditedtimingtransitions; noB_plan/B_delta/fullTC036; profilerows are not exclusiveCPU"
+  },
+  "ledger": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "generation_POSTs": 0,
+  "unknown_costs": null
+}
