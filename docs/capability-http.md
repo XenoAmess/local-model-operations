@@ -7616,3 +7616,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20：[Civ6 172原85准备](evidence/2026-11-20-civ6-source172-plan-native-preparation.json)：58语义／12真实Python／14写前检查与完整临时目录安装续行通过，登记777／未来发表仍属软件夹具；真实部署和Native未做，0新POST，继续完整验收。
 
 2026-11-20：[Civ6未完成采集后的真实预检修复](evidence/2026-11-20-civ6-source172-readonly-preflight-abort.json)前，R21再次只读GET200确认仅open-h3-2k、配置qwen38-coder仍缺失；无替换、0POST，负责人继续未完成修复。270部分样本不授预算结论。
+
+2026-11-20：[Civ6只读预检修复准备](evidence/2026-11-20-civ6-source172-readonly-preflight-repair-preparation.json)在配置模型仍不可用时由负责人完成：58语义／12Python／18预检入口／15安装前边界，0Native／POST；无模型能力记账或预算通过转授。
