@@ -7556,3 +7556,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[当前169原85规划实机](evidence/2026-11-19-civ6-source169-original85-plan-native.json)：B_plan=FAIL，原值/纯十城与其他分类保留，六次普通结束实际91，保存/撤钩/释放/退场另核；0新生成POST，不授其余预算或整模组通过。
 
 2026-11-19：[169实际FAIL后的分步路径诊断准备](evidence/2026-11-19-civ6-source169-staged-path-diagnosis-prepared.json)：20绑定、24VM／6反向与直通语义、15玩家＋4收尾和4实际安装前置已核，准备不授实机因果。R13配置模型仍缺，0POST／采用／服务修改，负责人继续真实任务。
+
+2026-11-19：[169同根分步路径实采](evidence/2026-11-19-civ6-controller169-staged-path-native.json)：116根／515行，保存／20绑定撤钩／正式释放／退场完成；0新生成POST。只授实际诊断证据，原规划FAIL和整modOPEN保留，继续因果审阅与产品修复。
