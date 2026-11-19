@@ -7590,3 +7590,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[Civ6171旧请求测试辅助准备](evidence/2026-11-19-civ6-source171-retired-request-preparation.json)：36实际处理体VM检查，固定旧类型在Capture前拒绝；0Native/POST，软件阶段名不充当真实读档或TC033通过。
 
 2026-11-19：[Civ6171隔离辅助准备](evidence/2026-11-19-civ6-source171-isolation-helper-preparation.json)：8自身OS＋1标志拒绝/清理、14调用器、12实际包、6受控父契约，0Civ过滤器/Native/生成POST。Microsoft协议审查与自身测试不授游戏财政或运行时隔离通过。
+
+2026-11-19：[Civ6当前171原85全脚本实机](evidence/2026-11-19-civ6-source171-original85-fullscript-native.json)：B_turn=PASS/N_req=PASS，33上下文与198/396校准/阶段完整核算；0新生成POST，原值及实际生命周期保留，B_delta/全mod仍未授通过。
