@@ -7610,3 +7610,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[Civ6当前171原85全25配对段](evidence/2026-11-19-civ6-source171-original85-paired-final.json)：B_delta=FAIL，十独立冷侧、真实输入／所有原值／保存退场独立核验，0新生成POST；功能／经济／恢复验收继续，不授整个mod通过。
 
 2026-11-20：[Civ6配对有效FAIL与R20](evidence/2026-11-20-civ6-current-paired-failure-maintenance-r20.json)：Nov20新日OpenCode1.19.6检查非缓存成功；配置coder仍不在当前models清单，0POST／候选／采用，不切模型或服务。配对比例中位10.453460%超过10%，保留25对全部原值并继续修复，不能以传输维护成功授产品通过。
+
+2026-11-20：[Civ6 172安全扫描软件](evidence/2026-11-20-civ6-source172-safe-coordinate-software.json)：配置coder仍缺，0POST／采用，Owner完成真实未闭修复。公开格坐标读取6→4，未知可见性旧误放行反例／新拒绝、9方法双Lua及修正后相关71项通过。完整2868有5版本断言失败／1夹具错误，原件保留，不冒称整套重跑全绿；172Native未开始，171有效配对FAIL保留。
