@@ -7548,3 +7548,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[当前168原85规划实机](evidence/2026-11-19-civ6-source168-original85-plan-native.json)：B_plan=FAIL，原值/纯十城与其他分类保留，六次普通结束实际91，保存/撤钩/释放/退场另核；0新生成POST，不授其余预算或整模组通过。
 
 2026-11-19：[168实际FAIL后的同根几何诊断准备](evidence/2026-11-19-civ6-source168-geometry-diagnosis-prepared.json)：在原12词法限制内替换一个计时项，20总绑定、24VM／4反向、15玩家＋4收尾表达式及4安装前置通过。原51ms FAIL保留，准备不授实机因果。R11只读配置模型仍缺，0POST／采用／服务改动，继续真实工作。
+
+2026-11-19：[168同根几何实采](evidence/2026-11-19-civ6-controller168-geometry-native.json)：129根／689行，保存／20绑定撤钩／正式释放／退场完成；0新生成POST。只授实际诊断证据，原规划FAIL和整modOPEN保留，继续因果审阅与产品修复。

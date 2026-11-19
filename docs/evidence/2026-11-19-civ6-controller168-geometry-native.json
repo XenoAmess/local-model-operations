@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-19",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/70e8e93af7f319ee9aa02182879eda8e332737f3/docs/research/baiqi-source168-controller-geometry-native-2026-11-19.json",
+  "source_version": 168,
+  "status": "GEOMETRY_SUPPORT_CHILD_DIAGNOSIS_COMPLETE_PENDING_PRODUCT_FIX",
+  "roots": 129,
+  "samples": 689,
+  "stats_by_name": {
+    "Controller.RunNow": {
+      "count": 129,
+      "p50_ms": 2.000093460083008,
+      "p95_ms": 34.00015830993652,
+      "max_ms": 168.99991035461426
+    },
+    "ProcessSettler": {
+      "count": 9,
+      "p50_ms": 31.000137329101562,
+      "p95_ms": 157.00006484985352,
+      "max_ms": 157.00006484985352
+    },
+    "ProcessNaturalist": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "ProcessArchaeologist": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "ProcessDistrictPerson": {
+      "count": 10,
+      "p50_ms": 1.4998912811279297,
+      "p95_ms": 9.999990463256836,
+      "max_ms": 9.999990463256836
+    },
+    "ProcessCreative": {
+      "count": 3,
+      "p50_ms": 0.9999275207519531,
+      "p95_ms": 2.000093460083008,
+      "max_ms": 2.000093460083008
+    },
+    "NeighborhoodGeometry": {
+      "count": 172,
+      "p50_ms": 0.0,
+      "p95_ms": 1.0001659393310547,
+      "max_ms": 2.000093460083008
+    },
+    "KnownExpansionSupport": {
+      "count": 12,
+      "p50_ms": 19.00005340576172,
+      "p95_ms": 30.00020980834961,
+      "max_ms": 30.00020980834961
+    },
+    "SettlementBridge": {
+      "count": 131,
+      "p50_ms": 0.0,
+      "p95_ms": 1.0001659393310547,
+      "max_ms": 9.000062942504883
+    },
+    "SettlerGoalBridge": {
+      "count": 14,
+      "p50_ms": 0.0,
+      "p95_ms": 9.999990463256836,
+      "max_ms": 9.999990463256836
+    },
+    "RequestCivilian": {
+      "count": 28,
+      "p50_ms": 0.9999275207519531,
+      "p95_ms": 6.999969482421875,
+      "max_ms": 88.99998664855957
+    },
+    "PathStep": {
+      "count": 5,
+      "p50_ms": 6.999969482421875,
+      "p95_ms": 21.000146865844727,
+      "max_ms": 21.000146865844727
+    },
+    "Safe": {
+      "count": 160,
+      "p50_ms": 0.0,
+      "p95_ms": 3.000020980834961,
+      "max_ms": 4.999876022338867
+    },
+    "Native.GetMoveToPathEx": {
+      "count": 5,
+      "p50_ms": 1.0001659393310547,
+      "p95_ms": 6.000041961669922,
+      "max_ms": 6.000041961669922
+    },
+    "Native.DetourChoicePath": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "Native.DetourFirstEdgePath": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "Native.FoundRequestOperation": {
+      "count": 1,
+      "p50_ms": 0.9999275207519531,
+      "p95_ms": 0.9999275207519531,
+      "max_ms": 0.9999275207519531
+    },
+    "DistrictRoute.Run": {
+      "count": 6,
+      "p50_ms": 5.4999589920043945,
+      "p95_ms": 17.000198364257812,
+      "max_ms": 17.000198364257812
+    },
+    "Native.DistrictRoutePath": {
+      "count": 2,
+      "p50_ms": 0.9999275207519531,
+      "p95_ms": 0.9999275207519531,
+      "max_ms": 0.9999275207519531
+    },
+    "Native.DistrictRouteRange": {
+      "count": 2,
+      "p50_ms": 5.500078201293945,
+      "p95_ms": 8.00013542175293,
+      "max_ms": 8.00013542175293
+    }
+  },
+  "original85_B_plan": "FAIL_UNCHANGED",
+  "ledger": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "new_generation_POSTs": 0,
+  "unknown_costs": null
+}
