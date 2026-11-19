@@ -7530,3 +7530,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[当前163原85规划实机](evidence/2026-11-19-civ6-source165-original85-plan-native.json)：B_plan=FAIL，原值/纯十城与其他分类保留，六次普通结束实际91，保存/撤钩/释放/退场另核；0新生成POST，不授其余预算或整模组通过。
 
 2026-11-19：[Source166真实寻路修复与完整软件回归](evidence/2026-11-19-civ6-source166-short-leg-route-software.json)：Owner依据原版可达范围消费者实现邻近分段，2816运行／2815通过／1SDK跳过，未授Native耗时、路径完备或性能通过。R6配置编码模型仍缺失，0生成POST／0采用；成本未知null，继续实机。
+
+2026-11-19：[166冷验安装前字段检查修正](evidence/2026-11-19-civ6-source166-preinstall-guard-correction.json)：正式释放与预算裁定是不同记录，实际安装函数前置4场景通过并在首次写意图前截住，0Native。58既有语义检查未覆盖此安装字段，已补验证；0新模型POST，不授模型或游戏效果能力。

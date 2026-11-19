@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-19",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/b3b44e25af8fc3b820b2b3045148b8f1bc00d3c9/docs/research/baiqi-source166-preinstall-guard-correction-2026-11-19.json",
+  "status": "COLD_PREPARATION_CORRECTED_NATIVE_NOT_STARTED",
+  "cause": "Owner installer compared the prior release metadata performance_pass explanation string with False. The formal release deliberately does not encode a budget verdict. The actual guard stopped before the first install intent; no game or Native action occurred.",
+  "correction": "Check completed/exported/retired/saved flags and zero model overlap in release receipt; independently check the actual prior summary overall_budget_ok false and published B_plan FAIL. Separate plan166b attempt preserves first failure and avoids reusing any exclusive intent.",
+  "preflight": {
+    "utc": "2026-11-19T04:58:52.792932+00:00",
+    "status": "PASS",
+    "actual_installer_function": true,
+    "cases": [
+      {
+        "case": "actual_closed165_records",
+        "result": "all_real_prewrite_checks_reached_intercepted_first_intent",
+        "writes": 0,
+        "Native_queries": 0,
+        "game_launches": 0
+      },
+      {
+        "case": "summary_budget_true",
+        "result": "rejected_before_any_write_intent",
+        "writes": 0,
+        "Native_queries": 0,
+        "game_launches": 0
+      },
+      {
+        "case": "published_verdict_PASS",
+        "result": "rejected_before_any_write_intent",
+        "writes": 0,
+        "Native_queries": 0,
+        "game_launches": 0
+      },
+      {
+        "case": "capture_incomplete",
+        "result": "rejected_before_any_write_intent",
+        "writes": 0,
+        "Native_queries": 0,
+        "game_launches": 0
+      }
+    ],
+    "future_publication_receipt": "Software-only mock provides ancestry+exact14 hashes. All prior capture/summary/publication/receipt/files/archive/install-state are actual read-only records. No real future publication is claimed.",
+    "source_version": 166,
+    "Native_queries": 0,
+    "writes": 0,
+    "Native_inputs": 0
+  },
+  "new_generation_POSTs": 0,
+  "model_capability_grant": false,
+  "whole_mod": "OPEN_CONTINUE"
+}
