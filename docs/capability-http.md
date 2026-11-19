@@ -7512,3 +7512,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[根据实采缺口更换真实测点](evidence/2026-11-19-civ6-controller163-child-focus-prepared.json)：新增文职外层／移民链路选择经实际15＋3双Lua与14VM核验，原118根765行与规划FAIL保留；0生成POST，未重试已知不匹配模型／改配置服务；准备不授Native通过。
 
 2026-11-19：[163真实Controller分步实采](evidence/2026-11-19-civ6-controller163-child-focus-native.json)：112根／611行，保存／17绑定撤钩／正式释放／退场完成；0新生成POST。只授实际诊断证据，原规划FAIL和整modOPEN保留，继续因果审阅与产品修复。
+
+2026-11-19：[Civ6 Source164真实修复与回归](evidence/2026-11-19-civ6-source164-district-route-software.json)：配置模型仍缺失，Owner依据实机同根区间修复；0新生成POST、0模型候选采用。完整2798项中2797通过／1SDK跳过，97Lua双编译；Native仍待测，未给HTTP生成能力或整mod通过。
