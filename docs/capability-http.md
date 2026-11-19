@@ -7588,3 +7588,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[Civ6生命值边界复核／R18](evidence/2026-11-19-civ6-source171-health-review-r18.json)：九个历史阶段、36源码比较，0新Native/POST；共享字段与不同读取路径分别记录。两个可用性GET200仍无配置coder，不换模型或重试已知不兼容生成。
 
 2026-11-19：[Civ6171旧请求测试辅助准备](evidence/2026-11-19-civ6-source171-retired-request-preparation.json)：36实际处理体VM检查，固定旧类型在Capture前拒绝；0Native/POST，软件阶段名不充当真实读档或TC033通过。
+
+2026-11-19：[Civ6171隔离辅助准备](evidence/2026-11-19-civ6-source171-isolation-helper-preparation.json)：8自身OS＋1标志拒绝/清理、14调用器、12实际包、6受控父契约，0Civ过滤器/Native/生成POST。Microsoft协议审查与自身测试不授游戏财政或运行时隔离通过。
