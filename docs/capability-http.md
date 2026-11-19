@@ -7562,3 +7562,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[169实际FAIL后的原生边界诊断准备](evidence/2026-11-19-civ6-source169-native-request-diagnosis-prepared.json)：20绑定、24VM／6反向与直通语义、15玩家＋4收尾和4实际安装前置已核，准备不授实机因果。R14配置模型仍缺，0POST／采用／服务修改，负责人继续真实任务。
 
 2026-11-19：[169同根原生边界实采](evidence/2026-11-19-civ6-controller169-native-boundaries.json)：116根／572行，保存／20绑定撤钩／正式释放／退场完成；0新生成POST。只授实际诊断证据，原规划FAIL和整modOPEN保留，继续因果审阅与产品修复。
+
+2026-11-19：[170规划支持去重软件](evidence/2026-11-19-civ6-source170-retained-goal-support-software.json)：保留写入前完整支持／Native检查，6新／19组合双Lua、244相关、4旧版本控制及完整2855／2854通过／1SDK跳过。Native170未开始，低边界计时不能跨捕获解释旧216ms；R14/R15配置模型缺，0POST／采用，Owner继续实机。
