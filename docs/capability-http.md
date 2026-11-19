@@ -7544,3 +7544,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[167真实静态几何候选与完整回归](evidence/2026-11-19-civ6-source167-bounded-support-geometry-software.json)：2829运行／2828通过／1SDK跳过，冷几何24偏移／步；只缓存静态标量，保持待算与拒绝区别和最终新鲜检查。该优化并未证明22ms内部细项原因或Native提速。R9编码模型缺失，0POST／0采用，继续实机与完整mod验收。
 
 2026-11-19：[168旧内政伟人等待软件与167中止](evidence/2026-11-19-civ6-source168-legacy-district-standby-software.json)。旧未决能力只等待，SKIP日志后AWAKE原因仍未知；不清记录或重放。全2836／2835通过／1SDK跳过，Native168未授通过。R10在正式释放后只读确认配置模型仍缺，0POST／采用，Owner继续真实修复。
+
+2026-11-19：[当前168原85规划实机](evidence/2026-11-19-civ6-source168-original85-plan-native.json)：B_plan=FAIL，原值/纯十城与其他分类保留，六次普通结束实际91，保存/撤钩/释放/退场另核；0新生成POST，不授其余预算或整模组通过。

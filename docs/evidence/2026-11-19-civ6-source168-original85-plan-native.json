@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-19",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/2fc81e8d448d69f7176d2b0faf36093b87e698b2/docs/research/baiqi-source168-original85-plan-native-2026-11-19.json",
+  "source_version": 168,
+  "B_plan": "FAIL",
+  "summary": {
+    "utc": "2026-11-19T08:14:23.404612+00:00",
+    "facts_sha256": "0727201bba3cb3ab435f21c5843382254fb63e25744eb43ed8f0af0f8c22b362",
+    "cities": 11,
+    "source": "baiqi168-stageA-v2",
+    "sample_quality_ok": true,
+    "samples": 314,
+    "classification_counts": {
+      "Admin.Run": {
+        "pure_ten": 117,
+        "10_to_11": 0,
+        "eleven_city": 16,
+        "turn_crossing": 0,
+        "other_city_state": 0,
+        "outside_window": 0,
+        "before_native_anchor": 0
+      },
+      "Controller.RunNow": {
+        "pure_ten": 143,
+        "10_to_11": 0,
+        "eleven_city": 18,
+        "turn_crossing": 0,
+        "other_city_state": 0,
+        "outside_window": 0,
+        "before_native_anchor": 20
+      }
+    },
+    "eligible_calls_by_turn": {
+      "Admin.Run": {
+        "86": 26,
+        "87": 27,
+        "88": 26,
+        "89": 28,
+        "90": 26
+      },
+      "Controller.RunNow": {
+        "86": 32,
+        "87": 31,
+        "88": 35,
+        "89": 33,
+        "90": 30
+      }
+    },
+    "targets": {
+      "Admin.Run": {
+        "pure_ten_count": 117,
+        "p50_ms": 0.0,
+        "p95_ms": 4.000186920166016,
+        "max_ms": 9.000062942504883,
+        "above_20ms_count": 0,
+        "above_50ms_count": 0,
+        "budget_ok": true
+      },
+      "Controller.RunNow": {
+        "pure_ten_count": 143,
+        "p50_ms": 1.9998550415039062,
+        "p95_ms": 15.000104904174805,
+        "max_ms": 50.99987983703613,
+        "above_20ms_count": 4,
+        "above_50ms_count": 1,
+        "budget_ok": false
+      }
+    },
+    "overall_budget_ok": false,
+    "limits": "Independent planning-function inclusive wall-clock latency only; no B_turn, N_req, B_delta or whole TC-036 pass.",
+    "pre_anchor": {
+      "pending": 0,
+      "recorded": 20,
+      "validated": 20,
+      "errors": 0
+    }
+  },
+  "ledger": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "new_generation_POSTs": 0,
+  "unknown_costs": null
+}
