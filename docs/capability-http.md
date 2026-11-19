@@ -7594,3 +7594,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[Civ6当前171原85全脚本实机](evidence/2026-11-19-civ6-source171-original85-fullscript-native.json)：B_turn=PASS/N_req=PASS，33上下文与198/396校准/阶段完整核算；0新生成POST，原值及实际生命周期保留，B_delta/全mod仍未授通过。
 
 2026-11-19：[Civ6全脚本发布JSON格式修正与R19](evidence/2026-11-19-civ6-json-wire-validation-r19.json)：真实校验差异仅整数对象键的JSON表示；原值精确一致、无游戏重放。共享配置qwen38-coder仍缺，仅open-h3-2k；两GET、同日维护缓存、0POST／替代／服务修改，继续负责人真实未完成工作。
+
+2026-11-19：[Civ6配对安装续路修正](evidence/2026-11-19-civ6-paired-post-backup-installer.json)：qwen38-coder在R19仍缺，负责人处理真实未完成QA错误；3实际软件路径含旧失败对照，真实游戏安装／Native0，不能把首次写入前检查称作完整安装证明。

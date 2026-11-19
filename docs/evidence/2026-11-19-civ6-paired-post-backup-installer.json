@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-19",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/d04b502796dfe9a4c23482969d67d091634045ab/docs/research/baiqi-source171-paired-post-backup-installer-software-2026-11-19.json",
+  "actual_software_cases": [
+    {
+      "case": "old_receipt_shadows_function",
+      "variant": "enabled",
+      "outcome": "actual_old_failure_after_backup_before_installer",
+      "backup_bytes": 9241764,
+      "real_target_changed": false,
+      "real_install_calls": 0,
+      "Native_queries": 0
+    },
+    {
+      "case": "fixed_enabled_full_temporary_install",
+      "variant": "enabled",
+      "outcome": "actual_installer_backup_install_verify_complete_in_temporary_target",
+      "backup_bytes": 9241764,
+      "real_target_changed": false,
+      "real_install_calls": 0,
+      "Native_queries": 0
+    },
+    {
+      "case": "fixed_control_full_temporary_install",
+      "variant": "control",
+      "outcome": "actual_installer_backup_install_verify_complete_in_temporary_target",
+      "backup_bytes": 9241764,
+      "real_target_changed": false,
+      "real_install_calls": 0,
+      "Native_queries": 0
+    }
+  ],
+  "lesson": "First-write qualification did not cover a later function/local name collision. Use the preserved old failure control and real temporary installer continuation; no game replay.",
+  "generation_POSTs": 0,
+  "Native_queries": 0,
+  "unknown_costs": null
+}
