@@ -7578,3 +7578,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[Civ6当前171护送夹具清点准备](evidence/2026-11-19-civ6-source171-escort-inventory-software.json)：148软件检查，0Native/命令/POST；候选不授编队许可，实际移民/建造者/传教士护送窗口仍待验。
 
 2026-11-19T12:27Z：[Civ6配置模型R17](evidence/2026-11-19-civ6-configured-model404-readonly-r17.json)，两个只读GET200仍无配置coder；0生成POST/新任务/服务变更，Owner继续真实准备，不以模型缺失授游戏隔离通过。
+
+2026-11-19：[当前171原85规划实机](evidence/2026-11-19-civ6-source171-original85-plan-native.json)：B_plan=PASS，原值/纯十城与其他分类保留，六次普通结束实际91，保存/撤钩/释放/退场另核；0新生成POST，不授其余预算或整模组通过。
