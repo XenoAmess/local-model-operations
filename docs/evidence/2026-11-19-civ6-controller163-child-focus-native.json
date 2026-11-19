@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-19",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/3f5cd597bd73868b5f7e2d561ab160f3b3852bc9/docs/research/baiqi-source163-controller-child-focus-native-2026-11-19.json",
+  "source_version": 163,
+  "status": "FOCUSED_CHILD_DIAGNOSIS_COMPLETE_PENDING_PRODUCT_CAUSAL_REVIEW",
+  "roots": 112,
+  "samples": 611,
+  "stats_by_name": {
+    "Controller.RunNow": {
+      "count": 112,
+      "p50_ms": 3.000020980834961,
+      "p95_ms": 40.9998893737793,
+      "max_ms": 89.99991416931152
+    },
+    "ProcessSettler": {
+      "count": 5,
+      "p50_ms": 8.00013542175293,
+      "p95_ms": 39.999961853027344,
+      "max_ms": 39.999961853027344
+    },
+    "ProcessNaturalist": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "ProcessArchaeologist": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "ProcessDistrictPerson": {
+      "count": 15,
+      "p50_ms": 5.000114440917969,
+      "p95_ms": 76.99990272521973,
+      "max_ms": 76.99990272521973
+    },
+    "ProcessCreative": {
+      "count": 3,
+      "p50_ms": 0.0,
+      "p95_ms": 0.0,
+      "max_ms": 0.0
+    },
+    "ProcessProphet": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "KnownExpansionSupport": {
+      "count": 8,
+      "p50_ms": 2.000093460083008,
+      "p95_ms": 28.0001163482666,
+      "max_ms": 28.0001163482666
+    },
+    "SettlementBridge": {
+      "count": 113,
+      "p50_ms": 0.0,
+      "p95_ms": 1.0001659393310547,
+      "max_ms": 2.000093460083008
+    },
+    "SettlerGoalBridge": {
+      "count": 10,
+      "p50_ms": 0.0,
+      "p95_ms": 0.9999275207519531,
+      "max_ms": 0.9999275207519531
+    },
+    "RequestCivilian": {
+      "count": 34,
+      "p50_ms": 0.9999275207519531,
+      "p95_ms": 4.999876022338867,
+      "max_ms": 4.999876022338867
+    },
+    "PathStep": {
+      "count": 16,
+      "p50_ms": 4.000067710876465,
+      "p95_ms": 65.00005722045898,
+      "max_ms": 65.00005722045898
+    },
+    "Safe": {
+      "count": 278,
+      "p50_ms": 0.0,
+      "p95_ms": 2.9997825622558594,
+      "max_ms": 4.999876022338867
+    },
+    "Native.GetMoveToPathEx": {
+      "count": 16,
+      "p50_ms": 2.000093460083008,
+      "p95_ms": 38.00010681152344,
+      "max_ms": 38.00010681152344
+    },
+    "Native.DetourChoicePath": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "Native.DetourFirstEdgePath": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "Native.FoundRequestOperation": {
+      "count": 1,
+      "p50_ms": 0.0,
+      "p95_ms": 0.0,
+      "max_ms": 0.0
+    }
+  },
+  "original85_B_plan": "FAIL_UNCHANGED",
+  "ledger": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "new_generation_POSTs": 0,
+  "unknown_costs": null
+}
