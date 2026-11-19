@@ -2413,3 +2413,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-19：170候选与采用前R14/R15复用同机同用户Nov19 OpenCode1.19.6成功维护缓存；原生生成0，维护及HTTP只读200不授生成或游戏能力。
 
 2026-11-19：171候选前R16复用同机同用户Nov19 OpenCode1.19.6成功维护缓存；原生生成0，维护及HTTP只读200不授生成或游戏能力。
+
+2026-11-19T12:27Z：[同机Nov19维护缓存复用](evidence/2026-11-19-civ6-configured-model404-readonly-r17.json)：installed/target1.19.6、cached=true，OpenCode原生生成仍0；HTTP只读与维护成功分别记账。

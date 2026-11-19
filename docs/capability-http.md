@@ -7576,3 +7576,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[Civ6当前171财政收集流程软件](evidence/2026-11-19-civ6-source171-recruit-collection-software.json)：10项双VM端到端，截断/元数据变化原件保留并停发；0Native/POST，不授财政/网络实机通过。
 
 2026-11-19：[Civ6当前171护送夹具清点准备](evidence/2026-11-19-civ6-source171-escort-inventory-software.json)：148软件检查，0Native/命令/POST；候选不授编队许可，实际移民/建造者/传教士护送窗口仍待验。
+
+2026-11-19T12:27Z：[Civ6配置模型R17](evidence/2026-11-19-civ6-configured-model404-readonly-r17.json)，两个只读GET200仍无配置coder；0生成POST/新任务/服务变更，Owner继续真实准备，不以模型缺失授游戏隔离通过。
