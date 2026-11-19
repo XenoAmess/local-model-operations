@@ -7572,3 +7572,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[Civ6当前171迁移复核及财政观察器](evidence/2026-11-19-civ6-source171-migration-review-finance-preparation.json)：238次历史启动文件比较、16实际双VM、119文件私有包准备；0新POST/Native，费用缓存未知。保留原窄范围实测及未执行分支，不将不可用coder或WFP准备写成游戏隔离通过。
 
 2026-11-19：[Civ6当前171最终招募导出软件](evidence/2026-11-19-civ6-source171-recruit-export-software.json)：36项实际检查，原始未知与分页严格保留；0Native/POST，不授财政或网络隔离实机通过。
+
+2026-11-19：[Civ6当前171财政收集流程软件](evidence/2026-11-19-civ6-source171-recruit-collection-software.json)：10项双VM端到端，截断/元数据变化原件保留并停发；0Native/POST，不授财政/网络实机通过。
