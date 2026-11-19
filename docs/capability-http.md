@@ -7604,3 +7604,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[Civ6财政普通回合消费者](evidence/2026-11-19-civ6-finance-player-workflow-software.json)12实际Python／2旧错误控制，复用真实原版处理、独立证据命名、禁止fallbackEND；0Native／新POST，未把完整财政父流程写成完成。
 
 2026-11-19：[Civ6财政父流程准备](evidence/2026-11-19-civ6-finance-native-parent-preparation.json)28冻结消费者，11父流程软件／8未来前置安装软件／4文件检查，0Native／新POST；假负例收据别名与旧辅助路径问题原件保留。准备不等于实机，必须先取得真实配对PASS和桌面交还，再作经济冲击及隔离测试。
+
+2026-11-19：[Civ6当前171压力包](evidence/2026-11-19-civ6-pressure171-diagnostic-packages.json)4实际包各119／97双Lua，0Native／新POST，不以构建或旧163结果替代当前自然资格／性能；独立桌面等待期工作。
