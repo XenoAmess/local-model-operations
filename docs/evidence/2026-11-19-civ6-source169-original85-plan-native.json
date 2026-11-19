@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-19",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/c9fb95220af40cfc36e15d084e5c9e0cd33a2222/docs/research/baiqi-source169-original85-plan-native-2026-11-19.json",
+  "source_version": 169,
+  "B_plan": "FAIL",
+  "summary": {
+    "utc": "2026-11-19T09:46:55.706240+00:00",
+    "facts_sha256": "f138183191484ee6dade243db8c6d346295acae848897c9db2a94128440bc489",
+    "cities": 11,
+    "source": "baiqi169-stageA-v2",
+    "sample_quality_ok": true,
+    "samples": 315,
+    "classification_counts": {
+      "Admin.Run": {
+        "pure_ten": 121,
+        "10_to_11": 0,
+        "eleven_city": 6,
+        "turn_crossing": 0,
+        "other_city_state": 0,
+        "outside_window": 0,
+        "before_native_anchor": 0
+      },
+      "Controller.RunNow": {
+        "pure_ten": 152,
+        "10_to_11": 0,
+        "eleven_city": 7,
+        "turn_crossing": 0,
+        "other_city_state": 0,
+        "outside_window": 0,
+        "before_native_anchor": 29
+      }
+    },
+    "eligible_calls_by_turn": {
+      "Admin.Run": {
+        "86": 25,
+        "87": 26,
+        "88": 27,
+        "89": 27,
+        "90": 22
+      },
+      "Controller.RunNow": {
+        "86": 32,
+        "87": 31,
+        "88": 34,
+        "89": 32,
+        "90": 30
+      }
+    },
+    "targets": {
+      "Admin.Run": {
+        "pure_ten_count": 121,
+        "p50_ms": 1.0001659393310547,
+        "p95_ms": 9.000062942504883,
+        "max_ms": 13.99993896484375,
+        "above_20ms_count": 0,
+        "above_50ms_count": 0,
+        "budget_ok": true
+      },
+      "Controller.RunNow": {
+        "pure_ten_count": 152,
+        "p50_ms": 7.999897003173828,
+        "p95_ms": 40.000200271606445,
+        "max_ms": 62.99996376037598,
+        "above_20ms_count": 22,
+        "above_50ms_count": 5,
+        "budget_ok": false
+      }
+    },
+    "overall_budget_ok": false,
+    "limits": "Independent planning-function inclusive wall-clock latency only; no B_turn, N_req, B_delta or whole TC-036 pass.",
+    "pre_anchor": {
+      "pending": 0,
+      "recorded": 29,
+      "validated": 29,
+      "errors": 0
+    }
+  },
+  "ledger": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "new_generation_POSTs": 0,
+  "unknown_costs": null
+}
