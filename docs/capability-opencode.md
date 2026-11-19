@@ -2383,3 +2383,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-19：[隔离辅助程序验证边界](evidence/2026-11-19-civ6-source163-tc038-scoped-guard-software.json)：0原生工具生成，本次Owner MSVC/WinSDK编译与自测分列，不补记模型生成或每日维护能力。
 
 2026-11-19：[财务QA准备边界](evidence/2026-11-19-civ6-source163-finance-guard-compatibility.json)：0原生生成，Owner变换/编译/包验证单列，未知成本null，不把软件准备授游戏效果。
+
+2026-11-19T00:29Z：[同机当日维护缓存复用](evidence/2026-11-19-civ6-configured-model404-readonly-recheck.json)：installed/target1.19.6，cached=true；这是维护缓存与只读HTTP检查，OpenCode原生生成次数仍0，无代码生成能力新授予。
