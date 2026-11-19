@@ -2425,3 +2425,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-20：[Civ6既有Paseo/Codex协调线程恢复失败](evidence/2026-11-20-civ6-closed-peer-desktop-coordination.json)为宿主provider stdout单行超过128MB，区别于本地模型HTTP和OpenCode每日维护；0新生成POST／原生工具任务，不据此归模型能力。原消息与正式reload错误保留，未伪造桌面交还。
 
 2026-11-20：[同一预检修复前维护](evidence/2026-11-20-civ6-source172-readonly-preflight-abort.json)复用同机同用户本日1.19.6成功缓存；无原生生成任务，不把维护或游戏诊断记作生成能力。
+
+2026-11-20：[同次配对准备维护](evidence/2026-11-20-civ6-source172-paired-preparation.json)复用本机本日1.19.6成功缓存；未将维护、文件准备或游戏软件测试记作原生生成任务。

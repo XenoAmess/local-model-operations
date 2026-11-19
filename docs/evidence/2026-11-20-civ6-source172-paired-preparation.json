@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-20",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/cdff6d45e0cd81a65386c57be20f704a89fe884d/docs/research/baiqi-source172-original85-paired-preparation-2026-11-20.json",
+  "source_version": 172,
+  "firstwrite_cases": 17,
+  "postbackup_paths": 3,
+  "real_Python_entry_cases": 32,
+  "parent_startup_cases": 3,
+  "audit_rejections": 23,
+  "configured_model": "qwen38-coder",
+  "observed_models": [
+    "open-h3-2k"
+  ],
+  "maintenance": {
+    "date": "2026-11-20",
+    "installed_version": "1.19.6",
+    "target_version": "1.19.6",
+    "cached": true
+  },
+  "prepared_real_pending_tasks": 4,
+  "generation_POSTs": 0,
+  "OpenCode_native_generation_tasks": 0,
+  "ledger": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "unknown_costs": null,
+  "lesson": "Guard new Native parent startup and exact predecessor installation separately from prerequisite budget PASS. Preserve known postbackup shadow failures and execute real Python, not just Lua or AST parsing; keep test-only source formatting changes away from literal consumer contracts."
+}
