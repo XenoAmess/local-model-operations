@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-19",
+  "source_version": 165,
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/600fbc193aed18ed6de2f4b3ab7c3e5ebb9307da/docs/research/baiqi-source165-public-support-software-2026-11-19.json",
+  "preparation": "https://github.com/XenoAmess/civ6_dev/blob/600fbc193aed18ed6de2f4b3ab7c3e5ebb9307da/docs/research/baiqi-source165-original85-plan-prepared-2026-11-19.json",
+  "status": "SOFTWARE_PASS_NATIVE_PENDING",
+  "software": {
+    "candidate_related_tests": 88,
+    "first_candidate_run": {
+      "tests": 88,
+      "failures": 2,
+      "reason": "New unknown-city fixture reached a different visible cell before the measured target; corrected fixture to exercise exact target. Product rejection was already correct; failed raw log preserved."
+    },
+    "final_full_suite": {
+      "run": 2804,
+      "passed": 2803,
+      "SDK_environment_skips": 1,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 439.739,
+      "actual_terminal": {
+        "session_id": 14161,
+        "exit_code": 0,
+        "actual_tool_completion": true,
+        "utc": "2026-11-19 04:00:39 UTC"
+      },
+      "raw_log_sha256": "8e59e5db4ed14fd83bfcb6b913803f0e98e4ab713fdd63e58ba75be06ddf50dd"
+    },
+    "new_full_Controller_methods": 6,
+    "preserved_old_source_negative_control": {
+      "utc": "2026-11-19T03:58:43.816049+00:00",
+      "baseline_source_version": 164,
+      "baseline_sha256": "d062c6abe6311140314726f8f0842d9144dc6994322d224eed0bb0a6b5d54c5f",
+      "methods_run": 6,
+      "expected_failure_methods": 4,
+      "errors": 0,
+      "new_counter_tests_reject_old_hidden_reads": true,
+      "Native_queries": 0,
+      "limits": "Negative control only: expected software failures in preserved prior source. No shipping regression or Native effect claim."
+    },
+    "Lua51_Lua53_compiled_files": 97,
+    "ordinary_manifest_files": 119,
+    "QA_opt_in_tools": 17,
+    "current_build_fixture_files": [
+      "test_settlement_census_source155.py",
+      "test_formation_unknown_diagnostic.py",
+      "test_formation_unknown_deferred.py",
+      "test_controller_found_writer_timing.py",
+      "test_admin_diagnostic_turn90.py"
+    ],
+    "legacy_controller_probe_scope": "Source165 uses the same separate diagnostic frame as164; older versions unchanged."
+  },
+  "model": {
+    "availability_before_candidate": {
+      "utc": "2026-11-19T03:40:19.303047+00:00",
+      "configured_model": "qwen38-coder",
+      "configuration_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "maintenance": {
+        "date": "2026-11-19",
+        "installed_version": "1.19.6",
+        "target_version": "1.19.6",
+        "cached": true
+      },
+      "results": [
+        {
+          "name": "models",
+          "utc": "2026-11-19T03:40:19.262158+00:00",
+          "status": 200,
+          "Content_Type": "application/json",
+          "bytes_retained": 321,
+          "over_64KiB": false,
+          "sha256": "8e40fc6ab58ad464560a3ac62197225d60f8cb626cb941b3f401696fb58a7c41",
+          "total_ms": 13.759899884462357,
+          "model_ids": [
+            "open-h3-2k"
+          ]
+        },
+        {
+          "name": "health",
+          "utc": "2026-11-19T03:40:19.277004+00:00",
+          "status": 200,
+          "Content_Type": "application/json",
+          "bytes_retained": 482,
+          "over_64KiB": false,
+          "sha256": "5a1181b7a150e14d841efc7bbfc3faf76ebc1f775b3a312db77822503fa36e56",
+          "total_ms": 25.124700041487813
+        }
+      ],
+      "generation_POSTs": 0,
+      "new_logical_candidate_tasks": 0,
+      "Native_queries": 0,
+      "configuration_changes": 0,
+      "service_mutations": 0,
+      "automatic_fallback": false,
+      "formal_overlap": false
+    },
+    "new_generation_POSTs": 0,
+    "adopted_model_candidates": 0,
+    "Owner_continuation": true,
+    "ledger": {
+      "logical_tasks": 1023,
+      "complete_candidates": 816,
+      "length_incomplete": 68,
+      "final_failures": 139,
+      "generation_POSTs": 1062,
+      "extra_retry_POSTs_prior_observed_unchanged": 38,
+      "actual_inflight": 0,
+      "OpenCode_native_generation": 0
+    },
+    "unknown_costs": null
+  },
+  "whole_mod": "OPEN_CONTINUE"
+}
