@@ -7570,3 +7570,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-19：[171公开单元坐标查询软件](evidence/2026-11-19-civ6-source171-support-coordinate-lookup-software.json)：保留实时支持／Native检查，4新／19分步双Lua、248相关、2旧版本读取对照及完整2859／2858通过／1SDK跳过。Native171未开始，夹具可见性与待测原生坐标查询须独立；R16配置模型缺，0POST／采用，Owner继续实机。
 
 2026-11-19：[Civ6当前171迁移复核及财政观察器](evidence/2026-11-19-civ6-source171-migration-review-finance-preparation.json)：238次历史启动文件比较、16实际双VM、119文件私有包准备；0新POST/Native，费用缓存未知。保留原窄范围实测及未执行分支，不将不可用coder或WFP准备写成游戏隔离通过。
+
+2026-11-19：[Civ6当前171最终招募导出软件](evidence/2026-11-19-civ6-source171-recruit-export-software.json)：36项实际检查，原始未知与分页严格保留；0Native/POST，不授财政或网络隔离实机通过。
