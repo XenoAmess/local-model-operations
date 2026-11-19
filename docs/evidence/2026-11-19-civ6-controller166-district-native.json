@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-19",
+  "source_version": 166,
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/990978f730bb630d349108ad2572c8416b6b07b7/docs/research/baiqi-source166-controller-district-native-2026-11-19.json",
+  "status": "DISTRICT_CONTINUATION_CHILD_DIAGNOSIS_COMPLETE_PENDING_PRODUCT_CAUSAL_REVIEW",
+  "roots": 112,
+  "samples": 485,
+  "stats_by_name": {
+    "Controller.RunNow": {
+      "count": 112,
+      "p50_ms": 3.000020980834961,
+      "p95_ms": 14.999866485595703,
+      "max_ms": 51.000118255615234
+    },
+    "ProcessSettler": {
+      "count": 5,
+      "p50_ms": 27.9998779296875,
+      "p95_ms": 39.999961853027344,
+      "max_ms": 39.999961853027344
+    },
+    "ProcessNaturalist": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "ProcessArchaeologist": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "ProcessDistrictPerson": {
+      "count": 15,
+      "p50_ms": 0.9999275207519531,
+      "p95_ms": 1.9998550415039062,
+      "max_ms": 1.9998550415039062
+    },
+    "ProcessCreative": {
+      "count": 3,
+      "p50_ms": 0.0,
+      "p95_ms": 2.000093460083008,
+      "max_ms": 2.000093460083008
+    },
+    "ProcessProphet": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "KnownExpansionSupport": {
+      "count": 8,
+      "p50_ms": 2.5000572204589844,
+      "p95_ms": 22.00007438659668,
+      "max_ms": 22.00007438659668
+    },
+    "SettlementBridge": {
+      "count": 112,
+      "p50_ms": 0.0,
+      "p95_ms": 1.0001659393310547,
+      "max_ms": 1.0001659393310547
+    },
+    "SettlerGoalBridge": {
+      "count": 10,
+      "p50_ms": 0.0,
+      "p95_ms": 1.0001659393310547,
+      "max_ms": 1.0001659393310547
+    },
+    "RequestCivilian": {
+      "count": 30,
+      "p50_ms": 0.9999275207519531,
+      "p95_ms": 5.000114440917969,
+      "max_ms": 6.000041961669922
+    },
+    "PathStep": {
+      "count": 4,
+      "p50_ms": 6.000041961669922,
+      "p95_ms": 9.999990463256836,
+      "max_ms": 9.999990463256836
+    },
+    "Safe": {
+      "count": 164,
+      "p50_ms": 0.0,
+      "p95_ms": 1.9998550415039062,
+      "max_ms": 3.000020980834961
+    },
+    "Native.GetMoveToPathEx": {
+      "count": 4,
+      "p50_ms": 1.000046730041504,
+      "p95_ms": 2.000093460083008,
+      "max_ms": 2.000093460083008
+    },
+    "Native.DetourChoicePath": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "Native.DetourFirstEdgePath": {
+      "count": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "max_ms": null
+    },
+    "Native.FoundRequestOperation": {
+      "count": 1,
+      "p50_ms": 0.0,
+      "p95_ms": 0.0,
+      "max_ms": 0.0
+    },
+    "DistrictRoute.Run": {
+      "count": 10,
+      "p50_ms": 1.5000104904174805,
+      "p95_ms": 2.000093460083008,
+      "max_ms": 2.000093460083008
+    },
+    "Native.DistrictRoutePath": {
+      "count": 3,
+      "p50_ms": 0.9999275207519531,
+      "p95_ms": 1.0001659393310547,
+      "max_ms": 1.0001659393310547
+    },
+    "Native.DistrictRouteRange": {
+      "count": 4,
+      "p50_ms": 0.0,
+      "p95_ms": 0.9999275207519531,
+      "max_ms": 0.9999275207519531
+    }
+  },
+  "original85_B_plan": "FAIL_UNCHANGED",
+  "ledger": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "new_generation_POSTs": 0,
+  "unknown_costs": null,
+  "configured_model_readonly_recheck_after_formal": {
+    "utc": "2026-11-19T06:25:15.831034+00:00",
+    "configured_model": "qwen38-coder",
+    "configuration_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "maintenance": {
+      "date": "2026-11-19",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": true
+    },
+    "results": [
+      {
+        "name": "models",
+        "utc": "2026-11-19T06:25:15.782917+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 321,
+        "over_64KiB": false,
+        "sha256": "8e40fc6ab58ad464560a3ac62197225d60f8cb626cb941b3f401696fb58a7c41",
+        "total_ms": 32.96560002490878,
+        "model_ids": [
+          "open-h3-2k"
+        ]
+      },
+      {
+        "name": "health",
+        "utc": "2026-11-19T06:25:15.816675+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 482,
+        "over_64KiB": false,
+        "sha256": "0d5f25f4d5877d69bd432e5468fdf8bac6aa90ed05e7bcc3e8897712170bf53f",
+        "total_ms": 13.6977001093328
+      }
+    ],
+    "generation_POSTs": 0,
+    "new_logical_candidate_tasks": 0,
+    "Native_queries": 0,
+    "configuration_changes": 0,
+    "service_mutations": 0,
+    "automatic_fallback": false,
+    "formal_overlap": false
+  },
+  "publication_recovery": "Initial shared step stopped before writes because inherited old164 destination already existed. Use a fresh166 destination; no old evidence overwritten and no game action replayed."
+}
