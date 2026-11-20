@@ -2445,3 +2445,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-20：[同批恢复](evidence/2026-11-20-civ6-many-pairs-and-hung-preload-recovery.json)沿用本机自然日1.19.6成功缓存，OpenCode原生生成0。维护成功不授代码／游戏效果能力；自有未加载hung中止、普通退出与静默残留清理分别记账。
 
 2026-11-20：[同批配对收尾](evidence/2026-11-20-civ6-source172-pressure-pairs-final.json)沿用当前自然日1.19.6成功缓存、原生生成0；实际父进程结束后才恢复模型检查。性能12/12与整mod功能通过分别记录，持续验收未完成条款。
+
+2026-11-20：[同批Alpha3材料](evidence/2026-11-20-civ6-alpha3-workshop-local-preparation.json)沿用当前自然日1.19.6成功缓存，原生生成0；内置imagegen封面编辑单独记录，不计作本地coder成功。尚未上传不标发布成功。

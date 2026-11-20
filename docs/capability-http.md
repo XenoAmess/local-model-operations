@@ -7656,3 +7656,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20：[Civ6配对15侧保留及未加载卡死恢复](evidence/2026-11-20-civ6-many-pairs-and-hung-preload-recovery.json)，R28同配置qwen38-coder仍未在models中出现，health/models只读200；0新逻辑任务／0生成POST，负责人修复并保留实际1、1、0，未知成本null。MANY原始全部25差值审计通过，不重复采样。
 
 2026-11-20：[Civ6172压力配对完整审计](evidence/2026-11-20-civ6-source172-pressure-pairs-final.json)，实际53435退出0、原15侧1834文件不变，两场景各50原始区间／25差值比例全保留。R29用于真实未完成TC033准备，配置coder仍缺失，health/models200不等于生成可用；0新逻辑任务／0POST、成本null。负责人继续，不重派已完成算术任务。
+
+2026-11-20：[Civ6 Alpha3发布准备](evidence/2026-11-20-civ6-alpha3-workshop-local-preparation.json)采用当前普通172／119文件与真实12性能预算；R30配置coder仍未提供，0生成任务／POST，负责人准备。用户授权上传并报告其他设备当前无游戏；准备阶段仍0Steam动作，未知成本null。
