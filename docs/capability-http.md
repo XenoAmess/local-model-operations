@@ -7668,3 +7668,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20：[Civ6 TC020军令权限候选](evidence/2026-11-20-civ6-tc020-army-escort-guard-candidate.json)：准备完整真实guard/测试/实际原版编队消费者后，R32仍只列open-h3-2k、不提供配置qwen38-coder，0POST/候选；负责人复现3软件失败，补省略参数arity1错误后30真实双VM检查/97双编译/119包通过。173候选已推短分支，172冻结Native保留，不记实机通过或工坊已修。
 
 2026-11-21：[Civ6真实后台模式门禁任务](evidence/2026-11-21-civ6-steam-live-surface-readonly.json)R33先备当前源码和真实反例，GET200仍仅open-h3-2k／缺配置coder，0POST／候选／自动替代；负责人22软件检查通过，真实模式仍unknown、0新引擎Native。未知成本null。
+
+2026-11-21：[TC033 R3实际调用器修订](evidence/2026-11-21-civ6-tc033-r3-preparation.json)属于同一R33真实门禁任务；缺配置coder后Owner处理，0额外models探针／POST。19实际驱动边界通过、10函数AST保持，0实机。
