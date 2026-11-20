@@ -7682,3 +7682,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-21：[旧迁移实物／源码与Scout范围复核](evidence/2026-11-21-civ6-legacy-migration-source-impact.json)沿用R34缺配置coder，0新探针／POST／候选。Owner核两份真实119包及逆变换，不将源码／角色元数据当新Native测量；登录状态依赖另记。
 
 2026-11-21：[Civ6实际认证依赖](evidence/2026-11-21-civ6-current-authentication-dependency.json)独立文件审阅已交付，0新增模型POST；修复客户端后的真实登录不是可由生成候选替代的认证，凭据值未读／填／提交，0游戏。
+
+2026-11-21：[Civ6登录后离线恢复](evidence/2026-11-21-civ6-postlogin-offline-restored.json)是实际Owner环境操作，0模型POST；UIA与原生当前值一致仍不代游戏验收，实际Popen前重取冻结来源。

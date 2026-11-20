@@ -2469,3 +2469,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-21：[旧迁移证据复核](evidence/2026-11-21-civ6-legacy-migration-source-impact.json)当日维护通过，原生生成0；实际软件／源码／游戏范围分开，未知成本null。
 
 2026-11-21：[Civ6认证依赖](evidence/2026-11-21-civ6-current-authentication-dependency.json)无新原生生成或维护能力声明；实际用户认证／当前离线／游戏验收均保持各自边界，未知成本null。
+
+2026-11-21：[离线恢复](evidence/2026-11-21-civ6-postlogin-offline-restored.json)无新维护或原生生成能力；认证／模式／启动／实际效果继续分开，成本未知null。
