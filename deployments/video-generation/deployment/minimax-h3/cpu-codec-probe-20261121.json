@@ -1,0 +1,53 @@
+{
+  "status": "measured_cpu_prefix_only",
+  "scope": "CPU-only 16-frame prefix codec probe, not model inference, pipeline timing or output parity validation",
+  "frames": 16,
+  "width": 3840,
+  "height": 2160,
+  "fps": 24,
+  "isolation": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/llmlab.slice/llmlab-h3-cpu-codec-20261121.service",
+    "aggregate_memory_max_bytes": 94489280512,
+    "workload_memory_max_bytes": "6442450944",
+    "workload_swap_max_bytes": "1073741824",
+    "oom_group": 1,
+    "host_available_bytes": 65427832832
+  },
+  "gpu_model_loaded": false,
+  "runs": {
+    "ffv1": [
+      {
+        "wall_seconds": 2.3045130248647183,
+        "cpu_seconds": 4.338103,
+        "bytes": 107915522
+      },
+      {
+        "wall_seconds": 2.13366849697195,
+        "cpu_seconds": 4.301397000000001,
+        "bytes": 107915522
+      }
+    ],
+    "x264": [
+      {
+        "wall_seconds": 1.8825334520079195,
+        "cpu_seconds": 4.140988,
+        "bytes": 3767923
+      },
+      {
+        "wall_seconds": 1.8718455049674958,
+        "cpu_seconds": 4.152567000000002,
+        "bytes": 3767923
+      }
+    ]
+  },
+  "decode_to_rgb": {
+    "wall_seconds": 3.0501484379637986,
+    "cpu_seconds": 6.1930250000000004
+  },
+  "ffv1_median_seconds": 2.219090760918334,
+  "x264_median_seconds": 1.8771894784877077,
+  "completed_at": 1795193680.1959815,
+  "full_336_frame_extrapolation_is_not_measurement": true,
+  "zero_gpu_inference": true,
+  "production_changed": false
+}

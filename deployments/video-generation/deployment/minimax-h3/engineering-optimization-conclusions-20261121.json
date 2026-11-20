@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-21",
+  "status": "research_complete_production_unchanged",
+  "new_gpu_inference_or_benchmark": false,
+  "new_cpu_probe": true,
+  "current_worker_interrupted_by_research": false,
+  "production_config_changed": false,
+  "new_model_weights_downloaded": false,
+  "source_audit": {
+    "cudnn_frontend_branch": "develop",
+    "cudnn_frontend_commit": "9638468d752dbc97fc252be3a973855a0c4e9651",
+    "sm120_aot_d128_bf16_nomask_available_in_source": true,
+    "default_tuning_grid_max_kv": 131072,
+    "grid_limit_is_not_kernel_length_limit": true,
+    "default_sm_tuning_points": [
+      170,
+      188
+    ],
+    "actual_device": {
+      "sm_count": 156,
+      "compute_major": 12,
+      "compute_minor": 0
+    },
+    "aot_stride_bits": 64,
+    "aot_sequence_length_bits": 32,
+    "candidate_gpu_tested": false,
+    "nsight_ncu_nsys_found_in_current_paths": false,
+    "raw_sources": [
+      {
+        "file": "cudnn-pinned-include_cudnn_frontend_experimental_sm120_aot_attention.h",
+        "sha256": "5546ee49d2502d3cf4c6c85930406886a689d0590241a0829defdb9cf3da9161"
+      },
+      {
+        "file": "cudnn-pinned-aot_sm120_build.py",
+        "sha256": "6efda8e05a2ddcb4a1bbb0191549820d0aae02d84b2db58ea4cce8b6b6ab942a"
+      },
+      {
+        "file": "cudnn-pinned-include_cudnn_frontend_experimental_sm120_aot_attention_abi.h",
+        "sha256": "c7c5953f2de413673f98860e96176011ad238120898ac074e0e780a23467eda2"
+      },
+      {
+        "file": "cudnn-pinned-aot_sm120_variants.py",
+        "sha256": "bbc5f77150ad92be151588d1679aa56a03d3b8772630a9ea59085ecfa6a61162"
+      }
+    ]
+  },
+  "measured_time_budget": {
+    "worker_seconds": 29247.783456087112,
+    "sampling_seconds": 27987.1,
+    "vae_and_lossless_output_seconds": 989.7,
+    "other_seconds": 270.98345608711384,
+    "sampling_wall_percent": 95.6896444546647,
+    "vae_wall_percent": 3.3838461690129256,
+    "other_wall_percent": 0.9265093763223831
+  },
+  "cpu_probe": {
+    "result": "deployment/minimax-h3/cpu-codec-probe-20261121.json",
+    "frames": 16,
+    "ffv1_median_seconds": 2.219090760918334,
+    "x264_median_seconds": 1.8771894784877077,
+    "full_pipeline_measurement": false,
+    "pixel_parity_validation": false,
+    "gpu_used": false
+  },
+  "queued_result_cache_observation": {
+    "queued_jobs": 7,
+    "unique_full_generation_keys": 7,
+    "duplicate_keys": 0
+  },
+  "offload_budget": {
+    "captured_block_host_storage_bytes": 68548326400,
+    "captured_block_host_storage_gib": 63.840603828430176,
+    "hypothetical_double_host_gib": 127.68120765686035,
+    "inference_host_limit_gib": 80,
+    "aggregate_host_limit_gib": 88,
+    "generic_double_memory_streaming_recommended": false
+  },
+  "decisions": {
+    "profile_representative_layer": "recommended before additional implementation",
+    "sm120_new_dense_kernel": "retain as bounded admission candidate; performance unmeasured",
+    "direct_final_encoding": "low-priority minutes-scale optimization, not main acceleration route",
+    "asynchronous_prefetch": "defer until copy waits are measured; no whole-model pinning",
+    "whole_model_cuda_graph": "not_recommended_for_current_offload_layout",
+    "batch_resident_or_result_cache": "keep current behavior; not primary current-workload gain",
+    "global_compile_or_fusion_without_rounding_parity": "not_adopted_as_same_result_optimization"
+  },
+  "proposed_go_no_go": {
+    "numerical_and_last_kv_checks_required": true,
+    "bitwise_equal_required_for_same_result_claim": true,
+    "suggested_operator_latency_reduction_percent_for_further_integration": 10,
+    "threshold_is_engineering_judgment_not_measured_gain": true,
+    "no_full_video_test_until_operator_and_layer_gain_clear": true
+  },
+  "report": "docs/h3-engineering-optimization-conclusions-2026-11-21.md"
+}

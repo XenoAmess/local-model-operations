@@ -1,5 +1,5 @@
 {
-  "source_commit": "308aeca6140f6f3403102e18d9eddbe621b2a295",
+  "source_commit": "586cfee803aa353d7de7db01dfbbd326dd3c5595",
   "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
   "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
   "scope": "Video deployment/research, API 3 controls, full-context S48 14-second 4K delivered and sampled; dense BF16 backend quick comparison complete, production unchanged, queue resumed; client visual review pending",
@@ -235,6 +235,11 @@
       "sha256": "580d8b5a8e1e2c4b77a5776a3c19b6146422bbf60d4809e60b8f8494914f872c"
     },
     {
+      "path": "deployment/minimax-h3/cpu-codec-probe-20261121.json",
+      "bytes": 1490,
+      "sha256": "a129f44596598136b76a412f5ce845a7a94cb3f8a3b05bea2ac1eda5ea8323e7"
+    },
+    {
       "path": "deployment/minimax-h3/dense-kernel-quick-benchmark-20261120.json",
       "bytes": 8117,
       "sha256": "4305c8041a86043ddc95eb1382db21f421af5153da46f915023cbc3b424a54cd"
@@ -248,6 +253,11 @@
       "path": "deployment/minimax-h3/download-manifest.json",
       "bytes": 10052,
       "sha256": "ed1167759eed340aabb9bf7abbe9e74c3335e8039a09e956947691c730f2e8aa"
+    },
+    {
+      "path": "deployment/minimax-h3/engineering-optimization-conclusions-20261121.json",
+      "bytes": 3788,
+      "sha256": "df0bce21f1f720f3e466afadc653f9039fe11e230522ae081531ccb215916d62"
     },
     {
       "path": "deployment/minimax-h3/full-2k-research.json",
@@ -520,9 +530,14 @@
       "sha256": "40331e7afd30e2df477c26cfddc7b2e46e5d0867ea8b7ea736d0713a0866922f"
     },
     {
+      "path": "docs/h3-engineering-optimization-conclusions-2026-11-21.md",
+      "bytes": 9226,
+      "sha256": "542cb0472f677a09fd7e55ee151022e65e88a874a066619c7b1401c82de29067"
+    },
+    {
       "path": "docs/h3-engineering-optimization-options-2026-11-21.md",
-      "bytes": 7756,
-      "sha256": "4c739286955077a9ea599c55aacc2c8f9fc6de02583c7581de21b3f297f507fa"
+      "bytes": 7999,
+      "sha256": "9401e42b9ba0494e8bc3da11963f6664d7ba94bf7dea430fde412b8136afdc86"
     },
     {
       "path": "docs/h3-full-sequence-4k-speed-research-2026-11-20.md",
@@ -581,8 +596,8 @@
     },
     {
       "path": "docs/video-framework-research-index-2026-11-17.md",
-      "bytes": 7451,
-      "sha256": "9b0923b97edf41f067fd4092748ddec422c1aee17bad0ab27a2efc754544d989"
+      "bytes": 7685,
+      "sha256": "fff9df2c110e6d24c24fc0121bba69a79a0c541da51578ad6ffcf19236dc833e"
     },
     {
       "path": "docs/video-http-api.md",
@@ -818,6 +833,11 @@
       "path": "tools/benchmark_h3_offload_framework.py",
       "bytes": 2539,
       "sha256": "73a18b93e195bd11ce309c82a8223efeb4a4158d3c36eb80a87431be36ca0eae"
+    },
+    {
+      "path": "tools/benchmark_h3_output_codecs.py",
+      "bytes": 3824,
+      "sha256": "109ffc1482cd2057e2b1540eed647e81b7db30d12af158c06f997dd5cbec63f1"
     },
     {
       "path": "tools/benchmark_omni_vsa_backends.py",
