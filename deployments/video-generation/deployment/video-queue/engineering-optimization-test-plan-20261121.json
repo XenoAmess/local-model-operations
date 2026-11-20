@@ -1,0 +1,105 @@
+{
+  "id": "engineering-tests-after-S42-20261121",
+  "status": "completed_operator_tests_production_unchanged_queue_resumed",
+  "requested_at": "2026-11-21T01:19:33.144084+08:00",
+  "requested_by": "user",
+  "api_base": "http://192.168.1.11:8002/v1",
+  "trigger_job_id": "video_gen_64ad79ab21e8414ab490b9690a82bc60",
+  "trigger_input_filename": "S42.mp4",
+  "state_directory": "outputs/video-queue/engineering-tests-after-S42-20261121",
+  "watcher_unit": "llmlab-h3-engineering-boundary-20261121.service",
+  "boot_autostart": false,
+  "activation": "Existing validation_job boundary: intake remains open during current render, scheduler holds subsequent dispatch when trigger reaches terminal state",
+  "execute_via": "same-conversation completion event; owner performs isolated sequential experiments after successful LAN delivery",
+  "prerequisites": [
+    "trigger completed",
+    "LAN complete content SHA-256, geometry, frames and full software decode verified",
+    "no running jobs or worker processes",
+    "maintenance belongs to this plan",
+    "exclusive outputs/h3-2k-gpu.lock",
+    "80 GiB inference and 88 GiB aggregate guard"
+  ],
+  "interrupt_or_freeze_current_job": false,
+  "concurrent_gpu_tests_with_render": false,
+  "production_backend_switch_authorized": false,
+  "new_model_downloads": false,
+  "cloud_allowed": false,
+  "gpu_tests_started": true,
+  "max_exclusive_test_window_minutes": 60,
+  "stages": [
+    {
+      "name": "profile_representative_call_or_real_layer",
+      "action": "Torch profiler/Nsight if available: separate attention, H2D, FFN, LoRA and launch/synchronization; no full-video rerun",
+      "status": "representative_operator_profile_completed",
+      "result": "deployment/minimax-h3/long-attention-profile-20261121.json",
+      "complete_layer_profile": false
+    },
+    {
+      "name": "frost_isolated_build_and_numerical_admission",
+      "source_repo": "NVIDIA/cudnn-frontend",
+      "source_commit": "9638468d752dbc97fc252be3a973855a0c4e9651",
+      "dtype": "BF16",
+      "attention": "dense noncausal all K/V",
+      "head_dim": 128,
+      "heads": 56,
+      "q_tokens": 16384,
+      "kv_tokens": [
+        345843,
+        949232
+      ],
+      "actual_sm_count": 156,
+      "check": [
+        "finite outputs",
+        "whole representative output error against current baseline",
+        "bitwise equality separately recorded",
+        "last head and final K/V sentinel",
+        "no hidden fallback"
+      ],
+      "build_jobs": 2,
+      "status": "built_and_operator_numerics_checked_not_bitwise_equal"
+    },
+    {
+      "name": "frost_warm_throughput",
+      "action": "Only numerically valid configurations: warmup then at least three interleaved repeats, CUDA event and wall-clock, memory peak; build/cold load excluded",
+      "go_no_go_operator_latency_reduction_percent": 10,
+      "threshold_is_judgment_not_promised_gain": true,
+      "status": "completed_no_material_speedup"
+    },
+    {
+      "name": "small_staging_prefetch",
+      "condition": "Only if real profile demonstrates material H2D idle time and buffer fits existing cap",
+      "action": "One/two layer pinned staging, independent copy stream/events; elementwise exact output gate; no whole-model double pinning",
+      "status": "not_advanced_no_evidence_of_material_real_layer_copy_wait"
+    },
+    {
+      "name": "graphs_output_cache",
+      "action": "Keep as low priority; only bounded experiment justified by measured bottleneck, no full rewrite",
+      "status": "single_sdpa_graph_measured_bitwise_equal_no_material_speedup; full_model_graph_not_implemented"
+    }
+  ],
+  "same_result_acceptance": "Elementwise exact parity required before claiming same-result deployment; mathematical equivalence or high cosine alone is insufficient",
+  "completion_actions": [
+    "restore original backend",
+    "release this maintenance only; do not override newer maintenance or OOM manual breaker",
+    "resume subsequent queued tasks",
+    "publish measured results and limitations in docs/Git",
+    "notify user"
+  ],
+  "cancel_actions": [
+    "set this plan status=cancelled",
+    "stop watcher unit",
+    "remove only matching validation_job reservation or release only matching maintenance; leave current render untouched"
+  ],
+  "previous_tests_not_to_repeat": [
+    "completed cuDNN/FlashInfer FA2 short comparison",
+    "cancelled framework benchmarks"
+  ],
+  "cpu_safety_tests_passed": 4,
+  "boundary_reached_at": 1795195275.8414464,
+  "test_window_deadline": 1795198875.8414466,
+  "delivery_verified": true,
+  "completed_at": 1795196493.216219,
+  "queue_resumed": true,
+  "frost_results": "deployment/minimax-h3/frost-quick-benchmark-20261121.json",
+  "same_result_candidate_adopted": false
+}

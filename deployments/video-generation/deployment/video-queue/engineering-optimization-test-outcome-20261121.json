@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-21",
+  "status": "completed_no_candidate_adopted_queue_resumed",
+  "trigger_job_id": "video_gen_64ad79ab21e8414ab490b9690a82bc60",
+  "delivery": {
+    "status": "lan_download_sha_geometry_full_decode_verified",
+    "bytes": 35557605,
+    "sha256": "988e9f8eb9e2e306daade1664d16a285f48533c2b5bf9b6f538d4e1a620ffae4",
+    "download_url": "http://192.168.1.11:8002/v1/videos/video_gen_64ad79ab21e8414ab490b9690a82bc60/content",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "r_frame_rate": "24/1",
+          "nb_frames": "120"
+        }
+      ],
+      "format": {
+        "duration": "5.000000"
+      }
+    },
+    "full_decode": true,
+    "client_visual_review": "pending",
+    "peer_checksum_verified": false
+  },
+  "new_gpu_benchmarks_completed": true,
+  "full_video_quality_comparison_performed": false,
+  "production_changed": false,
+  "results": {
+    "frost": "deployment/minimax-h3/frost-quick-benchmark-20261121.json",
+    "profile": "deployment/minimax-h3/long-attention-profile-20261121.json"
+  },
+  "frost_build": {
+    "repo": "NVIDIA/cudnn-frontend",
+    "commit": "9638468d752dbc97fc252be3a973855a0c4e9651",
+    "host_dispatch_patch": "deployment/minimax-h3/frost-aot-explicit-engines.patch",
+    "host_dispatch_patch_sha256": "8663f4aa24339928fd99ad2ce898aec262f0ba3bbf946ba89e9e6aff20b50a27",
+    "attention_kernel_sources_modified": false,
+    "aot_library_sha256": "adbbf69f31a5de1f593217bb458f13bc9ec86c71d051b4fd894e7ed2cdbc1932",
+    "aot_library_bytes": 10029400,
+    "exported_objects": 66,
+    "native_classes": [
+      "d128_nomask"
+    ],
+    "default_heuristic_table_evaluated_and_unsplit_m64_m128_tuned": true,
+    "build_jobs": 2,
+    "candidate_frontend_version": "1.34.0",
+    "production_frontend_version_unchanged": "1.32.0",
+    "compatibility_fixes": [
+      "CPython header preinclude for glibc feature macros",
+      "GCC 15 free-nonheap-object warning demoted only for host Python extension",
+      "Process read-only dependency .pth so CuTe DSL imports correctly",
+      "CUDA cuobjdump 13.2.86 installed in run-local target with toolkit overlay",
+      "AOT selection offers explicit implementation engines instead of delegated legacy row"
+    ],
+    "failed_setup_attempts_recorded_not_performance_measurements": 5,
+    "production_packages_modified": false
+  },
+  "guard_tests_passed": 4,
+  "current_render_interrupted": false,
+  "queue_resumed_at": 1795196493.216219,
+  "decisions": {
+    "frost": "not_adopted_no_material_speedup_and_not_bitwise_equal",
+    "cuda_graph_sdpa": "not_adopted_no_material_speedup_despite_bitwise_equal",
+    "prefetch": "not_advanced_no_evidence_of_material_real_layer_wait; synthetic_copy_probe_is_not_full_model_overlap",
+    "full_model_graph": "not_implemented; changing offload pointer layout unjustified",
+    "codec_or_cache_rewrite": "not_implemented; lower_priority_prior_research"
+  },
+  "results_scope": "One warmup and three interleaved timed repeats of synthetic attention at production geometry; no full model/video acceleration claim",
+  "additional_same_result_candidate_found": false,
+  "timings": [
+    {
+      "case": "single_window_4k",
+      "current_cuda_ms": 1134.450927734375,
+      "graph_cuda_ms": 1134.9376220703125,
+      "graph_raw_bits_equal": true,
+      "frost": {
+        "auto": {
+          "median_cuda_ms": 1137.0501708984375,
+          "speedup_vs_current": 0.9977140470749776,
+          "comparison_to_current": {
+            "all_finite": true,
+            "raw_bits_equal": false,
+            "different_elements": 4473552,
+            "elements": 117440512,
+            "max_abs": 6.103515625e-05,
+            "relative_l2": 0.00046168520930223167,
+            "cosine": 1.0
+          },
+          "repeat_raw_bits_equal": true,
+          "last_head_final_kv_sentinel_passed": true
+        },
+        "unsplit_m64_sched0": {
+          "median_cuda_ms": 1137.709228515625,
+          "speedup_vs_current": 0.9971360865328471,
+          "comparison_to_current": {
+            "all_finite": true,
+            "raw_bits_equal": false,
+            "different_elements": 4473552,
+            "elements": 117440512,
+            "max_abs": 6.103515625e-05,
+            "relative_l2": 0.00046168520930223167,
+            "cosine": 1.0
+          },
+          "repeat_raw_bits_equal": true,
+          "last_head_final_kv_sentinel_passed": true
+        }
+      }
+    },
+    {
+      "case": "full_14s_4k",
+      "current_cuda_ms": 3101.78466796875,
+      "graph_cuda_ms": 3105.4541015625,
+      "graph_raw_bits_equal": true,
+      "frost": {
+        "auto": {
+          "median_cuda_ms": 3107.15087890625,
+          "speedup_vs_current": 0.998272948065081,
+          "comparison_to_current": {
+            "all_finite": true,
+            "raw_bits_equal": false,
+            "different_elements": 3243202,
+            "elements": 117440512,
+            "max_abs": 6.103515625e-05,
+            "relative_l2": 0.00038137627416290343,
+            "cosine": 1.0
+          },
+          "repeat_raw_bits_equal": true,
+          "last_head_final_kv_sentinel_passed": true
+        },
+        "unsplit_m64_sched0": {
+          "median_cuda_ms": 3115.699951171875,
+          "speedup_vs_current": 0.9955338179474275,
+          "comparison_to_current": {
+            "all_finite": true,
+            "raw_bits_equal": false,
+            "different_elements": 3243202,
+            "elements": 117440512,
+            "max_abs": 6.103515625e-05,
+            "relative_l2": 0.00038137627416290343,
+            "cosine": 1.0
+          },
+          "repeat_raw_bits_equal": true,
+          "last_head_final_kv_sentinel_passed": true
+        }
+      }
+    }
+  ],
+  "queue_after": {
+    "maintenance_enabled": false,
+    "oom_paused": false,
+    "running": [
+      "video_gen_564aca24106741ce9e1b1284b61212a5"
+    ],
+    "queued_count": 6
+  }
+}

@@ -1,0 +1,74 @@
+# S42 交付后的工程优化实验
+
+2026-11-21。用户授权在当前片子完成后进行优化测试。本轮绑定 S42 `video_gen_64ad79ab21e8414ab490b9690a82bc60`，没有打断、冻结或重跑原视频。
+
+**已完成：FROST 与仅 SDPA 的 CUDA Graph 均未发现有效提速，正式后端未替换。01:41:33（北京时间）已解除本轮维护，后续任务已实际派发。**
+
+S42 已完成：3840×2160、24 FPS、120 帧、5 秒，35,557,605 字节；SHA-256 为 `988e9f8eb9e2e306daade1664d16a285f48533c2b5bf9b6f538d4e1a620ffae4`。本机通过局域网实际完整下载，核对长度、SHA、几何、帧数并做全片软件解码；对端人眼及接收端 checksum 审核仍待反馈。
+
+完整视频：[S42 HTTP 下载](http://192.168.1.11:8002/v1/videos/video_gen_64ad79ab21e8414ab490b9690a82bc60/content)。
+
+## 任务边界与恢复
+
+使用现有调度器 `service_control.validation_job` 预留 S42 的结束边界。预留时 `enabled=false`，原片继续运行且 HTTP 继续接收新任务；到达终态后，调度器才进入维护，释放 worker 和 GPU 锁，后续任务留在原队列。CPU watcher 完成下载校验后向同一会话发送一次续办事件，不自行启动 GPU 实验。
+
+预留 ID 为 `engineering-tests-after-S42-20261121`。维护期间查询、下载和管理入口继续提供，状态端口 8004 显示 `upgrading`；新生成请求暂时返回 503。watcher 是按需启动的 transient unit，没有开机自启。
+
+GPU 实验必须在隔离 unit 内运行，重新核对本轮维护、无运行任务、无其他显卡进程，并独占 `outputs/h3-2k-gpu.lock`。保留推理 80 GiB、聚合 88 GiB 上限；本轮编译／算子测试采用更小的工作内存限制。初轮维护测试预算最多60分钟，失败或无收益同样保留证据并恢复原后端和后续队列；不解除独立 OOM 人工熔断，不覆盖后来新建的维护。
+
+实际短测 unit 用16 GiB主内存限制，约103秒结束，峰值约834 MiB；图与 FROST 串行，没有与用户渲染争卡。原片完成后的维护约21分钟，主要用于独立环境准备、编译与兼容性排查，不计入稳态性能。边界与所有权保护的4项 CPU 测试通过，真实 S42 的完成事件也验证了预留、worker 退出及通知流程。
+
+## 本轮实验范围
+
+1. 当前长序列 SDPA 调用形状的 GPU 分析：区分 kernel 时间和 CPU 发射／同步，不把重叠的 profiler 事件相加。
+2. FROST 固定源码 `NVIDIA/cudnn-frontend@9638468d752dbc97fc252be3a973855a0c4e9651`，独立 Python 环境和 AOT 产物；只构建 D128 无掩码类，jobs=2，不修改线上依赖。
+3. BF16 全量非因果注意力，小形状 FP64 独立参考；生产代表形状为 Q=16384、H=56、D=128，K/V=345843 和949232。检查整体数值、逐位差异、末头末尾 K/V、重复执行。
+4. 数值准入后比较预热量产时间，至少三次交错执行，中位数同时报告 CUDA event 与墙钟；编译和冷加载不算稳态收益。
+5. 预取只在分析证明搬运等待明显后做少量层 staging 测试；不因列表存在而全面重构 CUDA Graphs、缓存或输出路径。
+
+数学等价、微小误差、逐位相同、完整视频质量是不同证据等级。正式“同结果”采用仍须逐元素完全一致，不自动切换后端。本轮不重复已完成的 cuDNN／FlashInfer FA2 对照，也不恢复旧框架基准。
+
+## FROST 与 CUDA Graph 实测结论
+
+两种代表性生产形状，使用相同合成 BF16 输入，先预热，再三次交错执行取 CUDA event 中位数；构建、加载、正确性检查和 profiler 耗时均不算入下表。正式服务的单窗口／整段分流、采样步数、LoRA 和36L解码器没有改变。
+
+| 代表形状 | 现用 Flash SDPA | FROST 自动选择／M128 | FROST M64 | 仅 SDPA CUDA Graph |
+| --- | ---: | ---: | ---: | ---: |
+| 单窗口4K：K/V=345843 | 1134.451 ms | 1137.050 ms | 1137.709 ms | 1134.938 ms |
+| 14秒4K：K/V=949232 | 3101.785 ms | 3107.151 ms | 3115.700 ms | 3105.454 ms |
+
+FROST 自动配置在两个形状中均为未分裂 M128/N128；手动 M64 也没有更快。自动配置相对现用延迟约增加0.23%／0.17%，M64约增加0.29%／0.45%，仅 SDPA 图约增加0.04%／0.12%。全部都在不到0.5%的范围内，**应按基本打平处理，不根据三次短测认定细小差异是稳定退化或提升**。既没有约10%的投入门槛收益，也没有可报告的整片加速。
+
+正确性结果：
+
+- 所测形状均无非有限值，末头／末尾 K/V 哨兵通过，长形状未出现先前 FlashInfer FA2 那类明显错读。
+- FROST 在5秒／14秒形状上各自重复执行逐位相同；但相对现用内核，117,440,512个输出元素中分别有4,473,552／3,243,202个不同，最大绝对差均为 `6.103515625e-05`，相对L2约 `4.617e-4`／`3.814e-4`。小误差不能冒充逐位一致。
+- 小形状 Q=97／K/V=1009／H=2 另用 FP64 矩阵乘和 Softmax 计算独立参考。当前 Flash 与 FROST 未分裂路径相对L2约0.2146%／0.2227%；FP64参考转为FP32后计算误差指标。这只是数值检查，不是完整视频质量排名。
+- 仅 SDPA CUDA Graph 在两个大形状均与当前结果逐位相同，但没有有效收益。它没有解决整模型卸载时地址变化的问题，也没有证明整模型可直接图捕获。
+
+**结论：不采用 FROST，不推进整模型图捕获。** 本轮没有重新生成完整测试视频，不能宣称画质等价或受损；在既无明显提速、又不满足原有逐位一致条件时，没有继续占用队列做长片对照的理由。预取仍缺少实际整层拷贝等待证据，未修改上线卸载策略；输出／缓存保持既有实现。
+
+[FROST 原始短测](../deployments/video-generation/deployment/minimax-h3/frost-quick-benchmark-20261121.json)、[完整执行结论与恢复记录](../deployments/video-generation/deployment/video-queue/engineering-optimization-test-outcome-20261121.json)、[测试脚本](../deployments/video-generation/tools/benchmark_h3_frost.py)。
+
+## 构建兼容性与复现范围
+
+固定源码版本的原始 AOT 构建未直接通过本机环境，保留了以下适配；这不是替换模型、降低计算精度或改写注意力公式：
+
+- 候选 Python 环境复用只读线上依赖，独立安装前端1.34.0；线上仍为1.32.0。处理 dependency `.pth` 才能正确导入已安装的 CuTe DSL 4.8.1，并明确断言导入当前源码。
+- 主机绑定编译预包含 `Python.h` 处理 glibc／CPython feature macro 冲突，仅对主机 C++ 扩展降级 GCC15 的 `free-nonheap-object` 编译告警；没有对 GPU 内核增加降精度或 fast-math 标志。
+- CUDA13.2的 `cuobjdump` 13.2.86 放入本轮输出目录，通过独立 toolkit overlay 使用，不修改线上 CUDA 路径。
+- 原脚本只向启发式提供已委派的旧 `sdpa_fwd_prefill_sm120` 名称，导致 D128 没有候选。补丁改为提供已注册的显式引擎；**注意力内核源码未改**。补丁也参与 AOT 构建的源指纹。
+
+实际导出62个 prefill和4个 combine对象，库约9.6 MiB。测试的是这个固定内核源码＋公开主机构建适配，不冒充原始脚本未经修改就通过。构建失败重试不是内核性能测量，原始日志、库、源码、张量和 trace 留本机，不入 Git。
+
+复现入口：[准备脚本](../deployments/video-generation/tools/setup_h3_frost_candidate.py)、[主机调度补丁](../deployments/video-generation/deployment/minimax-h3/frost-aot-explicit-engines.patch)。准备与推理必须使用隔离 launcher；不能在业务渲染期间直接运行。`--build` 需要预先将 `nvidia-cuda-cuobjdump>=13.2,<13.3` 安装到本轮 `cuda-extra` target，所有候选依赖和生成物均位于执行目录。执行前重新取得维护所有权、确认完整视频已交付并取得 GPU 锁，不能重用过期任务状态强行测试。
+
+## 已完成的代表调用分析
+
+相同部署形状、合成 BF16 输入，当前 Flash SDPA 三次 CUDA event 中位数 **3103.766 ms**，墙钟中位数 **3103.788 ms**。CPU 与 GPU 间只有约22微秒差距；这个长调用几乎没有可由 CUDA Graphs 消除的发射空隙。
+
+单次 trace 包含一个 `pytorch_flash::flash_fwd_kernel`，约3101.849 ms。父事件、活动缓冲事件与 kernel 时间可能重叠，不能相加声称双倍耗时；benchmark 时间采用未插桩的三次测量，不采用 profiler 墙钟。
+
+256 MiB 连续内存 H2D 探针：pageable 约17.68 ms，pinned 约5.97 ms。这证明小缓冲能提高独立拷贝吞吐；**不是完整模型的等待占比或真正计算重叠实测**，不能直接据此宣称全片加速。没有加载整套模型或改变卸载策略。
+
+[原始 profiler 汇总](../deployments/video-generation/deployment/minimax-h3/long-attention-profile-20261121.json)、[测试计划及最终状态](../deployments/video-generation/deployment/video-queue/engineering-optimization-test-plan-20261121.json)。正式后端未变，后续队列已恢复。

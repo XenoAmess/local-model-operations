@@ -1,8 +1,8 @@
 {
-  "source_commit": "586cfee803aa353d7de7db01dfbbd326dd3c5595",
+  "source_commit": "4a945146e08a67c0cabea9172d920e8f7c1832a3",
   "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
   "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
-  "scope": "Video deployment/research, API 3 controls, full-context S48 14-second 4K delivered and sampled; dense BF16 backend quick comparison complete, production unchanged, queue resumed; client visual review pending",
+  "scope": "Video deployment and research; S48 14-second full-context 4K and S42 5-second 4K delivered; cuDNN/FlashInfer and FROST/CUDA Graph operator comparisons complete, production unchanged, queue resumed; client visual review pending",
   "omitted": [
     "runtime Git metadata",
     "models",
@@ -26,8 +26,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 7287,
-      "sha256": "3b08fc77f75e1058d96c2af5269f84a4a7052a9af6aa30fda3a0527ce565a9ed"
+      "bytes": 8095,
+      "sha256": "0e061030fd60c1abaf555f57aaeeaf046298014b463707e37f7656f0a20d6542"
     },
     {
       "path": "deployment-omni.json",
@@ -260,6 +260,16 @@
       "sha256": "df0bce21f1f720f3e466afadc653f9039fe11e230522ae081531ccb215916d62"
     },
     {
+      "path": "deployment/minimax-h3/frost-aot-explicit-engines.patch",
+      "bytes": 982,
+      "sha256": "8663f4aa24339928fd99ad2ce898aec262f0ba3bbf946ba89e9e6aff20b50a27"
+    },
+    {
+      "path": "deployment/minimax-h3/frost-quick-benchmark-20261121.json",
+      "bytes": 12203,
+      "sha256": "ffc5dfd82f7c063c3f9795198d4fee5e3d4d7be331c3ebc7ee639dfed14a406b"
+    },
+    {
       "path": "deployment/minimax-h3/full-2k-research.json",
       "bytes": 3717,
       "sha256": "40cdb8e9d649646662dc5b42aca1e2b6232b41b68494b0e37ea9f067bd07af6c"
@@ -268,6 +278,11 @@
       "path": "deployment/minimax-h3/full-sequence-speed-research-20261120.json",
       "bytes": 12575,
       "sha256": "3eb179b9e4b519f207a8e4b4dc0402d1e5d985490013aa2c6be3f85b889bf61b"
+    },
+    {
+      "path": "deployment/minimax-h3/long-attention-profile-20261121.json",
+      "bytes": 4472,
+      "sha256": "9a97c748c034a22abaded2590f43adf7afef98613a70cb4c2c65e6560cc186ef"
     },
     {
       "path": "deployment/minimax-h3/open-2k-download-manifest.json",
@@ -450,6 +465,16 @@
       "sha256": "58c64cc0b1292d6040c2547f4c451faf2b3a5962e781b14bdcdb6628d426b910"
     },
     {
+      "path": "deployment/video-queue/engineering-optimization-test-outcome-20261121.json",
+      "bytes": 5985,
+      "sha256": "db4c67325e18ab835824bdf0de0aa9dd77358f5d9cf3dc5e4c3cf530a295d470"
+    },
+    {
+      "path": "deployment/video-queue/engineering-optimization-test-plan-20261121.json",
+      "bytes": 4734,
+      "sha256": "e61be06bdfd5200ba5da2093c284ddfbb162f6a6b8124fa5d2ea22565e5cfba1"
+    },
+    {
       "path": "deployment/video-queue/full-sequence-validation.json",
       "bytes": 3833,
       "sha256": "0ff2a0dbc27a9fb1c8518994658e73949fab73dc83ee4a87ceac3bd2112359fd"
@@ -531,13 +556,18 @@
     },
     {
       "path": "docs/h3-engineering-optimization-conclusions-2026-11-21.md",
-      "bytes": 9226,
-      "sha256": "542cb0472f677a09fd7e55ee151022e65e88a874a066619c7b1401c82de29067"
+      "bytes": 9672,
+      "sha256": "c710ab5027f3caf09eed12b6f86fc1f23cbd6e0a2ac2a70bb65d1d3f5712cb78"
     },
     {
       "path": "docs/h3-engineering-optimization-options-2026-11-21.md",
       "bytes": 7999,
       "sha256": "9401e42b9ba0494e8bc3da11963f6664d7ba94bf7dea430fde412b8136afdc86"
+    },
+    {
+      "path": "docs/h3-engineering-optimization-tests-2026-11-21.md",
+      "bytes": 8893,
+      "sha256": "a0e7487f3eed0173547779a4b5112700db520a50d210a3a144c3c94c1ab5f0e7"
     },
     {
       "path": "docs/h3-full-sequence-4k-speed-research-2026-11-20.md",
@@ -596,8 +626,8 @@
     },
     {
       "path": "docs/video-framework-research-index-2026-11-17.md",
-      "bytes": 7685,
-      "sha256": "fff9df2c110e6d24c24fc0121bba69a79a0c541da51578ad6ffcf19236dc833e"
+      "bytes": 7910,
+      "sha256": "120eae406b1af40a6546dd5d694d98c90ed2b914bbab422b76258ea26aad1d0c"
     },
     {
       "path": "docs/video-http-api.md",
@@ -785,6 +815,11 @@
       "sha256": "1f5c3f611f62fad23c16232c7bc8695610b378b5cfbc867a1ab5da01ef3e91a6"
     },
     {
+      "path": "tests/test_h3_optimization_boundary.py",
+      "bytes": 3423,
+      "sha256": "0c2115ac0def390937dc5f9d0e3a93421aac8dfa94190be7276e6e7d27db4ecb"
+    },
+    {
       "path": "tests/test_h3_refiner_profiles.py",
       "bytes": 5548,
       "sha256": "13405c5d9a99882cd59b21b6056872b98f34caffad19d5f6ee29fb90a6b5ac59"
@@ -823,6 +858,11 @@
       "path": "tools/benchmark_h3_dense_backends.py",
       "bytes": 9723,
       "sha256": "a9ea02ed5e64b83f7371f33cde95026136c02119080f71df4453f33b1726c408"
+    },
+    {
+      "path": "tools/benchmark_h3_frost.py",
+      "bytes": 13869,
+      "sha256": "20787636ec6b4ced264d0aa6d0b938c245be7532daddef6dfcad686990b25f7b"
     },
     {
       "path": "tools/benchmark_h3_ic_exact.py",
@@ -960,6 +1000,11 @@
       "sha256": "049a80bbdf1d13a10fa31ab2d25a2928a643adf1019f11c9cdcf37101ddce53a"
     },
     {
+      "path": "tools/profile_h3_long_attention.py",
+      "bytes": 4823,
+      "sha256": "430f1fae9b3185c41045b2ed2fe55e64817f611a9100c806b433e3afd09a58c1"
+    },
+    {
       "path": "tools/queue_minimax_h3_2k_download.py",
       "bytes": 2160,
       "sha256": "051b40c33fe37a2379365217ecd642d7f85f8726ba5155500d655fc87def49a4"
@@ -1035,6 +1080,11 @@
       "sha256": "c6a11ae821cf1d3aab94fda83f23c70435e4e5436207ce64f3d636be66b5f518"
     },
     {
+      "path": "tools/setup_h3_frost_candidate.py",
+      "bytes": 6334,
+      "sha256": "b400d605c516bcd3997b744b7834fec5a2422dccf299b8b00f61a0a8e7c32217"
+    },
+    {
       "path": "tools/validate_h3_full_sequence.py",
       "bytes": 5675,
       "sha256": "f23f1d34035406456e7d567265b469e33b5b98888e9a4df2ebe75e97d4ff40d7"
@@ -1088,6 +1138,11 @@
       "path": "tools/watch_h3_4k_validation.py",
       "bytes": 7548,
       "sha256": "84423ca805862a315074e8b1cefa8cde3feafcbd96e539dd46c8de1392d86058"
+    },
+    {
+      "path": "tools/watch_h3_optimization_boundary.py",
+      "bytes": 10610,
+      "sha256": "5c7a6c5a3354f5e6558f21e89c82e011d7b654ec629ba887dd60cc257bcb4141"
     },
     {
       "path": "tools/watch_video_progress.py",

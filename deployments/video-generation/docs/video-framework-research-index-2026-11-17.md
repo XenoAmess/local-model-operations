@@ -18,6 +18,7 @@
 
 | 文档 | 覆盖范围 |
 | --- | --- |
+| [S42 交付后的 FROST／图捕获工程实测](h3-engineering-optimization-tests-2026-11-21.md) | 成片完成后独占测试；FROST BF16 和仅SDPA CUDA Graph 均基本打平，无正式替换，后续队列已恢复 |
 | [工程优化调研结论与去留](h3-engineering-optimization-conclusions-2026-11-21.md) | CPU 编码探针、SM120 FROST 源码适配、图捕获／预取／常驻的投入判断；保留一个主要候选，未改正式服务 |
 | [保持模型的工程优化参考](h3-engineering-optimization-options-2026-11-21.md) | 真实层分析、密集内核调优、原版 36L 输出流水线、有限预取与图捕获；区分已部署、未实测与数值边界 |
 | [14 秒整段 4K 加速深入调查](h3-full-sequence-4k-speed-research-2026-11-20.md) | 八小时的实际瓶颈；cuDNN／FlashInfer／FA4、SoL 与 SubBlock 的 SM120 接入条件及质量边界；没有冒充新增 GPU 测评 |

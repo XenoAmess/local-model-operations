@@ -1,0 +1,22 @@
+diff --git a/aot/sm120/build.py b/aot/sm120/build.py
+index 17e45a3..2a05de5 100644
+--- a/aot/sm120/build.py
++++ b/aot/sm120/build.py
+@@ -89,7 +89,7 @@ def _candidates(c: V.ShapeClass, g: int, sm: int, units: int, sq: int, skv: int)
+     from cudnn.sdpa.fwd.engines import ENGINE_SPECS
+     from cudnn.sdpa.graph_analyzer import SdpaGraphFacts
+ 
+-    spec = next(s for s in ENGINE_SPECS if s.name == "sdpa_fwd_prefill_sm120")
++    offered = {s.name: i for i, s in enumerate(ENGINE_SPECS)}
+     facts = SdpaGraphFacts(
+         b=1,
+         h_q=units * g,
+@@ -108,7 +108,7 @@ def _candidates(c: V.ShapeClass, g: int, sm: int, units: int, sq: int, skv: int)
+         device_sm_count=sm,
+     )
+     out = []
+-    for plan in heur.recommend("A", facts, {spec.name: 0}):
++    for plan in heur.recommend("A", facts, offered):
+         k = plan.knobs
+         out.append(V.Knobs(g if k.pack_gqa else 0, int(k.sched_policy), int(k.split_kv), int(k.tile_m), int(k.tile_n)))
+     return out

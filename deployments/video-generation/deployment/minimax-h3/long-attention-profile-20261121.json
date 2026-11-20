@@ -1,0 +1,172 @@
+{
+  "status": "measured_representative_operator_and_synthetic_h2d",
+  "scope": "Synthetic inputs at deployed long SDPA call geometry; not complete layer or video profiling",
+  "q_tokens": 16384,
+  "kv_tokens": 949232,
+  "heads": 56,
+  "head_dim": 128,
+  "dtype": "BF16",
+  "torch": "2.12.0+cu130",
+  "isolation": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/llmlab.slice/llmlab-h3-long-profile-20261121.service",
+    "aggregate_memory_max_bytes": 94489280512,
+    "workload_memory_max_bytes": "12884901888",
+    "workload_swap_max_bytes": "1073741824",
+    "oom_group": 1,
+    "host_available_bytes": 113732788224
+  },
+  "runs": [
+    {
+      "cuda_ms": 3105.6337890625,
+      "wall_ms": 3109.7276438958943
+    },
+    {
+      "cuda_ms": 3103.5634765625,
+      "wall_ms": 3103.5986279603094
+    },
+    {
+      "cuda_ms": 3103.766357421875,
+      "wall_ms": 3103.7883970420808
+    }
+  ],
+  "profile_events": [
+    {
+      "name": "aten::transpose",
+      "count": 5,
+      "self_cpu_us": 20.759999999998854,
+      "self_device_us": 0,
+      "device_us": 0
+    },
+    {
+      "name": "aten::as_strided",
+      "count": 5,
+      "self_cpu_us": 9.155000000000427,
+      "self_device_us": 0,
+      "device_us": 0
+    },
+    {
+      "name": "aten::scaled_dot_product_attention",
+      "count": 1,
+      "self_cpu_us": 483.1840000000011,
+      "self_device_us": 0.0,
+      "device_us": 6203697.692
+    },
+    {
+      "name": "aten::_scaled_dot_product_flash_attention",
+      "count": 1,
+      "self_cpu_us": 437.6370000000006,
+      "self_device_us": 0.0,
+      "device_us": 6203697.692
+    },
+    {
+      "name": "aten::_flash_attention_forward",
+      "count": 1,
+      "self_cpu_us": 844.9699999999998,
+      "self_device_us": 3101848.846,
+      "device_us": 6203697.692
+    },
+    {
+      "name": "aten::empty_like",
+      "count": 1,
+      "self_cpu_us": 554.9680000000003,
+      "self_device_us": 0,
+      "device_us": 0
+    },
+    {
+      "name": "aten::empty_strided",
+      "count": 1,
+      "self_cpu_us": 497.8779999999997,
+      "self_device_us": 0,
+      "device_us": 0
+    },
+    {
+      "name": "aten::empty",
+      "count": 4,
+      "self_cpu_us": 19.148999999999432,
+      "self_device_us": 0,
+      "device_us": 0
+    },
+    {
+      "name": "Activity Buffer Request",
+      "count": 1,
+      "self_cpu_us": 1832.4449999999997,
+      "self_device_us": 3101848.846,
+      "device_us": 3101848.846
+    },
+    {
+      "name": "cudaDeviceGetAttribute",
+      "count": 2,
+      "self_cpu_us": 331.6360000000004,
+      "self_device_us": 0,
+      "device_us": 0
+    },
+    {
+      "name": "cudaFuncSetAttribute",
+      "count": 1,
+      "self_cpu_us": 6.322000000000116,
+      "self_device_us": 0,
+      "device_us": 0
+    },
+    {
+      "name": "cudaLaunchKernel",
+      "count": 1,
+      "self_cpu_us": 344.933,
+      "self_device_us": 0,
+      "device_us": 0
+    },
+    {
+      "name": "void pytorch_flash::flash_fwd_kernel<Flash_fwd_kernel_traits<128, 128, 64, 4, false, false, cutlass::bfloat16_t, Flash_kernel_traits<128, 128, 64, 4, cutlass::bfloat16_t> >, false, false, false, false, false, true, false, false>(pytorch_flash::Flash_fwd_params)",
+      "count": 1,
+      "self_cpu_us": 0,
+      "self_device_us": 3101848.846,
+      "device_us": 3101848.846
+    },
+    {
+      "name": "cudaDeviceSynchronize",
+      "count": 2,
+      "self_cpu_us": 3101790.428,
+      "self_device_us": 0,
+      "device_us": 0
+    }
+  ],
+  "attention_median_cuda_ms": 3103.766357421875,
+  "attention_median_wall_ms": 3103.7883970420808,
+  "h2d_probe": {
+    "bytes": 268435456,
+    "runs": {
+      "pageable": [
+        {
+          "cuda_ms": 17.583999633789062,
+          "wall_ms": 17.62479403987527
+        },
+        {
+          "cuda_ms": 18.000383377075195,
+          "wall_ms": 18.016712041571736
+        },
+        {
+          "cuda_ms": 17.680736541748047,
+          "wall_ms": 17.69639807753265
+        }
+      ],
+      "pinned": [
+        {
+          "cuda_ms": 5.9686079025268555,
+          "wall_ms": 6.004783092066646
+        },
+        {
+          "cuda_ms": 5.988895893096924,
+          "wall_ms": 6.001597037538886
+        },
+        {
+          "cuda_ms": 5.944416046142578,
+          "wall_ms": 5.956009030342102
+        }
+      ]
+    }
+  },
+  "production_changed": false,
+  "complete_layer_profile": false,
+  "real_weight_copy_overlap_measured": false,
+  "completed_at": 1795195503.7679036,
+  "profile_event_times_overlap_do_not_sum": true
+}
