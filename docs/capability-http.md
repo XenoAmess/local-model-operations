@@ -7640,3 +7640,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20：[当前172两类压力 B_plan 实机](evidence/2026-11-20-civ6-current172-pressure-stageA-native.json)，实际父进程58614完成0；原始响应重解析及预算复算，MANY/NO_SITE均PASS，0新模型POST。继续全脚本、请求数、压力配对与整体验收，HTTP和游戏效果分别记录。
 
 2026-11-20T04:29Z：[R25与压力全脚本真实入口](evidence/2026-11-20-civ6-pressure172-fullscript-preparation-r25.json)，配置coder仍不在GET模型列表，0新POST。Owner完成实际包装/调用器检查；保留Lua合同首次FAIL并修复复测。尚无本轮全脚本Native预算通过。
+
+2026-11-20：[MANY实机数据保留与父进程身份错误](evidence/2026-11-20-civ6-many172-native-parent-identity-failure.json)，实际游戏侧0、父进程1，NO_SITE未执行；先复核所有原始SDK导出、时钟和切换，再只续未执行侧，不重采有效结果。0生成POST，调用者闭环stub必须检查实际模块身份。
