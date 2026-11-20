@@ -203,5 +203,27 @@
     "sandpies_dense_head_slicing": "full QKV already passed to function; not full projection memory elimination",
     "ehsrzv": "segment loop encloses guider.sample with complete sigmas; MultiDiffusion docstring is not reflected in loop nesting",
     "slmonker": "frame_count max 362; longer internal silence zero-padded; no local qualification implied"
+  },
+  "host_memory_followup": {
+    "status": "research_only_no_runtime_changes",
+    "existing_features": [
+      "immutable BF16 CPU block weight offload",
+      "FFN chunks of 2048 tokens"
+    ],
+    "proposed_not_implemented": [
+      "bounded activation staging to CPU",
+      "full-context query/projection/output chunking",
+      "global-softmax-correct KV paging if needed",
+      "original 36L VAE streamed output",
+      "disk-backed weight staging if host budget requires"
+    ],
+    "physical_host_memory_approx_GiB": 122,
+    "inference_limit_GiB": 80,
+    "aggregate_limit_GiB": 88,
+    "references": [
+      "https://huggingface.co/docs/diffusers/main/en/optimization/memory#group-offloading",
+      "https://arxiv.org/abs/2205.14135"
+    ],
+    "quality_boundary": "Storage transfers retain dtype; arithmetic partitioning still needs numerical and visual validation."
   }
 }
