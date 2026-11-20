@@ -7638,3 +7638,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20T03:23Z：[Civ6 R24与压力运行入口](evidence/2026-11-20-civ6-current172-pressure-stageA-preparation-r24.json)，models/health GET200，配置coder仍缺失，0新POST，Owner完成真实入口和必要软件验证。Native压力预算、TC038和整体验收仍待执行。
 
 2026-11-20：[当前172两类压力 B_plan 实机](evidence/2026-11-20-civ6-current172-pressure-stageA-native.json)，实际父进程58614完成0；原始响应重解析及预算复算，MANY/NO_SITE均PASS，0新模型POST。继续全脚本、请求数、压力配对与整体验收，HTTP和游戏效果分别记录。
+
+2026-11-20T04:29Z：[R25与压力全脚本真实入口](evidence/2026-11-20-civ6-pressure172-fullscript-preparation-r25.json)，配置coder仍不在GET模型列表，0新POST。Owner完成实际包装/调用器检查；保留Lua合同首次FAIL并修复复测。尚无本轮全脚本Native预算通过。

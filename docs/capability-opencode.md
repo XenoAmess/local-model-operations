@@ -2431,3 +2431,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-20T02:18Z：[同客户端Nov20维护缓存](evidence/2026-11-20-civ6-pressure172-diagnostic-packages-r23.json)：installed/target1.19.6、cached=true，OpenCode原生生成仍0；维护结果不授HTTP或原生代码生成能力。
 
 2026-11-20T03:23Z：[本日同客户端维护复用](evidence/2026-11-20-civ6-current172-pressure-stageA-preparation-r24.json)，installed/target1.19.6，cached=true；OpenCode原生生成仍0，不从维护成功推定代码生成能力。
+
+2026-11-20T04:29Z：[本日同客户端维护缓存](evidence/2026-11-20-civ6-pressure172-fullscript-preparation-r25.json)，installed/target1.19.6、cached=true；原生生成仍0，维护成功不授代码生成能力。

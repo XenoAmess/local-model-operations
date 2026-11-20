@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-20",
+  "source_version": 172,
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/e4e2ded9f1ca7ba433eae6e5e4202024eff5807a/docs/research/baiqi-source172-pressure-fullscript-prepared-2026-11-20.json",
+  "actual_model_check": {
+    "utc": "2026-11-20T04:29:59.525545+00:00",
+    "configured_model": "qwen38-coder",
+    "configuration_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "maintenance": {
+      "date": "2026-11-20",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": true
+    },
+    "results": [
+      {
+        "name": "models",
+        "utc": "2026-11-20T04:29:59.471935+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 321,
+        "over_64KiB": false,
+        "sha256": "8e40fc6ab58ad464560a3ac62197225d60f8cb626cb941b3f401696fb58a7c41",
+        "total_ms": 22.236399818211794,
+        "model_ids": [
+          "open-h3-2k"
+        ]
+      },
+      {
+        "name": "health",
+        "utc": "2026-11-20T04:29:59.495551+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 482,
+        "over_64KiB": false,
+        "sha256": "77c1fae8b0f07bcfd3201ccbb905e665f66ef268b50058547e3a5fada89b8e96",
+        "total_ms": 28.56389991939068
+      }
+    ],
+    "generation_POSTs": 0,
+    "new_logical_candidate_tasks": 0,
+    "Native_queries": 0,
+    "configuration_changes": 0,
+    "service_mutations": 0,
+    "automatic_fallback": false,
+    "formal_overlap": false
+  },
+  "model_ledger_unchanged": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "software_counts": {
+    "instrumented_VM_worlds": 68,
+    "intentional_bad_wrap_controls": 4,
+    "installer_firstwrite": 20,
+    "actual_temporary_installs": 2,
+    "actual_player_entries_after_repair": 30,
+    "retry_no_replay": 14,
+    "parent": 5,
+    "closure": 13,
+    "LuaVM_contracts_after_repair": 36,
+    "historical_stale160_controls": 2
+  },
+  "first_metadata_failure_preserved": true,
+  "Native_queries": 0,
+  "generation_POSTs": 0,
+  "unknown_costs": null,
+  "scope": "Owner fallback for unfinished current pressure fullscript preparation. HTTP availability, OpenCode daily maintenance, software contracts and future Native effects remain distinct."
+}
