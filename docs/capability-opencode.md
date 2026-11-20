@@ -2451,3 +2451,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-20：[Alpha3实际发布与离线恢复待证](evidence/2026-11-20-civ6-alpha3-published-verified-offline-pending.json)沿用当日1.19.6成功缓存，原生生成0；SDK/HTTP读回及内置imagegen不计作OpenCode代码生成。未因发布阶段完成而停止全模组验收。
 
 2026-11-20：[同批新引擎门禁](evidence/2026-11-20-civ6-engine74-tc033-preparation.json)复用当日1.19.6维护缓存；原生生成0。负责人软件修正不记成本地模型代码生成，旧引擎性能不转授新引擎。
+
+2026-11-20：[TC020同批候选](evidence/2026-11-20-civ6-tc020-army-escort-guard-candidate.json)维护沿用当日1.19.6成功缓存，原生生成0；Owner单测不计作OpenCode生成能力，未知成本null。

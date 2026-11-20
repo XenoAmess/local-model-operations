@@ -7664,3 +7664,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20：[Civ6新引擎1.0.12.74与TC033准备](evidence/2026-11-20-civ6-engine74-tc033-preparation.json)：旧程序pin在Popen前实际阻止未审环境；新目标独立记录，11启动/请求/主父门禁和2目标摘要门禁通过，实机仍0。R31真实兼容性任务前检查models/health200，仅open-h3-2k，配置qwen38-coder仍缺；0新候选/POST，不替换模型，成本null。
 
 2026-11-20：[Civ6后台发令完整边界审查](evidence/2026-11-20-civ6-source172-military-writer-review.json)核10个当前单位writer，真实私有162三文件增量可逆至Git原件；复用旧8角色/自然长矛兵的限定证据，未授新引擎/TC019整项通过。R31配置coder缺失由负责人接管，无新候选/POST，成本null。
+
+2026-11-20：[Civ6 TC020军令权限候选](evidence/2026-11-20-civ6-tc020-army-escort-guard-candidate.json)：准备完整真实guard/测试/实际原版编队消费者后，R32仍只列open-h3-2k、不提供配置qwen38-coder，0POST/候选；负责人复现3软件失败，补省略参数arity1错误后30真实双VM检查/97双编译/119包通过。173候选已推短分支，172冻结Native保留，不记实机通过或工坊已修。
