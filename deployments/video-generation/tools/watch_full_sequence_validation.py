@@ -107,7 +107,10 @@ def main():
         "本次计划在 canary 结束后自动维护；请先读 /v1/queue 确认当前维护状态及没有其他在跑任务，"
         "deployment/video-queue/full-sequence-validation.json 中的 "
         "scheduler_restart_required_after_canary 为 true 时，须在安全边界重启调度器加载完整任务 OOM 日志修正，"
-        "再调用 POST /v1/service/maintenance enabled=false 恢复后续任务；"
+        "用户最新另要求：S48 成功完整交付之后再快速实测 cuDNN、FlashInfer 通用 BF16 密集内核与现用 Flash SDPA，"
+        "待办见 deployment/video-queue/dense-kernel-quick-benchmark-plan.json。"
+        "成功交付时先保留维护状态，在空闲 GPU 上完成这项已授权的短算子对照并汇报性能排名，"
+        "不自动切换正式后端；完成后调用 POST /v1/service/maintenance enabled=false 恢复后续任务；"
         "若失败，保留失败状态和证据并修复，不能复活失败 ID 或静默退回窗口拼接。"
         "4K 分流严格按原单窗口上限124帧：<=124原路线，>124整段。80/88GiB、禁止云端、无开机自启继续有效。"
         "用户后续取消或停机指令优先；本事件不授权恢复任何旧基准。")

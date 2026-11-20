@@ -1,0 +1,61 @@
+{
+  "status": "waiting_for_current_video_completion_and_delivery",
+  "requested_at": "2026-11-20T17:09:06.883076+08:00",
+  "requested_by": "user",
+  "scope": "Quick measured performance estimate, not complete-video comparison or production migration",
+  "trigger_job_id": "video_gen_505d3a78c78a42d7b933b6519e1007e9",
+  "require_trigger_job_completed": true,
+  "require_full_video_lan_delivery_verified": true,
+  "interrupt_current_job": false,
+  "freeze_current_job": false,
+  "run_concurrently_with_render": false,
+  "retain_canary_maintenance_until_test_complete": true,
+  "backends": [
+    "current PyTorch FLASH_ATTENTION",
+    "PyTorch forced CUDNN_ATTENTION",
+    "FlashInfer single_prefill_with_kv_cache backend=fa2"
+  ],
+  "dtype": "bfloat16",
+  "causal": false,
+  "dropout": 0,
+  "quantization": false,
+  "sparsity": false,
+  "reduced_precision_qk_reduction": false,
+  "scenarios": [
+    {
+      "name": "single-window-4k-representative-query-batch",
+      "q_tokens": 16384,
+      "kv_tokens": 345843,
+      "heads": 56,
+      "head_dim": 128
+    },
+    {
+      "name": "full-14s-4k-representative-query-batch",
+      "q_tokens": 16384,
+      "kv_tokens": 949232,
+      "heads": 56,
+      "head_dim": 128
+    }
+  ],
+  "warmup_calls": 1,
+  "measured_repeats": 3,
+  "same_inputs_for_all_backends": true,
+  "compare_outputs_to_current_baseline": true,
+  "measure_cuda_event_and_wall_time": true,
+  "fallback_allowed": false,
+  "limits": {
+    "run_via_isolated_launcher": true,
+    "aggregate_host_gib": 88,
+    "inference_host_gib": 80,
+    "new_model_load": false
+  },
+  "report_must_distinguish": [
+    "microbenchmark vs full video",
+    "same formula vs bitwise equality",
+    "measured timings vs whole-video extrapolation",
+    "unsupported backend vs slower backend"
+  ],
+  "switch_production_backend": false,
+  "resume_subsequent_queue_after_test": true,
+  "other_cancelled_benchmarks_remain_cancelled": true
+}

@@ -69,5 +69,11 @@
   "total_cpu_contract_tests_passed": 45,
   "scheduler_restart_required_after_canary": true,
   "review_observer_unit": "video-full-sequence-validation-20261120.service",
-  "legacy_window_and_audio_tests_passed": 4
+  "legacy_window_and_audio_tests_passed": 4,
+  "post_delivery_benchmark": {
+    "status": "waiting_for_current_video_completion_and_delivery",
+    "plan": "deployment/video-queue/dense-kernel-quick-benchmark-plan.json",
+    "keep_maintenance_until_completed": true,
+    "do_not_interrupt_current_render": true
+  }
 }
