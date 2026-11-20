@@ -253,5 +253,73 @@
     "whole S48 fixed input/seed compared to dense output",
     "boundary-adjacent and full timeline human review"
   ],
-  "recommendation": "Keep the running dense full-sequence reference. Prioritize dense BF16 kernel measurements at a safe boundary. Evaluate full-timeline sparse BF16 as a separate quality mode; never silently replace the reference."
+  "recommendation": "Keep the running dense full-sequence reference. Prioritize dense BF16 kernel measurements at a safe boundary. Evaluate full-timeline sparse BF16 as a separate quality mode; never silently replace the reference.",
+  "public_experience_followup": {
+    "date": "2026-11-20",
+    "scope": "external primary author reports, independently read but not locally reproduced",
+    "production_changed": false,
+    "gpu_experiments_started": false,
+    "sources": [
+      {
+        "url": "https://haoailab.com/FastVideo/inference/optimizations/#cudnn-sdpa-for-h3-dense-attention-opt-in",
+        "kind": "official framework documentation",
+        "shape_tokens": [
+          37700,
+          109000
+        ],
+        "hardware": "GB200",
+        "reported_model_forward_speedup_percent": 2.2,
+        "reports_exact_parity": false,
+        "precision": "bf16 operands, fp32 softmax/accumulation, bf16 output"
+      },
+      {
+        "url": "https://github.com/joeynyc/MiniMax-H3-2x-DGX-Spark/blob/main/docs/RESULTS.md",
+        "kind": "author self-reported whole-video experiment",
+        "hardware": "two DGX Spark SM121",
+        "pipeline": "FL2VA / vLLM-Omni; not the local IC configuration",
+        "warm_sdpa_eager_seconds": 64.226,
+        "warm_cudnn_eager_seconds": 52.872,
+        "warm_latency_reduction_percent": 17.67819886027465,
+        "separate_50_step_768p_cudnn_plus_compile_vs_sdpa_video_ssim": 0.9134,
+        "separate_video_psnr_db": 28.56,
+        "pixel_identical": false,
+        "compile_is_confounder_for_50_step_comparison": true,
+        "generated_media_independently_reviewed": false
+      },
+      {
+        "url": "https://github.com/jayleaton/minimax-h3-tensorfold-rtx/blob/main/docs/RESULTS.md",
+        "kind": "author self-reported attention microbenchmark",
+        "hardware": "RTX 5070 Ti SM120 / Windows",
+        "tokens": 39936,
+        "heads": 56,
+        "head_dim": 128,
+        "cudnn_bf16_cosine_vs_fp32": 0.999997,
+        "cudnn_bf16_milliseconds": 478,
+        "not_full_video_quality_comparison": true
+      }
+    ],
+    "conclusion": "Evidence supports mature dense cuDNN as an acceleration candidate, not a universal visual-quality ranking over current FlashAttention or FlashInfer BF16. No matching 949232-token 14-second 4K IC three-way full-video study found.",
+    "downloaded_source_digests": [
+      {
+        "file": "2xspark-readme.md",
+        "sha256": "616b899b43bc7fd3c2eb71f449bb16fe4e295f3e5473a048125de03eec2a981b"
+      },
+      {
+        "file": "2xspark-results.md",
+        "sha256": "9e7b16b0572ea93b0d0b82307b6095a99003f415198c4c3dd206cdfefe7fc68e"
+      },
+      {
+        "file": "fastvideo-optimizations.md",
+        "sha256": "e3f7d8dbe30816dfeeb814ff1ee36ee5ce6b87b144c1bd3021d69406ab894f66"
+      },
+      {
+        "file": "spark-readme.md",
+        "sha256": "61cd900766393c0b7feb8666dfa4fc81d499bad489f8f97923c01e6af86e6602"
+      },
+      {
+        "file": "tensorfold-results.md",
+        "sha256": "2c98231799d58068eac33b580c60c5c34dce2d2f2b3433f0ae8fb88da87b4589"
+      }
+    ]
+  }
 }

@@ -85,6 +85,20 @@ S48 海边蝴蝶源片是 336 帧／24 FPS／14 秒。为覆盖完整 VAE 时间
 
 NVlabs 非 IC 的 B200 优化拆分中，密集内核／编译是 87.26→81.38 秒，加入稀疏后到 41.38 秒；最终 22.45 秒还用了 FP8、CUDA graphs 和 24L 快速 VAE。该公开实验没有测本机硬件、当前 IC、14 秒或相同解码配置，不能把“3.9×”作为本站保证。[官方方法和计时范围](https://nvlabs.github.io/Sana/Open-H3-Regenerate-2K/)
 
+## 补充：网上有没有 H3 的实际画质与速度经验？
+
+2026-11-20 继续搜索后，找到了更直接的公开记录。它们支持把 cuDNN 列为优先验证的密集候选，但没有建立“cuDNN 或 FlashInfer 的 BF16 成片画质必然高于当前 FlashAttention”的排名。
+
+| 原始资料 | 实际报告 | 对本机的含义和限制 |
+| --- | --- | --- |
+| [FastVideo 官方 H3 cuDNN 选项](https://haoailab.com/FastVideo/inference/optimizations/#cudnn-sdpa-for-h3-dense-attention-opt-in) | BF16 输入／FP32 softmax 与累加／BF16 输出；37.7K、109K 单算子与 FA4 差异在计时噪声内，一个 GB200 的模型前向快 2.2%；明确不承诺精确一致 | 有正式可选实现，收益可能很小；不是 SM120／950K IC 成绩。该环境变量控制 FastVideo 自己的 H3 路径，不会自动改变本站独立 IC worker |
+| [两台 DGX Spark 的 H3 作者实测](https://github.com/joeynyc/MiniMax-H3-2x-DGX-Spark/blob/main/docs/RESULTS.md) | 768×448／20 步预热请求，Torch SDPA eager 64.226 秒，cuDNN eager 52.872 秒，延迟少约 17.7%。另一个 1344×768／50 步的 cuDNN＋局部编译对照，作者报告画面相近，视频 SSIM 0.9134／PSNR 28.56 dB，但像素不同 | 两台 SM121、FL2VA／vLLM-Omni 配方；不能照搬到单张 SM120 BF16 IC。高分辨率成绩混入编译，不能全部归因于 cuDNN；未独立取得该作者成片复核 |
+| [RTX 5070 Ti／SM120 的 H3 算子实测](https://github.com/jayleaton/minimax-h3-tensorfold-rtx/blob/main/docs/RESULTS.md) | H56×D128、39,936 token：cuDNN BF16 相对 FP32 参考的余弦相似度 0.999997，耗时 478 ms；量化候选更快但数值偏差更大 | 说明该 BF16 密集算子在一个 H3 形状下误差很小；没有与本机现用 FlashAttention 做同条件完整视频画质比较，不能据此称 cuDNN 画质第一 |
+
+SSIM、PSNR、余弦相似度在这些对照中衡量的是与某个参考输出的接近程度，**不是用户审美或最终画质的优劣排名**。同种子生成画面不同，也不能仅凭这一点判定谁更差。NVIDIA Open-H3 页面把 cuDNN＋编译列为 “Lossless kernels”，与 FastVideo 的“不承诺 exact parity”应分别理解：前者是该报告的优化分类，不能替代本站逐元素一致验收。
+
+因此目前有外部经验支持“密集 cuDNN 可以实际使用并可能提速”，没有找到足够匹配的公开证据支持“换它一定画质更好／更差”，也没有找到本站 95 万 token、14 秒 4K IC、原版 36L 条件下 cuDNN、FlashInfer FA2 与现用 FlashAttention 的公平完整视频三方对照。正式选择仍应以本机预热后速度、数值及成片验收为准。
+
 ## 验证步骤与采用标准
 
 当前 S48 密集整段继续作为参考，完成后先做完整 HTTP 下载、SHA、帧数／音轨／解码和画面检查。候选 GPU 验证只在安全任务边界进行，不与当前 worker 争卡；不自动恢复此前已取消的框架基准。
