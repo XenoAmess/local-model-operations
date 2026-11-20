@@ -18,6 +18,7 @@
 
 | 文档 | 覆盖范围 |
 | --- | --- |
+| [保持模型的工程优化参考](h3-engineering-optimization-options-2026-11-21.md) | 真实层分析、密集内核调优、原版 36L 输出流水线、有限预取与图捕获；区分已部署、未实测与数值边界 |
 | [14 秒整段 4K 加速深入调查](h3-full-sequence-4k-speed-research-2026-11-20.md) | 八小时的实际瓶颈；cuDNN／FlashInfer／FA4、SoL 与 SubBlock 的 SM120 接入条件及质量边界；没有冒充新增 GPU 测评 |
 | [S48 整段成片与两个密集内核短测](h3-full-sequence-validation-and-dense-benchmark-2026-11-21.md) | 14 秒原生 4K 已完成；cuDNN 基本打平，FlashInfer 长序列校验失败，保留现用内核 |
 | [API 3.0 管理与整段路线边界](video-queue-management.md) | 插队、优先级、取消、分页、维护／独立状态；4K 严格大于原 124 帧上限时整段，S48 完整成片已验收 |
