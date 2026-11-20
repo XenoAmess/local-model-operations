@@ -2443,3 +2443,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-20：[同批隔离修复](evidence/2026-11-20-civ6-pressure-paired-preload-isolation-repair.json)沿用当前客户端自然日1.19.6成功维护缓存，原生生成任务0；负责人承担软件测试缺口并保留失败原件，未将维护成功或静态检查写为游戏预算通过。
 
 2026-11-20：[同批恢复](evidence/2026-11-20-civ6-many-pairs-and-hung-preload-recovery.json)沿用本机自然日1.19.6成功缓存，OpenCode原生生成0。维护成功不授代码／游戏效果能力；自有未加载hung中止、普通退出与静默残留清理分别记账。
+
+2026-11-20：[同批配对收尾](evidence/2026-11-20-civ6-source172-pressure-pairs-final.json)沿用当前自然日1.19.6成功缓存、原生生成0；实际父进程结束后才恢复模型检查。性能12/12与整mod功能通过分别记录，持续验收未完成条款。
