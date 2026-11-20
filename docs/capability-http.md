@@ -7632,3 +7632,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20T02:18Z：[Civ6 R23与172压力包](evidence/2026-11-20-civ6-pressure172-diagnostic-packages-r23.json)：配置coder仍缺失，GET models/health200；0生成POST／新候选／服务变更，Owner完成四实际诊断包和117不变文件来源核验。未授当前压力资格或TC038游戏隔离通过。
 
 2026-11-20：[Civ6当前172自然资格入口准备](evidence/2026-11-20-civ6-current172-natural-pressure-preparation.json)：R23配置coder缺失后Owner继续真实任务，26辅助／24双Lua载荷／实际安装与父进程／玩家入口检查完成。0新POST／0Native，软件合格不授游戏自然12、无城址或压力预算通过；失败测试原件保留。
+
+2026-11-20：[Civ6当前172自然压力资格实测](evidence/2026-11-20-civ6-source172-current-natural-pressure-native.json)：实际父11162两冷侧关闭0；两自然调用各入池12及NO_SITE1144格完整证书，独立于模型／软件和性能。0新生成POST，原始请求／普通回合实际激活／保存退场保留，继续压力性能及剩余功能。
