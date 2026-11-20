@@ -7628,3 +7628,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20：[Civ6当前172配对准备](evidence/2026-11-20-civ6-source172-paired-preparation.json)前R22新鲜GET200仍仅open-h3-2k，配置qwen38-coder缺失；4真实未完成任务上下文已备，0POST／0候选记账，负责人完成17首次写入／3临时安装／32入口／3父流程检查，不授实机配对结果。
 
 2026-11-20：[Civ6当前172原85全25配对段](evidence/2026-11-20-civ6-source172-original85-paired-final.json)：B_delta=PASS，十独立冷侧、真实输入／所有原值／保存退场独立核验，0新生成POST；功能／经济／恢复验收继续，不授整个mod通过。
+
+2026-11-20T02:18Z：[Civ6 R23与172压力包](evidence/2026-11-20-civ6-pressure172-diagnostic-packages-r23.json)：配置coder仍缺失，GET models/health200；0生成POST／新候选／服务变更，Owner完成四实际诊断包和117不变文件来源核验。未授当前压力资格或TC038游戏隔离通过。

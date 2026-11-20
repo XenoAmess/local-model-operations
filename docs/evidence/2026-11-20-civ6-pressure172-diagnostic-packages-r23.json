@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-20",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/2c53f3f0acb02172b6f62ed07ea2f4b72a1bef60/docs/research/baiqi-source172-pressure-diagnostic-packages-2026-11-20.json",
+  "source_version": 172,
+  "actual_packages": 4,
+  "each_files": 119,
+  "each_Lua51_Lua53": 97,
+  "source_manifest_sha256": "5fe4c400329465e63f632c1b679ee7fb9e0cf482f7d7965add4c2a4dc8afa28c",
+  "source_impact_review": {
+    "prior_source_version": 163,
+    "prior_product_commit": "1b30480d678dc06ab09823598d733ea58b20cc82",
+    "current_source_version": 172,
+    "current_gameplay_commit": "b232b93fd8f4d3cd13bae3a8ab376b559cf0c055",
+    "changed_product_paths": [
+      "mod/Baiqi/Baiqi.modinfo",
+      "mod/Baiqi/Lua/BaiqiController.lua"
+    ],
+    "other_product_files_unchanged": 117,
+    "prior_controller_sha256": "cdb157ccd9cb017ac75d3584efd529b8ec0398f6b73f83fe8a2f36ad8a49a5c0",
+    "current_controller_sha256": "7a4b9983eaf78c14e2dcc8ca422c1ec9598d441b231a195dd5605bdf3968d4b1",
+    "Native_transfer_granted": false,
+    "reason": "Controller changes include the settlement selection/support consumers. Current natural census and geometry, instrumented semantics, planning/fullscript/request and paired matrices require current observations."
+  },
+  "actual_check": {
+    "utc": "2026-11-20T02:18:09.640008+00:00",
+    "configured_model": "qwen38-coder",
+    "configuration_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "maintenance": {
+      "date": "2026-11-20",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": true
+    },
+    "results": [
+      {
+        "name": "models",
+        "utc": "2026-11-20T02:18:09.575005+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 321,
+        "over_64KiB": false,
+        "sha256": "8e40fc6ab58ad464560a3ac62197225d60f8cb626cb941b3f401696fb58a7c41",
+        "total_ms": 37.70329989492893,
+        "model_ids": [
+          "open-h3-2k"
+        ]
+      },
+      {
+        "name": "health",
+        "utc": "2026-11-20T02:18:09.613713+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 482,
+        "over_64KiB": false,
+        "sha256": "056e6205450295b2888c3bed4eab5a080c79f091abf21914e4bc896265b31ae8",
+        "total_ms": 25.283100083470345
+      }
+    ],
+    "generation_POSTs": 0,
+    "new_logical_candidate_tasks": 0,
+    "Native_queries": 0,
+    "configuration_changes": 0,
+    "service_mutations": 0,
+    "automatic_fallback": false,
+    "formal_overlap": false
+  },
+  "model_ledger_unchanged": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "generation_POSTs": 0,
+  "Native_queries": 0,
+  "unknown_costs": null,
+  "scope": "Current package preparation only; Native pressure, finance, remaining40 and old865 continue."
+}
