@@ -2437,3 +2437,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-20T05:10Z：[同客户端本日维护复用](evidence/2026-11-20-civ6-nosite172-continuation-r26.json)，installed/target1.19.6、cached=true，原生生成0；不把维护成功或软件检查当作Native效果。
 
 2026-11-20T05:54Z：[本日同客户端维护缓存](evidence/2026-11-20-civ6-pressure172-paired-packages-r27.json)，installed/target1.19.6、cached=true；原生生成0，维护不推定生成能力或Native效果。
+
+2026-11-20：[同批运行器软件准备](evidence/2026-11-20-civ6-source172-pressure-paired-runtime-preparation.json)复用当前客户端自然日1.19.6维护成功缓存，OpenCode原生生成任务仍0；维护、软件入口测试和游戏实效分开记录。
