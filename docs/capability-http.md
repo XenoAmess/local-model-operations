@@ -7642,3 +7642,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20T04:29Z：[R25与压力全脚本真实入口](evidence/2026-11-20-civ6-pressure172-fullscript-preparation-r25.json)，配置coder仍不在GET模型列表，0新POST。Owner完成实际包装/调用器检查；保留Lua合同首次FAIL并修复复测。尚无本轮全脚本Native预算通过。
 
 2026-11-20：[MANY实机数据保留与父进程身份错误](evidence/2026-11-20-civ6-many172-native-parent-identity-failure.json)，实际游戏侧0、父进程1，NO_SITE未执行；先复核所有原始SDK导出、时钟和切换，再只续未执行侧，不重采有效结果。0生成POST，调用者闭环stub必须检查实际模块身份。
+
+2026-11-20T05:10Z：[R26与未执行NO_SITE续跑准备](evidence/2026-11-20-civ6-nosite172-continuation-r26.json)，配置coder仍缺失，0新POST。真实模块身份检查、实际MANY闭环和错误原程序负对照补齐，原脚本不改、不重采有效侧。
