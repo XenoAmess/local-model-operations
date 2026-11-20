@@ -7652,3 +7652,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20：[Civ6当前172压力配对运行器准备](evidence/2026-11-20-civ6-source172-pressure-paired-runtime-preparation.json)沿用R27对该真实未完工作范围的维护与配置检查：配置coder缺失，0POST／0新任务；负责人完成真实入口、模块身份与退出schema验证。软件准备不授Native预算通过。
 
 2026-11-20：[Civ6压力配对加载前失败与隔离修正](evidence/2026-11-20-civ6-pressure-paired-preload-isolation-repair.json)保留实际父进程1与恢复0；R27配置coder仍缺失，当前修复0新任务／0POST。运输拦截、文件隔离和实机时段分开核验，不能用0Native掩盖临时文件泄漏。
+
+2026-11-20：[Civ6配对15侧保留及未加载卡死恢复](evidence/2026-11-20-civ6-many-pairs-and-hung-preload-recovery.json)，R28同配置qwen38-coder仍未在models中出现，health/models只读200；0新逻辑任务／0生成POST，负责人修复并保留实际1、1、0，未知成本null。MANY原始全部25差值审计通过，不重复采样。

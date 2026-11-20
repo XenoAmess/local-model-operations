@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-20",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/c271ba789d42cac2275635214e60d70e5956d042/docs/research/baiqi-source172-pressure-paired-many-audit-and-preload-hang-recovery-2026-11-20.json",
+  "source_version": 172,
+  "MANY_B_delta": "PASS",
+  "NO_SITE_B_delta": "INCOMPLETE",
+  "completed_sides_retained": 15,
+  "actual_parent_exit_codes": {
+    "93780": 1,
+    "93672": 1,
+    "9639": 0
+  },
+  "explicit_owned_preload_abort": {
+    "terminate_count": 1,
+    "kill_escalations": 0,
+    "normal_exit_claimed": false,
+    "gameplay_progress_lost": false
+  },
+  "configured_model": "qwen38-coder",
+  "observed_models": [
+    "open-h3-2k"
+  ],
+  "maintenance": {
+    "date": "2026-11-20",
+    "installed_version": "1.19.6",
+    "target_version": "1.19.6",
+    "cached": true
+  },
+  "new_logical_tasks": 0,
+  "generation_POSTs": 0,
+  "OpenCode_native_generation_tasks": 0,
+  "ledger": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "unknown_costs": null,
+  "lesson": "Preserve already valid cold sides after an unqualified boot hang; do not resample them or drop delays. A queued close request is not process exit, and explicit forced boot abort is not quiet-residue cleanup. Private normal minidump and actual hung/no-load facts retained. Namespace changes must cover dynamic module imports; positive first-child test catches stale old modules before any actual game mutation."
+}
