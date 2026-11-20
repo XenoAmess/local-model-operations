@@ -2457,3 +2457,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-21：[Civ6 R33](evidence/2026-11-21-civ6-steam-live-surface-readonly.json)本地新自然日首次使用前，canonical ensure_current实际非缓存检查1.19.6=目标1.19.6通过；本批OpenCode原生生成0，不以维护成功授代码生成能力。
 
 2026-11-21：[TC033 R3](evidence/2026-11-21-civ6-tc033-r3-preparation.json)沿用当日已通过维护，无原生生成；软件／实机能力分别记录，未知成本null。
+
+2026-11-21：[TC038运行时审查](evidence/2026-11-21-civ6-tc038-runtime-architecture-review.json)当日维护已过，原生生成0；源码审阅和实际游戏行为分别记账，未知成本null。

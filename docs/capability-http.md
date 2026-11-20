@@ -7670,3 +7670,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-21：[Civ6真实后台模式门禁任务](evidence/2026-11-21-civ6-steam-live-surface-readonly.json)R33先备当前源码和真实反例，GET200仍仅open-h3-2k／缺配置coder，0POST／候选／自动替代；负责人22软件检查通过，真实模式仍unknown、0新引擎Native。未知成本null。
 
 2026-11-21：[TC033 R3实际调用器修订](evidence/2026-11-21-civ6-tc033-r3-preparation.json)属于同一R33真实门禁任务；缺配置coder后Owner处理，0额外models探针／POST。19实际驱动边界通过、10函数AST保持，0实机。
+
+2026-11-21：[Civ6 TC038实际运行时架构](evidence/2026-11-21-civ6-tc038-runtime-architecture-review.json)全当前文本先备真实任务，沿用R33缺配置coder，0额外探针／POST／候选。Owner核119包／97Lua闭包；原requests误分类保留。只授源码架构范围，不授财政／服务故障实机。
