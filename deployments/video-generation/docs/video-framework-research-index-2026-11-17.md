@@ -18,6 +18,7 @@
 
 | 文档 | 覆盖范围 |
 | --- | --- |
+| [14 秒整段 4K 加速深入调查](h3-full-sequence-4k-speed-research-2026-11-20.md) | 八小时的实际瓶颈；cuDNN／FlashInfer／FA4、SoL 与 SubBlock 的 SM120 接入条件及质量边界；没有冒充新增 GPU 测评 |
 | [API 3.0 管理与整段路线边界](video-queue-management.md) | 插队、优先级、取消、分页、维护／独立状态；4K 严格大于原 124 帧上限时整段，S48 实际验收中 |
 | [Open-H3 接缝与整段现成实现](open-h3-seam-solutions-2026-11-20.md) | 用户接受性能损失；整段 IC 优先，八个社区项目及核心窗口源码、IC stepped、时间网格修正与尚未验证边界 |
 | [14 秒整段原生 4K 可行性](h3-single-pass-14s-4k-feasibility-2026-11-20.md) | 原始资源研究；后续候选已进入 S48 渲染验收，进展以新管理文档与验收记录为准 |

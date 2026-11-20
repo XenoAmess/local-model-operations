@@ -1,0 +1,257 @@
+{
+  "date": "2026-11-20",
+  "status": "source_and_existing_measurement_research_only",
+  "research_gpu_experiments_started": false,
+  "candidate_packages_installed": false,
+  "current_job_interrupted": false,
+  "production_backend_changed": false,
+  "hardware": {
+    "gpu": "NVIDIA RTX 6000D",
+    "sm": 120,
+    "gpu_memory_mib": 85651,
+    "inference_host_memory_gib": 80,
+    "aggregate_host_memory_gib": 88
+  },
+  "environment": {
+    "torch": "2.12.0+cu130",
+    "diffusers": "0.42.0",
+    "flashinfer": "0.7.2.post1",
+    "cudnn": "9.20.0.48",
+    "cutlass_dsl": "4.8.1"
+  },
+  "baseline": {
+    "job_id": "video_gen_505d3a78c78a42d7b933b6519e1007e9",
+    "job_status_at_observation": "in_progress",
+    "observed_at": "2026-11-20T08:27:53.979604+00:00",
+    "step": 1,
+    "block": 10,
+    "global_tokens": 949232,
+    "query_chunk": 16384,
+    "heads": 56,
+    "head_dim": 128,
+    "hidden_width": 5376,
+    "steps": 3,
+    "blocks_per_step": 50,
+    "bf16": true,
+    "original_vae_layers": 36,
+    "vae_dtype": "float32",
+    "lora_merged": false,
+    "full_video_complete": false
+  },
+  "existing_evidence": {
+    "old_attention_tokens": 345843,
+    "token_ratio": 2.7446905098556282,
+    "quadratic_attention_ratio": 7.533325994891548,
+    "old_5s_4k_sampling_seconds": 3971.7,
+    "old_5s_4k_vae_seconds": 363,
+    "full_sequence_first_5_blocks_observed_at": 1795161849.5838614,
+    "full_sequence_first_10_blocks_observed_at": 1795162782.9220035,
+    "recent_seconds_per_block": 186.6676284313202,
+    "extrapolated_sampling_hours_not_completion_measurement": 7.777817851305008,
+    "long_kv_probe_seconds_one_query_batch": 3.154763113008812,
+    "query_batches_per_block": 58,
+    "long_kv_probe_extrapolation_seconds_per_block": 182.9762605545111,
+    "probe_is_not_full_video": true
+  },
+  "source_revisions": {
+    "sana-tree": "cf67a3acad7511acb85053e56a05e5dd24c82ba0",
+    "sol-attn-tree": "69d2e4009313e5cc3a1a70ab092ed6bb54fd5cd3",
+    "flashinfer-tree": "b966a5b24c6c942247000abd335c9a3cff83db6a",
+    "fa4-commit": "dbabcc788590e793eee11566d7253906187e612e",
+    "sglang-commit": "f6726b4caa0ea8215aa12acae3f00847cad4f97a"
+  },
+  "candidates": [
+    {
+      "name": "cuDNN BF16 SDPA / SM120 FROST",
+      "category": "dense_same_attention_formula",
+      "status": "source_compatible_candidate_no_local_kernel_or_video_measurement",
+      "risks": [
+        "949232-key support and workspace must be tested",
+        "math equivalence is not bitwise equality",
+        "latest documentation may exceed installed cuDNN support"
+      ]
+    },
+    {
+      "name": "FlashInfer generic FA2 single_prefill",
+      "category": "dense_same_attention_formula",
+      "installed": true,
+      "status": "HND noncausal rectangular Q/K contract checked; no new GPU measurement"
+    },
+    {
+      "name": "FlashAttention-4 SM120",
+      "category": "dense_same_attention_formula",
+      "installed": false,
+      "status": "current upstream uses SM80 MMA subclass; not B200 tcgen05 path"
+    },
+    {
+      "name": "FlashInfer minimax_h3_dense_attention",
+      "category": "dense_model_specific",
+      "max_tokens": 131072,
+      "status": "rejected_as_direct_substitute_for_949232_tokens",
+      "other_difference": "BF16 pre-scaled queries differ from native SDPA scaling order"
+    },
+    {
+      "name": "NVlabs Sol-Attn SM120",
+      "category": "approximate_sparse_bf16",
+      "status": "primary source audited; no full IC integration or quality measurement",
+      "integration_requirements": [
+        "equal contiguous BTHD Q/K/V",
+        "full timeline with bounded head groups or explicit kernel adaptation",
+        "exact reference/text/audio KV and dense conditioning query rows",
+        "strict no-silent-fallback validation"
+      ]
+    },
+    {
+      "name": "SGLang SubBlock BF16 SM120",
+      "category": "approximate_sparse_bf16",
+      "status": "primary source audited; requires explicit up3 schedule and IC metadata adaptation",
+      "default_skip_first_steps": 10,
+      "current_sampler_steps": 3,
+      "default_would_skip_all_sparse_calls": true,
+      "routing_score_cap_per_call_bytes": 2147483648
+    },
+    {
+      "name": "SageAttention FP8 PV on SM120",
+      "category": "approximate_quantized_dense",
+      "status": "not_recommended_without_long_sequence_validation",
+      "open_issue": "https://github.com/thu-ml/SageAttention/issues/388",
+      "reported_noise_threshold_tokens_approx": 160000
+    }
+  ],
+  "files_audited": [
+    {
+      "file": "NVlabs-techniques_sparse_backends_README.md",
+      "bytes": 6376,
+      "sha256": "504f768a8fd2f6731d88fb99864810f8509129e2036ab2172259d7e424bd6067"
+    },
+    {
+      "file": "NVlabs-techniques_sparse_backends_sol_attn_common_runtime.py",
+      "bytes": 319,
+      "sha256": "b6d19ddc6b0f6f1e4ddd48094133ee56d6c1ab383c57e7d02887318d53c264b4"
+    },
+    {
+      "file": "NVlabs-techniques_sparse_backends_sol_attn_common_selector.py",
+      "bytes": 3822,
+      "sha256": "b75eab435ec873af383a61ca2f32eb3eb75fd3fec94c30302fbfe8149f9bb0a1"
+    },
+    {
+      "file": "NVlabs-techniques_sparse_backends_sol_attn_interface.py",
+      "bytes": 13234,
+      "sha256": "610e3ea3ece3251fbb6ebab25b4ea2285430c0da32a7dedb5176899774e50ec3"
+    },
+    {
+      "file": "NVlabs-techniques_sparse_backends_sol_attn_preprocess.py",
+      "bytes": 11750,
+      "sha256": "8710e3d5f8e38abd17418f983679c2fd32e78cfe6270bfb0b9780c10f9d8a097"
+    },
+    {
+      "file": "fa4-fwd-sm120.py",
+      "bytes": 2203,
+      "sha256": "abd017add69914e46f0fcfc017ad51c3d07d79fd87d15f969036ddd82bcc7da2"
+    },
+    {
+      "file": "fa4-interface.py",
+      "bytes": 197781,
+      "sha256": "9041d70befb4baf235a2024db6de9f227a2d4708722d980d4755fc5e6b1cad86"
+    },
+    {
+      "file": "flashinfer-ai-flashinfer_attention_cute_dsl_sm120_fmha.py",
+      "bytes": 48418,
+      "sha256": "87dc045e0b8a519ef6e7acc313e115db6c300c9061701e8e7eaa93f17773aca3"
+    },
+    {
+      "file": "flashinfer-ai-flashinfer_diffusion_ops_cake_minimax_h3_dense_attention.py",
+      "bytes": 11046,
+      "sha256": "891f25a538a19b35762ee56f5eee6c8fbb10dcd8239460664be1ebe089d5ef05"
+    },
+    {
+      "file": "flashinfer-ai-flashinfer_utils.py",
+      "bytes": 71694,
+      "sha256": "45cabc13db47ded5ebf79e288450be2df8e9048d795a009bcf9434b461b4e155"
+    },
+    {
+      "file": "r-vage-BENCHMARKS.md",
+      "bytes": 18027,
+      "sha256": "24e2ce90295d158b108103ae1940bb7f4fd2a6f0d729d177c972f40bfedc89bc"
+    },
+    {
+      "file": "r-vage-minimax.py",
+      "bytes": 42037,
+      "sha256": "1b66452c76a621ffb56a949570b2b3c165edf6ce197523ab2be34a8dcaf8274f"
+    },
+    {
+      "file": "sana-models_Open-H3-Regenerate-2K_IC_README.md",
+      "bytes": 7968,
+      "sha256": "52b22837edfaf1e007d894b08bc21a992ba85adb4401eab508130f7b4c3ec259"
+    },
+    {
+      "file": "sana-models_Open-H3-Regenerate-2K_IC_infer.py",
+      "bytes": 13327,
+      "sha256": "7bffd0b5a6ad963ec55aa31f47768e5729502f8810dce34eb671cc07380c08fe"
+    },
+    {
+      "file": "sana-models_minimax_h3_Sol-H3-ComfyUI_sol_h3_engine_fa4_sm120.py",
+      "bytes": 1262,
+      "sha256": "c5e04a3d00ca2debd53bec2ee01546a5113be6a004cbec998bd5b8c6c645811b"
+    },
+    {
+      "file": "sana-models_minimax_h3_Sol-H3_h3_runtime_third_party_sol_attn_sm120___init__.py",
+      "bytes": 101,
+      "sha256": "193997e4e5925c7a8cabe0247068698bdab1bb7fab283d0857fc01bf9a2763c1"
+    },
+    {
+      "file": "sana-models_minimax_h3_Sol-H3_h3_runtime_third_party_sol_attn_sm120_kernel.py",
+      "bytes": 436,
+      "sha256": "cba5a94506cb15025faf7065340d36eba8747cff5a0852816486213fbd7fb715"
+    },
+    {
+      "file": "sana-models_minimax_h3_Sol-H3_h3_runtime_third_party_sol_attn_sm120_mainloop.py",
+      "bytes": 43035,
+      "sha256": "8b6b87be7fe21cb0ebfbab34cd0ae819faa96b829c57c7b27c1c14c29e771570"
+    },
+    {
+      "file": "sana-techniques_sparse_backends_sol_attn_sm120___init__.py",
+      "bytes": 101,
+      "sha256": "193997e4e5925c7a8cabe0247068698bdab1bb7fab283d0857fc01bf9a2763c1"
+    },
+    {
+      "file": "sana-techniques_sparse_backends_sol_attn_sm120_kernel.py",
+      "bytes": 436,
+      "sha256": "cba5a94506cb15025faf7065340d36eba8747cff5a0852816486213fbd7fb715"
+    },
+    {
+      "file": "sglang-attention-backends.mdx",
+      "bytes": 99101,
+      "sha256": "17b5427500722ac470bf53c547a47c7da1b925ae8a121fc6d848da05f63d36cb"
+    },
+    {
+      "file": "sglang-subblock-router.py",
+      "bytes": 13673,
+      "sha256": "dd88f7623639fe0f40fc173054cd649662a9dfe852009fdd2ea9108f35d116dd"
+    },
+    {
+      "file": "sglang-subblock.py",
+      "bytes": 29659,
+      "sha256": "8ab79916443c2bc65f0f704b960b67781fad0693108794d1a97fd634e74ad8bf"
+    },
+    {
+      "file": "sol-attn-changelog.md",
+      "bytes": 9951,
+      "sha256": "84c222d3032b86866bc5022bdb877bd63ca304b68bcc2335adf9a448578aa08f"
+    },
+    {
+      "file": "sol-attn-readme.md",
+      "bytes": 39489,
+      "sha256": "aaaf0050302151ebe733d7c1d29e3a79027a2fabe76979fbe35d7f8fbe8a45a4"
+    }
+  ],
+  "next_gpu_validation_boundary": "After the authorized S48 full video and HTTP delivery, or after an explicit user instruction to interrupt; no concurrent benchmark",
+  "required_quality_validation": [
+    "first/last-key sentinel over full key length",
+    "sampled queries against stable FP32 reference",
+    "actual block comparison with original unmerged LoRA",
+    "whole S48 fixed input/seed compared to dense output",
+    "boundary-adjacent and full timeline human review"
+  ],
+  "recommendation": "Keep the running dense full-sequence reference. Prioritize dense BF16 kernel measurements at a safe boundary. Evaluate full-timeline sparse BF16 as a separate quality mode; never silently replace the reference."
+}
