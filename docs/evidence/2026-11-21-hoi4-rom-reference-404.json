@@ -1,0 +1,95 @@
+{
+  "schema": "local-model-operations.hoi4-http-owner-reference-audit/v1",
+  "case_id": "HOI4-ROM-REFERENCE-404-20261121",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-20T20:25:10.089708+00:00",
+  "machine_id": "bf-202609141645-5434332d4d",
+  "owner": "hoi4-primary",
+  "source_repository": "https://github.com/XenoAmess/xenoamess_hoi4_dev",
+  "source_commit": "d00f2ab868ad6a579eb61da7c7bc30db38516ffe",
+  "published_source_record": "https://github.com/XenoAmess/xenoamess_hoi4_dev/blob/d00f2ab868ad6a579eb61da7c7bc30db38516ffe/mod_nailong/data/update-plans/20261121-engine-and-reference-findings.json",
+  "published_source_record_sha256": "6e7685eb126aa45476d9b67fa0d33dad702adddf6e9d00c8bd581a5dccf670c1",
+  "published_input_audit": "https://github.com/XenoAmess/xenoamess_hoi4_dev/blob/d00f2ab868ad6a579eb61da7c7bc30db38516ffe/mod_nailong/data/update-plans/20261121-model-input-audit.json",
+  "published_input_audit_sha256": "78acf7b94dcdd406a9d5a3d00578cca80024a962f32094b6fb1916af24258814",
+  "task": "Analyze80 genuinely unfinished new1.20 ROM reference entries, distinguishing missing sprite/texture definitions, scanner parsing and input-scope limitations; do not invent image inputs or game results.",
+  "source_bindings": [
+    {
+      "source_label": "mod_nailong/tools/catalog.py",
+      "sha256": "d0b273e37a5258196b8d8c1cb25a54a16e0de2dcc962fc823b836e7d8c572bc0",
+      "entire_current_text_present_in_actual_source_message": true
+    },
+    {
+      "source_label": "private installed-source input ROM-current.txt",
+      "sha256": "add162a2eb8b537ade680bf3990d68b2a3513c3b2db909766a27e4d03161529f",
+      "entire_current_text_present_in_actual_source_message": true
+    },
+    {
+      "source_label": "private installed-source input gfx-01.txt",
+      "sha256": "7683967ce2d4cb18963a6ca3251085e76ab86cbf4ac13a8dea022d6ee7111e21",
+      "entire_current_text_present_in_actual_source_message": true
+    },
+    {
+      "source_label": "private installed-source input gfx-02.txt",
+      "sha256": "2f502806d292fb3cfb6870f6e215d01034404278f787efca3f1f453b8d4b60d2",
+      "entire_current_text_present_in_actual_source_message": true
+    },
+    {
+      "source_label": "private installed-source input context.json",
+      "sha256": "b083182ffacc2f6899ca6ef215486b4e02d82cba53a9d4e65ba924f3ab768480",
+      "entire_current_text_present_in_actual_source_message": true
+    }
+  ],
+  "complete_input_verification": "All5 complete current texts and raw byte SHAs mechanically checked against actual source message. Current full catalog scanner, installed ROM definitions, two complete selected GFX texts and actual all-GFX scan context. Original game sources and actual request remain private.",
+  "fixed_messages": [
+    "system",
+    "user",
+    "user"
+  ],
+  "max_tokens": 2200,
+  "daily_opencode_check": "Successful local-day2026-11-21 cached check, installed/registry/target1.19.6; original local timestamp2026-11-21T00:08:05.104281+08:00. This is tool version evidence, not model endpoint health.",
+  "canonical_entrypoints": [
+    "config/executor.json",
+    "scripts/call.py"
+  ],
+  "caller_config_revision_at_dispatch": "Not separately frozen at dispatch; no retroactive exact revision claim. Canonical shared caller/config entrypoints and actual wire preserved.",
+  "request_sha256": "2132a9cb1708121fa9c557788cc14c25c296bd7df1c85ad7a6f12450471f53da",
+  "events_sha256": "8cb223f712a07557d7910c3b6e1a81a8111b79f3c42790b6457829f741402f0b",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "model": "qwen38-coder",
+  "http": {
+    "attempts": 1,
+    "post_begin_utc": "2026-11-20T19:35:27.463731+00:00",
+    "attempt_end_utc": "2026-11-20T19:35:27.488766+00:00",
+    "status": 404,
+    "total_ms": 25.220300070941448,
+    "finish_reason": null,
+    "sse_done": false,
+    "candidate_complete": false,
+    "usage": null,
+    "cache": null,
+    "proxy": "DIRECT; redirects refused",
+    "transport_retries": 0,
+    "endpoint_fallbacks": 0,
+    "business_actions_replayed": 0,
+    "reported_error_body": "{\"is_bifrost_error\":false,\"status_code\":404,\"error\":{\"message\":\"provider API error (status 404)\"}}"
+  },
+  "adoption": {
+    "candidate_returned": false,
+    "model_code_adopted": false,
+    "classification": "HTTP application error; no model semantic quality or provider root cause determined"
+  },
+  "owner_findings": {
+    "installed_gfx_texts_scanned": 368,
+    "added_unresolved_entries": 80,
+    "distinct_casefolded_values": 77,
+    "literal_substring_hits": 0,
+    "conclusion": "Only the scanned installed GFX text scope establishes no literal occurrences. Runtime resolution, engine defect and missing concrete texture bytes remain unknown. Keep440 unresolved refs; do not fabricate80 additional image inputs.",
+    "actual_image_work": "15 new available raw SHA inputs processed independently by builtin tool;19 retained original PNG returns include4 art repairs. This is owner image work, not local text-model adoption or live acceptance."
+  },
+  "limits": [
+    "One actual task, no concurrency, throughput or cache inference.",
+    "No raw game assets, actual REQUEST, original screenshots, private saves or credentials published.",
+    "New engine1.20 live acceptance remains separate from art/native-build work.",
+    "Nine separate tasks in this update is not the historical project call total."
+  ]
+}
