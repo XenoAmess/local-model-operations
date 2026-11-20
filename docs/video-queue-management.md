@@ -1,5 +1,7 @@
 # 视频 HTTP：队列管理、插队与升级状态
 
+[当前 S48 每十分钟巡检](video-progress-monitor.md)：检查进度、worker、错误日志与资源；异常通知同一会话，正常采样只记录，不暂停在途视频。
+
 2026-11-20，API 3.0。BF16 Omni 为 `192.168.1.11:8001`／`fasth3-omni-bf16`，重生成为 2K／4K 为 `192.168.1.11:8002`／`open-h3-2k`。两个端口共享同一持久队列；下列 `/v1/queue/*` 管理操作可以从任一端口管理两个模型。接口无 API Key，与原 LAN 服务一致。
 
 独立状态入口是 **`http://192.168.1.11:8004/v1/service/status`**。它由单独的 CPU 服务提供，主 API 更新／重启期间仍可访问，不加载 GPU 模型。首次部署与 GPU 准入已经执行，S48 的完整 14 秒 4K 验收仍在进行，见[验收记录](../deployments/video-generation/deployment/video-queue/full-sequence-validation.json)。

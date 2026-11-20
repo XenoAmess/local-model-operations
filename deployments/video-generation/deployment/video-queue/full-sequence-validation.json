@@ -75,5 +75,13 @@
     "plan": "deployment/video-queue/dense-kernel-quick-benchmark-plan.json",
     "keep_maintenance_until_completed": true,
     "do_not_interrupt_current_render": true
+  },
+  "progress_monitor": {
+    "timer": "video-s48-progress.timer",
+    "interval_seconds": 600,
+    "status": "active_at_setup",
+    "verification": "deployment/video-queue/progress-monitor-verification-20261120.json",
+    "read_only": true,
+    "boot_autostart": false
   }
 }

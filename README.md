@@ -29,6 +29,7 @@ python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstat
 | 本机 BF16 Omni 与本地 2K／4K HTTP 部署 | [视频服务部署](deployments/video-generation/README.md) |
 | 视频队列 OOM 自动恢复与管理恢复接口 | [调用、返回码与恢复状态](deployments/video-generation/docs/video-http-api.md#oom-自动恢复与管理恢复接口) |
 | 视频 API 3.0 插队、取消、优先级、列表与升级状态 | [完整 HTTP 管理与 124 帧分流说明](docs/video-queue-management.md) |
+| 当前 S48 视频每十分钟巡检 | [异常通知、停滞判定与启动停止](docs/video-progress-monitor.md) |
 | 视频框架全部研究与正式选型 | [研究、实测与采用状态总入口](docs/video-framework-research-index-2026-11-17.md) |
 | 14 秒整段 4K 的八小时瓶颈与加速候选 | [密集内核、SoL／SubBlock、SM120 接入限制和画质验收](docs/h3-full-sequence-4k-speed-research-2026-11-20.md) |
 | Open-H3 接缝与整段重生成方案 | [现成 IC 实现、逐步融合与全长优先的可行路线](docs/open-h3-seam-solutions-2026-11-20.md) |

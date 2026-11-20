@@ -1,8 +1,8 @@
 {
-  "source_commit": "068a8b774eb62805909b7378191919d1d6ef67f3",
+  "source_commit": "f3fc2323d91769f236fd63e7a99d0084fd0f99d9",
   "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
   "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
-  "scope": "Video deployment and research, API 3 queue administration/status, full-sequence IC above 124 frames and SM120 acceleration source audit; S48 real-video qualification remains in progress",
+  "scope": "Video deployment/research, API 3 controls, full-sequence IC above 124 frames, deferred dense-kernel quick comparison and ten-minute anomaly monitoring; S48 real-video qualification remains in progress",
   "omitted": [
     "runtime Git metadata",
     "models",
@@ -26,8 +26,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 6326,
-      "sha256": "6660c7e5fbdd910bec08fa7dfd7c9279cbb25c7827d8aed48eda601366b4e7e8"
+      "bytes": 6757,
+      "sha256": "ea6462f60ba89a8a4f1c36cce12e05cd12be56ef76b3061c5b9ecd7f8257d88b"
     },
     {
       "path": "deployment-omni.json",
@@ -400,6 +400,16 @@
       "sha256": "2c4e98159302095855d37cd591d237395f24e2021ab66181a9b8e711305c3461"
     },
     {
+      "path": "deployment/systemd/video-s48-progress.service",
+      "bytes": 491,
+      "sha256": "6e559214a1c68f4dfd6d996eeac18a9bc35aac9133787e6e095611f122d3eb7f"
+    },
+    {
+      "path": "deployment/systemd/video-s48-progress.timer",
+      "bytes": 203,
+      "sha256": "22cc31d18b67087bebde06a158980b50837fdc461e1a1ae79a3d3dbfc69c6ef2"
+    },
+    {
       "path": "deployment/systemd/video-service-status.service",
       "bytes": 409,
       "sha256": "2856681195319ef82a7a7ded8d17f9ed1b11690f29f41d9ebc58bd506040dcff"
@@ -426,8 +436,8 @@
     },
     {
       "path": "deployment/video-queue/full-sequence-validation.json",
-      "bytes": 2361,
-      "sha256": "d8a67c2386fe8a51c963f72da7c81f63764fd25f2661495440be066dc546fbd7"
+      "bytes": 2634,
+      "sha256": "f1dd82347cfc7bd5681095ad3484dca8716ab51b9394b8a6a352ec38c8c9b5f0"
     },
     {
       "path": "deployment/video-queue/performance/gpu-2k.json",
@@ -448,6 +458,11 @@
       "path": "deployment/video-queue/performance/real-input-parity.json",
       "bytes": 609,
       "sha256": "75014e9e505e0c82f2a0ed02334b9b7384196c07d0ccb0ccefd0f687cca18ff9"
+    },
+    {
+      "path": "deployment/video-queue/progress-monitor-verification-20261120.json",
+      "bytes": 1564,
+      "sha256": "83926a68be5e5acf13a9b2bfcc56fffe31437c2749905f069afcb99ceb1ea248"
     },
     {
       "path": "deployment/video-queue/queue-management-verification-20261120.json",
@@ -570,9 +585,14 @@
       "sha256": "885e083cba4a5924b911d4b9186ced014bca15777bd80975d9e47799fd269f0e"
     },
     {
+      "path": "docs/video-progress-monitor.md",
+      "bytes": 3896,
+      "sha256": "b906893bf90c502c8daddf36552b9442bb953eb2abcca1681c2873d21004c526"
+    },
+    {
       "path": "docs/video-queue-management.md",
-      "bytes": 9526,
-      "sha256": "9ee30fa0b24c3bcf7a653524384fa75fb95966f0af48e7e28485e752fd8fb3fe"
+      "bytes": 9712,
+      "sha256": "85eae716bcbdaf3c69ec0e3be62f2a11ddf0866805e3ac8d4332589d9f2fac98"
     },
     {
       "path": "fasth3-omni-bf16.yaml",
@@ -743,6 +763,11 @@
       "path": "tests/test_minimax_h3_tensor_range.py",
       "bytes": 3615,
       "sha256": "51ac78fcc0c2ff5228c4007103ab49112b2ae12a8a82304b51fabfd75cca4704"
+    },
+    {
+      "path": "tests/test_video_progress_monitor.py",
+      "bytes": 5234,
+      "sha256": "241f28e6676ee6e4a6401eb8ed0f49d2014b4ef862b993b64ff0066d9644501f"
     },
     {
       "path": "tests/test_video_queue.py",
@@ -1023,6 +1048,11 @@
       "path": "tools/watch_h3_4k_validation.py",
       "bytes": 7548,
       "sha256": "84423ca805862a315074e8b1cefa8cde3feafcbd96e539dd46c8de1392d86058"
+    },
+    {
+      "path": "tools/watch_video_progress.py",
+      "bytes": 11041,
+      "sha256": "b530c4e477f94bb92d717f101001ad6280e9a774a7f1af5226ab9e055aaac172"
     },
     {
       "path": "tools/watch_video_queue_validation.py",

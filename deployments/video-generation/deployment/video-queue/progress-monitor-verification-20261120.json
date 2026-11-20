@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-20",
+  "status": "timer_active_initial_live_sample_healthy",
+  "observed_at": "2026-11-20T18:02:57.729820+08:00",
+  "job_id": "video_gen_505d3a78c78a42d7b933b6519e1007e9",
+  "interval_seconds": 600,
+  "normal_poll_notifications": false,
+  "anomaly_notification_destination": "same authorized user conversation through existing local Paseo CLI",
+  "routing_private_config_not_committed": true,
+  "synthetic_alert_sent": false,
+  "notification_transport_end_to_end_exercised": false,
+  "notification_failure_retained_and_retried": true,
+  "notification_retry_seconds": 60,
+  "terminal_stops_timer": true,
+  "boot_autostart": false,
+  "timer_properties": {
+    "ActiveState": "active",
+    "UnitFileState": "static",
+    "NextElapseUSecMonotonic": "3w 1d 20h 5min 30.778530s"
+  },
+  "service_memory_max_mib": 256,
+  "tests_passed": 10,
+  "systemd_unit_verification_passed": true,
+  "initial_live_sample": {
+    "checked_at": "2026-11-20T18:00:44.691966+08:00",
+    "job_status": "in_progress",
+    "stage": "整段密集推理：第 1/3 步，第 40/50 层",
+    "alerts": {},
+    "gpu_utilization_percent": 100.0,
+    "gpu_used_mib": 63247.0,
+    "gpu_temperature_c": 51.0
+  },
+  "worker_interrupted": false,
+  "production_model_changed": false,
+  "new_gpu_benchmark_started": false,
+  "completion_observer_preserved": true,
+  "source_files": [
+    "tools/watch_video_progress.py",
+    "deployment/systemd/video-s48-progress.service",
+    "deployment/systemd/video-s48-progress.timer"
+  ],
+  "operations_doc": "docs/video-progress-monitor.md"
+}

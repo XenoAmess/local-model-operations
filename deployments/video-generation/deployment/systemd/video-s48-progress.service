@@ -1,0 +1,15 @@
+[Unit]
+Description=Read-only S48 video progress and resource check
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/ubuntu/workspace/xenoamess_bake_videos
+EnvironmentFile=%h/.config/local-video/progress-monitor.env
+ExecStart=/usr/bin/python3 /home/ubuntu/workspace/xenoamess_bake_videos/tools/watch_video_progress.py --config %h/.config/local-video/progress-monitor.json
+MemoryMax=256M
+MemorySwapMax=0
+TimeoutStartSec=90
+Restart=on-failure
+RestartSec=60
+UMask=0077

@@ -1,0 +1,10 @@
+[Unit]
+Description=Check S48 every ten minutes until terminal status
+
+[Timer]
+OnActiveSec=10min
+OnUnitActiveSec=10min
+AccuracySec=1s
+RandomizedDelaySec=0
+Persistent=false
+Unit=video-s48-progress.service
