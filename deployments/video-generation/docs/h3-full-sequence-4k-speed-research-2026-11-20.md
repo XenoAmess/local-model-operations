@@ -1,8 +1,8 @@
 # 14 秒整段 4K 为什么接近八小时，以及可实施的加速路线
 
-2026-11-20，单张 RTX 6000D／SM120。对象是正式 `open-h3-2k` 服务的 Open-H3-Regenerate-2K-IC，BF16 Ref2VA、未合并 IC／HyperFlow／Sharp LoRA、up3 三步及原版 36 层 FP32 VAE。本文的新增工作是线上只读观测、网上原始资料搜索及源码核查，没有安装候选、启动新 GPU 基准、打断 S48 或改变线上后端。
+2026-11-20，单张 RTX 6000D／SM120。对象是正式 `open-h3-2k` 服务的 Open-H3-Regenerate-2K-IC，BF16 Ref2VA、未合并 IC／HyperFlow／Sharp LoRA、up3 三步及原版 36 层 FP32 VAE。本文最初记录只读研究；下文保留当时观察与候选取舍。随后按用户授权，在 S48 完整交付后完成了 GPU 短测，正式后端保持不变。
 
-**结论：有值得验证的加速办法。首先测完整 BF16 密集注意力内核；若需要数倍提速，再评估保留整段时间轴的稀疏注意力。八小时是当前密集执行方式的外推，不是已经完成的全片成绩，也不是所有实现的固定下限。现在没有同机、同画质的候选完整成片成绩，不能承诺换一个框架就降至一小时。**
+**后续实测结论：S48 已完成，实际耗时约 8 小时 7 分钟。cuDNN 仅快约 0.4%，FlashInfer 通用 FA2 约慢 3.6% 且超长 HND 路径数值检查失败；继续保留现用内核。** 详见[完整视频与短测](h3-full-sequence-validation-and-dense-benchmark-2026-11-21.md)。以下原始研究不代表候选已采用，也不代表稀疏路线已获画质验收。
 
 研究记录、依赖版本、源码提交与文件摘要见[机器可读记录](../deployment/minimax-h3/full-sequence-speed-research-20261120.json)。队列管理、维护状态及原 124 帧分流边界见[调用管理文档](video-queue-management.md)。
 
@@ -101,7 +101,7 @@ SSIM、PSNR、余弦相似度在这些对照中衡量的是与某个参考输出
 
 ## 验证步骤与采用标准
 
-用户已要求实际快速对比 cuDNN、FlashInfer 通用 BF16 与现用内核，随后明确要求**等 S48 完整成片并交付后再测**。当前尚未启动该 GPU 测试；不得暂停、冻结或重跑在途视频。完成交付后利用 canary 的维护边界做短算子对照，汇报预热后的性能排名，再恢复后续队列；不自动替换正式后端。[待测安排](../deployment/video-queue/dense-kernel-quick-benchmark-plan.json)
+用户已要求实际快速对比 cuDNN、FlashInfer 通用 BF16 与现用内核，随后明确要求**等 S48 完整成片并交付后再测**。该短测已在成功交付后的维护边界完成，后续队列已恢复；结果见[最新实测](h3-full-sequence-validation-and-dense-benchmark-2026-11-21.md)。没有暂停、冻结或重跑 S48，也没有自动替换正式后端。[待测安排](../deployment/video-queue/dense-kernel-quick-benchmark-plan.json)
 
 当前 S48 密集整段继续作为参考，完成后先做完整 HTTP 下载、SHA、帧数／音轨／解码和画面检查。候选 GPU 验证只在安全任务边界进行，不与当前 worker 争卡；不自动恢复此前已取消的框架基准。
 

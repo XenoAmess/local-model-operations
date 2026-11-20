@@ -1,6 +1,6 @@
 # Open-H3 原生 4K HTTP
 
-2026-11-20 更新：按原单窗口上限 **124 帧／24 FPS，约 5.167 秒**严格分流。小于等于 124 帧保留原 IC 路线；严格大于时使用一个完整时间轴、完整 K/V 的密集注意力及原版 36 层 FP32 流式解码，禁止独立窗口回退。源片 14 秒补到 345 帧处理后裁回 336 帧，调用参数不变。整段支持去噪步和 latent 检查点续解码；S48 的完整 4K 验收正在进行，不能把容量检查当成成片验收。[最新管理与状态接口](video-queue-management.md)、[验收记录](../deployment/video-queue/full-sequence-validation.json)。下方 2026-11-17 的性能数字属于旧单窗口历史成绩。
+2026-11-20 更新：按原单窗口上限 **124 帧／24 FPS，约 5.167 秒**严格分流。小于等于 124 帧保留原 IC 路线；严格大于时使用一个完整时间轴、完整 K/V 的密集注意力及原版 36 层 FP32 流式解码，禁止独立窗口回退。源片 14 秒补到 345 帧处理后裁回 336 帧，调用参数不变。整段支持去噪步和 latent 检查点续解码；S48 已完成 14 秒原生 4K 的 LAN／SHA／帧数／完整解码和抽帧检查，对端审核待反馈；见[成片与短测](h3-full-sequence-validation-and-dense-benchmark-2026-11-21.md)。[最新管理与状态接口](video-queue-management.md)、[验收记录](../deployment/video-queue/full-sequence-validation.json)。下方 2026-11-17 的性能数字属于旧单窗口历史成绩。
 
 2026-11-17：现有本地 IC 服务新增 UHD 横屏 **3840×2160**。名称仍为 `open-h3-2k`，API 仍为 `http://192.168.1.11:8002/v1`；默认 2K 和已有调用保持不变。完整 GPU 成片验收状态见 [4K 验收记录](../deployment/video-queue/4k-validation.json)。
 

@@ -1,6 +1,6 @@
 {
   "date": "2026-11-20",
-  "status": "timer_active_initial_live_sample_healthy",
+  "status": "completed_monitor_automatically_stopped",
   "observed_at": "2026-11-20T18:02:57.729820+08:00",
   "job_id": "video_gen_505d3a78c78a42d7b933b6519e1007e9",
   "interval_seconds": 600,
@@ -39,5 +39,11 @@
     "deployment/systemd/video-s48-progress.service",
     "deployment/systemd/video-s48-progress.timer"
   ],
-  "operations_doc": "docs/video-progress-monitor.md"
+  "operations_doc": "docs/video-progress-monitor.md",
+  "terminal_check": {
+    "task_status": "completed",
+    "timer_active": false,
+    "final_stage": "生成完成",
+    "alerts": []
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "status": "waiting_for_current_video_completion_and_delivery",
+  "status": "completed_attention_only_production_unchanged",
   "requested_at": "2026-11-20T17:09:06.883076+08:00",
   "requested_by": "user",
   "scope": "Quick measured performance estimate, not complete-video comparison or production migration",
@@ -57,5 +57,10 @@
   ],
   "switch_production_backend": false,
   "resume_subsequent_queue_after_test": true,
-  "other_cancelled_benchmarks_remain_cancelled": true
+  "other_cancelled_benchmarks_remain_cancelled": true,
+  "initial_diagnostic": "Build helper PATH missing ninja; fixed only in benchmark process; no package or model changes",
+  "result": "deployment/minimax-h3/dense-kernel-quick-benchmark-20261120.json",
+  "completed_at": "2026-11-21T00:03:25.631443+08:00",
+  "winner_nominal": "cudnn",
+  "practical_gain_over_current": false
 }

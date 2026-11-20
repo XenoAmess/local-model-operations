@@ -1,0 +1,290 @@
+{
+  "status": "measured_attention_only",
+  "started_at": 1795190430.2372932,
+  "torch": "2.12.0+cu130",
+  "cudnn": 92000,
+  "gpu": "NVIDIA RTX 6000D",
+  "dtype": "bfloat16",
+  "precision": "BF16 Q/K/V and output; no FP8/FP4, no reduced-precision QK reduction",
+  "scope": "Synthetic attention-only quick estimate at production query/KV shapes; NOT model or video quality validation",
+  "warmup_calls_per_backend": 1,
+  "measured_repeats": 3,
+  "seed": 20261120,
+  "isolation": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/llmlab.slice/llmlab-h3-dense-quick-r2-20261120.service",
+    "aggregate_memory_max_bytes": 94489280512,
+    "workload_memory_max_bytes": "17179869184",
+    "workload_swap_max_bytes": "1073741824",
+    "oom_group": 1,
+    "host_available_bytes": 114109980672
+  },
+  "fallback_allowed": false,
+  "cases": [
+    {
+      "name": "single_window_4k",
+      "q_tokens": 16384,
+      "kv_tokens": 345843,
+      "heads": 56,
+      "head_dim": 128,
+      "query_layout": "BTHD contiguous, transposed view for SDPA",
+      "kv_layout": "BHND contiguous",
+      "q_stride": [
+        117440512,
+        7168,
+        128,
+        1
+      ],
+      "k_stride": [
+        2479002624,
+        44267904,
+        128,
+        1
+      ],
+      "runs": {
+        "current_flash": [
+          {
+            "repeat": 0,
+            "cuda_ms": 1130.084716796875,
+            "wall_ms": 1130.1264259964228
+          },
+          {
+            "repeat": 1,
+            "cuda_ms": 1131.2215576171875,
+            "wall_ms": 1131.2440820038319
+          },
+          {
+            "repeat": 2,
+            "cuda_ms": 1130.988525390625,
+            "wall_ms": 1131.0077090747654
+          }
+        ],
+        "cudnn": [
+          {
+            "repeat": 0,
+            "cuda_ms": 1126.91259765625,
+            "wall_ms": 1126.954163890332
+          },
+          {
+            "repeat": 1,
+            "cuda_ms": 1126.5306396484375,
+            "wall_ms": 1126.5522630419582
+          },
+          {
+            "repeat": 2,
+            "cuda_ms": 1126.256103515625,
+            "wall_ms": 1126.2751838658005
+          }
+        ],
+        "flashinfer_fa2": [
+          {
+            "repeat": 0,
+            "cuda_ms": 1171.9320068359375,
+            "wall_ms": 1171.9683860428631
+          },
+          {
+            "repeat": 1,
+            "cuda_ms": 1171.8660888671875,
+            "wall_ms": 1171.887031989172
+          },
+          {
+            "repeat": 2,
+            "cuda_ms": 1172.036376953125,
+            "wall_ms": 1172.0556190703064
+          }
+        ]
+      },
+      "comparison": {
+        "cudnn": {
+          "bitwise_equal_to_current": false,
+          "sampled_max_abs": 6.103515625e-05,
+          "sampled_relative_l2": 0.003169418778270483,
+          "sampled_cosine": 0.9999949932098389
+        },
+        "flashinfer_fa2": {
+          "bitwise_equal_to_current": false,
+          "sampled_max_abs": 6.103515625e-05,
+          "sampled_relative_l2": 0.0033927338663488626,
+          "sampled_cosine": 0.9999946355819702
+        }
+      },
+      "errors": {},
+      "median_cuda_ms": {
+        "current_flash": 1130.988525390625,
+        "cudnn": 1126.5306396484375,
+        "flashinfer_fa2": 1171.9320068359375
+      },
+      "speedup_vs_current": {
+        "current_flash": 1.0,
+        "cudnn": 1.0039571810879273,
+        "flashinfer_fa2": 0.9650632620267326
+      },
+      "last_key_last_head_sentinel": {
+        "current_flash": {
+          "bitwise_equal_expected": true,
+          "max_abs": 0.0
+        },
+        "cudnn": {
+          "bitwise_equal_expected": true,
+          "max_abs": 0.0
+        },
+        "flashinfer_fa2": {
+          "bitwise_equal_expected": true,
+          "max_abs": 0.0
+        }
+      },
+      "peak_allocated_gib": 10.438129425048828,
+      "peak_reserved_gib": 10.462890625,
+      "valid_numerical_candidates": [
+        "current_flash",
+        "cudnn",
+        "flashinfer_fa2"
+      ],
+      "fastest_valid_backend_nominal": "cudnn"
+    },
+    {
+      "name": "full_14s_4k",
+      "q_tokens": 16384,
+      "kv_tokens": 949232,
+      "heads": 56,
+      "head_dim": 128,
+      "query_layout": "BTHD contiguous, transposed view for SDPA",
+      "kv_layout": "BHND contiguous",
+      "q_stride": [
+        117440512,
+        7168,
+        128,
+        1
+      ],
+      "k_stride": [
+        6804094976,
+        121501696,
+        128,
+        1
+      ],
+      "runs": {
+        "current_flash": [
+          {
+            "repeat": 0,
+            "cuda_ms": 3101.565673828125,
+            "wall_ms": 3101.6044409479946
+          },
+          {
+            "repeat": 1,
+            "cuda_ms": 3105.748779296875,
+            "wall_ms": 3105.777963064611
+          },
+          {
+            "repeat": 2,
+            "cuda_ms": 3105.38330078125,
+            "wall_ms": 3105.408178875223
+          }
+        ],
+        "cudnn": [
+          {
+            "repeat": 0,
+            "cuda_ms": 3091.0693359375,
+            "wall_ms": 3091.0970631521195
+          },
+          {
+            "repeat": 1,
+            "cuda_ms": 3091.3701171875,
+            "wall_ms": 3091.399152064696
+          },
+          {
+            "repeat": 2,
+            "cuda_ms": 3091.383056640625,
+            "wall_ms": 3091.411189874634
+          }
+        ],
+        "flashinfer_fa2": [
+          {
+            "repeat": 0,
+            "cuda_ms": 3215.760986328125,
+            "wall_ms": 3215.7893059775233
+          },
+          {
+            "repeat": 1,
+            "cuda_ms": 3215.350341796875,
+            "wall_ms": 3215.3783389367163
+          },
+          {
+            "repeat": 2,
+            "cuda_ms": 3215.555908203125,
+            "wall_ms": 3215.581852942705
+          }
+        ]
+      },
+      "comparison": {
+        "cudnn": {
+          "bitwise_equal_to_current": false,
+          "sampled_max_abs": 6.103515625e-05,
+          "sampled_relative_l2": 0.003363187424838543,
+          "sampled_cosine": 0.9999943971633911
+        },
+        "flashinfer_fa2": {
+          "bitwise_equal_to_current": false,
+          "sampled_max_abs": 0.01141357421875,
+          "sampled_relative_l2": 0.848408043384552,
+          "sampled_cosine": 0.6423686742782593
+        }
+      },
+      "errors": {},
+      "median_cuda_ms": {
+        "current_flash": 3105.38330078125,
+        "cudnn": 3091.3701171875,
+        "flashinfer_fa2": 3215.555908203125
+      },
+      "speedup_vs_current": {
+        "current_flash": 1.0,
+        "cudnn": 1.0045330009227427,
+        "flashinfer_fa2": 0.965737617206152
+      },
+      "last_key_last_head_sentinel": {
+        "current_flash": {
+          "bitwise_equal_expected": true,
+          "max_abs": 0.0
+        },
+        "cudnn": {
+          "bitwise_equal_expected": true,
+          "max_abs": 0.0
+        },
+        "flashinfer_fa2": {
+          "bitwise_equal_expected": false,
+          "max_abs": 0.9910659790039062
+        }
+      },
+      "peak_allocated_gib": 26.55078125,
+      "peak_reserved_gib": 26.572265625,
+      "valid_numerical_candidates": [
+        "current_flash",
+        "cudnn"
+      ],
+      "fastest_valid_backend_nominal": "cudnn"
+    }
+  ],
+  "errors": {},
+  "flashinfer": {
+    "version": "0.7.2.post1",
+    "backend": "fa2",
+    "prepare_seconds_excluded_from_steady_timing": 0.012427076930180192
+  },
+  "completed_at": 1795190495.0996628,
+  "production_backend_changed": false,
+  "conclusion": {
+    "nominal_fastest": "cudnn",
+    "cudnn_latency_reduction_percent": [
+      0.3941583528133341,
+      0.45125455496023426
+    ],
+    "flashinfer_latency_increase_percent": [
+      3.62015003036138,
+      3.5477941610028596
+    ],
+    "cudnn_gain_practically_negligible": true,
+    "flashinfer_949232_kv_hnd_rejected_by_numerical_and_sentinel_checks": true,
+    "root_cause_not_proven": "Possible large-offset indexing limit; no root-cause diagnosis claimed",
+    "whole_video_quality_test_performed": false,
+    "production_backend_changed": false,
+    "recommendation": "Retain current FLASH_ATTENTION; no demonstrated worthwhile gain; do not adopt tested FlashInfer long HND route"
+  }
+}

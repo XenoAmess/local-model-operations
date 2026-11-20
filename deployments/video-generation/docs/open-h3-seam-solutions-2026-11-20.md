@@ -1,6 +1,6 @@
 # Open-H3 长视频接缝：现成实现与整段重生成路线
 
-后续实施：用户已授权队列 API 与完整时间轴 IC 候选部署，S48 14 秒真实渲染进行中。4K 严格以原单窗口 124 帧划分，等于上限保留旧路线，大于上限才用整段；最新状态见[管理与使用说明](video-queue-management.md)和[验收记录](../deployment/video-queue/full-sequence-validation.json)。以下为此前研究及候选取舍记录。
+后续实施：用户已授权队列 API 与完整时间轴 IC 候选部署，S48 已完成完整 14 秒原生 4K 的 LAN／完整解码与抽帧验收，见[成片与短测结果](h3-full-sequence-validation-and-dense-benchmark-2026-11-21.md)。4K 严格以原单窗口 124 帧划分，等于上限保留旧路线，大于上限才用整段；最新状态见[管理与使用说明](video-queue-management.md)和[验收记录](../deployment/video-queue/full-sequence-validation.json)。以下为此前研究及候选取舍记录。
 
 2026-11-20。用户目标是改善接缝，尽量一次重生成完整视频，可以接受性能损失。本文优先研究 14 秒源片的整段 IC 重生成，再比较无法整段执行时的替代办法。只进行了网络搜索、八个社区仓库及 ComfyUI 核心源码核查、标准库帧数／内存计算；未安装候选、下载新模型权重、运行 GPU 推理或调整线上服务。
 

@@ -1,8 +1,8 @@
 {
-  "source_commit": "f3fc2323d91769f236fd63e7a99d0084fd0f99d9",
+  "source_commit": "788712fb8081ad88e0b8d3fc5d2d5786dc4f5484",
   "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
   "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
-  "scope": "Video deployment/research, API 3 controls, full-sequence IC above 124 frames, deferred dense-kernel quick comparison and ten-minute anomaly monitoring; S48 real-video qualification remains in progress",
+  "scope": "Video deployment/research, API 3 controls, full-context S48 14-second 4K delivered and sampled; dense BF16 backend quick comparison complete, production unchanged, queue resumed; client visual review pending",
   "omitted": [
     "runtime Git metadata",
     "models",
@@ -26,8 +26,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 6757,
-      "sha256": "ea6462f60ba89a8a4f1c36cce12e05cd12be56ef76b3061c5b9ecd7f8257d88b"
+      "bytes": 7287,
+      "sha256": "3b08fc77f75e1058d96c2af5269f84a4a7052a9af6aa30fda3a0527ce565a9ed"
     },
     {
       "path": "deployment-omni.json",
@@ -235,6 +235,11 @@
       "sha256": "580d8b5a8e1e2c4b77a5776a3c19b6146422bbf60d4809e60b8f8494914f872c"
     },
     {
+      "path": "deployment/minimax-h3/dense-kernel-quick-benchmark-20261120.json",
+      "bytes": 8117,
+      "sha256": "4305c8041a86043ddc95eb1382db21f421af5153da46f915023cbc3b424a54cd"
+    },
+    {
       "path": "deployment/minimax-h3/download-completion.json",
       "bytes": 574,
       "sha256": "21f44caa7232daa6abb674f62221543bc5531d3b1126cc21aa3a4de26803457d"
@@ -431,13 +436,13 @@
     },
     {
       "path": "deployment/video-queue/dense-kernel-quick-benchmark-plan.json",
-      "bytes": 1928,
-      "sha256": "00f36bc9e640eb65e06ca4a7f20753d54a2051408e5dd0357d4a48d1c7468a06"
+      "bytes": 2248,
+      "sha256": "58c64cc0b1292d6040c2547f4c451faf2b3a5962e781b14bdcdb6628d426b910"
     },
     {
       "path": "deployment/video-queue/full-sequence-validation.json",
-      "bytes": 2634,
-      "sha256": "f1dd82347cfc7bd5681095ad3484dca8716ab51b9394b8a6a352ec38c8c9b5f0"
+      "bytes": 3833,
+      "sha256": "0ff2a0dbc27a9fb1c8518994658e73949fab73dc83ee4a87ceac3bd2112359fd"
     },
     {
       "path": "deployment/video-queue/performance/gpu-2k.json",
@@ -461,8 +466,8 @@
     },
     {
       "path": "deployment/video-queue/progress-monitor-verification-20261120.json",
-      "bytes": 1564,
-      "sha256": "83926a68be5e5acf13a9b2bfcc56fffe31437c2749905f069afcb99ceb1ea248"
+      "bytes": 1701,
+      "sha256": "46dddfb0e7715632e255a0e8cb8994db4f25014f91d02ef381315983d3d7c225"
     },
     {
       "path": "deployment/video-queue/queue-management-verification-20261120.json",
@@ -516,8 +521,13 @@
     },
     {
       "path": "docs/h3-full-sequence-4k-speed-research-2026-11-20.md",
-      "bytes": 16627,
-      "sha256": "3944e43d31915af02b066633a85ceccd0467774de46462c46505f2a2397672fe"
+      "bytes": 16632,
+      "sha256": "dc964d12f5a0e12682256244edd0bc0b5d0469a01ab40823fa2eedcfe302b6fe"
+    },
+    {
+      "path": "docs/h3-full-sequence-validation-and-dense-benchmark-2026-11-21.md",
+      "bytes": 5972,
+      "sha256": "ca6ead507e5acd442e648c415907f8c7cf88ad4aeec9eb3c5cc20731ae05ced7"
     },
     {
       "path": "docs/h3-pdd-attention-implementation-2026-11-17.md",
@@ -526,8 +536,8 @@
     },
     {
       "path": "docs/h3-single-pass-14s-4k-feasibility-2026-11-20.md",
-      "bytes": 11218,
-      "sha256": "89b42efbdc168fc5e6849fdeee3bca6df43526ab8b1c2b40269fc3dd96a35e77"
+      "bytes": 11439,
+      "sha256": "022079679c6044231e5c665bcbe0fe37a88ddd8f190152c005f0dd0380f40afd"
     },
     {
       "path": "docs/minimax-h3-local-2k.md",
@@ -546,8 +556,8 @@
     },
     {
       "path": "docs/open-h3-4k-http.md",
-      "bytes": 5297,
-      "sha256": "174f73ea8d6e002fb1fc9be8438f02f8e41333dd6ea5aa18dffc87a5375562a9"
+      "bytes": 5412,
+      "sha256": "5aa691f85f1c45464f3115b290a8aa8e3856744fc830f2ca523e927e50924fd9"
     },
     {
       "path": "docs/open-h3-exact-performance.md",
@@ -556,8 +566,8 @@
     },
     {
       "path": "docs/open-h3-seam-solutions-2026-11-20.md",
-      "bytes": 18838,
-      "sha256": "0dcbc09f5ac85b69f0d63f35d536145135750105251ec17346aec11c1fba0777"
+      "bytes": 18972,
+      "sha256": "7d105eb0ae24c7cd709f51a2cb241cab2851c6e9b898c3cee5ad834947335c9a"
     },
     {
       "path": "docs/video-framework-benchmark-2026-11-17.md",
@@ -566,8 +576,8 @@
     },
     {
       "path": "docs/video-framework-research-index-2026-11-17.md",
-      "bytes": 6996,
-      "sha256": "7058c023945d94c1447db5064026abaeb875f930c7769667b8f617ccdda3e29f"
+      "bytes": 7220,
+      "sha256": "311cd0c52f9188b75492559063d69b5fd3b8ea5f0619564dbef8f612c28dbdff"
     },
     {
       "path": "docs/video-http-api.md",
@@ -586,13 +596,13 @@
     },
     {
       "path": "docs/video-progress-monitor.md",
-      "bytes": 3896,
-      "sha256": "b906893bf90c502c8daddf36552b9442bb953eb2abcca1681c2873d21004c526"
+      "bytes": 4024,
+      "sha256": "77a7fe792b6b0f3ba8c5d4086a41eabf3f1b6faa2f6a2ba30ac210330ae6acfb"
     },
     {
       "path": "docs/video-queue-management.md",
-      "bytes": 9712,
-      "sha256": "85eae716bcbdaf3c69ec0e3be62f2a11ddf0866805e3ac8d4332589d9f2fac98"
+      "bytes": 9858,
+      "sha256": "8dec94cba8d3e37d051cbeca6341dbf3846d5edae81e1df343fcbc4af4b41e7e"
     },
     {
       "path": "fasth3-omni-bf16.yaml",
@@ -788,6 +798,11 @@
       "path": "tools/benchmark_h3_4k_concurrency.py",
       "bytes": 5659,
       "sha256": "0d351cba43bbd35dab88d9e92cf0aa72e24f1916d333d0f9048fe44c90e2ecac"
+    },
+    {
+      "path": "tools/benchmark_h3_dense_backends.py",
+      "bytes": 9723,
+      "sha256": "a9ea02ed5e64b83f7371f33cde95026136c02119080f71df4453f33b1726c408"
     },
     {
       "path": "tools/benchmark_h3_ic_exact.py",

@@ -4,7 +4,7 @@
 
 2026-11-20，API 3.0。BF16 Omni 为 `192.168.1.11:8001`／`fasth3-omni-bf16`，重生成为 2K／4K 为 `192.168.1.11:8002`／`open-h3-2k`。两个端口共享同一持久队列；下列 `/v1/queue/*` 管理操作可以从任一端口管理两个模型。接口无 API Key，与原 LAN 服务一致。
 
-独立状态入口是 **`http://192.168.1.11:8004/v1/service/status`**。它由单独的 CPU 服务提供，主 API 更新／重启期间仍可访问，不加载 GPU 模型。首次部署与 GPU 准入已经执行，S48 的完整 14 秒 4K 验收仍在进行，见[验收记录](../deployments/video-generation/deployment/video-queue/full-sequence-validation.json)。
+独立状态入口是 **`http://192.168.1.11:8004/v1/service/status`**。它由单独的 CPU 服务提供，主 API 更新／重启期间仍可访问，不加载 GPU 模型。S48 已完成完整 14 秒 4K，局域网下载、SHA、帧数和全片解码通过，抽帧未见明显场景跳变；对端审核待反馈，见[成片与短测结果](h3-full-sequence-validation-and-dense-benchmark-2026-11-21.md)和[验收记录](../deployments/video-generation/deployment/video-queue/full-sequence-validation.json)。
 
 ## 接口一览
 
@@ -121,4 +121,4 @@ curl --noproxy '*' --fail-with-body -sS -X POST \
 
 **不以“超过 5 秒”作判断。** 5 秒／120 帧与原上限不同；124 帧仍走旧路线。这个分流适用于 `size: "3840x2160"`，现有 2K 输出路线保持原配置。输入范围继续是约 4.7～15.1 秒。14 秒／336 帧处理时只在末尾补到 345 帧／102 个 latent 帧，结束后裁回 336 帧，原音轨按完整源片保留。
 
-调用字段、模型名和端口不变，无需额外开启整段参数。超过上限的 4K 失败时保持失败，**禁止静默回落到独立窗口拼接**。整段仍保留 up3 三步或请求指定的采样器，性能可能明显降低；完整 GPU 成片验收与接口／容量测试分别记录。[4K 接口与当前验收](../deployments/video-generation/docs/open-h3-4k-http.md)、[整段路线源码与研究](open-h3-seam-solutions-2026-11-20.md)
+调用字段、模型名和端口不变，无需额外开启整段参数。超过上限的 4K 失败时保持失败，**禁止静默回落到独立窗口拼接**。整段仍保留 up3 三步或请求指定的采样器，性能可能明显降低；完整 GPU 成片验收与接口／容量测试分别记录。[4K 接口与当前验收](open-h3-4k-http.md)、[整段路线源码与研究](open-h3-seam-solutions-2026-11-20.md)

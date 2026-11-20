@@ -1,6 +1,6 @@
 # 14 秒整段原生 4K 重生成：可行性分析
 
-后续部署进展：用户已授权实施，API 3.0 和整段候选已接入，S48 14 秒真实渲染进行中。最新路由与验收范围见[管理与整段说明](video-queue-management.md)及[实际记录](../deployment/video-queue/full-sequence-validation.json)。以下保留原始预研的时间范围和判断。
+后续部署进展：用户已授权实施，API 3.0 和整段候选已接入，S48 已完成完整 14 秒原生 4K 的生成、LAN 校验、完整解码与抽帧检查，对端审核待反馈。最新路由与验收范围见[管理与整段说明](video-queue-management.md)及[实际记录](../deployment/video-queue/full-sequence-validation.json)。最新[成片与性能实测](h3-full-sequence-validation-and-dense-benchmark-2026-11-21.md)已发布；以下保留原始预研的时间范围和判断，不代表当前部署仍未实现。
 
 2026-11-20。研究对象为当前 `open-h3-2k` 服务使用的 Open-H3-Regenerate-2K-IC，目标是同一条 14 秒视频在完整时间轴上联合去噪，输出 3840×2160；不是四段独立生成后拼接。本轮只读源码、公开资料及已有测评，进行了标准库整数／内存预算计算，没有运行模型、安装候选、下载权重、修改服务或重启任务。
 

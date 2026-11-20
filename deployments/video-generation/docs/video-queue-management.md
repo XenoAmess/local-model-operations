@@ -4,7 +4,7 @@
 
 2026-11-20，API 3.0。BF16 Omni 为 `192.168.1.11:8001`／`fasth3-omni-bf16`，重生成为 2K／4K 为 `192.168.1.11:8002`／`open-h3-2k`。两个端口共享同一持久队列；下列 `/v1/queue/*` 管理操作可以从任一端口管理两个模型。接口无 API Key，与原 LAN 服务一致。
 
-独立状态入口是 **`http://192.168.1.11:8004/v1/service/status`**。它由单独的 CPU 服务提供，主 API 更新／重启期间仍可访问，不加载 GPU 模型。首次部署与 GPU 准入已经执行，S48 的完整 14 秒 4K 验收仍在进行，见[验收记录](../deployment/video-queue/full-sequence-validation.json)。
+独立状态入口是 **`http://192.168.1.11:8004/v1/service/status`**。它由单独的 CPU 服务提供，主 API 更新／重启期间仍可访问，不加载 GPU 模型。S48 已完成完整 14 秒 4K，局域网下载、SHA、帧数和全片解码通过，抽帧未见明显场景跳变；对端审核待反馈，见[成片与短测结果](h3-full-sequence-validation-and-dense-benchmark-2026-11-21.md)和[验收记录](../deployment/video-queue/full-sequence-validation.json)。
 
 ## 接口一览
 

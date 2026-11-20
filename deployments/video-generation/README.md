@@ -12,9 +12,10 @@
 | 独立升级／可用性状态 | `http://192.168.1.11:8004/v1/service/status` | CPU 状态服务 |
 
 - [OOM 自动恢复与管理接口](docs/video-http-api.md#oom-自动恢复与管理恢复接口)：首次 OOM 清理、冷却和检查资源后自动继续；连续两次 OOM 需 `POST /v1/queue/resume`，失败任务不重试。
-- [API 3.0 队列与维护管理](docs/video-queue-management.md)：插队、优先级、取消、分页、独立状态；4K 小于等于原 124 帧上限用旧路线，严格大于用完整时间轴。S48 实际 14 秒验收进行中。
+- [API 3.0 队列与维护管理](docs/video-queue-management.md)：插队、优先级、取消、分页、独立状态；4K 小于等于原 124 帧上限用旧路线，严格大于用完整时间轴。S48 完整 14 秒已完成 LAN／解码和抽帧验收，对端审核待反馈。
+- [S48 成片与密集内核短测](docs/h3-full-sequence-validation-and-dense-benchmark-2026-11-21.md)：14 秒原生 4K 完整交付；cuDNN 基本打平，FlashInfer 超长路径校验失败，保留现用后端并恢复队列。
 - [当前视频每十分钟巡检](docs/video-progress-monitor.md)：正常采样静默、异常通知同一用户会话；不暂停在途视频，完成后停止巡检，无开机自启。
-- [Open-H3 接缝与整段方案](docs/open-h3-seam-solutions-2026-11-20.md)：保留原始只读研究；后续整段候选已接入，S48 渲染验收中。
+- [Open-H3 接缝与整段方案](docs/open-h3-seam-solutions-2026-11-20.md)：保留原始只读研究；后续整段 IC 已完成 S48 的完整 14 秒成片验收。
 - [14 秒整段原生 4K 可行性分析](docs/h3-single-pass-14s-4k-feasibility-2026-11-20.md)：原始形状与资源预算；实现、容量准入与完整成片验收分别记录。
 - [整段 4K 的耗时与加速调查](docs/h3-full-sequence-4k-speed-research-2026-11-20.md)：近百万 token 的密集注意力瓶颈，BF16 密集内核与整段稀疏候选；未切换后端或打断当前 S48。
 - [跨机器 HTTP 调用](docs/video-http-api.md)：上传、异步提交、依赖、轮询、取消、下载。
