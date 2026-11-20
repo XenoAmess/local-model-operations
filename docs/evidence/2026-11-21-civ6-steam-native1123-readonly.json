@@ -1,0 +1,62 @@
+{
+  "utc": "2026-11-20T17:00:00.930319+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/71e1abbc0e563ece2e4c994186b3ca4bb36e8f6b/docs/research/baiqi-steam-native1123-readonly-adoption-2026-11-21.json",
+  "reference_commit": "8c23632b35626ef1554cbbdc9096d81f2cefe215",
+  "actual_Steam_version": "11.23.65.88",
+  "actual_image_sha256": "2dfb0a5d50dd90667549cc7d413c7bfb0794c9af4ebaf08bf1cf7d938a11ea93",
+  "static_anchors_all_exact": true,
+  "actual_reference_checks_passed": 35,
+  "actual_complete_adaptor_checks": 10,
+  "original_static_rejection": true,
+  "original_reference_suite_exit1": "29 methods passed; profile test import of unadopted CK3 game gate failed.6 pure provider/profile methods selected explicitly; no game gate or authority copied.",
+  "model_R34": {
+    "utc": "2026-11-20T16:55:00.890393+00:00",
+    "configured_model": "qwen38-coder",
+    "configuration_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "maintenance": {
+      "date": "2026-11-21",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": true
+    },
+    "results": [
+      {
+        "name": "models",
+        "utc": "2026-11-20T16:55:00.859491+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 547,
+        "over_64KiB": false,
+        "sha256": "21aa24b9dea19a6e904f012460eb42ecf72708a4fd42d599e6ccf548d1a2b124",
+        "total_ms": 8.21110000833869,
+        "model_ids": [
+          "open-h3-2k"
+        ]
+      },
+      {
+        "name": "health",
+        "utc": "2026-11-20T16:55:00.868178+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 1232,
+        "over_64KiB": false,
+        "sha256": "95567d331e3a9321fed8365a7e3d14ae18732811ea3c916f5a2de09d80677462",
+        "total_ms": 21.577099803835154
+      }
+    ],
+    "generation_POSTs": 0,
+    "new_logical_candidate_tasks": 0,
+    "Native_queries": 0,
+    "configuration_changes": 0,
+    "service_mutations": 0,
+    "automatic_fallback": false,
+    "formal_overlap": false
+  },
+  "generation_POSTs": 0,
+  "model_candidates": 0,
+  "OpenCode_native_generation": 0,
+  "unknown_costs": null,
+  "actual_live_mode": "unavailable",
+  "actual_game_launches": 0,
+  "lesson": "A currently supported immutable provider may exist in a reference remote while a frozen local checkout still supports an older image. Join actual installed version/hash/PE anchors before adopting just generic read-only code. Existing source qualification and software fixtures are not current mode proof, and a partial suite/import failure is retained separately."
+}

@@ -2461,3 +2461,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-21：[TC038运行时审查](evidence/2026-11-21-civ6-tc038-runtime-architecture-review.json)当日维护已过，原生生成0；源码审阅和实际游戏行为分别记账，未知成本null。
 
 2026-11-21：[军事历史证据审阅](evidence/2026-11-21-civ6-military-legacy-source-impact.json)同日维护已通过，原生生成0；测试、源码及Native界限分开，成本未知null。
+
+2026-11-21：[R34只读适配](evidence/2026-11-21-civ6-steam-native1123-readonly.json)canonical当日1.19.6成功缓存通过，原生生成0。旧版本静态拒绝及未接入CK3测试导入失败保留，未把维护／软件通过当Native成功。
