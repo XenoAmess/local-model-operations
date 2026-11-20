@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-20",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/a72a22372ccff76e8544844da9b6d76441633820/docs/research/baiqi-source172-pressure-paired-packages-2026-11-20.json",
+  "source_version": 172,
+  "actual_model_check": {
+    "utc": "2026-11-20T05:54:54.669377+00:00",
+    "configured_model": "qwen38-coder",
+    "configuration_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "maintenance": {
+      "date": "2026-11-20",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": true
+    },
+    "results": [
+      {
+        "name": "models",
+        "utc": "2026-11-20T05:54:54.637494+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 321,
+        "over_64KiB": false,
+        "sha256": "8e40fc6ab58ad464560a3ac62197225d60f8cb626cb941b3f401696fb58a7c41",
+        "total_ms": 8.230499923229218,
+        "model_ids": [
+          "open-h3-2k"
+        ]
+      },
+      {
+        "name": "health",
+        "utc": "2026-11-20T05:54:54.646290+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 482,
+        "over_64KiB": false,
+        "sha256": "1ecec8d9f1cafc61856c561a8728d9a319b7b0d3d95d2286edde4066f8c53233",
+        "total_ms": 22.511899936944246
+      }
+    ],
+    "generation_POSTs": 0,
+    "new_logical_candidate_tasks": 0,
+    "Native_queries": 0,
+    "configuration_changes": 0,
+    "service_mutations": 0,
+    "automatic_fallback": false,
+    "formal_overlap": false
+  },
+  "model_ledger_unchanged": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "packages": {
+    "many": {
+      "enabled": {
+        "source_version": 172,
+        "mode": "baiqi172-pressure-paired-enabled-v1",
+        "variant": "enabled",
+        "archive_sha256": "90e42267305d53de76740428f31b308c0d59ef5f7ebb3d82f0dc26d43ce18610",
+        "files": 119,
+        "changed_files": [
+          "UI/BaiqiExecutor.lua"
+        ],
+        "initial_turn": 6,
+        "paired_end_turns": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "paired_activation_turns": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "clock_prefix_sha256": "43f542919cbf0b7ad4125f7940ca7b676b535b6a9b3f3bbd97d1ac8e5f589bb3",
+        "rendered_end_bridge_sha256": "14aaf3d79a7ca4694a1f9f4fb62e9a73ef47d9260b48f4756a414f276562f4f8"
+      },
+      "control": {
+        "source_version": 172,
+        "mode": "baiqi172-pressure-paired-control-v1",
+        "variant": "control",
+        "archive_sha256": "46b1a9a0405b66af10fc8ce079f9572f39fa84931b4fa0fa7532ee15af3cf7d7",
+        "files": 119,
+        "changed_files": [
+          "Lua/BaiqiController.lua",
+          "Lua/BaiqiGPIntentGameplay.lua",
+          "Lua/BaiqiSettlerGoalsGameplay.lua",
+          "Lua/BaiqiCreativeIntentGameplay.lua",
+          "Lua/BaiqiProphetIntentGameplay.lua",
+          "Lua/BaiqiReligiousIntentGameplay.lua",
+          "Lua/BaiqiNaturalistIntentGameplay.lua",
+          "Lua/BaiqiMissionaryPurchaseIntentGameplay.lua",
+          "Lua/BaiqiNaturalistPurchaseIntentGameplay.lua",
+          "Lua/BaiqiArchaeologyIntentGameplay.lua",
+          "UI/BaiqiExecutor.lua",
+          "Lua/BaiqiAdmin.lua"
+        ],
+        "initial_turn": 6,
+        "paired_end_turns": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "paired_activation_turns": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "clock_prefix_sha256": "43f542919cbf0b7ad4125f7940ca7b676b535b6a9b3f3bbd97d1ac8e5f589bb3",
+        "rendered_end_bridge_sha256": "14aaf3d79a7ca4694a1f9f4fb62e9a73ef47d9260b48f4756a414f276562f4f8"
+      }
+    },
+    "nosite": {
+      "enabled": {
+        "source_version": 172,
+        "mode": "baiqi172-pressure-paired-enabled-v1",
+        "variant": "enabled",
+        "archive_sha256": "ad53df9847ad4c0371661fcef980d270c3fe957a368061aa84bab71a79927070",
+        "files": 119,
+        "changed_files": [
+          "UI/BaiqiExecutor.lua"
+        ],
+        "initial_turn": 1,
+        "paired_end_turns": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "paired_activation_turns": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "clock_prefix_sha256": "2b16950e89efb043989ba718e7033c97ebab53a2fcdd2dc7984c4561966ac894",
+        "rendered_end_bridge_sha256": "14aaf3d79a7ca4694a1f9f4fb62e9a73ef47d9260b48f4756a414f276562f4f8"
+      },
+      "control": {
+        "source_version": 172,
+        "mode": "baiqi172-pressure-paired-control-v1",
+        "variant": "control",
+        "archive_sha256": "1ce1ca9ff566a28dc877687e9b28fe9bcd67e6a6fc217aa98862bd4d2d28a324",
+        "files": 119,
+        "changed_files": [
+          "Lua/BaiqiController.lua",
+          "Lua/BaiqiGPIntentGameplay.lua",
+          "Lua/BaiqiSettlerGoalsGameplay.lua",
+          "Lua/BaiqiCreativeIntentGameplay.lua",
+          "Lua/BaiqiProphetIntentGameplay.lua",
+          "Lua/BaiqiReligiousIntentGameplay.lua",
+          "Lua/BaiqiNaturalistIntentGameplay.lua",
+          "Lua/BaiqiMissionaryPurchaseIntentGameplay.lua",
+          "Lua/BaiqiNaturalistPurchaseIntentGameplay.lua",
+          "Lua/BaiqiArchaeologyIntentGameplay.lua",
+          "UI/BaiqiExecutor.lua",
+          "Lua/BaiqiAdmin.lua"
+        ],
+        "initial_turn": 1,
+        "paired_end_turns": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "paired_activation_turns": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "clock_prefix_sha256": "2b16950e89efb043989ba718e7033c97ebab53a2fcdd2dc7984c4561966ac894",
+        "rendered_end_bridge_sha256": "14aaf3d79a7ca4694a1f9f4fb62e9a73ef47d9260b48f4756a414f276562f4f8"
+      }
+    }
+  },
+  "actual_build_parent_session": 51636,
+  "actual_build_exit_code": 0,
+  "generation_POSTs": 0,
+  "Native_queries": 0,
+  "unknown_costs": null,
+  "scope": "Four real pressure-pair packages,97Lua dual compilation and actual119 source/QA/ZIP checks each; no Native B_delta grant."
+}

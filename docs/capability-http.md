@@ -7646,3 +7646,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20T05:10Z：[R26与未执行NO_SITE续跑准备](evidence/2026-11-20-civ6-nosite172-continuation-r26.json)，配置coder仍缺失，0新POST。真实模块身份检查、实际MANY闭环和错误原程序负对照补齐，原脚本不改、不重采有效侧。
 
 2026-11-20：[NO_SITE实际数据与回执格式修复](evidence/2026-11-20-civ6-nosite172-native-cleanup-schema-failure.json)，游戏侧0、续跑父进程1分开记录；21项格式检查及真实两侧回执，未知缺字段不默认0，保留有效结果、不重采。0新生成POST，继续压力配对和整体验收。
+
+2026-11-20T05:54Z：[R27与当前压力配对包](evidence/2026-11-20-civ6-pressure172-paired-packages-r27.json)，配置coder仍缺失、0新POST，Owner接管真实四包构建校验。Native配对与全功能继续。
