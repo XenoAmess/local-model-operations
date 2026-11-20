@@ -7636,3 +7636,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20：[Civ6当前172自然压力资格实测](evidence/2026-11-20-civ6-source172-current-natural-pressure-native.json)：实际父11162两冷侧关闭0；两自然调用各入池12及NO_SITE1144格完整证书，独立于模型／软件和性能。0新生成POST，原始请求／普通回合实际激活／保存退场保留，继续压力性能及剩余功能。
 
 2026-11-20T03:23Z：[Civ6 R24与压力运行入口](evidence/2026-11-20-civ6-current172-pressure-stageA-preparation-r24.json)，models/health GET200，配置coder仍缺失，0新POST，Owner完成真实入口和必要软件验证。Native压力预算、TC038和整体验收仍待执行。
+
+2026-11-20：[当前172两类压力 B_plan 实机](evidence/2026-11-20-civ6-current172-pressure-stageA-native.json)，实际父进程58614完成0；原始响应重解析及预算复算，MANY/NO_SITE均PASS，0新模型POST。继续全脚本、请求数、压力配对与整体验收，HTTP和游戏效果分别记录。

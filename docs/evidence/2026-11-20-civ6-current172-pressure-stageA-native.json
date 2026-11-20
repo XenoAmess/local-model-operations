@@ -1,0 +1,179 @@
+{
+  "date": "2026-11-20",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/6c1cf4c6480265270d4d5dcf581722a2060f2cad/docs/research/baiqi-source172-pressure-stageA-native-2026-11-20.json",
+  "source_version": 172,
+  "B_plan": {
+    "many": "PASS",
+    "nosite": "PASS"
+  },
+  "summaries": {
+    "many": {
+      "utc": "2026-11-20T04:00:57.636590+00:00",
+      "facts_sha256": "d3230c1b8bdadb1436fe2d4769e1dae3966f597ad0c5aae10ed98c4616d7a942",
+      "cities": 10,
+      "source": "baiqi172-pressure-stageA-v1",
+      "initial_turn": 6,
+      "sample_quality_ok": true,
+      "samples": 302,
+      "classification_counts": {
+        "Admin.Run": {
+          "pure_ten": 138,
+          "10_to_11": 0,
+          "eleven_city": 0,
+          "turn_crossing": 0,
+          "other_city_state": 0,
+          "outside_window": 0,
+          "before_native_anchor": 0
+        },
+        "Controller.RunNow": {
+          "pure_ten": 158,
+          "10_to_11": 0,
+          "eleven_city": 0,
+          "turn_crossing": 0,
+          "other_city_state": 0,
+          "outside_window": 0,
+          "before_native_anchor": 6
+        }
+      },
+      "eligible_calls_by_turn": {
+        "Admin.Run": {
+          "7": 28,
+          "8": 28,
+          "9": 27,
+          "10": 27,
+          "11": 28
+        },
+        "Controller.RunNow": {
+          "7": 32,
+          "8": 32,
+          "9": 30,
+          "10": 31,
+          "11": 33
+        }
+      },
+      "targets": {
+        "Admin.Run": {
+          "pure_ten_count": 138,
+          "p50_ms": 0.0,
+          "p95_ms": 1.0001659393310547,
+          "max_ms": 5.000114440917969,
+          "above_20ms_count": 0,
+          "above_50ms_count": 0,
+          "budget_ok": true
+        },
+        "Controller.RunNow": {
+          "pure_ten_count": 158,
+          "p50_ms": 0.0,
+          "p95_ms": 1.0001659393310547,
+          "max_ms": 33.99991989135742,
+          "above_20ms_count": 1,
+          "above_50ms_count": 0,
+          "budget_ok": true
+        }
+      },
+      "overall_budget_ok": true,
+      "pre_anchor": {
+        "pending": 0,
+        "recorded": 6,
+        "validated": 6,
+        "errors": 0
+      },
+      "limits": "Independent planning-function inclusive wall-clock latency only; no B_turn, N_req, B_delta or whole TC-036 pass."
+    },
+    "nosite": {
+      "utc": "2026-11-20T04:19:43.532132+00:00",
+      "facts_sha256": "18273a8a17bd769d54895f2558bbba6ff44ecb89d4121fb410cc1a0d357614e5",
+      "cities": 10,
+      "source": "baiqi172-pressure-stageA-v1",
+      "initial_turn": 1,
+      "sample_quality_ok": true,
+      "samples": 297,
+      "classification_counts": {
+        "Admin.Run": {
+          "pure_ten": 139,
+          "10_to_11": 0,
+          "eleven_city": 0,
+          "turn_crossing": 0,
+          "other_city_state": 0,
+          "outside_window": 0,
+          "before_native_anchor": 0
+        },
+        "Controller.RunNow": {
+          "pure_ten": 156,
+          "10_to_11": 0,
+          "eleven_city": 0,
+          "turn_crossing": 0,
+          "other_city_state": 0,
+          "outside_window": 0,
+          "before_native_anchor": 2
+        }
+      },
+      "eligible_calls_by_turn": {
+        "Admin.Run": {
+          "2": 28,
+          "3": 27,
+          "4": 28,
+          "5": 28,
+          "6": 28
+        },
+        "Controller.RunNow": {
+          "2": 31,
+          "3": 31,
+          "4": 31,
+          "5": 32,
+          "6": 31
+        }
+      },
+      "targets": {
+        "Admin.Run": {
+          "pure_ten_count": 139,
+          "p50_ms": 0.0,
+          "p95_ms": 1.0001659393310547,
+          "max_ms": 7.999897003173828,
+          "above_20ms_count": 0,
+          "above_50ms_count": 0,
+          "budget_ok": true
+        },
+        "Controller.RunNow": {
+          "pure_ten_count": 156,
+          "p50_ms": 0.9999275207519531,
+          "p95_ms": 3.000020980834961,
+          "max_ms": 6.999969482421875,
+          "above_20ms_count": 0,
+          "above_50ms_count": 0,
+          "budget_ok": true
+        }
+      },
+      "overall_budget_ok": true,
+      "pre_anchor": {
+        "pending": 0,
+        "recorded": 2,
+        "validated": 2,
+        "errors": 0
+      },
+      "limits": "Independent planning-function inclusive wall-clock latency only; no B_turn, N_req, B_delta or whole TC-036 pass."
+    }
+  },
+  "actual_parent_terminal": {
+    "utc": "2026-11-20T04:26:17.585162+00:00",
+    "unified_exec_session": 58614,
+    "actual_parent_script": "pressure172_stageA_all_episodes_owner.py run",
+    "exit_code": 0,
+    "actual_tool_completion": true,
+    "Native_budget_verdict": "PENDING_RAW_OWNER_REVIEW"
+  },
+  "actual_export_reparse_and_recompute": true,
+  "model_ledger_unchanged": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "generation_POSTs": 0,
+  "unknown_costs": null,
+  "scope": "Current two-scene pure planning budgets only. No whole TC036, whole mod, TC021 route, TC038 service-fault or old865 recovery grant."
+}
