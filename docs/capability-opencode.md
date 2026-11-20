@@ -2465,3 +2465,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-21：[R34只读适配](evidence/2026-11-21-civ6-steam-native1123-readonly.json)canonical当日1.19.6成功缓存通过，原生生成0。旧版本静态拒绝及未接入CK3测试导入失败保留，未把维护／软件通过当Native成功。
 
 2026-11-21：[同目录安装检查点](evidence/2026-11-21-civ6-steam-official-reinstall-checkpoint.json)无新增维护或原生生成；此前当日维护通过仍不替代实际客户端／游戏观察，未知成本null。
+
+2026-11-21：[旧迁移证据复核](evidence/2026-11-21-civ6-legacy-migration-source-impact.json)当日维护通过，原生生成0；实际软件／源码／游戏范围分开，未知成本null。
