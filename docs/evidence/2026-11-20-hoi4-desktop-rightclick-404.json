@@ -1,0 +1,92 @@
+{
+  "schema": "local-model-operations.hoi4-http-owner-tool-followup/v1",
+  "case_id": "HOI4-DESKTOP-RIGHTCLICK-404-20261120",
+  "mode_id": "http-candidate",
+  "recorded_at_utc": "2026-11-20T15:39:15.858696+00:00",
+  "machine_id": "bf-202609141645-5434332d4d",
+  "owner": "hoi4-primary",
+  "source_repository": "https://github.com/XenoAmess/xenoamess_hoi4_dev",
+  "source_commit": "0e8287d20397ac1dc5e26bfa5df9f617d320ebb5",
+  "model_input_source_commit": "3ec334230f18b1cde91dc9992991021dc050ed79",
+  "published_source_record": "https://github.com/XenoAmess/xenoamess_hoi4_dev/blob/0e8287d20397ac1dc5e26bfa5df9f617d320ebb5/mod_nailong/data/update-plans/20261120-steam-recovery-gate.json",
+  "published_source_record_sha256": "38e1aade85b5fb39995c71b7368004b6c6bf5c9b68209facac816f44916e8902",
+  "task": "Review an unfinished Python desktop-tool right-click extension required to reach the actual visible Windows Steam jump-list Exit task during a loading-screen recovery. Owner supplied full current common.py and desktop.py plus a precise pure screenshot/OCR/real-input contract.",
+  "source_bindings": [
+    {
+      "path": "tools/common.py",
+      "sha256": "07f3e6bee427910d7f398b35dc9ab3e6e41cce0736213cf5e2656b8f9739a0fa"
+    },
+    {
+      "path": "tools/desktop.py",
+      "sha256": "abd8eb528f626aefe65b1867094c5e0624ac4144c7f221abae25b046327f9b56"
+    }
+  ],
+  "complete_input_verification": "Owner mechanically matched both full source byte SHAs to fixed pre-change Git commit and found their complete UTF-8 text in the actual REQUEST source message; no model identifier trusted.",
+  "fixed_messages": [
+    "system",
+    "user",
+    "user"
+  ],
+  "max_tokens": 1800,
+  "daily_opencode_check": "Canonical checker returned cached daily success for 2026-11-20; installed/registry/target1.19.6, original local check2026-11-20T03:36:17.047933+08:00.",
+  "endpoint": "http://192.168.1.11:8080/v1",
+  "model": "qwen38-coder",
+  "canonical_entrypoints": [
+    "config/executor.json",
+    "scripts/call.py"
+  ],
+  "caller_config_revision_at_dispatch": "Not separately frozen; actual request, preparation and events preserved privately. No retroactive dispatch-byte claim.",
+  "request_sha256": "db82a981a13ac107d303cc34f38d16eb534a2d1a6080ebccfd9ea8e837c23bf5",
+  "events_sha256": "de6db5410fab1433dceeb5e6aab46ab131c43c54b4ff6178eba84432ba345f8f",
+  "http": {
+    "attempts": 1,
+    "post_begin_utc": "2026-11-20T15:29:12.967573+00:00",
+    "attempt_end_utc": "2026-11-20T15:29:12.979797+00:00",
+    "status": 404,
+    "total_ms": 12.312799924984574,
+    "finish_reason": null,
+    "sse_done": false,
+    "candidate_complete": false,
+    "content_ttft_ms": null,
+    "usage": null,
+    "cached_tokens": null,
+    "proxy": "DIRECT, redirects refused",
+    "transport_retries": 0,
+    "endpoint_fallbacks": 0,
+    "business_actions_replayed": 0
+  },
+  "adoption": {
+    "candidate_returned": false,
+    "model_code_adopted": false,
+    "owner_implementation": true,
+    "classification": "HTTP application error before any candidate; not a model semantic or input-contract failure"
+  },
+  "owner_software": {
+    "path": "tools/desktop.py",
+    "sha256": "229e02d57e0ada4fb9a1977fb32baea8174b72fb42461185a223fb15bc4eba03",
+    "change": "Optional left/right button, legacy Namespace/CLI default left, button recorded only on real clicks; invalid/right-move/right-scroll rejected before focus/input. Existing coordinate/age/focus gates retained.",
+    "validation": "py_compile; isolated fake-backend validation of legacy-left, explicit-right, X/Y mapping and three invalid requests; actual real right-click receipt plus later manually viewed native jump list.",
+    "validation_scope": "One small helper, not whole desktop/game behavior"
+  },
+  "actual_business_outcome": {
+    "guarded_real_right_click": true,
+    "later_native_jump_list_owner_viewed": true,
+    "one_official_exit_task_clicked": true,
+    "independent_process_zero_observed_at_utc": "2026-11-20T15:33:42.805756+00:00",
+    "terminate_count": 0,
+    "kill_count": 0,
+    "steam_offline_proven": false,
+    "steam_mode": "unknown",
+    "hoi4_game_launches": 0,
+    "live_portrait_acceptance": "pending"
+  },
+  "limits": [
+    "HTTP404 does not identify model capability, server health or root cause.",
+    "Normal client exit is not an offline-mode proof.",
+    "The first screenshot after right-click showed only a thumbnail; later original screenshots established the actual menu.",
+    "A failed Escape command emitted one existing Alt focus fallback before failing; requested Escape was not sent.",
+    "No raw screenshots, game assets, credentials, original request or private logs included.",
+    "Single actual task; no concurrency, throughput, cache, net time-saving or broad UI acceptance inference."
+  ],
+  "next_real_boundary": "Current-client GUI recovery and fresh offline evidence remain necessary before actual HOI4 portrait QA; they must be performed by the current desktop owner, never by model transport retries."
+}
