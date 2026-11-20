@@ -7676,3 +7676,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-21：[旧军事样本影响审阅](evidence/2026-11-21-civ6-military-legacy-source-impact.json)先备实际完整源码／真实历史消费者，复用R33配置coder缺失，0额外探针／POST／候选。Owner178双Lua范围检查及字节审阅通过，保留首次Lua代理身份误断言；0新Native，不授全TC019。
 
 2026-11-21：[真实Steam11.23读取适配任务R34](evidence/2026-11-21-civ6-steam-native1123-readonly.json)完整当前代码／消费者先备，models/health200仍缺配置coder，0POST／候选／替代；Owner35参考范围＋10完整适配检查通过，真实modeunknown／0游戏。
+
+2026-11-21：[Civ6官方客户端恢复检查点](evidence/2026-11-21-civ6-steam-official-reinstall-checkpoint.json)是OwnerGUI环境动作，0模型POST／候选；wait0及游戏指纹保持不计生成能力，也不授offline或游戏通过。
