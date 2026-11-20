@@ -7662,3 +7662,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20：[Civ6 Alpha3发布实证](evidence/2026-11-20-civ6-alpha3-published-verified-offline-pending.json)：普通172／119文件实际消费下载全匹配，单次旧条目更新及匿名页面图文通过；Steam正常重启后仍加载，模式unavailable保持未知，继续恢复和TC033软件准备。R30配置coder缺失，0新生成POST，未知成本null。
 
 2026-11-20：[Civ6新引擎1.0.12.74与TC033准备](evidence/2026-11-20-civ6-engine74-tc033-preparation.json)：旧程序pin在Popen前实际阻止未审环境；新目标独立记录，11启动/请求/主父门禁和2目标摘要门禁通过，实机仍0。R31真实兼容性任务前检查models/health200，仅open-h3-2k，配置qwen38-coder仍缺；0新候选/POST，不替换模型，成本null。
+
+2026-11-20：[Civ6后台发令完整边界审查](evidence/2026-11-20-civ6-source172-military-writer-review.json)核10个当前单位writer，真实私有162三文件增量可逆至Git原件；复用旧8角色/自然长矛兵的限定证据，未授新引擎/TC019整项通过。R31配置coder缺失由负责人接管，无新候选/POST，成本null。
