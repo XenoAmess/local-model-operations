@@ -7660,3 +7660,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-20：[Civ6 Alpha3发布准备](evidence/2026-11-20-civ6-alpha3-workshop-local-preparation.json)采用当前普通172／119文件与真实12性能预算；R30配置coder仍未提供，0生成任务／POST，负责人准备。用户授权上传并报告其他设备当前无游戏；准备阶段仍0Steam动作，未知成本null。
 
 2026-11-20：[Civ6 Alpha3发布实证](evidence/2026-11-20-civ6-alpha3-published-verified-offline-pending.json)：普通172／119文件实际消费下载全匹配，单次旧条目更新及匿名页面图文通过；Steam正常重启后仍加载，模式unavailable保持未知，继续恢复和TC033软件准备。R30配置coder缺失，0新生成POST，未知成本null。
+
+2026-11-20：[Civ6新引擎1.0.12.74与TC033准备](evidence/2026-11-20-civ6-engine74-tc033-preparation.json)：旧程序pin在Popen前实际阻止未审环境；新目标独立记录，11启动/请求/主父门禁和2目标摘要门禁通过，实机仍0。R31真实兼容性任务前检查models/health200，仅open-h3-2k，配置qwen38-coder仍缺；0新候选/POST，不替换模型，成本null。

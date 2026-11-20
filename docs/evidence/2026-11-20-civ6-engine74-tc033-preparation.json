@@ -1,0 +1,76 @@
+{
+  "utc": "2026-11-20T15:24:42.469540+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/cab4610f9d9da6de578ee7d012188abf6b8ad5ef/docs/research/baiqi-source172-engine74-tc033-preparation-2026-11-20.json",
+  "source_version": 172,
+  "new_engine_target": "1.0.12.74/26595377",
+  "prior_performance_engine": "1.0.12.72",
+  "prior12_performance_results_retained": true,
+  "new_engine_Native_launches": 0,
+  "TC033_actual_phases": 0,
+  "software_request_factory_cases": 40,
+  "software_event_factory_cases": 28,
+  "rendered_Core_no_UI_cases": 4,
+  "payloads_dual_compiled": 15,
+  "driver_changed_boundaries": 11,
+  "target_pin_admission_cases": 2,
+  "original_combined_test_actual_exit": 1,
+  "local_model_R31": {
+    "utc": "2026-11-20T15:18:50.798597+00:00",
+    "configured_model": "qwen38-coder",
+    "configuration_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "maintenance": {
+      "date": "2026-11-20",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": true
+    },
+    "results": [
+      {
+        "name": "models",
+        "utc": "2026-11-20T15:18:50.757650+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 547,
+        "over_64KiB": false,
+        "sha256": "21aa24b9dea19a6e904f012460eb42ecf72708a4fd42d599e6ccf548d1a2b124",
+        "total_ms": 25.10959981009364,
+        "model_ids": [
+          "open-h3-2k"
+        ]
+      },
+      {
+        "name": "health",
+        "utc": "2026-11-20T15:18:50.783428+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 1246,
+        "over_64KiB": false,
+        "sha256": "1402869cefa1c7e604623025bb73fc6d388a56cab4a2f09525bcc5d62ef2af26",
+        "total_ms": 14.318199828267097
+      }
+    ],
+    "generation_POSTs": 0,
+    "new_logical_candidate_tasks": 0,
+    "Native_queries": 0,
+    "configuration_changes": 0,
+    "service_mutations": 0,
+    "automatic_fallback": false,
+    "formal_overlap": false
+  },
+  "new_generation_POSTs": 0,
+  "OpenCode_native_generation": 0,
+  "model_ledger": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "unknown_costs": null,
+  "Steam_restore": "No live offline proof; last CivVI observation client normally closed, peer holds desktop for own GUI recovery.",
+  "whole_mod": "OPEN_CONTINUE",
+  "lesson": "A successful Workshop update can coincide with Steam updating the base game. A strict program pin must stop before Popen on changed executable, even if size/CPU match. Bind a separate observed compatibility-test target, retain old environment results and actual test failure, and retest changed launch guards. Never transfer old timings or model-unavailability checks into Native compatibility credit."
+}
