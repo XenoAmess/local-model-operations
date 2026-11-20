@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-20T16:50:04.035287+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/2dcb82c097043dc5497ef91f8524df10e8f48c0b/docs/research/baiqi-source172-military-legacy46-67-70-impact-review-2026-11-21.json",
+  "historical_versions": [
+    46,
+    67,
+    70
+  ],
+  "current_version": 172,
+  "exact_whole_UI_file_pairs": 6,
+  "exact_complete_function_body_pairs": 15,
+  "actual_software_cases": 178,
+  "original_owner_fixture_error": {
+    "tool_chunk": "4e94d9",
+    "actual_exit": 1,
+    "cause": "Python equality of distinct Lupa wrappers was used for Lua table identity. Replaced with actual Lua a==b on the same Native captured table; no product or native stub changed."
+  },
+  "new_generation_POSTs": 0,
+  "model_candidates": 0,
+  "OpenCode_native_generation": 0,
+  "unknown_costs": null,
+  "new_Native_queries": 0,
+  "whole_TC019": "OPEN",
+  "lesson": "Retain named old Native effects and distinguish unchanged owned UI consumer bytes from a changed Controller or native engine. Compare complete relevant function bodies, since declaration-to-next-function spans can absorb appended unrelated code. Lupa wrapper equality is not Lua table identity. A source review and synthetic forwarding test do not fill scout/escort/special ability or new-engine gameplay gaps."
+}

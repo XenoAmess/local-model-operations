@@ -7672,3 +7672,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-21：[TC033 R3实际调用器修订](evidence/2026-11-21-civ6-tc033-r3-preparation.json)属于同一R33真实门禁任务；缺配置coder后Owner处理，0额外models探针／POST。19实际驱动边界通过、10函数AST保持，0实机。
 
 2026-11-21：[Civ6 TC038实际运行时架构](evidence/2026-11-21-civ6-tc038-runtime-architecture-review.json)全当前文本先备真实任务，沿用R33缺配置coder，0额外探针／POST／候选。Owner核119包／97Lua闭包；原requests误分类保留。只授源码架构范围，不授财政／服务故障实机。
+
+2026-11-21：[旧军事样本影响审阅](evidence/2026-11-21-civ6-military-legacy-source-impact.json)先备实际完整源码／真实历史消费者，复用R33配置coder缺失，0额外探针／POST／候选。Owner178双Lua范围检查及字节审阅通过，保留首次Lua代理身份误断言；0新Native，不授全TC019。
