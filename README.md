@@ -29,6 +29,7 @@ python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstat
 | 本机 BF16 Omni 与本地 2K／4K HTTP 部署 | [视频服务部署](deployments/video-generation/README.md) |
 | 视频队列 OOM 自动恢复与管理恢复接口 | [调用、返回码与恢复状态](deployments/video-generation/docs/video-http-api.md#oom-自动恢复与管理恢复接口) |
 | 视频框架全部研究与正式选型 | [研究、实测与采用状态总入口](docs/video-framework-research-index-2026-11-17.md) |
+| Open-H3 接缝与整段重生成方案 | [现成 IC 实现、逐步融合与全长优先的可行路线](docs/open-h3-seam-solutions-2026-11-20.md) |
 | 14 秒整段原生 4K 的可行性研究 | [实现限制、资源预算、速度与验证门槛](docs/h3-single-pass-14s-4k-feasibility-2026-11-20.md) |
 | FastVideo／SGLang 全面对比 | [性能、质量、显存、服务与维护成本](docs/fastvideo-vs-sglang-2026-11-17.md) |
 | H3 PDD 头融合与注意力实现 | [源码解释、数值差异与纠错](docs/h3-pdd-attention-implementation-2026-11-17.md) |

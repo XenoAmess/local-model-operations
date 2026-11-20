@@ -1,0 +1,207 @@
+{
+  "date": "2026-11-20",
+  "status": "source_audit_only_not_inference_qualified",
+  "user_priority": [
+    "reduce_seams",
+    "prefer_single_full_length_IC_trajectory_and_full_attention_context",
+    "performance_loss_acceptable"
+  ],
+  "production_changed": false,
+  "candidate_dependencies_installed": false,
+  "new_model_weights_downloaded": false,
+  "gpu_inference_started": false,
+  "sources": [
+    {
+      "project": "sandpies",
+      "url": "https://huggingface.co/sandpies/ComfyUI-H3-Video-Upsampler",
+      "revision": "667ef0efd825ac0645b81e85c1786d8f852254aa",
+      "files": [
+        {
+          "path": "tiled_upsampler.py",
+          "bytes": 154557,
+          "sha256": "67999892b31e98bc21b66ff4edbfdb0009328033145566fe504cafc3f596f179"
+        },
+        {
+          "path": "video_upsampler.py",
+          "bytes": 70350,
+          "sha256": "bbcc7f1631e9db398ac88ea2b0fc71c3f3371b1294839f90e6756d76d1f2a7ae"
+        },
+        {
+          "path": "upsample_ic.py",
+          "bytes": 24843,
+          "sha256": "06865175d7c86f53053602ae0b5145efeccb22db7528c967bb3ced32e08b6021"
+        },
+        {
+          "path": "sparse_attn.py",
+          "bytes": 52629,
+          "sha256": "ef50b280572d2ee4f64efe646a10f0759cef62f03280aa2d75cee949748ce582"
+        },
+        {
+          "path": "README.md",
+          "bytes": 7035,
+          "sha256": "e734c96de8401e5a3f14c89a383f8d22ae38a84d2f8697b2a978739d56a7e30b"
+        }
+      ]
+    },
+    {
+      "project": "slmonker",
+      "url": "https://github.com/slmonker/ComfyUI-OpenH3Regenerate2KIC",
+      "revision": "a85bd9664a752637c5ec88bf4b1930b4688fc251",
+      "files": [
+        {
+          "path": "nodes.py",
+          "bytes": 11725,
+          "sha256": "85b193d44d94571385665cf184122602d1dd503f852c421bde1b0e0e4d9382cd"
+        },
+        {
+          "path": "README.md",
+          "bytes": 9308,
+          "sha256": "5beed519a15bd158265b00a9a16ea845e726bfd3434ecc2c111fa93dcd034632"
+        }
+      ]
+    },
+    {
+      "project": "ehsrzv",
+      "url": "https://github.com/ehsrzv/comfyui-h3_temporal_sampler",
+      "revision": "7d39f8eba7230e72548ad38ffc0392977c4945eb",
+      "files": [
+        {
+          "path": "h3_temporal_sampler.py",
+          "bytes": 33347,
+          "sha256": "b7a43ef1abe17636558e8836be0a2cfd6059e9ec9c04c808ab9ce4d80ad6649c"
+        },
+        {
+          "path": "README.md",
+          "bytes": 6821,
+          "sha256": "30b65ab4f3a7818313eee8345183f5afe525fbea115b1ebd1281f4635aaa4997"
+        }
+      ]
+    },
+    {
+      "project": "Olm",
+      "url": "https://github.com/o-l-l-i/ComfyUI-Olm-Open-H3-Regenerate-2K",
+      "revision": "29e5ca9680648797011c4ddc06d38b7f04f1f78d",
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 17749,
+          "sha256": "cc752bebfb49eb6b8696b24b2eb98f6d30578c39bb85c352cf4fa72e6d949620"
+        }
+      ]
+    },
+    {
+      "project": "ThomasUK888",
+      "url": "https://github.com/ThomasUK888/ComfyUI-OpenH3-Regenerate-IC",
+      "revision": "3efcc7c769b5ae3d82e7a8034d1d16f87022a9d2",
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 10169,
+          "sha256": "9da60eb7eabe9a54e1ce1b1c29884b000a68c66d943c7944953bb685770cd4e1"
+        },
+        {
+          "path": "openh3_ic/conditioning.py",
+          "bytes": 4560,
+          "sha256": "04fb3b197d5d28b0c829d2ae0f541775a31c8668c01b88bdd120687b0118cd74"
+        }
+      ]
+    },
+    {
+      "project": "MMH3Tools",
+      "url": "https://github.com/ckinpdx/ComfyUI-MMH3Tools",
+      "revision": "5bf2f5bdef5040aeb71cbc334b10da478c9cef83",
+      "files": [
+        {
+          "path": "docs/regenerate-2k.md",
+          "bytes": 31826,
+          "sha256": "263a2f9a9ef0b9a6f1a552f4ad22c30b94f81dfe896d1890d17e7fa7586c5b31"
+        }
+      ]
+    },
+    {
+      "project": "DaSiWa",
+      "url": "https://github.com/darksidewalker/ComfyUI-DaSiWa-Nodes",
+      "revision": "dd85a39f1ed0ffded50c0ac3fe38566126c31bab",
+      "files": [
+        {
+          "path": "docs/minimax_h3_tiled_upscale.md",
+          "bytes": 34431,
+          "sha256": "66c2cde1a5262e9f4881ee9480bf98943bda23b9de98c73562b4bbc4ab5c201b"
+        }
+      ]
+    },
+    {
+      "project": "RDH",
+      "url": "https://github.com/rdh9616/ComfyUI-Open-H3-Regenerate",
+      "revision": "46ff77854417ed6d6f99d10ee4430faa7e9e72bf",
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 13266,
+          "sha256": "087b5a9505cc24e7c866803be04e55f50f4227db73c8d46ab920b63e56a7f83f"
+        }
+      ]
+    },
+    {
+      "project": "ComfyUI core",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "revision": "4ee8e523ba01b0335a5cd20ce9c1e2b684f69521",
+      "files": [
+        {
+          "path": "comfy/context_windows.py",
+          "bytes": 54562,
+          "sha256": "ec0ad71473cd50d29ce03368b8fedcd153704274716c42f72e959f85b801318e"
+        },
+        {
+          "path": "comfy_extras/nodes_context_windows.py",
+          "bytes": 14096,
+          "sha256": "0b006a91cff5b09fff9843b3f34dc862329a9fb53887bc7daf314c2099b0a5fb"
+        },
+        {
+          "path": "comfy/model_base.py",
+          "bytes": 156821,
+          "sha256": "68bc418e1342cafd530f811046d97e0d4d6a5887f7e3cc441b87a51137505f45"
+        }
+      ]
+    }
+  ],
+  "sandpies_github_mirror": {
+    "repository": "https://github.com/sandpies/ComfyUI-H3-Video-Upsampler",
+    "revision": "44db226f25f55955b3d3362a10c4de530711cd1b",
+    "byte_identical_to_hf_files": [
+      "tiled_upsampler.py",
+      "upsample_ic.py",
+      "sparse_attn.py"
+    ]
+  },
+  "local_vae_geometry_source": {
+    "file": "diffusers/models/autoencoders/autoencoder_kl_minimax_h3.py",
+    "sha256": "58e0ed47fdee8227d738eec5bb1e7a47acc21c65ee3de01aa3795c97d679d015",
+    "audited_functions": [
+      "_encode",
+      "_decode"
+    ]
+  },
+  "geometry_correction": {
+    "source_frames": 336,
+    "source_fps": 24,
+    "raw_encoded_latent_frames": 97,
+    "raw_decoded_frames": 328,
+    "padded_processing_frames": 345,
+    "padded_latent_frames": 102,
+    "output_trim_frames": 336,
+    "target_video_tokens_4k": 832320,
+    "reference_video_tokens": 102816,
+    "visual_tokens_total": 935136,
+    "bf16_hidden_GiB": 12.48541259765625,
+    "bf16_qkv_GiB": 37.45623779296875,
+    "processing_fp32_rgb_GiB": 32.2174072265625
+  },
+  "key_code_findings": {
+    "sandpies_stepped": "sigma loop encloses window/tile calls, then normalizes full-film accumulation",
+    "sandpies_ic_windowed": "explicitly falls back to stepped when ic is not None",
+    "sandpies_dense_head_slicing": "full QKV already passed to function; not full projection memory elimination",
+    "ehsrzv": "segment loop encloses guider.sample with complete sigmas; MultiDiffusion docstring is not reflected in loop nesting",
+    "slmonker": "frame_count max 362; longer internal silence zero-padded; no local qualification implied"
+  }
+}
