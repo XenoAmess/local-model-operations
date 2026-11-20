@@ -2453,3 +2453,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-20：[同批新引擎门禁](evidence/2026-11-20-civ6-engine74-tc033-preparation.json)复用当日1.19.6维护缓存；原生生成0。负责人软件修正不记成本地模型代码生成，旧引擎性能不转授新引擎。
 
 2026-11-20：[TC020同批候选](evidence/2026-11-20-civ6-tc020-army-escort-guard-candidate.json)维护沿用当日1.19.6成功缓存，原生生成0；Owner单测不计作OpenCode生成能力，未知成本null。
+
+2026-11-21：[Civ6 R33](evidence/2026-11-21-civ6-steam-live-surface-readonly.json)本地新自然日首次使用前，canonical ensure_current实际非缓存检查1.19.6=目标1.19.6通过；本批OpenCode原生生成0，不以维护成功授代码生成能力。
