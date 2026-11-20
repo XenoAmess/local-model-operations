@@ -11,6 +11,7 @@
 | 网页 | `http://192.168.1.11:7860` | BF16 Omni |
 
 - [OOM 自动恢复与管理接口](docs/video-http-api.md#oom-自动恢复与管理恢复接口)：首次 OOM 清理、冷却和检查资源后自动继续；连续两次 OOM 需 `POST /v1/queue/resume`，失败任务不重试。
+- [14 秒整段原生 4K 可行性分析](docs/h3-single-pass-14s-4k-feasibility-2026-11-20.md)：只读预研、形状和资源预算；尚未实现或验收整段模式，未修改线上服务。
 - [跨机器 HTTP 调用](docs/video-http-api.md)：上传、异步提交、依赖、轮询、取消、下载。
 - [启动、停止与队列运维](docs/video-http-queue.md)：同卡共享、自动模型分组、等待上限和故障恢复。
 - [原生 4K](docs/open-h3-4k-http.md)：`3840x2160`，保留原版 36 层 FP32 VAE。
