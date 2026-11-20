@@ -1,0 +1,70 @@
+{
+  "utc": "2026-11-20T15:04:10.203315+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/a5588a7c485e39d6450de76587e001126e4b37eb/docs/workshop/v0.1.0-alpha.3/publication-evidence.json",
+  "release": "v0.1.0-alpha.3",
+  "source_version": 172,
+  "ordinary_download_files": 119,
+  "all_actual_download_hashes_match": true,
+  "single_existing_item_content_update": true,
+  "public_body_12_historical_images_new_cover_and_changelog_verified": true,
+  "Steam_offline_restore": "PENDING_UNAVAILABLE_NEW_CLIENT_LOADING",
+  "Steam_terminate_kill_config_writes": 0,
+  "configured_model_R30": {
+    "utc": "2026-11-20T14:35:17.559154+00:00",
+    "configured_model": "qwen38-coder",
+    "configuration_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "maintenance": {
+      "date": "2026-11-20",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": true
+    },
+    "results": [
+      {
+        "name": "models",
+        "utc": "2026-11-20T14:35:17.544994+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 547,
+        "over_64KiB": false,
+        "sha256": "21aa24b9dea19a6e904f012460eb42ecf72708a4fd42d599e6ccf548d1a2b124",
+        "total_ms": 8.787699975073338,
+        "model_ids": [
+          "open-h3-2k"
+        ]
+      },
+      {
+        "name": "health",
+        "utc": "2026-11-20T14:35:17.554597+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 1246,
+        "over_64KiB": false,
+        "sha256": "4f9ecc566c59c6d19ffd386894005541caf2b4bea22dac6335094c086ebb9a12",
+        "total_ms": 3.49349994212389
+      }
+    ],
+    "generation_POSTs": 0,
+    "new_logical_candidate_tasks": 0,
+    "Native_queries": 0,
+    "configuration_changes": 0,
+    "service_mutations": 0,
+    "automatic_fallback": false,
+    "formal_overlap": false
+  },
+  "generation_POSTs": 0,
+  "OpenCode_native_generation": 0,
+  "ledger": {
+    "logical_tasks": 1023,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 139,
+    "generation_POSTs": 1062,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "unknown_costs": null,
+  "whole_mod": "OPEN_CONTINUE",
+  "lesson": "Distinguish actual upload/readback/consumer bytes from client mode recovery. Preserve failed GUI ACKs and unavailable state; publish completed proof honestly and continue formal recovery and independent validation. Do not start acceptance on an unknown mode or retry a successful content mutation."
+}

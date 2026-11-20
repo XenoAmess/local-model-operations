@@ -2447,3 +2447,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-20：[同批配对收尾](evidence/2026-11-20-civ6-source172-pressure-pairs-final.json)沿用当前自然日1.19.6成功缓存、原生生成0；实际父进程结束后才恢复模型检查。性能12/12与整mod功能通过分别记录，持续验收未完成条款。
 
 2026-11-20：[同批Alpha3材料](evidence/2026-11-20-civ6-alpha3-workshop-local-preparation.json)沿用当前自然日1.19.6成功缓存，原生生成0；内置imagegen封面编辑单独记录，不计作本地coder成功。尚未上传不标发布成功。
+
+2026-11-20：[Alpha3实际发布与离线恢复待证](evidence/2026-11-20-civ6-alpha3-published-verified-offline-pending.json)沿用当日1.19.6成功缓存，原生生成0；SDK/HTTP读回及内置imagegen不计作OpenCode代码生成。未因发布阶段完成而停止全模组验收。
