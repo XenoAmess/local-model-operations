@@ -1,7 +1,7 @@
 [Unit]
 Description=FastH3 Omni BF16 queued LAN HTTP API
 After=network-online.target video-gpu-scheduler.service
-Wants=video-gpu-scheduler.service
+Wants=video-gpu-scheduler.service video-service-status.service
 Conflicts=fasth3-omni.service h3-2k-http.service
 
 [Service]

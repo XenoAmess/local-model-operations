@@ -9,13 +9,15 @@ import time
 from typing import Literal
 import uuid
 
-from fastapi import FastAPI, File, HTTPException, Request, UploadFile
+from fastapi import FastAPI, File, HTTPException, Query, Request, UploadFile
 from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse
 from pydantic import BaseModel, Field
 
-from video_queue import HOLD, MODELS, OMNI, REFINER, ROOT, QueueStore
+from video_queue import HOLD, MODELS, OMNI, REFINER, ROOT, QueueConflict, QueueStore, ServiceUnavailable
 from h3_refiner_profiles import PROFILES, RefinerSize
+from h3_full_sequence import FPS, SINGLE_WINDOW_FRAMES
 from video_queue_recovery import QueueRecovery
+from video_service_state import API_VERSION, service_status
 
 
 class OmniRequest(BaseModel):
@@ -29,6 +31,7 @@ class OmniRequest(BaseModel):
     num_inference_steps: Literal[8] = 8
     guidance_scale: Literal[1.0] = 1.0
     negative_prompt: Literal[""] = ""
+    priority: int = Field(default=0, ge=-1000, le=1000, strict=True)
     image_reference: list[dict] = Field(default_factory=list)
     video_reference: list[dict] = Field(default_factory=list)
     audio_reference: list[dict] = Field(default_factory=list)
@@ -42,11 +45,23 @@ class RefinerRequest(BaseModel):
     size: RefinerSize = "2560x1440"
     seed: int = Field(default=1234, ge=0, lt=2**62)
     sampler: Literal["up3", "up4", "hf8"] = "up3"
+    priority: int = Field(default=0, ge=-1000, le=1000, strict=True)
 
 
 class QueueResumeRequest(BaseModel):
     model_config = {"extra": "forbid"}
     reason: str = Field(default="", max_length=500)
+
+
+class PriorityRequest(QueueResumeRequest):
+    priority: int = Field(ge=-1000, le=1000, strict=True)
+
+
+class MaintenanceRequest(QueueResumeRequest):
+    enabled: bool = Field(strict=True)
+
+
+JobStatus = Literal["queued", "in_progress", "completed", "failed", "cancelled"]
 
 
 def create_app(store=None, model=None):
@@ -61,8 +76,10 @@ def create_app(store=None, model=None):
         store.initialize()
         yield
 
-    app = FastAPI(title=f"Local {model}", version="2.1", lifespan=lifespan,
+    app = FastAPI(title=f"Local {model}", version=API_VERSION, lifespan=lifespan,
                   description="Persistent asynchronous tasks; shared single-GPU scheduler with model affinity.")
+    from video_delivery import DeliveryAudit
+    app.add_middleware(DeliveryAudit, store=store)
 
     @app.middleware("http")
     async def body_limit(request: Request, call_next):
@@ -89,11 +106,43 @@ def create_app(store=None, model=None):
         except ValueError as error:
             raise HTTPException(422, str(error)) from error
 
-    def enqueue(payload, dependency=None):
+    def enqueue(payload, dependency=None, priority=0):
         try:
-            return store.public(store.enqueue(model, payload, dependency))
+            available = service_status(store)
+            if not available["accepting_jobs"]:
+                raise ServiceUnavailable(available.get("reason") or "GPU scheduler is offline")
+            return store.public(store.enqueue(model, payload, dependency, priority))
         except OverflowError as error:
             raise HTTPException(429, str(error)) from error
+        except ServiceUnavailable as error:
+            raise HTTPException(503, str(error), headers={"Retry-After": "30"}) from error
+
+    def any_job(job_id):
+        job = store.get(job_id)
+        if job is None:
+            raise HTTPException(404, "Unknown task")
+        return job
+
+    def priority_change(job_id, priority=None, promote=False, reason=""):
+        try:
+            job = store.set_priority(job_id, priority, promote=promote, reason=reason)
+            result = store.public(job)
+            order = store.snapshot()
+            position = next((j["position"] for j in order["queued"] if j["id"] == job_id), None)
+            return dict(result, queue_position=position, preempts_running=False)
+        except FileNotFoundError as error:
+            raise HTTPException(404, str(error)) from error
+        except QueueConflict as error:
+            raise HTTPException(409, str(error)) from error
+
+    def cancel_job(job_id, reason=""):
+        try:
+            job, stopping = store.cancel(job_id, reason)
+        except FileNotFoundError as error:
+            raise HTTPException(404, str(error)) from error
+        stopping = stopping or (job["status"] == "cancelled" and job_id in store.state().get("running_jobs", []))
+        result = dict(store.public(job), worker_stop_pending=stopping)
+        return JSONResponse(result, status_code=202 if stopping else 200)
 
     @app.get("/health")
     def health():
@@ -103,7 +152,25 @@ def create_app(store=None, model=None):
                 "cloud_used": False, "queue_paused": memory["paused"], "recovery": memory,
                 "scheduling": "shared_model_affinity",
                 "scheduler_online": state.get("phase") != "stopped" and time.time() - state.get("heartbeat", 0) < 15,
-                "active_model": state.get("active_model"), "worker_state": state.get("phase", "not_started")}
+                "active_model": state.get("active_model"), "worker_state": state.get("phase", "not_started"),
+                "service": service_status(store), "api_version": API_VERSION}
+
+    @app.get("/v1/service/status", tags=["Service status"])
+    def availability():
+        return JSONResponse(service_status(store), headers={"Cache-Control": "no-store"})
+
+    @app.get("/ready", tags=["Service status"])
+    def readiness():
+        value = service_status(store)
+        return JSONResponse(value, status_code=200 if value["ready"] else 503,
+                            headers={"Cache-Control": "no-store", **({} if value["ready"] else {"Retry-After": "30"})})
+
+    @app.post("/v1/service/maintenance", tags=["Queue administration"])
+    def maintenance(request: MaintenanceRequest):
+        """Drain at task boundaries. Keep polling, downloads, cancellation and recovery available."""
+        store.maintenance(request.enabled, request.reason)
+        return JSONResponse({"accepted": True, "service": service_status(store), "running_jobs_interrupted": False},
+                            status_code=202 if request.enabled else 200)
 
     @app.get("/v1/models")
     def models():
@@ -115,12 +182,49 @@ def create_app(store=None, model=None):
         else:
             info.update(root=str(ROOT / "models/Open-H3-Regenerate-2K-IC"),
                         sizes=list(PROFILES), draft_generation=False,
-                        native_resolutions=True, four_k_max_windows_per_load=1)
+                        native_resolutions=True, four_k_max_windows_per_load=1,
+                        long_4k_strategy="full_sequence", single_window_frame_limit=SINGLE_WINDOW_FRAMES, timeline_fps=FPS,
+                        long_4k_threshold_seconds=SINGLE_WINDOW_FRAMES / FPS,
+                        long_4k_threshold_rule=f"normalized_frames > {SINGLE_WINDOW_FRAMES}",
+                        long_4k_independent_window_fallback=False)
         return {"object": "list", "data": [info]}
 
     @app.get("/v1/queue")
     def queue():
         return store.snapshot()
+
+    def browse(model_filter=None, statuses=None, limit=20, after=None):
+        try:
+            jobs, more = store.list_jobs(model=model_filter, statuses=statuses, limit=limit, after=after)
+        except ValueError as error:
+            raise HTTPException(422, str(error)) from error
+        positions = {j["id"]: j["position"] for j in store.snapshot()["queued"]}
+        values = [dict(store.public(j), queue_position=positions.get(j["id"])) for j in jobs]
+        return {"object": "list", "data": values, "has_more": more,
+                "next_after": jobs[-1]["id"] if more and jobs else None,
+                "list_order": "created_desc", "queue_order": "priority_then_front_order_then_model_affinity"}
+
+    @app.get("/v1/queue/jobs", tags=["Queue administration"])
+    def browse_queue(model: Literal["fasth3-omni-bf16", "open-h3-2k"] | None = None,
+                     status: list[JobStatus] | None = Query(default=None),
+                     limit: int = Query(default=20, ge=1, le=100), after: str | None = None):
+        return browse(model, status, limit, after)
+
+    @app.get("/v1/queue/jobs/{job_id}", tags=["Queue administration"])
+    def global_status(job_id: str):
+        return store.public(any_job(job_id))
+
+    @app.patch("/v1/queue/jobs/{job_id}/priority", tags=["Queue administration"])
+    def reprioritize(job_id: str, request: PriorityRequest):
+        return priority_change(job_id, request.priority, reason=request.reason)
+
+    @app.post("/v1/queue/jobs/{job_id}/promote", tags=["Queue administration"])
+    def promote(job_id: str, request: QueueResumeRequest | None = None):
+        return priority_change(job_id, promote=True, reason=request.reason if request else "")
+
+    @app.post("/v1/queue/jobs/{job_id}/cancel", tags=["Queue administration"])
+    def cancel_global(job_id: str, request: QueueResumeRequest | None = None):
+        return cancel_job(job_id, request.reason if request else "")
 
     @app.post("/v1/queue/resume", tags=["Queue administration"], responses={202: {"description": "Recovery requested; poll /v1/queue"}})
     def resume_queue(request: QueueResumeRequest | None = None):
@@ -166,15 +270,15 @@ def create_app(store=None, model=None):
                       ("audio", request.audio_reference, 3)]
             if sum(len(items) for _, items, _ in groups) > 12 or any(len(items) > cap for _, items, cap in groups):
                 raise HTTPException(422, "At most 9 images, 3 videos, 3 audio; 12 total")
-            payload = request.model_dump(exclude={"image_reference", "video_reference", "audio_reference"})
+            payload = request.model_dump(exclude={"image_reference", "video_reference", "audio_reference", "priority"})
             payload["mode"] = "omni"
             payload["references"] = [{"kind": kind, "path": resolve(value, kind)}
                                      for kind, items, _ in groups for value in items]
-            return enqueue(payload)
+            return enqueue(payload, priority=request.priority)
     else:
         @app.post("/v1/videos/regenerations", status_code=202)
         def regenerate(request: RefinerRequest):
-            payload = request.model_dump()
+            payload = request.model_dump(exclude={"priority"})
             payload["mode"] = "regenerate"
             source = request.input_video
             dependency = source.get("job_id") if isinstance(source, dict) else None
@@ -189,15 +293,12 @@ def create_app(store=None, model=None):
                 payload["input_video"] = {"job_id": dependency}
             else:
                 payload["input_video"] = resolve(source, "video")
-            return enqueue(payload, dependency)
+            return enqueue(payload, dependency, request.priority)
 
     @app.get("/v1/videos")
-    def list_jobs(limit: int = 20):
-        with store.connection() as db:
-            rows = db.execute("SELECT * FROM jobs WHERE model=? ORDER BY created DESC LIMIT ?",
-                              (model, min(max(limit, 1), 100))).fetchall()
-        jobs = [store.public(store.decode(row)) for row in rows]
-        return {"object": "list", "data": jobs, "has_more": False}
+    def list_jobs(limit: int = Query(default=20, ge=1, le=100), after: str | None = None,
+                  status: list[JobStatus] | None = Query(default=None)):
+        return browse(model, status, limit, after)
 
     @app.get("/v1/videos/{job_id}")
     def status(job_id: str):
@@ -226,11 +327,8 @@ def create_app(store=None, model=None):
 
     @app.delete("/v1/videos/{job_id}")
     def cancel(job_id: str):
-        job = find(job_id)
-        if job["status"] in {"queued", "in_progress"}:
-            store.change(job_id, "cancelled")
-            store.event("cancel_requested", job=job_id, model=model)
-        return store.public(store.get(job_id))
+        find(job_id)
+        return cancel_job(job_id)
 
     return app
 

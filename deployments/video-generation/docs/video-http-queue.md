@@ -1,5 +1,7 @@
 # BF16 Omni 与本地 2K 的 HTTP 服务和共享队列
 
+2026-11-20，API 3.0：[完整队列管理与维护状态](video-queue-management.md)。显式 priority／插队序号先于模型亲和，同组内保留原公平性。维护排空不打断当前任务，独立状态端口 8004 在主 API 升级期间仍可访问。4K 源片按原单窗口上限 124 帧分流，严格大于上限才整段去噪；真实 S48 验收进行中。
+
 2026-11-18：第一次 OOM 清理 worker、冷却 60 秒并检查资源后自动继续后续任务；连续两次 OOM 才进入人工熔断。管理恢复入口为两个端口的 `POST /v1/queue/resume`，完整参数、返回码与轮询见[HTTP 接口文档](video-http-api.md#oom-自动恢复与管理恢复接口)。失败任务保持失败，模型配置和资源上限不变。
 
 2026-11-17：原生 4K 已接入同一模型与队列，使用 `size: "3840x2160"`；4K 初期单任务、单窗口，完整成片状态与示例见 [4K 专项文档](open-h3-4k-http.md)。
@@ -94,14 +96,14 @@ curl --noproxy '*' --fail-with-body http://192.168.1.11:8001/v1/videos \
 ## 自动重排序与加载边界
 
 - 全局状态：`GET /v1/queue`，任意一个端口均可。包含正在执行、重排序后的就绪队列、等待草稿的任务、当前模型和调度器心跳。
-- 同模型内部保持提交顺序；有另一模型等待时，默认连续执行同模型最多 3 个任务。另一模型已等待 30 分钟时，在下一任务或已派发小批次边界优先切换。运行中的推理不会强行中断，因此这不是硬性的 30 分钟完成承诺。
+- 显式优先级／插队组优先；同组内同模型保持提交顺序，有另一模型等待时，默认连续执行同模型最多 3 个任务。另一模型已等待 30 分钟时，在下一任务或已派发小批次边界优先切换。运行中的推理不会强行中断，因此这不是硬性的 30 分钟完成承诺。
 - 队列各模型最多 32 个未完成任务，满时返回 429。任务、上传记录和调度事件落盘在 `outputs/video-queue/queue.sqlite3`；API 重启不重派正在推理的任务。
 - BF16 连续任务复用同一个推理后端进程。其 BF16 编码器、DiT 和原版 36 层 VAE 无法同时放进本机显存，内部按阶段加载与释放仍然必要；不能把同模型分组等同于全部权重永久常驻。
 - 2K 将相同 `seed`、尺寸、采样器的相邻任务组成最多 2 个任务的小批次，再以每次最多 2 个窗口调用官方批量 `--jobs` 路径。每对窗口共用一轮编码、DiT 计算和解码的模型加载，VAE 在编码、解码两个阶段分别加载；逐片段计算，不合并注意力序列，不降低采样步数或解码精度。
 - 空闲 120 秒后释放后台模型进程，两个 HTTP 入口与网页继续在线。任何时候只允许一个 GPU 工作负载。
 - 主动取消 2K 小批次中的一个任务时，停止该批次，其他未完成任务保留已验证窗口、重新入队。第一次内存失败会短暂暂停并自动恢复后续任务；连续 OOM 需管理接口人工确认，失败任务不重试。
 
-BF16 默认最大原生横屏 1344×768，也提供 768×1344、832×480、768×768；固定 8 次前向、VSA 0.9、原版 36 层 VAE。接口接受 5–15 秒；本机 BF16 最大尺寸已实测的是 5 秒，15 秒显存可用性尚未验收。重生成输出支持 2560×1440、1440×2560 和新增的 3840×2160，沿用全本地 NVlabs/Sana 开源替代路线，不是官方云端闭源模块。4K 单任务、单窗口执行，完整 GPU 成片验收以 [4K 记录](../deployment/video-queue/4k-validation.json)为准。15 秒采用重叠窗口，其真实长片质量验收仍需单独完成。
+BF16 默认最大原生横屏 1344×768，也提供 768×1344、832×480、768×768；固定 8 次前向、VSA 0.9、原版 36 层 VAE。接口接受 5–15 秒；本机 BF16 最大尺寸已实测的是 5 秒，15 秒显存可用性尚未验收。重生成输出支持 2560×1440、1440×2560 和新增的 3840×2160，沿用全本地 NVlabs/Sana 开源替代路线，不是官方云端闭源模块。4K 单任务执行；小于等于 124 帧沿用原单窗口，严格大于上限使用整段密集推理。2K 长片仍使用重叠窗口。旧单窗口验收见 [4K 记录](../deployment/video-queue/4k-validation.json)，新增整段验收见 [S48 记录](../deployment/video-queue/full-sequence-validation.json)。
 
 ## 启动、停止与恢复
 
@@ -110,20 +112,20 @@ BF16 默认最大原生横屏 1344×768，也提供 768×1344、832×480、768×
 ```bash
 # 启动两个 HTTP 入口、调度器与 BF16 网页。
 systemctl --user start video-gpu-scheduler.service \
-  fasth3-omni-bf16.service h3-2k-refiner-http.service fasth3-omni-bf16-web.service
+  fasth3-omni-bf16.service h3-2k-refiner-http.service fasth3-omni-bf16-web.service video-service-status.service
 
 # 只停止 GPU 调度与后台模型；HTTP 保持在线，可查询和下载。
 systemctl --user stop video-gpu-scheduler.service
 
 # 全部停止。
 systemctl --user stop fasth3-omni-bf16-web.service fasth3-omni-bf16.service \
-  h3-2k-refiner-http.service video-gpu-scheduler.service
+  h3-2k-refiner-http.service video-gpu-scheduler.service video-service-status.service
 
 # 再次启动调度器，恢复队列；取消或失败任务不自动重试。
 systemctl --user start video-gpu-scheduler.service
 ```
 
-只停止 HTTP 服务会停止接单，已入队任务仍由调度器处理。停止调度器会停止其 GPU worker；未完成任务保留 ID 与检查点，在下次手动启动后恢复。BF16 从头重新计算，2K 复用已验证窗口。仅停止网页不会停止任务。
+只停止 HTTP 服务会停止接单，已入队任务仍由调度器处理。停止调度器会停止其 GPU worker；未完成任务保留 ID 与检查点，在下次手动启动后恢复。BF16 从头重新计算，旧 2K／短 4K 复用已验证窗口；整段 4K 可以复用完整去噪步及已保存 latent 续解码。仅停止网页不会停止任务。升级主 API 时保留独立 `video-service-status.service`，对端仍可查询 8004 的状态。
 
 服务定义保存于 `deployment/systemd/`，恢复时：
 
@@ -131,10 +133,10 @@ systemctl --user start video-gpu-scheduler.service
 cd /home/ubuntu/workspace/xenoamess_bake_videos
 cp deployment/systemd/video-gpu-scheduler.service \
   deployment/systemd/fasth3-omni-bf16*.service \
-  deployment/systemd/h3-2k-refiner-http.service ~/.config/systemd/user/
+  deployment/systemd/h3-2k-refiner-http.service deployment/systemd/video-service-status.service ~/.config/systemd/user/
 systemctl --user daemon-reload
 systemctl --user disable video-gpu-scheduler.service fasth3-omni-bf16.service \
-  fasth3-omni-bf16-worker.service fasth3-omni-bf16-web.service h3-2k-refiner-http.service
+  fasth3-omni-bf16-worker.service fasth3-omni-bf16-web.service h3-2k-refiner-http.service video-service-status.service
 ```
 
 实际模型始终由 `run_isolated.py` 放入 80 GiB 推理 unit，`llmlab.slice` 聚合上限 88 GiB、swap 1 GiB，并保留独立内存看护。前端各 1 GiB、调度器 512 MiB、网页 2 GiB；前端和调度器不导入模型。

@@ -43,6 +43,7 @@ class StoreAndHttpTest(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.store = QueueStore(self.temp.name)
         self.store.initialize()
+        self.store.set_state(phase="idle", active_model=None, consecutive=0)
 
     def enqueue(self, model=OMNI, dependency=None):
         payload = {"model": model, "size": "1344x768" if model == OMNI else "2560x1440",

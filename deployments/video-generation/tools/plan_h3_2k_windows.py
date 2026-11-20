@@ -6,7 +6,10 @@ import json
 import math
 
 
-def plan_windows(total_frames, window=124, minimum_overlap=24):
+WINDOW_FRAMES = 124
+
+
+def plan_windows(total_frames, window=WINDOW_FRAMES, minimum_overlap=24):
     if type(total_frames) is not int or total_frames < 113:
         raise ValueError("The upstream IC reader requires at least 113 real frames")
     if not 0 < minimum_overlap < window:

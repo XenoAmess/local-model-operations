@@ -16,6 +16,16 @@ MODELS = (OMNI, REFINER)
 HOLD = ROOT / "outputs/h3-2k-http/inference-hold.json"
 MAX_BATCH = 3
 MAX_WAIT_SECONDS = 1800
+PRIORITY_MIN, PRIORITY_MAX = -1000, 1000
+JOB_STATES = ("queued", "in_progress", "completed", "failed", "cancelled")
+
+
+class QueueConflict(ValueError):
+    """A requested queue edit no longer applies to the current task state."""
+
+
+class ServiceUnavailable(RuntimeError):
+    """Admissions/dispatch are temporarily disabled for maintenance."""
 
 
 class QueueChanged(RuntimeError):
@@ -25,9 +35,13 @@ class QueueChanged(RuntimeError):
 def choose_next(jobs, active_model=None, consecutive=0, now=None,
                 max_batch=MAX_BATCH, max_wait=MAX_WAIT_SECONDS):
     """FIFO within a model, with affinity until another model's turn is due."""
-    ready = sorted(jobs, key=lambda j: (j["created"], j["id"]))
+    ready = sorted(jobs, key=lambda j: (-j.get("priority", 0), -j.get("front_order", 0), j["created"], j["id"]))
     if not ready:
         return None
+    # Explicit operator priority precedes model affinity. Fairness still applies
+    # within one priority/front group, including the default priority-zero FIFO.
+    rank = (ready[0].get("priority", 0), ready[0].get("front_order", 0))
+    ready = [j for j in ready if (j.get("priority", 0), j.get("front_order", 0)) == rank]
     same = [j for j in ready if j["model"] == active_model]
     other = [j for j in ready if j["model"] != active_model]
     now = time.time() if now is None else now
@@ -75,13 +89,44 @@ class QueueStore:
         self.uploads.mkdir(exist_ok=True)
         with self.connection() as db:
             db.execute("PRAGMA journal_mode=WAL")
+        with self.connection(immediate=True) as db:
             db.execute("CREATE TABLE IF NOT EXISTS files(id TEXT PRIMARY KEY,path TEXT,name TEXT,bytes INTEGER)")
             db.execute("CREATE TABLE IF NOT EXISTS jobs(id TEXT PRIMARY KEY,model TEXT,status TEXT,created REAL,"
                        "updated REAL,payload TEXT,directory TEXT,dependency TEXT,unit TEXT,error TEXT)")
+            columns = {row[1] for row in db.execute("PRAGMA table_info(jobs)")}
+            for name in ("priority", "front_order"):
+                if name not in columns:
+                    db.execute(f"ALTER TABLE jobs ADD COLUMN {name} INTEGER NOT NULL DEFAULT 0")
             db.execute("CREATE INDEX IF NOT EXISTS pending_jobs ON jobs(status,created)")
             db.execute("CREATE TABLE IF NOT EXISTS state(key TEXT PRIMARY KEY,value TEXT)")
             db.execute("CREATE TABLE IF NOT EXISTS events(sequence INTEGER PRIMARY KEY AUTOINCREMENT,"
                        "created REAL,event TEXT,detail TEXT)")
+
+    @staticmethod
+    def _state_value(db, key, default=None):
+        row = db.execute("SELECT value FROM state WHERE key=?", (key,)).fetchone()
+        return json.loads(row[0]) if row else default
+
+    @classmethod
+    def _bump_revision(cls, db):
+        revision = cls._state_value(db, "queue_revision", 0) + 1
+        db.execute("INSERT OR REPLACE INTO state VALUES(?,?)", ("queue_revision", json.dumps(revision)))
+        return revision
+
+    @staticmethod
+    def _event(db, event, **detail):
+        db.execute("INSERT INTO events(created,event,detail) VALUES(?,?,?)",
+                   (time.time(), event, json.dumps(detail)))
+
+    def maintenance(self, enabled, reason=""):
+        with self.connection(immediate=True) as db:
+            value = dict(self._state_value(db, "service_control", {}), enabled=enabled,
+                         reason=reason, updated_at=time.time())
+            value.pop("validation_job", None)
+            db.execute("INSERT OR REPLACE INTO state VALUES(?,?)", ("service_control", json.dumps(value)))
+            self._bump_revision(db)
+            self._event(db, "maintenance_changed", **value)
+        return value
 
     def event(self, event, **detail):
         with self.connection() as db:
@@ -117,28 +162,33 @@ class QueueStore:
                 "SELECT * FROM jobs WHERE status IN ('queued','in_progress') ORDER BY created,id")]
 
     def ready(self):
-        jobs = self.pending()
-        result = []
-        for job in jobs:
-            parent = self.get(job["dependency"]) if job["dependency"] else None
-            if job["status"] == "queued" and (not job["dependency"] or parent and parent["status"] == "completed"):
-                result.append(job)
-        return result
+        with self.connection() as db:
+            db.execute("BEGIN")
+            revision = self._state_value(db, "queue_revision", 0)
+            rows = db.execute("SELECT j.* FROM jobs j LEFT JOIN jobs p ON p.id=j.dependency "
+                              "WHERE j.status='queued' AND (j.dependency IS NULL OR p.status='completed')").fetchall()
+        return [dict(self.decode(row), _queue_revision=revision) for row in rows]
 
-    def enqueue(self, model, request, dependency=None):
+    def enqueue(self, model, request, dependency=None, priority=0):
+        if type(priority) is not int or not PRIORITY_MIN <= priority <= PRIORITY_MAX:
+            raise ValueError("priority must be an integer from -1000 to 1000")
         now = time.time()
         job_id = "video_gen_" + uuid.uuid4().hex
         folder = self.jobs / job_id
         folder.mkdir()
         try:
             with self.connection(immediate=True) as db:
+                if self._state_value(db, "service_control", {}).get("enabled"):
+                    raise ServiceUnavailable("Service is draining/upgrading; retry after maintenance")
                 count = db.execute("SELECT COUNT(*) FROM jobs WHERE model=? AND status IN "
                                    "('queued','in_progress')", (model,)).fetchone()[0]
                 if count >= 32:
                     raise OverflowError("This model's queue is full (32 pending jobs)")
                 (folder / "request.json").write_text(json.dumps(request, ensure_ascii=False, indent=2) + "\n")
-                db.execute("INSERT INTO jobs VALUES(?,?,?,?,?,?,?,?,?,?)",
-                           (job_id, model, "queued", now, now, json.dumps(request), str(folder), dependency, None, None))
+                db.execute("INSERT INTO jobs(id,model,status,created,updated,payload,directory,dependency,unit,error,priority) "
+                           "VALUES(?,?,?,?,?,?,?,?,?,?,?)",
+                           (job_id, model, "queued", now, now, json.dumps(request), str(folder), dependency, None, None, priority))
+                self._bump_revision(db)
         except BaseException:
             (folder / "request.json").unlink(missing_ok=True)
             folder.rmdir()
@@ -146,19 +196,76 @@ class QueueStore:
         self.event("enqueued", job=job_id, model=model, dependency=dependency)
         return self.get(job_id)
 
-    def claim(self, ids, unit):
+    def claim(self, ids, unit, expected_revision=None):
         with self.connection(immediate=True) as db:
+            if self._state_value(db, "service_control", {}).get("enabled"):
+                raise QueueChanged("Maintenance started before dispatch")
+            if expected_revision is not None and expected_revision != self._state_value(db, "queue_revision", 0):
+                raise QueueChanged("Queue order changed before dispatch")
             for job_id in ids:
                 changed = db.execute("UPDATE jobs SET status='in_progress',unit=?,updated=? "
                                      "WHERE id=? AND status='queued'", (unit, time.time(), job_id)).rowcount
                 if changed != 1:
                     raise QueueChanged("Queue changed before dispatch")
+            self._bump_revision(db)
 
     def change(self, job_id, status, error=None, only_running=False):
         with self.connection() as db:
             db.execute("UPDATE jobs SET status=?,error=?,updated=? WHERE id=?" +
                        (" AND status='in_progress'" if only_running else ""),
                        (status, error, time.time(), job_id))
+            self._bump_revision(db)
+
+    def set_priority(self, job_id, priority=None, *, promote=False, reason=""):
+        if not promote and (type(priority) is not int or not PRIORITY_MIN <= priority <= PRIORITY_MAX):
+            raise ValueError("priority must be an integer from -1000 to 1000")
+        with self.connection(immediate=True) as db:
+            row = db.execute("SELECT * FROM jobs WHERE id=?", (job_id,)).fetchone()
+            if row is None:
+                raise FileNotFoundError("Unknown task")
+            if row["status"] != "queued":
+                raise QueueConflict("Only queued tasks can be promoted or reprioritized; running tasks are not preempted")
+            front = self._bump_revision(db) if promote else 0
+            db.execute("UPDATE jobs SET priority=?,front_order=?,updated=? WHERE id=?",
+                       (PRIORITY_MAX if promote else priority, front, time.time(), job_id))
+            if not promote:
+                self._bump_revision(db)
+            self._event(db, "task_promoted" if promote else "task_priority_changed", job=job_id,
+                        priority=PRIORITY_MAX if promote else priority, front_order=front, reason=reason)
+        return self.get(job_id)
+
+    def cancel(self, job_id, reason=""):
+        with self.connection(immediate=True) as db:
+            row = db.execute("SELECT * FROM jobs WHERE id=?", (job_id,)).fetchone()
+            if row is None:
+                raise FileNotFoundError("Unknown task")
+            changed = row["status"] in {"queued", "in_progress"}
+            if changed:
+                db.execute("UPDATE jobs SET status='cancelled',updated=? WHERE id=?", (time.time(), job_id))
+                self._bump_revision(db)
+                self._event(db, "cancel_requested", job=job_id, model=row["model"], reason=reason)
+        return self.get(job_id), changed and row["status"] == "in_progress"
+
+    def list_jobs(self, *, model=None, statuses=None, limit=20, after=None):
+        clauses, args = [], []
+        if model:
+            clauses.append("model=?")
+            args.append(model)
+        if statuses:
+            clauses.append("status IN (" + ",".join("?" for _ in statuses) + ")")
+            args.extend(statuses)
+        with self.connection() as db:
+            if after:
+                cursor = db.execute("SELECT created,id FROM jobs WHERE id=?", (after,)).fetchone()
+                if cursor is None:
+                    raise ValueError("Unknown pagination cursor")
+                clauses.append("(created<? OR (created=? AND id<?))")
+                args.extend((cursor["created"], cursor["created"], cursor["id"]))
+            where = " WHERE " + " AND ".join(clauses) if clauses else ""
+            rows = db.execute("SELECT * FROM jobs" + where + " ORDER BY created DESC,id DESC LIMIT ?",
+                              [*args, limit + 1]).fetchall()
+        more = len(rows) > limit
+        return [self.decode(row) for row in rows[:limit]], more
 
     def add_file(self, file_id, path, name, size):
         with self.connection() as db:
@@ -199,16 +306,19 @@ class QueueStore:
         from video_queue_recovery import QueueRecovery
         recovery = QueueRecovery(self).snapshot()
         state = self.state()
+        control = state.get("service_control", {})
         ready = self.ready()
         order = preview(ready, state.get("active_model"), state.get("consecutive", 0))
         pending = self.pending()
         ordered_ids = {job["id"] for job in order}
         blocked = [job for job in pending if job["status"] == "queued" and job["id"] not in ordered_ids]
-        clean = lambda j: {key: j[key] for key in ("id", "model", "status", "created", "dependency")}
-        return {"scheduler": state, "paused": recovery["paused"], "recovery": recovery,
+        clean = lambda j: {key: j[key] for key in ("id", "model", "status", "created", "dependency", "priority", "front_order")}
+        return {"scheduler": state, "paused": recovery["paused"] or bool(control.get("enabled")),
+                "maintenance": control, "recovery": recovery,
                 "policy": {"max_consecutive_jobs_with_competition": MAX_BATCH,
                            "max_other_model_wait_seconds": MAX_WAIT_SECONDS,
-                           "note": "Switches at task or dispatched-cohort boundaries; running inference is not preempted"},
+                           "priority_range": [PRIORITY_MIN, PRIORITY_MAX], "priority_precedes_affinity": True,
+                           "note": "Explicit priority/front order first; affinity/fairness within ties; running inference is not preempted"},
                 "running": [clean(j) for j in pending if j["status"] == "in_progress"],
                 "queued": [dict(clean(j), position=i + 1) for i, j in enumerate(order)],
                 "waiting_for_source": [clean(j) for j in blocked]}
@@ -217,8 +327,14 @@ class QueueStore:
         request = job["request"]
         result = {"id": job["id"], "object": "video", "model": job["model"], "status": job["status"],
                   "created_at": int(job["created"]), "size": request["size"],
+                  "priority": job.get("priority", 0), "front_order": job.get("front_order", 0),
                   "seconds": str(request.get("seconds", "")), "progress": 0, "stage": "等待 GPU 调度"}
         folder = Path(job["directory"])
+        source = request.get("input_video")
+        if isinstance(source, str):
+            with self.connection() as db:
+                uploaded = db.execute("SELECT name FROM files WHERE path=?", (source,)).fetchone()
+            result["input_filename"] = uploaded[0] if uploaded else Path(source).name
         try:
             result.update(json.loads((folder / "progress.json").read_text()))
         except (OSError, ValueError):
@@ -258,7 +374,7 @@ class QueueStore:
                                (row["id"], row["path"], row["filename"], row["size"]))
                 for row in source.execute("SELECT * FROM jobs"):
                     status = "queued" if row["status"] == "in_progress" else row["status"]
-                    db.execute("INSERT OR IGNORE INTO jobs VALUES(?,?,?,?,?,?,?,?,?,?)",
+                    db.execute("INSERT OR IGNORE INTO jobs(id,model,status,created,updated,payload,directory,dependency,unit,error) VALUES(?,?,?,?,?,?,?,?,?,?)",
                                (row["id"], REFINER, status, row["created"], row["updated"], row["request"],
                                 str(legacy.parent / "jobs" / row["id"]), None, None, row["error"]))
         finally:

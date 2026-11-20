@@ -47,7 +47,12 @@ def get_profile(size):
         raise ValueError(f"Unsupported refiner size {size}; choose one of {list(PROFILES)}") from error
 
 
-def ic_command(jobs_file, *, size, seed, sampler):
+def ic_command(jobs_file, *, size, seed, sampler, full_frames=None):
     get_profile(size)
-    return [ROOT / ".venv-h3-2k/bin/python", ROOT / "tools/h3_ic_runtime.py", "--jobs", Path(jobs_file),
-            "--size", size, "--seed", str(seed), "--sampler", sampler]
+    command = [ROOT / ".venv-h3-2k/bin/python", ROOT / "tools/h3_ic_runtime.py", "--jobs", Path(jobs_file),
+               "--size", size, "--seed", str(seed), "--sampler", sampler]
+    if full_frames is not None:
+        if size != "3840x2160":
+            raise ValueError("Full-sequence profile currently requires 3840x2160")
+        command += ["--full-sequence", "--frames", str(full_frames)]
+    return command

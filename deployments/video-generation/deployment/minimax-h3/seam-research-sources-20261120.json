@@ -193,9 +193,12 @@
     "target_video_tokens_4k": 832320,
     "reference_video_tokens": 102816,
     "visual_tokens_total": 935136,
-    "bf16_hidden_GiB": 12.48541259765625,
+    "bf16_hidden_GiB": 9.364059448242188,
     "bf16_qkv_GiB": 37.45623779296875,
-    "processing_fp32_rgb_GiB": 32.2174072265625
+    "processing_fp32_rgb_GiB": 32.2174072265625,
+    "bf16_query_GiB": 12.48541259765625,
+    "residual_width": 5376,
+    "attention_projection_width": 7168
   },
   "key_code_findings": {
     "sandpies_stepped": "sigma loop encloses window/tile calls, then normalizes full-film accumulation",

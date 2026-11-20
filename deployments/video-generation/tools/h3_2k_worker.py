@@ -11,6 +11,7 @@ import time
 
 from plan_h3_2k_windows import plan_windows
 from h3_refiner_profiles import get_profile, ic_command
+from h3_full_sequence import padded_frames, strategy
 
 ROOT = Path(__file__).resolve().parents[1]
 PYTHON = ROOT / ".venv-h3-2k/bin/python"
@@ -63,6 +64,44 @@ def stitch_command(job_dir, draft, plan, frames, size="2560x1440"):
     return command
 
 
+def process_full_sequence(job_dir, request, draft, frames):
+    """One source, one denoising trajectory, one decode; never falls back to stitching."""
+    profile = get_profile(request["size"])
+    log = job_dir / "worker.log"
+    plan = {"fps": 24, "frames": frames, "processing_frames": padded_frames(frames),
+            "latent_frames": (padded_frames(frames) - 5) // 17 * 5 + 2,
+            "temporal_strategy": "full_sequence", "global_attention": True, "windows": 1, "hard_cuts": 0}
+    write_json(job_dir / "full-sequence-plan.json", plan)
+    output = job_dir / "full-sequence-4k.mkv"
+    marker = job_dir / "full-sequence.complete"
+    if not marker.exists() or not complete_video(output, profile.width, profile.height, frames):
+        write_json(job_dir / "progress.json", {"stage": "准备完整时间轴 4K 重生成", "progress": 10,
+                                               "updated_at": time.time(), **plan})
+        jobs = job_dir / "full-sequence.jsonl"
+        jobs.write_text(json.dumps({"input": str(draft), "output": str(output), "caption": request["prompt"]},
+                                   ensure_ascii=False) + "\n")
+        run(ic_command(jobs, size=request["size"], seed=request["seed"], sampler=request["sampler"], full_frames=frames), log)
+        if not complete_video(output, profile.width, profile.height, frames):
+            raise RuntimeError("Full-sequence output failed frame/dimension validation; no window fallback")
+        marker.write_text("verified full sequence\n")
+    write_json(job_dir / "progress.json", {"stage": "保存完整视频与源音轨", "progress": 97, "updated_at": time.time()})
+    final = job_dir / "result.mp4"
+    run(["ffmpeg", "-nostdin", "-y", "-v", "error", "-i", output, "-i", draft,
+         "-map", "0:v:0", "-map", "1:a:0?", "-c:v", "libx264", "-threads", "4", "-preset", "medium",
+         "-crf", "16", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-r", "24",
+         "-frames:v", str(frames), "-t", str(frames / 24), "-movflags", "+faststart", final], log)
+    if not complete_video(final, profile.width, profile.height, frames):
+        raise RuntimeError("Full-sequence final video has incorrect geometry")
+    write_json(job_dir / "result.json", {**plan, "width": profile.width, "height": profile.height,
+               "duration": frames / 24, "sha256": hashlib.sha256(final.read_bytes()).hexdigest(),
+               "model": request.get("model", "open-h3-2k"), "mode": request["mode"],
+               "refiner_base": "official full BF16 Ref2VA", "refiner": "Open-H3-Regenerate-2K-IC",
+               "sampler": request["sampler"], "decoder_layers": 36, "decoder_dtype": "FP32",
+               "attention": "dense_full_sequence_query_chunked", "cpu_weight_offload": True,
+               "independent_window_fallback": False, "cloud_used": False})
+    write_json(job_dir / "progress.json", {"stage": "生成完成", "progress": 100, "updated_at": time.time()})
+
+
 def process(job_dir):
     request = json.loads((job_dir / "request.json").read_text())
     caption = request["prompt"]
@@ -93,6 +132,9 @@ def process(job_dir):
         frames = round(float(video.get("duration") or metadata["format"]["duration"]) * 24)
     if not 113 <= frames <= 362:
         raise ValueError("Input must contain about 4.7–15.1 seconds at 24 FPS")
+    if strategy(request["size"], frames) == "full_sequence":
+        process_full_sequence(job_dir, request, draft, frames)
+        return
     plan = plan_windows(frames)
     write_json(job_dir / "window-plan.json", {"fps": 24, "frames": frames, "windows": plan})
     for index, part in enumerate(plan):

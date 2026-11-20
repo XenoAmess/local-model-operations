@@ -9,8 +9,10 @@
 | 图片、文字、视频参考生成 | `http://192.168.1.11:8001/v1` | `fasth3-omni-bf16` |
 | 已有视频的本地 2K／4K 重生成 | `http://192.168.1.11:8002/v1` | `open-h3-2k` |
 | 网页 | `http://192.168.1.11:7860` | BF16 Omni |
+| 独立升级／可用性状态 | `http://192.168.1.11:8004/v1/service/status` | CPU 状态服务 |
 
 - [OOM 自动恢复与管理接口](docs/video-http-api.md#oom-自动恢复与管理恢复接口)：首次 OOM 清理、冷却和检查资源后自动继续；连续两次 OOM 需 `POST /v1/queue/resume`，失败任务不重试。
+- [API 3.0 队列与维护管理](docs/video-queue-management.md)：插队、优先级、取消、分页、独立状态；4K 小于等于原 124 帧上限用旧路线，严格大于用完整时间轴。S48 实际 14 秒验收进行中。
 - [Open-H3 接缝与整段方案](docs/open-h3-seam-solutions-2026-11-20.md)：优先完整时间轴，接受性能损失；已核查 IC stepped 等现成代码，尚未变更线上推理。
 - [14 秒整段原生 4K 可行性分析](docs/h3-single-pass-14s-4k-feasibility-2026-11-20.md)：只读预研、形状和资源预算；尚未实现或验收整段模式，未修改线上服务。
 - [跨机器 HTTP 调用](docs/video-http-api.md)：上传、异步提交、依赖、轮询、取消、下载。

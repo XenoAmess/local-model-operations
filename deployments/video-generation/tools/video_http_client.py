@@ -2,6 +2,7 @@
 """Upload local references and submit BF16 Omni or local 2K tasks from another machine."""
 
 import argparse
+import hashlib
 import json
 from pathlib import Path
 import sys
@@ -23,9 +24,12 @@ def main():
     parser.add_argument("--seconds", type=int, default=5)
     parser.add_argument("--seed", type=int, default=1234)
     parser.add_argument("--sampler", choices=["up3", "up4", "hf8"], default="up3")
+    parser.add_argument("--priority", type=int, default=0, help="Queue priority, -1000 to 1000")
     parser.add_argument("--wait", action="store_true", help="Poll until completion; otherwise return the task immediately")
     parser.add_argument("--output", type=Path, default=Path("result.mp4"))
     args = parser.parse_args()
+    if not -1000 <= args.priority <= 1000:
+        parser.error("--priority must be between -1000 and 1000")
     if args.kind == "2k" and (args.image or args.audio or (bool(args.source_job) == bool(args.video)) or len(args.video) > 1):
         parser.error("2k needs exactly one --video or --source-job, and accepts no image/audio references")
     if args.kind == "omni" and (not (args.image or args.video) or not args.prompt.strip() or args.source_job):
@@ -44,7 +48,13 @@ def main():
             result = check(client.post(api + "/v1/files", files={"file": (path.name, stream)}, timeout=300))
         return {"file_id": result["id"]}
 
-    payload = {"prompt": args.prompt, "seed": args.seed}
+    availability = client.get(api + "/v1/service/status", timeout=15)
+    if availability.status_code != 404:
+        state = check(availability)
+        if not state.get("accepting_jobs", True):
+            raise RuntimeError(f"Service {state.get('status')}: {state.get('reason', '')}; "
+                               f"retry after {state.get('retry_after_seconds', 30)} seconds")
+    payload = {"prompt": args.prompt, "seed": args.seed, "priority": args.priority}
     if args.kind == "omni":
         payload.update(model="fasth3-omni-bf16", task="ref2va", seconds=args.seconds,
                        size=args.size or "1344x768", num_inference_steps=8)
@@ -67,12 +77,20 @@ def main():
     if job["status"] != "completed":
         raise RuntimeError(json.dumps(job.get("error") or job, ensure_ascii=False))
     args.output.parent.mkdir(parents=True, exist_ok=True)
+    temporary = args.output.with_suffix(args.output.suffix + ".partial")
+    digest = hashlib.sha256()
     with client.get(api + "/v1/videos/" + job["id"] + "/content", stream=True, timeout=300) as response:
         response.raise_for_status()
-        with args.output.open("wb") as stream:
+        with temporary.open("wb") as stream:
             for chunk in response.iter_content(1024 * 1024):
                 stream.write(chunk)
-    print(json.dumps({"job": job["id"], "output": str(args.output)}, ensure_ascii=False))
+                digest.update(chunk)
+    expected = job.get("result", {}).get("sha256")
+    if expected and digest.hexdigest() != expected:
+        raise RuntimeError("Downloaded video SHA-256 differs from server receipt; .partial retained")
+    temporary.replace(args.output)
+    print(json.dumps({"job": job["id"], "output": str(args.output), "sha256": digest.hexdigest(),
+                      "checksum_verified": bool(expected)}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

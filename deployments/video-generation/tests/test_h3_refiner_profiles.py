@@ -46,7 +46,7 @@ class RefinerProfileTest(unittest.TestCase):
         self.assertEqual(get_profile("1440x2560").resolution, "2k-portrait")
         self.assertEqual(get_profile("3840x2160").window_path(Path("fixture"), 0), Path("fixture/window-00-4k.mkv"))
 
-    def test_4k_prepare_and_final_stitch_use_the_same_native_windows(self):
+    def test_original_124_frame_4k_window_is_preserved_and_strictly_longer_clips_use_full_sequence(self):
         with tempfile.TemporaryDirectory() as temporary:
             folder = Path(temporary)
             request = {"mode": "regenerate", "input_video": "fixture.mp4", "size": "3840x2160", "prompt": "wave"}
@@ -59,11 +59,18 @@ class RefinerProfileTest(unittest.TestCase):
             self.assertEqual(windows[0]["height"], 2160)
             command = stitch_command(folder, "fixture.mp4", [{"keep_local_start": 0, "keep_local_end": 124}], 124, "3840x2160")
             self.assertIn(windows[0]["output"], command)
+            for count in (125, 126, 336, 362):
+                metadata = {"streams": [{"codec_type": "video", "duration": str(count / 24)}], "format": {}}
+                with patch("h3_2k_batch_worker.probe", return_value=metadata), patch("h3_2k_batch_worker.run") as run:
+                    _, windows = prepare(folder)
+                self.assertEqual(windows, [])
+                run.assert_not_called()
 
     def test_http_accepts_native_4k_without_renaming_model_or_starting_gpu(self):
         with tempfile.TemporaryDirectory() as temporary:
             store = QueueStore(temporary)
             with TestClient(create_app(store, REFINER)) as client:
+                store.set_state(phase="idle", active_model=None, consecutive=0)
                 upload = client.post("/v1/files", files={"file": ("draft.mp4", b"fixture", "video/mp4")}).json()["id"]
                 body = {"model": REFINER, "input_video": {"file_id": upload}, "size": "3840x2160"}
                 response = client.post("/v1/videos/regenerations", json=body)

@@ -149,7 +149,7 @@ class Scheduler:
 
     async def execute_omni(self, job):
         await self.start_backend()
-        self.store.claim([job["id"]], BACKEND_UNIT)
+        self.store.claim([job["id"]], BACKEND_UNIT, expected_revision=job.get("_queue_revision"))
         payload = {key: value for key, value in job["request"].items() if key not in {"mode", "references"}}
         for kind in ("image", "video", "audio"):
             values = [{kind + "_url": ref["path"]} for ref in job["request"]["references"] if ref["kind"] == kind]
@@ -196,7 +196,8 @@ class Scheduler:
             self.backend = False
         unit = f"llmlab-h3-2k-refiner-batch-{jobs[0]['id'][-10:]}-{time.time_ns()}"
         self.active_unit = unit + ".service"
-        self.store.claim([job["id"] for job in jobs], self.active_unit)
+        self.store.claim([job["id"] for job in jobs], self.active_unit,
+                         expected_revision=jobs[0].get("_queue_revision"))
         batch_dir = self.store.directory / "batches" / unit
         batch_dir.mkdir(parents=True)
         for job in jobs:
@@ -261,7 +262,16 @@ class Scheduler:
         if "oom-kill" in resources:
             raise MemoryError("2K batch exhausted its memory allowance; inspect before resuming")
         if code and not interrupted:
-            log_text = (batch_dir / "worker.log").read_text() if (batch_dir / "worker.log").exists() else ""
+            # Full-sequence work logs to its job folder; window cohorts log to
+            # the batch. Both must feed the same CUDA-OOM recovery policy.
+            log_paths = [batch_dir / "worker.log", batch_dir / "launcher.log"]
+            log_paths.extend(Path(job["directory"]) / "worker.log" for job in jobs)
+            log_text = ""
+            for path in log_paths:
+                if path.exists():
+                    with path.open("rb") as stream:
+                        stream.seek(max(0, path.stat().st_size - 24000))
+                        log_text += stream.read().decode(errors="replace")
             if "out of memory" in log_text.lower():
                 raise MemoryError("2K CUDA memory failure; inspect before resuming")
         self.active_unit = None
@@ -298,8 +308,18 @@ class Scheduler:
             self.store.event("scheduler_started")
             while not self.stop.is_set():
                 self.store.fail_dependencies()
+                canary = self.store.state().get("service_control", {}).get("validation_job")
+                if canary:
+                    checked = self.store.get(canary)
+                    if checked and checked["status"] in {"completed", "failed", "cancelled"}:
+                        self.store.maintenance(True, "Full-sequence canary finished; automated result verification in progress")
                 if await self.recover_memory():
                     await asyncio.sleep(self.recovery.policy.probe_interval_seconds)
+                    continue
+                if self.store.state().get("service_control", {}).get("enabled"):
+                    await self.release()
+                    self.state("upgrading")
+                    await asyncio.sleep(1)
                     continue
                 ready = self.store.ready()
                 selected = choose_next(ready, self.model, self.consecutive)

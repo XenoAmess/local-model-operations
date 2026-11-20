@@ -10,6 +10,7 @@ import time
 from h3_2k_worker import ROOT, PYTHON, complete_video, probe, process, run, write_json
 from plan_h3_2k_windows import plan_windows
 from h3_refiner_profiles import get_profile, ic_command
+from h3_full_sequence import strategy
 
 
 def prepare(folder):
@@ -25,6 +26,9 @@ def prepare(folder):
     frames = round(float(video.get("duration") or metadata["format"]["duration"]) * 24)
     if not 113 <= frames <= 362:
         raise ValueError("Input must be about 4.7–15.1 seconds at 24 FPS")
+    if strategy(request["size"], frames) == "full_sequence":
+        # The finalizer owns this entire clip, with no independent windows.
+        return request, []
     plan = plan_windows(frames)
     write_json(folder / "window-plan.json", {"fps": 24, "frames": frames, "windows": plan})
     pending = []

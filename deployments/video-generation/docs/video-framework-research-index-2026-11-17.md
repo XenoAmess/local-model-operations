@@ -18,8 +18,9 @@
 
 | 文档 | 覆盖范围 |
 | --- | --- |
+| [API 3.0 管理与整段路线边界](video-queue-management.md) | 插队、优先级、取消、分页、维护／独立状态；4K 严格大于原 124 帧上限时整段，S48 实际验收中 |
 | [Open-H3 接缝与整段现成实现](open-h3-seam-solutions-2026-11-20.md) | 用户接受性能损失；整段 IC 优先，八个社区项目及核心窗口源码、IC stepped、时间网格修正与尚未验证边界 |
-| [14 秒整段原生 4K 可行性](h3-single-pass-14s-4k-feasibility-2026-11-20.md) | 动态时长、完整上下文、激活／解码容量与速度预算，未部署整段模式 |
+| [14 秒整段原生 4K 可行性](h3-single-pass-14s-4k-feasibility-2026-11-20.md) | 原始资源研究；后续候选已进入 S48 渲染验收，进展以新管理文档与验收记录为准 |
 | [FastVideo 与 SGLang 全面对比](fastvideo-vs-sglang-2026-11-17.md) | 本机速度、质量边界、显存策略、HTTP、队列、并发、维护成本与正式选型理由 |
 | [PDD 头融合与注意力实现](h3-pdd-attention-implementation-2026-11-17.md) | 两边都已融合 PDD；运行时与离线融合、SM120 本地补丁、VSA、数值差异及质量归因限制 |
 | [框架完整实测报告](video-framework-benchmark-2026-11-17.md) | Diffusers／Accelerate、FastVideo／SGLang／UniServe、两个 Strata、4K 并发、依赖版本与取消记录 |

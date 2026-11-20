@@ -1,7 +1,7 @@
 [Unit]
 Description=Local Open-H3 2K queued LAN HTTP API
 After=network-online.target video-gpu-scheduler.service
-Wants=video-gpu-scheduler.service
+Wants=video-gpu-scheduler.service video-service-status.service
 
 [Service]
 Type=exec

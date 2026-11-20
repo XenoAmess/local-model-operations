@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-20",
+  "status": "full_video_inference_in_progress",
+  "task_id": "video_gen_505d3a78c78a42d7b933b6519e1007e9",
+  "model": "open-h3-2k",
+  "size": "3840x2160",
+  "real_frames": 336,
+  "processing_frames": 345,
+  "fps": 24,
+  "duration_seconds": 14,
+  "route_threshold": {
+    "single_window_frame_limit": 124,
+    "strict_greater_than": true,
+    "legacy_at_or_below": true
+  },
+  "previous_task": {
+    "id": "video_gen_90f5a5d1b73048d18e73facd5add3068",
+    "completed": true,
+    "external_http_get_200_observed": true,
+    "external_checksum_verified": false,
+    "independent_lan_sha256_match": true
+  },
+  "queue_http_tests_passed": 32,
+  "profile_tests_passed": 6,
+  "full_sequence_cpu_tests_passed": 3,
+  "admission": {
+    "status": "passed",
+    "complete_video_qualified": false,
+    "started_at": 1795160565.045102,
+    "bf16_math": {
+      "max_video_abs": 2.384185791015625e-07,
+      "max_audio_abs": 1.1920928955078125e-07,
+      "bitwise_equal": false
+    },
+    "original_36l_stream": {
+      "frames": 336,
+      "processing_latent_frames": 102,
+      "size": "64x64",
+      "pixel_bitwise_equal": true,
+      "decoder_layers": 36
+    },
+    "matched_silence": {
+      "shape": [
+        2,
+        32,
+        575
+      ],
+      "method": "official_vae_posterior_mode"
+    },
+    "long_kv_capacity": {
+      "kv_tokens": 960000,
+      "query_tokens": 16384,
+      "heads": 56,
+      "head_dim": 128,
+      "residual_buffers_reserved": 3,
+      "seconds_one_query_batch": 3.154763113008812,
+      "gpu_allocated_peak_gib": 55.492188453674316,
+      "finite": true,
+      "full_model_or_video_test": false
+    },
+    "completed_at": 1795160575.9832067
+  },
+  "full_video_completed": false,
+  "client_review_status": "pending",
+  "cloud_used": false,
+  "boot_autostart": false,
+  "inference_memory_gib": 80,
+  "aggregate_memory_gib": 88,
+  "total_cpu_contract_tests_passed": 45,
+  "scheduler_restart_required_after_canary": true,
+  "review_observer_unit": "video-full-sequence-validation-20261120.service",
+  "legacy_window_and_audio_tests_passed": 4
+}
