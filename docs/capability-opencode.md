@@ -2483,3 +2483,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-21 [Civ6 R49](evidence/2026-11-21-civ6-natural-building-project-r49.json):cached maintenance1.19.6 passed;0 OpenCode native generation, no inferred code-generation ability or measured cost saving.
+
+2026-11-22 Civ6[撤离修复](evidence/2026-11-22-civ6-threatened-overlap-evacuation-software.json)：仅复用同机同用户当日1.19.6每日维护成功缓存；本任务0OpenCode原生工具生成，不由Owner软件检查授模型原生能力，成本未知null。
