@@ -2474,3 +2474,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-21 [Civ6 R46 maintenance boundary](evidence/2026-11-21-civ6-normal-builder-control-r46.json):same-day1.19.6 cache passed,0 native generation tasks. Maintenance and owner game validation do not establish native generation or savings; unknown costs null.
+
+
+2026-11-21 [Civ6 R47](evidence/2026-11-21-civ6-religious-native-premises-r47.json):cached maintenance1.19.6 passed,0 OpenCode native generation tasks. Owner manual-control testing remains separate from maintenance and model generation; unknown costs null.

@@ -7687,3 +7687,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-21 [Civ6 R46 ordinary Builder control](evidence/2026-11-21-civ6-normal-builder-control-r46.json):38 full sources/1039429 UTF8 bytes prepared for a real unfinished task; cached1.19.6 maintenance passed, only open-h3-2k listed while configured qwen38-coder absent.0 generation POST/candidate/fallback/config mutation; owner continued UI/Core verified callbacks. Unknown costs/cache null; game results do not grant model capability.
+
+
+2026-11-21 [Civ6 R47 religious controls](evidence/2026-11-21-civ6-religious-native-premises-r47.json):53 full sources/1617465 UTF8 bytes for actual unfinished controls; same-day cached1.19.6 maintenance passed, configured coder still absent while models/health200.0 generation POST/candidate/fallback; owner qualified real game prerequisites and continued. No model capability or cost saving claimed; unknown cost/cache null.
