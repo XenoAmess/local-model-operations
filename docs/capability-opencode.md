@@ -2477,3 +2477,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-21 [Civ6 R47](evidence/2026-11-21-civ6-religious-native-premises-r47.json):cached maintenance1.19.6 passed,0 OpenCode native generation tasks. Owner manual-control testing remains separate from maintenance and model generation; unknown costs null.
+
+
+2026-11-21 [Civ6 R48](evidence/2026-11-21-civ6-passive-initial-world-r48.json): cached same-day maintenance1.19.6 passed;0 OpenCode native generation. Owner passive-tool checks are separate from maintenance and runtime ability evidence.
