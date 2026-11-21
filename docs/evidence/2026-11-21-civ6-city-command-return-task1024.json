@@ -1,0 +1,36 @@
+{
+  "utc": "2026-11-21T09:44:20.829098+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/db1880fe8cca941f7c61d6dabca3d13c033a8a69/docs/research/baiqi-source174-city-command-nullable-return-software-2026-11-21.json",
+  "task_id": "civ6-1024-city-command-return-contract",
+  "full_source_count": 14,
+  "raw_source_UTF8_bytes": 274774,
+  "canonical_LF_source_text_bytes": 269300,
+  "full_canonical_source_text_wire_verified": true,
+  "raw_wire_byte_identity_claimed": false,
+  "actual_POSTs": 1,
+  "HTTP": 404,
+  "total_ms": 24.871600093320012,
+  "candidate_complete": false,
+  "adopted": false,
+  "usage": null,
+  "cached_prompt_tokens_if_reported": null,
+  "OpenCode_native_generation": 0,
+  "project_totals": {
+    "logical_tasks": 1024,
+    "complete_candidates": 816,
+    "length_incomplete": 68,
+    "final_failures": 140,
+    "generation_POSTs": 1063,
+    "extra_retry_POSTs_prior_observed_unchanged": 38,
+    "actual_inflight": 0,
+    "OpenCode_native_generation": 0
+  },
+  "owner_result": "Actual stock typed citizen callback rejected by mandatory guard had zero native writes but threw on boolean result. Engine nil-table probe passed; smallest falsey nullable denial repair, red regression and43 green tests, full119 artifact. Cold installed174 retest pending.",
+  "lessons": [
+    "A blocked request can preserve game assets yet still break a typed UI consumer; check both effects and return-value contracts.",
+    "Use an engine-local typed-language probe rather than pretending a vanilla Lua VM validates Firaxis annotations.",
+    "A CanStart boolean that also accepts an invalid target is not complete target legality evidence; retain primary target lists, price and genuine positive control effects.",
+    "Canonical Path.read_text normalizes source CRLF to LF. Verify all normalized complete source text and raw source hashes separately instead of claiming wire byte identity.",
+    "Read build helper return contracts: package returns its full inventory list. A later owner metadata assertion failure is not proof the already-written archive is invalid."
+  ]
+}
