@@ -2480,3 +2480,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-21 [Civ6 R48](evidence/2026-11-21-civ6-passive-initial-world-r48.json): cached same-day maintenance1.19.6 passed;0 OpenCode native generation. Owner passive-tool checks are separate from maintenance and runtime ability evidence.
+
+
+2026-11-21 [Civ6 R49](evidence/2026-11-21-civ6-natural-building-project-r49.json):cached maintenance1.19.6 passed;0 OpenCode native generation, no inferred code-generation ability or measured cost saving.

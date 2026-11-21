@@ -7693,3 +7693,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-21 [Civ6 R48 passive startup tool](evidence/2026-11-21-civ6-passive-initial-world-r48.json): configured coder still absent at models/health200; cached maintenance1.19.6 passed. Real24/28-source tasks were prepared before owner implementation,0 generation POST/candidate/fallback. Passive software/package checks only; no Native or cost saving claimed, unknown costs/cache null.
+
+
+2026-11-21 [Civ6 R49 natural production](evidence/2026-11-21-civ6-natural-building-project-r49.json):cached1.19.6 maintenance passed; configured coder absent at models/health200, only video model advertised.27/33 full-source real tasks prepared before owner implementation;0 generation POST/candidate/fallback, unknown cost/cache null. Owner Native building completion and passive software tests are separate evidence.
