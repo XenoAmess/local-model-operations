@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-21T10:17:41.980633+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/1009b531af8573316afa2b683fbe98cc02df51b5/docs/research/baiqi-source174-qin-paid-tile-citizen-focus171-engine74-2026-11-21.json",
+  "new_generation_POSTs": 0,
+  "candidates_adopted": 0,
+  "OpenCode_native_generation": 0,
+  "unknown_cost": null,
+  "owner_result": "Original ordinary-leader tile/citizen/focus requests forwarded once with native arity0 preserved; independent actual debit/ownership/lock/focus effects verified. Source174 White refusals were a separate saved world.",
+  "lessons": [
+    "A synchronous handler and even a native request can finish before game state changes. Preserve immediate old state, perform independent readback and never replay a write solely because its same-block snapshot is old.",
+    "Executor and UI contexts have different globals. Qualify actual context contracts before using UI-only guard getters; preserve owner diagnostic failures separately from product behavior.",
+    "Ordinary controls need adequate actual resources and real native target-list membership; guarded refusal alone is not a compatibility positive control."
+  ]
+}
