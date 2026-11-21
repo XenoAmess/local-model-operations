@@ -1,0 +1,70 @@
+{
+  "utc": "2026-11-21T11:57:47.862648+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/a5dd5a1b83a6dfaf16c017ece4d3ec1b87be457a/docs/research/baiqi-source174-ownertrace-readonly-sdk-failure-and-proxy-repair-2026-11-21.json",
+  "mode_id": "http-candidate",
+  "real_unfinished_task_sources": 7,
+  "raw_UTF8_bytes": 37388,
+  "configured_model_absent": true,
+  "R54": {
+    "utc": "2026-11-21T11:54:28.123332+00:00",
+    "configured_model": "qwen38-coder",
+    "configuration_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "maintenance": {
+      "date": "2026-11-21",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": true
+    },
+    "results": [
+      {
+        "name": "models",
+        "utc": "2026-11-21T11:54:28.063268+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 547,
+        "over_64KiB": false,
+        "sha256": "21aa24b9dea19a6e904f012460eb42ecf72708a4fd42d599e6ccf548d1a2b124",
+        "total_ms": 28.749699937179685,
+        "model_ids": [
+          "open-h3-2k"
+        ]
+      },
+      {
+        "name": "health",
+        "utc": "2026-11-21T11:54:28.092982+00:00",
+        "status": 200,
+        "Content_Type": "application/json",
+        "bytes_retained": 1154,
+        "over_64KiB": false,
+        "sha256": "2dbbbb3fda5ba81cd636d4c2628750c93d357535cc789d9c3327bdf45bda0352",
+        "total_ms": 28.684200020506978
+      }
+    ],
+    "generation_POSTs": 0,
+    "new_logical_candidate_tasks": 0,
+    "Native_queries": 0,
+    "configuration_changes": 0,
+    "service_mutations": 0,
+    "automatic_fallback": false,
+    "formal_overlap": false
+  },
+  "generation_POSTs": 0,
+  "candidates": 0,
+  "adopted": 0,
+  "OpenCode_native_generation": 0,
+  "unknown_cost": null,
+  "owner": {
+    "actual_private_Native_load_failed": true,
+    "cause": "Read-only SDK table mutation in a diagnostic; writable sandbox missed it.",
+    "failed_world_saved": false,
+    "readonly_red_errors": 66,
+    "software_green_scenarios": 101,
+    "R3_Native": "NOT_RUN"
+  },
+  "lessons": [
+    "Model availability, maintenance, software success and real game loading are separate evidence levels.",
+    "Match actual SDK mutability in test fixtures. Wrap context-local global proxies before writer captures instead of assigning SDK fields.",
+    "On failed diagnostic load, preserve raw failure and protected saves; normally quit before replacement. Do not call the incomplete world a product or owner-isolation pass.",
+    "Preserve native argument/return/error identity, inherited reads, foreign bindings and original-shutdown ordering; finite observer scopes are not complete writer coverage."
+  ]
+}
