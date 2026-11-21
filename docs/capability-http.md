@@ -7684,3 +7684,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-21：[Civ6实际认证依赖](evidence/2026-11-21-civ6-current-authentication-dependency.json)独立文件审阅已交付，0新增模型POST；修复客户端后的真实登录不是可由生成候选替代的认证，凭据值未读／填／提交，0游戏。
 
 2026-11-21：[Civ6登录后离线恢复](evidence/2026-11-21-civ6-postlogin-offline-restored.json)是实际Owner环境操作，0模型POST；UIA与原生当前值一致仍不代游戏验收，实际Popen前重取冻结来源。
+
+
+2026-11-21 [Civ6 R46 ordinary Builder control](evidence/2026-11-21-civ6-normal-builder-control-r46.json):38 full sources/1039429 UTF8 bytes prepared for a real unfinished task; cached1.19.6 maintenance passed, only open-h3-2k listed while configured qwen38-coder absent.0 generation POST/candidate/fallback/config mutation; owner continued UI/Core verified callbacks. Unknown costs/cache null; game results do not grant model capability.

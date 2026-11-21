@@ -2471,3 +2471,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-21：[Civ6认证依赖](evidence/2026-11-21-civ6-current-authentication-dependency.json)无新原生生成或维护能力声明；实际用户认证／当前离线／游戏验收均保持各自边界，未知成本null。
 
 2026-11-21：[离线恢复](evidence/2026-11-21-civ6-postlogin-offline-restored.json)无新维护或原生生成能力；认证／模式／启动／实际效果继续分开，成本未知null。
+
+
+2026-11-21 [Civ6 R46 maintenance boundary](evidence/2026-11-21-civ6-normal-builder-control-r46.json):same-day1.19.6 cache passed,0 native generation tasks. Maintenance and owner game validation do not establish native generation or savings; unknown costs null.
