@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-21T18:32:52.642944+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/f9f9adb5e64953c0db5b8315cd011f230b0ce8b0/docs/research/baiqi-source175-cold-failed100-normal101-limited-2026-11-22.json",
+  "generation_POSTs": 0,
+  "candidate_adopted": 0,
+  "OpenCode_native_generation": 0,
+  "unknown_cost": null,
+  "actual_current175_cold_normal_turn": [
+    100,
+    101
+  ],
+  "new_patch_branch_exercised": false,
+  "lessons": [
+    "Cold loading a failed save can restore existing planning and discard an in-memory wait latch. An observed automatic move and normal next turn prove bounded continuation, not the unobserved new standby path or patch causality.",
+    "Separate an owner poll timeout from a game failure. The finite reader stopped in an ordinary interturn state; later GUI and two native101 frames established completion without replaying END.",
+    "Preserve the original failure, first failed-read receipt, exact one input, late actual result and saved closeout. A full independent acceptance window still follows."
+  ]
+}
