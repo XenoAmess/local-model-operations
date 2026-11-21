@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-21T02:54:24.965649+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/7058d51061f17f68eff0c651db69597042fc3f08/docs/research/baiqi-source173-mouse-research-government135-2026-11-21.json",
+  "generation_POSTs": 0,
+  "candidates": 0,
+  "OpenCode_native_generation": 0,
+  "unknown_cost": null,
+  "real_task_full_sources": 21,
+  "real_task_UTF8_bytes": 582662,
+  "software_checks": {
+    "two_layer_player": 16,
+    "proxy_only": 18
+  },
+  "actual_scope": "Four real UI entry clicks followed by independent state; research and government pages viewed. One quick-chooser wrapper attempt, proxy0 and unchanged independent research. Two QA parent failures are retained; no product whole-case promotion.",
+  "generic_lessons": [
+    "Actual engine tables can be read-only even when their Lua type is table and another manager table was mutable. Detached tests do not grant writability.",
+    "Inspect every supplied replacement wrapper before requiring a lower request-layer count; an earlier guard can validly reject before that layer. Owner overlooked this wrapper and preserves the resulting assertion failure.",
+    "Capture callback return explicitly when it matters; a lambda without return discards it.",
+    "Do not retry a callback already invoked just because an observation assertion failed. Use readonly continuation.",
+    "If the native observation point is unavailable, keep native forwarding count null.",
+    "Hidden/default flags on controls outside the active rendered pane do not establish current editability."
+  ]
+}
