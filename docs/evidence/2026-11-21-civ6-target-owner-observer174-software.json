@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-21T11:15:47.730243+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/815352ddb993ad15068b7b9c47f9509f2ea1506c/docs/research/baiqi-source174-target-owner-observer-software-2026-11-21.json",
+  "prepared_complete_source_count": 13,
+  "prepared_raw_UTF8_bytes": 457530,
+  "generation_POSTs": 0,
+  "candidate_adopted": false,
+  "OpenCode_native_generation": 0,
+  "unknown_cost": null,
+  "owner_validation": {
+    "new_double_VM_scenarios": 54,
+    "existing_cases": 21,
+    "actual_exit": 0,
+    "Native": 0
+  },
+  "initial_red_errors": 2,
+  "lessons": [
+    "Recheck published manager/function bindings after a namespace publisher runs. Successful namespace publication alone does not mean observed bindings remain owned.",
+    "Protect observer bookkeeping before the native call as well as after it; metadata storage failures must never suppress native forwarding.",
+    "For software that captures and compares writer function identity, initialize wrappers before any captures and freeze recording without unbinding during live plans. Restore after owner shutdown, not while those plans remain live.",
+    "A target-owner entry-point observer is a finite scope tool, not automatically proof of all property and gameplay-context writes."
+  ]
+}
