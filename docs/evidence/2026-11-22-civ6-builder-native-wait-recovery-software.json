@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-21T18:20:07.807518+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/0347abb222bbc939b92e0924303145528664cdfd/docs/research/baiqi-source175-native-wait-standby-software-2026-11-22.json",
+  "genuine_before_owner_full_sources": 8,
+  "raw_UTF8_bytes": 420698,
+  "configured_coder_absent_R61": true,
+  "generation_POSTs": 0,
+  "candidate_adopted": 0,
+  "OpenCode_native_generation": 0,
+  "owner_authored_fix": true,
+  "unknown_cost": null,
+  "actual_software_related_tests": 112,
+  "new_regression_methods": 3,
+  "new_dual_VM_subcases": 42,
+  "old_valid_failed_subcases": 16,
+  "current_native_recovery": "NOT_RUN",
+  "lessons": [
+    "A sticky native-wait marker needs a safe waiting path once original native idle state is positively restored. Never treat the original unknown condition as permission to move or replay an ability.",
+    "Capture the held entity key, and recheck exact identity/owner/type/formation, same key/hold, no local pending work, strict single-false native pending/death reads and known-empty destination on both sides of native qualification. Preserve all uncertainty and active queues.",
+    "Regression fixtures must supply the actual producer database row. The first draft omitted UnitOperations and failed as a fixture; after adding the fixture original SKIP row, old174 failed real recovery and coverage assertions before the product changed.",
+    "Keep old actual game failure, old-source software failure, candidate112-check pass, dual compilation/package and pending cold native recovery separate.",
+    "Owned process cleanup after official saved Quit is separately recorded: exact tuple only,>=180s/0windows/0listeners/2s stableCPU. It is not a Steam mode action or proof of client offline."
+  ]
+}
