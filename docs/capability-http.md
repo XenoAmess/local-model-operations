@@ -7698,3 +7698,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-21 [Civ6 R49 natural production](evidence/2026-11-21-civ6-natural-building-project-r49.json):cached1.19.6 maintenance passed; configured coder absent at models/health200, only video model advertised.27/33 full-source real tasks prepared before owner implementation;0 generation POST/candidate/fallback, unknown cost/cache null. Owner Native building completion and passive software tests are separate evidence.
 
 2026-11-22 Civ6[受威胁同格撤离软件](evidence/2026-11-22-civ6-threatened-overlap-evacuation-software.json)：真实未完12源393666字节先准备；R63指定coder缺失，0POST/0候选采用，无模型回退。Owner267相关检查及76双VM子场景通过，夹具两项纠正与原失败保留，冷实机待验；未知成本null。
+
+2026-11-22 Civ6[前置恢复49](evidence/2026-11-22-civ6-prerequisite-unlock-native49.json)：两个真未完上下文15源497865字节／9源25856字节先准备，R64指定coder缺失，0POST/0采用，不回退。Owner8payload双编译和15普通回合、原版解锁／自动圣地入队、保存退场分列；不授整项TC009，Core只读nil根因保UNKNOWN，成本null。
