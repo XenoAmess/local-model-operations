@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-21T09:06:17.969650+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/fd98bc714f428bb437168ee3a4a59a4826a60fc9/docs/research/baiqi-source173-tc005-real172-upgrade-completion118-engine74-2026-11-21.json",
+  "R51_maintenance": {
+    "date": "2026-11-21",
+    "installed_version": "1.19.6",
+    "target_version": "1.19.6",
+    "cached": true
+  },
+  "configured_coder_available": false,
+  "models_and_health_HTTP": 200,
+  "new_generation_POSTs": 0,
+  "candidates": 0,
+  "adopted": 0,
+  "OpenCode_native_generation": 0,
+  "unknown_cost": null,
+  "next_real_full_source_count": 18,
+  "next_real_full_source_UTF8_bytes": 219750,
+  "owner_result": "Real released172 nonzero-progress save cold-upgraded to173; native Castle/Builder completion and legal Campus continuation independently observed, diagnostics removed and official save. TC005 closed;32 cases remain.",
+  "lessons": [
+    "Count ordinary end-action inputs separately from actual turn transitions; sent ACK can return to the same player without advancing. Follow the documented original flow without forcing or replaying military/civilian orders.",
+    "Sent=true with inactive same-turn state can be a real diplomacy modal. Inspect actual owned GUI and handle as TEST_PLAYER instead of replaying END.",
+    "Native quotes can change during a multi-turn scenario; retain measured costs and avoid assuming the initial quote remains fixed.",
+    "Civ UI can have nil _G. Use validated explicit own QA identifiers for cleanup and preserve already completed hook removals when later cleanup fails.",
+    "Actual callback arity and typed raw arguments must be retained; interpret only fields supported by primary consumers."
+  ]
+}
