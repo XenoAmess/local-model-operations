@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-22T22:12:47.694674+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/1aafc29199f7dc43e43eeca05e1ffecc5b5af373/docs/research/baiqi-source179-tc012-normal-building-district-repair-engine74-2026-11-23.json",
+  "actual_scope": "当前179／引擎.74 TC012区域与建筑原版对照均真实通过，白绮两类自动实效继续；整体26/40＝65%、余14、待发7。普通秦从已保护172档载入，Controller不可用、仅1城且无普通区域：现有纪念碑一次明确QA损坏，延后一正常回合读到进度23/31、剩8产能；173一次正常PREPEND修复、请求后仍损坏，174真实完好，文化用命名索引4确认5.09765625→3.09765625→5.09765625。学院先一次合法Native生产选择，36成本／0初始投入／3生产回合真实176建成，无免费区域或完成setter；再一次QA损坏真实已建学院131073，刷新后27/36、剩9产能，177一次正常修复PREPEND且保原建造者34投入，178 Core/UI真实完好、研究项目实际CanProduce false→true。损坏177与修后178人口同6、科研同7／科学家每回合同1，累计1→2自然增长；不虚构科研或伟人点归零。最初硬编码索引3实际科研误称文化及当帧缓存进度0保留纠正，原176科研7.5／GPP0与172人口7不跨时硬归因；两个原版绝对价格不外推白绮。6普通END真实172→178、47普通秦玩家wait／3生产选择／2QA损坏分列，绝非白绮文职救场／BACKGROUND效果。复用R110及R111薄工具，Qin固定领袖适配20双VM中原2负例错回合已另用同回合双VM正负对照纠正，通过后才Native；无新模型准备／GET／生成／候选／采用／原生工具、成本null。已正式存档撤全自有QA并返菜单、当前普通179世界上下文无，继续回已保护白绮116自动修复存档验两类实效，不在对照报告停工。",
+  "reuse_R110_R111_no_new_model_preparation_or_readiness": true,
+  "new_generation_POSTs_candidates_adoption_OpenCode_native": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "owner_software_correction": "Earlier negative used wrong current turn; same-turn fixed leader positive/negative passed bothVM before Native. Keep old fixture failure scope.",
+  "lessons": [
+    "Separate native raw total cost and retained repair progress. Immediate damage reads may be stale; a normal turn refresh established remaining8/9, not a free repair or full reconstruction price.",
+    "Resolve yield indices from current GameInfo and retain raw mislabeled values. Do not compare science as culture or assign population-related cross-turn changes solely to a district repair.",
+    "Native operation acknowledgement is not completion: read both contexts after actual normal turn and retain queue investments, damaged flags and native project eligibility.",
+    "A normal-leader control may legitimately wait civilians or choose production. Fix that authority to the normal leader and verify the production-Baiqi leader is rejected in the same otherwise-valid phase; no transfer of test control into product automation."
+  ],
+  "unknown_owner_cost_seconds": null
+}

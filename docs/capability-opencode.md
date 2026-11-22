@@ -2579,3 +2579,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-23 Civ6[原版改良修复闭场](evidence/2026-11-23-civ6-native-repair-control179.json)：0新增原生生成；owner合法玩家输入／独立Native读回不记模型工具能力。
 
 2026-11-23 Civ6[自动修复／待命薄工具](evidence/2026-11-23-civ6-automatic-repair-and-bounded-player-wait179.json)：维护1.19.6同日缓存，0新原生生成；owner Native输入与实机读回不补模型工具能力。
+
+2026-11-23 Civ6[原版城市修复闭场](evidence/2026-11-23-civ6-native-city-repair-controls179.json)：0新OpenCode原生生成，owner独立Native检查与成本不补模型能力。
