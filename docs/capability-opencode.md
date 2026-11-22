@@ -2487,3 +2487,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 Civ6[撤离修复](evidence/2026-11-22-civ6-threatened-overlap-evacuation-software.json)：仅复用同机同用户当日1.19.6每日维护成功缓存；本任务0OpenCode原生工具生成，不由Owner软件检查授模型原生能力，成本未知null。
 
 2026-11-22 Civ6[前置恢复49](evidence/2026-11-22-civ6-prerequisite-unlock-native49.json)：同机当日1.19.6成功每日缓存复用；本包0原生工具生成，Owner原版实机不计OpenCode生成能力／收益，成本null。
+
+2026-11-22 Civ6[生产修复](evidence/2026-11-22-civ6-occupied-prerequisite-production-software.json)：当日同用户1.19.6维护成功缓存复用，0原生工具生成，不授Owner软件通过为模型生成能力，成本null。
