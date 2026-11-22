@@ -7722,3 +7722,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[行动与冷却边界](evidence/2026-11-22-civ6-paid177-moves-cooldown.json)：R85指定coder缺、37真全源585714字节先备，0POST／采用／fallback；Owner162双VM夹具例及三份当前Native，未知成本null。
 
 2026-11-22 Civ6[TC024完整边界](evidence/2026-11-22-civ6-paid177-tc024-complete.json)：R86真43源648741字节、指定coder缺仅H3，0POST／采用／fallback；Owner当前Native20/40、unknowncost null。
+
+2026-11-22 Civ6[TC026价格变化](evidence/2026-11-22-civ6-tc026177-price-change.json)：R87真30源324367字节、指定coder缺仅H3，0POST／采用／fallback，66双VM夹具及当前Native旧300拒绝／新400重确认，成本null。
