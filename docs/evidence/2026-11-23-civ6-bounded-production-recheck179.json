@@ -1,0 +1,56 @@
+{
+  "utc": "2026-11-22T17:50:09.648054+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/b39a431fd6db46f507b0c503277fa0fae4fc1623/docs/research/baiqi-source179-no-candidate-recheck-software-2026-11-23.json",
+  "status": "OWNER_SOFTWARE_REPAIR_NATIVE_PENDING",
+  "actual_scope": "179无候选恢复软件修复已过、实机仍待：仅真实no-choice后按10秒有效更新时长重评估，512候选／64请求门不变，保留pending／attempts／非空队列／原因去重；无额外顶层Lua51局部绑定。原178同夹具双VM均不恢复，179均同回合排1次；7新方法14VM分支。119包97份双VM、ZIP字节全核，SHAddc2b39301e46f9d23037969aca50d623b051c47ab949e42c26340018dee8cd7。首全量2927/37错误/1SDK跳保留；修支持工具正负版本分支、renderer及旧护送断言，160受影响方法0错误、仅4旧版本常量断言失败，修后这4项＋实际Controller/Executor合计41通过，不冒称最终全量重跑全绿。旧178真实FAIL已保留，正常Quit22688独立消失terminate0/kill0。整体24/40＝60%、余16；待发产品修复7，Native179继续。",
+  "local_model": {
+    "genuine_prepared_R106_sources_bytes": [
+      19,
+      521705
+    ],
+    "genuine_prepared_R107_sources_bytes": [
+      17,
+      224688
+    ],
+    "readiness": [
+      {
+        "utc": "2026-11-22T17:28:17.349192+00:00",
+        "maintenance": {
+          "date": "2026-11-23",
+          "installed_version": "1.19.6",
+          "target_version": "1.19.6",
+          "cached": true
+        },
+        "configured_coder_absent_only_H3": true,
+        "generation_POSTs": 0
+      },
+      {
+        "utc": "2026-11-22T17:39:43.166049+00:00",
+        "maintenance": {
+          "date": "2026-11-23",
+          "installed_version": "1.19.6",
+          "target_version": "1.19.6",
+          "cached": true
+        },
+        "configured_coder_absent_only_H3": true,
+        "generation_POSTs": 0
+      }
+    ],
+    "candidate_adoption_OpenCode_native_fallback": [
+      0,
+      0,
+      0
+    ],
+    "request_wire_or_SSE_claimed": false,
+    "owner_phase_active_cost_seconds": null,
+    "correction_wall_includes_software_waits_and_independent_future_Native_helper_preparation": true
+  },
+  "lessons": [
+    "A candidate-free cache must eventually re-evaluate while preserving pending/attempt/budget authority; zero requests during failure is not successful restoration.",
+    "Updating a version entry gate without its positive mode/cap/metadata branches is insufficient; tests must catch current-version paths before Native use.",
+    "Ordinary Lua51 compilation does not prove a combined diagnostic fits the200-local limit. Avoid unnecessary top-level bindings and validate real combined consumers.",
+    "Keep exact current metadata assertions dynamic while retaining historical template/hash and Native-independent scope.",
+    "Use the actual discovery/import root required by existing test harnesses; failed module loading is owner tooling, not a product behavior result."
+  ],
+  "unknown_cost": null
+}
