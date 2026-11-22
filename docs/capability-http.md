@@ -7742,3 +7742,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[178重复packet实机](evidence/2026-11-22-civ6-committed-packets178-native.json)：R93真18源186539字节、coder缺仅H3，0生成采用；64driverVM和两次真实新duplicate日志／费用及Native1/1/1不增，成本null。
 
 2026-11-22 Civ6[178新canonical请求](evidence/2026-11-22-civ6-distinct-request178-native.json)：R94真17源494277字节、coder缺仅H3，0生成采用；74driverVM与新产品拒绝／目标账本钱包独立读回分列，成本null。
+
+2026-11-22 Civ6[178明确未执行／重复／读档](evidence/2026-11-22-civ6-known-failed178-native.json)：R95真16源171164字节、coder缺仅H3，0生成采用；64VM与两次真实Core拒绝／Native0／读档无退款分列，成本null。
