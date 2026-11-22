@@ -7736,3 +7736,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[确认双击178软件修复](evidence/2026-11-22-civ6-confirmation-input178-software.json)：R91指定coder缺仅H3，21完整实际消费者源289785字节、0POST／采用；64方法／旧177负2及119包，Native待验，成本null。
 
 2026-11-22 Civ6[178实机观测准备](evidence/2026-11-22-civ6-input-capture178-observers.json)：R92真18源100017字节、coder缺仅H3，0POST采用；40双VM及119包通过，Native待执行，成本null。
+
+2026-11-22 Civ6[178双击Native回归](evidence/2026-11-22-civ6-double-input178-native.json)：R92指定coder缺、0生成采用；真实Double送达和费用／原生1/1/1／pendingfalse／queuednil独立读回，旧FAIL保留，成本null。
