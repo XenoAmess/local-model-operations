@@ -1,0 +1,34 @@
+{
+  "utc": "2026-11-22T19:48:27.119914+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/731e599ed3cad92445993dedab89afa8cde97b6f/docs/research/baiqi-source179-tc012-existing-damage-and-api-census-engine74-2026-11-23.json",
+  "actual_scope": "TC012当前179/.74只读清点及现有损坏基线已保存，尚未授修复通过。原114有3现存受损改良：营地581@(9,13)、农场450@(10,10)/404@(8,9)，3现有建造者5832733/6225964/6291501，末者2行动3次数；区域建筑当前无损坏。Core ImprovementBuilder.SetImprovementPillaged、建筑SetPillaged、按UI真实ID查到的Core区域SetPillaged均function，未由类型推签名或调用；全局DistrictBuilder=nil、Core城市区域集合Members=nil，首只读失败已保留、改实际成员检查与双侧查ID。当前同版本官方TunerMapPanel.lua实际有SetImprovementPillaged(plot,true)调用，仅方法事实不发布游戏脚本。原损坏基线568877字节SHA56b695d1f6c022ed5c1f23746c8b9d45298638e5622945b14fb52753cc35144b已正式保存、无QA钩、SaveLoad旗已退、返主菜单世界无；没有造损坏／修复／赠资产／手动内政。R110真14源467899字节，同日1.19.6缓存、coder仍缺仅H3、0生成候选采用OpenCode原生fallback、成本null。整体26/40＝65%、余14、待发7，继续普通秦171对照的原版次数／成本／收益，再回白绮实修三类，不在本提交停工。",
+  "model": {
+    "genuine_R110_sources_UTF8_bytes": [
+      14,
+      467899
+    ],
+    "readiness_utc": "2026-11-22T19:35:23.987996+00:00",
+    "maintenance": {
+      "date": "2026-11-23",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": true
+    },
+    "configured_coder_absent_only_open_h3_2k": true,
+    "generation_POSTs_candidates_adoption_OpenCode_native_fallback": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "request_wire_or_SSE_exists": false,
+    "unknown_cost_seconds": null
+  },
+  "lessons": [
+    "Native object collections differ by execution context: city district collection lacks Members in Core while player district FindID resolves actual IDs learned from UI. Check actual function availability and preserve failed pure reads.",
+    "A Native setter function type does not prove its signature, mutation result or repair behavior. Verify official source invocation and independently read damage/cost/charges/yield before using it in explicit QA setup.",
+    "Existing damaged assets can establish a protected baseline without fabricating a repair test or providing missing AI domestic input."
+  ],
+  "unknown_cost": null
+}
