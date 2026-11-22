@@ -2569,3 +2569,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-23 Civ6[179恢复实机补证](evidence/2026-11-23-civ6-native-production-restoration179.json)：0新原生工具生成／维护调用，不把owner的真实游戏验证归模型生成能力；成本null。
 
 2026-11-23 Civ6[单候选真实恢复闭场](evidence/2026-11-23-civ6-tc013-single-candidate-complete179.json)：1.19.6当日成功缓存、0原生生成，不将owner实机工作和软件VM通过归作模型工具能力；原失败与作用范围保留。
+
+2026-11-23 Civ6[被动权限与一次确认](evidence/2026-11-23-civ6-passive-authority179.json)：1.19.6同日缓存、0原生工具生成，双VM及实机为owner工作，不计模型生成能力。

@@ -1,0 +1,36 @@
+{
+  "utc": "2026-11-22T19:22:30.052850+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/dbfb58ec9f180bb89f21411b0c77736ebe4db143/docs/research/baiqi-source179-tc034-no-confirmation-and-one-paid-engine74-2026-11-23.json",
+  "scope": "179/.74 TC034已完成独立原114未确认与一次真实付费确认分支：323→432自然有效规划／47单位含27玩家控制单位全字段和外交、钱包、空账本保持，观察上下文请求0；随后真实地图右键＋300确认各一次，WorldInput交互1／付费1／普通进攻续调0，Core Capture.Request1，净300、城市0/851979、所选骑手4→0/cool114且无队列，其他46单位（含26玩家控制单位）全部已读字段／外交保持；972→1123后读无追加。已保存568736字节SHA c3d63b56a3cbf52f2521d951d8fb3f7b9b545449d03cd1125a1b9514ee581a8c，全QA与2命名空间精确撤，正式返菜单世界无。原生readonly表导致初次诊断部分安装失败已存档／退Core／正式销毁世界，其他Core UI守卫、MainMenu旗、Executor报价、Lua51 arg夹具错误均保留并更正，不归产品／模型。没有Native三写点计数、UI activity/operation成员nil不推状态；不是全引擎0调用。R109真16源495353字节，coder仍缺仅H3，同日1.19.6缓存、0生成候选采用原生工具fallback、成本null。TC034和平有利扩张场景仍待，整体验收25/40＝62.5%、余15、待发7；不重复上传172，继续。",
+  "models": {
+    "genuine_task_R109_full_source_count_UTF8_bytes": [
+      16,
+      495353
+    ],
+    "readiness_utc": "2026-11-22T18:57:16.435334+00:00",
+    "maintenance": {
+      "date": "2026-11-23",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": true
+    },
+    "configured_coder_absent_only_open_h3_2k": true,
+    "generation_POSTs_candidates_adopted_OpenCode_native_fallback": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "request_wire_or_SSE_exists": false,
+    "owner_cost_seconds": null
+  },
+  "lessons": [
+    "Native table member writes can be refused although public Lua tables are mutable. Retain partial installs; restore owned writable hooks and destroy the actual world context if exact remaining recovery is unavailable, then independently verify contexts absent.",
+    "Use namespace proxies for readonly static APIs; preserve native argument/return/error identity and inherited reads, qualify both VMs, and restore original namespace identities separately from wrapper retirement.",
+    "Quote modules and UI getters differ by execution context. An Executor observer must not infer a missing quote; compare actual WorldInput/Core and keep unknown old frames.",
+    "Context call counts, independent state effects and global Native writer counts are separate evidence levels.",
+    "Lua51 vararg implicit arg can shadow a fixture named arg; separate owner fixture error from Native outcome and model capability."
+  ],
+  "unknown_cost": null
+}
