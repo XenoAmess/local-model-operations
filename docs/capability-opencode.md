@@ -2545,3 +2545,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 Civ6[收费肯定凭证](evidence/2026-11-22-civ6-charged-recovery178.json)：同一维护缓存／0原生生成，软件88＋40与新增CHARGED Native范围分列；不把余额本身当扣费因果。
 
 2026-11-22 Civ6[FINISHING_BEFORE恢复](evidence/2026-11-22-civ6-finish-before-recovery178.json)：同日维护缓存／0原生生成；软件88＋40与新增真实保存恢复分列，不将已作用动作重放。
+
+2026-11-22 Civ6[FINISHING_AFTER恢复](evidence/2026-11-22-civ6-finish-after-recovery178.json)：同日维护缓存／0原生生成；软件88＋40与新增真实保存恢复分列，不将已作用动作重放。
