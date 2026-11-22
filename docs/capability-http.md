@@ -7764,3 +7764,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[R101实际未知扣款任务就绪](evidence/2026-11-22-civ6-owned-residue178.json)：真20源209229字节，14:23:24UTC配置coder仍缺仅H3，0POST/候选/采用，维护缓存成功；未知成本null。
 
 2026-11-22 Civ6[178首次冷恢复／R101新软件](evidence/2026-11-22-civ6-cold-transferred178.json)：实际新进程首次Load0/1/1、追加000；同一R101就绪无新POST/候选/采用，未知扣款负责人32双VM通过尚未Native，成本null。
+
+2026-11-22 Civ6[178未决收费真实存读档](evidence/2026-11-22-civ6-unknown-charge178.json)：同一R101任务、32＋16VM和Native1/1/0／真实UNKNOWN保存冻结分列；无新增POST/候选/采用，成本null。
