@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-22T07:17:05.428497+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/5b41902bf8573ad9e6052d1cb84c78bee331b28b/docs/research/baiqi-source177-tc024-complete-engine74-2026-11-22.json",
+  "finite_ledger": "https://github.com/XenoAmess/civ6_dev/blob/5b41902bf8573ad9e6052d1cb84c78bee331b28b/docs/research/baiqi-source177-finite40-engine74-after-tc024-2026-11-22.json",
+  "model_R86": {
+    "R86_UTC": "2026-11-22T06:52:34.747496+00:00",
+    "genuine_full_sources": 43,
+    "genuine_UTF8_bytes": 648741,
+    "Civ6Common_actual_MoveUnitToPlot_and_RequestMoveOperation_definition_supplied": true,
+    "configured_coder_absent_models_health200_onlyH3": true,
+    "daily_OpenCode_same_user_cached_success": "1.19.6 / local2026-11-22",
+    "generation_POSTs": 0,
+    "candidates": 0,
+    "adopted": 0,
+    "OpenCode_native_generation": 0,
+    "automatic_fallback": 0,
+    "owner_authored": true,
+    "unknown_cost": null
+  },
+  "native_scope": "Current177/.74 TC024 adoptedgold/HP/moves/cooldown/legaladjacency boundaries complete,10 independentloads andsaves, overall20/40=50percent, remaining20. Noothercaseorlongtermpass.",
+  "lessons": [
+    "Native original movement can itself pass through a mod Interact wrapper. Count exactorderedtargets rather than assuming a single Interact call for an entire test; preserve the raw failure and requalify read-only without replaying the move.",
+    "Lua token concatenation must preserve separators at nested end statements. Here compile refused before Native input; both compile and later assertion failures retained distinct scopes.",
+    "No valid adjacent emptyland path is not proof that all routes fail. A bounded visible two-edge search found3 qualified routes; one original TEST_PLAYER move retained1movement and isolated thedistance2 condition.",
+    "A single net fee and correlated completed record are distinct from backend invocation counts, which remain unknown.",
+    "Controlled fixture preparation and TEST_PLAYER military input do not grant BACKGROUND military authority. Retire diagnostics and hooks without restoring actual productstate or clearing journals."
+  ],
+  "unknown_cost": null
+}

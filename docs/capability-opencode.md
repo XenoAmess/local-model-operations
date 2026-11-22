@@ -2507,3 +2507,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 Civ6[生命边界安全点](evidence/2026-11-22-civ6-paid177-health69-71.json)：同日1.19.6成功缓存，0原生生成；OwnerNative事实与模型能力分账。
 
 2026-11-22 Civ6[行动／冷却安全点](evidence/2026-11-22-civ6-paid177-moves-cooldown.json)：同日1.19.6成功缓存复用、0原生生成，Native与工具维护能力分账。
+
+2026-11-22 Civ6[TC024安全点及无输入重放](evidence/2026-11-22-civ6-paid177-tc024-complete.json)：同日1.19.6成功缓存，0原生生成；编译拒绝、实移动成功和观察预期失败分账。
