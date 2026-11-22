@@ -7746,3 +7746,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[178明确未执行／重复／读档](evidence/2026-11-22-civ6-known-failed178-native.json)：R95真16源171164字节、coder缺仅H3，0生成采用；64VM与两次真实Core拒绝／Native0／读档无退款分列，成本null。
 
 2026-11-22 Civ6[178真实原生前UNKNOWN](evidence/2026-11-22-civ6-unknown-before-native178.json)：R96真20源508141字节、coder缺仅H3，0生成采用；64VM与源尝试1／原生0／实际冻结存读档分列，成本null。
+
+2026-11-22 Civ6[178真实UNKNOWN冲突输入](evidence/2026-11-22-civ6-unknown-physical-conflict178.json)：R97真22源382118字节、coder缺仅H3，0生成采用；16VM和真实右键／0新请求／0原生分列，成本null。
