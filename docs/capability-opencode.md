@@ -2549,3 +2549,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 Civ6[FINISHING_AFTER恢复](evidence/2026-11-22-civ6-finish-after-recovery178.json)：同日维护缓存／0原生生成；软件88＋40与新增真实保存恢复分列，不将已作用动作重放。
 
 2026-11-22 Civ6[自有退出残留独立记录](evidence/2026-11-22-civ6-owned-residue178.json)：复用同日1.19.6维护成功／0原生生成；正式退出不等于实际进程消失，单次自有静默残留清理不计干净退出，原因未知。
+
+2026-11-22 Civ6[冷身份与软件实效分列](evidence/2026-11-22-civ6-cold-transferred178.json)：同日1.19.6维护缓存／0原生生成；cold必须actual新tuple／首次Load，旧静默退出异常单列，不借证据标签授验。
