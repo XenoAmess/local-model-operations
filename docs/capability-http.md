@@ -7770,3 +7770,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[178真实未确认弹窗保存恢复](evidence/2026-11-22-civ6-preconfirmation178.json)：R102真20源189056字节，coder缺仅H3；8消费者VM与实际保存／重载源000分列，0POST／候选／采用，成本null。
 
 2026-11-22 Civ6[178完成态及完整阶段矩阵](evidence/2026-11-22-civ6-completed-recovery178.json)：同一R102无新增生成／采用，实际启动000／2恢复和真实同号重投追加000；原保存摘要路径及owner矩阵循环错误显式更正，未归模型失败，成本null。
+
+2026-11-22 UTC Civ6[178旧865当前接口只读复核](evidence/2026-11-22-civ6-legacy865-current-api178.json)：R103真22源533927字节，coder缺仅H3、0POST／候选／采用；实际两侧原ARMED未动，继承／实例与静态端口分开，成本null。

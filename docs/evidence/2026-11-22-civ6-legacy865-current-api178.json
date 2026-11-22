@@ -1,0 +1,45 @@
+{
+  "utc": "2026-11-22T16:09:23.554056+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/1c03d749d8e89a9ec2a4be06d06e5187060912b1/docs/research/baiqi-source178-old865-readonly-current-api-engine74-2026-11-22.json",
+  "actual_scope": "Current178/.74 immutable original158 readonly bank/actor/API inventory. Exact oldARMED unchanged, no qualifier/cancel/WAKE/FOUND/propertyclear, saved/retired/MainMenu; originalFAIL unresolved.",
+  "actual_API_surfaces": {
+    "Core_UnitManager": 18,
+    "UI_own_UnitManager": 4,
+    "UI_inherited_UnitManager": 30,
+    "Core_unit_members": 72,
+    "UI_unit_members": 73
+  },
+  "genuine_R103_sources_UTF8_bytes": [
+    22,
+    533927
+  ],
+  "local_model": {
+    "genuine_R103_sources_UTF8_bytes": [
+      22,
+      533927
+    ],
+    "readiness_utc": "2026-11-22T15:52:25.489213+00:00",
+    "maintenance_on_actual_model_readiness_date": {
+      "date": "2026-11-22",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": true
+    },
+    "configured_coder_absent_only_H3": true,
+    "generation_POSTs_candidates_adoption": [
+      0,
+      0,
+      0
+    ],
+    "OpenCode_native_generation": 0,
+    "fallback_or_service_changes": 0,
+    "unknown_cost": null
+  },
+  "lessons": [
+    "Enumerate inherited proxy index tables separately from direct members; different Core/UI surfaces do not authorize calling a method in the other context.",
+    "Unit.GetOperationType and UnitManager.GetOperationType are different APIs. Record presence without invoking unknown qualification methods.",
+    "A function named RequestCommandImmediate and an empty visible queue do not prove a cancellation/dispatch barrier; missing references in a finite source scope do not prove impossibility.",
+    "Use the actual source in a local diagnostic factory when globals differ across contexts, and verify preservation of an existing foreign global before game reads."
+  ],
+  "unknown_cost": null
+}

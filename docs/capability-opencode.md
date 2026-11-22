@@ -2557,3 +2557,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 Civ6[未确认报价的正式存读档](evidence/2026-11-22-civ6-preconfirmation178.json)：同日1.19.6维护缓存，0原生生成；引擎序列化由真实文件重载验证，不借Lua新上下文测试授验。
 
 2026-11-22 Civ6[真实完成态保存恢复](evidence/2026-11-22-civ6-completed-recovery178.json)：同日1.19.6维护缓存，0原生生成；正式存档与汇总字段分别验收，未用准备或ACK代替实际加载。
+
+2026-11-22 UTC Civ6[原未决请求保持](evidence/2026-11-22-civ6-legacy865-current-api178.json)：实际readiness发生在localNov22并复用1.19.6缓存，未追授Nov23维护；0原生生成，空队列／函数名不算可重放凭证。
