@@ -2501,3 +2501,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 Civ6[三副本检查点](evidence/2026-11-22-civ6-paid177-tc023-complete.json)：1.19.6同日成功维护缓存、0原生生成，Owner实机能力分列，成本null。
 
 2026-11-22 Civ6[新城托管安全点](evidence/2026-11-22-civ6-paid177-tc025-first-legal-point.json)：同日1.19.6成功缓存，0原生生成；OwnerNative与模型能力分账。
+
+2026-11-22 Civ6[金币边界安全点](evidence/2026-11-22-civ6-paid177-gold299-301.json)：同日1.19.6成功缓存，0原生生成；Owner实机及LF字节校验修正不授模型工具能力。
