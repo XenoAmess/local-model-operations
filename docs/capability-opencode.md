@@ -2497,3 +2497,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 Civ6[地图取消安全点](evidence/2026-11-22-civ6-paid177-map-cancel114.json)：当日同用户1.19.6成功维护缓存复用，0原生工具生成，不将Owner游戏事实授模型工具能力；成本null。
 
 2026-11-22 Civ6[普通进攻安全点](evidence/2026-11-22-civ6-paid177-normal-attack114.json)：同日同用户1.19.6维护缓存复用，0原生生成；Owner实机结果不授模型工具能力。
+
+2026-11-22 Civ6[三副本检查点](evidence/2026-11-22-civ6-paid177-tc023-complete.json)：1.19.6同日成功维护缓存、0原生生成，Owner实机能力分列，成本null。

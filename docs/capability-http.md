@@ -7710,3 +7710,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[177新引擎地图报价取消](evidence/2026-11-22-civ6-paid177-map-cancel114.json)：23源524827及5源16250先备；R79指定coder缺、0POST／采用。实际物理入口／移光标／取消及UI-Core不变通过，TC023整项仍开；backend计数null，成本null。
 
 2026-11-22 Civ6[独立普通进攻副本](evidence/2026-11-22-civ6-paid177-normal-attack114.json)：R79指定coder缺，0POST／采用；当前引擎实际战斗伤害、金币不变及0付费请求，不能仅凭续调ACK。TC023等独立确认，成本null。
+
+2026-11-22 Civ6[TC023完整三副本](evidence/2026-11-22-civ6-paid177-tc023-complete.json)：R80指定coder缺，31源550294先备、0POST／采用。实际城市ID映射、300净扣款与单笔DONE独立核验；backend计数null，空城不扩为奇观／长期忠诚通过。
