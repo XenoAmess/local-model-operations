@@ -7738,3 +7738,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[178实机观测准备](evidence/2026-11-22-civ6-input-capture178-observers.json)：R92真18源100017字节、coder缺仅H3，0POST采用；40双VM及119包通过，Native待执行，成本null。
 
 2026-11-22 Civ6[178双击Native回归](evidence/2026-11-22-civ6-double-input178-native.json)：R92指定coder缺、0生成采用；真实Double送达和费用／原生1/1/1／pendingfalse／queuednil独立读回，旧FAIL保留，成本null。
+
+2026-11-22 Civ6[178重复packet实机](evidence/2026-11-22-civ6-committed-packets178-native.json)：R93真18源186539字节、coder缺仅H3，0生成采用；64driverVM和两次真实新duplicate日志／费用及Native1/1/1不增，成本null。
