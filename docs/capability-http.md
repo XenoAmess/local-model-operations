@@ -7726,3 +7726,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[TC026价格变化](evidence/2026-11-22-civ6-tc026177-price-change.json)：R87真30源324367字节、指定coder缺仅H3，0POST／采用／fallback，66双VM夹具及当前Native旧300拒绝／新400重确认，成本null。
 
 2026-11-22 Civ6[TC026单位消失](evidence/2026-11-22-civ6-tc026177-actor-absent.json)：R88真36源359967字节、指定coder缺仅H3，0POST／采用／fallback，70双VM夹具及当前Native缺失对象拒绝，成本null。
+
+2026-11-22 Civ6[TC026第三方旧目标](evidence/2026-11-22-civ6-tc026177-thirdparty.json)：R89真实41源393070字节、指定coder缺仅H3，0POST／采用／fallback；72双VM和当前Native有限拒绝证据，成本null。
