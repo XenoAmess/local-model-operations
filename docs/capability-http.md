@@ -7794,3 +7794,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-23 Civ6[R111真实薄工具准备与原版修复](evidence/2026-11-23-civ6-automatic-repair-and-bounded-player-wait179.json)：12完整源56124字节先准备，两GET200仅H3／指定qwen缺席，0生成候选采用，非REQUEST/SSE/HTTP404。Owner20双VM与Native26玩家SKIP后正常END116，游戏效果另列，未知成本保null。
 
 2026-11-23 Civ6[建筑／区域原版对照](evidence/2026-11-23-civ6-native-city-repair-controls179.json)：复用R110/R111，0新GET／生成候选采用；owner薄工具同回合领袖负例修正与Native余8／9真实修复分列，不把普通玩家输入计AI效果。
+
+2026-11-23 Civ6[TC012三类修复完整实机](evidence/2026-11-23-civ6-three-native-repair-classes179-complete.json)：复用R110/R111，无新模型分母；原版成本／正常排队END分阶段／实际后台完工与玩家军事阻塞分别核验，owner未知成本保null。

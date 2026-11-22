@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-22T22:49:12.703527+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/487b8a455efa5a389aecfb86888abc8e86991f4f/docs/research/baiqi-source179-tc012-complete-engine74-2026-11-23.json",
+  "actual_scope": "TC012完整采用条款实机通过，整体27/40＝67.5%、余13、待发7，继续TC007。原版三个类别均先实测合法修复／成本：普通秦采石场次数3→3产能1→3，纪念碑剩8产能及文化恢复，学院真实36产能建成后剩9修复／项目资格恢复。白绮539农场116真实后台修复次数1→1／粮食4→5已独立存；白绮新116两项明确QA造损坏只针对既有393221纪念碑／已建524295工业区1376276，0玩家文职／生产／修复，117后台唯一匹配请求0:117:8和0:117:10。纪念碑11722/30→118真实完好，文化6.390625→4.58984375→6.390625并自动接大学；工业区11781/109→118102/109→119真实完好、产能22.5→21.6015625→22.5、项目实际资格拒绝→允许、旧95投入保留、项目自然成本100→103，新队列娱乐中心真实记录，不称原项目重排／再完工。Core/UI独立确认，两个修复日志到保存仍各1；自然计数4211/4192→4501/4482无再修复，无全引擎计数宣称。当前119档573228/SHAfd49e972cea33ffcfa3cd83f53b801d2e4405ba6d52f78ee1a0a73c8a34f78e0正式存、RunNow原绑定恢复／全自有QA／SaveLoad旗撤、正式返菜单世界上下文无。5普通无REASON END真实116→119，79军事batchWait＋新将军玩家wait1／move1分列；初END处理队列而同回合、旧driver60纯读停与新将军原版拒绝待命实际路径632→631由玩家解决，不重放单位命令／不救文职。R110/R111复用，无新模型准备／GET／生成／候选／采用／原生工具，无产品修改工坊仍172。旧865FAIL及13项继续，不在本提交停工。",
+  "same_R110_R111_reused_no_new_model_task_or_readiness": true,
+  "new_generation_POSTs_candidates_adoptions_OpenCode_native": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "lessons": [
+    "Original native repair baseline, asynchronous production entry, actual completion, and corresponding named yield/prerequisite effects are separate evidence levels; test each actual class, retain dynamic costs/investment.",
+    "An ordinary END can execute existing queues and return same-turn available. Read actual unit state and use a distinct guarded next normal action; never call UserForced or replay old unit orders to force the turn.",
+    "Normal-player military blockers remain player work. Resolve a new General through actual legal native paths and explicit TEST_PLAYER input; do not grant BACKGROUND army control or manual domestic rescue.",
+    "Pure-read polling should end once stable same-turn availability is established, with actual reconciliation before the next action. Preserve the old bounded-read failure instead of replaying its earlier write."
+  ],
+  "unknown_owner_cost_seconds": null
+}
