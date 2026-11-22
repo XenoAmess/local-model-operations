@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-22T18:11:08.932144+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/4de75a917b244abe60de0c538d2b1fd334bcef51/docs/research/baiqi-source179-tc013-native-original-qualification-restored-engine74-2026-11-23.json",
+  "actual_scope": "179/.74真实恢复通过：新19132/birth1795369951.7707603普通119启动／独立原63，3普通END／9测试玩家军队SKIP至66，城墙自然完成；临时全部资格拒绝时72→135次真实资格检查、695→894规划入口、0生产请求、等待提示1；在1066入口精确恢复原资格，未QA刷新／手填队列，1229和1368入口均真实神社1项0/46/3回合，真正BUILD+APPEND一次／零返回值、产品请求0:66:5，后读不重复。533427字节66档SHAbcde147dfb271c99e7f6079482aec93d16529d78e3b7437e476f674c04292852已存，全QA撤并正式返菜单世界无；Core队列getter缺失单列，未冒称独立Core队列。整项TC013尚待严格单候选开放副本（本轮恢复全部原生资格），整体24/40＝60%、余16、待发7；旧178FAIL保留，继续补齐不在本提交停工。",
+  "new_model_generation_adoption_OpenCode_native": [
+    0,
+    0,
+    0
+  ],
+  "lessons": [
+    "Retiring a qualification failure must be followed by actual natural-planning and native-queue observation; one forwarded zero-return call is not an acceptance receipt.",
+    "Full native qualification restoration is not an exactly-one-allowed-candidate setup. Keep that frozen clause open rather than retroactively relabel the fixture.",
+    "Record old Native failure and current Native repair scope separately, preserving missing Core getters and unknown timings."
+  ],
+  "unknown_cost": null
+}

@@ -2565,3 +2565,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-23 Civ6[本回合生产恢复缺陷](evidence/2026-11-23-civ6-no-candidate-restoration178.json)：1.19.6同日成功缓存，0原生生成；维护、诊断软件与Native FAIL分别记录，成本null。
 
 2026-11-23 Civ6[缓存恢复软件修复](evidence/2026-11-23-civ6-bounded-production-recheck179.json)：1.19.6当天成功缓存、0原生生成；实际错误与owner成本null保留，不以软件包通过授实机效果。
+
+2026-11-23 Civ6[179恢复实机补证](evidence/2026-11-23-civ6-native-production-restoration179.json)：0新原生工具生成／维护调用，不把owner的真实游戏验证归模型生成能力；成本null。
