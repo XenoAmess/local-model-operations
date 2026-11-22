@@ -7766,3 +7766,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[178首次冷恢复／R101新软件](evidence/2026-11-22-civ6-cold-transferred178.json)：实际新进程首次Load0/1/1、追加000；同一R101就绪无新POST/候选/采用，未知扣款负责人32双VM通过尚未Native，成本null。
 
 2026-11-22 Civ6[178未决收费真实存读档](evidence/2026-11-22-civ6-unknown-charge178.json)：同一R101任务、32＋16VM和Native1/1/0／真实UNKNOWN保存冻结分列；无新增POST/候选/采用，成本null。
+
+2026-11-22 Civ6[178真实未确认弹窗保存恢复](evidence/2026-11-22-civ6-preconfirmation178.json)：R102真20源189056字节，coder缺仅H3；8消费者VM与实际保存／重载源000分列，0POST／候选／采用，成本null。

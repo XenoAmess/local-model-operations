@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-22T15:34:23.112886+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/f914bafff41fbed0fd34641894404178281fd421/docs/research/baiqi-source178-tc030-preconfirmation-save-engine74-2026-11-22.json",
+  "actual_scope": "Real product popup remained unconfirmed during official Save. Passive UI metadata before/after:1 Interact/0requests, source000; actual saved file later loaded without old popup, journal or effects; current startup000. Same-process only.",
+  "actual_consumer_VM_cases": 8,
+  "genuine_R102_sources_UTF8_bytes": [
+    20,
+    189056
+  ],
+  "generation_POSTs_candidates_adoption": [
+    0,
+    0,
+    0
+  ],
+  "OpenCode_native_generation": 0,
+  "configured_coder_absent_only_H3": true,
+  "maintenance": {
+    "date": "2026-11-22",
+    "installed_version": "1.19.6",
+    "target_version": "1.19.6",
+    "cached": true
+  },
+  "lesson": "Separate fresh Lua-context lifecycle checks from actual engine serialization. Saving while a real unconfirmed dialog remains visible and checking the actual reloaded file closes a different evidence gap than testing cancellation alone. Lost terminal results stay unknown and completed actions are not replayed.",
+  "unknown_cost": null
+}
