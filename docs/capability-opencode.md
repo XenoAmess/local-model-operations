@@ -2531,3 +2531,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 Civ6[TC027闭合](evidence/2026-11-22-civ6-distinct-request178-native.json)：同日1.19.6维护缓存成功、0原生生成；缺失终端回执不伪写exit0，不重放游戏动作。
 
 2026-11-22 Civ6[TC028完整路径](evidence/2026-11-22-civ6-known-failed178-native.json)：同日1.19.6维护缓存成功、0原生生成；实际先转城后收费，无预扣分支，不伪造补偿通过。
+
+2026-11-22 Civ6[未知因果分支](evidence/2026-11-22-civ6-unknown-before-native178.json)：同日1.19.6维护缓存成功、0原生生成；2显式恢复与8自然规划入口分别计，不把入口计数当内部Tick命中。
