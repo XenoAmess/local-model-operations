@@ -1,0 +1,35 @@
+{
+  "utc": "2026-11-22T18:44:14.175750+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/a8d06ca71252c4e70a3e51d4c61ccd003642c60f/docs/research/baiqi-source179-tc013-complete-engine74-2026-11-23.json",
+  "actual_scope": "TC013采用合同整项通过，整体25/40＝62.5%、余15、待发7。自然占用前置后备长枪兵实际完成（178/.74、当前179仅3个no-choice/cache逆向hunk逐字节还原旧源码，未改正向后备路径）；179全拒绝下有限等待／恢复全部原资格已独立实机；本轮另一原63普通3END／9军队SKIP到66，全拒绝54→90资格／812→943规划、0生产／等待提示1，然后只开放神社，真正原生合格待命项目仍QA拒绝。2次owner只读资格不是订单；新计数58原生true／55拒绝，放行3＝owner神社资格1＋产品候选和最终写门2；实际神社0/46/3回合，唯一BUILD+APPEND／产品0:66:5，后读373→598自然规划无重复。533439字节单候选66档SHAf04d0dbc348e466d47e83bde1ce3e7a46be38112833179bbb1d92e022ecb0917已保存，全QA撤并正式返菜单。rawget实际nil在首次开放前守卫拒绝，读回未开放／未清cache；旧fault378调用0丢样独立退，新helper在rawget=nil双VM通过后替换，保留RequestProbe0，未重放setter或游戏动作。R108真14源466521字节，coder仍缺仅H3、1.19.6同日成功缓存、0生成候选采用原生工具fallback，成本null。Core缺队列getter／受控拒绝不是自然全非法／未实机重跑179后备／非无限时间或所有弹窗计数均明列。新台账纠正旧继承的20剩余／6待发，统一25闭／15余／7待发；旧865FAIL和其余未知保持，马上继续TC034及其他剩余，不停在本提交。",
+  "local_model": {
+    "genuine_R108_full_sources_UTF8_bytes": [
+      14,
+      466521
+    ],
+    "readiness_UTC": "2026-11-22T18:12:33.832409+00:00",
+    "maintenance": {
+      "date": "2026-11-23",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": true
+    },
+    "configured_coder_absent_only_H3": true,
+    "generation_POSTs_candidates_adoption_OpenCode_native_fallback": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "owner_stage_active_cost_seconds": null,
+    "no_actual_request_wire_or_SSE_claimed": true
+  },
+  "lessons": [
+    "Engine Lua environments can remove a standard-library function even when generic Lua51/53 tests pass. Read actual availability before a live mutation; fail before setter/input, preserve state, use supported language operations and rerun the same meaningful cases with the unavailable binding nil.",
+    "When replacing only a diagnostic fault, explicitly retire owned bindings, preserve old counter interval and independent request probe, and record new counters as a separate interval. Do not erase product caches or replay uncertain setters/actions.",
+    "Exact single-candidate opening is distinct from restoring all native qualification. Read the actual allowed candidate and an originally legal alternative still refused, then separately prove original native order and actual queue.",
+    "Cumulative progress ledgers must derive all remaining lists and counts from the same finite case set; preserve old inconsistent artifacts with an explicit new normalization instead of silently rewriting historical counts."
+  ],
+  "unknown_cost": null
+}

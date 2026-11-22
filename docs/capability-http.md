@@ -7780,3 +7780,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-23 Civ6[179有界生产重评估](evidence/2026-11-23-civ6-bounded-production-recheck179.json)：R106/R107真任务完整准备，coder缺仅H3，0POST／候选／采用；owner实现、旧178双VM负例、软件检查与Nativepending分列。
 
 2026-11-23 Civ6[179真实同回合生产恢复](evidence/2026-11-23-civ6-native-production-restoration179.json)：沿已发布owner软件执行，0新模型生成／采用；实际神社队列与唯一原生调用、旧FAIL及单候选剩余条款分别记录。
+
+2026-11-23 Civ6[TC013严格单候选整项验收](evidence/2026-11-23-civ6-tc013-single-candidate-complete179.json)：R108真14源466521字节，coder缺仅H3、0生成／候选／采用；owner实测rawget缺失前置拒绝、诊断修正和真实单队列效果分别记录，成本null。
