@@ -1,0 +1,39 @@
+{
+  "utc": "2026-11-22T09:34:04.016302+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/1c46d4884f80b0117038cd8d0be19a9140fcbf93/docs/research/baiqi-source178-confirmation-input-software-2026-11-22.json",
+  "model": {
+    "R91_UTC": "2026-11-22T09:19:40.551629+00:00",
+    "initial_genuine_sources_UTF8_bytes": [
+      18,
+      268309
+    ],
+    "revised_full_actual_consumers_sources_UTF8_bytes": [
+      21,
+      289785
+    ],
+    "configured_coder_absent_only_open_h3_2k": true,
+    "models_health_HTTP_status": [
+      200,
+      200
+    ],
+    "daily_OpenCode_same_user_cached_success": "1.19.6/local2026-11-22",
+    "generation_POSTs": 0,
+    "candidates": 0,
+    "adopted": 0,
+    "OpenCode_native_generation": 0,
+    "fallback": 0,
+    "owner_authored": true,
+    "unknown_cost": null
+  },
+  "tests": 64,
+  "new_dual_VM_subcases": 30,
+  "old177_same_regression_failures": 2,
+  "Native178": "NOT_RUN",
+  "unknown_cost": null,
+  "lessons": [
+    "Pendingrequest UIstate mayclear before a secondphysicalclick. Use actualnative doubleclickmessage sequence instead ofassumingpending blocksinput.",
+    "Separatecontexts need an explicittransientUIevent bridge; validateactualcurrentplayer/turn and removeonlyownlistener.",
+    "Freshbutton/key input must passnormalcommands; suppress onlyclosingmodal sequence, notallmilitarymovement or a permanentcontrol.",
+    "Oldversion mustfail for the actualqueued-effect assertion using samefixture; missingnewfunction checks are insufficient."
+  ]
+}

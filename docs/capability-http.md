@@ -7732,3 +7732,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[TC027当前调用点准备](evidence/2026-11-22-civ6-tc027177-native-observer-software.json)：R90真实20源193724字节、指定coder缺仅H3，0POST／采用／fallback；16双VM及119包只授软件，Native待执行，成本null。
 
 2026-11-22 Civ6[TC027真实双击FAIL](evidence/2026-11-22-civ6-tc027177-clickthrough-failure.json)：R90指定coder缺、0生成采用；Native征取计数1/1/1仍暴露军队队列831，保存失败继续修复，成本null。
+
+2026-11-22 Civ6[确认双击178软件修复](evidence/2026-11-22-civ6-confirmation-input178-software.json)：R91指定coder缺仅H3，21完整实际消费者源289785字节、0POST／采用；64方法／旧177负2及119包，Native待验，成本null。
