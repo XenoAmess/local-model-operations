@@ -7728,3 +7728,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[TC026单位消失](evidence/2026-11-22-civ6-tc026177-actor-absent.json)：R88真36源359967字节、指定coder缺仅H3，0POST／采用／fallback，70双VM夹具及当前Native缺失对象拒绝，成本null。
 
 2026-11-22 Civ6[TC026第三方旧目标](evidence/2026-11-22-civ6-tc026177-thirdparty.json)：R89真实41源393070字节、指定coder缺仅H3，0POST／采用／fallback；72双VM和当前Native有限拒绝证据，成本null。
+
+2026-11-22 Civ6[TC027当前调用点准备](evidence/2026-11-22-civ6-tc027177-native-observer-software.json)：R90真实20源193724字节、指定coder缺仅H3，0POST／采用／fallback；16双VM及119包只授软件，Native待执行，成本null。
