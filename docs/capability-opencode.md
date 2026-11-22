@@ -2583,3 +2583,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-23 Civ6[原版城市修复闭场](evidence/2026-11-23-civ6-native-city-repair-controls179.json)：0新OpenCode原生生成，owner独立Native检查与成本不补模型能力。
 
 2026-11-23 Civ6[三类修复闭场](evidence/2026-11-23-civ6-three-native-repair-classes179-complete.json)：0新OpenCode原生生成，owner Native读回／正常输入不计模型工具能力。
+
+
+2026-11-23 [Civ6 R112维护复用](evidence/2026-11-23-civ6-r112-military-cap-observation.json)：OpenCode1.19.6同日成功缓存；本单0原生工具生成／调用，不并入HTTP候选采用或Civ6效果。

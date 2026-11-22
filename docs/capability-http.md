@@ -7796,3 +7796,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-23 Civ6[建筑／区域原版对照](evidence/2026-11-23-civ6-native-city-repair-controls179.json)：复用R110/R111，0新GET／生成候选采用；owner薄工具同回合领袖负例修正与Native余8／9真实修复分列，不把普通玩家输入计AI效果。
 
 2026-11-23 Civ6[TC012三类修复完整实机](evidence/2026-11-23-civ6-three-native-repair-classes179-complete.json)：复用R110/R111，无新模型分母；原版成本／正常排队END分阶段／实际后台完工与玩家军事阻塞分别核验，owner未知成本保null。
+
+
+2026-11-23 [Civ6 R112军队预算观察准备](evidence/2026-11-23-civ6-r112-military-cap-observation.json)：15完整输入486280字节；1.19.6同日缓存，models/health两GET200但仅H3，0生成／候选／采用、无REQUEST/SSE／本轮HTTP404。Owner被动纯Lua工具双VM及当前179/.74上限副本完成；真实评分369，最终军队AllowRecruit0，拒绝因果不补造，整例仍OPEN。成本null。
