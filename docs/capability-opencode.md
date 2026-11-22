@@ -2517,3 +2517,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 Civ6[转城后对象生命周期](evidence/2026-11-22-civ6-tc026177-thirdparty.json)：同日1.19.6维护缓存成功、0原生生成；QA安全性与游戏实际结果分列。
 
 2026-11-22 Civ6[TC027诊断](evidence/2026-11-22-civ6-tc027177-native-observer-software.json)：同日1.19.6维护缓存成功，0原生生成；负责人移植观测器不计作模型能力。
+
+2026-11-22 Civ6[双击FAIL](evidence/2026-11-22-civ6-tc027177-clickthrough-failure.json)：同日1.19.6维护缓存成功、0原生生成；16VM观测软件成功不能授Native交互通过。
