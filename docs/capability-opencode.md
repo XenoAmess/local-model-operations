@@ -2521,3 +2521,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 Civ6[双击FAIL](evidence/2026-11-22-civ6-tc027177-clickthrough-failure.json)：同日1.19.6维护缓存成功、0原生生成；16VM观测软件成功不能授Native交互通过。
 
 2026-11-22 Civ6[输入序列修复](evidence/2026-11-22-civ6-confirmation-input178-software.json)：同日1.19.6维护缓存成功、0原生生成，负责人实现测试不计作模型代码能力。
+
+2026-11-22 Civ6[178观测器](evidence/2026-11-22-civ6-input-capture178-observers.json)：同日1.19.6维护缓存成功，0原生生成；负责人诊断工具软件通过不授游戏实际效果。
