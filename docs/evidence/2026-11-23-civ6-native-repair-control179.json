@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-22T20:57:19.474199+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/9e21f1c9f4e1d1c36a5c0454717cd26ca32826cb/docs/research/baiqi-source179-tc012-normal-native-improvement-repair-engine74-2026-11-23.json",
+  "actual_scope": "TC012原版改良修复对照实际通过，整项仍OPEN，整体26/40＝65%、余14、待发7。普通秦171已有采石场279@(15,6)与建造者589832，Controller不可用；一次明确QA按官方Tuner签名造损坏，产能3→1、次数3不变；普通玩家处理欢迎页／万神殿／科技／市政／政体政策与总督真实阻塞，6SKIP、两次军事移动请求中旧山地目标0效果／新236路径235→236实际移动1，1次无UserForced普通END真实172。一次原生REPAIR147469951／零返回值后，UI/Core损坏true→false、次数3→3、行动2→0、现金127保持、粮食2保持／产能1→3、pendingfalse／队列nil；没有外部恢复setter。468874字节正式档SHAe391f8050f0a4b4ce1ac3e664292cce9e39a13d06ad132929d17955ede72b433已存，全部自有17类输入尝试所涉旗／SaveLoad旗显式撤，正式返菜单世界无。旧Owner ActionPanel模块／枚举签名／零字段marker／Core human getter／预期位置过早断言失败均保留；通用CanStart真不授目标合法，旧山地无路径原件和无队列读回、新合法路径移动分列。所有普通秦前置均记TEST_PLAYER，不算白绮AI；速度／秦特性不把绝对成本外推白绮。复用R110，无新模型／生成／采用分母，成本null。马上回白绮当前179损坏114，观察真正BACKGROUND修复与字段／日志，不手动救文职；区域建筑对照及实际完工继续。",
+  "reuse_R110_no_new_model_task": true,
+  "new_generation_POSTs_candidates_adoption_OpenCode_native": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "lessons": [
+    "Generic operation eligibility can be true for an impassable destination. Independently inspect terrain and actual native path before issuing a unit movement. ACK/zero return never proves displacement.",
+    "When an old request has no observed movement, read both contexts and actual pending/queue before classifying. New distinct valid destination is a separate intent, not silent replay or queue cancellation.",
+    "Original UI keyboard handlers can provide a supported confirmation path when a low-resolution viewport clips a button. Read actual handler, preserve draft, press one key and observe actual confirmation/result.",
+    "Normal-player fixture prerequisites and repair operations are TEST_PLAYER evidence, never autonomous effect or model capability. Keep traits/speed/cost context and owner diagnostic failures."
+  ],
+  "unknown_cost": null
+}

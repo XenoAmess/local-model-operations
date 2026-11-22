@@ -7788,3 +7788,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-23 Civ6[TC034战时／和平条款闭合](evidence/2026-11-23-civ6-authority-war-and-peace179-complete.json)：复用R109既有被动helper、无新模型请求或采用分母，owner独立Native场景及有限零调用边界分列。
 
 2026-11-23 Civ6[修复API及现存损坏清点](evidence/2026-11-23-civ6-repair-api-census179.json)：R110真14源467899字节、coder缺仅H3、0生成／候选／采用；owner差异修正／Native只读／保存与修复未知分列，成本null。
+
+2026-11-23 Civ6[真实原版修复对照](evidence/2026-11-23-civ6-native-repair-control179.json)：同R110复用，无新任务／生成／候选／采用分母；owner目标路径误判与原版确认／Native修复成本分列，成本null。
