@@ -2491,3 +2491,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 Civ6[生产修复](evidence/2026-11-22-civ6-occupied-prerequisite-production-software.json)：当日同用户1.19.6维护成功缓存复用，0原生工具生成，不授Owner软件通过为模型生成能力，成本null。
 
 2026-11-22 Civ6[73安全点](evidence/2026-11-22-civ6-assets73-cold67-limits.json)：同用户1.19.6当日成功缓存复用、0原生工具生成；Owner游戏证据不授模型生成能力，成本null。
+
+2026-11-22 Civ6[TC004安全点75](evidence/2026-11-22-civ6-tc004-native-inputs75.json)：当日同用户1.19.6维护缓存复用，0原生工具生成，Owner游戏验收不授模型工具能力；成本null。
