@@ -2561,3 +2561,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 UTC Civ6[原未决请求保持](evidence/2026-11-22-civ6-legacy865-current-api178.json)：实际readiness发生在localNov22并复用1.19.6缓存，未追授Nov23维护；0原生生成，空队列／函数名不算可重放凭证。
 
 2026-11-23 Civ6[前驱场景自然复现](evidence/2026-11-23-civ6-occupied-prerequisite178.json)：当天实际OpenCode1.19.6维护成功非缓存，0原生生成；不得把每日维护、参数转发、真实生产或整个TC013混作同一完成层。
+
+2026-11-23 Civ6[本回合生产恢复缺陷](evidence/2026-11-23-civ6-no-candidate-restoration178.json)：1.19.6同日成功缓存，0原生生成；维护、诊断软件与Native FAIL分别记录，成本null。

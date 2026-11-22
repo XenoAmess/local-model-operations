@@ -1,0 +1,54 @@
+{
+  "utc": "2026-11-22T17:29:44.338819+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/86fdd22af57fef62d5c87ba0e1c3797b84d84791/docs/research/baiqi-source178-tc013-no-candidate-restoration-fail-engine74-2026-11-23.json",
+  "status": "REAL_NATIVE_FAILURE_REPAIR_CONTINUES",
+  "actual_scope": "当前178/.74 TC013真实受控拒绝后恢复FAIL：原63普通3END／9军队SKIP到66，城墙自然完工，9项原生true生产资格暂拒；806→912实际规划入口保持9资格／0生产请求／等待提示1，其他城学院正常33/78。原函数在991入口精确恢复，1097→1261入口仍空队列；1426时原生神社BUILD及两种CanProduce都true，队列仍0/0。未用QARefresh或手工生产救场。已正式保存533475字节SHA8bb69be83fbadc7fb6e55172b8cb2831a1032fcfefe311b22e9967e5c8839d55、全QA撤、返菜单世界无；Core无四个队列getter明确单列，不冒称双侧队列。整体24/40＝60%、余16、待发6，新增待修1；继续修本回合无候选缓存并实机复测。",
+  "local_model": {
+    "R105_sources_UTF8_bytes": [
+      16,
+      491645
+    ],
+    "R106_repair_sources_UTF8_bytes": [
+      19,
+      521705
+    ],
+    "readiness": [
+      {
+        "utc": "2026-11-22T17:12:52.114266+00:00",
+        "maintenance": {
+          "date": "2026-11-23",
+          "installed_version": "1.19.6",
+          "target_version": "1.19.6",
+          "cached": true
+        },
+        "generation_POSTs": 0,
+        "configured_model_absent_only_H3": true
+      },
+      {
+        "utc": "2026-11-22T17:28:17.349192+00:00",
+        "maintenance": {
+          "date": "2026-11-23",
+          "installed_version": "1.19.6",
+          "target_version": "1.19.6",
+          "cached": true
+        },
+        "generation_POSTs": 0,
+        "configured_model_absent_only_H3": true
+      }
+    ],
+    "candidates_adopted_OpenCode_native_fallback": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "owner_phase_cost_seconds": null
+  },
+  "lessons": [
+    "Controlled qualification refusal must be named as injection; original true responses are not naturally illegal engine candidates.",
+    "Bounded wait and successful restoration are separate clauses. Observe genuine natural planning after removal without an artificial cache refresh.",
+    "Do not assume UI native queue getters exist in Core; type actual members and retain unsupported-read failure.",
+    "Only a completed parent permits GUI capture/input; a guard refusal is not a screenshot."
+  ],
+  "unknown_cost": null
+}
