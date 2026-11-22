@@ -7718,3 +7718,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[金币三档实际矩阵](evidence/2026-11-22-civ6-paid177-gold299-301.json)：R82/R83指定coder缺、真42源594743／50源620235，0POST／采用。299拒绝、300／301结余0／1；QA余额与能力收费分账，88夹具故障子例，成本null。
 
 2026-11-22 Civ6[生命69／70／71矩阵](evidence/2026-11-22-civ6-paid177-health69-71.json)：R84指定coder缺、48源629719先备、0POST／采用；162双VM夹具故障例及当前Native阈值含等号，成本null。
+
+2026-11-22 Civ6[行动与冷却边界](evidence/2026-11-22-civ6-paid177-moves-cooldown.json)：R85指定coder缺、37真全源585714字节先备，0POST／采用／fallback；Owner162双VM夹具例及三份当前Native，未知成本null。

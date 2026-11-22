@@ -2505,3 +2505,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 Civ6[金币边界安全点](evidence/2026-11-22-civ6-paid177-gold299-301.json)：同日1.19.6成功缓存，0原生生成；Owner实机及LF字节校验修正不授模型工具能力。
 
 2026-11-22 Civ6[生命边界安全点](evidence/2026-11-22-civ6-paid177-health69-71.json)：同日1.19.6成功缓存，0原生生成；OwnerNative事实与模型能力分账。
+
+2026-11-22 Civ6[行动／冷却安全点](evidence/2026-11-22-civ6-paid177-moves-cooldown.json)：同日1.19.6成功缓存复用、0原生生成，Native与工具维护能力分账。
