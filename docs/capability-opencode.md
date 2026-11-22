@@ -2537,3 +2537,5 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 2026-11-22 Civ6[实际输入补证](evidence/2026-11-22-civ6-unknown-physical-conflict178.json)：同日1.19.6维护缓存成功、0原生生成；未装return观测器则Native返回值保持null，不由源码预期推定。
 
 2026-11-22 Civ6[因果与观测修正](evidence/2026-11-22-civ6-applied-lost-receipt178.json)：同日1.19.6维护缓存成功、0原生生成；读回条件错误及Core/UI收入差异保留，不重放游戏动作，不扩大为全字段相等。
+
+2026-11-22 Civ6[第三方因果与终态缺口](evidence/2026-11-22-civ6-third-party-unknown178.json)：复用同用户同日1.19.6维护成功；0原生生成，terminal丢失保持null并核OS与完整证据、不重放游戏动作。

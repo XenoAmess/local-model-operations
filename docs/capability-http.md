@@ -7750,3 +7750,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[178真实UNKNOWN冲突输入](evidence/2026-11-22-civ6-unknown-physical-conflict178.json)：R97真22源382118字节、coder缺仅H3，0生成采用；16VM和真实右键／0新请求／0原生分列，成本null。
 
 2026-11-22 Civ6[178实际转城回执丢失](evidence/2026-11-22-civ6-applied-lost-receipt178.json)：R98真21源511224字节、coder缺仅H3，0生成采用；68VM与真正原生1／源wrapper异常／真实UNKNOWN存读档分列，成本null。
+
+2026-11-22 Civ6[178第三方UNKNOWN](evidence/2026-11-22-civ6-third-party-unknown178.json)：R99真20源524218字节，coder缺仅H3，0POST/候选/采用；62VM与外部QA转移1／产品源调用点0分列，成本null。
