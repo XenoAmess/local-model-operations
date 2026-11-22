@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-22T13:28:52.901782+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/880c993439a71369355309e1bd5b80d77e97a973/docs/research/baiqi-source178-tc030-transferred-recovery-engine74-2026-11-22.json",
+  "whole_TC029_evidence": "https://github.com/XenoAmess/civ6_dev/blob/880c993439a71369355309e1bd5b80d77e97a973/docs/research/baiqi-source178-tc029-complete-engine74-2026-11-22.json",
+  "model": {
+    "R100_UTC": "2026-11-22T13:09:04.591139+00:00",
+    "genuine_full_sources": 18,
+    "genuine_UTF8_bytes": 176096,
+    "configured_coder_absent_only_H3": true,
+    "daily_OpenCode_same_user_cached_success": "1.19.6/local2026-11-22",
+    "generation_POSTs": 0,
+    "candidates": 0,
+    "adopted": 0,
+    "OpenCode_native_generation": 0,
+    "fallback": 0,
+    "unknown_cost": null
+  },
+  "actual_phase_dual_VM_cases": 88,
+  "actual_recovered_duplicate_dual_VM_cases": 40,
+  "Native_scope": "Actual persisted TRANSFERRED pending save, fresh-offline real same-process reload, startup source transfer0/debit1/Finish1 and positive DONE receipts. Two doneRecovers and one actual known-DONE UI duplicate add000, full journal/source rows unchanged. Completes TC029 causal contract23/40; TC030 otherphases/cold remainopen.",
+  "lessons": [
+    "A native action followed by an injected exception may be immediately reconciled by the actual consumer; validate the consumer when designing a save-window diagnostic.",
+    "A scoped additional read interruption may hold the real pending window without forging a journal; document both bindings and retire by exact identity.",
+    "Separate initial startup recovery counts from subsequent no-op recovery/duplicate counts; initialize passive observers before startup.",
+    "A recovered result may legitimately use reason=recovered rather than committed. Retain all authority/state/once guards while testing the specific diagnostic consumer change."
+  ],
+  "unknown_cost": null
+}
