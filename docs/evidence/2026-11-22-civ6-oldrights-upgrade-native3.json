@@ -1,0 +1,57 @@
+{
+  "utc": "2026-11-22T01:06:39.448925+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/fe42653175da6c525147cf393096f4ba61b0422a/docs/research/baiqi-source176-tc032-oldrights-engine74-2026-11-22.json",
+  "project_upgrade_evidence": "https://github.com/XenoAmess/civ6_dev/blob/fe42653175da6c525147cf393096f4ba61b0422a/docs/research/baiqi-source176-tc039-upgrade-engine74-2026-11-22.json",
+  "project_ledger": "https://github.com/XenoAmess/civ6_dev/blob/fe42653175da6c525147cf393096f4ba61b0422a/docs/research/baiqi-source176-finite40-engine74-after-tc032039-2026-11-22.json",
+  "model_operations": {
+    "genuine_contexts": [
+      {
+        "task": "TC032 native migration helpers",
+        "sources": 22,
+        "UTF8_bytes": 569129
+      },
+      {
+        "task": "TC039 supported path reconciliation",
+        "sources": 14,
+        "UTF8_bytes": 646711
+      }
+    ],
+    "configured_model": "qwen38-coder",
+    "catalog_models": [
+      "open-h3-2k"
+    ],
+    "R71_utc": "2026-11-22T00:45:11.489989+00:00",
+    "R72_utc": "2026-11-22T01:01:31.675041+00:00",
+    "catalog_health_HTTP200_each": true,
+    "OpenCode_maintenance_only": {
+      "date": "2026-11-22",
+      "installed_version": "1.19.6",
+      "target_version": "1.19.6",
+      "cached": true
+    },
+    "generation_POSTs": 0,
+    "candidate_adopted": 0,
+    "OpenCode_native_generation": 0,
+    "automatic_fallback": false,
+    "configuration_changes": 0,
+    "service_changes": 0,
+    "unknown_cost": null,
+    "owner_helper_verification": {
+      "syntax_files": 11,
+      "dual_VM_payload_compilations": 24,
+      "real_preserved_dirty160_data_requalified": true,
+      "negative_rejections": [
+        "player.0.gold",
+        "city.source.food",
+        "city.recipient.housing"
+      ]
+    }
+  },
+  "owner_native": "Original active operating-rights fixture cold current176 upgrade, two ordinary settlements and formal current-save reload. Source food3→4/housing4→6,recipient6→5/10→8,granaries intact, historical paid150 journal unchanged. P0gold1850→1855→1860/P1gold10→16→22 exactly normal observed yields5/6 and maintenance0; no refund or duplicate operation. UI152/Core152 plus owned world snapshots equal on reload. Finalsave/MainMenu/retirement verified. TC032 and three-path TC039 qualified;15/40,25remain.",
+  "lessons": [
+    "A first dirty native yield difference can be the intended removal of a legacy transferred effect. Check opposite signs at source and recipient plus wallet/journal invariants; do not require dirty and clean yields to be equal.",
+    "A typed detached observer can be reused only after its current source inverse, package bytes and new owned process authority are independently checked. Old lifecycle actions and old native pins must not be executed.",
+    "Supported upgrade paths, current normal automation after reload, failed legacy paths, and universal save recovery are separate claims.",
+    "Configured-coder absence with GET200 catalog/health is a readiness fact, not a fresh generation404 or model-produced candidate."
+  ]
+}
