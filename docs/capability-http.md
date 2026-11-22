@@ -7799,3 +7799,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6 R112军队预算观察准备](evidence/2026-11-23-civ6-r112-military-cap-observation.json)：15完整输入486280字节；1.19.6同日缓存，models/health两GET200但仅H3，0生成／候选／采用、无REQUEST/SSE／本轮HTTP404。Owner被动纯Lua工具双VM及当前179/.74上限副本完成；真实评分369，最终军队AllowRecruit0，拒绝因果不补造，整例仍OPEN。成本null。
+
+
+2026-11-23 [R112后续低储备原生观察](evidence/2026-11-23-civ6-r112-low-reserve-observation.json)：同真实任务的Owner续行，无新模型任务／生成／采用；低金币且零军队队列不证明财政门被调用，实际AllowRecruit0故保持OPEN。原版军队阻塞实际解决后1普通END，2个Owner诊断错误原件与不重放恢复分列；四类型评分采样／完整军事招募输入的有界工具双VM资格通过，尚未长链实机。
