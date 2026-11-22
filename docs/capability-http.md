@@ -7706,3 +7706,5 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 2026-11-22 Civ6[资产保护73及冷队列限制](evidence/2026-11-22-civ6-assets73-cold67-limits.json)：6真实普通回合闭合TC010，177新增占据分支未触发不冒称修复。下一18源855723字节先备，R77指定coder缺／0POST采用，Owner资格与Native分列，未知成本null。
 
 2026-11-22 Civ6[TC004原生输入矩阵](evidence/2026-11-22-civ6-tc004-native-inputs75.json)：18源855723及15源569087真任务先备，R77/78指定coder缺、0POST/采用。Owner16双VM及真实矿山/自然空队列拒绝、实体M事件通过，17/40仅游戏台账；成本null。
+
+2026-11-22 Civ6[177新引擎地图报价取消](evidence/2026-11-22-civ6-paid177-map-cancel114.json)：23源524827及5源16250先备；R79指定coder缺、0POST／采用。实际物理入口／移光标／取消及UI-Core不变通过，TC023整项仍开；backend计数null，成本null。
