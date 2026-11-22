@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-22T21:35:02.464179+00:00",
+  "project_evidence": "https://github.com/XenoAmess/civ6_dev/blob/77bc0b52ffa8f73d95bb73000599bc89b81d2cc7/docs/research/baiqi-source179-tc012-automatic-improvement-repair-engine74-2026-11-23.json",
+  "actual_scope": "当前179／引擎.74白绮改良自动修复分支已通过，TC012整项仍OPEN；整体26/40＝65%、余14、待发7。539既有自有农场与5832733建造者：115一次明确QA损坏粮食5→4，正常115→116后台唯一匹配REPAIR请求0:116:27后，Core/UI损坏true→false、粮食4→5、次数1→1，修后行动0／pendingfalse／队列nil。无玩家文职修复、外部恢复setter、单位／产能赠送；两个原版场景的零次数消耗不外推所有类／价格。先前自然115修复缺即时收益前照，不拿它单独授受控通过；原3受损581/450/404未称全修。只有RunNow自然被动计数、无Native命名空间替换／人工规划刷新，3223/3214→3565/3556后仍单一匹配日志，已精确恢复绑定。两个普通END实际114→115→116，52玩家军事SKIP与4实际军事移位分列，绝非BACKGROUND军令。Owner零返回GetProperty／尝试编号碰撞／复合路径守卫／清理计数27误判与零字段marker读取失败全保留，不重放。R111真实12完整源56124字节先准备，维护1.19.6同日缓存；当前models/health两GET200但只有open-h3-2k、缺指定qwen38-coder，0生成／候选／采用／原生工具／fallback，未冒称REQUEST/SSE或HTTP404。Owner军队待命薄工具20双VM分支及实际26独立资格SKIP→原版无阻塞→一次正常END到116通过；工具ACK与真实效果分别读回，净省时未测、成本null。正式存档、全自有世界QA／SaveLoad旗撤、返菜单世界上下文无。接着做普通秦区域／建筑真实成本对照和白绮实际完工，不在本分支停工。",
+  "R111_complete_sources": 12,
+  "R111_complete_source_bytes": 56124,
+  "generation_POSTs_candidates_adoptions_OpenCode_native": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "configured_model": "qwen38-coder",
+  "models_GET_observed": [
+    "open-h3-2k"
+  ],
+  "models_health_status": [
+    200,
+    200
+  ],
+  "maintenance_cached": true,
+  "owner_VM_branches": 20,
+  "owner_native_player_military_wait_attempts": 26,
+  "actual_normal_turn_advance": [
+    115,
+    116
+  ],
+  "lessons": [
+    "Use complete current military-positive-list and per-unit guards for bounded test-player wait batches; test-only input authority never becomes product BACKGROUND military capability.",
+    "Before retrying a paused driver, retain unit IDs and old attempt keys. New requests need new intent keys and fresh qualification; no clearing history to bypass collision.",
+    "A transparent RunNow counter plus actual request log and independent native damage/charge/yield readback can qualify an exact repair without replacing Native manager namespace identities. Scope counters precisely; no global engine call-count claim.",
+    "Closeout counts must come from actual receipts and Native owned maps. Read zero-field markers without requiring a tab; reconcile completed retirements and resume only missing cleanup/save, never replay business actions.",
+    "Configured-model absence after a genuine source task and cached daily maintenance is a readiness fact. No generation/REQUEST/SSE/HTTP404 or candidate can be inferred from GET200."
+  ],
+  "unknown_owner_cost_seconds": null,
+  "net_time_saved_not_measured": true
+}
