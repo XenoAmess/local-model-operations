@@ -2634,3 +2634,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-23 [Civ6R141/R142](evidence/2026-11-23-civ6-conquest-keep-r141-r142.json)：1.19.6当日成功缓存复用，各0原生生成工具；维护不授生成/Native效果，成本null。
+
+
+2026-11-23 [Civ6R143/R144](evidence/2026-11-23-civ6-raze-rebuild-fail-r143-r144.json)：1.19.6成功缓存复用，各0原生生成工具；Native真实失败与维护资格分列，成本null。

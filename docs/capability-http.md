@@ -7883,3 +7883,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6R141/R142正常攻城保留](evidence/2026-11-23-civ6-conquest-keep-r141-r142.json)：真实22源1011615bytes／20源940871原始940869解码UTF8，各2GET200canonical缺、0生成采用；58prebattle每VM。首坐标请求CanStart真仍实际无效保exit1，完整原版16400参数实际BY_COMBAT/保留/粮仓1/32另证，总玩家入口2不谎称1。外城CanRaze假与占领后真、上下文nil与false、原始混合编码与请求UTF8分列。全QA存退菜单，TC018合法Raze及失去／夷平读档再规划仍开，32/40继续，成本null。
+
+
+2026-11-23 [Civ6R143/R144真实夷平后重建FAIL](evidence/2026-11-23-civ6-raze-rebuild-fail-r143-r144.json)：23源605234bytes／28源559592bytes先备，各2GET200canonical缺、0生成候选采用。原版Raze保存重载后134后台FOUND同址新ID/OBSERVED，零行动等待和0旧ID写入不能授不重建；全QA存退菜单，正常QuitOS仍pending不冒称已退。修复及整项继续32/40，成本null。
