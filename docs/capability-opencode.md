@@ -2646,3 +2646,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6R147首用维护](evidence/2026-11-24-civ6-raze-UI-guard-failure-r147.json)：OpenCode1.19.6当日新检查成功cachedfalse，0原生生成工具；HTTP可用性与UI/Native资格分列，成本null。
+
+
+2026-11-24 [Civ6R147软件限定](evidence/2026-11-24-civ6-raze-UI-identity-r147-software.json)：当日1.19.6新维护通过、0原生生成工具，owner和Native证据独立，成本null。

@@ -7895,3 +7895,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R147真实UI误导入失败](evidence/2026-11-24-civ6-raze-UI-guard-failure-r147.json)：15完整源165637bytes先备、每日维护后2GET200canonical缺，0生成采用。真实原生资格真／contextGuard假、0夷平点击；actualUIinclude消费者双VM红测复现，待修不能授通过，成本null。
+
+
+2026-11-24 [Civ6R147身份只读UI软件](evidence/2026-11-24-civ6-raze-UI-identity-r147-software.json)：真实15源165637bytes先备、维护后2GET200canonical缺／0生成采用。Owner实际UI消费者红→绿、27相关检查／123ZIP／101Lua双VM，121产品文件不变，冷验待执行；不能把裸包装函数测试当完整UI接入资格。成本null。
