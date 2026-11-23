@@ -7889,3 +7889,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6R144/R145181夷平修复软件](evidence/2026-11-23-civ6-raze-choice-software-r144-r145.json)：28源559592／22源178492先备，各2GET200canonical缺、0生成采用；273相关检查、101Lua双VM、123文件ZIP及配对包字节核对为owner证据，实机仍待，不追认180失败。成本null。
+
+
+2026-11-23 [Civ6R146Core接口回退软件](evidence/2026-11-23-civ6-Core-human-fallback-r146-software.json)：真实6源37100bytes先备、2GET200canonical缺，0生成采用。Owner修正配置IsHuman缺失→玩家已证方法，21项和123真实ZIP／101Lua双VM通过；122产品文件不变，不冒称273全重跑或Native通过。原首版失败保留，异常退出清理单列；成本null。
