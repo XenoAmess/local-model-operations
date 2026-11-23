@@ -2643,3 +2643,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-23 [Civ6R146限定](evidence/2026-11-23-civ6-Core-human-fallback-r146-software.json)：1.19.6缓存、0原生生成工具，维护资格不覆盖Core端口或Native效果，成本null。
+
+
+2026-11-24 [Civ6R147首用维护](evidence/2026-11-24-civ6-raze-UI-guard-failure-r147.json)：OpenCode1.19.6当日新检查成功cachedfalse，0原生生成工具；HTTP可用性与UI/Native资格分列，成本null。
