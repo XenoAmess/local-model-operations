@@ -7904,3 +7904,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R148句柄绑定软件限定](evidence/2026-11-24-civ6-raze-bound-Core-handles-r148-software.json)：真实上下文先备后owner修复；samebootstrap消费者红→绿，30项双VM／123真实ZIP通过，不把软件授实机。指定模型缺失仍0生成候选采用；成本null。
+
+
+2026-11-24 [Civ6R149实际存档哈希字段](evidence/2026-11-24-civ6-raze-saved-kind-hash-r149.json)：13完整源160499bytes先备、2GET200canonical缺、0生成采用。Native记录成功但重载kind变已核引擎哈希、8字段仍在；owner严格只读兼容、34双VM／123ZIP软件通过，Native第五版待验，成本null。
