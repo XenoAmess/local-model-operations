@@ -7802,3 +7802,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [R112后续低储备原生观察](evidence/2026-11-23-civ6-r112-low-reserve-observation.json)：同真实任务的Owner续行，无新模型任务／生成／采用；低金币且零军队队列不证明财政门被调用，实际AllowRecruit0故保持OPEN。原版军队阻塞实际解决后1普通END，2个Owner诊断错误原件与不重放恢复分列；四类型评分采样／完整军事招募输入的有界工具双VM资格通过，尚未长链实机。
+
+
+2026-11-23 [R113原版结束后pending薄工具](evidence/2026-11-23-civ6-r113-bounded-pending-tool.json)：9完整真源39004字节先准备，qwen38-coder缺仅H3、2GET200／OpenCode1.19.6同日缓存，0生成／候选／采用／原生工具；Owner74软件检查与普通Native路径通过，新pending分支未触发，不能授对话根因／节时。实际炮兵出生与军费政策淘汰分列；Owner一次Native期间fetch及压缩失回执恢复如实保留，成本null。
