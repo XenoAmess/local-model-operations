@@ -2670,3 +2670,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6R152](evidence/2026-11-24-civ6-passive-governor-fix-r152.json)：复用当日1.19.6维护，0原生生成工具；普通软件、真实包、原生效果分层，模型缺失不授代码能力，31/40保留，成本null。
+
+
+2026-11-24 [Civ6原生183](evidence/2026-11-24-civ6-passive-governor-native183.json)：0新增原生生成工具；只读探针止于LSQ，仅精确自有Python辅助进程结束，不把它记成游戏退出或Steam修复。真实SaveLoad与作用后果独立核对，成本null。

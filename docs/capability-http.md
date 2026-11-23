@@ -7919,3 +7919,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R152被动总督修复](evidence/2026-11-24-civ6-passive-governor-fix-r152.json)：17完整源120014bytes先备，复用R151缺canonical真实观察，新增GET0/生成候选采用0。owner同6方法旧RED12→软件绿、Native待验；未伪造缺失GREEN原始日志哈希，成本null。
+
+
+2026-11-24 [Civ6原生183救援与存读档](evidence/2026-11-24-civ6-passive-governor-native183.json)：真实自动一次调任/普通138/正式存读保持且无再请求；0新增模型生成。UI实际效果、可用Core科研/点数及缺失Core总督getter分列，31/40仍开放，成本null。
