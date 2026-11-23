@@ -2598,3 +2598,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-23 [Civ6 R126/R127](evidence/2026-11-23-civ6-settler-goal-r126r127.json)：OpenCode1.19.6同日成功缓存，两任务0原生生成工具。维护成功不授源码能力；QA/软件/实际游戏结果分列，成本null。
+
+
+2026-11-23 [Civ6R128](evidence/2026-11-23-civ6-arrival-recheck-r128.json)：当日OpenCode1.19.6成功缓存复用、0原生生成工具。维护、脱机测试与实际Game事件成功分列，不追授模型代码能力，成本null。

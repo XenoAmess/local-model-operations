@@ -7847,3 +7847,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6 R126/R127移民重规划](evidence/2026-11-23-civ6-settler-goal-r126r127.json)：24源831674bytes／14源472347bytes真实任务先备，各2GET200、canonical缺，0生成候选采用，无fallback；负责人完成一次途中目标失效Native分支与3条预算隔离，不授整项TC016/017。观察器seed与Native正选址分列、重复调用不算多城、早期回合就绪不算规划完成，成本null。
+
+
+2026-11-23 [Civ6R128到达复查](evidence/2026-11-23-civ6-arrival-recheck-r128.json)：12完整源650090bytes先备，2GET200canonical缺／0生成候选采用，无fallback；负责人实际135到达事件后一次失效、AI不建城，59夹具＋21事件用例每VM，保存退QA返菜单。Core/UI集合差异不当同帧事实；旧0attempt监听器精确撤换而非重放，整项仍30/40继续，成本null。
