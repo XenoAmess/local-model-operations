@@ -7916,3 +7916,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R151原生被动总督加成](evidence/2026-11-24-civ6-passive-governor-snapshot-r151.json)：13完整源93806bytes先备/两GET200缺canonical、0生成候选采用。真实未驻总督城市Governors+4使旧全量快照无效；科学自然接续不等于新修复分支实机通过，31/40保留，成本null。
+
+
+2026-11-24 [Civ6R152被动总督修复](evidence/2026-11-24-civ6-passive-governor-fix-r152.json)：17完整源120014bytes先备，复用R151缺canonical真实观察，新增GET0/生成候选采用0。owner同6方法旧RED12→软件绿、Native待验；未伪造缺失GREEN原始日志哈希，成本null。
