@@ -7952,3 +7952,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R160其余军队类型](evidence/2026-11-24-civ6-other-military-classes-r160.json)：12完整输入含冻结上下文2151832bytes，2GET200仍缺canonical模型，0生成候选；owner原生支援编制边界修正82检查各VM、真实四类控制分层验证。原QA UNKNOWN保留不重造，成本null。
+
+
+2026-11-24 [Civ6R161空军宿主接口](evidence/2026-11-24-civ6-air-host-ports-r161.json)：14完整输入837050bytes，复用R160canonical缺席、0新HTTP生成。实际UI容量与Core缺接口分开；原始双侧结果的解析错误离线修正，不重发游戏动作。阶段BEGIN独立先落盘，独占／净收益未知。
