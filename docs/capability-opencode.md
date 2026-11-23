@@ -2607,3 +2607,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-23 [Civ6R131](evidence/2026-11-23-civ6-hidden-wait-r131.json)：当日OpenCode1.19.6成功缓存复用、0原生生成工具。维护、软件、真实状态变更和合同等待通过分别记录，成本null。
+
+
+2026-11-23 [Civ6R132](evidence/2026-11-23-civ6-closed-border-r132.json)：当日OpenCode1.19.6成功缓存、0原生生成工具；维护不授代码或Native效果。实际接口差异、owner修正与UI/Core最终证据分列，成本null。

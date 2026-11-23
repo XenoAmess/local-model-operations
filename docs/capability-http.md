@@ -7856,3 +7856,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6R131隐藏城址](evidence/2026-11-23-civ6-hidden-wait-r131.json)：9完整源538117bytes先备，2GET200canonical缺／0生成候选采用。71双VM用例、Native两阶段可见性变更后首推荐仍隐藏，实际HOLD与单次理由／0移动建城，按冻结合同授保守等待，不强改产品凑重规划。观察器变量缺口只加同对象别名补读、未重绑／重放，全部QA存退菜单；30/40继续，成本null。
+
+
+2026-11-23 [Civ6R132封闭边境](evidence/2026-11-23-civ6-closed-border-r132.json)：10源476979bytes真实任务先备，2GET200canonical缺／0生成候选采用。Core同名getter实际nil导致首夹具0setter拒绝；新鲜UI边界事实明确跨上下文，67用例与实际Native5步绕行确认分列。旧失败不重放、elapsed字段语义纠正，存退QA菜单；30/40继续余10，成本null。
