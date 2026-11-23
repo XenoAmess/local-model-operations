@@ -7955,3 +7955,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R161空军宿主接口](evidence/2026-11-24-civ6-air-host-ports-r161.json)：14完整输入837050bytes，复用R160canonical缺席、0新HTTP生成。实际UI容量与Core缺接口分开；原始双侧结果的解析错误离线修正，不重发游戏动作。阶段BEGIN独立先落盘，独占／净收益未知。
+
+
+2026-11-24 [Civ6R162单次空军夹具](evidence/2026-11-24-civ6-air-fixture-r162.json)：11完整输入801250bytes、复用canonical缺席，0新生成候选。owner89检查每VM和一次实际Init／旧58原子保护；城市中心清单后置条件未证实，原始失败与独立物理就绪分层，不重造或伪造SDK。
