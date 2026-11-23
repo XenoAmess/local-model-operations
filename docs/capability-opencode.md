@@ -2658,3 +2658,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6R149](evidence/2026-11-24-civ6-raze-saved-kind-hash-r149.json)：复用1.19.6当日成功维护，0原生生成工具；软件mock缺失真实序列化形态不能授存读档通过，保留NativeFAIL和原件，成本null。
+
+
+2026-11-24 [Civ6R150](evidence/2026-11-24-civ6-completed-research-ui-native135-r150.json)：1.19.6当日维护缓存有效、0原生生成工具；Native实效／新FAIL／owner软件反例／退出挂起精确清理分列，不授未实现科研通过。

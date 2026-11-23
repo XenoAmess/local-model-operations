@@ -7907,3 +7907,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R149实际存档哈希字段](evidence/2026-11-24-civ6-raze-saved-kind-hash-r149.json)：13完整源160499bytes先备、2GET200canonical缺、0生成采用。Native记录成功但重载kind变已核引擎哈希、8字段仍在；owner严格只读兼容、34双VM／123ZIP软件通过，Native第五版待验，成本null。
+
+
+2026-11-24 [Civ6R150真实科研续选失败](evidence/2026-11-24-civ6-completed-research-ui-native135-r150.json)：18完整源532512原字节先备／编码往返，2GET200但canonical缺、0生成采用。真实UI已完成40仍当前／Core-1／4合法候选，新consumer红4失败、未实现182；不因夷平分支修好隐藏科研新FAIL，整项回退31/40。成本null。
