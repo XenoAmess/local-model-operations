@@ -7937,3 +7937,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R155冻结矩阵](evidence/2026-11-24-civ6-tc018-frozen-matrix-r155.json)：23完整源946081bytes先备、复用R153availability，新增HTTP生成候选采用0；owner逐条合同／实际原字节影响／Native证据审阅，仅关闭TC018至32/40，不把历史UNKNOWN或范围外TC009追授通过，成本null。
+
+
+2026-11-24 [Civ6R156精确科技分支](evidence/2026-11-24-civ6-exact-research-guard-r156.json)：14完整源190981bytes先备、无新HTTP生成候选；owner真实暖态135日志40→41及正常136投入实效分列，不把旧cold135空选择当目标分支，瞬时前态未独立轮询如实限定。仅TC009重闭至33/40，成本null。
