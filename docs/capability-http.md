@@ -7865,3 +7865,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6R135可见敌军](evidence/2026-11-23-civ6-visible-enemy-r135.json)：14完整源565436bytes先备，2GET200canonical缺仅H3，0生成候选采用。原版函数名不能当事件入口，实际GameEvents.PlayerTurnStarted及Native类型核对；53/28双VM与实际1QA创建、5后台避险移动分列，5调用非5地点。保存撤全部QA返菜单，TC016完整矩阵令31/40继续，成本null。
+
+
+2026-11-23 [Civ6R136在建计数](evidence/2026-11-23-civ6-queued-settler-r136.json)：13完整源513469bytes先备，2GET200canonical缺、0生成候选采用。实际在建1拒绝、仅隔离同输入queued0才允许，普通进度40/175；Core全队列getter实际nil，UI成本进度不移植。日志按真实request/city/type更正非空，属性先local再type；保存全QA退菜单，TC017仍开放，31/40继续，成本null。

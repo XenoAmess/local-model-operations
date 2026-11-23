@@ -2616,3 +2616,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-23 [Civ6R135](evidence/2026-11-23-civ6-visible-enemy-r135.json)：当日OpenCode1.19.6成功缓存复用、0原生生成工具；维护不授生成代码或Native游戏成功，成本null。
+
+
+2026-11-23 [Civ6R136](evidence/2026-11-23-civ6-queued-settler-r136.json)：OpenCode1.19.6当日成功缓存复用、0原生生成工具；维护不授模型代码或游戏成功，成本null。
