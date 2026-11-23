@@ -7940,3 +7940,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R156精确科技分支](evidence/2026-11-24-civ6-exact-research-guard-r156.json)：14完整源190981bytes先备、无新HTTP生成候选；owner真实暖态135日志40→41及正常136投入实效分列，不把旧cold135空选择当目标分支，瞬时前态未独立轮询如实限定。仅TC009重闭至33/40，成本null。
+
+
+2026-11-24 [Civ6R157军事端口](evidence/2026-11-24-civ6-military-ports-r157.json)：16完整源1189254bytes先备，新真实任务且旧观察80余分钟后2GET200仍缺canonical，0生成候选采用；owner只读实际Core/UI端口差异、Armyfalse不当通过，成本null。
