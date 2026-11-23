@@ -7886,3 +7886,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6R143/R144真实夷平后重建FAIL](evidence/2026-11-23-civ6-raze-rebuild-fail-r143-r144.json)：23源605234bytes／28源559592bytes先备，各2GET200canonical缺、0生成候选采用。原版Raze保存重载后134后台FOUND同址新ID/OBSERVED，零行动等待和0旧ID写入不能授不重建；全QA存退菜单，正常QuitOS仍pending不冒称已退。修复及整项继续32/40，成本null。
+
+
+2026-11-23 [Civ6R144/R145181夷平修复软件](evidence/2026-11-23-civ6-raze-choice-software-r144-r145.json)：28源559592／22源178492先备，各2GET200canonical缺、0生成采用；273相关检查、101Lua双VM、123文件ZIP及配对包字节核对为owner证据，实机仍待，不追认180失败。成本null。
