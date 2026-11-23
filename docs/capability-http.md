@@ -7946,3 +7946,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R158有界夹具](evidence/2026-11-24-civ6-military-fixture-r158.json)：12完整源209622bytes先备、复用R157availability、0新HTTP生成候选；owner69检查每VM及真实2新单位／1军团setter独立读回，仍非后台隔离／玩家指挥或正常训练通过，成本null。
+
+
+2026-11-24 [Civ6R159被动军队观察与实际指挥](evidence/2026-11-24-civ6-passive-military-control-r159.json)：17完整源1034055bytes先备、复用R157实际可用性，0新HTTP／生成／候选；owner双VM各38检查，真实后台窗口及两次玩家移动分层验证。未替换缓存中的SDK入口，事件不冒充请求计数，成本null。
