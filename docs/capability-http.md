@@ -7844,3 +7844,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6R125界面兼容](evidence/2026-11-23-civ6-ui-compatibility-r125.json)：26全输入596109bytes真实任务先准备，canonical仍缺，两GET200仅open-h3-2k，0生成／候选／采用，无fallback或新404生成。负责人补真实白绮政策/市政拒绝与普通市政正例，旧UI按6文件精确字节证明保留；原生转发计数null，Core只读getter失败后不重放已接受输入。整体30/40继续余10，成本null。
+
+
+2026-11-23 [Civ6 R126/R127移民重规划](evidence/2026-11-23-civ6-settler-goal-r126r127.json)：24源831674bytes／14源472347bytes真实任务先备，各2GET200、canonical缺，0生成候选采用，无fallback；负责人完成一次途中目标失效Native分支与3条预算隔离，不授整项TC016/017。观察器seed与Native正选址分列、重复调用不算多城、早期回合就绪不算规划完成，成本null。

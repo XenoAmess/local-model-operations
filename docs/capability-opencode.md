@@ -2595,3 +2595,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-23 [Civ6R125](evidence/2026-11-23-civ6-ui-compatibility-r125.json)：OpenCode1.19.6当日成功缓存复用，0原生生成工具；维护通过不授生成能力。实际Native上下文getter类型差异由负责人只读确认，原API选择不重放，成本null。
+
+
+2026-11-23 [Civ6 R126/R127](evidence/2026-11-23-civ6-settler-goal-r126r127.json)：OpenCode1.19.6同日成功缓存，两任务0原生生成工具。维护成功不授源码能力；QA/软件/实际游戏结果分列，成本null。
