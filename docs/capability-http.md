@@ -7943,3 +7943,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R157军事端口](evidence/2026-11-24-civ6-military-ports-r157.json)：16完整源1189254bytes先备，新真实任务且旧观察80余分钟后2GET200仍缺canonical，0生成候选采用；owner只读实际Core/UI端口差异、Armyfalse不当通过，成本null。
+
+
+2026-11-24 [Civ6R158有界夹具](evidence/2026-11-24-civ6-military-fixture-r158.json)：12完整源209622bytes先备、复用R157availability、0新HTTP生成候选；owner69检查每VM及真实2新单位／1军团setter独立读回，仍非后台隔离／玩家指挥或正常训练通过，成本null。
