@@ -2664,3 +2664,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6R150](evidence/2026-11-24-civ6-completed-research-blocker-r150.json)：复用当日1.19.6成功缓存，0原生生成工具；旧6方法双VM4断言失败→绿，实际UI/Core不同步样本未被测试通过代替，成本null。
+
+
+2026-11-24 [Civ6R151](evidence/2026-11-24-civ6-passive-governor-snapshot-r151.json)：复用当日1.19.6成功维护，0原生生成工具；只读复制读取器不是私有闭包可见性。保留工具前置失败、实际动作和独立退出各层，成本null。

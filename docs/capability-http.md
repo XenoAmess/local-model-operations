@@ -7913,3 +7913,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R150完成科技残留](evidence/2026-11-24-civ6-completed-research-blocker-r150.json)：实现前18完整源532512原始bytes，两GET200缺canonical模型，0生成候选采用；owner保留投入/未知请求并检查原版阻塞，软件通过、实机待验，成本null。
+
+
+2026-11-24 [Civ6R151原生被动总督加成](evidence/2026-11-24-civ6-passive-governor-snapshot-r151.json)：13完整源93806bytes先备/两GET200缺canonical、0生成候选采用。真实未驻总督城市Governors+4使旧全量快照无效；科学自然接续不等于新修复分支实机通过，31/40保留，成本null。
