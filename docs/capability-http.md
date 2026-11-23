@@ -7931,3 +7931,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R153死亡档续验](evidence/2026-11-24-civ6-saved-unitloss-reload-r153.json)：同一KLM任务续做、无新HTTP生成候选；183旧单位仍ABSENT、正常换回合替代移民0→43/190及2正向生产，提案不当执行授权，成本null。
+
+
+2026-11-24 [Civ6R153被俘档续验](evidence/2026-11-24-civ6-saved-capture-reload-r153.json)：同一KLM任务续做、无新HTTP生成候选；183旧单位仍ABSENT、正常换回合替代移民0→43/190及2正向生产，提案不当执行授权，成本null。
