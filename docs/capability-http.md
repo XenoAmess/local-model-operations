@@ -7814,3 +7814,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [R114资源替代／R113 pending实机](evidence/2026-11-23-civ6-r114-resource-fallback-pending.json)：0新模型/GET/生成/候选/采用/原生工具。成本敏感CanProduce(hash,false,true)真实拒绝、另一true参数仍真；owner断言错误保留并只读核一次扣减，无重放。后台胸甲骑兵91/165仍待完成。R113 exact-pending分支真实5读返回，后来新鲜图证谴责/Goodbye后实际换回合，状态本身不授原因或节时。多个owner前缀/marker/shape修正分列，成本null。
+
+
+2026-11-23 [R114整项TC007实机闭合](evidence/2026-11-23-civ6-r114-tc007-complete-native.json)：四独立179/.74副本全部采用合同通过，资源替代胸甲骑兵148真实完成/原生165/维护5/玩家军令与149完整周期、正式存/6QA及flags撤/返菜单。0新模型/GET/生成/候选/采用/原生工具或产品改动，36/74既有检查不重计；原0门调用不追授因果，参数变体、政策军费、owner失败后只读核效均保留，成本null。全mod28/40仍开，继续12。
