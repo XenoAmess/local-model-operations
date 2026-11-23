@@ -7925,3 +7925,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R154玩家设防工具](evidence/2026-11-24-civ6-test-player-stance-r154.json)：6完整源31862bytes先备，复用R153缺canonical观察，新增HTTP/生成候选采用0。owner仅原版FORTIFY/SLEEP与消耗前置、双VM5方法软件通过；Native待验，不借换枚举重放旧SKIP，成本null。
+
+
+2026-11-24 [Civ6R153失城存档重载](evidence/2026-11-24-civ6-saved-cityloss-reload-r153.json)：20完整源489439bytes先备、2GET200仅H3，0生成候选采用；183实际失城重载＋正常换回合、2正向己城生产／11城进度，负面范围限观察器；旧夹具UNKNOWN留存。新驻防/休眠不重放旧SKIP，成本null。
