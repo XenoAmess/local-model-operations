@@ -7910,3 +7910,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R150真实科研续选失败](evidence/2026-11-24-civ6-completed-research-ui-native135-r150.json)：18完整源532512原字节先备／编码往返，2GET200但canonical缺、0生成采用。真实UI已完成40仍当前／Core-1／4合法候选，新consumer红4失败、未实现182；不因夷平分支修好隐藏科研新FAIL，整项回退31/40。成本null。
+
+
+2026-11-24 [Civ6R150完成科技残留](evidence/2026-11-24-civ6-completed-research-blocker-r150.json)：实现前18完整源532512原始bytes，两GET200缺canonical模型，0生成候选采用；owner保留投入/未知请求并检查原版阻塞，软件通过、实机待验，成本null。
