@@ -7862,3 +7862,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6R133/R134不可达](evidence/2026-11-23-civ6-unreachable-r133r134.json)：11源558117bytes／8源537969bytes先备，各2GET200canonical缺、0生成候选采用。89双VM用例和6Native变更首效分列；路径0／HOLD／0MOVEFOUND，原通用移动资格6true不作地点许可，预写negative解释公开更正。21Site调用按去重，保存全QA退菜单；30/40继续，成本null。
+
+
+2026-11-23 [Civ6R135可见敌军](evidence/2026-11-23-civ6-visible-enemy-r135.json)：14完整源565436bytes先备，2GET200canonical缺仅H3，0生成候选采用。原版函数名不能当事件入口，实际GameEvents.PlayerTurnStarted及Native类型核对；53/28双VM与实际1QA创建、5后台避险移动分列，5调用非5地点。保存撤全部QA返菜单，TC016完整矩阵令31/40继续，成本null。

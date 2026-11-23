@@ -1,0 +1,75 @@
+{
+  "schema": "local-model.civ6-visible-enemy-r135/v1",
+  "utc": "2026-11-23T11:18:54.527522+00:00",
+  "R135": {
+    "real_unfinished_task": "REAL_UNIMPLEMENTED_TC016_VISIBLE_ENEMY_OWN_TURN_EVENT_QA_SPAWN_AND_PASSIVE_WITNESS",
+    "prepared_before_owner_implementation": true,
+    "full_sources": 14,
+    "full_UTF8_bytes": 565436,
+    "diagnosis": {
+      "utc": "2026-11-23T10:57:19.922414+00:00",
+      "configured_model": "qwen38-coder",
+      "configuration_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "maintenance": {
+        "date": "2026-11-23",
+        "installed_version": "1.19.6",
+        "target_version": "1.19.6",
+        "cached": true
+      },
+      "results": [
+        {
+          "name": "models",
+          "utc": "2026-11-23T10:57:19.894977+00:00",
+          "status": 200,
+          "Content_Type": "application/json",
+          "bytes_retained": 547,
+          "over_64KiB": false,
+          "sha256": "21aa24b9dea19a6e904f012460eb42ecf72708a4fd42d599e6ccf548d1a2b124",
+          "total_ms": 6.636600010097027,
+          "model_ids": [
+            "open-h3-2k"
+          ]
+        },
+        {
+          "name": "health",
+          "utc": "2026-11-23T10:57:19.902730+00:00",
+          "status": 200,
+          "Content_Type": "application/json",
+          "bytes_retained": 1154,
+          "over_64KiB": false,
+          "sha256": "417094a39b22996b247027999a2f0693df47696942ed605ecb359349a188f51c",
+          "total_ms": 19.064499996602535
+        }
+      ],
+      "generation_POSTs": 0,
+      "new_logical_candidate_tasks": 0,
+      "Native_queries": 0,
+      "configuration_changes": 0,
+      "service_mutations": 0,
+      "automatic_fallback": false,
+      "formal_overlap": false
+    },
+    "candidates": 0,
+    "adoptions": 0,
+    "OpenCode_native_generation_tools": 0,
+    "cost": null,
+    "scope": "2GET200canonicalqwen38-coderabsent, onlyopen-h3-2k; 0generationPOST/REQUEST/SSE/new404/candidate. No fallback/config/servicechanges. CachedOpenCode1.19.6maintenance notgenerationcapability.",
+    "owner_primary_source_correction": "VikingScenario function is named OnPlayerTurnActivated but actually subscribes to GameEvents.PlayerTurnStarted. Owner read actual subscription and qualified actual GameEvents.Add/Remove; did not infer event from function name or execute original task wording Events.PlayerTurnActivated."
+  },
+  "owner_actual_qualification": {
+    "event_fixture_cases_each_VM": 53,
+    "observer_cases_each_VM": 28,
+    "actual": "Oneown132GameEvents.PlayerTurnStarted QAwarriorfactoryobserved65536atoldgoal862withownstateunchanged. All5originalSitecallsrecordactualvisibleenemy, onlysafe846selected, actual5westMOVE/final16,18 andUI/Coregoal846;27controlledposesunchanged. Saved/3bindings+allflagsretiredMainMenu.",
+    "event_primary_correction": "VikingScenario function is named OnPlayerTurnActivated but actually subscribes to GameEvents.PlayerTurnStarted. Owner read actual subscription and qualified actual GameEvents.Add/Remove; did not infer event from function name or execute original task wording Events.PlayerTurnActivated.",
+    "whole_closed_total_percent_remaining": [
+      31,
+      40,
+      77.5,
+      9
+    ],
+    "Native_global_writer_count": null
+  },
+  "cost": null,
+  "game_evidence": "https://github.com/XenoAmess/civ6_dev/blob/d1cc730f2242d31f79c0e191b4f3002c5dc1773e/docs/research/baiqi-source180-tc016-complete-visible-enemy132-engine74-2026-11-23.json",
+  "ledger": "https://github.com/XenoAmess/civ6_dev/blob/d1cc730f2242d31f79c0e191b4f3002c5dc1773e/docs/research/baiqi-source180-finite40-engine74-tc016-closed132-2026-11-23.json"
+}
