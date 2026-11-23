@@ -7922,3 +7922,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6原生183救援与存读档](evidence/2026-11-24-civ6-passive-governor-native183.json)：真实自动一次调任/普通138/正式存读保持且无再请求；0新增模型生成。UI实际效果、可用Core科研/点数及缺失Core总督getter分列，31/40仍开放，成本null。
+
+
+2026-11-24 [Civ6R154玩家设防工具](evidence/2026-11-24-civ6-test-player-stance-r154.json)：6完整源31862bytes先备，复用R153缺canonical观察，新增HTTP/生成候选采用0。owner仅原版FORTIFY/SLEEP与消耗前置、双VM5方法软件通过；Native待验，不借换枚举重放旧SKIP，成本null。
