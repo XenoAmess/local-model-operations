@@ -2652,3 +2652,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6R148](evidence/2026-11-24-civ6-raze-Core-handle-context-r148.json)：复用当日1.19.6成功维护缓存，0原生生成工具；实际NativeFAIL与软件反例分列，不授修复通过。
+
+
+2026-11-24 [Civ6R148软件](evidence/2026-11-24-civ6-raze-bound-Core-handles-r148-software.json)：当日1.19.6缓存维护成功、0原生生成工具；owner代码与实际Native待验分列。

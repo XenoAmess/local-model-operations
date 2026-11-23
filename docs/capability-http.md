@@ -7901,3 +7901,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R148真实句柄上下文定位](evidence/2026-11-24-civ6-raze-Core-handle-context-r148.json)：19完整源272914bytes＋3实际对照增补，2GET200但指定模型缺，0生成候选采用；Core预绑定写成功／UI临时句柄无setter分列，非泛化表结构失败。成本null。
+
+
+2026-11-24 [Civ6R148句柄绑定软件限定](evidence/2026-11-24-civ6-raze-bound-Core-handles-r148-software.json)：真实上下文先备后owner修复；samebootstrap消费者红→绿，30项双VM／123真实ZIP通过，不把软件授实机。指定模型缺失仍0生成候选采用；成本null。
