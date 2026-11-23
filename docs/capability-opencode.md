@@ -2610,3 +2610,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-23 [Civ6R132](evidence/2026-11-23-civ6-closed-border-r132.json)：当日OpenCode1.19.6成功缓存、0原生生成工具；维护不授代码或Native效果。实际接口差异、owner修正与UI/Core最终证据分列，成本null。
+
+
+2026-11-23 [Civ6R133/R134](evidence/2026-11-23-civ6-unreachable-r133r134.json)：OpenCode1.19.6当日成功缓存复用、0原生生成工具；维护与实际游戏效果分层，不追授模型代码能力，成本null。

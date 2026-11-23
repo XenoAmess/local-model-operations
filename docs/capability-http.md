@@ -7859,3 +7859,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6R132封闭边境](evidence/2026-11-23-civ6-closed-border-r132.json)：10源476979bytes真实任务先备，2GET200canonical缺／0生成候选采用。Core同名getter实际nil导致首夹具0setter拒绝；新鲜UI边界事实明确跨上下文，67用例与实际Native5步绕行确认分列。旧失败不重放、elapsed字段语义纠正，存退QA菜单；30/40继续余10，成本null。
+
+
+2026-11-23 [Civ6R133/R134不可达](evidence/2026-11-23-civ6-unreachable-r133r134.json)：11源558117bytes／8源537969bytes先备，各2GET200canonical缺、0生成候选采用。89双VM用例和6Native变更首效分列；路径0／HOLD／0MOVEFOUND，原通用移动资格6true不作地点许可，预写negative解释公开更正。21Site调用按去重，保存全QA退菜单；30/40继续，成本null。
