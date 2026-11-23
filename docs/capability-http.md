@@ -7961,3 +7961,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R163真实空军控制](evidence/2026-11-24-civ6-air-control-r163.json)：12完整输入1114404bytes、复用canonical缺席，0新生成候选；真实后台窗口及单次玩家REBASE独立读回。晚到Started使固定事件计数收尾断言失败，先读原状态再首次存档／撤回，不重放游戏命令；事件数不等请求数。
+
+
+2026-11-24 [Civ6R164军队写者审阅](evidence/2026-11-24-civ6-military-writer-audit-r164.json)：109完整输入909631bytes／101当前Lua，2GET200仍缺canonical，0生成候选；owner四方法双VM边界检查与源码影响审阅，精确保留同引擎179自然新兵范围。参考行号／事件不当总SDK计数，成本null。
