@@ -1,0 +1,88 @@
+{
+  "schema": "local-model.civ6-unit-loss-r139/v1",
+  "utc": "2026-11-23T13:07:11.177095+00:00",
+  "R139": {
+    "real_unfinished_task": "REAL_UNIMPLEMENTED_TC018_OWN_IN_TRANSIT_SETTLER_LOSS_WITHOUT_FALSE_FOUNDING_AND_STALE_PROPOSAL_HANDLING",
+    "prepared_before_owner_implementation": true,
+    "full_sources": 20,
+    "full_UTF8_bytes": 683169,
+    "diagnosis": {
+      "utc": "2026-11-23T12:40:13.951972+00:00",
+      "configured_model": "qwen38-coder",
+      "configuration_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+      "maintenance": {
+        "date": "2026-11-23",
+        "installed_version": "1.19.6",
+        "target_version": "1.19.6",
+        "cached": true
+      },
+      "results": [
+        {
+          "name": "models",
+          "utc": "2026-11-23T12:40:13.913951+00:00",
+          "status": 200,
+          "Content_Type": "application/json",
+          "bytes_retained": 547,
+          "over_64KiB": false,
+          "sha256": "21aa24b9dea19a6e904f012460eb42ecf72708a4fd42d599e6ccf548d1a2b124",
+          "total_ms": 22.675400134176016,
+          "model_ids": [
+            "open-h3-2k"
+          ]
+        },
+        {
+          "name": "health",
+          "utc": "2026-11-23T12:40:13.937269+00:00",
+          "status": 200,
+          "Content_Type": "application/json",
+          "bytes_retained": 1153,
+          "over_64KiB": false,
+          "sha256": "75416cc7dc8a0c60aca8d444fafdbcf609d8792fc13513ea52ae44952c520a77",
+          "total_ms": 14.12730012089014
+        }
+      ],
+      "generation_POSTs": 0,
+      "new_logical_candidate_tasks": 0,
+      "Native_queries": 0,
+      "configuration_changes": 0,
+      "service_mutations": 0,
+      "automatic_fallback": false,
+      "formal_overlap": false
+    },
+    "candidates": 0,
+    "adoptions": 0,
+    "OpenCode_native_generation_tools": 0,
+    "cost": null,
+    "scope": "2GET200 canonicalqwen38-coderabsent/onlyopen-h3-2k. No generationPOST/REQUEST/SSE/new404/candidate. No fallback/config/servicechanges. CachedOpenCode1.19.6maintenance notgenerationcapability."
+  },
+  "owner_actual_qualification": {
+    "unit_loss_fixture_cases_each_VM": 51,
+    "actual": "One explicit QA unitKill usingprimaryoneargumentAPI; oldobjectneverreused, independentUI/Coreown50->49 and oldfull-IDABSENT,12cities/other49units/wallet54resources/protectedreceiptsunchanged. One ordinaryturn27militarywaits,4positiveowncityrequestrows+actualqueues includingreplacementSettler0/190,0oldunitrequestlogs/no falsefoundreceipt. Oldproposal862retained, no actualretirementor captureclaim. SaveallQAretiredMainMenu.",
+    "log_validation_correction": {
+      "utc": "2026-11-23T13:04:01.085704+00:00",
+      "original_parent_exit": 1,
+      "original_failure_preserved": true,
+      "actual_city_request_lines": [
+        "BaiqiExecutor: BAIQI|request|turn=132|id=0:132:2|source=BACKGROUND|city=131073|type=UNIT_SETTLER",
+        "BaiqiExecutor: BAIQI|request|turn=132|id=0:132:3|source=BACKGROUND|city=196610|type=BUILDING_UNIVERSITY",
+        "BaiqiExecutor: BAIQI|request|turn=132|id=0:132:7|source=BACKGROUND|city=458758|type=DISTRICT_CAMPUS",
+        "BaiqiExecutor: BAIQI|request|turn=132|id=0:132:10|source=BACKGROUND|city=851979|type=DISTRICT_HARBOR"
+      ],
+      "actual_requests": 4,
+      "old_unit_request_lines": [],
+      "Controller_errors": [],
+      "cause": "Oldassertionrequiredtrailing|aftertype=UNIT_SETTLER,buttypeisthefinalfieldwithnotrailingdelimiter. Originalrequestselectionalreadyfound4; newstrictprefix+splitkeyvalueparserverifieslastfield. No productfailure or newrequestfromthiscorrection.",
+      "old_all_QA_retirements_read_back_from_original_messages": true,
+      "Kill_END_or_retirement_replayed": 0
+    },
+    "scope": "ScopedControllerlogs/cityproducer, notglobalunitSDKcounter. QA loss not capture or OS kill; wholeTC018stillopen.",
+    "whole_closed_total_percent_remaining": [
+      32,
+      40,
+      80,
+      8
+    ]
+  },
+  "cost": null,
+  "game_evidence": "https://github.com/XenoAmess/civ6_dev/blob/ccca6d2e4fec45ef7702870e02479bfb4742018c/docs/research/baiqi-source180-tc018-unit-loss132-engine74-2026-11-23.json"
+}
