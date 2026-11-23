@@ -2628,3 +2628,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-23 [Civ6R139](evidence/2026-11-23-civ6-unit-loss-r139.json)：1.19.6当日成功缓存，0原生生成工具；维护与候选、Native缺席、实际新队列分层，成本null。
+
+
+2026-11-23 [Civ6R140](evidence/2026-11-23-civ6-native-unit-capture-r140.json)：OpenCode1.19.6当日成功缓存、0原生生成工具；维护不授生成／Native事件能力，成本null。

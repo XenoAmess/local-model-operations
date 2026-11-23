@@ -7877,3 +7877,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6R139在途单位失去](evidence/2026-11-23-civ6-unit-loss-r139.json)：20源683169bytes先备，2GET200canonical缺、0生成候选采用。51真实helper每VM通过／一次QA移除与Native缺席另证，保旧提案不假称释放、1正常回合4己城写含替代移民队列。日志末字段无尾分隔符致旧断言失败，保原结果后仅补首次保存、不重放已退动作。TC018仍开、32/40继续，成本null。
+
+
+2026-11-23 [Civ6R140原版AI被俘](evidence/2026-11-23-civ6-native-unit-capture-r140.json)：20源633091bytes先备，2GET200canonical缺／0生成候选采用。56敌舰夹具＋18只读被俘记录器每VM；一次普通回合真实UnitCaptured四元组／原版弹窗／可见新敌移民，与缺席分类及4己城写另证。跨玩家数值单位ID可重复，用(owner,fullID)；active/idle仍可有被俘弹窗。全QA保存退菜单，TC018Keep/Raze仍开、32/40继续，成本null。
