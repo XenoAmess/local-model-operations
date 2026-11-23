@@ -7850,3 +7850,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6R128到达复查](evidence/2026-11-23-civ6-arrival-recheck-r128.json)：12完整源650090bytes先备，2GET200canonical缺／0生成候选采用，无fallback；负责人实际135到达事件后一次失效、AI不建城，59夹具＋21事件用例每VM，保存退QA返菜单。Core/UI集合差异不当同帧事实；旧0attempt监听器精确撤换而非重放，整项仍30/40继续，成本null。
+
+
+2026-11-23 [Civ6R129/R130可见性夹具](evidence/2026-11-23-civ6-visibility-unknown-r129r130.json)：13源496563bytes／11源679375bytes真实任务先备，各2GET200canonical缺、0生成候选采用。54双VM用例过但一次Native取消探明后仍true，保留UNKNOWN不重试；实际可见计数1不推根因。保存退QA返菜单，30/40继续，成本null。

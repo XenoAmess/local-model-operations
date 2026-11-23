@@ -2601,3 +2601,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-23 [Civ6R128](evidence/2026-11-23-civ6-arrival-recheck-r128.json)：当日OpenCode1.19.6成功缓存复用、0原生生成工具。维护、脱机测试与实际Game事件成功分列，不追授模型代码能力，成本null。
+
+
+2026-11-23 [Civ6R129/R130](evidence/2026-11-23-civ6-visibility-unknown-r129r130.json)：当日维护OpenCode1.19.6成功缓存，各0原生生成工具，缓存不授代码或Native效果能力；成本null。
