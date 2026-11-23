@@ -7805,3 +7805,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [R113原版结束后pending薄工具](evidence/2026-11-23-civ6-r113-bounded-pending-tool.json)：9完整真源39004字节先准备，qwen38-coder缺仅H3、2GET200／OpenCode1.19.6同日缓存，0生成／候选／采用／原生工具；Owner74软件检查与普通Native路径通过，新pending分支未触发，不能授对话根因／节时。实际炮兵出生与军费政策淘汰分列；Owner一次Native期间fetch及压缩失回执恢复如实保留，成本null。
+
+
+2026-11-23 [R114真实财政/资源负例准备与两军实机](evidence/2026-11-23-civ6-r114-f04-preparation.json)：14真源463620字节先备，coder缺仅H3、2GET200／OpenCode1.19.6缓存，0生成/候选/采用/原生工具。owner36双VM exactonce/拒绝与未关联字段变化检查过，负夹具尚无Native；同源179两军实际完成/玩家控制/全周期/存退已闭，动态扩城上限和政策淘汰费用不能按固定差值误归因。步兵0行动wait守卫拒绝与无重放恢复分列，成本null。
