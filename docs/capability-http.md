@@ -7811,3 +7811,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [R114后续真实财政拒绝](evidence/2026-11-23-civ6-r114-causal-fiscal-followup.json)：无新模型/GET/生成/采用/原生工具；7原Planner调用的资源、净额、需求门全真而金币不足拒绝，实际接合法工厂，独立副本正常回合/保存/撤QA/返菜单完成。显式QA扣减不授AI费用，旧零调用观察不升级，资源和整项仍OPEN，成本null。
+
+
+2026-11-23 [R114资源替代／R113 pending实机](evidence/2026-11-23-civ6-r114-resource-fallback-pending.json)：0新模型/GET/生成/候选/采用/原生工具。成本敏感CanProduce(hash,false,true)真实拒绝、另一true参数仍真；owner断言错误保留并只读核一次扣减，无重放。后台胸甲骑兵91/165仍待完成。R113 exact-pending分支真实5读返回，后来新鲜图证谴责/Goodbye后实际换回合，状态本身不授原因或节时。多个owner前缀/marker/shape修正分列，成本null。
