@@ -2685,3 +2685,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6R153被俘档续验](evidence/2026-11-24-civ6-saved-capture-reload-r153.json)：当日维护复用，原生生成工具0，不因游戏实效追授模型能力。
+
+
+2026-11-24 [Civ6R155](evidence/2026-11-24-civ6-tc018-frozen-matrix-r155.json)：同日1.19.6维护复用、原生生成工具0；完整源准备不是已发生成wire，owner软件／实机／范围复用与模型能力分列。

@@ -7934,3 +7934,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R153被俘档续验](evidence/2026-11-24-civ6-saved-capture-reload-r153.json)：同一KLM任务续做、无新HTTP生成候选；183旧单位仍ABSENT、正常换回合替代移民0→43/190及2正向生产，提案不当执行授权，成本null。
+
+
+2026-11-24 [Civ6R155冻结矩阵](evidence/2026-11-24-civ6-tc018-frozen-matrix-r155.json)：23完整源946081bytes先备、复用R153availability，新增HTTP生成候选采用0；owner逐条合同／实际原字节影响／Native证据审阅，仅关闭TC018至32/40，不把历史UNKNOWN或范围外TC009追授通过，成本null。
