@@ -7964,3 +7964,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R164军队写者审阅](evidence/2026-11-24-civ6-military-writer-audit-r164.json)：109完整输入909631bytes／101当前Lua，2GET200仍缺canonical，0生成候选；owner四方法双VM边界检查与源码影响审阅，精确保留同引擎179自然新兵范围。参考行号／事件不当总SDK计数，成本null。
+
+
+2026-11-24 [Civ6R165晚期场景](evidence/2026-11-24-civ6-late-scene-eligibility-r165.json)：11完整输入187835bytes，复用缺canonical可用性，0新HTTP／生成候选；当前原生资格与上下文集合差异单列，不冒充集团军控制通过，成本null。
