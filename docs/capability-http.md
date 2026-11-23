@@ -7853,3 +7853,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6R129/R130可见性夹具](evidence/2026-11-23-civ6-visibility-unknown-r129r130.json)：13源496563bytes／11源679375bytes真实任务先备，各2GET200canonical缺、0生成候选采用。54双VM用例过但一次Native取消探明后仍true，保留UNKNOWN不重试；实际可见计数1不推根因。保存退QA返菜单，30/40继续，成本null。
+
+
+2026-11-23 [Civ6R131隐藏城址](evidence/2026-11-23-civ6-hidden-wait-r131.json)：9完整源538117bytes先备，2GET200canonical缺／0生成候选采用。71双VM用例、Native两阶段可见性变更后首推荐仍隐藏，实际HOLD与单次理由／0移动建城，按冻结合同授保守等待，不强改产品凑重规划。观察器变量缺口只加同对象别名补读、未重绑／重放，全部QA存退菜单；30/40继续，成本null。
