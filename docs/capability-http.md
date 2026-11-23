@@ -7841,3 +7841,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6严格市政资格/R124](evidence/2026-11-23-civ6-civic-only-qualification-and-r124.json)：17全输入838242bytes真实任务先准备；canonical仍缺，两GET200仅open-h3-2k，0generation/candidate/adoption，无新404生成或fallback。负责人恒定拒绝夹具与单公民资格每VM17/47/31场景通过，实际社区127完成，TC009关闭整体29/40；原始HTTP诊断不是游戏性能。成本null。
+
+
+2026-11-23 [Civ6R125界面兼容](evidence/2026-11-23-civ6-ui-compatibility-r125.json)：26全输入596109bytes真实任务先准备，canonical仍缺，两GET200仅open-h3-2k，0生成／候选／采用，无fallback或新404生成。负责人补真实白绮政策/市政拒绝与普通市政正例，旧UI按6文件精确字节证明保留；原生转发计数null，Core只读getter失败后不重放已接受输入。整体30/40继续余10，成本null。
