@@ -2586,3 +2586,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-23 [Civ6 R112维护复用](evidence/2026-11-23-civ6-r112-military-cap-observation.json)：OpenCode1.19.6同日成功缓存；本单0原生工具生成／调用，不并入HTTP候选采用或Civ6效果。
+
+
+2026-11-23 [Civ6 R122/R123](evidence/2026-11-23-civ6-r122-r123-civic-midpoint.json)仅复用同机同用户当日OpenCode1.19.6成功维护缓存；本轮OpenCode原生工具会话0、代码候选0／采用0。HTTP只读模型缺失诊断不是OpenCode原生执行证明，也不是新增生成调用；成本仍null。

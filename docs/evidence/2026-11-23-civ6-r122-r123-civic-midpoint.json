@@ -1,0 +1,84 @@
+{
+  "schema": "local-model.civ6-r122-r123-civic-midpoint/v1",
+  "utc": "2026-11-23T06:03:22.109408+00:00",
+  "models": [
+    {
+      "R": 122,
+      "task": "REAL_UNFINISHED_TC009_CIVIC_ONLY_RESTORATION_AND_ACTUAL_NEIGHBORHOOD_PLANNING",
+      "full_inputs": 15,
+      "raw_UTF8_bytes": 655024,
+      "OpenCode": {
+        "date": "2026-11-23",
+        "installed_version": "1.19.6",
+        "target_version": "1.19.6",
+        "cached": true
+      },
+      "GET_statuses": [
+        200,
+        200
+      ],
+      "configured_model": "qwen38-coder",
+      "available_model_ids": [
+        "open-h3-2k"
+      ],
+      "generation_POSTs": 0,
+      "candidates": 0,
+      "adoptions": 0,
+      "OpenCode_native_tool_sessions": 0,
+      "fallback_or_config_service_mutations": 0,
+      "cost": null,
+      "R_identifier_not_generation_counter": true
+    },
+    {
+      "R": 123,
+      "task": "REAL_UNFINISHED_TC035_CURRENT180_NATIVE_COMPATIBILITY_MATRIX_AND_MISSING_TESTS",
+      "full_inputs": 27,
+      "raw_UTF8_bytes": 854971,
+      "OpenCode": {
+        "date": "2026-11-23",
+        "installed_version": "1.19.6",
+        "target_version": "1.19.6",
+        "cached": true
+      },
+      "GET_statuses": [
+        200,
+        200
+      ],
+      "configured_model": "qwen38-coder",
+      "available_model_ids": [
+        "open-h3-2k"
+      ],
+      "generation_POSTs": 0,
+      "candidates": 0,
+      "adoptions": 0,
+      "OpenCode_native_tool_sessions": 0,
+      "fallback_or_config_service_mutations": 0,
+      "cost": null,
+      "R_identifier_not_generation_counter": true
+    }
+  ],
+  "owner_validation": {
+    "R122_fixture_semantic_cases_each_VM": [
+      31,
+      31
+    ],
+    "assert_message_port_cases_each_VM": [
+      3,
+      3
+    ],
+    "actual_one_Core_civic_setter": "Observed false->true, other Civic/city/unit/resource/wallet/plot invariant. UI remainedfalse120 and became true121 after ordinary turn, no retry.",
+    "actual_Neighborhood_planning": "NOT_YET_OBSERVED_TC009_OPEN",
+    "R123": "Next genuine compatibility task prepared; no generated candidate or adoption.",
+    "checkpoint": "Protected129 saved14:00:31local,1passiveChoosebinding stilllive; no MainMenu/all-QA-retired claim."
+  },
+  "lessons": [
+    "Core mutation observation and UI replication are separate. Old UI state does not authorize repeating an already observed setter.",
+    "Conservative planning score pruning can keep a legal lower-priority district absent from actual candidates; native eligibility alone is not actual planning or construction.",
+    "A multi-return helper passed directly into an assert may supply a nonstring second argument to a stricter native port. Parentheses force a single boolean; test true and false paths.",
+    "Compile all generated follow-up Lua fragments, including Core readers and whitespace around interpolated numbers, before first side effect; a later reader compile refusal never authorizes replaying the prior observed action.",
+    "A real intermediate Save may deliberately retain passive QA. Record live binding and consumed input maps honestly rather than claiming full retirement."
+  ],
+  "cost": null,
+  "game_evidence": "https://github.com/XenoAmess/civ6_dev/blob/7cb2a2cff3de90f57dbf4e50153b189392c80ea1/docs/research/baiqi-source180-tc009-civic-restoration-mid129-engine74-2026-11-23.json",
+  "whole_progress": "28/40,TC009stillopen,remaining12continue;8unpublishedfixpackages,Workshop172no repeat upload."
+}
