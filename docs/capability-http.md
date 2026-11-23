@@ -7838,3 +7838,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6市政单条件范围审阅](evidence/2026-11-23-civ6-civic-single-condition-scope-audit.json)：无新增模型试调／生成／候选或采用，沿用R122/R123缺模型边界。11实际输入记录仅1选址，几何未变仍有额外住房条件变化，严格正例不授通过；原保护消费者也不能由几何查询替代。135存退QA返菜单，整体28/40继续。成本null。
+
+
+2026-11-23 [Civ6严格市政资格/R124](evidence/2026-11-23-civ6-civic-only-qualification-and-r124.json)：17全输入838242bytes真实任务先准备；canonical仍缺，两GET200仅open-h3-2k，0generation/candidate/adoption，无新404生成或fallback。负责人恒定拒绝夹具与单公民资格每VM17/47/31场景通过，实际社区127完成，TC009关闭整体29/40；原始HTTP诊断不是游戏性能。成本null。

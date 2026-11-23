@@ -2589,3 +2589,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-23 [Civ6 R122/R123](evidence/2026-11-23-civ6-r122-r123-civic-midpoint.json)仅复用同机同用户当日OpenCode1.19.6成功维护缓存；本轮OpenCode原生工具会话0、代码候选0／采用0。HTTP只读模型缺失诊断不是OpenCode原生执行证明，也不是新增生成调用；成本仍null。
+
+
+2026-11-23 [Civ6R124](evidence/2026-11-23-civ6-civic-only-qualification-and-r124.json)：当日OpenCode1.19.6成功维护缓存复用，0OpenCode原生生成工具，不把维护通过授为代码生成能力；canonical模型缺失未改配置或fallback。负责人Native资格、实际完成及上下文清理修正各自记录，成本null。
