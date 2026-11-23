@@ -7868,3 +7868,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-23 [Civ6R136在建计数](evidence/2026-11-23-civ6-queued-settler-r136.json)：13完整源513469bytes先备，2GET200canonical缺、0生成候选采用。实际在建1拒绝、仅隔离同输入queued0才允许，普通进度40/175；Core全队列getter实际nil，UI成本进度不移植。日志按真实request/city/type更正非空，属性先local再type；保存全QA退菜单，TC017仍开放，31/40继续，成本null。
+
+
+2026-11-23 [Civ6R137双移民](evidence/2026-11-23-civ6-two-settlers-r137.json)：15完整源518884bytes先备，2GET200canonical缺、0生成候选采用。60夹具场景每VM／20相关存储测试与实际1QA创建／9移动分层；原Site曾建议占用862，最终持久目标862/776唯一，不追认未读Core拒绝回执或初筛排除。4不同城市来自实际生产日志ID，重复Site调用非地点数。保存全QA退菜单，32/40继续，成本null。
