@@ -2679,3 +2679,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6R153失城重载](evidence/2026-11-24-civ6-saved-cityloss-reload-r153.json)：同日1.19.6维护缓存复用、0原生生成工具；Native效果由独立游戏读回取得，维护不授代码生成能力，成本null。
+
+
+2026-11-24 [Civ6R153死亡档续验](evidence/2026-11-24-civ6-saved-unitloss-reload-r153.json)：当日维护复用，原生生成工具0，不因游戏实效追授模型能力。

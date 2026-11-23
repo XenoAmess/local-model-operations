@@ -7928,3 +7928,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R153失城存档重载](evidence/2026-11-24-civ6-saved-cityloss-reload-r153.json)：20完整源489439bytes先备、2GET200仅H3，0生成候选采用；183实际失城重载＋正常换回合、2正向己城生产／11城进度，负面范围限观察器；旧夹具UNKNOWN留存。新驻防/休眠不重放旧SKIP，成本null。
+
+
+2026-11-24 [Civ6R153死亡档续验](evidence/2026-11-24-civ6-saved-unitloss-reload-r153.json)：同一KLM任务续做、无新HTTP生成候选；183旧单位仍ABSENT、正常换回合替代移民0→43/190及2正向生产，提案不当执行授权，成本null。
