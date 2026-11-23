@@ -7949,3 +7949,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R159被动军队观察与实际指挥](evidence/2026-11-24-civ6-passive-military-control-r159.json)：17完整源1034055bytes先备、复用R157实际可用性，0新HTTP／生成／候选；owner双VM各38检查，真实后台窗口及两次玩家移动分层验证。未替换缓存中的SDK入口，事件不冒充请求计数，成本null。
+
+
+2026-11-24 [Civ6R160其余军队类型](evidence/2026-11-24-civ6-other-military-classes-r160.json)：12完整输入含冻结上下文2151832bytes，2GET200仍缺canonical模型，0生成候选；owner原生支援编制边界修正82检查各VM、真实四类控制分层验证。原QA UNKNOWN保留不重造，成本null。

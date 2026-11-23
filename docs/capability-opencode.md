@@ -2700,3 +2700,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6R159](evidence/2026-11-24-civ6-passive-military-control-r159.json)：同日1.19.6维护缓存，原生生成工具0。真实游戏效果与软件、准备及模型能力分别记录；保存／撤回自有QA后继续未闭兵种，未授整项通过。
+
+
+2026-11-24 [Civ6R160](evidence/2026-11-24-civ6-other-military-classes-r160.json)：复用同日1.19.6维护，原生生成工具0。软件和Native结果独立，实际SDK编制字段与护送人数分列；准备／只读GET不记模型生成。
