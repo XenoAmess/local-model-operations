@@ -2856,3 +2856,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-25 [Civ6 actual scope closure](evidence/2026-11-25-civ6-current184-natural-pressure-qualified.json)：原生工具生成0／成本null；候选资格与压力性能保持独立，继续整矩阵。
+
+
+2026-11-25 [Civ6 actual observer scope](evidence/2026-11-25-civ6-current184-pressure-stageA-wire-results.json)：原生工具生成0；当前原件唯一匹配／窗口重叠守卫与实际保存闭场分列，不冒称整例通过。

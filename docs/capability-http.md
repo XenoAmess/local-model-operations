@@ -8105,3 +8105,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-25 [Civ6 current184 natural scene proof](evidence/2026-11-25-civ6-current184-natural-pressure-qualified.json)：0生成采用；owner实际自然调用、地形和场景有限资格分列，不以静态旧172输入或软件结果代当前Native。
+
+
+2026-11-25 [Civ6 current pressure StageA](evidence/2026-11-25-civ6-current184-pressure-stageA-wire-results.json)：有限数值与实际全wire时间包络独立，0生成采用／成本null；旧失败不覆盖，继续剩余矩阵。
