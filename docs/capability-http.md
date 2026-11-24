@@ -7973,3 +7973,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R167—168宗教单位控制／TC019](evidence/2026-11-24-civ6-religious-control-tc019-r167-r168.json)：完整输入／闭场补文先于对应实现，2GET200仍缺canonical，0生成候选采用；实际就绪窗口、合法玩家移动、源码白名单及保留新兵范围分别支持有限结案34/40，成本null。
+
+
+2026-11-24 [Civ6R169旧军令配对准备](evidence/2026-11-24-civ6-prior-order-control-preparation-r169.json)：118完整源／101当前Lua及原生消费者补文，缺canonical复用0新HTTP生成；实际路径形状、友方经过与目的地守卫区分，七软件方法与制品核验不冒充实机配对，成本null。

@@ -2724,3 +2724,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6R167—168](evidence/2026-11-24-civ6-religious-control-tc019-r167-r168.json)：同日1.19.6维护缓存，原生生成工具0；旧QA初始单位宗教-1不授神学效果，Core缺 getter不伪造，事件非SDK总数，保存撤销后继续其他六项。
+
+
+2026-11-24 [Civ6R169](evidence/2026-11-24-civ6-prior-order-control-preparation-r169.json)：同日1.19.6维护缓存，原生生成工具0；局部拼接编译失败在查询前保留，完整双VM纠正后独立只读资格，候选控制未安装／原生仍待。
