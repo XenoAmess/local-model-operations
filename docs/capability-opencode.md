@@ -2820,3 +2820,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 controlled diagnostic boundary](evidence/2026-11-24-civ6-original-player-controlled-internal-diagnostic.json): 同日维护缓存／0原生生成；helper与实际caller阶段双Lua分别验证，诊断不替代整体验收，成本null。
+
+
+2026-11-24 [Civ6 visibility caller boundary](evidence/2026-11-24-civ6-historical-visibility-poll-inclusion.json): 同日维护缓存、0原生生成；15实际caller分支／4双Lua可见性分支不代替性能预算，成本null。

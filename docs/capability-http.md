@@ -8069,3 +8069,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 controlled original-player diagnosis](evidence/2026-11-24-civ6-original-player-controlled-internal-diagnostic.json): R227真实14源181568字节，0生成候选采用；真实军队ID/type集合对照、只读堆及包含时间分别记账，保留原FAIL，不宣称wire完全相同或GC根因。
+
+
+2026-11-24 [Civ6 historical visibility inclusion](evidence/2026-11-24-civ6-historical-visibility-poll-inclusion.json): R230真实13源200405字节／配置模型仍缺、0生成采用；实际caller异常边界与有限实机分别记录，不据交易区间或堆量归因。
