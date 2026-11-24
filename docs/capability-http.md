@@ -7976,3 +7976,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R169旧军令配对准备](evidence/2026-11-24-civ6-prior-order-control-preparation-r169.json)：118完整源／101当前Lua及原生消费者补文，缺canonical复用0新HTTP生成；实际路径形状、友方经过与目的地守卫区分，七软件方法与制品核验不冒充实机配对，成本null。
+
+
+2026-11-24 [Civ6R170—172既有路线窄证据](evidence/2026-11-24-civ6-queued-order-partial-r170-r172.json)：完整源码先备／两GET200仍缺canonical，0生成采用；原始UI/Core量值分别保留、部分失败不重放游戏动作。未完成跨回合／控制配对保持开放，成本null。
