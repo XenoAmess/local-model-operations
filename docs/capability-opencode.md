@@ -2739,3 +2739,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 current183 maintenance boundary](evidence/2026-11-24-civ6-source183-owner-fixture-unknown-performance-admission.json): actual local Nov24 cached OpenCode1.19.6 maintenance success reused; new native-tool generation/session/adoption0. HTTP service lists only H3 while configured coder is absent; this is no OpenCode code-generation capability evidence. Owner software112+40 results and failed game-native fixture stay separate; maintenance/cache/savings are not inferred from tests.
+
+
+2026-11-24 [Civ6 recovery boundary](evidence/2026-11-24-civ6-protected-recovery-after-owned-native-timeout.json): no new OpenCode-native generation or adoption. Cached maintenance and owner recovery of a game process remain separate from code-generation capability; no service/config changes or inferred savings.
