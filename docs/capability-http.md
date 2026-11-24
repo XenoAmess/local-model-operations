@@ -8054,3 +8054,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 builder callback boundary](evidence/2026-11-24-civ6-builder-callback-boundary-after-selected-diagnostic.json): R217／218真实任务准备，canonical仍缺、0生成候选采用；负责人窄调度修复／软件与12实际包通过，184实机仍待，原54msFAIL不以16ms单窗口覆盖。
+
+
+2026-11-24 [Civ6 current184 planning and QA routing](evidence/2026-11-24-civ6-current184-planning-result-and-qa-routing.json): 实际原85完整规划结果与原54msFAIL分列；负责人QA接口／嵌套子进程／文件错误完整保留，仅零测量／零动作前置下恢复QA标记，无回合重放，0生成候选采用。

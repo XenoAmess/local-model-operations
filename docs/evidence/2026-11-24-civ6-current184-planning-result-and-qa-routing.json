@@ -1,0 +1,58 @@
+{
+  "utc": "2026-11-24T13:11:12.240825+00:00",
+  "project_fixed_commit": "f0340690442232039db7327f646cadc270b43792",
+  "project_backlink": "https://github.com/XenoAmess/civ6_dev/blob/f0340690442232039db7327f646cadc270b43792/docs/research/baiqi-source184-original85-plan-result-and-builder-progress-engine74-2026-11-24.json",
+  "current184_B_plan_pass": false,
+  "whole_TC036_complete": false,
+  "actual_sample_quality_pass": true,
+  "actual_samples": 323,
+  "targets": {
+    "Admin.Run": {
+      "pure_ten_count": 123,
+      "p50_ms": 0.0,
+      "p95_ms": 1.0001659393310547,
+      "max_ms": 6.000041961669922,
+      "above_20ms_count": 0,
+      "above_50ms_count": 0,
+      "budget_ok": true
+    },
+    "Controller.RunNow": {
+      "pure_ten_count": 152,
+      "p50_ms": 1.0001659393310547,
+      "p95_ms": 4.000186920166016,
+      "max_ms": 437.999963760376,
+      "above_20ms_count": 1,
+      "above_50ms_count": 1,
+      "budget_ok": false
+    }
+  },
+  "original18354msFAILretained": true,
+  "prewindow_owner_QA_faults": [
+    {
+      "parent": 36403,
+      "terminal": 1,
+      "cause": "Core getter copy used UI GetUnitType; actualCore requiresGetType. UI85snapshotretained; failedCorequerybeforeEND/capture.",
+      "fix": "SeparateCoregetterqualifiedbyearlieractualCoreTC040andbuildchargesTC012sources; correctedactualCore85matchesUI."
+    },
+    {
+      "parent": 6941,
+      "terminal": 1,
+      "cause": "Pythonownerwrappermissednestedmilitarysubprocess,parentgateblockedfirstselectbeforeanyNativeinput.",
+      "fix": "RouteallnestedTPsubprocessesthroughnewregisteredparent; SDK/gamebindingsunchanged."
+    },
+    {
+      "parent": 5800,
+      "terminal": 1,
+      "cause": "Ownerfilenameconversionchangedoriginaltokenreadtonewabsentresumeattemptfile; failedbeforeNative.",
+      "fix": "NewexactoriginaltokenassignmentwasactuallyevaluatedbeforeNative."
+    }
+  ],
+  "actual_no_game_action_replay_or_raw_sample_deletion": true,
+  "generation_POSTs": 0,
+  "candidates": 0,
+  "adoptions": 0,
+  "OpenCode_native_generation": 0,
+  "HTTP_during_formal": 0,
+  "cost": null,
+  "lesson": "CoreandUItypegettersdiffer; actualrealmchecksareinsufficientifcopiedobjectAPIsarewrong. AnownerwrappermustcovernestedTPsubprocesses. Keepprewindowfailuresandrequireexactzero-measurement/zero-actionstatebeforeownedQAmarkerresumption. OneplanningbudgetPASSnevergrantsfullscript/request/pairedperformanceorwholemodPASS."
+}
