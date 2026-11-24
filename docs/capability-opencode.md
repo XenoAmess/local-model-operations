@@ -2787,3 +2787,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 performance preparation](evidence/2026-11-24-civ6-current-performance-chain-preparation.json): 同日1.19.6成功缓存、0原生生成采用。实际引擎指纹／版本元数据、完整包及父进程／请求证据资格分列；软件准备不是实机性能完成。
+
+
+2026-11-24 [Civ6 prelaunch routing boundary](evidence/2026-11-24-civ6-legacy-offline-reader-prelaunch-rejection.json): 同日缓存维护、0原生生成采用；独立当前模式诊断与未来启动新鲜证明分列，未知成本null。

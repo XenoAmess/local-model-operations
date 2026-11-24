@@ -8036,3 +8036,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 current performance chain preparation](evidence/2026-11-24-civ6-current-performance-chain-preparation.json): R21229完整输入437064字节、仅metadataGET200／canonical缺，0生成候选采用。12实际包与有界执行链软件验证，Native性能0，39/40保持，未知成本null。
+
+
+2026-11-24 [Civ6 prelaunch old-reader rejection](evidence/2026-11-24-civ6-legacy-offline-reader-prelaunch-rejection.json): R213真实10源42684字节准备，复用canonical缺，0候选／采用；门禁在Popen前拒旧unavailable查询，当前既有只读路由修正不当作新实机通过。
