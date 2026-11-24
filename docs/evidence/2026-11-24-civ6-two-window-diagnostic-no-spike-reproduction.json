@@ -1,0 +1,58 @@
+{
+  "utc": "2026-11-24T13:41:22.478563+00:00",
+  "machine": "BF-202609141645",
+  "project_fixed_commit": "bc0c10a351d4952365f207a06f1a0630b467e127",
+  "project_backlink": "https://github.com/XenoAmess/civ6_dev/blob/bc0c10a351d4952365f207a06f1a0630b467e127/docs/research/baiqi-source184-two-window-internal-Native-diagnostic-no438-reproduction-engine74-2026-11-24.json",
+  "actual": {
+    "owner": {
+      "pid": 4740,
+      "created_at": 1795527106.4367242,
+      "exe": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sid Meier's Civilization VI\\Base\\Binaries\\Win64Steam\\CivilizationVI_DX12.exe"
+    },
+    "cold_Popen": 1,
+    "warmup_seconds": 60.71600008010864,
+    "matching_original85_bytecopy_and_reload": true,
+    "contexts_armed": [
+      "UI/BaiqiExecutor"
+    ],
+    "functions_selected": 27,
+    "explicit_Native_path_sites": 5,
+    "capacity": 2048,
+    "selected_calls": 3192,
+    "retained": 310,
+    "zero_success_aggregates": 2882,
+    "dropped": 0,
+    "invalid_clock": 0,
+    "metadata_errors": 0,
+    "gate_errors": 0,
+    "anchor_errors": 0,
+    "anchors": {
+      "86": 1795527314.145,
+      "87": 1795527338.052
+    },
+    "normal_ENDs": [
+      85,
+      86
+    ],
+    "TEST_PLAYER_military_by_turn": {
+      "85": 18,
+      "86": 18
+    },
+    "UserForced": 0,
+    "manual_civilian_inputs": 0,
+    "before_Native_actual_END_guard_cases_dualLua": 144,
+    "actual_literal_Lua_chunks_compiled_each_VM": 9
+  },
+  "original438ms_cause_proved": false,
+  "acceptance_credit": false,
+  "original54and438FAILs_retained": true,
+  "same_actual_parent_all_inputs": true,
+  "real_R226_sources": 14,
+  "input_bytes": 144018,
+  "generation_POSTs": 0,
+  "candidates": 0,
+  "adoptions": 0,
+  "OpenCode_native_generation": 0,
+  "lesson": "Aboundeddiagnosticthatdoesnotreproducealaterlatencyspikecannotclearit. InputcadenceandLuaConsoleallocationarepotentialexperimentalvariables,notprovenGCcauses. Retainallinclusive/zero-aggregate/crossingdataandcontrollednextsteps.",
+  "cost": null
+}

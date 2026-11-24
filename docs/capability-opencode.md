@@ -2811,3 +2811,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 windowed diagnostic validation](evidence/2026-11-24-civ6-windowed-native-path-diagnostic-tool.json): 同日维护缓存／0原生生成；测试软件和实际归档、未来诊断与预算通过分列，未知成本null。
+
+
+2026-11-24 [Civ6 diagnostic limits](evidence/2026-11-24-civ6-two-window-diagnostic-no-spike-reproduction.json): 同日维护缓存／0原生生成；一父输入、软件门禁、实际内部计时与整个性能验收分别记账，成本null。

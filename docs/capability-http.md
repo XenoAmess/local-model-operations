@@ -8060,3 +8060,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 two-window Native diagnostic tool](evidence/2026-11-24-civ6-windowed-native-path-diagnostic-tool.json): R225真实14源542401字节先备／canonical缺、0生成候选采用；负责人15＋8方法与实际123私有包通过，未实机、不覆盖438／54ms原FAIL。
+
+
+2026-11-24 [Civ6 two-window non-reproduction](evidence/2026-11-24-civ6-two-window-diagnostic-no-spike-reproduction.json): R226真实14源144018字节，0生成候选采用；实际3192调用／310行未复现438ms，原FAIL保持，Console节奏仅是假说。
