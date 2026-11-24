@@ -2865,3 +2865,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-25 [Civ6 actual full34 closure](evidence/2026-11-25-civ6-current184-pressure-full34-actual-results.json)：0原生生成；34退订、原件校时与实际闭场不授整项TC036通过。
+
+
+2026-11-25 [Civ6 pressure direct module lifecycle](evidence/2026-11-25-civ6-current184-pressure-paired-consumers.json)：0原生生成；同PID与同module分别实测，软件不追授新游戏效果。
