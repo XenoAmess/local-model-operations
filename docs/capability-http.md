@@ -8072,3 +8072,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 historical visibility inclusion](evidence/2026-11-24-civ6-historical-visibility-poll-inclusion.json): R230真实13源200405字节／配置模型仍缺、0生成采用；实际caller异常边界与有限实机分别记录，不据交易区间或堆量归因。
+
+
+2026-11-24 [Civ6 quiet observer software](evidence/2026-11-24-civ6-quiet-observer-helper-software.json): R231真实25源324630字节／配置模型缺、0生成采用；23软件方法分别记账，不将主机等待当游戏锚点或原FAIL根因证明。
