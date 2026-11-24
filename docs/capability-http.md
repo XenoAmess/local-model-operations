@@ -8075,3 +8075,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 quiet observer software](evidence/2026-11-24-civ6-quiet-observer-helper-software.json): R231真实25源324630字节／配置模型缺、0生成采用；23软件方法分别记账，不将主机等待当游戏锚点或原FAIL根因证明。
+
+
+2026-11-24 [Civ6 actual quiet StageA caller](evidence/2026-11-24-civ6-quiet-stageA-actual-caller-software.json): R231真实25源324630字节／0生成采用；实际六回合432双Lua／204caller／11整链分别验证，旧323尖峰保持，Native仍待。

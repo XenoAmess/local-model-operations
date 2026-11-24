@@ -1,0 +1,511 @@
+{
+  "utc": "2026-11-24T15:19:47.447761+00:00",
+  "machine": "BF-202609141645",
+  "project_fixed_commit": "2589e1b82784b60e1c4a8a0a4d0d661174c9a614",
+  "project_backlink": "https://github.com/XenoAmess/civ6_dev/blob/2589e1b82784b60e1c4a8a0a4d0d661174c9a614/docs/research/baiqi-source184-quiet-stageA-actual-caller-software-engine74-2026-11-24.json",
+  "helper_revision": {
+    "quiet_host_seconds_after_END_ack": 30,
+    "no_queries_or_input_in_host_wait": true,
+    "separate_wait_after_original_farewell": true,
+    "farewell_wait_END_calls": 0,
+    "host_wait_not_actual_anchor_proof": true,
+    "actual_window_and_wire_audit_still_required": true
+  },
+  "software": {
+    "quiet_and_readiness_test_methods": 26,
+    "new_quiet_helper_methods": 20,
+    "existing_readiness_methods": 6,
+    "original_Python_vs_rendered_Lua_cases": 30,
+    "actual_real_Lua_six_turn_END_cases": 432,
+    "actual_canonical_preflight_and_END_caller_cases": 204,
+    "actual_full_capture_caller_cases": [
+      {
+        "scenario": "normal",
+        "accepted": true,
+        "actual_END_vector": [
+          85,
+          86,
+          87,
+          88,
+          89,
+          90
+        ],
+        "quiet_waits": [
+          {
+            "after_END": 85,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 86,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 87,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 88,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 89,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 90,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          }
+        ],
+        "observer_inside_window_flag": false
+      },
+      {
+        "scenario": "late-anchor",
+        "accepted": true,
+        "actual_END_vector": [
+          85,
+          86,
+          87,
+          88,
+          89,
+          90
+        ],
+        "quiet_waits": [
+          {
+            "after_END": 85,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 85,
+            "additional_wait_no_END": true,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 0,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 86,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 87,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 88,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 89,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 90,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          }
+        ],
+        "observer_inside_window_flag": false
+      },
+      {
+        "scenario": "inside-window",
+        "accepted": true,
+        "actual_END_vector": [
+          85,
+          86,
+          87,
+          88,
+          89,
+          90
+        ],
+        "quiet_waits": [
+          {
+            "after_END": 85,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 85,
+            "additional_wait_no_END": true,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 0,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 86,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 87,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 88,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 89,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 90,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          }
+        ],
+        "observer_inside_window_flag": true
+      },
+      {
+        "scenario": "busy",
+        "accepted": true,
+        "actual_END_vector": [
+          85,
+          86,
+          87,
+          88,
+          89,
+          90
+        ],
+        "quiet_waits": [
+          {
+            "after_END": 85,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 85,
+            "additional_wait_no_END": true,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 0,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 86,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 87,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 88,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 89,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 90,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          }
+        ],
+        "observer_inside_window_flag": false
+      },
+      {
+        "scenario": "pending",
+        "accepted": true,
+        "actual_END_vector": [
+          85,
+          86,
+          87,
+          88,
+          89,
+          90
+        ],
+        "quiet_waits": [
+          {
+            "after_END": 85,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 85,
+            "additional_wait_no_END": true,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 0,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 86,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 87,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 88,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 89,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 90,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          }
+        ],
+        "observer_inside_window_flag": false
+      },
+      {
+        "scenario": "farewell",
+        "accepted": true,
+        "actual_END_vector": [
+          85,
+          86,
+          87,
+          88,
+          89,
+          90
+        ],
+        "quiet_waits": [
+          {
+            "after_END": 85,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 86,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 87,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 87,
+            "additional_wait_no_END": true,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 0,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 88,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 89,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          },
+          {
+            "after_END": 90,
+            "quiet_host_seconds": 30.0,
+            "sleep_calls": 30,
+            "END_calls": 1,
+            "observation_calls": 1,
+            "game_window_complete_proved_by_host_wait": false
+          }
+        ],
+        "observer_inside_window_flag": false
+      },
+      {
+        "scenario": "farewell-not-stopped",
+        "accepted": false,
+        "actual_END_vector": [
+          85,
+          86,
+          87
+        ],
+        "quiet_waits": null,
+        "observer_inside_window_flag": null
+      },
+      {
+        "scenario": "wrong-turn",
+        "accepted": false,
+        "actual_END_vector": [
+          85
+        ],
+        "quiet_waits": null,
+        "observer_inside_window_flag": null
+      },
+      {
+        "scenario": "invalid-clock",
+        "accepted": false,
+        "actual_END_vector": [
+          85
+        ],
+        "quiet_waits": null,
+        "observer_inside_window_flag": null
+      },
+      {
+        "scenario": "initial-busy",
+        "accepted": false,
+        "actual_END_vector": [],
+        "quiet_waits": null,
+        "observer_inside_window_flag": null
+      },
+      {
+        "scenario": "unknown-ACK",
+        "accepted": false,
+        "actual_END_vector": [
+          85
+        ],
+        "quiet_waits": null,
+        "observer_inside_window_flag": null
+      }
+    ],
+    "unique_actual_dynamic_Lua_chunks_each_VM": 27,
+    "complete_episode_literal_Lua_chunks_each_VM": 8,
+    "old_failed323sample_actual_dump_exact_parser_equivalence": true,
+    "old_max_sample_seconds_kept": 0.437999963760376,
+    "Native_queries": 0
+  },
+  "model": {
+    "task": "R231",
+    "real_input_files": 25,
+    "real_input_bytes": 324630,
+    "generation_POSTs": 0,
+    "candidates": 0,
+    "adoptions": 0,
+    "OpenCode_native_generation": 0,
+    "cost": null
+  },
+  "original54and438FAIL_retained": true,
+  "cause_proved": false,
+  "Native_performance_credit": false,
+  "lesson": "Test the actual canonical caller and complete-loop transitions, not only a phase helper. Keep original failed dump byte-equivalent in parsing. A verified UI farewell needs a separate quiet wait with zero extra END. All actual wire intervals and game clocks remain future Native evidence."
+}

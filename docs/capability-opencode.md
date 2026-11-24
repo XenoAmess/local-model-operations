@@ -2826,3 +2826,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 quiet sequencing limits](evidence/2026-11-24-civ6-quiet-observer-helper-software.json): 同日维护缓存／0原生生成；实际依赖序列与下一步Native调用器集成有别，成本null。
+
+
+2026-11-24 [Civ6 original handler and quiet wait](evidence/2026-11-24-civ6-quiet-stageA-actual-caller-software.json): 同日维护缓存／0原生生成；正常告别后等待不伪装为新END，成本null。
