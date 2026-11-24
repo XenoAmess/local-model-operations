@@ -7994,3 +7994,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 real levy owner return](evidence/2026-11-24-civ6-real-levy-oldquote-owner-return.json): five genuine prepared tasks, configured coder absent, 0 generation/candidates/adoptions; owner guarded native effects/readbacks close a finite game case, not model capability. Core tombstones versus UI absence and partial-retire recovery recorded; no writer replay or inferred savings.
+
+
+2026-11-24 [Civ6 current wonder asset boundaries](evidence/2026-11-24-civ6-wonder-assets-current-context-limits.json):30 genuine full-source inputs, configured coder absent in two200 GETs, 0 generation/candidate/adoption. Owner native result and exact work/district mapping remain separate from yield attribution/cross-turn/wholecase. Original source encoding bytes and UTF8 payload text counts separate; no inferred savings.
