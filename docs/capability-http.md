@@ -8015,3 +8015,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 current183 economic-isolation preparation](evidence/2026-11-24-civ6-source183-economic-isolation-preparation.json): genuine25-source R206 prepared; canonical absent,0generation/candidate/adoption. Owner18admission/7negative checks; Nativewindow pending, no savings claim.
+
+
+2026-11-24 [Civ6 current-engine pin correction](evidence/2026-11-24-civ6-current74-isolation-pin.json): owner preflight caught historical executable pin before Native/filter creation; strict bytes/mtime/SHA qualified74 checks and23fault checks. GenuineR206 still prepared/not wire,0generation/adoption.
