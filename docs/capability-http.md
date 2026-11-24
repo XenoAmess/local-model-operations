@@ -8000,3 +8000,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 four-turn conservation boundaries](evidence/2026-11-24-civ6-four-turn-asset-conservation-boundaries.json): six genuine full-source pending tasks prepared; no generation POST/candidate/adoption while canonical model absent. Owner corrected overbroad whole-roster and bystander-slot invariance assertions, retained actual changes and four normal transitions. Owner results grant no model capability or savings.
+
+
+2026-11-24 [Civ6 original yield mapping](evidence/2026-11-24-civ6-original-yield-and-recreated-context.json):71 full-source real pending inputs prepared; two metadata200 responses still omit configured coder, 0 generation/candidate/adoption. Rounded tooltip contribution mapping and exact totals separated; narrow owner result, no model capability gain.
