@@ -8006,3 +8006,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 capital/victory/full-ID evidence](evidence/2026-11-24-civ6-capital-victory-ui-maintenance-fullid.json): genuine full-source75/84/93 tasks prepared, 0 generation/candidate/adoption while configured coder absent in two metadata200 responses. Owner corrected victory projection, bystander district count, dynamic maintenance and old-ID alias assumptions; narrow Native result grants no model capability.
+
+
+2026-11-24 [Civ6 minor elimination and END scope](evidence/2026-11-24-civ6-minor-elimination-and-end-scope.json):99/104 full-source genuine tasks prepared, 0 generation/candidate/adoption while canonical absent. Owner corrected zero-value return/diplomacy-field comparisons and stage-bounded helper misuse before NativeEND;68 VM tests plus separate actual2to3 do not grant model capability.

@@ -2757,3 +2757,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 independent settlement/identity audit](evidence/2026-11-24-civ6-capital-victory-ui-maintenance-fullid.json): daily1.19.6 cached, 0 native generation/adoption. SDK lookup identity, Native combat/maintenance and UI lifecycle verified separately; no unmeasured savings or current whole-mod pass.
+
+
+2026-11-24 [Civ6 exact-stage normal END](evidence/2026-11-24-civ6-minor-elimination-and-end-scope.json): cached daily1.19.6; 0 native generation/adoption. Known first-guard zero-action rejection versus unknown action outcome kept distinct; no old input/Save/capture replay. Unknown cost/cache remains null.

@@ -1,0 +1,55 @@
+{
+  "utc": "2026-11-24T08:04:56.900569+00:00",
+  "machine": "BF-202609141645",
+  "mode_id": "HTTP_CANDIDATE",
+  "project_fixed_commit": "8dc42f68feb73d0cb4c98365047ee0584700fd11",
+  "project_backlink": "https://github.com/XenoAmess/civ6_dev/blob/8dc42f68feb73d0cb4c98365047ee0584700fd11/docs/research/baiqi-source183-tc031-true-citystate-normal3-engine74-2026-11-24.json",
+  "real_prepared_tasks": [
+    {
+      "task": "R200_REAL_TC031_TRUE_CITYSTATE_LAST_CITY_NATIVE_ASSET_AND_ARMY_CONVERSION_CURRENT183",
+      "source_count": 99,
+      "original_source_bytes": 1666118,
+      "prepared_not_wire": true
+    },
+    {
+      "task": "R201_REAL_TC031_MINOR_TURN2_NORMAL_END_HELPER_SCOPE_REPAIR_NO_ORIGINAL_NATIVE_END_EXECUTED",
+      "source_count": 104,
+      "original_source_bytes": 1687158,
+      "prepared_not_wire": true
+    }
+  ],
+  "prepared_not_wire": true,
+  "generation_POSTs": 0,
+  "candidates": 0,
+  "adoptions": 0,
+  "OpenCode_native_generation": 0,
+  "configured_coder_absent": true,
+  "latest_bounded_metadata_UTC": "2026-11-24T08:04:54.350701+00:00",
+  "daily_maintenance": {
+    "date": "2026-11-24",
+    "installed_version": "1.19.6",
+    "target_version": "1.19.6",
+    "cached": true
+  },
+  "owner_corrections": [
+    "Before snapshot wrongly expected a literal trailing nil from absent native Unit:GetProperty; actual last-position binding returned zero values,10-column actual actor row retained and complete identity/quote qualified without replay.",
+    "Immediate BASE equality wrongly included eliminated-player diplomacy: Corefalse/UItrue; identity/population/wallet/journal agree. Both actual flags retained; after normal3 bothfalse. No faction-state edit.",
+    "Owner assumed existing END helper generic but it explicitly admits only114..118. Newturn2 call failed its first assertion before ReadIntent/WriteIntent/originalRequestAction: 0 NativeEND. Completed Save2 preserved, no duplicate Save/capture.",
+    "New private strictEXACTturn2 helper retains allrole/gates/reservations/unknown/no-replay checks.68 real Lua51/53 cases passed including wrongscope3/114/source/role/nil; new END-only driver executed one original normal END and actualnormal3 confirmed. Original114..118 helper unchanged."
+  ],
+  "finite_lessons": [
+    "A native getter can return zero values in final variadic position; retain observed schema, never invent nil metadata.",
+    "Eliminated-player diplomacy flags can differ UI/Core while current city/fee identity coheres; report independently and verify later normal state.",
+    "A stage-bounded helper is not generic: inspect its explicit admission before reuse. Rejection before intent/native boundary is known zero action, not an unknown game result to force or replay.",
+    "Exactturn2 private port preserves normal gates and no-replay; real68 VM fault cases and actual2to3 Native result are separate.",
+    "Minor last-city deletion may leave Core delayed/offmap units absent from UI; owner/domain/full ID disambiguation is essential."
+  ],
+  "real_VM_cases": 68,
+  "whole_case_or_mod_pass": false,
+  "cost": {
+    "exclusive_active": null,
+    "net_savings": null,
+    "cached_tokens": null
+  },
+  "configuration_or_service_changes": 0
+}
