@@ -2844,3 +2844,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-25 [Civ6 finite matched measurement](evidence/2026-11-25-civ6-source184-original85-all25-paired.json)：0原生工具生成；首只读连接失败不冒称动作失败或重做整侧，完整矩阵仍单列。
+
+
+2026-11-25 [Civ6 finite query audit](evidence/2026-11-25-civ6-pressure-console-audit-software.json)：同机本地自然日1.19.6维护成功缓存复用；原生工具生成0，成本null，完整压力消费者待校验。

@@ -8093,3 +8093,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-25 [Civ6 current184 all25paired](evidence/2026-11-25-civ6-source184-original85-all25-paired.json)：0生成采用；全部实际输入／原始段／有限预算与原LSQ失败、不重放接续分别记账，成本null。
+
+
+2026-11-25 [Civ6 pressure Console audit software](evidence/2026-11-25-civ6-pressure-console-audit-software.json)：R237新鲜canonical GET200仍仅其他模型，0生成／采用；真实未完成审计由owner推进，12项软件检查不授Native。
