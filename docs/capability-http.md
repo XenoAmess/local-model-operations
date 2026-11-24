@@ -8108,3 +8108,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-25 [Civ6 current pressure StageA](evidence/2026-11-25-civ6-current184-pressure-stageA-wire-results.json)：有限数值与实际全wire时间包络独立，0生成采用／成本null；旧失败不覆盖，继续剩余矩阵。
+
+
+2026-11-25 [Civ6 current full34 finite tool qualification](evidence/2026-11-25-civ6-current184-pressure-full34-consumers.json)：真实R239完整输入准备、20:28UTC指定coder缺，0生成/采用/改路；owner实际校验与夹具失败分列，成本null。
