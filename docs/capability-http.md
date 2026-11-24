@@ -8027,3 +8027,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 missing-read diagnostic preparation](evidence/2026-11-24-civ6-scoped-missing-read-diagnostic-preparation.json): genuineR20819fullsources731712bytesprepared/notwire, canonical absent09:54,0generation/adoption. Owner8methods in2LuaVMs/private101compile/123actualZIP; gamefaultmatrix pending.
+
+
+2026-11-24 [Civ6 context attribution correction](evidence/2026-11-24-civ6-tuner-realm-attribution-correction.json): ownerWorldInputUI/Coremislabelwithdrawn; oldrawreceipts/Githistoryretained, newtrueGameplay75separate. R20914sources367447bytesprepared/notwire, canonicalabsent10:17,0candidate/adoption.4pre-dispatchmethodsare software, not retrospective gameproof.

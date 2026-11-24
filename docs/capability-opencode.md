@@ -2778,3 +2778,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 reversible state-read QA](evidence/2026-11-24-civ6-scoped-missing-read-diagnostic-preparation.json): same-day1.19.6cachedmaintenance,0nativegeneration; no game-pass or saving claim from private diagnostic tests.
+
+
+2026-11-24 [Civ6 realm boundary](evidence/2026-11-24-civ6-tuner-realm-attribution-correction.json): same-daycachedmaintenance only,0nativegeneration/adoption; explicitownerattributioncorrection, no unmeasuredsavings or oldCoregrant.
