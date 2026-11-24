@@ -2754,3 +2754,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 recreated UI context cleanup](evidence/2026-11-24-civ6-original-yield-and-recreated-context.json): same-day cached1.19.6, 0 native generation/adoption; owner corrected overly strict true-flag assumption using fresh actual nil, no business replay. Unknown costs remain null.
+
+
+2026-11-24 [Civ6 independent settlement/identity audit](evidence/2026-11-24-civ6-capital-victory-ui-maintenance-fullid.json): daily1.19.6 cached, 0 native generation/adoption. SDK lookup identity, Native combat/maintenance and UI lifecycle verified separately; no unmeasured savings or current whole-mod pass.

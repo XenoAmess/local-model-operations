@@ -8003,3 +8003,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 original yield mapping](evidence/2026-11-24-civ6-original-yield-and-recreated-context.json):71 full-source real pending inputs prepared; two metadata200 responses still omit configured coder, 0 generation/candidate/adoption. Rounded tooltip contribution mapping and exact totals separated; narrow owner result, no model capability gain.
+
+
+2026-11-24 [Civ6 capital/victory/full-ID evidence](evidence/2026-11-24-civ6-capital-victory-ui-maintenance-fullid.json): genuine full-source75/84/93 tasks prepared, 0 generation/candidate/adoption while configured coder absent in two metadata200 responses. Owner corrected victory projection, bystander district count, dynamic maintenance and old-ID alias assumptions; narrow Native result grants no model capability.
