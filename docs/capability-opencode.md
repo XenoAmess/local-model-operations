@@ -2784,3 +2784,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 bounded fault window](evidence/2026-11-24-civ6-controlled-read-fault-and-unfinished-request.json): 同日维护缓存仅维护资格，0原生代码生成采用。真实诊断／SDK计数／GameplayCore／保存和普通包恢复分列；39/40验收不等于模型性能或工时收益。
+
+
+2026-11-24 [Civ6 performance preparation](evidence/2026-11-24-civ6-current-performance-chain-preparation.json): 同日1.19.6成功缓存、0原生生成采用。实际引擎指纹／版本元数据、完整包及父进程／请求证据资格分列；软件准备不是实机性能完成。

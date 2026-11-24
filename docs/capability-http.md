@@ -8033,3 +8033,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 controlled missing-state and unknown-request](evidence/2026-11-24-civ6-controlled-read-fault-and-unfinished-request.json): R210／211真实11源363410／503799字节准备未发wire，canonical仍缺、0生成候选采用，成本null。Owner完成实际四分支与正常回合保存；不把实机通过计作模型能力。短窗口原子取证／转换、未知分支先保护再测独立用途，丢失终态不重放。
+
+
+2026-11-24 [Civ6 current performance chain preparation](evidence/2026-11-24-civ6-current-performance-chain-preparation.json): R21229完整输入437064字节、仅metadataGET200／canonical缺，0生成候选采用。12实际包与有界执行链软件验证，Native性能0，39/40保持，未知成本null。
