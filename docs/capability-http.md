@@ -7979,3 +7979,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R170—172既有路线窄证据](evidence/2026-11-24-civ6-queued-order-partial-r170-r172.json)：完整源码先备／两GET200仍缺canonical，0生成采用；原始UI/Core量值分别保留、部分失败不重放游戏动作。未完成跨回合／控制配对保持开放，成本null。
+
+
+2026-11-24 [Civ6 R173—174原队列实际跨回合](evidence/2026-11-24-civ6-queued-route-enabled-r173-r174.json)：完整源码先备、复用canonical缺失，新增HTTP/生成采用0；实际原版输入与引擎继续分列，对照尚待，成本null。
