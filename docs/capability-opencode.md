@@ -2763,3 +2763,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 frozen matrix delivery](evidence/2026-11-24-civ6-frozen-special-matrix-guard-continuation.json): cached daily1.19.6, 0 native generation/adoption. Frozen four-clause byte comparison, dated source-impact retention and independent normal-turn evidence kept separate; wholemod still open, costs/cache unknown.
+
+
+2026-11-24 [Civ6 isolation preparation](evidence/2026-11-24-civ6-source183-economic-isolation-preparation.json): same-day1.19.6 cached maintenance only; no native generation/adoption or game pass.
