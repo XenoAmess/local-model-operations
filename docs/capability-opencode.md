@@ -2853,3 +2853,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-25 [Civ6 scoped lifecycle witness](evidence/2026-11-25-civ6-current-natural-census-prepared.json)：日维护缓存成功，原生工具生成0；36producer／192双VM和当前源包编译仅软件证据，不继承旧172Native。
+
+
+2026-11-25 [Civ6 actual scope closure](evidence/2026-11-25-civ6-current184-natural-pressure-qualified.json)：原生工具生成0／成本null；候选资格与压力性能保持独立，继续整矩阵。

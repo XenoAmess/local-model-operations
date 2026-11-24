@@ -8102,3 +8102,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-25 [Civ6 current natural census preparation](evidence/2026-11-25-civ6-current-natural-census-prepared.json)：真实R238任务配置模型仍缺，0生成采用；owner软件夹具误拦Git与修正后的有限门禁分别记录，0Native，当前自然资格待实测。
+
+
+2026-11-25 [Civ6 current184 natural scene proof](evidence/2026-11-25-civ6-current184-natural-pressure-qualified.json)：0生成采用；owner实际自然调用、地形和场景有限资格分列，不以静态旧172输入或软件结果代当前Native。
