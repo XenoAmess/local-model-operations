@@ -8021,3 +8021,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 isolated partial window/continuation](evidence/2026-11-24-civ6-isolated-window-safe-continuation.json): owner actual Native partial fixture, no model candidate or full case pass. Independent modal gate blocked military/END; own filter safely closed, current-state unique-parent continuation avoids transaction replay.
+
+
+2026-11-24 [Civ6 actual economic shock/isolation](evidence/2026-11-24-civ6-economic-shock-isolated-native-window.json): R20625sources522754bytes/R207120sources1263994bytes genuineprepared/notwire, canonical absent in09:34metadata,0generation/candidate/adoption. Owner completed scopedNative three-normal window and222budget comparisons;38of40 is game progress, no model capability/savings claim.
