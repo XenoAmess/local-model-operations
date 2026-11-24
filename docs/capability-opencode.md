@@ -2790,3 +2790,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 prelaunch routing boundary](evidence/2026-11-24-civ6-legacy-offline-reader-prelaunch-rejection.json): 同日缓存维护、0原生生成采用；独立当前模式诊断与未来启动新鲜证明分列，未知成本null。
+
+
+2026-11-24 [Civ6 failed performance evidence](evidence/2026-11-24-civ6-native-controller54ms-failure.json): 同日维护缓存、0原生生成采用。资格通过、采样有效、实际预算失败、保存退出分别记录，内部原因及完成工时未知，成本null。

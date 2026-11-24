@@ -8039,3 +8039,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 prelaunch old-reader rejection](evidence/2026-11-24-civ6-legacy-offline-reader-prelaunch-rejection.json): R213真实10源42684字节准备，复用canonical缺，0候选／采用；门禁在Popen前拒旧unavailable查询，当前既有只读路由修正不当作新实机通过。
+
+
+2026-11-24 [Civ6 actual54ms budget failure](evidence/2026-11-24-civ6-native-controller54ms-failure.json): R215真实17源892824字节准备，11:34仅H3／canonical缺，0生成候选采用。314有效原生样本中54ms超过50，父成功不等于预算成功；保留失败、独立内部诊断，不重采覆盖。
