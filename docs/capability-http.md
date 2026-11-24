@@ -8066,3 +8066,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 actual caller phase repair](evidence/2026-11-24-civ6-diagnostic-stage-caller-contract-repair.json): R227-229真实任务／canonical缺、0生成候选采用；85实际END前读前置错误被拒，0窗口，真实六状态／实际调用器正负对照补齐，不覆盖438／54msFAIL。
+
+
+2026-11-24 [Civ6 controlled original-player diagnosis](evidence/2026-11-24-civ6-original-player-controlled-internal-diagnostic.json): R227真实14源181568字节，0生成候选采用；真实军队ID/type集合对照、只读堆及包含时间分别记账，保留原FAIL，不宣称wire完全相同或GC根因。

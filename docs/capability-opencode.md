@@ -2817,3 +2817,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 phase coverage boundary](evidence/2026-11-24-civ6-diagnostic-stage-caller-contract-repair.json): 同日维护缓存／0原生生成；已执行18输入、零计时窗口与软件修复分列，成本null。
+
+
+2026-11-24 [Civ6 controlled diagnostic boundary](evidence/2026-11-24-civ6-original-player-controlled-internal-diagnostic.json): 同日维护缓存／0原生生成；helper与实际caller阶段双Lua分别验证，诊断不替代整体验收，成本null。
