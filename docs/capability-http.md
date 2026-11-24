@@ -8090,3 +8090,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-25 [Civ6 current184 paired consumers](evidence/2026-11-25-civ6-current184-paired-consumer-software.json)：R233真实51完整输入442158字节；当日新维护1.19.6通过但canonical仍缺，0生成采用，owner自行移植后实际消费者／完整Lua及输入审计分别核验，尚无Native配对。
+
+
+2026-11-25 [Civ6 current184 all25paired](evidence/2026-11-25-civ6-source184-original85-all25-paired.json)：0生成采用；全部实际输入／原始段／有限预算与原LSQ失败、不重放接续分别记账，成本null。

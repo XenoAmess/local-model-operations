@@ -2841,3 +2841,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-25 [Civ6 fresh daily maintenance boundary](evidence/2026-11-25-civ6-current184-paired-consumer-software.json)：实际本地25日维护非缓存成功，0原生工具生成／成本null；软件两次fixture失败保留，不追授实机。
+
+
+2026-11-25 [Civ6 finite matched measurement](evidence/2026-11-25-civ6-source184-original85-all25-paired.json)：0原生工具生成；首只读连接失败不冒称动作失败或重做整侧，完整矩阵仍单列。
