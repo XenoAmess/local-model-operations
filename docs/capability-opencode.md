@@ -2850,3 +2850,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-25 [Civ6 scope-qualified preparation](evidence/2026-11-25-civ6-pressure-consumers-awaiting-current-natural.json)：日维护成功缓存复用、原生工具生成0；36实际producer／192双VM软件案例不冒称Native或压力性能。
+
+
+2026-11-25 [Civ6 scoped lifecycle witness](evidence/2026-11-25-civ6-current-natural-census-prepared.json)：日维护缓存成功，原生工具生成0；36producer／192双VM和当前源包编译仅软件证据，不继承旧172Native。

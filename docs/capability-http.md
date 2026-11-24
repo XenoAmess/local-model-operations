@@ -8099,3 +8099,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-25 [Civ6 current pressure consumers](evidence/2026-11-25-civ6-pressure-consumers-awaiting-current-natural.json)：R238全源码真实未完成任务；新GET仍缺canonical模型，0生成采用。owner实际消费者软件合格与当前自然资格待补分列，旧172通过不继承。
+
+
+2026-11-25 [Civ6 current natural census preparation](evidence/2026-11-25-civ6-current-natural-census-prepared.json)：真实R238任务配置模型仍缺，0生成采用；owner软件夹具误拦Git与修正后的有限门禁分别记录，0Native，当前自然资格待实测。
