@@ -2832,3 +2832,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 finite Native measurement scope](evidence/2026-11-24-civ6-complete-quiet-stageA-and-wire-audit.json): 同日维护缓存／0原生生成；形式锁内无HTTP，成本null，单阶段结果不替代全矩阵。
+
+
+2026-11-25 [Civ6 closing readiness boundary](evidence/2026-11-25-civ6-full34-current-caller-software.json): 0原生生成；本地25日尚无模型使用，不追认24日缓存为25日维护，成本null。

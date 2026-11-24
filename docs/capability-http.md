@@ -8081,3 +8081,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 complete quiet StageA](evidence/2026-11-24-civ6-complete-quiet-stageA-and-wire-audit.json): R231真实25源324630字节／0生成采用；新原生完整五窗、旧FAIL、独立wire审计与整例完成分别记账。
+
+
+2026-11-25 [Civ6 current full34 consumers](evidence/2026-11-25-civ6-full34-current-caller-software.json): R232真实26源397090字节／0生成采用，最后metadata属前一本地自然日；15同PID模块及真实main／计时检查分别记账，Native未跑。
