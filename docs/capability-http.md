@@ -8048,3 +8048,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 scoped internal window boundary](evidence/2026-11-24-civ6-internal-one86-diagnostic-boundary.json): R215准备／canonical缺、0生成候选采用；实际85禁用34基线与单86代码编译分列，尚无内部根因结论，原预算FAIL保留。
+
+
+2026-11-24 [Civ6 nested diagnostic scope correction](evidence/2026-11-24-civ6-selected-nested-diagnostics-and-scope-correction.json): R216真实12源396818准备、11:58canonical缺、0生成候选采用；8双Lua方法与单Controller私有包验证。外层66行没有内部函数的负责人范围误判更正，不是根因／性能通过。
