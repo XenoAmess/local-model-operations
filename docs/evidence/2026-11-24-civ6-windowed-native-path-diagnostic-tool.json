@@ -1,0 +1,88 @@
+{
+  "utc": "2026-11-24T13:20:52.083423+00:00",
+  "machine": "BF-202609141645",
+  "project_fixed_commit": "6bfa95f0f126bb453f0d97784bec9ac1af485b92",
+  "project_backlink": "https://github.com/XenoAmess/civ6_dev/blob/6bfa95f0f126bb453f0d97784bec9ac1af485b92/docs/research/baiqi-source184-two-window-selected-Native-path-diagnostic-tool-software-2026-11-24.json",
+  "real_R225_files": 14,
+  "real_input_bytes": 542401,
+  "generation_POSTs": 0,
+  "candidates": 0,
+  "adoptions": 0,
+  "OpenCode_native_generation": 0,
+  "maintenance": {
+    "date": "2026-11-24",
+    "installed_version": "1.19.6",
+    "target_version": "1.19.6",
+    "cached": true
+  },
+  "actual_tool_validation": {
+    "perf184-windowed-selected-tool-final-tests.log": {
+      "methods": 15,
+      "sha256": "0a5a8ec097dbcc71bfc15b9efc85ef320de1159aef7136055d9ae410ffa10894",
+      "terminal": 0
+    },
+    "perf184-previous183-selected-tool-regression-tests.log": {
+      "methods": 8,
+      "sha256": "3d409be382b94746efc8eb188d4d6d5aaebb30a139c2462afee474acda36f8fb",
+      "terminal": 0
+    }
+  },
+  "actual_bundle": {
+    "mode": "baiqi184-private-windowed-selected-v1",
+    "files": 123,
+    "Lua_each_VM": 101,
+    "capacity": 2048,
+    "first_turn": 86,
+    "last_turn": 87,
+    "seconds_each": 10,
+    "selected_functions": [
+      "BaiqiController.RunNow",
+      "Tick",
+      "PlayerContext",
+      "RefreshSettlement",
+      "ReadBack",
+      "NextCityForPlanning",
+      "ProcessCity",
+      "Economy",
+      "FirstHolySiteWanted",
+      "ProcessBuilder",
+      "AdvanceBuilderRoute",
+      "BuilderTargets",
+      "ProcessSettler",
+      "SettlementSites",
+      "ProcessTrader",
+      "KnownExpansionSupport",
+      "ProcessNaturalistPurchase",
+      "missionaryPurchase.Process",
+      "PrepareBuilderPathPacket",
+      "ValidateBuilderPathPacket",
+      "PathStep",
+      "RequestCivilian",
+      "UnitSnapshot",
+      "districtRoute.Run",
+      "RetryCivilianOverlap",
+      "Safe",
+      "GetVisibleUnits"
+    ],
+    "Native_path_sites": [
+      "overlap-choice",
+      "overlap-edge",
+      "path-step",
+      "builder-packet",
+      "district-route"
+    ],
+    "coverage_limit": "Only these five explicit owned callsites; captured path bindings elsewhere are not claimed instrumented.",
+    "archive_sha256": "d580f4aeb15774fd8abae9ac6095aa97681cd0a867a9391d5b3d0c16585244ea",
+    "metadata_sha256": "697836637191ba4da14bc0427521ef6be105c0a96dabe16ba1f4ee0b969159f7",
+    "only_private_changed_file": [
+      "Lua/BaiqiController.lua"
+    ],
+    "actual_transform_and_ZIP_verified": true,
+    "installed": false,
+    "Native": 0,
+    "acceptance_budget_credit": false
+  },
+  "original438ms_and54ms_FAIL_preserved": true,
+  "lesson": "A later-turnwall-clockspikerequiresmatchinglater-windowinternalcoverageanddirectleafmeasurement. Privateforwardersmustpreservecurrentcallee/evaluationorder/pcallerrorswithoutreplacingSDKbindings. BoundeddualLuaandrealZIPsuccessdonotproveNativecauseorperformancepass.",
+  "cost": null
+}

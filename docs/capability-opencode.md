@@ -2808,3 +2808,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 current184 finite performance](evidence/2026-11-24-civ6-current184-planning-result-and-qa-routing.json): 同日维护缓存／0原生生成；实际游戏规划、QA工具错误、其余三性能度量和整个模组验收分别记账，成本null。
+
+
+2026-11-24 [Civ6 windowed diagnostic validation](evidence/2026-11-24-civ6-windowed-native-path-diagnostic-tool.json): 同日维护缓存／0原生生成；测试软件和实际归档、未来诊断与预算通过分列，未知成本null。

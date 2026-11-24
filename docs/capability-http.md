@@ -8057,3 +8057,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 current184 planning and QA routing](evidence/2026-11-24-civ6-current184-planning-result-and-qa-routing.json): 实际原85完整规划结果与原54msFAIL分列；负责人QA接口／嵌套子进程／文件错误完整保留，仅零测量／零动作前置下恢复QA标记，无回合重放，0生成候选采用。
+
+
+2026-11-24 [Civ6 two-window Native diagnostic tool](evidence/2026-11-24-civ6-windowed-native-path-diagnostic-tool.json): R225真实14源542401字节先备／canonical缺、0生成候选采用；负责人15＋8方法与实际123私有包通过，未实机、不覆盖438／54ms原FAIL。
