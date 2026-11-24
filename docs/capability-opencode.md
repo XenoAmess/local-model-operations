@@ -2781,3 +2781,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 realm boundary](evidence/2026-11-24-civ6-tuner-realm-attribution-correction.json): same-daycachedmaintenance only,0nativegeneration/adoption; explicitownerattributioncorrection, no unmeasuredsavings or oldCoregrant.
+
+
+2026-11-24 [Civ6 bounded fault window](evidence/2026-11-24-civ6-controlled-read-fault-and-unfinished-request.json): 同日维护缓存仅维护资格，0原生代码生成采用。真实诊断／SDK计数／GameplayCore／保存和普通包恢复分列；39/40验收不等于模型性能或工时收益。

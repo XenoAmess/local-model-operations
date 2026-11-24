@@ -8030,3 +8030,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 context attribution correction](evidence/2026-11-24-civ6-tuner-realm-attribution-correction.json): ownerWorldInputUI/Coremislabelwithdrawn; oldrawreceipts/Githistoryretained, newtrueGameplay75separate. R20914sources367447bytesprepared/notwire, canonicalabsent10:17,0candidate/adoption.4pre-dispatchmethodsare software, not retrospective gameproof.
+
+
+2026-11-24 [Civ6 controlled missing-state and unknown-request](evidence/2026-11-24-civ6-controlled-read-fault-and-unfinished-request.json): R210／211真实11源363410／503799字节准备未发wire，canonical仍缺、0生成候选采用，成本null。Owner完成实际四分支与正常回合保存；不把实机通过计作模型能力。短窗口原子取证／转换、未知分支先保护再测独立用途，丢失终态不重放。
