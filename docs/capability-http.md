@@ -8042,3 +8042,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 actual54ms budget failure](evidence/2026-11-24-civ6-native-controller54ms-failure.json): R215真实17源892824字节准备，11:34仅H3／canonical缺，0生成候选采用。314有效原生样本中54ms超过50，父成功不等于预算成功；保留失败、独立内部诊断，不重采覆盖。
+
+
+2026-11-24 [Civ6 after-failure diagnosis preparation](evidence/2026-11-24-civ6-after-failure-internal-profile-preparation.json): 复用R215真实未完成上下文／canonical缺，0生成候选采用；私有函数诊断准备不授性能通过，原54ms失败保留。
