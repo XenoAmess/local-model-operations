@@ -8087,3 +8087,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-25 [Civ6 full34 finite budgets and count recovery](evidence/2026-11-25-civ6-full34-budgets-and-counted-receipt-recovery.json)：R232生成候选采用0，真实全34预算结果、owner33／34匹配失败与不重放恢复分列，成本null。
+
+
+2026-11-25 [Civ6 current184 paired consumers](evidence/2026-11-25-civ6-current184-paired-consumer-software.json)：R233真实51完整输入442158字节；当日新维护1.19.6通过但canonical仍缺，0生成采用，owner自行移植后实际消费者／完整Lua及输入审计分别核验，尚无Native配对。

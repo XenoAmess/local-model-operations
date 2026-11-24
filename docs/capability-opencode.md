@@ -2838,3 +2838,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-25 [Civ6 actual consumer validation gap](evidence/2026-11-25-civ6-full34-budgets-and-counted-receipt-recovery.json)：0原生生成；双Lua／软件绿不覆盖未执行Python回执路径，原失败保留，真实有限游戏结果不授整例通过。
+
+
+2026-11-25 [Civ6 fresh daily maintenance boundary](evidence/2026-11-25-civ6-current184-paired-consumer-software.json)：实际本地25日维护非缓存成功，0原生工具生成／成本null；软件两次fixture失败保留，不追授实机。
