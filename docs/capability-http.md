@@ -8078,3 +8078,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 actual quiet StageA caller](evidence/2026-11-24-civ6-quiet-stageA-actual-caller-software.json): R231真实25源324630字节／0生成采用；实际六回合432双Lua／204caller／11整链分别验证，旧323尖峰保持，Native仍待。
+
+
+2026-11-24 [Civ6 complete quiet StageA](evidence/2026-11-24-civ6-complete-quiet-stageA-and-wire-audit.json): R231真实25源324630字节／0生成采用；新原生完整五窗、旧FAIL、独立wire审计与整例完成分别记账。
