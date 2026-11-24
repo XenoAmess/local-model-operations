@@ -8009,3 +8009,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 minor elimination and END scope](evidence/2026-11-24-civ6-minor-elimination-and-end-scope.json):99/104 full-source genuine tasks prepared, 0 generation/candidate/adoption while canonical absent. Owner corrected zero-value return/diplomacy-field comparisons and stage-bounded helper misuse before NativeEND;68 VM tests plus separate actual2to3 do not grant model capability.
+
+
+2026-11-24 [Civ6 frozen asset matrix/guard continuation](evidence/2026-11-24-civ6-frozen-special-matrix-guard-continuation.json):112/118/123/126 full-source genuine tasks prepared, canonical absent in latest two200 metadataGETs, 0 generation/candidate/adoption. Owner completed exact current Native/scoped-retention gamecase37of40; not model capability. Trait metadata and low-yield integer progress corrected with actual source/readbacks, no input replay or unmeasured savings.

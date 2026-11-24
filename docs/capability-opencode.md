@@ -2760,3 +2760,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 exact-stage normal END](evidence/2026-11-24-civ6-minor-elimination-and-end-scope.json): cached daily1.19.6; 0 native generation/adoption. Known first-guard zero-action rejection versus unknown action outcome kept distinct; no old input/Save/capture replay. Unknown cost/cache remains null.
+
+
+2026-11-24 [Civ6 frozen matrix delivery](evidence/2026-11-24-civ6-frozen-special-matrix-guard-continuation.json): cached daily1.19.6, 0 native generation/adoption. Frozen four-clause byte comparison, dated source-impact retention and independent normal-turn evidence kept separate; wholemod still open, costs/cache unknown.
