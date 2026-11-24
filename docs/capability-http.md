@@ -8111,3 +8111,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-25 [Civ6 current full34 finite tool qualification](evidence/2026-11-25-civ6-current184-pressure-full34-consumers.json)：真实R239完整输入准备、20:28UTC指定coder缺，0生成/采用/改路；owner实际校验与夹具失败分列，成本null。
+
+
+2026-11-25 [Civ6 actual current pressure full34](evidence/2026-11-25-civ6-current184-pressure-full34-actual-results.json)：有限原生预算与完整读取器软件校验分列、正式期间HTTP0、0生成采用、成本null，配对仍待。

@@ -2862,3 +2862,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-25 [Civ6 current full34 software boundary](evidence/2026-11-25-civ6-current184-pressure-full34-consumers.json)：同日维护1.19.6成功缓存复用，原生工具生成0；实际32消费者和完整读取器的软件资格不冒充压力Native。
+
+
+2026-11-25 [Civ6 actual full34 closure](evidence/2026-11-25-civ6-current184-pressure-full34-actual-results.json)：0原生生成；34退订、原件校时与实际闭场不授整项TC036通过。
