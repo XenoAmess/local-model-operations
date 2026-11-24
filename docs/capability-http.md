@@ -7985,3 +7985,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 R175—176实际匹配回合／TC021](evidence/2026-11-24-civ6-matched-turn-rest-tc021-r175-r176.json)：完整实际源码先备、两GET200仍缺canonical，0生成采用；只按固定四条判定149→150＋新驻防，不冒称未执行的C151，35/40余5，成本null。
+
+
+2026-11-24 [Civ6 current183 driver admission and foreign fixture unknown](evidence/2026-11-24-civ6-source183-owner-fixture-unknown-performance-admission.json): real22-source/432022-byte unfinished context; same-day OpenCode1.19.6 cached maintenance; two GET200 expose only H3, configured coder absent. Generation/candidates/adoptions0, owner fixes five consumers/13 lists. 112 paired plus40 planning-analysis methods pass, new9 are included, not152+9. Original native placement entered once then timedout; no replay or owner-transition credit, exact own QA termination explicitly user-authorized with prior saves protected. Null cost/cache/savings; full current performance still open.
