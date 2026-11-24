@@ -7967,3 +7967,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6R165晚期场景](evidence/2026-11-24-civ6-late-scene-eligibility-r165.json)：11完整输入187835bytes，复用缺canonical可用性，0新HTTP／生成候选；当前原生资格与上下文集合差异单列，不冒充集团军控制通过，成本null。
+
+
+2026-11-24 [Civ6R166集团军](evidence/2026-11-24-civ6-army-control-r166.json)：12完整输入215298bytes，缺canonical状态复用，0新HTTP／生成候选；owner复用已验夹具及无侵入观察器取得新实际效果，军编与护送、事件与请求分别记，成本null。
