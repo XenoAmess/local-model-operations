@@ -2769,3 +2769,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 pin compatibility](evidence/2026-11-24-civ6-current74-isolation-pin.json): cached maintenance only; no native generation or game-pass grant.
+
+
+2026-11-24 [Civ6 modal/isolation boundary](evidence/2026-11-24-civ6-isolated-window-safe-continuation.json): cached maintenance only, no native generation/adoption; costs unknown.

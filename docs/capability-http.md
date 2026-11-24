@@ -8018,3 +8018,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 current-engine pin correction](evidence/2026-11-24-civ6-current74-isolation-pin.json): owner preflight caught historical executable pin before Native/filter creation; strict bytes/mtime/SHA qualified74 checks and23fault checks. GenuineR206 still prepared/not wire,0generation/adoption.
+
+
+2026-11-24 [Civ6 isolated partial window/continuation](evidence/2026-11-24-civ6-isolated-window-safe-continuation.json): owner actual Native partial fixture, no model candidate or full case pass. Independent modal gate blocked military/END; own filter safely closed, current-state unique-parent continuation avoids transaction replay.
