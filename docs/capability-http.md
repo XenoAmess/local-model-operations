@@ -8045,3 +8045,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 after-failure diagnosis preparation](evidence/2026-11-24-civ6-after-failure-internal-profile-preparation.json): 复用R215真实未完成上下文／canonical缺，0生成候选采用；私有函数诊断准备不授性能通过，原54ms失败保留。
+
+
+2026-11-24 [Civ6 scoped internal window boundary](evidence/2026-11-24-civ6-internal-one86-diagnostic-boundary.json): R215准备／canonical缺、0生成候选采用；实际85禁用34基线与单86代码编译分列，尚无内部根因结论，原预算FAIL保留。

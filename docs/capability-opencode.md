@@ -2796,3 +2796,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 diagnostic preparation boundary](evidence/2026-11-24-civ6-after-failure-internal-profile-preparation.json): 同日维护缓存、0原生生成；诊断开销与正式冻结预算分列，成本未知null。
+
+
+2026-11-24 [Civ6 diagnostic readiness](evidence/2026-11-24-civ6-internal-one86-diagnostic-boundary.json): 同日维护缓存、0原生生成；实际基线、语法、未来内部采样和预算通过分别记账，成本null。
