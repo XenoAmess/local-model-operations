@@ -1,0 +1,109 @@
+{
+  "utc": "2026-11-24T14:22:56.313440+00:00",
+  "project_fixed_commit": "47a13cfcc60c3efffae4e73c98c4df817d1a18eb",
+  "project_backlink": "https://github.com/XenoAmess/civ6_dev/blob/47a13cfcc60c3efffae4e73c98c4df817d1a18eb/docs/research/baiqi-source184-sequential-control85-pre-END-phase-rejection-and-caller-repair-2026-11-24.json",
+  "actual_QA_failure_before_END": {
+    "owner": {
+      "pid": 20060,
+      "created_at": 1795528602.8063302,
+      "exe": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Sid Meier's Civilization VI\\Base\\Binaries\\Win64Steam\\CivilizationVI_DX12.exe"
+    },
+    "parent": 17685,
+    "terminal": {
+      "utc": "2026-11-24T14:13:04.984058+00:00",
+      "tool_session": 17685,
+      "actual_terminal_exit": 1,
+      "terminal_chunk": "1d9a39",
+      "actual_OS_parent_absent": true,
+      "source_records_preserved": true,
+      "no_replay": true
+    },
+    "actual_military_SKIPs": 18,
+    "actual_full_ID_type_set_matches_batch_control": true,
+    "ordinary_ENDs": 0,
+    "window_anchors": 0,
+    "retained_samples": 0,
+    "failure": "profile_preflight85expecteddisabledforselect/stepANDend. ActualcallerArmedtimerbeforeEND85,soitfailedBaiqiExecutorreadonlypreflightbeforeActionPanelEND. Originalfirst144END/62profiletestsneverexecutedtheactualcallertransition.",
+    "ActionPanel_END_attempt_file_absent": true,
+    "normal_result_not_claimed": true,
+    "source_input_packet_snapshot_before_arm_and_failed_END": {
+      "attempted_queries": 109,
+      "successful_queries": 109,
+      "authored_UTF8_bytes": 118633,
+      "by_context": {
+        "MainMenu": {
+          "attempts": 1,
+          "successes": 1,
+          "bytes": 403
+        },
+        "BaiqiExecutor": {
+          "attempts": 71,
+          "successes": 71,
+          "bytes": 27900
+        },
+        "ActionPanel": {
+          "attempts": 37,
+          "successes": 37,
+          "bytes": 90330
+        }
+      }
+    },
+    "readonly_heap_before85military": [
+      "85",
+      "available",
+      "108733.8681640625"
+    ],
+    "readonly_heap_after85military": [
+      "85",
+      "available",
+      "118405.083984375"
+    ],
+    "heap_cause_limit": "KBchanged108733.868to118405.084duringthisintervalincludingnormalgame/Console/diagnosticactivity. ThisdoesnotidentifyGCtimeorproveoriginal438cause; noGCcollect/step/stop/restartcalled."
+  },
+  "software": {
+    "new_private_player_renderer": "profile_preflight(turn,stage): 85select/stepdisabled;85ENDarmed0anchors;86allarmed1anchor.",
+    "originalTPLua_producer_and_guard_unchanged": true,
+    "same_existing_windowed_bundle": true,
+    "actual_originalPython_vs_directLua_cases": 10,
+    "normal_END_cases_realLua51_53": 144,
+    "all6_turn_stage_cases": 208,
+    "ACTUAL_old_and_new_caller_after85_ARM_cases": [
+      {
+        "VM": "lupa.lua51",
+        "old_F_negative_control": false,
+        "actual85_already_armed_caller_passed": true,
+        "original_END_requests": 1
+      },
+      {
+        "VM": "lupa.lua51",
+        "old_F_negative_control": true,
+        "actual85_already_armed_caller_passed": false,
+        "original_END_requests": 0
+      },
+      {
+        "VM": "lupa.lua53",
+        "old_F_negative_control": false,
+        "actual85_already_armed_caller_passed": true,
+        "original_END_requests": 1
+      },
+      {
+        "VM": "lupa.lua53",
+        "old_F_negative_control": true,
+        "actual85_already_armed_caller_passed": false,
+        "original_END_requests": 0
+      }
+    ],
+    "optional_count_only_heap_cases": 10,
+    "complete_literal_Lua_chunks_each_VM": 8,
+    "Native_queries_by_software": 0,
+    "old_F_sources_and_failed_records_preserved": true
+  },
+  "original438ms_and54msFAIL_retained": true,
+  "Native_performance_credit": 0,
+  "generation_POSTs": 0,
+  "candidates": 0,
+  "adoptions": 0,
+  "OpenCode_native_generation": 0,
+  "lesson": "Areadinesspredicatecanbecorrectinisolationandwrongattheactualcallerstate. Testsneedbefore/afterArmbyoperationstageandrealcallerpositiveplusold-negativecontrols. Preservecompletedinputsandabandonunmeasuredtimingcontrolsafterunplannedrepairpause;heapKBisnotGCtime.",
+  "cost": null
+}

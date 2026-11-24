@@ -8063,3 +8063,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 two-window non-reproduction](evidence/2026-11-24-civ6-two-window-diagnostic-no-spike-reproduction.json): R226真实14源144018字节，0生成候选采用；实际3192调用／310行未复现438ms，原FAIL保持，Console节奏仅是假说。
+
+
+2026-11-24 [Civ6 actual caller phase repair](evidence/2026-11-24-civ6-diagnostic-stage-caller-contract-repair.json): R227-229真实任务／canonical缺、0生成候选采用；85实际END前读前置错误被拒，0窗口，真实六状态／实际调用器正负对照补齐，不覆盖438／54msFAIL。
