@@ -2802,3 +2802,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 nested diagnostic limits](evidence/2026-11-24-civ6-selected-nested-diagnostics-and-scope-correction.json): 同日维护缓存、0原生生成；返回值／异常／满额／嵌套软件验证与未来实机分列，原54msFAIL不覆盖、成本null。
+
+
+2026-11-24 [Civ6 selected diagnostic and software boundary](evidence/2026-11-24-civ6-builder-callback-boundary-after-selected-diagnostic.json): 复用同日维护缓存／0原生生成；实际嵌套计时、原始性能失败、负责人软件修复与未来实机分别记账，成本null。

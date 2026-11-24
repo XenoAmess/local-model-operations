@@ -8051,3 +8051,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 nested diagnostic scope correction](evidence/2026-11-24-civ6-selected-nested-diagnostics-and-scope-correction.json): R216真实12源396818准备、11:58canonical缺、0生成候选采用；8双Lua方法与单Controller私有包验证。外层66行没有内部函数的负责人范围误判更正，不是根因／性能通过。
+
+
+2026-11-24 [Civ6 builder callback boundary](evidence/2026-11-24-civ6-builder-callback-boundary-after-selected-diagnostic.json): R217／218真实任务准备，canonical仍缺、0生成候选采用；负责人窄调度修复／软件与12实际包通过，184实机仍待，原54msFAIL不以16ms单窗口覆盖。
