@@ -2748,3 +2748,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 context-specific asset reads](evidence/2026-11-24-civ6-wonder-assets-current-context-limits.json): cached daily1.19.6, 0 OpenCode-native generation/adoption. Context-specific API correction and retained completed evidence are owner work, not native coding capability.
+
+
+2026-11-24 [Civ6 independent state/effect qualification](evidence/2026-11-24-civ6-four-turn-asset-conservation-boundaries.json): cached daily1.19.6; 0 native generation/adoption. Software guards and actual effects remain separate; ACK/same-turn/new-callback intents explicitly distinguished. Cost/cache unknown.

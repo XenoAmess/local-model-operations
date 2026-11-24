@@ -7997,3 +7997,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 current wonder asset boundaries](evidence/2026-11-24-civ6-wonder-assets-current-context-limits.json):30 genuine full-source inputs, configured coder absent in two200 GETs, 0 generation/candidate/adoption. Owner native result and exact work/district mapping remain separate from yield attribution/cross-turn/wholecase. Original source encoding bytes and UTF8 payload text counts separate; no inferred savings.
+
+
+2026-11-24 [Civ6 four-turn conservation boundaries](evidence/2026-11-24-civ6-four-turn-asset-conservation-boundaries.json): six genuine full-source pending tasks prepared; no generation POST/candidate/adoption while canonical model absent. Owner corrected overbroad whole-roster and bystander-slot invariance assertions, retained actual changes and four normal transitions. Owner results grant no model capability or savings.
