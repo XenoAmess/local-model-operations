@@ -1,0 +1,164 @@
+{
+  "utc": "2026-11-24T16:33:06.886937+00:00",
+  "machine": "BF-202609141645",
+  "project_fixed_commit": "cc30b81a49fcacd0ae7b1e7c71545214ea307311",
+  "project_backlink": "https://github.com/XenoAmess/civ6_dev/blob/cc30b81a49fcacd0ae7b1e7c71545214ea307311/docs/research/baiqi-source184-original85-full34-budgets-and-counted-retirement-engine74-2026-11-25.json",
+  "numeric": {
+    "contexts": 34,
+    "samples": 590,
+    "aggregate_zero_success_calls": 40521,
+    "configured_retained_sample_budget": 4096,
+    "windows": [
+      {
+        "turn": 86,
+        "start_ui": 1795536764.848,
+        "end_ui": 1795536774.848,
+        "observed_union_ms": 89.99848365783691,
+        "clipped_inclusive_sum_ms_not_cpu": 93.99867057800293,
+        "sample_rows_intersecting": 58
+      },
+      {
+        "turn": 87,
+        "start_ui": 1795536856.076,
+        "end_ui": 1795536866.076,
+        "observed_union_ms": 85.9987735748291,
+        "clipped_inclusive_sum_ms_not_cpu": 89.99848365783691,
+        "sample_rows_intersecting": 57
+      },
+      {
+        "turn": 88,
+        "start_ui": 1795536950.7020001,
+        "end_ui": 1795536960.7020001,
+        "observed_union_ms": 108.00004005432129,
+        "clipped_inclusive_sum_ms_not_cpu": 115.99993705749512,
+        "sample_rows_intersecting": 60
+      },
+      {
+        "turn": 89,
+        "start_ui": 1795537047.228,
+        "end_ui": 1795537057.228,
+        "observed_union_ms": 138.0007266998291,
+        "clipped_inclusive_sum_ms_not_cpu": 145.00045776367188,
+        "sample_rows_intersecting": 62
+      },
+      {
+        "turn": 90,
+        "start_ui": 1795537136.161,
+        "end_ui": 1795537146.161,
+        "observed_union_ms": 129.00114059448242,
+        "clipped_inclusive_sum_ms_not_cpu": 137.00127601623535,
+        "sample_rows_intersecting": 73
+      }
+    ],
+    "complete_turn_writes": [
+      {
+        "turn": 86,
+        "calls": 9,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 9
+        }
+      },
+      {
+        "turn": 87,
+        "calls": 8,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 8
+        }
+      },
+      {
+        "turn": 88,
+        "calls": 17,
+        "by_context": {
+          "Lua/BaiqiGameplay.lua": 3,
+          "UI/BaiqiExecutor.lua": 14
+        }
+      },
+      {
+        "turn": 89,
+        "calls": 10,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 10
+        }
+      },
+      {
+        "turn": 90,
+        "calls": 32,
+        "by_context": {
+          "Lua/BaiqiGameplay.lua": 6,
+          "UI/BaiqiExecutor.lua": 26
+        }
+      }
+    ],
+    "partial_turn_writes": [
+      {
+        "turn": 91,
+        "calls": 6,
+        "by_context": {
+          "UI/BaiqiExecutor.lua": 6
+        }
+      }
+    ],
+    "observed_b_turn_budget_ok": true,
+    "observed_n_req_budget_ok": true,
+    "limits": [
+      "Observed numbers assume constant context offsets; midpoint alignment is not exact synchronization.",
+      "Clock granularity and timing uncertainty remain unknown.",
+      "Inclusive envelopes contain Native/vanilla callees; they are not exclusive mod CPU.",
+      "Source coverage and city-history classification require separate evidence.",
+      "Matched B_delta and full TC-036 acceptance are not established."
+    ]
+  },
+  "quality": {
+    "all590_raw_rows_retained": true,
+    "anchors": 816,
+    "write_rows": 24,
+    "export_errors": 0,
+    "clock_bracket_rows": 204,
+    "timing_phase_rows": 408,
+    "timing_coverage_ok": true,
+    "timing_pause_does_not_pause_wholeturn_writes": true,
+    "turn91_write_count_is_partial": true
+  },
+  "closing_failure": {
+    "original_parent_terminal": {
+      "utc": "2026-11-24T16:21:01.267506+00:00",
+      "tool_session": 10326,
+      "actual_terminal_exit": 1,
+      "terminal_chunk": "996ce0",
+      "actual_OS_parent_absent": true,
+      "source_records_preserved": true,
+      "no_replay": true
+    },
+    "actual_game_retirement_count": 34,
+    "old_python_expected": 33,
+    "original_actual_wire_sha256": "71493e682be692d00e5e66f4aa22f7ce6a59aac4a2d57069b095870dc0e2926d",
+    "actual_authored_Lua_sha256": "48fea1e084a9e4a6be4595cfd15298256e6af77dee7332f5262bdacdea747649",
+    "game_side_retirement_succeeded": true,
+    "retirement_replayed": false,
+    "recovery": "New sole parent read-only verified active/idle91, same driver token, recording disabled and all34 registry entries absent; released matching formal lock, verified save and called formal Quit once.",
+    "initial_software_coverage_gap": "Earlier software checks did not execute the Python counted-retirement matcher; previous software-qualified report is not an end-to-end closing success."
+  },
+  "software_repair": {
+    "helper": "tools/native_count_receipt.py",
+    "strict_exact_single_count": 34,
+    "rejects_old33_prefix340_duplicates_native_errors": true,
+    "unit_test_methods": 5,
+    "actual_consumers_isolated_cases": 10,
+    "actual_original_wire_used_as_data": true,
+    "game_calls_mocked_in_software_tests": true,
+    "new_Native_queries_for_software": 0
+  },
+  "model": {
+    "prior_task": "R232",
+    "real_input_files": 26,
+    "real_input_bytes": 397090,
+    "generation_POSTs": 0,
+    "candidates": 0,
+    "adoptions": 0,
+    "OpenCode_native_generation": 0,
+    "HTTP_during_formal": 0,
+    "cost": null
+  },
+  "whole_TC036_pass": false,
+  "lesson": "Game-side success and owner receipt parsing are independent. Recover actual wire and read-only state before deciding next action; never replay a completed unsubscribe because the host matched a stale count. Test actual host consumers, preserve original failure, then close safely."
+}

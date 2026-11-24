@@ -2835,3 +2835,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-25 [Civ6 closing readiness boundary](evidence/2026-11-25-civ6-full34-current-caller-software.json): 0原生生成；本地25日尚无模型使用，不追认24日缓存为25日维护，成本null。
+
+
+2026-11-25 [Civ6 actual consumer validation gap](evidence/2026-11-25-civ6-full34-budgets-and-counted-receipt-recovery.json)：0原生生成；双Lua／软件绿不覆盖未执行Python回执路径，原失败保留，真实有限游戏结果不授整例通过。

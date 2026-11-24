@@ -8084,3 +8084,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-25 [Civ6 current full34 consumers](evidence/2026-11-25-civ6-full34-current-caller-software.json): R232真实26源397090字节／0生成采用，最后metadata属前一本地自然日；15同PID模块及真实main／计时检查分别记账，Native未跑。
+
+
+2026-11-25 [Civ6 full34 finite budgets and count recovery](evidence/2026-11-25-civ6-full34-budgets-and-counted-receipt-recovery.json)：R232生成候选采用0，真实全34预算结果、owner33／34匹配失败与不重放恢复分列，成本null。
