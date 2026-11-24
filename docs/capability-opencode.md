@@ -2742,3 +2742,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-24 [Civ6 recovery boundary](evidence/2026-11-24-civ6-protected-recovery-after-owned-native-timeout.json): no new OpenCode-native generation or adoption. Cached maintenance and owner recovery of a game process remain separate from code-generation capability; no service/config changes or inferred savings.
+
+
+2026-11-24 [Civ6 native ownership boundary](evidence/2026-11-24-civ6-real-levy-oldquote-owner-return.json): same-day cached maintenance, 0 OpenCode-native generation/adoption. Actual game case completion and owner fault recovery do not grant native coding capability; costs remain null.

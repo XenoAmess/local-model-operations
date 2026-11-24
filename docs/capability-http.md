@@ -7991,3 +7991,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-24 [Civ6 protected recovery](evidence/2026-11-24-civ6-protected-recovery-after-owned-native-timeout.json): owner lifecycle port, 0 generation/candidates/adoptions; explicit own failed-QA termination followed by one fresh-offline cold launch/Load, full original two-context identity recovery and protected safe Save/formalMenu. Wildcard alias import and tail-render compile failures are owner errors before their effects; no business replay or capability/savings claim.
+
+
+2026-11-24 [Civ6 real levy owner return](evidence/2026-11-24-civ6-real-levy-oldquote-owner-return.json): five genuine prepared tasks, configured coder absent, 0 generation/candidates/adoptions; owner guarded native effects/readbacks close a finite game case, not model capability. Core tombstones versus UI absence and partial-retire recovery recorded; no writer replay or inferred savings.
