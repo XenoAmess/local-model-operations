@@ -1,5 +1,7 @@
 # MiniMax H3 完整 BF16 Ref2VA 部署
 
+2026-11-24整理说明：本页保留完整教师的历史配置和手动切换模板，**不是当前8001正式服务**。当前8001为BF16 Omni，8002为共享队列IC；不要按本页旧命令直接覆盖它们。模型关系、AdaLN、资源、验收与恢复经验见[系列部署总览](minimax-h3-deployment-experience.md)，当前启停见[共享队列运维](video-http-queue.md)。
+
 状态（2026-11-16）：用户已明确授权部署串行的完整 H3＋本地 2K HTTP 服务，当前入口见 [2K HTTP 运维](h3-2k-http.md)，原 FastH3 已停止。下文保留独立 Base 服务配置；该独立服务未安装或启动，避免与当前 HTTP 服务争用端口和 GPU。策略记录为 `deployment/minimax-h3/activation-policy.json`。
 
 本机部署官方 [MiniMaxAI/MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) 的 H3-Base Ref2VA，全秩 BF16 编码器、生成模型和原版 VAE；固定 revision 为 `0919fb684102ef115126612f3fbb84d1027e7317`。配置为 50 步、CFG 1.0、密集注意力。它支持文字与参考图片、视频、音频联合生成。

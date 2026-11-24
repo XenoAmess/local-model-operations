@@ -1,8 +1,8 @@
 {
-  "source_commit": "4a945146e08a67c0cabea9172d920e8f7c1832a3",
+  "source_commit": "47037792d87b8e22e5d4221bed6957b11a990d1e",
   "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
   "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
-  "scope": "Video deployment and research; S48 14-second full-context 4K and S42 5-second 4K delivered; cuDNN/FlashInfer and FROST/CUDA Graph operator comparisons complete, production unchanged, queue resumed; client visual review pending",
+  "scope": "Video deployment and research; consolidated MiniMax H3/FastH3 model deployment experience, historical/current boundaries, selected completed 5s/10s/14s 4K evidence; production unchanged, no new inference",
   "omitted": [
     "runtime Git metadata",
     "models",
@@ -28,6 +28,11 @@
       "path": "AGENTS.md",
       "bytes": 8095,
       "sha256": "0e061030fd60c1abaf555f57aaeeaf046298014b463707e37f7656f0a20d6542"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4425,
+      "sha256": "d15f6a0dbab826756b96d6f5f7b8f3f46b45503d1c0d5e3381cae9c25ba674ea"
     },
     {
       "path": "deployment-omni.json",
@@ -243,6 +248,11 @@
       "path": "deployment/minimax-h3/dense-kernel-quick-benchmark-20261120.json",
       "bytes": 8117,
       "sha256": "4305c8041a86043ddc95eb1382db21f421af5153da46f915023cbc3b424a54cd"
+    },
+    {
+      "path": "deployment/minimax-h3/deployment-experience-evidence-20261124.json",
+      "bytes": 11160,
+      "sha256": "326883118cf7773134db682f8aa680d87ff4b880d72c76bccb9eca08a916f57b"
     },
     {
       "path": "deployment/minimax-h3/download-completion.json",
@@ -526,8 +536,8 @@
     },
     {
       "path": "docs/fasth3-omni.md",
-      "bytes": 28888,
-      "sha256": "5208ee2899fd50dfdbda4ec867d088983d2cf99eeaeb199521352ec462f7e9e8"
+      "bytes": 29124,
+      "sha256": "6a5e61093f45c1bb8602afc539026b3e94ad251fec03ed10e9288e8bc92b2adf"
     },
     {
       "path": "docs/fasth3-v2-inputs.md",
@@ -546,8 +556,8 @@
     },
     {
       "path": "docs/h3-2k-http.md",
-      "bytes": 7958,
-      "sha256": "06fed2f634e70555e544cc7ecededc3e640b6fc549f543108b7dd244d069eb4d"
+      "bytes": 8257,
+      "sha256": "3042f20632165c3c4c92d4847c178647c6d8ca03b3c708da08ded8ed03f10c5d"
     },
     {
       "path": "docs/h3-2k-refiner-http.md",
@@ -590,14 +600,19 @@
       "sha256": "022079679c6044231e5c665bcbe0fe37a88ddd8f190152c005f0dd0380f40afd"
     },
     {
+      "path": "docs/minimax-h3-deployment-experience.md",
+      "bytes": 24216,
+      "sha256": "b9c14c3eb2bac27686616c34e1558823d2edf23d10847e1325a7598a715c541a"
+    },
+    {
       "path": "docs/minimax-h3-local-2k.md",
-      "bytes": 8403,
-      "sha256": "b92c9ebf4528d8f71f6d8933786acda7b3b266942204f0a0cfd88f875c0af844"
+      "bytes": 8829,
+      "sha256": "4218ad8b82b2eea9b0374b0f21468eb2726a7ae7950578d52daac4c989dfa4da"
     },
     {
       "path": "docs/minimax-h3.md",
-      "bytes": 7633,
-      "sha256": "7bf0bafea8d49e91a15688fa9e55c975a5da737e52ffa11aef2240f06f3e1df7"
+      "bytes": 8027,
+      "sha256": "d48524759d21fabcc6b4c8a922ee612d8b1ffee1b6191371242be274e23c5f5d"
     },
     {
       "path": "docs/omni-bf16-benchmark.md",
@@ -626,8 +641,8 @@
     },
     {
       "path": "docs/video-framework-research-index-2026-11-17.md",
-      "bytes": 7910,
-      "sha256": "120eae406b1af40a6546dd5d694d98c90ed2b914bbab422b76258ea26aad1d0c"
+      "bytes": 8171,
+      "sha256": "34f34a586fde1a0d60f2001ee2be243dafc5425503b4cc151bef7b2a7265e2f8"
     },
     {
       "path": "docs/video-http-api.md",
@@ -636,8 +651,8 @@
     },
     {
       "path": "docs/video-http-queue.md",
-      "bytes": 13024,
-      "sha256": "1f2bcfebed67731abd571c7710957485da06f4c0cdc3271cb77c7dea10b63ece"
+      "bytes": 13372,
+      "sha256": "6e9ea5895a0c35962ab6fba1c60ca69391b6770d3d0354c2314d025ba54fa503"
     },
     {
       "path": "docs/video-inference-framework-research-2026-11-17.md",
@@ -1155,5 +1170,9 @@
       "sha256": "5b35b797f894bed300daf12b47d882e54cbda9e668e11fef58187592f53265ee"
     }
   ],
-  "documentation_sync": "Root docs are the reader entry; deployment docs mirror runtime docs. Root-to-deployment links are rewritten to resolve within each tree. Deployment README remains repository-specific."
+  "documentation_sync": "Root docs are the reader entry; deployment docs mirror runtime docs. Root-to-deployment links are rewritten to resolve within each tree. Deployment README remains repository-specific.",
+  "publication_adjustments": [
+    "Deployment README preserves its curated repository overview, adding the experience entry without importing runtime-only media links.",
+    "Root docs mirrors rewrite relative links to published deployment paths when needed."
+  ]
 }

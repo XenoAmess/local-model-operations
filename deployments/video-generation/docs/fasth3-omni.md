@@ -1,5 +1,7 @@
 # FastH3 Omni 视频渲染部署与运维
 
+跨版本经验见[MiniMax H3／FastH3部署总览](minimax-h3-deployment-experience.md)：特别区分本页NVFP4历史流程、当前BF16服务、36L解码和后级IC重生成，不把历史15秒结果外推到BF16显存可用性。
+
 当前 BF16 Omni 和 2K 使用[共享队列部署](video-http-queue.md)：模型名称分别为 `fasth3-omni-bf16`、`open-h3-2k`，8001／8002 同时接单、自动切换 GPU。本页保留旧 NVFP4 部署与历史渲染流程；旧服务已停止，当前启停以共享队列文档为准。
 
 2026-11-16 16:33 用户要求先部署 Omni，现已恢复 Omni API 8001 与网页 7860，保留 quality-36L，默认草稿 768p；[完整 H3＋本地 2K 串联服务](h3-2k-http.md) 已停止。[独立 2K HTTP 服务](h3-2k-refiner-http.md) 保留在 8002，Omni 常驻时队列等待显卡释放。处理完草稿后，先停止 Omni 模型，再让 2K 队列执行，当前不自动切换两个模型。

@@ -1,5 +1,7 @@
 # 本地视频服务部署
 
+2026-11-24：[MiniMax H3／FastH3系列部署经验总览](docs/minimax-h3-deployment-experience.md)汇总V2、两套Omni、完整Base与IC的选型、环境恢复、AdaLN故障、解码器、显存保护、整段4K、计时口径与未采用优化，并附已有任务核对证据。本轮只读整理，没有启动模型或改动正式配置。
+
 本目录是 `local-model-operations` 的普通子目录，统一随主仓库提交；不是 Git 子仓库或子模块。源码版本及文件校验见 [source-origin.json](source-origin.json)。模型权重、虚拟环境、CUDA 工具、用户上传和生成媒体不入库。
 
 2026-11-17 用户确认正式选型：Omni 继续 FastVideo；2K／4K 保留当前优化 IC 后端。SGLang／UniServe 保留实验资料，不恢复已取消的量产补测。[全部调研入口](docs/video-framework-research-index-2026-11-17.md)、[FastVideo／SGLang 全面对比](docs/fastvideo-vs-sglang-2026-11-17.md)、[PDD 与注意力实现](docs/h3-pdd-attention-implementation-2026-11-17.md)。
