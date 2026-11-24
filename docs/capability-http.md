@@ -8096,3 +8096,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-25 [Civ6 pressure Console audit software](evidence/2026-11-25-civ6-pressure-console-audit-software.json)：R237新鲜canonical GET200仍仅其他模型，0生成／采用；真实未完成审计由owner推进，12项软件检查不授Native。
+
+
+2026-11-25 [Civ6 current pressure consumers](evidence/2026-11-25-civ6-pressure-consumers-awaiting-current-natural.json)：R238全源码真实未完成任务；新GET仍缺canonical模型，0生成采用。owner实际消费者软件合格与当前自然资格待补分列，旧172通过不继承。
