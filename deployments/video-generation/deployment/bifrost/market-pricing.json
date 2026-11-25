@@ -1,0 +1,50 @@
+{
+  "verified_on": "2026-11-25",
+  "currency": "USD",
+  "overrides": [
+    {
+      "name": "Qwen3.8 Flash Next market rate (alias)",
+      "scope_kind": "global",
+      "match_type": "exact",
+      "pattern": "qwen38-coder",
+      "request_types": ["chat_completion", "text_completion", "responses"],
+      "patch": {
+        "input_cost_per_token": 0.0000001275,
+        "cache_read_input_token_cost": 0.000000032,
+        "output_cost_per_token": 0.0000003995
+      }
+    },
+    {
+      "name": "Qwen3.8 Flash Next market rate (canonical)",
+      "scope_kind": "global",
+      "match_type": "exact",
+      "pattern": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-Coder-GGUF",
+      "request_types": ["chat_completion", "text_completion", "responses"],
+      "patch": {
+        "input_cost_per_token": 0.0000001275,
+        "cache_read_input_token_cost": 0.000000032,
+        "output_cost_per_token": 0.0000003995
+      }
+    },
+    {
+      "name": "FastH3 Omni market rate",
+      "scope_kind": "global",
+      "match_type": "exact",
+      "pattern": "fasth3-omni-bf16",
+      "request_types": ["video_generation"],
+      "patch": {"output_cost_per_video_per_second": 0.025}
+    },
+    {
+      "name": "Open H3 IC 2K and 4K market rates",
+      "scope_kind": "global",
+      "match_type": "exact",
+      "pattern": "open-h3-2k",
+      "request_types": ["video_generation"],
+      "patch": {
+        "output_cost_per_video_per_second": 0.1,
+        "output_cost_per_video_per_second_4k": 0.288
+      }
+    }
+  ],
+  "blender_review": {"usd_per_render_hour": 3.0}
+}

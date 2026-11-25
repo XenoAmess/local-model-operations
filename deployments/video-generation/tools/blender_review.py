@@ -1,4 +1,5 @@
 """Public request and input contract for the pinned Blender review adapter."""
+from decimal import Decimal
 import json
 import os
 from pathlib import Path, PurePosixPath
@@ -21,6 +22,15 @@ MAX_UPLOAD = 2 * 1024**3
 MAX_UNPACKED = 6 * 1024**3
 MAX_IMAGES = 512
 ALLOWED_SUFFIXES = {".blend", ".json", ".ueanim", ".png", ".jpg", ".jpeg", ".exr", ".tga", ".txt"}
+MARKET_PRICING = ROOT / "deployment/bifrost/market-pricing.json"
+
+
+def render_metering(seconds):
+    with MARKET_PRICING.open() as stream:
+        hourly = json.load(stream, parse_float=Decimal)["blender_review"]["usd_per_render_hour"]
+    amount = Decimal(str(seconds)) * hourly / 3600
+    return {"currency": "USD", "basis": "render_worker_seconds", "seconds": seconds,
+            "usd_per_hour": float(hourly), "amount": float(round(amount, 8))}
 
 
 class ReviewParams(BaseModel):

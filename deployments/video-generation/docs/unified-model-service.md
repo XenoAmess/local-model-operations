@@ -97,7 +97,25 @@ curl -X PUT "http://192.168.1.11:8080/v1/render/assets/$digest" \
 
 Bifrost 的自定义价格基于已支持的请求类型。按 GPU 占用时长、采样量或复杂度计费时，节点可按确认后的规则计算金额，在图片响应中回传 `usage.cost.total_cost`，Bifrost 会使用该金额。当前 `run_seconds` 是渲染流程墙钟时间，包含本地处理，排队时间另记。若需按 GPU 独占时段结算，需要定义并记录相应计时区间。[图片用量结构](https://github.com/maximhq/bifrost/blob/172617bb045c6f43d697843c115e64f0155ed143/core/schemas/images.go) · [Bifrost 费用计算](https://github.com/maximhq/bifrost/blob/172617bb045c6f43d697843c115e64f0155ed143/framework/modelcatalog/datasheet/cost.go#L568)
 
-同一 Bifrost 二进制在隔离实验中，请求 `n=1`、实际返回 72 张图，测试单价 0.01 USD／张时只记一次 0.72 USD。另一笔由上游报告 0.123 USD，日志采用 0.123 USD。重复轮询未增加费用。生产 Blender 和视频尚无新费率。
+同一 Bifrost 二进制在隔离实验中，请求 `n=1`、实际返回 72 张图，测试单价 0.01 USD／张时只记一次 0.72 USD。另一笔由上游报告 0.123 USD，日志采用 0.123 USD。重复轮询未增加费用。
+
+## 当前费率
+
+2026-11-25 已在 8080 启用下表费率，币种为 USD。公开平台只用于比价；Bifrost 记录的是本机用量的折算价值，所有推理和渲染仍在本机执行。
+
+| 服务 | Bifrost 单价 | 对标 |
+| --- | --- | --- |
+| `qwen38-coder` | 每百万 token，输入 $0.1275、缓存命中输入 $0.032、输出 $0.3995 | 本机采用 ISTA 剪枝量化版，采用其原版 Qwen3.8 Flash Next 的公开按请求价格。[Anex API 价格表](https://anex.sh/docs/pricing) |
+| `fasth3-omni-bf16` | 每秒成片 $0.025 | Reactor 实时定价接口的 FastH3 Omni 会话秒单价。本机按交付时长计量，适用于所有 Omni 画幅。[Reactor 实时价格](https://api.reactor.inc/pricing) · [Reactor 模型与规格](https://www.reactor.inc/models/fast-h3-omni/info) |
+| `open-h3-2k`，2560×1440 | 每秒成片 $0.10 | MiniMax 官方 H3 2K 重生成，源片 $0.05／秒、输出 $0.05／秒。本机保留时长，合并为一个输出秒费率。[MiniMax 价格](https://platform.minimax.io/subscribe/token-plan?tab=api-enterprise) |
+| `open-h3-2k`，3840×2160 | 每秒成片 $0.288 | Runway 的 4K 创意视频放大 $0.012／输出帧，按本机 24 FPS 换算。[Runway 4K 放大价格](https://docs.dev.runwayml.com/guides/pricing/#video-upscale-pricing) |
+| `blender-review` | 每渲染小时 $3，按实际秒数比例计算 | blender.farm 的 EEVEE 标准小包价格，平台使用 RTX 5090。本机按渲染进程时间线性计量。[Blender EEVEE 渲染农场价格](https://www.blender.farm/pricing) |
+
+Qwen 的客户端别名和原模型名使用同一费率。缓存折扣按实际报告的缓存命中 token 计算。本机视频终态按 API 报告的整数秒与实际尺寸记账，排队、失败、输入素材和重复查询不另计。Blender 以 worker 启动 Blender 前至生成验收图结束的墙钟时间计量，包含场景加载，排队、上传、下载与 ZIP 打包不计费。通过 Bifrost 完成的任务写入费用日志，直接提交的 Blender 任务在 `/v1/usage` 显示估值。
+
+取价时 Reactor 的模型介绍还显示较早的 $0.0125／会话秒，实时价格接口返回 $0.025／会话秒，采用后者。本机 Blender 现场验收 8.168 秒、2 张 PNG，Bifrost 日志为 $0.00680667。与线上相同版本 Bifrost 的隔离测试使用生产费率和模拟作业，5 秒 Omni 为 $0.125，14 秒 IC 2K／4K 为 $1.40／$4.032，失败视频为 $0。
+
+费率可用 [配置清单](../deployment/bifrost/market-pricing.json) 恢复。通过 Bifrost 的 `/api/governance/pricing-overrides` 新增或更新前四条（两条 Qwen 别名、两条视频规则），并同步部署配置 `governance.pricing_overrides`。Blender 在新作业完成时保存计算单据，供 Bifrost 读取。旧日志保留原金额。
 
 ## 本机验收
 

@@ -11,7 +11,7 @@ import zipfile
 
 from blender_review import (
     BLENDER_ROOT, IMPORTER_ROOT, MAX_UNPACKED, SOURCE, SOURCE_ROOT, SUITE,
-    ReviewParams, inspect_archive, ready, resolve_manifest, validate_samples,
+    ReviewParams, inspect_archive, ready, render_metering, resolve_manifest, validate_samples,
 )
 from model_registry import ROOT
 from queued_llm import atomic_json
@@ -135,11 +135,13 @@ def render(folder):
     completed = sum(1 for _ in outputs.rglob("*.png"))
     if completed != planned:
         raise RuntimeError(f"Expected {planned} PNGs, got {completed}")
+    render_seconds = round(time.monotonic() - started, 3)
+    metering = render_metering(render_seconds)
     manifest = {"kind": "blender_review", "source_commit": SOURCE, "source_sha256": sha(SOURCE_ROOT / "scripts" / runner),
                 "suite_sha256": suite_sha, "suite_version": json.loads(SUITE.read_text())["version"],
                 "blender": "5.3.0", "engine": "EEVEE", "input_sha256": request["input_sha256"],
                 "gpu": gpu_name, "vram_total_mib": gpu_total, "peak_device_memory_mib": peak,
-                "render_seconds": round(time.monotonic() - started, 3), "params": params.model_dump(),
+                "render_seconds": render_seconds, "metering": metering, "params": params.model_dump(),
                 "model_sha256": {name: sha(inputs / path) for name, path in assets["forms"].items()},
                 "donor_sha256": sha(inputs / assets["donor"]), "cc0_control_sha256": sha(inputs / assets["cc0_control"]),
                 "motion_review_status": reports, "images": completed, "game_runtime_allowed": False,
@@ -154,8 +156,8 @@ def render(folder):
     target = folder / "result.zip"
     temporary.replace(target)
     atomic_json(folder / "result-meta.json", {"sha256": sha(target), "bytes": target.stat().st_size,
-                                            "images": completed, "render_seconds": manifest["render_seconds"],
-                                            "motion_review_status": reports, "metering": "unpriced"})
+                                            "images": completed, "render_seconds": render_seconds,
+                                            "motion_review_status": reports, "metering": metering})
     atomic_json(folder / "progress.json", {"completed_images": completed, "planned_images": planned, "stage": "completed"})
 
 

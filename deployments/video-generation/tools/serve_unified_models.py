@@ -152,6 +152,7 @@ def create_app(store=None, *, bifrost=BIFROST):
                            "kind": view.get("kind", "video"), "images": receipt.get("images"),
                            "run_seconds": receipt.get("render_seconds", view.get("run_seconds")),
                            "output_video_seconds": view.get("seconds"), "size": view.get("size"),
+                           "cost_estimate": receipt["metering"] if isinstance(receipt.get("metering"), dict) else None,
                            "metering": "see_bifrost_for_gateway_requests"})
         return {"object": "list", "data": result, "has_more": more}
 
@@ -338,14 +339,19 @@ def create_app(store=None, *, bifrost=BIFROST):
         images = sorted(folder.rglob("*.png"))
         if not images or len(images) > MAX_IMAGES:
             raise HTTPException(502, "Unexpected render output count")
+        meta = json.loads((Path(state["directory"]) / "result-meta.json").read_text())
+        metering = meta.get("metering")
         # Only one completed provider response per task may enter image billing.
         if not store.claim_metering(job["id"], "bifrost_image"):
             raise HTTPException(409, f"Task already reported: {job['id']}")
         lan = os.environ.get("UNIFIED_PUBLIC_URL", "http://192.168.1.11:8080").rstrip("/")
-        return {"id": job["id"], "model": job["model"], "created": int(time.time()),
-                "size": "x".join(map(str, params.params.resolution)),
-                "data": [{"url": f"{lan}/v1/render/jobs/{job['id']}/images/{image.relative_to(folder).as_posix()}"}
-                         for image in images]}
+        result = {"id": job["id"], "model": job["model"], "created": int(time.time()),
+                  "size": "x".join(map(str, params.params.resolution)),
+                  "data": [{"url": f"{lan}/v1/render/jobs/{job['id']}/images/{image.relative_to(folder).as_posix()}"}
+                           for image in images]}
+        if isinstance(metering, dict):
+            result["usage"] = {"cost": {"total_cost": metering["amount"]}}
+        return result
 
     @app.post("/v1/{operation:path}")
     async def inference(operation: str, request: Request):

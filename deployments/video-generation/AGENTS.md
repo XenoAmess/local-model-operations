@@ -1,5 +1,7 @@
 # 本机模型运维约束
 
+- 2026-11-25 统一服务已启用公开 API 对标价（USD）。Qwen 每百万输入／缓存输入／输出 token 为 0.1275／0.032／0.3995；Omni 每输出秒 0.025；IC 2K／4K 每输出秒 0.10／0.288；Blender 每渲染小时 3.00、按秒折算。配置见 deployment/bifrost/market-pricing.json，来源和计量口径见 docs/unified-model-service.md。旧日志保留原金额。
+
 - 2026-11-25 统一系统部署验收：8080 集中 Qwen、BF16 Omni、IC 2K／4K 与 PBZ Blender，旧视频端口兼容，同一个 SQLite 和 GPU 调度器。Qwen 按需启动在 loopback 8005，3600 秒保护从实际 ready 起算，任务清空可提前切换，保护期过后在任务边界轮转。Bifrost 运行已提交上游的修复分支 b8eedb4，保留既有价格；真实 Qwen 聊天与 SSE、Omni 成片、IC 历史 4K 断点下载和 PBZ 双形态 8 图及费用日志均已核验。动作报告待人工审核，媒体未设置新生产单价。80／88 GiB、无云端、无开机自启继续有效。现行说明为 docs/unified-model-service.md。下列 8080 版本和 Qwen 状态为历史。
 
 - 2026-11-25 后续授权：先升级 Bifrost 再核对视频传参，功能缺口可维护 fork 并提交上游。生产 8080 已运行官方 2.6.0，历史日志及计价规则保留。官方原始透传可保留视频 JSON，但在提交时计价。原生 JSON 视频结算修复已提交 maximhq/bifrost#10467，本地隔离 HTTP 验证通过，尚未部署修复版或统一路由。调用与状态见 docs/bifrost-local-video-json-2026-11-25.md。
