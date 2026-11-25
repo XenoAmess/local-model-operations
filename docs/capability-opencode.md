@@ -2871,3 +2871,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-25 [Civ6 actual pressure pair scope](evidence/2026-11-25-civ6-current184-all-pressure-paired.json)：0原生工具生成；纯软件夹具未授Native、真实20侧退出未冒称自然终止。
+
+
+2026-11-25 [Civ6 final finite evidence boundary](evidence/2026-11-25-civ6-current184-finite40-complete.json)：当日1.19.6维护成功缓存与原生工具生成0分列；旧失败/尖峰、软件静态夹具和真实全量采集分别保留。

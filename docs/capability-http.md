@@ -8120,3 +8120,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-25 [Civ6 both current pressure paired matrices](evidence/2026-11-25-civ6-current184-all-pressure-paired.json)：完整原始差值、实际输入可比性、有限数值预算与闭场独立；0生成采用/成本null，最终合同台账审阅另列。
+
+
+2026-11-25 [Civ6 current184 finite40完成](evidence/2026-11-25-civ6-current184-finite40-complete.json)：R243完整真实输入与指定模型缺席、owner实际纯读取校验和有限游戏结果分列，0生成/采用、成本null；39旧范围保留及12当前性能指标不冒称40全重跑。
