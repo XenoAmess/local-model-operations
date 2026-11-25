@@ -1,0 +1,78 @@
+{
+  "schema": "local-model-finite-consumer-case-v1",
+  "mode_id": "http-candidate",
+  "consumer": "HOI4 installed catalog semantic comparison helper audit",
+  "machine_id": "bf-202609141645-5434332d4d",
+  "recorded_at_utc": "2026-11-25T05:48:32.028977+00:00",
+  "source_summary_commit": "9d9a053da08c6a2b990f1677da7f6856108dee51",
+  "complete_source_contract_inputs_verified": 6,
+  "model": "qwen38-coder",
+  "routing": "Canonical shared DIRECT; redirects refused; no historical endpoint fallback",
+  "attempts": 1,
+  "TTFT_ms": null,
+  "cached_tokens": null,
+  "generation_adoption": 0,
+  "owner_result_separate": {
+    "comparison_completed_by_owner": true,
+    "installed_assets": 6117,
+    "unique_sources": 5888,
+    "new_or_changed_source_images": 0,
+    "unresolved_refs": 440,
+    "current_nonperson_exceptions": 5,
+    "meaningful_path_SHA_reference_metadata_equal": true,
+    "candidate_semantic_approval_claimed": false,
+    "image_generation_from_textmodel": false
+  },
+  "scope_limit": "One complete-input request returned 404. This does not prove permanent model capability or service cause. No request was manufactured after task closure; no Steam/game/publishing action was replayed as an HTTP retry.",
+  "raw_artifacts": "Origin machine ignored runtime only. No original game assets, credentials or unreviewed raw requests/responses copied to shared repository.",
+  "task_id": "hoi4-20261125-comparison-audit",
+  "protocol_pins": {
+    "utc": "2026-11-25T04:18:06.705215+00:00",
+    "caller_sha256": "0fdf09ec4d68494bb429d4065e22d3bc1eb566622cda1504b84a8af48aea66bf",
+    "config_sha256": "75b5a92349193407aab1b8156849461d877a2e87adae4234cacc02850b60b1b9",
+    "shared_head": "5c6f4ff63645541cb5e9a6245d3695feb3aa2624"
+  },
+  "input_bindings": [
+    {
+      "source": "runtime\\hoi4-update-20261125\\compare_catalogs.py",
+      "sha256": "66da40b62c57b0fe682d46b5bd90078987e6d773923632459a077636d3a03ef8"
+    },
+    {
+      "source": "mod_nailong\\tools\\catalog.py",
+      "sha256": "d0b273e37a5258196b8d8c1cb25a54a16e0de2dcc962fc823b836e7d8c572bc0"
+    },
+    {
+      "source": "mod_nailong\\tools\\art_contract.py",
+      "sha256": "9803fa3653e7f239102334dc7f28292c3ca6baa5089a5f7cef86ca6c7e565301"
+    },
+    {
+      "source": "mod_nailong\\tools\\nonperson_exceptions.py",
+      "sha256": "4a8844f51f67ac5e88dcabef5c8383c1d13e08de51d5fdcc708ca584c15f76ac"
+    },
+    {
+      "source": "mod_nailong\\tools\\build_release.py",
+      "sha256": "f9fa59b5fd6ab6e1fbdd4d0cecb7006a834121190538a15e9df93f790196e06b"
+    },
+    {
+      "source": "new full counting contract",
+      "sha256": "a33b92b63132b86e4c059ec13da983140e8a0ffde200d02c5c4046450630f382"
+    }
+  ],
+  "actual_request_sha256": "d9801a09a7c658b34df908841b07cd1178e1df2bddd652fae243760c450f54b1",
+  "actual_events_sha256": "f809bf2642d255c80623c7fbe80fcf2dbd4565ec2e1129781f07296df5ab596b",
+  "fixed_roles": [
+    "system",
+    "user",
+    "user"
+  ],
+  "max_tokens": 1800,
+  "post_begin_utc": "2026-11-25T04:18:07.086134+00:00",
+  "attempt_end_utc": "2026-11-25T04:18:07.117741+00:00",
+  "http_status": 404,
+  "total_ms": 31.633600126951933,
+  "candidate_complete": false,
+  "candidate_adopted": false,
+  "usage": null,
+  "fallbacks": 0,
+  "business_actions_replayed": 0
+}
