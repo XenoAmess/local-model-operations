@@ -66,6 +66,18 @@ class UnifiedModelTests(unittest.TestCase):
         self.assertFalse(self.store.claim_metering(first["id"], "bifrost_image"))
         self.assertEqual(self.store.public(self.store.get(first["id"]))["kind"], "blender_review")
 
+    def test_public_video_status_keeps_bifrost_id_and_reads_queue(self):
+        job = self.store.enqueue(OMNI, {"size": "832x480", "seconds": 5})
+        public_id = job["id"] + ":openai"
+        with TestClient(create_app(self.store, bifrost="http://127.0.0.1:1")) as client:
+            response = client.get("/ingress/videos/" + public_id)
+            self.assertEqual(response.status_code, 200)
+            self.assertEqual(response.json()["id"], public_id)
+            self.assertEqual(response.json()["status"], "queued")
+            self.store.change(job["id"], "cancelled")
+            response = client.get("/ingress/videos/" + public_id)
+            self.assertEqual(response.json()["status"], "failed")
+
     def test_sha_upload_and_archive_validation(self):
         def zip_with(entry):
             stream = io.BytesIO()

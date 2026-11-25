@@ -29,7 +29,7 @@ curl -X POST http://192.168.1.11:8080/v1/videos/regenerations \
   -d '{"model":"open-h3-2k","input_video":{"job_id":"video_gen_换成草稿任务ID"},"size":"3840x2160","sampler":"up3"}'
 ```
 
-用 `GET /v1/videos/{id}` 查询终态并记录实际输出时长和尺寸，再用 `GET /v1/videos/{id}/content` 下载。4K 仍按 24 FPS 归一化后的 124 帧边界分流。[4K 实际分流与文件输入](open-h3-4k-http.md)
+用 `GET /v1/videos/{id}` 查询终态和实际输出规格，再用 `GET /v1/videos/{id}/content` 下载。进度查询直接读取共享队列，Bifrost 后台在终态自动结算一次。即使客户端停止轮询，已提交给 Bifrost 的作业也会自动结算。4K 仍按 24 FPS 归一化后的 124 帧边界分流。[4K 实际分流与文件输入](open-h3-4k-http.md)
 
 ## 队列和 GPU 切换
 
@@ -160,7 +160,9 @@ Qwen 的客户端别名和原模型名使用同一费率。缓存折扣按实际
 
 取价时 Reactor 的模型介绍还显示较早的 $0.0125／会话秒，实时价格接口返回 $0.025／会话秒，采用后者。本机 Blender 现场验收 8.168 秒、2 张 PNG，Bifrost 日志为 $0.00680667。与线上相同版本 Bifrost 的隔离测试使用生产费率和模拟作业，5 秒 Omni 为 $0.125，14 秒 IC 2K／4K 为 $1.40／$4.032，失败视频为 $0。
 
-费率可用 [配置清单](../deployment/bifrost/market-pricing.json) 恢复。通过 Bifrost 的 `/api/governance/pricing-overrides` 新增或更新前四条（两条 Qwen 别名、两条视频规则），并同步部署配置 `governance.pricing_overrides`。Blender 在新作业完成时保存计算单据，供 Bifrost 读取。旧日志保留原金额。
+视频提交记录的 `cost_status=settles_on_completion` 表示费用按成片结算。任务运行时提交记录没有最终金额。生成结束后，费用页以独立结算记录保存金额，和原提交关联。开启「分组」后，可在提交行查看其结算总额。历史进度查询显示零费用。[Bifrost 分组费用日志](http://192.168.1.11:8080/workspace/logs?period=this_month&grouped=true&limit=100)
+
+费率可用 [配置清单](../deployment/bifrost/market-pricing.json) 恢复。通过 Bifrost 的 `/api/governance/pricing-overrides` 新增或更新前四条（两条 Qwen 别名、两条视频规则），并同步部署配置 `governance.pricing_overrides`。Blender 在新作业完成时保存计算单据，供 Bifrost 读取。历史已结算的金额保留，缺金额的终态按原始使用量补录。
 
 ## 本机验收
 

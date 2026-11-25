@@ -27,6 +27,8 @@ from video_service_state import service_status
 BIFROST = "http://127.0.0.1:8081"
 TERMINAL = {"completed", "failed", "cancelled"}
 EDGE_VIDEO = re.compile(r"^videos(?:/video_gen_[a-f0-9]+(?::openai)?(?:/(?:content|logs))?|/regenerations)?$")
+PUBLIC_VIDEO_FIELDS = {"completed_at", "created_at", "error", "expires_at", "model", "object",
+                       "progress", "remixed_from_video_id", "seconds", "size", "status"}
 FORWARDED_HEADERS = {"accept", "authorization", "content-type", "if-none-match", "range", "idempotency-key"}
 RESPONSE_HEADERS = {"accept-ranges", "content-disposition", "content-length", "content-range", "content-type", "etag"}
 
@@ -85,10 +87,12 @@ def create_app(store=None, *, bifrost=BIFROST):
             raise HTTPException(404, "Unknown task")
         return task
 
-    async def proxy(request, target, payload=None, *, extensions=False):
+    async def proxy(request, target, payload=None, *, extensions=False, cost_status=None):
         headers = {key: value for key, value in request.headers.items() if key in FORWARDED_HEADERS}
         if extensions:
             headers["x-bf-passthrough-extra-params"] = "true"
+        if cost_status:
+            headers["x-bf-lh-cost_status"] = cost_status
         options = {"json": payload} if payload is not None else {}
         if payload is None and request.method in {"POST", "PUT", "PATCH"}:
             options["content"] = request.stream()
@@ -221,13 +225,15 @@ def create_app(store=None, *, bifrost=BIFROST):
             raise HTTPException(404, "Unknown video route")
         if request.method == "POST" and trail in {"videos", "videos/regenerations"}:
             _, data = video_payload(await body(request), outward=True)
-            return await proxy(request, bifrost + "/v1/videos", data, extensions=True)
-        # Native Bifrost IDs go through its completion accounting; historic IDs
-        # remain directly usable for status and content.
-        if trail.endswith(("/content", "/logs")) or request.method == "DELETE" or ":" not in trail:
-            return await proxy(request, "http://127.0.0.1:8006/v1/" + trail.replace(":openai", ""))
-        target = bifrost
-        return await proxy(request, target + "/v1/" + trail)
+            return await proxy(request, bifrost + "/v1/videos", data, extensions=True,
+                               cost_status="settles_on_completion")
+        local_path = trail.removesuffix(":openai").replace(":openai/", "/")
+        if request.method == "GET" and trail.endswith(":openai"):
+            # Bifrost persists submissions and its sweeper settles completed jobs.
+            # Clients can read the same queue without generating a log per poll.
+            result = await provider_video_result(request, local_path.split("/")[-1])
+            return {key: result[key] for key in PUBLIC_VIDEO_FIELDS if key in result} | {"id": trail.split("/")[-1]}
+        return await proxy(request, "http://127.0.0.1:8006/v1/" + local_path)
 
     @app.put("/v1/render/assets/{digest}")
     async def upload_render_archive(digest: str, request: Request):
