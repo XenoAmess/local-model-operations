@@ -1,5 +1,7 @@
 # 本机模型运维约束
 
+- 2026-11-25 后续授权：先升级 Bifrost 再核对视频传参，功能缺口可维护 fork 并提交上游。生产 8080 已运行官方 2.6.0，历史日志及计价规则保留。官方原始透传可保留视频 JSON，但在提交时计价。原生 JSON 视频结算修复已提交 maximhq/bifrost#10467，本地隔离 HTTP 验证通过，尚未部署修复版或统一路由。调用与状态见 docs/bifrost-local-video-json-2026-11-25.md。
+
 - 用户最新要求与预研结果（2026-11-25）：希望Qwen／Omni／IC及后续模型统一HTTP、持久任务队列和现有Bifrost费用页；同模型有可执行任务时默认保护3600秒，从真正ready起计，任务清空可提前切换，满一小时在安全任务边界允许轮转，不强行中断长片。最新指令先预研，本轮只读现网及隔离CPU协议验证7项通过，没有改线上路由、部署统一队列或启动Qwen。报告见 docs/unified-model-gateway-queue-feasibility-2026-11-25.md；model-registry.proposed.json是草案而非已加载配置。实施前须解决旧Qwen8002与IC冲突，以及Bifrost2.3.2原生视频转换器改写4K尺寸／丢本地参考字段的问题。保留既有模型配置、LLM原生并发、80／88 GiB、无云端及无开机自启。
 
 - 用户最新授权及结果（2026-11-21）：S42 `video_gen_64ad79ab21e8414ab490b9690a82bc60` 成片交付后已完成新工程优化短测。原片 LAN／SHA／几何／帧数／全片解码通过；FROST SM120 BF16 在5秒／14秒代表形状约1137／3107 ms，现用约1134／3102 ms，末尾K/V通过但不逐位一致；仅SDPA CUDA Graph逐位相同、无有效提速。均未采用，01:41:33已解除本轮维护并实际恢复后续任务。不要重复这批已完成短测；预取未因独立拷贝探针而上线，正式卸载未改。不自动切正式后端，保留80／88 GiB、GPU独占、无云端／无开机自启。报告见 docs/h3-engineering-optimization-tests-2026-11-21.md，计划与最终状态见 deployment/video-queue/engineering-optimization-test-plan-20261121.json。
