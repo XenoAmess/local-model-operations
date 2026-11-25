@@ -8117,3 +8117,6 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-25 [Civ6 actual current pressure pair consumers](evidence/2026-11-25-civ6-current184-pressure-paired-consumers.json)：R240完整真实输入预备，0生成/候选/采用/改路；owner实际消费者校验与静态旧数据分列，压力配对Native0、成本null。
+
+
+2026-11-25 [Civ6 both current pressure paired matrices](evidence/2026-11-25-civ6-current184-all-pressure-paired.json)：完整原始差值、实际输入可比性、有限数值预算与闭场独立；0生成采用/成本null，最终合同台账审阅另列。

@@ -2868,3 +2868,6 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-25 [Civ6 pressure direct module lifecycle](evidence/2026-11-25-civ6-current184-pressure-paired-consumers.json)：0原生生成；同PID与同module分别实测，软件不追授新游戏效果。
+
+
+2026-11-25 [Civ6 actual pressure pair scope](evidence/2026-11-25-civ6-current184-all-pressure-paired.json)：0原生工具生成；纯软件夹具未授Native、真实20侧退出未冒称自然终止。
