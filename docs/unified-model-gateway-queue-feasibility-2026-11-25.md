@@ -48,6 +48,14 @@ HTTP前端可同时在线；当前受限的是单卡显存和计算所有权。�
 
 4K保持 `open-h3-2k` 名称和 `size=3840x2160`；Omni仍为 `fasth3-omni-bf16`，Qwen仍为 `qwen38-coder`。原8001／8002先保留为迁移兼容入口，最终同样进入唯一队列，不允许绕过计量另起任务。Bifrost原生video ID带 `:provider` 后缀；需要明确保留原任务ID与网关ID的映射，不能直接用旧ID轮询新路由。
 
+### 可复用字段和透传边界
+
+这三个字段属于本地视频 API。Bifrost 2.3.2 的 `input_reference` 可以承载单份参考图。隔离实验确认，OpenAI 适配器会把 JSON 中的图片 data URL 转成文件表单，Omni 的多图 `file_id` 列表需要单独映射。Bifrost 内部也有 `video_uri`，但实测当前 OpenAI `/v1/videos` 请求没有把它发给下游。视频编辑接口的 `video` 可以携带上传文件或已完成的视频 ID，待生成草稿的 `job_id` 仍由本地队列解析。Bifrost 视频结构没有与 IC 的 `sampler` 预设对应的字段。[视频结构](https://github.com/maximhq/bifrost/blob/a05ea20e68bf116a35e9f05b1a3d749624b3935e/core/schemas/videos.go) · [OpenAI 视频序列化](https://github.com/maximhq/bifrost/blob/a05ea20e68bf116a35e9f05b1a3d749624b3935e/core/providers/openai/videos.go)
+
+Bifrost 提供 `ExtraParams` 和 `x-bf-passthrough-extra-params: true`。在支持此功能的 JSON 路径上，适配器可转发额外参数。补充隔离实验把三个字段放进 `extra_params` 对象再开请求头，普通 `/v1/videos` 依然只向假后端发送 `model`、`prompt`、`seconds` 和 `size`。仅配置一个以 OpenAI 为基础的自定义 provider 或修改目标路径，仍会使用同一套请求转换。[扩展参数选项](https://github.com/maximhq/bifrost/blob/a05ea20e68bf116a35e9f05b1a3d749624b3935e/docs/providers/request-options.mdx#passthrough-extra-parameters) · [自定义 provider](https://github.com/maximhq/bifrost/blob/a05ea20e68bf116a35e9f05b1a3d749624b3935e/docs/providers/custom-providers.mdx)
+
+另一条内置路径是原始请求透传。在本机二进制的隔离模拟中，`POST /openai_passthrough/v1/videos/regenerations` 将包括 `3840x2160` 和这三个字段的 JSON 完整送到本地假后端。使用同样的测试单价时，提交还处于 `queued` 就产生了按请求秒数计算的 0.05 虚拟费用。三次完成轮询只有普通透传日志，没有终态结算行。因此，若保留费用页的终态结算语义，建议适配 Bifrost 原生视频路径，保留原始参数与实际输出信息。原样透传可作为只处理转发的候选，计量须另行接入。[原始透传路由](https://github.com/maximhq/bifrost/blob/a05ea20e68bf116a35e9f05b1a3d749624b3935e/docs/integrations/passthrough.mdx) · [原始透传视频用量提取](https://github.com/maximhq/bifrost/blob/a05ea20e68bf116a35e9f05b1a3d749624b3935e/core/providers/openai/passthrough_usage.go)
+
 ## 推荐架构：一个入口、一份执行真相
 
 ```mermaid
