@@ -27,6 +27,7 @@ python -X utf8 scripts/call.py examples/task.json task-001 --machine-id workstat
 | worker 协作、单主线、及时提交推送 | [AGENTS.md](AGENTS.md) |
 | 本机 GitHub 推送认证故障与恢复 | [认证排障记录](docs/github-git-authentication.md) |
 | 本机 BF16 Omni 与本地 2K／4K HTTP 部署 | [视频服务部署](deployments/video-generation/README.md) |
+| Qwen、视频和 PBZ Blender 的统一 HTTP、排队与费用 | [统一模型服务](deployments/video-generation/docs/unified-model-service.md) |
 | 视频队列 OOM 自动恢复与管理恢复接口 | [调用、返回码与恢复状态](deployments/video-generation/docs/video-http-api.md#oom-自动恢复与管理恢复接口) |
 | 视频 API 3.0 插队、取消、优先级、列表与升级状态 | [完整 HTTP 管理与 124 帧分流说明](docs/video-queue-management.md) |
 | 当前 S48 视频每十分钟巡检 | [异常通知、停滞判定与启动停止](docs/video-progress-monitor.md) |

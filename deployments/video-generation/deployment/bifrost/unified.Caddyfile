@@ -1,0 +1,28 @@
+{
+    admin unix//home/ubuntu/workspace/xenoamess_bake_videos/llm-lab/deployment/bifrost-lan/edge-admin.sock
+    auto_https off
+    persist_config off
+    metrics
+}
+
+http://:8080 {
+    bind 0.0.0.0
+    route {
+        @shared path /v1/models /v1/capabilities /v1/usage /v1/queue /v1/queue/* /v1/files /v1/service/* /v1/render/*
+        handle @shared {
+            reverse_proxy 127.0.0.1:8006
+        }
+        @video path /v1/videos /v1/videos/*
+        handle @video {
+            uri replace /v1/ /ingress/ 1
+            reverse_proxy 127.0.0.1:8006
+        }
+        handle {
+            request_header x-bf-passthrough-extra-params true
+            reverse_proxy 127.0.0.1:8081 {
+                stream_close_delay 600s
+                flush_interval -1
+            }
+        }
+    }
+}

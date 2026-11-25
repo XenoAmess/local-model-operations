@@ -1,0 +1,14 @@
+[Unit]
+Description=Qwen3.8 Coder GPU worker for the shared model queue
+After=llmlab-guard.service
+
+[Service]
+Type=exec
+WorkingDirectory=/home/ubuntu/workspace/xenoamess_bake_videos
+ExecStart=/usr/bin/python3 /home/ubuntu/workspace/xenoamess_bake_videos/llm-lab/scripts/run_isolated.py --unit llmlab-unified-qwen-worker --memory-gib 80 --wait -- /home/ubuntu/workspace/xenoamess_bake_videos/llm-lab/.venv/bin/python /home/ubuntu/workspace/xenoamess_bake_videos/tools/serve_queued_qwen.py --port 8005 --config /home/ubuntu/workspace/xenoamess_bake_videos/llm-lab/deployment/coder-lan/profiles/quality-balanced-tools-20261101.json
+ExecStop=-/usr/bin/systemctl --user stop llmlab-unified-qwen-worker.service
+MemoryMax=256M
+MemorySwapMax=0
+Restart=no
+TimeoutStopSec=45
+UMask=0077

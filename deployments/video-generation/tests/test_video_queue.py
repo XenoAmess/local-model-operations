@@ -147,8 +147,7 @@ class DispatchTest(unittest.IsolatedAsyncioTestCase):
                     patch.object(scheduler, "external_busy", new=AsyncMock(return_value=False)), \
                     patch.object(scheduler, "acquire", return_value=True), \
                     patch.object(scheduler, "release", new=release), \
-                    patch("video_gpu_scheduler.systemctl", new=AsyncMock(return_value="inactive")), \
-                    patch("video_gpu_scheduler.HOLD", Path(directory) / "hold"):
+                    patch("video_gpu_scheduler.systemctl", new=AsyncMock(return_value="inactive")):
                 await asyncio.wait_for(scheduler.run(), 5)
             self.assertEqual(attempts, [[first["id"], second["id"]], [first["id"]]])
             self.assertEqual(store.get(first["id"])["status"], "completed")
@@ -237,8 +236,7 @@ class DispatchTest(unittest.IsolatedAsyncioTestCase):
                     patch.object(scheduler, "external_busy", new=AsyncMock(return_value=False)), \
                     patch.object(scheduler, "acquire", return_value=True), \
                     patch.object(scheduler, "release", new=release), \
-                    patch("video_gpu_scheduler.systemctl", new=AsyncMock(return_value="inactive")), \
-                    patch("video_gpu_scheduler.HOLD", Path(directory) / "hold"):
+                    patch("video_gpu_scheduler.systemctl", new=AsyncMock(return_value="inactive")):
                 await asyncio.wait_for(scheduler.run(), 5)
             self.assertEqual(dispatched, [ids[0], ids[2], ids[4], ids[1], ids[3]])
             self.assertTrue(all(store.get(j)["status"] == "completed" for j in ids))

@@ -5,6 +5,7 @@ import sqlite3
 from pathlib import Path
 import sys
 import tempfile
+import time
 import unittest
 
 from fastapi.testclient import TestClient
@@ -27,16 +28,17 @@ class ManagementTest(unittest.TestCase):
         return self.store.enqueue(model, {"size": "1344x768" if model == OMNI else "3840x2160",
                                          "seed": 1234, "sampler": "up3", "seconds": 5}, priority=priority)
 
-    def test_promote_crosses_affinity_and_later_promote_becomes_first(self):
+    def test_promote_respects_residency_and_competing_job_can_run_after_expiry(self):
         a, b, c = self.job(), self.job(REFINER), self.job()
         with TestClient(create_app(self.store, OMNI)) as api:
             r = api.post(f"/v1/queue/jobs/{b['id']}/promote", json={"reason": "review"})
             self.assertEqual(r.status_code, 200)
-            self.assertEqual(r.json()["queue_position"], 1)
-            self.assertEqual(choose_next(self.store.ready(), OMNI, 0)["id"], b["id"])
+            self.assertEqual(r.json()["queue_position"], 3)
             self.assertEqual(api.post(f"/v1/queue/jobs/{c['id']}/promote").json()["queue_position"], 1)
             api.patch(f"/v1/queue/jobs/{c['id']}/priority", json={"priority": -1})
-            self.assertEqual(choose_next(self.store.ready(), OMNI, 0)["id"], b["id"])
+            self.assertEqual(self.store.snapshot()["queued"][0]["id"], a["id"])
+            self.store.set_state(model_ready_at=time.time() - 3601)
+            self.assertEqual(self.store.snapshot()["queued"][0]["id"], b["id"])
 
     def test_order_edit_invalidates_an_unclaimed_scheduler_selection(self):
         a, b = self.job(), self.job()

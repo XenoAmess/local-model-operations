@@ -1,12 +1,12 @@
 [Unit]
-Description=Shared GPU scheduler for BF16 Omni and local 2K video
+Description=Shared GPU scheduler for language, video and Blender jobs
 After=network-online.target llmlab-guard.service
 
 [Service]
 Type=exec
 WorkingDirectory=/home/ubuntu/workspace/xenoamess_bake_videos
 ExecStart=/home/ubuntu/workspace/xenoamess_bake_videos/.venv-h3-2k/bin/python /home/ubuntu/workspace/xenoamess_bake_videos/tools/video_gpu_scheduler.py
-ExecStopPost=-/usr/bin/systemctl --user stop fasth3-omni-bf16-worker.service llmlab-h3-2k-refiner-batch-*.service
+ExecStopPost=-/usr/bin/systemctl --user stop fasth3-omni-bf16-worker.service unified-qwen-worker.service llmlab-h3-2k-refiner-batch-*.service llmlab-blender-review-*.service
 MemoryMax=512M
 MemorySwapMax=0
 Restart=no

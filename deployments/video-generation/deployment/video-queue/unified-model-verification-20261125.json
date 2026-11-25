@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-25",
+  "gateway": "http://192.168.1.11:8080",
+  "boot_autostart": false,
+  "cloud_inference": false,
+  "queue_tests_passed": 37,
+  "model_residency_default_seconds": 3600,
+  "memory_limits_gib": {
+    "workload": 80,
+    "aggregate": 88
+  },
+  "bifrost": {
+    "release_baseline": "transports/v2.6.0",
+    "deployed_source_commit": "b8eedb4bc3b466ffbcd256da6525c84965a64740",
+    "binary_sha256": "3cce3fabb7954fed4c2ab7b9eea786200ac8d144f52ed6a40e5b4e50a66f3f5c",
+    "upstream_pr": "https://github.com/maximhq/bifrost/pull/10467",
+    "dashboard_embedded": true,
+    "provider": "openai",
+    "provider_base_url": "http://127.0.0.1:8006",
+    "provider_timeout_seconds": 64800,
+    "provider_max_retries": 0,
+    "provider_openai_config": {
+      "video_generation_json": true
+    },
+    "new_production_media_prices_configured": false
+  },
+  "qwen": {
+    "model": "qwen38-coder",
+    "chat_completion": "passed",
+    "chat_completion_stream": "passed",
+    "wire_stream_done": true,
+    "existing_price_log": "present for both requests"
+  },
+  "omni": {
+    "model": "fasth3-omni-bf16",
+    "requested_seconds": 5,
+    "decoded_seconds": 5.167,
+    "size": "832x480",
+    "frames": 124,
+    "sha256": "3c4ccea74d8a25af314839d67132492c6a8f6588f37671246ee194b122848395",
+    "full_lan_download_and_decode": "passed",
+    "bifrost_terminal_record": {
+      "status": "completed",
+      "seconds": 5,
+      "size": "832x480",
+      "cost": null
+    }
+  },
+  "ic": {
+    "model": "open-h3-2k",
+    "isolated_4k_payload_roundtrip": "passed",
+    "existing_full_sequence_result": {
+      "requested_range": "0-1023",
+      "response_total_bytes": 85011323,
+      "http_status": 206
+    },
+    "new_4k_generation_run": false
+  },
+  "blender": {
+    "model": "blender-review",
+    "version": "5.3.0",
+    "version_source": "https://download.blender.org/release/Blender5.3/",
+    "linux_x64_archive_sha256": "dacb8264197a3f7fda6001285a5a506fc97ee943881261c2c3bd63c882f22e05",
+    "recipe_repo": "https://github.com/XenoAmess/PBZ_vivhite_mod",
+    "recipe_commit": "fb7e7cf55f4753d8f81242b7afc62d9ae8338f6e",
+    "importer_repo": "https://github.com/h4lfheart/UEFormat",
+    "importer_commit": "e618c6891a70a3c335f231cb22dde331ab88036f",
+    "python_zstandard_version": "0.25.0",
+    "local_donor_and_reference_regenerated": true,
+    "engine": "EEVEE",
+    "forms": ["coat_on", "coat_off"],
+    "cases": ["arms_forward", "Hun_BaiShanDual_Attack_A"],
+    "resolution": [128, 128],
+    "png_count": 8,
+    "render_pipeline_seconds": 17.374,
+    "archive_sha256": "5520ca8b516522e574c65d92afd04d80e4d5e87c3c29c09d45b2b8bc46c56dc6",
+    "archive_file_manifest_verified": true,
+    "archive_range_http_status": 206,
+    "motion_review_status": {
+      "coat_on": "pending_review",
+      "coat_off": "pending_review"
+    },
+    "bifrost_record": {
+      "type": "image_generation",
+      "status": "success",
+      "cost": null
+    }
+  },
+  "isolated_blender_pricing_fixture": {
+    "requested_n": 1,
+    "returned_images": 72,
+    "usd_per_image": 0.01,
+    "ledger_charge_usd": 0.72,
+    "reported_amount_used_usd": 0.123,
+    "duplicate_poll_charged": false,
+    "production_database_touched": false
+  }
+}

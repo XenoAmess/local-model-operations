@@ -1,0 +1,12 @@
+[Unit]
+Description=Unified CPU HTTP frontend and Bifrost provider for the GPU queue
+After=video-gpu-scheduler.service
+
+[Service]
+Type=exec
+WorkingDirectory=/home/ubuntu/workspace/xenoamess_bake_videos
+ExecStart=/home/ubuntu/workspace/xenoamess_bake_videos/.venv-h3-2k/bin/python -m uvicorn --app-dir tools serve_unified_models:app --host 127.0.0.1 --port 8006
+MemoryMax=2G
+MemorySwapMax=0
+Restart=no
+UMask=0077

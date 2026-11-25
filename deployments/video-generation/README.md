@@ -1,5 +1,7 @@
 # 本地视频服务部署
 
+2026-11-25：[统一 HTTP、GPU 任务队列与 Bifrost 费用](docs/unified-model-service.md)已上线。局域网 8080 同时提供 Qwen、Omni、IC 2K／4K、PBZ Blender 和费用页。
+
 2026-11-24：[MiniMax H3／FastH3系列部署经验总览](docs/minimax-h3-deployment-experience.md)汇总V2、两套Omni、完整Base与IC的选型、环境恢复、AdaLN故障、解码器、显存保护、整段4K、计时口径与未采用优化，并附已有任务核对证据。本轮只读整理，没有启动模型或改动正式配置。
 
 本目录是 `local-model-operations` 的普通子目录，统一随主仓库提交；不是 Git 子仓库或子模块。源码版本及文件校验见 [source-origin.json](source-origin.json)。模型权重、虚拟环境、CUDA 工具、用户上传和生成媒体不入库。

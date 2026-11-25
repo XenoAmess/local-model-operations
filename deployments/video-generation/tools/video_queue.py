@@ -1,12 +1,15 @@
 """Durable jobs and a fair model-affinity policy, shared by both LAN APIs."""
 
 from contextlib import contextmanager
+import hashlib
 import json
 import os
 from pathlib import Path
 import sqlite3
 import time
 import uuid
+
+from model_registry import effective_duration, load_registry, select_job
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = Path(os.environ.get("VIDEO_QUEUE_DATA", ROOT / "outputs/video-queue"))
@@ -68,6 +71,7 @@ class QueueStore:
         self.jobs = self.directory / "jobs"
         self.uploads = self.directory / "uploads"
         self.db = self.directory / "queue.sqlite3"
+        self.registry, self.models = load_registry()
 
     @contextmanager
     def connection(self, immediate=False):
@@ -97,8 +101,14 @@ class QueueStore:
             for name in ("priority", "front_order"):
                 if name not in columns:
                     db.execute(f"ALTER TABLE jobs ADD COLUMN {name} INTEGER NOT NULL DEFAULT 0")
+            if "started" not in columns:
+                db.execute("ALTER TABLE jobs ADD COLUMN started REAL")
             db.execute("CREATE INDEX IF NOT EXISTS pending_jobs ON jobs(status,created)")
             db.execute("CREATE TABLE IF NOT EXISTS state(key TEXT PRIMARY KEY,value TEXT)")
+            db.execute("CREATE TABLE IF NOT EXISTS idempotency(model TEXT, key TEXT, digest TEXT, job TEXT, "
+                       "PRIMARY KEY(model,key))")
+            db.execute("CREATE TABLE IF NOT EXISTS task_metering(job TEXT, channel TEXT, created REAL, "
+                       "PRIMARY KEY(job,channel))")
             db.execute("CREATE TABLE IF NOT EXISTS events(sequence INTEGER PRIMARY KEY AUTOINCREMENT,"
                        "created REAL,event TEXT,detail TEXT)")
 
@@ -169,29 +179,42 @@ class QueueStore:
                               "WHERE j.status='queued' AND (j.dependency IS NULL OR p.status='completed')").fetchall()
         return [dict(self.decode(row), _queue_revision=revision) for row in rows]
 
-    def enqueue(self, model, request, dependency=None, priority=0):
+    def enqueue(self, model, request, dependency=None, priority=0, *, idempotency_key=None):
         if type(priority) is not int or not PRIORITY_MIN <= priority <= PRIORITY_MAX:
             raise ValueError("priority must be an integer from -1000 to 1000")
         now = time.time()
-        job_id = "video_gen_" + uuid.uuid4().hex
+        prefix = {"llm": "lm_task_", "blender_review": "render_"}.get(request.get("task_kind"), "video_gen_")
+        job_id = prefix + uuid.uuid4().hex
         folder = self.jobs / job_id
-        folder.mkdir()
+        digest = hashlib.sha256(json.dumps([request, dependency, priority], sort_keys=True).encode()).hexdigest()
         try:
             with self.connection(immediate=True) as db:
+                if idempotency_key:
+                    previous = db.execute("SELECT digest,job FROM idempotency WHERE model=? AND key=?",
+                                          (model, idempotency_key)).fetchone()
+                    if previous is not None:
+                        if previous["digest"] != digest:
+                            raise QueueConflict("Idempotency-Key belongs to a different request")
+                        return self.decode(db.execute("SELECT * FROM jobs WHERE id=?", (previous["job"],)).fetchone())
                 if self._state_value(db, "service_control", {}).get("enabled"):
                     raise ServiceUnavailable("Service is draining/upgrading; retry after maintenance")
                 count = db.execute("SELECT COUNT(*) FROM jobs WHERE model=? AND status IN "
                                    "('queued','in_progress')", (model,)).fetchone()[0]
-                if count >= 32:
-                    raise OverflowError("This model's queue is full (32 pending jobs)")
+                limit = self.models.get(model, {}).get("max_pending", 32)
+                if count >= limit:
+                    raise OverflowError(f"This model's queue is full ({limit} pending jobs)")
+                folder.mkdir(mode=0o700)
                 (folder / "request.json").write_text(json.dumps(request, ensure_ascii=False, indent=2) + "\n")
                 db.execute("INSERT INTO jobs(id,model,status,created,updated,payload,directory,dependency,unit,error,priority) "
                            "VALUES(?,?,?,?,?,?,?,?,?,?,?)",
                            (job_id, model, "queued", now, now, json.dumps(request), str(folder), dependency, None, None, priority))
+                if idempotency_key:
+                    db.execute("INSERT INTO idempotency VALUES(?,?,?,?)", (model, idempotency_key, digest, job_id))
                 self._bump_revision(db)
         except BaseException:
             (folder / "request.json").unlink(missing_ok=True)
-            folder.rmdir()
+            if folder.exists():
+                folder.rmdir()
             raise
         self.event("enqueued", job=job_id, model=model, dependency=dependency)
         return self.get(job_id)
@@ -203,8 +226,9 @@ class QueueStore:
             if expected_revision is not None and expected_revision != self._state_value(db, "queue_revision", 0):
                 raise QueueChanged("Queue order changed before dispatch")
             for job_id in ids:
-                changed = db.execute("UPDATE jobs SET status='in_progress',unit=?,updated=? "
-                                     "WHERE id=? AND status='queued'", (unit, time.time(), job_id)).rowcount
+                now = time.time()
+                changed = db.execute("UPDATE jobs SET status='in_progress',unit=?,updated=?,started=? "
+                                     "WHERE id=? AND status='queued'", (unit, now, now, job_id)).rowcount
                 if changed != 1:
                     raise QueueChanged("Queue changed before dispatch")
             self._bump_revision(db)
@@ -271,6 +295,35 @@ class QueueStore:
         with self.connection() as db:
             db.execute("INSERT INTO files VALUES(?,?,?,?)", (file_id, str(path), name, size))
 
+    def uploaded_file(self, file_id):
+        with self.connection() as db:
+            file = db.execute("SELECT * FROM files WHERE id=?", (file_id,)).fetchone()
+        if file is None:
+            raise FileNotFoundError("Unknown uploaded file")
+        path = Path(file["path"]).resolve()
+        if not path.is_relative_to(self.uploads.resolve()) or not path.is_file():
+            raise FileNotFoundError("Uploaded file is unavailable")
+        return path
+
+    def preferences(self):
+        return self.state().get("residency_preferences", {})
+
+    def set_preferences(self, values):
+        with self.connection(immediate=True) as db:
+            db.execute("INSERT OR REPLACE INTO state VALUES(?,?)", ("residency_preferences", json.dumps(values)))
+            self._bump_revision(db)
+            self._event(db, "residency_preferences_changed", **values)
+        return values
+
+    def claim_metering(self, task_id, channel):
+        with self.connection(immediate=True) as db:
+            row = db.execute("SELECT status FROM jobs WHERE id=?", (task_id,)).fetchone()
+            if row is None or row["status"] != "completed":
+                return False
+            changed = db.execute("INSERT OR IGNORE INTO task_metering VALUES(?,?,?)",
+                                 (task_id, channel, time.time())).rowcount
+            return changed == 1
+
     def resolve_media(self, value, kind):
         if isinstance(value, dict):
             value = value.get("file_id") or value.get(kind + "_url") or value.get("path")
@@ -308,23 +361,56 @@ class QueueStore:
         state = self.state()
         control = state.get("service_control", {})
         ready = self.ready()
-        order = preview(ready, state.get("active_model"), state.get("consecutive", 0))
+        preferences = state.get("residency_preferences", {})
+        active = state.get("active_model")
+        now = time.time()
+        ready_at = state.get("model_ready_at")
+        duration = effective_duration(self.registry, preferences, active)
+        protection = max(0, int(ready_at + duration - now + 0.999)) if ready_at is not None else None
+        order = []
+        remaining = list(ready)
+        predicted_model, predicted_ready = active, ready_at
+        while remaining:
+            seconds = effective_duration(self.registry, preferences, predicted_model)
+            item = select_job(remaining, predicted_model, predicted_ready, seconds, now)
+            order.append(item)
+            remaining.remove(item)
+            if item["model"] != predicted_model:
+                predicted_model, predicted_ready = item["model"], now
         pending = self.pending()
         ordered_ids = {job["id"] for job in order}
         blocked = [job for job in pending if job["status"] == "queued" and job["id"] not in ordered_ids]
         clean = lambda j: {key: j[key] for key in ("id", "model", "status", "created", "dependency", "priority", "front_order")}
         return {"scheduler": state, "paused": recovery["paused"] or bool(control.get("enabled")),
                 "maintenance": control, "recovery": recovery,
-                "policy": {"max_consecutive_jobs_with_competition": MAX_BATCH,
-                           "max_other_model_wait_seconds": MAX_WAIT_SECONDS,
-                           "priority_range": [PRIORITY_MIN, PRIORITY_MAX], "priority_precedes_affinity": True,
-                           "note": "Explicit priority/front order first; affinity/fairness within ties; running inference is not preempted"},
+                "policy": {"residency_seconds": duration, "residency_preferences": preferences,
+                           "model_ready_at": ready_at, "protection_remaining_seconds": protection,
+                           "priority_range": [PRIORITY_MIN, PRIORITY_MAX],
+                           "note": "Model residency precedes cross-model priority. Positions estimate dispatch order; running work is not preempted."},
                 "running": [clean(j) for j in pending if j["status"] == "in_progress"],
                 "queued": [dict(clean(j), position=i + 1) for i, j in enumerate(order)],
                 "waiting_for_source": [clean(j) for j in blocked]}
 
     def public(self, job):
         request = job["request"]
+        kind = request.get("task_kind", "video")
+        if kind != "video":
+            folder = Path(job["directory"])
+            started = job.get("started")
+            now = time.time() if job["status"] in {"queued", "in_progress"} else job["updated"]
+            result = {"id": job["id"], "object": "task", "kind": kind, "model": job["model"],
+                      "status": job["status"], "created_at": job["created"], "started_at": started,
+                      "queue_seconds": max(0, (started or now) - job["created"]),
+                      "run_seconds": max(0, now - started) if started else 0,
+                      "priority": job["priority"], "front_order": job["front_order"]}
+            if job["error"]:
+                result["error"] = {"code": "task_failed", "message": job["error"]}
+            for name, field in (("progress.json", "progress"), ("result-meta.json", "result")):
+                try:
+                    result[field] = json.loads((folder / name).read_text())
+                except (OSError, ValueError):
+                    pass
+            return result
         result = {"id": job["id"], "object": "video", "model": job["model"], "status": job["status"],
                   "created_at": int(job["created"]), "size": request["size"],
                   "priority": job.get("priority", 0), "front_order": job.get("front_order", 0),
@@ -346,6 +432,16 @@ class QueueStore:
             try:
                 receipt = json.loads((folder / "result.json").read_text())
                 result["result"] = receipt
+                for key in ("seconds", "size"):
+                    if receipt.get(key) is not None:
+                        result[key] = str(receipt[key])
+                if isinstance(receipt.get("duration"), (int, float)):
+                    # Native Bifrost video rates consume integer output seconds.
+                    # The unrounded output duration remains in the receipt.
+                    result["seconds"] = str(max(1, round(receipt["duration"])))
+                if receipt.get("width") and receipt.get("height"):
+                    result["size"] = f"{receipt['width']}x{receipt['height']}"
+                result["completed_at"] = int(job["updated"])
                 for key in ("inference_time_s", "stage_durations"):
                     if key in receipt:
                         result[key] = receipt[key]

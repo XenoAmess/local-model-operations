@@ -12,14 +12,16 @@ import subprocess
 import time
 
 import requests
+import httpx
 
-from video_queue import HOLD, MAX_BATCH, OMNI, REFINER, ROOT, QueueChanged, QueueStore, choose_next
+from video_queue import OMNI, REFINER, ROOT, QueueChanged, QueueStore
 from h3_refiner_profiles import get_profile
+from model_registry import effective_duration, select_job, task_sort_key
+from queued_llm import execute_llm_job
 from video_queue_recovery import QueueRecovery, probe_resources
 
 BACKEND_UNIT = "fasth3-omni-bf16-worker.service"
 BACKEND_URL = "http://127.0.0.1:8003"
-IDLE_SECONDS = 120
 
 
 def atomic_json(path, value):
@@ -42,11 +44,13 @@ class Scheduler:
         self.store = store or QueueStore()
         self.stop = asyncio.Event()
         self.model = None
+        self.ready_at = None
         self.consecutive = 0
         self.backend = False
         self.lease = None
         self.current = []
         self.active_unit = None
+        self.llm_worker = None
         self.last_job = time.monotonic()
         self.http = requests.Session()
         self.http.trust_env = False
@@ -61,15 +65,18 @@ class Scheduler:
             return False
         if not memory.get("cleanup_complete"):
             try:
-                units = [BACKEND_UNIT, "llmlab-fasth3-omni-bf16-worker.service"] + memory.get("worker_units", [])
+                registered = {m[key] for m in self.store.models.values() for key in ("worker_unit", "isolated_unit") if key in m}
+                registered.add("llmlab-fasth3-omni-bf16-worker.service")
+                units = sorted(registered) + memory.get("worker_units", [])
                 for unit in dict.fromkeys(units):
-                    if unit not in {BACKEND_UNIT, "llmlab-fasth3-omni-bf16-worker.service"} and not unit.startswith("llmlab-h3-2k-refiner-batch-"):
+                    if not unit or (unit not in registered and not unit.startswith(("llmlab-h3-2k-refiner-batch-", "llmlab-blender-review-"))):
                         continue
                     await systemctl("stop", unit, check=False)
                     active = await systemctl("is-active", unit, check=False)
                     if active not in {"inactive", "failed", "unknown"}:
                         raise RuntimeError("Worker stop could not be confirmed: " + unit)
                 self.backend = False
+                self.llm_worker = None
                 self.active_unit = None
                 await self.release()
                 self.recovery.cleanup_result(memory["incident_id"])
@@ -89,8 +96,9 @@ class Scheduler:
     def state(self, phase):
         self.phase = phase
         self.store.set_state(active_model=self.model, consecutive=self.consecutive, phase=phase,
+                             model_ready_at=self.ready_at,
                              running_jobs=[job["id"] for job in self.current],
-                             backend_unit=BACKEND_UNIT if self.backend else None)
+                             backend_unit=BACKEND_UNIT if self.backend else self.llm_worker)
 
     async def heartbeat(self):
         while True:
@@ -115,14 +123,25 @@ class Scheduler:
         self.lease = lease
         return True
 
-    async def release(self):
-        if self.backend:
+    async def stop_workers(self, next_model=None):
+        if self.backend and next_model != OMNI:
             await systemctl("stop", BACKEND_UNIT)
             self.backend = False
+        if self.llm_worker and self.llm_worker != self.store.models.get(next_model, {}).get("worker_unit"):
+            await systemctl("stop", self.llm_worker)
+            self.llm_worker = None
+
+    async def release(self):
+        await self.stop_workers()
         if self.lease is not None:
             self.lease.close()
             self.lease = None
         self.model, self.consecutive = None, 0
+        self.ready_at = None
+
+    def select(self, ready):
+        duration = effective_duration(self.store.registry, self.store.preferences(), self.model)
+        return select_job(ready, self.model, self.ready_at, duration)
 
     async def request(self, method, path, **kwargs):
         response = await asyncio.to_thread(self.http.request, method, BACKEND_URL + path, timeout=15, **kwargs)
@@ -141,11 +160,84 @@ class Scheduler:
             try:
                 response = await self.request("GET", "/v1/models")
                 if response.json()["data"][0]["id"] == OMNI:
+                    self.ready_at = time.time()
                     return
             except requests.RequestException:
                 pass
             await asyncio.sleep(1)
         raise RuntimeError("BF16 worker HTTP startup timed out")
+
+    async def start_llm(self, entry, client):
+        if self.llm_worker == entry["worker_unit"] and self.ready_at is not None:
+            return
+        self.state("loading_llm_worker")
+        self.llm_worker = entry["worker_unit"]
+        await systemctl("start", self.llm_worker)
+        deadline = time.monotonic() + entry.get("startup_timeout_seconds", 360)
+        while time.monotonic() < deadline:
+            if self.stop.is_set():
+                raise InterruptedError("Scheduler is stopping")
+            try:
+                result = await client.get(entry["worker_url"] + "/v1/models", timeout=2)
+                if result.is_success and any(row["id"] == self.model for row in result.json()["data"]):
+                    self.ready_at = time.time()
+                    return
+            except (ValueError, KeyError, httpx.HTTPError):
+                pass
+            if await systemctl("is-active", self.llm_worker, check=False) in {"inactive", "failed"}:
+                raise RuntimeError("Qwen worker exited during startup")
+            await asyncio.sleep(1)
+        raise RuntimeError("Qwen worker startup timed out")
+
+    async def execute_llm(self, jobs, entry):
+        async with httpx.AsyncClient(trust_env=False, timeout=None,
+                                     limits=httpx.Limits(max_connections=entry["max_inflight"] + 1)) as client:
+            await self.start_llm(entry, client)
+            self.store.claim([job["id"] for job in jobs], self.llm_worker, jobs[0]["_queue_revision"])
+            active = {}
+
+            def send(batch):
+                for job in batch:
+                    task = asyncio.create_task(execute_llm_job(self.store, job, entry["worker_url"], client, self.stop))
+                    active[task] = job
+
+            send(jobs)
+            try:
+                while active and not self.stop.is_set():
+                    self.state("llm_inference")
+                    done, _ = await asyncio.wait(active, timeout=0.25, return_when=asyncio.FIRST_COMPLETED)
+                    for task in done:
+                        job = active.pop(task)
+                        try:
+                            task.result()
+                        except MemoryError:
+                            self.current = [job, *active.values()]
+                            raise
+                        except Exception as error:
+                            self.store.change(job["id"], "failed", str(error), only_running=True)
+                        if self.store.get(job["id"])["status"] == "completed":
+                            self.recovery.record_success()
+                    self.current = list(active.values())
+                    if not active or len(active) >= entry["max_inflight"]:
+                        continue
+                    ready = self.store.ready()
+                    selected = self.select(ready)
+                    if selected is None or selected["model"] != self.model:
+                        continue
+                    batch = sorted((j for j in ready if j["model"] == self.model), key=task_sort_key)
+                    batch = batch[:entry["max_inflight"] - len(active)]
+                    try:
+                        self.store.claim([j["id"] for j in batch], self.llm_worker, batch[0]["_queue_revision"])
+                    except QueueChanged:
+                        continue
+                    send(batch)
+                    self.current = list(active.values())
+                if self.stop.is_set():
+                    raise InterruptedError("Scheduler is stopping")
+            finally:
+                for task in active:
+                    task.cancel()
+                await asyncio.gather(*active, return_exceptions=True)
 
     async def execute_omni(self, job):
         await self.start_backend()
@@ -219,6 +311,15 @@ class Scheduler:
             process = await asyncio.create_subprocess_exec(*command, stdout=log, stderr=log)
             while process.returncode is None:
                 self.state("refiner_batch")
+                if self.ready_at is None:
+                    for job in jobs:
+                        try:
+                            progress = json.loads((Path(job["directory"]) / "progress.json").read_text())
+                            if progress.get("progress", 0) >= 35:
+                                self.ready_at = time.time()
+                                break
+                        except (OSError, ValueError):
+                            pass
                 if cgroup is None:
                     name = await systemctl("show", self.active_unit, "-p", "ControlGroup", "--value", check=False)
                     if name.startswith("/"):
@@ -276,8 +377,47 @@ class Scheduler:
                 raise MemoryError("2K CUDA memory failure; inspect before resuming")
         self.active_unit = None
 
+    async def execute_blender(self, job):
+        import sys
+        folder = Path(job["directory"])
+        unit = f"llmlab-blender-review-{job['id'][-12:]}-{time.time_ns()}"
+        self.active_unit = unit + ".service"
+        self.store.claim([job["id"]], self.active_unit, job["_queue_revision"])
+        command = ["/usr/bin/python3", str(ROOT / "llm-lab/scripts/run_isolated.py"), "--unit", unit,
+                   "--memory-gib", "80", "--runtime-max-seconds", str(job["request"]["params"]["timeout_seconds"] + 120),
+                   "--wait", "--", sys.executable, str(ROOT / "tools/blender_review_worker.py"), str(folder)]
+        with (folder / "launcher.log").open("ab") as log:
+            process = await asyncio.create_subprocess_exec(*command, stdout=log, stderr=log)
+            while process.returncode is None:
+                self.state("blender_rendering")
+                if self.ready_at is None and (folder / "render-ready").exists():
+                    self.ready_at = time.time()
+                if self.stop.is_set() or self.store.get(job["id"])["status"] == "cancelled":
+                    await systemctl("stop", self.active_unit, check=False)
+                    await process.wait()
+                    if self.stop.is_set():
+                        raise InterruptedError("Scheduler is stopping")
+                    self.active_unit = None
+                    return
+                try:
+                    await asyncio.wait_for(process.wait(), 1)
+                except asyncio.TimeoutError:
+                    pass
+        result = await systemctl("show", self.active_unit, "-p", "Result", "--value", check=False)
+        if result == "oom-kill":
+            raise MemoryError("Blender rendering exhausted its memory allowance")
+        self.active_unit = None
+        if process.returncode or not (folder / "result.zip").is_file():
+            error_file = folder / "worker-error.json"
+            message = json.loads(error_file.read_text())["message"] if error_file.is_file() else f"Blender exited {process.returncode}"
+            raise RuntimeError(message)
+        self.store.change(job["id"], "completed", only_running=True)
+
     def cohort(self, selected, ready):
         jobs = [selected]
+        entry = self.store.models[selected["model"]]
+        if entry["adapter"] == "openai_llm":
+            return sorted((j for j in ready if j["model"] == selected["model"]), key=task_sort_key)[:entry["max_inflight"]]
         if selected["model"] != REFINER:
             return jobs
         request = selected["request"]
@@ -285,8 +425,9 @@ class Scheduler:
             return jobs
         key = tuple(request[k] for k in ("seed", "size", "sampler"))
         remaining = [job for job in ready if job["id"] != selected["id"]]
-        count = self.consecutive + 1 if self.model == REFINER else 1
-        candidate = choose_next(remaining, REFINER, count)
+        residence = self.ready_at if self.model == REFINER else time.time()
+        duration = effective_duration(self.store.registry, self.store.preferences(), REFINER)
+        candidate = select_job(remaining, REFINER, residence, duration)
         if candidate and candidate["model"] == REFINER and tuple(candidate["request"][k] for k in ("seed", "size", "sampler")) == key:
             jobs.append(candidate)
         return jobs
@@ -299,12 +440,15 @@ class Scheduler:
         heartbeat = asyncio.create_task(self.heartbeat())
         try:
             # No API process resets active jobs. Recovery belongs to this single owner.
-            await systemctl("stop", BACKEND_UNIT)
+            for entry in self.store.models.values():
+                if entry.get("worker_unit"):
+                    await systemctl("stop", entry["worker_unit"], check=False)
             for job in self.store.pending():
                 if job["status"] == "in_progress":
                     if job["unit"]:
                         await systemctl("stop", job["unit"])
-                    self.store.change(job["id"], "queued", "Recovered after scheduler restart")
+                    replayable = job["request"].get("task_kind", "video") == "video"
+                    self.store.change(job["id"], "queued" if replayable else "failed", "Interrupted by scheduler restart")
             self.store.event("scheduler_started")
             while not self.stop.is_set():
                 self.store.fail_dependencies()
@@ -322,9 +466,9 @@ class Scheduler:
                     await asyncio.sleep(1)
                     continue
                 ready = self.store.ready()
-                selected = choose_next(ready, self.model, self.consecutive)
+                selected = self.select(ready)
                 if selected is None:
-                    if self.lease and time.monotonic() - self.last_job >= IDLE_SECONDS:
+                    if self.lease and time.monotonic() - self.last_job >= self.store.registry["idle_release_seconds"]:
                         await self.release()
                     self.state("idle")
                     await asyncio.sleep(1)
@@ -341,14 +485,24 @@ class Scheduler:
                 self.model = selected["model"]
                 if old_model != self.model:
                     self.consecutive = 0
+                    self.ready_at = None
                     self.store.event("model_switch", previous=old_model, model=self.model)
                 self.store.event("dispatch", model=self.model, jobs=[j["id"] for j in self.current])
                 try:
-                    if self.model == OMNI:
+                    await self.stop_workers(self.model)
+                    entry = self.store.models[self.model]
+                    adapter = entry["adapter"]
+                    if adapter == "omni":
                         await self.execute_omni(self.current[0])
-                    else:
+                    elif adapter == "ic":
                         await self.execute_refiner(self.current)
+                    elif adapter == "openai_llm":
+                        await self.execute_llm(self.current, entry)
+                    elif adapter == "blender_review":
+                        await self.execute_blender(self.current[0])
                     if any(self.store.get(job["id"])["status"] == "completed" for job in self.current):
+                        if self.ready_at is None:
+                            self.ready_at = time.time()
                         self.recovery.record_success()
                 except InterruptedError:
                     break
@@ -367,6 +521,9 @@ class Scheduler:
                     self.store.event("execution_failed", model=self.model, error=message)
                     gpu_result = (await systemctl("show", "llmlab-fasth3-omni-bf16-worker.service", "-p", "Result", "--value", check=False)
                                   if self.model == OMNI else "")
+                    isolated_llm = self.store.models[self.model].get("isolated_unit")
+                    if isolated_llm:
+                        gpu_result = await systemctl("show", isolated_llm, "-p", "Result", "--value", check=False)
                     memory_failure = isinstance(error, MemoryError) or "out of memory" in message.lower() or gpu_result == "oom-kill"
                     if memory_failure:
                         self.recovery.record_failure([j["id"] for j in self.current
@@ -388,7 +545,8 @@ class Scheduler:
                 await systemctl("stop", self.active_unit, check=False)
             await self.release()
             for job in self.current:
-                self.store.change(job["id"], "queued", "Scheduler stopped; restart to resume", only_running=True)
+                replayable = job["request"].get("task_kind", "video") == "video"
+                self.store.change(job["id"], "queued" if replayable else "failed", "Interrupted by scheduler stop", only_running=True)
             self.current = []
             self.state("stopped")
             self.store.event("scheduler_stopped")

@@ -202,10 +202,10 @@ def create_app(store=None, model=None):
         values = [dict(store.public(j), queue_position=positions.get(j["id"])) for j in jobs]
         return {"object": "list", "data": values, "has_more": more,
                 "next_after": jobs[-1]["id"] if more and jobs else None,
-                "list_order": "created_desc", "queue_order": "priority_then_front_order_then_model_affinity"}
+                "list_order": "created_desc", "queue_order": "model_residency_then_priority_and_front_order"}
 
     @app.get("/v1/queue/jobs", tags=["Queue administration"])
-    def browse_queue(model: Literal["fasth3-omni-bf16", "open-h3-2k"] | None = None,
+    def browse_queue(model: str | None = None,
                      status: list[JobStatus] | None = Query(default=None),
                      limit: int = Query(default=20, ge=1, le=100), after: str | None = None):
         return browse(model, status, limit, after)

@@ -1,5 +1,7 @@
 # Bifrost 2.6.0 升级与本地视频参数转发
 
+统一系统已部署。现行接口、GPU 队列、PBZ Blender 和计价口径见[统一模型服务](../deployments/video-generation/docs/unified-model-service.md)。本文保留部署前的验证记录。
+
 2026-11-25，局域网 8080 的 Bifrost 已从 2.3.2 升级到官方 HTTP 2.6.0。8080 和内部 8081 的健康检查通过，8080 仪表盘可打开，升级前的费用日志仍可读取，两条既有计价规则保留。旧二进制、systemd 单元、配置与 SQLite 数据已在本机留存备份。切换耗时约 7 秒。网关维持 16 GiB 硬上限、14 GiB `MemoryHigh` 和 12 GiB Go 内存目标，开机自启仍关闭。[官方 HTTP 2.6.0](https://github.com/maximhq/bifrost/releases/tag/transports/v2.6.0)
 
 本机运行的二进制来自官方 Linux amd64 下载，SHA-256 为 `bf2da45a4246605af199a21ba313992864835b16872cc62efbad4e62fe8645b3`，与官方 `.sha256` 一致。当前升级只切换网关版本。正式视频接口仍在 8001 和 8002，Qwen 的历史 8002 路由冲突仍按[统一网关预研](unified-model-gateway-queue-feasibility-2026-11-25.md)处理。

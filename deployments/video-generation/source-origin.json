@@ -1,8 +1,8 @@
 {
-  "source_commit": "6565066eedccd7b11358bd9183cf414ab276eec6",
+  "source_commit": "a9ce7ce6ba2af1452db95460cb7641d57c0ffda9",
   "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
   "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
-  "scope": "Video deployment and research, including unified HTTP and GPU scheduling feasibility, verified Bifrost HTTP 2.6.0 upgrade, and the upstream JSON video extension candidate. Production model routing and scheduling were unchanged.",
+  "scope": "Video deployment and research, including the deployed unified GPU queue, Bifrost-compatible local media APIs, and PBZ Blender motion review.",
   "omitted": [
     "runtime Git metadata",
     "models",
@@ -26,18 +26,23 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 9369,
-      "sha256": "f15c8cb121815176eb0c89cd649556860a3c3738ecf0357beb5552a4674adba8"
+      "bytes": 10085,
+      "sha256": "827f28f0f4ef9c18d1f2a604955b545b6e5fab022925062d055384b1348c6fff"
     },
     {
       "path": "README.md",
-      "bytes": 4425,
-      "sha256": "d15f6a0dbab826756b96d6f5f7b8f3f46b45503d1c0d5e3381cae9c25ba674ea"
+      "bytes": 4615,
+      "sha256": "83ebebf05921abcc190a2bba92e14474e8c786fa0a9f3d45af0c0206711ce068"
     },
     {
       "path": "deployment-omni.json",
       "bytes": 3634,
       "sha256": "bbcfd33e2a9ed84ff030fb16ec695167e28a55c732ae4eae08b7265827947397"
+    },
+    {
+      "path": "deployment/bifrost/unified.Caddyfile",
+      "bytes": 792,
+      "sha256": "898b2dce40a2b8c20d4e910b0dbfda9b1a1eb7ef131a6f3e5e67b44b5aac4683"
     },
     {
       "path": "deployment/fastvideo/adaln-reference-subsets.patch",
@@ -435,9 +440,19 @@
       "sha256": "f7c84b155c1771e92dca202fdffbf4a8efbc5153d172393c2d1d290a27116019"
     },
     {
+      "path": "deployment/systemd/unified-model-http.service",
+      "bytes": 411,
+      "sha256": "7ad13ab06ae73786d5ff3376558034e39e00e5f77443a8a596c90bff8ba4c93a"
+    },
+    {
+      "path": "deployment/systemd/unified-qwen-worker.service",
+      "bytes": 775,
+      "sha256": "37ecca816ccd66272ef13126b7411e4f442bb5413a67a4dcb3ab5d4fe172f8db"
+    },
+    {
       "path": "deployment/systemd/video-gpu-scheduler.service",
-      "bytes": 577,
-      "sha256": "2c4e98159302095855d37cd591d237395f24e2021ab66181a9b8e711305c3461"
+      "bytes": 641,
+      "sha256": "5ccc80df56da8488088ed6e894aa4960117d84ab067da027ed8187e279c0a12f"
     },
     {
       "path": "deployment/systemd/video-s48-progress.service",
@@ -490,6 +505,11 @@
       "sha256": "0ff2a0dbc27a9fb1c8518994658e73949fab73dc83ee4a87ceac3bd2112359fd"
     },
     {
+      "path": "deployment/video-queue/model-registry.json",
+      "bytes": 1241,
+      "sha256": "d9bf52d1b672f734a4546f398076e72aba2038cc4a3790af95741f10a4e126df"
+    },
+    {
       "path": "deployment/video-queue/model-registry.proposed.json",
       "bytes": 2441,
       "sha256": "42b9cacb074a3a5759c78273b27f69e1baa82ab58f180cbbf39244a45c02aa84"
@@ -535,14 +555,19 @@
       "sha256": "a992c7a072ee99c3851fa6bad5be4b3e8378e01bceece2e87b1098179172b09f"
     },
     {
+      "path": "deployment/video-queue/unified-model-verification-20261125.json",
+      "bytes": 3218,
+      "sha256": "76307e58434eaaba19dfe1c05d46c6376fd9b0ee43d35aa7123e72dde221be93"
+    },
+    {
       "path": "deployment/video-queue/validation.json",
       "bytes": 8324,
       "sha256": "20634b414cf1754a17ccf3512175605b4680fd83698783fed514959991623f68"
     },
     {
       "path": "docs/bifrost-local-video-json-2026-11-25.md",
-      "bytes": 5348,
-      "sha256": "2bce6e0a35b7e6497ca1145561f464c4e7903c63b15c02037fcb094a854c230b"
+      "bytes": 5579,
+      "sha256": "e2c16f72770db07688b978d83d1864b82e09a1f8aecfdc59e93acf007b8d3972"
     },
     {
       "path": "docs/deployment-git.md",
@@ -651,8 +676,13 @@
     },
     {
       "path": "docs/unified-model-gateway-queue-feasibility-2026-11-25.md",
-      "bytes": 19020,
-      "sha256": "88e2d40114d002a6567f26a54a9670a896d4b25ecf7ffd0afa847e4f0066c316"
+      "bytes": 19187,
+      "sha256": "ff68b742d0478950115ba24b72f337925759654fa9534e906a2dc1fbcb5722aa"
+    },
+    {
+      "path": "docs/unified-model-service.md",
+      "bytes": 10675,
+      "sha256": "27940a0250846e407978b7d29e2052051669b49e5ca9b890e6aeff8e74ffd561"
     },
     {
       "path": "docs/video-framework-benchmark-2026-11-17.md",
@@ -865,19 +895,24 @@
       "sha256": "51ac78fcc0c2ff5228c4007103ab49112b2ae12a8a82304b51fabfd75cca4704"
     },
     {
+      "path": "tests/test_unified_models.py",
+      "bytes": 5426,
+      "sha256": "9394650a7771072a918b1ae8adf4258c2fe705628421f67f7b67fcc713cacb5b"
+    },
+    {
       "path": "tests/test_video_progress_monitor.py",
       "bytes": 5234,
       "sha256": "241f28e6676ee6e4a6401eb8ed0f49d2014b4ef862b993b64ff0066d9644501f"
     },
     {
       "path": "tests/test_video_queue.py",
-      "bytes": 12602,
-      "sha256": "9e6fc074bd3e99dd963e919f44a61393483ab57ba2f1fe19f89d4283129a99df"
+      "bytes": 12436,
+      "sha256": "00e1f7226d6b0881425d5311f5983bcbf20f7b27c24495c0282c2ef46c3eaa52"
     },
     {
       "path": "tests/test_video_queue_management.py",
-      "bytes": 7657,
-      "sha256": "85ed9abf566f12877f01078bb24d08e0df61c8614d814f2a04475b8bc1457a1a"
+      "bytes": 7734,
+      "sha256": "c287ab1c8c255e26956c67dc30288ce7436a43876c8ced465ddd7707d9b2824d"
     },
     {
       "path": "tests/test_video_queue_recovery.py",
@@ -918,6 +953,16 @@
       "path": "tools/benchmark_omni_vsa_backends.py",
       "bytes": 7997,
       "sha256": "950bd5c20c8b0590d0321f8dc324e377e7ebab08a2345240416eadc0b9e7111f"
+    },
+    {
+      "path": "tools/blender_review.py",
+      "bytes": 6322,
+      "sha256": "16090916031558c9c09eaf2872f876a71091bca4d7cc560611067a87f541ea0e"
+    },
+    {
+      "path": "tools/blender_review_worker.py",
+      "bytes": 9281,
+      "sha256": "ed456bdda3e671aba31f1e725ecec5d4aa76b118b4007a5ca3c928ecefc4d048"
     },
     {
       "path": "tools/check_omni_bf16_attention.py",
@@ -985,6 +1030,11 @@
       "sha256": "bfbc1e9955f166d55ab5ea93336846d52df94a805d561568b0e007152cf86b84"
     },
     {
+      "path": "tools/model_registry.py",
+      "bytes": 1812,
+      "sha256": "74c18c8fb88b8aeb131162bf9e0bfec4a00221c28d35bce8acdac9d958405c9d"
+    },
+    {
       "path": "tools/notify_minimax_h3_download.py",
       "bytes": 3893,
       "sha256": "c04fed6af660b0d45dcbc70e154de0c19c6aadaac533a5fb332656a562dba113"
@@ -1050,6 +1100,11 @@
       "sha256": "051b40c33fe37a2379365217ecd642d7f85f8726ba5155500d655fc87def49a4"
     },
     {
+      "path": "tools/queued_llm.py",
+      "bytes": 2837,
+      "sha256": "7dc07d3ab7fdae9191c0404c3341dab90aab95113d4477b36161bf56231bce85"
+    },
+    {
       "path": "tools/reuse_omni_bf16_metadata.py",
       "bytes": 1451,
       "sha256": "024166a58d60b59f9b89ebf30ae1af12dea935e8dfecdcacf3d6d912f93ed065"
@@ -1105,9 +1160,19 @@
       "sha256": "fe57f4d8172434fca82b1767eb0b0470a4e220a337671b078dbe12b64747d954"
     },
     {
+      "path": "tools/serve_queued_qwen.py",
+      "bytes": 1238,
+      "sha256": "29a9f82c95d649ac3cb1c10a43c8f989ad0c9624e3c491ff527a433a05d09bb3"
+    },
+    {
+      "path": "tools/serve_unified_models.py",
+      "bytes": 19821,
+      "sha256": "8d67377528aeab477ecab82727fc9ab7bb5d8d4b6af1a18eb4524d9a189e6a36"
+    },
+    {
       "path": "tools/serve_video_http.py",
-      "bytes": 16276,
-      "sha256": "d5d57e238c5797fa9029187c912933484def65cfc6839253a3979ed635d18fd5"
+      "bytes": 16238,
+      "sha256": "e9ce1a7c498036778199e07ceaca2728bc330fbbb01b083fb5ea3a815d26d43a"
     },
     {
       "path": "tools/serve_video_status.py",
@@ -1141,8 +1206,8 @@
     },
     {
       "path": "tools/video_gpu_scheduler.py",
-      "bytes": 20292,
-      "sha256": "c5990b47eb78367b358ab85a84829a9d4552a8af67942bff1187006376b77c3a"
+      "bytes": 29120,
+      "sha256": "81d40f7249cf414df5c4d224895a36a15c5d17073a9f96599175a66f8400f612"
     },
     {
       "path": "tools/video_http_client.py",
@@ -1151,8 +1216,8 @@
     },
     {
       "path": "tools/video_queue.py",
-      "bytes": 19615,
-      "sha256": "c2c5f6cceca90e63d8daa6ad4f57d32629881f6df79b271dca4e6566c75975ed"
+      "bytes": 25204,
+      "sha256": "df41e8bd3fd4dbafbb620307d44e1d00db92b3d6fb44a95654a38da4f9c602ad"
     },
     {
       "path": "tools/video_queue_recovery.py",

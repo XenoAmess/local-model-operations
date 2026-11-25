@@ -1,0 +1,40 @@
+{
+  "default_residency_seconds": 3600,
+  "idle_release_seconds": 120,
+  "models": [
+    {
+      "id": "fasth3-omni-bf16",
+      "adapter": "omni",
+      "capabilities": ["video_generation", "reference_image", "reference_video", "reference_audio"],
+      "api_url": "http://127.0.0.1:8001",
+      "worker_url": "http://127.0.0.1:8003",
+      "worker_unit": "fasth3-omni-bf16-worker.service",
+      "max_inflight": 1
+    },
+    {
+      "id": "open-h3-2k",
+      "adapter": "ic",
+      "capabilities": ["video_regeneration_2k", "video_regeneration_4k"],
+      "api_url": "http://127.0.0.1:8002",
+      "max_inflight": 2
+    },
+    {
+      "id": "qwen38-coder",
+      "adapter": "openai_llm",
+      "capabilities": ["chat_completion", "text_completion", "responses", "streaming", "tool_calls"],
+      "worker_url": "http://127.0.0.1:8005",
+      "worker_unit": "unified-qwen-worker.service",
+      "isolated_unit": "llmlab-unified-qwen-worker.service",
+      "max_inflight": 32,
+      "max_pending": 128,
+      "startup_timeout_seconds": 360
+    },
+    {
+      "id": "blender-review",
+      "adapter": "blender_review",
+      "capabilities": ["motion_review", "eevee", "png", "zip"],
+      "max_inflight": 1,
+      "max_pending": 16
+    }
+  ]
+}
