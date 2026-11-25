@@ -1,5 +1,7 @@
 # 视频推理框架调研、实测与正式选型
 
+统一服务预研（2026-11-25）：[聊天／视频统一HTTP、GPU队列与费用记录](unified-model-gateway-queue-feasibility-2026-11-25.md)。本机Bifrost原二进制的7项隔离CPU协议检查通过；列出端口冲突、4K参数适配、一小时模型保护与费用口径，尚未改线上路由或启动Qwen。
+
 部署经验入口（2026-11-24）：[MiniMax H3／FastH3 系列部署经验总览](minimax-h3-deployment-experience.md)，涵盖模型关系、可恢复配置、踩坑、资源保护、HTTP与长片的验收边界；下表保留各轮原始研究与实测。
 
 2026-11-17。适用机器为单张 RTX 6000D（85,651 MiB，SM120），正式服务为 BF16 FastH3 Omni 与全本地 Open-H3-Regenerate-2K-IC 的 2K／4K 重生成。本文汇总本轮全部调研入口，区分源码调查、准入检查、内核测试、完整成片和正式采用。

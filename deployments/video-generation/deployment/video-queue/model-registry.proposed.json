@@ -1,0 +1,58 @@
+{
+  "status": "proposal_only_not_loaded_by_production",
+  "date": "2026-11-25",
+  "schema_version": 1,
+  "resource_groups": {
+    "cuda:0": {
+      "maximum_gpu_owners": 1,
+      "inference_host_limit_gib": 80,
+      "aggregate_host_limit_gib": 88,
+      "boot_autostart": false
+    }
+  },
+  "scheduling_defaults": {
+    "minimum_model_service_seconds": 3600,
+    "clock_starts_at": "model_ready",
+    "clock_resets_on_each_request": false,
+    "backlog_scope": "running_or_ready; unresolved_dependencies_do_not_hold_gpu",
+    "release_when_current_model_queue_empty_and_competitor_ready": true,
+    "ordinary_priority_bypasses_residency": false,
+    "switch_boundary": "current_job_or_dispatched_llm_group_drained",
+    "force_preempt_at_one_hour": false,
+    "idle_release_seconds_when_no_work": 120
+  },
+  "models": [
+    {
+      "id": "qwen38-coder",
+      "adapter": "openai_llm",
+      "capabilities": ["chat_completion", "text_completion", "responses", "tool_calls", "streaming"],
+      "resource_group": "cuda:0",
+      "internal_address": "separate_loopback_port_or_uds_to_be_selected; legacy_8002_forbidden",
+      "worker_unit": "separate_queue_owned_unit_to_be_created",
+      "preserve_existing_quality_profile": true,
+      "native_max_inflight": 32,
+      "metering": "actual_token_usage; existing_configured_rates"
+    },
+    {
+      "id": "fasth3-omni-bf16",
+      "adapter": "fastvideo_ref2va",
+      "capabilities": ["video_generation", "reference_image", "reference_video", "reference_audio"],
+      "resource_group": "cuda:0",
+      "internal_address": "http://127.0.0.1:8003",
+      "worker_unit": "fasth3-omni-bf16-worker.service",
+      "max_inflight": 1,
+      "metering": "output_frames_duration_resolution_and_worker_compute; unpriced_until_configured"
+    },
+    {
+      "id": "open-h3-2k",
+      "adapter": "h3_ic_regeneration",
+      "capabilities": ["video_regeneration_2k", "video_regeneration_4k"],
+      "resource_group": "cuda:0",
+      "worker_unit": "existing_isolated_batch_workers",
+      "concurrency_policy": "retain_2k_cohorts_and_serial_4k",
+      "shared_residency_group_for_2k_and_4k": true,
+      "metering": "output_frames_duration_resolution_and_worker_compute; unpriced_until_configured"
+    }
+  ],
+  "new_model_rule": "A supported protocol needs registry/configuration; a new engine/protocol additionally needs an adapter and acceptance tests. Declaration is not engine capability proof."
+}

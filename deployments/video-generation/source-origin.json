@@ -1,8 +1,8 @@
 {
-  "source_commit": "47037792d87b8e22e5d4221bed6957b11a990d1e",
+  "source_commit": "9f5819b93c224ee5ebcf847f98201ca27979cb23",
   "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
   "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
-  "scope": "Video deployment and research; consolidated MiniMax H3/FastH3 model deployment experience, historical/current boundaries, selected completed 5s/10s/14s 4K evidence; production unchanged, no new inference",
+  "scope": "Video deployment and research, including the MiniMax H3 deployment experience and the 2026-11-25 CPU feasibility study for unified model HTTP, GPU scheduling, and Bifrost video accounting. Production routing and scheduling were unchanged.",
   "omitted": [
     "runtime Git metadata",
     "models",
@@ -26,8 +26,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 8095,
-      "sha256": "0e061030fd60c1abaf555f57aaeeaf046298014b463707e37f7656f0a20d6542"
+      "bytes": 8914,
+      "sha256": "de9a0221cd03452b303ec116b2a91ce4fe6dba5dd3105743f920a322dfec75ab"
     },
     {
       "path": "README.md",
@@ -490,6 +490,11 @@
       "sha256": "0ff2a0dbc27a9fb1c8518994658e73949fab73dc83ee4a87ceac3bd2112359fd"
     },
     {
+      "path": "deployment/video-queue/model-registry.proposed.json",
+      "bytes": 2441,
+      "sha256": "42b9cacb074a3a5759c78273b27f69e1baa82ab58f180cbbf39244a45c02aa84"
+    },
+    {
       "path": "deployment/video-queue/performance/gpu-2k.json",
       "bytes": 4793,
       "sha256": "38107b5fee9b7451a621c5205c83dd5144020d00c8275c81cd733d3efd529683"
@@ -523,6 +528,11 @@
       "path": "deployment/video-queue/recovery-verification-20261118.json",
       "bytes": 3161,
       "sha256": "546f21a77b742379dc762b209f35cecc0ca9457898fa09fb1cf532c806a5459c"
+    },
+    {
+      "path": "deployment/video-queue/unified-gateway-feasibility-probe-20261125.json",
+      "bytes": 3577,
+      "sha256": "a992c7a072ee99c3851fa6bad5be4b3e8378e01bceece2e87b1098179172b09f"
     },
     {
       "path": "deployment/video-queue/validation.json",
@@ -601,8 +611,8 @@
     },
     {
       "path": "docs/minimax-h3-deployment-experience.md",
-      "bytes": 24216,
-      "sha256": "b9c14c3eb2bac27686616c34e1558823d2edf23d10847e1325a7598a715c541a"
+      "bytes": 24540,
+      "sha256": "9fd060985d59d4902ccb185c6bdc08a91503095f91f364382ee9e1dff757d38a"
     },
     {
       "path": "docs/minimax-h3-local-2k.md",
@@ -635,14 +645,19 @@
       "sha256": "7d105eb0ae24c7cd709f51a2cb241cab2851c6e9b898c3cee5ad834947335c9a"
     },
     {
+      "path": "docs/unified-model-gateway-queue-feasibility-2026-11-25.md",
+      "bytes": 16194,
+      "sha256": "07ce4597df45dd1f13959ad8ba046ff4fc0f90c6d8c87cee0e597025184c5b51"
+    },
+    {
       "path": "docs/video-framework-benchmark-2026-11-17.md",
       "bytes": 14758,
       "sha256": "1f0882610faeeded547da876b3c79d1420e193874471a55a4ceb7802109460df"
     },
     {
       "path": "docs/video-framework-research-index-2026-11-17.md",
-      "bytes": 8171,
-      "sha256": "34f34a586fde1a0d60f2001ee2be243dafc5425503b4cc151bef7b2a7265e2f8"
+      "bytes": 8498,
+      "sha256": "4c5c4de56952d87d359e8331c5462bcf4fffc526d6fd51a04ae44d3d42c559eb"
     },
     {
       "path": "docs/video-http-api.md",
@@ -1008,6 +1023,11 @@
       "path": "tools/probe_strata_h3.py",
       "bytes": 4197,
       "sha256": "72e679de34d0871a4ae39c8eacdfd599e374204622abec6a8a3eb9481ac2d8a5"
+    },
+    {
+      "path": "tools/probe_unified_gateway_feasibility.py",
+      "bytes": 14993,
+      "sha256": "fdd343637967628b86b7c10a47d70b3e52e6bce6c9f9063d508dc2ef63f29504"
     },
     {
       "path": "tools/probe_uniserve_omni.py",

@@ -6,6 +6,8 @@
 
 [跨机器调用](video-http-api.md) · [启停与共享队列](video-http-queue.md) · [管理／维护接口](video-queue-management.md) · [调研总索引](video-framework-research-index-2026-11-17.md) · [本次核对证据](../deployment/minimax-h3/deployment-experience-evidence-20261124.json)
 
+2026-11-25补充：[Qwen／视频统一HTTP、GPU队列与费用记录预研](unified-model-gateway-queue-feasibility-2026-11-25.md)已验证现有Bifrost的聊天／视频协议和终态计价。统一入口、一小时模型保护与注册表仍为待实施设计；本文下面的正式部署状态没有因此改变。
+
 ## 1. 先分清模型、任务与生成阶段
 
 | 对象 | 本机用途与输入 | 关键计算配置 | 部署结论 |

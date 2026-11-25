@@ -1,0 +1,116 @@
+{
+  "status": "passed_cpu_protocol_probe_production_unchanged",
+  "scope": "Exact installed Bifrost binary with CPU loopback fake providers; no production migration or GPU/model test",
+  "isolation": {
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/llmlab.slice/llmlab-unified-gateway-probe-r2-20261125.service",
+    "aggregate_memory_max_bytes": 94489280512,
+    "workload_memory_max_bytes": "4294967296",
+    "workload_swap_max_bytes": "1073741824",
+    "oom_group": 1,
+    "host_available_bytes": 112616775680
+  },
+  "production_settings_changed": false,
+  "production_model_contacted": false,
+  "production_database_written": false,
+  "checks": [
+    {
+      "name": "chat_and_video_share_same_installed_gateway",
+      "passed": true
+    },
+    {
+      "name": "native_async_chat_returns_202_and_result_without_duplicate_model_call",
+      "passed": true
+    },
+    {
+      "name": "queued_video_submission_unbilled",
+      "passed": true
+    },
+    {
+      "name": "terminal_resolution_4k_rate_and_failed_zero_cost",
+      "passed": true,
+      "synthetic_success_cost": 0.1,
+      "synthetic_failure_cost": 0.0
+    },
+    {
+      "name": "provider_reported_video_cost_can_override_catalog",
+      "passed": true,
+      "synthetic_reported_cost": 0.123
+    },
+    {
+      "name": "repeated_terminal_polls_do_not_duplicate_settlement",
+      "passed": true
+    },
+    {
+      "name": "dashboard_log_api_can_read_non_chat_rows",
+      "passed": true
+    }
+  ],
+  "mock_prices_are_not_production_prices": true,
+  "binary_sha256": "29ba0456fdad1e4eeaadec36ca6034dd6a77c335882aad91a5e20fff26673d15",
+  "video_adapter_observation": {
+    "requested_size": "3840x2160",
+    "actual_provider_size": "720x1280",
+    "provider_fields": [
+      "model",
+      "prompt",
+      "seconds",
+      "size"
+    ],
+    "references_preserved": false,
+    "input_video_preserved": false,
+    "sampler_preserved": false,
+    "native_id_has_provider_suffix": true
+  },
+  "settlement_rows": [
+    {
+      "object_type": "video_retrieve",
+      "cost": 0.1,
+      "video_debug": {
+        "video_id": "video_cpu_c0d0e19aa712418d827afbbcd85fe9ce:openai",
+        "status": "completed",
+        "accounting": {
+          "seconds": 5,
+          "size": "3840x2160",
+          "request_type": "video_generation"
+        },
+        "settled_by_request_id": "7f5e8ad8-8a5f-4b30-856e-4fde4b874926"
+      }
+    },
+    {
+      "object_type": "video_retrieve",
+      "cost": 0.0,
+      "video_debug": {
+        "video_id": "video_cpu_35c3ceead12244f198e533b5f63a937f:openai",
+        "status": "failed",
+        "accounting": {
+          "seconds": 5,
+          "size": "3840x2160",
+          "request_type": "video_generation"
+        },
+        "settled_by_request_id": "3a2db1f3-c0e5-47a4-8af6-1c16c9507829"
+      }
+    },
+    {
+      "object_type": "video_retrieve",
+      "cost": 0.123,
+      "video_debug": {
+        "video_id": "video_cpu_3814c23bbf7147a6b317ff73c07213bf:openai",
+        "status": "completed",
+        "accounting": {
+          "seconds": 5,
+          "size": "3840x2160",
+          "request_type": "video_generation",
+          "provider_cost": 0.123
+        },
+        "settled_by_request_id": "b80315f7-ef17-4a69-8c60-0510171de6de"
+      }
+    }
+  ],
+  "completed_at": 1795602583.5322323,
+  "real_video_generated": false,
+  "limitations": [
+    "Mock jobs and synthetic rates only, no actual GPU queue integration or long-duration timeout validation",
+    "No front-end browser visual acceptance",
+    "No production model or billing configuration changed"
+  ]
+}
