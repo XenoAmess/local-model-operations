@@ -2874,3 +2874,8 @@ Nov12同机同用户OpenCode1.19.5成功维护缓存复用；两请求普通HTTP
 
 
 2026-11-25 [Civ6 final finite evidence boundary](evidence/2026-11-25-civ6-current184-finite40-complete.json)：当日1.19.6维护成功缓存与原生工具生成0分列；旧失败/尖峰、软件静态夹具和真实全量采集分别保留。
+
+
+### 2026-11-25 Civ6 Alpha4 release preparation
+
+Daily maintenance reused actual 2026-11-25 success cache, installed and target1.19.6. Native generation/tool calls0; maintenance is not generation evidence. [Finite evidence](evidence/2026-11-25-civ6-alpha4-release-availability.json).

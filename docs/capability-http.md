@@ -8123,3 +8123,8 @@ Owner规范准备152规划与配对：每包97Lua51／53、119ZIP／目标字节
 
 
 2026-11-25 [Civ6 current184 finite40完成](evidence/2026-11-25-civ6-current184-finite40-complete.json)：R243完整真实输入与指定模型缺席、owner实际纯读取校验和有限游戏结果分列，0生成/采用、成本null；39旧范围保留及12当前性能指标不冒称40全重跑。
+
+
+### 2026-11-25 Civ6 Alpha4 release preparation
+
+Configured qwen38-coder absent from a successful models GET; health GET200. Two GETs, no generation POST/candidate/adoption/fallback. Owner completed release preparation; no generation capability credit. [Finite evidence](evidence/2026-11-25-civ6-alpha4-release-availability.json).
