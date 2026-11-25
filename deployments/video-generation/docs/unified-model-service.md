@@ -9,7 +9,9 @@
 | Omni | `POST /v1/videos`，`model=fasth3-omni-bf16` |
 | IC 2K／4K | `POST /v1/videos/regenerations`，`model=open-h3-2k` |
 | 图片、音频和视频上传 | `POST /v1/files` |
-| Blender 资源与任务 | `PUT /v1/render/assets/{sha256}`、`POST /v1/render/jobs`、`GET /v1/render/jobs/{id}` |
+| Blender 素材上传 | `PUT /v1/render/assets/{sha256}` |
+| Blender 正式提交（计入 Bifrost） | `POST /v1/async/images/generations`，再 `GET /v1/async/images/generations/{id}` |
+| Blender 渲染进度和回执 | `GET /v1/render/jobs/{render_id}` |
 | Blender ZIP 下载 | `GET /v1/render/jobs/{id}/result`，支持 `Range` |
 | 任务队列 | `GET /v1/queue`、`GET /v1/queue/jobs`、`GET /v1/queue/jobs/{id}` |
 | 修改优先级、插队和取消 | `PATCH /v1/queue/jobs/{id}/priority`、`POST /v1/queue/jobs/{id}/promote`、`POST /v1/queue/jobs/{id}/cancel` |
@@ -47,6 +49,8 @@ curl -X PUT http://192.168.1.11:8080/v1/queue/preferences \
 
 ## Blender 白绮动作验收
 
+**正式作业用 Bifrost 异步图片接口提交。** 即使同样请求 8080，`POST /v1/render/jobs` 也只走直连队列，费用估值可在 `/v1/usage` 查询，该作业不会出现在 Bifrost 费用页。素材上传和结果下载使用各自的渲染接口。
+
 运行 Blender 5.3.0 EEVEE、固定的 PBZ `fb7e7cf` 脚本与固定版本 UEFormat。上传的 ZIP 包含 `manifest.json` 和它引用的素材。每个候选 `.blend` 需打包纹理。供体旁边带原始 `sampling_report.json`，其套组哈希必须匹配服务端。示例：
 
 ```json
@@ -58,34 +62,75 @@ curl -X PUT http://192.168.1.11:8080/v1/queue/preferences \
 }
 ```
 
-使用 `sha256sum review.zip` 取得 SHA-256，然后上传：
+### 上传素材
 
 ```bash
-curl -X PUT "http://192.168.1.11:8080/v1/render/assets/$digest" \
+base=http://192.168.1.11:8080
+digest=$(sha256sum review.zip | cut -d ' ' -f 1)
+curl -fsS -X PUT "$base/v1/render/assets/$digest" \
   -H 'Content-Type: application/zip' --data-binary @review.zip
 ```
 
-提交 `POST /v1/render/jobs` 时设置 `Idempotency-Key`。同键同请求返回同一任务，换了请求则返回 409。任务示例：
+### 提交并计入 Bifrost
+
+将下面的请求保存为 `render-request.json`。用上传得到的 SHA-256 替换 `input_sha256`，每次逻辑作业使用一个固定且唯一的 `render_idempotency_key`。提示词用于费用日志标签，动作和画面由 `render` 决定。
 
 ```json
 {
-  "kind": "blender_review",
-  "input_sha256": "把此处换成 ZIP 的 SHA-256",
-  "source_commit": "fb7e7cf",
-  "params": {
-    "forms": ["coat_on", "coat_off"],
-    "cases": ["arms_forward", "arms_abduction", "Hun_BaiShanDual_Attack_A"],
-    "sample_indices": [0, 2, 4],
-    "views": ["front", "oblique"],
-    "resolution": [1280, 1280],
-    "samples": 32,
-    "engine": "EEVEE",
-    "timeout_seconds": 1800
+  "model": "blender-review",
+  "prompt": "PBZ 白绮动作验收",
+  "render_idempotency_key": "把此处换成稳定的作业键",
+  "render": {
+    "kind": "blender_review",
+    "input_sha256": "把此处换成 ZIP 的 SHA-256",
+    "source_commit": "fb7e7cf",
+    "params": {
+      "forms": ["coat_on", "coat_off"],
+      "cases": ["arms_forward", "arms_abduction", "Hun_BaiShanDual_Attack_A"],
+      "sample_indices": [0, 2, 4],
+      "views": ["front", "oblique"],
+      "resolution": [1280, 1280],
+      "samples": 32,
+      "engine": "EEVEE",
+      "timeout_seconds": 1800
+    }
   }
 }
 ```
 
-此组合计划输出 72 张 PNG。`GET /v1/render/jobs/{id}` 返回实际进度、排队和运行耗时，以及 ZIP SHA-256。结果含每个形态的 `motion_report.json`、PNG、文件哈希清单与运行日志。下载走 `/result`，取消用 `DELETE /v1/render/jobs/{id}`。`completed` 代表文件交付成功，动作报告的 `pending_review` 或 `failed` 仍按 PBZ 的人工验收规则处理。[PBZ 渲染提案与放行规则](https://github.com/XenoAmess/PBZ_vivhite_mod/blob/fb7e7cf/qa/MAINTENANCE.md#6000d-渲染节点-http-接口提案)
+下面的命令使用 Bash 和 `jq`。提交返回 HTTP 202，保存应答里的 Bifrost 异步 ID 和 `request_id`，分别用于查询与费用日志对账。
+
+```bash
+curl -fsS -X POST "$base/v1/async/images/generations" \
+  -H 'Content-Type: application/json' --data-binary @render-request.json \
+  -o render-submission.json
+bifrost_id=$(jq -er '.id' render-submission.json)
+```
+
+重复查询同一个异步 ID，直到状态为 `completed` 或 `failed`。收到 202 后，直接查询已保存的 ID。同一个作业键约束底层渲染去重，重复 POST 仍可能产生另一个异步 ID。
+
+```bash
+curl -fsS "$base/v1/async/images/generations/$bifrost_id" -o render-status.json
+jq -r '.status' render-status.json
+```
+
+### 下载和对账
+
+完成时，`result.data[].url` 列出 PNG，URL 中的 `render_…` 是底层渲染 ID。Bifrost 的异步结果默认在完成后保留一小时。请保存渲染 ID，之后也可用它查询回执和下载完整 ZIP。
+
+```bash
+render_id=$(jq -er '.result.data[0].url | capture("/v1/render/jobs/(?<id>render_[0-9a-f]+)/images/").id' render-status.json)
+curl -fsS "$base/v1/render/jobs/$render_id"
+curl -fsS "$base/v1/render/jobs/$render_id/result" -o "$render_id.zip"
+```
+
+上面的配置计划交付 72 张 PNG。完整 ZIP 含每种形态的 `motion_report.json`、PNG、文件哈希清单和运行日志。作业状态 `completed` 表示文件交付成功；动作报告的 `pending_review` 或 `failed` 仍按 PBZ 的人工验收规则处理。费用页按模型 `blender-review` 查找该提交的 `request_id`。[PBZ 渲染提案与放行规则](https://github.com/XenoAmess/PBZ_vivhite_mod/blob/fb7e7cf/qa/MAINTENANCE.md#6000d-渲染节点-http-接口提案) · [Bifrost 费用日志](http://192.168.1.11:8080/workspace/logs)
+
+### 渲染管理和直连兼容
+
+`GET /v1/render/jobs/{render_id}` 返回进度、排队和运行耗时及 ZIP SHA-256，`DELETE /v1/render/jobs/{render_id}` 取消渲染。管理接口使用底层 `render_…` ID。Bifrost 提交应答使用自己的异步 ID，运行中可通过 `GET /v1/queue/jobs?model=blender-review` 查看渲染队列。
+
+需要提交后立即取得渲染 ID 的旧客户端可继续用 `POST /v1/render/jobs`。请求体取上例的 `render` 对象，作业键通过 `Idempotency-Key` 请求头传递。同键同请求返回相同渲染作业，换了请求返回 409。**这条直连兼容路径只记录本机用量和估值。**
 
 单个 ZIP 上限 2 GiB，解包上限 6 GiB，每任务最多 512 张图。分辨率每边 128 至 4096，样本 1 至 128。上传只允许相对路径数据文件，Blender 禁用自动执行，worker 在隔离 GPU 单元内运行。
 
@@ -93,7 +138,7 @@ curl -X PUT "http://192.168.1.11:8080/v1/render/assets/$digest" \
 
 适合按交付图片记账。Bifrost 2.6 的 `image_generation` 支持每张图片价格、分辨率档位、像素价格和固定请求费 `cost_per_request`。固定费可以和用量价格叠加。异步图片入口等 Blender 生成真实 PNG 后回传图片列表。排队和轮询不增加输出张数。[Bifrost 自定义价格](https://github.com/maximhq/bifrost/blob/172617bb045c6f43d697843c115e64f0155ed143/docs/providers/custom-pricing.mdx) · [异步图片路由](https://github.com/maximhq/bifrost/blob/172617bb045c6f43d697843c115e64f0155ed143/transports/bifrost-http/handlers/asyncinference.go)
 
-要经过 Bifrost 记录，向 `POST /v1/async/images/generations` 提交带有前述任务 JSON 的 `render` 对象，顶层添加 `"model":"blender-review"`、`"prompt":"PBZ motion review"` 和稳定的 `render_idempotency_key`。提示词用作日志标签。用 `GET /v1/async/images/generations/{id}` 查询 Bifrost 异步任务，PNG 下载 URL 里带共享队列的 `render_…` ID，ZIP 可用该 ID 下载。同一渲染任务只允许一次成功返回给图像计价通道。直接调用 `/v1/render/jobs` 的任务也进统一队列，用量在 `/v1/usage` 中可查。
+正式调用使用上面的[提交并计入 Bifrost](#提交并计入-bifrost)。同一渲染任务只允许一次成功返回给图像计价通道。
 
 Bifrost 的自定义价格基于已支持的请求类型。按 GPU 占用时长、采样量或复杂度计费时，节点可按确认后的规则计算金额，在图片响应中回传 `usage.cost.total_cost`，Bifrost 会使用该金额。当前 `run_seconds` 是渲染流程墙钟时间，包含本地处理，排队时间另记。若需按 GPU 独占时段结算，需要定义并记录相应计时区间。[图片用量结构](https://github.com/maximhq/bifrost/blob/172617bb045c6f43d697843c115e64f0155ed143/core/schemas/images.go) · [Bifrost 费用计算](https://github.com/maximhq/bifrost/blob/172617bb045c6f43d697843c115e64f0155ed143/framework/modelcatalog/datasheet/cost.go#L568)
 
