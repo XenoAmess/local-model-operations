@@ -1,0 +1,8 @@
+[Unit]
+Description=Check for local video billing jobs that outlasted Bifrost polling
+PartOf=bifrost-lan.service
+
+[Timer]
+OnActiveSec=5s
+OnUnitActiveSec=1min
+AccuracySec=1s

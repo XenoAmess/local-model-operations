@@ -1,0 +1,13 @@
+[Unit]
+Description=Recover expired billing for completed local video jobs
+After=bifrost-lan.service
+Requisite=bifrost-lan.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/workspace/xenoamess_bake_videos
+ExecStart=/usr/bin/python3 %h/workspace/xenoamess_bake_videos/tools/reconcile_video_billing.py --apply
+TimeoutStartSec=25s
+MemoryMax=64M
+MemorySwapMax=0
+UMask=0077

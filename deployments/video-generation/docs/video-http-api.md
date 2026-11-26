@@ -2,6 +2,8 @@
 
 服务器局域网地址：`192.168.1.11`。本机与客户端须能互通。当前接口不需要 API Key。
 
+需要 Bifrost 计费时，从 [对端视频 API 接入与对账](bifrost-video-client.md) 使用统一入口 `http://192.168.1.11:8080`。本页 8001／8002 示例是后台直连，提交不进入 Bifrost 账本。
+
 2026-11-20，API 3.0：新增[插队、优先级、取消、分页列表、维护及独立可用性状态](video-queue-management.md)。独立状态为 `http://192.168.1.11:8004/v1/service/status`。维护时提交生成返回 503／`Retry-After: 30`，查询和下载保持可用。4K 按原单窗口上限 **124 帧**严格分流：小于等于上限走旧路线，大于上限走整段 IC；不能以 5 秒／120 帧作为边界。S48 完整成片验收状态见[记录](../deployment/video-queue/full-sequence-validation.json)。
 
 | 服务 | API 根地址 | `model` 的准确名称 |
