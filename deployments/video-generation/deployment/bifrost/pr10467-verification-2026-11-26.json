@@ -1,0 +1,70 @@
+{
+  "pull_request": "https://github.com/maximhq/bifrost/pull/10467",
+  "upstream_branch": "dev",
+  "upstream_base": "4469d7471c86ef3c00e12f52bc58bb8c892c9ac9",
+  "previous_pr_commit": "b8eedb4bc3b466ffbcd256da6525c84965a64740",
+  "source_commit": "cf2fb48a8d393b294f4f0e17d14f628e0661d7cb",
+  "binary_sha256": "66edd8aec70316d3020496819cf6d29f7d75e157824aae6aa2706b724a36930d",
+  "build": {
+    "toolchain": "go1.27.4",
+    "gateway": "passed",
+    "embedded_ui_and_typescript": "passed"
+  },
+  "verification": {
+    "openai_video_unit_tests": "passed",
+    "video_job_accounting_unit_tests": "passed",
+    "upstream_harness_directories_preserved": 517,
+    "retained_json_fixture_cases": 2,
+    "fixture_collection_augmentation_and_filtering": "passed",
+    "isolated_http_case_count": 4,
+    "isolated_http_builtin_background_settlement": true,
+    "isolated_http_named_custom_settlement_on_terminal_get": true,
+    "isolated_http_terminal_settlement_is_idempotent": true,
+    "isolated_http_failed_job_charged_zero": true,
+    "production_database_copy_migration_and_dashboard": true,
+    "ui_provider_payload_tests_passed": 8,
+    "filter_10466_selected_two_json_fixture_cases": true,
+    "isolated_http_provider_save_preserves_json_mode": true
+  },
+  "local_service": {
+    "verified_at": "2026-11-26T10:42:29+08:00",
+    "endpoint": "http://192.168.1.11:8080",
+    "provider_id": "openai",
+    "models": [
+      "blender-review",
+      "fasth3-omni-bf16",
+      "open-h3-2k",
+      "qwen38-coder"
+    ],
+    "health_and_ledger": {
+      "health": true,
+      "dashboard_assets": true,
+      "dashboard_reads_historical_cost": true,
+      "provider_json_mode_enabled": true
+    },
+    "existing_video_tracking_rows_preserved": true,
+    "previous_process_and_consistent_database_snapshot_retained": true,
+    "gateway_recycle_health_recovered_in_seconds": 6.29,
+    "launches_at_boot": false,
+    "gateway_memory_high_gib": 14,
+    "gateway_memory_max_gib": 16,
+    "aggregate_memory_high_gib": 80,
+    "aggregate_memory_max_gib": 88,
+    "model_worker_restarted": false,
+    "render_queue_before": {
+      "running": 1,
+      "queued": 31
+    },
+    "render_queue_after": {
+      "running": 1,
+      "queued": 31
+    },
+    "pre_existing_omni_job_completed_after_cutover": true,
+    "pre_existing_omni_job_settled_once_after_first_cutover": true
+  },
+  "audit_comments": [
+    "https://github.com/maximhq/bifrost/pull/10467#discussion_r4694013181",
+    "https://github.com/maximhq/bifrost/pull/10467#discussion_r4703262459",
+    "https://github.com/maximhq/bifrost/pull/10467#discussion_r4703278668"
+  ]
+}

@@ -29,7 +29,7 @@ curl -X POST http://192.168.1.11:8080/v1/videos/regenerations \
   -d '{"model":"open-h3-2k","input_video":{"job_id":"video_gen_换成草稿任务ID"},"size":"3840x2160","sampler":"up3"}'
 ```
 
-用 `GET /v1/videos/{id}` 查询终态和实际输出规格，再用 `GET /v1/videos/{id}/content` 下载。进度查询直接读取共享队列，Bifrost 后台在终态自动结算一次。即使客户端停止轮询，已提交给 Bifrost 的作业也会自动结算。4K 仍按 24 FPS 归一化后的 124 帧边界分流。[4K 实际分流与文件输入](open-h3-4k-http.md)
+用 `GET /v1/videos/{id}` 查询终态和实际输出规格，再用 `GET /v1/videos/{id}/content` 下载。本机 8080 的进度查询直接读取共享队列。通过本机内置 `openai` provider 提交的作业由 Bifrost 后台在终态自动结算一次，客户端停止轮询也可结算。单独部署命名自定义 provider 时，应通过该 Bifrost 实例轮询视频查询接口直到终态来触发结算。4K 仍按 24 FPS 归一化后的 124 帧边界分流。[4K 实际分流与文件输入](open-h3-4k-http.md) · [Bifrost 参数适配与结算](bifrost-local-video-json-2026-11-25.md)
 
 ## 队列和 GPU 切换
 
@@ -182,7 +182,7 @@ systemctl --user start video-gpu-scheduler.service fasth3-omni-bf16.service h3-2
 systemctl --user start unified-model-http.service bifrost-lan.service bifrost-edge.service
 ```
 
-Qwen worker 由调度器按需启动，监听 loopback 8005。网关内部 8006 是 CPU 适配层。8080 的 Bifrost 使用 [修复分支提交 b8eedb4](https://github.com/XenoAmess/bifrost/commit/b8eedb4bc3b466ffbcd256da6525c84965a64740) 构建的完整费用页。现有本机 OpenAI provider 地址为 `http://127.0.0.1:8006`，启用 `openai_config.video_generation_json`，并将三个媒体模型加入允许列表。provider 超时为 18 小时，自动重试为 0。依赖与二进制版本见[技术验收摘要](../deployment/video-queue/unified-model-verification-20261125.json)。
+Qwen worker 由调度器按需启动，监听 loopback 8005。网关内部 8006 是 CPU 适配层。8080 的 Bifrost 运行由 PR #10467 的 `cf2fb48` 构建的网关和费用页。本机内置 `openai` provider 地址为 `http://127.0.0.1:8006`，启用 `openai_config.video_generation_json`，并将三个媒体模型加入允许列表。provider 超时为 18 小时，自动重试为 0。[本次 Bifrost 上线验收](../deployment/bifrost/pr10467-verification-2026-11-26.json) · [统一系统技术验收](../deployment/video-queue/unified-model-verification-20261125.json)
 
 停止前，通过 `POST /v1/service/maintenance` 提交 `{"enabled":true,"reason":"planned shutdown"}` 停接新任务。等 `GET /v1/service/status` 的 `running_jobs` 清空后，再停止：
 
