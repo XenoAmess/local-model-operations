@@ -164,9 +164,9 @@ Qwen 的客户端别名和原模型名使用同一费率。缓存折扣按实际
 
 视频提交记录的 `cost_status=settles_on_completion` 表示费用按成片结算。任务运行时提交记录没有最终金额。生成结束后，费用页以独立结算记录保存金额，和原提交关联。开启「分组」后，可在提交行查看其结算总额。历史进度查询显示零费用。[Bifrost 分组费用日志](http://192.168.1.11:8080/workspace/logs?period=this_month&grouped=true&limit=100)
 
-长队列耗尽 Bifrost 查询次数后，`bifrost-video-billing-reconcile.timer` 每分钟核对已到终态的本机 Omni／IC 作业。它恢复因 `max_poll_attempts` 停止跟踪且未入账的记录，金额和去重由 Bifrost 原有结算逻辑处理。该定时器随手动启动的 `bifrost-lan.service` 启停。[对端对账流程](bifrost-video-client.md)
+本机 Omni／IC 的结算采用 `bifrost-video-billing-reconcile.timer` 每分钟批查一次。它用一条 SQLite JOIN 获取所有未结算作业及队列状态。正常排队和运行按原 ID 持续跟踪，次数不限。共享队列记录终态后，才安排 Bifrost 读取最终规格，按原价目和去重规则结算。读取失败由后台退避，缺少队列记录或无法计价的状态记到定时任务日志。[对端对账流程](bifrost-video-client.md)
 
-2026-11-26 首次恢复了 14 个已完成的 Omni 作业。逐个核对到一条与原提交关联的终态费用，每件 $0.125，合计 $1.75。另一个仍在执行的作业保留在队列，达到终态后由定时器处理。
+2026-11-26 首次恢复了 14 个已完成的 Omni 作业。逐个核对到一条与原提交关联的终态费用，每件 $0.125，合计 $1.75。随后已将剩余在途作业转入批量跟踪。
 
 费率可用 [配置清单](../deployment/bifrost/market-pricing.json) 恢复。通过 Bifrost 的 `/api/governance/pricing-overrides` 新增或更新前四条（两条 Qwen 别名、两条视频规则），并同步部署配置 `governance.pricing_overrides`。Blender 在新作业完成时保存计算单据，供 Bifrost 读取。历史已结算的金额保留，缺金额的终态按原始使用量补录。
 
@@ -188,9 +188,9 @@ systemctl --user start video-gpu-scheduler.service fasth3-omni-bf16.service h3-2
 systemctl --user start unified-model-http.service bifrost-lan.service bifrost-edge.service
 ```
 
-Qwen worker 由调度器按需启动，监听 loopback 8005。网关内部 8006 是 CPU 适配层。8080 的 Bifrost 运行由 PR #10467 的 `cf2fb48` 构建的网关和费用页。本机内置 `openai` provider 地址为 `http://127.0.0.1:8006`，启用 `openai_config.video_generation_json`，并将三个媒体模型加入允许列表。provider 超时为 18 小时，自动重试为 0。[本次 Bifrost 上线验收](../deployment/bifrost/pr10467-verification-2026-11-26.json) · [统一系统技术验收](../deployment/video-queue/unified-model-verification-20261125.json)
+Qwen worker 由调度器按需启动，监听 loopback 8005。网关内部 8006 是 CPU 适配层。8080 上的网关和费用页基于 PR #10467 的 `cf2fb48` 加本地队列调度补丁构建。本机内置 `openai` provider 地址为 `http://127.0.0.1:8006`，启用 `openai_config.video_generation_json`，并将三个媒体模型加入允许列表。provider 超时为 18 小时，自动重试为 0。[本地队列补丁](../deployment/bifrost/local-video-queue-settlement.patch) · [批量结算验收](../deployment/bifrost/local-video-queue-settlement-verification-2026-11-26.json)
 
-首次安装计费恢复单元时，把 [service](../deployment/systemd/bifrost-video-billing-reconcile.service) 和 [timer](../deployment/systemd/bifrost-video-billing-reconcile.timer) 安装至 `~/.config/systemd/user/`，把 [Bifrost drop-in](../deployment/systemd/bifrost-lan.service.d/video-billing.conf) 安装在同目录的 `bifrost-lan.service.d/`。执行 `systemctl --user daemon-reload` 后即可单独 `start bifrost-video-billing-reconcile.timer` 为已运行的网关接入恢复。定时器没有开机安装项。用 `systemctl --user list-timers bifrost-video-billing-reconcile.timer` 查运行状态，用 `python3 tools/reconcile_video_billing.py` 预览待处理数。
+安装批量结算时，以 `cf2fb48` 应用上面的补丁并构建 Bifrost。启动二进制的 `/usr/bin/env` 参数须包含 `BIFROST_LOCAL_VIDEO_QUEUE_SETTLEMENT=true`。用 [service](../deployment/systemd/bifrost-video-billing-reconcile.service)、[timer](../deployment/systemd/bifrost-video-billing-reconcile.timer) 和 [Bifrost drop-in](../deployment/systemd/bifrost-lan.service.d/video-billing.conf) 更新 `~/.config/systemd/user/` 中对应文件，执行 `systemctl --user daemon-reload`。定时器随手动启动的 `bifrost-lan.service` 启停。运行 `systemctl --user list-timers bifrost-video-billing-reconcile.timer` 看下次检查时间，运行 `python3 tools/settle_queued_videos.py` 预览账务状态及待结算数量。
 
 停止前，通过 `POST /v1/service/maintenance` 提交 `{"enabled":true,"reason":"planned shutdown"}` 停接新任务。等 `GET /v1/service/status` 的 `running_jobs` 清空后，再停止：
 

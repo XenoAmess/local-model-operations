@@ -1,5 +1,5 @@
 {
-  "source_commit": "185d0e4e314c422763dd6de7c3e79ff7d2cdb9d8",
+  "source_commit": "31931b7a95312ac96854d2d69a3440640b3de94d",
   "source_runtime_directory": "/home/ubuntu/workspace/xenoamess_bake_videos",
   "repository_layout": "ordinary subdirectory of XenoAmess/local-model-operations; no nested .git",
   "scope": "Unified local GPU model queue, Bifrost-compatible media APIs and verified public-market rate configuration, plus PBZ Blender motion review and video deployment research.",
@@ -38,6 +38,16 @@
       "path": "deployment-omni.json",
       "bytes": 3634,
       "sha256": "bbcfd33e2a9ed84ff030fb16ec695167e28a55c732ae4eae08b7265827947397"
+    },
+    {
+      "path": "deployment/bifrost/local-video-queue-settlement-verification-2026-11-26.json",
+      "bytes": 1939,
+      "sha256": "cae8f6292d336e9f112498a64159e010ddd26b438d08f002bd70d03cae261cf8"
+    },
+    {
+      "path": "deployment/bifrost/local-video-queue-settlement.patch",
+      "bytes": 4125,
+      "sha256": "8736b421e72d0fa8910e9210e8137bf5eceaaf094814b44d9faf26c139f733e1"
     },
     {
       "path": "deployment/bifrost/market-pricing.json",
@@ -406,13 +416,13 @@
     },
     {
       "path": "deployment/systemd/bifrost-video-billing-reconcile.service",
-      "bytes": 370,
-      "sha256": "d4add2677e82d6420091e0c765de8560b7a4cc9d9904baeb567d1843b48c937b"
+      "bytes": 378,
+      "sha256": "844e5b2555bb66858481d8b10d707244189ef397bdfdc0fadbf04d6c5862e6bc"
     },
     {
       "path": "deployment/systemd/bifrost-video-billing-reconcile.timer",
-      "bytes": 172,
-      "sha256": "456c81aae0b1a3975ecb915a062408419471117f6940d7aa28498831af0f3ad3"
+      "bytes": 155,
+      "sha256": "d2cbba072f68f2085e4832021333a15b41c500942bf6e1958c39e95f8930b635"
     },
     {
       "path": "deployment/systemd/fasth3-omni-bf16-web.service",
@@ -596,8 +606,8 @@
     },
     {
       "path": "docs/bifrost-video-client.md",
-      "bytes": 5101,
-      "sha256": "7202f4d8693ac4336145407862bc853a7e290aad5648ca8157ef4e17d7b91a6c"
+      "bytes": 5057,
+      "sha256": "ddbc95c8c7811b081196c2883f7d025e8ac6afb58dfba10d6cb43ba4f9e95683"
     },
     {
       "path": "docs/deployment-git.md",
@@ -711,8 +721,8 @@
     },
     {
       "path": "docs/unified-model-service.md",
-      "bytes": 17964,
-      "sha256": "b81222efe602b20d4c7cb58c74dddfcab70da852ce86833c4711352639c84270"
+      "bytes": 18109,
+      "sha256": "f32507f7ea12121018674260d3c6a654282bd56ad1d1437c31a26a6932452b41"
     },
     {
       "path": "docs/video-framework-benchmark-2026-11-17.md",
@@ -925,9 +935,9 @@
       "sha256": "51ac78fcc0c2ff5228c4007103ab49112b2ae12a8a82304b51fabfd75cca4704"
     },
     {
-      "path": "tests/test_reconcile_video_billing.py",
-      "bytes": 4277,
-      "sha256": "d476abfaeaa217a917263f90c75153faff64666a0a6045341d35bb2fcd74e116"
+      "path": "tests/test_settle_queued_videos.py",
+      "bytes": 5270,
+      "sha256": "28259ec327165d54fbd1d81a850e1a4127f3bc3ed481ffc376b33461b3747acb"
     },
     {
       "path": "tests/test_unified_models.py",
@@ -1140,11 +1150,6 @@
       "sha256": "7dc07d3ab7fdae9191c0404c3341dab90aab95113d4477b36161bf56231bce85"
     },
     {
-      "path": "tools/reconcile_video_billing.py",
-      "bytes": 3265,
-      "sha256": "a07c9f32046ef77ecced153f18b07d306bf657c6fd15850cde6fe8f1cd6a419e"
-    },
-    {
       "path": "tools/reuse_omni_bf16_metadata.py",
       "bytes": 1451,
       "sha256": "024166a58d60b59f9b89ebf30ae1af12dea935e8dfecdcacf3d6d912f93ed065"
@@ -1218,6 +1223,11 @@
       "path": "tools/serve_video_status.py",
       "bytes": 2180,
       "sha256": "ea927ad79b680c0b4cf66579527625af375840d16c3aa315a34d609bc394cb16"
+    },
+    {
+      "path": "tools/settle_queued_videos.py",
+      "bytes": 6031,
+      "sha256": "fb9a4b03a8960910390f99cea18650f73d741d41836b0982fd4988d9f6982e34"
     },
     {
       "path": "tools/setup_h3_2k_env.py",

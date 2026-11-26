@@ -1,0 +1,89 @@
+diff --git a/plugins/logging/main.go b/plugins/logging/main.go
+index 2d6bf2e..d959e4b 100644
+--- a/plugins/logging/main.go
++++ b/plugins/logging/main.go
+@@ -9,6 +9,7 @@ import (
+ 	"encoding/hex"
+ 	"fmt"
+ 	"net/url"
++	"os"
+ 	"regexp"
+ 	"strconv"
+ 	"strings"
+@@ -995,9 +996,11 @@ func (p *LoggerPlugin) recordVideoJobLifecycle(entry *logstore.Log, result *sche
+ 	}
+ 
+ 	now := time.Now().UTC()
+-	switch resp.Status {
+-	case schemas.VideoStatusCompleted, schemas.VideoStatusFailed:
++	switch {
++	case resp.Status == schemas.VideoStatusCompleted || resp.Status == schemas.VideoStatusFailed:
+ 		job.NextCheckAt = &now
++	case localVideoQueueManaged(job) && (resp.Status == schemas.VideoStatusQueued || resp.Status == schemas.VideoStatusInProgress):
++		// The local queue coordinator makes this job due after it reaches a terminal state.
+ 	default:
+ 		// Video jobs finish in minutes, so the first poll is soon.
+ 		next := now.Add(30 * time.Second)
+@@ -1009,6 +1012,16 @@ func (p *LoggerPlugin) recordVideoJobLifecycle(entry *logstore.Log, result *sche
+ 	}
+ }
+ 
++var localQueueVideoID = regexp.MustCompile(`^video_gen_[0-9a-f]{32}:openai$`)
++
++func localVideoQueueManaged(job *tables.TableProviderJob) bool {
++	if job.Provider != string(schemas.OpenAI) || !localQueueVideoID.MatchString(job.JobID) {
++		return false
++	}
++	return (job.Model == "fasth3-omni-bf16" || job.Model == "open-h3-2k") &&
++		os.Getenv("BIFROST_LOCAL_VIDEO_QUEUE_SETTLEMENT") == "true"
++}
++
+ // videoDimensionsFromEntryParams reads the pricing-relevant request parameters off
+ // the log entry. The parameters arrive as the typed struct the request carried, but
+ // a rehydrated entry can present them as a decoded map, so both shapes are handled.
+diff --git a/plugins/logging/operations_test.go b/plugins/logging/operations_test.go
+index c78f3bb..e3a73d1 100644
+--- a/plugins/logging/operations_test.go
++++ b/plugins/logging/operations_test.go
+@@ -5028,6 +5028,41 @@ func newVideoLifecyclePlugin(t *testing.T) (*LoggerPlugin, *fakeBatchStore) {
+ 	}, bs
+ }
+ 
++func TestRecordVideoJobLifecycle_LocalQueueDefersOnlyActiveLocalVideos(t *testing.T) {
++	const queueID = "video_gen_0123456789abcdef0123456789abcdef:openai"
++	for _, tc := range []struct {
++		name, env, provider, model, videoID string
++		status                              schemas.VideoStatus
++		due                                 bool
++	}{
++		{"queued Omni", "true", "openai", "fasth3-omni-bf16", queueID, schemas.VideoStatusQueued, false},
++		{"running IC", "true", "openai", "open-h3-2k", queueID, schemas.VideoStatusInProgress, false},
++		{"completed local", "true", "openai", "open-h3-2k", queueID, schemas.VideoStatusCompleted, true},
++		{"disabled", "", "openai", "open-h3-2k", queueID, schemas.VideoStatusQueued, true},
++		{"other model", "true", "openai", "sora-2", queueID, schemas.VideoStatusQueued, true},
++		{"other provider", "true", "another", "open-h3-2k", queueID, schemas.VideoStatusQueued, true},
++		{"other ID", "true", "openai", "open-h3-2k", "provider-video-id", schemas.VideoStatusQueued, true},
++	} {
++		t.Run(tc.name, func(t *testing.T) {
++			t.Setenv("BIFROST_LOCAL_VIDEO_QUEUE_SETTLEMENT", tc.env)
++			plugin, store := newVideoLifecyclePlugin(t)
++			entry := &logstore.Log{ID: "submit-log", Provider: tc.provider, Model: tc.model}
++			result := &schemas.BifrostResponse{
++				VideoGenerationResponse: &schemas.BifrostVideoGenerationResponse{ID: tc.videoID, Status: tc.status},
++			}
++			plugin.recordVideoJobLifecycle(entry, result, schemas.VideoGenerationRequest)
++			jobID := cstables.ProviderJobID(cstables.ProviderJobKindVideo, tc.provider, tc.videoID)
++			job, err := store.GetProviderJob(context.Background(), jobID)
++			if err != nil || job == nil {
++				t.Fatalf("job persistence failed: %v", err)
++			}
++			if (job.NextCheckAt != nil) != tc.due {
++				t.Fatalf("scheduled to poll = %t, want %t", job.NextCheckAt != nil, tc.due)
++			}
++		})
++	}
++}
++
+ // The request is the only witness to duration and resolution for most providers,
+ // and it is in hand exactly once — here. If it is not written down now, settlement
+ // minutes later has nothing to price from.
