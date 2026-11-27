@@ -9,14 +9,16 @@
       "api_url": "http://127.0.0.1:8001",
       "worker_url": "http://127.0.0.1:8003",
       "worker_unit": "fasth3-omni-bf16-worker.service",
-      "max_inflight": 1
+      "max_inflight": 1,
+      "max_pending": 1024
     },
     {
       "id": "open-h3-2k",
       "adapter": "ic",
       "capabilities": ["video_regeneration_2k", "video_regeneration_4k"],
       "api_url": "http://127.0.0.1:8002",
-      "max_inflight": 2
+      "max_inflight": 2,
+      "max_pending": 1024
     },
     {
       "id": "qwen38-coder",

@@ -148,7 +148,7 @@ def create_app(store=None, model=None):
     def health():
         state = store.state()
         memory = recovery.snapshot()
-        return {"status": "ok", "model": model, "queue": len([j for j in store.pending() if j["model"] == model]),
+        return {"status": "ok", "model": model, "queue": store.pending_count(model),
                 "cloud_used": False, "queue_paused": memory["paused"], "recovery": memory,
                 "scheduling": "shared_model_affinity",
                 "scheduler_online": state.get("phase") != "stopped" and time.time() - state.get("heartbeat", 0) < 15,

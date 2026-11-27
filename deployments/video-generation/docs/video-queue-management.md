@@ -66,7 +66,9 @@ curl --noproxy '*' --fail-with-body -sS \
   'http://192.168.1.11:8002/v1/queue/jobs?model=open-h3-2k&status=queued&limit=20&after=video_gen_上一页的next_after'
 ```
 
-任务包含 `priority`、`front_order`、`queue_position`；重生成任务还显示上传时的 `input_filename`。依赖等待或已运行／结束的任务，列表中的预计排队位置为 null。查看实际下一任务请用 `/v1/queue` 的 `queued` 数组。每模型最多 32 个 queued／in_progress 任务，满时仍为 429；浏览历史任务不占 GPU。
+任务包含 `priority`、`front_order`、`queue_position`；重生成任务还显示上传时的 `input_filename`。依赖等待或已运行／结束的任务，列表中的预计排队位置为 null。查看实际下一任务请用 `/v1/queue` 的 `queued` 数组。Omni 和 IC 各最多 1024 个 `queued`／`in_progress` 任务，含依赖等待，满时返回 429。2K／4K 共用 IC 额度。
+
+本机隔离测试用 2048 个模拟任务，每条请求约 32 KiB。队列概览的 CPU 时间中位数由约 469 ms 降至 12 ms，独立测试进程峰值 RSS 由约 163 MiB 降至 27 MiB，返回的任务顺序和状态一致。概览不读取素材或任务文件。分页接口最多展开请求的 100 条记录。
 
 ## 对端如何判断能否提交
 

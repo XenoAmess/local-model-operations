@@ -1,5 +1,6 @@
 """Durable jobs and a fair model-affinity policy, shared by both LAN APIs."""
 
+from collections import defaultdict, deque
 from contextlib import contextmanager
 import hashlib
 import json
@@ -9,7 +10,7 @@ import sqlite3
 import time
 import uuid
 
-from model_registry import effective_duration, load_registry, select_job
+from model_registry import effective_duration, load_registry, select_job, task_sort_key
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = Path(os.environ.get("VIDEO_QUEUE_DATA", ROOT / "outputs/video-queue"))
@@ -21,6 +22,8 @@ MAX_BATCH = 3
 MAX_WAIT_SECONDS = 1800
 PRIORITY_MIN, PRIORITY_MAX = -1000, 1000
 JOB_STATES = ("queued", "in_progress", "completed", "failed", "cancelled")
+QUEUE_FIELDS = ("id", "model", "status", "created", "dependency", "priority", "front_order")
+QUEUE_COLUMNS = ", ".join(f"j.{field}" for field in QUEUE_FIELDS)
 
 
 class QueueConflict(ValueError):
@@ -104,6 +107,10 @@ class QueueStore:
             if "started" not in columns:
                 db.execute("ALTER TABLE jobs ADD COLUMN started REAL")
             db.execute("CREATE INDEX IF NOT EXISTS pending_jobs ON jobs(status,created)")
+            db.execute("CREATE INDEX IF NOT EXISTS active_jobs_by_model ON jobs(model, status) "
+                       "WHERE status IN ('queued','in_progress')")
+            db.execute("CREATE INDEX IF NOT EXISTS queued_jobs_by_dependency ON jobs(dependency) "
+                       "WHERE status='queued' AND dependency IS NOT NULL")
             db.execute("CREATE TABLE IF NOT EXISTS state(key TEXT PRIMARY KEY,value TEXT)")
             db.execute("CREATE TABLE IF NOT EXISTS idempotency(model TEXT, key TEXT, digest TEXT, job TEXT, "
                        "PRIMARY KEY(model,key))")
@@ -166,18 +173,47 @@ class QueueStore:
         with self.connection() as db:
             return self.decode(db.execute("SELECT * FROM jobs WHERE id=?", (job_id,)).fetchone())
 
-    def pending(self):
+    def job_status(self, job_id):
+        with self.connection() as db:
+            row = db.execute("SELECT status FROM jobs WHERE id=?", (job_id,)).fetchone()
+        return row["status"] if row else None
+
+    def pending(self, *, running_only=False):
+        states = "('in_progress')" if running_only else "('queued','in_progress')"
         with self.connection() as db:
             return [self.decode(row) for row in db.execute(
-                "SELECT * FROM jobs WHERE status IN ('queued','in_progress') ORDER BY created,id")]
+                f"SELECT * FROM jobs WHERE status IN {states} ORDER BY created,id")]
+
+    @staticmethod
+    def _pending_count(db, model):
+        return db.execute("SELECT COUNT(*) FROM jobs WHERE model=? AND status IN "
+                          "('queued','in_progress')", (model,)).fetchone()[0]
+
+    def pending_count(self, model):
+        with self.connection() as db:
+            return self._pending_count(db, model)
 
     def ready(self):
         with self.connection() as db:
             db.execute("BEGIN")
             revision = self._state_value(db, "queue_revision", 0)
-            rows = db.execute("SELECT j.* FROM jobs j LEFT JOIN jobs p ON p.id=j.dependency "
+            rows = db.execute(f"SELECT {QUEUE_COLUMNS} FROM jobs j LEFT JOIN jobs p ON p.id=j.dependency "
                               "WHERE j.status='queued' AND (j.dependency IS NULL OR p.status='completed')").fetchall()
-        return [dict(self.decode(row), _queue_revision=revision) for row in rows]
+        return [dict(row, _queue_revision=revision) for row in rows]
+
+    def load_selected(self, jobs):
+        """Load request bodies only for the cohort that is about to run."""
+        if not jobs:
+            return []
+        ids = tuple(job["id"] for job in jobs)
+        marks = ",".join("?" for _ in ids)
+        with self.connection() as db:
+            selected = {row["id"]: self.decode(row) for row in db.execute(
+                f"SELECT * FROM jobs WHERE id IN ({marks})", ids)}
+        for job in jobs:
+            if "_queue_revision" in job:
+                selected[job["id"]]["_queue_revision"] = job["_queue_revision"]
+        return [selected[job_id] for job_id in ids]
 
     def enqueue(self, model, request, dependency=None, priority=0, *, idempotency_key=None):
         if type(priority) is not int or not PRIORITY_MIN <= priority <= PRIORITY_MAX:
@@ -198,10 +234,8 @@ class QueueStore:
                         return self.decode(db.execute("SELECT * FROM jobs WHERE id=?", (previous["job"],)).fetchone())
                 if self._state_value(db, "service_control", {}).get("enabled"):
                     raise ServiceUnavailable("Service is draining/upgrading; retry after maintenance")
-                count = db.execute("SELECT COUNT(*) FROM jobs WHERE model=? AND status IN "
-                                   "('queued','in_progress')", (model,)).fetchone()[0]
                 limit = self.models.get(model, {}).get("max_pending", 32)
-                if count >= limit:
+                if self._pending_count(db, model) >= limit:
                     raise OverflowError(f"This model's queue is full ({limit} pending jobs)")
                 folder.mkdir(mode=0o700)
                 (folder / "request.json").write_text(json.dumps(request, ensure_ascii=False, indent=2) + "\n")
@@ -348,39 +382,54 @@ class QueueStore:
         return str(path)
 
     def fail_dependencies(self):
-        for job in self.pending():
-            if job["status"] != "queued" or not job["dependency"]:
-                continue
-            parent = self.get(job["dependency"])
-            if parent is None or parent["status"] in {"failed", "cancelled"}:
-                self.change(job["id"], "failed", "The source video task failed or was cancelled")
+        with self.connection(immediate=True) as db:
+            db.execute(
+                "WITH RECURSIVE broken(id) AS ("
+                "  SELECT j.id FROM jobs j LEFT JOIN jobs p ON p.id=j.dependency "
+                "  WHERE j.status='queued' AND j.dependency IS NOT NULL "
+                "  AND (p.id IS NULL OR p.status IN ('failed','cancelled')) "
+                "  UNION "
+                "  SELECT j.id FROM jobs j JOIN broken ON broken.id=j.dependency WHERE j.status='queued'"
+                ") UPDATE jobs SET status='failed', error=?, updated=? WHERE id IN (SELECT id FROM broken)",
+                ("The source video task failed or was cancelled", time.time()),
+            )
+            if db.execute("SELECT changes()").fetchone()[0]:
+                self._bump_revision(db)
 
     def snapshot(self):
         from video_queue_recovery import QueueRecovery
         recovery = QueueRecovery(self).snapshot()
         state = self.state()
         control = state.get("service_control", {})
-        ready = self.ready()
+        with self.connection() as db:
+            pending = [dict(row) for row in db.execute(
+                f"SELECT {QUEUE_COLUMNS}, j.dependency IS NULL OR p.status='completed' AS source_ready "
+                "FROM jobs j LEFT JOIN jobs p ON p.id=j.dependency "
+                "WHERE j.status IN ('queued','in_progress') ORDER BY j.created,j.id"
+            )]
         preferences = state.get("residency_preferences", {})
         active = state.get("active_model")
         now = time.time()
         ready_at = state.get("model_ready_at")
         duration = effective_duration(self.registry, preferences, active)
         protection = max(0, int(ready_at + duration - now + 0.999)) if ready_at is not None else None
+        ready_by_model = defaultdict(deque)
+        for job in sorted((j for j in pending if j["status"] == "queued" and j["source_ready"]), key=task_sort_key):
+            ready_by_model[job["model"]].append(job)
         order = []
-        remaining = list(ready)
         predicted_model, predicted_ready = active, ready_at
-        while remaining:
+        while ready_by_model:
             seconds = effective_duration(self.registry, preferences, predicted_model)
-            item = select_job(remaining, predicted_model, predicted_ready, seconds, now)
+            item = select_job((jobs[0] for jobs in ready_by_model.values()),
+                              predicted_model, predicted_ready, seconds, now)
             order.append(item)
-            remaining.remove(item)
-            if item["model"] != predicted_model:
-                predicted_model, predicted_ready = item["model"], now
-        pending = self.pending()
-        ordered_ids = {job["id"] for job in order}
-        blocked = [job for job in pending if job["status"] == "queued" and job["id"] not in ordered_ids]
-        clean = lambda j: {key: j[key] for key in ("id", "model", "status", "created", "dependency", "priority", "front_order")}
+            model = item["model"]
+            ready_by_model[model].popleft()
+            if not ready_by_model[model]:
+                del ready_by_model[model]
+            if model != predicted_model:
+                predicted_model, predicted_ready = model, now
+        clean = lambda j: {key: j[key] for key in QUEUE_FIELDS}
         return {"scheduler": state, "paused": recovery["paused"] or bool(control.get("enabled")),
                 "maintenance": control, "recovery": recovery,
                 "policy": {"residency_seconds": duration, "residency_preferences": preferences,
@@ -389,7 +438,7 @@ class QueueStore:
                            "note": "Model residency precedes cross-model priority. Positions estimate dispatch order; running work is not preempted."},
                 "running": [clean(j) for j in pending if j["status"] == "in_progress"],
                 "queued": [dict(clean(j), position=i + 1) for i, j in enumerate(order)],
-                "waiting_for_source": [clean(j) for j in blocked]}
+                "waiting_for_source": [clean(j) for j in pending if j["status"] == "queued" and not j["source_ready"]]}
 
     def public(self, job):
         request = job["request"]

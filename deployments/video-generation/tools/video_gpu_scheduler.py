@@ -215,7 +215,7 @@ class Scheduler:
                             raise
                         except Exception as error:
                             self.store.change(job["id"], "failed", str(error), only_running=True)
-                        if self.store.get(job["id"])["status"] == "completed":
+                        if self.store.job_status(job["id"]) == "completed":
                             self.recovery.record_success()
                     self.current = list(active.values())
                     if not active or len(active) >= entry["max_inflight"]:
@@ -230,7 +230,7 @@ class Scheduler:
                         self.store.claim([j["id"] for j in batch], self.llm_worker, batch[0]["_queue_revision"])
                     except QueueChanged:
                         continue
-                    send(batch)
+                    send(self.store.load_selected(batch))
                     self.current = list(active.values())
                 if self.stop.is_set():
                     raise InterruptedError("Scheduler is stopping")
@@ -255,7 +255,7 @@ class Scheduler:
             self.state("bf16_generation")
             if self.stop.is_set():
                 raise InterruptedError("Scheduler is stopping")
-            if self.store.get(job["id"])["status"] == "cancelled":
+            if self.store.job_status(job["id"]) == "cancelled":
                 await systemctl("stop", BACKEND_UNIT)
                 self.backend = False
                 return
@@ -274,8 +274,9 @@ class Scheduler:
         import shutil
         shutil.copyfile(source, destination)
         receipt = {key: native.get(key) for key in ("inference_time_s", "stage_durations", "size", "seconds")}
-        receipt.update(model=OMNI, backend_job=native["id"], sha256=hashlib.sha256(destination.read_bytes()).hexdigest(),
-                       cloud_used=False)
+        with destination.open("rb") as stream:
+            receipt.update(model=OMNI, backend_job=native["id"], sha256=hashlib.file_digest(stream, "sha256").hexdigest(),
+                           cloud_used=False)
         atomic_json(folder / "result.json", receipt)
         log = subprocess.run(["journalctl", "--user", "-u", "llmlab-fasth3-omni-bf16-worker.service",
                               "-n", "220", "--no-pager", "-o", "cat"], capture_output=True, text=True).stdout
@@ -331,7 +332,7 @@ class Scheduler:
                             sampled_peaks[field] = max(sampled_peaks.get(field, 0), value)
                         except (OSError, ValueError):
                             pass
-                if self.stop.is_set() or any(self.store.get(j["id"])["status"] == "cancelled" for j in jobs):
+                if self.stop.is_set() or any(self.store.job_status(j["id"]) == "cancelled" for j in jobs):
                     interrupted = True
                     await systemctl("stop", self.active_unit)
                     break
@@ -348,7 +349,7 @@ class Scheduler:
         resource_values["peak_collection"] = "cgroup kernel peak counters sampled while worker was alive"
         atomic_json(batch_dir / "resources.json", resource_values)
         for job in jobs:
-            if self.store.get(job["id"])["status"] == "cancelled":
+            if self.store.job_status(job["id"]) == "cancelled":
                 continue
             folder = Path(job["directory"])
             if (folder / "result.json").is_file() and (folder / "result.mp4").is_file():
@@ -392,7 +393,7 @@ class Scheduler:
                 self.state("blender_rendering")
                 if self.ready_at is None and (folder / "render-ready").exists():
                     self.ready_at = time.time()
-                if self.stop.is_set() or self.store.get(job["id"])["status"] == "cancelled":
+                if self.stop.is_set() or self.store.job_status(job["id"]) == "cancelled":
                     await systemctl("stop", self.active_unit, check=False)
                     await process.wait()
                     if self.stop.is_set():
@@ -414,13 +415,14 @@ class Scheduler:
         self.store.change(job["id"], "completed", only_running=True)
 
     def cohort(self, selected, ready):
-        jobs = [selected]
         entry = self.store.models[selected["model"]]
         if entry["adapter"] == "openai_llm":
-            return sorted((j for j in ready if j["model"] == selected["model"]), key=task_sort_key)[:entry["max_inflight"]]
+            jobs = sorted((j for j in ready if j["model"] == selected["model"]), key=task_sort_key)[:entry["max_inflight"]]
+            return self.store.load_selected(jobs)
+        jobs = self.store.load_selected([selected])
         if selected["model"] != REFINER:
             return jobs
-        request = selected["request"]
+        request = jobs[0]["request"]
         if get_profile(request["size"]).max_jobs_per_cohort == 1:
             return jobs
         key = tuple(request[k] for k in ("seed", "size", "sampler"))
@@ -428,8 +430,10 @@ class Scheduler:
         residence = self.ready_at if self.model == REFINER else time.time()
         duration = effective_duration(self.store.registry, self.store.preferences(), REFINER)
         candidate = select_job(remaining, REFINER, residence, duration)
-        if candidate and candidate["model"] == REFINER and tuple(candidate["request"][k] for k in ("seed", "size", "sampler")) == key:
-            jobs.append(candidate)
+        if candidate and candidate["model"] == REFINER:
+            candidate = self.store.load_selected([candidate])[0]
+            if tuple(candidate["request"][k] for k in ("seed", "size", "sampler")) == key:
+                jobs.append(candidate)
         return jobs
 
     async def run(self):
@@ -443,20 +447,17 @@ class Scheduler:
             for entry in self.store.models.values():
                 if entry.get("worker_unit"):
                     await systemctl("stop", entry["worker_unit"], check=False)
-            for job in self.store.pending():
-                if job["status"] == "in_progress":
-                    if job["unit"]:
-                        await systemctl("stop", job["unit"])
-                    replayable = job["request"].get("task_kind", "video") == "video"
-                    self.store.change(job["id"], "queued" if replayable else "failed", "Interrupted by scheduler restart")
+            for job in self.store.pending(running_only=True):
+                if job["unit"]:
+                    await systemctl("stop", job["unit"])
+                replayable = job["request"].get("task_kind", "video") == "video"
+                self.store.change(job["id"], "queued" if replayable else "failed", "Interrupted by scheduler restart")
             self.store.event("scheduler_started")
             while not self.stop.is_set():
                 self.store.fail_dependencies()
                 canary = self.store.state().get("service_control", {}).get("validation_job")
-                if canary:
-                    checked = self.store.get(canary)
-                    if checked and checked["status"] in {"completed", "failed", "cancelled"}:
-                        self.store.maintenance(True, "Full-sequence canary finished; automated result verification in progress")
+                if canary and self.store.job_status(canary) in {"completed", "failed", "cancelled"}:
+                    self.store.maintenance(True, "Full-sequence canary finished; automated result verification in progress")
                 if await self.recover_memory():
                     await asyncio.sleep(self.recovery.policy.probe_interval_seconds)
                     continue
@@ -500,7 +501,7 @@ class Scheduler:
                         await self.execute_llm(self.current, entry)
                     elif adapter == "blender_review":
                         await self.execute_blender(self.current[0])
-                    if any(self.store.get(job["id"])["status"] == "completed" for job in self.current):
+                    if any(self.store.job_status(job["id"]) == "completed" for job in self.current):
                         if self.ready_at is None:
                             self.ready_at = time.time()
                         self.recovery.record_success()
@@ -516,7 +517,7 @@ class Scheduler:
                     for job in self.current:
                         self.store.change(job["id"], "failed", message, only_running=True)
                         # Startup/adaptation failures can precede a successful claim.
-                        if self.store.get(job["id"])["status"] == "queued":
+                        if self.store.job_status(job["id"]) == "queued":
                             self.store.change(job["id"], "failed", message)
                     self.store.event("execution_failed", model=self.model, error=message)
                     gpu_result = (await systemctl("show", "llmlab-fasth3-omni-bf16-worker.service", "-p", "Result", "--value", check=False)
@@ -527,7 +528,7 @@ class Scheduler:
                     memory_failure = isinstance(error, MemoryError) or "out of memory" in message.lower() or gpu_result == "oom-kill"
                     if memory_failure:
                         self.recovery.record_failure([j["id"] for j in self.current
-                                                      if self.store.get(j["id"])["status"] == "failed"], message,
+                                                      if self.store.job_status(j["id"]) == "failed"], message,
                                                      [self.active_unit] + [j.get("unit") for j in self.current])
                     else:
                         if self.active_unit:

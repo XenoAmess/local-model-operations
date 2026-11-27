@@ -81,15 +81,46 @@ class StoreAndHttpTest(unittest.TestCase):
         self.assertEqual(self.store.get(child["id"])["status"], "failed")
 
     def test_concurrent_enqueues_enforce_the_queue_limit_without_orphan_folders(self):
-        def insert(_):
-            try:
-                return self.enqueue()["id"]
-            except OverflowError:
-                return None
-        with ThreadPoolExecutor(max_workers=8) as pool:
-            ids = [x for x in pool.map(insert, range(40)) if x]
-        self.assertEqual(len(set(ids)), 32)
-        self.assertEqual(len(list(self.store.jobs.iterdir())), 32)
+        for model in (OMNI, REFINER):
+            def insert(_):
+                try:
+                    return self.enqueue(model)["id"]
+                except OverflowError:
+                    return None
+            with self.subTest(model=model), ThreadPoolExecutor(max_workers=8) as pool:
+                ids = [job_id for job_id in pool.map(insert, range(1032)) if job_id]
+                self.assertEqual(len(set(ids)), 1024)
+                self.assertEqual(self.store.pending_count(model), 1024)
+        self.assertEqual(len(list(self.store.jobs.iterdir())), 2048)
+        parent = self.store.ready()
+        parent_id = next(job["id"] for job in parent if job["model"] == OMNI)
+        with TestClient(create_app(self.store, OMNI)) as omni, TestClient(create_app(self.store, REFINER)) as refiner:
+            image = omni.post("/v1/files", files={"file": ("character.png", b"fixture", "image/png")}).json()["id"]
+            self.assertEqual(omni.post("/v1/videos", json={
+                "prompt": "wave", "image_reference": [{"file_id": image}],
+            }).status_code, 429)
+            self.assertEqual(refiner.post("/v1/videos/regenerations", json={
+                "input_video": {"job_id": parent_id},
+            }).status_code, 429)
+
+    def test_queue_snapshot_and_dependency_scan_do_not_load_task_payloads_or_files(self):
+        parent = self.enqueue()
+        child = self.enqueue(REFINER, parent["id"])
+        other = self.enqueue()
+        with self.store.connection() as db:
+            db.execute("UPDATE jobs SET payload='unfinished-json' WHERE id IN (?,?)", (child["id"], other["id"]))
+        with patch.object(Path, "read_text", side_effect=AssertionError("Queue read opened a task file")):
+            self.store.fail_dependencies()
+            ready = self.store.ready()
+            self.assertEqual({job["id"] for job in ready}, {parent["id"], other["id"]})
+            snapshot = self.store.snapshot()
+            self.assertEqual([job["id"] for job in snapshot["waiting_for_source"]], [child["id"]])
+        self.assertEqual(self.store.load_selected([job for job in ready if job["id"] == parent["id"]])[0]["request"],
+                         parent["request"])
+        self.store.change(parent["id"], "failed")
+        self.store.fail_dependencies()
+        with self.store.connection() as db:
+            self.assertEqual(db.execute("SELECT status FROM jobs WHERE id=?", (child["id"],)).fetchone()[0], "failed")
 
     def test_upload_generate_dependent_refine_and_global_queue(self):
         with TestClient(create_app(self.store, OMNI)) as omni, TestClient(create_app(self.store, REFINER)) as refiner:
